@@ -116,6 +116,16 @@ let
             "file" = "createschematichelper-fabric-mc1.18.2-2.0.3.jar";
             "hash" = "sha512-n8sr2r9en+dnhGLGNPQvV6SkTmlA7ZTQPnQM6jqHxXPOlsyqtt7WHP5epqY9TsY6FIn6uRzSyUQmipGqYMjYpw==";
         };
+        _oqEEkF7n = {
+            "id" = "oqEEkF7n";
+            "file" = "createschematichelper-neoforge-mc1.21.1-2.1.0.jar";
+            "hash" = "sha512-DBmSh0ERNQlZ7FYwlCUppwgOoYJP8jnX9VhMS/JBS+dhVWyFPs05vkLqEWaaRpimcbh8LuwoE9bRhzUvUNbRCQ==";
+        };
+        _pa7HZala = {
+            "id" = "pa7HZala";
+            "file" = "createschematichelper-neoforge-mc1.21.1-2.2.0.jar";
+            "hash" = "sha512-lYXkDUuG57xoEL3vOLlVOOtQuxMe8+ZTmeSUaowR5bz5wPQwSSAm7npStyti0IYXfeKuKcQOF8hH762T8hSgxA==";
+        };
     in {
         "d6s8b2WJ" = _d6s8b2WJ;
         "QnPWbDw3" = _QnPWbDw3;
@@ -140,18 +150,20 @@ let
         "DGTiUlhh" = _DGTiUlhh;
         "PFq18mCo" = _PFq18mCo;
         "ZngNdOEm" = _ZngNdOEm;
+        "oqEEkF7n" = _oqEEkF7n;
+        "pa7HZala" = _pa7HZala;
         "neoforge-1.21" = _d6s8b2WJ;
-        "neoforge-1.21.1" = _ghn7StYe;
-        "neoforge-1.21.2" = _ghn7StYe;
-        "neoforge-1.21.3" = _ghn7StYe;
-        "neoforge-1.21.4" = _ghn7StYe;
-        "neoforge-1.21.5" = _ghn7StYe;
-        "neoforge-1.21.6" = _ghn7StYe;
-        "neoforge-1.21.7" = _ghn7StYe;
-        "neoforge-1.21.8" = _ghn7StYe;
-        "neoforge-1.21.9" = _ghn7StYe;
-        "neoforge-1.21.10" = _ghn7StYe;
-        "neoforge-1.21.11" = _ghn7StYe;
+        "neoforge-1.21.1" = _pa7HZala;
+        "neoforge-1.21.2" = _pa7HZala;
+        "neoforge-1.21.3" = _pa7HZala;
+        "neoforge-1.21.4" = _pa7HZala;
+        "neoforge-1.21.5" = _pa7HZala;
+        "neoforge-1.21.6" = _pa7HZala;
+        "neoforge-1.21.7" = _pa7HZala;
+        "neoforge-1.21.8" = _pa7HZala;
+        "neoforge-1.21.9" = _pa7HZala;
+        "neoforge-1.21.10" = _pa7HZala;
+        "neoforge-1.21.11" = _pa7HZala;
         "forge-1.18.2" = _BAk43kNi;
         "forge-1.19.2" = _NRxxWCFf;
         "forge-1.19.3" = _NRxxWCFf;
@@ -178,7 +190,9 @@ let
         "pkg-2.0.1" = _44pr5xc6;
         "pkg-2.0.2" = _vd7rEXxm;
         "pkg-2.0.3" = _ZngNdOEm;
-        "default" = _ZngNdOEm;
+        "pkg-2.1.0" = _oqEEkF7n;
+        "pkg-2.2.0" = _pa7HZala;
+        "default" = _pa7HZala;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-schematic-upload";

@@ -641,6 +641,31 @@ let
             "file" = "TerraFirmaGreg-Core-Modern-0.9.18.jar";
             "hash" = "sha512-FxLZ2ylEtW7I4C7yX4BcJtrU4Xwn4mxgymiGK58/RGtenOMVZ7wGjpfdtVpuwZGZZt2ft7u5elmy66E5jTP5+w==";
         };
+        _B7iKQYTH = {
+            "id" = "B7iKQYTH";
+            "file" = "TerraFirmaGreg-Core-Modern-0.9.19.jar";
+            "hash" = "sha512-hVRLR7v0ec7LW8eImQcxycY0ydRiu0cpwV6PAPl1QvzwY/GSom+SkhKE74X62b3N3YvFcOkzwRVno7GtpvUkRw==";
+        };
+        _3205fnl9 = {
+            "id" = "3205fnl9";
+            "file" = "TerraFirmaGreg-Core-Modern-0.9.20.jar";
+            "hash" = "sha512-vq/9LhvjisYaspitVvpKMPY1XCwSdeM3xsP960CddRARXhBJAxcXqJ1NR0OyD1VXleOrC7Tbf8TFOb7Xt5pJYg==";
+        };
+        _cXjZqQd4 = {
+            "id" = "cXjZqQd4";
+            "file" = "TerraFirmaGreg-Core-Modern-0.9.21.jar";
+            "hash" = "sha512-Me0oRJLPq/ujKAJvgXiksGBZdSLi+ehFYXfoJ3Qf8NTmRxmMhd01Bcbu7umDEPiyx5rVLXiitHwdYL1oIyXkdw==";
+        };
+        _u3ntHqTc = {
+            "id" = "u3ntHqTc";
+            "file" = "TerraFirmaGreg-Core-Modern-0.9.22.jar";
+            "hash" = "sha512-/ibcZunWIXFFSMsiL2vrqCSps/7N5Illco7fjJosZhoQAtENyr2zXDpdWktfy9mXrM9k6sTd9i+zHygcrA9UpA==";
+        };
+        _BoDnFjYy = {
+            "id" = "BoDnFjYy";
+            "file" = "TerraFirmaGreg-Core-Modern-0.9.23.jar";
+            "hash" = "sha512-zi5kIIhO+5mQnILK1ImpaQkLLj6m3VdlXPmkp1BzOeXyW3GG41LFr7R+uSJIij52JC0h9yUgVWvUf++CsKfJzw==";
+        };
     in {
         "LuHLuSrA" = _LuHLuSrA;
         "xMsNuWB7" = _xMsNuWB7;
@@ -770,7 +795,12 @@ let
         "iKqWqLsV" = _iKqWqLsV;
         "UCC3oEfP" = _UCC3oEfP;
         "zDIPrPnt" = _zDIPrPnt;
-        "forge-1.20.1" = _zDIPrPnt;
+        "B7iKQYTH" = _B7iKQYTH;
+        "3205fnl9" = _3205fnl9;
+        "cXjZqQd4" = _cXjZqQd4;
+        "u3ntHqTc" = _u3ntHqTc;
+        "BoDnFjYy" = _BoDnFjYy;
+        "forge-1.20.1" = _BoDnFjYy;
         "forge-1.12.1" = _22gGCpy3;
         "forge-1.12.2" = _uXJ0dIRp;
         "neoforge-1.20.1" = _V6SPXlVC;
@@ -901,7 +931,12 @@ let
         "pkg-0.9.16" = _iKqWqLsV;
         "pkg-0.9.17" = _UCC3oEfP;
         "pkg-0.9.18" = _zDIPrPnt;
-        "default" = _zDIPrPnt;
+        "pkg-0.9.19" = _B7iKQYTH;
+        "pkg-0.9.20" = _3205fnl9;
+        "pkg-0.9.21" = _cXjZqQd4;
+        "pkg-0.9.22" = _u3ntHqTc;
+        "pkg-0.9.23" = _BoDnFjYy;
+        "default" = _BoDnFjYy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "terrafirmagreg-core";

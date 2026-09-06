@@ -51,6 +51,46 @@ let
             "file" = "jeitrades-neoforge-26.2-1.2.0.jar";
             "hash" = "sha512-ajZ9I62wp1ELa55Q9xmJ7++vdqCvzTwBBhTBNroFtmgfUv/8AxJAnlLieVIwhqlECApubHASP10Jri+rZ/iBRQ==";
         };
+        _hrorTLhv = {
+            "id" = "hrorTLhv";
+            "file" = "jeitrades-fabric-26.1.2-1.2.1.jar";
+            "hash" = "sha512-Ta60/OCvxaGrFTLHkkgkQdB+bCTKUww2tjnt4C04IBjvawtYpYU3OAyZYRIPvKgNG11IEFN8HOWNgINYYjPTvg==";
+        };
+        _rUHcu43w = {
+            "id" = "rUHcu43w";
+            "file" = "jeitrades-neoforge-26.1.2-1.2.1.jar";
+            "hash" = "sha512-ORJkMCRcfbTh+/aLmWN/vhyVmINdGbk9wHFWBwOYRS7qpGCaHf+nWqGYS3jdaP08yOJwcbMIFms0FiNyUhLtGA==";
+        };
+        _JXeDVGMF = {
+            "id" = "JXeDVGMF";
+            "file" = "jeitrades-fabric-26.2-1.2.1.jar";
+            "hash" = "sha512-F1jerqgjcc/c8GfSLjp/CEBFeAKXv4KVvErN9iRIf/4JNYs8QUPdOvzL8zj7EuGyueD5TQcc7MPEVSOlsa0IZA==";
+        };
+        _ohO6TSCM = {
+            "id" = "ohO6TSCM";
+            "file" = "jeitrades-neoforge-26.2-1.2.1.jar";
+            "hash" = "sha512-WnWnHsSQJbgJbJWXPdP73o8I4YFTLfMJ3l71hv3Y2muzQDLwLTYk1nrPY0gp1dqjx/KhObBi2r5Z+4ivlz6A1Q==";
+        };
+        _XLs5Hsue = {
+            "id" = "XLs5Hsue";
+            "file" = "jeitrades-fabric-26.1.2-1.2.2.jar";
+            "hash" = "sha512-3Gk6rayhWebYkQvttWgYBSfRPqPtOcNr90gqSnYF8FgfHtEtQKhdE/CjvOZUOkJGykhLoMwfQKyKBHUXFF0LvA==";
+        };
+        _Mes8Uqj1 = {
+            "id" = "Mes8Uqj1";
+            "file" = "jeitrades-neoforge-26.1.2-1.2.2.jar";
+            "hash" = "sha512-GiECcnqjCsirywXg5rcNZJ5znb6gg06emLakpPzX8BL/eSTjctkszRYSqYPZsFrYUPOa3jHbRR9IjK2AIYJhug==";
+        };
+        _pYei51hX = {
+            "id" = "pYei51hX";
+            "file" = "jeitrades-fabric-26.2-1.2.2.jar";
+            "hash" = "sha512-HbTveINXXGdkfgwOFvoUhvWiLXt/9IJT/lDDECITR1yM5JoQN9fFORiUdsmr/jNs+iP+J3auMcMf3tL/lmskzQ==";
+        };
+        _y2ThX5Vk = {
+            "id" = "y2ThX5Vk";
+            "file" = "jeitrades-neoforge-26.2-1.2.2.jar";
+            "hash" = "sha512-M0WoYsrxipXsaw74SNlVXcvOo0ggxRT9zdprnweFwm5Mto+UWT38grRH3GRAtRUwhEiccdFEvL7c7fJsZS2+6Q==";
+        };
     in {
         "9I9GcBof" = _9I9GcBof;
         "Txl8WGCz" = _Txl8WGCz;
@@ -62,14 +102,22 @@ let
         "EC3PnZDB" = _EC3PnZDB;
         "AilWLCb5" = _AilWLCb5;
         "cGOUEAXT" = _cGOUEAXT;
-        "fabric-26.1" = _qoAUQmU4;
-        "fabric-26.1.1" = _qoAUQmU4;
-        "fabric-26.1.2" = _qoAUQmU4;
-        "fabric-26.2" = _AilWLCb5;
-        "neoforge-26.1" = _EC3PnZDB;
-        "neoforge-26.1.1" = _EC3PnZDB;
-        "neoforge-26.1.2" = _EC3PnZDB;
-        "neoforge-26.2" = _cGOUEAXT;
+        "hrorTLhv" = _hrorTLhv;
+        "rUHcu43w" = _rUHcu43w;
+        "JXeDVGMF" = _JXeDVGMF;
+        "ohO6TSCM" = _ohO6TSCM;
+        "XLs5Hsue" = _XLs5Hsue;
+        "Mes8Uqj1" = _Mes8Uqj1;
+        "pYei51hX" = _pYei51hX;
+        "y2ThX5Vk" = _y2ThX5Vk;
+        "fabric-26.1" = _XLs5Hsue;
+        "fabric-26.1.1" = _XLs5Hsue;
+        "fabric-26.1.2" = _XLs5Hsue;
+        "fabric-26.2" = _pYei51hX;
+        "neoforge-26.1" = _Mes8Uqj1;
+        "neoforge-26.1.1" = _Mes8Uqj1;
+        "neoforge-26.1.2" = _Mes8Uqj1;
+        "neoforge-26.2" = _y2ThX5Vk;
         "pkg-1.0.0+fabric-26.1" = _9I9GcBof;
         "pkg-1.0.0+neoforge-26.1" = _Txl8WGCz;
         "pkg-1.1.0+fabric-26.1" = _5fKDUAc6;
@@ -80,7 +128,15 @@ let
         "pkg-1.2.0+neoforge-26.1" = _EC3PnZDB;
         "pkg-1.2.0+fabric-26.2" = _AilWLCb5;
         "pkg-1.2.0+neoforge-26.2" = _cGOUEAXT;
-        "default" = _cGOUEAXT;
+        "pkg-1.2.1+fabric-26.1" = _hrorTLhv;
+        "pkg-1.2.1+neoforge-26.1" = _rUHcu43w;
+        "pkg-1.2.1+fabric-26.2" = _JXeDVGMF;
+        "pkg-1.2.1+neoforge-26.2" = _ohO6TSCM;
+        "pkg-1.2.2+fabric-26.1" = _XLs5Hsue;
+        "pkg-1.2.2+neoforge-26.1" = _Mes8Uqj1;
+        "pkg-1.2.2+fabric-26.2" = _pYei51hX;
+        "pkg-1.2.2+neoforge-26.2" = _y2ThX5Vk;
+        "default" = _y2ThX5Vk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jei-trades";

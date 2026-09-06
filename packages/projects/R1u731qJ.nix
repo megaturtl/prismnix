@@ -88,17 +88,20 @@ let
         "dhps7rlN" = _dhps7rlN;
         "neoforge-1.21.1" = _dhps7rlN;
         "forge-1.20.1" = _9gFhw3m9;
-        "pkg-1.0.0" = _ueG1dnQE;
+        "pkg-1.0.0" = _5xXG6sXj;
         "pkg-1.1.0" = _NNIG2mMs;
         "pkg-1.1.1" = _MeGwiFwS;
         "pkg-1.2.0" = _HblaWON9;
         "pkg-1.3.0" = _fKOeaDb2;
-        "pkg-1.3.1" = _LMOX73gx;
-        "pkg-1.0.1" = _MJIhnzpm;
-        "pkg-1.0.2" = _XQRo5RS8;
-        "pkg-1.4.0" = _xN3f1fww;
-        "pkg-1.5.0" = _edElFIsC;
-        "pkg-1.5.1" = _dhps7rlN;
+        "pkg-1.20.1-1.0.0-forge" = _ueG1dnQE;
+        "pkg-1.21.1-1.3.1-neoforge" = _LMOX73gx;
+        "pkg-1.20.1-1.0.1-forge" = _MJIhnzpm;
+        "pkg-1.20.1-1.0.2-forge" = _XQRo5RS8;
+        "pkg-1.21.1-1.4.0-neoforge" = _xN3f1fww;
+        "pkg-1.21.1-1.5.0-neoforge" = _MSVAKps9;
+        "pkg-1.20.1-1.5.0-forge" = _edElFIsC;
+        "pkg-1.20.1-1.5.1-forge" = _9gFhw3m9;
+        "pkg-1.21.1-1.5.1-neoforge" = _dhps7rlN;
         "default" = _dhps7rlN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

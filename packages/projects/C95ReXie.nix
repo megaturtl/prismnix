@@ -1121,6 +1121,36 @@ let
             "file" = "MysticalAgriculture-26.1.2-9.0.4.jar";
             "hash" = "sha512-wTI0qQBEfXLhZ5JFuSH/EBevG1We2kI+3ZK4vpwQ/tZ8VrL+qQtZcr67t62YnPptVIs8zPGgUaxQFZKjbJNjQg==";
         };
+        _u50t5NSi = {
+            "id" = "u50t5NSi";
+            "file" = "MysticalAgriculture-26.1.2-9.0.5.jar";
+            "hash" = "sha512-xtffj5xKq4q620VPKRIm9eS/4tLw0RkUt6bavXgKK9vi57QmC5wkK/QpI3iQDA/Q41gPtYvUkc8uK/f1Ip1ctA==";
+        };
+        _Rwv2Zfc1 = {
+            "id" = "Rwv2Zfc1";
+            "file" = "MysticalAgriculture-26.1.2-9.0.6.jar";
+            "hash" = "sha512-3CIV2xHup1cYZ2AQc/JiaTyYapU6dya6qmA8PRKC+SBqusItZR8CoaD6XqqibBgu+XksWw3l7wUfWqx6WxOCyQ==";
+        };
+        _TYSAnOJq = {
+            "id" = "TYSAnOJq";
+            "file" = "MysticalAgriculture-26.1.2-9.0.7.jar";
+            "hash" = "sha512-9m5hJzxKaizejHcFqy0WPqP86j/n/3rbvfNJhOdQA29tarlH3lFgWnM7nozgpC1wpHq57Yda2spmJpjhM7K3fw==";
+        };
+        _PLakgT6X = {
+            "id" = "PLakgT6X";
+            "file" = "MysticalAgriculture-1.21.1-8.0.28.jar";
+            "hash" = "sha512-Sdj/4dP/Uft3iUm0gAcLBB9ge0UuVs6LUP4K6ZL84hCiB31FpVD8WXbClktlUd1E7QzNj/O3hZsJHFRmQqCWMg==";
+        };
+        _ht0tHmbG = {
+            "id" = "ht0tHmbG";
+            "file" = "MysticalAgriculture-26.1.2-9.0.8.jar";
+            "hash" = "sha512-cSWKkZDuWXa2LihMwDLbRnPYKVU241Cb6Ho+at8NMX7ccSrhzjCZoM9dtc45ww158r69QlXCdOB0FcorTMuldg==";
+        };
+        _os4OXhWm = {
+            "id" = "os4OXhWm";
+            "file" = "MysticalAgriculture-26.1.2-9.0.9.jar";
+            "hash" = "sha512-lA/IAUmoJgF+N81r2fTwxiKoqAdwWXbUUHUB9R2cwsNgB1UBrpGwOW6ogWTthEQ9l+j5a4xHGF6XEF9dG//n6g==";
+        };
     in {
         "rT5qvA6E" = _rT5qvA6E;
         "y7sGlB3m" = _y7sGlB3m;
@@ -1346,6 +1376,12 @@ let
         "54ahURWI" = _54ahURWI;
         "izIaJr8V" = _izIaJr8V;
         "rRasTeFh" = _rRasTeFh;
+        "u50t5NSi" = _u50t5NSi;
+        "Rwv2Zfc1" = _Rwv2Zfc1;
+        "TYSAnOJq" = _TYSAnOJq;
+        "PLakgT6X" = _PLakgT6X;
+        "ht0tHmbG" = _ht0tHmbG;
+        "os4OXhWm" = _os4OXhWm;
         "forge-1.10" = _y7sGlB3m;
         "forge-1.10.2" = _lGUsZqaQ;
         "forge-1.11" = _1950P508;
@@ -1366,9 +1402,9 @@ let
         "forge-1.19.4" = _lPXkyHvj;
         "forge-1.20" = _kPRNh9cW;
         "forge-1.20.1" = _EEilTecF;
-        "neoforge-1.21" = _izIaJr8V;
-        "neoforge-1.21.1" = _izIaJr8V;
-        "neoforge-26.1.2" = _rRasTeFh;
+        "neoforge-1.21" = _PLakgT6X;
+        "neoforge-1.21.1" = _PLakgT6X;
+        "neoforge-26.1.2" = _os4OXhWm;
         "pkg-1.0.0" = _rT5qvA6E;
         "pkg-1.0.1" = _y7sGlB3m;
         "pkg-1.0.2" = _4KlBTgPo;
@@ -1570,7 +1606,13 @@ let
         "pkg-9.0.3" = _54ahURWI;
         "pkg-8.0.27" = _izIaJr8V;
         "pkg-9.0.4" = _rRasTeFh;
-        "default" = _rRasTeFh;
+        "pkg-9.0.5" = _u50t5NSi;
+        "pkg-9.0.6" = _Rwv2Zfc1;
+        "pkg-9.0.7" = _TYSAnOJq;
+        "pkg-8.0.28" = _PLakgT6X;
+        "pkg-9.0.8" = _ht0tHmbG;
+        "pkg-9.0.9" = _os4OXhWm;
+        "default" = _os4OXhWm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mystical-agriculture";

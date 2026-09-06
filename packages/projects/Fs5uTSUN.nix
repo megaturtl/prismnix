@@ -51,6 +51,11 @@ let
             "file" = "3D Buckets and Fish 26.2_v2.zip";
             "hash" = "sha512-PG2LA1oBh0+J464WesP8DRpGe9uSfxiwjiuTQP2Q6k3+2EzDrxfI1UOGul1Bwy+ffi7U1O52dP5W0+nRtFmhig==";
         };
+        _siH5mu4k = {
+            "id" = "siH5mu4k";
+            "file" = "3D Buckets and Fish 26.3_v1.zip";
+            "hash" = "sha512-2TQvByZrN1kw1HHV3uWvzBtsxgZHRpeg8RoYiG63cnqQLn0NcFvxV2LuDI80HC3UMhaFwNUl+3V9HQnaalaWXA==";
+        };
     in {
         "835vH0FF" = _835vH0FF;
         "ol9UcbFe" = _ol9UcbFe;
@@ -62,6 +67,7 @@ let
         "vaUVoIRi" = _vaUVoIRi;
         "53uS29qm" = _53uS29qm;
         "w7ZjGquC" = _w7ZjGquC;
+        "siH5mu4k" = _siH5mu4k;
         "minecraft-1.20" = _835vH0FF;
         "minecraft-1.20.1" = _835vH0FF;
         "minecraft-25w03a" = _ol9UcbFe;
@@ -128,6 +134,17 @@ let
         "minecraft-26.2-rc-1" = _w7ZjGquC;
         "minecraft-26.2-rc-2" = _w7ZjGquC;
         "minecraft-26.2" = _w7ZjGquC;
+        "minecraft-26.3-snapshot-1" = _siH5mu4k;
+        "minecraft-26.3-snapshot-2" = _siH5mu4k;
+        "minecraft-26.3-snapshot-3" = _siH5mu4k;
+        "minecraft-26.3-snapshot-4" = _siH5mu4k;
+        "minecraft-26.3-snapshot-5" = _siH5mu4k;
+        "minecraft-26.3-snapshot-6" = _siH5mu4k;
+        "minecraft-26.3-snapshot-7" = _siH5mu4k;
+        "minecraft-26.3-snapshot-8" = _siH5mu4k;
+        "minecraft-26.3-snapshot-9" = _siH5mu4k;
+        "minecraft-26.3-snapshot-10" = _siH5mu4k;
+        "minecraft-26.3-pre-1" = _siH5mu4k;
         "pkg-1.20_v1" = _835vH0FF;
         "pkg-1.21.5_v1" = _ol9UcbFe;
         "pkg-1.21.11_v1" = _h3vFESg5;
@@ -138,7 +155,8 @@ let
         "pkg-26.1_v2" = _vaUVoIRi;
         "pkg-26.2_v1" = _53uS29qm;
         "pkg-26.2_v2" = _w7ZjGquC;
-        "default" = _w7ZjGquC;
+        "pkg-26.3_v1" = _siH5mu4k;
+        "default" = _siH5mu4k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "findreks-3d-buckets-and-fish";

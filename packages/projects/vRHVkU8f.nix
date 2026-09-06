@@ -16,10 +16,16 @@ let
             "file" = "Torrezx-Hollow_night_totem.zip";
             "hash" = "sha512-pdTQAP59HM/iSz/vTU+CUAUaZmqZLvENT8EMUrcuEustnoRig7T6wLOfnacLcuQyfl5wEJhQRPjau8za7ALCcw==";
         };
+        _7umiNW3l = {
+            "id" = "7umiNW3l";
+            "file" = "Torrezx-Hollow_knight_totem.zip";
+            "hash" = "sha512-ygusMb67mGCiMITKgjXCkyqQ1wfRK6NgqWoI16RXFKx544pDIcP2pvXksfUkRT/DsTb0l6NbRbIQcJsNi3AI/Q==";
+        };
     in {
         "HRPg8Iun" = _HRPg8Iun;
         "lAkP89BW" = _lAkP89BW;
         "iMjuKp4Q" = _iMjuKp4Q;
+        "7umiNW3l" = _7umiNW3l;
         "minecraft-1.20" = _HRPg8Iun;
         "minecraft-1.20.1" = _HRPg8Iun;
         "minecraft-1.20.2" = _lAkP89BW;
@@ -32,16 +38,20 @@ let
         "minecraft-1.21.2" = _lAkP89BW;
         "minecraft-1.21.3" = _lAkP89BW;
         "minecraft-1.21.4" = _lAkP89BW;
-        "minecraft-1.21.5" = _iMjuKp4Q;
-        "minecraft-1.21.6" = _iMjuKp4Q;
-        "minecraft-1.21.7" = _iMjuKp4Q;
-        "minecraft-1.21.8" = _iMjuKp4Q;
-        "minecraft-1.21.9" = _iMjuKp4Q;
-        "minecraft-1.21.10" = _iMjuKp4Q;
-        "minecraft-1.21.11" = _iMjuKp4Q;
-        "pkg-Torrezx-Hollow_knight_totem" = _lAkP89BW;
+        "minecraft-1.21.5" = _7umiNW3l;
+        "minecraft-1.21.6" = _7umiNW3l;
+        "minecraft-1.21.7" = _7umiNW3l;
+        "minecraft-1.21.8" = _7umiNW3l;
+        "minecraft-1.21.9" = _7umiNW3l;
+        "minecraft-1.21.10" = _7umiNW3l;
+        "minecraft-1.21.11" = _7umiNW3l;
+        "minecraft-26.1" = _7umiNW3l;
+        "minecraft-26.1.1" = _7umiNW3l;
+        "minecraft-26.1.2" = _7umiNW3l;
+        "minecraft-26.2" = _7umiNW3l;
+        "pkg-Torrezx-Hollow_knight_totem" = _7umiNW3l;
         "pkg-Torrezx-Hollow_knight_totems" = _iMjuKp4Q;
-        "default" = _iMjuKp4Q;
+        "default" = _7umiNW3l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "torrezx-hollow-night-totem";

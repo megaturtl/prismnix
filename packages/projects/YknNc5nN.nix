@@ -66,6 +66,16 @@ let
             "file" = "PolyPatcher-1.12.2-forge-1.10.3.jar";
             "hash" = "sha512-4YCF9isM59GU9fTDnePgnwusS90tMF2LSsYjP0g+41ZUDQkylq82gIiD7y9F/9JSLlW8PaxdSeiPw0wnZc563w==";
         };
+        _iNjGeSxM = {
+            "id" = "iNjGeSxM";
+            "file" = "PolyPatcher-1.8.9-forge-1.10.4.jar";
+            "hash" = "sha512-3El5/OZ9ThwYFDuzae8PWXQ4qSW6pHzqMK67AnuBOiUg/hblj260pV6AqNIr+rhvEAAJ6aKzX92dIZVk4wDQtA==";
+        };
+        _oGsOX99n = {
+            "id" = "oGsOX99n";
+            "file" = "PolyPatcher-1.12.2-forge-1.10.4.jar";
+            "hash" = "sha512-TPRUy90YOHWLUARGPOfEsTVNI6BCkrEUQjI3TPwpVRkpgq2JC5M3HouEvfI9MSgoHF7o1UKhYAGDlr3Umsu8FQ==";
+        };
     in {
         "pb8E1BYb" = _pb8E1BYb;
         "GPQ1gmkv" = _GPQ1gmkv;
@@ -80,8 +90,10 @@ let
         "mH2EYjx3" = _mH2EYjx3;
         "o16JHhlj" = _o16JHhlj;
         "uJQgj3TS" = _uJQgj3TS;
-        "forge-1.8.9" = _o16JHhlj;
-        "forge-1.12.2" = _uJQgj3TS;
+        "iNjGeSxM" = _iNjGeSxM;
+        "oGsOX99n" = _oGsOX99n;
+        "forge-1.8.9" = _iNjGeSxM;
+        "forge-1.12.2" = _oGsOX99n;
         "pkg-v1.9.0" = _GPQ1gmkv;
         "pkg-v1.9.1" = _Un9OWGto;
         "pkg-v1.9.2" = _31WqxlJC;
@@ -89,7 +101,8 @@ let
         "pkg-v1.10.1" = _EWLjfDIo;
         "pkg-v1.10.2" = _mH2EYjx3;
         "pkg-v1.10.3" = _uJQgj3TS;
-        "default" = _uJQgj3TS;
+        "pkg-1.10.4" = _oGsOX99n;
+        "default" = _oGsOX99n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "patcher";

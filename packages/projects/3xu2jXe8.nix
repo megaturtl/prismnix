@@ -56,6 +56,11 @@ let
             "file" = "createimp-1.4.0.jar";
             "hash" = "sha512-BtC5utf4qS1rgplgS0KUs4As07KnfNMisoUNk0QAex89VcOn1mNghEr1ls1ojwYf7gX6hmVUMtvLMb23YWuLPQ==";
         };
+        _LzKSSB7X = {
+            "id" = "LzKSSB7X";
+            "file" = "createimp-1.4.1.jar";
+            "hash" = "sha512-3glcKct6PL4McX/0NEnYpGXxZ8YAPwsaUxvb7yl8OsE5qbNG6ApRbgpuqVoF6wdKV3VU00MEdXiqAEIN8PykIA==";
+        };
     in {
         "GzKajMC5" = _GzKajMC5;
         "F37VC6e6" = _F37VC6e6;
@@ -68,7 +73,8 @@ let
         "7iJ333iD" = _7iJ333iD;
         "LIoUWnx6" = _LIoUWnx6;
         "o2S9g3uH" = _o2S9g3uH;
-        "neoforge-1.21.1" = _o2S9g3uH;
+        "LzKSSB7X" = _LzKSSB7X;
+        "neoforge-1.21.1" = _LzKSSB7X;
         "pkg-1.0.0" = _GzKajMC5;
         "pkg-1.1.0" = _F37VC6e6;
         "pkg-1.2.0" = _WnkqrGfO;
@@ -80,7 +86,8 @@ let
         "pkg-1.3.4" = _7iJ333iD;
         "pkg-1.3.5" = _LIoUWnx6;
         "pkg-1.4.0" = _o2S9g3uH;
-        "default" = _o2S9g3uH;
+        "pkg-1.4.1" = _LzKSSB7X;
+        "default" = _LzKSSB7X;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-improve";

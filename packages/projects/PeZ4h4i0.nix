@@ -351,6 +351,31 @@ let
             "file" = "elemental_wizards_rpg-neoforge-3.0.1+1.21.1.jar";
             "hash" = "sha512-L18cKxHKffSHbIZUnuNJDQogCgjXWkxgTr7xhTy6DglbR+fQaAPLKr3drK4hTqEJcMrncIcD9bPo8BJosD+CJg==";
         };
+        _cBv3HSnp = {
+            "id" = "cBv3HSnp";
+            "file" = "elemental_wizards_rpg-fabric-3.0.2+1.21.1.jar";
+            "hash" = "sha512-mHu70k3DPM9+bP6S3HpipA+YjTMDD0LKLgNiKYEqK+Rfjbq++L0GoAs+VFrWBKWcBzVUU5ypeDyNlConKsx8WQ==";
+        };
+        _1IcUdNgT = {
+            "id" = "1IcUdNgT";
+            "file" = "elemental_wizards_rpg-neoforge-3.0.2+1.21.1.jar";
+            "hash" = "sha512-Vd/vTKpCAGufW+Hrr5mq7CQbujzv1h88g4MXgQCim4HIp4gw4p/tpWvToFX+oFdcXmMZV5ryvKNq+TcVjUy0BA==";
+        };
+        _2aHSE5KT = {
+            "id" = "2aHSE5KT";
+            "file" = "elemental_wizards_rpg-1.3.8-1.20.1.jar";
+            "hash" = "sha512-HInfe9MJnmX+SXkciCU0lz3t7ltz8akL8LN/X2CUWly4o36VkkEY3knLL+vKBeS56zk/GovAi60hPOSjzwwe4A==";
+        };
+        _4mPj22vf = {
+            "id" = "4mPj22vf";
+            "file" = "elemental_wizards_rpg-neoforge-3.1.0+1.21.1.jar";
+            "hash" = "sha512-Dei7k2FuSxLxxcKjD5appdIBnSypHUZyyuickWsxZjKWOEih4iCFPrSKngXQbM03+Q3D8jjeGi42WnjutVJ42A==";
+        };
+        _oe2HOmzq = {
+            "id" = "oe2HOmzq";
+            "file" = "elemental_wizards_rpg-fabric-3.1.0+1.21.1.jar";
+            "hash" = "sha512-X9C5mCGp2d1rm+x3MZz4y18qhsTmyNJpuSlT6Kf6PV9dC9wQfcC/8jp/karM61pbahFvnmfyOBMPMTt1qk7CAA==";
+        };
     in {
         "9GHEda68" = _9GHEda68;
         "Efzh6LGH" = _Efzh6LGH;
@@ -422,10 +447,15 @@ let
         "QQkAamR4" = _QQkAamR4;
         "dmniUyjX" = _dmniUyjX;
         "PShGF8Yo" = _PShGF8Yo;
-        "fabric-1.20.1" = _PXKL6Des;
+        "cBv3HSnp" = _cBv3HSnp;
+        "1IcUdNgT" = _1IcUdNgT;
+        "2aHSE5KT" = _2aHSE5KT;
+        "4mPj22vf" = _4mPj22vf;
+        "oe2HOmzq" = _oe2HOmzq;
+        "fabric-1.20.1" = _2aHSE5KT;
         "fabric-1.21" = _qO8bDTof;
-        "fabric-1.21.1" = _dmniUyjX;
-        "neoforge-1.21.1" = _PShGF8Yo;
+        "fabric-1.21.1" = _oe2HOmzq;
+        "neoforge-1.21.1" = _4mPj22vf;
         "pkg-1.0.0" = _9GHEda68;
         "pkg-1.1.0" = _Efzh6LGH;
         "pkg-1.1.1" = _aDkZOmsm;
@@ -496,7 +526,12 @@ let
         "pkg-3.0.0+1.21.1-neoforge" = _QQkAamR4;
         "pkg-3.0.1+1.21.1-fabric" = _dmniUyjX;
         "pkg-3.0.1+1.21.1-neoforge" = _PShGF8Yo;
-        "default" = _PShGF8Yo;
+        "pkg-3.0.2+1.21.1-fabric" = _cBv3HSnp;
+        "pkg-3.0.2+1.21.1-neoforge" = _1IcUdNgT;
+        "pkg-1.3.8-1.20.1" = _2aHSE5KT;
+        "pkg-3.1.0+1.21.1-neoforge" = _4mPj22vf;
+        "pkg-3.1.0+1.21.1-fabric" = _oe2HOmzq;
+        "default" = _oe2HOmzq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elemental-wizards-rpg";

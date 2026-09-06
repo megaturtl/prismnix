@@ -41,6 +41,21 @@ let
             "file" = "epicfight-extra-1.2-mc1.20.1-forge-all.jar";
             "hash" = "sha512-lw2Y0RwWcn62QQKEI1ta2u8nltgwGAaUAK21r0HzWbXgnWWu+EZkFU6vubmc3y6TKhLWPoaYf9JOhRVdO9ASHw==";
         };
+        _5hxcSYqw = {
+            "id" = "5hxcSYqw";
+            "file" = "epicfight-extra-neoforge1.21.1-1.2.1.jar";
+            "hash" = "sha512-JHJxDjwlLB+9qz0CduEkY/vKbRfnT0BFnmcHcpDXvMMxF29JVpN94t+Mu078WWOREw8O57hDd2msg5kQdWipTQ==";
+        };
+        _qnWdCoWH = {
+            "id" = "qnWdCoWH";
+            "file" = "epicfight-extra-1.2.1-mc1.20.1-forge-all.jar";
+            "hash" = "sha512-5TXVySg8+cOSFNAoDw1KYHMQdFGFmO7Kk9TpoxAF98aW5kiF6DFXUTbqTlcW1zBxL5wTrZXyiYLE5sNHtV28WQ==";
+        };
+        _TU1ON2si = {
+            "id" = "TU1ON2si";
+            "file" = "epicfight-extra-neoforge1.21.1-1.2.2.jar";
+            "hash" = "sha512-tnGzXlrmsDuEkfLYs/U4kwFqhGkeWkz7uvMjZRlZ/tGbXFZ3Ypw4+GiBleQTLKg2mpvRRWPYQLMJS+pPJnQdqQ==";
+        };
     in {
         "UvPaZKDK" = _UvPaZKDK;
         "9ibik1QS" = _9ibik1QS;
@@ -50,12 +65,16 @@ let
         "3qxXLdBW" = _3qxXLdBW;
         "DAQQw2Qe" = _DAQQw2Qe;
         "YWO7OcvC" = _YWO7OcvC;
-        "forge-1.20.1" = _YWO7OcvC;
+        "5hxcSYqw" = _5hxcSYqw;
+        "qnWdCoWH" = _qnWdCoWH;
+        "TU1ON2si" = _TU1ON2si;
+        "forge-1.20.1" = _qnWdCoWH;
         "forge-1.20.2" = _YWO7OcvC;
         "forge-1.20.3" = _YWO7OcvC;
         "forge-1.20.4" = _YWO7OcvC;
         "forge-1.20.5" = _YWO7OcvC;
         "forge-1.20.6" = _YWO7OcvC;
+        "neoforge-1.21.1" = _TU1ON2si;
         "pkg-1.0.0" = _UvPaZKDK;
         "pkg-1.1.2-mc1.20.1-forge" = _9ibik1QS;
         "pkg-1.1.4-mc1.20.1-forge" = _QM6O0THa;
@@ -64,7 +83,10 @@ let
         "pkg-1.1.8-mc1.20.1-forge" = _3qxXLdBW;
         "pkg-1.1.9-mc1.20.1-forge" = _DAQQw2Qe;
         "pkg-1.2" = _YWO7OcvC;
-        "default" = _YWO7OcvC;
+        "pkg-1.2.1" = _5hxcSYqw;
+        "pkg-1.2.1-mc1.20.1-forge" = _qnWdCoWH;
+        "pkg-1.2.2" = _TU1ON2si;
+        "default" = _TU1ON2si;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "epicfight-extra";

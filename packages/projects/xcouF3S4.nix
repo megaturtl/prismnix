@@ -91,6 +91,16 @@ let
             "file" = "path_reversal-3.0.7-26.x.jar";
             "hash" = "sha512-GAhBYUYPYMTRuUFh4NAk1pmHS4fMr5Jbh+EAVmxjWV45k3FU2y0VaxeCFEbYHkkeCE3S/uQXjZPefHYnZFgV2Q==";
         };
+        _6okLJ1Y2 = {
+            "id" = "6okLJ1Y2";
+            "file" = "path_reversal-3.0.7-1.20.x.jar";
+            "hash" = "sha512-uJmEYc7RF/UW/0cL3lH1bzBzPGY8WGq26JzaV9VyqUn1t4+eZ8Z8VRuIVrbjUiuQwo3Bio9e5uUppfamu5+nRA==";
+        };
+        _oORMofwW = {
+            "id" = "oORMofwW";
+            "file" = "path_reversal-3.0.7-1.21.x.jar";
+            "hash" = "sha512-s6ef6MPyck8S2tGuxMHN7R8cYfhAJya9DnkxLx6iBQr4Vl+SdQ/NvrRMev8Uw696t/Om2iIpV+dxU0IH9/ogpg==";
+        };
     in {
         "zhgaSqra" = _zhgaSqra;
         "HWHRoKsv" = _HWHRoKsv;
@@ -110,20 +120,31 @@ let
         "FypLmA65" = _FypLmA65;
         "Tm3aL9Rq" = _Tm3aL9Rq;
         "hWomW5oD" = _hWomW5oD;
-        "fabric-1.20.4" = _VqRIWNeY;
-        "fabric-1.20.1" = _6lSOKVNp;
-        "fabric-1.20.2" = _sbhZoDxt;
-        "fabric-1.20.3" = _n87K4zEQ;
-        "fabric-1.21" = _VzBtJjo3;
-        "fabric-1.21.1" = _Pv4mTyD1;
-        "fabric-1.21.2" = _TB9Ub4OB;
-        "fabric-1.21.3" = _jx2xkH9r;
-        "fabric-1.21.4" = _l80azU2i;
-        "fabric-1.21.5" = _3GRnqSfm;
+        "6okLJ1Y2" = _6okLJ1Y2;
+        "oORMofwW" = _oORMofwW;
+        "fabric-1.20.4" = _6okLJ1Y2;
+        "fabric-1.20.1" = _6okLJ1Y2;
+        "fabric-1.20.2" = _6okLJ1Y2;
+        "fabric-1.20.3" = _6okLJ1Y2;
+        "fabric-1.21" = _oORMofwW;
+        "fabric-1.21.1" = _oORMofwW;
+        "fabric-1.21.2" = _oORMofwW;
+        "fabric-1.21.3" = _oORMofwW;
+        "fabric-1.21.4" = _oORMofwW;
+        "fabric-1.21.5" = _oORMofwW;
         "fabric-26.1.2" = _hWomW5oD;
         "fabric-26.1" = _hWomW5oD;
         "fabric-26.1.1" = _hWomW5oD;
         "fabric-26.2" = _hWomW5oD;
+        "fabric-1.20" = _6okLJ1Y2;
+        "fabric-1.20.5" = _6okLJ1Y2;
+        "fabric-1.20.6" = _6okLJ1Y2;
+        "fabric-1.21.6" = _oORMofwW;
+        "fabric-1.21.7" = _oORMofwW;
+        "fabric-1.21.8" = _oORMofwW;
+        "fabric-1.21.9" = _oORMofwW;
+        "fabric-1.21.10" = _oORMofwW;
+        "fabric-1.21.11" = _oORMofwW;
         "pkg-1.0.0" = _f6AeEmPQ;
         "pkg-2" = _n87K4zEQ;
         "pkg-1.0.1-1.20.1" = _6lSOKVNp;
@@ -137,7 +158,9 @@ let
         "pkg-3.0.6" = _FypLmA65;
         "pkg-3.0.7" = _Tm3aL9Rq;
         "pkg-3.0.7-26.x" = _hWomW5oD;
-        "default" = _hWomW5oD;
+        "pkg-3.0.7-1.20.x" = _6okLJ1Y2;
+        "pkg-3.0.7-1.21.x" = _oORMofwW;
+        "default" = _oORMofwW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "path-reversal";

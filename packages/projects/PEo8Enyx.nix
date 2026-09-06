@@ -76,6 +76,21 @@ let
             "file" = "chems-guns-V1.1.5-data.jar";
             "hash" = "sha512-HIDzHnTzVXVvSyjdtbtgQpRtZadEX12BE9QQaZneE00eHjxXRGQDMGV4OlakOdlodbFkz6xWxK/WHLhb0Z2JOQ==";
         };
+        _HMuhAOpx = {
+            "id" = "HMuhAOpx";
+            "file" = "Chems Guns - Resources V1.1.6.zip";
+            "hash" = "sha512-Lh7ioRkXhdDbHFzJeTKlSYkw9/l78sGffh6+WnY++UCVgMQDvo99UIZfrXoo/tioPO0kHIAF3m49zycJGDBsyA==";
+        };
+        _sW7OESxk = {
+            "id" = "sW7OESxk";
+            "file" = "Chems Guns - Data V1.1.6.zip";
+            "hash" = "sha512-OCtuQWo2LCNiBrqsFBIpizX3zMrjJWX12CLFR3ZZhZkppr3FSbo+mNK4vbIBz2zXdobhlyAgCtZWbgcunm4hbA==";
+        };
+        _gCjbHOIy = {
+            "id" = "gCjbHOIy";
+            "file" = "chems-guns-V1.1.6-data.jar";
+            "hash" = "sha512-MuTCXa6VSHAcpdVI/gFDqyKKBsWAP6GcdvqIM1Vc8ohiKMGM1l1JQ7k33QEbbRBw3MVGJQJxKDd8hii0CGYAKg==";
+        };
     in {
         "jRPfoLwZ" = _jRPfoLwZ;
         "rGgcDko1" = _rGgcDko1;
@@ -92,36 +107,45 @@ let
         "7P5rZlhK" = _7P5rZlhK;
         "gUAonfZh" = _gUAonfZh;
         "EO5I1pTd" = _EO5I1pTd;
+        "HMuhAOpx" = _HMuhAOpx;
+        "sW7OESxk" = _sW7OESxk;
+        "gCjbHOIy" = _gCjbHOIy;
         "minecraft-1.21.9" = _jRPfoLwZ;
         "minecraft-1.21.10" = _jRPfoLwZ;
         "minecraft-1.21.11" = _mP3lIvtz;
         "minecraft-26.1" = _7P5rZlhK;
         "minecraft-26.1.1" = _7P5rZlhK;
+        "minecraft-26.2" = _HMuhAOpx;
         "datapack-1.21.9" = _rGgcDko1;
         "datapack-1.21.10" = _rGgcDko1;
         "datapack-1.21.11" = _viMFGqop;
         "datapack-26.1" = _gUAonfZh;
         "datapack-26.1.1" = _gUAonfZh;
+        "datapack-26.2" = _sW7OESxk;
         "fabric-1.21.9" = _suERLDBC;
         "fabric-1.21.10" = _suERLDBC;
         "fabric-1.21.11" = _rmtnRTfT;
         "fabric-26.1" = _EO5I1pTd;
         "fabric-26.1.1" = _EO5I1pTd;
+        "fabric-26.2" = _gCjbHOIy;
         "forge-1.21.9" = _suERLDBC;
         "forge-1.21.10" = _suERLDBC;
         "forge-1.21.11" = _rmtnRTfT;
         "forge-26.1" = _EO5I1pTd;
         "forge-26.1.1" = _EO5I1pTd;
+        "forge-26.2" = _gCjbHOIy;
         "neoforge-1.21.9" = _suERLDBC;
         "neoforge-1.21.10" = _suERLDBC;
         "neoforge-1.21.11" = _rmtnRTfT;
         "neoforge-26.1" = _EO5I1pTd;
         "neoforge-26.1.1" = _EO5I1pTd;
+        "neoforge-26.2" = _gCjbHOIy;
         "quilt-1.21.9" = _suERLDBC;
         "quilt-1.21.10" = _suERLDBC;
         "quilt-1.21.11" = _rmtnRTfT;
         "quilt-26.1" = _EO5I1pTd;
         "quilt-26.1.1" = _EO5I1pTd;
+        "quilt-26.2" = _gCjbHOIy;
         "pkg-V1.1.1-resource" = _jRPfoLwZ;
         "pkg-V1.1.1-data" = _rGgcDko1;
         "pkg-V1.1.1-mod" = _suERLDBC;
@@ -137,7 +161,10 @@ let
         "pkg-V1.1.5-resource" = _7P5rZlhK;
         "pkg-V1.1.5-data" = _gUAonfZh;
         "pkg-V1.1.5-mod" = _EO5I1pTd;
-        "default" = _EO5I1pTd;
+        "pkg-V1.1.6-resource" = _HMuhAOpx;
+        "pkg-V1.1.6-data" = _sW7OESxk;
+        "pkg-V1.1.6-mod" = _gCjbHOIy;
+        "default" = _gCjbHOIy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chems-guns";

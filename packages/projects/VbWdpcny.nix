@@ -56,6 +56,16 @@ let
             "file" = "collectall-neoforge-26.1.2-1.3.1.jar";
             "hash" = "sha512-riKoBTlIuGvV0YuidaoiWIZzgj3eaoBYeKnpLOdA/UK3uBnT/rcmEIM+XvDSq1rFM61peMuAbbQ7o7iJA6YxUg==";
         };
+        _YdsrgDFN = {
+            "id" = "YdsrgDFN";
+            "file" = "collectall-fabric-26.1.2-1.3.2.jar";
+            "hash" = "sha512-ir1vAdkLdfR6SzcocLA3cm6EJZ8duHnsjSb4DRiDWST3DpsYyLgvzO92qNYz9tdc7GVMpnCa5Ep0uUVNrYJH2A==";
+        };
+        _O76dHQeZ = {
+            "id" = "O76dHQeZ";
+            "file" = "collectall-neoforge-26.1.2-1.3.2.jar";
+            "hash" = "sha512-SEFhSkazARLi/HOSkcNAmqrC7onXZKvW9SwfhI5Wi1q/7ZY8owCuW51ma4dCZ/+ifYoagag+XIO54n+qZstntg==";
+        };
     in {
         "GNalSxt8" = _GNalSxt8;
         "sG0CfOAk" = _sG0CfOAk;
@@ -68,6 +78,8 @@ let
         "PM6XFCKt" = _PM6XFCKt;
         "7ZFkZT3w" = _7ZFkZT3w;
         "6QoRW8oN" = _6QoRW8oN;
+        "YdsrgDFN" = _YdsrgDFN;
+        "O76dHQeZ" = _O76dHQeZ;
         "forge-1.20.1" = _7llSoNqQ;
         "forge-1.21.1" = _zI9f5puP;
         "neoforge-1.21.1" = _PM6XFCKt;
@@ -78,15 +90,18 @@ let
         "neoforge-1.21.11" = _PM6XFCKt;
         "neoforge-26.1" = _Ua9BJMY5;
         "neoforge-26.1.1" = _Ua9BJMY5;
-        "neoforge-26.1.2" = _6QoRW8oN;
-        "neoforge-26.2" = _6QoRW8oN;
+        "neoforge-26.1.2" = _O76dHQeZ;
+        "neoforge-26.2" = _O76dHQeZ;
+        "fabric-26.1.2" = _YdsrgDFN;
+        "fabric-26.2" = _YdsrgDFN;
         "pkg-1.2.2" = _kt0yPTrK;
         "pkg-1.2.3" = _8YyOLsHD;
         "pkg-1.2.5" = _dt8hy15m;
         "pkg-1.2.6" = _Ua9BJMY5;
         "pkg-1.3" = _7llSoNqQ;
         "pkg-1.3.1" = _6QoRW8oN;
-        "default" = _6QoRW8oN;
+        "pkg-1.3.2" = _O76dHQeZ;
+        "default" = _O76dHQeZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "collectall-ores-trees-and-crops";

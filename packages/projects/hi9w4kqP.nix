@@ -136,6 +136,11 @@ let
             "file" = "better-withered-mobs-1.7.21.jar";
             "hash" = "sha512-Z7NNE2isjJ5B/pRejM8oiana5+vDANr/KT6jFXnHVL8jp9DjKN68ktmsn/pmuNPl6DT1uHepH7ImAQTpySm3iw==";
         };
+        _MHgac0Ov = {
+            "id" = "MHgac0Ov";
+            "file" = "better-withered-mobs-1.7.22.jar";
+            "hash" = "sha512-Bs9ZwycZ/uBwUJGzvwVwe79CMKBOjvvBAs0TcSephCEMJU23bwkCY9EzOickzJzzaTA52IyYxki7BMbwPCbJ7A==";
+        };
     in {
         "bJIPJV6s" = _bJIPJV6s;
         "TQ0uO9eA" = _TQ0uO9eA;
@@ -164,6 +169,7 @@ let
         "fFr0DXt2" = _fFr0DXt2;
         "BoMquOL3" = _BoMquOL3;
         "lRIcS6aZ" = _lRIcS6aZ;
+        "MHgac0Ov" = _MHgac0Ov;
         "fabric-1.16.5" = _bJIPJV6s;
         "fabric-1.17" = _mG7oeqrH;
         "fabric-1.17.1" = _I5nzKu1n;
@@ -188,6 +194,7 @@ let
         "fabric-26.1" = _BoMquOL3;
         "fabric-26.1.1" = _BoMquOL3;
         "fabric-26.1.2" = _lRIcS6aZ;
+        "fabric-26.2" = _MHgac0Ov;
         "pkg-1.5.2" = _bJIPJV6s;
         "pkg-1.5.3" = _TQ0uO9eA;
         "pkg-1.6.0" = _mG7oeqrH;
@@ -215,7 +222,8 @@ let
         "pkg-1.7.19" = _fFr0DXt2;
         "pkg-1.7.20" = _BoMquOL3;
         "pkg-1.7.21" = _lRIcS6aZ;
-        "default" = _lRIcS6aZ;
+        "pkg-1.7.22" = _MHgac0Ov;
+        "default" = _MHgac0Ov;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-withered-mobs";

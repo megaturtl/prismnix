@@ -371,6 +371,46 @@ let
             "file" = "archers-fabric-3.0.3+1.21.1.jar";
             "hash" = "sha512-TjMGGKC6fMqFJBr3KQX9X/Mrhm+8N4AIlY77ZutIRJepA0ooPgcC/0Fw4KAmai7+IxiySlcvt+K8ZC3ChF1ZPQ==";
         };
+        _EQDvZ5hx = {
+            "id" = "EQDvZ5hx";
+            "file" = "archers-fabric-3.1.0+1.21.1.jar";
+            "hash" = "sha512-z35ZAScZVHjMwbDTBznl7NscIeDgZ7hbvZly7s9b6zLx4Ro6A4TZQ6QhG+5D7gvdNKvBi1sSSNPvy2DvFfAUGw==";
+        };
+        _qjaucvhH = {
+            "id" = "qjaucvhH";
+            "file" = "archers-neoforge-3.1.0+1.21.1.jar";
+            "hash" = "sha512-4CvecYUQ1T7C3QEVCKE6+FMrlZPqulNQSVK1UrwwT2G/sXmLlsLP/r3jsAVG0sKjKdEihbBrLsxYbpCefd3gAw==";
+        };
+        _iCXv3o0K = {
+            "id" = "iCXv3o0K";
+            "file" = "archers-fabric-3.1.1+1.21.1.jar";
+            "hash" = "sha512-6aqXD/mT5ReFCJFFdsWM+mCX/CYSwhYlufAcs52lLBwlh8Tmgb+pSEpqLJsOFJfCv+W80QqY0SfurlUm2my32w==";
+        };
+        _it5wwINY = {
+            "id" = "it5wwINY";
+            "file" = "archers-neoforge-3.1.1+1.21.1.jar";
+            "hash" = "sha512-RKPzLdfLLx9j4e9tEFJt5+qCUYMWTcoHreDDsVdie2szEv3aVV6ZZ/tKOi9L5NaTAtNU4jk11pj3kqhta4l1TA==";
+        };
+        _chSKtEss = {
+            "id" = "chSKtEss";
+            "file" = "archers-fabric-3.1.2+26.1.2.jar";
+            "hash" = "sha512-jrrUz1txR55JvLzvqA7WHe/soYROi0LmgYBkNowJz8G8QYiuUbhx4YFo2HQgAnuk+lrgbiBTGMSO96U/0vzwTg==";
+        };
+        _CR2gFl6v = {
+            "id" = "CR2gFl6v";
+            "file" = "archers-neoforge-3.1.2+26.1.2.jar";
+            "hash" = "sha512-wwPFqb1gY6/o9LzsPKp/a6emR8dT8gmrZYCWQFMJM3XxLLjRbztC66Cc8vWZcE0EO3Kaj6EJzYkLzoRI7isTUw==";
+        };
+        _YDC072qZ = {
+            "id" = "YDC072qZ";
+            "file" = "archers-fabric-3.1.2+26.2.jar";
+            "hash" = "sha512-IostlKrnGAxTudsSDsUdmzikjbCd0RSrPRlFywGgVT6RUPqL2i0sFG9lS/hEshgNS3AGxDGAhES7IS4TZ/N/Cg==";
+        };
+        _ha1w7M0l = {
+            "id" = "ha1w7M0l";
+            "file" = "archers-neoforge-3.1.2+26.2.jar";
+            "hash" = "sha512-j/sQy2xDm4H27gRW/DP//w3M36MZQ7u94csrG6wy46AC+lJ8mNJBIffxNTe77Ar37o3HtW6SkEiCLLqtoAm0nQ==";
+        };
     in {
         "VEUlYKJj" = _VEUlYKJj;
         "gMXRAwI2" = _gMXRAwI2;
@@ -446,11 +486,27 @@ let
         "p7rUDEI4" = _p7rUDEI4;
         "eYreTDVP" = _eYreTDVP;
         "2CGpvFOo" = _2CGpvFOo;
+        "EQDvZ5hx" = _EQDvZ5hx;
+        "qjaucvhH" = _qjaucvhH;
+        "iCXv3o0K" = _iCXv3o0K;
+        "it5wwINY" = _it5wwINY;
+        "chSKtEss" = _chSKtEss;
+        "CR2gFl6v" = _CR2gFl6v;
+        "YDC072qZ" = _YDC072qZ;
+        "ha1w7M0l" = _ha1w7M0l;
         "fabric-1.20.1" = _H5nqeKSL;
-        "fabric-1.21.1" = _2CGpvFOo;
-        "fabric-1.21" = _2CGpvFOo;
-        "neoforge-1.21" = _eYreTDVP;
-        "neoforge-1.21.1" = _eYreTDVP;
+        "fabric-1.21.1" = _iCXv3o0K;
+        "fabric-1.21" = _iCXv3o0K;
+        "fabric-26.1" = _chSKtEss;
+        "fabric-26.1.1" = _chSKtEss;
+        "fabric-26.1.2" = _chSKtEss;
+        "fabric-26.2" = _YDC072qZ;
+        "neoforge-1.21" = _it5wwINY;
+        "neoforge-1.21.1" = _it5wwINY;
+        "neoforge-26.1" = _CR2gFl6v;
+        "neoforge-26.1.1" = _CR2gFl6v;
+        "neoforge-26.1.2" = _CR2gFl6v;
+        "neoforge-26.2" = _ha1w7M0l;
         "pkg-1.0.0+1.20.1" = _VEUlYKJj;
         "pkg-1.0.1+1.20.1" = _gMXRAwI2;
         "pkg-1.0.2+1.20.1" = _dEHZfTdA;
@@ -525,7 +581,15 @@ let
         "pkg-3.0.2+1.21.1-fabric" = _p7rUDEI4;
         "pkg-3.0.3+1.21.1-neoforge" = _eYreTDVP;
         "pkg-3.0.3+1.21.1-fabric" = _2CGpvFOo;
-        "default" = _2CGpvFOo;
+        "pkg-3.1.0+1.21.1-fabric" = _EQDvZ5hx;
+        "pkg-3.1.0+1.21.1-neoforge" = _qjaucvhH;
+        "pkg-3.1.1+1.21.1-fabric" = _iCXv3o0K;
+        "pkg-3.1.1+1.21.1-neoforge" = _it5wwINY;
+        "pkg-3.1.2+26.1.2-fabric" = _chSKtEss;
+        "pkg-3.1.2+26.1.2-neoforge" = _CR2gFl6v;
+        "pkg-3.1.2+26.2-fabric" = _YDC072qZ;
+        "pkg-3.1.2+26.2-neoforge" = _ha1w7M0l;
+        "default" = _ha1w7M0l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "archers";

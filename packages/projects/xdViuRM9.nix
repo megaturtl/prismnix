@@ -41,6 +41,11 @@ let
             "file" = "zz-Universal_Mod_Localizer_2.0.3.jar";
             "hash" = "sha512-/NJUCmxgdLspDk3nIRfKu55eyO0rqHa7zVPsIZYBTZteJhvruwwFuNDOcjTInK2bfcVNEhUvlVAX2ZAtrXq+aQ==";
         };
+        _JA6juvSy = {
+            "id" = "JA6juvSy";
+            "file" = "UML-Forge-1.0.0-XEdition.jar";
+            "hash" = "sha512-fC0dhfk2NeA7OsaalZjlVjTcrRFefBOYrse2ZjOsEJ3pUWcTbEOecaNARvq+a85N5JzVHOhbhR87HXp0GQEhDA==";
+        };
     in {
         "NmUtSLxa" = _NmUtSLxa;
         "p5XQUTQd" = _p5XQUTQd;
@@ -50,6 +55,7 @@ let
         "AmR8urEy" = _AmR8urEy;
         "smkAMlO1" = _smkAMlO1;
         "sQM5Q0IL" = _sQM5Q0IL;
+        "JA6juvSy" = _JA6juvSy;
         "fabric-1.12.2" = _smkAMlO1;
         "fabric-1.14" = _sQM5Q0IL;
         "fabric-1.14.1" = _sQM5Q0IL;
@@ -111,21 +117,21 @@ let
         "forge-1.16" = _sQM5Q0IL;
         "forge-1.16.1" = _sQM5Q0IL;
         "forge-1.16.2" = _sQM5Q0IL;
-        "forge-1.16.3" = _sQM5Q0IL;
-        "forge-1.16.4" = _sQM5Q0IL;
-        "forge-1.16.5" = _sQM5Q0IL;
-        "forge-1.17" = _sQM5Q0IL;
-        "forge-1.17.1" = _sQM5Q0IL;
-        "forge-1.18" = _sQM5Q0IL;
-        "forge-1.18.1" = _sQM5Q0IL;
-        "forge-1.18.2" = _sQM5Q0IL;
-        "forge-1.19" = _sQM5Q0IL;
-        "forge-1.19.1" = _sQM5Q0IL;
-        "forge-1.19.2" = _sQM5Q0IL;
-        "forge-1.19.3" = _sQM5Q0IL;
-        "forge-1.19.4" = _sQM5Q0IL;
-        "forge-1.20" = _sQM5Q0IL;
-        "forge-1.20.1" = _sQM5Q0IL;
+        "forge-1.16.3" = _JA6juvSy;
+        "forge-1.16.4" = _JA6juvSy;
+        "forge-1.16.5" = _JA6juvSy;
+        "forge-1.17" = _JA6juvSy;
+        "forge-1.17.1" = _JA6juvSy;
+        "forge-1.18" = _JA6juvSy;
+        "forge-1.18.1" = _JA6juvSy;
+        "forge-1.18.2" = _JA6juvSy;
+        "forge-1.19" = _JA6juvSy;
+        "forge-1.19.1" = _JA6juvSy;
+        "forge-1.19.2" = _JA6juvSy;
+        "forge-1.19.3" = _JA6juvSy;
+        "forge-1.19.4" = _JA6juvSy;
+        "forge-1.20" = _JA6juvSy;
+        "forge-1.20.1" = _JA6juvSy;
         "forge-1.20.2" = _sQM5Q0IL;
         "forge-1.20.3" = _sQM5Q0IL;
         "forge-1.20.4" = _sQM5Q0IL;
@@ -253,7 +259,8 @@ let
         "pkg-2.0.0" = _AmR8urEy;
         "pkg-2.0.1" = _smkAMlO1;
         "pkg-2.0.3" = _sQM5Q0IL;
-        "default" = _sQM5Q0IL;
+        "pkg-1.0.0-XEdition" = _JA6juvSy;
+        "default" = _JA6juvSy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "universal_mod_localizer";

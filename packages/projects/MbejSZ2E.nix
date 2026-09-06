@@ -61,6 +61,21 @@ let
             "file" = "energymeter-neoforge-1.21.1-0.5.0.jar";
             "hash" = "sha512-KGN4BA3zPqLcklWh6e7aQq10M8lmy3WyLxcmxUoSUKOoU/86C2/YULigLvRm0VWAzdWA1M8iosg0qOrlCo2ceA==";
         };
+        _vqpISbpO = {
+            "id" = "vqpISbpO";
+            "file" = "energymeter-neoforge-1.21.1-0.5.1.jar";
+            "hash" = "sha512-A4prkU43lJ2gX8S8MPt/YDC7xQ9VNvc2ooumkxy2LEJ9LJpaKEFgI4I+hFWb8QF48cdc38J4Vfje7WnmTMH5yQ==";
+        };
+        _Y8vglZux = {
+            "id" = "Y8vglZux";
+            "file" = "energymeter-neoforge-1.21.1-0.5.2.jar";
+            "hash" = "sha512-bPlQn1fX69XcqshxppONsEiYyHMkQatFdpU3XYcxFE0aGHLAQD6ypqhI2xftVUwjuJkVYTF+KETLsHVl43JyvA==";
+        };
+        _qFGv9BPT = {
+            "id" = "qFGv9BPT";
+            "file" = "energymeter-neoforge-26.1.2-0.5.0.jar";
+            "hash" = "sha512-XgvzXPfGZwC5SPLEyJe+0ijMuc018M/yt7fIDWg1Dpfml05M0pmn3jgLMzaMnei1LPMHf4z0iR/ermF3Lhrfyw==";
+        };
     in {
         "y2uzV0tS" = _y2uzV0tS;
         "TofdSmyg" = _TofdSmyg;
@@ -74,11 +89,15 @@ let
         "wpdceWCn" = _wpdceWCn;
         "eFzpYm28" = _eFzpYm28;
         "jJykDVzS" = _jJykDVzS;
+        "vqpISbpO" = _vqpISbpO;
+        "Y8vglZux" = _Y8vglZux;
+        "qFGv9BPT" = _qFGv9BPT;
         "forge-1.18.2" = _y2uzV0tS;
         "forge-1.19.2" = _TofdSmyg;
         "forge-1.20.1" = _NZ6nFTb9;
         "neoforge-1.20.1" = _NZ6nFTb9;
-        "neoforge-1.21.1" = _jJykDVzS;
+        "neoforge-1.21.1" = _Y8vglZux;
+        "neoforge-26.1.2" = _qFGv9BPT;
         "pkg-1.18.2-3.2.1" = _y2uzV0tS;
         "pkg-1.19.2-1.0.0" = _TofdSmyg;
         "pkg-1.20.1-1.0.0+forge" = _UyNuFWXF;
@@ -91,7 +110,10 @@ let
         "pkg-1.21.1-0.4.0+neoforge" = _wpdceWCn;
         "pkg-1.21.1-0.4.1+neoforge" = _eFzpYm28;
         "pkg-1.21.1-0.5.0+neoforge" = _jJykDVzS;
-        "default" = _jJykDVzS;
+        "pkg-1.21.1-0.5.1+neoforge" = _vqpISbpO;
+        "pkg-1.21.1-0.5.2+neoforge" = _Y8vglZux;
+        "pkg-26.1.2-0.5.0+neoforge" = _qFGv9BPT;
+        "default" = _qFGv9BPT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "energymeter";

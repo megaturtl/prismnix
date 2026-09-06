@@ -2696,6 +2696,71 @@ let
             "file" = "travelersbackpack-neoforge-26.2-11.3.1.jar";
             "hash" = "sha512-q+K1r3tzDWyzcHegs65SIRm6oGJ6ZGC2QZuVDUiKr0knELUTjxclxC6/aBuF1CVyH/1nVQrhPiMewVwQBzn2OQ==";
         };
+        _LfmQsEdR = {
+            "id" = "LfmQsEdR";
+            "file" = "travelersbackpack-fabric-1.21.11-10.11.10.jar";
+            "hash" = "sha512-J3R+ea4opQkLofpjX3hgATSqeRK1fI9xXX9+TszrLIekppuJ3eaUAu61Plv8Nulss+7JmWz5OTvEaVJDXOZAaw==";
+        };
+        _17LVlxGN = {
+            "id" = "17LVlxGN";
+            "file" = "travelersbackpack-neoforge-26.2-11.3.2.jar";
+            "hash" = "sha512-q6m37hPnArgcgYCQUREGY6mrDCGjKsEGt0QckD2UGqjuRdA65wlJ/5Z9zErvPzTyr2n9ckJ77etLS7uwdoiGNg==";
+        };
+        _hE3rdvIY = {
+            "id" = "hE3rdvIY";
+            "file" = "travelersbackpack-neoforge-1.21.11-10.11.6.jar";
+            "hash" = "sha512-hSBiJL8TZQfxmCVfepU3j5USwiTB04NnR5ypZIsJw/X/Ww+7yOr6oZ2whaejkHlza37GHliaPoGautOi5D39Bg==";
+        };
+        _G60CBuLj = {
+            "id" = "G60CBuLj";
+            "file" = "travelersbackpack-fabric-1.20.1-9.1.55.jar";
+            "hash" = "sha512-f+nW4wOUa29i7wy+AscU9/wxWpAzEp+rFHm156rA1wCD17nYr8no8jluYkpBeAKkANWX75PHbhOxMCeK1KnNWA==";
+        };
+        _wuJ2J0SL = {
+            "id" = "wuJ2J0SL";
+            "file" = "travelersbackpack-forge-1.20.1-9.1.57.jar";
+            "hash" = "sha512-QQOzLkamDvnMiSCeV+wsNHkUV3pSUKu2BJSyrJx9bYK7aEJOdEhQI9y3FSvjb+jDhOV0wFxF8Wb3FxpSYOYAVA==";
+        };
+        _LcOq0PxG = {
+            "id" = "LcOq0PxG";
+            "file" = "travelersbackpack-neoforge-1.21.1-10.1.39.jar";
+            "hash" = "sha512-vVOaRI8TqRcyRzl+LyV7/Kn1z20VejPS/CookanNtcRR370qNd6ImUuAui2+AJzWiFqSC3BmFWt6oPr9X78Smg==";
+        };
+        _npKsvQvE = {
+            "id" = "npKsvQvE";
+            "file" = "travelersbackpack-fabric-1.21.1-10.1.39.jar";
+            "hash" = "sha512-rS9S9nWmH4HN5pMEqt6v6ABFDt2yGghgyCGrTJhkbnAVvN7HIhvVubwrqvyAD+7ODGBbbEYYi6u0n0JtE97IQQ==";
+        };
+        _Ah1lkxJY = {
+            "id" = "Ah1lkxJY";
+            "file" = "travelersbackpack-fabric-26.1.2-11.2.10.jar";
+            "hash" = "sha512-60QfEi2G3gKsUreYYoYc+Ld401AjMIb9r+JyTHCiPZ30s78WhCD7cgX/ePocbDRjIaUehFpBPLQfxa1pmDFjnQ==";
+        };
+        _W3x9fdNT = {
+            "id" = "W3x9fdNT";
+            "file" = "travelersbackpack-neoforge-26.1.2-11.2.7.jar";
+            "hash" = "sha512-9PClViXzBCW2IuN4GT3eZnSNTalpnH+eCte1SoFbPduKIpxnF/48UmewloB1pOsJ6DQ4C7ohypgRIuk0tYfqfA==";
+        };
+        _7tZN0j70 = {
+            "id" = "7tZN0j70";
+            "file" = "travelersbackpack-neoforge-1.21.11-10.11.7.jar";
+            "hash" = "sha512-rZG2msjGSUpq3F8uDal/RIt5Soh+aLztMPXh2V1fsfRbyyP8nbZuEdIksQ5hkUWPFrK3FxxVAn1WrQ6N5vk1Hw==";
+        };
+        _7ltEXeO3 = {
+            "id" = "7ltEXeO3";
+            "file" = "travelersbackpack-fabric-1.21.11-10.11.11.jar";
+            "hash" = "sha512-y9FuCYQmKi6dVG7uvPTiA0fogyWs9/fx5rlRtrz2/0Kgxi/Pux8yhhDoIWvFZTRGgF3O9Wv5rc5eWQp6fs5Gig==";
+        };
+        _jp51VM8M = {
+            "id" = "jp51VM8M";
+            "file" = "travelersbackpack-fabric-26.2-11.3.2.jar";
+            "hash" = "sha512-VWQZWGZv2hyUBkwvFuJ5FoftL3gTfEojt1pt8+Y5a+WNz226+SUFny+2RmyBtbuBS3UYpOpGJGRnV0l/ydJn7A==";
+        };
+        _wxBR2pcr = {
+            "id" = "wxBR2pcr";
+            "file" = "travelersbackpack-neoforge-26.2-11.3.3.jar";
+            "hash" = "sha512-aEgR7f9HmgjQhOvSU/l8c/+DTjhb8Ec2c+WHDfZXZa8Thv2UyrCDYQLbS20y7zI5ftMnr4LO07+hDm/5oBmTwA==";
+        };
     in {
         "3JLbcslr" = _3JLbcslr;
         "kenpECMd" = _kenpECMd;
@@ -3236,6 +3301,19 @@ let
         "vHWNjFpl" = _vHWNjFpl;
         "mjQY8slD" = _mjQY8slD;
         "xTncPhKM" = _xTncPhKM;
+        "LfmQsEdR" = _LfmQsEdR;
+        "17LVlxGN" = _17LVlxGN;
+        "hE3rdvIY" = _hE3rdvIY;
+        "G60CBuLj" = _G60CBuLj;
+        "wuJ2J0SL" = _wuJ2J0SL;
+        "LcOq0PxG" = _LcOq0PxG;
+        "npKsvQvE" = _npKsvQvE;
+        "Ah1lkxJY" = _Ah1lkxJY;
+        "W3x9fdNT" = _W3x9fdNT;
+        "7tZN0j70" = _7tZN0j70;
+        "7ltEXeO3" = _7ltEXeO3;
+        "jp51VM8M" = _jp51VM8M;
+        "wxBR2pcr" = _wxBR2pcr;
         "forge-1.12.2" = _3JLbcslr;
         "forge-1.16.5" = _6NAEVL5U;
         "forge-1.17.1" = _ZX1zUypH;
@@ -3244,7 +3322,7 @@ let
         "forge-1.19.3" = _apja6Dhu;
         "forge-1.19.4" = _c6ESk0Q0;
         "forge-1.20" = _wKi1ch7v;
-        "forge-1.20.1" = _YU3VeLg8;
+        "forge-1.20.1" = _wuJ2J0SL;
         "forge-1.20.2" = _o7DGCFqj;
         "forge-1.20.4" = _5qngrLbH;
         "forge-1.20.6" = _KZG9ydbw;
@@ -3258,37 +3336,37 @@ let
         "fabric-1.19.4" = _BazlFems;
         "fabric-1.20-rc1" = _Npl8FdSX;
         "fabric-1.20" = _xGMnUfD0;
-        "fabric-1.20.1" = _5H4yAyuO;
+        "fabric-1.20.1" = _G60CBuLj;
         "fabric-1.20.2" = _8I0ytvnY;
         "fabric-1.20.4" = _Mn84WPSB;
         "fabric-1.20.6" = _AzNT1Qxf;
         "fabric-1.21" = _Mse7s79Y;
-        "fabric-1.21.1" = _5I4utX2T;
+        "fabric-1.21.1" = _npKsvQvE;
         "fabric-1.21.4" = _Awlfopi1;
         "fabric-1.21.5" = _DgP3e1Zw;
         "fabric-1.21.6" = _6VYdBXHD;
         "fabric-1.21.7" = _P3LjVY8i;
         "fabric-1.21.8" = _P3LjVY8i;
         "fabric-1.21.10" = _uQ0xHxTz;
-        "fabric-1.21.11" = _XbEGJQSG;
-        "fabric-26.1.1" = _ZgfhEJnC;
-        "fabric-26.1.2" = _ZgfhEJnC;
-        "fabric-26.2" = _mjQY8slD;
+        "fabric-1.21.11" = _7ltEXeO3;
+        "fabric-26.1.1" = _Ah1lkxJY;
+        "fabric-26.1.2" = _Ah1lkxJY;
+        "fabric-26.2" = _jp51VM8M;
         "neoforge-1.20.4" = _BNberKGE;
         "neoforge-1.20.6" = _7F2hRnJ3;
         "neoforge-1.21" = _41RS1Evh;
-        "neoforge-1.21.1" = _vHWNjFpl;
+        "neoforge-1.21.1" = _LcOq0PxG;
         "neoforge-1.21.4" = _nLe8wldk;
         "neoforge-1.21.5" = _9RhcBbVi;
         "neoforge-1.21.6" = _GW4N7597;
         "neoforge-1.21.7" = _IVbYZshY;
         "neoforge-1.21.8" = _IVbYZshY;
         "neoforge-1.21.10" = _xaHpF00O;
-        "neoforge-1.21.11" = _cKvhxqWf;
+        "neoforge-1.21.11" = _7tZN0j70;
         "neoforge-26.1" = _gvH9BSzg;
         "neoforge-26.1.1" = _gvH9BSzg;
-        "neoforge-26.1.2" = _T1BCIEn8;
-        "neoforge-26.2" = _xTncPhKM;
+        "neoforge-26.1.2" = _W3x9fdNT;
+        "neoforge-26.2" = _wxBR2pcr;
         "pkg-1.12.2-1.0.35" = _3JLbcslr;
         "pkg-1.16.5-5.4.4" = _kenpECMd;
         "pkg-1.17.1-6.0.4" = _AMhy8riF;
@@ -3578,7 +3656,7 @@ let
         "pkg-1.20.1-9.1.52" = _q2caASeP;
         "pkg-1.21.1-10.1.34" = _6JmlLOwp;
         "pkg-1.20.1-9.1.53" = _fTwokW7g;
-        "pkg-1.21.11-10.11.7" = _3nT2UR2a;
+        "pkg-1.21.11-10.11.7" = _7tZN0j70;
         "pkg-1.21.11-10.11.8" = _D3V21Ir2;
         "pkg-1.21.11-10.11.9" = _XbEGJQSG;
         "pkg-26.1.1-11.1.0" = _4pU0yjR4;
@@ -3592,8 +3670,8 @@ let
         "pkg-26.1.2-11.2.5" = _y5hmGgGs;
         "pkg-26.1.2-11.2.6" = _T1BCIEn8;
         "pkg-1.21.1-10.1.36" = _ODmeRFc0;
-        "pkg-1.20.1-9.1.55" = _xUfxfgGF;
-        "pkg-26.1.2-11.2.7" = _onVoNuy1;
+        "pkg-1.20.1-9.1.55" = _G60CBuLj;
+        "pkg-26.1.2-11.2.7" = _W3x9fdNT;
         "pkg-26.1.2-11.2.8" = _YDNzgBWY;
         "pkg-26.2-11.3.0" = _YSfNfb9x;
         "pkg-1.20.1-9.1.56" = _YU3VeLg8;
@@ -3601,7 +3679,15 @@ let
         "pkg-26.1.2-11.2.9" = _ZgfhEJnC;
         "pkg-1.21.1-10.1.38" = _vHWNjFpl;
         "pkg-26.2-11.3.1" = _xTncPhKM;
-        "default" = _xTncPhKM;
+        "pkg-1.21.11-10.11.10" = _LfmQsEdR;
+        "pkg-26.2-11.3.2" = _jp51VM8M;
+        "pkg-1.21.11-10.11.6" = _hE3rdvIY;
+        "pkg-1.20.1-9.1.57" = _wuJ2J0SL;
+        "pkg-1.21.1-10.1.39" = _npKsvQvE;
+        "pkg-26.1.2-11.2.10" = _Ah1lkxJY;
+        "pkg-1.21.11-10.11.11" = _7ltEXeO3;
+        "pkg-26.2-11.3.3" = _wxBR2pcr;
+        "default" = _wxBR2pcr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "travelersbackpack";

@@ -41,6 +41,16 @@ let
             "file" = "tiny_config-neoforge-4.0.0.jar";
             "hash" = "sha512-oiZ8AkXsx4WnPcm66wrpa1bA6UG8SbbqdJhwhlgYJSFWu/Lsa77qLiQMzQImFeXiDFkiRquKh0mWEtwKN4IOgw==";
         };
+        _ONm20k2y = {
+            "id" = "ONm20k2y";
+            "file" = "tiny_config-neoforge-4.0.1.jar";
+            "hash" = "sha512-m/9YRIIMwuefjiKNYO9fEeicUPHiMhLik1zScUFPKqMEcYozmWrcMo0u83+efJuBGCjDii5bhyo8aYPNtTsVxQ==";
+        };
+        _yxjm7wp7 = {
+            "id" = "yxjm7wp7";
+            "file" = "tiny_config-fabric-4.0.1.jar";
+            "hash" = "sha512-is9jmUhVYH/IQqxgCD0rHZSEvumfLqJDyugq6r+LlOa/+smPzeuruaBqtjUfDwZUfIAjLs9bH0umAl4QWw5iNg==";
+        };
     in {
         "3FqmksAo" = _3FqmksAo;
         "Zz8DxdW1" = _Zz8DxdW1;
@@ -50,6 +60,8 @@ let
         "Cn6nGALI" = _Cn6nGALI;
         "INMTyNjt" = _INMTyNjt;
         "v8m0NGSy" = _v8m0NGSy;
+        "ONm20k2y" = _ONm20k2y;
+        "yxjm7wp7" = _yxjm7wp7;
         "fabric-1.21" = _bt1Vf9Wg;
         "fabric-1.21.1" = _Cn6nGALI;
         "fabric-1.21.2" = _Cn6nGALI;
@@ -62,10 +74,10 @@ let
         "fabric-1.21.9" = _Cn6nGALI;
         "fabric-1.21.10" = _Cn6nGALI;
         "fabric-1.21.11" = _Cn6nGALI;
-        "fabric-26.1" = _INMTyNjt;
-        "fabric-26.1.1" = _INMTyNjt;
-        "fabric-26.1.2" = _INMTyNjt;
-        "fabric-26.2" = _INMTyNjt;
+        "fabric-26.1" = _yxjm7wp7;
+        "fabric-26.1.1" = _yxjm7wp7;
+        "fabric-26.1.2" = _yxjm7wp7;
+        "fabric-26.2" = _yxjm7wp7;
         "neoforge-1.21" = _zcsMz0he;
         "neoforge-1.21.1" = _ykk5Ifcd;
         "neoforge-1.21.2" = _ykk5Ifcd;
@@ -78,10 +90,10 @@ let
         "neoforge-1.21.9" = _ykk5Ifcd;
         "neoforge-1.21.10" = _ykk5Ifcd;
         "neoforge-1.21.11" = _ykk5Ifcd;
-        "neoforge-26.1" = _v8m0NGSy;
-        "neoforge-26.1.1" = _v8m0NGSy;
-        "neoforge-26.1.2" = _v8m0NGSy;
-        "neoforge-26.2" = _v8m0NGSy;
+        "neoforge-26.1" = _ONm20k2y;
+        "neoforge-26.1.1" = _ONm20k2y;
+        "neoforge-26.1.2" = _ONm20k2y;
+        "neoforge-26.2" = _ONm20k2y;
         "pkg-3.0.0-fabric" = _3FqmksAo;
         "pkg-3.0.0-neoforge" = _Zz8DxdW1;
         "pkg-3.1.0-fabric" = _bt1Vf9Wg;
@@ -90,7 +102,9 @@ let
         "pkg-3.1.1-fabric" = _Cn6nGALI;
         "pkg-4.0.0-fabric" = _INMTyNjt;
         "pkg-4.0.0-neoforge" = _v8m0NGSy;
-        "default" = _v8m0NGSy;
+        "pkg-4.0.1-neoforge" = _ONm20k2y;
+        "pkg-4.0.1-fabric" = _yxjm7wp7;
+        "default" = _yxjm7wp7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tiny-config";

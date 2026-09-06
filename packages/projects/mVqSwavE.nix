@@ -101,6 +101,11 @@ let
             "file" = "Tungsten_Equipment-1.3.4-Fabric.jar.jar";
             "hash" = "sha512-GYv+UhVHgl9D+0yFJFUkfFymUjnhNw+UXbrM0CPuqZMkb+q43VDti/TqlpX15mbYoCgcpu1d/CDMKm+U5cy7Xg==";
         };
+        _i3yWJbnl = {
+            "id" = "i3yWJbnl";
+            "file" = "Tungsten_Equipment-1.4.0-Fabric.jar";
+            "hash" = "sha512-qMdpdkOLX9psv0ARjGSyLvg3Ru/GbNv9JUT6zkRGcG08lQGYvz0N3vApgqta05oQ9S1gZwpmhl4fSfJzyRFi9A==";
+        };
     in {
         "WzTuzfm2" = _WzTuzfm2;
         "cHqc4f23" = _cHqc4f23;
@@ -122,8 +127,9 @@ let
         "vrBPbxky" = _vrBPbxky;
         "m81BxvjY" = _m81BxvjY;
         "SKBMGL8t" = _SKBMGL8t;
-        "fabric-1.21.1" = _SKBMGL8t;
-        "fabric-1.21" = _SKBMGL8t;
+        "i3yWJbnl" = _i3yWJbnl;
+        "fabric-1.21.1" = _i3yWJbnl;
+        "fabric-1.21" = _i3yWJbnl;
         "pkg-1.0.0" = _WzTuzfm2;
         "pkg-1.0.1" = _cHqc4f23;
         "pkg-1.0.2" = _oiUQc8Nx;
@@ -144,7 +150,8 @@ let
         "pkg-1.3.2" = _vrBPbxky;
         "pkg-1.3.3" = _m81BxvjY;
         "pkg-1.3.4" = _SKBMGL8t;
-        "default" = _SKBMGL8t;
+        "pkg-1.4.0" = _i3yWJbnl;
+        "default" = _i3yWJbnl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tungsten-equipment";

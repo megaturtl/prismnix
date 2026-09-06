@@ -26,19 +26,26 @@ let
             "file" = "almost-perfect-legendary-ivs-1.21.1-1.0.4.jar";
             "hash" = "sha512-ch2bzjfxTXI07XUSwfUqG0Z0GH1jexSx+nMjlwiJG/eoB52eWzmU4RjVJVwrvcb0To3Oj3sITHvfZaBFqcUvVw==";
         };
+        _cdxEb29p = {
+            "id" = "cdxEb29p";
+            "file" = "almost-perfect-legendary-ivs-1.21.1-2.0.0.jar";
+            "hash" = "sha512-3H7C8ks5uk+d62j1v9zBC/0J3YexhdNz3vExo8dY7/33fdJ/hr/IoLMCtQtEPrmqAB4HQfccayjUlb92Qww9FQ==";
+        };
     in {
         "Z1scWKeL" = _Z1scWKeL;
         "TY0lE63Z" = _TY0lE63Z;
         "W3D20Pyv" = _W3D20Pyv;
         "lhKK4ruD" = _lhKK4ruD;
         "155cua0E" = _155cua0E;
-        "fabric-1.21.1" = _155cua0E;
+        "cdxEb29p" = _cdxEb29p;
+        "fabric-1.21.1" = _cdxEb29p;
         "pkg-1.0.0" = _Z1scWKeL;
         "pkg-1.0.1" = _TY0lE63Z;
         "pkg-1.0.2" = _W3D20Pyv;
         "pkg-1.0.3" = _lhKK4ruD;
         "pkg-1.0.4" = _155cua0E;
-        "default" = _155cua0E;
+        "pkg-2.0.0" = _cdxEb29p;
+        "default" = _cdxEb29p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "almost-perfect-legendary-ivs";

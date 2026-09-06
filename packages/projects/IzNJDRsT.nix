@@ -1,0 +1,105 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _EV6kflgu = {
+            "id" = "EV6kflgu";
+            "file" = "DonutTab-1.0.0.jar";
+            "hash" = "sha512-4QGlwV/rw8MVpfff4a1CrTf4+ZnlP2mdBLe4oKOrfhUWYrcXIuisVoXo/ZbEJ+IkRNTnFiTsGUyM46aDqKJ+tw==";
+        };
+    in {
+        "EV6kflgu" = _EV6kflgu;
+        "bukkit-1.21" = _EV6kflgu;
+        "bukkit-1.21.1" = _EV6kflgu;
+        "bukkit-1.21.2" = _EV6kflgu;
+        "bukkit-1.21.3" = _EV6kflgu;
+        "bukkit-1.21.4" = _EV6kflgu;
+        "bukkit-1.21.5" = _EV6kflgu;
+        "bukkit-1.21.6" = _EV6kflgu;
+        "bukkit-1.21.7" = _EV6kflgu;
+        "bukkit-1.21.8" = _EV6kflgu;
+        "bukkit-1.21.9" = _EV6kflgu;
+        "bukkit-1.21.10" = _EV6kflgu;
+        "bukkit-1.21.11" = _EV6kflgu;
+        "bukkit-26.1" = _EV6kflgu;
+        "bukkit-26.1.1" = _EV6kflgu;
+        "bukkit-26.1.2" = _EV6kflgu;
+        "folia-1.21" = _EV6kflgu;
+        "folia-1.21.1" = _EV6kflgu;
+        "folia-1.21.2" = _EV6kflgu;
+        "folia-1.21.3" = _EV6kflgu;
+        "folia-1.21.4" = _EV6kflgu;
+        "folia-1.21.5" = _EV6kflgu;
+        "folia-1.21.6" = _EV6kflgu;
+        "folia-1.21.7" = _EV6kflgu;
+        "folia-1.21.8" = _EV6kflgu;
+        "folia-1.21.9" = _EV6kflgu;
+        "folia-1.21.10" = _EV6kflgu;
+        "folia-1.21.11" = _EV6kflgu;
+        "folia-26.1" = _EV6kflgu;
+        "folia-26.1.1" = _EV6kflgu;
+        "folia-26.1.2" = _EV6kflgu;
+        "paper-1.21" = _EV6kflgu;
+        "paper-1.21.1" = _EV6kflgu;
+        "paper-1.21.2" = _EV6kflgu;
+        "paper-1.21.3" = _EV6kflgu;
+        "paper-1.21.4" = _EV6kflgu;
+        "paper-1.21.5" = _EV6kflgu;
+        "paper-1.21.6" = _EV6kflgu;
+        "paper-1.21.7" = _EV6kflgu;
+        "paper-1.21.8" = _EV6kflgu;
+        "paper-1.21.9" = _EV6kflgu;
+        "paper-1.21.10" = _EV6kflgu;
+        "paper-1.21.11" = _EV6kflgu;
+        "paper-26.1" = _EV6kflgu;
+        "paper-26.1.1" = _EV6kflgu;
+        "paper-26.1.2" = _EV6kflgu;
+        "purpur-1.21" = _EV6kflgu;
+        "purpur-1.21.1" = _EV6kflgu;
+        "purpur-1.21.2" = _EV6kflgu;
+        "purpur-1.21.3" = _EV6kflgu;
+        "purpur-1.21.4" = _EV6kflgu;
+        "purpur-1.21.5" = _EV6kflgu;
+        "purpur-1.21.6" = _EV6kflgu;
+        "purpur-1.21.7" = _EV6kflgu;
+        "purpur-1.21.8" = _EV6kflgu;
+        "purpur-1.21.9" = _EV6kflgu;
+        "purpur-1.21.10" = _EV6kflgu;
+        "purpur-1.21.11" = _EV6kflgu;
+        "purpur-26.1" = _EV6kflgu;
+        "purpur-26.1.1" = _EV6kflgu;
+        "purpur-26.1.2" = _EV6kflgu;
+        "spigot-1.21" = _EV6kflgu;
+        "spigot-1.21.1" = _EV6kflgu;
+        "spigot-1.21.2" = _EV6kflgu;
+        "spigot-1.21.3" = _EV6kflgu;
+        "spigot-1.21.4" = _EV6kflgu;
+        "spigot-1.21.5" = _EV6kflgu;
+        "spigot-1.21.6" = _EV6kflgu;
+        "spigot-1.21.7" = _EV6kflgu;
+        "spigot-1.21.8" = _EV6kflgu;
+        "spigot-1.21.9" = _EV6kflgu;
+        "spigot-1.21.10" = _EV6kflgu;
+        "spigot-1.21.11" = _EV6kflgu;
+        "spigot-26.1" = _EV6kflgu;
+        "spigot-26.1.1" = _EV6kflgu;
+        "spigot-26.1.2" = _EV6kflgu;
+        "pkg-1.0.0" = _EV6kflgu;
+        "default" = _EV6kflgu;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "donuttab";
+        id = "IzNJDRsT";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

@@ -26,19 +26,26 @@ let
             "file" = "sable-photomancy-1.0.0.jar";
             "hash" = "sha512-Xsroo09Rk5VvuDORKq1WCp5tMXdD2l8oaW6sgxleeFynbMQlvwLZz+3Ik+rZw5YbgpzItmraE6kqWc+vndBw/A==";
         };
+        _hwxjOCxE = {
+            "id" = "hwxjOCxE";
+            "file" = "sable-photomancy-1.0.1.jar";
+            "hash" = "sha512-OgLhDBDZao/edaXmJSB/VFKZHUjsS0di3/PqhwlS/bkiuTrT0LhMZr23h1vPlvPG9hB2xZWhNlLd+G/ZptyXMA==";
+        };
     in {
         "sZZyO9kN" = _sZZyO9kN;
         "Ijdv1GZk" = _Ijdv1GZk;
         "iJvX7nRZ" = _iJvX7nRZ;
         "g3sn79Tz" = _g3sn79Tz;
         "D3xGo3Gm" = _D3xGo3Gm;
-        "neoforge-1.21.1" = _D3xGo3Gm;
+        "hwxjOCxE" = _hwxjOCxE;
+        "neoforge-1.21.1" = _hwxjOCxE;
         "pkg-0.1.5" = _sZZyO9kN;
         "pkg-0.2.2" = _Ijdv1GZk;
         "pkg-0.2.6" = _iJvX7nRZ;
         "pkg-0.4.0" = _g3sn79Tz;
         "pkg-1.0.0" = _D3xGo3Gm;
-        "default" = _D3xGo3Gm;
+        "pkg-1.0.1" = _hwxjOCxE;
+        "default" = _hwxjOCxE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sable-schematic-tool";

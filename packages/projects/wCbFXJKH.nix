@@ -146,6 +146,21 @@ let
             "file" = "Darker Depths-1.20.1-2.1.4.jar";
             "hash" = "sha512-u4SPCdn994PUhLV0VKwz9TV9zVSjvpcKKtFurBOPNhiXd/BKEIZmhQt+2NBhUvYlmr2w0I+6DS+a7buqLlp8ow==";
         };
+        _u9dnK5Hb = {
+            "id" = "u9dnK5Hb";
+            "file" = "Darker Depths-1.20.1-2.1.5.jar";
+            "hash" = "sha512-nOUFROWct+E4XS7etKVAgu++ygs6wapdcxgSYIG3RuN+tWOVvd7XL0PVzA3YnvleYlMCIJ2NL3oWGiLiQnQkvA==";
+        };
+        _TTBfgVnW = {
+            "id" = "TTBfgVnW";
+            "file" = "darkerdepths-2.1.5.jar";
+            "hash" = "sha512-23lXa7jFYlwPe/NpKl36FboTa+54C8RLbNZJxBr0CJCUMhqty6mJMmQ63yayERlxQ/6MG6HM5SQXLnmqMOZ6cA==";
+        };
+        _yzhGIe6b = {
+            "id" = "yzhGIe6b";
+            "file" = "darkerdepths-2.1.6.jar";
+            "hash" = "sha512-y5rKNhQtO6oeyUj+9FlqMakyS0v4PgAMPStyul2phTPgT9tf4vL+y+YGNYOgo7S5mxuaZztS5TfFtwPkbyxttA==";
+        };
     in {
         "AEOdjAuQ" = _AEOdjAuQ;
         "olvvb34u" = _olvvb34u;
@@ -176,11 +191,14 @@ let
         "TU0ozd7Y" = _TU0ozd7Y;
         "qBM95sYV" = _qBM95sYV;
         "a2vSmthM" = _a2vSmthM;
+        "u9dnK5Hb" = _u9dnK5Hb;
+        "TTBfgVnW" = _TTBfgVnW;
+        "yzhGIe6b" = _yzhGIe6b;
         "forge-1.19.2" = _AEOdjAuQ;
         "forge-1.18.2" = _olvvb34u;
         "forge-1.16.5" = _UfOzkUFl;
-        "forge-1.20.1" = _a2vSmthM;
-        "neoforge-1.21.1" = _qBM95sYV;
+        "forge-1.20.1" = _u9dnK5Hb;
+        "neoforge-1.21.1" = _yzhGIe6b;
         "pkg-1.1.6.4" = _olvvb34u;
         "pkg-1.1.4" = _UfOzkUFl;
         "pkg-2.0.0" = _qeyMnqh0;
@@ -201,7 +219,10 @@ let
         "pkg-2.1.2" = _ivhm8nNq;
         "pkg-2.1.3" = _TU0ozd7Y;
         "pkg-2.1.4" = _a2vSmthM;
-        "default" = _a2vSmthM;
+        "pkg-2.1.5-1.20.1" = _u9dnK5Hb;
+        "pkg-2.1.5-1.21.1" = _TTBfgVnW;
+        "pkg-2.1.6-1.21.1" = _yzhGIe6b;
+        "default" = _yzhGIe6b;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "darker-depths";

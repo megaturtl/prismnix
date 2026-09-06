@@ -16,10 +16,16 @@ let
             "file" = "showservertime-fabric-26.1-1.0.1.jar";
             "hash" = "sha512-E1NkzykLx2HueRbVQCX9e7XbG5iSd0l9wZqTzregDy6m7oZ/m7smGMqS6r8UkqM7aHQISN6xH4hp+ZVwVmRVEQ==";
         };
+        _17T1iEu3 = {
+            "id" = "17T1iEu3";
+            "file" = "showservertime-fabric-mc26.2-1.1.0.jar";
+            "hash" = "sha512-j1ZkOtZUsntSwXgls10EHWoQMC91SNaDbGWhCFL7HBgWMybF5t7pn3sBTqerJlyEvoIOLTLlp5GzGHKKpNCs8A==";
+        };
     in {
         "3GJSelTM" = _3GJSelTM;
         "p3w9u1z8" = _p3w9u1z8;
         "ztrMZOYv" = _ztrMZOYv;
+        "17T1iEu3" = _17T1iEu3;
         "fabric-1.19.2" = _3GJSelTM;
         "fabric-1.20.1" = _p3w9u1z8;
         "fabric-1.20.2" = _p3w9u1z8;
@@ -39,12 +45,14 @@ let
         "fabric-1.21.9" = _p3w9u1z8;
         "fabric-1.21.10" = _p3w9u1z8;
         "fabric-1.21.11" = _p3w9u1z8;
-        "fabric-26.1" = _ztrMZOYv;
-        "fabric-26.1.1" = _ztrMZOYv;
-        "fabric-26.1.2" = _ztrMZOYv;
-        "fabric-26.2" = _ztrMZOYv;
+        "fabric-26.1" = _17T1iEu3;
+        "fabric-26.1.1" = _17T1iEu3;
+        "fabric-26.1.2" = _17T1iEu3;
+        "fabric-26.2" = _17T1iEu3;
+        "fabric-26.3-snapshot-10" = _17T1iEu3;
         "pkg-1.0.1" = _ztrMZOYv;
-        "default" = _ztrMZOYv;
+        "pkg-1.1.0" = _17T1iEu3;
+        "default" = _17T1iEu3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "show-server-time";

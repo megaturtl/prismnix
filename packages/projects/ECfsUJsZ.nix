@@ -62,6 +62,11 @@ let
         "paper-1.21.8" = _F3sBNZrj;
         "paper-1.21.9" = _F3sBNZrj;
         "paper-1.21.10" = _F3sBNZrj;
+        "paper-1.21.11" = _F3sBNZrj;
+        "paper-26.1" = _F3sBNZrj;
+        "paper-26.1.1" = _F3sBNZrj;
+        "paper-26.1.2" = _F3sBNZrj;
+        "paper-26.2" = _F3sBNZrj;
         "folia-1.20" = _F3sBNZrj;
         "folia-1.20.1" = _F3sBNZrj;
         "folia-1.20.2" = _F3sBNZrj;
@@ -80,6 +85,11 @@ let
         "folia-1.21.8" = _F3sBNZrj;
         "folia-1.21.9" = _F3sBNZrj;
         "folia-1.21.10" = _F3sBNZrj;
+        "folia-1.21.11" = _F3sBNZrj;
+        "folia-26.1" = _F3sBNZrj;
+        "folia-26.1.1" = _F3sBNZrj;
+        "folia-26.1.2" = _F3sBNZrj;
+        "folia-26.2" = _F3sBNZrj;
         "spigot-1.20" = _F3sBNZrj;
         "spigot-1.20.1" = _F3sBNZrj;
         "spigot-1.20.2" = _F3sBNZrj;
@@ -98,6 +108,11 @@ let
         "spigot-1.21.8" = _F3sBNZrj;
         "spigot-1.21.9" = _F3sBNZrj;
         "spigot-1.21.10" = _F3sBNZrj;
+        "spigot-1.21.11" = _F3sBNZrj;
+        "spigot-26.1" = _F3sBNZrj;
+        "spigot-26.1.1" = _F3sBNZrj;
+        "spigot-26.1.2" = _F3sBNZrj;
+        "spigot-26.2" = _F3sBNZrj;
         "pkg-1.0.0" = _rZySpS1J;
         "pkg-1.1.0" = _LPDMG8lf;
         "pkg-1.1.1" = _Nn0wLaCG;

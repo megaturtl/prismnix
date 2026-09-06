@@ -126,6 +126,11 @@ let
             "file" = "cooldown-coordinator-0.10.0-alpha.1.jar";
             "hash" = "sha512-FW2OzztSHKlx54goAzv7rE60Xh2c3YdMrpVZ5GaQKdbx+eM9nlKyAxfoQGgPU6BHILr+PreDOXQs0QmkankFOQ==";
         };
+        _GMuuCYlJ = {
+            "id" = "GMuuCYlJ";
+            "file" = "cooldown-coordinator-0.10.0.jar";
+            "hash" = "sha512-Xl8CJALfvD0hU0aDfZtC4w3MpT6MCqvch0tpSdToVJ5oPQfE95I7/KUqJU/D0CBsK/rh+P4vHZPklxVELw7YsQ==";
+        };
     in {
         "RZ5LHtuZ" = _RZ5LHtuZ;
         "WLNZJmN7" = _WLNZJmN7;
@@ -152,6 +157,7 @@ let
         "CFbKAPlw" = _CFbKAPlw;
         "hcx1GMoF" = _hcx1GMoF;
         "jap9b78p" = _jap9b78p;
+        "GMuuCYlJ" = _GMuuCYlJ;
         "fabric-1.18" = _MuY3HiSq;
         "fabric-1.18.1" = _MuY3HiSq;
         "fabric-1.18.2" = _MuY3HiSq;
@@ -231,9 +237,10 @@ let
         "fabric-1.21.11-rc1" = _CFbKAPlw;
         "fabric-1.21.11-rc2" = _CFbKAPlw;
         "fabric-1.21.11" = _hcx1GMoF;
-        "fabric-26.1" = _jap9b78p;
-        "fabric-26.1.1" = _jap9b78p;
-        "fabric-26.1.2" = _jap9b78p;
+        "fabric-26.1" = _GMuuCYlJ;
+        "fabric-26.1.1" = _GMuuCYlJ;
+        "fabric-26.1.2" = _GMuuCYlJ;
+        "fabric-26.2" = _GMuuCYlJ;
         "quilt-23w12a" = _LIWIbrVl;
         "quilt-23w13a" = _LIWIbrVl;
         "quilt-23w13a_or_b" = _LIWIbrVl;
@@ -300,9 +307,10 @@ let
         "quilt-1.21.11-rc1" = _CFbKAPlw;
         "quilt-1.21.11-rc2" = _CFbKAPlw;
         "quilt-1.21.11" = _hcx1GMoF;
-        "quilt-26.1" = _jap9b78p;
-        "quilt-26.1.1" = _jap9b78p;
-        "quilt-26.1.2" = _jap9b78p;
+        "quilt-26.1" = _GMuuCYlJ;
+        "quilt-26.1.1" = _GMuuCYlJ;
+        "quilt-26.1.2" = _GMuuCYlJ;
+        "quilt-26.2" = _GMuuCYlJ;
         "pkg-0.1.0" = _RZ5LHtuZ;
         "pkg-0.2.0" = _WLNZJmN7;
         "pkg-0.2.1" = _1KUZ0GAa;
@@ -328,7 +336,8 @@ let
         "pkg-0.9.0-alpha.1" = _CFbKAPlw;
         "pkg-0.9.0" = _hcx1GMoF;
         "pkg-0.10.0-alpha.1" = _jap9b78p;
-        "default" = _jap9b78p;
+        "pkg-0.10.0" = _GMuuCYlJ;
+        "default" = _GMuuCYlJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cooldown-coordinator";

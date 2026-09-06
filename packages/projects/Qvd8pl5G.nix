@@ -261,6 +261,41 @@ let
             "file" = "NuclearCraft-1.21.1-1.3.0-beta1.jar";
             "hash" = "sha512-ZeWUc6qxLJzVPhrdoLiasUUXLDm6lZScyJEWt5pumpBxNWooZ8/AbBKXXlJyeDc05bgF6XQEM+5YHFGp+b81jQ==";
         };
+        _Io4EbnkJ = {
+            "id" = "Io4EbnkJ";
+            "file" = "NuclearCraft-1.20.1-1.2.33.jar";
+            "hash" = "sha512-9wlROmOYRAcfc8As63EC0LT2C2v3iffxcpsLsozI6tk37ogBejpCVv7g36JQ3VGxO1w+cie0j/yr19rvl5HyEg==";
+        };
+        _nTfhomYw = {
+            "id" = "nTfhomYw";
+            "file" = "NuclearCraft-1.20.1-1.2.34.jar";
+            "hash" = "sha512-6kK6F+VtYLGV7L/MF64Uj/aPStWNu0LFSRI+PZ/NKdjXKBfvr/nUy/uf2guK+MzvScfNozSYjUjY0+drQ9cbMQ==";
+        };
+        _34Tzvpol = {
+            "id" = "34Tzvpol";
+            "file" = "NuclearCraft-1.19.2-1.1.31.jar";
+            "hash" = "sha512-yxVWKPdCg+iD/CvVzjihTeK0/sFKxmCscU/ix/wHZp87CMMdUc4UNCIA2LGjr+ILyL7oZMytULtCq64iaZhPlA==";
+        };
+        _WzQI7X0m = {
+            "id" = "WzQI7X0m";
+            "file" = "NuclearCraft-1.21.1-1.3.0-beta5.jar";
+            "hash" = "sha512-jTfW8Tv3PvUO8bSOtxMSQKhbKSAaXzPNOms7ToXTZiOCIyDdz2kHhouv4Jm2T7q6tXogyooMDLk4UCLn9ZICrQ==";
+        };
+        _Lt3GLTvV = {
+            "id" = "Lt3GLTvV";
+            "file" = "NuclearCraft-1.21.1-1.3.0-beta6.jar";
+            "hash" = "sha512-+3o18Xv29l89dbqLhiMtxFPUq1vCTER4dsm89Hm6S2ez4KlFSJ9s2bICJUFlNyWaBO3akiV9jowmV21yJU8mDA==";
+        };
+        _dtYZ2m95 = {
+            "id" = "dtYZ2m95";
+            "file" = "NuclearCraft-1.21.1-1.3.0-beta8.jar";
+            "hash" = "sha512-mz4fzCiXIFz2hJuQeqk5q3RZTLd3ymRs6sQeyAXIZBAnbBtyDz+U4OlNcXDJ4JGfE19FBV1ib2B125QYG1B8rw==";
+        };
+        _kxQYpJ2u = {
+            "id" = "kxQYpJ2u";
+            "file" = "NuclearCraft-1.21.1-1.3.0-rc2.jar";
+            "hash" = "sha512-ju6s4X+r/7MNNG//suDN2G40EFsG8n1yAE8aBYOP2gSLSX/ArdzZQYYgQAPaCgnFDEdhxp//EH5emeKzWzQWCQ==";
+        };
     in {
         "nlOVyp4O" = _nlOVyp4O;
         "AjQEZ5w0" = _AjQEZ5w0;
@@ -314,11 +349,18 @@ let
         "zrByEO18" = _zrByEO18;
         "ShlzLqy3" = _ShlzLqy3;
         "pXOf2irq" = _pXOf2irq;
-        "forge-1.19.2" = _ShlzLqy3;
-        "forge-1.20.1" = _zrByEO18;
+        "Io4EbnkJ" = _Io4EbnkJ;
+        "nTfhomYw" = _nTfhomYw;
+        "34Tzvpol" = _34Tzvpol;
+        "WzQI7X0m" = _WzQI7X0m;
+        "Lt3GLTvV" = _Lt3GLTvV;
+        "dtYZ2m95" = _dtYZ2m95;
+        "kxQYpJ2u" = _kxQYpJ2u;
+        "forge-1.19.2" = _34Tzvpol;
+        "forge-1.20.1" = _nTfhomYw;
         "forge-1.16.5" = _ekhFvgjM;
-        "neoforge-1.20.1" = _hCG6J8K8;
-        "neoforge-1.21.1" = _pXOf2irq;
+        "neoforge-1.20.1" = _nTfhomYw;
+        "neoforge-1.21.1" = _kxQYpJ2u;
         "pkg-1.0.2" = _nlOVyp4O;
         "pkg-1.0.0-beta.5" = _AjQEZ5w0;
         "pkg-1.0.0-rc.2" = _GHFrEcpm;
@@ -371,7 +413,14 @@ let
         "pkg-1.2.32" = _zrByEO18;
         "pkg-1.1.30" = _ShlzLqy3;
         "pkg-1.3.0-beta1" = _pXOf2irq;
-        "default" = _pXOf2irq;
+        "pkg-1.2.33" = _Io4EbnkJ;
+        "pkg-1.2.34" = _nTfhomYw;
+        "pkg-1.1.31" = _34Tzvpol;
+        "pkg-1.3.0-beta5" = _WzQI7X0m;
+        "pkg-1.3.0-beta6" = _Lt3GLTvV;
+        "pkg-1.3.0-beta8" = _dtYZ2m95;
+        "pkg-1.3.0-rc2" = _kxQYpJ2u;
+        "default" = _kxQYpJ2u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nuclearcraft-neoteric";

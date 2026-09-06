@@ -275,6 +275,10 @@ let
         "bukkit-1.21.9" = _asaBBItO;
         "bukkit-1.21.10" = _asaBBItO;
         "bukkit-1.21.11" = _asaBBItO;
+        "bukkit-26.1" = _asaBBItO;
+        "bukkit-26.1.1" = _asaBBItO;
+        "bukkit-26.1.2" = _asaBBItO;
+        "bukkit-26.2" = _asaBBItO;
         "paper-1.14.4" = _uSDiDaN1;
         "paper-1.15" = _uSDiDaN1;
         "paper-1.15.1" = _uSDiDaN1;
@@ -314,6 +318,10 @@ let
         "paper-1.21.9" = _asaBBItO;
         "paper-1.21.10" = _asaBBItO;
         "paper-1.21.11" = _asaBBItO;
+        "paper-26.1" = _asaBBItO;
+        "paper-26.1.1" = _asaBBItO;
+        "paper-26.1.2" = _asaBBItO;
+        "paper-26.2" = _asaBBItO;
         "spigot-1.14.4" = _uSDiDaN1;
         "spigot-1.15" = _uSDiDaN1;
         "spigot-1.15.1" = _uSDiDaN1;
@@ -353,6 +361,10 @@ let
         "spigot-1.21.9" = _asaBBItO;
         "spigot-1.21.10" = _asaBBItO;
         "spigot-1.21.11" = _asaBBItO;
+        "spigot-26.1" = _asaBBItO;
+        "spigot-26.1.1" = _asaBBItO;
+        "spigot-26.1.2" = _asaBBItO;
+        "spigot-26.2" = _asaBBItO;
         "folia-1.18" = _HZqViDYP;
         "folia-1.18.1" = _HZqViDYP;
         "folia-1.18.2" = _HZqViDYP;
@@ -380,6 +392,10 @@ let
         "folia-1.21.9" = _asaBBItO;
         "folia-1.21.10" = _asaBBItO;
         "folia-1.21.11" = _asaBBItO;
+        "folia-26.1" = _asaBBItO;
+        "folia-26.1.1" = _asaBBItO;
+        "folia-26.1.2" = _asaBBItO;
+        "folia-26.2" = _asaBBItO;
         "forge-1.20.2" = _MMxvps0n;
         "forge-1.20.3" = _MMxvps0n;
         "forge-1.20.4" = _MMxvps0n;

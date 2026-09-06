@@ -146,6 +146,31 @@ let
             "file" = "todolist-neoforge-1.21.1-1.4.0.jar";
             "hash" = "sha512-2HrThOk+HGC2xr+pgdabABYk9UPeHz8VZwScMIpGuo9xeHqjuLq468AHnjFCzrxJpqa63mCXy4gBlSIh0tvW5w==";
         };
+        _GqDW7WhK = {
+            "id" = "GqDW7WhK";
+            "file" = "todolist-fabric-1.20.1-1.4.1.jar";
+            "hash" = "sha512-0cdH3XUBVDIf7X1UT9uVJjETUgiydZRD1iqgGqTn26OJiJL5TK8y6M83d1mGvg9rBZvbPGGGZd+cIpEvR7ZYjA==";
+        };
+        _ouT0mjeM = {
+            "id" = "ouT0mjeM";
+            "file" = "todolist-forge-1.20.1-1.4.1.jar";
+            "hash" = "sha512-auLZTS4L9++XhbtadJIegcv71pITm4uLB1O9lhVcIDf1yyG89O/ZOpcC4L446UtAjRfAYOJZbvcQz3HctzEuug==";
+        };
+        _ApAymv7Z = {
+            "id" = "ApAymv7Z";
+            "file" = "todolist-fabric-1.21.1-1.4.1.jar";
+            "hash" = "sha512-DBZtc2PmhEVpJCzHBbeMkiuzBdj7UTip4E+ilYM8QgjXvyBQ3q+g2iTtymuqcf9VNk4TtAWxFxjfmpPAcsYgCg==";
+        };
+        _jMLbnzva = {
+            "id" = "jMLbnzva";
+            "file" = "todolist-forge-1.21.1-1.4.1.jar";
+            "hash" = "sha512-ef7Om3IGu8IRSlC4fghAg66navTor30YLyYA2qdjEAizjBlTVH7imxeV2csnP/5sPSCKw03N55DAAnqgsFtf0Q==";
+        };
+        _RyHBlUKZ = {
+            "id" = "RyHBlUKZ";
+            "file" = "todolist-neoforge-1.21.1-1.4.1.jar";
+            "hash" = "sha512-55/2HE5w+4835bgu1u+GTVardxzLdjMi+Pu8Xrvqr/1kSx49ddsdhHUIaUxNWDyg47ejTpUAQZ524qoK5iXcrw==";
+        };
     in {
         "WRGjj6Rz" = _WRGjj6Rz;
         "JSkRZosg" = _JSkRZosg;
@@ -176,11 +201,16 @@ let
         "Fv3f2Ouu" = _Fv3f2Ouu;
         "xg9PkgKp" = _xg9PkgKp;
         "pMkQO0wM" = _pMkQO0wM;
-        "forge-1.20.1" = _K1UCxmir;
-        "forge-1.21.1" = _xg9PkgKp;
-        "fabric-1.20.1" = _Er85lVnl;
-        "fabric-1.21.1" = _Fv3f2Ouu;
-        "neoforge-1.21.1" = _pMkQO0wM;
+        "GqDW7WhK" = _GqDW7WhK;
+        "ouT0mjeM" = _ouT0mjeM;
+        "ApAymv7Z" = _ApAymv7Z;
+        "jMLbnzva" = _jMLbnzva;
+        "RyHBlUKZ" = _RyHBlUKZ;
+        "forge-1.20.1" = _ouT0mjeM;
+        "forge-1.21.1" = _jMLbnzva;
+        "fabric-1.20.1" = _GqDW7WhK;
+        "fabric-1.21.1" = _ApAymv7Z;
+        "neoforge-1.21.1" = _RyHBlUKZ;
         "pkg-1.1.0" = _JSkRZosg;
         "pkg-1.1.1" = _vAvKrZmX;
         "pkg-v1.1.2-fabric" = _vuoJ3MeG;
@@ -208,7 +238,12 @@ let
         "pkg-1.4.0-mc1.21.1-fabric" = _Fv3f2Ouu;
         "pkg-1.4.0-mc1.21.1-forge" = _xg9PkgKp;
         "pkg-1.4.0-mc1.21.1-neoforge" = _pMkQO0wM;
-        "default" = _pMkQO0wM;
+        "pkg-1.4.1-mc1.20.1-fabric" = _GqDW7WhK;
+        "pkg-1.4.1-mc1.20.1-forge" = _ouT0mjeM;
+        "pkg-1.4.1-mc1.21.1-fabric" = _ApAymv7Z;
+        "pkg-1.4.1-mc1.21.1-forge" = _jMLbnzva;
+        "pkg-1.4.1-mc1.21.1-neoforge" = _RyHBlUKZ;
+        "default" = _RyHBlUKZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "todolist";

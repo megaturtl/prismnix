@@ -236,6 +236,16 @@ let
             "file" = "reestrogen-3.0.4-neoforge-1.21.1.jar";
             "hash" = "sha512-lZ5a9iDFQRj0KrBcAfY/P6Y2p3LvFTdbiMQBt9CLBR2PZTZK2R5dFMp82PzG8BXugeZWlUlLzv+RhmNJ4Ac0xA==";
         };
+        _9SWK6h4K = {
+            "id" = "9SWK6h4K";
+            "file" = "reestrogen-3.0.5-neoforge-1.21.1.jar";
+            "hash" = "sha512-2jUN/NNI8DiBQ7fYzQT4hr50q1CBs5l7BO8ox7zsBnTnT6nJq+qVI/wbzuquw6ov/bBEHaGGLbpbecbBTjZYcQ==";
+        };
+        _XKle1N2c = {
+            "id" = "XKle1N2c";
+            "file" = "expression_core-3.0.6-neoforge-1.21.1.jar";
+            "hash" = "sha512-jlNGS5gqLrOUqP1kOxTkcnxVtgEjT2RsinYp5IIYTUbHtqtEwTtaTPF+ifhd0uIhrgK1SwBx2Vc+6pLqkAW50Q==";
+        };
     in {
         "NgMyWBbm" = _NgMyWBbm;
         "PCmyYrWT" = _PCmyYrWT;
@@ -284,7 +294,9 @@ let
         "Umt577uD" = _Umt577uD;
         "DnHQBpnt" = _DnHQBpnt;
         "IWBCOVJW" = _IWBCOVJW;
-        "neoforge-1.21.1" = _IWBCOVJW;
+        "9SWK6h4K" = _9SWK6h4K;
+        "XKle1N2c" = _XKle1N2c;
+        "neoforge-1.21.1" = _XKle1N2c;
         "pkg-1.0.7" = _NgMyWBbm;
         "pkg-2.0.0" = _PCmyYrWT;
         "pkg-2.0.1" = _n5SuFRZg;
@@ -332,10 +344,12 @@ let
         "pkg-3.0.2" = _Umt577uD;
         "pkg-3.0.3" = _DnHQBpnt;
         "pkg-3.0.4" = _IWBCOVJW;
-        "default" = _IWBCOVJW;
+        "pkg-3.0.5" = _9SWK6h4K;
+        "pkg-3.0.6" = _XKle1N2c;
+        "default" = _XKle1N2c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
-        name = "reestrogen";
+        name = "expression";
         id = "BGUYUAbf";
         type = "mod";
         versions = versions;

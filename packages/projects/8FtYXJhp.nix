@@ -211,6 +211,31 @@ let
             "file" = "SpectrumJEI-21.1.9+neoforge.jar";
             "hash" = "sha512-+AoSwMwhZOZOS9+bNw/hAXk3XkybX8h21hV7fPVeNdSNxx6QtGI0Dts/S3Hqzk5wOXKjkStsNHbehLmTmE4RpA==";
         };
+        _vKkpQV7F = {
+            "id" = "vKkpQV7F";
+            "file" = "SpectrumJEI-21.1.10+neoforge.jar";
+            "hash" = "sha512-we2rnqNLq6M1UQCFE7yINWui/JTaxXho9dJKbWeiUc9WQCnYcJOP4Tx3iAL8MVPvFdfGMV/wk3ZWRGmwNwu6jw==";
+        };
+        _nzjdKWac = {
+            "id" = "nzjdKWac";
+            "file" = "SpectrumJEI-21.1.11+neoforge.jar";
+            "hash" = "sha512-Rqi7Gk1GjlBAhlpUD+ibYEdMLq3VlWg7HAm7W7mDCymy7ZoWlPVB0uCX/Dizp/KBInR7/mWJwXvFx9xDLSaMpg==";
+        };
+        _7zwF4qJX = {
+            "id" = "7zwF4qJX";
+            "file" = "SpectrumJEI-20.1.9.1.jar";
+            "hash" = "sha512-G9P443oLaaZneHqY/Ag/pm/R/Oi9n1Nn3uxf3cITkSyWDlM9Q/vxGYeDAjEKPZm03fUZe9mh0Gn6E2nM9WrqGw==";
+        };
+        _oxiViPhA = {
+            "id" = "oxiViPhA";
+            "file" = "SpectrumJEI-21.1.9.1+fabric.jar";
+            "hash" = "sha512-AaAQVhoO70OherwJMySDry6ln/SxEGYkrR2WF6iUnIZlcu0BmerigDfww53Ov8dqoSDMzgIMDA6Qsvjaij+5Yw==";
+        };
+        _yI2fJc4f = {
+            "id" = "yI2fJc4f";
+            "file" = "SpectrumJEI-21.1.11.1+neoforge.jar";
+            "hash" = "sha512-h34uZqDYBji3nxpL4gjeWHzo+s/zogFuXiLQX1Vi0JEzlvdbOqQ17cPmyy1sfZXAXEB2aRGpFYvSQvsx6/3I/A==";
+        };
     in {
         "M25gegIu" = _M25gegIu;
         "7fAc6HsY" = _7fAc6HsY;
@@ -254,11 +279,16 @@ let
         "2Vgor8p6" = _2Vgor8p6;
         "QcVjeY7h" = _QcVjeY7h;
         "zv8K8aDZ" = _zv8K8aDZ;
+        "vKkpQV7F" = _vKkpQV7F;
+        "nzjdKWac" = _nzjdKWac;
+        "7zwF4qJX" = _7zwF4qJX;
+        "oxiViPhA" = _oxiViPhA;
+        "yI2fJc4f" = _yI2fJc4f;
         "fabric-1.18.2" = _xb9ZKZF9;
         "fabric-1.19.2" = _fAX9n0XD;
-        "fabric-1.20.1" = _2Vgor8p6;
-        "fabric-1.21.1" = _QcVjeY7h;
-        "neoforge-1.21.1" = _zv8K8aDZ;
+        "fabric-1.20.1" = _7zwF4qJX;
+        "fabric-1.21.1" = _oxiViPhA;
+        "neoforge-1.21.1" = _yI2fJc4f;
         "pkg-18.2.0" = _M25gegIu;
         "pkg-19.2.0" = _7fAc6HsY;
         "pkg-20.1.0" = _SHMSHXiI;
@@ -301,7 +331,12 @@ let
         "pkg-20.1.9" = _2Vgor8p6;
         "pkg-21.1.9+fabric" = _QcVjeY7h;
         "pkg-21.1.9+neoforge" = _zv8K8aDZ;
-        "default" = _zv8K8aDZ;
+        "pkg-21.1.10+neoforge" = _vKkpQV7F;
+        "pkg-21.1.11+neoforge" = _nzjdKWac;
+        "pkg-20.1.9.1" = _7zwF4qJX;
+        "pkg-21.1.9.1+fabric" = _oxiViPhA;
+        "pkg-21.1.11.1+neoforge" = _yI2fJc4f;
+        "default" = _yI2fJc4f;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spectrumjei";

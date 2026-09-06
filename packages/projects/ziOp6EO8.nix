@@ -716,6 +716,16 @@ let
             "file" = "Corgilib-NeoForge-1.21.1-5.0.0.9.jar";
             "hash" = "sha512-1UYdX6skf+LTC6VXjHdozzxMh1ixVay1yQGRPCLEPd1q9ufb1a5MyosQb34pU7RCfAqX5Thphh1ksCZsgl0Xiw==";
         };
+        _gDovBlgh = {
+            "id" = "gDovBlgh";
+            "file" = "Corgilib-Fabric-1.20.1-4.0.3.5.jar";
+            "hash" = "sha512-pb1jrpTfm5TtbSdUqryyEDca4qBR4K8tKL9eMhHRtU5itmFMifUuZitqT64jGx8LwK/VCFS9soz3p4M+7/pmlg==";
+        };
+        _HXTB2EAy = {
+            "id" = "HXTB2EAy";
+            "file" = "Corgilib-Forge-1.20.1-4.0.3.5.jar";
+            "hash" = "sha512-6HmX4e6AlCKPW+U82n/Uatd/4vI47tWevbzYpNP4xs1fVl5F66uz1Nxh0ambcBGYutEdrqmxJ3o7HpSdt60Ocg==";
+        };
     in {
         "OyqoXnSr" = _OyqoXnSr;
         "AUeAiB60" = _AUeAiB60;
@@ -860,10 +870,12 @@ let
         "ltZXAkMW" = _ltZXAkMW;
         "ERwPyVD2" = _ERwPyVD2;
         "nqrTa84r" = _nqrTa84r;
+        "gDovBlgh" = _gDovBlgh;
+        "HXTB2EAy" = _HXTB2EAy;
         "fabric-1.19.2" = _HaZfKDxj;
         "fabric-1.19.3" = _ZroY6yNY;
         "fabric-1.19.4" = _lMApN4G3;
-        "fabric-1.20.1" = _Fk0j3oUu;
+        "fabric-1.20.1" = _gDovBlgh;
         "fabric-1.21.1" = _ltZXAkMW;
         "fabric-1.21.4" = _5QOFZvOn;
         "fabric-1.21.8" = _EEKzC8dG;
@@ -871,17 +883,17 @@ let
         "forge-1.19.2" = _ja9yy4N9;
         "forge-1.19.3" = _Fk11GvWy;
         "forge-1.19.4" = _M51IWfyO;
-        "forge-1.20.1" = _QQhzscay;
+        "forge-1.20.1" = _HXTB2EAy;
         "forge-1.21.1" = _ERwPyVD2;
         "forge-1.21.4" = _SbzpJO5S;
         "forge-1.21.8" = _WRpw9AK8;
         "forge-1.21.11" = _Nadyi7d2;
-        "quilt-1.20.1" = _Fk0j3oUu;
+        "quilt-1.20.1" = _gDovBlgh;
         "quilt-1.21.1" = _ltZXAkMW;
         "quilt-1.21.4" = _5QOFZvOn;
         "quilt-1.21.8" = _EEKzC8dG;
         "quilt-1.21.11" = _y5NhX0ok;
-        "neoforge-1.20.1" = _QQhzscay;
+        "neoforge-1.20.1" = _HXTB2EAy;
         "neoforge-1.21.1" = _nqrTa84r;
         "neoforge-1.21.4" = _1KDvAIdJ;
         "neoforge-1.21.8" = _DoI2Li8O;
@@ -1028,7 +1040,9 @@ let
         "pkg-1.21.1-5.0.0.9-Fabric" = _ltZXAkMW;
         "pkg-1.21.1-5.0.0.9-Forge" = _ERwPyVD2;
         "pkg-1.21.1-5.0.0.9-NeoForge" = _nqrTa84r;
-        "default" = _nqrTa84r;
+        "pkg-1.20.1-4.0.3.5-fabric" = _gDovBlgh;
+        "pkg-1.20.1-4.0.3.5-forge" = _HXTB2EAy;
+        "default" = _HXTB2EAy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "corgilib";

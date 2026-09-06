@@ -731,6 +731,21 @@ let
             "file" = "theoneprobe-1.21_neo-12.0.8.jar";
             "hash" = "sha512-3JCjgxUZrwgxWrQiZDezyhh078W/4M3Jm4ray4ji+dTLx3FZzxvMk8IQRCVPdhjBgfMKT7Pkpw/imhUFAJHF7g==";
         };
+        _rVHe1zh9 = {
+            "id" = "rVHe1zh9";
+            "file" = "theoneprobe-1.21.11_neo-13.0.0.jar";
+            "hash" = "sha512-kUoVh12p87o9r8T/njehT3u/H23IX4AkZ1qMUvi56EtLzbeB7kAOcMd21EbyV7K9HpyXpUmDqoVcflOiKyUwzg==";
+        };
+        _NOrwYJkt = {
+            "id" = "NOrwYJkt";
+            "file" = "theoneprobe-26.1.2_neo-14.0.0.jar";
+            "hash" = "sha512-5eRE3pWfvYYWlVhUxIFrXtbewvnM99ZUlt8RUeYwTVbdPlq/pLJFlfvS5zyT0BA+Hqx0pFQ9QUosrNJfMSvPOw==";
+        };
+        _EolgIMIG = {
+            "id" = "EolgIMIG";
+            "file" = "theoneprobe-26.2_neo-15.0.0.jar";
+            "hash" = "sha512-G5NxTEg0JEfLciko3bxEkU96vyGK08erQiEE+8zL+kDAhSB6vl1dQ6m0S3euoGje29VeAiWhrdoHuqHv8JM0NQ==";
+        };
     in {
         "FM1mjjvK" = _FM1mjjvK;
         "XXeMYMEI" = _XXeMYMEI;
@@ -878,6 +893,9 @@ let
         "9t64aOu9" = _9t64aOu9;
         "TFym1LAO" = _TFym1LAO;
         "4bbMy0Mh" = _4bbMy0Mh;
+        "rVHe1zh9" = _rVHe1zh9;
+        "NOrwYJkt" = _NOrwYJkt;
+        "EolgIMIG" = _EolgIMIG;
         "forge-1.9" = _iLrKw4Wp;
         "forge-1.9.4" = _aLhQYUfl;
         "forge-1.10" = _aLhQYUfl;
@@ -914,6 +932,9 @@ let
         "neoforge-1.20.5" = _fi1hMYpd;
         "neoforge-1.21" = _XiSBhnyf;
         "neoforge-1.21.1" = _4bbMy0Mh;
+        "neoforge-1.21.11" = _rVHe1zh9;
+        "neoforge-26.1.2" = _NOrwYJkt;
+        "neoforge-26.2" = _EolgIMIG;
         "pkg-1.9.0-0.0.1beta1" = _FM1mjjvK;
         "pkg-1.9.0-0.0.1beta2" = _XXeMYMEI;
         "pkg-1.9.0-0.0.1beta3" = _iLrKw4Wp;
@@ -1060,7 +1081,10 @@ let
         "pkg-1.21_neo-12.0.6" = _9t64aOu9;
         "pkg-1.21_neo-12.0.7" = _TFym1LAO;
         "pkg-1.21_neo-12.0.8" = _4bbMy0Mh;
-        "default" = _4bbMy0Mh;
+        "pkg-1.21.11_neo-13.0.0" = _rVHe1zh9;
+        "pkg-26.1.2_neo-14.0.0" = _NOrwYJkt;
+        "pkg-26.2_neo-15.0.0" = _EolgIMIG;
+        "default" = _EolgIMIG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-one-probe";

@@ -1,0 +1,227 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _Xfp0pxLh = {
+            "id" = "Xfp0pxLh";
+            "file" = "colorfulanvils-1.3.0+1.21.8.jar";
+            "hash" = "sha512-Xes9fr0Iene80mV2IyDEYSZCZ+TZjwVfA80lCXTaZ9lE2kxnS0aAyvLeZkXqrqbQgQIiNwrsG/GHU6+R4eo2dg==";
+        };
+        _r7FwGNgq = {
+            "id" = "r7FwGNgq";
+            "file" = "colorfulanvils-1.4.0+1.21.8-1.21.11.jar";
+            "hash" = "sha512-BzZzFkURhV/PHr+sEka6GqWIyPwlmxeBaj7HHXspHUaaQ9I10+S2XUpxIq/IfOSuDAefbPrWbN5GdKCkPj63IA==";
+        };
+        _mlWN02uM = {
+            "id" = "mlWN02uM";
+            "file" = "colorfulanvils-1.5.0+1.21.8-1.21.11.jar";
+            "hash" = "sha512-hAIjkriawokawrvOiRkhEqA06OIvloAuFgeLhLZRX/F5yqVLdxK9pAEfWH5Qil47l9ql9i7dJF/fmZrvBxkCKg==";
+        };
+        _BEQuygUx = {
+            "id" = "BEQuygUx";
+            "file" = "colorfulanvils-1.6.0+1.21.8-1.21.11.jar";
+            "hash" = "sha512-GlCpeGoT0SXzocwESTJdW5ROXgO78OIJFigMOuDRPBD8386fqnwcenE2w1GFke4QqqKsFtW+w/qg9aS+BK07pA==";
+        };
+        _WNjGT5La = {
+            "id" = "WNjGT5La";
+            "file" = "colorfulanvils-1.7.0+1.21.8-1.21.11.jar";
+            "hash" = "sha512-hdKmJQudmeOBWNI5zCzYE2o75ogtcZVT+i4yr1l7CXRuS9mliyGfm/LhP1Z9S2dvgzzTGQiF9CWs3rd1GfLhRg==";
+        };
+        _cPwahiKM = {
+            "id" = "cPwahiKM";
+            "file" = "colorfulanvils-1.8.0+1.21.8-1.21.11.jar";
+            "hash" = "sha512-U/PTCQyFlLTanmKq7pvxkKPgylwVuPph2yJipNghlLbSOsV6OyualRu+uuwDyRTVLC9dfooCfcq1SMeolgDc8Q==";
+        };
+        _Qfie7CWC = {
+            "id" = "Qfie7CWC";
+            "file" = "colorfulanvils-1.9.0+1.21.8-1.21.11.jar";
+            "hash" = "sha512-RQkGDePh8vTd4XfCApDa4wsLJPaCf0DVRUWGFZrteFx9448CpsXOEUTvTnSOtBay3D+5SY2vB/BS0OeOQdA8vQ==";
+        };
+        _cbJA4I7M = {
+            "id" = "cbJA4I7M";
+            "file" = "colorfulanvils-1.9.0+26.1-26.1.2.jar";
+            "hash" = "sha512-FXnXxb6R3jaTHkilYnqNNte0Ui+hysfeVZmajUgR4/72JKkrXg9B0HrWahlubUY+XENySvJNBZbnGYSOKnHBCA==";
+        };
+        _xiitP4dU = {
+            "id" = "xiitP4dU";
+            "file" = "colorfulanvils-2.0.0+1.21.8-1.21.11.jar";
+            "hash" = "sha512-loBsgbwCkxQz7NpdhUFEmQLcImVuo2hsFDsvDe7CureXsFcgrKKVoaBsuE4GeZqw1pRwpXkyjqUlUGW4EjpmoA==";
+        };
+        _KSUgjYhm = {
+            "id" = "KSUgjYhm";
+            "file" = "colorfulanvils-2.0.0+26.1-26.1.2.jar";
+            "hash" = "sha512-HMgsT6jND4Hq3r9a0X8fu8MtDm2qWI3EwbUd1Vz5WkGzAjVNftfAd7B6/7UPpUQK10GwnUxtlFtQrjnXeAycUQ==";
+        };
+        _bBsUd3ps = {
+            "id" = "bBsUd3ps";
+            "file" = "colorfulanvils-2.1.0+1.21.8-1.21.11.jar";
+            "hash" = "sha512-rvRlWQEiYwnkPFk22sXk1Q3lXJLIw1+KkdPlrhh7g+aPgUltXDASHm+qCikkVuQUiav8x+FLp1b9T6kX4el0sQ==";
+        };
+        _B2IZN81F = {
+            "id" = "B2IZN81F";
+            "file" = "colorfulanvils-2.1.0+26.1-26.1.2.jar";
+            "hash" = "sha512-ITABEdpH/FrZloEbMsgYtPZwODKy3PL+feEbNIrN+IrcX9XGbBsSMR7fdJE67GVqiDuZKsp3xm2q3l3yeaPoDA==";
+        };
+        _6xLzTL6Y = {
+            "id" = "6xLzTL6Y";
+            "file" = "colorfulanvils-2.1.0+26.2.jar";
+            "hash" = "sha512-1cMLf81jRVFvaCUzZB7UocohJX/ySwrinKMHlLKWNJB4hoDFSCysIC2Z827xMnZsyKJluyUufPmDaxmxss1mQQ==";
+        };
+        _NMrtEO6t = {
+            "id" = "NMrtEO6t";
+            "file" = "colorfulanvils-2.2.0+1.21.8-1.21.11.jar";
+            "hash" = "sha512-vgSS0zE0PaMlEhbUYujlXA6GBG5lTGlqKbOAJQntyIHPo5EkNkar3gLyrS5gFzj80IOaYhFkeOdCERimxM8UdQ==";
+        };
+        _xeAl4Vpf = {
+            "id" = "xeAl4Vpf";
+            "file" = "colorfulanvils-2.2.0+26.1-26.1.2.jar";
+            "hash" = "sha512-8XnnhOqY6ZtX39NJqjN1PvOCkVo3N6gSdAMQCSbEBkEBvrYcQpEnClgvDu92RIG+04KDhvKVPlK8doInqjIBgg==";
+        };
+        _7cYqsfpk = {
+            "id" = "7cYqsfpk";
+            "file" = "colorfulanvils-2.2.0+26.2.jar";
+            "hash" = "sha512-De87gwpw1gpZpaz2vGw4dd6ZWMwhHO8cCXhdAqjsRDwTIVTNw1Idz5NbxR7WvZ+jPdGYttJ5VAQln4gs0HQLWQ==";
+        };
+        _dfAoGJIA = {
+            "id" = "dfAoGJIA";
+            "file" = "colorfulanvils-2.3.0+1.21.8-1.21.11.jar";
+            "hash" = "sha512-60BGWPnINmVEa0kvrSZuHhXlGHXLu3voawSp28sf3j9opRiuEhAfNnWci7SJSn2eJsSt/lYIVR+0zxbKpVUHAQ==";
+        };
+        _h5SL2Y6Q = {
+            "id" = "h5SL2Y6Q";
+            "file" = "colorfulanvils-2.3.0+26.1-26.1.2.jar";
+            "hash" = "sha512-inP0I/qvnScWagF2XKDl8McjQnpH9W+xEEBU6auiLPmwKsBH1bP65q1h61dJDBGRHSnjV41MLlSENukbVvrTvQ==";
+        };
+        _xhxKUQPX = {
+            "id" = "xhxKUQPX";
+            "file" = "colorfulanvils-2.3.0+26.2.jar";
+            "hash" = "sha512-So0hMWnDeCGr31Wq1f4rcGsaRafWKOMwdyvLzwu146KjS7Ct66thx9hc9iCfqXheDfT6rhRqRrbm6BEzFPj05w==";
+        };
+        _NVvEaJGa = {
+            "id" = "NVvEaJGa";
+            "file" = "colorfulanvils-2.4.0+1.21.8-1.21.11.jar";
+            "hash" = "sha512-g2pu+0GG0EjoQwWh6gNgqy0YVuWEYxz2vhBQnzQm7OTB6ifQ+JRdgnXwfc0GNqMuxI25KJjreDaiZz2WfZTKIw==";
+        };
+        _k2kq2mjY = {
+            "id" = "k2kq2mjY";
+            "file" = "colorfulanvils-2.4.0+26.1-26.1.2.jar";
+            "hash" = "sha512-qlLC5HjMnlCavprU0AUQa7hWa3rR4dq2T1/fgsgiHf+BbcAUVfb07Qfgv92dFYQbwSKQizcgGHFjdipFlHLutA==";
+        };
+        _hrvSPaL0 = {
+            "id" = "hrvSPaL0";
+            "file" = "colorfulanvils-2.4.0+26.2.jar";
+            "hash" = "sha512-G2aeRlHMEWFcqef6QlCwSU4UE8MDBcKcBQJ0+QJ4W1S4K4b9XSs0R0YvfXwieeot+Xru9dWlIIJltTUjtDAKqA==";
+        };
+        _yI3FeW9V = {
+            "id" = "yI3FeW9V";
+            "file" = "colorfulanvils-2.5.0+1.21.8-1.21.11.jar";
+            "hash" = "sha512-ZenrtC5xF53NbMHJAh1MA10eyKLq+/ge/8dPx6cpEzi+eyEU74x/8YsPm2hvRtaOOTojOKtO8bu5DAQzt2QcBg==";
+        };
+        _DK34bHUn = {
+            "id" = "DK34bHUn";
+            "file" = "colorfulanvils-2.5.0+26.1-26.1.2.jar";
+            "hash" = "sha512-m4q6DSaY/Rcsxh4/rL2tw9L3QWlEoKhbP9PtjFlY5LQx4x3qPRtZ3rkI392CVsQoTMIJH0qEYD+SDRSwGF9AXw==";
+        };
+        _BmYhJF0m = {
+            "id" = "BmYhJF0m";
+            "file" = "colorfulanvils-2.5.0+26.2.jar";
+            "hash" = "sha512-SDpCe6Kavwc90wf0e06+VGg2I5tac6HBXVwHMei3WAohTyeutI48nyQSsK7Ywi2MDIcMurPc1mJ+9RUCiAcSfA==";
+        };
+        _5ADBAIhm = {
+            "id" = "5ADBAIhm";
+            "file" = "colorfulanvils-2.6.0+1.21.8-1.21.11.jar";
+            "hash" = "sha512-kiezHkeLevNwk4PLVnSsptMZJZnjofdVoI89Eu6Vjx7Tzxfyn/zDjA6Bl3JxGn8e1r3wFd/XTihu7RwG3AdOyw==";
+        };
+        _brT4EXXs = {
+            "id" = "brT4EXXs";
+            "file" = "colorfulanvils-2.6.0+26.1-26.1.2.jar";
+            "hash" = "sha512-bAl3Cyrqn0Nq1GA0Z2oZcbbafIJH2g1s+6tCERqSnifQtjjPf6ni7eGiOpvhdeFWcORX+968+Xr0Rsp9yDnyjQ==";
+        };
+        _gT8stpL7 = {
+            "id" = "gT8stpL7";
+            "file" = "colorfulanvils-2.6.0+26.2.jar";
+            "hash" = "sha512-lyrjKLDwCYutotjwhxr/lLnHBuSzL3SYUk/EXaAzX0ByK7Wk0MLdf90L/vR2ySzWpMBojpTVpEffL35wMj7DPA==";
+        };
+    in {
+        "Xfp0pxLh" = _Xfp0pxLh;
+        "r7FwGNgq" = _r7FwGNgq;
+        "mlWN02uM" = _mlWN02uM;
+        "BEQuygUx" = _BEQuygUx;
+        "WNjGT5La" = _WNjGT5La;
+        "cPwahiKM" = _cPwahiKM;
+        "Qfie7CWC" = _Qfie7CWC;
+        "cbJA4I7M" = _cbJA4I7M;
+        "xiitP4dU" = _xiitP4dU;
+        "KSUgjYhm" = _KSUgjYhm;
+        "bBsUd3ps" = _bBsUd3ps;
+        "B2IZN81F" = _B2IZN81F;
+        "6xLzTL6Y" = _6xLzTL6Y;
+        "NMrtEO6t" = _NMrtEO6t;
+        "xeAl4Vpf" = _xeAl4Vpf;
+        "7cYqsfpk" = _7cYqsfpk;
+        "dfAoGJIA" = _dfAoGJIA;
+        "h5SL2Y6Q" = _h5SL2Y6Q;
+        "xhxKUQPX" = _xhxKUQPX;
+        "NVvEaJGa" = _NVvEaJGa;
+        "k2kq2mjY" = _k2kq2mjY;
+        "hrvSPaL0" = _hrvSPaL0;
+        "yI3FeW9V" = _yI3FeW9V;
+        "DK34bHUn" = _DK34bHUn;
+        "BmYhJF0m" = _BmYhJF0m;
+        "5ADBAIhm" = _5ADBAIhm;
+        "brT4EXXs" = _brT4EXXs;
+        "gT8stpL7" = _gT8stpL7;
+        "fabric-1.21.8" = _5ADBAIhm;
+        "fabric-1.21.9" = _5ADBAIhm;
+        "fabric-1.21.10" = _5ADBAIhm;
+        "fabric-1.21.11" = _5ADBAIhm;
+        "fabric-26.1" = _brT4EXXs;
+        "fabric-26.1.1" = _brT4EXXs;
+        "fabric-26.1.2" = _brT4EXXs;
+        "fabric-26.2" = _gT8stpL7;
+        "pkg-1.3.0+1.21.8" = _Xfp0pxLh;
+        "pkg-1.4.0+1.21.8-1.21.11" = _r7FwGNgq;
+        "pkg-1.5.0+1.21.8-1.21.11" = _mlWN02uM;
+        "pkg-1.6.0+1.21.8-1.21.11" = _BEQuygUx;
+        "pkg-1.7.0+1.21.8-1.21.11" = _WNjGT5La;
+        "pkg-1.8.0+1.21.8-1.21.11" = _cPwahiKM;
+        "pkg-1.9.0+1.21.8-1.21.11" = _Qfie7CWC;
+        "pkg-1.9.0+26.1-26.1.2" = _cbJA4I7M;
+        "pkg-2.0.0+1.21.8-1.21.11" = _xiitP4dU;
+        "pkg-2.0.0+26.1-26.1.2" = _KSUgjYhm;
+        "pkg-2.1.0+1.21.8-1.21.11" = _bBsUd3ps;
+        "pkg-2.1.0+26.1-26.1.2" = _B2IZN81F;
+        "pkg-2.1.0+26.2" = _6xLzTL6Y;
+        "pkg-2.2.0+1.21.8-1.21.11" = _NMrtEO6t;
+        "pkg-2.2.0+26.1-26.1.2" = _xeAl4Vpf;
+        "pkg-2.2.0+26.2" = _7cYqsfpk;
+        "pkg-2.3.0+1.21.8-1.21.11" = _dfAoGJIA;
+        "pkg-2.3.0+26.1-26.1.2" = _h5SL2Y6Q;
+        "pkg-2.3.0+26.2" = _xhxKUQPX;
+        "pkg-2.4.0+1.21.8-1.21.11" = _NVvEaJGa;
+        "pkg-2.4.0+26.1-26.1.2" = _k2kq2mjY;
+        "pkg-2.4.0+26.2" = _hrvSPaL0;
+        "pkg-2.5.0+1.21.8-1.21.11" = _yI3FeW9V;
+        "pkg-2.5.0+26.1-26.1.2" = _DK34bHUn;
+        "pkg-2.5.0+26.2" = _BmYhJF0m;
+        "pkg-2.6.0+1.21.8-1.21.11" = _5ADBAIhm;
+        "pkg-2.6.0+26.1-26.1.2" = _brT4EXXs;
+        "pkg-2.6.0+26.2" = _gT8stpL7;
+        "default" = _gT8stpL7;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "colorful-anvils-unoffical-port";
+        id = "DsLSnHpq";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

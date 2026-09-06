@@ -46,6 +46,16 @@ let
             "file" = "TrimPatcher-1.0-mc26.2.jar";
             "hash" = "sha512-rGs2ygQuSNfmO/IagBbhsf7Ti8U1FpNClhnBMc5mLU2bb6dEV+Z5z+8L9QDkQ7lqIuoADQ/VMCDuh7Tj92wCDA==";
         };
+        _yqUKyjqb = {
+            "id" = "yqUKyjqb";
+            "file" = "Trim Patcher-2.1-mc26.2-neoforge.jar";
+            "hash" = "sha512-FdG4zgFbil3aMzBCJrpOo3MmloWTTpwcI9p+hYtvkqvSpAOHIdbtZuQ9HWRSq+pVxXMoBntv8ZlbnoqtV2EUow==";
+        };
+        _VwpMfwIb = {
+            "id" = "VwpMfwIb";
+            "file" = "Trim Patcher-2.1-mc26.2-fabric.jar";
+            "hash" = "sha512-GYAoMlt08YEoaS6mc5AW4dTnPRvPrc3A8s+531NipPKJDTbIdRv9iM7K3+uaJaFfe79QMGkcIYxXY3TSgzgSfw==";
+        };
     in {
         "bc02sZ20" = _bc02sZ20;
         "9jqY0u8W" = _9jqY0u8W;
@@ -56,17 +66,20 @@ let
         "Dx6JqHzq" = _Dx6JqHzq;
         "6k8bCbXF" = _6k8bCbXF;
         "YgDcey9m" = _YgDcey9m;
+        "yqUKyjqb" = _yqUKyjqb;
+        "VwpMfwIb" = _VwpMfwIb;
         "fabric-1.21.9" = _bc02sZ20;
         "fabric-1.21.10" = _9jqY0u8W;
         "fabric-1.21.11" = _BtqdMGcn;
         "fabric-26.1" = _6k8bCbXF;
         "fabric-26.1.1" = _6k8bCbXF;
         "fabric-26.1.2" = _6k8bCbXF;
-        "fabric-26.2" = _YgDcey9m;
+        "fabric-26.2" = _VwpMfwIb;
         "quilt-26.1" = _VomTAKpn;
         "neoforge-26.1" = _Dx6JqHzq;
         "neoforge-26.1.1" = _Dx6JqHzq;
         "neoforge-26.1.2" = _Dx6JqHzq;
+        "neoforge-26.2" = _yqUKyjqb;
         "pkg-1.0-mc1.21.9" = _bc02sZ20;
         "pkg-1.0-mc1.21.10" = _9jqY0u8W;
         "pkg-1.0-mc1.21.11" = _BtqdMGcn;
@@ -76,7 +89,9 @@ let
         "pkg-2.1-mc26.1-neoforge" = _Dx6JqHzq;
         "pkg-2.1-mc26.1-fabric" = _6k8bCbXF;
         "pkg-1.0-mc26.2" = _YgDcey9m;
-        "default" = _YgDcey9m;
+        "pkg-2.1-mc26.2-neoforge" = _yqUKyjqb;
+        "pkg-2.1-mc26.2-fabric" = _VwpMfwIb;
+        "default" = _VwpMfwIb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trim-patcher";

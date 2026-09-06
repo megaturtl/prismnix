@@ -2766,6 +2766,286 @@ let
             "file" = "Roundabout-forge-1.20.1-3.1.9.jar";
             "hash" = "sha512-nySyIv9/nJpezCuHS3Z9FgzMlM7C4cDquctuMPZzhb7M82CAQQ7hrRJ9Sr2pMiY1OV9bsGkKurtHd6klOUVV8Q==";
         };
+        _TcE1JXEp = {
+            "id" = "TcE1JXEp";
+            "file" = "Roundabout-fabric-1.20.1-3.2.0.jar";
+            "hash" = "sha512-mwdrt0KRfIfSeVbGdwZ0u347RCtIjhY26Px5xUHvvkO/c6Pde5E7yTAaeS9hrJwg8inwgIjIAaapSKcSFCd9xw==";
+        };
+        _CyGKcsUA = {
+            "id" = "CyGKcsUA";
+            "file" = "Roundabout-forge-1.20.1-3.2.0.jar";
+            "hash" = "sha512-sMU74uFEEcDAUITS0GWbnt0aXUONtbpKdHm6cMP2OAT+xJl45qjlj8bvQe6aRXTN46TjFx5rI7KaAbNltkPawA==";
+        };
+        _KMsQybIu = {
+            "id" = "KMsQybIu";
+            "file" = "Roundabout-fabric-1.20.1-3.2.1.jar";
+            "hash" = "sha512-HX1NIJiKgsVD3ZFRNYjA/w/ujE3aO22w+cJ9vGtWgT0XAJE428B5B/zB1jD4t9g1wf5BY2BI4MK9MJsk0LdWPA==";
+        };
+        _FFCh4eqd = {
+            "id" = "FFCh4eqd";
+            "file" = "Roundabout-forge-1.20.1-3.2.1.jar";
+            "hash" = "sha512-ppOnykbsbwh1f/Y0UWVC8jFkiMkQ7dwYSiLmVvW3toX9eE+eAF/p1bXvXi1oMa0OHG1KXSceqatqZbFT53GAQA==";
+        };
+        _O1bKbIWe = {
+            "id" = "O1bKbIWe";
+            "file" = "Roundabout-fabric-1.20.1-3.2.2.jar";
+            "hash" = "sha512-4rWCai163LDt4RWqrsd5msBqOFrX7V3A4REpuY1jvWaYC0+sI1c1MeLaehPLKIhggqXJ2nStVlFUW2/MDoHWHg==";
+        };
+        _6JlkIzWU = {
+            "id" = "6JlkIzWU";
+            "file" = "Roundabout-forge-1.20.1-3.2.2.jar";
+            "hash" = "sha512-riNVEBRn721Llz6fyUOrMrIKcytFaXDJstbbug9nTNxAczNHZ88IRsXavfwRbDGJj/1UjNWru3yN9CxPZ89aug==";
+        };
+        _oY7lvwuk = {
+            "id" = "oY7lvwuk";
+            "file" = "Roundabout-fabric-1.20.1-3.2.3.jar";
+            "hash" = "sha512-AoClQCbfsa3UVByS3LXayvnrtPrdWtFj1WDFZsWNN6yWMqK8y5TBxL+SnGte+XlLeA7bNfRKyz+GKyA3nFbO6w==";
+        };
+        _kOakNd7p = {
+            "id" = "kOakNd7p";
+            "file" = "Roundabout-forge-1.20.1-3.2.3.jar";
+            "hash" = "sha512-N4ZRtPxIOQV42R1szREb02+SoJzzWWOWuGeSvY0i6lVxCwx976Alnq3suiOnVbManjbjYjWUKFgg0NOoqrD/kA==";
+        };
+        _yWNEfNPw = {
+            "id" = "yWNEfNPw";
+            "file" = "Roundabout-fabric-1.20.1-3.2.4.jar";
+            "hash" = "sha512-L8gYpnOUWa6mayRDULpAI0btV/HXiEwlJ2sJEeM+gdWuMUA+x9g4EGpNxawmg+JoLMJYyWF8FRC1CCli5rnOQw==";
+        };
+        _mJaM1fqd = {
+            "id" = "mJaM1fqd";
+            "file" = "Roundabout-forge-1.20.1-3.2.4.jar";
+            "hash" = "sha512-3z83erYp8LnJElnbxaPJltp6gwkL0L/YM2HSq19HSisBhpJp7PGpyQ/vDMFSB64vv5sOS80Tq6OT03rQhbCqaw==";
+        };
+        _dcWeFoAd = {
+            "id" = "dcWeFoAd";
+            "file" = "Roundabout-fabric-1.20.1-3.2.5.jar";
+            "hash" = "sha512-XLAMZTjcIo+Yzl5i84CIKwcJutghZZVPg5+7FiDYa68Zp6ffYxgPZeFhktaRSS1WOzKVAJmiT57SvwYAtK38mg==";
+        };
+        _dytZsPnC = {
+            "id" = "dytZsPnC";
+            "file" = "Roundabout-forge-1.20.1-3.2.5.jar";
+            "hash" = "sha512-h1odhpzyVyan6U4CCGGLs5/qnfqipvdT9G/z2y3dw7+VSf+scTYIMoqS6s69Uav2mdkjdBHCTP5wQcQPzpF8Ow==";
+        };
+        _1IEgSP0Z = {
+            "id" = "1IEgSP0Z";
+            "file" = "Roundabout-fabric-1.20.1-3.2.6.jar";
+            "hash" = "sha512-UXdLdFrTyi8nu1TineXAfeF4Z8cxbLDYmN8GRNUYKqOSOpbIEqMqqe73pdErYJBL5168jx17FqjTGSGHzJN9Tg==";
+        };
+        _49ODjhZE = {
+            "id" = "49ODjhZE";
+            "file" = "Roundabout-forge-1.20.1-3.2.6.jar";
+            "hash" = "sha512-3yhzQOJIDtUMIbdD/wtDJoHCTXGYeziB4+XCCRbZFSbqG53YfOhvrzFuzsQVD2Ax88F9NtQ9IZkVTtLR/8Z5JQ==";
+        };
+        _dXpUyxVR = {
+            "id" = "dXpUyxVR";
+            "file" = "Roundabout-fabric-1.20.1-3.2.7.jar";
+            "hash" = "sha512-HewKJtaowcAndLvOZjyxoG4A5RxTlokQ3U6vbUVKpzmvdoSXQSNLqSzpxUuQ7nQG09CDJJm2rqLU7SARlxiHjw==";
+        };
+        _ExMMx32k = {
+            "id" = "ExMMx32k";
+            "file" = "Roundabout-forge-1.20.1-3.2.7.jar";
+            "hash" = "sha512-wa63T99JnCMKEK+vvP40lNEJehTI2wqJEWQoqrf8Zp/d259bNO59HoSsOgB3AT7t3oEg3y2o3S0XNNOqEa0m3A==";
+        };
+        _1g0JWeLl = {
+            "id" = "1g0JWeLl";
+            "file" = "Roundabout-fabric-1.20.1-3.2.8.jar";
+            "hash" = "sha512-2JqvupXMbz0l31qmiEsz0Bc1cUq9+W0VHmv7LRrasWFYUgFZZ5DQcpIKbMw1phgvOvEI3wzBmrAjvHhLz3COOQ==";
+        };
+        _IIOUprSL = {
+            "id" = "IIOUprSL";
+            "file" = "Roundabout-forge-1.20.1-3.2.8.jar";
+            "hash" = "sha512-FzYtzIyRQlScvA9idfg4kmOysubRIw4SIMy7x8wuzT9lkYaY0eLDv++zoAmGXVzEsbSzCp8x2WvTxSnMZuU1fA==";
+        };
+        _QNlJCvSE = {
+            "id" = "QNlJCvSE";
+            "file" = "Roundabout-fabric-1.20.1-3.2.9.1.jar";
+            "hash" = "sha512-06hYwe5qqgjfVV04Z8J2j7Q9WUrjMONpuna8PBhNgScUTLKrs7JAroqNBLByjQNsG+lvBGg4+Y6Ckt8EaFjdGA==";
+        };
+        _L99oEN51 = {
+            "id" = "L99oEN51";
+            "file" = "Roundabout-forge-1.20.1-3.2.9.jar";
+            "hash" = "sha512-kRCQRjgDJx8whUaELOckPWn6Nt7iSWYcpRjT5QRrPOp3lzqOmwxHVxdNSkbt10NNpFdoabQinlCBucgHx4+bjA==";
+        };
+        _AvN5nHSU = {
+            "id" = "AvN5nHSU";
+            "file" = "Roundabout-fabric-1.20.1-3.3.0.jar";
+            "hash" = "sha512-5yOqP0MZrvoZsKHaWtZ2y8veHJdLIplmNCqNlVPojT1No1DwgpxNEEd6n6SoWeo6o9PL9EKcd2Z6AN2/+aqpSA==";
+        };
+        _F3Hbt0Ui = {
+            "id" = "F3Hbt0Ui";
+            "file" = "Roundabout-forge-1.20.1-3.3.0.jar";
+            "hash" = "sha512-maqbrdhBk3vtIwHz53URoH40z5Np2hUPnvk9/yZ7tUz4hpPsg4uidWkPmI+p12v5BRf234Vaa0TXYoCsPVd3PA==";
+        };
+        _4Ll5PwZk = {
+            "id" = "4Ll5PwZk";
+            "file" = "Roundabout-fabric-1.20.1-3.3.1.jar";
+            "hash" = "sha512-dbHLOX4xaNd+N+SyHYIiGdRckssy19rVBhHEyJJI9RBHmlpEglOix6eOK4iiZleFGrmePsrVX+WtBMI+WeMCkA==";
+        };
+        _44Kfmy0e = {
+            "id" = "44Kfmy0e";
+            "file" = "Roundabout-forge-1.20.1-3.3.1.jar";
+            "hash" = "sha512-a8BINqEXxgdGSKU4k3BA2NtRU9t2vTGa9spJmoQ5gTZ+57xzwF563nzUHC+mrb0X9kGepXulpjbB19MxefVYVQ==";
+        };
+        _zz6Ceqy9 = {
+            "id" = "zz6Ceqy9";
+            "file" = "Roundabout-fabric-1.20.1-3.3.2.jar";
+            "hash" = "sha512-+Vgnr1RCCwR6G9SrNnoac4JY1Z0YXhBRkGnjwa4POmjwegBbcGWSiSL978ylWoeAsHdso0o2Wz9UzHKjI+DtOw==";
+        };
+        _p4OuqURf = {
+            "id" = "p4OuqURf";
+            "file" = "Roundabout-forge-1.20.1-3.3.2.jar";
+            "hash" = "sha512-nV2GyG/ECecJvKt2o/ul95MYxpNrBaqzYh908iHe02I5iSGNfZUWc00qIN95sCt2r/GQ09mOkaVf0TuLqBzTjg==";
+        };
+        _JarJJKzp = {
+            "id" = "JarJJKzp";
+            "file" = "Roundabout-fabric-1.20.1-3.3.4.jar";
+            "hash" = "sha512-jtrTdRuc3+SiLPh2Ab5DQ2EN2HqXf6GTmc++Jssml5X+GRE5GfMFjvp4siW735q9c0eggPNBlQ9AYRmp9MACCA==";
+        };
+        _J3m91rCB = {
+            "id" = "J3m91rCB";
+            "file" = "Roundabout-forge-1.20.1-3.3.4.jar";
+            "hash" = "sha512-DjaQjOQrflZGXuI1NdOP8SQYKwvnQXeS0zlqva/aMQS3run/hFPjJ5Qj6KVVySf3B6y8A4QqVzz+LgNlfL4hwg==";
+        };
+        _gr1yZyQl = {
+            "id" = "gr1yZyQl";
+            "file" = "Roundabout-fabric-1.20.1-3.3.5.jar";
+            "hash" = "sha512-EAjAD16KGEO0Ye9Ga5EL9ZP0zt82ioKLhdQjmWYKYd2qoHUXyeyN8AQo8IZymd0DQn7swUBw6wOGOCOVrP3CgQ==";
+        };
+        _R42wcsm9 = {
+            "id" = "R42wcsm9";
+            "file" = "Roundabout-forge-1.20.1-3.3.5.jar";
+            "hash" = "sha512-PdzYKxciGdGb99PxE9qNhJndf2NqOMisjjzfHYm6zOMr+WEdD0PcMhKEEUnhaQpYUGqYkh1QbGoWtwhhM3deiA==";
+        };
+        _rNtDMePn = {
+            "id" = "rNtDMePn";
+            "file" = "Roundabout-fabric-1.20.1-3.3.6.jar";
+            "hash" = "sha512-/3VUNUtzmw5IkLmLBvTldsoU6R6wybDJhlkDdXHV6/keu5ndPiI5csXkf4h1SguPNdhGX0egrcI8WeHLQnb7IA==";
+        };
+        _1bcCT345 = {
+            "id" = "1bcCT345";
+            "file" = "Roundabout-forge-1.20.1-3.3.6.jar";
+            "hash" = "sha512-GQU46Za2vi/RqF+xfxgYPMyaZOxB3aHsXuEZu0FYFgbTEKAwq/5nJVOCLr/01/Ssv7Xveu+2NUYEzadfmJHohw==";
+        };
+        _OAm6Zfn5 = {
+            "id" = "OAm6Zfn5";
+            "file" = "Roundabout-fabric-1.20.1-3.3.7.jar";
+            "hash" = "sha512-3xNqpk0Ev877Asvkhpv3hPudixO7gjk9dp3U+3GmNrGEvQFC8B1Vv0mvC4GSr5kyXTQNM7Sv7dTCfCT1zq/oLA==";
+        };
+        _5b5twnLq = {
+            "id" = "5b5twnLq";
+            "file" = "Roundabout-forge-1.20.1-3.3.7.jar";
+            "hash" = "sha512-U7Jwpvgq5MSUL+hyggbmxzJU65Muh5PghYxOktaszz8BnkmTY1njGwV6pztzN0czzVc+ppbOaDBuS+rm+vtVKQ==";
+        };
+        _JYlbdhck = {
+            "id" = "JYlbdhck";
+            "file" = "Roundabout-fabric-1.20.1-3.3.8.jar";
+            "hash" = "sha512-fS+RsFSKPZqlYzSaHeR4Imf50/ejWs9plqFSGad8uzrXeIHGxJ2st8zxPLKDLJvx64ygl/b5J90pa4FqHhimEA==";
+        };
+        _uF0lvJR7 = {
+            "id" = "uF0lvJR7";
+            "file" = "Roundabout-forge-1.20.1-3.3.8.jar";
+            "hash" = "sha512-OOdX2Xz/koUW7/Xe1+I856plid3phGZhlFMalcbLRCLfc8H6MGvvkBS7GQ5vcZr+hxmgUjmDLXbaVzRU9o6nPQ==";
+        };
+        _4sddzKQx = {
+            "id" = "4sddzKQx";
+            "file" = "Roundabout-fabric-1.20.1-3.3.9.jar";
+            "hash" = "sha512-Fu314L0sUYOM3QPS1vsowSQT0b1tpwSro9cus7lWnMRDjUfY/OK5oR640mRUaBY+AtTeBPFOd3Rl01aYpqoP8Q==";
+        };
+        _PMZ94niR = {
+            "id" = "PMZ94niR";
+            "file" = "Roundabout-forge-1.20.1-3.3.9.jar";
+            "hash" = "sha512-fePoNB6dMrO7/j3kqKJqQWuKOjREH4s7CzSTDemic+VlVyl73bVby3vyQrqSDVTB2RoKhRJOI1LvsBGNSyxPNw==";
+        };
+        _L3E97ugv = {
+            "id" = "L3E97ugv";
+            "file" = "Roundabout-fabric-1.20.1-3.4.0.jar";
+            "hash" = "sha512-12Dfd1VzSDlVQkl+9LJYiPkWU9nraAjWLGN8+1+Lo7fgjgqbhHKwY1KMMRPUHaiNlBUGmFPEXfeYh6h12PxeRA==";
+        };
+        _62P9Wqdu = {
+            "id" = "62P9Wqdu";
+            "file" = "Roundabout-forge-1.20.1-3.4.0.jar";
+            "hash" = "sha512-eg1fS3v7zZdITcsIUR3va3Rb8PAs3HvgsRdnZ9CtXZ0jBTF9YLYJc2qnWVZSgZxGt1dVYBj5/acEm/vAN19m9Q==";
+        };
+        _dTxW6jZ9 = {
+            "id" = "dTxW6jZ9";
+            "file" = "Roundabout-fabric-1.20.1-3.4.1.jar";
+            "hash" = "sha512-FkumipNNtYfjEDgwEGu/o1cDlRzNaAIygriHvUC3KIEGNvY+dBKxj6GibVocAGlnnBUMfKRYb04zJTcAJltGWA==";
+        };
+        _7kkBouaa = {
+            "id" = "7kkBouaa";
+            "file" = "Roundabout-forge-1.20.1-3.4.1.jar";
+            "hash" = "sha512-B62GmNmrorpc1tZpLunx7bLafwtZR7PaHwFnag/p81Ic0jscAkgIsNhC1Lp86vOMMGxIA2if3XD6WkqXTnSsEg==";
+        };
+        _JCRJAZYG = {
+            "id" = "JCRJAZYG";
+            "file" = "Roundabout-fabric-1.20.1-3.4.2.jar";
+            "hash" = "sha512-zWyGvx8hX6qMGtfSsVGmfCFAkp7S5C8WjuiYqCVRwkO55eK00Smps9AXIaPn+YzBY2Er1TwNO4ItWVHBTGaygQ==";
+        };
+        _wuR0NRmN = {
+            "id" = "wuR0NRmN";
+            "file" = "Roundabout-forge-1.20.1-3.4.2.jar";
+            "hash" = "sha512-bfVXK4O/XBRw697w9h5nfmqIxXNrSUzpwCQmuqGEDZRYKBptkge+8FLHXRSSSZ3DRoclDdicR83KXRg4PPDqjQ==";
+        };
+        _Q5PVdjhi = {
+            "id" = "Q5PVdjhi";
+            "file" = "Roundabout-fabric-1.20.1-3.4.3.jar";
+            "hash" = "sha512-GgTTXKK2GXizA3p4FEBsp+VbmJ2PWYadCq/i0Mr29sija0JTZR+RrfiTxsOhETa4Gp754G5CAeGmPtrrfwp/qw==";
+        };
+        _669CPfIZ = {
+            "id" = "669CPfIZ";
+            "file" = "Roundabout-forge-1.20.1-3.4.3.jar";
+            "hash" = "sha512-htYC+8PcW9zWxS4T0+xGg8DVqynNcY4WO15gqkGafNC2UGmv6gFlNpEycjdIqSmk7NM7sqknLBLx1YUMrqHMGw==";
+        };
+        _vHgEKfaq = {
+            "id" = "vHgEKfaq";
+            "file" = "Roundabout-fabric-1.20.1-3.4.4.jar";
+            "hash" = "sha512-Ts5i4XplMIdMSmoHDHUERc9wQnnGE+4EBGfUXEMcF/6rtlidQnA4hC4xipkk7AbI5G37Wd/zeHCXnjWMfnlVCQ==";
+        };
+        _nwDbeztS = {
+            "id" = "nwDbeztS";
+            "file" = "Roundabout-forge-1.20.1-3.4.4.jar";
+            "hash" = "sha512-S12/pyS6cfvH++8wFUkTNFilXbcEwfnnxMly9TRQFCSlTViI+2ZzV7Dq0nfia/Gpl3hLma6Hop9P/dxAgS/l8w==";
+        };
+        _yMATw2Fh = {
+            "id" = "yMATw2Fh";
+            "file" = "Roundabout-fabric-1.20.1-3.4.5.jar";
+            "hash" = "sha512-J/qVw+dMaEaCnMijkohy0+vzl2/zESX3lCSSyJatrNNHSrSZ24tQUV3pibLGFysgtfUB38Hgkg+EbvF7ndkfFw==";
+        };
+        _P4pcbWvh = {
+            "id" = "P4pcbWvh";
+            "file" = "Roundabout-forge-1.20.1-3.4.5.jar";
+            "hash" = "sha512-saBdOH1zGYe9G0yRnTgGR/cWWsRGPWy73kpHcYFRACHWK/p2OIc0mltvC1lwOgxXnAEnEWq3Y9DMOG1Zl9UHWw==";
+        };
+        _eJr0SZxy = {
+            "id" = "eJr0SZxy";
+            "file" = "Roundabout-fabric-1.20.1-3.4.6.jar";
+            "hash" = "sha512-BGDRIx8P71W5tA/Kf7cOUYp4TzPwLh2Tmf3pCyx6NFvCOr0yyo7Z+mhfuqCT1JhVsmgZQ9OEhwR4+3Ud6O269A==";
+        };
+        _FFxS08kI = {
+            "id" = "FFxS08kI";
+            "file" = "Roundabout-forge-1.20.1-3.4.6.jar";
+            "hash" = "sha512-2qYX44dn1tXnIi5OSLsEZgx/f9EUErUDvwn9uD9XQhzQpC53TXUWb4mrwOZfzkVoEpuISe/0jc2dHKwcwgyL3g==";
+        };
+        _Z5EiOteh = {
+            "id" = "Z5EiOteh";
+            "file" = "Roundabout-fabric-1.20.1-3.4.7.jar";
+            "hash" = "sha512-yhOUxO1sso43zdQEGYgG2lUb56IkTmyg/b05HnEFml6P2TcG6BaMetwVpz6f5uLYcor6jrfkEB08iQM5JJdtEg==";
+        };
+        _8b6xpbCa = {
+            "id" = "8b6xpbCa";
+            "file" = "Roundabout-forge-1.20.1-3.4.7.jar";
+            "hash" = "sha512-4ZT15LFnDsHtU+4Y65sMQMEwwEjPS63iMLk5HIWb9h71R6RcXAPMc3lbEMKsi8FEYYOFh6PgU8Zf1EG1IlMLVg==";
+        };
+        _Dt2qgIVK = {
+            "id" = "Dt2qgIVK";
+            "file" = "Roundabout-fabric-1.20.1-3.4.8.jar";
+            "hash" = "sha512-GC++D4Wv9eTlKuFQ24x5EpQkhCIRGjt0EJAbWIm9M6HiPAO09yd0ok76Hsie+D7iFGI/fyQfozyfyy498d+wbw==";
+        };
+        _Be8DoViR = {
+            "id" = "Be8DoViR";
+            "file" = "Roundabout-forge-1.20.1-3.4.8.jar";
+            "hash" = "sha512-wdvW++ZYPHFCk952zeYMX4u//PiZhExBOKqRxn0LVObAnG1dPzZtrMhj6WPQbm6klvVS+dPejjX0Wxt1Cccs3g==";
+        };
     in {
         "IBC5eZVT" = _IBC5eZVT;
         "hu49wVYJ" = _hu49wVYJ;
@@ -3320,8 +3600,64 @@ let
         "eJwHEdEa" = _eJwHEdEa;
         "w2kyjEGD" = _w2kyjEGD;
         "tYvtkzpa" = _tYvtkzpa;
-        "fabric-1.20.1" = _w2kyjEGD;
-        "forge-1.20.1" = _tYvtkzpa;
+        "TcE1JXEp" = _TcE1JXEp;
+        "CyGKcsUA" = _CyGKcsUA;
+        "KMsQybIu" = _KMsQybIu;
+        "FFCh4eqd" = _FFCh4eqd;
+        "O1bKbIWe" = _O1bKbIWe;
+        "6JlkIzWU" = _6JlkIzWU;
+        "oY7lvwuk" = _oY7lvwuk;
+        "kOakNd7p" = _kOakNd7p;
+        "yWNEfNPw" = _yWNEfNPw;
+        "mJaM1fqd" = _mJaM1fqd;
+        "dcWeFoAd" = _dcWeFoAd;
+        "dytZsPnC" = _dytZsPnC;
+        "1IEgSP0Z" = _1IEgSP0Z;
+        "49ODjhZE" = _49ODjhZE;
+        "dXpUyxVR" = _dXpUyxVR;
+        "ExMMx32k" = _ExMMx32k;
+        "1g0JWeLl" = _1g0JWeLl;
+        "IIOUprSL" = _IIOUprSL;
+        "QNlJCvSE" = _QNlJCvSE;
+        "L99oEN51" = _L99oEN51;
+        "AvN5nHSU" = _AvN5nHSU;
+        "F3Hbt0Ui" = _F3Hbt0Ui;
+        "4Ll5PwZk" = _4Ll5PwZk;
+        "44Kfmy0e" = _44Kfmy0e;
+        "zz6Ceqy9" = _zz6Ceqy9;
+        "p4OuqURf" = _p4OuqURf;
+        "JarJJKzp" = _JarJJKzp;
+        "J3m91rCB" = _J3m91rCB;
+        "gr1yZyQl" = _gr1yZyQl;
+        "R42wcsm9" = _R42wcsm9;
+        "rNtDMePn" = _rNtDMePn;
+        "1bcCT345" = _1bcCT345;
+        "OAm6Zfn5" = _OAm6Zfn5;
+        "5b5twnLq" = _5b5twnLq;
+        "JYlbdhck" = _JYlbdhck;
+        "uF0lvJR7" = _uF0lvJR7;
+        "4sddzKQx" = _4sddzKQx;
+        "PMZ94niR" = _PMZ94niR;
+        "L3E97ugv" = _L3E97ugv;
+        "62P9Wqdu" = _62P9Wqdu;
+        "dTxW6jZ9" = _dTxW6jZ9;
+        "7kkBouaa" = _7kkBouaa;
+        "JCRJAZYG" = _JCRJAZYG;
+        "wuR0NRmN" = _wuR0NRmN;
+        "Q5PVdjhi" = _Q5PVdjhi;
+        "669CPfIZ" = _669CPfIZ;
+        "vHgEKfaq" = _vHgEKfaq;
+        "nwDbeztS" = _nwDbeztS;
+        "yMATw2Fh" = _yMATw2Fh;
+        "P4pcbWvh" = _P4pcbWvh;
+        "eJr0SZxy" = _eJr0SZxy;
+        "FFxS08kI" = _FFxS08kI;
+        "Z5EiOteh" = _Z5EiOteh;
+        "8b6xpbCa" = _8b6xpbCa;
+        "Dt2qgIVK" = _Dt2qgIVK;
+        "Be8DoViR" = _Be8DoViR;
+        "fabric-1.20.1" = _Dt2qgIVK;
+        "forge-1.20.1" = _Be8DoViR;
         "forge-1.20.2" = _f749OaVt;
         "forge-1.20.3" = _f749OaVt;
         "forge-1.20.4" = _f749OaVt;
@@ -3611,7 +3947,35 @@ let
         "pkg-3.1.7" = _tisQyaV7;
         "pkg-3.1.8" = _eJwHEdEa;
         "pkg-3.1.9" = _tYvtkzpa;
-        "default" = _tYvtkzpa;
+        "pkg-3.2.0" = _CyGKcsUA;
+        "pkg-3.2.1" = _FFCh4eqd;
+        "pkg-3.2.2" = _6JlkIzWU;
+        "pkg-3.2.3" = _kOakNd7p;
+        "pkg-3.2.4" = _mJaM1fqd;
+        "pkg-3.2.5" = _dytZsPnC;
+        "pkg-3.2.6" = _49ODjhZE;
+        "pkg-3.2.7" = _ExMMx32k;
+        "pkg-3.2.8" = _IIOUprSL;
+        "pkg-3.2.9" = _L99oEN51;
+        "pkg-3.3.0" = _F3Hbt0Ui;
+        "pkg-3.3.1" = _44Kfmy0e;
+        "pkg-3.3.2" = _p4OuqURf;
+        "pkg-3.3.4" = _J3m91rCB;
+        "pkg-3.3.5" = _R42wcsm9;
+        "pkg-3.3.6" = _1bcCT345;
+        "pkg-3.3.7" = _5b5twnLq;
+        "pkg-3.3.8" = _uF0lvJR7;
+        "pkg-3.3.9" = _PMZ94niR;
+        "pkg-3.4.0" = _62P9Wqdu;
+        "pkg-3.4.1" = _7kkBouaa;
+        "pkg-3.4.2" = _wuR0NRmN;
+        "pkg-3.4.3" = _669CPfIZ;
+        "pkg-3.4.4" = _nwDbeztS;
+        "pkg-3.4.5" = _P4pcbWvh;
+        "pkg-3.4.6" = _FFxS08kI;
+        "pkg-3.4.7" = _8b6xpbCa;
+        "pkg-3.4.8" = _Be8DoViR;
+        "default" = _Be8DoViR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "roundabout_the_jojo_mod";

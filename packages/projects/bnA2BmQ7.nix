@@ -71,6 +71,21 @@ let
             "file" = "elytra-chestplate-swapper-2.0.1-MC26.2.jar";
             "hash" = "sha512-VsVs6n/+VvHuTZ9LZme/diwqmM8lfn26gkMkdJ11JWjjPHiWEqtX2QgQU2gfKpiKeZKX/d8ODwak39ltMrcR+A==";
         };
+        _a7RbMiZ3 = {
+            "id" = "a7RbMiZ3";
+            "file" = "elytra-chestplate-swapper-2.1.0-MC26.2-fabric.jar";
+            "hash" = "sha512-bQ3emv8QK+bzE1nnJUlsW8wnHVXOR7RiKDQJ1zNxoGH8x5ClMRll9py/DdfGHzxozdBw5uQHmJT9iPv2Y9yU1A==";
+        };
+        _c8TmPqq2 = {
+            "id" = "c8TmPqq2";
+            "file" = "elytra-chestplate-swapper-2.1.0-MC26.2-neoforge.jar";
+            "hash" = "sha512-6TjE2snHizosr4WmUuIDqRvAiY4aPICwVn76GRRqf5i199CUQAyCz87OODZscNoxLpTQAg+HZufnt3lyzDVt4w==";
+        };
+        _JYyvfr52 = {
+            "id" = "JYyvfr52";
+            "file" = "elytra-chestplate-swapper-2.1.0-MC26.2-forge.jar";
+            "hash" = "sha512-YvwtshpX4cIu0TEg0w80uk+xZeXqN9WslB/Y5Hky1KpeFJf5b7HK54/sDwPrGwOb5VBYEt7ulM+leo0U7eqOaQ==";
+        };
     in {
         "8gPVRPn4" = _8gPVRPn4;
         "KNIJoUBe" = _KNIJoUBe;
@@ -86,6 +101,9 @@ let
         "cJFYlpnI" = _cJFYlpnI;
         "LMkAOvh5" = _LMkAOvh5;
         "UZINGHgI" = _UZINGHgI;
+        "a7RbMiZ3" = _a7RbMiZ3;
+        "c8TmPqq2" = _c8TmPqq2;
+        "JYyvfr52" = _JYyvfr52;
         "fabric-1.21.7" = _8gPVRPn4;
         "fabric-1.21.6" = _KNIJoUBe;
         "fabric-1.21.5" = _s8aFahyN;
@@ -101,7 +119,13 @@ let
         "fabric-26.1" = _raIf7sPY;
         "fabric-26.1.1" = _cJFYlpnI;
         "fabric-26.1.2" = _LMkAOvh5;
-        "fabric-26.2" = _UZINGHgI;
+        "fabric-26.2" = _a7RbMiZ3;
+        "quilt-26.1" = _raIf7sPY;
+        "quilt-26.1.1" = _cJFYlpnI;
+        "quilt-26.1.2" = _LMkAOvh5;
+        "quilt-26.2" = _a7RbMiZ3;
+        "neoforge-26.2" = _c8TmPqq2;
+        "forge-26.2" = _JYyvfr52;
         "pkg-2.0.0+1.21.7" = _8gPVRPn4;
         "pkg-2.0.0+1.21.6" = _KNIJoUBe;
         "pkg-2.0.0+1.21.5" = _s8aFahyN;
@@ -116,7 +140,10 @@ let
         "pkg-2.0.1+26.1.1" = _cJFYlpnI;
         "pkg-2.0.1+26.1.2" = _LMkAOvh5;
         "pkg-2.0.1+26.2" = _UZINGHgI;
-        "default" = _UZINGHgI;
+        "pkg-2.1.0+26.2-fabric" = _a7RbMiZ3;
+        "pkg-2.1.0+26.2-neoforge" = _c8TmPqq2;
+        "pkg-2.1.0+26.2-forge" = _JYyvfr52;
+        "default" = _JYyvfr52;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytra-chestplate-swapper";

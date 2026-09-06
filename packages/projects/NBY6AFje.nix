@@ -131,6 +131,26 @@ let
             "file" = "heartstone-1.21-1.3.1-neoforge.jar";
             "hash" = "sha512-2se2dp2ikiHWd4XiORAzQBvAv3Pjcec4jRY5jTV6JIR3BBLleIKSLJIYMzaTyvOGngsf3yquuDZIAWmPuZyKkQ==";
         };
+        _U3ZLOyJE = {
+            "id" = "U3ZLOyJE";
+            "file" = "heartstone-1.21.1-1.4.0-fabric.jar";
+            "hash" = "sha512-m4Dtywxe77AgxRkd463VzFJpnsCOFTd7iYDSUrEpHlY74rD6GeCykpTT4NVxbpvq2Ffd67aiIScSc6EZhwt6cw==";
+        };
+        _MmJ7qz0m = {
+            "id" = "MmJ7qz0m";
+            "file" = "heartstone-1.21.1-1.4.0-neoforge.jar";
+            "hash" = "sha512-nydCsEQ5zkldUs8BJ8V60k4uO5b/1ZTxe5vey6pl0dxuufsB15iKdmDac9mJ75Cymy1MnpDNwO/nXV3qBIJz5w==";
+        };
+        _RGoPioFW = {
+            "id" = "RGoPioFW";
+            "file" = "heartstone-1.21.1-1.4.1-neoforge.jar";
+            "hash" = "sha512-e/NSpQRm3N861W+EcpFpAwukARShltVvwBERox2B7DbU+nF7MuZbMhmxM8ohjH9yKHVQhplF9BYbRa/mRw+4sQ==";
+        };
+        _LUyIkzSk = {
+            "id" = "LUyIkzSk";
+            "file" = "heartstone-1.21.1-1.4.1-fabric.jar";
+            "hash" = "sha512-Tlr2Fd3iYAp568J5ZXpvZgF3Jw8P3xRPDLjfYLwwrGplEOf+f+zNgB8lEgGDjO12RMN/kMJ9ihjF5a9WCLl8LQ==";
+        };
     in {
         "qlcUei4W" = _qlcUei4W;
         "AOCH7Z4y" = _AOCH7Z4y;
@@ -158,6 +178,10 @@ let
         "omBGj9Om" = _omBGj9Om;
         "szCMNqis" = _szCMNqis;
         "z39Uj84c" = _z39Uj84c;
+        "U3ZLOyJE" = _U3ZLOyJE;
+        "MmJ7qz0m" = _MmJ7qz0m;
+        "RGoPioFW" = _RGoPioFW;
+        "LUyIkzSk" = _LUyIkzSk;
         "forge-1.18.1" = _qlcUei4W;
         "forge-1.18.2" = _qlcUei4W;
         "forge-1.16.5" = _TMyDLu3B;
@@ -170,9 +194,9 @@ let
         "fabric-1.20" = _jHbVVtBW;
         "fabric-1.20.1" = _BBtgfQk1;
         "fabric-1.21" = _szCMNqis;
-        "fabric-1.21.1" = _szCMNqis;
+        "fabric-1.21.1" = _LUyIkzSk;
         "neoforge-1.21" = _z39Uj84c;
-        "neoforge-1.21.1" = _z39Uj84c;
+        "neoforge-1.21.1" = _RGoPioFW;
         "pkg-1.0.0" = _qlcUei4W;
         "pkg-1.0.2" = _AOCH7Z4y;
         "pkg-1.0.3" = _TMyDLu3B;
@@ -186,7 +210,9 @@ let
         "pkg-1.20-1.3.0" = _BBtgfQk1;
         "pkg-1.21-1.3.0" = _omBGj9Om;
         "pkg-1.21-1.3.1" = _z39Uj84c;
-        "default" = _z39Uj84c;
+        "pkg-1.21.1-1.4.0" = _MmJ7qz0m;
+        "pkg-1.21.1-1.4.1" = _LUyIkzSk;
+        "default" = _LUyIkzSk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "heartstone";

@@ -376,6 +376,11 @@ let
             "file" = "cyclepaintings-26.2.0-4.2.jar";
             "hash" = "sha512-l1iFFS473ON8rsPZnznKHeefj7kgzboVAf69h3xLNfsG1qadmsJwmG8hEdzfo6vlJaR7UAaK4uVoA6zaJz3zeA==";
         };
+        _M911zyw2 = {
+            "id" = "M911zyw2";
+            "file" = "cyclepaintings-26.2.0-4.3.jar";
+            "hash" = "sha512-BIN1z8dBQADSGeq+Th2EndTGT4pIh4G6b93lqSeorz3iYIMRBHuq+PyslU9DwtuB/7NT0kZPEuFR1H8YO88rkA==";
+        };
     in {
         "FMVL9nzk" = _FMVL9nzk;
         "YvEu7NGh" = _YvEu7NGh;
@@ -452,6 +457,7 @@ let
         "uRVVor6J" = _uRVVor6J;
         "gJ7YNXbD" = _gJ7YNXbD;
         "lWpwddov" = _lWpwddov;
+        "M911zyw2" = _M911zyw2;
         "fabric-1.16.5" = _heWAj8JG;
         "fabric-1.18.2" = _Lzbn96L0;
         "fabric-1.19.2" = _fFPVRVpy;
@@ -479,7 +485,7 @@ let
         "fabric-26.1" = _baOPWqDc;
         "fabric-26.1.1" = _8uvPeArM;
         "fabric-26.1.2" = _gJ7YNXbD;
-        "fabric-26.2" = _lWpwddov;
+        "fabric-26.2" = _M911zyw2;
         "forge-1.16.5" = _qhHNj0cB;
         "forge-1.18.2" = _Lzbn96L0;
         "forge-1.19.2" = _fFPVRVpy;
@@ -505,7 +511,7 @@ let
         "forge-26.1" = _baOPWqDc;
         "forge-26.1.1" = _8uvPeArM;
         "forge-26.1.2" = _gJ7YNXbD;
-        "forge-26.2" = _lWpwddov;
+        "forge-26.2" = _M911zyw2;
         "quilt-1.18.2" = _Lzbn96L0;
         "quilt-1.19.2" = _fFPVRVpy;
         "quilt-1.19.3" = _ZwenlV2r;
@@ -532,7 +538,7 @@ let
         "quilt-26.1" = _baOPWqDc;
         "quilt-26.1.1" = _8uvPeArM;
         "quilt-26.1.2" = _gJ7YNXbD;
-        "quilt-26.2" = _lWpwddov;
+        "quilt-26.2" = _M911zyw2;
         "neoforge-1.20.2" = _W9EUideT;
         "neoforge-1.20.1" = _tmI15AGR;
         "neoforge-1.20.3" = _YEZVIEGK;
@@ -554,7 +560,7 @@ let
         "neoforge-26.1" = _baOPWqDc;
         "neoforge-26.1.1" = _8uvPeArM;
         "neoforge-26.1.2" = _gJ7YNXbD;
-        "neoforge-26.2" = _lWpwddov;
+        "neoforge-26.2" = _M911zyw2;
         "pkg-1.16.5-2.5-fabric" = _FMVL9nzk;
         "pkg-1.18.2-2.5-fabric" = _YvEu7NGh;
         "pkg-1.19.2-2.6-fabric" = _7ReikXJ0;
@@ -630,7 +636,8 @@ let
         "pkg-1.21.11-4.2-fabric+forge+neo" = _uRVVor6J;
         "pkg-26.1.2-4.2-fabric+forge+neo" = _gJ7YNXbD;
         "pkg-26.2.0-4.2-fabric+forge+neo" = _lWpwddov;
-        "default" = _lWpwddov;
+        "pkg-26.2.0-4.3-fabric+forge+neo" = _M911zyw2;
+        "default" = _M911zyw2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cycle-paintings";

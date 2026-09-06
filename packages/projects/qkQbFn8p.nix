@@ -1013,13 +1013,13 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-ND-4.0" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "Creative Commons Attribution Non Commercial No Derivatives 4.0 International";
-                shortName = "CC-BY-NC-ND-4.0";
-                url = null;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = "https://raw.githubusercontent.com/TamKungZ/letyourfriendeating/refs/heads/letyourfriendeating-MDK-1.20.6-NeoGradle/LICENSE";
             };
         };
     };

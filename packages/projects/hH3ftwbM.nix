@@ -36,6 +36,11 @@ let
             "file" = "ghostpig.jar-forge-13.0-1.20.1.jar";
             "hash" = "sha512-IX99Pdw7Wpb4tv/uikrvHx6U3dodLGb8/vsEgY7r8Uw65o3wRMjkk1GyNZRyVg8zK8GeqhfCcxKeBZFyodjKRg==";
         };
+        _eHeLNkIe = {
+            "id" = "eHeLNkIe";
+            "file" = "ghostpig.jar-forge-14.0-1.20.1.jar";
+            "hash" = "sha512-Z8YLjkMwHE2884yy7wGKcGqZ76sdA9LMFqALVSqxyNqk0auimg8T97QjnI1nYb94zyUS1ToeSHu/DXeIZGQPBg==";
+        };
     in {
         "H275zYWW" = _H275zYWW;
         "fWYgIYsi" = _fWYgIYsi;
@@ -44,7 +49,8 @@ let
         "op9ekQ8w" = _op9ekQ8w;
         "XybXFgAN" = _XybXFgAN;
         "uwCmwCrO" = _uwCmwCrO;
-        "forge-1.20.1" = _uwCmwCrO;
+        "eHeLNkIe" = _eHeLNkIe;
+        "forge-1.20.1" = _eHeLNkIe;
         "pkg-6.1" = _H275zYWW;
         "pkg-7.0" = _fWYgIYsi;
         "pkg-8.0" = _MhYqCNp4;
@@ -52,7 +58,8 @@ let
         "pkg-10.0" = _op9ekQ8w;
         "pkg-12.0" = _XybXFgAN;
         "pkg-13.0" = _uwCmwCrO;
-        "default" = _uwCmwCrO;
+        "pkg-14.0" = _eHeLNkIe;
+        "default" = _eHeLNkIe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ghostpig.jar";

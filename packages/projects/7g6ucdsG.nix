@@ -26,12 +26,18 @@ let
             "file" = "brewerylib_26.1_1.0.1.jar";
             "hash" = "sha512-udHXT1m5JtOIu05L51SukFkxWd46iHtkDq9GgR/r/RLLb44RujOeW68a4lvZO3bbiEhhaYSOGMUeDCjtrOEzkg==";
         };
+        _ttfIxlSt = {
+            "id" = "ttfIxlSt";
+            "file" = "brewerylib_26.2_1.0.1.jar";
+            "hash" = "sha512-IfUD+uQ565E+NfVFZjP1/hN/mWjZMTUVow2b7pfrZrze64lkq/lXNv8TffY4oVyYUB8rJMho6rbDaRwBrYbsdw==";
+        };
     in {
         "69YauyrF" = _69YauyrF;
         "zl0E5ZgX" = _zl0E5ZgX;
         "dv31gJev" = _dv31gJev;
         "nCcn1SwY" = _nCcn1SwY;
         "DlCJt5P8" = _DlCJt5P8;
+        "ttfIxlSt" = _ttfIxlSt;
         "fabric-1.21.8" = _nCcn1SwY;
         "fabric-1.21.10" = _nCcn1SwY;
         "fabric-1.21.9" = _nCcn1SwY;
@@ -39,9 +45,10 @@ let
         "fabric-26.1" = _DlCJt5P8;
         "fabric-26.1.1" = _DlCJt5P8;
         "fabric-26.1.2" = _DlCJt5P8;
+        "fabric-26.2" = _ttfIxlSt;
         "pkg-1.0.0" = _dv31gJev;
-        "pkg-1.0.1" = _DlCJt5P8;
-        "default" = _DlCJt5P8;
+        "pkg-1.0.1" = _ttfIxlSt;
+        "default" = _ttfIxlSt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "brewerylib";

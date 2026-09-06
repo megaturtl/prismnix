@@ -81,6 +81,21 @@ let
             "file" = "pipesnphysics-3.0.1.jar";
             "hash" = "sha512-Gm4xIsfmC0jlhvBeqRBxG8KHE4KczcSskxOSCXs1gs4EYjXARzJEj2SHTVl+X+OczSRt4t1HtMpcKjOg3Tvo+Q==";
         };
+        _rcwV2c7u = {
+            "id" = "rcwV2c7u";
+            "file" = "pipesnphysics-3.1.0.jar";
+            "hash" = "sha512-prCzbI96TshBxAuROJRef/MGxCExXc/3dcQPkGHY7NdTwivQMuKPcQtLCVKV5DGy1Du6Q6t1B+FCAc8iage/ww==";
+        };
+        _FdXICQHQ = {
+            "id" = "FdXICQHQ";
+            "file" = "pipesnphysics-3.1.1.jar";
+            "hash" = "sha512-yeJCpabcMOJ4VIqmisQlf5VWuHfdjLxUgtuShUT1/6dfmgFm+UtdwLo8yOJ/xDFxQxUWXH3mMluSGLEsTqjHVg==";
+        };
+        _C4cTTHQR = {
+            "id" = "C4cTTHQR";
+            "file" = "pipesnphysics-3.2.0.jar";
+            "hash" = "sha512-StTSt+FroWIQPfDvYyiXUog0GTv5CdYjwgypSBa9XdMtO49DekGweSrak29tMy5V4NXJViu6vHbxwQCmIUwVtQ==";
+        };
     in {
         "NQKVSy7P" = _NQKVSy7P;
         "PRfKXGg7" = _PRfKXGg7;
@@ -98,7 +113,10 @@ let
         "KeIZOUYK" = _KeIZOUYK;
         "a9OfoH1C" = _a9OfoH1C;
         "Q2ArZOIM" = _Q2ArZOIM;
-        "neoforge-1.21.1" = _Q2ArZOIM;
+        "rcwV2c7u" = _rcwV2c7u;
+        "FdXICQHQ" = _FdXICQHQ;
+        "C4cTTHQR" = _C4cTTHQR;
+        "neoforge-1.21.1" = _C4cTTHQR;
         "pkg-0.1.0" = _NQKVSy7P;
         "pkg-0.3.0" = _PRfKXGg7;
         "pkg-1.0.0" = _FNnyZhxg;
@@ -115,7 +133,10 @@ let
         "pkg-2.1.1" = _KeIZOUYK;
         "pkg-3.0.0" = _a9OfoH1C;
         "pkg-3.0.1" = _Q2ArZOIM;
-        "default" = _Q2ArZOIM;
+        "pkg-3.1.0" = _rcwV2c7u;
+        "pkg-3.1.1" = _FdXICQHQ;
+        "pkg-3.2.0" = _C4cTTHQR;
+        "default" = _C4cTTHQR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-pipes-n-physics";

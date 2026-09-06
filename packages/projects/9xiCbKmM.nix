@@ -26,19 +26,33 @@ let
             "file" = "create_aeronautics_throwable_rope_connector-0.4.1.jar";
             "hash" = "sha512-Zg/lgjs3Wpq+ui92+2KL28swgnTW1t6+8T0dF3AuK0co66LFlrL+DJvKaT0J1NpR2j4iwIsEnMGjrmt1jUZ76A==";
         };
+        _LgfYz6KC = {
+            "id" = "LgfYz6KC";
+            "file" = "create_aeronautics_throwable_rope_connector-0.4.2.jar";
+            "hash" = "sha512-6A6LO6a6qvrbNXEWWI39gz6XZ5vMXBRUZhNUd6gCFtMP99XciGqhgKWa4P4nQf+cdE1bUbDGc7LgibR5eH4BVw==";
+        };
+        _EDzeTV17 = {
+            "id" = "EDzeTV17";
+            "file" = "create_aeronautics_throwable_rope_connector-0.4.3.jar";
+            "hash" = "sha512-Ch/BIuTDA6CQMhMZLDLbxqCoGcEB5w5QjpiSl+XmiIVXMKL54o9xB6klJMw+5zSfxHYV/QSQL9oEt5ekAaQMcQ==";
+        };
     in {
         "NnNISjDQ" = _NnNISjDQ;
         "G2rx3tql" = _G2rx3tql;
         "eHt4XwTE" = _eHt4XwTE;
         "2ZcGDDbT" = _2ZcGDDbT;
         "DDvarpaZ" = _DDvarpaZ;
-        "neoforge-1.21.1" = _DDvarpaZ;
+        "LgfYz6KC" = _LgfYz6KC;
+        "EDzeTV17" = _EDzeTV17;
+        "neoforge-1.21.1" = _EDzeTV17;
         "pkg-0.2.1" = _NnNISjDQ;
         "pkg-0.2.2" = _G2rx3tql;
         "pkg-0.3.0" = _eHt4XwTE;
         "pkg-0.4.0" = _2ZcGDDbT;
         "pkg-0.4.1" = _DDvarpaZ;
-        "default" = _DDvarpaZ;
+        "pkg-0.4.2" = _LgfYz6KC;
+        "pkg-0.4.3" = _EDzeTV17;
+        "default" = _EDzeTV17;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-aeronautics-throwable-rope-connector";

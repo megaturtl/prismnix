@@ -91,6 +91,11 @@ let
             "file" = "ClassicCombined v1.5.3 - mc1.21.8 - NeoForge.jar";
             "hash" = "sha512-nNgyJZqZrZIPI6bBHe9dyWgiDezRh03SZlAyPqYgD4HPiQFZF5D9tvjcOEt+li+21VH7p6B9gwkAzvmAlYJn6A==";
         };
+        _Hal6SLAs = {
+            "id" = "Hal6SLAs";
+            "file" = "ClassicCombined v1.6.0 - mc26.1 - NeoForge.jar";
+            "hash" = "sha512-AfpotagqoGb8PGvSFEh7fxSfZjqrguUSJQfMfVDOhMaOCSOk+Z/JuqTocYJDcoyNr2bZaFK39UiMsxnzUjvBjA==";
+        };
     in {
         "kAsp7EjU" = _kAsp7EjU;
         "r4RD3drz" = _r4RD3drz;
@@ -110,8 +115,10 @@ let
         "lKq0gr91" = _lKq0gr91;
         "hVHR1OaV" = _hVHR1OaV;
         "hi5iYnMp" = _hi5iYnMp;
+        "Hal6SLAs" = _Hal6SLAs;
         "neoforge-1.21.8" = _hi5iYnMp;
         "neoforge-1.21.1" = _irNYa56Y;
+        "neoforge-26.1.2" = _Hal6SLAs;
         "pkg-1.0.0" = _kAsp7EjU;
         "pkg-1.1.0" = _r4RD3drz;
         "pkg-1.1.1" = _B1zIJOah;
@@ -127,7 +134,8 @@ let
         "pkg-1.5.1" = _lKq0gr91;
         "pkg-1.5.2" = _hVHR1OaV;
         "pkg-1.5.3" = _hi5iYnMp;
-        "default" = _hi5iYnMp;
+        "pkg-1.6.0" = _Hal6SLAs;
+        "default" = _Hal6SLAs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "classiccombined";

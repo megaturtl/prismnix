@@ -34,6 +34,7 @@ let
         "Xnpc61EA" = _Xnpc61EA;
         "minecraft-1.20.1" = _Xnpc61EA;
         "minecraft-1.20" = _Xnpc61EA;
+        "minecraft-1.21.1" = _Xnpc61EA;
         "pkg-0.1" = _qPsk62nh;
         "pkg-0.1b" = _Ykl3GhQV;
         "pkg-0.2" = _zQBuxTub;

@@ -551,6 +551,41 @@ let
             "file" = "frostiful-3.0.1+26.1.x.jar";
             "hash" = "sha512-CVJXs8Pd8mLWvu/smsJa35h63H3Vce+/uKss1CfcciN7ZxvPw2Ze7kAi9cCXgRt9EQGmE1Nfjv04xfh7w9wfag==";
         };
+        _RLZkcX2U = {
+            "id" = "RLZkcX2U";
+            "file" = "frostiful-3.0.2+26.1.x.jar";
+            "hash" = "sha512-rujgGgLHpRdw7M+PrguOly9VvSGH8Idevz+dN9lryYBzaTi5GTlyDTBDtnBv4dzB0zmjcnFC7JA0EJnKNX8iwA==";
+        };
+        _ZSjwJYR5 = {
+            "id" = "ZSjwJYR5";
+            "file" = "frostiful-neoforge-3.1.0+26.1.x-beta.1.jar";
+            "hash" = "sha512-dWHn2eSqZhx8HOO1R8Q1fZ1E9ovF9TdAOfe464rQ4wX8V6/cw6AjhwM6HtFZ6+hhU3KN9TJF/SxxIdiF2ZbTHQ==";
+        };
+        _Tt1ASKLX = {
+            "id" = "Tt1ASKLX";
+            "file" = "frostiful-fabric-3.1.0+26.1.x-beta.1.jar";
+            "hash" = "sha512-j8eRzasqia2E+uP5oDiW70DEMoOdXphJke9babUAEeb4SNt+Fyw0253Dss17GKXJ9MguJ6PS6TTm9a7bY/N65Q==";
+        };
+        _H0wF5u0G = {
+            "id" = "H0wF5u0G";
+            "file" = "frostiful-fabric-3.1.0+26.1.x-beta.2.jar";
+            "hash" = "sha512-7SNCpce/5Vqn12S4yGwJJB8QI0kNhRviZHRs6Tv+8n9zN+rqIeC8m0j1teDkyF5L25frPSH24ONhrqotDa4ttw==";
+        };
+        _aT8PlFg6 = {
+            "id" = "aT8PlFg6";
+            "file" = "frostiful-neoforge-3.1.0+26.1.x-beta.2.jar";
+            "hash" = "sha512-iSPRovyY5CB71v386PfIYpxnqqDwkwtyaH4Cx0IFvnEzmCMayO+0sCy+Ignh7hfJ2hplhRMud6zceE75q3kPLw==";
+        };
+        _3Uy20V1g = {
+            "id" = "3Uy20V1g";
+            "file" = "frostiful-neoforge-3.1.0+26.1.x-beta.3.jar";
+            "hash" = "sha512-v8T7F73Jhy4rZz5KmTv/Gv8tyvtO7Au3n4Uz7oiBs/MwjhUZnUbyN26xygiqoYGtgiw+/1P2Kl10d67lLBqKFg==";
+        };
+        _SsIH8Nbw = {
+            "id" = "SsIH8Nbw";
+            "file" = "frostiful-fabric-3.1.0+26.1.x-beta.3.jar";
+            "hash" = "sha512-f15cmw4gMZb8vozv1bw2aZqSs65g0Uzw1eeMjs6OXryh7cgihlUbZQW5M1hHUu08atVkgSv33ZwosGV1eIUwMg==";
+        };
     in {
         "8iy3K48a" = _8iy3K48a;
         "aWoprtM0" = _aWoprtM0;
@@ -662,6 +697,13 @@ let
         "p6QunhUe" = _p6QunhUe;
         "S5pO0tlz" = _S5pO0tlz;
         "oPt8kMfI" = _oPt8kMfI;
+        "RLZkcX2U" = _RLZkcX2U;
+        "ZSjwJYR5" = _ZSjwJYR5;
+        "Tt1ASKLX" = _Tt1ASKLX;
+        "H0wF5u0G" = _H0wF5u0G;
+        "aT8PlFg6" = _aT8PlFg6;
+        "3Uy20V1g" = _3Uy20V1g;
+        "SsIH8Nbw" = _SsIH8Nbw;
         "fabric-1.19.2" = _1KyzJTWq;
         "fabric-1.19.4" = _y5dLU5lV;
         "fabric-1.20" = _RjfSgmLe;
@@ -681,9 +723,9 @@ let
         "fabric-1.21.9" = _2lclJ8KS;
         "fabric-1.21.10" = _x3jbmzaa;
         "fabric-1.21.11" = _NNfGXP1O;
-        "fabric-26.1" = _oPt8kMfI;
-        "fabric-26.1.1" = _oPt8kMfI;
-        "fabric-26.1.2" = _oPt8kMfI;
+        "fabric-26.1" = _SsIH8Nbw;
+        "fabric-26.1.1" = _SsIH8Nbw;
+        "fabric-26.1.2" = _SsIH8Nbw;
         "quilt-1.19.2" = _1KyzJTWq;
         "quilt-1.19.4" = _y5dLU5lV;
         "quilt-1.20" = _RjfSgmLe;
@@ -703,10 +745,13 @@ let
         "quilt-1.21.9" = _2lclJ8KS;
         "quilt-1.21.10" = _x3jbmzaa;
         "quilt-1.21.11" = _NNfGXP1O;
-        "quilt-26.1" = _oPt8kMfI;
-        "quilt-26.1.1" = _oPt8kMfI;
-        "quilt-26.1.2" = _oPt8kMfI;
+        "quilt-26.1" = _SsIH8Nbw;
+        "quilt-26.1.1" = _SsIH8Nbw;
+        "quilt-26.1.2" = _SsIH8Nbw;
         "neoforge-1.21.1" = _p6QunhUe;
+        "neoforge-26.1" = _3Uy20V1g;
+        "neoforge-26.1.1" = _3Uy20V1g;
+        "neoforge-26.1.2" = _3Uy20V1g;
         "pkg-0.1.0" = _8iy3K48a;
         "pkg-0.2.0" = _i1Zt2oyX;
         "pkg-0.2.1" = _lLLEUY7O;
@@ -816,7 +861,11 @@ let
         "pkg-2.3.3+1.21.1-neoforge" = _p6QunhUe;
         "pkg-3.0.0+26.1.x" = _S5pO0tlz;
         "pkg-3.0.1+26.1.x" = _oPt8kMfI;
-        "default" = _oPt8kMfI;
+        "pkg-3.0.2+26.1.x" = _RLZkcX2U;
+        "pkg-3.1.0+26.1.x-beta.1" = _Tt1ASKLX;
+        "pkg-3.1.0+26.1.x-beta.2" = _aT8PlFg6;
+        "pkg-3.1.0+26.1.x-beta.3" = _SsIH8Nbw;
+        "default" = _SsIH8Nbw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "frostiful";

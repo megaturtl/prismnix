@@ -164,6 +164,7 @@ let
         "fabric-26.1" = _D3I0DNSk;
         "fabric-26.1.1" = _D3I0DNSk;
         "fabric-26.1.2" = _D3I0DNSk;
+        "fabric-26.2" = _D3I0DNSk;
         "quilt-1.20-pre6" = _zz2ejqNJ;
         "quilt-1.20-pre7" = _zz2ejqNJ;
         "quilt-1.20-rc1" = _zz2ejqNJ;
@@ -203,6 +204,7 @@ let
         "quilt-26.1" = _D3I0DNSk;
         "quilt-26.1.1" = _D3I0DNSk;
         "quilt-26.1.2" = _D3I0DNSk;
+        "quilt-26.2" = _D3I0DNSk;
         "pkg-1.1.1" = _DyRulVW6;
         "pkg-1.1.2" = _ixpExCaI;
         "pkg-1.1.3" = _SWPyIs42;

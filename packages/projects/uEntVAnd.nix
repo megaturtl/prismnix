@@ -286,6 +286,76 @@ let
             "file" = "mob_loot_bags-neoforge-26.1.2-1.11.0.jar";
             "hash" = "sha512-znvAP8/yFFlud7JQkC6zx6WMC2yZlRkLuoe+OBChBVPDCqksmmIK0M4gBet4437EMmKqAnsJbX833EfJmlMnWQ==";
         };
+        _iKzb1v4L = {
+            "id" = "iKzb1v4L";
+            "file" = "mob_loot_bags-fabric-1.20.1-1.11.1.jar";
+            "hash" = "sha512-SSYfuXk1Xb9mxrNXXfIEW0K43FYJ6dKyBuTZU6C9NWq8zxno19dB4duCc7CEUGXlWxwlY+DAyuq8e3j8YcGlOg==";
+        };
+        _uOMuOIeQ = {
+            "id" = "uOMuOIeQ";
+            "file" = "mob_loot_bags-fabric-1.21.1-1.11.1.jar";
+            "hash" = "sha512-8ep9IPoDiOaFtaq0iZsXFJNz+ozQ6epgbbgSI/83LnCUl7KYeEDWothpn7Q10/FHaaKbDkiFIm5eCxcB+5flHA==";
+        };
+        _udhht28g = {
+            "id" = "udhht28g";
+            "file" = "mob_loot_bags-fabric-26.1.2-1.11.1.jar";
+            "hash" = "sha512-e0gnVUY4Uwfck1BvFcMuFABCLIrvkYue4cRAXzeXeFDZyHprQ847XZVcnqINLA/lrPbgP9m44XBuj4wjewGolA==";
+        };
+        _h1wRdh8Z = {
+            "id" = "h1wRdh8Z";
+            "file" = "mob_loot_bags-neoforge-1.20.1-1.11.1.jar";
+            "hash" = "sha512-X3wtqh6O03RaybIhC2w6ScJGmaFqPF5+Lyl9dJvvecXpGtzdtnjJm8G4Zj73NlT2uBsejixZD+V31eXeIRmHzg==";
+        };
+        _vx7GmQqq = {
+            "id" = "vx7GmQqq";
+            "file" = "mob_loot_bags-neoforge-1.21.1-1.11.1.jar";
+            "hash" = "sha512-1I9UcWYWUoszdwdiUE8R35ouWQ1SZgqFR/i3wN0YjYLa9nv6PWJXb0pKLVYN0Y1L/73Yy9RyDoG3qtdlocibdw==";
+        };
+        _kpUjJdQn = {
+            "id" = "kpUjJdQn";
+            "file" = "mob_loot_bags-neoforge-26.1.2-1.11.1.jar";
+            "hash" = "sha512-CorezbFMAB00pYYS0TN2n273EoQgRo/Csr8w4hd4mQtNpq2n8RkOgjGe8aujmx+UnNVM3IB3e/eOynmTm7wBIQ==";
+        };
+        _1prOWyxd = {
+            "id" = "1prOWyxd";
+            "file" = "mob_loot_bags-fabric-1.20.1-1.11.2.jar";
+            "hash" = "sha512-EshUD9IyyRKbc1IT2tK5WmUgWeBv6pRKf20zST6aPaIv18ITpmqxXIzdVEOVhEu+/qa9ANq7L7cN4mZ18JE6ww==";
+        };
+        _MAK77g6u = {
+            "id" = "MAK77g6u";
+            "file" = "mob_loot_bags-fabric-1.21.1-1.11.2.jar";
+            "hash" = "sha512-SBObuzTsbVufeFh4G9i6kZGlpFky+cEu6BvqZKoqmhdHrmiwfMinre81Ed2Ho+RivYnkVfqVqdMnb1cEnOAGkw==";
+        };
+        _JsKD7OAv = {
+            "id" = "JsKD7OAv";
+            "file" = "mob_loot_bags-fabric-26.1.2-1.11.2.jar";
+            "hash" = "sha512-KsT8pav/T9nBPEW6tf3Ns4+dwFRkQCusP0DCBv9ciS/ChXvuOmSIncMosyA5IDuo60pR3828NDd1Q2Sc3nAOqA==";
+        };
+        _f2QJgzPV = {
+            "id" = "f2QJgzPV";
+            "file" = "mob_loot_bags-neoforge-1.20.1-1.11.2.jar";
+            "hash" = "sha512-tvepY3QRIwRwd13Z65YafHa+XodAGB6CfBxk0HCP0/h/4SMERQeei1voP5Iboug7B6TdwPW12aq1h60E8gvsMA==";
+        };
+        _VG513vt2 = {
+            "id" = "VG513vt2";
+            "file" = "mob_loot_bags-neoforge-1.21.1-1.11.2.jar";
+            "hash" = "sha512-yzqucimmJQt8VZ3pS1Mx9cHGoYgX/kn4Pyb5ZA1U/gP02dYtyvQQAATlj1uwWCr0tg86GlZql3oLg0u0niIgZg==";
+        };
+        _PR2W6eWC = {
+            "id" = "PR2W6eWC";
+            "file" = "mob_loot_bags-neoforge-26.1.2-1.11.2.jar";
+            "hash" = "sha512-aiLC4eWUU0T4PrZkiEAqYeUExK52CI5rYnG9ICYuQQTFiIeaV6JcEnL10UyrSVXKSxWpnSHSOVpRwv/chkdDfw==";
+        };
+        _UfHVN5o9 = {
+            "id" = "UfHVN5o9";
+            "file" = "mob_loot_bags-fabric-26.2-1.11.2.jar";
+            "hash" = "sha512-VZwOUw0IAxlhEVIWo2oY82jpegBHaCR4fA0kPmuOCekEigyCLpXgoMTpj04OoQP+EztdzlHPQukVIyVdvikHxQ==";
+        };
+        _6b4ZcRWb = {
+            "id" = "6b4ZcRWb";
+            "file" = "mob_loot_bags-neoforge-26.2-1.11.2.jar";
+            "hash" = "sha512-b10kbqPpK2tN1e6YnKOx+a/GvGgyQLmJZzIZVfUorezsOUcY6siimIvZ91ttsmgrZINDKx1iXdnIFTxGvFS7Kw==";
+        };
     in {
         "j3KnUuuo" = _j3KnUuuo;
         "5JXHOzdl" = _5JXHOzdl;
@@ -344,18 +414,34 @@ let
         "T901E9Dk" = _T901E9Dk;
         "3UVa6cf1" = _3UVa6cf1;
         "vxugSJLk" = _vxugSJLk;
+        "iKzb1v4L" = _iKzb1v4L;
+        "uOMuOIeQ" = _uOMuOIeQ;
+        "udhht28g" = _udhht28g;
+        "h1wRdh8Z" = _h1wRdh8Z;
+        "vx7GmQqq" = _vx7GmQqq;
+        "kpUjJdQn" = _kpUjJdQn;
+        "1prOWyxd" = _1prOWyxd;
+        "MAK77g6u" = _MAK77g6u;
+        "JsKD7OAv" = _JsKD7OAv;
+        "f2QJgzPV" = _f2QJgzPV;
+        "VG513vt2" = _VG513vt2;
+        "PR2W6eWC" = _PR2W6eWC;
+        "UfHVN5o9" = _UfHVN5o9;
+        "6b4ZcRWb" = _6b4ZcRWb;
         "forge-1.20.1" = _rgDD8n1h;
         "forge-1.16.5" = _gf3j5OfI;
         "forge-1.19.2" = _IzNb3XBR;
         "forge-1.18.2" = _mWkmB9Hl;
-        "neoforge-1.21.1" = _FP1kB3eF;
-        "neoforge-1.20.1" = _rgDD8n1h;
+        "neoforge-1.21.1" = _PR2W6eWC;
+        "neoforge-1.20.1" = _f2QJgzPV;
         "neoforge-1.21.5" = _lrStEUoA;
         "neoforge-1.21.8" = _pUX2YSmQ;
         "neoforge-26.1.2" = _vxugSJLk;
-        "fabric-1.20.1" = _WHCL1b0R;
-        "fabric-1.21.1" = _T901E9Dk;
+        "neoforge-26.2" = _6b4ZcRWb;
+        "fabric-1.20.1" = _1prOWyxd;
+        "fabric-1.21.1" = _JsKD7OAv;
         "fabric-26.1.2" = _3UVa6cf1;
+        "fabric-26.2" = _UfHVN5o9;
         "pkg-1.0.0" = _5JXHOzdl;
         "pkg-1.1.0" = _yEPfMvgO;
         "pkg-1.2.0" = _5RUBjeeT;
@@ -369,7 +455,17 @@ let
         "pkg-1.10" = _bWILlFPf;
         "pkg-1.10.1" = _pUX2YSmQ;
         "pkg-1.11.0" = _vxugSJLk;
-        "default" = _vxugSJLk;
+        "pkg-1.11.1+fabric-1.20.1" = _iKzb1v4L;
+        "pkg-1.11.1+fabric-1.21.1" = _udhht28g;
+        "pkg-1.11.1+neoforge-1.20.1" = _h1wRdh8Z;
+        "pkg-1.11.1+neoforge-1.21.1" = _kpUjJdQn;
+        "pkg-1.11.2+fabric-1.20.1" = _1prOWyxd;
+        "pkg-1.11.2+fabric-1.21.1" = _JsKD7OAv;
+        "pkg-1.11.2+neoforge-1.20.1" = _f2QJgzPV;
+        "pkg-1.11.2+neoforge-1.21.1" = _PR2W6eWC;
+        "pkg-1.11.2+fabric-26.2" = _UfHVN5o9;
+        "pkg-1.11.2+neoforge-26.2" = _6b4ZcRWb;
+        "default" = _6b4ZcRWb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mob-loot-bags";
@@ -377,12 +473,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+            license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "LicenseRef-All-Rights-Reserved";
-                shortName = "LicenseRef-All-Rights-Reserved";
+                fullName = "Apache License 2.0";
+                shortName = "Apache-2.0";
                 url = null;
             };
         };

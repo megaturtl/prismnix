@@ -26,20 +26,33 @@ let
             "file" = "rechiseledae2-neoforge-1.21-1.21.1-1.0.0.jar";
             "hash" = "sha512-NVyclaqtXxJvk9ueaUwSu6g2YyMTBgci7u04t9OetIpEKQhk1NfzsDdViXrItUdwbebwWxb+HR0cUHguKrHXww==";
         };
+        _VjScksgi = {
+            "id" = "VjScksgi";
+            "file" = "rechiseledae2-neoforge-1.21-1.21.1-1.1.0.jar";
+            "hash" = "sha512-/YEPapT885BNZtICmX9eScj4DnUztjwzf08olhxZ/XYv83QckCj582eNuVhfMR+9mo1esBEk7c2KZiKIcLEpzg==";
+        };
+        _gQ5Mx8Ws = {
+            "id" = "gQ5Mx8Ws";
+            "file" = "rechiseledae2-forge-1.20-1.20.1-1.2.0.jar";
+            "hash" = "sha512-6rpKWk/bkS26agoCawCAur1XOukeUdzqv+bP8ZmeDUUhbfdq2xSkD+lI/osIKbDsj/4//qcZF1y2P77fm1QQgA==";
+        };
     in {
         "DLka6PM6" = _DLka6PM6;
         "sQW24EcQ" = _sQW24EcQ;
         "7gydEbqt" = _7gydEbqt;
         "gQhxObUn" = _gQhxObUn;
         "QyElNsOO" = _QyElNsOO;
-        "forge-1.20.1" = _7gydEbqt;
+        "VjScksgi" = _VjScksgi;
+        "gQ5Mx8Ws" = _gQ5Mx8Ws;
+        "forge-1.20.1" = _gQ5Mx8Ws;
         "forge-1.20" = _7gydEbqt;
-        "neoforge-1.20.1" = _gQhxObUn;
-        "neoforge-1.21" = _QyElNsOO;
-        "neoforge-1.21.1" = _QyElNsOO;
+        "neoforge-1.20.1" = _gQ5Mx8Ws;
+        "neoforge-1.21" = _VjScksgi;
+        "neoforge-1.21.1" = _VjScksgi;
         "pkg-1.0.0" = _QyElNsOO;
-        "pkg-1.1.0" = _gQhxObUn;
-        "default" = _QyElNsOO;
+        "pkg-1.1.0" = _VjScksgi;
+        "pkg-1.2.0" = _gQ5Mx8Ws;
+        "default" = _gQ5Mx8Ws;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rechiseled-ae2";

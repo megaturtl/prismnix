@@ -36,6 +36,11 @@ let
             "file" = "witheredfoxyjumpscare-neoforge-26.1-1.0.0.jar";
             "hash" = "sha512-6t8vl+ahfcSzMRgd+UxJmEEob/WIFL2mkc8wZPo3doF62OaUPwP4/1277zWFm0X0sGJxmFz2sXDtAEfokTQVdw==";
         };
+        _eVBVRI7p = {
+            "id" = "eVBVRI7p";
+            "file" = "witheredfoxyjumpscare-fabric-26.2-1.0.0.jar";
+            "hash" = "sha512-0/Pmt92+QErt7QOWi+LnrSkLvyoxl9yBtQCDcZejGIJtkthwYr0oOgFJnaEOFrEB6iXv5ki+0QuYCw364rxHEA==";
+        };
     in {
         "sGKbzJ92" = _sGKbzJ92;
         "UtDLEXvS" = _UtDLEXvS;
@@ -44,6 +49,7 @@ let
         "2RUEK2b6" = _2RUEK2b6;
         "dZnqdfN2" = _dZnqdfN2;
         "NRmawXGD" = _NRmawXGD;
+        "eVBVRI7p" = _eVBVRI7p;
         "fabric-1.21.11" = _sGKbzJ92;
         "fabric-1.20.4" = _ZlNByEnA;
         "fabric-1.20.5" = _ZlNByEnA;
@@ -51,6 +57,7 @@ let
         "fabric-26.1" = _dZnqdfN2;
         "fabric-26.1.1" = _dZnqdfN2;
         "fabric-26.1.2" = _dZnqdfN2;
+        "fabric-26.2" = _eVBVRI7p;
         "forge-1.21.11" = _UtDLEXvS;
         "forge-1.20.4" = _2RUEK2b6;
         "forge-1.20.5" = _2RUEK2b6;
@@ -59,9 +66,11 @@ let
         "neoforge-26.1" = _NRmawXGD;
         "neoforge-26.1.1" = _NRmawXGD;
         "neoforge-26.1.2" = _NRmawXGD;
+        "neoforge-26.2" = _NRmawXGD;
         "pkg-1.0.0" = _2RUEK2b6;
         "pkg-26.1-1.0.0" = _NRmawXGD;
-        "default" = _NRmawXGD;
+        "pkg-1.26.2-1.0.0" = _eVBVRI7p;
+        "default" = _eVBVRI7p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "one-in-ten-thousand-110000-chance-for-withered-foxy-jumpscare";

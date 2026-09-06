@@ -1196,6 +1196,51 @@ let
             "file" = "Mini-boss Boss Bars 1.20.1 1.0.173.jar";
             "hash" = "sha512-Eaxa1OJsfIk2aozsdei/S1CNryLb3hMnAfc4OLTaxmaHqPwueyYEUXE9FL1CVqgW5jSscTmAomDjIotOh/GEGg==";
         };
+        _ayoEHj0T = {
+            "id" = "ayoEHj0T";
+            "file" = "Mini-boss Boss Bars 1.20.1 1.0.174.jar";
+            "hash" = "sha512-q4Nvdw55Sm7tXexK+fysoYd94nnTyu33PHoq2Mj1LF3zWeTqoWbJRrZaqgxTGQ1mLUng1ABoJ2lRjwmtrtneug==";
+        };
+        _73lYiH6c = {
+            "id" = "73lYiH6c";
+            "file" = "Mini-boss Boss Bars 1.20.1 1.0.175.jar";
+            "hash" = "sha512-i/NPN/5lLU0BHA8FPlWtczySaaXqJjAHNoyC6iGGeZX5VuX22A6QZUTXYCH9ZjNXf6aNPDauNXhBgmeI7WmuhQ==";
+        };
+        _RIaAkXxN = {
+            "id" = "RIaAkXxN";
+            "file" = "Mini-boss Boss Bars 1.21.1 1.0.35.zip";
+            "hash" = "sha512-9zWlwT1HyIIOqqa8rcuRPpI5mgPjaVV8Kge75v1lNUkb5b64yJ933oSRW2D7QnLLfh5kVUvtdJijPNBE6mz1DA==";
+        };
+        _nWBFaslG = {
+            "id" = "nWBFaslG";
+            "file" = "Mini-boss Boss Bars 1.21.1 1.0.35.jar";
+            "hash" = "sha512-JGmqAYA2CXr0KkP8QuTmBGwREXNSZkZEoG6K3qRFG+Ok7/GxR+ft+YiptomyLVsmtVYfAqey3ScV0YrGhZJz+g==";
+        };
+        _j2KqazLQ = {
+            "id" = "j2KqazLQ";
+            "file" = "Mini-boss Boss Bars 1.20.1 1.0.176.jar";
+            "hash" = "sha512-1sh5uUql140HCNt3yO5JkCLenk+xDdwNCsgIlwpPtb+sE0ap/EoW9vkwTysXcz81iuPxEvCpZZLLz5IhlP9EqA==";
+        };
+        _GONL8osT = {
+            "id" = "GONL8osT";
+            "file" = "Mini-boss Boss Bars 1.20.1 1.0.177.jar";
+            "hash" = "sha512-q3MOlUJnag0hx86rQsaITAT+pvyWy9i5VbBv5Ni7476U4SgRpHraaf3m807URN5se3W9ISwGaXyWead3iCVmaA==";
+        };
+        _DrFIX5nk = {
+            "id" = "DrFIX5nk";
+            "file" = "Mini-boss Boss Bars 1.20.1 1.0.178.jar";
+            "hash" = "sha512-eQmvOVugc799RkHG/pyYUvrh3HCiKoTURvShApcFYjGAVtKb8mmbFc4tYLjmd+bYOmHfe/16Ic2vSdszPUu9Ug==";
+        };
+        _rxuDQ7yV = {
+            "id" = "rxuDQ7yV";
+            "file" = "Mini-boss Boss Bars 1.21.1 1.0.36.zip";
+            "hash" = "sha512-vS3uRyO44UJIHe/fJbjdJx33LIrU+Wng4ilCUNBSGwlVuwi+QuxXAHM9NWoZ3ckL50qL8LAQV+POyNo1IkSJ6A==";
+        };
+        _nmMNy3a4 = {
+            "id" = "nmMNy3a4";
+            "file" = "Mini-boss Boss Bars 1.21.1 1.0.36.jar";
+            "hash" = "sha512-C2gWsvNiLbJF0SzfNLewzHTqRcZgTJRenoMRQj7UMUpboM5hnf0LPrAvJSZgNMnIkMy1MPCSlZn2RDuI6aJrjA==";
+        };
     in {
         "r3AnSt4Q" = _r3AnSt4Q;
         "ErXtzrSI" = _ErXtzrSI;
@@ -1436,18 +1481,27 @@ let
         "UFIaUEk7" = _UFIaUEk7;
         "HaSFZckf" = _HaSFZckf;
         "dlgTCnCE" = _dlgTCnCE;
-        "forge-1.20.1" = _dlgTCnCE;
-        "forge-1.21" = _HaSFZckf;
-        "forge-1.21.1" = _HaSFZckf;
-        "neoforge-1.20.1" = _dlgTCnCE;
-        "neoforge-1.21" = _HaSFZckf;
-        "neoforge-1.21.1" = _HaSFZckf;
-        "datapack-1.21" = _UFIaUEk7;
-        "datapack-1.21.1" = _UFIaUEk7;
-        "fabric-1.21" = _HaSFZckf;
-        "fabric-1.21.1" = _HaSFZckf;
-        "quilt-1.21" = _HaSFZckf;
-        "quilt-1.21.1" = _HaSFZckf;
+        "ayoEHj0T" = _ayoEHj0T;
+        "73lYiH6c" = _73lYiH6c;
+        "RIaAkXxN" = _RIaAkXxN;
+        "nWBFaslG" = _nWBFaslG;
+        "j2KqazLQ" = _j2KqazLQ;
+        "GONL8osT" = _GONL8osT;
+        "DrFIX5nk" = _DrFIX5nk;
+        "rxuDQ7yV" = _rxuDQ7yV;
+        "nmMNy3a4" = _nmMNy3a4;
+        "forge-1.20.1" = _DrFIX5nk;
+        "forge-1.21" = _nmMNy3a4;
+        "forge-1.21.1" = _nmMNy3a4;
+        "neoforge-1.20.1" = _DrFIX5nk;
+        "neoforge-1.21" = _nmMNy3a4;
+        "neoforge-1.21.1" = _nmMNy3a4;
+        "datapack-1.21" = _rxuDQ7yV;
+        "datapack-1.21.1" = _rxuDQ7yV;
+        "fabric-1.21" = _nmMNy3a4;
+        "fabric-1.21.1" = _nmMNy3a4;
+        "quilt-1.21" = _nmMNy3a4;
+        "quilt-1.21.1" = _nmMNy3a4;
         "pkg-1.0.0" = _ncFPTY3L;
         "pkg-1.0.1" = _aP5beT8w;
         "pkg-1.0.2" = _IIlhcUNs;
@@ -1483,8 +1537,8 @@ let
         "pkg-1.0.32" = _fwxrdWhk;
         "pkg-1.0.33" = _EfhQYZs3;
         "pkg-1.0.34" = _HaSFZckf;
-        "pkg-1.0.35" = _Ofrg64E7;
-        "pkg-1.0.36" = _Oethul2a;
+        "pkg-1.0.35" = _nWBFaslG;
+        "pkg-1.0.36" = _nmMNy3a4;
         "pkg-1.0.37" = _6BUGZPbV;
         "pkg-1.0.38" = _7HFs0mVk;
         "pkg-1.0.39" = _3VxVg1oX;
@@ -1617,7 +1671,12 @@ let
         "pkg-1.0.171" = _pdXsbmJO;
         "pkg-1.0.172" = _83YITuxk;
         "pkg-1.0.173" = _dlgTCnCE;
-        "default" = _dlgTCnCE;
+        "pkg-1.0.174" = _ayoEHj0T;
+        "pkg-1.0.175" = _73lYiH6c;
+        "pkg-1.0.176" = _j2KqazLQ;
+        "pkg-1.0.177" = _GONL8osT;
+        "pkg-1.0.178" = _DrFIX5nk;
+        "default" = _nmMNy3a4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mini-boss-boss-bars";

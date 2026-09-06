@@ -196,6 +196,26 @@ let
             "file" = "maces-origins-updated-2-fabric-1.0.0+mc26.2_2.jar";
             "hash" = "sha512-mKiY/lwCoSZE/zZ8ZuH/a5iDvK5ocAhjGZnJjGEFCjoJKcjICuPc3nusw9e/d3ZShXgUg67zW/O4Oommz0CeYQ==";
         };
+        _3RXO8jCW = {
+            "id" = "3RXO8jCW";
+            "file" = "maces-origins-updated-2-neoforge-1.0.0+mc1.21.1.jar";
+            "hash" = "sha512-wYZqZZODwAtF/JVoJXFhOIJj55f+bHpJg8Ndg6BJpW01tiMLq9436VEjSAQWEI6nP8SzeFgGtFry/mPXEs+bLA==";
+        };
+        _lY9Axu6j = {
+            "id" = "lY9Axu6j";
+            "file" = "maces-origins-updated-2-neoforge-1.0.1+mc1.21.1.jar";
+            "hash" = "sha512-3uWjm5Fg9HbzbvrJeucpPaC8bdGz+qQhDJ68cfLMYzF8DQzJNmAhYbdK6cEAe0tGTXJcrWN/hXFUnHnc33Dh5Q==";
+        };
+        _r4WvWILt = {
+            "id" = "r4WvWILt";
+            "file" = "maces-origins-updated-2-fabric-1.0.2+mc1.21.1.jar";
+            "hash" = "sha512-f3B4dKYNN7zHcf79pNAWq06/BeBRFElGEjNl3SsMj70rlxJgsgRr9bPOBhi8y9osgnokZe8flGp1CyT2asouYw==";
+        };
+        _qh5Fjuc0 = {
+            "id" = "qh5Fjuc0";
+            "file" = "maces-origins-updated-2-neoforge-1.0.3+mc1.21.1.jar";
+            "hash" = "sha512-HYXb8+3JWTmL/b88bK4a4xRN+2AfTMm3KbgA2wF/5FWFL3GIeSsL3iPONAUwKQln3LI1a4qNL+UAxsf3KLdEdA==";
+        };
     in {
         "kQoHMBvs" = _kQoHMBvs;
         "GbPsGBbd" = _GbPsGBbd;
@@ -236,17 +256,21 @@ let
         "vTPNXrHo" = _vTPNXrHo;
         "C9HXrxft" = _C9HXrxft;
         "bUgv6el9" = _bUgv6el9;
+        "3RXO8jCW" = _3RXO8jCW;
+        "lY9Axu6j" = _lY9Axu6j;
+        "r4WvWILt" = _r4WvWILt;
+        "qh5Fjuc0" = _qh5Fjuc0;
         "fabric-1.21.10" = _EsSZhJy4;
         "fabric-1.21.11" = _R7nk4ncN;
         "fabric-1.14.4" = _pxW4p7XO;
         "fabric-26.1" = _C9HXrxft;
         "fabric-26.1.1" = _C9HXrxft;
         "fabric-26.1.2" = _C9HXrxft;
-        "fabric-1.21.1" = _ef9dZx2y;
+        "fabric-1.21.1" = _r4WvWILt;
         "fabric-1.20" = _4r5F7c0z;
         "fabric-1.20.1" = _4r5F7c0z;
         "fabric-26.2" = _bUgv6el9;
-        "neoforge-1.21.1" = _SRPJbX0V;
+        "neoforge-1.21.1" = _qh5Fjuc0;
         "neoforge-1.21.10" = _hjPpAJMs;
         "neoforge-1.21.11" = _1AxrmjYF;
         "neoforge-26.1" = _Jaq1lIUO;
@@ -305,7 +329,11 @@ let
         "pkg-1.0.0+mc26.2" = _vTPNXrHo;
         "pkg-1.0.0+mc26.1.2_x_2" = _C9HXrxft;
         "pkg-1.0.0+mc26.2_2" = _bUgv6el9;
-        "default" = _bUgv6el9;
+        "pkg-1.0.0+mc1.21.1-neoforge" = _3RXO8jCW;
+        "pkg-1.0.1+mc1.21.1-neoforge" = _lY9Axu6j;
+        "pkg-1.0.2+mc1.21.1-fabric" = _r4WvWILt;
+        "pkg-1.0.2+mc1.21.1-neoforge" = _qh5Fjuc0;
+        "default" = _qh5Fjuc0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "maces-origins";

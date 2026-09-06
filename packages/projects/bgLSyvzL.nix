@@ -16,15 +16,22 @@ let
             "file" = "vestalihy-2.5.2.jar";
             "hash" = "sha512-GcSdAtsIsR09git9+XDLcmUnxjnbPqJASZnWHTMxSbMrWNx3tise8KV350BRh4eI4eYI9QGdJnUBYJqUUw87dQ==";
         };
+        _g1PiIfJk = {
+            "id" = "g1PiIfJk";
+            "file" = "vestalihy-2.5.3.jar";
+            "hash" = "sha512-Xp19XF1ZhsqDiNKy4O6xEinZzWIVSsldG4hkJJbpoLiSV+lf+wC0MAUxudUWzlH02UY5qlLOlqZQz/bKNF7Ezw==";
+        };
     in {
         "dpxUM2Br" = _dpxUM2Br;
         "TWqCQkLh" = _TWqCQkLh;
         "OTWuTsjp" = _OTWuTsjp;
-        "neoforge-1.21.1" = _OTWuTsjp;
+        "g1PiIfJk" = _g1PiIfJk;
+        "neoforge-1.21.1" = _g1PiIfJk;
         "pkg-2.0.0" = _dpxUM2Br;
         "pkg-2.5.0" = _TWqCQkLh;
         "pkg-2.5.2" = _OTWuTsjp;
-        "default" = _OTWuTsjp;
+        "pkg-2.5.3" = _g1PiIfJk;
+        "default" = _g1PiIfJk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vestalihy";
@@ -32,13 +39,13 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "GNU General Public License v3.0 only";
-                shortName = "GPL-3.0-only";
-                url = null;
+                fullName = "LicenseRef-Custom-License";
+                shortName = "LicenseRef-Custom-License";
+                url = "https://github.com/BaBuzova/vestalihy/blob/main/LICENSE";
             };
         };
     };

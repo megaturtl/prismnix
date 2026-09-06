@@ -66,6 +66,21 @@ let
             "file" = "shine-2.0.1+26.2.jar";
             "hash" = "sha512-q6XstMFHj0UkOt7n0GzwLFUjOBuW/n1fOcupEaaTEvXMcKADTSl3jm7Q4aKqPO3xabij4F4NI724/UorNZ96oQ==";
         };
+        _NIs6Jbhy = {
+            "id" = "NIs6Jbhy";
+            "file" = "shine-2.0.2+1.21.1-neoforge.jar";
+            "hash" = "sha512-rkGq+bp8iZ25vRAca0d18POwFoJGJS6PR7VQORgmRzDJZOzT/VhuGHSmVyLdhVI+Ho8Ql0wUvlHxmmo3Y8v/Aw==";
+        };
+        _HNKwFBsj = {
+            "id" = "HNKwFBsj";
+            "file" = "shine-3.1.jar";
+            "hash" = "sha512-j984346zg7fecA6Sst1ekxWh2WevEu8MRY3k4VKLcl1wHtZccCuV3SeSFe1k37T1AGSSX17Sh+alSp+GRFbKNA==";
+        };
+        _RqeUTVgc = {
+            "id" = "RqeUTVgc";
+            "file" = "shine-3.1.1+26.2.jar";
+            "hash" = "sha512-85QcoEEwFZXB0LonoSO8acBfjJNf2q7mbjtAraA+X9wL1NsQeBxltDGx/r+SGmLmNsfVM/4gXPeNLC55PbEw/Q==";
+        };
     in {
         "jopgsFKx" = _jopgsFKx;
         "S3s0aITt" = _S3s0aITt;
@@ -80,13 +95,16 @@ let
         "IH3pf0a9" = _IH3pf0a9;
         "JFEMkOEz" = _JFEMkOEz;
         "q3eqC94u" = _q3eqC94u;
-        "fabric-1.21.11" = _tWLMxmyO;
+        "NIs6Jbhy" = _NIs6Jbhy;
+        "HNKwFBsj" = _HNKwFBsj;
+        "RqeUTVgc" = _RqeUTVgc;
+        "fabric-1.21.11" = _HNKwFBsj;
         "fabric-1.21.1" = _S3s0aITt;
         "fabric-26.1" = _qyRsxqKr;
         "fabric-26.1.1" = _qyRsxqKr;
         "fabric-26.1.2" = _qyRsxqKr;
-        "fabric-26.2" = _q3eqC94u;
-        "neoforge-1.21.1" = _IH3pf0a9;
+        "fabric-26.2" = _RqeUTVgc;
+        "neoforge-1.21.1" = _NIs6Jbhy;
         "pkg-1.0.0+1.21.11" = _jopgsFKx;
         "pkg-1.0.0+1.21.1" = _S3s0aITt;
         "pkg-1.0.0+26.1" = _5mAvFBhS;
@@ -99,7 +117,10 @@ let
         "pkg-2.0.1+1.21.1-neoforge" = _IH3pf0a9;
         "pkg-2.0.0+26.2" = _JFEMkOEz;
         "pkg-2.0.1+26.2" = _q3eqC94u;
-        "default" = _q3eqC94u;
+        "pkg-2.0.2+1.21.1-neoforge" = _NIs6Jbhy;
+        "pkg-3.1+1.21.11" = _HNKwFBsj;
+        "pkg-3.1.1+26.2" = _RqeUTVgc;
+        "default" = _RqeUTVgc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shine";

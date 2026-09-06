@@ -61,6 +61,26 @@ let
             "file" = "sakuraupdater-0.3.0-1.20.1.jar";
             "hash" = "sha512-3+yKgVMvzHI8U0ywBnl3KNQ1RrU6f3GEhk53O7e4uCoz4GsP3yCbSFdtPfFVqaydrDgKZD7Cv6mqkMaPTXgIJA==";
         };
+        _sFW2E95D = {
+            "id" = "sFW2E95D";
+            "file" = "sakuraupdater-0.3.1-1.21.1.jar";
+            "hash" = "sha512-HBaemOm5dqzRvWGR7tc5x6AUK0nx6x0L8jd18mFJdjwozHix5KIs7G/ib/Gc32pHyrOaAaQ65lIBzDcZgy1zAA==";
+        };
+        _nYH4pSwH = {
+            "id" = "nYH4pSwH";
+            "file" = "sakuraupdater-0.3.1-1.20.1.jar";
+            "hash" = "sha512-6w7czYe3oCV2VrRF8xMosr+tTO+1kCYfp9o7xgxfkP4mDfA9beQN6Mcej+PkCk0umcTcLAAA3RdvphS7qHKOjA==";
+        };
+        _AYjQNStc = {
+            "id" = "AYjQNStc";
+            "file" = "sakuraupdater-0.3.2-1.21.1.jar";
+            "hash" = "sha512-C6P6DEJJ3C/ly7E/VCGFLPgqLBPqULXM2KpLNEWu6pq+vucACLs8m/7UqVdimKzwzC6sjMOzfQeg7VIRqx//5Q==";
+        };
+        _OCLNGMm0 = {
+            "id" = "OCLNGMm0";
+            "file" = "sakuraupdater-0.3.2-1.20.1.jar";
+            "hash" = "sha512-2l7Ikp1spd/Xp5/ltDJ8nwIWWtyF2UdA4YZzjVKUOhdoDapAzz+rLP2+x1nHsVx8YGK1D/FFrljfyOvrWzmhZQ==";
+        };
     in {
         "g092yueY" = _g092yueY;
         "T3VdxBiv" = _T3VdxBiv;
@@ -74,29 +94,33 @@ let
         "CZConW73" = _CZConW73;
         "iKMf3cnM" = _iKMf3cnM;
         "xn80E6Ar" = _xn80E6Ar;
-        "neoforge-1.21.1" = _iKMf3cnM;
-        "neoforge-1.21.2" = _iKMf3cnM;
-        "neoforge-1.21.3" = _iKMf3cnM;
-        "neoforge-1.21.4" = _iKMf3cnM;
-        "neoforge-1.21.5" = _iKMf3cnM;
-        "neoforge-1.21.6" = _iKMf3cnM;
-        "neoforge-1.21.7" = _iKMf3cnM;
-        "neoforge-1.21.8" = _iKMf3cnM;
-        "neoforge-1.21.9" = _iKMf3cnM;
-        "neoforge-1.21.10" = _iKMf3cnM;
+        "sFW2E95D" = _sFW2E95D;
+        "nYH4pSwH" = _nYH4pSwH;
+        "AYjQNStc" = _AYjQNStc;
+        "OCLNGMm0" = _OCLNGMm0;
+        "neoforge-1.21.1" = _AYjQNStc;
+        "neoforge-1.21.2" = _AYjQNStc;
+        "neoforge-1.21.3" = _AYjQNStc;
+        "neoforge-1.21.4" = _AYjQNStc;
+        "neoforge-1.21.5" = _AYjQNStc;
+        "neoforge-1.21.6" = _AYjQNStc;
+        "neoforge-1.21.7" = _AYjQNStc;
+        "neoforge-1.21.8" = _AYjQNStc;
+        "neoforge-1.21.9" = _AYjQNStc;
+        "neoforge-1.21.10" = _AYjQNStc;
         "neoforge-1.20.1" = _CZConW73;
         "neoforge-1.20.2" = _CZConW73;
         "neoforge-1.20.3" = _CZConW73;
         "neoforge-1.20.4" = _CZConW73;
         "neoforge-1.20.5" = _CZConW73;
         "neoforge-1.20.6" = _CZConW73;
-        "neoforge-1.21.11" = _iKMf3cnM;
-        "forge-1.20.1" = _xn80E6Ar;
-        "forge-1.20.2" = _xn80E6Ar;
-        "forge-1.20.3" = _xn80E6Ar;
-        "forge-1.20.4" = _xn80E6Ar;
-        "forge-1.20.5" = _xn80E6Ar;
-        "forge-1.20.6" = _xn80E6Ar;
+        "neoforge-1.21.11" = _AYjQNStc;
+        "forge-1.20.1" = _OCLNGMm0;
+        "forge-1.20.2" = _OCLNGMm0;
+        "forge-1.20.3" = _OCLNGMm0;
+        "forge-1.20.4" = _OCLNGMm0;
+        "forge-1.20.5" = _OCLNGMm0;
+        "forge-1.20.6" = _OCLNGMm0;
         "pkg-0.1.3" = _T3VdxBiv;
         "pkg-0.1.4" = _8qBPbLxs;
         "pkg-0.2.0" = _P9klkP8k;
@@ -104,7 +128,11 @@ let
         "pkg-0.2.2" = _CZConW73;
         "pkg-v0.3.0-1.21.1" = _iKMf3cnM;
         "pkg-v0.3.0-1.20.1" = _xn80E6Ar;
-        "default" = _xn80E6Ar;
+        "pkg-v0.3.1-1.21" = _sFW2E95D;
+        "pkg-v0.3.1-1.20.1" = _nYH4pSwH;
+        "pkg-v0.3.2-1.21.1" = _AYjQNStc;
+        "pkg-v0.3.2-1.20.1" = _OCLNGMm0;
+        "default" = _OCLNGMm0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sakuraupdater";

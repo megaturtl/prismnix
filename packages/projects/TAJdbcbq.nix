@@ -21,11 +21,17 @@ let
             "file" = "SleepPlugin-1.0.3.jar";
             "hash" = "sha512-vU/IGc/ivSqAokPnvzisfDRxE3DzJtDLmcJwRTTndJ7CN8RKlT0vVCHg9Oa08QZBdpEFokJoBs772DaQQIJAQQ==";
         };
+        _RmA8c6kT = {
+            "id" = "RmA8c6kT";
+            "file" = "SleepPlugin-1.0.4.jar";
+            "hash" = "sha512-SHXOGXbYVlse6+b2n5VdzP7ZybzAAuowWF9qwyi4bsfQuwW26Ji2hbQOn1F/JfzSgJbhllwPPQSDNI9hS6Jz8Q==";
+        };
     in {
         "l6zxbj70" = _l6zxbj70;
         "SfiIxP4c" = _SfiIxP4c;
         "mT8z5SNA" = _mT8z5SNA;
         "BaMfCA7m" = _BaMfCA7m;
+        "RmA8c6kT" = _RmA8c6kT;
         "paper-1.21" = _BaMfCA7m;
         "paper-1.21.1" = _BaMfCA7m;
         "paper-1.21.2" = _BaMfCA7m;
@@ -38,6 +44,10 @@ let
         "paper-1.21.9" = _BaMfCA7m;
         "paper-1.21.10" = _BaMfCA7m;
         "paper-1.21.11" = _BaMfCA7m;
+        "paper-26.1" = _RmA8c6kT;
+        "paper-26.1.1" = _RmA8c6kT;
+        "paper-26.1.2" = _RmA8c6kT;
+        "paper-26.2" = _RmA8c6kT;
         "purpur-1.21" = _BaMfCA7m;
         "purpur-1.21.1" = _BaMfCA7m;
         "purpur-1.21.2" = _BaMfCA7m;
@@ -50,6 +60,10 @@ let
         "purpur-1.21.9" = _BaMfCA7m;
         "purpur-1.21.10" = _BaMfCA7m;
         "purpur-1.21.11" = _BaMfCA7m;
+        "purpur-26.1" = _RmA8c6kT;
+        "purpur-26.1.1" = _RmA8c6kT;
+        "purpur-26.1.2" = _RmA8c6kT;
+        "purpur-26.2" = _RmA8c6kT;
         "spigot-1.21" = _BaMfCA7m;
         "spigot-1.21.1" = _BaMfCA7m;
         "spigot-1.21.2" = _BaMfCA7m;
@@ -62,11 +76,16 @@ let
         "spigot-1.21.9" = _BaMfCA7m;
         "spigot-1.21.10" = _BaMfCA7m;
         "spigot-1.21.11" = _BaMfCA7m;
+        "spigot-26.1" = _RmA8c6kT;
+        "spigot-26.1.1" = _RmA8c6kT;
+        "spigot-26.1.2" = _RmA8c6kT;
+        "spigot-26.2" = _RmA8c6kT;
         "pkg-1.0.0" = _l6zxbj70;
         "pkg-1.0.1" = _SfiIxP4c;
         "pkg-1.0.2" = _mT8z5SNA;
         "pkg-1.0.3" = _BaMfCA7m;
-        "default" = _BaMfCA7m;
+        "pkg-1.0.4" = _RmA8c6kT;
+        "default" = _RmA8c6kT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sleep-plugin";

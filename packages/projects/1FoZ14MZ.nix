@@ -36,6 +36,21 @@ let
             "file" = "golem_spawn_animation-1.1-neoforge-1.21.8.jar";
             "hash" = "sha512-iSkXARGrkxG+r2ztBOiHIzM/WvJra7sB4yTtDbbGj3ZHFaQOvpagLreaQfXp7z07236Lc+TqfkbkT7beGn+8KQ==";
         };
+        _oQrW2sEe = {
+            "id" = "oQrW2sEe";
+            "file" = "golem_spawn_animation-1.1-neoforge-26.1.2.jar";
+            "hash" = "sha512-p7hOo6OGnpM2ePjGyExMHruXAh+0PdXR0RiRFDTGQfsH7K94udQZtiPGHOEDuqMiexpATAndkLVGvMVQPR7dzg==";
+        };
+        _wTzY8MH6 = {
+            "id" = "wTzY8MH6";
+            "file" = "golem-spawn-animation-FABRIC-1.20.1-1.0.0.jar";
+            "hash" = "sha512-UbAad2Bohun/7ae+XeaLmmanuD6jbXSDj32vN42YBJ+ZQeXgROS/c0vIO4seyAgL3MhQZk2TEYOc/jv9q+ZoRg==";
+        };
+        _Gw2RKPVK = {
+            "id" = "Gw2RKPVK";
+            "file" = "golem-spawn-animation-FABRIC-1.21.1-1.0.0.jar";
+            "hash" = "sha512-s/tbBNSx3ScjHgcFRywUngBix8CXJRxhObHds9Qz9cfeCVMNkkzZZswJetOlLPSpFsZE7v5hBT3rB2xqCIzI3Q==";
+        };
     in {
         "8lAaBsXG" = _8lAaBsXG;
         "IERtqiXz" = _IERtqiXz;
@@ -44,13 +59,19 @@ let
         "9rhO1hK2" = _9rhO1hK2;
         "ooarhc7F" = _ooarhc7F;
         "2ihh6MmJ" = _2ihh6MmJ;
+        "oQrW2sEe" = _oQrW2sEe;
+        "wTzY8MH6" = _wTzY8MH6;
+        "Gw2RKPVK" = _Gw2RKPVK;
         "forge-1.20.1" = _9rhO1hK2;
         "neoforge-1.21.1" = _ooarhc7F;
         "neoforge-1.21.8" = _2ihh6MmJ;
-        "pkg-1.0.0" = _IERtqiXz;
+        "neoforge-26.1.2" = _oQrW2sEe;
+        "fabric-1.20.1" = _wTzY8MH6;
+        "fabric-1.21.1" = _Gw2RKPVK;
+        "pkg-1.0.0" = _Gw2RKPVK;
         "pkg-1.0.1" = _FOaTt6F0;
-        "pkg-1.1" = _2ihh6MmJ;
-        "default" = _2ihh6MmJ;
+        "pkg-1.1" = _oQrW2sEe;
+        "default" = _Gw2RKPVK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "golem-spawn-animation";

@@ -81,6 +81,51 @@ let
             "file" = "society_trading-1.2.6.jar";
             "hash" = "sha512-yqSS/+Q7p7oKbp2ioXp484+3rLbDbsQmmBlFzRFAxpL7iMXAafsfDPEV0vDgHxKgM3ffs8y1JAeGRB1951+hfw==";
         };
+        _nojL75wk = {
+            "id" = "nojL75wk";
+            "file" = "society_trading-1.2.6-1.21.1.jar";
+            "hash" = "sha512-rv2i47W7utPIhP4EP8VQK2KlGBaGxnceFbuxapxEwwBErk4EuUR/xyLN1md3nPk+66f4A7sdZeW8woGQdL3SSA==";
+        };
+        _J0R6jTVy = {
+            "id" = "J0R6jTVy";
+            "file" = "society_trading-1.2.7-1.21.1.jar";
+            "hash" = "sha512-/jlV69J9e/66Fh7nXxdH9louXzPguYw1//FiZpJ+xo0Z8IBvC3ZoQi8h+Vj3c2OzdapZRNE3rsetlmxNCzUfVA==";
+        };
+        _XxoeeznC = {
+            "id" = "XxoeeznC";
+            "file" = "society_trading-1.2.7.jar";
+            "hash" = "sha512-xoHmbbEysJiZsK8M/4md3zKJpM36qSqmP0gcoy3N6TKBrowd8BOTuD7MqKLxPE2XfE4spTPVPhEcLuenoGG9aA==";
+        };
+        _LtVG3Izo = {
+            "id" = "LtVG3Izo";
+            "file" = "society_trading-1.2.8-1.21.1.jar";
+            "hash" = "sha512-k0Nl8sSAn4WiET+xLO+kb+pdbttDRk1WdZN9rYU8sLjNdzy/G5X8HjvxywcFr7QnBwD2D/F5YGjDoFYeCLJuhQ==";
+        };
+        _5motsV2w = {
+            "id" = "5motsV2w";
+            "file" = "society_trading-1.2.9-1.21.1.jar";
+            "hash" = "sha512-Otf8dagajLqEdwhGJ7wl1mR6wbu48iNKkfs9CyyPSIUhHaHma93esj9d8AO0YzoW33BiIorRkWXPdiChvG4eew==";
+        };
+        _HZEUlrrs = {
+            "id" = "HZEUlrrs";
+            "file" = "society_trading-1.2.8.jar";
+            "hash" = "sha512-ei+DvOwPFpCZnfUDEORh7/bIknj2gUxOfItHzN/NZcpCxB51YAVYVe+qZI0NjImWauIa6fghXA33dhzFJ5zMRg==";
+        };
+        _BOAcS2QW = {
+            "id" = "BOAcS2QW";
+            "file" = "society_trading-1.2.9.jar";
+            "hash" = "sha512-NqcTKazVEibVptWZ0Tn86P5obsBwkNSbr7q9mCWAZGSncw8ueKvRXMVI5lEMZ3k2LCvbsulpH8D4x/pY2p1hBQ==";
+        };
+        _sbyFhvbQ = {
+            "id" = "sbyFhvbQ";
+            "file" = "society_trading-1.2.10-1.21.1.jar";
+            "hash" = "sha512-l1Y+8xxgDUQoV5je0IV9MEW1S1uRhBfbPghRvLlzHSL4RoW17Ee3SL8ZQ9XOkTSJSN9fot9U8eFGtD2t7lzvbQ==";
+        };
+        _3Gf6gyTx = {
+            "id" = "3Gf6gyTx";
+            "file" = "society_trading-1.2.11-1.21.1.jar";
+            "hash" = "sha512-p5I9BMFb4n/pbF6dGNqoXNkKXVSagdqGn0luLjtoGg6yP1ICECTGGPA7npz1unDbIphfv1jFP0ACbDs60Nngbg==";
+        };
     in {
         "m8I1OauC" = _m8I1OauC;
         "RYyCVglj" = _RYyCVglj;
@@ -98,7 +143,17 @@ let
         "OeQeWkK7" = _OeQeWkK7;
         "sTaVxQ0p" = _sTaVxQ0p;
         "mTKjLE7l" = _mTKjLE7l;
-        "forge-1.20.1" = _mTKjLE7l;
+        "nojL75wk" = _nojL75wk;
+        "J0R6jTVy" = _J0R6jTVy;
+        "XxoeeznC" = _XxoeeznC;
+        "LtVG3Izo" = _LtVG3Izo;
+        "5motsV2w" = _5motsV2w;
+        "HZEUlrrs" = _HZEUlrrs;
+        "BOAcS2QW" = _BOAcS2QW;
+        "sbyFhvbQ" = _sbyFhvbQ;
+        "3Gf6gyTx" = _3Gf6gyTx;
+        "forge-1.20.1" = _BOAcS2QW;
+        "neoforge-1.21.1" = _3Gf6gyTx;
         "pkg-0.4" = _m8I1OauC;
         "pkg-0.5" = _RYyCVglj;
         "pkg-0.7" = _OoPJP5ko;
@@ -115,7 +170,16 @@ let
         "pkg-1.2.4" = _OeQeWkK7;
         "pkg-1.2.5" = _sTaVxQ0p;
         "pkg-1.2.6" = _mTKjLE7l;
-        "default" = _mTKjLE7l;
+        "pkg-1.2.6-1.21.1" = _nojL75wk;
+        "pkg-1.2.7-1.21.1" = _J0R6jTVy;
+        "pkg-1.2.7" = _XxoeeznC;
+        "pkg-1.2.8-1.21.1" = _LtVG3Izo;
+        "pkg-1.2.9-1.21.1" = _5motsV2w;
+        "pkg-1.2.8" = _HZEUlrrs;
+        "pkg-1.2.9" = _BOAcS2QW;
+        "pkg-1.2.10-1.21.1" = _sbyFhvbQ;
+        "pkg-1.2.11-1.21.1" = _3Gf6gyTx;
+        "default" = _3Gf6gyTx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "society-trading";

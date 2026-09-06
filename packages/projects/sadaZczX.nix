@@ -46,6 +46,21 @@ let
             "file" = "aggrofix-1.20.1-v2.0.1.jar";
             "hash" = "sha512-uFCEOX+h6o5N+qbw+G0l9F5AI9IuAesF6JwrrTEyeUC6uQVWaMuuDQl5OI5pGXheAz5nG6qkHR5vkNd6fGGsLA==";
         };
+        _itrQrZ5z = {
+            "id" = "itrQrZ5z";
+            "file" = "aggrofix-3.0.0.jar";
+            "hash" = "sha512-k3Ji2glAk4ko0HDJ4dOQ/jigGiOi9gMVt8P+OPStHu2XxOkaMEsb5slk5q5xLiMeWQO3CyeBN3j0mqV+UEXtKA==";
+        };
+        _xKHu90jL = {
+            "id" = "xKHu90jL";
+            "file" = "aggrofix-3.0.1.jar";
+            "hash" = "sha512-+dVq+cLHywiNIX66U+DMPlzoFaB1QJTc6Sm983yuRyrYH630NyOx2Kto/skLbKLbp5L9eYltIZipC17bOxTrQA==";
+        };
+        _Wv8mledM = {
+            "id" = "Wv8mledM";
+            "file" = "aggrofix-3.0.1.jar";
+            "hash" = "sha512-Jt0SujROU42SpnNiuw5dL3z7pbV0lK1/BWie8qWow6GDzD+zZIFogWPeARtmzOopCt0TELq1YHUkbdQpugbgPQ==";
+        };
     in {
         "tfYCGpVK" = _tfYCGpVK;
         "WdiJl5Jw" = _WdiJl5Jw;
@@ -56,16 +71,21 @@ let
         "XeQbaWkE" = _XeQbaWkE;
         "t9FUgVHF" = _t9FUgVHF;
         "SL6jlJxn" = _SL6jlJxn;
+        "itrQrZ5z" = _itrQrZ5z;
+        "xKHu90jL" = _xKHu90jL;
+        "Wv8mledM" = _Wv8mledM;
         "forge-1.19.2" = _50Gk9qP9;
         "forge-1.18.2" = _3U792OX5;
-        "forge-1.20.1" = _SL6jlJxn;
-        "neoforge-1.21.1" = _t9FUgVHF;
+        "forge-1.20.1" = _xKHu90jL;
+        "neoforge-1.21.1" = _Wv8mledM;
         "pkg-1.0.0" = _tfYCGpVK;
         "pkg-1.0.1" = _GnCXq06F;
         "pkg-2.0.0" = _XeQbaWkE;
         "pkg-2.0.2" = _t9FUgVHF;
         "pkg-2.0.1" = _SL6jlJxn;
-        "default" = _SL6jlJxn;
+        "pkg-3.0.0" = _itrQrZ5z;
+        "pkg-3.0.1" = _Wv8mledM;
+        "default" = _Wv8mledM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aggro-fix";

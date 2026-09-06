@@ -266,6 +266,21 @@ let
             "file" = "MS Painted for 26.1-26.2 (v2.47).zip";
             "hash" = "sha512-uwiK3jWrJvOfmPz/kREvDVNyObD9JMDj8NWlY6/RO6wMzNIYZ8NRVfpjA9F11jRuWBY4Sq9rYmOQXux5BXCUgQ==";
         };
+        _khKUhxQt = {
+            "id" = "khKUhxQt";
+            "file" = "MS Painted for 1.13.x (v2.0).zip";
+            "hash" = "sha512-GCrXgRdhdlDo3BWu+N7gym5N19+0WgZHJ6xKUI8j8+adDwQaVheP7rnuJ8jhh/gfF6gpmCjAJ3y2pTj+zNkJvg==";
+        };
+        _dMUwtY80 = {
+            "id" = "dMUwtY80";
+            "file" = "MS Painted for 1.13.x (v2.1).zip";
+            "hash" = "sha512-URqrovV+g31ZIXb9wsNPTYBhA7vZ/FjHLqwZNbGQi4eDPRTNyoMn7vF16BLc5Cl/SB6kPpBBFKz1tMHnajKauw==";
+        };
+        _FCAym4y6 = {
+            "id" = "FCAym4y6";
+            "file" = "MS Painted for 1.14.x (v2.0).zip";
+            "hash" = "sha512-JvYb39ZO9nv2m9iwf9CVZ2ivGrZ8zAv+TTyWrEAlTpEC731NGx7rIW80ZF6kKBK+/pi3hIfkOvr1liSjLcIsaw==";
+        };
     in {
         "IHKQGISV" = _IHKQGISV;
         "5yLa4rHs" = _5yLa4rHs;
@@ -320,6 +335,9 @@ let
         "rFUizrXR" = _rFUizrXR;
         "VhVIx65k" = _VhVIx65k;
         "mIyJxNJR" = _mIyJxNJR;
+        "khKUhxQt" = _khKUhxQt;
+        "dMUwtY80" = _dMUwtY80;
+        "FCAym4y6" = _FCAym4y6;
         "minecraft-1.19" = _5yLa4rHs;
         "minecraft-1.19.1" = _5yLa4rHs;
         "minecraft-1.19.2" = _5yLa4rHs;
@@ -412,6 +430,14 @@ let
         "minecraft-26.2-snapshot-6" = _VhVIx65k;
         "minecraft-26.2-snapshot-7" = _VhVIx65k;
         "minecraft-26.2" = _mIyJxNJR;
+        "minecraft-1.13" = _dMUwtY80;
+        "minecraft-1.13.1" = _dMUwtY80;
+        "minecraft-1.13.2" = _dMUwtY80;
+        "minecraft-1.14" = _FCAym4y6;
+        "minecraft-1.14.1" = _FCAym4y6;
+        "minecraft-1.14.2" = _FCAym4y6;
+        "minecraft-1.14.3" = _FCAym4y6;
+        "minecraft-1.14.4" = _FCAym4y6;
         "pkg-v2.8" = _IHKQGISV;
         "pkg-v2.8.1" = _5yLa4rHs;
         "pkg-v2.13" = _5Rfbo3gQ;
@@ -465,7 +491,10 @@ let
         "pkg-v2.45" = _rFUizrXR;
         "pkg-v2.46" = _VhVIx65k;
         "pkg-v2.47" = _mIyJxNJR;
-        "default" = _mIyJxNJR;
+        "pkg-v2.0-1.13.x" = _khKUhxQt;
+        "pkg-v2.1-1.13.x" = _dMUwtY80;
+        "pkg-v2.0-1.14.x" = _FCAym4y6;
+        "default" = _FCAym4y6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ms-painted";

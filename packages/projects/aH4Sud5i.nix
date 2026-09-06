@@ -351,6 +351,66 @@ let
             "file" = "Nuclear Science-1.19.2-0.8.8.jar";
             "hash" = "sha512-QlfGzV/eokzzvJ22bj9OeeL78You1g6mS9jnKwAcAa5+GBKEKLNybKdaicocgYY2ogijOCNsjuHMj8Zc/rzRAw==";
         };
+        _G2TXCiCr = {
+            "id" = "G2TXCiCr";
+            "file" = "Nuclear Science-1.19.2-0.8.9.jar";
+            "hash" = "sha512-dxHlNQ94wlX3hjNG/37kPPhO6qmzea2XUTeCVYwQeJXum1eFwN8PErU4Hb9d1iIh58WfAK8EINhIQfWn4DJnIg==";
+        };
+        _6CfSn3mL = {
+            "id" = "6CfSn3mL";
+            "file" = "Nuclear Science-1.20.1-0.8.9.jar";
+            "hash" = "sha512-cq9twrnq9TJWCdLpd5H8na+UPgjUEoQ0o/x463eQ6mHpl7EbOEqPdPQFu3HZW3FkZbFFd/gRqd3owjEm9Eyy3A==";
+        };
+        _VtcGmYzu = {
+            "id" = "VtcGmYzu";
+            "file" = "nuclearscience-1.21.1-0.8.9.jar";
+            "hash" = "sha512-uU8Mbr4NHjHJUgcGL3TNqPrgLQPWIW1Ss/LgbKiJ8HX2Gh/HF8fsmMVdEYH36b0rG+Jk+YB6FucoAd02Ilih/w==";
+        };
+        _Epse4hVA = {
+            "id" = "Epse4hVA";
+            "file" = "nuclearscience-1.21.1-0.8.10.jar";
+            "hash" = "sha512-rwZfrZez+DxMoPCcBonScJEVDtv/+MI/kXNGfmGvRbZ0/VuMSyQ4ThMIcitCaPUtIEaQuTi33LLxQSwPJ3V2jg==";
+        };
+        _kJqO2ntE = {
+            "id" = "kJqO2ntE";
+            "file" = "Nuclear Science-1.20.1-0.8.10.jar";
+            "hash" = "sha512-nDH6BmqLFwsmZSfebtaG4quGfP1C0E0WApx+K7ffn1tcxVyw3Ihq0QyeZXvuL3GZA7ZvNtYgFIZI8KaigAkJyw==";
+        };
+        _clZVxoub = {
+            "id" = "clZVxoub";
+            "file" = "Nuclear Science-1.19.2-0.8.10.jar";
+            "hash" = "sha512-VmuEZqRe6FyZbsEGjQNGbAmpqXfYtnM5qbkzlihtV+bcx4OW0znOR7US0/vJ9uc/l3+rjP1WF7L1E81Cj85aEQ==";
+        };
+        _5UJPVlrS = {
+            "id" = "5UJPVlrS";
+            "file" = "nuclearscience-1.21.1-0.8.11.jar";
+            "hash" = "sha512-7lY2l4TStnTUcbaOEO9ytqDNButPzy0KtyUyIDl1S+P0SQ4L0gJpd6YWH23RFBJRybF1JA38r1EBf43rOdSR/A==";
+        };
+        _mkGqPKVG = {
+            "id" = "mkGqPKVG";
+            "file" = "Nuclear Science-1.20.1-0.8.11.jar";
+            "hash" = "sha512-vMRRkqqBAWzMXWNGIJTclfdUXyOWMpBrWab9+wgYk/BFYT1Rz8RosE16lNSxsydFdTVMthk3bxaZznD8xFYvvA==";
+        };
+        _VLx6nWCj = {
+            "id" = "VLx6nWCj";
+            "file" = "Nuclear Science-1.19.2-0.8.11.jar";
+            "hash" = "sha512-UPmWI0RFgrprV6aqM2FmM8VtAK3teGC74vR0qZyHumhlmeu6gufy411DGDa6ThBd4v2VVRblczg83dS7208mJA==";
+        };
+        _mhhraQT5 = {
+            "id" = "mhhraQT5";
+            "file" = "Nuclear Science-1.19.2-0.8.12.jar";
+            "hash" = "sha512-VdGeNUups3SLvNgRE1aXg82HSu5idusL1dPV6OxCHdwZWIyDYyR7i3o3LcmEFaYUWskKQsDKgo2GKzxU5yKprw==";
+        };
+        _oBr7hHLs = {
+            "id" = "oBr7hHLs";
+            "file" = "Nuclear Science-1.20.1-0.8.12.jar";
+            "hash" = "sha512-N7Tn4xzJgG4t4jRGDC7HAI/hcXL8eT54ZIU/OyI7faV9mGy2ZY3do/GmuWUzzY1eLk8bQE9Gfz7V/U/yczuUIw==";
+        };
+        _8oiAzveW = {
+            "id" = "8oiAzveW";
+            "file" = "nuclearscience-1.21.1-0.8.12.jar";
+            "hash" = "sha512-4z2F5Jsw5Iesb+HUrI4RSI7JFsDwLr0yFyBUAqpEYnyNwooJ0RlatQ+gMcYjC3zIq5TkS0DN+AcUwp+r0QjDRQ==";
+        };
     in {
         "cTfbjnVf" = _cTfbjnVf;
         "SZwXx2ZB" = _SZwXx2ZB;
@@ -422,13 +482,25 @@ let
         "LWbRSOpu" = _LWbRSOpu;
         "ELLBsAI3" = _ELLBsAI3;
         "CJPJICH4" = _CJPJICH4;
+        "G2TXCiCr" = _G2TXCiCr;
+        "6CfSn3mL" = _6CfSn3mL;
+        "VtcGmYzu" = _VtcGmYzu;
+        "Epse4hVA" = _Epse4hVA;
+        "kJqO2ntE" = _kJqO2ntE;
+        "clZVxoub" = _clZVxoub;
+        "5UJPVlrS" = _5UJPVlrS;
+        "mkGqPKVG" = _mkGqPKVG;
+        "VLx6nWCj" = _VLx6nWCj;
+        "mhhraQT5" = _mhhraQT5;
+        "oBr7hHLs" = _oBr7hHLs;
+        "8oiAzveW" = _8oiAzveW;
         "forge-1.16.5" = _AEStwqcW;
         "forge-1.17.1" = _SZwXx2ZB;
         "forge-1.18.2" = _tBaYQC0t;
-        "forge-1.19.2" = _CJPJICH4;
-        "forge-1.20.1" = _ELLBsAI3;
-        "neoforge-1.20.1" = _ELLBsAI3;
-        "neoforge-1.21.1" = _LWbRSOpu;
+        "forge-1.19.2" = _mhhraQT5;
+        "forge-1.20.1" = _oBr7hHLs;
+        "neoforge-1.20.1" = _oBr7hHLs;
+        "neoforge-1.21.1" = _8oiAzveW;
         "pkg-1.16.5-0.4.0-1" = _cTfbjnVf;
         "pkg-1.17.1-0.4.1-1" = _SZwXx2ZB;
         "pkg-1.18.2-0.4.8-11" = _9Yu8DMBZ;
@@ -499,7 +571,19 @@ let
         "pkg-1.21.1-0.8.8" = _LWbRSOpu;
         "pkg-1.20.1-0.8.8" = _ELLBsAI3;
         "pkg-1.19.2-0.8.8" = _CJPJICH4;
-        "default" = _CJPJICH4;
+        "pkg-1.19.2-0.8.9" = _G2TXCiCr;
+        "pkg-1.20.1-0.8.9" = _6CfSn3mL;
+        "pkg-1.21.1-0.8.9" = _VtcGmYzu;
+        "pkg-1.21.1-0.8.10" = _Epse4hVA;
+        "pkg-1.20.1-0.8.10" = _kJqO2ntE;
+        "pkg-1.19.2-0.8.10" = _clZVxoub;
+        "pkg-1.21.1-0.8.11" = _5UJPVlrS;
+        "pkg-1.20.1-0.8.11" = _mkGqPKVG;
+        "pkg-1.19.2-0.8.11" = _VLx6nWCj;
+        "pkg-1.19.2-0.8.12" = _mhhraQT5;
+        "pkg-1.20.1-0.8.12" = _oBr7hHLs;
+        "pkg-1.21.1-0.8.12" = _8oiAzveW;
+        "default" = _8oiAzveW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nuclear-science";

@@ -56,6 +56,61 @@ let
             "file" = "clearlag-1.5-neoforge-26.1.2.jar";
             "hash" = "sha512-+nqA3ma60V0M/VxnxfrmKaIvtl+pD5DLqKsfmQfyOxskc3+z/fd+6cUgZXFuEsEkuM/Q1x5wv57rnnDAneVzsQ==";
         };
+        _vtpeUgce = {
+            "id" = "vtpeUgce";
+            "file" = "clearlag-1.6-forge-1.18.2.jar";
+            "hash" = "sha512-dtv90SGhWkOLB9T0twxhntXujaKmZY8+Gbt755bd8WPjDLF2AyMpvzTZoXLsKXOuUuHWfxvRJSCc9/c05HOzLA==";
+        };
+        _FAuC5ZLX = {
+            "id" = "FAuC5ZLX";
+            "file" = "clearlag-1.6-forge-1.19.2.jar";
+            "hash" = "sha512-60yOKRMLFPuUsNi8HHAeRD4fe8XnpZYeAeAsY/ExW/Rud8II1XXyTORhr4BvDADolKNxsUGKDpHM6+IS3ZQZRQ==";
+        };
+        _JRE0Xqjl = {
+            "id" = "JRE0Xqjl";
+            "file" = "clearlag-1.6-forge-1.19.4.jar";
+            "hash" = "sha512-KyesB0HN6y/0yncEO0tCfoy9ah6SFS7nPg73V9eLTmH4A4ClkqsYkN90Sp76UlcERphG06FW+o9OKI4avv7WLQ==";
+        };
+        _WuGmAS3C = {
+            "id" = "WuGmAS3C";
+            "file" = "clearlag-1.6-neoforge-1.20.4.jar";
+            "hash" = "sha512-PGzy0/fSgdho6Q8eFFM8c7R2APHioA3Ua2OoO24aAQVbH/a8QSLYGyRx6qgXjkQzfkEG7oazVMhj23vvJEhikg==";
+        };
+        _BIGTn9dT = {
+            "id" = "BIGTn9dT";
+            "file" = "clearlag-1.6-forge-1.20.1.jar";
+            "hash" = "sha512-GBNwU1Ldx+kGoN3SRbqg2KbI0F0Bz/UBoUXSmSnAQxKtcJKTtsVgiwoYzIXt8DkQoDVSUxmq4PbFYZ5AJ04fQQ==";
+        };
+        _tEnM3kUf = {
+            "id" = "tEnM3kUf";
+            "file" = "clearlag-1.6-neoforge-1.20.6.jar";
+            "hash" = "sha512-h4I29vCOhFl6y9jXclLcWZ1goUj1SmMUPlvq1y0aUMGQe3Lj09HYceWN9t5q3F3QMcpMZ07IB5JlIrsvHuIdrQ==";
+        };
+        _nHE7n8rM = {
+            "id" = "nHE7n8rM";
+            "file" = "clearlag-1.6-neoforge-1.21.1.jar";
+            "hash" = "sha512-112UxxrHynYdIkA19688NldEyyQT+6hZBIV/WoAFCTTXodG0gqEWMcC1ikV4mpu58fh5wD6H0Ou9wvp0eSiIOQ==";
+        };
+        _mMdc9v3k = {
+            "id" = "mMdc9v3k";
+            "file" = "clearlag-1.6-neoforge-1.21.4.jar";
+            "hash" = "sha512-YnYNrR8Pk0eEceDuzFFl3KOLkgFm9ogBJ66fZ1FJ60UaE88UQMJIfjd5tQHwBtOYNJi91lkU7hmGGW6cXyIN6Q==";
+        };
+        _i2ZKiLPm = {
+            "id" = "i2ZKiLPm";
+            "file" = "clearlag-1.6-neoforge-1.21.8.jar";
+            "hash" = "sha512-G8B+9f4fa2LLwuRfMyuaaovcNEe9zFV5hGAOghrV2p/uSU+Ky/KJFAJ5H9q3RbVExJv089lWb+AFNVaAdkVYCg==";
+        };
+        _j600FTBM = {
+            "id" = "j600FTBM";
+            "file" = "clearlag-1.6-neoforge-26.1.2.jar";
+            "hash" = "sha512-BuaOdIsmem9MCVEiHda7FAoQSe9pBLoNEy+rmNZcZLD6ricKXQrbg3FZEH7ZR9RfSTlUfUvVs8m8J0t4kqTSBQ==";
+        };
+        _BpjwlRwf = {
+            "id" = "BpjwlRwf";
+            "file" = "clearlag-1.6-neoforge-26.2.jar";
+            "hash" = "sha512-KrH+8pYV8rV/ZAFmzNdaG7Edzet7QCUVr+sHTkb4Mh2ajp6ziZ+fr2KAlIpjYKW0xMiIraBedJIvLiLWjOFqFA==";
+        };
     in {
         "inhG8eNW" = _inhG8eNW;
         "QahqdcKV" = _QahqdcKV;
@@ -68,19 +123,32 @@ let
         "eKauAXzv" = _eKauAXzv;
         "9OVOd2Lc" = _9OVOd2Lc;
         "QLaBPJKH" = _QLaBPJKH;
-        "forge-1.18.2" = _inhG8eNW;
-        "forge-1.19.2" = _QahqdcKV;
-        "forge-1.19.4" = _odmTLnPO;
-        "forge-1.20.1" = _oLmlQ2hx;
-        "neoforge-1.20.4" = _UB0IYdp3;
-        "neoforge-1.20.6" = _B2mSvlSE;
-        "neoforge-1.21.1" = _ouG2NtHP;
-        "neoforge-1.21.4" = _GIbU6QNb;
+        "vtpeUgce" = _vtpeUgce;
+        "FAuC5ZLX" = _FAuC5ZLX;
+        "JRE0Xqjl" = _JRE0Xqjl;
+        "WuGmAS3C" = _WuGmAS3C;
+        "BIGTn9dT" = _BIGTn9dT;
+        "tEnM3kUf" = _tEnM3kUf;
+        "nHE7n8rM" = _nHE7n8rM;
+        "mMdc9v3k" = _mMdc9v3k;
+        "i2ZKiLPm" = _i2ZKiLPm;
+        "j600FTBM" = _j600FTBM;
+        "BpjwlRwf" = _BpjwlRwf;
+        "forge-1.18.2" = _vtpeUgce;
+        "forge-1.19.2" = _FAuC5ZLX;
+        "forge-1.19.4" = _JRE0Xqjl;
+        "forge-1.20.1" = _BIGTn9dT;
+        "neoforge-1.20.4" = _WuGmAS3C;
+        "neoforge-1.20.6" = _tEnM3kUf;
+        "neoforge-1.21.1" = _nHE7n8rM;
+        "neoforge-1.21.4" = _mMdc9v3k;
         "neoforge-1.21.5" = _eKauAXzv;
-        "neoforge-1.21.8" = _9OVOd2Lc;
-        "neoforge-26.1.2" = _QLaBPJKH;
+        "neoforge-1.21.8" = _i2ZKiLPm;
+        "neoforge-26.1.2" = _j600FTBM;
+        "neoforge-26.2" = _BpjwlRwf;
         "pkg-1.5" = _QLaBPJKH;
-        "default" = _QLaBPJKH;
+        "pkg-1.6" = _BpjwlRwf;
+        "default" = _BpjwlRwf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tct-clearlag";

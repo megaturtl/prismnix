@@ -131,6 +131,26 @@ let
             "file" = "Nanbin Create Mod 3.0.26721+fabric+mtr4.jar";
             "hash" = "sha512-K/OerOwZLQ7HmaP1ZWl/NgjD+mYS4Jq4mJ+ZkFBfXQtX+49JFMbZwQNOeXS5cY5uGVzfQ62PTHXT/w4C4Ye7Ug==";
         };
+        _aBJ4nQhF = {
+            "id" = "aBJ4nQhF";
+            "file" = "Nanbin Create Mod 3.0.26805 mtr3+fabric+1.19.x.jar";
+            "hash" = "sha512-Y6PIY93GoEXHIxroJIQF5QUqdTlFqof55f2n+Hfxn3Mslr23Yi+NMLNJUPGjtCRcD+JC5DhM3zLcwRWR3weyWw==";
+        };
+        _TxO0X7Ph = {
+            "id" = "TxO0X7Ph";
+            "file" = "Nanbin Create Mod 3.0.26805 mtr3+forge+1.19.x.jar";
+            "hash" = "sha512-PFQMJNrMhwr8eMNPGvXX9qfc49Kf79Psdvro2S6TTZ6fApJMglnHevJ4ch+JNM7YGbsOmhHtO1zwyc3nzfI/ew==";
+        };
+        _W8fKWWJA = {
+            "id" = "W8fKWWJA";
+            "file" = "Nanbin Create Mod 3.0.26805 mtr4+fabric+1.20.x.jar";
+            "hash" = "sha512-R6zs6OMeVMLcn/f3nxofi5jxcuOQNOhti7AwhHUCBqbGRBXxXUozWLNhORlrYPDiWy4NLy717cEqdzIz4jVJfg==";
+        };
+        _OJ7Osz74 = {
+            "id" = "OJ7Osz74";
+            "file" = "Nanbin Create Mod 3.0.26805 mtr4+forge+1.20.x.jar";
+            "hash" = "sha512-D5S4o/8b5BkmsFh3cBu3tGiMkEI6f3SvlDvXcI9cgNr+lopRZEhA8SKYSX5dSH7QZScPmCuc68hS+mxg4JZxMg==";
+        };
     in {
         "UHe5Bmc5" = _UHe5Bmc5;
         "g6EnsuDm" = _g6EnsuDm;
@@ -158,22 +178,38 @@ let
         "45Y1fUbF" = _45Y1fUbF;
         "IV2904GC" = _IV2904GC;
         "tJtjBPsP" = _tJtjBPsP;
-        "fabric-1.19.2" = _t3bBd36N;
+        "aBJ4nQhF" = _aBJ4nQhF;
+        "TxO0X7Ph" = _TxO0X7Ph;
+        "W8fKWWJA" = _W8fKWWJA;
+        "OJ7Osz74" = _OJ7Osz74;
+        "fabric-1.19.2" = _aBJ4nQhF;
         "fabric-1.18.2" = _45Y1fUbF;
-        "fabric-1.19" = _t3bBd36N;
-        "fabric-1.19.1" = _t3bBd36N;
-        "fabric-1.19.3" = _t3bBd36N;
-        "fabric-1.19.4" = _t3bBd36N;
+        "fabric-1.19" = _aBJ4nQhF;
+        "fabric-1.19.1" = _aBJ4nQhF;
+        "fabric-1.19.3" = _aBJ4nQhF;
+        "fabric-1.19.4" = _aBJ4nQhF;
         "fabric-1.18" = _45Y1fUbF;
         "fabric-1.18.1" = _45Y1fUbF;
         "fabric-1.21.1" = _uUMEMKzs;
-        "fabric-1.20" = _tJtjBPsP;
-        "fabric-1.20.1" = _tJtjBPsP;
-        "fabric-1.20.2" = _tJtjBPsP;
-        "fabric-1.20.3" = _tJtjBPsP;
-        "fabric-1.20.4" = _tJtjBPsP;
-        "fabric-1.20.5" = _tJtjBPsP;
-        "fabric-1.20.6" = _tJtjBPsP;
+        "fabric-1.20" = _W8fKWWJA;
+        "fabric-1.20.1" = _W8fKWWJA;
+        "fabric-1.20.2" = _W8fKWWJA;
+        "fabric-1.20.3" = _W8fKWWJA;
+        "fabric-1.20.4" = _W8fKWWJA;
+        "fabric-1.20.5" = _W8fKWWJA;
+        "fabric-1.20.6" = _W8fKWWJA;
+        "forge-1.19" = _TxO0X7Ph;
+        "forge-1.19.1" = _TxO0X7Ph;
+        "forge-1.19.2" = _TxO0X7Ph;
+        "forge-1.19.3" = _TxO0X7Ph;
+        "forge-1.19.4" = _TxO0X7Ph;
+        "forge-1.20" = _OJ7Osz74;
+        "forge-1.20.1" = _OJ7Osz74;
+        "forge-1.20.2" = _OJ7Osz74;
+        "forge-1.20.3" = _OJ7Osz74;
+        "forge-1.20.4" = _OJ7Osz74;
+        "forge-1.20.5" = _OJ7Osz74;
+        "forge-1.20.6" = _OJ7Osz74;
         "pkg-0.0.1" = _UHe5Bmc5;
         "pkg-0.0.2" = _g6EnsuDm;
         "pkg-0.0.25" = _M6w7ff5r;
@@ -192,7 +228,11 @@ let
         "pkg-2.5+mtr3" = _45Y1fUbF;
         "pkg-3.0.26628+fabric+mtr4" = _IV2904GC;
         "pkg-3.0.26721+fabric+mtr4" = _tJtjBPsP;
-        "default" = _tJtjBPsP;
+        "pkg-3.0+fabric+mtr3" = _aBJ4nQhF;
+        "pkg-3.0+forge+mtr3" = _TxO0X7Ph;
+        "pkg-3.0+fabric+mtr4" = _W8fKWWJA;
+        "pkg-3.0+forge+mtr4" = _OJ7Osz74;
+        "default" = _OJ7Osz74;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nanbin-create-mod";

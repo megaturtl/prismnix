@@ -346,6 +346,11 @@ let
             "file" = "lootjs-neoforge-1.21.1-3.7.0.jar";
             "hash" = "sha512-+rUH5wGX50/7pDvUAAZvVe9YwvkcshPv7fSs0qKteHbZ3pBfAniKC2gxMEwhd/3JmWxDW8+FXqvbTaynWBJwvA==";
         };
+        _s94MpbR3 = {
+            "id" = "s94MpbR3";
+            "file" = "lootjs-neoforge-26.1.2-4.0.0.jar";
+            "hash" = "sha512-dE1GGDtQkPAjp+eQq3XnKXMuPF2ual3wHiEGoQw5DNKKzPD0ERloPK8l4oQrAIRwWdW2OfnB97Go0GSmxAeNTQ==";
+        };
     in {
         "mFLuNFHm" = _mFLuNFHm;
         "hdvavw2q" = _hdvavw2q;
@@ -416,6 +421,7 @@ let
         "wltVDhRB" = _wltVDhRB;
         "gff58ox9" = _gff58ox9;
         "5AZDyUSn" = _5AZDyUSn;
+        "s94MpbR3" = _s94MpbR3;
         "forge-1.18.2" = _rFw5aG3j;
         "forge-1.19.2" = _1BTiNfZJ;
         "forge-1.20.1" = _wltVDhRB;
@@ -425,6 +431,7 @@ let
         "neoforge-1.20.1" = _wltVDhRB;
         "neoforge-1.21" = _tKPdpv2N;
         "neoforge-1.21.1" = _5AZDyUSn;
+        "neoforge-26.1.2" = _s94MpbR3;
         "pkg-1.18.2-2.7.0+forge" = _mFLuNFHm;
         "pkg-1.18.2-2.7.0+fabric" = _hdvavw2q;
         "pkg-1.18.2-2.7.1+fabric" = _9P5V9gIO;
@@ -494,7 +501,8 @@ let
         "pkg-1.20.1-2.13.1+forge" = _wltVDhRB;
         "pkg-1.20.1-2.13.1+fabric" = _gff58ox9;
         "pkg-1.21.1-3.7.0+neoforge" = _5AZDyUSn;
-        "default" = _5AZDyUSn;
+        "pkg-26.1.2-4.0.0+neoforge" = _s94MpbR3;
+        "default" = _s94MpbR3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lootjs";

@@ -21,11 +21,17 @@ let
             "file" = "simple-modpack-update-checker-2.2.0.jar";
             "hash" = "sha512-imoeE0kcBXaA6X3EcN4Eu0P9+woTwLbg40XOzdv24cgSq7VaD3obHK9bUbTFnWV4/qj5LzeKGq53YXTg9qUvJA==";
         };
+        _g9FhLyv9 = {
+            "id" = "g9FhLyv9";
+            "file" = "simple-modpack-update-checker-2.2.1.jar";
+            "hash" = "sha512-MuFueH2ngOPKdv2KzX/8FC6XaPP0yucEuzP8apU108xDHxu+ua9GNDlZmnb4hdDgsylaSS+nCuWMOs3CnH7CKw==";
+        };
     in {
         "T2NMh1qi" = _T2NMh1qi;
         "LXdHeeax" = _LXdHeeax;
         "lhuwNFHr" = _lhuwNFHr;
         "SAnIN94w" = _SAnIN94w;
+        "g9FhLyv9" = _g9FhLyv9;
         "fabric-1.21" = _LXdHeeax;
         "fabric-1.21.1" = _LXdHeeax;
         "fabric-1.21.2" = _LXdHeeax;
@@ -41,12 +47,13 @@ let
         "fabric-26.1" = _lhuwNFHr;
         "fabric-26.1.1" = _lhuwNFHr;
         "fabric-26.1.2" = _lhuwNFHr;
-        "fabric-26.2" = _SAnIN94w;
+        "fabric-26.2" = _g9FhLyv9;
         "pkg-1.0.0" = _T2NMh1qi;
         "pkg-2.0.0" = _LXdHeeax;
         "pkg-2.1.0" = _lhuwNFHr;
         "pkg-2.2.0" = _SAnIN94w;
-        "default" = _SAnIN94w;
+        "pkg-2.2.1" = _g9FhLyv9;
+        "default" = _g9FhLyv9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smuc";

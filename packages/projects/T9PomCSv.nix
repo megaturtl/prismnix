@@ -111,6 +111,26 @@ let
             "file" = "sable-fabric-1.21.1-2.0.3.jar";
             "hash" = "sha512-JlQhX7OAU75RiYg6aSAYXOMFKqYZM5qsyp+YtecrNnCsZc5or0N5WlZjnPIvvxN87XVrm973wmq+0nlWl7S6wA==";
         };
+        _bMSNCogw = {
+            "id" = "bMSNCogw";
+            "file" = "sable-neoforge-1.21.1-2.0.4.jar";
+            "hash" = "sha512-FTbGdlMfWdRlj5lMaYqPZJ87IbD3/3VGRL5f9BVMiKul+TNoY1kZhRm759KV6NU/fZFIz+DpOwn+Fo9S70oz7Q==";
+        };
+        _W6v45c9C = {
+            "id" = "W6v45c9C";
+            "file" = "sable-fabric-1.21.1-2.0.4.jar";
+            "hash" = "sha512-tpKUd0JJMFNEdoiZtnhaW+p2siL/2TxBwhkdEzv0PwzvFX2bSa9aIN+OX/s0hdW130qiOJ56LoHHqZY4Y48Qkg==";
+        };
+        _U678xqle = {
+            "id" = "U678xqle";
+            "file" = "sable-neoforge-1.21.1-2.0.5.jar";
+            "hash" = "sha512-vz2Mh7zF77ma//1QMF/JeAhu1Ipj4QaBbjqKOQH4BS9EgOpSfb19QAP3d17U0CBSkJgDT04weu+snMQt8rTBmg==";
+        };
+        _e11C0I1A = {
+            "id" = "e11C0I1A";
+            "file" = "sable-fabric-1.21.1-2.0.5.jar";
+            "hash" = "sha512-F1VQZ1cSW3b5rqVnWjJXZQQmg4GUaf/VV/DCUZ4FXDpt2Raox5qVWQ5Im3ZPf8RDCJatxtTaO0P56cATpyZW7A==";
+        };
     in {
         "TPaVyX4f" = _TPaVyX4f;
         "hYzKWPNY" = _hYzKWPNY;
@@ -134,8 +154,12 @@ let
         "qxQsW4zR" = _qxQsW4zR;
         "1L6XJqnY" = _1L6XJqnY;
         "hyQUls27" = _hyQUls27;
-        "fabric-1.21.1" = _hyQUls27;
-        "neoforge-1.21.1" = _1L6XJqnY;
+        "bMSNCogw" = _bMSNCogw;
+        "W6v45c9C" = _W6v45c9C;
+        "U678xqle" = _U678xqle;
+        "e11C0I1A" = _e11C0I1A;
+        "fabric-1.21.1" = _e11C0I1A;
+        "neoforge-1.21.1" = _U678xqle;
         "pkg-1.0.4+mc1.21.1" = _hYzKWPNY;
         "pkg-1.0.5+mc1.21.1" = _2e8wmM3Q;
         "pkg-1.0.6+mc1.21.1" = _25Tb5FTZ;
@@ -147,7 +171,9 @@ let
         "pkg-2.0.1+mc1.21.1" = _Zkc9s9Dm;
         "pkg-2.0.2+mc1.21.1" = _qxQsW4zR;
         "pkg-2.0.3+mc1.21.1" = _hyQUls27;
-        "default" = _hyQUls27;
+        "pkg-2.0.4+mc1.21.1" = _W6v45c9C;
+        "pkg-2.0.5+mc1.21.1" = _e11C0I1A;
+        "default" = _e11C0I1A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sable";

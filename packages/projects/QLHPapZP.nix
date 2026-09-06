@@ -465,7 +465,7 @@ let
         "default" = _Z98N8z5A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
-        name = "hardcore-revive-plus-old";
+        name = "hardcore-revive-plus-classic";
         id = "QLHPapZP";
         type = "mod";
         versions = versions;

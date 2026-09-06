@@ -26,12 +26,24 @@ let
             "file" = "Fantastik Demo v29-04-2026.zip";
             "hash" = "sha512-rl4sbEG99eZFNBPbZbGJ4eNgiWy1I8QoV4hKcIAmxf3XySScSaZA0+eWmrTAdygxk2kCZbwrlb2pWxll0NYNdg==";
         };
+        _mjzPU6qt = {
+            "id" = "mjzPU6qt";
+            "file" = "Fantastik 512x Lite 24_08_2026.zip";
+            "hash" = "sha512-f3IpCGMElOcoOgcVufMm5QuOOsoahNhejtPALCsJcvramXbY0tJskOD8jxPT35+HEr4tDsCAw5G5mjNydB8GHw==";
+        };
+        _WTXcdDvZ = {
+            "id" = "WTXcdDvZ";
+            "file" = "Fantastik 512x Lite 26_08_2026.zip";
+            "hash" = "sha512-xDeR0Ij/7GVOZXPvtmXYiXVJyUpBsm0hTISKtkfv7B1PLe22VMP5ZGp7RE9Amw7VfSfsvtpwdc0u3w25rH2ZFw==";
+        };
     in {
         "bSq7OL43" = _bSq7OL43;
         "nQpiNnki" = _nQpiNnki;
         "mVbf1W4l" = _mVbf1W4l;
         "CK5GIGjH" = _CK5GIGjH;
         "YuG7zYmR" = _YuG7zYmR;
+        "mjzPU6qt" = _mjzPU6qt;
+        "WTXcdDvZ" = _WTXcdDvZ;
         "minecraft-1.16" = _mVbf1W4l;
         "minecraft-1.16.1" = _mVbf1W4l;
         "minecraft-1.16.2" = _mVbf1W4l;
@@ -55,11 +67,11 @@ let
         "minecraft-1.20.4" = _CK5GIGjH;
         "minecraft-1.20.5" = _CK5GIGjH;
         "minecraft-1.20.6" = _CK5GIGjH;
-        "minecraft-1.21" = _CK5GIGjH;
-        "minecraft-1.21.1" = _CK5GIGjH;
-        "minecraft-1.21.2" = _CK5GIGjH;
-        "minecraft-1.21.3" = _CK5GIGjH;
-        "minecraft-1.21.4" = _CK5GIGjH;
+        "minecraft-1.21" = _WTXcdDvZ;
+        "minecraft-1.21.1" = _WTXcdDvZ;
+        "minecraft-1.21.2" = _WTXcdDvZ;
+        "minecraft-1.21.3" = _WTXcdDvZ;
+        "minecraft-1.21.4" = _WTXcdDvZ;
         "minecraft-1.11.2" = _nQpiNnki;
         "minecraft-1.12" = _mVbf1W4l;
         "minecraft-1.12.1" = _mVbf1W4l;
@@ -75,17 +87,25 @@ let
         "minecraft-1.15" = _mVbf1W4l;
         "minecraft-1.15.1" = _mVbf1W4l;
         "minecraft-1.15.2" = _mVbf1W4l;
-        "minecraft-1.21.5" = _CK5GIGjH;
-        "minecraft-1.21.6" = _CK5GIGjH;
-        "minecraft-1.21.9" = _YuG7zYmR;
-        "minecraft-1.21.10" = _YuG7zYmR;
-        "minecraft-1.21.11" = _YuG7zYmR;
+        "minecraft-1.21.5" = _WTXcdDvZ;
+        "minecraft-1.21.6" = _WTXcdDvZ;
+        "minecraft-1.21.9" = _WTXcdDvZ;
+        "minecraft-1.21.10" = _WTXcdDvZ;
+        "minecraft-1.21.11" = _WTXcdDvZ;
+        "minecraft-1.21.7" = _WTXcdDvZ;
+        "minecraft-1.21.8" = _WTXcdDvZ;
+        "minecraft-26.1" = _WTXcdDvZ;
+        "minecraft-26.1.1" = _WTXcdDvZ;
+        "minecraft-26.1.2" = _WTXcdDvZ;
+        "minecraft-26.2" = _WTXcdDvZ;
         "pkg-1.1" = _bSq7OL43;
         "pkg-1.0" = _nQpiNnki;
         "pkg-0325" = _mVbf1W4l;
         "pkg-29_06_2025" = _CK5GIGjH;
         "pkg-29-04-2026" = _YuG7zYmR;
-        "default" = _YuG7zYmR;
+        "pkg-24.08.2026" = _mjzPU6qt;
+        "pkg-26.08.2026" = _WTXcdDvZ;
+        "default" = _WTXcdDvZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fantastik";

@@ -31,6 +31,11 @@ let
             "file" = "Barely Default Sounds v2.2 (MC 1.21.7-1.21.11).zip";
             "hash" = "sha512-RLm5SfpcIO/R30cUrXgbt9xPbMB2MCSdQ5kgSMhPqgoHiwS9BTrjZ0y82EmI7/WnHKRCG4VjgZlXmoxqbv7e2A==";
         };
+        _SYNmWEBa = {
+            "id" = "SYNmWEBa";
+            "file" = "Barely Default Sounds v3 (MC 26.2).zip";
+            "hash" = "sha512-4OnvZSq73GEfFpKzogAGppnLS7EEbKMe1aWp/0n/eTiqltQHZGkx7VPZtaMfqCPkVJWHPjFJ1LeFIYeW6zR1mg==";
+        };
     in {
         "UodTxagi" = _UodTxagi;
         "vrlo822D" = _vrlo822D;
@@ -38,6 +43,7 @@ let
         "aYO9xzDB" = _aYO9xzDB;
         "XDeODdnc" = _XDeODdnc;
         "fYLAm43X" = _fYLAm43X;
+        "SYNmWEBa" = _SYNmWEBa;
         "minecraft-1.21.1" = _hMUuSi44;
         "minecraft-1.21.4" = _hMUuSi44;
         "minecraft-1.21.7" = _fYLAm43X;
@@ -45,13 +51,15 @@ let
         "minecraft-1.21.9" = _fYLAm43X;
         "minecraft-1.21.10" = _fYLAm43X;
         "minecraft-1.21.11" = _fYLAm43X;
+        "minecraft-26.2" = _SYNmWEBa;
         "pkg-1" = _UodTxagi;
         "pkg-1.1" = _vrlo822D;
         "pkg-1.2" = _hMUuSi44;
         "pkg-2.0" = _aYO9xzDB;
         "pkg-2.1" = _XDeODdnc;
         "pkg-2.2" = _fYLAm43X;
-        "default" = _fYLAm43X;
+        "pkg-3" = _SYNmWEBa;
+        "default" = _SYNmWEBa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "barely-default-sound-pack";

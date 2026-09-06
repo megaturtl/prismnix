@@ -121,6 +121,26 @@ let
             "file" = "create-more-girder-2.1.2-forge.jar";
             "hash" = "sha512-fPi+2qtOzLqZgJ6Ph2jP/O/wZvyJr8REmjJfJYmVrgqXezJ6nooaW2oH3yuOx/FvOvkegBxgc4XE9B22+NsWTg==";
         };
+        _SCfU8JVq = {
+            "id" = "SCfU8JVq";
+            "file" = "create-more-girder-2.2.0-neo.jar";
+            "hash" = "sha512-r2Yl8vDQab3GIDA5kM6p8JCEwEL2G2/JyBlPo1zlo01CBtffzdwr+wv6hNc8QuEo+6UkO1p7FNmq2D5TuSdW0g==";
+        };
+        _pPQAXioU = {
+            "id" = "pPQAXioU";
+            "file" = "create-more-girder-2.2.0-forge.jar";
+            "hash" = "sha512-wBEArRDtcuFvO7pSdU+/TVNJz6IDnugyTDwS15oEEpWTa8iFZ384BhvtOmshGGxtR/ESW1RzwzDNLefHnW1mDA==";
+        };
+        _4GqzJgLC = {
+            "id" = "4GqzJgLC";
+            "file" = "create-more-girder-2.3.0-forge.jar";
+            "hash" = "sha512-yO7yxiFRePzKm34qGbW7nKptSdqZaaKjdipJwJeZwX6hAbGHaXzctpaY7GYuTmZ2wAXo7iL6Oe4EfNmbukV6nQ==";
+        };
+        _24zvpwoC = {
+            "id" = "24zvpwoC";
+            "file" = "create-more-girder-2.3.0-neo.jar";
+            "hash" = "sha512-t+9P/IexXfo0Q3M3ikM/gPEetmSRtEjit9flwHCl1syvP4vDMPJytasUkdcn58HkJ+gtbQdBV6B04Po4sYHWcg==";
+        };
     in {
         "ww7KcEMO" = _ww7KcEMO;
         "2M8KigKi" = _2M8KigKi;
@@ -146,8 +166,12 @@ let
         "C2sl9ylO" = _C2sl9ylO;
         "LG0UGk5r" = _LG0UGk5r;
         "7rkJOxXl" = _7rkJOxXl;
-        "neoforge-1.21.1" = _LG0UGk5r;
-        "forge-1.20.1" = _7rkJOxXl;
+        "SCfU8JVq" = _SCfU8JVq;
+        "pPQAXioU" = _pPQAXioU;
+        "4GqzJgLC" = _4GqzJgLC;
+        "24zvpwoC" = _24zvpwoC;
+        "neoforge-1.21.1" = _24zvpwoC;
+        "forge-1.20.1" = _4GqzJgLC;
         "pkg-1.0.0" = _ww7KcEMO;
         "pkg-1.0.1" = _2M8KigKi;
         "pkg-1.1.0" = _Ez3D5jXG;
@@ -162,7 +186,9 @@ let
         "pkg-2.0.1" = _APMtHFSL;
         "pkg-2.1.1" = _C2sl9ylO;
         "pkg-2.1.2" = _7rkJOxXl;
-        "default" = _7rkJOxXl;
+        "pkg-2.2.0" = _pPQAXioU;
+        "pkg-2.3.0" = _24zvpwoC;
+        "default" = _24zvpwoC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-more-girder";

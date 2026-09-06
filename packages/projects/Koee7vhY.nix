@@ -196,6 +196,46 @@ let
             "file" = "[1.3support]trailandtales_delight-2.3.jar";
             "hash" = "sha512-7rCAdv8kIhvPxA0R3rx2N7lgfPAoo+/ytrxEbUCKQMkx/1Gb32R4AtZIwBFDBMVMv1Frzbq6x1D6DVS/yGmZaQ==";
         };
+        _hhC6VtcJ = {
+            "id" = "hhC6VtcJ";
+            "file" = "[1.2support]trailandtales_delight-2.35-all.jar";
+            "hash" = "sha512-Y2Ez6xg5XG6a1wu9JN3GxxWR44t/RaLvViKhuGGK7Xq3OlBCEDxOs5kUxa+1rx0N+1f9M2U529YYdYakwVmfew==";
+        };
+        _Oo2zQENB = {
+            "id" = "Oo2zQENB";
+            "file" = "[1.3support]trailandtales_delight-2.35-all.jar";
+            "hash" = "sha512-PH8/b5p/RyMDXJDXdJx5nG/ODX1lGUyvYRhf2svJ/NtvrmiWz2l9Vfb1uMuEzm292C2gVWnA+LIcZsf3pQnnKA==";
+        };
+        _5ZafkBzt = {
+            "id" = "5ZafkBzt";
+            "file" = "[1.2support]trailandtales_delight-2.35.jar";
+            "hash" = "sha512-ssj2q+JgxmDD1oj+sCY7Mk/dccwpvEVldvG8BzDTwcyfzb5wtArXhkMCGEilx16pisqyxNdSVncCRDOqOpsOHQ==";
+        };
+        _uSt7SdUc = {
+            "id" = "uSt7SdUc";
+            "file" = "[1.3support]trailandtales_delight-2.35.jar";
+            "hash" = "sha512-H5i2qQj0+evsmFEVYCjuygbeOhiEURmlneGakyr+UQdTG2gxMkkJyKyZrZet7gBZU7ML0gDphLtDV/S/WLp+rA==";
+        };
+        _JAkdcjxJ = {
+            "id" = "JAkdcjxJ";
+            "file" = "[1.2support]trailandtales_delight-2.40.jar";
+            "hash" = "sha512-M8+JmdWX8HaN/VIOVl27kNmteRawkXUKHpSdWFVfQJwU4CQXnOqXMx3MuSOpdPQ1FG1I5YQV8J7cn7FDSsXJhA==";
+        };
+        _t7NVzCoW = {
+            "id" = "t7NVzCoW";
+            "file" = "[1.3support]trailandtales_delight-2.40.jar";
+            "hash" = "sha512-XaXnF1G2emnC3+3DIohvM/fB6jkmyceTrg5Y5pbNsp2tRaCRc8iO0DVMHFEVYA4SdsnwgRAaDSGLn2KyiY9fCw==";
+        };
+        _E7UGZnLI = {
+            "id" = "E7UGZnLI";
+            "file" = "[1.2support]trailandtales_delight-2.4-all.jar";
+            "hash" = "sha512-7ZQ7OoSD+YzVe+wG3bmXOoxhS0Iuu1K7ahF7/r/tAVUKMj7cqY952N7zLYIpoEXRW+owD6VCYwOUgYuwa0RAdA==";
+        };
+        _iQKnMv4N = {
+            "id" = "iQKnMv4N";
+            "file" = "[1.3support]trailandtales_delight-2.4-all.jar";
+            "hash" = "sha512-zgCT1VfPmTi/MJV2p5k4OVcaFXREi8+7CVbZekaAAtiYHQqoj983bAh1A2GBhNNCo2zVBKcRYjuigcpff+BqlA==";
+        };
     in {
         "YJzRsE2m" = _YJzRsE2m;
         "AzdEvemX" = _AzdEvemX;
@@ -236,8 +276,16 @@ let
         "o1GWogsY" = _o1GWogsY;
         "DbwPPwPh" = _DbwPPwPh;
         "4tSxCcHg" = _4tSxCcHg;
-        "forge-1.20.1" = _o1GWogsY;
-        "neoforge-1.21.1" = _4tSxCcHg;
+        "hhC6VtcJ" = _hhC6VtcJ;
+        "Oo2zQENB" = _Oo2zQENB;
+        "5ZafkBzt" = _5ZafkBzt;
+        "uSt7SdUc" = _uSt7SdUc;
+        "JAkdcjxJ" = _JAkdcjxJ;
+        "t7NVzCoW" = _t7NVzCoW;
+        "E7UGZnLI" = _E7UGZnLI;
+        "iQKnMv4N" = _iQKnMv4N;
+        "forge-1.20.1" = _iQKnMv4N;
+        "neoforge-1.21.1" = _t7NVzCoW;
         "fabric-1.20.1" = _PXTGC3FV;
         "fabric-1.21.1" = _EuGlDHXa;
         "pkg-0.3.1" = _YJzRsE2m;
@@ -263,7 +311,9 @@ let
         "pkg-2.2" = _dfiKoILI;
         "pkg-2.3" = _o1GWogsY;
         "pkg-2.3-hotfix" = _4tSxCcHg;
-        "default" = _4tSxCcHg;
+        "pkg-2.35" = _uSt7SdUc;
+        "pkg-2.4" = _iQKnMv4N;
+        "default" = _iQKnMv4N;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trailtales-delight";

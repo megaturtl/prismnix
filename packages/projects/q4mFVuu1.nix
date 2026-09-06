@@ -56,20 +56,15 @@ let
             "file" = "geng-1.15.2-neoforge-1.21.1.jar";
             "hash" = "sha512-cLHAxF7dpD34AYhiLcREXXrTOXf8S9zCUGQthhSW3GTq8Oqo0p5g7m1mfDx0uipIKimw2Su5kB8pbI3PuGZOmQ==";
         };
-        _rpQGqtlz = {
-            "id" = "rpQGqtlz";
-            "file" = "geng-1.16-neoforge-1.21.1.jar";
-            "hash" = "sha512-H/4dMqc8MB/G36/eWklj9AB8uRBShtv5jnxJHwGnmVlrWGOqP1Rs5gN7IS59D/p2yWxtha1AGWXbreBTpObiFg==";
+        _EYF3s0zT = {
+            "id" = "EYF3s0zT";
+            "file" = "geng-1.17-neoforge-1.21.1.jar";
+            "hash" = "sha512-INNXY41ukTCUi3CMjhjz9uH35NcCV3pTTpDWjFMVqPpluUMz1SCiPsNDXgeSgeVoNl+gbOMxQYjIKScXaBHzXg==";
         };
-        _erJTtLvX = {
-            "id" = "erJTtLvX";
-            "file" = "geng-1.16.1-neoforge-1.21.1.jar";
-            "hash" = "sha512-QSCvgKWghcj5LMc0/pNErV1y34JXq6AtfQOC8Ak5ecs/BNKCvTeOO1XKBmWQPwn5916JeQJR4Magvwq2xaKaGg==";
-        };
-        _Hh6sIxds = {
-            "id" = "Hh6sIxds";
-            "file" = "geng-1.16.2-neoforge-1.21.1.jar";
-            "hash" = "sha512-Bht+Nh2Em3lmyuGz03jpMRBtBKJ1SppuvdlJdt3cS8GTkuT//mPun0SrhEH9ExkivxRSZTN8WHz7+7ieYAs9bg==";
+        _tGDrFYE4 = {
+            "id" = "tGDrFYE4";
+            "file" = "geng-1.17.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-Evx090TKQG3Xq9kiNEucVM5DV3sJeHU/roIyhRQ6QmH/UfU88EXRsB/esUnNtBi9MQapVmsECDk9SQU7tVZLug==";
         };
     in {
         "Ul5TzZCp" = _Ul5TzZCp;
@@ -83,10 +78,9 @@ let
         "sKf7EfOw" = _sKf7EfOw;
         "g5KwUFsF" = _g5KwUFsF;
         "efJO7ci8" = _efJO7ci8;
-        "rpQGqtlz" = _rpQGqtlz;
-        "erJTtLvX" = _erJTtLvX;
-        "Hh6sIxds" = _Hh6sIxds;
-        "neoforge-1.21.1" = _Hh6sIxds;
+        "EYF3s0zT" = _EYF3s0zT;
+        "tGDrFYE4" = _tGDrFYE4;
+        "neoforge-1.21.1" = _tGDrFYE4;
         "pkg-1.10" = _Ul5TzZCp;
         "pkg-1.11" = _tnEMUdmN;
         "pkg-1.11.1" = _rlmlj7rG;
@@ -98,10 +92,9 @@ let
         "pkg-1.15" = _sKf7EfOw;
         "pkg-1.15.1" = _g5KwUFsF;
         "pkg-1.15.2" = _efJO7ci8;
-        "pkg-1.16" = _rpQGqtlz;
-        "pkg-1.16.1" = _erJTtLvX;
-        "pkg-1.16.2" = _Hh6sIxds;
-        "default" = _Hh6sIxds;
+        "pkg-1.17" = _EYF3s0zT;
+        "pkg-1.17.1" = _tGDrFYE4;
+        "default" = _tGDrFYE4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "geng";

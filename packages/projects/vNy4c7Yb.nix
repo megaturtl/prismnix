@@ -36,6 +36,11 @@ let
             "file" = "simplesoundboard-0.1.4-26.1.2.jar";
             "hash" = "sha512-xfLXE0eCUH8cC//Fb/aCSEAu5WxbnMjyjeHnPO7LIiM4Bu/VMi4JIhBkocmwaKDc51RnYMy4p1cdAgkJOzgs5A==";
         };
+        _QPdpwcc9 = {
+            "id" = "QPdpwcc9";
+            "file" = "simplesoundboard-0.1.4-26.2.jar";
+            "hash" = "sha512-Wd+F9Khn+C6JWdDOpxnDiZcQWz1yp5snoWJnIEsBsYfz34Gk6OWqfmMoXJ2L+l/HhWgqKj8rbz7/mFuphvsQLA==";
+        };
     in {
         "Gww3d6j2" = _Gww3d6j2;
         "I4LCPamM" = _I4LCPamM;
@@ -44,9 +49,11 @@ let
         "1d9ev8Ci" = _1d9ev8Ci;
         "y7anPR3G" = _y7anPR3G;
         "uJKtTaaj" = _uJKtTaaj;
+        "QPdpwcc9" = _QPdpwcc9;
         "fabric-1.21.10" = _70b2yesw;
         "fabric-1.21.11" = _1d9ev8Ci;
         "fabric-26.1.2" = _uJKtTaaj;
+        "fabric-26.2" = _QPdpwcc9;
         "pkg-0.1.0" = _Gww3d6j2;
         "pkg-0.1.1" = _I4LCPamM;
         "pkg-0.1.2" = _R0OJftbR;
@@ -54,7 +61,8 @@ let
         "pkg-0.1.3-1.21.11" = _1d9ev8Ci;
         "pkg-0.1.3-26.1.2" = _y7anPR3G;
         "pkg-0.1.4-26.1.2" = _uJKtTaaj;
-        "default" = _uJKtTaaj;
+        "pkg-0.1.4-26.2" = _QPdpwcc9;
+        "default" = _QPdpwcc9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simplesoundboard";

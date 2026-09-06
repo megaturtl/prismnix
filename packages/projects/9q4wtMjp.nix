@@ -196,6 +196,11 @@ let
             "file" = "afc-1.0.23-1.20.1.jar";
             "hash" = "sha512-46mvQWJyCVGuKHXKLvbhFUwu+Uysv0Req0v+weAFTBQKC+hUl3haywXpfhApelmIVbToU1DKZj35A+q0Z2umMQ==";
         };
+        _AnZ78Sun = {
+            "id" = "AnZ78Sun";
+            "file" = "afc-2.1.3-1.21.1.jar";
+            "hash" = "sha512-Y3xbDxzWIe3a4QcPcpyawDH7n+MR+BsoW/WCqB33nIqoL0HGClBuvUNHl4l9kQUURyA08m8DLEKcDhlab7JTkg==";
+        };
     in {
         "kfKHKesu" = _kfKHKesu;
         "hcnbNR2c" = _hcnbNR2c;
@@ -236,6 +241,7 @@ let
         "xwmduVSa" = _xwmduVSa;
         "L9bAARlV" = _L9bAARlV;
         "pxyePina" = _pxyePina;
+        "AnZ78Sun" = _AnZ78Sun;
         "forge-1.18.2" = _kfKHKesu;
         "forge-1.20.1" = _pxyePina;
         "forge-1.20.2" = _Tnswfgx5;
@@ -244,7 +250,7 @@ let
         "forge-1.20.5" = _Tnswfgx5;
         "forge-1.20.6" = _Tnswfgx5;
         "neoforge-1.20.1" = _Tnswfgx5;
-        "neoforge-1.21.1" = _L9bAARlV;
+        "neoforge-1.21.1" = _AnZ78Sun;
         "neoforge-1.20.2" = _Tnswfgx5;
         "neoforge-1.20.3" = _Tnswfgx5;
         "neoforge-1.20.4" = _Tnswfgx5;
@@ -289,7 +295,8 @@ let
         "pkg-2.1.1-1.21" = _xwmduVSa;
         "pkg-2.1.2-1.21" = _L9bAARlV;
         "pkg-1.0.23-1.20.1" = _pxyePina;
-        "default" = _pxyePina;
+        "pkg-2.1.3-1.21" = _AnZ78Sun;
+        "default" = _AnZ78Sun;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "arborfirmacraft-(afc)";

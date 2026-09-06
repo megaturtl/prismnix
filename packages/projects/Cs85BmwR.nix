@@ -201,6 +201,16 @@ let
             "file" = "various-starting-loot-5.1.1.jar";
             "hash" = "sha512-ZjrGMv8TgcuutD+6SRVQGnuq1ErINE7z4ceXg0dKNlUT7P98kIxqebnfPn1UXfaK6h2FOE2ympG6+upAP6AZMA==";
         };
+        _gJOcLM3d = {
+            "id" = "gJOcLM3d";
+            "file" = "Vanilla Fireflies.zip";
+            "hash" = "sha512-IOOD5yrD6fI7EQE5/s64XoxrczNapl1zTkMGy+q6SzONRdo9k4CK6iRSWwq5VrgHhQy07yd3VLYqpifAZhrrRA==";
+        };
+        _e1ugN64o = {
+            "id" = "e1ugN64o";
+            "file" = "various-starting-loot-5.2.jar";
+            "hash" = "sha512-LJkcQFqsACjk3pYsMbc9CG5Rl/WACl+nYm5r/AVNR7YI+327uoOJnftR8iRQGIB+pZ95hZhxGEgNW/UNASeF1w==";
+        };
     in {
         "SCzhkfa2" = _SCzhkfa2;
         "TMxtZagN" = _TMxtZagN;
@@ -242,6 +252,8 @@ let
         "93lZZHsj" = _93lZZHsj;
         "SCO7mIdG" = _SCO7mIdG;
         "CFROeDYW" = _CFROeDYW;
+        "gJOcLM3d" = _gJOcLM3d;
+        "e1ugN64o" = _e1ugN64o;
         "datapack-1.19" = _s5NfWuPd;
         "datapack-1.19.1" = _s5NfWuPd;
         "datapack-1.19.2" = _s5NfWuPd;
@@ -269,6 +281,7 @@ let
         "datapack-1.21.5-pre2" = _reMnT4k6;
         "datapack-1.21.5" = _SCO7mIdG;
         "datapack-1.21.6" = _SCO7mIdG;
+        "datapack-26.2" = _gJOcLM3d;
         "fabric-1.19" = _qz5ptGcP;
         "fabric-1.19.1" = _qz5ptGcP;
         "fabric-1.19.2" = _qz5ptGcP;
@@ -296,6 +309,7 @@ let
         "fabric-1.21.5-pre2" = _93lZZHsj;
         "fabric-1.21.5" = _CFROeDYW;
         "fabric-1.21.6" = _CFROeDYW;
+        "fabric-26.2" = _e1ugN64o;
         "forge-1.19" = _qz5ptGcP;
         "forge-1.19.1" = _qz5ptGcP;
         "forge-1.19.2" = _qz5ptGcP;
@@ -318,6 +332,7 @@ let
         "forge-1.21.5-pre2" = _93lZZHsj;
         "forge-1.21.5" = _CFROeDYW;
         "forge-1.21.6" = _CFROeDYW;
+        "forge-26.2" = _e1ugN64o;
         "quilt-1.19" = _qz5ptGcP;
         "quilt-1.19.1" = _qz5ptGcP;
         "quilt-1.19.2" = _qz5ptGcP;
@@ -345,6 +360,7 @@ let
         "quilt-1.21.5-pre2" = _93lZZHsj;
         "quilt-1.21.5" = _CFROeDYW;
         "quilt-1.21.6" = _CFROeDYW;
+        "quilt-26.2" = _e1ugN64o;
         "neoforge-1.21" = _uWNSYsRB;
         "neoforge-1.21.1" = _c23UqE0O;
         "neoforge-1.21.2" = _c23UqE0O;
@@ -360,6 +376,7 @@ let
         "neoforge-1.21.5-pre2" = _93lZZHsj;
         "neoforge-1.21.5" = _CFROeDYW;
         "neoforge-1.21.6" = _CFROeDYW;
+        "neoforge-26.2" = _e1ugN64o;
         "pkg-1.0" = _SCzhkfa2;
         "pkg-1.0+mod" = _TMxtZagN;
         "pkg-1.1" = _s5NfWuPd;
@@ -400,7 +417,9 @@ let
         "pkg-5.1+mod" = _93lZZHsj;
         "pkg-5.1.1" = _SCO7mIdG;
         "pkg-5.1.1+mod" = _CFROeDYW;
-        "default" = _CFROeDYW;
+        "pkg-5.2" = _gJOcLM3d;
+        "pkg-5.2+mod" = _e1ugN64o;
+        "default" = _e1ugN64o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "various-starting-loot";

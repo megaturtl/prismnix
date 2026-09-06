@@ -66,6 +66,11 @@ let
             "file" = "fmgii-1.20.1-0.1.2.jar";
             "hash" = "sha512-lbvTZO1Ro8s9FtKwr1GbWYXaiR6aG+FlWL+iiVWeBuicLtU/pJBJum8UeIJYyxMl/R3wRS3fV9tTukDJLu1UdQ==";
         };
+        _wjuh3NGX = {
+            "id" = "wjuh3NGX";
+            "file" = "fmgii-1.21.1-0.2.9.jar";
+            "hash" = "sha512-GYk3CIHg6t5bzgxV6b+dBeBJcX6NfgeMUJ05AeuB9UJSgHRQ+VvzfE1tfPFySgf7bs7QyMfTrtIGt//FX7pPHw==";
+        };
     in {
         "iNCqt49H" = _iNCqt49H;
         "erG5UXYn" = _erG5UXYn;
@@ -80,8 +85,9 @@ let
         "dVQCQAMJ" = _dVQCQAMJ;
         "GmZGcZPw" = _GmZGcZPw;
         "6hWokMLU" = _6hWokMLU;
+        "wjuh3NGX" = _wjuh3NGX;
         "forge-1.20.1" = _6hWokMLU;
-        "neoforge-1.21.1" = _dVQCQAMJ;
+        "neoforge-1.21.1" = _wjuh3NGX;
         "pkg-1.1.1" = _iNCqt49H;
         "pkg-1.1.2" = _erG5UXYn;
         "pkg-0.1.0" = _FQNCCQ0l;
@@ -95,7 +101,8 @@ let
         "pkg-0.2.4" = _dVQCQAMJ;
         "pkg-0.0.9" = _GmZGcZPw;
         "pkg-0.1.2" = _6hWokMLU;
-        "default" = _6hWokMLU;
+        "pkg-0.2.9" = _wjuh3NGX;
+        "default" = _wjuh3NGX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fels-machine-guns-ii";

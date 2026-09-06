@@ -606,6 +606,21 @@ let
             "file" = "Fabric-Version-sereneseasonsplus-1.20.1-5.1.2.jar";
             "hash" = "sha512-4SJjiwJHGFmsUod7FP2FuR4T1LLLoaSAHwfTaejm0rNS2y3OKlEczKODVrAM/hF55PEAi6HMkBNlR7urwNA5jA==";
         };
+        _HHCnd0G8 = {
+            "id" = "HHCnd0G8";
+            "file" = "Forge-Version-sereneseasonsplus-1.20.1-5.1.3.jar";
+            "hash" = "sha512-ilhccZoQUeGsS2ftsp7GhMQuX8WxkIUi5dZOIhYfIs7yNXHqbdsSRmC3YlgrP6IEShNsNi1I1mcTyXtHoTYwew==";
+        };
+        _nYao5aRK = {
+            "id" = "nYao5aRK";
+            "file" = "NeoForge-Version-Serene Seasons Plus-1.21.1-5.1.2.jar";
+            "hash" = "sha512-gictFp4/Jve7K3W4WgAqE5NJP5S9BYsRb0PQD+LHd5t7cikQ+f941XodUNWvivuXhmibWHYgdUBlZvNrEKHa4Q==";
+        };
+        _YxD8KH4k = {
+            "id" = "YxD8KH4k";
+            "file" = "NeoForge-Version-Serene Seasons Plus-1.21.11-5.2.1.jar";
+            "hash" = "sha512-pI08HV/VckDJEPJd2Ys0it6vmPn23D1QqXI8WwGRCjxDfvrt0cM4s8finejj0Ug/r9lXrTXeKfGrIVsFvxFV9A==";
+        };
     in {
         "PfITxceX" = _PfITxceX;
         "N8FLu40Y" = _N8FLu40Y;
@@ -728,13 +743,16 @@ let
         "xlg9xLDO" = _xlg9xLDO;
         "WjkoAZyK" = _WjkoAZyK;
         "QBogsX9s" = _QBogsX9s;
-        "forge-1.20.1" = _WjkoAZyK;
-        "neoforge-1.21.1" = _cl33kVzM;
+        "HHCnd0G8" = _HHCnd0G8;
+        "nYao5aRK" = _nYao5aRK;
+        "YxD8KH4k" = _YxD8KH4k;
+        "forge-1.20.1" = _HHCnd0G8;
+        "neoforge-1.21.1" = _nYao5aRK;
         "neoforge-1.20.4" = _niaofgMf;
         "neoforge-1.20.6" = _zZMYQM1W;
         "neoforge-1.21.8" = _dR3OvJN4;
         "neoforge-1.21.5" = _Nb0EJyQ5;
-        "neoforge-1.21.11" = _srPSNrAj;
+        "neoforge-1.21.11" = _YxD8KH4k;
         "fabric-1.20.1" = _QBogsX9s;
         "fabric-1.20.4" = _nQB4VwwZ;
         "fabric-1.20.6" = _ev0h18vp;
@@ -846,7 +864,10 @@ let
         "pkg-Fabric-1.20.1-0.5.1.1" = _xlg9xLDO;
         "pkg-Forge-1.20.1-5.1.2" = _WjkoAZyK;
         "pkg-Fabric-1.20.1-5.1.2" = _QBogsX9s;
-        "default" = _QBogsX9s;
+        "pkg-Forge-1.20.1-5.1.3" = _HHCnd0G8;
+        "pkg-NeoForge-1.21.1-5.1.2" = _nYao5aRK;
+        "pkg-NeoForge-1.21.11-5.2.1" = _YxD8KH4k;
+        "default" = _YxD8KH4k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "serene-seasons-plus";

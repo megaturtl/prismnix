@@ -211,6 +211,11 @@ let
             "file" = "BedrockCrafter-1.3.5-MC26.1-Fabric.jar";
             "hash" = "sha512-KhnN2kh79n2Z5ayqUo+BXyrHisKDJbeRzpC3WJxmGlCz8xm2ldfh6e0RqK3J9bpzX6vxhhghEucyWS7/IyfGKg==";
         };
+        _6YpE9O2t = {
+            "id" = "6YpE9O2t";
+            "file" = "BedrockCrafter-1.3.5-MC26.2-Fabric.jar";
+            "hash" = "sha512-jYaUMLKQE24Yu+ae/ywkcBTVqBa93fXdJJqJ4RtJjdfQeJH8nut7ZZDmERiTL5BBhuRBzMFQ1Ij90dA/tjBJ8A==";
+        };
     in {
         "W2RhyeJ1" = _W2RhyeJ1;
         "BxVThJoc" = _BxVThJoc;
@@ -254,6 +259,7 @@ let
         "M01o05ez" = _M01o05ez;
         "ag3cD2Sk" = _ag3cD2Sk;
         "RABD4uab" = _RABD4uab;
+        "6YpE9O2t" = _6YpE9O2t;
         "fabric-1.16.5" = _chd2gVSA;
         "fabric-1.17" = _cqxi52nr;
         "fabric-1.17.1" = _6HoIPSIh;
@@ -285,6 +291,7 @@ let
         "fabric-26.1" = _RABD4uab;
         "fabric-26.1.1" = _RABD4uab;
         "fabric-26.1.2" = _RABD4uab;
+        "fabric-26.2" = _6YpE9O2t;
         "forge-1.16.5" = _Mc2iTfda;
         "forge-1.17.1" = _na65leQN;
         "forge-1.18" = _xnWLLkg7;
@@ -337,7 +344,8 @@ let
         "pkg-1.3.4-MC1.21.11-Fabric" = _M01o05ez;
         "pkg-1.3.4-MC1.21-NeoForge" = _ag3cD2Sk;
         "pkg-1.3.5-MC26.1-Fabric" = _RABD4uab;
-        "default" = _RABD4uab;
+        "pkg-1.3.5-MC26.2-Fabric" = _6YpE9O2t;
+        "default" = _6YpE9O2t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bedrock-crafter";

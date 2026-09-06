@@ -111,6 +111,11 @@ let
             "file" = "expanded-armor-enchanting-1.0.21.jar";
             "hash" = "sha512-3noh73lSw8A689vgXA9fCHdRw3G9X0E0kRLtX5SJ8rJs/HMT5NkB6UoLuRnz37zTS0nZyayQx12QRsu6hnYEbw==";
         };
+        _ivIPzWJ9 = {
+            "id" = "ivIPzWJ9";
+            "file" = "expanded-armor-enchanting-1.0.22.jar";
+            "hash" = "sha512-GPK1S+D+31bGVSCHm8d4y7XoCSR0Bw9bKo9mDogGZlVddCf+th3A+P37yb7zIGg9W8kOXKAZlygMTPoj/KBFBQ==";
+        };
     in {
         "PO67svwZ" = _PO67svwZ;
         "SoC416sn" = _SoC416sn;
@@ -134,6 +139,7 @@ let
         "lDI5v5Jf" = _lDI5v5Jf;
         "1naBfpy3" = _1naBfpy3;
         "yvQDYLxQ" = _yvQDYLxQ;
+        "ivIPzWJ9" = _ivIPzWJ9;
         "fabric-1.16.5" = _PO67svwZ;
         "fabric-1.17" = _SoC416sn;
         "fabric-1.17.1" = _SoC416sn;
@@ -158,6 +164,7 @@ let
         "fabric-26.1" = _yvQDYLxQ;
         "fabric-26.1.1" = _yvQDYLxQ;
         "fabric-26.1.2" = _yvQDYLxQ;
+        "fabric-26.2" = _ivIPzWJ9;
         "pkg-1.0.0" = _PO67svwZ;
         "pkg-1.0.1" = _SoC416sn;
         "pkg-1.0.2" = _Dh04AtNU;
@@ -180,7 +187,8 @@ let
         "pkg-1.0.19" = _lDI5v5Jf;
         "pkg-1.0.20" = _1naBfpy3;
         "pkg-1.0.21" = _yvQDYLxQ;
-        "default" = _yvQDYLxQ;
+        "pkg-1.0.22" = _ivIPzWJ9;
+        "default" = _ivIPzWJ9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "expanded-armor-enchanting";

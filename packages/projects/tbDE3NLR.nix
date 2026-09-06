@@ -151,6 +151,11 @@ let
             "file" = "attributesetter-2.2.1-neoforge.jar";
             "hash" = "sha512-AFasToLksqGSe4dgSoWmnduWXPhxmt0yJusSLyXFE5LeKt8gQEK9PUJU6DBRuLnObERpVNhPAcS82gAWwAdurQ==";
         };
+        _h3HIoImN = {
+            "id" = "h3HIoImN";
+            "file" = "attributesetter-2.3-neoforge.jar";
+            "hash" = "sha512-642uFoZnBiMtgD8zjiEaKGO9nKhQXQ91UTtkIt/9GOV1dWChlQBLfssMQ2RVchGZVfeH+zOaqnfhRyUMOTsVQQ==";
+        };
     in {
         "shJo0702" = _shJo0702;
         "30b8lvq0" = _30b8lvq0;
@@ -182,6 +187,7 @@ let
         "HKH3lnTs" = _HKH3lnTs;
         "UxyWiM1K" = _UxyWiM1K;
         "56AfBTEs" = _56AfBTEs;
+        "h3HIoImN" = _h3HIoImN;
         "fabric-1.20.1" = _HKH3lnTs;
         "quilt-1.20.1" = _Hob2FiSW;
         "forge-1.20.1" = _eMpXUcMm;
@@ -192,7 +198,7 @@ let
         "forge-1.20.6" = _eMpXUcMm;
         "neoforge-1.20.1" = _Wmh5YYaI;
         "neoforge-1.21" = _Unq1N0z5;
-        "neoforge-1.21.1" = _56AfBTEs;
+        "neoforge-1.21.1" = _h3HIoImN;
         "neoforge-1.21.2" = _Unq1N0z5;
         "neoforge-1.21.3" = _Unq1N0z5;
         "neoforge-1.21.4" = _Unq1N0z5;
@@ -230,7 +236,8 @@ let
         "pkg-2.1-fabric" = _HKH3lnTs;
         "pkg-2.2-neoforge" = _UxyWiM1K;
         "pkg-2.2.1-neoforge" = _56AfBTEs;
-        "default" = _56AfBTEs;
+        "pkg-2.3-neoforge" = _h3HIoImN;
+        "default" = _h3HIoImN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "attributesetter";

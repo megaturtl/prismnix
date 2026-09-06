@@ -26,12 +26,18 @@ let
             "file" = "mc264204fix-mc26.1+1.0.jar";
             "hash" = "sha512-Z+LxkoFiEsIPHt40RZEbxU6HGMMz3x17M8kU2YQZb8myZFkLdu2yKe+hMf1liA/jPGG6iTxjcR6gKoeNhvmUOw==";
         };
+        _JOiynhoS = {
+            "id" = "JOiynhoS";
+            "file" = "mc264204fix-mc26.2+1.0.jar";
+            "hash" = "sha512-zOuVnt+w67lIsxXq0JIuviUKbbF74pkL1omcf55Q/0ZTD7kb/PGU/r9mDtO1jRakMR0GF3oXZFwi/AzqootHaA==";
+        };
     in {
         "3TGIy9wE" = _3TGIy9wE;
         "EYvFyhX5" = _EYvFyhX5;
         "Rgmone3B" = _Rgmone3B;
         "Y9y8rtFq" = _Y9y8rtFq;
         "6v9Bqxf9" = _6v9Bqxf9;
+        "JOiynhoS" = _JOiynhoS;
         "fabric-1.20" = _3TGIy9wE;
         "fabric-1.20.1" = _3TGIy9wE;
         "fabric-1.20.2" = _3TGIy9wE;
@@ -54,8 +60,9 @@ let
         "fabric-26.1" = _6v9Bqxf9;
         "fabric-26.1.1" = _6v9Bqxf9;
         "fabric-26.1.2" = _6v9Bqxf9;
-        "pkg-1.0" = _6v9Bqxf9;
-        "default" = _6v9Bqxf9;
+        "fabric-26.2" = _JOiynhoS;
+        "pkg-1.0" = _JOiynhoS;
+        "default" = _JOiynhoS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mc+264204-fix";

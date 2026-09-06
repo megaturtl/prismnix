@@ -71,6 +71,11 @@ let
             "file" = "rnr-1.0.4-1.21.1.jar";
             "hash" = "sha512-6KxqRDj/nXfIRWQ5U5rkfJe+yLM0YHp7AHNnmZR87psL6XJvbZziNLtWegeXdfrEAQ98NhKTHbbFokaS/NYDDQ==";
         };
+        _Y0yuTr8v = {
+            "id" = "Y0yuTr8v";
+            "file" = "rnr-0.2.5-1.20.1.jar";
+            "hash" = "sha512-9PWkO0ixuXaoBtMzcxCQNFjZTveE3t/zscfH2De7a+MjaTSVacBx4khmHHX1WFhBcpytGs7iAy6MhoRTHujJaw==";
+        };
     in {
         "rhh9TLgw" = _rhh9TLgw;
         "DENiqnq6" = _DENiqnq6;
@@ -86,7 +91,8 @@ let
         "BejLP0R9" = _BejLP0R9;
         "1yQjvF0e" = _1yQjvF0e;
         "xbtrNvLp" = _xbtrNvLp;
-        "forge-1.20.1" = _1yQjvF0e;
+        "Y0yuTr8v" = _Y0yuTr8v;
+        "forge-1.20.1" = _Y0yuTr8v;
         "forge-1.20.2" = _1yQjvF0e;
         "forge-1.20.3" = _1yQjvF0e;
         "forge-1.20.4" = _1yQjvF0e;
@@ -113,7 +119,8 @@ let
         "pkg-1.0.3-1.21.1" = _BejLP0R9;
         "pkg-0.2.4-1.20.1" = _1yQjvF0e;
         "pkg-1.0.4-1.21.1" = _xbtrNvLp;
-        "default" = _xbtrNvLp;
+        "pkg-0.2.5-1.20.1" = _Y0yuTr8v;
+        "default" = _Y0yuTr8v;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "roads-and-roofs-tfc";

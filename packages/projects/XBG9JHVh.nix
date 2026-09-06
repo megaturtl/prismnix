@@ -56,6 +56,11 @@ let
             "file" = "Sophie's Enchants V2.0.2.zip";
             "hash" = "sha512-glCSCpq8NZPDUwvhz6KNBi8XreEGyOC9JDngCI/4cbdk5iVxqUrNLJcjSDMDrWzjqPSh1PMDk31rTJjJaTduag==";
         };
+        _o7zygRqE = {
+            "id" = "o7zygRqE";
+            "file" = "Sophie's Enchants V2.1.0.zip";
+            "hash" = "sha512-GlxCRvI8XyPdUreDPpj2YxtIxTAXyEfGT8zJvTMoVhP6yfsy00/FK2hKs9aqpagumtWsRRasAMIXHavIgwEqGA==";
+        };
     in {
         "58aPgWCl" = _58aPgWCl;
         "QsVjoIL6" = _QsVjoIL6;
@@ -68,17 +73,18 @@ let
         "l381BMi9" = _l381BMi9;
         "MGJKYFL9" = _MGJKYFL9;
         "dxLoMROG" = _dxLoMROG;
+        "o7zygRqE" = _o7zygRqE;
         "minecraft-1.21.5" = _MGJKYFL9;
-        "minecraft-1.21.7" = _dxLoMROG;
-        "minecraft-1.21.8" = _dxLoMROG;
-        "minecraft-1.21.9" = _dxLoMROG;
-        "minecraft-1.21.10" = _dxLoMROG;
-        "minecraft-1.21.11" = _dxLoMROG;
+        "minecraft-1.21.7" = _o7zygRqE;
+        "minecraft-1.21.8" = _o7zygRqE;
+        "minecraft-1.21.9" = _o7zygRqE;
+        "minecraft-1.21.10" = _o7zygRqE;
+        "minecraft-1.21.11" = _o7zygRqE;
         "minecraft-1.21.6" = _MGJKYFL9;
-        "minecraft-26.1" = _dxLoMROG;
-        "minecraft-26.1.1" = _dxLoMROG;
-        "minecraft-26.1.2" = _dxLoMROG;
-        "minecraft-26.2" = _dxLoMROG;
+        "minecraft-26.1" = _o7zygRqE;
+        "minecraft-26.1.1" = _o7zygRqE;
+        "minecraft-26.1.2" = _o7zygRqE;
+        "minecraft-26.2" = _o7zygRqE;
         "pkg-1.1" = _58aPgWCl;
         "pkg-1.2" = _QsVjoIL6;
         "pkg-1.3" = _Qtf9upsD;
@@ -90,7 +96,8 @@ let
         "pkg-2.0.0" = _l381BMi9;
         "pkg-2.0.1" = _MGJKYFL9;
         "pkg-2.0.2" = _dxLoMROG;
-        "default" = _dxLoMROG;
+        "pkg-2.1.0" = _o7zygRqE;
+        "default" = _o7zygRqE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sophies-enchants";

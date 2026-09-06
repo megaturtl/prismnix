@@ -41,6 +41,16 @@ let
             "file" = "mutant-skeleton-armor-tweaks-2.1.1.jar";
             "hash" = "sha512-mlpKpNGg+vxsa9oYsHOczD+t91f7UvbIvouU7aaanHEoiWmhyg42/r0c2CKAcC3kkdsfddfkFnZ1WPuDGmyU+A==";
         };
+        _FckW2OmF = {
+            "id" = "FckW2OmF";
+            "file" = "mutant-skeleton-armor-tweaks-forge-3.0.0+1.20.1.jar";
+            "hash" = "sha512-iRT7qBaUEq4G/VGY8D5WqHroTg97ok/0HLI+AT54znb7iRgKRXQW/0adB3Nka5b4Rcm9Abi+QwlATsIkrzxkcg==";
+        };
+        _tt9QvFMf = {
+            "id" = "tt9QvFMf";
+            "file" = "mutant-skeleton-armor-tweaks-fabric-3.0.0+1.20.1.jar";
+            "hash" = "sha512-o7FZuDmairiEgqfPrR48RjZ1/XaSJOjfjaWzuq+ue4ccxpelRGJ4H/+UAX8fF/bpsYMQZqjVnoCcaw43xfJz8g==";
+        };
     in {
         "ziyhLUS0" = _ziyhLUS0;
         "R1eb8qjH" = _R1eb8qjH;
@@ -50,12 +60,10 @@ let
         "zRKe08gs" = _zRKe08gs;
         "HVdTYgjw" = _HVdTYgjw;
         "9ipNKlEd" = _9ipNKlEd;
-        "fabric-1.20.1" = _9ipNKlEd;
-        "fabric-1.20.2" = _9ipNKlEd;
-        "fabric-1.20.3" = _9ipNKlEd;
-        "fabric-1.20.4" = _9ipNKlEd;
-        "fabric-1.20.5" = _9ipNKlEd;
-        "fabric-1.20.6" = _9ipNKlEd;
+        "FckW2OmF" = _FckW2OmF;
+        "tt9QvFMf" = _tt9QvFMf;
+        "fabric-1.20.1" = _tt9QvFMf;
+        "forge-1.20.1" = _FckW2OmF;
         "pkg-1.0.0" = _ziyhLUS0;
         "pkg-1.0.1" = _R1eb8qjH;
         "pkg-1.0.2" = _3SUjOVfk;
@@ -64,7 +72,8 @@ let
         "pkg-2.0.0" = _zRKe08gs;
         "pkg-2.1.0" = _HVdTYgjw;
         "pkg-2.1.1" = _9ipNKlEd;
-        "default" = _9ipNKlEd;
+        "pkg-3.0.0+1.20.1" = _tt9QvFMf;
+        "default" = _tt9QvFMf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mutant-skeleton-armor-tweaks";

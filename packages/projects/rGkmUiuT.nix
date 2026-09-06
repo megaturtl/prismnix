@@ -96,6 +96,31 @@ let
             "file" = "cp_create-3.0.2-neoforge-1.21.1.jar";
             "hash" = "sha512-6e4KmJKSZ9WRtVt4o1cCzKp60Lin96TeVzmOd78NFSbqA0S7hacMqqojYTMlWZZqYUmu9nQbdQviArN5P5kcVw==";
         };
+        _6n8rsWGw = {
+            "id" = "6n8rsWGw";
+            "file" = "cp_create-3.0.3-forge-1.18.2.jar";
+            "hash" = "sha512-6HTg1AD0z/7YXy0AUGlbeqO4j2b0lznYECJFbRlyXeWhDTwahvua+ZUUSRALofsyrFB3xUiaMNJCdyzxeIoPRQ==";
+        };
+        _6vVfzwyW = {
+            "id" = "6vVfzwyW";
+            "file" = "cp_create-3.0.3-forge-1.19.2.jar";
+            "hash" = "sha512-OAQb7ou711cGL5XMy1TmAf8FZ5UVqwPhAjrCVzpHVHQINxJv3zAD/RCgFRlsVTMLp978re99OF8io9UjriRoCw==";
+        };
+        _1ckhKvl3 = {
+            "id" = "1ckhKvl3";
+            "file" = "cp_create-3.0.3-forge-1.20.1.jar";
+            "hash" = "sha512-3uuQ2gKHNVEKHy1Lxf9Jzj9aBHLyhkTCGdoJWeTbPn+2QwPgSYPQLcHDFV0V4PuvEJIE04tBIQk2IFwidTATTg==";
+        };
+        _STFzKekx = {
+            "id" = "STFzKekx";
+            "file" = "cp_create-3.0.3-neoforge-1.20.1.jar";
+            "hash" = "sha512-zM+RPIcXq/lTcHI6IfNsYR2mp2Nw3jHqxM1p/Fs1DSJKkefSpQDuTAPEQHMGliG8Rj2pGqFn3Wn8BM0SZBLKdQ==";
+        };
+        _VhaBc9MH = {
+            "id" = "VhaBc9MH";
+            "file" = "cp_create-3.0.3-neoforge-1.21.1.jar";
+            "hash" = "sha512-oJU24I2eBmAXWC9Mb0Jm96hlLgvFWgO3YPMvSN5uyClmdj+ShBN+B+h/EzVQjdURWXFJ/+Dqk6oma8+FP3/lnw==";
+        };
     in {
         "RakaBSZY" = _RakaBSZY;
         "7LcZcKlN" = _7LcZcKlN;
@@ -116,18 +141,25 @@ let
         "jkbh1Xj4" = _jkbh1Xj4;
         "TJMYIf47" = _TJMYIf47;
         "mMF3b8WN" = _mMF3b8WN;
-        "forge-1.20.1" = _TJMYIf47;
-        "forge-1.18.2" = _IYkih70L;
-        "forge-1.19.2" = _jkbh1Xj4;
+        "6n8rsWGw" = _6n8rsWGw;
+        "6vVfzwyW" = _6vVfzwyW;
+        "1ckhKvl3" = _1ckhKvl3;
+        "STFzKekx" = _STFzKekx;
+        "VhaBc9MH" = _VhaBc9MH;
+        "forge-1.20.1" = _1ckhKvl3;
+        "forge-1.18.2" = _6n8rsWGw;
+        "forge-1.19.2" = _6vVfzwyW;
         "forge-1.17.1" = _3CykBXlr;
-        "neoforge-1.21.1" = _mMF3b8WN;
+        "neoforge-1.21.1" = _VhaBc9MH;
+        "neoforge-1.20.1" = _STFzKekx;
         "pkg-1.0.0" = _7LcZcKlN;
         "pkg-2.0.0" = _bh1UB7tm;
         "pkg-2.0.1" = _BQyTdKpg;
         "pkg-3.0.0-beta" = _NYP7KFzL;
         "pkg-3.0.1" = _3LHdoft3;
         "pkg-3.0.2" = _mMF3b8WN;
-        "default" = _mMF3b8WN;
+        "pkg-3.0.3" = _VhaBc9MH;
+        "default" = _VhaBc9MH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "croparium-create";

@@ -111,6 +111,11 @@ let
             "file" = "azaleawood-7.0.0.jar";
             "hash" = "sha512-kNPTH5bDrz9VjxlNEg9WahCI3Uxmy7GPRKt9xhIyqP5kVTqhJR4rY3JsvTFDpi3EtOU+PWE1CL1bu7L8sesDrw==";
         };
+        _93N8mvBE = {
+            "id" = "93N8mvBE";
+            "file" = "azaleawood-8.0.0.jar";
+            "hash" = "sha512-pATtxDTPStNc30cmlBqpUgsi/dTromPWa0oEfQmOdlqQ/RKOqj6+8bwn1ITiy2oyb3a0Z72bwQV7JzYpRKuKpw==";
+        };
     in {
         "jldRj5CK" = _jldRj5CK;
         "aeIqmdQo" = _aeIqmdQo;
@@ -134,6 +139,7 @@ let
         "j4rVHaTu" = _j4rVHaTu;
         "s2fuIiHv" = _s2fuIiHv;
         "btFvml1A" = _btFvml1A;
+        "93N8mvBE" = _93N8mvBE;
         "fabric-1.19.3" = _Bu5lJwyF;
         "fabric-1.19.4" = _AQLVhmWh;
         "fabric-1.20" = _aKgC0nCM;
@@ -157,6 +163,7 @@ let
         "fabric-26.1" = _btFvml1A;
         "fabric-26.1.1" = _btFvml1A;
         "fabric-26.1.2" = _btFvml1A;
+        "fabric-26.2" = _93N8mvBE;
         "pkg-1.0.0-1.19.3" = _jldRj5CK;
         "pkg-1.1.0-1.19.4" = _aeIqmdQo;
         "pkg-2.0.0-1.20" = _sZv0y0XD;
@@ -179,7 +186,8 @@ let
         "pkg-5.0.0-1.21.4" = _j4rVHaTu;
         "pkg-6.0.0-1.21.6" = _s2fuIiHv;
         "pkg-7.0.0-26.1" = _btFvml1A;
-        "default" = _btFvml1A;
+        "pkg-8.0.0-26.2" = _93N8mvBE;
+        "default" = _93N8mvBE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "azalea-wood-set";

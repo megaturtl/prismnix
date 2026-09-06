@@ -216,6 +216,46 @@ let
             "file" = "elytratrails-1.5.0.2-26.3.jar";
             "hash" = "sha512-UOnfossuyOposisEnhaKHFH51mxxQ6e6VK2nLpmjA+/Lfmnl1LTHTxIMMTwsrg2qSSuFO2cPonH42spUOy5+kw==";
         };
+        _BUS6dC3x = {
+            "id" = "BUS6dC3x";
+            "file" = "elytratrails-1.5.1-26.3-snapshot-7.jar";
+            "hash" = "sha512-1qQUcc54oArIvRcm1WzkSrhs6iT7H2NRM9o27t5IW3w9rZkZSH84X5Hl2F86RNjvYs0V742hGVuPhZGXzUNb/A==";
+        };
+        _cv91Gfrw = {
+            "id" = "cv91Gfrw";
+            "file" = "elytratrails-1.5.2-26.3-snapshot-7.jar";
+            "hash" = "sha512-H5bTRsOUUbtvemJjO9VLUg+P+u+gxmhegKMkJEtISgpEL89TfVxcnss7cNR3mJBhTf0XzHrCFT2HepsPEgqJaw==";
+        };
+        _yHbYw5Rc = {
+            "id" = "yHbYw5Rc";
+            "file" = "elytratrails-1.5.2-26.2.jar";
+            "hash" = "sha512-E9azSywJD3cZSR45QrnuiKOLh3aNc/Im/uiD63Qv7y6175RxhthmI1SHXy1W8JdUuKCBlIZk0hDezxPEfE0GmQ==";
+        };
+        _9KJRbgAa = {
+            "id" = "9KJRbgAa";
+            "file" = "elytratrails-1.4.9-1.21.11.jar";
+            "hash" = "sha512-gH7w6TftIJnqnpJ2aaVPwpZrko5TFfBDAt0YjEuQyKSUaN44i8OZW/Ai+pHS9xUgQf6sSgObwng2tsqvCQuzLg==";
+        };
+        _5we4VeeY = {
+            "id" = "5we4VeeY";
+            "file" = "elytratrails-1.5.1-26.1.jar";
+            "hash" = "sha512-22FpV4Qo8FyL8Ro63ngaX6NSIcCVVkbK359j57NsH0Ldj2jfHrgS+M1Qb/b+LB7pVJEDl2uWmY9pYxBwQ9OzLg==";
+        };
+        _hwfQrkp1 = {
+            "id" = "hwfQrkp1";
+            "file" = "elytratrails-1.6.0-26.2.jar";
+            "hash" = "sha512-ny86R4IokOiIPut1zmxwppnXYV/RHXZdZQp1+aGqge2yVkD+nfzeFPW1wnAstYzssvlmbaVP6nnQb22WMxWdxg==";
+        };
+        _8JSHwkHg = {
+            "id" = "8JSHwkHg";
+            "file" = "elytratrails-1.6.1-26.2.jar";
+            "hash" = "sha512-qQ6zyKhKKPGcz5DGJngTZkqcpG/MOucJ7jRO0YGXKEyA4bZJJTAl/AZ50f4gxIQKAJSYZHNiGRmy4PORv2Kp2Q==";
+        };
+        _dyN3AzLm = {
+            "id" = "dyN3AzLm";
+            "file" = "elytratrails-1.6.1-26.3-pre-1.jar";
+            "hash" = "sha512-4TnNVXuSNzlV5uAwoOx2qZTill75bfbzqDa/E4o3ySZDL2oyorAF/3jTVsh0DB0VSKEhH/SFbUgwXrH6N8sucQ==";
+        };
     in {
         "CfFozPOO" = _CfFozPOO;
         "LnF8d50s" = _LnF8d50s;
@@ -260,15 +300,25 @@ let
         "qEy9xUKl" = _qEy9xUKl;
         "Sud3zrvU" = _Sud3zrvU;
         "YOG6Rv6C" = _YOG6Rv6C;
-        "fabric-1.21.11" = _WoviAL6C;
-        "fabric-26.1" = _7q6544cY;
-        "fabric-26.1.1" = _7q6544cY;
-        "fabric-26.1.2" = _7q6544cY;
+        "BUS6dC3x" = _BUS6dC3x;
+        "cv91Gfrw" = _cv91Gfrw;
+        "yHbYw5Rc" = _yHbYw5Rc;
+        "9KJRbgAa" = _9KJRbgAa;
+        "5we4VeeY" = _5we4VeeY;
+        "hwfQrkp1" = _hwfQrkp1;
+        "8JSHwkHg" = _8JSHwkHg;
+        "dyN3AzLm" = _dyN3AzLm;
+        "fabric-1.21.11" = _9KJRbgAa;
+        "fabric-26.1" = _5we4VeeY;
+        "fabric-26.1.1" = _5we4VeeY;
+        "fabric-26.1.2" = _5we4VeeY;
         "fabric-26.2-snapshot-1" = _ENnaF6A8;
         "fabric-1.20.1" = _c63ONIoI;
         "fabric-1.21.1" = _26ZE7cvJ;
-        "fabric-26.2" = _Sud3zrvU;
+        "fabric-26.2" = _8JSHwkHg;
         "fabric-26.3-snapshot-3" = _YOG6Rv6C;
+        "fabric-26.3-snapshot-7" = _cv91Gfrw;
+        "fabric-26.3-pre-1" = _dyN3AzLm;
         "pkg-1.0.0" = _CfFozPOO;
         "pkg-1.0.1" = _LnF8d50s;
         "pkg-1.1.0" = _lhUP0Wa9;
@@ -312,7 +362,15 @@ let
         "pkg-1.5.0.1-26.2" = _qEy9xUKl;
         "pkg-1.5.0.2-26.2" = _Sud3zrvU;
         "pkg-1.5.0.2-26.3-snapshot-3" = _YOG6Rv6C;
-        "default" = _YOG6Rv6C;
+        "pkg-1.5.1-26.3-snapshot-7" = _BUS6dC3x;
+        "pkg-1.5.2-26.3-snapshot-7" = _cv91Gfrw;
+        "pkg-1.5.2-26.2" = _yHbYw5Rc;
+        "pkg-1.4.9-1.21.11" = _9KJRbgAa;
+        "pkg-1.5.1-26.1" = _5we4VeeY;
+        "pkg-1.6.0-26.2" = _hwfQrkp1;
+        "pkg-1.6.1-26.2" = _8JSHwkHg;
+        "pkg-1.6.1-26.3-pre-1" = _dyN3AzLm;
+        "default" = _dyN3AzLm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytra-contrails-mod";
@@ -320,12 +378,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "MPL-2.0" {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-2.1-only" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "Mozilla Public License 2.0";
-                shortName = "MPL-2.0";
+                fullName = "GNU Lesser General Public License v2.1 only";
+                shortName = "LGPL-2.1-only";
                 url = null;
             };
         };

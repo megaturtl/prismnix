@@ -16,15 +16,21 @@ let
             "file" = "cobbletwo_client-1.2.jar";
             "hash" = "sha512-8j8vR2vOnVNYCk5lNUMKt93RzyLPk76wEY2w0yy77jZgfQtdnGy97MNOLVdi9JRq+1sEotzXtw7XGlfWnzkibA==";
         };
+        _t8wDLJHk = {
+            "id" = "t8wDLJHk";
+            "file" = "CobbletwoClient-1.0.0.jar";
+            "hash" = "sha512-A58kP0qXaeUSrKifjAoZx7V7E8Un/QzVMy1O7mrdDR5u91jzEGYZzZWo0nu2arwjtPAau5WIXVOOeZAM01aJgg==";
+        };
     in {
         "XOi0Vixp" = _XOi0Vixp;
         "DOEddPtd" = _DOEddPtd;
         "NS329bmL" = _NS329bmL;
-        "fabric-1.21.1" = _NS329bmL;
-        "pkg-1.0" = _XOi0Vixp;
+        "t8wDLJHk" = _t8wDLJHk;
+        "fabric-1.21.1" = _t8wDLJHk;
+        "pkg-1.0" = _t8wDLJHk;
         "pkg-1.1" = _DOEddPtd;
         "pkg-1.2" = _NS329bmL;
-        "default" = _NS329bmL;
+        "default" = _t8wDLJHk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobbletwoclient";

@@ -126,6 +126,11 @@ let
             "file" = "expanded-trident-enchanting-1.1.11.jar";
             "hash" = "sha512-ofSSfqejLwsIcYDnYxxiKCtshJmfFvui32cDcaOY5oCexbkgGmEjhNizSa4bsxEaRJ3Z8AanKQ/cSstRRLw2zA==";
         };
+        _9SGxKQbn = {
+            "id" = "9SGxKQbn";
+            "file" = "expanded-trident-enchanting-1.1.12.jar";
+            "hash" = "sha512-RVg7jb+jvLmqh0qEgasDNssA7FGQlAUPRJXnVaBozmmJkCvs3Nmoptdv/ix8U61GTUJMKUuzFs1uB+stI9SiXg==";
+        };
     in {
         "Ypg6UhHT" = _Ypg6UhHT;
         "tczNXvL7" = _tczNXvL7;
@@ -152,6 +157,7 @@ let
         "G8scqHy4" = _G8scqHy4;
         "QPFObSsg" = _QPFObSsg;
         "7yBxQAUS" = _7yBxQAUS;
+        "9SGxKQbn" = _9SGxKQbn;
         "fabric-1.16.5" = _Ypg6UhHT;
         "fabric-1.17" = _qA2AbEc6;
         "fabric-1.17.1" = _qA2AbEc6;
@@ -176,6 +182,7 @@ let
         "fabric-26.1" = _7yBxQAUS;
         "fabric-26.1.1" = _7yBxQAUS;
         "fabric-26.1.2" = _7yBxQAUS;
+        "fabric-26.2" = _9SGxKQbn;
         "pkg-1.0.0" = _Ypg6UhHT;
         "pkg-1.0.1" = _tczNXvL7;
         "pkg-1.0.2" = _qA2AbEc6;
@@ -201,7 +208,8 @@ let
         "pkg-1.1.9" = _G8scqHy4;
         "pkg-1.1.10" = _QPFObSsg;
         "pkg-1.1.11" = _7yBxQAUS;
-        "default" = _7yBxQAUS;
+        "pkg-1.1.12" = _9SGxKQbn;
+        "default" = _9SGxKQbn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "expanded-trident-enchanting";

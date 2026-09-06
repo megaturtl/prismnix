@@ -21,23 +21,37 @@ let
             "file" = "create_waystones_recipes-3.0.0-NeoForge-1.21.1.jar";
             "hash" = "sha512-FWpn484uaDbiOHhUV2iGiAdFWBnPg8RmOYcstbBZEHztb1SyriS+Ib43Qb+RQM3ggf3V7b4Mh9/tWUOkfHH2cQ==";
         };
+        _65NW162m = {
+            "id" = "65NW162m";
+            "file" = "create_waystones_recipes-2.0.1.b.jar";
+            "hash" = "sha512-Qcm2Q+W3qTHT/vF9JjAwVNbpdypYs+jRkscvSKkKRrmIGOWVEG4uPiLgLyXybN4KDNSi9OZDPgOgobope/M6CQ==";
+        };
+        _KZ8x4j1W = {
+            "id" = "KZ8x4j1W";
+            "file" = "create_waystones_recipes-3.0.1.b.jar";
+            "hash" = "sha512-UUxpkbGBONPzkHPBB1BMaRjPWcywFEzHd/Eno67BnxukRpHTvNfKMdazq/Kecl4tBVYW3hx6w7kH4OpbSPToSg==";
+        };
     in {
         "Agzzexm8" = _Agzzexm8;
         "8qDfChgt" = _8qDfChgt;
         "qoXSnluk" = _qoXSnluk;
         "RLFXmYNg" = _RLFXmYNg;
-        "forge-1.20.1" = _8qDfChgt;
+        "65NW162m" = _65NW162m;
+        "KZ8x4j1W" = _KZ8x4j1W;
+        "forge-1.20.1" = _65NW162m;
         "forge-1.20.2" = _8qDfChgt;
         "forge-1.20.3" = _8qDfChgt;
         "forge-1.20.4" = _8qDfChgt;
         "forge-1.20.5" = _8qDfChgt;
         "forge-1.20.6" = _8qDfChgt;
-        "neoforge-1.21.1" = _RLFXmYNg;
+        "neoforge-1.21.1" = _KZ8x4j1W;
         "pkg-1.1.1a" = _Agzzexm8;
         "pkg-1.0.1.b" = _8qDfChgt;
         "pkg-2.0.0-NeoForge-1.21.1" = _qoXSnluk;
         "pkg-3.0.0-NeoForge-1.21.1" = _RLFXmYNg;
-        "default" = _RLFXmYNg;
+        "pkg-2.0.1.b" = _65NW162m;
+        "pkg-3.0.1.b" = _KZ8x4j1W;
+        "default" = _KZ8x4j1W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-waystones-recipes";

@@ -131,6 +131,11 @@ let
             "file" = "extrasounds-3.0.1+26.2-beta.1.jar";
             "hash" = "sha512-0meMfu0VG36D/nv9vMolc6ynP/e00bqzb3lZeFmBAHWhGdFH3z7oetYgzQgRYCs8R5YxhUk8oHuco/LvbuOPSw==";
         };
+        _4tJroa66 = {
+            "id" = "4tJroa66";
+            "file" = "extrasounds-3.0.1+26.2-build.1.jar";
+            "hash" = "sha512-oFzQU70FXl74wcsWrP5sSxOHw+jzvnZ4C/+G7uQCgakA2qx4tmHfuq3/89hUhtnoVl/LmHA3ApsgYXuWZtD07g==";
+        };
     in {
         "rmbQzXMJ" = _rmbQzXMJ;
         "8JU6aYNo" = _8JU6aYNo;
@@ -158,6 +163,7 @@ let
         "8HoHQBVU" = _8HoHQBVU;
         "om11Nxju" = _om11Nxju;
         "Ylhflk8P" = _Ylhflk8P;
+        "4tJroa66" = _4tJroa66;
         "fabric-1.16.5" = _om11Nxju;
         "fabric-1.17" = _om11Nxju;
         "fabric-1.17.1" = _om11Nxju;
@@ -172,9 +178,9 @@ let
         "fabric-1.19" = _om11Nxju;
         "fabric-1.19.1" = _om11Nxju;
         "fabric-1.19.2" = _om11Nxju;
-        "fabric-26.1" = _Ylhflk8P;
-        "fabric-26.1.1" = _Ylhflk8P;
-        "fabric-26.1.2" = _Ylhflk8P;
+        "fabric-26.1" = _4tJroa66;
+        "fabric-26.1.1" = _4tJroa66;
+        "fabric-26.1.2" = _4tJroa66;
         "fabric-1.15.2" = _om11Nxju;
         "fabric-1.19.3" = _om11Nxju;
         "fabric-1.19.4" = _om11Nxju;
@@ -204,7 +210,7 @@ let
         "fabric-1.14.4" = _om11Nxju;
         "fabric-1.15" = _om11Nxju;
         "fabric-1.15.1" = _om11Nxju;
-        "fabric-26.2" = _Ylhflk8P;
+        "fabric-26.2" = _4tJroa66;
         "pkg-1.3.0" = _rmbQzXMJ;
         "pkg-1.3.1" = _8JU6aYNo;
         "pkg-1.4.0" = _n5RV4VBs;
@@ -231,7 +237,8 @@ let
         "pkg-3.0.0+26.2-alpha.1" = _8HoHQBVU;
         "pkg-3.0.1+1.21.11+1.14-build.3" = _om11Nxju;
         "pkg-3.0.1+26.2-beta.1" = _Ylhflk8P;
-        "default" = _Ylhflk8P;
+        "pkg-3.0.1+26.2-build.1" = _4tJroa66;
+        "default" = _4tJroa66;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "extrasounds";

@@ -181,6 +181,11 @@ let
             "file" = "sol_valheim_reforged-1.1.7-neoforge-1.21.1.jar";
             "hash" = "sha512-kG5WdSfcNK9bJhaHAGfvknFDcR3oM9BGEPXE4BIRpljGCDQkadYo3tAaDA3EJVAKBDCzXwiARl+K3bvL2lPqkQ==";
         };
+        _EHT5e0BF = {
+            "id" = "EHT5e0BF";
+            "file" = "sol_valheim_reforged-1.1.7-neoforge-26.1.2.jar";
+            "hash" = "sha512-PwmZtErGkkgQrWQ3AoAfTaPxJ/BLLoTnsuHIlThVQVGNq4lj5gkQ8kbaElhlMGyOB4M+6Y6VWyEIntxi3qrqDw==";
+        };
     in {
         "4mjmncyb" = _4mjmncyb;
         "B3KbjrBO" = _B3KbjrBO;
@@ -218,12 +223,14 @@ let
         "iq1m7nLV" = _iq1m7nLV;
         "SSLaMe7P" = _SSLaMe7P;
         "ZfHgRqb1" = _ZfHgRqb1;
+        "EHT5e0BF" = _EHT5e0BF;
         "forge-1.20" = _SSLaMe7P;
         "forge-1.20.1" = _SSLaMe7P;
         "neoforge-1.20" = _SSLaMe7P;
         "neoforge-1.20.1" = _SSLaMe7P;
         "neoforge-1.21" = _ZfHgRqb1;
         "neoforge-1.21.1" = _ZfHgRqb1;
+        "neoforge-26.1.2" = _EHT5e0BF;
         "pkg-1.0.0" = _B3KbjrBO;
         "pkg-1.0.1" = _2JZllDd6;
         "pkg-1.0.2" = _QrTqU8sp;
@@ -241,8 +248,8 @@ let
         "pkg-1.1.4" = _LPiWH7Km;
         "pkg-1.1.5" = _1QjL71mO;
         "pkg-1.1.6" = _iq1m7nLV;
-        "pkg-1.1.7" = _ZfHgRqb1;
-        "default" = _ZfHgRqb1;
+        "pkg-1.1.7" = _EHT5e0BF;
+        "default" = _EHT5e0BF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spice-of-life-valheim-reforged";

@@ -66,6 +66,36 @@ let
             "file" = "thirstwasfixed-2.1.0.jar";
             "hash" = "sha512-Bj3p1ZYW5jUznZ+cP8CAT9/voGCKWTdYVQpsdxnDK39lnqSL4qa74I5kU+geepY6h86oD0bd8Ltq+cLxv5K4mA==";
         };
+        _ozx26v84 = {
+            "id" = "ozx26v84";
+            "file" = "thirstwasfixed-2.1.1.jar";
+            "hash" = "sha512-O/7UpLMUFndTwEl5CmkNq8WTm+l4w5CVHIySVCiaxdm0XbM2O5HjihDK5qQe5ZQv+cTq9DPuA1svB0+++odyog==";
+        };
+        _ENg6xaFZ = {
+            "id" = "ENg6xaFZ";
+            "file" = "thirstwasfixed-2.1.2.jar";
+            "hash" = "sha512-+wLJyv1XhaJVPYFAfTeCuYq9FVPk6FzS35G9DCf1VBZP3kIFncCgFw2ddCf6ywAq5YynQIN1NlTcZHPLrdEZ7Q==";
+        };
+        _ocgHKJdD = {
+            "id" = "ocgHKJdD";
+            "file" = "thirstwasfixed-2.1.3.jar";
+            "hash" = "sha512-/e6aCeVqN0nse7t2W1OiXj0BDFbRKs9FiVElGju5zxgyeDZOV7kLlWDj8Sf2wsd91i/I45FKb8r32lAJC/gOfw==";
+        };
+        _FCw86zWJ = {
+            "id" = "FCw86zWJ";
+            "file" = "thirstwasfixed-2.1.4.jar";
+            "hash" = "sha512-9aH1chnALe3Lwh2rjEBe31MmZHQPCbE9prmbb/tJ0P0ZArThafZicY2S26UFMF0+a2s1h4/YXChr5+5ZVb13eA==";
+        };
+        _k9JBpDrK = {
+            "id" = "k9JBpDrK";
+            "file" = "thirstwasfixed-2.1.5.jar";
+            "hash" = "sha512-PkmfTNXTAoU/xeXTxmUH4j/H/8R84jT/YBs1RgeQ31r9jtWFggyuFiMtC71RSmYx+FSTTlfQA3VjETFYrFfbwA==";
+        };
+        _aTPDHSlh = {
+            "id" = "aTPDHSlh";
+            "file" = "thirstwasfixed-2.1.6.jar";
+            "hash" = "sha512-gLTc+4dPkOjownicZ0UyE4vWPsqy33Sg+YaFKwusyiAc9r8tX+VDLErbjskMqlXheo9+hflO+sd/rWVmYOv5gw==";
+        };
     in {
         "Cc5juEGk" = _Cc5juEGk;
         "qutm1bDO" = _qutm1bDO;
@@ -80,7 +110,13 @@ let
         "28aTiDsY" = _28aTiDsY;
         "AOkZKEq9" = _AOkZKEq9;
         "wGcsfDLG" = _wGcsfDLG;
-        "neoforge-1.21.1" = _wGcsfDLG;
+        "ozx26v84" = _ozx26v84;
+        "ENg6xaFZ" = _ENg6xaFZ;
+        "ocgHKJdD" = _ocgHKJdD;
+        "FCw86zWJ" = _FCw86zWJ;
+        "k9JBpDrK" = _k9JBpDrK;
+        "aTPDHSlh" = _aTPDHSlh;
+        "neoforge-1.21.1" = _aTPDHSlh;
         "pkg-1.0.0" = _Cc5juEGk;
         "pkg-1.1.0" = _qutm1bDO;
         "pkg-1.1.1" = _6XUCUMzv;
@@ -94,7 +130,13 @@ let
         "pkg-2.0.0" = _28aTiDsY;
         "pkg-2.0.1" = _AOkZKEq9;
         "pkg-2.1.0" = _wGcsfDLG;
-        "default" = _wGcsfDLG;
+        "pkg-2.1.1" = _ozx26v84;
+        "pkg-2.1.2" = _ENg6xaFZ;
+        "pkg-2.1.3" = _ocgHKJdD;
+        "pkg-2.1.4" = _FCw86zWJ;
+        "pkg-2.1.5" = _k9JBpDrK;
+        "pkg-2.1.6" = _aTPDHSlh;
+        "default" = _aTPDHSlh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thirstwasfixed";

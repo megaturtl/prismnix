@@ -811,6 +811,21 @@ let
             "file" = "BHMenu-NeoForge-26.1-2.4.4.jar";
             "hash" = "sha512-KV3z6pqFVxDeQKlg6Z1NL5mX8mEHQqYkQakEX/TlEq00Pt9MJVnxG1wePvq61tkeJUBe2s0HKgPOyQ9Jd1znQQ==";
         };
+        _qq9IJsC3 = {
+            "id" = "qq9IJsC3";
+            "file" = "bhmenu-forge-26.2-3.0.0.jar";
+            "hash" = "sha512-jmABCjIPEmBIoPPyMET2/Dj1cQ+p9QEKQFhipszoJ4vGFNKHkfRhmPDJ+3zE7kH+oy60ght6CPm+/rWuAz6fnQ==";
+        };
+        _Aew0Tnt6 = {
+            "id" = "Aew0Tnt6";
+            "file" = "bhmenu-fabric-26.2-3.0.0.jar";
+            "hash" = "sha512-bPcUeOuxz37Y3jrPMbKXPoNRyUCIPZ0AG7b/b59ZVz/HA2amf3Y37GDhoH5pUfntyWP+ZIHq/eYtAIOFZeWBbA==";
+        };
+        _KwjQ7WEa = {
+            "id" = "KwjQ7WEa";
+            "file" = "bhmenu-neoforge-26.2-3.0.0.jar";
+            "hash" = "sha512-JibL9rOFkQdWjt60Bg/UeqnGRu8kEZSuGokPw1yai0Fjy5X99PeKUw3bO9vmp+RlZzjKW9KQZG4+xLdOpVncVg==";
+        };
     in {
         "5yuZc9ZO" = _5yuZc9ZO;
         "DLXfi5mx" = _DLXfi5mx;
@@ -974,6 +989,9 @@ let
         "z62iwoR1" = _z62iwoR1;
         "TXg4GvcV" = _TXg4GvcV;
         "lhJ7xU8k" = _lhJ7xU8k;
+        "qq9IJsC3" = _qq9IJsC3;
+        "Aew0Tnt6" = _Aew0Tnt6;
+        "KwjQ7WEa" = _KwjQ7WEa;
         "forge-1.12" = _n64nrOMS;
         "forge-1.12.1" = _n64nrOMS;
         "forge-1.12.2" = _n64nrOMS;
@@ -1024,6 +1042,7 @@ let
         "forge-26.1" = _TXg4GvcV;
         "forge-26.1.1" = _TXg4GvcV;
         "forge-26.1.2" = _TXg4GvcV;
+        "forge-26.2" = _qq9IJsC3;
         "fabric-1.14.4" = _XY1XCzP7;
         "fabric-1.15.2" = _3GaYbjVy;
         "fabric-1.16.5" = _NZnNVGL9;
@@ -1058,6 +1077,7 @@ let
         "fabric-26.1" = _z62iwoR1;
         "fabric-26.1.1" = _z62iwoR1;
         "fabric-26.1.2" = _z62iwoR1;
+        "fabric-26.2" = _Aew0Tnt6;
         "neoforge-1.20" = _DUQs4Mz2;
         "neoforge-1.20.1" = _DUQs4Mz2;
         "neoforge-1.20.2" = _j9Cz4C2H;
@@ -1080,6 +1100,7 @@ let
         "neoforge-26.1" = _lhJ7xU8k;
         "neoforge-26.1.1" = _lhJ7xU8k;
         "neoforge-26.1.2" = _lhJ7xU8k;
+        "neoforge-26.2" = _KwjQ7WEa;
         "pkg-1.3" = _dmUIVKPC;
         "pkg-2.1" = _wtq9QR9A;
         "pkg-2.2" = _Q01dXxRk;
@@ -1098,7 +1119,8 @@ let
         "pkg-2.5.3" = _lhJ7xU8k;
         "pkg-2.4.6" = _n64nrOMS;
         "pkg-2.5.4" = _HQyXDXTh;
-        "default" = _lhJ7xU8k;
+        "pkg-3.0.0" = _KwjQ7WEa;
+        "default" = _KwjQ7WEa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bisect-mod";

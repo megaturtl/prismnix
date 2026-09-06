@@ -111,6 +111,26 @@ let
             "file" = "AllTheHeads-v21.1.1-mc1.21.1-Fabric.jar";
             "hash" = "sha512-Pa9/yLoVIwHwYuuuMh9J3l+lFXC16BrYZW9pA8NU/NOeX+L17fMTjLJSIuWPoq90NVgrHvikDQl47htkaEQGBQ==";
         };
+        _H4AczZqT = {
+            "id" = "H4AczZqT";
+            "file" = "AllTheHeads-v26.1.2-mc26.1.x-NeoForge.jar";
+            "hash" = "sha512-Ta+rrmMCiw10ySsTa1Q5DQs3vPDsRyboXM72KNSjKOzH7hwdV06U4suCx7Tr56cM0JXSbAn6HtLSAJSiwdmFVA==";
+        };
+        _yxRgmtSd = {
+            "id" = "yxRgmtSd";
+            "file" = "AllTheHeads-v26.1.2-mc26.1.x-Fabric.jar";
+            "hash" = "sha512-+RabLUESJvj87fm7D1MZy9OP0Ho9VJPgJkmLfMKDJ1MZ/ibIJbsgVOYX1B6bCOZe1gDoInmnFZ7+OvqLce9dGQ==";
+        };
+        _MX5IhNbF = {
+            "id" = "MX5IhNbF";
+            "file" = "AllTheHeads-v26.2.2-mc26.2.x-NeoForge.jar";
+            "hash" = "sha512-Gx9+XdMJm1r7gdQyO9Z26fiEcB7wmbkdcVh7sZk9opwEAhqinBP4naBij+NfeU8a4X08b1PIulC8tuTSpv2uTQ==";
+        };
+        _tAJahOaY = {
+            "id" = "tAJahOaY";
+            "file" = "AllTheHeads-v26.2.2-mc26.2.x-Fabric.jar";
+            "hash" = "sha512-mQYXUhdyz8yy/HxXXB/bl8xRm8lwWUriZc95OM5SkgBfXb74ebmgw5XI1N+YX4Pz5jaPy/GmsDnk0jlVsuqpuw==";
+        };
     in {
         "Z1NV2UN1" = _Z1NV2UN1;
         "7I4UUtgv" = _7I4UUtgv;
@@ -134,22 +154,26 @@ let
         "T9Ad8W1k" = _T9Ad8W1k;
         "f8Cm9mJB" = _f8Cm9mJB;
         "DKO7tVIj" = _DKO7tVIj;
+        "H4AczZqT" = _H4AczZqT;
+        "yxRgmtSd" = _yxRgmtSd;
+        "MX5IhNbF" = _MX5IhNbF;
+        "tAJahOaY" = _tAJahOaY;
         "fabric-1.21.8" = _j7UdEgjo;
         "fabric-1.21.10" = _A2GEggd3;
         "fabric-1.21.11" = _IdBKfdz4;
-        "fabric-26.1" = _T9Ad8W1k;
-        "fabric-26.1.1" = _T9Ad8W1k;
-        "fabric-26.1.2" = _T9Ad8W1k;
+        "fabric-26.1" = _yxRgmtSd;
+        "fabric-26.1.1" = _yxRgmtSd;
+        "fabric-26.1.2" = _yxRgmtSd;
         "fabric-1.21.1" = _DKO7tVIj;
-        "fabric-26.2" = _xiOlH2QK;
+        "fabric-26.2" = _tAJahOaY;
         "neoforge-1.21.8" = _3NzWZfLG;
         "neoforge-1.21.10" = _DzDlJ25S;
         "neoforge-1.21.11" = _Q2QNAudZ;
-        "neoforge-26.1" = _1lkqWEBK;
-        "neoforge-26.1.1" = _1lkqWEBK;
-        "neoforge-26.1.2" = _1lkqWEBK;
+        "neoforge-26.1" = _H4AczZqT;
+        "neoforge-26.1.1" = _H4AczZqT;
+        "neoforge-26.1.2" = _H4AczZqT;
         "neoforge-1.21.1" = _f8Cm9mJB;
-        "neoforge-26.2" = _lKs5uNbR;
+        "neoforge-26.2" = _MX5IhNbF;
         "pkg-v21.8.0-1.21.8-Fabric" = _Z1NV2UN1;
         "pkg-v21.8.0-1.21.8-NeoForge" = _7I4UUtgv;
         "pkg-21.10.0" = _s4v6D9dz;
@@ -163,7 +187,9 @@ let
         "pkg-26.2.1" = _lKs5uNbR;
         "pkg-26.1.1" = _T9Ad8W1k;
         "pkg-21.1.1" = _DKO7tVIj;
-        "default" = _DKO7tVIj;
+        "pkg-26.1.2" = _yxRgmtSd;
+        "pkg-26.2.2" = _tAJahOaY;
+        "default" = _tAJahOaY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "all-the-heads";

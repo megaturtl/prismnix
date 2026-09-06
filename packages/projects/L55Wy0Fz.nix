@@ -16,15 +16,22 @@ let
             "file" = "JSON-Paintings-v1.4.0-mc1.12.2.jar";
             "hash" = "sha512-dcPMNFJBYmpTq0sVEEt73nSPTCD9vVl85jaHjLNCCtiiVZCk//qI0EvQ5A1UqJ3JbACqIYJHpQBWKqw+luPQPw==";
         };
+        _neHX4XOd = {
+            "id" = "neHX4XOd";
+            "file" = "JSON-Paintings-v1.5.0-mc1.12.2.jar";
+            "hash" = "sha512-95kGMNgKHe8LC63ZBNxhjf46ErzccTSFM9a5JJjyTyPGdBKyx1zb0QXnI7T8ivmo8m8GNJBQO/+ZTAlItI81eQ==";
+        };
     in {
         "6VsSRuCr" = _6VsSRuCr;
         "QBprvpeM" = _QBprvpeM;
         "iA5iBBLV" = _iA5iBBLV;
-        "forge-1.12.2" = _iA5iBBLV;
+        "neHX4XOd" = _neHX4XOd;
+        "forge-1.12.2" = _neHX4XOd;
         "pkg-1.2.0" = _6VsSRuCr;
         "pkg-1.3.0" = _QBprvpeM;
         "pkg-1.4.0" = _iA5iBBLV;
-        "default" = _iA5iBBLV;
+        "pkg-1.5.0" = _neHX4XOd;
+        "default" = _neHX4XOd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "json-paintings";

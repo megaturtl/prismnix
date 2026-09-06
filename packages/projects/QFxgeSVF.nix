@@ -681,6 +681,51 @@ let
             "file" = "toneko-neoforge-1.9.3.jar";
             "hash" = "sha512-mcj2ZPQEPe+X+IgaK0nxsln9nvbQsW1MnwMYB+QRc0ozMMplTdhWR8Lb0u5oNEDXQve0f+ar4Zhbi/96DsiIOQ==";
         };
+        _mU9hM1ex = {
+            "id" = "mU9hM1ex";
+            "file" = "toneko-neoforge-1.9.4.jar";
+            "hash" = "sha512-lPeQHnjcs24rfwQ1bJQbIUcCIcA+Aw6wp6Q7YvKuIZgvhOmA91CzjalWxKjG8uplfZc7yJr9oK6EiL0zpWDBHQ==";
+        };
+        _oMpliMLj = {
+            "id" = "oMpliMLj";
+            "file" = "toneko-fabric-1.9.4.jar";
+            "hash" = "sha512-Fv78jCOF0rmyHKbUE9TfU/M7Qgny0i2QTy5fgvqXSRhfXGeEztUBNTUk61JxRQ9PS+dc3opJhjYC33jutuLXDQ==";
+        };
+        _uZJn5ZTg = {
+            "id" = "uZJn5ZTg";
+            "file" = "toneko-fabric-1.9.5.jar";
+            "hash" = "sha512-T31ZNOh3jajUotsBFt03lqrFdck7My41SANDtrwurFT5BHJTijoIXt8FrgmcaNSOG1fTcvr8lgo0tQJ4lIIysA==";
+        };
+        _cFCsetP2 = {
+            "id" = "cFCsetP2";
+            "file" = "toneko-neoforge-1.9.5.jar";
+            "hash" = "sha512-1Nrsg83NodNUlnoeiGzkZF6s0bFYceZz/7dRMCshnHAreHhqdl9KI2//GtD01s3HF6W3vtR8T4ujccKYJbBxQw==";
+        };
+        _TkkwabUN = {
+            "id" = "TkkwabUN";
+            "file" = "toneko-fabric-1.9.6.jar";
+            "hash" = "sha512-EnULYjrK9diSf6n/6+Ktv+BMc/we8s4yzm+z22IbIbgnn0MU7msoEx+yMxgGuBHx9jOGh47/PCn0uDgYBKNxYQ==";
+        };
+        _GJsHRjNu = {
+            "id" = "GJsHRjNu";
+            "file" = "toneko-neoforge-1.9.6.jar";
+            "hash" = "sha512-Mnecr5lcMcdgr75f5dzdNL9BKsMTAuRZ9aabiKqGTk5JCqn8rUJPQBr/i7FtbW+10UZk9s3ljKX9y4FyTkmwSw==";
+        };
+        _QNyuLzq3 = {
+            "id" = "QNyuLzq3";
+            "file" = "toneko-neoforge-1.9.7.jar";
+            "hash" = "sha512-qx7H9SYbEP6fL+KhyaZMhVThnzf8VMvgT6gEXAm8w1LeIhFBtfiGKLNBLieoSrq3HVv26nUg4anmu0frKbZjxA==";
+        };
+        _BP2dF6m5 = {
+            "id" = "BP2dF6m5";
+            "file" = "toneko-fabric-1.9.7.jar";
+            "hash" = "sha512-Xw3fIRIRWuV1JpkSJdPzg+BXJEDLst/amzCIr6yEk7f48nZdzGdWTSgkoEqhHWmiMlyNZb3AkXQNFduo5UaS8g==";
+        };
+        _9yoPjhuO = {
+            "id" = "9yoPjhuO";
+            "file" = "toneko-fabric-2.0.0.jar";
+            "hash" = "sha512-SYBe1k3xAMaQ/SyeydqnLEeEXZy1jBxd+9Szpz36GsdNnF/MLm7YfZmogo2j/XV6qNMA7B7DSrtklmA+UCR4PA==";
+        };
     in {
         "xzOOs7mS" = _xzOOs7mS;
         "TZcSEzFZ" = _TZcSEzFZ;
@@ -818,6 +863,15 @@ let
         "ytAtEo73" = _ytAtEo73;
         "hYoE6dCZ" = _hYoE6dCZ;
         "JRMiewfu" = _JRMiewfu;
+        "mU9hM1ex" = _mU9hM1ex;
+        "oMpliMLj" = _oMpliMLj;
+        "uZJn5ZTg" = _uZJn5ZTg;
+        "cFCsetP2" = _cFCsetP2;
+        "TkkwabUN" = _TkkwabUN;
+        "GJsHRjNu" = _GJsHRjNu;
+        "QNyuLzq3" = _QNyuLzq3;
+        "BP2dF6m5" = _BP2dF6m5;
+        "9yoPjhuO" = _9yoPjhuO;
         "fabric-1.19.2" = _LQ0SsQpV;
         "fabric-1.19.3" = _LQ0SsQpV;
         "fabric-1.19.4" = _LQ0SsQpV;
@@ -831,8 +885,9 @@ let
         "fabric-1.21" = _Ok5DSL6B;
         "fabric-1.20.5" = _GVFlifLp;
         "fabric-1.20.6" = _GVFlifLp;
-        "fabric-1.21.1" = _hYoE6dCZ;
+        "fabric-1.21.1" = _BP2dF6m5;
         "fabric-1.21.4" = _m66fKgnP;
+        "fabric-26.1.2" = _9yoPjhuO;
         "quilt-1.19.2" = _LQ0SsQpV;
         "quilt-1.19.3" = _LQ0SsQpV;
         "quilt-1.19.4" = _LQ0SsQpV;
@@ -846,7 +901,7 @@ let
         "quilt-1.21" = _4YKLG7Ri;
         "quilt-1.21.1" = _NqOLVGFZ;
         "neoforge-1.21" = _ytAtEo73;
-        "neoforge-1.21.1" = _JRMiewfu;
+        "neoforge-1.21.1" = _QNyuLzq3;
         "pkg-0.1.7" = _xzOOs7mS;
         "pkg-0.1.8" = _TZcSEzFZ;
         "pkg-0.2.0" = _g3xwxBN7;
@@ -945,7 +1000,12 @@ let
         "pkg-1.9.1" = _lVupdGXq;
         "pkg-1.9.2" = _ytAtEo73;
         "pkg-1.9.3" = _JRMiewfu;
-        "default" = _JRMiewfu;
+        "pkg-1.9.4" = _oMpliMLj;
+        "pkg-1.9.5" = _cFCsetP2;
+        "pkg-1.9.6" = _GJsHRjNu;
+        "pkg-1.9.7" = _BP2dF6m5;
+        "pkg-2.0.0" = _9yoPjhuO;
+        "default" = _9yoPjhuO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tonekomod";

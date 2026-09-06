@@ -131,6 +131,16 @@ let
             "file" = "instant-xp-gain-1.6.0.jar";
             "hash" = "sha512-aIidGhzTv8Icqdnu3fVVsVzm2R1JT0QunaD3APYFBz5jkX6zidTzPs6iQHkdqHtC4hb/gsTvaEHi7ImEYuoH/g==";
         };
+        _JU4BBHlg = {
+            "id" = "JU4BBHlg";
+            "file" = "instant-xp-gain-1.7.0.jar";
+            "hash" = "sha512-sui/+VAuCTNbOxLH9UMFXws92kRnpg/E6bfqFk20Gjnemmbk4Udt1Dzh19ZvzUJTrxalmyBHr6j11UOEW0nIGA==";
+        };
+        _HaKTqTEs = {
+            "id" = "HaKTqTEs";
+            "file" = "instant-xp-gain-1.8.0.jar";
+            "hash" = "sha512-Dy73CLnZDIa4TJoT9E7Ot1fztWF2zgcusBe522JDA6MUWt7mfUghQiADmXUszPKXI51fJF9esvgY5SmRbq/wRw==";
+        };
     in {
         "PhuoUhcQ" = _PhuoUhcQ;
         "GgtGMKpq" = _GgtGMKpq;
@@ -158,6 +168,8 @@ let
         "UlotZ5zT" = _UlotZ5zT;
         "N1pnlCoT" = _N1pnlCoT;
         "3415Zcmv" = _3415Zcmv;
+        "JU4BBHlg" = _JU4BBHlg;
+        "HaKTqTEs" = _HaKTqTEs;
         "fabric-1.20.1" = _w3yA54I1;
         "fabric-1.20" = _w3yA54I1;
         "fabric-1.20.2" = _w3yA54I1;
@@ -177,6 +189,10 @@ let
         "fabric-1.21.9" = _3415Zcmv;
         "fabric-1.21.10" = _3415Zcmv;
         "fabric-1.21.11" = _3415Zcmv;
+        "fabric-26.1" = _JU4BBHlg;
+        "fabric-26.1.1" = _JU4BBHlg;
+        "fabric-26.1.2" = _JU4BBHlg;
+        "fabric-26.2" = _HaKTqTEs;
         "pkg-1.0.0" = _PhuoUhcQ;
         "pkg-1.0.1" = _GgtGMKpq;
         "pkg-1.0.2" = _uvkyrxB3;
@@ -203,7 +219,9 @@ let
         "pkg-1.4.1" = _UlotZ5zT;
         "pkg-1.5.1" = _N1pnlCoT;
         "pkg-1.6.0" = _3415Zcmv;
-        "default" = _3415Zcmv;
+        "pkg-1.7.0" = _JU4BBHlg;
+        "pkg-1.8.0" = _HaKTqTEs;
+        "default" = _HaKTqTEs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "instant-xp-gain";

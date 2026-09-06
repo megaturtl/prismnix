@@ -176,6 +176,21 @@ let
             "file" = "schematicpreview-0.0.16+26.1.2.jar";
             "hash" = "sha512-SFKiCG32gF3/xrXJSsykekXmfszbuJYYVCF0jzkditBadEMoqlHUN+tm4nTaW3+t2jmfHox9b8VcZzNOyCdFdQ==";
         };
+        _v9HISiZs = {
+            "id" = "v9HISiZs";
+            "file" = "schematicpreview-0.0.17+1.21.11.jar";
+            "hash" = "sha512-yYHo95C6fJbWofhTheWRxriu4bvl1eggITtIWUM7s3ty84Fg0UWbG3kIzWIfCPjCGau6LdH/VSh084KA55nWfw==";
+        };
+        _RrTL5ZxO = {
+            "id" = "RrTL5ZxO";
+            "file" = "schematicpreview-0.0.17+26.1.2.jar";
+            "hash" = "sha512-tmAZW3pl1Bp7YIVkiR/BucGzYcq2cVjrW6Am+Qj/k+ObBk22nHiJUapZLZfWouIt4tjyOobE0I4WA5D0TGiZbQ==";
+        };
+        _ZtNv1tgJ = {
+            "id" = "ZtNv1tgJ";
+            "file" = "schematicpreview-0.0.17+26.2.jar";
+            "hash" = "sha512-B+L1EFGCiPBLL9Yqb09Km+IUlqStQiKnFmnHPi0UYAaw13STw2gOzD6vf2+is8+YtDPMQ7x7Hcjs3m6lgqLL1A==";
+        };
     in {
         "o6vksGq3" = _o6vksGq3;
         "MTgFZlzS" = _MTgFZlzS;
@@ -212,14 +227,18 @@ let
         "oeKJxHxL" = _oeKJxHxL;
         "drhz3vaw" = _drhz3vaw;
         "ML3UCG5Q" = _ML3UCG5Q;
+        "v9HISiZs" = _v9HISiZs;
+        "RrTL5ZxO" = _RrTL5ZxO;
+        "ZtNv1tgJ" = _ZtNv1tgJ;
         "fabric-1.21" = _xHBTK6gT;
         "fabric-1.21.1" = _xHBTK6gT;
         "fabric-1.21.3" = _wrgRC89H;
         "fabric-1.21.4" = _xp1cnDGN;
         "fabric-1.21.8" = _4JrfVzTQ;
         "fabric-1.21.10" = _oeKJxHxL;
-        "fabric-1.21.11" = _drhz3vaw;
-        "fabric-26.1.2" = _ML3UCG5Q;
+        "fabric-1.21.11" = _v9HISiZs;
+        "fabric-26.1.2" = _RrTL5ZxO;
+        "fabric-26.2" = _ZtNv1tgJ;
         "pkg-0.0.5+1.21" = _o6vksGq3;
         "pkg-0.0.5+1.21.3" = _MTgFZlzS;
         "pkg-0.0.5+1.21.4" = _hMOI2sE4;
@@ -255,7 +274,10 @@ let
         "pkg-0.0.15+1.21.10" = _oeKJxHxL;
         "pkg-0.0.16+1.21.11" = _drhz3vaw;
         "pkg-0.0.16+26.1.2" = _ML3UCG5Q;
-        "default" = _ML3UCG5Q;
+        "pkg-0.0.17+1.21.11" = _v9HISiZs;
+        "pkg-0.0.17+26.1.2" = _RrTL5ZxO;
+        "pkg-0.0.17+26.2" = _ZtNv1tgJ;
+        "default" = _ZtNv1tgJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "schematicpreview";

@@ -328,13 +328,13 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "MIT" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MIT-NON-AI-License" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "MIT License";
-                shortName = "MIT";
-                url = null;
+                fullName = "LicenseRef-MIT-NON-AI-License";
+                shortName = "LicenseRef-MIT-NON-AI-License";
+                url = "https://metallurgists-of-create.github.io/about-us/licence";
             };
         };
     };

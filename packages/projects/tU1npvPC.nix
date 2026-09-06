@@ -8,14 +8,6 @@ let
         };
     in {
         "TXZCeSwC" = _TXZCeSwC;
-        "minecraft-1.18" = _TXZCeSwC;
-        "minecraft-1.18.1" = _TXZCeSwC;
-        "minecraft-1.18.2" = _TXZCeSwC;
-        "minecraft-1.19" = _TXZCeSwC;
-        "minecraft-1.19.1" = _TXZCeSwC;
-        "minecraft-1.19.2" = _TXZCeSwC;
-        "minecraft-1.19.3" = _TXZCeSwC;
-        "minecraft-1.19.4" = _TXZCeSwC;
         "minecraft-1.20" = _TXZCeSwC;
         "minecraft-1.20.1" = _TXZCeSwC;
         "minecraft-1.20.2" = _TXZCeSwC;
@@ -28,6 +20,17 @@ let
         "minecraft-1.21.2" = _TXZCeSwC;
         "minecraft-1.21.3" = _TXZCeSwC;
         "minecraft-1.21.4" = _TXZCeSwC;
+        "minecraft-1.21.5" = _TXZCeSwC;
+        "minecraft-1.21.6" = _TXZCeSwC;
+        "minecraft-1.21.7" = _TXZCeSwC;
+        "minecraft-1.21.8" = _TXZCeSwC;
+        "minecraft-1.21.9" = _TXZCeSwC;
+        "minecraft-1.21.10" = _TXZCeSwC;
+        "minecraft-1.21.11" = _TXZCeSwC;
+        "minecraft-26.1" = _TXZCeSwC;
+        "minecraft-26.1.1" = _TXZCeSwC;
+        "minecraft-26.1.2" = _TXZCeSwC;
+        "minecraft-26.2" = _TXZCeSwC;
         "pkg-Release" = _TXZCeSwC;
         "default" = _TXZCeSwC;
     });

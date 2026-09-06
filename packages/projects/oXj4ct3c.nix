@@ -141,6 +141,11 @@ let
             "file" = "water-resistance-potion-1.6.1+26.1.jar";
             "hash" = "sha512-R3iHIiG3w78enTCK8UaFIt1c50Yw7wO2KASnJ6oa8I2fvwBcE8kHvL8llNgM0DAiBu+2ZXZwk+Ypp1aNZkWjAQ==";
         };
+        _ddKJsw6m = {
+            "id" = "ddKJsw6m";
+            "file" = "water-resistance-potion-1.6.1+26.2.jar";
+            "hash" = "sha512-+Lt5OgEw+yRLlPgnjZh94NzMGCpPCzf4anqVcD1NUBa3kuQJRQKVzHTdr9tOk0clhWMZK9TMpTPrcm2vBHdP0A==";
+        };
     in {
         "5kpk845X" = _5kpk845X;
         "yXHOAb2B" = _yXHOAb2B;
@@ -170,6 +175,7 @@ let
         "LFvhIQ7i" = _LFvhIQ7i;
         "50zbRkDt" = _50zbRkDt;
         "uFU0HPTw" = _uFU0HPTw;
+        "ddKJsw6m" = _ddKJsw6m;
         "fabric-1.18.2" = _tq5oazCP;
         "fabric-1.19.2" = _vKMDckEX;
         "fabric-1.19.3" = _YkNahinx;
@@ -204,6 +210,7 @@ let
         "fabric-26.1" = _uFU0HPTw;
         "fabric-26.1.1" = _uFU0HPTw;
         "fabric-26.1.2" = _uFU0HPTw;
+        "fabric-26.2" = _ddKJsw6m;
         "neoforge-1.21.4" = _mCiZLWg4;
         "neoforge-1.21.5" = _mCiZLWg4;
         "pkg-1.0.0+1.18.2" = _5kpk845X;
@@ -234,7 +241,8 @@ let
         "pkg-1.5.0+1.21.7" = _LFvhIQ7i;
         "pkg-1.6.0+1.21.11" = _50zbRkDt;
         "pkg-1.6.1+26.1" = _uFU0HPTw;
-        "default" = _uFU0HPTw;
+        "pkg-1.6.1+26.2" = _ddKJsw6m;
+        "default" = _ddKJsw6m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "water-resistance-potion";

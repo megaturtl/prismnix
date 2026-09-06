@@ -16,16 +16,23 @@ let
             "file" = "Mini's Cobblemon 1.7 Icons v2.1.zip";
             "hash" = "sha512-m755qeupxfqlbqfkOTJIguRoE7WDIBszB+Cr4tVcU0vQyRIISOTxFOhAtMaxLp8Bjrc81xo0n2ANm7SxxE/Qeg==";
         };
+        _bOM0ftwK = {
+            "id" = "bOM0ftwK";
+            "file" = "Mini's Cobblemon Icon's v3.0.zip";
+            "hash" = "sha512-ZgbTBHlPhXhZTEfR7Tt47tn0dnUCosHjyOd218kh2Nf6n3S+PvRthv/2QEG6/9SFslCO/pr6XYZDXaHojAfKSw==";
+        };
     in {
         "AtT2xwSX" = _AtT2xwSX;
         "rn2n4aqT" = _rn2n4aqT;
         "IHd7v19y" = _IHd7v19y;
-        "minecraft-1.21.1" = _IHd7v19y;
-        "minecraft-1.21" = _IHd7v19y;
+        "bOM0ftwK" = _bOM0ftwK;
+        "minecraft-1.21.1" = _bOM0ftwK;
+        "minecraft-1.21" = _bOM0ftwK;
         "pkg-1.0" = _AtT2xwSX;
         "pkg-2.0" = _rn2n4aqT;
         "pkg-2.1" = _IHd7v19y;
-        "default" = _IHd7v19y;
+        "pkg-3.0" = _bOM0ftwK;
+        "default" = _bOM0ftwK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minis-cobblemon-icons";

@@ -46,6 +46,31 @@ let
             "file" = "ModernCompanions-1.21.1-3.45-NeoForge.jar";
             "hash" = "sha512-O3voTokhRZxwxkugMAqo0peLT46g15QuZO2RDJayaY/lHVU6K+7mVwxMTgQU46lobUafmilwyzHKOt4gzxIH8Q==";
         };
+        _GHQQGyhP = {
+            "id" = "GHQQGyhP";
+            "file" = "ModernCompanions-1.21.1-3.49-NeoForge.jar";
+            "hash" = "sha512-6T9aSSXGjlmez4pXkieshV8kOawpv/4t89VTUQRt9QU1JXqik/fmF01Lvfzqmx0iGzlJbSgulgmCmpW8H7MQ6g==";
+        };
+        _CvTdyUbq = {
+            "id" = "CvTdyUbq";
+            "file" = "ModernCompanions-1.21.1-3.52-NeoForge.jar";
+            "hash" = "sha512-LEzDWWKuuXRX+qeGW+zp+Rf3egFQkMbjSxhzk/xrg1aU2fTup5IXbaPnnUUvmkssBoxfaa2cUOmzz6FiOeTvJA==";
+        };
+        _dVxg7Vdp = {
+            "id" = "dVxg7Vdp";
+            "file" = "ModernCompanions-1.21.1-3.62-NeoForge.jar";
+            "hash" = "sha512-lWfTwf4GH0D7Dn3CNTuQFXsWnDpJgv7/qRiEmdGWIlBLlQiqFgHWsQwqBTVMfEOKFNHokBtAAGgW66RarxnowQ==";
+        };
+        _KvXFs8Sf = {
+            "id" = "KvXFs8Sf";
+            "file" = "ModernCompanions-4.39.jar";
+            "hash" = "sha512-hvUGXKcpOJwXblgcRyd5rRDAJJSVjurEKTL1M3FhIcr/QrhacrniYHCt8Y82Mmj5OI77myt7aSjM3ADSZFzzCw==";
+        };
+        _Tm7MSuJT = {
+            "id" = "Tm7MSuJT";
+            "file" = "ModernCompanions-4.45.jar";
+            "hash" = "sha512-UKR/QErC1aBMmtfyKWD1ALEFs/5Kd2RTbc1Y2sp41NXA00CtP6OMrmLpzJgqIjHXPI9D5s2LtdmirhBmyqjPFg==";
+        };
     in {
         "tuLdkK4n" = _tuLdkK4n;
         "oR7i7R3Q" = _oR7i7R3Q;
@@ -56,7 +81,12 @@ let
         "QGMBRgxB" = _QGMBRgxB;
         "QVs5h7EB" = _QVs5h7EB;
         "e5CwuNQN" = _e5CwuNQN;
-        "neoforge-1.21.1" = _e5CwuNQN;
+        "GHQQGyhP" = _GHQQGyhP;
+        "CvTdyUbq" = _CvTdyUbq;
+        "dVxg7Vdp" = _dVxg7Vdp;
+        "KvXFs8Sf" = _KvXFs8Sf;
+        "Tm7MSuJT" = _Tm7MSuJT;
+        "neoforge-1.21.1" = _Tm7MSuJT;
         "pkg-v1.1.0" = _tuLdkK4n;
         "pkg-v1.1.2" = _oR7i7R3Q;
         "pkg-v1.1.3" = _k9LRgSim;
@@ -66,7 +96,12 @@ let
         "pkg-3.15" = _QGMBRgxB;
         "pkg-3.24" = _QVs5h7EB;
         "pkg-3.45" = _e5CwuNQN;
-        "default" = _e5CwuNQN;
+        "pkg-3.49" = _GHQQGyhP;
+        "pkg-3.52" = _CvTdyUbq;
+        "pkg-3.62" = _dVxg7Vdp;
+        "pkg-4.39" = _KvXFs8Sf;
+        "pkg-4.45" = _Tm7MSuJT;
+        "default" = _Tm7MSuJT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modern-companions";

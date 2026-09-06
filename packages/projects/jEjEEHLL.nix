@@ -101,6 +101,21 @@ let
             "file" = "villagerunknown-villagercoin-1.0.11+1.21.11.jar";
             "hash" = "sha512-VzZDnFaLIsfV4ig9IhIqa5o104u4Gj3CYA51P1HnysTEy+obLnSLt0ubaZFklHNZhoUlkmizdwrvMJxTiCo9cQ==";
         };
+        _3tOQoAnw = {
+            "id" = "3tOQoAnw";
+            "file" = "villagerunknown-villagercoin-1.0.11+26.1.jar";
+            "hash" = "sha512-ofR3o02rFqRQDaL9CH0yfNeSDfigthjHFUUvqg9tnyn4tXcP7n4hbfEGxV7a/qPwGod2pG/d6WH97NcoS6rSPA==";
+        };
+        _M8CadMBG = {
+            "id" = "M8CadMBG";
+            "file" = "villagerunknown-villagercoin-1.0.11+26.2.jar";
+            "hash" = "sha512-KrgAJaPNqQVzJIOO53TC1Z9vKo+plUXCLnhGaqnNIGyPpHo2GK9vAtKYoZE9iE7CB9vTQ/WkP1THPip3xH0pZQ==";
+        };
+        _2rGPrkTd = {
+            "id" = "2rGPrkTd";
+            "file" = "villagerunknown-villagercoin-1.0.12+26.2.jar";
+            "hash" = "sha512-KwyGktaDutCjKgfY2aNViCDHu77ISpxvnKkW+SVA3K/tEbfn338F/7o/WJigr0jWZ5TNP4q4uL2LvG1p4mBHqw==";
+        };
     in {
         "1fmEhHYV" = _1fmEhHYV;
         "aWJRkNVQ" = _aWJRkNVQ;
@@ -122,6 +137,9 @@ let
         "utv0bWiZ" = _utv0bWiZ;
         "VWA6vgCp" = _VWA6vgCp;
         "QKj6Fdg4" = _QKj6Fdg4;
+        "3tOQoAnw" = _3tOQoAnw;
+        "M8CadMBG" = _M8CadMBG;
+        "2rGPrkTd" = _2rGPrkTd;
         "fabric-1.21.1" = _Hu8JtF3p;
         "fabric-1.21.2" = _UOh44xxt;
         "fabric-1.21.3" = _oeOeIZ3b;
@@ -133,6 +151,10 @@ let
         "fabric-1.21.9" = _VWA6vgCp;
         "fabric-1.21.10" = _VWA6vgCp;
         "fabric-1.21.11" = _QKj6Fdg4;
+        "fabric-26.1" = _3tOQoAnw;
+        "fabric-26.1.1" = _3tOQoAnw;
+        "fabric-26.1.2" = _3tOQoAnw;
+        "fabric-26.2" = _2rGPrkTd;
         "pkg-1.0.0" = _1fmEhHYV;
         "pkg-1.0.1" = _aWJRkNVQ;
         "pkg-1.0.2" = _a7mB6b06;
@@ -153,7 +175,10 @@ let
         "pkg-1.0.11+1.21.5.1" = _utv0bWiZ;
         "pkg-1.0.11+1.21.9" = _VWA6vgCp;
         "pkg-1.0.11+1.21.11" = _QKj6Fdg4;
-        "default" = _QKj6Fdg4;
+        "pkg-1.0.11+26.1" = _3tOQoAnw;
+        "pkg-1.0.11+26.2" = _M8CadMBG;
+        "pkg-1.0.12+26.2" = _2rGPrkTd;
+        "default" = _2rGPrkTd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villagercoin";

@@ -51,6 +51,16 @@ let
             "file" = "Re-Exposer-2.3.6-1.20.1.jar";
             "hash" = "sha512-zy9FnDTZ8U6DXxQjJ7GWjukbrSFKP6J9BGkplRdoz2ssUsdXMexR8KKQp1gbM9ReUjxdUuYxENJPMJ1Z4X3TEA==";
         };
+        _j6ISBm9o = {
+            "id" = "j6ISBm9o";
+            "file" = "Re-Exposer-2.4-1.20.1.jar";
+            "hash" = "sha512-cBCazsvc4rg9QIDmPa/qX0bEnn+Hdr7nuZ3LsJmonsmIDLCrxt5NGvvr54zSMpgZPdGqJjj5avyyI7FfR4rCqg==";
+        };
+        _uO6yWUMd = {
+            "id" = "uO6yWUMd";
+            "file" = "exposer-3.0-1.21.1.jar";
+            "hash" = "sha512-v+6xFUZvYURj1fJ1vMDxu4o9qw1+LF21KmSEa6WoYEwP2dhUFlzGXBjd/E5wztJToDlUjM0KgeMpdCZ7o7R2HQ==";
+        };
     in {
         "vQr68DNk" = _vQr68DNk;
         "OYyRrmi4" = _OYyRrmi4;
@@ -62,17 +72,22 @@ let
         "uumMuVnN" = _uumMuVnN;
         "RqE4YmrC" = _RqE4YmrC;
         "4YZdiwXp" = _4YZdiwXp;
+        "j6ISBm9o" = _j6ISBm9o;
+        "uO6yWUMd" = _uO6yWUMd;
         "forge-1.12.2" = _vQr68DNk;
         "forge-1.16.5" = _OYyRrmi4;
         "forge-1.18.2" = _DdfO9ohw;
-        "forge-1.20.1" = _4YZdiwXp;
+        "forge-1.20.1" = _j6ISBm9o;
+        "neoforge-1.21.1" = _uO6yWUMd;
         "pkg-1.2.7" = _vQr68DNk;
         "pkg-2.3.2" = _kA0CsQYn;
         "pkg-2.3.3" = _GgLQCTFX;
         "pkg-2.3.4" = _uumMuVnN;
         "pkg-2.3.5" = _RqE4YmrC;
         "pkg-2.3.6" = _4YZdiwXp;
-        "default" = _4YZdiwXp;
+        "pkg-2.4" = _j6ISBm9o;
+        "pkg-3.0" = _uO6yWUMd;
+        "default" = _uO6yWUMd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "re-exposer";

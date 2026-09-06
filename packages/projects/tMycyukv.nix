@@ -161,6 +161,11 @@ let
             "file" = "EndingLibrary-1.20.1-2.1.20-all.jar";
             "hash" = "sha512-/HQ+OYMN8zqRhhtCTIW+fndv08tZTPdYEqHCnQqrzAgw2wHEBumHazyBMVd4UpTHVlQZdo4taxDJEexhzNV8yg==";
         };
+        _TdmREZqV = {
+            "id" = "TdmREZqV";
+            "file" = "EndingLibrary-1.20.1-2.2-all.jar";
+            "hash" = "sha512-NTes4ecQ9tNapENOcUxxeva85/0QixWwnEooZoGx1MvtbxgOvXCaxayIBT4AVEvGZucHXZ8VdygVnO/CfXTl+w==";
+        };
     in {
         "PmfyuBoH" = _PmfyuBoH;
         "YPWHCsCR" = _YPWHCsCR;
@@ -194,7 +199,8 @@ let
         "p2JZDnCu" = _p2JZDnCu;
         "2svfLNAU" = _2svfLNAU;
         "PKHHkXli" = _PKHHkXli;
-        "forge-1.20.1" = _PKHHkXli;
+        "TdmREZqV" = _TdmREZqV;
+        "forge-1.20.1" = _TdmREZqV;
         "pkg-2.0" = _PmfyuBoH;
         "pkg-2.0.1" = _YPWHCsCR;
         "pkg-2.0.2" = _zPBIGqx4;
@@ -227,7 +233,8 @@ let
         "pkg-2.1.19" = _p2JZDnCu;
         "pkg-2.1.19fix" = _2svfLNAU;
         "pkg-2.1.20" = _PKHHkXli;
-        "default" = _PKHHkXli;
+        "pkg-2.2" = _TdmREZqV;
+        "default" = _TdmREZqV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "endinglibrary";

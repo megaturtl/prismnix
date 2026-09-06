@@ -106,6 +106,36 @@ let
             "file" = "!cleanroom-relauncher-1.0.1.jar";
             "hash" = "sha512-xPZv5644A2dGxzzciSlBXtKxXMKLpKDZbFoJD/XuqqkopdMuq2oeSPDYzLTHjBUcICeh5J+40HhI8N1eF/3A2w==";
         };
+        _TjO2MkkF = {
+            "id" = "TjO2MkkF";
+            "file" = "!cleanroom-relauncher-1.0.2.jar";
+            "hash" = "sha512-AoWcUAioklCtrEoRNGzLT0z0+ej3rSyh/2NXXkglk3r62whg1sRVEung1pSjxexMVcZfFwTpNsmxLPS0o1sLtQ==";
+        };
+        _nrrh70QC = {
+            "id" = "nrrh70QC";
+            "file" = "!cleanroom-relauncher-1.0.3.jar";
+            "hash" = "sha512-3/3Axri7Z4BrrZyeYmxeuVjmiOjuVhfGDQJxAu3r15fYAApFuC97AHn29MVoGDdTxSRktzdluM5CqtWml7V0zw==";
+        };
+        _raAYIJ7B = {
+            "id" = "raAYIJ7B";
+            "file" = "!cleanroom-relauncher-1.0.5.jar";
+            "hash" = "sha512-qR0/VgDJQYGNKEXYC/apl7PI/Cn3DGrZ0NqcehRNrF5As1z/qZdPMdKOejZvQdl/v2orbi/s+L+YCw15r2D51w==";
+        };
+        _VjrStK6A = {
+            "id" = "VjrStK6A";
+            "file" = "!cleanroom-relauncher-1.1.1.jar";
+            "hash" = "sha512-UdX+Xgg0jQDXv18bXnCz9FC/osakFZHeCQpRgvEpPuwuxsvyHN8I/vLFweENXIsXL4BZtvc1aAhsNBJBn+l3cA==";
+        };
+        _7zMEwFju = {
+            "id" = "7zMEwFju";
+            "file" = "!cleanroom-relauncher-1.1.2.jar";
+            "hash" = "sha512-2wnP56ibv3NJSNszRA/jzfsV3XFP08Q69yHzzN/RFx0JrbwqWJVEpvx5zpmiqUTyrHQuoXJKR7Zg2jZ5LjayPQ==";
+        };
+        _QMIACUzD = {
+            "id" = "QMIACUzD";
+            "file" = "!cleanroom-relauncher-1.1.3.jar";
+            "hash" = "sha512-LaAE9uBu6jlF8DiOlr8Eo/IIuX8LS65ODN+jnRGPziv/q8pwUcsb5+EXKjzfw9neyG5OXX6VLhUaJ5FqHjxKtg==";
+        };
     in {
         "3oIVYoBF" = _3oIVYoBF;
         "pstL6Qgn" = _pstL6Qgn;
@@ -128,7 +158,13 @@ let
         "8g08LyyQ" = _8g08LyyQ;
         "3JvIUqQ9" = _3JvIUqQ9;
         "7QWn3nWi" = _7QWn3nWi;
-        "forge-1.12.2" = _7QWn3nWi;
+        "TjO2MkkF" = _TjO2MkkF;
+        "nrrh70QC" = _nrrh70QC;
+        "raAYIJ7B" = _raAYIJ7B;
+        "VjrStK6A" = _VjrStK6A;
+        "7zMEwFju" = _7zMEwFju;
+        "QMIACUzD" = _QMIACUzD;
+        "forge-1.12.2" = _QMIACUzD;
         "pkg-0.1.0" = _3oIVYoBF;
         "pkg-0.1.1" = _pstL6Qgn;
         "pkg-0.1.2" = _tPza9f7q;
@@ -150,7 +186,13 @@ let
         "pkg-0.6.3" = _8g08LyyQ;
         "pkg-1.0.0" = _3JvIUqQ9;
         "pkg-1.0.1" = _7QWn3nWi;
-        "default" = _7QWn3nWi;
+        "pkg-1.0.2" = _TjO2MkkF;
+        "pkg-1.0.3" = _nrrh70QC;
+        "pkg-1.0.5" = _raAYIJ7B;
+        "pkg-1.1.1" = _VjrStK6A;
+        "pkg-1.1.2" = _7zMEwFju;
+        "pkg-1.1.3" = _QMIACUzD;
+        "default" = _QMIACUzD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cleanroom-relauncher";

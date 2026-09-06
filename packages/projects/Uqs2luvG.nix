@@ -156,6 +156,116 @@ let
             "file" = "sarosplayerplushiemodlite-1.2.3.jar";
             "hash" = "sha512-prlZ4gyIaUZrIsttlNAcYybYiP6H1pC9PijdJl12bBg65ruQgbAfatJxpSYKtauur5raTjYj5c6CTnWv+bfG/w==";
         };
+        _UOwLkHR7 = {
+            "id" = "UOwLkHR7";
+            "file" = "Saros-Player-Plushie-Lite-Fabric-1.20.1-1.0.1.jar";
+            "hash" = "sha512-kVFB7YRkV5+x6AfZygr3XjNx0UV+wnQM2FKx9DYYHs5ZodpAHuLd/t3jVy+SRwQhYussRcDEn+nUYoFwN916tA==";
+        };
+        _MbspIeVV = {
+            "id" = "MbspIeVV";
+            "file" = "Saros-Player-Plushie-Lite-Fabric-1.21.10-1.0.2.jar";
+            "hash" = "sha512-VRxlxt49kkZ0BlH2DpiJPxbIfb6DkCYgaQIIfeRpESFvN32tJ2oHEErmq6KMcwk/cHHR7eNv+HMqVEVWC39sLw==";
+        };
+        _FEw4Fyv5 = {
+            "id" = "FEw4Fyv5";
+            "file" = "Saros-Player-Plushie-Lite-Fabric-1.21.11-1.2.2.jar";
+            "hash" = "sha512-2BJ3dsfjCCT5DQwz9N9VVkcr45J5TKkJN6XgN9AT4xxRiM/xjcdP8mODXbRhJkQCTtzNDeFBx2DlHcWu0Pn2RA==";
+        };
+        _TPxJztb0 = {
+            "id" = "TPxJztb0";
+            "file" = "Saros-Player-Plushie-Lite-Fabric-26.1-1.3.jar";
+            "hash" = "sha512-nwKHwV8rALgk5NEA3NM8Ifl7H8EfID2OsQIhCeKh+5JdQ3su00Of2N1rhSvaoU/LFUwGBcoAlnCQzXHWvZefBQ==";
+        };
+        _X2LuN4PE = {
+            "id" = "X2LuN4PE";
+            "file" = "Saros-Player-Plushie-Lite-Fabric-26.1.1-1.3.jar";
+            "hash" = "sha512-IJX7qLY3sHv3/lOHkp8fGEu5iZt/mFsQfPJGKpSY+QotDE1nJbr4YrxxUgBMYM/m7dIDn57/fJGTAXEsQJS1XA==";
+        };
+        _nMxaOwmJ = {
+            "id" = "nMxaOwmJ";
+            "file" = "Saros-Player-Plushie-Lite-Fabric-26.1.2-1.2.4.jar";
+            "hash" = "sha512-mZVdtsuha5ilwjhksa4MZUvElZi9BIAdERmaey9cxTJyI6DdHRfxcM3sLFQK/FgoQFDqf+MNW14L8IxATY3kOQ==";
+        };
+        _hcXBvvFT = {
+            "id" = "hcXBvvFT";
+            "file" = "Saros-Player-Plushie-Lite-Forge-1.20.1-1.0.1.jar";
+            "hash" = "sha512-aXSvuF44f96AyeUnyINKx2Q9ynKwACZq7gBCsvBSPf/pfsUK0xRwPxV+A1TS36R3ZrocgXtWpvbFFPpocAD6JA==";
+        };
+        _QCwHpv8E = {
+            "id" = "QCwHpv8E";
+            "file" = "Saros-Player-Plushie-Lite-Forge-26.1-1.1.jar";
+            "hash" = "sha512-JIkGRHA2VrvOFjI4kTxAcTc/ynUJmu9425Zhes/CqRwBiQfqLdl8zSKOCLolxCZs8xrOKjIURoXIPS2cEurEgA==";
+        };
+        _r8ovp68b = {
+            "id" = "r8ovp68b";
+            "file" = "Saros-Player-Plushie-Lite-Forge-26.1.1-1.1.jar";
+            "hash" = "sha512-LeyCYnur5/Ct/O8D9p4owA1SLcSnyCDV1/YfXOa/hSjQ9FdTSILZw6gE4wKMP25usVNRJeZfpyMR4jGSTjbC6g==";
+        };
+        _TkNAa0Jj = {
+            "id" = "TkNAa0Jj";
+            "file" = "Saros-Player-Plushie-Lite-Forge-26.1.2-1.0.4.jar";
+            "hash" = "sha512-b0c+sVNQ7OxD62kH1dEdYCP+FsA9hG3+tYGapLKVIgEMl4ILD/LqfniUM8VCPMTTciYUObA/h/UH/ae7HX1Sug==";
+        };
+        _JKBeWhIW = {
+            "id" = "JKBeWhIW";
+            "file" = "Saros-Player-Plushie-Lite-NeoForge-26.1-1.1.jar";
+            "hash" = "sha512-AQJwzPVjuz+06xpdKTst+Ap3jKrh7IXItfMBVgsup+7Ho/xf6ksTUKJH6gfb207cV4GJFH8wmNw+itM2mi1aGA==";
+        };
+        _fr5Wjv2D = {
+            "id" = "fr5Wjv2D";
+            "file" = "Saros-Player-Plushie-Lite-NeoForge-26.1.1-1.1.jar";
+            "hash" = "sha512-2Ffc1xw2W4ylW6NzM7Ip8urHiEbREZSeeVEiVhydSidXLOeKSigkWfMqLZtxxP7q7RxXBBPA4LSIJoHXvQiFUA==";
+        };
+        _aBr0lhrV = {
+            "id" = "aBr0lhrV";
+            "file" = "Saros-Player-Plushie-Lite-NeoForge-26.1.2-1.0.4.jar";
+            "hash" = "sha512-L/VHhCYtSo2iAR3bx24nk3quIvfppyznZhvPQejM4rgsi2oSK0UZupj6qZ3JQZR1nfxzkLyF3juCnybXfS2SPA==";
+        };
+        _bCxEQbdD = {
+            "id" = "bCxEQbdD";
+            "file" = "Saros-Player-Plushie-Lite-Fabric-26.1.2-1.2.5.jar";
+            "hash" = "sha512-uYCBz91Qa56Tn8SWF9CDkZ+iHA73RB+w8y0/3h/vPPNcUuuMmRk2B3eT9KmKD/48jpwRA4ltAnD6vJzkHtlIzA==";
+        };
+        _gkFPpQRU = {
+            "id" = "gkFPpQRU";
+            "file" = "Saros-Player-Plushie-Lite-NeoForge-26.1.2-1.0.5.jar";
+            "hash" = "sha512-EGyUe8PxwLWEXEsHeVNMccSWMUyHRNRSK032/yJQOCOfdUCha0FEMUUlQe2flX4sGr6XvOMvMtUWeM8hX/iRmQ==";
+        };
+        _4nDfLEPB = {
+            "id" = "4nDfLEPB";
+            "file" = "Saros-Player-Plushie-Lite-Forge-1.21.1-1.2.jar";
+            "hash" = "sha512-4KtUXq7RNkL42RIGWo+EU7ZWyTxxfP5dyt86LQtzMJv9G5b4DgnKifYi71BzuHBiXp3Cqs9fXBE3cRhbi4ztZA==";
+        };
+        _vELhZskP = {
+            "id" = "vELhZskP";
+            "file" = "Saros-Player-Plushie-Lite-Forge-26.1-1.2.jar";
+            "hash" = "sha512-s8MAQ+9ciHh3Rp/2nSBLEraHROmHDL+IPzwllcHIvDrK9sH9SYkdkc2MHg0S5XxN82RnKIurFcb0rRXw4XCUYQ==";
+        };
+        _UrmR0c45 = {
+            "id" = "UrmR0c45";
+            "file" = "Saros-Player-Plushie-Lite-Forge-26.1.1-1.2.jar";
+            "hash" = "sha512-XzZg4ehx2HeXcdz6NODjmqafg1msR4ZuGgBMCMiQvL1oQSMjKKg28oNBzTPeSeyxhVXACO2mdMp2gOfaMR9Ysg==";
+        };
+        _ubonX1ma = {
+            "id" = "ubonX1ma";
+            "file" = "Saros-Player-Plushie-Lite-Forge-26.1.2-1.0.5.jar";
+            "hash" = "sha512-dO0qztsJPkJ0TNBUb7AVlilSeJfJSjPD2swZz4HkTVT3zgCpKiOG6Ap2eL7J67kq1tutubBAw29I5BpY/28vYQ==";
+        };
+        _btzBih0C = {
+            "id" = "btzBih0C";
+            "file" = "Saros-Player-Plushie-Lite-Fabric-26.2-1.2.5.jar";
+            "hash" = "sha512-xJnRs+ACfejz4gGMyb3QgNGfvy/mH4S+Vxdj80XfoqJn3CIrF/WsIaf5ic6DdtdoOPpBiESmwE2cBDi9fpFmxw==";
+        };
+        _HY1vWFBy = {
+            "id" = "HY1vWFBy";
+            "file" = "Saros-Player-Plushie-Lite-Forge-26.2-1.0.5.jar";
+            "hash" = "sha512-wx3fQ6wCwjdyFqY2m3WuVr9CNQZPagKBYMVY+UU3JrCKAUGhak7phd6duYejj7RJ4vY/Vb7qbWAijvJm2Ps4Dw==";
+        };
+        _S62rOU3U = {
+            "id" = "S62rOU3U";
+            "file" = "Saros-Player-Plushie-Lite-NeoForge-26.2-1.0.5.jar";
+            "hash" = "sha512-P+y7goX/qpVvJmCbjAYsRQUTwny9TBFuT+B4OVj64fBT3R8dIQoPfb/N+7i7SU+dhnt5149U0xUAO0KHXp0VUw==";
+        };
     in {
         "glwcseiA" = _glwcseiA;
         "g7iBjLPY" = _g7iBjLPY;
@@ -188,39 +298,68 @@ let
         "gpyXqrCC" = _gpyXqrCC;
         "vCmAdIPz" = _vCmAdIPz;
         "rzd7jXKM" = _rzd7jXKM;
-        "fabric-1.20.1" = _glwcseiA;
+        "UOwLkHR7" = _UOwLkHR7;
+        "MbspIeVV" = _MbspIeVV;
+        "FEw4Fyv5" = _FEw4Fyv5;
+        "TPxJztb0" = _TPxJztb0;
+        "X2LuN4PE" = _X2LuN4PE;
+        "nMxaOwmJ" = _nMxaOwmJ;
+        "hcXBvvFT" = _hcXBvvFT;
+        "QCwHpv8E" = _QCwHpv8E;
+        "r8ovp68b" = _r8ovp68b;
+        "TkNAa0Jj" = _TkNAa0Jj;
+        "JKBeWhIW" = _JKBeWhIW;
+        "fr5Wjv2D" = _fr5Wjv2D;
+        "aBr0lhrV" = _aBr0lhrV;
+        "bCxEQbdD" = _bCxEQbdD;
+        "gkFPpQRU" = _gkFPpQRU;
+        "4nDfLEPB" = _4nDfLEPB;
+        "vELhZskP" = _vELhZskP;
+        "UrmR0c45" = _UrmR0c45;
+        "ubonX1ma" = _ubonX1ma;
+        "btzBih0C" = _btzBih0C;
+        "HY1vWFBy" = _HY1vWFBy;
+        "S62rOU3U" = _S62rOU3U;
+        "fabric-1.20.1" = _UOwLkHR7;
         "fabric-1.21" = _g7iBjLPY;
         "fabric-1.21.1" = _3sJisCnq;
-        "fabric-1.21.10" = _hqOOts8r;
-        "fabric-1.21.11" = _w9Xhr8L8;
-        "fabric-26.1" = _5azwed6Y;
-        "fabric-26.1.1" = _3a9Dyph3;
-        "fabric-26.1.2" = _3a9Dyph3;
-        "fabric-26.2" = _rzd7jXKM;
+        "fabric-1.21.10" = _MbspIeVV;
+        "fabric-1.21.11" = _FEw4Fyv5;
+        "fabric-26.1" = _TPxJztb0;
+        "fabric-26.1.1" = _X2LuN4PE;
+        "fabric-26.1.2" = _bCxEQbdD;
+        "fabric-26.2" = _btzBih0C;
         "neoforge-1.21.1" = _HSfakhn2;
-        "neoforge-1.20.1" = _b91Z7mDI;
+        "neoforge-1.20.1" = _hcXBvvFT;
         "neoforge-1.21.2" = _65rbQESG;
-        "neoforge-26.1" = _SOsevvuw;
-        "neoforge-26.1.1" = _SOsevvuw;
-        "neoforge-26.1.2" = _SOsevvuw;
-        "neoforge-26.2" = _vCmAdIPz;
-        "forge-1.20.1" = _b91Z7mDI;
-        "forge-1.21.1" = _UiydVcow;
-        "forge-26.1" = _WNnp8PjM;
-        "forge-26.1.1" = _WNnp8PjM;
-        "forge-26.1.2" = _WNnp8PjM;
+        "neoforge-26.1" = _JKBeWhIW;
+        "neoforge-26.1.1" = _fr5Wjv2D;
+        "neoforge-26.1.2" = _gkFPpQRU;
+        "neoforge-26.2" = _S62rOU3U;
+        "forge-1.20.1" = _hcXBvvFT;
+        "forge-1.21.1" = _4nDfLEPB;
+        "forge-26.1" = _vELhZskP;
+        "forge-26.1.1" = _UrmR0c45;
+        "forge-26.1.2" = _ubonX1ma;
         "forge-1.21.10" = _uaJ49AQo;
-        "forge-26.2" = _gpyXqrCC;
+        "forge-26.2" = _HY1vWFBy;
         "pkg-1.0.0" = _yekZsg2f;
-        "pkg-1.1" = _zKN9ONVS;
-        "pkg-1.2" = _ikAlhdom;
+        "pkg-1.1" = _fr5Wjv2D;
+        "pkg-1.2" = _UrmR0c45;
         "pkg-1.0" = _ZRhHhK2t;
         "pkg-1.1.1" = _uaJ49AQo;
-        "pkg-1.0.1" = _WNnp8PjM;
+        "pkg-1.0.1" = _hcXBvvFT;
         "pkg-1.2.1" = _3a9Dyph3;
         "pkg-1.0.3" = _vCmAdIPz;
         "pkg-1.2.3" = _rzd7jXKM;
-        "default" = _rzd7jXKM;
+        "pkg-1.0.2" = _MbspIeVV;
+        "pkg-1.2.2" = _FEw4Fyv5;
+        "pkg-1.3" = _X2LuN4PE;
+        "pkg-1.2.4" = _nMxaOwmJ;
+        "pkg-1.0.4" = _aBr0lhrV;
+        "pkg-1.2.5" = _btzBih0C;
+        "pkg-1.0.5" = _S62rOU3U;
+        "default" = _S62rOU3U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saros-player-plushie-lite";

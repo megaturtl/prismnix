@@ -36,6 +36,16 @@ let
             "file" = "villager-plus-2.3-build.2.jar";
             "hash" = "sha512-XKM3nvWLHpMOaMFFINzP3vRmbEf3jfdI6tysnIb2HZfeGmnRfsJvfQT7X8StRSe3nzKHMXsPSg5+MqXvL9gGKQ==";
         };
+        _keBe9UKI = {
+            "id" = "keBe9UKI";
+            "file" = "villager-plus-2.4.0+mc26.2.jar";
+            "hash" = "sha512-22Rpjc0fjMnQsTyfx4Y+dwU4Z8yCfZWaFefc5NiAI1MNlV2gz5DMKIXC3bMVE3xIcuYICcUh8iRIWmpXdx+kcQ==";
+        };
+        _AyEVJtaI = {
+            "id" = "AyEVJtaI";
+            "file" = "villager-plus-2.4.1+mc26.2.jar";
+            "hash" = "sha512-q6PgwTaGQ1x5wVs3fK3Zkuv78f9oB7p1nBzT3YaX2ftQrdzDnSHSIYeKpzwm7kImXkjHuiCkFfunbPcs5yT3fw==";
+        };
     in {
         "i6cWrETu" = _i6cWrETu;
         "6yi2bSZW" = _6yi2bSZW;
@@ -44,8 +54,10 @@ let
         "BRzc6duV" = _BRzc6duV;
         "nDUVEdJ3" = _nDUVEdJ3;
         "RS8dkXVZ" = _RS8dkXVZ;
+        "keBe9UKI" = _keBe9UKI;
+        "AyEVJtaI" = _AyEVJtaI;
         "fabric-26.1.2" = _2AUDu2rN;
-        "fabric-26.2" = _RS8dkXVZ;
+        "fabric-26.2" = _AyEVJtaI;
         "pkg-v1.0.0+mc26.1.2" = _i6cWrETu;
         "pkg-v1.1.0-build.1" = _6yi2bSZW;
         "pkg-v2.0.0+mc26.1.2" = _tL77BxnN;
@@ -53,7 +65,9 @@ let
         "pkg-v2.2-build.1" = _BRzc6duV;
         "pkg-v2.3.0+mc26.2" = _nDUVEdJ3;
         "pkg-v2.3-build.2" = _RS8dkXVZ;
-        "default" = _RS8dkXVZ;
+        "pkg-v2.4.0+mc26.2" = _keBe9UKI;
+        "pkg-v2.4.1+mc26.2" = _AyEVJtaI;
+        "default" = _AyEVJtaI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villager-plus";

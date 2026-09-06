@@ -26,20 +26,41 @@ let
             "file" = "dtru-1.1.1.jar";
             "hash" = "sha512-1LtNWLU2ZvXEBqm77RvJWB1ju1tVNHEDvM/lZk/BSwE5AVb975+QfrPN+FET1ERCIzAVKZdKJtATAy+CpAfokQ==";
         };
+        _uKz8D1Th = {
+            "id" = "uKz8D1Th";
+            "file" = "dtru-1.1.2-BETA01.jar";
+            "hash" = "sha512-gOTaMAiZ++HXwciHxrkDQoCWt5/t2ChfS5tllgLTkyl56hMtOjngJ1rVWxrqoBZsn5riARsB+JnnhyUhN/n2VQ==";
+        };
+        _MMFQxFg7 = {
+            "id" = "MMFQxFg7";
+            "file" = "dtru-1.1.2-BETA02.jar";
+            "hash" = "sha512-flbYdY3heVkVbwL1Q2LfSuJcJa7pQdYzOYL7j8fItItcSRVPSBTosdCaOO4dirRbPBkmOrSl3HFyQsd2DkksFQ==";
+        };
+        _MKm2stGO = {
+            "id" = "MKm2stGO";
+            "file" = "dtru-1.1.2.jar";
+            "hash" = "sha512-XlfV9zMLqvMmtwXGyWdH81y6KeO7hjTWG+698jHuo1DLgCfCUwLCHWMCDSMBsDMYooUUrQ63Y/AHwZz6pIrwJw==";
+        };
     in {
         "VCrxzWot" = _VCrxzWot;
         "1p5MwexL" = _1p5MwexL;
         "rOwBvTbl" = _rOwBvTbl;
         "7Pdqg6DG" = _7Pdqg6DG;
         "mjiUwbRt" = _mjiUwbRt;
+        "uKz8D1Th" = _uKz8D1Th;
+        "MMFQxFg7" = _MMFQxFg7;
+        "MKm2stGO" = _MKm2stGO;
         "forge-1.20.1" = _VCrxzWot;
-        "neoforge-1.21.1" = _mjiUwbRt;
+        "neoforge-1.21.1" = _MKm2stGO;
         "pkg-1.20.1-1.0.1" = _VCrxzWot;
         "pkg-1.1.0-BETA01" = _1p5MwexL;
         "pkg-1.1.0-BETA02" = _rOwBvTbl;
         "pkg-1.1.0" = _7Pdqg6DG;
         "pkg-1.1.1" = _mjiUwbRt;
-        "default" = _mjiUwbRt;
+        "pkg-1.1.2-BETA01" = _uKz8D1Th;
+        "pkg-1.1.2-BETA02" = _MMFQxFg7;
+        "pkg-1.1.2" = _MKm2stGO;
+        "default" = _MKm2stGO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dynamic-trees-ru";

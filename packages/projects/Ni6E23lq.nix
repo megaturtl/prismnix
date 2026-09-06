@@ -96,6 +96,11 @@ let
             "file" = "irregular-implements-1.21.1-1.11.0-build.263.jar";
             "hash" = "sha512-g3/87vZyFgjea4xdDGvwqwopZ0XNtYbk0fRunWdDhSvp+r3H9ohZfPNDH7zh5a8bZlPHYyxHRod6fALpTzZgJA==";
         };
+        _5RLNYtdC = {
+            "id" = "5RLNYtdC";
+            "file" = "irregular-implements-1.21.1-1.12.0-build.270.jar";
+            "hash" = "sha512-OsmB61Gt3gqy7b7Kt8vAnzuxm6uIz8loAItfayWThhtdiPmiv3pzIQWLXvaE6Ak0QWGZv0qiknC6d5CQpwCIIQ==";
+        };
     in {
         "T1rVlp2y" = _T1rVlp2y;
         "6ZKmgI6D" = _6ZKmgI6D;
@@ -116,7 +121,8 @@ let
         "XFQKINAp" = _XFQKINAp;
         "ysFZp4HT" = _ysFZp4HT;
         "UgUxo1NL" = _UgUxo1NL;
-        "neoforge-1.21.1" = _UgUxo1NL;
+        "5RLNYtdC" = _5RLNYtdC;
+        "neoforge-1.21.1" = _5RLNYtdC;
         "pkg-1.0.0" = _T1rVlp2y;
         "pkg-1.1.0-build.15" = _6ZKmgI6D;
         "pkg-1.2.0-build.19" = _DKyRWFzI;
@@ -136,7 +142,8 @@ let
         "pkg-1.10.4-build.243" = _XFQKINAp;
         "pkg-1.10.5-build.249" = _ysFZp4HT;
         "pkg-1.11.0-build.263" = _UgUxo1NL;
-        "default" = _UgUxo1NL;
+        "pkg-1.12.0-build.270" = _5RLNYtdC;
+        "default" = _5RLNYtdC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "irregular-implements";

@@ -26,19 +26,27 @@ let
             "file" = "highlights-1.2.jar";
             "hash" = "sha512-MtxdOCZ6q4Q6xMKyHaXcfm5vg/nR3rlPngPfmHwKznhMpq+cIf6/qPjx4tDjACWjBQ2YKTWh+k799wP7+Q/umA==";
         };
+        _MZIIpDt9 = {
+            "id" = "MZIIpDt9";
+            "file" = "highlights-1.3.jar";
+            "hash" = "sha512-AlQGE1c9HtuPJlaco+Jfxs6UQM7At3H0x6gi947jdhyxAJzzQyA5++guQilxkjBpWYzs4h3TvPxRX23iAQTI/g==";
+        };
     in {
         "KmMhOP4w" = _KmMhOP4w;
         "uBg3fMxl" = _uBg3fMxl;
         "RbVr2Mzh" = _RbVr2Mzh;
         "gMdePtlX" = _gMdePtlX;
         "5nenu0h9" = _5nenu0h9;
+        "MZIIpDt9" = _MZIIpDt9;
         "fabric-1.21.11" = _uBg3fMxl;
         "fabric-26.1" = _RbVr2Mzh;
         "fabric-26.1.1" = _gMdePtlX;
         "fabric-26.1.2" = _5nenu0h9;
+        "fabric-26.2" = _MZIIpDt9;
         "pkg-1.0.0" = _KmMhOP4w;
         "pkg-1.2" = _5nenu0h9;
-        "default" = _5nenu0h9;
+        "pkg-1.3" = _MZIIpDt9;
+        "default" = _MZIIpDt9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "highlights";

@@ -11,16 +11,23 @@ let
             "file" = "MTR_srt_SEAtrains4.0_250422.zip";
             "hash" = "sha512-NZJ6ZGRIJnSCrVRX+F5qdJ0fTUfx0ei6+bPu239EcUx8F5pSXdQ+FJhUWOFh/t6A574hDy6niQsZs2HYcT8YWQ==";
         };
+        _Y1uETc0n = {
+            "id" = "Y1uETc0n";
+            "file" = "MTR_srt_SEAtrains4.0_260903.zip";
+            "hash" = "sha512-3qZV1/VDabnK7lowWWIJNmMp7XcyHh2jf5IaRyinyU2EQTrJh5vCkXCP9PyoVntHU2is0lDHRsF/WoN4hyNG0g==";
+        };
     in {
         "jPocndtJ" = _jPocndtJ;
         "QOQxEiqV" = _QOQxEiqV;
-        "minecraft-1.19.2" = _QOQxEiqV;
-        "minecraft-1.19.4" = _QOQxEiqV;
-        "minecraft-1.20.1" = _QOQxEiqV;
-        "minecraft-1.20.4" = _QOQxEiqV;
+        "Y1uETc0n" = _Y1uETc0n;
+        "minecraft-1.19.2" = _Y1uETc0n;
+        "minecraft-1.19.4" = _Y1uETc0n;
+        "minecraft-1.20.1" = _Y1uETc0n;
+        "minecraft-1.20.4" = _Y1uETc0n;
         "pkg-1.0" = _jPocndtJ;
         "pkg-1.1" = _QOQxEiqV;
-        "default" = _QOQxEiqV;
+        "pkg-1.2" = _Y1uETc0n;
+        "default" = _Y1uETc0n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mtr34-south-east-asian-trains";

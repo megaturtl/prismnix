@@ -121,6 +121,16 @@ let
             "file" = "mini_mob_trophy-1.6.2-neoforge-26.2.jar";
             "hash" = "sha512-BK5wUjuglxSOYU7dTmY0wfMRqNiihlo390nX4Oh8Qmipr5Guq+Lg1/qCEwRSzD5bkrXVjz8SWGgKzBHGaa+fMw==";
         };
+        _XLv580k1 = {
+            "id" = "XLv580k1";
+            "file" = "mini_mob_trophy-1.6.3-neoforge-26.2.jar";
+            "hash" = "sha512-qUAybxCtwXWNbn6EzdYSF5e8OriOq0HkgAqPC2l1NSKLWmefC4vH+zHEJhMEe9KjycVIdtftPZ2qeZgdQRmRmg==";
+        };
+        _uxu9u67r = {
+            "id" = "uxu9u67r";
+            "file" = "mini_mob_trophy-1.6.4-neoforge-26.2.jar";
+            "hash" = "sha512-PG38RFfRjO2b2SFDuvJ8IX9ImFvf997CSrGLYSwD5GWvHHaTK2bvw1jzFfApAwLnDGocUV2V4WL/9BM/LKoQig==";
+        };
     in {
         "KUS8uslC" = _KUS8uslC;
         "txINVTxN" = _txINVTxN;
@@ -146,11 +156,13 @@ let
         "WHaWFTQG" = _WHaWFTQG;
         "RifSdzcJ" = _RifSdzcJ;
         "nnGXrphP" = _nnGXrphP;
+        "XLv580k1" = _XLv580k1;
+        "uxu9u67r" = _uxu9u67r;
         "neoforge-1.20.6" = _jCOsEtnj;
         "neoforge-1.21.1" = _mrNOuP2n;
         "neoforge-1.21.4" = _Dx6sHZES;
         "neoforge-1.21.11" = _f6nNmb3A;
-        "neoforge-26.2" = _nnGXrphP;
+        "neoforge-26.2" = _uxu9u67r;
         "pkg-1.0.0" = _KUS8uslC;
         "pkg-1.0.1" = _txINVTxN;
         "pkg-1.0.2" = _RdexMi5O;
@@ -175,7 +187,9 @@ let
         "pkg-1.6.0" = _WHaWFTQG;
         "pkg-1.6.1" = _RifSdzcJ;
         "pkg-1.6.2" = _nnGXrphP;
-        "default" = _nnGXrphP;
+        "pkg-1.6.3" = _XLv580k1;
+        "pkg-1.6.4" = _uxu9u67r;
+        "default" = _uxu9u67r;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mini-mob-trophy";

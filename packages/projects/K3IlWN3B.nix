@@ -36,6 +36,16 @@ let
             "file" = "duchessentials-fabric-mc1.21.11-1.0.0.jar";
             "hash" = "sha512-viYYi3Qs2fURLeS6U01lsh4sbsImyV/ww4XzM2QgTcoZgoBc1KK6Ppnc4i6cZjycR3LruDHIu22vKP2evIuPwg==";
         };
+        _7j9XgVl0 = {
+            "id" = "7j9XgVl0";
+            "file" = "duchessentials-fabric-mc26.2-1.0.0.jar";
+            "hash" = "sha512-nUhL2YUKU1T0lAWXS9eHUjGXyyOVK224VAk6tuU5IBQQV4U0wdXGmX0iKbOSt55RuN4E+rzzfL8BfWn3jTvs0g==";
+        };
+        _BW6FLfBb = {
+            "id" = "BW6FLfBb";
+            "file" = "duchessentials-fabric-mc26.1.2-1.0.0.jar";
+            "hash" = "sha512-U4JaqPesp73GZwFPMnMpNP3MF4yB2wl30QH4YVn6mHrfzXBpEF/3oM8t0aRSqZyYR/A6T7SzK1IQxM32HwLpNQ==";
+        };
     in {
         "gKPpsZX8" = _gKPpsZX8;
         "kHeira63" = _kHeira63;
@@ -44,6 +54,8 @@ let
         "deguR1vz" = _deguR1vz;
         "aKXP2oKU" = _aKXP2oKU;
         "lNB2OFAB" = _lNB2OFAB;
+        "7j9XgVl0" = _7j9XgVl0;
+        "BW6FLfBb" = _BW6FLfBb;
         "fabric-1.21" = _gKPpsZX8;
         "fabric-1.21.1" = _kHeira63;
         "fabric-1.21.4" = _Qkr6Szjr;
@@ -51,8 +63,10 @@ let
         "fabric-1.21.8" = _deguR1vz;
         "fabric-1.21.10" = _aKXP2oKU;
         "fabric-1.21.11" = _lNB2OFAB;
-        "pkg-1.0.0" = _lNB2OFAB;
-        "default" = _lNB2OFAB;
+        "fabric-26.2" = _7j9XgVl0;
+        "fabric-26.1.2" = _BW6FLfBb;
+        "pkg-1.0.0" = _BW6FLfBb;
+        "default" = _BW6FLfBb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "duchessentials";

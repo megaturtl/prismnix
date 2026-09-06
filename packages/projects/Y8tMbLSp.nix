@@ -21,16 +21,29 @@ let
             "file" = "cobblemon_xp_overhaul-fabric-1.1.jar";
             "hash" = "sha512-6FkCzPpuHSYNpmYEetA4eB/Rheg51w6lVbYFaYKwrK9jsyErOzRu6bS4E8VvpnDoqQKmrcLNqKuWK+XCz4Ujwg==";
         };
+        _fEmorlD6 = {
+            "id" = "fEmorlD6";
+            "file" = "cobblemon_xp_overhaul-neoforge-1.2.jar";
+            "hash" = "sha512-xy2MurjBViXryETOqUNMxcvvz2Xc/DzKKgajvpUrG/WxxC6LJuvTqJxWSGE8xGaBByCj1iF9ASZY9rtog+6HXA==";
+        };
+        _m0Jrz0jP = {
+            "id" = "m0Jrz0jP";
+            "file" = "cobblemon_xp_overhaul-fabric-1.2.jar";
+            "hash" = "sha512-wuqqEw2pk9aZQcZt39AD3Pgfa4Nb1tqwSE4Rtpku5SNsQBE+fr4cODSThFTZCi9eScP6Sww+XNGQ0SyMozpnAg==";
+        };
     in {
         "nlZZWJfI" = _nlZZWJfI;
         "uOqGM7JI" = _uOqGM7JI;
         "GCMTe5w1" = _GCMTe5w1;
         "VAAXEDbs" = _VAAXEDbs;
-        "fabric-1.21.1" = _VAAXEDbs;
-        "neoforge-1.21.1" = _GCMTe5w1;
+        "fEmorlD6" = _fEmorlD6;
+        "m0Jrz0jP" = _m0Jrz0jP;
+        "fabric-1.21.1" = _m0Jrz0jP;
+        "neoforge-1.21.1" = _fEmorlD6;
         "pkg-1.0.0" = _uOqGM7JI;
         "pkg-1.1" = _VAAXEDbs;
-        "default" = _VAAXEDbs;
+        "pkg-1.2" = _m0Jrz0jP;
+        "default" = _m0Jrz0jP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-xp-overhaul";

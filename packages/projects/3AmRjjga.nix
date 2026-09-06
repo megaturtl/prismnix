@@ -126,6 +126,21 @@ let
             "file" = "moveslikemafuyu-neoforge-1.21.1-1.2.0.jar";
             "hash" = "sha512-g3qNAWYG2lAhFJ2J9SFfS5yyfD/RTzmU5z5c+O5CfiyhiSN6yAIhKqaRg8DI9Nd8GeRMPAdyzpWd+LTi3FwuDg==";
         };
+        _xg6KEeVU = {
+            "id" = "xg6KEeVU";
+            "file" = "MovesLikeMafuyu-1.2.1.jar";
+            "hash" = "sha512-+4FWbJi/jD5Va3EHW+fDqvIBdMqbcdW/a7f7HouS4lGo3i6PEFXqnhKFFoQml5JHWSPEydqnPGYi2fMQXS6orw==";
+        };
+        _VToVv0al = {
+            "id" = "VToVv0al";
+            "file" = "MovesLikeMafuyu-1.2.1-hotfix.jar";
+            "hash" = "sha512-PTap43eiGpAv+seC+RPna2GhraxNuWrYYIn0fYRxVgJ9J9gjk7ICX6XnJ68sKyjsi4zJXUUq334fhimjnKVaeg==";
+        };
+        _2alu74BK = {
+            "id" = "2alu74BK";
+            "file" = "MovesLikeMafuyu-1.2.1-hotfix2.jar";
+            "hash" = "sha512-8p7a5Qzsn90/T+HF4SUy5NMzVXwCrXNScWrYC4cVJnudnYQmKY4vluU2trESYIJcQPxMsnrdy/yJYdkMqtBj8A==";
+        };
     in {
         "iTQVSBM2" = _iTQVSBM2;
         "JNsYwJya" = _JNsYwJya;
@@ -152,18 +167,21 @@ let
         "11Cp3XAV" = _11Cp3XAV;
         "svk9ozHT" = _svk9ozHT;
         "4ubkUaEA" = _4ubkUaEA;
-        "forge-1.20.1" = _svk9ozHT;
+        "xg6KEeVU" = _xg6KEeVU;
+        "VToVv0al" = _VToVv0al;
+        "2alu74BK" = _2alu74BK;
+        "forge-1.20.1" = _2alu74BK;
         "forge-1.19.2" = _hJVcRFWi;
         "forge-1.19" = _hJVcRFWi;
         "forge-1.19.1" = _hJVcRFWi;
         "forge-1.19.3" = _hJVcRFWi;
         "forge-1.19.4" = _hJVcRFWi;
-        "forge-1.20" = _svk9ozHT;
-        "forge-1.20.2" = _svk9ozHT;
-        "forge-1.20.3" = _svk9ozHT;
-        "forge-1.20.4" = _svk9ozHT;
-        "forge-1.20.5" = _svk9ozHT;
-        "forge-1.20.6" = _svk9ozHT;
+        "forge-1.20" = _2alu74BK;
+        "forge-1.20.2" = _2alu74BK;
+        "forge-1.20.3" = _2alu74BK;
+        "forge-1.20.4" = _2alu74BK;
+        "forge-1.20.5" = _2alu74BK;
+        "forge-1.20.6" = _2alu74BK;
         "neoforge-1.21" = _VYMcztvE;
         "neoforge-1.21.1" = _4ubkUaEA;
         "neoforge-1.21.2" = _936Ez6bE;
@@ -185,7 +203,10 @@ let
         "pkg-1.2.0-dev" = _jRsaaMz3;
         "pkg-1.2.0" = _svk9ozHT;
         "pkg-1.2.0fix" = _4ubkUaEA;
-        "default" = _4ubkUaEA;
+        "pkg-1.2.1" = _xg6KEeVU;
+        "pkg-1.2.1-hotfix" = _VToVv0al;
+        "pkg-1.2.1-hotfix2" = _2alu74BK;
+        "default" = _2alu74BK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "moves-like-mafuyu";

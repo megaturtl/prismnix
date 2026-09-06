@@ -166,6 +166,11 @@ let
             "file" = "landmarks-neoforge-26.2-1.2.0.jar";
             "hash" = "sha512-O8W+7XJA0v58jm6/pg+J5IUuJbJImT218khciZ2Y/PEDUvj2bTDtq/rV80tWIBVk2mV333DwcESIxqouJbwn+w==";
         };
+        _qycoHVXc = {
+            "id" = "qycoHVXc";
+            "file" = "landmarks-neoforge-26.2-1.2.1.jar";
+            "hash" = "sha512-8bC8gLBNnPYc8+LodbrE+Jx/iyLQNGsCGNS2kA+0Fg+IFDcb8hS7Nm/igsBAy+Zqw9paPG4zT02rbzgr3T+qWg==";
+        };
     in {
         "M5MCy24t" = _M5MCy24t;
         "GUL84uUf" = _GUL84uUf;
@@ -200,6 +205,7 @@ let
         "Yk9vmc3T" = _Yk9vmc3T;
         "hjijwv57" = _hjijwv57;
         "cucVQDrd" = _cucVQDrd;
+        "qycoHVXc" = _qycoHVXc;
         "fabric-1.21" = _GWQNTOkR;
         "fabric-1.21.1" = _GWQNTOkR;
         "fabric-1.20.1" = _WjODM7L1;
@@ -213,14 +219,15 @@ let
         "neoforge-1.20.1" = _lDRuj3zr;
         "neoforge-1.21.8" = _LhOs9b54;
         "neoforge-1.21.10" = _6PeL8OFr;
-        "neoforge-26.2" = _cucVQDrd;
+        "neoforge-26.2" = _qycoHVXc;
         "forge-1.20.1" = _Yk9vmc3T;
         "forge-1.20" = _Yk9vmc3T;
         "pkg-1.0.0" = _bXXzIywJ;
         "pkg-1.1.0" = _9iikXEls;
         "pkg-1.1.1" = _xYyMIe5M;
         "pkg-1.2.0" = _cucVQDrd;
-        "default" = _cucVQDrd;
+        "pkg-1.2.1" = _qycoHVXc;
+        "default" = _qycoHVXc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "landmarks";

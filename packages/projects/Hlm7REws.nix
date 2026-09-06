@@ -76,6 +76,16 @@ let
             "file" = "Ice and Fire - Dragon Care - 1.2.6 - 1.21.1v.jar";
             "hash" = "sha512-aRoAY2AhnWz6QXGlKxIEvrpAHLDT94G8lakmhDgHCcFXFwtbrxmLs0ze/RdnC33y8fbyoNBWwgv/qYNS6/VcvQ==";
         };
+        _4ksnaH5y = {
+            "id" = "4ksnaH5y";
+            "file" = "Ice and Fire - Dragon Care-1.3.0 - 1.21.1v.jar";
+            "hash" = "sha512-vvTJb28rHDPkTvwNF6GF+J/MhAcrfw9WZ5HZtsR3dlEiB7YHiRiw9x74sPJRUuP36w0Z6/THzXXVdAoH/Fa6rQ==";
+        };
+        _3KfJXCIa = {
+            "id" = "3KfJXCIa";
+            "file" = "Ice and Fire - Dragon Care-1.3.1 - 1.21.1v.jar";
+            "hash" = "sha512-FdNBxx+/rcKyU3LhHGS+RAktteWjs4o0dekNm1+02QD3/fYUjMccC8vUxPmY/uX6lnxRQtKByOhJjRdeKJaBlQ==";
+        };
     in {
         "Q2ThFPOA" = _Q2ThFPOA;
         "T7TDnSVM" = _T7TDnSVM;
@@ -92,7 +102,9 @@ let
         "EVmkvBNE" = _EVmkvBNE;
         "IQBVVmJ2" = _IQBVVmJ2;
         "gxtpMOCJ" = _gxtpMOCJ;
-        "neoforge-1.21.1" = _gxtpMOCJ;
+        "4ksnaH5y" = _4ksnaH5y;
+        "3KfJXCIa" = _3KfJXCIa;
+        "neoforge-1.21.1" = _3KfJXCIa;
         "neoforge-1.20.1" = _IQBVVmJ2;
         "forge-1.20.1" = _IQBVVmJ2;
         "pkg-1.0.0" = _HUrf9KGc;
@@ -108,7 +120,9 @@ let
         "pkg-1.2.5" = _EVmkvBNE;
         "pkg-1.0.3" = _IQBVVmJ2;
         "pkg-1.2.6" = _gxtpMOCJ;
-        "default" = _gxtpMOCJ;
+        "pkg-1.3.0" = _4ksnaH5y;
+        "pkg-1.3.1" = _3KfJXCIa;
+        "default" = _3KfJXCIa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ice-and-fire-dragon-care";

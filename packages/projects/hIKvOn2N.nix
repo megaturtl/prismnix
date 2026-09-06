@@ -67,13 +67,13 @@ let
         type = "resourcepack";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-RVCL-1.0.md" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "LicenseRef-All-Rights-Reserved";
-                shortName = "LicenseRef-All-Rights-Reserved";
-                url = null;
+                fullName = "LicenseRef-RVCL-1.0.md";
+                shortName = "LicenseRef-RVCL-1.0.md";
+                url = "https://github.com/RussoViller/russostyle-saves/blob/main/RVCL-1.0.md";
             };
         };
     };

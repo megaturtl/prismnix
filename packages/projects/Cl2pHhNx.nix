@@ -56,6 +56,11 @@ let
             "file" = "CopperandTuffBackport-1.3.7.jar";
             "hash" = "sha512-HAsIrPe4H+/48dYbUk4N3OLvh2yY5hh1tJBC//UDmWMVpldZIySo05HL5GP0qLYR8KG+vPjYx6rkml5Cfw7Shw==";
         };
+        _vJEN4dqM = {
+            "id" = "vJEN4dqM";
+            "file" = "CopperandTuffBackport-1.4.0.jar";
+            "hash" = "sha512-o8MkH6vbYbRfbqSJNXkWfhkqpnT/zxYv7SwjgYEx/P9yH0kiL5cwcElE2CXmCTTnjhWGMZCkxHKDasD1sYa35A==";
+        };
     in {
         "qiEl61XL" = _qiEl61XL;
         "qpePHU9f" = _qpePHU9f;
@@ -68,8 +73,9 @@ let
         "ri9jJ82u" = _ri9jJ82u;
         "Q8mxzdgW" = _Q8mxzdgW;
         "BcsPFRqY" = _BcsPFRqY;
-        "fabric-1.20.1" = _Q8mxzdgW;
-        "fabric-1.20.2" = _Q8mxzdgW;
+        "vJEN4dqM" = _vJEN4dqM;
+        "fabric-1.20.1" = _vJEN4dqM;
+        "fabric-1.20.2" = _vJEN4dqM;
         "fabric-1.20.3" = _BcsPFRqY;
         "fabric-1.20.4" = _BcsPFRqY;
         "pkg-mc1.20.1-1.2.2-release-fabric" = _qiEl61XL;
@@ -83,7 +89,8 @@ let
         "pkg-mc1.20.3-1.3.6-release-fabric" = _ri9jJ82u;
         "pkg-mc1.20.1-1.3.7-release-fabric" = _Q8mxzdgW;
         "pkg-mc1.20.3-1.3.7-release-fabric" = _BcsPFRqY;
-        "default" = _BcsPFRqY;
+        "pkg-v1.4.0" = _vJEN4dqM;
+        "default" = _vJEN4dqM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "copper-and-tuff-backport";

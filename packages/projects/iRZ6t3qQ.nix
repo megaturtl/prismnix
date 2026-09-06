@@ -121,6 +121,21 @@ let
             "file" = "More Critters 1.4.3.jar";
             "hash" = "sha512-+HZJWl4qmShFprXfumTffPyjwYQkPeWAbWxgE4m8CqS17ypF9Y6Vki3UnrKjyS9s6GNllaNHq1yiU248s1kqkA==";
         };
+        _T2JZJOPL = {
+            "id" = "T2JZJOPL";
+            "file" = "More Critters 1.4.4.jar";
+            "hash" = "sha512-JWwkDO7VfWn00hlO/nLULgu/ehDGs58CorCYIo0sblI2aA7iZzKEKwkSeHpLupsI8n7w1rjZu30QU3M3H8r/xw==";
+        };
+        _mkngFD6P = {
+            "id" = "mkngFD6P";
+            "file" = "More Critters 1.4.4 hotfix.jar";
+            "hash" = "sha512-Ikr1jQIsu+zEJ7iCl+vF1x93KPCp3o4V2w34MSoQ6iBUbw/TtgSWczf7mBRc1d5cHlHZgNQhpUBw0w7M4mBn7Q==";
+        };
+        _XVv1elXV = {
+            "id" = "XVv1elXV";
+            "file" = "More Critters 1.4.5.jar";
+            "hash" = "sha512-sCgUadT0PTuAgBUqMEasbmox5LcJ2LAPgOkBr7O32nvx+eoebjfjcLeF9pgt7CqCXOEsxS3z/N0BewbuX1Crcg==";
+        };
     in {
         "KUUjUHG0" = _KUUjUHG0;
         "uBBbpneH" = _uBBbpneH;
@@ -146,7 +161,10 @@ let
         "4odvIBFm" = _4odvIBFm;
         "B2QsRC5M" = _B2QsRC5M;
         "hAFmcrl9" = _hAFmcrl9;
-        "forge-1.20.1" = _hAFmcrl9;
+        "T2JZJOPL" = _T2JZJOPL;
+        "mkngFD6P" = _mkngFD6P;
+        "XVv1elXV" = _XVv1elXV;
+        "forge-1.20.1" = _XVv1elXV;
         "pkg-1.0.3" = _KUUjUHG0;
         "pkg-1.1.0" = _uBBbpneH;
         "pkg-1.1.1" = _RjdOJ2qh;
@@ -171,7 +189,10 @@ let
         "pkg-1.4.1" = _4odvIBFm;
         "pkg-1.4.2" = _B2QsRC5M;
         "pkg-1.4.3" = _hAFmcrl9;
-        "default" = _hAFmcrl9;
+        "pkg-1.4.4" = _T2JZJOPL;
+        "pkg-1.4.4_1" = _mkngFD6P;
+        "pkg-1.4.5" = _XVv1elXV;
+        "default" = _XVv1elXV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-critters";

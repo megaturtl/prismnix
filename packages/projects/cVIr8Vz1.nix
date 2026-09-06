@@ -101,6 +101,16 @@ let
             "file" = "SimpleStorageNetwork-1.12.2-2.0.1.jar";
             "hash" = "sha512-RMKiEKdUhGUjheZT7BwMW95FiZMR5M2z20ax3kctRYG+YxERt25y2UeySMJ1pWZdpLOeK7H/Wwrhj3EVnlu4Rw==";
         };
+        _uD3jUj5S = {
+            "id" = "uD3jUj5S";
+            "file" = "storagenetwork-1.21.1-1.13.2.jar";
+            "hash" = "sha512-CA/w5GPAE+ZW2WncvGIovchfV/2ScNyoePVTX3VN9J5uo3zmlZVl/3Md/TPPCwVl3TSQsr7cP2SvoI+zKi5HYw==";
+        };
+        _YznUL5Pm = {
+            "id" = "YznUL5Pm";
+            "file" = "storagenetwork-26.1.2-1.13.2.jar";
+            "hash" = "sha512-3ifORIIW1/ZKRws7uwXV9esDbGYaPmCXkArIL92jR09KUGBLP4RMVSCm1IB9NNv+phDQ6Fq0c0OsAUjDNuvpkA==";
+        };
     in {
         "cyLWGN69" = _cyLWGN69;
         "M69BZc44" = _M69BZc44;
@@ -122,6 +132,8 @@ let
         "XSVSQtfE" = _XSVSQtfE;
         "GwAIQA29" = _GwAIQA29;
         "JdylTyat" = _JdylTyat;
+        "uD3jUj5S" = _uD3jUj5S;
+        "YznUL5Pm" = _YznUL5Pm;
         "forge-1.12.2" = _JdylTyat;
         "forge-1.16.5" = _GwAIQA29;
         "forge-1.18.2" = _GBuuL3yz;
@@ -130,7 +142,8 @@ let
         "forge-1.19.4" = _3eelCPku;
         "forge-1.21.1" = _Q9EnV1K6;
         "neoforge-1.20.1" = _UmSTgKWE;
-        "neoforge-1.21.1" = _XSVSQtfE;
+        "neoforge-1.21.1" = _uD3jUj5S;
+        "neoforge-26.1.2" = _YznUL5Pm;
         "pkg-1.12.2-1.8.3" = _cyLWGN69;
         "pkg-1.16.5-1.5.3" = _M69BZc44;
         "pkg-1.18.2-1.7.0" = _NZf9nMCT;
@@ -151,7 +164,9 @@ let
         "pkg-1.21.1-1.13.1" = _XSVSQtfE;
         "pkg-1.16.5-1.5.6" = _GwAIQA29;
         "pkg-1.12.2-2.0.1" = _JdylTyat;
-        "default" = _JdylTyat;
+        "pkg-1.21.1-1.13.2" = _uD3jUj5S;
+        "pkg-26.1.2-1.13.2" = _YznUL5Pm;
+        "default" = _YznUL5Pm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-storage-network";

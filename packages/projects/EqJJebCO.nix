@@ -111,6 +111,11 @@ let
             "file" = "Anti Cords Leaker.zip";
             "hash" = "sha512-v1xV+BJX0yVP8PMvXlka4WtFswQoZHY6CVBuZ6W2x09N2Cm8zBcRxFvQq5VI7PLPl7UKdJtI+Ml0KUqhDM7Thw==";
         };
+        _GbIs1OsY = {
+            "id" = "GbIs1OsY";
+            "file" = "updated_Anti_Cords_Leaker.zip";
+            "hash" = "sha512-memFmmMZy/QmZKkyCiNgjeKN/x6LBcVfv/ZlOtCJFOWajajPYyXI0UvoYb53XFGhWewf7wcebquoUN/q7W3SyQ==";
+        };
     in {
         "P7dVdgRL" = _P7dVdgRL;
         "pAtvmC4d" = _pAtvmC4d;
@@ -134,6 +139,7 @@ let
         "HI5zm6Gx" = _HI5zm6Gx;
         "AFCuHIEw" = _AFCuHIEw;
         "GCTvLYY1" = _GCTvLYY1;
+        "GbIs1OsY" = _GbIs1OsY;
         "minecraft-1.21.7" = _pAtvmC4d;
         "minecraft-1.21.8" = _pAtvmC4d;
         "minecraft-1.21.11" = _1AqKZSru;
@@ -174,9 +180,13 @@ let
         "minecraft-1.16" = _AFCuHIEw;
         "minecraft-1.16.1" = _AFCuHIEw;
         "minecraft-1.14.4" = _GCTvLYY1;
+        "minecraft-26.1.1" = _GbIs1OsY;
+        "minecraft-26.1.2" = _GbIs1OsY;
+        "minecraft-26.2" = _GbIs1OsY;
         "pkg-v1.0.0" = _P7dVdgRL;
         "pkg-v1.1.0" = _GCTvLYY1;
-        "default" = _GCTvLYY1;
+        "pkg-V1.1.0" = _GbIs1OsY;
+        "default" = _GbIs1OsY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "anti-cords-leaker";

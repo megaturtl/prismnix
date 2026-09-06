@@ -131,6 +131,16 @@ let
             "file" = "better_looting-1.21.1-neoforge-2.1.1.jar";
             "hash" = "sha512-YE02Auou7ZGyS9x5n5DwHdzTkWRzh6GCOk4W6xCcDldKfh9RowpSre6I4Pvy1IZPb4FbaPev6onUjA/7dSimbw==";
         };
+        _A71I8kc1 = {
+            "id" = "A71I8kc1";
+            "file" = "better_looting-1.20.1-forge-2.1.1-hotfix.jar";
+            "hash" = "sha512-HAbgfCjV9WM+iKRWVr6vMYCXivLGcM6DAoDL9+AYgl/B8Jq04HqJKSm0H90WGcp+5cedWT3UeBzFAL7LMM/sAg==";
+        };
+        _YC3AfclA = {
+            "id" = "YC3AfclA";
+            "file" = "better_looting-1.21.1-neoforge-2.1.1-hotfix.jar";
+            "hash" = "sha512-Jo0p5/RU+7krTugRbGqZSZJb0kqSdQ79RPQLBTm1WGS1lboWXDv7TLuyJUey6FfIPTyWy0kc3FZKkktuzMyTpA==";
+        };
     in {
         "l4l1dC5F" = _l4l1dC5F;
         "WMu05EM9" = _WMu05EM9;
@@ -158,10 +168,12 @@ let
         "GSlPs6W6" = _GSlPs6W6;
         "4j8kNlYH" = _4j8kNlYH;
         "ZOzVb5MT" = _ZOzVb5MT;
-        "forge-1.20.1" = _a5zjSt6Q;
+        "A71I8kc1" = _A71I8kc1;
+        "YC3AfclA" = _YC3AfclA;
+        "forge-1.20.1" = _A71I8kc1;
         "fabric-1.20.1" = _GSlPs6W6;
         "fabric-1.21.1" = _4j8kNlYH;
-        "neoforge-1.21.1" = _ZOzVb5MT;
+        "neoforge-1.21.1" = _YC3AfclA;
         "pkg-1.0.4" = _rhhStPBi;
         "pkg-1.0.6" = _YsZSIgdr;
         "pkg-1.1.0" = _XDvsMHYN;
@@ -169,7 +181,8 @@ let
         "pkg-2.0.0" = _hDNlaNmm;
         "pkg-2.1.0" = _54VeX244;
         "pkg-2.1.1" = _ZOzVb5MT;
-        "default" = _ZOzVb5MT;
+        "pkg-2.1.1-hotfix" = _YC3AfclA;
+        "default" = _YC3AfclA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-looting";

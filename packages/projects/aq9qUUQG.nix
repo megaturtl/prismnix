@@ -76,6 +76,11 @@ let
             "file" = "create-stuff-additions1.21.1_v2.1.4a.jar";
             "hash" = "sha512-Q+n11v6fqvGne3+XnC8bdkOpCwjAVy0G7wnvyyAdMJu2bDLDlq6Dg9aMIhciSpjcdwKQuCkbmO36N8m8P8GaMg==";
         };
+        _gMWQ1LX9 = {
+            "id" = "gMWQ1LX9";
+            "file" = "create-stuff-additions1.21.1_v2.1.4b.jar";
+            "hash" = "sha512-dc2KCi+JizWZyyZ8JsAmkeU/jKj2xsTxbRqC24/qRJSYjxY1Wcw6i0cWg9W1I1O6Bl3viEan/yBzvd9C5otefQ==";
+        };
     in {
         "ukpL99OR" = _ukpL99OR;
         "GoGShOGW" = _GoGShOGW;
@@ -92,10 +97,11 @@ let
         "uzmWSzyy" = _uzmWSzyy;
         "2RuRqjfk" = _2RuRqjfk;
         "5xWzE6Yk" = _5xWzE6Yk;
+        "gMWQ1LX9" = _gMWQ1LX9;
         "forge-1.18.2" = _ukpL99OR;
         "forge-1.19.2" = _GoGShOGW;
         "forge-1.20.1" = _uzmWSzyy;
-        "neoforge-1.21.1" = _5xWzE6Yk;
+        "neoforge-1.21.1" = _gMWQ1LX9;
         "neoforge-1.21.2" = _r1ark55O;
         "neoforge-1.21.3" = _r1ark55O;
         "neoforge-1.21.4" = _r1ark55O;
@@ -111,7 +117,8 @@ let
         "pkg-2.1.2" = _uzmWSzyy;
         "pkg-2.1.3" = _2RuRqjfk;
         "pkg-2.1.4.a" = _5xWzE6Yk;
-        "default" = _5xWzE6Yk;
+        "pkg-2.1.4.b" = _gMWQ1LX9;
+        "default" = _gMWQ1LX9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-stuff-additions";

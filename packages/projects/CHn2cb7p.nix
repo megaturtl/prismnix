@@ -41,6 +41,16 @@ let
             "file" = "Easy-freecam-1.1+26.2.jar";
             "hash" = "sha512-1kIwkwf5DU/U41Nyi5tinOjNnHgXeqbuLi8O/mfzzwQGdCUtC6wPsmPnDRaDXstL7/gBpVkzmKXNALtlO52dDg==";
         };
+        _nmwsbhhz = {
+            "id" = "nmwsbhhz";
+            "file" = "Easy-freecam-2.0+26.1.2.jar";
+            "hash" = "sha512-cOAK/jabwa7b//5JT2Su6DvTzpbb3PJH2U1ajtKCfSQ/p1ja/xMDf3tSfKa/O4U/ILowZot29ZTTuI1wejObHg==";
+        };
+        _gG6J64nB = {
+            "id" = "gG6J64nB";
+            "file" = "Easy-freecam-2.0+26.2.jar";
+            "hash" = "sha512-GHJJVBr8KqI/j+cPtXZdTxs1DpXh8ISQkP4OcXQLXRqIurwIAvDKPruqkZoiZF979jp/1GBKVLp1JzxVoo74CQ==";
+        };
     in {
         "eN8EcQ5Z" = _eN8EcQ5Z;
         "9MHNXpAl" = _9MHNXpAl;
@@ -50,17 +60,21 @@ let
         "wWX2zEUB" = _wWX2zEUB;
         "GfeHxBwG" = _GfeHxBwG;
         "OBXdzWyk" = _OBXdzWyk;
+        "nmwsbhhz" = _nmwsbhhz;
+        "gG6J64nB" = _gG6J64nB;
         "fabric-1.21.11" = _eN8EcQ5Z;
         "fabric-26.1" = _wvf1NPOF;
         "fabric-26.1.1" = _wWX2zEUB;
-        "fabric-26.1.2" = _GfeHxBwG;
-        "fabric-26.2" = _OBXdzWyk;
+        "fabric-26.1.2" = _nmwsbhhz;
+        "fabric-26.2" = _gG6J64nB;
         "pkg-1.1+1.21.11" = _eN8EcQ5Z;
         "pkg-1.1+26.1" = _wvf1NPOF;
         "pkg-1.1+26.1.1" = _wWX2zEUB;
         "pkg-1.1+26.1.2" = _GfeHxBwG;
         "pkg-1.1+26.2" = _OBXdzWyk;
-        "default" = _OBXdzWyk;
+        "pkg-2.0+26.1.2" = _nmwsbhhz;
+        "pkg-2.0+26.2" = _gG6J64nB;
+        "default" = _gG6J64nB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easy-freecam";

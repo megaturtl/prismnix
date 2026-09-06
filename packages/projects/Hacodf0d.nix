@@ -381,6 +381,21 @@ let
             "file" = "ZombifiedPlayer-1.6.0-NeoForge-mc26.1.jar";
             "hash" = "sha512-jZPZJHnbXCCXF/NdppazjZlkhbnD4FzT7n3jlL+2xrLSSoDrtRkLMdHdvDmaSCS/g5UXHCu7gq9DFnS8+bP3FA==";
         };
+        _B7ye63gM = {
+            "id" = "B7ye63gM";
+            "file" = "ZombifiedPlayer-1.7.0-Forge-mc1.20.1.jar";
+            "hash" = "sha512-QVcK8V7nKAg8AuA6FwsC4cCQDyFsHF9NbewzDoYfJ4mibiibVVKQ8WdKcQGRc6dQxAKy0G5mlZVNkhHTMfYDHA==";
+        };
+        _wIqf7w4I = {
+            "id" = "wIqf7w4I";
+            "file" = "ZombifiedPlayer-1.7.0-NeoForge-mc1.21.jar";
+            "hash" = "sha512-xxvuzlggAZeFX1Aay/S+ADyK4Ahucj+H5Aqzki/aZp6owUKL3+wWg4ll8QbqpJpiw6VMVizEiX7ZjfZDu4oJ1w==";
+        };
+        _qJuwnjJ7 = {
+            "id" = "qJuwnjJ7";
+            "file" = "ZombifiedPlayer-1.6.1-Fabric-mc26.2.jar";
+            "hash" = "sha512-KUIkYqboink5BKjjH7OrTN+1vYPaFjEBWsfLVqyxSzcaZHPJf12oAiCwHrYsYod7wHYdPKsrS/CABoHuqfvHTA==";
+        };
     in {
         "dk55DMgF" = _dk55DMgF;
         "maYQUijY" = _maYQUijY;
@@ -458,6 +473,9 @@ let
         "KMrut5mp" = _KMrut5mp;
         "ehLLHEKo" = _ehLLHEKo;
         "Sd5IBzSM" = _Sd5IBzSM;
+        "B7ye63gM" = _B7ye63gM;
+        "wIqf7w4I" = _wIqf7w4I;
+        "qJuwnjJ7" = _qJuwnjJ7;
         "fabric-1.21" = _pux1cQyj;
         "fabric-1.21.1" = _lRG0prKr;
         "fabric-1.20" = _QsByh6Zz;
@@ -475,11 +493,11 @@ let
         "fabric-26.1" = _ehLLHEKo;
         "fabric-26.1.1" = _ehLLHEKo;
         "fabric-26.1.2" = _ehLLHEKo;
-        "fabric-26.2" = _ehLLHEKo;
-        "forge-1.20.1" = _ycyuIRaR;
+        "fabric-26.2" = _qJuwnjJ7;
+        "forge-1.20.1" = _B7ye63gM;
         "forge-1.19.2" = _zzQH692K;
-        "neoforge-1.21" = _KMrut5mp;
-        "neoforge-1.21.1" = _KMrut5mp;
+        "neoforge-1.21" = _wIqf7w4I;
+        "neoforge-1.21.1" = _wIqf7w4I;
         "neoforge-1.21.3" = _TfR4NWtv;
         "neoforge-1.21.4" = _GKNhK3ry;
         "neoforge-1.21.5" = _GK0O9SfU;
@@ -569,7 +587,10 @@ let
         "pkg-1.4.5-NeoForge-mc1.21" = _KMrut5mp;
         "pkg-1.6.0-Fabric-mc26.1" = _ehLLHEKo;
         "pkg-1.6.0-NeoForge-mc26.1" = _Sd5IBzSM;
-        "default" = _Sd5IBzSM;
+        "pkg-1.7.0-Forge-mc1.20.1" = _B7ye63gM;
+        "pkg-1.7.0-NeoForge-mc1.21" = _wIqf7w4I;
+        "pkg-1.6.1-Fabric-mc26.2" = _qJuwnjJ7;
+        "default" = _qJuwnjJ7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zombified-player";

@@ -71,6 +71,11 @@ let
             "file" = "gtca-1.20.1-2.1.0-beta.jar";
             "hash" = "sha512-59QcHbFwgiRgdaGJZKEGPQq4PU7oR5WFR1oqQG/++nJLhDuYNxUuXTKwXP7C4AFTCT1DmEkXqFBGTcCKMLDmPw==";
         };
+        _gYFIyWvD = {
+            "id" = "gYFIyWvD";
+            "file" = "gtca-1.20.1-2.2.0.jar";
+            "hash" = "sha512-gpx5gaMcNdOV7L0C2L/TZt+P9szeoDAHbR9XkJEZ5SdR/Ti+EQq3+MbFmlsePxFPtLF3fQ00qVdD+Cp1AjTMyQ==";
+        };
     in {
         "HTvI3iar" = _HTvI3iar;
         "HUb4E9Vm" = _HUb4E9Vm;
@@ -86,7 +91,8 @@ let
         "S6IMPnl6" = _S6IMPnl6;
         "3HD1Ukft" = _3HD1Ukft;
         "Uvm8Irn5" = _Uvm8Irn5;
-        "forge-1.20.1" = _Uvm8Irn5;
+        "gYFIyWvD" = _gYFIyWvD;
+        "forge-1.20.1" = _gYFIyWvD;
         "pkg-1.0.0a" = _HTvI3iar;
         "pkg-1.0.1a" = _HUb4E9Vm;
         "pkg-1.0.2a" = _ovbCOnG3;
@@ -101,7 +107,8 @@ let
         "pkg-2.0.0" = _S6IMPnl6;
         "pkg-2.0.1" = _3HD1Ukft;
         "pkg-2.1.0-beta" = _Uvm8Irn5;
-        "default" = _Uvm8Irn5;
+        "pkg-2.2.0" = _gYFIyWvD;
+        "default" = _gYFIyWvD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gt-community-additions";

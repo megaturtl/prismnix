@@ -121,6 +121,21 @@ let
             "file" = "eden-ring-20.1.21+build.1.jar";
             "hash" = "sha512-OWgGl9Wzbmcp5upzhAPX67Rzv7WFzrakYjPmYlH2z0D6sDkcWcnOPyBAG3Yc0qtmfO+nb4U3xCyYmmVTGPRt7Q==";
         };
+        _NF0x51gE = {
+            "id" = "NF0x51gE";
+            "file" = "eden-ring-21.0.0-beta.1.jar";
+            "hash" = "sha512-Yg4yCdMrU1n46eEPoMUc3o3lU8AQtq4MMfZJ+Qdc3FRNAc9tpw4UzwWeZSD29AZS8GlQkza0ix8iWMbyOArDBg==";
+        };
+        _JLMNKjxx = {
+            "id" = "JLMNKjxx";
+            "file" = "eden-ring-21.0.0.jar";
+            "hash" = "sha512-yDAT51nPukacqmI/YDsq9Pii7yPouDW/ImA4HMPyHgTJKTtBvfwjcpGfii0GyenOJICM48NFsLiq4Z9LQbbIJw==";
+        };
+        _mYFSFEE6 = {
+            "id" = "mYFSFEE6";
+            "file" = "eden-ring-reforked-0.8.1-beta.3.jar";
+            "hash" = "sha512-/XLgAyxc2svL5BAB8ZbNESmDNNbTdTv4Usdmfj4NM7CqJCMuTGnTbn+KWN5LalT8z5L9v5aQKhNdVgiC2lpOBw==";
+        };
     in {
         "5pePCv8p" = _5pePCv8p;
         "v3CR4y1p" = _v3CR4y1p;
@@ -146,14 +161,21 @@ let
         "nifo2OxY" = _nifo2OxY;
         "GyoUQ8BL" = _GyoUQ8BL;
         "1xVY7n05" = _1xVY7n05;
+        "NF0x51gE" = _NF0x51gE;
+        "JLMNKjxx" = _JLMNKjxx;
+        "mYFSFEE6" = _mYFSFEE6;
         "fabric-1.20" = _1xVY7n05;
         "fabric-1.20.1" = _1xVY7n05;
         "fabric-1.20.3" = _GyoUQ8BL;
         "fabric-1.20.4" = _GyoUQ8BL;
+        "fabric-1.21" = _mYFSFEE6;
+        "fabric-1.21.1" = _mYFSFEE6;
         "quilt-1.20.3" = _GyoUQ8BL;
         "quilt-1.20.4" = _GyoUQ8BL;
         "quilt-1.20" = _nifo2OxY;
         "quilt-1.20.1" = _nifo2OxY;
+        "quilt-1.21" = _NF0x51gE;
+        "quilt-1.21.1" = _NF0x51gE;
         "pkg-0.6.5-1.20.1" = _5pePCv8p;
         "pkg-0.6.7-1.20.4" = _v3CR4y1p;
         "pkg-0.6.8" = _augNJr7f;
@@ -169,16 +191,19 @@ let
         "pkg-0.6.17" = _8o9d9vSi;
         "pkg-0.6.18" = _c1ofNosf;
         "pkg-0.6.40.18" = _41YDrrQi;
-        "pkg-20.4.19" = _2Bzgt0pT;
-        "pkg-20.1.19" = _tOclpWKV;
+        "pkg-0.6.40.19" = _2Bzgt0pT;
+        "pkg-0.6.19" = _tOclpWKV;
         "pkg-20.1.19.1" = _QcuWMfSI;
         "pkg-20.1.19.2" = _rvllp2pP;
         "pkg-20.1.19.3" = _hqnZs9oG;
         "pkg-20.1.19.5" = _7TLbd4mO;
-        "pkg-20.1.20" = _nifo2OxY;
-        "pkg-20.4.20" = _GyoUQ8BL;
-        "pkg-20.1.21" = _1xVY7n05;
-        "default" = _1xVY7n05;
+        "pkg-0.7.0" = _nifo2OxY;
+        "pkg-0.7.40.0" = _GyoUQ8BL;
+        "pkg-0.7.1" = _1xVY7n05;
+        "pkg-0.8.0-beta.1" = _NF0x51gE;
+        "pkg-0.8.0" = _JLMNKjxx;
+        "pkg-0.8.1-beta.3" = _mYFSFEE6;
+        "default" = _mYFSFEE6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eden-ring-reforked";

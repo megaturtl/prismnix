@@ -31,6 +31,26 @@ let
             "file" = "testosterone-2.0.1.jar";
             "hash" = "sha512-uN/dC0IBQGR/PaJB25OMVw3wO9sWn2QVJmANhLqVHMmprNMFY/k7MHDV+9bOWkc7klZMenQ6FCvSP3Y4jTt2ow==";
         };
+        _jFrdpOKV = {
+            "id" = "jFrdpOKV";
+            "file" = "testosterone-2.1.0.jar";
+            "hash" = "sha512-6hOcchDyyYfUQLYG+UcEnmrtoEsKJoXJLEIaiRuwDmnvB72nPXuk8AfuFZoJqXEUuzbBUs5azfSMz2EhHIXZWA==";
+        };
+        _5rMneTuA = {
+            "id" = "5rMneTuA";
+            "file" = "testosterone-2.0.1.jar";
+            "hash" = "sha512-6IReVxhNerH17niVPvVbv6Bc/T94c6uDvAho0fffyUTSg+C0drCn+b2yjElS0ZqZKEeO0Z4pmFt+1jyz0lknvA==";
+        };
+        _mBQVFhJK = {
+            "id" = "mBQVFhJK";
+            "file" = "testosterone-2.0.2.jar";
+            "hash" = "sha512-F7oc/ID6UySWRDqMcqeu7lHsVVcLSFlNOyKsH0nRVnMbR/7FrSNaupzENnYqlQ9Zx2Vlm3zaHYVkh2cvbzUrwA==";
+        };
+        _TzklReJc = {
+            "id" = "TzklReJc";
+            "file" = "testosterone-2.0.3.jar";
+            "hash" = "sha512-JgkJc7MPhkr/8aAbLs22PcwcHSJt9PIP4D0Y2nwOPLSZdI+xN8j0XL61ZwGBWcOdCyiN9ZcDCCjwc5pfijuuUw==";
+        };
     in {
         "YJrZq9tZ" = _YJrZq9tZ;
         "lK8du9TF" = _lK8du9TF;
@@ -38,14 +58,24 @@ let
         "aUWSqXXO" = _aUWSqXXO;
         "Mwb8cVBG" = _Mwb8cVBG;
         "SV2wPb17" = _SV2wPb17;
+        "jFrdpOKV" = _jFrdpOKV;
+        "5rMneTuA" = _5rMneTuA;
+        "mBQVFhJK" = _mBQVFhJK;
+        "TzklReJc" = _TzklReJc;
         "forge-1.20.1" = _SV2wPb17;
+        "neoforge-1.21.1" = _jFrdpOKV;
+        "fabric-1.20.1" = _TzklReJc;
         "pkg-1.0.0" = _YJrZq9tZ;
         "pkg-1.0.1" = _lK8du9TF;
         "pkg-1.0.2" = _5U8oKkGp;
         "pkg-1.1.0" = _aUWSqXXO;
         "pkg-2.0.0" = _Mwb8cVBG;
         "pkg-2.0.1" = _SV2wPb17;
-        "default" = _SV2wPb17;
+        "pkg-2.1.0" = _jFrdpOKV;
+        "pkg-2.0.1-fabric" = _5rMneTuA;
+        "pkg-2.0.2-fabric" = _mBQVFhJK;
+        "pkg-2.0.3-fabric" = _TzklReJc;
+        "default" = _TzklReJc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "testosterone";

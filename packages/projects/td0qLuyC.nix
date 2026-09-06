@@ -81,6 +81,21 @@ let
             "file" = "goetyawaken-1.3.8.jar";
             "hash" = "sha512-BudwteenppfoOplnLt1axrLzkXu8oxHPCCGNH/M/sDyg9KHs0Banrga8Dkpebbyu1ExrLFV9PqDvNNCp7uEBvQ==";
         };
+        _iRZ02xKK = {
+            "id" = "iRZ02xKK";
+            "file" = "GoetyAwaken-1.3.9.0.jar";
+            "hash" = "sha512-uEkV/BP5wK6OPfSjKMnlxuXTtfsUN2FEtreW+gDZpvRQeR/7huqEsDdjsWzZ8CXUfTvkRIEKCVRdzZI8/A37Hw==";
+        };
+        _Xm9vOD9C = {
+            "id" = "Xm9vOD9C";
+            "file" = "GoetyAwaken-1.3.9.1.jar";
+            "hash" = "sha512-Ip9HkR2QJhv90lYDbmWNgO28ZT/LgIgg6RypRgWgiTh9tzX58h8C4Ogr71xdACMzq3dITkn3wcF5VG2h3nXJdw==";
+        };
+        _Ym2lxWu1 = {
+            "id" = "Ym2lxWu1";
+            "file" = "GoetyAwaken-1.3.9.2.jar";
+            "hash" = "sha512-qGW+9f1aBwuUiiCWTojIvw7o3fx62znyoDJA/xeX68//5c4yxBap/V/zfy8TWHE6mRkrqgF87uyAeuiZ6CFpkA==";
+        };
     in {
         "OmuY1ItR" = _OmuY1ItR;
         "GZvmUeW5" = _GZvmUeW5;
@@ -98,7 +113,10 @@ let
         "iUBhDlbK" = _iUBhDlbK;
         "TVOWSb3z" = _TVOWSb3z;
         "o4GNsDn4" = _o4GNsDn4;
-        "forge-1.20.1" = _o4GNsDn4;
+        "iRZ02xKK" = _iRZ02xKK;
+        "Xm9vOD9C" = _Xm9vOD9C;
+        "Ym2lxWu1" = _Ym2lxWu1;
+        "forge-1.20.1" = _Ym2lxWu1;
         "pkg-1.0.0" = _OmuY1ItR;
         "pkg-1.0.1" = _GZvmUeW5;
         "pkg-1.0.2" = _Tj60a4Ce;
@@ -115,7 +133,10 @@ let
         "pkg-1.3.6" = _iUBhDlbK;
         "pkg-1.3.7" = _TVOWSb3z;
         "pkg-1.3.8" = _o4GNsDn4;
-        "default" = _o4GNsDn4;
+        "pkg-1.3.9.0" = _iRZ02xKK;
+        "pkg-1.3.9.1" = _Xm9vOD9C;
+        "pkg-1.3.9.2" = _Ym2lxWu1;
+        "default" = _Ym2lxWu1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "goety-awaken";

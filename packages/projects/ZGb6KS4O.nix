@@ -41,6 +41,11 @@ let
             "file" = "UHC Basics 26.1.zip";
             "hash" = "sha512-uoMA71c2hujQGcdKGsdmxWBZXs+shJizGJpeWrT6CnIVnLlsOC5KcFWBvm3zS2oAuVksUdtFosJOMWnFXGGvwQ==";
         };
+        _P69QtLXG = {
+            "id" = "P69QtLXG";
+            "file" = "UHC Basics 26.2.zip";
+            "hash" = "sha512-92WFtm5YVakfYSpsfaFz/EePrSfslO/3Wde6fGMo0MJIRk2d1vgzTFV5QD6aAAhj1O9eMbdrKizHn063Eidi1A==";
+        };
     in {
         "Ttq5wFfs" = _Ttq5wFfs;
         "vfAMeAVv" = _vfAMeAVv;
@@ -50,6 +55,7 @@ let
         "lEzNZLg7" = _lEzNZLg7;
         "Ltv49KOo" = _Ltv49KOo;
         "edQ3OzF5" = _edQ3OzF5;
+        "P69QtLXG" = _P69QtLXG;
         "minecraft-1.20" = _Ttq5wFfs;
         "minecraft-1.20.1" = _Ttq5wFfs;
         "minecraft-1.20.2" = _Ttq5wFfs;
@@ -67,8 +73,10 @@ let
         "minecraft-26.1" = _edQ3OzF5;
         "minecraft-26.1.1" = _edQ3OzF5;
         "minecraft-26.1.2" = _edQ3OzF5;
+        "minecraft-26.2" = _P69QtLXG;
         "pkg-1.0" = _edQ3OzF5;
-        "default" = _edQ3OzF5;
+        "pkg-26.2" = _P69QtLXG;
+        "default" = _P69QtLXG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "uhc-basics";

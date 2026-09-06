@@ -16,15 +16,22 @@ let
             "file" = "locks_reforged-1.6.1.jar";
             "hash" = "sha512-BDihzbBcLtktYA+3a2lq0YwF+aRM1HuEAr1rlQ223EsZHjwStLPtzRJeeHqlgPOxNh/vMLFnLTZS8B8VZWx3hg==";
         };
+        _zOTN2x8W = {
+            "id" = "zOTN2x8W";
+            "file" = "locks_reforged-1.7.3.jar";
+            "hash" = "sha512-j1we98BW0jCFDnBBmYXXgFRUUjl6nfaElVYpww93SD2XPKkTdpAJUVMf+/y6RyjKA7CudOm+2btTGl0x4VYVEg==";
+        };
     in {
         "VYwPo5mP" = _VYwPo5mP;
         "Td5OcO2F" = _Td5OcO2F;
         "FnRTXB4K" = _FnRTXB4K;
-        "forge-1.20.1" = _FnRTXB4K;
+        "zOTN2x8W" = _zOTN2x8W;
+        "forge-1.20.1" = _zOTN2x8W;
         "pkg-1.4.0" = _VYwPo5mP;
         "pkg-1.5.2" = _Td5OcO2F;
         "pkg-1.6.1" = _FnRTXB4K;
-        "default" = _FnRTXB4K;
+        "pkg-1.7.3" = _zOTN2x8W;
+        "default" = _zOTN2x8W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "locks-reforged";

@@ -286,6 +286,16 @@ let
             "file" = "creraces-1.20.1-dev260402a.jar";
             "hash" = "sha512-H3enJxA/YwV4CSmL3l50VZsNyyl7AGOnDSFTtGRHSCKzED0pl8rxGPyxK4LabB5gE9lpn0bPzURuxGhEY46zhA==";
         };
+        _5KEVteIo = {
+            "id" = "5KEVteIo";
+            "file" = "creraces-1.20.1-2.0.0pre1.jar";
+            "hash" = "sha512-TNB/WYhtAk3+hKDZyfLJFbmNcbbjEKfreZLQeD/09/8swNxNiliy+gB+sHwpTs6MlzYpLnO2jX5blrIrgbedeQ==";
+        };
+        _aHCuy1nS = {
+            "id" = "aHCuy1nS";
+            "file" = "creraces-1.21.1-2.0.0pre1.jar";
+            "hash" = "sha512-D6LOt9YQ7CIL6SKziE4GiLXwzjdIZ8qo15SFL4ZGC6ph458Pkhjc0ysoW0eaAgMSmgRTaN7bZzQYkJX/DQ1f+Q==";
+        };
     in {
         "QqODBy7W" = _QqODBy7W;
         "3r1V3ggg" = _3r1V3ggg;
@@ -344,15 +354,17 @@ let
         "1s8E7Rc2" = _1s8E7Rc2;
         "3QmrNZnj" = _3QmrNZnj;
         "kcV0TiOR" = _kcV0TiOR;
+        "5KEVteIo" = _5KEVteIo;
+        "aHCuy1nS" = _aHCuy1nS;
         "forge-1.16.5" = _RvmfmhPu;
         "forge-1.18.2" = _Il2l39as;
         "forge-1.19.2" = _ZME8Svgr;
         "forge-1.19.4" = _OvnoDUsa;
-        "forge-1.20.1" = _kcV0TiOR;
-        "neoforge-1.20.1" = _kcV0TiOR;
+        "forge-1.20.1" = _5KEVteIo;
+        "neoforge-1.20.1" = _5KEVteIo;
         "neoforge-1.20.4" = _5d1wsWje;
         "neoforge-1.20.6" = _ckz79T6z;
-        "neoforge-1.21.1" = _3QmrNZnj;
+        "neoforge-1.21.1" = _aHCuy1nS;
         "pkg-b1.6" = _3r1V3ggg;
         "pkg-b1.6.1" = _gJGCYBeZ;
         "pkg-b1.6.4" = _EYco6h6y;
@@ -370,9 +382,10 @@ let
         "pkg-dev251130a" = _vXQ154xg;
         "pkg-dev251221a" = _K4NZo5Oa;
         "pkg-dev260127a" = _UgqO4gsd;
-        "pkg-dev260311a" = _3QmrNZnj;
+        "pkg-dev260311a" = _1s8E7Rc2;
         "pkg-dev260402a" = _kcV0TiOR;
-        "default" = _kcV0TiOR;
+        "pkg-2.0.0pre1" = _aHCuy1nS;
+        "default" = _aHCuy1nS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "creraces-classic";

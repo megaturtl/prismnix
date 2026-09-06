@@ -101,6 +101,26 @@ let
             "file" = "neoforge_1_21_8_nc_1114_05032026_rr.jar";
             "hash" = "sha512-dsrqr9o8bx/0H2uQbcAe0SQUYQ2bqg63sF8bun44QvEqbpxSkcTZ5Aar9AaUfsgK5BvYGo3vLq+9tiHXYK452A==";
         };
+        _NHr1kbLr = {
+            "id" = "NHr1kbLr";
+            "file" = "neoforge_1_21_1_nc_1115_04082026_b2_rr.jar";
+            "hash" = "sha512-+GHlh8J4BJoM5yGNBOpzYh/ISKHBWlGYQx7l9DtqDl9oQ+gChKnV+UIiAzlvCvT8tvq+bsLOzV2JEiZegjOf/g==";
+        };
+        _oMtC41kg = {
+            "id" = "oMtC41kg";
+            "file" = "neoforge_1_21_4_nc_1115_04082026_b2_rr.jar";
+            "hash" = "sha512-x+32OYoJnLwKs5IUuXerlTeqJy1aBlDrpWSRy7ngA8fNv74BS3VYJ4TGfRFLYbeRm7d/cG/sT4dWUGoy9EjLsg==";
+        };
+        _upilLvef = {
+            "id" = "upilLvef";
+            "file" = "neoforge_1_21_8_nc_1115_04082026_b2_rr.jar";
+            "hash" = "sha512-OBczCSJ40+ZNiCBSCCLgd7nodlN2g/MRZvI+aVvcF1BnXcc4lkmz8vni7CZs3VZQVHhH4ZckfvDaprjsk+Nolw==";
+        };
+        _h6mnp4y3 = {
+            "id" = "h6mnp4y3";
+            "file" = "neoforge_26_1_2_nc_1115_04082026_b2_rr.jar";
+            "hash" = "sha512-nf4FgaY/S6Ua9I1Cxq5JTFlPoNy3fYoroLH8a1R9BnB5J+Sbcgyaqos0n9tBZqJqHY23n4pnadp3Fe9yB9tloA==";
+        };
     in {
         "DuxJLy7S" = _DuxJLy7S;
         "8kztt8HO" = _8kztt8HO;
@@ -122,12 +142,17 @@ let
         "Jv8zV2a0" = _Jv8zV2a0;
         "7JlFYMPp" = _7JlFYMPp;
         "h0QIRCX1" = _h0QIRCX1;
+        "NHr1kbLr" = _NHr1kbLr;
+        "oMtC41kg" = _oMtC41kg;
+        "upilLvef" = _upilLvef;
+        "h6mnp4y3" = _h6mnp4y3;
         "forge-1.20.1" = _DuxJLy7S;
         "neoforge-1.20.4" = _8kztt8HO;
         "neoforge-1.20.6" = _MkqqjjCW;
-        "neoforge-1.21.1" = _Jv8zV2a0;
-        "neoforge-1.21.4" = _7JlFYMPp;
-        "neoforge-1.21.8" = _h0QIRCX1;
+        "neoforge-1.21.1" = _NHr1kbLr;
+        "neoforge-1.21.4" = _oMtC41kg;
+        "neoforge-1.21.8" = _upilLvef;
+        "neoforge-26.1.2" = _h6mnp4y3;
         "pkg-1.0.8.0" = _DuxJLy7S;
         "pkg-1.0.8.1" = _MkqqjjCW;
         "pkg-1.0.9.0" = _7Kwe7j4x;
@@ -141,7 +166,8 @@ let
         "pkg-1.1.1.1" = _kDvPBDsI;
         "pkg-1.1.1.3" = _ZCaev2lh;
         "pkg-1.1.1.4" = _h0QIRCX1;
-        "default" = _h0QIRCX1;
+        "pkg-1.1.1.5" = _h6mnp4y3;
+        "default" = _h6mnp4y3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nappycraft";

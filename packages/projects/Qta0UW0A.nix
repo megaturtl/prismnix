@@ -71,6 +71,16 @@ let
             "file" = "Alfheim-65.jar";
             "hash" = "sha512-E8ucefPwOIshZVXrsv9BP7Qq4YZnKmtZ5VyUrXvG+2bXoE0xdDFrPC7zoEf8RDIyaw8lv/J9KQDsmwIVy53v4w==";
         };
+        _IPIh7O9u = {
+            "id" = "IPIh7O9u";
+            "file" = "Alfheim-66.jar";
+            "hash" = "sha512-mdaJJ7h1xKR4sOs8inwZ3pl0MkDJ3OCHqCEKbPSXv1bPmyKgQwNw6/Az8bnx7PifZnf1zkqsPMtR3yGQ8FfDdg==";
+        };
+        _JbItDvvZ = {
+            "id" = "JbItDvvZ";
+            "file" = "Alfheim-67.jar";
+            "hash" = "sha512-igSR/GRQLudWgVblDMZ8+uN55nJ7XKYXYGq23T9d5vF04Y7ylygssyOi9MJZp4obfeDJyiHaVqJY0U2z+bZdGw==";
+        };
     in {
         "qmhv9zO9" = _qmhv9zO9;
         "4XJjtO1U" = _4XJjtO1U;
@@ -86,7 +96,9 @@ let
         "RGk5yCTB" = _RGk5yCTB;
         "b3Y5Q2MG" = _b3Y5Q2MG;
         "cOhtzk2u" = _cOhtzk2u;
-        "forge-1.7.10" = _cOhtzk2u;
+        "IPIh7O9u" = _IPIh7O9u;
+        "JbItDvvZ" = _JbItDvvZ;
+        "forge-1.7.10" = _JbItDvvZ;
         "pkg-52" = _qmhv9zO9;
         "pkg-53" = _4XJjtO1U;
         "pkg-54" = _WYv7U4Ou;
@@ -101,7 +113,9 @@ let
         "pkg-63" = _RGk5yCTB;
         "pkg-64" = _b3Y5Q2MG;
         "pkg-65" = _cOhtzk2u;
-        "default" = _cOhtzk2u;
+        "pkg-66" = _IPIh7O9u;
+        "pkg-67" = _JbItDvvZ;
+        "default" = _JbItDvvZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "alfheim";

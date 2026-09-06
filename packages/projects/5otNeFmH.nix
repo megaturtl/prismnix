@@ -16,16 +16,23 @@ let
             "file" = "enoughvisuals-2.5.1.jar";
             "hash" = "sha512-8hyHkFStwWdkMCPebMnR/xQQV1upjoA8igonNVLrj/8OlGBk7V3w6JVAUMOLH19wC9raMpN11DnaWB5Mv8WEXA==";
         };
+        _FrGZCNGp = {
+            "id" = "FrGZCNGp";
+            "file" = "enoughvisuals-2.5.3.jar";
+            "hash" = "sha512-LIt0TzUtSuu5vxYIu2+12tByvaSxL9pSqqhUeu9ABrtp9PSWantS61fyNHGcON19Tt0QNIh3jSrwj3qHF1IoAg==";
+        };
     in {
         "dmrZKG90" = _dmrZKG90;
         "58YtrIPN" = _58YtrIPN;
         "Vo7focWN" = _Vo7focWN;
+        "FrGZCNGp" = _FrGZCNGp;
         "forge-1.16.5" = _dmrZKG90;
-        "fabric-1.21.4" = _Vo7focWN;
-        "pkg-1.0old" = _dmrZKG90;
+        "fabric-1.21.4" = _FrGZCNGp;
+        "pkg-1.0" = _dmrZKG90;
         "pkg-2.5" = _58YtrIPN;
         "pkg-2.5.1" = _Vo7focWN;
-        "default" = _Vo7focWN;
+        "pkg-2.5.3" = _FrGZCNGp;
+        "default" = _FrGZCNGp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enoughvisuals";

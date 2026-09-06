@@ -21,19 +21,26 @@ let
             "file" = "bundle_fixes-1.1+26.2.jar";
             "hash" = "sha512-rxV8PQK7vrtsNHtYfUKd6HTyKLMBrZNJCioLpSrR0xOQzIlpu3ulfanXRe3y6r2+KtW5BrQgR18OG5cA8IM7yw==";
         };
+        _FgrxxsYe = {
+            "id" = "FgrxxsYe";
+            "file" = "bundle_fixes-1.2+26.2.jar";
+            "hash" = "sha512-Xj/mGC4Qj5ftF+IqKAkRIirwZSdleitowxHAoIq7EgNphpSxBltYoclgk/s5Zs1e0KgYQ7kAbSm3+fVMJD/m+g==";
+        };
     in {
         "hUSKXaGS" = _hUSKXaGS;
         "kQjg1gai" = _kQjg1gai;
         "5hMXblOY" = _5hMXblOY;
         "92TMOmeC" = _92TMOmeC;
+        "FgrxxsYe" = _FgrxxsYe;
         "fabric-1.21.11" = _hUSKXaGS;
         "fabric-26.1.2" = _5hMXblOY;
-        "fabric-26.2" = _92TMOmeC;
+        "fabric-26.2" = _FgrxxsYe;
         "pkg-1.0+1.21.11" = _hUSKXaGS;
         "pkg-1.0+26.1.2" = _kQjg1gai;
         "pkg-1.1+26.1.2" = _5hMXblOY;
         "pkg-1.1+26.2" = _92TMOmeC;
-        "default" = _92TMOmeC;
+        "pkg-1.2+26.2" = _FgrxxsYe;
+        "default" = _FgrxxsYe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "full-bundle-tooltip";

@@ -295,13 +295,13 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "GNU Lesser General Public License v3.0 only";
-                shortName = "LGPL-3.0-only";
-                url = null;
+                fullName = "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception";
+                shortName = "LicenseRef-GPL-3.0-with-Minecraft-Linking-Exception";
+                url = "https://raw.githubusercontent.com/Polyfrost/PolyHitbox/main/LICENSE";
             };
         };
     };

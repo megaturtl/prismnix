@@ -121,6 +121,11 @@ let
             "file" = "gts-3.1.1-neoforge-1.21.1.jar";
             "hash" = "sha512-NloEyTJoFagfkOirmcS7NgT6O8XbrcG6VWMceYkWXcWV95kcOQbfFapQlNGnd2vq+yYs56Gkz0oX/Bkg+76dsw==";
         };
+        _SvoRyoIw = {
+            "id" = "SvoRyoIw";
+            "file" = "gts-4.0.0.jar";
+            "hash" = "sha512-h3lKVwD8fXaSIm8WXhOAvIbbebA//8kolmEP+2uVA6htDXBxSqpsye5J/+t8XdsOPM+CzKkKgan3YfLDwjzC0g==";
+        };
     in {
         "sVm2fBf4" = _sVm2fBf4;
         "oj7CrfuK" = _oj7CrfuK;
@@ -146,7 +151,8 @@ let
         "Fsb43wEw" = _Fsb43wEw;
         "oOMhoXUE" = _oOMhoXUE;
         "j1y5sbhe" = _j1y5sbhe;
-        "neoforge-1.21.1" = _j1y5sbhe;
+        "SvoRyoIw" = _SvoRyoIw;
+        "neoforge-1.21.1" = _SvoRyoIw;
         "pkg-1.1.0" = _sVm2fBf4;
         "pkg-1.1.1" = _oj7CrfuK;
         "pkg-1.2.0" = _ziQZ928K;
@@ -171,7 +177,8 @@ let
         "pkg-3.0.03" = _Fsb43wEw;
         "pkg-3.1.0" = _oOMhoXUE;
         "pkg-3.1.1" = _j1y5sbhe;
-        "default" = _j1y5sbhe;
+        "pkg-4.0.0" = _SvoRyoIw;
+        "default" = _SvoRyoIw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "giantess-toki";

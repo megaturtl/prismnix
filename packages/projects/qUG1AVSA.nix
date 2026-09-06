@@ -16,16 +16,23 @@ let
             "file" = "sauce-1.21.1-0.0.47.jar";
             "hash" = "sha512-esRHoUiQZPNqppZb1JkZB9O+4RjJFEeg9SLlBKF95MwASb/vZHda6HZNwrO7Vv45H8BPQPLPgu/cPAgilfA/HA==";
         };
+        _uIzZ8Lrj = {
+            "id" = "uIzZ8Lrj";
+            "file" = "sauce-1.21.1-0.0.50.jar";
+            "hash" = "sha512-pgfPElTQb48A6fLqBftF3POn6VP8OPMw6lWR9jhKckZlDkTZjak90yHpAfCAcRfPSQ7WRUacPsUELwMA32hn5g==";
+        };
     in {
         "1XG1tqtZ" = _1XG1tqtZ;
         "IpsHKx9x" = _IpsHKx9x;
         "Xt9kUIq8" = _Xt9kUIq8;
-        "neoforge-1.21" = _Xt9kUIq8;
-        "neoforge-1.21.1" = _Xt9kUIq8;
+        "uIzZ8Lrj" = _uIzZ8Lrj;
+        "neoforge-1.21" = _uIzZ8Lrj;
+        "neoforge-1.21.1" = _uIzZ8Lrj;
         "pkg-0.0.32" = _1XG1tqtZ;
         "pkg-0.0.42" = _IpsHKx9x;
         "pkg-0.0.47" = _Xt9kUIq8;
-        "default" = _Xt9kUIq8;
+        "pkg-0.0.50" = _uIzZ8Lrj;
+        "default" = _uIzZ8Lrj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sauce-lib";

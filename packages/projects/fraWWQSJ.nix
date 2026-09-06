@@ -216,6 +216,21 @@ let
             "file" = "CaribouStonks-1.1.1+26.2.jar";
             "hash" = "sha512-A2U+u4RO5T6CySQz/kdWJmtid5a6OraX3zlUNLRsfSXwVGcj8WwcK4Rr/JE2mkfR/43qmiION/juzmmKzXQPdQ==";
         };
+        _KQb9wE8L = {
+            "id" = "KQb9wE8L";
+            "file" = "CaribouStonks-1.2.0+1.21.11.jar";
+            "hash" = "sha512-MZj4KEL0gxmzXt/XfGGNNIZIHHgIs6nBTQwLXtFbyhTh9KEfOe63niHdpzVpT6vOvMl/e5NquXJmJvrSzrY8Bw==";
+        };
+        _C7u4Mt5Q = {
+            "id" = "C7u4Mt5Q";
+            "file" = "CaribouStonks-1.2.0+26.1.jar";
+            "hash" = "sha512-W5naezl9ZTT+r0BxQpOb1OZqzHLoiCU5wKjmQU1Q9FIwE6tX4L7zSkinaVh8Wz2NUTUm7rcECL8r6R6mdJU4IA==";
+        };
+        _GMopeWrc = {
+            "id" = "GMopeWrc";
+            "file" = "CaribouStonks-1.2.0+26.2.jar";
+            "hash" = "sha512-VU2L2AB9GSOPJs2kn2yD0mxCJRVI9efUyVd5LjmdkDv5TVQmcTLHKwpNo/FSkgQ4IzvuCodnWfLqzuqkJmDqWA==";
+        };
     in {
         "VsDKA2U4" = _VsDKA2U4;
         "1ToZmNE5" = _1ToZmNE5;
@@ -260,15 +275,18 @@ let
         "8UdIUGhv" = _8UdIUGhv;
         "jjbuwPru" = _jjbuwPru;
         "EkJS5l6M" = _EkJS5l6M;
+        "KQb9wE8L" = _KQb9wE8L;
+        "C7u4Mt5Q" = _C7u4Mt5Q;
+        "GMopeWrc" = _GMopeWrc;
         "fabric-1.21.5" = _rZTx9vd4;
         "fabric-1.21.7" = _YkrK25xQ;
         "fabric-1.21.8" = _YkrK25xQ;
         "fabric-1.21.10" = _ob1DpzGs;
-        "fabric-1.21.11" = _8UdIUGhv;
-        "fabric-26.1" = _jjbuwPru;
-        "fabric-26.1.1" = _jjbuwPru;
-        "fabric-26.1.2" = _jjbuwPru;
-        "fabric-26.2" = _EkJS5l6M;
+        "fabric-1.21.11" = _KQb9wE8L;
+        "fabric-26.1" = _C7u4Mt5Q;
+        "fabric-26.1.1" = _C7u4Mt5Q;
+        "fabric-26.1.2" = _C7u4Mt5Q;
+        "fabric-26.2" = _GMopeWrc;
         "pkg-0.2.0+1.21.5" = _VsDKA2U4;
         "pkg-0.4.1+1.21.5" = _1ToZmNE5;
         "pkg-0.4.2+1.21.5" = _aVm4iKzJ;
@@ -312,7 +330,10 @@ let
         "pkg-1.1.1+1.21.11" = _8UdIUGhv;
         "pkg-1.1.1+26.1" = _jjbuwPru;
         "pkg-1.1.1+26.2" = _EkJS5l6M;
-        "default" = _EkJS5l6M;
+        "pkg-1.2.0+1.21.11" = _KQb9wE8L;
+        "pkg-1.2.0+26.1" = _C7u4Mt5Q;
+        "pkg-1.2.0+26.2" = _GMopeWrc;
+        "default" = _GMopeWrc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cariboustonks";

@@ -36,6 +36,16 @@ let
             "file" = "patchwork-2.0.0.jar";
             "hash" = "sha512-psQeuQVNObmZKQLwAc9rqMM4XcWA9Jp54exUO5iO23fuI8XjIX9CMjx1rPNY9vYr/IOW6j83BmICN89OV6v5dg==";
         };
+        _5fKbb3G9 = {
+            "id" = "5fKbb3G9";
+            "file" = "patchwork-1.4.jar";
+            "hash" = "sha512-nSrc7PTR5kZgQ+MRkFrdrZCLJ1HgNRp3OCLL6ixoM4P7g/WhLAdAGrax3HGhb9QVjaG2qGr4Ni8AIOgdE//qXA==";
+        };
+        _Uyik7GCp = {
+            "id" = "Uyik7GCp";
+            "file" = "patchwork-2.1.jar";
+            "hash" = "sha512-jJxO5KLHr95FaHgcrEFvJEabCyrn+NyPFpl69Ol9lqtfKFEtLqpBr9T1rFOImvOf3koRQyvPaHquo/s1DgkPYA==";
+        };
     in {
         "wjsr3IUP" = _wjsr3IUP;
         "l2yMvN1t" = _l2yMvN1t;
@@ -44,8 +54,10 @@ let
         "Ek8ck8wr" = _Ek8ck8wr;
         "1zgUoAKe" = _1zgUoAKe;
         "m9ATBYwM" = _m9ATBYwM;
-        "forge-1.20.1" = _1zgUoAKe;
-        "neoforge-1.21.1" = _m9ATBYwM;
+        "5fKbb3G9" = _5fKbb3G9;
+        "Uyik7GCp" = _Uyik7GCp;
+        "forge-1.20.1" = _5fKbb3G9;
+        "neoforge-1.21.1" = _Uyik7GCp;
         "pkg-1.0" = _wjsr3IUP;
         "pkg-1.1" = _l2yMvN1t;
         "pkg-1.2" = _hg9JGqcl;
@@ -53,7 +65,9 @@ let
         "pkg-1.3.1" = _Ek8ck8wr;
         "pkg-1.3.2" = _1zgUoAKe;
         "pkg-2.0.0" = _m9ATBYwM;
-        "default" = _m9ATBYwM;
+        "pkg-1.4" = _5fKbb3G9;
+        "pkg-2.1" = _Uyik7GCp;
+        "default" = _Uyik7GCp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "patchwork-blocks";

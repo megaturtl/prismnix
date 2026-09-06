@@ -21,15 +21,28 @@ let
             "file" = "thetaber-1.1.12-forge-1.20.1 (ENG VER).jar";
             "hash" = "sha512-foR4UjlPTRCTh+tabrFqZ5DUIcquYvN+sGJoAmFHw/eCKuHmZsma8aQuB7dWUBsknDr7c8ezCtY85oCwwGeV3A==";
         };
+        _Xpe9AHnN = {
+            "id" = "Xpe9AHnN";
+            "file" = "thetaber-1.2.0-forge-1.20.1 RU LANG.jar";
+            "hash" = "sha512-fCp4+N87v59/i3GqyUIpfNWYVcUh09ywU0p9wc23NhgTVbCCP3LgnvEpura6QamzwcgLKGUXhXcaM9Kjjc0Y7g==";
+        };
+        _3QsbyMWd = {
+            "id" = "3QsbyMWd";
+            "file" = "thetaber-1.2.0-forge-1.20.1 EN LANG.jar";
+            "hash" = "sha512-s5qavXb7xCTOpoNqTXFECosDLhcSOXgHdK/p+PxwU93IgS9LekfNXjxu/ZG6trop+MVBBRg+ivbCH4g2AhOv2A==";
+        };
     in {
         "ft3vXcu5" = _ft3vXcu5;
         "U3xKGZtA" = _U3xKGZtA;
         "zXJ0QxNy" = _zXJ0QxNy;
         "iuI8mijL" = _iuI8mijL;
-        "forge-1.20.1" = _iuI8mijL;
+        "Xpe9AHnN" = _Xpe9AHnN;
+        "3QsbyMWd" = _3QsbyMWd;
+        "forge-1.20.1" = _3QsbyMWd;
         "pkg-1.1.11" = _U3xKGZtA;
         "pkg-1.1.12" = _iuI8mijL;
-        "default" = _iuI8mijL;
+        "pkg-1.2.0" = _3QsbyMWd;
+        "default" = _3QsbyMWd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-taber";

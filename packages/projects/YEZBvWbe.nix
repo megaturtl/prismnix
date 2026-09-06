@@ -111,6 +111,21 @@ let
             "file" = "The_Digimod-BETA-1.7.5.jar";
             "hash" = "sha512-JcgqZvzQUnxFgFapb+RbRbsDH9QIo/xMjSZfGEsNe6tQhid2GEEHVZJ3BDDD0c8WbzUIKB6DiART0SYFEopdtQ==";
         };
+        _bvn1QxzO = {
+            "id" = "bvn1QxzO";
+            "file" = "thedigimod-BETA-1.20.1-1.8.jar";
+            "hash" = "sha512-VY4IRum3xs1b1kaqrq3KW0zIoXuE5gjqNnftFcXycBSFN6Be9vi8M/bgc3vsDJnJDkJhxOGOEZud7xYQbpGrXw==";
+        };
+        _9F3QqaIb = {
+            "id" = "9F3QqaIb";
+            "file" = "thedigimod-BETA-1.20.1-1.8.1.jar";
+            "hash" = "sha512-AGYEYTl8MBBRmo7I/NU1bPyLOzUfbXnrHaD9wwrY3Ucd/GBzDWsNhgXq32PEVfDrMnkeOC90fqpQ/t8O+Y7tIg==";
+        };
+        _k6GTIQAs = {
+            "id" = "k6GTIQAs";
+            "file" = "thedigimod-BETA-1.20.1-1.8.3.jar";
+            "hash" = "sha512-7w8mm80N/yADAzr+LkSDZst8HWN6D/4waGu6XDhW4nYqPJ1sLxm4PHPBx9Lb5T4SdpCUlbfOyCo6Sp0nnta2Ag==";
+        };
     in {
         "VE7TAuWw" = _VE7TAuWw;
         "PaKFP6vf" = _PaKFP6vf;
@@ -134,10 +149,13 @@ let
         "jIltXHbZ" = _jIltXHbZ;
         "AmWQAhv2" = _AmWQAhv2;
         "ZYmiBN2J" = _ZYmiBN2J;
+        "bvn1QxzO" = _bvn1QxzO;
+        "9F3QqaIb" = _9F3QqaIb;
+        "k6GTIQAs" = _k6GTIQAs;
         "forge-1.20" = _bruRbOeL;
-        "forge-1.20.1" = _ZYmiBN2J;
+        "forge-1.20.1" = _k6GTIQAs;
         "neoforge-1.20" = _bruRbOeL;
-        "neoforge-1.20.1" = _AmWQAhv2;
+        "neoforge-1.20.1" = _k6GTIQAs;
         "pkg-1.20-1.3.2" = _VE7TAuWw;
         "pkg-1.20-1.4.0" = _PaKFP6vf;
         "pkg-1.20-1.0.0" = _xNLvtzRB;
@@ -160,7 +178,10 @@ let
         "pkg-1.20.1-1.7.3" = _jIltXHbZ;
         "pkg-1.20.1-1.7.4" = _AmWQAhv2;
         "pkg-1.20.1-1.7.5" = _ZYmiBN2J;
-        "default" = _ZYmiBN2J;
+        "pkg-1.20-1.8" = _bvn1QxzO;
+        "pkg-1.20.1-1.8.1" = _9F3QqaIb;
+        "pkg-1.20.1-1.8.2" = _k6GTIQAs;
+        "default" = _k6GTIQAs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-digimod";

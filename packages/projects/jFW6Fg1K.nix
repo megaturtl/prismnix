@@ -76,6 +76,11 @@ let
             "file" = "habitat-1.3.1.jar";
             "hash" = "sha512-aQ7/rM/QmYTdYLHYp7M//HZTPsnxQAX06+0GkKFPZP44570UhQ51+Gp7cr5sJPCx7x4dXjtlS/QfbvrOBOWJaw==";
         };
+        _dy6q2lbV = {
+            "id" = "dy6q2lbV";
+            "file" = "habitat-1.4.jar";
+            "hash" = "sha512-Y07fSKCwyeKO/L+WRbcCMZvF6MAYB4LVwTpfgYKsZoBKB4OITshoNedARzvkTFSFUY+ChEic0J4w6aEFG8CAew==";
+        };
     in {
         "k3ec2HIr" = _k3ec2HIr;
         "zvUKnIfQ" = _zvUKnIfQ;
@@ -92,13 +97,14 @@ let
         "uzvOdtCU" = _uzvOdtCU;
         "OK0x3I3R" = _OK0x3I3R;
         "eIyBsZkq" = _eIyBsZkq;
+        "dy6q2lbV" = _dy6q2lbV;
         "forge-1.18.2" = _k3ec2HIr;
         "forge-1.17.1" = _zvUKnIfQ;
         "forge-1.16.5" = _ReqowRZ9;
         "forge-1.19" = _z3QGQJ1Q;
         "forge-1.19.1" = _z3QGQJ1Q;
         "forge-1.19.2" = _z3QGQJ1Q;
-        "forge-1.20.1" = _eIyBsZkq;
+        "forge-1.20.1" = _dy6q2lbV;
         "forge-1.20" = _eIyBsZkq;
         "forge-1.20.2" = _eIyBsZkq;
         "forge-1.20.3" = _eIyBsZkq;
@@ -121,7 +127,8 @@ let
         "pkg-1.2.5" = _uzvOdtCU;
         "pkg-1.3.0" = _OK0x3I3R;
         "pkg-1.3.1" = _eIyBsZkq;
-        "default" = _eIyBsZkq;
+        "pkg-1.4.0" = _dy6q2lbV;
+        "default" = _dy6q2lbV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "habitat";

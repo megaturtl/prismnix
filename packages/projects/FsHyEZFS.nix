@@ -421,6 +421,16 @@ let
             "file" = "Spoiled-fabric-26.1.2-12.1.0.jar";
             "hash" = "sha512-ky3yd7uJZABhBz7SVro+GeTEuppuBlR5eyA7Y6gQmVB+a9hK4X8/nJKIV1/jQxLk5yFlD5+aFN0S+N8Iwg3X8w==";
         };
+        _Lo5gUKQu = {
+            "id" = "Lo5gUKQu";
+            "file" = "Spoiled-forge-1.20.1-2.2.2.jar";
+            "hash" = "sha512-BfUanX2rga0RMpXI13T4+om3XFCkqK5UbsodQX4SsUoKPz+MnsYFiTFyDP/QxOLVM97Xy71NRwQgAuaaTppNgQ==";
+        };
+        _Asr3S5TX = {
+            "id" = "Asr3S5TX";
+            "file" = "Spoiled-fabric-1.20.1-2.2.2.jar";
+            "hash" = "sha512-5UnAgHKoNmK1kmzPnn3cJTS+h3w21qNgVJ5NkGJ2+jOzpDOpPv0/mk4sP7X0bZ5OUVitSDv203SCdHtF5NB6GA==";
+        };
     in {
         "uYeXY2td" = _uYeXY2td;
         "2jb4YgS3" = _2jb4YgS3;
@@ -506,16 +516,18 @@ let
         "utVgx6FA" = _utVgx6FA;
         "96GJ19Nr" = _96GJ19Nr;
         "bEOjyZyc" = _bEOjyZyc;
+        "Lo5gUKQu" = _Lo5gUKQu;
+        "Asr3S5TX" = _Asr3S5TX;
         "forge-1.17.1" = _uYeXY2td;
         "forge-1.18.2" = _aqbH5XKI;
         "forge-1.19.2" = _wl4Sk173;
         "forge-1.19.3" = _wVGKWNT0;
         "forge-1.19.4" = _4TuuZg0O;
         "forge-1.20" = _oPIoxMip;
-        "forge-1.20.1" = _gmjZ8tbg;
+        "forge-1.20.1" = _Lo5gUKQu;
         "forge-1.20.2" = _GHSL7Zvv;
         "forge-1.20.4" = _OD99UHD3;
-        "fabric-1.20.1" = _Olo3hTet;
+        "fabric-1.20.1" = _Asr3S5TX;
         "fabric-1.20.2" = _vwfUdgBj;
         "fabric-1.20.4" = _mBJDfsn2;
         "fabric-1.20.6" = _CuFfniXI;
@@ -528,7 +540,7 @@ let
         "fabric-1.21.11" = _OcBmt9fg;
         "fabric-26.1" = _WKGorkYN;
         "fabric-26.1.2" = _bEOjyZyc;
-        "neoforge-1.20.1" = _gmjZ8tbg;
+        "neoforge-1.20.1" = _Lo5gUKQu;
         "neoforge-1.20.2" = _5RWeE4CH;
         "neoforge-1.20.4" = _OD99UHD3;
         "neoforge-1.20.6" = _phOSLE1x;
@@ -590,7 +602,8 @@ let
         "pkg-6.2.2" = _UaniCbUE;
         "pkg-6.2.3" = _utVgx6FA;
         "pkg-12.1.0" = _bEOjyZyc;
-        "default" = _bEOjyZyc;
+        "pkg-2.2.2" = _Asr3S5TX;
+        "default" = _Asr3S5TX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spoiled";

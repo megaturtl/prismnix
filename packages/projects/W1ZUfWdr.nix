@@ -16,15 +16,36 @@ let
             "file" = "simulatedcoasters-0.1.2.jar";
             "hash" = "sha512-LcAw9riAieiG2cKK0Cg5u4I1ce88nF3Mz6SOThNh69Z11ccyH5EukFy0Hyp6OHvsZvyCf8YlWWRwCD7LyCGUtQ==";
         };
+        _CUlWYAXX = {
+            "id" = "CUlWYAXX";
+            "file" = "simulatedcoasters-0.1.3.jar";
+            "hash" = "sha512-cWhAuPEVt2kVuYjvVGcSe1RPUYdtu7gnFlRyX4qi9y11HRRZahR7BEf6yOizBPkTtRE2CSydTqjE60XPhWEKxg==";
+        };
+        _RIBBfVi3 = {
+            "id" = "RIBBfVi3";
+            "file" = "simulatedcoasters-0.1.4.jar";
+            "hash" = "sha512-sEMqvvCWFdDxXkEF4hE8l7iORbGKMFg05tuAopxZUehgOoCDDvRN4UJ+Q0YCgyhOtY8Du6Vy1FxSsw+t7CBaVg==";
+        };
+        _PGhQoSBq = {
+            "id" = "PGhQoSBq";
+            "file" = "simulatedcoasters-0.1.5.jar";
+            "hash" = "sha512-H9MaqsY3VefN923hSYyeCziXOXfmaq9J44B3TsMKGwmDTxxE4+nMyWVAPUQOTK/Ea85C+DMHl5v3kLZonTz7Hw==";
+        };
     in {
         "IXr3Jch9" = _IXr3Jch9;
         "iOm9m3BL" = _iOm9m3BL;
         "WtNrH6lS" = _WtNrH6lS;
-        "neoforge-1.21.1" = _WtNrH6lS;
+        "CUlWYAXX" = _CUlWYAXX;
+        "RIBBfVi3" = _RIBBfVi3;
+        "PGhQoSBq" = _PGhQoSBq;
+        "neoforge-1.21.1" = _PGhQoSBq;
         "pkg-0.1" = _IXr3Jch9;
         "pkg-0.1.1" = _iOm9m3BL;
         "pkg-0.1.2" = _WtNrH6lS;
-        "default" = _WtNrH6lS;
+        "pkg-0.1.3" = _CUlWYAXX;
+        "pkg-0.1.4" = _RIBBfVi3;
+        "pkg-0.1.5" = _PGhQoSBq;
+        "default" = _PGhQoSBq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-coasters-simulated";

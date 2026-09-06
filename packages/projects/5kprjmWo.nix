@@ -563,6 +563,12 @@ let
         "minecraft-26.3-snapshot-4" = _jJgxY4Ke;
         "minecraft-26.3-snapshot-5" = _jJgxY4Ke;
         "minecraft-26.3-snapshot-6" = _jJgxY4Ke;
+        "minecraft-26.3-snapshot-7" = _jJgxY4Ke;
+        "minecraft-26.3-snapshot-8" = _jJgxY4Ke;
+        "minecraft-26.3-snapshot-9" = _jJgxY4Ke;
+        "minecraft-26.3-snapshot-10" = _jJgxY4Ke;
+        "minecraft-26.3-pre-1" = _jJgxY4Ke;
+        "minecraft-26.3-pre-2" = _jJgxY4Ke;
         "pkg-1.0" = _jJgxY4Ke;
         "default" = _jJgxY4Ke;
     });

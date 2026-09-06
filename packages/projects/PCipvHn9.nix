@@ -91,6 +91,11 @@ let
             "file" = "RandomSuperMod-3.4.0-neoforge-1.21.1.jar";
             "hash" = "sha512-7RyznhGolio26YQm/Ee/P3OJ7EjxQjKv+ZjL6sqMbaeybvM2fu+k38FgGJ0iWPssdwQfNX5u0Tf2Hh3MbvcUGg==";
         };
+        _wIjTCyFU = {
+            "id" = "wIjTCyFU";
+            "file" = "RandomSuperMod-3.4.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-E+njGbWyICBB34nGSGePP/dWj8R7PJF6/Yh7Z6PMTCCdgkhgSBb9CPufNGofW8k/gAGgXeV4AXmYmOo1PpaTcw==";
+        };
     in {
         "mJQ4ASIa" = _mJQ4ASIa;
         "fHdFEwxx" = _fHdFEwxx;
@@ -110,12 +115,13 @@ let
         "RyAMoQKk" = _RyAMoQKk;
         "DHzEAhIf" = _DHzEAhIf;
         "FX0sRjTH" = _FX0sRjTH;
+        "wIjTCyFU" = _wIjTCyFU;
         "forge-1.19.2" = _mJQ4ASIa;
-        "forge-1.20.1" = _FX0sRjTH;
-        "forge-1.21.1" = _FX0sRjTH;
-        "neoforge-1.20.1" = _FX0sRjTH;
+        "forge-1.20.1" = _CoZqJxIc;
+        "forge-1.21.1" = _wIjTCyFU;
+        "neoforge-1.20.1" = _CoZqJxIc;
         "neoforge-1.20.4" = _sTJHtzpH;
-        "neoforge-1.21.1" = _FX0sRjTH;
+        "neoforge-1.21.1" = _wIjTCyFU;
         "neoforge-1.21.2" = _4NzF2VQG;
         "neoforge-1.21.3" = _4NzF2VQG;
         "pkg-2.14.1" = _mJQ4ASIa;
@@ -135,7 +141,8 @@ let
         "pkg-3.3.1" = _RyAMoQKk;
         "pkg-3.3.2" = _DHzEAhIf;
         "pkg-3.4.0" = _FX0sRjTH;
-        "default" = _FX0sRjTH;
+        "pkg-3.4.1" = _wIjTCyFU;
+        "default" = _wIjTCyFU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "random-super-mod";

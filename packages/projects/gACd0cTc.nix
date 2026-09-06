@@ -141,6 +141,16 @@ let
             "file" = "ClassicFood-fabric-26.1.2-18.0.0.jar";
             "hash" = "sha512-efK6SDqblgFJ2jtRyJXdgi1D+Rh8saNOlWTFdw8sztvdlL/ymr0S+x9JgVcO2pUUfKb/CjM2NWThZZiB2DPtWQ==";
         };
+        _6nwLpVGF = {
+            "id" = "6nwLpVGF";
+            "file" = "ClassicFood-fabric-26.2-19.0.0.jar";
+            "hash" = "sha512-+99s1hQ7YVxaV6N6SXNddUlD0c8tjXltfFCkL4SziMxiZ8mwvnv/faGEyfe1NuJHLYVCBv0ZLZkqCYppOTaEyg==";
+        };
+        _QtpXdDGY = {
+            "id" = "QtpXdDGY";
+            "file" = "ClassicFood-neoforge-26.2-19.0.0.jar";
+            "hash" = "sha512-CoovpfbqtaJ2h5qClGiz/ynwfziDBLA0ju4A6xYTaJvzTMuBC7qHTxcmjX60YSpIgUa/4S6LbNMJ6oD+RXZ8uQ==";
+        };
     in {
         "rOmVmOCd" = _rOmVmOCd;
         "HJcV5ZaL" = _HJcV5ZaL;
@@ -170,6 +180,8 @@ let
         "lDRaT0be" = _lDRaT0be;
         "9MQ0HUgK" = _9MQ0HUgK;
         "zdl8RMzO" = _zdl8RMzO;
+        "6nwLpVGF" = _6nwLpVGF;
+        "QtpXdDGY" = _QtpXdDGY;
         "forge-1.16.5" = _rOmVmOCd;
         "forge-1.17.1" = _HJcV5ZaL;
         "forge-1.18" = _pTJ6k8Wz;
@@ -193,12 +205,14 @@ let
         "neoforge-1.21.10" = _Hw7MDiym;
         "neoforge-1.21.11" = _UkSv2ZQL;
         "neoforge-26.1.2" = _9MQ0HUgK;
+        "neoforge-26.2" = _QtpXdDGY;
         "fabric-1.21.5" = _MvBxvjKJ;
         "fabric-1.21.6" = _wIJ1Zhuc;
         "fabric-1.21.7" = _nwbEBb1u;
         "fabric-1.21.10" = _lkN0R5VO;
         "fabric-1.21.11" = _lDRaT0be;
         "fabric-26.1.2" = _zdl8RMzO;
+        "fabric-26.2" = _6nwLpVGF;
         "pkg-1.0.0" = _rOmVmOCd;
         "pkg-2.0.0" = _HJcV5ZaL;
         "pkg-3.0.0" = _pTJ6k8Wz;
@@ -220,7 +234,8 @@ let
         "pkg-16.0.1" = _lkN0R5VO;
         "pkg-17.0.0" = _lDRaT0be;
         "pkg-18.0.0" = _zdl8RMzO;
-        "default" = _zdl8RMzO;
+        "pkg-19.0.0" = _QtpXdDGY;
+        "default" = _QtpXdDGY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "classic-food";

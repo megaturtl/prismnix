@@ -56,6 +56,16 @@ let
             "file" = "ccbr-1.2.0-backport-forge-1.20.1.jar";
             "hash" = "sha512-+0ImbYB7iDwj1HCWR7mx5v6tFABLuOsqVEFuCIevzMgmnxxjjbg04i2Cwdo1uN4Slsc6CcN4gWh7P25e3Ag3eg==";
         };
+        _zRhaiENu = {
+            "id" = "zRhaiENu";
+            "file" = "ccbr-1.2.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-mu/UeZRvPbYcNmyAP3aEMcUlzdYRFYWRhi/Y0AjBNVvXlyt03y6jR8aE8wgSV7vhiydYlCF/6wDBve1HVRKzpA==";
+        };
+        _vEUlVLSx = {
+            "id" = "vEUlVLSx";
+            "file" = "ccbr-1.2.1-backport-forge-1.20.1.jar";
+            "hash" = "sha512-zcCXAF/ny86GTUZBy/Qe5lPEv+OpojhDYZ3KTqtBZRHBEN/QkprrptlHlEL9vwr57U0ILI8vS/fiDsgOjZcWWA==";
+        };
     in {
         "c6JdP5XU" = _c6JdP5XU;
         "1ZXxXLMZ" = _1ZXxXLMZ;
@@ -68,9 +78,11 @@ let
         "h6O16M1o" = _h6O16M1o;
         "UcvDwdvO" = _UcvDwdvO;
         "sYBFtimp" = _sYBFtimp;
-        "neoforge-1.21.1" = _UcvDwdvO;
-        "neoforge-1.20.1" = _sYBFtimp;
-        "forge-1.20.1" = _sYBFtimp;
+        "zRhaiENu" = _zRhaiENu;
+        "vEUlVLSx" = _vEUlVLSx;
+        "neoforge-1.21.1" = _zRhaiENu;
+        "neoforge-1.20.1" = _vEUlVLSx;
+        "forge-1.20.1" = _vEUlVLSx;
         "pkg-1.0.0" = _c6JdP5XU;
         "pkg-1.0.1" = _1ZXxXLMZ;
         "pkg-1.0.2" = _UZwF4OHP;
@@ -82,7 +94,9 @@ let
         "pkg-1.1.4-backport" = _h6O16M1o;
         "pkg-1.2.0" = _UcvDwdvO;
         "pkg-1.2.0-backport" = _sYBFtimp;
-        "default" = _sYBFtimp;
+        "pkg-1.2.1" = _zRhaiENu;
+        "pkg-1.2.1-backport" = _vEUlVLSx;
+        "default" = _vEUlVLSx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-ccbr";

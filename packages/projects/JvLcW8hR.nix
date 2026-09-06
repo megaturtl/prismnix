@@ -21,17 +21,38 @@ let
             "file" = "avaritia_armor-0.1.3.jar";
             "hash" = "sha512-OOwboCa69RE9h8CMoLUHM3iGfeiUatJveQHCbp68E4oIfhqUEeIXsw8qwv2FrDDalmUQzmB9rt33hWzNP/CkTA==";
         };
+        _bt9i30eP = {
+            "id" = "bt9i30eP";
+            "file" = "avaritia_armor-1.20.1-0.1.4.jar";
+            "hash" = "sha512-1H17ungAmivcnA2ayqYCO0JKKjCBVEMD+wM09zAGZbjTPkdNrM6kJ+wWuN4FFegX00pwAWS4dZ2WeeTOTVLlgw==";
+        };
+        _5SPAr40K = {
+            "id" = "5SPAr40K";
+            "file" = "avaritia_armor-1.21.1-0.1.4.jar";
+            "hash" = "sha512-5yY8kSWZs2rQxokDW4cS51UkKNOKDGfkh0dc3m+/oFWNhixEOVqUsRtWD7skbO0/Mu0YoiThytMUYsjw16la8A==";
+        };
+        _6gyVvX6b = {
+            "id" = "6gyVvX6b";
+            "file" = "avaritia_armor-26.1.2-0.1.4.jar";
+            "hash" = "sha512-IOyv3gp1z7GK1I+Wop2EYtnUPRb85fSJVLdezst7ZXrD5kqaI6pbMdZtwLQ9c6ASxNfD5t0Ry3C89/nNEx3sag==";
+        };
     in {
         "fsyqe3kx" = _fsyqe3kx;
         "NNcEPwtt" = _NNcEPwtt;
         "QudEs4dL" = _QudEs4dL;
         "3mMqOvYX" = _3mMqOvYX;
-        "forge-1.20.1" = _3mMqOvYX;
+        "bt9i30eP" = _bt9i30eP;
+        "5SPAr40K" = _5SPAr40K;
+        "6gyVvX6b" = _6gyVvX6b;
+        "forge-1.20.1" = _bt9i30eP;
+        "neoforge-1.21.1" = _5SPAr40K;
+        "neoforge-26.1.2" = _6gyVvX6b;
         "pkg-0.1.0" = _fsyqe3kx;
         "pkg-0.1.1" = _NNcEPwtt;
         "pkg-0.1.2" = _QudEs4dL;
         "pkg-0.1.3" = _3mMqOvYX;
-        "default" = _3mMqOvYX;
+        "pkg-0.1.4" = _6gyVvX6b;
+        "default" = _6gyVvX6b;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "avaritia-armor";

@@ -101,6 +101,21 @@ let
             "file" = "down-but-not-out-0.5.1+26.2.jar";
             "hash" = "sha512-K3N8YG08/b62PFW2ayJgf1zJfJ58VXjbYnmNoTPhhUfihrjEIOHbiYQkwEJc0cwnMX2+t3hnXllf7xOEn30ghA==";
         };
+        _KCNA12KX = {
+            "id" = "KCNA12KX";
+            "file" = "down-but-not-out-0.5.2+1.21.11.jar";
+            "hash" = "sha512-mJP4rfw3svfh/uvRKfHdZFo2GMRl/DyAVe0HnGXc9gXOiOXxgbKETxt1RzVHXm70w5qOtppSBVL/WNQC2rlaCA==";
+        };
+        _tFJPwMFm = {
+            "id" = "tFJPwMFm";
+            "file" = "down-but-not-out-0.5.2+26.1.2.jar";
+            "hash" = "sha512-McNvUftensEb07hkbLy6JNajuDe+MTvV2BfAycTAtAor3M3XachUP8/TfSai3aFSiufhEAxoGkE3+g8rpN9nfA==";
+        };
+        _8DXufGeM = {
+            "id" = "8DXufGeM";
+            "file" = "down-but-not-out-0.5.2+26.2.jar";
+            "hash" = "sha512-Puc09gNJOofDBYCnNoPfYv+aD/npv+kF1ZeRWLiZIJzOrc6C1gllYM9L12jNJ0ENFUdB0Xmkbl6D0z2SBfKQ0A==";
+        };
     in {
         "VVKsfmHc" = _VVKsfmHc;
         "RuL88QgL" = _RuL88QgL;
@@ -122,13 +137,16 @@ let
         "IgMoPpsN" = _IgMoPpsN;
         "c1pebMmj" = _c1pebMmj;
         "B6Eed90B" = _B6Eed90B;
-        "fabric-1.21.10" = _qppbgveE;
-        "fabric-1.21.11" = _IgMoPpsN;
+        "KCNA12KX" = _KCNA12KX;
+        "tFJPwMFm" = _tFJPwMFm;
+        "8DXufGeM" = _8DXufGeM;
+        "fabric-1.21.10" = _KCNA12KX;
+        "fabric-1.21.11" = _KCNA12KX;
         "fabric-1.20.1" = _31OWZZgs;
-        "fabric-26.1" = _c1pebMmj;
-        "fabric-26.1.2" = _c1pebMmj;
-        "fabric-26.1.1" = _c1pebMmj;
-        "fabric-26.2" = _B6Eed90B;
+        "fabric-26.1" = _tFJPwMFm;
+        "fabric-26.1.2" = _tFJPwMFm;
+        "fabric-26.1.1" = _tFJPwMFm;
+        "fabric-26.2" = _8DXufGeM;
         "pkg-0.1.1" = _VVKsfmHc;
         "pkg-0.2.0" = _RuL88QgL;
         "pkg-0.2.1" = _Dhcv1J3r;
@@ -149,7 +167,10 @@ let
         "pkg-0.5.1+1.21.11" = _IgMoPpsN;
         "pkg-0.5.1+26.1.2" = _c1pebMmj;
         "pkg-0.5.1+26.2" = _B6Eed90B;
-        "default" = _B6Eed90B;
+        "pkg-0.5.2+1.21.11" = _KCNA12KX;
+        "pkg-0.5.2+26.1.2" = _tFJPwMFm;
+        "pkg-0.5.2+26.2" = _8DXufGeM;
+        "default" = _8DXufGeM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "down-but-not-out";

@@ -111,6 +111,26 @@ let
             "file" = "genesis-1.6.3.jar";
             "hash" = "sha512-4KH/Jg7nZ9d8ueXOlbtb80DlbwAWIJrexi7mm6AMY4N20OUAQRTZgdZRp/LNIfiO93mDiVfTcRHVxf5xPDgFAg==";
         };
+        _3Nwm35TZ = {
+            "id" = "3Nwm35TZ";
+            "file" = "genesis-1.6.4.jar";
+            "hash" = "sha512-8hmKcurVcvb5dhOdNrSlPXl+EJvTC9oPoud/PrPGD25qBQCIAIzW36kKv1NMnFA2JNG4uFAUErjVB34kGdPGzQ==";
+        };
+        _zPiT9LiM = {
+            "id" = "zPiT9LiM";
+            "file" = "genesis-1.6.5.jar";
+            "hash" = "sha512-y1dmxpvV91tWMbfXYKeyytROshYFih5PJd6GcrV6xe7/R/SOwOR9NEDRk5cogaA3iHDMd2VcUniZLfeOxTUB1w==";
+        };
+        _mm9ZDaGS = {
+            "id" = "mm9ZDaGS";
+            "file" = "genesis-1.7.0.jar";
+            "hash" = "sha512-1+L8RFeUYd/q4t72cZtSZJnEJuVUZUba/qOt9FT0U/1izkKNK+E3fAtCHZCURT+GvZrDDgRRiIgJLSIoYIKhvw==";
+        };
+        _VAF6hOw5 = {
+            "id" = "VAF6hOw5";
+            "file" = "genesis-1.8.0.jar";
+            "hash" = "sha512-yPlQXRAeKkiPDk5lZHTK8RbFK4YRcdbKE4QgJCRYILxRSRqSu4dPmXR5mUmBsvGpOl0uL2A7KMdeQopRWMTFaQ==";
+        };
     in {
         "Yrx1oU9J" = _Yrx1oU9J;
         "idZ3pXh6" = _idZ3pXh6;
@@ -134,12 +154,16 @@ let
         "dHcolmPM" = _dHcolmPM;
         "bZEJDFi9" = _bZEJDFi9;
         "JwBkqmTQ" = _JwBkqmTQ;
+        "3Nwm35TZ" = _3Nwm35TZ;
+        "zPiT9LiM" = _zPiT9LiM;
+        "mm9ZDaGS" = _mm9ZDaGS;
+        "VAF6hOw5" = _VAF6hOw5;
         "fabric-1.21.6" = _mGFpQCJW;
         "fabric-1.21.7" = _mGFpQCJW;
         "fabric-1.21.8" = _mGFpQCJW;
         "fabric-1.21.9" = _y32VuPPv;
         "fabric-1.21.10" = _y32VuPPv;
-        "fabric-26.2" = _JwBkqmTQ;
+        "fabric-26.2" = _VAF6hOw5;
         "pkg-1.0.0" = _Yrx1oU9J;
         "pkg-1.0.1" = _idZ3pXh6;
         "pkg-1.0.2" = _EJXpDwar;
@@ -162,7 +186,11 @@ let
         "pkg-1.6.1" = _dHcolmPM;
         "pkg-1.6.2" = _bZEJDFi9;
         "pkg-1.6.3" = _JwBkqmTQ;
-        "default" = _JwBkqmTQ;
+        "pkg-1.6.4" = _3Nwm35TZ;
+        "pkg-1.6.5" = _zPiT9LiM;
+        "pkg-1.7.0" = _mm9ZDaGS;
+        "pkg-1.8.0" = _VAF6hOw5;
+        "default" = _VAF6hOw5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "genesis-official";

@@ -176,6 +176,16 @@ let
             "file" = "enchanted_golden_apple_reborn-neoforge-26.1.2-1.5.jar";
             "hash" = "sha512-1D917jaXdJ2B2gVKDYs3NsP4LNGN36QmAUZiFSf49cF/wkaQcNaC5tkzodJSWjQTaIlnSlrMlLPWNXbvU1qOkw==";
         };
+        _9x56Uanj = {
+            "id" = "9x56Uanj";
+            "file" = "enchanted_golden_apple_reborn-fabric-26.2-1.5.jar";
+            "hash" = "sha512-Dsr2Wn//GRRU0nnF9lE92G5+td2Fg8Ij8+fwQ4VltSvhWJBzq/K81Ikr9+Gm2oWEAy4vPAZUq7joTu2sydhRdg==";
+        };
+        _m6TfBqPH = {
+            "id" = "m6TfBqPH";
+            "file" = "enchanted_golden_apple_reborn-neoforge-26.2-1.5.jar";
+            "hash" = "sha512-jysXdtqAI8tcUzxPLMyIoLgL/Waq/TvDgKhNrl0yj6vSoGvGnFgsrrr1Cl0LCjHynQWIJCN1xrGMHVriKUC16Q==";
+        };
     in {
         "67FLPqzS" = _67FLPqzS;
         "PDINVTLn" = _PDINVTLn;
@@ -212,6 +222,8 @@ let
         "UwLqYPee" = _UwLqYPee;
         "ajQumlNZ" = _ajQumlNZ;
         "5VzeEHHr" = _5VzeEHHr;
+        "9x56Uanj" = _9x56Uanj;
+        "m6TfBqPH" = _m6TfBqPH;
         "fabric-1.21" = _qJ7942Bi;
         "fabric-1.21.1" = _jbcJsWxd;
         "fabric-1.21.2" = _tObSUpTc;
@@ -229,6 +241,7 @@ let
         "fabric-1.21.11" = _9CKwQ5ft;
         "fabric-26.1" = _UwLqYPee;
         "fabric-26.1.2" = _ajQumlNZ;
+        "fabric-26.2" = _9x56Uanj;
         "neoforge-1.21" = _Ejc5cBjX;
         "neoforge-1.21.1" = _qB4XxTx9;
         "neoforge-1.21.5" = _5W9jDrJn;
@@ -239,6 +252,7 @@ let
         "neoforge-1.21.11" = _DTOz1ihH;
         "neoforge-26.1" = _4nUAKy6M;
         "neoforge-26.1.2" = _5VzeEHHr;
+        "neoforge-26.2" = _m6TfBqPH;
         "forge-1.21" = _F1pvwrTv;
         "forge-1.20.1" = _Ewov5JTa;
         "forge-1.21.1" = _57dPRA45;
@@ -249,8 +263,8 @@ let
         "pkg-1.3-1.21.6" = _3FCc0pCk;
         "pkg-1.3-1.21" = _tObSUpTc;
         "pkg-1.4" = _57dPRA45;
-        "pkg-1.5" = _5VzeEHHr;
-        "default" = _5VzeEHHr;
+        "pkg-1.5" = _m6TfBqPH;
+        "default" = _m6TfBqPH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchant-golden-apple-reborn";
@@ -258,12 +272,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "MIT" {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "MIT License";
-                shortName = "MIT";
+                fullName = "GNU General Public License v3.0 only";
+                shortName = "GPL-3.0-only";
                 url = null;
             };
         };

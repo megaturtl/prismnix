@@ -61,6 +61,21 @@ let
             "file" = "snaplook-1.0.0.jar";
             "hash" = "sha512-v7cDvV4X7ZHXKmvROg0YilpAzyPVWgf/AO7j1AytR6XDCaQ9Pg7zE9xMsDdGkeMxzInDw8xqUkzQAjQvdfQJSg==";
         };
+        _jo1lLdCk = {
+            "id" = "jo1lLdCk";
+            "file" = "snaplook-1.1.jar";
+            "hash" = "sha512-Jq5HCRB7lGDCd9Wu1BAE85aF7bs3TtVsKljhRnZMrP8tMReFQ2B3+JGwm7hlrVbROyyls+tWlccHzh6OTlw77A==";
+        };
+        _puCUxkLM = {
+            "id" = "puCUxkLM";
+            "file" = "snaplook-1.2.jar";
+            "hash" = "sha512-lIGaZpc3VQwH3uTgSaC7iZMwLVRo0+fbZzFYAWyd5O5b6SGSzxqZ3wgbqWSQTPrV8auT4aQoaQvnb4c/PWKewQ==";
+        };
+        _7eCGVBt5 = {
+            "id" = "7eCGVBt5";
+            "file" = "snaplook-1.2.jar";
+            "hash" = "sha512-0YJVbRFC3lU86WZycseZ2V/yJ1wtIBHK0PM9Rx9mkjlTZaDUxFp84C5O9B6dqBfrAp8ikTkv2to5x51D+XmP5g==";
+        };
     in {
         "bydijVEd" = _bydijVEd;
         "22qSNGJB" = _22qSNGJB;
@@ -74,6 +89,9 @@ let
         "mKdMpMaq" = _mKdMpMaq;
         "nVoGWmoZ" = _nVoGWmoZ;
         "wYFRcKOo" = _wYFRcKOo;
+        "jo1lLdCk" = _jo1lLdCk;
+        "puCUxkLM" = _puCUxkLM;
+        "7eCGVBt5" = _7eCGVBt5;
         "fabric-1.21.11" = _bydijVEd;
         "fabric-1.21.10" = _22qSNGJB;
         "fabric-1.21.9" = _OBCyKZmI;
@@ -86,6 +104,10 @@ let
         "fabric-1.21.2" = _mKdMpMaq;
         "fabric-1.21.1" = _nVoGWmoZ;
         "fabric-1.21" = _wYFRcKOo;
+        "fabric-26.1" = _puCUxkLM;
+        "fabric-26.1.1" = _puCUxkLM;
+        "fabric-26.1.2" = _puCUxkLM;
+        "fabric-26.2" = _7eCGVBt5;
         "pkg-Snaplook-1.0-1.21.11" = _bydijVEd;
         "pkg-Snaplook-1.0-1.21.10" = _22qSNGJB;
         "pkg-Snaplook-1.0-1.21.9" = _OBCyKZmI;
@@ -98,7 +120,10 @@ let
         "pkg-Snaplook-1.0-1.21.2" = _mKdMpMaq;
         "pkg-Snaplook-1.0-1.21.1" = _nVoGWmoZ;
         "pkg-Snaplook-1.0.-1.21" = _wYFRcKOo;
-        "default" = _wYFRcKOo;
+        "pkg-Snaplook-1.1-26.1-26.1.2" = _jo1lLdCk;
+        "pkg-Snaplook-1.2-26.1-26.1.2" = _puCUxkLM;
+        "pkg-Snaplook-1.2-26.2" = _7eCGVBt5;
+        "default" = _7eCGVBt5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simplesnaplook";
@@ -106,12 +131,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "MIT" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "MIT License";
-                shortName = "MIT";
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
                 url = null;
             };
         };

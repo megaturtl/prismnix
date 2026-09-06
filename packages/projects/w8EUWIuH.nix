@@ -53,6 +53,7 @@ let
         "fabric-26.1" = _AroMlMnp;
         "fabric-26.1.1" = _AroMlMnp;
         "fabric-26.1.2" = _AroMlMnp;
+        "fabric-26.2" = _AroMlMnp;
         "forge-1.21" = _z5B3MW90;
         "forge-1.21.1" = _z5B3MW90;
         "forge-1.21.2" = _AroMlMnp;
@@ -68,6 +69,7 @@ let
         "forge-26.1" = _AroMlMnp;
         "forge-26.1.1" = _AroMlMnp;
         "forge-26.1.2" = _AroMlMnp;
+        "forge-26.2" = _AroMlMnp;
         "neoforge-1.21" = _z5B3MW90;
         "neoforge-1.21.1" = _z5B3MW90;
         "neoforge-1.21.2" = _AroMlMnp;
@@ -83,6 +85,7 @@ let
         "neoforge-26.1" = _AroMlMnp;
         "neoforge-26.1.1" = _AroMlMnp;
         "neoforge-26.1.2" = _AroMlMnp;
+        "neoforge-26.2" = _AroMlMnp;
         "quilt-1.21" = _z5B3MW90;
         "quilt-1.21.1" = _z5B3MW90;
         "quilt-1.21.2" = _AroMlMnp;
@@ -98,6 +101,7 @@ let
         "quilt-26.1" = _AroMlMnp;
         "quilt-26.1.1" = _AroMlMnp;
         "quilt-26.1.2" = _AroMlMnp;
+        "quilt-26.2" = _AroMlMnp;
         "pkg-1.0" = _RibYU5st;
         "pkg-2.0" = _qkKG4fS8;
         "pkg-1.1" = _eVlBnSm8;

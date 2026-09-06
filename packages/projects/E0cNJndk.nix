@@ -21,17 +21,24 @@ let
             "file" = "DragNs_LO_Scraps_&_Extras-1.20.1-1.1.jar";
             "hash" = "sha512-IPOEfB8heLbHK4i60pyfW61R1AaSiyjUJIwWfrA8pkHLvYhKWp0+qxI3CqlnWa+ehf3Z1U9dczL4OHzYdtrKTQ==";
         };
+        _PDOc8OlI = {
+            "id" = "PDOc8OlI";
+            "file" = "DragNs_LO_Scraps_&_Extras-1.20.1-1.1.1.jar";
+            "hash" = "sha512-WZrjrbGmzj0CxhupdlJEAx/tRMHzvWs+eDqCag5o43KzIW1XHYMg4h0atmSOOV6e9M5veQgnkSj+OANQKeAPEQ==";
+        };
     in {
         "dP4nMvsl" = _dP4nMvsl;
         "PNRCN2JG" = _PNRCN2JG;
         "4mZc8uRm" = _4mZc8uRm;
         "2HfCmN0f" = _2HfCmN0f;
-        "forge-1.20.1" = _2HfCmN0f;
+        "PDOc8OlI" = _PDOc8OlI;
+        "forge-1.20.1" = _PDOc8OlI;
         "pkg-1.0" = _dP4nMvsl;
         "pkg-1.0.1" = _PNRCN2JG;
         "pkg-1.0.2" = _4mZc8uRm;
         "pkg-1.1" = _2HfCmN0f;
-        "default" = _2HfCmN0f;
+        "pkg-1.1.1" = _PDOc8OlI;
+        "default" = _PDOc8OlI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dragns-lo-scraps-extras";

@@ -156,6 +156,51 @@ let
             "file" = "worldweaver-26.300.2.jar";
             "hash" = "sha512-AmF6UhSbzqniBXSAaxacKU9AOS/3l1KcdWNPkm47t484r5PifunxlsxCrFHtoR7kxdX0Tt1B2r2w3p1KW6dVuw==";
         };
+        _MntZYWBx = {
+            "id" = "MntZYWBx";
+            "file" = "worldweaver-21.800.0.jar";
+            "hash" = "sha512-kFuj/R0hzLraoJPkIuADDyB+ai7+BcpBSpfAiINe1Eqn2b2wTVjPYUMXKImU3O+CsVyqpNjAE/9M9hpfTHPQvQ==";
+        };
+        _ifzTr4bA = {
+            "id" = "ifzTr4bA";
+            "file" = "worldweaver-26.101.0.jar";
+            "hash" = "sha512-0M0MC7nqQznj+eMCoOdps8fQ+yvH5zDMINgtq8VbJsJ8OVkFKChdF2zJeH0ET2WnyX0PM5MRKLsRKJUTAHBi7Q==";
+        };
+        _55JGg6nL = {
+            "id" = "55JGg6nL";
+            "file" = "worldweaver-26.201.0.jar";
+            "hash" = "sha512-vMH8y5bfViO2vHI+GfkMxqbcJ1fyJTJ/95/elKnXBen/AEbqLW0Vl+ygk7DCvYXencCplM4sgnUnAX+LB18xmA==";
+        };
+        _5SEujN33 = {
+            "id" = "5SEujN33";
+            "file" = "worldweaver-26.101.1.jar";
+            "hash" = "sha512-Fy9/nM0PGVIpSvTs+kX/teLfezunBFpUCVu1Pzhhfpqy8IL21DoWrUL7rSdgQOtGzD7BDmMU4FkmljCdyLvkzQ==";
+        };
+        _1qQqgVzJ = {
+            "id" = "1qQqgVzJ";
+            "file" = "worldweaver-21.800.1.jar";
+            "hash" = "sha512-kC1XWAyQmvVZOZGzagx43+08v9DtznVaFEwwkuJfGxKXqqIubJkMtEtCvmPlRpShdRurEslR5LI5OXsAbwAJ2A==";
+        };
+        _zOLOTIIX = {
+            "id" = "zOLOTIIX";
+            "file" = "worldweaver-26.201.1.jar";
+            "hash" = "sha512-VnQHsMzD5tHAm63mU5lTYUVHOehG+3eByMrxSfvO7YGHOPZt1ByrwQW+CnWn/LMnDyo5nE1PQl5ONHt9IMEeMQ==";
+        };
+        _3SgzOfbQ = {
+            "id" = "3SgzOfbQ";
+            "file" = "worldweaver-26.301.0.jar";
+            "hash" = "sha512-+uQm3RL4xyuQqpiwMJh0ZkvGpkfSoWnnR2OnORi6U0a6oGbCzNfaQAQq0PGYZLdjEyTTEagTc9S34Te/WTUNVw==";
+        };
+        _GHdiOIsp = {
+            "id" = "GHdiOIsp";
+            "file" = "worldweaver-26.201.2.jar";
+            "hash" = "sha512-AeQURFgPV1LTF/2ydOG8PunMY/GhK71PYkyW/yUuQLAPxXNR3LCJ3c1hISOiRa/wEazbNoZnRvD88kMaQX16nA==";
+        };
+        _MSzkHfJp = {
+            "id" = "MSzkHfJp";
+            "file" = "worldweaver-26.101.2.jar";
+            "hash" = "sha512-IKLy1ZiZZrPlRyTp3y+QYdl/t5pBzEhSoSSSxD1aFin7CCRcZyedxXsBIjTVN57scji+zz+ct7oEfCVs7WgRLQ==";
+        };
     in {
         "71qB5ADd" = _71qB5ADd;
         "OWspNUyV" = _OWspNUyV;
@@ -188,16 +233,25 @@ let
         "iLJXVwDt" = _iLJXVwDt;
         "dLEKOep2" = _dLEKOep2;
         "8meW9FGh" = _8meW9FGh;
+        "MntZYWBx" = _MntZYWBx;
+        "ifzTr4bA" = _ifzTr4bA;
+        "55JGg6nL" = _55JGg6nL;
+        "5SEujN33" = _5SEujN33;
+        "1qQqgVzJ" = _1qQqgVzJ;
+        "zOLOTIIX" = _zOLOTIIX;
+        "3SgzOfbQ" = _3SgzOfbQ;
+        "GHdiOIsp" = _GHdiOIsp;
+        "MSzkHfJp" = _MSzkHfJp;
         "fabric-1.21" = _mPmeykPR;
         "fabric-1.21.1" = _mPmeykPR;
-        "fabric-1.21.6" = _4gWsQMNR;
-        "fabric-1.21.7" = _4gWsQMNR;
-        "fabric-1.21.8" = _4gWsQMNR;
-        "fabric-26.1" = _iLJXVwDt;
-        "fabric-26.1.1" = _iLJXVwDt;
-        "fabric-26.1.2" = _iLJXVwDt;
-        "fabric-26.3-snapshot-6" = _8meW9FGh;
-        "fabric-26.2" = _dLEKOep2;
+        "fabric-1.21.6" = _1qQqgVzJ;
+        "fabric-1.21.7" = _1qQqgVzJ;
+        "fabric-1.21.8" = _1qQqgVzJ;
+        "fabric-26.1" = _MSzkHfJp;
+        "fabric-26.1.1" = _MSzkHfJp;
+        "fabric-26.1.2" = _MSzkHfJp;
+        "fabric-26.3-snapshot-6" = _3SgzOfbQ;
+        "fabric-26.2" = _GHdiOIsp;
         "pkg-21.0.0" = _71qB5ADd;
         "pkg-21.0.1" = _OWspNUyV;
         "pkg-21.0.2" = _c6sTpGND;
@@ -229,7 +283,16 @@ let
         "pkg-26.100.3" = _iLJXVwDt;
         "pkg-26.200.1" = _dLEKOep2;
         "pkg-26.300.2" = _8meW9FGh;
-        "default" = _8meW9FGh;
+        "pkg-21.800.0" = _MntZYWBx;
+        "pkg-26.101.0" = _ifzTr4bA;
+        "pkg-26.201.0" = _55JGg6nL;
+        "pkg-26.101.1" = _5SEujN33;
+        "pkg-21.800.1" = _1qQqgVzJ;
+        "pkg-26.201.1" = _zOLOTIIX;
+        "pkg-26.301.0" = _3SgzOfbQ;
+        "pkg-26.201.2" = _GHdiOIsp;
+        "pkg-26.101.2" = _MSzkHfJp;
+        "default" = _MSzkHfJp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "worldweaver";

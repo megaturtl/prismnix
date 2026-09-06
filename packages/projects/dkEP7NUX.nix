@@ -126,6 +126,36 @@ let
             "file" = "notenoughcalculator-2.5.1+1.21.11.jar";
             "hash" = "sha512-i1+J17jlcB5BVyAUvB9njZ1PomtP+w3VVuplzJz9yKV9+hDVYNfV7lqrLIrFuJ3n0Tk/+RhKOIsgzXE1hg3giQ==";
         };
+        _CqSFMt0Y = {
+            "id" = "CqSFMt0Y";
+            "file" = "notenoughcalculator-2.6.0.jar";
+            "hash" = "sha512-/J2dWJ1flCIC6Ex0MjqoAkpzpwa4eDE5w1mU9DYn9gRkq7zFnjY148+qiLw68JmtXB1vhh4EmzZFabDGiFuOkA==";
+        };
+        _79KlZxMR = {
+            "id" = "79KlZxMR";
+            "file" = "notenoughcalculator-2.6.1.jar";
+            "hash" = "sha512-A0nYaJGdvp9iCeWNHOPgx9Q3oL/R9ZBw7w/p1b+8yqf6e/VZX+YuXH2V9R1p7mVUchgkJ7cbOTJPcJ3y5CCLnA==";
+        };
+        _xMlkjBvs = {
+            "id" = "xMlkjBvs";
+            "file" = "notenoughcalculator-2.7.0-beta.jar";
+            "hash" = "sha512-1CKwpfVAkMSk+m/s0QWesmAWo6yYjp8PEGREPOHxbPiIjBnxxMdd3EulmqupTIvks8vT9OcW8NQMi+LDrW054w==";
+        };
+        _dYxniXxh = {
+            "id" = "dYxniXxh";
+            "file" = "notenoughcalculator-2.7.0.jar";
+            "hash" = "sha512-2YDAvtaNOtzAfl9/HcTGtf6WHf3PY1sW3CbJRgsDWtAqCdkhAWLmddutMeiVOEUV03IYcQb8YUTi9aO23G6gKA==";
+        };
+        _r0nttzy7 = {
+            "id" = "r0nttzy7";
+            "file" = "notenoughcalculator-2.7.1.jar";
+            "hash" = "sha512-nJ3ss1UMHHu1UsZqmzD0cMTVuoED050BAVSGvPKSRsGi+JSjoRnWuix0uT/bsHCPFVssfoAbgiUD8V/AXxtizA==";
+        };
+        _3P6bsab5 = {
+            "id" = "3P6bsab5";
+            "file" = "notenoughcalculator-3.0.0.jar";
+            "hash" = "sha512-rAqRSRA+8BeF07IUsbiy0d5ikupQLPgYfkprEINl8VLsDV0kfq4GQKObEwnzSd/iv8So7M9knD1ZjkGlacBSkA==";
+        };
     in {
         "JeAQMdYk" = _JeAQMdYk;
         "kbtK6lz2" = _kbtK6lz2;
@@ -152,6 +182,12 @@ let
         "w8S3jtMB" = _w8S3jtMB;
         "ChXGDICl" = _ChXGDICl;
         "vpYRQvvE" = _vpYRQvvE;
+        "CqSFMt0Y" = _CqSFMt0Y;
+        "79KlZxMR" = _79KlZxMR;
+        "xMlkjBvs" = _xMlkjBvs;
+        "dYxniXxh" = _dYxniXxh;
+        "r0nttzy7" = _r0nttzy7;
+        "3P6bsab5" = _3P6bsab5;
         "fabric-1.21.5" = _hQeqDw7g;
         "fabric-1.21.6" = _hQeqDw7g;
         "fabric-1.21.7" = _hQeqDw7g;
@@ -159,10 +195,10 @@ let
         "fabric-1.21.9" = _ChXGDICl;
         "fabric-1.21.10" = _ChXGDICl;
         "fabric-1.21.11" = _vpYRQvvE;
-        "fabric-26.1" = _w8S3jtMB;
-        "fabric-26.1.1" = _w8S3jtMB;
-        "fabric-26.1.2" = _w8S3jtMB;
-        "fabric-26.2" = _w8S3jtMB;
+        "fabric-26.1" = _r0nttzy7;
+        "fabric-26.1.1" = _r0nttzy7;
+        "fabric-26.1.2" = _r0nttzy7;
+        "fabric-26.2" = _3P6bsab5;
         "pkg-1.0.0" = _JeAQMdYk;
         "pkg-1.0.1" = _kbtK6lz2;
         "pkg-1.0.2" = _AmaOz1q8;
@@ -188,7 +224,13 @@ let
         "pkg-2.5.0" = _w8S3jtMB;
         "pkg-2.5.0+1.21.11" = _ChXGDICl;
         "pkg-2.5.1+1.21.11" = _vpYRQvvE;
-        "default" = _vpYRQvvE;
+        "pkg-2.6.0" = _CqSFMt0Y;
+        "pkg-2.6.1" = _79KlZxMR;
+        "pkg-2.7.0-beta" = _xMlkjBvs;
+        "pkg-2.7.0" = _dYxniXxh;
+        "pkg-2.7.1" = _r0nttzy7;
+        "pkg-3.0.0" = _3P6bsab5;
+        "default" = _3P6bsab5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "notenoughcalculator";
@@ -202,7 +244,7 @@ let
                 redistributable = false;
                 fullName = "GNU Lesser General Public License v3.0 or later";
                 shortName = "LGPL-3.0-or-later";
-                url = "https://github.com/Rijzzz/NotEnoughCalculator/tree/1.21.9-1.21.11?tab=License-1-ov-file";
+                url = "https://github.com/Rijzzz/NotEnoughCalculator/blob/26.2/LICENSE.txt";
             };
         };
     };

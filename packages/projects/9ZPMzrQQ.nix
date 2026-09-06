@@ -231,6 +231,11 @@ let
             "file" = "low-fire-reborn-1.0.11.jar";
             "hash" = "sha512-h7hSv0bdeqPZxU93WOHF3u/NljIwW+ZFOeuQlSY7aHRv3x2AAzyYvcljOFQSq977c6COv9wkDcYNnBcAXq0E6A==";
         };
+        _BygfcCkr = {
+            "id" = "BygfcCkr";
+            "file" = "low-fire-reborn-1.0.12.jar";
+            "hash" = "sha512-6OpqEcEoJk1jU4k/ZUTvTXvGGSF254h/2GwvBM0I4Aig8XSZCvPiClX7+Tgm/O+s17lxMANt6BOXTnOvGuD+Dg==";
+        };
     in {
         "63WLUJFA" = _63WLUJFA;
         "689DrTBL" = _689DrTBL;
@@ -278,6 +283,7 @@ let
         "yL0rt9nQ" = _yL0rt9nQ;
         "ObulIxaM" = _ObulIxaM;
         "jH8Chjod" = _jH8Chjod;
+        "BygfcCkr" = _BygfcCkr;
         "fabric-1.21.3" = _20SfC6dT;
         "fabric-1.21.2" = _689DrTBL;
         "fabric-1.21.1" = _y0yjpnZ7;
@@ -324,6 +330,7 @@ let
         "fabric-26.1" = _jH8Chjod;
         "fabric-26.1.1" = _jH8Chjod;
         "fabric-26.1.2" = _jH8Chjod;
+        "fabric-26.2" = _BygfcCkr;
         "pkg-1.0.0" = _tYsbRkMn;
         "pkg-1.0.1" = _20SfC6dT;
         "pkg-1.0.2" = _vPKamAN2;
@@ -336,7 +343,8 @@ let
         "pkg-1.0.9" = _yL0rt9nQ;
         "pkg-1.0.10" = _ObulIxaM;
         "pkg-1.0.11" = _jH8Chjod;
-        "default" = _jH8Chjod;
+        "pkg-1.0.12" = _BygfcCkr;
+        "default" = _BygfcCkr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "low-fire-reborn";

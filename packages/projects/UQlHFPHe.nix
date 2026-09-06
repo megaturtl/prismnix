@@ -130,6 +130,7 @@ let
         "fabric-26.3-snapshot-5" = _ozyzFajw;
         "fabric-26.3-snapshot-6" = _ozyzFajw;
         "fabric-26.3-snapshot-7" = _ozyzFajw;
+        "fabric-26.3-snapshot-8" = _ozyzFajw;
         "quilt-25w20a" = _ASlJZN49;
         "quilt-25w21a" = _ASlJZN49;
         "quilt-1.21.6-pre1" = _ASlJZN49;
@@ -228,6 +229,7 @@ let
         "neoforge-26.3-snapshot-5" = _PAoZarbw;
         "neoforge-26.3-snapshot-6" = _PAoZarbw;
         "neoforge-26.3-snapshot-7" = _PAoZarbw;
+        "neoforge-26.3-snapshot-8" = _PAoZarbw;
         "pkg-1.0.0" = _M8m0jNkY;
         "pkg-2.0.0" = _BWcAWnBz;
         "pkg-2.1.0" = _PAoZarbw;

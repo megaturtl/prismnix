@@ -261,6 +261,21 @@ let
             "file" = "bobsoriginiumdream-1.0.26-forge-1.20.1.jar";
             "hash" = "sha512-XisSTVLjpRYwFKyIfhkhnIDnbnTYG6KG4HQIuaLNxdRZYlO4cMQOoT1lNht2ruxAO4T8Defa6VPM+jT+z3YWuA==";
         };
+        _N3iZtmIP = {
+            "id" = "N3iZtmIP";
+            "file" = "bobsoriginiumdream-1.1-forge-1.20.1-beta.jar";
+            "hash" = "sha512-UhopLnesaxoW/32Hal+cWKom2K9uF6Cc9XlvOjwcNWbn/f4k7OTFbY8H1a7oZF/yRBH0GYoxcwKnZkTf16ZE3Q==";
+        };
+        _piNUeHnn = {
+            "id" = "piNUeHnn";
+            "file" = "bobsoriginiumdream-1.1-forge-1.20.1.jar";
+            "hash" = "sha512-3WfCak2Ug8EKwzNtqhxfedHtAt2s2rQBhPGMGlbAsb40DOXcUb5Iq169BmaxKIJ22qI2L6WCJlCeyjpJf4kWhA==";
+        };
+        _PzN6MPrN = {
+            "id" = "PzN6MPrN";
+            "file" = "bobsoriginiumdream-1.1.1-forge-1.20.1.jar";
+            "hash" = "sha512-Bblgl0QdXU3NYHCaZku64T2ewDG+QuiB7h3CWziOtLIWmgI7m227iFth0r9F4otHN+6bQTN88HCf/1UzpkNq0Q==";
+        };
     in {
         "2AsL9cP3" = _2AsL9cP3;
         "neea4Sru" = _neea4Sru;
@@ -314,7 +329,10 @@ let
         "oxZbI5o1" = _oxZbI5o1;
         "isdiZrNd" = _isdiZrNd;
         "X0tkrhCE" = _X0tkrhCE;
-        "forge-1.20.1" = _X0tkrhCE;
+        "N3iZtmIP" = _N3iZtmIP;
+        "piNUeHnn" = _piNUeHnn;
+        "PzN6MPrN" = _PzN6MPrN;
+        "forge-1.20.1" = _PzN6MPrN;
         "pkg-1.0.0" = _2AsL9cP3;
         "pkg-1.0.1" = _neea4Sru;
         "pkg-1.0.2" = _jrRh5vd8;
@@ -355,7 +373,9 @@ let
         "pkg-1.0.24" = _OenRG5OD;
         "pkg-1.0.25" = _isdiZrNd;
         "pkg-1.0.26" = _X0tkrhCE;
-        "default" = _X0tkrhCE;
+        "pkg-1.1" = _piNUeHnn;
+        "pkg-1.1.1" = _PzN6MPrN;
+        "default" = _PzN6MPrN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bobs-originium-dream";

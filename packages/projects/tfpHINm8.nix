@@ -966,6 +966,31 @@ let
             "file" = "bblcore-26.1.2-12.6.4.jar";
             "hash" = "sha512-eX6gLCFAkKvN7lB7cXT1bkKTnhSsjni8I27okEjBloNxZ3ITdDcxgr7aUPCJzXxUUNg6v8GidC3u5eKVCCffvw==";
         };
+        _1OLWhh0f = {
+            "id" = "1OLWhh0f";
+            "file" = "bblcore-26.1.2-12.6.5.jar";
+            "hash" = "sha512-DBirW1ccKfYWwl4Rhp61CG+b5p6v2s3QYOPe/G/fK1rMrGD1YsuL/YEW8r/R91EZ3Mm2+gUzF81EeFPUfr+xWQ==";
+        };
+        _WVludMen = {
+            "id" = "WVludMen";
+            "file" = "bblcore-26.1.2-12.6.5.jar";
+            "hash" = "sha512-DBirW1ccKfYWwl4Rhp61CG+b5p6v2s3QYOPe/G/fK1rMrGD1YsuL/YEW8r/R91EZ3Mm2+gUzF81EeFPUfr+xWQ==";
+        };
+        _hrhHAbOI = {
+            "id" = "hrhHAbOI";
+            "file" = "bblcore-26.1.2-12.6.6.jar";
+            "hash" = "sha512-4vHqZJQk/3hLyXhfapvM8curgH6FCalGW3ThdRFDGhy5TQhPWkDhzikgFdF71dWDDDOLAybIYURwzeHWKPPnog==";
+        };
+        _jLq4lmK4 = {
+            "id" = "jLq4lmK4";
+            "file" = "bblcore-26.1.2-12.6.7.jar";
+            "hash" = "sha512-ZZIpMQzE28Fu90COj+1k23WFu6ZjQYLdC04WlAD1TDFBK4m6qp4tCkuKKn5kHKKbnfwdKEYpCtl4kX5pN2sScw==";
+        };
+        _wtGVoZIV = {
+            "id" = "wtGVoZIV";
+            "file" = "bblcore-26.1.2-12.6.8.jar";
+            "hash" = "sha512-15AYphcl4WTuHNdox8MKrT7aGa7RkGxatmfNlz8UOAzZ6ZGckTkeB2SwMX4iTl3RKIRpoIZEa+I9YYo1ei4XRg==";
+        };
     in {
         "D05Qqrgn" = _D05Qqrgn;
         "nVDK6u7U" = _nVDK6u7U;
@@ -1160,6 +1185,11 @@ let
         "iUm1hPxa" = _iUm1hPxa;
         "P6FNxALk" = _P6FNxALk;
         "5JLhfU3B" = _5JLhfU3B;
+        "1OLWhh0f" = _1OLWhh0f;
+        "WVludMen" = _WVludMen;
+        "hrhHAbOI" = _hrhHAbOI;
+        "jLq4lmK4" = _jLq4lmK4;
+        "wtGVoZIV" = _wtGVoZIV;
         "neoforge-1.21" = _BQtVuunR;
         "neoforge-1.21.1" = _BQtVuunR;
         "neoforge-1.21.5" = _fDRhcQOs;
@@ -1169,7 +1199,7 @@ let
         "neoforge-1.21.11" = _jB5Pi4ZU;
         "neoforge-26.1" = _cH0NBIWX;
         "neoforge-26.1.1" = _cH0NBIWX;
-        "neoforge-26.1.2" = _5JLhfU3B;
+        "neoforge-26.1.2" = _wtGVoZIV;
         "neoforge-26.2" = _5JLhfU3B;
         "pkg-1.0.69" = _D05Qqrgn;
         "pkg-1.21-1.0.69" = _nVDK6u7U;
@@ -1347,7 +1377,11 @@ let
         "pkg-26.1.2-12.6.2" = _iUm1hPxa;
         "pkg-26.1.2-12.6.3" = _P6FNxALk;
         "pkg-26.1.2-12.6.4" = _5JLhfU3B;
-        "default" = _5JLhfU3B;
+        "pkg-26.1.2-12.6.5" = _WVludMen;
+        "pkg-26.1.2-12.6.6" = _hrhHAbOI;
+        "pkg-26.1.2-12.6.7" = _jLq4lmK4;
+        "pkg-26.1.2-12.6.8" = _wtGVoZIV;
+        "default" = _wtGVoZIV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bbl-core";

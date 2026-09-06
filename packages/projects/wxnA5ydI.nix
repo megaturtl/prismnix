@@ -216,6 +216,26 @@ let
             "file" = "nukacraft-1.21.1-1.19.7-alpha.jar";
             "hash" = "sha512-x3Ob5SfIkyUcPvg/1J+gOpkV03ig4UoJeHGMKTRs6dxCOii0DKrOaK/Z9PQVvfpBo4QsxzT6hjRo1lsgvci+kA==";
         };
+        _1PycChLo = {
+            "id" = "1PycChLo";
+            "file" = "nukacraft-1.21.1-1.19.8-alpha.jar";
+            "hash" = "sha512-D2+BZYRl32ioYgKt6vCKHFbnGDubbNAXDT3PC2zeDwfH/31RWgP9Kf2EjmSuW6nCZUFcym/CbHWTRFSwEAl34w==";
+        };
+        _pcgVR31G = {
+            "id" = "pcgVR31G";
+            "file" = "nukacraft-1.21.1-1.19.9-alpha.jar";
+            "hash" = "sha512-noRZb6+HJICLf/JgJNwOMfglwPZUMexJFEL30JT/bGiYk8CHbd1/WiLtEEYamZ/PgZkO8RGmtlIqzTUSaH3xzg==";
+        };
+        _yOGaE6QI = {
+            "id" = "yOGaE6QI";
+            "file" = "nukacraft-1.20.1-1.19.8-alpha.jar";
+            "hash" = "sha512-VIf2rm3m0juW1DhHnpcLsY9s9RxXfwnT75dhvzI+8VyEBRJqaOqobDgE7ETvXoB6nrsBzIYhSeh0RQ+NSgX4AQ==";
+        };
+        _sspCStq6 = {
+            "id" = "sspCStq6";
+            "file" = "nukacraft-1.21.1-1.19.10-alpha.jar";
+            "hash" = "sha512-pANW2nU0Q6iCLSLNPQ6j/39xfT1Cd8irR536ZBHr4D1YeynTy+sfFaeDrnKX0fsbItJpH8GCEp6HDIH6+rpIFA==";
+        };
     in {
         "InhxUFx4" = _InhxUFx4;
         "lPLN81FK" = _lPLN81FK;
@@ -260,13 +280,17 @@ let
         "3AUJ1eV3" = _3AUJ1eV3;
         "7dqUcTTv" = _7dqUcTTv;
         "fqCJ9wDP" = _fqCJ9wDP;
+        "1PycChLo" = _1PycChLo;
+        "pcgVR31G" = _pcgVR31G;
+        "yOGaE6QI" = _yOGaE6QI;
+        "sspCStq6" = _sspCStq6;
         "forge-1.18.2" = _tBSCbou5;
-        "forge-1.20.1" = _7dqUcTTv;
+        "forge-1.20.1" = _yOGaE6QI;
         "forge-1.19.2" = _Nhfcuq4n;
         "forge-1.20" = _3B51BJ43;
         "neoforge-1.20" = _3B51BJ43;
-        "neoforge-1.20.1" = _7dqUcTTv;
-        "neoforge-1.21.1" = _fqCJ9wDP;
+        "neoforge-1.20.1" = _yOGaE6QI;
+        "neoforge-1.21.1" = _sspCStq6;
         "pkg-1.0-SNAPSHOT" = _InhxUFx4;
         "pkg-1.18.2-1.1.1-alpha" = _lPLN81FK;
         "pkg-1.18.2-1.2.0-alpha" = _MpT0IpL2;
@@ -309,7 +333,10 @@ let
         "pkg-1.19.5-alpha" = _DqTdYETh;
         "pkg-1.19.6-alpha" = _3AUJ1eV3;
         "pkg-1.19.7-alpha" = _fqCJ9wDP;
-        "default" = _fqCJ9wDP;
+        "pkg-1.19.8-alpha" = _yOGaE6QI;
+        "pkg-1.19.9-alpha" = _pcgVR31G;
+        "pkg-1.19.10-alpha" = _sspCStq6;
+        "default" = _sspCStq6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thenukacraft";

@@ -56,6 +56,11 @@ let
             "file" = "TCTC-Cherry_1.0.3.zip";
             "hash" = "sha512-OFVvqwTzx5AsCNz3i8PWqO/azVHWeUE96RHmoj7RKgxGE4CiynRpaqu1WsyXk4PCmAnXThdpSzm5eTkkOgknIA==";
         };
+        _cQJhJwwM = {
+            "id" = "cQJhJwwM";
+            "file" = "TCTC-Cherry_1.0.4.zip";
+            "hash" = "sha512-aQY3YeBgz3YLK0d+dBiHZL2p9GD1p3QyYrBKNiRgQGMP1sIGSqA0FbT+erMsr4/87G/qM6ZQwVECOIeajLxvsQ==";
+        };
     in {
         "6PrFffbb" = _6PrFffbb;
         "O9Gsz3iX" = _O9Gsz3iX;
@@ -68,6 +73,7 @@ let
         "Zp018vF5" = _Zp018vF5;
         "enCvHEi9" = _enCvHEi9;
         "9JOA6I01" = _9JOA6I01;
+        "cQJhJwwM" = _cQJhJwwM;
         "minecraft-1.16" = _9JOA6I01;
         "minecraft-1.16.1" = _9JOA6I01;
         "minecraft-1.16.2" = _9JOA6I01;
@@ -86,23 +92,27 @@ let
         "minecraft-1.19.4" = _9JOA6I01;
         "minecraft-1.20" = _9JOA6I01;
         "minecraft-1.20.1" = _9JOA6I01;
-        "minecraft-1.20.2" = _9JOA6I01;
-        "minecraft-1.20.3" = _9JOA6I01;
-        "minecraft-1.20.4" = _9JOA6I01;
-        "minecraft-1.20.5" = _9JOA6I01;
-        "minecraft-1.20.6" = _9JOA6I01;
-        "minecraft-1.21" = _9JOA6I01;
-        "minecraft-1.21.1" = _9JOA6I01;
-        "minecraft-1.21.2" = _9JOA6I01;
-        "minecraft-1.21.3" = _9JOA6I01;
-        "minecraft-1.21.4" = _9JOA6I01;
-        "minecraft-1.21.5" = _9JOA6I01;
-        "minecraft-1.21.6" = _9JOA6I01;
-        "minecraft-1.21.7" = _9JOA6I01;
-        "minecraft-1.21.8" = _9JOA6I01;
-        "minecraft-1.21.9" = _9JOA6I01;
-        "minecraft-1.21.10" = _9JOA6I01;
-        "minecraft-1.21.11" = _9JOA6I01;
+        "minecraft-1.20.2" = _cQJhJwwM;
+        "minecraft-1.20.3" = _cQJhJwwM;
+        "minecraft-1.20.4" = _cQJhJwwM;
+        "minecraft-1.20.5" = _cQJhJwwM;
+        "minecraft-1.20.6" = _cQJhJwwM;
+        "minecraft-1.21" = _cQJhJwwM;
+        "minecraft-1.21.1" = _cQJhJwwM;
+        "minecraft-1.21.2" = _cQJhJwwM;
+        "minecraft-1.21.3" = _cQJhJwwM;
+        "minecraft-1.21.4" = _cQJhJwwM;
+        "minecraft-1.21.5" = _cQJhJwwM;
+        "minecraft-1.21.6" = _cQJhJwwM;
+        "minecraft-1.21.7" = _cQJhJwwM;
+        "minecraft-1.21.8" = _cQJhJwwM;
+        "minecraft-1.21.9" = _cQJhJwwM;
+        "minecraft-1.21.10" = _cQJhJwwM;
+        "minecraft-1.21.11" = _cQJhJwwM;
+        "minecraft-26.1" = _cQJhJwwM;
+        "minecraft-26.1.1" = _cQJhJwwM;
+        "minecraft-26.1.2" = _cQJhJwwM;
+        "minecraft-26.2" = _cQJhJwwM;
         "pkg-20231030" = _6PrFffbb;
         "pkg-20231125" = _O9Gsz3iX;
         "pkg-20240225" = _UfRAefAX;
@@ -114,7 +124,8 @@ let
         "pkg-1.0.1" = _Zp018vF5;
         "pkg-1.0.2" = _enCvHEi9;
         "pkg-1.0.3" = _9JOA6I01;
-        "default" = _9JOA6I01;
+        "pkg-1.0.4" = _cQJhJwwM;
+        "default" = _cQJhJwwM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tctc-cherry";

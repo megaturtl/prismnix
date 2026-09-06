@@ -111,6 +111,26 @@ let
             "file" = "HotVP-fabric-26.2.jar";
             "hash" = "sha512-3L3YczACGOSbe3GU+erDeyva+A7v8PB1dkDdsIW4aXIxdRl2z3mQvroXlaSE3MWUgecbDUgG5E7lI7nK9Jl4Fg==";
         };
+        _dTfmv8Yg = {
+            "id" = "dTfmv8Yg";
+            "file" = "HotVP-neoforge-26.1.jar";
+            "hash" = "sha512-cZf9vl/qttDfsWY+VLDUCu8UOV6ZWT8eCcR0nnSr8POVE93yi9Haeog6+3kvjtompFuxUvmjf3PWudmh1w08Cw==";
+        };
+        _WDihG2P3 = {
+            "id" = "WDihG2P3";
+            "file" = "HotVP-neoforge-26.2.jar";
+            "hash" = "sha512-Vbtzxb6MT409SU0yGd0TfT0fOgH53cKL3MLeIvWwdaBhs5uTnXzRzsZ30DOpu7dZfig/tvcJPXq4zWThGFoftQ==";
+        };
+        _AWSMKjio = {
+            "id" = "AWSMKjio";
+            "file" = "HotVP-forge-1.19.2.jar";
+            "hash" = "sha512-41+bM8cr6Dh2eNP5fWWq9B+t7wSRyGa2MhSoLfzBxUW6NBkJDtyJut8OA+ELYvX1lgVYD6ym3B8eBYm0w5ub8w==";
+        };
+        _LB81zU5B = {
+            "id" = "LB81zU5B";
+            "file" = "HotVP-forge-1.21.10.jar";
+            "hash" = "sha512-HO5w9xg+1pcNYlodhMaYKf4sCJizKURHlKLqOM/Ftbn59PrCdzPOEBm1rFSkcnQEHkvpw55FdsKQpxH5Z8U/Yw==";
+        };
     in {
         "c7IGwhPs" = _c7IGwhPs;
         "D9iwRm94" = _D9iwRm94;
@@ -134,6 +154,10 @@ let
         "331Tln6T" = _331Tln6T;
         "t6Arb1Wu" = _t6Arb1Wu;
         "kSwgipKD" = _kSwgipKD;
+        "dTfmv8Yg" = _dTfmv8Yg;
+        "WDihG2P3" = _WDihG2P3;
+        "AWSMKjio" = _AWSMKjio;
+        "LB81zU5B" = _LB81zU5B;
         "fabric-1.21.11" = _MM34ZyqR;
         "fabric-1.14" = _D9iwRm94;
         "fabric-1.14.1" = _D9iwRm94;
@@ -187,9 +211,15 @@ let
         "forge-1.20.4" = _331Tln6T;
         "forge-1.20.5" = _331Tln6T;
         "forge-1.20.6" = _331Tln6T;
+        "forge-1.19.2" = _AWSMKjio;
+        "forge-1.21.10" = _LB81zU5B;
         "neoforge-1.21.11" = _t6Arb1Wu;
-        "pkg-1.0.0" = _kSwgipKD;
-        "default" = _kSwgipKD;
+        "neoforge-26.1" = _dTfmv8Yg;
+        "neoforge-26.1.1" = _dTfmv8Yg;
+        "neoforge-26.1.2" = _dTfmv8Yg;
+        "neoforge-26.2" = _WDihG2P3;
+        "pkg-1.0.0" = _LB81zU5B;
+        "default" = _LB81zU5B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hero-of-the-village-plus-better-villagers-and-extra-trades";

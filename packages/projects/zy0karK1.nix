@@ -141,6 +141,51 @@ let
             "file" = "animatium-3.4+1.21.11-fabric.jar";
             "hash" = "sha512-rcHKM3OFHFfOeJod/x3QV6Ps/qgzVOqdEMLIL74/uOPIe4V7byJUduJNQ1XuHEcQWx7w9ApIl727w/8ERvbaIg==";
         };
+        _OiOkMcFs = {
+            "id" = "OiOkMcFs";
+            "file" = "animatium-4.2+1.21.11-fabric.jar";
+            "hash" = "sha512-ztVOPfXVDvDTsaKQ5VpAdAiiLu1Nkg5SRNpq0dBA7SrsB9PIG6BTRIhIre5lFprk1V9YMdmbKUOOQ3SAG+VxYg==";
+        };
+        _3DCsMRiy = {
+            "id" = "3DCsMRiy";
+            "file" = "animatium-4.2+26.1.2-fabric.jar";
+            "hash" = "sha512-wHe65myyCHAGtM5U9t6e1Um9qcqIfOu8phAU6eoP2SabzxyVhO2HxHhfrfc0OZUYrXYHBAGEyHayMW/Fw+188g==";
+        };
+        _uHSWWtXZ = {
+            "id" = "uHSWWtXZ";
+            "file" = "animatium-4.2+26.2-fabric.jar";
+            "hash" = "sha512-5Nh9ZJjH3nO/GvJWHn13pPNaiKNTK/dXzaxUCD+jbcXAknHPiUsKYp0Iqf2sARQSLgEUV8lAb+QuZ2Xg0Ht9ow==";
+        };
+        _s6Zs0U7a = {
+            "id" = "s6Zs0U7a";
+            "file" = "animatium-4.2.1+1.21.11-fabric.jar";
+            "hash" = "sha512-/ftgGI9F1ayQwZmy8L3BJaaku/WKUV8RrI9//1FnHM5Q7MwGRkIht7GZPKSGtVBwh/YkOHbXKhkHJGB906yLFQ==";
+        };
+        _dntmVs97 = {
+            "id" = "dntmVs97";
+            "file" = "animatium-4.2.1+26.1.2-fabric.jar";
+            "hash" = "sha512-s6MM2OD9+x4uug+A8NfVaSNuqqmz1JmJcaV+iIZ0RfMB7Pi8kwoaXttSSWhbMyIR7Ty46YUCv2cez2Z4WOv2TQ==";
+        };
+        _mdF2Nx5N = {
+            "id" = "mdF2Nx5N";
+            "file" = "animatium-4.2.1+26.2-fabric.jar";
+            "hash" = "sha512-Ni/k9XYvtGn2WvKBSHX8SmQsBzVJ5QTJJKl2+eN8pKGW1OYs22iE7+IPpdeiNadBVAibdm49mqN6ji8Stj13vA==";
+        };
+        _o3XcWAi3 = {
+            "id" = "o3XcWAi3";
+            "file" = "animatium-4.3+1.21.11-fabric.jar";
+            "hash" = "sha512-eiDF2PBveCF2Ei5WULCJjyHzfJvJywkfw1Vi5jp79vt4QkAiK2sOVvFpLN/neKQaS1znpEIr79fJ/KOJB0xqEw==";
+        };
+        _BHtSo7FE = {
+            "id" = "BHtSo7FE";
+            "file" = "animatium-4.3+26.1.2-fabric.jar";
+            "hash" = "sha512-DVKKsZSgIE/72yjF6GYURUO+pcpgBEjbxY8ac5Bv4noVdTVx2Udc+ptPK7tapw/oe1WHq2TJE6yXXYwgra9hKw==";
+        };
+        _Q5mMiKxL = {
+            "id" = "Q5mMiKxL";
+            "file" = "animatium-4.3+26.2-fabric.jar";
+            "hash" = "sha512-n5dquU7g+oDnPE/OxMwgQosH0dbCDLwaKps3tSpy1Sq4Iow/ZfLe7O5qjs5mzGIru5PzS47T8pTN0bB2hOJKkw==";
+        };
     in {
         "5iHyvKmR" = _5iHyvKmR;
         "1DqQrGaN" = _1DqQrGaN;
@@ -170,6 +215,15 @@ let
         "bldX3Vcm" = _bldX3Vcm;
         "3b6pUwTf" = _3b6pUwTf;
         "PwEnmcjn" = _PwEnmcjn;
+        "OiOkMcFs" = _OiOkMcFs;
+        "3DCsMRiy" = _3DCsMRiy;
+        "uHSWWtXZ" = _uHSWWtXZ;
+        "s6Zs0U7a" = _s6Zs0U7a;
+        "dntmVs97" = _dntmVs97;
+        "mdF2Nx5N" = _mdF2Nx5N;
+        "o3XcWAi3" = _o3XcWAi3;
+        "BHtSo7FE" = _BHtSo7FE;
+        "Q5mMiKxL" = _Q5mMiKxL;
         "fabric-1.21.5" = _LmMmc1uB;
         "fabric-1.21.4" = _LGJYOPXS;
         "fabric-1.21.6" = _qVwcSabB;
@@ -178,11 +232,11 @@ let
         "fabric-25w31a" = _iycCVty0;
         "fabric-1.21.9" = _dNYb24vW;
         "fabric-1.21.10" = _dNYb24vW;
-        "fabric-1.21.11" = _PwEnmcjn;
-        "fabric-26.1" = _bldX3Vcm;
-        "fabric-26.1.1" = _bldX3Vcm;
-        "fabric-26.1.2" = _bldX3Vcm;
-        "fabric-26.2" = _3b6pUwTf;
+        "fabric-1.21.11" = _o3XcWAi3;
+        "fabric-26.1" = _BHtSo7FE;
+        "fabric-26.1.1" = _BHtSo7FE;
+        "fabric-26.1.2" = _BHtSo7FE;
+        "fabric-26.2" = _Q5mMiKxL;
         "pkg-2.0" = _1DqQrGaN;
         "pkg-2.1" = _UrpBOaOH;
         "pkg-2.3" = _niub18sg;
@@ -198,7 +252,10 @@ let
         "pkg-3.3" = _RKqf3DLg;
         "pkg-4.1" = _3b6pUwTf;
         "pkg-3.4" = _PwEnmcjn;
-        "default" = _PwEnmcjn;
+        "pkg-4.2" = _uHSWWtXZ;
+        "pkg-4.2.1" = _mdF2Nx5N;
+        "pkg-4.3" = _Q5mMiKxL;
+        "default" = _Q5mMiKxL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animatium";

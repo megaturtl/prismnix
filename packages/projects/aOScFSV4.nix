@@ -31,6 +31,16 @@ let
             "file" = "PlayerStatues-26.1.2-3.0.0.jar";
             "hash" = "sha512-L4hFd8CEuvwKNm0XQ7g2AlYplJGLx3cKsdhipXUS5DBo9L1ap6QrX9Bd3OFK+MDkBg3QD2ajPpffwSvr3dWeWQ==";
         };
+        _437rFmPq = {
+            "id" = "437rFmPq";
+            "file" = "PlayerStatues-1.21.1-2.0.1.jar";
+            "hash" = "sha512-ffcAjVgwLzY7ZDpEyWS52zRh3fzTCSnrZ0OdaDa+ZzkzCVh0uOBDyYdXsKT42zGpOmgu+o2nz9Fy903z3bmHYg==";
+        };
+        _QW4FUDNe = {
+            "id" = "QW4FUDNe";
+            "file" = "PlayerStatues-26.2-4.0.0.jar";
+            "hash" = "sha512-xUmBQe/ttVIliHWAh+lwJd0mSXg/Oy6Z07oDy5LmDuCmKE8gLxkqC7KEfFn9BkhC8b2jwexVXDrHRfloJiwTKw==";
+        };
     in {
         "9ZUiLgWK" = _9ZUiLgWK;
         "Lsndhlwu" = _Lsndhlwu;
@@ -38,17 +48,22 @@ let
         "xNPlhV2V" = _xNPlhV2V;
         "Qz1s6Fmp" = _Qz1s6Fmp;
         "nbyyAWrI" = _nbyyAWrI;
+        "437rFmPq" = _437rFmPq;
+        "QW4FUDNe" = _QW4FUDNe;
         "forge-1.20.1" = _xNPlhV2V;
         "neoforge-1.20.1" = _xNPlhV2V;
-        "neoforge-1.21.1" = _Qz1s6Fmp;
+        "neoforge-1.21.1" = _437rFmPq;
         "neoforge-26.1.2" = _nbyyAWrI;
+        "neoforge-26.2" = _QW4FUDNe;
         "pkg-1.0.0" = _9ZUiLgWK;
         "pkg-1.0.1" = _Lsndhlwu;
         "pkg-1.0.2" = _AwEXkwOw;
         "pkg-1.0.3" = _xNPlhV2V;
         "pkg-2.0.0" = _Qz1s6Fmp;
         "pkg-3.0.0" = _nbyyAWrI;
-        "default" = _nbyyAWrI;
+        "pkg-2.0.1" = _437rFmPq;
+        "pkg-4.0.0" = _QW4FUDNe;
+        "default" = _QW4FUDNe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "player-statues";

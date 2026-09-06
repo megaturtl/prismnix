@@ -176,6 +176,11 @@ let
             "file" = "loot_n_explore-1.0.21-1.21.1.jar";
             "hash" = "sha512-I8DyRx0pG8gkEiLzguyKM+6CMq4qXE7Nc4TJLLGtkk1/i/4lJ0LZSI/XPKSCS3Kp3I+iw6GLWeKLGqWagZ6Qbg==";
         };
+        _vEudD65D = {
+            "id" = "vEudD65D";
+            "file" = "loot_n_explore-1.0.22-1.21.1.jar";
+            "hash" = "sha512-YYzFCqypWmJ8Hpr7sPJkgZSTiLA+sev/bF6BRu50bnrG4HMCIi6UrtF9uMp3Zj4e6o5ndlciGMjCPTw4uTjZqQ==";
+        };
     in {
         "5EeiHVL0" = _5EeiHVL0;
         "BY5qTP9m" = _BY5qTP9m;
@@ -212,9 +217,10 @@ let
         "QhQClUax" = _QhQClUax;
         "iaPZUVPN" = _iaPZUVPN;
         "Ovtf4rTH" = _Ovtf4rTH;
+        "vEudD65D" = _vEudD65D;
         "fabric-1.20.1" = _fBgSR5KZ;
         "fabric-1.21" = _cgIn5mi1;
-        "fabric-1.21.1" = _Ovtf4rTH;
+        "fabric-1.21.1" = _vEudD65D;
         "pkg-0.1.0" = _5EeiHVL0;
         "pkg-0.1.1-1.20.1" = _BY5qTP9m;
         "pkg-0.1.2-1.20.1" = _5WeP1c5p;
@@ -250,7 +256,8 @@ let
         "pkg-1.0.19-1.21.1" = _QhQClUax;
         "pkg-loot_n_explore-1.0.20-1.21.1" = _iaPZUVPN;
         "pkg-1.0.21-1.21.1" = _Ovtf4rTH;
-        "default" = _Ovtf4rTH;
+        "pkg-1.0.22-1.21.1" = _vEudD65D;
+        "default" = _vEudD65D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "loot-n-explore";

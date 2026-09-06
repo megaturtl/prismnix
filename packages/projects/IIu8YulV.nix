@@ -276,6 +276,11 @@ let
             "file" = "halplibe-6.1.4+8.0.jar";
             "hash" = "sha512-zySQuossWKZDmrdi6EuSfxs9JSGoGttJ5NFbnFfhcgyXSoZfVRECbN5/0glDpsVVisFZGbvFtMihVVXWWTwPlg==";
         };
+        _pCIOzf4A = {
+            "id" = "pCIOzf4A";
+            "file" = "halplibe-6.2.0+8.0.1.jar";
+            "hash" = "sha512-H30ngKX4b4or+g/YaTucLjxWpg1R9AJiDGSNSPGjjxo/uwiVsaK5qsquw2MgSEZ6sED0ufbHIe6be+dDNexxWA==";
+        };
     in {
         "IX8iG2iQ" = _IX8iG2iQ;
         "n9z0bkJn" = _n9z0bkJn;
@@ -332,7 +337,8 @@ let
         "2tqkJwmn" = _2tqkJwmn;
         "ePXmb5dv" = _ePXmb5dv;
         "w5hLlueH" = _w5hLlueH;
-        "bta-babric-b1.7.3" = _w5hLlueH;
+        "pCIOzf4A" = _pCIOzf4A;
+        "bta-babric-b1.7.3" = _pCIOzf4A;
         "pkg-3.4.2" = _IX8iG2iQ;
         "pkg-3.4.3" = _n9z0bkJn;
         "pkg-3.4.4" = _h745c4a4;
@@ -388,7 +394,8 @@ let
         "pkg-6.1.2+8.0" = _2tqkJwmn;
         "pkg-6.1.3+8.0" = _ePXmb5dv;
         "pkg-6.1.4+8.0" = _w5hLlueH;
-        "default" = _w5hLlueH;
+        "pkg-6.2.0+8.0.1" = _pCIOzf4A;
+        "default" = _pCIOzf4A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "halplibe";

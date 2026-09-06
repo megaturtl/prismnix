@@ -121,6 +121,31 @@ let
             "file" = "packdisabler-1.0.7+26.2.jar";
             "hash" = "sha512-0afEm5phIX1Q9CEjazIW1FrNoTW9wlrGWz/QLb5nUfxEHQLo6Op1JTyKbxNC8K4CKij4AA6XL4vHELMFIahUVg==";
         };
+        _r1VIG2Jv = {
+            "id" = "r1VIG2Jv";
+            "file" = "packdisabler-1.0.8+1.21.11.jar";
+            "hash" = "sha512-Z2ByC4uUk/3fpFBN0eDLY2U0ggwAWy1RtRMwQKMnn5SrhSYb7hj1qix9x9v/QSlnMscTRgGOOSQN28nRt96ONA==";
+        };
+        _v6raXZ1r = {
+            "id" = "v6raXZ1r";
+            "file" = "packdisabler-1.0.8+26.1.2.jar";
+            "hash" = "sha512-PMr5UIfB2v+5O6SOEmfmfp+CQ8IuVbJN4NVx+pfwQ1QYS21QCy7k01Z/Vrz6zs+/Dyrk+25Y83BHHxDnZ1C2SQ==";
+        };
+        _r1dTsX5L = {
+            "id" = "r1dTsX5L";
+            "file" = "packdisabler-1.0.8+26.2.jar";
+            "hash" = "sha512-cAmd3eUBKUEo+uGmTUZUqcbC104aloON6XyJnwHroiDXCQBwRYGIzlZpNo1L/nwjaFDDdN8Y1BjCQccsBf9OjQ==";
+        };
+        _6TbjeJoJ = {
+            "id" = "6TbjeJoJ";
+            "file" = "packdisabler-1.0.9+26.1.2.jar";
+            "hash" = "sha512-bpNWAYcp2jiL+kte8+X7M80jvPoTE/0wRebnAQMpo22Zw77bF1eUUoMcEXbOhKlxzRlg2tqIIEBP4top8Q0kGw==";
+        };
+        _qx6HofCc = {
+            "id" = "qx6HofCc";
+            "file" = "packdisabler-1.0.9+26.2.jar";
+            "hash" = "sha512-MryyyM6MQj2BXjy9rR0c3SNsxq7Pk0zScLqQ369ouKtAPDdR/c4PMRMIoRcGq8hz4U1RTTvMqExuGcbapsiRVw==";
+        };
     in {
         "DEdsHR6U" = _DEdsHR6U;
         "WwqAsfj0" = _WwqAsfj0;
@@ -146,9 +171,14 @@ let
         "4QPE1zBS" = _4QPE1zBS;
         "1tiFEQF8" = _1tiFEQF8;
         "Q2sbj07A" = _Q2sbj07A;
-        "fabric-1.21.11" = _4QPE1zBS;
-        "fabric-26.1.2" = _1tiFEQF8;
-        "fabric-26.2" = _Q2sbj07A;
+        "r1VIG2Jv" = _r1VIG2Jv;
+        "v6raXZ1r" = _v6raXZ1r;
+        "r1dTsX5L" = _r1dTsX5L;
+        "6TbjeJoJ" = _6TbjeJoJ;
+        "qx6HofCc" = _qx6HofCc;
+        "fabric-1.21.11" = _r1VIG2Jv;
+        "fabric-26.1.2" = _6TbjeJoJ;
+        "fabric-26.2" = _qx6HofCc;
         "pkg-1.0.0" = _Mr9fAM8S;
         "pkg-1.0.1" = _27RunuGF;
         "pkg-1.0.2" = _n4TO81cs;
@@ -157,7 +187,9 @@ let
         "pkg-1.0.5" = _PAc8B6Go;
         "pkg-1.0.6" = _ej2AmnsU;
         "pkg-1.0.7" = _Q2sbj07A;
-        "default" = _Q2sbj07A;
+        "pkg-1.0.8" = _r1dTsX5L;
+        "pkg-1.0.9" = _qx6HofCc;
+        "default" = _qx6HofCc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "packdisabler-for-hypixel-skyblock";

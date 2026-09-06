@@ -36,6 +36,11 @@ let
             "file" = "cull-fewer-leaves-1.1.2+1.21.11-fabric.jar";
             "hash" = "sha512-5Jc582FbOLabTW4hhCwJWhDZ5k4xRRXogfJc7x1HRwczWIJ3qP21ZdsFkinGI060CXDXfopQ/jOGSqc8UT+45w==";
         };
+        _JievKHE3 = {
+            "id" = "JievKHE3";
+            "file" = "cull-fewer-leaves-1.1.2+1.21.1-fabric.jar";
+            "hash" = "sha512-v24mWw0+3rQkA5nw3EKBYlzRvp0ZOY+y5b/dZBqir/a3lFYJhj23yEM/1rgbceOpodjsw3qhbqFshYTw2Liprg==";
+        };
     in {
         "7SZwvxN5" = _7SZwvxN5;
         "6TTtwITB" = _6TTtwITB;
@@ -44,18 +49,20 @@ let
         "EBd2Z4mi" = _EBd2Z4mi;
         "jIEsEM7M" = _jIEsEM7M;
         "wV9V8Iww" = _wV9V8Iww;
+        "JievKHE3" = _JievKHE3;
         "fabric-1.21.11" = _wV9V8Iww;
         "fabric-26.1" = _jIEsEM7M;
         "fabric-26.1.1" = _jIEsEM7M;
         "fabric-26.1.2" = _jIEsEM7M;
         "fabric-26.2" = _jIEsEM7M;
+        "fabric-1.21.1" = _JievKHE3;
         "pkg-1.0.0" = _7SZwvxN5;
         "pkg-1.0.1" = _6TTtwITB;
         "pkg-1.0.2" = _IlLlrijG;
         "pkg-1.1.0" = _HO2bC22W;
         "pkg-1.1.1" = _EBd2Z4mi;
-        "pkg-1.1.2" = _wV9V8Iww;
-        "default" = _wV9V8Iww;
+        "pkg-1.1.2" = _JievKHE3;
+        "default" = _JievKHE3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cull-fewer-leaves";

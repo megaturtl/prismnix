@@ -61,6 +61,26 @@ let
             "file" = "Psi-1.21.1-108.jar";
             "hash" = "sha512-+w+wSUx3dEFywvdHrNPgEQGo93iRp+QA+fpoQyukvXqjqk6zf/abg9WbT0yxMVjwNcxow0diQyPDN3/Ho4DumQ==";
         };
+        _Wfh1U4iM = {
+            "id" = "Wfh1U4iM";
+            "file" = "Psi-fabric-1.21.1-109.jar";
+            "hash" = "sha512-nfeJXmZcUfn9IPNMMVzhxIPrarDGxjjj8HYHRorOQ76YqBeoTw1TBa9FNGmxwjvZiE/90IoJYniEm9y/0IFm8w==";
+        };
+        _3zcsBfrK = {
+            "id" = "3zcsBfrK";
+            "file" = "Psi-neoforge-1.21.1-109.jar";
+            "hash" = "sha512-6nWOG+EO+DDZd6lesZnwlVv9O1WURpJAtY74KDd9sQ8cg8ugssu4WwSXBc8YoPWmRCm898+452sepeY9rBI16Q==";
+        };
+        _B5e4FKYW = {
+            "id" = "B5e4FKYW";
+            "file" = "Psi-fabric-1.21.1-110.jar";
+            "hash" = "sha512-rwi0FGdhsywd7M0J+80c0yDQPtZM/C2dImheAktZTeGaLlaGl3xJwdk05LtNcOgT30vdmld5zURYbWY5dL1rsA==";
+        };
+        _j9TFdTKC = {
+            "id" = "j9TFdTKC";
+            "file" = "Psi-neoforge-1.21.1-110.jar";
+            "hash" = "sha512-K75rQPIwzUlaU0LbYftabCpNA/2g7l/goh2LfMyElNHT5/pfVCNtX5DL54qLt1wn47uc2bheS27tZ6qXb/6Feg==";
+        };
     in {
         "gzHp9JQr" = _gzHp9JQr;
         "9LBYA0WN" = _9LBYA0WN;
@@ -74,6 +94,10 @@ let
         "CJKcHi6V" = _CJKcHi6V;
         "evVeD5jB" = _evVeD5jB;
         "dUM55Jd9" = _dUM55Jd9;
+        "Wfh1U4iM" = _Wfh1U4iM;
+        "3zcsBfrK" = _3zcsBfrK;
+        "B5e4FKYW" = _B5e4FKYW;
+        "j9TFdTKC" = _j9TFdTKC;
         "forge-1.16.5" = _48DyLBAJ;
         "forge-1.12.2" = _9LBYA0WN;
         "forge-1.18.2" = _ML6WbZUt;
@@ -82,7 +106,8 @@ let
         "forge-1.19.4" = _NBwLssHD;
         "forge-1.20.1" = _PVwCHaWy;
         "forge-1.21.1" = _V2aVNNN7;
-        "neoforge-1.21.1" = _dUM55Jd9;
+        "neoforge-1.21.1" = _j9TFdTKC;
+        "fabric-1.21.1" = _B5e4FKYW;
         "pkg-1.16-97" = _gzHp9JQr;
         "pkg-r1.1-78.2" = _9LBYA0WN;
         "pkg-1.16-97.474" = _48DyLBAJ;
@@ -95,7 +120,11 @@ let
         "pkg-1.21.1-105" = _CJKcHi6V;
         "pkg-1.21.1-107" = _evVeD5jB;
         "pkg-1.21.1-108" = _dUM55Jd9;
-        "default" = _dUM55Jd9;
+        "pkg-1.21.1-109-fabric" = _Wfh1U4iM;
+        "pkg-1.21.1-109-neoforge" = _3zcsBfrK;
+        "pkg-1.21.1-110-fabric" = _B5e4FKYW;
+        "pkg-1.21.1-110-neoforge" = _j9TFdTKC;
+        "default" = _j9TFdTKC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "psi";

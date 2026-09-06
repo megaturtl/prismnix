@@ -21,24 +21,32 @@ let
             "file" = "Emissive Glowing Ores for Bare Bones (26.1).zip";
             "hash" = "sha512-umAijMsu4DKouBEJ02k6XoWIH8KUbIn7R24jIYIP2dNk8XAneF7otzM1bUzxRhqbAGpA+Ptl5+ZGRYIf6NutVg==";
         };
+        _8fIjEBPB = {
+            "id" = "8fIjEBPB";
+            "file" = "Emissive Glowing Ores for Bare Bones (26.2).zip";
+            "hash" = "sha512-BwGNkHpUUGTOSNZ8P+djXO+h/WgNZ4ss3du0beed+8KOvLOudg2ALc+br8I0GXG/66xAxfQm0sn6d9oAZfxuuA==";
+        };
     in {
         "9aUp6ohs" = _9aUp6ohs;
         "SoqucFCA" = _SoqucFCA;
         "1YQlu3yh" = _1YQlu3yh;
         "eubwTCRv" = _eubwTCRv;
+        "8fIjEBPB" = _8fIjEBPB;
         "minecraft-1.21.7" = _9aUp6ohs;
         "minecraft-1.21.8" = _9aUp6ohs;
-        "minecraft-1.21.9" = _eubwTCRv;
-        "minecraft-1.21.10" = _eubwTCRv;
-        "minecraft-1.21.11" = _eubwTCRv;
-        "minecraft-26.1" = _eubwTCRv;
-        "minecraft-26.1.1" = _eubwTCRv;
-        "minecraft-26.1.2" = _eubwTCRv;
+        "minecraft-1.21.9" = _8fIjEBPB;
+        "minecraft-1.21.10" = _8fIjEBPB;
+        "minecraft-1.21.11" = _8fIjEBPB;
+        "minecraft-26.1" = _8fIjEBPB;
+        "minecraft-26.1.1" = _8fIjEBPB;
+        "minecraft-26.1.2" = _8fIjEBPB;
+        "minecraft-26.2" = _8fIjEBPB;
         "pkg-1.0" = _9aUp6ohs;
         "pkg-1.01" = _SoqucFCA;
         "pkg-1.02" = _1YQlu3yh;
         "pkg-1.03" = _eubwTCRv;
-        "default" = _eubwTCRv;
+        "pkg-1.04" = _8fIjEBPB;
+        "default" = _8fIjEBPB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "emissive-glowing-ores-bare-bones";

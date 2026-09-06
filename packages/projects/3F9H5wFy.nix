@@ -216,6 +216,21 @@ let
             "file" = "signalindustries-0.25.0-7.3_04.jar";
             "hash" = "sha512-Z7gRecmjSkFG6aOlXR89J99XEJL9GF95chgrndsRqWJDo4jYb+nJYcCDW4b1kSGhdwMc41/zOAo3FtnLz4rdTw==";
         };
+        _4BLgqsiP = {
+            "id" = "4BLgqsiP";
+            "file" = "signalindustries-0.26.0.jar";
+            "hash" = "sha512-S1YXar7cYYmqozZ+Zikqfyp2I2zAtYQcijJHRepjjBnt4slaFTF0WAE9kDzETHc/0sHAmtlicc+kmbbc3WVoRQ==";
+        };
+        _8xRGi1dw = {
+            "id" = "8xRGi1dw";
+            "file" = "signalindustries-0.27.0.jar";
+            "hash" = "sha512-sIwhOky4j+QzoSGndlQb/7xu5NdzHOW97ES6sq7gJ02g6RUN1GRoK+64MRZD6O1/X8fW2+2FlgPDTt+IX4iVDw==";
+        };
+        _7y8WUJFe = {
+            "id" = "7y8WUJFe";
+            "file" = "signalindustries-0.28.0.jar";
+            "hash" = "sha512-xA62tQyNnNlR7t1wvu2pz7XlPFSCKsJ4LoiJ9uF2MOb9mri5x3uEjcp7I7GL4L7c4+F6+MmJNmPyt/s+Wy9fmg==";
+        };
     in {
         "QN7DEPtE" = _QN7DEPtE;
         "j3busrHX" = _j3busrHX;
@@ -260,7 +275,10 @@ let
         "yaL09Vf4" = _yaL09Vf4;
         "5ARCC4Ql" = _5ARCC4Ql;
         "DcUUvtTX" = _DcUUvtTX;
-        "bta-babric-b1.7.3" = _DcUUvtTX;
+        "4BLgqsiP" = _4BLgqsiP;
+        "8xRGi1dw" = _8xRGi1dw;
+        "7y8WUJFe" = _7y8WUJFe;
+        "bta-babric-b1.7.3" = _7y8WUJFe;
         "pkg-0.3.2" = _QN7DEPtE;
         "pkg-0.4.0" = _j3busrHX;
         "pkg-0.5.0" = _5Au8fcC2;
@@ -304,7 +322,10 @@ let
         "pkg-0.23.1" = _yaL09Vf4;
         "pkg-0.24.0" = _5ARCC4Ql;
         "pkg-0.25.0" = _DcUUvtTX;
-        "default" = _DcUUvtTX;
+        "pkg-0.26.0" = _4BLgqsiP;
+        "pkg-0.27.0" = _8xRGi1dw;
+        "pkg-0.28.0" = _7y8WUJFe;
+        "default" = _7y8WUJFe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "signal-industries";

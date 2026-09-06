@@ -341,6 +341,11 @@ let
             "file" = "display_case-fabric-26.1-1.4.jar";
             "hash" = "sha512-jK6dQWPvv4YmbteGBWp0OExFxbv5X7If+imB95QCy37VunLZ/wuMIYe9mXuP05Rk2dubH//VMh3vaGvoa5jc6Q==";
         };
+        _63ckggww = {
+            "id" = "63ckggww";
+            "file" = "display_case-fabric-1.21.11-1.4.1.jar";
+            "hash" = "sha512-Q0hgBW5IuPvqi3ool3gPawdMZ6hpRVv1SWJ5/bJyrLLmqF50xo3zHybFIIYMjEn5EU6x6e4qDuIDxXegwEetQg==";
+        };
     in {
         "7cy4yfln" = _7cy4yfln;
         "rlCKmU4Y" = _rlCKmU4Y;
@@ -410,6 +415,7 @@ let
         "ZzSyuwJ0" = _ZzSyuwJ0;
         "tWUElAOD" = _tWUElAOD;
         "zNLrDgJA" = _zNLrDgJA;
+        "63ckggww" = _63ckggww;
         "forge-1.18.2" = _6jXLdlj2;
         "forge-1.19" = _W2Hbbhqn;
         "forge-1.19.1" = _W2Hbbhqn;
@@ -453,7 +459,7 @@ let
         "fabric-1.21.10" = _eVlYnWGF;
         "fabric-1.21.6" = _yH0k4CsF;
         "fabric-1.21.7" = _yH0k4CsF;
-        "fabric-1.21.11" = _eVlYnWGF;
+        "fabric-1.21.11" = _63ckggww;
         "fabric-26.1" = _zNLrDgJA;
         "fabric-26.1.1" = _zNLrDgJA;
         "fabric-26.1.2" = _zNLrDgJA;
@@ -478,7 +484,7 @@ let
         "neoforge-1.21.10" = _ZzSyuwJ0;
         "neoforge-1.21.6" = _lL0OpsnZ;
         "neoforge-1.21.7" = _lL0OpsnZ;
-        "neoforge-1.21.11" = _ZzSyuwJ0;
+        "neoforge-1.21.11" = _63ckggww;
         "neoforge-26.1" = _zNLrDgJA;
         "neoforge-26.1.1" = _zNLrDgJA;
         "neoforge-26.1.2" = _zNLrDgJA;
@@ -501,7 +507,8 @@ let
         "pkg-1.2" = _RvZYsas0;
         "pkg-1.3" = _tWUElAOD;
         "pkg-1.4" = _zNLrDgJA;
-        "default" = _zNLrDgJA;
+        "pkg-1.4.1" = _63ckggww;
+        "default" = _63ckggww;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "displaycase";

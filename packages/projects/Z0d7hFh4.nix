@@ -176,6 +176,46 @@ let
             "file" = "CreateLazyTick-2.5.15-6.0.x-neoforge-1.21.1.jar";
             "hash" = "sha512-al4bahoCz0YwnPs+11kmNl57xJTHfnA15sjiXOf9g0l0rbbrZUtw8eVDCyr9NcC1YVR5QOcqVkcM2mkRlpbQ+A==";
         };
+        _Si9lZtJk = {
+            "id" = "Si9lZtJk";
+            "file" = "CreateLazyTick-2.5.21-0.5.1.i-forge-1.19.2.jar";
+            "hash" = "sha512-qTKgB1jl/164C3jIYtD9ouvbuSKMQsLuAAjlxmniShA7vAGygiUq4tZ+J9GBj5hFstEHI8046l0E8BcqfnNkag==";
+        };
+        _TUtX8qaL = {
+            "id" = "TUtX8qaL";
+            "file" = "CreateLazyTick-2.5.21-0.5.1.j-forge-1.20.1.jar";
+            "hash" = "sha512-Ej5toZGj6IB0Ou9aaBKb7jQxQV/7vswmnFF6w3zN9BDytrP+o51wEHBf48cCysPMIj9brWOIFbA8Cb33nXlSOw==";
+        };
+        _qjFvSG6Y = {
+            "id" = "qjFvSG6Y";
+            "file" = "CreateLazyTick-2.5.21-6.0.x-forge-1.20.1.jar";
+            "hash" = "sha512-Y4SC5SZZocSa0Qb0gb1YCIXTKLt/lkKO8k5Up6FocU9qIPfjd4tncdj62SYSglQw7T3K2RjyQsEsxgRgJ4mEEA==";
+        };
+        _fRzmd6ZF = {
+            "id" = "fRzmd6ZF";
+            "file" = "CreateLazyTick-2.5.21-6.0.10-neoforge-1.21.1.jar";
+            "hash" = "sha512-imhhk6tKAIb6NDxn/cduB46vjfEFb+cQ3UG6Ewpq39GFMhJ8KdJfinbs2F47xgPpLUAlsjRBDCFih93OHQb9dw==";
+        };
+        _uD4PF7Sj = {
+            "id" = "uD4PF7Sj";
+            "file" = "CreateLazyTick-2.6.25-0.5.1.i-forge-1.19.2.jar";
+            "hash" = "sha512-99rXyatSF15G+5KKmKQAl8acdEeCdoYNXOjBgMLlyeZvKczJsotXNMD7rksP76cBAQCeMddynMsXewcj3hggaA==";
+        };
+        _Cquu9Dxq = {
+            "id" = "Cquu9Dxq";
+            "file" = "CreateLazyTick-2.6.25-0.5.1.j-forge-1.20.1.jar";
+            "hash" = "sha512-ZtN+TcCcTMy9HaX0kMJf95g5Ey778jZ6zuhnDAyVDnQV/HwxECBBQwp4Nr0vY/O40/HR+3w/fxYt4/90HLT9gg==";
+        };
+        _oogh3IYg = {
+            "id" = "oogh3IYg";
+            "file" = "CreateLazyTick-2.6.25-6.0.x-forge-1.20.1.jar";
+            "hash" = "sha512-bxl/UcWLghbKzoRhqAnnz47fn2ZYcbRngmHjtxOkcN+V9SsnEY56O/B7nBy+U+tS04ZqUDAUBzdEdYsU1j/kAg==";
+        };
+        _T7P4cSSt = {
+            "id" = "T7P4cSSt";
+            "file" = "CreateLazyTick-2.6.25-6.0.10-neoforge-1.21.1.jar";
+            "hash" = "sha512-FiNw0K/o/RYiXLiDZKxQpSGVBMjUkgDOPp7Pv5l0fPuiFAkwP/Z2gGD+JTDP35MdHIxQZEMz2FJx7YxRTf6q7Q==";
+        };
     in {
         "ppbBGK11" = _ppbBGK11;
         "8Evt7Yne" = _8Evt7Yne;
@@ -212,18 +252,26 @@ let
         "EzVZFgsL" = _EzVZFgsL;
         "6CuROUOc" = _6CuROUOc;
         "FdVtKdOE" = _FdVtKdOE;
+        "Si9lZtJk" = _Si9lZtJk;
+        "TUtX8qaL" = _TUtX8qaL;
+        "qjFvSG6Y" = _qjFvSG6Y;
+        "fRzmd6ZF" = _fRzmd6ZF;
+        "uD4PF7Sj" = _uD4PF7Sj;
+        "Cquu9Dxq" = _Cquu9Dxq;
+        "oogh3IYg" = _oogh3IYg;
+        "T7P4cSSt" = _T7P4cSSt;
         "forge-1.20" = _ppbBGK11;
-        "forge-1.20.1" = _6CuROUOc;
+        "forge-1.20.1" = _oogh3IYg;
         "forge-1.20.2" = _ppbBGK11;
         "forge-1.20.3" = _ppbBGK11;
         "forge-1.20.4" = _ppbBGK11;
         "forge-1.20.5" = _ppbBGK11;
         "forge-1.20.6" = _ppbBGK11;
-        "forge-1.19.2" = _kZuslM1P;
-        "forge-1.21.1" = _FdVtKdOE;
-        "neoforge-1.20.1" = _6CuROUOc;
-        "neoforge-1.19.2" = _kZuslM1P;
-        "neoforge-1.21.1" = _FdVtKdOE;
+        "forge-1.19.2" = _uD4PF7Sj;
+        "forge-1.21.1" = _T7P4cSSt;
+        "neoforge-1.20.1" = _oogh3IYg;
+        "neoforge-1.19.2" = _uD4PF7Sj;
+        "neoforge-1.21.1" = _T7P4cSSt;
         "pkg-1.0-alpha" = _ppbBGK11;
         "pkg-1.20.1-1.1-6.0.x" = _8Evt7Yne;
         "pkg-1.20.1-1.1-0.5.1.j" = _4SvOh0GE;
@@ -258,7 +306,15 @@ let
         "pkg-1.20.1-2.5.15-0.5.1.j" = _EzVZFgsL;
         "pkg-1.20.1-2.5.15-6.0.x" = _6CuROUOc;
         "pkg-1.21.1-2.5.15-6.0.x" = _FdVtKdOE;
-        "default" = _FdVtKdOE;
+        "pkg-1.19.2-2.5.21-0.5.1.i" = _Si9lZtJk;
+        "pkg-1.20.1-2.5.21-0.5.1.j" = _TUtX8qaL;
+        "pkg-1.20.1-2.5.21-6.0.x" = _qjFvSG6Y;
+        "pkg-1.21.1-2.5.21-6.0.10" = _fRzmd6ZF;
+        "pkg-1.19.2-2.6.25-0.5.1.i" = _uD4PF7Sj;
+        "pkg-1.20.1-2.6.25-0.5.1.j" = _Cquu9Dxq;
+        "pkg-1.20.1-2.6.25-6.0.x" = _oogh3IYg;
+        "pkg-1.21.1-2.6.25-6.0.10" = _T7P4cSSt;
+        "default" = _T7P4cSSt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "createlazytick";

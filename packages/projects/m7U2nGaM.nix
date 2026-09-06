@@ -321,6 +321,21 @@ let
             "file" = "runecraftory-1.21.1-2.2.0-fabric.jar";
             "hash" = "sha512-wGEgdNXAiQdp3y+uUFS1AnMwCaqwfHHqytfNTyoMysLIdnUuRoJE3GbbJP3sVraPEYC5y0U7zh3Tgd8BoVenaA==";
         };
+        _g631qMT3 = {
+            "id" = "g631qMT3";
+            "file" = "runecraftory-1.21.1-2.2.1-neoforge.jar";
+            "hash" = "sha512-RjqFOQB5pnolp2XHpihcq0+8wNpr+TecPbTPS9s7JxlDnKq+6Di/N2j6u0FIBUMlRBhh9N39Hm2EZrTh8w6+hg==";
+        };
+        _Q0liPVHF = {
+            "id" = "Q0liPVHF";
+            "file" = "runecraftory-1.21.1-2.2.1-fabric.jar";
+            "hash" = "sha512-eYpHLs0rDDVD9DkqgarLCYjbCDDpcn7GzExz9RoDblFdUQRjk55hL2yR7JmJ/5PJGvYKfqmbnoEd5wpmlbr8ng==";
+        };
+        _PfJ42nd5 = {
+            "id" = "PfJ42nd5";
+            "file" = "runecraftory-1.21.1-2.2.1.b-neoforge.jar";
+            "hash" = "sha512-r7hntOryi7zPuTj9+7PJU1lF7fWiflL3KnhGF8IU5MfpqffmpPFTdArEEIPPBBAGlBxnqVUdhykzBGUXQxPpRQ==";
+        };
     in {
         "o0hC0yAx" = _o0hC0yAx;
         "85gCPI7V" = _85gCPI7V;
@@ -386,10 +401,13 @@ let
         "S65Rdhpo" = _S65Rdhpo;
         "MCy07igJ" = _MCy07igJ;
         "nT5Et9ik" = _nT5Et9ik;
+        "g631qMT3" = _g631qMT3;
+        "Q0liPVHF" = _Q0liPVHF;
+        "PfJ42nd5" = _PfJ42nd5;
         "fabric-1.18.2" = _tAvFoTQF;
-        "fabric-1.21.1" = _nT5Et9ik;
+        "fabric-1.21.1" = _Q0liPVHF;
         "forge-1.18.2" = _zuyqEjpx;
-        "neoforge-1.21.1" = _MCy07igJ;
+        "neoforge-1.21.1" = _PfJ42nd5;
         "pkg-1.18.2-1.5.1" = _85gCPI7V;
         "pkg-1.18.2-1.6.0" = _v4yOfuh7;
         "pkg-1.18.2-1.6.1" = _PO1bsWPT;
@@ -432,7 +450,10 @@ let
         "pkg-1.21.1-2.1.3-neoforge" = _S65Rdhpo;
         "pkg-1.21.1-2.2.0-neoforge" = _MCy07igJ;
         "pkg-1.21.1-2.2.0-fabric" = _nT5Et9ik;
-        "default" = _nT5Et9ik;
+        "pkg-1.21.1-2.2.1-neoforge" = _g631qMT3;
+        "pkg-1.21.1-2.2.1-fabric" = _Q0liPVHF;
+        "pkg-1.21.1-2.2.1.b-neoforge" = _PfJ42nd5;
+        "default" = _PfJ42nd5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "runecraftory";

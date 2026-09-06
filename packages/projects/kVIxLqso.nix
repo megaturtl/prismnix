@@ -251,6 +251,21 @@ let
             "file" = "trainutilities-neoforge-3.0.3.jar";
             "hash" = "sha512-Mr0Z53kMFhG3z3kUwll5UYlIvwTXRD+WzGU4xsV1Mjeq/rn6q1oLMP0xu/6cKocH7/KT6YG7axn3iSg1Zm6qpg==";
         };
+        _UaIOJeIE = {
+            "id" = "UaIOJeIE";
+            "file" = "trainutilities-fabric-3.1.0-C6.jar";
+            "hash" = "sha512-hv77WaozLpq8w/GbMilnDl4yT3z+NDs0GDm8+/ChEUnMSk2/eRdvAIVkq9G9LShPLdJEfio/LdjA4h1sPbL9aQ==";
+        };
+        _ZKxqJOfM = {
+            "id" = "ZKxqJOfM";
+            "file" = "trainutilities-forge-3.1.0-C6.jar";
+            "hash" = "sha512-pvxy5X+rT0eRVERylZlQweJoZj/FBhAaQidwfo2qoqZNY3CMV1ERI/D5I2lGIiP7Dd3WZJZycJFnCiZUzpR5xQ==";
+        };
+        _MeF3ulWd = {
+            "id" = "MeF3ulWd";
+            "file" = "trainutilities-neoforge-3.1.0.jar";
+            "hash" = "sha512-qJKwsGlHgwwBY5rB7MAmttl0pzkRWJBhxWAhao8+gt6ajneUyI1ZSjf8Oa7Xfx6UUAvym5U74d171RiArfGueQ==";
+        };
     in {
         "Pew6Yu12" = _Pew6Yu12;
         "7s5mcPrt" = _7s5mcPrt;
@@ -302,14 +317,17 @@ let
         "oYlOC2Kx" = _oYlOC2Kx;
         "xTEwzI6m" = _xTEwzI6m;
         "CPAbSUUg" = _CPAbSUUg;
-        "forge-1.20.1" = _xTEwzI6m;
+        "UaIOJeIE" = _UaIOJeIE;
+        "ZKxqJOfM" = _ZKxqJOfM;
+        "MeF3ulWd" = _MeF3ulWd;
+        "forge-1.20.1" = _ZKxqJOfM;
         "forge-1.19.2" = _KJGYjosU;
         "forge-1.18.2" = _hO1fGhyA;
-        "fabric-1.20.1" = _oYlOC2Kx;
+        "fabric-1.20.1" = _UaIOJeIE;
         "fabric-1.19.2" = _qCaiy75Y;
         "fabric-1.18.2" = _FxpnFYZX;
-        "neoforge-1.20.1" = _jCN1it8t;
-        "neoforge-1.21.1" = _CPAbSUUg;
+        "neoforge-1.20.1" = _ZKxqJOfM;
+        "neoforge-1.21.1" = _MeF3ulWd;
         "pkg-1.20.1-1.0.0" = _Pew6Yu12;
         "pkg-2.0.0" = _qBnNJvBD;
         "pkg-2.0.1" = _Xr2ib3ar;
@@ -326,7 +344,9 @@ let
         "pkg-3.0.2" = _32iAhysd;
         "pkg-3.0.3-C6" = _xTEwzI6m;
         "pkg-3.0.3" = _CPAbSUUg;
-        "default" = _CPAbSUUg;
+        "pkg-3.1.0-C6" = _ZKxqJOfM;
+        "pkg-3.1.0" = _MeF3ulWd;
+        "default" = _MeF3ulWd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-trainutilities";

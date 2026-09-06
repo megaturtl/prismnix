@@ -46,6 +46,21 @@ let
             "file" = "simpleblood-26.1.2-1.0.3.jar";
             "hash" = "sha512-aLuz7H8S6GFFLQ+l+zm5X9zD5HqCF/GhWFxrKFBzLCfcuXRpKauPZ4dWauedP70knJVKYsVIcqLd5gX40WV6Zg==";
         };
+        _w8VoThvV = {
+            "id" = "w8VoThvV";
+            "file" = "simpleblood-1.20.1-1.0.4.jar";
+            "hash" = "sha512-iFrxZtU4Zx3w+izafVGjBoOlkOJHOU8UPFYg3/9uMt58JJK2HrWZEX9uez+ThnZcEp4RnYkyTu9NOEyoLm9bVw==";
+        };
+        _YStIsByV = {
+            "id" = "YStIsByV";
+            "file" = "simpleblood-1.21.1-1.0.4.jar";
+            "hash" = "sha512-YfKX+AA2tsz2ugDksIVcqIrtfeOu5NZPjlhetd0d/EIkWB4+sykw/T3LEYzRjXMLF2LtCYSq562N+kfIXB5LQg==";
+        };
+        _z4iVjRy5 = {
+            "id" = "z4iVjRy5";
+            "file" = "simpleblood-26.1.2-1.0.4.jar";
+            "hash" = "sha512-7wlNnw+zr+EKxtKivQDN/Ka2sd/9qeRlTmJLWEHOBguoLOarjfme0NJxwMp1g3Omt+skUpcgTcUc5Z6Y/AEp+w==";
+        };
     in {
         "mpE9niN6" = _mpE9niN6;
         "nu8X7mau" = _nu8X7mau;
@@ -56,9 +71,12 @@ let
         "YnPPVhjF" = _YnPPVhjF;
         "aY1RZCrL" = _aY1RZCrL;
         "yvRE5r9Y" = _yvRE5r9Y;
-        "forge-1.20.1" = _aY1RZCrL;
-        "neoforge-1.21.1" = _YnPPVhjF;
-        "neoforge-26.1.2" = _yvRE5r9Y;
+        "w8VoThvV" = _w8VoThvV;
+        "YStIsByV" = _YStIsByV;
+        "z4iVjRy5" = _z4iVjRy5;
+        "forge-1.20.1" = _w8VoThvV;
+        "neoforge-1.21.1" = _YStIsByV;
+        "neoforge-26.1.2" = _z4iVjRy5;
         "pkg-1.20.1-1.0.1" = _mpE9niN6;
         "pkg-1.21.1-1.0.1" = _nu8X7mau;
         "pkg-26.1.2-1.0.1" = _FTlBg4F4;
@@ -68,7 +86,10 @@ let
         "pkg-1.21.1-1.0.3" = _YnPPVhjF;
         "pkg-1.20.1-1.0.3" = _aY1RZCrL;
         "pkg-26.1.2-1.0.3" = _yvRE5r9Y;
-        "default" = _yvRE5r9Y;
+        "pkg-1.20.1-1.0.4" = _w8VoThvV;
+        "pkg-1.21.1-1.0.4" = _YStIsByV;
+        "pkg-26.1.2-1.0.4" = _z4iVjRy5;
+        "default" = _z4iVjRy5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "irons-simple-blood";

@@ -111,6 +111,16 @@ let
             "file" = "expanded-weapon-enchantings-1.10.jar";
             "hash" = "sha512-g34G260R1LImuvNlTTwLx1H9gcwk87ynIQBiA0mPsWCcvV+3UN0JSAvDNBo3Pyc/tcTlhNpiaPkvvOXYQEg3CQ==";
         };
+        _nYRBJJvs = {
+            "id" = "nYRBJJvs";
+            "file" = "Expanded Weapon Enchanting 26.2.zip";
+            "hash" = "sha512-XbPykmKTSMktF0Nt0vPKiJClrna/rItgdFJw0IgFOVGiHDC9MO0A6bXE4900qkFVk0y7Yaw62OaN9O1MVSpOnw==";
+        };
+        _x6p90MC6 = {
+            "id" = "x6p90MC6";
+            "file" = "expanded-weapon-enchantings-1.11.jar";
+            "hash" = "sha512-dVxfV9ABRm7qJrjhG+Yn7lGC7vLFkMBTNyopBsHh+44wnYO2hYGR8oCvESMLG4nGfY2Rq7NhR5/XxgmTwIyIPA==";
+        };
     in {
         "w1CcKfOV" = _w1CcKfOV;
         "hH2sxdCL" = _hH2sxdCL;
@@ -134,6 +144,8 @@ let
         "OpD2ZQRD" = _OpD2ZQRD;
         "IICKo1V3" = _IICKo1V3;
         "HfeLud2G" = _HfeLud2G;
+        "nYRBJJvs" = _nYRBJJvs;
+        "x6p90MC6" = _x6p90MC6;
         "datapack-1.21" = _w1CcKfOV;
         "datapack-1.21.1" = _w1CcKfOV;
         "datapack-1.21.2" = _iQGzdVQ7;
@@ -149,6 +161,7 @@ let
         "datapack-26.1" = _IICKo1V3;
         "datapack-26.1.1" = _IICKo1V3;
         "datapack-26.1.2" = _IICKo1V3;
+        "datapack-26.2" = _nYRBJJvs;
         "fabric-1.21" = _hH2sxdCL;
         "fabric-1.21.1" = _hH2sxdCL;
         "fabric-1.21.2" = _bOyyg1bO;
@@ -164,6 +177,7 @@ let
         "fabric-26.1" = _HfeLud2G;
         "fabric-26.1.1" = _HfeLud2G;
         "fabric-26.1.2" = _HfeLud2G;
+        "fabric-26.2" = _x6p90MC6;
         "forge-1.21" = _hH2sxdCL;
         "forge-1.21.1" = _hH2sxdCL;
         "forge-1.21.2" = _bOyyg1bO;
@@ -179,6 +193,7 @@ let
         "forge-26.1" = _HfeLud2G;
         "forge-26.1.1" = _HfeLud2G;
         "forge-26.1.2" = _HfeLud2G;
+        "forge-26.2" = _x6p90MC6;
         "neoforge-1.21" = _hH2sxdCL;
         "neoforge-1.21.1" = _hH2sxdCL;
         "neoforge-1.21.2" = _bOyyg1bO;
@@ -194,6 +209,7 @@ let
         "neoforge-26.1" = _HfeLud2G;
         "neoforge-26.1.1" = _HfeLud2G;
         "neoforge-26.1.2" = _HfeLud2G;
+        "neoforge-26.2" = _x6p90MC6;
         "quilt-1.21" = _hH2sxdCL;
         "quilt-1.21.1" = _hH2sxdCL;
         "quilt-1.21.2" = _bOyyg1bO;
@@ -209,6 +225,7 @@ let
         "quilt-26.1" = _HfeLud2G;
         "quilt-26.1.1" = _HfeLud2G;
         "quilt-26.1.2" = _HfeLud2G;
+        "quilt-26.2" = _x6p90MC6;
         "pkg-1.0" = _w1CcKfOV;
         "pkg-1.0.1+mod" = _hH2sxdCL;
         "pkg-1.1" = _iQGzdVQ7;
@@ -231,7 +248,9 @@ let
         "pkg-1.9.1+mod" = _OpD2ZQRD;
         "pkg-1.10" = _IICKo1V3;
         "pkg-1.10.1+mod" = _HfeLud2G;
-        "default" = _HfeLud2G;
+        "pkg-1.11" = _nYRBJJvs;
+        "pkg-1.11.1+mod" = _x6p90MC6;
+        "default" = _x6p90MC6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "expanded-weapon-enchantings";

@@ -71,6 +71,26 @@ let
             "file" = "infusion_table-1.2.0-1.20-forge.jar";
             "hash" = "sha512-aQzBY6lA9MhCFCPiC3ZEu0oHN4Op9WS58VSEOGMJzEUqKSQ6fL1Cc+1G2JMDrVSRCpSKEWPWOuT9PkdUT2mm6w==";
         };
+        _srzntErh = {
+            "id" = "srzntErh";
+            "file" = "infusion_table-forge-1.2.1+1.20.4.jar";
+            "hash" = "sha512-fnFpBlhm/fzRyh8IkYU0++6fFUhPl37aHBPL3FWMFfaechhXAWxfVUn7co+B/VmetYqOjMW5v89GeT5jYGxv1A==";
+        };
+        _YWADYeTR = {
+            "id" = "YWADYeTR";
+            "file" = "infusion_table-fabric-1.2.1+1.20.4.jar";
+            "hash" = "sha512-+mQTTS8Sbq4K8nEDGf4frfV8ysgrMgGXAUkKV2pwNAIVVtsx36duzLuSdaIsmA2s4386OeHtslyof7I9n40xrA==";
+        };
+        _A2JkakGm = {
+            "id" = "A2JkakGm";
+            "file" = "infusion_table-fabric-1.2.2+1.20.5.jar";
+            "hash" = "sha512-JzSnsdMuZIdssMVGSsKhTVP5+FZrvJzlYBsJHGyT0jqvdQ+gE4WkDX6lyauSSwDE3owKec/dfvMpbZozGt4eVw==";
+        };
+        _nDfyRUMx = {
+            "id" = "nDfyRUMx";
+            "file" = "infusion_table-neoforge-1.2.2+1.20.5.jar";
+            "hash" = "sha512-IxfkqYwGGd8dvmCEej8v5ZOILrU29av3LyFIgm+qX6NVOQZXUGcvP/xHhWd79W8giMV+TJ10+pQ3yUUdzuNVDg==";
+        };
     in {
         "Z9ekBJR4" = _Z9ekBJR4;
         "mBk6azSk" = _mBk6azSk;
@@ -86,6 +106,10 @@ let
         "XauGzBwu" = _XauGzBwu;
         "jsoERxuz" = _jsoERxuz;
         "VW9MCeUg" = _VW9MCeUg;
+        "srzntErh" = _srzntErh;
+        "YWADYeTR" = _YWADYeTR;
+        "A2JkakGm" = _A2JkakGm;
+        "nDfyRUMx" = _nDfyRUMx;
         "fabric-1.17.1" = _38XTHx83;
         "fabric-1.18" = _nNPUWcZ0;
         "fabric-1.18.1" = _nNPUWcZ0;
@@ -98,6 +122,9 @@ let
         "fabric-1.20" = _jsoERxuz;
         "fabric-1.20.1" = _jsoERxuz;
         "fabric-1.20.2" = _jsoERxuz;
+        "fabric-1.20.4" = _YWADYeTR;
+        "fabric-1.20.5" = _A2JkakGm;
+        "fabric-1.20.6" = _A2JkakGm;
         "quilt-1.18" = _nNPUWcZ0;
         "quilt-1.18.1" = _nNPUWcZ0;
         "quilt-1.18.2" = _nNPUWcZ0;
@@ -111,6 +138,9 @@ let
         "forge-1.20" = _VW9MCeUg;
         "forge-1.20.1" = _VW9MCeUg;
         "forge-1.20.2" = _VW9MCeUg;
+        "forge-1.20.4" = _srzntErh;
+        "neoforge-1.20.5" = _nDfyRUMx;
+        "neoforge-1.20.6" = _nDfyRUMx;
         "pkg-1.0.0-1.17.1" = _Z9ekBJR4;
         "pkg-1.0.1-1.17.1" = _mBk6azSk;
         "pkg-1.0.2-1.17.1" = _38XTHx83;
@@ -120,7 +150,9 @@ let
         "pkg-1.1.0-1.18.2" = _nNPUWcZ0;
         "pkg-1.1.0-1.19" = _1vHR9ZVs;
         "pkg-1.2.0" = _VW9MCeUg;
-        "default" = _VW9MCeUg;
+        "pkg-1.2.1+1.20.4" = _YWADYeTR;
+        "pkg-1.2.2+1.20.5" = _nDfyRUMx;
+        "default" = _nDfyRUMx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "infusion-table";
@@ -128,12 +160,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "GNU Lesser General Public License v3.0 only";
-                shortName = "LGPL-3.0-only";
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
                 url = null;
             };
         };

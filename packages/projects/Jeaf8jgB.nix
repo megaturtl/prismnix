@@ -56,6 +56,31 @@ let
             "file" = "gothic_church-1.0.0 fabric 1.21.1.jar";
             "hash" = "sha512-flElak1QynK6RUh8aVVpCvWiEcusUk8nhzuNhTPsdPAVc9I4W5Yx+whVBfJLa8JtNxYOfM1LGh8xM/PgDoumUw==";
         };
+        _ZndC4Fcr = {
+            "id" = "ZndC4Fcr";
+            "file" = "gothic_church-1.0.0 Neoforge 1.21.11.jar";
+            "hash" = "sha512-PL96Dq8wb+/udelvIoPCU7rHntm0IZuzXTB4T1RI10HwjwsWj0b0DIOan72ZweeqKOLGJHPtVFCiunCAMibj/g==";
+        };
+        _uTtc8Ap8 = {
+            "id" = "uTtc8Ap8";
+            "file" = "gothic_church-1.0.0 Fabric 26.1.2.jar";
+            "hash" = "sha512-4uwuw316j/QBXJl9D3YR0o4xWPXFPNdnQz1bhKiS5h1Y6wK9CzmmxPuGKA/OYlewMuo6NKcWiE9U98uqhrWcYA==";
+        };
+        _8ylNuJcj = {
+            "id" = "8ylNuJcj";
+            "file" = "gothic_church-1.0.0 Neoforge 26.1.2.jar";
+            "hash" = "sha512-2emjorx6kYhh1cAN/VKnwqAZh6KvUDVS2F+rlXvR5dAc2CcGWmhy0QHGCcY025J1Pm0R8oyXMN+lkGkU3RTROw==";
+        };
+        _5ZqAB47Y = {
+            "id" = "5ZqAB47Y";
+            "file" = "gothic_church-1.0.0 Fabric 26.2.jar";
+            "hash" = "sha512-S8quRtd9Ac04AKJO8810D+SWmo0Qi07L70+WjrJKw6i2xOl2AyY3/4jVeTiIA5CJFYoh1uBR3+oiXZEy3RfHpg==";
+        };
+        _GjluCUEx = {
+            "id" = "GjluCUEx";
+            "file" = "gothic_church-1.0.0 Neoforge 26.2.jar";
+            "hash" = "sha512-VQYRRzr5YH1IF5ljKpxdDLD7HAW8me0Im1fOl3nwSVl+XKKG/SbVTuU367yGIJD1/F8ayAyBQGYOF80gtNdvWQ==";
+        };
     in {
         "FKroiU1y" = _FKroiU1y;
         "dvlCryBA" = _dvlCryBA;
@@ -68,6 +93,11 @@ let
         "wGv7rVlC" = _wGv7rVlC;
         "3qQ19lnh" = _3qQ19lnh;
         "c9ZugCVB" = _c9ZugCVB;
+        "ZndC4Fcr" = _ZndC4Fcr;
+        "uTtc8Ap8" = _uTtc8Ap8;
+        "8ylNuJcj" = _8ylNuJcj;
+        "5ZqAB47Y" = _5ZqAB47Y;
+        "GjluCUEx" = _GjluCUEx;
         "forge-1.16.5" = _FKroiU1y;
         "forge-1.17.1" = _dvlCryBA;
         "forge-1.18.2" = _lUyxFaHO;
@@ -79,12 +109,17 @@ let
         "fabric-1.21.10" = _wGv7rVlC;
         "fabric-1.21.11" = _wGv7rVlC;
         "fabric-1.21.1" = _c9ZugCVB;
+        "fabric-26.1.2" = _uTtc8Ap8;
+        "fabric-26.2" = _5ZqAB47Y;
         "neoforge-1.21.1" = _tRdi089G;
         "neoforge-1.21.4" = _74qxjSU8;
         "neoforge-1.21.8" = _3qQ19lnh;
+        "neoforge-1.21.11" = _ZndC4Fcr;
+        "neoforge-26.1.2" = _8ylNuJcj;
+        "neoforge-26.2" = _GjluCUEx;
         "pkg-1.0.1" = _3qQ19lnh;
-        "pkg-1.0.0" = _c9ZugCVB;
-        "default" = _c9ZugCVB;
+        "pkg-1.0.0" = _GjluCUEx;
+        "default" = _GjluCUEx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gothic-church";

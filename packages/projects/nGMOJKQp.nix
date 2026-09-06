@@ -151,6 +151,36 @@ let
             "file" = "anvilcraft_pigsplus-neoforge-2.7.2.jar";
             "hash" = "sha512-XfRKATGiNlla9j6lWIrmH+k/rDl1Uow8ahvtdtRX7tmieNvVchT+UXDfaC0IminvCOSgt+t7/5ZNWr2txXfRig==";
         };
+        _RsDbQUUQ = {
+            "id" = "RsDbQUUQ";
+            "file" = "anvilcraft_pigsplus-neoforge-2.8.0.jar";
+            "hash" = "sha512-icOoT7Xg4w/JjZtEwXI+DHFq4P81vShFkEi0sfvlIvMA2V+WL1+8kG0CtV+cV7U7+Fo3mlyMbBorkFTiqCMThA==";
+        };
+        _PIJaK0Nk = {
+            "id" = "PIJaK0Nk";
+            "file" = "anvilcraft_pigsplus-neoforge-2.8.1.jar";
+            "hash" = "sha512-3pRqEr2iHNX9YS6Q1D5ml4U1niPCFLVl1aCBZUpmv8PlKCntPS+R0JGMj5MnDFpkY5G0PXgAW3e8VGC8cCT+/Q==";
+        };
+        _Q3ZDqIm6 = {
+            "id" = "Q3ZDqIm6";
+            "file" = "anvilcraft_pigsplus-neoforge-2.9.0.jar";
+            "hash" = "sha512-WGYYEPINz1X8lwWm9+6Zyv0qChVHe9OnaQG94ZueI1vlGToBdRjeafoeluXcLSdyggJycs07STXhkHH3Pu3lfw==";
+        };
+        _ldRxvcib = {
+            "id" = "ldRxvcib";
+            "file" = "anvilcraft_pigsplus-neoforge-2.10.0.jar";
+            "hash" = "sha512-9f/QWVZW7oOXP2P42E3q1TeQJ2lP1TFa/QFCPU3mlduGK3VbSkH4aWnSGKdIb3aTtFa5XFBTqG3F9HC5UNJhlg==";
+        };
+        _1sw0HGtR = {
+            "id" = "1sw0HGtR";
+            "file" = "anvilcraft_pigsplus-neoforge-2.10.1.jar";
+            "hash" = "sha512-IXo2Ryj72FrM95bUfbiVA0oUgPyR8yQO7G9bm5Wq4smUlJSXcrz3/+declhYLEU97PstOkxTnQZOO+fMr9p+iA==";
+        };
+        _3IdQO3sg = {
+            "id" = "3IdQO3sg";
+            "file" = "anvilcraft_pigsplus-neoforge-2.10.2.jar";
+            "hash" = "sha512-knKREACH9vy+oAfQW0VO5nPeYq2Ny7WyoMCWa5lS/UVYGyFCbulcG3mg3BlPQVt4n9xoYPJdvzxkOKOxG+gxrA==";
+        };
     in {
         "u75ZgTau" = _u75ZgTau;
         "ViJYQrRq" = _ViJYQrRq;
@@ -182,7 +212,13 @@ let
         "FL4f1fOv" = _FL4f1fOv;
         "1ngmKlsT" = _1ngmKlsT;
         "QuutqJXW" = _QuutqJXW;
-        "neoforge-1.21.1" = _QuutqJXW;
+        "RsDbQUUQ" = _RsDbQUUQ;
+        "PIJaK0Nk" = _PIJaK0Nk;
+        "Q3ZDqIm6" = _Q3ZDqIm6;
+        "ldRxvcib" = _ldRxvcib;
+        "1sw0HGtR" = _1sw0HGtR;
+        "3IdQO3sg" = _3IdQO3sg;
+        "neoforge-1.21.1" = _3IdQO3sg;
         "pkg-0.1.0" = _u75ZgTau;
         "pkg-0.1.1" = _ViJYQrRq;
         "pkg-0.1.2" = _vNzUmwjk;
@@ -213,7 +249,13 @@ let
         "pkg-2.7.0" = _FL4f1fOv;
         "pkg-2.7.1" = _1ngmKlsT;
         "pkg-2.7.2" = _QuutqJXW;
-        "default" = _QuutqJXW;
+        "pkg-2.8.0" = _RsDbQUUQ;
+        "pkg-2.8.1" = _PIJaK0Nk;
+        "pkg-2.9.0" = _Q3ZDqIm6;
+        "pkg-2.10.0" = _ldRxvcib;
+        "pkg-2.10.1" = _1sw0HGtR;
+        "pkg-2.10.2" = _3IdQO3sg;
+        "default" = _3IdQO3sg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "anvilcraftpigsplus";

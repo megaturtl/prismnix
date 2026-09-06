@@ -181,6 +181,11 @@ let
             "file" = "Yeeterite-4.1.0-1.26.2.jar";
             "hash" = "sha512-Di79ZPeH5vbk41K3Lx7aTip48dk/bp9ET+x80ea2D8oJdErm65DHYdlkW2rlIxyWq8R/ZZIR6hOkBS7U9rGGJA==";
         };
+        _LqQCjMWj = {
+            "id" = "LqQCjMWj";
+            "file" = "Yeeterite-4.1.1-1.26.2.jar";
+            "hash" = "sha512-1hf/CTRv3uvJOBXvCAXLhgM6KTzT4H9vu4i9Tnb1HevE7cWpZ810vHMxRa/qw8Cw4uFNEERAfItQ9Zlg8C/wlw==";
+        };
     in {
         "NMJvcDZB" = _NMJvcDZB;
         "5PvvO5KT" = _5PvvO5KT;
@@ -218,6 +223,7 @@ let
         "BtIrk11R" = _BtIrk11R;
         "cAWjLfQJ" = _cAWjLfQJ;
         "ilWkf3Vx" = _ilWkf3Vx;
+        "LqQCjMWj" = _LqQCjMWj;
         "fabric-1.19.2" = _NMJvcDZB;
         "fabric-1.19.3" = _5PvvO5KT;
         "fabric-1.19.4" = _oNsy2NaA;
@@ -243,7 +249,7 @@ let
         "fabric-26.1" = _cAWjLfQJ;
         "fabric-26.1.1" = _cAWjLfQJ;
         "fabric-26.1.2" = _cAWjLfQJ;
-        "fabric-26.2" = _ilWkf3Vx;
+        "fabric-26.2" = _LqQCjMWj;
         "pkg-1.0.0" = _NMJvcDZB;
         "pkg-v1.0.1" = _5PvvO5KT;
         "pkg-1.0.1-1.19.4" = _oNsy2NaA;
@@ -280,7 +286,8 @@ let
         "pkg-3.2.0-1.21.6" = _BtIrk11R;
         "pkg-4.0.0-1.26.1" = _cAWjLfQJ;
         "pkg-4.1.0-1.26.2" = _ilWkf3Vx;
-        "default" = _ilWkf3Vx;
+        "pkg-4.1.1-1.26.2" = _LqQCjMWj;
+        "default" = _LqQCjMWj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yeeterite";

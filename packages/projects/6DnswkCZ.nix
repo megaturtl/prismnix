@@ -591,6 +591,26 @@ let
             "file" = "heywiki-1.9.0+26.1.2-neoforge-slim.jar";
             "hash" = "sha512-z4awkgZbybQTs+m7m6Fsa966sY1Rwdon2TioC3if2ea1hBnkXNBw7DE+0mWAJRRA0vllDi9f84udMwUgDl3Hag==";
         };
+        _UbFCKlcK = {
+            "id" = "UbFCKlcK";
+            "file" = "heywiki-1.9.0+26.2-fabric.jar";
+            "hash" = "sha512-WvZBBZTpCBbIaG26t76x3ElgopmRzXGR5fZxIfkx1XGDCTiq+54eR048m/qcvEHjuzbE0BxBFgelaebdLcyvFg==";
+        };
+        _uhSsIQKJ = {
+            "id" = "uhSsIQKJ";
+            "file" = "heywiki-1.9.0+26.2-neoforge-slim.jar";
+            "hash" = "sha512-CHM3JhijoN1Jc/DxVOftI0TuYuVRg1i94WobGFYkV3/VUEwx8AF0eTJnBBDFqx2hwsHhorNyPmyJY/yW5QqkIQ==";
+        };
+        _PQQoxz1h = {
+            "id" = "PQQoxz1h";
+            "file" = "heywiki-1.9.1+26.2-fabric.jar";
+            "hash" = "sha512-lob/NmtsXHMkXCP4Yg+8SA+75Wm8CnNA2J0SeLYGdnmsnS5DFjG+/NkJVEnMBMyKS/S8S5A9RBCftiarvMa3WA==";
+        };
+        _R8658cGk = {
+            "id" = "R8658cGk";
+            "file" = "heywiki-1.9.1+26.2-neoforge-slim.jar";
+            "hash" = "sha512-9KUN1krG0tUifagoFu3+8ueo9eiqC6HHzA5rIv/NvtDlC085B3usxcMYpAC5YKKzUbxXJEvqyPD6rFeZIfEa9A==";
+        };
     in {
         "aQ8FG89s" = _aQ8FG89s;
         "muMI8mFY" = _muMI8mFY;
@@ -710,6 +730,10 @@ let
         "1Gyupi8T" = _1Gyupi8T;
         "wJZf3kfu" = _wJZf3kfu;
         "EjF3V3Zi" = _EjF3V3Zi;
+        "UbFCKlcK" = _UbFCKlcK;
+        "uhSsIQKJ" = _uhSsIQKJ;
+        "PQQoxz1h" = _PQQoxz1h;
+        "R8658cGk" = _R8658cGk;
         "fabric-1.20.4" = _h4D2a79b;
         "fabric-1.20.5-pre3" = _2bjVqIvU;
         "fabric-1.20.5" = _mRL4dVHR;
@@ -729,6 +753,7 @@ let
         "fabric-26.1" = _wJZf3kfu;
         "fabric-26.1.1" = _wJZf3kfu;
         "fabric-26.1.2" = _wJZf3kfu;
+        "fabric-26.2" = _PQQoxz1h;
         "neoforge-1.20.4" = _Fto5jGAy;
         "neoforge-1.20.5" = _vZm1y33m;
         "neoforge-1.20.6" = _vZm1y33m;
@@ -746,6 +771,7 @@ let
         "neoforge-26.1" = _EjF3V3Zi;
         "neoforge-26.1.1" = _EjF3V3Zi;
         "neoforge-26.1.2" = _EjF3V3Zi;
+        "neoforge-26.2" = _R8658cGk;
         "pkg-v1.0.0+1.20.4" = _aQ8FG89s;
         "pkg-v1.1.0+1.20.4" = _muMI8mFY;
         "pkg-v1.2.0+1.20.4+neoforge" = _TpdtZx2Q;
@@ -863,7 +889,9 @@ let
         "pkg-v1.8.6+1.21.11-neoforge" = _w9xHUOKu;
         "pkg-v1.8.6+1.21.11-fabric" = _1Gyupi8T;
         "pkg-1.9.0+26.1.2" = _EjF3V3Zi;
-        "default" = _EjF3V3Zi;
+        "pkg-1.9.0+26.2" = _uhSsIQKJ;
+        "pkg-1.9.1+26.2" = _R8658cGk;
+        "default" = _R8658cGk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hey-wiki";

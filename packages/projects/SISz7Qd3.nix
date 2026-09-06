@@ -1116,6 +1116,251 @@ let
             "file" = "paladin-furniture-mod-1.4.4-neoforge-mc1.20.2.jar";
             "hash" = "sha512-lZ4Yp+7TmcL4ulXczCRBinidm9ml/K96cU1YGxuikXoKjUuVemg4zR7yu9iR20y+p2o5IH5Jh/vbtiZamOvheQ==";
         };
+        _bIuqpzZu = {
+            "id" = "bIuqpzZu";
+            "file" = "paladin-furniture-mod-1.5.0-forge-mc1.16.5.jar";
+            "hash" = "sha512-tXKWZhWUUIPHGlyLj8zU6UaFF03tVYAd0KOKN3qvksaV84NAvWb2uf1D6/+/WjhgGd/Hx4Wdkb8/ikaX9fJABQ==";
+        };
+        _nLSeJno5 = {
+            "id" = "nLSeJno5";
+            "file" = "paladin-furniture-mod-1.5.0-fabric-mc1.16.5.jar";
+            "hash" = "sha512-jiFfo9nHozFGet7cEFS8U6gYpp/OQCgPufsDy53+3+QMb8JJV2aLpqa1/7yW2i1lTNZAdR/o6Ltv5OD3fidgvA==";
+        };
+        _IX7NcApa = {
+            "id" = "IX7NcApa";
+            "file" = "paladin-furniture-mod-1.5.0-forge-mc1.17.1.jar";
+            "hash" = "sha512-fq5MuaTFLTx6bcYuI6NT8SkP1Pxc88SFOX+XH/6BbYdO/mZ82GOYak/K9uBZmqP6v+4Q7XBdotzuYll+qoop1w==";
+        };
+        _QZfKsyxk = {
+            "id" = "QZfKsyxk";
+            "file" = "paladin-furniture-mod-1.5.0-fabric-mc1.17.1.jar";
+            "hash" = "sha512-HGgYwwmWgDQ9TmUcOSHSvAV1KEtVw7trRGqJD2yDAx3q7D+h3/kaanMpF18slinyK1FVaYV3U7IAmfojkx8cvw==";
+        };
+        _ciOWpipF = {
+            "id" = "ciOWpipF";
+            "file" = "paladin-furniture-mod-1.5.0-forge-mc1.18.1.jar";
+            "hash" = "sha512-RnnGteeRQjrq1ZXT1RlRh4QNK1PJ0YnA2SDpM1iT7lFYSCaXaDmRBhQH7SmIvveTAoP0uc4Pw866l95/KPa9XQ==";
+        };
+        _x19m7eI9 = {
+            "id" = "x19m7eI9";
+            "file" = "paladin-furniture-mod-1.5.0-fabric-mc1.18.1.jar";
+            "hash" = "sha512-JV9lxEeeL9pNSPfvgC9FWYxpJ1u8hYsA/PATjXiWwgCaedoRj6w/BeOXoOK3Fua/6SoeT9iUDRXPJZtqgIseRw==";
+        };
+        _w8EFzeah = {
+            "id" = "w8EFzeah";
+            "file" = "paladin-furniture-mod-1.5.0-forge-mc1.18.2.jar";
+            "hash" = "sha512-3b/RRRDHTttl2lHS6L+ekNHbpTMlhLWiKvGG5QmzOvcKrgHRDMmbhX1fN2da8n8yMsxXB/dbugOSFeKMkPUoGQ==";
+        };
+        _L5JZWgQB = {
+            "id" = "L5JZWgQB";
+            "file" = "paladin-furniture-mod-1.5.0-fabric-mc1.18.2.jar";
+            "hash" = "sha512-1ZZYKOaLhCrKvmXxyL7RtODPUdj/2EecrjIEI0F3/V2XQP5Qg0gmwbWc68dDgWLjxRi9F1qE01/8r/Wyhw3zVA==";
+        };
+        _X8t9adzB = {
+            "id" = "X8t9adzB";
+            "file" = "paladin-furniture-mod-1.5.0-forge-mc1.19.jar";
+            "hash" = "sha512-JvfDgDr+lm5U+7vn+qIPR8KAxw+ykvgm205mOTa/oR/u84VZsv/Hj6U2AcbKqXrjSJ8s4agFJDdDXKRJAQCHAA==";
+        };
+        _bidYhRuX = {
+            "id" = "bidYhRuX";
+            "file" = "paladin-furniture-mod-1.5.0-fabric-mc1.19.jar";
+            "hash" = "sha512-YDhzj3sQa17NZl+mN5RxxyAhJlDv5rjbV1stPvIJPS9UfdkbnJoX6mqpLzS1kXqtp02fSJSZZQI0BY0yN+BR1A==";
+        };
+        _4XmVwLSy = {
+            "id" = "4XmVwLSy";
+            "file" = "paladin-furniture-mod-1.5.0-forge-mc1.19.4.jar";
+            "hash" = "sha512-DXFmzEHyamBatMTZVHt6dvPt214hqyo80jubdqgAId1qa2lbxjhC3zZz2dDVSkcDFsNhj9pw9ozMMNZs8AWgBA==";
+        };
+        _yDS9k6Xp = {
+            "id" = "yDS9k6Xp";
+            "file" = "paladin-furniture-mod-1.5.0-fabric-mc1.19.4.jar";
+            "hash" = "sha512-uUP4HL6//KM2ShxYvYcRrpD3mhVDll/3VieEeinvG+9AAjPh5VW4dVxWsfJgXx4zMyNjoXEZsIuCOsicvs+quA==";
+        };
+        _IHsHHvNk = {
+            "id" = "IHsHHvNk";
+            "file" = "paladin-furniture-mod-1.5.0-forge-mc1.19.3.jar";
+            "hash" = "sha512-fdggyEMXp3ZbgHAKDGpTwsQrEq1c7zpioERDnop/k9dSUqpfMCL2o1UjUlJPu1fjvCsAGOI4yck5jW4ikd9yBw==";
+        };
+        _VhN0aev4 = {
+            "id" = "VhN0aev4";
+            "file" = "paladin-furniture-mod-1.5.0-fabric-mc1.19.3.jar";
+            "hash" = "sha512-6HKf5+xB7FyU37T75o6KhUV5py9r0a0Qv+hFt+4KgxjaSFvbyXsgQeSE/CqsNQVXHcXjS4gkKRCAVIsGSLx0Zg==";
+        };
+        _v8Wncly5 = {
+            "id" = "v8Wncly5";
+            "file" = "paladin-furniture-mod-1.5.0-forge-mc1.20.1.jar";
+            "hash" = "sha512-M2TqKNqI2kw8uJG9Axf44uEh9c3FNh6YAevlgursa3ovxs35jUFgDYfOMDHK3BzmaBcWnZh4efLxsEbasdeGvw==";
+        };
+        _Yl8DHEtw = {
+            "id" = "Yl8DHEtw";
+            "file" = "paladin-furniture-mod-1.5.0-fabric-mc1.20.1.jar";
+            "hash" = "sha512-3OD8ZA4aPbGuo5HYAhqdYhSnTiU0GyHL66Vl/2WQcCl31lSqGLpahtZfqkojzsQsGgZUH9KTD+rOs9EQDbpUjw==";
+        };
+        _CWwiZFF7 = {
+            "id" = "CWwiZFF7";
+            "file" = "paladin-furniture-mod-1.5.0-minecraftforge-mc1.20.2.jar";
+            "hash" = "sha512-3OfGL0IWS5evJ5ecvt+ZAlXOJcHpCXe4IR8CpCOM+YBYdIJHfeh6cjyS4KC6Ikaly5q9RkirsWJJBYo309SREQ==";
+        };
+        _zXC6yO4B = {
+            "id" = "zXC6yO4B";
+            "file" = "paladin-furniture-mod-1.5.0-fabric-mc1.20.2.jar";
+            "hash" = "sha512-a4ArfAnNU610uKvG8U2QTinSsOYRRc9M3RZBQ35pCqsa/cEbyVzxwGzuzfR28BhnWyBm9JdEDKmhA77LEtfU/g==";
+        };
+        _87OcwDn9 = {
+            "id" = "87OcwDn9";
+            "file" = "paladin-furniture-mod-1.5.0-neoforge-mc1.20.2.jar";
+            "hash" = "sha512-wS0qMRlEifKx29/Ne5LP9Cw0hg2MS87q8+K4p7HsG4AxYPBM5fBq4LZDTFH/0WWXA7rcxPB2m2aiOYfYYuSaIg==";
+        };
+        _5R0sqBkf = {
+            "id" = "5R0sqBkf";
+            "file" = "paladin-furniture-mod-1.5.0-minecraftforge-mc1.20.6.jar";
+            "hash" = "sha512-wO7+83dpR/YNfUgDlxbh8/cC6vbLAVpy1ZbTySWGnkInvIC4yWm/Urgww1tUCMWgDtOVJS7IACv2jKYSqMvFgg==";
+        };
+        _aPsC7jgR = {
+            "id" = "aPsC7jgR";
+            "file" = "paladin-furniture-mod-1.5.0-fabric-mc1.20.6.jar";
+            "hash" = "sha512-WNTcrpgYnzqltMy3MHzre7gzv4Y891aewPrbykikropYgcmKnh6uH6AqlzWWKSorvB4couCld8qmqXd8DZgXTQ==";
+        };
+        _1fzIItv0 = {
+            "id" = "1fzIItv0";
+            "file" = "paladin-furniture-mod-1.5.0-neoforge-mc1.20.6.jar";
+            "hash" = "sha512-R79fuK7dpBos6k79jJMwpWjA/Xiw/76FhWzzRnP867JpJtTSjw8AbgLyFUwm43Hx2621h3x+dDfxO0vvMGR6pw==";
+        };
+        _tC6yVC8m = {
+            "id" = "tC6yVC8m";
+            "file" = "paladin-furniture-mod-1.5.0-minecraftforge-mc1.20.4.jar";
+            "hash" = "sha512-ZKkyVlauXPJOlKIY98n4OCTnDx4IjREAnGwTxIRk2yMbUkfjUtI2IgALkuADSnr4AqoxpzIabq2B6hXevtrbSQ==";
+        };
+        _CFrrGcF0 = {
+            "id" = "CFrrGcF0";
+            "file" = "paladin-furniture-mod-1.5.0-fabric-mc1.20.4.jar";
+            "hash" = "sha512-g9eEAhR7zDAeuTJbQxInIjNI29mzYIjEQqWzg7SAbHezNP0DIWUe7zRDVxUimDvtoHxn6ON+giDgFu/cCxDXJQ==";
+        };
+        _vBfP7CDd = {
+            "id" = "vBfP7CDd";
+            "file" = "paladin-furniture-mod-1.5.0-neoforge-mc1.20.4.jar";
+            "hash" = "sha512-6fk1+z6nbPrkceA/Y57s5rGs8v1LywEtK3Rks/233khkbsEy358SLQK223KD+N7CQpMsMG5LvuuNaJ9wqLJaVw==";
+        };
+        _fDcvRJ9Q = {
+            "id" = "fDcvRJ9Q";
+            "file" = "paladin-furniture-mod-1.5.0-minecraftforge-mc1.21.3.jar";
+            "hash" = "sha512-AefXiEiURaxepyWWBDzseqxq7P8eQOvtp72gCxDR5mEM8CxiL7O1rRoMAgZc6Sw4sHZ98utKd3ei+CvSRSI10g==";
+        };
+        _feDzhDy9 = {
+            "id" = "feDzhDy9";
+            "file" = "paladin-furniture-mod-1.5.0-fabric-mc1.21.3.jar";
+            "hash" = "sha512-Yce3fKdH6pnb8smqZAWQZRg8NCU7+ncjvRmvKaMZBsk56Amuk5g313Eus4EXDQjtau378bVt+h+nYn77b8hF2Q==";
+        };
+        _MnWoIdJH = {
+            "id" = "MnWoIdJH";
+            "file" = "paladin-furniture-mod-1.5.0-neoforge-mc1.21.3.jar";
+            "hash" = "sha512-YWebU02L4q5OgPzpz8JPcskDOu8qCW5JxQaFQWXcjLFYTzY0BBWK/6CmBjF2BBNUEbwja4y2kxIfNMCCZT4eXQ==";
+        };
+        _iSTx8Iqu = {
+            "id" = "iSTx8Iqu";
+            "file" = "paladin-furniture-mod-1.5.0-minecraftforge-mc1.21.1.jar";
+            "hash" = "sha512-/HrnXnAI1x95/13eCbAwffik4StcmIIWY1nYn0juV0q5xezHN1EwqMVcL043yU/eHA7sikpA6EwssogCsOZ7RA==";
+        };
+        _13jnBPDg = {
+            "id" = "13jnBPDg";
+            "file" = "paladin-furniture-mod-1.5.0-fabric-mc1.21.1.jar";
+            "hash" = "sha512-1D8DSq8W4O1UrE8XlsFSPg0stBuFvAvcsusVpkNvfRLBNl4r/AxPmO/OCj9cUK3xgmxE4gtrbCnAR3mUA9mb+w==";
+        };
+        _zSEefyfO = {
+            "id" = "zSEefyfO";
+            "file" = "paladin-furniture-mod-1.5.0-neoforge-mc1.21.1.jar";
+            "hash" = "sha512-2NT7tv03EhmE12Q8enrj4IzbB0/RbXWzq25Oig44kZzNK+eLSDrEs+hEyEcEXy8yacd3A3FNvNPcYo1OFAMYKg==";
+        };
+        _GAFJUFvb = {
+            "id" = "GAFJUFvb";
+            "file" = "paladin-furniture-mod-1.5.0-minecraftforge-mc1.21.11.jar";
+            "hash" = "sha512-0Sy2HSu8MRbtQGxi7UKHNRuEDtt7IstalTRy4apbXlIPdk/NiIon5OCPr+A8UVxeiv8Yey2EnSYGPDMN3rO55Q==";
+        };
+        _SoqlWUYS = {
+            "id" = "SoqlWUYS";
+            "file" = "paladin-furniture-mod-1.5.0-fabric-mc1.21.11.jar";
+            "hash" = "sha512-+jI+ZwYTJPNWYolFS1/HpjWpKmZvQ0+MuLZkISzxivA2Xw3OzqRUzHouKzkzqhDNLzF0t9zbekfp78yu4HEMBQ==";
+        };
+        _iLhSkdNh = {
+            "id" = "iLhSkdNh";
+            "file" = "paladin-furniture-mod-1.5.0-neoforge-mc1.21.11.jar";
+            "hash" = "sha512-QmnTqQ4Lzl4L4/fti38VDc6YVABTIZzhFOJ/1PnaIOjlixuPjWByXTcSh5NgkrTcTWnNF4cpFiw4ioSvCC6KwA==";
+        };
+        _OetQEk6I = {
+            "id" = "OetQEk6I";
+            "file" = "paladin-furniture-mod-1.5.0-minecraftforge-mc1.21.10.jar";
+            "hash" = "sha512-benOnvNgbAPFJ89908hcUx+7u7pp0ryiHh8p4VD4jfyaxJo5ayBoe40IREuU0BHhdCpNnz/lhLbbMf2pr3MDqQ==";
+        };
+        _RT5g3BkX = {
+            "id" = "RT5g3BkX";
+            "file" = "paladin-furniture-mod-1.5.0-fabric-mc1.21.10.jar";
+            "hash" = "sha512-1tbe/522yjtgymyoRPG0it9xyRqCZ7E/zEAtYhJ+RMby0w/lOG5z5y286qhNVswhm00h1jlflwQ3RPWv7eumCg==";
+        };
+        _xrNhVHUt = {
+            "id" = "xrNhVHUt";
+            "file" = "paladin-furniture-mod-1.5.0-neoforge-mc1.21.10.jar";
+            "hash" = "sha512-Zm+WIoKxH4bToSTDIULh5kGmoXjfO2NyKRp85BtMVJLV59lxevD2K9O44LOs66iYfzbW8IaQLlN1XNyssKFtyw==";
+        };
+        _ektH4MaF = {
+            "id" = "ektH4MaF";
+            "file" = "paladin-furniture-mod-1.5.0-minecraftforge-mc1.21.8.jar";
+            "hash" = "sha512-yLoKruG8EgK01zlZp9sMLajeJPv/tZ0z6sJHk3yvZQe5SWM1qizSx1LGHPh+MYXJ5A7hmUmcf0k8azotWySulw==";
+        };
+        _3ybUXLJX = {
+            "id" = "3ybUXLJX";
+            "file" = "paladin-furniture-mod-1.5.0-fabric-mc1.21.8.jar";
+            "hash" = "sha512-uL9L+GrYeeWwSmPTSMrr+vXYgokbfBW4z+tUd5J3u6HFUo/026dbjinLUeeW9VeoMcr6CkgSKaHjD07QY9ZZYg==";
+        };
+        _ZOhbuUfw = {
+            "id" = "ZOhbuUfw";
+            "file" = "paladin-furniture-mod-1.5.0-neoforge-mc1.21.8.jar";
+            "hash" = "sha512-fIApeTz/yzEPwzYA6Src+r0v+JQMngM4eVQ4TnAypiorwj87ss5jBS83m5bnSDvTs6+fwnWy4Tmo27K78FlhHw==";
+        };
+        _UNojng98 = {
+            "id" = "UNojng98";
+            "file" = "paladin-furniture-mod-1.5.0-minecraftforge-mc1.21.4.jar";
+            "hash" = "sha512-3Pcng4K1ApVH/k++ZXCBlWOqBd7i+ojElLqE9FY+FdopYVhynCXXE1JsLhZaapGf8vI4AaOiFW3fDxzIuKWH6w==";
+        };
+        _VPVDba9v = {
+            "id" = "VPVDba9v";
+            "file" = "paladin-furniture-mod-1.5.0-fabric-mc1.21.4.jar";
+            "hash" = "sha512-EmGAYrZt9RyWBNRcIlNl4nztCGF0jZT0myOIv09Yu6UqrxtDJcbGtJHPNweilLdeyab99tQ9motVKZsfUXVXoQ==";
+        };
+        _pmTKMg50 = {
+            "id" = "pmTKMg50";
+            "file" = "paladin-furniture-mod-1.5.0-minecraftforge-mc1.21.5.jar";
+            "hash" = "sha512-19QXOJAl+kEWG/XNycy8nso5XIRRqJu3qewWO2fQ6FCnJPo6HAGzgnU6TuTlj5AE4NDpVwUSBQgmA2fNvajWjA==";
+        };
+        _SoWZ2e09 = {
+            "id" = "SoWZ2e09";
+            "file" = "paladin-furniture-mod-1.5.0-neoforge-mc1.21.4.jar";
+            "hash" = "sha512-NqtIsodDX66iJb/lgRa5F/K7ZDLbnXgse6gFVdHph3JGwz7BpGP2JWLt4dQLOo8YM37ON4BBCo2WyHnsUlZigQ==";
+        };
+        _NnOfHQXQ = {
+            "id" = "NnOfHQXQ";
+            "file" = "paladin-furniture-mod-1.5.0-fabric-mc1.21.5.jar";
+            "hash" = "sha512-y4/WMCy05EKCaLvOZcfvLq6kGPXNS1PS3MxV71qW2USTzv7rrs+RuQKMZk0XvSgZrGEIrkP+0ZvtnbOKPAnQKA==";
+        };
+        _mmyNJ6E9 = {
+            "id" = "mmyNJ6E9";
+            "file" = "paladin-furniture-mod-1.5.0-neoforge-mc1.21.5.jar";
+            "hash" = "sha512-yH+65ZPc1J2Su7WeiS/TDmZluRI5HChkFaV0CsvXpYV/GNpMePngys/HCjEPxEfBKJBOpWo5ueA3gH9U9Z9FaQ==";
+        };
+        _6bUZDcW2 = {
+            "id" = "6bUZDcW2";
+            "file" = "paladin-furniture-mod-1.5.1-fabric-mc1.21.10.jar";
+            "hash" = "sha512-g+4KcWUDbbsyiYo0hmnF/pcXIJFXfuYSczk1bZdQrGyZBzmBTItO5uFnyxdQD4K5tcKbstIqgCByTU6ZVmBJfg==";
+        };
+        _Z2mCTt0Z = {
+            "id" = "Z2mCTt0Z";
+            "file" = "paladin-furniture-mod-1.5.1-fabric-mc1.21.11.jar";
+            "hash" = "sha512-5MpeK9WGPYV/1Sz8D3jr4ufxNSIdsWL8pLs9vYkOm3gNsUIIMQAiFcjRX1FiGXqwKfcYVENGJVti9lygFeoMyA==";
+        };
+        _Oa88rqYO = {
+            "id" = "Oa88rqYO";
+            "file" = "paladin-furniture-mod-1.5.1-forge-mc1.16.5.jar";
+            "hash" = "sha512-eJwCLyA1WXt8CzDOn9LQ+5U3Q+KlGiuPIhvA0iGLwPsN0UETPZa7LnPIBNfW6xFJ+P8LC1+mhpX8JqFvCKzgpQ==";
+        };
     in {
         "cgBNKYqw" = _cgBNKYqw;
         "FEi1T0DG" = _FEi1T0DG;
@@ -1340,38 +1585,90 @@ let
         "pSzZKklB" = _pSzZKklB;
         "JssK9qqP" = _JssK9qqP;
         "zYvQdjln" = _zYvQdjln;
-        "fabric-1.17.1" = _U3H7vT7n;
+        "bIuqpzZu" = _bIuqpzZu;
+        "nLSeJno5" = _nLSeJno5;
+        "IX7NcApa" = _IX7NcApa;
+        "QZfKsyxk" = _QZfKsyxk;
+        "ciOWpipF" = _ciOWpipF;
+        "x19m7eI9" = _x19m7eI9;
+        "w8EFzeah" = _w8EFzeah;
+        "L5JZWgQB" = _L5JZWgQB;
+        "X8t9adzB" = _X8t9adzB;
+        "bidYhRuX" = _bidYhRuX;
+        "4XmVwLSy" = _4XmVwLSy;
+        "yDS9k6Xp" = _yDS9k6Xp;
+        "IHsHHvNk" = _IHsHHvNk;
+        "VhN0aev4" = _VhN0aev4;
+        "v8Wncly5" = _v8Wncly5;
+        "Yl8DHEtw" = _Yl8DHEtw;
+        "CWwiZFF7" = _CWwiZFF7;
+        "zXC6yO4B" = _zXC6yO4B;
+        "87OcwDn9" = _87OcwDn9;
+        "5R0sqBkf" = _5R0sqBkf;
+        "aPsC7jgR" = _aPsC7jgR;
+        "1fzIItv0" = _1fzIItv0;
+        "tC6yVC8m" = _tC6yVC8m;
+        "CFrrGcF0" = _CFrrGcF0;
+        "vBfP7CDd" = _vBfP7CDd;
+        "fDcvRJ9Q" = _fDcvRJ9Q;
+        "feDzhDy9" = _feDzhDy9;
+        "MnWoIdJH" = _MnWoIdJH;
+        "iSTx8Iqu" = _iSTx8Iqu;
+        "13jnBPDg" = _13jnBPDg;
+        "zSEefyfO" = _zSEefyfO;
+        "GAFJUFvb" = _GAFJUFvb;
+        "SoqlWUYS" = _SoqlWUYS;
+        "iLhSkdNh" = _iLhSkdNh;
+        "OetQEk6I" = _OetQEk6I;
+        "RT5g3BkX" = _RT5g3BkX;
+        "xrNhVHUt" = _xrNhVHUt;
+        "ektH4MaF" = _ektH4MaF;
+        "3ybUXLJX" = _3ybUXLJX;
+        "ZOhbuUfw" = _ZOhbuUfw;
+        "UNojng98" = _UNojng98;
+        "VPVDba9v" = _VPVDba9v;
+        "pmTKMg50" = _pmTKMg50;
+        "SoWZ2e09" = _SoWZ2e09;
+        "NnOfHQXQ" = _NnOfHQXQ;
+        "mmyNJ6E9" = _mmyNJ6E9;
+        "6bUZDcW2" = _6bUZDcW2;
+        "Z2mCTt0Z" = _Z2mCTt0Z;
+        "Oa88rqYO" = _Oa88rqYO;
+        "fabric-1.17.1" = _QZfKsyxk;
         "fabric-1.18" = _noPTfHpW;
-        "fabric-1.18.1" = _jMbbtfVh;
-        "fabric-1.18.2" = _mdnlPg8J;
-        "fabric-1.19" = _g2nR6tqC;
-        "fabric-1.19.1" = _g2nR6tqC;
-        "fabric-1.19.2" = _g2nR6tqC;
+        "fabric-1.18.1" = _x19m7eI9;
+        "fabric-1.18.2" = _L5JZWgQB;
+        "fabric-1.19" = _bidYhRuX;
+        "fabric-1.19.1" = _bidYhRuX;
+        "fabric-1.19.2" = _bidYhRuX;
         "fabric-1.17" = _MZDwGxlQ;
-        "fabric-1.16.4" = _akokuRVh;
-        "fabric-1.16.5" = _akokuRVh;
-        "fabric-1.19.3" = _yp5xDxtE;
-        "fabric-1.19.4" = _WrlpE5JR;
-        "fabric-1.20" = _Fbn1VrCm;
-        "fabric-1.20.1" = _Fbn1VrCm;
-        "fabric-1.20.2" = _pSzZKklB;
-        "fabric-1.20.3" = _kH3TdDSq;
-        "fabric-1.20.4" = _kH3TdDSq;
-        "fabric-1.20.6" = _mKoClw82;
-        "fabric-1.21.1" = _3HoQhnBR;
-        "fabric-1.21.3" = _7kON1Yp1;
-        "fabric-1.21.4" = _epq47Mpf;
-        "fabric-1.16" = _akokuRVh;
-        "fabric-1.16.1" = _akokuRVh;
-        "fabric-1.16.2" = _akokuRVh;
-        "fabric-1.16.3" = _akokuRVh;
-        "fabric-1.20.5" = _mKoClw82;
-        "fabric-1.21" = _3HoQhnBR;
-        "fabric-1.21.2" = _7kON1Yp1;
-        "fabric-1.21.5" = _3gIlaei3;
-        "fabric-1.21.6" = _kFfiBmg2;
-        "fabric-1.21.7" = _kFfiBmg2;
-        "fabric-1.21.8" = _kFfiBmg2;
+        "fabric-1.16.4" = _nLSeJno5;
+        "fabric-1.16.5" = _nLSeJno5;
+        "fabric-1.19.3" = _VhN0aev4;
+        "fabric-1.19.4" = _yDS9k6Xp;
+        "fabric-1.20" = _Yl8DHEtw;
+        "fabric-1.20.1" = _Yl8DHEtw;
+        "fabric-1.20.2" = _zXC6yO4B;
+        "fabric-1.20.3" = _CFrrGcF0;
+        "fabric-1.20.4" = _CFrrGcF0;
+        "fabric-1.20.6" = _aPsC7jgR;
+        "fabric-1.21.1" = _13jnBPDg;
+        "fabric-1.21.3" = _feDzhDy9;
+        "fabric-1.21.4" = _VPVDba9v;
+        "fabric-1.16" = _nLSeJno5;
+        "fabric-1.16.1" = _nLSeJno5;
+        "fabric-1.16.2" = _nLSeJno5;
+        "fabric-1.16.3" = _nLSeJno5;
+        "fabric-1.20.5" = _aPsC7jgR;
+        "fabric-1.21" = _13jnBPDg;
+        "fabric-1.21.2" = _feDzhDy9;
+        "fabric-1.21.5" = _NnOfHQXQ;
+        "fabric-1.21.6" = _3ybUXLJX;
+        "fabric-1.21.7" = _3ybUXLJX;
+        "fabric-1.21.8" = _3ybUXLJX;
+        "fabric-1.21.11" = _Z2mCTt0Z;
+        "fabric-1.21.9" = _6bUZDcW2;
+        "fabric-1.21.10" = _6bUZDcW2;
         "quilt-1.17.1" = _cgBNKYqw;
         "quilt-1.18" = _FEi1T0DG;
         "quilt-1.18.1" = _FEi1T0DG;
@@ -1384,53 +1681,59 @@ let
         "quilt-1.20" = _oJWAOGbw;
         "quilt-1.20.1" = _oJWAOGbw;
         "quilt-1.20.2" = _z7KNfU3n;
-        "forge-1.17.1" = _nzMiTeMO;
-        "forge-1.18.1" = _2LbSx3xH;
-        "forge-1.19" = _vY0dcUtF;
-        "forge-1.19.1" = _vY0dcUtF;
-        "forge-1.19.2" = _vY0dcUtF;
-        "forge-1.18.2" = _mhZxTj3F;
-        "forge-1.16.4" = _Cjp9qOPH;
-        "forge-1.16.5" = _Cjp9qOPH;
-        "forge-1.19.3" = _kmXvaqVB;
-        "forge-1.19.4" = _XvY0Miu2;
-        "forge-1.20.1" = _6gh4O0eI;
-        "forge-1.20.2" = _aAcyOlsf;
+        "forge-1.17.1" = _IX7NcApa;
+        "forge-1.18.1" = _ciOWpipF;
+        "forge-1.19" = _X8t9adzB;
+        "forge-1.19.1" = _X8t9adzB;
+        "forge-1.19.2" = _X8t9adzB;
+        "forge-1.18.2" = _w8EFzeah;
+        "forge-1.16.4" = _Oa88rqYO;
+        "forge-1.16.5" = _Oa88rqYO;
+        "forge-1.19.3" = _IHsHHvNk;
+        "forge-1.19.4" = _4XmVwLSy;
+        "forge-1.20.1" = _v8Wncly5;
+        "forge-1.20.2" = _CWwiZFF7;
         "forge-1.18" = _NeVpbpOj;
-        "forge-1.20" = _6gh4O0eI;
-        "forge-1.20.3" = _CwupWbgF;
-        "forge-1.20.4" = _CwupWbgF;
-        "forge-1.20.6" = _pmsehbM9;
-        "forge-1.21.1" = _ec9ijcaw;
-        "forge-1.21.3" = _vGwUKlxn;
-        "forge-1.21.4" = _bgxlhq2A;
-        "forge-1.16" = _Cjp9qOPH;
-        "forge-1.16.1" = _Cjp9qOPH;
-        "forge-1.16.2" = _Cjp9qOPH;
-        "forge-1.16.3" = _Cjp9qOPH;
-        "forge-1.20.5" = _pmsehbM9;
-        "forge-1.21" = _ec9ijcaw;
-        "forge-1.21.2" = _vGwUKlxn;
-        "forge-1.21.5" = _LPJ5q2op;
-        "forge-1.21.6" = _Rnzma2Ef;
-        "forge-1.21.7" = _Rnzma2Ef;
-        "forge-1.21.8" = _Rnzma2Ef;
+        "forge-1.20" = _v8Wncly5;
+        "forge-1.20.3" = _tC6yVC8m;
+        "forge-1.20.4" = _tC6yVC8m;
+        "forge-1.20.6" = _5R0sqBkf;
+        "forge-1.21.1" = _iSTx8Iqu;
+        "forge-1.21.3" = _fDcvRJ9Q;
+        "forge-1.21.4" = _UNojng98;
+        "forge-1.16" = _bIuqpzZu;
+        "forge-1.16.1" = _bIuqpzZu;
+        "forge-1.16.2" = _bIuqpzZu;
+        "forge-1.16.3" = _bIuqpzZu;
+        "forge-1.20.5" = _5R0sqBkf;
+        "forge-1.21" = _iSTx8Iqu;
+        "forge-1.21.2" = _fDcvRJ9Q;
+        "forge-1.21.5" = _pmTKMg50;
+        "forge-1.21.6" = _ektH4MaF;
+        "forge-1.21.7" = _ektH4MaF;
+        "forge-1.21.8" = _ektH4MaF;
+        "forge-1.21.11" = _GAFJUFvb;
+        "forge-1.21.9" = _OetQEk6I;
+        "forge-1.21.10" = _OetQEk6I;
         "neoforge-1.20.1" = _xVZBZ4ol;
         "neoforge-1.20" = _xVZBZ4ol;
-        "neoforge-1.20.2" = _zYvQdjln;
-        "neoforge-1.20.3" = _dG56ct6J;
-        "neoforge-1.20.4" = _dG56ct6J;
-        "neoforge-1.20.6" = _JssK9qqP;
-        "neoforge-1.21.1" = _U9HjuVCQ;
-        "neoforge-1.21.3" = _2367qIwW;
-        "neoforge-1.21.4" = _jE6pG4lz;
-        "neoforge-1.20.5" = _JssK9qqP;
-        "neoforge-1.21" = _U9HjuVCQ;
-        "neoforge-1.21.2" = _2367qIwW;
-        "neoforge-1.21.5" = _iI6NDy0C;
-        "neoforge-1.21.6" = _BLGEoU3y;
-        "neoforge-1.21.7" = _BLGEoU3y;
-        "neoforge-1.21.8" = _BLGEoU3y;
+        "neoforge-1.20.2" = _87OcwDn9;
+        "neoforge-1.20.3" = _vBfP7CDd;
+        "neoforge-1.20.4" = _vBfP7CDd;
+        "neoforge-1.20.6" = _vBfP7CDd;
+        "neoforge-1.21.1" = _zSEefyfO;
+        "neoforge-1.21.3" = _MnWoIdJH;
+        "neoforge-1.21.4" = _SoWZ2e09;
+        "neoforge-1.20.5" = _vBfP7CDd;
+        "neoforge-1.21" = _zSEefyfO;
+        "neoforge-1.21.2" = _MnWoIdJH;
+        "neoforge-1.21.5" = _mmyNJ6E9;
+        "neoforge-1.21.6" = _ZOhbuUfw;
+        "neoforge-1.21.7" = _ZOhbuUfw;
+        "neoforge-1.21.8" = _ZOhbuUfw;
+        "neoforge-1.21.11" = _iLhSkdNh;
+        "neoforge-1.21.9" = _xrNhVHUt;
+        "neoforge-1.21.10" = _xrNhVHUt;
         "pkg-1.17.1-v1.0" = _cgBNKYqw;
         "pkg-1.18.1-v1.0" = _FEi1T0DG;
         "pkg-1.18.2-v1.0" = _yxszcA8N;
@@ -1653,7 +1956,56 @@ let
         "pkg-1.20.2-v1.4.4-fabric" = _pSzZKklB;
         "pkg-1.20.6-v1.4.4-neoforge" = _JssK9qqP;
         "pkg-1.20.2-v1.4.4-neoforge" = _zYvQdjln;
-        "default" = _zYvQdjln;
+        "pkg-1.16.5-v1.5.0-minecraftforge" = _bIuqpzZu;
+        "pkg-1.16.5-v1.5.0-fabric" = _nLSeJno5;
+        "pkg-1.17.1-v1.5.0-minecraftforge" = _IX7NcApa;
+        "pkg-1.17.1-v1.5.0-fabric" = _QZfKsyxk;
+        "pkg-1.18.1-v1.5.0-minecraftforge" = _ciOWpipF;
+        "pkg-1.18.1-v1.5.0-fabric" = _x19m7eI9;
+        "pkg-1.18.2-v1.5.0-minecraftforge" = _w8EFzeah;
+        "pkg-1.18.2-v1.5.0-fabric" = _L5JZWgQB;
+        "pkg-1.19.2-v1.5.0-minecraftforge" = _X8t9adzB;
+        "pkg-1.19.2-v1.5.0-fabric" = _bidYhRuX;
+        "pkg-1.19.4-v1.5.0-minecraftforge" = _4XmVwLSy;
+        "pkg-1.19.4-v1.5.0-fabric" = _yDS9k6Xp;
+        "pkg-1.19.3-v1.5.0-minecraftforge" = _IHsHHvNk;
+        "pkg-1.19.3-v1.5.0-fabric" = _VhN0aev4;
+        "pkg-1.20-v1.5.0-minecraftforge" = _v8Wncly5;
+        "pkg-1.20-v1.5.0-fabric" = _Yl8DHEtw;
+        "pkg-1.20.2-v1.5.0-minecraftforge" = _CWwiZFF7;
+        "pkg-1.20.2-v1.5.0-fabric" = _zXC6yO4B;
+        "pkg-1.20.2-v1.5.0-neoforge" = _87OcwDn9;
+        "pkg-1.20.6-v1.5.0-minecraftforge" = _5R0sqBkf;
+        "pkg-1.20.6-v1.5.0-fabric" = _aPsC7jgR;
+        "pkg-1.20.6-v1.5.0-neoforge" = _1fzIItv0;
+        "pkg-1.20.4-v1.5.0-minecraftforge" = _tC6yVC8m;
+        "pkg-1.20.4-v1.5.0-fabric" = _CFrrGcF0;
+        "pkg-1.20.4-v1.5.0-neoforge" = _vBfP7CDd;
+        "pkg-1.21.3-v1.5.0-minecraftforge" = _fDcvRJ9Q;
+        "pkg-1.21.3-v1.5.0-fabric" = _feDzhDy9;
+        "pkg-1.21.3-v1.5.0-neoforge" = _MnWoIdJH;
+        "pkg-1.21-v1.5.0-minecraftforge" = _iSTx8Iqu;
+        "pkg-1.21-v1.5.0-fabric" = _13jnBPDg;
+        "pkg-1.21-v1.5.0-neoforge" = _zSEefyfO;
+        "pkg-1.21.11-v1.5.0-minecraftforge" = _GAFJUFvb;
+        "pkg-1.21.11-v1.5.0-fabric" = _SoqlWUYS;
+        "pkg-1.21.11-v1.5.0-neoforge" = _iLhSkdNh;
+        "pkg-1.21.10-v1.5.0-minecraftforge" = _OetQEk6I;
+        "pkg-1.21.10-v1.5.0-fabric" = _RT5g3BkX;
+        "pkg-1.21.10-v1.5.0-neoforge" = _xrNhVHUt;
+        "pkg-1.21.8-v1.5.0-minecraftforge" = _ektH4MaF;
+        "pkg-1.21.8-v1.5.0-fabric" = _3ybUXLJX;
+        "pkg-1.21.8-v1.5.0-neoforge" = _ZOhbuUfw;
+        "pkg-1.21.4-v1.5.0-minecraftforge" = _UNojng98;
+        "pkg-1.21.4-v1.5.0-fabric" = _VPVDba9v;
+        "pkg-1.21.5-v1.5.0-minecraftforge" = _pmTKMg50;
+        "pkg-1.21.4-v1.5.0-neoforge" = _SoWZ2e09;
+        "pkg-1.21.5-v1.5.0-fabric" = _NnOfHQXQ;
+        "pkg-1.21.5-v1.5.0-neoforge" = _mmyNJ6E9;
+        "pkg-1.21.10-v1.5.1-fabric" = _6bUZDcW2;
+        "pkg-1.21.11-v1.5.1-fabric" = _Z2mCTt0Z;
+        "pkg-1.16.5-v1.5.1-forge" = _Oa88rqYO;
+        "default" = _Oa88rqYO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "paladins-furniture";
@@ -1661,13 +2013,13 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-GNU-LGPL-3-Code-Polyform-Shield-Assets" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "GNU Lesser General Public License v3.0 only";
-                shortName = "LGPL-3.0-only";
-                url = null;
+                fullName = "LicenseRef-GNU-LGPL-3-Code-Polyform-Shield-Assets";
+                shortName = "LicenseRef-GNU-LGPL-3-Code-Polyform-Shield-Assets";
+                url = "https://github.com/UnlikePaladin/paladins-furniture/blob/architectury-1.17.1/LICENSE.md";
             };
         };
     };

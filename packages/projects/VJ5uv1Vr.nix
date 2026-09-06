@@ -27,9 +27,6 @@ let
         "Aa9rnGJz" = _Aa9rnGJz;
         "SKbJIBbu" = _SKbJIBbu;
         "minecraft-1.12.2" = _SKbJIBbu;
-        "minecraft-1.11" = _SKbJIBbu;
-        "minecraft-1.11.1" = _SKbJIBbu;
-        "minecraft-1.11.2" = _SKbJIBbu;
         "minecraft-1.12" = _SKbJIBbu;
         "minecraft-1.12.1" = _SKbJIBbu;
         "pkg-0.8.0" = _AfruCcq1;

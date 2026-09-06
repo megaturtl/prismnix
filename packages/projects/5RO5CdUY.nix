@@ -65,12 +65,15 @@ let
         "fabric-1.21" = _UhIBBiJG;
         "fabric-1.21.1" = _UhIBBiJG;
         "fabric-26.1.2" = _7UKNXiEv;
+        "fabric-26.2" = _7UKNXiEv;
         "quilt-1.21" = _UhIBBiJG;
         "quilt-1.21.1" = _UhIBBiJG;
         "quilt-26.1.2" = _7UKNXiEv;
+        "quilt-26.2" = _7UKNXiEv;
         "neoforge-1.21" = _YYM2RhFD;
         "neoforge-1.21.1" = _YYM2RhFD;
         "neoforge-26.1.2" = _KrYsDsfu;
+        "neoforge-26.2" = _KrYsDsfu;
         "pkg-1.0.0" = _NRjFscxM;
         "pkg-1.0.1" = _33pxo9ME;
         "pkg-1.0.2" = _U1U8o9Qf;

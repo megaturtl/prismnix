@@ -56,6 +56,16 @@ let
             "file" = "nebl-21.1.10-neoforge+1.21.1.jar";
             "hash" = "sha512-u+5rZqUSQqjzmujCrwe3entwlPjutTuj5tqm0Qftua+jvwx6Rc+1cKWCTr1Uz62Xc5UrP/uUfzzWbxIVfQJtEQ==";
         };
+        _5Co6C5ny = {
+            "id" = "5Co6C5ny";
+            "file" = "nebl-21.1.11-neoforge+1.21.1.jar";
+            "hash" = "sha512-hcvmuUVo75dhNvizhSIIY0KhEoBQpHT2ra60vKMN7Zj/sR1WXqMHOPs/U3Ro5D6KVoHddvadnM5yh0DuMRehzw==";
+        };
+        _rbR6InFg = {
+            "id" = "rbR6InFg";
+            "file" = "nebl-21.1.12-neoforge+1.21.1.jar";
+            "hash" = "sha512-AOUc9WQKgVHrMgWwOGJFlZs2j8C9R4MZRujOj79GwldDBSOWgjRdMoyDpVaN+FEUXK6iuIAXKk4W7zjN8+reCw==";
+        };
     in {
         "LMS6xwDS" = _LMS6xwDS;
         "muqAAzF4" = _muqAAzF4;
@@ -68,9 +78,11 @@ let
         "ksYUfCP5" = _ksYUfCP5;
         "zO9fve6s" = _zO9fve6s;
         "C1UATxjp" = _C1UATxjp;
+        "5Co6C5ny" = _5Co6C5ny;
+        "rbR6InFg" = _rbR6InFg;
         "forge-1.12.2" = _LMS6xwDS;
         "forge-1.20.1" = _4KGmOR6b;
-        "neoforge-1.21.1" = _C1UATxjp;
+        "neoforge-1.21.1" = _rbR6InFg;
         "pkg-nebl-1.0.13-forge+1.12.2" = _LMS6xwDS;
         "pkg-21.1.02-neoforge+1.21.1" = _muqAAzF4;
         "pkg-20.1.02-forge+1.20.1" = _4KGmOR6b;
@@ -82,7 +94,9 @@ let
         "pkg-21.1.08-neoforge+1.21.1" = _ksYUfCP5;
         "pkg-21.1.09-neoforge+1.21.1" = _zO9fve6s;
         "pkg-21.1.10-neoforge+1.21.1" = _C1UATxjp;
-        "default" = _C1UATxjp;
+        "pkg-21.1.11-neoforge+1.21.1" = _5Co6C5ny;
+        "pkg-21.1.12-neoforge+1.21.1" = _rbR6InFg;
+        "default" = _rbR6InFg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "not-enough-bandwidth-legacy(nebl)";

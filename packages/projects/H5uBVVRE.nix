@@ -137,6 +137,7 @@ let
         "fabric-26.1" = _3CpNCXfs;
         "fabric-26.1.1" = _3CpNCXfs;
         "fabric-26.1.2" = _3CpNCXfs;
+        "fabric-26.2" = _3CpNCXfs;
         "pkg-0.9.1" = _JlPV6Yeo;
         "pkg-0.9.2" = _Z3GtA28T;
         "pkg-0.9.3" = _eNAI5ha4;

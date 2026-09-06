@@ -576,6 +576,31 @@ let
             "file" = "gravestone-neoforge-1.0.38+26.2.jar";
             "hash" = "sha512-taQ3HIJGGrEw8vnjzbUVjEC6ckBOSOV+cNIdfRXPOtBsxZvBU6baxLQWAy6Cq8JoL7JdIRrwr+JzeSeFnVHPfQ==";
         };
+        _XJVIxWow = {
+            "id" = "XJVIxWow";
+            "file" = "gravestone-neoforge-1.0.39+26.2.jar";
+            "hash" = "sha512-d9kxUbxZlAoMzIpv/ydxfEYrMV7msXcs+R4FNaYG0/HXoRndwhIvUjwV+NdewlE8amb7bwD9T+Y4ABhT4m8Fjw==";
+        };
+        _rMGJpjaM = {
+            "id" = "rMGJpjaM";
+            "file" = "gravestone-neoforge-1.21.1-1.0.40.jar";
+            "hash" = "sha512-VQSiItQIXaGJj/bU3/jrGCH9FKjKqqx4VVQncUf5hCYuY5JaQR2z8aNOnHh0ZS+2c3F2vqTAw/ASQ/Xq5Opuqg==";
+        };
+        _nkrPVNWT = {
+            "id" = "nkrPVNWT";
+            "file" = "gravestone-neoforge-1.21.11-1.0.40.jar";
+            "hash" = "sha512-YpPYK3xZ0dL6gp5rDYSmKeN/uG8xc8EjtsnaasRVtGp83NXO2T38UDEDuxLjQ2YpEHuQVUyjAvOaW1uP1FqDfQ==";
+        };
+        _2zbKnZWr = {
+            "id" = "2zbKnZWr";
+            "file" = "gravestone-neoforge-1.0.40+26.1.2.jar";
+            "hash" = "sha512-01aD0NCh9KRn9gxLC0nPboMTOysGPvQD0mhvCp8NAdKWe5R7VCejx4jxjCrus3WqMyLPGgs71FyIlZZAIUhFzw==";
+        };
+        _PNDtQA3P = {
+            "id" = "PNDtQA3P";
+            "file" = "gravestone-neoforge-1.0.40+26.2.jar";
+            "hash" = "sha512-xsmHd6oKqRF6cvMDjRIzbxwQU4ec91Hnj+0BViLnxYM5gncuUVzZkNmhBw708R2wuTTf43yehuhcnQGKgwDq2A==";
+        };
     in {
         "5Wdy1CHZ" = _5Wdy1CHZ;
         "ZuOKOLch" = _ZuOKOLch;
@@ -692,6 +717,11 @@ let
         "NMy27Wek" = _NMy27Wek;
         "MgE23vi6" = _MgE23vi6;
         "UaYQDJI5" = _UaYQDJI5;
+        "XJVIxWow" = _XJVIxWow;
+        "rMGJpjaM" = _rMGJpjaM;
+        "nkrPVNWT" = _nkrPVNWT;
+        "2zbKnZWr" = _2zbKnZWr;
+        "PNDtQA3P" = _PNDtQA3P;
         "forge-1.19" = _HI3WPHjf;
         "forge-1.19.1" = _c62TwMOY;
         "forge-1.19.2" = _BdpmfW7F;
@@ -706,8 +736,8 @@ let
         "neoforge-1.20.4" = _neHbvVxQ;
         "neoforge-1.20.5" = _7euNhwoM;
         "neoforge-1.20.6" = _i7dZ8lbC;
-        "neoforge-1.21" = _3a6KIbgL;
-        "neoforge-1.21.1" = _3a6KIbgL;
+        "neoforge-1.21" = _rMGJpjaM;
+        "neoforge-1.21.1" = _rMGJpjaM;
         "neoforge-1.21.2" = _XZyzDYQK;
         "neoforge-1.21.3" = _FEsTPgO2;
         "neoforge-1.21.4" = _ySDPDb0E;
@@ -717,11 +747,11 @@ let
         "neoforge-1.21.8" = _Ddjw1GAx;
         "neoforge-1.21.9" = _S0mVz1jB;
         "neoforge-1.21.10" = _yNVuwCGs;
-        "neoforge-1.21.11" = _NMy27Wek;
-        "neoforge-26.1" = _MgE23vi6;
-        "neoforge-26.1.1" = _MgE23vi6;
-        "neoforge-26.1.2" = _MgE23vi6;
-        "neoforge-26.2" = _UaYQDJI5;
+        "neoforge-1.21.11" = _nkrPVNWT;
+        "neoforge-26.1" = _2zbKnZWr;
+        "neoforge-26.1.1" = _2zbKnZWr;
+        "neoforge-26.1.2" = _2zbKnZWr;
+        "neoforge-26.2" = _PNDtQA3P;
         "pkg-forge-1.19-1.0.1" = _5Wdy1CHZ;
         "pkg-forge-1.19-1.0.2" = _ZuOKOLch;
         "pkg-forge-1.19-1.0.3" = _HI3WPHjf;
@@ -837,7 +867,12 @@ let
         "pkg-neoforge-1.21.11-1.0.38" = _NMy27Wek;
         "pkg-neoforge-1.0.38+26.1.2" = _MgE23vi6;
         "pkg-neoforge-1.0.38+26.2" = _UaYQDJI5;
-        "default" = _UaYQDJI5;
+        "pkg-neoforge-1.0.39+26.2" = _XJVIxWow;
+        "pkg-neoforge-1.21.1-1.0.40" = _rMGJpjaM;
+        "pkg-neoforge-1.21.11-1.0.40" = _nkrPVNWT;
+        "pkg-neoforge-1.0.40+26.1.2" = _2zbKnZWr;
+        "pkg-neoforge-1.0.40+26.2" = _PNDtQA3P;
+        "default" = _PNDtQA3P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gravestone-mod";

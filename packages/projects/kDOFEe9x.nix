@@ -21,19 +21,34 @@ let
             "file" = "CraftTime-mc1.21-fabric-1.0.1.jar";
             "hash" = "sha512-w+YPf3Ip6kqMErMExCxlavs1jERObc53ZyM0ZaFouR8lRLqvRt1ysClccv6/2z83d0md9XXtH2q4M3X+pkKkfg==";
         };
+        _EGN2N7S0 = {
+            "id" = "EGN2N7S0";
+            "file" = "crafttime-1.1.1.jar";
+            "hash" = "sha512-NyoPtyzHYwTyY6fMs/xYIBD2of7bmGR3O0/iUTeNyHlf2OvqYYLx7i58/pB6taci3iRCbRHJ/rtxTalU3Gm6nQ==";
+        };
+        _XS4CfC9p = {
+            "id" = "XS4CfC9p";
+            "file" = "crafttime-1.1.2.jar";
+            "hash" = "sha512-wPQg+J8IgYY1+yKxpZd1nkndJVlCXTmUZ4e3CbcBXTHtTLqnd0WXZwvnVFUQRS1qZqyK376VcidycfZnIHWzpQ==";
+        };
     in {
         "EQlMt6uz" = _EQlMt6uz;
         "zCokkslO" = _zCokkslO;
         "C5RvsxDd" = _C5RvsxDd;
         "9BbGoI5H" = _9BbGoI5H;
+        "EGN2N7S0" = _EGN2N7S0;
+        "XS4CfC9p" = _XS4CfC9p;
         "fabric-1.19.2" = _EQlMt6uz;
         "fabric-1.20.1" = _zCokkslO;
         "fabric-1.20.5" = _C5RvsxDd;
         "fabric-1.20.6" = _C5RvsxDd;
         "fabric-1.21" = _9BbGoI5H;
         "fabric-1.21.1" = _9BbGoI5H;
+        "fabric-26.2" = _XS4CfC9p;
         "pkg-1.0.1" = _9BbGoI5H;
-        "default" = _9BbGoI5H;
+        "pkg-1.1.1+mc26.2" = _EGN2N7S0;
+        "pkg-1.1.2+mc26.2" = _XS4CfC9p;
+        "default" = _XS4CfC9p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craft-time";

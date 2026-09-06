@@ -326,6 +326,36 @@ let
             "file" = "Visible_Powdered_Snow-26.3-snapshot-6.zip";
             "hash" = "sha512-U/pu0k2yS/bHfddyAyXISLFeWaxgX7KwE6TLLi/d20Hzd1W+FnR7Ni/i7quDo/0AuBMpY65AJjee9ucyzJxpqQ==";
         };
+        _duAuR7eS = {
+            "id" = "duAuR7eS";
+            "file" = "Visible_Powdered_Snow-26.3-snapshot-7.zip";
+            "hash" = "sha512-v4+Phmraf7xstWCBSnziksXwd8AaWDZL/cJxPkexjCIAN3I8x2r+0DuQHmc3pCAp0oM0QYGRxvEXtgV8vpegzA==";
+        };
+        _NV4nNwvc = {
+            "id" = "NV4nNwvc";
+            "file" = "Visible_Powdered_Snow-26.3-snapshot-8.zip";
+            "hash" = "sha512-EkTQdespKxUHmPhG5LsFhA2NWo1ed61Bfbxbywo55kbZ0VpzWbq5ZDpcvFqGwDGdTqq6+tFkDL26h90w6htxrw==";
+        };
+        _U37AGXUf = {
+            "id" = "U37AGXUf";
+            "file" = "Visible_Powdered_Snow-26.3-snapshot-9.zip";
+            "hash" = "sha512-whEnPIVZmvXTO3H99M64aBnUu+TRJBzxezWjYz313gFzbm574IwatSNYVojEHHPPyRpSSnrm7W4VMILz5bEzzw==";
+        };
+        _OMukRSyd = {
+            "id" = "OMukRSyd";
+            "file" = "Visible_Powdered_Snow-26.3-snapshot-10.zip";
+            "hash" = "sha512-k6RSiQQ7dE04yVKr30AsVjzjTCOaVdReCroNOE5HnTZz7g1nhNhyPVWK/+Iuuu5TFaFg8kTt1Cgj64sqfiE7+Q==";
+        };
+        _kIAOYKAC = {
+            "id" = "kIAOYKAC";
+            "file" = "Visible_Powdered_Snow-26.3-pre-1.zip";
+            "hash" = "sha512-7PyGkPGqWLAEnfl9mB/Xu5QauEJWkQYRP5rG4QZlP17JiyWNdyzF7WRAyMHQifvenihNwVkrAX5hdLCiHB/Jag==";
+        };
+        _75SblPU8 = {
+            "id" = "75SblPU8";
+            "file" = "Visible_Powdered_Snow-26.3-pre-2.zip";
+            "hash" = "sha512-7PyGkPGqWLAEnfl9mB/Xu5QauEJWkQYRP5rG4QZlP17JiyWNdyzF7WRAyMHQifvenihNwVkrAX5hdLCiHB/Jag==";
+        };
     in {
         "IXaIaxdI" = _IXaIaxdI;
         "2uei4pmg" = _2uei4pmg;
@@ -392,6 +422,12 @@ let
         "8o1ZgdUN" = _8o1ZgdUN;
         "LaoaKwK2" = _LaoaKwK2;
         "Q89bKtn1" = _Q89bKtn1;
+        "duAuR7eS" = _duAuR7eS;
+        "NV4nNwvc" = _NV4nNwvc;
+        "U37AGXUf" = _U37AGXUf;
+        "OMukRSyd" = _OMukRSyd;
+        "kIAOYKAC" = _kIAOYKAC;
+        "75SblPU8" = _75SblPU8;
         "minecraft-1.19.4" = _IXaIaxdI;
         "minecraft-1.20" = _xIz1cXPU;
         "minecraft-1.20.1" = _xIz1cXPU;
@@ -451,10 +487,16 @@ let
         "minecraft-26.3-snapshot-4" = _8o1ZgdUN;
         "minecraft-26.3-snapshot-5" = _LaoaKwK2;
         "minecraft-26.3-snapshot-6" = _Q89bKtn1;
+        "minecraft-26.3-snapshot-7" = _duAuR7eS;
+        "minecraft-26.3-snapshot-8" = _NV4nNwvc;
+        "minecraft-26.3-snapshot-9" = _U37AGXUf;
+        "minecraft-26.3-snapshot-10" = _OMukRSyd;
+        "minecraft-26.3-pre-1" = _kIAOYKAC;
+        "minecraft-26.3-pre-2" = _75SblPU8;
         "pkg-1.0" = _OGM6VwAM;
         "pkg-1.1" = _L01YfrgM;
-        "pkg-1.2" = _Q89bKtn1;
-        "default" = _Q89bKtn1;
+        "pkg-1.2" = _75SblPU8;
+        "default" = _75SblPU8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "visible-powdered-snow-bocks";

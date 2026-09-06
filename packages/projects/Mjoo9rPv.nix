@@ -46,6 +46,51 @@ let
             "file" = "randomoptimization-1.6.0-all.jar";
             "hash" = "sha512-1EOoD46FsZIyP1H5AblUw//s981dRUtkQB1Ma5zD+waNk/nSuALXrgHlKJ3MD8jkH0HnxPxbcYgVDLuccGUg+A==";
         };
+        _vH7a2upA = {
+            "id" = "vH7a2upA";
+            "file" = "randomoptimization-1.7.0-all.jar";
+            "hash" = "sha512-rOLde+NnnGGYPWxNwdYLh7OreI0I737fYQjNGpungU/QqIARSz4i3PHtIsO3E5Oeh0RAp2pthsh/dQDB1+aF7g==";
+        };
+        _HBgCbCJ4 = {
+            "id" = "HBgCbCJ4";
+            "file" = "randomoptimization-1.7.0-all.jar";
+            "hash" = "sha512-+MMjVXOUrRF/iiJOZe2eMar+5DTppB0YrnHUkNy1IJtOghQj7Rk6xGLjws35xZ4zjmmPw/h4As+fvente+ckLw==";
+        };
+        _QLVkBqn7 = {
+            "id" = "QLVkBqn7";
+            "file" = "randomoptimization-1.7.1-all.jar";
+            "hash" = "sha512-CastM4beq3eR4PWk3XYorEtOK15FrsKZvY2LBPKrNN1FCuP+yQFGZNTPQdxXx9T/aQ2A++SBogbKLpFtPxrK+A==";
+        };
+        _n04onSRw = {
+            "id" = "n04onSRw";
+            "file" = "randomoptimization-1.7.2-all.jar";
+            "hash" = "sha512-ingh1Kiakpai+K2oAEiuOigZsPVgJ+x7LERYew3aPwEErCyKY0Q5vYxwqliRyxFz3bINGyC6NtUOsYZuH4rjAg==";
+        };
+        _PscwPMtl = {
+            "id" = "PscwPMtl";
+            "file" = "randomoptimization-1.7.2-all.jar";
+            "hash" = "sha512-6J7lpfRTfrC36lRiJib1J1b6os2iZKFHmmMflrZ2EwRd2vbpzyfOdrG/9/TCNjlCbdjK3TNIFl3lleL8yU/Ygw==";
+        };
+        _FMRb10F8 = {
+            "id" = "FMRb10F8";
+            "file" = "randomoptimization-1.7.3-all.jar";
+            "hash" = "sha512-6dFCp+qSkBogFgkfDJTSeF0xOh55/mHO5lTK42URqkFD+YyhWGHtfGr9QpTYDdO+Uo9Upv7APuW9+U8OlTO6ow==";
+        };
+        _RdnqJjER = {
+            "id" = "RdnqJjER";
+            "file" = "randomoptimization-1.7.3-all.jar";
+            "hash" = "sha512-f++Y2+m19Yk/XWkuRnQd8M0BT/okxz0N942mW2MmHrZfeSbuxK/ylOH1L7q/HliUN28P0fA5ogMSfWDb1dTjtg==";
+        };
+        _uSUMqdE3 = {
+            "id" = "uSUMqdE3";
+            "file" = "randomoptimization-1.7.4-all.jar";
+            "hash" = "sha512-q1SDef8A79H9u4Mzwo7WDErpTuWPTtNqPR8oCMDCpOyp2vXbhNRYAPZ8d0bQDl4Cj4/4yNMBEmRK5sDl4ngDqA==";
+        };
+        _hNTChHCI = {
+            "id" = "hNTChHCI";
+            "file" = "randomoptimization-1.7.4-all.jar";
+            "hash" = "sha512-WI+xcVPNgwm7LXkepCgzc33pENUW0X5O1uQjsqQEGl1RYjRjFwcUjfMAxz1T0R+eSFDmOGhcx2xkjSAyOqUXrg==";
+        };
     in {
         "ZPWllHCQ" = _ZPWllHCQ;
         "kJrXz4Px" = _kJrXz4Px;
@@ -56,13 +101,22 @@ let
         "889dWCi9" = _889dWCi9;
         "rDUxxvmo" = _rDUxxvmo;
         "mlM71tV0" = _mlM71tV0;
-        "forge-1.20.1" = _mlM71tV0;
-        "forge-1.20.2" = _mlM71tV0;
-        "forge-1.20.3" = _mlM71tV0;
-        "forge-1.20.4" = _mlM71tV0;
-        "forge-1.20.5" = _mlM71tV0;
-        "forge-1.20.6" = _mlM71tV0;
-        "neoforge-1.21.1" = _rDUxxvmo;
+        "vH7a2upA" = _vH7a2upA;
+        "HBgCbCJ4" = _HBgCbCJ4;
+        "QLVkBqn7" = _QLVkBqn7;
+        "n04onSRw" = _n04onSRw;
+        "PscwPMtl" = _PscwPMtl;
+        "FMRb10F8" = _FMRb10F8;
+        "RdnqJjER" = _RdnqJjER;
+        "uSUMqdE3" = _uSUMqdE3;
+        "hNTChHCI" = _hNTChHCI;
+        "forge-1.20.1" = _uSUMqdE3;
+        "forge-1.20.2" = _uSUMqdE3;
+        "forge-1.20.3" = _uSUMqdE3;
+        "forge-1.20.4" = _uSUMqdE3;
+        "forge-1.20.5" = _uSUMqdE3;
+        "forge-1.20.6" = _uSUMqdE3;
+        "neoforge-1.21.1" = _hNTChHCI;
         "pkg-1.0.0" = _ZPWllHCQ;
         "pkg-1.1.0" = _kJrXz4Px;
         "pkg-1.2.0" = _AzitvNsx;
@@ -71,7 +125,12 @@ let
         "pkg-1.5.0" = _nME6AHBp;
         "pkg-1.5.1" = _889dWCi9;
         "pkg-1.6.0" = _mlM71tV0;
-        "default" = _mlM71tV0;
+        "pkg-1.7.0" = _HBgCbCJ4;
+        "pkg-1.7.1" = _QLVkBqn7;
+        "pkg-1.7.2" = _PscwPMtl;
+        "pkg-1.7.3" = _RdnqJjER;
+        "pkg-1.7.4" = _hNTChHCI;
+        "default" = _hNTChHCI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "random-optimization";

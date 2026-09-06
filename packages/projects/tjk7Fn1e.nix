@@ -8,11 +8,6 @@ let
         };
     in {
         "AZkHtp5q" = _AZkHtp5q;
-        "minecraft-1.19" = _AZkHtp5q;
-        "minecraft-1.19.1" = _AZkHtp5q;
-        "minecraft-1.19.2" = _AZkHtp5q;
-        "minecraft-1.19.3" = _AZkHtp5q;
-        "minecraft-1.19.4" = _AZkHtp5q;
         "minecraft-1.20" = _AZkHtp5q;
         "minecraft-1.20.1" = _AZkHtp5q;
         "minecraft-1.20.2" = _AZkHtp5q;
@@ -24,6 +19,18 @@ let
         "minecraft-1.21.1" = _AZkHtp5q;
         "minecraft-1.21.2" = _AZkHtp5q;
         "minecraft-1.21.3" = _AZkHtp5q;
+        "minecraft-1.21.4" = _AZkHtp5q;
+        "minecraft-1.21.5" = _AZkHtp5q;
+        "minecraft-1.21.6" = _AZkHtp5q;
+        "minecraft-1.21.7" = _AZkHtp5q;
+        "minecraft-1.21.8" = _AZkHtp5q;
+        "minecraft-1.21.9" = _AZkHtp5q;
+        "minecraft-1.21.10" = _AZkHtp5q;
+        "minecraft-1.21.11" = _AZkHtp5q;
+        "minecraft-26.1" = _AZkHtp5q;
+        "minecraft-26.1.1" = _AZkHtp5q;
+        "minecraft-26.1.2" = _AZkHtp5q;
+        "minecraft-26.2" = _AZkHtp5q;
         "pkg-1" = _AZkHtp5q;
         "default" = _AZkHtp5q;
     });

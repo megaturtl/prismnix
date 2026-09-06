@@ -151,6 +151,11 @@ let
             "file" = "MiscTweaks-5.5.1.jar";
             "hash" = "sha512-c97v+G5b4mP195LHdcGra0GAoeYim1RvEe34UfN5d9yr94BXPlVdtXM12glmdJfaWSsYwdWCeiokCY/L2NNM1g==";
         };
+        _jYiKS1Od = {
+            "id" = "jYiKS1Od";
+            "file" = "MiscTweaks-5.5.2.jar";
+            "hash" = "sha512-Hd3sNEW/c4qcWpNIowoP83xWmKtiUebhUaePvxkp7EepFAf9n66O51VuvZHz80ux5PBV4yZcNpEpLVvfFVs6Nw==";
+        };
     in {
         "PjBod7EI" = _PjBod7EI;
         "lyN9H8Pn" = _lyN9H8Pn;
@@ -182,8 +187,9 @@ let
         "GdWDhLEq" = _GdWDhLEq;
         "Cc7TZZQe" = _Cc7TZZQe;
         "Kj2ZMWQR" = _Kj2ZMWQR;
-        "babric-b1.7.3" = _Kj2ZMWQR;
-        "fabric-b1.7.3" = _Kj2ZMWQR;
+        "jYiKS1Od" = _jYiKS1Od;
+        "babric-b1.7.3" = _jYiKS1Od;
+        "fabric-b1.7.3" = _jYiKS1Od;
         "pkg-3.0.1" = _PjBod7EI;
         "pkg-3.1.0" = _lyN9H8Pn;
         "pkg-3.1.1" = _TSFk57kq;
@@ -214,7 +220,8 @@ let
         "pkg-5.4.0" = _GdWDhLEq;
         "pkg-5.5.0" = _Cc7TZZQe;
         "pkg-5.5.1" = _Kj2ZMWQR;
-        "default" = _Kj2ZMWQR;
+        "pkg-5.5.2" = _jYiKS1Od;
+        "default" = _jYiKS1Od;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "misctweaks-stationapi";

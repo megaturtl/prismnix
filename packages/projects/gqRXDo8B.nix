@@ -536,6 +536,11 @@ let
             "file" = "villagernames-26.2.0-8.5.jar";
             "hash" = "sha512-arGOkcYGtuwXV/swtb/NLlJkne7teA0URLP5bWzPnhhx7jH18I4WQyunMC/SKoFDHn5gouMrX74CTzk2kq+J+A==";
         };
+        _D78qWxUx = {
+            "id" = "D78qWxUx";
+            "file" = "villagernames-26.2.0-8.6.jar";
+            "hash" = "sha512-1B0mCzRkJTv7YwIidjT5I0tnTyfvlBte/SwoSWOvocpNgNBrlwluQSGpisp09QWJqgKehOYMkoENTK2SXv9jZw==";
+        };
     in {
         "2TEWJRLg" = _2TEWJRLg;
         "k6DDc1t3" = _k6DDc1t3;
@@ -644,6 +649,7 @@ let
         "b0Qmm0lk" = _b0Qmm0lk;
         "bmdwR4i8" = _bmdwR4i8;
         "zxLY72cS" = _zxLY72cS;
+        "D78qWxUx" = _D78qWxUx;
         "fabric-1.16.5" = _qjKznvob;
         "fabric-1.18.2" = _KokAzmEH;
         "fabric-1.19.2" = _l7FEhHcU;
@@ -671,7 +677,7 @@ let
         "fabric-26.1" = _YyTrglVt;
         "fabric-26.1.1" = _mYHisdVF;
         "fabric-26.1.2" = _bmdwR4i8;
-        "fabric-26.2" = _zxLY72cS;
+        "fabric-26.2" = _D78qWxUx;
         "forge-1.16.5" = _zp0TD6tt;
         "forge-1.18.2" = _KokAzmEH;
         "forge-1.19.2" = _l7FEhHcU;
@@ -697,7 +703,7 @@ let
         "forge-26.1" = _YyTrglVt;
         "forge-26.1.1" = _mYHisdVF;
         "forge-26.1.2" = _bmdwR4i8;
-        "forge-26.2" = _zxLY72cS;
+        "forge-26.2" = _D78qWxUx;
         "quilt-1.18.2" = _KokAzmEH;
         "quilt-1.19.2" = _l7FEhHcU;
         "quilt-1.19.3" = _E5ZhAXPi;
@@ -724,7 +730,7 @@ let
         "quilt-26.1" = _YyTrglVt;
         "quilt-26.1.1" = _mYHisdVF;
         "quilt-26.1.2" = _bmdwR4i8;
-        "quilt-26.2" = _zxLY72cS;
+        "quilt-26.2" = _D78qWxUx;
         "neoforge-1.20.2" = _QZhpUhof;
         "neoforge-1.20.1" = _2THA99E5;
         "neoforge-1.20.3" = _zqs0WbUP;
@@ -746,7 +752,7 @@ let
         "neoforge-26.1" = _YyTrglVt;
         "neoforge-26.1.1" = _mYHisdVF;
         "neoforge-26.1.2" = _bmdwR4i8;
-        "neoforge-26.2" = _zxLY72cS;
+        "neoforge-26.2" = _D78qWxUx;
         "pkg-1.16.5-3.8-fabric" = _2TEWJRLg;
         "pkg-1.18.2-3.8-fabric" = _k6DDc1t3;
         "pkg-1.19.2-4.0-fabric" = _OudsjF6Y;
@@ -854,7 +860,8 @@ let
         "pkg-1.21.11-8.5-fabric+forge+neo" = _b0Qmm0lk;
         "pkg-26.1.2-8.5-fabric+forge+neo" = _bmdwR4i8;
         "pkg-26.2.0-8.5-fabric+forge+neo" = _zxLY72cS;
-        "default" = _zxLY72cS;
+        "pkg-26.2.0-8.6-fabric+forge+neo" = _D78qWxUx;
+        "default" = _D78qWxUx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villager-names-serilum";

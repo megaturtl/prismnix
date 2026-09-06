@@ -141,6 +141,36 @@ let
             "file" = "WeaponsOfMiracles-2.0.17-mc1.20.1-forge.jar";
             "hash" = "sha512-IICFKhrSBHdnrLCtVm1YuhyNsO7+9qiBEltAMJNrLF1uJ4YCpST492r8ynbW+U14slAT66SEMKOxO0HuW0tx6A==";
         };
+        _nf0AyjKh = {
+            "id" = "nf0AyjKh";
+            "file" = "WeaponsOfMiracles-2.0.171-mc1.20.1-forge.jar";
+            "hash" = "sha512-YOJZDlIdATOLPxrgt+YUyIMR5uTj9XNfcz1JxAsEOhajgy4fJcdflLxXAqP0ou4pnVF/1RfBliI3FSS/TkL02g==";
+        };
+        _rqsR2pB5 = {
+            "id" = "rqsR2pB5";
+            "file" = "WeaponsOfMiracles-21.2.0.17.jar";
+            "hash" = "sha512-33NrmW69Da4To+70pmqMvqSCAYqqK4Z5aFDlW9hFDDlZvuWoShHwKwCtqhe4cThv6FDVXBNb9W1yautQ9zf0uw==";
+        };
+        _7sdAlnqC = {
+            "id" = "7sdAlnqC";
+            "file" = "WeaponsOfMiracles-21.2.0.174.jar";
+            "hash" = "sha512-lxy2ioHA5YCSvOQkqTxFOMAcpNCI5MJdetym5nqQxzG/3iG0LYkU76+07VpffLftaz4FzVF6pXvAhp/DN3zJQQ==";
+        };
+        _CftSXPw1 = {
+            "id" = "CftSXPw1";
+            "file" = "WeaponsOfMiracles-2.0.175.jar";
+            "hash" = "sha512-2s5oarzCT5IvEhKcM8i5oAh4+xpKD3lZR4LgZ0F55Zp0m5pTOdsVfvLIxGHwSezVtzCTS/5KZCpDuKUqS295uQ==";
+        };
+        _mnIBbtPo = {
+            "id" = "mnIBbtPo";
+            "file" = "WeaponsOfMiracles-2.0.176.jar";
+            "hash" = "sha512-iMfIxSQKIKI7B6KuVCF6uTiZwOcCsPn2txVPS/4/6kQQJYECjs0SoMtWyerc1YsNDBvs+W1oCbbidZfo0lU8Fw==";
+        };
+        _dyDHXjZP = {
+            "id" = "dyDHXjZP";
+            "file" = "WeaponsOfMiracles-2.0.177.jar";
+            "hash" = "sha512-IaSryHjgZ3Klrv77IwWxNLzL0gz7T0NN2z3/gZ7IXYtqM7ST8Cidph1L/jrQZBZ40pz4I4yqkBAw25L/l0+KfA==";
+        };
     in {
         "vuyWMDLb" = _vuyWMDLb;
         "4UXwIGJc" = _4UXwIGJc;
@@ -170,9 +200,16 @@ let
         "8pbjCgG4" = _8pbjCgG4;
         "1BY06Q1A" = _1BY06Q1A;
         "IvM9WRtp" = _IvM9WRtp;
+        "nf0AyjKh" = _nf0AyjKh;
+        "rqsR2pB5" = _rqsR2pB5;
+        "7sdAlnqC" = _7sdAlnqC;
+        "CftSXPw1" = _CftSXPw1;
+        "mnIBbtPo" = _mnIBbtPo;
+        "dyDHXjZP" = _dyDHXjZP;
         "forge-1.18.2" = _kcPodxax;
         "forge-1.19.2" = _S3BMMv7c;
-        "forge-1.20.1" = _IvM9WRtp;
+        "forge-1.20.1" = _nf0AyjKh;
+        "neoforge-1.21.1" = _dyDHXjZP;
         "pkg-18.1.7.31" = _vuyWMDLb;
         "pkg-19.1.7.29" = _4UXwIGJc;
         "pkg-20.1.7.29" = _RGkQEEiN;
@@ -201,7 +238,13 @@ let
         "pkg-2.0.163-mc1.20.1-forge" = _8pbjCgG4;
         "pkg-2.0.164-mc1.20.1-forge" = _1BY06Q1A;
         "pkg-2.0.17-mc1.20.1-forge" = _IvM9WRtp;
-        "default" = _IvM9WRtp;
+        "pkg-2.0.171-mc1.20.1-forge" = _nf0AyjKh;
+        "pkg-21.2.0.17" = _rqsR2pB5;
+        "pkg-21.2.0.174" = _7sdAlnqC;
+        "pkg-2.0.175" = _CftSXPw1;
+        "pkg-2.0.176" = _mnIBbtPo;
+        "pkg-2.0.177" = _dyDHXjZP;
+        "default" = _dyDHXjZP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "weapons-of-miracles";

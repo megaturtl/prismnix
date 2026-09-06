@@ -31,6 +31,11 @@ let
             "file" = "coolrain-26.1.2-NeoForge-1.0.0.jar";
             "hash" = "sha512-rXAYmkYuqq+OOSMiRYCDqHrVYmH0EFcyDSo2sKpbobiQqdpGym1oaAKo9563eFj/trmlLZyjRDFmtfnOqkHT9Q==";
         };
+        _SwSSfJQQ = {
+            "id" = "SwSSfJQQ";
+            "file" = "coolrain-1.21.1-NeoForge-1.0.2.jar";
+            "hash" = "sha512-vUY/YKwqufIrx7fDVlbj4XSy21velfPH1ASwfwhb29VQd06b9/+BMQoPTupTSDmNKo9heh0WRNtuOMjrgyRTKA==";
+        };
     in {
         "amheqAR8" = _amheqAR8;
         "8UlyMRh2" = _8UlyMRh2;
@@ -38,8 +43,9 @@ let
         "Dt3lZfPl" = _Dt3lZfPl;
         "5ib5x24J" = _5ib5x24J;
         "kfg82PsX" = _kfg82PsX;
+        "SwSSfJQQ" = _SwSSfJQQ;
         "neoforge-1.21.10" = _amheqAR8;
-        "neoforge-1.21.1" = _8UlyMRh2;
+        "neoforge-1.21.1" = _SwSSfJQQ;
         "neoforge-26.1" = _kfg82PsX;
         "neoforge-26.1.1" = _kfg82PsX;
         "neoforge-26.1.2" = _kfg82PsX;
@@ -49,8 +55,8 @@ let
         "pkg-1.0.0" = _kfg82PsX;
         "pkg-1.0.1" = _8UlyMRh2;
         "pkg-1.0.3" = _Z3Yf3JBe;
-        "pkg-1.0.2" = _5ib5x24J;
-        "default" = _kfg82PsX;
+        "pkg-1.0.2" = _SwSSfJQQ;
+        "default" = _SwSSfJQQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cool-rain-reforged";

@@ -371,6 +371,36 @@ let
             "file" = "more_orn_plants-neoforge-1.21.1-1.3.0-beta.jar";
             "hash" = "sha512-cihqDnWOEmEC0x5pVgQo2RJv1YIKVGJZAQD8xADclVJQ0f/vUOA1YDCzd0jrUolvzpKYcvlv8Ke/AnMDCflmvw==";
         };
+        _WfSJ3BW6 = {
+            "id" = "WfSJ3BW6";
+            "file" = "more_orn_plants-forge-1.20.1-1.3.0.jar";
+            "hash" = "sha512-SKEFzQKOYxLo0sBl3TAobp8exD7PGOHmE7S1I/dhrP0w0pSBOrItvKHj++3Pl1qar+CibBlyODJBF6lWelgQDw==";
+        };
+        _JZux7bKk = {
+            "id" = "JZux7bKk";
+            "file" = "more_orn_plants-neoforge-1.21.1-1.3.0.jar";
+            "hash" = "sha512-LKIG/olItS1GXsbZa0ZyPSOli1SjFerkWM8PHdMvzjD4Z2TtBdglzGRWsjSDPxGoWTjMYUttTGJ8/miQZXkN+A==";
+        };
+        _kZPqOBbi = {
+            "id" = "kZPqOBbi";
+            "file" = "more_orn_plants-forge-1.20.1-1.3.1.4-Qixi.jar";
+            "hash" = "sha512-EpOBieQSDZfXi9Ah3mI1QqocfkWiSiym2GWAs7Uc1FmZIrEfPlYovR+l10IeVWGMuGKbhkdhbc/bCSgi6ORt5A==";
+        };
+        _FSk8Wqm8 = {
+            "id" = "FSk8Wqm8";
+            "file" = "more_orn_plants-neoforge-1.21.1-1.3.1.4-Qixi.jar";
+            "hash" = "sha512-sqLM99dNa58sMBD25yydipd+yexyLxVlm8AkPqNFxhkuDTmCtAg9/8mjqIRkcCIOCa+5g463bc09C9Xn+PMrsg==";
+        };
+        _G8PVlvJO = {
+            "id" = "G8PVlvJO";
+            "file" = "more_orn_plants-forge-1.20.1-1.3.2-bailu.jar";
+            "hash" = "sha512-44DYIY9P7R9R0msg9OP2pab/fQgQbQIsFPgWlxJZRAvlBMC3sCthp1uZOQWWc0A0RWPRQR8GQamStVyFTwe4VA==";
+        };
+        _wrcXgeVo = {
+            "id" = "wrcXgeVo";
+            "file" = "more_orn_plants-neoforge-1.21.1-1.3.2-bailu.jar";
+            "hash" = "sha512-/qvTAO6+07h5NIY9lqx3FFzqWupB2BcjxYHMKazdNvRnJdI7UQV899NkK7qzPHCeEbLKup3HkOFfBOdmhQ1vqQ==";
+        };
     in {
         "5fas77mx" = _5fas77mx;
         "TAzsYw8I" = _TAzsYw8I;
@@ -446,8 +476,14 @@ let
         "xRN19mbp" = _xRN19mbp;
         "Qn8NapH4" = _Qn8NapH4;
         "8elVl9Xg" = _8elVl9Xg;
-        "forge-1.20.1" = _Qn8NapH4;
-        "neoforge-1.21.1" = _8elVl9Xg;
+        "WfSJ3BW6" = _WfSJ3BW6;
+        "JZux7bKk" = _JZux7bKk;
+        "kZPqOBbi" = _kZPqOBbi;
+        "FSk8Wqm8" = _FSk8Wqm8;
+        "G8PVlvJO" = _G8PVlvJO;
+        "wrcXgeVo" = _wrcXgeVo;
+        "forge-1.20.1" = _G8PVlvJO;
+        "neoforge-1.21.1" = _wrcXgeVo;
         "pkg-1.0.0" = _MWirSIj7;
         "pkg-1.0.1" = _sV0rm8uT;
         "pkg-1.0.2" = _G9cYvFca;
@@ -487,7 +523,10 @@ let
         "pkg-1.2.8" = _AFBwRErx;
         "pkg-1.2.9" = _xRN19mbp;
         "pkg-1.3.0-beta" = _8elVl9Xg;
-        "default" = _8elVl9Xg;
+        "pkg-1.3.0" = _JZux7bKk;
+        "pkg-1.3.1.4-Qixi" = _FSk8Wqm8;
+        "pkg-1.3.2-bailu" = _wrcXgeVo;
+        "default" = _wrcXgeVo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-ornamental-plants";

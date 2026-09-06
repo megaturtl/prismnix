@@ -50,7 +50,7 @@ let
         "minecraft-1.20.4" = _UwXUb7sq;
         "minecraft-1.20.5" = _UwXUb7sq;
         "minecraft-1.20.6" = _UwXUb7sq;
-        "minecraft-1.21" = _86E7mD4C;
+        "minecraft-1.21" = _UwXUb7sq;
         "minecraft-1.21.1" = _UwXUb7sq;
         "minecraft-1.21.2" = _UwXUb7sq;
         "minecraft-1.21.3" = _UwXUb7sq;
@@ -61,6 +61,12 @@ let
         "minecraft-1.21.8" = _UwXUb7sq;
         "minecraft-1.21.9" = _UwXUb7sq;
         "minecraft-1.21.10" = _UwXUb7sq;
+        "minecraft-1.20" = _UwXUb7sq;
+        "minecraft-1.21.11" = _UwXUb7sq;
+        "minecraft-26.1" = _UwXUb7sq;
+        "minecraft-26.1.1" = _UwXUb7sq;
+        "minecraft-26.1.2" = _UwXUb7sq;
+        "minecraft-26.2" = _UwXUb7sq;
         "pkg-1.0.0" = _Rbc9LXbo;
         "pkg-1.1.0" = _QuJCQLAe;
         "pkg-1.1.1" = _VYo90lSM;

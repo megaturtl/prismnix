@@ -116,6 +116,21 @@ let
             "file" = "railwaysuntold-1.20.1-fabric-1.2.1.jar";
             "hash" = "sha512-TyEQBCAFSJgFb/DGC4CExNbBzejNDMdOFMKCo+U7rrcEq/NqRV7yXtB6qUVOdxZargcI2CzOqkLyi/nECE6ZzA==";
         };
+        _guWxFvi4 = {
+            "id" = "guWxFvi4";
+            "file" = "railwaysuntold-1.21.1-neoforge-1.2.2.jar";
+            "hash" = "sha512-Nvfy9nF+wlG7S4qpyuPVDScu/g+opHBm29fLROv4i7IbSl83cAHOxsF/nS3JYxF+TtUkwi3KlgKvY2ecUYPjCA==";
+        };
+        _4hYpo2Z2 = {
+            "id" = "4hYpo2Z2";
+            "file" = "railwaysuntold-1.20.1-forge-1.2.2.jar";
+            "hash" = "sha512-m8AlzmzLC0+0sRwuTsv1528jb3v04w2SypiN2+VN0jdEPeg/Qus5ZRfbRSaVIDuqELvLeUBZkcYEZsMt0+mn2Q==";
+        };
+        _gbFCU9Rq = {
+            "id" = "gbFCU9Rq";
+            "file" = "railwaysuntold-1.20.1-fabric-1.2.2.jar";
+            "hash" = "sha512-x6eOS5qM2CA3aO0saaWm5XR1u4FvbdqpzQe7GEShIv0XTv/tzwVm985Z24q8s71UBxjuL5LVt2kscoQ7TG5GkA==";
+        };
     in {
         "JwnjQzmh" = _JwnjQzmh;
         "ZzEkNg2V" = _ZzEkNg2V;
@@ -140,9 +155,12 @@ let
         "Vrf31Ytf" = _Vrf31Ytf;
         "hxBIaBGs" = _hxBIaBGs;
         "CI9eUmdX" = _CI9eUmdX;
-        "neoforge-1.21.1" = _Vrf31Ytf;
-        "forge-1.20.1" = _hxBIaBGs;
-        "fabric-1.20.1" = _CI9eUmdX;
+        "guWxFvi4" = _guWxFvi4;
+        "4hYpo2Z2" = _4hYpo2Z2;
+        "gbFCU9Rq" = _gbFCU9Rq;
+        "neoforge-1.21.1" = _guWxFvi4;
+        "forge-1.20.1" = _4hYpo2Z2;
+        "fabric-1.20.1" = _gbFCU9Rq;
         "pkg-1.1.0" = _8QGNdl6s;
         "pkg-1.1.1" = _gTlm49QR;
         "pkg-1.1.2" = _gszZ8XnS;
@@ -151,7 +169,8 @@ let
         "pkg-1.1.5" = _F2mCEJfL;
         "pkg-1.2.0" = _4tBKbZEL;
         "pkg-1.2.1" = _CI9eUmdX;
-        "default" = _CI9eUmdX;
+        "pkg-1.2.2" = _gbFCU9Rq;
+        "default" = _gbFCU9Rq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "railways-untold";

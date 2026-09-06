@@ -791,6 +791,16 @@ let
             "file" = "create_ltab-4.0.3.zip";
             "hash" = "sha512-ljekXenDWxZjCMw5OWhaw1W836RhaIbbN9wl5othsPi4DT4E7YZdScyWIsTT+q6EwXRvs7WBVMJUqW9p/rXzWQ==";
         };
+        _dQQazoxf = {
+            "id" = "dQQazoxf";
+            "file" = "create_ltab-4.1.0.jar";
+            "hash" = "sha512-BdLG33KPv+jTUi/9iL5JK+XfpvBsgG3B9tlIr/85RV9pWt0e27OP7i7X8ZdmjRO11ykJvGAZLEDZTfP/AEjROA==";
+        };
+        _zoWctllx = {
+            "id" = "zoWctllx";
+            "file" = "create_ltab-4.1.0.zip";
+            "hash" = "sha512-YpnNWRTdgT4XcjhQZ0bUapM5ur+n8s7fKghmnqdGNZGtbk96luAVLxYia7B9XBbeHQAJcSRzcVAFIplBE2DBMA==";
+        };
     in {
         "28yCN99b" = _28yCN99b;
         "4xFm8PmE" = _4xFm8PmE;
@@ -950,22 +960,24 @@ let
         "hahBWj77" = _hahBWj77;
         "hQILBaAG" = _hQILBaAG;
         "1PoQlEuJ" = _1PoQlEuJ;
-        "fabric-1.20.1" = _hQILBaAG;
+        "dQQazoxf" = _dQQazoxf;
+        "zoWctllx" = _zoWctllx;
+        "fabric-1.20.1" = _dQQazoxf;
         "fabric-1.20" = _4FB2hETv;
         "fabric-1.20.2" = _4FB2hETv;
         "fabric-1.20.3" = _4FB2hETv;
         "fabric-1.20.4" = _4FB2hETv;
         "fabric-1.20.5" = _4FB2hETv;
         "fabric-1.20.6" = _4FB2hETv;
-        "fabric-1.21.1" = _hQILBaAG;
-        "forge-1.20.1" = _hQILBaAG;
-        "forge-1.21.1" = _hQILBaAG;
-        "neoforge-1.21.1" = _hQILBaAG;
-        "neoforge-1.20.1" = _hQILBaAG;
-        "quilt-1.21.1" = _hQILBaAG;
-        "quilt-1.20.1" = _hQILBaAG;
-        "datapack-1.21.1" = _1PoQlEuJ;
-        "datapack-1.20.1" = _1PoQlEuJ;
+        "fabric-1.21.1" = _dQQazoxf;
+        "forge-1.20.1" = _dQQazoxf;
+        "forge-1.21.1" = _dQQazoxf;
+        "neoforge-1.21.1" = _dQQazoxf;
+        "neoforge-1.20.1" = _dQQazoxf;
+        "quilt-1.21.1" = _dQQazoxf;
+        "quilt-1.20.1" = _dQQazoxf;
+        "datapack-1.21.1" = _zoWctllx;
+        "datapack-1.20.1" = _zoWctllx;
         "pkg-1.0.0" = _t6dKdbhL;
         "pkg-2.0.0" = _CPUr32xq;
         "pkg-2.0.1" = _foASRpBN;
@@ -1044,7 +1056,8 @@ let
         "pkg-4.0.1" = _IH87pswU;
         "pkg-4.0.2" = _hahBWj77;
         "pkg-4.0.3" = _1PoQlEuJ;
-        "default" = _1PoQlEuJ;
+        "pkg-4.1.0" = _zoWctllx;
+        "default" = _zoWctllx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-let-the-adventure-begin";

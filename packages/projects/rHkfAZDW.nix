@@ -74,6 +74,10 @@ let
         "minecraft-26.3-snapshot-5" = _6O452ZIC;
         "minecraft-26.3-snapshot-6" = _6O452ZIC;
         "minecraft-26.3-snapshot-7" = _6O452ZIC;
+        "minecraft-26.3-snapshot-8" = _6O452ZIC;
+        "minecraft-26.3-snapshot-9" = _6O452ZIC;
+        "minecraft-26.3-snapshot-10" = _6O452ZIC;
+        "minecraft-26.3-pre-1" = _6O452ZIC;
         "pkg-26.1" = _Qgsa8jtq;
         "pkg-1.21.11" = _SSx9cX6W;
         "pkg-26.1-1" = _TGbZb6FA;

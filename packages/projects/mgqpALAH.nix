@@ -36,6 +36,16 @@ let
             "file" = "pv-addon-flashback-1.0.0-beta.9+26.1.1.jar";
             "hash" = "sha512-svnPyKrCCUOu/eTbSKZ0sa1nvP1g1M0ao/v+EU7xyK1vmryJgJqjVinY/OT3SqOCo6E+z2tbLVk+KxpVxwYITg==";
         };
+        _lnWRDeJY = {
+            "id" = "lnWRDeJY";
+            "file" = "pv-addon-flashback-1.0.0-beta.10+1.21.1.jar";
+            "hash" = "sha512-7WLBeOYa836OtQb3tdSA0dyz/Vy4855uox5bwfNka/ygy81kSmzFEjMmS4/4K/FqaoT/hCY8jHDX/3z7QM8UEw==";
+        };
+        _6myrqoOD = {
+            "id" = "6myrqoOD";
+            "file" = "pv-addon-flashback-1.0.0-beta.10+26.1.1.jar";
+            "hash" = "sha512-maDfnA1zemw7x9Wyabg2iz1hhfnbEG9V9cSGwc1VJlIa3p5eTmqGNS0J+Wwe7fxj0/+jkEgi/5FH2EH9zK3CTg==";
+        };
     in {
         "HbkVk2VB" = _HbkVk2VB;
         "tb4FPKZD" = _tb4FPKZD;
@@ -44,28 +54,32 @@ let
         "R3u4mvIv" = _R3u4mvIv;
         "UHzbq26R" = _UHzbq26R;
         "rYqCgvGo" = _rYqCgvGo;
-        "fabric-1.21.1" = _UHzbq26R;
-        "fabric-1.21.2" = _UHzbq26R;
-        "fabric-1.21.3" = _UHzbq26R;
-        "fabric-1.21.4" = _UHzbq26R;
-        "fabric-1.21.5" = _UHzbq26R;
-        "fabric-1.21.6" = _UHzbq26R;
-        "fabric-1.21.7" = _UHzbq26R;
-        "fabric-1.21.8" = _UHzbq26R;
-        "fabric-1.21.9" = _UHzbq26R;
-        "fabric-1.21.10" = _UHzbq26R;
-        "fabric-1.21.11" = _UHzbq26R;
-        "fabric-26.1" = _rYqCgvGo;
-        "fabric-26.1.1" = _rYqCgvGo;
-        "fabric-26.1.2" = _rYqCgvGo;
-        "fabric-26.2" = _rYqCgvGo;
+        "lnWRDeJY" = _lnWRDeJY;
+        "6myrqoOD" = _6myrqoOD;
+        "fabric-1.21.1" = _lnWRDeJY;
+        "fabric-1.21.2" = _lnWRDeJY;
+        "fabric-1.21.3" = _lnWRDeJY;
+        "fabric-1.21.4" = _lnWRDeJY;
+        "fabric-1.21.5" = _lnWRDeJY;
+        "fabric-1.21.6" = _lnWRDeJY;
+        "fabric-1.21.7" = _lnWRDeJY;
+        "fabric-1.21.8" = _lnWRDeJY;
+        "fabric-1.21.9" = _lnWRDeJY;
+        "fabric-1.21.10" = _lnWRDeJY;
+        "fabric-1.21.11" = _lnWRDeJY;
+        "fabric-26.1" = _6myrqoOD;
+        "fabric-26.1.1" = _6myrqoOD;
+        "fabric-26.1.2" = _6myrqoOD;
+        "fabric-26.2" = _6myrqoOD;
         "pkg-1.0.0-beta.6" = _tb4FPKZD;
         "pkg-1.0.0-beta.7" = _d8cqT8wI;
         "pkg-1.0.0-beta.8+1.21.1" = _1MHR3yUo;
         "pkg-1.0.0-beta.8+26.1.1" = _R3u4mvIv;
         "pkg-1.0.0-beta.9+1.21.1" = _UHzbq26R;
         "pkg-1.0.0-beta.9+26.1.1" = _rYqCgvGo;
-        "default" = _rYqCgvGo;
+        "pkg-1.0.0-beta.10+1.21.1" = _lnWRDeJY;
+        "pkg-1.0.0-beta.10+26.1.1" = _6myrqoOD;
+        "default" = _6myrqoOD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pv-addon-flashback";

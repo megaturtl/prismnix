@@ -41,6 +41,16 @@ let
             "file" = "No trampling on farmland-26.1-Fabric-1.1.1.jar";
             "hash" = "sha512-nRI84AlEnjhuT5wYtWKeqWpU5jzkHYUBdloH6oLqoLWhdmjf5XsuM/qxwSbv6/SqKUE1xbjBdVGnnClcoDq7nA==";
         };
+        _gc10UXCp = {
+            "id" = "gc10UXCp";
+            "file" = "No trampling on farmland-26.2-Fabric-1.1.1.jar";
+            "hash" = "sha512-LDWB6NHd0sPKlt6ionC0oLAyc7DO3UshlixTy3hRus2TDC7Klgw9ywOEYPTQaAwwFmM2tzYIkN5MSVsMLSGGQg==";
+        };
+        _3r3u14ce = {
+            "id" = "3r3u14ce";
+            "file" = "No trampling on farmland-1.20.1-Forge-1.0.jar";
+            "hash" = "sha512-kn8ScCdHPlY4mVNbb7zhR930OolGK+26K8troLzJ/RNoJz5/4uSjaWw2xUveHhb/Rp9b4sQKmON+mo+L7sp4zw==";
+        };
     in {
         "tjkmxeCc" = _tjkmxeCc;
         "3Z1I4yDZ" = _3Z1I4yDZ;
@@ -50,6 +60,8 @@ let
         "NHZ7SUW4" = _NHZ7SUW4;
         "i4EYa4xu" = _i4EYa4xu;
         "H3jd43uY" = _H3jd43uY;
+        "gc10UXCp" = _gc10UXCp;
+        "3r3u14ce" = _3r3u14ce;
         "forge-1.21.1" = _tjkmxeCc;
         "forge-1.21.2" = _tjkmxeCc;
         "forge-1.21.3" = _tjkmxeCc;
@@ -61,10 +73,12 @@ let
         "forge-1.21.9" = _tjkmxeCc;
         "forge-1.21.10" = _tjkmxeCc;
         "forge-1.21.11" = _tjkmxeCc;
+        "forge-1.20.1" = _3r3u14ce;
         "fabric-1.21.11" = _3Z1I4yDZ;
         "fabric-26.1" = _H3jd43uY;
         "fabric-26.1.1" = _H3jd43uY;
         "fabric-26.1.2" = _H3jd43uY;
+        "fabric-26.2" = _gc10UXCp;
         "neoforge-1.21.11" = _sYMIPMOc;
         "neoforge-1.21.4" = _YBVWuzER;
         "neoforge-1.21.5" = _YBVWuzER;
@@ -80,10 +94,10 @@ let
         "neoforge-26.1" = _NHZ7SUW4;
         "neoforge-26.1.1" = _NHZ7SUW4;
         "neoforge-26.1.2" = _NHZ7SUW4;
-        "pkg-1.0" = _i4EYa4xu;
+        "pkg-1.0" = _3r3u14ce;
         "pkg-1.0-beta" = _NHZ7SUW4;
-        "pkg-1.1.1" = _H3jd43uY;
-        "default" = _H3jd43uY;
+        "pkg-1.1.1" = _gc10UXCp;
+        "default" = _3r3u14ce;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-trampling-on-farmland";

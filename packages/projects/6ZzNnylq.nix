@@ -36,6 +36,16 @@ let
             "file" = "jerotes-1.20.1-1.3.1.1.jar";
             "hash" = "sha512-VzvwFiMgsyDujmbRbTkt83yTL/Ycna4zszkOh41FxHRQU1sY8S9hOuqKN3Lx5cFfPqOlQKIJOocPnMGD64rS7w==";
         };
+        _ZRRZ4tUU = {
+            "id" = "ZRRZ4tUU";
+            "file" = "jerotes-1.20.1-1.3.2.jar";
+            "hash" = "sha512-G97G0wQ6d32XHc+WgldR+JM9Qn3MCf73H7bJy2N92vVWNRTI77YoFrpz7HG0oHCQu5ilnomhy+vFza59Mr4RLQ==";
+        };
+        _Rx3c4oKx = {
+            "id" = "Rx3c4oKx";
+            "file" = "jerotes-1.20.1-1.3.2.1.jar";
+            "hash" = "sha512-LvEUIRVVjdU4ZZmLFLi6TsHyN4bRiiNErUCadgj9KXhLNgcaK55EKzHDW2pekutc/FUTk5YKxYgrbYNTbKVZRA==";
+        };
     in {
         "6ugNYehQ" = _6ugNYehQ;
         "7knPjFyC" = _7knPjFyC;
@@ -44,7 +54,9 @@ let
         "vSbjFf4K" = _vSbjFf4K;
         "wWrIbTie" = _wWrIbTie;
         "di1K87FO" = _di1K87FO;
-        "forge-1.20.1" = _di1K87FO;
+        "ZRRZ4tUU" = _ZRRZ4tUU;
+        "Rx3c4oKx" = _Rx3c4oKx;
+        "forge-1.20.1" = _Rx3c4oKx;
         "forge-1.20.2" = _di1K87FO;
         "forge-1.20.3" = _di1K87FO;
         "forge-1.20.4" = _di1K87FO;
@@ -57,7 +69,9 @@ let
         "pkg-1.3.0" = _vSbjFf4K;
         "pkg-1.3.1" = _wWrIbTie;
         "pkg-1.3.1.1" = _di1K87FO;
-        "default" = _di1K87FO;
+        "pkg-1.3.2" = _ZRRZ4tUU;
+        "pkg-1.3.2.1" = _Rx3c4oKx;
+        "default" = _Rx3c4oKx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jerotes-warehouse";

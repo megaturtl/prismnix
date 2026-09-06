@@ -166,6 +166,16 @@ let
             "file" = "GhastCow-fabric-26.1-8.0.0.jar";
             "hash" = "sha512-6fwhwexPW3Ve9EbZnOpuAk8X5KaCLpCGhlf6xmWKnXEitPkpJ39E3SJDzNVAv9NBJiPuHd4dYGav5k196EnXfA==";
         };
+        _gO84ijeT = {
+            "id" = "gO84ijeT";
+            "file" = "GhastCow-fabric-26.1.2-8.0.1.jar";
+            "hash" = "sha512-JcHXYA94ZouIFxTzdIX6KCp1Sb4jrjNrE9yED9woCgRM85mGyCYsdF2rQaZG5QMY+V5gLqxq17OYjNjqdrpP1w==";
+        };
+        _tmc9mJBG = {
+            "id" = "tmc9mJBG";
+            "file" = "GhastCow-neoforge-26.1.2-8.0.1.jar";
+            "hash" = "sha512-0XrVPwRBSFGYFSJ9dk3zf2/l0yaTZ0q2rb7gpKn/J8/9aoGwGqS1xGO5qS0IQAL+Ia2ntaNOno98qiZrjTSFdw==";
+        };
     in {
         "zBgCdTzT" = _zBgCdTzT;
         "4VeYqmUG" = _4VeYqmUG;
@@ -200,6 +210,8 @@ let
         "M0MJoMJi" = _M0MJoMJi;
         "1hNxWTJp" = _1hNxWTJp;
         "BEtXkyuu" = _BEtXkyuu;
+        "gO84ijeT" = _gO84ijeT;
+        "tmc9mJBG" = _tmc9mJBG;
         "forge-1.18" = _zBgCdTzT;
         "forge-1.18.1" = _zBgCdTzT;
         "forge-1.18.2" = _zBgCdTzT;
@@ -231,12 +243,14 @@ let
         "fabric-1.21.8" = _9SHFdq5H;
         "fabric-1.21.11" = _M0MJoMJi;
         "fabric-26.1" = _BEtXkyuu;
+        "fabric-26.1.2" = _gO84ijeT;
         "neoforge-1.21.1" = _5kOytskj;
         "neoforge-1.21.4" = _nya8KbiJ;
         "neoforge-1.21.5" = _NBo5ZwuG;
         "neoforge-1.21.8" = _xNIRxA2Y;
         "neoforge-1.21.11" = _UW10eUwU;
         "neoforge-26.1" = _1hNxWTJp;
+        "neoforge-26.1.2" = _tmc9mJBG;
         "pkg-1.0.2.3" = _zBgCdTzT;
         "pkg-1.0.2.2" = _4VeYqmUG;
         "pkg-1.0.2.1" = _bg6A6Fxq;
@@ -255,7 +269,8 @@ let
         "pkg-7.2.0" = _9SHFdq5H;
         "pkg-7.3.0" = _M0MJoMJi;
         "pkg-8.0.0" = _BEtXkyuu;
-        "default" = _BEtXkyuu;
+        "pkg-8.0.1" = _tmc9mJBG;
+        "default" = _tmc9mJBG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-ghast-cow";

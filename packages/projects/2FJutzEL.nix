@@ -181,6 +181,16 @@ let
             "file" = "Oreganized 1.20.1-4.3.2.jar";
             "hash" = "sha512-H5hAYJ/9IEa17ZNV1mHp2QGV1xrqGZfyfsngcvqG6vvuFfNl8bXB5SdEhrOentm6lYsTl5zzwRjyc2rTckyfFA==";
         };
+        _cbWojTbw = {
+            "id" = "cbWojTbw";
+            "file" = "Oreganized 1.21.1-5.2.0.jar";
+            "hash" = "sha512-frkGIEJiQ0si6KlKXobwx7eUOyYrbPWAHiGYfSfHHW2JxvXVVKNAbwcdEO4ZuyTGF3o8AXDWgM146GBylywVoQ==";
+        };
+        _wmlOifL1 = {
+            "id" = "wmlOifL1";
+            "file" = "Oreganized 1.21.1-5.2.1.jar";
+            "hash" = "sha512-lU3FdJp21TcoHNcAjkjc71vfD8X9N6RAssAVFN6aU0XOjSpDPnDksoKUETJN13Mfugi9nFXALeY7n93xZQOLmw==";
+        };
     in {
         "Vmi2uxmr" = _Vmi2uxmr;
         "bdCZi0ca" = _bdCZi0ca;
@@ -218,6 +228,8 @@ let
         "HHAP0big" = _HHAP0big;
         "IfqSv0rv" = _IfqSv0rv;
         "HH0XNDyF" = _HH0XNDyF;
+        "cbWojTbw" = _cbWojTbw;
+        "wmlOifL1" = _wmlOifL1;
         "forge-1.18.2" = _xgburf97;
         "forge-1.19.2" = _8mxk6Cye;
         "forge-1.20" = _lkBhpYKn;
@@ -229,7 +241,7 @@ let
         "forge-1.20.6" = _lkBhpYKn;
         "fabric-1.20.1" = _9KLOnNlG;
         "quilt-1.20.1" = _9KLOnNlG;
-        "neoforge-1.21.1" = _IfqSv0rv;
+        "neoforge-1.21.1" = _wmlOifL1;
         "pkg-2.0.0-1.18.2" = _Vmi2uxmr;
         "pkg-2.0.0" = _bdCZi0ca;
         "pkg-2.0.1-1.19.2" = _xQV5lcRV;
@@ -265,7 +277,9 @@ let
         "pkg-4.3.1" = _HHAP0big;
         "pkg-5.1.2" = _IfqSv0rv;
         "pkg-4.3.2" = _HH0XNDyF;
-        "default" = _HH0XNDyF;
+        "pkg-5.2.0" = _cbWojTbw;
+        "pkg-5.2.1" = _wmlOifL1;
+        "default" = _wmlOifL1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "oreganized";

@@ -2706,6 +2706,16 @@ let
             "file" = "TouchController-0.3.1-alpha13+neoforge.jar";
             "hash" = "sha512-aRZ40o5dRYypSDmOnZBxLR+k6GFkNszzQ9sUwbXLyck53GfF4LGldWSExtVXyNGlqV20I/4YVAhgR95+Nr4QeQ==";
         };
+        _yvca7cG1 = {
+            "id" = "yvca7cG1";
+            "file" = "TouchController-0.3.1-alpha14+fabric.jar";
+            "hash" = "sha512-YFeu5y2vBLzMaSiB826T0hFO4womBEfigHlpCtxmUC+Liy6y84hd9Qnd2ngQ1FqjZX/qA+9GTrkjwrFhU12ePw==";
+        };
+        _HSKjxpdS = {
+            "id" = "HSKjxpdS";
+            "file" = "TouchController-0.3.1-alpha14+neoforge.jar";
+            "hash" = "sha512-L2Sp53hlRD9FvMlQta+xaX6XA+ZXbNuyZQkfof/jV3Hyzw7jzvLd2resGRK1FUtWJgRLxmT/9aSBeCWa+lPJMQ==";
+        };
     in {
         "nAROcL5C" = _nAROcL5C;
         "V6HUrVTp" = _V6HUrVTp;
@@ -3248,8 +3258,10 @@ let
         "m7LbcM1C" = _m7LbcM1C;
         "WbWorlsi" = _WbWorlsi;
         "JNw3Zk9k" = _JNw3Zk9k;
+        "yvca7cG1" = _yvca7cG1;
+        "HSKjxpdS" = _HSKjxpdS;
         "fabric-1.21.3" = _BshdTQap;
-        "fabric-1.21.1" = _WbWorlsi;
+        "fabric-1.21.1" = _yvca7cG1;
         "fabric-1.21.4" = _oQ65GyxQ;
         "fabric-1.20.1" = _3o3WXdmr;
         "fabric-1.16.5" = _QXYRqvkn;
@@ -3260,12 +3272,13 @@ let
         "fabric-1.21.6" = _zLoZawCN;
         "fabric-1.21.7" = _fCkIUyFR;
         "fabric-1.21.8" = _RZ5ljwCl;
-        "fabric-1.21.11" = _WbWorlsi;
-        "fabric-26.1" = _WbWorlsi;
-        "fabric-1.21.10" = _WbWorlsi;
-        "fabric-26.1.1" = _WbWorlsi;
-        "fabric-26.1.2" = _WbWorlsi;
-        "fabric-26.2" = _WbWorlsi;
+        "fabric-1.21.11" = _yvca7cG1;
+        "fabric-26.1" = _yvca7cG1;
+        "fabric-1.21.10" = _yvca7cG1;
+        "fabric-26.1.1" = _yvca7cG1;
+        "fabric-26.1.2" = _yvca7cG1;
+        "fabric-26.2" = _yvca7cG1;
+        "fabric-26.3-snapshot-9" = _yvca7cG1;
         "forge-1.12.2" = _AXseo4DZ;
         "forge-1.20.1" = _MaZHspJ3;
         "forge-1.16.5" = _j88KTkwp;
@@ -3281,7 +3294,7 @@ let
         "forge-1.21.8" = _Je0sVXsx;
         "neoforge-1.20.4" = _a1HCxK8F;
         "neoforge-1.20.6" = _GPqgIIhI;
-        "neoforge-1.21.1" = _JNw3Zk9k;
+        "neoforge-1.21.1" = _HSKjxpdS;
         "neoforge-1.21.3" = _UnjVeU8v;
         "neoforge-1.21.4" = _lP13gYiK;
         "neoforge-1.21" = _6CXCHVaE;
@@ -3289,12 +3302,12 @@ let
         "neoforge-1.21.6" = _KLaR8MUj;
         "neoforge-1.21.7" = _7hKSTMVm;
         "neoforge-1.21.8" = _auBitInU;
-        "neoforge-1.21.10" = _JNw3Zk9k;
-        "neoforge-1.21.11" = _JNw3Zk9k;
-        "neoforge-26.1" = _JNw3Zk9k;
-        "neoforge-26.1.1" = _JNw3Zk9k;
-        "neoforge-26.1.2" = _JNw3Zk9k;
-        "neoforge-26.2" = _JNw3Zk9k;
+        "neoforge-1.21.10" = _HSKjxpdS;
+        "neoforge-1.21.11" = _HSKjxpdS;
+        "neoforge-26.1" = _HSKjxpdS;
+        "neoforge-26.1.1" = _HSKjxpdS;
+        "neoforge-26.1.2" = _HSKjxpdS;
+        "neoforge-26.2" = _HSKjxpdS;
         "pkg-0.0.1" = _nAROcL5C;
         "pkg-0.0.2" = _V6HUrVTp;
         "pkg-0.0.3" = _q0BnRJE6;
@@ -3836,7 +3849,9 @@ let
         "pkg-0.3.1-alpha12+neoforge" = _m7LbcM1C;
         "pkg-0.3.1-alpha13+fabric" = _WbWorlsi;
         "pkg-0.3.1-alpha13+neoforge" = _JNw3Zk9k;
-        "default" = _JNw3Zk9k;
+        "pkg-0.3.1-alpha14+fabric" = _yvca7cG1;
+        "pkg-0.3.1-alpha14+neoforge" = _HSKjxpdS;
+        "default" = _HSKjxpdS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "touchcontroller";

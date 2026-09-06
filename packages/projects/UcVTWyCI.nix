@@ -181,6 +181,16 @@ let
             "file" = "cyclic-1.21.1-1.14.1.jar";
             "hash" = "sha512-GMu28WWZvDRQ6BlL6pUjbSmqQIrUPnhZQnFd+JnH2DJISI/9kO4vohd94S67BPRm+Y+t3dOGnewDgodAHxGbxw==";
         };
+        _9pH2ddA0 = {
+            "id" = "9pH2ddA0";
+            "file" = "cyclic-1.21.1-1.14.2.jar";
+            "hash" = "sha512-We214uh/FDSQIXU+pRgBd0jxUQ/60r8Ct/c8M/fGFabDAGb8LG5w3ae2CIPOsntrLCNPskeHG3KGt2Z5LIb8rQ==";
+        };
+        _1RispO3t = {
+            "id" = "1RispO3t";
+            "file" = "cyclic-26.1.2-1.14.2.jar";
+            "hash" = "sha512-adXVdmB9QRqoUXvv/AqJXgdggEAAIcOmLU0DHxObRo4Q48ndGbFUYy5wjmSwTEikeZSUR9thuBUt4iKPlyGxig==";
+        };
     in {
         "4dEZQFX3" = _4dEZQFX3;
         "fgImj016" = _fgImj016;
@@ -218,6 +228,8 @@ let
         "wLo8i0R4" = _wLo8i0R4;
         "eiDd2D2Z" = _eiDd2D2Z;
         "Q2iFX2rX" = _Q2iFX2rX;
+        "9pH2ddA0" = _9pH2ddA0;
+        "1RispO3t" = _1RispO3t;
         "forge-1.20.1" = _wLo8i0R4;
         "forge-1.10.2" = _H4odhjrW;
         "forge-1.11.2" = _beI2Ucj2;
@@ -229,7 +241,8 @@ let
         "forge-1.19.2" = _VKcgwGAI;
         "forge-1.19.4" = _A1DzCEMX;
         "neoforge-1.20.1" = _wLo8i0R4;
-        "neoforge-1.21.1" = _Q2iFX2rX;
+        "neoforge-1.21.1" = _9pH2ddA0;
+        "neoforge-26.1.2" = _1RispO3t;
         "pkg-1.20.1-1.12.12" = _4dEZQFX3;
         "pkg-1.20.1-1.12.13" = _fgImj016;
         "pkg-1.20.1-1.12.14" = _Kq3qTPGU;
@@ -266,7 +279,9 @@ let
         "pkg-1.20.1-1.13.7" = _wLo8i0R4;
         "pkg-1.21.1-1.14.0" = _eiDd2D2Z;
         "pkg-1.21.1-1.14.1" = _Q2iFX2rX;
-        "default" = _Q2iFX2rX;
+        "pkg-1.21.1-1.14.2" = _9pH2ddA0;
+        "pkg-26.1.2-1.14.2" = _1RispO3t;
+        "default" = _1RispO3t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cyclic";

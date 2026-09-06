@@ -1,0 +1,132 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _gQtWNvF1 = {
+            "id" = "gQtWNvF1";
+            "file" = "Smol Swords.zip";
+            "hash" = "sha512-nmsWrxzG5dXaqAaEWOrl7ShShWR+31ToDF3TCTuuoqWiSsVlcIxtXv1JRlslXGLEaYfmrCbtcAR97Q+HTmsMVA==";
+        };
+        _nEzQ5AQR = {
+            "id" = "nEzQ5AQR";
+            "file" = "Smol Swords.zip";
+            "hash" = "sha512-OyHr7p/TVrhVpmMPl09ZFyEvdAiHb4ip5proLjBfIVw6n7fsl4Hawr7WyHfG/ag02VyuzJASUzfmeq44A3DsHg==";
+        };
+        _JakTyqkF = {
+            "id" = "JakTyqkF";
+            "file" = "Smol Swords v1.2 (1.6.1 - 1.21.9).zip";
+            "hash" = "sha512-vYCR882/efF27KL9Vx2dTpQO1Q1aqJh0E2BvsCFJrUrp0n7isTssTf9WvPeXbAfia02+NIgfEnzcjT0Gp2c67A==";
+        };
+        _WDCjAdRO = {
+            "id" = "WDCjAdRO";
+            "file" = "Smol Swords v1.2 (1.6.1 - 1.21.10).zip";
+            "hash" = "sha512-vYCR882/efF27KL9Vx2dTpQO1Q1aqJh0E2BvsCFJrUrp0n7isTssTf9WvPeXbAfia02+NIgfEnzcjT0Gp2c67A==";
+        };
+    in {
+        "gQtWNvF1" = _gQtWNvF1;
+        "nEzQ5AQR" = _nEzQ5AQR;
+        "JakTyqkF" = _JakTyqkF;
+        "WDCjAdRO" = _WDCjAdRO;
+        "minecraft-1.6.1" = _WDCjAdRO;
+        "minecraft-1.6.2" = _WDCjAdRO;
+        "minecraft-1.6.4" = _WDCjAdRO;
+        "minecraft-1.7.2" = _WDCjAdRO;
+        "minecraft-1.7.3" = _WDCjAdRO;
+        "minecraft-1.7.4" = _WDCjAdRO;
+        "minecraft-1.7.5" = _WDCjAdRO;
+        "minecraft-1.7.6" = _WDCjAdRO;
+        "minecraft-1.7.7" = _WDCjAdRO;
+        "minecraft-1.7.8" = _WDCjAdRO;
+        "minecraft-1.7.9" = _WDCjAdRO;
+        "minecraft-1.7.10" = _WDCjAdRO;
+        "minecraft-1.8" = _WDCjAdRO;
+        "minecraft-1.8.1" = _WDCjAdRO;
+        "minecraft-1.8.2" = _WDCjAdRO;
+        "minecraft-1.8.3" = _WDCjAdRO;
+        "minecraft-1.8.4" = _WDCjAdRO;
+        "minecraft-1.8.5" = _WDCjAdRO;
+        "minecraft-1.8.6" = _WDCjAdRO;
+        "minecraft-1.8.7" = _WDCjAdRO;
+        "minecraft-1.8.8" = _WDCjAdRO;
+        "minecraft-1.8.9" = _WDCjAdRO;
+        "minecraft-1.9" = _WDCjAdRO;
+        "minecraft-1.9.1" = _WDCjAdRO;
+        "minecraft-1.9.2" = _WDCjAdRO;
+        "minecraft-1.9.3" = _WDCjAdRO;
+        "minecraft-1.9.4" = _WDCjAdRO;
+        "minecraft-1.10" = _WDCjAdRO;
+        "minecraft-1.10.1" = _WDCjAdRO;
+        "minecraft-1.10.2" = _WDCjAdRO;
+        "minecraft-1.11" = _WDCjAdRO;
+        "minecraft-1.11.1" = _WDCjAdRO;
+        "minecraft-1.11.2" = _WDCjAdRO;
+        "minecraft-1.12" = _WDCjAdRO;
+        "minecraft-1.12.1" = _WDCjAdRO;
+        "minecraft-1.12.2" = _WDCjAdRO;
+        "minecraft-1.13" = _WDCjAdRO;
+        "minecraft-1.13.1" = _WDCjAdRO;
+        "minecraft-1.13.2" = _WDCjAdRO;
+        "minecraft-1.14" = _WDCjAdRO;
+        "minecraft-1.14.1" = _WDCjAdRO;
+        "minecraft-1.14.2" = _WDCjAdRO;
+        "minecraft-1.14.3" = _WDCjAdRO;
+        "minecraft-1.14.4" = _WDCjAdRO;
+        "minecraft-1.15" = _WDCjAdRO;
+        "minecraft-1.15.1" = _WDCjAdRO;
+        "minecraft-1.15.2" = _WDCjAdRO;
+        "minecraft-1.16" = _WDCjAdRO;
+        "minecraft-1.16.1" = _WDCjAdRO;
+        "minecraft-1.16.2" = _WDCjAdRO;
+        "minecraft-1.16.3" = _WDCjAdRO;
+        "minecraft-1.16.4" = _WDCjAdRO;
+        "minecraft-1.16.5" = _WDCjAdRO;
+        "minecraft-1.17" = _WDCjAdRO;
+        "minecraft-1.17.1" = _WDCjAdRO;
+        "minecraft-1.18" = _WDCjAdRO;
+        "minecraft-1.18.1" = _WDCjAdRO;
+        "minecraft-1.18.2" = _WDCjAdRO;
+        "minecraft-1.19" = _WDCjAdRO;
+        "minecraft-1.19.1" = _WDCjAdRO;
+        "minecraft-1.19.2" = _WDCjAdRO;
+        "minecraft-1.19.3" = _WDCjAdRO;
+        "minecraft-1.19.4" = _WDCjAdRO;
+        "minecraft-1.20" = _WDCjAdRO;
+        "minecraft-1.20.1" = _WDCjAdRO;
+        "minecraft-1.20.2" = _WDCjAdRO;
+        "minecraft-1.20.3" = _WDCjAdRO;
+        "minecraft-1.20.4" = _WDCjAdRO;
+        "minecraft-1.20.5" = _WDCjAdRO;
+        "minecraft-1.20.6" = _WDCjAdRO;
+        "minecraft-1.21" = _WDCjAdRO;
+        "minecraft-1.21.1" = _WDCjAdRO;
+        "minecraft-1.21.2" = _WDCjAdRO;
+        "minecraft-1.21.3" = _WDCjAdRO;
+        "minecraft-1.21.4" = _WDCjAdRO;
+        "minecraft-1.21.5" = _WDCjAdRO;
+        "minecraft-1.21.6" = _WDCjAdRO;
+        "minecraft-1.21.7" = _WDCjAdRO;
+        "minecraft-1.21.8" = _WDCjAdRO;
+        "minecraft-1.21.9" = _WDCjAdRO;
+        "minecraft-1.21.10" = _WDCjAdRO;
+        "pkg-v1.0.0" = _gQtWNvF1;
+        "pkg-v1.0.1" = _nEzQ5AQR;
+        "pkg-v1.2" = _JakTyqkF;
+        "pkg-V1.2.1" = _WDCjAdRO;
+        "default" = _WDCjAdRO;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "smolswords";
+        id = "ucndwKmg";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

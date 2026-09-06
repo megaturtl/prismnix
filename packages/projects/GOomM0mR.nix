@@ -8,6 +8,20 @@ let
         };
     in {
         "oFM51yQj" = _oFM51yQj;
+        "minecraft-1.15" = _oFM51yQj;
+        "minecraft-1.15.1" = _oFM51yQj;
+        "minecraft-1.15.2" = _oFM51yQj;
+        "minecraft-1.16" = _oFM51yQj;
+        "minecraft-1.16.1" = _oFM51yQj;
+        "minecraft-1.16.2" = _oFM51yQj;
+        "minecraft-1.16.3" = _oFM51yQj;
+        "minecraft-1.16.4" = _oFM51yQj;
+        "minecraft-1.16.5" = _oFM51yQj;
+        "minecraft-1.17" = _oFM51yQj;
+        "minecraft-1.17.1" = _oFM51yQj;
+        "minecraft-1.18" = _oFM51yQj;
+        "minecraft-1.18.1" = _oFM51yQj;
+        "minecraft-1.18.2" = _oFM51yQj;
         "minecraft-1.19" = _oFM51yQj;
         "minecraft-1.19.1" = _oFM51yQj;
         "minecraft-1.19.2" = _oFM51yQj;
@@ -29,6 +43,13 @@ let
         "minecraft-1.21.6" = _oFM51yQj;
         "minecraft-1.21.7" = _oFM51yQj;
         "minecraft-1.21.8" = _oFM51yQj;
+        "minecraft-1.21.9" = _oFM51yQj;
+        "minecraft-1.21.10" = _oFM51yQj;
+        "minecraft-1.21.11" = _oFM51yQj;
+        "minecraft-26.1" = _oFM51yQj;
+        "minecraft-26.1.1" = _oFM51yQj;
+        "minecraft-26.1.2" = _oFM51yQj;
+        "minecraft-26.2" = _oFM51yQj;
         "pkg-1.0" = _oFM51yQj;
         "default" = _oFM51yQj;
     });

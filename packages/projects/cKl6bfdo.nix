@@ -246,6 +246,21 @@ let
             "file" = "Enderite-CJ-fabric-stable-mc-26.1-26.1-2.4.4.jar";
             "hash" = "sha512-7iOcXgRLXlR3uEYPGEEfg0/7GST2szEja68JAIX8kfsW9yY91kTE7+FUTXy6Zcf2CMuA/2n9PC9e4dB+2Jj49g==";
         };
+        _Yxqqx3ko = {
+            "id" = "Yxqqx3ko";
+            "file" = "Enderite-CJ-forge-stable-mc-26.2-26.2-2.4.5.jar";
+            "hash" = "sha512-FuN1LpWUShhLY69YfmLNdNJrGqJQmDCmq4kBM1N09iNYBgJOwUQKwmKMGf9IgvQUkWc8/tToZuBtBGfT5PZPew==";
+        };
+        _1OphKsb0 = {
+            "id" = "1OphKsb0";
+            "file" = "Enderite-CJ-neoforge-stable-mc-26.2-26.2-2.4.5.jar";
+            "hash" = "sha512-23REkwAiFJo5Wba5G+Fipf5u33EuugnvYUAN6wSjqw0we4Bs9+GtJoKSozBDhYhrGC1KaycJc4tR/P5wRAWc5A==";
+        };
+        _krKK1uBy = {
+            "id" = "krKK1uBy";
+            "file" = "Enderite-CJ-fabric-stable-mc-26.2-26.2-2.4.5.jar";
+            "hash" = "sha512-zpBQNXo/B73pWGmkqkWfDBKtGeCtEUIp6hrIbJcfAhKsShoTDJpoG0Y4101zGXDfCuRYKpC19morNa224KLYxA==";
+        };
     in {
         "L7wUcPq6" = _L7wUcPq6;
         "v1Uay6fI" = _v1Uay6fI;
@@ -296,6 +311,9 @@ let
         "eOsFQ8w4" = _eOsFQ8w4;
         "sCsriJgx" = _sCsriJgx;
         "cu2WPw4O" = _cu2WPw4O;
+        "Yxqqx3ko" = _Yxqqx3ko;
+        "1OphKsb0" = _1OphKsb0;
+        "krKK1uBy" = _krKK1uBy;
         "forge-1.20.1" = _UIjxurkX;
         "forge-1.19" = _MtRkklre;
         "forge-1.19.1" = _MtRkklre;
@@ -311,6 +329,7 @@ let
         "forge-26.1" = _eOsFQ8w4;
         "forge-26.1.1" = _eOsFQ8w4;
         "forge-26.1.2" = _eOsFQ8w4;
+        "forge-26.2" = _Yxqqx3ko;
         "neoforge-1.21.6" = _ekw3GSUo;
         "neoforge-1.21.7" = _ekw3GSUo;
         "neoforge-1.21.8" = _ekw3GSUo;
@@ -318,6 +337,7 @@ let
         "neoforge-26.1" = _sCsriJgx;
         "neoforge-26.1.1" = _sCsriJgx;
         "neoforge-26.1.2" = _sCsriJgx;
+        "neoforge-26.2" = _1OphKsb0;
         "fabric-1.21.6" = _g9CyORSY;
         "fabric-1.21.7" = _g9CyORSY;
         "fabric-1.21.8" = _g9CyORSY;
@@ -325,6 +345,7 @@ let
         "fabric-26.1" = _cu2WPw4O;
         "fabric-26.1.1" = _cu2WPw4O;
         "fabric-26.1.2" = _cu2WPw4O;
+        "fabric-26.2" = _krKK1uBy;
         "pkg-1.1.2" = _L7wUcPq6;
         "pkg-1.4.1" = _JCAAnGND;
         "pkg-1.4.2" = _bi1nYCQw;
@@ -339,7 +360,8 @@ let
         "pkg-1.21.11-2.4.2" = _DCmU2bK4;
         "pkg-1.21.11-2.4.4" = _b1ANhULg;
         "pkg-26.1-2.4.4" = _cu2WPw4O;
-        "default" = _cu2WPw4O;
+        "pkg-26.2-2.4.5" = _krKK1uBy;
+        "default" = _krKK1uBy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enderite-cj-edition";

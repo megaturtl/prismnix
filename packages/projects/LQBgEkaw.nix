@@ -61,6 +61,11 @@ let
             "file" = "biomas_vanilla_renovados-1.9.0-forge-1.20.1.jar";
             "hash" = "sha512-e7XQTy4GnSJBmy9fif8+z2el8sU5+YrdUIBb10IcgIjVWjd8NKlMzFusRThis+Oq/1CxauVigmKVREZk2YDdIw==";
         };
+        _Tk7mzZ08 = {
+            "id" = "Tk7mzZ08";
+            "file" = "biomas_vanilla_renovados-2.0.0-forge-1.20.1.jar";
+            "hash" = "sha512-lp2A+ACoQFEm4cYKOb2k4b6CjekZMIAcBWwkBAb9FMuBgWERtbSN0NK/lx2xUNaZveLOZPKvPZVxXpyUkLkD3A==";
+        };
     in {
         "jlGHbNym" = _jlGHbNym;
         "IWzNwP2Z" = _IWzNwP2Z;
@@ -74,7 +79,8 @@ let
         "e0aReH86" = _e0aReH86;
         "PzP1WVyV" = _PzP1WVyV;
         "wkDQUiZ7" = _wkDQUiZ7;
-        "forge-1.20.1" = _wkDQUiZ7;
+        "Tk7mzZ08" = _Tk7mzZ08;
+        "forge-1.20.1" = _Tk7mzZ08;
         "pkg-1.0.0" = _jlGHbNym;
         "pkg-1.1.0" = _IWzNwP2Z;
         "pkg-1.2.0" = _34M5HhQ7;
@@ -87,7 +93,8 @@ let
         "pkg-1.7.2" = _e0aReH86;
         "pkg-1.8.0" = _PzP1WVyV;
         "pkg-1.9.0" = _wkDQUiZ7;
-        "default" = _wkDQUiZ7;
+        "pkg-2.0.0" = _Tk7mzZ08;
+        "default" = _Tk7mzZ08;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "biomas-vanilla-renovados";
@@ -95,12 +102,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "MIT" {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "MIT License";
-                shortName = "MIT";
+                fullName = "GNU General Public License v3.0 or later";
+                shortName = "GPL-3.0-or-later";
                 url = null;
             };
         };

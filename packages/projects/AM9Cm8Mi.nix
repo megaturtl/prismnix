@@ -86,6 +86,26 @@ let
             "file" = "tacz_recycling-NEO_1.21.1-1.6_hotfix.jar";
             "hash" = "sha512-DA+ntN0Hx+PWqOR/nl0o706ybLUIOtLD2URm/q3+cry9FPmLMQTxpzHX5fLybv6dbRv+BOluGqyUpkoNKeWMDg==";
         };
+        _HZOoHneH = {
+            "id" = "HZOoHneH";
+            "file" = "tacz_recycling-NEO_1.21.1-1.6.5_release.jar";
+            "hash" = "sha512-yADWRPSbYS71XJy8jkbAkU318fGQ370AOL7rNlaAG5G6caMKUkW8i9a4Xq3JDJOP2uRbPv/pyJKeDTBQ2DKMPA==";
+        };
+        _Mr7U1Xwq = {
+            "id" = "Mr7U1Xwq";
+            "file" = "tacz_recycling-1.20.1-1.6.5_release.jar";
+            "hash" = "sha512-/9ei829qIMMLKCtmxxFCLSvBCrjMweJVHwWdRBMSVGIgz/N/5aH0ZUhd1UKCw/i3rtSYcE4/whjMklN5z8iSzg==";
+        };
+        _hOlQ5QSe = {
+            "id" = "hOlQ5QSe";
+            "file" = "tacz_recycling-Fabric_1.20.1-1.6.5_release.jar";
+            "hash" = "sha512-g5fr2NC6NOIGtT4H0pqMdYKPmeYjvqml80Aab/Sv2gM7eNJAkfAdeFia/MsoIPu0M3GcGHGI6ATM81u4HaAhvw==";
+        };
+        _UGm2SEwd = {
+            "id" = "UGm2SEwd";
+            "file" = "tacz_recycling-NEO_1.21.1-1.6.5_release.jar";
+            "hash" = "sha512-7ZZTGePYLP5CHQ+WI/gvaJMLWXL15ASL0yEMMe9tLXosrFuZjr92CFixsQr0ho6YgWB6mRsXGyIZPHIjkHd5bg==";
+        };
     in {
         "DtFd3mRm" = _DtFd3mRm;
         "52eacnyu" = _52eacnyu;
@@ -104,10 +124,14 @@ let
         "gMd3vWdh" = _gMd3vWdh;
         "4W5mgmif" = _4W5mgmif;
         "P43Upt3K" = _P43Upt3K;
-        "forge-1.20" = _4W5mgmif;
-        "forge-1.20.1" = _4W5mgmif;
-        "fabric-1.20.1" = _gMd3vWdh;
-        "neoforge-1.21.1" = _P43Upt3K;
+        "HZOoHneH" = _HZOoHneH;
+        "Mr7U1Xwq" = _Mr7U1Xwq;
+        "hOlQ5QSe" = _hOlQ5QSe;
+        "UGm2SEwd" = _UGm2SEwd;
+        "forge-1.20" = _Mr7U1Xwq;
+        "forge-1.20.1" = _Mr7U1Xwq;
+        "fabric-1.20.1" = _hOlQ5QSe;
+        "neoforge-1.21.1" = _UGm2SEwd;
         "pkg-1.0" = _DtFd3mRm;
         "pkg-1.1" = _52eacnyu;
         "pkg-1.3" = _CZBwERJj;
@@ -125,7 +149,11 @@ let
         "pkg-1.6_fabric" = _gMd3vWdh;
         "pkg-1.6" = _4W5mgmif;
         "pkg-1.6_NEO_hotfix" = _P43Upt3K;
-        "default" = _P43Upt3K;
+        "pkg-1.6.5_Neo" = _HZOoHneH;
+        "pkg-1.6.5" = _Mr7U1Xwq;
+        "pkg-1.6.5_fabric" = _hOlQ5QSe;
+        "pkg-1.6.5_hotfix" = _UGm2SEwd;
+        "default" = _UGm2SEwd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz_recycling";

@@ -306,6 +306,26 @@ let
             "file" = "§8Dark-GUI V15.0+26.3-SS.6.zip";
             "hash" = "sha512-jeD0FfMoE57fKMLCBLeZcyjHZ/voS+G3kv+XyQ4bOYmKsn22oxV4uXpeWLskMSTsafDS/dq0X9QlWuPRdq1XPg==";
         };
+        _3nwLFAUi = {
+            "id" = "3nwLFAUi";
+            "file" = "§8Dark-GUI V16.0+26.3-SS.7.zip";
+            "hash" = "sha512-3rMyJduz84vEGEJ0Wr+5FIs6dOUBGVbxEQi8IXKnGGDoebTnH/4acc65Y2NXdvgJje0DbYRy4WeFHtv8nXBjzA==";
+        };
+        _NO574Swz = {
+            "id" = "NO574Swz";
+            "file" = "§8Dark-GUI V17.0+26.3-SS.8.zip";
+            "hash" = "sha512-5ECnSdpE3ham10GjZEc6aoQDpZZ/8lZlJlBiIQ6pCVQ9ZWBUiUrd0y6/3oT3OA9sBfnl8fG+qIfXqtjAmDcNYA==";
+        };
+        _MND9prd8 = {
+            "id" = "MND9prd8";
+            "file" = "§8Dark-GUI V18.0+26.3-SS.9.zip";
+            "hash" = "sha512-SEEXJ88iQeig29b0BCpR/kNOYYTMET3sKo2zLBHj2hOQb4zM9KVNbPZILjPuMdyrK2lvWJwrOXwyDZ+SyR/TqA==";
+        };
+        _G7U5qgZx = {
+            "id" = "G7U5qgZx";
+            "file" = "§8Dark-GUI V19.0+26.3-SS.10.zip";
+            "hash" = "sha512-TW1ArWjTaPz08afcUYZTL4kUHcjqgP/QzFJ4E3cHgurIxExoxuzjPkVP8WBMNEsCaREb7/Op/2D1DTr4nRTKPQ==";
+        };
     in {
         "iDJdY8NM" = _iDJdY8NM;
         "7oXr6O9c" = _7oXr6O9c;
@@ -368,6 +388,10 @@ let
         "a1f1s3j3" = _a1f1s3j3;
         "bBnz61NL" = _bBnz61NL;
         "HD8nISUp" = _HD8nISUp;
+        "3nwLFAUi" = _3nwLFAUi;
+        "NO574Swz" = _NO574Swz;
+        "MND9prd8" = _MND9prd8;
+        "G7U5qgZx" = _G7U5qgZx;
         "minecraft-1.21.3" = _tPfjbMff;
         "minecraft-1.21.4" = _tPfjbMff;
         "minecraft-1.21.5" = _tPfjbMff;
@@ -424,6 +448,10 @@ let
         "minecraft-26.3-snapshot-3" = _a1f1s3j3;
         "minecraft-26.3-snapshot-4" = _bBnz61NL;
         "minecraft-26.3-snapshot-6" = _HD8nISUp;
+        "minecraft-26.3-snapshot-7" = _3nwLFAUi;
+        "minecraft-26.3-snapshot-8" = _NO574Swz;
+        "minecraft-26.3-snapshot-9" = _MND9prd8;
+        "minecraft-26.3-snapshot-10" = _G7U5qgZx;
         "pkg-1.0" = _iDJdY8NM;
         "pkg-1.1" = _7oXr6O9c;
         "pkg-2.0" = _MQjGhzcJ;
@@ -461,10 +489,10 @@ let
         "pkg-8.0" = _fiieUHq2;
         "pkg-8.1" = _lAtYDcMW;
         "pkg-8.2" = _6AMmmW1x;
-        "pkg-17.0" = _yuoLTEpc;
-        "pkg-18.0" = _2IrKTPOr;
+        "pkg-17.0" = _NO574Swz;
+        "pkg-18.0" = _MND9prd8;
         "pkg-9.0" = _qma1FNNe;
-        "pkg-19.0" = _4ZgOjBYL;
+        "pkg-19.0" = _G7U5qgZx;
         "pkg-20.0" = _FCCTZik4;
         "pkg-21.0" = _5A8v4WzM;
         "pkg-22.0" = _AGpExVZM;
@@ -482,7 +510,8 @@ let
         "pkg-13.0" = _a1f1s3j3;
         "pkg-14.0" = _bBnz61NL;
         "pkg-15.0" = _HD8nISUp;
-        "default" = _HD8nISUp;
+        "pkg-16.0" = _3nwLFAUi;
+        "default" = _G7U5qgZx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "michidarkgui";
@@ -490,13 +519,13 @@ let
         type = "resourcepack";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LicenseRef-2026-ProjectMichi" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-ProjectMichi" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "LicenseRef-2026-ProjectMichi";
-                shortName = "LicenseRef-2026-ProjectMichi";
-                url = "https://github.com/michi3160/License/wiki/License1.0";
+                fullName = "LicenseRef-ProjectMichi";
+                shortName = "LicenseRef-ProjectMichi";
+                url = "https://pjmichi.jp/license";
             };
         };
     };

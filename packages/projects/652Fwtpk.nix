@@ -960,6 +960,10 @@ let
         "minecraft-26.3-snapshot-5" = _va9cF7fb;
         "minecraft-26.3-snapshot-6" = _va9cF7fb;
         "minecraft-26.3-snapshot-7" = _va9cF7fb;
+        "minecraft-26.3-snapshot-8" = _va9cF7fb;
+        "minecraft-26.3-snapshot-9" = _va9cF7fb;
+        "minecraft-26.3-snapshot-10" = _va9cF7fb;
+        "minecraft-26.3-pre-1" = _va9cF7fb;
         "pkg-0.2" = _WgaiD5tS;
         "pkg-1.0" = _GQ3viUKg;
         "pkg-2.1-1.6.1" = _fUJHYVw0;

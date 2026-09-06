@@ -336,6 +336,26 @@ let
             "file" = "catalyst-all-1.3.3+stapi.jar";
             "hash" = "sha512-AAENU74O69OmeC3K/1cKGBEQCukFBwZTyfgAQuKGjrjcoyB582NwrcNMowp+Y0k7ffBa0XFwm6bQI4t1HdVPmQ==";
         };
+        _GVUKKlLK = {
+            "id" = "GVUKKlLK";
+            "file" = "catalyst-all-3.0.0.jar";
+            "hash" = "sha512-j4ptTTDtI2ATKDAXLC9GbH6SmpJ9Xzsa4RnLGwKsESLF2cv7kRuBbSxBWGXi3XFal/hsiL0bZseEGep8Fzvw1g==";
+        };
+        _4Ni4R8zX = {
+            "id" = "4Ni4R8zX";
+            "file" = "catalyst-all-3.0.1.jar";
+            "hash" = "sha512-JzGTPg0JuqkB2jPgyW/0p/B71gS9XyOZyy9ZZ6f8TAnR/4CPdXLsSf+NKhPksDeahDSuJov+RB17/JCBkQ+lmw==";
+        };
+        _PO5PCbGK = {
+            "id" = "PO5PCbGK";
+            "file" = "catalyst-all-3.0.2.jar";
+            "hash" = "sha512-8GALiSMnnfJv7rjSTM0bTG/+h61kPaAJTxoIn/dVcfBgeWB6OXHZLmQd+uCK3GU/Q83dMLk9RBHB7uxBB9Za+A==";
+        };
+        _pFS8KN1l = {
+            "id" = "pFS8KN1l";
+            "file" = "catalyst-all-3.0.3.jar";
+            "hash" = "sha512-LXhdy7L8cbGcFMOIPzz+j894NHnCesYLa5lmeGCk9RQYDthqq+/OE2hTcPOI1w962+BoZl1CRDx1cqZUU2lMvA==";
+        };
     in {
         "1ZYagGZM" = _1ZYagGZM;
         "mTpsxVtL" = _mTpsxVtL;
@@ -404,7 +424,11 @@ let
         "6trl10OL" = _6trl10OL;
         "zKR6L8VD" = _zKR6L8VD;
         "4dKMkJpd" = _4dKMkJpd;
-        "bta-babric-b1.7.3" = _PVeorifM;
+        "GVUKKlLK" = _GVUKKlLK;
+        "4Ni4R8zX" = _4Ni4R8zX;
+        "PO5PCbGK" = _PO5PCbGK;
+        "pFS8KN1l" = _pFS8KN1l;
+        "bta-babric-b1.7.3" = _pFS8KN1l;
         "babric-b1.7.3" = _4dKMkJpd;
         "fabric-b1.7.3" = _4dKMkJpd;
         "pkg-1.3.6" = _1ZYagGZM;
@@ -474,7 +498,11 @@ let
         "pkg-1.3.1+stapi" = _6trl10OL;
         "pkg-1.3.2+stapi" = _zKR6L8VD;
         "pkg-1.3.3+stapi" = _4dKMkJpd;
-        "default" = _4dKMkJpd;
+        "pkg-3.0.0" = _GVUKKlLK;
+        "pkg-3.0.1" = _4Ni4R8zX;
+        "pkg-3.0.2" = _PO5PCbGK;
+        "pkg-3.0.3" = _pFS8KN1l;
+        "default" = _pFS8KN1l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "catalyst";

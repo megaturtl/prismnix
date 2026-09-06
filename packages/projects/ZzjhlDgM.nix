@@ -471,6 +471,26 @@ let
             "file" = "Steam_Rails-1.7.2+forge-mc1.20.1.jar";
             "hash" = "sha512-+XWX0V6CKG3WQleVxJtTuF8srX6X2BA8shtPpjdcTbbfNLKnMgl71FGWN5DWutU73BG0J6fV0gvZ8D7XCEQ5cw==";
         };
+        _QKTesgMq = {
+            "id" = "QKTesgMq";
+            "file" = "Steam_Rails-1.7.3-beta+fabric-mc1.20.1.jar";
+            "hash" = "sha512-aQzAuu9mLo19VxQD6KRKsT8h/t+P5hYpmC1SINK5LXq/9BoahcjINmNI/ylaltbr90TokhWCBF6SBqH42toOTw==";
+        };
+        _x7xYkvNE = {
+            "id" = "x7xYkvNE";
+            "file" = "Steam_Rails-1.7.3-beta+forge-mc1.20.1.jar";
+            "hash" = "sha512-uwlcWyMuJ/DiBsOTtqS1jzSjX5TzX22jxrDzL+vURSOkLTUmIrnR99OMiVRRA2R909eyhcF5QxaDqW38reibwA==";
+        };
+        _eUas7aWK = {
+            "id" = "eUas7aWK";
+            "file" = "Steam_Rails-1.7.3+fabric-mc1.20.1.jar";
+            "hash" = "sha512-HexqR6n6euauLp5vhY5NFIRxsgj8/k9RdXB3PwAkOpnRwHymqNvQ1Hzwn9OBcqBLuJs6RuvVgX8bT/Iafu3q4g==";
+        };
+        _7Uk6lWkU = {
+            "id" = "7Uk6lWkU";
+            "file" = "Steam_Rails-1.7.3+forge-mc1.20.1.jar";
+            "hash" = "sha512-xGvV5I5kkUQzFX6MuS9WedNAf8bj47QKGkGwQ++m8youucSGMTNY6S+eTPFpcQqxYbv6hqJ2Ovyt/ztukgIRdQ==";
+        };
     in {
         "BBbN1SjT" = _BBbN1SjT;
         "xBnBLkOZ" = _xBnBLkOZ;
@@ -566,15 +586,19 @@ let
         "R90UmmIB" = _R90UmmIB;
         "PEA8dAwJ" = _PEA8dAwJ;
         "I6GhUCyk" = _I6GhUCyk;
+        "QKTesgMq" = _QKTesgMq;
+        "x7xYkvNE" = _x7xYkvNE;
+        "eUas7aWK" = _eUas7aWK;
+        "7Uk6lWkU" = _7Uk6lWkU;
         "forge-1.18.2" = _jeWNqcnM;
         "forge-1.19.2" = _AYmDx1OW;
-        "forge-1.20.1" = _I6GhUCyk;
+        "forge-1.20.1" = _7Uk6lWkU;
         "fabric-1.18.2" = _9bvNSNFf;
         "fabric-1.19.2" = _2UUvBSK9;
-        "fabric-1.20.1" = _PEA8dAwJ;
+        "fabric-1.20.1" = _eUas7aWK;
         "quilt-1.19.2" = _2UUvBSK9;
-        "quilt-1.20.1" = _PEA8dAwJ;
-        "neoforge-1.20.1" = _I6GhUCyk;
+        "quilt-1.20.1" = _eUas7aWK;
+        "neoforge-1.20.1" = _7Uk6lWkU;
         "neoforge-1.19.2" = _AYmDx1OW;
         "pkg-1.2.6-forge" = _LGgjOqmU;
         "pkg-1.2.6-fabric" = _VXh9CeGE;
@@ -667,7 +691,11 @@ let
         "pkg-1.7.2-beta+forge-mc1.20.1" = _R90UmmIB;
         "pkg-1.7.2+fabric-mc1.20.1" = _PEA8dAwJ;
         "pkg-1.7.2+forge-mc1.20.1" = _I6GhUCyk;
-        "default" = _I6GhUCyk;
+        "pkg-1.7.3-beta+fabric-mc1.20.1" = _QKTesgMq;
+        "pkg-1.7.3-beta+forge-mc1.20.1" = _x7xYkvNE;
+        "pkg-1.7.3+fabric-mc1.20.1" = _eUas7aWK;
+        "pkg-1.7.3+forge-mc1.20.1" = _7Uk6lWkU;
+        "default" = _7Uk6lWkU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-steam-n-rails";

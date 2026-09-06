@@ -147,6 +147,8 @@ let
         "minecraft-1.21.11" = _Fok6i32g;
         "minecraft-26.1" = _Fok6i32g;
         "minecraft-26.1.1" = _Fok6i32g;
+        "minecraft-26.1.2" = _Fok6i32g;
+        "minecraft-26.2" = _Fok6i32g;
         "pkg-1" = _jdZ7DMME;
         "pkg-1.20" = _3qW30Hgs;
         "pkg-1.20.1" = _9OCmfZfC;

@@ -56,6 +56,11 @@ let
             "file" = "[1.21.11] CnTierTagger-1.7.2.jar";
             "hash" = "sha512-HEaXXSVx/IwSXytSvCoKypZuPv8Ay4Av0QimLCg04SzwT+4KGi7Nnr//47zfJMIASDaC7qFYprxkU9buzBN+rw==";
         };
+        _LCzeMuJt = {
+            "id" = "LCzeMuJt";
+            "file" = "[26.1-26.2] CnTierTagger-1.7.3.jar";
+            "hash" = "sha512-0V3Sffvi3cq7PdkH4fZPQHiSjeY8mwOB3kJXX2cOdscj3HwmLe3eN0jQh8YzgMsI40XyTj9wpZdRXrCMPqqKXw==";
+        };
     in {
         "IohSs9wI" = _IohSs9wI;
         "LS9HLQ29" = _LS9HLQ29;
@@ -68,6 +73,7 @@ let
         "rFFmLldE" = _rFFmLldE;
         "oSG3qIFv" = _oSG3qIFv;
         "IgJ274IF" = _IgJ274IF;
+        "LCzeMuJt" = _LCzeMuJt;
         "fabric-1.21" = _NdLjkQuw;
         "fabric-1.21.1" = _NdLjkQuw;
         "fabric-1.21.2" = _NdLjkQuw;
@@ -87,6 +93,10 @@ let
         "fabric-1.21.9" = _NdLjkQuw;
         "fabric-1.21.10" = _NdLjkQuw;
         "fabric-1.21.11" = _IgJ274IF;
+        "fabric-26.1" = _LCzeMuJt;
+        "fabric-26.1.1" = _LCzeMuJt;
+        "fabric-26.1.2" = _LCzeMuJt;
+        "fabric-26.2" = _LCzeMuJt;
         "pkg-1.0" = _IohSs9wI;
         "pkg-1.2" = _LS9HLQ29;
         "pkg-1.3" = _j2TKxxUI;
@@ -98,7 +108,8 @@ let
         "pkg-1.7.0" = _rFFmLldE;
         "pkg-1.7.1" = _oSG3qIFv;
         "pkg-1.7.2" = _IgJ274IF;
-        "default" = _IgJ274IF;
+        "pkg-1.7.3" = _LCzeMuJt;
+        "default" = _LCzeMuJt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cntiertagger";

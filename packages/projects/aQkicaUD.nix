@@ -136,6 +136,11 @@ let
             "file" = "Resource-Pandas-26.1.1-11.0.0.jar";
             "hash" = "sha512-Bef9q4NNzFPOxdNpURDHEKyUHKYPQG0KkGzMUw1+H6iGDaiLII3td+Pg/UNnnZ6iFtxOGx3xi+qhazLG3kHd5A==";
         };
+        _9DAQDWam = {
+            "id" = "9DAQDWam";
+            "file" = "Resource-Pandas-26.2-12.0.0.jar";
+            "hash" = "sha512-Py0R13JjaytyOqppGeG3zoJNaIEYwhZgCZxdkVsiUnzCHSxHFZbsLlC/TE15s+xuw3FzdjwXXr05qJRJEP304g==";
+        };
     in {
         "uz8OLKmg" = _uz8OLKmg;
         "LHymBgpk" = _LHymBgpk;
@@ -164,6 +169,7 @@ let
         "X6aeO0vt" = _X6aeO0vt;
         "zmmJ8WjG" = _zmmJ8WjG;
         "b49nmTsi" = _b49nmTsi;
+        "9DAQDWam" = _9DAQDWam;
         "forge-1.16.5" = _uz8OLKmg;
         "forge-1.18.1" = _LHymBgpk;
         "forge-1.18.2" = _6wnJyNI4;
@@ -182,6 +188,7 @@ let
         "neoforge-1.21.10" = _X6aeO0vt;
         "neoforge-1.21.11" = _zmmJ8WjG;
         "neoforge-26.1.1" = _b49nmTsi;
+        "neoforge-26.2" = _9DAQDWam;
         "pkg-1.1.1" = _uz8OLKmg;
         "pkg-1.1.2" = _LHymBgpk;
         "pkg-1.1.3" = _6wnJyNI4;
@@ -209,7 +216,8 @@ let
         "pkg-9.0.0" = _X6aeO0vt;
         "pkg-10.0.0" = _zmmJ8WjG;
         "pkg-11.0.0" = _b49nmTsi;
-        "default" = _b49nmTsi;
+        "pkg-12.0.0" = _9DAQDWam;
+        "default" = _9DAQDWam;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "resource-pandas";

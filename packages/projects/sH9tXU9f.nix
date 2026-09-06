@@ -76,6 +76,16 @@ let
             "file" = "createliquidfuel-2.1.1-1.21.1.jar";
             "hash" = "sha512-AaiZXwkQXhxM/gAaRnTCCMPtDoKnYS6jiRskgqn8vhzOwYUSXPQP1YAtFTu+1fHXoFeu/kC6dQR28wAJNtPHHg==";
         };
+        _rLn2bDVE = {
+            "id" = "rLn2bDVE";
+            "file" = "createliquidfuel-3.0.0-1.21.1.jar";
+            "hash" = "sha512-OSXg9+e4g9cZwSws3UCfqVT71Ty7YylXZP3wbVf2NVO13Zn5SuabBxoqoX+1v/U4F+M5QZHYkz95FiIIYeG8dg==";
+        };
+        _zRiNFWm2 = {
+            "id" = "zRiNFWm2";
+            "file" = "createliquidfuel-2.2.0-1.20.1.jar";
+            "hash" = "sha512-AsQ0ho0UU4vop8j1x1OZROlhWQNbwkOy1/PZQwADCqHpYYmI/EtY6guZkTwLHoOs+oyAQwEGvukXxCm+AEQ51Q==";
+        };
     in {
         "B7Qpio77" = _B7Qpio77;
         "OK68emy0" = _OK68emy0;
@@ -92,9 +102,11 @@ let
         "YNiP5j5K" = _YNiP5j5K;
         "SZfHDdfk" = _SZfHDdfk;
         "7oNrI3y9" = _7oNrI3y9;
+        "rLn2bDVE" = _rLn2bDVE;
+        "zRiNFWm2" = _zRiNFWm2;
         "forge-1.18.2" = _PI2rczVv;
         "forge-1.19.2" = _YNiP5j5K;
-        "forge-1.20.1" = _SZfHDdfk;
+        "forge-1.20.1" = _zRiNFWm2;
         "forge-1.20" = _SZfHDdfk;
         "forge-1.20.2" = _iwo1PJkb;
         "forge-1.20.3" = _iwo1PJkb;
@@ -102,7 +114,7 @@ let
         "neoforge-1.18.2" = _GxuUBJGD;
         "neoforge-1.19.2" = _40himRr3;
         "neoforge-1.20.1" = _vH3A0Uuf;
-        "neoforge-1.21.1" = _7oNrI3y9;
+        "neoforge-1.21.1" = _rLn2bDVE;
         "pkg-1.2" = _B7Qpio77;
         "pkg-1.3" = _OK68emy0;
         "pkg-1.4" = _VHpJ40bJ;
@@ -118,7 +130,9 @@ let
         "pkg-2.1.1-1.19.2" = _YNiP5j5K;
         "pkg-2.1.1-1.20.1" = _SZfHDdfk;
         "pkg-2.1.1-1.21.1" = _7oNrI3y9;
-        "default" = _7oNrI3y9;
+        "pkg-3.0.0-1.21.1" = _rLn2bDVE;
+        "pkg-2.2.0-1.20.1" = _zRiNFWm2;
+        "default" = _zRiNFWm2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-liquid-fuel";

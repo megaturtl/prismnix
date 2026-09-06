@@ -86,16 +86,6 @@ let
             "file" = "ice_and_fire_spellbooks-2.3.2-1.20.1.jar";
             "hash" = "sha512-2J1LyOiKy++k8y4q9J2PGPxY3jHGAppqoerNnqHF7CiISYtBuSOU2tVifAnaQ5EHrkJQ6HcaI6UOJ3h93eGSUA==";
         };
-        _5z2A2Dax = {
-            "id" = "5z2A2Dax";
-            "file" = "ice_and_fire_spellbooks-2.3.2-1.21.1.jar";
-            "hash" = "sha512-irIVayJOd2wOXyU+yfVI99Xx+/FKp01CXQgCgef8UEfa933O/NS6NIba65y2H4C4WiahQjHOPqslsf9YHziaSQ==";
-        };
-        _YFXb3T9X = {
-            "id" = "YFXb3T9X";
-            "file" = "ice_and_fire_spellbooks-2.3.3-1.21.1.jar";
-            "hash" = "sha512-HvQuc4KC7CjpydKczepDCM73gAigvAjqLG+XxzJAG9B6bu3KkfqvNLrTBhtyBBWp/FHqpLXqgtHAuyJO7fcDDw==";
-        };
     in {
         "jSAKq9mz" = _jSAKq9mz;
         "jF1MbQC7" = _jF1MbQC7;
@@ -114,11 +104,8 @@ let
         "tDvz1wK1" = _tDvz1wK1;
         "yGm7ayHS" = _yGm7ayHS;
         "fkpYeaSE" = _fkpYeaSE;
-        "5z2A2Dax" = _5z2A2Dax;
-        "YFXb3T9X" = _YFXb3T9X;
         "forge-1.19.2" = _tDvz1wK1;
         "forge-1.20.1" = _fkpYeaSE;
-        "neoforge-1.21.1" = _YFXb3T9X;
         "pkg-1.0.0-1.19.2" = _jSAKq9mz;
         "pkg-1.0.0-1.20.1" = _jF1MbQC7;
         "pkg-1.1.0-1.20.1" = _N37RTKjD;
@@ -136,9 +123,7 @@ let
         "pkg-2.3.1-1.19.2" = _tDvz1wK1;
         "pkg-2.3.1-1.20.1" = _yGm7ayHS;
         "pkg-2.3.2-1.20.1" = _fkpYeaSE;
-        "pkg-2.3.2-1.21.1" = _5z2A2Dax;
-        "pkg-2.3.3-1.21.1" = _YFXb3T9X;
-        "default" = _YFXb3T9X;
+        "default" = _fkpYeaSE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ice-and-fire-spellbooks";

@@ -126,6 +126,21 @@ let
             "file" = "limacore-26.1.2-2.4.0.jar";
             "hash" = "sha512-e0F4b9HXfOKx6Cepf5+XF7ifuhPuGBeQQRpuMR99KJ9hSouCIYMLjrfoaVezJWEMFSX9sGLbp07/dBnDzMuLDg==";
         };
+        _vQ9cD9xv = {
+            "id" = "vQ9cD9xv";
+            "file" = "limacore-26.1.2-2.8.0.jar";
+            "hash" = "sha512-ambBuoyC57/nS2tobz1jj6W+HlKTyeelldINdZHSIXv+ks3iivwme2MLIgjLjeeg1wv2XY7r06tC3bv2mhBQJg==";
+        };
+        _FwlcNJ8E = {
+            "id" = "FwlcNJ8E";
+            "file" = "limacore-26.1.2-2.8.1.jar";
+            "hash" = "sha512-5CrFiGHX3bFxHz1xIvo/F8citulJ3SMS43FPUl8OuXoKzLcV0cZSimKucyvr4/57X2ythZjgRDsULZcE8yU+QQ==";
+        };
+        _SzBt0CAB = {
+            "id" = "SzBt0CAB";
+            "file" = "limacore-26.1.2-2.8.2.jar";
+            "hash" = "sha512-1vtnn8sTfbnOkVMvREW6+ZHXomkKGpbAHvrhlJ4j4ga+rMghPf8cEpcxA6++db6065dssmC/XwB2Bjhp7JM3xA==";
+        };
     in {
         "iPlYL8aQ" = _iPlYL8aQ;
         "GvZUTL0V" = _GvZUTL0V;
@@ -152,8 +167,11 @@ let
         "1eKd1hht" = _1eKd1hht;
         "QdjTMCNG" = _QdjTMCNG;
         "jjcLfLrB" = _jjcLfLrB;
+        "vQ9cD9xv" = _vQ9cD9xv;
+        "FwlcNJ8E" = _FwlcNJ8E;
+        "SzBt0CAB" = _SzBt0CAB;
         "neoforge-1.21.1" = _1eKd1hht;
-        "neoforge-26.1.2" = _jjcLfLrB;
+        "neoforge-26.1.2" = _SzBt0CAB;
         "pkg-1.3.0" = _iPlYL8aQ;
         "pkg-1.4.0" = _GvZUTL0V;
         "pkg-1.5.0" = _nGsLRy4Z;
@@ -179,7 +197,10 @@ let
         "pkg-1.18.0" = _1eKd1hht;
         "pkg-2.3.0" = _QdjTMCNG;
         "pkg-2.4.0" = _jjcLfLrB;
-        "default" = _jjcLfLrB;
+        "pkg-2.8.0" = _vQ9cD9xv;
+        "pkg-2.8.1" = _FwlcNJ8E;
+        "pkg-2.8.2" = _SzBt0CAB;
+        "default" = _SzBt0CAB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "limacore";

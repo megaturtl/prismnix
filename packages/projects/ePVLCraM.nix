@@ -96,6 +96,41 @@ let
             "file" = "kaleidoscope_world_liquor-1.1.0-neoforge+26.1.2.jar";
             "hash" = "sha512-dG0GoqEJN9M/uH0f/J8X/0HgHB28L7caQKfyD1aOmHegOblNk1R9KUq97CS51a2vPrvQopIx6JXjwxg0bHlKvw==";
         };
+        _OwgRowAf = {
+            "id" = "OwgRowAf";
+            "file" = "kaleidoscope_world_liquor-1.1.9-forge+mc1.20.1-feature-all.jar";
+            "hash" = "sha512-8BdBjGtjNn72+tWV/UPDyKRbQA9ayHKREDIf+RE8u/DjF5xqpfgc1KsR2tSOhEhEbfJmzjsXSJ3KBWeAHa8Ohw==";
+        };
+        _fhLpUo5M = {
+            "id" = "fhLpUo5M";
+            "file" = "kaleidoscope_world_liquor-1.1.7-neoforge+1.21.1-feature.jar";
+            "hash" = "sha512-Tde3ecG9bphlRYJeNnMSPz7y0+2kSEOVoGGGqXfIIwTM/Lx/wTXcReF1uHzOnkFbteE+Dzk2s6o9k78mcaLIiw==";
+        };
+        _cmBa2L8D = {
+            "id" = "cmBa2L8D";
+            "file" = "kaleidoscope_world_liquor-1.1.10-forge+mc1.20.1-all.jar";
+            "hash" = "sha512-tWz8zhAly6Q4bx/ORM/RVOqKeJinFUxElERLSKSUHQHZHIx13vcOAXBQpYdBp/NA3RW4IqfDO5ynOWUMf9kvUg==";
+        };
+        _qZo8jdky = {
+            "id" = "qZo8jdky";
+            "file" = "kaleidoscope_world_liquor-1.1.8-neoforge+1.21.1.jar";
+            "hash" = "sha512-skKJnWJp9bznG+cE4dMVlJI2mwMFaWh61DUibzA4FpCAYBZa1aUBtgf6nGjPc+EtZiZ7VpbOLwUqmMRHkBfyWQ==";
+        };
+        _YGQxSjtg = {
+            "id" = "YGQxSjtg";
+            "file" = "kaleidoscope_world_liquor-1.1.10-forge+mc1.20.1-feature-all.jar";
+            "hash" = "sha512-zkf6Rc6GzpYoDrLLdcU0IoxteF0tZmjQEdCCMFORLlPVnfTofdU49gNHnySGiLe4uASb2CSPeXsfsz4yKjnxOA==";
+        };
+        _unmywAHK = {
+            "id" = "unmywAHK";
+            "file" = "kaleidoscope_world_liquor-1.1.8-neoforge+1.21.1-feature.jar";
+            "hash" = "sha512-ZCXyRarOQPTcaoeykN+BOBJToKKyDYluV8he2T43wTkhM5aCP0hi93gAI+/VM8Qbh7nND+73hAkwyR9MIcf/XA==";
+        };
+        _ws5N4oIh = {
+            "id" = "ws5N4oIh";
+            "file" = "kaleidoscope_world_liquor-1.1.3-neoforge+26.1.2.jar";
+            "hash" = "sha512-6Spf6Zi3e+JsB0F49t5ImaEBa8xi+a/xZBSXInjqTRxxjOp34AFya/AUQnddkSf0EX5zaE5B6EuxRbPfWuFacQ==";
+        };
     in {
         "WR8zsUnm" = _WR8zsUnm;
         "bOcB7MuV" = _bOcB7MuV;
@@ -116,9 +151,16 @@ let
         "Oje5lZGr" = _Oje5lZGr;
         "NQUaELRy" = _NQUaELRy;
         "6hRP1URS" = _6hRP1URS;
-        "forge-1.20.1" = _NQUaELRy;
-        "neoforge-1.21.1" = _Oje5lZGr;
-        "neoforge-26.1.2" = _6hRP1URS;
+        "OwgRowAf" = _OwgRowAf;
+        "fhLpUo5M" = _fhLpUo5M;
+        "cmBa2L8D" = _cmBa2L8D;
+        "qZo8jdky" = _qZo8jdky;
+        "YGQxSjtg" = _YGQxSjtg;
+        "unmywAHK" = _unmywAHK;
+        "ws5N4oIh" = _ws5N4oIh;
+        "forge-1.20.1" = _YGQxSjtg;
+        "neoforge-1.21.1" = _unmywAHK;
+        "neoforge-26.1.2" = _ws5N4oIh;
         "pkg-1.0.0" = _WR8zsUnm;
         "pkg-1.0.1-Fix" = _bOcB7MuV;
         "pkg-1.1.0" = _zAPaX33x;
@@ -136,7 +178,14 @@ let
         "pkg-1.1.7-neoforge+1.21.1" = _Oje5lZGr;
         "pkg-1.1.9-forge+mc1.20.1" = _NQUaELRy;
         "pkg-1.1.0-neoforge+26.1.2" = _6hRP1URS;
-        "default" = _6hRP1URS;
+        "pkg-1.1.9-forge+mc1.20.1-feature" = _OwgRowAf;
+        "pkg-1.1.7-neoforge+1.21.1-feature" = _fhLpUo5M;
+        "pkg-1.1.10-forge+mc1.20.1" = _cmBa2L8D;
+        "pkg-1.1.8-neoforge+1.21.1" = _qZo8jdky;
+        "pkg-1.1.10-forge+mc1.20.1-feature" = _YGQxSjtg;
+        "pkg-1.1.8-neoforge+1.21.1-feature" = _unmywAHK;
+        "pkg-1.1.3-neoforge+26.1.2" = _ws5N4oIh;
+        "default" = _ws5N4oIh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kaleidoscope-world-liquor";

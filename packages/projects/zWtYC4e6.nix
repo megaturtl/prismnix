@@ -46,6 +46,11 @@ let
             "file" = "Tab-Stats-1.20-1.0.5.jar";
             "hash" = "sha512-Io3Yi3eAohydn5Su8xRKKj+bGuloEbmaAnByJkSerMyoWkS6vZ37qogQdopgaN4EICUJ/z6asIucGALb+dWJzA==";
         };
+        _fbpng29T = {
+            "id" = "fbpng29T";
+            "file" = "Tab-Stats-1.20.4-1.0.5.jar";
+            "hash" = "sha512-/VAE2AYnaEw1BqP3/yE3FdTgYrYoIVu8ZJwBnANJi7owkUShuSOPxjbM4sxBrnTi5cEZlu1LgAeAIedoaLwAhQ==";
+        };
     in {
         "FdJRYVnf" = _FdJRYVnf;
         "k9oKl5BA" = _k9oKl5BA;
@@ -56,6 +61,7 @@ let
         "2aYsvPyG" = _2aYsvPyG;
         "7xWutwyn" = _7xWutwyn;
         "6bj5Ip4K" = _6bj5Ip4K;
+        "fbpng29T" = _fbpng29T;
         "forge-1.18.2" = _FdJRYVnf;
         "forge-1.19" = _hlE3aZIa;
         "forge-1.19.1" = _hlE3aZIa;
@@ -63,6 +69,7 @@ let
         "forge-1.19.4" = _7xWutwyn;
         "forge-1.20" = _6bj5Ip4K;
         "forge-1.20.1" = _6bj5Ip4K;
+        "neoforge-1.20.4" = _fbpng29T;
         "pkg-1.0.2" = _FdJRYVnf;
         "pkg-1.19-1.0.2" = _k9oKl5BA;
         "pkg-1.19-1.0.3" = _76jKgAsn;
@@ -72,7 +79,8 @@ let
         "pkg-1.19.3-1.0.5" = _2aYsvPyG;
         "pkg-1.19.4-1.0.5" = _7xWutwyn;
         "pkg-1.20-1.0.5" = _6bj5Ip4K;
-        "default" = _6bj5Ip4K;
+        "pkg-1.20.4-1.0.5" = _fbpng29T;
+        "default" = _fbpng29T;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tab-stats";

@@ -96,6 +96,11 @@ let
             "file" = "SuperflatPlus-1.6.0b-1.21.11.jar";
             "hash" = "sha512-kbHqaIx3cD8crIVYAeBRl6dgEg60Fy7yLMldQk8+iPUdagepTYcjrD3VVqKANhr0sMKmYWGOgdUSfU0d46x5dw==";
         };
+        _aGkEQMQ1 = {
+            "id" = "aGkEQMQ1";
+            "file" = "SuperflatPlus-2.0.1-1.26.2.jar";
+            "hash" = "sha512-pDXfm4gP4dSZNOxQgIUH8GY0R0qPZaRIqPeScxQYTBrnww2/iW3ZaITrQ2DRZIWdErzfISL+1oRX7nuv9UkwgA==";
+        };
     in {
         "5nU7J6xR" = _5nU7J6xR;
         "QiavMkXo" = _QiavMkXo;
@@ -116,6 +121,7 @@ let
         "DvY1LJcW" = _DvY1LJcW;
         "13WTONGm" = _13WTONGm;
         "qmiQufV9" = _qmiQufV9;
+        "aGkEQMQ1" = _aGkEQMQ1;
         "fabric-1.20.1" = _vE8cEEWV;
         "fabric-1.21" = _9B3yAd3t;
         "fabric-1.21.1" = _9B3yAd3t;
@@ -123,6 +129,7 @@ let
         "fabric-1.21.7" = _13WTONGm;
         "fabric-1.21.8" = _13WTONGm;
         "fabric-1.21.11" = _qmiQufV9;
+        "fabric-26.2" = _aGkEQMQ1;
         "pkg-1.0.0-1.20.1" = _5nU7J6xR;
         "pkg-1.0.1-1.20.1" = _QiavMkXo;
         "pkg-1.0.2-1.20.1" = _KJZjiaj3;
@@ -142,7 +149,8 @@ let
         "pkg-1.5.17-1.21.4" = _DvY1LJcW;
         "pkg-1.6.0-1.21.8" = _13WTONGm;
         "pkg-1.6.0b-1.21.11" = _qmiQufV9;
-        "default" = _qmiQufV9;
+        "pkg-2.0.1-1.26.2" = _aGkEQMQ1;
+        "default" = _aGkEQMQ1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "superflat-plus";

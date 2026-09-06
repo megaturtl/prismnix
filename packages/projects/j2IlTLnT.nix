@@ -118,6 +118,9 @@ let
         "velocity-1.21.10" = _U4gyTBJw;
         "velocity-1.21.11" = _U4gyTBJw;
         "velocity-26.1" = _U4gyTBJw;
+        "velocity-26.1.1" = _U4gyTBJw;
+        "velocity-26.1.2" = _U4gyTBJw;
+        "velocity-26.2" = _U4gyTBJw;
         "pkg-1.1.0" = _v1Edqfp5;
         "pkg-1.2.0" = _nJNPSyEH;
         "pkg-1.3.0" = _Xm3Oa1gC;

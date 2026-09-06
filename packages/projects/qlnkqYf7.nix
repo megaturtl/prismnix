@@ -56,6 +56,26 @@ let
             "file" = "skinmc_mod-fabric-2.1.1.jar";
             "hash" = "sha512-mYhcX05hNFRZEl9DF91xFJo31dK9BdxmfuIzaMEmYWmUf+JXYe0GDg33ed5c4IjJlL9grcdn0Qv4IT1EvLfRkg==";
         };
+        _PE5os89m = {
+            "id" = "PE5os89m";
+            "file" = "skinmc_mod-neoforge-2.2.0.jar";
+            "hash" = "sha512-2ltcVH+PIGlny32luxhVWmWsIwLy7VHXUXsicZCx4XMKAl8vVSkamQwL4GEIrFMxnnPhIgDanRYe2bRDdPZxEg==";
+        };
+        _2u04fqHk = {
+            "id" = "2u04fqHk";
+            "file" = "skinmc_mod-fabric-2.2.0.jar";
+            "hash" = "sha512-oOm9t6+RZPdSm8EL/2zp5G5hTD0fah8KuESHE1Q2cNWo/cKcePPwJoR0ZnevvFXsEroHqqTi+JWjrC7gmJiNqg==";
+        };
+        _cMn4avnb = {
+            "id" = "cMn4avnb";
+            "file" = "skinmc_mod-neoforge-2.3.0.jar";
+            "hash" = "sha512-Z1pMgQimwrx/OKnLEilY493ErfI8EK6qx3IIp0+cyxCHr5ve8eTm45ActNZWD/HbRK+zf4v0JfaGve0SFRTU8Q==";
+        };
+        _dO4Wcqvs = {
+            "id" = "dO4Wcqvs";
+            "file" = "skinmc_mod-fabric-2.3.0.jar";
+            "hash" = "sha512-zXKMILIVxhmW5lgNUooR+cbPl5sIJ5f+x9eBHLhSTLGHQE0hYA5MNTf5BRAfzsAgjw9V1sL+E0ZkmfGMVecAHg==";
+        };
     in {
         "XMLHYpPO" = _XMLHYpPO;
         "WcNRuruJ" = _WcNRuruJ;
@@ -68,20 +88,28 @@ let
         "5aK4qipo" = _5aK4qipo;
         "cV6Bml5f" = _cV6Bml5f;
         "jaDG8nYm" = _jaDG8nYm;
+        "PE5os89m" = _PE5os89m;
+        "2u04fqHk" = _2u04fqHk;
+        "cMn4avnb" = _cMn4avnb;
+        "dO4Wcqvs" = _dO4Wcqvs;
         "fabric-1.18" = _XMLHYpPO;
         "fabric-1.19" = _WcNRuruJ;
         "fabric-1.20" = _sKYZB6nu;
         "fabric-1.20.1" = _sKYZB6nu;
         "fabric-1.21.4" = _oYQmjDsI;
-        "fabric-1.21.11" = _jaDG8nYm;
+        "fabric-1.21.11" = _2u04fqHk;
+        "fabric-26.2" = _dO4Wcqvs;
         "neoforge-1.21.4" = _QFVJLUaU;
-        "neoforge-1.21.11" = _cV6Bml5f;
+        "neoforge-1.21.11" = _PE5os89m;
+        "neoforge-26.2" = _cMn4avnb;
         "pkg-1.0.0" = _WcNRuruJ;
         "pkg-1.20-1.0.0" = _sKYZB6nu;
         "pkg-2.0.0" = _zBSfDstP;
         "pkg-2.1.0" = _5aK4qipo;
         "pkg-2.1.1" = _jaDG8nYm;
-        "default" = _jaDG8nYm;
+        "pkg-2.2.0" = _2u04fqHk;
+        "pkg-2.3.0" = _dO4Wcqvs;
+        "default" = _dO4Wcqvs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skinmc";

@@ -1016,6 +1016,16 @@ let
             "file" = "mafglib-0.5.5+mc26.1.2.jar";
             "hash" = "sha512-wKVNFuECF3szwUBSJqS0n17SnSHFWHG7rcYEWtLaIgouLZIF+EVNK70E49ELjU2LOfwEibJgG+cTT38NAb27Cw==";
         };
+        _kGWEcTQS = {
+            "id" = "kGWEcTQS";
+            "file" = "mafglib-0.5.6+mc26.1.2.jar";
+            "hash" = "sha512-UZFB0xlr4D85vRJMHeTeVUjOp+efas4P9LJxQQoKUhu6EDnITPNuEMD28yYhy8FjPlpxV6Cmw/G9FnKvN3otKQ==";
+        };
+        _YYGyVQ5h = {
+            "id" = "YYGyVQ5h";
+            "file" = "mafglib-0.4.6+mc1.21.11.jar";
+            "hash" = "sha512-YE7XDjPQeRiKBuokzcn3rwkt1LX5ERIeoBPnKsbViTprxasyQndQy3vnyMcHJZjRBMZAy0CEyt5CX3SKbPJ0Zw==";
+        };
     in {
         "65cfqVdz" = _65cfqVdz;
         "laYvE8yg" = _laYvE8yg;
@@ -1220,6 +1230,8 @@ let
         "AdPcI7HK" = _AdPcI7HK;
         "a9U0m3ou" = _a9U0m3ou;
         "LFgRB5cx" = _LFgRB5cx;
+        "kGWEcTQS" = _kGWEcTQS;
+        "YYGyVQ5h" = _YYGyVQ5h;
         "forge-1.16.4" = _iY4yzveu;
         "forge-1.16.5" = _iY4yzveu;
         "forge-1.17" = _RDHKzcnu;
@@ -1250,10 +1262,10 @@ let
         "neoforge-1.21.8" = _4E6KWMAH;
         "neoforge-1.21.9" = _PVqnsLDh;
         "neoforge-1.21.10" = _PVqnsLDh;
-        "neoforge-1.21.11" = _SvPK1yWT;
-        "neoforge-26.1" = _LFgRB5cx;
-        "neoforge-26.1.1" = _LFgRB5cx;
-        "neoforge-26.1.2" = _LFgRB5cx;
+        "neoforge-1.21.11" = _YYGyVQ5h;
+        "neoforge-26.1" = _kGWEcTQS;
+        "neoforge-26.1.1" = _kGWEcTQS;
+        "neoforge-26.1.2" = _kGWEcTQS;
         "neoforge-26.2" = _a9U0m3ou;
         "pkg-0.1.4-mc1.16.4" = _65cfqVdz;
         "pkg-0.1.4-mc1.17.1" = _laYvE8yg;
@@ -1457,7 +1469,9 @@ let
         "pkg-0.5.2+mc26.2" = _AdPcI7HK;
         "pkg-0.5.3+mc26.2" = _a9U0m3ou;
         "pkg-0.5.5+mc26.1.2" = _LFgRB5cx;
-        "default" = _LFgRB5cx;
+        "pkg-0.5.6+mc26.1.2" = _kGWEcTQS;
+        "pkg-0.4.6+mc1.21.11" = _YYGyVQ5h;
+        "default" = _YYGyVQ5h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mafglib";

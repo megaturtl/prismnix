@@ -41,6 +41,16 @@ let
             "file" = "milletdelight-0.0.1-beta.jar";
             "hash" = "sha512-ABSScflpZqIc0WOfmmdnvk3TKNadC2crVirJ0/+0Zpyh4Zhni5x+TiSqUFBaHNnOlEVyS9aZU9kn9FE1zw1kLg==";
         };
+        _LKTyL2um = {
+            "id" = "LKTyL2um";
+            "file" = "milletdelight-0.0.2-beta.jar";
+            "hash" = "sha512-cJam5qdSAt8y2mH96/gmIXLPa6JUt9OTDQoOrVWkN4o1SJERGgmWAkkJjClikRYXAqiAqKyHxFE6+64pj6npQg==";
+        };
+        _DEmqNI7N = {
+            "id" = "DEmqNI7N";
+            "file" = "milletdelight-0.0.3-beta.jar";
+            "hash" = "sha512-YEDt+D1CrX+cQ3tGjzD7PSIpdOqvxAPiCQ6KpJoAi1K+UU4o91Yo5fmWAP30HXuQPeflJRRBhnvNb6KzmVlZ6A==";
+        };
     in {
         "eonKaGIh" = _eonKaGIh;
         "FGnaZSsh" = _FGnaZSsh;
@@ -50,6 +60,8 @@ let
         "V00BJPX8" = _V00BJPX8;
         "Mh4a3l18" = _Mh4a3l18;
         "me9RxE8w" = _me9RxE8w;
+        "LKTyL2um" = _LKTyL2um;
+        "DEmqNI7N" = _DEmqNI7N;
         "fabric-1.20" = _Mh4a3l18;
         "fabric-1.20.1" = _Mh4a3l18;
         "fabric-1.21.5" = _LKXZfRR8;
@@ -58,14 +70,16 @@ let
         "fabric-26.1" = _me9RxE8w;
         "fabric-26.1.1" = _me9RxE8w;
         "fabric-26.1.2" = _me9RxE8w;
-        "neoforge-1.21" = _V00BJPX8;
-        "neoforge-1.21.1" = _V00BJPX8;
+        "neoforge-1.21" = _DEmqNI7N;
+        "neoforge-1.21.1" = _DEmqNI7N;
         "pkg-1.0.0" = _FGnaZSsh;
         "pkg-1.0.2" = _rz70ZZlY;
         "pkg-1.0.3" = _LKXZfRR8;
         "pkg-0.0.1-beta" = _me9RxE8w;
         "pkg-1.1.0" = _Mh4a3l18;
-        "default" = _me9RxE8w;
+        "pkg-0.0.2-beta" = _LKTyL2um;
+        "pkg-0.0.3-beta" = _DEmqNI7N;
+        "default" = _DEmqNI7N;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "millet-delight";

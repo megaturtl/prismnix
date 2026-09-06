@@ -196,6 +196,11 @@ let
             "file" = "VanillaAIOTs-21.1.8.jar";
             "hash" = "sha512-0KQoIGsrGM8sN1G841mvSH6BXGDkuiIZW2LRQIygypp8+gWa+AOxN6G8tK2S2RL3PgqBKhycjCM3dIWW7hzeCQ==";
         };
+        _uSCVaRIq = {
+            "id" = "uSCVaRIq";
+            "file" = "VanillaAIOTs-21.1.9.jar";
+            "hash" = "sha512-z0bxNyz2eDHz3kA93o7NPkbjTTMGxi28zaLEY/gvEPMDN+OGUdS9hQC++sGFaTrzqh+HtfqWGHqssBYKMGd/uQ==";
+        };
     in {
         "pG4Nqggb" = _pG4Nqggb;
         "bORQOebB" = _bORQOebB;
@@ -236,6 +241,7 @@ let
         "XZd8KFxS" = _XZd8KFxS;
         "TLR9ImvH" = _TLR9ImvH;
         "57O6rXZo" = _57O6rXZo;
+        "uSCVaRIq" = _uSCVaRIq;
         "forge-1.18.1" = _pG4Nqggb;
         "forge-1.18.2" = _IK9L8g6P;
         "forge-1.19" = _yr8m0vVM;
@@ -244,7 +250,7 @@ let
         "forge-1.19.4" = _EpgfrJJV;
         "forge-1.20.1" = _TLR9ImvH;
         "neoforge-1.20.1" = _JxYuUBEH;
-        "neoforge-1.21.1" = _57O6rXZo;
+        "neoforge-1.21.1" = _uSCVaRIq;
         "pkg-1.18.1-1.0.0" = _pG4Nqggb;
         "pkg-1.18.2-1.1.0" = _bORQOebB;
         "pkg-1.18.2-1.1.1" = _4OvQoOuC;
@@ -284,7 +290,8 @@ let
         "pkg-1.20.1-3.0.8" = _XZd8KFxS;
         "pkg-1.20.1-3.0.9" = _TLR9ImvH;
         "pkg-21.1.8" = _57O6rXZo;
-        "default" = _57O6rXZo;
+        "pkg-21.1.9" = _uSCVaRIq;
+        "default" = _uSCVaRIq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-aiots";

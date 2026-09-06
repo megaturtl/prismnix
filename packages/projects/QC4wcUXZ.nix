@@ -491,6 +491,21 @@ let
             "file" = "cinderscapes-6.0.0-beta.1.jar";
             "hash" = "sha512-giiyUc4s5e5LfCR2pfXPlqtVBImu+iThqQYCvfKLXX9v+8/IV6XrCWNyqAtOgAvW/ntW5+4eB7WhS4cxgKI3kA==";
         };
+        _i0t6Ig39 = {
+            "id" = "i0t6Ig39";
+            "file" = "cinderscapes-6.0.0.jar";
+            "hash" = "sha512-d8BsKALsYOSyYdWujqCPxXue+bpL3TyfJyNDIeXFq4S3gx9Ysr9ycTzArRPM6TAoPcjulpDzbrkpnKOgoH0CyQ==";
+        };
+        _8OeevjHl = {
+            "id" = "8OeevjHl";
+            "file" = "cinderscapes-6.1.0-alpha.1.jar";
+            "hash" = "sha512-MQIxUsV5XuT5Y/igpJVrK9/PUxRY07NumnsK1Crnw/kb/K5cIWgN/mNAHchtf2l63XUlfURyPUzTe4S6r8AG+Q==";
+        };
+        _bM8lo55u = {
+            "id" = "bM8lo55u";
+            "file" = "cinderscapes-6.1.0-alpha.2.jar";
+            "hash" = "sha512-Zqe6HDakiBF8irNU6soSI/rIg/nfZA7hnVq4LbPm0DdVK09bJi2DoocQP53gQEZ7bY/RVX8tKAYMrlZoKD+ZWg==";
+        };
     in {
         "7Fm39tZZ" = _7Fm39tZZ;
         "gyGGKjy3" = _gyGGKjy3;
@@ -590,6 +605,9 @@ let
         "uipDCZCz" = _uipDCZCz;
         "azcqiTjb" = _azcqiTjb;
         "zj7SoB0j" = _zj7SoB0j;
+        "i0t6Ig39" = _i0t6Ig39;
+        "8OeevjHl" = _8OeevjHl;
+        "bM8lo55u" = _bM8lo55u;
         "fabric-1.16.5" = _N7hzNrJ0;
         "fabric-1.18.2" = _6sOe6HKi;
         "fabric-1.19.2" = _CctxymNl;
@@ -654,9 +672,10 @@ let
         "fabric-1.21.10" = _vhCDKfXZ;
         "fabric-25w45a" = _6MWFK1go;
         "fabric-1.21.11" = _uipDCZCz;
-        "fabric-26.1" = _zj7SoB0j;
-        "fabric-26.1.1" = _zj7SoB0j;
-        "fabric-26.1.2" = _zj7SoB0j;
+        "fabric-26.1" = _i0t6Ig39;
+        "fabric-26.1.1" = _i0t6Ig39;
+        "fabric-26.1.2" = _i0t6Ig39;
+        "fabric-26.2" = _bM8lo55u;
         "quilt-1.20-pre6" = _Z3Qfru5i;
         "quilt-1.20-pre7" = _Z3Qfru5i;
         "quilt-1.20" = _J1toYNYJ;
@@ -705,9 +724,10 @@ let
         "quilt-1.21.10" = _vhCDKfXZ;
         "quilt-25w45a" = _6MWFK1go;
         "quilt-1.21.11" = _uipDCZCz;
-        "quilt-26.1" = _zj7SoB0j;
-        "quilt-26.1.1" = _zj7SoB0j;
-        "quilt-26.1.2" = _zj7SoB0j;
+        "quilt-26.1" = _i0t6Ig39;
+        "quilt-26.1.1" = _i0t6Ig39;
+        "quilt-26.1.2" = _i0t6Ig39;
+        "quilt-26.2" = _bM8lo55u;
         "pkg-1.3.1" = _7Fm39tZZ;
         "pkg-1.3.2" = _gyGGKjy3;
         "pkg-1.3.3" = _SrOlbalS;
@@ -806,7 +826,10 @@ let
         "pkg-5.6.0" = _uipDCZCz;
         "pkg-6.0.0-alpha.1" = _azcqiTjb;
         "pkg-6.0.0-beta.1" = _zj7SoB0j;
-        "default" = _zj7SoB0j;
+        "pkg-6.0.0" = _i0t6Ig39;
+        "pkg-6.1.0-alpha.1" = _8OeevjHl;
+        "pkg-6.1.0-alpha.2" = _bM8lo55u;
+        "default" = _bM8lo55u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cinderscapes";

@@ -136,6 +136,11 @@ let
             "file" = "fantasyfurniture_bone-26.2.0.jar";
             "hash" = "sha512-xuVbdkPyX2qv7PEVVPQPwTir4oIDUZTwxEF4ni938AjNkhRAiaWcZ6YjGrcZI3g4vtOiGziI6uISlLde9y/xAg==";
         };
+        _ERchNuk8 = {
+            "id" = "ERchNuk8";
+            "file" = "fantasyfurniture_bone-26.2.4.jar";
+            "hash" = "sha512-V3ZJK97ir+XFiCt4+q/q+d3z30zjnOSJaWbniIJbYP2KtKe5mUj9/LHRvFbtqOWkQQB4EpvnGHVpj9/W/lAghQ==";
+        };
     in {
         "MBtVd5Qj" = _MBtVd5Qj;
         "SgDWwEwl" = _SgDWwEwl;
@@ -164,6 +169,7 @@ let
         "eXMsqMry" = _eXMsqMry;
         "VBQEfSLH" = _VBQEfSLH;
         "m4BUuRqJ" = _m4BUuRqJ;
+        "ERchNuk8" = _ERchNuk8;
         "neoforge-1.21.4" = _2wWMR3sX;
         "neoforge-1.21.5" = _hen1yeGl;
         "neoforge-1.21.6" = _tN6qdu8M;
@@ -173,7 +179,7 @@ let
         "neoforge-26.1" = _VBQEfSLH;
         "neoforge-26.1.1" = _VBQEfSLH;
         "neoforge-26.1.2" = _VBQEfSLH;
-        "neoforge-26.2" = _m4BUuRqJ;
+        "neoforge-26.2" = _ERchNuk8;
         "pkg-21.4.86" = _MBtVd5Qj;
         "pkg-21.4.91" = _SgDWwEwl;
         "pkg-21.4.105" = _i3nafILd;
@@ -201,7 +207,8 @@ let
         "pkg-26.1.4" = _eXMsqMry;
         "pkg-26.1.7" = _VBQEfSLH;
         "pkg-26.2.0" = _m4BUuRqJ;
-        "default" = _m4BUuRqJ;
+        "pkg-26.2.4" = _ERchNuk8;
+        "default" = _ERchNuk8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fantasys-furniture-bone";

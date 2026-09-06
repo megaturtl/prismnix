@@ -56,6 +56,11 @@ let
             "file" = "Melinoe-1.3.0.jar";
             "hash" = "sha512-OCGBQflzkEEn6sT45gap3RRcTeTRp2B4Zu7W9ofIn1Hl4YuAORkGpjuIUnqUmjQfWY9ZqSyBSpF0yWIYVg5n+g==";
         };
+        _eszVIJLb = {
+            "id" = "eszVIJLb";
+            "file" = "Melinoe-1.3.1.jar";
+            "hash" = "sha512-ETXSVjr7ObPPE8DWxMO37Ba0hOnNGXGVmnatqChaSAuFId1klbcu1c3NXACdgLNI+toAxy+02IJHSIxBbkRBcg==";
+        };
     in {
         "cUl4Pnvm" = _cUl4Pnvm;
         "6sRz8Rc3" = _6sRz8Rc3;
@@ -68,8 +73,9 @@ let
         "wlSoqtXF" = _wlSoqtXF;
         "mijjVkuS" = _mijjVkuS;
         "QNBTjH2X" = _QNBTjH2X;
+        "eszVIJLb" = _eszVIJLb;
         "fabric-1.21.10" = _RCP7S7R8;
-        "fabric-26.1.2" = _QNBTjH2X;
+        "fabric-26.1.2" = _eszVIJLb;
         "pkg-0.3" = _cUl4Pnvm;
         "pkg-0.4" = _6sRz8Rc3;
         "pkg-0.5" = _jd17ifC8;
@@ -81,7 +87,8 @@ let
         "pkg-1.2.1" = _wlSoqtXF;
         "pkg-1.2.2" = _mijjVkuS;
         "pkg-1.3.0" = _QNBTjH2X;
-        "default" = _QNBTjH2X;
+        "pkg-1.3.1" = _eszVIJLb;
+        "default" = _eszVIJLb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "melinoe";

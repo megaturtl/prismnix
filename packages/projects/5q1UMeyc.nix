@@ -103,7 +103,7 @@ let
         "fabric-26.1.1" = _ALBRBH3x;
         "fabric-26.1.2" = _ALBRBH3x;
         "fabric-26.2" = _ALBRBH3x;
-        "fabric-26.3-snapshot-6" = _ALBRBH3x;
+        "fabric-26.3-pre-2" = _ALBRBH3x;
         "quilt-1.21.5" = _U3K9PltR;
         "quilt-1.21.6" = _ARDHjRr0;
         "quilt-1.21.7" = _ARDHjRr0;
@@ -125,7 +125,7 @@ let
         "neoforge-26.1.1" = _3swMqfjj;
         "neoforge-26.1.2" = _3swMqfjj;
         "neoforge-26.2" = _3swMqfjj;
-        "neoforge-26.3-snapshot-6" = _3swMqfjj;
+        "neoforge-26.3-pre-2" = _3swMqfjj;
         "pkg-1.0.12" = _U3K9PltR;
         "pkg-1.0.13" = _MiXhzmny;
         "pkg-1.0.14" = _ojnPaS17;

@@ -16,21 +16,28 @@ let
             "file" = "DEWON-TGV_atlantique_thalys-2.1-MTR4.zip";
             "hash" = "sha512-Iv0/S2wQHzBfX3kHCugg7CEOlyPrmEVaVZIQrqzoHwkLNYUoaosI8K2pmS/AzlsOfV87MGJBmt6vj8dElBl6pg==";
         };
+        _cRwYQSAG = {
+            "id" = "cRwYQSAG";
+            "file" = "DEWON-TGV_Atlantique_thalys-3.0-MTR4.zip";
+            "hash" = "sha512-doqJvSGaHRSP3ZbY7QHOSiY1Eu2G22M4kNDDevJwRSNTGa7me/S9kUCwBiwwzuQpPT4CXI0/G2i2MEyIgk7N7Q==";
+        };
     in {
         "6BiPPsVp" = _6BiPPsVp;
         "GMxaBcCG" = _GMxaBcCG;
         "Rkyh2eVB" = _Rkyh2eVB;
+        "cRwYQSAG" = _cRwYQSAG;
         "minecraft-1.16.5" = _Rkyh2eVB;
-        "minecraft-1.17.1" = _Rkyh2eVB;
-        "minecraft-1.18.2" = _Rkyh2eVB;
-        "minecraft-1.19.2" = _Rkyh2eVB;
-        "minecraft-1.19.4" = _Rkyh2eVB;
-        "minecraft-1.20.1" = _Rkyh2eVB;
-        "minecraft-1.20.4" = _Rkyh2eVB;
+        "minecraft-1.17.1" = _cRwYQSAG;
+        "minecraft-1.18.2" = _cRwYQSAG;
+        "minecraft-1.19.2" = _cRwYQSAG;
+        "minecraft-1.19.4" = _cRwYQSAG;
+        "minecraft-1.20.1" = _cRwYQSAG;
+        "minecraft-1.20.4" = _cRwYQSAG;
         "pkg-1.1-mtr4" = _6BiPPsVp;
         "pkg-2.0-mtr4" = _GMxaBcCG;
         "pkg-2.1-MTR4" = _Rkyh2eVB;
-        "default" = _Rkyh2eVB;
+        "pkg-3.0-MTR4" = _cRwYQSAG;
+        "default" = _cRwYQSAG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mtr-tgv-atlantique-thalys";

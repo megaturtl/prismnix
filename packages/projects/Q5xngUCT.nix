@@ -186,6 +186,31 @@ let
             "file" = "weaversparadise-1.5.4a.jar";
             "hash" = "sha512-0mFOfJbZ+YOe8ayBCFy1RPvRHslKTY+aOtUqfUIN4ntcCpDfzSloqBvj6iGmjCpONXgjEtHZ2aXpHWW+zamFRA==";
         };
+        _pjdrOuVc = {
+            "id" = "pjdrOuVc";
+            "file" = "weaversparadise-1.6.jar";
+            "hash" = "sha512-YPC+mIZYTKEU5tcUMpmIbsuCsd9VxHDeMLM8uaMbMb+V1dAkiM296vdc1yDngOniKGhbEsv1wwJa0bAH+i18NQ==";
+        };
+        _g2St4A5P = {
+            "id" = "g2St4A5P";
+            "file" = "weaversparadise-1.6.0.1.jar";
+            "hash" = "sha512-7YmAsRvnJJT3GxNIwD3YZY1Is4FH3dMPyf7cl9qCKGTfIHIVLnWBXncCwgyqTSBk0ek6s6X0S4K5ddLs6am3HA==";
+        };
+        _2CypPT16 = {
+            "id" = "2CypPT16";
+            "file" = "weaversparadise-1.6.1.jar";
+            "hash" = "sha512-2pJtuv4C7VFu64eW9bsUW5aEHIgASWDe3kPgqYzCclbhF3WDYLvoqeQnh6W8W9uAcmxM1CxtOuhYFPjblQRVXA==";
+        };
+        _T8oqSRmO = {
+            "id" = "T8oqSRmO";
+            "file" = "weaversparadise-1.6.2.jar";
+            "hash" = "sha512-7j9BV3ejwcBGpd4wuryNANoGpl3roeaIosr3JJrj06S3F/FYm8cPT2JXluYwVMWY5kaQ02ToxfHzbDYc6AhK7Q==";
+        };
+        _8QuohWAm = {
+            "id" = "8QuohWAm";
+            "file" = "weaversparadise-1.6.2.1.jar";
+            "hash" = "sha512-BPuv8LGEkAIyqXaz4Ax78qR4SjtZK9ZX+Ur1nwnyGmX/zWY+NeErlkMtUvkVS9VZ3U8JiQ5Ip+/XjGU3NlPZ5Q==";
+        };
     in {
         "bx9MbKeL" = _bx9MbKeL;
         "smsMTuMV" = _smsMTuMV;
@@ -224,7 +249,12 @@ let
         "knA0Zp50" = _knA0Zp50;
         "iwExp8ZT" = _iwExp8ZT;
         "DgZrseYl" = _DgZrseYl;
-        "neoforge-1.21.1" = _DgZrseYl;
+        "pjdrOuVc" = _pjdrOuVc;
+        "g2St4A5P" = _g2St4A5P;
+        "2CypPT16" = _2CypPT16;
+        "T8oqSRmO" = _T8oqSRmO;
+        "8QuohWAm" = _8QuohWAm;
+        "neoforge-1.21.1" = _8QuohWAm;
         "forge-1.20.1" = _iwExp8ZT;
         "pkg-1.0" = _bx9MbKeL;
         "pkg-1.0.1" = _smsMTuMV;
@@ -253,7 +283,12 @@ let
         "pkg-1.5.3b" = _1TYeRpgm;
         "pkg-1.5.4" = _knA0Zp50;
         "pkg-1.5.4a" = _DgZrseYl;
-        "default" = _DgZrseYl;
+        "pkg-1.6" = _pjdrOuVc;
+        "pkg-1.6.0.1" = _g2St4A5P;
+        "pkg-1.6.1" = _2CypPT16;
+        "pkg-1.6.2" = _T8oqSRmO;
+        "pkg-1.6.2.1" = _8QuohWAm;
+        "default" = _8QuohWAm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "weavers-paradise";

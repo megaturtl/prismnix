@@ -166,6 +166,16 @@ let
             "file" = "Bibliophilia 2.0 (1.21.5).zip";
             "hash" = "sha512-V2psDaJpLxspZryK8Dg8eij/ew2YM3JqG8YaMItsvVx7sEI11mlW80U2MPMd/+LnC+6BH8PCiYpsHsrTAyl7cw==";
         };
+        _Sb7AXzSJ = {
+            "id" = "Sb7AXzSJ";
+            "file" = "Bibliophilia 1.17 (1.20.1).zip";
+            "hash" = "sha512-eeaPqp8yDK2TEjGpy9AEbVSYQrsRabHgbG2hq4+iXLCRsp4PnB46zh4sh/+qkJS4K8qLzZtiXTOdpu5wp7IRxw==";
+        };
+        _hb41AbA3 = {
+            "id" = "hb41AbA3";
+            "file" = "Bibliophilia 1.17 (1.21.1).zip";
+            "hash" = "sha512-naFCqFJNDpNhmtWohlr4IQWo6dua1AHay4PNtMZIc28KFbJ7RtE5xA4fE8r2FYiW4OlhDGYYH7ENNXZgCArpPw==";
+        };
     in {
         "JRAPczBk" = _JRAPczBk;
         "T9UYZDth" = _T9UYZDth;
@@ -200,20 +210,22 @@ let
         "lHRtbjZT" = _lHRtbjZT;
         "3TbtDZS7" = _3TbtDZS7;
         "gm8y9TkD" = _gm8y9TkD;
+        "Sb7AXzSJ" = _Sb7AXzSJ;
+        "hb41AbA3" = _hb41AbA3;
         "minecraft-1.19" = _nm8hezHP;
         "minecraft-1.19.1" = _nm8hezHP;
         "minecraft-1.19.2" = _nm8hezHP;
         "minecraft-1.19.3" = _nm8hezHP;
         "minecraft-1.19.4" = _nm8hezHP;
-        "minecraft-1.20" = _lHRtbjZT;
-        "minecraft-1.20.1" = _lHRtbjZT;
-        "minecraft-1.20.2" = _lHRtbjZT;
-        "minecraft-1.20.3" = _lHRtbjZT;
-        "minecraft-1.20.4" = _lHRtbjZT;
-        "minecraft-1.20.5" = _3TbtDZS7;
-        "minecraft-1.20.6" = _3TbtDZS7;
-        "minecraft-1.21" = _3TbtDZS7;
-        "minecraft-1.21.1" = _3TbtDZS7;
+        "minecraft-1.20" = _Sb7AXzSJ;
+        "minecraft-1.20.1" = _Sb7AXzSJ;
+        "minecraft-1.20.2" = _Sb7AXzSJ;
+        "minecraft-1.20.3" = _Sb7AXzSJ;
+        "minecraft-1.20.4" = _Sb7AXzSJ;
+        "minecraft-1.20.5" = _hb41AbA3;
+        "minecraft-1.20.6" = _hb41AbA3;
+        "minecraft-1.21" = _hb41AbA3;
+        "minecraft-1.21.1" = _hb41AbA3;
         "minecraft-1.21.5" = _gm8y9TkD;
         "minecraft-1.21.6" = _gm8y9TkD;
         "minecraft-1.21.7" = _gm8y9TkD;
@@ -224,6 +236,7 @@ let
         "minecraft-26.1" = _gm8y9TkD;
         "minecraft-26.1.1" = _gm8y9TkD;
         "minecraft-26.1.2" = _gm8y9TkD;
+        "minecraft-26.2" = _gm8y9TkD;
         "pkg-1.7" = _T9UYZDth;
         "pkg-1.8" = _bOv5im0u;
         "pkg-1.8.1" = _BazqOQ8y;
@@ -248,7 +261,9 @@ let
         "pkg-1.16.1" = _lHRtbjZT;
         "pkg-1.16.1-1.21" = _3TbtDZS7;
         "pkg-2.0" = _gm8y9TkD;
-        "default" = _gm8y9TkD;
+        "pkg-1.17" = _Sb7AXzSJ;
+        "pkg-1.17-21" = _hb41AbA3;
+        "default" = _hb41AbA3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bibliophilia";

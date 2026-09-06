@@ -80,6 +80,10 @@ let
         "minecraft-1.21.8" = _KlKnwOjb;
         "minecraft-1.21.9" = _KlKnwOjb;
         "minecraft-1.21.10" = _KlKnwOjb;
+        "minecraft-26.1" = _KlKnwOjb;
+        "minecraft-26.1.1" = _KlKnwOjb;
+        "minecraft-26.1.2" = _KlKnwOjb;
+        "minecraft-26.2" = _KlKnwOjb;
         "pkg-1.1.0" = _iY0sOU9i;
         "pkg-1.1.1" = _hZFHFwfb;
         "pkg-1.2.0" = _7af7onaI;

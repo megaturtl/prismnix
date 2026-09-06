@@ -21,17 +21,24 @@ let
             "file" = "NEIFIXRX-RNTM-[2.0_X1006_H261].jar";
             "hash" = "sha512-9b/oNG+8srXyN07c5/059EFHsPPVjfnq2kJZc+70T+JmuOa9ELG5L19maLOHKQ2aH31dHBxsFvQTrF9e7NFhCg==";
         };
+        _JhTjZkUd = {
+            "id" = "JhTjZkUd";
+            "file" = "RX-RNTM-[2.3].jar";
+            "hash" = "sha512-jIc7tsfTqNoav8aQweg6fFbBcdNcYy9LA4O3OMUoFOrqfZ5u3+4dUiYYi9gqU2Ib4wh5jxfSRQjcyHTkKi5VPA==";
+        };
     in {
         "OfVCy0Sz" = _OfVCy0Sz;
         "lVsuZmrC" = _lVsuZmrC;
         "Va2ZUbja" = _Va2ZUbja;
         "nDgZtdM4" = _nDgZtdM4;
-        "forge-1.7.10" = _nDgZtdM4;
+        "JhTjZkUd" = _JhTjZkUd;
+        "forge-1.7.10" = _JhTjZkUd;
         "pkg-1.0.0" = _OfVCy0Sz;
         "pkg-1.0.2" = _lVsuZmrC;
         "pkg-1.0.3" = _Va2ZUbja;
         "pkg-2.0" = _nDgZtdM4;
-        "default" = _nDgZtdM4;
+        "pkg-2.3" = _JhTjZkUd;
+        "default" = _JhTjZkUd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ragexs-nuclear-tech";

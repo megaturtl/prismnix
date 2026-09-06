@@ -236,6 +236,36 @@ let
             "file" = "carpet-rms-addition-1.21.6-2.3.2.jar";
             "hash" = "sha512-nfLnrdjwvJjMGoBy5kkXC/DB2t2iDHq2RM3kQF8/VN7quITzcObuHitffi2CQZPXB7uX9pYyH72yxBZLO5dKWA==";
         };
+        _PUw82G5D = {
+            "id" = "PUw82G5D";
+            "file" = "carpet-rms-addition-1.20.4-2.3.2.jar";
+            "hash" = "sha512-MlvyJWomvC9lsrtNOXItWjf9VY9cLaoYYUZrCqPoIQTx0HwS4LrAZ4N0ohUZk0yJYb5GLs6HEf3hjdMhJSP/1w==";
+        };
+        _LMIJoMks = {
+            "id" = "LMIJoMks";
+            "file" = "carpet-rms-addition-1.21.4-2.3.2.jar";
+            "hash" = "sha512-vv34cLw9M984ZOfwtbu02WYKLgZZeZp3zO6IGpvHzxkvXapOOX9402TeMtRRsgLDIeqNVQ9TCSj12dOE8JWTTw==";
+        };
+        _3AdX17fc = {
+            "id" = "3AdX17fc";
+            "file" = "carpet-rms-addition-1.17.1-2.3.2.jar";
+            "hash" = "sha512-oUvOo10TakQF4EC3Neu0FOpIh5GzPAJnX3z3sgOi34Gli6b4YDmpoKoGWTwOr5l1EPEheshNzH71VlqVtMaY4A==";
+        };
+        _56akTCx3 = {
+            "id" = "56akTCx3";
+            "file" = "carpet-rms-addition-1.20.1-2.3.2.jar";
+            "hash" = "sha512-QFWIOnq5MYmXbFLqCqv9uqYPjo1Y2dC3wYNw65NPvUbCJwR4IozFeMArkcle6h2dER4u7nIhiPzTJYh/Iyinxg==";
+        };
+        _GKeQIVCm = {
+            "id" = "GKeQIVCm";
+            "file" = "carpet-rms-addition-1.21.1-2.3.2.jar";
+            "hash" = "sha512-RNBWrg+GPaMYYTOMPcEMSNcdTkGBxpXNOQKuJDdkQogvooV2srokfGxtQx7GN/ILMTsCysldJFXQK0n2SkFb6Q==";
+        };
+        _4tIeCPBp = {
+            "id" = "4tIeCPBp";
+            "file" = "carpet-rms-addition-1.21.6-2.3.2.jar";
+            "hash" = "sha512-nfLnrdjwvJjMGoBy5kkXC/DB2t2iDHq2RM3kQF8/VN7quITzcObuHitffi2CQZPXB7uX9pYyH72yxBZLO5dKWA==";
+        };
     in {
         "LTeIRBt2" = _LTeIRBt2;
         "bKjcWp6b" = _bKjcWp6b;
@@ -284,12 +314,18 @@ let
         "AQ2JpiG9" = _AQ2JpiG9;
         "zMSNIV1G" = _zMSNIV1G;
         "ZOl709Qs" = _ZOl709Qs;
-        "fabric-1.20.1" = _gKXdpbAG;
-        "fabric-1.17.1" = _zMSNIV1G;
-        "fabric-1.21.1" = _n4gGC2re;
-        "fabric-1.21.6" = _ZOl709Qs;
-        "fabric-1.21.4" = _AQ2JpiG9;
-        "fabric-1.20.4" = _fFsVfrRc;
+        "PUw82G5D" = _PUw82G5D;
+        "LMIJoMks" = _LMIJoMks;
+        "3AdX17fc" = _3AdX17fc;
+        "56akTCx3" = _56akTCx3;
+        "GKeQIVCm" = _GKeQIVCm;
+        "4tIeCPBp" = _4tIeCPBp;
+        "fabric-1.20.1" = _56akTCx3;
+        "fabric-1.17.1" = _3AdX17fc;
+        "fabric-1.21.1" = _GKeQIVCm;
+        "fabric-1.21.6" = _4tIeCPBp;
+        "fabric-1.21.4" = _LMIJoMks;
+        "fabric-1.20.4" = _PUw82G5D;
         "pkg-v1.0.0-mc1.20.1" = _LTeIRBt2;
         "pkg-v1.0.0-mc1.17.1" = _bKjcWp6b;
         "pkg-v1.0.0-mc1.21.1" = _OGe5biYE;
@@ -331,13 +367,13 @@ let
         "pkg-v2.3.1-mc1.21.4" = _Bp9timwt;
         "pkg-v2.3.1-mc1.21.1" = _gMnZdX42;
         "pkg-v2.3.1-mc1.17.1" = _FSCF8ii2;
-        "pkg-v2.3.2-mc1.20.4" = _fFsVfrRc;
-        "pkg-v2.3.2-mc1.21.1" = _n4gGC2re;
-        "pkg-v2.3.2-mc1.20.1" = _gKXdpbAG;
-        "pkg-v2.3.2-mc1.21.4" = _AQ2JpiG9;
-        "pkg-v2.3.2-mc1.17.1" = _zMSNIV1G;
-        "pkg-v2.3.2-mc1.21.6" = _ZOl709Qs;
-        "default" = _ZOl709Qs;
+        "pkg-v2.3.2-mc1.20.4" = _PUw82G5D;
+        "pkg-v2.3.2-mc1.21.1" = _GKeQIVCm;
+        "pkg-v2.3.2-mc1.20.1" = _56akTCx3;
+        "pkg-v2.3.2-mc1.21.4" = _LMIJoMks;
+        "pkg-v2.3.2-mc1.17.1" = _3AdX17fc;
+        "pkg-v2.3.2-mc1.21.6" = _4tIeCPBp;
+        "default" = _4tIeCPBp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "carpetrmsaddition";

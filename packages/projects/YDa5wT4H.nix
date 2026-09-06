@@ -176,6 +176,16 @@ let
             "file" = "devices-fabric-1.21.1-0.9.1.jar";
             "hash" = "sha512-UYfzeRXmB5xIqMFPSe1QEzd8cmClqlOLpDpH747ARP2IAuv0RCBhYunly0r42sSTNftpe+pxob8jQlUiwTRA7g==";
         };
+        _HXakPd0p = {
+            "id" = "HXakPd0p";
+            "file" = "omnixerio-devices-fabric-0.10.0.jar";
+            "hash" = "sha512-stw/oebL693WMR0VyYA7oLswu7nqKLEpXy4TR3XOL5sAjblS46dowmHFDKwgYV68kO2E2KEZUgbGTVn7jwsHiA==";
+        };
+        _K43FRAU3 = {
+            "id" = "K43FRAU3";
+            "file" = "omnixerio-devices-neoforge-0.10.0.jar";
+            "hash" = "sha512-7ascflp2vc7F72Ofdof5KlhKtyUr5cqaNCKWci/TJ/WSPZaCuLdorfGAV33g1K/XHgbk2l5pQ1SDHZ3T9Zn7Zw==";
+        };
     in {
         "AnnAVrgU" = _AnnAVrgU;
         "ukslknD2" = _ukslknD2;
@@ -212,13 +222,15 @@ let
         "mqilqeER" = _mqilqeER;
         "nmDiwNq9" = _nmDiwNq9;
         "dOzgS0jO" = _dOzgS0jO;
+        "HXakPd0p" = _HXakPd0p;
+        "K43FRAU3" = _K43FRAU3;
         "fabric-1.18.2" = _yYRBKPhJ;
         "fabric-1.19.2" = _a3M4bKc1;
         "fabric-22w43a" = _W9RAnE5H;
         "fabric-1.19.3" = _93smc3RF;
         "fabric-1.20.1" = _Gphnf0SN;
         "fabric-1.20" = _Gphnf0SN;
-        "fabric-1.21.1" = _dOzgS0jO;
+        "fabric-1.21.1" = _HXakPd0p;
         "forge-1.18.2" = _yYRBKPhJ;
         "forge-1.19.2" = _a3M4bKc1;
         "forge-1.12.2" = _3rsKYLen;
@@ -227,7 +239,7 @@ let
         "forge-1.20" = _uyYeHRob;
         "neoforge-1.20.1" = _uyYeHRob;
         "neoforge-1.20" = _uyYeHRob;
-        "neoforge-1.21.1" = _nmDiwNq9;
+        "neoforge-1.21.1" = _K43FRAU3;
         "pkg-0.5.0+61" = _AnnAVrgU;
         "pkg-0.5.0+64" = _ukslknD2;
         "pkg-0.5.0+80" = _wcHmdoMJ;
@@ -263,7 +275,9 @@ let
         "pkg-0.9.0-fabric" = _mqilqeER;
         "pkg-0.9.1-neoforge" = _nmDiwNq9;
         "pkg-0.9.1-fabric" = _dOzgS0jO;
-        "default" = _dOzgS0jO;
+        "pkg-0.10.0-fabric" = _HXakPd0p;
+        "pkg-0.10.0-neoforge" = _K43FRAU3;
+        "default" = _K43FRAU3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "devices-mod";

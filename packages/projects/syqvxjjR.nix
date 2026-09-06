@@ -176,6 +176,16 @@ let
             "file" = "doener_kebab_mod-1.3.0-neoforge-1.21.8.jar";
             "hash" = "sha512-6UngtCdm+W5j3/jZlXN/xBJTb3aSojvhV05VyX6qhr9YRVajlxG4yh92MFTKk5Y0fTO1J55ILbiBPHBLOQFqgA==";
         };
+        _99AAKs7T = {
+            "id" = "99AAKs7T";
+            "file" = "doener_kebab_mod-1.2.0-1.12.2-port.jar";
+            "hash" = "sha512-DGJHIykIZByDiE+7CfN6Mh6XmNrguwCJuitrtIgjZut2mX1o0frx++4vEJwFO7TYv+AWDL8Lr9XlYizjiN2vrQ==";
+        };
+        _pt4TpvMC = {
+            "id" = "pt4TpvMC";
+            "file" = "doener_kebab_mod-1.3.0-forge-1.20.1.jar";
+            "hash" = "sha512-2eFa8zc38htvfCAkfrHL3Ug5avBG+v+q4oKLmwRk3nSnF7dxCvawZZNIbkx2jIJ2rPsOjbwTiD/EGDZtwx0+ug==";
+        };
     in {
         "EInuLjIO" = _EInuLjIO;
         "56XAdO7v" = _56XAdO7v;
@@ -212,12 +222,15 @@ let
         "Wn8g2llv" = _Wn8g2llv;
         "LepEgAda" = _LepEgAda;
         "g5SBWE0s" = _g5SBWE0s;
+        "99AAKs7T" = _99AAKs7T;
+        "pt4TpvMC" = _pt4TpvMC;
         "forge-1.16.5" = _5sk9I2ds;
-        "forge-1.20.1" = _Wn8g2llv;
+        "forge-1.20.1" = _pt4TpvMC;
         "forge-1.14.4" = _2oTBJ3NV;
         "forge-1.19.4" = _yHJkUKt6;
         "forge-1.19.2" = _AykwcYAo;
         "forge-1.18.2" = _qetehSOw;
+        "forge-1.12.2" = _99AAKs7T;
         "neoforge-1.21.1" = _LepEgAda;
         "neoforge-1.21.5" = _W1sHqNVw;
         "neoforge-1.21.8" = _g5SBWE0s;
@@ -230,10 +243,11 @@ let
         "pkg-1.0.3" = _RGTTfsgB;
         "pkg-1.0.5" = _WST8gYDc;
         "pkg-1.1.0" = _VTgeLLQC;
-        "pkg-1.2.0" = _UqUyy9XQ;
+        "pkg-1.2.0" = _99AAKs7T;
         "pkg-1.2.1" = _nnsDK7Dx;
         "pkg-1.3.0" = _g5SBWE0s;
-        "default" = _g5SBWE0s;
+        "pkg-1.3.1" = _pt4TpvMC;
+        "default" = _pt4TpvMC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dner-kebab-mod";

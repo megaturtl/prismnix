@@ -161,6 +161,11 @@ let
             "file" = "cactus-0.14.jar";
             "hash" = "sha512-MOs4LVlsS8OMKU6hiFi+1nXJpB8HpEpPghB0ZNkYo1uxgVLnIvH/R8vj0zZcIRuIlt1FXQHXvvmHmMI3iGCe0A==";
         };
+        _OcUb4M5j = {
+            "id" = "OcUb4M5j";
+            "file" = "cactus-0.14.1.jar";
+            "hash" = "sha512-IO2tIOoCBB3YWRnzvjXVWaUxpOnJFPzNIem0egIvl0OrHH6t1a4dwUbUOzuHN6b+NfCLj6/GS5LFSn8caNBNxg==";
+        };
     in {
         "UUpL3upy" = _UUpL3upy;
         "RzQcMYXm" = _RzQcMYXm;
@@ -194,6 +199,7 @@ let
         "tAE7CUxS" = _tAE7CUxS;
         "qv5rVGwf" = _qv5rVGwf;
         "QWoIu1CM" = _QWoIu1CM;
+        "OcUb4M5j" = _OcUb4M5j;
         "fabric-1.20.1" = _RzQcMYXm;
         "fabric-1.20.4" = _CrPP6ZH6;
         "fabric-1.21" = _AjNDbgdC;
@@ -204,7 +210,7 @@ let
         "fabric-26.1" = _tAE7CUxS;
         "fabric-26.1.1" = _tAE7CUxS;
         "fabric-26.1.2" = _tAE7CUxS;
-        "fabric-26.2" = _QWoIu1CM;
+        "fabric-26.2" = _OcUb4M5j;
         "quilt-1.20.4" = _CrPP6ZH6;
         "quilt-1.21" = _Klx3laVU;
         "quilt-1.21.1" = _Klx3laVU;
@@ -212,8 +218,8 @@ let
         "quilt-26.1.1" = _tAE7CUxS;
         "quilt-26.1.2" = _tAE7CUxS;
         "quilt-1.21.11" = _qv5rVGwf;
-        "quilt-26.2" = _QWoIu1CM;
-        "neoforge-26.2" = _QWoIu1CM;
+        "quilt-26.2" = _OcUb4M5j;
+        "neoforge-26.2" = _OcUb4M5j;
         "pkg-0.9.4" = _UUpL3upy;
         "pkg-0.9.7" = _RzQcMYXm;
         "pkg-0.9.8" = _jpmcLeyg;
@@ -246,7 +252,8 @@ let
         "pkg-0.13" = _tAE7CUxS;
         "pkg-0.12.4" = _qv5rVGwf;
         "pkg-0.14" = _QWoIu1CM;
-        "default" = _QWoIu1CM;
+        "pkg-0.14.1" = _OcUb4M5j;
+        "default" = _OcUb4M5j;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cactus";

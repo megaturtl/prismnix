@@ -341,6 +341,26 @@ let
             "file" = "turtlematic-forge-1.20.1-1.4.9.jar";
             "hash" = "sha512-jviK+HjHBuSzCTecHIPH6OF+eX20ZtIXusLcUQK7Tgo4DhmdrnGV8vNnivBEdRGBpX9VJHyRBtkVb1i3XLqhZw==";
         };
+        _lPsvhYzr = {
+            "id" = "lPsvhYzr";
+            "file" = "turtlematic-fabric-1.20.1-1.4.10.jar";
+            "hash" = "sha512-nSnsKEYdQhAHL5sS5rxa//9WzyJs9rBWdSOrk2yfvzmKUd3Q0XZmsRcltFXUquSYir9e6p246TvtBCf8NfiQbw==";
+        };
+        _HPe21l9I = {
+            "id" = "HPe21l9I";
+            "file" = "turtlematic-forge-1.20.1-1.4.10.jar";
+            "hash" = "sha512-jHnFxHzm6q83+5hmH8h2Au++NcFTJsUMGBdc5XzHTWxW4YNRXfySLKJUzaw6mADAhjyPEIo0/YWL1tF6CvyMfw==";
+        };
+        _BYUhSZ5W = {
+            "id" = "BYUhSZ5W";
+            "file" = "turtlematic-forge-1.21.1-1.4.10.jar";
+            "hash" = "sha512-FjwSH0f3T10XE8l6fpyJa1WCRt9aHJBebbwsPBuiRAHtLIEUrgEkYOcvKAYptsWaF44wAJTFyj1xZls4NFA5CA==";
+        };
+        _RsDpCtUL = {
+            "id" = "RsDpCtUL";
+            "file" = "turtlematic-fabric-1.21.1-1.4.10.jar";
+            "hash" = "sha512-edAVyjp9ktoJE4okJHkrQaBRjayejpkzZehxy/EbIU+MGSFpj0Bm7bZqprtL98aJHwONJpjAFxJaPnXCZC7gZg==";
+        };
     in {
         "d0swwYuN" = _d0swwYuN;
         "TjeSqWtI" = _TjeSqWtI;
@@ -410,14 +430,20 @@ let
         "VknkhBm9" = _VknkhBm9;
         "ItLPypYt" = _ItLPypYt;
         "mpBlDa7m" = _mpBlDa7m;
+        "lPsvhYzr" = _lPsvhYzr;
+        "HPe21l9I" = _HPe21l9I;
+        "BYUhSZ5W" = _BYUhSZ5W;
+        "RsDpCtUL" = _RsDpCtUL;
         "fabric-1.18.2" = _kkcAJxxV;
         "fabric-1.19.2" = _40PAKicl;
         "fabric-1.19.4" = _hxbLz5Y3;
         "fabric-1.20" = _yMqwtgzW;
-        "fabric-1.20.1" = _ItLPypYt;
+        "fabric-1.20.1" = _lPsvhYzr;
+        "fabric-1.21.1" = _RsDpCtUL;
         "forge-1.19.4" = _NwZ92Xzx;
         "forge-1.20" = _lKSvbiQ9;
-        "forge-1.20.1" = _mpBlDa7m;
+        "forge-1.20.1" = _HPe21l9I;
+        "neoforge-1.21.1" = _BYUhSZ5W;
         "pkg-0.4.3" = _d0swwYuN;
         "pkg-1.18.2-0.5.3" = _TjeSqWtI;
         "pkg-1.19.2-0.5.3" = _qnmXM95A;
@@ -455,7 +481,9 @@ let
         "pkg-1.20.1-1.4.7" = _c6eMtcLN;
         "pkg-1.20.1-1.4.8" = _VknkhBm9;
         "pkg-1.20.1-1.4.9" = _mpBlDa7m;
-        "default" = _mpBlDa7m;
+        "pkg-1.20.1-1.4.10" = _HPe21l9I;
+        "pkg-1.21.1-1.4.10" = _RsDpCtUL;
+        "default" = _RsDpCtUL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "turtlematic";

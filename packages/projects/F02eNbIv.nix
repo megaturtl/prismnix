@@ -11,13 +11,20 @@ let
             "file" = "additionalrecipes-0.0.3.jar";
             "hash" = "sha512-XFmePOC7GIlrC4yP2p2SNQBAblEwl3S17Xcp4QDFy4Cbny1U1VCHK6n4LBdSkfD5V7H71PtTaXAnQCyQKsruiQ==";
         };
+        _yUMhpDOY = {
+            "id" = "yUMhpDOY";
+            "file" = "additionalrecipes-0.0.4.jar";
+            "hash" = "sha512-W1HUTrstT9QVqb8JfhMd6pBJnyMtgEXZL3xWfZwRTMX+6lOJ8sM5tbgMD1YpPc0BKS6mV9zaj8oc0dKq1tZtQw==";
+        };
     in {
         "o5CyFAsl" = _o5CyFAsl;
         "rjdMOuai" = _rjdMOuai;
-        "neoforge-1.21.1" = _rjdMOuai;
+        "yUMhpDOY" = _yUMhpDOY;
+        "neoforge-1.21.1" = _yUMhpDOY;
         "pkg-0.0.1" = _o5CyFAsl;
         "pkg-0.0.3" = _rjdMOuai;
-        "default" = _rjdMOuai;
+        "pkg-0.0.4" = _yUMhpDOY;
+        "default" = _yUMhpDOY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-new-additional-recipes";

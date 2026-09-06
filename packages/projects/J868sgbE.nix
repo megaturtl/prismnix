@@ -426,6 +426,11 @@ let
             "file" = "PickleTweaks-26.1.2-10.0.0.jar";
             "hash" = "sha512-/4BdnAZsQ8Vwvm7rpfo16l0ZastZ7DesD1l7lJcTMNvOmmDbyiugRXrOw42QGZtUR+tid10N3nRElE33n40sSQ==";
         };
+        _f0yyB2t6 = {
+            "id" = "f0yyB2t6";
+            "file" = "PickleTweaks-26.1.2-10.0.1.jar";
+            "hash" = "sha512-m9lqPVXiGOthqV2gZebzq/9OC9xx4PvP8v+8ZTCfJY99oUbgrVrYWqBGKCxodr9U9t1Veh1oyf25xijHQv4BZA==";
+        };
     in {
         "1PVM6OIL" = _1PVM6OIL;
         "6pPgoNub" = _6pPgoNub;
@@ -512,6 +517,7 @@ let
         "P7LOve0z" = _P7LOve0z;
         "pFjsKGQZ" = _pFjsKGQZ;
         "9XVSWNdE" = _9XVSWNdE;
+        "f0yyB2t6" = _f0yyB2t6;
         "forge-1.7.10" = _dAtmv24x;
         "forge-1.12" = _az2FKXcZ;
         "forge-1.12.2" = _DDowRN8b;
@@ -532,7 +538,7 @@ let
         "forge-1.20.1" = _Gl4bgevd;
         "neoforge-1.21" = _pFjsKGQZ;
         "neoforge-1.21.1" = _pFjsKGQZ;
-        "neoforge-26.1.2" = _9XVSWNdE;
+        "neoforge-26.1.2" = _f0yyB2t6;
         "pkg-1.0.0" = _1PVM6OIL;
         "pkg-1.1.0" = _6pPgoNub;
         "pkg-1.2.0" = _iXFkOBOU;
@@ -618,7 +624,8 @@ let
         "pkg-9.0.6" = _P7LOve0z;
         "pkg-9.0.7" = _pFjsKGQZ;
         "pkg-10.0.0" = _9XVSWNdE;
-        "default" = _9XVSWNdE;
+        "pkg-10.0.1" = _f0yyB2t6;
+        "default" = _f0yyB2t6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pickle-tweaks";

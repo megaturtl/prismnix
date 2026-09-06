@@ -31,6 +31,11 @@ let
             "file" = "Cobblemon Accessories v5 [1.7].zip";
             "hash" = "sha512-0NmY/R3uG+9rDirTpU+NXqWuY0Qb3zoxkpPySp6HDqvKgGk1mnI6G/oBC6H5fUisG7BmJgyuJ8t/oUBzfDIbhQ==";
         };
+        _Pvro6VIS = {
+            "id" = "Pvro6VIS";
+            "file" = "Cobblemon Accessories v6 [1.7].zip";
+            "hash" = "sha512-k3pYdh6+cyY0UZ0WG8gTxevohdphltXiFQlsM/dachNYd1AgTWopZgWAzUBg7j+R536kJ5WGV+DNdRQdPIFkEA==";
+        };
     in {
         "2ckrny0e" = _2ckrny0e;
         "RSRnQb2T" = _RSRnQb2T;
@@ -38,14 +43,16 @@ let
         "pWO44VG8" = _pWO44VG8;
         "QLgFx90i" = _QLgFx90i;
         "b8T3qbTa" = _b8T3qbTa;
-        "minecraft-1.21.1" = _b8T3qbTa;
+        "Pvro6VIS" = _Pvro6VIS;
+        "minecraft-1.21.1" = _Pvro6VIS;
         "pkg-1" = _2ckrny0e;
         "pkg-2" = _RSRnQb2T;
         "pkg-3" = _zrIwqvYB;
         "pkg-4" = _pWO44VG8;
         "pkg-4_Hotfix" = _QLgFx90i;
         "pkg-5" = _b8T3qbTa;
-        "default" = _b8T3qbTa;
+        "pkg-6" = _Pvro6VIS;
+        "default" = _Pvro6VIS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-accessories";

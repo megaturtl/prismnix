@@ -41,6 +41,11 @@ let
             "file" = "radiach-1.04.0-neoforge-1.21.1.jar";
             "hash" = "sha512-mm8P4BvwpCb/r8AhhWEWVMWcqzEF81KhkwH4qHJvpeMWVEq1P2qRAM9ztemNU9AU1VdcsQuUsH45TUnsKwoE9Q==";
         };
+        _PDsIZq5b = {
+            "id" = "PDsIZq5b";
+            "file" = "radiach-2.0.0.jar";
+            "hash" = "sha512-gTjhcaMzDRBUU1F7tD2zRkVyAVuA91iP1vRyfzkXrCgkajlSuOeEW7Iolp52KZuvov815whfMb/L4joGya9QhA==";
+        };
     in {
         "oBc9d2cv" = _oBc9d2cv;
         "B6YWYInF" = _B6YWYInF;
@@ -50,13 +55,15 @@ let
         "1O80j603" = _1O80j603;
         "BzQn521F" = _BzQn521F;
         "FIPF4aFu" = _FIPF4aFu;
+        "PDsIZq5b" = _PDsIZq5b;
         "forge-1.20.1" = _BzQn521F;
-        "neoforge-1.21.1" = _FIPF4aFu;
+        "neoforge-1.21.1" = _PDsIZq5b;
         "pkg-1.01" = _B6YWYInF;
         "pkg-1.02" = _NW36tkR6;
         "pkg-1.03" = _1O80j603;
         "pkg-1.04.0" = _FIPF4aFu;
-        "default" = _FIPF4aFu;
+        "pkg-2.0.0" = _PDsIZq5b;
+        "default" = _PDsIZq5b;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "radiach";

@@ -2600,7 +2600,7 @@ let
         "fabric-1.21.3" = _bScqDYiI;
         "fabric-1.21.9" = _Frt7nJSz;
         "fabric-1.21.10" = _Frt7nJSz;
-        "fabric-1.21.11" = _Frt7nJSz;
+        "fabric-1.21.11" = _UpeldSHu;
         "fabric-26.1" = _Ggyhlyvm;
         "fabric-26.1.1" = _Ggyhlyvm;
         "fabric-26.1.2" = _Ggyhlyvm;

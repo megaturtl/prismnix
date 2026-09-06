@@ -26,19 +26,33 @@ let
             "file" = "ConstructionWandLegacy-1.1.0.jar";
             "hash" = "sha512-dnSNS40oQ1wrPS3c/aUxqQqYpg6iYiL103kanAaeUfd8VJ4jICNsw7bDR4GvVC4LQWw7GggvkFu1QFyWG1ATUg==";
         };
+        _3k29i4Dn = {
+            "id" = "3k29i4Dn";
+            "file" = "ConstructionWandLegacy-1.1.1.jar";
+            "hash" = "sha512-r+7XqpsMuyyUNAEDMzBEXpzfqQ7pr3JZKomoyvfvwiGkyNuZZCxj2UPsM3g7r0JknHPtz7BVuzQ3zCHx1SV7Tg==";
+        };
+        _zoTm3Cba = {
+            "id" = "zoTm3Cba";
+            "file" = "ConstructionWandLegacy-1.1.2.jar";
+            "hash" = "sha512-khLtPjM51H2hBy1thlkQlwFp33cMGLjyvcqAYB3kPuXf7S3azl23yneK6dG1Sh9Cy7KehklclO59r0ORP0pmQQ==";
+        };
     in {
         "E4E5inHY" = _E4E5inHY;
         "UPeI0hDf" = _UPeI0hDf;
         "AkWD8Ff9" = _AkWD8Ff9;
         "33MiSISi" = _33MiSISi;
         "u36DJObN" = _u36DJObN;
-        "forge-1.12.2" = _u36DJObN;
+        "3k29i4Dn" = _3k29i4Dn;
+        "zoTm3Cba" = _zoTm3Cba;
+        "forge-1.12.2" = _zoTm3Cba;
         "pkg-1.0.0" = _E4E5inHY;
         "pkg-1.0.1" = _UPeI0hDf;
         "pkg-1.0.2" = _AkWD8Ff9;
         "pkg-1.0.3" = _33MiSISi;
         "pkg-1.1.0" = _u36DJObN;
-        "default" = _u36DJObN;
+        "pkg-1.1.1" = _3k29i4Dn;
+        "pkg-1.1.2" = _zoTm3Cba;
+        "default" = _zoTm3Cba;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "constructionwandlegacy";

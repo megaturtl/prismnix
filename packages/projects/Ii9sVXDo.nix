@@ -221,6 +221,31 @@ let
             "file" = "floating_islands-1.5.2-1.21.jar";
             "hash" = "sha512-jUV/k1UWNr/imfoGIJfIDUwxQ5iZwuuqIGlcBDEyRjs6Lc8ERUjfmG4+ngwbKZSy6zGzULaKkOUykKxT+sgMlQ==";
         };
+        _FrweTX8x = {
+            "id" = "FrweTX8x";
+            "file" = "floating_islands-1.5.3.jar";
+            "hash" = "sha512-ncmoM7usYjx9wSzc0V5qwKj0TutYaB6xGPOeZnCpE534Wb92IqolCZGHfylT5W6xR5LdKZKOHSuJeFcMfE4HZw==";
+        };
+        _NX2vCZkz = {
+            "id" = "NX2vCZkz";
+            "file" = "floating_islands-1.5.3-1.21.1-neoforge.jar";
+            "hash" = "sha512-OF1kb3BSQvsXt3K+D/SVVRQTSfAQmdw7XEWArrimZFGLLUGHhT3zU3i6HoJPsmlBq2/fNAP2ryE2vWL1Py6Wrw==";
+        };
+        _7ZpLBx6J = {
+            "id" = "7ZpLBx6J";
+            "file" = "floating_islands-1.5.3-1.21.jar";
+            "hash" = "sha512-zJzV9lDEIf81tnQ+LbY2oi9YULiWT0LT10EIpTAmHRk4xxU5VkMriMU84NaTUIboUDZn8UZjpuB9RLo8bPbAUQ==";
+        };
+        _1T3m9hz1 = {
+            "id" = "1T3m9hz1";
+            "file" = "floating_islands-1.5.3-26.1.2.jar";
+            "hash" = "sha512-hml9qS5zC6/k/LJqQyoQYiSnH/LHhT9bYU5z/0I7u/1u7k3+ozwtPQxzseVWBRtROPSD0iKeHHrmnMeNcg71Rw==";
+        };
+        _hvukrQvi = {
+            "id" = "hvukrQvi";
+            "file" = "floating_islands-1.5.3-fabric.jar";
+            "hash" = "sha512-MxfeWyeK3SvRAEMV3c7guJsbxp2HS663eHt0PVt6QdxZV5Kq8nvO1xtzp5h8l1zvM3d93OEFaJurlc+jLMmjJQ==";
+        };
     in {
         "bnBkdxCp" = _bnBkdxCp;
         "gbsVYHCY" = _gbsVYHCY;
@@ -266,16 +291,21 @@ let
         "S6TwyMDU" = _S6TwyMDU;
         "ZH7sOYRn" = _ZH7sOYRn;
         "wfyYpACC" = _wfyYpACC;
-        "forge-1.20.1" = _Kl5ScJvN;
-        "forge-1.20.2" = _Kl5ScJvN;
-        "forge-1.20.3" = _Kl5ScJvN;
-        "forge-1.20.4" = _Kl5ScJvN;
-        "forge-1.20.5" = _Kl5ScJvN;
-        "forge-1.20.6" = _Kl5ScJvN;
-        "forge-1.21.1" = _wfyYpACC;
-        "forge-1.21.2" = _wfyYpACC;
-        "forge-1.21.3" = _wfyYpACC;
-        "forge-1.21.4" = _wfyYpACC;
+        "FrweTX8x" = _FrweTX8x;
+        "NX2vCZkz" = _NX2vCZkz;
+        "7ZpLBx6J" = _7ZpLBx6J;
+        "1T3m9hz1" = _1T3m9hz1;
+        "hvukrQvi" = _hvukrQvi;
+        "forge-1.20.1" = _FrweTX8x;
+        "forge-1.20.2" = _FrweTX8x;
+        "forge-1.20.3" = _FrweTX8x;
+        "forge-1.20.4" = _FrweTX8x;
+        "forge-1.20.5" = _FrweTX8x;
+        "forge-1.20.6" = _FrweTX8x;
+        "forge-1.21.1" = _7ZpLBx6J;
+        "forge-1.21.2" = _7ZpLBx6J;
+        "forge-1.21.3" = _7ZpLBx6J;
+        "forge-1.21.4" = _7ZpLBx6J;
         "forge-1.21.5" = _wfyYpACC;
         "forge-1.21.6" = _wfyYpACC;
         "forge-1.21.7" = _wfyYpACC;
@@ -283,13 +313,14 @@ let
         "forge-1.21.9" = _wfyYpACC;
         "forge-1.21.10" = _wfyYpACC;
         "forge-1.21.11" = _wfyYpACC;
-        "fabric-1.20.1" = _S6TwyMDU;
-        "fabric-1.20.2" = _S6TwyMDU;
-        "fabric-1.20.3" = _S6TwyMDU;
-        "fabric-1.20.4" = _S6TwyMDU;
-        "fabric-1.20.5" = _S6TwyMDU;
-        "fabric-1.20.6" = _S6TwyMDU;
-        "neoforge-1.21.1" = _ZH7sOYRn;
+        "fabric-1.20.1" = _hvukrQvi;
+        "fabric-1.20.2" = _hvukrQvi;
+        "fabric-1.20.3" = _hvukrQvi;
+        "fabric-1.20.4" = _hvukrQvi;
+        "fabric-1.20.5" = _hvukrQvi;
+        "fabric-1.20.6" = _hvukrQvi;
+        "neoforge-1.21.1" = _NX2vCZkz;
+        "neoforge-26.1.2" = _1T3m9hz1;
         "pkg-1.3.1" = _bnBkdxCp;
         "pkg-1.3.3" = _gbsVYHCY;
         "pkg-1.3.4" = _sStdX5pD;
@@ -320,7 +351,11 @@ let
         "pkg-1.5.2" = _S6TwyMDU;
         "pkg-1.5.2-1.21.1-neoforge" = _ZH7sOYRn;
         "pkg-1.5.2-1.21" = _wfyYpACC;
-        "default" = _wfyYpACC;
+        "pkg-1.5.3" = _hvukrQvi;
+        "pkg-1.5.3-1.21.1-neoforge" = _NX2vCZkz;
+        "pkg-1.5.3-1.21" = _7ZpLBx6J;
+        "pkg-1.5.3-26.1.2" = _1T3m9hz1;
+        "default" = _hvukrQvi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "embers-floating-islands";

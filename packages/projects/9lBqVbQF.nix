@@ -276,6 +276,36 @@ let
             "file" = "SBO-0.4.3+1.21.11-fabric.jar";
             "hash" = "sha512-e6C4MfuLWxthgKloAonY2QsOPwhiEZJ7BrBrUqEVnp2WYyw7OAkWpXVQehb+7orYtYcJXfCPKQdNjOioQgJ0Fw==";
         };
+        _P488HcTV = {
+            "id" = "P488HcTV";
+            "file" = "SBO-0.5.0+26.1.2-fabric.jar";
+            "hash" = "sha512-N9v0mWgHGS9LjMRjXDvC/LLUXvOnSP3D7Ox18+PLAK0Yw7pfPCEfflvy6zA3vdrHICflnM1XS+DGKxx/R8Sx+w==";
+        };
+        _fRLzeY4F = {
+            "id" = "fRLzeY4F";
+            "file" = "SBO-0.5.0+26.2-fabric.jar";
+            "hash" = "sha512-alqiS8A0eCV0Y6XNM5Ey/P7RAOYoIuAcBuZPBvFwUj66ZP4X/4M76UwAcAwfWmooUIwFVptesdgn2nXCyG0i6g==";
+        };
+        _abHOVp5L = {
+            "id" = "abHOVp5L";
+            "file" = "SBO-0.5.1+26.2-fabric.jar";
+            "hash" = "sha512-uRqQ47TGr000JouyQmtxovW98QpvD4KN4D7nYHAjTB/LrrmTzKMDmaZ4ECopTkwYywvZdYuWN4bjzVn1LyejBw==";
+        };
+        _yDeUVu6J = {
+            "id" = "yDeUVu6J";
+            "file" = "SBO-0.5.1+26.1.2-fabric.jar";
+            "hash" = "sha512-X5aLeHZY0CG2sp8zi0m7YZyulpniEDl53eFxM+WwsYEEtk/Ioq3y6Jie0FylcTSrlqYMVasboMTgKExniqD3Jw==";
+        };
+        _DnPJ7hEV = {
+            "id" = "DnPJ7hEV";
+            "file" = "SBO-0.5.2+26.1.2-fabric.jar";
+            "hash" = "sha512-FOE8Gr1QLm+Rhe+EwcJfpZxI47nu/7JCvmta102UC2N3Vgwmbux1aLCrN7gbAwchpEtgAoCH4AN5A2HUd9tU/w==";
+        };
+        _l8lG6LGt = {
+            "id" = "l8lG6LGt";
+            "file" = "SBO-0.5.2+26.2-fabric.jar";
+            "hash" = "sha512-Yw/S3rWyU2UhKUuRXBy7XAP0Vl4iGL/rqmH14id0iCdeIXDusWpJ2Cih5HG5qw7wvuUpN/tjVf/HLYSL+d7k0g==";
+        };
     in {
         "iTmJSP8c" = _iTmJSP8c;
         "cx9WG89Z" = _cx9WG89Z;
@@ -332,6 +362,12 @@ let
         "5buRmzvd" = _5buRmzvd;
         "KyhU782S" = _KyhU782S;
         "Y53FGlJj" = _Y53FGlJj;
+        "P488HcTV" = _P488HcTV;
+        "fRLzeY4F" = _fRLzeY4F;
+        "abHOVp5L" = _abHOVp5L;
+        "yDeUVu6J" = _yDeUVu6J;
+        "DnPJ7hEV" = _DnPJ7hEV;
+        "l8lG6LGt" = _l8lG6LGt;
         "fabric-1.21.5" = _aqgOE9q4;
         "fabric-1.21.7" = _a4L52wAT;
         "fabric-1.21.8" = _a4L52wAT;
@@ -339,7 +375,8 @@ let
         "fabric-1.21.11" = _Y53FGlJj;
         "fabric-26.1" = _GmvelbTm;
         "fabric-26.1.1" = _GmvelbTm;
-        "fabric-26.1.2" = _KyhU782S;
+        "fabric-26.1.2" = _DnPJ7hEV;
+        "fabric-26.2" = _l8lG6LGt;
         "pkg-beta0.0.1" = _iTmJSP8c;
         "pkg-beta0.0.2" = _cx9WG89Z;
         "pkg-beta0.0.3" = _UqLhP62Y;
@@ -392,7 +429,13 @@ let
         "pkg-0.4.2-26.1.2" = _5buRmzvd;
         "pkg-0.4.3-26.1.2" = _KyhU782S;
         "pkg-0.4.3-1.21.11" = _Y53FGlJj;
-        "default" = _Y53FGlJj;
+        "pkg-0.5.0-26.1.2" = _P488HcTV;
+        "pkg-0.5.0-26.2" = _fRLzeY4F;
+        "pkg-0.5.1-26.2" = _abHOVp5L;
+        "pkg-0.5.1-26.1.2" = _yDeUVu6J;
+        "pkg-0.5.2-26.1.2" = _DnPJ7hEV;
+        "pkg-0.5.2-26.2" = _l8lG6LGt;
+        "default" = _l8lG6LGt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skyblock-overhaul";

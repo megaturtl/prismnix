@@ -81,6 +81,21 @@ let
             "file" = "MoreSpearEnchantments-neoforge-1.1.1+26.1.jar";
             "hash" = "sha512-7ZYYTkUM7AD/lyREpyGfsbd4MGyjChd8eqzE+cK7U/K0RzcpP1AyPmSTTk3s7PotOJ7I/MjzoZI+QaATPpzHqA==";
         };
+        _avKiPxmj = {
+            "id" = "avKiPxmj";
+            "file" = "MoreSpearEnchantments-neoforge-1.1.2+26.2.jar";
+            "hash" = "sha512-6gN4SXHkA1h9EGv3QIvNwOJFqEMWNzRseNWf0Oi+xeAqbctflhE8fl78FD3JsaB/SVctu11VGHzADLxg/Gt/WQ==";
+        };
+        _xb0FysHG = {
+            "id" = "xb0FysHG";
+            "file" = "MoreSpearEnchantments-forge-1.1.2+26.2.jar";
+            "hash" = "sha512-nZ7L1kqIsa//2BgcNNJzCQrcrwENAJIpbUOCuXCXUVNGTHgujacYku/mrssPRrzMXacMmt6d/WsnUXntg9zZPQ==";
+        };
+        _BB5WJDvy = {
+            "id" = "BB5WJDvy";
+            "file" = "MoreSpearEnchantments-fabric-1.1.2+26.2.jar";
+            "hash" = "sha512-Wn2rW4OXq1ppoBDpeJWX/lXcGfplbUxxLN2kUoJnoQCL4QEfiRGqQsmJNzPcSbo9VaAxtHNqRKnzI2Na2v34aQ==";
+        };
     in {
         "Lc4wXug6" = _Lc4wXug6;
         "H1YrafqT" = _H1YrafqT;
@@ -98,18 +113,24 @@ let
         "7TGGCYqT" = _7TGGCYqT;
         "dxY4VPAS" = _dxY4VPAS;
         "tskfHzBC" = _tskfHzBC;
+        "avKiPxmj" = _avKiPxmj;
+        "xb0FysHG" = _xb0FysHG;
+        "BB5WJDvy" = _BB5WJDvy;
         "fabric-1.21.11" = _ZCz1oitY;
         "fabric-26.1" = _7TGGCYqT;
         "fabric-26.1.1" = _7TGGCYqT;
         "fabric-26.1.2" = _7TGGCYqT;
+        "fabric-26.2" = _BB5WJDvy;
         "neoforge-1.21.11" = _ZDRKyLm3;
         "neoforge-26.1" = _tskfHzBC;
         "neoforge-26.1.1" = _tskfHzBC;
         "neoforge-26.1.2" = _tskfHzBC;
+        "neoforge-26.2" = _avKiPxmj;
         "forge-1.21.11" = _9IX6k5Ne;
         "forge-26.1" = _dxY4VPAS;
         "forge-26.1.1" = _dxY4VPAS;
         "forge-26.1.2" = _dxY4VPAS;
+        "forge-26.2" = _xb0FysHG;
         "folia-1.21.11" = _2itzZMrk;
         "paper-1.21.11" = _2itzZMrk;
         "purpur-1.21.11" = _2itzZMrk;
@@ -120,7 +141,8 @@ let
         "pkg-1.1.1+1.21.11" = _ZCz1oitY;
         "pkg-1.1.1a2+1.21.11" = _2itzZMrk;
         "pkg-1.1.1+26.1" = _tskfHzBC;
-        "default" = _tskfHzBC;
+        "pkg-1.1.2+26.2" = _BB5WJDvy;
+        "default" = _BB5WJDvy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-spear-enchantments";

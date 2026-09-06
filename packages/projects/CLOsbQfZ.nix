@@ -516,6 +516,11 @@ let
             "file" = "enchantonce-26.2-2.6.1.jar";
             "hash" = "sha512-vrmXh0pCUsE3MvPlG3z4eRNJKQbhSKA/DLZGLRb4J5KxYUEAw11dypAiq6Rm7ApR+bsY7jYveiu8ncMnKLHeog==";
         };
+        _RrZel7gG = {
+            "id" = "RrZel7gG";
+            "file" = "enchantonce-26.2-2.6.2.jar";
+            "hash" = "sha512-vXlqIm6pg6j+uohKeFL3HKHEO4Z3Xc+Dal6M9mNN2Xn5Jqj25pkL4Hniu5Boh+8Zm9CQyKO3yuZePTGh5tJ20Q==";
+        };
     in {
         "sBckdwjD" = _sBckdwjD;
         "48zD7zT5" = _48zD7zT5;
@@ -620,6 +625,7 @@ let
         "Q4DnXpgY" = _Q4DnXpgY;
         "xtGloUbx" = _xtGloUbx;
         "kuOYw2Rv" = _kuOYw2Rv;
+        "RrZel7gG" = _RrZel7gG;
         "neoforge-1.21.4" = _oyoNDYr6;
         "neoforge-1.21.1" = _DqdEmRk5;
         "neoforge-1.21.5" = _wPXXkKeV;
@@ -636,7 +642,7 @@ let
         "neoforge-26.1" = _Q4DnXpgY;
         "neoforge-26.1.1" = _Q4DnXpgY;
         "neoforge-26.1.2" = _Q4DnXpgY;
-        "neoforge-26.2" = _kuOYw2Rv;
+        "neoforge-26.2" = _RrZel7gG;
         "forge-1.21" = _4aNrCPnu;
         "forge-1.21.1" = _4aNrCPnu;
         "forge-1.21.3" = _H9tpMJuV;
@@ -748,7 +754,8 @@ let
         "pkg-26.1.2-2.6.1" = _Q4DnXpgY;
         "pkg-1.21.11-2.6.1" = _xtGloUbx;
         "pkg-26.2-2.6.1" = _kuOYw2Rv;
-        "default" = _kuOYw2Rv;
+        "pkg-26.2-2.6.2" = _RrZel7gG;
+        "default" = _RrZel7gG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantonce";

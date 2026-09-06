@@ -2386,6 +2386,56 @@ let
             "file" = "emotecraft-geyser-for-MC26.2-3.4.0-b.build.162.jar";
             "hash" = "sha512-3A8WmE3q8sylH/b6TUNe9Sl4jhtiW+wys/tVcPGIuQ1X4vpZw6wiCbmLp8UWW4mio20SBKOIU67bpcf5T1ChbQ==";
         };
+        _Hwqp4xhc = {
+            "id" = "Hwqp4xhc";
+            "file" = "emotecraft-fabric-for-MC1.21.11-3.2.0-b.build.163.jar";
+            "hash" = "sha512-zKHtfn8NtNg/g87rXRRtTGfT/vZJku73rMTtMRLqA+u8IbBfJn0oOnTMCWCl2Fkjle9F9dxHPt6c/YXfVhBNiw==";
+        };
+        _Nxw2htPO = {
+            "id" = "Nxw2htPO";
+            "file" = "emotecraft-neoforge-for-MC1.21.11-3.2.0-b.build.163.jar";
+            "hash" = "sha512-OkDvTF0DpV6X3H3BgoqrsV6Am2xSWMOqnAW7UyUv3SO7iqbmHqKd8ncHv5qooDyZAq1LOjZJBB/J+UKsKKZKIQ==";
+        };
+        _Gh7hgcmW = {
+            "id" = "Gh7hgcmW";
+            "file" = "emotecraft-paper-for-MC1.21.11-3.2.0-b.build.163.jar";
+            "hash" = "sha512-J4hL+4u2qjb3PeuqElxzSRMXB/iXjw+jyRSmYy0e9hH+TMSaFko6coRaZCfFJ6onGbSjuyN8360N15hJn3uLaw==";
+        };
+        _SZ4GecpA = {
+            "id" = "SZ4GecpA";
+            "file" = "emotecraft-geyser-for-MC1.21.11-3.2.0-b.build.163.jar";
+            "hash" = "sha512-LLO26uCaTYgJAZJnbonptFfTiVfathjgD5j+ym/5Wj75WCo4f9ofhU9xtzI2JUzoIUNoKImq8Z0vzr5kgCTu2Q==";
+        };
+        _N3M6FTa2 = {
+            "id" = "N3M6FTa2";
+            "file" = "emotecraft-for-MC26.1.2-3.3.0-b.build.164.jar";
+            "hash" = "sha512-JGVP1OciF9RWEuSeT47T4qdufwEKspQbk3N6TPqXIoaa6DVHJwz8cIE4W3T8AZ6iqQBBuQN3hv/rPQ2izP28KQ==";
+        };
+        _HeWPsF8V = {
+            "id" = "HeWPsF8V";
+            "file" = "emotecraft-paper-for-MC26.1.2-3.3.0-b.build.164.jar";
+            "hash" = "sha512-XHUAYlmUEFClZL9SlPhSQDlwOBOj8/sQD86bKEXyOkPMz75GZWko/UMFs9+sBx4jd6cY0jtMSsqWicDkYEiQIA==";
+        };
+        _aZNbAEkv = {
+            "id" = "aZNbAEkv";
+            "file" = "emotecraft-geyser-for-MC26.1.2-3.3.0-b.build.164.jar";
+            "hash" = "sha512-fChFq90V9/XgG0KrpkrWNGa5HK7PGE5gpWUXIDWB1reckQtzXJvGjhx7N5frqDWzij16vfozjWs2ywKR9CO1uw==";
+        };
+        _dWmUMoEr = {
+            "id" = "dWmUMoEr";
+            "file" = "emotecraft-for-MC26.2-3.4.0-b.build.165.jar";
+            "hash" = "sha512-1GHsRJzgIEdIZrGQaT/C+NyVaHrzrReOoaclXEHZKlNz1sjFKewSb+DrM50NwyV0rUkqOv4xBQwKQo2OQxEkXw==";
+        };
+        _m45dAoAQ = {
+            "id" = "m45dAoAQ";
+            "file" = "emotecraft-paper-for-MC26.2-3.4.0-b.build.165.jar";
+            "hash" = "sha512-AKhdwSFYpIs297ECiHkIfbrXIMmSmZB3lA1OkhvYo2WmM+AP9GGCGjD+ez7xwSP4s3T84qy2zsgNt23q6dTdjw==";
+        };
+        _IzrUr1gI = {
+            "id" = "IzrUr1gI";
+            "file" = "emotecraft-geyser-for-MC26.2-3.4.0-b.build.165.jar";
+            "hash" = "sha512-rz3abg+Otwmo9T0a5xj0axD5cGQA3ntML0GdL8swxMFVjNHRio0URbuPQlwuIJd9ffSkTZoE01j8OCaurxhcIA==";
+        };
     in {
         "qCJdHFBu" = _qCJdHFBu;
         "WzOyhCoN" = _WzOyhCoN;
@@ -2864,6 +2914,16 @@ let
         "r6QJBg3z" = _r6QJBg3z;
         "BxLu7cQr" = _BxLu7cQr;
         "rf2reX3T" = _rf2reX3T;
+        "Hwqp4xhc" = _Hwqp4xhc;
+        "Nxw2htPO" = _Nxw2htPO;
+        "Gh7hgcmW" = _Gh7hgcmW;
+        "SZ4GecpA" = _SZ4GecpA;
+        "N3M6FTa2" = _N3M6FTa2;
+        "HeWPsF8V" = _HeWPsF8V;
+        "aZNbAEkv" = _aZNbAEkv;
+        "dWmUMoEr" = _dWmUMoEr;
+        "m45dAoAQ" = _m45dAoAQ;
+        "IzrUr1gI" = _IzrUr1gI;
         "fabric-1.16.5" = _CwHBNRDB;
         "fabric-1.17-rc2" = _sFwcIuk2;
         "fabric-1.17" = _uo6QM4ts;
@@ -2889,11 +2949,11 @@ let
         "fabric-1.21.8" = _6ftsR5Uf;
         "fabric-1.21.9" = _3TUdChhE;
         "fabric-1.21.10" = _3TUdChhE;
-        "fabric-1.21.11" = _11btIGaG;
-        "fabric-26.1" = _vKzxDlHd;
-        "fabric-26.1.1" = _vKzxDlHd;
-        "fabric-26.1.2" = _vKzxDlHd;
-        "fabric-26.2" = _r6QJBg3z;
+        "fabric-1.21.11" = _Hwqp4xhc;
+        "fabric-26.1" = _N3M6FTa2;
+        "fabric-26.1.1" = _N3M6FTa2;
+        "fabric-26.1.2" = _N3M6FTa2;
+        "fabric-26.2" = _dWmUMoEr;
         "forge-1.16.5" = _OU1kdZya;
         "forge-1.17" = _zCMGFBBB;
         "forge-1.17.1" = _EcyGB5zh;
@@ -2932,11 +2992,11 @@ let
         "neoforge-1.21.8" = _9jtOdjDz;
         "neoforge-1.21.9" = _NPQrGKBH;
         "neoforge-1.21.10" = _NPQrGKBH;
-        "neoforge-1.21.11" = _Avzgb7iL;
-        "neoforge-26.1" = _vKzxDlHd;
-        "neoforge-26.1.1" = _vKzxDlHd;
-        "neoforge-26.1.2" = _vKzxDlHd;
-        "neoforge-26.2" = _r6QJBg3z;
+        "neoforge-1.21.11" = _Nxw2htPO;
+        "neoforge-26.1" = _N3M6FTa2;
+        "neoforge-26.1.1" = _N3M6FTa2;
+        "neoforge-26.1.2" = _N3M6FTa2;
+        "neoforge-26.2" = _dWmUMoEr;
         "bukkit-1.21.1" = _DVp3FUqR;
         "folia-1.21.4" = _nyMO0fCO;
         "folia-1.21.5" = _ny9tWdHq;
@@ -2945,11 +3005,11 @@ let
         "folia-1.21.1" = _DVp3FUqR;
         "folia-1.21.9" = _fRC6XnWP;
         "folia-1.21.10" = _fRC6XnWP;
-        "folia-1.21.11" = _VIbRzuRD;
-        "folia-26.1" = _KwVVvQ4C;
-        "folia-26.1.1" = _KwVVvQ4C;
-        "folia-26.1.2" = _KwVVvQ4C;
-        "folia-26.2" = _BxLu7cQr;
+        "folia-1.21.11" = _Gh7hgcmW;
+        "folia-26.1" = _HeWPsF8V;
+        "folia-26.1.1" = _HeWPsF8V;
+        "folia-26.1.2" = _HeWPsF8V;
+        "folia-26.2" = _m45dAoAQ;
         "paper-1.21.4" = _nyMO0fCO;
         "paper-1.21.5" = _ny9tWdHq;
         "paper-1.21.7" = _XUadKUAv;
@@ -2957,16 +3017,16 @@ let
         "paper-1.21.1" = _DVp3FUqR;
         "paper-1.21.9" = _fRC6XnWP;
         "paper-1.21.10" = _fRC6XnWP;
-        "paper-1.21.11" = _VIbRzuRD;
-        "paper-26.1" = _KwVVvQ4C;
-        "paper-26.1.1" = _KwVVvQ4C;
-        "paper-26.1.2" = _KwVVvQ4C;
-        "paper-26.2" = _BxLu7cQr;
-        "geyser-1.21.11" = _d2Bn1CEn;
-        "geyser-26.1" = _IpMxXlnY;
-        "geyser-26.1.1" = _IpMxXlnY;
-        "geyser-26.1.2" = _IpMxXlnY;
-        "geyser-26.2" = _rf2reX3T;
+        "paper-1.21.11" = _Gh7hgcmW;
+        "paper-26.1" = _HeWPsF8V;
+        "paper-26.1.1" = _HeWPsF8V;
+        "paper-26.1.2" = _HeWPsF8V;
+        "paper-26.2" = _m45dAoAQ;
+        "geyser-1.21.11" = _SZ4GecpA;
+        "geyser-26.1" = _aZNbAEkv;
+        "geyser-26.1.1" = _aZNbAEkv;
+        "geyser-26.1.2" = _aZNbAEkv;
+        "geyser-26.2" = _IzrUr1gI;
         "pkg-1.3.0" = _qCJdHFBu;
         "pkg-1.3.1" = _WzOyhCoN;
         "pkg-1.4.0" = _LTUWpL7U;
@@ -3442,7 +3502,17 @@ let
         "pkg-3.4.0-b.build.162" = _r6QJBg3z;
         "pkg-3.4.0-b.build.162-paper" = _BxLu7cQr;
         "pkg-3.4.0-b.build.162-geyser" = _rf2reX3T;
-        "default" = _rf2reX3T;
+        "pkg-3.2.0-b.build.163+1.21.11-fabric" = _Hwqp4xhc;
+        "pkg-3.2.0-b.build.163+1.21.11-forge" = _Nxw2htPO;
+        "pkg-3.2.0-b.build.163+1.21.11-paper" = _Gh7hgcmW;
+        "pkg-3.2.0-b.build.163+1.21.11-geyser" = _SZ4GecpA;
+        "pkg-3.3.0-b.build.164" = _N3M6FTa2;
+        "pkg-3.3.0-b.build.164-paper" = _HeWPsF8V;
+        "pkg-3.3.0-b.build.164-geyser" = _aZNbAEkv;
+        "pkg-3.4.0-b.build.165" = _dWmUMoEr;
+        "pkg-3.4.0-b.build.165-paper" = _m45dAoAQ;
+        "pkg-3.4.0-b.build.165-geyser" = _IzrUr1gI;
+        "default" = _IzrUr1gI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "emotecraft";

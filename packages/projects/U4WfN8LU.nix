@@ -86,6 +86,11 @@ let
             "file" = "rezeroexperience v2.1.jar";
             "hash" = "sha512-1JT/9G0ufU7dOq5va9O7dgpEdWrgnJTp5MiW0+jaDiy5hh1itCNnU43eiUrr9jxVqq09KfQYISEbi/xK4zQjkQ==";
         };
+        _HZJ3zWZy = {
+            "id" = "HZJ3zWZy";
+            "file" = "rezeroexperience v2.1.1.jar";
+            "hash" = "sha512-joJ2K83Vvhk2vO0Ly5BjGCn8e6IN6axyFI8+b3X86ly3I48KvkBwMeoOny+fI9SjjYMi2vmpzSPSOrIvG9+oMA==";
+        };
     in {
         "1lt5alvH" = _1lt5alvH;
         "C8jKF9QV" = _C8jKF9QV;
@@ -104,7 +109,8 @@ let
         "NloXsR5b" = _NloXsR5b;
         "AVQ4k3mv" = _AVQ4k3mv;
         "8FGzNllN" = _8FGzNllN;
-        "forge-1.20.1" = _8FGzNllN;
+        "HZJ3zWZy" = _HZJ3zWZy;
+        "forge-1.20.1" = _HZJ3zWZy;
         "pkg-1.3" = _1lt5alvH;
         "pkg-1.4" = _C8jKF9QV;
         "pkg-1.4.2" = _A2x7vxxg;
@@ -119,7 +125,8 @@ let
         "pkg-2.0.2" = _NloXsR5b;
         "pkg-2.0.3" = _AVQ4k3mv;
         "pkg-2.1" = _8FGzNllN;
-        "default" = _8FGzNllN;
+        "pkg-2.1.1" = _HZJ3zWZy;
+        "default" = _HZJ3zWZy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rezero-experience";

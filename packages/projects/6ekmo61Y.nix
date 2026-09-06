@@ -1,26 +1,6 @@
 {lib, callPackage, ...}:
 let
     versions = (let
-        _KT84Zue8 = {
-            "id" = "KT84Zue8";
-            "file" = "hypixelautotip-1.0.0.jar";
-            "hash" = "sha512-khjdga5evBsy5BdR+Cw+lEHl09DLu+UtMcv/Skx53KeuXLE8v2c9HWqiFJuCsLOfQDl9OVyEmW6kN2FxLe2ndg==";
-        };
-        _a63Iulls = {
-            "id" = "a63Iulls";
-            "file" = "hypixelautotip-1.1.0.jar";
-            "hash" = "sha512-I+FK9DGzGZJh/mzD0dPDndMvM2/xIO4dDBgiw2RCPCifDtVJwBE1R+TwTLGSQpycPyXunOOpI9PjENNFoAAGjA==";
-        };
-        _2BxqQtne = {
-            "id" = "2BxqQtne";
-            "file" = "hypixelautotip-1.1.1.jar";
-            "hash" = "sha512-Fd5tqgiOrjYyQId4cLQbIXSUZk1ry0jMAE8plBgeY9h3sV8Ad+OERAH44mHjgy/YnfKFs6wO+qHftTna3ynNEQ==";
-        };
-        _zV9od9wG = {
-            "id" = "zV9od9wG";
-            "file" = "hypixelautotip-1.1.2.jar";
-            "hash" = "sha512-MIh4fXVUlcefPDbhfzW057zW0nhaP+jYFOWTswCAWEIisFNSBU9dSRbAYCU9xPI8BDVlkaXaMHfB/MdqibAlMQ==";
-        };
         _gJ0onRg6 = {
             "id" = "gJ0onRg6";
             "file" = "hypixelautotip-1.1.3.jar";
@@ -56,11 +36,12 @@ let
             "file" = "hypixelautotip-1.4.1.jar";
             "hash" = "sha512-Tfmj7ZA7WQqKQAnRMUFiuFAPMdB+P0zyux84+7HeJ0NQJIvcs3LGGP+TPt/DThJeEAjbrxOvDTJWGVAKlIcguw==";
         };
+        _QKhVWQQk = {
+            "id" = "QKhVWQQk";
+            "file" = "hypixelautotip-1.4.2+26.2.jar";
+            "hash" = "sha512-XqWQvvkKsEtp6WeXeeFf4XzJti145LUv1TbudiNZa6rzALbMdIKZPQS1fhMblIqFhZJnLcrV1u3hYrDZacALig==";
+        };
     in {
-        "KT84Zue8" = _KT84Zue8;
-        "a63Iulls" = _a63Iulls;
-        "2BxqQtne" = _2BxqQtne;
-        "zV9od9wG" = _zV9od9wG;
         "gJ0onRg6" = _gJ0onRg6;
         "oBD8HX9e" = _oBD8HX9e;
         "zTbemzBa" = _zTbemzBa;
@@ -68,6 +49,7 @@ let
         "ciBat2ip" = _ciBat2ip;
         "WIXEIzew" = _WIXEIzew;
         "f7kRNWxz" = _f7kRNWxz;
+        "QKhVWQQk" = _QKhVWQQk;
         "fabric-1.21" = _gJ0onRg6;
         "fabric-1.21.1" = _gJ0onRg6;
         "fabric-1.21.2" = _gJ0onRg6;
@@ -83,11 +65,7 @@ let
         "fabric-26.1" = _f7kRNWxz;
         "fabric-26.1.1" = _f7kRNWxz;
         "fabric-26.1.2" = _f7kRNWxz;
-        "fabric-26.2" = _f7kRNWxz;
-        "pkg-1.0.0" = _KT84Zue8;
-        "pkg-1.1.0" = _a63Iulls;
-        "pkg-1.1.1" = _2BxqQtne;
-        "pkg-1.1.2" = _zV9od9wG;
+        "fabric-26.2" = _QKhVWQQk;
         "pkg-1.1.3" = _gJ0onRg6;
         "pkg-1.1.4" = _oBD8HX9e;
         "pkg-1.2.0" = _zTbemzBa;
@@ -95,7 +73,8 @@ let
         "pkg-1.3.0" = _ciBat2ip;
         "pkg-1.4.0" = _WIXEIzew;
         "pkg-1.4.1" = _f7kRNWxz;
-        "default" = _f7kRNWxz;
+        "pkg-1.4.2+26.2" = _QKhVWQQk;
+        "default" = _QKhVWQQk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hypixelautotip";

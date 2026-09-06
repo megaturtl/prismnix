@@ -71,6 +71,21 @@ let
             "file" = "deselect-2.0.2-neoforge.jar";
             "hash" = "sha512-dJ2UNntthv4WRDJPp7dDaQkHK72svG4M++9ZzEE424MJhgRvrtrukmM2sP99J/znUK5VveZdkIuDp6drok2oYQ==";
         };
+        _3lYfifre = {
+            "id" = "3lYfifre";
+            "file" = "deselect-2.0.3-neoforge.jar";
+            "hash" = "sha512-ohvbJzgJT5iocCKfi+DfnCowsBTkc3mPPqtSo+Zdl3JyHQcEsqaOIaZa01OtX2hQaSxfCTdPiM5gpy9mwxCLXQ==";
+        };
+        _vrOqNigb = {
+            "id" = "vrOqNigb";
+            "file" = "deselect-2.0.3-fabric-1.21.1.jar";
+            "hash" = "sha512-8/sjWhjkv3lLUBqkfeChVKutGXPWFVfWFtoNSSZr36/axlHDvR1dv8JyszRsmzCkLf+Ou9gyw94zep7Xs2F1mg==";
+        };
+        _5pCySzeM = {
+            "id" = "5pCySzeM";
+            "file" = "deselect-2.0.3-fabric-26.2.jar";
+            "hash" = "sha512-cno+kcwpHqjF8Echtqlx084cYbKFKx7xQNqEqgRvo17i+Sh87IW+7XV/ugIrFPwObwbp7PSWb/RTvkDIAYrdZw==";
+        };
     in {
         "hJYCAUgK" = _hJYCAUgK;
         "XIcRhgYj" = _XIcRhgYj;
@@ -86,19 +101,14 @@ let
         "83tSFusK" = _83tSFusK;
         "ZEm0GLbB" = _ZEm0GLbB;
         "KOmWNWyc" = _KOmWNWyc;
+        "3lYfifre" = _3lYfifre;
+        "vrOqNigb" = _vrOqNigb;
+        "5pCySzeM" = _5pCySzeM;
         "fabric-1.20.1" = _Ter2PgA6;
-        "fabric-1.21.1" = _83tSFusK;
-        "fabric-1.21.4" = _83tSFusK;
-        "fabric-1.21.2" = _83tSFusK;
-        "fabric-1.21.3" = _83tSFusK;
-        "fabric-1.21.5" = _83tSFusK;
-        "fabric-1.21.6" = _83tSFusK;
-        "fabric-1.21.7" = _83tSFusK;
-        "fabric-1.21.8" = _83tSFusK;
-        "fabric-1.21.9" = _83tSFusK;
-        "fabric-1.21.10" = _83tSFusK;
-        "fabric-1.21.11" = _83tSFusK;
-        "neoforge-1.21.1" = _KOmWNWyc;
+        "fabric-1.21.1" = _vrOqNigb;
+        "fabric-1.21.4" = _IBaOEWGN;
+        "fabric-26.2" = _5pCySzeM;
+        "neoforge-1.21.1" = _3lYfifre;
         "pkg-1.0.0-1.20.1" = _hJYCAUgK;
         "pkg-1.0.0-1.21.1" = _XIcRhgYj;
         "pkg-1.1.0" = _Okqnd4Z3;
@@ -107,7 +117,8 @@ let
         "pkg-2.0.0" = _hvB3ogbh;
         "pkg-2.0.1" = _ZEm0GLbB;
         "pkg-2.0.2" = _KOmWNWyc;
-        "default" = _KOmWNWyc;
+        "pkg-2.0.3" = _5pCySzeM;
+        "default" = _5pCySzeM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "deselect";

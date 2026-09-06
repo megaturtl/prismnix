@@ -856,6 +856,41 @@ let
             "file" = "craftingtweaks-neoforge-26.2-26.2.0.2.jar";
             "hash" = "sha512-nWetOKuTGb0DUlv6OzPgYnY7WuFLK6I+tq9ucNuzwrf1vylMuMuC/WddIuLEhwKhloUuzf3mNz6LJZgBD2CK0w==";
         };
+        _VgmeQYbj = {
+            "id" = "VgmeQYbj";
+            "file" = "craftingtweaks-fabric-26.1.2-26.1.2.3.jar";
+            "hash" = "sha512-XlpHdbg32j8JYn5FwcvKhVr3i5ogMHgOzgVilysS6n3M0p0gVS20maF96nqFiVnl38FnhKiN73U3XggpAU6chQ==";
+        };
+        _BLJvsCpH = {
+            "id" = "BLJvsCpH";
+            "file" = "craftingtweaks-fabric-26.2-26.2.0.3.jar";
+            "hash" = "sha512-wEPkKPG0mFfZbijDn8umm3Yehyvvy1h5YZKsP3QkHGSEaONqKFfShqYA9K2AoguD1M2eafEx7j9CQMAPkpW+NA==";
+        };
+        _1c8Vvgy1 = {
+            "id" = "1c8Vvgy1";
+            "file" = "craftingtweaks-neoforge-26.1.2-26.1.2.3.jar";
+            "hash" = "sha512-WO8HAejoF6YH4vyQwkutg82Ovm1gMKBeowDZyQ8ohUOXKe705neeweHRlLZuf762Ku0xHbwbDJF9i144+ozvfA==";
+        };
+        _OGz3mqlf = {
+            "id" = "OGz3mqlf";
+            "file" = "craftingtweaks-neoforge-26.2-26.2.0.3.jar";
+            "hash" = "sha512-+vUUeu0WWhCmX93pE5As4/AEtPlYKbhyc3bMaSQYn4SyX8ICALV8N6ln+U0rM3/rIobS7oRtjkYEj7127A9oKg==";
+        };
+        _mrEoXwnt = {
+            "id" = "mrEoXwnt";
+            "file" = "craftingtweaks-forge-1.21.1-21.1.11.jar";
+            "hash" = "sha512-jqmtrssUBDl4JImt6uTakb5jfkUM4ZzDnLLr0tUpF2zMDeHHNDQpFPeo4nIJVHDQiolsYe72MB0aZu5aEJydqA==";
+        };
+        _U9eZqQPe = {
+            "id" = "U9eZqQPe";
+            "file" = "craftingtweaks-fabric-1.21.1-21.1.11.jar";
+            "hash" = "sha512-UlWGH5sd+yYRKZSQLWucdwWoOmdkyChvh2P37jzi3UgNlvR2i2h8CBD32IEAYFG7SKPzheVYzmiPMZ7qaJ2NkA==";
+        };
+        _IhkQpEve = {
+            "id" = "IhkQpEve";
+            "file" = "craftingtweaks-neoforge-1.21.1-21.1.11.jar";
+            "hash" = "sha512-4YaSEcLgN72q2+m59ZLUzPt6uU17poA2KdZSWUXtwF25c9tr11aPKvRVCuRhaubLuDLhaEQSukOdN/UjtWTZpw==";
+        };
     in {
         "dXRb2LFV" = _dXRb2LFV;
         "lcifm82J" = _lcifm82J;
@@ -1028,6 +1063,13 @@ let
         "W49iGkLY" = _W49iGkLY;
         "L8AL817i" = _L8AL817i;
         "VhVW93ck" = _VhVW93ck;
+        "VgmeQYbj" = _VgmeQYbj;
+        "BLJvsCpH" = _BLJvsCpH;
+        "1c8Vvgy1" = _1c8Vvgy1;
+        "OGz3mqlf" = _OGz3mqlf;
+        "mrEoXwnt" = _mrEoXwnt;
+        "U9eZqQPe" = _U9eZqQPe;
+        "IhkQpEve" = _IhkQpEve;
         "fabric-1.19" = _tKBYt2oi;
         "fabric-1.19.1" = _tKBYt2oi;
         "fabric-1.19.2" = _tKBYt2oi;
@@ -1042,7 +1084,7 @@ let
         "fabric-1.20.4" = _xOe3HQ5m;
         "fabric-1.20.6" = _af5ZU524;
         "fabric-1.21" = _GauFSLw1;
-        "fabric-1.21.1" = _1gVlq6sW;
+        "fabric-1.21.1" = _U9eZqQPe;
         "fabric-1.21.2" = _fBy338Q2;
         "fabric-1.21.3" = _fBy338Q2;
         "fabric-1.21.4" = _cJPeC6Lj;
@@ -1055,8 +1097,8 @@ let
         "fabric-1.21.11" = _1s1JHamL;
         "fabric-26.1" = _ZlYheOfe;
         "fabric-26.1.1" = _ZlYheOfe;
-        "fabric-26.1.2" = _uFP71r7b;
-        "fabric-26.2" = _L8AL817i;
+        "fabric-26.1.2" = _VgmeQYbj;
+        "fabric-26.2" = _BLJvsCpH;
         "forge-1.19" = _c6e4xjFu;
         "forge-1.19.1" = _c6e4xjFu;
         "forge-1.19.2" = _c6e4xjFu;
@@ -1072,7 +1114,7 @@ let
         "forge-1.20.6" = _FpegjpTv;
         "forge-1.12.2" = _wTjRHejU;
         "forge-1.21" = _7UPNoGd5;
-        "forge-1.21.1" = _6SiFYb20;
+        "forge-1.21.1" = _mrEoXwnt;
         "forge-1.21.4" = _oebukPTx;
         "forge-1.21.5" = _QyRs2ivi;
         "forge-1.21.6" = _CL319mo0;
@@ -1084,7 +1126,7 @@ let
         "neoforge-1.20.4" = _mEj8WdY3;
         "neoforge-1.20.6" = _hvTcosIx;
         "neoforge-1.21" = _uFQrAvJM;
-        "neoforge-1.21.1" = _9CqWhYyd;
+        "neoforge-1.21.1" = _IhkQpEve;
         "neoforge-1.21.2" = _JxycJDDK;
         "neoforge-1.21.3" = _JxycJDDK;
         "neoforge-1.21.4" = _LTnjTbp3;
@@ -1097,8 +1139,8 @@ let
         "neoforge-1.21.11" = _hJZTzu8p;
         "neoforge-26.1" = _Lnhol0EM;
         "neoforge-26.1.1" = _Lnhol0EM;
-        "neoforge-26.1.2" = _W49iGkLY;
-        "neoforge-26.2" = _VhVW93ck;
+        "neoforge-26.1.2" = _1c8Vvgy1;
+        "neoforge-26.2" = _OGz3mqlf;
         "pkg-15.0.0+fabric-1.19" = _dXRb2LFV;
         "pkg-15.0.0+forge-1.19" = _lcifm82J;
         "pkg-15.0.1+fabric-1.19" = _XXSRJlH1;
@@ -1270,7 +1312,14 @@ let
         "pkg-26.1.2.2+neoforge-26.1.2" = _W49iGkLY;
         "pkg-26.2.0.2+fabric-26.2" = _L8AL817i;
         "pkg-26.2.0.2+neoforge-26.2" = _VhVW93ck;
-        "default" = _VhVW93ck;
+        "pkg-26.1.2.3+fabric-26.1.2" = _VgmeQYbj;
+        "pkg-26.2.0.3+fabric-26.2" = _BLJvsCpH;
+        "pkg-26.1.2.3+neoforge-26.1.2" = _1c8Vvgy1;
+        "pkg-26.2.0.3+neoforge-26.2" = _OGz3mqlf;
+        "pkg-21.1.11+forge-1.21.1" = _mrEoXwnt;
+        "pkg-21.1.11+fabric-1.21.1" = _U9eZqQPe;
+        "pkg-21.1.11+neoforge-1.21.1" = _IhkQpEve;
+        "default" = _IhkQpEve;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crafting-tweaks";

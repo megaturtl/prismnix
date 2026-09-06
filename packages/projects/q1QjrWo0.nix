@@ -66,6 +66,11 @@ let
             "file" = "lefthandtrick-11-1.0.1.jar";
             "hash" = "sha512-0qgn/qIkfA+w7i4ya8I1f1aAC0Ulxy8hd7vLAEqg1lyWmmnQXZLbBSdaCWBiHcMa/WNCdRZ7Tx8MFE95fcpYkg==";
         };
+        _QVdkzy9U = {
+            "id" = "QVdkzy9U";
+            "file" = "lefthandtrick-1.0.0.jar";
+            "hash" = "sha512-Cdq3ogeUjOldpIITB/PVTi9Rc/TuHCA7VY1szJV6eBdaGjiWX0UPNpDRpTjSQLI4YrupV9FWNCPaMCkiQYWaAQ==";
+        };
     in {
         "pQz9dL3c" = _pQz9dL3c;
         "aPVOtaRJ" = _aPVOtaRJ;
@@ -80,9 +85,14 @@ let
         "MzC0oLax" = _MzC0oLax;
         "Ne3O8ImG" = _Ne3O8ImG;
         "7hzYhFT3" = _7hzYhFT3;
+        "QVdkzy9U" = _QVdkzy9U;
         "fabric-1.21.10" = _MzC0oLax;
         "fabric-1.21.9" = _MzC0oLax;
         "fabric-1.21.11" = _7hzYhFT3;
+        "fabric-26.1" = _QVdkzy9U;
+        "fabric-26.1.1" = _QVdkzy9U;
+        "fabric-26.1.2" = _QVdkzy9U;
+        "fabric-26.2" = _QVdkzy9U;
         "pkg-1.0.3" = _pQz9dL3c;
         "pkg-1.0.4" = _aPVOtaRJ;
         "pkg-1.0.45" = _lyadun0v;
@@ -96,7 +106,8 @@ let
         "pkg-1.1.11" = _MzC0oLax;
         "pkg-1.1.12" = _Ne3O8ImG;
         "pkg-1.1.13" = _7hzYhFT3;
-        "default" = _7hzYhFT3;
+        "pkg-1.1.14" = _QVdkzy9U;
+        "default" = _QVdkzy9U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "left-hand-trick";

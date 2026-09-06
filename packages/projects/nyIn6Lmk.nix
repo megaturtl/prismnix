@@ -71,6 +71,16 @@ let
             "file" = "farmers_croptopia-1.21.1-3.2.2.jar";
             "hash" = "sha512-CXmJwQ6HeOqXHaAQxaF++HzZJ8WyMRq2ZNw9plmdT+0va7fZ1gP5cInFxjw0Ky499iYsefIFHOxngFqaxfRGkg==";
         };
+        _7bEZUxEw = {
+            "id" = "7bEZUxEw";
+            "file" = "farmers_croptopia-1.21.1-3.2.3.jar";
+            "hash" = "sha512-q4quUVgo7AoL45KH6C9OnvS6Kn5qoSbL6Dm/YhVy+ASXAwxKX/L3tMKp3hbXksD+wKgRgOwc0zIYB1oc+Xax/A==";
+        };
+        _1FioytCe = {
+            "id" = "1FioytCe";
+            "file" = "farmers_croptopia-1.21.1-3.2.4.jar";
+            "hash" = "sha512-OUHePu7Qr39xipRL0poW+K/Y2a7BBkBcqBw7brg+1KuNWsVgEB35UOuJZyF546g4KrozA/OLK4jgCnjkW0oFzQ==";
+        };
     in {
         "5RLB7LdQ" = _5RLB7LdQ;
         "VcJPiWJO" = _VcJPiWJO;
@@ -86,8 +96,10 @@ let
         "CRN0eXf4" = _CRN0eXf4;
         "Xo88YLqa" = _Xo88YLqa;
         "qEMqMnT5" = _qEMqMnT5;
+        "7bEZUxEw" = _7bEZUxEw;
+        "1FioytCe" = _1FioytCe;
         "forge-1.20.1" = _Xo88YLqa;
-        "neoforge-1.21.1" = _qEMqMnT5;
+        "neoforge-1.21.1" = _1FioytCe;
         "pkg-1.0.0" = _5RLB7LdQ;
         "pkg-1.21.1-1.0.1" = _VcJPiWJO;
         "pkg-1.20.1-1.1.0" = _MrKEZDH7;
@@ -102,7 +114,9 @@ let
         "pkg-1.21.1-3.2.1" = _CRN0eXf4;
         "pkg-1.20.1-3.2.1" = _Xo88YLqa;
         "pkg-1.21.1-3.2.2" = _qEMqMnT5;
-        "default" = _qEMqMnT5;
+        "pkg-1.21.1-3.2.3" = _7bEZUxEw;
+        "pkg-1.21.1-3.2.4" = _1FioytCe;
+        "default" = _1FioytCe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "farmers-croptopia";

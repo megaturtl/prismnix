@@ -91,6 +91,21 @@ let
             "file" = "hextrapats-1.8.0.jar";
             "hash" = "sha512-JMzIDDMLeaR62GXaOGwcWjzRv1v5JLdU6PrCr18EFjYmmSUYLErPeWKDcP9RLI6RpI6UxI5UFiHdtdFYT2lWFw==";
         };
+        _lsgkbZUm = {
+            "id" = "lsgkbZUm";
+            "file" = "hextrapats-1.8.1+1.20.1.jar";
+            "hash" = "sha512-qrWM6uPT/TlCrZOaGGsP/mMCpc0JYG2Nw2HWObxpxJwLt0sHMlYvidY2kKFCUEDkjsB6AOUFGGlpiuKEtckRCg==";
+        };
+        _VIfxA71o = {
+            "id" = "VIfxA71o";
+            "file" = "hextrapats-1.9.0+1.20.1.jar";
+            "hash" = "sha512-ERBbMqorMxMsdzmxHoILxPGkKLBgOslZaqPeCAJ74z2ckk80m49I1yVTNupQg7cn6tycqBKX0B/+TCMMbYYHPQ==";
+        };
+        _6Ii3jN4n = {
+            "id" = "6Ii3jN4n";
+            "file" = "hextrapats-1.9.1+1.20.1.jar";
+            "hash" = "sha512-TqyuQ+SZG07sfhVE/nDbMimR60NzxZxTxxNkkA91V+9OuGlEsCFbADMKi1DXKwS01o9w0orZ79DZ/9OSL0hFKQ==";
+        };
     in {
         "3hnahca1" = _3hnahca1;
         "ocDpGvGz" = _ocDpGvGz;
@@ -110,7 +125,10 @@ let
         "R5EeBmes" = _R5EeBmes;
         "K9x1rH6F" = _K9x1rH6F;
         "TwLu5nLB" = _TwLu5nLB;
-        "fabric-1.20.1" = _TwLu5nLB;
+        "lsgkbZUm" = _lsgkbZUm;
+        "VIfxA71o" = _VIfxA71o;
+        "6Ii3jN4n" = _6Ii3jN4n;
+        "fabric-1.20.1" = _6Ii3jN4n;
         "pkg-1.0.0" = _3hnahca1;
         "pkg-1.0.1" = _ocDpGvGz;
         "pkg-1.0.2" = _Tcv0eeQA;
@@ -129,7 +147,10 @@ let
         "pkg-1.7.0" = _R5EeBmes;
         "pkg-1.7.1" = _K9x1rH6F;
         "pkg-1.8.0" = _TwLu5nLB;
-        "default" = _TwLu5nLB;
+        "pkg-1.8.1+1.20.1" = _lsgkbZUm;
+        "pkg-1.9.0+1.20.1" = _VIfxA71o;
+        "pkg-1.9.1+1.20.1" = _6Ii3jN4n;
+        "default" = _6Ii3jN4n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hextra-patterns";

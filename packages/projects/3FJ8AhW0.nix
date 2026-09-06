@@ -451,6 +451,11 @@ let
             "file" = "medievalorigins-fabric-1.20.1-6.7.9.jar";
             "hash" = "sha512-1wrObvemBiA15liKchWjZq+r69zoOj/SGqKl41rrRxPF1EP6lCS1eO1X14MNUpgJWtVW6j8oQ5xv/KVIYq7Xtg==";
         };
+        _c5MBYTzX = {
+            "id" = "c5MBYTzX";
+            "file" = "medievalorigins-7.0.4-pre.3-HF.jar";
+            "hash" = "sha512-p+A6Bgpm2fi6EnEyJJmsHdMxhjkicRqVGpF6pTStR/C+sNoEJ8GsWxmtD5mUatdQsud1MdsmxudmoDthnaS/ew==";
+        };
     in {
         "BgH9PaJA" = _BgH9PaJA;
         "1XKrPvhJ" = _1XKrPvhJ;
@@ -542,10 +547,11 @@ let
         "Lt54sYee" = _Lt54sYee;
         "YYSLLY8i" = _YYSLLY8i;
         "efRW2ds8" = _efRW2ds8;
+        "c5MBYTzX" = _c5MBYTzX;
         "fabric-1.20" = _BgH9PaJA;
         "fabric-1.20.1" = _efRW2ds8;
         "fabric-1.19.2" = _MQPxtDCt;
-        "fabric-1.21.1" = _OazQ2H7O;
+        "fabric-1.21.1" = _c5MBYTzX;
         "forge-1.20.1" = _YYSLLY8i;
         "neoforge-1.20.1" = _aAQFR1qG;
         "pkg-5.1.8+1.20.1" = _BgH9PaJA;
@@ -638,7 +644,8 @@ let
         "pkg-Forge-6.7.8+1.20.1" = _Lt54sYee;
         "pkg-Forge-6.7.9+1.20.1" = _YYSLLY8i;
         "pkg-Fabric-6.7.9+1.20.1" = _efRW2ds8;
-        "default" = _efRW2ds8;
+        "pkg-7.0.4-pre.3-HF" = _c5MBYTzX;
+        "default" = _c5MBYTzX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "medieval-origins-revival";

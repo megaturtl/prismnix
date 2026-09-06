@@ -36,6 +36,11 @@ let
             "file" = "create_militarized-5.0.0 Alpha-neoforge-1.21.1.jar";
             "hash" = "sha512-CdSyD6ztH7LS7Ga9dMyFbAPlssgxFODNesUhOh14Hw3fXlQPY9uJSFRTtoz7HSRxBMkYBd6ju+XPSgV3RaRGbg==";
         };
+        _ongzYj3a = {
+            "id" = "ongzYj3a";
+            "file" = "create_militarized-5.0.1 Alpha-neoforge-1.21.1.jar";
+            "hash" = "sha512-foI46tnwcDqUce7ddE2M+qhUCYpts995DpBsiWOVuS/zqe2pgcqoMBR/61aAfT0WJ/GI+ZHtI4/f1iGEA1AnJQ==";
+        };
     in {
         "4yIn2PqW" = _4yIn2PqW;
         "27gWlWXg" = _27gWlWXg;
@@ -44,8 +49,9 @@ let
         "FSNPelyG" = _FSNPelyG;
         "oiP6THiI" = _oiP6THiI;
         "N0vNCkPC" = _N0vNCkPC;
+        "ongzYj3a" = _ongzYj3a;
         "forge-1.20.1" = _oiP6THiI;
-        "neoforge-1.21.1" = _N0vNCkPC;
+        "neoforge-1.21.1" = _ongzYj3a;
         "pkg-1.3.2" = _4yIn2PqW;
         "pkg-4.0.0" = _27gWlWXg;
         "pkg-4.0.1" = _qM97Z8px;
@@ -53,7 +59,8 @@ let
         "pkg-4.0.3" = _FSNPelyG;
         "pkg-4.0.4" = _oiP6THiI;
         "pkg-5.0.0a" = _N0vNCkPC;
-        "default" = _N0vNCkPC;
+        "pkg-5.0.1a" = _ongzYj3a;
+        "default" = _ongzYj3a;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-militarized";

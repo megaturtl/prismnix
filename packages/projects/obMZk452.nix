@@ -56,6 +56,11 @@ let
             "file" = "BCLib-20.0.12.jar";
             "hash" = "sha512-Zt1m7wEbumTnY2UnscxkdG750qB/OQHFkcV80oATxyqOV0tDT9FPD2ut/U8ZH6YEkLxCt7TJMzpI60DFyMeCZQ==";
         };
+        _TIteCm8O = {
+            "id" = "TIteCm8O";
+            "file" = "BCLib-20.0.13.jar";
+            "hash" = "sha512-T1ozHz4cMwwpbrxMHU2u01cHZjw0lStkJEYoPMbLnn9d3+Cox5tRcgQHwulWJ2VMZ785JayDR5pBkvNYNZr19A==";
+        };
     in {
         "BihAwamG" = _BihAwamG;
         "j1k5uYYe" = _j1k5uYYe;
@@ -68,7 +73,8 @@ let
         "nSVg1egF" = _nSVg1egF;
         "qIblWTcF" = _qIblWTcF;
         "QJJ5vlbK" = _QJJ5vlbK;
-        "forge-1.20.1" = _QJJ5vlbK;
+        "TIteCm8O" = _TIteCm8O;
+        "forge-1.20.1" = _TIteCm8O;
         "forge-1.20" = _QJJ5vlbK;
         "pkg-20.0.1" = _BihAwamG;
         "pkg-20.0.2" = _j1k5uYYe;
@@ -81,7 +87,8 @@ let
         "pkg-20.0.9" = _nSVg1egF;
         "pkg-20.0.11" = _qIblWTcF;
         "pkg-20.0.12" = _QJJ5vlbK;
-        "default" = _QJJ5vlbK;
+        "pkg-20.0.13" = _TIteCm8O;
+        "default" = _TIteCm8O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bclib-forge";

@@ -136,6 +136,16 @@ let
             "file" = "livetextureeditor-2.2.jar";
             "hash" = "sha512-TMN3QNkQzFUriy9llRVthFNiBvFlI1OApo8N4L/Loxe5TFeutq6M/ifL6Q0b5p1/frJIcTBW7FDeegLsQI+RTA==";
         };
+        _E648JKi5 = {
+            "id" = "E648JKi5";
+            "file" = "livetextureeditor-2.3.jar";
+            "hash" = "sha512-cmmPPRtoD/y85k01PgSMkinPK+P4UKFamDUCkf4dnisZVBuzV8ippkbMLeEoRqEbvUlZpnPGBrHPM8/hFm6qog==";
+        };
+        _nUjhFfvV = {
+            "id" = "nUjhFfvV";
+            "file" = "livetextureeditor-2.3.1.jar";
+            "hash" = "sha512-zbYovC89wjPJiPqwOiAP85zlPhNs808bNpjdfKDi7M2rFg2OxIcaRFtfRDYn2/piflp9IKuH146gGFtTgwBgBA==";
+        };
     in {
         "TH4gb8bD" = _TH4gb8bD;
         "hhXMhYQX" = _hhXMhYQX;
@@ -164,6 +174,8 @@ let
         "uq0SwX3w" = _uq0SwX3w;
         "vKQfL29E" = _vKQfL29E;
         "2RezIsFW" = _2RezIsFW;
+        "E648JKi5" = _E648JKi5;
+        "nUjhFfvV" = _nUjhFfvV;
         "fabric-1.21.4" = _dttQ3RBN;
         "fabric-1.21.11" = _uq0SwX3w;
         "fabric-1.21.10" = _BDS0Q6ql;
@@ -172,7 +184,7 @@ let
         "fabric-26.1" = _vKQfL29E;
         "fabric-26.1.1" = _vKQfL29E;
         "fabric-26.1.2" = _vKQfL29E;
-        "fabric-26.2" = _2RezIsFW;
+        "fabric-26.2" = _nUjhFfvV;
         "pkg-1.0" = _TH4gb8bD;
         "pkg-1.1" = _hhXMhYQX;
         "pkg-1.2" = _XsLxesWM;
@@ -191,7 +203,9 @@ let
         "pkg-2.1" = _WMVtGNHW;
         "pkg-2.1.1" = _dU3b41St;
         "pkg-2.2" = _2RezIsFW;
-        "default" = _2RezIsFW;
+        "pkg-2.3" = _E648JKi5;
+        "pkg-2.3.1" = _nUjhFfvV;
+        "default" = _nUjhFfvV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "livetextureeditor";

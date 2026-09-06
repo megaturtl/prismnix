@@ -636,6 +636,31 @@ let
             "file" = "ViaFabricPlus-4.6.1.jar";
             "hash" = "sha512-Qa3WeI8d+LZPHGBvcejr7vLkQ1oqhcAm7uW/yvb8D07iijCkSB51eogAfGKzK46K7A2Wje3gpRvpXnL23aqF6A==";
         };
+        _RM6hveoK = {
+            "id" = "RM6hveoK";
+            "file" = "ViaFabricPlus-4.4.15.jar";
+            "hash" = "sha512-Z2JoXAJDqcfsQzIfK8ARAw/WVmeXpkchntJ12VbCJyd32uD/Q+vYKnc2g1BJQ5T1sMHZgoT/12Kkh2/P1olYxA==";
+        };
+        _G5gLDVZ9 = {
+            "id" = "G5gLDVZ9";
+            "file" = "ViaFabricPlus-4.5.6.jar";
+            "hash" = "sha512-AX/SyMQXadwaS0fRLoFas1LcocVJ78go6BbQmt4c231Y2Zfctql4E4aycmgm4cKAkRGOnvFWNT+2+ktdU3MDkA==";
+        };
+        _Ui8KqDOP = {
+            "id" = "Ui8KqDOP";
+            "file" = "ViaFabricPlus-4.6.2.jar";
+            "hash" = "sha512-9/WMHlqXAuAD0LI2XylsFmjjiUQ37CzMIiFMm/pZY5xwld85y8slbM6KKzcuZd14Dv/wUQzV6di5AxsPLCDjNQ==";
+        };
+        _e9PAsLco = {
+            "id" = "e9PAsLco";
+            "file" = "ViaFabricPlus-4.6.3.jar";
+            "hash" = "sha512-zXMEta+0Sprrmtis+X1VUK3t8oJnMV1bETPHQ9p1Ak7oG2FV1lJqjj0pvBJ9TwAPz7+0TUvo1gh4eZ2k+bxpaA==";
+        };
+        _oDGOi9CW = {
+            "id" = "oDGOi9CW";
+            "file" = "ViaFabricPlus-5.0.0.jar";
+            "hash" = "sha512-TtMTioDfww2s0qhn4sfp6neHl6K2acdvF/u6dwe846wHxmrhhuMeVHazCxU65zAKym7ExHFlWgGyCVEdMtaXpQ==";
+        };
     in {
         "MKJPUIEI" = _MKJPUIEI;
         "JSNzH84y" = _JSNzH84y;
@@ -764,6 +789,11 @@ let
         "B2WCktGU" = _B2WCktGU;
         "3MFqgZdf" = _3MFqgZdf;
         "NVFW4VRx" = _NVFW4VRx;
+        "RM6hveoK" = _RM6hveoK;
+        "G5gLDVZ9" = _G5gLDVZ9;
+        "Ui8KqDOP" = _Ui8KqDOP;
+        "e9PAsLco" = _e9PAsLco;
+        "oDGOi9CW" = _oDGOi9CW;
         "fabric-1.19.3" = _I3oAYlWs;
         "fabric-1.19.4" = _G4LyPV8n;
         "fabric-1.20" = _cIGEbJ9b;
@@ -784,11 +814,11 @@ let
         "fabric-1.21.8" = _A9NeiMwQ;
         "fabric-1.21.9" = _X3eGsqfi;
         "fabric-1.21.10" = _gkZyGxMz;
-        "fabric-1.21.11" = _3MFqgZdf;
-        "fabric-26.1" = _qzwoPtFn;
-        "fabric-26.1.1" = _qzwoPtFn;
-        "fabric-26.1.2" = _qzwoPtFn;
-        "fabric-26.2" = _NVFW4VRx;
+        "fabric-1.21.11" = _RM6hveoK;
+        "fabric-26.1" = _G5gLDVZ9;
+        "fabric-26.1.1" = _G5gLDVZ9;
+        "fabric-26.1.2" = _G5gLDVZ9;
+        "fabric-26.2" = _oDGOi9CW;
         "quilt-1.19.3" = _I3oAYlWs;
         "quilt-1.19.4" = _G4LyPV8n;
         "quilt-1.20" = _cIGEbJ9b;
@@ -920,7 +950,12 @@ let
         "pkg-4.6.0" = _B2WCktGU;
         "pkg-4.4.14" = _3MFqgZdf;
         "pkg-4.6.1" = _NVFW4VRx;
-        "default" = _NVFW4VRx;
+        "pkg-4.4.15" = _RM6hveoK;
+        "pkg-4.5.6" = _G5gLDVZ9;
+        "pkg-4.6.2" = _Ui8KqDOP;
+        "pkg-4.6.3" = _e9PAsLco;
+        "pkg-5.0.0" = _oDGOi9CW;
+        "default" = _oDGOi9CW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "viafabricplus";

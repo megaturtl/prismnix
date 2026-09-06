@@ -141,6 +141,11 @@ let
             "file" = "multiview-0.5.0-beta.1-mc26.1.jar";
             "hash" = "sha512-o/n+VMRfCHIumQXWJxFriZsODI3fYt3qtIOCfEr/bfxugzritTPOeA9B8IBP18udILZ88bNwcbEtJGL1kEbafQ==";
         };
+        _1vN1cwAp = {
+            "id" = "1vN1cwAp";
+            "file" = "multiview-0.5.0-mc26.2.jar";
+            "hash" = "sha512-R1KHzAVwPA14uwul/g+kK1rE5OfB1ZKesgNCU4YGUnkc4ssX0Qch5ZLuchUCE9dpmKretJ2FsPBM8HiLISRDEA==";
+        };
     in {
         "HpjcPKDF" = _HpjcPKDF;
         "mCBnSZU6" = _mCBnSZU6;
@@ -170,12 +175,14 @@ let
         "dmoDbJ6J" = _dmoDbJ6J;
         "aGRx7Sog" = _aGRx7Sog;
         "7fgyay1O" = _7fgyay1O;
+        "1vN1cwAp" = _1vN1cwAp;
         "fabric-1.21.11" = _dmoDbJ6J;
         "fabric-1.21.9" = _aGRx7Sog;
         "fabric-1.21.10" = _aGRx7Sog;
         "fabric-26.1" = _7fgyay1O;
         "fabric-26.1.1" = _7fgyay1O;
         "fabric-26.1.2" = _7fgyay1O;
+        "fabric-26.2" = _1vN1cwAp;
         "pkg-0.2.0" = _HpjcPKDF;
         "pkg-0.3.0+mc1.21.11" = _mCBnSZU6;
         "pkg-0.3.0+mc1.21.9" = _kCXMmMhK;
@@ -204,7 +211,8 @@ let
         "pkg-0.5.0-beta.1+mc1.21.11" = _dmoDbJ6J;
         "pkg-0.5.0-beta.1+mc1.21.9" = _aGRx7Sog;
         "pkg-0.5.0-beta.1+mc26.1" = _7fgyay1O;
-        "default" = _7fgyay1O;
+        "pkg-0.5.0+mc26.2" = _1vN1cwAp;
+        "default" = _1vN1cwAp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "multiview";

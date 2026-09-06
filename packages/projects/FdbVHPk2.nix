@@ -511,6 +511,41 @@ let
             "file" = "reignofnether-1.3.8g.jar";
             "hash" = "sha512-lRppn9QFcYRulRkbs4SPhU+XWCaFW/BHifgBkrC3XzM8HC1wg1Ss40uOWupXmOypBUjYSgY/tb58Tzeu+0yZ+A==";
         };
+        _Rgdbxmnr = {
+            "id" = "Rgdbxmnr";
+            "file" = "reignofnether-1.4.0.jar";
+            "hash" = "sha512-NTc0GSbzKRbP6TpboBI9YYkP54TkCF/LK41cy9RT8Vys7j3cQts4/pcb0yJ5GjL2EC7WuqoLE7FbD7AenBBeEQ==";
+        };
+        _8NS9uP08 = {
+            "id" = "8NS9uP08";
+            "file" = "reignofnether-1.4.0a.jar";
+            "hash" = "sha512-CztBYnF/zgqw/p4MTGHY6DrN3rkfbGawzlk/QXEFB1UOTXspcQHrnFaRaBlJbPKNEJPCt4RyLGUiV13rMU8nzA==";
+        };
+        _ANCWNRoi = {
+            "id" = "ANCWNRoi";
+            "file" = "reignofnether-1.4.0b.jar";
+            "hash" = "sha512-WH9xIiCMRc+TzuVNkGqTJfofWO3tataT5+HbIITuxz1tscR04qliN/gt62vuUpLw3SX7ZJSBiJt3CEVMJgCKXA==";
+        };
+        _gcysAH2r = {
+            "id" = "gcysAH2r";
+            "file" = "reignofnether-1.4.0c.jar";
+            "hash" = "sha512-WJrpx+4Th7rC+tOHBLK/koU2WJksw52AXk/yuJUc/ioAQuzdaBbIZzTV3Ef8kuXXh5elDKCXV+gxEv2ZHQIlAw==";
+        };
+        _DvSvcIVZ = {
+            "id" = "DvSvcIVZ";
+            "file" = "reignofnether-1.4.1.jar";
+            "hash" = "sha512-mD5h2UXPbsWvecYeJ0u83YWiH5ksebMJaivx80/SzIVPklcyxRQ24tXhjouUI+xtMacJzlR9aDvl7sLWFxacww==";
+        };
+        _OiEirf1u = {
+            "id" = "OiEirf1u";
+            "file" = "reignofnether-1.4.2.jar";
+            "hash" = "sha512-qgrwouVs6DsitQg3m6BA2QX13EtjYKUXvpb/0azQ7+0xk1a1ero1KBJMXjXCS5YPSBY5BzxQwRiy+Punx3ro1g==";
+        };
+        _cIjD0EMP = {
+            "id" = "cIjD0EMP";
+            "file" = "reignofnether-1.4.3.jar";
+            "hash" = "sha512-Vh9guKHPjH7xwfz9AnB+fatgNH0Xo2L4oZiyQVE4LdZQbqgwkwwkdwpgLawJai+D9jYQm12FY7MtFJGCkZVC0A==";
+        };
     in {
         "B5466OCK" = _B5466OCK;
         "14SL9xZ8" = _14SL9xZ8;
@@ -614,9 +649,16 @@ let
         "7qKSBly1" = _7qKSBly1;
         "HXicvpmD" = _HXicvpmD;
         "A4mMKSpi" = _A4mMKSpi;
+        "Rgdbxmnr" = _Rgdbxmnr;
+        "8NS9uP08" = _8NS9uP08;
+        "ANCWNRoi" = _ANCWNRoi;
+        "gcysAH2r" = _gcysAH2r;
+        "DvSvcIVZ" = _DvSvcIVZ;
+        "OiEirf1u" = _OiEirf1u;
+        "cIjD0EMP" = _cIjD0EMP;
         "forge-1.19.2" = _p0YYsOrc;
         "forge-1.19.1" = _p0YYsOrc;
-        "forge-1.20.1" = _A4mMKSpi;
+        "forge-1.20.1" = _cIjD0EMP;
         "pkg-1.0.1" = _B5466OCK;
         "pkg-1.0.2" = _14SL9xZ8;
         "pkg-1.0.3" = _5I4zAcYu;
@@ -718,7 +760,14 @@ let
         "pkg-1.3.8e" = _7qKSBly1;
         "pkg-1.3.8f" = _HXicvpmD;
         "pkg-1.3.8g" = _A4mMKSpi;
-        "default" = _A4mMKSpi;
+        "pkg-1.4.0" = _Rgdbxmnr;
+        "pkg-1.4.0a" = _8NS9uP08;
+        "pkg-1.4.0b" = _ANCWNRoi;
+        "pkg-1.4.0c" = _gcysAH2r;
+        "pkg-1.4.1" = _DvSvcIVZ;
+        "pkg-1.4.2" = _OiEirf1u;
+        "pkg-1.4.3" = _cIjD0EMP;
+        "default" = _cIjD0EMP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reign-of-nether-rts";

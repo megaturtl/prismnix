@@ -31,6 +31,11 @@ let
             "file" = "Moszyan Railways Resources.zip";
             "hash" = "sha512-9P1hb6Vo3bXIQlF4paeZfEIvyYPJ4CN4Z1lhhoh6s1GnFQ7cVhfAWK6MvffOfdKPdkby3il55VQQ6vK1xBZB8w==";
         };
+        _r6bncFlz = {
+            "id" = "r6bncFlz";
+            "file" = "Moszyan Railways Resources.zip";
+            "hash" = "sha512-sJmLxpe1qm8AGfUenS7o78UkazqquynKbgY4phOT3ostv3pTD+TEKjZiFkJkLo8gmy1dqb44MOffwVUTJBHg1A==";
+        };
     in {
         "9vLI1KY0" = _9vLI1KY0;
         "VsniY6dX" = _VsniY6dX;
@@ -38,23 +43,25 @@ let
         "AzqsAkVo" = _AzqsAkVo;
         "QGRCPH9b" = _QGRCPH9b;
         "PKmZqtXI" = _PKmZqtXI;
-        "minecraft-1.17.1" = _PKmZqtXI;
-        "minecraft-1.18.2" = _PKmZqtXI;
-        "minecraft-1.19.2" = _PKmZqtXI;
-        "minecraft-1.19.4" = _PKmZqtXI;
-        "minecraft-1.20.1" = _PKmZqtXI;
-        "minecraft-1.20.4" = _PKmZqtXI;
+        "r6bncFlz" = _r6bncFlz;
+        "minecraft-1.17.1" = _r6bncFlz;
+        "minecraft-1.18.2" = _r6bncFlz;
+        "minecraft-1.19.2" = _r6bncFlz;
+        "minecraft-1.19.4" = _r6bncFlz;
+        "minecraft-1.20.1" = _r6bncFlz;
+        "minecraft-1.20.4" = _r6bncFlz;
         "minecraft-1.18.1" = _F9GGivFw;
         "minecraft-1.21" = _QGRCPH9b;
-        "minecraft-1.21.4" = _PKmZqtXI;
-        "minecraft-1.21.1" = _PKmZqtXI;
+        "minecraft-1.21.4" = _r6bncFlz;
+        "minecraft-1.21.1" = _r6bncFlz;
         "pkg-1" = _9vLI1KY0;
         "pkg-4.3" = _VsniY6dX;
         "pkg-4.3.1" = _F9GGivFw;
         "pkg-4.4" = _AzqsAkVo;
         "pkg-4.4.1" = _QGRCPH9b;
         "pkg-4.5" = _PKmZqtXI;
-        "default" = _PKmZqtXI;
+        "pkg-4.6" = _r6bncFlz;
+        "default" = _r6bncFlz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "moszyan-railways";

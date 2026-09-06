@@ -176,6 +176,11 @@ let
         "fabric-26.3-snapshot-5" = _HstCYEhs;
         "fabric-26.3-snapshot-6" = _HstCYEhs;
         "fabric-26.3-snapshot-7" = _HstCYEhs;
+        "fabric-26.3-snapshot-8" = _HstCYEhs;
+        "fabric-26.3-snapshot-9" = _HstCYEhs;
+        "fabric-26.3-snapshot-10" = _HstCYEhs;
+        "fabric-26.3-pre-1" = _HstCYEhs;
+        "fabric-26.3-pre-2" = _HstCYEhs;
         "pkg-1.0.0" = _aA5lRSK0;
         "pkg-1.1.0-fix" = _fSYQSlQl;
         "pkg-1.1.0-lite" = _q78DeKPY;

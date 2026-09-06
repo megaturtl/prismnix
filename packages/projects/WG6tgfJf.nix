@@ -56,6 +56,56 @@ let
             "file" = "SBW-Drone-Warfare-1.21.1-NeoForge-1.0.2.jar";
             "hash" = "sha512-nZsU6TMbPbILWR4bpHjGo/KO06l+Zrt2woTAEmIB9OdD8WtRatbsIdotPLWUE9jZz9JzTDTRnANfLWyxwKa6iw==";
         };
+        _WllsCuVW = {
+            "id" = "WllsCuVW";
+            "file" = "sbw-drone-warfare-1.21.1-neoforge-0.8.8-0.8.9.jar";
+            "hash" = "sha512-vJxMeD5k+prOOdLprrDzILizI5kd2aMJkS6forwGg0rcO20rQYxbeoFOc+xJAaIHOyhDaPi6+VP3o22WTRltnw==";
+        };
+        _lkg3p6wM = {
+            "id" = "lkg3p6wM";
+            "file" = "sbw-drone-warfare-1.20.1-forge-0.8.8-0.8.9.jar";
+            "hash" = "sha512-9SCr8cM42rSabHegi+w86yCS04Tdns/0mpvqWFMIHMhWw8qy0igrIrjtzdyUZCpnyNw6fODoI/omxKAurU39Xg==";
+        };
+        _pIUP1h6j = {
+            "id" = "pIUP1h6j";
+            "file" = "SBW-Drone-Warfare-NeoForge-1.21.1-1.0.3.jar";
+            "hash" = "sha512-ndxaF/zVrwc3EFpM+3r8KuSO1eSW1xrmLNo6CxwIZC/Vsb1Ty06mBkjsbkQ93pG5UtBGspdDZj9etwIwUVnuyw==";
+        };
+        _lcS9Jpak = {
+            "id" = "lcS9Jpak";
+            "file" = "SBW-Drone-Warfare-Forge-1.20.1-1.0.3.jar";
+            "hash" = "sha512-+HWHrmPfsrYhNZRvMic5Ama1xdYdof7i4wx2qDYYlwabpEz09rHlGgyXW293ap1JV3BmpQ4MoS2nNbKW5u9UVw==";
+        };
+        _CbN1y9hP = {
+            "id" = "CbN1y9hP";
+            "file" = "SBW-Drone-Warfare-1.20.1-Forge-1.0.4.jar";
+            "hash" = "sha512-sImfI6/4jsJzyeRjlwYDDvxRflwc6XCxQBcI09Z6gMDS0rFf4sw/ke2M24dp87dRxRWT2HrRAH7wF2HVWVlgCA==";
+        };
+        _zAOOC1XM = {
+            "id" = "zAOOC1XM";
+            "file" = "SBW-Drone-Warfare-1.21.1-NeoForge-1.0.4.jar";
+            "hash" = "sha512-8VxjN2zLXRHg//XaPhq0VmxDfsqpfOQY0hui7vvaWx2xkP06WvuF+oAvb5w3SOCKE+hUniC50AYk/U+EFfSyLA==";
+        };
+        _5NvfCtOB = {
+            "id" = "5NvfCtOB";
+            "file" = "SBW-Drone-Warfare-1.20.1-Forge-1.0.5.jar";
+            "hash" = "sha512-c9yICpL9qxYeb9jMHcPV2oVSyvVzmHjkTqRrgutQbxarSqcdL2Vk0lbmehgNnjNrm8k9fLT6O/aKmLjG6USztg==";
+        };
+        _ssOyJ90O = {
+            "id" = "ssOyJ90O";
+            "file" = "SBW-Drone-Warfare-1.21.1-NeoForge-1.0.5.jar";
+            "hash" = "sha512-OgvaZFQVrVRNJbDLRm293yNq3grsISAuBlqtuWCGSU78UAYiiok/XWD0ggPiPFA3mJe3KeLTftfH5cNLRFXbBA==";
+        };
+        _I7UZ7TqK = {
+            "id" = "I7UZ7TqK";
+            "file" = "SBW-Drone-Warfare-1.20.1-Forge-1.0.6.jar";
+            "hash" = "sha512-oV1RCfhHvD5D+YSONHEcem1S+zjxE5VxTr2/jN1wNJDiDu3fUfI6CTZUI5YdWoLF1SKQvRd3KsrAb4sl0vrDWA==";
+        };
+        _NeM3aBVy = {
+            "id" = "NeM3aBVy";
+            "file" = "SBW-Drone-Warfare-1.21.1-NeoForge-1.0.6.jar";
+            "hash" = "sha512-w4D8jBdPKioY9dvy2aCXTG4syeuQNMOz3jxoNn8Bpsp8BHKhrxfxHUrcIsxoTqiMbX7zXiQDpG4mH0SiPnfZaw==";
+        };
     in {
         "SW4h5zNR" = _SW4h5zNR;
         "O0bwVspl" = _O0bwVspl;
@@ -68,15 +118,30 @@ let
         "yhYztoAt" = _yhYztoAt;
         "QH50kz0d" = _QH50kz0d;
         "J4NlxJ1e" = _J4NlxJ1e;
-        "neoforge-1.21.1" = _J4NlxJ1e;
-        "forge-1.20.1" = _QH50kz0d;
+        "WllsCuVW" = _WllsCuVW;
+        "lkg3p6wM" = _lkg3p6wM;
+        "pIUP1h6j" = _pIUP1h6j;
+        "lcS9Jpak" = _lcS9Jpak;
+        "CbN1y9hP" = _CbN1y9hP;
+        "zAOOC1XM" = _zAOOC1XM;
+        "5NvfCtOB" = _5NvfCtOB;
+        "ssOyJ90O" = _ssOyJ90O;
+        "I7UZ7TqK" = _I7UZ7TqK;
+        "NeM3aBVy" = _NeM3aBVy;
+        "neoforge-1.21.1" = _NeM3aBVy;
+        "forge-1.20.1" = _I7UZ7TqK;
         "pkg-1.0.81" = _O0bwVspl;
         "pkg-1.0.82" = _rodrG2tb;
         "pkg-1.0.83" = _s86sZ9Kw;
         "pkg-1.0.1" = _yhYztoAt;
         "pkg-1.0.1-Hotfix" = _D7rmfYcp;
         "pkg-1.0.2" = _J4NlxJ1e;
-        "default" = _J4NlxJ1e;
+        "pkg-1.0.2+" = _lkg3p6wM;
+        "pkg-1.0.3" = _lcS9Jpak;
+        "pkg-1.0.4" = _zAOOC1XM;
+        "pkg-1.0.5" = _ssOyJ90O;
+        "pkg-1.0.6" = _NeM3aBVy;
+        "default" = _NeM3aBVy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sbw-tactical-drone";

@@ -366,6 +366,26 @@ let
             "file" = "minimega-6.5.20.jar";
             "hash" = "sha512-8iiJMIfUd7kBeT2oj2Iw4Q7TrCMpShN+ZwyBQt49ggjB8JaMgDzwO7/xjajqrquVO6STtAdgIVr1YN+4iSOY2w==";
         };
+        _RQUn33l1 = {
+            "id" = "RQUn33l1";
+            "file" = "minimega-6.5.30.jar";
+            "hash" = "sha512-ZKwdSXDFZKi0r7e1kCw5PmxzvVT/H2Efrr1N2ZYawbPpZlRYxECX3sB4duyINyug+PkYHnyWxdZ+hkv/VJ+IHQ==";
+        };
+        _LWd5692Q = {
+            "id" = "LWd5692Q";
+            "file" = "minimega-6.5.31.jar";
+            "hash" = "sha512-KXge7pbsWVV5VuJg1g41NlyjoSdohhc9Vl21yQ3g5OUUFoBSIf7zU8djYe0oRw6WHDSq0M3xXPMlupGtUw8EXw==";
+        };
+        _YOx4iC3j = {
+            "id" = "YOx4iC3j";
+            "file" = "minimega-6.5.32.jar";
+            "hash" = "sha512-unlfhT5+sCyUlLCn0VGIb6o5Q/oG95udY1AeJlxuQgBGopxrv/TFtHMVB0oEDKD+J+YeeBZ0+/0MaKgjiKSYLA==";
+        };
+        _HjsmzYsx = {
+            "id" = "HjsmzYsx";
+            "file" = "minimega-6.5.33.jar";
+            "hash" = "sha512-dFfYtgEUZ0rq7kSuQEDJP/rQssStWsYFZY+B+5dZC+T6Y9Nr+ifn5ZQjtgLX9knrsSJPTRAcRin4M7I2rwIDCQ==";
+        };
     in {
         "gUOaWLSF" = _gUOaWLSF;
         "iL79NOKd" = _iL79NOKd;
@@ -440,14 +460,18 @@ let
         "EAikteRb" = _EAikteRb;
         "huVgH4Cr" = _huVgH4Cr;
         "yYo0K0ah" = _yYo0K0ah;
+        "RQUn33l1" = _RQUn33l1;
+        "LWd5692Q" = _LWd5692Q;
+        "YOx4iC3j" = _YOx4iC3j;
+        "HjsmzYsx" = _HjsmzYsx;
         "fabric-1.21.4" = _YPw9MkqG;
         "fabric-1.21.5" = _rA3dgGLH;
         "fabric-1.21.8" = _zG3lWxdO;
         "fabric-1.21.10" = _q6JyzUiw;
         "fabric-1.21.11" = _yyzcwM70;
-        "fabric-26.1" = _yYo0K0ah;
-        "fabric-26.1.1" = _yYo0K0ah;
-        "fabric-26.1.2" = _yYo0K0ah;
+        "fabric-26.1" = _HjsmzYsx;
+        "fabric-26.1.1" = _HjsmzYsx;
+        "fabric-26.1.2" = _HjsmzYsx;
         "fabric-26.2-pre-1" = _ijuQFxXN;
         "fabric-26.2-pre-2" = _ijuQFxXN;
         "fabric-26.2-pre-3" = _ijuQFxXN;
@@ -530,7 +554,11 @@ let
         "pkg-6.5.10" = _EAikteRb;
         "pkg-7.1.0" = _huVgH4Cr;
         "pkg-6.5.20" = _yYo0K0ah;
-        "default" = _yYo0K0ah;
+        "pkg-6.5.30" = _RQUn33l1;
+        "pkg-6.5.31" = _LWd5692Q;
+        "pkg-6.5.32" = _YOx4iC3j;
+        "pkg-6.5.33" = _HjsmzYsx;
+        "default" = _HjsmzYsx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minimega";

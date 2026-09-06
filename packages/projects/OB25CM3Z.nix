@@ -31,6 +31,11 @@ let
             "file" = "Visual Shaders.zip";
             "hash" = "sha512-fzVm8vAkaNd3sxuE0uu5MbDXRaaIfL6ek1/THH4XGVGuvhZDQbnmiPdJ4RmymK6QVWxFi6woW4lW2c6fQkLAIw==";
         };
+        _WJGmybcC = {
+            "id" = "WJGmybcC";
+            "file" = "visualshaders.zip";
+            "hash" = "sha512-WmMuejw7SwHz0732BiZZ8Oz0TBu7rOUELCH00e7T0qKTISk8yJd0WS1sH8ekyIZDNq/rqqFfO9yZKdYgE2LoDw==";
+        };
     in {
         "KMCM3nr8" = _KMCM3nr8;
         "QYv5bEQC" = _QYv5bEQC;
@@ -38,15 +43,17 @@ let
         "6s5KqOc2" = _6s5KqOc2;
         "dkr9IP3w" = _dkr9IP3w;
         "bz59xhbt" = _bz59xhbt;
-        "iris-1.21.11" = _bz59xhbt;
-        "optifine-1.21.11" = _bz59xhbt;
+        "WJGmybcC" = _WJGmybcC;
+        "iris-1.21.11" = _WJGmybcC;
+        "optifine-1.21.11" = _WJGmybcC;
         "pkg-1.0.0-alpha" = _KMCM3nr8;
         "pkg-1.0.1-beta" = _QYv5bEQC;
         "pkg-1.0.2-beta" = _MUDq2Icv;
         "pkg-1.0.3-beta" = _6s5KqOc2;
         "pkg-1.0.4-beta" = _dkr9IP3w;
         "pkg-1.0.5-beta" = _bz59xhbt;
-        "default" = _bz59xhbt;
+        "pkg-1.0.6-beta" = _WJGmybcC;
+        "default" = _WJGmybcC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "visual-shaders";

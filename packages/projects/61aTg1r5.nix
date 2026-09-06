@@ -316,6 +316,76 @@ let
             "file" = "LegacySkyblock-2.2.3-26.2+_fabric.jar";
             "hash" = "sha512-iW+4fJdRxsLvZuK1hE//v0JiM/6uCk5Cwzq2YZNmcKjlbDBkL0bvfh8Lpee12w1m45T2wdMh3YE+P7bJQarb0A==";
         };
+        _boI5k06c = {
+            "id" = "boI5k06c";
+            "file" = "LegacySkyblock-2.3.0-26.1+_fabric.jar";
+            "hash" = "sha512-qzi6FNQFtdgN1Upkjo4bb+86w5Z1a/nwXb2hh0fFQJ13O0RJQxC++CK4Xb6NUy5H0UcmhUVJBQ815l6HEEUZ0A==";
+        };
+        _rR5VQz6i = {
+            "id" = "rR5VQz6i";
+            "file" = "LegacySkyblock-2.3.0-26.2+_fabric.jar";
+            "hash" = "sha512-2msQT1rQrjEBoxDlNLgs+00EHbPAztS1jEaZktTFPLkyvLkR+YBz5Ogn1He432wgc61dqrGJp4YK+USfiIp7GA==";
+        };
+        _1M4i497B = {
+            "id" = "1M4i497B";
+            "file" = "LegacySkyblock-2.3.1-26.1+_fabric.jar";
+            "hash" = "sha512-rdK5TB1wFo9g6T1aes6HrDQfOpNg1eUWoM7MuP7whj/gjdL+xopKzqYQUVl8VRsj5wFuiP10grABxMiCKdnF1g==";
+        };
+        _AvmuyYNu = {
+            "id" = "AvmuyYNu";
+            "file" = "LegacySkyblock-2.3.1-26.2+_fabric.jar";
+            "hash" = "sha512-i6C/hGFsNgQB9cBOHrTeOA3aquqEquzxRD4Aj9mtKCJuvGi54iufoz9x0ZWM/M9TX5r1BRlal+2URD/HlGTuEA==";
+        };
+        _iLUf9jdW = {
+            "id" = "iLUf9jdW";
+            "file" = "LegacySkyblock-2.3.2-26.1+_fabric.jar";
+            "hash" = "sha512-uRmDthWERaprbKKnu+XJBfHwg5SlFVvRXZljZneHcq4NIsqcJOfblze7yVUT2MSzhhxhooPOia86B0xzrjeeaQ==";
+        };
+        _ML5Jl2dp = {
+            "id" = "ML5Jl2dp";
+            "file" = "LegacySkyblock-2.3.2-26.2+_fabric.jar";
+            "hash" = "sha512-J3xJ3aXeCzhSeUZPw0CWfcuvw1U0qGjMJwZCrtPHoL81ob0IXysgw6qHZNVH7x+b+JNJ6xECmZAmMA6J+01r4Q==";
+        };
+        _sg0Wc9sC = {
+            "id" = "sg0Wc9sC";
+            "file" = "LegacySkyblock-2.3.3-26.1+_fabric.jar";
+            "hash" = "sha512-+1fblPxtZQykvFc+/Oy+uEAMAoWLJLkRABMLYDnq8ik3ziOv+RH1pc3yTX+EHFRaLgELbDfqJixZXgxLA3Zzbg==";
+        };
+        _axIMnaNQ = {
+            "id" = "axIMnaNQ";
+            "file" = "LegacySkyblock-2.3.3-26.2+_fabric.jar";
+            "hash" = "sha512-Zbdwq32C7NB2rjEhjj/v9DosFAziq3p70gGFu78qat3yEyoPQgVa5LhelpMU20hTXhGqYiR/wCnjRR+A+OU0Bw==";
+        };
+        _gjrjuahp = {
+            "id" = "gjrjuahp";
+            "file" = "LegacySkyblock-2.4.0-26.1+_fabric.jar";
+            "hash" = "sha512-kodRwiXh8Roou0OvWxy7A40ejEcquEmUOR4WyF0MhgYeUxYGwmSYeTzih/kOGehA55VsORlLNEW7yTp5cvaTuw==";
+        };
+        _EVir6mvp = {
+            "id" = "EVir6mvp";
+            "file" = "LegacySkyblock-2.4.0-26.2+_fabric.jar";
+            "hash" = "sha512-VfUFYW+X885W3BuLjCDX6OYqgyR0w6Zff7YCvdVM3b4DcrIEFhV7miEEHE52ZhLFkw7rrsNnp/Q7Jc+MJB8zPg==";
+        };
+        _fsMGvKwi = {
+            "id" = "fsMGvKwi";
+            "file" = "LegacySkyblock-2.4.1-26.1+_fabric.jar";
+            "hash" = "sha512-CS8nzARte+F1IKIurcTWS3Oe6yE3/IkrT0/izpZpATwoj5I+8rTDACOgOdwwedrBCl9Ogj14R4dG6OIAGG4vkA==";
+        };
+        _f9lQe2oo = {
+            "id" = "f9lQe2oo";
+            "file" = "LegacySkyblock-2.4.1-26.2+_fabric.jar";
+            "hash" = "sha512-dBembMKLyKKepbcEx37Fvdjlq3hoyhx8RiJJgf1eCeRxqX6JKYEQKpro1U9qhFuV3Fscu6TDROO+awQBHsjRrg==";
+        };
+        _jD71g2s6 = {
+            "id" = "jD71g2s6";
+            "file" = "LegacySkyblock-2.4.2-26.1+_fabric.jar";
+            "hash" = "sha512-6dwPODXf9zjk+H5yHFGMOmZmlshuEtO3eDiCm6FswDBhi/DhYLMO5LBEk45TqtRVPy63GLEcbIcHRdyOyxjrYw==";
+        };
+        _yEmY9uHE = {
+            "id" = "yEmY9uHE";
+            "file" = "LegacySkyblock-2.4.2-26.2+_fabric.jar";
+            "hash" = "sha512-S5DsJsLA/Ii8gFi59no3Uq0FtLdBJZ7CxBENjn7JnFT7nL9oSIixELw/OfqUta9/SdjepWOZ1s0YU/C3iq5kCw==";
+        };
     in {
         "eZumbtm9" = _eZumbtm9;
         "IexQ8tcL" = _IexQ8tcL;
@@ -380,17 +450,31 @@ let
         "n5PV5v5A" = _n5PV5v5A;
         "ml9Skmem" = _ml9Skmem;
         "nH7D9FIF" = _nH7D9FIF;
+        "boI5k06c" = _boI5k06c;
+        "rR5VQz6i" = _rR5VQz6i;
+        "1M4i497B" = _1M4i497B;
+        "AvmuyYNu" = _AvmuyYNu;
+        "iLUf9jdW" = _iLUf9jdW;
+        "ML5Jl2dp" = _ML5Jl2dp;
+        "sg0Wc9sC" = _sg0Wc9sC;
+        "axIMnaNQ" = _axIMnaNQ;
+        "gjrjuahp" = _gjrjuahp;
+        "EVir6mvp" = _EVir6mvp;
+        "fsMGvKwi" = _fsMGvKwi;
+        "f9lQe2oo" = _f9lQe2oo;
+        "jD71g2s6" = _jD71g2s6;
+        "yEmY9uHE" = _yEmY9uHE;
         "fabric-1.21.5" = _xUDP9j5l;
         "fabric-1.21.6" = _JQLsJQWC;
         "fabric-1.21.7" = _JQLsJQWC;
         "fabric-1.21.8" = _3FwYh7EO;
         "fabric-1.21.10" = _atL8ssMi;
         "fabric-1.21.11" = _atL8ssMi;
-        "fabric-26.1" = _ml9Skmem;
+        "fabric-26.1" = _jD71g2s6;
         "fabric-1.21.9" = _atL8ssMi;
-        "fabric-26.1.1" = _ml9Skmem;
-        "fabric-26.1.2" = _ml9Skmem;
-        "fabric-26.2" = _nH7D9FIF;
+        "fabric-26.1.1" = _jD71g2s6;
+        "fabric-26.1.2" = _jD71g2s6;
+        "fabric-26.2" = _yEmY9uHE;
         "pkg-1.0.0" = _eZumbtm9;
         "pkg-1.1.0" = _IexQ8tcL;
         "pkg-1.1.1" = _DIQB3R1c;
@@ -454,7 +538,21 @@ let
         "pkg-2.2.2-26.2+" = _n5PV5v5A;
         "pkg-2.2.3-26.1+" = _ml9Skmem;
         "pkg-2.2.3-26.2+" = _nH7D9FIF;
-        "default" = _nH7D9FIF;
+        "pkg-2.3.0-26.1+" = _boI5k06c;
+        "pkg-2.3.0-26.2+" = _rR5VQz6i;
+        "pkg-2.3.1-26.1+" = _1M4i497B;
+        "pkg-2.3.1-26.2+" = _AvmuyYNu;
+        "pkg-2.3.2-26.1+" = _iLUf9jdW;
+        "pkg-2.3.2-26.2+" = _ML5Jl2dp;
+        "pkg-2.3.3-26.1+" = _sg0Wc9sC;
+        "pkg-2.3.3-26.2+" = _axIMnaNQ;
+        "pkg-2.4.0-26.1+" = _gjrjuahp;
+        "pkg-2.4.0-26.2+" = _EVir6mvp;
+        "pkg-2.4.1-26.1+" = _fsMGvKwi;
+        "pkg-2.4.1-26.2+" = _f9lQe2oo;
+        "pkg-2.4.2-26.1+" = _jD71g2s6;
+        "pkg-2.4.2-26.2+" = _yEmY9uHE;
+        "default" = _yEmY9uHE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legacyskyblock";

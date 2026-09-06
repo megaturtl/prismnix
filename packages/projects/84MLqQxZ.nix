@@ -31,6 +31,11 @@ let
             "file" = "the_conjurer-1.21.4-1.2.0.jar";
             "hash" = "sha512-1PrgK88j0PZiRiK7S6pibiMgAkbkTBRHvIOC3o+HjMhrWFsAKyFh+4se/x2HBS6DAWUlDgrlc/3cO+EombgOSw==";
         };
+        _7lWEBVvi = {
+            "id" = "7lWEBVvi";
+            "file" = "conjurer_illager-26.1.2-1.2.0.jar";
+            "hash" = "sha512-pFKza1dxGimZmySGq1gAVeZsh1yjWarvVXbpkPQLBOuFM62dm81o0fj9sfqzOVCgK3gETPp4WWX675T3rrUyiw==";
+        };
     in {
         "rykgi65E" = _rykgi65E;
         "3ezIet9i" = _3ezIet9i;
@@ -38,6 +43,7 @@ let
         "aqF4dtE2" = _aqF4dtE2;
         "87u1KPDZ" = _87u1KPDZ;
         "ZHHMLfHG" = _ZHHMLfHG;
+        "7lWEBVvi" = _7lWEBVvi;
         "forge-1.16.4" = _rykgi65E;
         "forge-1.16.5" = _rykgi65E;
         "forge-1.18.2" = _3ezIet9i;
@@ -46,12 +52,13 @@ let
         "forge-1.20.1" = _87u1KPDZ;
         "neoforge-1.20.1" = _87u1KPDZ;
         "neoforge-1.21.4" = _ZHHMLfHG;
+        "neoforge-26.1.2" = _7lWEBVvi;
         "pkg-1.0.13" = _rykgi65E;
         "pkg-1.1.1" = _3ezIet9i;
         "pkg-1.1.5" = _5YN0B5Hj;
         "pkg-1.1.6" = _87u1KPDZ;
-        "pkg-1.2.0" = _ZHHMLfHG;
-        "default" = _ZHHMLfHG;
+        "pkg-1.2.0" = _7lWEBVvi;
+        "default" = _7lWEBVvi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-conjurer";

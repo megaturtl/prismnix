@@ -301,6 +301,61 @@ let
             "file" = "bits_n_bobs-2.1.15-beta.jar";
             "hash" = "sha512-ZfgDuukiwX+D5CJ8H4EVCARK34Jvsb+wnHirtAwDZCRUY1bFAuqACD3lJ7sOrUrq5wadi5ONhOxRhkf7DGmzEw==";
         };
+        _H32ybKAw = {
+            "id" = "H32ybKAw";
+            "file" = "bits_n_bobs-2.2.0.jar";
+            "hash" = "sha512-QWce5aaJW/wd9NjzW8JC6m1eqcQix6/XgCmyqmdtRjiV+xMJ8i+YpuIsIeiSMqBWWoejSJweVpUnubG/PAhelA==";
+        };
+        _Ropm2VJN = {
+            "id" = "Ropm2VJN";
+            "file" = "bits_n_bobs-2.2.1.jar";
+            "hash" = "sha512-pC66nmvhUhXizhFgbRgsdP34vyyfXH7Gtyxp0xkIwYwfPifP4AKK+MBTfBEv8QkXqntUsvJ8sga+SZI0URAitQ==";
+        };
+        _hsWZMsKv = {
+            "id" = "hsWZMsKv";
+            "file" = "bits_n_bobs-2.2.2.jar";
+            "hash" = "sha512-6ZDocZ4jVggIA2mpXi9Yf2Rp7by835ccQfNfd1DLoXcGKZ3zFqm5JA5/jCkLdN6wPItV/aW92+7LHC9djfslEw==";
+        };
+        _h55UvVFD = {
+            "id" = "h55UvVFD";
+            "file" = "bits_n_bobs-2.2.3.jar";
+            "hash" = "sha512-iD5N+NK3g4+nhhYVR5OQWbMJkPOiWb4i93fsdj5PLJj2dXe7/MmaGt/MZeS14EEt8Ss2G9BSguXPaFD8lfp05w==";
+        };
+        _XhpKUlca = {
+            "id" = "XhpKUlca";
+            "file" = "bits_n_bobs-2.2.4.jar";
+            "hash" = "sha512-LGrMxyhKttgLZoOAIvPLFx9lPdhpJgmKCVMVVuXeHN86N0DCNhTJ1VEYaBv9wbDALN/ARSrxL/SErPt19awGKA==";
+        };
+        _jhhdWbHv = {
+            "id" = "jhhdWbHv";
+            "file" = "bits_n_bobs-2.2.5.jar";
+            "hash" = "sha512-W7qUf6fbwAW/JJ3A2DH54Tc2lngCAQ0ln43Kqi9N3ObGKxRpdGtf88YOfx0wGY2Xrni+BLXVFDyr1FCC7eHmnQ==";
+        };
+        _ufzJ4rp9 = {
+            "id" = "ufzJ4rp9";
+            "file" = "bits_n_bobs-2.2.6.jar";
+            "hash" = "sha512-mKkfumHvQszogH+LPQXo8lcTgktO3bpwz4DMBtoRW2RcY64db+eEn0svs11j6WsWv+avCOeE1OQ6gwgfYA37sA==";
+        };
+        _vkYOCznD = {
+            "id" = "vkYOCznD";
+            "file" = "bits_n_bobs-2.2.7.jar";
+            "hash" = "sha512-uLc6GWygTiqd7JMY5PczlhmWOZllEcv5DMy14HYr2XcQ86VLYEiExu5JP/PTEBEJ0gAw8IcZlylJH+L1MWmAiQ==";
+        };
+        _TBMo5Aah = {
+            "id" = "TBMo5Aah";
+            "file" = "bits_n_bobs-2.2.8.jar";
+            "hash" = "sha512-Jpx7t9dddCKoL3iBlbWTMLmr2OWzBlI4liVqjQqLMQm0pMRkNyVVpaNhJFBzhKsPHdV5T7SBqwZuWROUx1shkw==";
+        };
+        _wkaZQqvJ = {
+            "id" = "wkaZQqvJ";
+            "file" = "bits_n_bobs-2.2.9.jar";
+            "hash" = "sha512-oA6TzJdbg/ic8VpntFN04nl31Qh/ZHVkQz0fWseXVyqi3l8UzS2SOyWAgArIQwCymEifZZZ+gq70UeVyItoroQ==";
+        };
+        _FDhmsc9R = {
+            "id" = "FDhmsc9R";
+            "file" = "bits_n_bobs-2.3.0.jar";
+            "hash" = "sha512-Oy8WtS7d+1/u79AhNSWCuK9lXOW6zeLCUGnM2JDme4aA/rL+Ir51urlTyWenAYJiAgAmMaPnDA0SdSGdijibpA==";
+        };
     in {
         "zAejhGzd" = _zAejhGzd;
         "QLjmud4k" = _QLjmud4k;
@@ -362,7 +417,18 @@ let
         "g6tKKqEE" = _g6tKKqEE;
         "RoZioW9c" = _RoZioW9c;
         "qJ2wZ6WX" = _qJ2wZ6WX;
-        "neoforge-1.21.1" = _qJ2wZ6WX;
+        "H32ybKAw" = _H32ybKAw;
+        "Ropm2VJN" = _Ropm2VJN;
+        "hsWZMsKv" = _hsWZMsKv;
+        "h55UvVFD" = _h55UvVFD;
+        "XhpKUlca" = _XhpKUlca;
+        "jhhdWbHv" = _jhhdWbHv;
+        "ufzJ4rp9" = _ufzJ4rp9;
+        "vkYOCznD" = _vkYOCznD;
+        "TBMo5Aah" = _TBMo5Aah;
+        "wkaZQqvJ" = _wkaZQqvJ;
+        "FDhmsc9R" = _FDhmsc9R;
+        "neoforge-1.21.1" = _FDhmsc9R;
         "forge-1.20.1" = _KhetYQ7p;
         "pkg-0.0.8" = _zAejhGzd;
         "pkg-0.0.9" = _QLjmud4k;
@@ -413,7 +479,18 @@ let
         "pkg-2.1.13-beta" = _g6tKKqEE;
         "pkg-2.1.14-beta" = _RoZioW9c;
         "pkg-2.1.15-beta" = _qJ2wZ6WX;
-        "default" = _qJ2wZ6WX;
+        "pkg-2.2.0" = _H32ybKAw;
+        "pkg-2.2.1" = _Ropm2VJN;
+        "pkg-2.2.2" = _hsWZMsKv;
+        "pkg-2.2.3" = _h55UvVFD;
+        "pkg-2.2.4" = _XhpKUlca;
+        "pkg-2.2.5" = _jhhdWbHv;
+        "pkg-2.2.6" = _ufzJ4rp9;
+        "pkg-2.2.7" = _vkYOCznD;
+        "pkg-2.2.8" = _TBMo5Aah;
+        "pkg-2.2.9" = _wkaZQqvJ;
+        "pkg-2.3.0" = _FDhmsc9R;
+        "default" = _FDhmsc9R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-bits-n-bobs";

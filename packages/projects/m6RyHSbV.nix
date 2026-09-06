@@ -181,6 +181,16 @@ let
             "file" = "legendarymonuments-fabric-1.21.1-8.0.3.jar";
             "hash" = "sha512-IOMIHhKa8N3mLuv0VLA33DQMvZ1ZFi+Hw2/+343wesJJXgrqVRzgypcDauKZvJQbbhIIkYmDCvImsZXCBq520Q==";
         };
+        _UNW6ItXN = {
+            "id" = "UNW6ItXN";
+            "file" = "legendarymonuments-neoforge-1.21.1-8.1-Love_for_All.jar";
+            "hash" = "sha512-Hg73YJhUmm3oNnmss0GTuMqdqDSeYYYk+Wj80fLPm6bNUI2I9SZLdGdQN8I10wLnrC0GWFHLsGpJmsUm40JKQQ==";
+        };
+        _F6Ub0Gga = {
+            "id" = "F6Ub0Gga";
+            "file" = "legendarymonuments-fabric-1.21.1-8.1-Love_for_All.jar";
+            "hash" = "sha512-BXGi362rT+rgIpWdwfcBSuZYpvrQRWgxjQwbxG/RaDfq6zXw4Tzg04X8ix909o5GFPCpJh5nYR3qmWeW1Woadg==";
+        };
     in {
         "4vsAsHcB" = _4vsAsHcB;
         "5jIWJ4mk" = _5jIWJ4mk;
@@ -218,8 +228,10 @@ let
         "nzE0CTRV" = _nzE0CTRV;
         "l6PiCdpy" = _l6PiCdpy;
         "6nvO1cvI" = _6nvO1cvI;
-        "fabric-1.21.1" = _6nvO1cvI;
-        "neoforge-1.21.1" = _l6PiCdpy;
+        "UNW6ItXN" = _UNW6ItXN;
+        "F6Ub0Gga" = _F6Ub0Gga;
+        "fabric-1.21.1" = _F6Ub0Gga;
+        "neoforge-1.21.1" = _UNW6ItXN;
         "pkg-1.0" = _4vsAsHcB;
         "pkg-2.0" = _5jIWJ4mk;
         "pkg-3.0" = _UEXmLocA;
@@ -250,7 +262,8 @@ let
         "pkg-8.0.1" = _Blmqk2QF;
         "pkg-8.0.2" = _nzE0CTRV;
         "pkg-8.0.3" = _6nvO1cvI;
-        "default" = _6nvO1cvI;
+        "pkg-8.1-Love-for-All" = _F6Ub0Gga;
+        "default" = _F6Ub0Gga;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legendary-monuments";

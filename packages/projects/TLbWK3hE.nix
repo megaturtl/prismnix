@@ -116,6 +116,31 @@ let
             "file" = "additional_enchantments-1.20.1-1.3.2-all.jar";
             "hash" = "sha512-5AVq7h69rZ8/dA5m8od5TSUHhu8k54Xedt3AfwDLqbCuinS2qSRNU3Vz6NRg2VcZBBTdzFGqR3nyqg2mB8rLBw==";
         };
+        _Ezi9l4Qg = {
+            "id" = "Ezi9l4Qg";
+            "file" = "additional_enchantments-2.0.0.jar";
+            "hash" = "sha512-eqZ5KENF/23f5NIqdP0myOZ3M8TT3LmziVvdiSMkn32uKPpGJ8DdYjCrz3lxorbo7Y8YFv7zMwQtYjr6yluWNQ==";
+        };
+        _3QECLOUJ = {
+            "id" = "3QECLOUJ";
+            "file" = "additional_enchantments-26.1.2-2.0.0.jar";
+            "hash" = "sha512-EFzLVmGZoX+Enf7wAZM8ReTdcd9Y1qbuGhe+Cf5Xii7ThxRAfiC8foRh1GmHEARgObBLcyatpQDRN29z+EpQDw==";
+        };
+        _xYnw6jbR = {
+            "id" = "xYnw6jbR";
+            "file" = "additional_enchantments-1.21.1-2.0.1.jar";
+            "hash" = "sha512-oBeeqje+kM7zPZ49tLsmE3ChdbtqmxToP42b5uVp/KCb3/PBjWuLnxYE053d18D1ympOwzUUiimKNSybVZyqzg==";
+        };
+        _jJoXqaZY = {
+            "id" = "jJoXqaZY";
+            "file" = "additional_enchantments-26.1.2-2.0.1.jar";
+            "hash" = "sha512-49PlPnsLgiJcHThAnHyZ91IGD/W2I7SThqhd37OWZj3S7uNrnoJ4AbiZH9Z5o+N3AymncY0NpSIziA2YXk8hdw==";
+        };
+        _54kdySbG = {
+            "id" = "54kdySbG";
+            "file" = "additional_enchantments-1.21.1-2.0.2.jar";
+            "hash" = "sha512-ep9FTI4kphtVxSNWXFp30pzO4LLHueu7ZPyAbgQ3/s155bVdnAKAYWu1+8qtro8N3FlpMnS8bcBM9BkKAv9nIA==";
+        };
     in {
         "1jfk6zzE" = _1jfk6zzE;
         "69otcBZT" = _69otcBZT;
@@ -140,11 +165,19 @@ let
         "VnTOPZ6k" = _VnTOPZ6k;
         "CnnrJ7Nh" = _CnnrJ7Nh;
         "eiug0wlp" = _eiug0wlp;
+        "Ezi9l4Qg" = _Ezi9l4Qg;
+        "3QECLOUJ" = _3QECLOUJ;
+        "xYnw6jbR" = _xYnw6jbR;
+        "jJoXqaZY" = _jJoXqaZY;
+        "54kdySbG" = _54kdySbG;
         "forge-1.19.2" = _9SGcwu2f;
         "forge-1.20" = _eiug0wlp;
         "forge-1.20.1" = _eiug0wlp;
         "neoforge-1.20" = _eiug0wlp;
         "neoforge-1.20.1" = _eiug0wlp;
+        "neoforge-1.21" = _54kdySbG;
+        "neoforge-1.21.1" = _54kdySbG;
+        "neoforge-26.1.2" = _jJoXqaZY;
         "pkg-0.4.0" = _69otcBZT;
         "pkg-1.0.2" = _BaCppOAl;
         "pkg-1.1.0" = _bpR35zXR;
@@ -158,7 +191,10 @@ let
         "pkg-1.3.0" = _VnTOPZ6k;
         "pkg-1.3.1" = _CnnrJ7Nh;
         "pkg-1.3.2" = _eiug0wlp;
-        "default" = _eiug0wlp;
+        "pkg-2.0.0" = _3QECLOUJ;
+        "pkg-2.0.1" = _jJoXqaZY;
+        "pkg-2.0.2" = _54kdySbG;
+        "default" = _54kdySbG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "additional-enchantments";

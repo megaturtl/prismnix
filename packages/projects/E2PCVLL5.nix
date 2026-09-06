@@ -91,6 +91,11 @@ let
             "file" = "flashlight-5.1-neoforge-26.1.2.jar";
             "hash" = "sha512-UMIOzYDfLF2L8+xQpuqDCOsSC3akYx5ETFIWmAT7YmZQfCz9U6DJuUVLC28kZ3XzKR+qtEKpWDA21ce7RVHuNA==";
         };
+        _zL2vmXI3 = {
+            "id" = "zL2vmXI3";
+            "file" = "flashlight-5.1-neoforge-26.2.jar";
+            "hash" = "sha512-JabDdnHv2kNYGTIKI0eTtw8s0+4hAdNKKDuHrM7UPumw6gdl0zMEqrix+gj8FollV//N+zNUa7843rNqxBePPQ==";
+        };
     in {
         "D2OSzbvw" = _D2OSzbvw;
         "jHsghSeO" = _jHsghSeO;
@@ -110,6 +115,7 @@ let
         "taMBvj94" = _taMBvj94;
         "XWbz5Hkq" = _XWbz5Hkq;
         "W01qzygh" = _W01qzygh;
+        "zL2vmXI3" = _zL2vmXI3;
         "forge-1.16.4" = _D2OSzbvw;
         "forge-1.16.5" = _D2OSzbvw;
         "forge-1.17.1" = _jHsghSeO;
@@ -125,12 +131,13 @@ let
         "neoforge-1.21.5" = _taMBvj94;
         "neoforge-1.21.8" = _XWbz5Hkq;
         "neoforge-26.1.2" = _W01qzygh;
+        "neoforge-26.2" = _zL2vmXI3;
         "pkg-4.6" = _3WOYmpbC;
         "pkg-2.5" = _jHsghSeO;
         "pkg-3.0" = _nM000q5u;
         "pkg-5.0" = _XWbz5Hkq;
-        "pkg-5.1" = _W01qzygh;
-        "default" = _W01qzygh;
+        "pkg-5.1" = _zL2vmXI3;
+        "default" = _zL2vmXI3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tctflashlight";

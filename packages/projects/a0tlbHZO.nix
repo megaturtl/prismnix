@@ -226,6 +226,11 @@ let
             "file" = "SkBee-3.25.3.jar";
             "hash" = "sha512-EB1vZpjaVhBejq8qJlwSlCvByu01IyDaUR6IK75gzm1mF8Uqp0dzhcDk6XOT2ru/gF0vEOCWNHt73LF9S6lf2Q==";
         };
+        _bTBlzhGZ = {
+            "id" = "bTBlzhGZ";
+            "file" = "SkBee-3.25.4.jar";
+            "hash" = "sha512-eiwP8N4QRZAdo09YajTt41D2Mc8CesnUDglEBdxRUzjJfIXmM4Yl3tr6kJ7PgtjnvdlCFv4qCaNf9dLxbLsRoQ==";
+        };
     in {
         "OPnxcnq5" = _OPnxcnq5;
         "eXlUD05g" = _eXlUD05g;
@@ -272,6 +277,7 @@ let
         "J6dAwXeg" = _J6dAwXeg;
         "I5pTpkGu" = _I5pTpkGu;
         "OiM1IYp2" = _OiM1IYp2;
+        "bTBlzhGZ" = _bTBlzhGZ;
         "paper-1.19.4" = _flWLHr3O;
         "paper-1.20.6" = _ovrzmrpx;
         "paper-1.21.4" = _YUe8KJhT;
@@ -293,11 +299,11 @@ let
         "paper-1.21.3" = _ovrzmrpx;
         "paper-1.21.9" = _XcvHz30q;
         "paper-1.21.10" = _zyT8hOb8;
-        "paper-1.21.11" = _OiM1IYp2;
-        "paper-26.1" = _OiM1IYp2;
-        "paper-26.1.1" = _OiM1IYp2;
-        "paper-26.1.2" = _OiM1IYp2;
-        "paper-26.2" = _OiM1IYp2;
+        "paper-1.21.11" = _bTBlzhGZ;
+        "paper-26.1" = _bTBlzhGZ;
+        "paper-26.1.1" = _bTBlzhGZ;
+        "paper-26.1.2" = _bTBlzhGZ;
+        "paper-26.2" = _bTBlzhGZ;
         "spigot-1.19.4" = _flWLHr3O;
         "spigot-1.20.6" = _ovrzmrpx;
         "spigot-1.21.4" = _ovrzmrpx;
@@ -364,7 +370,8 @@ let
         "pkg-3.25.1" = _J6dAwXeg;
         "pkg-3.25.2" = _I5pTpkGu;
         "pkg-3.25.3" = _OiM1IYp2;
-        "default" = _OiM1IYp2;
+        "pkg-3.25.4" = _bTBlzhGZ;
+        "default" = _bTBlzhGZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skbee";

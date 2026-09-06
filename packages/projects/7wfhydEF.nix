@@ -96,6 +96,11 @@ let
             "file" = "keep-it-personal-26.1.2-1.jar";
             "hash" = "sha512-N8DB6G6ZawJQbmUbWaBML2GUM2lnPUuTHgKbJvhNwWcefE06jPz/TmKje1mSkOz2wyTMJAnBoKNGGHywCZtSGg==";
         };
+        _sF0DJmGy = {
+            "id" = "sF0DJmGy";
+            "file" = "keep-it-personal-26.2-0-SNAPSHOT.jar";
+            "hash" = "sha512-Pdk4wQZMKZFQLQOnbPG8TGiBu10tF21es7YyfMBIXriWDPumu8g3Cm4RJ55A6wpw831zrZfGJKEiLIRTcI/xbw==";
+        };
     in {
         "EsY3dc4v" = _EsY3dc4v;
         "skJ2Dcrs" = _skJ2Dcrs;
@@ -116,6 +121,7 @@ let
         "gwAntajd" = _gwAntajd;
         "u61MbHIC" = _u61MbHIC;
         "QdyFiGV3" = _QdyFiGV3;
+        "sF0DJmGy" = _sF0DJmGy;
         "fabric-1.21.4" = _skJ2Dcrs;
         "fabric-1.21.5" = _FIauVzsZ;
         "fabric-1.21.6" = _WotNFJu4;
@@ -127,6 +133,7 @@ let
         "fabric-26.1" = _gwAntajd;
         "fabric-26.1.1" = _u61MbHIC;
         "fabric-26.1.2" = _QdyFiGV3;
+        "fabric-26.2" = _sF0DJmGy;
         "pkg-1.0.0" = _EsY3dc4v;
         "pkg-1.0.1" = _skJ2Dcrs;
         "pkg-1.0.2" = _TihV8Bfu;
@@ -146,7 +153,8 @@ let
         "pkg-26.1-1" = _gwAntajd;
         "pkg-26.1.1-1" = _u61MbHIC;
         "pkg-26.1.2-1" = _QdyFiGV3;
-        "default" = _QdyFiGV3;
+        "pkg-26.2-0-SNAPSHOT" = _sF0DJmGy;
+        "default" = _sF0DJmGy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "keep-it-personal";

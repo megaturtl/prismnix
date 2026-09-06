@@ -51,6 +51,16 @@ let
             "file" = "ancient_forgemastery-1.4.1-neoforge-1.21.1.jar";
             "hash" = "sha512-tfswCEz9MQJebgyOInw9Oh6JpYlAlTp1VEVL9sp6PQArkrlcLyxkQHiB259Zz8mMPlcURvqXBhA3K+df5LKRUw==";
         };
+        _XsUGncAh = {
+            "id" = "XsUGncAh";
+            "file" = "ancient_forgemastery-1.5.0-forge-1.20.1.jar";
+            "hash" = "sha512-kLCtd6iJtC/Jd4uEuZcdByoXkLU5zgbQ1/tsV72QdoL4Dyiiv6l5WcyYLzc3dzjZXj2wpamHQT5X5HdxXWbYWg==";
+        };
+        _2RJw9Vxc = {
+            "id" = "2RJw9Vxc";
+            "file" = "ancient_forgemastery-1.5.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-d13llh2YSwSFwHycYEwRGXfU3PSzfv/5hdt9gVwwoiFgkQIIS9s686X1Qk66GzD/IHkh6vEaA6FgTC6xuSiAIg==";
+        };
     in {
         "nD8KaZGX" = _nD8KaZGX;
         "AIi86Bcm" = _AIi86Bcm;
@@ -62,8 +72,10 @@ let
         "DiLx8Nc8" = _DiLx8Nc8;
         "IfHd8UEs" = _IfHd8UEs;
         "NuDwgHaO" = _NuDwgHaO;
-        "forge-1.20.1" = _IfHd8UEs;
-        "neoforge-1.21.1" = _NuDwgHaO;
+        "XsUGncAh" = _XsUGncAh;
+        "2RJw9Vxc" = _2RJw9Vxc;
+        "forge-1.20.1" = _XsUGncAh;
+        "neoforge-1.21.1" = _2RJw9Vxc;
         "pkg-1.0.0" = _nD8KaZGX;
         "pkg-1.1.0" = _AIi86Bcm;
         "pkg-1.2.0" = _KT8JPVOD;
@@ -73,7 +85,8 @@ let
         "pkg-1.3.3" = _phL6GBMD;
         "pkg-1.4.0" = _DiLx8Nc8;
         "pkg-1.4.1" = _NuDwgHaO;
-        "default" = _NuDwgHaO;
+        "pkg-1.5.0" = _2RJw9Vxc;
+        "default" = _2RJw9Vxc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ancient-forgemastery";

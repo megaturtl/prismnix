@@ -181,6 +181,21 @@ let
             "file" = "Halcyon-v0.3.6+tides-of-phenua.jar";
             "hash" = "sha512-kj5/hddxYYf7+75RSAep3foPsNeXS764nM5pcrCwsBUYYGnO9SJq4M2g9SIQOUN/B8h1ZhX8LcxFxGbFaOvvrA==";
         };
+        _E2pQygSX = {
+            "id" = "E2pQygSX";
+            "file" = "Halcyon-v0.4.1+aria-of-the-moon.jar";
+            "hash" = "sha512-Bt0E94LEVQblG2+OgCbZ45u+dVel2PldoAQG11CMBkqyNU9jVBjHrdkLaT2hMo5+nvGNPjhHMijsric6HtcHLQ==";
+        };
+        _BaW2gxMQ = {
+            "id" = "BaW2gxMQ";
+            "file" = "Halcyon-v0.4.2+aria-of-the-moon.jar";
+            "hash" = "sha512-puGBqAhknNEFAiYaIZ49oasSxLYfzvdo7c0NTh12VhQktDjwqO4FByuw3sDeIyO6W9jXxLWj5EysJM0fzAADxg==";
+        };
+        _hXhaHeCf = {
+            "id" = "hXhaHeCf";
+            "file" = "Halcyon-v0.4.3+aria-of-the-moon.jar";
+            "hash" = "sha512-aGBfHozm32uAHecv9jOjhH66Hxh0k+fk7PCtLeS2QrzpFAuiCLUhWBdN5DG1ABojQGVBTioUy0yWdLz2UUB9Lg==";
+        };
     in {
         "MdqT1M0G" = _MdqT1M0G;
         "OcTTRxXn" = _OcTTRxXn;
@@ -218,8 +233,11 @@ let
         "2A0NyvQl" = _2A0NyvQl;
         "V189Jguu" = _V189Jguu;
         "Jb78G6CL" = _Jb78G6CL;
+        "E2pQygSX" = _E2pQygSX;
+        "BaW2gxMQ" = _BaW2gxMQ;
+        "hXhaHeCf" = _hXhaHeCf;
         "neoforge-1.21" = _KJN7WRG1;
-        "neoforge-1.21.1" = _Jb78G6CL;
+        "neoforge-1.21.1" = _hXhaHeCf;
         "pkg-1.0.0-alpha-earlygame1" = _MdqT1M0G;
         "pkg-1.0.0-alpha-earlygame2" = _OcTTRxXn;
         "pkg-1.0.0-alpha-earlygame3" = _OorXgiFx;
@@ -256,7 +274,10 @@ let
         "pkg-0.3.4+tides-of-phenua" = _2A0NyvQl;
         "pkg-0.3.5+tides-of-phenua" = _V189Jguu;
         "pkg-0.3.6+tides-of-phenua" = _Jb78G6CL;
-        "default" = _Jb78G6CL;
+        "pkg-0.4.1+aria-of-the-moon" = _E2pQygSX;
+        "pkg-0.4.2+aria-of-the-moon" = _BaW2gxMQ;
+        "pkg-0.4.3+aria-of-the-moon" = _hXhaHeCf;
+        "default" = _hXhaHeCf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "data-essence";

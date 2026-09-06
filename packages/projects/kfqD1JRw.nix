@@ -406,6 +406,16 @@ let
             "file" = "VisualWorkbench-v26.2.1-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-7EBAfmtskCW6W7ZsA74thq49FbPF5OjSXrEnW/RdnsTqDYyF+DQ1SFfeS4f4Gg7BC61R3Sky0U+hpHJosazJcw==";
         };
+        _3646RfLS = {
+            "id" = "3646RfLS";
+            "file" = "VisualWorkbench-v21.1.2-1.21.1-NeoForge.jar";
+            "hash" = "sha512-NzekNhQ6zBxvgNBjM3Ha+04kAm1YW/WvqAQh4dHWu9IkPQQMQ6cNZ5Y3cifAdi0FjCfCsWo/sg0MJgK9BK4gOA==";
+        };
+        _HyTKHqxd = {
+            "id" = "HyTKHqxd";
+            "file" = "VisualWorkbench-v21.1.2-1.21.1-Fabric.jar";
+            "hash" = "sha512-PEnotmQEX0C5RnBVxviN788/PS4BIJYhTVcfpEBgodoBryJcFIUNJcIFzHYks5t1Zv4LQ9RDy48yPCC0OHtO/g==";
+        };
     in {
         "zvuYDbCv" = _zvuYDbCv;
         "SEQAgUZC" = _SEQAgUZC;
@@ -488,6 +498,8 @@ let
         "qd9v1y5w" = _qd9v1y5w;
         "m2UkOgBN" = _m2UkOgBN;
         "zoLCpqp3" = _zoLCpqp3;
+        "3646RfLS" = _3646RfLS;
+        "HyTKHqxd" = _HyTKHqxd;
         "forge-1.19" = _zvuYDbCv;
         "forge-1.19.1" = _1u457HoS;
         "forge-1.19.2" = _1u457HoS;
@@ -505,7 +517,7 @@ let
         "fabric-1.20.1" = _NP7AXO6Q;
         "fabric-1.20.4" = _En0eBVl1;
         "fabric-1.21" = _2F4w4356;
-        "fabric-1.21.1" = _fGXmFJ8q;
+        "fabric-1.21.1" = _HyTKHqxd;
         "fabric-1.21.3" = _itM6w7NL;
         "fabric-1.21.4" = _eEmPD3gO;
         "fabric-1.21.5" = _GLNQXUBq;
@@ -521,7 +533,7 @@ let
         "fabric-26.2" = _m2UkOgBN;
         "neoforge-1.20.4" = _fndrNbOK;
         "neoforge-1.21" = _4yCmKA9D;
-        "neoforge-1.21.1" = _Jy5V5FNj;
+        "neoforge-1.21.1" = _3646RfLS;
         "neoforge-1.21.3" = _Jnq6HJyn;
         "neoforge-1.21.4" = _R96kEpJG;
         "neoforge-1.21.5" = _z8m9r3qh;
@@ -609,7 +621,8 @@ let
         "pkg-26.1.0" = _cIEtLn9n;
         "pkg-26.2.0" = _qd9v1y5w;
         "pkg-26.2.1" = _zoLCpqp3;
-        "default" = _zoLCpqp3;
+        "pkg-21.1.2" = _HyTKHqxd;
+        "default" = _HyTKHqxd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "visual-workbench";

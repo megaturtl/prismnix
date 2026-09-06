@@ -121,6 +121,16 @@ let
             "file" = "cloudsolutions-fabric-1.20.1-0.3.4.jar";
             "hash" = "sha512-OuVXJ/4wD9CttOZkmU14TKTlSga49HpTr9WValBmSABKS+VdXwx+fcXyh7incCd2bIcGTnEebqIx3CKuh62M/Q==";
         };
+        _5i3E73e9 = {
+            "id" = "5i3E73e9";
+            "file" = "cloudsolutions-forge-1.21.1-0.3.4.jar";
+            "hash" = "sha512-QqYSadjnEKMELUGq0H9ccR+GtOVPsZSpKpb/HBk8nUK/2blblgXvzjllcpbLODXU7U3p7U6m56/WYRgPrQu/Tg==";
+        };
+        _l6LHnebE = {
+            "id" = "l6LHnebE";
+            "file" = "cloudsolutions-fabric-1.21.1-0.3.4.jar";
+            "hash" = "sha512-NAYW7rscZdC2VpdGjbVrXqnwjWrHuf17cLv2X9z5UCT+bpL6gwFuMcGGMV7R4zNsNIBW+LTsbgvzvPz7ibl4fw==";
+        };
     in {
         "lMWXe9XF" = _lMWXe9XF;
         "XfHcbkx9" = _XfHcbkx9;
@@ -146,8 +156,12 @@ let
         "QNZgGGCu" = _QNZgGGCu;
         "qVkPLoQT" = _qVkPLoQT;
         "dh3XeIR1" = _dh3XeIR1;
+        "5i3E73e9" = _5i3E73e9;
+        "l6LHnebE" = _l6LHnebE;
         "forge-1.20.1" = _qVkPLoQT;
         "fabric-1.20.1" = _dh3XeIR1;
+        "fabric-1.21.1" = _l6LHnebE;
+        "neoforge-1.21.1" = _5i3E73e9;
         "pkg-1.20.1-0.1.1" = _XfHcbkx9;
         "pkg-1.20.1-0.1.2" = _2vePW4dE;
         "pkg-1.20.1-0.1.3" = _bxfkTb5m;
@@ -160,7 +174,8 @@ let
         "pkg-1.20.1-0.3.2" = _tQm8B8oi;
         "pkg-1.20.1-0.3.3" = _QNZgGGCu;
         "pkg-1.20.1-0.3.4" = _dh3XeIR1;
-        "default" = _dh3XeIR1;
+        "pkg-1.21.1-0.3.4" = _l6LHnebE;
+        "default" = _l6LHnebE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cloud-solutions";

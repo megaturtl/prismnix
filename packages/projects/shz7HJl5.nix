@@ -31,6 +31,16 @@ let
             "file" = "Satchels-1.6.jar";
             "hash" = "sha512-BT635N9ER1mjVxQUu33lh8lXIKKBpJFTnefDlAYTf51YCnUZ5KJCrJaL/9lle2EmFYNpUauaN34d79BQCTl7NQ==";
         };
+        _SzNAqq18 = {
+            "id" = "SzNAqq18";
+            "file" = "Satchels-1.6.jar";
+            "hash" = "sha512-WHoqv+UKhCGwoHJg1Jk5I4UbZbeMP89/qddlSIyVjCEQcOkWuzp+aZzSkBhgzVM75hHYmp5Kiiwi9wsd+wE3Aw==";
+        };
+        _1eaU8jfl = {
+            "id" = "1eaU8jfl";
+            "file" = "Satchels-1.7.jar";
+            "hash" = "sha512-mK+VB3zQ1ovdSgHjivvc/MvKWgamV43Fpgux6SGaJi3PMvbjVBugHE+V2VdGAj6Rzo0N0JelkrkVHLNfOA/VRg==";
+        };
     in {
         "Szv3px1k" = _Szv3px1k;
         "EyaMN81q" = _EyaMN81q;
@@ -38,15 +48,19 @@ let
         "shHcPK2v" = _shHcPK2v;
         "QnFvAMtx" = _QnFvAMtx;
         "9h0GriD4" = _9h0GriD4;
+        "SzNAqq18" = _SzNAqq18;
+        "1eaU8jfl" = _1eaU8jfl;
         "fabric-1.21.11" = _shHcPK2v;
         "fabric-26.1.2" = _9h0GriD4;
+        "fabric-26.2" = _1eaU8jfl;
         "pkg-1.0" = _Szv3px1k;
         "pkg-1.1" = _EyaMN81q;
         "pkg-1.3" = _f7R56ApP;
         "pkg-1.4" = _shHcPK2v;
         "pkg-1.5" = _QnFvAMtx;
-        "pkg-1.6" = _9h0GriD4;
-        "default" = _9h0GriD4;
+        "pkg-1.6" = _SzNAqq18;
+        "pkg-1.7" = _1eaU8jfl;
+        "default" = _1eaU8jfl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "satchel";

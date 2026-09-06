@@ -36,6 +36,11 @@ let
             "file" = "AeroEngine-1.2.4.jar";
             "hash" = "sha512-gAzlUrci/cNroNf4Fmgv00/GzUMP3P2j562dauTrNYROen5Xbm15Xi16G0N5wRd6916io7WXKMIpGmiZrJto3Q==";
         };
+        _eqi1VZul = {
+            "id" = "eqi1VZul";
+            "file" = "AeroEngine-1.3.0.jar";
+            "hash" = "sha512-QxLN6Egt7Q8aAQEGYDE6x69TyjhR0/rbMnwkApfH3Dnj84TPTIuvDuiEQLFw9rLPs4imx/9q64lV0iqrgoFYMw==";
+        };
     in {
         "q3dNOOaT" = _q3dNOOaT;
         "8OfV7zZ0" = _8OfV7zZ0;
@@ -44,7 +49,8 @@ let
         "SV35Dnve" = _SV35Dnve;
         "lhNhsmAj" = _lhNhsmAj;
         "ZnHmBm1Z" = _ZnHmBm1Z;
-        "neoforge-1.21.1" = _ZnHmBm1Z;
+        "eqi1VZul" = _eqi1VZul;
+        "neoforge-1.21.1" = _eqi1VZul;
         "pkg-1.0.1" = _q3dNOOaT;
         "pkg-1.0.2" = _8OfV7zZ0;
         "pkg-1.2.0" = _UtN91BC9;
@@ -52,7 +58,8 @@ let
         "pkg-1.2.2" = _SV35Dnve;
         "pkg-1.2.3" = _lhNhsmAj;
         "pkg-1.2.4" = _ZnHmBm1Z;
-        "default" = _ZnHmBm1Z;
+        "pkg-1.3.0" = _eqi1VZul;
+        "default" = _eqi1VZul;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aeroengine";

@@ -61,6 +61,16 @@ let
             "file" = "TFCVolcanoes-1.21.1-2.1.1.jar";
             "hash" = "sha512-sIOyqzyWJD/UJ0pDu/SeP7JKBHqkXhIrtEwdt0nWoiADf07kuuH1rvlxf/bpEessMFd6WjjszdeMtml1RWVsLw==";
         };
+        _Y4EHBFMi = {
+            "id" = "Y4EHBFMi";
+            "file" = "TFCVolcanoes-1.21.1-2.2.jar";
+            "hash" = "sha512-yaH9JLCl9GOvYWYj2y3Ms42NWSgmg4L0jm+1rnTaxPYb939F8LU1eybwmGW89ggsnUebpTdA0RjBCXqQ1OPrxQ==";
+        };
+        _jzDrDC80 = {
+            "id" = "jzDrDC80";
+            "file" = "TFCVolcanoes-1.21.1-2.2.1.jar";
+            "hash" = "sha512-TO1m6ImFa8kc/irThsjnWAEP+S/qg0go9t+ogWTfZmQ3DKZNV/U/arQU/817si7kIVkM2myA55Qw3rA6X9JLBQ==";
+        };
     in {
         "lhAijYVv" = _lhAijYVv;
         "egVcVZO3" = _egVcVZO3;
@@ -74,10 +84,12 @@ let
         "NiBjnn59" = _NiBjnn59;
         "vUlH71gl" = _vUlH71gl;
         "ETLHUCWi" = _ETLHUCWi;
+        "Y4EHBFMi" = _Y4EHBFMi;
+        "jzDrDC80" = _jzDrDC80;
         "forge-1.20.1" = _egVcVZO3;
         "neoforge-1.20.1" = _egVcVZO3;
-        "neoforge-1.21" = _ETLHUCWi;
-        "neoforge-1.21.1" = _ETLHUCWi;
+        "neoforge-1.21" = _jzDrDC80;
+        "neoforge-1.21.1" = _jzDrDC80;
         "pkg-1.3.14" = _lhAijYVv;
         "pkg-1.3.16" = _egVcVZO3;
         "pkg-2.0" = _ypEjKXpe;
@@ -90,7 +102,9 @@ let
         "pkg-2.0.8" = _NiBjnn59;
         "pkg-2.1" = _vUlH71gl;
         "pkg-2.1.1" = _ETLHUCWi;
-        "default" = _ETLHUCWi;
+        "pkg-2.2" = _Y4EHBFMi;
+        "pkg-2.2.1" = _jzDrDC80;
+        "default" = _jzDrDC80;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tfc-volcanoes";

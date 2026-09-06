@@ -91,6 +91,26 @@ let
             "file" = "Deus Chrono-Machina-6.7 hotfix+1.20.1-forge.jar";
             "hash" = "sha512-mUA5jbGW3U+TOkjyUmHTsRuNEFK1MlK8I0tu3D7JGwWuCG3rScqwOtdbhOL5ftd9h+iflArg+Dj4U4fp9chXqQ==";
         };
+        _bT987y29 = {
+            "id" = "bT987y29";
+            "file" = "Deus Chrono-Machina-6.8+1.20.1-forge.jar";
+            "hash" = "sha512-mGQDRhxpn0VLXja1isErI+XEruh2EaJBe0Byq5AUqKy/jmSIfCING0VF5nE4nRjY+SPKsXSaD3P+Xs2WoNuLbg==";
+        };
+        _K1w8dPPj = {
+            "id" = "K1w8dPPj";
+            "file" = "Deus Chrono-Machina-6.9+1.20.1-forge.jar";
+            "hash" = "sha512-Md5e3tBRTG9V9izig71xSFqZ4fK5dutiQIBk8HEYI3GaKUX3k4Ox9KWsCkfLe5YqLJFRND9OpuTc/0dMEdRVnw==";
+        };
+        _AYZMCaEN = {
+            "id" = "AYZMCaEN";
+            "file" = "Deus Chrono-Machina-6.10+1.20.1-forge.jar";
+            "hash" = "sha512-gQ4qSldvoO1LTk2FUeRBvYcIQ3IYXslbNucdmWv8elAs/0te0c4VXx82SINLHulsIF8aegd8Yk5eGLBPEDZpBg==";
+        };
+        _S6G9EOLW = {
+            "id" = "S6G9EOLW";
+            "file" = "Deus Chrono-Machina-6.10-hotfix+1.20.1-forge.jar";
+            "hash" = "sha512-U7K5+mrZf1KyRHcBiY6Cue3NsUp81yuvc+dtwRVxFUdf7dZaz39jDTMmFA8qS2k1DzFn+RXHdw/fK2Pl2amjhg==";
+        };
     in {
         "5LjPfaV0" = _5LjPfaV0;
         "2LbvHL1b" = _2LbvHL1b;
@@ -110,8 +130,12 @@ let
         "hawKoGn4" = _hawKoGn4;
         "eN6YYVTM" = _eN6YYVTM;
         "3rKiits1" = _3rKiits1;
+        "bT987y29" = _bT987y29;
+        "K1w8dPPj" = _K1w8dPPj;
+        "AYZMCaEN" = _AYZMCaEN;
+        "S6G9EOLW" = _S6G9EOLW;
         "fabric-1.20.1" = _FXofyOii;
-        "forge-1.20.1" = _3rKiits1;
+        "forge-1.20.1" = _S6G9EOLW;
         "pkg-0.1-hotfix" = _5LjPfaV0;
         "pkg-1.0" = _2LbvHL1b;
         "pkg-1.1" = _jSRmVYyM;
@@ -130,7 +154,11 @@ let
         "pkg-6.6" = _hawKoGn4;
         "pkg-6.7" = _eN6YYVTM;
         "pkg-6.7-hotfix" = _3rKiits1;
-        "default" = _3rKiits1;
+        "pkg-6.8" = _bT987y29;
+        "pkg-6.9" = _K1w8dPPj;
+        "pkg-6.10" = _AYZMCaEN;
+        "pkg-6.10-hotfix" = _S6G9EOLW;
+        "default" = _S6G9EOLW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "deus-chrono-machina";

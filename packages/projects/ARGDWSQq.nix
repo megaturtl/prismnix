@@ -36,6 +36,11 @@ let
             "file" = "RCT Trainers+ [1.6] v2.1.zip";
             "hash" = "sha512-Oz4ihk4UZhZSusZjICPTKU/MyE1mtU4LbjZfH6XSyQHsVJFmLH3mJSyua2PHd8Z9mSJoxkEYQdV2oUJSoaS6Tg==";
         };
+        _C8AKk01H = {
+            "id" = "C8AKk01H";
+            "file" = "RCT Trainers+ [1.7] v2.2.zip";
+            "hash" = "sha512-fNFJN5DUHlDK7neD9a2I6Fn5aYkgdpsl5VGxTy50A6QtaunB3sFMe1joIQlcDsJYXrEeLospF81/a+WMtk9jVw==";
+        };
     in {
         "PXK4d5aY" = _PXK4d5aY;
         "RkBoEItB" = _RkBoEItB;
@@ -44,8 +49,9 @@ let
         "qRdAsFS2" = _qRdAsFS2;
         "3BV5xaph" = _3BV5xaph;
         "2PwkXMie" = _2PwkXMie;
+        "C8AKk01H" = _C8AKk01H;
         "minecraft-1.20.1" = _aDaCCzML;
-        "minecraft-1.21.1" = _2PwkXMie;
+        "minecraft-1.21.1" = _C8AKk01H;
         "pkg-1.0" = _PXK4d5aY;
         "pkg-1.2" = _RkBoEItB;
         "pkg-1.3" = _5rDoPEzg;
@@ -53,7 +59,8 @@ let
         "pkg-1.5" = _qRdAsFS2;
         "pkg-2.0" = _3BV5xaph;
         "pkg-2.1" = _2PwkXMie;
-        "default" = _2PwkXMie;
+        "pkg-2.2" = _C8AKk01H;
+        "default" = _C8AKk01H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rct-trainer-textures-plus";

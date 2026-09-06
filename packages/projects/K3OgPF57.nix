@@ -76,6 +76,11 @@ let
             "file" = "expanded-crossbow-enchanting-1.0.14.jar";
             "hash" = "sha512-a5MW4oOhrWImYQ0K8Z47QRuO55rS+yW8w0cqzQqUPeD0yE81eejBRZfgc2hgF1q2y137kO/r3zkkMXZWHwBlWw==";
         };
+        _xScdrveR = {
+            "id" = "xScdrveR";
+            "file" = "expanded-crossbow-enchanting-1.0.15.jar";
+            "hash" = "sha512-/s54QEqBS8VXcLWn2PJUXZd1a22laF2ixfOhiWdl+oJn3obbMCMXdMK9HHBiGL7s91nyp84GiSlOp2H0LDgVvQ==";
+        };
     in {
         "WW9gVCYg" = _WW9gVCYg;
         "SyWAYNJR" = _SyWAYNJR;
@@ -92,6 +97,7 @@ let
         "Ge6khmpz" = _Ge6khmpz;
         "UoU1dtRK" = _UoU1dtRK;
         "q9tbvfvp" = _q9tbvfvp;
+        "xScdrveR" = _xScdrveR;
         "fabric-1.21" = _SyWAYNJR;
         "fabric-1.21.1" = _wltsKFPl;
         "fabric-1.21.3" = _xYGYhmTM;
@@ -106,6 +112,7 @@ let
         "fabric-26.1" = _q9tbvfvp;
         "fabric-26.1.1" = _q9tbvfvp;
         "fabric-26.1.2" = _q9tbvfvp;
+        "fabric-26.2" = _xScdrveR;
         "pkg-1.0.0" = _WW9gVCYg;
         "pkg-1.0.1" = _SyWAYNJR;
         "pkg-1.0.2" = _wltsKFPl;
@@ -121,7 +128,8 @@ let
         "pkg-1.0.12" = _Ge6khmpz;
         "pkg-1.0.13" = _UoU1dtRK;
         "pkg-1.0.14" = _q9tbvfvp;
-        "default" = _q9tbvfvp;
+        "pkg-1.0.15" = _xScdrveR;
+        "default" = _xScdrveR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "expanded-crossbow-enchanting";

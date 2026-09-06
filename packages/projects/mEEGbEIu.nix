@@ -961,6 +961,31 @@ let
             "file" = "pandalib-fabric-1.20-0.6.1.jar";
             "hash" = "sha512-T+T7j0cACPBoqyicV0X/mW7gr+OunfkjDUUramTXmjaAZ/Z9ASdT1dhLxFk79w9GntM/voOQYpCcn13Ko8+pIw==";
         };
+        _fik3rI85 = {
+            "id" = "fik3rI85";
+            "file" = "pandalib-fabric-1.20.1-0.6.2.jar";
+            "hash" = "sha512-nj8LHga/TbNKRmVMtjjyHhfRuA7QK6dZcPrLPbuIxafbzbol4adknDyxxu4ibHFJ0jdEhUJUFIE1e9TnSmJLGg==";
+        };
+        _DvaAwfil = {
+            "id" = "DvaAwfil";
+            "file" = "pandalib-fabric-1.21.1-0.6.2.jar";
+            "hash" = "sha512-xPtuUled+W7S1+JAkKwvlsuXKLI13CaCGJdDlpa0x9at+0n/0aIl45jQTi5lmAoQoOS1FXgBez2Tg/OBC8bfJg==";
+        };
+        _ALYCRo2U = {
+            "id" = "ALYCRo2U";
+            "file" = "pandalib-fabric-1.21.11-0.6.2.jar";
+            "hash" = "sha512-+rVAjPl9IQLFnnsu1LtsvopdHSNcjZ/iRzKfI7S3r9Hn7JYG2YBGs3Yrx5XKZRL0/r3RZFdBSGARWpIxouXbEQ==";
+        };
+        _XcO6cQIb = {
+            "id" = "XcO6cQIb";
+            "file" = "pandalib-neoforge-1.21.1-0.6.2.jar";
+            "hash" = "sha512-mcAlSFzkKvh129C0qLOkYxndyPiR1gaN2zuy4FEWgqNwU1epNtFIjAS8H/HBsM/Wn81+q0gWUTC0HSX5Gmm9mg==";
+        };
+        _lsFVKxPE = {
+            "id" = "lsFVKxPE";
+            "file" = "pandalib-neoforge-1.21.11-0.6.2.jar";
+            "hash" = "sha512-6KuKjr2oXS/bGSLU/tdeePCSqANWa8rWvPcmdi9l29XXO77GcRFPyHO+0boLfjlm+Ru3/JvO+JDwcVTG5ST7Og==";
+        };
     in {
         "MBSkDlWj" = _MBSkDlWj;
         "JVjk0jPL" = _JVjk0jPL;
@@ -1154,16 +1179,21 @@ let
         "zySj5YXB" = _zySj5YXB;
         "MH98GMaH" = _MH98GMaH;
         "KUqubVIx" = _KUqubVIx;
+        "fik3rI85" = _fik3rI85;
+        "DvaAwfil" = _DvaAwfil;
+        "ALYCRo2U" = _ALYCRo2U;
+        "XcO6cQIb" = _XcO6cQIb;
+        "lsFVKxPE" = _lsFVKxPE;
         "fabric-1.19.2" = _UmLfZnHv;
         "fabric-1.20" = _KUqubVIx;
-        "fabric-1.20.1" = _MH98GMaH;
+        "fabric-1.20.1" = _fik3rI85;
         "fabric-1.20.2" = _zySj5YXB;
         "fabric-1.20.3" = _pfMNE43n;
         "fabric-1.20.4" = _XI8oDldS;
         "fabric-1.20.5" = _5inQABZO;
         "fabric-1.20.6" = _oq5OVDv0;
         "fabric-1.21" = _T1UtpzE0;
-        "fabric-1.21.1" = _w1gK2R6Y;
+        "fabric-1.21.1" = _DvaAwfil;
         "fabric-1.21.4" = _Yc9qisLX;
         "fabric-1.21.2" = _KH2BiVlY;
         "fabric-1.21.3" = _WJe2Igg5;
@@ -1173,7 +1203,7 @@ let
         "fabric-1.21.9" = _47PYGPqn;
         "fabric-1.21.6" = _AJE9z1p1;
         "fabric-1.21.8" = _4wSiPV6e;
-        "fabric-1.21.11" = _iK6CZFUx;
+        "fabric-1.21.11" = _ALYCRo2U;
         "forge-1.19.2" = _gD0PhYUh;
         "forge-1.20" = _W9C2CFxo;
         "forge-1.20.1" = _W9C2CFxo;
@@ -1185,7 +1215,7 @@ let
         "neoforge-1.20.5" = _Do6RiMfx;
         "neoforge-1.20.6" = _YO5ooh6v;
         "neoforge-1.21" = _imbZevZb;
-        "neoforge-1.21.1" = _RyUlB24m;
+        "neoforge-1.21.1" = _XcO6cQIb;
         "neoforge-1.21.4" = _hvCiBCj9;
         "neoforge-1.21.2" = _qdskr3vJ;
         "neoforge-1.21.3" = _wioZhy23;
@@ -1198,7 +1228,7 @@ let
         "neoforge-1.21.8" = _bpWi3YtA;
         "neoforge-1.20.2" = _1zpIJvo3;
         "neoforge-1.20.3" = _M5gIhMfJ;
-        "neoforge-1.21.11" = _VRFGJUE7;
+        "neoforge-1.21.11" = _lsFVKxPE;
         "pkg-0.1" = _GtgAOwVx;
         "pkg-0.2" = _wur44CPo;
         "pkg-0.2.1" = _fFk2KtnU;
@@ -1220,7 +1250,8 @@ let
         "pkg-1.0.0-ALPHA.2.2" = _n7tWggXm;
         "pkg-0.6.0" = _ZRXPRHLV;
         "pkg-0.6.1" = _KUqubVIx;
-        "default" = _KUqubVIx;
+        "pkg-0.6.2" = _lsFVKxPE;
+        "default" = _lsFVKxPE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pandalib";

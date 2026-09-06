@@ -71,6 +71,11 @@ let
             "file" = "variating_mobs_ii-2.6.0-neoforge-1.21.1.jar";
             "hash" = "sha512-aQQ0xtZz+3FP1h2l467Oa0GHLLDMWQA9XOUOG4QPpRUbybuIuDK6UlkBaGU8wFATl7/Yqm27+QbH+sSvyT0pfg==";
         };
+        _SfOAFMXf = {
+            "id" = "SfOAFMXf";
+            "file" = "variating_mobs_ii-3.0.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-EpX8VwAXOBRPGml06lSWIct5/wZam0VAxUlH6d+jLq03ykr750WZJALtKNwdFUVXJ447qGAfueTF58W/7uzIgQ==";
+        };
     in {
         "ltn01bg8" = _ltn01bg8;
         "EQLe6AdD" = _EQLe6AdD;
@@ -86,9 +91,10 @@ let
         "vcWWwBVE" = _vcWWwBVE;
         "7set3JX9" = _7set3JX9;
         "jKdBotcn" = _jKdBotcn;
+        "SfOAFMXf" = _SfOAFMXf;
         "forge-1.20.1" = _MRU0n34I;
         "neoforge-1.20.1" = _P2Cwql6C;
-        "neoforge-1.21.1" = _jKdBotcn;
+        "neoforge-1.21.1" = _SfOAFMXf;
         "pkg-1.0.0" = _ltn01bg8;
         "pkg-1.1.0" = _EQLe6AdD;
         "pkg-1.2.0" = _Zw3Fm0u8;
@@ -103,7 +109,8 @@ let
         "pkg-2.4.0" = _vcWWwBVE;
         "pkg-2.5.0" = _7set3JX9;
         "pkg-2.6.0" = _jKdBotcn;
-        "default" = _jKdBotcn;
+        "pkg-3.0.0" = _SfOAFMXf;
+        "default" = _SfOAFMXf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "variating-mobs";
@@ -111,12 +118,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-4.0" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "LicenseRef-All-Rights-Reserved";
-                shortName = "LicenseRef-All-Rights-Reserved";
+                fullName = "Creative Commons Attribution 4.0 International";
+                shortName = "CC-BY-4.0";
                 url = null;
             };
         };

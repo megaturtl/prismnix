@@ -226,6 +226,16 @@ let
             "file" = "trains_tweaks-neoforge-1.21.1-1.0.1.jar";
             "hash" = "sha512-8Wf6DqwOZTHw2iX6kTnxdOrdqrrDR6rn2t9RhYFyLOB2UpMhwtnaa/Gq0E8PvYcZITK1OxS/nUbzDA2PSLFz1A==";
         };
+        _PKMqsVkp = {
+            "id" = "PKMqsVkp";
+            "file" = "trains_tweaks-neoforge-1.21.1-1.0.2.jar";
+            "hash" = "sha512-pFTbBVK7E01PRF5JE9WtjfcgveJHUJ7PssGPEwXpgpWqwTUsmA5+Yvhob+/HYWKeWycMnWB+i+xczo4LwK5+0Q==";
+        };
+        _he9fDal8 = {
+            "id" = "he9fDal8";
+            "file" = "trains_tweaks-fabric-1.21.1-1.0.2.jar";
+            "hash" = "sha512-b8/UbcfDasNEIjpdctwaKYx8fjXpriYgHCKfYSuOAEZTqH/c0UJ5n4HffnMKMV+jqbUaqvynvPG23CUVp84dVg==";
+        };
     in {
         "RL2QVJ22" = _RL2QVJ22;
         "qqpB06Ew" = _qqpB06Ew;
@@ -272,8 +282,10 @@ let
         "wEVRFcvj" = _wEVRFcvj;
         "kDIUNknW" = _kDIUNknW;
         "lmsutcqJ" = _lmsutcqJ;
-        "neoforge-1.21.1" = _lmsutcqJ;
-        "fabric-1.21.1" = _kDIUNknW;
+        "PKMqsVkp" = _PKMqsVkp;
+        "he9fDal8" = _he9fDal8;
+        "neoforge-1.21.1" = _PKMqsVkp;
+        "fabric-1.21.1" = _he9fDal8;
         "quilt-1.21.1" = _uAvhYL74;
         "pkg-0.9.0" = _qqpB06Ew;
         "pkg-0.9.1" = _Q9pCo1wu;
@@ -299,7 +311,8 @@ let
         "pkg-0.9.21" = _fEJIyPOJ;
         "pkg-0.9.30" = _wEVRFcvj;
         "pkg-1.0.1" = _lmsutcqJ;
-        "default" = _lmsutcqJ;
+        "pkg-1.0.2" = _he9fDal8;
+        "default" = _he9fDal8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trains_tweaks";

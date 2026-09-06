@@ -11,14 +11,29 @@ let
             "file" = "Karambits_v1.1.zip";
             "hash" = "sha512-nseajPSP2j5mxG46uWCyFwWtNSvRmF0bmUiR9CQbs1IXRddMDc1rmLbueDQ8LQQf7eMKPt61nisU7ZXmjVYxdA==";
         };
+        _yQkV2HyF = {
+            "id" = "yQkV2HyF";
+            "file" = "Karambits_v1.2.zip";
+            "hash" = "sha512-n+qgdwWMBethjaX6RQrmBxZESnmG3phN//c6BpkZLdo5sqqljZLQpLBKcXHlKeQId9TKPcM7voU85wPDlqjpDQ==";
+        };
+        _DoHcuNrO = {
+            "id" = "DoHcuNrO";
+            "file" = "Karambits_v1.2.1.zip";
+            "hash" = "sha512-VCxQNc8px2oBvFCY8bhqpIwt0N0SDUF/bRXiu/NykGjEYHsTVMg+ifm8j1yf2rKLsHoQFqQz3fK9+rLAm4l1kw==";
+        };
     in {
         "lF5beJpA" = _lF5beJpA;
         "5vCWSM0n" = _5vCWSM0n;
+        "yQkV2HyF" = _yQkV2HyF;
+        "DoHcuNrO" = _DoHcuNrO;
         "minecraft-1.21.5" = _lF5beJpA;
-        "minecraft-1.21.11" = _5vCWSM0n;
+        "minecraft-1.21.11" = _yQkV2HyF;
+        "minecraft-26.1" = _DoHcuNrO;
         "pkg-1.0" = _lF5beJpA;
         "pkg-1.1" = _5vCWSM0n;
-        "default" = _5vCWSM0n;
+        "pkg-1.2" = _yQkV2HyF;
+        "pkg-1.2.1" = _DoHcuNrO;
+        "default" = _DoHcuNrO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "karambit-swords";

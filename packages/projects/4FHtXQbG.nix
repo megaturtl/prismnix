@@ -41,6 +41,11 @@ let
             "file" = "biggerenderchest-fabric-1.16.x.jar";
             "hash" = "sha512-qYV98qETGBryACxjo5VUkatYPppGoi+d0m4dCwqN43B2i6ngrszgLAijYQzswIqI5LrF4bCzUtRm3libLQtydQ==";
         };
+        _ySlzdWo1 = {
+            "id" = "ySlzdWo1";
+            "file" = "biggerenderchest-26.2-0.1.0+mc26.2.jar";
+            "hash" = "sha512-La7kOmC0oqyZ5onQAm6mkFzhu9rbJTu8rKb7lydQlSICD/TM6smawxoEkR6edC8skt61eYtDk5ta27f05MSeSQ==";
+        };
     in {
         "HisEB7Sr" = _HisEB7Sr;
         "pSrsoA1f" = _pSrsoA1f;
@@ -50,6 +55,7 @@ let
         "n05HxtAk" = _n05HxtAk;
         "gvo6YTDa" = _gvo6YTDa;
         "WtmiZgKn" = _WtmiZgKn;
+        "ySlzdWo1" = _ySlzdWo1;
         "fabric-1.21.1" = _HisEB7Sr;
         "fabric-1.21.2" = _HisEB7Sr;
         "fabric-1.21.3" = _HisEB7Sr;
@@ -87,8 +93,10 @@ let
         "fabric-1.16.3" = _WtmiZgKn;
         "fabric-1.16.4" = _WtmiZgKn;
         "fabric-1.16.5" = _WtmiZgKn;
+        "fabric-26.2" = _ySlzdWo1;
         "pkg-1.0.0" = _WtmiZgKn;
-        "default" = _WtmiZgKn;
+        "pkg-0.1.0+mc26.2" = _ySlzdWo1;
+        "default" = _ySlzdWo1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bigger-ender-chest";

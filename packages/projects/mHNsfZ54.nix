@@ -51,6 +51,41 @@ let
             "file" = "Greyscale.zip";
             "hash" = "sha512-eY7CKk7N6sY7gDOBnYjE9hwh4mVGSiy96OxJf6fc6TNWgCTZrpjToYqtRD1Qd6DPh8P6OM6ZkXTNhnut1T4zdA==";
         };
+        _dNuv1NDP = {
+            "id" = "dNuv1NDP";
+            "file" = "Greyscale.zip";
+            "hash" = "sha512-o6GepEELVY0tmLw0wQ0P+qDS6qLE9OeMh3ry4M8hAwQGXh/Wtd2865HFu8iRlBoDPl3dMpD0R966ojfBe8hupQ==";
+        };
+        _aBfU7dhP = {
+            "id" = "aBfU7dhP";
+            "file" = "Greyscale.zip";
+            "hash" = "sha512-G13dGowIMaYdoZR/R02dkZ3i1GC7cz6fBUB265uZH2CMb/IgA+xLZXmbeJL/wip2LOHz2UE4CH8doN5la4eCEw==";
+        };
+        _35Ig6PRP = {
+            "id" = "35Ig6PRP";
+            "file" = "Greyscale.zip";
+            "hash" = "sha512-JU4jLUmsotBZy4HQDvXSKe3rFxRln0GfyerG6qk6tVo2/Uib+U43Ot5YgbZXCqVC5flH1VkR2cQn67gSTAh1/Q==";
+        };
+        _FpsTXzcR = {
+            "id" = "FpsTXzcR";
+            "file" = "Greyscale.zip";
+            "hash" = "sha512-5g7uyXDMZ3L1jxBIZZSx/UbNwUnmAab9eRNT62Wmfz/OmhVC3Wcylb+cK/IWcfcnBzp+QQRwF+/Y7OPhQxKbJw==";
+        };
+        _PiQRmL92 = {
+            "id" = "PiQRmL92";
+            "file" = "Greyscale.zip";
+            "hash" = "sha512-WztJ8hCpXIGEcb7r9oura7o/yhomWUMzOT8uBHOUnM9AHq7HT6eVWmY/QGGLuwZqx6Hcr2Z2CoGUIx/H0J1v+w==";
+        };
+        _bvQopEP5 = {
+            "id" = "bvQopEP5";
+            "file" = "Greyscale.zip";
+            "hash" = "sha512-1cla1d1WxBxWQULBfU82OigbjiCP/AvAlwm9ZTB+A/Lfm6k3R/kwEIindWsQAXRrE1C11kvwcAXYY4jfktZW7w==";
+        };
+        _nedy36JD = {
+            "id" = "nedy36JD";
+            "file" = "Greyscale.zip";
+            "hash" = "sha512-aHbr6IwBRFupUNzEj2A3J8sv2RtpgWbWzpBdIKfH95e7FnuOKwFS+Ae1aGHlOLOg2YOrLEx/2yrlDwWIQVremw==";
+        };
     in {
         "OomY544t" = _OomY544t;
         "mbySNoFW" = _mbySNoFW;
@@ -62,6 +97,13 @@ let
         "6sXOmjRy" = _6sXOmjRy;
         "1NIWJ8Zn" = _1NIWJ8Zn;
         "dsuDYwY6" = _dsuDYwY6;
+        "dNuv1NDP" = _dNuv1NDP;
+        "aBfU7dhP" = _aBfU7dhP;
+        "35Ig6PRP" = _35Ig6PRP;
+        "FpsTXzcR" = _FpsTXzcR;
+        "PiQRmL92" = _PiQRmL92;
+        "bvQopEP5" = _bvQopEP5;
+        "nedy36JD" = _nedy36JD;
         "minecraft-1.19" = _mbySNoFW;
         "minecraft-1.19.1" = _mbySNoFW;
         "minecraft-1.19.2" = _mbySNoFW;
@@ -126,6 +168,12 @@ let
         "minecraft-26.3-snapshot-4" = _6sXOmjRy;
         "minecraft-26.3-snapshot-5" = _1NIWJ8Zn;
         "minecraft-26.3-snapshot-6" = _dsuDYwY6;
+        "minecraft-26.3-snapshot-7" = _dNuv1NDP;
+        "minecraft-26.3-snapshot-8" = _aBfU7dhP;
+        "minecraft-26.3-snapshot-9" = _35Ig6PRP;
+        "minecraft-26.3-snapshot-10" = _FpsTXzcR;
+        "minecraft-26.3-pre-1" = _bvQopEP5;
+        "minecraft-26.3-pre-2" = _nedy36JD;
         "pkg-1.0" = _OomY544t;
         "pkg-1.1" = _mbySNoFW;
         "pkg-1.2" = _uPHhFzcr;
@@ -136,7 +184,13 @@ let
         "pkg-26.3-snapshot-4" = _6sXOmjRy;
         "pkg-26.3-snapshot-5" = _1NIWJ8Zn;
         "pkg-26.3-snapshot-6" = _dsuDYwY6;
-        "default" = _dsuDYwY6;
+        "pkg-26.3-snapshot-7" = _dNuv1NDP;
+        "pkg-26.3-snapshot-8" = _aBfU7dhP;
+        "pkg-26.3-snapshot-9" = _35Ig6PRP;
+        "pkg-26.3-snapshot-10" = _FpsTXzcR;
+        "pkg-26.3-pre-1" = _bvQopEP5;
+        "pkg-26.3-pre-2" = _nedy36JD;
+        "default" = _nedy36JD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "greyscale";

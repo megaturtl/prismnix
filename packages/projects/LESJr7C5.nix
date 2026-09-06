@@ -481,6 +481,66 @@ let
             "file" = "reverie_dreams-neoforge+0.5.10+26.1.2+beta.hotfix2.jar";
             "hash" = "sha512-dWT6AF0oWWX4PIg+B/Xe4xh5xURWW543jJU0WKK57XwC7UcvoWeB5bTELmtditAwcngZwFi9FDZzhHXD82qhbw==";
         };
+        _WMvKlsWQ = {
+            "id" = "WMvKlsWQ";
+            "file" = "reverie_dreams-neoforge+0.5.11+26.1.2+beta.jar";
+            "hash" = "sha512-ntK2bb5uSDVAAost+Li8A7Nu68QCXmUpjtEKEj9OXwANgmX9UDxoW9oyFnlHGP9Rx+EtpxVA/XXCBV/OEYNRnQ==";
+        };
+        _Yz9mgXKw = {
+            "id" = "Yz9mgXKw";
+            "file" = "reverie_dreams-fabric+0.5.11+26.1.2+beta.jar";
+            "hash" = "sha512-bK5jMZBQ1qQFVNCFsPy3CsCfhJUhuQCruD1jqezdSHeDmnSgkLTOwr4a/qXGVeLGXdeXdSnBpUZZm6+cjJFOFg==";
+        };
+        _UaiLwdtS = {
+            "id" = "UaiLwdtS";
+            "file" = "reverie_dreams-fabric+0.6.0+26.1.2.jar";
+            "hash" = "sha512-MqOQYkYpdcGB7UE9V8aR+bLbxnlU3G3/WF0q2K14HQjDMyE1N5DG5vbfC3L2vkZlB8dHdDs53xgeecGMEdkYCA==";
+        };
+        _Tz83JIGf = {
+            "id" = "Tz83JIGf";
+            "file" = "reverie_dreams-neoforge+0.6.0+26.1.2.jar";
+            "hash" = "sha512-neUbZszL4BI38JSA6TKTLsewk+IQb14gDXlQK7BQiVsTlsuLmP9QV89D2bruq7VUuof2Tb6YW5BgSVM1Gc454w==";
+        };
+        _Zu8WByPg = {
+            "id" = "Zu8WByPg";
+            "file" = "reverie_dreams-fabric+0.6.1+26.1.2.jar";
+            "hash" = "sha512-DtFiuyfU3RkSdhsJnj3T6EQKwg80fSAlSFGvxQuqyM9T2U2npETGFNrS/gi7PryzTtDQXjaxgnhZ9H+7R5XWAQ==";
+        };
+        _wljTO7er = {
+            "id" = "wljTO7er";
+            "file" = "reverie_dreams-neoforge+0.6.1+26.1.2.jar";
+            "hash" = "sha512-o9NoElZ7H7wfAteMEvVoRabHrUF36khILpuY+dkorOj2/qsb1g+93ldnqaQ2Nl8OB5aL4obX1P1bZ+i/yolE/A==";
+        };
+        _2SCM8VnB = {
+            "id" = "2SCM8VnB";
+            "file" = "reverie_dreams-neoforge+0.6.2+26.1.2.jar";
+            "hash" = "sha512-mbVXaBUplQWw0ngmigI8D7dQ0QJjboH9mTzcJbhHcl8ZqAAiqLKJsDcTi+QpvqS80RpN9vXmtw/DeQh9aXxN9w==";
+        };
+        _TCi8KBwl = {
+            "id" = "TCi8KBwl";
+            "file" = "reverie_dreams-fabric+0.6.2+26.1.2.jar";
+            "hash" = "sha512-ObllQRybmFAWdRN1uHEiXYzcxOL7gbqlXJF2uxi4rTKmRZ9bzYGG1xtkdOr8oJJsmaN/8+y2i2y70QRKsvTkSw==";
+        };
+        _SqJHmlb4 = {
+            "id" = "SqJHmlb4";
+            "file" = "reverie_dreams-fabric+0.6.2+1.21.11.jar";
+            "hash" = "sha512-ndvfm4zPY83X0KUlKM/t4H7aRFYcjLllMxCU+RLP6iLUpJkwad2ZWJDdgWodPkSKWo3PfpxhjDkU+n9ZscwgCw==";
+        };
+        _nQS6TxHo = {
+            "id" = "nQS6TxHo";
+            "file" = "reverie_dreams-neoforge+0.6.2+1.21.11.jar";
+            "hash" = "sha512-qRPprAJv8RDdjTsndJP+6s1wGWZuwpN0QODvL3mho8fvsGpEu5ukcF7Smhbzfwmq+lrsKg4mvngZ0TJt/B3qdA==";
+        };
+        _uov5hPCJ = {
+            "id" = "uov5hPCJ";
+            "file" = "reverie_dreams-fabric+0.6.3+26.1.2.jar";
+            "hash" = "sha512-0kkilqKj1tlkbXqRTCqPICEnRrTF/lnQQ/U5vSNKNf5X0GqZMFMpQ70obHUxtVtpnPJgIQlefMkKhkgLOU0Vjg==";
+        };
+        _pgKa6QDN = {
+            "id" = "pgKa6QDN";
+            "file" = "reverie_dreams-neoforge+0.6.3+26.1.2.jar";
+            "hash" = "sha512-DkFyi617aq8dlpSP8/G5Abc7kNUGiD9lO3WIutnbvl38Sk+SlFrQNIYiieoIvl3Z0Xn+QfqTdbN7uzYdB1y+LA==";
+        };
     in {
         "qxCAzahJ" = _qxCAzahJ;
         "Ye1EiOU6" = _Ye1EiOU6;
@@ -578,6 +638,18 @@ let
         "RVali9YX" = _RVali9YX;
         "bbsAr4AO" = _bbsAr4AO;
         "kb6hXpF3" = _kb6hXpF3;
+        "WMvKlsWQ" = _WMvKlsWQ;
+        "Yz9mgXKw" = _Yz9mgXKw;
+        "UaiLwdtS" = _UaiLwdtS;
+        "Tz83JIGf" = _Tz83JIGf;
+        "Zu8WByPg" = _Zu8WByPg;
+        "wljTO7er" = _wljTO7er;
+        "2SCM8VnB" = _2SCM8VnB;
+        "TCi8KBwl" = _TCi8KBwl;
+        "SqJHmlb4" = _SqJHmlb4;
+        "nQS6TxHo" = _nQS6TxHo;
+        "uov5hPCJ" = _uov5hPCJ;
+        "pgKa6QDN" = _pgKa6QDN;
         "fabric-1.21.4" = _PPNmVSyk;
         "fabric-1.21.5" = _TKKowKDh;
         "fabric-1.21.7" = _ilhvskfS;
@@ -586,10 +658,10 @@ let
         "fabric-1.21.6" = _ilhvskfS;
         "fabric-1.21.9" = _nxcO7MgT;
         "fabric-1.21.10" = _nxcO7MgT;
-        "fabric-1.21.11" = _3qmn0rMG;
-        "fabric-26.1.2" = _bbsAr4AO;
-        "neoforge-1.21.11" = _cqcVnxfd;
-        "neoforge-26.1.2" = _kb6hXpF3;
+        "fabric-1.21.11" = _SqJHmlb4;
+        "fabric-26.1.2" = _uov5hPCJ;
+        "neoforge-1.21.11" = _nQS6TxHo;
+        "neoforge-26.1.2" = _pgKa6QDN;
         "pkg-0.1.0(Outdated-Version)" = _qxCAzahJ;
         "pkg-0.1.1(Outdated-Version)" = _Ye1EiOU6;
         "pkg-0.1.2" = _TKKowKDh;
@@ -664,7 +736,13 @@ let
         "pkg-0.5.10+26.1.2+beta" = _FaeK3Qti;
         "pkg-0.5.10+26.1.2+beta.hotfix1" = _RVali9YX;
         "pkg-0.5.10+26.1.2+beta.hotfix2" = _kb6hXpF3;
-        "default" = _kb6hXpF3;
+        "pkg-0.5.11+26.1.2+beta" = _Yz9mgXKw;
+        "pkg-0.6.0+26.1.2" = _Tz83JIGf;
+        "pkg-0.6.1+26.1.2" = _wljTO7er;
+        "pkg-0.6.2+26.1.2" = _TCi8KBwl;
+        "pkg-0.6.2+1.21.11" = _nQS6TxHo;
+        "pkg-0.6.3+26.1.2" = _pgKa6QDN;
+        "default" = _pgKa6QDN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gensokyo-reverie-of-lost-dreams";

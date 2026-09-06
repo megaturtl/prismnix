@@ -481,6 +481,26 @@ let
             "file" = "BattleArena.jar";
             "hash" = "sha512-+v/giSIe9qyJaB5Z/pS0gh7h4n8dxomANhnTEdO1MWxvy+vpNc222Rmnwh3fH82yk3yJhs++aYZXB9oa6akgog==";
         };
+        _SXYEtYG9 = {
+            "id" = "SXYEtYG9";
+            "file" = "BattleArena.jar";
+            "hash" = "sha512-5TumIf7w1oKDMiDAhaHihicKy2sAVzAUQ7jtpkhGBgqfpe09q3c9w+2U1yCMImhLzmkO5Zrkmem7Fdxj+Gezjg==";
+        };
+        _bdv6QXmi = {
+            "id" = "bdv6QXmi";
+            "file" = "BattleArena.jar";
+            "hash" = "sha512-P2BmNWkGLehaYul5fdTGYbvgtuY7On6WyAcOElu+9X0ObJ4lY9N7gLgmcnJcPS1fLvuQibPcupLrGa4TcMNQrQ==";
+        };
+        _nEXdkfGw = {
+            "id" = "nEXdkfGw";
+            "file" = "BattleArena.jar";
+            "hash" = "sha512-hCT8Cg9wiVYGOvS1QmEkU54bGL41c7rqYU2PqYE6KjBM+FxrbPJzqAxsJiUAEI5DBFs3IVKpm7utExHjpxb3Mg==";
+        };
+        _Cdrnxrmm = {
+            "id" = "Cdrnxrmm";
+            "file" = "BattleArena.jar";
+            "hash" = "sha512-hCT8Cg9wiVYGOvS1QmEkU54bGL41c7rqYU2PqYE6KjBM+FxrbPJzqAxsJiUAEI5DBFs3IVKpm7utExHjpxb3Mg==";
+        };
     in {
         "7RjGrzv6" = _7RjGrzv6;
         "g4vnPmqU" = _g4vnPmqU;
@@ -578,30 +598,34 @@ let
         "FFsa56YW" = _FFsa56YW;
         "3gWvX1vb" = _3gWvX1vb;
         "eobiKJpf" = _eobiKJpf;
-        "paper-1.19.4" = _eobiKJpf;
-        "paper-1.20" = _eobiKJpf;
-        "paper-1.20.1" = _eobiKJpf;
-        "paper-1.20.2" = _eobiKJpf;
-        "paper-1.20.3" = _eobiKJpf;
-        "paper-1.20.4" = _eobiKJpf;
-        "paper-1.20.5" = _eobiKJpf;
-        "paper-1.20.6" = _eobiKJpf;
-        "paper-1.21" = _eobiKJpf;
-        "paper-1.21.1" = _eobiKJpf;
-        "paper-1.21.2" = _eobiKJpf;
-        "paper-1.21.3" = _eobiKJpf;
-        "paper-1.21.4" = _eobiKJpf;
-        "paper-1.21.5" = _eobiKJpf;
-        "paper-1.21.6" = _eobiKJpf;
-        "paper-1.21.7" = _eobiKJpf;
-        "paper-1.21.8" = _eobiKJpf;
-        "paper-1.21.9" = _eobiKJpf;
-        "paper-1.21.10" = _eobiKJpf;
-        "paper-26.1.1" = _eobiKJpf;
-        "paper-26.1.2" = _eobiKJpf;
-        "paper-1.21.11" = _zO1SIw5U;
-        "paper-26.1" = _zO1SIw5U;
-        "paper-26.2" = _zO1SIw5U;
+        "SXYEtYG9" = _SXYEtYG9;
+        "bdv6QXmi" = _bdv6QXmi;
+        "nEXdkfGw" = _nEXdkfGw;
+        "Cdrnxrmm" = _Cdrnxrmm;
+        "paper-1.19.4" = _Cdrnxrmm;
+        "paper-1.20" = _Cdrnxrmm;
+        "paper-1.20.1" = _Cdrnxrmm;
+        "paper-1.20.2" = _Cdrnxrmm;
+        "paper-1.20.3" = _Cdrnxrmm;
+        "paper-1.20.4" = _Cdrnxrmm;
+        "paper-1.20.5" = _Cdrnxrmm;
+        "paper-1.20.6" = _Cdrnxrmm;
+        "paper-1.21" = _Cdrnxrmm;
+        "paper-1.21.1" = _Cdrnxrmm;
+        "paper-1.21.2" = _Cdrnxrmm;
+        "paper-1.21.3" = _Cdrnxrmm;
+        "paper-1.21.4" = _Cdrnxrmm;
+        "paper-1.21.5" = _Cdrnxrmm;
+        "paper-1.21.6" = _Cdrnxrmm;
+        "paper-1.21.7" = _Cdrnxrmm;
+        "paper-1.21.8" = _Cdrnxrmm;
+        "paper-1.21.9" = _Cdrnxrmm;
+        "paper-1.21.10" = _Cdrnxrmm;
+        "paper-26.1.1" = _Cdrnxrmm;
+        "paper-26.1.2" = _Cdrnxrmm;
+        "paper-1.21.11" = _bdv6QXmi;
+        "paper-26.1" = _bdv6QXmi;
+        "paper-26.2" = _Cdrnxrmm;
         "pkg-4.0.0-SNAPSHOT-1" = _7RjGrzv6;
         "pkg-4.0.0-SNAPSHOT-2" = _g4vnPmqU;
         "pkg-4.0.0-SNAPSHOT-3" = _5dUCblnP;
@@ -698,7 +722,11 @@ let
         "pkg-4.0.4-SNAPSHOT-100" = _FFsa56YW;
         "pkg-4.0.4-SNAPSHOT-101" = _3gWvX1vb;
         "pkg-4.0.4-SNAPSHOT-102" = _eobiKJpf;
-        "default" = _eobiKJpf;
+        "pkg-4.0.4-SNAPSHOT-103" = _SXYEtYG9;
+        "pkg-4.0.4" = _bdv6QXmi;
+        "pkg-4.0.5-SNAPSHOT-105" = _nEXdkfGw;
+        "pkg-4.0.5-SNAPSHOT-106" = _Cdrnxrmm;
+        "default" = _Cdrnxrmm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "battlearena";

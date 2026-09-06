@@ -16,21 +16,28 @@ let
             "file" = "Sotetsu_11000_Series_v1.1.zip";
             "hash" = "sha512-gprOvJUJ9cvxiwNSTRTtGaaqhlmshUBNx5dYiLgLIp1dIbY9umw+z4nTO+7ikACSY+Uge22PzBIuBkAOdchcAQ==";
         };
+        _9BOsU5Ek = {
+            "id" = "9BOsU5Ek";
+            "file" = "Sotetsu_11000_Series_v1.2.zip";
+            "hash" = "sha512-09dubEClaZwGd4yeACNcLTISohtLCWWDYYGYsi+471bdQ0+gi00benoYdrztBFEsvghQpoBCzGCFKddfLOC3wA==";
+        };
     in {
         "yKh3FPiM" = _yKh3FPiM;
         "yTX10i62" = _yTX10i62;
         "lUEElWwG" = _lUEElWwG;
+        "9BOsU5Ek" = _9BOsU5Ek;
         "minecraft-1.17.1" = _yTX10i62;
         "minecraft-1.18.2" = _yTX10i62;
         "minecraft-1.19.2" = _yTX10i62;
         "minecraft-1.19.4" = _yTX10i62;
-        "minecraft-1.20.1" = _lUEElWwG;
+        "minecraft-1.20.1" = _9BOsU5Ek;
         "minecraft-1.20.4" = _yTX10i62;
-        "minecraft-1.20" = _lUEElWwG;
+        "minecraft-1.20" = _9BOsU5Ek;
         "pkg-1.0" = _yKh3FPiM;
         "pkg-1.01" = _yTX10i62;
         "pkg-1.1" = _lUEElWwG;
-        "default" = _lUEElWwG;
+        "pkg-1.2" = _9BOsU5Ek;
+        "default" = _9BOsU5Ek;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sotetsu-11000-series";

@@ -126,6 +126,26 @@ let
             "file" = "ApolloBridge-v1.3.b19-2026-07-08.jar";
             "hash" = "sha512-M4IX0DnhHCzbi54+oTmgXGBwBnotpHEkgqtmzrrDnj2ZN7FSHqzoCAbeMCR7hyxJ6u8jdzkbxr/ZsPeAhJUZ0A==";
         };
+        _aDBCW0tF = {
+            "id" = "aDBCW0tF";
+            "file" = "ApolloBridge-v1.3.1.b17-2026-08-23.jar";
+            "hash" = "sha512-gLeSXg9QFxDlH24dWrhuzylCYVLRa6tWkds49KNzm8/Ett2Ke3Uppkd0bWswzJnPu0glbK02i0idciCZXT0HuA==";
+        };
+        _uUP7UH4X = {
+            "id" = "uUP7UH4X";
+            "file" = "ApolloBridge-v1.3.1.b18-2026-08-24.jar";
+            "hash" = "sha512-xlqgtdWqkBdHaB75lvjUqnjQmI29SLsNIAc2QF1QrmMs7lNoqSRQzYrZFL4x60Hc81W5D+tr4d2oYlA2ZT80gg==";
+        };
+        _FNP3RBuN = {
+            "id" = "FNP3RBuN";
+            "file" = "ApolloBridge-v1.3.1.b18-2026-08-26.jar";
+            "hash" = "sha512-tqVOdcB66xRIH71FoxCRweknKPLusgH5P6aOmnuzsQC/dJloXmVow4Th8osf9cdydHqJhH22w+RqLwWQta14BQ==";
+        };
+        _cx78hKV2 = {
+            "id" = "cx78hKV2";
+            "file" = "ApolloBridge-v1.3.1.b19-2026-09-02.jar";
+            "hash" = "sha512-8vFt8A5XyHXXhUfYAmovquCyLoMAZ08c4wfGT0mx0siwKzgsCucOfJ+7fo/P6XNzUx1U8nUpdPTqL18gyOVuyw==";
+        };
     in {
         "xWCqHyj2" = _xWCqHyj2;
         "wPUCilwH" = _wPUCilwH;
@@ -152,7 +172,11 @@ let
         "TmHNlM3E" = _TmHNlM3E;
         "uyOgmPDv" = _uyOgmPDv;
         "bodzKnjZ" = _bodzKnjZ;
-        "forge-1.7.10" = _bodzKnjZ;
+        "aDBCW0tF" = _aDBCW0tF;
+        "uUP7UH4X" = _uUP7UH4X;
+        "FNP3RBuN" = _FNP3RBuN;
+        "cx78hKV2" = _cx78hKV2;
+        "forge-1.7.10" = _cx78hKV2;
         "pkg-1.2.6b" = _7sNfBiyi;
         "pkg-1.2.7.b50" = _Ake9AdEc;
         "pkg-1.2.7.b51" = _ojgjtC7B;
@@ -171,7 +195,10 @@ let
         "pkg-1.3.b17" = _vivC8wY6;
         "pkg-1.3.b18" = _TmHNlM3E;
         "pkg-1.3.b19" = _bodzKnjZ;
-        "default" = _bodzKnjZ;
+        "pkg-1.3.1" = _aDBCW0tF;
+        "pkg-1.3.1.b18" = _FNP3RBuN;
+        "pkg-1.3.1.b19" = _cx78hKV2;
+        "default" = _cx78hKV2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "db-apollo-bridge";

@@ -62,7 +62,7 @@ let
                 redistributable = false;
                 fullName = "LicenseRef-All-Rights-Reserved";
                 shortName = "LicenseRef-All-Rights-Reserved";
-                url = null;
+                url = "https://raw.githubusercontent.com/RuMTR-Development/International-Transportpack-ITP-License/refs/heads/main/LICENSE.md";
             };
         };
     };

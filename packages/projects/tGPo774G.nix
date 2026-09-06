@@ -16,10 +16,16 @@ let
             "file" = "Zen Font.zip";
             "hash" = "sha512-Z5PLrr+rPif1mpeToTb+QSPec4MiGCHf6lFQB+1yJfKp1cOtQW4S78JZbUyLpA5x4OXSelPW6EkmcdCJIaYg8g==";
         };
+        _752Fb2di = {
+            "id" = "752Fb2di";
+            "file" = "Zen Font.zip";
+            "hash" = "sha512-ASHPqCc5czoWcDJvQLrxtsM5NBeArTYUM2iKxl97IZi3zhf+6Xt4Adr+po723VKk7b8ILao4L1O7pBjkZH6bvA==";
+        };
     in {
         "Wvczxjkl" = _Wvczxjkl;
         "pWMtfamS" = _pWMtfamS;
         "GBBb92RD" = _GBBb92RD;
+        "752Fb2di" = _752Fb2di;
         "minecraft-1.16.5" = _Wvczxjkl;
         "minecraft-1.17" = _Wvczxjkl;
         "minecraft-1.17.1" = _Wvczxjkl;
@@ -37,10 +43,15 @@ let
         "minecraft-1.20.3" = _pWMtfamS;
         "minecraft-1.20.4" = _pWMtfamS;
         "minecraft-1.20.5" = _GBBb92RD;
+        "minecraft-26.1" = _752Fb2di;
+        "minecraft-26.1.1" = _752Fb2di;
+        "minecraft-26.1.2" = _752Fb2di;
+        "minecraft-26.2" = _752Fb2di;
         "pkg-1.0.0" = _Wvczxjkl;
         "pkg-1.0.1" = _pWMtfamS;
         "pkg-1.0.2" = _GBBb92RD;
-        "default" = _GBBb92RD;
+        "pkg-1.0.3" = _752Fb2di;
+        "default" = _752Fb2di;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zen-font";

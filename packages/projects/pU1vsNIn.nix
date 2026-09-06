@@ -101,6 +101,11 @@ let
             "file" = "lwm-1.7.4-lite-pmweather-0.17-radar-fix.jar";
             "hash" = "sha512-nffF2yIyDMIZCpyG/4MAxrXoN83fKxgo+v9u9sIBNA0ooDeE4ST9Z1MZV80dlMHf7cJ11B6Fzn6RvMS4hf2t5w==";
         };
+        _SCufJmrK = {
+            "id" = "SCufJmrK";
+            "file" = "lwm-1.7.4-lite-pmweather-0.17-laptop-fixed.jar";
+            "hash" = "sha512-yiyxgkkBfAeyVe8HGmle074FfoophYd4DdltDdbRY74rEdzCXA673GVPLMHAJnfk/wa0PJPfNnbbZuCPrMFZNg==";
+        };
     in {
         "AlSB564G" = _AlSB564G;
         "5PDEgcSx" = _5PDEgcSx;
@@ -122,17 +127,18 @@ let
         "44ZBSWis" = _44ZBSWis;
         "dMLgAQu7" = _dMLgAQu7;
         "BvbgjJNh" = _BvbgjJNh;
-        "neoforge-1.21.1" = _BvbgjJNh;
-        "neoforge-1.21.2" = _BvbgjJNh;
-        "neoforge-1.21.3" = _BvbgjJNh;
-        "neoforge-1.21.4" = _BvbgjJNh;
-        "neoforge-1.21.5" = _BvbgjJNh;
-        "neoforge-1.21.6" = _BvbgjJNh;
-        "neoforge-1.21.7" = _BvbgjJNh;
-        "neoforge-1.21.8" = _BvbgjJNh;
-        "neoforge-1.21.9" = _BvbgjJNh;
-        "neoforge-1.21.10" = _BvbgjJNh;
-        "neoforge-1.21.11" = _BvbgjJNh;
+        "SCufJmrK" = _SCufJmrK;
+        "neoforge-1.21.1" = _SCufJmrK;
+        "neoforge-1.21.2" = _SCufJmrK;
+        "neoforge-1.21.3" = _SCufJmrK;
+        "neoforge-1.21.4" = _SCufJmrK;
+        "neoforge-1.21.5" = _SCufJmrK;
+        "neoforge-1.21.6" = _SCufJmrK;
+        "neoforge-1.21.7" = _SCufJmrK;
+        "neoforge-1.21.8" = _SCufJmrK;
+        "neoforge-1.21.9" = _SCufJmrK;
+        "neoforge-1.21.10" = _SCufJmrK;
+        "neoforge-1.21.11" = _SCufJmrK;
         "pkg-1.1.2" = _AlSB564G;
         "pkg-1.1.2a" = _5PDEgcSx;
         "pkg-1.1.3beta" = _cb1ZvWvO;
@@ -151,7 +157,8 @@ let
         "pkg-1.7.2" = _44ZBSWis;
         "pkg-1.7.3" = _dMLgAQu7;
         "pkg-1.7.4" = _BvbgjJNh;
-        "default" = _BvbgjJNh;
+        "pkg-1.7.4-laptop-fix" = _SCufJmrK;
+        "default" = _SCufJmrK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pmw-lwm";

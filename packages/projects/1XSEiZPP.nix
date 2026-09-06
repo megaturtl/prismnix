@@ -206,6 +206,26 @@ let
             "file" = "neoforge-3.24.4-1.21.1-alpha1.jar";
             "hash" = "sha512-4meclYPGpa6tukQHl23eaczWBKjwQtzwssBIWSxGcHyeD/QlWZ/1yIeqVWVNp8vT9MYH+KqWivZX05Lvuc4OxQ==";
         };
+        _ehPYSnDq = {
+            "id" = "ehPYSnDq";
+            "file" = "IMPR-Forge-3.24.0-1.20.1.jar";
+            "hash" = "sha512-Q/xJ9OPdfkI9RsEOFWChB9C2zY9IOntuvnAY5mCYb64wnt8d+YKFFf6Sg7wsHtuTf37vDKsdl8j1Hbq9q6ZpSg==";
+        };
+        _ILZayhQG = {
+            "id" = "ILZayhQG";
+            "file" = "IMPR-Fabric-3.24.0-1.20.1.jar";
+            "hash" = "sha512-FhFYbxqHfTqoqscc/JiUyVNN2F1TvxEKX8fNV3pfsdmxyDv58ljNAOVjoO495U2UZ39EdjklQh1BbRYFNumD2A==";
+        };
+        _nygTLOfR = {
+            "id" = "nygTLOfR";
+            "file" = "IMPR-Fabric-3.24.1-1.20.1.jar";
+            "hash" = "sha512-7NBlsNvdUFYwBINnT+9l10PPmBwXgJaErIsHfMvWuffGJ40sI9hTOY2rZ6l0or9oVe+oPCYF0VCexUiSN3PQ+w==";
+        };
+        _cc4b2Fd2 = {
+            "id" = "cc4b2Fd2";
+            "file" = "IMPR-Forge-3.24.1-1.20.1.jar";
+            "hash" = "sha512-75XeBXiCx7H3yPA9dncP97x6qNSTblmloLRwPC0EA6vHE4bNeh34pa1KHFjhBVLw/a1DT7Ejrz89OnfQzStheA==";
+        };
     in {
         "RA2eCv7P" = _RA2eCv7P;
         "72OZ9JnX" = _72OZ9JnX;
@@ -248,8 +268,12 @@ let
         "NPOV5zcu" = _NPOV5zcu;
         "OzXWE8mB" = _OzXWE8mB;
         "jmzbC5Gd" = _jmzbC5Gd;
+        "ehPYSnDq" = _ehPYSnDq;
+        "ILZayhQG" = _ILZayhQG;
+        "nygTLOfR" = _nygTLOfR;
+        "cc4b2Fd2" = _cc4b2Fd2;
         "fabric-1.20" = _7wtsRe6d;
-        "fabric-1.20.1" = _tbRkbkoy;
+        "fabric-1.20.1" = _nygTLOfR;
         "fabric-1.19.2" = _hVGs2k6W;
         "fabric-1.21.1" = _OzXWE8mB;
         "fabric-1.18.2" = _MdoSJZLq;
@@ -257,11 +281,11 @@ let
         "quilt-1.20.1" = _tuLsOmjh;
         "quilt-1.19.2" = _GPGPtrQg;
         "forge-1.20" = _5GQEy398;
-        "forge-1.20.1" = _47fNWC79;
+        "forge-1.20.1" = _cc4b2Fd2;
         "forge-1.19.2" = _xtjRvNqu;
         "forge-1.18.2" = _L7hb0GnZ;
         "neoforge-1.20" = _5GQEy398;
-        "neoforge-1.20.1" = _U1aR3Kue;
+        "neoforge-1.20.1" = _cc4b2Fd2;
         "neoforge-1.21.1" = _jmzbC5Gd;
         "pkg-3.22.0-alpha.5" = _72OZ9JnX;
         "pkg-3.22.0-alpha.6" = _YnuQpvUa;
@@ -294,7 +318,11 @@ let
         "pkg-3.24.2-1.21.1-alpha3-fabric" = _NPOV5zcu;
         "pkg-3.24.4-1.21.1-alpha1-fabric" = _OzXWE8mB;
         "pkg-3.24.4-1.21.1-alpha1-neoforge" = _jmzbC5Gd;
-        "default" = _jmzbC5Gd;
+        "pkg-3.24.0-1.20.1-forge" = _ehPYSnDq;
+        "pkg-3.24.0-1.20.1-fabric" = _ILZayhQG;
+        "pkg-3.24.1-1.20.1-fabric" = _nygTLOfR;
+        "pkg-3.24.1-1.20.1-forge" = _cc4b2Fd2;
+        "default" = _cc4b2Fd2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "iam-music-player-renewed";

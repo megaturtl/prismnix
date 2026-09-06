@@ -36,6 +36,16 @@ let
             "file" = "cobeffectiveness-neoforge-0.3.jar";
             "hash" = "sha512-udeZ9xI826G1dtnS2j0mwS2FB+aByzPnmLucxaPV2YE32IUUOZO7iha38RGMZk0wKzgL68yfcysfyOe4M64k/A==";
         };
+        _Ya28sMKm = {
+            "id" = "Ya28sMKm";
+            "file" = "cobeffectiveness-neoforge-0.4.0-beta.1.jar";
+            "hash" = "sha512-MOJ+7F3/X42d2PcRL7rr82j2rsfY0ueI6GVjwKYUAfM0LCy3U3gFkeRCTwQF/ESugeF4Eyc3VJuTzAI6G56u6Q==";
+        };
+        _d5ZRSYSV = {
+            "id" = "d5ZRSYSV";
+            "file" = "cobeffectiveness-fabric-0.4.0-beta.1.jar";
+            "hash" = "sha512-kMFbq9iO2iw1GHMRK4KSR3caCg8TFUJWlxQko4oF7A7tTnImqKbd+hg34gvo2AMT2XYfsQGD/pBE+Vac8M9YBA==";
+        };
     in {
         "Q7JOvB11" = _Q7JOvB11;
         "3gYvZnDJ" = _3gYvZnDJ;
@@ -44,13 +54,40 @@ let
         "tjtXNIjN" = _tjtXNIjN;
         "F4L9ZN4n" = _F4L9ZN4n;
         "Z5K4hOXd" = _Z5K4hOXd;
-        "fabric-1.21.1" = _F4L9ZN4n;
-        "neoforge-1.21.1" = _Z5K4hOXd;
+        "Ya28sMKm" = _Ya28sMKm;
+        "d5ZRSYSV" = _d5ZRSYSV;
+        "fabric-1.21.1" = _d5ZRSYSV;
+        "fabric-1.21.2" = _d5ZRSYSV;
+        "fabric-1.21.3" = _d5ZRSYSV;
+        "fabric-1.21.4" = _d5ZRSYSV;
+        "fabric-1.21.5" = _d5ZRSYSV;
+        "fabric-1.21.6" = _d5ZRSYSV;
+        "fabric-1.21.7" = _d5ZRSYSV;
+        "fabric-1.21.8" = _d5ZRSYSV;
+        "fabric-1.21.9" = _d5ZRSYSV;
+        "fabric-1.21.10" = _d5ZRSYSV;
+        "fabric-1.21.11" = _d5ZRSYSV;
+        "neoforge-1.21.1" = _Ya28sMKm;
+        "neoforge-1.21.2" = _Ya28sMKm;
+        "neoforge-1.21.3" = _Ya28sMKm;
+        "neoforge-1.21.4" = _Ya28sMKm;
+        "neoforge-1.21.5" = _Ya28sMKm;
+        "neoforge-1.21.6" = _Ya28sMKm;
+        "neoforge-1.21.7" = _Ya28sMKm;
+        "neoforge-1.21.8" = _Ya28sMKm;
+        "neoforge-1.21.9" = _Ya28sMKm;
+        "neoforge-1.21.10" = _Ya28sMKm;
+        "neoforge-1.21.11" = _Ya28sMKm;
+        "neoforge-26.1" = _Ya28sMKm;
+        "neoforge-26.1.1" = _Ya28sMKm;
+        "neoforge-26.1.2" = _Ya28sMKm;
+        "neoforge-26.2" = _Ya28sMKm;
         "pkg-0.0.1" = _Q7JOvB11;
         "pkg-0.1" = _AKRcQde5;
         "pkg-0.2" = _tjtXNIjN;
         "pkg-0.3" = _Z5K4hOXd;
-        "default" = _Z5K4hOXd;
+        "pkg-0.4.0-beta.1" = _d5ZRSYSV;
+        "default" = _d5ZRSYSV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-effectiveness";

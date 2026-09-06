@@ -11,13 +11,27 @@ let
             "file" = "verticalchainconveyors-1.21.1-1.1.0.jar";
             "hash" = "sha512-GwNBpJgkHnYxOYbMLvjU5zzPL+WkXj85Gkf0qMtDtTSq1HPeBXbWmJvUpW8Cw8tGnkQi9EKg6ZC2o4ZiHFjFag==";
         };
+        _4oFU7fLg = {
+            "id" = "4oFU7fLg";
+            "file" = "verticalchainconveyors-1.21.1-1.2.0.jar";
+            "hash" = "sha512-NxM3LrdeHI2t/mN3lYaGxtDgofOP0NJGWWqlazVML9sUPTQT9w2jqyHeuPWEiV+rq3Qq7lLqld7WBRLZmkbfCA==";
+        };
+        _l79E3HZF = {
+            "id" = "l79E3HZF";
+            "file" = "verticalchainconveyors-1.21.1-1.2.1.jar";
+            "hash" = "sha512-Qu9ULsdgsb6knXmlVz6i+bdpPUVazgtBBN0+x+HBY6Z+Dih1tsM/MgVOIKdJ9FTuRVXpo47++Igvqb7GNxNxMg==";
+        };
     in {
         "6g6v4f08" = _6g6v4f08;
         "2EjoI9Ba" = _2EjoI9Ba;
-        "neoforge-1.21.1" = _2EjoI9Ba;
+        "4oFU7fLg" = _4oFU7fLg;
+        "l79E3HZF" = _l79E3HZF;
+        "neoforge-1.21.1" = _l79E3HZF;
         "pkg-1.0.0" = _6g6v4f08;
         "pkg-1.1.0" = _2EjoI9Ba;
-        "default" = _2EjoI9Ba;
+        "pkg-1.2.0" = _4oFU7fLg;
+        "pkg-1.2.1" = _l79E3HZF;
+        "default" = _l79E3HZF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-vertical-chain-conveyors";

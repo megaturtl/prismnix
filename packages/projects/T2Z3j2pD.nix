@@ -251,6 +251,16 @@ let
             "file" = "warden-with-loot-3.4.2.jar";
             "hash" = "sha512-ldridAnzrsACJ+IwX0mIvDiYgs5ZQRttLHgfyyp3E9vZ9MU5YR2aFcBuO4+kzgAmHmLYsj4jlzxNOVJMEq0ZiA==";
         };
+        _28jVrbn9 = {
+            "id" = "28jVrbn9";
+            "file" = "Warden-With-Loot.zip";
+            "hash" = "sha512-xrsvO5qyTNC8hMA+gc1L8GOOPxtQRYyFq3ChD/MPWL23WpmHpWBvQ4GWRzk4d2e5UqJRobuuEQ0j06a41B1MOg==";
+        };
+        _OnA9CUoT = {
+            "id" = "OnA9CUoT";
+            "file" = "warden-with-loot-3.5.1.jar";
+            "hash" = "sha512-iV0PKdrfGMAFjDsyo+aPrZdJq5cdCJFDYqc9w48AdAr7AHlrHRImCLXXZZJMhoB1NDOCGTCPr9Q+BFnOf/vSJg==";
+        };
     in {
         "6plMfhR1" = _6plMfhR1;
         "tgPrxfQM" = _tgPrxfQM;
@@ -302,6 +312,8 @@ let
         "yEQYcvzT" = _yEQYcvzT;
         "M8CPWGE6" = _M8CPWGE6;
         "fxZAKtho" = _fxZAKtho;
+        "28jVrbn9" = _28jVrbn9;
+        "OnA9CUoT" = _OnA9CUoT;
         "datapack-1.19" = _kVfTobb3;
         "datapack-1.19.1" = _kVfTobb3;
         "datapack-1.19.2" = _kVfTobb3;
@@ -329,7 +341,7 @@ let
         "datapack-26.1" = _2OWfDyor;
         "datapack-26.1.1" = _2OWfDyor;
         "datapack-26.1.2" = _2OWfDyor;
-        "datapack-26.2" = _M8CPWGE6;
+        "datapack-26.2" = _28jVrbn9;
         "fabric-1.19" = _WS8BMo2H;
         "fabric-1.19.1" = _WS8BMo2H;
         "fabric-1.19.2" = _WS8BMo2H;
@@ -357,7 +369,7 @@ let
         "fabric-26.1" = _yEQYcvzT;
         "fabric-26.1.1" = _yEQYcvzT;
         "fabric-26.1.2" = _yEQYcvzT;
-        "fabric-26.2" = _fxZAKtho;
+        "fabric-26.2" = _OnA9CUoT;
         "forge-1.19" = _WS8BMo2H;
         "forge-1.19.1" = _WS8BMo2H;
         "forge-1.19.2" = _WS8BMo2H;
@@ -385,7 +397,7 @@ let
         "forge-26.1" = _yEQYcvzT;
         "forge-26.1.1" = _yEQYcvzT;
         "forge-26.1.2" = _yEQYcvzT;
-        "forge-26.2" = _fxZAKtho;
+        "forge-26.2" = _OnA9CUoT;
         "quilt-1.19" = _WS8BMo2H;
         "quilt-1.19.1" = _WS8BMo2H;
         "quilt-1.19.2" = _WS8BMo2H;
@@ -413,7 +425,7 @@ let
         "quilt-26.1" = _yEQYcvzT;
         "quilt-26.1.1" = _yEQYcvzT;
         "quilt-26.1.2" = _yEQYcvzT;
-        "quilt-26.2" = _fxZAKtho;
+        "quilt-26.2" = _OnA9CUoT;
         "neoforge-1.21" = _5cRrPP7F;
         "neoforge-1.21.1" = _5cRrPP7F;
         "neoforge-1.20.5" = _rEXgv8Oe;
@@ -441,7 +453,7 @@ let
         "neoforge-26.1" = _yEQYcvzT;
         "neoforge-26.1.1" = _yEQYcvzT;
         "neoforge-26.1.2" = _yEQYcvzT;
-        "neoforge-26.2" = _fxZAKtho;
+        "neoforge-26.2" = _OnA9CUoT;
         "pkg-1.0" = _aprXFqe6;
         "pkg-1.2" = _xx2GGYPo;
         "pkg-1.2.1" = _FMEjneTS;
@@ -460,7 +472,8 @@ let
         "pkg-3.3.1" = _7OhNGjGC;
         "pkg-3.4" = _yEQYcvzT;
         "pkg-3.5" = _fxZAKtho;
-        "default" = _fxZAKtho;
+        "pkg-3.5.1" = _OnA9CUoT;
+        "default" = _OnA9CUoT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "warden-with-loot";

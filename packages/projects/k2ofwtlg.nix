@@ -16,15 +16,29 @@ let
             "file" = "BetterHeroPackReloading-1.7.10-1.0.2.jar";
             "hash" = "sha512-N6uHHeMBnjCry2nXwYEJ3SDAHPLYv8jhlF5L3j39U31NebSdacVuV55uWDpvTkPraWj4TDXTrHleuh26+tSnqw==";
         };
+        _16Oa9wrM = {
+            "id" = "16Oa9wrM";
+            "file" = "BetterHeroPackReloading-1.7.10-2.0.0.jar";
+            "hash" = "sha512-nQ44Lg5ZGX0jhOcXNoihgkSiZmnU+6ZPhyS97gh/CJyNOtqXRVOYagY7K5zJe3O7KofsiaoYFfDmMThUW8BeIA==";
+        };
+        _c2jf7slo = {
+            "id" = "c2jf7slo";
+            "file" = "BetterHeroPackReloading-1.7.10-2.1.0.jar";
+            "hash" = "sha512-YsX9GwkFXPnmOS44ujNAMMkMzmq+vjn4HZm+b6mV8oUPY+6cP5izWug88W0EXbdtCGcR9x7EhHeIQUAR3HwmRQ==";
+        };
     in {
         "wjGia5kK" = _wjGia5kK;
         "nph8UPqN" = _nph8UPqN;
         "2bzNnwSV" = _2bzNnwSV;
-        "forge-1.7.10" = _2bzNnwSV;
+        "16Oa9wrM" = _16Oa9wrM;
+        "c2jf7slo" = _c2jf7slo;
+        "forge-1.7.10" = _c2jf7slo;
         "pkg-1.0.0" = _wjGia5kK;
         "pkg-1.0.1" = _nph8UPqN;
         "pkg-1.0.2" = _2bzNnwSV;
-        "default" = _2bzNnwSV;
+        "pkg-2.0.0" = _16Oa9wrM;
+        "pkg-2.1.0" = _c2jf7slo;
+        "default" = _c2jf7slo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-heropack-reloading";

@@ -171,6 +171,36 @@ let
             "file" = "stardewcraft-0.5.4fix1.jar";
             "hash" = "sha512-T1A31OacGO1pl5WvotSXMgVBmdfK1v+TRvVuBxTl0PIbN6wB+IpktgZB9gmTr7eaMmzSWSrl04OxLXP/36LoFw==";
         };
+        _NTFy1O9u = {
+            "id" = "NTFy1O9u";
+            "file" = "stardewcraft-0.5.4fix2.jar";
+            "hash" = "sha512-738/fN9J/IzNIXVMy+05GyoHWBPLDRQA0+2TEIaHDNPhpILliyA6ZNNd+svcalMPJlahF6IfnYGXvRC3ikSkPQ==";
+        };
+        _Wgrjb2Ox = {
+            "id" = "Wgrjb2Ox";
+            "file" = "stardewcraft-0.5.4fix3.jar";
+            "hash" = "sha512-7b8oCRkczIhEpfLXTZi1CHoxWsKG5irEdE4986HiblLBEPAMlViTLZmvN6ZHqAbTLA75XhtfZmkPHBcMdMJIKA==";
+        };
+        _mMb1E22G = {
+            "id" = "mMb1E22G";
+            "file" = "stardewcraft-0.5.5.jar";
+            "hash" = "sha512-gQWWvINjyFUuy/RiE+l98uha9Tt0Mv5SeVf6c/orRokq4Faycl8RP7oX/eJJLiqULgHndCvF1xS2M67lzpt9BQ==";
+        };
+        _BP8FgeOS = {
+            "id" = "BP8FgeOS";
+            "file" = "stardewcraft-0.5.5fix1.jar";
+            "hash" = "sha512-1aQFpZGuKRlAD7GN/dGo+a3RoAvmQkQvOwdHiBEugT9CP3uf4tYQeY30nJbtGVR2HLiiQrPfQOhZgLLztPIPmg==";
+        };
+        _goSQHNx6 = {
+            "id" = "goSQHNx6";
+            "file" = "stardewcraft-0.5.5fix2.jar";
+            "hash" = "sha512-mF9G8PHpnRlBHD0fXyHT5LfHKgrK0IuNaA0nNRIKJ92SkGSeVvP3H1dg0B32/cwcc0maFnXVK6dP58ctMXrQjw==";
+        };
+        _yWCwm1mX = {
+            "id" = "yWCwm1mX";
+            "file" = "stardewcraft-0.5.6.jar";
+            "hash" = "sha512-HDAwe11GLWy3g1tcNFRuBNfe2aesnP0PorDFXpzle2pBkSonpssJVTjiEq0nmyKEn2PhSbbYb4Wf0wMD7eu8KQ==";
+        };
     in {
         "zMhq0OWG" = _zMhq0OWG;
         "zeL4hw40" = _zeL4hw40;
@@ -206,7 +236,13 @@ let
         "qAaG6nWF" = _qAaG6nWF;
         "LtEzD1ro" = _LtEzD1ro;
         "OOT4E7C7" = _OOT4E7C7;
-        "neoforge-1.21.1" = _OOT4E7C7;
+        "NTFy1O9u" = _NTFy1O9u;
+        "Wgrjb2Ox" = _Wgrjb2Ox;
+        "mMb1E22G" = _mMb1E22G;
+        "BP8FgeOS" = _BP8FgeOS;
+        "goSQHNx6" = _goSQHNx6;
+        "yWCwm1mX" = _yWCwm1mX;
+        "neoforge-1.21.1" = _yWCwm1mX;
         "pkg-0.3.6-alpha" = _zMhq0OWG;
         "pkg-0.3.8-fix3" = _zeL4hw40;
         "pkg-0.3.9" = _PDZcUtXC;
@@ -241,7 +277,13 @@ let
         "pkg-0.5.3" = _qAaG6nWF;
         "pkg-0.5.4" = _LtEzD1ro;
         "pkg-0.5.4fix1" = _OOT4E7C7;
-        "default" = _OOT4E7C7;
+        "pkg-0.5.4fix2" = _NTFy1O9u;
+        "pkg-0.5.4fix3" = _Wgrjb2Ox;
+        "pkg-0.5.5" = _mMb1E22G;
+        "pkg-0.5.5fix1" = _BP8FgeOS;
+        "pkg-0.5.5fix2" = _goSQHNx6;
+        "pkg-0.5.6" = _yWCwm1mX;
+        "default" = _yWCwm1mX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "starfield-pastoral";

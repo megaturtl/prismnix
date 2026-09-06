@@ -66,6 +66,11 @@ let
             "file" = "medievalcraftweapons-1.3.1-forge-1.20.1.jar";
             "hash" = "sha512-REh2YoX63Jk67dUFNWPxzcoM6PSCeMm8RcyK1JD4Nghfn2CU6rf3tpmkYzxuqWIWuIvqoUE1sG/5cAv3GoVomg==";
         };
+        _TqSQkqeS = {
+            "id" = "TqSQkqeS";
+            "file" = "medievalcraftweapons-1.3.2-forge-1.20.1.jar";
+            "hash" = "sha512-vg3IpCZ0EzMg4XFl/2mbFZxkhBUc7mfHc1ql1nRastKhYq26RGGeWPRjrv0YlnibnvYfAf+BGmJOyiQZNpeC0w==";
+        };
     in {
         "3ptiLTl5" = _3ptiLTl5;
         "wrvBdHM5" = _wrvBdHM5;
@@ -80,9 +85,10 @@ let
         "cOkE6ezX" = _cOkE6ezX;
         "g4AXgJKV" = _g4AXgJKV;
         "gwu3JVoO" = _gwu3JVoO;
+        "TqSQkqeS" = _TqSQkqeS;
         "forge-1.16.5" = _32AfjMvg;
         "forge-1.19.2" = _TX0J5sNm;
-        "forge-1.20.1" = _gwu3JVoO;
+        "forge-1.20.1" = _TqSQkqeS;
         "fabric-1.19.2" = _wrvBdHM5;
         "neoforge-1.21.1" = _ZOFrh4XT;
         "pkg-1.4.0" = _3ptiLTl5;
@@ -97,7 +103,8 @@ let
         "pkg-1.2.5" = _cOkE6ezX;
         "pkg-1.3.0" = _g4AXgJKV;
         "pkg-1.3.1" = _gwu3JVoO;
-        "default" = _gwu3JVoO;
+        "pkg-1.3.2" = _TqSQkqeS;
+        "default" = _TqSQkqeS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "medieval-craft-(weapons)";

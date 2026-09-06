@@ -61,6 +61,11 @@ let
             "file" = "expanded-mace-enchanting-1.0.11.jar";
             "hash" = "sha512-aRsDTkJGZK4PDz0TI+jrhmqjamJg4X18eaj7ketuLINAbW/Kk18rsdCBhtDuL0L43OQREuiBecZ/ljOhEP43Rw==";
         };
+        _R8cJMYgv = {
+            "id" = "R8cJMYgv";
+            "file" = "expanded-mace-enchanting-1.0.12.jar";
+            "hash" = "sha512-iJNR76t6HESmKnpuKfYmKH0KGDYiSZ8Ly9S3ik+5JxKMFnd409yHjzDRmaz99+8Bxu4gF0nWBbhDCR1ZgbhKPA==";
+        };
     in {
         "FaWc5yFV" = _FaWc5yFV;
         "tngPEFS5" = _tngPEFS5;
@@ -74,6 +79,7 @@ let
         "9ayEfrQD" = _9ayEfrQD;
         "Ru7DkyqU" = _Ru7DkyqU;
         "zyFa9w0V" = _zyFa9w0V;
+        "R8cJMYgv" = _R8cJMYgv;
         "fabric-1.21.3" = _tngPEFS5;
         "fabric-1.21.4" = _va1QL7Xt;
         "fabric-1.21.5" = _Y6BiPFpc;
@@ -86,6 +92,7 @@ let
         "fabric-26.1" = _zyFa9w0V;
         "fabric-26.1.1" = _zyFa9w0V;
         "fabric-26.1.2" = _zyFa9w0V;
+        "fabric-26.2" = _R8cJMYgv;
         "pkg-1.0.0" = _FaWc5yFV;
         "pkg-1.0.1" = _tngPEFS5;
         "pkg-1.0.2" = _va1QL7Xt;
@@ -98,7 +105,8 @@ let
         "pkg-1.0.9" = _9ayEfrQD;
         "pkg-1.0.10" = _Ru7DkyqU;
         "pkg-1.0.11" = _zyFa9w0V;
-        "default" = _zyFa9w0V;
+        "pkg-1.0.12" = _R8cJMYgv;
+        "default" = _R8cJMYgv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "expanded-mace-enchanting";

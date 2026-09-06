@@ -26,19 +26,26 @@ let
             "file" = "Age_of_Compound_V_v1_0_4.jar";
             "hash" = "sha512-b0lyv4COGtYi+cm8jSaYcG5LfuZuEsmDopv2fvrbB9B7xjE4ebr9+OmZd1ZhKVshLqI0ZerxTovtOigkJoeNHg==";
         };
+        _CAvzxCDg = {
+            "id" = "CAvzxCDg";
+            "file" = "age_of_compound_v-1.0.5.jar";
+            "hash" = "sha512-S/lKBBcpLd7JfZ2opXOErCV4tpG2OJYjPQK8838VESqbfip49dLGzcGh2DQugVijvv3itujZ26DebZfkEFjS/Q==";
+        };
     in {
         "KiMJZXxj" = _KiMJZXxj;
         "7VlPBliW" = _7VlPBliW;
         "Ro3LNShy" = _Ro3LNShy;
         "YkUJZv9q" = _YkUJZv9q;
         "BQs4rSiB" = _BQs4rSiB;
-        "forge-1.20.1" = _BQs4rSiB;
+        "CAvzxCDg" = _CAvzxCDg;
+        "forge-1.20.1" = _CAvzxCDg;
         "pkg-1.0.0" = _KiMJZXxj;
         "pkg-1.0.1" = _7VlPBliW;
         "pkg-1.0.2" = _Ro3LNShy;
         "pkg-1.0.3" = _YkUJZv9q;
         "pkg-1.0.4" = _BQs4rSiB;
-        "default" = _BQs4rSiB;
+        "pkg-1.0.5" = _CAvzxCDg;
+        "default" = _CAvzxCDg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "age-of-compound-v";

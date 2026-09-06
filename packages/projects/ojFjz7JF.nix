@@ -396,6 +396,26 @@ let
             "file" = "untitledduckmod-fabric-26.2-1.6.0.jar";
             "hash" = "sha512-re5sx4nknBVQ+IZ4ef5gLgiqLtAHRQleKQbks/OMDDXAkHi45nO76KwR9mWi2L4GzREM22PoBjQiY2Gs7iswyA==";
         };
+        _M3sowPV6 = {
+            "id" = "M3sowPV6";
+            "file" = "untitledduckmod-1.7.0-forge-1.20.1.jar";
+            "hash" = "sha512-rpwWs8frEWihvsKpTzt49+c+fDiGIF3AI7+O/hpT6W3Dx6vSBhwKwzoLfNyxPJNkcNQV9uOztM05oiIpT6IKhg==";
+        };
+        _rwQTZtF0 = {
+            "id" = "rwQTZtF0";
+            "file" = "untitledduckmod-1.7.0-fabric-1.20.1.jar";
+            "hash" = "sha512-0o21fBiaXLjTx7TfWk8WFx+CMp/HwS64kGXdtGzj8zMs0knN/l8d5RoD3IgMBL0t1KR+20ORgpMAZeDcRRhxYw==";
+        };
+        _QfrVPbOi = {
+            "id" = "QfrVPbOi";
+            "file" = "untitledduckmod-1.7.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-uQ6FJwdDiHKfhP6p/Lh+CuO0XurfXCOndB20s4hf5Vjrp1UcVto8w6ViHA22eUap1mmjUeLkwod19P2Osf4tqA==";
+        };
+        _e8WLrDbM = {
+            "id" = "e8WLrDbM";
+            "file" = "untitledduckmod-1.7.0-fabric-1.21.1.jar";
+            "hash" = "sha512-Y3BtNXUiAyDLnbWrNLHwnxms7MxZl64xXMBqubLB2GyLh2bTifFS+hLENLrUpSeMpTXFJHWuKFZZZzGjHUQwzA==";
+        };
     in {
         "ir97YSNV" = _ir97YSNV;
         "sx4Ttl4h" = _sx4Ttl4h;
@@ -476,13 +496,17 @@ let
         "1iG0fXae" = _1iG0fXae;
         "TsqLpX5v" = _TsqLpX5v;
         "ZiOoKnyZ" = _ZiOoKnyZ;
+        "M3sowPV6" = _M3sowPV6;
+        "rwQTZtF0" = _rwQTZtF0;
+        "QfrVPbOi" = _QfrVPbOi;
+        "e8WLrDbM" = _e8WLrDbM;
         "fabric-1.18.2" = _yYH6ajII;
         "fabric-1.19" = _HwJr91dJ;
         "fabric-1.19.1" = _HwJr91dJ;
         "fabric-1.19.2" = _yfq8hego;
-        "fabric-1.20.1" = _26as4H3I;
+        "fabric-1.20.1" = _rwQTZtF0;
         "fabric-1.21" = _RkHLiGOK;
-        "fabric-1.21.1" = _1iG0fXae;
+        "fabric-1.21.1" = _e8WLrDbM;
         "fabric-1.21.4" = _AVoORwTk;
         "fabric-1.21.5" = _WAJzVMXx;
         "fabric-1.21.6" = _NFKnlxt4;
@@ -497,10 +521,10 @@ let
         "forge-1.19" = _vC2UCtYJ;
         "forge-1.19.1" = _vC2UCtYJ;
         "forge-1.19.2" = _4C9cxXuI;
-        "forge-1.20.1" = _LyM51PJV;
+        "forge-1.20.1" = _M3sowPV6;
         "neoforge-1.20.1" = _LyM51PJV;
         "neoforge-1.21" = _x9tCP1UT;
-        "neoforge-1.21.1" = _mZtigaUJ;
+        "neoforge-1.21.1" = _QfrVPbOi;
         "neoforge-1.21.4" = _PeNBzYNQ;
         "neoforge-1.21.5" = _H11gHZHg;
         "neoforge-1.21.6" = _TOXkXRBT;
@@ -543,7 +567,10 @@ let
         "pkg-1.6.0+forge" = _LyM51PJV;
         "pkg-1.6.0+fabric" = _ZiOoKnyZ;
         "pkg-1.6.0+neoforge" = _TsqLpX5v;
-        "default" = _ZiOoKnyZ;
+        "pkg-1.7.0+forge" = _M3sowPV6;
+        "pkg-1.7.0+fabric" = _e8WLrDbM;
+        "pkg-1.7.0+neoforge" = _QfrVPbOi;
+        "default" = _e8WLrDbM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "untitled-duck-mod";

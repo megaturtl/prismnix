@@ -51,6 +51,41 @@ let
             "file" = "superbwarfare-1.20.1-0.8.8-alfa2-aee58e813.jar";
             "hash" = "sha512-RrubDxuGT3ySYn2gfVJxQTLbvOt/jdi6U9K2sdDzg8wCm8a4adfgMPo5sE/XrRksFyOZLx1aip/y4EtrwPna+Q==";
         };
+        _NVpVziq8 = {
+            "id" = "NVpVziq8";
+            "file" = "superbwarfare-1.21.1-0.8.9.jar";
+            "hash" = "sha512-+3F4M3ZGhMuN71hsJXyXtWGYm5wnbD6WN6HLOl6sghHpNDgyh9BnieAwpumbe4nP3v+AlvZNz0KWh4u9cfKafg==";
+        };
+        _bl4yfoA5 = {
+            "id" = "bl4yfoA5";
+            "file" = "superbwarfare-1.20.1-0.8.9-f4ac2d3b6.jar";
+            "hash" = "sha512-8BSYYBCpw/Mgy0OvSrI9DduAiLGiiZXpV1Hq+E5PcfG89dUrE5gJFaC3HlFvNBO/4FuO1yoHNmbumw6IhAYoaw==";
+        };
+        _veKYra0x = {
+            "id" = "veKYra0x";
+            "file" = "superbwarfare-1.20.1-0.8.9-f8e06301c.jar";
+            "hash" = "sha512-BVxG/u+jm+v2+p+kLbJ5o/VomdR8qEAMLlVx2JXwcNf17QJmymzwIzCE7I3ZrrJY/j4Qom9ca2gZ9B4iVXYBkg==";
+        };
+        _ttBq5tik = {
+            "id" = "ttBq5tik";
+            "file" = "superbwarfare-1.20.1-0.8.9-ae12cf9d6.jar";
+            "hash" = "sha512-DfAmmRZBiv30liwJ77zhJ47n3mzfmvxLFhDnyi99+IRtCOTPOSvriRex8YxXkalpX/P5TRqEofCaBGXbxFUohw==";
+        };
+        _3lmAD6vo = {
+            "id" = "3lmAD6vo";
+            "file" = "superbwarfare-1.21.1-0.8.9.jar";
+            "hash" = "sha512-vFbdOp3gIUc5tZcnS5ipEJKx8fAGVpa/2/AzHMe6ayKgaHZN2FYlDxz/ikMPU1Muh9WzCCTLieps7Ih8HFHIsw==";
+        };
+        _DYr0WKbg = {
+            "id" = "DYr0WKbg";
+            "file" = "superbwarfare-1.21.1-0.8.9.1.jar";
+            "hash" = "sha512-0YfJKFf5qeUg9g+jJ5+GtsqrsOPuPmFTjs5AOFYRk60WdEctKEkCGrbuhOmufHGBkVa1N9lNxRx5xenj1YSYeg==";
+        };
+        _Yzygeeqa = {
+            "id" = "Yzygeeqa";
+            "file" = "superbwarfare-1.20.1-0.8.9.1-dcd21d9fc.jar";
+            "hash" = "sha512-dmuekrMJs8vllNB7lWpuYDXxUqtLXjV6NLDH+SBEM99qiqR4zU5D0ALG/KKF3S3fhoTXykFfpMv8UjNoA9EP3g==";
+        };
     in {
         "HoCLN0XL" = _HoCLN0XL;
         "uQHhrRQG" = _uQHhrRQG;
@@ -62,8 +97,15 @@ let
         "lY08dEoK" = _lY08dEoK;
         "sUdAklmC" = _sUdAklmC;
         "gccrCJDF" = _gccrCJDF;
-        "fabric-1.21.1" = _lY08dEoK;
-        "fabric-1.20.1" = _gccrCJDF;
+        "NVpVziq8" = _NVpVziq8;
+        "bl4yfoA5" = _bl4yfoA5;
+        "veKYra0x" = _veKYra0x;
+        "ttBq5tik" = _ttBq5tik;
+        "3lmAD6vo" = _3lmAD6vo;
+        "DYr0WKbg" = _DYr0WKbg;
+        "Yzygeeqa" = _Yzygeeqa;
+        "fabric-1.21.1" = _DYr0WKbg;
+        "fabric-1.20.1" = _Yzygeeqa;
         "pkg-1.21.1-0.8.8-alfa1" = _HoCLN0XL;
         "pkg-1.21.1-0.8.8-alfa2" = _uQHhrRQG;
         "pkg-1.21.1-0.8.8-alfa3" = _KNIHlQid;
@@ -74,7 +116,14 @@ let
         "pkg-1.21.1-0.8.9-beta2" = _lY08dEoK;
         "pkg-1.20.1-0.8.8-alfa1" = _sUdAklmC;
         "pkg-1.20.1-0.8.8-alfa2" = _gccrCJDF;
-        "default" = _gccrCJDF;
+        "pkg-1.21.1-0.8.9" = _NVpVziq8;
+        "pkg-1.20.1-0.8.9" = _bl4yfoA5;
+        "pkg-1.20.1-0.8.9-hotfix" = _veKYra0x;
+        "pkg-1.20.1-0.8.9-final" = _ttBq5tik;
+        "pkg-1.21.1-0.8.9-final" = _3lmAD6vo;
+        "pkg-1.21.1-0.8.9.1" = _DYr0WKbg;
+        "pkg-1.20.1-0.8.9.1" = _Yzygeeqa;
+        "default" = _Yzygeeqa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "superb-warfare-refabricated";

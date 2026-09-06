@@ -16,16 +16,30 @@ let
             "file" = "ApothicEnchanting-1.21.1-1.6.0.jar";
             "hash" = "sha512-M9/cGGqa/Xv0EOFG6sZQED/OtXAnN1L8rwjL2bkU2zbwIqRom1TdwsExrfkW0ZGQ5eYm5ASDz9D4yuDIwrwWew==";
         };
+        _56c0M28v = {
+            "id" = "56c0M28v";
+            "file" = "ApothicEnchanting-1.21.1-1.6.1.jar";
+            "hash" = "sha512-VjE+9Z/nyZH10fy+oa+DvE9QVJKYf4TLBgq3tubj72LF3S7fnq6Eud0s7UGzilFDwhWbatRaMhLNF4htJSxz2Q==";
+        };
+        _2vH7csNR = {
+            "id" = "2vH7csNR";
+            "file" = "ApothicEnchanting-1.21.1-1.6.2.jar";
+            "hash" = "sha512-4Dhk240ypgEW3ZuHDnun9iVkqFGAxrNc/Uht7/70xYYlTFJ8Ras8B1CkIk1zLSw4nSroTb+umcp/cO4rqef5xg==";
+        };
     in {
         "vDPp4lQ0" = _vDPp4lQ0;
         "CZ1OdBnA" = _CZ1OdBnA;
         "HpSrSsv3" = _HpSrSsv3;
+        "56c0M28v" = _56c0M28v;
+        "2vH7csNR" = _2vH7csNR;
         "neoforge-26.1.2" = _vDPp4lQ0;
-        "neoforge-1.21.1" = _HpSrSsv3;
+        "neoforge-1.21.1" = _2vH7csNR;
         "pkg-26.1.2-2.0.0" = _vDPp4lQ0;
         "pkg-1.21.1-1.5.3" = _CZ1OdBnA;
         "pkg-1.21.1-1.6.0" = _HpSrSsv3;
-        "default" = _HpSrSsv3;
+        "pkg-1.21.1-1.6.1" = _56c0M28v;
+        "pkg-1.21.1-1.6.2" = _2vH7csNR;
+        "default" = _2vH7csNR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "apothic-enchanting";

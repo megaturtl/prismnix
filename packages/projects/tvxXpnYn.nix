@@ -9,6 +9,11 @@ let
     in {
         "EQiJ2NYZ" = _EQiJ2NYZ;
         "minecraft-1.21.10" = _EQiJ2NYZ;
+        "minecraft-1.21.11" = _EQiJ2NYZ;
+        "minecraft-26.1" = _EQiJ2NYZ;
+        "minecraft-26.1.1" = _EQiJ2NYZ;
+        "minecraft-26.1.2" = _EQiJ2NYZ;
+        "minecraft-26.2" = _EQiJ2NYZ;
         "pkg-1.0" = _EQiJ2NYZ;
         "default" = _EQiJ2NYZ;
     });

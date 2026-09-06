@@ -75,13 +75,13 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LicenseRef-LSL-1.0" {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "LicenseRef-LSL-1.0";
-                shortName = "LicenseRef-LSL-1.0";
-                url = "https://github.com/Lumyrix/ArmorHudPercentages/blob/final/LICENSE.txt";
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = null;
             };
         };
     };

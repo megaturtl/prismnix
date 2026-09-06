@@ -766,6 +766,16 @@ let
             "file" = "Vampirism-1.20.1-1.10.16.jar";
             "hash" = "sha512-nYz8XhgXxG3DcMvhKjwF0UmtVVMWvaEu4hM6mvIRUibk1t0dUYCZtla/Lb0rBKerbbDJu8YUEWdyI98L1pr1+Q==";
         };
+        _8KCSZKt6 = {
+            "id" = "8KCSZKt6";
+            "file" = "Vampirism-1.21-1.10.13.jar";
+            "hash" = "sha512-mTUVdlEsNmk0KB/cy/M/a1TW9q/SO6sKAmlAcJCHsAsSDFCZnaeR0AR1RNzubUHK9v5zwPTsmWmaZTGP6eyaIA==";
+        };
+        _yg8B0dzt = {
+            "id" = "yg8B0dzt";
+            "file" = "Vampirism-1.20.1-1.10.17.jar";
+            "hash" = "sha512-0AhYyggaOFbw2P4KGtYUv+l3gJUyBU6U6xe3iF+/x/o9eQkkY2rfSfnQmlO8orH6RJ1laZq4A+ZotScqdqg+Pw==";
+        };
     in {
         "pAPVn5E1" = _pAPVn5E1;
         "27FivuEF" = _27FivuEF;
@@ -920,6 +930,8 @@ let
         "162pT82Y" = _162pT82Y;
         "rAtxPNwi" = _rAtxPNwi;
         "Opa2pdLO" = _Opa2pdLO;
+        "8KCSZKt6" = _8KCSZKt6;
+        "yg8B0dzt" = _yg8B0dzt;
         "forge-1.16.4" = _DZ0cJFyc;
         "forge-1.16.5" = _jnletJgi;
         "forge-1.17.1" = _J1MWAqfm;
@@ -932,11 +944,11 @@ let
         "forge-1.12.2" = _JBd0KUB4;
         "forge-1.19.3" = _d5cZapqN;
         "forge-1.19.4" = _GR3MBTdE;
-        "forge-1.20.1" = _Opa2pdLO;
+        "forge-1.20.1" = _yg8B0dzt;
         "neoforge-1.20.4" = _Qg3uKDk2;
         "neoforge-1.20.6" = _YOw1O7SA;
-        "neoforge-1.21" = _rAtxPNwi;
-        "neoforge-1.21.1" = _rAtxPNwi;
+        "neoforge-1.21" = _8KCSZKt6;
+        "neoforge-1.21.1" = _8KCSZKt6;
         "pkg-1.16.4-1.7.11" = _pAPVn5E1;
         "pkg-1.16.5-1.8.0-alpha+20210606-2224" = _27FivuEF;
         "pkg-1.16.4-1.7.12" = _DZ0cJFyc;
@@ -1090,7 +1102,9 @@ let
         "pkg-1.21-1.10.11" = _162pT82Y;
         "pkg-1.21-1.10.12" = _rAtxPNwi;
         "pkg-1.20.1-1.10.16" = _Opa2pdLO;
-        "default" = _Opa2pdLO;
+        "pkg-1.21-1.10.13" = _8KCSZKt6;
+        "pkg-1.20.1-1.10.17" = _yg8B0dzt;
+        "default" = _yg8B0dzt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vampirism";

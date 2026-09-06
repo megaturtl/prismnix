@@ -801,6 +801,26 @@ let
             "file" = "legacies-and-legends-26.1-r1.9.2-fabric.jar";
             "hash" = "sha512-Ks08pbGyIpkjIXY+0+dPBGiiyBzaz1dMQm5L5Q+gQxUGwi1Hhx7YP2chqZBJB+aHtmOzhlrToNLvtfL0uxJmxA==";
         };
+        _nFA0WhLw = {
+            "id" = "nFA0WhLw";
+            "file" = "legacies-and-legends-26.1-r1.10-neoforge.jar";
+            "hash" = "sha512-1hNlFNgGiwP6AlyrtZvhs6he3CC+f+xdXw4+ADII8PsEV/PAqmB3wq2TGqpmlzoiiDY41MZGr2LvBtY+z1VCEg==";
+        };
+        _M9MZcsMn = {
+            "id" = "M9MZcsMn";
+            "file" = "legacies-and-legends-26.1-r1.10-fabric.jar";
+            "hash" = "sha512-WR47mi0osw+0DZJWLkJfWsgpbZZ4sHYrsecPBrtrhEdSqSnnHswlRck3I5hyMNNllPUrvuPdrz1BCfOzgYGoQQ==";
+        };
+        _9UCP7XiX = {
+            "id" = "9UCP7XiX";
+            "file" = "legacies-and-legends-26.1-r1.11-neoforge.jar";
+            "hash" = "sha512-4oXbQogkv7kviO7RlWIhG98ncDXNR0KBzYN/HmHNAy/MLl6zPxQVI9cngSHt2MSe87WPqSpaPLEZgFNhJQEMbA==";
+        };
+        _9Tmu8EQF = {
+            "id" = "9Tmu8EQF";
+            "file" = "legacies-and-legends-26.1-r1.11-fabric.jar";
+            "hash" = "sha512-ThrdRR69vS1svznDWYLx+5EI0PohcyO8JXYUutoBKlK8MLY7tCMRSrwuNI8bdFuAHr15/Wc/+7QREC6TgYXcoQ==";
+        };
     in {
         "ecLjUAjA" = _ecLjUAjA;
         "R0Kcz3OG" = _R0Kcz3OG;
@@ -962,6 +982,10 @@ let
         "iEkZ62V5" = _iEkZ62V5;
         "vnoOz0VA" = _vnoOz0VA;
         "LJfH4fBT" = _LJfH4fBT;
+        "nFA0WhLw" = _nFA0WhLw;
+        "M9MZcsMn" = _M9MZcsMn;
+        "9UCP7XiX" = _9UCP7XiX;
+        "9Tmu8EQF" = _9Tmu8EQF;
         "fabric-1.20" = _tvN6EHyi;
         "fabric-1.20.1" = _tvN6EHyi;
         "fabric-1.20.2" = _tvN6EHyi;
@@ -972,12 +996,12 @@ let
         "fabric-1.21.4" = _eocp04oo;
         "fabric-1.21.5" = _JhpIRapT;
         "fabric-1.21.11" = _AdFLY5Mh;
-        "fabric-26.1" = _LJfH4fBT;
-        "fabric-26.1.1" = _LJfH4fBT;
-        "fabric-26.1.2" = _LJfH4fBT;
-        "neoforge-26.1" = _vnoOz0VA;
-        "neoforge-26.1.1" = _vnoOz0VA;
-        "neoforge-26.1.2" = _vnoOz0VA;
+        "fabric-26.1" = _9Tmu8EQF;
+        "fabric-26.1.1" = _9Tmu8EQF;
+        "fabric-26.1.2" = _9Tmu8EQF;
+        "neoforge-26.1" = _9UCP7XiX;
+        "neoforge-26.1.1" = _9UCP7XiX;
+        "neoforge-26.1.2" = _9UCP7XiX;
         "pkg-1.0.0" = _ecLjUAjA;
         "pkg-1.0.1" = _R0Kcz3OG;
         "pkg-1.0.2" = _GFTpEdkJ;
@@ -1129,7 +1153,11 @@ let
         "pkg-26.1-r1.9.1-fabric" = _iEkZ62V5;
         "pkg-26.1-r1.9.2-neoforge" = _vnoOz0VA;
         "pkg-26.1-r1.9.2-fabric" = _LJfH4fBT;
-        "default" = _LJfH4fBT;
+        "pkg-26.1-r1.10-neoforge" = _nFA0WhLw;
+        "pkg-26.1-r1.10-fabric" = _M9MZcsMn;
+        "pkg-26.1-r1.11-neoforge" = _9UCP7XiX;
+        "pkg-26.1-r1.11-fabric" = _9Tmu8EQF;
+        "default" = _9Tmu8EQF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legacies-and-legends";

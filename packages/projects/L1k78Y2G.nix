@@ -231,6 +231,11 @@ let
             "file" = "easyautocycler-neoforge-26.2-3.1.0.jar";
             "hash" = "sha512-2K7uJzBJZvWJqIZJQas9PJlcSkmlwAlpMznVT4O3KsqqAIcdrYBIZg2LsAEUjnS0Ob4Ej+IEmWj8HGxpVDvZ4Q==";
         };
+        _dtPBqGzK = {
+            "id" = "dtPBqGzK";
+            "file" = "easyautocycler-fabric-1.20.1-3.1.1.jar";
+            "hash" = "sha512-1G5oeuvqSxjh3JnX0i0qv4ednoeTbwWrOHUI7Q7+KE8BGtM7r5Ss8J4HsR1QTELhfIjAhO4txvMMfpXKs4iPcQ==";
+        };
     in {
         "ySi8iy58" = _ySi8iy58;
         "RuWh62DE" = _RuWh62DE;
@@ -278,13 +283,14 @@ let
         "lzAan55W" = _lzAan55W;
         "5Kqczssq" = _5Kqczssq;
         "SPrk0IUa" = _SPrk0IUa;
+        "dtPBqGzK" = _dtPBqGzK;
         "neoforge-1.21.1" = _Gys4Swa7;
         "neoforge-1.21" = _I0QXylIk;
         "neoforge-26.1.2" = _5Kqczssq;
         "neoforge-1.21.11" = _lzAan55W;
         "neoforge-26.2" = _SPrk0IUa;
         "forge-1.20.1" = _7EpEiifX;
-        "fabric-1.20.1" = _iYArLRBn;
+        "fabric-1.20.1" = _dtPBqGzK;
         "fabric-1.21.1" = _i0MM1Q8o;
         "fabric-26.1.2" = _p9uL6TsH;
         "fabric-1.21.11" = _yG3GjRjn;
@@ -300,7 +306,8 @@ let
         "pkg-2.3.0" = _bEWFlN5Z;
         "pkg-3.0.0" = _HLw17GJ9;
         "pkg-3.1.0" = _SPrk0IUa;
-        "default" = _SPrk0IUa;
+        "pkg-3.1.1" = _dtPBqGzK;
+        "default" = _dtPBqGzK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easy-auto-cycler";

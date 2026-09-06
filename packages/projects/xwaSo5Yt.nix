@@ -21,11 +21,17 @@ let
             "file" = "quickswap-1.2.2.jar";
             "hash" = "sha512-9U+/gu83TvxmpNqRULjgPgaMh0udTXHnbqdFUMTNn+dCYQDghgnDGnqdWKnBHDvoM2nJnHqzLgWP5ePfxk9xsw==";
         };
+        _6lnVV4kh = {
+            "id" = "6lnVV4kh";
+            "file" = "quickswap-1.3.0.jar";
+            "hash" = "sha512-rmEmTQvl/ntHChEq/b7TqUZPnsHHRflH++D6CFfuj+AWhU4g+LakCnoUzcq8BqrVYCWqBkdx3P+VvHsztWH2mQ==";
+        };
     in {
         "RgxWHFai" = _RgxWHFai;
         "wxgl9yo9" = _wxgl9yo9;
         "sn3xLbqP" = _sn3xLbqP;
         "VLiwyoCd" = _VLiwyoCd;
+        "6lnVV4kh" = _6lnVV4kh;
         "fabric-1.17" = _VLiwyoCd;
         "fabric-1.17.1" = _VLiwyoCd;
         "fabric-1.18" = _VLiwyoCd;
@@ -55,6 +61,7 @@ let
         "fabric-1.21.9" = _sn3xLbqP;
         "fabric-1.21.10" = _sn3xLbqP;
         "fabric-1.21.11" = _sn3xLbqP;
+        "fabric-26.2" = _6lnVV4kh;
         "quilt-1.17" = _VLiwyoCd;
         "quilt-1.17.1" = _VLiwyoCd;
         "quilt-1.18" = _VLiwyoCd;
@@ -84,11 +91,13 @@ let
         "quilt-1.21.9" = _sn3xLbqP;
         "quilt-1.21.10" = _sn3xLbqP;
         "quilt-1.21.11" = _sn3xLbqP;
+        "quilt-26.2" = _6lnVV4kh;
         "pkg-1.2.0" = _RgxWHFai;
         "pkg-1.2.1" = _wxgl9yo9;
         "pkg-1.2.2-1.21.9+" = _sn3xLbqP;
         "pkg-1.2.2" = _VLiwyoCd;
-        "default" = _VLiwyoCd;
+        "pkg-1.3.0" = _6lnVV4kh;
+        "default" = _6lnVV4kh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "quickswap";

@@ -46,6 +46,16 @@ let
             "file" = "better_contraption_diagram-1.1.1.jar";
             "hash" = "sha512-NI3fbH8s4Ncx2YnI1XmVPmeEMV8tvzSPiSfuBX+4rbv4kjqUVc4MafksZLAQIKyI42vOGyFe5R1Web5cCZ7F7A==";
         };
+        _UdtAL4Hl = {
+            "id" = "UdtAL4Hl";
+            "file" = "better_contraption_diagram-1.2.1.jar";
+            "hash" = "sha512-Ao4gsz48Mg4ILl5prEmIHpyMnCGO5Amq8Ml2xi3EXyYG0N8iwWYH31uo8Yr5G8K9JPMnwh/7tndtF7WgWhRT1w==";
+        };
+        _7vomxhkR = {
+            "id" = "7vomxhkR";
+            "file" = "better_contraption_diagram-1.2.2.jar";
+            "hash" = "sha512-kF1yVkoyaUJcw5ttKCDkW5J3azwf5noMRVrCmk7k9slnuL71ic7uhRKnw/NTdTE6Mo0d5xfGu8P2KHfI2bSLbQ==";
+        };
     in {
         "d3KMpe5a" = _d3KMpe5a;
         "VFj6Aqqb" = _VFj6Aqqb;
@@ -56,7 +66,9 @@ let
         "andOKuQa" = _andOKuQa;
         "5x3Y3ZZ6" = _5x3Y3ZZ6;
         "KNWbblgT" = _KNWbblgT;
-        "neoforge-1.21.1" = _KNWbblgT;
+        "UdtAL4Hl" = _UdtAL4Hl;
+        "7vomxhkR" = _7vomxhkR;
+        "neoforge-1.21.1" = _7vomxhkR;
         "pkg-1.0.0" = _d3KMpe5a;
         "pkg-1.0.0-a" = _VFj6Aqqb;
         "pkg-1.0.1" = _MH8czn7O;
@@ -66,7 +78,9 @@ let
         "pkg-1.0.2-b" = _andOKuQa;
         "pkg-1.1.0" = _5x3Y3ZZ6;
         "pkg-1.1.1" = _KNWbblgT;
-        "default" = _KNWbblgT;
+        "pkg-1.2.1" = _UdtAL4Hl;
+        "pkg-1.2.2" = _7vomxhkR;
+        "default" = _7vomxhkR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better_contraption_diagram";

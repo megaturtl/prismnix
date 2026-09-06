@@ -81,6 +81,11 @@ let
             "file" = "SMPUtils 2.5.zip";
             "hash" = "sha512-d0Smoj9ldJL8lkL6zkI4ozpD2JI9nRea9Xdijx7QYqeHxwOLbDAVQfDwF4mjGRVAxMwjARNsSFAWNUzNLOxL1g==";
         };
+        _ZkBp7win = {
+            "id" = "ZkBp7win";
+            "file" = "SMPUtils 2.6.zip";
+            "hash" = "sha512-QfxwBCIadXFXzDc4064d+O6ln5sI/8nISOsvIHTTuUEtvZtsy7SBw3ZSI2+jCHRe3vdjDPlHTfjAwBL6SNmFbA==";
+        };
     in {
         "FBgpDs3R" = _FBgpDs3R;
         "4DXpEU4I" = _4DXpEU4I;
@@ -98,22 +103,23 @@ let
         "aJplqvUZ" = _aJplqvUZ;
         "xWiKDS8i" = _xWiKDS8i;
         "SOuEGPuX" = _SOuEGPuX;
-        "minecraft-1.21" = _SOuEGPuX;
-        "minecraft-1.21.1" = _SOuEGPuX;
-        "minecraft-1.21.2" = _SOuEGPuX;
-        "minecraft-1.21.3" = _SOuEGPuX;
-        "minecraft-1.21.4" = _SOuEGPuX;
-        "minecraft-1.21.5" = _SOuEGPuX;
-        "minecraft-1.21.6" = _SOuEGPuX;
-        "minecraft-1.21.7" = _SOuEGPuX;
-        "minecraft-1.21.8" = _SOuEGPuX;
-        "minecraft-1.21.9" = _SOuEGPuX;
-        "minecraft-1.21.10" = _SOuEGPuX;
-        "minecraft-1.21.11" = _SOuEGPuX;
-        "minecraft-26.1" = _SOuEGPuX;
-        "minecraft-26.1.1" = _SOuEGPuX;
-        "minecraft-26.1.2" = _SOuEGPuX;
-        "minecraft-26.2" = _SOuEGPuX;
+        "ZkBp7win" = _ZkBp7win;
+        "minecraft-1.21" = _ZkBp7win;
+        "minecraft-1.21.1" = _ZkBp7win;
+        "minecraft-1.21.2" = _ZkBp7win;
+        "minecraft-1.21.3" = _ZkBp7win;
+        "minecraft-1.21.4" = _ZkBp7win;
+        "minecraft-1.21.5" = _ZkBp7win;
+        "minecraft-1.21.6" = _ZkBp7win;
+        "minecraft-1.21.7" = _ZkBp7win;
+        "minecraft-1.21.8" = _ZkBp7win;
+        "minecraft-1.21.9" = _ZkBp7win;
+        "minecraft-1.21.10" = _ZkBp7win;
+        "minecraft-1.21.11" = _ZkBp7win;
+        "minecraft-26.1" = _ZkBp7win;
+        "minecraft-26.1.1" = _ZkBp7win;
+        "minecraft-26.1.2" = _ZkBp7win;
+        "minecraft-26.2" = _ZkBp7win;
         "pkg-1.0" = _FBgpDs3R;
         "pkg-1.1" = _4DXpEU4I;
         "pkg-1.2" = _Ioro5khC;
@@ -130,7 +136,8 @@ let
         "pkg-2.3" = _aJplqvUZ;
         "pkg-2.4" = _xWiKDS8i;
         "pkg-2.5" = _SOuEGPuX;
-        "default" = _SOuEGPuX;
+        "pkg-2.6" = _ZkBp7win;
+        "default" = _ZkBp7win;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smputils";

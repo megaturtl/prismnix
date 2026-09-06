@@ -221,12 +221,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "LicenseRef-All-Rights-Reserved";
-                shortName = "LicenseRef-All-Rights-Reserved";
+                fullName = "MIT License";
+                shortName = "MIT";
                 url = null;
             };
         };

@@ -106,6 +106,16 @@ let
             "file" = "JadeAddons-1.20.1-Fabric-5.5.2.jar";
             "hash" = "sha512-QYroH/59EEcHwg72FvKnX2ba+eK3612Di0BTY01CcZ2iTZSBlU/AbWiCu0CKz4V/jFP/l8x6/Ze8L10iFz1wlA==";
         };
+        _9iFjKcQp = {
+            "id" = "9iFjKcQp";
+            "file" = "JadeAddons-26.1.2-Fabric-26.0.0.jar";
+            "hash" = "sha512-g5SabRFt8JjRYFFmgXf1rYmHlnAP/TCIXvqoJwUFG2qGvIFDDGjLKnWEkZfTr6aVp3eeed+SsaQAS7xEcGWc4g==";
+        };
+        _b7GmlOF7 = {
+            "id" = "b7GmlOF7";
+            "file" = "JadeAddons-26.1.2-Fabric-26.0.1.jar";
+            "hash" = "sha512-Dj+R3A2KUN8yEgnBw3jz+FdYmQBCsqiJ0au+ezG+L8r/EblP+x5+WTEZiP0n0nA37y+VYzpbcM7GXosgvQNEzg==";
+        };
     in {
         "mDej3qAx" = _mDej3qAx;
         "c6nMxgs4" = _c6nMxgs4;
@@ -128,14 +138,22 @@ let
         "qZFtD8kO" = _qZFtD8kO;
         "kBOrKrXR" = _kBOrKrXR;
         "rVVb4MNE" = _rVVb4MNE;
+        "9iFjKcQp" = _9iFjKcQp;
+        "b7GmlOF7" = _b7GmlOF7;
         "fabric-1.18.2" = _yVhnV6GW;
         "fabric-1.19.2" = _qZFtD8kO;
         "fabric-1.20" = _rVVb4MNE;
         "fabric-1.20.1" = _rVVb4MNE;
         "fabric-1.21.1" = _xtWiiv5X;
+        "fabric-26.1" = _b7GmlOF7;
+        "fabric-26.1.1" = _b7GmlOF7;
+        "fabric-26.1.2" = _b7GmlOF7;
         "quilt-1.20" = _rVVb4MNE;
         "quilt-1.20.1" = _rVVb4MNE;
         "quilt-1.21.1" = _xtWiiv5X;
+        "quilt-26.1" = _b7GmlOF7;
+        "quilt-26.1.1" = _b7GmlOF7;
+        "quilt-26.1.2" = _b7GmlOF7;
         "pkg-2.0.1" = _mDej3qAx;
         "pkg-3.0.0" = _c6nMxgs4;
         "pkg-3.1.0" = _MGNp83V8;
@@ -157,7 +175,9 @@ let
         "pkg-3.2.1" = _qZFtD8kO;
         "pkg-5.5.1+fabric" = _kBOrKrXR;
         "pkg-5.5.2+fabric" = _rVVb4MNE;
-        "default" = _rVVb4MNE;
+        "pkg-26.0.0+fabric" = _9iFjKcQp;
+        "pkg-26.0.1+fabric" = _b7GmlOF7;
+        "default" = _b7GmlOF7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jade-addons-fabric";

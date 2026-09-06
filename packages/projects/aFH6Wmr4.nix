@@ -31,6 +31,11 @@ let
             "file" = "disenchantlite-0.1.3+26.1.2.jar";
             "hash" = "sha512-sYEXqTvb0BBetBjWr/TOaX5Cj3MkOUi30jS1BtfjS1AQ9n1bmCpasceJgkBE88/TPd2m6iEEk6ALznnOMGNmhw==";
         };
+        _g7vneLOo = {
+            "id" = "g7vneLOo";
+            "file" = "disenchantlite-0.1.3+26.2.jar";
+            "hash" = "sha512-FuWpBZRRZz39IvyGlSCj5xmgccO1CJ0ljHi21RFPE8Fa3Ajmy35c5awGG5zOycmz5kZTWSfZRvmzOJ34W5HFiA==";
+        };
     in {
         "Gio4Fnhb" = _Gio4Fnhb;
         "rRNGR98X" = _rRNGR98X;
@@ -38,6 +43,7 @@ let
         "Ivo74fZV" = _Ivo74fZV;
         "pC2I1xQ6" = _pC2I1xQ6;
         "56oOkuPN" = _56oOkuPN;
+        "g7vneLOo" = _g7vneLOo;
         "fabric-1.21.8" = _36G9zA0F;
         "fabric-1.21.9" = _Ivo74fZV;
         "fabric-1.21.10" = _Ivo74fZV;
@@ -45,13 +51,15 @@ let
         "fabric-26.1" = _56oOkuPN;
         "fabric-26.1.1" = _56oOkuPN;
         "fabric-26.1.2" = _56oOkuPN;
+        "fabric-26.2" = _g7vneLOo;
         "pkg-0.1.0-alpha.1+1.21.8" = _Gio4Fnhb;
         "pkg-0.1.0-alpha.2+1.21.10" = _rRNGR98X;
         "pkg-0.1.2+1.21.8" = _36G9zA0F;
         "pkg-0.1.2+1.21.10" = _Ivo74fZV;
         "pkg-0.1.2+1.21.11" = _pC2I1xQ6;
         "pkg-0.1.3+26.1.2" = _56oOkuPN;
-        "default" = _56oOkuPN;
+        "pkg-0.1.3+26.2" = _g7vneLOo;
+        "default" = _g7vneLOo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "disenchantlite";

@@ -1011,6 +1011,156 @@ let
             "file" = "integratedtunnels-26.2-neoforge-1.9.6-654.jar";
             "hash" = "sha512-NTkwhaoo7ktdYD91ZKL0+nRqOJZaTzCfsIe7/G3ulvqGqVrgELKT4B7YLI6R0w4SAFpgP/k4DAw5PhUI+9fMdg==";
         };
+        _mPwFHiAY = {
+            "id" = "mPwFHiAY";
+            "file" = "integratedtunnels-1.21.1-neoforge-1.9.4-659.jar";
+            "hash" = "sha512-Sh8Fq3Vpp2b0LRD6PjXOuGOlhvpgyDu1xP4kzY1nEeIgaPa/guiu86r2wkM/e48nwCrXm5q5D0HaUyOumo1hSg==";
+        };
+        _GV0GT3Zz = {
+            "id" = "GV0GT3Zz";
+            "file" = "integratedtunnels-1.21.1-neoforge-1.9.4-670.jar";
+            "hash" = "sha512-+UyV+cedWeRmEAi/EvGx1aZoZhQd9BZuvRUJKRFIXdATu3Jg++O8pu0TozbOPpIymscosphvbkJY7tgdvDBx0Q==";
+        };
+        _IdxLt1QO = {
+            "id" = "IdxLt1QO";
+            "file" = "integratedtunnels-1.21.1-neoforge-1.9.4-671.jar";
+            "hash" = "sha512-PtCyfdBs7onlqJCxV1NloTmjDCJKubZ9HWFPUHhuEh2GCIDnP4DEZygtvtR7kJ9ahNcn9JtH03tVvSFUkANq7Q==";
+        };
+        _oDNX5xzM = {
+            "id" = "oDNX5xzM";
+            "file" = "integratedtunnels-26.1.2-neoforge-1.9.6-672.jar";
+            "hash" = "sha512-eTUBC+TWU4968ez3eDBLU5Ga/C1kaO1t79iW3pSjDaOVx1FYwmgjVgECwlJo/6DnJ27FMaT674fSoy0t1U4AcQ==";
+        };
+        _CmztBlVp = {
+            "id" = "CmztBlVp";
+            "file" = "integratedtunnels-26.1.2-neoforge-1.9.6-675.jar";
+            "hash" = "sha512-hXeO0r1lSdS4Eo4a4g9C0rjAbhsrBEb5CPwD2QtFzcXqyq8fP61V9i/1V0YdiBSiQaBHOozjsdlVhtc0WKgcxQ==";
+        };
+        _40YLdx14 = {
+            "id" = "40YLdx14";
+            "file" = "integratedtunnels-26.1.2-neoforge-1.9.6-686.jar";
+            "hash" = "sha512-WYgCCJTZYTUSptaj3WtWUvj3ZMeUTJDGnL3fTNq0i4988wDkPWu+n/E0Hg9dHYxIvFuVBP9K6iqMKmT0VLSi7A==";
+        };
+        _lEWNi2CL = {
+            "id" = "lEWNi2CL";
+            "file" = "integratedtunnels-26.1.2-neoforge-1.9.6-690.jar";
+            "hash" = "sha512-LxWMjNlHgtdS/SinDw9FuQT08JdYqlyBxzmFvAhfu8VVLkNul56u1ajoWvTS7wKtCl86gUpnYmhYBRD1wWWLYg==";
+        };
+        _spyYnci8 = {
+            "id" = "spyYnci8";
+            "file" = "integratedtunnels-1.21.1-neoforge-1.9.4-693.jar";
+            "hash" = "sha512-23UyQXAXF/Jnkn6qppWBgVueZTdKtIMLFL0VIfgt1DR7lwD6mVir/CaMODoG9AcqzUZNG8x8DmpCyufnmV15lA==";
+        };
+        _7rDfv0cG = {
+            "id" = "7rDfv0cG";
+            "file" = "IntegratedTunnels-1.20.1-1.10.0.jar";
+            "hash" = "sha512-b/mDsP5twHnPZQP3O8MOe3M2ywsr6m2FovG/kDEEYVjoIRJAGDWmcM+YusApdY5gqustSHVY6fjmQFiqVbLrXQ==";
+        };
+        _JJks7O6K = {
+            "id" = "JJks7O6K";
+            "file" = "integratedtunnels-1.21.1-neoforge-1.10.0.jar";
+            "hash" = "sha512-Msezr4SNd/D2y4s4XNaCsBof2Sw+yf1s4DIx8bZZeghi8ne2Zj3Lk4IQytzL8bESPPmVy7K70NS9BP0nqMQTfA==";
+        };
+        _LHuh7AcO = {
+            "id" = "LHuh7AcO";
+            "file" = "integratedtunnels-26.1.2-neoforge-1.10.0.jar";
+            "hash" = "sha512-BuyttHQjZpeLZYivRvLxXkVoeQaQBYvIe1q9tQOsvcD/JTGFuVA0EFVt5BSqB8zGoIq46o97AxyYA2v/TwJ9tQ==";
+        };
+        _bBACHAVg = {
+            "id" = "bBACHAVg";
+            "file" = "integratedtunnels-26.2-neoforge-1.9.6-701.jar";
+            "hash" = "sha512-EP135kF3i44e/0YzWva1FqYXaTliaHp1YmM6dWZXS33vRaDb5DVx8e1dfVKkiG1rHT55vrXil//O+KP6qVE9fw==";
+        };
+        _FJ4oefDa = {
+            "id" = "FJ4oefDa";
+            "file" = "integratedtunnels-1.21.1-neoforge-1.10.0-706.jar";
+            "hash" = "sha512-DcWd75aZi0i8FFExE3/aBKdwcvQV1Efl56hhuPClJhyXDX30qA5EuaY0UAXW/xGxe2WRHLked4ikqWKrEuAL4w==";
+        };
+        _LX4bo6Ta = {
+            "id" = "LX4bo6Ta";
+            "file" = "integratedtunnels-26.1.2-neoforge-1.10.0-707.jar";
+            "hash" = "sha512-KdbnXnktQBGELwOJq5MtkCuXrgQYe1SFZrnCzcqEK58KIfZUDaYE4qbDQF/W2celSx2LaLCOMobOGajXs0EoIA==";
+        };
+        _8hcLmAFT = {
+            "id" = "8hcLmAFT";
+            "file" = "integratedtunnels-26.2-neoforge-1.9.6-708.jar";
+            "hash" = "sha512-2ytLSDd5bgu5TGGuVsId7Iy6+9eqg43O1eQ8OvbOA8SNHY02e7YijnJNctzDYkzwwGYL+brcpzoPncQ1WBYP7A==";
+        };
+        _gARytyEY = {
+            "id" = "gARytyEY";
+            "file" = "integratedtunnels-1.21.1-neoforge-1.10.0-709.jar";
+            "hash" = "sha512-K7jkHRtGggrRhwfI80vFxGdlsqr9KI0WM25cDsOImEoNnjeBN+u/nfOSt1z8mhx4GVSfXGGl9BL1QQU2m15Gxg==";
+        };
+        _GT0pGPaW = {
+            "id" = "GT0pGPaW";
+            "file" = "integratedtunnels-1.21.1-neoforge-1.10.0-714.jar";
+            "hash" = "sha512-jYaeUZaZ/F5lwoQyc03/RsaptZyRFq4GXgBFhFaQtXNlLZuv1UdMsVLRa6r5M7sPry2vp8H/q6RR3J1Roy2vPQ==";
+        };
+        _Lxg1FpRH = {
+            "id" = "Lxg1FpRH";
+            "file" = "integratedtunnels-1.21.1-neoforge-1.10.0-719.jar";
+            "hash" = "sha512-UYIxVIsoD0zJF030fdoUFmxu3cN7eQp14p+vyYcNz4Cn0cte90NTMo2799mTeoUPvr8XEIKCuG71cXIV1MWaCA==";
+        };
+        _peX6WGOc = {
+            "id" = "peX6WGOc";
+            "file" = "integratedtunnels-1.21.1-neoforge-1.10.0-729.jar";
+            "hash" = "sha512-ZIVKO+s/uVkFsZpwuNgC/45wxGATRTnWXHA9BaWfpiPwVq+l+pKzrZtjhO7iImUhOFF/YqxGtiJWwAhtPr+BgA==";
+        };
+        _TXMb5K8z = {
+            "id" = "TXMb5K8z";
+            "file" = "integratedtunnels-1.21.1-neoforge-1.10.0-736.jar";
+            "hash" = "sha512-x49HE6csa5cGQFzyqp/1Abz2SM6I66OQdsIsY4AJYNVdXb4B/7ced1rLE1AobSIF7RREsigUaLAkX080Y3R6Wg==";
+        };
+        _IkUTcTm5 = {
+            "id" = "IkUTcTm5";
+            "file" = "integratedtunnels-1.21.1-neoforge-1.10.0-737.jar";
+            "hash" = "sha512-fSrBQKu9UKpowmOyverKnvfd6H30pKeUaoI3117a8MYUobcMME2Q1XEGNpKx+5iFyEzMZKoal4GbnjiG8NtFmA==";
+        };
+        _Q60I28th = {
+            "id" = "Q60I28th";
+            "file" = "integratedtunnels-26.1.2-neoforge-1.10.0-738.jar";
+            "hash" = "sha512-0cbfGjKtRg6x2ZBJznfZsTvWVF3FNUP+gP31dtX1qShYQblEcnsxtImz/sj87740w4rr7R55EdEBflc1pHkMOQ==";
+        };
+        _abE8qqKP = {
+            "id" = "abE8qqKP";
+            "file" = "integratedtunnels-26.2-neoforge-1.9.6-740.jar";
+            "hash" = "sha512-713GrIFnbGApBXOGr4NlXljqufBHaLskdS/rZqJp/363ggsDvnlWKDqeXCRjidMZhZuuH7qikib76RTonXR8mw==";
+        };
+        _PJwHAQV6 = {
+            "id" = "PJwHAQV6";
+            "file" = "IntegratedTunnels-1.20.1-1.10.1.jar";
+            "hash" = "sha512-gQq6qzqgldnjSEBMEjFMnXP9xifm3BXks0AeyAZqxTwz3mpCgOHFqk7hlf1GuQ7/wFRgT7LKG6bjNZiLSMsPUQ==";
+        };
+        _75eTX1BX = {
+            "id" = "75eTX1BX";
+            "file" = "integratedtunnels-26.1.2-neoforge-1.11.0.jar";
+            "hash" = "sha512-if21NY0/T1UbN+i4MZvgnBEAaIhoJ41LAGKLIVKHl8B2Z9kzRRs+UnyZmeNGIUHZ3N4lm+0QfqLHjI8ijgNa4A==";
+        };
+        _4GKtCzR6 = {
+            "id" = "4GKtCzR6";
+            "file" = "integratedtunnels-26.2-neoforge-1.9.6-747.jar";
+            "hash" = "sha512-nsL+bS9fyzusmozXQoc92ZkxRjTXDbxDHmjSYQKjV8PoPAN6IreJgmpQPIzmPklDctU903BjDbXS1LdzmD7qDQ==";
+        };
+        _PLSgXn8q = {
+            "id" = "PLSgXn8q";
+            "file" = "integratedtunnels-1.21.1-neoforge-1.11.0.jar";
+            "hash" = "sha512-HevrErUngd1J9cGnXhb/h944iZ0AgPge5PwpfM9VZzQOccn63+JdrG8vZp5/fXuS3DBBSCP0LFfoaQ4ZgRUXhA==";
+        };
+        _3HGHnw2p = {
+            "id" = "3HGHnw2p";
+            "file" = "integratedtunnels-1.21.1-neoforge-1.11.0-750.jar";
+            "hash" = "sha512-4O13JKXFSTm35pWzIlW01eX1lyhKD0XF6QYidDk9Y6NOO0M2FeaQzd66FOKynexNEhoNTAJ4yEigq+0gzQXApg==";
+        };
+        _r1rhjiOz = {
+            "id" = "r1rhjiOz";
+            "file" = "integratedtunnels-26.1.2-neoforge-1.11.0-751.jar";
+            "hash" = "sha512-56SNQKgDHVy36xyVXvSvc+lWFohZ2QFZSjbF/nVywaUGcErztBvVqwpyQKkmv2dI1T3z/pOWKE/PdsQbfPcKHg==";
+        };
+        _ATrkYk7L = {
+            "id" = "ATrkYk7L";
+            "file" = "integratedtunnels-26.2-neoforge-1.9.6-752.jar";
+            "hash" = "sha512-CShMip6Om5tlIF9x2U/xti/4Wih1L9I2Z1mwgI7V4MADqhbGXyiiyKUZ/d1sIHCVM1GmfyXl2jUZLYZHG9oRkQ==";
+        };
     in {
         "SeqgYOdy" = _SeqgYOdy;
         "E7ViBXqS" = _E7ViBXqS;
@@ -1214,22 +1364,52 @@ let
         "HQAujdWb" = _HQAujdWb;
         "mC9NdJDF" = _mC9NdJDF;
         "Hz0iLFJO" = _Hz0iLFJO;
+        "mPwFHiAY" = _mPwFHiAY;
+        "GV0GT3Zz" = _GV0GT3Zz;
+        "IdxLt1QO" = _IdxLt1QO;
+        "oDNX5xzM" = _oDNX5xzM;
+        "CmztBlVp" = _CmztBlVp;
+        "40YLdx14" = _40YLdx14;
+        "lEWNi2CL" = _lEWNi2CL;
+        "spyYnci8" = _spyYnci8;
+        "7rDfv0cG" = _7rDfv0cG;
+        "JJks7O6K" = _JJks7O6K;
+        "LHuh7AcO" = _LHuh7AcO;
+        "bBACHAVg" = _bBACHAVg;
+        "FJ4oefDa" = _FJ4oefDa;
+        "LX4bo6Ta" = _LX4bo6Ta;
+        "8hcLmAFT" = _8hcLmAFT;
+        "gARytyEY" = _gARytyEY;
+        "GT0pGPaW" = _GT0pGPaW;
+        "Lxg1FpRH" = _Lxg1FpRH;
+        "peX6WGOc" = _peX6WGOc;
+        "TXMb5K8z" = _TXMb5K8z;
+        "IkUTcTm5" = _IkUTcTm5;
+        "Q60I28th" = _Q60I28th;
+        "abE8qqKP" = _abE8qqKP;
+        "PJwHAQV6" = _PJwHAQV6;
+        "75eTX1BX" = _75eTX1BX;
+        "4GKtCzR6" = _4GKtCzR6;
+        "PLSgXn8q" = _PLSgXn8q;
+        "3HGHnw2p" = _3HGHnw2p;
+        "r1rhjiOz" = _r1rhjiOz;
+        "ATrkYk7L" = _ATrkYk7L;
         "forge-1.18.2" = _CU9WGzLL;
         "forge-1.19" = _StEraYdJ;
         "forge-1.19.2" = _kho0qY3z;
         "forge-1.19.3" = _97a22j9D;
         "forge-1.19.4" = _K8wiqRX8;
-        "forge-1.20.1" = _RIczJDDC;
+        "forge-1.20.1" = _PJwHAQV6;
         "neoforge-1.20.4" = _wf4L0lCu;
         "neoforge-1.21" = _INXSDfG9;
-        "neoforge-1.21.1" = _HQAujdWb;
+        "neoforge-1.21.1" = _3HGHnw2p;
         "neoforge-1.21.4" = _gdf33Ob5;
         "neoforge-1.21.8" = _6vqcgMlG;
         "neoforge-1.21.10" = _UFjIZL3p;
         "neoforge-1.21.11" = _QT6VKd4x;
         "neoforge-26.1.1" = _bsHu7Apf;
-        "neoforge-26.1.2" = _mC9NdJDF;
-        "neoforge-26.2" = _Hz0iLFJO;
+        "neoforge-26.1.2" = _r1rhjiOz;
+        "neoforge-26.2" = _ATrkYk7L;
         "pkg-1.8.11" = _SeqgYOdy;
         "pkg-1.18.2-1.8.12" = _E7ViBXqS;
         "pkg-1.19-1.8.12" = _rvEF6hyi;
@@ -1431,7 +1611,37 @@ let
         "pkg-1.21.1-1.9.4-652" = _HQAujdWb;
         "pkg-26.1.2-1.9.6-653" = _mC9NdJDF;
         "pkg-26.2-1.9.6-654" = _Hz0iLFJO;
-        "default" = _Hz0iLFJO;
+        "pkg-1.21.1-1.9.4-659" = _mPwFHiAY;
+        "pkg-1.21.1-1.9.4-670" = _GV0GT3Zz;
+        "pkg-1.21.1-1.9.4-671" = _IdxLt1QO;
+        "pkg-26.1.2-1.9.6-672" = _oDNX5xzM;
+        "pkg-26.1.2-1.9.6-675" = _CmztBlVp;
+        "pkg-26.1.2-1.9.6-686" = _40YLdx14;
+        "pkg-26.1.2-1.9.6-690" = _lEWNi2CL;
+        "pkg-1.21.1-1.9.4-693" = _spyYnci8;
+        "pkg-1.20.1-1.10.0" = _7rDfv0cG;
+        "pkg-1.21.1-1.10.0" = _JJks7O6K;
+        "pkg-26.1.2-1.10.0" = _LHuh7AcO;
+        "pkg-26.2-1.9.6-701" = _bBACHAVg;
+        "pkg-1.21.1-1.10.0-706" = _FJ4oefDa;
+        "pkg-26.1.2-1.10.0-707" = _LX4bo6Ta;
+        "pkg-26.2-1.9.6-708" = _8hcLmAFT;
+        "pkg-1.21.1-1.10.0-709" = _gARytyEY;
+        "pkg-1.21.1-1.10.0-714" = _GT0pGPaW;
+        "pkg-1.21.1-1.10.0-719" = _Lxg1FpRH;
+        "pkg-1.21.1-1.10.0-729" = _peX6WGOc;
+        "pkg-1.21.1-1.10.0-736" = _TXMb5K8z;
+        "pkg-1.21.1-1.10.0-737" = _IkUTcTm5;
+        "pkg-26.1.2-1.10.0-738" = _Q60I28th;
+        "pkg-26.2-1.9.6-740" = _abE8qqKP;
+        "pkg-1.20.1-1.10.1" = _PJwHAQV6;
+        "pkg-26.1.2-1.11.0" = _75eTX1BX;
+        "pkg-26.2-1.9.6-747" = _4GKtCzR6;
+        "pkg-1.21.1-1.11.0" = _PLSgXn8q;
+        "pkg-1.21.1-1.11.0-750" = _3HGHnw2p;
+        "pkg-26.1.2-1.11.0-751" = _r1rhjiOz;
+        "pkg-26.2-1.9.6-752" = _ATrkYk7L;
+        "default" = _ATrkYk7L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "integrated-tunnels";

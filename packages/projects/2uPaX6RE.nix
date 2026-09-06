@@ -163,6 +163,7 @@ let
         "fabric-26.1" = _wOFgP4T0;
         "fabric-26.1.1" = _wOFgP4T0;
         "fabric-26.1.2" = _wOFgP4T0;
+        "fabric-26.2" = _wOFgP4T0;
         "quilt-1.20.1" = _vtwWXgad;
         "quilt-1.20.2-pre4" = _Jjp90A2r;
         "quilt-1.20.2-rc1" = _Jjp90A2r;
@@ -197,6 +198,7 @@ let
         "quilt-26.1" = _wOFgP4T0;
         "quilt-26.1.1" = _wOFgP4T0;
         "quilt-26.1.2" = _wOFgP4T0;
+        "quilt-26.2" = _wOFgP4T0;
         "pkg-1.0.0" = _iMklQ44W;
         "pkg-1.1.0-beta.1" = _Jjp90A2r;
         "pkg-1.1.0" = _zOoxZe1G;

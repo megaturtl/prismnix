@@ -71,6 +71,11 @@ let
             "file" = "create_balloon-1.0.9.jar";
             "hash" = "sha512-X2lYLa3Xyyl6ViH8yxZ9SEAm9DpTwyQje6ihHZcxXKkvHC4SLbUN2DItl3J7SHhvVPSXxAQP+hRUlD5hlX7jWw==";
         };
+        _Mclus5sv = {
+            "id" = "Mclus5sv";
+            "file" = "create_balloon-1.0.10.jar";
+            "hash" = "sha512-fTa+2oiuXoH2GszimRipR6NEBKjKvOMCnemhKjryVAmWvPDH2Gfr4NIwPMwwfudWPB9VxDHhAUgiUOzahrvdtQ==";
+        };
     in {
         "lHc0o709" = _lHc0o709;
         "krrQoQUA" = _krrQoQUA;
@@ -86,7 +91,8 @@ let
         "nG2qbCJC" = _nG2qbCJC;
         "UTQr44W6" = _UTQr44W6;
         "tqpdJN82" = _tqpdJN82;
-        "neoforge-1.21.1" = _tqpdJN82;
+        "Mclus5sv" = _Mclus5sv;
+        "neoforge-1.21.1" = _Mclus5sv;
         "pkg-1.0.0" = _lHc0o709;
         "pkg-1.0.1-Deprecated" = _krrQoQUA;
         "pkg-1.0.2" = _dRL3VZyA;
@@ -101,7 +107,8 @@ let
         "pkg-1.0.7p3" = _nG2qbCJC;
         "pkg-1.0.8" = _UTQr44W6;
         "pkg-1.0.9" = _tqpdJN82;
-        "default" = _tqpdJN82;
+        "pkg-1.0.10" = _Mclus5sv;
+        "default" = _Mclus5sv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-balloon";

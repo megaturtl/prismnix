@@ -111,6 +111,16 @@ let
             "file" = "expanded-bow-enchantings-1.10.jar";
             "hash" = "sha512-XvOVpWSEsjwHOOeJykMFbzDO2HKDR0Hh37FHGa164SfAjRJSvhmIWI57PsU8eh4T/nmVlNUKAYE1U3acMUILmw==";
         };
+        _8SoGhtIr = {
+            "id" = "8SoGhtIr";
+            "file" = "Expanded Bow Enchanting 26.2.zip";
+            "hash" = "sha512-bNdhCuK4CWSBkhragRdpd0Bd9gmgST2b1f5NwxgwvrdUDa/pLsgbwsFmSPEkgEw0VXf2GRun3VmI4I1/wnI3Lg==";
+        };
+        _ffLx0sbI = {
+            "id" = "ffLx0sbI";
+            "file" = "expanded-bow-enchantings-1.11.jar";
+            "hash" = "sha512-eiqEDCsBWKSer+3p08nJ2PL+DgeiGul8BFoLcQyFxVvs5OXYJjzMcxK6Zk08Rj+W4BGg7H1awYDl+o6K4YZxEg==";
+        };
     in {
         "L76PWbPE" = _L76PWbPE;
         "CiGk0Kxa" = _CiGk0Kxa;
@@ -134,6 +144,8 @@ let
         "pBb6uA7e" = _pBb6uA7e;
         "1uztoGxI" = _1uztoGxI;
         "hBiH3WBM" = _hBiH3WBM;
+        "8SoGhtIr" = _8SoGhtIr;
+        "ffLx0sbI" = _ffLx0sbI;
         "datapack-1.21" = _L76PWbPE;
         "datapack-1.21.1" = _L76PWbPE;
         "datapack-1.21.2" = _8ZFi5m2x;
@@ -149,6 +161,7 @@ let
         "datapack-26.1" = _1uztoGxI;
         "datapack-26.1.1" = _1uztoGxI;
         "datapack-26.1.2" = _1uztoGxI;
+        "datapack-26.2" = _8SoGhtIr;
         "fabric-1.21" = _CiGk0Kxa;
         "fabric-1.21.1" = _CiGk0Kxa;
         "fabric-1.21.2" = _VUp1fcw0;
@@ -164,6 +177,7 @@ let
         "fabric-26.1" = _hBiH3WBM;
         "fabric-26.1.1" = _hBiH3WBM;
         "fabric-26.1.2" = _hBiH3WBM;
+        "fabric-26.2" = _ffLx0sbI;
         "forge-1.21" = _CiGk0Kxa;
         "forge-1.21.1" = _CiGk0Kxa;
         "forge-1.21.2" = _VUp1fcw0;
@@ -179,6 +193,7 @@ let
         "forge-26.1" = _hBiH3WBM;
         "forge-26.1.1" = _hBiH3WBM;
         "forge-26.1.2" = _hBiH3WBM;
+        "forge-26.2" = _ffLx0sbI;
         "neoforge-1.21" = _CiGk0Kxa;
         "neoforge-1.21.1" = _CiGk0Kxa;
         "neoforge-1.21.2" = _VUp1fcw0;
@@ -194,6 +209,7 @@ let
         "neoforge-26.1" = _hBiH3WBM;
         "neoforge-26.1.1" = _hBiH3WBM;
         "neoforge-26.1.2" = _hBiH3WBM;
+        "neoforge-26.2" = _ffLx0sbI;
         "quilt-1.21" = _CiGk0Kxa;
         "quilt-1.21.1" = _CiGk0Kxa;
         "quilt-1.21.2" = _VUp1fcw0;
@@ -209,6 +225,7 @@ let
         "quilt-26.1" = _hBiH3WBM;
         "quilt-26.1.1" = _hBiH3WBM;
         "quilt-26.1.2" = _hBiH3WBM;
+        "quilt-26.2" = _ffLx0sbI;
         "pkg-1.0" = _L76PWbPE;
         "pkg-1.0.1+mod" = _CiGk0Kxa;
         "pkg-1.1" = _8ZFi5m2x;
@@ -231,7 +248,9 @@ let
         "pkg-1.9.1+mod" = _pBb6uA7e;
         "pkg-1.10" = _1uztoGxI;
         "pkg-1.10.1+mod" = _hBiH3WBM;
-        "default" = _hBiH3WBM;
+        "pkg-1.11" = _8SoGhtIr;
+        "pkg-1.11.1+mod" = _ffLx0sbI;
+        "default" = _ffLx0sbI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "expanded-bow-enchantings";

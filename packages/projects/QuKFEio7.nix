@@ -96,6 +96,16 @@ let
             "file" = "trails-and-trips-26.1v1-mod.jar";
             "hash" = "sha512-S23XRFPAmCypWY9CblWYYaZLbbsKoJWUWgBGz/NCsmyLHbZmJvHK5H7d+F6CWZuNWSpZyN80bujPWxyrp6/bYA==";
         };
+        _QNtkO8tm = {
+            "id" = "QNtkO8tm";
+            "file" = "trails-and-trips-26.2v2-dp.zip";
+            "hash" = "sha512-IyfUEJErCSmWhdyLDvI1jJAJJkKKhprJpP4WiZ3WFqUFWADuPQMMOT8l+MYss1mS25u6YmS3Le63qm+mUH7DzA==";
+        };
+        _BUv758rX = {
+            "id" = "BUv758rX";
+            "file" = "trails-and-trips-26.2v2-mod.jar";
+            "hash" = "sha512-fyxP8XA/syJ3GWYEsDzgPR/3bV/NO/devlOcPbkFobCUV+i7FpBbdVmH5WzCzxqNopjQF688fmgO8Zl7Br4vpA==";
+        };
     in {
         "nQ9ScRxe" = _nQ9ScRxe;
         "s4K2crvt" = _s4K2crvt;
@@ -116,6 +126,8 @@ let
         "fDEbr4tP" = _fDEbr4tP;
         "HsEHXSre" = _HsEHXSre;
         "XhUh1TaD" = _XhUh1TaD;
+        "QNtkO8tm" = _QNtkO8tm;
+        "BUv758rX" = _BUv758rX;
         "datapack-1.20" = _nQ9ScRxe;
         "datapack-1.20.1" = _nQ9ScRxe;
         "datapack-1.20.2" = _s4K2crvt;
@@ -136,6 +148,7 @@ let
         "datapack-26.1" = _HsEHXSre;
         "datapack-26.1.1" = _HsEHXSre;
         "datapack-26.1.2" = _HsEHXSre;
+        "datapack-26.2" = _QNtkO8tm;
         "fabric-1.21" = _zi3lKbb5;
         "fabric-1.21.1" = _zi3lKbb5;
         "fabric-1.21.2" = _muZeFBNd;
@@ -151,6 +164,7 @@ let
         "fabric-26.1" = _XhUh1TaD;
         "fabric-26.1.1" = _XhUh1TaD;
         "fabric-26.1.2" = _XhUh1TaD;
+        "fabric-26.2" = _BUv758rX;
         "forge-1.21" = _zi3lKbb5;
         "forge-1.21.1" = _zi3lKbb5;
         "forge-1.21.2" = _muZeFBNd;
@@ -166,6 +180,7 @@ let
         "forge-26.1" = _XhUh1TaD;
         "forge-26.1.1" = _XhUh1TaD;
         "forge-26.1.2" = _XhUh1TaD;
+        "forge-26.2" = _BUv758rX;
         "neoforge-1.21" = _zi3lKbb5;
         "neoforge-1.21.1" = _zi3lKbb5;
         "neoforge-1.21.2" = _muZeFBNd;
@@ -181,6 +196,7 @@ let
         "neoforge-26.1" = _XhUh1TaD;
         "neoforge-26.1.1" = _XhUh1TaD;
         "neoforge-26.1.2" = _XhUh1TaD;
+        "neoforge-26.2" = _BUv758rX;
         "quilt-1.21" = _zi3lKbb5;
         "quilt-1.21.1" = _zi3lKbb5;
         "quilt-1.21.2" = _muZeFBNd;
@@ -196,6 +212,7 @@ let
         "quilt-26.1" = _XhUh1TaD;
         "quilt-26.1.1" = _XhUh1TaD;
         "quilt-26.1.2" = _XhUh1TaD;
+        "quilt-26.2" = _BUv758rX;
         "pkg-v1.1" = _nQ9ScRxe;
         "pkg-v1.2" = _s4K2crvt;
         "pkg-v1.2.1" = _I4EwmPpe;
@@ -215,7 +232,9 @@ let
         "pkg-v2.0-mod" = _fDEbr4tP;
         "pkg-26.1v1-dp" = _HsEHXSre;
         "pkg-26.1v1-mod" = _XhUh1TaD;
-        "default" = _XhUh1TaD;
+        "pkg-26.2v2-dp" = _QNtkO8tm;
+        "pkg-26.2v2-mod" = _BUv758rX;
+        "default" = _BUv758rX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trails-and-trips";

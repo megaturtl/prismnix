@@ -91,6 +91,11 @@ let
             "file" = "spookypaintingsleon 1.0.0 Neoforge 26.2.jar";
             "hash" = "sha512-7FSxZicGndatHN1IPwilCX/S3c1lrgBZDwJUNibbhf6+VnHJflFdCD1MgHQcvVoWbwv3BFmM57xjReX6A2fxkw==";
         };
+        _tt7HMnyT = {
+            "id" = "tt7HMnyT";
+            "file" = "spooky-paintings-1.0.0 Fabric 1.21.1.jar";
+            "hash" = "sha512-l9vmkML199UKkmmv6KLfiXamYeH86yNR3gwq5jLH0QlDbrG+NZFBRby4lHFgRILpnIe9fkjdBz8oyKBwolacHw==";
+        };
     in {
         "ZV8OANQJ" = _ZV8OANQJ;
         "JtvXDwKZ" = _JtvXDwKZ;
@@ -110,6 +115,7 @@ let
         "56s0IMhP" = _56s0IMhP;
         "8W1RzncJ" = _8W1RzncJ;
         "OKDvNm1O" = _OKDvNm1O;
+        "tt7HMnyT" = _tt7HMnyT;
         "forge-1.19.4" = _JtvXDwKZ;
         "forge-1.20.1" = _FApjbC5m;
         "forge-1.19.2" = _X7ceRybI;
@@ -129,11 +135,12 @@ let
         "fabric-26.1.1" = _qJGXcc9R;
         "fabric-26.1.2" = _qJGXcc9R;
         "fabric-26.2" = _8W1RzncJ;
-        "pkg-1.0.0" = _OKDvNm1O;
+        "fabric-1.21.1" = _tt7HMnyT;
+        "pkg-1.0.0" = _tt7HMnyT;
         "pkg-2.0.0" = _hn6D6Pwl;
         "pkg-2.1.1" = _HuTH6xjY;
         "pkg-2.1.0" = _SIMNvlgv;
-        "default" = _OKDvNm1O;
+        "default" = _tt7HMnyT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "leons-spooky-paintings";

@@ -16,15 +16,23 @@ let
             "file" = "dew_drop_daily_weather-1.1.1.jar";
             "hash" = "sha512-ZDO2va0yKkjdK4nl+oK2xTMgFzDkRRe7aALAc5YdT1PAUVsdNq62trwgqWpC1m6rBDAqE3ByAMX68iGtkRDgOA==";
         };
+        _Smxs2H4C = {
+            "id" = "Smxs2H4C";
+            "file" = "dew_drop_daily_weather-1.1.1-1.21.1.jar";
+            "hash" = "sha512-GfDdXf+GpOW8JnILbmGHNpfx9r/jhxfnWJkTo0BZSjY9YLRdcKRPnp5dW3xwQaRBnWFakpG/9B/gLGm9CKUE4g==";
+        };
     in {
         "RmEsHMBw" = _RmEsHMBw;
         "d1fBK9wQ" = _d1fBK9wQ;
         "RZrtnjL4" = _RZrtnjL4;
+        "Smxs2H4C" = _Smxs2H4C;
         "forge-1.20.1" = _RZrtnjL4;
+        "neoforge-1.21.1" = _Smxs2H4C;
         "pkg-1.0" = _RmEsHMBw;
         "pkg-1.1" = _d1fBK9wQ;
         "pkg-1.1.1" = _RZrtnjL4;
-        "default" = _RZrtnjL4;
+        "pkg-1.1.1-1.21.1" = _Smxs2H4C;
+        "default" = _Smxs2H4C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "daily-weather";

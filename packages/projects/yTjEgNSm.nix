@@ -141,6 +141,26 @@ let
             "file" = "wavify-1.1.2.jar";
             "hash" = "sha512-ID0PBwyjn1IqNSnRqjHW63kUCXtl9k8n2OK88v51Tp+0sLqf4oJDUSEiwzX/9B6UOypUx9/9PnoFEfZVfXFK2A==";
         };
+        _eUIzzVIG = {
+            "id" = "eUIzzVIG";
+            "file" = "wavify-1.1.2.jar";
+            "hash" = "sha512-bBVebXSjBKIv9Pu2hGvFgvCsv8VeiCj9LPKNXYoAbvqgo0U4kEM6P080T3QEpeGpzGnKDkBzMKcYWAEJxGUfrQ==";
+        };
+        _bH0LMe4O = {
+            "id" = "bH0LMe4O";
+            "file" = "wavify-1.1.2.jar";
+            "hash" = "sha512-n6mO3lSIUo+Peyx9Beig9t5Qs8YhlZ9cc50NFrxw3xi2QBitBxW+ytuabF50su3YpmMUzEG77xxiKPkejSl8wA==";
+        };
+        _z0db7IcT = {
+            "id" = "z0db7IcT";
+            "file" = "wavify-1.1.2.jar";
+            "hash" = "sha512-G3JLAL+3wy7IhNFt+mJGU6oCfyNcNNWyNm6f8wcvNfyNXSSgyJ852gDc8qUeHKubUHOLHBSmTakvfCDhG3UQOQ==";
+        };
+        _ZHdG0pD6 = {
+            "id" = "ZHdG0pD6";
+            "file" = "wavify-1.1.2.jar";
+            "hash" = "sha512-Kv/GZfw5uv7ZJRfNIIgDD6AeqSm7ElUbvb7OJtjMbfYwIvwvv7Wp2xx6zkGq+sW6WbmRk7W7GVG+AingfdNO+w==";
+        };
     in {
         "4buaGnEn" = _4buaGnEn;
         "NoYzQQPU" = _NoYzQQPU;
@@ -170,22 +190,28 @@ let
         "uMUQm8uh" = _uMUQm8uh;
         "XHOlw1eo" = _XHOlw1eo;
         "OMoO25VK" = _OMoO25VK;
+        "eUIzzVIG" = _eUIzzVIG;
+        "bH0LMe4O" = _bH0LMe4O;
+        "z0db7IcT" = _z0db7IcT;
+        "ZHdG0pD6" = _ZHdG0pD6;
         "fabric-26.1.2" = _AGGFHXwm;
         "fabric-1.21.11" = _XHOlw1eo;
-        "fabric-1.21.1" = _baLIpFrh;
+        "fabric-1.21.1" = _eUIzzVIG;
         "fabric-26.2" = _uMUQm8uh;
+        "fabric-1.20.1" = _ZHdG0pD6;
         "neoforge-26.1.2" = _qii7suP9;
         "neoforge-1.21.11" = _59uPt4pc;
         "neoforge-1.21.1" = _OMoO25VK;
-        "forge-1.20.1" = _jBZQvZB9;
+        "neoforge-26.2" = _bH0LMe4O;
+        "forge-1.20.1" = _z0db7IcT;
         "pkg-1.0.0" = _4buaGnEn;
         "pkg-1.0.1" = _NoYzQQPU;
         "pkg-1.0.2" = _Dnt29iLs;
         "pkg-1.0.3" = _K75JLjMB;
         "pkg-1.1.0" = _WHHBG272;
         "pkg-1.1.1" = _uMUQm8uh;
-        "pkg-1.1.2" = _OMoO25VK;
-        "default" = _OMoO25VK;
+        "pkg-1.1.2" = _ZHdG0pD6;
+        "default" = _ZHdG0pD6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wavify";

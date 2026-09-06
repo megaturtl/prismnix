@@ -26,23 +26,37 @@ let
             "file" = "MCT-RS-Mixin-1.20.1-1.1.0-b420-release.jar";
             "hash" = "sha512-5kkIUpfby4pgGf8HsRZihCn8Gb1RlB7Nqyj5MMX+KrlYyNHPN/e6c8u3+v9mbbmHijJk/cqsx/XzJq5BkTNR+A==";
         };
+        _ggwiyoHu = {
+            "id" = "ggwiyoHu";
+            "file" = "MCT-RS-Mixin-1.12.2-1.0.23-release.jar";
+            "hash" = "sha512-lzaIyNZR1vVAPQy2K7xTrhsoBlU8C1Wptx6WgvsTR4CcBjMID0I8YuOsHGoH5mPczkDQqH0u1M4ugaKtDL9vlA==";
+        };
+        _vgKRe3UA = {
+            "id" = "vgKRe3UA";
+            "file" = "MCT-RS-Mixin-1.20.1-1.1.0-b431-release.jar";
+            "hash" = "sha512-Eg6xIIm9Zvi2gClI64F+KLnVoC4muqL8OsA0KLmBEeDeN51gIGmfnd7yGGFkzpfq1TsAwAvKDp/VjbQec6pTYg==";
+        };
     in {
         "34zUr1lG" = _34zUr1lG;
         "nyvHBlza" = _nyvHBlza;
         "Dc3OEs8T" = _Dc3OEs8T;
         "5XlbSkck" = _5XlbSkck;
         "Ora4lxcp" = _Ora4lxcp;
-        "forge-1.20.1" = _Ora4lxcp;
-        "forge-1.12.2" = _5XlbSkck;
+        "ggwiyoHu" = _ggwiyoHu;
+        "vgKRe3UA" = _vgKRe3UA;
+        "forge-1.20.1" = _vgKRe3UA;
+        "forge-1.12.2" = _ggwiyoHu;
         "pkg-1.0.0-b400-release" = _34zUr1lG;
         "pkg-1.1.0-b412-release" = _nyvHBlza;
         "pkg-1.0.17-release" = _Dc3OEs8T;
         "pkg-1.0.21-release" = _5XlbSkck;
         "pkg-1.1.0-b420-release" = _Ora4lxcp;
-        "default" = _Ora4lxcp;
+        "pkg-1.0.23-release" = _ggwiyoHu;
+        "pkg-1.1.0-b431-release" = _vgKRe3UA;
+        "default" = _vgKRe3UA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
-        name = "refined-storage-mixin";
+        name = "mct-refined-storage-mixin";
         id = "OHdWexoI";
         type = "mod";
         versions = versions;

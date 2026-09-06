@@ -16,15 +16,22 @@ let
             "file" = "createendergateway-1.1.1.jar";
             "hash" = "sha512-f4ZqFq2tkJThF0dEKz25gZrjdLSjUjqgvNnmlh15gBUe4yYIKf4qtLj7yRm/G6ilQvvj06CLKPUnzv1zVEkwsA==";
         };
+        _oikoY96o = {
+            "id" = "oikoY96o";
+            "file" = "createendergateway-1.2.0.jar";
+            "hash" = "sha512-w+PDgIeL9Bqwe4uOZ9Od0bsZ2cdp2gR/uXrNdL4DD5pU0SEtv+XST8op8noMIE26Xkwn5yISzBZS/YOX1aCNqw==";
+        };
     in {
         "kZ2AB07Q" = _kZ2AB07Q;
         "xRjv5ers" = _xRjv5ers;
         "VfxSTFHt" = _VfxSTFHt;
-        "neoforge-1.21.1" = _VfxSTFHt;
+        "oikoY96o" = _oikoY96o;
+        "neoforge-1.21.1" = _oikoY96o;
         "pkg-1.0.0" = _kZ2AB07Q;
         "pkg-1.1.0" = _xRjv5ers;
         "pkg-1.1.1" = _VfxSTFHt;
-        "default" = _VfxSTFHt;
+        "pkg-1.2.0" = _oikoY96o;
+        "default" = _oikoY96o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-ender-gateway";

@@ -161,6 +161,51 @@ let
             "file" = "edm-26.5.0-neoforge-26.1.2.jar";
             "hash" = "sha512-XBEbfnZn3NjsawNs7Oskg5PTO+kUaY1ujQopX12pAJ2tNA/MvEm4ZFzhgkgq/URrCmAGC3q74jpWDuBR0YUwnw==";
         };
+        _9WKL6lgW = {
+            "id" = "9WKL6lgW";
+            "file" = "edm-26.8-fabric-1.20.1.jar";
+            "hash" = "sha512-KBYyvHJxmqngV+qMoT0MMZTD6ikPcSWAU8PRkEly8fosnu5Ma3DlgLrEN4zyginIJseRWFLXT5YYSUFoBj8GVw==";
+        };
+        _E9xdmDqG = {
+            "id" = "E9xdmDqG";
+            "file" = "electronic-device-mod-26.8.jar";
+            "hash" = "sha512-UeMAHgo4rAQ9KBFQIOKKvPV4TU4eWmq/d7j0gbTaY0WwevuuFTW64r2bXM42lEP8ZmaHyTHsa8s1LJegpCmJew==";
+        };
+        _k9vSkd8p = {
+            "id" = "k9vSkd8p";
+            "file" = "edm-26.8-fabric-1.21.1.jar";
+            "hash" = "sha512-0o/vca2rx9NN1mw1pdf7ibjXfAO397TCWzvkZdH21IvNVMzEwmR5eo9jaDd4RBoAJnLIqnFldQGslRzaXUweMg==";
+        };
+        _2AwXI2X2 = {
+            "id" = "2AwXI2X2";
+            "file" = "edm-26.8-neoforge-1.21.1.jar";
+            "hash" = "sha512-qYQ6TnTKrSpSPZ1pYqz9qwbeiZXmqjBnhYyZsfzGlnb7I742TrsujF8+qQnyG/cSWeHckXJvg8nccATHZqlqOw==";
+        };
+        _RgzOJJJ1 = {
+            "id" = "RgzOJJJ1";
+            "file" = "edm-26.8-fabric-1.21.11.jar";
+            "hash" = "sha512-kLlvplYDHCPluMPg/tQ1bsfnA5ISr4XU+annrKKz0s2glWt//NyZN1F1wDnhngIkqdZv5yEg8nw0JPSH98sVmg==";
+        };
+        _PY9PYt9i = {
+            "id" = "PY9PYt9i";
+            "file" = "edm-26.8-neoforge-1.21.11.jar";
+            "hash" = "sha512-aiHvH4ogGNwI05A3KMw+y3Fo1DsxoNxCav0DKc0NgY1N8nD0LGd8YNHRd45RsGxGXZbhzv55MlKCGeah3e+ezg==";
+        };
+        _eKCzlxd0 = {
+            "id" = "eKCzlxd0";
+            "file" = "edm-26.8-fabric-26.1.2.jar";
+            "hash" = "sha512-loF58FG9JEBBBM8nPOFjk+346B3/PDVvRBKCdpJoHC4TS9/fbM9qiOSFFqeiCBusFYaOKISujgPbMDbLJR4F+A==";
+        };
+        _cTaaEuZP = {
+            "id" = "cTaaEuZP";
+            "file" = "edm-26.8-neoforge-26.1.2.jar";
+            "hash" = "sha512-ubN0Jn4j903/MfbDSektogbEvr5MTE4Umosv5Van3OsaoNrnakQpfRdMh0QGMOsmEKeaE1z8TD4FWg1nBcqtUQ==";
+        };
+        _uicxZnRW = {
+            "id" = "uicxZnRW";
+            "file" = "edm-26.8-fabric-26.2.jar";
+            "hash" = "sha512-JMCRayTtz+/EG6o5BynLJkMgGsup3SdXnVKodegAgPxuwCeOK1DcqAg7hAmKmvwjMcsdmC4B2nzUD4Cc/nMmTw==";
+        };
     in {
         "TQOsQ7mw" = _TQOsQ7mw;
         "tdo7PeFE" = _tdo7PeFE;
@@ -194,29 +239,41 @@ let
         "SgDNMc5V" = _SgDNMc5V;
         "c23AkbZa" = _c23AkbZa;
         "JSKUNvS8" = _JSKUNvS8;
-        "forge-1.20.1" = _dzuV4tUY;
+        "9WKL6lgW" = _9WKL6lgW;
+        "E9xdmDqG" = _E9xdmDqG;
+        "k9vSkd8p" = _k9vSkd8p;
+        "2AwXI2X2" = _2AwXI2X2;
+        "RgzOJJJ1" = _RgzOJJJ1;
+        "PY9PYt9i" = _PY9PYt9i;
+        "eKCzlxd0" = _eKCzlxd0;
+        "cTaaEuZP" = _cTaaEuZP;
+        "uicxZnRW" = _uicxZnRW;
+        "forge-1.20.1" = _E9xdmDqG;
         "forge-1.19.4" = _IruWJOhp;
         "forge-1.19.2" = _6V115QgK;
         "forge-1.14.4" = _yQWYjRoN;
         "forge-1.16.5" = _ymRChxPe;
         "neoforge-1.20.6" = _Rjiumbfy;
         "neoforge-1.20.4" = _mboZPTkr;
-        "neoforge-1.21.1" = _gpK0ifvn;
+        "neoforge-1.21.1" = _2AwXI2X2;
         "neoforge-1.21.4" = _Y9g60Zr3;
         "neoforge-1.21.8" = _HSlyPkrl;
-        "neoforge-26.1.2" = _JSKUNvS8;
-        "fabric-1.20.1" = _OWeaFF7V;
+        "neoforge-26.1.2" = _cTaaEuZP;
+        "neoforge-1.21.11" = _PY9PYt9i;
+        "fabric-1.20.1" = _9WKL6lgW;
         "fabric-1.21.8" = _K6tXo6br;
-        "fabric-1.21.1" = _m4VdtMwI;
-        "fabric-1.21.11" = _SgDNMc5V;
-        "fabric-26.1.2" = _c23AkbZa;
+        "fabric-1.21.1" = _k9vSkd8p;
+        "fabric-1.21.11" = _RgzOJJJ1;
+        "fabric-26.1.2" = _eKCzlxd0;
+        "fabric-26.2" = _uicxZnRW;
         "pkg-0.1.2" = _TQOsQ7mw;
         "pkg-0.1.4" = _tdo7PeFE;
         "pkg-0.2.1" = _OcVmeThY;
         "pkg-25.7.1" = _h57iDgyo;
         "pkg-25.9.1" = _USUCi7IX;
         "pkg-26.5.0" = _JSKUNvS8;
-        "default" = _JSKUNvS8;
+        "pkg-26.8" = _uicxZnRW;
+        "default" = _uicxZnRW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "edm";

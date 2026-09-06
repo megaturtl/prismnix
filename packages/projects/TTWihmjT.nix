@@ -121,6 +121,156 @@ let
             "file" = "Skysoft-0.1.11-mc26.2.jar";
             "hash" = "sha512-h2ldNJZSw14YK7YrxEk1gbaMUN434leDmYbuGxpAhCna3dE2+qiR/hoWicxHTkPSLxixwuknXC5DVx4DfQTyNA==";
         };
+        _NIidztZJ = {
+            "id" = "NIidztZJ";
+            "file" = "Skysoft-0.1.12-mc26.1.jar";
+            "hash" = "sha512-ZYNVQVRd86FBD3KxmxAg+uG2M46Y205HqzuJBFJjfnVIIxa+X2tJs0qMfceOh4xjYZh7j9jWCeJjbZ0XbCVD5Q==";
+        };
+        _2bKZ9mTe = {
+            "id" = "2bKZ9mTe";
+            "file" = "Skysoft-0.1.12-mc26.2.jar";
+            "hash" = "sha512-BYnkF0VhjCxEtDJPFY+zOUW/agnavM75c3/oEwRZWuc4UB2QnXo8P/huZC1Gz8xL/8ADb33YtaoFOx5eoi2egA==";
+        };
+        _uadSr1L8 = {
+            "id" = "uadSr1L8";
+            "file" = "Skysoft-0.1.13-mc26.1.jar";
+            "hash" = "sha512-6l3dJWion1IcFdlMW71T86yPbTzM4IEa3rCZcnOGaf+1kZ6bXgRpj+0jtPoGeABv84aRBEnROJjsNSmLX+FVSA==";
+        };
+        _Zbu2cv1O = {
+            "id" = "Zbu2cv1O";
+            "file" = "Skysoft-0.1.13-mc26.2.jar";
+            "hash" = "sha512-EhOsbWAl1HIn4ouCLIGedRj5JocuO6jHzezaocNxcH/AcGzqnJPv7cwxiZLpEs3ocZodmFTMOgT4d6y2DoVH+Q==";
+        };
+        _mB5ousMT = {
+            "id" = "mB5ousMT";
+            "file" = "Skysoft-0.1.14-mc26.1.jar";
+            "hash" = "sha512-YjSqdfP+kKJkgVHfXSgsAM0U2q/POlSmCMYBRpXAndQWJhH4aJJvKl4DradevPBsxHTA8ni+OpiuQZr5LYrn+A==";
+        };
+        _1dv81ZHw = {
+            "id" = "1dv81ZHw";
+            "file" = "Skysoft-0.1.14-mc26.2.jar";
+            "hash" = "sha512-DpyWSxgfYfZEwylqOWgWJCgGviyjYZXu+IuMBGxKZUZ87FdqMMqPkFhxEmq6i2eP+qYZgQlSO6dC0AEWIEQnTw==";
+        };
+        _XA4I8ROD = {
+            "id" = "XA4I8ROD";
+            "file" = "Skysoft-0.1.15-mc26.1.jar";
+            "hash" = "sha512-AKeokO39bNjnOMTY6gk7Vd1YHtsG26t37ZfOulyRsSFmdPwW0Fepgu9Dk7/l1WgBXNpVN+CXqq1nECSGy2wFFg==";
+        };
+        _ZP95BWhv = {
+            "id" = "ZP95BWhv";
+            "file" = "Skysoft-0.1.15-mc26.2.jar";
+            "hash" = "sha512-DJ/PkjHcND6QorWrTMKm96qf2F6JGJcz4R7yCM01FpSqgUk4XP9jUVSvPd+lii6CGaO7Mha/CHxJKJ8mOqeDUA==";
+        };
+        _BoEpdkgu = {
+            "id" = "BoEpdkgu";
+            "file" = "Skysoft-0.1.16-mc26.1.jar";
+            "hash" = "sha512-h/5LYnDsZ0SpQ/vst4pdZHCoPEXfHa1kUAze79vaZTyyivQVy2JYiwujJ0cTdaiYD3FuZWcWbDp6441dTdd/QQ==";
+        };
+        _74JSkqFO = {
+            "id" = "74JSkqFO";
+            "file" = "Skysoft-0.1.16-mc26.2.jar";
+            "hash" = "sha512-kdDiQeTolKp/JENlMsGBac0tlEriegixnPI3zlNB2OD2n3RlhskvG83CgJLZfO88jS0BeR3rZjBqOAQTsBRTVQ==";
+        };
+        _homl1zUw = {
+            "id" = "homl1zUw";
+            "file" = "Skysoft-0.1.17-mc26.1.jar";
+            "hash" = "sha512-6rEUygnkbzor0gFz0lOqYtiXID45alPxA5gouHbh86vPe7atEJ+bt5lNphT8Lpe4VrDbHFejSweeHTsbBuz6TA==";
+        };
+        _zZJIrk2l = {
+            "id" = "zZJIrk2l";
+            "file" = "Skysoft-0.1.17-mc26.2.jar";
+            "hash" = "sha512-x089TjTzXXg0XcPKDxZAwW0pZjt6FKR04R0QMAsA+5PCOsvY9RqBRaLOR2cCJ249Kx8aB2T3qZFTbUnT+bqugw==";
+        };
+        _dYeH7CKp = {
+            "id" = "dYeH7CKp";
+            "file" = "Skysoft-0.1.18-mc26.1.jar";
+            "hash" = "sha512-Ve57uxBU5XYTLlB4iKqdA6VarB+6EUnhWuVDZks0bcKOEr/CDq7mL/29QexxOTh60jF3jnKgRW0bOKL5YbUjHA==";
+        };
+        _z0FU7HGh = {
+            "id" = "z0FU7HGh";
+            "file" = "Skysoft-0.1.18-mc26.2.jar";
+            "hash" = "sha512-7l5dfLImS99zydUAeppXU1QUs9h/VBd/n3IfyKJ5uEfWqPLBP9jwUaS54bCEZCZATOv+7EF/Fu+OqNhOffIL2w==";
+        };
+        _GPv8ZuNQ = {
+            "id" = "GPv8ZuNQ";
+            "file" = "Skysoft-0.1.19-mc26.2.jar";
+            "hash" = "sha512-xO9fWPYmEI5klduS4zGWHoAqre0gTSC7MxZSZfYTATySHANAApJdmg/nRQwHIqpoktskCEo9gvTBBO2ifFqG3g==";
+        };
+        _Uv62ms8z = {
+            "id" = "Uv62ms8z";
+            "file" = "Skysoft-0.1.19-mc26.1.jar";
+            "hash" = "sha512-UJG0KgK+blOiSyd2OIByGsIDPE7dfZD8jeMzgZcp9YPifsOmcBR2qsqlXE/72YGT4My8stsfmQGiy6dElf+r2g==";
+        };
+        _8zjMqWnU = {
+            "id" = "8zjMqWnU";
+            "file" = "Skysoft-0.1.20-mc26.1.jar";
+            "hash" = "sha512-C0uvVSCNMm4mjWh4H9Hdi6ZcvgR19cb2dieYCdUDkUNXcZxyi94Y2ReFWesrWvStb7srXz1czzsatvhveU4ayA==";
+        };
+        _FbF4B8ix = {
+            "id" = "FbF4B8ix";
+            "file" = "Skysoft-0.1.20-mc26.2.jar";
+            "hash" = "sha512-6wCGF1GUxNAPJ6+ChtzF4EkDDL0z3L/smIM41xUXamo2tZwbKHVnsngRmi8KWmQ6fFw9+0xJ21i46g3hVyRNYA==";
+        };
+        _fkADLC43 = {
+            "id" = "fkADLC43";
+            "file" = "Skysoft-0.1.21-mc26.1.jar";
+            "hash" = "sha512-C5TzXDpW9uMREDZux8ZDPRYxwJYq44XXUltlmPhY/ScYCWWs4yticcRW9Ya4Hat/LNtlnVSpqAFqvRRfzkFoZg==";
+        };
+        _UYzE9Cpb = {
+            "id" = "UYzE9Cpb";
+            "file" = "Skysoft-0.1.21-mc26.2.jar";
+            "hash" = "sha512-pH2vNEUG7BIgJ3ILQCM5zJ/7xK1F6kLKUSNeJ4R6PHZ2Y8BIzmOhQUJgzAKf6vIQjGzEhOr4+3COGcQaSe0Nnw==";
+        };
+        _5tWizolq = {
+            "id" = "5tWizolq";
+            "file" = "Skysoft-0.1.22-mc26.1.jar";
+            "hash" = "sha512-qmXxTb0GTjBJZpO+7TkmoNypEcJCQHKEyMspeIqaUG9fvhYv25mI6wkBTSw/uwCIvejXqK/ItAjwc+mXSfSM2g==";
+        };
+        _EHfJMrpy = {
+            "id" = "EHfJMrpy";
+            "file" = "Skysoft-0.1.22-mc26.2.jar";
+            "hash" = "sha512-aGh+j2yAI7Fl3FsB5GxKzMTgZXgRsEVkVqcbYYqJIxNeTtDR+wVnvqXbkVPFJczNB/bJbCQD5PsH59BtDuT1vA==";
+        };
+        _EM8SG4ok = {
+            "id" = "EM8SG4ok";
+            "file" = "Skysoft-0.1.23-mc26.1.jar";
+            "hash" = "sha512-8qKw8YjGBL3oogXZ1+tnxt16NQH2fgIszJAXbt7qJLaJ+rXka2Ef6Q8/d3KPWM4um1yUd5woF8kwx18tCc1mtQ==";
+        };
+        _WS9TOLfV = {
+            "id" = "WS9TOLfV";
+            "file" = "Skysoft-0.1.23-mc26.2.jar";
+            "hash" = "sha512-S1aldZqFEXgL2FKocd/UDbJDWyL9xXN66Q61EOyRphARbDS1iSeDA5sZfJp5ilFK5T8aR87pMRxcLkDEFvUvwA==";
+        };
+        _6fJAWziR = {
+            "id" = "6fJAWziR";
+            "file" = "Skysoft-0.1.24-mc26.1.jar";
+            "hash" = "sha512-xNenyKYsUd8oh6eQ6hjqZbK0srdc3YaFCaYnnCARU1XJ1v0z3MRUDtcC4EOIKka19i1+VsEqpzyyaF9UTr1ibQ==";
+        };
+        _kw94RNFJ = {
+            "id" = "kw94RNFJ";
+            "file" = "Skysoft-0.1.24-mc26.2.jar";
+            "hash" = "sha512-XBjlfvHz/XhtPByBkLoi6wH5rlEKLmekzSz27EDRrplEQNqZjRF+9/B+C7Ha+mryKFiDjrKc8fXNiF9+OiUhpw==";
+        };
+        _wKPvwqRs = {
+            "id" = "wKPvwqRs";
+            "file" = "Skysoft-0.1.25-mc26.1.jar";
+            "hash" = "sha512-LzF7Uhqep2GWvJm7y/yZO0iiH9rBrrXffUYrE4neBgxZJTH3ZAxipSmVBmJaBLiSZHZ9fqdvD76u0qqHGBBR/w==";
+        };
+        _YfgHwjTY = {
+            "id" = "YfgHwjTY";
+            "file" = "Skysoft-0.1.25-mc26.2.jar";
+            "hash" = "sha512-AXQkff/5YOpG1rx731oHxfEN6ieUdtfqWQjhZUuCjrPmP4HV6Inw5eSfvGvJ+w5MFTHo6eyv8BKk2aIcjfvYBg==";
+        };
+        _cL6veiy0 = {
+            "id" = "cL6veiy0";
+            "file" = "Skysoft-0.1.26-mc26.1.jar";
+            "hash" = "sha512-N19jlxVeQiOzBGeWhscOqZPqw0we9y/YGUnMMB4ecOy8/C7vbwhIwqoSGTvEGvSFESFuuz68nxITOxDLZ6Xfmg==";
+        };
+        _zPJuTMB3 = {
+            "id" = "zPJuTMB3";
+            "file" = "Skysoft-0.1.26-mc26.2.jar";
+            "hash" = "sha512-theXFgLdCu6SpfGuMWa2gJZ1IOM17X/hXDcx9gHFhWZ04FwLrplcIwICtakIb2nvh/4WmHhwRmkwipOHx4tuyw==";
+        };
     in {
         "8fTqahgC" = _8fTqahgC;
         "WnZNYpKT" = _WnZNYpKT;
@@ -146,10 +296,40 @@ let
         "86LNxS6n" = _86LNxS6n;
         "AVmvIQUH" = _AVmvIQUH;
         "atgoJnbe" = _atgoJnbe;
-        "fabric-26.1" = _AVmvIQUH;
-        "fabric-26.1.1" = _AVmvIQUH;
-        "fabric-26.1.2" = _AVmvIQUH;
-        "fabric-26.2" = _atgoJnbe;
+        "NIidztZJ" = _NIidztZJ;
+        "2bKZ9mTe" = _2bKZ9mTe;
+        "uadSr1L8" = _uadSr1L8;
+        "Zbu2cv1O" = _Zbu2cv1O;
+        "mB5ousMT" = _mB5ousMT;
+        "1dv81ZHw" = _1dv81ZHw;
+        "XA4I8ROD" = _XA4I8ROD;
+        "ZP95BWhv" = _ZP95BWhv;
+        "BoEpdkgu" = _BoEpdkgu;
+        "74JSkqFO" = _74JSkqFO;
+        "homl1zUw" = _homl1zUw;
+        "zZJIrk2l" = _zZJIrk2l;
+        "dYeH7CKp" = _dYeH7CKp;
+        "z0FU7HGh" = _z0FU7HGh;
+        "GPv8ZuNQ" = _GPv8ZuNQ;
+        "Uv62ms8z" = _Uv62ms8z;
+        "8zjMqWnU" = _8zjMqWnU;
+        "FbF4B8ix" = _FbF4B8ix;
+        "fkADLC43" = _fkADLC43;
+        "UYzE9Cpb" = _UYzE9Cpb;
+        "5tWizolq" = _5tWizolq;
+        "EHfJMrpy" = _EHfJMrpy;
+        "EM8SG4ok" = _EM8SG4ok;
+        "WS9TOLfV" = _WS9TOLfV;
+        "6fJAWziR" = _6fJAWziR;
+        "kw94RNFJ" = _kw94RNFJ;
+        "wKPvwqRs" = _wKPvwqRs;
+        "YfgHwjTY" = _YfgHwjTY;
+        "cL6veiy0" = _cL6veiy0;
+        "zPJuTMB3" = _zPJuTMB3;
+        "fabric-26.1" = _cL6veiy0;
+        "fabric-26.1.1" = _cL6veiy0;
+        "fabric-26.1.2" = _cL6veiy0;
+        "fabric-26.2" = _zPJuTMB3;
         "pkg-0.1.0" = _WnZNYpKT;
         "pkg-0.1.1" = _tKNpKqpA;
         "pkg-0.1.2" = _RjXNLDZJ;
@@ -162,7 +342,22 @@ let
         "pkg-0.1.9" = _1RJK9a93;
         "pkg-0.1.10" = _86LNxS6n;
         "pkg-0.1.11" = _atgoJnbe;
-        "default" = _atgoJnbe;
+        "pkg-0.1.12" = _2bKZ9mTe;
+        "pkg-0.1.13" = _Zbu2cv1O;
+        "pkg-0.1.14" = _1dv81ZHw;
+        "pkg-0.1.15" = _ZP95BWhv;
+        "pkg-0.1.16" = _74JSkqFO;
+        "pkg-0.1.17" = _zZJIrk2l;
+        "pkg-0.1.18" = _z0FU7HGh;
+        "pkg-0.1.19" = _Uv62ms8z;
+        "pkg-0.1.20" = _FbF4B8ix;
+        "pkg-0.1.21" = _UYzE9Cpb;
+        "pkg-0.1.22" = _EHfJMrpy;
+        "pkg-0.1.23" = _WS9TOLfV;
+        "pkg-0.1.24" = _kw94RNFJ;
+        "pkg-0.1.25" = _YfgHwjTY;
+        "pkg-0.1.26" = _zPJuTMB3;
+        "default" = _zPJuTMB3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skysoft";

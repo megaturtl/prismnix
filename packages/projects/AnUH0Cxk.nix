@@ -46,6 +46,11 @@ let
             "file" = "The-Hordes-1.3-1.20.1.jar";
             "hash" = "sha512-ykAJQ8T1lq7EAWCTopRA6xeaxl/clIWGhU+UVG5jH/wMjvsQen43/nwGBVK3qMZ2jBRyrTbHcpnNkEuFHvEG3A==";
         };
+        _oh46yihU = {
+            "id" = "oh46yihU";
+            "file" = "The-Hordes-1.3-1.21.1.jar";
+            "hash" = "sha512-+5l03uNhN2wdigXOmK1VSnQeOnqtZWV+PJ32ozZj4v0TTSgAKGjk6m9TnvWK8SMbVtCr0EMkyKFSJz2vchbtmg==";
+        };
     in {
         "KBVMPwf5" = _KBVMPwf5;
         "89mHOslS" = _89mHOslS;
@@ -56,21 +61,23 @@ let
         "TtVExfqH" = _TtVExfqH;
         "NEGiKIEq" = _NEGiKIEq;
         "TS08XuRG" = _TS08XuRG;
+        "oh46yihU" = _oh46yihU;
         "fabric-1.20" = _TS08XuRG;
         "fabric-1.20.1" = _TS08XuRG;
         "fabric-1.20.2" = _TS08XuRG;
         "fabric-1.21.2" = _4eXPB3p2;
         "fabric-1.21.3" = _4eXPB3p2;
         "fabric-1.21.4" = _4eXPB3p2;
-        "fabric-1.21" = _NEGiKIEq;
-        "fabric-1.21.1" = _NEGiKIEq;
+        "fabric-1.21" = _oh46yihU;
+        "fabric-1.21.1" = _oh46yihU;
         "pkg-1.20.1" = _d4hvq26J;
         "pkg-1.21.4" = _4eXPB3p2;
         "pkg-1.0-1.21.1" = _zYxJU4ML;
         "pkg-1.1-1.21.1" = _5AlQXRj8;
         "pkg-1.3-1.20.1" = _TS08XuRG;
         "pkg-1.2-1.21.1" = _NEGiKIEq;
-        "default" = _TS08XuRG;
+        "pkg-1.3-1.21.1" = _oh46yihU;
+        "default" = _oh46yihU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-hordes-fabric";

@@ -471,6 +471,16 @@ let
             "file" = "crystal_tools-26.2.0.0.jar";
             "hash" = "sha512-7Z3kyr4EPYzy883x9WJi799fdG+cS+hZy+B2W2Hf2DtIjCvL60hj+CGtQLmYs9b5dlid4/prNpWfyiqRmLtmgQ==";
         };
+        _9a0SeUJD = {
+            "id" = "9a0SeUJD";
+            "file" = "crystal_tools-26.2.0.1.jar";
+            "hash" = "sha512-XUmH/tEqxt4mS5/sda5+QSrEy5AVP1g4vVEjMhFh2+l2rdzHFYpcymPuQgz+mVvzzolSOZ//5/1KkElDw/DOnQ==";
+        };
+        _2lMheRY8 = {
+            "id" = "2lMheRY8";
+            "file" = "crystal_tools-26.1.1.1.jar";
+            "hash" = "sha512-YnOXCheCJqvQMkQ2Bqs9E+Tbw5pcHdYIuKidF8SwPZTm3BVKDhFXjn5g4khiGJp6MRWWL4co6i1njIWiD2ueCA==";
+        };
     in {
         "GlwyaThi" = _GlwyaThi;
         "ASv9gg34" = _ASv9gg34;
@@ -566,6 +576,8 @@ let
         "UmwOfSG2" = _UmwOfSG2;
         "NJqHPdWP" = _NJqHPdWP;
         "lURyCWxP" = _lURyCWxP;
+        "9a0SeUJD" = _9a0SeUJD;
+        "2lMheRY8" = _2lMheRY8;
         "forge-1.19.2" = _IVJgC0uJ;
         "forge-1.20.1" = _nGXMjrON;
         "forge-1.20" = _40Ir0NjF;
@@ -584,10 +596,10 @@ let
         "neoforge-1.21.9" = _GH9YHXVm;
         "neoforge-1.21.10" = _9HwKu8bv;
         "neoforge-1.21.11" = _Z83DOQDP;
-        "neoforge-26.1" = _UmwOfSG2;
-        "neoforge-26.1.1" = _UmwOfSG2;
-        "neoforge-26.1.2" = _UmwOfSG2;
-        "neoforge-26.2" = _lURyCWxP;
+        "neoforge-26.1" = _2lMheRY8;
+        "neoforge-26.1.1" = _2lMheRY8;
+        "neoforge-26.1.2" = _2lMheRY8;
+        "neoforge-26.2" = _9a0SeUJD;
         "pkg-1.4.1" = _GlwyaThi;
         "pkg-1.4.2-beta" = _ASv9gg34;
         "pkg-1.4.2" = _eGIyyIY4;
@@ -682,7 +694,9 @@ let
         "pkg-26.1.1.0" = _UmwOfSG2;
         "pkg-26.2.0.0-beta1" = _NJqHPdWP;
         "pkg-26.2.0.0" = _lURyCWxP;
-        "default" = _lURyCWxP;
+        "pkg-26.2.0.1" = _9a0SeUJD;
+        "pkg-26.1.1.1" = _2lMheRY8;
+        "default" = _2lMheRY8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crystal-tools";

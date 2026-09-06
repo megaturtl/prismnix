@@ -131,6 +131,21 @@ let
             "file" = "opmod-2.2.4.jar";
             "hash" = "sha512-sE6QUnJSoUbBSSLWzLV9wPsYTF7CqFlR+kIhwLhAUb2mGkJOz36k065b1eCtSC8Y15z4P5lhwXjLAi5mY0EPCA==";
         };
+        _qZgPbWiM = {
+            "id" = "qZgPbWiM";
+            "file" = "opmod-2.2.5.jar";
+            "hash" = "sha512-eNXsp6/fG02NcF44T2ss8QZ8vEJsGyjHI9w62KnZQsFxPzsJjwHFHP7/eFfV3BBtcJwVng6o/EuGLZhD4BMEtg==";
+        };
+        _AV9Ejcsm = {
+            "id" = "AV9Ejcsm";
+            "file" = "opmod-2.2.6.jar";
+            "hash" = "sha512-31JV/zRASDlQa1Qvh6UKEZrjBJqBvnmhIqDCyq2vJNjz1RrfnsoPWNL5zkF7d+SzHhmG3+tr8SMMLLFwl1EJfg==";
+        };
+        _hwDpWesb = {
+            "id" = "hwDpWesb";
+            "file" = "opmod-2.2.7.jar";
+            "hash" = "sha512-kCYiIMRSuB5jRk+cN8ZEn5olk7GIhidiwV8OO8oe2Fqpy1j0m9dIZI4nCxe9LXp0EftmTP2GuSe6FIBhxgTcxQ==";
+        };
     in {
         "OXvrh3sh" = _OXvrh3sh;
         "QxqieLbE" = _QxqieLbE;
@@ -158,10 +173,13 @@ let
         "7gaLH4Yf" = _7gaLH4Yf;
         "Wcu5AhFq" = _Wcu5AhFq;
         "IrxR0B4z" = _IrxR0B4z;
+        "qZgPbWiM" = _qZgPbWiM;
+        "AV9Ejcsm" = _AV9Ejcsm;
+        "hwDpWesb" = _hwDpWesb;
         "fabric-1.21.4" = _lMxwfEd6;
         "fabric-1.21.5" = _5w8I86wQ;
         "fabric-1.21.8" = _LwrR6YD9;
-        "fabric-1.21.11" = _IrxR0B4z;
+        "fabric-1.21.11" = _hwDpWesb;
         "pkg-1.0-beta" = _OXvrh3sh;
         "pkg-1.0.1-beta" = _QxqieLbE;
         "pkg-1.0.2-beta" = _6NRBU2zt;
@@ -185,7 +203,10 @@ let
         "pkg-2.2.2" = _7gaLH4Yf;
         "pkg-2.2.3" = _Wcu5AhFq;
         "pkg-2.2.4" = _IrxR0B4z;
-        "default" = _IrxR0B4z;
+        "pkg-2.2.5" = _qZgPbWiM;
+        "pkg-2.2.6" = _AV9Ejcsm;
+        "pkg-2.2.7" = _hwDpWesb;
+        "default" = _hwDpWesb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "opmod";

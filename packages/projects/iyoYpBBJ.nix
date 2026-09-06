@@ -211,6 +211,9 @@ let
         "minecraft-26.3-snapshot-5" = _EwcuqrPj;
         "minecraft-26.3-snapshot-6" = _EwcuqrPj;
         "minecraft-26.3-snapshot-7" = _EwcuqrPj;
+        "minecraft-26.3-snapshot-8" = _EwcuqrPj;
+        "minecraft-26.3-snapshot-9" = _EwcuqrPj;
+        "minecraft-26.3-snapshot-10" = _EwcuqrPj;
         "pkg-1.0" = _ExJKQvaH;
         "pkg-2.0" = _EQslRBfz;
         "pkg-3.0" = _79GuPqsx;

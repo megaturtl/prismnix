@@ -101,6 +101,16 @@ let
             "file" = "Backpacks26.2-DP-fix1.zip";
             "hash" = "sha512-XLE/0ivC+Kepwi45HEFpuaJM5FN8gEUvNpWGbwD1ulKdNvGhuRMJ9UKNbBRfA2e5P89X+f2F3Hwf6swrN+kTCQ==";
         };
+        _OtQFBIs7 = {
+            "id" = "OtQFBIs7";
+            "file" = "Backpacks26.3-beta-DP.zip";
+            "hash" = "sha512-IJHKoH5En+7LQEoBHbq4bssZw4FNGsg8Lesp0ZyOimxDIU3y8Ebl6xrjn85Nh6nb8DinnBVL5h8nOTe2JAMdfQ==";
+        };
+        _iMxguBZb = {
+            "id" = "iMxguBZb";
+            "file" = "Backpacks26.3-beta-Resources.zip";
+            "hash" = "sha512-3yNGAoqXZnUNXspM3qdB2dUfWt+XwP+lue/zvszwnrt0tSRNxZvvIQzgvo659T5iXJ24c1Px+31zlWGWNz6YcA==";
+        };
     in {
         "9pI4YoWi" = _9pI4YoWi;
         "lQxLmHpU" = _lQxLmHpU;
@@ -122,6 +132,8 @@ let
         "ojG45uQg" = _ojG45uQg;
         "M8BX2dE4" = _M8BX2dE4;
         "M0G9b64C" = _M0G9b64C;
+        "OtQFBIs7" = _OtQFBIs7;
+        "iMxguBZb" = _iMxguBZb;
         "datapack-1.21.5" = _yTcAdldj;
         "datapack-1.21.6" = _yTcAdldj;
         "datapack-1.21.7" = _yTcAdldj;
@@ -163,6 +175,7 @@ let
         "datapack-26.2-pre-2" = _sX01WpuG;
         "datapack-26.2-pre-3" = _sX01WpuG;
         "datapack-26.2" = _M0G9b64C;
+        "datapack-26.3-snapshot-10" = _OtQFBIs7;
         "minecraft-1.21.4" = _iCJqk3wQ;
         "minecraft-1.21.5" = _iCJqk3wQ;
         "minecraft-1.21.6" = _iCJqk3wQ;
@@ -189,6 +202,7 @@ let
         "minecraft-26.2-pre-1" = _Xyeitler;
         "minecraft-26.2-pre-2" = _Xyeitler;
         "minecraft-26.2" = _M8BX2dE4;
+        "minecraft-26.3-snapshot-10" = _iMxguBZb;
         "paper-26.1" = _o8TwoPsW;
         "paper-26.1.1" = _o8TwoPsW;
         "paper-26.1.2" = _o8TwoPsW;
@@ -211,7 +225,9 @@ let
         "pkg-26-OptionalPlugin-test" = _o8TwoPsW;
         "pkg-26.2" = _M0G9b64C;
         "pkg-26.2-RequiredResources" = _M8BX2dE4;
-        "default" = _M0G9b64C;
+        "pkg-26.3-beta" = _OtQFBIs7;
+        "pkg-26.3-beta-RequiredResources" = _iMxguBZb;
+        "default" = _iMxguBZb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "backpacksdp";

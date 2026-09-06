@@ -301,6 +301,16 @@ let
             "file" = "complicated_bees-1.21.1-3.5.1.jar";
             "hash" = "sha512-Mc2hFWBfbGYkGwLUAPw0owq6nlBpBUO/e7dxjsGwumCIpXYher1URlrvzOS3MtO9HFhMogFlRBoa7Vk+smCoAQ==";
         };
+        _xk6PhYXs = {
+            "id" = "xk6PhYXs";
+            "file" = "complicated_bees-1.21.1-3.6.0.jar";
+            "hash" = "sha512-DLgS4KuXGdhKx95fkPqQXWadsBiD4duBANgk/uBaClA7p9h8wYWWOlVDOECM4UpdEmCQE9f5wqiStaceS0hKBw==";
+        };
+        _uleZO52Y = {
+            "id" = "uleZO52Y";
+            "file" = "complicated_bees-1.21.1-3.6.1.jar";
+            "hash" = "sha512-KBdcaNnD/U1xpUKw6qEykMxUXrhlsWUbKq7/J8FovEfz2WinOdNSNecSe+JAVgGGsdPOlzAVe3yAmULgh3mHRg==";
+        };
     in {
         "kyqxUQnb" = _kyqxUQnb;
         "D1JrHmyR" = _D1JrHmyR;
@@ -362,9 +372,11 @@ let
         "IKndUeP1" = _IKndUeP1;
         "pdrXaJHH" = _pdrXaJHH;
         "6O1Gbo6s" = _6O1Gbo6s;
+        "xk6PhYXs" = _xk6PhYXs;
+        "uleZO52Y" = _uleZO52Y;
         "forge-1.20.1" = _R1EWBAbU;
         "neoforge-1.20.4" = _kFr3AApt;
-        "neoforge-1.21.1" = _6O1Gbo6s;
+        "neoforge-1.21.1" = _uleZO52Y;
         "pkg-1.20.1-1.0.1" = _kyqxUQnb;
         "pkg-1.20.4-1.0.1" = _D1JrHmyR;
         "pkg-1.20.4-1.0.2" = _BpzDnxGr;
@@ -425,7 +437,9 @@ let
         "pkg-1.21.1-3.4.8" = _IKndUeP1;
         "pkg-1.21.1-3.5.0" = _pdrXaJHH;
         "pkg-1.21.1-3.5.1" = _6O1Gbo6s;
-        "default" = _6O1Gbo6s;
+        "pkg-1.21.1-3.6.0" = _xk6PhYXs;
+        "pkg-1.21.1-3.6.1" = _uleZO52Y;
+        "default" = _uleZO52Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "complicated-bees";

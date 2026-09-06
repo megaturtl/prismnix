@@ -286,6 +286,36 @@ let
             "file" = "k_multi_threading-NeoForge-1.1.0.2.jar";
             "hash" = "sha512-OfJA4drBt1Qfy7xn3GqM02xsqk2uqnpKPauO7hkszojTvTVTl0e8tdrlePU4Tuek/zmeE336U38ciyVPoKB2ng==";
         };
+        _7YOC8Es7 = {
+            "id" = "7YOC8Es7";
+            "file" = "k_multi_threading-1.1.0.3.jar";
+            "hash" = "sha512-G32RzwcTA89Reubgl2YYEVNdYIVb/THantzF3jJIB0H/g8DZ4YENLI8Dv/jpo+lswnVl/gs3isI6CqIVDJnEvA==";
+        };
+        _4YXUv5Mx = {
+            "id" = "4YXUv5Mx";
+            "file" = "k_multi_threading-NeoForge-1.1.0.3.jar";
+            "hash" = "sha512-P4JeVVDjBv/KjMJMH92k+GKYdikYmbs6RIblmxptJ6XsMkHCw0CaNjBLaSJH1sT6C5fzT1S+MQagsBESgj4/zg==";
+        };
+        _oeVFctHK = {
+            "id" = "oeVFctHK";
+            "file" = "k_multi_threading-1.1.0.4.jar";
+            "hash" = "sha512-3UWBsW3SXFBuxG2dNNv21n9y1WVOYG4bv8rXIkS7Vhw3sdx8YLWPiii/M3Gwk7Dvh0w6kbWEz5vSZvup5tHytA==";
+        };
+        _4VV0SQ0y = {
+            "id" = "4VV0SQ0y";
+            "file" = "k_multi_threading-NeoForge-1.1.0.4.jar";
+            "hash" = "sha512-Ad505B7UPQWr62SKo8TIAd+Fy10kpsn5CPyqe0sf0er25ds02qkRN0zwZq0gr4AZfUw4NGfX/Ig7UTPygqgeQQ==";
+        };
+        _aMixRadG = {
+            "id" = "aMixRadG";
+            "file" = "k_multi_threading-1.1.0.5.jar";
+            "hash" = "sha512-exOLV0fokH70bmcF6s+rrgQI3+q+KlMCG5e4+3xJuSIwEDSrazFNEmemIKv/e+hieg3F99G5Bs8OtzfqIVNvug==";
+        };
+        _jetO4wib = {
+            "id" = "jetO4wib";
+            "file" = "k_multi_threading-NeoForge-1.1.0.5.jar";
+            "hash" = "sha512-cnh0m7cGk8frE7MX1M0psF+N5+dqWLypbIrIF0Laub6D0YhhDx4AEuYPl3l7X1llnHjKRiVeLtygTAIfYEJqXA==";
+        };
     in {
         "NOZrVrc2" = _NOZrVrc2;
         "5uLutLCu" = _5uLutLCu;
@@ -344,10 +374,16 @@ let
         "lUmyTb9X" = _lUmyTb9X;
         "RahSpfFy" = _RahSpfFy;
         "K6zcRtlE" = _K6zcRtlE;
-        "forge-1.20.1" = _RahSpfFy;
-        "forge-1.19.2" = _RahSpfFy;
-        "neoforge-1.21" = _K6zcRtlE;
-        "neoforge-1.21.1" = _K6zcRtlE;
+        "7YOC8Es7" = _7YOC8Es7;
+        "4YXUv5Mx" = _4YXUv5Mx;
+        "oeVFctHK" = _oeVFctHK;
+        "4VV0SQ0y" = _4VV0SQ0y;
+        "aMixRadG" = _aMixRadG;
+        "jetO4wib" = _jetO4wib;
+        "forge-1.20.1" = _aMixRadG;
+        "forge-1.19.2" = _aMixRadG;
+        "neoforge-1.21" = _jetO4wib;
+        "neoforge-1.21.1" = _jetO4wib;
         "pkg-1.0.3.10" = _NOZrVrc2;
         "pkg-1.0.3.14" = _5uLutLCu;
         "pkg-1.0.3.15" = _PWs5jPZS;
@@ -402,7 +438,10 @@ let
         "pkg-1.1.0.0" = _u5oUzt5T;
         "pkg-1.1.0.1" = _lUmyTb9X;
         "pkg-1.1.0.2" = _K6zcRtlE;
-        "default" = _K6zcRtlE;
+        "pkg-1.1.0.3" = _4YXUv5Mx;
+        "pkg-1.1.0.4" = _4VV0SQ0y;
+        "pkg-1.1.0.5" = _jetO4wib;
+        "default" = _jetO4wib;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kallfix";

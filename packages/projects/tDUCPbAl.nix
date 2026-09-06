@@ -46,6 +46,26 @@ let
             "file" = "HollowEngine-fabric-1.21.1-2.2.1.jar";
             "hash" = "sha512-RX58WDNxhwIhgVpN7R8jGDX+vY1nzL4x18xNuEmsQ8phOXwJPbxIGJ14PVHJx0KiomWwW+qLhclypk+DfXBIzg==";
         };
+        _nkxAh7FE = {
+            "id" = "nkxAh7FE";
+            "file" = "HollowEngine-neoforge-1.21.1-2.3.0.jar";
+            "hash" = "sha512-65kuD3X6fOgin0W+3mEHg3c386FuF6U37RULpVtQsYxH71tysHi1eSmdZZQnbAJHsOW4kbxnhA/6kK+fxu6oOQ==";
+        };
+        _V9VJpjay = {
+            "id" = "V9VJpjay";
+            "file" = "HollowEngine-fabric-1.21.1-2.3.0.jar";
+            "hash" = "sha512-F/3cMznq/ju+T2leXhf0kGp5P5q+GL7UUXDHTW1Xc9UC1aEC1vGwr/FsOaYBtnQSkAQvb8NNt4LjxPDuPb3zzw==";
+        };
+        _KWCQqfvA = {
+            "id" = "KWCQqfvA";
+            "file" = "HollowEngine-neoforge-1.21.1-2.3.0.1.jar";
+            "hash" = "sha512-Eijnceg8C8bupLIpe/aza2/OKedjvisfEq2VG+P99TfDWvEo8YDsfIMRgwo0mrnrmYfR1nvsaBWKBlDKqRm6FQ==";
+        };
+        _kXxbjBvR = {
+            "id" = "kXxbjBvR";
+            "file" = "HollowEngine-fabric-1.21.1-2.3.0.1.jar";
+            "hash" = "sha512-TcUnn2069CHxXxEcFj/sx5BAxwwPgTulcHzWk1+lYT1pI+k2obiJZrvA8RshROjX6c18LbJRw3waDZ3VMvPjoQ==";
+        };
     in {
         "Y6x8GVL4" = _Y6x8GVL4;
         "veJDTMJ3" = _veJDTMJ3;
@@ -56,19 +76,25 @@ let
         "10FvM8fA" = _10FvM8fA;
         "aTFKoIha" = _aTFKoIha;
         "BF6cITW9" = _BF6cITW9;
+        "nkxAh7FE" = _nkxAh7FE;
+        "V9VJpjay" = _V9VJpjay;
+        "KWCQqfvA" = _KWCQqfvA;
+        "kXxbjBvR" = _kXxbjBvR;
         "forge-1.19" = _u127xIAo;
         "forge-1.19.1" = _u127xIAo;
         "forge-1.19.2" = _u127xIAo;
         "forge-1.18.2" = _heO4fWLS;
-        "fabric-1.21.1" = _BF6cITW9;
-        "neoforge-1.21.1" = _aTFKoIha;
+        "fabric-1.21.1" = _kXxbjBvR;
+        "neoforge-1.21.1" = _KWCQqfvA;
         "pkg-1.0" = _veJDTMJ3;
         "pkg-1.18.2-1.1.1" = _heO4fWLS;
         "pkg-1.19.2-1.5.3" = _eCZSlvFA;
         "pkg-1.5.4" = _u127xIAo;
         "pkg-2.2.0.1" = _10FvM8fA;
         "pkg-2.2.1" = _BF6cITW9;
-        "default" = _BF6cITW9;
+        "pkg-2.3.0" = _V9VJpjay;
+        "pkg-2.3.0.1" = _kXxbjBvR;
+        "default" = _kXxbjBvR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hollowengine";

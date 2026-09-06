@@ -2446,6 +2446,96 @@ let
             "file" = "hodgepodge-2.7.179.jar";
             "hash" = "sha512-zgl4b5jh6/nUHLCMUN9r9QKtEJzB35sa2jAllUZdug6r6fhqWRgM0Ns0pSJr8N2gqSvT5kkt3if4ihXhJsV6ww==";
         };
+        _B4ChXyJs = {
+            "id" = "B4ChXyJs";
+            "file" = "hodgepodge-2.7.180.jar";
+            "hash" = "sha512-OTSrU68Q5YmL7bk2HLhcr/YIViuEV5LmKSkF1Xm8DI7cMRuRzqnh2RQep1SrgyQnt999hp+9cEiap7jD4Okpeg==";
+        };
+        _8aroop7l = {
+            "id" = "8aroop7l";
+            "file" = "hodgepodge-2.7.181.jar";
+            "hash" = "sha512-WuOYKkmteYAzhj8ECm41jJLhgiVNPw/AcFe4Tc650OYariL2HlGwJLc5+72DTlLE0XJbppe1KHKiPq7yWfi1lA==";
+        };
+        _Ge0I2UGh = {
+            "id" = "Ge0I2UGh";
+            "file" = "hodgepodge-2.7.182.jar";
+            "hash" = "sha512-9CdnlJ1sC1/VEysdVFkC3NVuEx5HC3gl0UyV+gRmRVdIEEeLlGoI1CzZvAAtKimiqWfE0AeWPfJmfUhVSgbjNQ==";
+        };
+        _Itd25SWc = {
+            "id" = "Itd25SWc";
+            "file" = "hodgepodge-2.7.183.jar";
+            "hash" = "sha512-i9wZauYnwBewYtQ4QrVECkidi0VJIfF4sUpq/Ul38Ei4H/YcxasveGNLPoOxL//wIj94NRIFYuU4zTSWTBk1Iw==";
+        };
+        _VsYeVglu = {
+            "id" = "VsYeVglu";
+            "file" = "hodgepodge-2.7.184.jar";
+            "hash" = "sha512-M47UmL+iGiGDAocnci1tGaKn2EHNKxKPeOlJ/2AyhB0azOI5FbDYMM+0V1EJljGvx1+0bAkp6yrWKYsQH7bLVQ==";
+        };
+        _wN7AidcG = {
+            "id" = "wN7AidcG";
+            "file" = "hodgepodge-2.7.185.jar";
+            "hash" = "sha512-KVC8KFbRyjDYlUXS+M7u7dami8MCqAI1+LAudLp43Flpm/X+BVq4twGJRGOl+HOVTNdhVkF9bOd560UJGdZp8g==";
+        };
+        _TSQop6xW = {
+            "id" = "TSQop6xW";
+            "file" = "hodgepodge-2.7.186.jar";
+            "hash" = "sha512-NoWOE6tm7/nuwNJGIEEI1yakPSIorMcuvSwXgY+gaskm2CLBfFOphqJZmCNNk2XQefCLc9Ow+usyVmLSSvYykQ==";
+        };
+        _txEhbNEF = {
+            "id" = "txEhbNEF";
+            "file" = "hodgepodge-2.7.187.jar";
+            "hash" = "sha512-eCadRAqf63WD/bMjnKU4HeRwj30QdzmtEPHoJAvtuth+spUI8fnjkLU+sbr7TMb8nl1rdQ5aLvnObSw6Ks13Pg==";
+        };
+        _UvhGW1n5 = {
+            "id" = "UvhGW1n5";
+            "file" = "hodgepodge-2.7.188.jar";
+            "hash" = "sha512-NtmvMRqDerjrmUfY+pERjXHGJVMdoFHW5yXp72NXst0N/L/rHu8TvrzqvVxFQn7ZVAlIZmw9vf6cTqTOTCuyPQ==";
+        };
+        _JcOwTCWQ = {
+            "id" = "JcOwTCWQ";
+            "file" = "hodgepodge-2.7.189.jar";
+            "hash" = "sha512-chctIhz5FK6uFqSI3gJqky10Zt6wa1/yvYe2YnX76LpCYH00f9O1E6SQeC5Nv7/28CvaSUS4z/vccQwMvdHIIA==";
+        };
+        _vDYV8a8i = {
+            "id" = "vDYV8a8i";
+            "file" = "hodgepodge-2.7.190.jar";
+            "hash" = "sha512-8KNKasfeIensTlbGAPaIcq+38cYFoI9ch8qTHQ/U0q5Ze5GRmIvZ3v7PaURkDRqA8zJXlPYg2HZtQJQ9AF1nIg==";
+        };
+        _gTVo4xAD = {
+            "id" = "gTVo4xAD";
+            "file" = "hodgepodge-2.7.191.jar";
+            "hash" = "sha512-QvF1sVOlwvP6FQYGsmIz/vVHEh7dAh6wi/k0br68geh9eIiWIAHWQ2CuAr1EUD89EQwnJFwThgWUaP55WS1niA==";
+        };
+        _9iIoIouI = {
+            "id" = "9iIoIouI";
+            "file" = "hodgepodge-2.7.192.jar";
+            "hash" = "sha512-n/9P4hpwG5bjhgEVoVrPpyoSn6dlsZEqrG7uB7eF99ylxZFLwaCoHpjtlUdPabJ5OAbcyBYHL1I13H3WwRfMwg==";
+        };
+        _HOqVikyy = {
+            "id" = "HOqVikyy";
+            "file" = "hodgepodge-2.7.193.jar";
+            "hash" = "sha512-iybVHMDQ6T1oiacXjzjJtCP6pSAXBoFAwpqR4Ep/d2SW6fopeCRNj75Us/6LfaXqjU6jWMjSiItBlsHirnQOhQ==";
+        };
+        _xoee8H6a = {
+            "id" = "xoee8H6a";
+            "file" = "hodgepodge-2.7.194.jar";
+            "hash" = "sha512-H2gkGllHyF1uQ28Wu/WjK9iB+3WFzkESJ48bNZyvoLeJD114pax0VU+GV1xxa82OfhCvEB0c7nUPRDPEO+I49g==";
+        };
+        _S9TwW60u = {
+            "id" = "S9TwW60u";
+            "file" = "hodgepodge-2.7.195.jar";
+            "hash" = "sha512-wdMB4Z32oWxKImLT3u5VBQXqU4yyXazddSnQNYOmvfFp47saHI3kTZQxHtqBPDfaMQOeFSeN5fMiRQnGzLrLEw==";
+        };
+        _FWT1wL5T = {
+            "id" = "FWT1wL5T";
+            "file" = "hodgepodge-2.7.196.jar";
+            "hash" = "sha512-16mYGUQOWSfXybT9yqHqDZQaqhXhZxPaBlL84d+WAhJDfJN9vttKrngrzqVKCtoa34jSOQiWXLD/P+GFaX4Zug==";
+        };
+        _w8ifJPFJ = {
+            "id" = "w8ifJPFJ";
+            "file" = "hodgepodge-2.7.197.jar";
+            "hash" = "sha512-LRrpDJBVTLnPxv2eXePbwlUK84iJXwWJFGwTpXOKxOYIwxOpMV9L4YZIzgZu7Bp9KoBQjldnJQVnL1iD5RGfPQ==";
+        };
     in {
         "hXRM2ICI" = _hXRM2ICI;
         "gLPkAGq1" = _gLPkAGq1;
@@ -2936,7 +3026,25 @@ let
         "1hAjwkvE" = _1hAjwkvE;
         "7DmQrsyR" = _7DmQrsyR;
         "4mMd5pkN" = _4mMd5pkN;
-        "forge-1.7.10" = _4mMd5pkN;
+        "B4ChXyJs" = _B4ChXyJs;
+        "8aroop7l" = _8aroop7l;
+        "Ge0I2UGh" = _Ge0I2UGh;
+        "Itd25SWc" = _Itd25SWc;
+        "VsYeVglu" = _VsYeVglu;
+        "wN7AidcG" = _wN7AidcG;
+        "TSQop6xW" = _TSQop6xW;
+        "txEhbNEF" = _txEhbNEF;
+        "UvhGW1n5" = _UvhGW1n5;
+        "JcOwTCWQ" = _JcOwTCWQ;
+        "vDYV8a8i" = _vDYV8a8i;
+        "gTVo4xAD" = _gTVo4xAD;
+        "9iIoIouI" = _9iIoIouI;
+        "HOqVikyy" = _HOqVikyy;
+        "xoee8H6a" = _xoee8H6a;
+        "S9TwW60u" = _S9TwW60u;
+        "FWT1wL5T" = _FWT1wL5T;
+        "w8ifJPFJ" = _w8ifJPFJ;
+        "forge-1.7.10" = _w8ifJPFJ;
         "pkg-2.0.1" = _hXRM2ICI;
         "pkg-2.0.2" = _gLPkAGq1;
         "pkg-2.0.3" = _dIGGZkfj;
@@ -3421,7 +3529,25 @@ let
         "pkg-2.7.177" = _1hAjwkvE;
         "pkg-2.7.178" = _7DmQrsyR;
         "pkg-2.7.179" = _4mMd5pkN;
-        "default" = _4mMd5pkN;
+        "pkg-2.7.180" = _B4ChXyJs;
+        "pkg-2.7.181" = _8aroop7l;
+        "pkg-2.7.182" = _Ge0I2UGh;
+        "pkg-2.7.183" = _Itd25SWc;
+        "pkg-2.7.184" = _VsYeVglu;
+        "pkg-2.7.185" = _wN7AidcG;
+        "pkg-2.7.186" = _TSQop6xW;
+        "pkg-2.7.187" = _txEhbNEF;
+        "pkg-2.7.188" = _UvhGW1n5;
+        "pkg-2.7.189" = _JcOwTCWQ;
+        "pkg-2.7.190" = _vDYV8a8i;
+        "pkg-2.7.191" = _gTVo4xAD;
+        "pkg-2.7.192" = _9iIoIouI;
+        "pkg-2.7.193" = _HOqVikyy;
+        "pkg-2.7.194" = _xoee8H6a;
+        "pkg-2.7.195" = _S9TwW60u;
+        "pkg-2.7.196" = _FWT1wL5T;
+        "pkg-2.7.197" = _w8ifJPFJ;
+        "default" = _w8ifJPFJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hodgepodge";

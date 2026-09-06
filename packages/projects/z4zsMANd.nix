@@ -55,6 +55,7 @@ let
         "fabric-26.1" = _1Nxu0ciW;
         "fabric-26.1.1" = _1Nxu0ciW;
         "fabric-26.1.2" = _1Nxu0ciW;
+        "fabric-26.2" = _1Nxu0ciW;
         "pkg-1.0.0" = _ZrukCrzQ;
         "pkg-1.1.0" = _6sF1iDnQ;
         "pkg-1.2.0" = _Kgf71Tqb;

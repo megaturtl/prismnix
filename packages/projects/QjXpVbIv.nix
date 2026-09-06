@@ -15,6 +15,15 @@ let
         "minecraft-1.21.4" = _nCtTabxw;
         "minecraft-1.21.5" = _nCtTabxw;
         "minecraft-1.21.6" = _nCtTabxw;
+        "minecraft-1.21.7" = _nCtTabxw;
+        "minecraft-1.21.8" = _nCtTabxw;
+        "minecraft-1.21.9" = _nCtTabxw;
+        "minecraft-1.21.10" = _nCtTabxw;
+        "minecraft-1.21.11" = _nCtTabxw;
+        "minecraft-26.1" = _nCtTabxw;
+        "minecraft-26.1.1" = _nCtTabxw;
+        "minecraft-26.1.2" = _nCtTabxw;
+        "minecraft-26.2" = _nCtTabxw;
         "pkg-v1.0.0" = _nCtTabxw;
         "default" = _nCtTabxw;
     });

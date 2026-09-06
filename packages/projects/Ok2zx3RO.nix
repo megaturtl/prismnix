@@ -71,6 +71,21 @@ let
             "file" = "lightingfixtures-0.7.0-neoforge-1.21.1.jar";
             "hash" = "sha512-E94dg59vGH3sjX4J9DNlH8ktxWBdwGILqAnbg4Ryjmz8fH+93wEd64Sad+22X4RASSNIiVVT7GhjgnqW0nya5A==";
         };
+        _WVadXjkP = {
+            "id" = "WVadXjkP";
+            "file" = "lightingfixtures-0.8.9-forge-1.20.1.jar";
+            "hash" = "sha512-DIrBOqJztqEBMMKXJOqN9P0z4monXRQjvjWKzDmopINNV3ej/VcZQkD2bdq8f9r/cQGnlXH6maG4U5DEOnZNYg==";
+        };
+        _a7WLcrrM = {
+            "id" = "a7WLcrrM";
+            "file" = "lightingfixtures-1.0.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-/uTqjB3fZnXrM03pLTwmfCdJOxYx8OXSE10Qwtf2ttM/CDPNh4aJTpsHpIpcmp3+TacBJJYZxpyTeaaDrZLzYA==";
+        };
+        _KHD9ostr = {
+            "id" = "KHD9ostr";
+            "file" = "lightingfixtures-1.0.0-forge-1.20.1.jar";
+            "hash" = "sha512-6RKHm8J5HIGnUywq/VRcd4eqXnK7F/lomD8o69gm49oDycWciga+ipD08aSqFhM34+GgJT0gRFZGLi+LsHcjcA==";
+        };
     in {
         "PzNsICLF" = _PzNsICLF;
         "UP1V6Gn2" = _UP1V6Gn2;
@@ -86,9 +101,12 @@ let
         "oqpI5LAa" = _oqpI5LAa;
         "RMybB67T" = _RMybB67T;
         "c3MbFCHA" = _c3MbFCHA;
+        "WVadXjkP" = _WVadXjkP;
+        "a7WLcrrM" = _a7WLcrrM;
+        "KHD9ostr" = _KHD9ostr;
         "neoforge-1.20.4" = _PzNsICLF;
-        "neoforge-1.20.1" = _RMybB67T;
-        "neoforge-1.21.1" = _c3MbFCHA;
+        "neoforge-1.20.1" = _KHD9ostr;
+        "neoforge-1.21.1" = _a7WLcrrM;
         "neoforge-1.21.2" = _c3MbFCHA;
         "neoforge-1.21.3" = _eiopMHNZ;
         "neoforge-1.21.4" = _eiopMHNZ;
@@ -98,9 +116,10 @@ let
         "neoforge-1.21.8" = _eiopMHNZ;
         "neoforge-1.21.9" = _eiopMHNZ;
         "neoforge-1.21.10" = _eiopMHNZ;
-        "neoforge-1.20" = _RMybB67T;
-        "forge-1.20.1" = _RMybB67T;
-        "forge-1.20" = _RMybB67T;
+        "neoforge-1.20" = _KHD9ostr;
+        "neoforge-1.21" = _a7WLcrrM;
+        "forge-1.20.1" = _KHD9ostr;
+        "forge-1.20" = _KHD9ostr;
         "pkg-0.1.2" = _YGrqQwFe;
         "pkg-0.1.3" = _oMn4ZK2T;
         "pkg-0.2.0" = _c4i3Rs8k;
@@ -111,7 +130,9 @@ let
         "pkg-0.4.5" = _DUeJqWvt;
         "pkg-0.4.8" = _oqpI5LAa;
         "pkg-0.7.0" = _c3MbFCHA;
-        "default" = _c3MbFCHA;
+        "pkg-0.8.9" = _WVadXjkP;
+        "pkg-1.0.0" = _KHD9ostr;
+        "default" = _KHD9ostr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "electrical_appliances_and_lamps";

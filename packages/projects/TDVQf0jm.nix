@@ -276,6 +276,51 @@ let
             "file" = "chilibulletweapons-fabric-26.1.2-3.1.0.jar";
             "hash" = "sha512-2w5Sf+BayRSM+/wtOgCvJmrmSnLekfe+CKetLeXAUVM524WVahllgeOIveK7ufdAZoXLqOO9oJ2QaMQ1TciMEg==";
         };
+        _1jhaNJ8v = {
+            "id" = "1jhaNJ8v";
+            "file" = "chilibulletweapons-forge-1.20.1-1.6.0.jar";
+            "hash" = "sha512-2bnmKGiBXTPBKd//vHeAoegGMPOaakc3IVg1cNAnmhTWz7kyWQL/xUtT8aC79Yd6eujiExjEqevOX6mVmBTTNA==";
+        };
+        _gCHnFvXp = {
+            "id" = "gCHnFvXp";
+            "file" = "chilibulletweapons-forge-1.7.0+1.20.1.jar";
+            "hash" = "sha512-fKsYbLO93cFra37mMOiQKlHglmbRzEV0wPHkoEYPkTtxTD8xjJ9QMKsz0OaxBf2K5SAMzbiJB27zmYl4+TTUwA==";
+        };
+        _wzBZFNr2 = {
+            "id" = "wzBZFNr2";
+            "file" = "chilibulletweapons-fabric-1.7.0+1.20.1.jar";
+            "hash" = "sha512-EvUQhy6MT0dLwUfwLUNbN75jZkKDjmsN651Rg3KGN4ouQh2DvuDxFUlOyVOjUjeRHWVccZLC0w5h34JzKAN0kg==";
+        };
+        _YkbW02eP = {
+            "id" = "YkbW02eP";
+            "file" = "chilibulletweapons-forge-1.7.1+1.20.1.jar";
+            "hash" = "sha512-QsIlxK683AXz/50dSahY+6MwNCYFaCAFq1sb8MzUEDfHorwvMEG4t1/k+FJoY4pYNutP+heU74Coov0y+QmEcA==";
+        };
+        _bnJCvHxK = {
+            "id" = "bnJCvHxK";
+            "file" = "chilibulletweapons-fabric-1.7.1+1.20.1.jar";
+            "hash" = "sha512-087WwnqzbnVe/Ugckf9PWKZC58h3XR/SE/Xr2+Lkkp82BMgl+bWKGFARBugXDlvj/8iOxIReqpDY3cqpzyEOcg==";
+        };
+        _ju8lsd0u = {
+            "id" = "ju8lsd0u";
+            "file" = "chilibulletweapons-forge-1.7.2+1.20.1.jar";
+            "hash" = "sha512-ocl4LWykOBQdYgTHCHj19wxUWL2LYOE5KBnR6xnCZb6S40Ciw8M6jWkrTWeA1yBWqBT1k52AWCCsp8ZlFfpbGw==";
+        };
+        _BMobEU2n = {
+            "id" = "BMobEU2n";
+            "file" = "chilibulletweapons-fabric-1.7.2+1.20.1.jar";
+            "hash" = "sha512-O3+1vIIJx8/7TjWEvFU0M9RA5mIztBac/sye0rFYfg60i0mT4w8i9qIeKeTQ86sBo0Xe13olEsHo2UthVjvTCg==";
+        };
+        _EMLkmuE8 = {
+            "id" = "EMLkmuE8";
+            "file" = "chilibulletweapons-forge-1.7.2+1.19.jar";
+            "hash" = "sha512-t4i1FhSzZiT5LJCk6FMO1OAhcCnMZP9VteHl3qxGtPXD8doF+5Dk4ZOHIbhxG8y8cPcl3Ox/CjOmZZCbMVsZXQ==";
+        };
+        _1GCDvqwM = {
+            "id" = "1GCDvqwM";
+            "file" = "chilibulletweapons-fabric-1.7.2+1.19.jar";
+            "hash" = "sha512-CdcZRHnVUPLoaL8efM4Gi6UsCbDxNamMlpo7ojBPTQNm5LtCXERN26hZ/enGoiX4Af1PSHTL8ZICDZXPnsU2SA==";
+        };
     in {
         "RgFUu9Tb" = _RgFUu9Tb;
         "Q0E4M4xH" = _Q0E4M4xH;
@@ -332,21 +377,36 @@ let
         "Z5UrfGmo" = _Z5UrfGmo;
         "gjSaauAe" = _gjSaauAe;
         "VpeavT40" = _VpeavT40;
+        "1jhaNJ8v" = _1jhaNJ8v;
+        "gCHnFvXp" = _gCHnFvXp;
+        "wzBZFNr2" = _wzBZFNr2;
+        "YkbW02eP" = _YkbW02eP;
+        "bnJCvHxK" = _bnJCvHxK;
+        "ju8lsd0u" = _ju8lsd0u;
+        "BMobEU2n" = _BMobEU2n;
+        "EMLkmuE8" = _EMLkmuE8;
+        "1GCDvqwM" = _1GCDvqwM;
         "forge-1.20.2" = _OVjQhnsI;
         "forge-1.20.3" = _OVjQhnsI;
         "forge-1.20.4" = _OVjQhnsI;
-        "forge-1.20.1" = _OVjQhnsI;
+        "forge-1.20.1" = _ju8lsd0u;
         "forge-1.21.1" = _PM5aJsVX;
         "forge-26.1.2" = _gjSaauAe;
+        "forge-1.19" = _EMLkmuE8;
+        "forge-1.19.1" = _EMLkmuE8;
+        "forge-1.19.2" = _EMLkmuE8;
         "neoforge-1.20.4" = _6MRFstCV;
         "neoforge-1.21.1" = _r5k0Qgjf;
         "neoforge-26.1.2" = _Z5UrfGmo;
-        "fabric-1.20.1" = _yAU6O57N;
+        "fabric-1.20.1" = _BMobEU2n;
         "fabric-1.20.2" = _yAU6O57N;
         "fabric-1.20.3" = _yAU6O57N;
         "fabric-1.20.4" = _yAU6O57N;
         "fabric-1.21.1" = _Fe1leGfN;
         "fabric-26.1.2" = _VpeavT40;
+        "fabric-1.19" = _1GCDvqwM;
+        "fabric-1.19.1" = _1GCDvqwM;
+        "fabric-1.19.2" = _1GCDvqwM;
         "pkg-1.0.0-forge" = _RgFUu9Tb;
         "pkg-1.0.1-forge" = _Q0E4M4xH;
         "pkg-1.0.1-forge-1.20.1" = _OF72I0uh;
@@ -402,7 +462,16 @@ let
         "pkg-3.1.0-neoforge" = _Z5UrfGmo;
         "pkg-3.1.0-forge" = _gjSaauAe;
         "pkg-3.1.0-fabric" = _VpeavT40;
-        "default" = _VpeavT40;
+        "pkg-1.6.0-forge" = _1jhaNJ8v;
+        "pkg-1.7.0+1.20.1-forge" = _gCHnFvXp;
+        "pkg-1.7.0+1.20.1-fabric" = _wzBZFNr2;
+        "pkg-1.7.1+1.20.1-forge" = _YkbW02eP;
+        "pkg-1.7.1+1.20.1-fabric" = _bnJCvHxK;
+        "pkg-1.7.2+1.20.1-forge" = _ju8lsd0u;
+        "pkg-1.7.2+1.20.1-fabric" = _BMobEU2n;
+        "pkg-1.7.2+1.19-forge" = _EMLkmuE8;
+        "pkg-1.7.2+1.19-fabric" = _1GCDvqwM;
+        "default" = _1GCDvqwM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chili-bullet-weapons";

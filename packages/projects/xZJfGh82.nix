@@ -56,6 +56,16 @@ let
             "file" = "dashpanels-1.6+neoforge1.21.1.jar";
             "hash" = "sha512-bDVSHUfBlJ1wl9fV9Gzuuw9yWlQ8qrmlX3+vq4CNBlsaxNcLCKwTqa20Y4tEOOzLJzDTzzJKjhwz/rggv7nivg==";
         };
+        _Y5YZmU6s = {
+            "id" = "Y5YZmU6s";
+            "file" = "dashpanels-2.0+neoforge1.21.1.jar";
+            "hash" = "sha512-1duf734os7pZ80dnXzUU7kl/F2yA4qLBF9dqXq/9mvQ3WEgA7qwEwVeOnzlio2uQXrm4rOzFxwKH9KjShAqF2w==";
+        };
+        _aH1Oe6Kk = {
+            "id" = "aH1Oe6Kk";
+            "file" = "dashpanels-2.1+neoforge1.21.1.jar";
+            "hash" = "sha512-rsukxV2UhSkZoq+4qnFwAZAN+KW6w5WtWFhUW0vflajzf9bumSVHRuZfCZn7MKqiAp+rE8oe+4Kg2p3MxxjNmA==";
+        };
     in {
         "QQOEAT4D" = _QQOEAT4D;
         "tFulurzg" = _tFulurzg;
@@ -68,7 +78,9 @@ let
         "Q9deOHxg" = _Q9deOHxg;
         "gzNsVxZn" = _gzNsVxZn;
         "Mtoua6EM" = _Mtoua6EM;
-        "neoforge-1.21.1" = _Mtoua6EM;
+        "Y5YZmU6s" = _Y5YZmU6s;
+        "aH1Oe6Kk" = _aH1Oe6Kk;
+        "neoforge-1.21.1" = _aH1Oe6Kk;
         "pkg-0.1" = _QQOEAT4D;
         "pkg-0.2" = _tFulurzg;
         "pkg-0.3" = _QC8fy7Bj;
@@ -80,7 +92,9 @@ let
         "pkg-1.4+neoforge1.21.1" = _Q9deOHxg;
         "pkg-1.5+neoforge1.21.1" = _gzNsVxZn;
         "pkg-1.6+neoforge1.21.1" = _Mtoua6EM;
-        "default" = _Mtoua6EM;
+        "pkg-2.0+neoforge1.21.1" = _Y5YZmU6s;
+        "pkg-2.1+neoforge1.21.1" = _aH1Oe6Kk;
+        "default" = _aH1Oe6Kk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dashpanels";

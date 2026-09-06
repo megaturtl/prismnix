@@ -31,6 +31,16 @@ let
             "file" = "unlimited-villager-trades-26.2-1.jar";
             "hash" = "sha512-LpLrz3jhfktYekl4cv1Pm1ycXV5gPqYZNa+HJ+mx0v/Ieu0wWe0BGo9tv2AHHYO2cRhs5Xp/KLa99h7DiDUK6A==";
         };
+        _fLdGhsxd = {
+            "id" = "fLdGhsxd";
+            "file" = "unlimited_villager_trades_26.1.x.zip";
+            "hash" = "sha512-K2iO4p1YlRpR1T9yXCiaVctL8ptDZQW7czs07JP8p+nt1BJo5Buzsh44mipiBXhcgcUMV3silAiilSV5MvKMiQ==";
+        };
+        _4vpUHLvZ = {
+            "id" = "4vpUHLvZ";
+            "file" = "unlimited-villager-trades-26.1.x.jar";
+            "hash" = "sha512-lG7I6831/WbGCF8POwLv6wjiGnbxiEMBYIoaFW2kUB132aPTuju9scJLOdzAMY29WskSxXGi0mpYi45Z7YAE/A==";
+        };
     in {
         "ZXb1Etwi" = _ZXb1Etwi;
         "OZmASZH0" = _OZmASZH0;
@@ -38,30 +48,32 @@ let
         "b0HW8UjI" = _b0HW8UjI;
         "3yhrW5Df" = _3yhrW5Df;
         "UuwFknGN" = _UuwFknGN;
+        "fLdGhsxd" = _fLdGhsxd;
+        "4vpUHLvZ" = _4vpUHLvZ;
         "datapack-26.1-rc-3" = _ZXb1Etwi;
-        "datapack-26.1" = _ZXb1Etwi;
-        "datapack-26.1.1" = _ZXb1Etwi;
-        "datapack-26.1.2" = _ZXb1Etwi;
+        "datapack-26.1" = _fLdGhsxd;
+        "datapack-26.1.1" = _fLdGhsxd;
+        "datapack-26.1.2" = _fLdGhsxd;
         "datapack-26.2" = _3yhrW5Df;
         "fabric-26.1-rc-3" = _OZmASZH0;
-        "fabric-26.1" = _OZmASZH0;
-        "fabric-26.1.1" = _OZmASZH0;
-        "fabric-26.1.2" = _OZmASZH0;
+        "fabric-26.1" = _4vpUHLvZ;
+        "fabric-26.1.1" = _4vpUHLvZ;
+        "fabric-26.1.2" = _4vpUHLvZ;
         "fabric-26.2" = _UuwFknGN;
         "forge-26.1-rc-3" = _OZmASZH0;
-        "forge-26.1" = _OZmASZH0;
-        "forge-26.1.1" = _OZmASZH0;
-        "forge-26.1.2" = _OZmASZH0;
+        "forge-26.1" = _4vpUHLvZ;
+        "forge-26.1.1" = _4vpUHLvZ;
+        "forge-26.1.2" = _4vpUHLvZ;
         "forge-26.2" = _UuwFknGN;
         "neoforge-26.1-rc-3" = _OZmASZH0;
-        "neoforge-26.1" = _OZmASZH0;
-        "neoforge-26.1.1" = _OZmASZH0;
-        "neoforge-26.1.2" = _OZmASZH0;
+        "neoforge-26.1" = _4vpUHLvZ;
+        "neoforge-26.1.1" = _4vpUHLvZ;
+        "neoforge-26.1.2" = _4vpUHLvZ;
         "neoforge-26.2" = _UuwFknGN;
         "quilt-26.1-rc-3" = _OZmASZH0;
-        "quilt-26.1" = _OZmASZH0;
-        "quilt-26.1.1" = _OZmASZH0;
-        "quilt-26.1.2" = _OZmASZH0;
+        "quilt-26.1" = _4vpUHLvZ;
+        "quilt-26.1.1" = _4vpUHLvZ;
+        "quilt-26.1.2" = _4vpUHLvZ;
         "quilt-26.2" = _UuwFknGN;
         "pkg-26.1" = _ZXb1Etwi;
         "pkg-26.1+mod" = _OZmASZH0;
@@ -69,7 +81,9 @@ let
         "pkg-26.2+mod" = _b0HW8UjI;
         "pkg-26.2-1" = _3yhrW5Df;
         "pkg-26.2-1+mod" = _UuwFknGN;
-        "default" = _UuwFknGN;
+        "pkg-26.1.x" = _fLdGhsxd;
+        "pkg-26.1.x+mod" = _4vpUHLvZ;
+        "default" = _4vpUHLvZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unlimited-villager-trades";

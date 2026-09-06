@@ -66,6 +66,11 @@ let
             "file" = "multilineactionbar-mc26.1+1.0.jar";
             "hash" = "sha512-Kvvirz8tTSBMNQVDYTM9zjyxALjZX2fUlXLewcCi4etA89/KXPr/iday9cfz60QcKPK8wOWswvhu3TO7gkrtGw==";
         };
+        _tJc5W2bK = {
+            "id" = "tJc5W2bK";
+            "file" = "multilineactionbar-mc26.2+1.0.jar";
+            "hash" = "sha512-xrWSGRw7uVpXINoc/gLZU3tEwXLae0CEI3ruP3CRDLTzwU1McWMtFPoUNkVa85WyR/8VRj5P2FFAUB8Dol6rEQ==";
+        };
     in {
         "aQ1Xr3so" = _aQ1Xr3so;
         "xd2pAK5U" = _xd2pAK5U;
@@ -80,6 +85,7 @@ let
         "jUr6bpVT" = _jUr6bpVT;
         "kHaKiHrD" = _kHaKiHrD;
         "nPYGHm7l" = _nPYGHm7l;
+        "tJc5W2bK" = _tJc5W2bK;
         "fabric-1.14.4" = _aQ1Xr3so;
         "fabric-1.15" = _aQ1Xr3so;
         "fabric-1.15.1" = _aQ1Xr3so;
@@ -121,8 +127,9 @@ let
         "fabric-26.1" = _nPYGHm7l;
         "fabric-26.1.1" = _nPYGHm7l;
         "fabric-26.1.2" = _nPYGHm7l;
-        "pkg-1.0" = _nPYGHm7l;
-        "default" = _nPYGHm7l;
+        "fabric-26.2" = _tJc5W2bK;
+        "pkg-1.0" = _tJc5W2bK;
+        "default" = _tJc5W2bK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "multilineactionbar";

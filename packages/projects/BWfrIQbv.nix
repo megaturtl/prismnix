@@ -11,15 +11,22 @@ let
             "file" = "VDL Citea TCL 1.2.zip";
             "hash" = "sha512-noaMI65O14bPMG7y27Xl6b55CZGxjMm9+TW7nG/zjHeMG0JowtUJ2WuMCFBOv9V3Yit2bTaSLnhmDu36yGLs5g==";
         };
+        _ReFY8g3l = {
+            "id" = "ReFY8g3l";
+            "file" = "VDL Citea TCL 1.3.zip";
+            "hash" = "sha512-uC5XxsGUwZoFrv/wsZK5JMBFtpNyNm5lJy8WOJHZAqxbyhhFvtCGzoeXf4Xzj1Wj7zGf6zSNRtRn/02MCbQdKg==";
+        };
     in {
         "Uc054cB9" = _Uc054cB9;
         "GSo9gNVV" = _GSo9gNVV;
-        "minecraft-1.19.2" = _GSo9gNVV;
-        "minecraft-1.20.1" = _GSo9gNVV;
-        "minecraft-1.20.4" = _GSo9gNVV;
+        "ReFY8g3l" = _ReFY8g3l;
+        "minecraft-1.19.2" = _ReFY8g3l;
+        "minecraft-1.20.1" = _ReFY8g3l;
+        "minecraft-1.20.4" = _ReFY8g3l;
         "pkg-1.1" = _Uc054cB9;
         "pkg-1.2" = _GSo9gNVV;
-        "default" = _GSo9gNVV;
+        "pkg-1.3" = _ReFY8g3l;
+        "default" = _ReFY8g3l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mtr4-tcl-buses";

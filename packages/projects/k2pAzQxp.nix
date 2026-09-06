@@ -51,6 +51,11 @@ let
             "file" = "fallingsand-1.2.2--1.21.5.jar";
             "hash" = "sha512-eI44ezQzhX1UOYXfUuC6dqjG9DHfSJBySTqDlXN1fLKqMBopc+qywxTgq2GJLgmzJA6FZxs2Jsv3wJ6w+AgVmw==";
         };
+        _UAJPQb1V = {
+            "id" = "UAJPQb1V";
+            "file" = "fallingsand-1.2.2--1.21.1.jar";
+            "hash" = "sha512-CdxQwtHvQYJF+tPxP9Ka+COEYqSLeoWatNsvcCxjmR6PrkaAbGeFQdFHu77Wropw8IFZ7iqU68oeXGQnTHZ5Bg==";
+        };
     in {
         "1lwqbOCe" = _1lwqbOCe;
         "lLoXX8m5" = _lLoXX8m5;
@@ -62,6 +67,7 @@ let
         "JKednCAn" = _JKednCAn;
         "yGyFzHgg" = _yGyFzHgg;
         "tYBVWhrf" = _tYBVWhrf;
+        "UAJPQb1V" = _UAJPQb1V;
         "fabric-1.20.1" = _yGyFzHgg;
         "fabric-1.20.2" = _yGyFzHgg;
         "fabric-1.20.3" = _yGyFzHgg;
@@ -74,11 +80,12 @@ let
         "fabric-1.21.9" = _tYBVWhrf;
         "fabric-1.21.10" = _tYBVWhrf;
         "fabric-1.21.11" = _tYBVWhrf;
+        "fabric-1.21.1" = _UAJPQb1V;
         "pkg-1.1.4" = _Du5o5l15;
         "pkg-1.2.0" = _9xQtjclO;
         "pkg-1.2.1" = _JKednCAn;
-        "pkg-1.2.2" = _tYBVWhrf;
-        "default" = _tYBVWhrf;
+        "pkg-1.2.2" = _UAJPQb1V;
+        "default" = _UAJPQb1V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "falling-sand";

@@ -101,6 +101,36 @@ let
             "file" = "justutilities-fabric-1.21-21.0.9.jar";
             "hash" = "sha512-W87oGtPsgmn1Y3z3M4H8GJP81SxGftRbVQY49IoeBKl8eLheXu8BrO2x3R4eTR/Pr7HsEPqJuFGYJqu4Um/GnA==";
         };
+        _lgUgZzRx = {
+            "id" = "lgUgZzRx";
+            "file" = "justutilities-fabric-1.21.1-21.1.0-dev.jar";
+            "hash" = "sha512-+fD0/LVnDg7vAu9qipxN+aV2enZQwZe9a3iqJ05syqCvw2jWWb8gi7d9zqClFLkoL1SoryvUOr5wEfOJv5ivPw==";
+        };
+        _QQvypPkm = {
+            "id" = "QQvypPkm";
+            "file" = "justutilities-neoforge-1.21.1-21.1.0.jar";
+            "hash" = "sha512-ss1QIeC8Eid7JPvh5zOFuHM7yrZBNCeRu0RJVlUTljHAS7r4p6Akc17D2tr3N5UfBd29/eA9ZJTDm6Z40qh9LQ==";
+        };
+        _c1qGnbe0 = {
+            "id" = "c1qGnbe0";
+            "file" = "justutilities-neoforge-1.21.1-21.1.1.jar";
+            "hash" = "sha512-wexZ6QyZF/t7mbOs3V9IUjKqpu84MDc64R+gwmdyQOQe3Z3Z+DPt+cefzpFaWZNhjEDkep04YFNs/bQfcOavxg==";
+        };
+        _Q1pjYZAD = {
+            "id" = "Q1pjYZAD";
+            "file" = "justutilities-fabric-1.21.1-21.1.1.jar";
+            "hash" = "sha512-3LYL+zXZOz/mVH7q+1NRmlZggjQ3t3rWJKtjcwAxpbEGN6g7WTRzje2P6FaYMG37DuzsOV1njLYAEU86X5VPhA==";
+        };
+        _VCx3pSzr = {
+            "id" = "VCx3pSzr";
+            "file" = "justutilities-neoforge-1.21.1-21.1.2.jar";
+            "hash" = "sha512-Vpi6ka7XH8C9OH9VPk5oYVVPfGiVrg8zBmF+M9zsycqpah9AhVj3H2mzI+4yCVaT7LsZKpCZwjqXoVs0OXHU2w==";
+        };
+        _c5iDgDz0 = {
+            "id" = "c5iDgDz0";
+            "file" = "justutilities-fabric-1.21.1-21.1.2.jar";
+            "hash" = "sha512-/2IR3nBoXivg8zmpw5zS7Fl5LaeG0CWem/cMLa2KWSGxigXFVlnI3OsXI645eeqEYK5M46c4VMBAJGYfqjGHnA==";
+        };
     in {
         "XDoyxHwV" = _XDoyxHwV;
         "apcr2YkD" = _apcr2YkD;
@@ -122,11 +152,17 @@ let
         "J5mnOmJy" = _J5mnOmJy;
         "3bv93Mto" = _3bv93Mto;
         "ERZt84mL" = _ERZt84mL;
+        "lgUgZzRx" = _lgUgZzRx;
+        "QQvypPkm" = _QQvypPkm;
+        "c1qGnbe0" = _c1qGnbe0;
+        "Q1pjYZAD" = _Q1pjYZAD;
+        "VCx3pSzr" = _VCx3pSzr;
+        "c5iDgDz0" = _c5iDgDz0;
         "forge-1.20.1" = _XDoyxHwV;
         "neoforge-1.21" = _3bv93Mto;
-        "neoforge-1.21.1" = _3bv93Mto;
+        "neoforge-1.21.1" = _VCx3pSzr;
         "fabric-1.21" = _ERZt84mL;
-        "fabric-1.21.1" = _ERZt84mL;
+        "fabric-1.21.1" = _c5iDgDz0;
         "pkg-1.20.1-0.2.2" = _XDoyxHwV;
         "pkg-21.0.1" = _ci4wTQVe;
         "pkg-21.0.2" = _V87eY4vn;
@@ -137,7 +173,10 @@ let
         "pkg-21.0.7" = _eEQz6AOK;
         "pkg-21.0.8" = _J5mnOmJy;
         "pkg-21.0.9" = _ERZt84mL;
-        "default" = _ERZt84mL;
+        "pkg-21.1.0" = _QQvypPkm;
+        "pkg-21.1.1" = _Q1pjYZAD;
+        "pkg-21.1.2" = _c5iDgDz0;
+        "default" = _c5iDgDz0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "just-utilities";

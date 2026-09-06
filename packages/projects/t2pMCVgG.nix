@@ -116,6 +116,16 @@ let
             "file" = "BeyondEnchant-1.8.0.jar";
             "hash" = "sha512-Soi24/fP0lAlg9vOv4AfpU96VBw33qUeEOftyNUyD7ZeNJjwj0um0pGO7OCVwTXFr96oglkPUbSyI41fNXpFuw==";
         };
+        _bib0noQw = {
+            "id" = "bib0noQw";
+            "file" = "BeyondEnchant-1.9.0.zip";
+            "hash" = "sha512-sWLIkMawQ8iKfOyW0nSO8N1WWXKdCvwMuhD2eDoi0aqbiY8Rci6MDH3YNa3nGq7i5GG0jVB2i3DqyzMnNKr2OA==";
+        };
+        _PHTdyLwH = {
+            "id" = "PHTdyLwH";
+            "file" = "BeyondEnchant-1.9.0.jar";
+            "hash" = "sha512-/rwd+xAQPZuoNg9lUBRs5MqklCcU4pCIUrC4XPSUG4cDMHnZSAiv5WySxXu5Ypo20xmddAwxxW8uBdjlOi/IOQ==";
+        };
     in {
         "bltIq5xf" = _bltIq5xf;
         "4vKJhUf8" = _4vKJhUf8;
@@ -140,6 +150,8 @@ let
         "B5Eitclf" = _B5Eitclf;
         "FooQ9EoX" = _FooQ9EoX;
         "XxkVqGbT" = _XxkVqGbT;
+        "bib0noQw" = _bib0noQw;
+        "PHTdyLwH" = _PHTdyLwH;
         "datapack-24w19a" = _bltIq5xf;
         "datapack-24w19b" = _bltIq5xf;
         "datapack-1.21-pre4" = _Fc453AjG;
@@ -158,6 +170,7 @@ let
         "datapack-1.21.10" = _DAq14Fsn;
         "datapack-1.21.11" = _YCOByo1g;
         "datapack-26.1.2" = _FooQ9EoX;
+        "datapack-26.2" = _bib0noQw;
         "fabric-24w19a" = _4vKJhUf8;
         "fabric-24w19b" = _4vKJhUf8;
         "fabric-1.21-pre4" = _Dko8XMAn;
@@ -174,6 +187,7 @@ let
         "fabric-1.21.10" = _dKQbucas;
         "fabric-1.21.11" = _B5Eitclf;
         "fabric-26.1.2" = _XxkVqGbT;
+        "fabric-26.2" = _PHTdyLwH;
         "forge-24w19a" = _4vKJhUf8;
         "forge-24w19b" = _4vKJhUf8;
         "forge-1.21-pre4" = _Dko8XMAn;
@@ -190,6 +204,7 @@ let
         "forge-1.21.10" = _dKQbucas;
         "forge-1.21.11" = _B5Eitclf;
         "forge-26.1.2" = _XxkVqGbT;
+        "forge-26.2" = _PHTdyLwH;
         "quilt-24w19a" = _4vKJhUf8;
         "quilt-24w19b" = _4vKJhUf8;
         "quilt-1.21-pre4" = _Dko8XMAn;
@@ -206,6 +221,7 @@ let
         "quilt-1.21.10" = _dKQbucas;
         "quilt-1.21.11" = _B5Eitclf;
         "quilt-26.1.2" = _XxkVqGbT;
+        "quilt-26.2" = _PHTdyLwH;
         "neoforge-1.21.2" = _eXuedcFv;
         "neoforge-1.21.3" = _eXuedcFv;
         "neoforge-1.21.4" = _eXuedcFv;
@@ -219,6 +235,7 @@ let
         "neoforge-1.21.10" = _dKQbucas;
         "neoforge-1.21.11" = _B5Eitclf;
         "neoforge-26.1.2" = _XxkVqGbT;
+        "neoforge-26.2" = _PHTdyLwH;
         "pkg-1.0.0" = _bltIq5xf;
         "pkg-1.0.0+mod" = _4vKJhUf8;
         "pkg-1.1.0" = _Fc453AjG;
@@ -241,7 +258,9 @@ let
         "pkg-1.7.0+mod" = _B5Eitclf;
         "pkg-1.8.0" = _FooQ9EoX;
         "pkg-1.8.0+mod" = _XxkVqGbT;
-        "default" = _XxkVqGbT;
+        "pkg-1.9.0" = _bib0noQw;
+        "pkg-1.9.0+mod" = _PHTdyLwH;
+        "default" = _PHTdyLwH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "beyondenchant";

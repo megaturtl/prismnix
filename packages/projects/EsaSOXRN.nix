@@ -41,6 +41,11 @@ let
             "file" = "polymer-qol-1.0.2+26.2.jar";
             "hash" = "sha512-P2fAAwhCqgg6sSgu2hMm8Yo+ABzwYQt+XHErCN8Bz1vMF7r77ID437LhlEtiMMWB/Od86JJwbH3S0Irmobdlng==";
         };
+        _r2p7EP64 = {
+            "id" = "r2p7EP64";
+            "file" = "polymer-qol-1.0.3+26.2.jar";
+            "hash" = "sha512-mmR9ij9juRG8rpm0cg/Bsvka1ZirFOJwsKRW+KbsZxVYACUJuICgpqcAg5snQt23Uv5BVgfVnpMxXSEuPs7CoQ==";
+        };
     in {
         "isMnPNXT" = _isMnPNXT;
         "OwEUNtmH" = _OwEUNtmH;
@@ -50,6 +55,7 @@ let
         "9OekaRuL" = _9OekaRuL;
         "GwpZTcks" = _GwpZTcks;
         "MiY1PDpy" = _MiY1PDpy;
+        "r2p7EP64" = _r2p7EP64;
         "fabric-1.21.5" = _isMnPNXT;
         "fabric-1.21.6-rc1" = _OwEUNtmH;
         "fabric-1.21.6" = _OwEUNtmH;
@@ -61,7 +67,7 @@ let
         "fabric-26.1" = _GwpZTcks;
         "fabric-26.1.1" = _GwpZTcks;
         "fabric-26.1.2" = _GwpZTcks;
-        "fabric-26.2" = _MiY1PDpy;
+        "fabric-26.2" = _r2p7EP64;
         "pkg-1.0.0" = _isMnPNXT;
         "pkg-1.0.0+1.21.6-rc1" = _OwEUNtmH;
         "pkg-1.0.1+1.21.7" = _NEiPq0JD;
@@ -70,7 +76,8 @@ let
         "pkg-1.0.2+1.21.11" = _9OekaRuL;
         "pkg-1.0.2+26.1" = _GwpZTcks;
         "pkg-1.0.2+26.2" = _MiY1PDpy;
-        "default" = _MiY1PDpy;
+        "pkg-1.0.3+26.2" = _r2p7EP64;
+        "default" = _r2p7EP64;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "polymer-qol";

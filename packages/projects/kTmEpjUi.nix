@@ -106,6 +106,16 @@ let
             "file" = "MTimer-134.jar";
             "hash" = "sha512-xL3tewyczwH4c8RGWwvUfIK/36+VShgdMvCYbSeDkiR9yyvfm5R1gYOJWMM+6CbFQn3vQJ8LHmEUB4DQztQ8Zg==";
         };
+        _AfJKN70u = {
+            "id" = "AfJKN70u";
+            "file" = "MTimer-135.jar";
+            "hash" = "sha512-w3z//TvqXzaztMNFS6COEPXJepQKJr2CAEHiUlzgId4HPX9B4EQdKSbCB/tyMchLmyZ+vEJoc72bF6MLby9HiA==";
+        };
+        _xfCwGGYv = {
+            "id" = "xfCwGGYv";
+            "file" = "MTimer-136.jar";
+            "hash" = "sha512-bucww3wY6j2sj6vxL66ymHHTTPmk19e+Gy15vSrNw9+sN1v7EnmpcByKwqBAC/Vl2lTf0pGDB08rcIW6+vfK3g==";
+        };
     in {
         "8FuAcRdb" = _8FuAcRdb;
         "tRaP4v6n" = _tRaP4v6n;
@@ -128,6 +138,8 @@ let
         "mUVvmAmt" = _mUVvmAmt;
         "EL0z8dva" = _EL0z8dva;
         "nwveDSzD" = _nwveDSzD;
+        "AfJKN70u" = _AfJKN70u;
+        "xfCwGGYv" = _xfCwGGYv;
         "paper-1.16" = _wXp9QbRF;
         "paper-1.16.1" = _wXp9QbRF;
         "paper-1.16.2" = _wXp9QbRF;
@@ -160,6 +172,10 @@ let
         "paper-1.21.6" = _nwveDSzD;
         "paper-1.21.7" = _nwveDSzD;
         "paper-1.21.8" = _nwveDSzD;
+        "paper-26.1" = _xfCwGGYv;
+        "paper-26.1.1" = _xfCwGGYv;
+        "paper-26.1.2" = _xfCwGGYv;
+        "paper-26.2" = _xfCwGGYv;
         "purpur-1.16" = _wXp9QbRF;
         "purpur-1.16.1" = _wXp9QbRF;
         "purpur-1.16.2" = _wXp9QbRF;
@@ -192,6 +208,10 @@ let
         "purpur-1.21.6" = _nwveDSzD;
         "purpur-1.21.7" = _nwveDSzD;
         "purpur-1.21.8" = _nwveDSzD;
+        "purpur-26.1" = _xfCwGGYv;
+        "purpur-26.1.1" = _xfCwGGYv;
+        "purpur-26.1.2" = _xfCwGGYv;
+        "purpur-26.2" = _xfCwGGYv;
         "pkg-1.0.1" = _8FuAcRdb;
         "pkg-paper-1.0.3" = _tRaP4v6n;
         "pkg-1.1.0" = _JHI8ZOct;
@@ -213,7 +233,9 @@ let
         "pkg-132" = _mUVvmAmt;
         "pkg-133" = _EL0z8dva;
         "pkg-134" = _nwveDSzD;
-        "default" = _nwveDSzD;
+        "pkg-135" = _AfJKN70u;
+        "pkg-136" = _xfCwGGYv;
+        "default" = _xfCwGGYv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "timer";

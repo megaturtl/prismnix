@@ -91,6 +91,16 @@ let
             "file" = "PvP_Swords.zip";
             "hash" = "sha512-//Adj0g+75LUDwb1gHID3y/xeB07QKtAbSMPqd6a5tDKs6xnT9XaFIT44YaRysO6N0T3f3VvLjUhsCkOCtuqLA==";
         };
+        _qZuHGbfY = {
+            "id" = "qZuHGbfY";
+            "file" = "PvP_Swords.zip";
+            "hash" = "sha512-PI0Q3pmpKE82mr3a2Rh8rr30Xm5xQBoFopj6KNI18tjMZ02RiyhwqH5MFbslED8SgYVnKqWffioYzPc81ioRzg==";
+        };
+        _LA5dAQf2 = {
+            "id" = "LA5dAQf2";
+            "file" = "PvP_Swords 26.2.zip";
+            "hash" = "sha512-VnKzLxdyyBfgAjgBjmqe1DRWZMn5ijAuOkUzZWoONJg4odc7CyhJfb1+i6vmLv4dAIg2YMHaDZxhPb0KQbudXg==";
+        };
     in {
         "NKfqLp9T" = _NKfqLp9T;
         "lN2W1FrU" = _lN2W1FrU;
@@ -110,6 +120,8 @@ let
         "RE80eUaj" = _RE80eUaj;
         "fuF4tmkQ" = _fuF4tmkQ;
         "DMaeJUy0" = _DMaeJUy0;
+        "qZuHGbfY" = _qZuHGbfY;
+        "LA5dAQf2" = _LA5dAQf2;
         "minecraft-1.21" = _NKfqLp9T;
         "minecraft-1.21.1" = _NKfqLp9T;
         "minecraft-1.21.2" = _lN2W1FrU;
@@ -192,10 +204,14 @@ let
         "minecraft-1.21.9" = _DMaeJUy0;
         "minecraft-1.21.10" = _DMaeJUy0;
         "minecraft-1.21.11" = _DMaeJUy0;
+        "minecraft-26.1" = _qZuHGbfY;
+        "minecraft-26.1.1" = _qZuHGbfY;
+        "minecraft-26.1.2" = _qZuHGbfY;
+        "minecraft-26.2" = _LA5dAQf2;
         "pkg-1.0" = _NKfqLp9T;
         "pkg-1.1" = _lN2W1FrU;
         "pkg-1.2" = _w6H62Tq8;
-        "pkg-1.3" = _yFVIRfL2;
+        "pkg-1.3" = _qZuHGbfY;
         "pkg-1.4" = _LinhOn8z;
         "pkg-1.5" = _pge6DuTY;
         "pkg-1.6" = _rsrVJCmu;
@@ -210,7 +226,8 @@ let
         "pkg-1.15" = _RE80eUaj;
         "pkg-1.16-1.19" = _fuF4tmkQ;
         "pkg-1.21.9-1.21.11" = _DMaeJUy0;
-        "default" = _DMaeJUy0;
+        "pkg-26.2" = _LA5dAQf2;
+        "default" = _LA5dAQf2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shorter-pvp-swords";

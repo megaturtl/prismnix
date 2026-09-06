@@ -36,6 +36,11 @@ let
             "file" = "TMTCF-NF-1.21.1-2.0.3.jar";
             "hash" = "sha512-bt6PqRIOvEgVORb20gUs8HVwEWpaW8aKLqQznCZ3bkHjWDX9zIkpcn84IYRIsbcES4Nc3EUkVJsy+8J0TZ6C9w==";
         };
+        _F9ho6FHG = {
+            "id" = "F9ho6FHG";
+            "file" = "TMTCF-NF-1.21.1-2.0.4.jar";
+            "hash" = "sha512-ZZyq3pqgcuAXYBOVQnI8lBux5CoJE9L7/+fuMpXe78LY537HsypEIddFZlmy2uvm5MrsHtGVHtzKNi0KBvxNRw==";
+        };
     in {
         "NoM0AO4V" = _NoM0AO4V;
         "YgbrJw78" = _YgbrJw78;
@@ -44,7 +49,8 @@ let
         "BLyfbgZX" = _BLyfbgZX;
         "rOYqWmEY" = _rOYqWmEY;
         "Fe8s25gF" = _Fe8s25gF;
-        "neoforge-1.21.1" = _Fe8s25gF;
+        "F9ho6FHG" = _F9ho6FHG;
+        "neoforge-1.21.1" = _F9ho6FHG;
         "neoforge-1.21.2" = _NoM0AO4V;
         "neoforge-1.21.3" = _NoM0AO4V;
         "neoforge-1.21.4" = _NoM0AO4V;
@@ -55,7 +61,8 @@ let
         "pkg-R.1.10" = _BLyfbgZX;
         "pkg-2.0.2" = _rOYqWmEY;
         "pkg-2.0.3" = _Fe8s25gF;
-        "default" = _Fe8s25gF;
+        "pkg-2.0.4" = _F9ho6FHG;
+        "default" = _F9ho6FHG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tomtarus-cobblemon-and-farmers-delight-tweaks";

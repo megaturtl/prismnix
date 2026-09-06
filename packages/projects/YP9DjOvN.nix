@@ -131,6 +131,11 @@ let
             "file" = "tetra-1.20.1-6.16.0.jar";
             "hash" = "sha512-9dAysLz8EhaC82BbUViiPS0f6PG3OaPFZoEgz67CnuXaVcQDdigQ2uFG+udmE0PyVCibrIAtDwQkLiXsDuQjOg==";
         };
+        _voxpV4mH = {
+            "id" = "voxpV4mH";
+            "file" = "tetra-1.20.1-6.17.0.jar";
+            "hash" = "sha512-c5aJHwx0RquTxxShWkBCEeJnVrfTFsGY8vPOLPib3uC+x4mmS9ZHz1zWwhulvgncZxk9CpCjEe5T5Vx+pNz1WA==";
+        };
     in {
         "db6bS0KD" = _db6bS0KD;
         "okiVspv1" = _okiVspv1;
@@ -158,11 +163,12 @@ let
         "5m2SpSC5" = _5m2SpSC5;
         "AFGZ74wD" = _AFGZ74wD;
         "mKVFgfNO" = _mKVFgfNO;
+        "voxpV4mH" = _voxpV4mH;
         "forge-1.19.1" = _tj9wtOla;
         "forge-1.19.2" = _tj9wtOla;
         "forge-1.19" = _959pYI3r;
-        "forge-1.20.1" = _mKVFgfNO;
-        "neoforge-1.20.1" = _mKVFgfNO;
+        "forge-1.20.1" = _voxpV4mH;
+        "neoforge-1.20.1" = _voxpV4mH;
         "pkg-5.3.0" = _db6bS0KD;
         "pkg-5.3.1" = _okiVspv1;
         "pkg-5.4.0" = _O0XIA63a;
@@ -189,7 +195,8 @@ let
         "pkg-6.14.2" = _5m2SpSC5;
         "pkg-6.15.0" = _AFGZ74wD;
         "pkg-6.16.0" = _mKVFgfNO;
-        "default" = _mKVFgfNO;
+        "pkg-6.17.0" = _voxpV4mH;
+        "default" = _voxpV4mH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tetra";

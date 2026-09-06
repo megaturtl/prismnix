@@ -2141,6 +2141,16 @@ let
             "file" = "bingo-2.12.1+mc26.2.jar";
             "hash" = "sha512-kF9UoUQcWkRBGR7TMaMMWMSzI0TwMmicS7a1/b7FZW7IT/o5I7rX68bzlbTNiKiBp1CvKGSAelBjOYnyjoYCKw==";
         };
+        _aSv9O2Ih = {
+            "id" = "aSv9O2Ih";
+            "file" = "bingo-2.13.0+mc26.1.jar";
+            "hash" = "sha512-g216iVUtm5H2Z+Kw3H/tND9uMkxPrItZR1Mp1CZ6MbjkS6Te5dN38jtJhAr+xXss1yvnOCprYJUWANH28E54JA==";
+        };
+        _dfpGjzqD = {
+            "id" = "dfpGjzqD";
+            "file" = "bingo-2.13.0+mc26.2.jar";
+            "hash" = "sha512-q2wsZKlUnQfBswMm7620J3yoTqi0OCU7mgne3R8zHAYPprC/6zysJBwWA7bOxrYjxWQONjbxyurvhn4FQq+u1w==";
+        };
     in {
         "RVwqvmAg" = _RVwqvmAg;
         "zgurddMe" = _zgurddMe;
@@ -2570,6 +2580,8 @@ let
         "GeZBcdgz" = _GeZBcdgz;
         "tw6p46xL" = _tw6p46xL;
         "PZo2gZi5" = _PZo2gZi5;
+        "aSv9O2Ih" = _aSv9O2Ih;
+        "dfpGjzqD" = _dfpGjzqD;
         "fabric-1.20" = _764TyFMt;
         "fabric-1.20.3" = _80auCTtt;
         "fabric-1.20.4" = _80auCTtt;
@@ -2589,10 +2601,10 @@ let
         "fabric-1.21.9" = _aoXWGnvo;
         "fabric-1.21.10" = _aoXWGnvo;
         "fabric-1.21.11" = _Vb6yPYhc;
-        "fabric-26.1" = _tw6p46xL;
-        "fabric-26.1.1" = _tw6p46xL;
-        "fabric-26.1.2" = _tw6p46xL;
-        "fabric-26.2" = _PZo2gZi5;
+        "fabric-26.1" = _aSv9O2Ih;
+        "fabric-26.1.1" = _aSv9O2Ih;
+        "fabric-26.1.2" = _aSv9O2Ih;
+        "fabric-26.2" = _dfpGjzqD;
         "quilt-1.20" = _764TyFMt;
         "quilt-1.20.3" = _80auCTtt;
         "quilt-1.20.4" = _80auCTtt;
@@ -2612,10 +2624,10 @@ let
         "quilt-1.21.9" = _aoXWGnvo;
         "quilt-1.21.10" = _aoXWGnvo;
         "quilt-1.21.11" = _Vb6yPYhc;
-        "quilt-26.1" = _tw6p46xL;
-        "quilt-26.1.1" = _tw6p46xL;
-        "quilt-26.1.2" = _tw6p46xL;
-        "quilt-26.2" = _PZo2gZi5;
+        "quilt-26.1" = _aSv9O2Ih;
+        "quilt-26.1.1" = _aSv9O2Ih;
+        "quilt-26.1.2" = _aSv9O2Ih;
+        "quilt-26.2" = _dfpGjzqD;
         "pkg-1.0.0" = _RVwqvmAg;
         "pkg-1.0.1" = _zgurddMe;
         "pkg-1.0.2" = _X6pX66Zb;
@@ -3044,7 +3056,9 @@ let
         "pkg-2.12.0+mc26.2" = _GeZBcdgz;
         "pkg-2.12.1+mc26.1" = _tw6p46xL;
         "pkg-2.12.1+mc26.2" = _PZo2gZi5;
-        "default" = _PZo2gZi5;
+        "pkg-2.13.0+mc26.1" = _aSv9O2Ih;
+        "pkg-2.13.0+mc26.2" = _dfpGjzqD;
+        "default" = _dfpGjzqD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yet-another-minecraft-bingo";

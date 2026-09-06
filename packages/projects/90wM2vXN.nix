@@ -26,21 +26,28 @@ let
             "file" = "ArdaGrass-1.3-1.21.1.jar";
             "hash" = "sha512-dACBR2d97uQJHcpu+Fi0KrRFNSdzYNVaj0SEDXilU7pT0wyvOxH4uxPPwiyMhnpWJR9dXPliMZLTkoA0k3gL5A==";
         };
+        _lvkXxoUF = {
+            "id" = "lvkXxoUF";
+            "file" = "ArdaGrass-1.3.1-1.21.1.jar";
+            "hash" = "sha512-ueQD5Q/JGvxD7zNoZfnZ4JalNl/DgEtslNYmUhN+qRj5tuK19/3xqSxSI9XSp+a88ZKhLpR2TfImMlgJNEx5cg==";
+        };
     in {
         "fnk0S4Dz" = _fnk0S4Dz;
         "MmweO0dO" = _MmweO0dO;
         "6F692rd9" = _6F692rd9;
         "SmrYq3hi" = _SmrYq3hi;
         "DGVejJe0" = _DGVejJe0;
+        "lvkXxoUF" = _lvkXxoUF;
         "fabric-1.19.2" = _fnk0S4Dz;
         "fabric-1.20.1" = _SmrYq3hi;
-        "fabric-1.21.1" = _DGVejJe0;
+        "fabric-1.21.1" = _lvkXxoUF;
         "pkg-1.0" = _fnk0S4Dz;
         "pkg-1.0-1.20.1" = _MmweO0dO;
         "pkg-1.1-1.20.1" = _6F692rd9;
         "pkg-1.2-1.20.1" = _SmrYq3hi;
         "pkg-1.3-1.21.1" = _DGVejJe0;
-        "default" = _DGVejJe0;
+        "pkg-1.3.1-1.21.1" = _lvkXxoUF;
+        "default" = _lvkXxoUF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ardagrass";

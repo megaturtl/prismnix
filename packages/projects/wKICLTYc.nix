@@ -144,6 +144,7 @@ let
         "fabric-26.1" = _Xrfo9Hyq;
         "fabric-26.1.1" = _Xrfo9Hyq;
         "fabric-26.1.2" = _Xrfo9Hyq;
+        "fabric-26.2" = _Xrfo9Hyq;
         "quilt-1.20.1" = _qZ9QnjW3;
         "quilt-1.20" = _qZ9QnjW3;
         "quilt-1.20.2" = _qZ9QnjW3;
@@ -166,6 +167,7 @@ let
         "quilt-26.1" = _Xrfo9Hyq;
         "quilt-26.1.1" = _Xrfo9Hyq;
         "quilt-26.1.2" = _Xrfo9Hyq;
+        "quilt-26.2" = _Xrfo9Hyq;
         "neoforge-1.20.2" = _IDDqLHxJ;
         "neoforge-1.20.3" = _IDDqLHxJ;
         "neoforge-1.20.4" = _IDDqLHxJ;
@@ -185,6 +187,7 @@ let
         "neoforge-26.1" = _iRrkNWKm;
         "neoforge-26.1.1" = _iRrkNWKm;
         "neoforge-26.1.2" = _iRrkNWKm;
+        "neoforge-26.2" = _iRrkNWKm;
         "neoforge-1.21.11" = _Whdxhu07;
         "forge-1.20.1" = _8uq6RxKv;
         "pkg-1.0.0+mc1.20.1" = _31Sch04v;

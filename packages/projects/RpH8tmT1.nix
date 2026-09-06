@@ -81,6 +81,26 @@ let
             "file" = "azimuth-1.4.3.jar";
             "hash" = "sha512-0nPL7tcaHvSh/BuxMnZEJz3emJchpF4R//RJfcvdCBLy75VVpvuvSA5PFkYur+fcczCMGO13QhdjMOwOha6ChQ==";
         };
+        _5NkrnFXe = {
+            "id" = "5NkrnFXe";
+            "file" = "azimuth-1.4.5.jar";
+            "hash" = "sha512-u79bE0PF7X19v1/URqHknV+N07yZzOmFsl2vQv7V3S9xrUiH+qpjSJj4IKnvxK6VR9PjUB8k33IppXZU1+dNGg==";
+        };
+        _J0DLzvA9 = {
+            "id" = "J0DLzvA9";
+            "file" = "azimuth-1.4.6.jar";
+            "hash" = "sha512-ohzwDoKq+FIVhw5e3CQalcSzo5lMP2s9uOePY7Lcktsaczt8MEISP/jnN95o+xWFTCDpBMIXn5g5eGmf5662pQ==";
+        };
+        _O3caj5PW = {
+            "id" = "O3caj5PW";
+            "file" = "azimuth-1.4.7.jar";
+            "hash" = "sha512-iH0CF64TzNpfmsuMJA2PSJEtqX46CMYb1pbMjQW+33qxI8sZGcB0UVjJzFoo2Ah4vtJC1X+IodaR2Sa7w/GkKg==";
+        };
+        _82WgkpfK = {
+            "id" = "82WgkpfK";
+            "file" = "azimuth-1.4.8.jar";
+            "hash" = "sha512-n6+XybbrOL8xh5d+Zg6JUwwqboYvUDgLRijoOdic7ifxsy/5TRKDIAeW2BbTMlwtvQCg0/SYmKUMPyNeCwIDjA==";
+        };
     in {
         "Yg2McGEI" = _Yg2McGEI;
         "kcSfVue0" = _kcSfVue0;
@@ -98,7 +118,11 @@ let
         "UOZsP1x8" = _UOZsP1x8;
         "FZgzuDBp" = _FZgzuDBp;
         "T4qf29AQ" = _T4qf29AQ;
-        "neoforge-1.21.1" = _T4qf29AQ;
+        "5NkrnFXe" = _5NkrnFXe;
+        "J0DLzvA9" = _J0DLzvA9;
+        "O3caj5PW" = _O3caj5PW;
+        "82WgkpfK" = _82WgkpfK;
+        "neoforge-1.21.1" = _82WgkpfK;
         "pkg-1.0.0-SNAPSHOT" = _Yg2McGEI;
         "pkg-1.1.0" = _kcSfVue0;
         "pkg-1.1.1" = _VL6NS4lD;
@@ -113,7 +137,11 @@ let
         "pkg-1.4.1" = _vNeuJ1Hb;
         "pkg-1.4.2" = _FZgzuDBp;
         "pkg-1.4.3" = _T4qf29AQ;
-        "default" = _T4qf29AQ;
+        "pkg-1.4.5" = _5NkrnFXe;
+        "pkg-1.4.6" = _J0DLzvA9;
+        "pkg-1.4.7" = _O3caj5PW;
+        "pkg-1.4.8" = _82WgkpfK;
+        "default" = _82WgkpfK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "azimuth-api";

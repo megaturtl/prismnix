@@ -71,6 +71,16 @@ let
             "file" = "NPCStudio 1.3.5.jar";
             "hash" = "sha512-tYJm1FI2iDMcDDlJy+BtnMCQZwBmgsn/20iU4i0cWkoASGEXYswSt3flIFRTyBy3ien5S3OCRtkHxawAtKrGGQ==";
         };
+        _ysXitB6s = {
+            "id" = "ysXitB6s";
+            "file" = "NPCStudio 1.3.6.jar";
+            "hash" = "sha512-ctwrpIE7OMHW92r/rAY9Bw7pTXtgzfYqdxzTZ1VMP4ZRuyT2FkvQl1QuqL6WrpfCoRc2bl4phQ00jL4sOvwK0g==";
+        };
+        _InPuQHuH = {
+            "id" = "InPuQHuH";
+            "file" = "NPCStudio 1.3.7.jar";
+            "hash" = "sha512-986At+P2iuGXOOpAoNLfGptNDcP+35Jg84Ci4LZc5hmu6X3n6sucCx5P3oaLiGToCOUAoI2njjIYl5CVnAsaKA==";
+        };
     in {
         "AN9DMNyG" = _AN9DMNyG;
         "baRq1fET" = _baRq1fET;
@@ -86,10 +96,12 @@ let
         "oE2z6LDq" = _oE2z6LDq;
         "8RSMMtnK" = _8RSMMtnK;
         "gR6jPcHF" = _gR6jPcHF;
+        "ysXitB6s" = _ysXitB6s;
+        "InPuQHuH" = _InPuQHuH;
         "forge-1.8.9" = _AN9DMNyG;
         "forge-1.20.1" = _XJvHLfzk;
         "fabric-1.20.1" = _i9ydALz5;
-        "fabric-1.21.11" = _gR6jPcHF;
+        "fabric-1.21.11" = _InPuQHuH;
         "pkg-1.3" = _AN9DMNyG;
         "pkg-1.0-SNAPSHOT" = _baRq1fET;
         "pkg-2.3" = _B3bpKFxn;
@@ -103,7 +115,9 @@ let
         "pkg-1.3.3" = _oE2z6LDq;
         "pkg-1.3.4" = _8RSMMtnK;
         "pkg-1.3.5" = _gR6jPcHF;
-        "default" = _gR6jPcHF;
+        "pkg-1.3.6" = _ysXitB6s;
+        "pkg-1.3.7" = _InPuQHuH;
+        "default" = _InPuQHuH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "npc-studio";

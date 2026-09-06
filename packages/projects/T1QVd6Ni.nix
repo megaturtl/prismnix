@@ -56,6 +56,11 @@ let
             "file" = "Better Nature-1.21.11-1.4.4.jar";
             "hash" = "sha512-C+ZBWRKuS9ON2A9ZgyNQSvx4GrTNJOyS/DIIBfXbEAxCA6s/c3MgsCbCnTz9g5wNN0ZiMow6qqo9nU+7TpRfzg==";
         };
+        _yI26ZMUL = {
+            "id" = "yI26ZMUL";
+            "file" = "Better Nature-26.3-1.4.4.jar";
+            "hash" = "sha512-4JCUweFC0YaYoTV+M3iWXVzQw3HdoK1e6NaN9MwoS+nr3Q8XAuiSu1dCibcx9R1DaojLDmrJs78vSUKMYPHIew==";
+        };
     in {
         "W3KCJr0D" = _W3KCJr0D;
         "KsgkxYCq" = _KsgkxYCq;
@@ -68,6 +73,7 @@ let
         "idYC00EV" = _idYC00EV;
         "DOcXxNlw" = _DOcXxNlw;
         "MIo2gq0t" = _MIo2gq0t;
+        "yI26ZMUL" = _yI26ZMUL;
         "fabric-1.21.6" = _Ety7Uy0u;
         "fabric-1.21.7" = _Ety7Uy0u;
         "fabric-1.21.8" = _Ety7Uy0u;
@@ -104,6 +110,7 @@ let
         "fabric-26w14a" = _MIo2gq0t;
         "fabric-26.1.2" = _MIo2gq0t;
         "fabric-26.2" = _MIo2gq0t;
+        "fabric-26.3-pre-2" = _yI26ZMUL;
         "forge-1.21.6" = _Ety7Uy0u;
         "forge-1.21.7" = _Ety7Uy0u;
         "forge-1.21.8" = _Ety7Uy0u;
@@ -140,6 +147,7 @@ let
         "forge-26w14a" = _MIo2gq0t;
         "forge-26.1.2" = _MIo2gq0t;
         "forge-26.2" = _MIo2gq0t;
+        "forge-26.3-pre-2" = _yI26ZMUL;
         "neoforge-1.21.6" = _Ety7Uy0u;
         "neoforge-1.21.7" = _Ety7Uy0u;
         "neoforge-1.21.8" = _Ety7Uy0u;
@@ -176,6 +184,7 @@ let
         "neoforge-26w14a" = _MIo2gq0t;
         "neoforge-26.1.2" = _MIo2gq0t;
         "neoforge-26.2" = _MIo2gq0t;
+        "neoforge-26.3-pre-2" = _yI26ZMUL;
         "quilt-1.21.6" = _Ety7Uy0u;
         "quilt-1.21.7" = _Ety7Uy0u;
         "quilt-1.21.8" = _Ety7Uy0u;
@@ -212,6 +221,7 @@ let
         "quilt-26w14a" = _MIo2gq0t;
         "quilt-26.1.2" = _MIo2gq0t;
         "quilt-26.2" = _MIo2gq0t;
+        "quilt-26.3-pre-2" = _yI26ZMUL;
         "pkg-1.0" = _W3KCJr0D;
         "pkg-1.0.1" = _KsgkxYCq;
         "pkg-1.1" = _iWSWKDF5;
@@ -222,8 +232,8 @@ let
         "pkg-1.4.1" = _ChNQwJHm;
         "pkg-1.4.2" = _idYC00EV;
         "pkg-1.4.3" = _DOcXxNlw;
-        "pkg-1.4.4" = _MIo2gq0t;
-        "default" = _MIo2gq0t;
+        "pkg-1.4.4" = _yI26ZMUL;
+        "default" = _yI26ZMUL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-nature";

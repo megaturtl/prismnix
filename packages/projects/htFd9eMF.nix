@@ -71,6 +71,11 @@ let
             "file" = "HideYourArmor-1.6.0-universal.jar";
             "hash" = "sha512-uWyiddntw4hgVmPEtOrPHfpIon5cq0xOzL2vZXbMTGoka9Ikf4bjzR9q8U4lnbo1m3nWKUSd+DpRoQrsvjd1Bg==";
         };
+        _l9bZkZXZ = {
+            "id" = "l9bZkZXZ";
+            "file" = "HideYourArmor-1.6.1-universal.jar";
+            "hash" = "sha512-AcNMqw6lrHn+kWCmRybBVBXY5uipbiYzV3NNbPAElXgOJtN2Ee3ToJTPFvdnVF+Tu5xZKlyYIXGnoPKIcR1a8Q==";
+        };
     in {
         "5RRGe9uM" = _5RRGe9uM;
         "OcgSNgHf" = _OcgSNgHf;
@@ -86,12 +91,13 @@ let
         "7FFbQeXp" = _7FFbQeXp;
         "FvVjRPty" = _FvVjRPty;
         "apUqdfGI" = _apUqdfGI;
+        "l9bZkZXZ" = _l9bZkZXZ;
         "fabric-1.21.4" = _OcgSNgHf;
         "fabric-1.21.11" = _Zx5O38Om;
         "fabric-26.1" = _KWWY9RKT;
         "fabric-26.1.2" = _AKhMiMi8;
-        "fabric-26.2" = _apUqdfGI;
-        "neoforge-26.2" = _apUqdfGI;
+        "fabric-26.2" = _l9bZkZXZ;
+        "neoforge-26.2" = _l9bZkZXZ;
         "pkg-1.0" = _5RRGe9uM;
         "pkg-1.1.0" = _OcgSNgHf;
         "pkg-1.2.0" = _lP9WN4Rt;
@@ -106,7 +112,8 @@ let
         "pkg-1.5.3-beta" = _7FFbQeXp;
         "pkg-1.5.4" = _FvVjRPty;
         "pkg-1.6.0" = _apUqdfGI;
-        "default" = _apUqdfGI;
+        "pkg-1.6.1" = _l9bZkZXZ;
+        "default" = _l9bZkZXZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hide-your-armour";

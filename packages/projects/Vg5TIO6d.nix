@@ -546,6 +546,11 @@ let
             "file" = "create_connected-1.3.2-mc1.21.1.jar";
             "hash" = "sha512-sHv7xevwrWOx219yFfDhFJDwJjYj40SwmmMRbYQZmknH+RZhBBAmLdtkDmABfQjonzNjraOKYhmsalsvwZMi4A==";
         };
+        _Xe7EqzfQ = {
+            "id" = "Xe7EqzfQ";
+            "file" = "create_connected-1.3.3-mc1.21.1.jar";
+            "hash" = "sha512-SFZ1aTmAomZhFmmFf6nNNI4qKRQLh78KirPhPDWRQizOqja3ouuQCE017BhoyO7J+SQ4O7Ta2i3dy3Lp8JNhsA==";
+        };
     in {
         "UOBPiKI6" = _UOBPiKI6;
         "8eIFIbKx" = _8eIFIbKx;
@@ -656,11 +661,12 @@ let
         "6gnvaVkN" = _6gnvaVkN;
         "ZYZ7Y9iB" = _ZYZ7Y9iB;
         "klOWKza5" = _klOWKza5;
+        "Xe7EqzfQ" = _Xe7EqzfQ;
         "forge-1.20.1" = _6gnvaVkN;
         "forge-1.19.2" = _CLTrW9A5;
         "forge-1.18.2" = _5Q45khlO;
         "neoforge-1.20.1" = _6gnvaVkN;
-        "neoforge-1.21.1" = _klOWKza5;
+        "neoforge-1.21.1" = _Xe7EqzfQ;
         "pkg-0.0.1-mc1.20.1" = _UOBPiKI6;
         "pkg-0.0.2-mc1.20.1" = _8eIFIbKx;
         "pkg-0.0.3-mc1.20.1" = _LojRR2iL;
@@ -770,7 +776,8 @@ let
         "pkg-1.2.3-mc1.20.1" = _6gnvaVkN;
         "pkg-1.3.1-mc1.21.1" = _ZYZ7Y9iB;
         "pkg-1.3.2-mc1.21.1" = _klOWKza5;
-        "default" = _klOWKza5;
+        "pkg-1.3.3-mc1.21.1" = _Xe7EqzfQ;
+        "default" = _Xe7EqzfQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-connected";

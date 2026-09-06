@@ -2976,6 +2976,151 @@ let
             "file" = "tofucraft-26.2-27.7.0.0.jar";
             "hash" = "sha512-yEDp4SitypinKWvbP0mAzUtkXErAU/CESAt2Twsx3l3r3nq6RdgusHgg3w4zv1m+UntOACt0IRHUkRkDydmpzg==";
         };
+        _XhBZbhzq = {
+            "id" = "XhBZbhzq";
+            "file" = "tofucraft-26.1.2-26.8.1.0.jar";
+            "hash" = "sha512-cjmvUEPFMRaponcXYP2T7/oPO8wwd4sh5BB26QnhMpozr2epSlpI+OEAMynWMO1TSo7R0eOxqYQoN9mG3noQNw==";
+        };
+        _TIUeWhZG = {
+            "id" = "TIUeWhZG";
+            "file" = "tofucraft-26.2-27.7.1.0.jar";
+            "hash" = "sha512-o5EXnlb6ww+JtE/xhI6WmBlhhVuxSuTWzwvetUUUiOUP9sNR9docMfmTTZaznLTORpesss/uRwIvLAHqcT1u8A==";
+        };
+        _ayP2liz8 = {
+            "id" = "ayP2liz8";
+            "file" = "tofucraft-26.2-27.7.2.0.jar";
+            "hash" = "sha512-2DBtrbH48mkSml1wBne/lrXsM8oxU2p+bxIX82v4mgpseVX+hOEWH1J6nGxFTcuRNXHmST6c1rL1V4h9ZGjtAA==";
+        };
+        _enjHUKyg = {
+            "id" = "enjHUKyg";
+            "file" = "tofucraft-26.1.2-26.8.2.0.jar";
+            "hash" = "sha512-WL/aO1KCXjGnZqWfv+9CEC7mlBLCvfjJsvawHfu6aMdogSWD6TsAnFLydgjuWXvI0dLUuFMHzI8lHGRN8Wcfgw==";
+        };
+        _9USFZUbk = {
+            "id" = "9USFZUbk";
+            "file" = "tofucraft-26.2-27.7.3.0.jar";
+            "hash" = "sha512-4TT9R02P2ksCYzuRLK7BgEtbStVIQzuHLWc3GXcFa50Q5iAFMxxfzPlwyxbRLGBjx3ID0BLvsGGseKfcAVVWYQ==";
+        };
+        _Dy6BIRp6 = {
+            "id" = "Dy6BIRp6";
+            "file" = "tofucraft-26.1.2-26.8.3.0.jar";
+            "hash" = "sha512-gIR6SUuqAt8pTo5q8hPLku1iaH7g0VqFKEqMYR/oEjQ+TlkcFHESokciaIgSImyrvnqPAQhzMdifxZYKBY/EKQ==";
+        };
+        _dRTIc0e2 = {
+            "id" = "dRTIc0e2";
+            "file" = "tofucraft-26.2-27.8.0.0.jar";
+            "hash" = "sha512-8zjy5BeuxLISGxbALAzDo3HUz9g6k6EQf1IjzEXtrntfrkRBRGtEUfIOccqbNcEF5lVtK+aLMuh+S11+AWGIsA==";
+        };
+        _UVy4xFVV = {
+            "id" = "UVy4xFVV";
+            "file" = "tofucraft-26.1.2-26.9.0.0.jar";
+            "hash" = "sha512-eTqq6rLc+BB/ym27wbdm1yYAtJohHC9d6yewn1a3V36LZ6nmJizAxpzks+GcKPsE+Kv3T7n0heOa1m7TqCswdQ==";
+        };
+        _BOeZ6uz7 = {
+            "id" = "BOeZ6uz7";
+            "file" = "tofucraft-1.21.1-12.20.6.0.jar";
+            "hash" = "sha512-sWMIiO7OsuFAQ8aJlvAarNfUAy6Te60DADLv81Wc2FIUvtGrp/T0dUJG+kmFg9mAH2g8pGB+bEpRONYlhd+j8A==";
+        };
+        _HBCAadKs = {
+            "id" = "HBCAadKs";
+            "file" = "tofucraft-26.1.2-26.9.1.0.jar";
+            "hash" = "sha512-6wro43d7zFPR7JWuXdkwiNcI+XpqCXrAv5MWbPnCj+RINKKyCLuWVCK507cvtfMquM0PLRjt/K97fLR4gTXRnA==";
+        };
+        _cx2t8s0g = {
+            "id" = "cx2t8s0g";
+            "file" = "tofucraft-26.2-27.8.1.0.jar";
+            "hash" = "sha512-+fNJg8lC+fQqq1zeXxqF9OZVt5LDtbVNghHLo7JvqF00tkgCowvfUWSC222z2JJW2NMwBTyZFSg8DkqBwjrE3Q==";
+        };
+        _WnzsjP6G = {
+            "id" = "WnzsjP6G";
+            "file" = "tofucraft-26.2-27.8.2.0.jar";
+            "hash" = "sha512-v4bgvhUYN0wkqDqHmmVVyntC7qSxmZgktWpDi55WPZ669pbnpq6/6ckGakSO74xUaSFewBakTCWfdhkuTaGEFQ==";
+        };
+        _kl1luMgH = {
+            "id" = "kl1luMgH";
+            "file" = "tofucraft-26.1.2-26.9.1.2.jar";
+            "hash" = "sha512-Mj5HdtK+affZSxLv0mDPbX5MppQ8jZDDZEqqB64DbN5oKLF6BQNYxCRO6V/QLQHB8OZrjEffyLR0P7pn36ZxDw==";
+        };
+        _JWBQLYZ7 = {
+            "id" = "JWBQLYZ7";
+            "file" = "tofucraft-1.21.1-12.20.7.0.jar";
+            "hash" = "sha512-+8A5Edxj8ipqzF7wQgBPnG85HbAA0t9+Nr9zzunOZL847Kv1pDgdE8eRRBrPUQ7JhU5Px9x3PU+2/YqUZeDeXw==";
+        };
+        _PdNG6cfF = {
+            "id" = "PdNG6cfF";
+            "file" = "tofucraft-26.1.2-26.9.2.0.jar";
+            "hash" = "sha512-MVw7Xc5Fa2yDKEFXvsr5KN2x6UWnmXGyk8lv2qhDo3j9d2GPPh5CYcwlN2afWvtzXBv7A+kMxyIQWjeqpWUvgw==";
+        };
+        _EIyXhO4m = {
+            "id" = "EIyXhO4m";
+            "file" = "tofucraft-26.2-27.8.3.0.jar";
+            "hash" = "sha512-skNyvV2eRGmepMD36xolIbSK2A2yx+SkofgIwP5BmhuL5ad4MEM2m1Wlumk78ZCSGhaWIOvMiI09wV+0GG+9Og==";
+        };
+        _xcZtw3CT = {
+            "id" = "xcZtw3CT";
+            "file" = "tofucraft-26.1.2-26.10.0.0.jar";
+            "hash" = "sha512-6hbYRnnBVJR6huRNrhfspYQm4FoSm9no5/gAL1NgimdBkekpzo63Q8DuFtMXCcIb6PhglKSx4khEuGuuc/iuHQ==";
+        };
+        _TMpOTPVN = {
+            "id" = "TMpOTPVN";
+            "file" = "tofucraft-26.2-27.9.0.0.jar";
+            "hash" = "sha512-nRo6YjrTXRb7ivSN0L2mw7IbJ3GdQcAUzjZpOKGi4qfpJr/QTCH4pTE/r4xwn1GIyOyN0Am+I2tCIdXEjgr3OA==";
+        };
+        _CDy1C4LY = {
+            "id" = "CDy1C4LY";
+            "file" = "tofucraft-1.21.1-12.20.8.0.jar";
+            "hash" = "sha512-BU173ySSzE5Gta5uTmrHhIhZHlMcBXCfk6wBC8HTXqEMbRKRHe42Sqh2IdO1cHQ4B/TwJmu6Am/cPRr+LD22Qg==";
+        };
+        _rR4uqZ0o = {
+            "id" = "rR4uqZ0o";
+            "file" = "tofucraft-26.1.2-26.11.0.0.jar";
+            "hash" = "sha512-0kWWM7dRuJFPS2//mT5u5R2PXeE7y6XPEmrzJ/8v8x9sQVHsOvPBu3u3lLjj5KYl9iNZfkJhp9Wfpei7ENzHuQ==";
+        };
+        _gg4KGNNt = {
+            "id" = "gg4KGNNt";
+            "file" = "tofucraft-26.2-27.10.0.0.jar";
+            "hash" = "sha512-mfT0LrKBUwTnAoa0AIpujxokEmYYeaexg0eH67l0C9k6V0stOl5+aIdaQ63qb5YinFvI0QkGrCatxwxYv4xuBg==";
+        };
+        _SEP8dfU2 = {
+            "id" = "SEP8dfU2";
+            "file" = "tofucraft-26.1.2-26.11.1.0.jar";
+            "hash" = "sha512-MihmaEIW7gfsoq3sqWCZWQqFpJ3S1UUEKSKYhW5ZPTBgHZLkfCFixXitmOoGiYu/NFGhSMdttGy2yXZwcT7BWw==";
+        };
+        _Y9kiZ9MF = {
+            "id" = "Y9kiZ9MF";
+            "file" = "tofucraft-26.2-27.10.1.0.jar";
+            "hash" = "sha512-gWAGIypZ6MO4qWhWZ+k6JQKsQf84+wNFblC558F+p8cDAUumunYPf4IasMneiF2oFNo7cbWwSfQyqEwrmA9GQQ==";
+        };
+        _K11l4TCf = {
+            "id" = "K11l4TCf";
+            "file" = "tofucraft-26.1.2-26.11.2.0.jar";
+            "hash" = "sha512-ZgKfVtkeZwfUcsWntrnlKM17x/cIfPg5JtEt8ztJ5p2gxVJ9JMBn7YnBzsJ+EfSg/oT/JUTK1hXcEgpr12zqmg==";
+        };
+        _QYyonmi3 = {
+            "id" = "QYyonmi3";
+            "file" = "tofucraft-26.2-27.10.2.0.jar";
+            "hash" = "sha512-YiDO4Y+qfjSRYYiQwobhzbbn4deDHxeQ8ZZtiItmWwbksPZwiQo0zPQz+/U0K0JSR64cvzFlIsSTj7VOmhD/kQ==";
+        };
+        _GkZFrl5Q = {
+            "id" = "GkZFrl5Q";
+            "file" = "tofucraft-26.1.2-26.11.2.1.jar";
+            "hash" = "sha512-Uj8/6PkNrgsY7mHQRZqsxzWvSEreXqXVXpNErsZ7JtEnqNmltgn9oEjfILzKEK6Sr5Y0OqJxUAJo5y13WYzeQA==";
+        };
+        _hepVftxb = {
+            "id" = "hepVftxb";
+            "file" = "tofucraft-26.2-27.10.2.1.jar";
+            "hash" = "sha512-TXk+QzF8Awj3qEdpw4ACEcAyu6TWokRCFQojwjjnzuu+ZyRgE4BaY51lXzrJ+T8iUZFxfZeb15R8J7S6O48DwA==";
+        };
+        _uxQXZ2wG = {
+            "id" = "uxQXZ2wG";
+            "file" = "tofucraft-26.1.2-26.11.3.0.jar";
+            "hash" = "sha512-3BKVFWFALsGeANesoZd4k4lfowwsuvgzj4TQhb/nkNCU24tqY/8G/Jhid9i3DcbRXmMHmKX+4PMXAHPeH49G5g==";
+        };
+        _39jxmz30 = {
+            "id" = "39jxmz30";
+            "file" = "tofucraft-26.2-27.10.3.0.jar";
+            "hash" = "sha512-gZ/kcjK1rt3MUo0zFDcNmZeRzVeXJsaLmMJ0PRGGvIVFIDU00e5mUwKD92nXpbmW9v7LLE9oXL1u/GG8oGH1Dw==";
+        };
     in {
         "OF6fzUdX" = _OF6fzUdX;
         "7txqHZCY" = _7txqHZCY;
@@ -3572,6 +3717,35 @@ let
         "CGEvV9lW" = _CGEvV9lW;
         "hPq56zzc" = _hPq56zzc;
         "zJTra9hT" = _zJTra9hT;
+        "XhBZbhzq" = _XhBZbhzq;
+        "TIUeWhZG" = _TIUeWhZG;
+        "ayP2liz8" = _ayP2liz8;
+        "enjHUKyg" = _enjHUKyg;
+        "9USFZUbk" = _9USFZUbk;
+        "Dy6BIRp6" = _Dy6BIRp6;
+        "dRTIc0e2" = _dRTIc0e2;
+        "UVy4xFVV" = _UVy4xFVV;
+        "BOeZ6uz7" = _BOeZ6uz7;
+        "HBCAadKs" = _HBCAadKs;
+        "cx2t8s0g" = _cx2t8s0g;
+        "WnzsjP6G" = _WnzsjP6G;
+        "kl1luMgH" = _kl1luMgH;
+        "JWBQLYZ7" = _JWBQLYZ7;
+        "PdNG6cfF" = _PdNG6cfF;
+        "EIyXhO4m" = _EIyXhO4m;
+        "xcZtw3CT" = _xcZtw3CT;
+        "TMpOTPVN" = _TMpOTPVN;
+        "CDy1C4LY" = _CDy1C4LY;
+        "rR4uqZ0o" = _rR4uqZ0o;
+        "gg4KGNNt" = _gg4KGNNt;
+        "SEP8dfU2" = _SEP8dfU2;
+        "Y9kiZ9MF" = _Y9kiZ9MF;
+        "K11l4TCf" = _K11l4TCf;
+        "QYyonmi3" = _QYyonmi3;
+        "GkZFrl5Q" = _GkZFrl5Q;
+        "hepVftxb" = _hepVftxb;
+        "uxQXZ2wG" = _uxQXZ2wG;
+        "39jxmz30" = _39jxmz30;
         "forge-1.19.2" = _eUK2pr22;
         "forge-1.19.3" = _8IRIXH49;
         "forge-1.18.2" = _FgGfLtTy;
@@ -3585,7 +3759,7 @@ let
         "neoforge-1.20.5" = _M6W4NMUy;
         "neoforge-1.20.6" = _HpZWc2zE;
         "neoforge-1.21" = _z2oRC2hz;
-        "neoforge-1.21.1" = _CGEvV9lW;
+        "neoforge-1.21.1" = _CDy1C4LY;
         "neoforge-1.21.2" = _fkAqZTjq;
         "neoforge-1.21.3" = _aUCq01Pr;
         "neoforge-1.21.4" = _K2wFPKFS;
@@ -3604,8 +3778,8 @@ let
         "neoforge-26.1-snapshot-7" = _yzcMVyCb;
         "neoforge-26.1" = _IN4yNoCH;
         "neoforge-26.1.1" = _fcCw7QtT;
-        "neoforge-26.1.2" = _hPq56zzc;
-        "neoforge-26.2" = _zJTra9hT;
+        "neoforge-26.1.2" = _uxQXZ2wG;
+        "neoforge-26.2" = _39jxmz30;
         "pkg-2.7.4.2" = _OF6fzUdX;
         "pkg-2.7.4.3" = _7txqHZCY;
         "pkg-2.7.5.0" = _JLOy0FLR;
@@ -4197,7 +4371,36 @@ let
         "pkg-1.21.1-12.20.5.0" = _CGEvV9lW;
         "pkg-26.1.2-26.8.0.0" = _hPq56zzc;
         "pkg-26.2-27.7.0.0" = _zJTra9hT;
-        "default" = _zJTra9hT;
+        "pkg-26.1.2-26.8.1.0" = _XhBZbhzq;
+        "pkg-26.2-27.7.1.0" = _TIUeWhZG;
+        "pkg-26.2-27.7.2.0" = _ayP2liz8;
+        "pkg-26.1.2-26.8.2.0" = _enjHUKyg;
+        "pkg-26.2-27.7.3.0" = _9USFZUbk;
+        "pkg-26.1.2-26.8.3.0" = _Dy6BIRp6;
+        "pkg-26.2-27.8.0.0" = _dRTIc0e2;
+        "pkg-26.1.2-26.9.0.0" = _UVy4xFVV;
+        "pkg-1.21.1-12.20.6.0" = _BOeZ6uz7;
+        "pkg-26.1.2-26.9.1.0" = _HBCAadKs;
+        "pkg-26.2-27.8.1.0" = _cx2t8s0g;
+        "pkg-26.2-27.8.2.0" = _WnzsjP6G;
+        "pkg-26.1.2-26.9.1.2" = _kl1luMgH;
+        "pkg-1.21.1-12.20.7.0" = _JWBQLYZ7;
+        "pkg-26.1.2-26.9.2.0" = _PdNG6cfF;
+        "pkg-26.2-27.8.3.0" = _EIyXhO4m;
+        "pkg-26.1.2-26.10.0.0" = _xcZtw3CT;
+        "pkg-26.2-27.9.0.0" = _TMpOTPVN;
+        "pkg-1.21.1-12.20.8.0" = _CDy1C4LY;
+        "pkg-26.1.2-26.11.0.0" = _rR4uqZ0o;
+        "pkg-26.2-27.10.0.0" = _gg4KGNNt;
+        "pkg-26.1.2-26.11.1.0" = _SEP8dfU2;
+        "pkg-26.2-27.10.1.0" = _Y9kiZ9MF;
+        "pkg-26.1.2-26.11.2.0" = _K11l4TCf;
+        "pkg-26.2-27.10.2.0" = _QYyonmi3;
+        "pkg-26.1.2-26.11.2.1" = _GkZFrl5Q;
+        "pkg-26.2-27.10.2.1" = _hepVftxb;
+        "pkg-26.1.2-26.11.3.0" = _uxQXZ2wG;
+        "pkg-26.2-27.10.3.0" = _39jxmz30;
+        "default" = _39jxmz30;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tofucraftreload";

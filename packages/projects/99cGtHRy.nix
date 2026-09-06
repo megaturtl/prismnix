@@ -66,6 +66,11 @@ let
             "file" = "EclipseUI-fabric-1.0.5-fabric-26.3-snapshot-1.jar";
             "hash" = "sha512-hfBGIdYYmv0ZrxW0hwKRoDgx10XvMaBy1cpAhRdlC5bwfF/g5bhH9iT7N+JPnp6JwaVy92ZvEQXNPMRIq+mdOw==";
         };
+        _qMqhOSML = {
+            "id" = "qMqhOSML";
+            "file" = "EclipseUI-fabric-1.0.5-fabric-26.3-snapshot-8.jar";
+            "hash" = "sha512-B1gAE1HQLabqvKE/pJ6/yatlSxFxgYYC8dKPIXgW66oGbgl5dq3ywNuH72jgHr5hnRmZKJPQRbLv1b3qAFBYjA==";
+        };
     in {
         "KUUodpwz" = _KUUodpwz;
         "TxmPArZV" = _TxmPArZV;
@@ -80,6 +85,7 @@ let
         "EW0sBZm4" = _EW0sBZm4;
         "qXA4HN0X" = _qXA4HN0X;
         "UknupNrO" = _UknupNrO;
+        "qMqhOSML" = _qMqhOSML;
         "fabric-1.21.11" = _KUUodpwz;
         "fabric-26.1" = _gh05XE4Y;
         "fabric-26.1.1" = _gh05XE4Y;
@@ -94,6 +100,7 @@ let
         "fabric-26.2" = _EW0sBZm4;
         "fabric-26.3-snapshot-1" = _UknupNrO;
         "fabric-26.3-snapshot-2" = _UknupNrO;
+        "fabric-26.3-snapshot-8" = _qMqhOSML;
         "neoforge-1.21.11" = _TxmPArZV;
         "neoforge-26.1" = _BnyvBfTX;
         "neoforge-26.1.1" = _BnyvBfTX;
@@ -108,7 +115,8 @@ let
         "pkg-1.0.5+mc26.2-pre-4" = _wTWCn6Sp;
         "pkg-1.0.5+mc26.2-rc-2" = _qXA4HN0X;
         "pkg-1.0.5+mc26.3-snapshot-1-fabric" = _UknupNrO;
-        "default" = _UknupNrO;
+        "pkg-1.0.5+mc26.3-snapshot-8-fabric" = _qMqhOSML;
+        "default" = _qMqhOSML;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eclipseui";

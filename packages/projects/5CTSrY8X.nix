@@ -216,6 +216,16 @@ let
             "file" = "GPUBooster-1.3.1-1.21-1.21.1.jar";
             "hash" = "sha512-JKt8qz/ouaRpYpsKSUv6KtZtIDeiJClYDeGjONyUoXBaPBj5p6mtd3fxcOnnSK20sZA+ulIoEpo2+jYQSb0y0w==";
         };
+        _jJBnRYkf = {
+            "id" = "jJBnRYkf";
+            "file" = "GPUBooster-1.3.2-1.21.1-neo.jar";
+            "hash" = "sha512-fWqj4zQx5SyWqSinLH+sdvCr8XOBGBs4RUtqFxpZbCKIMoL4L0bBoJ5yAnNXQ26gv5ATOpO+ZAcrnRPRxBv/JA==";
+        };
+        _G4XqHY5P = {
+            "id" = "G4XqHY5P";
+            "file" = "GPUBooster-1.3.0-26.2-fabric.jar";
+            "hash" = "sha512-QpxEKK0994AvE5eH6AMsWZRN+EItONJ5xM/a9QupmPhI0Eh7saeIYexvCU368+scJrQIWCFfbcc8vct6zah7AA==";
+        };
     in {
         "ptxcOQyv" = _ptxcOQyv;
         "fpJ5PcCQ" = _fpJ5PcCQ;
@@ -260,6 +270,8 @@ let
         "FmBjlXNQ" = _FmBjlXNQ;
         "UhHT3Zuu" = _UhHT3Zuu;
         "zI3PZ2mz" = _zI3PZ2mz;
+        "jJBnRYkf" = _jJBnRYkf;
+        "G4XqHY5P" = _G4XqHY5P;
         "fabric-1.18" = _ZoOH4tOq;
         "fabric-1.18.1" = _ZoOH4tOq;
         "fabric-1.18.2" = _ZoOH4tOq;
@@ -298,6 +310,7 @@ let
         "fabric-26.1" = _FmBjlXNQ;
         "fabric-26.1.1" = _FmBjlXNQ;
         "fabric-26.1.2" = _FmBjlXNQ;
+        "fabric-26.2" = _G4XqHY5P;
         "quilt-1.18" = _ZoOH4tOq;
         "quilt-1.18.1" = _ZoOH4tOq;
         "quilt-1.18.2" = _ZoOH4tOq;
@@ -336,6 +349,7 @@ let
         "quilt-26.1" = _FmBjlXNQ;
         "quilt-26.1.1" = _FmBjlXNQ;
         "quilt-26.1.2" = _FmBjlXNQ;
+        "quilt-26.2" = _G4XqHY5P;
         "forge-1.18" = _mMc55fB1;
         "forge-1.18.1" = _mMc55fB1;
         "forge-1.18.2" = _mMc55fB1;
@@ -368,8 +382,8 @@ let
         "forge-1.21.5" = _mMc55fB1;
         "neoforge-1.20.1" = _V54afQdx;
         "neoforge-1.20.6" = _nlerwS8N;
-        "neoforge-1.21" = _nlerwS8N;
-        "neoforge-1.21.1" = _nlerwS8N;
+        "neoforge-1.21" = _jJBnRYkf;
+        "neoforge-1.21.1" = _jJBnRYkf;
         "neoforge-1.21.2" = _nlerwS8N;
         "neoforge-1.21.3" = _nlerwS8N;
         "neoforge-1.21.4" = _nlerwS8N;
@@ -419,8 +433,10 @@ let
         "pkg-1.3.0-1.21-1.21.1-fabric" = _GDS4vVDb;
         "pkg-1.3.0-26.1x-fabric" = _FmBjlXNQ;
         "pkg-1.3.0h-1.21.11-fabric" = _UhHT3Zuu;
-        "pkg-1.3.1-1.21-1.21.1" = _zI3PZ2mz;
-        "default" = _zI3PZ2mz;
+        "pkg-1.3.1-1.21-1.21.1-fabric" = _zI3PZ2mz;
+        "pkg-1.3.2-1.21-1.21.1-neo" = _jJBnRYkf;
+        "pkg-1.3.0-26.2-fabric" = _G4XqHY5P;
+        "default" = _G4XqHY5P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gputape";

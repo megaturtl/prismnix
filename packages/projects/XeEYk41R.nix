@@ -406,6 +406,56 @@ let
             "file" = "ballistix-1.21.1-1.0.12.jar";
             "hash" = "sha512-zZn9TFSithX/4XyVMKHlaKek4jbfqaSLwUki0BnUNlhNOg9dSD0FSMXULKGJwdBSbDn7RdpHiocfckgYyFQKfQ==";
         };
+        _QGTpDAwZ = {
+            "id" = "QGTpDAwZ";
+            "file" = "Ballistix-1.19.2-1.0.13.jar";
+            "hash" = "sha512-kFPGGgVPbCuc2E89A199dY7TAOlldpDAEPr2wNckkiY+wh7pfBwMRAwMsXBDddyzqk3wC69s1cWhTiIfEpcKNw==";
+        };
+        _STucpvGj = {
+            "id" = "STucpvGj";
+            "file" = "Ballistix-1.20.1-1.0.13.jar";
+            "hash" = "sha512-ONgQ4StdLexbwklB1HlDe0x+Z5RerRtFRm8rUv6DOIq9Um+ixoQ26PPvH3nWLEPB+N7S+WyPTIDhxDEH7cBwgg==";
+        };
+        _xqVYTx3o = {
+            "id" = "xqVYTx3o";
+            "file" = "ballistix-1.21.1-1.0.13.jar";
+            "hash" = "sha512-tK+vEQp/xo04dFOwt1nqQ+r4VFi+YrmoSMLXycF+ioayFtTPqZwQA82ckwd2sTNqbt3pmye5wKPal1DJhEcNKA==";
+        };
+        _ZymoGZwV = {
+            "id" = "ZymoGZwV";
+            "file" = "ballistix-1.21.1-1.0.14.jar";
+            "hash" = "sha512-/oA583rP7TBpafo8+syfJIeyI3GlIGuWyGO0rR8HN7Eced9/K132l8dnGyWhI6OrSJyLT0mlPTBNTiWvZuL40Q==";
+        };
+        _AFRg9ILX = {
+            "id" = "AFRg9ILX";
+            "file" = "Ballistix-1.20.1-1.0.14.jar";
+            "hash" = "sha512-RjBLXOzdVzhFQzXCvVL4cpf8geFpjRpO9H+x4lADCy/9o8bRhgu4Hkc4oQMjF5cz1UNGc2K/N6na4uAxX2xWcg==";
+        };
+        _n3bH2s8T = {
+            "id" = "n3bH2s8T";
+            "file" = "Ballistix-1.19.2-1.0.14.jar";
+            "hash" = "sha512-E46BOvI3y9Y6YUAlxYof+GWcKFfW3Liqrtvj7/hQ7gNzPHjvGYMixFhMbs0Ti29c9By8cJOOBGbmmDbqXzK6cA==";
+        };
+        _CFRK8olo = {
+            "id" = "CFRK8olo";
+            "file" = "ballistix-1.21.1-1.1.0.jar";
+            "hash" = "sha512-qW49geOlS1R++g5tf25INw10aOR4Uwnmo91l5aGCx/aQFhxtfmXvHNMBtis162Pog3aW2i0O0Z4/WTJPrNB1oQ==";
+        };
+        _kVrBIuPy = {
+            "id" = "kVrBIuPy";
+            "file" = "ballistix-1.21.1-1.1.1.jar";
+            "hash" = "sha512-6wrij3A8CBJfYeByI+I/5jyy6zR4RX5AD2GM50pyeowZmNfM9dfnScZhG9O/Flj+G1XJUvDXsjrPtbgZFAb7fQ==";
+        };
+        _kK0dda8z = {
+            "id" = "kK0dda8z";
+            "file" = "Ballistix-1.20.1-1.1.1.jar";
+            "hash" = "sha512-GWTNYkKmkD/IBmz/hU57HPjxS6brNN209YCie6EpeqoiDxzpr2W6kIQkzvpQ4HCDb50c4ZzHxikO9CjRaCHnow==";
+        };
+        _V6WrPh5Q = {
+            "id" = "V6WrPh5Q";
+            "file" = "Ballistix-1.19.2-1.0.11.jar";
+            "hash" = "sha512-NTWpqKocBgrJPLNjZ840iItQmO9MF3LRm4zCDEGIkdaq2Mr6kHd3W1RTogjkO7pHjOoLB8eZw/A+PSZCZasAAA==";
+        };
     in {
         "ufszGaz5" = _ufszGaz5;
         "5C6nfUhv" = _5C6nfUhv;
@@ -488,13 +538,23 @@ let
         "TljiaeQQ" = _TljiaeQQ;
         "mWf79Ye7" = _mWf79Ye7;
         "gwaqaimz" = _gwaqaimz;
+        "QGTpDAwZ" = _QGTpDAwZ;
+        "STucpvGj" = _STucpvGj;
+        "xqVYTx3o" = _xqVYTx3o;
+        "ZymoGZwV" = _ZymoGZwV;
+        "AFRg9ILX" = _AFRg9ILX;
+        "n3bH2s8T" = _n3bH2s8T;
+        "CFRK8olo" = _CFRK8olo;
+        "kVrBIuPy" = _kVrBIuPy;
+        "kK0dda8z" = _kK0dda8z;
+        "V6WrPh5Q" = _V6WrPh5Q;
         "forge-1.16.5" = _sxaP4A47;
         "forge-1.17.1" = _5C6nfUhv;
         "forge-1.18.2" = _VeXINo7d;
-        "forge-1.19.2" = _TljiaeQQ;
-        "forge-1.20.1" = _mWf79Ye7;
-        "neoforge-1.20.1" = _mWf79Ye7;
-        "neoforge-1.21.1" = _gwaqaimz;
+        "forge-1.19.2" = _V6WrPh5Q;
+        "forge-1.20.1" = _kK0dda8z;
+        "neoforge-1.20.1" = _kK0dda8z;
+        "neoforge-1.21.1" = _kVrBIuPy;
         "pkg-1.16.5-0.3.0-0" = _ufszGaz5;
         "pkg-1.17.1-0.3.1-0" = _5C6nfUhv;
         "pkg-1.18.2-0.5.3-3" = _AtWuk12X;
@@ -572,11 +632,20 @@ let
         "pkg-1.20.1-1.0.10" = _pYRjWefp;
         "pkg-1.21.1-1.0.11" = _7M4X4brH;
         "pkg-1.20.1-1.0.11" = _3Xf0fP5I;
-        "pkg-1.19.2-1.0.11" = _MGEOtgrp;
+        "pkg-1.19.2-1.0.11" = _V6WrPh5Q;
         "pkg-1.19.2-1.0.12" = _TljiaeQQ;
         "pkg-1.20.1-1.0.12" = _mWf79Ye7;
         "pkg-1.21.1-1.0.12" = _gwaqaimz;
-        "default" = _gwaqaimz;
+        "pkg-1.19.2-1.0.13" = _QGTpDAwZ;
+        "pkg-1.20.1-1.0.13" = _STucpvGj;
+        "pkg-1.21.1-1.0.13" = _xqVYTx3o;
+        "pkg-1.21.1-1.0.14" = _ZymoGZwV;
+        "pkg-1.20.1-1.0.14" = _AFRg9ILX;
+        "pkg-1.19.2-1.0.14" = _n3bH2s8T;
+        "pkg-1.21.1-1.1.0" = _CFRK8olo;
+        "pkg-1.21.1-1.1.1" = _kVrBIuPy;
+        "pkg-1.20.1-1.1.1" = _kK0dda8z;
+        "default" = _V6WrPh5Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ballistix";

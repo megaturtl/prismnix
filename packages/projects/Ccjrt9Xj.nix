@@ -51,6 +51,10 @@ let
         "minecraft-1.21.9" = _QLgu7PoA;
         "minecraft-1.21.10" = _QLgu7PoA;
         "minecraft-1.21.11" = _QLgu7PoA;
+        "minecraft-26.1" = _QLgu7PoA;
+        "minecraft-26.1.1" = _QLgu7PoA;
+        "minecraft-26.1.2" = _QLgu7PoA;
+        "minecraft-26.2" = _QLgu7PoA;
         "pkg-1.0.0" = _Hqz7WCMQ;
         "pkg-2.0.0" = _9mHHDyp3;
         "pkg-2.0.1" = _EbpIpCqg;

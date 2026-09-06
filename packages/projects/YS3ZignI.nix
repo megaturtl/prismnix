@@ -685,7 +685,7 @@ let
                 redistributable = false;
                 fullName = "LicenseRef-PolyForm-Shield-1.0.0";
                 shortName = "LicenseRef-PolyForm-Shield-1.0.0";
-                url = "https://polyformproject.org/licenses/shield/1.0.0/";
+                url = "https://polyformproject.org/licenses/shield/1.0.0";
             };
         };
     };

@@ -256,6 +256,21 @@ let
             "file" = "stevesrealisticsleep-forge-1.11.2+mc1.20-1.20.1.jar";
             "hash" = "sha512-eI2yGRoM8Vv7Ib+BKMrYtMsMjPSoaEg5r+q7g79eaeg47oa6tTkOSqWd6BJoheKlH4CKF5KlRKpEFO/oTV8frw==";
         };
+        _KZxK2GQV = {
+            "id" = "KZxK2GQV";
+            "file" = "stevesrealisticsleep-1.12.0-fabric-1.21.1.jar";
+            "hash" = "sha512-rB9374h1QbIFDlkaZOrACCY6QOmJV0MdPUNwlxJP0kpzfdKUOMeaiuGQU6Upmv3YqElc8vY3Rmmy1rvaDymUow==";
+        };
+        _OSW0i79C = {
+            "id" = "OSW0i79C";
+            "file" = "stevesrealisticsleep-1.12.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-6pWNWGSsfqVKbHaR7Cxy3c2xnyskqG7mu0jAAVT/Emsws9iX1RypSuJjIFFYOYv1Cx6fUuxphbFc2pCqDXLONw==";
+        };
+        _yyV1Sr0e = {
+            "id" = "yyV1Sr0e";
+            "file" = "stevesrealisticsleep-1.12.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-6yTXGoMDgQudTgOxWrQZxYhe/dxDadpkGc2fVJtUab6zGBsa9ipPxbbujVF5iEsoy2fkhOvOCFTUl39BIg8D4A==";
+        };
     in {
         "wCqPTLPZ" = _wCqPTLPZ;
         "oYIuOoCX" = _oYIuOoCX;
@@ -308,6 +323,9 @@ let
         "jYZVMfJk" = _jYZVMfJk;
         "W6XWL7Sh" = _W6XWL7Sh;
         "KZPBwKJd" = _KZPBwKJd;
+        "KZxK2GQV" = _KZxK2GQV;
+        "OSW0i79C" = _OSW0i79C;
+        "yyV1Sr0e" = _yyV1Sr0e;
         "fabric-1.18" = _SKa99ZNh;
         "fabric-1.18.2" = _SKa99ZNh;
         "fabric-1.19" = _uO2lpxvv;
@@ -322,7 +340,7 @@ let
         "fabric-1.20.3" = _vCoqEfJD;
         "fabric-1.20.4" = _vCoqEfJD;
         "fabric-1.21" = _T1vxZAJQ;
-        "fabric-1.21.1" = _T1vxZAJQ;
+        "fabric-1.21.1" = _KZxK2GQV;
         "quilt-1.18" = _SKa99ZNh;
         "quilt-1.18.2" = _SKa99ZNh;
         "quilt-1.19" = _uO2lpxvv;
@@ -339,7 +357,7 @@ let
         "quilt-1.21" = _T1vxZAJQ;
         "quilt-1.21.1" = _T1vxZAJQ;
         "neoforge-1.21" = _jYZVMfJk;
-        "neoforge-1.21.1" = _jYZVMfJk;
+        "neoforge-1.21.1" = _yyV1Sr0e;
         "neoforge-1.20" = _KZPBwKJd;
         "neoforge-1.20.1" = _KZPBwKJd;
         "forge-1.20" = _KZPBwKJd;
@@ -390,7 +408,9 @@ let
         "pkg-1.11.1+mc1.21-1.21.1" = _sAQV2ZNI;
         "pkg-1.11.2+mc1.21-1.21.1" = _jYZVMfJk;
         "pkg-1.11.2+mc1.20-1.20.1" = _KZPBwKJd;
-        "default" = _KZPBwKJd;
+        "pkg-1.12.0" = _OSW0i79C;
+        "pkg-1.12.1" = _yyV1Sr0e;
+        "default" = _yyV1Sr0e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stevesrealisticsleep";

@@ -36,6 +36,11 @@ let
             "file" = "CobblemonBroadcaster-1.2.5+1.21.1.jar";
             "hash" = "sha512-mygpE0pxp5Hemoop8z8vmlr8C2R/lsNn0g8ChR3v9owlWRHoqYcG5+Z10+2zal2WEhpeexhGnfkpxIEAH0rgHQ==";
         };
+        _6RbGJgxR = {
+            "id" = "6RbGJgxR";
+            "file" = "CobblemonBroadcaster-1.3.0+1.21.1.jar";
+            "hash" = "sha512-CZkO6YgDGQateQzwtx1FnG1zXZTEoAPO/PKJjWfx1nHew5IAjlNCkt+0ejeFhNqRrY5/lKp5Xm1WgNGIPLBSjQ==";
+        };
     in {
         "LxlM5hUm" = _LxlM5hUm;
         "msAWH8UW" = _msAWH8UW;
@@ -44,7 +49,8 @@ let
         "mahhWeYs" = _mahhWeYs;
         "zXem85KL" = _zXem85KL;
         "7euovQHx" = _7euovQHx;
-        "fabric-1.21.1" = _7euovQHx;
+        "6RbGJgxR" = _6RbGJgxR;
+        "fabric-1.21.1" = _6RbGJgxR;
         "fabric-1.21" = _ZBQoiozo;
         "fabric-1.21.2" = _ZBQoiozo;
         "fabric-1.21.3" = _ZBQoiozo;
@@ -62,7 +68,8 @@ let
         "pkg-1.2.3+1.21.1" = _mahhWeYs;
         "pkg-1.2.4+1.21.1" = _zXem85KL;
         "pkg-1.2.5+1.21.1" = _7euovQHx;
-        "default" = _7euovQHx;
+        "pkg-1.3.0+1.21.1" = _6RbGJgxR;
+        "default" = _6RbGJgxR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-broadcaster";

@@ -276,6 +276,51 @@ let
             "file" = "techutils-0.7.1+26.2.jar";
             "hash" = "sha512-Wx41osl2fs2hfCsBRW1nLFfN2gtDO4j75ydjmrmI+bkUqCqmTg5C6CiKY4ufLfIH70DlaYfsDVFsqG+YyudHmQ==";
         };
+        _CIAWKLW6 = {
+            "id" = "CIAWKLW6";
+            "file" = "techutils-0.7.1+1.21.11.jar";
+            "hash" = "sha512-ZRJFlkQPwAv6Q1YUo8E9JHOXpzurvxvjLV+WT05gf8im2KmNH1wYNkE5krBK7u13yyn5ILyXz08hLl9Oef7Nog==";
+        };
+        _7agu3CSw = {
+            "id" = "7agu3CSw";
+            "file" = "techutils-0.7.2+26.1.jar";
+            "hash" = "sha512-gue2YKScl176FnYLIpzgdGsiMcGWSFC9KdcOgTnTIiGMl/uZcMpZdSOxrg+pvq3JTk+q6ybWqWS0tMCo9ou9yA==";
+        };
+        _heGChvzg = {
+            "id" = "heGChvzg";
+            "file" = "techutils-0.7.2+26.2.jar";
+            "hash" = "sha512-6Izhr8wCxhXPZXi8GV4PjkI2sH+diW703xk1isSTI87BVwW1u07A/wKVr8Bum2SFhjvPlO0q9WSICSQ4vssFUw==";
+        };
+        _tbpoQElr = {
+            "id" = "tbpoQElr";
+            "file" = "techutils-0.7.2+1.21.11.jar";
+            "hash" = "sha512-0VuDA38Dm8YWtIdK2MRqn1ebUAnCsH1rjDJXOYQlg9H1819QjE8UKeN5AVLUEkC+41q6v3OyfkYHP3Cpv3xY3A==";
+        };
+        _e8iEch5I = {
+            "id" = "e8iEch5I";
+            "file" = "techutils-0.7.3+26.1.jar";
+            "hash" = "sha512-oIvk/gcrc+IOIj4PBS0zJISwGnwPTfYmmu6iX/kHYk381OLoqtqZTqh2J3DJum4WVDjV3/XM++sGPLzA9MQP5w==";
+        };
+        _ubWuHe2T = {
+            "id" = "ubWuHe2T";
+            "file" = "techutils-0.7.3+26.2.jar";
+            "hash" = "sha512-rNRsAapyf7Io8ASFs66HJdZ1TUlua62PFLLfd3+7rLus+U69bV7YnsFrvzriGo6RkFSEQy1VHYp/2Ws+Wl/yVw==";
+        };
+        _NW2Mtg7j = {
+            "id" = "NW2Mtg7j";
+            "file" = "techutils-0.8.0+1.21.11.jar";
+            "hash" = "sha512-emZ+7xKsCnYrru5piCza+pkS821GsAEFaqNGDnpXwNEgJA1SOjuNpHLGfcpOwNLFq2zx3/6hwiGl12dls6qtJA==";
+        };
+        _McPDVIsW = {
+            "id" = "McPDVIsW";
+            "file" = "techutils-0.8.0+26.1.jar";
+            "hash" = "sha512-L9iZt6gn9v6JXuQ41jKHuuIvmyCCyS3r1cX/hPY6XDXfCUZhrmqY/jAj+RPU6dqGHg9uYbVMb7dD8NFMEC/mWA==";
+        };
+        _eOxv5CiW = {
+            "id" = "eOxv5CiW";
+            "file" = "techutils-0.8.0+26.2.jar";
+            "hash" = "sha512-Fpi+gH8AE5GBaJo9IpcOI7vtUMWF8LCN+JcI1iEjltUKJgVTD0612MM5O3Gl+Hqi3LjGLRWEUaat8aHHzAA8mA==";
+        };
     in {
         "gkaF6A38" = _gkaF6A38;
         "MKzRfHPe" = _MKzRfHPe;
@@ -332,6 +377,15 @@ let
         "8BiUqW2X" = _8BiUqW2X;
         "A4UkmXLW" = _A4UkmXLW;
         "fE0fxBn1" = _fE0fxBn1;
+        "CIAWKLW6" = _CIAWKLW6;
+        "7agu3CSw" = _7agu3CSw;
+        "heGChvzg" = _heGChvzg;
+        "tbpoQElr" = _tbpoQElr;
+        "e8iEch5I" = _e8iEch5I;
+        "ubWuHe2T" = _ubWuHe2T;
+        "NW2Mtg7j" = _NW2Mtg7j;
+        "McPDVIsW" = _McPDVIsW;
+        "eOxv5CiW" = _eOxv5CiW;
         "fabric-1.19.2" = _gkaF6A38;
         "fabric-1.19.3" = _9oLHEv8V;
         "fabric-1.19.4" = _iHO0Y2Ic;
@@ -347,11 +401,11 @@ let
         "fabric-1.21.8" = _MhsNm0Ga;
         "fabric-1.21.9" = _x3RgdYDL;
         "fabric-1.21.10" = _x3RgdYDL;
-        "fabric-1.21.11" = _8BiUqW2X;
-        "fabric-26.1" = _A4UkmXLW;
-        "fabric-26.1.1" = _A4UkmXLW;
-        "fabric-26.1.2" = _A4UkmXLW;
-        "fabric-26.2" = _fE0fxBn1;
+        "fabric-1.21.11" = _NW2Mtg7j;
+        "fabric-26.1" = _McPDVIsW;
+        "fabric-26.1.1" = _McPDVIsW;
+        "fabric-26.1.2" = _McPDVIsW;
+        "fabric-26.2" = _eOxv5CiW;
         "quilt-1.19.2" = _gkaF6A38;
         "quilt-1.19.3" = _MKzRfHPe;
         "pkg-0.1.2" = _gkaF6A38;
@@ -409,7 +463,16 @@ let
         "pkg-0.7.0+1.21.11" = _8BiUqW2X;
         "pkg-0.7.1+26.1" = _A4UkmXLW;
         "pkg-0.7.1+26.2" = _fE0fxBn1;
-        "default" = _fE0fxBn1;
+        "pkg-0.7.1+1.21.11" = _CIAWKLW6;
+        "pkg-0.7.2+26.1" = _7agu3CSw;
+        "pkg-0.7.2+26.2" = _heGChvzg;
+        "pkg-0.7.2+1.21.11" = _tbpoQElr;
+        "pkg-0.7.3+26.1" = _e8iEch5I;
+        "pkg-0.7.3+26.2" = _ubWuHe2T;
+        "pkg-0.8.0+1.21.11" = _NW2Mtg7j;
+        "pkg-0.8.0+26.1" = _McPDVIsW;
+        "pkg-0.8.0+26.2" = _eOxv5CiW;
+        "default" = _eOxv5CiW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "techutils";

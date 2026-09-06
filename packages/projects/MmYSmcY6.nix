@@ -71,6 +71,26 @@ let
             "file" = "BedrockEntityModels-26.1.2-1.1.0-fabric.jar";
             "hash" = "sha512-V77AFSO/ueEF++FkR6FIWO9a3SpD0Na4VlR28GKibVAkj5duJDaItTOFUAfpai8oarrt4aoaahPX6xFbDqCe1w==";
         };
+        _tkYLSLmH = {
+            "id" = "tkYLSLmH";
+            "file" = "BedrockEntityModels-26.1.2-1.1.1-neoforge.jar";
+            "hash" = "sha512-z0YcRVlY7i4dEXCDvSDZb6tpWVCW0s07eUuwXIuaxtHDlwOfNF1VGwwPUoDfQ3JlJRqtBzUMCbK2p51jcLsTwg==";
+        };
+        _Jjp0vTNp = {
+            "id" = "Jjp0vTNp";
+            "file" = "BedrockEntityModels-26.2-1.1.1-neoforge.jar";
+            "hash" = "sha512-sfAoy/2HAyOD2iMIzqwKq6NOhK6kyn71tME0RepxKXEPlUtwBhMXXfTJglofBsadCzT3EX/U7sznIF3Vm3m8ow==";
+        };
+        _IFfLbw7k = {
+            "id" = "IFfLbw7k";
+            "file" = "BedrockEntityModels-26.2-1.1.1-fabric.jar";
+            "hash" = "sha512-GgSS0gNzMvHZc5dLM1fk+ccXToYUQrNZlyRWZ5dm53ceWmlhRXClQL6UgVhQXNwbPsyLJRDp3z1TLSxNDYbd9A==";
+        };
+        _zY5Nf11O = {
+            "id" = "zY5Nf11O";
+            "file" = "BedrockEntityModels-26.1.2-1.1.1-fabric.jar";
+            "hash" = "sha512-jg2WI8thZldhsB+6pCN5lHIFCuY+xV5WCDSbPtyYLf8pgirrHxPKZPzHaRa4oWBmlHG0yKwKEJlxWaaRUhSzGw==";
+        };
     in {
         "uKpQEdmU" = _uKpQEdmU;
         "xehUqWFU" = _xehUqWFU;
@@ -86,18 +106,22 @@ let
         "w567Y8lI" = _w567Y8lI;
         "4FzWXCvL" = _4FzWXCvL;
         "SO2fYfdQ" = _SO2fYfdQ;
-        "neoforge-26.1" = _4CeVTAZ2;
-        "neoforge-26.1.1" = _4CeVTAZ2;
-        "neoforge-26.1.2" = _4CeVTAZ2;
-        "neoforge-26.2" = _4FzWXCvL;
-        "fabric-26.1" = _SO2fYfdQ;
-        "fabric-26.1.1" = _SO2fYfdQ;
-        "fabric-26.1.2" = _SO2fYfdQ;
-        "fabric-26.2" = _w567Y8lI;
-        "quilt-26.1" = _SO2fYfdQ;
-        "quilt-26.1.1" = _SO2fYfdQ;
-        "quilt-26.1.2" = _SO2fYfdQ;
-        "quilt-26.2" = _w567Y8lI;
+        "tkYLSLmH" = _tkYLSLmH;
+        "Jjp0vTNp" = _Jjp0vTNp;
+        "IFfLbw7k" = _IFfLbw7k;
+        "zY5Nf11O" = _zY5Nf11O;
+        "neoforge-26.1" = _tkYLSLmH;
+        "neoforge-26.1.1" = _tkYLSLmH;
+        "neoforge-26.1.2" = _tkYLSLmH;
+        "neoforge-26.2" = _Jjp0vTNp;
+        "fabric-26.1" = _zY5Nf11O;
+        "fabric-26.1.1" = _zY5Nf11O;
+        "fabric-26.1.2" = _zY5Nf11O;
+        "fabric-26.2" = _IFfLbw7k;
+        "quilt-26.1" = _zY5Nf11O;
+        "quilt-26.1.1" = _zY5Nf11O;
+        "quilt-26.1.2" = _zY5Nf11O;
+        "quilt-26.2" = _IFfLbw7k;
         "pkg-26.1.2-1.0.0+neoforge" = _uKpQEdmU;
         "pkg-26.1.2-1.0.0+fabric" = _xehUqWFU;
         "pkg-26.2-1.0.1+neoforge" = _sjp2E6KN;
@@ -112,7 +136,11 @@ let
         "pkg-26.2-1.1.0+fabric" = _w567Y8lI;
         "pkg-26.2-1.1.0+neoforge" = _4FzWXCvL;
         "pkg-26.1.2-1.1.0+fabric" = _SO2fYfdQ;
-        "default" = _SO2fYfdQ;
+        "pkg-26.1.2-1.1.1+neoforge" = _tkYLSLmH;
+        "pkg-26.2-1.1.1+neoforge" = _Jjp0vTNp;
+        "pkg-26.2-1.1.1+fabric" = _IFfLbw7k;
+        "pkg-26.1.2-1.1.1+fabric" = _zY5Nf11O;
+        "default" = _zY5Nf11O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bedrock-entity-models";

@@ -91,6 +91,11 @@ let
             "file" = "enchantment-glint-outline-26.1-3.2.jar";
             "hash" = "sha512-tb0hAKSm5c5IOYZ6VZ1C+Iv1GCYkvHXDnJy85VDl/mjXUeayCRw0AqveFRvghelI6Hu3BSWtSwXCTOwqG5W2Ow==";
         };
+        _SoxEj0Lh = {
+            "id" = "SoxEj0Lh";
+            "file" = "enchantment-glint-outline-26.2-3.3.jar";
+            "hash" = "sha512-qdUQUL1k++8KH7jQgPnsa2nkuvRS2V5HBTg0tZSiXhkryGvbLQXCfASLUdV20d1UgNJxIPB3jp9oBunR4e4F7A==";
+        };
     in {
         "fBBRFYOw" = _fBBRFYOw;
         "XZOSuiao" = _XZOSuiao;
@@ -110,6 +115,7 @@ let
         "jmoTl1vk" = _jmoTl1vk;
         "rIEA2lrR" = _rIEA2lrR;
         "9dqpmtqp" = _9dqpmtqp;
+        "SoxEj0Lh" = _SoxEj0Lh;
         "fabric-1.21.4" = _KskALqHr;
         "fabric-1.21.5" = _ITXrQ9LA;
         "fabric-1.21.6" = _cYyWLLUq;
@@ -121,6 +127,7 @@ let
         "fabric-26.1" = _9dqpmtqp;
         "fabric-26.1.1" = _9dqpmtqp;
         "fabric-26.1.2" = _9dqpmtqp;
+        "fabric-26.2" = _SoxEj0Lh;
         "pkg-1.0" = _fBBRFYOw;
         "pkg-2.0" = _h71Oiqj6;
         "pkg-2.1" = _GaDZ8Ldn;
@@ -130,7 +137,8 @@ let
         "pkg-3.0" = _uwHcqkzr;
         "pkg-3.1" = _82KTHTlU;
         "pkg-3.2" = _9dqpmtqp;
-        "default" = _9dqpmtqp;
+        "pkg-3.3" = _SoxEj0Lh;
+        "default" = _SoxEj0Lh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantment-glint-outline";

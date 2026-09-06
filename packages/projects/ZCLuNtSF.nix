@@ -51,6 +51,16 @@ let
             "file" = "StonecuttingUpgrade-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-XGxtIhfVTxZg7Eu+OXix/KYVl3UuISDY6FZFrH7/n5NE5iEkB+o2b9TW41zoSZl4rF2jCiLk/Mol3gSaItgQyg==";
         };
+        _oiwUyEC6 = {
+            "id" = "oiwUyEC6";
+            "file" = "StonecuttingUpgrade-v21.1.0-mc1.21.1-Fabric.jar";
+            "hash" = "sha512-4IHBMmmkK3C/lcsnr5a5RVLs0sdpcKCq6RLgk7PJGhtAeeMfBkBGobg/uYgf6pSmZ2HvJAdgoX8/gWTnpQ1sig==";
+        };
+        _4bT8M2ti = {
+            "id" = "4bT8M2ti";
+            "file" = "StonecuttingUpgrade-v21.1.0-mc1.21.1-NeoForge.jar";
+            "hash" = "sha512-zBhyecDI8TxjUeKtgTHSrMCFHeW3cotYl+84QkOM1lvmLFHpttCe8oAuRDP7C6zmm4yOM9bPj883Ys8OJMbPrA==";
+        };
     in {
         "7D8L3BP9" = _7D8L3BP9;
         "qup2px4D" = _qup2px4D;
@@ -62,22 +72,27 @@ let
         "hvhTRRqT" = _hvhTRRqT;
         "qHenKuWz" = _qHenKuWz;
         "OosIyG2K" = _OosIyG2K;
+        "oiwUyEC6" = _oiwUyEC6;
+        "4bT8M2ti" = _4bT8M2ti;
         "neoforge-1.21.11" = _rqTsXnxY;
         "neoforge-26.1" = _RAVuh7wv;
         "neoforge-26.1.1" = _RAVuh7wv;
         "neoforge-26.1.2" = _RAVuh7wv;
         "neoforge-26.2" = _OosIyG2K;
+        "neoforge-1.21.1" = _4bT8M2ti;
         "fabric-1.21.11" = _Q3gsNwn9;
         "fabric-26.1" = _hvhTRRqT;
         "fabric-26.1.1" = _hvhTRRqT;
         "fabric-26.1.2" = _hvhTRRqT;
         "fabric-26.2" = _qHenKuWz;
+        "fabric-1.21.1" = _oiwUyEC6;
         "pkg-21.11.0" = _qup2px4D;
         "pkg-26.1.0" = _XGnRHv6b;
         "pkg-21.11.1" = _Q3gsNwn9;
         "pkg-26.1.1" = _hvhTRRqT;
         "pkg-26.2.0" = _OosIyG2K;
-        "default" = _OosIyG2K;
+        "pkg-21.1.0" = _4bT8M2ti;
+        "default" = _4bT8M2ti;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stonecutting-upgrade";

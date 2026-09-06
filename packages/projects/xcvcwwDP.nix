@@ -21,11 +21,17 @@ let
             "file" = "§aInvPet §6Creeper §7[v1.2]§0.zip";
             "hash" = "sha512-qPbr283vcS9/E0qJyYIBoUc5/DwOV1nk7xi2KiMQqwwgYIGoTdfpSEvE3GeK7J3ZksjRS8EBfl/Zrmef/SaMtQ==";
         };
+        _9B9vGQs7 = {
+            "id" = "9B9vGQs7";
+            "file" = "§aInvPet §6Creeper §7[v1.3]§0.zip";
+            "hash" = "sha512-YZ6eYe162CNT8q+amydVcXWL7vnttwoil89wh0D+KOk9JW6467PvFM1u4e7P/xPjiAzNtgx6UA5KGWIwKzAdgw==";
+        };
     in {
         "2q0FiTLJ" = _2q0FiTLJ;
         "tSWEJpMA" = _tSWEJpMA;
         "xaetP9MF" = _xaetP9MF;
         "Su45giF5" = _Su45giF5;
+        "9B9vGQs7" = _9B9vGQs7;
         "minecraft-1.20.2" = _Su45giF5;
         "minecraft-1.20.3" = _Su45giF5;
         "minecraft-1.20.4" = _Su45giF5;
@@ -42,14 +48,19 @@ let
         "minecraft-1.21.6" = _Su45giF5;
         "minecraft-1.21.7" = _Su45giF5;
         "minecraft-1.21.8" = _Su45giF5;
-        "minecraft-1.21.9" = _Su45giF5;
-        "minecraft-1.21.10" = _Su45giF5;
-        "minecraft-1.21.11" = _Su45giF5;
+        "minecraft-1.21.9" = _9B9vGQs7;
+        "minecraft-1.21.10" = _9B9vGQs7;
+        "minecraft-1.21.11" = _9B9vGQs7;
+        "minecraft-26.1" = _9B9vGQs7;
+        "minecraft-26.1.1" = _9B9vGQs7;
+        "minecraft-26.1.2" = _9B9vGQs7;
+        "minecraft-26.2" = _9B9vGQs7;
         "pkg-1.0" = _2q0FiTLJ;
         "pkg-1.1" = _tSWEJpMA;
         "pkg-0.1" = _xaetP9MF;
         "pkg-1.2" = _Su45giF5;
-        "default" = _Su45giF5;
+        "pkg-1.3" = _9B9vGQs7;
+        "default" = _9B9vGQs7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "creeper-pet-inventory";

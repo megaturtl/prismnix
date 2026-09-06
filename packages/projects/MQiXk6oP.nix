@@ -276,6 +276,11 @@ let
             "file" = "ironsigns-1.2.2+neo+mc26.2.jar";
             "hash" = "sha512-LLq2DaPxa3XHEbSVv6Vo3hx7WLxuKgftANRczSzhm3SG7fVawdDApKgrZbhVoDbGm8vJAkWymEiXMofoTLZOyw==";
         };
+        _R7qHfLRs = {
+            "id" = "R7qHfLRs";
+            "file" = "ironsigns-1.2.3+fabric+mc26.2.jar";
+            "hash" = "sha512-fXmZaIsg5QGBhxCuYY8mxou1zNmIT3b+VaXspIZddtY9+PGPLx7Hw1BYoP63ZvHtJ1D2xjs+x3HkbiwZw9A5jw==";
+        };
     in {
         "QFhVHsui" = _QFhVHsui;
         "5q1zck8P" = _5q1zck8P;
@@ -332,6 +337,7 @@ let
         "1Vb2YWoj" = _1Vb2YWoj;
         "L7QL4Pox" = _L7QL4Pox;
         "vAN7ctPu" = _vAN7ctPu;
+        "R7qHfLRs" = _R7qHfLRs;
         "fabric-1.20.2" = _LhdAe40m;
         "fabric-1.20.4" = _2zNTGRs1;
         "fabric-1.20.3" = _nbAZdEOi;
@@ -352,7 +358,7 @@ let
         "fabric-26.1" = _rXU895zz;
         "fabric-26.1.1" = _BkFBft2U;
         "fabric-26.1.2" = _PM8Gyctm;
-        "fabric-26.2" = _L7QL4Pox;
+        "fabric-26.2" = _R7qHfLRs;
         "neoforge-1.21.5" = _z0V1ctFQ;
         "neoforge-1.21.6" = _UEGPeUHH;
         "neoforge-1.21.7" = _rmrJWOOt;
@@ -419,7 +425,8 @@ let
         "pkg-1.2.0+neo+mc26.2" = _1Vb2YWoj;
         "pkg-1.2.2+fabric+mc26.2" = _L7QL4Pox;
         "pkg-1.2.2+neo+mc26.2" = _vAN7ctPu;
-        "default" = _vAN7ctPu;
+        "pkg-1.2.3+fabric+mc26.2" = _R7qHfLRs;
+        "default" = _R7qHfLRs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ironsigns";

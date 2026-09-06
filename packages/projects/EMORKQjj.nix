@@ -321,6 +321,11 @@ let
             "file" = "CrazyVouchers-5.2.1.jar";
             "hash" = "sha512-PrGvhey0t1zcO3XzR4SjNis85yGgWEnqeoJKmAzumEXdD0iD9GdhvpklRNKTHnr0ubCctmjFQtd32LBmUMLK/A==";
         };
+        _gdtgWK00 = {
+            "id" = "gdtgWK00";
+            "file" = "CrazyVouchers-26.1.2-bfe40fd.jar";
+            "hash" = "sha512-706izMFA/Atyo1232EUfrCdOu1xYxkzwvaT3RxiXhLO3Pd6YpZs8w7vQ74/DWFeIzxudxvjVVTCS8YjngRB+tg==";
+        };
     in {
         "iomS50co" = _iomS50co;
         "pXXvyFk9" = _pXXvyFk9;
@@ -386,6 +391,7 @@ let
         "RnMHJUrc" = _RnMHJUrc;
         "hUzZZyfG" = _hUzZZyfG;
         "aDZwWQiV" = _aDZwWQiV;
+        "gdtgWK00" = _gdtgWK00;
         "paper-1.19.3" = _u5jLLmSw;
         "paper-1.18.2" = _u5jLLmSw;
         "paper-1.8.8" = _7UExuf2p;
@@ -406,8 +412,8 @@ let
         "paper-1.21.11" = _RnMHJUrc;
         "paper-26.1" = _RnMHJUrc;
         "paper-26.1.1" = _RnMHJUrc;
-        "paper-26.1.2" = _aDZwWQiV;
-        "paper-26.2" = _aDZwWQiV;
+        "paper-26.1.2" = _gdtgWK00;
+        "paper-26.2" = _gdtgWK00;
         "purpur-1.19.3" = _u5jLLmSw;
         "purpur-1.18.2" = _u5jLLmSw;
         "purpur-1.19.4" = _I48ArXsw;
@@ -425,8 +431,8 @@ let
         "purpur-1.21.11" = _RnMHJUrc;
         "purpur-26.1" = _RnMHJUrc;
         "purpur-26.1.1" = _RnMHJUrc;
-        "purpur-26.1.2" = _aDZwWQiV;
-        "purpur-26.2" = _aDZwWQiV;
+        "purpur-26.1.2" = _gdtgWK00;
+        "purpur-26.2" = _gdtgWK00;
         "spigot-1.8.8" = _7UExuf2p;
         "spigot-1.12.2" = _7UExuf2p;
         "spigot-1.16.5" = _7UExuf2p;
@@ -441,8 +447,8 @@ let
         "folia-1.21.11" = _RnMHJUrc;
         "folia-26.1" = _RnMHJUrc;
         "folia-26.1.1" = _RnMHJUrc;
-        "folia-26.1.2" = _aDZwWQiV;
-        "folia-26.2" = _aDZwWQiV;
+        "folia-26.1.2" = _gdtgWK00;
+        "folia-26.2" = _gdtgWK00;
         "pkg-2.9.11" = _iomS50co;
         "pkg-2.9.12" = _pXXvyFk9;
         "pkg-2.9.13" = _rbleFNkY;
@@ -507,7 +513,8 @@ let
         "pkg-5.1.6" = _RnMHJUrc;
         "pkg-5.2.0" = _hUzZZyfG;
         "pkg-5.2.1" = _aDZwWQiV;
-        "default" = _aDZwWQiV;
+        "pkg-26.1.2-bfe40fd" = _gdtgWK00;
+        "default" = _gdtgWK00;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crazyvouchers";

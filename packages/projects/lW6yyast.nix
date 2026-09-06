@@ -34,6 +34,13 @@ let
         "minecraft-1.21.6" = _VKxqsoeO;
         "minecraft-1.21.7" = _VKxqsoeO;
         "minecraft-1.21.8" = _VKxqsoeO;
+        "minecraft-1.21.9" = _VKxqsoeO;
+        "minecraft-1.21.10" = _VKxqsoeO;
+        "minecraft-1.21.11" = _VKxqsoeO;
+        "minecraft-26.1" = _VKxqsoeO;
+        "minecraft-26.1.1" = _VKxqsoeO;
+        "minecraft-26.1.2" = _VKxqsoeO;
+        "minecraft-26.2" = _VKxqsoeO;
         "pkg-1.0" = _VKxqsoeO;
         "default" = _VKxqsoeO;
     });

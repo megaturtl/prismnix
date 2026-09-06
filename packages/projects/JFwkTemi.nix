@@ -51,6 +51,11 @@ let
             "file" = "Glow Ore (Border) 1.21+.zip";
             "hash" = "sha512-a+x3RsQlLlXBXv3TO4IC/UpovWEGnWHdnDIzcSdu/DuW7PoNg9BY++DAoW1yp+SwDG4zpR13ibKnUbdZgUgVVQ==";
         };
+        _LzlVa4rL = {
+            "id" = "LzlVa4rL";
+            "file" = "Glow Ore 26.1.zip";
+            "hash" = "sha512-r8b38rd2QxQTDoN/gBGLIRCPZnM9XQj9DwOn+4JipjAKvB/ulc+Hw7h5CoYO2aa7w/zLEYHhIA3i/kMsmzR13A==";
+        };
     in {
         "rYaxzWfh" = _rYaxzWfh;
         "xAHtWaIY" = _xAHtWaIY;
@@ -62,6 +67,7 @@ let
         "LQpVRN5T" = _LQpVRN5T;
         "nrzCPq3D" = _nrzCPq3D;
         "vyZ9dLBL" = _vyZ9dLBL;
+        "LzlVa4rL" = _LzlVa4rL;
         "minecraft-1.20" = _nrzCPq3D;
         "minecraft-1.20.1" = _nrzCPq3D;
         "minecraft-1.20.2" = _nrzCPq3D;
@@ -81,6 +87,7 @@ let
         "minecraft-1.21.9" = _vyZ9dLBL;
         "minecraft-1.21.10" = _vyZ9dLBL;
         "minecraft-1.21.11" = _vyZ9dLBL;
+        "minecraft-26.1" = _LzlVa4rL;
         "pkg-1.20" = _rYaxzWfh;
         "pkg-1.21" = _vyZ9dLBL;
         "pkg-1.21.2" = _4yxEPkzG;
@@ -90,7 +97,8 @@ let
         "pkg-1.21.7" = _mKKE7ygg;
         "pkg-1.21.9" = _LQpVRN5T;
         "pkg-1.20.0" = _nrzCPq3D;
-        "default" = _vyZ9dLBL;
+        "pkg-26.1" = _LzlVa4rL;
+        "default" = _LzlVa4rL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glow-ores";

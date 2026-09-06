@@ -116,6 +116,11 @@ let
             "file" = "nemos-night-progression-Fabric-26.2-1.1.jar";
             "hash" = "sha512-dff1BNa8YhoBTgxD07KahpVRCxjl2po9Dhfw45xL8bXln6QMkrDANz6tdv5KwUZaVEtbYaOIIwnzJ5/Jd2cp0w==";
         };
+        _MLLryn0w = {
+            "id" = "MLLryn0w";
+            "file" = "nemos-night-progression-Fabric-26.2-1.2.jar";
+            "hash" = "sha512-RRhVGE8t5YRMukGXdWSnTx9/QhLZbJ9ryvFNcUNakMUSsIMicripTqqndRwoGLzdHrCzwmx8CPzp8zTE98Yugw==";
+        };
     in {
         "wxAQll3U" = _wxAQll3U;
         "RLSnfSx1" = _RLSnfSx1;
@@ -140,6 +145,7 @@ let
         "ntJC9FQW" = _ntJC9FQW;
         "vHtseYpd" = _vHtseYpd;
         "TBevqcNs" = _TBevqcNs;
+        "MLLryn0w" = _MLLryn0w;
         "fabric-1.21.5" = _wGmubn7r;
         "fabric-1.21.6" = _Y67yJ6z2;
         "fabric-1.21.7" = _F4zULHEL;
@@ -147,7 +153,7 @@ let
         "fabric-1.21.10" = _wYSCHzU0;
         "fabric-1.21.11" = _ZsUCTL99;
         "fabric-26.1.2" = _vHtseYpd;
-        "fabric-26.2" = _TBevqcNs;
+        "fabric-26.2" = _MLLryn0w;
         "forge-1.21.5" = _3wVD4Del;
         "forge-1.21.6" = _HsLbmskF;
         "forge-1.21.7" = _z6OXumxA;
@@ -169,7 +175,8 @@ let
         "pkg-1.21.11-1.1" = _ntJC9FQW;
         "pkg-26.1.2-1.1" = _vHtseYpd;
         "pkg-26.2-1.1" = _TBevqcNs;
-        "default" = _TBevqcNs;
+        "pkg-26.2-1.2" = _MLLryn0w;
+        "default" = _MLLryn0w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nemos-night-progression";

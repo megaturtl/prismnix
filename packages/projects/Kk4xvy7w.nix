@@ -51,6 +51,11 @@ let
             "file" = "mi_sound_addon-1.3.0-1.21.1.jar";
             "hash" = "sha512-C9Y/DBlHzl63mzNTIu/h/CBSVIhVh6DqUNy8VfTanRQ7AMBuC8OmgJLGl5B8kfAYWfhcG1VwjF4bpgKdA6+m3A==";
         };
+        _5WoNDYkb = {
+            "id" = "5WoNDYkb";
+            "file" = "mi_sound_addon-1.3.1-1.21.1.jar";
+            "hash" = "sha512-nODgTlaixvBg+fSSx00GnPl5kLA185k3OrxusRwbPnYNnU++TpayoPKf1ThUw/IgzcCVF2K3MFEYkS4Hr4XJHA==";
+        };
     in {
         "nwaOZX0z" = _nwaOZX0z;
         "nb32u3dH" = _nb32u3dH;
@@ -62,10 +67,11 @@ let
         "eAdl8PKr" = _eAdl8PKr;
         "ulBvhqFc" = _ulBvhqFc;
         "dch8GLeo" = _dch8GLeo;
+        "5WoNDYkb" = _5WoNDYkb;
         "fabric-1.19.2" = _U3dvZGBG;
         "fabric-1.20.1" = _9TqCptPZ;
         "neoforge-1.21" = _Ja6eDohi;
-        "neoforge-1.21.1" = _dch8GLeo;
+        "neoforge-1.21.1" = _5WoNDYkb;
         "pkg-1.0.0-1.19.2" = _nwaOZX0z;
         "pkg-1.0.0-1.20.1" = _nb32u3dH;
         "pkg-1.0.1-1.19.2" = _U3dvZGBG;
@@ -76,7 +82,8 @@ let
         "pkg-1.1.3-1.21" = _eAdl8PKr;
         "pkg-1.2.0-1.21.1" = _ulBvhqFc;
         "pkg-1.3.0-1.21.1" = _dch8GLeo;
-        "default" = _dch8GLeo;
+        "pkg-1.3.1-1.21.1" = _5WoNDYkb;
+        "default" = _5WoNDYkb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modern-industrialization-sound-addon";

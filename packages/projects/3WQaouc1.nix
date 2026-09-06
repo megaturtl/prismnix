@@ -226,6 +226,11 @@ let
             "file" = "EssentialAddons-2.5.0+26.2.jar";
             "hash" = "sha512-QmjW0MHRo2EAj1J8usq+bDcX4wbFUf2BGOHw1WTde2cVP5GbY2VrUhY0sKyxe9gu59gKea85YVWs5vHn7XDihw==";
         };
+        _UsPC80JZ = {
+            "id" = "UsPC80JZ";
+            "file" = "EssentialAddons-2.5.1+26.2.jar";
+            "hash" = "sha512-pd2kYtAPLMcybhlcJmNzwUmu2LC9ix0YgIbtsZUTwGEL3MimCgtUbJRcBkXPIL6sCmEh/9CiVQ7mceqLN68/5w==";
+        };
     in {
         "1j25yMxn" = _1j25yMxn;
         "MMIJjX5E" = _MMIJjX5E;
@@ -272,6 +277,7 @@ let
         "OJWGgDAM" = _OJWGgDAM;
         "xVk8vmU4" = _xVk8vmU4;
         "qbtuzG7f" = _qbtuzG7f;
+        "UsPC80JZ" = _UsPC80JZ;
         "fabric-1.16.5" = _1j25yMxn;
         "fabric-1.17.1" = _dU6VT5wt;
         "fabric-1.18.2" = _N954G0Uf;
@@ -302,7 +308,7 @@ let
         "fabric-26.1" = _Sfd99168;
         "fabric-26.1.1" = _xVk8vmU4;
         "fabric-26.1.2" = _xVk8vmU4;
-        "fabric-26.2" = _qbtuzG7f;
+        "fabric-26.2" = _UsPC80JZ;
         "pkg-v1.0.6" = _1j25yMxn;
         "pkg-v1.2.0" = _hVu7zm4x;
         "pkg-1.2.1" = _srCjbSnV;
@@ -341,7 +347,8 @@ let
         "pkg-2.4.2+26.1.1" = _OJWGgDAM;
         "pkg-2.4.3+26.1.1" = _xVk8vmU4;
         "pkg-2.5.0+26.2" = _qbtuzG7f;
-        "default" = _qbtuzG7f;
+        "pkg-2.5.1+26.2" = _UsPC80JZ;
+        "default" = _UsPC80JZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "essentialaddons";

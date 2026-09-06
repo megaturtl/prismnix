@@ -57,7 +57,7 @@ let
         "default" = _NG3AX3i2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
-        name = "ysis_hammers";
+        name = "elysis_hammers";
         id = "zyjxdQQV";
         type = "mod";
         versions = versions;

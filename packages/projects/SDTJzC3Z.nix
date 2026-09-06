@@ -571,6 +571,16 @@ let
             "file" = "vte-forge-1.20.1-1.4.1.jar";
             "hash" = "sha512-v+X65RPNVLrcSIojB0EA1gm7jRMcldFJajAPQsGEvoHNrHEhjY+WLvV/7hb52+gbZXEWSentPWHOHFnfkdUD/w==";
         };
+        _VRfFmPUv = {
+            "id" = "VRfFmPUv";
+            "file" = "vte-fabric-26.2-1.4.1.jar";
+            "hash" = "sha512-qrlO+GXqHKpiAAEDwOSMVgsFm4ifVo/pgIu57NLHQbTe9UOPlGhSbjtBbYMIVt4Df+aslcuL9Jp/GsGHjysnIg==";
+        };
+        _Xo6QomPe = {
+            "id" = "Xo6QomPe";
+            "file" = "vte-neoforge-26.2-1.4.1.jar";
+            "hash" = "sha512-eCDJI0GKTh5Tm6mzmd/s4zVPQ/MYNYMwKHEfcJ3vIne8kpgoLTppoxwSQUiTnhjT9zNL1RrG6lXQJqMbDleAzA==";
+        };
     in {
         "SAMA9oob" = _SAMA9oob;
         "KD56Frb1" = _KD56Frb1;
@@ -686,6 +696,8 @@ let
         "IH1XHcJs" = _IH1XHcJs;
         "VXs3o5hw" = _VXs3o5hw;
         "4QJ95LTg" = _4QJ95LTg;
+        "VRfFmPUv" = _VRfFmPUv;
+        "Xo6QomPe" = _Xo6QomPe;
         "fabric-1.20.1" = _VXs3o5hw;
         "fabric-1.21.1" = _q9vyjKYv;
         "fabric-1.21.4" = _8KwUprru;
@@ -697,6 +709,7 @@ let
         "fabric-26.1" = _r2dHiUgG;
         "fabric-26.1.1" = _r2dHiUgG;
         "fabric-26.1.2" = _r2dHiUgG;
+        "fabric-26.2" = _VRfFmPUv;
         "forge-1.20.1" = _4QJ95LTg;
         "forge-1.21.1" = _ohN10Nnz;
         "forge-1.21.4" = _X695RydI;
@@ -714,6 +727,7 @@ let
         "neoforge-26.1" = _GVIUuiYB;
         "neoforge-26.1.1" = _GVIUuiYB;
         "neoforge-26.1.2" = _GVIUuiYB;
+        "neoforge-26.2" = _Xo6QomPe;
         "pkg-1.2.5" = _ASqWpop2;
         "pkg-1.2.6-fabric" = _8AHH0OVu;
         "pkg-1.2.6-forge" = _qF07chU3;
@@ -727,10 +741,10 @@ let
         "pkg-1.4.0-fabric" = _zxIDHs4S;
         "pkg-1.4.0-forge" = _J2ZjTmGq;
         "pkg-1.4.0-neoforge" = _SLi1MC5C;
-        "pkg-1.4.1-fabric" = _VXs3o5hw;
-        "pkg-1.4.1-neoforge" = _IH1XHcJs;
+        "pkg-1.4.1-fabric" = _VRfFmPUv;
+        "pkg-1.4.1-neoforge" = _Xo6QomPe;
         "pkg-1.4.1-forge" = _4QJ95LTg;
-        "default" = _4QJ95LTg;
+        "default" = _Xo6QomPe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vr-throwing-extensions";

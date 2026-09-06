@@ -111,6 +111,16 @@ let
             "file" = "expanded-trident-enchantings-1.10.jar";
             "hash" = "sha512-8Fjdz2KKuNH9xcXtb5IabY62zIUjeSVQME6D8Ngs7wMuFaPlS9XwcnmAtH6vofIjCplwBvuHM0k7heTvs7rriQ==";
         };
+        _bjoyTUcb = {
+            "id" = "bjoyTUcb";
+            "file" = "Expanded Trident Enchanting 26.2.zip";
+            "hash" = "sha512-YqYP07x4fj8trYw1FjikfLRhpZQ/haMkg07raV7il7KQXXlIzIbSU27C0404tk9Jp2oC+LjeFl9CeoD1ce0+TQ==";
+        };
+        _NFCyoIF2 = {
+            "id" = "NFCyoIF2";
+            "file" = "expanded-trident-enchantings-1.11.jar";
+            "hash" = "sha512-BAnDWaq6a4uxwFO+abgNqmtYJuTjom5F5w6UsFStVOjkMBhRuXwKWWDbYZQo80ps8NlGb0am6E9d51oEun2YWw==";
+        };
     in {
         "YU1RgMpQ" = _YU1RgMpQ;
         "QZzvvCwS" = _QZzvvCwS;
@@ -134,6 +144,8 @@ let
         "llzEqqpu" = _llzEqqpu;
         "Z9po1ddr" = _Z9po1ddr;
         "sXc3572N" = _sXc3572N;
+        "bjoyTUcb" = _bjoyTUcb;
+        "NFCyoIF2" = _NFCyoIF2;
         "datapack-1.21" = _YU1RgMpQ;
         "datapack-1.21.1" = _YU1RgMpQ;
         "datapack-1.21.2" = _jxXq7EUX;
@@ -149,6 +161,7 @@ let
         "datapack-26.1" = _Z9po1ddr;
         "datapack-26.1.1" = _Z9po1ddr;
         "datapack-26.1.2" = _Z9po1ddr;
+        "datapack-26.2" = _bjoyTUcb;
         "fabric-1.21" = _QZzvvCwS;
         "fabric-1.21.1" = _QZzvvCwS;
         "fabric-1.21.2" = _llWXBzKo;
@@ -164,6 +177,7 @@ let
         "fabric-26.1" = _sXc3572N;
         "fabric-26.1.1" = _sXc3572N;
         "fabric-26.1.2" = _sXc3572N;
+        "fabric-26.2" = _NFCyoIF2;
         "forge-1.21" = _QZzvvCwS;
         "forge-1.21.1" = _QZzvvCwS;
         "forge-1.21.2" = _llWXBzKo;
@@ -179,6 +193,7 @@ let
         "forge-26.1" = _sXc3572N;
         "forge-26.1.1" = _sXc3572N;
         "forge-26.1.2" = _sXc3572N;
+        "forge-26.2" = _NFCyoIF2;
         "neoforge-1.21" = _QZzvvCwS;
         "neoforge-1.21.1" = _QZzvvCwS;
         "neoforge-1.21.2" = _llWXBzKo;
@@ -194,6 +209,7 @@ let
         "neoforge-26.1" = _sXc3572N;
         "neoforge-26.1.1" = _sXc3572N;
         "neoforge-26.1.2" = _sXc3572N;
+        "neoforge-26.2" = _NFCyoIF2;
         "quilt-1.21" = _QZzvvCwS;
         "quilt-1.21.1" = _QZzvvCwS;
         "quilt-1.21.2" = _llWXBzKo;
@@ -209,6 +225,7 @@ let
         "quilt-26.1" = _sXc3572N;
         "quilt-26.1.1" = _sXc3572N;
         "quilt-26.1.2" = _sXc3572N;
+        "quilt-26.2" = _NFCyoIF2;
         "pkg-1.0" = _YU1RgMpQ;
         "pkg-1.0.1+mod" = _QZzvvCwS;
         "pkg-1.1" = _jxXq7EUX;
@@ -231,7 +248,9 @@ let
         "pkg-1.9.1+mod" = _llzEqqpu;
         "pkg-1.10" = _Z9po1ddr;
         "pkg-1.10.1+mod" = _sXc3572N;
-        "default" = _sXc3572N;
+        "pkg-1.11" = _bjoyTUcb;
+        "pkg-1.11.1+mod" = _NFCyoIF2;
+        "default" = _NFCyoIF2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "expanded-trident-enchantings";

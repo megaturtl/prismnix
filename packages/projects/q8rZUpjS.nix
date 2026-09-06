@@ -86,6 +86,16 @@ let
             "file" = "expanded_weaponry-1.0.1-26.2.jar";
             "hash" = "sha512-KFkmG19H9VAVtInYab6wocUMymYi80gCn4OfutmNYKlETIxPHm7Y6xFs9944G8psgKPtvcpL5bQNOudlYIEOXg==";
         };
+        _xxq1UwIk = {
+            "id" = "xxq1UwIk";
+            "file" = "expanded_weaponry-1.0.2-26.2.jar";
+            "hash" = "sha512-yK+uCelMXc5Zzk6HIKa2ymQlL3tV8OgMsgsl8TJfTxj6p32wUgPy59QIVWafbLbS8ZNffkx4s7mGsTruVQGQMA==";
+        };
+        _T2OxGigF = {
+            "id" = "T2OxGigF";
+            "file" = "expanded_weaponry-1.0.3-26.2.jar";
+            "hash" = "sha512-CKddIcgYwuG11qVf/a91riLuK3fp/cBr/saj6QareT8IhWsmhnDSLoIOL8onNDjAUxv+Kf2VC0i58XwGzNmyOg==";
+        };
     in {
         "McWo3tPM" = _McWo3tPM;
         "l9fZUOLI" = _l9fZUOLI;
@@ -104,6 +114,8 @@ let
         "91zQqaH6" = _91zQqaH6;
         "UeMbna11" = _UeMbna11;
         "aReF9Y8c" = _aReF9Y8c;
+        "xxq1UwIk" = _xxq1UwIk;
+        "T2OxGigF" = _T2OxGigF;
         "fabric-1.21" = _qoScs50t;
         "fabric-1.21.1" = _eFJUMZpA;
         "fabric-1.21.5" = _yzipvtd1;
@@ -111,7 +123,7 @@ let
         "fabric-1.21.7" = _v01pDhmX;
         "fabric-1.21.8" = _v01pDhmX;
         "fabric-1.21.11" = _91zQqaH6;
-        "fabric-26.2" = _aReF9Y8c;
+        "fabric-26.2" = _T2OxGigF;
         "pkg-0.1" = _McWo3tPM;
         "pkg-0.2" = _l9fZUOLI;
         "pkg-0.2.1" = _Klm6s8zq;
@@ -129,7 +141,9 @@ let
         "pkg-0.8" = _91zQqaH6;
         "pkg-1.0-26.2" = _UeMbna11;
         "pkg-1.0.1-26.2" = _aReF9Y8c;
-        "default" = _aReF9Y8c;
+        "pkg-1.0.2-26.2" = _xxq1UwIk;
+        "pkg-1.0.3-26.2" = _T2OxGigF;
+        "default" = _T2OxGigF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "expanded-weaponry";
@@ -143,7 +157,7 @@ let
                 redistributable = false;
                 fullName = "MIT License";
                 shortName = "MIT";
-                url = null;
+                url = "https://github.com/Kielson123/Expanded-Weaponry/blob/main/LICENSE";
             };
         };
     };

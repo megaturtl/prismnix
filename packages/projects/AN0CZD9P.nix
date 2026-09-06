@@ -131,6 +131,41 @@ let
             "file" = "petrolsparts-1.21.1-1.3.0-snapshot-2.jar";
             "hash" = "sha512-hUD31WNN/qhgijZd2dPUclbfW6qyG4JFg3QQyZb8adc7UyEGqj6kf1V7GUwPxeRrl3sVq+tkx5giy7tpG/yIHg==";
         };
+        _1acxomb3 = {
+            "id" = "1acxomb3";
+            "file" = "petrolsparts-1.21.1-1.3.0.jar";
+            "hash" = "sha512-hIOHyiCYKO8Eb9IxhDp1Ls5O1aSc2B2a9UU6zolc7SQPHxiHYJeOeB6T66rL5/N2+QYtpzbWexMZvJf/Sft5jQ==";
+        };
+        _i1ob2MDj = {
+            "id" = "i1ob2MDj";
+            "file" = "petrolsparts-1.21.1-1.3.1.jar";
+            "hash" = "sha512-nEllf91B+4SsKb7eP9/4oDGKFKFNBzmf8+N1sy6wKdtRWnQIIvOr2/IZKMGwhQ/4BEMFEXpebf6OLKAUlwWQNA==";
+        };
+        _IjR546KA = {
+            "id" = "IjR546KA";
+            "file" = "petrolsparts-1.21.1-1.3.2.jar";
+            "hash" = "sha512-HOYAszLlCsEFRX/CXRSeDaEZy7asS2Db54voSj9UAOuYTJZgdZxykUyDwqf3DYdVyAyu4ye/XxAKFt+Wp0TTxA==";
+        };
+        _GBuPd0r8 = {
+            "id" = "GBuPd0r8";
+            "file" = "petrolsparts-1.21.1-1.3.3.jar";
+            "hash" = "sha512-O0xIbs/qtS5CL1dHfH7ExyVSFBdSPktv4nc4VOD/LJ7rjRtgRFhnPrKIgy+6i2jW5F2MDivRljIdVaKj2kkwOA==";
+        };
+        _ErwKb6Wc = {
+            "id" = "ErwKb6Wc";
+            "file" = "petrolsparts-1.21.1-1.3.4.jar";
+            "hash" = "sha512-GJsALqHxSMD3qdoclWw/4HWCr2hpIrVtmVUjY29utuWU/jGJy29Con+QzJzXO8fgbHFncGopzdSD30Hc9RfRXA==";
+        };
+        _URRCHehv = {
+            "id" = "URRCHehv";
+            "file" = "petrolsparts-1.21.1-1.3.5.jar";
+            "hash" = "sha512-pbnb+hEi6jRdz4Z8bSPFhZBMZpsjEz9ksdjQYR17mN43hB7kaZtAL+3jN9RkBl7PRVN7PNVIIeIAvN271m3idA==";
+        };
+        _cV2yWh5S = {
+            "id" = "cV2yWh5S";
+            "file" = "petrolsparts-1.21.1-1.3.6.jar";
+            "hash" = "sha512-g46L+bOtuLtKNY2Euu4dws2ZOjE4V9QbansvUOJA5omte6wq+Ooqo1gf7B3sidHiYjPxy0X2SerQu3FwgcPACg==";
+        };
     in {
         "5svm211e" = _5svm211e;
         "gwisCLCi" = _gwisCLCi;
@@ -158,9 +193,16 @@ let
         "PFCZOOlN" = _PFCZOOlN;
         "bgJuazQk" = _bgJuazQk;
         "633zx74p" = _633zx74p;
+        "1acxomb3" = _1acxomb3;
+        "i1ob2MDj" = _i1ob2MDj;
+        "IjR546KA" = _IjR546KA;
+        "GBuPd0r8" = _GBuPd0r8;
+        "ErwKb6Wc" = _ErwKb6Wc;
+        "URRCHehv" = _URRCHehv;
+        "cV2yWh5S" = _cV2yWh5S;
         "forge-1.20.1" = _hCQO8AvZ;
         "neoforge-1.20.1" = _hCQO8AvZ;
-        "neoforge-1.21.1" = _633zx74p;
+        "neoforge-1.21.1" = _cV2yWh5S;
         "pkg-1.20.1-1.0.0" = _5svm211e;
         "pkg-1.20.1-1.0.1" = _gwisCLCi;
         "pkg-1.20.1-1.0.2" = _4HGS58Vk;
@@ -186,7 +228,14 @@ let
         "pkg-1.21.1-1.2.10" = _PFCZOOlN;
         "pkg-1.21.1-1.3.0-snapshot-1" = _bgJuazQk;
         "pkg-1.21.1-1.3.0-snapshot-2" = _633zx74p;
-        "default" = _633zx74p;
+        "pkg-1.21.1-1.3.0" = _1acxomb3;
+        "pkg-1.21.1-1.3.1" = _i1ob2MDj;
+        "pkg-1.21.1-1.3.2" = _IjR546KA;
+        "pkg-1.21.1-1.3.3" = _GBuPd0r8;
+        "pkg-1.21.1-1.3.4" = _ErwKb6Wc;
+        "pkg-1.21.1-1.3.5" = _URRCHehv;
+        "pkg-1.21.1-1.3.6" = _cV2yWh5S;
+        "default" = _cV2yWh5S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "petrols-parts";

@@ -121,6 +121,11 @@ let
             "file" = "sol2f-3.3.0.jar";
             "hash" = "sha512-HVGda9odhn4gPRwUyLYjeJwwcrBdId1rIx+0UzvdfrATJ7qbZGWc2hhFOG0mCKDNpH1DWvBwGYEdJC3etZsonw==";
         };
+        _EeuaOivf = {
+            "id" = "EeuaOivf";
+            "file" = "sol2f-4.0.0-alpha.jar";
+            "hash" = "sha512-n2UAUtARAGFXerfNJqMxxUqFY96mNLrAMsvWxJ2FqQL8NmB6FntrGZveN9XRKJ26WXfIxA8lSVAU4IIOrPoOeg==";
+        };
     in {
         "Q0eAwYxH" = _Q0eAwYxH;
         "YJGkkZsy" = _YJGkkZsy;
@@ -146,11 +151,13 @@ let
         "JXHpfSeE" = _JXHpfSeE;
         "QLLixKlN" = _QLLixKlN;
         "i76Fir8w" = _i76Fir8w;
+        "EeuaOivf" = _EeuaOivf;
         "fabric-1.20.1" = _QLLixKlN;
         "fabric-1.20.2" = _znUXXiZu;
         "fabric-1.20.3" = _znUXXiZu;
         "fabric-1.20.4" = _znUXXiZu;
         "fabric-1.21.1" = _i76Fir8w;
+        "fabric-26.2" = _EeuaOivf;
         "pkg-0.0.1-beta" = _Q0eAwYxH;
         "pkg-0.1.2" = _YJGkkZsy;
         "pkg-0.2.0" = _8SRTPXJd;
@@ -168,14 +175,15 @@ let
         "pkg-2.6.0" = _uwlb6OU8;
         "pkg-2.6.1" = _GSH8oFcl;
         "pkg-2.7.0" = _znUXXiZu;
-        "pkg-3.0.0-rc.1" = _yPFrFDVA;
+        "pkg-3.0.0-Alpha.dev1" = _yPFrFDVA;
         "pkg-3.1.0" = _DkirHYnS;
         "pkg-3.2.0" = _BoTw2pAs;
-        "pkg-3.3.0-AlphaTest(Preview)" = _LUooInZG;
+        "pkg-3.3.0-Alpha.dev1" = _LUooInZG;
         "pkg-3.2.1" = _JXHpfSeE;
         "pkg-2.7.1" = _QLLixKlN;
         "pkg-3.3.0" = _i76Fir8w;
-        "default" = _i76Fir8w;
+        "pkg-4.0.0-Alpha.dev1" = _EeuaOivf;
+        "default" = _EeuaOivf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sol2f";

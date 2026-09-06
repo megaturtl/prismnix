@@ -181,6 +181,51 @@ let
             "file" = "bp-26.5.2a-fabric-26.1.2.jar";
             "hash" = "sha512-jPfNmBQ3SrXee0LAP7wQ38cI551sD0mj/31ggedjNLrTbAncIWa4rfcN9cm/Z7haef39e7ke3IdRmGpa9b907A==";
         };
+        _UK8okZ2P = {
+            "id" = "UK8okZ2P";
+            "file" = "bp-26.A-fabric-1.20.1.jar";
+            "hash" = "sha512-6GW8UOZKksaLuTe1UUtc7zx01iyl8099k1VfLbPZFg7E2pFzLvY23/A8zjjBReosTBjOFMsYkNubmD3vYY9dBw==";
+        };
+        _XXbcNJTS = {
+            "id" = "XXbcNJTS";
+            "file" = "bp-26.A-forge-1.20.1.jar";
+            "hash" = "sha512-DmXxd7fgL7QD3cnLQ4QDFAIMZ+NUpTr/IMEVrsNtMvwqQMHsZHc/R4QWQ3tMG8Dlcp8dVhUWRufE82Sv+tut0w==";
+        };
+        _cyYi4fti = {
+            "id" = "cyYi4fti";
+            "file" = "bp-26.A-fabric-1.21.1.jar";
+            "hash" = "sha512-WBkJXVeuYAPxSkX5gcH5I664cI5cCAJcZA6Wkdbo9K36OmfwzYu777kc4oImSSa8DtNBfL9gA0aQsByj5Qws3A==";
+        };
+        _XSCPZaXr = {
+            "id" = "XSCPZaXr";
+            "file" = "bp-26.A-neoforge-1.21.1.jar";
+            "hash" = "sha512-hpfcsWiY0Rk10CmdGpXHBeK9RlcTMnTHnobsZPp+mxSXeKi2De1p6E5qAlhnpD85RGt7PJqiy/cpH981Hha0fA==";
+        };
+        _faxANt78 = {
+            "id" = "faxANt78";
+            "file" = "bp-26.A-fabric-1.21.11.jar";
+            "hash" = "sha512-Hd2i+PKIFssjrl+X6oQPEcB8XT1Qq0zFgPACq7ig8IBvPkVwFkGEbthcg4ju00BDCS2TZjSEYAdMVOma7YqTPw==";
+        };
+        _ZwTuS89D = {
+            "id" = "ZwTuS89D";
+            "file" = "bp-26.A-neoforge-1.21.11.jar";
+            "hash" = "sha512-rFTM/dlnQehBZsVVI8RdEDezhezuoeLi4yK+Nc42PG9C3fEFMzAxeeiOCG/2p0ucGeDX6OU5HIMW26XeLaDxoQ==";
+        };
+        _pl5Zapo5 = {
+            "id" = "pl5Zapo5";
+            "file" = "bp-26.A-fabric-26.1.2.jar";
+            "hash" = "sha512-1ycoLxgDIwIgFys5TaJjz4wF1AkxdrmmYalnOvJhOLOUzl8hvfwi7GnGTKSIh4MgXi/6Uy+QM8Ene9tjWNHH7g==";
+        };
+        _vcy223B7 = {
+            "id" = "vcy223B7";
+            "file" = "bp-26.A-neoforge-26.1.2.jar";
+            "hash" = "sha512-GDpiJic2os9biENoCU9wC0vquLOkpa3uyqSDFAiAbhk4WTsxfXbNiC3ZpVYZdiGeY3UFLMQoknnrLiNXZl7xkw==";
+        };
+        _LLgRUsA7 = {
+            "id" = "LLgRUsA7";
+            "file" = "bp-26.A-fabric-26.2.jar";
+            "hash" = "sha512-s2PbXtpkNNYtzwgpEqab7u9LHx2DxG787gBIJiwi8Y6uUBuGaRHUtSYk+JSI9tlzYWzzT5BqA/0Fs5RK4H7Wvg==";
+        };
     in {
         "hY1n7sae" = _hY1n7sae;
         "KVQ8rsUL" = _KVQ8rsUL;
@@ -218,7 +263,16 @@ let
         "2em4VeZD" = _2em4VeZD;
         "ZACoIv13" = _ZACoIv13;
         "CcPDO4E7" = _CcPDO4E7;
-        "forge-1.20.1" = _BbJJm1tm;
+        "UK8okZ2P" = _UK8okZ2P;
+        "XXbcNJTS" = _XXbcNJTS;
+        "cyYi4fti" = _cyYi4fti;
+        "XSCPZaXr" = _XSCPZaXr;
+        "faxANt78" = _faxANt78;
+        "ZwTuS89D" = _ZwTuS89D;
+        "pl5Zapo5" = _pl5Zapo5;
+        "vcy223B7" = _vcy223B7;
+        "LLgRUsA7" = _LLgRUsA7;
+        "forge-1.20.1" = _XXbcNJTS;
         "forge-1.19.4" = _UA0FI1ZK;
         "forge-1.19.2" = _sMZ5b6tG;
         "forge-1.16.5" = _d9u5wzzR;
@@ -227,13 +281,16 @@ let
         "neoforge-1.20.4" = _jdsIHJDQ;
         "neoforge-1.21.5" = _X5bfDWcQ;
         "neoforge-1.21.4" = _KcSdzXw9;
-        "neoforge-1.21.1" = _LMvw8qqc;
+        "neoforge-1.21.1" = _XSCPZaXr;
         "neoforge-1.21.8" = _h6Ot5BtO;
+        "neoforge-1.21.11" = _ZwTuS89D;
+        "neoforge-26.1.2" = _vcy223B7;
         "fabric-1.21.8" = _SFYeboHJ;
-        "fabric-1.20.1" = _lpjm1U7w;
-        "fabric-1.21.1" = _AyAkhfdJ;
-        "fabric-26.1.2" = _CcPDO4E7;
-        "fabric-1.21.11" = _2em4VeZD;
+        "fabric-1.20.1" = _UK8okZ2P;
+        "fabric-1.21.1" = _cyYi4fti;
+        "fabric-26.1.2" = _pl5Zapo5;
+        "fabric-1.21.11" = _faxANt78;
+        "fabric-26.2" = _LLgRUsA7;
         "pkg-0.1.24" = _hY1n7sae;
         "pkg-0.1.33" = _KVQ8rsUL;
         "pkg-0.1.42" = _dIDfMFWp;
@@ -246,7 +303,10 @@ let
         "pkg-26.5.1" = _vBNKUYF9;
         "pkg-26.5.2" = _ZACoIv13;
         "pkg-26.5.2a" = _CcPDO4E7;
-        "default" = _CcPDO4E7;
+        "pkg-26.A" = _ZwTuS89D;
+        "pkg-26.1.2-26.A" = _vcy223B7;
+        "pkg-26.2-26.A" = _LLgRUsA7;
+        "default" = _LLgRUsA7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "builders-palette";
@@ -254,13 +314,13 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CookiecraftMods-Licence-v1.0" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "LicenseRef-All-Rights-Reserved";
-                shortName = "LicenseRef-All-Rights-Reserved";
-                url = null;
+                fullName = "LicenseRef-CookiecraftMods-Licence-v1.0";
+                shortName = "LicenseRef-CookiecraftMods-Licence-v1.0";
+                url = "https://github.com/0PALEQ/Builder-s-Palette/blob/fabric-1.20.1/CookiecraftMods%20Licence%20v1.0.pdf";
             };
         };
     };

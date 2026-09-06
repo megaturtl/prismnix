@@ -131,6 +131,16 @@ let
             "file" = "kitchenprojectiles-1.0.11+mc1.21.1.jar";
             "hash" = "sha512-BnvT/TvKXMLxjOYvYAeSNVuEQ7vQQqraERJiWY7wYklvJRJh0OuR5R+b//OicP/Pgp8H5ROXckADPrdAhDIroA==";
         };
+        _3YuekkKQ = {
+            "id" = "3YuekkKQ";
+            "file" = "kitchenprojectiles-1.0.13+mc26.2.jar";
+            "hash" = "sha512-GtYmcBA/xjTUsUkCcPmNwcmyOXMd6Xm5DMWrKcwtIfRENY+V42Ble0uLW0UWKXwJdBm66TSvcDCS5ep7BjPB+g==";
+        };
+        _MnBFsRpq = {
+            "id" = "MnBFsRpq";
+            "file" = "kitchenprojectiles-1.0.13+mc26.1.2.jar";
+            "hash" = "sha512-43DyAqRPsEZDoSqe4Y31U79vbCByvcbET6EUOR3hk65OgGeta1M3QQLuIB9RQKyffTlJ+eLEBmMM4/KFrMF1mA==";
+        };
     in {
         "9JDLu24z" = _9JDLu24z;
         "wjxwdBQJ" = _wjxwdBQJ;
@@ -158,6 +168,8 @@ let
         "9vn66gUG" = _9vn66gUG;
         "c4057QqO" = _c4057QqO;
         "iCwAfZDt" = _iCwAfZDt;
+        "3YuekkKQ" = _3YuekkKQ;
+        "MnBFsRpq" = _MnBFsRpq;
         "fabric-1.20.1" = _REPh5GDu;
         "fabric-1.21" = _iCwAfZDt;
         "fabric-1.21.1" = _iCwAfZDt;
@@ -167,10 +179,10 @@ let
         "fabric-1.21.9" = _Wav0hYXd;
         "fabric-1.21.10" = _Wav0hYXd;
         "fabric-1.21.11" = _JCEmM7PN;
-        "fabric-26.1" = _9vn66gUG;
-        "fabric-26.1.1" = _9vn66gUG;
-        "fabric-26.1.2" = _9vn66gUG;
-        "fabric-26.2" = _c4057QqO;
+        "fabric-26.1" = _MnBFsRpq;
+        "fabric-26.1.1" = _MnBFsRpq;
+        "fabric-26.1.2" = _MnBFsRpq;
+        "fabric-26.2" = _3YuekkKQ;
         "neoforge-1.21" = _aimG9ALl;
         "neoforge-1.21.1" = _O3Lf8MHF;
         "pkg-0.1.0+1.20.1" = _9JDLu24z;
@@ -199,7 +211,9 @@ let
         "pkg-1.0.12+mc26.1.2" = _9vn66gUG;
         "pkg-1.0.12+mc26.2" = _c4057QqO;
         "pkg-1.0.11+mc1.21.1" = _iCwAfZDt;
-        "default" = _iCwAfZDt;
+        "pkg-1.0.13+mc26.2" = _3YuekkKQ;
+        "pkg-1.0.13+mc26.1.2" = _MnBFsRpq;
+        "default" = _MnBFsRpq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kitchen-projectiles";

@@ -326,6 +326,11 @@ let
             "file" = "coffins-1.4.0+1.20.4.jar";
             "hash" = "sha512-lVWbx+rJziKsHRQhQxfHRldgQ9SgViH9alXzFKTuCDLWZx9WVgjeB++pF53P2UTOvbqVBkRQ6odu5WAHn/+Ubw==";
         };
+        _xjcdx8ik = {
+            "id" = "xjcdx8ik";
+            "file" = "coffins-2.0.jar";
+            "hash" = "sha512-Mo6DYpsz+7i739ASlXfsVBSqkP0OsP8Of466WX984og5XJ0m6s0htLcfjUDgXS7IVAihOPJMaPk9AEeNN0JTyw==";
+        };
     in {
         "a8x0KFFg" = _a8x0KFFg;
         "hwwO46KA" = _hwwO46KA;
@@ -392,6 +397,7 @@ let
         "bwZGqiq8" = _bwZGqiq8;
         "hgw87tgL" = _hgw87tgL;
         "qUHZC23q" = _qUHZC23q;
+        "xjcdx8ik" = _xjcdx8ik;
         "fabric-1.19.2" = _H1xcxG9i;
         "fabric-1.19.3" = _o2Pvs06x;
         "fabric-1.19.4" = _ujBgBE8o;
@@ -400,6 +406,9 @@ let
         "fabric-1.20.2" = _bwZGqiq8;
         "fabric-1.20.3" = _hgw87tgL;
         "fabric-1.20.4" = _qUHZC23q;
+        "fabric-26.1" = _xjcdx8ik;
+        "fabric-26.1.1" = _xjcdx8ik;
+        "fabric-26.1.2" = _xjcdx8ik;
         "pkg-1.0.0+1.19.2" = _a8x0KFFg;
         "pkg-1.0.1+1.19.2" = _hwwO46KA;
         "pkg-1.0.1+1.19.3" = _IAefJ9LX;
@@ -465,7 +474,8 @@ let
         "pkg-1.4.0+1.20.2" = _bwZGqiq8;
         "pkg-1.4.0+1.20.3" = _hgw87tgL;
         "pkg-1.4.0+1.20.4" = _qUHZC23q;
-        "default" = _qUHZC23q;
+        "pkg-2.0" = _xjcdx8ik;
+        "default" = _xjcdx8ik;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "coffins";
@@ -473,13 +483,13 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "MIT" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Coffins-License" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "MIT License";
-                shortName = "MIT";
-                url = null;
+                fullName = "LicenseRef-Coffins-License";
+                shortName = "LicenseRef-Coffins-License";
+                url = "https://github.com/Now-this-is-crazy/Coffins/blob/main/LICENSE.md";
             };
         };
     };

@@ -31,6 +31,16 @@ let
             "file" = "unlimited-combination-enchantment-0.7.0.jar";
             "hash" = "sha512-o0Wbo/QCvfgrzyEoR/SvRCiEuniQ0NRpR41uCnTzATnwE8nP4lZPykG2nTVzuEDgBopH0aHkCM6JpDluWzM18w==";
         };
+        _6CHyKLsl = {
+            "id" = "6CHyKLsl";
+            "file" = "unlimited-combination-enchantment-1.2.0.jar";
+            "hash" = "sha512-3xCgNYEmqtvPsWn991Q8lknnZW7DVwsq8TVjYbwAzeUU68kttucw1IP98fD9KjVmF7hj/pVRJ6JZDea92gjd2A==";
+        };
+        _dOPFp2qr = {
+            "id" = "dOPFp2qr";
+            "file" = "unlimited-combination-enchantment-1.3.0.jar";
+            "hash" = "sha512-wG9P2BzNJX+EPXGHQBqgBpDvhTS7LmDBqWjM1lWRE0K0g9mtsxgGOg3EVFz5QkoB2sWi2XMTrVvumd6KARgVVA==";
+        };
     in {
         "BtdYjZVK" = _BtdYjZVK;
         "utSgiek9" = _utSgiek9;
@@ -38,6 +48,8 @@ let
         "99aAA4jW" = _99aAA4jW;
         "7oIRpe8o" = _7oIRpe8o;
         "5LE4Mb1i" = _5LE4Mb1i;
+        "6CHyKLsl" = _6CHyKLsl;
+        "dOPFp2qr" = _dOPFp2qr;
         "fabric-1.21" = _BtdYjZVK;
         "fabric-1.21.1" = _BtdYjZVK;
         "fabric-1.21.2" = _BtdYjZVK;
@@ -62,13 +74,19 @@ let
         "fabric-1.19.2" = _7oIRpe8o;
         "fabric-1.19.3" = _5LE4Mb1i;
         "fabric-1.19.4" = _5LE4Mb1i;
+        "fabric-26.1" = _6CHyKLsl;
+        "fabric-26.1.1" = _6CHyKLsl;
+        "fabric-26.1.2" = _6CHyKLsl;
+        "fabric-26.2" = _dOPFp2qr;
         "pkg-1.0.0" = _BtdYjZVK;
         "pkg-1.1.0" = _utSgiek9;
         "pkg-0.8.0" = _pyICuqn0;
         "pkg-0.9.0" = _99aAA4jW;
         "pkg-0.6.0" = _7oIRpe8o;
         "pkg-0.7.0" = _5LE4Mb1i;
-        "default" = _5LE4Mb1i;
+        "pkg-1.2.0" = _6CHyKLsl;
+        "pkg-1.3.0" = _dOPFp2qr;
+        "default" = _dOPFp2qr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unlimited-combination-enchantment-(uce)";

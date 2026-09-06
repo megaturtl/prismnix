@@ -71,6 +71,16 @@ let
             "file" = "reliable_recount-fabric-1.21.1-2.0.3.jar";
             "hash" = "sha512-cQZDJnilowxQ0L+m587ZMT7ploO3TvDHt9iwWZNm+dCEh1mdZ57RbjIPIqWxZ081tPdVdT9KqEiYnCxwUtm9/w==";
         };
+        _tIqh7FJA = {
+            "id" = "tIqh7FJA";
+            "file" = "o123456789-neoforge-26.1.2-1.0.1.jar";
+            "hash" = "sha512-skdazyBE8LFWhj5os3RRSliQkYNIe+jzXSUciWG/6fAyZ8uTQ9rwmt6voFaEVCSL7godVqaTDClJHja9BPkt7w==";
+        };
+        _l4fkyKjL = {
+            "id" = "l4fkyKjL";
+            "file" = "o123456789-fabric-26.1.2-1.0.1.jar";
+            "hash" = "sha512-yq9oGysz3GfGvRMDVE6EbxNstHCtBvfHuyo3PDg+pqfpQGbYPSzhOaiObwPV+vN2mnc51tP8BJnXKkPcd+txNw==";
+        };
     in {
         "OZNj9uP2" = _OZNj9uP2;
         "BWYtlUJE" = _BWYtlUJE;
@@ -86,16 +96,20 @@ let
         "9Wz458o4" = _9Wz458o4;
         "ZRrnmwsV" = _ZRrnmwsV;
         "9PUSegIM" = _9PUSegIM;
+        "tIqh7FJA" = _tIqh7FJA;
+        "l4fkyKjL" = _l4fkyKjL;
         "forge-1.20.1" = _v5VEZdY5;
         "fabric-1.20.1" = _C1wFipuX;
-        "fabric-26.1" = _6OJUB64a;
-        "fabric-26.1.1" = _6OJUB64a;
-        "fabric-26.1.2" = _6OJUB64a;
+        "fabric-26.1" = _l4fkyKjL;
+        "fabric-26.1.1" = _l4fkyKjL;
+        "fabric-26.1.2" = _l4fkyKjL;
         "fabric-1.21.1" = _9PUSegIM;
-        "neoforge-26.1" = _rWIzxEaL;
-        "neoforge-26.1.1" = _rWIzxEaL;
-        "neoforge-26.1.2" = _rWIzxEaL;
+        "fabric-26.2" = _l4fkyKjL;
+        "neoforge-26.1" = _tIqh7FJA;
+        "neoforge-26.1.1" = _tIqh7FJA;
+        "neoforge-26.1.2" = _tIqh7FJA;
         "neoforge-1.21.1" = _ZRrnmwsV;
+        "neoforge-26.2" = _tIqh7FJA;
         "pkg-1.0.0+1.20.1" = _BWYtlUJE;
         "pkg-1.0.3+1.20.1" = _v5VEZdY5;
         "pkg-1.0.0-26.1.2-fabric" = _6OJUB64a;
@@ -108,7 +122,9 @@ let
         "pkg-2.0.2-1.21.1-fabric" = _9Wz458o4;
         "pkg-2.0.3-1.21.1-neoforge" = _ZRrnmwsV;
         "pkg-2.0.3-1.21.1-fabric" = _9PUSegIM;
-        "default" = _9PUSegIM;
+        "pkg-1.0.1-26.1.2-neoforge" = _tIqh7FJA;
+        "pkg-1.0.1-26.1.2-fabric" = _l4fkyKjL;
+        "default" = _l4fkyKjL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "o123456789-backport";

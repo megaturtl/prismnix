@@ -136,6 +136,11 @@ let
             "file" = "ConnectorExtras-2.0.1+26.1.2.jar";
             "hash" = "sha512-pRaElCiw3fiMGmeTgex4l7of1UcSXW6tcdS+bkV8yKfj7w6d/q8jq3cr6R7p7utucIoM/z8ZTC/h3/jjFg2qEQ==";
         };
+        _hGQUSqpt = {
+            "id" = "hGQUSqpt";
+            "file" = "ConnectorExtras-2.0.2+26.1.2.jar";
+            "hash" = "sha512-zoTpaav6BpC9I/+gDe392eb2UnRFt1EaNOHgJAY84kk7ipnQEgC55POFTxLz0pyEjJmf4HDMRFLG+VrcWa5GRA==";
+        };
     in {
         "oK4R8ciM" = _oK4R8ciM;
         "dDSdXWHA" = _dDSdXWHA;
@@ -164,10 +169,11 @@ let
         "dgLCqZyo" = _dgLCqZyo;
         "X0aO2A0t" = _X0aO2A0t;
         "V7D6sNzJ" = _V7D6sNzJ;
+        "hGQUSqpt" = _hGQUSqpt;
         "forge-1.20.1" = _d28gpPn6;
         "neoforge-1.21" = _WUktoh8L;
         "neoforge-1.21.1" = _dgLCqZyo;
-        "neoforge-26.1.2" = _V7D6sNzJ;
+        "neoforge-26.1.2" = _hGQUSqpt;
         "pkg-1.0.0" = _oK4R8ciM;
         "pkg-1.0.1+1.20.1" = _dDSdXWHA;
         "pkg-1.1.0+1.20.1" = _whcQd3hZ;
@@ -195,7 +201,8 @@ let
         "pkg-1.12.1+1.21.1" = _dgLCqZyo;
         "pkg-2.0.0+26.1.2" = _X0aO2A0t;
         "pkg-2.0.1+26.1.2" = _V7D6sNzJ;
-        "default" = _V7D6sNzJ;
+        "pkg-2.0.2+26.1.2" = _hGQUSqpt;
+        "default" = _hGQUSqpt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "connector-extras";

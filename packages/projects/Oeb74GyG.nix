@@ -21,17 +21,25 @@ let
             "file" = "bots_lib-4.1.1.jar";
             "hash" = "sha512-TrW2ULoMAcmCzDfzJSdD52sieLYkR+pPQHoHanaSkWTLJw4HDBMDvet9rhPOD1XMVDgXBc6zdvbTpzlsE3GF8Q==";
         };
+        _8v4XW7mV = {
+            "id" = "8v4XW7mV";
+            "file" = "bots_lib-4.1.1-1.21.1.jar";
+            "hash" = "sha512-TDBGoUztSOOFw9MH4uZ+GbPh9DV6sFWrXvuY0sTUErQth1l7i7dy6d2gngSm83vJUrlI5d4YedJ+b17HIMEA1Q==";
+        };
     in {
         "s4BYdXmk" = _s4BYdXmk;
         "YHmu0Aqq" = _YHmu0Aqq;
         "xJ7Iodx9" = _xJ7Iodx9;
         "urq2dtIf" = _urq2dtIf;
+        "8v4XW7mV" = _8v4XW7mV;
         "forge-1.20.1" = _urq2dtIf;
+        "neoforge-1.21.1" = _8v4XW7mV;
         "pkg-3.3" = _s4BYdXmk;
         "pkg-4.0" = _YHmu0Aqq;
         "pkg-4.1" = _xJ7Iodx9;
         "pkg-4.1.1" = _urq2dtIf;
-        "default" = _urq2dtIf;
+        "pkg-4.1.1-1.21.1" = _8v4XW7mV;
+        "default" = _8v4XW7mV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bots-lib";

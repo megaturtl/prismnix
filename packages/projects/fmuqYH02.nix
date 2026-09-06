@@ -46,6 +46,11 @@ let
             "file" = "ChangShengJue-1.20.1-0.7.9-beta.jar";
             "hash" = "sha512-TAfCNA4bIJbvYpR6p+XHA0oGzZCuaDxpyyPVAQFrf0FXuD1Op/KSEZQBjrNNPAPAEWae3qHqfg8+eCMKUCPoWA==";
         };
+        _f06OmKge = {
+            "id" = "f06OmKge";
+            "file" = "ChangShengJue-1.20.1-0.7.13-beta.jar";
+            "hash" = "sha512-vt52vHdiBGscsnhJorxVcC16m/mp5TbSaeR4cusWTJO3mIx9O5BjdqWFZkduYBkIoDLGZwf9q1gEp+9ER8u47Q==";
+        };
     in {
         "aeVsO45U" = _aeVsO45U;
         "PDBfYRwi" = _PDBfYRwi;
@@ -56,7 +61,8 @@ let
         "jFj1xy5e" = _jFj1xy5e;
         "UEHmBBtf" = _UEHmBBtf;
         "rsSKgCUr" = _rsSKgCUr;
-        "forge-1.20.1" = _rsSKgCUr;
+        "f06OmKge" = _f06OmKge;
+        "forge-1.20.1" = _f06OmKge;
         "pkg-1.20.1-0.6.10-alpha" = _aeVsO45U;
         "pkg-1.20.1-0.6.14-beta" = _PDBfYRwi;
         "pkg-1.20.1-0.6.16-beta" = _bo966eKH;
@@ -66,7 +72,8 @@ let
         "pkg-1.20.1-0.7.7-beta" = _jFj1xy5e;
         "pkg-1.20.1-0.7.8-beta" = _UEHmBBtf;
         "pkg-1.20.1-0.7.9-beta" = _rsSKgCUr;
-        "default" = _rsSKgCUr;
+        "pkg-1.20.1-0.7.13-beta" = _f06OmKge;
+        "default" = _f06OmKge;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "changshengjue";

@@ -1741,6 +1741,176 @@ let
             "file" = "[AFTP] 26w14a.zip";
             "hash" = "sha512-gQlLHYtTcADxhqfcTTAQLBrrftJ3ysrsnxj5T/SZhdORW44siFF2A82OiEW0CLIGtLSXujk5X458mAA2GKJpeQ==";
         };
+        _pY6GtJHh = {
+            "id" = "pY6GtJHh";
+            "file" = "[AFTP] 15w14a.zip";
+            "hash" = "sha512-59WihWfHPuLQ4+3B4ZETfzXKiKglkdeceVEZ/1hvBMRjyhapGlu/CRw9ccRlCN4LZ3Q4l+5QtXFQVBIL0S1R+g==";
+        };
+        _jWRHqD3h = {
+            "id" = "jWRHqD3h";
+            "file" = "[AFTP] 23w13a_or_b.zip";
+            "hash" = "sha512-IfvVY1dtxJA90o0qEG1Q7cgCZSc5qo7QthlVyLHCug3EZC5TMElk0tE9G5nsvVRYGdCd4HEnRhRvaKMRVwDK/w==";
+        };
+        _H8Sbvy8j = {
+            "id" = "H8Sbvy8j";
+            "file" = "[AFTP] 24w14potato.zip";
+            "hash" = "sha512-VoVV6pASS8zR2iCoKsxTdyUUcII53cMXFmrzCHhqOOwDiT1HRTbm1bKkAcsJipbyqeXgAbdrTZuxwKPF2G7fGw==";
+        };
+        _fXpZqoT8 = {
+            "id" = "fXpZqoT8";
+            "file" = "[AFTP] 25w14craftmine.zip";
+            "hash" = "sha512-K55ZH1IFZzZXdicU5yeAZB9Ey/+14d7rS+TUmu7hb2hTtFOHrnu6rYIMTf8Q+MJ3r+Ozkjz5EVgHv/whTnUgfw==";
+        };
+        _MkV0QQm5 = {
+            "id" = "MkV0QQm5";
+            "file" = "[AFTP] 1.RV-Pre1.zip";
+            "hash" = "sha512-uL/f6xKVwadwySlooDZeCInR9tw0dkMU1g6s5XAo0tsk/EeiPEOsB9NrGs7xRhGEuPGicr8blK0aRgksBOsTtQ==";
+        };
+        _hlTfSksy = {
+            "id" = "hlTfSksy";
+            "file" = "[AFTP] 3D Shareware v1.34.zip";
+            "hash" = "sha512-8KjvNXTXPUAz7ju7GdeFDwJSi4e5xVAZvo/LcB2EqWARJnJMMsnuiwYmgcW0wyqzJG15JfQkRQUnpJV+ktdSpg==";
+        };
+        _BHpT4Y0I = {
+            "id" = "BHpT4Y0I";
+            "file" = "[AFTP] 20w14infinite.zip";
+            "hash" = "sha512-PuqhyqG6HV1OEop2UKymc9g5wF0cvosF9vjXKK2xJTPBt/4XQDRVQPZtj+XNg6Iq5YB7AR5MmslOCCP00b25Dg==";
+        };
+        _D0TtUihM = {
+            "id" = "D0TtUihM";
+            "file" = "[AFTP] 22w13oneblockatatime.zip";
+            "hash" = "sha512-/EyKgq14kV/SDZ4+NU+Wn8KldO+X7/tn3/bq4dlQB2wE9qKuKozNCfOe04HgFqB8G4A453x+BP/BK3avqGDJmA==";
+        };
+        _3Vgjn9Hn = {
+            "id" = "3Vgjn9Hn";
+            "file" = "[AFTP] 23w13a_or_b.zip";
+            "hash" = "sha512-6y35ucCmBpM5ZsChb4djBoPksuXOx7DascIGwlUPa6wRDmrmA44WAHAWnvkhQ/M6U3bhzKQTzjWY5zeLyFjeJA==";
+        };
+        _6bl3RkSz = {
+            "id" = "6bl3RkSz";
+            "file" = "[AFTP] 24w14potato.zip";
+            "hash" = "sha512-Hk+KTtpwXJiSLt2c2/16y6yZji4KeCl9T/9Z2JRYNgEbM/jpvN7SMDErEWoxVZUdyOd6USj2oozeLlkHC1bObA==";
+        };
+        _P21PZJJf = {
+            "id" = "P21PZJJf";
+            "file" = "[AFTP] 25w14craftmine.zip";
+            "hash" = "sha512-Mja0e3jIdIN2nzX7SuEh4FtHqYZK2LX7E1eC8TArGbmAoOyXC05Q71kb4MUlPJyYb39LxidRw67rr5GSduTS+Q==";
+        };
+        _rq4MtwRb = {
+            "id" = "rq4MtwRb";
+            "file" = "[AFTP] 26w14a.zip";
+            "hash" = "sha512-4Qgjl5xmbMqXGD3tCRQ/3ZK+VC75ZmmCjMKX6bQCyOf3NmAjuSgLAgSwFZ8OnfqHld2nfFhvrG4tnYv3mhV8yA==";
+        };
+        _ZnJFgzX8 = {
+            "id" = "ZnJFgzX8";
+            "file" = "[AFTP] 1.RV-Pre1.zip";
+            "hash" = "sha512-3RivxM+E+oIxsaYjqicyZ936BOH49gkH639Fd4c6tXZV1NNmXV2OpeehQqlnyZlIMoUnknEu9choN9xHU3BnJw==";
+        };
+        _xXOLfqvA = {
+            "id" = "xXOLfqvA";
+            "file" = "[AFTP] 23w13a_or_b.zip";
+            "hash" = "sha512-gCKtN7em5VsG2zfIRJZJtXy4jx9G4Yv+4ZukUF1dOKakf8vgRTwlLi2xdOUjTj5wAwAV3n8zrn946hVzjg+vbA==";
+        };
+        _tWYcOLAW = {
+            "id" = "tWYcOLAW";
+            "file" = "[AFTP] 24w14potato.zip";
+            "hash" = "sha512-LZySdIeVVfrutXkOMOrWUyEFtE2sVqvGOXd/i7Q4LVJ6CZpLie1LauoSvyP++S3Bv4iGUE2ik51ZboOflgbWZg==";
+        };
+        _GmJBsp4x = {
+            "id" = "GmJBsp4x";
+            "file" = "[AFTP] 25w14craftmine.zip";
+            "hash" = "sha512-WmeUiiNA11Ld6zONkr0YFn1giIkl6z3Z3xFgGjADAlo2riduxGPc0yeSPF6oT0PTdWqYdk/gVW0LAQGxZ2uamg==";
+        };
+        _mavShDwJ = {
+            "id" = "mavShDwJ";
+            "file" = "[AFTP] 15w14a.zip";
+            "hash" = "sha512-nMTFsSVnrZ/4IefI00nSULWjLWr3YZ8Ltl6QhXZnNdqU+yB1+Bv1h19yey3xjl71f2Vrv2eFpHDDx+tI3dW43w==";
+        };
+        _C8buDjAr = {
+            "id" = "C8buDjAr";
+            "file" = "[AFTP] 1.RV-Pre1.zip";
+            "hash" = "sha512-JujfGKoR3Dv2eIPj4C8y9lJjdAQ5z4W3MNwNurm3HDeH3lW2Y8qpvyDa4i+thTEt1JgmGW/8Z6xS+FjEklfWWg==";
+        };
+        _MHJW7UR9 = {
+            "id" = "MHJW7UR9";
+            "file" = "[AFTP] 3D Shareware v1.34.zip";
+            "hash" = "sha512-C1r9PBfLjjgElrQqZSK42EUYS8rZP+PnVScBOAmfnI0LyYPfrmWrhBZnnyMdy43KgBR3XGw+YY6quk3rCzk0zw==";
+        };
+        _pZufRbD2 = {
+            "id" = "pZufRbD2";
+            "file" = "[AFTP] 20w14infinite.zip";
+            "hash" = "sha512-phGmaab9J7KftPnQAocUSuqpLBvwfG+ESH4SsihK/CztC81mQ1CDeq5Og/vIaXGGwMai5xTzw3mK4lk8iT86ug==";
+        };
+        _gNhfe7XS = {
+            "id" = "gNhfe7XS";
+            "file" = "[AFTP] 22w13oneblockatatime.zip";
+            "hash" = "sha512-VT+fFvEsrzDwiGPakxpAUjYwP/+nndNVEatiu0M0Ww8L87xIeUoqwmm5NfukWLjmSVZiA9LMdmuUGSy6I0UKtQ==";
+        };
+        _utA3ayNF = {
+            "id" = "utA3ayNF";
+            "file" = "[AFTP] 23w13a_or_b.zip";
+            "hash" = "sha512-ygufc4pG9+Nyz24K0gLYgxyDx5g3DLBI0mRFykq09GK9S4I3/2vAPrVl6V3ucogLKhyiFy/mf3GLFtlt/9+m3g==";
+        };
+        _6NtUseFr = {
+            "id" = "6NtUseFr";
+            "file" = "[AFTP] 24w14potato.zip";
+            "hash" = "sha512-enmshtx24LbcYWHnshpuz4A+o9Gyg1oUWSmirOkcz9qooX2q9NNIImnY/VpXGPbIMQSmwgF5bGuidCAVmfExzg==";
+        };
+        _C66uruXJ = {
+            "id" = "C66uruXJ";
+            "file" = "[AFTP] 25w14craftmine.zip";
+            "hash" = "sha512-ZLUcReZkf+YQEzlzlbVXbOq/8ZJn5wTYBxdgIH2iDcASHgpkvi97i//bN+IdlwuVORcJhLGaDpP1+QcvALhg2w==";
+        };
+        _V5oATLCo = {
+            "id" = "V5oATLCo";
+            "file" = "[AFTP] 26w14a.zip";
+            "hash" = "sha512-HzAKbU/24PlzVqre1FX917m28JEuqp/JcanrRg0bUXafc6QutzofLG4RMVP0reszw7IzwChJ4r4PQ7spGYX9lw==";
+        };
+        _Sm0EEP8o = {
+            "id" = "Sm0EEP8o";
+            "file" = "[AFTP] 15w14a.zip";
+            "hash" = "sha512-YjgAttJ2A/5k0qLaFnChjEFwii1jhhLEm33beVTSIqoUh+dm3kp+FPs3erKZFkoWedEuVTmibtVV3/Whu+mt+Q==";
+        };
+        _RWTrBDHH = {
+            "id" = "RWTrBDHH";
+            "file" = "[AFTP] 1.RV-Pre1.zip";
+            "hash" = "sha512-QEBNPmS4Lf05kvkvUQJljftIXtPKXm7NaQcBPxh+Ljg/n+utuXg+ZmcqN4yK5tTJS30D2Yd8khotgVCB5Go8EQ==";
+        };
+        _y3bRLhiV = {
+            "id" = "y3bRLhiV";
+            "file" = "[AFTP] 3D Shareware v1.34.zip";
+            "hash" = "sha512-6YCf7dOz9O6A2BTxP42UDDu3GbFqVeLmDGg98X/mRZWL/8Vt2F1fjKlaHQJjjVj9acxAyuGJVv7/sZZgOBgaTQ==";
+        };
+        _NeUBHOWH = {
+            "id" = "NeUBHOWH";
+            "file" = "[AFTP] 20w14infinite.zip";
+            "hash" = "sha512-G+MJl9ywNnj35PyeS36+zepOsuULaDMZYQ4VTYLgeZ7Wuf8FJkfJj/tYSIqtaHz7kJy8D+2QisMeUTp6QE7ZeQ==";
+        };
+        _8c3r9Ars = {
+            "id" = "8c3r9Ars";
+            "file" = "[AFTP] 22w13oneblockatatime.zip";
+            "hash" = "sha512-vejlHY9rdUtQSbsT9N9Os2Kyqysuk0JB8ObRBYzDtFLSXlLUykMx17RbXr1wbM0SAjO4V4ZQvnE8lvZFAiEhPg==";
+        };
+        _nI0kgDF0 = {
+            "id" = "nI0kgDF0";
+            "file" = "[AFTP] 23w13a_or_b.zip";
+            "hash" = "sha512-4ig6x9glrw6uZp4mD62bmXoO3Yp+HQEqLJl4tj0Bohwss1SaTuq4S3b0SPw1sN3dOykMg+IGAIUAlomGXaxpJg==";
+        };
+        _DhYJKvWO = {
+            "id" = "DhYJKvWO";
+            "file" = "[AFTP] 24w14potato.zip";
+            "hash" = "sha512-Eo6yPpkQn1zUwMaXJ7Hju6rnTt2qh+jnuSLAUFN4u3V2Y4DQHpORN2GNpxt2Lyj6hjR0v6W2YB0cChnG4ZNBkQ==";
+        };
+        _mpyWsJ4c = {
+            "id" = "mpyWsJ4c";
+            "file" = "[AFTP] 25w14craftmine.zip";
+            "hash" = "sha512-tskVvwzxQ9idFmwz4s2WQBmcvaQVsIZp/OHaFGSSC1AyfRZkuQSdng+qfT8A6LAueUw2hV1CZpQmahUkwcGLuQ==";
+        };
+        _u15BLTO7 = {
+            "id" = "u15BLTO7";
+            "file" = "[AFTP] 26w14a.zip";
+            "hash" = "sha512-crxtlcyUx9fQjS1//lS2+4qTx8wlBPXOyCgOy+vSOWKuA19YNThqs8kyiivMDwSxdKjxCl9sz5/20FXxG9Dzzw==";
+        };
     in {
         "FZkw2bhG" = _FZkw2bhG;
         "wH1jwt1B" = _wH1jwt1B;
@@ -2090,15 +2260,49 @@ let
         "KhCeclvO" = _KhCeclvO;
         "r7qiLdgc" = _r7qiLdgc;
         "iMUh0GsS" = _iMUh0GsS;
-        "minecraft-25w14craftmine" = _r7qiLdgc;
-        "minecraft-1.RV-Pre1" = _B9axB0en;
-        "minecraft-23w13a_or_b" = _3c89LlTK;
-        "minecraft-24w14potato" = _KhCeclvO;
-        "minecraft-22w13oneblockatatime" = _9OMOj4Wu;
-        "minecraft-15w14a" = _pM5pWuCE;
-        "minecraft-20w14infinite" = _CinQKiDA;
-        "minecraft-3D-Shareware-v1.34" = _lijbc1fo;
-        "minecraft-26w14a" = _iMUh0GsS;
+        "pY6GtJHh" = _pY6GtJHh;
+        "jWRHqD3h" = _jWRHqD3h;
+        "H8Sbvy8j" = _H8Sbvy8j;
+        "fXpZqoT8" = _fXpZqoT8;
+        "MkV0QQm5" = _MkV0QQm5;
+        "hlTfSksy" = _hlTfSksy;
+        "BHpT4Y0I" = _BHpT4Y0I;
+        "D0TtUihM" = _D0TtUihM;
+        "3Vgjn9Hn" = _3Vgjn9Hn;
+        "6bl3RkSz" = _6bl3RkSz;
+        "P21PZJJf" = _P21PZJJf;
+        "rq4MtwRb" = _rq4MtwRb;
+        "ZnJFgzX8" = _ZnJFgzX8;
+        "xXOLfqvA" = _xXOLfqvA;
+        "tWYcOLAW" = _tWYcOLAW;
+        "GmJBsp4x" = _GmJBsp4x;
+        "mavShDwJ" = _mavShDwJ;
+        "C8buDjAr" = _C8buDjAr;
+        "MHJW7UR9" = _MHJW7UR9;
+        "pZufRbD2" = _pZufRbD2;
+        "gNhfe7XS" = _gNhfe7XS;
+        "utA3ayNF" = _utA3ayNF;
+        "6NtUseFr" = _6NtUseFr;
+        "C66uruXJ" = _C66uruXJ;
+        "V5oATLCo" = _V5oATLCo;
+        "Sm0EEP8o" = _Sm0EEP8o;
+        "RWTrBDHH" = _RWTrBDHH;
+        "y3bRLhiV" = _y3bRLhiV;
+        "NeUBHOWH" = _NeUBHOWH;
+        "8c3r9Ars" = _8c3r9Ars;
+        "nI0kgDF0" = _nI0kgDF0;
+        "DhYJKvWO" = _DhYJKvWO;
+        "mpyWsJ4c" = _mpyWsJ4c;
+        "u15BLTO7" = _u15BLTO7;
+        "minecraft-25w14craftmine" = _mpyWsJ4c;
+        "minecraft-1.RV-Pre1" = _RWTrBDHH;
+        "minecraft-23w13a_or_b" = _nI0kgDF0;
+        "minecraft-24w14potato" = _DhYJKvWO;
+        "minecraft-22w13oneblockatatime" = _8c3r9Ars;
+        "minecraft-15w14a" = _Sm0EEP8o;
+        "minecraft-20w14infinite" = _NeUBHOWH;
+        "minecraft-3D-Shareware-v1.34" = _y3bRLhiV;
+        "minecraft-26w14a" = _u15BLTO7;
         "pkg-250616+25w14craftmine" = _FZkw2bhG;
         "pkg-250616+1.RV-Pre1" = _wH1jwt1B;
         "pkg-250616+23w13a_or_b" = _AqHOyQQx;
@@ -2447,7 +2651,41 @@ let
         "pkg-260726+24w14potato" = _KhCeclvO;
         "pkg-260726+25w14craftmine" = _r7qiLdgc;
         "pkg-260726+26w14a" = _iMUh0GsS;
-        "default" = _iMUh0GsS;
+        "pkg-260802+15w14a" = _pY6GtJHh;
+        "pkg-260802+23w13a_or_b" = _jWRHqD3h;
+        "pkg-260802+24w14potato" = _H8Sbvy8j;
+        "pkg-260802+25w14craftmine" = _fXpZqoT8;
+        "pkg-260809+1.RV-Pre1" = _MkV0QQm5;
+        "pkg-260809+3D-Shareware-v1.34" = _hlTfSksy;
+        "pkg-260809+20w14infinite" = _BHpT4Y0I;
+        "pkg-260809+22w13oneblockatatime" = _D0TtUihM;
+        "pkg-260809+23w13a_or_b" = _3Vgjn9Hn;
+        "pkg-260809+24w14potato" = _6bl3RkSz;
+        "pkg-260809+25w14craftmine" = _P21PZJJf;
+        "pkg-260809+26w14a" = _rq4MtwRb;
+        "pkg-260816+1.RV-Pre1" = _ZnJFgzX8;
+        "pkg-260816+23w13a_or_b" = _xXOLfqvA;
+        "pkg-260816+24w14potato" = _tWYcOLAW;
+        "pkg-260816+25w14craftmine" = _GmJBsp4x;
+        "pkg-260823+15w14a" = _mavShDwJ;
+        "pkg-260823+1.RV-Pre1" = _C8buDjAr;
+        "pkg-260823+3D-Shareware-v1.34" = _MHJW7UR9;
+        "pkg-260823+20w14infinite" = _pZufRbD2;
+        "pkg-260823+22w13oneblockatatime" = _gNhfe7XS;
+        "pkg-260823+23w13a_or_b" = _utA3ayNF;
+        "pkg-260823+24w14potato" = _6NtUseFr;
+        "pkg-260823+25w14craftmine" = _C66uruXJ;
+        "pkg-260823+26w14a" = _V5oATLCo;
+        "pkg-260830+15w14a" = _Sm0EEP8o;
+        "pkg-260830+1.RV-Pre1" = _RWTrBDHH;
+        "pkg-260830+3D-Shareware-v1.34" = _y3bRLhiV;
+        "pkg-260830+20w14infinite" = _NeUBHOWH;
+        "pkg-260830+22w13oneblockatatime" = _8c3r9Ars;
+        "pkg-260830+23w13a_or_b" = _nI0kgDF0;
+        "pkg-260830+24w14potato" = _DhYJKvWO;
+        "pkg-260830+25w14craftmine" = _mpyWsJ4c;
+        "pkg-260830+26w14a" = _u15BLTO7;
+        "default" = _u15BLTO7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "april-fools-translation";

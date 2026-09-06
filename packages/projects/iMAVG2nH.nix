@@ -46,6 +46,11 @@ let
             "file" = "Analog-Audio-0.1.0.jar";
             "hash" = "sha512-4oLBuYh+YYY/BK1uq41+Go/g5Rzb45eBl/m4dcpWfSR8rnUG2bfn8/RxcOrFFCMxRZo2uPBF/4IVQz8DYN3klg==";
         };
+        _BshMjyFt = {
+            "id" = "BshMjyFt";
+            "file" = "Analog-Audio-0.1.5-hotfix.1.jar";
+            "hash" = "sha512-tT0NCdDGu4ZLT/VCZZmgKRhFg+vIEX1cUP7b1U6UlDSXDov0SM5JKCD2CtqyEW7/0aRseggrgvU899w/u6a5CQ==";
+        };
     in {
         "S8686gdM" = _S8686gdM;
         "ODtQvy7z" = _ODtQvy7z;
@@ -56,7 +61,8 @@ let
         "qFj6QA1S" = _qFj6QA1S;
         "8LlwOXTT" = _8LlwOXTT;
         "UlajPCS1" = _UlajPCS1;
-        "neoforge-1.21.1" = _UlajPCS1;
+        "BshMjyFt" = _BshMjyFt;
+        "neoforge-1.21.1" = _BshMjyFt;
         "pkg-0.1.0-beta.1+1.21.1" = _S8686gdM;
         "pkg-0.1.0-beta.2+1.21.1" = _ODtQvy7z;
         "pkg-0.1.0-beta.3+1.21.1" = _cW0l7ZB1;
@@ -66,7 +72,8 @@ let
         "pkg-0.1.0-beta.6+1.21.1" = _qFj6QA1S;
         "pkg-0.1.0-beta.6-hotfix1+1.21.1" = _8LlwOXTT;
         "pkg-0.1.0+1.21.1" = _UlajPCS1;
-        "default" = _UlajPCS1;
+        "pkg-0.1.5-hotfix.1+1.21.1" = _BshMjyFt;
+        "default" = _BshMjyFt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "analog-audio";

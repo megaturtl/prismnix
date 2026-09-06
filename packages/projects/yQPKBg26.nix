@@ -81,6 +81,46 @@ let
             "file" = "smooth-hover-neoforge-1.2.jar";
             "hash" = "sha512-2KUjp7Cw+i4XypLDp6W/AnXrxtmuJhdYWr3GpkLAGzutBHTFTmYG7GbgK6KgsXF4B8S0Hjb7ftOgbacu3o2tbg==";
         };
+        _GVcqispV = {
+            "id" = "GVcqispV";
+            "file" = "smooth-hover-neoforge-1.3.jar";
+            "hash" = "sha512-Zj8GNbcUByc2JxYDgUPL13mDVThesTR+3rTHDL6tDP7Ix/InLL5q3DaE9e42VowIcF1bqE3gPDsLxn29E3+9qA==";
+        };
+        _vaQHzO4S = {
+            "id" = "vaQHzO4S";
+            "file" = "smooth-hover-fabric-1.3.jar";
+            "hash" = "sha512-Bih7Q88F1ahRkdQSpiNP/Ptz9EQqBKZaJxjVXdlybNMqbX7XUeYBCt6oeZX7drvEjYDL0FQJcVymTcWCmW3B2w==";
+        };
+        _s5kcEVmb = {
+            "id" = "s5kcEVmb";
+            "file" = "smooth-hover-neoforge-1.3.jar";
+            "hash" = "sha512-CN33SyXD2imgS0fb2xdpsYpV/1C+DMUzptfO9D71+Dxz+qlA9hSwmTgNpwsjCkjVyXnlspzePK9VhHcsnjPZiw==";
+        };
+        _LBTNDMCR = {
+            "id" = "LBTNDMCR";
+            "file" = "smooth-hover-fabric-1.3.jar";
+            "hash" = "sha512-v2dB046XEvxqWoyHzelfRn6vE897OYRj+nxQsSvVtXQD6nwIHQ81cYdp6gw/H93iYyAud3abZ5jDjE1CzJQAKA==";
+        };
+        _lrBzFEab = {
+            "id" = "lrBzFEab";
+            "file" = "smooth-hover-fabric-1.3.jar";
+            "hash" = "sha512-Pp7W/ES8xgTqWqbphTkd0vC4GvNKrc0NlU5inxzWvfq500FF68Pe83Unf9ebY9ww02ItcIilzKgmK0cACdlDMg==";
+        };
+        _YjjDgrn2 = {
+            "id" = "YjjDgrn2";
+            "file" = "smooth-hover-neoforge-1.3.jar";
+            "hash" = "sha512-HVP7LQWpxY3dUA/fj2UXwGvpKRkk6SmrtueD1yls8xjK3XYAK01wRubYwEeuaFSk+QleFJ1Xlq/sv58R8jOHfA==";
+        };
+        _dKddADN8 = {
+            "id" = "dKddADN8";
+            "file" = "smooth-hover-neoforge-1.4.jar";
+            "hash" = "sha512-fo5ECsAzbQOvDhWqdfF5swlRdglfx+9jD/L89AlzJgeSqJfEjq6EdWm1FAk5AC55j0EFGWgVHh8ZKee7SR2Dzw==";
+        };
+        _XNhOL8BI = {
+            "id" = "XNhOL8BI";
+            "file" = "smooth-hover-fabric-1.4.jar";
+            "hash" = "sha512-5rQkII+ipoZXdFfCGndI1vRrnb+c43gEZT1D9SK54SSb9y+Z1H7yHItGIeyNASWmIRZFHIuwC/Cm39gWM07erg==";
+        };
     in {
         "swoyRmMj" = _swoyRmMj;
         "jEeBcK87" = _jEeBcK87;
@@ -98,6 +138,14 @@ let
         "6wWk9csV" = _6wWk9csV;
         "SoG5cdV1" = _SoG5cdV1;
         "4YoL6TKr" = _4YoL6TKr;
+        "GVcqispV" = _GVcqispV;
+        "vaQHzO4S" = _vaQHzO4S;
+        "s5kcEVmb" = _s5kcEVmb;
+        "LBTNDMCR" = _LBTNDMCR;
+        "lrBzFEab" = _lrBzFEab;
+        "YjjDgrn2" = _YjjDgrn2;
+        "dKddADN8" = _dKddADN8;
+        "XNhOL8BI" = _XNhOL8BI;
         "fabric-1.21" = _swoyRmMj;
         "fabric-1.21.1" = _swoyRmMj;
         "fabric-1.21.2" = _yJhbfZT9;
@@ -109,11 +157,11 @@ let
         "fabric-1.21.8" = _mFcewO92;
         "fabric-1.21.9" = _evj42O4e;
         "fabric-1.21.10" = _evj42O4e;
-        "fabric-1.21.11" = _BvmzyNLo;
-        "fabric-26.1" = _RPU2hxft;
-        "fabric-26.1.1" = _RPU2hxft;
-        "fabric-26.1.2" = _RPU2hxft;
-        "fabric-26.2" = _SoG5cdV1;
+        "fabric-1.21.11" = _vaQHzO4S;
+        "fabric-26.1" = _XNhOL8BI;
+        "fabric-26.1.1" = _XNhOL8BI;
+        "fabric-26.1.2" = _XNhOL8BI;
+        "fabric-26.2" = _XNhOL8BI;
         "neoforge-1.21" = _jEeBcK87;
         "neoforge-1.21.1" = _jEeBcK87;
         "neoforge-1.21.2" = _PNiyK7SN;
@@ -125,16 +173,18 @@ let
         "neoforge-1.21.8" = _gxztc2oi;
         "neoforge-1.21.9" = _NT9URpvt;
         "neoforge-1.21.10" = _NT9URpvt;
-        "neoforge-1.21.11" = _qo0sSxX0;
-        "neoforge-26.1" = _6wWk9csV;
-        "neoforge-26.1.1" = _6wWk9csV;
-        "neoforge-26.1.2" = _6wWk9csV;
-        "neoforge-26.2" = _4YoL6TKr;
+        "neoforge-1.21.11" = _GVcqispV;
+        "neoforge-26.1" = _dKddADN8;
+        "neoforge-26.1.1" = _dKddADN8;
+        "neoforge-26.1.2" = _dKddADN8;
+        "neoforge-26.2" = _dKddADN8;
         "pkg-1.0" = _jEeBcK87;
         "pkg-1.0.1" = _gxztc2oi;
         "pkg-1.1" = _ItW4j34j;
         "pkg-1.2" = _4YoL6TKr;
-        "default" = _4YoL6TKr;
+        "pkg-1.3" = _YjjDgrn2;
+        "pkg-1.4" = _XNhOL8BI;
+        "default" = _XNhOL8BI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smooth-hover";

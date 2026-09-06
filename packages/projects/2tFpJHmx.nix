@@ -46,6 +46,11 @@ let
             "file" = "§dBetter Nether Portal §8[v1.8]§0.zip";
             "hash" = "sha512-+VHSUYUo7/tJWnGo9iYa6FZgdQRKmBy+kzRbz647KKBkrl+Ler382c9ZICD24zrl8XMwWB1G8+D4p06TgiBv3g==";
         };
+        _WhLHmzl2 = {
+            "id" = "WhLHmzl2";
+            "file" = "§dBetter Nether Portal §8[v1.9]§0.zip";
+            "hash" = "sha512-LcG3HIaC7fOIfcdOwqG+NvVe75JTdk51Ws84TH4WHVUJUjwf4tw45C7t2iyL3Ow7eDvPjppl1/Oq3eaGEuEK7Q==";
+        };
     in {
         "R30nUIdk" = _R30nUIdk;
         "Thmw9f5q" = _Thmw9f5q;
@@ -56,6 +61,7 @@ let
         "upt3p48X" = _upt3p48X;
         "dXm7DTMc" = _dXm7DTMc;
         "8QBfWTSz" = _8QBfWTSz;
+        "WhLHmzl2" = _WhLHmzl2;
         "minecraft-1.20" = _dXm7DTMc;
         "minecraft-1.20.1" = _dXm7DTMc;
         "minecraft-1.21" = _8QBfWTSz;
@@ -72,9 +78,13 @@ let
         "minecraft-1.21.6" = _8QBfWTSz;
         "minecraft-1.21.7" = _8QBfWTSz;
         "minecraft-1.21.8" = _8QBfWTSz;
-        "minecraft-1.21.9" = _8QBfWTSz;
-        "minecraft-1.21.10" = _8QBfWTSz;
-        "minecraft-1.21.11" = _8QBfWTSz;
+        "minecraft-1.21.9" = _WhLHmzl2;
+        "minecraft-1.21.10" = _WhLHmzl2;
+        "minecraft-1.21.11" = _WhLHmzl2;
+        "minecraft-26.1" = _WhLHmzl2;
+        "minecraft-26.1.1" = _WhLHmzl2;
+        "minecraft-26.1.2" = _WhLHmzl2;
+        "minecraft-26.2" = _WhLHmzl2;
         "pkg-1.0" = _R30nUIdk;
         "pkg-1.1" = _Thmw9f5q;
         "pkg-1.2" = _XGMJfdLR;
@@ -84,7 +94,8 @@ let
         "pkg-1.6" = _upt3p48X;
         "pkg-1.7" = _dXm7DTMc;
         "pkg-1.8" = _8QBfWTSz;
-        "default" = _8QBfWTSz;
+        "pkg-1.9" = _WhLHmzl2;
+        "default" = _WhLHmzl2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-nether-portal";

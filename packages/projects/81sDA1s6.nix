@@ -46,6 +46,56 @@ let
             "file" = "8Bit.zip";
             "hash" = "sha512-O+NVIvS46w+gLgjPlUqu+inoMme2xJrCgSmAglJ+OWCrUadC4z5/EEX5/Whn6/4PhOu7c4VIAcJrQVU9oAs1+A==";
         };
+        _mrYkVAYm = {
+            "id" = "mrYkVAYm";
+            "file" = "8bit.zip";
+            "hash" = "sha512-bNeRxnt6SV9DokG3HShiOsOE0lAHpyboGFGQkCirC23qhulQMN98P4hKtRGTSv//YC4sUIbL5ydoYJIqYIp7IQ==";
+        };
+        _nILBwns6 = {
+            "id" = "nILBwns6";
+            "file" = "8bit.zip";
+            "hash" = "sha512-k7zifztR1t8R4eVCzfgyYeTPeIU0bryfT0eBz+0VzMWNbot3fxEbeWm9usYxVhIOlDHYIZRPEk3rbE4q0diPxg==";
+        };
+        _cooHUtg0 = {
+            "id" = "cooHUtg0";
+            "file" = "8bit.zip";
+            "hash" = "sha512-LryHfM9XpgYoFfqrCW2eS2WlwIwX3UjCuBfT22r4p4JKV7emRFj5UtCJNxAu0d3wM2pWSMlJjKDkfd7ZNYCe6Q==";
+        };
+        _vSwhQZiB = {
+            "id" = "vSwhQZiB";
+            "file" = "8bit.zip";
+            "hash" = "sha512-KTHoZ9fA3eujAHqkDTETY3pJGC/Mtx7RVS+46tiNRqImlj3PYCEcx/CXxZksmplktuy9sDKHqcOLkMlLv1zj/A==";
+        };
+        _NnvdPrC6 = {
+            "id" = "NnvdPrC6";
+            "file" = "8bit.zip";
+            "hash" = "sha512-CaTao5arhwOifsFgp4Qu0lntd6j7SGJHpN6TvjMmRtaYfr1Da6qyK/V7f6rn9BAFffNcCgzCoMVHoZHWm0Gukw==";
+        };
+        _aZvxwOWZ = {
+            "id" = "aZvxwOWZ";
+            "file" = "8bit.zip";
+            "hash" = "sha512-a5Fm/cvKy0DKBNSo9HmnKncgX4QCW6D2HCZk8qbfpzdb8WFt5GYZXujHS32RFgdmptyUPNKSnd/H3nrC3e/oLw==";
+        };
+        _WIDCb0bW = {
+            "id" = "WIDCb0bW";
+            "file" = "8bit.zip";
+            "hash" = "sha512-4PTAw/A3tG9x5wiRAz6SXQ25aZwdW338pBZYPzibF+uQL4ThtKsgwc/p52w/wpW8fNmrviBJOsAxHHS+QnGVMw==";
+        };
+        _8VZSmOeN = {
+            "id" = "8VZSmOeN";
+            "file" = "8bit.zip";
+            "hash" = "sha512-RYFGMDAw7Ra55ErvOTM7XofD5X/DLTVjqqx4YS2JZM6GZc3nxFngLpJCRbNCZJNTRMKJG8IWTAnptSVY/qdhnQ==";
+        };
+        _CZ8PfCAj = {
+            "id" = "CZ8PfCAj";
+            "file" = "8bit.zip";
+            "hash" = "sha512-eedaX8RwIhi2lv4/9KUaESttMMTTIEJwrkGuqk8K2CgUaZAH+a4IbEiDmaJXW5W340yp4dNbYgs4g7mkh4h6EA==";
+        };
+        _4NtUNyT0 = {
+            "id" = "4NtUNyT0";
+            "file" = "8bit.zip";
+            "hash" = "sha512-+lasji1WLeivBsMfHTPykQYsz5qSpRFMZL0bu8/Ye6CdqgKectHgxVLH5pJHTlRBBBqZjqUYfZsS9LHHDZiNlw==";
+        };
     in {
         "88E089Ce" = _88E089Ce;
         "4HFtGb8J" = _4HFtGb8J;
@@ -56,6 +106,16 @@ let
         "sKCZbMdR" = _sKCZbMdR;
         "H03iXtwI" = _H03iXtwI;
         "TQVIO16U" = _TQVIO16U;
+        "mrYkVAYm" = _mrYkVAYm;
+        "nILBwns6" = _nILBwns6;
+        "cooHUtg0" = _cooHUtg0;
+        "vSwhQZiB" = _vSwhQZiB;
+        "NnvdPrC6" = _NnvdPrC6;
+        "aZvxwOWZ" = _aZvxwOWZ;
+        "WIDCb0bW" = _WIDCb0bW;
+        "8VZSmOeN" = _8VZSmOeN;
+        "CZ8PfCAj" = _CZ8PfCAj;
+        "4NtUNyT0" = _4NtUNyT0;
         "minecraft-1.19" = _5smZxKDH;
         "minecraft-1.19.1" = _5smZxKDH;
         "minecraft-1.19.2" = _5smZxKDH;
@@ -102,6 +162,16 @@ let
         "minecraft-26.1.1" = _TQVIO16U;
         "minecraft-26.1.2" = _TQVIO16U;
         "minecraft-26.2" = _TQVIO16U;
+        "minecraft-26.3-snapshot-3" = _mrYkVAYm;
+        "minecraft-26.3-snapshot-4" = _nILBwns6;
+        "minecraft-26.3-snapshot-5" = _cooHUtg0;
+        "minecraft-26.3-snapshot-6" = _vSwhQZiB;
+        "minecraft-26.3-snapshot-7" = _NnvdPrC6;
+        "minecraft-26.3-snapshot-8" = _aZvxwOWZ;
+        "minecraft-26.3-snapshot-9" = _WIDCb0bW;
+        "minecraft-26.3-snapshot-10" = _8VZSmOeN;
+        "minecraft-26.3-pre-1" = _CZ8PfCAj;
+        "minecraft-26.3-pre-2" = _4NtUNyT0;
         "pkg-1.0" = _88E089Ce;
         "pkg-1.1" = _4HFtGb8J;
         "pkg-1.2" = _GmFhL7IZ;
@@ -111,7 +181,17 @@ let
         "pkg-1.6" = _sKCZbMdR;
         "pkg-26.1" = _H03iXtwI;
         "pkg-26.2" = _TQVIO16U;
-        "default" = _TQVIO16U;
+        "pkg-26.3-snapshot-3" = _mrYkVAYm;
+        "pkg-26.3-snapshot-4" = _nILBwns6;
+        "pkg-26.3-snapshot-5" = _cooHUtg0;
+        "pkg-26.3-snapshot-6" = _vSwhQZiB;
+        "pkg-26.3-snapshot-7" = _NnvdPrC6;
+        "pkg-26.3-snapshot-8" = _aZvxwOWZ;
+        "pkg-26.3-snapshot-9" = _WIDCb0bW;
+        "pkg-26.3-snapshot-10" = _8VZSmOeN;
+        "pkg-26.3-pre-1" = _CZ8PfCAj;
+        "pkg-26.3-pre-2" = _4NtUNyT0;
+        "default" = _4NtUNyT0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "8-bit";

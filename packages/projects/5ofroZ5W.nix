@@ -186,6 +186,16 @@ let
             "file" = "create_compatible_storage-2.11.0-neoforge.jar";
             "hash" = "sha512-ZF3ef7xwkL+uWOLIP4Zp5P4u6iR8sTSL0JILMFO6635AD3DqRnKuVoM4YBmNqqinV6h58K4jgZje89DVhr7ihA==";
         };
+        _KnL9gDAD = {
+            "id" = "KnL9gDAD";
+            "file" = "create_compatible_storage-2.13.0-mc1.21.1-neoforge.jar";
+            "hash" = "sha512-vxbsOKD6FEymOe8g8gr2HsHW6IdhEiFhqh2/UWTlioybMYwwrcwdaR8oi4oF4Z1MdKSndzK0Yw8gtdgQJErGfA==";
+        };
+        _XvfwEd3J = {
+            "id" = "XvfwEd3J";
+            "file" = "create_compatible_storage-2.13.0-mc1.20.1-forge-all.jar";
+            "hash" = "sha512-E8a0x3pz66TuGBv1omaiRGKMlhaeo9nmLtQ+HL0lhKIf0/8pTytNjtEQvJ6Fk6f4fGSDAEaCP22yjcifiXqlSQ==";
+        };
     in {
         "Psw4RWAz" = _Psw4RWAz;
         "20V2lqqt" = _20V2lqqt;
@@ -224,8 +234,10 @@ let
         "bkpH554y" = _bkpH554y;
         "ruUeW4Dx" = _ruUeW4Dx;
         "Lo7RlFHl" = _Lo7RlFHl;
-        "forge-1.20.1" = _ruUeW4Dx;
-        "neoforge-1.21.1" = _Lo7RlFHl;
+        "KnL9gDAD" = _KnL9gDAD;
+        "XvfwEd3J" = _XvfwEd3J;
+        "forge-1.20.1" = _XvfwEd3J;
+        "neoforge-1.21.1" = _KnL9gDAD;
         "pkg-1.0" = _Psw4RWAz;
         "pkg-2.0.0" = _20V2lqqt;
         "pkg-2.1.0" = _UeTzanlA;
@@ -263,7 +275,9 @@ let
         "pkg-2.10.0-neoforge" = _bkpH554y;
         "pkg-2.11.0" = _ruUeW4Dx;
         "pkg-2.11.0-neoforge" = _Lo7RlFHl;
-        "default" = _Lo7RlFHl;
+        "pkg-2.13.0-mc1.21.1-neoforge" = _KnL9gDAD;
+        "pkg-2.13.0-mc1.20.1-forge" = _XvfwEd3J;
+        "default" = _XvfwEd3J;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-compatible-storage";

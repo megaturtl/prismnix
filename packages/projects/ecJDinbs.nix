@@ -26,19 +26,26 @@ let
             "file" = "modulo_yuji_ultramin-1.0.0-forge-1.20.1.jar";
             "hash" = "sha512-YLtNuf5NR8vSi2A2tZBYt2byUSxFREyf9UWtGDNPmvewYzMn2shYT4G0k/rbAEHrgft1iLcoswBbvnv6pYeffg==";
         };
+        _qKv2hGLv = {
+            "id" = "qKv2hGLv";
+            "file" = "modulo_yuji_ultramin-1.0.1-forge-1.20.1.jar";
+            "hash" = "sha512-aA0se+ysiaFDUW1xefWnHAJZwKDyeLajxrMhTbkG0IB4HH5cteAKSwAayNF1mCumTrb+Me13azxzJCeKXj5x1A==";
+        };
     in {
         "g0x8RqPe" = _g0x8RqPe;
         "DOuEBepW" = _DOuEBepW;
         "dvBqScLd" = _dvBqScLd;
         "h7UjFgld" = _h7UjFgld;
         "U6HyuUl6" = _U6HyuUl6;
-        "forge-1.20.1" = _U6HyuUl6;
+        "qKv2hGLv" = _qKv2hGLv;
+        "forge-1.20.1" = _qKv2hGLv;
         "pkg-0.9.0" = _g0x8RqPe;
         "pkg-0.9.1" = _DOuEBepW;
         "pkg-0.9.2" = _dvBqScLd;
         "pkg-0.9.3" = _h7UjFgld;
         "pkg-1.0.0" = _U6HyuUl6;
-        "default" = _U6HyuUl6;
+        "pkg-1.0.1" = _qKv2hGLv;
+        "default" = _qKv2hGLv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cursed-fate-modulo-yuji-addon";

@@ -1682,6 +1682,7 @@ let
         "folia-26.1" = _6nwpDKtA;
         "folia-26.1.1" = _6nwpDKtA;
         "folia-26.1.2" = _6nwpDKtA;
+        "folia-26.2" = _6nwpDKtA;
         "purpur-1.8.8" = _6nwpDKtA;
         "purpur-1.8.9" = _6nwpDKtA;
         "purpur-1.9" = _6nwpDKtA;
@@ -1747,6 +1748,7 @@ let
         "purpur-26.1" = _6nwpDKtA;
         "purpur-26.1.1" = _6nwpDKtA;
         "purpur-26.1.2" = _6nwpDKtA;
+        "purpur-26.2" = _6nwpDKtA;
         "pkg-2.6.0" = _CXYfi2cA;
         "pkg-2.6.1-b23" = _7zoxtr1q;
         "pkg-2.6.1" = _z3kGZ8ga;

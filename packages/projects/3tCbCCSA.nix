@@ -61,6 +61,16 @@ let
             "file" = "energizedpowerta-3.0.0-beta.3+1.21.1-neoforge.jar";
             "hash" = "sha512-amb/RioJBgFs3ITJCH+dd9XR9zl38aOhzXpTPYL++bwBiwwmAoqDIwvBuk7D7W8Eb1BRiGk4YGz4sv9XV8IG/Q==";
         };
+        _wmWVdeEt = {
+            "id" = "wmWVdeEt";
+            "file" = "energizedpowerta-3.0.0+1.21.1-fabric.jar";
+            "hash" = "sha512-vNMcK3eTxPzhsfDn2PG9K8E7S6VXWA8xIxGgX+MLe4f34R+kLm1g53wAX/fr61SsMKwxPFiVZBPWQpvsSO6wWA==";
+        };
+        _bvYMV8ZZ = {
+            "id" = "bvYMV8ZZ";
+            "file" = "energizedpowerta-3.0.0+1.21.1-neoforge.jar";
+            "hash" = "sha512-NpGfGaTf65f0QzDxegZIEkQQUjPNnAmmSZz2qnZtulfH5pVRGpDsv2b6D1DGJONpnbPQkoJmZMyHe1C9x9EnSA==";
+        };
     in {
         "EvN9NvyI" = _EvN9NvyI;
         "Q5Ptd4Ba" = _Q5Ptd4Ba;
@@ -74,12 +84,14 @@ let
         "YRhByILe" = _YRhByILe;
         "Exv0Eal3" = _Exv0Eal3;
         "oKkl5m6z" = _oKkl5m6z;
+        "wmWVdeEt" = _wmWVdeEt;
+        "bvYMV8ZZ" = _bvYMV8ZZ;
         "forge-1.19.2" = _UI3ajWyV;
         "forge-1.20.1" = _mndt8LLX;
         "neoforge-1.20.1" = _mndt8LLX;
         "neoforge-1.20.2" = _9CajhXdg;
-        "neoforge-1.21.1" = _oKkl5m6z;
-        "fabric-1.21.1" = _Exv0Eal3;
+        "neoforge-1.21.1" = _bvYMV8ZZ;
+        "fabric-1.21.1" = _wmWVdeEt;
         "pkg-1.19.2-1.0.0-forge" = _EvN9NvyI;
         "pkg-1.20.1-1.0.0-forge" = _Q5Ptd4Ba;
         "pkg-1.20.2-1.0.0-neoforge" = _gJNUrnD0;
@@ -92,7 +104,9 @@ let
         "pkg-3.0.0-beta.2+1.21.1-neoforge" = _YRhByILe;
         "pkg-3.0.0-beta.3+1.21.1-fabric" = _Exv0Eal3;
         "pkg-3.0.0-beta.3+1.21.1-neoforge" = _oKkl5m6z;
-        "default" = _oKkl5m6z;
+        "pkg-3.0.0+1.21.1-fabric" = _wmWVdeEt;
+        "pkg-3.0.0+1.21.1-neoforge" = _bvYMV8ZZ;
+        "default" = _bvYMV8ZZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "energized-power-ta";

@@ -26,21 +26,28 @@ let
             "file" = "nemos_progression-26.2-1.0.0.jar";
             "hash" = "sha512-ZGazLY8etKklP+HO9n9nN7WYxmaWIYbI1yKcsutUZB/QmrAfzExptSgwa5+AcF0JqtYoZw7ruBRFyqCEzePCpw==";
         };
+        _CdLwqFqP = {
+            "id" = "CdLwqFqP";
+            "file" = "nemos_progression-26.2-1.0.1.jar";
+            "hash" = "sha512-UL9uTeeNZwJi3Uve6NGgOiwB5xJAcQSiCEkECIf4yDV1ulq4TrPq1XvdSh4Dwi8KHrxM9U7ozB9Enuvev3qQXw==";
+        };
     in {
         "PeVUez7N" = _PeVUez7N;
         "Zov58bu2" = _Zov58bu2;
         "cxpuCazd" = _cxpuCazd;
         "22hneinh" = _22hneinh;
         "wSam7Qqb" = _wSam7Qqb;
+        "CdLwqFqP" = _CdLwqFqP;
         "fabric-26.1.2" = _PeVUez7N;
         "fabric-1.21.11" = _22hneinh;
-        "fabric-26.2" = _wSam7Qqb;
+        "fabric-26.2" = _CdLwqFqP;
         "pkg-26.1.2-1.0.0" = _PeVUez7N;
         "pkg-1.21.11-1.0.0" = _Zov58bu2;
         "pkg-1.21.11-1.0.0.1" = _cxpuCazd;
         "pkg-1.21.11-1.0.0.2" = _22hneinh;
         "pkg-26.2-1.0.0" = _wSam7Qqb;
-        "default" = _wSam7Qqb;
+        "pkg-26.2-1.0.1" = _CdLwqFqP;
+        "default" = _CdLwqFqP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nemos-progression";

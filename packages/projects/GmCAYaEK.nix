@@ -21,17 +21,31 @@ let
             "file" = "cobblemon-go-catch-1.2.jar";
             "hash" = "sha512-YJoHm1dQ3hdYJwKFyiJFZXKBGt+KzYm3BoxNHNAeIKv9hZSqptZrvOOKvo0VpnRPZULDKGl9uooyMqeDM3tpXQ==";
         };
+        _DsANSaSJ = {
+            "id" = "DsANSaSJ";
+            "file" = "cobblemon-go-catch-neoforge-1.3.0.jar";
+            "hash" = "sha512-cHZz7VP18ZUxJ2hmHwp9Vhjoh3u51yS+aK654PgN+IqluMyliX7b5sBvLowQV/kh9RO3WGzSTIdgj8InMEyi7A==";
+        };
+        _W2gPcmgX = {
+            "id" = "W2gPcmgX";
+            "file" = "cobblemon-go-catch-fabric-1.3.0.jar";
+            "hash" = "sha512-EtoFY+JWA+IX8S/FlZmOZgwHiyIRq+HUm9r3mGlWlgcjxvadLbx676CMeLNs4OSS+j7idZMGeLsn1HqtKJRG+Q==";
+        };
     in {
         "aASrNY2p" = _aASrNY2p;
         "KkGvsLm6" = _KkGvsLm6;
         "IuCLgxEK" = _IuCLgxEK;
         "i9OU6poo" = _i9OU6poo;
-        "fabric-1.21.1" = _i9OU6poo;
+        "DsANSaSJ" = _DsANSaSJ;
+        "W2gPcmgX" = _W2gPcmgX;
+        "fabric-1.21.1" = _W2gPcmgX;
+        "neoforge-1.21.1" = _DsANSaSJ;
         "pkg-1.0.0" = _aASrNY2p;
         "pkg-1.0.1" = _KkGvsLm6;
         "pkg-1.0.2" = _IuCLgxEK;
         "pkg-1.2" = _i9OU6poo;
-        "default" = _i9OU6poo;
+        "pkg-1.3.0" = _W2gPcmgX;
+        "default" = _W2gPcmgX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-go-catch";

@@ -46,6 +46,56 @@ let
             "file" = "contraption-lights-neoforge-1.21.1-1.3.0.jar";
             "hash" = "sha512-YrMhN3n2McUMzYPHdCeG0UgI7umvsdUX7b8R7ehlQybxcuCVG9FORm/ViHDcps9mvW2qVJVKk2gbgZxdVjnt6w==";
         };
+        _R1MQt3Gs = {
+            "id" = "R1MQt3Gs";
+            "file" = "contraption-lights-neoforge-1.21.1-1.3.1.jar";
+            "hash" = "sha512-cYpf2iDYOsipXXOTuzGI4V4v6s8+kafCKVXcDS6Pkf5B54ygye5mdUymyUNPkh9fhxlKwxA/Ue4r/cl/zutoew==";
+        };
+        _bD29jdc3 = {
+            "id" = "bD29jdc3";
+            "file" = "contraption-lights-neoforge-1.21.1-1.4.0.jar";
+            "hash" = "sha512-Zd2k2DgYWreiIGpqhwtpMtzOG0sAuLTEutoo2vogGmz8KSnE4/e+BM+wPI4mF+l4s7fzCsZHxguYcB7KKxA/9Q==";
+        };
+        _KW481Dd5 = {
+            "id" = "KW481Dd5";
+            "file" = "contraption-lights-neoforge-1.21.1-1.5.0-beta.1.jar";
+            "hash" = "sha512-W9YdwUuZj5zeeHcbcoTtaP+LsbBSpIzj7ULpfmzoXh2jEpdL7KHA4yp2MT5gnggKzEKh2JiTN3UHqOVb1LR2fw==";
+        };
+        _IiTkv0td = {
+            "id" = "IiTkv0td";
+            "file" = "contraption-lights-neoforge-1.21.1-1.5.0-beta.2.jar";
+            "hash" = "sha512-qgICcuJwFiSSWd2SzOT7VIOYSs0YKsFVOobV6EPYUinQp4O9rTbGlEsPYtgC9PB5S4UV39VrFRVJ4e+ijmL9AQ==";
+        };
+        _qh5u21ZU = {
+            "id" = "qh5u21ZU";
+            "file" = "contraption-lights-neoforge-1.21.1-1.5.0-beta.3.jar";
+            "hash" = "sha512-OcdWLk9evzm52ztDblUYjpcme5AQjRESRhZPqrx9A3tDfqK+3rYbQH+uiDbqye3cD5VWR/HNZQovF6lGCGMAcg==";
+        };
+        _7tuiBSU0 = {
+            "id" = "7tuiBSU0";
+            "file" = "contraption-lights-neoforge-1.21.1-1.5.0-beta.4.jar";
+            "hash" = "sha512-7rzRN7cCMD5i5bCIxNXRphi7OPF33ti4M86fvrmz+k3EtAJMEre2wE2fAat5/NIXZ41gquHwTE+nX0448IrpQw==";
+        };
+        _WY9iSZtM = {
+            "id" = "WY9iSZtM";
+            "file" = "contraption-lights-neoforge-1.21.1-1.5.0-beta.5.jar";
+            "hash" = "sha512-gF/mAG+Jn4poFsSAj2G/FRH+TbSdmIk2Cjq90QsSxBkyw+zpQN9qEceDGh7T9u0pIEPaRom7hhUfgo5vLoPshg==";
+        };
+        _CXGFXxS8 = {
+            "id" = "CXGFXxS8";
+            "file" = "contraption-lights-neoforge-1.21.1-1.5.0-beta.5.1.jar";
+            "hash" = "sha512-p4t5Ca6rIO6nOjiEzYGDOprFJ5Wey/42C9VoJ5unSsf1yJ/Ia9gfiLxDFZussfUHGzFh8CicRzt2SMzQxANrAw==";
+        };
+        _uAHnnJiU = {
+            "id" = "uAHnnJiU";
+            "file" = "contraption-lights-neoforge-1.21.1-1.5.0-beta.6.jar";
+            "hash" = "sha512-5LZ8UdPwoPt4EwC7T57EfXGuamRyigwhE+InBhI4U1/7o7WaqQYuJdkr/RFQmeY3yCKmPcwgergL4e2nD43E/g==";
+        };
+        _NDOhWUTp = {
+            "id" = "NDOhWUTp";
+            "file" = "contraption-lights-neoforge-1.21.1-1.5.0.jar";
+            "hash" = "sha512-Pg8g4s2fuYx+MpYNuhziA2OaoV1K45y6IvuRr+xl4iYsP/6w1dsLZgvJXMI94Vvnav7PmQOluVGpNFmFxCqRqw==";
+        };
     in {
         "NVVDBFKn" = _NVVDBFKn;
         "uZQoNQJB" = _uZQoNQJB;
@@ -56,7 +106,17 @@ let
         "5k3E315Z" = _5k3E315Z;
         "D82p7lGt" = _D82p7lGt;
         "F7DbUTxq" = _F7DbUTxq;
-        "neoforge-1.21.1" = _F7DbUTxq;
+        "R1MQt3Gs" = _R1MQt3Gs;
+        "bD29jdc3" = _bD29jdc3;
+        "KW481Dd5" = _KW481Dd5;
+        "IiTkv0td" = _IiTkv0td;
+        "qh5u21ZU" = _qh5u21ZU;
+        "7tuiBSU0" = _7tuiBSU0;
+        "WY9iSZtM" = _WY9iSZtM;
+        "CXGFXxS8" = _CXGFXxS8;
+        "uAHnnJiU" = _uAHnnJiU;
+        "NDOhWUTp" = _NDOhWUTp;
+        "neoforge-1.21.1" = _NDOhWUTp;
         "pkg-1.0.0" = _NVVDBFKn;
         "pkg-1.1.0-beta.1" = _uZQoNQJB;
         "pkg-1.1.0-beta.2" = _dtnt3692;
@@ -66,7 +126,17 @@ let
         "pkg-1.2.0" = _5k3E315Z;
         "pkg-1.2.1" = _D82p7lGt;
         "pkg-1.3.0" = _F7DbUTxq;
-        "default" = _F7DbUTxq;
+        "pkg-1.3.1" = _R1MQt3Gs;
+        "pkg-1.4.0" = _bD29jdc3;
+        "pkg-1.5.0-beta.1" = _KW481Dd5;
+        "pkg-1.5.0-beta.2" = _IiTkv0td;
+        "pkg-1.5.0-beta.3" = _qh5u21ZU;
+        "pkg-1.5.0-beta.4" = _7tuiBSU0;
+        "pkg-1.5.0-beta.5" = _WY9iSZtM;
+        "pkg-1.5.0-beta.5.1" = _CXGFXxS8;
+        "pkg-1.5.0-beta.6" = _uAHnnJiU;
+        "pkg-1.5.0" = _NDOhWUTp;
+        "default" = _NDOhWUTp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "contraption-lights";

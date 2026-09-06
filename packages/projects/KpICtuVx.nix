@@ -1096,6 +1096,26 @@ let
             "file" = "incontrol-1.21-10.2.6.jar";
             "hash" = "sha512-HPUcxFaUzcox39nLl9e9m/ETF2isoEC47thndFJ4MUP4qNjCEVOHGrks0xtkCWscB0vbjdOJ4ZtaC3cgeaf4DA==";
         };
+        _o5DOK4Rj = {
+            "id" = "o5DOK4Rj";
+            "file" = "incontrol-1.20-9.4.7.jar";
+            "hash" = "sha512-7QxcMfHakZEqzIgPXBdS7kVtq/Robu/6SH5xPvG7bLkpVR44V3fG5QxNxeMbESTeKROMkvVZahBTPY0oNw+dow==";
+        };
+        _gsy3YqYj = {
+            "id" = "gsy3YqYj";
+            "file" = "incontrol-1.21-10.2.7.jar";
+            "hash" = "sha512-H3EGZd8JIUfYRbaep8DVwSkCGIcJmURvdZW3sKv6dDpnWd53uqe0Q6MD7V8QPTm5GIwbRAW6u/vMNnN7/g8fIg==";
+        };
+        _crohXlsU = {
+            "id" = "crohXlsU";
+            "file" = "incontrol-1.20-9.5.0.jar";
+            "hash" = "sha512-FbnDKF7bvxHcb025JpbjxCzdR2Tu2vpQ7BDmUbR8+oXh7gU84mMEauxpUTZ8oY1At7ZQnPfvIHF4Mn1k9UIlcA==";
+        };
+        _L0dof2WQ = {
+            "id" = "L0dof2WQ";
+            "file" = "incontrol-1.21-10.3.0.jar";
+            "hash" = "sha512-CueOpxD46IZoyI0xfYtbfQeNxpSQcH1fLX3MCS3uRy4FAESz/LOD72Vcpqk6zAGSQ0YNJAyGQ6ybHoBI/S/uTA==";
+        };
     in {
         "5kTN0p4b" = _5kTN0p4b;
         "lx7DmfrR" = _lx7DmfrR;
@@ -1316,6 +1336,10 @@ let
         "85ma009f" = _85ma009f;
         "DyzZZhxQ" = _DyzZZhxQ;
         "TBI4EWjs" = _TBI4EWjs;
+        "o5DOK4Rj" = _o5DOK4Rj;
+        "gsy3YqYj" = _gsy3YqYj;
+        "crohXlsU" = _crohXlsU;
+        "L0dof2WQ" = _L0dof2WQ;
         "forge-1.10.2" = _3f0UfRO8;
         "forge-1.11" = _qQz4YbsF;
         "forge-1.11.2" = _3f0UfRO8;
@@ -1331,9 +1355,9 @@ let
         "forge-1.19" = _7OBxqxq2;
         "forge-1.19.2" = _7Wb85q5M;
         "forge-1.19.3" = _XkSA7b3n;
-        "forge-1.20.1" = _DyzZZhxQ;
+        "forge-1.20.1" = _crohXlsU;
         "neoforge-1.21" = _LOLHrUSr;
-        "neoforge-1.21.1" = _TBI4EWjs;
+        "neoforge-1.21.1" = _L0dof2WQ;
         "pkg-1.0.0" = _5kTN0p4b;
         "pkg-2.0.0" = _lx7DmfrR;
         "pkg-3.0.0" = _7Mid5pgC;
@@ -1553,7 +1577,11 @@ let
         "pkg-1.21-10.2.5" = _85ma009f;
         "pkg-1.20-9.4.6" = _DyzZZhxQ;
         "pkg-1.21-10.2.6" = _TBI4EWjs;
-        "default" = _TBI4EWjs;
+        "pkg-1.20-9.4.7" = _o5DOK4Rj;
+        "pkg-1.21-10.2.7" = _gsy3YqYj;
+        "pkg-1.20-9.5.0" = _crohXlsU;
+        "pkg-1.21-10.3.0" = _L0dof2WQ;
+        "default" = _L0dof2WQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "in-control";

@@ -48,6 +48,11 @@ let
         "bukkit-1.21.8" = _UR19xu4O;
         "bukkit-1.21.9" = _UR19xu4O;
         "bukkit-1.21.10" = _UR19xu4O;
+        "bukkit-1.21.11" = _UR19xu4O;
+        "bukkit-26.1" = _UR19xu4O;
+        "bukkit-26.1.1" = _UR19xu4O;
+        "bukkit-26.1.2" = _UR19xu4O;
+        "bukkit-26.2" = _UR19xu4O;
         "paper-1.16" = _UR19xu4O;
         "paper-1.16.1" = _UR19xu4O;
         "paper-1.16.2" = _UR19xu4O;
@@ -82,6 +87,11 @@ let
         "paper-1.21.8" = _UR19xu4O;
         "paper-1.21.9" = _UR19xu4O;
         "paper-1.21.10" = _UR19xu4O;
+        "paper-1.21.11" = _UR19xu4O;
+        "paper-26.1" = _UR19xu4O;
+        "paper-26.1.1" = _UR19xu4O;
+        "paper-26.1.2" = _UR19xu4O;
+        "paper-26.2" = _UR19xu4O;
         "purpur-1.16" = _UR19xu4O;
         "purpur-1.16.1" = _UR19xu4O;
         "purpur-1.16.2" = _UR19xu4O;
@@ -116,6 +126,11 @@ let
         "purpur-1.21.8" = _UR19xu4O;
         "purpur-1.21.9" = _UR19xu4O;
         "purpur-1.21.10" = _UR19xu4O;
+        "purpur-1.21.11" = _UR19xu4O;
+        "purpur-26.1" = _UR19xu4O;
+        "purpur-26.1.1" = _UR19xu4O;
+        "purpur-26.1.2" = _UR19xu4O;
+        "purpur-26.2" = _UR19xu4O;
         "spigot-1.16" = _UR19xu4O;
         "spigot-1.16.1" = _UR19xu4O;
         "spigot-1.16.2" = _UR19xu4O;
@@ -150,6 +165,11 @@ let
         "spigot-1.21.8" = _UR19xu4O;
         "spigot-1.21.9" = _UR19xu4O;
         "spigot-1.21.10" = _UR19xu4O;
+        "spigot-1.21.11" = _UR19xu4O;
+        "spigot-26.1" = _UR19xu4O;
+        "spigot-26.1.1" = _UR19xu4O;
+        "spigot-26.1.2" = _UR19xu4O;
+        "spigot-26.2" = _UR19xu4O;
         "pkg-1.0.0" = _H0NQekdB;
         "pkg-2.0.0" = _UR19xu4O;
         "default" = _UR19xu4O;

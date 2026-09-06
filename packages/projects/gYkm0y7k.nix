@@ -26,19 +26,26 @@ let
             "file" = "foolish-1.3.0.jar";
             "hash" = "sha512-tlggU+BBHcHWI+e3q/gY/UmiBcIb/hn+bPBpgd4g6XSJfYo6uAEyQ8qkbAFxT2bNhzV49vEy1WDOaE47JGNfvg==";
         };
+        _ZKttU4KU = {
+            "id" = "ZKttU4KU";
+            "file" = "foolish-1.3.0 patched.jar";
+            "hash" = "sha512-KL6Eo2tKT9+RZTwV5kOh2SIcTvCiEb/h9PsqFa5IkFkW8U80hWMwMInJRGs1PWrSurjJcQhH5iufyEx3URwvew==";
+        };
     in {
         "8GFG7uAh" = _8GFG7uAh;
         "8JqJrkhH" = _8JqJrkhH;
         "ub2MdJVi" = _ub2MdJVi;
         "1CywqUCA" = _1CywqUCA;
         "kH1B9H8p" = _kH1B9H8p;
-        "forge-1.20.1" = _kH1B9H8p;
+        "ZKttU4KU" = _ZKttU4KU;
+        "forge-1.20.1" = _ZKttU4KU;
         "pkg-1.0.0" = _8GFG7uAh;
         "pkg-1.2.0" = _8JqJrkhH;
         "pkg-1.2.1" = _ub2MdJVi;
         "pkg-1.2.2" = _1CywqUCA;
         "pkg-1.3.0" = _kH1B9H8p;
-        "default" = _kH1B9H8p;
+        "pkg-1.3.0.1" = _ZKttU4KU;
+        "default" = _ZKttU4KU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "foolish";

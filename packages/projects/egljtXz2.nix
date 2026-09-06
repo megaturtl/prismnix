@@ -36,6 +36,16 @@ let
             "file" = "mad_gear-0.8.2-forge-1.20.1.jar";
             "hash" = "sha512-ICZsCbOXnxuvaedYsrGiWb4/8c6cn7hFNZ0pjrKsdY8gVB0unnMrv/Ig9IjoJgfNEtcpULRHgg8kAXAsHzejLA==";
         };
+        _4dgNdUAC = {
+            "id" = "4dgNdUAC";
+            "file" = "mad_gear-0.8.3-forge-1.20.1.jar";
+            "hash" = "sha512-M0lPIloWyxbBoiBKHUO20vDUtHxsiYNX0v+vI+Kay27zZNSY7ltH45D8ZgbCUdL82FEjhEPOzqtzt9SXKDjBPQ==";
+        };
+        _eEhq7fw5 = {
+            "id" = "eEhq7fw5";
+            "file" = "mad_gear-0.8.3-neoforge-1.21.1.jar";
+            "hash" = "sha512-hfjZYqehtCCiWOVhnisp/FMHM8gxpBV9euAeYQDwkyH5u4I1SQDWpFI48/QllAlex/PkDoTk44WvfwHNi5AAyg==";
+        };
     in {
         "vD74Oe81" = _vD74Oe81;
         "tp8iXBKf" = _tp8iXBKf;
@@ -44,7 +54,10 @@ let
         "P8Lgg4o8" = _P8Lgg4o8;
         "v4v5Z01W" = _v4v5Z01W;
         "QaYUuDhS" = _QaYUuDhS;
-        "forge-1.20.1" = _QaYUuDhS;
+        "4dgNdUAC" = _4dgNdUAC;
+        "eEhq7fw5" = _eEhq7fw5;
+        "forge-1.20.1" = _4dgNdUAC;
+        "neoforge-1.21.1" = _eEhq7fw5;
         "pkg-0.0.4" = _vD74Oe81;
         "pkg-0.0.5" = _tp8iXBKf;
         "pkg-0.0.6" = _2I8O4Zju;
@@ -52,7 +65,8 @@ let
         "pkg-0.6.0" = _P8Lgg4o8;
         "pkg-0.7.1" = _v4v5Z01W;
         "pkg-0.8.2" = _QaYUuDhS;
-        "default" = _QaYUuDhS;
+        "pkg-0.8.3" = _eEhq7fw5;
+        "default" = _eEhq7fw5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mad_gear_mdv2";

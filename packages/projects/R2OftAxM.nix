@@ -196,6 +196,26 @@ let
             "file" = "FarmersDelight-1.21.1-1.3.2.jar";
             "hash" = "sha512-2lpCNkJ9+AENdZkiAchyOshKj6ce+lVnBVHTM8rJSpCujoxTbaY64Hpn9NANwndK5BUQMPQdJohuUI9KA3yGlA==";
         };
+        _UiX0eEUW = {
+            "id" = "UiX0eEUW";
+            "file" = "FarmersDelight-1.20.1-1.3.3.jar";
+            "hash" = "sha512-T9eUTOmVw6uy+Onh4I3cUbdQV/wsbTOMcX7eHRtPTWnnh9xX8BUzuD9vqDaR2R+Rr0xfv0aD3WuCjRDxgHkorA==";
+        };
+        _wpkbWnVh = {
+            "id" = "wpkbWnVh";
+            "file" = "FarmersDelight-1.21.1-1.3.3.jar";
+            "hash" = "sha512-V5eOuYUTHdJaDQmDYrTG6r+cYH2ASLGmOeIxxPzuU8GgVFPO3+akpS2kq4v0GQzbUgpsMJfo4Jk89zYK1pPcFQ==";
+        };
+        _SiIpcZzM = {
+            "id" = "SiIpcZzM";
+            "file" = "FarmersDelight-1.20.1-1.3.4.jar";
+            "hash" = "sha512-kyrgq5X6B1W7Wnn78dHjHQ6G88D1GGeW7QaXOjAZphjujGak6uW5AZCa7WIyq7K9Ox/w4ZBfdPxwZE+tqUqAtQ==";
+        };
+        _XTVZDOol = {
+            "id" = "XTVZDOol";
+            "file" = "FarmersDelight-1.21.1-1.3.4.jar";
+            "hash" = "sha512-H2+HlkafdHz/NvR3tPWJo9aWE4gjmfnuf4bbNse8qapIKHMfQ9sV3Gx/Wkwbvj1AkqIy6M7wELCc7AWBhI/akA==";
+        };
     in {
         "kwef5VB1" = _kwef5VB1;
         "jc4l8jNt" = _jc4l8jNt;
@@ -236,15 +256,20 @@ let
         "9gp7w8NC" = _9gp7w8NC;
         "CsjS7EkP" = _CsjS7EkP;
         "GbNuOZ4S" = _GbNuOZ4S;
+        "UiX0eEUW" = _UiX0eEUW;
+        "wpkbWnVh" = _wpkbWnVh;
+        "SiIpcZzM" = _SiIpcZzM;
+        "XTVZDOol" = _XTVZDOol;
         "forge-1.18.2" = _tKCwnbTN;
         "forge-1.19" = _vKnBI3zc;
         "forge-1.19.1" = _vKnBI3zc;
         "forge-1.19.2" = _rFTKVUtq;
-        "forge-1.20" = _MG1Xuspn;
-        "forge-1.20.1" = _CsjS7EkP;
+        "forge-1.20" = _SiIpcZzM;
+        "forge-1.20.1" = _SiIpcZzM;
         "neoforge-1.21" = _ovSzG9pc;
-        "neoforge-1.21.1" = _GbNuOZ4S;
-        "neoforge-1.20.1" = _CsjS7EkP;
+        "neoforge-1.21.1" = _XTVZDOol;
+        "neoforge-1.20.1" = _SiIpcZzM;
+        "neoforge-1.20" = _SiIpcZzM;
         "pkg-1.1.2-1.18.2" = _kwef5VB1;
         "pkg-1.1.2-1.19" = _jc4l8jNt;
         "pkg-1.2.0-1.18.2" = _jhP9p06T;
@@ -284,7 +309,11 @@ let
         "pkg-1.21.1-1.3.1" = _9gp7w8NC;
         "pkg-1.20.1-1.3.2" = _CsjS7EkP;
         "pkg-1.21.1-1.3.2" = _GbNuOZ4S;
-        "default" = _GbNuOZ4S;
+        "pkg-1.20.1-1.3.3" = _UiX0eEUW;
+        "pkg-1.21.1-1.3.3" = _wpkbWnVh;
+        "pkg-1.20.1-1.3.4" = _SiIpcZzM;
+        "pkg-1.21.1-1.3.4" = _XTVZDOol;
+        "default" = _XTVZDOol;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "farmers-delight";

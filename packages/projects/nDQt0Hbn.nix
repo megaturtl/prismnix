@@ -26,20 +26,27 @@ let
             "file" = "apotheosis_balance-1.21.1-2.0.0.jar";
             "hash" = "sha512-IRUBHyO3vYZeHneriUhsN3x0WnpiV4bjZNs1GhQ0/UYTqf4/9T9ydletSGAmXMjjcThM5HIRquqI3233+AEAfA==";
         };
+        _sjEjwU9E = {
+            "id" = "sjEjwU9E";
+            "file" = "apotheosis_balance-1.21.1-2.1.0.jar";
+            "hash" = "sha512-/2OQbGoNumrRA9JwfNZ+7nn5fKVGiVcM1SVFSFNHlGfX0tm7Rm2OTx7EOvDTWuSgF5/xNMAalZhthk5w6ff56Q==";
+        };
     in {
         "zXQE112q" = _zXQE112q;
         "2nbIGcEI" = _2nbIGcEI;
         "wBqqIUF9" = _wBqqIUF9;
         "twt3oJPO" = _twt3oJPO;
         "82nYJcIu" = _82nYJcIu;
+        "sjEjwU9E" = _sjEjwU9E;
         "forge-1.20.1" = _twt3oJPO;
-        "neoforge-1.21.1" = _82nYJcIu;
+        "neoforge-1.21.1" = _sjEjwU9E;
         "pkg-1.0.0" = _zXQE112q;
         "pkg-1.1.3" = _2nbIGcEI;
         "pkg-1.1.5" = _wBqqIUF9;
         "pkg-1.1.6" = _twt3oJPO;
         "pkg-2.0.0" = _82nYJcIu;
-        "default" = _82nYJcIu;
+        "pkg-2.1.0" = _sjEjwU9E;
+        "default" = _sjEjwU9E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "apotheosis-balance-configurator";

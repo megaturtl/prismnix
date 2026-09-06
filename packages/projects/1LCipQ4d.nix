@@ -21,11 +21,23 @@ let
             "file" = "Fairytale-Origins-1.0.2.jar";
             "hash" = "sha512-hhv1Jr+lGNf8Dk3gXiqXlqeQApLGYH+N4Hw5Z6WPvubENYFri9Qr6TT0ELuXbvMtc8xdB7DmVhXZFNOurKuGlA==";
         };
+        _aRs5L7be = {
+            "id" = "aRs5L7be";
+            "file" = "Fairytale-Origins-1.1.0-neoforge-1.21.jar";
+            "hash" = "sha512-tX3A85hUKUQyBc68BNfCeTVdrMa+wICVw1wgwkjiQ/RsXnfnb/PNZ4q+rLWKQdoyOtLqER8RaMc0RrRpK8Y1OA==";
+        };
+        _XX0G2sTV = {
+            "id" = "XX0G2sTV";
+            "file" = "Fairytale-Origins-1.1.0-fabric-1.21.jar";
+            "hash" = "sha512-GFSVAores0lxnu4BHTsTF55ihJL6OCVIUkX8rF73u5RZyeAoQ5upRmT5FsFdHyi0x2vlrI5TTS+9YyJsdrun+Q==";
+        };
     in {
         "LUs8BnRt" = _LUs8BnRt;
         "6Uy6YQGt" = _6Uy6YQGt;
         "2e60NjK2" = _2e60NjK2;
         "21RqE8T9" = _21RqE8T9;
+        "aRs5L7be" = _aRs5L7be;
+        "XX0G2sTV" = _XX0G2sTV;
         "fabric-1.19" = _21RqE8T9;
         "fabric-1.19.1" = _21RqE8T9;
         "fabric-1.19.2" = _21RqE8T9;
@@ -39,10 +51,17 @@ let
         "fabric-1.20.5" = _21RqE8T9;
         "fabric-1.20.6" = _21RqE8T9;
         "fabric-1.21" = _21RqE8T9;
-        "fabric-1.21.1" = _21RqE8T9;
-        "fabric-1.21.2" = _21RqE8T9;
-        "fabric-1.21.3" = _21RqE8T9;
-        "fabric-1.21.4" = _21RqE8T9;
+        "fabric-1.21.1" = _XX0G2sTV;
+        "fabric-1.21.2" = _XX0G2sTV;
+        "fabric-1.21.3" = _XX0G2sTV;
+        "fabric-1.21.4" = _XX0G2sTV;
+        "fabric-1.21.5" = _XX0G2sTV;
+        "fabric-1.21.6" = _XX0G2sTV;
+        "fabric-1.21.7" = _XX0G2sTV;
+        "fabric-1.21.8" = _XX0G2sTV;
+        "fabric-1.21.9" = _XX0G2sTV;
+        "fabric-1.21.10" = _XX0G2sTV;
+        "fabric-1.21.11" = _XX0G2sTV;
         "forge-1.19" = _21RqE8T9;
         "forge-1.19.1" = _21RqE8T9;
         "forge-1.19.2" = _21RqE8T9;
@@ -73,7 +92,7 @@ let
         "neoforge-1.20.5" = _21RqE8T9;
         "neoforge-1.20.6" = _21RqE8T9;
         "neoforge-1.21" = _21RqE8T9;
-        "neoforge-1.21.1" = _21RqE8T9;
+        "neoforge-1.21.1" = _aRs5L7be;
         "neoforge-1.21.2" = _21RqE8T9;
         "neoforge-1.21.3" = _21RqE8T9;
         "neoforge-1.21.4" = _21RqE8T9;
@@ -97,7 +116,8 @@ let
         "pkg-1.0.0" = _6Uy6YQGt;
         "pkg-1.0.1" = _2e60NjK2;
         "pkg-1.0.2" = _21RqE8T9;
-        "default" = _21RqE8T9;
+        "pkg-1.1.0" = _XX0G2sTV;
+        "default" = _XX0G2sTV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fairytale-origins";

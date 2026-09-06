@@ -31,6 +31,11 @@ let
             "file" = "itrcpttools-1.5.4.jar";
             "hash" = "sha512-mWwa6n12lUYDVFO5GbwklP8r5SPJAvv5itIvad/wGW8H63lD+H+CCsMqpAtwRgcD06c16L0X7E8M+16PZ7BR9g==";
         };
+        _cdNMVxEz = {
+            "id" = "cdNMVxEz";
+            "file" = "itrcpttools-1.5.5.jar";
+            "hash" = "sha512-m/BNcBSHri91Y+gXTsSnycmYsa7UmTFNpD3vckFSlC+SgZFv0W3wh5tlAonCmCVUA6OU6DQsWvxA8Up/cVo5RA==";
+        };
     in {
         "MxWu9mtI" = _MxWu9mtI;
         "20xaNVmF" = _20xaNVmF;
@@ -38,14 +43,26 @@ let
         "fY4jtqBP" = _fY4jtqBP;
         "TEAR5fMw" = _TEAR5fMw;
         "kXbVILoF" = _kXbVILoF;
-        "neoforge-1.21.1" = _kXbVILoF;
+        "cdNMVxEz" = _cdNMVxEz;
+        "neoforge-1.21.1" = _cdNMVxEz;
+        "neoforge-1.21.2" = _cdNMVxEz;
+        "neoforge-1.21.3" = _cdNMVxEz;
+        "neoforge-1.21.4" = _cdNMVxEz;
+        "neoforge-1.21.5" = _cdNMVxEz;
+        "neoforge-1.21.6" = _cdNMVxEz;
+        "neoforge-1.21.7" = _cdNMVxEz;
+        "neoforge-1.21.8" = _cdNMVxEz;
+        "neoforge-1.21.9" = _cdNMVxEz;
+        "neoforge-1.21.10" = _cdNMVxEz;
+        "neoforge-1.21.11" = _cdNMVxEz;
         "pkg-1.3.3" = _MxWu9mtI;
         "pkg-1.4.3" = _20xaNVmF;
         "pkg-1.4.3.1" = _KgHKJDH5;
         "pkg-1.4.4" = _fY4jtqBP;
         "pkg-1.5.4" = _TEAR5fMw;
         "pkg-1.5.4-0.17.0" = _kXbVILoF;
-        "default" = _kXbVILoF;
+        "pkg-1.5.5" = _cdNMVxEz;
+        "default" = _cdNMVxEz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tornadointerceptlib";

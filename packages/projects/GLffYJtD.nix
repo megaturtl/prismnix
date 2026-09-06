@@ -196,6 +196,11 @@ let
             "file" = "Totemic-1.7.10-0.7.1.jar";
             "hash" = "sha512-PI/K9qoX32sT3NHgeg7nx4np60uuHCL8g5os/vVX7VoyR6maDR7pOjr7HEjuRnqlnWJK5HBsNCFPQIsyjJqT9w==";
         };
+        _tS54LAQx = {
+            "id" = "tS54LAQx";
+            "file" = "Totemic-neoforge-1.21.1-0.12.19.jar";
+            "hash" = "sha512-SwYgGvhrk9Bfu1KqgSX+LD7Kyf2xUeIjn/2X08iRvbUDnxt/gxIWNni1j7P8nXb2GeflR2DcM6nkeYQhPQiy6g==";
+        };
     in {
         "8j3CoaYd" = _8j3CoaYd;
         "h00iT9sj" = _h00iT9sj;
@@ -236,6 +241,7 @@ let
         "nvkL7sUX" = _nvkL7sUX;
         "MoTjkPmq" = _MoTjkPmq;
         "1FJmmnwp" = _1FJmmnwp;
+        "tS54LAQx" = _tS54LAQx;
         "forge-1.19.2" = _RzTIUkxP;
         "forge-1.18.2" = _w2NW6gjt;
         "forge-1.12.2" = _yZAuZ4Y3;
@@ -244,7 +250,7 @@ let
         "neoforge-1.20.4" = _gH9Qp62p;
         "neoforge-1.20.1" = _nvkL7sUX;
         "neoforge-1.21" = _5jHaakYc;
-        "neoforge-1.21.1" = _6Vny8MoL;
+        "neoforge-1.21.1" = _tS54LAQx;
         "pkg-1.19.2-0.12.6" = _8j3CoaYd;
         "pkg-1.18.2-0.12.6" = _h00iT9sj;
         "pkg-1.12.2-0.11.7" = _yZAuZ4Y3;
@@ -284,7 +290,8 @@ let
         "pkg-1.20.1-0.12.18" = _nvkL7sUX;
         "pkg-1.7.10-0.7.0" = _MoTjkPmq;
         "pkg-1.7.10-0.7.1" = _1FJmmnwp;
-        "default" = _1FJmmnwp;
+        "pkg-1.21.1-0.12.19" = _tS54LAQx;
+        "default" = _tS54LAQx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fenns_totemic";

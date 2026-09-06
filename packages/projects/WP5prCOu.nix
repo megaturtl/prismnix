@@ -109,12 +109,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "MIT" {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "MIT License";
-                shortName = "MIT";
+                fullName = "GNU General Public License v3.0 only";
+                shortName = "GPL-3.0-only";
                 url = null;
             };
         };

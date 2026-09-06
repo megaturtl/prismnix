@@ -96,6 +96,16 @@ let
             "file" = "BendableCuboidsMerged-2.0.2+mc.26.1.2.jar";
             "hash" = "sha512-RC4yxO7Fvtpg2O+yyNPY7aRtQnqTT3OpfFc5Xv9yjgq1naA6gl0/6zNTcGHBGkA9pSoK8bdlk6K+NzCHtMCLCg==";
         };
+        _SAr3rgEW = {
+            "id" = "SAr3rgEW";
+            "file" = "BendableCuboidsMerged-2.0.3+mc.26.2.jar";
+            "hash" = "sha512-kFdkZNhNU1FegND53yTTIqzu4ILEqj62i187g46S52HvwCo20+HsPcOqEUmdCQ1IvRRhETA256Xxm+TRWqxUoQ==";
+        };
+        _giI64d4E = {
+            "id" = "giI64d4E";
+            "file" = "BendableCuboidsMerged-2.0.4+mc.26.2.jar";
+            "hash" = "sha512-mZ4McGC501AZlYgyn4NlxIIwGmya/+SFsPhqa+OGWpRg5vHgoeL9d+XGbv/4egnT1x7sePBwowfD6edMAed8Kg==";
+        };
     in {
         "4Gw2KIBi" = _4Gw2KIBi;
         "HkbobQ3Q" = _HkbobQ3Q;
@@ -116,24 +126,26 @@ let
         "p5LKzVqY" = _p5LKzVqY;
         "Kq5emZI9" = _Kq5emZI9;
         "beAwFUUC" = _beAwFUUC;
+        "SAr3rgEW" = _SAr3rgEW;
+        "giI64d4E" = _giI64d4E;
         "fabric-1.21.7" = _mqKPHO6f;
         "fabric-1.21.8" = _mqKPHO6f;
         "fabric-1.21.9" = _6ACHA4y0;
         "fabric-1.21.10" = _6ACHA4y0;
         "fabric-1.21.11" = _p5LKzVqY;
-        "fabric-26.1" = _beAwFUUC;
-        "fabric-26.1.1" = _beAwFUUC;
+        "fabric-26.1" = _giI64d4E;
+        "fabric-26.1.1" = _giI64d4E;
         "fabric-26.1.2" = _beAwFUUC;
-        "fabric-26.2" = _beAwFUUC;
+        "fabric-26.2" = _giI64d4E;
         "neoforge-1.21.7" = _q5MgeEv6;
         "neoforge-1.21.8" = _q5MgeEv6;
         "neoforge-1.21.9" = _wKWG9nrm;
         "neoforge-1.21.10" = _wKWG9nrm;
         "neoforge-1.21.11" = _Kq5emZI9;
-        "neoforge-26.1" = _beAwFUUC;
-        "neoforge-26.1.1" = _beAwFUUC;
+        "neoforge-26.1" = _giI64d4E;
+        "neoforge-26.1.1" = _giI64d4E;
         "neoforge-26.1.2" = _beAwFUUC;
-        "neoforge-26.2" = _beAwFUUC;
+        "neoforge-26.2" = _giI64d4E;
         "pkg-1.0.0" = _HkbobQ3Q;
         "pkg-1.0.2" = _VmqIOBNF;
         "pkg-1.0.3" = _aIucNPVH;
@@ -144,7 +156,9 @@ let
         "pkg-2.0.0+alpha.1" = _YkrUqFP3;
         "pkg-2.0.1" = _Kq5emZI9;
         "pkg-2.0.2" = _beAwFUUC;
-        "default" = _beAwFUUC;
+        "pkg-2.0.3" = _SAr3rgEW;
+        "pkg-2.0.4" = _giI64d4E;
+        "default" = _giI64d4E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bendable-cuboids";

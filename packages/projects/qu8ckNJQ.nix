@@ -11,9 +11,15 @@ let
             "file" = "nocturnal-bats-1.1.0+1.21.3.jar";
             "hash" = "sha512-3UxDzsGH0H+ILy7sopxyZd7P37UM8/mzqYkWawtPyK73D6qp17BvJDnDBf1zp8nRJ9GhkQUSrUR1NkjDHQx1ig==";
         };
+        _aSwmHlzt = {
+            "id" = "aSwmHlzt";
+            "file" = "nocturnal-bats-1.1.0+26.1.2.jar";
+            "hash" = "sha512-MemBYJ88cN7isqAzpUixgmZi5WShqLm36/5lzvgfbqJzktciXiJd1heDBxAZttbqt43+ncl8x+GopgWQEeRJqA==";
+        };
     in {
         "OYtVku7w" = _OYtVku7w;
         "ceWhOH7i" = _ceWhOH7i;
+        "aSwmHlzt" = _aSwmHlzt;
         "fabric-1.19.4" = _ceWhOH7i;
         "fabric-1.20" = _ceWhOH7i;
         "fabric-1.20.1" = _ceWhOH7i;
@@ -33,9 +39,15 @@ let
         "fabric-1.21.8" = _ceWhOH7i;
         "fabric-1.21.9" = _ceWhOH7i;
         "fabric-1.21.10" = _ceWhOH7i;
+        "fabric-1.21.11" = _ceWhOH7i;
+        "fabric-26.1" = _aSwmHlzt;
+        "fabric-26.1.1" = _aSwmHlzt;
+        "fabric-26.1.2" = _aSwmHlzt;
+        "fabric-26.2" = _aSwmHlzt;
         "pkg-1.0.0+1.19.4" = _OYtVku7w;
         "pkg-1.1.0+1.21.3" = _ceWhOH7i;
-        "default" = _ceWhOH7i;
+        "pkg-1.1.0+26.1.2" = _aSwmHlzt;
+        "default" = _aSwmHlzt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nocturnal-bats";

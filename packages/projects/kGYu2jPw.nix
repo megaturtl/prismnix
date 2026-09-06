@@ -126,6 +126,26 @@ let
             "file" = "1.21.1-neoforge-gemstones-1.1.5-c.jar";
             "hash" = "sha512-r6u0A9IBK2ep8aRCHZtqMDCbRFe5yTNoH0gd7Ohh/zTLmGj2kbHPv+LffdcQhFm0KpL/HctigBKNjcdyN1uuzA==";
         };
+        _J0DNYtpO = {
+            "id" = "J0DNYtpO";
+            "file" = "1.21.1-neoforge-gemstones-1.1.5-d.jar";
+            "hash" = "sha512-qNaAeyY3IlR8EVw4zAwR1B4qdCFVISV0AUuNznfOtwqfmgAnRfZJ5KtmLAk7aASpyBmfpg0+T142RvFzJ/ojNg==";
+        };
+        _Pb4v6H2L = {
+            "id" = "Pb4v6H2L";
+            "file" = "1.21.1-fabric-gemstones-1.1.5-d.jar";
+            "hash" = "sha512-TiZXrk940/rEZRp8Jm50dt1YYz/dc2p85XoOaMmqzFo3I8t7PVFInWpVLtheJQd6NVthO2zh4mfqwNyOdrr6XA==";
+        };
+        _vztQMnqc = {
+            "id" = "vztQMnqc";
+            "file" = "1.21.1-neoforge-gemstones-1.1.5-e.jar";
+            "hash" = "sha512-XPWmRD12XOaVr8Gt4Yd6FGZSK2xFc0L9zXBTW9elB7alBefTUPASmHg5R2+1dv7B6+vTAOGqeQK7Fs2DKTMBmw==";
+        };
+        _W8dPJZum = {
+            "id" = "W8dPJZum";
+            "file" = "1.21.1-fabric-gemstones-1.1.5-e.jar";
+            "hash" = "sha512-UI/9zczjW233xwF0iDGN7IhXEeh+3GaJW1/yldj4Dq1nua5e7eHrBZV5AA9WYfhULXxTm1fKx8qDu3joWgoEUQ==";
+        };
     in {
         "kPiLXrcR" = _kPiLXrcR;
         "q9eQpcMR" = _q9eQpcMR;
@@ -152,8 +172,12 @@ let
         "3K43kYxe" = _3K43kYxe;
         "COysHvlP" = _COysHvlP;
         "Vu5G5itE" = _Vu5G5itE;
-        "fabric-1.21.1" = _COysHvlP;
-        "neoforge-1.21.1" = _Vu5G5itE;
+        "J0DNYtpO" = _J0DNYtpO;
+        "Pb4v6H2L" = _Pb4v6H2L;
+        "vztQMnqc" = _vztQMnqc;
+        "W8dPJZum" = _W8dPJZum;
+        "fabric-1.21.1" = _W8dPJZum;
+        "neoforge-1.21.1" = _vztQMnqc;
         "pkg-1.0.4a" = _kPiLXrcR;
         "pkg-1.0.5" = _q9eQpcMR;
         "pkg-1.0.5a" = _Jzrp7L6J;
@@ -172,7 +196,9 @@ let
         "pkg-1.1.5-a" = _wevkryS5;
         "pkg-1.1.5-b" = _3K43kYxe;
         "pkg-1.1.5-c" = _Vu5G5itE;
-        "default" = _Vu5G5itE;
+        "pkg-1.1.5-d" = _Pb4v6H2L;
+        "pkg-1.1.5-e" = _W8dPJZum;
+        "default" = _W8dPJZum;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legendary-gemstones";

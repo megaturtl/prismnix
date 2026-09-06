@@ -11,9 +11,15 @@ let
             "file" = "§fTrue§r §6§nDoors§r§k§0§k.zip";
             "hash" = "sha512-G23x7VPpMls52KbEhHou7WjZFWw2XZdXFnP4YFnWOC6DfQrzafteHHFIi0t/y8IXowFc4mTDlbYzRFO4eZc3fQ==";
         };
+        _kzswUoaf = {
+            "id" = "kzswUoaf";
+            "file" = "§fTrue§r §6§nDoors§r§k§0§k.zip";
+            "hash" = "sha512-iiheb63bi2HK6O+6iiHkc0Y7KH0HQUDX8U29EcFfcj06gqiHLwCRu+rejFNIKbwiEAR3oO1iqjilhOltHCqGJw==";
+        };
     in {
         "4NIrEqz9" = _4NIrEqz9;
         "9HewWsDe" = _9HewWsDe;
+        "kzswUoaf" = _kzswUoaf;
         "minecraft-1.19" = _4NIrEqz9;
         "minecraft-1.19.1" = _4NIrEqz9;
         "minecraft-1.19.2" = _4NIrEqz9;
@@ -26,11 +32,11 @@ let
         "minecraft-1.20.4" = _9HewWsDe;
         "minecraft-1.20.5" = _9HewWsDe;
         "minecraft-1.20.6" = _9HewWsDe;
-        "minecraft-1.21" = _9HewWsDe;
-        "minecraft-1.21.1" = _9HewWsDe;
-        "minecraft-1.21.2" = _9HewWsDe;
-        "minecraft-1.21.3" = _9HewWsDe;
-        "minecraft-1.21.4" = _9HewWsDe;
+        "minecraft-1.21" = _kzswUoaf;
+        "minecraft-1.21.1" = _kzswUoaf;
+        "minecraft-1.21.2" = _kzswUoaf;
+        "minecraft-1.21.3" = _kzswUoaf;
+        "minecraft-1.21.4" = _kzswUoaf;
         "minecraft-23w31a" = _9HewWsDe;
         "minecraft-23w32a" = _9HewWsDe;
         "minecraft-23w33a" = _9HewWsDe;
@@ -76,16 +82,21 @@ let
         "minecraft-24w44a" = _9HewWsDe;
         "minecraft-24w45a" = _9HewWsDe;
         "minecraft-24w46a" = _9HewWsDe;
-        "minecraft-1.21.5" = _9HewWsDe;
-        "minecraft-1.21.6" = _9HewWsDe;
-        "minecraft-1.21.7" = _9HewWsDe;
-        "minecraft-1.21.8" = _9HewWsDe;
-        "minecraft-1.21.9" = _9HewWsDe;
-        "minecraft-1.21.10" = _9HewWsDe;
-        "minecraft-1.21.11" = _9HewWsDe;
+        "minecraft-1.21.5" = _kzswUoaf;
+        "minecraft-1.21.6" = _kzswUoaf;
+        "minecraft-1.21.7" = _kzswUoaf;
+        "minecraft-1.21.8" = _kzswUoaf;
+        "minecraft-1.21.9" = _kzswUoaf;
+        "minecraft-1.21.10" = _kzswUoaf;
+        "minecraft-1.21.11" = _kzswUoaf;
+        "minecraft-26.1" = _kzswUoaf;
+        "minecraft-26.1.1" = _kzswUoaf;
+        "minecraft-26.1.2" = _kzswUoaf;
+        "minecraft-26.2" = _kzswUoaf;
         "pkg-1.0" = _4NIrEqz9;
         "pkg-1.1" = _9HewWsDe;
-        "default" = _9HewWsDe;
+        "pkg-1.2" = _kzswUoaf;
+        "default" = _kzswUoaf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "true-doors";

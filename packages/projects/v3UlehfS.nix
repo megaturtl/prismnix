@@ -151,6 +151,26 @@ let
             "file" = "Jadens-Nether-Expansion-2.4.0-BETA.7.jar";
             "hash" = "sha512-NW/lPZ5M8lWAUU1Telnu62emw2allkJkq3JoTEsmZbXuCQd0SKaw/h+V/oI/riGhRadDUXlMRdw0jrgLaBgp6w==";
         };
+        _I4kfIESa = {
+            "id" = "I4kfIESa";
+            "file" = "Jadens-Nether-Expansion-2.4.0-RC.1.jar";
+            "hash" = "sha512-O4a1d25g9zc+2BZrfYVj+9+C0z+D72fiw1DpPhjrFyJsx344XbzUOmbsSRoFP9wyCGepmLt3G6Ul/MvjyKZeGw==";
+        };
+        _W5UI7vxF = {
+            "id" = "W5UI7vxF";
+            "file" = "Jadens-Nether-Expansion-2.4.0-RC.2.jar";
+            "hash" = "sha512-BOGAJcAUA2rpIs8lUcY9R0oPJJFKBIG8EKvZSHw/NDVmHuuOHxzP1WvWPRUE8AZB4dpnBWZLpQE+X5Gj9TNFcw==";
+        };
+        _bZ0xoKv3 = {
+            "id" = "bZ0xoKv3";
+            "file" = "Jadens-Nether-Expansion-2.4.0.jar";
+            "hash" = "sha512-6OS1FwNGot17A3ij9u8ViY78/PWdQe9hriXwNJL/kUjn7/7WMAtxHWcu1ndP5EyAF6vM0dHlTANLQBjkf1Cb+Q==";
+        };
+        _NactTrv2 = {
+            "id" = "NactTrv2";
+            "file" = "Jadens-Nether-Expansion-2.4.1.jar";
+            "hash" = "sha512-YaiAiRd6lXmZwkTezQdoNVnx1FJVLE/E/WHK+3IbuFxHUlWNV3d7LLDoJxmweReMPGvWfFCbhwx7snnc6d+2dQ==";
+        };
     in {
         "QIppwZZn" = _QIppwZZn;
         "baEBh28e" = _baEBh28e;
@@ -182,9 +202,13 @@ let
         "oeYmggTU" = _oeYmggTU;
         "Dn0Yq5H5" = _Dn0Yq5H5;
         "6qRP74x9" = _6qRP74x9;
+        "I4kfIESa" = _I4kfIESa;
+        "W5UI7vxF" = _W5UI7vxF;
+        "bZ0xoKv3" = _bZ0xoKv3;
+        "NactTrv2" = _NactTrv2;
         "fabric-1.20.1" = _WOdopig8;
         "forge-1.20.1" = _mWogGDsB;
-        "neoforge-1.21.1" = _6qRP74x9;
+        "neoforge-1.21.1" = _NactTrv2;
         "pkg-2.0.0-Fabric" = _QIppwZZn;
         "pkg-2.0.0-Forge" = _baEBh28e;
         "pkg-2.0.1-Fabric" = _c0wQYhJ6;
@@ -214,7 +238,11 @@ let
         "pkg-2.4.0-BETA.5" = _oeYmggTU;
         "pkg-2.4.0-BETA.6" = _Dn0Yq5H5;
         "pkg-2.4.0-BETA.7" = _6qRP74x9;
-        "default" = _6qRP74x9;
+        "pkg-2.4.0-RC.1" = _I4kfIESa;
+        "pkg-2.4.0-RC.2" = _W5UI7vxF;
+        "pkg-2.4.0" = _bZ0xoKv3;
+        "pkg-2.4.1" = _NactTrv2;
+        "default" = _NactTrv2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jadens-nether-expansion";
@@ -222,12 +250,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-SA-4.0" {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-ND-4.0" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "Creative Commons Attribution Non Commercial Share Alike 4.0 International";
-                shortName = "CC-BY-NC-SA-4.0";
+                fullName = "Creative Commons Attribution Non Commercial No Derivatives 4.0 International";
+                shortName = "CC-BY-NC-ND-4.0";
                 url = null;
             };
         };

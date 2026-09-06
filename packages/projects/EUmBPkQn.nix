@@ -126,6 +126,11 @@ let
             "file" = "plonk-26.1.1-10.0.9-neo.jar";
             "hash" = "sha512-UGiW7tLLruE+r8vIZdrqWTIVPNQK1svbxWgaUzGjcLdxSwTWVqB4KSlgOEOyYRLIw6nqFJr15jhr2Rxfw2S3BA==";
         };
+        _G9puIgWW = {
+            "id" = "G9puIgWW";
+            "file" = "plonk-26.1.2-10.0.10-neo.jar";
+            "hash" = "sha512-bak4AoVp59QqnA1i0u09M843UWmDb03FucEvwZaZEHL7C7ORbalJ4evSCl0zkKVUoFewmkCsXvt9ROYTWjvnIQ==";
+        };
     in {
         "YQBmAswD" = _YQBmAswD;
         "iDzgTKoW" = _iDzgTKoW;
@@ -152,6 +157,7 @@ let
         "aN4fYCil" = _aN4fYCil;
         "yycLiDzS" = _yycLiDzS;
         "wiKFA2Bt" = _wiKFA2Bt;
+        "G9puIgWW" = _G9puIgWW;
         "forge-1.7.10" = _bX9Po7hr;
         "forge-1.12.2" = _zmePvp8E;
         "forge-1.15.2" = _wzN2EdlN;
@@ -173,9 +179,9 @@ let
         "neoforge-1.20.1" = _V1OyyHVE;
         "neoforge-1.21" = _Y8aicJfZ;
         "neoforge-1.21.1" = _Y8aicJfZ;
-        "neoforge-26.1" = _wiKFA2Bt;
-        "neoforge-26.1.1" = _wiKFA2Bt;
-        "neoforge-26.1.2" = _wiKFA2Bt;
+        "neoforge-26.1" = _G9puIgWW;
+        "neoforge-26.1.1" = _G9puIgWW;
+        "neoforge-26.1.2" = _G9puIgWW;
         "pkg-0.0.6" = _YQBmAswD;
         "pkg-5.0.3" = _iDzgTKoW;
         "pkg-8.0.0" = _ZnW6qSxg;
@@ -194,7 +200,8 @@ let
         "pkg-10.0.7" = _aN4fYCil;
         "pkg-10.0.8" = _yycLiDzS;
         "pkg-10.0.9" = _wiKFA2Bt;
-        "default" = _wiKFA2Bt;
+        "pkg-10.0.10" = _G9puIgWW;
+        "default" = _G9puIgWW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "plonk";

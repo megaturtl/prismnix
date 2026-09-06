@@ -291,6 +291,36 @@ let
             "file" = "Herobrine Companion-1.20.1-forge-0.285.jar";
             "hash" = "sha512-LWFhESc/nPgCfDKxLcjEeiL+1iCdDDpdL7CN31ex/WFbHxvpu4NplEyXcyOkFxTPiDCj5DKGi+kG0uGO4aDpcg==";
         };
+        _8KUttmMR = {
+            "id" = "8KUttmMR";
+            "file" = "Herobrine Companion-1.20.1-forge-0.3.jar";
+            "hash" = "sha512-DmUr65onDB/Ry7PORLwuHApvRFo7dHTmgbKUrC4uek9dozBWGmTbu063nUEvRdCHAesas91B4fXbn+n5aWJ44g==";
+        };
+        _pTjmSX2u = {
+            "id" = "pTjmSX2u";
+            "file" = "Herobrine Companion-0.3-1.21.1-neoforge.jar";
+            "hash" = "sha512-dqvXNOi8qBFeHc3asnyPybBQSSMaPfQ1jI70dpgfcKk/MRakVsz7bCZGAzuSBMOYXv4w3xMZdq6VVyXZggL4RQ==";
+        };
+        _hyYWKDlK = {
+            "id" = "hyYWKDlK";
+            "file" = "Herobrine Companion-1.20.1-forge-0.32.jar";
+            "hash" = "sha512-JWjiMIHGAdXrpOk96afMib2BCawIXnII0YqTPBFDdJRcwG4WSZ0ahHQGuDiYJSI97ejl65jo06W+7HlNIi3NIg==";
+        };
+        _zCVlqe6y = {
+            "id" = "zCVlqe6y";
+            "file" = "Herobrine Companion-0.32-1.21.1-neoforge.jar";
+            "hash" = "sha512-7rsxILF8PTgD4ujO6GvaFiqqXAZpRUCyRKT6zA0o8KGP2uvRo9WeiDbjHg+TWy+whCogN3vkuR3MH8ha2AkYFg==";
+        };
+        _cjotOHrm = {
+            "id" = "cjotOHrm";
+            "file" = "Herobrine Companion-1.20.1-forge-0.34.jar";
+            "hash" = "sha512-gssTYBlrW2+dP3RshvA0X0THw4jVXxAY/XetxRTSpx3jtAl9d8zMSLdYVcfzOFG1gZRRmo8AGiicQGCxCSadSQ==";
+        };
+        _2XldpG2t = {
+            "id" = "2XldpG2t";
+            "file" = "Herobrine Companion-0.34-1.21.1-neoforge.jar";
+            "hash" = "sha512-g0qjdAPjbgr0XKyQ8Ky0Sw4qKan/GFj1gw1AXUPJIp6GiVmENEGjeFjUl+fBlQToVPh8DYEVdpADJX7npNJDLQ==";
+        };
     in {
         "Yj0Z2aOU" = _Yj0Z2aOU;
         "wnDTa9yN" = _wnDTa9yN;
@@ -350,8 +380,14 @@ let
         "6dBb2pa9" = _6dBb2pa9;
         "YXbUMiHU" = _YXbUMiHU;
         "lnaUPWIi" = _lnaUPWIi;
-        "forge-1.20.1" = _lnaUPWIi;
-        "neoforge-1.21.1" = _YXbUMiHU;
+        "8KUttmMR" = _8KUttmMR;
+        "pTjmSX2u" = _pTjmSX2u;
+        "hyYWKDlK" = _hyYWKDlK;
+        "zCVlqe6y" = _zCVlqe6y;
+        "cjotOHrm" = _cjotOHrm;
+        "2XldpG2t" = _2XldpG2t;
+        "forge-1.20.1" = _cjotOHrm;
+        "neoforge-1.21.1" = _2XldpG2t;
         "pkg-0.11" = _wnDTa9yN;
         "pkg-0.111" = _Q6HINZqQ;
         "pkg-0.12" = _aUH6jjdq;
@@ -384,7 +420,10 @@ let
         "pkg-0.26" = _WuyP8KKR;
         "pkg-0.28" = _YXbUMiHU;
         "pkg-0.285" = _lnaUPWIi;
-        "default" = _lnaUPWIi;
+        "pkg-0.3" = _pTjmSX2u;
+        "pkg-0.32" = _zCVlqe6y;
+        "pkg-0.34" = _2XldpG2t;
+        "default" = _2XldpG2t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "herobrine_companion";

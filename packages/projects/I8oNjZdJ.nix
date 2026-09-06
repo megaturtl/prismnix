@@ -171,6 +171,26 @@ let
             "file" = "toolleveling-forge-1.18.2-1.5.1.jar";
             "hash" = "sha512-PfUS3rooXNKgBNDBofgt3po4onWrFCDxpw2FytSsUiSucBToPntKo/Q1d1mYeIs3KqrGLwxak2EbbLD5jhmKlQ==";
         };
+        _EmrYYZxf = {
+            "id" = "EmrYYZxf";
+            "file" = "toolleveling-fabric-1.19.2-1.5.1.jar";
+            "hash" = "sha512-ns+8cKmxtpygdXUc3ZnKbg2TlyPB7C90xTuzFg0f4evT3sgZf1Db45+7dEXMKwcec9W9C+dPIcpTKFFMZdvhQA==";
+        };
+        _CQgg4pnq = {
+            "id" = "CQgg4pnq";
+            "file" = "toolleveling-forge-1.19.2-1.5.1.jar";
+            "hash" = "sha512-1X8q7/xZdDCnLBM1pzPrdeSv0nEro+U8LfGfnHYCq7MRl45HzIbC+I763JefsOrXHbrsBTrmmB2Iot4NO+qp3A==";
+        };
+        _ErPeFzv1 = {
+            "id" = "ErPeFzv1";
+            "file" = "toolleveling-fabric-1.19.4-1.5.1.jar";
+            "hash" = "sha512-pFblr2s2xPuML9PkbXn3txMxYYVraBVyoa8KXknyzTf0tz6dZCFx4/g+l29Z8G4/HIsQvVdGJp9Cs6qoCsbEGg==";
+        };
+        _KFIiUVna = {
+            "id" = "KFIiUVna";
+            "file" = "toolleveling-forge-1.19.4-1.5.1.jar";
+            "hash" = "sha512-kqTkxQgQmMZNDNGLiA7N0MuVFUu1L0EttGA7D+V1+Lavb5+dBiTi7OMpV0mED8/VIhKlmv3x+fVwyJJEpmgDRQ==";
+        };
     in {
         "psVwp6AW" = _psVwp6AW;
         "UEDfWUbs" = _UEDfWUbs;
@@ -206,23 +226,27 @@ let
         "jyYrlDi7" = _jyYrlDi7;
         "gq1YAYMl" = _gq1YAYMl;
         "oCsTxZxE" = _oCsTxZxE;
+        "EmrYYZxf" = _EmrYYZxf;
+        "CQgg4pnq" = _CQgg4pnq;
+        "ErPeFzv1" = _ErPeFzv1;
+        "KFIiUVna" = _KFIiUVna;
         "forge-1.18.1" = _psVwp6AW;
         "forge-1.18.2" = _oCsTxZxE;
         "forge-1.19" = _MsKp8nbD;
         "forge-1.19.1" = _MsKp8nbD;
-        "forge-1.19.2" = _MsKp8nbD;
+        "forge-1.19.2" = _CQgg4pnq;
         "forge-1.19.3" = _pNeLCoJg;
         "forge-1.16.5" = _HVGXc7b6;
-        "forge-1.19.4" = _PkPIbbfd;
+        "forge-1.19.4" = _KFIiUVna;
         "forge-1.20" = _dXbqhg13;
         "forge-1.20.1" = _dXbqhg13;
         "fabric-1.18.1" = _UEDfWUbs;
         "fabric-1.18.2" = _gq1YAYMl;
         "fabric-1.19" = _ZizyjBRe;
         "fabric-1.19.1" = _ZizyjBRe;
-        "fabric-1.19.2" = _ZizyjBRe;
+        "fabric-1.19.2" = _EmrYYZxf;
         "fabric-1.19.3" = _LCgzEJwH;
-        "fabric-1.19.4" = _xasiOd35;
+        "fabric-1.19.4" = _ErPeFzv1;
         "fabric-1.20" = _9B0nhkVi;
         "fabric-1.20.1" = _9B0nhkVi;
         "pkg-1.18.1-1.3.0-forge" = _psVwp6AW;
@@ -259,7 +283,11 @@ let
         "pkg-1.18.2-1.5.0-Forge" = _jyYrlDi7;
         "pkg-1.18.2-1.5.1-Fabric" = _gq1YAYMl;
         "pkg-1.18.2-1.5.1-Forge" = _oCsTxZxE;
-        "default" = _oCsTxZxE;
+        "pkg-1.19.2-1.5.1-Fabric" = _EmrYYZxf;
+        "pkg-1.19.2-1.5.1-Forge" = _CQgg4pnq;
+        "pkg-1.19.4-1.5.1-Fabric" = _ErPeFzv1;
+        "pkg-1.19.4-1.5.1-Forge" = _KFIiUVna;
+        "default" = _KFIiUVna;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tool-leveling";

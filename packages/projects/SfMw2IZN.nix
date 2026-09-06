@@ -191,6 +191,26 @@ let
             "file" = "nvidium-0.4.4-beta3-26.2.jar";
             "hash" = "sha512-RRZA4uCmPkIl7K2RyM50qYOHo9JUnrwrhNdIaVosZl6IR8luJZ6pvhFXM6kuRiDcTI4G93kKW3/Nlc2taAX7mA==";
         };
+        _8RkbaOsH = {
+            "id" = "8RkbaOsH";
+            "file" = "nvidium-0.4.4-beta4-26.1.jar";
+            "hash" = "sha512-ZU1tGYfVWNu1KGtY85/Kz2wqaVeh8/rdHuAIh3DubMiJ6i3oLYPi8jXSdsXiQ22eKF2yLBscC2HL/pAK+cQqEQ==";
+        };
+        _bA64Ycl6 = {
+            "id" = "bA64Ycl6";
+            "file" = "nvidium-0.4.4-beta4-26.2.jar";
+            "hash" = "sha512-91NJ6kGtEHvnSWmZChsnXMAaJVJSRXH37PVSzJHgJp+Y+LlMTokspjgHeIGt3hHXla5iwF8M6tq48GkhOZJ27w==";
+        };
+        _yt1PZbPW = {
+            "id" = "yt1PZbPW";
+            "file" = "nvidium-0.4.4-beta5-26.1.jar";
+            "hash" = "sha512-aMOrjYGM8Xh278zNsxiiSLvT3JS6Hwq5+ekjCiXNITxTqZmB4Oy6C0htFtYueVBejRfOz94yMFW6F7jDO4d+7g==";
+        };
+        _8srLBUtB = {
+            "id" = "8srLBUtB";
+            "file" = "nvidium-0.4.4-beta5-26.2.jar";
+            "hash" = "sha512-7InPKwUsE86FD0K9GSi6td0q3Mt+XtJxz+1P5IlEpahI9jbjRAIQClmOhSI/6Qqtr9sFmhOxxvEXuz7AjPxH8w==";
+        };
     in {
         "LXNe7fra" = _LXNe7fra;
         "tbibwExa" = _tbibwExa;
@@ -230,6 +250,10 @@ let
         "EH425YHR" = _EH425YHR;
         "dEVDZevT" = _dEVDZevT;
         "1oKhdALy" = _1oKhdALy;
+        "8RkbaOsH" = _8RkbaOsH;
+        "bA64Ycl6" = _bA64Ycl6;
+        "yt1PZbPW" = _yt1PZbPW;
+        "8srLBUtB" = _8srLBUtB;
         "fabric-1.19.4" = _WJV4pTzp;
         "fabric-1.20" = _WJV4pTzp;
         "fabric-1.20.1" = _J2fuM58R;
@@ -245,10 +269,10 @@ let
         "fabric-1.21.8" = _xQpHrkJW;
         "fabric-1.21.9" = _UyYcxWfJ;
         "fabric-1.21.10" = _UyYcxWfJ;
-        "fabric-26.1" = _EH425YHR;
-        "fabric-26.1.1" = _EH425YHR;
-        "fabric-26.1.2" = _EH425YHR;
-        "fabric-26.2" = _1oKhdALy;
+        "fabric-26.1" = _yt1PZbPW;
+        "fabric-26.1.1" = _yt1PZbPW;
+        "fabric-26.1.2" = _yt1PZbPW;
+        "fabric-26.2" = _8srLBUtB;
         "quilt-1.19.4" = _WJV4pTzp;
         "quilt-1.20" = _WJV4pTzp;
         "quilt-1.20.1" = _J2fuM58R;
@@ -294,7 +318,11 @@ let
         "pkg-0.4.4-beta2-26.1" = _EH425YHR;
         "pkg-0.4.4-beta2-26.2" = _dEVDZevT;
         "pkg-0.4.4-beta3-26.2" = _1oKhdALy;
-        "default" = _1oKhdALy;
+        "pkg-0.4.4-beta4-26.1" = _8RkbaOsH;
+        "pkg-0.4.4-beta4-26.2" = _bA64Ycl6;
+        "pkg-0.4.4-beta5-26.1" = _yt1PZbPW;
+        "pkg-0.4.4-beta5-26.2" = _8srLBUtB;
+        "default" = _8srLBUtB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nvidium";

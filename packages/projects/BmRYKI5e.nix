@@ -41,6 +41,16 @@ let
             "file" = "minitools-1.1.4-1.21.11.jar";
             "hash" = "sha512-Uxsux5UjarOMfk0Qv1H3YdEJ71Ct+nGpXrLe+aJhrNJ4XmU26/dOg/G4TXoQ/epxUpjdhXt/57eCCsKkp6K3GA==";
         };
+        _IVqLalO2 = {
+            "id" = "IVqLalO2";
+            "file" = "minitools-1.1.4-26.1.jar";
+            "hash" = "sha512-rMbLL/o+IhvkQjUznQzOVCmJENqtfrkktgg7LINMyDMJ7IhP45TiA0tzQbZpSruB5Ae92UprEz7dMWRUuJDDUA==";
+        };
+        _lLDG4AyG = {
+            "id" = "lLDG4AyG";
+            "file" = "minitools-1.1.4-26.2.jar";
+            "hash" = "sha512-WlTAGq6C1GjnIhiZ9QZNzV7EiCd7nUH3/uuE+xy8cGlH4iFUnkzTJp7hosH3mKT8XPjKLPWpkEpsWO2qvWt0AA==";
+        };
     in {
         "aNSHBIdz" = _aNSHBIdz;
         "wRLbeOeR" = _wRLbeOeR;
@@ -50,9 +60,15 @@ let
         "VSGgSBhk" = _VSGgSBhk;
         "IjYDL108" = _IjYDL108;
         "1jPwNWWZ" = _1jPwNWWZ;
+        "IVqLalO2" = _IVqLalO2;
+        "lLDG4AyG" = _lLDG4AyG;
         "forge-1.20.1" = _9qkBxRjW;
         "forge-1.20.2" = _9qkBxRjW;
         "fabric-1.21.11" = _1jPwNWWZ;
+        "fabric-26.1" = _IVqLalO2;
+        "fabric-26.1.1" = _IVqLalO2;
+        "fabric-26.1.2" = _IVqLalO2;
+        "fabric-26.2" = _lLDG4AyG;
         "pkg-1.1.0" = _aNSHBIdz;
         "pkg-1.1.1" = _wRLbeOeR;
         "pkg-1.1.2" = _YukJj6AN;
@@ -61,7 +77,9 @@ let
         "pkg-1.1.2-1.21.11" = _VSGgSBhk;
         "pkg-1.1.3-1.21.11" = _IjYDL108;
         "pkg-1.1.4-1.21.11" = _1jPwNWWZ;
-        "default" = _1jPwNWWZ;
+        "pkg-1.1.4-26.1" = _IVqLalO2;
+        "pkg-1.1.4-26.2" = _lLDG4AyG;
+        "default" = _lLDG4AyG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minitools";

@@ -156,6 +156,26 @@ let
             "file" = "modifiedtornadodamage-0.0.25.jar";
             "hash" = "sha512-7mTDsZQjHUFZ6u3rbBx4ax14kfpUNXznxvOe5tbiuGoDFSFP4PbwBa/9vSyAi1zVHJ4+ZVObpKJ+UV5GPAz2YA==";
         };
+        _m9plXf8Z = {
+            "id" = "m9plXf8Z";
+            "file" = "modifiedtornadodamage-0.0.26.jar";
+            "hash" = "sha512-Grd72S3CVcAeYn8s0mH4DY2ewNgg3zePW9+vW92rrTfPeAHbAUK+F0Ucji6wRD+RFEXCIyb2PMnYJXuw9QYJOQ==";
+        };
+        _DTzLLCRR = {
+            "id" = "DTzLLCRR";
+            "file" = "modifiedtornadodamage-0.0.27.jar";
+            "hash" = "sha512-dxFqNrvo1WqR2mDKKiZY0xJsH7ntITf5q5AyC0lws9yaOMSikFnDHnUw1VJktG0/OaBHYrPETijgqdCTJeuUlQ==";
+        };
+        _ajynCsY7 = {
+            "id" = "ajynCsY7";
+            "file" = "modifiedtornadodamage-0.0.28.jar";
+            "hash" = "sha512-V46rE1vvzaA5jyQo+9mO5zUsElj45yfzJf7AuuqgPpVTFl94dG7EzKK3dSHBQcY6iqcPH80gJ8pi/iw/PEU4VA==";
+        };
+        _gL6VNiM1 = {
+            "id" = "gL6VNiM1";
+            "file" = "modifiedtornadodamage-0.0.29.jar";
+            "hash" = "sha512-+hsJb885nvajbHQWXYQGEXQN1McQG6zO2d/s5BMozjnNFOWAfFqxArEkivL0vLa3v9nESafW4Bf7Ml6Y0ssckA==";
+        };
     in {
         "NqEcMAVz" = _NqEcMAVz;
         "fthXMPzn" = _fthXMPzn;
@@ -188,7 +208,11 @@ let
         "PXBVxjmW" = _PXBVxjmW;
         "fDDp4YUY" = _fDDp4YUY;
         "WIVIxNoI" = _WIVIxNoI;
-        "neoforge-1.21.1" = _WIVIxNoI;
+        "m9plXf8Z" = _m9plXf8Z;
+        "DTzLLCRR" = _DTzLLCRR;
+        "ajynCsY7" = _ajynCsY7;
+        "gL6VNiM1" = _gL6VNiM1;
+        "neoforge-1.21.1" = _gL6VNiM1;
         "forge-1.20.1" = _fDDp4YUY;
         "pkg-0.0.2" = _NqEcMAVz;
         "pkg-0.0.3" = _fthXMPzn;
@@ -221,7 +245,11 @@ let
         "pkg-0.0.24-forge" = _PXBVxjmW;
         "pkg-0.0.25-forge" = _fDDp4YUY;
         "pkg-0.0.25" = _WIVIxNoI;
-        "default" = _WIVIxNoI;
+        "pkg-0.0.26" = _m9plXf8Z;
+        "pkg-0.0.27" = _DTzLLCRR;
+        "pkg-0.0.28" = _ajynCsY7;
+        "pkg-0.0.29" = _gL6VNiM1;
+        "default" = _gL6VNiM1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modified-tornado-damage";

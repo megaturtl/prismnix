@@ -291,6 +291,16 @@ let
             "file" = "unicopia-1.3.19+1.21.jar";
             "hash" = "sha512-1uEM7EcFAfeHzzpqJfhdqdZLWTGnTsIr2gH+Q0qScWGWTUX7cL9mr1yzWGoJO4qvKMjGQJson3b3j7yB0RIR4A==";
         };
+        _Jea6htXI = {
+            "id" = "Jea6htXI";
+            "file" = "Unicopia-1.3.12+1.20.1.jar";
+            "hash" = "sha512-e1JZ80y2V2ee7j21tQdE/JOlDCf0ZqAserGWRkwIisiEGB5QqMDWO4CCAR3iXVENPbTk/AjySTNifQX3wrgJPg==";
+        };
+        _ZpRdKW3L = {
+            "id" = "ZpRdKW3L";
+            "file" = "Unicopia-1.3.12+1.20.1.jar";
+            "hash" = "sha512-yB+gjtjF7z7Jm394+qGenhXWT/83HZK8a+zvGIg2e5Iq7oCRIitgQMTOyedHHNZYzTKZlek/eXMOWZpdaDhiJg==";
+        };
     in {
         "QD88T9ro" = _QD88T9ro;
         "Iw1RTKqh" = _Iw1RTKqh;
@@ -350,6 +360,8 @@ let
         "3eLUeIR0" = _3eLUeIR0;
         "NkxfpmXQ" = _NkxfpmXQ;
         "LDn1okdN" = _LDn1okdN;
+        "Jea6htXI" = _Jea6htXI;
+        "ZpRdKW3L" = _ZpRdKW3L;
         "fabric-1.19.3" = _501C57yS;
         "fabric-1.19.2" = _Iw1RTKqh;
         "fabric-1.19.4" = _pzzF3wbs;
@@ -358,7 +370,7 @@ let
         "fabric-1.20-rc1" = _npCwJpG7;
         "fabric-1.20" = _npCwJpG7;
         "fabric-1.20.1-rc1" = _npCwJpG7;
-        "fabric-1.20.1" = _3cQ06w06;
+        "fabric-1.20.1" = _ZpRdKW3L;
         "fabric-1.20.2" = _HhmmQdSY;
         "fabric-1.20.4" = _K9C1asMQ;
         "fabric-1.20.3" = _HhmmQdSY;
@@ -432,7 +444,8 @@ let
         "pkg-1.3.17+1.21" = _3eLUeIR0;
         "pkg-1.3.18+1.21" = _NkxfpmXQ;
         "pkg-1.3.19+1.21" = _LDn1okdN;
-        "default" = _LDn1okdN;
+        "pkg-1.3.12+1.20.1" = _ZpRdKW3L;
+        "default" = _ZpRdKW3L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unicopia";

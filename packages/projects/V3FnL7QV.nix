@@ -416,6 +416,21 @@ let
             "file" = "packcore-5.1.1+26.1.2.jar";
             "hash" = "sha512-p5Dnym1z5BFBEagBFsHx57AQDUF7ZncdV56y1JxlVWWBrSj0CNgx8DfbxAnDScELz74Z1g3F6oPtPKL14a4Blw==";
         };
+        _J8mlRDuI = {
+            "id" = "J8mlRDuI";
+            "file" = "packcore-5.1.2+26.1.2.jar";
+            "hash" = "sha512-GH7qzdwtN5R6kxQaeUBGHjyf9oXaHRc86xLO6fH1cCWpSmywP6dEdJqyGhdB3/OLpftXoH9afbCQkTpbNrzbLg==";
+        };
+        _QYBk3wBc = {
+            "id" = "QYBk3wBc";
+            "file" = "packcore-5.1.3+26.1.2.jar";
+            "hash" = "sha512-6Jk91THCEO3cqrXlp6H0cvidgFCtCvGd/eZryMZp+PbFQLcM4LUj8I6H+u37hprB/u5olx3DRI99ZWZiNIEjfg==";
+        };
+        _AylZ41N8 = {
+            "id" = "AylZ41N8";
+            "file" = "packcore-5.1.4+26.1.2.jar";
+            "hash" = "sha512-mQddHiHan4H6UrkDgU2xb4OmxhmtpexBua960fpqwtw677/yWdTAV5I79tEyzvWO1FmEkgt0TE5oeg5lvBoT0g==";
+        };
     in {
         "PGU2eaR4" = _PGU2eaR4;
         "HAXs7a5h" = _HAXs7a5h;
@@ -500,6 +515,9 @@ let
         "etxRTwIq" = _etxRTwIq;
         "JrRXHEt8" = _JrRXHEt8;
         "eRcHU9Jz" = _eRcHU9Jz;
+        "J8mlRDuI" = _J8mlRDuI;
+        "QYBk3wBc" = _QYBk3wBc;
+        "AylZ41N8" = _AylZ41N8;
         "forge-1.8.9" = _VU0kbboy;
         "fabric-1.21.5" = _wJFgXaxs;
         "fabric-1.21.6" = _Jc0hSoWF;
@@ -508,9 +526,9 @@ let
         "fabric-1.21.9" = _JrgnSU0d;
         "fabric-1.21.10" = _nkaOWMHv;
         "fabric-1.21.11" = _xzQT3PD3;
-        "fabric-26.1" = _eRcHU9Jz;
-        "fabric-26.1.1" = _eRcHU9Jz;
-        "fabric-26.1.2" = _eRcHU9Jz;
+        "fabric-26.1" = _AylZ41N8;
+        "fabric-26.1.1" = _AylZ41N8;
+        "fabric-26.1.2" = _AylZ41N8;
         "pkg-1.0.0-beta7" = _PGU2eaR4;
         "pkg-1.0.0" = _HAXs7a5h;
         "pkg-2.0.0-1.21.5-fabric" = _UVNjXDX3;
@@ -581,7 +599,10 @@ let
         "pkg-v5.0.12-mc26.1.2" = _etxRTwIq;
         "pkg-v5.1.0-mc26.1.2" = _JrRXHEt8;
         "pkg-v5.1.1-mc26.1.2" = _eRcHU9Jz;
-        "default" = _eRcHU9Jz;
+        "pkg-v5.1.2-mc26.1.2" = _J8mlRDuI;
+        "pkg-v5.1.3-mc26.1.2" = _QYBk3wBc;
+        "pkg-v5.1.4-mc26.1.2" = _AylZ41N8;
+        "default" = _AylZ41N8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "packcore";

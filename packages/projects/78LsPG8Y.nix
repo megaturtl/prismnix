@@ -146,6 +146,26 @@ let
             "file" = "genshincraft-3.0.0.jar";
             "hash" = "sha512-fLOD8bh3/P2mkyigMPRkS/ecfalXJkFjJr1/pLuhjcUncIISHo/WkKnjFYcJ87DLn0DupbxWmMxXKJA85ePKGw==";
         };
+        _YlNlOsLa = {
+            "id" = "YlNlOsLa";
+            "file" = "genshincraft-3.1.0.jar";
+            "hash" = "sha512-XOzDwOKlSozta6++FofsyM/KrIfWabYZWYpKYnwYhmCdEhzVME9mtwrgSR4dfPmWIy9PRSolpqDj50swXQaqfQ==";
+        };
+        _fCu4lvvh = {
+            "id" = "fCu4lvvh";
+            "file" = "genshincraft-3.1.1.jar";
+            "hash" = "sha512-XcPH5iv12OkohvA1SjMJOM40EybF0HMMYWOd580ZxbPM5JAaO1NqKqUvfHzijMKqWGFT4O8tOXVAu4MiT778cA==";
+        };
+        _ATt5sXQY = {
+            "id" = "ATt5sXQY";
+            "file" = "genshincraft-3.1.2.jar";
+            "hash" = "sha512-TkdroOwdFf03J1ipoNRpbeSsyOZDTuzs81M5u6WsaUqVEKEJ2fxyDis9kLMR3OaKCOZEXGfoenyVX0Oun2sXuw==";
+        };
+        _hlJMT72e = {
+            "id" = "hlJMT72e";
+            "file" = "genshincraft-3.1.3.jar";
+            "hash" = "sha512-6xpPHFKs4w78kRzwh54075z7Nvotz+vKUsf8IM5dcVidAcLmBuqTP6TUNXoXlHetysTEgEA58R7AL/41TTNiXQ==";
+        };
     in {
         "ngzsWMiu" = _ngzsWMiu;
         "kANosO4j" = _kANosO4j;
@@ -176,10 +196,14 @@ let
         "eAGgWVbN" = _eAGgWVbN;
         "xnWrg9ky" = _xnWrg9ky;
         "x2D12Dmz" = _x2D12Dmz;
+        "YlNlOsLa" = _YlNlOsLa;
+        "fCu4lvvh" = _fCu4lvvh;
+        "ATt5sXQY" = _ATt5sXQY;
+        "hlJMT72e" = _hlJMT72e;
         "fabric-1.20.1" = _nPY7663O;
         "fabric-1.21.1" = _xnWrg9ky;
         "forge-1.20.1" = _nPY7663O;
-        "neoforge-1.21.1" = _x2D12Dmz;
+        "neoforge-1.21.1" = _hlJMT72e;
         "pkg-1.0.0" = _ngzsWMiu;
         "pkg-1.0.1" = _kANosO4j;
         "pkg-1.1.0" = _6NrSDn0b;
@@ -209,7 +233,11 @@ let
         "pkg-2.10.0" = _eAGgWVbN;
         "pkg-2.11.0" = _xnWrg9ky;
         "pkg-3.0.0" = _x2D12Dmz;
-        "default" = _x2D12Dmz;
+        "pkg-3.1.0" = _YlNlOsLa;
+        "pkg-3.1.1" = _fCu4lvvh;
+        "pkg-3.1.2" = _ATt5sXQY;
+        "pkg-3.1.3" = _hlJMT72e;
+        "default" = _hlJMT72e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "genshincraft";

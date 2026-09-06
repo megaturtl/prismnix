@@ -376,6 +376,36 @@ let
             "file" = "Electrodynamics-1.19.2-1.0.12.jar";
             "hash" = "sha512-SwyNAofZiV9j/vcE/HIjOAV++BANSNPsS0KJ/viFX4JFnHy7f25Bt7idVNJhIU62Q7qrmUs0qMmeekjBaUMvfA==";
         };
+        _slCZTp4L = {
+            "id" = "slCZTp4L";
+            "file" = "electrodynamics-1.21.1-1.0.13.jar";
+            "hash" = "sha512-BhsjlVLyDf5lIJB3exmLmTJjBEnv8tA4DRaoHn1NbuDdVMrWRKWndI3MXdY/ilCEoOveNEWjoXCCggj/KatB1g==";
+        };
+        _z2N2U8Ah = {
+            "id" = "z2N2U8Ah";
+            "file" = "Electrodynamics-1.20.1-1.0.13.jar";
+            "hash" = "sha512-aNJIolyA7yEjMelnlSx10z7fyq7CbPsG7rjvmVOwVPCeiw6kRKU9VciPCGcsOOxcOkvCbHHw10QO+j1z1TSGXg==";
+        };
+        _1zmadq6k = {
+            "id" = "1zmadq6k";
+            "file" = "Electrodynamics-1.19.2-1.0.13.jar";
+            "hash" = "sha512-YzF5hVd/N9LVO84ocV8FVBoXsX455zN20/UjxIVQh9VBegvRNEf/hQGQZX9oAjyMABWeTTyrG/Bfgtg7MOw9Sg==";
+        };
+        _SuiMXKAg = {
+            "id" = "SuiMXKAg";
+            "file" = "Electrodynamics-1.19.2-1.0.14.jar";
+            "hash" = "sha512-X5QfeQZATCHnxbbwi+ZibLVERfiuNJO1ONOec10xRwEztYzZFG4mOd7smqAVzGyLwH+UZfJopg+GRmh1Obh8uQ==";
+        };
+        _QyRCuKfr = {
+            "id" = "QyRCuKfr";
+            "file" = "Electrodynamics-1.20.1-1.0.14.jar";
+            "hash" = "sha512-ecc/t77Cb4JwgopGskHd+IxM9TU685ohlpJ980/Kt9freO0ryIQDuOzCXzcTElCB6XEcawrc0Opfc+/wfyY/sg==";
+        };
+        _81LJg5IE = {
+            "id" = "81LJg5IE";
+            "file" = "electrodynamics-1.21.1-1.0.14.jar";
+            "hash" = "sha512-10OOJE6DshqD/tiN6e2JgG+4+6/24o0muBlTswyN3DetskFZypQwxCJXn2b/G2Geybq7/+p3LoN2E1IxoRxBqA==";
+        };
     in {
         "VmXqBaON" = _VmXqBaON;
         "MHscCVOD" = _MHscCVOD;
@@ -452,15 +482,21 @@ let
         "BMeMBz7b" = _BMeMBz7b;
         "JbA75pXa" = _JbA75pXa;
         "ppjCr0jG" = _ppjCr0jG;
-        "forge-1.19.2" = _ppjCr0jG;
+        "slCZTp4L" = _slCZTp4L;
+        "z2N2U8Ah" = _z2N2U8Ah;
+        "1zmadq6k" = _1zmadq6k;
+        "SuiMXKAg" = _SuiMXKAg;
+        "QyRCuKfr" = _QyRCuKfr;
+        "81LJg5IE" = _81LJg5IE;
+        "forge-1.19.2" = _SuiMXKAg;
         "forge-1.18.2" = _1BJo79gu;
         "forge-1.18.1" = _CbrG4S3u;
         "forge-1.18" = _1QYRmHN9;
         "forge-1.17.1" = _7B1Fy29X;
         "forge-1.16.5" = _taHzln8j;
-        "forge-1.20.1" = _JbA75pXa;
-        "neoforge-1.20.1" = _JbA75pXa;
-        "neoforge-1.21.1" = _BMeMBz7b;
+        "forge-1.20.1" = _QyRCuKfr;
+        "neoforge-1.20.1" = _QyRCuKfr;
+        "neoforge-1.21.1" = _81LJg5IE;
         "pkg-1.19.2-0.8.0-5" = _VmXqBaON;
         "pkg-1.18.2-0.6.4-0" = _MHscCVOD;
         "pkg-1.18.1-0.6.2-4" = _CbrG4S3u;
@@ -536,7 +572,13 @@ let
         "pkg-1.21.1-1.0.12" = _BMeMBz7b;
         "pkg-1.20.1-1.0.12" = _JbA75pXa;
         "pkg-1.19.2-1.0.12" = _ppjCr0jG;
-        "default" = _ppjCr0jG;
+        "pkg-1.21.1-1.0.13" = _slCZTp4L;
+        "pkg-1.20.1-1.0.13" = _z2N2U8Ah;
+        "pkg-1.19.2-1.0.13" = _1zmadq6k;
+        "pkg-1.19.2-1.0.14" = _SuiMXKAg;
+        "pkg-1.20.1-1.0.14" = _QyRCuKfr;
+        "pkg-1.21.1-1.0.14" = _81LJg5IE;
+        "default" = _81LJg5IE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "electrodynamics";

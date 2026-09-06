@@ -361,6 +361,11 @@ let
             "file" = "ninjagofmwtlc.jar";
             "hash" = "sha512-KXpJBt2yGNUUDwUNcZjedKUY3W3g87baCxw2bhM4oUKUXVDgZSeQ/cZBgVWskAxtT2TjiAmDr8coSCCeARxD8w==";
         };
+        _cpoRQDro = {
+            "id" = "cpoRQDro";
+            "file" = "ninjago-el-unleashed.jar";
+            "hash" = "sha512-vNxmAP1fgCjamqjJx8VFNKV8rnTmV2taNC4Eemou73wkzZvYZI0z/ENKkJXiAepNzv+bRgEJyY2GGuKoZdOpMA==";
+        };
     in {
         "T1SioSO8" = _T1SioSO8;
         "1UaOjujs" = _1UaOjujs;
@@ -434,7 +439,8 @@ let
         "w2UVxu0N" = _w2UVxu0N;
         "tXYqo7Z1" = _tXYqo7Z1;
         "QtNvU9sK" = _QtNvU9sK;
-        "forge-1.20.1" = _QtNvU9sK;
+        "cpoRQDro" = _cpoRQDro;
+        "forge-1.20.1" = _cpoRQDro;
         "pkg-1" = _T1SioSO8;
         "pkg-2" = _1UaOjujs;
         "pkg-3" = _nkExCMaQ;
@@ -489,7 +495,8 @@ let
         "pkg-1.13.0" = _w2UVxu0N;
         "pkg-1.14.0" = _tXYqo7Z1;
         "pkg-1.14.1" = _QtNvU9sK;
-        "default" = _QtNvU9sK;
+        "pkg-1.15.0" = _cpoRQDro;
+        "default" = _cpoRQDro;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ninjago-palladium-addonpack";

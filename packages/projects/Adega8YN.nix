@@ -501,6 +501,26 @@ let
             "file" = "dummmmmmy-fabric-1.21-2.1.0.jar";
             "hash" = "sha512-fyB45Jyx7XLb1XAOLipJeWwkSmnqaXqO5juSDcnX3+0+6h4MpRnkKzWPU4IF9jStOMuwzS2jHRzyJqPZk52FTA==";
         };
+        _sno57gO4 = {
+            "id" = "sno57gO4";
+            "file" = "dummmmmmy-26.1.2-3.0.0-fabric.jar";
+            "hash" = "sha512-Gwphes2hlJnEmCb8QKkmv1W1AQrkUUAczLz77O8MXJTDYG++SC5II+Hk9MnrqvaFTnEvs2ODC5hqEsZowJDktg==";
+        };
+        _7ugh68ok = {
+            "id" = "7ugh68ok";
+            "file" = "dummmmmmy-26.1.2-3.0.0-neoforge.jar";
+            "hash" = "sha512-Dg4pxDuA2I7WqQWWHCzRvN02EtA0TRwEQ96rAORGx5P7skDw2E8oWodxc5tHyq60zOdNPnCcQ2htihQlPTUKEQ==";
+        };
+        _1FiCsx0K = {
+            "id" = "1FiCsx0K";
+            "file" = "dummmmmmy-26.1.2-3.0.1-fabric.jar";
+            "hash" = "sha512-lw6tOTcdl0uKAvs742Ai2eIEhC25otpzoIxefF7F0bGCqVMBcwxHC5d5PnsssUnGDpU8h1AYfhLNa33yaZzBpQ==";
+        };
+        _nmUUS6Aa = {
+            "id" = "nmUUS6Aa";
+            "file" = "dummmmmmy-26.1.2-3.0.1-neoforge.jar";
+            "hash" = "sha512-oUu8xwY1k6Kn63GVCXlaZo7eYrvD3d2FgD87pjvqoGEhgzu8uakSK0nGlIe35+mfhVHj5RLCpSjfbZsCDeSGSw==";
+        };
     in {
         "qo2XMMhP" = _qo2XMMhP;
         "XYByr7D5" = _XYByr7D5;
@@ -602,6 +622,10 @@ let
         "6VosBxNt" = _6VosBxNt;
         "PQzuABde" = _PQzuABde;
         "yEtrTeQg" = _yEtrTeQg;
+        "sno57gO4" = _sno57gO4;
+        "7ugh68ok" = _7ugh68ok;
+        "1FiCsx0K" = _1FiCsx0K;
+        "nmUUS6Aa" = _nmUUS6Aa;
         "forge-1.19.2" = _gEbry6GM;
         "forge-1.18" = _XYByr7D5;
         "forge-1.18.1" = _XYByr7D5;
@@ -619,8 +643,10 @@ let
         "fabric-1.20.1" = _6VosBxNt;
         "fabric-1.21" = _tE6suZ1B;
         "fabric-1.21.1" = _yEtrTeQg;
+        "fabric-26.1.2" = _1FiCsx0K;
         "neoforge-1.21" = _l7knRSW7;
         "neoforge-1.21.1" = _PQzuABde;
+        "neoforge-26.1.2" = _nmUUS6Aa;
         "pkg-1.19-1.5.5" = _qo2XMMhP;
         "pkg-1.5.2" = _XYByr7D5;
         "pkg-1.19-1.5.3" = _La9N7Ttu;
@@ -689,7 +715,9 @@ let
         "pkg-1.20-2.0.12-forge" = _c1HMqDvI;
         "pkg-1.20-2.0.12-fabric" = _6VosBxNt;
         "pkg-1.21-2.1.0" = _yEtrTeQg;
-        "default" = _yEtrTeQg;
+        "pkg-26.1.2-3.0.0" = _7ugh68ok;
+        "pkg-26.1.2-3.0.1" = _nmUUS6Aa;
+        "default" = _nmUUS6Aa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mmmmmmmmmmmm";

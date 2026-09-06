@@ -1,0 +1,114 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _EVBj8cit = {
+            "id" = "EVBj8cit";
+            "file" = "Better Cvpvp With sky (1).zip";
+            "hash" = "sha512-DucEAxZGah+8PB3WSjO2D0J5fSOGOOHGjQcwGKYaiRbDTfg4vSdJv6e9buMIvVfs+9VrEe5IzskyDICuUOFiJQ==";
+        };
+        _mUsC2f3V = {
+            "id" = "mUsC2f3V";
+            "file" = "Better Cvpvp With sky (1).zip";
+            "hash" = "sha512-DucEAxZGah+8PB3WSjO2D0J5fSOGOOHGjQcwGKYaiRbDTfg4vSdJv6e9buMIvVfs+9VrEe5IzskyDICuUOFiJQ==";
+        };
+    in {
+        "EVBj8cit" = _EVBj8cit;
+        "mUsC2f3V" = _mUsC2f3V;
+        "minecraft-24w12a" = _mUsC2f3V;
+        "minecraft-24w13a" = _mUsC2f3V;
+        "minecraft-24w14potato" = _mUsC2f3V;
+        "minecraft-24w14a" = _mUsC2f3V;
+        "minecraft-1.20.5-pre1" = _mUsC2f3V;
+        "minecraft-1.20.5-pre2" = _mUsC2f3V;
+        "minecraft-1.20.5-pre3" = _mUsC2f3V;
+        "minecraft-1.20.5" = _mUsC2f3V;
+        "minecraft-1.20.6" = _mUsC2f3V;
+        "minecraft-24w18a" = _mUsC2f3V;
+        "minecraft-24w19a" = _mUsC2f3V;
+        "minecraft-24w19b" = _mUsC2f3V;
+        "minecraft-24w20a" = _mUsC2f3V;
+        "minecraft-1.21" = _mUsC2f3V;
+        "minecraft-1.21.1" = _mUsC2f3V;
+        "minecraft-24w33a" = _mUsC2f3V;
+        "minecraft-24w34a" = _mUsC2f3V;
+        "minecraft-24w35a" = _mUsC2f3V;
+        "minecraft-24w36a" = _mUsC2f3V;
+        "minecraft-24w37a" = _mUsC2f3V;
+        "minecraft-24w38a" = _mUsC2f3V;
+        "minecraft-24w39a" = _mUsC2f3V;
+        "minecraft-24w40a" = _mUsC2f3V;
+        "minecraft-1.21.2-pre1" = _mUsC2f3V;
+        "minecraft-1.21.2-pre2" = _mUsC2f3V;
+        "minecraft-1.21.2" = _mUsC2f3V;
+        "minecraft-1.21.3" = _mUsC2f3V;
+        "minecraft-24w44a" = _mUsC2f3V;
+        "minecraft-24w45a" = _mUsC2f3V;
+        "minecraft-24w46a" = _mUsC2f3V;
+        "minecraft-1.21.4" = _mUsC2f3V;
+        "minecraft-1.21.5" = _mUsC2f3V;
+        "minecraft-1.21.6" = _mUsC2f3V;
+        "minecraft-1.21.7" = _mUsC2f3V;
+        "minecraft-1.21.8" = _mUsC2f3V;
+        "minecraft-1.21.9" = _mUsC2f3V;
+        "minecraft-1.21.10" = _mUsC2f3V;
+        "minecraft-1.21.11" = _mUsC2f3V;
+        "minecraft-1.12" = _mUsC2f3V;
+        "minecraft-1.12.1" = _mUsC2f3V;
+        "minecraft-1.12.2" = _mUsC2f3V;
+        "minecraft-1.13" = _mUsC2f3V;
+        "minecraft-1.13.1" = _mUsC2f3V;
+        "minecraft-1.13.2" = _mUsC2f3V;
+        "minecraft-1.14" = _mUsC2f3V;
+        "minecraft-1.14.1" = _mUsC2f3V;
+        "minecraft-1.14.2" = _mUsC2f3V;
+        "minecraft-1.14.3" = _mUsC2f3V;
+        "minecraft-1.14.4" = _mUsC2f3V;
+        "minecraft-1.15" = _mUsC2f3V;
+        "minecraft-1.15.1" = _mUsC2f3V;
+        "minecraft-1.15.2" = _mUsC2f3V;
+        "minecraft-1.16" = _mUsC2f3V;
+        "minecraft-1.16.1" = _mUsC2f3V;
+        "minecraft-1.16.2" = _mUsC2f3V;
+        "minecraft-1.16.3" = _mUsC2f3V;
+        "minecraft-1.16.4" = _mUsC2f3V;
+        "minecraft-1.16.5" = _mUsC2f3V;
+        "minecraft-1.17" = _mUsC2f3V;
+        "minecraft-1.17.1" = _mUsC2f3V;
+        "minecraft-1.18" = _mUsC2f3V;
+        "minecraft-1.18.1" = _mUsC2f3V;
+        "minecraft-1.18.2" = _mUsC2f3V;
+        "minecraft-1.19" = _mUsC2f3V;
+        "minecraft-1.19.1" = _mUsC2f3V;
+        "minecraft-1.19.2" = _mUsC2f3V;
+        "minecraft-1.19.3" = _mUsC2f3V;
+        "minecraft-1.19.4" = _mUsC2f3V;
+        "minecraft-1.20" = _mUsC2f3V;
+        "minecraft-1.20.1" = _mUsC2f3V;
+        "minecraft-1.20.2" = _mUsC2f3V;
+        "minecraft-1.20.3" = _mUsC2f3V;
+        "minecraft-1.20.4" = _mUsC2f3V;
+        "minecraft-26.1" = _mUsC2f3V;
+        "minecraft-26.1.1" = _mUsC2f3V;
+        "minecraft-26.1.2" = _mUsC2f3V;
+        "minecraft-26.2" = _mUsC2f3V;
+        "pkg-1.21.11" = _EVBj8cit;
+        "pkg-1.26.1" = _mUsC2f3V;
+        "default" = _mUsC2f3V;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "better-cvpvp-pack";
+        id = "ToO3qdkx";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

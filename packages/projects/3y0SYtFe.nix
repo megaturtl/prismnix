@@ -21,17 +21,24 @@ let
             "file" = "RotP_Recording-0.1.2.jar";
             "hash" = "sha512-PnfSTeGtnn6XX9DzX7YVS7KfKAcSRcn8NS7kRbrqVuryvx38h/U+Sb3begAfBETeUHWSvX0zzR1dYYN2hDKmMw==";
         };
+        _kyPdjwD7 = {
+            "id" = "kyPdjwD7";
+            "file" = "RotP_Recording-0.1.2.1.jar";
+            "hash" = "sha512-63aEGjSddfG/IHHaecwiEzrgNVbe4LTXEiLbwhfvn0X8hcXRuup9TiLe1nJTLonNuTY0Imalti1R2ZN12zbvKA==";
+        };
     in {
         "NVyrBYam" = _NVyrBYam;
         "G6oQr93A" = _G6oQr93A;
         "5tGEqHhS" = _5tGEqHhS;
         "4SjrG9Xr" = _4SjrG9Xr;
-        "forge-1.16.5" = _4SjrG9Xr;
+        "kyPdjwD7" = _kyPdjwD7;
+        "forge-1.16.5" = _kyPdjwD7;
         "pkg-0.1" = _NVyrBYam;
         "pkg-0.1.1" = _G6oQr93A;
         "pkg-0.1.11" = _5tGEqHhS;
         "pkg-0.1.2" = _4SjrG9Xr;
-        "default" = _4SjrG9Xr;
+        "pkg-0.1.2.1" = _kyPdjwD7;
+        "default" = _kyPdjwD7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ripples-of-the-past-recording";

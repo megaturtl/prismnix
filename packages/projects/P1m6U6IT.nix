@@ -171,6 +171,21 @@ let
             "file" = "anthropophagy-fabric-26.2-r2.jar";
             "hash" = "sha512-qCl+sc/TQSg5lnI36FgunTcagJHmi4dAQLIFeC7uyRex2SDr/owU7+mb6jN0lrKmgsY1hzrHpAGKIok+OMaVCQ==";
         };
+        _e8ZbKeee = {
+            "id" = "e8ZbKeee";
+            "file" = "anthropophagy-fabric-26.2-r3.jar";
+            "hash" = "sha512-OzNSxNaeodtGfEkpR0TrT6MUUsieUpCDpfrx/ZPP+JgaeexXCr1KrpHFN+eu3ATVuhzz9C4eg1wkGJzYB3uMew==";
+        };
+        _gDLSSu4I = {
+            "id" = "gDLSSu4I";
+            "file" = "anthropophagy-fabric-26.1-r8.jar";
+            "hash" = "sha512-ShYiEd40Y1nKOw9k/Q6dHMQUflr1CJMdrXnAhCCk6UoHkHv9uGuXD6qbccURSMwSCd7bKUHL0KGByR5All/bFA==";
+        };
+        _38W0zkil = {
+            "id" = "38W0zkil";
+            "file" = "anthropophagy-neoforge-26.1-r8.jar";
+            "hash" = "sha512-YoHOV3/6QK+Fb4NIHKm7uzzb335It+hUkOvdz/L4fqQxluWY0uokdkcq7Rk+cVsOwNhn9MdwBQ6SMegSdRgrpQ==";
+        };
     in {
         "lrmKH3W6" = _lrmKH3W6;
         "OpHcMMRe" = _OpHcMMRe;
@@ -206,6 +221,9 @@ let
         "vh7gH5iK" = _vh7gH5iK;
         "lIpn6rqL" = _lIpn6rqL;
         "3stViYLR" = _3stViYLR;
+        "e8ZbKeee" = _e8ZbKeee;
+        "gDLSSu4I" = _gDLSSu4I;
+        "38W0zkil" = _38W0zkil;
         "fabric-1.16.5" = _lrmKH3W6;
         "fabric-1.17" = _OpHcMMRe;
         "fabric-1.17.1" = _OpHcMMRe;
@@ -229,10 +247,10 @@ let
         "fabric-1.21.9" = _3qAN5ZxU;
         "fabric-1.21.10" = _BRHsWPWw;
         "fabric-1.21.11" = _i34iUOGF;
-        "fabric-26.1" = _vh7gH5iK;
-        "fabric-26.1.1" = _vh7gH5iK;
-        "fabric-26.1.2" = _vh7gH5iK;
-        "fabric-26.2" = _3stViYLR;
+        "fabric-26.1" = _gDLSSu4I;
+        "fabric-26.1.1" = _gDLSSu4I;
+        "fabric-26.1.2" = _gDLSSu4I;
+        "fabric-26.2" = _e8ZbKeee;
         "quilt-1.16.5" = _lrmKH3W6;
         "quilt-1.17" = _OpHcMMRe;
         "quilt-1.17.1" = _OpHcMMRe;
@@ -260,9 +278,9 @@ let
         "quilt-26.1.1" = _WV3UYyGk;
         "quilt-26.1.2" = _WV3UYyGk;
         "quilt-26.2" = _gTF4PBRE;
-        "neoforge-26.1" = _lIpn6rqL;
-        "neoforge-26.1.1" = _lIpn6rqL;
-        "neoforge-26.1.2" = _lIpn6rqL;
+        "neoforge-26.1" = _38W0zkil;
+        "neoforge-26.1.1" = _38W0zkil;
+        "neoforge-26.1.2" = _38W0zkil;
         "pkg-1.16.5-5" = _lrmKH3W6;
         "pkg-1.17-4" = _OpHcMMRe;
         "pkg-1.18-5" = _9dfvIKR9;
@@ -296,7 +314,9 @@ let
         "pkg-26.2-r1" = _gTF4PBRE;
         "pkg-26.1-r7" = _lIpn6rqL;
         "pkg-26.2-r2" = _3stViYLR;
-        "default" = _3stViYLR;
+        "pkg-26.2-r3" = _e8ZbKeee;
+        "pkg-26.1-r8" = _38W0zkil;
+        "default" = _38W0zkil;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "anthropophagy";

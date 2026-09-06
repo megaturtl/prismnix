@@ -81,6 +81,11 @@ let
             "file" = "beaconrangeextender-1.5.1-21-dev.jar";
             "hash" = "sha512-pEcXZ5TAXoGcF+7FKKapwsW4y8FVozPy8P9wTTSNkdIxhEik+FmOO7WgmXs5CvZ7lTAH/5XvvrPNCFQq8csz+Q==";
         };
+        _RvQeDYp1 = {
+            "id" = "RvQeDYp1";
+            "file" = "beaconrangeextender-1.5.2-21-dev.jar";
+            "hash" = "sha512-1jB4lqmE5xHeVKBdqHmgUd0kCJIM75er+3IuhOOeRQNuW+917MIeg0290XI8cXJMWmGwv/H2aUbhOcRaFHGqjA==";
+        };
     in {
         "Q1AZS3Vp" = _Q1AZS3Vp;
         "WLGC1TKx" = _WLGC1TKx;
@@ -98,25 +103,26 @@ let
         "IfNl924T" = _IfNl924T;
         "aj4o4ouM" = _aj4o4ouM;
         "b4PNRdXi" = _b4PNRdXi;
+        "RvQeDYp1" = _RvQeDYp1;
         "fabric-1.20.5" = _UGraq6gv;
         "fabric-1.20.6" = _UGraq6gv;
-        "fabric-1.21" = _b4PNRdXi;
-        "fabric-1.21.1" = _b4PNRdXi;
-        "fabric-1.21.2" = _b4PNRdXi;
-        "fabric-1.21.3" = _b4PNRdXi;
-        "fabric-1.21.4" = _b4PNRdXi;
+        "fabric-1.21" = _RvQeDYp1;
+        "fabric-1.21.1" = _RvQeDYp1;
+        "fabric-1.21.2" = _RvQeDYp1;
+        "fabric-1.21.3" = _RvQeDYp1;
+        "fabric-1.21.4" = _RvQeDYp1;
         "fabric-1.20" = _5oeYQIVl;
         "fabric-1.20.1" = _5oeYQIVl;
         "fabric-1.20.2" = _5oeYQIVl;
         "fabric-1.20.3" = _5oeYQIVl;
         "fabric-1.20.4" = _5oeYQIVl;
-        "fabric-1.21.5" = _b4PNRdXi;
-        "fabric-1.21.6" = _b4PNRdXi;
-        "fabric-1.21.7" = _b4PNRdXi;
-        "fabric-1.21.8" = _b4PNRdXi;
-        "fabric-1.21.9" = _b4PNRdXi;
-        "fabric-1.21.10" = _b4PNRdXi;
-        "fabric-1.21.11" = _b4PNRdXi;
+        "fabric-1.21.5" = _RvQeDYp1;
+        "fabric-1.21.6" = _RvQeDYp1;
+        "fabric-1.21.7" = _RvQeDYp1;
+        "fabric-1.21.8" = _RvQeDYp1;
+        "fabric-1.21.9" = _RvQeDYp1;
+        "fabric-1.21.10" = _RvQeDYp1;
+        "fabric-1.21.11" = _RvQeDYp1;
         "fabric-26.1" = _aj4o4ouM;
         "fabric-26.1.1" = _aj4o4ouM;
         "fabric-26.1.2" = _aj4o4ouM;
@@ -137,7 +143,8 @@ let
         "pkg-1.5.0-26" = _IfNl924T;
         "pkg-1.5.1-26" = _aj4o4ouM;
         "pkg-1.5.1-21" = _b4PNRdXi;
-        "default" = _b4PNRdXi;
+        "pkg-1.5.2-21" = _RvQeDYp1;
+        "default" = _RvQeDYp1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "beacon-range-extender";

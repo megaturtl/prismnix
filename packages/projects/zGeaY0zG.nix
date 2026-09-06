@@ -11,13 +11,21 @@ let
             "file" = "1.20.1_Vanilla_Realism_V4.3_64x.zip";
             "hash" = "sha512-EYVK9OcJNJXeldM9t7mwlQvt8l/1zgjECYm8xQ/Zqfup/zqw86ZXbrU/fMh3DmTAwWOjiOgP8I2O3uK56J3ZWg==";
         };
+        _3taEP4Q9 = {
+            "id" = "3taEP4Q9";
+            "file" = "VanillaRealism_U24_32x.zip";
+            "hash" = "sha512-ctgPS6xTQFjZHQJvBWgVRzXjWvrv7mPVz8KXm58hhUD9dSt1nayW43uA82+YL8wU9MSJ6fhGx8pHNqlywAIPSA==";
+        };
     in {
         "UCm3D5b1" = _UCm3D5b1;
         "FMisyvxa" = _FMisyvxa;
-        "minecraft-1.20.1" = _FMisyvxa;
+        "3taEP4Q9" = _3taEP4Q9;
+        "minecraft-1.20.1" = _3taEP4Q9;
+        "minecraft-1.20" = _3taEP4Q9;
         "pkg-U21" = _UCm3D5b1;
         "pkg-U22" = _FMisyvxa;
-        "default" = _FMisyvxa;
+        "pkg-U24_32x" = _3taEP4Q9;
+        "default" = _3taEP4Q9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-realism-";

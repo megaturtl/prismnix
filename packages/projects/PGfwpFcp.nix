@@ -31,6 +31,11 @@ let
             "file" = "ImageMapRenderer-2.0.2.jar";
             "hash" = "sha512-g1E3QxA1qtzzAr3IaQ2EOpkrO65uHjP36NboQc1YrXUV+0gIAJn4K0NB07B42uEmhd1Fu6vfzumP0nBxHlJzkQ==";
         };
+        _mNNqKCPe = {
+            "id" = "mNNqKCPe";
+            "file" = "ImageMapRenderer-2.1.0.jar";
+            "hash" = "sha512-D1XWr2doBNqluFCq3BBxuL0Pw/F2VeWN98wut6fR6fRNrzv6ju1Fo8QwkaZ0sK9Ct3hz3IcLFuni0VF4S2NqbA==";
+        };
     in {
         "Fx81eqlY" = _Fx81eqlY;
         "Gjyk48Jn" = _Gjyk48Jn;
@@ -38,6 +43,7 @@ let
         "emXrVHua" = _emXrVHua;
         "m5SeVW9J" = _m5SeVW9J;
         "yypYSYVL" = _yypYSYVL;
+        "mNNqKCPe" = _mNNqKCPe;
         "paper-1.19" = _emXrVHua;
         "paper-1.19.1" = _emXrVHua;
         "paper-1.19.2" = _emXrVHua;
@@ -50,6 +56,18 @@ let
         "paper-1.20.4" = _yypYSYVL;
         "paper-1.20.5" = _yypYSYVL;
         "paper-1.20.6" = _yypYSYVL;
+        "paper-1.21" = _mNNqKCPe;
+        "paper-1.21.1" = _mNNqKCPe;
+        "paper-1.21.2" = _mNNqKCPe;
+        "paper-1.21.3" = _mNNqKCPe;
+        "paper-1.21.4" = _mNNqKCPe;
+        "paper-1.21.5" = _mNNqKCPe;
+        "paper-1.21.6" = _mNNqKCPe;
+        "paper-1.21.7" = _mNNqKCPe;
+        "paper-1.21.8" = _mNNqKCPe;
+        "paper-1.21.9" = _mNNqKCPe;
+        "paper-1.21.10" = _mNNqKCPe;
+        "paper-1.21.11" = _mNNqKCPe;
         "spigot-1.19" = _emXrVHua;
         "spigot-1.19.1" = _emXrVHua;
         "spigot-1.19.2" = _emXrVHua;
@@ -62,13 +80,26 @@ let
         "spigot-1.20.4" = _yypYSYVL;
         "spigot-1.20.5" = _yypYSYVL;
         "spigot-1.20.6" = _yypYSYVL;
+        "spigot-1.21" = _mNNqKCPe;
+        "spigot-1.21.1" = _mNNqKCPe;
+        "spigot-1.21.2" = _mNNqKCPe;
+        "spigot-1.21.3" = _mNNqKCPe;
+        "spigot-1.21.4" = _mNNqKCPe;
+        "spigot-1.21.5" = _mNNqKCPe;
+        "spigot-1.21.6" = _mNNqKCPe;
+        "spigot-1.21.7" = _mNNqKCPe;
+        "spigot-1.21.8" = _mNNqKCPe;
+        "spigot-1.21.9" = _mNNqKCPe;
+        "spigot-1.21.10" = _mNNqKCPe;
+        "spigot-1.21.11" = _mNNqKCPe;
         "pkg-4.6" = _Fx81eqlY;
         "pkg-4.7" = _Gjyk48Jn;
         "pkg-4.8" = _tAfvoEr1;
         "pkg-4.9" = _emXrVHua;
         "pkg-2.0.0" = _m5SeVW9J;
         "pkg-2.0.2" = _yypYSYVL;
-        "default" = _yypYSYVL;
+        "pkg-2.1.0" = _mNNqKCPe;
+        "default" = _mNNqKCPe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "imagemaprenderer";

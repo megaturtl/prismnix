@@ -15,11 +15,6 @@ let
         "gtge1tlM" = _gtge1tlM;
         "LXUnFyFP" = _LXUnFyFP;
         "fabric-1.20.1" = _LXUnFyFP;
-        "fabric-1.20.2" = _LXUnFyFP;
-        "fabric-1.20.3" = _LXUnFyFP;
-        "fabric-1.20.4" = _LXUnFyFP;
-        "fabric-1.20.5" = _LXUnFyFP;
-        "fabric-1.20.6" = _LXUnFyFP;
         "pkg-1.0.0" = _gtge1tlM;
         "pkg-1.1.0" = _LXUnFyFP;
         "default" = _LXUnFyFP;

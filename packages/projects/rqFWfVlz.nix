@@ -31,6 +31,11 @@ let
             "file" = "Apotheosis-1.21.1-8.6.1.jar";
             "hash" = "sha512-sH5oze6VKarF4jLitKaWqgHk4liV6jJ3wu2ZHik0JlfppZTjCLbh5dWDTyf9Uxt1XMRHZzgBLzCW/M0GhjQUvA==";
         };
+        _wB4eASdJ = {
+            "id" = "wB4eASdJ";
+            "file" = "Apotheosis-1.21.1-8.7.0.jar";
+            "hash" = "sha512-CoQtg0oRQ9Jyt0uiFHuSlEHIwtW0BSXP48zKYhsDfn7UrHWW/uc/C6wTEQCaG7IDVBArK1KryJAKaKwkZk2Wdg==";
+        };
     in {
         "WLVWuFrn" = _WLVWuFrn;
         "Vp2TR6ib" = _Vp2TR6ib;
@@ -38,8 +43,9 @@ let
         "H7tse5Fl" = _H7tse5Fl;
         "WWZT1bEI" = _WWZT1bEI;
         "sLyTVplu" = _sLyTVplu;
+        "wB4eASdJ" = _wB4eASdJ;
         "neoforge-26.1.2" = _WWZT1bEI;
-        "neoforge-1.21.1" = _sLyTVplu;
+        "neoforge-1.21.1" = _wB4eASdJ;
         "forge-1.20.1" = _tT3CLYvK;
         "pkg-26.1.2-9.0.2" = _WLVWuFrn;
         "pkg-1.21.1-8.5.4" = _Vp2TR6ib;
@@ -47,7 +53,8 @@ let
         "pkg-1.21.1-8.6.0" = _H7tse5Fl;
         "pkg-26.1.2-9.0.3" = _WWZT1bEI;
         "pkg-1.21.1-8.6.1" = _sLyTVplu;
-        "default" = _sLyTVplu;
+        "pkg-1.21.1-8.7.0" = _wB4eASdJ;
+        "default" = _wB4eASdJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "apotheosis";

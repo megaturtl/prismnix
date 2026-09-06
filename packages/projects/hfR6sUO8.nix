@@ -1,25 +1,10 @@
 {lib, callPackage, ...}:
 let
     versions = (let
-        _oTL6Pz9i = {
-            "id" = "oTL6Pz9i";
-            "file" = "emerald_armor_forge_1.21.1_1.0.0.jar";
-            "hash" = "sha512-yKQOYVHacdFTui+0zSvejgbj0+jHOn2RChnxwxSWK3X+BUDuHERFfJC5/2l5W+at75MDPXMv0vzaE7AixB5Ifg==";
-        };
         _NfseAXae = {
             "id" = "NfseAXae";
             "file" = "emerald_armor-1.0.0-neoforge-1.21.1.jar";
             "hash" = "sha512-ZZ0rKwe76XizSiO98jJJFVsoKxlfrodJ5VDJoPDv0KwMbdigzoP7MLEXQbkScNq6xu9XX3A3qsBeLSkhH6rONA==";
-        };
-        _4DqT3tGj = {
-            "id" = "4DqT3tGj";
-            "file" = "emerald_armor-2.0.0-forge-1.20.1.jar";
-            "hash" = "sha512-kwqGfq2SL0EcpcvAaKQbIAyNtRsrPD2X9bsUz1JyB04JJbbmQnqgg0z9XeaCG8TZ2TPYGsMWfqHJI0orIiFKFA==";
-        };
-        _19560u3y = {
-            "id" = "19560u3y";
-            "file" = "emerald_armor-2.0.0-forge-1.19.2.jar";
-            "hash" = "sha512-6jbGG2JZYB0TDAYq1TZNSSk0F7Bn+fQgBfzxH4ujY56qszYFvYpWD7w5mgBm0qJA2M3izZ8Gvkn5BsF+fffNUg==";
         };
         _bTcQnUoM = {
             "id" = "bTcQnUoM";
@@ -36,26 +21,29 @@ let
             "file" = "emerald_armor-1.0.0-fabric-1.21.8.jar";
             "hash" = "sha512-zRJVAWO6mz386XeJyMWsOkSaYgxUVRoZdj26IF4NyNqtf9YG5EWpWDVKRGv4zEcWcBAJhuH4UFkENcd7/MPgFA==";
         };
+        _tlge3tgK = {
+            "id" = "tlge3tgK";
+            "file" = "emerald_armor-1.0.0-fabric-26.1.2.jar";
+            "hash" = "sha512-ke1fi6pWh/VYWB69ELYx59zWl4G/tN63F3lI+4ABuOFwQ3Ct62hITlHCScbiLbBSvXvN+jOC6GESiT1dI57pnw==";
+        };
+        _iFdpwdKn = {
+            "id" = "iFdpwdKn";
+            "file" = "emerald_armor_mod-forge-1.20.1-3.1.0.jar";
+            "hash" = "sha512-DH2IgLoNYc8nxig2wfyj6DAnYytYDJICOFMP1m6R1SoI2reAlDHZS/vokpNP8V2HuDoZ4qhHQBDaYaDMKTzvtQ==";
+        };
+        _DTjYzSpD = {
+            "id" = "DTjYzSpD";
+            "file" = "emerald_armor_mod-fabric-1.20.1-3.1.0.jar";
+            "hash" = "sha512-AaBBj2qwS069ft0azRa//T2VsX62Gqx2PgWLdV5qD/yOFZuYFCrksi4JgnqtHu2i+fRbGCP0hbNEDfSdTjVV0w==";
+        };
     in {
-        "oTL6Pz9i" = _oTL6Pz9i;
         "NfseAXae" = _NfseAXae;
-        "4DqT3tGj" = _4DqT3tGj;
-        "19560u3y" = _19560u3y;
         "bTcQnUoM" = _bTcQnUoM;
         "PQxhMTMe" = _PQxhMTMe;
         "fQgBZjOC" = _fQgBZjOC;
-        "forge-1.20" = _4DqT3tGj;
-        "forge-1.20.1" = _4DqT3tGj;
-        "forge-1.20.2" = _4DqT3tGj;
-        "forge-1.20.3" = _4DqT3tGj;
-        "forge-1.20.4" = _4DqT3tGj;
-        "forge-1.20.5" = _4DqT3tGj;
-        "forge-1.20.6" = _4DqT3tGj;
-        "forge-1.19" = _19560u3y;
-        "forge-1.19.1" = _19560u3y;
-        "forge-1.19.2" = _19560u3y;
-        "forge-1.19.3" = _19560u3y;
-        "forge-1.19.4" = _19560u3y;
+        "tlge3tgK" = _tlge3tgK;
+        "iFdpwdKn" = _iFdpwdKn;
+        "DTjYzSpD" = _DTjYzSpD;
         "neoforge-1.21" = _NfseAXae;
         "neoforge-1.21.1" = _NfseAXae;
         "neoforge-1.21.2" = _NfseAXae;
@@ -67,10 +55,19 @@ let
         "fabric-1.21.9" = _fQgBZjOC;
         "fabric-1.21.10" = _fQgBZjOC;
         "fabric-1.21.11" = _fQgBZjOC;
+        "fabric-26.1.2" = _tlge3tgK;
+        "fabric-1.20.1" = _DTjYzSpD;
+        "fabric-1.20.2" = _DTjYzSpD;
+        "fabric-1.20.3" = _DTjYzSpD;
+        "fabric-1.20.4" = _DTjYzSpD;
+        "forge-1.20.1" = _iFdpwdKn;
+        "forge-1.20.2" = _iFdpwdKn;
+        "forge-1.20.3" = _iFdpwdKn;
+        "forge-1.20.4" = _iFdpwdKn;
         "pkg-1.0.0" = _NfseAXae;
-        "pkg-2.0.0" = _PQxhMTMe;
-        "pkg-2.0.1" = _fQgBZjOC;
-        "default" = _fQgBZjOC;
+        "pkg-2.0.0" = _tlge3tgK;
+        "pkg-3.1.0" = _DTjYzSpD;
+        "default" = _DTjYzSpD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "emerald-armor";
@@ -78,12 +75,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "MPL-2.0" {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "Mozilla Public License 2.0";
-                shortName = "MPL-2.0";
+                fullName = "MIT License";
+                shortName = "MIT";
                 url = null;
             };
         };

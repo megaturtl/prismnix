@@ -26,12 +26,18 @@ let
             "file" = "MickeyJoesFlowersV5.zip";
             "hash" = "sha512-vedi0mjs7/zS+9R8r/+mhpucZTcaQ93w9tBeC0mUusugwn7RLmTFtGh+Tpc4YPihPj7JQrZ7Qyzj9LkPWsGGcg==";
         };
+        _RShYK8Dz = {
+            "id" = "RShYK8Dz";
+            "file" = "MickeyJoesFlowers.zip";
+            "hash" = "sha512-QrBWD1nDLwdaNLqU7qYWcoUqeoQ7vve/UcxxJEBANaFlMsUn+/YH0JhzfzIuVfUoinMbK1fYEBahw1CYRQpBSA==";
+        };
     in {
         "c0GeRO2A" = _c0GeRO2A;
         "ySoNjcET" = _ySoNjcET;
         "d6r3I0gt" = _d6r3I0gt;
         "Ke0zCD74" = _Ke0zCD74;
         "YQ6AbYW7" = _YQ6AbYW7;
+        "RShYK8Dz" = _RShYK8Dz;
         "minecraft-1.16" = _c0GeRO2A;
         "minecraft-1.16.1" = _c0GeRO2A;
         "minecraft-1.16.2" = _c0GeRO2A;
@@ -56,17 +62,17 @@ let
         "minecraft-1.20.5" = _c0GeRO2A;
         "minecraft-1.20.6" = _c0GeRO2A;
         "minecraft-1.21.4" = _ySoNjcET;
-        "minecraft-1.21.5" = _Ke0zCD74;
-        "minecraft-1.21.6" = _Ke0zCD74;
-        "minecraft-1.21.7" = _Ke0zCD74;
-        "minecraft-1.21.8" = _Ke0zCD74;
-        "minecraft-1.21.9" = _Ke0zCD74;
-        "minecraft-1.21.10" = _Ke0zCD74;
-        "minecraft-1.21.11" = _YQ6AbYW7;
-        "minecraft-26.1" = _YQ6AbYW7;
-        "minecraft-26.1.1" = _YQ6AbYW7;
-        "minecraft-26.1.2" = _YQ6AbYW7;
-        "minecraft-26.2" = _YQ6AbYW7;
+        "minecraft-1.21.5" = _RShYK8Dz;
+        "minecraft-1.21.6" = _RShYK8Dz;
+        "minecraft-1.21.7" = _RShYK8Dz;
+        "minecraft-1.21.8" = _RShYK8Dz;
+        "minecraft-1.21.9" = _RShYK8Dz;
+        "minecraft-1.21.10" = _RShYK8Dz;
+        "minecraft-1.21.11" = _RShYK8Dz;
+        "minecraft-26.1" = _RShYK8Dz;
+        "minecraft-26.1.1" = _RShYK8Dz;
+        "minecraft-26.1.2" = _RShYK8Dz;
+        "minecraft-26.2" = _RShYK8Dz;
         "minecraft-26.3-snapshot-1" = _Ke0zCD74;
         "minecraft-26.3-snapshot-2" = _Ke0zCD74;
         "pkg-1" = _c0GeRO2A;
@@ -74,7 +80,8 @@ let
         "pkg-3" = _d6r3I0gt;
         "pkg-4" = _Ke0zCD74;
         "pkg-5" = _YQ6AbYW7;
-        "default" = _YQ6AbYW7;
+        "pkg-6" = _RShYK8Dz;
+        "default" = _RShYK8Dz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mickey-joes-flowers";

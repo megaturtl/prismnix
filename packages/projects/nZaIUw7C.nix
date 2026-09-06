@@ -26,19 +26,26 @@ let
             "file" = "hazentouvelib-1.0.8.jar";
             "hash" = "sha512-c7vHhHMTKX7GFFG6fEfiaDkauIFqfDg3ziByv02ce6JXPA0dN07zviiw67on98fE4IL6SOxXr6N0WipYpMAZmQ==";
         };
+        _zSqYdmPI = {
+            "id" = "zSqYdmPI";
+            "file" = "hazentouvelib-1.0.9.jar";
+            "hash" = "sha512-t/3+E3ug/Und6gCGGFPl5j9CdCuJ2FXL486HtbYsvrlE3twHC1uoWf2tbLLOEPN8Ezc7LmYKgVCxQRliPdWYFg==";
+        };
     in {
         "KOPBOvLJ" = _KOPBOvLJ;
         "wybIfWiM" = _wybIfWiM;
         "5AvmMUuk" = _5AvmMUuk;
         "TN2jtJDF" = _TN2jtJDF;
         "YX7dC2gE" = _YX7dC2gE;
-        "neoforge-1.21.1" = _YX7dC2gE;
+        "zSqYdmPI" = _zSqYdmPI;
+        "neoforge-1.21.1" = _zSqYdmPI;
         "pkg-1.0.1" = _KOPBOvLJ;
         "pkg-1.0.4" = _wybIfWiM;
         "pkg-1.0.5" = _5AvmMUuk;
         "pkg-1.0.6" = _TN2jtJDF;
         "pkg-1.0.8" = _YX7dC2gE;
-        "default" = _YX7dC2gE;
+        "pkg-1.0.9" = _zSqYdmPI;
+        "default" = _zSqYdmPI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hazentouvelib";

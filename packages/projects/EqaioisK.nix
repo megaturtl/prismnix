@@ -66,6 +66,11 @@ let
             "file" = "StackMob-5.10.7.jar";
             "hash" = "sha512-0jGHlTXyRtU9+JcVoK5vNmdKvUJXto9+Sv3TQxwg5zdxCCWiItBEHKwMnWZCrnsEfBe1kPGhtFfhFy4ut13nDw==";
         };
+        _Ai7JCJsO = {
+            "id" = "Ai7JCJsO";
+            "file" = "StackMob-5.10.8.jar";
+            "hash" = "sha512-k1/QZzhQyJ5fYbFDEol2qUHe5TSI5nPpiZ1dYlYZjgYl21B4ak99ll9IYVsFyIagrIATprmD8GohlZccA5IgDw==";
+        };
     in {
         "UM2s9jG3" = _UM2s9jG3;
         "L3BBDpf1" = _L3BBDpf1;
@@ -80,6 +85,7 @@ let
         "cKnGyI2j" = _cKnGyI2j;
         "zexRGBz8" = _zexRGBz8;
         "FdFCebrU" = _FdFCebrU;
+        "Ai7JCJsO" = _Ai7JCJsO;
         "bukkit-1.16.5" = _xdLt1WZl;
         "bukkit-1.17" = _xdLt1WZl;
         "bukkit-1.17.1" = _xdLt1WZl;
@@ -138,11 +144,11 @@ let
         "paper-1.21.8" = _FdFCebrU;
         "paper-1.21.9" = _FdFCebrU;
         "paper-1.21.10" = _FdFCebrU;
-        "paper-1.21.11" = _FdFCebrU;
-        "paper-26.1.2" = _FdFCebrU;
-        "paper-26.1" = _FdFCebrU;
-        "paper-26.1.1" = _FdFCebrU;
-        "paper-26.2" = _zexRGBz8;
+        "paper-1.21.11" = _Ai7JCJsO;
+        "paper-26.1.2" = _Ai7JCJsO;
+        "paper-26.1" = _Ai7JCJsO;
+        "paper-26.1.1" = _Ai7JCJsO;
+        "paper-26.2" = _Ai7JCJsO;
         "spigot-1.16.5" = _UM2s9jG3;
         "spigot-1.17" = _UM2s9jG3;
         "spigot-1.17.1" = _UM2s9jG3;
@@ -166,7 +172,7 @@ let
         "folia-1.20.4" = _RZv1bXA7;
         "folia-1.20.6" = _RZv1bXA7;
         "folia-1.20.5" = _RZv1bXA7;
-        "folia-1.21" = _FdFCebrU;
+        "folia-1.21" = _RZv1bXA7;
         "folia-1.16" = _xdLt1WZl;
         "folia-1.16.1" = _xdLt1WZl;
         "folia-1.16.2" = _xdLt1WZl;
@@ -186,20 +192,10 @@ let
         "folia-1.20.1" = _xdLt1WZl;
         "folia-1.20.2" = _xdLt1WZl;
         "folia-1.20.3" = _xdLt1WZl;
-        "folia-1.21.1" = _FdFCebrU;
-        "folia-1.21.2" = _FdFCebrU;
-        "folia-1.21.3" = _FdFCebrU;
-        "folia-1.21.4" = _FdFCebrU;
-        "folia-1.21.10" = _FdFCebrU;
-        "folia-1.21.11" = _FdFCebrU;
-        "folia-26.1" = _FdFCebrU;
-        "folia-26.1.1" = _FdFCebrU;
-        "folia-26.1.2" = _FdFCebrU;
-        "folia-1.21.5" = _FdFCebrU;
-        "folia-1.21.6" = _FdFCebrU;
-        "folia-1.21.7" = _FdFCebrU;
-        "folia-1.21.8" = _FdFCebrU;
-        "folia-1.21.9" = _FdFCebrU;
+        "folia-1.21.1" = _RZv1bXA7;
+        "folia-1.21.2" = _RZv1bXA7;
+        "folia-1.21.3" = _RZv1bXA7;
+        "folia-1.21.4" = _RZv1bXA7;
         "purpur-1.19.4" = _xdLt1WZl;
         "purpur-1.20.4" = _RZv1bXA7;
         "purpur-1.20.6" = _RZv1bXA7;
@@ -240,7 +236,8 @@ let
         "pkg-5.10.5" = _krZasbkP;
         "pkg-5.10.6" = _cKnGyI2j;
         "pkg-5.10.7" = _FdFCebrU;
-        "default" = _FdFCebrU;
+        "pkg-5.10.8" = _Ai7JCJsO;
+        "default" = _Ai7JCJsO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stackmob";

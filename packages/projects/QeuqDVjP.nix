@@ -181,7 +181,7 @@ let
                 redistributable = false;
                 fullName = "Apache License 2.0";
                 shortName = "Apache-2.0";
-                url = "https://github.com/DevKnochen/ServerLens/blob/main/LICENSE";
+                url = "https://github.com/normiklabs/ServerLens/blob/main/LICENSE";
             };
         };
     };

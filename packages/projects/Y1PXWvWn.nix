@@ -356,6 +356,11 @@ let
             "file" = "trafficcraft-neoforge-1.21.1-beta-1.2.0+3.jar";
             "hash" = "sha512-MrDZSDiHhyxE5eHIZngEet0B+hCoI7cwG8cbuec0NNWwHCAxTXWNUHt1eUJWFj6cNxiO8SEdTgTDVbGPidscMg==";
         };
+        _ddJimXLT = {
+            "id" = "ddJimXLT";
+            "file" = "trafficcraft-neoforge-1.21.1-beta-1.2.0+4.jar";
+            "hash" = "sha512-+lSHmMNiOCC531V+56WJKZd8VpvcJbVMMDFrrH66NaOcwQNKaB4dP28ifsbogekiPIkRGinN6Xt4kBY3IJZ7gg==";
+        };
     in {
         "irhdHo4m" = _irhdHo4m;
         "hAr6KAEj" = _hAr6KAEj;
@@ -428,6 +433,7 @@ let
         "gP9yGq7h" = _gP9yGq7h;
         "tCCRXk2K" = _tCCRXk2K;
         "VUGaHPJM" = _VUGaHPJM;
+        "ddJimXLT" = _ddJimXLT;
         "forge-1.18.2" = _SM6sDQjm;
         "forge-1.19.2" = _oPsWzykE;
         "forge-1.19.3" = _fPXxr4D8;
@@ -436,7 +442,7 @@ let
         "forge-1.20.4" = _gOFlKArz;
         "neoforge-1.20.1" = _gP9yGq7h;
         "neoforge-1.20.4" = _TRnxtzcV;
-        "neoforge-1.21.1" = _VUGaHPJM;
+        "neoforge-1.21.1" = _ddJimXLT;
         "fabric-1.18.2" = _UljlF96q;
         "fabric-1.19.2" = _1efKTlWu;
         "fabric-1.20.1" = _bNoW0s8f;
@@ -486,7 +492,8 @@ let
         "pkg-1.20.1-1.2.0-beta.2" = _zVxBbZKe;
         "pkg-1.20.1-1.2.0-beta.3" = _gP9yGq7h;
         "pkg-1.21.1-beta-1.2.0+3" = _VUGaHPJM;
-        "default" = _VUGaHPJM;
+        "pkg-1.21.1-beta-1.2.0+4" = _ddJimXLT;
+        "default" = _ddJimXLT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trafficcraft";

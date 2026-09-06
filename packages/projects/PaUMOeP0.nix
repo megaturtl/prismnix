@@ -231,6 +231,11 @@ let
             "file" = "imfast-FABRIC-26.2-1.0.3.jar";
             "hash" = "sha512-ZkYG60Hb8TOF7IJUXDCnsRi9JjOTMlwppqbu9uCjkFVcGU4MFd9kwY1/R3NExCPlGOZ7SB1ckXH9XH+zZ5U0Gw==";
         };
+        _FWI4gJ6y = {
+            "id" = "FWI4gJ6y";
+            "file" = "imfast-NEOFORGE-1.21.1-1.0.3.jar";
+            "hash" = "sha512-D4fPdAiUFlxQ80LnBv9lJgc4AWkNGsGuUdz1AITAKTNxrXRAv6lWPJBRFNo+4bGcH6IqNSJPuWXoPriHQI7NEg==";
+        };
     in {
         "OsW85RBY" = _OsW85RBY;
         "gajqZItD" = _gajqZItD;
@@ -278,6 +283,7 @@ let
         "L872tt4n" = _L872tt4n;
         "Hu3Yov2Y" = _Hu3Yov2Y;
         "nD5sET2x" = _nD5sET2x;
+        "FWI4gJ6y" = _FWI4gJ6y;
         "forge-1.18.2" = _OsW85RBY;
         "forge-1.19.2" = _gajqZItD;
         "forge-1.19.3" = _gajqZItD;
@@ -310,7 +316,7 @@ let
         "fabric-26.1.2" = _L872tt4n;
         "fabric-26.2" = _nD5sET2x;
         "neoforge-1.21.3" = _HcjhZjEs;
-        "neoforge-1.21.1" = _qdQ7mi0j;
+        "neoforge-1.21.1" = _FWI4gJ6y;
         "neoforge-1.21.2" = _fada9z2f;
         "neoforge-1.21.4" = _5357vPEr;
         "neoforge-1.21.5" = _5fABeJ2j;
@@ -325,9 +331,9 @@ let
         "neoforge-26.1.2" = _hEVfzyua;
         "neoforge-26.2" = _Hu3Yov2Y;
         "pkg-1.0.2" = _nc0ZuqYZ;
-        "pkg-1.0.3" = _nD5sET2x;
+        "pkg-1.0.3" = _FWI4gJ6y;
         "pkg-1.0.4" = _Sh2hVnIn;
-        "default" = _nD5sET2x;
+        "default" = _FWI4gJ6y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "im-fast";

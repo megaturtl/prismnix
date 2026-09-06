@@ -56,6 +56,16 @@ let
             "file" = "illusionable-1.1.1-1.20.1.jar";
             "hash" = "sha512-cgFlyeE8bP7VrIfNJs0hSfT3QlplC4HYcZrqGVC2kpp6zatEThSIMvEmwAB8SjN9H3zvJFPVQJxO389GuAKUUw==";
         };
+        _J3CH2OMQ = {
+            "id" = "J3CH2OMQ";
+            "file" = "illusionable-1.2.0-1.20.1.jar";
+            "hash" = "sha512-hQvAzDzGCEyOEU3bnCDCSSJrDPilrq800SmBE4SIqonwt2V5GQHUt6oKqBxTWdl+Tm2gAUbgakD6BGwfwsN51g==";
+        };
+        _TlqVB8i4 = {
+            "id" = "TlqVB8i4";
+            "file" = "illusionable-1.2.1-1.20.1.jar";
+            "hash" = "sha512-7cCW5dLzIkkl4fmXKbBnnfbrGt/PHenAXzoqaFu+WpGaT9F1JkpsgrxPnpG0aSiAQTjUlcozIqCfMUKacKjP1A==";
+        };
     in {
         "zRDHvlDy" = _zRDHvlDy;
         "7k0RN5n4" = _7k0RN5n4;
@@ -68,8 +78,10 @@ let
         "HLnsGaxw" = _HLnsGaxw;
         "7rl48rzj" = _7rl48rzj;
         "lBUTQjWr" = _lBUTQjWr;
+        "J3CH2OMQ" = _J3CH2OMQ;
+        "TlqVB8i4" = _TlqVB8i4;
         "fabric-1.21.1" = _4n9BzePa;
-        "fabric-1.20.1" = _lBUTQjWr;
+        "fabric-1.20.1" = _TlqVB8i4;
         "pkg-0.0.1-1.21.1" = _zRDHvlDy;
         "pkg-0.0.2-1.21.1" = _7k0RN5n4;
         "pkg-0.0.3-1.21.1" = _duuHXV9S;
@@ -81,7 +93,9 @@ let
         "pkg-1.0.2-1.20.1" = _HLnsGaxw;
         "pkg-1.1.0-1.20.1" = _7rl48rzj;
         "pkg-1.1.1-1.20.1" = _lBUTQjWr;
-        "default" = _lBUTQjWr;
+        "pkg-1.2.0-1.20.1" = _J3CH2OMQ;
+        "pkg-1.2.1-1.20.1" = _TlqVB8i4;
+        "default" = _TlqVB8i4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "illusionable";

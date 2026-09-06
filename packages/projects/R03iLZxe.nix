@@ -271,6 +271,26 @@ let
             "file" = "survivalfly-1.3.3_fabric-mc26.2.jar";
             "hash" = "sha512-YbGqPPn291MCFBRF1f1MBOP4KCqDJkrKhL0M7CJuKfDIP8YmAoqCRNKDQ/XXfqC4UZoNBEQqfe+MqAt10dsgog==";
         };
+        _zLR5tNif = {
+            "id" = "zLR5tNif";
+            "file" = "survivalfly-1.3.4_neoforge-mc26.2.jar";
+            "hash" = "sha512-47UyNfjTBEAgpStQWqr5efug2TE4XNFuQkG6HPFnBpksN5hLH0F1IePN07cp7b39yIk8MEpfGy7+TpAW3qn+hg==";
+        };
+        _wMofTD0N = {
+            "id" = "wMofTD0N";
+            "file" = "survivalfly-1.3.4_fabric-mc26.2.jar";
+            "hash" = "sha512-NVFywvjlVdi85bxq4aLiLIeYicRwMQQrfwRcyxrgl/GTjp/Zg33E3n15/DESxMD5UNma/6ONDL9eXCggvWYjXA==";
+        };
+        _KNfcG0ZP = {
+            "id" = "KNfcG0ZP";
+            "file" = "survivalfly-1.3.5_neoforge-mc26.2.jar";
+            "hash" = "sha512-RAEjLmGBTApr28OfNfyTQ95SqOqrXNyEUvTWl0Yz9T/TisWFNVBAZNeYqiWyiL1IiX5BfGw2VZS8xbM08z6rig==";
+        };
+        _Jl7O1USl = {
+            "id" = "Jl7O1USl";
+            "file" = "survivalfly-1.3.5_fabric-mc26.2.jar";
+            "hash" = "sha512-BT4n7YfqU+TcprsHBx/IQuYzpfl6Kxk36rac6YguJkg6xfd98b2lcIG6DtF5tdwaj987e3qfU5TV+Uu1gSKv7w==";
+        };
     in {
         "7cRtJYpM" = _7cRtJYpM;
         "QljDvzo3" = _QljDvzo3;
@@ -326,6 +346,10 @@ let
         "vb6Lbs4h" = _vb6Lbs4h;
         "G0lpD2Ve" = _G0lpD2Ve;
         "qcOqNo3z" = _qcOqNo3z;
+        "zLR5tNif" = _zLR5tNif;
+        "wMofTD0N" = _wMofTD0N;
+        "KNfcG0ZP" = _KNfcG0ZP;
+        "Jl7O1USl" = _Jl7O1USl;
         "fabric-1.21.5" = _tVhwgYtn;
         "fabric-1.21" = _MHtvyhZQ;
         "fabric-1.21.1" = _czoOe7R7;
@@ -343,7 +367,7 @@ let
         "fabric-26.1" = _vb6Lbs4h;
         "fabric-26.1.1" = _vb6Lbs4h;
         "fabric-26.1.2" = _vb6Lbs4h;
-        "fabric-26.2" = _qcOqNo3z;
+        "fabric-26.2" = _Jl7O1USl;
         "forge-1.20.1" = _g1d5fx0i;
         "forge-1.21.1" = _B4AA3a4W;
         "forge-1.21.3" = _olvCb2u6;
@@ -361,7 +385,7 @@ let
         "neoforge-26.1.1" = _jZoSpL2E;
         "neoforge-26.1.2" = _jZoSpL2E;
         "neoforge-1.21.1" = _jXkcIHtb;
-        "neoforge-26.2" = _G0lpD2Ve;
+        "neoforge-26.2" = _KNfcG0ZP;
         "pkg-1.0.0" = _QljDvzo3;
         "pkg-1.1.0" = _NxKq98Hp;
         "pkg-1.1.1" = _MHtvyhZQ;
@@ -377,7 +401,9 @@ let
         "pkg-1.3.1" = _iLXUgnqr;
         "pkg-1.3.2" = _vb6Lbs4h;
         "pkg-1.3.3" = _qcOqNo3z;
-        "default" = _qcOqNo3z;
+        "pkg-1.3.4" = _wMofTD0N;
+        "pkg-1.3.5" = _Jl7O1USl;
+        "default" = _Jl7O1USl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "survival-fly";

@@ -121,6 +121,26 @@ let
             "file" = "taczaddon-1.21.1-1.1.8-alpha.jar";
             "hash" = "sha512-j0lV2PXlufoJ7v1DLzNnYB30OGYLuXKKkx9iUKu7HhL6oka2Ftfdzc2SmQdhXPdX/lqYPYDOygwas3EMdjVcNA==";
         };
+        _ZxXEd1F3 = {
+            "id" = "ZxXEd1F3";
+            "file" = "taczaddon-1.1.8.1-hotfix5-forge-1.20.1.jar";
+            "hash" = "sha512-5NM1IrORr+EH1K+ib1cU4a/qnCN4jBXUVK3Bj7t72sXyaUZoDIgNKMMUpNdrrzWC82o7diMicr5u5Fe/0/4+tg==";
+        };
+        _BvgfP7Wq = {
+            "id" = "BvgfP7Wq";
+            "file" = "taczaddon-1.1.8-fix-neoforge-1.21.1.jar";
+            "hash" = "sha512-b18XllKi0O+2MHYomjOljXnr6r/1knOlcbeCn4wml2vpBabRilf4XgOGyaqk2L/Wmlb1MK9MXTYhiIV26KgybA==";
+        };
+        _KRI9qZLg = {
+            "id" = "KRI9qZLg";
+            "file" = "taczaddon-1.1.8.1-hotfix6-forge-1.20.1.jar";
+            "hash" = "sha512-9Wl4J5M7ye+3TZEp5OOTHkpp+VuNYaEEuiFmxb8lsfwrQnRVVPUxkDZ4vWy0A1EVp4k9IreeusvaWhanVuCk8w==";
+        };
+        _mo66IMw3 = {
+            "id" = "mo66IMw3";
+            "file" = "taczaddon-1.1.8-fix2-1.21.1-neoforge.jar";
+            "hash" = "sha512-4m5/KlJtp2kbOtWKClkOReKBH2MIXgGa73JQg3QffLTUVBZh+sNXYqpdicKsq/Dl7bPl3WnsWQjToaVmKT6rNQ==";
+        };
     in {
         "3NIbKy25" = _3NIbKy25;
         "pM1iMYkx" = _pM1iMYkx;
@@ -146,14 +166,18 @@ let
         "O89IblXX" = _O89IblXX;
         "H8M3ar88" = _H8M3ar88;
         "IjMp5fyp" = _IjMp5fyp;
-        "forge-1.20.1" = _H8M3ar88;
+        "ZxXEd1F3" = _ZxXEd1F3;
+        "BvgfP7Wq" = _BvgfP7Wq;
+        "KRI9qZLg" = _KRI9qZLg;
+        "mo66IMw3" = _mo66IMw3;
+        "forge-1.20.1" = _KRI9qZLg;
         "forge-1.20" = _iHOljyTA;
         "forge-1.20.2" = _iHOljyTA;
         "forge-1.20.3" = _iHOljyTA;
         "forge-1.20.4" = _iHOljyTA;
         "forge-1.20.5" = _iHOljyTA;
         "forge-1.20.6" = _iHOljyTA;
-        "neoforge-1.21.1" = _IjMp5fyp;
+        "neoforge-1.21.1" = _mo66IMw3;
         "pkg-1.0.0" = _pM1iMYkx;
         "pkg-1.0.1" = _LMAN5lBr;
         "pkg-1.0.2" = _ADGf1qIb;
@@ -166,8 +190,9 @@ let
         "pkg-1.1.5" = _lH1TnoiB;
         "pkg-1.1.6" = _PVkSmR5V;
         "pkg-1.1.7" = _1qGGstzg;
-        "pkg-1.1.8" = _IjMp5fyp;
-        "default" = _IjMp5fyp;
+        "pkg-1.1.8" = _mo66IMw3;
+        "pkg-1.1.8.1" = _KRI9qZLg;
+        "default" = _mo66IMw3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "taczaddon";

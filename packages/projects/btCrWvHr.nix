@@ -331,6 +331,26 @@ let
             "file" = "enderscape-fabric-3.0.0+mc26.2.jar";
             "hash" = "sha512-qOW3HibSYmIDEMDElUGm8iYr336TZkVUCBb1u5xus9FZ/M25SgOdMOZpr4RBuQUYn7XJWXVEUC5R9ppAnAUaeQ==";
         };
+        _RnE3y3Hh = {
+            "id" = "RnE3y3Hh";
+            "file" = "enderscape-fabric-3.0.1+mc26.1.2.jar";
+            "hash" = "sha512-H+d1oaSp8arrZWknjmmBW4usbQMRaeM5fjEzAMGX15SofEoA3FuG14NGX125cJhOwWQeLH44BgDugIHmcr9qUg==";
+        };
+        _4DwOA1hE = {
+            "id" = "4DwOA1hE";
+            "file" = "enderscape-fabric-3.0.1+mc26.2.jar";
+            "hash" = "sha512-jIpxGiUEiM4+xiMGQCPZ0nmMaSDs0R0zyYhxCKz6mbbvfDoZ98ZiNQyPs4qXW4oswb5Mrc0v6C29M9SVyr1miw==";
+        };
+        _N7HhWOxJ = {
+            "id" = "N7HhWOxJ";
+            "file" = "enderscape-fabric-3.0.2+mc26.1.2.jar";
+            "hash" = "sha512-WrLSSBNefQDnQV5qXFeXogVpMd4mNkjRs+PeY/E+WUUjIgzTbJew6SXVE8VvrQRHWVTp3Y1pgrfhU8SP2WRDjg==";
+        };
+        _reWdPs2K = {
+            "id" = "reWdPs2K";
+            "file" = "enderscape-fabric-3.0.2+mc26.2.jar";
+            "hash" = "sha512-GuYb7CWGf7vhnTyLcy9C1oFmeRHeBODJQoBqgVJBhsBBl0nbYa9e2MFDKqohUzKWBpcD7gfloP6l8uhW71+ZHQ==";
+        };
     in {
         "fYwKzoeM" = _fYwKzoeM;
         "umNWD7Iq" = _umNWD7Iq;
@@ -398,6 +418,10 @@ let
         "3cYKvu3m" = _3cYKvu3m;
         "KK7kzZxi" = _KK7kzZxi;
         "tsjhxDOY" = _tsjhxDOY;
+        "RnE3y3Hh" = _RnE3y3Hh;
+        "4DwOA1hE" = _4DwOA1hE;
+        "N7HhWOxJ" = _N7HhWOxJ;
+        "reWdPs2K" = _reWdPs2K;
         "fabric-1.17" = _AAzKtpHL;
         "fabric-1.17.1" = _AAzKtpHL;
         "fabric-1.18.2" = _DtwVbgrW;
@@ -413,10 +437,10 @@ let
         "fabric-1.21.9" = _6ItoYnSD;
         "fabric-1.21.10" = _6ItoYnSD;
         "fabric-1.21.11" = _3cYKvu3m;
-        "fabric-26.1" = _KK7kzZxi;
-        "fabric-26.1.1" = _KK7kzZxi;
-        "fabric-26.1.2" = _KK7kzZxi;
-        "fabric-26.2" = _tsjhxDOY;
+        "fabric-26.1" = _N7HhWOxJ;
+        "fabric-26.1.1" = _N7HhWOxJ;
+        "fabric-26.1.2" = _N7HhWOxJ;
+        "fabric-26.2" = _reWdPs2K;
         "neoforge-1.21.1" = _K3Vz3uXn;
         "pkg-0.1.0" = _fYwKzoeM;
         "pkg-0.1.1" = _umNWD7Iq;
@@ -456,7 +480,9 @@ let
         "pkg-2.0.0" = _xpAgFybl;
         "pkg-2.1.0" = _3cYKvu3m;
         "pkg-3.0.0" = _tsjhxDOY;
-        "default" = _tsjhxDOY;
+        "pkg-3.0.1" = _4DwOA1hE;
+        "pkg-3.0.2" = _reWdPs2K;
+        "default" = _reWdPs2K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enderscape";
@@ -470,7 +496,7 @@ let
                 redistributable = false;
                 fullName = "LicenseRef-Enderscape-Mod-License";
                 shortName = "LicenseRef-Enderscape-Mod-License";
-                url = "https://github.com/Penumbra-MC/Enderscape/blob/1.21.11/LICENSE.md";
+                url = "https://github.com/Penumbra-MC/Enderscape/blob/26.2/LICENSE.md";
             };
         };
     };

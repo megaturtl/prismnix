@@ -256,6 +256,16 @@ let
             "file" = "BentoBox-3.22.0.jar";
             "hash" = "sha512-KF32Sm6CPRF6FE1gHmPv1Xp8xy7bm1wpAOe3ZPxpeCkEktVQpGdC6sjJT20NFp5LXhU6UlFZC8eb5dNleq7sLQ==";
         };
+        _rVnYLyEn = {
+            "id" = "rVnYLyEn";
+            "file" = "BentoBox-3.22.2.jar";
+            "hash" = "sha512-FGLyX+cmBvJeXw3u9BnyKIBbwso4K+eBtTbLqWm4v8RdpJjmhcRfewUMQzNkAEhZFdw5r3bJLavYveoPJ/s8zA==";
+        };
+        _mbwznE5M = {
+            "id" = "mbwznE5M";
+            "file" = "BentoBox-3.22.3.jar";
+            "hash" = "sha512-Xo6EKiQn0j7XgcBid8tqkiK9+Yc28QxwvltIzLatJJigiX2eDSYFiydH+8iKU4IVQkeSwMXg8Lz5iX2sGkH3WQ==";
+        };
     in {
         "sBjtHeEZ" = _sBjtHeEZ;
         "u4fpctqY" = _u4fpctqY;
@@ -308,6 +318,8 @@ let
         "33dfeSVL" = _33dfeSVL;
         "9pqWdLhM" = _9pqWdLhM;
         "VL8WL24W" = _VL8WL24W;
+        "rVnYLyEn" = _rVnYLyEn;
+        "mbwznE5M" = _mbwznE5M;
         "paper-1.19.4" = _sBjtHeEZ;
         "paper-1.20.1" = _iIOcED0N;
         "paper-1.20.4" = _iIOcED0N;
@@ -318,19 +330,19 @@ let
         "paper-1.21" = _5YlDeFN5;
         "paper-1.21.3" = _5YlDeFN5;
         "paper-1.21.4" = _IgndvKng;
-        "paper-1.21.5" = _VL8WL24W;
+        "paper-1.21.5" = _mbwznE5M;
         "paper-1.21.1" = _5YlDeFN5;
         "paper-1.21.2" = _5YlDeFN5;
-        "paper-1.21.6" = _VL8WL24W;
-        "paper-1.21.7" = _VL8WL24W;
-        "paper-1.21.8" = _VL8WL24W;
-        "paper-1.21.9" = _VL8WL24W;
-        "paper-1.21.10" = _VL8WL24W;
-        "paper-1.21.11" = _VL8WL24W;
-        "paper-26.1" = _VL8WL24W;
-        "paper-26.1.1" = _VL8WL24W;
-        "paper-26.1.2" = _VL8WL24W;
-        "paper-26.2" = _VL8WL24W;
+        "paper-1.21.6" = _mbwznE5M;
+        "paper-1.21.7" = _mbwznE5M;
+        "paper-1.21.8" = _mbwznE5M;
+        "paper-1.21.9" = _mbwznE5M;
+        "paper-1.21.10" = _mbwznE5M;
+        "paper-1.21.11" = _mbwznE5M;
+        "paper-26.1" = _mbwznE5M;
+        "paper-26.1.1" = _mbwznE5M;
+        "paper-26.1.2" = _mbwznE5M;
+        "paper-26.2" = _mbwznE5M;
         "spigot-1.19.4" = _sBjtHeEZ;
         "spigot-1.20.1" = _iIOcED0N;
         "spigot-1.20.4" = _iIOcED0N;
@@ -348,17 +360,17 @@ let
         "purpur-1.20.4" = _d5wfcMf0;
         "purpur-1.21.3" = _3n5G6RLf;
         "purpur-1.21.4" = _niw2mFPy;
-        "purpur-1.21.5" = _VL8WL24W;
-        "purpur-1.21.6" = _VL8WL24W;
-        "purpur-1.21.7" = _VL8WL24W;
-        "purpur-1.21.8" = _VL8WL24W;
-        "purpur-1.21.9" = _VL8WL24W;
-        "purpur-1.21.10" = _VL8WL24W;
-        "purpur-1.21.11" = _VL8WL24W;
-        "purpur-26.1" = _VL8WL24W;
-        "purpur-26.1.1" = _VL8WL24W;
-        "purpur-26.1.2" = _VL8WL24W;
-        "purpur-26.2" = _VL8WL24W;
+        "purpur-1.21.5" = _mbwznE5M;
+        "purpur-1.21.6" = _mbwznE5M;
+        "purpur-1.21.7" = _mbwznE5M;
+        "purpur-1.21.8" = _mbwznE5M;
+        "purpur-1.21.9" = _mbwznE5M;
+        "purpur-1.21.10" = _mbwznE5M;
+        "purpur-1.21.11" = _mbwznE5M;
+        "purpur-26.1" = _mbwznE5M;
+        "purpur-26.1.1" = _mbwznE5M;
+        "purpur-26.1.2" = _mbwznE5M;
+        "purpur-26.2" = _mbwznE5M;
         "pkg-1.23.1" = _sBjtHeEZ;
         "pkg-1.24.1" = _u4fpctqY;
         "pkg-2.0.0" = _bJiC6FIT;
@@ -410,7 +422,9 @@ let
         "pkg-3.20.0" = _33dfeSVL;
         "pkg-3.21.0" = _9pqWdLhM;
         "pkg-3.22.0" = _VL8WL24W;
-        "default" = _VL8WL24W;
+        "pkg-3.22.2" = _rVnYLyEn;
+        "pkg-3.22.3" = _mbwznE5M;
+        "default" = _mbwznE5M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bentobox";

@@ -196,6 +196,16 @@ let
             "file" = "beehave-1.21.11-fabric-0.1.0.jar";
             "hash" = "sha512-jSar0w2Tyt9Ay3ua246BgZFa6uTYpL1lP8B8aDHLERDwGcKAf9BvRYAnYWktuugEAZUDNmU2wKhe8YSrX42UQw==";
         };
+        _WT4a1vmu = {
+            "id" = "WT4a1vmu";
+            "file" = "beehave-26.2-fabric-0.1.0-0.1.0.jar";
+            "hash" = "sha512-4JoeJQ8tC1pccLUlKx1LNJFn2VWpHyIMQPJmslu09BxQptyXsGiL0bNvRuUPMyXAF1HkfEgM5Uai+4clPqgx/g==";
+        };
+        _KXsdpYs3 = {
+            "id" = "KXsdpYs3";
+            "file" = "beehave-26.2-neoforge-0.1.0-0.1.0.jar";
+            "hash" = "sha512-hS5siBR6mrREWI8M3PaOGBtZIlAS/wk1I/tzaDLtCiLbG0CGosflENLyGQ0ORftjbkFUGrwOWw5fkYjI2ki6vg==";
+        };
     in {
         "DoP7mzFb" = _DoP7mzFb;
         "GBFUYAcX" = _GBFUYAcX;
@@ -236,6 +246,8 @@ let
         "9J7YHyql" = _9J7YHyql;
         "cTDoxumf" = _cTDoxumf;
         "SyQicI6t" = _SyQicI6t;
+        "WT4a1vmu" = _WT4a1vmu;
+        "KXsdpYs3" = _KXsdpYs3;
         "fabric-1.20.1" = _8bFSlFPi;
         "fabric-1.16.5" = _n3jlxIGz;
         "fabric-1.17.1" = _B0nCpkz1;
@@ -283,13 +295,14 @@ let
         "neoforge-1.21.10" = _hbsWa2iS;
         "neoforge-26.1.2" = _F4uBk3m4;
         "neoforge-1.21.11" = _cTDoxumf;
+        "neoforge-26.2" = _KXsdpYs3;
         "pkg-0.0.1" = _gDHu4mAj;
         "pkg-1.20.X-1.0.0" = _K1JEaLab;
         "pkg-0.0.2" = _7jkjkFJO;
         "pkg-0.0.3" = _uJ67bh0N;
         "pkg-0.0.4" = _ica5qydg;
-        "pkg-0.1.0" = _SyQicI6t;
-        "default" = _SyQicI6t;
+        "pkg-0.1.0" = _KXsdpYs3;
+        "default" = _KXsdpYs3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "beehave";

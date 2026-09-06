@@ -31,6 +31,16 @@ let
             "file" = "Ashen_Armors_Only.zip";
             "hash" = "sha512-//zXRIrg82OmRmNuRdshjVb2AsbbNxxV7X88R08f94vppKKv0GdG9U7NbUhTre2Bs1aLQcxnkIWsNOl8wQuSdA==";
         };
+        _KPhgCo8Y = {
+            "id" = "KPhgCo8Y";
+            "file" = "Ashen_Armors_Only.zip";
+            "hash" = "sha512-R3zs3NYqPqNk9Sn8g1CrihJTB9CsMMfazdV00/8tjlaVg4+fVmvQn/bqzyKmcIbkNvC1/4VcL7iZbAOG3S8CXA==";
+        };
+        _Une4VLtS = {
+            "id" = "Une4VLtS";
+            "file" = "Ashen_Armors_and_Tools.zip";
+            "hash" = "sha512-TPmgSdvdVDAIzNdVYiWS8z4PqnFgvzXYlP69J1+HbkJoeI+hjDAOJdUTqJaZi77IM1WS35Uo4oZENM9DgGVHOw==";
+        };
     in {
         "CYao0NKT" = _CYao0NKT;
         "5OSBPxEY" = _5OSBPxEY;
@@ -38,21 +48,34 @@ let
         "s6C1eqiQ" = _s6C1eqiQ;
         "UIJNqTRn" = _UIJNqTRn;
         "trV9jacF" = _trV9jacF;
-        "minecraft-1.20" = _trV9jacF;
-        "minecraft-1.20.1" = _trV9jacF;
-        "minecraft-1.20.2" = _trV9jacF;
-        "minecraft-1.20.3" = _trV9jacF;
-        "minecraft-1.20.4" = _trV9jacF;
-        "minecraft-1.20.5" = _trV9jacF;
-        "minecraft-1.20.6" = _trV9jacF;
-        "minecraft-1.21" = _trV9jacF;
-        "minecraft-1.21.1" = _trV9jacF;
-        "minecraft-1.21.2" = _trV9jacF;
-        "minecraft-1.21.3" = _trV9jacF;
-        "minecraft-1.21.4" = _trV9jacF;
-        "minecraft-1.21.5" = _trV9jacF;
+        "KPhgCo8Y" = _KPhgCo8Y;
+        "Une4VLtS" = _Une4VLtS;
+        "minecraft-1.20" = _Une4VLtS;
+        "minecraft-1.20.1" = _Une4VLtS;
+        "minecraft-1.20.2" = _Une4VLtS;
+        "minecraft-1.20.3" = _Une4VLtS;
+        "minecraft-1.20.4" = _Une4VLtS;
+        "minecraft-1.20.5" = _Une4VLtS;
+        "minecraft-1.20.6" = _Une4VLtS;
+        "minecraft-1.21" = _Une4VLtS;
+        "minecraft-1.21.1" = _Une4VLtS;
+        "minecraft-1.21.2" = _Une4VLtS;
+        "minecraft-1.21.3" = _Une4VLtS;
+        "minecraft-1.21.4" = _Une4VLtS;
+        "minecraft-1.21.5" = _Une4VLtS;
+        "minecraft-1.21.6" = _Une4VLtS;
+        "minecraft-1.21.7" = _Une4VLtS;
+        "minecraft-1.21.8" = _Une4VLtS;
+        "minecraft-1.21.9" = _Une4VLtS;
+        "minecraft-1.21.10" = _Une4VLtS;
+        "minecraft-1.21.11" = _Une4VLtS;
+        "minecraft-26.1" = _Une4VLtS;
+        "minecraft-26.1.1" = _Une4VLtS;
+        "minecraft-26.1.2" = _Une4VLtS;
+        "minecraft-26.2" = _Une4VLtS;
         "pkg-1.0" = _trV9jacF;
-        "default" = _trV9jacF;
+        "pkg-1.1" = _Une4VLtS;
+        "default" = _Une4VLtS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ashen-armors-and-tools";

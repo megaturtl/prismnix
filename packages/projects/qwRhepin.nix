@@ -136,6 +136,31 @@ let
             "file" = "enchant_looting_on_shears_v1.12-neoforge.jar";
             "hash" = "sha512-Yrn64y4hfqKE51ETzLYXSdBA5xs3kM3NSXZvKYKx9XT7IKMvxUVrTGSlP40YQ2E0YUB8td/+krNUGlSo4Em1ig==";
         };
+        _UUFgT4L4 = {
+            "id" = "UUFgT4L4";
+            "file" = "enchant_looting_on_shears_v1.13.zip";
+            "hash" = "sha512-1zpf16opBsb50wNDnqiAoTtIt5xGgTRL5ConXNalAJm9CkZ1Age4+NZ7LOTgoKgDRxIkJmXQ9azLv0BGqt1dTg==";
+        };
+        _eScRDaed = {
+            "id" = "eScRDaed";
+            "file" = "enchant_looting_on_shears_v1.13-fabric.jar";
+            "hash" = "sha512-i3Y4eC4h8JFR3iMpREkrkHysHy2pCt9qM/O2gX3nNT1RHFZdSRKhMS/rce99wLxwDvS5K5dCH2goiDwHNvS6gA==";
+        };
+        _A2t9ALlc = {
+            "id" = "A2t9ALlc";
+            "file" = "enchant_looting_on_shears_v1.13-quilt.jar";
+            "hash" = "sha512-rDNVoc95DWZu2KVKuG8UOxLEsw/hPttBy4aty4YsHGq2c92/enSSw3nynboAZYACmoF400btw50ZqbVecX6uLg==";
+        };
+        _S9yibtsH = {
+            "id" = "S9yibtsH";
+            "file" = "enchant_looting_on_shears_v1.13-forge.jar";
+            "hash" = "sha512-dGX5MY/vV0l11B4BKPW5utGuvItVhTCiKS4Wu9TKs+QoMj/k9/znL3x+ClgClciGKYP7x0j/PP95s/TqQks+zg==";
+        };
+        _bLkUXsbY = {
+            "id" = "bLkUXsbY";
+            "file" = "enchant_looting_on_shears_v1.13-neoforge.jar";
+            "hash" = "sha512-xiOjSCQQAJSakGHdrkSSu9FhFqRp9uFeVqxHRJfnSmB5nmEsU9GhYiTrP9JQOtHL2qTDB0hbJnHJiUB13YQ37Q==";
+        };
     in {
         "F2h4ZUaM" = _F2h4ZUaM;
         "FYCqqZDu" = _FYCqqZDu;
@@ -164,6 +189,11 @@ let
         "ZFIsiH8K" = _ZFIsiH8K;
         "7IV7vM54" = _7IV7vM54;
         "mYyv6VFL" = _mYyv6VFL;
+        "UUFgT4L4" = _UUFgT4L4;
+        "eScRDaed" = _eScRDaed;
+        "A2t9ALlc" = _A2t9ALlc;
+        "S9yibtsH" = _S9yibtsH;
+        "bLkUXsbY" = _bLkUXsbY;
         "datapack-1.21.3" = _F2h4ZUaM;
         "datapack-1.21.4" = _4Paq2UJB;
         "datapack-1.21.5" = _4Paq2UJB;
@@ -174,7 +204,7 @@ let
         "datapack-1.21.10" = _4Paq2UJB;
         "datapack-1.21.11" = _4Paq2UJB;
         "datapack-26.1" = _4Paq2UJB;
-        "datapack-26.2" = _W3BklK4p;
+        "datapack-26.2" = _UUFgT4L4;
         "fabric-1.21.3" = _FYCqqZDu;
         "fabric-1.21.4" = _EuhArw1P;
         "fabric-1.21.5" = _EuhArw1P;
@@ -185,7 +215,7 @@ let
         "fabric-1.21.10" = _EuhArw1P;
         "fabric-1.21.11" = _EuhArw1P;
         "fabric-26.1" = _EuhArw1P;
-        "fabric-26.2" = _cqlN6Yuq;
+        "fabric-26.2" = _eScRDaed;
         "forge-1.21.3" = _FYCqqZDu;
         "forge-1.21.4" = _2aLFsfZp;
         "forge-1.21.5" = _2aLFsfZp;
@@ -196,7 +226,7 @@ let
         "forge-1.21.10" = _2aLFsfZp;
         "forge-1.21.11" = _2aLFsfZp;
         "forge-26.1" = _2aLFsfZp;
-        "forge-26.2" = _7IV7vM54;
+        "forge-26.2" = _S9yibtsH;
         "neoforge-1.21.3" = _FYCqqZDu;
         "neoforge-1.21.4" = _2aLFsfZp;
         "neoforge-1.21.5" = _2aLFsfZp;
@@ -207,7 +237,7 @@ let
         "neoforge-1.21.10" = _2aLFsfZp;
         "neoforge-1.21.11" = _2aLFsfZp;
         "neoforge-26.1" = _2aLFsfZp;
-        "neoforge-26.2" = _mYyv6VFL;
+        "neoforge-26.2" = _bLkUXsbY;
         "quilt-1.21.3" = _FYCqqZDu;
         "quilt-1.21.4" = _EuhArw1P;
         "quilt-1.21.5" = _EuhArw1P;
@@ -218,7 +248,7 @@ let
         "quilt-1.21.10" = _EuhArw1P;
         "quilt-1.21.11" = _EuhArw1P;
         "quilt-26.1" = _EuhArw1P;
-        "quilt-26.2" = _ZFIsiH8K;
+        "quilt-26.2" = _A2t9ALlc;
         "pkg-1.0" = _F2h4ZUaM;
         "pkg-1.0+mod" = _FYCqqZDu;
         "pkg-1.1" = _ypGoy7Y6;
@@ -246,7 +276,12 @@ let
         "pkg-1.12-quilt" = _ZFIsiH8K;
         "pkg-1.12-forge" = _7IV7vM54;
         "pkg-1.12-neoforge" = _mYyv6VFL;
-        "default" = _mYyv6VFL;
+        "pkg-1.13" = _UUFgT4L4;
+        "pkg-1.13-fabric" = _eScRDaed;
+        "pkg-1.13-quilt" = _A2t9ALlc;
+        "pkg-1.13-forge" = _S9yibtsH;
+        "pkg-1.13-neoforge" = _bLkUXsbY;
+        "default" = _bLkUXsbY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "purpurpacks-looting-shears";

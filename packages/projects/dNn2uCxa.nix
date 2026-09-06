@@ -36,6 +36,11 @@ let
             "file" = "OneEnoughFluid-1.1.1-hotfix.jar";
             "hash" = "sha512-Ih2k6atJjPROmk8Ga2pxKR5WNo/TnbYo2hD5P2LR5hHhmlk+iIsM+tzWFA6Hn96zhIL9kDc5nbslbs3wTicG8Q==";
         };
+        _fCexnqQy = {
+            "id" = "fCexnqQy";
+            "file" = "OneEnoughFluid-neoforge-26.1.2-1.0.0.jar";
+            "hash" = "sha512-wGQZnXxvKuA48434Jb8yI0YbBrkF4WRzaAg9xMJv+5aZXqrFhWYCGED53BFU8pvj88BOFolzUnobrfljH7s+rA==";
+        };
     in {
         "ZD6sUMu0" = _ZD6sUMu0;
         "3tPNtVX7" = _3tPNtVX7;
@@ -44,6 +49,7 @@ let
         "DlqCeJC6" = _DlqCeJC6;
         "IAh0yWMk" = _IAh0yWMk;
         "gHGHxVeF" = _gHGHxVeF;
+        "fCexnqQy" = _fCexnqQy;
         "forge-1.20.1" = _gHGHxVeF;
         "forge-1.20.2" = _3tPNtVX7;
         "forge-1.20.3" = _3tPNtVX7;
@@ -51,11 +57,13 @@ let
         "forge-1.20.5" = _3tPNtVX7;
         "forge-1.20.6" = _3tPNtVX7;
         "neoforge-1.21.1" = _DlqCeJC6;
+        "neoforge-26.1.2" = _fCexnqQy;
         "pkg-1.1.0" = _iS8kifui;
         "pkg-1.1.0-jech" = _3tPNtVX7;
         "pkg-1.1.1" = _IAh0yWMk;
         "pkg-1.1.1-hotfix" = _gHGHxVeF;
-        "default" = _gHGHxVeF;
+        "pkg-1.0.0" = _fCexnqQy;
+        "default" = _fCexnqQy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "one-enough-fluid";

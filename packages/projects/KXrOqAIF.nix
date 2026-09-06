@@ -126,6 +126,16 @@ let
             "file" = "SnapshotXBR-26.3-snapshot-4.zip";
             "hash" = "sha512-+SSAzydF2omfpXtKcPz17Rqe9yuqWaIhnz3pHb1V2v4nWg26TQfpg7jaWZCtntLvfWI0Spr1xT64s/h3/eO06g==";
         };
+        _am1qdypQ = {
+            "id" = "am1qdypQ";
+            "file" = "SnapshotXBR-26.3-snapshot-8.zip";
+            "hash" = "sha512-/OLteNgvzRu8rqhb9EhgLk7S4K7w3Yn4YCQSWfVpqLS957CrvkCAkHbfKNnNZBfTSJnL8jOvhDpKdz24MZAheg==";
+        };
+        _Fgs1wimW = {
+            "id" = "Fgs1wimW";
+            "file" = "SnapshotXBR-26.3-snapshot-10.zip";
+            "hash" = "sha512-a8Bcx1VuDmV+9HzIDWxBJVJOdJ9tTxbrzxMledRo6vQU/jAuiqHC7CPDYW7vat8E6TWEUbXUnPs2RDRqb4vRaQ==";
+        };
     in {
         "JPgLqBNh" = _JPgLqBNh;
         "sUwvQH3v" = _sUwvQH3v;
@@ -152,6 +162,8 @@ let
         "sICTpeNf" = _sICTpeNf;
         "CCDswY4w" = _CCDswY4w;
         "LLQLs4kR" = _LLQLs4kR;
+        "am1qdypQ" = _am1qdypQ;
+        "Fgs1wimW" = _Fgs1wimW;
         "minecraft-1.21.4" = _JPgLqBNh;
         "minecraft-1.21.5" = _sUwvQH3v;
         "minecraft-1.21.6" = _Y6g2dnM3;
@@ -205,6 +217,8 @@ let
         "minecraft-26.3-snapshot-1" = _sICTpeNf;
         "minecraft-26.3-snapshot-3" = _CCDswY4w;
         "minecraft-26.3-snapshot-4" = _LLQLs4kR;
+        "minecraft-26.3-snapshot-8" = _am1qdypQ;
+        "minecraft-26.3-snapshot-10" = _Fgs1wimW;
         "pkg-1.21.4" = _JPgLqBNh;
         "pkg-1.21.5" = _sUwvQH3v;
         "pkg-1.21.6" = _Y6g2dnM3;
@@ -230,7 +244,9 @@ let
         "pkg-26.3-snapshot-1" = _sICTpeNf;
         "pkg-26.3-snapshot-3" = _CCDswY4w;
         "pkg-26.3-snapshot-4" = _LLQLs4kR;
-        "default" = _LLQLs4kR;
+        "pkg-26.3-snapshot-8" = _am1qdypQ;
+        "pkg-26.3-snapshot-10" = _Fgs1wimW;
+        "default" = _Fgs1wimW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "snapshot-xbr";

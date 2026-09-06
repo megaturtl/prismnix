@@ -16,15 +16,29 @@ let
             "file" = "management_wanted_fixes-1.0.2.jar";
             "hash" = "sha512-abd1ZvHrBTZ+F2PbsvXNkACahaGgX4KBxhfYItYp1eibM8uaDfXav5nPI/3UdeuCGsNlA3T0/WE++YJFxk3Dbw==";
         };
+        _3VYNGXNW = {
+            "id" = "3VYNGXNW";
+            "file" = "management_wanted_fixes-1.0.3.jar";
+            "hash" = "sha512-YuVT5HnpT75f8eWovMg7pVakhPjShtyHC5C+R9icKSfK/AWOQfYkkmqHAEFNEzj2CqYPOvYPgULkk7Mqci775A==";
+        };
+        _kKBV6k8S = {
+            "id" = "kKBV6k8S";
+            "file" = "management_wanted_fixes-1.0.4.jar";
+            "hash" = "sha512-PB/ruHibcha9R6AacTuNQs8CP8dXlBxX/l5laxfHkw1sNAnRjEY0ORb1e5t+AoqYitIyAqNf7YLaZ38k0mcElA==";
+        };
     in {
         "NIC1XPKT" = _NIC1XPKT;
         "wiCbdH5T" = _wiCbdH5T;
         "erw9FAKn" = _erw9FAKn;
-        "forge-1.20.1" = _erw9FAKn;
+        "3VYNGXNW" = _3VYNGXNW;
+        "kKBV6k8S" = _kKBV6k8S;
+        "forge-1.20.1" = _kKBV6k8S;
         "pkg-1.0.0" = _NIC1XPKT;
         "pkg-1.0.1" = _wiCbdH5T;
         "pkg-1.0.2" = _erw9FAKn;
-        "default" = _erw9FAKn;
+        "pkg-1.0.3" = _3VYNGXNW;
+        "pkg-1.0.4" = _kKBV6k8S;
+        "default" = _kKBV6k8S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "management-wanted-0.3.3-fixes";

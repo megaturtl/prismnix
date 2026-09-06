@@ -231,6 +231,11 @@ let
             "file" = "droppeditemtweaks-1.2.9+26.1.1-fabric.jar";
             "hash" = "sha512-jGfVnZUsroPaZX+hcmJe2/9E5EZDMe5A0AOrGs1EGFK4wmeMA/Nw5bp1hcNgzXBBIPkHLAVspxjbudxoBhwtig==";
         };
+        _J1invMb1 = {
+            "id" = "J1invMb1";
+            "file" = "droppeditemtweaks-2.0.0+26.2-fabric.jar";
+            "hash" = "sha512-IyKEXodkLsJy0t39DK5ZjITcgyQSlCwZe/TsHP13PtK7n1u4aQ9eFnWn/33Q8EW/nWahIE9+VF3ExQx+Ravjuw==";
+        };
     in {
         "wUDzNixL" = _wUDzNixL;
         "tv8CIthp" = _tv8CIthp;
@@ -278,6 +283,7 @@ let
         "ghtptGbU" = _ghtptGbU;
         "59OOysc5" = _59OOysc5;
         "BvifgxvO" = _BvifgxvO;
+        "J1invMb1" = _J1invMb1;
         "fabric-1.20" = _XtrqXPhU;
         "fabric-1.20.1" = _XtrqXPhU;
         "fabric-1.20.3" = _XtrqXPhU;
@@ -299,7 +305,7 @@ let
         "fabric-26.1" = _BvifgxvO;
         "fabric-26.1.1" = _BvifgxvO;
         "fabric-26.1.2" = _BvifgxvO;
-        "fabric-26.2" = _BvifgxvO;
+        "fabric-26.2" = _J1invMb1;
         "neoforge-1.21" = _6EvGA0Dc;
         "neoforge-1.21.1" = _6EvGA0Dc;
         "neoforge-1.21.2" = _IyN5qIIB;
@@ -322,7 +328,8 @@ let
         "pkg-1.2.7" = _ghtptGbU;
         "pkg-1.2.8" = _59OOysc5;
         "pkg-1.2.9" = _BvifgxvO;
-        "default" = _BvifgxvO;
+        "pkg-2.0.0" = _J1invMb1;
+        "default" = _J1invMb1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "droppeditemtweaks";

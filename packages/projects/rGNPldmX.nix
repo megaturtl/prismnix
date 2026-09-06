@@ -21,18 +21,44 @@ let
             "file" = "ultimineunchained-1.2.0-1.21.1-FABRIC.jar";
             "hash" = "sha512-W6LJuwnWshhvq24R5N5esTkTiUj+2BgT9+xehSq4tIPz0yrkcWjj82iGPMazK/7ZgFnC1Z8UeQN9JU/ypJlJew==";
         };
+        _lYAmwT3P = {
+            "id" = "lYAmwT3P";
+            "file" = "ultimineunchained-1.2.1-1.21.1-FABRIC.jar";
+            "hash" = "sha512-5uXW8Sv5LPAJIZaf8431nNAdRjt2nuRln/5UtkZGQxIt2qP0QreR/XvnPvHYJsYAfIh0pvYV/JPk+VwpUZ/KdA==";
+        };
+        _KL7yZxlk = {
+            "id" = "KL7yZxlk";
+            "file" = "ultimineunchained-1.2.1-1.21.1-NEOFORGE.jar";
+            "hash" = "sha512-qwkza0aEEMFgM8iD+dD6bOHei76+MsgWKrM2hBkC579EN2BJPopDsHqreJCFMN6gLz0hbuZQmz/JF1eydxIkng==";
+        };
+        _pmvBrAh0 = {
+            "id" = "pmvBrAh0";
+            "file" = "ultimineunchained-1.2.1-1.20.1-FABRIC.jar";
+            "hash" = "sha512-Z/tJWqVaS2XgnS8y9EBDW4KNb9fLc41FUsLuJ+sPlHoU4w7hlUQYgVjKBhBic+/m2inCc+wo4rJu95wAJozKbA==";
+        };
+        _YwaxBO1s = {
+            "id" = "YwaxBO1s";
+            "file" = "ultimineunchained-1.2.1-1.20.1-FORGE.jar";
+            "hash" = "sha512-tyj9/0ijAfIylS6CY56Xr0v7kw+JpXrH1mg92PoVUwl5MBRMpge3iCiVieiGt2i1iVAUZs9VPqaLkI27XlKoMQ==";
+        };
     in {
         "1R43tHE7" = _1R43tHE7;
         "VVceid93" = _VVceid93;
         "ibDPs85p" = _ibDPs85p;
         "SLmC34CS" = _SLmC34CS;
-        "fabric-1.20.1" = _1R43tHE7;
-        "fabric-1.21.1" = _SLmC34CS;
-        "forge-1.20.1" = _VVceid93;
-        "neoforge-1.21.1" = _ibDPs85p;
+        "lYAmwT3P" = _lYAmwT3P;
+        "KL7yZxlk" = _KL7yZxlk;
+        "pmvBrAh0" = _pmvBrAh0;
+        "YwaxBO1s" = _YwaxBO1s;
+        "fabric-1.20.1" = _pmvBrAh0;
+        "fabric-1.21.1" = _lYAmwT3P;
+        "forge-1.20.1" = _YwaxBO1s;
+        "neoforge-1.21.1" = _KL7yZxlk;
         "pkg-1.2.0-1.20.1" = _VVceid93;
         "pkg-1.2.0-1.21.1" = _SLmC34CS;
-        "default" = _SLmC34CS;
+        "pkg-1.2.1-1.21.1" = _KL7yZxlk;
+        "pkg-1.2.1-1.20.1" = _YwaxBO1s;
+        "default" = _YwaxBO1s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ultimine-unchained";

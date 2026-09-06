@@ -161,6 +161,16 @@ let
             "file" = "ClimateRivers-v26.2.0-mc26.2.x-Fabric.jar";
             "hash" = "sha512-TjJD1RcGLUrTGqzd3AY4I5wV33gBJenSMPNZd3gHn50/oEuKY2agtkYize2GmHhtZQR6y6dKuQUD3JTMFPQ0pg==";
         };
+        _7OZbCRHr = {
+            "id" = "7OZbCRHr";
+            "file" = "ClimateRivers-v26.2.1-mc26.2.x-Fabric.jar";
+            "hash" = "sha512-ADk9R2P02F+1wcuCF0r+Z1MVINuTEfMTmAyKlfsEzfF1UuGDnnCs/qY+sSkFyFrultkinfiP1Bh2v4BzIdktnw==";
+        };
+        _9EkZnaEa = {
+            "id" = "9EkZnaEa";
+            "file" = "ClimateRivers-v26.2.1-mc26.2.x-NeoForge.jar";
+            "hash" = "sha512-vzj+3Sr9IWGWMTtnlqfazbXOHKmPViLg9A7GumbLhPz4UydDYA0a/kOnYQyE/Quy8MgqfIeZkQGvHWHvgy7xMw==";
+        };
     in {
         "hSIgiPMi" = _hSIgiPMi;
         "4qUXJcmU" = _4qUXJcmU;
@@ -194,6 +204,8 @@ let
         "qGXu9GyK" = _qGXu9GyK;
         "MCcD1iBN" = _MCcD1iBN;
         "o9JeaQDa" = _o9JeaQDa;
+        "7OZbCRHr" = _7OZbCRHr;
+        "9EkZnaEa" = _9EkZnaEa;
         "fabric-1.21.4" = _hSIgiPMi;
         "fabric-1.21.5" = _jQneLVuX;
         "fabric-1.21.1" = _DEx2AHrx;
@@ -206,7 +218,7 @@ let
         "fabric-26.1" = _I3Epc22Z;
         "fabric-26.1.1" = _I3Epc22Z;
         "fabric-26.1.2" = _I3Epc22Z;
-        "fabric-26.2" = _o9JeaQDa;
+        "fabric-26.2" = _7OZbCRHr;
         "neoforge-1.21.4" = _4qUXJcmU;
         "neoforge-1.21.5" = _cxA5bBiX;
         "neoforge-1.21.1" = _qHngFoBS;
@@ -218,7 +230,7 @@ let
         "neoforge-26.1" = _qGXu9GyK;
         "neoforge-26.1.1" = _qGXu9GyK;
         "neoforge-26.1.2" = _qGXu9GyK;
-        "neoforge-26.2" = _MCcD1iBN;
+        "neoforge-26.2" = _9EkZnaEa;
         "forge-1.20.1" = _tclzgJeT;
         "pkg-v21.4.0-1.21.4-Fabric" = _hSIgiPMi;
         "pkg-v21.4.0-1.21.4-NeoForge" = _4qUXJcmU;
@@ -246,7 +258,8 @@ let
         "pkg-21.11.0" = _5GQvvc4B;
         "pkg-26.1.0" = _qGXu9GyK;
         "pkg-26.2.0" = _o9JeaQDa;
-        "default" = _o9JeaQDa;
+        "pkg-26.2.1" = _9EkZnaEa;
+        "default" = _9EkZnaEa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "climate-rivers";

@@ -21,17 +21,24 @@ let
             "file" = "exsartagine-1.12.2-0.4.2.jar";
             "hash" = "sha512-Rzq623Iy6hXo2IXY+m5jOj9pi3JxTLlibtz6eX+PVS+4QdJhFf3htqpM3MYHW1disD4ATMM/NnRpXk830TfJ8g==";
         };
+        _cC5o1tA7 = {
+            "id" = "cC5o1tA7";
+            "file" = "ExSartagine-Requiem-1.12.2-0.4.2.jar";
+            "hash" = "sha512-AUWSiDLqBz2kagQa97vlWVgWf8nhs8fU9OCd1yVKSEvpz0cFXsnD09UYh/bh7I/qannR2eUDCgDGgAks9nW9OQ==";
+        };
     in {
         "ecH7X0MB" = _ecH7X0MB;
         "6LH9Z3ve" = _6LH9Z3ve;
         "4j9PzVOC" = _4j9PzVOC;
         "PIt1a92g" = _PIt1a92g;
-        "forge-1.12.2" = _PIt1a92g;
+        "cC5o1tA7" = _cC5o1tA7;
+        "forge-1.12.2" = _cC5o1tA7;
         "pkg-1.12.2-0.3.10" = _ecH7X0MB;
         "pkg-1.12.2-0.3.11" = _6LH9Z3ve;
         "pkg-1.12.2-0.3.12" = _4j9PzVOC;
-        "pkg-0.4.2" = _PIt1a92g;
-        "default" = _PIt1a92g;
+        "pkg-0.4.2_deprecated" = _PIt1a92g;
+        "pkg-0.4.2" = _cC5o1tA7;
+        "default" = _cC5o1tA7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ex-sartagine-requiem";

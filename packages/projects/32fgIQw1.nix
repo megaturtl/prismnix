@@ -46,6 +46,11 @@ let
             "file" = "craftycuisine-1.3.1.jar";
             "hash" = "sha512-RUMjAKSeGkHw0Hycs+gGwpd3yFtDOpQjcNLukpoM2BVxk98z7Vo+3p3LGxkiIRP8CUxErqsf8DVGUdwlSyEc2g==";
         };
+        _aEzOxVbA = {
+            "id" = "aEzOxVbA";
+            "file" = "craftycuisine-2.0.0.jar";
+            "hash" = "sha512-DyoPkNWVyeZVelQ7UXXH6WJSbqPs+KxEOlycbyj9lUdWN7JVcCqjAbPPA0GnLE8YHmX3xAvuiL4xY8ck09qwWw==";
+        };
     in {
         "c5IlqPkR" = _c5IlqPkR;
         "bVKPdsqN" = _bVKPdsqN;
@@ -56,6 +61,7 @@ let
         "wVwmeJ2y" = _wVwmeJ2y;
         "2InAsqkg" = _2InAsqkg;
         "czJXG0Ft" = _czJXG0Ft;
+        "aEzOxVbA" = _aEzOxVbA;
         "fabric-1.18.1" = _c5IlqPkR;
         "fabric-1.18.2" = _c5IlqPkR;
         "fabric-1.19" = _IEtnIC3G;
@@ -65,13 +71,15 @@ let
         "fabric-1.19.4" = _2InAsqkg;
         "fabric-1.20" = _czJXG0Ft;
         "fabric-1.20.1" = _czJXG0Ft;
+        "fabric-1.21.1" = _aEzOxVbA;
         "pkg-1.0.0" = _c5IlqPkR;
         "pkg-1.1.0" = _bVKPdsqN;
         "pkg-1.2.0" = _IEtnIC3G;
         "pkg-1.2.1" = _4UBF902d;
         "pkg-1.2.1.1" = _wVwmeJ2y;
         "pkg-1.3.0" = _czJXG0Ft;
-        "default" = _czJXG0Ft;
+        "pkg-2.0.0" = _aEzOxVbA;
+        "default" = _aEzOxVbA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crafty-cuisine";

@@ -101,6 +101,26 @@ let
             "file" = "Visor-0.5.0-snapshot-2+mc1.20.1-forge.jar";
             "hash" = "sha512-7FzJ9vOwJ7SiIefxV7nQqYTgrEQgPSpo7blgcBizMoleaWAh/hqGVFObm3gHZmNZM3dkK/0Ah2UelBAllRoq7g==";
         };
+        _BvUvHKZu = {
+            "id" = "BvUvHKZu";
+            "file" = "Visor-0.5.0beta+mc1.20.1-fabric.jar";
+            "hash" = "sha512-H1o6wjRefJDx9+TNFKDpUCkEXNqCssBmi1T+oQUcOkhtf2cupDRUwLGIn7LTpTrqY3rMoL2CUmjrbnsDOl4ykQ==";
+        };
+        _X7Bynccu = {
+            "id" = "X7Bynccu";
+            "file" = "Visor-0.5.0beta+mc1.20.1-forge.jar";
+            "hash" = "sha512-WpHizGCotXWaeGqpUgeBJKwK5rkDuUpwKpVVi+dkdrGLC8Yxu9sHR6UO/3cXDkaUOWZXnmJcZ6iv1B5yUvIrtw==";
+        };
+        _GUcgpWPE = {
+            "id" = "GUcgpWPE";
+            "file" = "Visor-0.5.0beta2+mc1.20.1-fabric.jar";
+            "hash" = "sha512-4h/dlBttqDZlwDApIJjrijMh5Qp3TBYozR1I6MNJ9bNxxLTbEd4CeWwoutqFcvXvBhtHsnCIm4z3yw+DD63gig==";
+        };
+        _m2OJyLbg = {
+            "id" = "m2OJyLbg";
+            "file" = "Visor-0.5.0beta2+mc1.20.1-forge.jar";
+            "hash" = "sha512-pq2AVD37jvYhVS/PVjwKlDdkWbpza6vrjcpPNGlzrEgqcWMJxxxD/TtMIsxJ9j5eQr+66ThXDXZARKoJlOLtcQ==";
+        };
     in {
         "StZds437" = _StZds437;
         "ez3dn6ws" = _ez3dn6ws;
@@ -122,10 +142,15 @@ let
         "82rhMXRI" = _82rhMXRI;
         "wBKufygp" = _wBKufygp;
         "rtg2vy3H" = _rtg2vy3H;
+        "BvUvHKZu" = _BvUvHKZu;
+        "X7Bynccu" = _X7Bynccu;
+        "GUcgpWPE" = _GUcgpWPE;
+        "m2OJyLbg" = _m2OJyLbg;
         "fabric-1.20" = _wBKufygp;
-        "fabric-1.20.1" = _wBKufygp;
+        "fabric-1.20.1" = _GUcgpWPE;
         "forge-1.20" = _rtg2vy3H;
-        "forge-1.20.1" = _rtg2vy3H;
+        "forge-1.20.1" = _m2OJyLbg;
+        "quilt-1.20.1" = _GUcgpWPE;
         "pkg-0.1.0-fabric" = _StZds437;
         "pkg-0.1.0-forge" = _ez3dn6ws;
         "pkg-0.2.0beta-forge" = _nvpDt5Ic;
@@ -146,7 +171,11 @@ let
         "pkg-0.5.0-snapshot-1+mc1.20.1-forge" = _82rhMXRI;
         "pkg-0.5.0-snapshot-2+mc1.20.1-fabric" = _wBKufygp;
         "pkg-0.5.0-snapshot-2+mc1.20.1-forge" = _rtg2vy3H;
-        "default" = _rtg2vy3H;
+        "pkg-0.5.0beta+mc1.20.1-fabric" = _BvUvHKZu;
+        "pkg-0.5.0beta+mc1.20.1-forge" = _X7Bynccu;
+        "pkg-0.5.0beta2+mc1.20.1-fabric" = _GUcgpWPE;
+        "pkg-0.5.0beta2+mc1.20.1-forge" = _m2OJyLbg;
+        "default" = _m2OJyLbg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "visor";
@@ -154,12 +183,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
+            license = lib.getLicenseFromSpdxIdOr "MPL-2.0" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "GNU Lesser General Public License v3.0 only";
-                shortName = "LGPL-3.0-only";
+                fullName = "Mozilla Public License 2.0";
+                shortName = "MPL-2.0";
                 url = null;
             };
         };

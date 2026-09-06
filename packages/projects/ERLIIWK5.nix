@@ -11,13 +11,20 @@ let
             "file" = "ShinyReroll-1.1.0+1.21.1.jar";
             "hash" = "sha512-CP3NJpH+XRw0LSUZP1AXvvViDMlYLrHzTuSBGFGz8igl1r+BQdLVG5rnnpbtMncyc13DKcv7jH86QTA8W8+2JQ==";
         };
+        _IeHBi7mf = {
+            "id" = "IeHBi7mf";
+            "file" = "ShinyReroll-1.2.0+1.21.1.jar";
+            "hash" = "sha512-+dkA/O1G51yymX9ymR7LZmo62ALTTf55qAs+9AS55YSiurLhSllLm4RDIF12kB0NgsmFyOhMxXH70nptYtItAw==";
+        };
     in {
         "spLjAqgc" = _spLjAqgc;
         "cyBkUHWx" = _cyBkUHWx;
-        "fabric-1.21.1" = _cyBkUHWx;
+        "IeHBi7mf" = _IeHBi7mf;
+        "fabric-1.21.1" = _IeHBi7mf;
         "pkg-1.0.0+1.21.1" = _spLjAqgc;
         "pkg-1.1.0+1.21.1" = _cyBkUHWx;
-        "default" = _cyBkUHWx;
+        "pkg-1.2.0+1.21.1" = _IeHBi7mf;
+        "default" = _IeHBi7mf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-shiny-reroll";

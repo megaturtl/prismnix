@@ -36,6 +36,16 @@ let
             "file" = "mebahels-api-1.0.20-fabric-1.21.1.jar";
             "hash" = "sha512-GeHxV+Z5p5Itj2gqdqRbdMfPoUeCpHLOtkmoS401T92RN0wEX1mLE8OPITXLMpVgbxOlD9Yi6HnvG3VCINxBig==";
         };
+        _3CqHolpV = {
+            "id" = "3CqHolpV";
+            "file" = "mebahels-api-1.0.21-fabric-1.21.1.jar";
+            "hash" = "sha512-yyScHEKfRz4oknCM7d1+Tnhh9bvr/3h0DmZoowpBq7/+yvbKuLfisZ0rF84F2pO17MBUaVDLRFknHoPk3sGcuQ==";
+        };
+        _9xe1hvUp = {
+            "id" = "9xe1hvUp";
+            "file" = "mebahels-api-1.0.21-fabric-1.20.1.jar";
+            "hash" = "sha512-Tz4les3fSfkKL2ZMcwL2oys5QbvGyKuJOt9kfXWzr/38pWG6m50kZet0n8/tXFmOpKpDqhIpZth7Iibk2ZYrmQ==";
+        };
     in {
         "nHxZGPV1" = _nHxZGPV1;
         "yKY0VIx0" = _yKY0VIx0;
@@ -44,22 +54,24 @@ let
         "9dx4pFfn" = _9dx4pFfn;
         "kHp5q0Lw" = _kHp5q0Lw;
         "VyZd8AmS" = _VyZd8AmS;
-        "fabric-1.20" = _kHp5q0Lw;
-        "fabric-1.20.1" = _kHp5q0Lw;
-        "fabric-1.21.1" = _VyZd8AmS;
-        "fabric-1.21" = _VyZd8AmS;
-        "quilt-1.20" = _kHp5q0Lw;
-        "quilt-1.20.1" = _kHp5q0Lw;
-        "quilt-1.21.1" = _VyZd8AmS;
-        "quilt-1.21" = _VyZd8AmS;
-        "forge-1.20" = _kHp5q0Lw;
-        "forge-1.20.1" = _kHp5q0Lw;
-        "forge-1.21.1" = _VyZd8AmS;
-        "forge-1.21" = _VyZd8AmS;
-        "neoforge-1.20" = _kHp5q0Lw;
-        "neoforge-1.20.1" = _kHp5q0Lw;
-        "neoforge-1.21.1" = _VyZd8AmS;
-        "neoforge-1.21" = _VyZd8AmS;
+        "3CqHolpV" = _3CqHolpV;
+        "9xe1hvUp" = _9xe1hvUp;
+        "fabric-1.20" = _9xe1hvUp;
+        "fabric-1.20.1" = _9xe1hvUp;
+        "fabric-1.21.1" = _3CqHolpV;
+        "fabric-1.21" = _3CqHolpV;
+        "quilt-1.20" = _9xe1hvUp;
+        "quilt-1.20.1" = _9xe1hvUp;
+        "quilt-1.21.1" = _3CqHolpV;
+        "quilt-1.21" = _3CqHolpV;
+        "forge-1.20" = _9xe1hvUp;
+        "forge-1.20.1" = _9xe1hvUp;
+        "forge-1.21.1" = _3CqHolpV;
+        "forge-1.21" = _3CqHolpV;
+        "neoforge-1.20" = _9xe1hvUp;
+        "neoforge-1.20.1" = _9xe1hvUp;
+        "neoforge-1.21.1" = _3CqHolpV;
+        "neoforge-1.21" = _3CqHolpV;
         "pkg-1.0.13-fabric-1.20.1" = _nHxZGPV1;
         "pkg-1.0.17-fabric-1.20.1" = _yKY0VIx0;
         "pkg-1.0.14-fabric-1.21.1" = _oZTapGg9;
@@ -67,7 +79,9 @@ let
         "pkg-1.0.18-fabric-1.21.1" = _9dx4pFfn;
         "pkg-1.0.20-fabric-1.20.1" = _kHp5q0Lw;
         "pkg-1.0.20-fabric-1.21.1" = _VyZd8AmS;
-        "default" = _VyZd8AmS;
+        "pkg-1.0.21-fabric-1.21.1" = _3CqHolpV;
+        "pkg-1.0.21-fabric-1.20.1" = _9xe1hvUp;
+        "default" = _9xe1hvUp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mebahels-api";

@@ -41,6 +41,21 @@ let
             "file" = "block_variants_bop-26.1.2-1.2.0.jar";
             "hash" = "sha512-5vRnRWzmsg6zvbfkzgvi3CgWE8hLrpWTRIWW6y2oiKgbmwO+pATLCrpJwKh1lJUEfHAGjEAQAoSEGPHCd8/pFw==";
         };
+        _Gqyfw8Wb = {
+            "id" = "Gqyfw8Wb";
+            "file" = "block_variants_bop-1.21.1-1.0.2.jar";
+            "hash" = "sha512-MnhrUT0ZvR2PfuzDzl6if3yy25SvwktKJt4HcoTsLYybz/T69UcrM5k7NlnHjunNt/vGpj0D7B7ZhG1N1Lon0g==";
+        };
+        _T7HG7Q7b = {
+            "id" = "T7HG7Q7b";
+            "file" = "block_variants_bop-26.1.2-1.2.1.jar";
+            "hash" = "sha512-QoxiMsDbv7X6eKjX64cnf5T3uKu+ThDatpXCcLfEi4EphHpS933ZvI4IUZUhJQ21ZY3k5MeqENIya9gXnMJ3JA==";
+        };
+        _PYjH0vAk = {
+            "id" = "PYjH0vAk";
+            "file" = "block_variants_bop-26.2-1.2.1.jar";
+            "hash" = "sha512-LbrmxLtMqE2oK6YHbxUaUYWZsJCB6qPk4dYAlkYAqEkDlt4ipS8BFpi63cm3z2bqsCnt/Gdm79SDFIi9JxZJ6g==";
+        };
     in {
         "8Q4jgntA" = _8Q4jgntA;
         "GVYBSurb" = _GVYBSurb;
@@ -50,19 +65,25 @@ let
         "m5IRqZ9s" = _m5IRqZ9s;
         "baJ8gspj" = _baJ8gspj;
         "GJoqX7TC" = _GJoqX7TC;
+        "Gqyfw8Wb" = _Gqyfw8Wb;
+        "T7HG7Q7b" = _T7HG7Q7b;
+        "PYjH0vAk" = _PYjH0vAk;
         "neoforge-1.21.5" = _V02MntAn;
         "neoforge-1.21.4" = _GVYBSurb;
         "neoforge-1.21" = _cZKdaDlC;
-        "neoforge-1.21.1" = _cZKdaDlC;
+        "neoforge-1.21.1" = _Gqyfw8Wb;
         "neoforge-1.21.8" = _w6StM5F0;
         "neoforge-1.21.10" = _m5IRqZ9s;
         "neoforge-1.21.11" = _baJ8gspj;
-        "neoforge-26.1.2" = _GJoqX7TC;
+        "neoforge-26.1.2" = _T7HG7Q7b;
+        "neoforge-26.2" = _PYjH0vAk;
         "pkg-1.0.0" = _cZKdaDlC;
         "pkg-1.0.1" = _w6StM5F0;
         "pkg-1.1.0" = _m5IRqZ9s;
         "pkg-1.2.0" = _GJoqX7TC;
-        "default" = _GJoqX7TC;
+        "pkg-1.0.2" = _Gqyfw8Wb;
+        "pkg-1.2.1" = _PYjH0vAk;
+        "default" = _PYjH0vAk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "block-variants-biomes-o-plenty";

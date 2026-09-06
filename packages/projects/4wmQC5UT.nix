@@ -71,6 +71,11 @@ let
             "file" = "adventurersbackpack-1.0.3.jar";
             "hash" = "sha512-CMIzxGgUkewA2cJolsGxM5OnGUCGPyb3cyk41qg8K28lJWcrU6c9VJjOcjD0fpMpS4A2mVHFMKVa7STvFnIA3Q==";
         };
+        _C11FdWcw = {
+            "id" = "C11FdWcw";
+            "file" = "adventurersbackpack-1.0.4.jar";
+            "hash" = "sha512-SRU9q9CYLpqvBtodmF9XvkKzOPHs5yQi+IjLkNdwybdjUdKV9QxncE/OjVa/JjaWSmxK5oXDdIDTKqjw7+jj+g==";
+        };
     in {
         "lzL47CAI" = _lzL47CAI;
         "oNA11hAT" = _oNA11hAT;
@@ -86,12 +91,13 @@ let
         "Oy3E9wUt" = _Oy3E9wUt;
         "WLCQo167" = _WLCQo167;
         "FrNfYJ2x" = _FrNfYJ2x;
+        "C11FdWcw" = _C11FdWcw;
         "fabric-1.21.1" = _lzL47CAI;
         "fabric-1.20.1" = _oNA11hAT;
         "fabric-26.1" = _q4AX8Lyn;
         "fabric-26.1.1" = _q4AX8Lyn;
         "fabric-26.1.2" = _q4AX8Lyn;
-        "fabric-26.2" = _FrNfYJ2x;
+        "fabric-26.2" = _C11FdWcw;
         "neoforge-26.1" = _K91tci0k;
         "neoforge-26.1.1" = _K91tci0k;
         "neoforge-26.1.2" = _K91tci0k;
@@ -103,7 +109,8 @@ let
         "pkg-1.0.1" = _Oy3E9wUt;
         "pkg-1.0.2" = _WLCQo167;
         "pkg-1.0.3" = _FrNfYJ2x;
-        "default" = _FrNfYJ2x;
+        "pkg-1.0.4" = _C11FdWcw;
+        "default" = _C11FdWcw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "adventurers-backpack";

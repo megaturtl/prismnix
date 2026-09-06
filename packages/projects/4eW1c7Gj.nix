@@ -346,6 +346,31 @@ let
             "file" = "witcher-class-mod-neoforge-2.8.1+1.21.1.jar";
             "hash" = "sha512-NSxcF9wwfi8bYatpYPyYc6PaQl2UoN9G1zUrp98reI0fNJXbjyMoLvFlt/ylltervGL2uOtDjkx+1TgkkCW1KA==";
         };
+        _gJjYjHuQ = {
+            "id" = "gJjYjHuQ";
+            "file" = "witcher-class-mod-neoforge-3.0.0+1.21.1.jar";
+            "hash" = "sha512-aFMp4T/BeneU98oavWXvz5XBMkZx92m8GLhRHm/TWqgdZLuhps7mDnY3cWzKz1wTfMn4m1gIcGseIo+6YYR2Rw==";
+        };
+        _FRx2cZqG = {
+            "id" = "FRx2cZqG";
+            "file" = "witcher-class-mod-fabric-3.0.0+1.21.1.jar";
+            "hash" = "sha512-Ys0FpLZkWBXuA7ilZmfviBd0aJ4Dxg+LvaYKtjI/5fi39Jcl9KrcVnplQ134l8kLWFbQLRY4t0zA2IWEpCvk+w==";
+        };
+        _OPuPacOd = {
+            "id" = "OPuPacOd";
+            "file" = "witcher-class-mod-1.2.5-1.20.1.jar";
+            "hash" = "sha512-PULaDTXBhnQGYoVfQrMGqUUX2vuNrtCuqKpjZMBQOLvb5FO1ile40dAwk6qCyNqxWBlfPrt+xogkNv7/N4Ik3w==";
+        };
+        _O31KgVJs = {
+            "id" = "O31KgVJs";
+            "file" = "witcher-class-mod-fabric-3.1.0+1.21.1.jar";
+            "hash" = "sha512-NvBAZ/CtJiAkpyZxWhH3Hl1/U07jYzTZiE7g6tTPjcn16hCg2qVSCXt3Iq0IQUS2BAyI9Kwy8vKWx3t1XNemng==";
+        };
+        _L18vNMnQ = {
+            "id" = "L18vNMnQ";
+            "file" = "witcher-class-mod-neoforge-3.1.0+1.21.1.jar";
+            "hash" = "sha512-SvKJVBHi4Fi/gGWsY7DOAf9Joz/H7q7wx2OJ2aWMInQkW59ZruXh5HEOPLrx9sQm/R1CGWoA4hXwu4ZyYoLUPg==";
+        };
     in {
         "F2SCKGhY" = _F2SCKGhY;
         "L8d1o3MR" = _L8d1o3MR;
@@ -416,10 +441,15 @@ let
         "GEaPt4zu" = _GEaPt4zu;
         "Vbn6fTk7" = _Vbn6fTk7;
         "Q0GOX43Z" = _Q0GOX43Z;
-        "fabric-1.20.1" = _GEaPt4zu;
+        "gJjYjHuQ" = _gJjYjHuQ;
+        "FRx2cZqG" = _FRx2cZqG;
+        "OPuPacOd" = _OPuPacOd;
+        "O31KgVJs" = _O31KgVJs;
+        "L18vNMnQ" = _L18vNMnQ;
+        "fabric-1.20.1" = _OPuPacOd;
         "fabric-1.21" = _1ekqs6RW;
-        "fabric-1.21.1" = _Vbn6fTk7;
-        "neoforge-1.21.1" = _Q0GOX43Z;
+        "fabric-1.21.1" = _O31KgVJs;
+        "neoforge-1.21.1" = _L18vNMnQ;
         "pkg-1.0.0" = _F2SCKGhY;
         "pkg-1.0.1" = _L8d1o3MR;
         "pkg-1.0.2" = _vamOk5xk;
@@ -489,7 +519,12 @@ let
         "pkg-1.2.4-1.20.1" = _GEaPt4zu;
         "pkg-2.8.1+1.21.1-fabric" = _Vbn6fTk7;
         "pkg-2.8.1+1.21.1-neoforge" = _Q0GOX43Z;
-        "default" = _Q0GOX43Z;
+        "pkg-3.0.0+1.21.1-neoforge" = _gJjYjHuQ;
+        "pkg-3.0.0+1.21.1-fabric" = _FRx2cZqG;
+        "pkg-1.2.5-1.20.1" = _OPuPacOd;
+        "pkg-3.1.0+1.21.1-fabric" = _O31KgVJs;
+        "pkg-3.1.0+1.21.1-neoforge" = _L18vNMnQ;
+        "default" = _L18vNMnQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "witcher-rpg-class";

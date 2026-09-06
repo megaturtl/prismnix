@@ -16,18 +16,26 @@ let
             "file" = "better-piechart-2.1.0.jar";
             "hash" = "sha512-0qjCGEV0tGegsLvsGNj6Xz6ldP0Z9PNMkytlXMCGSlrrbkJ6t9l5mpEe8PI9K3RdxvuHzMyp+Zb6Vh0TV9hizA==";
         };
+        _gPFwqYCO = {
+            "id" = "gPFwqYCO";
+            "file" = "better-pilechart-1.0.0 (4).jar";
+            "hash" = "sha512-rnpiTXymwW2uY/F0pxzHfAU/xqcrHnXtdAwmlUTZpCY7l3utj80FRjMDASqZQBIQbQmMqcccQVhcWiCCcWNgTA==";
+        };
     in {
         "7dNqBkmy" = _7dNqBkmy;
         "cYNP4qH8" = _cYNP4qH8;
         "8OlMEhPh" = _8OlMEhPh;
+        "gPFwqYCO" = _gPFwqYCO;
         "fabric-1.21.11" = _cYNP4qH8;
         "fabric-26.1" = _8OlMEhPh;
         "fabric-26.1.1" = _8OlMEhPh;
         "fabric-26.1.2" = _8OlMEhPh;
+        "fabric-26.2" = _gPFwqYCO;
         "pkg-1.0.0" = _7dNqBkmy;
         "pkg-2.0.0" = _cYNP4qH8;
         "pkg-2.1.0" = _8OlMEhPh;
-        "default" = _8OlMEhPh;
+        "pkg-2.2.0" = _gPFwqYCO;
+        "default" = _gPFwqYCO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-pile-chart";

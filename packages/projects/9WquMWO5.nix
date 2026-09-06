@@ -26,19 +26,26 @@ let
             "file" = "More SlashBlade Ex Enchantment Effects-1.20.1-1.0.0-hotfix4.jar";
             "hash" = "sha512-C9cHP6omOWUFfZFMFqWqLl8/wJvawc4wAsLOJeyawlKMSHteHP2MQJ/bkZvQwuyanAj8QpTj0ec8ujqAB871IA==";
         };
+        _B2WTE1tG = {
+            "id" = "B2WTE1tG";
+            "file" = "More SlashBlade Ex Enchantment Effects-1.21.1-1.0.0-hotfix4.jar";
+            "hash" = "sha512-DOMxa1VtZCNP9z2NohprrTVpXiFybHeKjWfZyXRYROjOYOQLcAgJV494+uXde3T7h/vjJ3daWLC/ZWNTNBoSnw==";
+        };
     in {
         "rqcIRXS6" = _rqcIRXS6;
         "NnZzkt2h" = _NnZzkt2h;
         "8fuxdFYi" = _8fuxdFYi;
         "DjrPyipu" = _DjrPyipu;
         "Q5NOZIU0" = _Q5NOZIU0;
+        "B2WTE1tG" = _B2WTE1tG;
         "forge-1.20.1" = _Q5NOZIU0;
+        "neoforge-1.21.1" = _B2WTE1tG;
         "pkg-1.0.0" = _rqcIRXS6;
         "pkg-1.0.0-hotfix1" = _NnZzkt2h;
         "pkg-1.0.0-hotfix2" = _8fuxdFYi;
         "pkg-1.0.0-hotfix3" = _DjrPyipu;
-        "pkg-1.0.0-hotfix4" = _Q5NOZIU0;
-        "default" = _Q5NOZIU0;
+        "pkg-1.0.0-hotfix4" = _B2WTE1tG;
+        "default" = _B2WTE1tG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-slashblade-ex-enchantment-effects";

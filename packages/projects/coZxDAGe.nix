@@ -146,6 +146,46 @@ let
             "file" = "remnant_bosses-neoforge-1.21.1-2.2.0.jar";
             "hash" = "sha512-eGqrfNabLmqLd6TpE+TFr2gu0lW3lxhx8ExzlScoKYf+Pkr6IJo+ydR8hvtvdeyZ1Yi3zfOFl57gbGNfSugyvQ==";
         };
+        _HFjYrfaL = {
+            "id" = "HFjYrfaL";
+            "file" = "remnant_bosses-fabric-1.20.1-2.3.0.jar";
+            "hash" = "sha512-CAh7kvZqX67RBJIIKtQV9hJH79zkc96B2YgMkvEbW4bfM3d4k2thuavrDX8V129SGMcfxcXsZyd5KG3l6AHF6g==";
+        };
+        _xNGPoAms = {
+            "id" = "xNGPoAms";
+            "file" = "remnant_bosses-forge-1.20.1-2.3.0.jar";
+            "hash" = "sha512-yl0Vj9eiwkjT7bSBnLbSF6em7KPHYV989zJrb9VzET0hho13xn+Gge86aWnYTKxmBMcQM6bDcaMnY3RUVUL1ag==";
+        };
+        _Ic0E5WlQ = {
+            "id" = "Ic0E5WlQ";
+            "file" = "remnant_bosses-fabric-1.21.1-2.3.0.jar";
+            "hash" = "sha512-MehwhUugO8PxV4qkWkFlGPi6Vzp3A+aRNHuhFahYlwb6Oevz4dlTQLVanhXz4c1lq23bnijVWoajZEVZGPNjjg==";
+        };
+        _3erKbMQe = {
+            "id" = "3erKbMQe";
+            "file" = "remnant_bosses-neoforge-1.21.1-2.3.0.jar";
+            "hash" = "sha512-yqOqIy0LIuPhuqYVH1vJ5l63UM+ABzL0163HjOvWXKqV+f0Hh8tBvqe8ZLfr8colNNWZiZNk0FGT5LINnRvIOA==";
+        };
+        _gQ5NVh4S = {
+            "id" = "gQ5NVh4S";
+            "file" = "remnant_bosses-fabric-1.20.1-2.4.0.jar";
+            "hash" = "sha512-SqnXxVzqBGgGCNBO4IlkqjI9JTXzNC+PttWNK4IPmJUyhT5LbGzKrlq2ZDx4u6dnrRMmezjyYk9lUdFXR1pWJg==";
+        };
+        _mWqK2idN = {
+            "id" = "mWqK2idN";
+            "file" = "remnant_bosses-fabric-1.21.1-2.4.0.jar";
+            "hash" = "sha512-kkmJ6zzwux3LCp+UTzQSxchgqOj2r7j9lmG34ZEVFa4c05dZC/i0Er55aT7bgXtPOnKsG9VnBdGykgrb7OVXXw==";
+        };
+        _RxQgC6AB = {
+            "id" = "RxQgC6AB";
+            "file" = "remnant_bosses-forge-1.20.1-2.4.0.jar";
+            "hash" = "sha512-R9/tO6qlrQ3oIT1sHDrAkRp9OaMBuP3u6oB6bvBRjg6NoSedAtfp8VY7IiFqDIcNWRWqxL34P97G4h5rh+suaQ==";
+        };
+        _mYya6ZFk = {
+            "id" = "mYya6ZFk";
+            "file" = "remnant_bosses-neoforge-1.21.1-2.4.0.jar";
+            "hash" = "sha512-vhekuTlIYoxdJbwl8uL8A9ro4uInDZcVJ3hdcg6RBzF9PkN8o3c08r19V9F4JVFo++nNyR1rfFe6OlSC49NqgA==";
+        };
     in {
         "5Lluw5s6" = _5Lluw5s6;
         "dhBA4Gse" = _dhBA4Gse;
@@ -176,14 +216,24 @@ let
         "WMyJVbjE" = _WMyJVbjE;
         "qaHFiWjh" = _qaHFiWjh;
         "I0U3w0Vn" = _I0U3w0Vn;
-        "forge-1.20.1" = _qaHFiWjh;
+        "HFjYrfaL" = _HFjYrfaL;
+        "xNGPoAms" = _xNGPoAms;
+        "Ic0E5WlQ" = _Ic0E5WlQ;
+        "3erKbMQe" = _3erKbMQe;
+        "gQ5NVh4S" = _gQ5NVh4S;
+        "mWqK2idN" = _mWqK2idN;
+        "RxQgC6AB" = _RxQgC6AB;
+        "mYya6ZFk" = _mYya6ZFk;
+        "forge-1.20.1" = _RxQgC6AB;
         "forge-1.16.5" = _zrpo4E41;
         "forge-1.18.2" = _jqzWSBGi;
         "forge-1.19.2" = _trVsYDaA;
         "neoforge-1.20.1" = _qaHFiWjh;
-        "neoforge-1.21.1" = _I0U3w0Vn;
+        "neoforge-1.21.1" = _mYya6ZFk;
         "neoforge-1.21.5" = _WsC3WVLw;
         "neoforge-1.21.8" = _lMjmQZKX;
+        "fabric-1.20.1" = _gQ5NVh4S;
+        "fabric-1.21.1" = _mWqK2idN;
         "pkg-1.0.1" = _dhBA4Gse;
         "pkg-1.1.0" = _U3RsDdf3;
         "pkg-1.0.4" = _bzcO4sqE;
@@ -197,7 +247,15 @@ let
         "pkg-2.0.2" = _qqNhtbzF;
         "pkg-2.1.0" = _WMyJVbjE;
         "pkg-2.2.0" = _I0U3w0Vn;
-        "default" = _I0U3w0Vn;
+        "pkg-2.3.0+fabric-1.20.1" = _HFjYrfaL;
+        "pkg-2.3.0+forge-1.20.1" = _xNGPoAms;
+        "pkg-2.3.0+fabric-1.21.1" = _Ic0E5WlQ;
+        "pkg-2.3.0+neoforge-1.21.1" = _3erKbMQe;
+        "pkg-2.4.0+fabric-1.20.1" = _gQ5NVh4S;
+        "pkg-2.4.0+fabric-1.21.1" = _mWqK2idN;
+        "pkg-2.4.0+forge-1.20.1" = _RxQgC6AB;
+        "pkg-2.4.0+neoforge-1.21.1" = _mYya6ZFk;
+        "default" = _mYya6ZFk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "remnant-bosses";
@@ -205,12 +263,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+            license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "LicenseRef-All-Rights-Reserved";
-                shortName = "LicenseRef-All-Rights-Reserved";
+                fullName = "Apache License 2.0";
+                shortName = "Apache-2.0";
                 url = null;
             };
         };

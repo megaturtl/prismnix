@@ -486,6 +486,26 @@ let
             "file" = "cobblemonraiddens-neoforge-0.11.5+1.21.1.jar";
             "hash" = "sha512-PpWapL5FcM19Ix8iABWweIrThpHyZKTKftB1TeEJ+xcWYgI7+NW82xNPBE+JdsTFWPbK9Na2MoYRvTTGYZ5iaw==";
         };
+        _mgsmdy8B = {
+            "id" = "mgsmdy8B";
+            "file" = "cobblemonraiddens-fabric-0.11.6+1.21.1.jar";
+            "hash" = "sha512-lr9y8sgWd2czIFsT13F48IeHhOIZ+QxhToW/RZYEhdmUWk1Q9JoJn2yPxm3+5ZBmYef4meCIs495mXEVUjK7XQ==";
+        };
+        _KfuSZLkT = {
+            "id" = "KfuSZLkT";
+            "file" = "cobblemonraiddens-neoforge-0.11.6+1.21.1.jar";
+            "hash" = "sha512-1FUSZaNbfym2wIzlwgbBGL2LwK5aXutfx8UWiMkoQlr3RHes/qBc8i9VBASawJu5tPaqEI4U7Bvi8QCtnID6SQ==";
+        };
+        _3iILerfL = {
+            "id" = "3iILerfL";
+            "file" = "cobblemonraiddens-fabric-0.11.7+1.21.1.jar";
+            "hash" = "sha512-02mY9DN/fkLXPPJS5+KHUG2LDoL8a+XStk+R1HcXtEJYc6TQvEKDozDYN1RE+bBDdVWKjhK9ICeJuKyqnUgFsw==";
+        };
+        _wJAU9a8h = {
+            "id" = "wJAU9a8h";
+            "file" = "cobblemonraiddens-neoforge-0.11.7+1.21.1.jar";
+            "hash" = "sha512-qp4DUzBYL1PlZ1mQolPdvMjYGBgfjWEF4h22rm0mSSI7S323MHE0EcFrkRRsDd80hDbeLWog1bz1n3xKynd9cg==";
+        };
     in {
         "TA26XHgo" = _TA26XHgo;
         "FuKSO9xD" = _FuKSO9xD;
@@ -584,8 +604,12 @@ let
         "gZKxyCz1" = _gZKxyCz1;
         "DGEeLXuU" = _DGEeLXuU;
         "GrZ3WR83" = _GrZ3WR83;
-        "fabric-1.21.1" = _DGEeLXuU;
-        "neoforge-1.21.1" = _GrZ3WR83;
+        "mgsmdy8B" = _mgsmdy8B;
+        "KfuSZLkT" = _KfuSZLkT;
+        "3iILerfL" = _3iILerfL;
+        "wJAU9a8h" = _wJAU9a8h;
+        "fabric-1.21.1" = _3iILerfL;
+        "neoforge-1.21.1" = _wJAU9a8h;
         "pkg-0.3.0+1.21.1" = _FuKSO9xD;
         "pkg-0.3.2+1.21.1" = _c1ptr2i7;
         "pkg-0.3.3+1.21.1" = _a2v4f4w2;
@@ -635,7 +659,9 @@ let
         "pkg-0.11.3+1.21.1" = _MkwAUeSE;
         "pkg-0.11.4+1.21.1" = _gZKxyCz1;
         "pkg-0.11.5+1.21.1" = _GrZ3WR83;
-        "default" = _GrZ3WR83;
+        "pkg-0.11.6+1.21.1" = _KfuSZLkT;
+        "pkg-0.11.7+1.21.1" = _wJAU9a8h;
+        "default" = _wJAU9a8h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemonraiddens";

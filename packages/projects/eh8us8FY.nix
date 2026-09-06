@@ -126,6 +126,16 @@ let
             "file" = "txloader-1.8.11.jar";
             "hash" = "sha512-gxmnPQd3CVR8g/50B/V6nUhuKj5cEf/+LXq0PK77PxaZ5vcbsZblkcHzNWgYeS1TbTF2PC7fRu0decr2koCKRw==";
         };
+        _XOoqQiQ6 = {
+            "id" = "XOoqQiQ6";
+            "file" = "txloader-1.8.12.jar";
+            "hash" = "sha512-gOrJ9m3spAfwxkLMQYCLhSrhwLoG6WDdjTqqOIP5BixvpbX+Eh+uyBg9Kn42p4fN7G2031acTozzpAjH+WHWlA==";
+        };
+        _YLoz75W7 = {
+            "id" = "YLoz75W7";
+            "file" = "txloader-1.9.jar";
+            "hash" = "sha512-u+77Q37ERrgHPrZZTEaSa6J2mfPWl4n8VvvJYQOZ1aqe10jGute1xmrbPuFDeiMPHdzBuolNXuWvX1rzqW8VnA==";
+        };
     in {
         "PTdiEthA" = _PTdiEthA;
         "cCxsSzqY" = _cCxsSzqY;
@@ -152,7 +162,9 @@ let
         "zJDtgrDa" = _zJDtgrDa;
         "4EGQARoN" = _4EGQARoN;
         "PebXoMM1" = _PebXoMM1;
-        "forge-1.7.10" = _PebXoMM1;
+        "XOoqQiQ6" = _XOoqQiQ6;
+        "YLoz75W7" = _YLoz75W7;
+        "forge-1.7.10" = _YLoz75W7;
         "forge-1.12.2" = _EbDCfhZA;
         "pkg-1.0" = _PTdiEthA;
         "pkg-1.1" = _cCxsSzqY;
@@ -179,7 +191,9 @@ let
         "pkg-1.8.9" = _zJDtgrDa;
         "pkg-1.8.10" = _4EGQARoN;
         "pkg-1.8.11" = _PebXoMM1;
-        "default" = _PebXoMM1;
+        "pkg-1.8.12" = _XOoqQiQ6;
+        "pkg-1.9" = _YLoz75W7;
+        "default" = _YLoz75W7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tx-loader";

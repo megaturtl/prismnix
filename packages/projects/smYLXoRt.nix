@@ -786,6 +786,11 @@ let
             "file" = "immersive-winds-1.21.9-0.9.jar";
             "hash" = "sha512-i0AfmtqrXjxPyNVt5L3ZNwVV4mf1obDYdNKVsIBGS+1zWZhJR0987idWOVNaM04MqShJXHguaMuixa+SWmr2hA==";
         };
+        _jy6sc3rr = {
+            "id" = "jy6sc3rr";
+            "file" = "immersive-winds-26.1.2-1.0.jar";
+            "hash" = "sha512-n3nedHCho+vPwLyka2ABKcL3BeFpV2moVGXQQmE4J0ZnrwsFelsgbLueSk/IoYtsJA+0puT2hM4p+Un4jz3tKQ==";
+        };
     in {
         "IFhhN4pV" = _IFhhN4pV;
         "S6PFFIkk" = _S6PFFIkk;
@@ -944,6 +949,7 @@ let
         "MzApWsQs" = _MzApWsQs;
         "ficwBtQZ" = _ficwBtQZ;
         "wYSBLR6a" = _wYSBLR6a;
+        "jy6sc3rr" = _jy6sc3rr;
         "fabric-1.20.1" = _GBFiEULv;
         "fabric-1.19.4" = _qWVAtkQE;
         "fabric-1.20" = _l53gvNR5;
@@ -964,6 +970,7 @@ let
         "fabric-1.21.9" = _wYSBLR6a;
         "fabric-1.21.10" = _JcUtnueg;
         "fabric-1.21.11" = _380VWSlL;
+        "fabric-26.1.2" = _jy6sc3rr;
         "neoforge-1.19.4" = _qWVAtkQE;
         "neoforge-1.20" = _l53gvNR5;
         "neoforge-1.20.1" = _GBFiEULv;
@@ -984,6 +991,7 @@ let
         "neoforge-1.21.9" = _wYSBLR6a;
         "neoforge-1.21.10" = _JcUtnueg;
         "neoforge-1.21.11" = _380VWSlL;
+        "neoforge-26.1.2" = _jy6sc3rr;
         "pkg-Alpha-0.1" = _IFhhN4pV;
         "pkg-Alpha-0.2" = _S6PFFIkk;
         "pkg-Alpha-0.3" = _a7eXNANZ;
@@ -1018,7 +1026,8 @@ let
         "pkg-0.9+1.21.1" = _KggPLdvg;
         "pkg-0.9+1.21.4" = _4FvSvrmz;
         "pkg-0.9+1.21.11" = _380VWSlL;
-        "default" = _wYSBLR6a;
+        "pkg-1.0+26.1.2" = _jy6sc3rr;
+        "default" = _jy6sc3rr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-winds";

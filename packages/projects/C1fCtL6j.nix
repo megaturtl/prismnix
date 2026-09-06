@@ -21,18 +21,25 @@ let
             "file" = "coloraddition-1.1.0+1.7.3.jar";
             "hash" = "sha512-Re4406wfEX2TEbH5G1ncA5JGOpbKw1EpqP3Stde97tPpWGGXVIn7PNt7eDnW2NP7JoRMTtArvuXMedAYn+kaEA==";
         };
+        _mQ6askJq = {
+            "id" = "mQ6askJq";
+            "file" = "coloraddition-1.1.0+1.8.0.jar";
+            "hash" = "sha512-SXAiKmEeg/pKyYJ2GWzGVvQX+PVxz5HpwLlCMmqruJKYf6tXH7IAOVkApkZUTsku1e5jPEAwvXmkAB/IYuGEGw==";
+        };
     in {
         "k1UukIjI" = _k1UukIjI;
         "SdSPMpHU" = _SdSPMpHU;
         "HqneeGhY" = _HqneeGhY;
         "scGKdzcf" = _scGKdzcf;
+        "mQ6askJq" = _mQ6askJq;
         "fabric-1.20.1" = _HqneeGhY;
-        "fabric-1.21.1" = _scGKdzcf;
+        "fabric-1.21.1" = _mQ6askJq;
         "pkg-1.0.0+1.5.2" = _k1UukIjI;
         "pkg-1.0.0+1.7.3" = _SdSPMpHU;
         "pkg-1.1.0+1.5.2" = _HqneeGhY;
         "pkg-1.1.0+1.7.3" = _scGKdzcf;
-        "default" = _scGKdzcf;
+        "pkg-1.1.0+1.8.0" = _mQ6askJq;
+        "default" = _mQ6askJq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-color-addition";

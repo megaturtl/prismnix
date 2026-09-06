@@ -61,6 +61,11 @@ let
             "file" = "jlme-1.20.1forge-ver1.6d-all.jar";
             "hash" = "sha512-gVi82bCGmk9iqdTtYCltQlxWuOW+a1sJrwvaV7/vnmwYLy6BX1Tge51x+/dvPCVrFA6QfDKJiNbJ/PF3vOspug==";
         };
+        _9UINCivW = {
+            "id" = "9UINCivW";
+            "file" = "jlme-1.20.1forge-ver1.8-all.jar";
+            "hash" = "sha512-fDgQi0gSlZEmMg7IjSbiJGte82JSS7qZsBIMrohL3Ycpceox/22NMqtrLhLYXgTytYFj7f54DIXQh1LUMLbwZg==";
+        };
     in {
         "eA5VVgfJ" = _eA5VVgfJ;
         "GWCgF8Ly" = _GWCgF8Ly;
@@ -74,10 +79,11 @@ let
         "c8A4Ubcz" = _c8A4Ubcz;
         "2VrkVjBT" = _2VrkVjBT;
         "GXythJZl" = _GXythJZl;
+        "9UINCivW" = _9UINCivW;
         "neoforge-1.20.4" = _eA5VVgfJ;
         "neoforge-1.21" = _E1CV5HFb;
         "neoforge-1.21.1" = _E1CV5HFb;
-        "forge-1.20.1" = _GXythJZl;
+        "forge-1.20.1" = _9UINCivW;
         "forge-1.20.2" = _g4AcnHEY;
         "forge-1.20.3" = _g4AcnHEY;
         "forge-1.20.4" = _g4AcnHEY;
@@ -94,7 +100,8 @@ let
         "pkg-1.20.1forge-ver1.4" = _c8A4Ubcz;
         "pkg-1.20.1forge-ver1.4b" = _2VrkVjBT;
         "pkg-1.20.1forge-ver1.6d" = _GXythJZl;
-        "default" = _GXythJZl;
+        "pkg-1.20.1forge-ver1.8" = _9UINCivW;
+        "default" = _9UINCivW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "just-a-lot-more-enchantments";

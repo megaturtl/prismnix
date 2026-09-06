@@ -121,6 +121,106 @@ let
             "file" = "Foi1ys Lantern CorpsV0.2.1.jar";
             "hash" = "sha512-N7sZ9+dmtdYTrM2M+ePolw/NTNsCICdnkZ7eXMvI5xXLwbXo5RJYV/nePqJIxfH4INDlqIJMMhKWxxatLCvO6Q==";
         };
+        _UewMrAoP = {
+            "id" = "UewMrAoP";
+            "file" = "foi1ys_lanterns-0.3-fabric.jar";
+            "hash" = "sha512-XeKQwawz0N6QsW+IXdR/ItM4kirKsU6T8wLrPBLePTByhoGO9loj6Bj6c2IZ51aGTJz8yElWroePFSvvIbGgog==";
+        };
+        _4uHit3zE = {
+            "id" = "4uHit3zE";
+            "file" = "foi1ys_lanterns-0.3-forge.jar";
+            "hash" = "sha512-YyMGDxWv6zp5PJh5krOqzRYjqBMDVJOrvJaQvYth1wZsIkrpTSfZXmVauwA4km2zs9kvD0q1qk/9cUy8ZBkwiQ==";
+        };
+        _HILskcDV = {
+            "id" = "HILskcDV";
+            "file" = "foi1ys_lanterns-0.3.1-fabric.jar";
+            "hash" = "sha512-JrsG8YgmeR3lXyzCCUvH2g6hL0u8IWgXdCksUtj0r27nqy9f/WZAywtXi1UEi44cm+9akjadTDfSjl8sPcw5Qw==";
+        };
+        _RJcrdFAu = {
+            "id" = "RJcrdFAu";
+            "file" = "foi1ys_lanterns-0.3.1-forge.jar";
+            "hash" = "sha512-N5XlEhOdAwrQ0X22+mRmEfWsHe5oxKwQ1P8ahvVJcADd5SjPkqAokN/lbLO3i0aSBL1Nqm+bpzwlx9yi+4/ytg==";
+        };
+        _iI7YUx5t = {
+            "id" = "iI7YUx5t";
+            "file" = "foi1ys_lanterns-0.3.2-fabric.jar";
+            "hash" = "sha512-bZL9nTZcka4lnPisWA2sjLpQiXotgmnJFB+VsueIckb7t+xVtzf7UD/ihl/q1JmX/1Qz3u+OY5HimEXXie6aIA==";
+        };
+        _mNOr8tRh = {
+            "id" = "mNOr8tRh";
+            "file" = "foi1ys_lanterns-0.3.2-forge.jar";
+            "hash" = "sha512-b1p/9wmtU+rxsC0UAPva7zvwTo4TP3JPvYjov9U2a+TBRY3LqvaVeNb9wpq8KeC26IauuA226gJoICBpPLKtuw==";
+        };
+        _ixbUCUQb = {
+            "id" = "ixbUCUQb";
+            "file" = "foi1ys_lanterns-0.3.3-fabric.jar";
+            "hash" = "sha512-k2Qk56rWc8e6LDi8+DnC0T//DVoHf+sjCEuwKrXXy6hmTtdWBQOgm5u3LZdhZSJD9yLQKPUSLYADR3xrBQ+LUg==";
+        };
+        _g5RE2eQt = {
+            "id" = "g5RE2eQt";
+            "file" = "foi1ys_lanterns-0.3.3-forge.jar";
+            "hash" = "sha512-LNvJ7ccwDnhiqutEpccPMj7Bpn2AdVONTbRBpKeb0TmOy85sKcUlBHiUM5IVdShTXZMuw1mwfkBajQGn+DXoFg==";
+        };
+        _6wwjFdpD = {
+            "id" = "6wwjFdpD";
+            "file" = "foi1ys_lanterns-0.3.4-fabric.jar";
+            "hash" = "sha512-MkViscV5q0U0BZOCK5BXFV2jvNi1vQfmZnIVG2lglOSjZzYv+/LlV9BHlZxtL/5/Dh12OabwxEHchJjLMp378Q==";
+        };
+        _9mPqwstv = {
+            "id" = "9mPqwstv";
+            "file" = "foi1ys_lanterns-0.3.4-forge.jar";
+            "hash" = "sha512-YB7SPQuD3reLhnEjtXTT7LzpRI3fvIlAwopk5YeEsLJ8EQeUlm7RoGWXbZuwEp6H2fDiYFBcXp/57epMPjzj8Q==";
+        };
+        _hIYeYJ3T = {
+            "id" = "hIYeYJ3T";
+            "file" = "foi1ys_lanterns-0.3.5-fabric.jar";
+            "hash" = "sha512-fzl/UyMaoTZx522lkqt6qUi1F9TlWbkhDbYsbpRYVNLRBdh9IveLQP/72JfML8KvOxu1QoQ2zbAyTaOlcUl9gw==";
+        };
+        _sHtaf7Nu = {
+            "id" = "sHtaf7Nu";
+            "file" = "foi1ys_lanterns-0.3.5-forge.jar";
+            "hash" = "sha512-tPdD4XRhg4aGi3jfdFrb5wegBy+2IN54aJNUFczM/zTs9sPhIzdb72tC+R4XCx1V0wDFWnpH6NyfjxessFM0tg==";
+        };
+        _xPUhzTs8 = {
+            "id" = "xPUhzTs8";
+            "file" = "foi1ys_lanterns-0.3.6-fabric.jar";
+            "hash" = "sha512-5baqz8Of2NNqeCaCVtyPtDv2lkuLWe3CX65ubXhg7V0KCT3skks88UGSqW8AgclckwpUUdxb6Kqd7eWTS25fOQ==";
+        };
+        _YQcvDVS5 = {
+            "id" = "YQcvDVS5";
+            "file" = "foi1ys_lanterns-0.3.6-forge.jar";
+            "hash" = "sha512-kSBrNHEVS4D4dFHNCC36Q/NsyBQQhfZkbABW0fz7ofDqWKazbrRxmoW273WCRuveo1VeoyDlg0BcsoRtgYylhQ==";
+        };
+        _R3oeBRI1 = {
+            "id" = "R3oeBRI1";
+            "file" = "foi1ys_lanterns-0.3.7-fabric.jar";
+            "hash" = "sha512-2rB1eCbY7H4/wUimj06PIBL1YbDQ9nbMu8AZurGM7uyLtayYr2sNElETb015F5bgcv0Uff3bYlsYTv8TF8AQIQ==";
+        };
+        _9fZu04cn = {
+            "id" = "9fZu04cn";
+            "file" = "foi1ys_lanterns-0.3.7-forge.jar";
+            "hash" = "sha512-QAEjDSakJYXs9gKQXrl3otqKFzLQcWzYFjODyqHffl/j9RnBZbju9y7wA5L+QPufXOYrGPLuzBX3UoXl14p4NA==";
+        };
+        _BXENeR2K = {
+            "id" = "BXENeR2K";
+            "file" = "foi1ys_lanterns-0.3.8-fabric.jar";
+            "hash" = "sha512-vmI+UEJS92i9JA1Y2sOYb8VEckCZcgNv39kHjjflMZvjdPiPf/bvwq7gnkUQwEWxbA11UlWWIAd0qAMsybqpBQ==";
+        };
+        _PDOD1pgh = {
+            "id" = "PDOD1pgh";
+            "file" = "foi1ys_lanterns-0.3.8-forge.jar";
+            "hash" = "sha512-nSRvWjJ5iVeF2cXwkLV5cunwARKdUapIRUvVMJkjARysF3eKCgmvVWkhOGCMJkC1xIXxHSd7tQVq6rqmyreN9Q==";
+        };
+        _UOaU0KOU = {
+            "id" = "UOaU0KOU";
+            "file" = "foi1ys_lanterns-0.4.0-fabric.jar";
+            "hash" = "sha512-vv/PWykapGv3oni54EZuFgXXlX+XoyovvhiO7Rk03laB1E5Z+GCqwVXnvUuMjW7kuj599ymt+p3GUkkHvLPTDQ==";
+        };
+        _vok4bjhO = {
+            "id" = "vok4bjhO";
+            "file" = "foi1ys_lanterns-0.4.0-forge.jar";
+            "hash" = "sha512-5QfbkVfTY2eR3pocXLdaaoEv5pHBn/0cMCyeyGfADcDJh9agI8/JzopQXOctsMuOZeZOO55oOjNjVhVJsv+2rw==";
+        };
     in {
         "xylQsK6f" = _xylQsK6f;
         "rkJZNw2r" = _rkJZNw2r;
@@ -146,11 +246,31 @@ let
         "GzdSOCd3" = _GzdSOCd3;
         "qPsb0Sc0" = _qPsb0Sc0;
         "jDicugYu" = _jDicugYu;
-        "fabric-1.20.1" = _jDicugYu;
-        "forge-1.20.1" = _jDicugYu;
+        "UewMrAoP" = _UewMrAoP;
+        "4uHit3zE" = _4uHit3zE;
+        "HILskcDV" = _HILskcDV;
+        "RJcrdFAu" = _RJcrdFAu;
+        "iI7YUx5t" = _iI7YUx5t;
+        "mNOr8tRh" = _mNOr8tRh;
+        "ixbUCUQb" = _ixbUCUQb;
+        "g5RE2eQt" = _g5RE2eQt;
+        "6wwjFdpD" = _6wwjFdpD;
+        "9mPqwstv" = _9mPqwstv;
+        "hIYeYJ3T" = _hIYeYJ3T;
+        "sHtaf7Nu" = _sHtaf7Nu;
+        "xPUhzTs8" = _xPUhzTs8;
+        "YQcvDVS5" = _YQcvDVS5;
+        "R3oeBRI1" = _R3oeBRI1;
+        "9fZu04cn" = _9fZu04cn;
+        "BXENeR2K" = _BXENeR2K;
+        "PDOD1pgh" = _PDOD1pgh;
+        "UOaU0KOU" = _UOaU0KOU;
+        "vok4bjhO" = _vok4bjhO;
+        "fabric-1.20.1" = _UOaU0KOU;
+        "forge-1.20.1" = _vok4bjhO;
         "pkg-0.1" = _GzdSOCd3;
         "pkg-0.2" = _qPsb0Sc0;
-        "pkg-0.3" = _H4wdBa9H;
+        "pkg-0.3" = _4uHit3zE;
         "pkg-0.4" = _4Rofg7RD;
         "pkg-0.4.1" = _Z0vsHQlT;
         "pkg-0.4.2" = _AVrgLmiV;
@@ -169,7 +289,16 @@ let
         "pkg-7.0" = _k0fbWk7V;
         "pkg-7.1" = _RY0egg9W;
         "pkg-0.2.1" = _jDicugYu;
-        "default" = _jDicugYu;
+        "pkg-0.3.1" = _RJcrdFAu;
+        "pkg-0.3.2" = _mNOr8tRh;
+        "pkg-0.3.3" = _g5RE2eQt;
+        "pkg-0.3.4" = _9mPqwstv;
+        "pkg-0.3.5" = _sHtaf7Nu;
+        "pkg-0.3.6" = _YQcvDVS5;
+        "pkg-0.3.7" = _9fZu04cn;
+        "pkg-0.3.8" = _PDOD1pgh;
+        "pkg-0.4.0" = _vok4bjhO;
+        "default" = _vok4bjhO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "foi1y-lantern-corps";

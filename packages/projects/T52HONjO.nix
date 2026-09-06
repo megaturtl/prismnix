@@ -16,10 +16,16 @@ let
             "file" = "MCOptimizer-1.21.11.jar";
             "hash" = "sha512-K/UzuRjiupWfZBuIk3WQY0+/K5ITvKb9wA3DxKTDUUCUrmb+9vaY0jjSRdUYozTxFeA0CWcOr3uXgnXAKKkI8g==";
         };
+        _hJPaD1vC = {
+            "id" = "hJPaD1vC";
+            "file" = "MCOptimizer-1.2.3.jar";
+            "hash" = "sha512-lVH1IKS39MKWPYO1AiGemOU6wv+ScjpEm42fmIR3NKEVyQ1fpZ3tQEwaH5FuMlAaFG5F2Bvovv/mgVfXa1Io5A==";
+        };
     in {
         "pXhbcn34" = _pXhbcn34;
         "xJDbLWE2" = _xJDbLWE2;
         "qaJGUkEF" = _qaJGUkEF;
+        "hJPaD1vC" = _hJPaD1vC;
         "paper-1.21.4" = _qaJGUkEF;
         "paper-1.21.5" = _qaJGUkEF;
         "paper-1.21" = _qaJGUkEF;
@@ -32,7 +38,9 @@ let
         "paper-1.21.9" = _qaJGUkEF;
         "paper-1.21.10" = _qaJGUkEF;
         "paper-1.21.11" = _qaJGUkEF;
+        "paper-26.2" = _hJPaD1vC;
         "bukkit-1.21.5" = _xJDbLWE2;
+        "bukkit-26.2" = _hJPaD1vC;
         "spigot-1.21" = _qaJGUkEF;
         "spigot-1.21.1" = _qaJGUkEF;
         "spigot-1.21.2" = _qaJGUkEF;
@@ -45,10 +53,12 @@ let
         "spigot-1.21.9" = _qaJGUkEF;
         "spigot-1.21.10" = _qaJGUkEF;
         "spigot-1.21.11" = _qaJGUkEF;
+        "spigot-26.2" = _hJPaD1vC;
         "pkg-1.0.0" = _pXhbcn34;
         "pkg-1.0.1" = _xJDbLWE2;
         "pkg-1.2.2" = _qaJGUkEF;
-        "default" = _qaJGUkEF;
+        "pkg-1.2.3" = _hJPaD1vC;
+        "default" = _hJPaD1vC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcoptimiser";

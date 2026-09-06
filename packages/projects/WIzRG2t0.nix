@@ -21,18 +21,25 @@ let
             "file" = "Vought Reborn™ Fabric-Forge-1.1.5.jar";
             "hash" = "sha512-OWFkbQEBhc79FuGe+P0hM54BtEfmYn45W3+ZTLf1Y1BOFzOo19HMQ/fBLYnSP8h+jg2v0sBW/3src7zpXtDMvw==";
         };
+        _UIZ1rA70 = {
+            "id" = "UIZ1rA70";
+            "file" = "Vought Reborn™ Fabric-Forge-1.1.6.jar";
+            "hash" = "sha512-1gNvtJWXCgfzXX38oFphw/C7211ZnEcCBD3/Z0r+383CfGQkKZy8cv9e13gx5jYp9EVqdwY0xqeU6eLcgap/ew==";
+        };
     in {
         "8e7b7c3d" = _8e7b7c3d;
         "RQLP91Kw" = _RQLP91Kw;
         "wFGU10ul" = _wFGU10ul;
         "w4n5Yr8E" = _w4n5Yr8E;
-        "fabric-1.20.1" = _w4n5Yr8E;
-        "forge-1.20.1" = _w4n5Yr8E;
+        "UIZ1rA70" = _UIZ1rA70;
+        "fabric-1.20.1" = _UIZ1rA70;
+        "forge-1.20.1" = _UIZ1rA70;
         "pkg-1.0.2" = _8e7b7c3d;
         "pkg-1.0.2-patch" = _RQLP91Kw;
         "pkg-1.0.5" = _wFGU10ul;
         "pkg-1.1.5" = _w4n5Yr8E;
-        "default" = _w4n5Yr8E;
+        "pkg-1.1.6" = _UIZ1rA70;
+        "default" = _UIZ1rA70;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vought-reborn";

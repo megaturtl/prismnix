@@ -361,6 +361,11 @@ let
             "file" = "ToadLib-1.5.0-26.1-26.1.2.jar";
             "hash" = "sha512-sW+ydv01TvFT6NAO4iseN2avybUk9HCl6A/7wB8SSoqJTcEBHU1p8jV4uapTIxNIek8rX6i+VuiHZci2GuY/XA==";
         };
+        _wwzXBuVD = {
+            "id" = "wwzXBuVD";
+            "file" = "ToadLib-26.2-1.5.1-fabric.jar";
+            "hash" = "sha512-69uV8Yey1TSKeTfTwiUEh1h9ivNF4mp+fWRw+L2oQI+A2qbKNA2amZnVVUn5bAkukvucpwgy/XcDIic4TMzxEg==";
+        };
     in {
         "xuHVA4G7" = _xuHVA4G7;
         "nAiwfu2E" = _nAiwfu2E;
@@ -434,6 +439,7 @@ let
         "ChwyBkOX" = _ChwyBkOX;
         "GRklnAqI" = _GRklnAqI;
         "yCxROKfw" = _yCxROKfw;
+        "wwzXBuVD" = _wwzXBuVD;
         "forge-1.19.4" = _t5emrqsG;
         "forge-1.20" = _C8Nh7OYF;
         "forge-1.20.1" = _GRklnAqI;
@@ -463,6 +469,7 @@ let
         "fabric-26.1" = _yCxROKfw;
         "fabric-26.1.1" = _yCxROKfw;
         "fabric-26.1.2" = _yCxROKfw;
+        "fabric-26.2" = _wwzXBuVD;
         "quilt-1.20" = _xAoUP27h;
         "quilt-1.20.1" = _xAoUP27h;
         "quilt-1.20.2" = _g99Doc4p;
@@ -481,6 +488,7 @@ let
         "quilt-26.1" = _yCxROKfw;
         "quilt-26.1.1" = _yCxROKfw;
         "quilt-26.1.2" = _yCxROKfw;
+        "quilt-26.2" = _wwzXBuVD;
         "neoforge-1.20.2" = _KkPHHUaj;
         "neoforge-1.20.3" = _KkPHHUaj;
         "neoforge-1.20.4" = _KkPHHUaj;
@@ -561,7 +569,8 @@ let
         "pkg-1.3.5S-2-1.20.1-forge" = _ChwyBkOX;
         "pkg-1.3.5S-3-1.20.1-forge" = _GRklnAqI;
         "pkg-1.5.0-26.1x-fabric" = _yCxROKfw;
-        "default" = _yCxROKfw;
+        "pkg-1.5.1-26.2-fabric" = _wwzXBuVD;
+        "default" = _wwzXBuVD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "toadlib";

@@ -26,12 +26,18 @@ let
             "file" = "sophisticated_emerald_upgrade-1.0.5.jar";
             "hash" = "sha512-Gg4TVPhPEFPPJd4PD8dL4Y8vfwPGsWuUAmtSiXGuhWyxsppNYLurm8I2KkcNhYOI3m0/uLk47Gll3szDSyW5Ow==";
         };
+        _byxteGGk = {
+            "id" = "byxteGGk";
+            "file" = "sophisticated_emerald_upgrade-1.0.6.jar";
+            "hash" = "sha512-8BShVBSSHcCttPLBwwlhYvfw+EF5oyawWJwXxZEdJbyA5c5P3hW/yAta5o0cf6uk4rEIqssPS08szbbcCLXvvQ==";
+        };
     in {
         "MtnvEiK0" = _MtnvEiK0;
         "ippP98ZZ" = _ippP98ZZ;
         "NrOezCBu" = _NrOezCBu;
         "aBABL3Nv" = _aBABL3Nv;
         "L6tCE9U5" = _L6tCE9U5;
+        "byxteGGk" = _byxteGGk;
         "neoforge-1.21" = _MtnvEiK0;
         "neoforge-1.21.1" = _L6tCE9U5;
         "neoforge-1.21.2" = _MtnvEiK0;
@@ -40,12 +46,14 @@ let
         "neoforge-1.21.5" = _MtnvEiK0;
         "neoforge-1.21.8" = _MtnvEiK0;
         "neoforge-1.21.11" = _NrOezCBu;
-        "neoforge-26.1.1" = _aBABL3Nv;
-        "neoforge-26.1.2" = _aBABL3Nv;
+        "neoforge-26.1.1" = _byxteGGk;
+        "neoforge-26.1.2" = _byxteGGk;
+        "neoforge-26.2" = _byxteGGk;
         "pkg-1.0.3-NeoForge-1.21.1" = _MtnvEiK0;
         "pkg-1.0.4" = _aBABL3Nv;
         "pkg-1.0.5" = _L6tCE9U5;
-        "default" = _L6tCE9U5;
+        "pkg-1.0.6" = _byxteGGk;
+        "default" = _byxteGGk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sophisticated-backpackstorage-emerald-upgrade";

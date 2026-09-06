@@ -21,18 +21,25 @@ let
             "file" = "nomindlessshooting-2.2.0-1.20.1.jar";
             "hash" = "sha512-6E8zQHmrwh/3MYlj6tPQkEBHq+ClEoXucLbCC8POvn1IfEma79LdLJgfteOlrPTIdIONesrmJxugCeCTwl7mvA==";
         };
+        _zMs3HmuR = {
+            "id" = "zMs3HmuR";
+            "file" = "nomindlessshooting-2.3.0-1.20.1.jar";
+            "hash" = "sha512-svsqYS/fgcwXh5nlyXcc1XUBt6XbCOqnoEgCTNLEbEs5FQAJoKi614+34LpiCPOag1k14p9S4lFNV5F7BwT5mg==";
+        };
     in {
         "4cLGjsIv" = _4cLGjsIv;
         "b1q51A6W" = _b1q51A6W;
         "B6UbtZTS" = _B6UbtZTS;
         "Vk38qvtd" = _Vk38qvtd;
-        "forge-1.20.1" = _Vk38qvtd;
+        "zMs3HmuR" = _zMs3HmuR;
+        "forge-1.20.1" = _zMs3HmuR;
         "neoforge-1.20.1" = _Vk38qvtd;
         "pkg-1.0.0-1.20.1" = _4cLGjsIv;
         "pkg-2.0.0-1.20.1" = _b1q51A6W;
         "pkg-2.1.0-1.20.1" = _B6UbtZTS;
         "pkg-2.2.0-1.20.1" = _Vk38qvtd;
-        "default" = _Vk38qvtd;
+        "pkg-2.3.0-1.20.1" = _zMs3HmuR;
+        "default" = _zMs3HmuR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-mindless-shooting";

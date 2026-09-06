@@ -46,6 +46,11 @@ let
             "file" = "Dungeons Redone v0.3.3B.zip";
             "hash" = "sha512-+fv67eVQyElfGsjMJaetIc9TvniBzA4wQR+XGCpaUv8HPQuZOkfivbJPClT9bHC0BHf0y2dhtmhYS2LINRgpGA==";
         };
+        _EKrZhZlu = {
+            "id" = "EKrZhZlu";
+            "file" = "Dungeons Redone v0.3.4.zip";
+            "hash" = "sha512-XRgP7wYcUtpT6q1bTx/fWG0E7iHrUcdwFC2gdeceYNQFIhLcgJkDinOH+fcOazy6IPyZ0S2imoEgobq8cBqYPw==";
+        };
     in {
         "w40c4NB6" = _w40c4NB6;
         "H1H1n1q0" = _H1H1n1q0;
@@ -56,17 +61,18 @@ let
         "6dHxGMlH" = _6dHxGMlH;
         "4AZdR9uH" = _4AZdR9uH;
         "bjVrJEji" = _bjVrJEji;
-        "minecraft-1.21.5" = _bjVrJEji;
-        "minecraft-1.21.6" = _bjVrJEji;
-        "minecraft-1.21.7" = _bjVrJEji;
-        "minecraft-1.21.8" = _bjVrJEji;
-        "minecraft-1.21.9" = _bjVrJEji;
-        "minecraft-1.21.10" = _bjVrJEji;
-        "minecraft-1.21.11" = _bjVrJEji;
-        "minecraft-26.1" = _bjVrJEji;
-        "minecraft-26.1.1" = _bjVrJEji;
-        "minecraft-26.1.2" = _bjVrJEji;
-        "minecraft-26.2" = _bjVrJEji;
+        "EKrZhZlu" = _EKrZhZlu;
+        "minecraft-1.21.5" = _EKrZhZlu;
+        "minecraft-1.21.6" = _EKrZhZlu;
+        "minecraft-1.21.7" = _EKrZhZlu;
+        "minecraft-1.21.8" = _EKrZhZlu;
+        "minecraft-1.21.9" = _EKrZhZlu;
+        "minecraft-1.21.10" = _EKrZhZlu;
+        "minecraft-1.21.11" = _EKrZhZlu;
+        "minecraft-26.1" = _EKrZhZlu;
+        "minecraft-26.1.1" = _EKrZhZlu;
+        "minecraft-26.1.2" = _EKrZhZlu;
+        "minecraft-26.2" = _EKrZhZlu;
         "pkg-v0.1" = _w40c4NB6;
         "pkg-v0.2" = _H1H1n1q0;
         "pkg-v0.2.1" = _KJEqDOPC;
@@ -75,7 +81,8 @@ let
         "pkg-v0.3.2" = _6dHxGMlH;
         "pkg-v0.3.3A" = _4AZdR9uH;
         "pkg-v0.3.3B" = _bjVrJEji;
-        "default" = _bjVrJEji;
+        "pkg-v0.3.4" = _EKrZhZlu;
+        "default" = _EKrZhZlu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dungeons-redone";

@@ -31,6 +31,11 @@ let
             "file" = "pillagersplus-6.0.5-forge-1.20.1.jar";
             "hash" = "sha512-Vo04PaioMEMWpoO3YmGEPwO5O3yDotB8F+gafO+ptKZZqUqx0EogcC2w1pEKtFcYUChMX/R58af2nuYCyLaVHQ==";
         };
+        _VCuWobn8 = {
+            "id" = "VCuWobn8";
+            "file" = "pillagersplus-6.0.6-forge-1.20.1.jar";
+            "hash" = "sha512-bwgoB9UeCIAxKDRSj2n16I3EsfwTUCTcBbDIP9j8jnrPR3NInbUp1J961abPYbyRJGw3m7g9mE6oeIHo3TXRWw==";
+        };
     in {
         "U3esjD8f" = _U3esjD8f;
         "Js7zOhdP" = _Js7zOhdP;
@@ -38,14 +43,16 @@ let
         "Pql1w1rk" = _Pql1w1rk;
         "30jDMDK8" = _30jDMDK8;
         "obO1jiKa" = _obO1jiKa;
-        "forge-1.20.1" = _obO1jiKa;
+        "VCuWobn8" = _VCuWobn8;
+        "forge-1.20.1" = _VCuWobn8;
         "pkg-1.0.0" = _U3esjD8f;
         "pkg-4.0.1" = _Js7zOhdP;
         "pkg-6.0.2" = _qm8wGlGX;
         "pkg-6.0.3" = _Pql1w1rk;
         "pkg-6.0.4" = _30jDMDK8;
         "pkg-6.0.5" = _obO1jiKa;
-        "default" = _obO1jiKa;
+        "pkg-6.0.6" = _VCuWobn8;
+        "default" = _VCuWobn8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pillagersplus";

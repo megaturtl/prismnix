@@ -140,7 +140,7 @@ let
         "default" = _NamM1xN5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
-        name = "better-side-shield-universal";
+        name = "smooth-side-shield";
         id = "NFhi63Wo";
         type = "resourcepack";
         versions = versions;

@@ -41,6 +41,11 @@ let
             "file" = "cosmonautics-26.08.292.jar";
             "hash" = "sha512-cDtuNQEIfcBGY8nkf9ZS25UG8dgl5xti9zaXpIKD4EHGNU3/wpyFrm2/R9yQbz1z/+iLv1chKpplbj173aBoKA==";
         };
+        _HuCMavv8 = {
+            "id" = "HuCMavv8";
+            "file" = "cosmonautics-26.08.307.jar";
+            "hash" = "sha512-cv8b5/MXZ+tkY1pf2CdChBCwiZ/lQx+VG7SrKgBu0QW/HK4kuAPVGlsYsGf1+VbEk7uCdXOyJWfiBLay2EoN6A==";
+        };
     in {
         "hAK3s9Fq" = _hAK3s9Fq;
         "Vu6FemT0" = _Vu6FemT0;
@@ -50,7 +55,8 @@ let
         "4hX6lMHg" = _4hX6lMHg;
         "zByRPW0K" = _zByRPW0K;
         "ouy1OyBj" = _ouy1OyBj;
-        "neoforge-1.21.1" = _ouy1OyBj;
+        "HuCMavv8" = _HuCMavv8;
+        "neoforge-1.21.1" = _HuCMavv8;
         "pkg-1.3.8-rc.8" = _hAK3s9Fq;
         "pkg-1.4.0rc1" = _Vu6FemT0;
         "pkg-26.07.270" = _c6IOumoH;
@@ -59,7 +65,8 @@ let
         "pkg-26.07.289" = _4hX6lMHg;
         "pkg-26.08.291" = _zByRPW0K;
         "pkg-26.08.292" = _ouy1OyBj;
-        "default" = _ouy1OyBj;
+        "pkg-26.08.307" = _HuCMavv8;
+        "default" = _HuCMavv8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-cosmonatics";

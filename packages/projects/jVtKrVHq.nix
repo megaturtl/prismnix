@@ -286,6 +286,11 @@ let
             "file" = "cryofloric_arts-1.53.jar";
             "hash" = "sha512-hrmMDgs2s2HL5k0CxXzZyxSETXtKwwMQUNyypMuCnPZkYqPGMR2MnmIlJsqV+RdbXd6PlkCKxOoK6pZ/NZpTpQ==";
         };
+        _983CIsWs = {
+            "id" = "983CIsWs";
+            "file" = "cryofloric_arts-1.54.jar";
+            "hash" = "sha512-zK9ER+EskTCyjvUreWDrMNQbb27nwfTsn5/EiNozkbX5qzlhV+dKSChpnqhDM75LlJZsdaA/omw7XrJYi1cZvA==";
+        };
     in {
         "Lugxjn84" = _Lugxjn84;
         "z1zmqC3l" = _z1zmqC3l;
@@ -344,8 +349,9 @@ let
         "jeqMJ7GS" = _jeqMJ7GS;
         "afb7QRnF" = _afb7QRnF;
         "mpewd2zy" = _mpewd2zy;
-        "forge-1.20.1" = _mpewd2zy;
-        "neoforge-1.20.1" = _mpewd2zy;
+        "983CIsWs" = _983CIsWs;
+        "forge-1.20.1" = _983CIsWs;
+        "neoforge-1.20.1" = _983CIsWs;
         "pkg-1.0" = _Lugxjn84;
         "pkg-1.01" = _z1zmqC3l;
         "pkg-1.02" = _feEyHHO1;
@@ -403,7 +409,8 @@ let
         "pkg-1.51" = _jeqMJ7GS;
         "pkg-1.52" = _afb7QRnF;
         "pkg-1.53" = _mpewd2zy;
-        "default" = _mpewd2zy;
+        "pkg-1.54" = _983CIsWs;
+        "default" = _983CIsWs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cryofloric-arts";

@@ -281,6 +281,26 @@ let
             "file" = "stockmarket-fabric-1.21.1-2.0.7.jar";
             "hash" = "sha512-zduE5JEkTB9qwpW8ihigi0VV/J+RF5ODAf/kN8U8pNGf6G7Pn6l/jhGhqK8UMlHsO4XUt4nD5KmNqto8yVrEFA==";
         };
+        _SV2g6SPk = {
+            "id" = "SV2g6SPk";
+            "file" = "stockmarket-neoforge-1.21.1-2.1.0.jar";
+            "hash" = "sha512-tleGN/HI4XX1PhROirzZmxPMznJ+cZgKN/gP83RLjNpaBjlMOtlDF6oRTAXvW2/iZOR5KfeMXons6TpKEZrfNQ==";
+        };
+        _Xx1yid7Q = {
+            "id" = "Xx1yid7Q";
+            "file" = "stockmarket-fabric-1.21.1-2.1.0.jar";
+            "hash" = "sha512-ueJ9xyRVoDb4Hr0QPGrBzuNeNkEdQ8Jd2lth7vrTonMKh4mQsbXip1YkhuMVIlMkxuJGBjYCY2NgDTXQINthOA==";
+        };
+        _rjDqBSJY = {
+            "id" = "rjDqBSJY";
+            "file" = "stockmarket-fabric-1.21.1-2.1.1.jar";
+            "hash" = "sha512-vielMH7YPB+zZ7aoQUtPuFqFooQyFZ+bIvKYm0FmLi4IzkuQCOlVn5nscRI1Ozr5Pv8OWKaaNGMPmTy5rGldWA==";
+        };
+        _hNAhTWkR = {
+            "id" = "hNAhTWkR";
+            "file" = "stockmarket-neoforge-1.21.1-2.1.1.jar";
+            "hash" = "sha512-ZzKpu9yBByaq9IPaUhMdWOvyIE6tJ0UeTlRbvQr8wixXQNuG9KRDkmtIsH11QaOLbYUW41zuCpRVn6zY2DDAyQ==";
+        };
     in {
         "vS0BBdLq" = _vS0BBdLq;
         "bPrJFWZj" = _bPrJFWZj;
@@ -338,6 +358,10 @@ let
         "FaumZlVO" = _FaumZlVO;
         "tFOibdlH" = _tFOibdlH;
         "jje7VUJW" = _jje7VUJW;
+        "SV2g6SPk" = _SV2g6SPk;
+        "Xx1yid7Q" = _Xx1yid7Q;
+        "rjDqBSJY" = _rjDqBSJY;
+        "hNAhTWkR" = _hNAhTWkR;
         "fabric-1.20.1" = _nSLhtRo9;
         "fabric-1.19.2" = _UqAThDcC;
         "fabric-1.19.3" = _dUADxZ7X;
@@ -345,7 +369,7 @@ let
         "fabric-1.20.2" = _RExkaSya;
         "fabric-1.20.4" = _34JBmzZF;
         "fabric-1.21" = _1FPslSum;
-        "fabric-1.21.1" = _jje7VUJW;
+        "fabric-1.21.1" = _rjDqBSJY;
         "fabric-1.20.6" = _unaDAsZ9;
         "forge-1.20.1" = _CgSzmppo;
         "forge-1.19.2" = _LexcOyM4;
@@ -360,7 +384,7 @@ let
         "quilt-1.20.4" = _CDjHaSnC;
         "neoforge-1.20.6" = _scXN16wd;
         "neoforge-1.21" = _YEBgjhc8;
-        "neoforge-1.21.1" = _tFOibdlH;
+        "neoforge-1.21.1" = _hNAhTWkR;
         "pkg-1.2.0" = _dKOBHxoL;
         "pkg-1.2.3" = _AK90FzCW;
         "pkg-1.3.0" = _r2VuDxHO;
@@ -368,7 +392,9 @@ let
         "pkg-1.21.1-2.0.5" = _nBFqZA40;
         "pkg-1.21.1-2.0.6" = _FaumZlVO;
         "pkg-1.21.1-2.0.7" = _jje7VUJW;
-        "default" = _jje7VUJW;
+        "pkg-1.21.1-2.1.0" = _Xx1yid7Q;
+        "pkg-1.21.1-2.1.1" = _hNAhTWkR;
+        "default" = _hNAhTWkR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kroia_stockmarket";

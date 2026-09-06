@@ -86,6 +86,56 @@ let
             "file" = "create_biotech-1.20.1-1.2.2.jar";
             "hash" = "sha512-r0u0sROrPuCIFqvoAQKpeTfHDVE6I15fW6LtpEuCgDqO72coG8gsqE5bZfxIj59vLNktYz+rbLJ5amCj+untXA==";
         };
+        _qeABZxby = {
+            "id" = "qeABZxby";
+            "file" = "create_biotech-1.20.1-1.2.3.jar";
+            "hash" = "sha512-DeCszHNwNBYDZ1lktAtq0jW4w+5yc795w1uFuiQeO6txoKAJquGLZKq4BX4rrWWCqi/dvuBqgCo1tTblkHOoUQ==";
+        };
+        _1mag8uxv = {
+            "id" = "1mag8uxv";
+            "file" = "create_biotech-1.21.1-1.2.6.jar";
+            "hash" = "sha512-yU27c/byM2ODBWFKLXdFXywNr0H/D2ApsYu4Vw6EKlzDUEYTC/ZYurIpMe/8DU1uNMDT4oqLTeZUqMPejblRGg==";
+        };
+        _QFpoEsmD = {
+            "id" = "QFpoEsmD";
+            "file" = "create_biotech-1.20.1-1.2.4.jar";
+            "hash" = "sha512-ZY6h/GIkKrOtkCMciklTnZoacVR981nUEwPCH32QQtWXqvUb5/UIgzTXyrvuSFCdvQk8TFZsdm2bejp486UWRQ==";
+        };
+        _E0rjYLTz = {
+            "id" = "E0rjYLTz";
+            "file" = "create_biotech-1.20.1-1.2.5.jar";
+            "hash" = "sha512-iQwaHG+8hQllwzJdzXzz0b71GXsu1W62MAIbv8ff1xrg14LdicFAcorrBFZFwxSVcztFlT5078zCrEq1fW8VWQ==";
+        };
+        _FnAJIhUy = {
+            "id" = "FnAJIhUy";
+            "file" = "create_biotech-1.20.1-1.2.5.1.jar";
+            "hash" = "sha512-VoBAjfSLSbk6JVs4iCepDP7WQEk+o1w9jgR96C3qHn39acn0NkaDY731oWscmIi4HPaV1boVVgRII8eUTUrcYw==";
+        };
+        _VbObdSVE = {
+            "id" = "VbObdSVE";
+            "file" = "create_biotech-1.21.1-1.2.7.jar";
+            "hash" = "sha512-bRuTh9HD2b3vQayZxMRS1IeOI+2jsfrrkPZ7b4DMGWxoZIbgcNGjH6VEJuHbMBGAgOAu53FbuCdbUxZJAn79JQ==";
+        };
+        _JRgVjTTE = {
+            "id" = "JRgVjTTE";
+            "file" = "create_biotech-1.21.1-1.3.0.jar";
+            "hash" = "sha512-UjJQ6cpak//uhVfu5kd72RbXQSxj7pq0XZ1lVfJSNmduLbKyqDXFivWCuGYoyswcPHRQBG30f7qRFUgMHWqc6w==";
+        };
+        _f1Q5FOfN = {
+            "id" = "f1Q5FOfN";
+            "file" = "create_biotech-1.21.1-1.3.0.1.jar";
+            "hash" = "sha512-8g6rZpdFaNVXjX0NXp5Ce3q+Y9hDfjSb3d3j2k0txOuz088xA2cYFC7iSMkYaxl5es7+BchpVtHocAVJzasrZA==";
+        };
+        _2xbUchfU = {
+            "id" = "2xbUchfU";
+            "file" = "create_biotech-1.20.1-1.3.0.jar";
+            "hash" = "sha512-JrJkiXHO0m4g4Wks3oMlhBBxK1+5SISgV+gt/gpGoVVBzEFFKR/p1y4Ob4Mtwg8Xt+9QIW5MqJbzKCvOAt/5Nw==";
+        };
+        _Y7ktTdpL = {
+            "id" = "Y7ktTdpL";
+            "file" = "create_biotech-1.21.1-1.3.1.jar";
+            "hash" = "sha512-pGE1XKMC4OAZD3G9T/OYDsVX4jLIaAUqzzfgObMGGmNmbIw4+x8bEQCbnMO2kQ26jFicqGpSy1sgOvoslfyffA==";
+        };
     in {
         "Qq2gSZRC" = _Qq2gSZRC;
         "b8cTREO2" = _b8cTREO2;
@@ -104,8 +154,18 @@ let
         "BKQgkRS3" = _BKQgkRS3;
         "ujxTqoi1" = _ujxTqoi1;
         "dUaL8xWJ" = _dUaL8xWJ;
-        "forge-1.20.1" = _dUaL8xWJ;
-        "neoforge-1.21.1" = _ujxTqoi1;
+        "qeABZxby" = _qeABZxby;
+        "1mag8uxv" = _1mag8uxv;
+        "QFpoEsmD" = _QFpoEsmD;
+        "E0rjYLTz" = _E0rjYLTz;
+        "FnAJIhUy" = _FnAJIhUy;
+        "VbObdSVE" = _VbObdSVE;
+        "JRgVjTTE" = _JRgVjTTE;
+        "f1Q5FOfN" = _f1Q5FOfN;
+        "2xbUchfU" = _2xbUchfU;
+        "Y7ktTdpL" = _Y7ktTdpL;
+        "forge-1.20.1" = _2xbUchfU;
+        "neoforge-1.21.1" = _Y7ktTdpL;
         "pkg-0.1.0" = _Qq2gSZRC;
         "pkg-1.0.1" = _b8cTREO2;
         "pkg-1.0.2" = _agibO3N8;
@@ -116,10 +176,16 @@ let
         "pkg-1.2.1.1" = _KMXxJp32;
         "pkg-1.2.2" = _dUaL8xWJ;
         "pkg-1.2.2.1" = _45zGUDx6;
-        "pkg-1.2.3" = _tkK1oyLS;
-        "pkg-1.2.4" = _BKQgkRS3;
-        "pkg-1.2.5" = _ujxTqoi1;
-        "default" = _dUaL8xWJ;
+        "pkg-1.2.3" = _qeABZxby;
+        "pkg-1.2.4" = _QFpoEsmD;
+        "pkg-1.2.5" = _E0rjYLTz;
+        "pkg-1.2.6" = _1mag8uxv;
+        "pkg-1.2.5.1" = _FnAJIhUy;
+        "pkg-1.2.7" = _VbObdSVE;
+        "pkg-1.3.0" = _2xbUchfU;
+        "pkg-1.3.0.1" = _f1Q5FOfN;
+        "pkg-1.3.1" = _Y7ktTdpL;
+        "default" = _Y7ktTdpL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-biotech";

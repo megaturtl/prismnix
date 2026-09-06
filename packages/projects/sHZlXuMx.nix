@@ -401,6 +401,26 @@ let
             "file" = "masks-n-glory-v66-1.20.1.jar";
             "hash" = "sha512-yWlnk5KsnuKZGvacsCInu5FXqq+wMsYb5a7+N/CKobs5CcQuSsYmQBPGEvSDpfjZ8KQJbmL+qaenmOYTvdZzkQ==";
         };
+        _O6glhPdd = {
+            "id" = "O6glhPdd";
+            "file" = "masks-n-glory-v67-1.20.1.jar";
+            "hash" = "sha512-SCHCAEOq1R5uePQiXBL4Syks69dLcqttwTAEoXLBfJVV9BKhK9+fxCtykDyLa88RTX5Xz3QRZtUn1HJOM3NsrA==";
+        };
+        _wONx3SIG = {
+            "id" = "wONx3SIG";
+            "file" = "masks-n-glory-v68-1.20.1.jar";
+            "hash" = "sha512-lUjDmdUWY8gV6n4H5/NirJK3ttNpoLha/IArm51iT8gmJffjMibo0LH9+5tyIT38qHnn9lT5qhcRsREQ0K/JgA==";
+        };
+        _ESdA7gLt = {
+            "id" = "ESdA7gLt";
+            "file" = "masks-n-glory-v69-1.20.1.jar";
+            "hash" = "sha512-ikPWiznX0kw1fAoAxEeIkOXeNoHfS1wuxQa6QlJ2n0EWWwN7Gvj44HjVbiGzGNZfh3ungb3UJ7R5N5e5S/xRQQ==";
+        };
+        _LQRDQLTt = {
+            "id" = "LQRDQLTt";
+            "file" = "masks-n-glory-v70-1.20.1.jar";
+            "hash" = "sha512-u2PcDyYCK2IvkpWvuRspBUg2m1gcs/c8bOwwlpimwHpiYTsIUZpJ2MXHxG21TT7kBD+aGzt4OUd9CCWrxGJNmg==";
+        };
     in {
         "zdlsFjoJ" = _zdlsFjoJ;
         "l928lrOf" = _l928lrOf;
@@ -482,7 +502,11 @@ let
         "J0xtVzSp" = _J0xtVzSp;
         "OtqOa8OG" = _OtqOa8OG;
         "4brYsNcJ" = _4brYsNcJ;
-        "fabric-1.20.1" = _4brYsNcJ;
+        "O6glhPdd" = _O6glhPdd;
+        "wONx3SIG" = _wONx3SIG;
+        "ESdA7gLt" = _ESdA7gLt;
+        "LQRDQLTt" = _LQRDQLTt;
+        "fabric-1.20.1" = _LQRDQLTt;
         "pkg-0.1-1.20.1" = _zdlsFjoJ;
         "pkg-0.2-1.20.1" = _l928lrOf;
         "pkg-0.3-1.20.1" = _kIDxrXiB;
@@ -562,7 +586,11 @@ let
         "pkg-65" = _J0xtVzSp;
         "pkg-66" = _OtqOa8OG;
         "pkg-67" = _4brYsNcJ;
-        "default" = _4brYsNcJ;
+        "pkg-68" = _O6glhPdd;
+        "pkg-69" = _wONx3SIG;
+        "pkg-70" = _ESdA7gLt;
+        "pkg-71" = _LQRDQLTt;
+        "default" = _LQRDQLTt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "masks-n-glory";

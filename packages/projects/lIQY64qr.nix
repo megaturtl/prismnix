@@ -231,6 +231,46 @@ let
             "file" = "tiptapshow-1.6.9+26.2.jar";
             "hash" = "sha512-WCvxZRyKxPBf9p1RRKFfJ2wgj/3/+pEDelbH+VReN0q4aCN9NgQNzWTi6wFTnYXYV3YWAXDx2FkaJjWJXNj2NQ==";
         };
+        _GcwVGofp = {
+            "id" = "GcwVGofp";
+            "file" = "tiptapshow-2.0.0+1.21.4.jar";
+            "hash" = "sha512-3TflIDqHFY+iVarcPoZqLg1+m+tgO6qZhmnjfWo8aZOHr2OfsCaHwU89t/8x62WljN3bwlT3wPY4R/r+naLSwg==";
+        };
+        _c1kTv1RX = {
+            "id" = "c1kTv1RX";
+            "file" = "tiptapshow-2.0.0+1.21.8.jar";
+            "hash" = "sha512-+VpuLYwyqxBrmhKel66BFX7/XPvYPMQ3ZfDr4bnP8kDQ7gbHo88pG2yyuHF28W03jI9CenhZs/naQyvm2Y/idA==";
+        };
+        _sJic9EOM = {
+            "id" = "sJic9EOM";
+            "file" = "tiptapshow-2.0.0+1.21.10.jar";
+            "hash" = "sha512-7nNL4sTVyApyXlfoOiN++qJThXZvg4bu9XOE/42+aPDgyJSWDsPcBrrDZSixneK3A1QXuH7e7f6FqbaT310fMA==";
+        };
+        _DTs0nTbx = {
+            "id" = "DTs0nTbx";
+            "file" = "tiptapshow-2.0.0+1.21.11.jar";
+            "hash" = "sha512-e/CUMam73dd7gz6IiYuT5RhA5HeNyUnTUn9jQV6/jmO7uus+hIbA0Qhsn+1PBHPg1kYmwGPvijulI8vpXmkpOg==";
+        };
+        _kEx79l3K = {
+            "id" = "kEx79l3K";
+            "file" = "tiptapshow-2.0.0+26.1.jar";
+            "hash" = "sha512-SJswOGaKLutx20Pf3f5zB2nPA3GI16s0046D/YnHHLeJusbU0WHRsao6j6ejBhbYBalO/aM7BRfq0q9J1BLsog==";
+        };
+        _Dn6ok9g0 = {
+            "id" = "Dn6ok9g0";
+            "file" = "tiptapshow-2.0.0+26.1.1.jar";
+            "hash" = "sha512-APKDcqVfDmiK1bLPLgFnZWGBXDvCjspqE7Mp+vIRKTN9QX9RifkL27zpw8hts54PsPLUtLjbhKhf/bPtI7DxKA==";
+        };
+        _iPb90jhz = {
+            "id" = "iPb90jhz";
+            "file" = "tiptapshow-2.0.0+26.1.2.jar";
+            "hash" = "sha512-3QRGPA+UXFG1wwD84KiPIH9AP2cPjoSpMhjCk4SYwzU2uvugSu08psEZELh4IX41mJeycAStZjowYjfMxhqAVg==";
+        };
+        _ALzAGjwL = {
+            "id" = "ALzAGjwL";
+            "file" = "tiptapshow-2.0.0+26.2.jar";
+            "hash" = "sha512-ZN9rpZ1GAhSjp/4Ogu8vFwQE6bES7oXdwM4dm5X1bcyRfEn62Rtmxw4i9kksK1ij/6cEOwhUOH3NW7qwGaOFKg==";
+        };
     in {
         "jW3imNNu" = _jW3imNNu;
         "8lrguG5P" = _8lrguG5P;
@@ -278,6 +318,14 @@ let
         "qxFxxDnG" = _qxFxxDnG;
         "mAGpwl09" = _mAGpwl09;
         "RItHfdXO" = _RItHfdXO;
+        "GcwVGofp" = _GcwVGofp;
+        "c1kTv1RX" = _c1kTv1RX;
+        "sJic9EOM" = _sJic9EOM;
+        "DTs0nTbx" = _DTs0nTbx;
+        "kEx79l3K" = _kEx79l3K;
+        "Dn6ok9g0" = _Dn6ok9g0;
+        "iPb90jhz" = _iPb90jhz;
+        "ALzAGjwL" = _ALzAGjwL;
         "fabric-1.19.2" = _uj78zYtQ;
         "fabric-1.19.3" = _Axh7a6NA;
         "fabric-1.19.4" = _1VjqTcbd;
@@ -289,17 +337,17 @@ let
         "fabric-1.21" = _DagTs8yt;
         "fabric-1.21.3" = _CZRZ3zdO;
         "fabric-1.21.1" = _8ibrggQT;
-        "fabric-1.21.4" = _UqRBNlc9;
+        "fabric-1.21.4" = _GcwVGofp;
         "fabric-1.21.5" = _5Wg7cdpk;
         "fabric-1.21.6" = _E8R8uIJb;
         "fabric-1.21.7" = _bQpUWrYq;
-        "fabric-1.21.8" = _BQA9VMs4;
-        "fabric-1.21.10" = _5hgVlwuk;
-        "fabric-1.21.11" = _bMHK1b7X;
-        "fabric-26.1" = _fsqFiv6B;
-        "fabric-26.1.1" = _qxFxxDnG;
-        "fabric-26.1.2" = _mAGpwl09;
-        "fabric-26.2" = _RItHfdXO;
+        "fabric-1.21.8" = _c1kTv1RX;
+        "fabric-1.21.10" = _sJic9EOM;
+        "fabric-1.21.11" = _DTs0nTbx;
+        "fabric-26.1" = _kEx79l3K;
+        "fabric-26.1.1" = _Dn6ok9g0;
+        "fabric-26.1.2" = _iPb90jhz;
+        "fabric-26.2" = _ALzAGjwL;
         "pkg-v1.0.0" = _jW3imNNu;
         "pkg-v1.1.0" = _8lrguG5P;
         "pkg-v1.2.0" = _uj78zYtQ;
@@ -346,7 +394,15 @@ let
         "pkg-1.6.9+26.1.1" = _qxFxxDnG;
         "pkg-1.6.9+26.1.2" = _mAGpwl09;
         "pkg-1.6.9+26.2" = _RItHfdXO;
-        "default" = _RItHfdXO;
+        "pkg-2.0.0+1.21.4" = _GcwVGofp;
+        "pkg-2.0.0+1.21.8" = _c1kTv1RX;
+        "pkg-2.0.0+1.21.10" = _sJic9EOM;
+        "pkg-2.0.0+1.21.11" = _DTs0nTbx;
+        "pkg-2.0.0+26.1" = _kEx79l3K;
+        "pkg-2.0.0+26.1.1" = _Dn6ok9g0;
+        "pkg-2.0.0+26.1.2" = _iPb90jhz;
+        "pkg-2.0.0+26.2" = _ALzAGjwL;
+        "default" = _ALzAGjwL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tiptapshow";

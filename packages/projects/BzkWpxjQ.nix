@@ -161,6 +161,16 @@ let
             "file" = "simplesilver-1.0.5-1.21.3.jar";
             "hash" = "sha512-sbp7ioYOC96mSlEFcngM2rG2CtZEbLpch+xceuja4/G1tVwwBJbhAIR/7okEG2kFARKGCzH/ydOZqE3kntMs+A==";
         };
+        _JS5pnudE = {
+            "id" = "JS5pnudE";
+            "file" = "simplesilver-1.1.0-1.20.1.jar";
+            "hash" = "sha512-AC2gOKCCKYR3KwutoNF3UjTlssDKD123w/SC6YctdvzJWTTkI99LM6TtwudvZ85org5ZLttGZxRCTgB8n6plHg==";
+        };
+        _MdwbXZF5 = {
+            "id" = "MdwbXZF5";
+            "file" = "simplesilver-1.1.0-1.21.1.jar";
+            "hash" = "sha512-g+nSp4UH18liXyUtAJRM9iPM9hrB25M7aRXqWGfdHUEZRd9uiJw24Ly9UxRyu0jOC7YvpeKI/V0/qMUtKz45BA==";
+        };
     in {
         "2G1rcTY4" = _2G1rcTY4;
         "cpb3Wbxw" = _cpb3Wbxw;
@@ -194,7 +204,9 @@ let
         "PpAYAURp" = _PpAYAURp;
         "zjCjbaEO" = _zjCjbaEO;
         "YdrTaZUx" = _YdrTaZUx;
-        "forge-1.20.1" = _9dV45TXp;
+        "JS5pnudE" = _JS5pnudE;
+        "MdwbXZF5" = _MdwbXZF5;
+        "forge-1.20.1" = _JS5pnudE;
         "forge-1.20.2" = _eDqPEidX;
         "forge-1.20.4" = _BhLS6MLD;
         "forge-1.20.6" = _GlqEe6nX;
@@ -202,6 +214,7 @@ let
         "forge-1.21.1" = _zjCjbaEO;
         "forge-1.20" = _d5Zf9FP3;
         "forge-1.21.3" = _YdrTaZUx;
+        "neoforge-1.21.1" = _MdwbXZF5;
         "pkg-1.0.0-1.20.1" = _2G1rcTY4;
         "pkg-1.0.1-1.20.2" = _cpb3Wbxw;
         "pkg-1.0.2-1.20.1" = _HHlrgXV1;
@@ -234,7 +247,9 @@ let
         "pkg-1.0.5-1.21" = _PpAYAURp;
         "pkg-1.0.5-1.21.1" = _zjCjbaEO;
         "pkg-1.0.5-1.21.3" = _YdrTaZUx;
-        "default" = _YdrTaZUx;
+        "pkg-1.1.0-1.20.1" = _JS5pnudE;
+        "pkg-1.1.0-1.21.1" = _MdwbXZF5;
+        "default" = _MdwbXZF5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-silver";

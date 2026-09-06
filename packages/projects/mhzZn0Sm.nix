@@ -41,6 +41,16 @@ let
             "file" = "ravageous-tornadoes-1.1.2.jar";
             "hash" = "sha512-Mek899dgNoN6yH8CkSGDI9NDkBtQRYPOuVywGjwph5gHK4fBeoTkkkgm40qD6MM8QD216LGmLJW7LAn1cLj3cA==";
         };
+        _GNvhvAIQ = {
+            "id" = "GNvhvAIQ";
+            "file" = "ravageous_tornadoes.zip";
+            "hash" = "sha512-aaNswVnQv7XF7lP6bxJjjTPMBGXa1aNMpfMBk7MQaAzOCSm0Xl+5HVbSoVdEPg9RFGeGCjyDi8Uu32grmCW88Q==";
+        };
+        _92cxZUVs = {
+            "id" = "92cxZUVs";
+            "file" = "ravageous-tornadoes-1.1.2.jar";
+            "hash" = "sha512-Os6z+INBIXPpuF5uemVEeRggIZOelom6ItH9LhFgmUelgj+3l4+wqkFDTh4OlpnEDGSeWRD8R/rg66/vAshQzg==";
+        };
     in {
         "fv7Lx9RI" = _fv7Lx9RI;
         "UrQCe0Ka" = _UrQCe0Ka;
@@ -50,6 +60,8 @@ let
         "Wberuxfx" = _Wberuxfx;
         "I826NumT" = _I826NumT;
         "GzkMbwe2" = _GzkMbwe2;
+        "GNvhvAIQ" = _GNvhvAIQ;
+        "92cxZUVs" = _92cxZUVs;
         "datapack-1.21.4" = _2R34z3FL;
         "datapack-1.21.5" = _2R34z3FL;
         "datapack-1.21.6" = _2R34z3FL;
@@ -62,6 +74,7 @@ let
         "datapack-26.1.1" = _I826NumT;
         "datapack-26.1.2" = _I826NumT;
         "datapack-26.2" = _I826NumT;
+        "datapack-26.3-pre-2" = _GNvhvAIQ;
         "fabric-1.21.4" = _Wberuxfx;
         "fabric-1.21.5" = _Wberuxfx;
         "fabric-1.21.6" = _Wberuxfx;
@@ -74,6 +87,7 @@ let
         "fabric-26.1.1" = _GzkMbwe2;
         "fabric-26.1.2" = _GzkMbwe2;
         "fabric-26.2" = _GzkMbwe2;
+        "fabric-26.3-pre-2" = _92cxZUVs;
         "forge-1.21.4" = _Wberuxfx;
         "forge-1.21.5" = _Wberuxfx;
         "forge-1.21.6" = _Wberuxfx;
@@ -86,6 +100,7 @@ let
         "forge-26.1.1" = _GzkMbwe2;
         "forge-26.1.2" = _GzkMbwe2;
         "forge-26.2" = _GzkMbwe2;
+        "forge-26.3-pre-2" = _92cxZUVs;
         "neoforge-1.21.4" = _Wberuxfx;
         "neoforge-1.21.5" = _Wberuxfx;
         "neoforge-1.21.6" = _Wberuxfx;
@@ -98,6 +113,7 @@ let
         "neoforge-26.1.1" = _GzkMbwe2;
         "neoforge-26.1.2" = _GzkMbwe2;
         "neoforge-26.2" = _GzkMbwe2;
+        "neoforge-26.3-pre-2" = _92cxZUVs;
         "quilt-1.21.4" = _Wberuxfx;
         "quilt-1.21.5" = _Wberuxfx;
         "quilt-1.21.6" = _Wberuxfx;
@@ -110,15 +126,16 @@ let
         "quilt-26.1.1" = _GzkMbwe2;
         "quilt-26.1.2" = _GzkMbwe2;
         "quilt-26.2" = _GzkMbwe2;
+        "quilt-26.3-pre-2" = _92cxZUVs;
         "pkg-1.0" = _fv7Lx9RI;
         "pkg-1.0+mod" = _UrQCe0Ka;
         "pkg-1.1" = _KS3GRiE9;
         "pkg-1.1+mod" = _w87gwaUR;
         "pkg-1.1.1" = _2R34z3FL;
         "pkg-1.1.1+mod" = _Wberuxfx;
-        "pkg-1.1.2" = _I826NumT;
-        "pkg-1.1.2+mod" = _GzkMbwe2;
-        "default" = _GzkMbwe2;
+        "pkg-1.1.2" = _GNvhvAIQ;
+        "pkg-1.1.2+mod" = _92cxZUVs;
+        "default" = _92cxZUVs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ravageous-tornadoes";

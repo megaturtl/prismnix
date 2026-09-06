@@ -96,6 +96,16 @@ let
             "file" = "JadeAddons-1.20.1-Forge-5.5.1.jar";
             "hash" = "sha512-JOscpcEwA0h7lZGZ38cEIsNzxlqvEvLfqrF6260lMDy3NSA7Q/qjU1l1aGFfMfhn58M9iyE/S+xEffYsa+go9w==";
         };
+        _ZHjXkd1n = {
+            "id" = "ZHjXkd1n";
+            "file" = "JadeAddons-1.21.1-NeoForge-6.1.1.jar";
+            "hash" = "sha512-/r3D1QPaaQGuW07U8St1q8PLi5ZVaWSswlh/WAmn0gz/Nj9OxMDM7meC1bTG3/h5HodKeGXJMhZIQDnMEDvjYg==";
+        };
+        _3wT2RtN8 = {
+            "id" = "3wT2RtN8";
+            "file" = "JadeAddons-26.1.2-NeoForge-26.0.1.jar";
+            "hash" = "sha512-Z5daZRfWSa1pqlNIYjPYPayY7zAU5CjgdkrqKouaSOAXpGBQkOJKQ2UlHydI3ZwSVRnc6Br4Qf74xdwsGkbd4Q==";
+        };
     in {
         "49np0ZEH" = _49np0ZEH;
         "tYByon6a" = _tYByon6a;
@@ -116,13 +126,18 @@ let
         "AvIT9ADi" = _AvIT9ADi;
         "Z9s9lM56" = _Z9s9lM56;
         "l9IrZYLt" = _l9IrZYLt;
+        "ZHjXkd1n" = _ZHjXkd1n;
+        "3wT2RtN8" = _3wT2RtN8;
         "forge-1.18.2" = _8UAWp9ng;
         "forge-1.19.2" = _rPlsZgp0;
         "forge-1.20" = _l9IrZYLt;
         "forge-1.20.1" = _l9IrZYLt;
         "neoforge-1.20" = _l9IrZYLt;
         "neoforge-1.20.1" = _l9IrZYLt;
-        "neoforge-1.21.1" = _Z9s9lM56;
+        "neoforge-1.21.1" = _ZHjXkd1n;
+        "neoforge-26.1" = _3wT2RtN8;
+        "neoforge-26.1.1" = _3wT2RtN8;
+        "neoforge-26.1.2" = _3wT2RtN8;
         "pkg-2.4.1" = _49np0ZEH;
         "pkg-3.2.0" = _tYByon6a;
         "pkg-3.3.0" = _OiKTpxIk;
@@ -142,7 +157,9 @@ let
         "pkg-5.5.0+forge" = _AvIT9ADi;
         "pkg-6.1.0+neoforge" = _Z9s9lM56;
         "pkg-5.5.1+forge" = _l9IrZYLt;
-        "default" = _l9IrZYLt;
+        "pkg-6.1.1+neoforge" = _ZHjXkd1n;
+        "pkg-26.0.1+neoforge" = _3wT2RtN8;
+        "default" = _3wT2RtN8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jade-addons-forge";

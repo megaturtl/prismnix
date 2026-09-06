@@ -70,13 +70,13 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Portixs-License-v1.0" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "LicenseRef-Portixs-License-v1.0";
-                shortName = "LicenseRef-Portixs-License-v1.0";
-                url = "https://github.com/Portix24/PricksnPlanks/blob/main/LICENSE";
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = null;
             };
         };
     };

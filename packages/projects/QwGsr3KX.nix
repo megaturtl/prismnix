@@ -36,6 +36,16 @@ let
             "file" = "apolloparrot-1.4.jar";
             "hash" = "sha512-0D51OYibVbJyCrX9zMbaZuyVH+gihkgnrzaIM1/bgWerC14DvokdMsHtUy/MuYnv5B0Tu5FWfFGmyV18GpYuYA==";
         };
+        _832F2dWy = {
+            "id" = "832F2dWy";
+            "file" = "apolloparrot-1.5-1.21.1.jar";
+            "hash" = "sha512-MoHY7jPj+I6DkY/fuTBoR+/3lKekr/9zcve5GF0kSBtIEwvvFcNhVSpD8rP2Wm3FsF3+4FeyL2TU5/1hkqoAqA==";
+        };
+        _wZryvDZn = {
+            "id" = "wZryvDZn";
+            "file" = "apolloparrot-1.5-26.x.jar";
+            "hash" = "sha512-OzRdKNAf9DsZcHBhV9UrN8l4CZ8njDlCAwy13QBncJJS5gdnJX4a8ipZo7dmt4lrgrNyapWvZERxHtaLIWYvVg==";
+        };
     in {
         "1cxUuWf6" = _1cxUuWf6;
         "bfHZmtYQ" = _bfHZmtYQ;
@@ -44,14 +54,20 @@ let
         "xgZ6liPQ" = _xgZ6liPQ;
         "eOzTNPcI" = _eOzTNPcI;
         "1O6Xozsh" = _1O6Xozsh;
+        "832F2dWy" = _832F2dWy;
+        "wZryvDZn" = _wZryvDZn;
         "fabric-1.20.1" = _SXeQQWTj;
         "fabric-1.20.2" = _SXeQQWTj;
         "fabric-1.20.3" = _SXeQQWTj;
         "fabric-1.20.4" = _SXeQQWTj;
         "fabric-1.20.5" = _SXeQQWTj;
         "fabric-1.21" = _eOzTNPcI;
-        "fabric-1.21.1" = _eOzTNPcI;
+        "fabric-1.21.1" = _832F2dWy;
         "fabric-1.21.6" = _1O6Xozsh;
+        "fabric-26.1" = _wZryvDZn;
+        "fabric-26.1.1" = _wZryvDZn;
+        "fabric-26.1.2" = _wZryvDZn;
+        "fabric-26.2" = _wZryvDZn;
         "pkg-1.0" = _1cxUuWf6;
         "pkg-1.0.1" = _bfHZmtYQ;
         "pkg-1.1" = _oAHAMIvO;
@@ -59,7 +75,8 @@ let
         "pkg-1.2.1" = _xgZ6liPQ;
         "pkg-1.3" = _eOzTNPcI;
         "pkg-1.4" = _1O6Xozsh;
-        "default" = _1O6Xozsh;
+        "pkg-1.5" = _wZryvDZn;
+        "default" = _wZryvDZn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "apollo-the-parrot";

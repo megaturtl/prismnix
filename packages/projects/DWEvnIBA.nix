@@ -26,19 +26,26 @@ let
             "file" = "oblivion-1.1.0.jar";
             "hash" = "sha512-FVDaEEA0MwjV68IG3gf/2FFJqvEtCguv1/IbuTUwleAxgwpq+N1tlhCgrgtfInlSIPkdD56aAJCwD6XYHPA5eA==";
         };
+        _cpvjShBH = {
+            "id" = "cpvjShBH";
+            "file" = "oblivion-1.1.1.jar";
+            "hash" = "sha512-u4s4In6rDnU8Go2dHix6LwmN2l+wgHaLobTWheo8ZSLIH8DUN4jubZz4Wj++YSvCki4x+IJ/sot7mrlz07lozw==";
+        };
     in {
         "Sh46wrYM" = _Sh46wrYM;
         "zT47qdic" = _zT47qdic;
         "wEJi9yOr" = _wEJi9yOr;
         "bwxiiW5V" = _bwxiiW5V;
         "iuBRrs35" = _iuBRrs35;
-        "fabric-1.21.1" = _iuBRrs35;
+        "cpvjShBH" = _cpvjShBH;
+        "fabric-1.21.1" = _cpvjShBH;
         "pkg-1.0.0" = _Sh46wrYM;
         "pkg-1.0.1+1.21.1" = _zT47qdic;
         "pkg-1.0.2+1.21.1" = _wEJi9yOr;
         "pkg-1.0.3+1.21.1" = _bwxiiW5V;
         "pkg-1.1.0+1.21.1" = _iuBRrs35;
-        "default" = _iuBRrs35;
+        "pkg-1.1.1+1.21.1" = _cpvjShBH;
+        "default" = _cpvjShBH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "oblivion";

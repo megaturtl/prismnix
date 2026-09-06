@@ -237,6 +237,10 @@ let
         "velocity-1.21.9" = _zvuWEeOs;
         "velocity-1.21.10" = _zvuWEeOs;
         "velocity-1.21.11" = _zvuWEeOs;
+        "velocity-26.1" = _zvuWEeOs;
+        "velocity-26.1.1" = _zvuWEeOs;
+        "velocity-26.1.2" = _zvuWEeOs;
+        "velocity-26.2" = _zvuWEeOs;
         "paper-1.8.9" = _xdTRn2As;
         "paper-1.9" = _xdTRn2As;
         "paper-1.9.1" = _xdTRn2As;
@@ -298,6 +302,10 @@ let
         "paper-1.21.9" = _zvuWEeOs;
         "paper-1.21.10" = _zvuWEeOs;
         "paper-1.21.11" = _zvuWEeOs;
+        "paper-26.1" = _zvuWEeOs;
+        "paper-26.1.1" = _zvuWEeOs;
+        "paper-26.1.2" = _zvuWEeOs;
+        "paper-26.2" = _zvuWEeOs;
         "purpur-1.8.9" = _xdTRn2As;
         "purpur-1.9" = _xdTRn2As;
         "purpur-1.9.1" = _xdTRn2As;
@@ -359,6 +367,10 @@ let
         "purpur-1.21.9" = _zvuWEeOs;
         "purpur-1.21.10" = _zvuWEeOs;
         "purpur-1.21.11" = _zvuWEeOs;
+        "purpur-26.1" = _zvuWEeOs;
+        "purpur-26.1.1" = _zvuWEeOs;
+        "purpur-26.1.2" = _zvuWEeOs;
+        "purpur-26.2" = _zvuWEeOs;
         "pkg-0.0.7" = _293PhIUs;
         "pkg-0.0.8" = _8xAC8nDR;
         "pkg-0.0.9" = _Z4POr9EL;

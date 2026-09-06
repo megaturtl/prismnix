@@ -21,21 +21,36 @@ let
             "file" = "Sonic Frontiers & Extras Music Pack V2.2.zip";
             "hash" = "sha512-nLDxeVRGj5RFcvNY4y8CcU4ywYSpYT+osyLAGFY07OGCnUaTXVMc4yJQPUjPze6yGpxxiv97ydLRRWBYu3AwLQ==";
         };
+        _v1DAYa7o = {
+            "id" = "v1DAYa7o";
+            "file" = "Sonic Frontiers & Extras Music Pack V3.zip";
+            "hash" = "sha512-IFmsGeFzScUrRcWcPtTKuNd3LOxJrzNptqCrorpt5a+yravdajQsey0z5qtjbjfbre3x6aEennou9YlIhjeNPg==";
+        };
+        _NS1czXf8 = {
+            "id" = "NS1czXf8";
+            "file" = "Sonic Frontiers & Extras Music Pack V3.1.zip";
+            "hash" = "sha512-3UZJZoVVUWlr87wXzRzXZPolrdYPy4iUjnGuHSoajGkEPaEGB6OzmILkKqMXHVoieOQQkgmUwS9LIYOVcEaDcw==";
+        };
     in {
         "BLz4M63N" = _BLz4M63N;
         "o45obPbM" = _o45obPbM;
         "5hvyyIpL" = _5hvyyIpL;
         "x1Fu3NPx" = _x1Fu3NPx;
+        "v1DAYa7o" = _v1DAYa7o;
+        "NS1czXf8" = _NS1czXf8;
         "minecraft-1.20" = _BLz4M63N;
         "minecraft-1.20.1" = _BLz4M63N;
         "minecraft-1.20.2" = _BLz4M63N;
         "minecraft-1.21" = _x1Fu3NPx;
         "minecraft-1.21.1" = _x1Fu3NPx;
+        "minecraft-26.2" = _NS1czXf8;
         "pkg-V1" = _BLz4M63N;
         "pkg-V2" = _o45obPbM;
         "pkg-V2.1" = _5hvyyIpL;
         "pkg-V2.2" = _x1Fu3NPx;
-        "default" = _x1Fu3NPx;
+        "pkg-V3" = _v1DAYa7o;
+        "pkg-V3.1" = _NS1czXf8;
+        "default" = _NS1czXf8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sonic-frontiers-music-pack";

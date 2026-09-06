@@ -131,6 +131,16 @@ let
             "file" = "netherdepthsupgrade-3.1.9+1.21-fabric.jar";
             "hash" = "sha512-J5h+JaKj3nnXs5TJk+T7yFei091x2LNmiDKArnGJnhYle8zls1VNPIKdJocmeKRbl7MrQOOiVPEKkDZXQXfxXg==";
         };
+        _TKuNc6d4 = {
+            "id" = "TKuNc6d4";
+            "file" = "netherdepthsupgrade-3.2-1.21.1-NeoForge.jar";
+            "hash" = "sha512-Wx86HXxy6R0guuTkpfHJiL72wNdM85yZSpphze9kqAgM8N/CpYe3fjp4GHOCI/L92cwsuNrgDCsaXYMbST5doQ==";
+        };
+        _fSTETw8h = {
+            "id" = "fSTETw8h";
+            "file" = "netherdepthsupgrade-fabric-3.2+1.21.1.jar";
+            "hash" = "sha512-WGe+iN6Wiat7e4lTJU5c5UKtobbl6b+AhpRtE2uN9c03NDP6Qe+moEjFrG9hJ4zAWLK3owiP3EAZrDPImejKUQ==";
+        };
     in {
         "loXsK6pI" = _loXsK6pI;
         "ZWJgefUm" = _ZWJgefUm;
@@ -158,20 +168,22 @@ let
         "A9Ri2gYl" = _A9Ri2gYl;
         "otPmhdts" = _otPmhdts;
         "3DloHXPa" = _3DloHXPa;
+        "TKuNc6d4" = _TKuNc6d4;
+        "fSTETw8h" = _fSTETw8h;
         "fabric-1.20" = _CdgX1NKy;
         "fabric-1.20.1" = _CdgX1NKy;
         "fabric-1.19" = _ZWJgefUm;
         "fabric-1.19.1" = _ZWJgefUm;
         "fabric-1.19.2" = _nzxNHa9C;
-        "fabric-1.21" = _3DloHXPa;
-        "fabric-1.21.1" = _3DloHXPa;
+        "fabric-1.21" = _fSTETw8h;
+        "fabric-1.21.1" = _fSTETw8h;
         "forge-1.20" = _BFX1CDJ6;
         "forge-1.20.1" = _BFX1CDJ6;
         "forge-1.19.2" = _pQxWZBvX;
         "forge-1.18.2" = _OjVDLhp8;
         "forge-1.16.5" = _cvV73NZf;
-        "neoforge-1.21" = _otPmhdts;
-        "neoforge-1.21.1" = _otPmhdts;
+        "neoforge-1.21" = _TKuNc6d4;
+        "neoforge-1.21.1" = _TKuNc6d4;
         "pkg-fabric-3.1.1-1.20" = _loXsK6pI;
         "pkg-fabric-3.1.0-1.19.2" = _ZWJgefUm;
         "pkg-3.1.1-1.20" = _dDLEuc4q;
@@ -198,7 +210,9 @@ let
         "pkg-3.1.7" = _A9Ri2gYl;
         "pkg-3.1.8" = _otPmhdts;
         "pkg-3.1.9+1.21-fabric" = _3DloHXPa;
-        "default" = _3DloHXPa;
+        "pkg-3.2" = _TKuNc6d4;
+        "pkg-fabric-3.2+1.21.1" = _fSTETw8h;
+        "default" = _fSTETw8h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nether-depths-upgrade";

@@ -61,6 +61,11 @@ let
             "file" = "cookscollection-0.5.5.jar";
             "hash" = "sha512-pE+WUqANUlehmEnKtYcZKJrc3QRbWs7Ix6HGDG26mufygj4mVMBhbiwFdJS/6qsYFjfZdSuoqgbXQeAUuc8KUQ==";
         };
+        _hH87KN4v = {
+            "id" = "hH87KN4v";
+            "file" = "cookscollection-0.5.6.jar";
+            "hash" = "sha512-ZuaA7agU/zpsZmmR8CkH6vtr9IXbKFQW63dn5ZALG1oveP2fOtSqaHa7DES5JKMVR1FsKowMP8RF5fkDaaHV2A==";
+        };
     in {
         "2s3VWmPI" = _2s3VWmPI;
         "InVO6Vbw" = _InVO6Vbw;
@@ -74,9 +79,10 @@ let
         "Wfd3btWr" = _Wfd3btWr;
         "9UztJCf2" = _9UztJCf2;
         "EUnk5KbU" = _EUnk5KbU;
+        "hH87KN4v" = _hH87KN4v;
         "forge-1.19.2" = _dDcAEuVH;
         "forge-1.20.1" = _9UztJCf2;
-        "neoforge-1.21.1" = _EUnk5KbU;
+        "neoforge-1.21.1" = _hH87KN4v;
         "pkg-0.4.5" = _2s3VWmPI;
         "pkg-0.5.1" = _InVO6Vbw;
         "pkg-0.5.3" = _DJZIWY0m;
@@ -89,7 +95,8 @@ let
         "pkg-0.6.0" = _Wfd3btWr;
         "pkg-0.6.1" = _9UztJCf2;
         "pkg-0.5.5" = _EUnk5KbU;
-        "default" = _EUnk5KbU;
+        "pkg-0.5.6" = _hH87KN4v;
+        "default" = _hH87KN4v;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cooks-collection";

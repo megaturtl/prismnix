@@ -511,6 +511,26 @@ let
             "file" = "MutantMonsters-v26.1.2-mc26.1.x-Fabric.jar";
             "hash" = "sha512-+enEHdDMePygrLAHHNIng/CmT7Iggd/KckIgqcIlHh4pcHXRUn3EVvYW7B4bRXfV37vqDlbwesEgvzIRx8fGOA==";
         };
+        _cckyqem2 = {
+            "id" = "cckyqem2";
+            "file" = "MutantMonsters-v26.1.3-mc26.1.x-Fabric.jar";
+            "hash" = "sha512-L7QsSHZ4vLphZ5anM4DnTFg5fezflCmxyJEVrIkHUvxK7N57Qu7mc4Wq2S+ZaaDsI2vSLc2P89t7EhFyNkuvgw==";
+        };
+        _2pSpOnHz = {
+            "id" = "2pSpOnHz";
+            "file" = "MutantMonsters-v26.1.3-mc26.1.x-NeoForge.jar";
+            "hash" = "sha512-oQf9H54LhtPoSm722Y072leAXmjzvQsOhSZKXtkWx7XmMgTVLUUTc7zz2wi+LGWbJB5LSODSG9Oa3MYjSKybtg==";
+        };
+        _mFqyzWcy = {
+            "id" = "mFqyzWcy";
+            "file" = "MutantMonsters-v26.2.2-mc26.2.x-Fabric.jar";
+            "hash" = "sha512-uPFCoakkvtsBlg6+SRiJfgd+d/t0HkxTqAMujM0JnS2+hEsEdTtyW01nYOXNkvpZV95BMQC9LlNwz1NjPKYdpg==";
+        };
+        _aONBGhgK = {
+            "id" = "aONBGhgK";
+            "file" = "MutantMonsters-v26.2.2-mc26.2.x-NeoForge.jar";
+            "hash" = "sha512-hYV7drM9H6MaXZGmzf9AWa6wdaYFVTMdo+8nleCV1Fea1YD9qbungqXNp03ppbJ0hswXssAai+iavZQr33w+IQ==";
+        };
     in {
         "VOGopAdT" = _VOGopAdT;
         "NaotWuPF" = _NaotWuPF;
@@ -614,6 +634,10 @@ let
         "UAr8Tn93" = _UAr8Tn93;
         "Ns7QOeSQ" = _Ns7QOeSQ;
         "EU2rN8my" = _EU2rN8my;
+        "cckyqem2" = _cckyqem2;
+        "2pSpOnHz" = _2pSpOnHz;
+        "mFqyzWcy" = _mFqyzWcy;
+        "aONBGhgK" = _aONBGhgK;
         "forge-1.19.2" = _CkbS2PLp;
         "forge-1.19.3" = _XchdLX69;
         "forge-1.19.4" = _Cot0bkQN;
@@ -637,10 +661,10 @@ let
         "fabric-1.21.10" = _9PnXn3K4;
         "fabric-1.21.9" = _wzxjf6qz;
         "fabric-1.21.11" = _dwBBy3dW;
-        "fabric-26.1" = _EU2rN8my;
-        "fabric-26.1.1" = _EU2rN8my;
-        "fabric-26.1.2" = _EU2rN8my;
-        "fabric-26.2" = _ySmHFc2d;
+        "fabric-26.1" = _cckyqem2;
+        "fabric-26.1.1" = _cckyqem2;
+        "fabric-26.1.2" = _cckyqem2;
+        "fabric-26.2" = _mFqyzWcy;
         "neoforge-1.20.4" = _JldxXKol;
         "neoforge-1.21.1" = _dauEcrnZ;
         "neoforge-1.21.3" = _pSDRT3P4;
@@ -651,10 +675,10 @@ let
         "neoforge-1.21.10" = _tMMR9yjP;
         "neoforge-1.21.9" = _EAhvWdcu;
         "neoforge-1.21.11" = _sDewODZx;
-        "neoforge-26.1" = _Ns7QOeSQ;
-        "neoforge-26.1.1" = _Ns7QOeSQ;
-        "neoforge-26.1.2" = _Ns7QOeSQ;
-        "neoforge-26.2" = _UAr8Tn93;
+        "neoforge-26.1" = _2pSpOnHz;
+        "neoforge-26.1.1" = _2pSpOnHz;
+        "neoforge-26.1.2" = _2pSpOnHz;
+        "neoforge-26.2" = _aONBGhgK;
         "pkg-v4.0.1-1.19.2-Forge" = _VOGopAdT;
         "pkg-v4.0.1-1.19.2-Fabric" = _NaotWuPF;
         "pkg-v4.0.2-1.19.2-Fabric" = _7JFsl0a5;
@@ -742,7 +766,9 @@ let
         "pkg-26.2.0" = _ccxLHVVD;
         "pkg-26.2.1" = _UAr8Tn93;
         "pkg-26.1.2" = _EU2rN8my;
-        "default" = _EU2rN8my;
+        "pkg-26.1.3" = _2pSpOnHz;
+        "pkg-26.2.2" = _aONBGhgK;
+        "default" = _aONBGhgK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mutant-monsters";

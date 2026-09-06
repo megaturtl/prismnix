@@ -281,6 +281,46 @@ let
             "file" = "rogues-neoforge-3.0.4+1.21.1.jar";
             "hash" = "sha512-3l+feROND/FoSGYEuy78D2Z+ewAOKFtCIUIfDopXFDO35jx9cF8Q9N9OCsjHPpjd3godhiDkTHRQGAug05dKQA==";
         };
+        _7LjTUdiZ = {
+            "id" = "7LjTUdiZ";
+            "file" = "rogues-fabric-3.1.0+1.21.1.jar";
+            "hash" = "sha512-uFQ85oA4YcYAsobwykEJ4LuvCyU0SR7ykSnWv/oaRH4MnO6fMZYob00sGCk6AVbkx1KSDbd6gj0a31YDyY2Rzg==";
+        };
+        _xmRuWrX2 = {
+            "id" = "xmRuWrX2";
+            "file" = "rogues-neoforge-3.1.0+1.21.1.jar";
+            "hash" = "sha512-V+CWvVG/yUorhqpnVjokAJGTVQh2Z1wA0Gi1UKJ8CoY2vv+D/4k6G9bUfhjFv6LBFOe8+UswJdkk0R1BM8T+PQ==";
+        };
+        _xnANhdPV = {
+            "id" = "xnANhdPV";
+            "file" = "rogues-neoforge-3.1.1+1.21.1.jar";
+            "hash" = "sha512-fJ+rR3z0dE7jVNEi9x8Cxp91lj08xYTdd3ib/RFg2WmFy1bHdAOR/8CQqUlKLv7194/OP8p4cOHafBrxqWUOZA==";
+        };
+        _JWfPsL1j = {
+            "id" = "JWfPsL1j";
+            "file" = "rogues-fabric-3.1.1+1.21.1.jar";
+            "hash" = "sha512-XgJ/RVgauj3byK5iPDzKuBMI7RBlOqLh6vmwKG3jyWHVmXFMpMUp8s+PIQdKyTkliWeyed5UAbrqXFSBBf6Fbw==";
+        };
+        _YGXNYQzR = {
+            "id" = "YGXNYQzR";
+            "file" = "rogues-fabric-3.1.2+26.1.2.jar";
+            "hash" = "sha512-92ZpAUZuDNdyJuZC9T/xyXKssIPIOyCMJXtvDcYKeLAcYqGFNN/INJ8v9L5AjqPTDnzmQ5ty91lOfMvqw5CuUg==";
+        };
+        _UL7DUCX7 = {
+            "id" = "UL7DUCX7";
+            "file" = "rogues-neoforge-3.1.2+26.1.2.jar";
+            "hash" = "sha512-TYLIVHHWhJwTIB8/R1d7nsbyoNSzz4ilQSH/7ZPh+aqJARo3Y1kDiQsB64R/Rf9toNg6tz5l8kthzWzTRmgnPA==";
+        };
+        _bw1QiVJu = {
+            "id" = "bw1QiVJu";
+            "file" = "rogues-neoforge-3.1.2+26.2.jar";
+            "hash" = "sha512-JapQP0IHCV6NJxQv0Og0AOhh3H5ldSGZCWpqjVpPXq1hWaWXAr6nbsBlzufExV3BboKuZG2DoWgi4LH5cTqL5w==";
+        };
+        _KeqAlsop = {
+            "id" = "KeqAlsop";
+            "file" = "rogues-fabric-3.1.2+26.2.jar";
+            "hash" = "sha512-Kxe0syU5u4lsc7LZ49kG9Y5FcNii+HXNQDrtZFMK7aGLQsPSYxGLdKkIuKBjW2/Sin38wRAH89WCRkoDzPp4Qw==";
+        };
     in {
         "WmBvyqwC" = _WmBvyqwC;
         "vCLSiBVJ" = _vCLSiBVJ;
@@ -338,11 +378,27 @@ let
         "7zUwL9ii" = _7zUwL9ii;
         "wWFA4lE5" = _wWFA4lE5;
         "gfUSHEup" = _gfUSHEup;
+        "7LjTUdiZ" = _7LjTUdiZ;
+        "xmRuWrX2" = _xmRuWrX2;
+        "xnANhdPV" = _xnANhdPV;
+        "JWfPsL1j" = _JWfPsL1j;
+        "YGXNYQzR" = _YGXNYQzR;
+        "UL7DUCX7" = _UL7DUCX7;
+        "bw1QiVJu" = _bw1QiVJu;
+        "KeqAlsop" = _KeqAlsop;
         "fabric-1.20.1" = _ONjutVUi;
-        "fabric-1.21.1" = _wWFA4lE5;
-        "fabric-1.21" = _wWFA4lE5;
-        "neoforge-1.21" = _gfUSHEup;
-        "neoforge-1.21.1" = _gfUSHEup;
+        "fabric-1.21.1" = _JWfPsL1j;
+        "fabric-1.21" = _JWfPsL1j;
+        "fabric-26.1" = _YGXNYQzR;
+        "fabric-26.1.1" = _YGXNYQzR;
+        "fabric-26.1.2" = _YGXNYQzR;
+        "fabric-26.2" = _KeqAlsop;
+        "neoforge-1.21" = _xnANhdPV;
+        "neoforge-1.21.1" = _xnANhdPV;
+        "neoforge-26.1" = _UL7DUCX7;
+        "neoforge-26.1.1" = _UL7DUCX7;
+        "neoforge-26.1.2" = _UL7DUCX7;
+        "neoforge-26.2" = _bw1QiVJu;
         "pkg-1.0.2+1.20.1" = _WmBvyqwC;
         "pkg-1.0.3+1.20.1" = _vCLSiBVJ;
         "pkg-1.0.4+1.20.1" = _4vOLHGGR;
@@ -399,7 +455,15 @@ let
         "pkg-3.0.3+1.21.1-neoforge" = _7zUwL9ii;
         "pkg-3.0.4+1.21.1-fabric" = _wWFA4lE5;
         "pkg-3.0.4+1.21.1-neoforge" = _gfUSHEup;
-        "default" = _gfUSHEup;
+        "pkg-3.1.0+1.21.1-fabric" = _7LjTUdiZ;
+        "pkg-3.1.0+1.21.1-neoforge" = _xmRuWrX2;
+        "pkg-3.1.1+1.21.1-neoforge" = _xnANhdPV;
+        "pkg-3.1.1+1.21.1-fabric" = _JWfPsL1j;
+        "pkg-3.1.2+26.1.2-fabric" = _YGXNYQzR;
+        "pkg-3.1.2+26.1.2-neoforge" = _UL7DUCX7;
+        "pkg-3.1.2+26.2-neoforge" = _bw1QiVJu;
+        "pkg-3.1.2+26.2-fabric" = _KeqAlsop;
+        "default" = _KeqAlsop;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rogues-and-warriors";

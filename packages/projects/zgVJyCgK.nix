@@ -1386,6 +1386,16 @@ let
             "file" = "autotools-forge-3.4.3.jar";
             "hash" = "sha512-Ay7/m8J1c55elHBKIFiYBWSJjwYDmQeoxZP5DkLrpEhhVnDtFHO8AyDL3Q2Y87/A6Dt6QfSrQ/gGIEIt8ctXaQ==";
         };
+        _KIie7716 = {
+            "id" = "KIie7716";
+            "file" = "autotools-neoforge-3.4.3.jar";
+            "hash" = "sha512-fhD5YA8hIH0NeOjPNOjcziQ0jbzky4SaLHYijPj/o+y0yJL1GXZ8WZYDX9hTkozHudifS7gce8ySB8WQpyS5ZA==";
+        };
+        _bUXwlLDg = {
+            "id" = "bUXwlLDg";
+            "file" = "autotools-fabric-3.4.3.jar";
+            "hash" = "sha512-zkukyOPE6FI4XOa65UzeMfMK5t/dCyM9tqoIP+yM7RLxV0nHyz0ZQzRdBgnoXYURHSz9aCtDz0a9NYOMmEVPwQ==";
+        };
     in {
         "5opx49zJ" = _5opx49zJ;
         "jliYPQHt" = _jliYPQHt;
@@ -1664,6 +1674,8 @@ let
         "UMpep6vX" = _UMpep6vX;
         "tDsILFC6" = _tDsILFC6;
         "MObRbywC" = _MObRbywC;
+        "KIie7716" = _KIie7716;
+        "bUXwlLDg" = _bUXwlLDg;
         "forge-1.16.5" = _MObRbywC;
         "forge-1.18.2" = _UMpep6vX;
         "forge-1.19.4" = _qD3IbgeD;
@@ -1708,6 +1720,7 @@ let
         "fabric-26.1" = _42IR91hl;
         "fabric-26.1.1" = _42IR91hl;
         "fabric-26.1.2" = _42IR91hl;
+        "fabric-26.2" = _bUXwlLDg;
         "quilt-1.16" = _tbfuUfuu;
         "quilt-1.16.1" = _tbfuUfuu;
         "quilt-1.16.2" = _tbfuUfuu;
@@ -1740,6 +1753,7 @@ let
         "quilt-26.1" = _42IR91hl;
         "quilt-26.1.1" = _42IR91hl;
         "quilt-26.1.2" = _42IR91hl;
+        "quilt-26.2" = _bUXwlLDg;
         "neoforge-1.20.4" = _pwQ87Dz2;
         "neoforge-1.20.5" = _iFfEakDe;
         "neoforge-1.20.6" = _iFfEakDe;
@@ -1758,6 +1772,7 @@ let
         "neoforge-26.1" = _N7ITiYT6;
         "neoforge-26.1.1" = _N7ITiYT6;
         "neoforge-26.1.2" = _N7ITiYT6;
+        "neoforge-26.2" = _KIie7716;
         "pkg-1.4" = _pj4ewnZz;
         "pkg-1.3" = _4gTsAnpQ;
         "pkg-1.5" = _LFF2sUYq;
@@ -1784,8 +1799,8 @@ let
         "pkg-3.4.0" = _9AQWR3KI;
         "pkg-3.4.1" = _RljzTm69;
         "pkg-3.4.2" = _AiwNuuWm;
-        "pkg-3.4.3" = _MObRbywC;
-        "default" = _MObRbywC;
+        "pkg-3.4.3" = _bUXwlLDg;
+        "default" = _bUXwlLDg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minecraft_autotools";

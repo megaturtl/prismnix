@@ -121,6 +121,36 @@ let
             "file" = "SimplyHarvesting-26.2.0.jar";
             "hash" = "sha512-wS8Ry9ssSjaqLze2tVUejZ5h62Br6e7auz5858/vjZtIpVykxPFMVCk61x6kDUldifRb3uNr25+pl/aKoPnQAg==";
         };
+        _D5ePjUtr = {
+            "id" = "D5ePjUtr";
+            "file" = "SimplyHarvesting-1.21-3.0.4.jar";
+            "hash" = "sha512-R00uye1+nk5NciFkVeQt2mTmNvkjlhEZiRJ3C+lcRKBlzdB4Hou9J/5QyiV6m2zqa3S4ogD1CM/U1kx5tQVViw==";
+        };
+        _lrjIsz5R = {
+            "id" = "lrjIsz5R";
+            "file" = "SimplyHarvesting-26.2.1.jar";
+            "hash" = "sha512-rO2Lp9Flm/0JMl4X4R6zV77b40EDPBVhL18HG+IXGvhUxRsbZm//c9ac0J1Ibm5sXumtfXiz4h6/iFvqjLyLdA==";
+        };
+        _E6Z2cZ7F = {
+            "id" = "E6Z2cZ7F";
+            "file" = "SimplyHarvesting-21.11.4.jar";
+            "hash" = "sha512-9+BL4KqeGEU5atXvpTPb8/0Q8t64nA9g6deiVLjxvm4wu7UhGc70N0Lug2kridz/yqqiEgSNLTUsWD358BhPyg==";
+        };
+        _EzMKHh7a = {
+            "id" = "EzMKHh7a";
+            "file" = "SimplyHarvesting-26.1.1.jar";
+            "hash" = "sha512-nmgvXomHgRkmBbRXiozIFK5sw3tj95nTcZr7PxFSE6waUXPvTJsSaUXbVbtseWxULu4x1iyHmi82QMFQXorzQg==";
+        };
+        _YJUkDSOm = {
+            "id" = "YJUkDSOm";
+            "file" = "SimplyHarvesting-1.21.3-3.1.6.jar";
+            "hash" = "sha512-6y1P4PurO6mq03ZAlKxnAAyH8Dbfp3++QScjZvRtdP/a/2jdcTRxFY9aac7d13Mnt3QocWJ3jSr2IeLmL8tcBQ==";
+        };
+        _1AcSBTHb = {
+            "id" = "1AcSBTHb";
+            "file" = "SimplyHarvesting-1.20.1-2.1.4.jar";
+            "hash" = "sha512-OiP5KoOjJ0E0wi7vTyQgWCiSEFRVv3G0r3I01rs6DIUq05qMjKs8bbR20d+A+B6lnp3FKVLrMekdtb54EgKRcg==";
+        };
     in {
         "b749g8Gv" = _b749g8Gv;
         "vCWafsF3" = _vCWafsF3;
@@ -146,28 +176,34 @@ let
         "Kyja0diy" = _Kyja0diy;
         "uwr7mbZv" = _uwr7mbZv;
         "HHvB2K1i" = _HHvB2K1i;
+        "D5ePjUtr" = _D5ePjUtr;
+        "lrjIsz5R" = _lrjIsz5R;
+        "E6Z2cZ7F" = _E6Z2cZ7F;
+        "EzMKHh7a" = _EzMKHh7a;
+        "YJUkDSOm" = _YJUkDSOm;
+        "1AcSBTHb" = _1AcSBTHb;
         "forge-1.19.2" = _b749g8Gv;
         "forge-1.19.3" = _b749g8Gv;
         "forge-1.19.4" = _VYEi9zXZ;
         "forge-1.20" = _15TdMZ4r;
-        "forge-1.20.1" = _QjKpbhAr;
+        "forge-1.20.1" = _1AcSBTHb;
         "neoforge-1.20.1" = _vyX81R3R;
         "neoforge-1.21" = _bQjwh9c4;
-        "neoforge-1.21.1" = _9v7K5FZz;
-        "neoforge-1.21.3" = _CCe148yR;
-        "neoforge-1.21.4" = _CCe148yR;
-        "neoforge-1.21.5" = _CCe148yR;
-        "neoforge-1.21.6" = _CCe148yR;
-        "neoforge-1.21.7" = _CCe148yR;
-        "neoforge-1.21.8" = _CCe148yR;
-        "neoforge-1.21.9" = _CCe148yR;
-        "neoforge-1.21.10" = _CCe148yR;
-        "neoforge-1.21.11" = _Kyja0diy;
-        "neoforge-1.21.2" = _9v7K5FZz;
-        "neoforge-26.1" = _uwr7mbZv;
-        "neoforge-26.1.1" = _uwr7mbZv;
-        "neoforge-26.1.2" = _uwr7mbZv;
-        "neoforge-26.2" = _HHvB2K1i;
+        "neoforge-1.21.1" = _D5ePjUtr;
+        "neoforge-1.21.3" = _YJUkDSOm;
+        "neoforge-1.21.4" = _YJUkDSOm;
+        "neoforge-1.21.5" = _YJUkDSOm;
+        "neoforge-1.21.6" = _YJUkDSOm;
+        "neoforge-1.21.7" = _YJUkDSOm;
+        "neoforge-1.21.8" = _YJUkDSOm;
+        "neoforge-1.21.9" = _YJUkDSOm;
+        "neoforge-1.21.10" = _YJUkDSOm;
+        "neoforge-1.21.11" = _E6Z2cZ7F;
+        "neoforge-1.21.2" = _D5ePjUtr;
+        "neoforge-26.1" = _EzMKHh7a;
+        "neoforge-26.1.1" = _EzMKHh7a;
+        "neoforge-26.1.2" = _EzMKHh7a;
+        "neoforge-26.2" = _lrjIsz5R;
         "pkg-1.19.2-1.0.0" = _b749g8Gv;
         "pkg-1.19.4-1.1.0" = _vCWafsF3;
         "pkg-1.20-2.0.0" = _15TdMZ4r;
@@ -192,7 +228,13 @@ let
         "pkg-21.11.3" = _Kyja0diy;
         "pkg-26.1.0" = _uwr7mbZv;
         "pkg-26.2.0" = _HHvB2K1i;
-        "default" = _HHvB2K1i;
+        "pkg-1.21-3.0.4" = _D5ePjUtr;
+        "pkg-26.2.1" = _lrjIsz5R;
+        "pkg-21.11.4" = _E6Z2cZ7F;
+        "pkg-26.1.1" = _EzMKHh7a;
+        "pkg-1.21.3-3.1.6" = _YJUkDSOm;
+        "pkg-1.20.1-2.1.4" = _1AcSBTHb;
+        "default" = _1AcSBTHb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simply-harvesting";

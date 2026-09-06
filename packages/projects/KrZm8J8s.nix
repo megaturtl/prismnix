@@ -91,6 +91,11 @@ let
             "file" = "Cuffed-1.20.1-1.3.13.jar";
             "hash" = "sha512-T/Dp1TtyEldQSin+RHzRvek3YSvADv6XKhyXIoh4SetqlI3yJQXhwO7IgeV5U7YQ6zUX67iQvJU6EWyKZYp5oQ==";
         };
+        _EMM2UH0n = {
+            "id" = "EMM2UH0n";
+            "file" = "Cuffed-1.20.1-1.3.15.jar";
+            "hash" = "sha512-v2g94V8ADbTM3OZt59l/TfM01JXxZwwemXnhBOmVJsHuIXtCOnYDEQj7jGJOe+GL0iMc1fr2TafzJQBbnc6IGg==";
+        };
     in {
         "9BBu2vBj" = _9BBu2vBj;
         "Zoon84qI" = _Zoon84qI;
@@ -110,17 +115,19 @@ let
         "1U3CpOGu" = _1U3CpOGu;
         "q99OHICl" = _q99OHICl;
         "lI8icKot" = _lI8icKot;
-        "forge-1.20" = _lI8icKot;
-        "forge-1.20.1" = _lI8icKot;
-        "forge-1.20.2" = _q99OHICl;
-        "forge-1.20.3" = _Fz2NJuZr;
-        "forge-1.20.4" = _Fz2NJuZr;
-        "forge-1.20.5" = _Fz2NJuZr;
+        "EMM2UH0n" = _EMM2UH0n;
+        "forge-1.20" = _EMM2UH0n;
+        "forge-1.20.1" = _EMM2UH0n;
+        "forge-1.20.2" = _EMM2UH0n;
+        "forge-1.20.3" = _EMM2UH0n;
+        "forge-1.20.4" = _EMM2UH0n;
+        "forge-1.20.5" = _EMM2UH0n;
         "forge-1.19.2" = _HVN3wj8K;
         "forge-1.19.3" = _HVN3wj8K;
         "forge-1.19.4" = _HVN3wj8K;
         "forge-1.19" = _mF9VUFlg;
         "forge-1.19.1" = _mF9VUFlg;
+        "forge-1.20.6" = _EMM2UH0n;
         "neoforge-1.20" = _32mPMahO;
         "neoforge-1.20.1" = _32mPMahO;
         "pkg-1.0.7" = _9BBu2vBj;
@@ -139,7 +146,8 @@ let
         "pkg-1.3.11" = _1U3CpOGu;
         "pkg-1.3.12" = _q99OHICl;
         "pkg-1.3.13" = _lI8icKot;
-        "default" = _lI8icKot;
+        "pkg-1.3.15" = _EMM2UH0n;
+        "default" = _EMM2UH0n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cuffed";

@@ -586,6 +586,11 @@ let
             "file" = "sporeinquisition-4.3.jar";
             "hash" = "sha512-9SwlH81S1EYJUIh7JdDPF5fi58hScqwzVNzNMoSd7U9uz9QMxFPyMfu6rTkTB4SE0WFnHxb+qJ4t3sfO/RMFkA==";
         };
+        _hGSaUU9p = {
+            "id" = "hGSaUU9p";
+            "file" = "sporeinquisition-4.4.jar";
+            "hash" = "sha512-1CKBK8PvEg0CX6qshPyt37+0tymy3j3+sJfYCt1q9DVJOqA7HQpWMXWf3XXoh+w9GgaHCZAFkpcvNbK0S+a7eg==";
+        };
     in {
         "CMwE08dA" = _CMwE08dA;
         "MGWtm4h5" = _MGWtm4h5;
@@ -704,10 +709,11 @@ let
         "X9RQQYsH" = _X9RQQYsH;
         "p8GU1yzG" = _p8GU1yzG;
         "ReUDG1fn" = _ReUDG1fn;
+        "hGSaUU9p" = _hGSaUU9p;
         "datapack-1.20.1" = _U3f5H1OA;
         "datapack-1.21.1" = _FY0dLtQs;
         "forge-1.20.1" = _jTBlVupd;
-        "neoforge-1.21.1" = _ReUDG1fn;
+        "neoforge-1.21.1" = _hGSaUU9p;
         "neoforge-1.21.11" = _1Pw6nJGT;
         "pkg-INQ1" = _CMwE08dA;
         "pkg-INQ_1.1" = _MGWtm4h5;
@@ -780,7 +786,8 @@ let
         "pkg-INQ_4.1" = _X9RQQYsH;
         "pkg-INQ_NEO_4.2" = _p8GU1yzG;
         "pkg-INQ_4.3" = _ReUDG1fn;
-        "default" = _ReUDG1fn;
+        "pkg-INQ_4.4" = _hGSaUU9p;
+        "default" = _hGSaUU9p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spore-inquisition";

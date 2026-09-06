@@ -161,6 +161,46 @@ let
             "file" = "Mello 0.65.zip";
             "hash" = "sha512-g9gNYPDJetN3k9pbIb2VRTT58s+tFT3wbuAV+J3qQov85ZucgfvTHUnPTpj/Wnu1JxQt8T4mlGyi5C2Px8WAeg==";
         };
+        _KBj8Miu9 = {
+            "id" = "KBj8Miu9";
+            "file" = "Mello 0.66.zip";
+            "hash" = "sha512-8XfkI8iQLJ8ozDntV5Q/NvadlB0vRILsmsG46Z59PB0ksAm+efv+o42fsNracx0F1uP7fpQRT/nug74FANNzdw==";
+        };
+        _rEH1xVKI = {
+            "id" = "rEH1xVKI";
+            "file" = "Mello 0.67.zip";
+            "hash" = "sha512-IApm+0yECrjJ3tBHSHoRNwVQbhDz8GKtH0cW8Ga6dBdQ1z6W/hYPJG7yNZlZQ8L94aPopM0oQ2fJmSV1RhIe8g==";
+        };
+        _X7cRBIDf = {
+            "id" = "X7cRBIDf";
+            "file" = "Mello 0.68.zip";
+            "hash" = "sha512-KQ9znII2XKYJCjq0Fh/Uzf/c1okcmbhpb/Nqy11p1ksKZpECQCN7xKPmml6LMdexPIL0WAMKItbJLErqYVoI7w==";
+        };
+        _TtHV5uU5 = {
+            "id" = "TtHV5uU5";
+            "file" = "Mello 0.681.zip";
+            "hash" = "sha512-1AU1sSTvD0q6WiEHpECWqP9FBNnucqQP9AKR6+OK9qIXa0ne9cWvn0hxmV2mkfdOVG13YZQK+p9Nc+Or9IBaNw==";
+        };
+        _58qX6vpC = {
+            "id" = "58qX6vpC";
+            "file" = "Mello 0.682.zip";
+            "hash" = "sha512-JmU+6dYRRbxgA0PYzYnrgfsU0JF8Cw46rGonZQY/Id4rZEJ7hhNdPoOkZKI3jjQJJxqD1+NtYcS7oTOirfsTdw==";
+        };
+        _uRZJSx9G = {
+            "id" = "uRZJSx9G";
+            "file" = "Mello 0.69.zip";
+            "hash" = "sha512-5cItRubm+vB4arcx2NAhKd4t6NUxdIe39ephw5u1lJ7CspxRf4fa/egcPmktOscgySQSw38ybfAFise9bP1gxA==";
+        };
+        _j3bGz3l0 = {
+            "id" = "j3bGz3l0";
+            "file" = "Mello 0.691.zip";
+            "hash" = "sha512-MpIcKusWPykv9kCBmr2YWjJow1366GZL5TjfiuM6mqIGMTx2uyYCMoP56N1PZrbDcJcdSJO4RUD+XzitW8Db+A==";
+        };
+        _Wlv7gxcf = {
+            "id" = "Wlv7gxcf";
+            "file" = "Mello 0.692.zip";
+            "hash" = "sha512-HIqM94pTCfPDmSlOwIFmwuigvTAkaz/1oZnKIwbdaqHzQMsq7svLx8HdgV1IngA6EsV3rC1DigbgFbNd895mfg==";
+        };
     in {
         "A6PSFluC" = _A6PSFluC;
         "YDfXIcW9" = _YDfXIcW9;
@@ -194,6 +234,14 @@ let
         "ZPvmUpma" = _ZPvmUpma;
         "Py0tX01X" = _Py0tX01X;
         "GnBlgXAZ" = _GnBlgXAZ;
+        "KBj8Miu9" = _KBj8Miu9;
+        "rEH1xVKI" = _rEH1xVKI;
+        "X7cRBIDf" = _X7cRBIDf;
+        "TtHV5uU5" = _TtHV5uU5;
+        "58qX6vpC" = _58qX6vpC;
+        "uRZJSx9G" = _uRZJSx9G;
+        "j3bGz3l0" = _j3bGz3l0;
+        "Wlv7gxcf" = _Wlv7gxcf;
         "iris-1.21" = _ZPvmUpma;
         "iris-1.21.1" = _ZPvmUpma;
         "iris-1.21.2" = _ZPvmUpma;
@@ -206,10 +254,10 @@ let
         "iris-1.21.9" = _ZPvmUpma;
         "iris-1.21.10" = _ZPvmUpma;
         "iris-1.21.11" = _ZPvmUpma;
-        "iris-26.1" = _GnBlgXAZ;
-        "iris-26.1.1" = _GnBlgXAZ;
-        "iris-26.1.2" = _GnBlgXAZ;
-        "iris-26.2" = _GnBlgXAZ;
+        "iris-26.1" = _Wlv7gxcf;
+        "iris-26.1.1" = _Wlv7gxcf;
+        "iris-26.1.2" = _Wlv7gxcf;
+        "iris-26.2" = _Wlv7gxcf;
         "iris-1.20" = _ZPvmUpma;
         "iris-1.20.1" = _ZPvmUpma;
         "iris-1.20.2" = _ZPvmUpma;
@@ -249,7 +297,15 @@ let
         "pkg-0.641" = _ZPvmUpma;
         "pkg-0.642" = _Py0tX01X;
         "pkg-0.65" = _GnBlgXAZ;
-        "default" = _GnBlgXAZ;
+        "pkg-0.66" = _KBj8Miu9;
+        "pkg-0.67" = _rEH1xVKI;
+        "pkg-0.68" = _X7cRBIDf;
+        "pkg-0.681" = _TtHV5uU5;
+        "pkg-0.682" = _58qX6vpC;
+        "pkg-0.69" = _uRZJSx9G;
+        "pkg-0.691" = _j3bGz3l0;
+        "pkg-0.692" = _Wlv7gxcf;
+        "default" = _Wlv7gxcf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mello";

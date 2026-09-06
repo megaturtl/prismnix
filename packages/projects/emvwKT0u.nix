@@ -226,6 +226,16 @@ let
             "file" = "loot-table-modifier-fabric-26.1-2.3.0+fabric+26.1.jar";
             "hash" = "sha512-HaosQbhp0t778GrkuJi6jmszOMzpzL9SnF8KSoWTNkcZslyW1KxEWD98rvcii69v5uCFal0ForrBJmmKwilfcA==";
         };
+        _zI3ToLgY = {
+            "id" = "zI3ToLgY";
+            "file" = "loot-table-modifier-neoforge-26.1-2.3.1+neoforge+26.1.jar";
+            "hash" = "sha512-hpGImq+lrMJn1BDMqBRbDUOVc+UjiQw8DG0YzkPG7+txGgA4F8XPIz+Wrr7AxwRNtXxaIsIhhglMDcg8u+q/MQ==";
+        };
+        _HQO9NFWe = {
+            "id" = "HQO9NFWe";
+            "file" = "loot-table-modifier-fabric-26.1-2.3.1+fabric+26.1.jar";
+            "hash" = "sha512-mNRx2tqJdIcKwW6IyJBkh5Hs18ksN+iz5latfKrLuaorBpcFuNH/M6Dolm1iPqxirqJ5iFjPN2Ta/HKvhsfTWQ==";
+        };
     in {
         "3YkiDqkn" = _3YkiDqkn;
         "30PyGPeb" = _30PyGPeb;
@@ -272,6 +282,8 @@ let
         "i1IRLnu8" = _i1IRLnu8;
         "OJucgIJ0" = _OJucgIJ0;
         "4tQFrIw1" = _4tQFrIw1;
+        "zI3ToLgY" = _zI3ToLgY;
+        "HQO9NFWe" = _HQO9NFWe;
         "fabric-1.21.1" = _ZJLEaEpW;
         "fabric-1.20.5" = _x63CcUAg;
         "fabric-1.20.6" = _x63CcUAg;
@@ -290,10 +302,10 @@ let
         "fabric-1.20.2" = _5zgXEvVL;
         "fabric-1.20.3" = _5zgXEvVL;
         "fabric-1.20.4" = _5zgXEvVL;
-        "fabric-26.1" = _4tQFrIw1;
-        "fabric-26.1.1" = _4tQFrIw1;
-        "fabric-26.1.2" = _4tQFrIw1;
-        "fabric-26.2" = _4tQFrIw1;
+        "fabric-26.1" = _HQO9NFWe;
+        "fabric-26.1.1" = _HQO9NFWe;
+        "fabric-26.1.2" = _HQO9NFWe;
+        "fabric-26.2" = _HQO9NFWe;
         "neoforge-1.21" = _nD7w1sXY;
         "neoforge-1.21.1" = _HTQP2Riz;
         "neoforge-1.21.2" = _YNaFkOMe;
@@ -306,10 +318,10 @@ let
         "neoforge-1.21.8" = _wcAmlRTz;
         "neoforge-1.21.9" = _wcAmlRTz;
         "neoforge-1.21.10" = _wcAmlRTz;
-        "neoforge-26.1" = _OJucgIJ0;
-        "neoforge-26.1.1" = _OJucgIJ0;
-        "neoforge-26.1.2" = _OJucgIJ0;
-        "neoforge-26.2" = _OJucgIJ0;
+        "neoforge-26.1" = _zI3ToLgY;
+        "neoforge-26.1.1" = _zI3ToLgY;
+        "neoforge-26.1.2" = _zI3ToLgY;
+        "neoforge-26.2" = _zI3ToLgY;
         "pkg-1.0.0+1.21.1" = _3YkiDqkn;
         "pkg-1.0.1+1.21.1" = _30PyGPeb;
         "pkg-1.1.0+1.21.4" = _tlur9oIn;
@@ -355,7 +367,9 @@ let
         "pkg-2.2.0+fabric+26.1" = _i1IRLnu8;
         "pkg-2.3.0+neoforge+26.1" = _OJucgIJ0;
         "pkg-2.3.0+fabric+26.1" = _4tQFrIw1;
-        "default" = _4tQFrIw1;
+        "pkg-2.3.1+neoforge+26.1" = _zI3ToLgY;
+        "pkg-2.3.1+fabric+26.1" = _HQO9NFWe;
+        "default" = _HQO9NFWe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "loot-table-modifier";

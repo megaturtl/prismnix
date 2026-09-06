@@ -91,6 +91,21 @@ let
             "file" = "better_tools_and_armor_v13.0-forge_1.20.1.jar";
             "hash" = "sha512-rhD6TUdqRDKbqEXz65ABNsEcdOb6KoRTvoXDgCYmBoUhCWQT0Z9jYqfOeHPzDpTksfb1YApA25wVwgB++0H10A==";
         };
+        _cPvo4uhG = {
+            "id" = "cPvo4uhG";
+            "file" = "better_tools_and_armor_v13.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-nZBKExZ0AOjMjIiED/3FQ2VSCsKmhBmFMFyFBp8d3UCFwA2xqupxNDlEsn1F1x73FJNkylGJj7vPu/KiaHxmIA==";
+        };
+        _r3ojj2Db = {
+            "id" = "r3ojj2Db";
+            "file" = "better_tools_and_armor_v13.0.1-forge_1.20.1.jar";
+            "hash" = "sha512-YSFdRUrQDREMMYzEN7BvgdVR0PdnsG6YZw/3dFQlLu0O5OfYhy3iWj+ZlLt0sTWKIJimltX8W0t/nfronxOsBQ==";
+        };
+        _ne3nsqCW = {
+            "id" = "ne3nsqCW";
+            "file" = "better_tools_and_armor_v13.1.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-FG29Q/MXm+H7UTO1ZfzlLzWIHZ4rRg8vbLO3uGejV+6B+kMWYHTDPyNfmLmsIgOX+IdCiRoGtmoon2l9xLcoig==";
+        };
     in {
         "QidhUfhW" = _QidhUfhW;
         "gqdQ7El8" = _gqdQ7El8;
@@ -110,11 +125,15 @@ let
         "iBeStO5R" = _iBeStO5R;
         "ZkjpsIN5" = _ZkjpsIN5;
         "xk9RXhSR" = _xk9RXhSR;
+        "cPvo4uhG" = _cPvo4uhG;
+        "r3ojj2Db" = _r3ojj2Db;
+        "ne3nsqCW" = _ne3nsqCW;
         "forge-1.19.2" = _QidhUfhW;
         "forge-1.19.4" = _lFuzN3wp;
-        "forge-1.20.1" = _xk9RXhSR;
-        "neoforge-1.20.1" = _xk9RXhSR;
+        "forge-1.20.1" = _r3ojj2Db;
+        "neoforge-1.20.1" = _r3ojj2Db;
         "neoforge-1.20.4" = _rkJB8oix;
+        "neoforge-1.21.1" = _ne3nsqCW;
         "pkg-10.3" = _dE13bux3;
         "pkg-10.3.1" = _wR3OloNX;
         "pkg-11.0" = _Xg9E1cUX;
@@ -127,7 +146,10 @@ let
         "pkg-12.0.1" = _iBeStO5R;
         "pkg-12.0.2" = _ZkjpsIN5;
         "pkg-13.0" = _xk9RXhSR;
-        "default" = _xk9RXhSR;
+        "pkg-13.1" = _cPvo4uhG;
+        "pkg-13.0.1" = _r3ojj2Db;
+        "pkg-13.1.1" = _ne3nsqCW;
+        "default" = _ne3nsqCW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-tools-and-armor";

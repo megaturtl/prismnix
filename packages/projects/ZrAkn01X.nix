@@ -45,6 +45,11 @@ let
         "minecraft-1.21.8" = _uAcReLwA;
         "minecraft-1.21.9" = _uAcReLwA;
         "minecraft-1.21.10" = _uAcReLwA;
+        "minecraft-1.21.11" = _uAcReLwA;
+        "minecraft-26.1" = _uAcReLwA;
+        "minecraft-26.1.1" = _uAcReLwA;
+        "minecraft-26.1.2" = _uAcReLwA;
+        "minecraft-26.2" = _uAcReLwA;
         "pkg-1.0" = _uAcReLwA;
         "default" = _uAcReLwA;
     });

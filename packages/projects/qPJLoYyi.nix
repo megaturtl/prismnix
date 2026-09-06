@@ -166,6 +166,26 @@ let
             "file" = "CobbleOptimizer-4.6.0.jar";
             "hash" = "sha512-beJap22h3LQ4QKJY3uD65aSZANdJNCmb/vSXWHip9zzyJHOK6lHnWLgxF7nfo9JPk0ysBzpUfdzCT9rXhPLgfg==";
         };
+        _y8ynWpxj = {
+            "id" = "y8ynWpxj";
+            "file" = "CobbleOptimizer-4.7.0.jar";
+            "hash" = "sha512-ZsQPnb7Lti/QV5I3QrahJhXc7Wpi1Stl621BmCzjYczC9LGFsZkFuevA2agDSg+DKBMDTx51HesIYOflA8YnyQ==";
+        };
+        _1mvEhdus = {
+            "id" = "1mvEhdus";
+            "file" = "CobbleOptimizer-4.7.0.jar";
+            "hash" = "sha512-uCMO/Sl+rXmEHYjveb4SOrMfzJeYGhDK4YV8tYN3XrFOzM+yPGtKOnimeDc00SrYJnWyCSIKbj6m9JwZjw3MHQ==";
+        };
+        _D78ayY4V = {
+            "id" = "D78ayY4V";
+            "file" = "CobbleOptimizer-4.8.0.jar";
+            "hash" = "sha512-fan78qpS6fpOh35yLL0CATX0yL+ks41Bu0Yet0Y4YWAvWlGIkMvm/wVpULkfF0nXKTDIRnYz0nnRVo+iHVtCeg==";
+        };
+        _WmzrXDV9 = {
+            "id" = "WmzrXDV9";
+            "file" = "CobbleOptimizer-4.8.0.jar";
+            "hash" = "sha512-EOw2gHE66p6TsSV9J2mTxpcC7WcQ/mNBzoHCgEAk/jau5RwI4dg6yjJCm02w6PUfkdH6YMVk2FjfA7jty2Ehww==";
+        };
     in {
         "c27IuOOU" = _c27IuOOU;
         "IGOyns9m" = _IGOyns9m;
@@ -200,11 +220,12 @@ let
         "TTnnNQT0" = _TTnnNQT0;
         "HsyjlyNu" = _HsyjlyNu;
         "g1IZK0LM" = _g1IZK0LM;
-        "fabric-1.21.1" = _HsyjlyNu;
-        "neoforge-1.21.1" = _g1IZK0LM;
-        "neoforge-26.1" = _ztkSYn0r;
-        "neoforge-26.1.1" = _ztkSYn0r;
-        "neoforge-26.1.2" = _ztkSYn0r;
+        "y8ynWpxj" = _y8ynWpxj;
+        "1mvEhdus" = _1mvEhdus;
+        "D78ayY4V" = _D78ayY4V;
+        "WmzrXDV9" = _WmzrXDV9;
+        "fabric-1.21.1" = _D78ayY4V;
+        "neoforge-1.21.1" = _WmzrXDV9;
         "pkg-1.0.0" = _c27IuOOU;
         "pkg-1.0.1" = _IGOyns9m;
         "pkg-2.0.0" = _49TvhZt6;
@@ -225,7 +246,9 @@ let
         "pkg-4.3.3" = _J3Fcx8mg;
         "pkg-4.4.0" = _TTnnNQT0;
         "pkg-4.6.0" = _g1IZK0LM;
-        "default" = _g1IZK0LM;
+        "pkg-4.7.0" = _1mvEhdus;
+        "pkg-4.8.0" = _WmzrXDV9;
+        "default" = _WmzrXDV9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemonoptimizer";

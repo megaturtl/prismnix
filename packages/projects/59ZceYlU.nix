@@ -281,6 +281,11 @@ let
             "file" = "Pixelmon-1.21.1-9.3.16-universal.jar";
             "hash" = "sha512-DZO6RuQSfgkoghOtqBO5M4FLE9tCrFnpZ8GXorevRmZNe5j0JpafDsNWNVeNaaORSC+N5l8dg4Swi0LJ5OL2cA==";
         };
+        _owlznbWf = {
+            "id" = "owlznbWf";
+            "file" = "Pixelmon-1.21.1-9.4.0-universal.jar";
+            "hash" = "sha512-sUhQMcJ8vg3XEl8R07ADlU5lT2bBAkedRDhBBxo3ExBnNxv8Xh/C2L+Wpxla+jygL8FSXTQ/wJbVvFmGgLzK/g==";
+        };
     in {
         "IuRVEXF5" = _IuRVEXF5;
         "FtWGuJP5" = _FtWGuJP5;
@@ -338,11 +343,12 @@ let
         "NknNQ3DN" = _NknNQ3DN;
         "qlLiwhW4" = _qlLiwhW4;
         "LqFrsWa8" = _LqFrsWa8;
+        "owlznbWf" = _owlznbWf;
         "forge-1.12.2" = _Q8fEBG8j;
         "forge-1.16.5" = _CPLYWxEL;
         "forge-1.20.1" = _KjmzoXMR;
         "forge-1.20.2" = _KhZuM1q9;
-        "neoforge-1.21.1" = _LqFrsWa8;
+        "neoforge-1.21.1" = _owlznbWf;
         "pkg-8.4.2" = _IuRVEXF5;
         "pkg-9.0.0" = _FtWGuJP5;
         "pkg-9.0.1" = _UCVnvPCI;
@@ -399,7 +405,8 @@ let
         "pkg-9.3.14" = _NknNQ3DN;
         "pkg-9.3.15" = _qlLiwhW4;
         "pkg-9.3.16" = _LqFrsWa8;
-        "default" = _LqFrsWa8;
+        "pkg-9.4.0" = _owlznbWf;
+        "default" = _owlznbWf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pixelmon";

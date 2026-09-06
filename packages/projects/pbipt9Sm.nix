@@ -216,6 +216,11 @@ let
             "file" = "§dlooshy §7[§f1.8.9§7] [v0.12].zip";
             "hash" = "sha512-HmZsajWUFdr2QLnScjG35125CkHFRLe4UJg/9Jndc6DjC18AIqEh7G81uQu27O0JgVgPiMfOMpMWbPvpvZ2Npw==";
         };
+        _xYu7z8VD = {
+            "id" = "xYu7z8VD";
+            "file" = "§dlooshy §7[§f26.1§7] [v0.13].zip";
+            "hash" = "sha512-cKe/lZLENwAhNf47SV+fK5yZDoWQfZk/uLrAD7peLLUqM7YNfY9aMeLuAVYy41sPXJLv2JAuVyQHX/Nxoyd41g==";
+        };
     in {
         "zRWjdtYg" = _zRWjdtYg;
         "Wpo8X22Z" = _Wpo8X22Z;
@@ -260,6 +265,7 @@ let
         "foL63b93" = _foL63b93;
         "krI58ahy" = _krI58ahy;
         "NzXM5AKu" = _NzXM5AKu;
+        "xYu7z8VD" = _xYu7z8VD;
         "minecraft-1.21" = _krI58ahy;
         "minecraft-1.21.1" = _krI58ahy;
         "minecraft-1.21.2" = _krI58ahy;
@@ -271,11 +277,12 @@ let
         "minecraft-1.21.7" = _krI58ahy;
         "minecraft-1.21.8" = _krI58ahy;
         "minecraft-1.21.9" = _krI58ahy;
-        "minecraft-1.21.10" = _krI58ahy;
-        "minecraft-1.21.11" = _krI58ahy;
-        "minecraft-26.1" = _krI58ahy;
-        "minecraft-26.1.1" = _krI58ahy;
-        "minecraft-26.1.2" = _krI58ahy;
+        "minecraft-1.21.10" = _xYu7z8VD;
+        "minecraft-1.21.11" = _xYu7z8VD;
+        "minecraft-26.1" = _xYu7z8VD;
+        "minecraft-26.1.1" = _xYu7z8VD;
+        "minecraft-26.1.2" = _xYu7z8VD;
+        "minecraft-26.2" = _xYu7z8VD;
         "pkg-v0.1" = _zRWjdtYg;
         "pkg-v0.2" = _Wpo8X22Z;
         "pkg-overlay1" = _vScRFOCK;
@@ -319,7 +326,8 @@ let
         "pkg-v0.11" = _foL63b93;
         "pkg-v0.12" = _krI58ahy;
         "pkg-v0.12.legacy" = _NzXM5AKu;
-        "default" = _NzXM5AKu;
+        "pkg-v0.13" = _xYu7z8VD;
+        "default" = _xYu7z8VD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "looshy";

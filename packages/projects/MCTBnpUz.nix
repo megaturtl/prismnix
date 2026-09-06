@@ -16,10 +16,16 @@ let
             "file" = "enderdrives-neoforge-1.21.1-1.4.2.jar";
             "hash" = "sha512-4KxHz0OMTmleNK0GROb4Uhoj7a/sVD5BEPqzFPoza4jfAupsdKLXx/4dfJ12Ksw1QJr+q9qd5ZrOb8fzYpSqJg==";
         };
+        _WNliVGSX = {
+            "id" = "WNliVGSX";
+            "file" = "enderdrives-neoforge-26.1.2-1.5.0.jar";
+            "hash" = "sha512-tqcTCuPETcbO5x4IuL90V4F3nUCdjbsQ2lXPQSsM7B7wVrUMnW2BQ07SrfDpfl2/sGKSzjy0qGlxYFU4/Wezug==";
+        };
     in {
         "3NssuXCv" = _3NssuXCv;
         "FUPvy8YL" = _FUPvy8YL;
         "aZB2kUeE" = _aZB2kUeE;
+        "WNliVGSX" = _WNliVGSX;
         "neoforge-1.21.1" = _aZB2kUeE;
         "neoforge-1.21.2" = _aZB2kUeE;
         "neoforge-1.21.3" = _aZB2kUeE;
@@ -27,10 +33,12 @@ let
         "neoforge-1.21.5" = _aZB2kUeE;
         "neoforge-1.21.6" = _aZB2kUeE;
         "neoforge-1.21.7" = _aZB2kUeE;
+        "neoforge-26.1.2" = _WNliVGSX;
         "pkg-1.2.4" = _3NssuXCv;
         "pkg-1.4.0" = _FUPvy8YL;
         "pkg-1.4.2" = _aZB2kUeE;
-        "default" = _aZB2kUeE;
+        "pkg-1.5.0" = _WNliVGSX;
+        "default" = _WNliVGSX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enderdrives";

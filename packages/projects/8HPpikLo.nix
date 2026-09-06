@@ -31,6 +31,11 @@ let
             "file" = "pet-armor-2.0.0+26.2.jar";
             "hash" = "sha512-7c4Xne60IY+PWmQFNHtabwFIYZDnVTn7IU6/Bizk+c7DxaeMEtEHvbYS7IuO7Tjjy8UePTSATqLoNnxa2kFMIA==";
         };
+        _e63TuU2d = {
+            "id" = "e63TuU2d";
+            "file" = "pet-armor-2.0.1+26.2.jar";
+            "hash" = "sha512-jchfEjVnDyupMGzgNWQFU0RzGPcTRb6dGU0H6f3fKvBPwoxdSa+2QlxWh379Vh9dfDz1obpPgnXjLwocWwwQOw==";
+        };
     in {
         "Il74Vt2I" = _Il74Vt2I;
         "U2opsVoC" = _U2opsVoC;
@@ -38,19 +43,21 @@ let
         "9zGITO8U" = _9zGITO8U;
         "GkM5jUvu" = _GkM5jUvu;
         "oWYSxiAM" = _oWYSxiAM;
+        "e63TuU2d" = _e63TuU2d;
         "fabric-1.20.1" = _GkM5jUvu;
         "fabric-1.20" = _GkM5jUvu;
         "fabric-1.20.2" = _GkM5jUvu;
         "fabric-1.20.3" = _GkM5jUvu;
         "fabric-1.20.4" = _GkM5jUvu;
-        "fabric-26.2" = _oWYSxiAM;
+        "fabric-26.2" = _e63TuU2d;
         "pkg-1.0-1.20.1" = _Il74Vt2I;
         "pkg-1.1-1.20.1" = _U2opsVoC;
         "pkg-1.2-1.20.X" = _1PRPaEtg;
         "pkg-1.2.1-1.20.X" = _9zGITO8U;
         "pkg-1.2.2-1.20.X" = _GkM5jUvu;
         "pkg-2.0.0" = _oWYSxiAM;
-        "default" = _oWYSxiAM;
+        "pkg-2.0.1" = _e63TuU2d;
+        "default" = _e63TuU2d;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pet-armor";

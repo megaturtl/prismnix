@@ -1941,6 +1941,61 @@ let
             "file" = "MapFrontiers-26.2-neoforge-3.0.0-beta.11.jar";
             "hash" = "sha512-bDXFuOsmSS/xSU6qJy78vwH6iyYyTYeqYKh8GmvWrO/LB7q4Ege4orkDKw8Lrn+rmZyjzuw8/hmPeOLIPJzabQ==";
         };
+        _C6ac4hQm = {
+            "id" = "C6ac4hQm";
+            "file" = "MapFrontiers-1.20.1-fabric-3.0.0-beta.12.jar";
+            "hash" = "sha512-lJoWEq++oKwdfZZmHOec9XSUbcrVYS+RebBFniOICA6ay02VhZlHTiLJwIvdlMoNZ9E1ff9VJmbnCJ9YT4Glcw==";
+        };
+        _dg6FhpWY = {
+            "id" = "dg6FhpWY";
+            "file" = "MapFrontiers-1.20.1-forge-3.0.0-beta.12.jar";
+            "hash" = "sha512-tPFfWECinDYguFBny0tEBhK9XBAefKffm6xreJTShN7eqzPfSWMCu7rdqJxFeBDTxjAcbIjWAyEpMdtRBHNMTw==";
+        };
+        _k46MdVeL = {
+            "id" = "k46MdVeL";
+            "file" = "MapFrontiers-1.21.1-fabric-3.0.0-beta.12.jar";
+            "hash" = "sha512-BLIZafBKbkpSLV8J85wQzjZgd5rjB+wNzcrC69xbJwn9Ms8R6Wk7oEnZNf7P+VHIc5/fCbM2O6t67w/b1Tg54Q==";
+        };
+        _FH4MgkEM = {
+            "id" = "FH4MgkEM";
+            "file" = "MapFrontiers-1.21.1-forge-3.0.0-beta.12.jar";
+            "hash" = "sha512-coIFLmWmk55lFyNipyj/QKrfIcyPIOV3+cKNjbTCXGdm24ZH5o6syMYX0PCFzNAeXwWl8AmFckNFjGQLU3z73g==";
+        };
+        _A6oRIRRd = {
+            "id" = "A6oRIRRd";
+            "file" = "MapFrontiers-1.21.1-neoforge-3.0.0-beta.12.jar";
+            "hash" = "sha512-/mdaiHpNT2Tcfs3KwK44RlKmFWYXiFIU2+8dSWZ2gipl95xmZx9ZPZnGUNAIaPimuio/EAtvupG2uSWrS0dGiw==";
+        };
+        _DomxyESr = {
+            "id" = "DomxyESr";
+            "file" = "MapFrontiers-26.1.2-fabric-3.0.0-beta.12.jar";
+            "hash" = "sha512-WlGc24MicSZ6BjFhsOX9FgtNxaEI9fD2G4hQHOYf6WlNoHSMuDOlh6qG3yZuhZNkRTQ3378yhDQXdkEks7Mswg==";
+        };
+        _WrnH1UT3 = {
+            "id" = "WrnH1UT3";
+            "file" = "MapFrontiers-26.1.2-forge-3.0.0-beta.12.jar";
+            "hash" = "sha512-WrsJ/wMFjE2xQN5+VIxb7i2XThWW8FNvtWOqgNZfcB2TEX9a2lON549kmDiQCN/1LwKeVDS+MLJs5XB9yvUjPQ==";
+        };
+        _6J25DKMv = {
+            "id" = "6J25DKMv";
+            "file" = "MapFrontiers-26.1.2-neoforge-3.0.0-beta.12.jar";
+            "hash" = "sha512-Dzr/Dsj1hippiz+XSEZO1R5CRdFKShjzl0Kkf7Pvv+ulaRVmVPFTbyHoKmGMETJcTtzGAWYjJbFZycbMYrxjPA==";
+        };
+        _XkLumoBt = {
+            "id" = "XkLumoBt";
+            "file" = "MapFrontiers-26.2-fabric-3.0.0-beta.12.jar";
+            "hash" = "sha512-D6+Q7ETJ8GZDRPU6hW+CkDRcWhx5o2/E8WZpQQJGI1ngAmJO13dl5anJDKhEkawgQCN6fkmdJROtN9eyl/Vmig==";
+        };
+        _RjQzi1Ly = {
+            "id" = "RjQzi1Ly";
+            "file" = "MapFrontiers-26.2-forge-3.0.0-beta.12.jar";
+            "hash" = "sha512-uJs2T0zPxJ9Gvh/PYVLXCnLc28F3VNowX8Yy3WqoYcODnUNnen1ihebWqconcnYcrU3iG8H3OEcqyutvWrnzlQ==";
+        };
+        _j7bltyHn = {
+            "id" = "j7bltyHn";
+            "file" = "MapFrontiers-26.2-neoforge-3.0.0-beta.12.jar";
+            "hash" = "sha512-hOg5Sc2sL2g9bkbJ6kYDSbbMJzHantG9PyI3s8Yae/lzQLegDRu+iYyJtOJwiDkY1OtAYQZHcSV7HxsGf2tjwA==";
+        };
     in {
         "CdVmzzPN" = _CdVmzzPN;
         "N9g1L1aT" = _N9g1L1aT;
@@ -2330,19 +2385,30 @@ let
         "usB9Igu5" = _usB9Igu5;
         "DJiLSXJM" = _DJiLSXJM;
         "rKHcXMCD" = _rKHcXMCD;
+        "C6ac4hQm" = _C6ac4hQm;
+        "dg6FhpWY" = _dg6FhpWY;
+        "k46MdVeL" = _k46MdVeL;
+        "FH4MgkEM" = _FH4MgkEM;
+        "A6oRIRRd" = _A6oRIRRd;
+        "DomxyESr" = _DomxyESr;
+        "WrnH1UT3" = _WrnH1UT3;
+        "6J25DKMv" = _6J25DKMv;
+        "XkLumoBt" = _XkLumoBt;
+        "RjQzi1Ly" = _RjQzi1Ly;
+        "j7bltyHn" = _j7bltyHn;
         "forge-1.16.5" = _7PVviBbd;
         "forge-1.18.2" = _rcJQa7UF;
         "forge-1.19.1" = _GZ8Cg7K8;
         "forge-1.19.2" = _r3jc56vl;
         "forge-1.19.3" = _lIv0hDT4;
         "forge-1.19.4" = _msqGtHiO;
-        "forge-1.20.1" = _kD5rPGFJ;
+        "forge-1.20.1" = _dg6FhpWY;
         "forge-1.20" = _tLRVidqu;
         "forge-1.20.2" = _i5ImUDBM;
         "forge-1.20.4" = _aK7bnvJM;
         "forge-1.20.6" = _RuT3I6PS;
         "forge-1.21" = _zK3v6cw6;
-        "forge-1.21.1" = _4cqw7SLa;
+        "forge-1.21.1" = _FH4MgkEM;
         "forge-1.21.4" = _v0H6mDSO;
         "forge-1.21.5" = _qPPUaWr8;
         "forge-1.21.7" = _nJZrljZ4;
@@ -2351,20 +2417,20 @@ let
         "forge-1.21.11" = _B29M9PpV;
         "forge-26.1" = _iB1s7cuR;
         "forge-26.1.1" = _yzFLpdkR;
-        "forge-26.1.2" = _Pj0iTrks;
-        "forge-26.2" = _DJiLSXJM;
+        "forge-26.1.2" = _WrnH1UT3;
+        "forge-26.2" = _RjQzi1Ly;
         "fabric-1.18.2" = _5TEfGssH;
         "fabric-1.19.1" = _rWohuFcn;
         "fabric-1.19.2" = _RkFNddW4;
         "fabric-1.19.3" = _ooee9CBd;
         "fabric-1.19.4" = _2gnIuBPX;
-        "fabric-1.20.1" = _lMYpByuu;
+        "fabric-1.20.1" = _C6ac4hQm;
         "fabric-1.20" = _HFYbqJyx;
         "fabric-1.20.2" = _fI5mOzj9;
         "fabric-1.20.4" = _SaIS5F4W;
         "fabric-1.20.6" = _4sUOeAQA;
         "fabric-1.21" = _eiF2nJGw;
-        "fabric-1.21.1" = _gBzwc9zT;
+        "fabric-1.21.1" = _k46MdVeL;
         "fabric-1.21.4" = _SftkguLI;
         "fabric-1.21.5" = _rgpARA3V;
         "fabric-1.21.7" = _3uQqvdwx;
@@ -2373,20 +2439,20 @@ let
         "fabric-1.21.11" = _KYG8RZtA;
         "fabric-26.1" = _qfoR9cIt;
         "fabric-26.1.1" = _G9si0lED;
-        "fabric-26.1.2" = _N4QFUe17;
-        "fabric-26.2" = _usB9Igu5;
+        "fabric-26.1.2" = _DomxyESr;
+        "fabric-26.2" = _XkLumoBt;
         "quilt-1.18.2" = _5TEfGssH;
         "quilt-1.19.1" = _rWohuFcn;
         "quilt-1.19.2" = _RkFNddW4;
         "quilt-1.19.3" = _ooee9CBd;
         "quilt-1.19.4" = _2gnIuBPX;
-        "quilt-1.20.1" = _lMYpByuu;
+        "quilt-1.20.1" = _C6ac4hQm;
         "quilt-1.20" = _HFYbqJyx;
         "quilt-1.20.2" = _fI5mOzj9;
         "quilt-1.20.4" = _SaIS5F4W;
         "quilt-1.21" = _eiF2nJGw;
         "quilt-1.20.6" = _4sUOeAQA;
-        "quilt-1.21.1" = _gBzwc9zT;
+        "quilt-1.21.1" = _k46MdVeL;
         "quilt-1.21.4" = _SftkguLI;
         "quilt-1.21.5" = _rgpARA3V;
         "quilt-1.21.7" = _3uQqvdwx;
@@ -2395,14 +2461,14 @@ let
         "quilt-1.21.11" = _KYG8RZtA;
         "quilt-26.1" = _qfoR9cIt;
         "quilt-26.1.1" = _G9si0lED;
-        "quilt-26.1.2" = _N4QFUe17;
-        "quilt-26.2" = _usB9Igu5;
+        "quilt-26.1.2" = _DomxyESr;
+        "quilt-26.2" = _XkLumoBt;
         "neoforge-1.20" = _tLRVidqu;
         "neoforge-1.20.1" = _HRU5wf09;
         "neoforge-1.20.4" = _hSFmWzCY;
         "neoforge-1.20.6" = _UMiBSoja;
         "neoforge-1.21" = _LsJUO0Am;
-        "neoforge-1.21.1" = _RXFcKCb4;
+        "neoforge-1.21.1" = _A6oRIRRd;
         "neoforge-1.21.4" = _cw2mkLAt;
         "neoforge-1.21.5" = _DnTwag9P;
         "neoforge-1.21.7" = _iGxWuRKp;
@@ -2411,8 +2477,8 @@ let
         "neoforge-1.21.11" = _npsIhjYd;
         "neoforge-26.1" = _Z7wPnlia;
         "neoforge-26.1.1" = _A2LaJWzv;
-        "neoforge-26.1.2" = _sHfyPtAQ;
-        "neoforge-26.2" = _rKHcXMCD;
+        "neoforge-26.1.2" = _6J25DKMv;
+        "neoforge-26.2" = _j7bltyHn;
         "pkg-1.16.5-2.4.0-beta4" = _CdVmzzPN;
         "pkg-1.18.2-2.4.0-beta4" = _N9g1L1aT;
         "pkg-1.19.1-2.4.0-beta4" = _4VqqwGin;
@@ -2801,7 +2867,18 @@ let
         "pkg-26.2-3.0.0-beta.11-fabric" = _usB9Igu5;
         "pkg-26.2-3.0.0-beta.11-forge" = _DJiLSXJM;
         "pkg-26.2-3.0.0-beta.11-neoforge" = _rKHcXMCD;
-        "default" = _rKHcXMCD;
+        "pkg-1.20.1-3.0.0-beta.12-fabric" = _C6ac4hQm;
+        "pkg-1.20.1-3.0.0-beta.12-forge" = _dg6FhpWY;
+        "pkg-1.21.1-3.0.0-beta.12-fabric" = _k46MdVeL;
+        "pkg-1.21.1-3.0.0-beta.12-forge" = _FH4MgkEM;
+        "pkg-1.21.1-3.0.0-beta.12-neoforge" = _A6oRIRRd;
+        "pkg-26.1.2-3.0.0-beta.12-fabric" = _DomxyESr;
+        "pkg-26.1.2-3.0.0-beta.12-forge" = _WrnH1UT3;
+        "pkg-26.1.2-3.0.0-beta.12-neoforge" = _6J25DKMv;
+        "pkg-26.2-3.0.0-beta.12-fabric" = _XkLumoBt;
+        "pkg-26.2-3.0.0-beta.12-forge" = _RjQzi1Ly;
+        "pkg-26.2-3.0.0-beta.12-neoforge" = _j7bltyHn;
+        "default" = _j7bltyHn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mapfrontiers";

@@ -146,6 +146,56 @@ let
             "file" = "fighting-styles-1.3.jar";
             "hash" = "sha512-L+31/6f1rpzuvX5ZYdHSdiZbgaX/q71WZI6rFo8gb33htI0htbBvpf21XJrNE48knAhADEZyLeESZoGyCKaAKQ==";
         };
+        _xDkns4nV = {
+            "id" = "xDkns4nV";
+            "file" = "Fighting Styles data+resources 1.3.zip";
+            "hash" = "sha512-LPZLTDtbsKzySnAMV4rYDWgkyxk9HQWCIvaBhxXx33wimrA190IlWUsggWDsXie8LdE3AGDh5L5poNFsw360Zw==";
+        };
+        _jgdy90Tb = {
+            "id" = "jgdy90Tb";
+            "file" = "fighting-styles-1.3.jar";
+            "hash" = "sha512-1F5EO8zruJTMVUGcBGLT4pQdqNPEfnp2ZZUpc20J1SvHKXQ4Q0mN4WJ4VTIKQTM1VF7xph42j5QWDf24yPhBqA==";
+        };
+        _mtJyAV4L = {
+            "id" = "mtJyAV4L";
+            "file" = "Fighting Styles data+resources 1.3.zip";
+            "hash" = "sha512-36zgyoiuSn09dcwkbeEzZEbESRGBwvsxyJ4D5IMS0dsjyJknuWUMXnZX/ViR4KkrkaOsHPNM6dABZSuYjnWzcA==";
+        };
+        _D8Wc5Tf1 = {
+            "id" = "D8Wc5Tf1";
+            "file" = "fighting-styles-1.3.jar";
+            "hash" = "sha512-wlHI6Hk0HoyQPAAF4ozxEGfzRHPiMC/cR7cYhZA5SSLLnL1LRE+f9SnjfUViKb9A8xnxhaVjzMUzm5igPEOTjw==";
+        };
+        _NZDoh3PQ = {
+            "id" = "NZDoh3PQ";
+            "file" = "Fighting Styles data+resources 1.3.1.zip";
+            "hash" = "sha512-A77OkhgEqyUWwuKhsYZ4hIQcCgtYcqL1r58IWCVOLfaMFWS0R7dO3q2vH96ojWxf9NOJ583Ivn1imU1gIaowkQ==";
+        };
+        _JOAutWBH = {
+            "id" = "JOAutWBH";
+            "file" = "fighting-styles-1.3.1.jar";
+            "hash" = "sha512-0ztKK9cQ16SYXMof2tCLoPClFoBcOE9O6Q5tXZKuCNjlyGlenQebeMAdQis+gECtwXDUU0exPuVv5pzdPT1FVw==";
+        };
+        _g8GeJXQW = {
+            "id" = "g8GeJXQW";
+            "file" = "Fighting Styles data+resources 1.3.1.zip";
+            "hash" = "sha512-bkI59W7J/Vw89eS0MIoTlZHkvGSRrkW3pXcFQbIC8wvLHoexgtSPoeSNpRXiSoNO3rAtOzP2+kW2S4vTndzsEQ==";
+        };
+        _FDvrpmqw = {
+            "id" = "FDvrpmqw";
+            "file" = "fighting-styles-1.3.1.jar";
+            "hash" = "sha512-IUI+9gD8EYJVlzrDMRBNIuHoeL4iTpNznlSyMcoMEY0ZAtKzzMMZnPWeV4MmFlnGmMfI7C711GNqyngpGv4ZAg==";
+        };
+        _Vbs4Eme3 = {
+            "id" = "Vbs4Eme3";
+            "file" = "Fighting Styles data+resources 1.4.zip";
+            "hash" = "sha512-o6wBhjYCIa9h0fL4X661MNtnXIQXoP+x58QJeLcZNlw36kyOGPw6DzE46JwAVSykAscuvkS+XZiZKYzGEaPP3A==";
+        };
+        _ooM8oQiV = {
+            "id" = "ooM8oQiV";
+            "file" = "fighting-styles-1.4.jar";
+            "hash" = "sha512-Vyl0ra5mBZ6m9tKq9jAxbY5SOpnAtpxA3Qrpe+KSy4cC7xp2jd1q403V8P2tJ/ef2JPNhzxik+SC3kxqxUOe8Q==";
+        };
     in {
         "3cCwLV8A" = _3cCwLV8A;
         "YQ9TvPGV" = _YQ9TvPGV;
@@ -176,6 +226,16 @@ let
         "I4ntPMFE" = _I4ntPMFE;
         "ZiJxdn9r" = _ZiJxdn9r;
         "gvQF5ncm" = _gvQF5ncm;
+        "xDkns4nV" = _xDkns4nV;
+        "jgdy90Tb" = _jgdy90Tb;
+        "mtJyAV4L" = _mtJyAV4L;
+        "D8Wc5Tf1" = _D8Wc5Tf1;
+        "NZDoh3PQ" = _NZDoh3PQ;
+        "JOAutWBH" = _JOAutWBH;
+        "g8GeJXQW" = _g8GeJXQW;
+        "FDvrpmqw" = _FDvrpmqw;
+        "Vbs4Eme3" = _Vbs4Eme3;
+        "ooM8oQiV" = _ooM8oQiV;
         "datapack-1.21.6" = _XwmNbtVC;
         "datapack-1.21.7" = _XwmNbtVC;
         "datapack-1.21.8" = _XwmNbtVC;
@@ -185,7 +245,7 @@ let
         "datapack-26.1" = _Mw46ymRV;
         "datapack-26.1.1" = _Mw46ymRV;
         "datapack-26.1.2" = _Mw46ymRV;
-        "datapack-26.2" = _ZiJxdn9r;
+        "datapack-26.2" = _Vbs4Eme3;
         "fabric-1.21.6" = _6NoJLslK;
         "fabric-1.21.7" = _6NoJLslK;
         "fabric-1.21.8" = _6NoJLslK;
@@ -195,7 +255,7 @@ let
         "fabric-26.1" = _I4ntPMFE;
         "fabric-26.1.1" = _I4ntPMFE;
         "fabric-26.1.2" = _I4ntPMFE;
-        "fabric-26.2" = _gvQF5ncm;
+        "fabric-26.2" = _ooM8oQiV;
         "forge-1.21.6" = _6NoJLslK;
         "forge-1.21.7" = _6NoJLslK;
         "forge-1.21.8" = _6NoJLslK;
@@ -205,7 +265,7 @@ let
         "forge-26.1" = _I4ntPMFE;
         "forge-26.1.1" = _I4ntPMFE;
         "forge-26.1.2" = _I4ntPMFE;
-        "forge-26.2" = _gvQF5ncm;
+        "forge-26.2" = _ooM8oQiV;
         "neoforge-1.21.6" = _6NoJLslK;
         "neoforge-1.21.7" = _6NoJLslK;
         "neoforge-1.21.8" = _6NoJLslK;
@@ -215,7 +275,7 @@ let
         "neoforge-26.1" = _I4ntPMFE;
         "neoforge-26.1.1" = _I4ntPMFE;
         "neoforge-26.1.2" = _I4ntPMFE;
-        "neoforge-26.2" = _gvQF5ncm;
+        "neoforge-26.2" = _ooM8oQiV;
         "quilt-1.21.6" = _6NoJLslK;
         "quilt-1.21.7" = _6NoJLslK;
         "quilt-1.21.8" = _6NoJLslK;
@@ -225,7 +285,7 @@ let
         "quilt-26.1" = _I4ntPMFE;
         "quilt-26.1.1" = _I4ntPMFE;
         "quilt-26.1.2" = _I4ntPMFE;
-        "quilt-26.2" = _gvQF5ncm;
+        "quilt-26.2" = _ooM8oQiV;
         "pkg-1.0" = _3cCwLV8A;
         "pkg-1.0+mod" = _YQ9TvPGV;
         "pkg-1.0.1" = _LivNaeNe;
@@ -244,9 +304,13 @@ let
         "pkg-1.1+mod" = _IJaMrOa5;
         "pkg-1.2" = _Mw46ymRV;
         "pkg-1.2+mod" = _I4ntPMFE;
-        "pkg-1.3" = _ZiJxdn9r;
-        "pkg-1.3+mod" = _gvQF5ncm;
-        "default" = _gvQF5ncm;
+        "pkg-1.3" = _mtJyAV4L;
+        "pkg-1.3+mod" = _D8Wc5Tf1;
+        "pkg-1.3.1" = _g8GeJXQW;
+        "pkg-1.3.1+mod" = _FDvrpmqw;
+        "pkg-1.4" = _Vbs4Eme3;
+        "pkg-1.4+mod" = _ooM8oQiV;
+        "default" = _ooM8oQiV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fighting-styles";

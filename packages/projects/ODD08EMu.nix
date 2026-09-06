@@ -56,6 +56,11 @@ let
             "file" = "colorful_lighting-1.20.1-2.6.1.jar";
             "hash" = "sha512-4yzyfhMsVTK0YXpgPP+zRR3uxybI1/MNxElxAUOZt6mXN1I9nkAxh4gwd6taF40HsrE191F8kEz465brvVwjlQ==";
         };
+        _Zdlq4yej = {
+            "id" = "Zdlq4yej";
+            "file" = "colorful_lighting-1.20.1-2.7.0.jar";
+            "hash" = "sha512-4+BsGvenI16BJHF/ql7NOPzioIV/7UqqO5+UBr1bV11dfiZV/7upGp2ZBjxvok8ykLDKJ8+HNaRwdIHycyrXGw==";
+        };
     in {
         "SaY8MVxf" = _SaY8MVxf;
         "YYKKp5ZS" = _YYKKp5ZS;
@@ -68,7 +73,8 @@ let
         "Rx5UqRKx" = _Rx5UqRKx;
         "bl54WHKh" = _bl54WHKh;
         "yPDR1iNe" = _yPDR1iNe;
-        "forge-1.20.1" = _yPDR1iNe;
+        "Zdlq4yej" = _Zdlq4yej;
+        "forge-1.20.1" = _Zdlq4yej;
         "pkg-1.8.3" = _SaY8MVxf;
         "pkg-2.3.0" = _YYKKp5ZS;
         "pkg-2.3.1" = _DtXlK3Cj;
@@ -80,7 +86,8 @@ let
         "pkg-2.5.2" = _Rx5UqRKx;
         "pkg-2.6.0" = _bl54WHKh;
         "pkg-2.6.1" = _yPDR1iNe;
-        "default" = _yPDR1iNe;
+        "pkg-2.7.0" = _Zdlq4yej;
+        "default" = _Zdlq4yej;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "colorful-lighting-sodium";

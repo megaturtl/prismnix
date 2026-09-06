@@ -471,6 +471,16 @@ let
             "file" = "vss-neoforge-1.21.4-1.1.3.jar";
             "hash" = "sha512-tQHc5vJ0BXjeUbiGfyEm9LkePe+JpdEX8zJaDmd4K+ZxpE8wc+kJY0nFjAgNnPA7VeQubNMqNIUMUVo++7s5Ug==";
         };
+        _zirLVOTX = {
+            "id" = "zirLVOTX";
+            "file" = "vss-fabric-26.2-1.1.3.jar";
+            "hash" = "sha512-YwVNztr98gSERzsoXuehUSwQYujfPf8wKLUciCOvW+uTS+fGKTtEbtyvusp3uiQG2HAhFJkmrsJnjobQMUy67A==";
+        };
+        _mRRIVRju = {
+            "id" = "mRRIVRju";
+            "file" = "vss-neoforge-26.2-1.1.3.jar";
+            "hash" = "sha512-6FM8ZkwpnI9Jj0B3m+SwvPV7KhDFf1csU7U8YbNDYIvhKl2aDPMsf9+TqLT0uEgD6PI3E39rU+nJUONs4j71BA==";
+        };
     in {
         "cVug68Yo" = _cVug68Yo;
         "uKClFFNX" = _uKClFFNX;
@@ -566,6 +576,8 @@ let
         "MB6mZHO1" = _MB6mZHO1;
         "iIgMlzJw" = _iIgMlzJw;
         "ccHcO3Kq" = _ccHcO3Kq;
+        "zirLVOTX" = _zirLVOTX;
+        "mRRIVRju" = _mRRIVRju;
         "forge-1.21.5" = _ZwTDMhlp;
         "forge-1.21.11" = _ua6TdzqN;
         "forge-1.19.2" = _K2gvQ1y0;
@@ -585,6 +597,7 @@ let
         "fabric-26.1" = _W7WbqE6b;
         "fabric-26.1.1" = _W7WbqE6b;
         "fabric-26.1.2" = _W7WbqE6b;
+        "fabric-26.2" = _zirLVOTX;
         "neoforge-1.21.5" = _P2hrA19p;
         "neoforge-1.21.11" = _lcvXPbYV;
         "neoforge-1.21.1" = _JWH7y55x;
@@ -594,6 +607,7 @@ let
         "neoforge-26.1" = _FLlaogds;
         "neoforge-26.1.1" = _FLlaogds;
         "neoforge-26.1.2" = _FLlaogds;
+        "neoforge-26.2" = _mRRIVRju;
         "pkg-1.21.5-1.0.0" = _35l0VoXT;
         "pkg-1.1.0-fabric" = _KaXcj35V;
         "pkg-1.1.0-forge" = _pDGIASD8;
@@ -604,10 +618,10 @@ let
         "pkg-1.1.2-fabric" = _fbBInoIi;
         "pkg-1.1.2-forge" = _E6CMY8LX;
         "pkg-1.1.2-neoforge" = _qoawrRHQ;
-        "pkg-1.1.3-fabric" = _MB6mZHO1;
-        "pkg-1.1.3-neoforge" = _ccHcO3Kq;
+        "pkg-1.1.3-fabric" = _zirLVOTX;
+        "pkg-1.1.3-neoforge" = _mRRIVRju;
         "pkg-1.1.3-forge" = _iIgMlzJw;
-        "default" = _ccHcO3Kq;
+        "default" = _mRRIVRju;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vr-swing-sprint";

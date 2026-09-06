@@ -36,6 +36,11 @@ let
             "file" = "koil-0.70.26-unfinished.13.jar";
             "hash" = "sha512-QuVrze7De4mYle9Loff+J2vhWxjvXJ54/2Pz16xlrHYS/Z7t7k5muXCGxq4odXca3EdwP39rIbPTZtrWrWp9XQ==";
         };
+        _vBXa5Bcz = {
+            "id" = "vBXa5Bcz";
+            "file" = "koil-0.70.26-unfinished.14.jar";
+            "hash" = "sha512-LvUXp3d+E4jU/RpuCWJ1Uz8GQJs7KoA20pdcNp2TvvDoJBoPmNBqKAC7itgqbTiJUWPFWntJsyQ17Ky3pD9jYA==";
+        };
     in {
         "ktSUndp3" = _ktSUndp3;
         "UlHAm9ZV" = _UlHAm9ZV;
@@ -44,8 +49,9 @@ let
         "BLX55DxL" = _BLX55DxL;
         "ijuFDDVl" = _ijuFDDVl;
         "8xD81QfF" = _8xD81QfF;
-        "fabric-1.20.1" = _8xD81QfF;
-        "quilt-1.20.1" = _8xD81QfF;
+        "vBXa5Bcz" = _vBXa5Bcz;
+        "fabric-1.20.1" = _vBXa5Bcz;
+        "quilt-1.20.1" = _vBXa5Bcz;
         "pkg-0.70.26-unfinished.7" = _ktSUndp3;
         "pkg-0.70.26-unfinished.8" = _UlHAm9ZV;
         "pkg-0.70.26-unfinished.9" = _1UI0AkY4;
@@ -53,7 +59,8 @@ let
         "pkg-0.70.26-unfinished.11" = _BLX55DxL;
         "pkg-0.70.26-unfinished.12" = _ijuFDDVl;
         "pkg-0.70.26-unfinished.13" = _8xD81QfF;
-        "default" = _8xD81QfF;
+        "pkg-0.70.26-unfinished.14" = _vBXa5Bcz;
+        "default" = _vBXa5Bcz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "koil";

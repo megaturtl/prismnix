@@ -48,12 +48,12 @@ let
         type = "resourcepack";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-4.0" {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-ND-4.0" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "Creative Commons Attribution Non Commercial 4.0 International";
-                shortName = "CC-BY-NC-4.0";
+                fullName = "Creative Commons Attribution Non Commercial No Derivatives 4.0 International";
+                shortName = "CC-BY-NC-ND-4.0";
                 url = null;
             };
         };

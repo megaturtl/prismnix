@@ -85,6 +85,7 @@ let
         "fabric-26.1.1" = _PY5spJPk;
         "fabric-26.1.2" = _PY5spJPk;
         "fabric-26.2" = _PY5spJPk;
+        "fabric-26.3-pre-2" = _PY5spJPk;
         "pkg-1.0.0" = _Gwxd8jvy;
         "pkg-1.0.2" = _6O9B1B2V;
         "pkg-1.0.3" = _UfgF5C8v;

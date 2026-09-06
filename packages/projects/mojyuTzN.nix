@@ -126,6 +126,11 @@ let
             "file" = "custom_piglin_bartering-1.9.0+MC26.1-26.1.x.jar";
             "hash" = "sha512-VSmy7xjpQRlO6ecy6krjAr0+oruNSQH6+wrRBf6E0HQrIvcKeofHLv8BraWLqbSRk1Ozg69ulGelaGn2dhLtrw==";
         };
+        _hwfHrmyk = {
+            "id" = "hwfHrmyk";
+            "file" = "custom_piglin_bartering-1.9.1+MC26.1-26.2.x.jar";
+            "hash" = "sha512-/gEw2XHny2obiq87lHq241hs8evQM+Y9x7id7xPxSRCpQpnu96tcdkUvYqmBhwdwERsibPmnVBM/L2drH0OMZg==";
+        };
     in {
         "eeo2qFnn" = _eeo2qFnn;
         "I7iJMLvE" = _I7iJMLvE;
@@ -152,6 +157,7 @@ let
         "PNlDivw9" = _PNlDivw9;
         "9ogi1vSQ" = _9ogi1vSQ;
         "7QLSzqnq" = _7QLSzqnq;
+        "hwfHrmyk" = _hwfHrmyk;
         "fabric-1.17" = _I7iJMLvE;
         "fabric-1.17.1" = _I7iJMLvE;
         "fabric-1.18" = _1kGe7XEy;
@@ -184,6 +190,7 @@ let
         "fabric-26.1" = _7QLSzqnq;
         "fabric-26.1.1" = _7QLSzqnq;
         "fabric-26.1.2" = _7QLSzqnq;
+        "fabric-26.2" = _hwfHrmyk;
         "quilt-1.18.2" = _qxylPf2g;
         "quilt-1.19" = _qxylPf2g;
         "quilt-1.19.2" = _qxylPf2g;
@@ -211,6 +218,7 @@ let
         "quilt-26.1" = _7QLSzqnq;
         "quilt-26.1.1" = _7QLSzqnq;
         "quilt-26.1.2" = _7QLSzqnq;
+        "quilt-26.2" = _hwfHrmyk;
         "pkg-1.2.3+MC1.17" = _eeo2qFnn;
         "pkg-1.2.4+MC1.17-1.17.1" = _I7iJMLvE;
         "pkg-1.2.5+MC1.18" = _xAVGwv4U;
@@ -236,7 +244,8 @@ let
         "pkg-1.7.5+MC1.21.2-1.21.10" = _PNlDivw9;
         "pkg-1.8.0+MC1.21.11" = _9ogi1vSQ;
         "pkg-1.9.0+MC26.1-26.1.x" = _7QLSzqnq;
-        "default" = _7QLSzqnq;
+        "pkg-1.9.1+MC26.1-26.2.x" = _hwfHrmyk;
+        "default" = _hwfHrmyk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-piglin-bartering";

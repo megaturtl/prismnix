@@ -66,6 +66,16 @@ let
             "file" = "astikorcartsredux-1.2.3.jar";
             "hash" = "sha512-3TEjBLySOYE6S+SlWcISvk7CS9Gw6Z+bPBiCLVyAynxVb8s8XuTX9NkJ1fed2WDdYH++mz7pi+9Q+UAQbrGSMg==";
         };
+        _JtPCk233 = {
+            "id" = "JtPCk233";
+            "file" = "astikorcartsredux-1.2.4.jar";
+            "hash" = "sha512-1uzzO+UGXP/dRJFnOW9Ti9ib/Yo42GlXurFVGGmuvRwCY1BOsG4n06251/JWmP6fYb1k8UkMD2+40cYvufWqJQ==";
+        };
+        _I8Wr3Oid = {
+            "id" = "I8Wr3Oid";
+            "file" = "astikorcartsredux-1.2.5.jar";
+            "hash" = "sha512-+ES2mS6H8coTmtEnfP+nyPFaZSPFNtFqvGex/MoWY66gVyAg9prQQ5toNLbNo9S/cq9y5AxU7QD/Xo1CCqpmKw==";
+        };
     in {
         "88n5qaVp" = _88n5qaVp;
         "TAQ49Knw" = _TAQ49Knw;
@@ -80,15 +90,17 @@ let
         "6t5FXuOX" = _6t5FXuOX;
         "SoO0M2RF" = _SoO0M2RF;
         "Cua8odGy" = _Cua8odGy;
-        "forge-1.20" = _Cua8odGy;
-        "forge-1.20.1" = _Cua8odGy;
+        "JtPCk233" = _JtPCk233;
+        "I8Wr3Oid" = _I8Wr3Oid;
+        "forge-1.20" = _I8Wr3Oid;
+        "forge-1.20.1" = _I8Wr3Oid;
         "forge-1.19.4" = _uORnbgKi;
-        "neoforge-1.20" = _Cua8odGy;
-        "neoforge-1.20.1" = _Cua8odGy;
+        "neoforge-1.20" = _I8Wr3Oid;
+        "neoforge-1.20.1" = _I8Wr3Oid;
         "neoforge-1.19.4" = _TAQ49Knw;
         "neoforge-1.21.8" = _GjDPNVpi;
-        "neoforge-1.21.1" = _SoO0M2RF;
-        "neoforge-1.21" = _6t5FXuOX;
+        "neoforge-1.21.1" = _JtPCk233;
+        "neoforge-1.21" = _JtPCk233;
         "pkg-1.1.6" = _TAQ49Knw;
         "pkg-1.1.7" = _UPCznZWj;
         "pkg-1.1.8a" = _NaAdFrhO;
@@ -98,7 +110,9 @@ let
         "pkg-1.2.1" = _IYahGkIm;
         "pkg-1.2.2" = _6t5FXuOX;
         "pkg-1.2.3" = _Cua8odGy;
-        "default" = _Cua8odGy;
+        "pkg-1.2.4" = _JtPCk233;
+        "pkg-1.2.5" = _I8Wr3Oid;
+        "default" = _I8Wr3Oid;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "astikorcarts-redux";

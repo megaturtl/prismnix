@@ -61,6 +61,26 @@ let
             "file" = "umapyoidelight-1.21.1-0.3.1.jar";
             "hash" = "sha512-GK3rbfAo+w74r7O+gx9N3AQg6G/sG9jgJwQsJKfEP3Olc1AOJp3rAKfdvO0mqMNYlq1jdsefTkV/I/+ZPs3yvQ==";
         };
+        _ZEIho3cw = {
+            "id" = "ZEIho3cw";
+            "file" = "umapyoidelight-1.21.1-0.3.1+fabric.jar";
+            "hash" = "sha512-OLZgJVGoLoIyq9wtlpO2RBdL7JgEZxcxxsXEj7mUj6rTKMWmbUCXqcCW/28I7uQ5dQYX9f34ZXoizosfynnDdA==";
+        };
+        _HH2xYqoV = {
+            "id" = "HH2xYqoV";
+            "file" = "umapyoidelight-1.21.1-0.3.2.jar";
+            "hash" = "sha512-dJy2fEP5zofyBZzCvl8npt2XqdLgyHXy2N3Xhl84iNyE8PUgJqNoMtkc4XyZtuXt/mzxDHa9/k//SledgEqv0Q==";
+        };
+        _PSmI3d7X = {
+            "id" = "PSmI3d7X";
+            "file" = "umapyoidelight-1.21.1-0.3.2+fabric.jar";
+            "hash" = "sha512-WV+HHnjk9Fea/lOZ+NW4Q/5CbfGNB491OLLVD9QO/iMg0FaUyetBD52BaJZj4r8JXeoeSvsr+A+KIiV2WOG/QQ==";
+        };
+        _yY8PtTCg = {
+            "id" = "yY8PtTCg";
+            "file" = "umapyoidelight-1.20.1-0.6.0+fabric.jar";
+            "hash" = "sha512-V1gvt6OuRRvou5b/JW4Pt/Ia74cXXZ2soaduYdTrfEzYpLZlp6RTIzYjq/xNfJ3sgBfocchNZ59EzynbRHnGEA==";
+        };
     in {
         "yYzH7c8u" = _yYzH7c8u;
         "Rwt565EI" = _Rwt565EI;
@@ -74,9 +94,15 @@ let
         "GFQtOHB9" = _GFQtOHB9;
         "Gd8KVxrE" = _Gd8KVxrE;
         "GT9oZ6bj" = _GT9oZ6bj;
+        "ZEIho3cw" = _ZEIho3cw;
+        "HH2xYqoV" = _HH2xYqoV;
+        "PSmI3d7X" = _PSmI3d7X;
+        "yY8PtTCg" = _yY8PtTCg;
         "forge-1.20.1" = _GFQtOHB9;
         "neoforge-1.20.1" = _VkBBgCUV;
-        "neoforge-1.21.1" = _GT9oZ6bj;
+        "neoforge-1.21.1" = _HH2xYqoV;
+        "fabric-1.21.1" = _PSmI3d7X;
+        "fabric-1.20.1" = _yY8PtTCg;
         "pkg-1.20.1-0.4.0" = _yYzH7c8u;
         "pkg-1.20.1-0.4.1" = _Rwt565EI;
         "pkg-1.21.1-0.1.0" = _O4KN0uvn;
@@ -89,7 +115,11 @@ let
         "pkg-1.20.1-0.6.0" = _GFQtOHB9;
         "pkg-1.21.1-0.3.0" = _Gd8KVxrE;
         "pkg-1.21.1-0.3.1" = _GT9oZ6bj;
-        "default" = _GT9oZ6bj;
+        "pkg-1.21.1-0.3.1+fabric" = _ZEIho3cw;
+        "pkg-1.21.1-0.3.2" = _HH2xYqoV;
+        "pkg-1.21.1-0.3.2+fabric" = _PSmI3d7X;
+        "pkg-1.20.1-0.6.0+fabric" = _yY8PtTCg;
+        "default" = _yY8PtTCg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "umapyoi-delight";

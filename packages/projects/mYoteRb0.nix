@@ -66,6 +66,11 @@ let
             "file" = "EasyNavigator+1.21.5-1.5.0.jar";
             "hash" = "sha512-88/p+yEOh1ZgAAF4EHHUvgb2zsyzNigQTO2RBpENKcLA0/eHeHza7zPY6bI796DYVPTVKKeD1bGEcLqCkFWw7A==";
         };
+        _E9aAHISD = {
+            "id" = "E9aAHISD";
+            "file" = "EasyNavigator+1.21.11-1.6.0.jar";
+            "hash" = "sha512-2SnY/KhgMF7sShH9aBdzJjI9fokfj3+ih8rsoL3kLR9lna3z+BX+iq2Zbmz283eB8pChqJfpCZItjMikyaIP8g==";
+        };
     in {
         "GBkmvZB9" = _GBkmvZB9;
         "8glLJORI" = _8glLJORI;
@@ -80,6 +85,7 @@ let
         "molJSgyf" = _molJSgyf;
         "hU8FzbsQ" = _hU8FzbsQ;
         "TtxbyAbX" = _TtxbyAbX;
+        "E9aAHISD" = _E9aAHISD;
         "fabric-1.20" = _wEhxJivj;
         "fabric-1.20.1" = _wEhxJivj;
         "fabric-1.20.2" = _wEhxJivj;
@@ -91,6 +97,7 @@ let
         "fabric-1.21.3" = _molJSgyf;
         "fabric-1.21.4" = _hU8FzbsQ;
         "fabric-1.21.5" = _TtxbyAbX;
+        "fabric-1.21.11" = _E9aAHISD;
         "pkg-1.0.3" = _GBkmvZB9;
         "pkg-1.0.4" = _8glLJORI;
         "pkg-1.0.5" = _suCSzJqy;
@@ -103,7 +110,8 @@ let
         "pkg-1.3.0" = _molJSgyf;
         "pkg-1.4.0" = _hU8FzbsQ;
         "pkg-1.5.0" = _TtxbyAbX;
-        "default" = _TtxbyAbX;
+        "pkg-1.6.0" = _E9aAHISD;
+        "default" = _E9aAHISD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easynavigator";

@@ -101,6 +101,21 @@ let
             "file" = "astralrail_cube-2.1.jar";
             "hash" = "sha512-8LY3mtZMj5kmPd0ahqK/HMv8+bEFiV8aq5YrSiUaQebOjuHagxVxIZvotNmBufH7Y2H9vFqPdxiNSGpJ+v2cIA==";
         };
+        _4T7VjsZm = {
+            "id" = "4T7VjsZm";
+            "file" = "astralrail_cube-2.2.jar";
+            "hash" = "sha512-l5ieUmy5zRZasmj9sq6+3EjfTwoRaHOHgjENf5hjlkeynq6LMQyByq80pT+FfLaqNnUtEoQEEF1njLeuZI7dzg==";
+        };
+        _s0eMqqcT = {
+            "id" = "s0eMqqcT";
+            "file" = "astralrail_cube-2.3.jar";
+            "hash" = "sha512-7F2rPhw+GrgSiGKvClHev0LAIMV7Vs9vlYKuJt8gRtDEH3Jb3d6AQoA7tno4ph4swfXCC+2KXSXM/MJwRa40mA==";
+        };
+        _rkE1E8fj = {
+            "id" = "rkE1E8fj";
+            "file" = "astralrail_cube-2.4.jar";
+            "hash" = "sha512-AGqaNYkqKVz5XtKrx4orOgbw6DLny0aU2evHheNWwI1j0KU0AgjwQQFFV/MkSTT0GbyyDDI/9JFd4X73uT7FIg==";
+        };
     in {
         "kBBLnCNy" = _kBBLnCNy;
         "zqVFysmA" = _zqVFysmA;
@@ -122,7 +137,10 @@ let
         "3Fx0Nckw" = _3Fx0Nckw;
         "veuIyzt0" = _veuIyzt0;
         "VSQn4E4U" = _VSQn4E4U;
-        "forge-1.20.1" = _VSQn4E4U;
+        "4T7VjsZm" = _4T7VjsZm;
+        "s0eMqqcT" = _s0eMqqcT;
+        "rkE1E8fj" = _rkE1E8fj;
+        "forge-1.20.1" = _rkE1E8fj;
         "pkg-1.0" = _kBBLnCNy;
         "pkg-1.1" = _zqVFysmA;
         "pkg-1.2" = _wLuQlbC9;
@@ -142,7 +160,10 @@ let
         "pkg-1.9" = _3Fx0Nckw;
         "pkg-2.0" = _veuIyzt0;
         "pkg-2.1" = _VSQn4E4U;
-        "default" = _VSQn4E4U;
+        "pkg-2.2" = _4T7VjsZm;
+        "pkg-2.3" = _s0eMqqcT;
+        "pkg-2.4" = _rkE1E8fj;
+        "default" = _rkE1E8fj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "astralrail-cube";

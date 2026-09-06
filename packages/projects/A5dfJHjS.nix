@@ -111,6 +111,16 @@ let
             "file" = "origins-redux-1.7.1.jar";
             "hash" = "sha512-ievS74ixwUL3Unj+JBDxNWjP3AdMsAO4+nQmKsEzrxKYiWnl24MHxqPiNuDwlqVca5ujBkQKYPZxfgWI/Yzm0Q==";
         };
+        _UM5LdRn4 = {
+            "id" = "UM5LdRn4";
+            "file" = "Origins_Redux V1.8.1.zip";
+            "hash" = "sha512-BoXFX3IASOtg6faXaV+347yA+0nLlJOSJtCP2UlMHSdW9Qpys7st6eHMNg7PM8EgvrBsVH920BWztt8xhIhyKg==";
+        };
+        _lXfEOgYT = {
+            "id" = "lXfEOgYT";
+            "file" = "origins-redux-1.8.1.jar";
+            "hash" = "sha512-xWsIS+KqvkX/Vg2+NXc+bJAYegP57poWykgeke/+OjNqhCLyLZqpJicEfwfdH8F2PcZ8ZVrPz1R222fHuNA6zw==";
+        };
     in {
         "ZghWq35F" = _ZghWq35F;
         "L4BrjSyH" = _L4BrjSyH;
@@ -134,24 +144,26 @@ let
         "Aklc4IzA" = _Aklc4IzA;
         "ZImDzqzd" = _ZImDzqzd;
         "2ctqJnJ2" = _2ctqJnJ2;
-        "fabric-1.20.1" = _2ctqJnJ2;
+        "UM5LdRn4" = _UM5LdRn4;
+        "lXfEOgYT" = _lXfEOgYT;
+        "fabric-1.20.1" = _lXfEOgYT;
         "fabric-1.19" = _VzxIWR9o;
         "fabric-1.19.1" = _VzxIWR9o;
         "fabric-1.19.2" = _Aklc4IzA;
         "fabric-1.19.3" = _Aklc4IzA;
-        "fabric-1.20.2" = _2ctqJnJ2;
+        "fabric-1.20.2" = _lXfEOgYT;
         "fabric-1.18.2" = _Aklc4IzA;
         "fabric-1.19.4" = _Aklc4IzA;
-        "datapack-1.20.1" = _ZImDzqzd;
+        "datapack-1.20.1" = _UM5LdRn4;
         "datapack-1.19" = _YnVbxfB5;
         "datapack-1.19.1" = _YnVbxfB5;
         "datapack-1.19.2" = _JRyeAcL9;
         "datapack-1.19.3" = _JRyeAcL9;
-        "datapack-1.20.2" = _ZImDzqzd;
+        "datapack-1.20.2" = _UM5LdRn4;
         "datapack-1.18.2" = _JRyeAcL9;
         "datapack-1.19.4" = _JRyeAcL9;
-        "quilt-1.20.1" = _2ctqJnJ2;
-        "quilt-1.20.2" = _2ctqJnJ2;
+        "quilt-1.20.1" = _lXfEOgYT;
+        "quilt-1.20.2" = _lXfEOgYT;
         "pkg-1.0+mod" = _ZghWq35F;
         "pkg-1.1" = _L4BrjSyH;
         "pkg-1.2" = _PijiwW1r;
@@ -173,7 +185,9 @@ let
         "pkg-1.6.2+mod" = _Aklc4IzA;
         "pkg-1.7.1" = _ZImDzqzd;
         "pkg-1.7.1+mod" = _2ctqJnJ2;
-        "default" = _2ctqJnJ2;
+        "pkg-1.8.1" = _UM5LdRn4;
+        "pkg-1.8.1+mod" = _lXfEOgYT;
+        "default" = _lXfEOgYT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "origins-redux";

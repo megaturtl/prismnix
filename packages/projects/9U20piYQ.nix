@@ -6,11 +6,19 @@ let
             "file" = "pcm-2.4.1-forge-1.20.1.jar";
             "hash" = "sha512-hecaxcgXbb3sF66j3K/2+wYFoOSkVvbbbK4Rq6lOj/10tlrYVjzmmft5OJDgXmQA0QT2l0rpnQsYlfL8QduGtQ==";
         };
+        _REy43s0j = {
+            "id" = "REy43s0j";
+            "file" = "player_collar_mod_versiontres-1.0.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-YiZQnpiQubPWCYwltQ80s9w+gyxOuYW32ZmT3VouVD1lJqoT+86OD0XhhkMl+Peyjy6kZ2uaVGtB83RNIto7vQ==";
+        };
     in {
         "zBrWHmcY" = _zBrWHmcY;
+        "REy43s0j" = _REy43s0j;
         "forge-1.20.1" = _zBrWHmcY;
+        "neoforge-1.21.1" = _REy43s0j;
         "pkg-2.4.1" = _zBrWHmcY;
-        "default" = _zBrWHmcY;
+        "pkg-3.0.0" = _REy43s0j;
+        "default" = _REy43s0j;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "player-collars";

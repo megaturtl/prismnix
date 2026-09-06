@@ -41,6 +41,26 @@ let
             "file" = "cobblemon-perfect-partners-fabric-2.0.0.jar";
             "hash" = "sha512-5eswE0H4z8bjonwmaZ3X+kTjqfSk+fV7QkuUutLZNYbT6XDG0MduxGkzs9riOqk71NkpHQkn0cX1PXkbSYuyug==";
         };
+        _iHfa3Ild = {
+            "id" = "iHfa3Ild";
+            "file" = "cobblemon-perfect-partners-neoforge-2.0.1.jar";
+            "hash" = "sha512-CwCSqVgi0og6ebWXJ0DkKRiOwDb6vOuBRuALH+Q/nL7hh7xeDYe90GpLXnrrqXU43ucYqg1oMurNK29RpjlaIw==";
+        };
+        _yZdj4hKT = {
+            "id" = "yZdj4hKT";
+            "file" = "cobblemon-perfect-partners-fabric-2.0.1.jar";
+            "hash" = "sha512-mvFSWIy0ldMA3qz174dCWZ3M28kHnlhTLpd41JHGX60zfsfMC9HsCeW6r2UsrpbUHwozED/ow2A9OXVeOMUvIQ==";
+        };
+        _PFC5Bhfm = {
+            "id" = "PFC5Bhfm";
+            "file" = "cobblemon-perfect-partners-fabric-1.2.1.jar";
+            "hash" = "sha512-3PzpC/vIcxDNyRpchqb0X6CtqMfh2J9t/hq2+vA5FkMaBnKCZhaCOcw6WJJ4GYF7Ou7eENyPOAQj/TBxbURKQw==";
+        };
+        _5rXHQLu7 = {
+            "id" = "5rXHQLu7";
+            "file" = "cobblemon-perfect-partners-neoforge-1.2.1.jar";
+            "hash" = "sha512-s6C7tOo3MEeRXsPMw6zZdosRf+Phi0xdqMFDnh+3vQxsgw2aitDTSR/4v1cPre1/n0leMOtL+DeAllBzaIUa2w==";
+        };
     in {
         "C0hJAk8p" = _C0hJAk8p;
         "Ksei0WKE" = _Ksei0WKE;
@@ -50,13 +70,19 @@ let
         "8yPCDMFI" = _8yPCDMFI;
         "h7WgZstl" = _h7WgZstl;
         "eVdagRiP" = _eVdagRiP;
-        "fabric-1.21.1" = _eVdagRiP;
-        "neoforge-1.21.1" = _h7WgZstl;
+        "iHfa3Ild" = _iHfa3Ild;
+        "yZdj4hKT" = _yZdj4hKT;
+        "PFC5Bhfm" = _PFC5Bhfm;
+        "5rXHQLu7" = _5rXHQLu7;
+        "fabric-1.21.1" = _PFC5Bhfm;
+        "neoforge-1.21.1" = _5rXHQLu7;
         "pkg-1.1.1" = _Ksei0WKE;
         "pkg-1.2.0" = _4TxtFiuK;
         "pkg-1.3.0" = _8yPCDMFI;
         "pkg-2.0.0" = _eVdagRiP;
-        "default" = _eVdagRiP;
+        "pkg-2.0.1" = _yZdj4hKT;
+        "pkg-2.0.2" = _5rXHQLu7;
+        "default" = _5rXHQLu7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "perfectpartners";

@@ -956,6 +956,26 @@ let
             "file" = "diversity-forge-1.20.1-2.5.5.jar";
             "hash" = "sha512-4wyzcZlUUGliDPTAX0hMXzqK/gZ1vIiBi/HU6EksztG8B0Dyof688zQaKHWyuDsR3baaTeCiX6XcLmlCj2zfrg==";
         };
+        _VHn4zjWC = {
+            "id" = "VHn4zjWC";
+            "file" = "diversity-neoforge-26.1.2-2.5.5.jar";
+            "hash" = "sha512-OhfICUwI7s7gjJSVHw7ZzNbgMODp1SMLiWAoOgaz7J8p6Zdc70e+UrahNb2J2jbneKjQ17U1BILrBo52wxMCNg==";
+        };
+        _hb8C4ZBM = {
+            "id" = "hb8C4ZBM";
+            "file" = "diversity-fabric-26.1.2-2.5.5.jar";
+            "hash" = "sha512-cgjOmdveCKfHZBVEez2GnY3jaonl5FCP6aYIPZgrYE5VywCsmtJm8KyaaEVcHOGYBuhRkt0ODCNQfeky3X2jQg==";
+        };
+        _IBqYUiGo = {
+            "id" = "IBqYUiGo";
+            "file" = "diversity-neoforge-26.2-2.5.5.jar";
+            "hash" = "sha512-dqPO47kC2OJkC8Phc417oFIyJWYWBA5UEb40nRpzYttSlLKcOZrFmm8VIty0++NAwZFgfQ6YGUYMMltrbyDNlg==";
+        };
+        _fy9bkq0h = {
+            "id" = "fy9bkq0h";
+            "file" = "diversity-fabric-26.2-2.5.5.jar";
+            "hash" = "sha512-VX8YFVKjweiEV+FcaP0GVbIWwPWvEKEY8QQ8LjozENZQ+B9bal+T5j7cC3JD5w4xYrMuuzfEONUYH2SFuOtzmA==";
+        };
     in {
         "RLVUIiig" = _RLVUIiig;
         "WkfUM9Ip" = _WkfUM9Ip;
@@ -1148,6 +1168,10 @@ let
         "2Lgpran8" = _2Lgpran8;
         "kmKNnCEV" = _kmKNnCEV;
         "WxobAjIv" = _WxobAjIv;
+        "VHn4zjWC" = _VHn4zjWC;
+        "hb8C4ZBM" = _hb8C4ZBM;
+        "IBqYUiGo" = _IBqYUiGo;
+        "fy9bkq0h" = _fy9bkq0h;
         "fabric-1.21" = _chYAMQXM;
         "fabric-1.21.1" = _XuiO2zdS;
         "fabric-1.20.1" = _kmKNnCEV;
@@ -1159,6 +1183,8 @@ let
         "fabric-1.21.8" = _UUtqtGDp;
         "fabric-1.21.10" = _AoLz9FFz;
         "fabric-1.21.11" = _YHar9GqH;
+        "fabric-26.1.2" = _hb8C4ZBM;
+        "fabric-26.2" = _fy9bkq0h;
         "quilt-1.21" = _chYAMQXM;
         "quilt-1.21.1" = _XuiO2zdS;
         "quilt-1.20.1" = _kmKNnCEV;
@@ -1170,6 +1196,8 @@ let
         "quilt-1.21.8" = _UUtqtGDp;
         "quilt-1.21.10" = _AoLz9FFz;
         "quilt-1.21.11" = _YHar9GqH;
+        "quilt-26.1.2" = _hb8C4ZBM;
+        "quilt-26.2" = _fy9bkq0h;
         "neoforge-1.21" = _yCL9qK5l;
         "neoforge-1.21.1" = _5Z0d6gj0;
         "neoforge-1.20.1" = _WxobAjIv;
@@ -1181,6 +1209,8 @@ let
         "neoforge-1.21.8" = _vIbESpdF;
         "neoforge-1.21.10" = _54TxBIBx;
         "neoforge-1.21.11" = _2Lgpran8;
+        "neoforge-26.1.2" = _VHn4zjWC;
+        "neoforge-26.2" = _IBqYUiGo;
         "forge-1.20.1" = _WxobAjIv;
         "forge-1.21.1" = _wMCTw3Si;
         "forge-1.21.3" = _Li7xCNDn;
@@ -1222,8 +1252,8 @@ let
         "pkg-2.5.2" = _LJ5I81JK;
         "pkg-2.5.3" = _DWF5grJX;
         "pkg-2.5.4" = _2Lgpran8;
-        "pkg-2.5.5" = _WxobAjIv;
-        "default" = _WxobAjIv;
+        "pkg-2.5.5" = _fy9bkq0h;
+        "default" = _fy9bkq0h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "faewufs-diversity";

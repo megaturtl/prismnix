@@ -531,6 +531,36 @@ let
             "file" = "Cardboard-26.1.2.jar";
             "hash" = "sha512-3zyp0l9A9qRWXmS9GcxQJhUsUsNV+PNXkJdBn3b9WnMBMH47TcRGUmADDACeCLk5ZWDuMInZJgAqFB+ntPhKiA==";
         };
+        _xlHuKz9K = {
+            "id" = "xlHuKz9K";
+            "file" = "Cardboard-1.21.11.jar";
+            "hash" = "sha512-mxwLa2EXN9y04xgSMaeaehuQB48N4pIbvnx/h9w2heNTAOPetOvVRknPhSkyPgz77acSCobXuQxTvyiUmjHueA==";
+        };
+        _sEsucqIU = {
+            "id" = "sEsucqIU";
+            "file" = "Cardboard-1.21.11.jar";
+            "hash" = "sha512-86U6ANfVcaah0y7l3Rwdqc3Up85Z9jjk8vEzX4ZFOWZ+4gKknAGfBrkTkcui8Jbdyxogg9f60UNK/SXH51NF3A==";
+        };
+        _WflvPjnR = {
+            "id" = "WflvPjnR";
+            "file" = "Cardboard-26.1.2.jar";
+            "hash" = "sha512-4yJ2KPhUgCNxNf95SJjyYjir19udRbxSxbSXH99zIvFhmgAIZ9715LlTZOZWuYHPeuSJrF0SwngZcggZogZoZw==";
+        };
+        _DAoifce4 = {
+            "id" = "DAoifce4";
+            "file" = "Cardboard-1.21.11.jar";
+            "hash" = "sha512-4ihC8FJ6oSjx5qPQ73SVZMnNv0uO1RiAMyRBP7uLCU+xc66OyPaRauKTUF6AeWvTp1Kqc5qfpHKRTaiPqE05QA==";
+        };
+        _FGgzMVzq = {
+            "id" = "FGgzMVzq";
+            "file" = "Cardboard-26.1.2.jar";
+            "hash" = "sha512-5o+sAQXqk5LTAXx6sD3XBXPXm+a1iKbk7/wtA3W1gC6aYccLynGP9TILs+PNWJInYWN/NQmKADJ2gGGG4njjRw==";
+        };
+        _mUfsbVn1 = {
+            "id" = "mUfsbVn1";
+            "file" = "Cardboard-26.1.2.jar";
+            "hash" = "sha512-pCewMp7lfHg99Gt9sLe9p9eLq6HbA+DcBtjzkFGU7wSnETNNVUJ8sIOVqUo4p7Hkwd8G7Mowp485Px8+0R1u7Q==";
+        };
     in {
         "he36ipj2" = _he36ipj2;
         "1gdKw1n0" = _1gdKw1n0;
@@ -638,6 +668,12 @@ let
         "choOJjCw" = _choOJjCw;
         "GtLdTtNm" = _GtLdTtNm;
         "JGE33wzb" = _JGE33wzb;
+        "xlHuKz9K" = _xlHuKz9K;
+        "sEsucqIU" = _sEsucqIU;
+        "WflvPjnR" = _WflvPjnR;
+        "DAoifce4" = _DAoifce4;
+        "FGgzMVzq" = _FGgzMVzq;
+        "mUfsbVn1" = _mUfsbVn1;
         "fabric-1.16.4" = _BXtLtSm6;
         "fabric-1.16.5" = _BXtLtSm6;
         "fabric-1.17.1" = _T6heHzY2;
@@ -656,10 +692,10 @@ let
         "fabric-25w45a" = _6daw5cLs;
         "fabric-1.21.11-pre1" = _OkiajBd6;
         "fabric-1.21.11-rc3" = _TWYZ89cc;
-        "fabric-1.21.11" = _Ui5yV8dx;
+        "fabric-1.21.11" = _DAoifce4;
         "fabric-26.1" = _choOJjCw;
         "fabric-26.1.1" = _choOJjCw;
-        "fabric-26.1.2" = _JGE33wzb;
+        "fabric-26.1.2" = _mUfsbVn1;
         "pkg-#139" = _he36ipj2;
         "pkg-153" = _1gdKw1n0;
         "pkg-162" = _BXtLtSm6;
@@ -766,7 +802,13 @@ let
         "pkg-26.1-4" = _choOJjCw;
         "pkg-26.1-5" = _GtLdTtNm;
         "pkg-26.1-6" = _JGE33wzb;
-        "default" = _JGE33wzb;
+        "pkg-1.21.11-16" = _xlHuKz9K;
+        "pkg-1.21.11-17" = _sEsucqIU;
+        "pkg-26.1-7" = _WflvPjnR;
+        "pkg-1.21.11-18" = _DAoifce4;
+        "pkg-26.1-8" = _FGgzMVzq;
+        "pkg-26.1-9" = _mUfsbVn1;
+        "default" = _mUfsbVn1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cardboard";

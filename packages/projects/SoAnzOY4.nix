@@ -136,6 +136,26 @@ let
             "file" = "ordertocook-1.3.5-fabric1.21.1.jar";
             "hash" = "sha512-pqSPzrs7JCMs0naw81DC0OWk/AMWFJxmjx2XSyCX8/y3SNANGNejKcNCV7GvTFYd841rZbF86/t0uUB95Y1F1w==";
         };
+        _UkwoaLYL = {
+            "id" = "UkwoaLYL";
+            "file" = "ordertocook-1.3.6-fabric1.20.1.jar";
+            "hash" = "sha512-UX3ZIEDSP0nr0CX5FH7D02bdmwqPgTUrYXtMLE9CQkggJxWfTb466kpFj0zkpGJJ6Cf99Ew13y7YDdYop90GOA==";
+        };
+        _Ro4eMdmC = {
+            "id" = "Ro4eMdmC";
+            "file" = "ordertocook-1.3.6-fabric1.21.1.jar";
+            "hash" = "sha512-Re++TbbgD6PgxBOq2feh9GTesE7kF80kU/b+GRyIEGXJi9ZDY4t87zVMygpSVD8/qzey/uxxR92FmbO1J60IPA==";
+        };
+        _9vfyDbLx = {
+            "id" = "9vfyDbLx";
+            "file" = "ordertocook-1.3.6-forge1.20.1.jar";
+            "hash" = "sha512-BwMs/p/sLappRxi7bTWAtFIrn4BUkY6TVfqBS9mU4qTNyw4XhTkNxb8XTBtRWitrgRhQm6zmaGm+GaujsPlzTA==";
+        };
+        _2JGn0iYb = {
+            "id" = "2JGn0iYb";
+            "file" = "ordertocook-1.3.6-neoforge1.21.1.jar";
+            "hash" = "sha512-Cz3/PntOve47C/XY9YA7xw12Dliplxx9p42gc0SuccRqAstkcV0uv0kiT7ED/hry07Is5vCwqSJXPJ2iBBEZnw==";
+        };
     in {
         "jVB1LqiE" = _jVB1LqiE;
         "S5LQCjDp" = _S5LQCjDp;
@@ -164,10 +184,14 @@ let
         "CkzzLO3V" = _CkzzLO3V;
         "Mb7SVLu4" = _Mb7SVLu4;
         "FPSOPjGH" = _FPSOPjGH;
-        "fabric-1.21.1" = _FPSOPjGH;
-        "fabric-1.20.1" = _E9zeDd9N;
-        "neoforge-1.21.1" = _CkzzLO3V;
-        "forge-1.20.1" = _Mb7SVLu4;
+        "UkwoaLYL" = _UkwoaLYL;
+        "Ro4eMdmC" = _Ro4eMdmC;
+        "9vfyDbLx" = _9vfyDbLx;
+        "2JGn0iYb" = _2JGn0iYb;
+        "fabric-1.21.1" = _Ro4eMdmC;
+        "fabric-1.20.1" = _UkwoaLYL;
+        "neoforge-1.21.1" = _2JGn0iYb;
+        "forge-1.20.1" = _9vfyDbLx;
         "pkg-1.0.0" = _jVB1LqiE;
         "pkg-1.1.0" = _S5LQCjDp;
         "pkg-1.2.0" = _bkAJlZe9;
@@ -182,7 +206,8 @@ let
         "pkg-1.3.3" = _6neaqJWQ;
         "pkg-1.3.4" = _KyppX8Dq;
         "pkg-1.3.5" = _FPSOPjGH;
-        "default" = _FPSOPjGH;
+        "pkg-1.3.6" = _2JGn0iYb;
+        "default" = _2JGn0iYb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "order-to-cook";
@@ -190,12 +215,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "LicenseRef-All-Rights-Reserved";
-                shortName = "LicenseRef-All-Rights-Reserved";
+                fullName = "GNU General Public License v3.0 only";
+                shortName = "GPL-3.0-only";
                 url = null;
             };
         };

@@ -26,19 +26,34 @@ let
             "file" = "pepelandbadges-1.1.2.jar";
             "hash" = "sha512-oTA8AEsBQI62APEe75B7yvck1KhBtRr8PJk6qrvdawlAXj34x4jARtRfeweCF83bZLGKe7EMMgcZC+Vmz6TaXQ==";
         };
+        _E2XXkggq = {
+            "id" = "E2XXkggq";
+            "file" = "pepelandbadges-1.2.0.jar";
+            "hash" = "sha512-G14/lycx4QhaxJo5CqJUVqqVkWNlqzlwdLV5s0JA6AtdwQlwOonYgAf2U0G3WJv/wk8wBogzjCHcbQmKZpM1YQ==";
+        };
+        _kMUo3ZzP = {
+            "id" = "kMUo3ZzP";
+            "file" = "pepelandbadges-1.2.1.jar";
+            "hash" = "sha512-PlhG8wer7KHd8oErgE80onul88jJWpUavAVl7X7kyWCyInSFkz/vk9Ya50tsFyr+0z+crfxb1S6C4t0blhsbkQ==";
+        };
     in {
         "IyiLMGRL" = _IyiLMGRL;
         "UvHL7deO" = _UvHL7deO;
         "Qixl92Xv" = _Qixl92Xv;
         "9cCIlOYz" = _9cCIlOYz;
         "sr1A4Fea" = _sr1A4Fea;
+        "E2XXkggq" = _E2XXkggq;
+        "kMUo3ZzP" = _kMUo3ZzP;
         "fabric-1.21.8" = _sr1A4Fea;
+        "fabric-26.2" = _kMUo3ZzP;
         "pkg-1.0.0" = _IyiLMGRL;
         "pkg-1.0.1" = _UvHL7deO;
         "pkg-1.1.0" = _Qixl92Xv;
         "pkg-1.1.1" = _9cCIlOYz;
         "pkg-1.1.2" = _sr1A4Fea;
-        "default" = _sr1A4Fea;
+        "pkg-1.2.0" = _E2XXkggq;
+        "pkg-1.2.1" = _kMUo3ZzP;
+        "default" = _kMUo3ZzP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pepelandbadges";

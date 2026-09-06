@@ -181,6 +181,11 @@ let
             "file" = "celeritasextra-0.6.3.jar";
             "hash" = "sha512-6u7WY2q2lylZXpLl2exCqDCeYX21vkRJ3v4dnqnv5lapvZwRPDDxBjuVKvxYHn3FyKrNF7t2lmxIMEie6JUxXA==";
         };
+        _Wj8NVUJT = {
+            "id" = "Wj8NVUJT";
+            "file" = "celeritasextra-0.7.0.jar";
+            "hash" = "sha512-6JIGP3o+4zXztgZXg0ZjvLjYqEfnVzMG7sJUirOBb8X0VS9iU5oJP1pF4bLNi9V4t+ObG1/s8tKwew0ksXOFVw==";
+        };
     in {
         "INpuMbav" = _INpuMbav;
         "3OEozHAA" = _3OEozHAA;
@@ -218,7 +223,8 @@ let
         "3HZ4Arjm" = _3HZ4Arjm;
         "11fiitVQ" = _11fiitVQ;
         "dhCK19Uk" = _dhCK19Uk;
-        "forge-1.12.2" = _dhCK19Uk;
+        "Wj8NVUJT" = _Wj8NVUJT;
+        "forge-1.12.2" = _Wj8NVUJT;
         "pkg-0.1.0" = _INpuMbav;
         "pkg-0.1.1" = _3OEozHAA;
         "pkg-0.1.2" = _ESia4gCX;
@@ -255,7 +261,8 @@ let
         "pkg-0.6.1" = _3HZ4Arjm;
         "pkg-0.6.2" = _11fiitVQ;
         "pkg-0.6.3" = _dhCK19Uk;
-        "default" = _dhCK19Uk;
+        "pkg-0.7.0" = _Wj8NVUJT;
+        "default" = _Wj8NVUJT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "celeritas-extra";

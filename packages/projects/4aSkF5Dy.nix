@@ -90,6 +90,10 @@ let
         "minecraft-1.21.9" = _g2h85vBv;
         "minecraft-1.21.10" = _g2h85vBv;
         "minecraft-1.21.11" = _g2h85vBv;
+        "minecraft-26.1" = _g2h85vBv;
+        "minecraft-26.1.1" = _g2h85vBv;
+        "minecraft-26.1.2" = _g2h85vBv;
+        "minecraft-26.2" = _g2h85vBv;
         "pkg-1" = _g2h85vBv;
         "default" = _g2h85vBv;
     });

@@ -261,6 +261,16 @@ let
             "file" = "Retraining-neoforge-26.2-5.0.0.jar";
             "hash" = "sha512-gQcxkiuMfwgLIuWWYCDg8VGjvvXT0g5CyMvprI4JUXqATv4YDVSp+udmPG/P5Enadg89AO9IJCSewIs5/cz3jQ==";
         };
+        _PPDvDGjW = {
+            "id" = "PPDvDGjW";
+            "file" = "Retraining-fabric-26.2-5.0.1.jar";
+            "hash" = "sha512-ud2JHFkCHArR7LFzkeEK7v026oxbfhqrqAFn8NRONZlOcrgK2Y1/olhX3BlPp06MAEPWq/W7UKF3ho+OK1KfhQ==";
+        };
+        _pSAktfgC = {
+            "id" = "pSAktfgC";
+            "file" = "Retraining-neoforge-26.2-5.0.1.jar";
+            "hash" = "sha512-iGNIxKlCdfIS9GCNE4vlIUM/dHTykK8jyVqs1WnZkyB5yGl4wMRS3zmE5/r2tiS3KTxCVYm8J5vIeHPZiE0rlw==";
+        };
     in {
         "2xLSd2dF" = _2xLSd2dF;
         "oT9IShs4" = _oT9IShs4;
@@ -314,6 +324,8 @@ let
         "od3l8Ef5" = _od3l8Ef5;
         "iSHO08sC" = _iSHO08sC;
         "auKal8Fv" = _auKal8Fv;
+        "PPDvDGjW" = _PPDvDGjW;
+        "pSAktfgC" = _pSAktfgC;
         "forge-1.18.2" = _2xLSd2dF;
         "forge-1.18.1" = _3TIw7N67;
         "forge-1.18" = _ukILyRNU;
@@ -348,7 +360,7 @@ let
         "fabric-1.21.10" = _qhWKb4ha;
         "fabric-1.21.11" = _zIPQwRmp;
         "fabric-26.1.2" = _DsLCNdJQ;
-        "fabric-26.2" = _iSHO08sC;
+        "fabric-26.2" = _PPDvDGjW;
         "neoforge-1.20.2" = _1X4icCoQ;
         "neoforge-1.20.4" = _wSd4BA19;
         "neoforge-1.20.6" = _Jmq8lOdf;
@@ -362,7 +374,7 @@ let
         "neoforge-1.21.10" = _MwCeK48a;
         "neoforge-1.21.11" = _NpVSYYR4;
         "neoforge-26.1.2" = _od3l8Ef5;
-        "neoforge-26.2" = _auKal8Fv;
+        "neoforge-26.2" = _pSAktfgC;
         "pkg-1.1.0" = _oT9IShs4;
         "pkg-1.1.0.2" = _3TIw7N67;
         "pkg-1.1.0.1" = _sed0MsUK;
@@ -389,7 +401,8 @@ let
         "pkg-4.0.0" = _fnvGdoGI;
         "pkg-4.0.1" = _od3l8Ef5;
         "pkg-5.0.0" = _auKal8Fv;
-        "default" = _auKal8Fv;
+        "pkg-5.0.1" = _pSAktfgC;
+        "default" = _pSAktfgC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "retraining";

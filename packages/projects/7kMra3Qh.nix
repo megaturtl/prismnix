@@ -23,7 +23,7 @@ let
         "neoforge-1.21.1" = _qxDzkarD;
         "pkg-1.2.2-260208" = _Muqq7Frn;
         "pkg-1.2.4.1-260428" = _JHwg5uf4;
-        "pkg-1.2.4.1-260428-server" = _qxDzkarD;
+        "pkg-1.2.4.1-260428-server(No_Music)" = _qxDzkarD;
         "default" = _qxDzkarD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

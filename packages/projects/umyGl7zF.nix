@@ -1616,6 +1616,11 @@ let
             "file" = "kubejs-neoforge-26.1.2-8.0.4.jar";
             "hash" = "sha512-BpgHZLIFSWwUJ1MBXkZ9FBQb+vsSy8IUdjsTIlq6B0own+T3UagidlPL31eIWVyE8eTqnjRYNOZZpYJNPUmrvQ==";
         };
+        _Fw7O9eLd = {
+            "id" = "Fw7O9eLd";
+            "file" = "kubejs-neoforge-2101.7.2-build.374.jar";
+            "hash" = "sha512-gWmYDFdkiEGH+9QZzfPWpo8oMx4LcWmwVTSM+ezyIQMFvLhEW4Rhm9cHI8/+5ZeNVEIZpzo4Z+TiXsWk4IBAPw==";
+        };
     in {
         "OcFX4nHs" = _OcFX4nHs;
         "Ow98nGVX" = _Ow98nGVX;
@@ -1940,6 +1945,7 @@ let
         "p2OrUYfd" = _p2OrUYfd;
         "L68K2Wj0" = _L68K2Wj0;
         "Voaox2kE" = _Voaox2kE;
+        "Fw7O9eLd" = _Fw7O9eLd;
         "fabric-1.18.2" = _TSy6UYgH;
         "fabric-1.19" = _dFL3FSdz;
         "fabric-1.19.2" = _e3sfelca;
@@ -1954,8 +1960,8 @@ let
         "forge-1.20.1" = _hVR2xUSr;
         "neoforge-1.20.4" = _XFk8J9v0;
         "neoforge-1.20.1" = _AhYGbfUn;
-        "neoforge-1.21" = _F2nzeC19;
-        "neoforge-1.21.1" = _F2nzeC19;
+        "neoforge-1.21" = _Fw7O9eLd;
+        "neoforge-1.21.1" = _Fw7O9eLd;
         "neoforge-26.1.2" = _Voaox2kE;
         "pkg-1802.5.3-build.444+fabric" = _OcFX4nHs;
         "pkg-1802.5.3-build.444+forge" = _Ow98nGVX;
@@ -2280,7 +2286,8 @@ let
         "pkg-26.1.2-8.0.2+neoforge" = _p2OrUYfd;
         "pkg-26.1.2-8.0.3+neoforge" = _L68K2Wj0;
         "pkg-26.1.2-8.0.4+neoforge" = _Voaox2kE;
-        "default" = _Voaox2kE;
+        "pkg-2101.7.2-build.374" = _Fw7O9eLd;
+        "default" = _Fw7O9eLd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kubejs";

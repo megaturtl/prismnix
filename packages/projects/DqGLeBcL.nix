@@ -131,6 +131,11 @@ let
             "file" = "ingameime-1.0.1.jar";
             "hash" = "sha512-ZLpFQQj+tTZEfet7k1wgoY32Al32ApUB9BU+nrrQ20lfQREVt6xtOftJTLerdBmxeG61GZzZKg5orAvwArOYPg==";
         };
+        _xckkibFS = {
+            "id" = "xckkibFS";
+            "file" = "ingameime-1.0.2.jar";
+            "hash" = "sha512-Uw7Oao+J7pGi6CIYUUhZxnLZpsbJiXCoZN+c29JSWzpGpHeNQwSXfzywBUtBN6ybd/nhgP2PBsFY1tLYbQ4d/g==";
+        };
     in {
         "N5MPH6rQ" = _N5MPH6rQ;
         "IelW6PFk" = _IelW6PFk;
@@ -158,7 +163,8 @@ let
         "Nn7eSR2n" = _Nn7eSR2n;
         "DdY7OCle" = _DdY7OCle;
         "bJV2WwvM" = _bJV2WwvM;
-        "forge-1.12.2" = _bJV2WwvM;
+        "xckkibFS" = _xckkibFS;
+        "forge-1.12.2" = _xckkibFS;
         "forge-1.7.10" = _Nn7eSR2n;
         "pkg-0.0.4" = _N5MPH6rQ;
         "pkg-0.0.5" = _IelW6PFk;
@@ -186,7 +192,8 @@ let
         "pkg-1.7.10-1.0.0-RC3" = _Nn7eSR2n;
         "pkg-1.0.0" = _DdY7OCle;
         "pkg-1.0.1" = _bJV2WwvM;
-        "default" = _bJV2WwvM;
+        "pkg-1.0.2" = _xckkibFS;
+        "default" = _xckkibFS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ingameime-vintage";

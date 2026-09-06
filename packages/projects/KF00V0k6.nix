@@ -36,6 +36,11 @@ let
             "file" = "§8[HMI] Mars' Mining Animation.zip";
             "hash" = "sha512-ajawbwt2d9vQonmKu0pj5dgMc3oeGapLA7t20q8BGl6Cqvjzous1di3h6ZTXLtznnHH5CnfCYikkTaBZjDeo7Q==";
         };
+        _VRu3CAP7 = {
+            "id" = "VRu3CAP7";
+            "file" = "§8[HMI] Mars' Mining Animation.zip";
+            "hash" = "sha512-DSTAVqA1hmksBL4G06bQHJFZtg8YCdaqHNJmC8Ms9OYo7vIiiBJH1ibXEToo3zYSQCgaUoadaYqsWBeeBw8ASA==";
+        };
     in {
         "OvovPQUg" = _OvovPQUg;
         "1Ukw9SF5" = _1Ukw9SF5;
@@ -44,9 +49,10 @@ let
         "vHx5fxRP" = _vHx5fxRP;
         "o9sKKcgI" = _o9sKKcgI;
         "wsO9gYz2" = _wsO9gYz2;
-        "minecraft-1.21.9" = _wsO9gYz2;
-        "minecraft-1.21.10" = _wsO9gYz2;
-        "minecraft-1.21.11" = _wsO9gYz2;
+        "VRu3CAP7" = _VRu3CAP7;
+        "minecraft-1.21.9" = _VRu3CAP7;
+        "minecraft-1.21.10" = _VRu3CAP7;
+        "minecraft-1.21.11" = _VRu3CAP7;
         "pkg-v1.0" = _OvovPQUg;
         "pkg-v1.1" = _1Ukw9SF5;
         "pkg-v1.2" = _kiseS0mz;
@@ -54,7 +60,8 @@ let
         "pkg-v1.4" = _vHx5fxRP;
         "pkg-v1.5" = _o9sKKcgI;
         "pkg-v1.6" = _wsO9gYz2;
-        "default" = _wsO9gYz2;
+        "pkg-v1.7" = _VRu3CAP7;
+        "default" = _VRu3CAP7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hmi-mars-mining-animation";

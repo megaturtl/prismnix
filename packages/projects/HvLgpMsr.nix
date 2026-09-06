@@ -126,6 +126,21 @@ let
             "file" = "GildedArmor-CJ-neoforge-stable-mc-26.1-26.1-2.2.1.jar";
             "hash" = "sha512-l3zbH7W/D1fF3dXDgOholfyk2CiyKBF91kMfROBP9r35bJjwZGTGxm8fDUDYkbwpweaCMWXE1XtEprfbcO7oRQ==";
         };
+        _e2l6Oq6K = {
+            "id" = "e2l6Oq6K";
+            "file" = "GildedArmor-CJ-fabric-stable-mc-26.2-26.2-2.2.2.jar";
+            "hash" = "sha512-xv5VgIqsmKbNCfbMS9LBVpmalJXpbbYjonhSb+mfPGT0algVzFMLc0DpI5pR2XzGfinHxbc17U3dUy/RFcF+SA==";
+        };
+        _iiGroeRz = {
+            "id" = "iiGroeRz";
+            "file" = "GildedArmor-CJ-neoforge-stable-mc-26.2-26.2-2.2.2.jar";
+            "hash" = "sha512-YtBpZY358LFZ8yikWkXkZMJ66h04Z32ErK+j//xKHgP7RS92ccZW1shl/ampfYqsovK5BIL6nDhedKQVpGZWFg==";
+        };
+        _P4rUr3rx = {
+            "id" = "P4rUr3rx";
+            "file" = "GildedArmor-CJ-forge-stable-mc-26.2-26.2-2.2.2.jar";
+            "hash" = "sha512-RP8coL4IIMtCiEPUgy+7JH3tvDDK8CG+k+BqWTdTw79j5T8U4gFjARfBEMekgPA/8jJOeq3bVSEXmoG10Zs7Dg==";
+        };
     in {
         "9V9ODZxO" = _9V9ODZxO;
         "UK1VaP2h" = _UK1VaP2h;
@@ -152,6 +167,9 @@ let
         "jt6uBJfD" = _jt6uBJfD;
         "BOzY4tNl" = _BOzY4tNl;
         "eHRFR52o" = _eHRFR52o;
+        "e2l6Oq6K" = _e2l6Oq6K;
+        "iiGroeRz" = _iiGroeRz;
+        "P4rUr3rx" = _P4rUr3rx;
         "fabric-1.21.2" = _eJLeXO2V;
         "fabric-1.21.3" = _eJLeXO2V;
         "fabric-1.21" = _HbV3LrTK;
@@ -163,6 +181,7 @@ let
         "fabric-26.1" = _BOzY4tNl;
         "fabric-26.1.1" = _BOzY4tNl;
         "fabric-26.1.2" = _BOzY4tNl;
+        "fabric-26.2" = _e2l6Oq6K;
         "neoforge-1.21.2" = _WvPWgl1Y;
         "neoforge-1.21.3" = _WvPWgl1Y;
         "neoforge-1.21" = _finML90M;
@@ -174,12 +193,14 @@ let
         "neoforge-26.1" = _eHRFR52o;
         "neoforge-26.1.1" = _eHRFR52o;
         "neoforge-26.1.2" = _eHRFR52o;
+        "neoforge-26.2" = _iiGroeRz;
         "forge-1.21.5" = _Jf0lrQdQ;
         "forge-1.21.6" = _Jf0lrQdQ;
         "forge-1.21.11" = _NVpKHvA8;
         "forge-26.1" = _jt6uBJfD;
         "forge-26.1.1" = _jt6uBJfD;
         "forge-26.1.2" = _jt6uBJfD;
+        "forge-26.2" = _P4rUr3rx;
         "pkg-1.21.2-1.21.2-2.0.0" = _UK1VaP2h;
         "pkg-1.21.2-1.21.2-2.0.1" = _GlgZeP6P;
         "pkg-1.21-1.21-2.0.2" = _finML90M;
@@ -190,7 +211,8 @@ let
         "pkg-1.21.5-2.1.1" = _sdgDzIrG;
         "pkg-1.21.11-2.2.0" = _D5QLOlWq;
         "pkg-26.1-2.2.1" = _eHRFR52o;
-        "default" = _eHRFR52o;
+        "pkg-26.2-2.2.2" = _P4rUr3rx;
+        "default" = _P4rUr3rx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gilded-armor-cj-edition";

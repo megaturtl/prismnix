@@ -161,6 +161,16 @@ let
             "file" = "CodeChickenCore-1.4.17.jar";
             "hash" = "sha512-nM8DvItasae0oW1xSCbhqHQJEaA8uFpCJXRGdhg+jFKrtI1xKGfhROWEhYUuLwTAfjkvUaTqZzY9HQo/iAHtnw==";
         };
+        _n92gOh2o = {
+            "id" = "n92gOh2o";
+            "file" = "CodeChickenCore-1.4.18.jar";
+            "hash" = "sha512-gVQZadUN7V5D2MtyPGBudE6pfOMzi8a0weQ83aYVQehVXmW5CF1rCNjLaf4l88h87e4sR88IZpStcyYcVlgmNg==";
+        };
+        _4U1VqyS4 = {
+            "id" = "4U1VqyS4";
+            "file" = "CodeChickenCore-1.4.19.jar";
+            "hash" = "sha512-yW+kgyJRQmzmi0rAEzG6cV23vYX1sgMXrMoPsZuVteHEu/nKKTshAbDkBYqP4eXr1RSFl5xBj/M473Ygu9jpVA==";
+        };
     in {
         "xRBzYXTs" = _xRBzYXTs;
         "uK1V66Fl" = _uK1V66Fl;
@@ -194,7 +204,9 @@ let
         "gSswuEnr" = _gSswuEnr;
         "7VHvWr97" = _7VHvWr97;
         "pVcKNPgM" = _pVcKNPgM;
-        "forge-1.7.10" = _pVcKNPgM;
+        "n92gOh2o" = _n92gOh2o;
+        "4U1VqyS4" = _4U1VqyS4;
+        "forge-1.7.10" = _4U1VqyS4;
         "pkg-1.1.6" = _xRBzYXTs;
         "pkg-1.1.11" = _uK1V66Fl;
         "pkg-1.1.12" = _Kkamxbzk;
@@ -227,7 +239,9 @@ let
         "pkg-1.4.15" = _gSswuEnr;
         "pkg-1.4.16" = _7VHvWr97;
         "pkg-1.4.17" = _pVcKNPgM;
-        "default" = _pVcKNPgM;
+        "pkg-1.4.18" = _n92gOh2o;
+        "pkg-1.4.19" = _4U1VqyS4;
+        "default" = _4U1VqyS4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "codechickencore-unofficial";

@@ -46,6 +46,16 @@ let
             "file" = "Faithful32_MC1.12.2_2026r3.zip";
             "hash" = "sha512-V6FF+lkYnU0gJyEyAcsFm7bjaeYRjhd7eJsjdELxPEIoARXd70gAwxIWMp+a0qXimPETvTJRMh8LBN7hIi6QgQ==";
         };
+        _t0g6JalI = {
+            "id" = "t0g6JalI";
+            "file" = "Faithful32_MC1.7.10_2026r4.zip";
+            "hash" = "sha512-KKQIboiwSoxsPOqD3ic7lZvu8uhlkThA0plgpUBc+eenwa58VFcwvdbp+Iy1Z86Scb3PmYhRGtUwOfjZiCmOHg==";
+        };
+        _TB9iFFtE = {
+            "id" = "TB9iFFtE";
+            "file" = "Faithful32_MC1.12.2_2026r4.zip";
+            "hash" = "sha512-TkvQJBVclAfj9e3NMg6GDRxSGm88M+/Qrm+7HcCPoQuo46mExmRC1sPanfWY9UM/wSpGOc8z1hvJyxEMybg2Kw==";
+        };
     in {
         "vDoH8S4i" = _vDoH8S4i;
         "3ai4tvNs" = _3ai4tvNs;
@@ -56,8 +66,10 @@ let
         "zZeyha7d" = _zZeyha7d;
         "p5uYujrt" = _p5uYujrt;
         "dlLPPydh" = _dlLPPydh;
-        "minecraft-1.12.2" = _dlLPPydh;
-        "minecraft-1.7.10" = _p5uYujrt;
+        "t0g6JalI" = _t0g6JalI;
+        "TB9iFFtE" = _TB9iFFtE;
+        "minecraft-1.12.2" = _TB9iFFtE;
+        "minecraft-1.7.10" = _t0g6JalI;
         "minecraft-1.10.2" = _o6ziZBaj;
         "minecraft-1.11.2" = _lfVUZHFn;
         "pkg-MC1.12.2_v1.4.4" = _vDoH8S4i;
@@ -69,7 +81,9 @@ let
         "pkg-MC1.12.2_2026r2" = _zZeyha7d;
         "pkg-MC1.7.10_2026r3" = _p5uYujrt;
         "pkg-MC1.12.2_2026r3" = _dlLPPydh;
-        "default" = _dlLPPydh;
+        "pkg-MC1.7.10_2026r4" = _t0g6JalI;
+        "pkg-MC1.12.2_2026r4" = _TB9iFFtE;
+        "default" = _TB9iFFtE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "faithful-32x-modded";

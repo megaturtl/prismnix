@@ -76,6 +76,16 @@ let
             "file" = "buttonfix-1.1.0-neoforge+1.20.5-26.1.2.jar";
             "hash" = "sha512-UO8Jrz7u7VBVDL4N1P3TndIHErWVXh9+SrJLn7V4uwdEZzNhlp3hkks3JuwstAls0lbKOnet9jqqEgtNvHIOlg==";
         };
+        _oSF2r66I = {
+            "id" = "oSF2r66I";
+            "file" = "buttonfix-1.1.0-fabric+26.1-26.2.jar";
+            "hash" = "sha512-bVgD6QsmnQbsFpr79LV7a5F4uBaAbF8VQEL/1q+xV9cUfEuwJDxhCIpVAnIHoSgmlo3tgmW6KylOkHTdB+b/IA==";
+        };
+        _gkmel0Ek = {
+            "id" = "gkmel0Ek";
+            "file" = "buttonfix-1.1.0-neoforge+1.20.5-26.2.jar";
+            "hash" = "sha512-ectb1USlD9NyfbivM7mpy0BQq6QEnQHcNxfYEi5xUYSTRUBC7IsVKnFiHo/EK3VHA5bddEd7867VYn4xmhDzeA==";
+        };
     in {
         "b9oy04sp" = _b9oy04sp;
         "Ulubg1AW" = _Ulubg1AW;
@@ -92,6 +102,8 @@ let
         "yWAVxEn7" = _yWAVxEn7;
         "1C7E62ky" = _1C7E62ky;
         "WZ2c5cvZ" = _WZ2c5cvZ;
+        "oSF2r66I" = _oSF2r66I;
+        "gkmel0Ek" = _gkmel0Ek;
         "fabric-1.19.4" = _r3KpQYy0;
         "fabric-1.20" = _r3KpQYy0;
         "fabric-1.20.1" = _r3KpQYy0;
@@ -112,9 +124,10 @@ let
         "fabric-1.21.9" = _K2bdWyEb;
         "fabric-1.21.10" = _K2bdWyEb;
         "fabric-1.21.11" = _K2bdWyEb;
-        "fabric-26.1" = _sg8TdYVF;
-        "fabric-26.1.1" = _sg8TdYVF;
-        "fabric-26.1.2" = _sg8TdYVF;
+        "fabric-26.1" = _oSF2r66I;
+        "fabric-26.1.1" = _oSF2r66I;
+        "fabric-26.1.2" = _oSF2r66I;
+        "fabric-26.2" = _oSF2r66I;
         "quilt-1.19.4" = _r3KpQYy0;
         "quilt-1.20" = _r3KpQYy0;
         "quilt-1.20.1" = _r3KpQYy0;
@@ -135,9 +148,10 @@ let
         "quilt-1.21.9" = _K2bdWyEb;
         "quilt-1.21.10" = _K2bdWyEb;
         "quilt-1.21.11" = _K2bdWyEb;
-        "quilt-26.1" = _sg8TdYVF;
-        "quilt-26.1.1" = _sg8TdYVF;
-        "quilt-26.1.2" = _sg8TdYVF;
+        "quilt-26.1" = _oSF2r66I;
+        "quilt-26.1.1" = _oSF2r66I;
+        "quilt-26.1.2" = _oSF2r66I;
+        "quilt-26.2" = _oSF2r66I;
         "forge-1.19.4" = _iFZSKb2q;
         "forge-1.20" = _iFZSKb2q;
         "forge-1.20.1" = _iFZSKb2q;
@@ -164,23 +178,24 @@ let
         "neoforge-1.20.2" = _wTtISktv;
         "neoforge-1.20.3" = _yWAVxEn7;
         "neoforge-1.20.4" = _1C7E62ky;
-        "neoforge-1.20.5" = _WZ2c5cvZ;
-        "neoforge-1.20.6" = _WZ2c5cvZ;
-        "neoforge-1.21" = _WZ2c5cvZ;
-        "neoforge-1.21.1" = _WZ2c5cvZ;
-        "neoforge-1.21.2" = _WZ2c5cvZ;
-        "neoforge-1.21.3" = _WZ2c5cvZ;
-        "neoforge-1.21.4" = _WZ2c5cvZ;
-        "neoforge-1.21.5" = _WZ2c5cvZ;
-        "neoforge-1.21.6" = _WZ2c5cvZ;
-        "neoforge-1.21.7" = _WZ2c5cvZ;
-        "neoforge-1.21.8" = _WZ2c5cvZ;
-        "neoforge-1.21.9" = _WZ2c5cvZ;
-        "neoforge-1.21.10" = _WZ2c5cvZ;
-        "neoforge-1.21.11" = _WZ2c5cvZ;
-        "neoforge-26.1" = _WZ2c5cvZ;
-        "neoforge-26.1.1" = _WZ2c5cvZ;
-        "neoforge-26.1.2" = _WZ2c5cvZ;
+        "neoforge-1.20.5" = _gkmel0Ek;
+        "neoforge-1.20.6" = _gkmel0Ek;
+        "neoforge-1.21" = _gkmel0Ek;
+        "neoforge-1.21.1" = _gkmel0Ek;
+        "neoforge-1.21.2" = _gkmel0Ek;
+        "neoforge-1.21.3" = _gkmel0Ek;
+        "neoforge-1.21.4" = _gkmel0Ek;
+        "neoforge-1.21.5" = _gkmel0Ek;
+        "neoforge-1.21.6" = _gkmel0Ek;
+        "neoforge-1.21.7" = _gkmel0Ek;
+        "neoforge-1.21.8" = _gkmel0Ek;
+        "neoforge-1.21.9" = _gkmel0Ek;
+        "neoforge-1.21.10" = _gkmel0Ek;
+        "neoforge-1.21.11" = _gkmel0Ek;
+        "neoforge-26.1" = _gkmel0Ek;
+        "neoforge-26.1.1" = _gkmel0Ek;
+        "neoforge-26.1.2" = _gkmel0Ek;
+        "neoforge-26.2" = _gkmel0Ek;
         "pkg-1.0.5-fabric+1.19.4-1.21.8" = _b9oy04sp;
         "pkg-1.0.5-fabric+1.21.9-1.21.11" = _Ulubg1AW;
         "pkg-1.1.0-fabric+1.19.4-1.20.2" = _r3KpQYy0;
@@ -196,7 +211,9 @@ let
         "pkg-1.1.0-neoforge+1.20.3" = _yWAVxEn7;
         "pkg-1.1.0-neoforge+1.20.4" = _1C7E62ky;
         "pkg-1.1.0-neoforge+1.20.5-26.1.2" = _WZ2c5cvZ;
-        "default" = _WZ2c5cvZ;
+        "pkg-1.1.0-fabric+26.1-26.2" = _oSF2r66I;
+        "pkg-1.1.0-neoforge+1.20.5-26.2" = _gkmel0Ek;
+        "default" = _gkmel0Ek;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "buttonfix";

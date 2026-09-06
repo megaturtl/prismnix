@@ -286,6 +286,16 @@ let
             "file" = "item-tooltips-26.1-r2.3-fabric.jar";
             "hash" = "sha512-3Y3kESCfsU5wa6Rg/hfXJwVcpBwRGKsDqudwaLJLa1tOudqnoWgDri2JMm9pkpPx+RcezKgqkQYOezHoQpA8Yg==";
         };
+        _rCiM8xHU = {
+            "id" = "rCiM8xHU";
+            "file" = "item-tooltips-26.2-r1.0-neoforge.jar";
+            "hash" = "sha512-bjKATo2LtYoIJMHlx7kY5l37HRoShLzOUyKWL4Z524PQlQRJe1E01wEsm0Dk3P0AlmaKJy0gGjqDrPrnccDNnw==";
+        };
+        _yOWzQrZq = {
+            "id" = "yOWzQrZq";
+            "file" = "item-tooltips-26.2-r1.0-fabric.jar";
+            "hash" = "sha512-Wn++RIZrJCPeq8J6+UXuvQfi4zIxv2CoAXVafCm+EjMrbmX0y6qN0Fc+zaN2Gj3z5zosBvLV0hSENK/SRNKKJw==";
+        };
     in {
         "b8dGAm10" = _b8dGAm10;
         "ngyJpgOq" = _ngyJpgOq;
@@ -344,6 +354,8 @@ let
         "3KfIZpir" = _3KfIZpir;
         "S9bIzJf2" = _S9bIzJf2;
         "hplm5cM4" = _hplm5cM4;
+        "rCiM8xHU" = _rCiM8xHU;
+        "yOWzQrZq" = _yOWzQrZq;
         "fabric-1.21" = _zEFJPsft;
         "fabric-1.21.1" = _zEFJPsft;
         "fabric-1.21.2" = _zEFJPsft;
@@ -359,6 +371,7 @@ let
         "fabric-26.1" = _hplm5cM4;
         "fabric-26.1.1" = _hplm5cM4;
         "fabric-26.1.2" = _hplm5cM4;
+        "fabric-26.2" = _yOWzQrZq;
         "neoforge-1.21" = _HMrlOCZw;
         "neoforge-1.21.1" = _LyR7yBHS;
         "neoforge-1.21.2" = _LyR7yBHS;
@@ -368,6 +381,7 @@ let
         "neoforge-26.1" = _S9bIzJf2;
         "neoforge-26.1.1" = _S9bIzJf2;
         "neoforge-26.1.2" = _S9bIzJf2;
+        "neoforge-26.2" = _rCiM8xHU;
         "pkg-1.21.1-v1.0.0-fabric" = _b8dGAm10;
         "pkg-1.21.1-v1.0.0-neoforge" = _ngyJpgOq;
         "pkg-1.21.7-v1.0.0-fabric" = _lNcBKkfa;
@@ -425,7 +439,9 @@ let
         "pkg-26.1-r2.2-fabric" = _3KfIZpir;
         "pkg-26.1-r2.3-neoforge" = _S9bIzJf2;
         "pkg-26.1-r2.3-fabric" = _hplm5cM4;
-        "default" = _hplm5cM4;
+        "pkg-26.2-r1.0-neoforge" = _rCiM8xHU;
+        "pkg-26.2-r1.0-fabric" = _yOWzQrZq;
+        "default" = _yOWzQrZq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "item-tooltips";

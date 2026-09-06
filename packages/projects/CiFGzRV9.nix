@@ -108,6 +108,9 @@ let
         "iris-1.13" = _r613fCq9;
         "iris-1.13.1" = _r613fCq9;
         "iris-1.13.2" = _r613fCq9;
+        "iris-26.1" = _r613fCq9;
+        "iris-26.1.1" = _r613fCq9;
+        "iris-26.1.2" = _r613fCq9;
         "optifine-1.14" = _r613fCq9;
         "optifine-1.14.1" = _r613fCq9;
         "optifine-1.14.2" = _r613fCq9;
@@ -154,6 +157,9 @@ let
         "optifine-1.13" = _r613fCq9;
         "optifine-1.13.1" = _r613fCq9;
         "optifine-1.13.2" = _r613fCq9;
+        "optifine-26.1" = _r613fCq9;
+        "optifine-26.1.1" = _r613fCq9;
+        "optifine-26.1.2" = _r613fCq9;
         "pkg-1.0.0" = _N5ewZ1zQ;
         "pkg-1.0.1" = _ZSpTIdoR;
         "pkg-1.0.2" = _kmKZtMMy;

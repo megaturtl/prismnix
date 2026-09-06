@@ -116,6 +116,11 @@ let
             "file" = "day-dream-1.0.23.jar";
             "hash" = "sha512-V2VHag/p2laVp7IbzhoMF+ww7U1csBig8gLNY5S8aeyHGSOsD8IOLVDOr22C7zX7TOnT8Dh+uJDT60hSYxUZWA==";
         };
+        _bAQSeCq9 = {
+            "id" = "bAQSeCq9";
+            "file" = "day-dream-1.0.24.jar";
+            "hash" = "sha512-gWae+ttJ6CCwJ/6Jj9wBXaOnR8j4yCAIm2Rxg35avZEDY+R+LWudVipaHZu6tzxrqwLokS/IAReO7YqP6bT2FA==";
+        };
     in {
         "Gn9lpylQ" = _Gn9lpylQ;
         "WbvzNpo3" = _WbvzNpo3;
@@ -140,6 +145,7 @@ let
         "sWkc8JdY" = _sWkc8JdY;
         "Wv3YAGv1" = _Wv3YAGv1;
         "mAQc9tmQ" = _mAQc9tmQ;
+        "bAQSeCq9" = _bAQSeCq9;
         "fabric-1.16.5" = _Gn9lpylQ;
         "fabric-1.17" = _WbvzNpo3;
         "fabric-1.17.1" = _qs1fpkaE;
@@ -164,6 +170,7 @@ let
         "fabric-26.1" = _mAQc9tmQ;
         "fabric-26.1.1" = _mAQc9tmQ;
         "fabric-26.1.2" = _mAQc9tmQ;
+        "fabric-26.2" = _bAQSeCq9;
         "pkg-1.0.1" = _Gn9lpylQ;
         "pkg-1.0.2" = _WbvzNpo3;
         "pkg-1.0.3" = _qs1fpkaE;
@@ -187,7 +194,8 @@ let
         "pkg-1.0.21" = _sWkc8JdY;
         "pkg-1.0.22" = _Wv3YAGv1;
         "pkg-1.0.23" = _mAQc9tmQ;
-        "default" = _mAQc9tmQ;
+        "pkg-1.0.24" = _bAQSeCq9;
+        "default" = _bAQSeCq9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "day-dream";

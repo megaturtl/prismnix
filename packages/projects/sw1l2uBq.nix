@@ -61,6 +61,11 @@ let
             "file" = "daycareplus-1.4.1+1.21.1.jar";
             "hash" = "sha512-ONusG6L9TpCoxt1aYYHMAZ7lVbOwC6Zbip9+n00xoswkSdVbWIRJa2ZSgMxod9iuT7oce34noKhoktWD3r9Ayw==";
         };
+        _sw6t9KGX = {
+            "id" = "sw6t9KGX";
+            "file" = "daycareplus-1.4.2+1.21.1.jar";
+            "hash" = "sha512-8PHu3hL1MpeWD0PG5hWkM0zwWiKdhDlG9qQgBTCKDx3MBVHMegepCqlr+NavEJv6bKR3XZxw4ESmP0l1VJ7onw==";
+        };
     in {
         "CJvaUwp5" = _CJvaUwp5;
         "Hvn3PAqR" = _Hvn3PAqR;
@@ -74,7 +79,8 @@ let
         "4WrfrBoU" = _4WrfrBoU;
         "fLenXa7D" = _fLenXa7D;
         "ppW1eyq1" = _ppW1eyq1;
-        "fabric-1.21.1" = _ppW1eyq1;
+        "sw6t9KGX" = _sw6t9KGX;
+        "fabric-1.21.1" = _sw6t9KGX;
         "pkg-1.0.0+1.21.1" = _CJvaUwp5;
         "pkg-1.0.1+1.21.1" = _Hvn3PAqR;
         "pkg-1.0.2+1.21.1" = _QFkKmhas;
@@ -87,7 +93,8 @@ let
         "pkg-1.3.3+1.21.1" = _4WrfrBoU;
         "pkg-1.4.0+1.21.1" = _fLenXa7D;
         "pkg-1.4.1+1.21.1" = _ppW1eyq1;
-        "default" = _ppW1eyq1;
+        "pkg-1.4.2+1.21.1" = _sw6t9KGX;
+        "default" = _sw6t9KGX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "daycareplus";

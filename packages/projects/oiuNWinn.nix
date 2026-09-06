@@ -446,6 +446,26 @@ let
             "file" = "camera-neoforge-1.1.8+26.2.jar";
             "hash" = "sha512-Jti+jYJ/596AIjEpxvu61bB5YvXVJX/UPDrVq178LS+gRDEu0ELZoeNeDkO9tLkPMxuYESpCXXHm9s79aVV2GA==";
         };
+        _VKavoCru = {
+            "id" = "VKavoCru";
+            "file" = "camera-neoforge-1.21.1-1.0.22.jar";
+            "hash" = "sha512-F1zEUrG9JVxZOYPdJ0WtQl14GaIAjWk+dpHopYrJlSXNfKIWQLdAbelogz+HtdZYpyTIiQE3QiVpgYxR/SE8Ow==";
+        };
+        _HVkxtnGH = {
+            "id" = "HVkxtnGH";
+            "file" = "camera-neoforge-1.21.11-1.1.9.jar";
+            "hash" = "sha512-W38gFwRJcsy4whkHmwPqiWsbEvw5YQuelMaJ8WysDPM6kMu1NDK+MFyJXZkrED4HICfJzxd2PVb/ttQk7Dv5hg==";
+        };
+        _89NNZBcd = {
+            "id" = "89NNZBcd";
+            "file" = "camera-neoforge-1.1.9+26.1.2.jar";
+            "hash" = "sha512-CY2Sk0B4YuegeRQnGFozf9TQihgbs6/vu0DcK9SehSW4F5LpgYW6yj35KjWTtKfkvIVrsr2qsgb1iCjvKWAWTA==";
+        };
+        _v3SRbUGp = {
+            "id" = "v3SRbUGp";
+            "file" = "camera-neoforge-1.1.9+26.2.jar";
+            "hash" = "sha512-2gWbLivG3Y82dFXLfXlwsuPF3uJQWBv/Rb35M2QXx1oSnfIxom57gPiLIvV9oX/QgFMYZYK+ML+b7dCV9ptBzQ==";
+        };
     in {
         "uz5YoD2L" = _uz5YoD2L;
         "Yq0N89iQ" = _Yq0N89iQ;
@@ -536,6 +556,10 @@ let
         "IuEpJp37" = _IuEpJp37;
         "3Vq7N2Z4" = _3Vq7N2Z4;
         "qPAFAHYe" = _qPAFAHYe;
+        "VKavoCru" = _VKavoCru;
+        "HVkxtnGH" = _HVkxtnGH;
+        "89NNZBcd" = _89NNZBcd;
+        "v3SRbUGp" = _v3SRbUGp;
         "forge-1.19" = _9FyJYfi5;
         "forge-1.19.1" = _yBpL5DFm;
         "forge-1.19.2" = _pvvy7VBU;
@@ -552,8 +576,8 @@ let
         "neoforge-1.20.4" = _LlvkB5GN;
         "neoforge-1.20.5" = _ZU1Qb6hM;
         "neoforge-1.20.6" = _gMZjKzxw;
-        "neoforge-1.21" = _Etw6aqhL;
-        "neoforge-1.21.1" = _Etw6aqhL;
+        "neoforge-1.21" = _VKavoCru;
+        "neoforge-1.21.1" = _VKavoCru;
         "neoforge-1.21.2" = _sW4IZ827;
         "neoforge-1.21.3" = _tpJwgEt7;
         "neoforge-1.21.4" = _ogiriH1A;
@@ -563,11 +587,11 @@ let
         "neoforge-1.21.8" = _m1JBNoku;
         "neoforge-1.21.9" = _y53sQV5z;
         "neoforge-1.21.10" = _jnnN1yYa;
-        "neoforge-1.21.11" = _WiEyxqt4;
-        "neoforge-26.1" = _3Vq7N2Z4;
-        "neoforge-26.1.1" = _3Vq7N2Z4;
-        "neoforge-26.1.2" = _3Vq7N2Z4;
-        "neoforge-26.2" = _qPAFAHYe;
+        "neoforge-1.21.11" = _HVkxtnGH;
+        "neoforge-26.1" = _89NNZBcd;
+        "neoforge-26.1.1" = _89NNZBcd;
+        "neoforge-26.1.2" = _89NNZBcd;
+        "neoforge-26.2" = _v3SRbUGp;
         "pkg-forge-1.19-1.0.2" = _uz5YoD2L;
         "pkg-forge-1.19-1.0.3" = _Yq0N89iQ;
         "pkg-forge-1.19-1.0.4" = _Dq5KUxuI;
@@ -649,7 +673,11 @@ let
         "pkg-neoforge-1.1.8+26.1.1" = _IuEpJp37;
         "pkg-neoforge-1.1.8+26.1.2" = _3Vq7N2Z4;
         "pkg-neoforge-1.1.8+26.2" = _qPAFAHYe;
-        "default" = _qPAFAHYe;
+        "pkg-neoforge-1.21.1-1.0.22" = _VKavoCru;
+        "pkg-neoforge-1.21.11-1.1.9" = _HVkxtnGH;
+        "pkg-neoforge-1.1.9+26.1.2" = _89NNZBcd;
+        "pkg-neoforge-1.1.9+26.2" = _v3SRbUGp;
+        "default" = _v3SRbUGp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "camera-mod";

@@ -326,6 +326,26 @@ let
             "file" = "cultofazazelforge-1.1.4.10.jar";
             "hash" = "sha512-z+H01A+JnareiloJw67tmqR9ZImt/i+xeqkp9AEYVK4oNil5EovNG5wPxw3rtO0eb1uN4c+j/4F1hxIAmO6fKg==";
         };
+        _TY9kTpdr = {
+            "id" = "TY9kTpdr";
+            "file" = "cultofazazelforge-1.1.4.11.jar";
+            "hash" = "sha512-9L7mU6m8kbcH8myIEexBz9lQu9Ty5/xyom2UjNmBjgx3CS79GW1IOwRU4rc8e+H8XxaIOL86Ve2neuBRCULf7A==";
+        };
+        _SgnqXjT4 = {
+            "id" = "SgnqXjT4";
+            "file" = "cultofazazelneoforge-1.1.4.11.jar";
+            "hash" = "sha512-wUd96e5uDpJ8oqe663Z/athpD7no4pb7po0Eh2Bot0sWk1s/EiUzdNViBI49ufAMknILp3rlOsjTuw5m/PTQBw==";
+        };
+        _soOXKDV6 = {
+            "id" = "soOXKDV6";
+            "file" = "cultofazazelneoforge-1.1.4.12.jar";
+            "hash" = "sha512-KusIl+6H1opYUgP8XsA5InlyHgHbqrsqU8bq8Kqok01O8syGm3LBsk463BYX8YmvEhBTxp7oAYdPXXklHeMfWA==";
+        };
+        _6AyxDEwf = {
+            "id" = "6AyxDEwf";
+            "file" = "cultofazazelforge-1.1.4.12.jar";
+            "hash" = "sha512-40ouO35AgNJJlUlqyNKW3rgG/pxSMY/6yXuioSpOXIaDJnHen7mZCn0trsihPD0m1Z86p+2d50iwo6YKImcF2g==";
+        };
     in {
         "3GolBgCE" = _3GolBgCE;
         "KwUPRwZ7" = _KwUPRwZ7;
@@ -392,8 +412,12 @@ let
         "PhIGkkCZ" = _PhIGkkCZ;
         "nrOYtl59" = _nrOYtl59;
         "JyEuF6rc" = _JyEuF6rc;
-        "forge-1.20.1" = _JyEuF6rc;
-        "neoforge-1.21.1" = _nrOYtl59;
+        "TY9kTpdr" = _TY9kTpdr;
+        "SgnqXjT4" = _SgnqXjT4;
+        "soOXKDV6" = _soOXKDV6;
+        "6AyxDEwf" = _6AyxDEwf;
+        "forge-1.20.1" = _6AyxDEwf;
+        "neoforge-1.21.1" = _soOXKDV6;
         "neoforge-1.21" = _pPEXZDbU;
         "pkg-1.0.0" = _KwUPRwZ7;
         "pkg-1.0.1" = _exMZhusy;
@@ -429,7 +453,9 @@ let
         "pkg-1.1.4.9" = _XzfzUvmb;
         "pkg-1.1.4.9a" = _PhIGkkCZ;
         "pkg-1.1.4.10" = _JyEuF6rc;
-        "default" = _JyEuF6rc;
+        "pkg-1.1.4.11" = _SgnqXjT4;
+        "pkg-1.1.4.12" = _6AyxDEwf;
+        "default" = _6AyxDEwf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cult-of-azazel";

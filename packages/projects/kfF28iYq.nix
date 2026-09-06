@@ -81,6 +81,11 @@ let
             "file" = "asian_food_cart-1.0.3-fabric-1.21.11.jar";
             "hash" = "sha512-aIc6Crs4zzdg5r3oFfQkIFW+D0aq9EXA0VJ5qt0D4tSb2X/rKmPbShTfCVD+p/WMHw96TFm6UaQ8WCnzgcKUow==";
         };
+        _tbq4LK1X = {
+            "id" = "tbq4LK1X";
+            "file" = "asian_food_cart-1.0.3-neoforge-26.1.2.jar";
+            "hash" = "sha512-xjN/HQll3fkiovAo8kHsoL6gWfUKXhCPj7MGXhm9gcp2LeSi67jbeUjWiZ1B0WeWVJbVuzLyrr54+hu0LUmOJg==";
+        };
     in {
         "alQpXula" = _alQpXula;
         "iJOqteEp" = _iJOqteEp;
@@ -98,6 +103,7 @@ let
         "btzk0Hdz" = _btzk0Hdz;
         "8pclC7Vl" = _8pclC7Vl;
         "RZsFVUEW" = _RZsFVUEW;
+        "tbq4LK1X" = _tbq4LK1X;
         "fabric-1.19.2" = _alQpXula;
         "fabric-1.20.1" = _nYJIspl5;
         "fabric-1.21.8" = _ntASu0L4;
@@ -109,10 +115,11 @@ let
         "neoforge-1.21.1" = _g50sqTZN;
         "neoforge-1.21.4" = _QmjuGA9A;
         "neoforge-1.21.8" = _btzk0Hdz;
+        "neoforge-26.1.2" = _tbq4LK1X;
         "pkg-1.0.0" = _xq4Xr8ec;
         "pkg-1.0.2" = _nYJIspl5;
-        "pkg-1.0.3" = _RZsFVUEW;
-        "default" = _RZsFVUEW;
+        "pkg-1.0.3" = _tbq4LK1X;
+        "default" = _tbq4LK1X;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "asian-food-cart";

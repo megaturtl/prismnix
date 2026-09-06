@@ -21,17 +21,32 @@ let
             "file" = "enderscapes-delight-0.9.2.jar";
             "hash" = "sha512-8c45PeQcFCZ+dkyiBQgrmUHFjhga/YH8VznMa3j4dVPn0kNuk4nNYVdpYRWqzbxn35ClAUZCzbRv1qRsL9jmbQ==";
         };
+        _4VigZw3g = {
+            "id" = "4VigZw3g";
+            "file" = "enderscapes-delight-0.9.3-26.2.jar";
+            "hash" = "sha512-pOC4oEOGX4/ZJ/KEaU0Hx3r2g1p4ft2Kd+0dszFOoNsfb2c149WlmftcIS9743Xxeex/KQOTyGCuzzTFtsbdFQ==";
+        };
+        _nMMnQ4dQ = {
+            "id" = "nMMnQ4dQ";
+            "file" = "enderscapes-delight-0.9.301-26.2.jar";
+            "hash" = "sha512-V8W6Stdos1hYFr7pLCc0vb2L+u4qWfwuC7kXCBCttOump4RaRa2IodxMNcUS4+Vdsf0qa+uydEOHvQmEzp8kKw==";
+        };
     in {
         "BFdJlQWu" = _BFdJlQWu;
         "C09ylE3W" = _C09ylE3W;
         "fDrCPR5v" = _fDrCPR5v;
         "NIva5WdM" = _NIva5WdM;
+        "4VigZw3g" = _4VigZw3g;
+        "nMMnQ4dQ" = _nMMnQ4dQ;
         "fabric-1.21.11" = _NIva5WdM;
+        "fabric-26.2" = _nMMnQ4dQ;
         "pkg-0.9.0" = _BFdJlQWu;
         "pkg-0.9.001" = _C09ylE3W;
         "pkg-0.9.002" = _fDrCPR5v;
         "pkg-0.9.2" = _NIva5WdM;
-        "default" = _NIva5WdM;
+        "pkg-0.9.3-26.2" = _4VigZw3g;
+        "pkg-0.9.301-26.2" = _nMMnQ4dQ;
+        "default" = _nMMnQ4dQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enderscapes-delight";

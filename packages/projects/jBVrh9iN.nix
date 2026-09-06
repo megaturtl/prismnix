@@ -11,14 +11,21 @@ let
             "file" = "JR_East_E235_Series_V1.1.2.zip";
             "hash" = "sha512-yuF7J26kioTG5VR2dD2B3q5sAf1ZF324ER51OauMR83vUoQF4IM2P+jQcwN2i6NRuCkbhRlOamHlGwA82Dphyg==";
         };
+        _59jI0trF = {
+            "id" = "59jI0trF";
+            "file" = "JR_East_E235_Series_V1.2.zip";
+            "hash" = "sha512-u+BjB+mO7ulSl9Gnzpt2HFZb1M6wlsq/vi3RRg2Fr4aex6BhbDNihwvtCMarpDRkjDOQPMi4lPxjvl98AckGlw==";
+        };
     in {
         "h5ag1VuL" = _h5ag1VuL;
         "NLnISxOe" = _NLnISxOe;
-        "minecraft-1.20" = _NLnISxOe;
-        "minecraft-1.20.1" = _NLnISxOe;
+        "59jI0trF" = _59jI0trF;
+        "minecraft-1.20" = _59jI0trF;
+        "minecraft-1.20.1" = _59jI0trF;
         "pkg-1.1.1" = _h5ag1VuL;
         "pkg-1.1.2" = _NLnISxOe;
-        "default" = _NLnISxOe;
+        "pkg-1.2" = _59jI0trF;
+        "default" = _59jI0trF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mtr4-jr-east-e235-series-jre235";

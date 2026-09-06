@@ -11,16 +11,23 @@ let
             "file" = "MTR_Busan_Transport_Corp_Class2000_4.0_250308.zip";
             "hash" = "sha512-0yke7kCPSAjKQ3m7Kam1I4mbQvKmIml55TydAjDMjlHTlsJpEV0ZIuz4uP0kh8DV9on0z6k2IunfSJ9uR08xFg==";
         };
+        _BZbc6Zm7 = {
+            "id" = "BZbc6Zm7";
+            "file" = "MTR_Busan_Transport_Corp_Class2000_4.0_260828.zip";
+            "hash" = "sha512-kyKKUwhTdSCtsOjtSrGqNt/woOW0+8eBBGQgHXUqJvI/wmYz4p0U3yiHZynnEV5e/d/P9X1C0ZFuM5jIzOe3Hg==";
+        };
     in {
         "5ETQw7Uo" = _5ETQw7Uo;
         "PqUkEfi0" = _PqUkEfi0;
-        "minecraft-1.19.2" = _PqUkEfi0;
-        "minecraft-1.19.4" = _PqUkEfi0;
-        "minecraft-1.20.1" = _PqUkEfi0;
-        "minecraft-1.20.4" = _PqUkEfi0;
+        "BZbc6Zm7" = _BZbc6Zm7;
+        "minecraft-1.19.2" = _BZbc6Zm7;
+        "minecraft-1.19.4" = _BZbc6Zm7;
+        "minecraft-1.20.1" = _BZbc6Zm7;
+        "minecraft-1.20.4" = _BZbc6Zm7;
         "pkg-1.0" = _5ETQw7Uo;
         "pkg-1.1" = _PqUkEfi0;
-        "default" = _PqUkEfi0;
+        "pkg-1.2" = _BZbc6Zm7;
+        "default" = _BZbc6Zm7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mtr34busan-transport-corp-class-2000";

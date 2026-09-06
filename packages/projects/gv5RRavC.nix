@@ -56,6 +56,11 @@ let
             "file" = "create-shufflefilter-2.1.1-neo.jar";
             "hash" = "sha512-/q/b8jIWIAry7ABZQkOMuAbEcxt+cLaKraGJIKdd/Jwj0mFupEhulu+tDdBgm25MjFdaGogPlWfomVMT+HZDjw==";
         };
+        _NcJIZKwh = {
+            "id" = "NcJIZKwh";
+            "file" = "create-shufflefilter-2.2.0-neo.jar";
+            "hash" = "sha512-ynHppUg4JE9DRLPUdnaTt2iRkiAIl8W8NfcHUtmMCx6clZSahdYgN6doZ0VwP5It1+/yWE+wo30CRUrBHGT4ZQ==";
+        };
     in {
         "7b24kKOv" = _7b24kKOv;
         "R9lo1Ubv" = _R9lo1Ubv;
@@ -68,7 +73,8 @@ let
         "ifSwGuWK" = _ifSwGuWK;
         "mimF2YUr" = _mimF2YUr;
         "5DJFXpjO" = _5DJFXpjO;
-        "neoforge-1.21.1" = _5DJFXpjO;
+        "NcJIZKwh" = _NcJIZKwh;
+        "neoforge-1.21.1" = _NcJIZKwh;
         "forge-1.20.1" = _mhbKKde7;
         "pkg-1.0.0" = _7b24kKOv;
         "pkg-1.0.1" = _R9lo1Ubv;
@@ -81,7 +87,8 @@ let
         "pkg-2.0.2" = _ifSwGuWK;
         "pkg-2.1.0" = _mimF2YUr;
         "pkg-2.1.1" = _5DJFXpjO;
-        "default" = _5DJFXpjO;
+        "pkg-2.2.0" = _NcJIZKwh;
+        "default" = _NcJIZKwh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-shuffle-filter";

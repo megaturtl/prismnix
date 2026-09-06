@@ -36,6 +36,11 @@ let
             "file" = "campfire_xp-1.1.3.jar";
             "hash" = "sha512-mSbnNOzmYVBgeYXPGdVCTxnY1eb4NRoo/wbjuMec00CauRdHaPXx7AXpd+EsGRMte8h7cR9VVDZXdLQmKHFBlw==";
         };
+        _wHwe5Ku6 = {
+            "id" = "wHwe5Ku6";
+            "file" = "campfirexp-1.2.0.jar";
+            "hash" = "sha512-/Hn+XAEaxESx+1UwfIS3UxoWRDGwq463zxcyrnPK5q5TWhyNI5OqMS2rYD044oMJrsrJbgi357RFdzRPfM6rgQ==";
+        };
     in {
         "jQy5aOld" = _jQy5aOld;
         "anhrjXcG" = _anhrjXcG;
@@ -44,6 +49,7 @@ let
         "po07qQZE" = _po07qQZE;
         "ht0gTLAg" = _ht0gTLAg;
         "mD6bXCpn" = _mD6bXCpn;
+        "wHwe5Ku6" = _wHwe5Ku6;
         "fabric-1.19.4" = _anhrjXcG;
         "fabric-1.20" = _anhrjXcG;
         "fabric-1.20.1" = _anhrjXcG;
@@ -58,13 +64,18 @@ let
         "fabric-1.21.6" = _mD6bXCpn;
         "fabric-1.21.7" = _mD6bXCpn;
         "fabric-1.21.8" = _mD6bXCpn;
+        "fabric-26.1" = _wHwe5Ku6;
+        "fabric-26.1.1" = _wHwe5Ku6;
+        "fabric-26.1.2" = _wHwe5Ku6;
+        "fabric-26.2" = _wHwe5Ku6;
         "pkg-1.0.0" = _jQy5aOld;
         "pkg-1.1.0" = _anhrjXcG;
         "pkg-1.1.1" = _2wM5AanO;
         "pkg-1.1.2" = _po07qQZE;
         "pkg-1.1.2_1.21.7" = _ht0gTLAg;
         "pkg-1.1.3" = _mD6bXCpn;
-        "default" = _mD6bXCpn;
+        "pkg-1.2.0" = _wHwe5Ku6;
+        "default" = _wHwe5Ku6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "campfire-xp";

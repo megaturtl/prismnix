@@ -76,6 +76,16 @@ let
             "file" = "tradetweaks-1.21.1-2.1.1.jar";
             "hash" = "sha512-ekPJNs1A2VQoGIF3Tjnd4BcfD5cuMCPqP5kgwetdTzIIRyMLIxJxcHQa6U1SN4ltDCrTxU1a7d6DlA2mc54C1Q==";
         };
+        _NcLCNMHA = {
+            "id" = "NcLCNMHA";
+            "file" = "tradetweaks-1.20.1-2.1.2.jar";
+            "hash" = "sha512-3iAaSgfG/TIm3yXsZTNbnWzU9xn2f0lBRgXUpKP6+jSUYYoIKdv5qZeC5AZzQTg0j+qRbmnD1TxBtbHNXY8SuQ==";
+        };
+        _WUw9sZMn = {
+            "id" = "WUw9sZMn";
+            "file" = "tradetweaks-1.21.1-2.1.2.jar";
+            "hash" = "sha512-+ivrg2QF13nUhVojDjqpRraRMAVg9JTrBR+pb+m1QkkQuqB3T/PMHzpHjedZL3DAb+k42btoVSp/IB8jnf7aTA==";
+        };
     in {
         "oFZLaaBj" = _oFZLaaBj;
         "uONUQCJ7" = _uONUQCJ7;
@@ -92,8 +102,10 @@ let
         "hN9hrM6N" = _hN9hrM6N;
         "e3HKo2ip" = _e3HKo2ip;
         "J3DTivsI" = _J3DTivsI;
-        "forge-1.20.1" = _e3HKo2ip;
-        "neoforge-1.21.1" = _J3DTivsI;
+        "NcLCNMHA" = _NcLCNMHA;
+        "WUw9sZMn" = _WUw9sZMn;
+        "forge-1.20.1" = _NcLCNMHA;
+        "neoforge-1.21.1" = _WUw9sZMn;
         "pkg-0.1.0" = _oFZLaaBj;
         "pkg-0.1.1" = _uONUQCJ7;
         "pkg-0.2.0" = _DiipGhLS;
@@ -109,7 +121,9 @@ let
         "pkg-1.21.1-2.0.0" = _hN9hrM6N;
         "pkg-1.20.1-2.1.1" = _e3HKo2ip;
         "pkg-1.21.1-2.1.1" = _J3DTivsI;
-        "default" = _J3DTivsI;
+        "pkg-1.20.1-2.1.2" = _NcLCNMHA;
+        "pkg-1.21.1-2.1.2" = _WUw9sZMn;
+        "default" = _WUw9sZMn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trade-tweaks";

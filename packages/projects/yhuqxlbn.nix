@@ -163,6 +163,10 @@ let
         "iris-1.21.9" = _5tWalPaN;
         "iris-1.21.10" = _5tWalPaN;
         "iris-1.21.11" = _5tWalPaN;
+        "iris-26.1" = _5tWalPaN;
+        "iris-26.1.1" = _5tWalPaN;
+        "iris-26.1.2" = _5tWalPaN;
+        "iris-26.2" = _5tWalPaN;
         "optifine-1.19.2" = _uEyZHrIE;
         "optifine-1.19.3" = _uEyZHrIE;
         "optifine-1.19.4" = _uEyZHrIE;

@@ -36,6 +36,11 @@ let
             "file" = "Dungeons_Style_1.21.4.zip";
             "hash" = "sha512-Ri6Np9oAl2X0ATb9jdhBOdLmUkmcPjNUmgCoAx4sPRUTYDxDVToIHVsbSvkJJrIADNbQjNW50sZ9UyJmc7M+mg==";
         };
+        _WB0epar6 = {
+            "id" = "WB0epar6";
+            "file" = "Dungeons Style 1.0.1 26.2.zip";
+            "hash" = "sha512-LrmJURFUf9WzVOOasC3xT5/QOauBNO7JMtSDwfPDXspmKKcDcRVeQwFInY2l6YLDYifmTYHwh1hLs/dxlzR9Gg==";
+        };
     in {
         "ED0DOiFe" = _ED0DOiFe;
         "RIg7ttuB" = _RIg7ttuB;
@@ -44,6 +49,7 @@ let
         "FkCF9VIM" = _FkCF9VIM;
         "YvxjTWp4" = _YvxjTWp4;
         "aywW1OBK" = _aywW1OBK;
+        "WB0epar6" = _WB0epar6;
         "minecraft-1.19" = _FkCF9VIM;
         "minecraft-1.19.1" = _FkCF9VIM;
         "minecraft-1.19.2" = _FkCF9VIM;
@@ -54,11 +60,16 @@ let
         "minecraft-1.21.2" = _aywW1OBK;
         "minecraft-1.21.3" = _aywW1OBK;
         "minecraft-1.21.4" = _aywW1OBK;
+        "minecraft-26.1" = _WB0epar6;
+        "minecraft-26.1.1" = _WB0epar6;
+        "minecraft-26.1.2" = _WB0epar6;
+        "minecraft-26.2" = _WB0epar6;
         "pkg-0.4" = _RIg7ttuB;
         "pkg-0.5" = _JAHRyqqs;
         "pkg-0.5.1" = _YvxjTWp4;
         "pkg-1.0.0" = _aywW1OBK;
-        "default" = _aywW1OBK;
+        "pkg-1.0.1" = _WB0epar6;
+        "default" = _WB0epar6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dungeons-style";

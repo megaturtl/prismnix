@@ -116,6 +116,21 @@ let
             "file" = "ctjs-3.0.0-beta.jar";
             "hash" = "sha512-G0a6zI0E8FVsp8+MqwjS7hdrB/LisoCDVFdgJDws3aRCYfy4r9bP6kN4u9z8BJsgu5Sq+jI3Lj+ZR4K5cptxFA==";
         };
+        _2hjdRzjm = {
+            "id" = "2hjdRzjm";
+            "file" = "ctjs-3.0.0-beta.jar";
+            "hash" = "sha512-BItqQLR3VUMMFwrn31ArD9OHOHMdf4i7G82jPQg5p4C7sDcUdxh9HzyRZvKDGQdZhC1JlCTot1xz5TpGACkTTQ==";
+        };
+        _wQTuK4I5 = {
+            "id" = "wQTuK4I5";
+            "file" = "ctjs-3.0.0-beta.jar";
+            "hash" = "sha512-aw8deTFCDMkN5gxnFqvWOzMf771sGp7n++c5jlZ1Fwzt6nUMS3FO49JwIcbkCdC4ydS0RDPtK13nrMqYxFUpjQ==";
+        };
+        _vuna6UEl = {
+            "id" = "vuna6UEl";
+            "file" = "ctjs-3.0.0-beta.jar";
+            "hash" = "sha512-QQPMpEfhWGg98O0kAvLXMR3otfAr8MW9GMgX+U4wbTPcJ5grTFBruLSa5H4/64g91pcIog4mkORjTmOt/SbxMQ==";
+        };
     in {
         "3dqET3xS" = _3dqET3xS;
         "KePXTfEF" = _KePXTfEF;
@@ -140,6 +155,9 @@ let
         "G9UEBN1v" = _G9UEBN1v;
         "9LeIb6W6" = _9LeIb6W6;
         "54dLg2tt" = _54dLg2tt;
+        "2hjdRzjm" = _2hjdRzjm;
+        "wQTuK4I5" = _wQTuK4I5;
+        "vuna6UEl" = _vuna6UEl;
         "fabric-1.21.5" = _I7IVBc7b;
         "fabric-1.21.6" = _lJXE2WZf;
         "fabric-1.21.7" = _JUjRg4bq;
@@ -148,6 +166,10 @@ let
         "fabric-1.21.10" = _9LeIb6W6;
         "fabric-1.21.4" = _LG9ZL8u1;
         "fabric-1.21.11" = _54dLg2tt;
+        "fabric-26.1" = _wQTuK4I5;
+        "fabric-26.1.1" = _wQTuK4I5;
+        "fabric-26.1.2" = _wQTuK4I5;
+        "fabric-26.2" = _vuna6UEl;
         "forge-1.8.9" = _k3wzkrIi;
         "pkg-3.0.0-beta.13" = _3dqET3xS;
         "pkg-3.0.0-beta.14" = _KePXTfEF;
@@ -172,7 +194,10 @@ let
         "pkg-3.0.0-beta.32" = _G9UEBN1v;
         "pkg-3.0.0-beta.33" = _9LeIb6W6;
         "pkg-1.21.11v1" = _54dLg2tt;
-        "default" = _54dLg2tt;
+        "pkg-26.1v1" = _2hjdRzjm;
+        "pkg-26.1v2" = _wQTuK4I5;
+        "pkg-26.2v1" = _vuna6UEl;
+        "default" = _vuna6UEl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ctjs";

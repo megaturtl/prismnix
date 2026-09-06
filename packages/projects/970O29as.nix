@@ -41,6 +41,16 @@ let
             "file" = "createdefensive-1.21.1-1.11.2.jar";
             "hash" = "sha512-vSsmckrrTBPbLGqXoOrLsvgOUN1gEZ9e0HxrO4siQfk5UbQKPN1voibCMP9vC46ReSA5MXnu4WTauzHwJn054Q==";
         };
+        _k8ffEkDz = {
+            "id" = "k8ffEkDz";
+            "file" = "createdefensive-1.21.1-1.11.3.jar";
+            "hash" = "sha512-YsRCVNWuNzDmubrvj5YaZNdiEaZ6Wt5dNND740Qxx/XJv0HjT3Z/hbpFV4ROhB0XZ0pCRqv9yNjxl5FMFMABYQ==";
+        };
+        _GDnqwMYI = {
+            "id" = "GDnqwMYI";
+            "file" = "createdefensive-1.21.1-1.11.4.jar";
+            "hash" = "sha512-FBmegZgBrP1CUrPjWKHZtHVT+sL5U9ZzXP/hXNsLq7uYHErICFOzNh2F+wLR35P9ScbaFERQM5/QbVujouacPA==";
+        };
     in {
         "Y96ezlfL" = _Y96ezlfL;
         "zeuaT0xl" = _zeuaT0xl;
@@ -50,7 +60,9 @@ let
         "av0fzhmc" = _av0fzhmc;
         "2KsDhTSR" = _2KsDhTSR;
         "fDYORyFq" = _fDYORyFq;
-        "neoforge-1.21.1" = _fDYORyFq;
+        "k8ffEkDz" = _k8ffEkDz;
+        "GDnqwMYI" = _GDnqwMYI;
+        "neoforge-1.21.1" = _GDnqwMYI;
         "neoforge-1.21.2" = _GuBdPhHV;
         "neoforge-1.21.3" = _GuBdPhHV;
         "neoforge-1.21.4" = _GuBdPhHV;
@@ -61,7 +73,7 @@ let
         "neoforge-1.21.9" = _GuBdPhHV;
         "neoforge-1.21.10" = _GuBdPhHV;
         "neoforge-1.21.11" = _GuBdPhHV;
-        "neoforge-1.21" = _fDYORyFq;
+        "neoforge-1.21" = _GDnqwMYI;
         "pkg-1.21.1-1.9.0" = _Y96ezlfL;
         "pkg-1.21.1-1.9.1" = _zeuaT0xl;
         "pkg-1.21.1-1.10.0" = _DsHAuJJ0;
@@ -70,7 +82,9 @@ let
         "pkg-1.21.1-1.11.0" = _av0fzhmc;
         "pkg-1.21.1-1.11.1" = _2KsDhTSR;
         "pkg-1.21.1-1.11.2" = _fDYORyFq;
-        "default" = _fDYORyFq;
+        "pkg-1.21.1-1.11.3" = _k8ffEkDz;
+        "pkg-1.21.1-1.11.4" = _GDnqwMYI;
+        "default" = _GDnqwMYI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "createdefensive";

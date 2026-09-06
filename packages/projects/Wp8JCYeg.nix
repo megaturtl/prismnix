@@ -57,7 +57,8 @@ let
         "pkg-1.1" = _s7pmaLTV;
         "pkg-1.2" = _oQreerzb;
         "pkg-1.3" = _kESqoCQK;
-        "pkg-1.4" = _RDCP0ThT;
+        "pkg-v.1.4-MTR3" = _nRLaGexq;
+        "pkg-v.1.4-MTR4" = _RDCP0ThT;
         "default" = _RDCP0ThT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -31,6 +31,11 @@ let
             "file" = "Alya Pack 0.6-alpha.zip";
             "hash" = "sha512-swq/Z+UcAuvVIlolRBVX0ZszUUHnkRIkhnyflepAnGd9uSjdWQEBMI4yl/poekM0hhairlc107R0MRpVTwTBJA==";
         };
+        _MIab151J = {
+            "id" = "MIab151J";
+            "file" = "Alya Pack 0.6_26.2-alpha.zip";
+            "hash" = "sha512-H7+UVUaSyfBbMaM5QDYukhGaG3ITcxzAVz8rpu647r64uJXhw4+nvfJ00ab3Gm51VkZIBAw6D//8gPWkqEr6VA==";
+        };
     in {
         "4WkmDRXo" = _4WkmDRXo;
         "lQYtR4Dc" = _lQYtR4Dc;
@@ -38,14 +43,17 @@ let
         "4SCWCPmS" = _4SCWCPmS;
         "ARGWxuLB" = _ARGWxuLB;
         "CoRlbBOr" = _CoRlbBOr;
+        "MIab151J" = _MIab151J;
         "minecraft-1.21.11" = _CoRlbBOr;
+        "minecraft-26.2" = _MIab151J;
         "pkg-0.1-alpha" = _4WkmDRXo;
         "pkg-0.2-alpha" = _lQYtR4Dc;
         "pkg-0.3-alpha" = _uyT8WTgx;
         "pkg-0.4-alpha" = _4SCWCPmS;
         "pkg-0.5-alpha" = _ARGWxuLB;
         "pkg-0.6-alpha" = _CoRlbBOr;
-        "default" = _CoRlbBOr;
+        "pkg-0.7" = _MIab151J;
+        "default" = _MIab151J;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "alya-pack";

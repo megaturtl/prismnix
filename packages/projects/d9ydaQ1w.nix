@@ -249,6 +249,17 @@ let
         "minecraft-26.2-pre-6" = _eE8ArwC4;
         "minecraft-26.2-rc-1" = _eE8ArwC4;
         "minecraft-26.2-rc-2" = _eE8ArwC4;
+        "minecraft-26.3-snapshot-1" = _eE8ArwC4;
+        "minecraft-26.3-snapshot-2" = _eE8ArwC4;
+        "minecraft-26.3-snapshot-3" = _eE8ArwC4;
+        "minecraft-26.3-snapshot-4" = _eE8ArwC4;
+        "minecraft-26.3-snapshot-5" = _eE8ArwC4;
+        "minecraft-26.3-snapshot-6" = _eE8ArwC4;
+        "minecraft-26.3-snapshot-7" = _eE8ArwC4;
+        "minecraft-26.3-snapshot-8" = _eE8ArwC4;
+        "minecraft-26.3-snapshot-9" = _eE8ArwC4;
+        "minecraft-26.3-snapshot-10" = _eE8ArwC4;
+        "minecraft-26.3-pre-1" = _eE8ArwC4;
         "minecraft-26.2" = _5UqOg2DK;
         "pkg-1.0.0" = _PaGHpZqc;
         "pkg-1.0.1" = _lwQyOy3y;

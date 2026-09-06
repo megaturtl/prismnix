@@ -351,6 +351,36 @@ let
             "file" = "guardvillagers-4.0.0-26.2.0.jar";
             "hash" = "sha512-sEGK8KoPtYzhoY+RRfKOlL1aGkAYiFizQW8Q84ZUguTDpoTYE007dkT0ChGEOwYAuq00odhdN3CMzryUL8GTZQ==";
         };
+        _Nszlyxr2 = {
+            "id" = "Nszlyxr2";
+            "file" = "guardvillagers-4.0.1-26.2.0.jar";
+            "hash" = "sha512-VFUMxSzD6S6+t+YUCJ5zS5TX/0MpiVUcJGiDjPdz0DNpMuRfSzfGvjk3umrNAnyaaLSa9vISrA8up2aL+ZQaxA==";
+        };
+        _s5GEcI3v = {
+            "id" = "s5GEcI3v";
+            "file" = "guardvillagers-4.0.2-26.2.0.jar";
+            "hash" = "sha512-xwjjagz4OQhrnmkv/7vkSxRnIFnAYMQlSYR0l2CexcsTmOnrvvk1Ycky7526NJFr4LN68bPALjR9TIvU0SUWLg==";
+        };
+        _zCzBkn3R = {
+            "id" = "zCzBkn3R";
+            "file" = "guardvillagers-1.20.1-1.6.19.jar";
+            "hash" = "sha512-jEqooLnqNhHr5Hm0K/ZC/WZNNNMFdNnf6G+dSYqByge4ifZhj3fe+UYlo/ynim2ZIGbjz1GVh8LAnT9ZnYw+9w==";
+        };
+        _b8N5GP8u = {
+            "id" = "b8N5GP8u";
+            "file" = "guardvillagers-2.4.11-1.21.1.jar";
+            "hash" = "sha512-9HADfeb9PzDbBaQ5V6YZDL/VhS2B6IHgjAWXBBRI0c9oEwEfU+SxVUHBKj8OO+nV/Kq/q2f4rRnaIg8ySwRyjg==";
+        };
+        _QtuirEaT = {
+            "id" = "QtuirEaT";
+            "file" = "guardvillagers-4.0.3-26.2.0.jar";
+            "hash" = "sha512-moFW+9/e7wKDYB5+QakxDP7yFPWjFzzuyUHg1MParZoyzi6hxVShGNMuIRgI981ywEWE937XJfoJxjFueBT4KA==";
+        };
+        _JyXugpy2 = {
+            "id" = "JyXugpy2";
+            "file" = "guardvillagers-2.4.12-1.21.1.jar";
+            "hash" = "sha512-KyXqrOC37EygmtnEKL0+5kVnvFQL8D4hIxsJhJik+V+fAtpRYYQejsSOq85uZLSbWZldE6TOv079Sf6w3KHhPg==";
+        };
     in {
         "pBMhXHpy" = _pBMhXHpy;
         "FDyptF3C" = _FDyptF3C;
@@ -422,13 +452,19 @@ let
         "PR6QZtjY" = _PR6QZtjY;
         "jhuh3S9g" = _jhuh3S9g;
         "4XkFA53z" = _4XkFA53z;
+        "Nszlyxr2" = _Nszlyxr2;
+        "s5GEcI3v" = _s5GEcI3v;
+        "zCzBkn3R" = _zCzBkn3R;
+        "b8N5GP8u" = _b8N5GP8u;
+        "QtuirEaT" = _QtuirEaT;
+        "JyXugpy2" = _JyXugpy2;
         "forge-1.19" = _pBMhXHpy;
         "forge-1.19.1" = _pBMhXHpy;
         "forge-1.19.2" = _ZXYzy1iR;
         "forge-1.19.3" = _tgvSxMbz;
         "forge-1.19.4" = _cwxNfyOe;
         "forge-1.20" = _d6rBM4Cg;
-        "forge-1.20.1" = _jhuh3S9g;
+        "forge-1.20.1" = _zCzBkn3R;
         "forge-1.20.2" = _e2O5TKqU;
         "forge-1.18.2" = _MUAGK1gz;
         "forge-1.16.5" = _7XuY8OQc;
@@ -436,13 +472,13 @@ let
         "neoforge-1.20.2" = _HaGxOuRA;
         "neoforge-1.20.4" = _wXjGQwVf;
         "neoforge-1.20.5" = _kKMVQLRQ;
-        "neoforge-1.20.1" = _jhuh3S9g;
+        "neoforge-1.20.1" = _zCzBkn3R;
         "neoforge-1.21" = _DuHKrjPX;
-        "neoforge-1.21.1" = _PR6QZtjY;
+        "neoforge-1.21.1" = _JyXugpy2;
         "neoforge-26.1" = _FIHOh4yU;
         "neoforge-26.1.1" = _FIHOh4yU;
         "neoforge-26.1.2" = _i6QBWBEQ;
-        "neoforge-26.2" = _4XkFA53z;
+        "neoforge-26.2" = _QtuirEaT;
         "pkg-1.5.1" = _pBMhXHpy;
         "pkg-1.5.2" = _FDyptF3C;
         "pkg-1.5.3" = _h74EaSxg;
@@ -511,7 +547,13 @@ let
         "pkg-2.4.10" = _PR6QZtjY;
         "pkg-1.6.18" = _jhuh3S9g;
         "pkg-4.0.0" = _4XkFA53z;
-        "default" = _4XkFA53z;
+        "pkg-4.0.1" = _Nszlyxr2;
+        "pkg-4.0.2" = _s5GEcI3v;
+        "pkg-1.6.19" = _zCzBkn3R;
+        "pkg-2.4.11" = _b8N5GP8u;
+        "pkg-4.0.3" = _QtuirEaT;
+        "pkg-2.4.12" = _JyXugpy2;
+        "default" = _JyXugpy2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "guard-villagers";

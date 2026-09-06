@@ -206,6 +206,36 @@ let
             "file" = "realism-0.6.4-mc1.21.1-neoforge.jar";
             "hash" = "sha512-R7Y9BCbTvTOMd2M+gy0EHsxKUzQA/cX69wqSDLJ2lOnFpJye8kBm6I9he22z9ZyVuqLpyJRQC3z6MOoFgcbkiQ==";
         };
+        _U9SV8zQo = {
+            "id" = "U9SV8zQo";
+            "file" = "realism-0.6.5-mc1.21.1-neoforge.jar";
+            "hash" = "sha512-YUv+84753UtSXzIm5h5t6WKl7BK6hfxJnoQ8U3JevfjYuDke56L5WcFx0XOTs8Gu3Gz7YQQbi8udGYLXft3lCw==";
+        };
+        _7AK843Km = {
+            "id" = "7AK843Km";
+            "file" = "realism-0.6.5-mc1.20.1-fabric.jar";
+            "hash" = "sha512-a2xYITefjzSQ4HmupSRI9w36+I/3Q4acUDAu/NGqqwu4GIcJ82B4Kqq+qe5U4g3yJL8Ul1MFw89AAhGxT6J6ZQ==";
+        };
+        _Sip3oOwD = {
+            "id" = "Sip3oOwD";
+            "file" = "realism-0.6.5-mc1.20.1-forge.jar";
+            "hash" = "sha512-Vhv67wXCyTRdsa2AqcGn5zhfrh0CuQVstvZVNAStHvs0XMPLX9RhwNcbExZ4Jvt2f65wtF6qywqd5Z47EZ2Fig==";
+        };
+        _gYvxG2YG = {
+            "id" = "gYvxG2YG";
+            "file" = "realism-0.6.6-mc1.20.1-forge.jar";
+            "hash" = "sha512-JkboJ4aN2mLDo8cqfBo40WN+BU0BrZkRCSw5+RPUAicxZHi16ru3TI22I6/2I1RwgrbPkka/w/+I4jJJ0/JzSg==";
+        };
+        _aw3MUigR = {
+            "id" = "aw3MUigR";
+            "file" = "realism-0.6.6-mc1.20.1-fabric.jar";
+            "hash" = "sha512-RWSo+xVT95lVFUAB22EbcHVm0/uSNHrVJgOlfAOruPrxJG68Ggm8bV8niP5VqxeQ0zh7XkH1Ldx5Aiuiy3+Vxg==";
+        };
+        _3vEkAjDR = {
+            "id" = "3vEkAjDR";
+            "file" = "realism-0.6.6-mc1.21.1-neoforge.jar";
+            "hash" = "sha512-dbopWl400YylrXkLzeq5+YSv4UFCmcEoX7FG9wSyjnFgO0fM8hlZ155mGbxpIN+DFHsLucCugnhp4Sl4Yw4/uA==";
+        };
     in {
         "6CpPERJq" = _6CpPERJq;
         "c550HALB" = _c550HALB;
@@ -248,10 +278,16 @@ let
         "2i4D6AxS" = _2i4D6AxS;
         "MU09ZTtd" = _MU09ZTtd;
         "ahL3Dm9L" = _ahL3Dm9L;
-        "fabric-1.20.1" = _MU09ZTtd;
-        "forge-1.20.1" = _2i4D6AxS;
-        "neoforge-1.20.1" = _2i4D6AxS;
-        "neoforge-1.21.1" = _ahL3Dm9L;
+        "U9SV8zQo" = _U9SV8zQo;
+        "7AK843Km" = _7AK843Km;
+        "Sip3oOwD" = _Sip3oOwD;
+        "gYvxG2YG" = _gYvxG2YG;
+        "aw3MUigR" = _aw3MUigR;
+        "3vEkAjDR" = _3vEkAjDR;
+        "fabric-1.20.1" = _aw3MUigR;
+        "forge-1.20.1" = _gYvxG2YG;
+        "neoforge-1.20.1" = _gYvxG2YG;
+        "neoforge-1.21.1" = _3vEkAjDR;
         "pkg-0.1.0+fabric-1.20.1" = _6CpPERJq;
         "pkg-0.1.0+forge-1.20.1" = _c550HALB;
         "pkg-0.2.0+fabric-1.20.1" = _8I10Oatw;
@@ -286,7 +322,9 @@ let
         "pkg-0.6.2" = _MX6yMZq9;
         "pkg-0.6.3" = _T1v8YBHE;
         "pkg-0.6.4" = _ahL3Dm9L;
-        "default" = _ahL3Dm9L;
+        "pkg-0.6.5" = _Sip3oOwD;
+        "pkg-0.6.6" = _3vEkAjDR;
+        "default" = _3vEkAjDR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-realism";

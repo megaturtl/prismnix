@@ -356,6 +356,36 @@ let
             "file" = "legendarymonsters-2.1.22 MC 1.20.1.jar";
             "hash" = "sha512-Ps2EWUB6iAKQIWsNx53uIoNMLOPbsMWoYK0SUC7sr0pNp5rcWuNI4O1o44FzOnaH9zxSkxlvHDBsMZOHb4QOfA==";
         };
+        _LjhThbe4 = {
+            "id" = "LjhThbe4";
+            "file" = "legendary_monsters-2.2.0 MC 1.21.1.jar";
+            "hash" = "sha512-VZHk4TQ9uQBwLjRgWpVcbdGFr8OzdG2Hg38jJKQYOT/fk7+1MPueI/4HEuf4YXdVXSiCb61Q1g4yA8dZEhV6jw==";
+        };
+        _2U3y9S5d = {
+            "id" = "2U3y9S5d";
+            "file" = "legendarymonsters-2.2.0 MC 1.20.1.jar";
+            "hash" = "sha512-UsMTjFbKvK+YA4O4RaQA+PCq6wk1m+UoJdZAQ+VdXHXaOPrnKnyRQcqlG0qlStIZiMcFPno2xf6B4/bKgijMFw==";
+        };
+        _8yZ3BOky = {
+            "id" = "8yZ3BOky";
+            "file" = "legendarymonsters-2.2.1 MC 1.20.1.jar";
+            "hash" = "sha512-t0rGXbv9b9ZJmGDP2unQ3DNel1mV5G54rET4Lgww7iPqmGVd5kQ+6hvF1sweY+Bb2WOHwORiaX+bPsywhDvIRg==";
+        };
+        _MXIG3mpm = {
+            "id" = "MXIG3mpm";
+            "file" = "legendary_monsters-2.2.1 MC 1.21.1.jar";
+            "hash" = "sha512-MZQq7Tzr8lAwWt96Ktx7NCBgXIL0Zcs6yw4EY50Jl/kskhJ+SQk0ss44ZILR7tcc4ggOHisH/ENiy+UFSCXghg==";
+        };
+        _6IqXg10L = {
+            "id" = "6IqXg10L";
+            "file" = "legendarymonsters-2.2.2 MC 1.20.1.jar";
+            "hash" = "sha512-MkUzTS3IVtpCaTJ8kuavgxMWevNcEUL0CzueWVouNBNiY7yUlpTgs8ke2Dbi3tEPSrl4LVqI795JRZofdR68Ng==";
+        };
+        _sHmtzdVi = {
+            "id" = "sHmtzdVi";
+            "file" = "legendary_monsters-2.2.2 MC 1.21.1.jar";
+            "hash" = "sha512-t8SoEdunqg/dgTYFJ3/Zpr/MS5ccS1kt/tE+mblvDcX7nBMpAIC0p2YOkgAD0wcIYTSK71hTogjQ6RUh7pQ6bQ==";
+        };
     in {
         "DBMeFb6S" = _DBMeFb6S;
         "7Sve1Cdn" = _7Sve1Cdn;
@@ -428,11 +458,20 @@ let
         "C1o5aQit" = _C1o5aQit;
         "yZUkQtKy" = _yZUkQtKy;
         "ypyLABVP" = _ypyLABVP;
-        "forge-1.20.1" = _ypyLABVP;
-        "neoforge-1.21.1" = _C1o5aQit;
+        "LjhThbe4" = _LjhThbe4;
+        "2U3y9S5d" = _2U3y9S5d;
+        "8yZ3BOky" = _8yZ3BOky;
+        "MXIG3mpm" = _MXIG3mpm;
+        "6IqXg10L" = _6IqXg10L;
+        "sHmtzdVi" = _sHmtzdVi;
+        "forge-1.20.1" = _6IqXg10L;
+        "neoforge-1.21.1" = _sHmtzdVi;
         "pkg-1.20.1" = _ypyLABVP;
         "pkg-1.21.1" = _C1o5aQit;
-        "default" = _ypyLABVP;
+        "pkg-2.2.0" = _2U3y9S5d;
+        "pkg-2.2.1" = _MXIG3mpm;
+        "pkg-2.2.2" = _sHmtzdVi;
+        "default" = _sHmtzdVi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legendary-monsters";

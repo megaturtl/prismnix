@@ -236,6 +236,61 @@ let
             "file" = "pmweather-1.21.1-0.17.3-alpha.jar";
             "hash" = "sha512-hR6dPnAiM4qPQG2QckImgYKl73r7BZC6Yn8QOfyFSEt23jijfWM/VaxiackgzPg4aEFPcGpwN2UAjb3J9ukQAw==";
         };
+        _CKjTh94p = {
+            "id" = "CKjTh94p";
+            "file" = "pmweather-1.21.1-0.17.4-alpha.jar";
+            "hash" = "sha512-BRz45YGmXu0JWnEFQZ6KtPaJmf/PBiUMHtrgSDEBWkEHerKdHI2uRE6DJKsGTKBaKmW7IhUuDpHBzspunOOWhQ==";
+        };
+        _3JX9tXC0 = {
+            "id" = "3JX9tXC0";
+            "file" = "pmweather-1.21.1-0.17.5-alpha.jar";
+            "hash" = "sha512-p5C9QoHCX86hjO63AlAOe9qVLT/QfainKScfX+70zzF6uIWUrwfDkswSeRQh6PB+w1kHtH81A8Urlo0PCM2f3w==";
+        };
+        _3FkK60Px = {
+            "id" = "3FkK60Px";
+            "file" = "pmweather-1.21.1-0.17.6-alpha.jar";
+            "hash" = "sha512-Nz/pgUC9u1M/A7Hjt9vZp2QYBEWADXq9P8DvYfruBJuU/lhm95CK0+4A2RkvwirvJ732nxEyGHk2ihOZnR+zfg==";
+        };
+        _ge3cPzki = {
+            "id" = "ge3cPzki";
+            "file" = "pmweather-1.21.1-0.17.7-alpha.jar";
+            "hash" = "sha512-eyzXMbvNw/W27pOwRcqny3b003uaz+NmyB9+Py7JoP/z/LAntkoy3BzvshqcUR3am7KbFo9b82OlWYDFednYew==";
+        };
+        _ftWzSBly = {
+            "id" = "ftWzSBly";
+            "file" = "pmweather-1.21.1-0.17.8-alpha.jar";
+            "hash" = "sha512-PL+dctbKYGux7eUnk13QT8kVGzUqJQUMe24emBPd4Jd1BNtkkjJFRvSvc3vqg8xA4nzE38VFI7ugZF52LFf0WQ==";
+        };
+        _JPW9uFxR = {
+            "id" = "JPW9uFxR";
+            "file" = "pmweather-1.21.1-0.17.9-alpha.jar";
+            "hash" = "sha512-+Te4kjF8QL0wLpb/WV5v6YZEJUYqpA5bUWOYPC2bsrHW+vAj++CWGr5DWLgDc8s928WuSpsQigcIEg+tkmWSLA==";
+        };
+        _7VkfNYsM = {
+            "id" = "7VkfNYsM";
+            "file" = "pmweather-1.21.1-0.17.10-alpha.jar";
+            "hash" = "sha512-/BPCMHgqhp+XfSLD19QyhX6sDjCkj35CDda11RavkW4N/GN/lqEWh7l2rPhW44T5cxxMuef4/OFHpjh23/4zVQ==";
+        };
+        _hxjBv6X2 = {
+            "id" = "hxjBv6X2";
+            "file" = "pmweather-1.21.1-0.17.11-alpha.jar";
+            "hash" = "sha512-YVNtDe0DmpihTi44qXyarL4CFJtHI2MQ6kGrVUPAiCjaQ4NuncAz5vDpj89x5ued96yccgi5Hp078mijESFKCg==";
+        };
+        _ipBTAvJ4 = {
+            "id" = "ipBTAvJ4";
+            "file" = "pmweather-1.21.1-0.17.12-alpha.jar";
+            "hash" = "sha512-qKN34Y9UMmxH3Vhz8FOmBwh7BSZE+8oYXyz6lrZarwTsKSN6dNooEZdXcGYUge/h/yVHP8EzsVA/EkDjFv6d4Q==";
+        };
+        _HXq2qS9l = {
+            "id" = "HXq2qS9l";
+            "file" = "pmweather-1.21.1-0.17.13-alpha.jar";
+            "hash" = "sha512-tFKRgAqLuAuXeoiAKFUCp/eBwcfFiMofERP8SzudjsWBrJ0AC4kLF/gcNWTzyIMDBmGXUh1erAwTMutc3hvdDA==";
+        };
+        _twmdjNBb = {
+            "id" = "twmdjNBb";
+            "file" = "pmweather-1.21.1-0.17.14-alpha.jar";
+            "hash" = "sha512-dyRYkCW+G22q8DILIS1PkII5VnZTW2cJjoVf6iS1c/jvPa+GMJFvE1embxVLd6ZrCJxm967XMBxd8PuDLHz8lQ==";
+        };
     in {
         "7Mo5Hsit" = _7Mo5Hsit;
         "4zPcuWtj" = _4zPcuWtj;
@@ -284,7 +339,18 @@ let
         "3IqBRard" = _3IqBRard;
         "1GIpw0dA" = _1GIpw0dA;
         "I7twiZiz" = _I7twiZiz;
-        "neoforge-1.21.1" = _I7twiZiz;
+        "CKjTh94p" = _CKjTh94p;
+        "3JX9tXC0" = _3JX9tXC0;
+        "3FkK60Px" = _3FkK60Px;
+        "ge3cPzki" = _ge3cPzki;
+        "ftWzSBly" = _ftWzSBly;
+        "JPW9uFxR" = _JPW9uFxR;
+        "7VkfNYsM" = _7VkfNYsM;
+        "hxjBv6X2" = _hxjBv6X2;
+        "ipBTAvJ4" = _ipBTAvJ4;
+        "HXq2qS9l" = _HXq2qS9l;
+        "twmdjNBb" = _twmdjNBb;
+        "neoforge-1.21.1" = _twmdjNBb;
         "pkg-0.12.0-alpha" = _7Mo5Hsit;
         "pkg-0.12.1-alpha" = _4zPcuWtj;
         "pkg-0.12.2-alpha" = _GbrMalwx;
@@ -332,7 +398,18 @@ let
         "pkg-0.17.1-alpha" = _3IqBRard;
         "pkg-0.17.2-alpha" = _1GIpw0dA;
         "pkg-0.17.3-alpha" = _I7twiZiz;
-        "default" = _I7twiZiz;
+        "pkg-0.17.4-alpha" = _CKjTh94p;
+        "pkg-0.17.5-alpha" = _3JX9tXC0;
+        "pkg-0.17.6-alpha" = _3FkK60Px;
+        "pkg-0.17.7-alpha" = _ge3cPzki;
+        "pkg-0.17.8-alpha" = _ftWzSBly;
+        "pkg-0.17.9-alpha" = _JPW9uFxR;
+        "pkg-0.17.10-alpha" = _7VkfNYsM;
+        "pkg-0.17.11-alpha" = _hxjBv6X2;
+        "pkg-0.17.12-alpha" = _ipBTAvJ4;
+        "pkg-0.17.13-alpha" = _HXq2qS9l;
+        "pkg-0.17.14-alpha" = _twmdjNBb;
+        "default" = _twmdjNBb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "protomanlys-weather";

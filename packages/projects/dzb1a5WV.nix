@@ -231,6 +231,141 @@ let
             "file" = "CreateDragonsPlus-1.11.3.jar";
             "hash" = "sha512-cbt4BnibupoVqNzp5bERsfzbBYQZA51mjtTLX9HTZgT+rfBIlKUhTpXeujnHTOxYSHraoMyjIbiJzh0pRiPWpg==";
         };
+        _PsnDvjPV = {
+            "id" = "PsnDvjPV";
+            "file" = "CreateDragonsPlus-1.11.4.jar";
+            "hash" = "sha512-bS/SK6Zth46po49Q7w+XOP3BgSmLdUQFnDUfwQ/8M9R9D+QUoU9IiBY7IoxJIBvaFebcivB3+nVWykhOQRVSZw==";
+        };
+        _vTGwQTne = {
+            "id" = "vTGwQTne";
+            "file" = "CreateDragonsPlus-1.11.4.jar";
+            "hash" = "sha512-GqkWgdbveDNDJ3VU3L0xrBoOjFFAdMma+LYNwaa0vB1JNiIWqT5WiCWLGhIdW6Av/y7fcCadhTEP447P3o6iLw==";
+        };
+        _WNS1SPu6 = {
+            "id" = "WNS1SPu6";
+            "file" = "create-dragons-plus-fabric-1.20.1-1.11.4-p.1.jar";
+            "hash" = "sha512-mHEwv6lpECbcLssSkbdpCGfs01/0at7Z/gZbF1mLH/4O1UHaOUV1pSAdTe8o65G/YHQo2wj6b14gp3fsYaariw==";
+        };
+        _OThXqYUr = {
+            "id" = "OThXqYUr";
+            "file" = "CreateDragonsPlus-1.11.4b.jar";
+            "hash" = "sha512-QaAxSfCTbYQ94Nho0jRBMKbmMClDwjbWRWjwI3qhf8CQU809AFP5VcJx2sfJlqseAcF/4SP/ObIBIoDcbcJPzg==";
+        };
+        _lF8fOBq7 = {
+            "id" = "lF8fOBq7";
+            "file" = "create-dragons-plus-fly-1.21.11-1.11.4-p1.jar";
+            "hash" = "sha512-eqY2eGeMOgPoiC2A2qoyHiIMuw2SLwGzEGcUQz6Fl63frsQwlDdHZ7sjow8oNuodl2s/WrfjgYA8aAVwTGucWg==";
+        };
+        _7ox3PTt4 = {
+            "id" = "7ox3PTt4";
+            "file" = "create-dragons-plus-fly-1.21.11-1.11.4-p2.jar";
+            "hash" = "sha512-8Gsv0sUIC8+fN9/imKjXuOoXuqNx6tvvK9eN4dhTsdW2Mo7OJL6hirdTHFaKfO5SYMzqaf/9TDotYVOAWoGdYg==";
+        };
+        _l83uah1h = {
+            "id" = "l83uah1h";
+            "file" = "create-dragons-plus-fabric-1.20.1-1.11.4-p.2.jar";
+            "hash" = "sha512-tpU3T9+bWyovuHOOc+jIPVf1b45Sg7c1M0O0jUfJV/2X+oDRWZIwwB1dlW6s5g0+Rq/4Wcy1uhp98CHORuNqhQ==";
+        };
+        _GJvcDD0T = {
+            "id" = "GJvcDD0T";
+            "file" = "CreateDragonsPlus-1.11.4c.jar";
+            "hash" = "sha512-NP+gjRl8WigOXIPuLemTb5g8eA0FYXNK/Ofv3UKxzAMEhxkOcggL4d26+PH5laRASqGGk2baIETXJkjIQdyTOQ==";
+        };
+        _MWtXxjxE = {
+            "id" = "MWtXxjxE";
+            "file" = "create-dragons-plus-fabric-1.20.1-1.11.4-p.3.jar";
+            "hash" = "sha512-RHL9uwLx4EBETAhKUBs7Uvzoor6B11v3b4GIRguhx5H1XFYJe4tuhB4OzSz2Qj7iDE+pGbNfy6Cq4Z/+UbkGFQ==";
+        };
+        _uT8N2kgS = {
+            "id" = "uT8N2kgS";
+            "file" = "CreateDragonsPlus-1.11.5.jar";
+            "hash" = "sha512-WatsPyPCzhYhV3ephMXMfvso9YNwJK88MLg33Rs6SnnWAeagKczGW+ZqUy6UrOU6PcrNKfr2E7ACUogXH3phOg==";
+        };
+        _Kdp41PRk = {
+            "id" = "Kdp41PRk";
+            "file" = "CreateDragonsPlus-1.11.6.jar";
+            "hash" = "sha512-/G95p93+tLidviBJRpJNKz4XOA6sKjTxbes6YGzMtBt4EQ92F5QlPSwLH2J2xmZ0bJjFnDeH+pdP+si0C5WWqw==";
+        };
+        _DguHtXXu = {
+            "id" = "DguHtXXu";
+            "file" = "create-dragons-plus-fabric-1.20.1-1.1.7.jar";
+            "hash" = "sha512-28blUxm5jDYduOSh3TnLYhypbI6Qdrwhbr3I1KPhpMVEWMTZFGNg8OPJH/rz2nt62/tirlR452S78iT8xZyzfQ==";
+        };
+        _kocCfVQd = {
+            "id" = "kocCfVQd";
+            "file" = "CreateDragonsPlus-1.11.7.jar";
+            "hash" = "sha512-DAF8T/l7DhI3IY8ptEYHBzWluW3M9lwusuSA+0/vGhpxBHnvfBSGUJnXSmvIPPDkKaapKiMeeQehnIuTCHWX8Q==";
+        };
+        _vwCqumIg = {
+            "id" = "vwCqumIg";
+            "file" = "CreateDragonsPlus-1.11.7.jar";
+            "hash" = "sha512-6d5R8TJSlEO69tevNlA7MTrjfcJlJG068dxeeNR5P+M2rQQkVchDSygmwvMq4n68XZWojbFrJsI+97wIVWvyvA==";
+        };
+        _K9JHrhSG = {
+            "id" = "K9JHrhSG";
+            "file" = "CreateDragonsPlus-1.11.7b.jar";
+            "hash" = "sha512-S4b1BkG5VTLYZi4zOxgF8JOL9J0f2e571JINynpMNwfhH5XUTWps4lCswNU08I/9KniRMI1YfE1jzmO+M3eugw==";
+        };
+        _hROf38aA = {
+            "id" = "hROf38aA";
+            "file" = "create-dragons-plus-fabric-1.20.1-1.11.7-c.jar";
+            "hash" = "sha512-YcZ2H6+2vXijcpKmyv1jsCuAAgX6Pfa4e3FKW4q7qmc/NxusxnRuhCSjzMwCDyEhZsRK70UEifJtoJFCgsGsqg==";
+        };
+        _DnlbffT5 = {
+            "id" = "DnlbffT5";
+            "file" = "create-dragons-plus-fabric-1.20.1-1.11.7-d.jar";
+            "hash" = "sha512-1ZqNqEfCHWix0LeWHz88WksbSk3hxnmE9fhTGQ/qCYSwZtlfoOr9YK4TY/XzK1n4qFX1OEfuDrUk9VMwCTn9Eg==";
+        };
+        _zQDQbNih = {
+            "id" = "zQDQbNih";
+            "file" = "CreateDragonsPlus-1.11.7b.jar";
+            "hash" = "sha512-S4b1BkG5VTLYZi4zOxgF8JOL9J0f2e571JINynpMNwfhH5XUTWps4lCswNU08I/9KniRMI1YfE1jzmO+M3eugw==";
+        };
+        _bWT4U6Td = {
+            "id" = "bWT4U6Td";
+            "file" = "create-dragons-plus-fabric-1.20.1-1.11.7-e.jar";
+            "hash" = "sha512-pJn0fofPECr10RjEi1OO3DBS3Jw0LLbs1KS21P98zfg5LGmx6yk1FyyQAdbBRYGW+vl8hiWChHIFjwY1aASXMw==";
+        };
+        _keRSbPUW = {
+            "id" = "keRSbPUW";
+            "file" = "create-dragons-plus-fabric-1.20.1-1.11.7-f.jar";
+            "hash" = "sha512-4N4HbmiCqFLV76AxcWx1wELgH/vN0EkhW3q4rBldnx5h+AA3uv3Bj/eIWg4uj86wVeAxOpAZAH3Dp6u76Jvs1A==";
+        };
+        _SwoHuLR4 = {
+            "id" = "SwoHuLR4";
+            "file" = "create-dragons-plus-fly-26.1.2-1.11.4-p1.jar";
+            "hash" = "sha512-/ZFSYXLhC/ZUZUU+LmcnPYAYN8wpDYXrwrdpaSDTlXTgdR9s5Q7VeKXAG0MnxX1DzOuzJNHKtnwn7MVTrXF7Bg==";
+        };
+        _NYO9KYfI = {
+            "id" = "NYO9KYfI";
+            "file" = "CreateDragonsPlus-1.11.8.jar";
+            "hash" = "sha512-LdqnqToJDN+9F4hqsFxwhDDF2y1LXnhs4PRHKBCB0THPmcAsP93qeYOYmBJbitFdGfJj5I64BMJAlA5JaWsOhw==";
+        };
+        _3OLCjra2 = {
+            "id" = "3OLCjra2";
+            "file" = "create-dragons-plus-fabric-1.20.1-1.11.8.jar";
+            "hash" = "sha512-3wtxrRv6tp4KrMsUarW36NjBjXQR8PmEz/z5t0O+VvvqzfpDHg+R32pOG1MAZnbPjgf9dPenyeEdtuE5/IGcUA==";
+        };
+        _i8h6RHHY = {
+            "id" = "i8h6RHHY";
+            "file" = "create-dragons-plus-fly-26.1.2-1.11.8.jar";
+            "hash" = "sha512-HeQAvgU/v+NIq3YNdYE8RBdrepP2tFD/8NkWVn70dXBopjHb0gckZCbCmwgOdC8l0XNwc/G8O99MM1SlmS9gxA==";
+        };
+        _SSM9RCjh = {
+            "id" = "SSM9RCjh";
+            "file" = "create-dragons-plus-fly-1.21.11-1.11.8.jar";
+            "hash" = "sha512-YP+7GrTwRtjlW2o38h5x2a2CZEdeFtMwHuN2XU0gJ4bRXcoo9oIXhuBxbn3r5oG5l/wYh2UYX3K20/YIf2+vvg==";
+        };
+        _680pf5xW = {
+            "id" = "680pf5xW";
+            "file" = "CreateDragonsPlus-1.11.8.jar";
+            "hash" = "sha512-aYj1Z5EKsspGXgDtMD+Q5sDO8kGF+UyQ3EfqVvkFt/stvRqqceItsFlK86Q6S9bkbDfhaP+WBBQqg2TDzBy/Sg==";
+        };
+        _G8QQJPtF = {
+            "id" = "G8QQJPtF";
+            "file" = "CreateDragonsPlus-1.11.8b.jar";
+            "hash" = "sha512-F5WYP9QofBqkBvfhPf8Uq5vbFCaTUyhrfvsVDaKDuY7oLjYY5FnAfGe03Y17GQBeOBkukggWJjT9EvL4DT1FQw==";
+        };
     in {
         "urJAft2w" = _urJAft2w;
         "f4QdxRKA" = _f4QdxRKA;
@@ -278,7 +413,39 @@ let
         "WmXib3yc" = _WmXib3yc;
         "lSnZyFnZ" = _lSnZyFnZ;
         "LxesD770" = _LxesD770;
-        "neoforge-1.21.1" = _LxesD770;
+        "PsnDvjPV" = _PsnDvjPV;
+        "vTGwQTne" = _vTGwQTne;
+        "WNS1SPu6" = _WNS1SPu6;
+        "OThXqYUr" = _OThXqYUr;
+        "lF8fOBq7" = _lF8fOBq7;
+        "7ox3PTt4" = _7ox3PTt4;
+        "l83uah1h" = _l83uah1h;
+        "GJvcDD0T" = _GJvcDD0T;
+        "MWtXxjxE" = _MWtXxjxE;
+        "uT8N2kgS" = _uT8N2kgS;
+        "Kdp41PRk" = _Kdp41PRk;
+        "DguHtXXu" = _DguHtXXu;
+        "kocCfVQd" = _kocCfVQd;
+        "vwCqumIg" = _vwCqumIg;
+        "K9JHrhSG" = _K9JHrhSG;
+        "hROf38aA" = _hROf38aA;
+        "DnlbffT5" = _DnlbffT5;
+        "zQDQbNih" = _zQDQbNih;
+        "bWT4U6Td" = _bWT4U6Td;
+        "keRSbPUW" = _keRSbPUW;
+        "SwoHuLR4" = _SwoHuLR4;
+        "NYO9KYfI" = _NYO9KYfI;
+        "3OLCjra2" = _3OLCjra2;
+        "i8h6RHHY" = _i8h6RHHY;
+        "SSM9RCjh" = _SSM9RCjh;
+        "680pf5xW" = _680pf5xW;
+        "G8QQJPtF" = _G8QQJPtF;
+        "neoforge-1.21.1" = _G8QQJPtF;
+        "neoforge-1.20.1" = _OThXqYUr;
+        "forge-1.20.1" = _680pf5xW;
+        "fabric-1.20.1" = _3OLCjra2;
+        "fabric-1.21.11" = _SSM9RCjh;
+        "fabric-26.1.2" = _i8h6RHHY;
         "pkg-1.0.0" = _urJAft2w;
         "pkg-1.1.0" = _f4QdxRKA;
         "pkg-1.1.1" = _TTCoDXz3;
@@ -325,7 +492,27 @@ let
         "pkg-1.11.2" = _WmXib3yc;
         "pkg-1.11.2b" = _lSnZyFnZ;
         "pkg-1.11.3" = _LxesD770;
-        "default" = _LxesD770;
+        "pkg-1.11.4" = _vTGwQTne;
+        "pkg-1.11.4-p.1" = _WNS1SPu6;
+        "pkg-1.11.4b" = _OThXqYUr;
+        "pkg-1.11.4-p1" = _SwoHuLR4;
+        "pkg-1.11.4-p2" = _7ox3PTt4;
+        "pkg-1.11.4-p.2" = _l83uah1h;
+        "pkg-1.11.4c" = _GJvcDD0T;
+        "pkg-1.11.4-p.3" = _MWtXxjxE;
+        "pkg-1.11.5" = _uT8N2kgS;
+        "pkg-1.11.6" = _Kdp41PRk;
+        "pkg-1.1.7" = _DguHtXXu;
+        "pkg-1.11.7" = _vwCqumIg;
+        "pkg-1.11.7b-same-as-above" = _K9JHrhSG;
+        "pkg-1.11.7-c" = _hROf38aA;
+        "pkg-1.11.7-d" = _DnlbffT5;
+        "pkg-1.11.7b" = _zQDQbNih;
+        "pkg-1.11.7-e" = _bWT4U6Td;
+        "pkg-1.11.7-f" = _keRSbPUW;
+        "pkg-1.11.8" = _680pf5xW;
+        "pkg-1.11.8b" = _G8QQJPtF;
+        "default" = _G8QQJPtF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-dragons-plus";

@@ -36,11 +36,6 @@ let
             "file" = "ffpackage-1.21.1-0.4.1.1.jar";
             "hash" = "sha512-FV1yvHMzTEitaPZBuOYkGvO1nhgY7K4qUhI5bHbEry1m4qR1pC21pDrg+SyQdk22uWXJd1co4kkfBEstFRFdsQ==";
         };
-        _VjFHyTYD = {
-            "id" = "VjFHyTYD";
-            "file" = "ffpackage-1.21.1-0.5.jar";
-            "hash" = "sha512-GbpmqJ+cgc3eWCoedBwdtHkiTFfK1eXu9ZEsb/YY82iR8tlt0r8CSBFUxxQKd2p6mojHOrOk0bqduVHxL38syg==";
-        };
     in {
         "Vu4XU8kD" = _Vu4XU8kD;
         "JhG2RUvI" = _JhG2RUvI;
@@ -49,8 +44,7 @@ let
         "MwNZI1Bl" = _MwNZI1Bl;
         "oIHty1Kb" = _oIHty1Kb;
         "oSCVF6kK" = _oSCVF6kK;
-        "VjFHyTYD" = _VjFHyTYD;
-        "neoforge-1.21.1" = _VjFHyTYD;
+        "neoforge-1.21.1" = _oSCVF6kK;
         "pkg-0.1" = _Vu4XU8kD;
         "pkg-0.2" = _JhG2RUvI;
         "pkg-0.3" = _g39TYmbx;
@@ -58,8 +52,7 @@ let
         "pkg-0.4" = _MwNZI1Bl;
         "pkg-0.4.1" = _oIHty1Kb;
         "pkg-0.4.1.1" = _oSCVF6kK;
-        "pkg-0.5-alpha-1" = _VjFHyTYD;
-        "default" = _VjFHyTYD;
+        "default" = _oSCVF6kK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fazbear-franchise-package";

@@ -166,6 +166,11 @@ let
             "file" = "loot-randomizer-v1.5.jar";
             "hash" = "sha512-2ZXe56T0fzOt+C+4K4ei43K8p8vEU9d99Pi+j3QmW2esAxPwN+8VE6eqNfZr++fDPsCdGLzANZ0+KqRcXFkDBA==";
         };
+        _IyDAAGo1 = {
+            "id" = "IyDAAGo1";
+            "file" = "randomizer-v2.0-beta.jar";
+            "hash" = "sha512-5wNkTkwqxWfTA/JwNXLw1ur4ASYAdXjB5geMwhemR0LNuX3AGCpjTisRpZyHj4Za8pxvrUWYaKRUxiKj0MG8vA==";
+        };
     in {
         "fKhqvbDl" = _fKhqvbDl;
         "JIg1AGoC" = _JIg1AGoC;
@@ -200,6 +205,7 @@ let
         "15nbmVcg" = _15nbmVcg;
         "PJyuRJSE" = _PJyuRJSE;
         "IQHiwMnA" = _IQHiwMnA;
+        "IyDAAGo1" = _IyDAAGo1;
         "datapack-1.21" = _Tt5CzMvl;
         "datapack-1.21.1" = _Tt5CzMvl;
         "datapack-1.21.2" = _Tt5CzMvl;
@@ -255,7 +261,7 @@ let
         "fabric-26.1" = _15nbmVcg;
         "fabric-26.1.1" = _15nbmVcg;
         "fabric-26.1.2" = _15nbmVcg;
-        "fabric-26.2" = _IQHiwMnA;
+        "fabric-26.2" = _IyDAAGo1;
         "forge-1.21" = _yls27sg1;
         "forge-1.21.1" = _yls27sg1;
         "forge-1.21.2" = _yls27sg1;
@@ -347,7 +353,8 @@ let
         "pkg-1.4+mod" = _15nbmVcg;
         "pkg-v1.5" = _PJyuRJSE;
         "pkg-v1.5+mod" = _IQHiwMnA;
-        "default" = _IQHiwMnA;
+        "pkg-v2.0-beta" = _IyDAAGo1;
+        "default" = _IyDAAGo1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "loot-randomizer";

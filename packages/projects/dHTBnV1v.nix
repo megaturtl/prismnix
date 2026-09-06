@@ -3,8 +3,8 @@ let
     versions = (let
         _PurVgBOd = {
             "id" = "PurVgBOd";
-            "file" = "commandaliases-0.1.4-dev.jar";
-            "hash" = "sha512-3kYNqlc8ylOYhzwypeNkogkE1NRabNMZtfyN12hNGZYJ9isrpdaCcuGH5NJwe27BdkgZST7Ky1e8eJUEbWqXfw==";
+            "file" = "commandaliases-0.1.4.jar";
+            "hash" = "sha512-iZZp/5DdTug7dcLGKyjhLUn6xcuDjgSNkzMR4sY7LRObHxS+HOWFkQryuimo/5/5IxOxL72j/X40xIVgrqfTzw==";
         };
         _ozyKDXsT = {
             "id" = "ozyKDXsT";

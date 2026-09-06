@@ -71,6 +71,11 @@ let
             "file" = "circular-rendering-1.0.6+mc26.1.2.jar";
             "hash" = "sha512-nkXVZiZ2ce/P6mnTE0HXHAY13gjEV7iHW9X1oMqYvklD1Qk8xhmb0jaAVFXjO/axm9za11RIdkRYtUEEjLRgUw==";
         };
+        _tI8nifbw = {
+            "id" = "tI8nifbw";
+            "file" = "circular-rendering-1.0.6.1+mc26.2.jar";
+            "hash" = "sha512-y6fftIkXMqR+Xk9jkZhd03UQ/pwQ/wchJSxj+A68Jh/W9zSi4l5O8AvE7huqv/W8uenTiIV8Cdr8XmC09Z0N8A==";
+        };
     in {
         "xHToEXvn" = _xHToEXvn;
         "e9DTVndU" = _e9DTVndU;
@@ -86,11 +91,12 @@ let
         "mCuNORPg" = _mCuNORPg;
         "XMCTJh50" = _XMCTJh50;
         "PIpCxolF" = _PIpCxolF;
+        "tI8nifbw" = _tI8nifbw;
         "fabric-1.21.11" = _u4iXWZCB;
         "fabric-26.1" = _mCuNORPg;
         "fabric-26.1.1" = _mCuNORPg;
         "fabric-26.1.2" = _PIpCxolF;
-        "fabric-26.2" = _XMCTJh50;
+        "fabric-26.2" = _tI8nifbw;
         "pkg-1.0.0.beta.01+mc1.21.11" = _xHToEXvn;
         "pkg-1.0.0.beta.02+mc1.21.11" = _e9DTVndU;
         "pkg-1.0.0+mc1.21.11" = _mX20O52Q;
@@ -105,7 +111,8 @@ let
         "pkg-1.0.5+mc26.1.x" = _mCuNORPg;
         "pkg-1.0.6+mc26.2" = _XMCTJh50;
         "pkg-1.0.6+mc26.1.2" = _PIpCxolF;
-        "default" = _PIpCxolF;
+        "pkg-1.0.6.1+mc26.2" = _tI8nifbw;
+        "default" = _tI8nifbw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "circular-rendering";

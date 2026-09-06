@@ -41,6 +41,11 @@ let
             "file" = "Bare Bones 3D Tools (v 1.3.3).zip";
             "hash" = "sha512-599zAILZTILQB7oxboGyTxuS1vJp3+kDlXkrPYJuh6S5EDnPmrNlgGcUHAaCFOmn6+Ev8RWy1fydjbFZ9SJgeg==";
         };
+        _gNMODD61 = {
+            "id" = "gNMODD61";
+            "file" = "Bare Bones 3D Tools (v 1.4).zip";
+            "hash" = "sha512-+Yg11FIPT3YKvCo+I7b2nAn0TUZxgstQV+d/Xuhsq35Bve0DhNF8p93aAfNnp+rv5ngHGx0FY7YT+k016ZUhEQ==";
+        };
     in {
         "12EbY84y" = _12EbY84y;
         "bPF72q0y" = _bPF72q0y;
@@ -50,16 +55,18 @@ let
         "4CnLjRgs" = _4CnLjRgs;
         "67gufoa5" = _67gufoa5;
         "QUxVkaDn" = _QUxVkaDn;
-        "minecraft-1.21.6" = _QUxVkaDn;
-        "minecraft-1.21.7" = _QUxVkaDn;
-        "minecraft-1.21.8" = _QUxVkaDn;
-        "minecraft-1.21.9" = _QUxVkaDn;
-        "minecraft-1.21.10" = _QUxVkaDn;
-        "minecraft-1.21.11" = _QUxVkaDn;
-        "minecraft-26.1" = _QUxVkaDn;
-        "minecraft-26.1.1" = _QUxVkaDn;
-        "minecraft-26.1.2" = _QUxVkaDn;
-        "minecraft-26.2" = _QUxVkaDn;
+        "gNMODD61" = _gNMODD61;
+        "minecraft-1.21.6" = _gNMODD61;
+        "minecraft-1.21.7" = _gNMODD61;
+        "minecraft-1.21.8" = _gNMODD61;
+        "minecraft-1.21.9" = _gNMODD61;
+        "minecraft-1.21.10" = _gNMODD61;
+        "minecraft-1.21.11" = _gNMODD61;
+        "minecraft-26.1" = _gNMODD61;
+        "minecraft-26.1.1" = _gNMODD61;
+        "minecraft-26.1.2" = _gNMODD61;
+        "minecraft-26.2" = _gNMODD61;
+        "minecraft-1.21.5" = _gNMODD61;
         "pkg-1.0" = _12EbY84y;
         "pkg-1.1.1" = _bPF72q0y;
         "pkg-1.1.2" = _FBS0NvyT;
@@ -68,7 +75,8 @@ let
         "pkg-1.3.1" = _4CnLjRgs;
         "pkg-1.3.2" = _67gufoa5;
         "pkg-1.3.3" = _QUxVkaDn;
-        "default" = _QUxVkaDn;
+        "pkg-1.4" = _gNMODD61;
+        "default" = _gNMODD61;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bare-bones-3d-tools";

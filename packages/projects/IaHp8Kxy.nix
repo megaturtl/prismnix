@@ -26,12 +26,18 @@ let
             "file" = "farlanders-1.21.4-1.4.2.jar";
             "hash" = "sha512-6wh7IVtT1VthU31hdZd1tz7mVmpFSL3Y+kkbSZklj56m6oB0R3dI3gNwcXqnzORMlse/Wgx82iPaduOdseP+qg==";
         };
+        _ubWWqeiD = {
+            "id" = "ubWWqeiD";
+            "file" = "farlanders-26.1.2-1.5.0.jar";
+            "hash" = "sha512-kIkxXZYjN/V41hNRCa6k9R4BMUqxXKFL82ck6OKhPehGRw6BpA87blnOWEBPTuk8qRLIh1JnvOh1SqnCAoDcgg==";
+        };
     in {
         "lve2bPfY" = _lve2bPfY;
         "ccCEjSJE" = _ccCEjSJE;
         "yIlLmFo8" = _yIlLmFo8;
         "x3rRadsC" = _x3rRadsC;
         "5HXShOIc" = _5HXShOIc;
+        "ubWWqeiD" = _ubWWqeiD;
         "forge-1.16.4" = _lve2bPfY;
         "forge-1.16.5" = _lve2bPfY;
         "forge-1.19.4" = _ccCEjSJE;
@@ -39,10 +45,12 @@ let
         "neoforge-1.20.1" = _yIlLmFo8;
         "neoforge-1.20.4" = _x3rRadsC;
         "neoforge-1.21.4" = _5HXShOIc;
+        "neoforge-26.1.2" = _ubWWqeiD;
         "pkg-1.3.9" = _lve2bPfY;
         "pkg-1.4.1" = _x3rRadsC;
         "pkg-1.4.2" = _5HXShOIc;
-        "default" = _5HXShOIc;
+        "pkg-1.5.0" = _ubWWqeiD;
+        "default" = _ubWWqeiD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-farlanders";

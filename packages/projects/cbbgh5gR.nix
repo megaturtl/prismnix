@@ -16,23 +16,31 @@ let
             "file" = "Spyglass-Trinket-Slot.jar";
             "hash" = "sha512-FBpWqdk5FppkQZBW/HGDTvFhfH4MxhT0vQGAalU+M3FmkeVA6aTJfhuX5dnqthYK3Qesf62QRgNNl+SaJoCmvQ==";
         };
+        _KgHxjaH9 = {
+            "id" = "KgHxjaH9";
+            "file" = "Spyglass-Trinket-Slot.jar";
+            "hash" = "sha512-voWb6th1rh6Uk5NrUMjUkALf2oXDRXQzHckqU0kEFTJpdWgrUy3FrQLixAk1TyIWnH+gfVuZ8YKE61MbOgPwdA==";
+        };
     in {
         "2lG9F58p" = _2lG9F58p;
         "OVzJRn9W" = _OVzJRn9W;
         "lE8hJnol" = _lE8hJnol;
+        "KgHxjaH9" = _KgHxjaH9;
         "fabric-1.20.1" = _2lG9F58p;
         "fabric-1.21" = _OVzJRn9W;
         "fabric-1.21.1" = _OVzJRn9W;
         "fabric-26.1" = _lE8hJnol;
         "fabric-26.1.1" = _lE8hJnol;
         "fabric-26.1.2" = _lE8hJnol;
+        "fabric-26.2" = _KgHxjaH9;
         "quilt-1.20.1" = _2lG9F58p;
         "quilt-1.21" = _OVzJRn9W;
         "quilt-1.21.1" = _OVzJRn9W;
         "pkg-1.0" = _2lG9F58p;
         "pkg-1.1" = _OVzJRn9W;
         "pkg-1.2" = _lE8hJnol;
-        "default" = _lE8hJnol;
+        "pkg-1.3" = _KgHxjaH9;
+        "default" = _KgHxjaH9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spyglass-trinket-slot";

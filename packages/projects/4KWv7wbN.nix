@@ -471,6 +471,16 @@ let
             "file" = "chisel-neoforge-2.0.1+mc1.21.1.jar";
             "hash" = "sha512-riRnjjKOM8mJ0d+vojXcbwoF3eyu1az1WELsIEePq3CG9PsvY0wye8xAKFf0QFfOoz3th55YLZXj6+RldIgX3w==";
         };
+        _cKJTN55Z = {
+            "id" = "cKJTN55Z";
+            "file" = "chisel-fabric-2.2.1+mc26.2.jar";
+            "hash" = "sha512-NZZjFxzHEtvZITEIeRCERl+gCWiXiFke24sM2qr6lZZ++9AHNBOqy0y1WhN/PF2nbKp1TgKCUhfYFo+5i6uWjA==";
+        };
+        _shNiAYRK = {
+            "id" = "shNiAYRK";
+            "file" = "chisel-neoforge-2.2.1+mc26.2.jar";
+            "hash" = "sha512-Ny6+4TLruxrmB+xst2S1eV68/HU3lkffnOkzwTHXCdhPXOGAyVv0YQ9sCUw5fKkGmVN/WRm3dWawhNtHnvULrg==";
+        };
     in {
         "WBkwRvD9" = _WBkwRvD9;
         "ANTTHxMh" = _ANTTHxMh;
@@ -566,6 +576,8 @@ let
         "V5ECZw8B" = _V5ECZw8B;
         "65eiEIr5" = _65eiEIr5;
         "4ItA9dOc" = _4ItA9dOc;
+        "cKJTN55Z" = _cKJTN55Z;
+        "shNiAYRK" = _shNiAYRK;
         "fabric-1.17-pre1" = _ANTTHxMh;
         "fabric-1.17-pre2" = _ANTTHxMh;
         "fabric-1.17-pre3" = _ANTTHxMh;
@@ -633,7 +645,7 @@ let
         "fabric-26.1" = _WQbN3Zxu;
         "fabric-26.1.1" = _WQbN3Zxu;
         "fabric-26.1.2" = _WQbN3Zxu;
-        "fabric-26.2" = _WQbN3Zxu;
+        "fabric-26.2" = _cKJTN55Z;
         "forge-1.20.1" = _7TXJbdEY;
         "forge-1.19.4" = _AmNjRPuE;
         "forge-1.20" = _7TXJbdEY;
@@ -659,7 +671,7 @@ let
         "neoforge-26.1" = _V5ECZw8B;
         "neoforge-26.1.1" = _V5ECZw8B;
         "neoforge-26.1.2" = _V5ECZw8B;
-        "neoforge-26.2" = _V5ECZw8B;
+        "neoforge-26.2" = _shNiAYRK;
         "quilt-1.21.2" = _dIEhNiMa;
         "quilt-1.21.3" = _dIEhNiMa;
         "quilt-1.21.4" = _8gY6LyiR;
@@ -681,7 +693,7 @@ let
         "quilt-26.1" = _WQbN3Zxu;
         "quilt-26.1.1" = _WQbN3Zxu;
         "quilt-26.1.2" = _WQbN3Zxu;
-        "quilt-26.2" = _WQbN3Zxu;
+        "quilt-26.2" = _cKJTN55Z;
         "pkg-1.3.0" = _WBkwRvD9;
         "pkg-1.3.1" = _ANTTHxMh;
         "pkg-1.4.1" = _qAB1Bvek;
@@ -751,7 +763,9 @@ let
         "pkg-neoforge-26.1.2-2.2.1" = _V5ECZw8B;
         "pkg-fabric-1.21.1-2.0.1" = _65eiEIr5;
         "pkg-neoforge-1.21.1-2.0.1" = _4ItA9dOc;
-        "default" = _4ItA9dOc;
+        "pkg-fabric-26.2-2.2.1" = _cKJTN55Z;
+        "pkg-neoforge-26.2-2.2.1" = _shNiAYRK;
+        "default" = _shNiAYRK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chisel-reborn";

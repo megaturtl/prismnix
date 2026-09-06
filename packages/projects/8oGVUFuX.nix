@@ -631,6 +631,56 @@ let
             "file" = "grieflogger-fabric-21.1.2.jar";
             "hash" = "sha512-G2kUFs9FJpAunVcXfmoQs0/LEYAN+wzQaQfSWIPtxfF0ljUG8mncUAC3Bx4KaAaU068BmvZiZEWE2BELSum/4A==";
         };
+        _J0q23O37 = {
+            "id" = "J0q23O37";
+            "file" = "grieflogger-neoforge-21.1.3.jar";
+            "hash" = "sha512-z1MIZwMsdsbaqaFwI/3TTPZ3WwK1q9wFbszH1/u1+iEmYL82n23OKz/zxKcqAOuaemdd4t5MvkCl8iWoo+vcIA==";
+        };
+        _3RQZqhUQ = {
+            "id" = "3RQZqhUQ";
+            "file" = "grieflogger-fabric-21.1.3.jar";
+            "hash" = "sha512-o2cOOPF4wxGvZ7r8avhGK5c9R6+FaXc8zGvnrWxIexIfUN7w40Dke2RwaSuwO75oJDE35cbA800iSFLeqczscQ==";
+        };
+        _eEMKSWp7 = {
+            "id" = "eEMKSWp7";
+            "file" = "grieflogger-neoforge-20.1.3.jar";
+            "hash" = "sha512-PcWpvgBYnd/wxfnnq7jm66mpmTu19EWiw46mTZcRliAv/znYdZ6BfXpuovD2goRIiCwjyTNYe6IMEYtFPmDFbQ==";
+        };
+        _eiJVTMJf = {
+            "id" = "eiJVTMJf";
+            "file" = "grieflogger-fabric-20.1.3.jar";
+            "hash" = "sha512-kJ+EvZaeGU9p4d4QFRoRRPsqTZD8r/AAtbLq8AcOr/9EarzeHtbq4gJmchMdkkN7tEDaPgqfJA+g6f0uoJMKaQ==";
+        };
+        _xSeLw3Kh = {
+            "id" = "xSeLw3Kh";
+            "file" = "grieflogger-fabric-20.1.4.jar";
+            "hash" = "sha512-54y4BOGcF79JcPg8k5bAL0irzx4YFZLeMEosevEY2L/2fUyAv8XRbbtcdLZUQOttzrZ90jPKRLnboQDk60Ck1A==";
+        };
+        _P8pPh0Yw = {
+            "id" = "P8pPh0Yw";
+            "file" = "grieflogger-neoforge-20.1.4.jar";
+            "hash" = "sha512-U/XELwye82ZrnwugxtI/x5fZ6IwcDyNZW0qSBKl0PJpfXtU+OopDGSc3uBoY0QxeJriB2iIXtxFWA/eJsSBW7A==";
+        };
+        _ZJOIJTqi = {
+            "id" = "ZJOIJTqi";
+            "file" = "grieflogger-neoforge-21.1.4.jar";
+            "hash" = "sha512-utICtnb7nIkwgibF11QNRQhx9VZVH1vyYw0w7FL5veQ9Vbv5aT40/edvZu695WGGVuKLI2av/kq30g/dapfXWQ==";
+        };
+        _e384N76H = {
+            "id" = "e384N76H";
+            "file" = "grieflogger-fabric-21.1.4.jar";
+            "hash" = "sha512-ZcJOyK/slIl9Np1082pfbFAVPaCcL4ATD1GcEv8EDJPt8CxyHxUAOxBMgIt4xFfwllel/hFKFP3vXciRl+x7eA==";
+        };
+        _yYFvP881 = {
+            "id" = "yYFvP881";
+            "file" = "grieflogger-fabric-21.1.5.jar";
+            "hash" = "sha512-pJDPJPUYLo+ibYR1aYkoGFbWOamuKn+go5QK6Q3iqODhKwJeKRycQpECG1yV9lton3i5A6vu92PZH/koSlGpVQ==";
+        };
+        _b7AO3OVR = {
+            "id" = "b7AO3OVR";
+            "file" = "grieflogger-neoforge-21.1.5.jar";
+            "hash" = "sha512-h9MoBvq1tVMYLMHQOXe0tqgPaBlyWmwUs1FX1bY6ONnfvpr4QYxchCHBnoaXWkdFJW4CAAYY5YUfGWkM++dzgg==";
+        };
     in {
         "8s3cBiAF" = _8s3cBiAF;
         "lu6vLTre" = _lu6vLTre;
@@ -758,6 +808,16 @@ let
         "egYlwIs0" = _egYlwIs0;
         "f0CafL6q" = _f0CafL6q;
         "383ha1QZ" = _383ha1QZ;
+        "J0q23O37" = _J0q23O37;
+        "3RQZqhUQ" = _3RQZqhUQ;
+        "eEMKSWp7" = _eEMKSWp7;
+        "eiJVTMJf" = _eiJVTMJf;
+        "xSeLw3Kh" = _xSeLw3Kh;
+        "P8pPh0Yw" = _P8pPh0Yw;
+        "ZJOIJTqi" = _ZJOIJTqi;
+        "e384N76H" = _e384N76H;
+        "yYFvP881" = _yYFvP881;
+        "b7AO3OVR" = _b7AO3OVR;
         "fabric-1.20.1" = _hHiDy0Ap;
         "fabric-1.19.2" = _QP2iiKe2;
         "fabric-1.20.6" = _p2dgvGhr;
@@ -770,8 +830,8 @@ let
         "fabric-1.21.9" = _W00iASFN;
         "fabric-1.21.10" = _W00iASFN;
         "fabric-1.21.11" = _DtRNcTw4;
-        "fabric-26.1.2" = _mI9o0wY8;
-        "fabric-26.2" = _383ha1QZ;
+        "fabric-26.1.2" = _xSeLw3Kh;
+        "fabric-26.2" = _yYFvP881;
         "forge-1.20.1" = _lXYmV1xl;
         "forge-1.19.2" = _ayrZL1Bq;
         "neoforge-1.20.6" = _GNv8GEeI;
@@ -784,8 +844,8 @@ let
         "neoforge-1.21.9" = _6VwFUHXW;
         "neoforge-1.21.10" = _6VwFUHXW;
         "neoforge-1.21.11" = _Gi0K1Nwh;
-        "neoforge-26.1.2" = _egYlwIs0;
-        "neoforge-26.2" = _f0CafL6q;
+        "neoforge-26.1.2" = _P8pPh0Yw;
+        "neoforge-26.2" = _b7AO3OVR;
         "pkg-1.0" = _lu6vLTre;
         "pkg-1.0.1" = _KVtvDtow;
         "pkg-1.0.2" = _3hclj5R0;
@@ -845,7 +905,12 @@ let
         "pkg-20.1.1" = _3h8g8E8N;
         "pkg-20.1.2" = _egYlwIs0;
         "pkg-21.1.2" = _383ha1QZ;
-        "default" = _383ha1QZ;
+        "pkg-21.1.3" = _3RQZqhUQ;
+        "pkg-20.1.3" = _eiJVTMJf;
+        "pkg-20.1.4" = _P8pPh0Yw;
+        "pkg-21.1.4" = _e384N76H;
+        "pkg-21.1.5" = _b7AO3OVR;
+        "default" = _b7AO3OVR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "grieflogger";

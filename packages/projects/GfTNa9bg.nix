@@ -186,6 +186,11 @@ let
             "file" = "Small Utills.zip";
             "hash" = "sha512-PXNL5vITUm/LuIh35ZfdMeGAxFS5QsJmArpRkHcuytHcM0PPoax/rJSBTyPF4RPnDO6C3HSUZiCr04VKbEBo4Q==";
         };
+        _GXZyVA4Y = {
+            "id" = "GXZyVA4Y";
+            "file" = "Small Utills.zip";
+            "hash" = "sha512-PXNL5vITUm/LuIh35ZfdMeGAxFS5QsJmArpRkHcuytHcM0PPoax/rJSBTyPF4RPnDO6C3HSUZiCr04VKbEBo4Q==";
+        };
     in {
         "doGuTx5n" = _doGuTx5n;
         "YJd1kEnt" = _YJd1kEnt;
@@ -224,6 +229,7 @@ let
         "URGqfhRG" = _URGqfhRG;
         "ku4DXWuc" = _ku4DXWuc;
         "nZEY5Ixq" = _nZEY5Ixq;
+        "GXZyVA4Y" = _GXZyVA4Y;
         "minecraft-1.19" = _FZ5rrDGT;
         "minecraft-1.19.1" = _wgNeQaCt;
         "minecraft-1.19.2" = _wgNeQaCt;
@@ -236,18 +242,18 @@ let
         "minecraft-1.20.4" = _xFHELlfn;
         "minecraft-1.20.5" = _TE47bLwe;
         "minecraft-1.20.6" = _TE47bLwe;
-        "minecraft-1.21" = _XswOf9Mt;
-        "minecraft-1.21.1" = _dcmvcBTz;
-        "minecraft-1.21.2" = _dcmvcBTz;
-        "minecraft-1.21.3" = _nAr342wb;
-        "minecraft-1.21.4" = _nAr342wb;
-        "minecraft-1.21.5" = _ehbKsaQ7;
-        "minecraft-1.21.6" = _ehbKsaQ7;
-        "minecraft-1.21.7" = _BfcO1uF3;
-        "minecraft-1.21.8" = _BfcO1uF3;
-        "minecraft-1.21.9" = _lJriB8Q2;
-        "minecraft-1.21.10" = _lJriB8Q2;
-        "minecraft-1.21.11" = _fplmUEHe;
+        "minecraft-1.21" = _GXZyVA4Y;
+        "minecraft-1.21.1" = _GXZyVA4Y;
+        "minecraft-1.21.2" = _GXZyVA4Y;
+        "minecraft-1.21.3" = _GXZyVA4Y;
+        "minecraft-1.21.4" = _GXZyVA4Y;
+        "minecraft-1.21.5" = _GXZyVA4Y;
+        "minecraft-1.21.6" = _GXZyVA4Y;
+        "minecraft-1.21.7" = _GXZyVA4Y;
+        "minecraft-1.21.8" = _GXZyVA4Y;
+        "minecraft-1.21.9" = _GXZyVA4Y;
+        "minecraft-1.21.10" = _GXZyVA4Y;
+        "minecraft-1.21.11" = _GXZyVA4Y;
         "minecraft-26.1" = _1GjKdfOU;
         "minecraft-26.1.1" = _URGqfhRG;
         "minecraft-26.1.2" = _ku4DXWuc;
@@ -270,7 +276,8 @@ let
         "pkg-26.1.1" = _URGqfhRG;
         "pkg-26.1.2" = _ku4DXWuc;
         "pkg-26.2" = _nZEY5Ixq;
-        "default" = _nZEY5Ixq;
+        "pkg-1.21-1.21.11" = _GXZyVA4Y;
+        "default" = _GXZyVA4Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "small-utills";

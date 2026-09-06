@@ -301,6 +301,66 @@ let
             "file" = "kingdom_come_combat-1.7.2+neoforge-mc1.21.1.jar";
             "hash" = "sha512-2rugvKySnCNZ/DPzrO8HFrRyWVuXfFcPSvSBw1WiNtfZDt304gbJwO+q4Y6tc/oTaqz5AvgQENzQ2/ye1R/IEA==";
         };
+        _4atlZhZW = {
+            "id" = "4atlZhZW";
+            "file" = "kingdom_come_combat-1.7.3+fabric-mc1.21.6.jar";
+            "hash" = "sha512-v+jlzuS3PKp8CbEZ/jpj4VlPbjwIDEG1o5Rqb+D2ERCanHKRGO60OTn7vqqt9EDS2eS4cNoZv3KnS+pXWFNppQ==";
+        };
+        _HEeeodnv = {
+            "id" = "HEeeodnv";
+            "file" = "kingdom_come_combat-1.7.3+fabric-mc1.21.7.jar";
+            "hash" = "sha512-8x2TQmeLdJiVSZ1y6OhOq1pAHDka7oQkpxY3krkud/fP8Y4SUMySlmvfwE9NVM2yIhsNiB+JmazhBIDQCvNo9g==";
+        };
+        _vgKCLKaP = {
+            "id" = "vgKCLKaP";
+            "file" = "kingdom_come_combat-1.7.3+fabric-mc1.21.8.jar";
+            "hash" = "sha512-n0CD2tHt870b2DgRPRKcFRaOdms0ScjZYi0fh2rP/RRU7ar7cHrcOr6V3bPNNKOV4vKGUHBszKd/3PSzJuev2w==";
+        };
+        _Fl24G2eL = {
+            "id" = "Fl24G2eL";
+            "file" = "kingdom_come_combat-1.7.3+fabric-mc1.21.10.jar";
+            "hash" = "sha512-RDxxR2dL0xrr4F84YD889ux4fkkzmihxqOb2WIIkViaQ9maOikFjPZB9i5C1kukdRgVxLwkiWMO7t2hRg29w7g==";
+        };
+        _U3GxwNRz = {
+            "id" = "U3GxwNRz";
+            "file" = "kingdom_come_combat-1.7.3+fabric-mc1.21.11.jar";
+            "hash" = "sha512-h4stGbZm8Vdi2KDhU53wOO9mRYwj/mi/JufGajr7Jq7Y4pSyqQWS35vIt8bHPu4fAo5F5Vz1kH7GEHntg2GaKA==";
+        };
+        _NOGbAoad = {
+            "id" = "NOGbAoad";
+            "file" = "kingdom_come_combat-1.7.3+neoforge-mc1.21.1.jar";
+            "hash" = "sha512-5u1pYA2NuMZjlhiHVQOw34fHhb9G9cuCgspbi8YtVQj3kP/Y6PuGg1MUdij1rWjkzGyRe89DzG4yoxfSMus0Sw==";
+        };
+        _QpqEUVir = {
+            "id" = "QpqEUVir";
+            "file" = "kingdom_come_combat-1.7.3+fabric-mc1.21.1.jar";
+            "hash" = "sha512-erDXwVO29lYylOFU2WRRM4tJxfRmb6ZAWR+iNxL2tqoMtqV2yEfeAqyD/LIumj/5b0zh0k0u1Uj8RKxUFF7OOg==";
+        };
+        _zfuzqOhB = {
+            "id" = "zfuzqOhB";
+            "file" = "kingdom_come_combat-1.7.4+fabric-mc1.21.1.jar";
+            "hash" = "sha512-0tgzrr5ZPcYt3uABDnpP9cz29Y7GTM6M7aRHJV/AjQX/2Z7gS/MCjhUX0cU74oda+Phcc9rY3uKP7SQaFMgUpw==";
+        };
+        _BUJDKXJx = {
+            "id" = "BUJDKXJx";
+            "file" = "kingdom_come_combat-1.7.4+fabric-mc1.21.6-1.21.8.jar";
+            "hash" = "sha512-08/5KUPWxjeQ/eVWmZIjv2QM3fwPeTrkedamlb25sjch2ANLBU67NMndfdTSc/caxvC2HFQtwrRveOLRQDG3xg==";
+        };
+        _gVNlZ5sO = {
+            "id" = "gVNlZ5sO";
+            "file" = "kingdom_come_combat-1.7.4+fabric-mc1.21.10.jar";
+            "hash" = "sha512-pJo1BIjukg91ShOtJPSqGYj2bBPoQ/P6gdzRr4+FGGss2Uno3HlZqB6XQweyDJNNGWpxrOtU+6xtYE2BRew6Hw==";
+        };
+        _dPWMfFUx = {
+            "id" = "dPWMfFUx";
+            "file" = "kingdom_come_combat-1.7.4+fabric-mc1.21.11.jar";
+            "hash" = "sha512-PlWd6nYX7hGnVmWPwQSRJmNUCzMe/8tSewM+8kLloRIhAnsGbZ5ojuUhQVZUrfM7lIzE4kzhQX6mX37T+wlsDg==";
+        };
+        _cbn8K8Ic = {
+            "id" = "cbn8K8Ic";
+            "file" = "kingdom_come_combat-1.7.4+neoforge-mc1.21.1.jar";
+            "hash" = "sha512-JwDLbt2JTOqwdbKrEeDUo+ITe7ZJJJwqSjfm90n0mGhcrkjvcfzy5sts9NbC+3ZIWcsBsLfc2Y1GPunj4pzMzA==";
+        };
     in {
         "FKiZVsg3" = _FKiZVsg3;
         "poH3Tte9" = _poH3Tte9;
@@ -362,13 +422,25 @@ let
         "i11NIO0Y" = _i11NIO0Y;
         "pwZMsnqp" = _pwZMsnqp;
         "rgjhEkaK" = _rgjhEkaK;
-        "fabric-1.21.7" = _xuXnzi1x;
-        "fabric-1.21.8" = _1ZOPBjOr;
-        "fabric-1.21.11" = _pwZMsnqp;
-        "fabric-1.21.10" = _i11NIO0Y;
-        "fabric-1.21.1" = _m1MQQ6RD;
-        "fabric-1.21.6" = _ZKZqUWuF;
-        "neoforge-1.21.1" = _rgjhEkaK;
+        "4atlZhZW" = _4atlZhZW;
+        "HEeeodnv" = _HEeeodnv;
+        "vgKCLKaP" = _vgKCLKaP;
+        "Fl24G2eL" = _Fl24G2eL;
+        "U3GxwNRz" = _U3GxwNRz;
+        "NOGbAoad" = _NOGbAoad;
+        "QpqEUVir" = _QpqEUVir;
+        "zfuzqOhB" = _zfuzqOhB;
+        "BUJDKXJx" = _BUJDKXJx;
+        "gVNlZ5sO" = _gVNlZ5sO;
+        "dPWMfFUx" = _dPWMfFUx;
+        "cbn8K8Ic" = _cbn8K8Ic;
+        "fabric-1.21.7" = _BUJDKXJx;
+        "fabric-1.21.8" = _BUJDKXJx;
+        "fabric-1.21.11" = _dPWMfFUx;
+        "fabric-1.21.10" = _gVNlZ5sO;
+        "fabric-1.21.1" = _zfuzqOhB;
+        "fabric-1.21.6" = _BUJDKXJx;
+        "neoforge-1.21.1" = _cbn8K8Ic;
         "pkg-1.0.0" = _poH3Tte9;
         "pkg-1.0.1" = _Dpdq7RPj;
         "pkg-1.3.1" = _8m9AH0Pc;
@@ -383,7 +455,9 @@ let
         "pkg-1.6.4" = _XmC5uYbq;
         "pkg-1.7.1" = _5mDhuRzp;
         "pkg-1.7.2" = _rgjhEkaK;
-        "default" = _rgjhEkaK;
+        "pkg-1.7.3" = _QpqEUVir;
+        "pkg-1.7.4" = _cbn8K8Ic;
+        "default" = _cbn8K8Ic;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kingdomcome-combat";
@@ -391,12 +465,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "Apache License 2.0";
-                shortName = "Apache-2.0";
+                fullName = "MIT License";
+                shortName = "MIT";
                 url = null;
             };
         };

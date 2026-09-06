@@ -406,6 +406,16 @@ let
             "file" = "fancy-entity-renderer-fabric-1.21-0.4.8.jar";
             "hash" = "sha512-2NNpJhhbBGSGyVnfclJ1w53dUhVgOkKGM3mCoDJtevlCTsDbiaEHoY2x7XMJMuuudDQaTSOoEYAqXfB3LMFUxQ==";
         };
+        _rxYHELTJ = {
+            "id" = "rxYHELTJ";
+            "file" = "fancy-entity-renderer-neoforge-1.21-0.4.9.jar";
+            "hash" = "sha512-qCPxVffhA7qzz3lS6bY7EY4j3f62q/T/V+zotzf1vPEj1SgI0NbEZt+q1IMmmVMLo4nW6MvdsxlXlQgzi8aLXw==";
+        };
+        _CvqmA5Q7 = {
+            "id" = "CvqmA5Q7";
+            "file" = "fancy-entity-renderer-fabric-1.21-0.4.9.jar";
+            "hash" = "sha512-Iwx37ErEw4YgDfWAFry1stCBQhz+JsN9sjOeCYjvHyndu3fcY6y1xfwf9o6jnE1SPQQhG2T5I3hvhWp4XSEYSQ==";
+        };
     in {
         "Rsa0M0In" = _Rsa0M0In;
         "2QEdO16L" = _2QEdO16L;
@@ -488,13 +498,15 @@ let
         "8FV2GyZr" = _8FV2GyZr;
         "qq5kPB5Z" = _qq5kPB5Z;
         "J8mZlX7X" = _J8mZlX7X;
+        "rxYHELTJ" = _rxYHELTJ;
+        "CvqmA5Q7" = _CvqmA5Q7;
         "fabric-1.21.4" = _RrlMlqMi;
         "fabric-1.21.5" = _KYdU75IL;
         "fabric-1.21.6" = _zzrZL9hO;
         "fabric-1.21.7" = _zzrZL9hO;
         "fabric-1.21.8" = _zzrZL9hO;
-        "fabric-1.21" = _J8mZlX7X;
-        "fabric-1.21.1" = _J8mZlX7X;
+        "fabric-1.21" = _CvqmA5Q7;
+        "fabric-1.21.1" = _CvqmA5Q7;
         "fabric-1.21.10" = _1fEb7vby;
         "fabric-1.21.11" = _qbeaBGEk;
         "fabric-26.1" = _ibzutGni;
@@ -508,8 +520,8 @@ let
         "neoforge-1.21.6" = _fvMTT0Xd;
         "neoforge-1.21.7" = _fvMTT0Xd;
         "neoforge-1.21.8" = _fvMTT0Xd;
-        "neoforge-1.21" = _qq5kPB5Z;
-        "neoforge-1.21.1" = _qq5kPB5Z;
+        "neoforge-1.21" = _rxYHELTJ;
+        "neoforge-1.21.1" = _rxYHELTJ;
         "neoforge-1.21.10" = _tu9aO5ZG;
         "neoforge-1.21.11" = _cnIizklO;
         "neoforge-26.1" = _xZYCvrTr;
@@ -539,7 +551,8 @@ let
         "pkg-0.6.1" = _UtDDJOhW;
         "pkg-0.4.7" = _8FV2GyZr;
         "pkg-0.4.8" = _J8mZlX7X;
-        "default" = _J8mZlX7X;
+        "pkg-0.4.9" = _CvqmA5Q7;
+        "default" = _CvqmA5Q7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fancy-entity-renderer";

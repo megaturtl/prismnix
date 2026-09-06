@@ -81,6 +81,26 @@ let
             "file" = "u_bahn_berlin_packV98-20260729-172224.zip";
             "hash" = "sha512-JwvA+kCjQebMek1n/INHjzTo/OyoePQ6jIK/hKQQ3TNKeKBbaTh8pUv0s0BON1j2XrnKGIW1KiVoChDdSqNkMA==";
         };
+        _yEYl6Sfb = {
+            "id" = "yEYl6Sfb";
+            "file" = "u_bahn_berlin_packv108-20260810-222524.zip";
+            "hash" = "sha512-0/Kaiz0OAIOjNW/YFXP9VG0xiewKgUY6GVAz2WkyS375XkUjMhto0Y8LHwCmc9AfN6jf4jK6RrG88oXjSNBZCQ==";
+        };
+        _C8fY7gFX = {
+            "id" = "C8fY7gFX";
+            "file" = "u_bahn_berlin_Großprofil_packV1-20260811-143155.zip";
+            "hash" = "sha512-8GGdJlKpHL5kthTRIxs6avn0Ekw5y2bMUDTCwmYwo3EXxyfGJ2EFTkFuOi3/TtGJ/diZYDV+cGnQOhft5fZlWg==";
+        };
+        _TchDRlcx = {
+            "id" = "TchDRlcx";
+            "file" = "u_bahn_berlin_großprofil_packV4-20260821-214336.zip";
+            "hash" = "sha512-4c90bpn49xCLwSC6Apcb9iqlrBfiwM7jkyyXYRSZgga9lfcYWB47g9kEtJEJyhWtJ5AtTg8/YEbXAcBrUg2vvg==";
+        };
+        _58wG9k2h = {
+            "id" = "58wG9k2h";
+            "file" = "u_bahn_berlin_großprofil_packV6-20260821-215726.zip";
+            "hash" = "sha512-BwH7nTz501rLRDspYeHVEaV7JDgjRzexbINqy0ZhvUNdTYSaGkYXZ/v0BvTbfXG5QIj1dUekYo/SV7UzzAXKsQ==";
+        };
     in {
         "SwBhyYGG" = _SwBhyYGG;
         "Hmz1jeUX" = _Hmz1jeUX;
@@ -98,30 +118,34 @@ let
         "eoI45Lkk" = _eoI45Lkk;
         "SjiToAiU" = _SjiToAiU;
         "m7CvsNAD" = _m7CvsNAD;
-        "minecraft-1.19" = _m7CvsNAD;
-        "minecraft-1.19.1" = _m7CvsNAD;
-        "minecraft-1.19.2" = _m7CvsNAD;
-        "minecraft-1.19.3" = _m7CvsNAD;
-        "minecraft-1.19.4" = _m7CvsNAD;
-        "minecraft-1.20" = _m7CvsNAD;
-        "minecraft-1.20.1" = _m7CvsNAD;
-        "minecraft-1.20.2" = _m7CvsNAD;
-        "minecraft-1.20.3" = _m7CvsNAD;
-        "minecraft-1.20.4" = _m7CvsNAD;
-        "minecraft-1.20.5" = _m7CvsNAD;
-        "minecraft-1.20.6" = _m7CvsNAD;
-        "minecraft-1.21" = _m7CvsNAD;
-        "minecraft-1.21.1" = _m7CvsNAD;
-        "minecraft-1.21.2" = _m7CvsNAD;
-        "minecraft-1.21.3" = _m7CvsNAD;
-        "minecraft-1.21.4" = _m7CvsNAD;
-        "minecraft-1.21.5" = _m7CvsNAD;
-        "minecraft-1.21.6" = _m7CvsNAD;
-        "minecraft-1.21.7" = _m7CvsNAD;
-        "minecraft-1.21.8" = _m7CvsNAD;
-        "minecraft-1.21.9" = _m7CvsNAD;
-        "minecraft-1.21.10" = _m7CvsNAD;
-        "minecraft-1.21.11" = _m7CvsNAD;
+        "yEYl6Sfb" = _yEYl6Sfb;
+        "C8fY7gFX" = _C8fY7gFX;
+        "TchDRlcx" = _TchDRlcx;
+        "58wG9k2h" = _58wG9k2h;
+        "minecraft-1.19" = _C8fY7gFX;
+        "minecraft-1.19.1" = _C8fY7gFX;
+        "minecraft-1.19.2" = _C8fY7gFX;
+        "minecraft-1.19.3" = _C8fY7gFX;
+        "minecraft-1.19.4" = _C8fY7gFX;
+        "minecraft-1.20" = _58wG9k2h;
+        "minecraft-1.20.1" = _58wG9k2h;
+        "minecraft-1.20.2" = _58wG9k2h;
+        "minecraft-1.20.3" = _58wG9k2h;
+        "minecraft-1.20.4" = _58wG9k2h;
+        "minecraft-1.20.5" = _58wG9k2h;
+        "minecraft-1.20.6" = _58wG9k2h;
+        "minecraft-1.21" = _58wG9k2h;
+        "minecraft-1.21.1" = _58wG9k2h;
+        "minecraft-1.21.2" = _58wG9k2h;
+        "minecraft-1.21.3" = _58wG9k2h;
+        "minecraft-1.21.4" = _58wG9k2h;
+        "minecraft-1.21.5" = _58wG9k2h;
+        "minecraft-1.21.6" = _58wG9k2h;
+        "minecraft-1.21.7" = _58wG9k2h;
+        "minecraft-1.21.8" = _58wG9k2h;
+        "minecraft-1.21.9" = _58wG9k2h;
+        "minecraft-1.21.10" = _58wG9k2h;
+        "minecraft-1.21.11" = _58wG9k2h;
         "minecraft-26.1" = _wGvbXBgF;
         "minecraft-26.1.1" = _wGvbXBgF;
         "minecraft-26.1.2" = _wGvbXBgF;
@@ -141,7 +165,11 @@ let
         "pkg-V1.15" = _eoI45Lkk;
         "pkg-V1.16" = _SjiToAiU;
         "pkg-V1.17" = _m7CvsNAD;
-        "default" = _m7CvsNAD;
+        "pkg-V1.18" = _yEYl6Sfb;
+        "pkg-V1.19" = _C8fY7gFX;
+        "pkg-V1.20" = _TchDRlcx;
+        "pkg-V1.21" = _58wG9k2h;
+        "default" = _58wG9k2h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "u-bahn-berlin-pack";

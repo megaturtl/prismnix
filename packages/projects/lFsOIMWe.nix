@@ -56,6 +56,11 @@ let
             "file" = "colored-lightning-1.0.9.jar";
             "hash" = "sha512-7Nm+UB3J4hDoOOXnRa0HmlqMjTwIa6yBC/bjWcWjwrVmLBPmXBCLuzNSH3sKts1AVoxdXL/ezc9sRgs9eHjCKQ==";
         };
+        _Jm5oxhpv = {
+            "id" = "Jm5oxhpv";
+            "file" = "colored-lightning-1.0.10.jar";
+            "hash" = "sha512-KuJ0zOw1+XmP67YwDfrzmzpR4Zd/38BXIiTpnTlKaQIzAR2omYBq4oxPuMa6B/F5vmjcdSGbFsWXYquyg483nw==";
+        };
     in {
         "QZG732ts" = _QZG732ts;
         "w1eZQ5so" = _w1eZQ5so;
@@ -68,6 +73,7 @@ let
         "MKtGUUME" = _MKtGUUME;
         "qsNtN5a4" = _qsNtN5a4;
         "i5gjMNLx" = _i5gjMNLx;
+        "Jm5oxhpv" = _Jm5oxhpv;
         "fabric-1.21.4" = _w1eZQ5so;
         "fabric-1.21.5" = _opD42k8G;
         "fabric-1.21.6" = _1p0bW6FN;
@@ -79,6 +85,7 @@ let
         "fabric-26.1" = _i5gjMNLx;
         "fabric-26.1.1" = _i5gjMNLx;
         "fabric-26.1.2" = _i5gjMNLx;
+        "fabric-26.2" = _Jm5oxhpv;
         "pkg-1.0.0" = _w1eZQ5so;
         "pkg-1.0.1" = _opD42k8G;
         "pkg-1.0.2" = _1p0bW6FN;
@@ -89,7 +96,8 @@ let
         "pkg-1.0.7" = _MKtGUUME;
         "pkg-1.0.8" = _qsNtN5a4;
         "pkg-1.0.9" = _i5gjMNLx;
-        "default" = _i5gjMNLx;
+        "pkg-1.0.10" = _Jm5oxhpv;
+        "default" = _Jm5oxhpv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "colored-lightning";

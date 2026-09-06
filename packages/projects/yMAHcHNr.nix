@@ -96,6 +96,11 @@ let
             "file" = "bluemap-custom-skin-server-2026.7.1.jar";
             "hash" = "sha512-D7227nzkEbQ7UORUa76ssSI5EmAO7lghb1Uw3NgaZGTRB5OYLTsrDh2PXk+PSI27fE8ukaSJCV1xsSTQNSpGlw==";
         };
+        _M8UDJcrr = {
+            "id" = "M8UDJcrr";
+            "file" = "bluemap-custom-skin-server-2026.8.1.jar";
+            "hash" = "sha512-40N2z5N8wJofLtXuZEJowMDrWLAmmBG0yGOtec0xTFqHM/eVDac9AUhx18umhedkkg+8bLYQgmBGi5wv3xwqrg==";
+        };
     in {
         "J0cTZOfN" = _J0cTZOfN;
         "9CKZ1DUl" = _9CKZ1DUl;
@@ -116,6 +121,7 @@ let
         "sNi37Zt2" = _sNi37Zt2;
         "WhpTNnB0" = _WhpTNnB0;
         "HSRpSwQj" = _HSRpSwQj;
+        "M8UDJcrr" = _M8UDJcrr;
         "fabric-1.19" = _lQQVFx8Y;
         "fabric-1.18" = _lQQVFx8Y;
         "fabric-1.18.1" = _lQQVFx8Y;
@@ -146,7 +152,7 @@ let
         "fabric-26.1" = _WhpTNnB0;
         "fabric-26.1.1" = _WhpTNnB0;
         "fabric-26.1.2" = _WhpTNnB0;
-        "fabric-26.2" = _HSRpSwQj;
+        "fabric-26.2" = _M8UDJcrr;
         "pkg-0.0.2" = _J0cTZOfN;
         "pkg-0.0.3" = _9CKZ1DUl;
         "pkg-0.0.4" = _MslCGkFD;
@@ -163,7 +169,8 @@ let
         "pkg-2026.4.1" = _4ot5Z2pY;
         "pkg-2026.6.1" = _sNi37Zt2;
         "pkg-2026.7.1" = _HSRpSwQj;
-        "default" = _HSRpSwQj;
+        "pkg-2026.8.1" = _M8UDJcrr;
+        "default" = _M8UDJcrr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bcss";

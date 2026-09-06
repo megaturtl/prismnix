@@ -91,6 +91,16 @@ let
             "file" = "ars_ocultas-1.21.1-2.5.0.jar";
             "hash" = "sha512-j/kU5ZyNnUE6KSNBp9WQ0zL/Lf5DbDcc1Sjako0hT76a0N5/W7P4hvx47kAu/iwBjQqDN64Qdlzc1blT60oPIA==";
         };
+        _I89cmehT = {
+            "id" = "I89cmehT";
+            "file" = "ars_ocultas-1.21.1-2.6.0.jar";
+            "hash" = "sha512-+EcsbfXrACGppd+AoClbaYsmj+gy74ty6SIu1w/DYYmAU0urPtwbCelc6M1fzBCyIcWw9UkYs+99uXDKoxcjUA==";
+        };
+        _FFn9Oxki = {
+            "id" = "FFn9Oxki";
+            "file" = "ars_ocultas-1.21.1-2.6.1.jar";
+            "hash" = "sha512-ic1nQC838qSeowMlcZCYkluqXGcbzVtNOdpJYj7c6De5bERA1I0+/K2XDif34E+NIjNBOLU0xi63tGbxvLTIrw==";
+        };
     in {
         "kZCJ8lBN" = _kZCJ8lBN;
         "XspUum9e" = _XspUum9e;
@@ -110,11 +120,13 @@ let
         "InCVH6Q9" = _InCVH6Q9;
         "jCboclxm" = _jCboclxm;
         "UUhx2xV8" = _UUhx2xV8;
+        "I89cmehT" = _I89cmehT;
+        "FFn9Oxki" = _FFn9Oxki;
         "forge-1.19.2" = _JCGP4gLC;
         "forge-1.20.1" = _si2iOQut;
         "neoforge-1.20.1" = _XspUum9e;
         "neoforge-1.21" = _QlAwJ5ef;
-        "neoforge-1.21.1" = _UUhx2xV8;
+        "neoforge-1.21.1" = _FFn9Oxki;
         "pkg-1.19.2-0.1.0" = _kZCJ8lBN;
         "pkg-1.20.1-1.0.0" = _XspUum9e;
         "pkg-1.0.1" = _NiUuMDIC;
@@ -133,7 +145,9 @@ let
         "pkg-1.21.1-2.4.0" = _InCVH6Q9;
         "pkg-1.21.1-2.4.1" = _jCboclxm;
         "pkg-1.21.1-2.5.0" = _UUhx2xV8;
-        "default" = _UUhx2xV8;
+        "pkg-1.21.1-2.6.0" = _I89cmehT;
+        "pkg-1.21.1-2.6.1" = _FFn9Oxki;
+        "default" = _FFn9Oxki;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ars-ocultas";

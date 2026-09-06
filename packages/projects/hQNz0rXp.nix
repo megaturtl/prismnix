@@ -107,6 +107,7 @@ let
         "datapack-26.1" = _wnU3WPGb;
         "datapack-26.1.1" = _wnU3WPGb;
         "datapack-26.1.2" = _wnU3WPGb;
+        "datapack-26.2" = _wnU3WPGb;
         "fabric-1.16" = _JbH1mkL5;
         "fabric-1.16.1" = _JbH1mkL5;
         "fabric-1.16.2" = _JbH1mkL5;
@@ -145,6 +146,7 @@ let
         "fabric-26.1" = _m09YtpMU;
         "fabric-26.1.1" = _m09YtpMU;
         "fabric-26.1.2" = _m09YtpMU;
+        "fabric-26.2" = _m09YtpMU;
         "forge-1.16" = _JbH1mkL5;
         "forge-1.16.1" = _JbH1mkL5;
         "forge-1.16.2" = _JbH1mkL5;
@@ -183,6 +185,7 @@ let
         "forge-26.1" = _m09YtpMU;
         "forge-26.1.1" = _m09YtpMU;
         "forge-26.1.2" = _m09YtpMU;
+        "forge-26.2" = _m09YtpMU;
         "quilt-1.16" = _JbH1mkL5;
         "quilt-1.16.1" = _JbH1mkL5;
         "quilt-1.16.2" = _JbH1mkL5;
@@ -221,6 +224,7 @@ let
         "quilt-26.1" = _m09YtpMU;
         "quilt-26.1.1" = _m09YtpMU;
         "quilt-26.1.2" = _m09YtpMU;
+        "quilt-26.2" = _m09YtpMU;
         "neoforge-1.21.2" = _vHG9ej6S;
         "neoforge-1.21.3" = _vHG9ej6S;
         "neoforge-1.21.4" = _vHG9ej6S;
@@ -236,6 +240,7 @@ let
         "neoforge-26.1" = _m09YtpMU;
         "neoforge-26.1.1" = _m09YtpMU;
         "neoforge-26.1.2" = _m09YtpMU;
+        "neoforge-26.2" = _m09YtpMU;
         "pkg-1.0" = _YRzMTFLG;
         "pkg-1.0+mod" = _JbH1mkL5;
         "pkg-2.0+mod" = _dpLjGp7N;

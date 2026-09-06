@@ -86,6 +86,11 @@ let
             "file" = "dungeons_enhanced-1.21.4-6.3.0.jar";
             "hash" = "sha512-cRa5r6/g+fYsfhZCVlfw3WuEd0jTjIShc2Spur5nl8gOljlw2g/yIOu0Z+ij7JfQu+S6mRERV3sv0X0sKGQ/YA==";
         };
+        _1Jy7JOUL = {
+            "id" = "1Jy7JOUL";
+            "file" = "dungeons_enhanced-26.1.2-6.4.0.jar";
+            "hash" = "sha512-3Zf7PHyqurQ9XTNzLYJ+QodXewly7QWrNSASP5h9TwoOxoegv3Hz0ZQ1XgU5cSIJLKmkRfGO3NMWY1hjcvCaEA==";
+        };
     in {
         "66cAwP4r" = _66cAwP4r;
         "RgfzUITW" = _RgfzUITW;
@@ -104,10 +109,12 @@ let
         "hPBrGib0" = _hPBrGib0;
         "9SSVYA1L" = _9SSVYA1L;
         "3cYpQ5Nv" = _3cYpQ5Nv;
+        "1Jy7JOUL" = _1Jy7JOUL;
         "forge-1.20.1" = _9SSVYA1L;
         "forge-1.16.5" = _chJudbKV;
         "neoforge-1.20.4" = _OcCoB4xo;
         "neoforge-1.21.4" = _3cYpQ5Nv;
+        "neoforge-26.1.2" = _1Jy7JOUL;
         "pkg-5.2.2" = _66cAwP4r;
         "pkg-5.3" = _RgfzUITW;
         "pkg-1.8.2" = _8lJ2AxbL;
@@ -125,7 +132,8 @@ let
         "pkg-6.2.0" = _hPBrGib0;
         "pkg-5.4.3" = _9SSVYA1L;
         "pkg-6.3.0" = _3cYpQ5Nv;
-        "default" = _3cYpQ5Nv;
+        "pkg-6.4.0" = _1Jy7JOUL;
+        "default" = _1Jy7JOUL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dungeons-enhanced";
@@ -133,13 +141,13 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "MIT" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "MIT License";
-                shortName = "MIT";
-                url = "https://github.com/BarionLP/DungeonsEnhanced/blob/master/LICENSE.txt";
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = "https://github.com/Ametrin-Studios/DungeonsEnhanced/blob/main/LICENSE";
             };
         };
     };

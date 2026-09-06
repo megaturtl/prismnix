@@ -146,6 +146,46 @@ let
             "file" = "twilight_lib-1.20.1-forge-dev260626a.jar";
             "hash" = "sha512-jDkuYWSZHjozLHyvOGze7E+CJkiy9dkfFi/o9mZfMT2JcpqvRsxuxNvhws+kY2SHZe2kEg9rxIBW8i84a6v/5Q==";
         };
+        _HPY0hKzp = {
+            "id" = "HPY0hKzp";
+            "file" = "twilight_lib-1.21.1-fabric-dev260818a.jar";
+            "hash" = "sha512-hwMomyOk3bndAxCclRrn21iODqAG2ge95K/iw1z8zlZr3GJvCWl46V+2EdaDfV3TIphJcLAF5U7svTKiHn3THg==";
+        };
+        _I5R5sJYI = {
+            "id" = "I5R5sJYI";
+            "file" = "twilight_lib-1.21.1-neoforge-dev260818a.jar";
+            "hash" = "sha512-n2soU7GL7gXet4wJAi6Mloh+TzHtM1a/UrQn3sWyNiugw7WPkcSt0vr05gtzmhfxQXYr754UFo4SRyT1tQrGmQ==";
+        };
+        _xX1I0thH = {
+            "id" = "xX1I0thH";
+            "file" = "twilight_lib-1.20.1-fabric-dev260818a.jar";
+            "hash" = "sha512-fzxBeJPdHICjvilvYwixqoFGaWSkuGuHgcZfi80ZQ3IAd43F6rHUKHEWHheP4z4vEVIcY72kOOfq4Ttruu6ecQ==";
+        };
+        _q4lXmeYt = {
+            "id" = "q4lXmeYt";
+            "file" = "twilight_lib-1.20.1-forge-dev260818a.jar";
+            "hash" = "sha512-iYB8oRKyVP+Wh1hv/1QyeR4RKHevQy5gHODLjHmZYTNRjM6lYZIuxTyB98fBnTUpwdLK34/73bLkjXefpqCM0g==";
+        };
+        _SaYwxlHe = {
+            "id" = "SaYwxlHe";
+            "file" = "twilight_lib-1.21.1-fabric-dev260819a.jar";
+            "hash" = "sha512-ZF6AVyJHTmDSyveOwwm6i8ZB2wUVs0EPkQcbONQWba9Fj7XMTOXPbnUHjN9nixjI9QMnVObbSIPCB13NJJbkfA==";
+        };
+        _Z9pjBV8M = {
+            "id" = "Z9pjBV8M";
+            "file" = "twilight_lib-1.21.1-neoforge-dev260819a.jar";
+            "hash" = "sha512-NR9MCiVT4a3srrHn3NTvjUixB04hn0qwuiiMJ+YUWmvy8ao/xfhkN5/3/bvoQgyk1XFCpXteJq+jI44NaCbX+Q==";
+        };
+        _odbxB1aw = {
+            "id" = "odbxB1aw";
+            "file" = "twilight_lib-1.20.1-fabric-dev260819a.jar";
+            "hash" = "sha512-pmu6Xrw2+1ZUTuXk1hb+1IiEKw3eRbkn5X+paXv6zyainePIaxoSCb1lQYRo+uesAWygIAAxOkJgf3HnuxUFzg==";
+        };
+        _CIhSyz3E = {
+            "id" = "CIhSyz3E";
+            "file" = "twilight_lib-1.20.1-forge-dev260819a.jar";
+            "hash" = "sha512-6pxoBlOmb4guav9e/Y2dlwZd6ilID8tzhSTM4FPH86+T4qs6Hl+GxX7qwFChYgBAzaXf9drpNSDDR4bkMAGnVQ==";
+        };
     in {
         "mTTzkGUN" = _mTTzkGUN;
         "gKbVvOta" = _gKbVvOta;
@@ -176,15 +216,23 @@ let
         "AGcscsND" = _AGcscsND;
         "CjdexggR" = _CjdexggR;
         "vPId7XmQ" = _vPId7XmQ;
+        "HPY0hKzp" = _HPY0hKzp;
+        "I5R5sJYI" = _I5R5sJYI;
+        "xX1I0thH" = _xX1I0thH;
+        "q4lXmeYt" = _q4lXmeYt;
+        "SaYwxlHe" = _SaYwxlHe;
+        "Z9pjBV8M" = _Z9pjBV8M;
+        "odbxB1aw" = _odbxB1aw;
+        "CIhSyz3E" = _CIhSyz3E;
         "forge-1.19.2" = _U1e2aQCz;
         "forge-1.19.4" = _oZEUScCT;
-        "forge-1.20.1" = _vPId7XmQ;
-        "neoforge-1.20.1" = _vPId7XmQ;
+        "forge-1.20.1" = _CIhSyz3E;
+        "neoforge-1.20.1" = _CIhSyz3E;
         "neoforge-1.20.4" = _Sgc2CNxs;
         "neoforge-1.20.6" = _EELy1yjK;
-        "neoforge-1.21.1" = _AGcscsND;
-        "fabric-1.20.1" = _CjdexggR;
-        "fabric-1.21.1" = _pkLz71ht;
+        "neoforge-1.21.1" = _Z9pjBV8M;
+        "fabric-1.20.1" = _odbxB1aw;
+        "fabric-1.21.1" = _SaYwxlHe;
         "pkg-1.1.0.0" = _njb7RYUf;
         "pkg-1.1.1.1" = _XoiesgbT;
         "pkg-dev251106a" = _BuMKS6kv;
@@ -194,7 +242,9 @@ let
         "pkg-dev260127a" = _WTS1ZQMS;
         "pkg-dev260620a" = _k248H0wp;
         "pkg-dev260626a" = _vPId7XmQ;
-        "default" = _vPId7XmQ;
+        "pkg-dev260818a" = _q4lXmeYt;
+        "pkg-dev260819a" = _CIhSyz3E;
+        "default" = _CIhSyz3E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "twilight-lib";

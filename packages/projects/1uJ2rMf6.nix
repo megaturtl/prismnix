@@ -11,13 +11,20 @@ let
             "file" = "create_alexscaves_compat-1.20.1-1.6.1.jar";
             "hash" = "sha512-0jupHpCRUPwrTVPUf6xEYwlMbd4x0ue8t3AsXhuym+V26YeT7clnSK04Ncaoxzm3LOXUz8z4OqZbagAuyptZaA==";
         };
+        _aqpInCWh = {
+            "id" = "aqpInCWh";
+            "file" = "create_alexscaves_compat-1.20.1-1.6.2.jar";
+            "hash" = "sha512-yf4kcpIyrkQ5kWdYEujc0mBw7YY5vjOnoHPgoYsUltP9ewlIm2CUxyngqGkJWfFfbasNmNFgxp0ywg/aSAomnQ==";
+        };
     in {
         "dvkEnPVH" = _dvkEnPVH;
         "5ua7xchH" = _5ua7xchH;
-        "forge-1.20.1" = _5ua7xchH;
+        "aqpInCWh" = _aqpInCWh;
+        "forge-1.20.1" = _aqpInCWh;
         "pkg-1.6.0" = _dvkEnPVH;
         "pkg-1.6.1" = _5ua7xchH;
-        "default" = _5ua7xchH;
+        "pkg-1.6.2" = _aqpInCWh;
+        "default" = _aqpInCWh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-alexs-caves-compat";

@@ -26,20 +26,27 @@ let
             "file" = "me-war-2.0.0+1.21.8.jar";
             "hash" = "sha512-Xn3XRp6rO8vZXGdOJeP0KG83m43uSMa4Mn1M+T9cDd8kw0B8MpJSW1NQtdVrYEIjhC/t2fYg6Eh+IIwBzWOn0Q==";
         };
+        _uocbIuaf = {
+            "id" = "uocbIuaf";
+            "file" = "me-war-2.1.0+1.21.8.jar";
+            "hash" = "sha512-nKmCtBvw5ce8RHaYm7kJs9exe44EhJ90Ofw+edcC9HHetpt3ClaazlY5nu6pKGJrkFLc27WUY6EGZNvyEbUKHg==";
+        };
     in {
         "eolU30FP" = _eolU30FP;
         "mKkb0dbS" = _mKkb0dbS;
         "E9h46h1V" = _E9h46h1V;
         "wryZ7k0o" = _wryZ7k0o;
         "GXhpODCg" = _GXhpODCg;
+        "uocbIuaf" = _uocbIuaf;
         "fabric-1.21.1" = _wryZ7k0o;
-        "fabric-1.21.8" = _GXhpODCg;
+        "fabric-1.21.8" = _uocbIuaf;
         "pkg-1.0.0" = _eolU30FP;
         "pkg-1.0.1" = _mKkb0dbS;
         "pkg-1.1.1" = _E9h46h1V;
         "pkg-1.8.1" = _wryZ7k0o;
         "pkg-2.0.0+1.21.8" = _GXhpODCg;
-        "default" = _GXhpODCg;
+        "pkg-2.1.0+1.21.8" = _uocbIuaf;
+        "default" = _uocbIuaf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "middle-earth-additions-war";

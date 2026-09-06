@@ -36,6 +36,11 @@ let
             "file" = "subanuticaafterzero.jar";
             "hash" = "sha512-9OPJvlCp2lOwFK8gYCjvI/hvvdpVVn+dhzGRKM+DPJ5OJ48RL9GT9BKg21MO0OXS3jUGrqzKXxR2tsQtwWFF4g==";
         };
+        _Uk9twCFL = {
+            "id" = "Uk9twCFL";
+            "file" = "subanuticaafterzero.jar";
+            "hash" = "sha512-2p9lRIGj6Zaocz022fx5teAgkh1/r1ziw9S9RQ7l3Plze+iaRUtHEVItLAZubGTIWtQXg8j6ke5fu2N+h5mYDA==";
+        };
     in {
         "Jh656f6k" = _Jh656f6k;
         "Uwn3EOhC" = _Uwn3EOhC;
@@ -44,15 +49,17 @@ let
         "lJkXpU1N" = _lJkXpU1N;
         "TRo7XXIi" = _TRo7XXIi;
         "mDcJuWx5" = _mDcJuWx5;
+        "Uk9twCFL" = _Uk9twCFL;
         "neoforge-1.21.1" = _TRo7XXIi;
         "neoforge-1.21.4" = _QaSRCEbj;
         "neoforge-1.21.8" = _mDcJuWx5;
+        "neoforge-26.1.2" = _Uk9twCFL;
         "pkg-ACT_1a" = _Jh656f6k;
         "pkg-ACT_1b" = _Uwn3EOhC;
         "pkg-ACT_1c" = _QaSRCEbj;
         "pkg-Act_1d" = _lJkXpU1N;
-        "pkg-Act_1e" = _mDcJuWx5;
-        "default" = _mDcJuWx5;
+        "pkg-Act_1e" = _Uk9twCFL;
+        "default" = _Uk9twCFL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "subnautica-after-zero";

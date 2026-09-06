@@ -16,15 +16,21 @@ let
             "file" = "ec_isasb_plugin-1.21.1-1.0.1.jar";
             "hash" = "sha512-6yDSvypjv46z/wVq+FsGQ32tE5rvFP99JEt/z3VqboasgTMnAEQyX0gd2CCPdb1/wtEZ+t2BKEMm01D4cdXJUA==";
         };
+        _J6Ef71cJ = {
+            "id" = "J6Ef71cJ";
+            "file" = "ec_isasb_plugin-1.20.1-1.0.1-all.jar";
+            "hash" = "sha512-I+b/qOngL6KK1zivVd8v8xCTUmdwhfs1/8jh1qHcBuXPNNHykhZAYaIhliSn3hE0qTWUangsE033nQ/CBxq+Vg==";
+        };
     in {
         "OzoWZAUM" = _OzoWZAUM;
         "kwPh8jcM" = _kwPh8jcM;
         "FkGsX3wo" = _FkGsX3wo;
-        "forge-1.20.1" = _OzoWZAUM;
+        "J6Ef71cJ" = _J6Ef71cJ;
+        "forge-1.20.1" = _J6Ef71cJ;
         "neoforge-1.21.1" = _FkGsX3wo;
         "pkg-1.0.0" = _kwPh8jcM;
-        "pkg-1.0.1" = _FkGsX3wo;
-        "default" = _FkGsX3wo;
+        "pkg-1.0.1" = _J6Ef71cJ;
+        "default" = _J6Ef71cJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ec-irons-spells-compat";

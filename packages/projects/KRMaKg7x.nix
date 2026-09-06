@@ -61,6 +61,11 @@ let
             "file" = "Color Enchantment.zip";
             "hash" = "sha512-l7e+i6lZeDn8aJs62hCwxay3JtaImI46LPXwiCNdOPLa4fF5YA2OBA7lAPw7RqNVPYovQwr5hL/55VqLzw+Csg==";
         };
+        _a6TgTe5N = {
+            "id" = "a6TgTe5N";
+            "file" = "Color Enchantment.zip";
+            "hash" = "sha512-xPFF4yaE6Su1hES+WkW3UVDc9oQH4Br6QN0UpBisaJqnGYkx41mEKrP2InZgTDHvf+Q+DWCj0C5rRd2cvW+niA==";
+        };
     in {
         "PuhrjefE" = _PuhrjefE;
         "oEn6YM2g" = _oEn6YM2g;
@@ -74,6 +79,7 @@ let
         "gYm4tfpx" = _gYm4tfpx;
         "mucfI6Uj" = _mucfI6Uj;
         "5HCJHrbJ" = _5HCJHrbJ;
+        "a6TgTe5N" = _a6TgTe5N;
         "minecraft-1.20.2" = _PuhrjefE;
         "minecraft-1.20.3" = _oEn6YM2g;
         "minecraft-1.20.4" = _oEn6YM2g;
@@ -94,6 +100,7 @@ let
         "minecraft-26.1" = _5HCJHrbJ;
         "minecraft-26.1.1" = _5HCJHrbJ;
         "minecraft-26.1.2" = _5HCJHrbJ;
+        "minecraft-26.2" = _a6TgTe5N;
         "pkg-1.4" = _qI6uoWuy;
         "pkg-1.5" = _XHIfwfD0;
         "pkg-1.6" = _L4O68mRg;
@@ -101,8 +108,8 @@ let
         "pkg-1.8" = _tXiN2lQc;
         "pkg-1.9" = _SAbVWGfq;
         "pkg-1.10" = _gYm4tfpx;
-        "pkg-1.11" = _5HCJHrbJ;
-        "default" = _5HCJHrbJ;
+        "pkg-1.11" = _a6TgTe5N;
+        "default" = _a6TgTe5N;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "color-enchantment";

@@ -80,7 +80,7 @@ let
         "default" = _r6gTjHol;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
-        name = "f1-2026-boat";
+        name = "f1-2026-boat-16x";
         id = "GWxP5CV1";
         type = "resourcepack";
         versions = versions;

@@ -161,6 +161,16 @@ let
             "file" = "lively-mons-1.10.1.jar";
             "hash" = "sha512-XVf+8SulyVzVXI5X63b3DST6xigh1IYJfRPteZKffWRKMdyAVtFHCgygWbu7zyl3B7Pt8Zgau9+uaoWEOQEK1Q==";
         };
+        _bMsYAUfz = {
+            "id" = "bMsYAUfz";
+            "file" = "Cobblemon Fakemon Lively 'Mons 1.11.zip";
+            "hash" = "sha512-AvjCAbxWKicHmecIh+/XDl3mbHI6fVjQhvExBQBpHXhCUbpmK/ourwtgxFGQMj0iOPAobRp17J4Rla/yhjT8bQ==";
+        };
+        _szLnj8q9 = {
+            "id" = "szLnj8q9";
+            "file" = "lively-mons-1.11.jar";
+            "hash" = "sha512-37pF3fTqBGfpQx+atAWNaUOVOu0meqFkj71E5EMMTnSdRYPp2m8l+In8fssx+zlKR0450AINt8yCvtMkwyKKdA==";
+        };
     in {
         "NEt8jtnm" = _NEt8jtnm;
         "9uHTpeOh" = _9uHTpeOh;
@@ -194,13 +204,15 @@ let
         "nVEG2xRl" = _nVEG2xRl;
         "PmMZKPZR" = _PmMZKPZR;
         "3gEXkAHA" = _3gEXkAHA;
+        "bMsYAUfz" = _bMsYAUfz;
+        "szLnj8q9" = _szLnj8q9;
         "datapack-1.20.1" = _ONBtVPgm;
-        "datapack-1.21.1" = _PmMZKPZR;
-        "minecraft-1.21.1" = _PmMZKPZR;
-        "fabric-1.21.1" = _3gEXkAHA;
-        "forge-1.21.1" = _3gEXkAHA;
-        "neoforge-1.21.1" = _3gEXkAHA;
-        "quilt-1.21.1" = _3gEXkAHA;
+        "datapack-1.21.1" = _bMsYAUfz;
+        "minecraft-1.21.1" = _bMsYAUfz;
+        "fabric-1.21.1" = _szLnj8q9;
+        "forge-1.21.1" = _szLnj8q9;
+        "neoforge-1.21.1" = _szLnj8q9;
+        "quilt-1.21.1" = _szLnj8q9;
         "pkg-1.0" = _NEt8jtnm;
         "pkg-1.1" = _9uHTpeOh;
         "pkg-1.1.1" = _rlc2UgVv;
@@ -233,7 +245,9 @@ let
         "pkg-1.10+mod" = _nVEG2xRl;
         "pkg-1.10.1" = _PmMZKPZR;
         "pkg-1.10.1+mod" = _3gEXkAHA;
-        "default" = _3gEXkAHA;
+        "pkg-1.11" = _bMsYAUfz;
+        "pkg-1.11+mod" = _szLnj8q9;
+        "default" = _szLnj8q9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lively-mons";

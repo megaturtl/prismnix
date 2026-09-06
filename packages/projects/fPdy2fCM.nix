@@ -146,6 +146,11 @@ let
             "file" = "baubley-heart-canisters-1.21.1-1.4.1.jar";
             "hash" = "sha512-CpYDpO00nFfPGCcpUmPMPK1EOt2kAAwCFAQnaV8KznWMfPcVzSTehpvo99PGVIe/SxQIBD3Dc3qnPOKbh+vtKQ==";
         };
+        _4Wb169yJ = {
+            "id" = "4Wb169yJ";
+            "file" = "baubley-heart-canisters-26.2-1.8.0.jar";
+            "hash" = "sha512-/vZb6y0WQJAH0z178HjzG4TmjPGpaPgyVBPESNH+b8y/0zwdHP32QcY4+YjB+Kke8isW2qEGHPQk9wFwHjkBYA==";
+        };
     in {
         "RE8sebWp" = _RE8sebWp;
         "WMoNweFE" = _WMoNweFE;
@@ -176,6 +181,7 @@ let
         "kknc1dPw" = _kknc1dPw;
         "h2Ip8yE1" = _h2Ip8yE1;
         "IUFCVcX3" = _IUFCVcX3;
+        "4Wb169yJ" = _4Wb169yJ;
         "forge-1.19.2" = _DUmuom0I;
         "forge-1.20" = _mlJu40bw;
         "forge-1.20.1" = _DHWGsQDA;
@@ -193,6 +199,7 @@ let
         "neoforge-26.1" = _h2Ip8yE1;
         "neoforge-26.1.1" = _h2Ip8yE1;
         "neoforge-26.1.2" = _h2Ip8yE1;
+        "neoforge-26.2" = _4Wb169yJ;
         "pkg-1.19.2-2.0.0" = _RE8sebWp;
         "pkg-1.20.1-1.0.2" = _WMoNweFE;
         "pkg-1.19.2-2.1.0" = _zcgLCGJK;
@@ -222,7 +229,8 @@ let
         "pkg-26.1.2-1.7.2" = _kknc1dPw;
         "pkg-26.1.2-1.7.3" = _h2Ip8yE1;
         "pkg-1.21.1-1.4.1" = _IUFCVcX3;
-        "default" = _IUFCVcX3;
+        "pkg-26.2-1.8.0" = _4Wb169yJ;
+        "default" = _4Wb169yJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "baubley-heart-canisters";

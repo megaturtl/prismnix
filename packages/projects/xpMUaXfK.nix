@@ -406,6 +406,71 @@ let
             "file" = "turnbattle-1.5.45-1.21.1.jar";
             "hash" = "sha512-EzIb+Sixrm8QZN8SgY3m+Q+DoSp4quAA+uEADWYT+7IOauQtbuCgHH1zPpfkLiG5qfulBEF2YkXA1AlAzc2f4Q==";
         };
+        _BZcxzLlv = {
+            "id" = "BZcxzLlv";
+            "file" = "turnbattle-1.5.46-1.21.1.jar";
+            "hash" = "sha512-XG6/j8AaZaz5TGBJS5H2D81whKfCQ8SSe0N2vwWhqxiN11V1+O7LQ0A611NIMD9GrBEWvHQDG9h0U3CpNRhKKQ==";
+        };
+        _Ao3sBIvS = {
+            "id" = "Ao3sBIvS";
+            "file" = "turnbattle-1.5.47-1.21.1.jar";
+            "hash" = "sha512-2nfKWgACp8i+PCfXeDKsu7+gX/gVxvVk/LdKx+M+rPkb31ACwaqKFyA9syCmuAvYNA7acBtihE8BhU+xip6Slw==";
+        };
+        _xP590a5F = {
+            "id" = "xP590a5F";
+            "file" = "turnbattle-1.5.48-1.21.1.jar";
+            "hash" = "sha512-4u9gHD3hjgyp+pLKVl5bCYhQRNLZ0lXrfJJJRO9BbFjTEm4ieGtu+Cqa+wh5w54bRe9VjMphVfTdgUHH6u4HRQ==";
+        };
+        _8iAUhV1t = {
+            "id" = "8iAUhV1t";
+            "file" = "turnbattle-1.6.0-beta-dwtest11.jar";
+            "hash" = "sha512-H0i/ozE8y8285TQlV22bnaHGd0TIJsYdSYlpwTyRH8N/6qzwgED2/2U2NsyVV+4bsmhASx/wfXXJfsQNDVgReg==";
+        };
+        _mBcfBL4Z = {
+            "id" = "mBcfBL4Z";
+            "file" = "turnbattle-1.6.0-beta2.jar";
+            "hash" = "sha512-s/RGZMPWkx9xXP+ir5qGclbO+65la5ypHyxZtn9Ng4/0hElyvCFmK60ixTFPtEf/LRGg6wClPwUTUlcaK5b4Bw==";
+        };
+        _Gqabg0fD = {
+            "id" = "Gqabg0fD";
+            "file" = "turnbattle-1.6.0-beta3.jar";
+            "hash" = "sha512-kNIMItf2eR9un3ih41760aRC7aFPO94BQx0hHmux7zFrMQmB03v2VzzMGtEa7/vJtMkXSCmYF6jlkE5jUqB98g==";
+        };
+        _iR8suCmc = {
+            "id" = "iR8suCmc";
+            "file" = "turnbattle-1.6.0-beta4.jar";
+            "hash" = "sha512-WZceudhsifsxjqFS5cjWeD5to4JLhL7szkfd6s5MTybErFE/RoQUikDe+XaqA7LUImirHdQJGmteNU/aBvhy5A==";
+        };
+        _qfCszRJ4 = {
+            "id" = "qfCszRJ4";
+            "file" = "turnbattle-1.6.0-beta5.jar";
+            "hash" = "sha512-O9EoXsAAOTVCpA706lKWXbpe+ssFnLVPksb7EW7ql2fcqgh+vE6HZZ/RyFxgIIPO1W3D3vAMp2nRkq90QHMalg==";
+        };
+        _4hPO2V3p = {
+            "id" = "4hPO2V3p";
+            "file" = "turnbattle-1.6.0-beta6.jar";
+            "hash" = "sha512-hc+3SA8T/eFtg7xIfsbVDsUG9nl57Ycgx8bf2W30ohLGBQlstE6/xNWZHHYK3baMBOUSSu0meunWTKQi52ve2g==";
+        };
+        _fbtEIXkq = {
+            "id" = "fbtEIXkq";
+            "file" = "turnbattle-1.6.0-beta7.jar";
+            "hash" = "sha512-IBxgewn8+QNSarE2KZc0dkkMvxx6YQeqDBr1NXZu6TpLuKU2pkCgNu8mBq5Uljc+bildR2dk8xYrlC4vLcogjg==";
+        };
+        _PfIWNqRF = {
+            "id" = "PfIWNqRF";
+            "file" = "turnbattle-1.6.0-beta8.jar";
+            "hash" = "sha512-62PS7Y58UjTAmxDMlmJJxukBq930FBDA/0+TVDDLBDsoM+U7la3WDezHCwR0uTTc3f3PB4QZRfG2nCUwkJwwKw==";
+        };
+        _XLq3CFog = {
+            "id" = "XLq3CFog";
+            "file" = "turnbattle-1.6.0-beta9.jar";
+            "hash" = "sha512-W69l8rdz7QL+ff+p8R8aaSONnfWzxI4I/4/W5Fokbw8Ujsf2/oT5aS8RYmH5TjQrilDnxUYV7/0n2ROaXxe+Gg==";
+        };
+        _DQGxPeUo = {
+            "id" = "DQGxPeUo";
+            "file" = "turnbattle-1.6.0-beta10.jar";
+            "hash" = "sha512-qX/tlOAvBEIxROYaY0b8aZrLVxJjynVCOZbQxsJx07j4BXyaXybd511QzrJiQbyWjBgYnQ+LdwYOXvzxqh4QaA==";
+        };
     in {
         "p3YiWU15" = _p3YiWU15;
         "3ACyHjtD" = _3ACyHjtD;
@@ -488,8 +553,21 @@ let
         "T2XKjWqu" = _T2XKjWqu;
         "riuYfw9O" = _riuYfw9O;
         "URBPPXy3" = _URBPPXy3;
+        "BZcxzLlv" = _BZcxzLlv;
+        "Ao3sBIvS" = _Ao3sBIvS;
+        "xP590a5F" = _xP590a5F;
+        "8iAUhV1t" = _8iAUhV1t;
+        "mBcfBL4Z" = _mBcfBL4Z;
+        "Gqabg0fD" = _Gqabg0fD;
+        "iR8suCmc" = _iR8suCmc;
+        "qfCszRJ4" = _qfCszRJ4;
+        "4hPO2V3p" = _4hPO2V3p;
+        "fbtEIXkq" = _fbtEIXkq;
+        "PfIWNqRF" = _PfIWNqRF;
+        "XLq3CFog" = _XLq3CFog;
+        "DQGxPeUo" = _DQGxPeUo;
         "fabric-1.20.1" = _nadHIqFG;
-        "fabric-1.21.1" = _URBPPXy3;
+        "fabric-1.21.1" = _DQGxPeUo;
         "pkg-1.3.12" = _p3YiWU15;
         "pkg-1.3.15" = _3ACyHjtD;
         "pkg-1.3.16" = _AG8qDeiS;
@@ -567,7 +645,20 @@ let
         "pkg-1.5.43-1.21.1" = _T2XKjWqu;
         "pkg-1.5.44-1.21.1" = _riuYfw9O;
         "pkg-1.5.45-1.21.1" = _URBPPXy3;
-        "default" = _URBPPXy3;
+        "pkg-1.5.46-1.21.1" = _BZcxzLlv;
+        "pkg-1.5.47-1.21.1" = _Ao3sBIvS;
+        "pkg-1.5.48-1.21.1" = _xP590a5F;
+        "pkg-1.6.0-beta-dwtest11" = _8iAUhV1t;
+        "pkg-1.6.0-beta2" = _mBcfBL4Z;
+        "pkg-1.6.0-beta3" = _Gqabg0fD;
+        "pkg-1.6.0-beta4" = _iR8suCmc;
+        "pkg-1.6.0-beta5" = _qfCszRJ4;
+        "pkg-1.6.0-beta6" = _4hPO2V3p;
+        "pkg-1.6.0-beta7" = _fbtEIXkq;
+        "pkg-1.6.0-beta8" = _PfIWNqRF;
+        "pkg-1.6.0-beta9" = _XLq3CFog;
+        "pkg-1.6.0-beta10" = _DQGxPeUo;
+        "default" = _DQGxPeUo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "soulbound-turnbattle";

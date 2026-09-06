@@ -226,6 +226,16 @@ let
             "file" = "CMDCam_NEOFORGE_v2.2.7_mc26.2.jar";
             "hash" = "sha512-CkwLTN+/VsRy07lvO4WKC5Y8SgncXm2evu08HBoZcsukromF4hTnDs2OC0scjwRoAayf2t5B+5uEuMtoDRmAbA==";
         };
+        _p1C7Do8m = {
+            "id" = "p1C7Do8m";
+            "file" = "CMDCam_NEOFORGE_v2.2.8_mc26.2.jar";
+            "hash" = "sha512-2Td7MNYk7oKAKWfzu0nrgHmFpye5qoWkv9MQOAnbRHcs3pBkUa/LpsOarKC6Csll8VDIVXi/fjvuUQpWWsGdLw==";
+        };
+        _t5cRtPsr = {
+            "id" = "t5cRtPsr";
+            "file" = "CMDCam_NEOFORGE_v2.2.9_mc26.2.jar";
+            "hash" = "sha512-UbJO3YZN252zUh/TUOoQCSfS41ZEib36vzkSxMSX2B/JfiMidAe8VKAFx5XDlMEIZCfHoxYw12Fv6tS0DgqdIg==";
+        };
     in {
         "7lNBUnNE" = _7lNBUnNE;
         "GbhJofTY" = _GbhJofTY;
@@ -272,6 +282,8 @@ let
         "438WR7i9" = _438WR7i9;
         "RYWnbMwO" = _RYWnbMwO;
         "NsLFf0N7" = _NsLFf0N7;
+        "p1C7Do8m" = _p1C7Do8m;
+        "t5cRtPsr" = _t5cRtPsr;
         "forge-1.18.2" = _9eGKfwxF;
         "forge-1.19.2" = _FeVeKmKI;
         "forge-1.19.3" = _PJApOW1L;
@@ -295,7 +307,7 @@ let
         "neoforge-1.21.11" = _YUmiKpas;
         "neoforge-26.1" = _438WR7i9;
         "neoforge-26.1.2" = _RYWnbMwO;
-        "neoforge-26.2" = _NsLFf0N7;
+        "neoforge-26.2" = _t5cRtPsr;
         "pkg-2.0.15" = _DsGTTkDv;
         "pkg-2.0.16" = _PJApOW1L;
         "pkg-2.0.17" = _HJsR4D91;
@@ -315,8 +327,9 @@ let
         "pkg-2.2.5" = _pHM30iSL;
         "pkg-2.2.6" = _OJpQqLOu;
         "pkg-2.2.7" = _NsLFf0N7;
-        "pkg-2.2.8" = _gnOLADrt;
-        "default" = _NsLFf0N7;
+        "pkg-2.2.8" = _p1C7Do8m;
+        "pkg-2.2.9" = _t5cRtPsr;
+        "default" = _t5cRtPsr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cmdcam";

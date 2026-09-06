@@ -9,6 +9,21 @@ let
     in {
         "ANiKEuWB" = _ANiKEuWB;
         "minecraft-1.21" = _ANiKEuWB;
+        "minecraft-1.21.1" = _ANiKEuWB;
+        "minecraft-1.21.2" = _ANiKEuWB;
+        "minecraft-1.21.3" = _ANiKEuWB;
+        "minecraft-1.21.4" = _ANiKEuWB;
+        "minecraft-1.21.5" = _ANiKEuWB;
+        "minecraft-1.21.6" = _ANiKEuWB;
+        "minecraft-1.21.7" = _ANiKEuWB;
+        "minecraft-1.21.8" = _ANiKEuWB;
+        "minecraft-1.21.9" = _ANiKEuWB;
+        "minecraft-1.21.10" = _ANiKEuWB;
+        "minecraft-1.21.11" = _ANiKEuWB;
+        "minecraft-26.1" = _ANiKEuWB;
+        "minecraft-26.1.1" = _ANiKEuWB;
+        "minecraft-26.1.2" = _ANiKEuWB;
+        "minecraft-26.2" = _ANiKEuWB;
         "pkg-1" = _ANiKEuWB;
         "default" = _ANiKEuWB;
     });

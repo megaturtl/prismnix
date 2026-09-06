@@ -76,6 +76,26 @@ let
             "file" = "AutoSow-2.3.0.jar";
             "hash" = "sha512-rwJXK6z8LVmXux1gyAizBwU8adSHEQbHsICfdqU3IBQyFK8zwkHGyA9e5e2j8AO7JRiwLhP3gmkKpM49aRz9HQ==";
         };
+        _pzHLkSie = {
+            "id" = "pzHLkSie";
+            "file" = "AutoSow-2.4.0.jar";
+            "hash" = "sha512-QaqXxLSWqjPZQlfHP5BSWgTqkdkXnklJQrZ1qm/tgaFThrg7vdkiusLqb1XgDeXcYUyhQysE7G2LhxZ0n0WgJw==";
+        };
+        _Vs95Fw5O = {
+            "id" = "Vs95Fw5O";
+            "file" = "AutoSow-2.5.0.jar";
+            "hash" = "sha512-j7Md50ThxQOcLKPlz7CcfU6kL4G+bQX6ge1gaAAXhlTMRnpBF0DLC9kqG8g7sC0poFdUfo3TFnnqcWa+sXWw+Q==";
+        };
+        _FKUpFxen = {
+            "id" = "FKUpFxen";
+            "file" = "AutoSow-2.6.0.jar";
+            "hash" = "sha512-W8iGwmt9JlHliLoV1TzNxF+szwExGPnjlsu+kzrAEG8CEHbr6JbxwEWrMiwTSZRcJLW3YbcvDd1X8yq0oNzjZg==";
+        };
+        _g9Ya0zXl = {
+            "id" = "g9Ya0zXl";
+            "file" = "AutoSow-2.7.0.jar";
+            "hash" = "sha512-91aKVrNj8QkRCPrZBsAZDQn0zMwfi2n3VyjhZhjagMGKYSwRTC0tCs8YkcAlHNPnB94F034tHe/8m2XXM0BIzw==";
+        };
     in {
         "KQm9w7hq" = _KQm9w7hq;
         "tlY6EzTn" = _tlY6EzTn;
@@ -92,6 +112,10 @@ let
         "vFphf0Gg" = _vFphf0Gg;
         "jSMOGLTc" = _jSMOGLTc;
         "bvGkVegt" = _bvGkVegt;
+        "pzHLkSie" = _pzHLkSie;
+        "Vs95Fw5O" = _Vs95Fw5O;
+        "FKUpFxen" = _FKUpFxen;
+        "g9Ya0zXl" = _g9Ya0zXl;
         "forge-1.21" = _rzOUhWg7;
         "forge-1.21.1" = _rzOUhWg7;
         "forge-1.21.2" = _rzOUhWg7;
@@ -107,6 +131,10 @@ let
         "forge-1.21.6" = _bvGkVegt;
         "forge-1.21.7" = _bvGkVegt;
         "forge-1.21.8" = _bvGkVegt;
+        "forge-26.2" = _pzHLkSie;
+        "forge-26.1" = _Vs95Fw5O;
+        "forge-26.1.1" = _Vs95Fw5O;
+        "forge-26.1.2" = _Vs95Fw5O;
         "fabric-1.21" = _h4hMEPiu;
         "fabric-1.21.1" = _h4hMEPiu;
         "fabric-1.21.2" = _h4hMEPiu;
@@ -120,6 +148,14 @@ let
         "fabric-1.21.8" = _vFphf0Gg;
         "fabric-1.21.9" = _vFphf0Gg;
         "fabric-1.21.10" = _vFphf0Gg;
+        "fabric-26.2" = _FKUpFxen;
+        "fabric-26.1" = _g9Ya0zXl;
+        "fabric-26.1.1" = _g9Ya0zXl;
+        "fabric-26.1.2" = _g9Ya0zXl;
+        "quilt-26.2" = _FKUpFxen;
+        "quilt-26.1" = _g9Ya0zXl;
+        "quilt-26.1.1" = _g9Ya0zXl;
+        "quilt-26.1.2" = _g9Ya0zXl;
         "pkg-1.0.0" = _KQm9w7hq;
         "pkg-1.1.0" = _tlY6EzTn;
         "pkg-1.2.0" = _h4hMEPiu;
@@ -134,7 +170,11 @@ let
         "pkg-2.1.0" = _vFphf0Gg;
         "pkg-2.2.0" = _jSMOGLTc;
         "pkg-2.3.0" = _bvGkVegt;
-        "default" = _bvGkVegt;
+        "pkg-2.4.0" = _pzHLkSie;
+        "pkg-2.5.0" = _Vs95Fw5O;
+        "pkg-2.6.0" = _FKUpFxen;
+        "pkg-2.7.0" = _g9Ya0zXl;
+        "default" = _g9Ya0zXl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autosow";

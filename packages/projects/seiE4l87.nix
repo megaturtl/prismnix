@@ -21,17 +21,24 @@ let
             "file" = "goety-apostle-fix-1.10.0.jar";
             "hash" = "sha512-bRrKjbAvTXZnbmha5fXHsY3+ZPlnQg5E75Rg0gbGxYWYU6XHmOXVjKFN44O7d2yRPIM2d+zTiKe+6hvFk/Oa1g==";
         };
+        _JfYjBJcK = {
+            "id" = "JfYjBJcK";
+            "file" = "goety-apostle-fix-1.11.0.jar";
+            "hash" = "sha512-LyAq5f+TCBWvXK/lTZfe395wzuVZy2rfQFhSR6yzztKqXTzwjTKCdLJRSkG+eAZ7AyfQtzA+PuZWbv7FLQXd0Q==";
+        };
     in {
         "eil0zQ47" = _eil0zQ47;
         "79nw7Snx" = _79nw7Snx;
         "OgNpyAPM" = _OgNpyAPM;
         "pLtBiLbi" = _pLtBiLbi;
-        "forge-1.20.1" = _pLtBiLbi;
+        "JfYjBJcK" = _JfYjBJcK;
+        "forge-1.20.1" = _JfYjBJcK;
         "pkg-1.3.0" = _eil0zQ47;
         "pkg-1.4.0" = _79nw7Snx;
         "pkg-1.7.0" = _OgNpyAPM;
         "pkg-1.10.0" = _pLtBiLbi;
-        "default" = _pLtBiLbi;
+        "pkg-1.11.0" = _JfYjBJcK;
+        "default" = _JfYjBJcK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "goety-apostle-fix";

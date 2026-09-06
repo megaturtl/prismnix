@@ -44,6 +44,11 @@ let
         "minecraft-1.21.8" = _CKJF1NOI;
         "minecraft-1.21.9" = _CKJF1NOI;
         "minecraft-1.21.10" = _CKJF1NOI;
+        "minecraft-1.21.11" = _CKJF1NOI;
+        "minecraft-26.1" = _CKJF1NOI;
+        "minecraft-26.1.1" = _CKJF1NOI;
+        "minecraft-26.1.2" = _CKJF1NOI;
+        "minecraft-26.2" = _CKJF1NOI;
         "vanilla-1.21.1" = _KsYxHJcC;
         "pkg-1.0" = _KsYxHJcC;
         "pkg-1.1" = _BY3zcbNX;
@@ -58,12 +63,12 @@ let
         type = "resourcepack";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-SA-4.0" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "Creative Commons Attribution Non Commercial Share Alike 4.0 International";
-                shortName = "CC-BY-NC-SA-4.0";
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
                 url = null;
             };
         };

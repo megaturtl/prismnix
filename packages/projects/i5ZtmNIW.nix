@@ -341,6 +341,46 @@ let
             "file" = "bluemapsignmarkers-26.2-0.16.0.74.jar";
             "hash" = "sha512-r0OQeLihizNxZ7Xb49fMEBRKQNyZw+6SKzO6dDgBymv/OOChEZyvqvkDRjPiZ8taTmtRmknXeIffwOPaOyX83w==";
         };
+        _WncCkPDD = {
+            "id" = "WncCkPDD";
+            "file" = "bluemapsignmarkers-26.2-0.17.0.75-alpha.jar";
+            "hash" = "sha512-ptm8tI4qdyeIZsk4WXrDzE2KToZ4ibQ4XP/CvVsvZFqpZ6OlfyIQ89ul7KNX6a9ohGh/FRKGZ0VP13IrvtxhGw==";
+        };
+        _kRghEQxs = {
+            "id" = "kRghEQxs";
+            "file" = "bluemapsignmarkers-26.2-0.17.0.76.jar";
+            "hash" = "sha512-hzH8ipQf2+8Q3iRmZplST4mLbRGtYGx/Kc7tz7GcVz8QciHx5mdI60IG4vN6hKok/8K1oVxPOvhWy3+CvHZFVA==";
+        };
+        _vcXLm8P6 = {
+            "id" = "vcXLm8P6";
+            "file" = "bluemapsignmarkers-26.2-0.17.1.77-alpha.jar";
+            "hash" = "sha512-XCoF2rfXFF/x/iRtKfYzj9Bqk5QyZ/GHfDaO4KSh13L/ezQmDCHff97Jmv6IGgy1I6CGwCVJX7XkeZDVzjdv/Q==";
+        };
+        _HQHH1Yw4 = {
+            "id" = "HQHH1Yw4";
+            "file" = "bluemapsignmarkers-26.2-0.17.1.78.jar";
+            "hash" = "sha512-XCoF2rfXFF/x/iRtKfYzj9Bqk5QyZ/GHfDaO4KSh13L/ezQmDCHff97Jmv6IGgy1I6CGwCVJX7XkeZDVzjdv/Q==";
+        };
+        _Rvq4yhEQ = {
+            "id" = "Rvq4yhEQ";
+            "file" = "bluemapsignmarkers-26.2-0.18.0.80-alpha.jar";
+            "hash" = "sha512-2p7fF5YF0vjbzgT9ChZ8CegKgelimeAI6HpBi2YEQzdyvlHpSdDCX3o6Y/JE+Q0RD8oY498cTa/C9oJysgVY2w==";
+        };
+        _PDWEqkkZ = {
+            "id" = "PDWEqkkZ";
+            "file" = "bluemapsignmarkers-26.2-0.19.0.81-alpha.jar";
+            "hash" = "sha512-kPSdDHukG+O8HGMtIWjvdSsHk1SLA5owqmCHsdB4p4TYNLmV/sFaQDddSCtvjy3/GTfzMEicce9ebEb5HWqSQQ==";
+        };
+        _tVsqCzRs = {
+            "id" = "tVsqCzRs";
+            "file" = "bluemapsignmarkers-26.2-0.21.0.82-alpha.jar";
+            "hash" = "sha512-e16EdKxZDTI6YqCJ5JuSkeGBSJbBMC0pbV78wmXlY3LQC798K55zpkSnnYFwGZBVVSw7wDi6TRjgVKiYRvDcbA==";
+        };
+        _ybUlN9cz = {
+            "id" = "ybUlN9cz";
+            "file" = "bluemapsignmarkers-26.2-0.23.0.83-alpha.jar";
+            "hash" = "sha512-8yeYrDvMm4ms5ElhRDbrfmcu+QuMkGDaU7oyF/r9TAfP8Y7ulUddjRXaRwtlCvtAM00NS8XOzyNBKtjsSlrTKQ==";
+        };
     in {
         "1iG2EUti" = _1iG2EUti;
         "HCISrHli" = _HCISrHli;
@@ -410,6 +450,14 @@ let
         "154BVJst" = _154BVJst;
         "wIyRcoyD" = _wIyRcoyD;
         "XpKgdh7o" = _XpKgdh7o;
+        "WncCkPDD" = _WncCkPDD;
+        "kRghEQxs" = _kRghEQxs;
+        "vcXLm8P6" = _vcXLm8P6;
+        "HQHH1Yw4" = _HQHH1Yw4;
+        "Rvq4yhEQ" = _Rvq4yhEQ;
+        "PDWEqkkZ" = _PDWEqkkZ;
+        "tVsqCzRs" = _tVsqCzRs;
+        "ybUlN9cz" = _ybUlN9cz;
         "fabric-1.20" = _FWCxQJGx;
         "fabric-1.20.1" = _FWCxQJGx;
         "fabric-1.21" = _xsq8wY3e;
@@ -424,7 +472,7 @@ let
         "fabric-1.21.11" = _mDAOPXnE;
         "fabric-26.1.1" = _xHtfzQ9x;
         "fabric-26.1.2" = _154BVJst;
-        "fabric-26.2" = _XpKgdh7o;
+        "fabric-26.2" = _ybUlN9cz;
         "pkg-1.20.1-0.0.2.4-alpha" = _1iG2EUti;
         "pkg-1.20.1-0.0.2.5" = _HCISrHli;
         "pkg-1.20.1-0.0.3.6" = _kcjHLYkE;
@@ -493,7 +541,15 @@ let
         "pkg-26.1.2-0.16.0.72" = _154BVJst;
         "pkg-26.2-0.16.0.73-alpha" = _wIyRcoyD;
         "pkg-26.2-0.16.0.74" = _XpKgdh7o;
-        "default" = _XpKgdh7o;
+        "pkg-26.2-0.17.0.75-alpha" = _WncCkPDD;
+        "pkg-26.2-0.17.0.76" = _kRghEQxs;
+        "pkg-26.2-0.17.1.77-alpha" = _vcXLm8P6;
+        "pkg-26.2-0.17.1.78" = _HQHH1Yw4;
+        "pkg-26.2-0.18.0.80-alpha" = _Rvq4yhEQ;
+        "pkg-26.2-0.19.0.81-alpha" = _PDWEqkkZ;
+        "pkg-26.2-0.21.0.82-alpha" = _tVsqCzRs;
+        "pkg-26.2-0.23.0.83-alpha" = _ybUlN9cz;
+        "default" = _ybUlN9cz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bluemap-sign-markers";

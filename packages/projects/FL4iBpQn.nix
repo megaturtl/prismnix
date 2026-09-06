@@ -131,6 +131,36 @@ let
             "file" = "taa-1.3.7-hotfix2+1.20.1.jar";
             "hash" = "sha512-yHVlSIEeIRX8Xb8/9GAfNUhK2MtWIxQ9t7FOpw+WQzXBLRakEn0Ju55vm0Rgln29jnL6fycancd9Vm56z3jqcg==";
         };
+        _20e1JtNl = {
+            "id" = "20e1JtNl";
+            "file" = "taa-1.3.8+1.20.1.jar";
+            "hash" = "sha512-XPU/v0x7FAVA814c6wdP923vw6tvuMUUFUY6bmWVmAfb0Vk/YUCmQc950dwNC4COsabecW56t4UtpUEV3dCnYg==";
+        };
+        _D1NPA7c2 = {
+            "id" = "D1NPA7c2";
+            "file" = "taa-1.3.8-hotfix+1.21.1.jar";
+            "hash" = "sha512-Ft32EMNmAoRLVgH7WFBG56fi+hw+duzJIR5432k1zINOy6PpmEGdOzG/LozaP+JxB/weQOe3S9Lea/5By5vaaA==";
+        };
+        _a2uXxLOF = {
+            "id" = "a2uXxLOF";
+            "file" = "taa-1.3.9+1.21.1.jar";
+            "hash" = "sha512-Q14LxGjg5miu1ORD078geRSlHn7U+tG4zuP5ld8a6bADzLPCEBE747uZ8iGq7gMQr/f3TOMLMFbrzYnGHbSvOg==";
+        };
+        _lslBbEEG = {
+            "id" = "lslBbEEG";
+            "file" = "taa-1.3.9+1.20.1.jar";
+            "hash" = "sha512-U78H4xIVny2pgyWW9FFWYS0Wy50J+Z23jT8cfUTsN2lx76HWbU6YzDEDfjN1V0abl5J/Hq8WYRB18bjENdVJvw==";
+        };
+        _BS71KwNC = {
+            "id" = "BS71KwNC";
+            "file" = "taa-1.4.0+1.21.1.jar";
+            "hash" = "sha512-bPGxHB/PQWCC4vG5zLIuAU7D6IxzyfBw7ED1phoabfpaSgf1du/dohU0Zk06pL55ZkSEH/HomNfZb6lAU0Y9+w==";
+        };
+        _teWy3RSN = {
+            "id" = "teWy3RSN";
+            "file" = "taa-1.4.0+1.20.1.jar";
+            "hash" = "sha512-GE7VfRhh4tuK9NZeSXNz8gbFl6jYsan2gxa+Q+2d+rtyEVmwGT78L3CHMAALrJ+pDKnJvKLXdJ8BPbD/fn/Cjg==";
+        };
     in {
         "iMbd6mvh" = _iMbd6mvh;
         "oT2hkhNu" = _oT2hkhNu;
@@ -158,7 +188,14 @@ let
         "mUGyzR51" = _mUGyzR51;
         "IRAX8UjB" = _IRAX8UjB;
         "aPqIyE96" = _aPqIyE96;
-        "forge-1.20.1" = _aPqIyE96;
+        "20e1JtNl" = _20e1JtNl;
+        "D1NPA7c2" = _D1NPA7c2;
+        "a2uXxLOF" = _a2uXxLOF;
+        "lslBbEEG" = _lslBbEEG;
+        "BS71KwNC" = _BS71KwNC;
+        "teWy3RSN" = _teWy3RSN;
+        "forge-1.20.1" = _teWy3RSN;
+        "neoforge-1.21.1" = _BS71KwNC;
         "pkg-1.0.7" = _iMbd6mvh;
         "pkg-1.0.8" = _oT2hkhNu;
         "pkg-1.0.9" = _VCThjO0N;
@@ -184,7 +221,13 @@ let
         "pkg-1.3.7" = _mUGyzR51;
         "pkg-1.3.7-hotfix" = _IRAX8UjB;
         "pkg-1.3.7-hotfix2" = _aPqIyE96;
-        "default" = _aPqIyE96;
+        "pkg-1.3.8" = _20e1JtNl;
+        "pkg-1.3.8-hotfix+1.21.1" = _D1NPA7c2;
+        "pkg-1.3.9+1.21.1" = _a2uXxLOF;
+        "pkg-1.3.9" = _lslBbEEG;
+        "pkg-1.4.0+1.21.1" = _BS71KwNC;
+        "pkg-1.4.0" = _teWy3RSN;
+        "default" = _teWy3RSN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "taczattributeadd";

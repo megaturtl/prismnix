@@ -581,6 +581,11 @@ let
             "file" = "pumpkillagersquest-26.2.0-5.4.jar";
             "hash" = "sha512-Bp/kz+v0MmE34qJRsLz44NTi7Zms4MpcT0I/PWNFROlBfjZdrZluBCPk1KoOeQQl3htGYJG7OmBvDtPoZC3/aA==";
         };
+        _UtKwhtTh = {
+            "id" = "UtKwhtTh";
+            "file" = "pumpkillagersquest-26.2.0-5.5.jar";
+            "hash" = "sha512-An9wuIbk6W04Teuo7B2mW4D5LawGGGffcrVMw0YfTjgGBaFKJ3YXVEaILFXsEgnnzjOK+8OnMRRxz8CGg36u8g==";
+        };
     in {
         "arjH1TF3" = _arjH1TF3;
         "F7DzFvQE" = _F7DzFvQE;
@@ -698,6 +703,7 @@ let
         "FgT3Mzb3" = _FgT3Mzb3;
         "IEU9V2dP" = _IEU9V2dP;
         "rhAHrFMv" = _rhAHrFMv;
+        "UtKwhtTh" = _UtKwhtTh;
         "forge-1.18.2" = _HqlYkaPv;
         "forge-1.19.2" = _9xPl35A9;
         "forge-1.19.3" = _e01aS82o;
@@ -722,7 +728,7 @@ let
         "forge-26.1" = _MsgUHddt;
         "forge-26.1.1" = _lbDcGkJ7;
         "forge-26.1.2" = _ZzGedfK3;
-        "forge-26.2" = _rhAHrFMv;
+        "forge-26.2" = _UtKwhtTh;
         "fabric-1.18.2" = _HqlYkaPv;
         "fabric-1.19.2" = _9xPl35A9;
         "fabric-1.19.3" = _e01aS82o;
@@ -749,7 +755,7 @@ let
         "fabric-26.1" = _MsgUHddt;
         "fabric-26.1.1" = _lbDcGkJ7;
         "fabric-26.1.2" = _ZzGedfK3;
-        "fabric-26.2" = _rhAHrFMv;
+        "fabric-26.2" = _UtKwhtTh;
         "quilt-1.18.2" = _HqlYkaPv;
         "quilt-1.19.2" = _9xPl35A9;
         "quilt-1.19.3" = _e01aS82o;
@@ -776,7 +782,7 @@ let
         "quilt-26.1" = _MsgUHddt;
         "quilt-26.1.1" = _lbDcGkJ7;
         "quilt-26.1.2" = _ZzGedfK3;
-        "quilt-26.2" = _rhAHrFMv;
+        "quilt-26.2" = _UtKwhtTh;
         "neoforge-1.20.2" = _ZYkN3Nl4;
         "neoforge-1.20.1" = _FgT3Mzb3;
         "neoforge-1.20.3" = _PMS3F6Za;
@@ -798,7 +804,7 @@ let
         "neoforge-26.1" = _MsgUHddt;
         "neoforge-26.1.1" = _lbDcGkJ7;
         "neoforge-26.1.2" = _ZzGedfK3;
-        "neoforge-26.2" = _rhAHrFMv;
+        "neoforge-26.2" = _UtKwhtTh;
         "pkg-1.18.2-1.0-forge" = _arjH1TF3;
         "pkg-1.19.2-1.0-forge" = _F7DzFvQE;
         "pkg-1.18.2-1.1-forge" = _454No6p9;
@@ -915,7 +921,8 @@ let
         "pkg-1.20.1-5.4-fabric+forge+neo" = _FgT3Mzb3;
         "pkg-1.21.1-5.4-fabric+forge+neo" = _IEU9V2dP;
         "pkg-26.2.0-5.4-fabric+forge+neo" = _rhAHrFMv;
-        "default" = _rhAHrFMv;
+        "pkg-26.2.0-5.5-fabric+forge+neo" = _UtKwhtTh;
+        "default" = _UtKwhtTh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pumpkillagers-quest";

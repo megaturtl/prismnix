@@ -61,6 +61,16 @@ let
             "file" = "createpropulsion-0.3.3.jar";
             "hash" = "sha512-JWl+JgtcBGNxkTdd4mCGBM/y1wQQUj8OuqdHbpgEqGqgTWW8DvFKUStof5QMDlk4QyE/JPEYnwN4Ds+j5zdHgg==";
         };
+        _mQjCnYX4 = {
+            "id" = "mQjCnYX4";
+            "file" = "createpropulsion-0.4.0.jar";
+            "hash" = "sha512-pKV2w5vCy1ISvvXSC/pOOXFnidGQPmjIRiUeSH0vkeLxooBDtlLmZ8DI4IAOZWtyZXfFlcMZb40UdCZjq8cUXQ==";
+        };
+        _2oBX64AJ = {
+            "id" = "2oBX64AJ";
+            "file" = "createpropulsion-0.4.1.jar";
+            "hash" = "sha512-MuxKwyWisXC3UTgIQm7drle4EVmQsGKqMs7ATYChECqQs8uoDOZjjnm5f6Soxkt7v7IKGnFut/zxCTCzyUBhBQ==";
+        };
     in {
         "8H5L8RUm" = _8H5L8RUm;
         "k8Q4IRyI" = _k8Q4IRyI;
@@ -74,12 +84,14 @@ let
         "lb48ICBc" = _lb48ICBc;
         "y6S2JThu" = _y6S2JThu;
         "RkH3hYwo" = _RkH3hYwo;
-        "forge-1.20.1" = _RkH3hYwo;
-        "forge-1.20.2" = _RkH3hYwo;
-        "forge-1.20.3" = _RkH3hYwo;
-        "forge-1.20.4" = _RkH3hYwo;
-        "forge-1.20.5" = _RkH3hYwo;
-        "forge-1.20.6" = _RkH3hYwo;
+        "mQjCnYX4" = _mQjCnYX4;
+        "2oBX64AJ" = _2oBX64AJ;
+        "forge-1.20.1" = _2oBX64AJ;
+        "forge-1.20.2" = _2oBX64AJ;
+        "forge-1.20.3" = _2oBX64AJ;
+        "forge-1.20.4" = _2oBX64AJ;
+        "forge-1.20.5" = _2oBX64AJ;
+        "forge-1.20.6" = _2oBX64AJ;
         "neoforge-1.20.1" = _RkH3hYwo;
         "neoforge-1.20.2" = _RkH3hYwo;
         "neoforge-1.20.3" = _RkH3hYwo;
@@ -98,7 +110,9 @@ let
         "pkg-0.3.1" = _lb48ICBc;
         "pkg-0.3.2" = _y6S2JThu;
         "pkg-0.3.3" = _RkH3hYwo;
-        "default" = _RkH3hYwo;
+        "pkg-0.4.0" = _mQjCnYX4;
+        "pkg-0.4.1" = _2oBX64AJ;
+        "default" = _2oBX64AJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-propulsion";

@@ -51,6 +51,11 @@ let
             "file" = "BetterFoliageRenewed-NeoForge-1.21-6.0.jar";
             "hash" = "sha512-+ahEPlLCwoHIqncNh9pF4gafDMkQ9EnxYhHQfv7bc0N4rrfm+pAC5RPZ3guXWHmhAvkuHY618ZFZSF6l/j8cDw==";
         };
+        _FpATqu1h = {
+            "id" = "FpATqu1h";
+            "file" = "BetterFoliageRenewed-NeoForge-26.1.2-7.0.jar";
+            "hash" = "sha512-3ZIq5zxxtPkR4ThOGd4MHAb95nGcBHWVnhBjIwpKrmXwaEwXQDkOr8oiM3TvcJV2SPT8xgbkqOuE/29xNTVcdQ==";
+        };
     in {
         "6Z4yOBn8" = _6Z4yOBn8;
         "kGKD1Vz9" = _kGKD1Vz9;
@@ -62,6 +67,7 @@ let
         "VeJ6vU9b" = _VeJ6vU9b;
         "LGnYiw7R" = _LGnYiw7R;
         "of1dzvXQ" = _of1dzvXQ;
+        "FpATqu1h" = _FpATqu1h;
         "forge-1.20.1" = _LGnYiw7R;
         "forge-1.20.2" = _LGnYiw7R;
         "forge-1.19.4" = _kGKD1Vz9;
@@ -75,6 +81,7 @@ let
         "neoforge-1.20.2" = _LGnYiw7R;
         "neoforge-1.21" = _of1dzvXQ;
         "neoforge-1.21.1" = _of1dzvXQ;
+        "neoforge-26.1.2" = _FpATqu1h;
         "pkg-5.0.1" = _6Z4yOBn8;
         "pkg-4.2.0" = _kGKD1Vz9;
         "pkg-4.1.0" = _NcqWR5Hd;
@@ -85,7 +92,8 @@ let
         "pkg-1.2.0" = _VeJ6vU9b;
         "pkg-5.0.2" = _LGnYiw7R;
         "pkg-6.0" = _of1dzvXQ;
-        "default" = _of1dzvXQ;
+        "pkg-7.0" = _FpATqu1h;
+        "default" = _FpATqu1h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-foliage-renewed";

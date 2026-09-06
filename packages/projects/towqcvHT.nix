@@ -126,6 +126,11 @@ let
             "file" = "CommandPanels.jar";
             "hash" = "sha512-TCZiXu0ZowrS8GYEvewP/Nr8h1uBBK+cM5ynt5Rkv6PnlhpTkedQq7jlFH+mkM6+pdk5XU3ea/d/EsSDyFQf9Q==";
         };
+        _vLtaja42 = {
+            "id" = "vLtaja42";
+            "file" = "CommandPanels-4.2.2.jar";
+            "hash" = "sha512-p68BPOliwP9SDIcuZu0SwO48qo6R5CO6t2gP75RAAp9gcywwiLrAndonJGaugIqaRNXNsnbbTTkPFdV1++0Rtg==";
+        };
     in {
         "s3vuN7p0" = _s3vuN7p0;
         "OwCZal1L" = _OwCZal1L;
@@ -152,24 +157,25 @@ let
         "EuEsMOot" = _EuEsMOot;
         "B0zH5Hgh" = _B0zH5Hgh;
         "liFQp9yi" = _liFQp9yi;
+        "vLtaja42" = _vLtaja42;
         "paper-1.21.8" = _XsA8LGOi;
         "paper-1.21.9" = _XsA8LGOi;
         "paper-1.21.10" = _XsA8LGOi;
         "paper-1.21.11" = _XsA8LGOi;
-        "paper-26.1" = _liFQp9yi;
-        "paper-26.1.1" = _liFQp9yi;
-        "paper-26.1.2" = _liFQp9yi;
+        "paper-26.1" = _vLtaja42;
+        "paper-26.1.1" = _vLtaja42;
+        "paper-26.1.2" = _vLtaja42;
         "paper-1.21.4" = _B0zH5Hgh;
-        "paper-26.2" = _liFQp9yi;
+        "paper-26.2" = _vLtaja42;
         "folia-1.21.8" = _XsA8LGOi;
         "folia-1.21.9" = _XsA8LGOi;
         "folia-1.21.10" = _XsA8LGOi;
         "folia-1.21.11" = _XsA8LGOi;
-        "folia-26.1" = _liFQp9yi;
-        "folia-26.1.1" = _liFQp9yi;
-        "folia-26.1.2" = _liFQp9yi;
+        "folia-26.1" = _vLtaja42;
+        "folia-26.1.1" = _vLtaja42;
+        "folia-26.1.2" = _vLtaja42;
         "folia-1.21.4" = _B0zH5Hgh;
-        "folia-26.2" = _liFQp9yi;
+        "folia-26.2" = _vLtaja42;
         "pkg-4.0.0" = _s3vuN7p0;
         "pkg-4.0.1" = _OwCZal1L;
         "pkg-4.0.2" = _evdlvXRO;
@@ -195,7 +201,8 @@ let
         "pkg-4.2.0" = _EuEsMOot;
         "pkg-4.2.0-MC1.21.4" = _B0zH5Hgh;
         "pkg-4.2.1" = _liFQp9yi;
-        "default" = _liFQp9yi;
+        "pkg-4.2.2" = _vLtaja42;
+        "default" = _vLtaja42;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "commandpanels";

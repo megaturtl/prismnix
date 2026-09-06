@@ -111,6 +111,11 @@ let
             "file" = "Forgelin-Continuous-2.4.0.0.jar";
             "hash" = "sha512-0Zp3jKtJLBIYE0smcazQ+347azsfTE1IG4chVfs1lxXglgSUWOfaR/qXuBhpfxflrEH6phztxy4N6aVXo5xvDA==";
         };
+        _JGhnXO0E = {
+            "id" = "JGhnXO0E";
+            "file" = "Forgelin-Continuous-2.4.10.0.jar";
+            "hash" = "sha512-CivsuJDFLCqdEnGdarmadZgqpxXIIgT754/BRk64g/4ICLcNAlD0aHnUTtqoj0eHvHIv93XV9SrkqjwfK/Df2g==";
+        };
     in {
         "rHQ6Wn5t" = _rHQ6Wn5t;
         "EBE3enuc" = _EBE3enuc;
@@ -134,9 +139,10 @@ let
         "jZ8wTUGW" = _jZ8wTUGW;
         "RE3Ayg5T" = _RE3Ayg5T;
         "jZIkQLdu" = _jZIkQLdu;
-        "forge-1.12" = _jZIkQLdu;
-        "forge-1.12.1" = _jZIkQLdu;
-        "forge-1.12.2" = _jZIkQLdu;
+        "JGhnXO0E" = _JGhnXO0E;
+        "forge-1.12" = _JGhnXO0E;
+        "forge-1.12.1" = _JGhnXO0E;
+        "forge-1.12.2" = _JGhnXO0E;
         "pkg-1.9.22.0" = _rHQ6Wn5t;
         "pkg-1.9.23.0" = _EBE3enuc;
         "pkg-1.9.23.1" = _z6CncHO9;
@@ -159,7 +165,8 @@ let
         "pkg-2.3.10.0" = _jZ8wTUGW;
         "pkg-2.3.20.0" = _RE3Ayg5T;
         "pkg-2.4.0.0" = _jZIkQLdu;
-        "default" = _jZIkQLdu;
+        "pkg-2.4.10.0" = _JGhnXO0E;
+        "default" = _JGhnXO0E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "forgelin-continuous";

@@ -56,6 +56,11 @@ let
             "file" = "icarusrewinged-1.1.4-1.20.1-forge.jar";
             "hash" = "sha512-rKIUxNUlkt1sWu2b6+2aM22aNYxgSHTTnf16iKUjoQjE+FH9NJEd3ZMLZhIHrrgfveeNqQ1F1fqjau3I9IU2Xg==";
         };
+        _PcvC99r8 = {
+            "id" = "PcvC99r8";
+            "file" = "icarusrewinged-1.1.5-1.20.1-fabric.jar";
+            "hash" = "sha512-8ppc5v10rpZoPbZbwMDZm7n5Z35129TfumFzcTTbQ0I36TgFXHgr3j1mBxHceZtjerjIoQQjFrcsWOWcyJ/5Sg==";
+        };
     in {
         "Mi7oN1Rg" = _Mi7oN1Rg;
         "qbLL53wK" = _qbLL53wK;
@@ -68,17 +73,19 @@ let
         "tsrdKtwT" = _tsrdKtwT;
         "Dgv35fv7" = _Dgv35fv7;
         "rKEOV1r1" = _rKEOV1r1;
+        "PcvC99r8" = _PcvC99r8;
         "forge-1.20.1" = _rKEOV1r1;
         "neoforge-1.21.1" = _pKtA3vR4;
         "fabric-1.21.1" = _3atzzaQ4;
-        "fabric-1.20.1" = _Dgv35fv7;
+        "fabric-1.20.1" = _PcvC99r8;
         "pkg-1.0.0" = _Mi7oN1Rg;
         "pkg-1.1.0" = _qbLL53wK;
         "pkg-1.1.1" = _gUrktpgv;
         "pkg-1.1.2" = _8B3zCRK0;
         "pkg-1.1.3" = _tsrdKtwT;
         "pkg-1.1.4" = _rKEOV1r1;
-        "default" = _rKEOV1r1;
+        "pkg-1.1.5" = _PcvC99r8;
+        "default" = _PcvC99r8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "icarus-rewinged";

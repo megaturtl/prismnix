@@ -121,6 +121,11 @@ let
             "file" = "fantasyfurniture_royal-26.2.0.jar";
             "hash" = "sha512-nO7q/KbLJKZWcojdSOCCjkcCvmu6ZO3Gte5U28RCyW7iX2l73qa/oIU2Y8ZTyJDo4/e608cmRMYCftm2mhBSdQ==";
         };
+        _SkuYsr63 = {
+            "id" = "SkuYsr63";
+            "file" = "fantasyfurniture_royal-26.2.4.jar";
+            "hash" = "sha512-26og6oKWIEZ8I85lQa7xgs3SFXwIkSgbawjuG5myIWI2o/Wo8FFXBwkmgAI60uNs0ID9Hvj+7S+rhKSroHihDA==";
+        };
     in {
         "iwj93GiP" = _iwj93GiP;
         "Sgn6y5Rr" = _Sgn6y5Rr;
@@ -146,6 +151,7 @@ let
         "4a5zy9oe" = _4a5zy9oe;
         "pA4hOxPT" = _pA4hOxPT;
         "nPcAfJU5" = _nPcAfJU5;
+        "SkuYsr63" = _SkuYsr63;
         "neoforge-1.21.4" = _Sgn6y5Rr;
         "neoforge-1.21.5" = _9sAO9xs1;
         "neoforge-1.21.6" = _ejwWKwjp;
@@ -155,7 +161,7 @@ let
         "neoforge-26.1" = _pA4hOxPT;
         "neoforge-26.1.1" = _pA4hOxPT;
         "neoforge-26.1.2" = _pA4hOxPT;
-        "neoforge-26.2" = _nPcAfJU5;
+        "neoforge-26.2" = _SkuYsr63;
         "pkg-21.4.111" = _iwj93GiP;
         "pkg-21.4.112" = _Sgn6y5Rr;
         "pkg-21.5.0" = _W0zehxCN;
@@ -180,7 +186,8 @@ let
         "pkg-26.1.4" = _4a5zy9oe;
         "pkg-26.1.7" = _pA4hOxPT;
         "pkg-26.2.0" = _nPcAfJU5;
-        "default" = _nPcAfJU5;
+        "pkg-26.2.4" = _SkuYsr63;
+        "default" = _SkuYsr63;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fantasys-furniture-royal";

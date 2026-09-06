@@ -255,7 +255,7 @@ let
         "default" = _52EqGmI6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
-        name = "advancements+";
+        name = "advancements_plus";
         id = "dzG7pw5M";
         type = "mod";
         versions = versions;

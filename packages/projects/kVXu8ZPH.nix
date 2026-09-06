@@ -48,6 +48,11 @@ let
         "bukkit-1.21.8" = _OAn9hX7v;
         "bukkit-1.21.9" = _OAn9hX7v;
         "bukkit-1.21.10" = _OAn9hX7v;
+        "bukkit-1.21.11" = _OAn9hX7v;
+        "bukkit-26.1" = _OAn9hX7v;
+        "bukkit-26.1.1" = _OAn9hX7v;
+        "bukkit-26.1.2" = _OAn9hX7v;
+        "bukkit-26.2" = _OAn9hX7v;
         "paper-1.16" = _OAn9hX7v;
         "paper-1.16.1" = _OAn9hX7v;
         "paper-1.16.2" = _OAn9hX7v;
@@ -82,6 +87,11 @@ let
         "paper-1.21.8" = _OAn9hX7v;
         "paper-1.21.9" = _OAn9hX7v;
         "paper-1.21.10" = _OAn9hX7v;
+        "paper-1.21.11" = _OAn9hX7v;
+        "paper-26.1" = _OAn9hX7v;
+        "paper-26.1.1" = _OAn9hX7v;
+        "paper-26.1.2" = _OAn9hX7v;
+        "paper-26.2" = _OAn9hX7v;
         "purpur-1.16" = _OAn9hX7v;
         "purpur-1.16.1" = _OAn9hX7v;
         "purpur-1.16.2" = _OAn9hX7v;
@@ -116,6 +126,11 @@ let
         "purpur-1.21.8" = _OAn9hX7v;
         "purpur-1.21.9" = _OAn9hX7v;
         "purpur-1.21.10" = _OAn9hX7v;
+        "purpur-1.21.11" = _OAn9hX7v;
+        "purpur-26.1" = _OAn9hX7v;
+        "purpur-26.1.1" = _OAn9hX7v;
+        "purpur-26.1.2" = _OAn9hX7v;
+        "purpur-26.2" = _OAn9hX7v;
         "spigot-1.16" = _OAn9hX7v;
         "spigot-1.16.1" = _OAn9hX7v;
         "spigot-1.16.2" = _OAn9hX7v;
@@ -150,6 +165,11 @@ let
         "spigot-1.21.8" = _OAn9hX7v;
         "spigot-1.21.9" = _OAn9hX7v;
         "spigot-1.21.10" = _OAn9hX7v;
+        "spigot-1.21.11" = _OAn9hX7v;
+        "spigot-26.1" = _OAn9hX7v;
+        "spigot-26.1.1" = _OAn9hX7v;
+        "spigot-26.1.2" = _OAn9hX7v;
+        "spigot-26.2" = _OAn9hX7v;
         "pkg-1.0.0" = _sm5z3Dc3;
         "pkg-1.0.1" = _OAn9hX7v;
         "default" = _OAn9hX7v;

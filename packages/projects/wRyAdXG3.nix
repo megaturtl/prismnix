@@ -51,6 +51,31 @@ let
             "file" = "improved-maps-0.4.5+mc26.2.jar";
             "hash" = "sha512-HI5+A6RwDMqgf6iCNR54SyFu5cal+OjIJGDN5R0+DbjN2wPaQkIj5beUM0HY0nhnuvMcNVv1CDwpJiBK7xEk2g==";
         };
+        _5LekODTo = {
+            "id" = "5LekODTo";
+            "file" = "improved-maps-0.5+mc26.2.jar";
+            "hash" = "sha512-W3a2wkHwRWHV4K8qdqywPMIq7ZmmKK86gEUUL0O15EFE7RZN3hTHbDgDl0G4aB0gk6JJhN5DEarptkzamRGttA==";
+        };
+        _UvtXgbO8 = {
+            "id" = "UvtXgbO8";
+            "file" = "improved-maps-0.6+mc26.2.jar";
+            "hash" = "sha512-3deOWkBRAGlP4DTrrQ9xN2U1rsRAO9FYDVwpdDXZEq3aDdpgv4SCe8Id6DWnSd0N8AZxNtW+mHLrcR74+MPEAQ==";
+        };
+        _YiKGDwGV = {
+            "id" = "YiKGDwGV";
+            "file" = "improved-maps-0.7+mc26.2.jar";
+            "hash" = "sha512-4DQI7MFc+bqDBixz7tUY3sdo9wLcmcGd8c+UooP4QWNSN9SYyM3i3ZQGdA5hlFqN3PE+D9mqrCftPmrdnUDH3Q==";
+        };
+        _4w2FnlET = {
+            "id" = "4w2FnlET";
+            "file" = "improved-maps-0.7.1+mc26.2.jar";
+            "hash" = "sha512-O3u+lubLhvkfI1J2OOUkI9a7GF7fREqiqAv3UCPo0qJqPshkIz3HIT+uNYXCBfMnjDTk8vAAIF7IHtN46DfaLg==";
+        };
+        _kS9puVhR = {
+            "id" = "kS9puVhR";
+            "file" = "improved-maps-1.0+mc26.2.jar";
+            "hash" = "sha512-TXVGOrACgBiYJJMwWcH1UKBqQn89VCAIIj54OJJTvzAwblo27PQ95bx7frbtbzp5Z79lpcqfhSZlUwv6RDTkvQ==";
+        };
     in {
         "Z5VObr7z" = _Z5VObr7z;
         "gmyibo8g" = _gmyibo8g;
@@ -62,6 +87,11 @@ let
         "I4QnvoGp" = _I4QnvoGp;
         "2DUXTa7Z" = _2DUXTa7Z;
         "zWrSjGWS" = _zWrSjGWS;
+        "5LekODTo" = _5LekODTo;
+        "UvtXgbO8" = _UvtXgbO8;
+        "YiKGDwGV" = _YiKGDwGV;
+        "4w2FnlET" = _4w2FnlET;
+        "kS9puVhR" = _kS9puVhR;
         "fabric-1.21.5" = _83H5KdOx;
         "fabric-1.21.6" = _FNJb3Zg1;
         "fabric-1.21.7" = _FNJb3Zg1;
@@ -70,14 +100,19 @@ let
         "fabric-1.21.10" = _FZCNMHdD;
         "fabric-1.21.11" = _I4QnvoGp;
         "fabric-26.1.2" = _2DUXTa7Z;
-        "fabric-26.2" = _zWrSjGWS;
+        "fabric-26.2" = _kS9puVhR;
         "pkg-0.2.0" = _Z5VObr7z;
         "pkg-0.3.0" = _gmyibo8g;
         "pkg-0.4.2" = _I6S3bIhl;
         "pkg-0.4.3" = _PwlnGdtN;
         "pkg-0.4.4" = _FZCNMHdD;
         "pkg-0.4.5" = _zWrSjGWS;
-        "default" = _zWrSjGWS;
+        "pkg-0.5" = _5LekODTo;
+        "pkg-0.6" = _UvtXgbO8;
+        "pkg-0.7" = _YiKGDwGV;
+        "pkg-0.7.1" = _4w2FnlET;
+        "pkg-1.0" = _kS9puVhR;
+        "default" = _kS9puVhR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "improved-maps";

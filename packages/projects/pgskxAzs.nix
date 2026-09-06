@@ -46,6 +46,11 @@ let
             "file" = "melodymagic-1.4.14.jar";
             "hash" = "sha512-Q31+JjpqSRkZgOjih3WTJckFGkmivnkJW77hvOsMAmH9MM0TG4QOqSND3WZsnfNMmTKtPbuXApWamvAcgmpuCw==";
         };
+        _jSbBGqcD = {
+            "id" = "jSbBGqcD";
+            "file" = "melodymagic-2.0.0.jar";
+            "hash" = "sha512-spJbZ8t+mwpdl2JXf55qIVzbZBTlW15tiQsbwxhr9Cl5KJTKHR/unh42Mqr94KXw+pX3wfn2Uv5JMSjEGbZKIA==";
+        };
     in {
         "6y8OZ9hV" = _6y8OZ9hV;
         "ei7SsIfe" = _ei7SsIfe;
@@ -56,7 +61,8 @@ let
         "x4mJfPRg" = _x4mJfPRg;
         "SHqCQSfe" = _SHqCQSfe;
         "XBnNjM1t" = _XBnNjM1t;
-        "neoforge-1.21" = _x4mJfPRg;
+        "jSbBGqcD" = _jSbBGqcD;
+        "neoforge-1.21" = _jSbBGqcD;
         "neoforge-1.21.1" = _XBnNjM1t;
         "neoforge-1.21.2" = _XBnNjM1t;
         "neoforge-1.21.3" = _XBnNjM1t;
@@ -70,7 +76,8 @@ let
         "pkg-1.3.3" = _x4mJfPRg;
         "pkg-1.4.13" = _SHqCQSfe;
         "pkg-1.4.14" = _XBnNjM1t;
-        "default" = _XBnNjM1t;
+        "pkg-2.0.0" = _jSbBGqcD;
+        "default" = _jSbBGqcD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "melodymagic";

@@ -431,6 +431,21 @@ let
             "file" = "multiblocked2-1.20.1-1.0.39.jar";
             "hash" = "sha512-nf4DrVmZhntpinh4wePpiYQsUazpfXQJsmZJ30egut4hbA+JqKgKP1ly6IvAWad8T+Z7IgZhHeMRad0v94i6jQ==";
         };
+        _LOA1pzab = {
+            "id" = "LOA1pzab";
+            "file" = "Multiblocked2-1.21-1.21.1-21.1.0-all.jar";
+            "hash" = "sha512-vlrCgocinGuufUolP0w44T+BCW0Y83UL27Zn47NQsL/V3znvsSs8x8V3ZIJjTwtF/Ylshhv1UqFR6Tvm3EI3qg==";
+        };
+        _XBjQvxgz = {
+            "id" = "XBjQvxgz";
+            "file" = "Multiblocked2-1.21-1.21.1-21.1.1-all.jar";
+            "hash" = "sha512-plFGutcIikOaWwfWXkwcfI1eu7o+6leGv1yFrXE023M5jPnD/6D0phuLxL4BMnfJZ7+o2p61CfD7GH0G6qgM2g==";
+        };
+        _RKlLMPUC = {
+            "id" = "RKlLMPUC";
+            "file" = "Multiblocked2-1.21-1.21.1-21.1.1.a-all.jar";
+            "hash" = "sha512-TAZoN9ipNm3GM7V+/JcvBWSC/MB5LsbncOTptnote7XXcUOd/F3meS8fpxnSq3SZ6qKUCMQq9SJbRFGpL6rgZA==";
+        };
     in {
         "yBlnUKij" = _yBlnUKij;
         "rMv5cF9g" = _rMv5cF9g;
@@ -518,8 +533,11 @@ let
         "sc0kSq1a" = _sc0kSq1a;
         "f1qypgZj" = _f1qypgZj;
         "ptAmyqzC" = _ptAmyqzC;
+        "LOA1pzab" = _LOA1pzab;
+        "XBjQvxgz" = _XBjQvxgz;
+        "RKlLMPUC" = _RKlLMPUC;
         "forge-1.20.1" = _ptAmyqzC;
-        "neoforge-1.21.1" = _f1qypgZj;
+        "neoforge-1.21.1" = _RKlLMPUC;
         "pkg-1.0.0" = _yBlnUKij;
         "pkg-1.0.1" = _rMv5cF9g;
         "pkg-1.0.2" = _23dHizoP;
@@ -604,7 +622,10 @@ let
         "pkg-mc1.21.1-21.0.10-neoforge" = _sc0kSq1a;
         "pkg-mc1.21.1-21.0.11-neoforge" = _f1qypgZj;
         "pkg-mc1.20.1-1.0.39-forge" = _ptAmyqzC;
-        "default" = _ptAmyqzC;
+        "pkg-mc1.21.1-21.1.0-neoforge" = _LOA1pzab;
+        "pkg-mc1.21.1-21.1.1-neoforge" = _XBjQvxgz;
+        "pkg-mc1.21.1-21.1.1.a-neoforge" = _RKlLMPUC;
+        "default" = _RKlLMPUC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "multiblocked2";

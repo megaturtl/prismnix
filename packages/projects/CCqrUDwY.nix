@@ -48,6 +48,11 @@ let
         "bukkit-1.21.8" = _1ghtiWYe;
         "bukkit-1.21.9" = _1ghtiWYe;
         "bukkit-1.21.10" = _1ghtiWYe;
+        "bukkit-1.21.11" = _1ghtiWYe;
+        "bukkit-26.1" = _1ghtiWYe;
+        "bukkit-26.1.1" = _1ghtiWYe;
+        "bukkit-26.1.2" = _1ghtiWYe;
+        "bukkit-26.2" = _1ghtiWYe;
         "paper-1.16" = _1ghtiWYe;
         "paper-1.16.1" = _1ghtiWYe;
         "paper-1.16.2" = _1ghtiWYe;
@@ -82,6 +87,11 @@ let
         "paper-1.21.8" = _1ghtiWYe;
         "paper-1.21.9" = _1ghtiWYe;
         "paper-1.21.10" = _1ghtiWYe;
+        "paper-1.21.11" = _1ghtiWYe;
+        "paper-26.1" = _1ghtiWYe;
+        "paper-26.1.1" = _1ghtiWYe;
+        "paper-26.1.2" = _1ghtiWYe;
+        "paper-26.2" = _1ghtiWYe;
         "purpur-1.16" = _1ghtiWYe;
         "purpur-1.16.1" = _1ghtiWYe;
         "purpur-1.16.2" = _1ghtiWYe;
@@ -116,6 +126,11 @@ let
         "purpur-1.21.8" = _1ghtiWYe;
         "purpur-1.21.9" = _1ghtiWYe;
         "purpur-1.21.10" = _1ghtiWYe;
+        "purpur-1.21.11" = _1ghtiWYe;
+        "purpur-26.1" = _1ghtiWYe;
+        "purpur-26.1.1" = _1ghtiWYe;
+        "purpur-26.1.2" = _1ghtiWYe;
+        "purpur-26.2" = _1ghtiWYe;
         "spigot-1.16" = _1ghtiWYe;
         "spigot-1.16.1" = _1ghtiWYe;
         "spigot-1.16.2" = _1ghtiWYe;
@@ -150,6 +165,11 @@ let
         "spigot-1.21.8" = _1ghtiWYe;
         "spigot-1.21.9" = _1ghtiWYe;
         "spigot-1.21.10" = _1ghtiWYe;
+        "spigot-1.21.11" = _1ghtiWYe;
+        "spigot-26.1" = _1ghtiWYe;
+        "spigot-26.1.1" = _1ghtiWYe;
+        "spigot-26.1.2" = _1ghtiWYe;
+        "spigot-26.2" = _1ghtiWYe;
         "pkg-1.0.0" = _PN12N7X9;
         "pkg-1.0.1" = _1ghtiWYe;
         "default" = _1ghtiWYe;

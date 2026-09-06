@@ -159,7 +159,7 @@ let
         "default" = _URFEqXeH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
-        name = "small-blocks";
+        name = "small-hand-blocks";
         id = "x5QJ2yiE";
         type = "resourcepack";
         versions = versions;

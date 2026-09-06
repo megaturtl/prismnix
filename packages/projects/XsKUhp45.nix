@@ -206,6 +206,11 @@ let
             "file" = "packtest-2.6.0-beta1.jar";
             "hash" = "sha512-lbSY/rV87PWJ334KHsOXfVVZj2WCoxeETEjwX3XH1BAkL7K3gao9WuAB9Mg9yl4WeBCFVVdIOItSiBkOvHbkpA==";
         };
+        _f5v6fv3L = {
+            "id" = "f5v6fv3L";
+            "file" = "packtest-2.6.0.jar";
+            "hash" = "sha512-qnPvQg6VA3TFetwUc1LiHKGzYqVxA+KfoSZNgfLVKGsxf6MmgIQDmyrMV4NskWdxbqblJZ8PjkrvSKmW750tkA==";
+        };
     in {
         "4iE2aK9s" = _4iE2aK9s;
         "7zBAapy7" = _7zBAapy7;
@@ -248,6 +253,7 @@ let
         "eupLiv70" = _eupLiv70;
         "MGLOzSvz" = _MGLOzSvz;
         "qT2wdJhc" = _qT2wdJhc;
+        "f5v6fv3L" = _f5v6fv3L;
         "fabric-1.20.4" = _18smpIeE;
         "fabric-24w09a" = _27gitJum;
         "fabric-24w12a" = _SKa65CnA;
@@ -277,6 +283,7 @@ let
         "fabric-26.1.1" = _MGLOzSvz;
         "fabric-26.1.2" = _MGLOzSvz;
         "fabric-26.2-rc-2" = _qT2wdJhc;
+        "fabric-26.2" = _f5v6fv3L;
         "pkg-1.0.0-beta1" = _4iE2aK9s;
         "pkg-1.0.0-beta2" = _7zBAapy7;
         "pkg-1.0.0-beta3" = _8SKemGIp;
@@ -318,7 +325,8 @@ let
         "pkg-2.5.0-beta1" = _eupLiv70;
         "pkg-2.5.0" = _MGLOzSvz;
         "pkg-2.6.0-beta1" = _qT2wdJhc;
-        "default" = _qT2wdJhc;
+        "pkg-2.6.0" = _f5v6fv3L;
+        "default" = _f5v6fv3L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "packtest";

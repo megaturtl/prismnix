@@ -11,14 +11,35 @@ let
             "file" = "animesky-1-21-10.zip";
             "hash" = "sha512-9nrYRQz9ryidoZd1oc5beEfkmOHQEZg6MX6dvUuLGmGu+kGzXe2uhBELzcf4MYGy1oqJFqUTyC7MRbiGreljFg==";
         };
+        _qPzbsRPp = {
+            "id" = "qPzbsRPp";
+            "file" = "animesky_26.2.zip";
+            "hash" = "sha512-9nrYRQz9ryidoZd1oc5beEfkmOHQEZg6MX6dvUuLGmGu+kGzXe2uhBELzcf4MYGy1oqJFqUTyC7MRbiGreljFg==";
+        };
     in {
         "mJ80dECC" = _mJ80dECC;
         "BJtebAGA" = _BJtebAGA;
-        "minecraft-1.21.8" = _mJ80dECC;
-        "minecraft-1.21.10" = _BJtebAGA;
+        "qPzbsRPp" = _qPzbsRPp;
+        "minecraft-1.21.8" = _qPzbsRPp;
+        "minecraft-1.21.10" = _qPzbsRPp;
+        "minecraft-1.21" = _qPzbsRPp;
+        "minecraft-1.21.1" = _qPzbsRPp;
+        "minecraft-1.21.2" = _qPzbsRPp;
+        "minecraft-1.21.3" = _qPzbsRPp;
+        "minecraft-1.21.4" = _qPzbsRPp;
+        "minecraft-1.21.5" = _qPzbsRPp;
+        "minecraft-1.21.6" = _qPzbsRPp;
+        "minecraft-1.21.7" = _qPzbsRPp;
+        "minecraft-1.21.9" = _qPzbsRPp;
+        "minecraft-1.21.11" = _qPzbsRPp;
+        "minecraft-26.1" = _qPzbsRPp;
+        "minecraft-26.1.1" = _qPzbsRPp;
+        "minecraft-26.1.2" = _qPzbsRPp;
+        "minecraft-26.2" = _qPzbsRPp;
         "pkg-1" = _mJ80dECC;
         "pkg-1.1" = _BJtebAGA;
-        "default" = _BJtebAGA;
+        "pkg-1.2" = _qPzbsRPp;
+        "default" = _qPzbsRPp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "real-anime-sky";

@@ -1176,6 +1176,101 @@ let
             "file" = "PluginUpdater-paper-4.3.1.jar";
             "hash" = "sha512-pqsnpUXTCCzAc7KyE2+iiE4ssZSrV04hhzIOWWjcRW2IYFFbfSXhGAJLX7URCNwtoyWPWah7+RdmaPaaqdnp6A==";
         };
+        _KBgLucCw = {
+            "id" = "KBgLucCw";
+            "file" = "PluginUpdater-paper-4.3.1.jar";
+            "hash" = "sha512-9SduoDt9YjgMbfNBRxWReqIY9W3kdQ18OOI9eX+qyHIjqsOxx+pr6srysf+yu+DApsLRCc+s+BzaATvi5EZGKg==";
+        };
+        _EGIc8IU7 = {
+            "id" = "EGIc8IU7";
+            "file" = "PluginUpdater-paper-4.3.1.jar";
+            "hash" = "sha512-FSjaVhViGR/6XTBJ6mXkfpRCorufsDD4QLkQaf+UUbVJppElQfP3FBbroQcvGUmu5o+LrUwCXH9Fd4KkjfQUKQ==";
+        };
+        _jnfzFvLj = {
+            "id" = "jnfzFvLj";
+            "file" = "PluginUpdater-paper-4.3.1.jar";
+            "hash" = "sha512-Hc98VtJqPU0ESO4SdyAWVWntwTXfqL+LKc2hST2tRgmo/WwvL4khKYovnFWvBFRxXR7CE7pUO60dmS/4zeO6ig==";
+        };
+        _gWqZzfZF = {
+            "id" = "gWqZzfZF";
+            "file" = "PluginUpdater-paper-4.3.1.jar";
+            "hash" = "sha512-QOr8v/BdVmWAKy34TYZWBONOA4S9TxggsLB2pkUNpGu9BvLlVhK1YUFXe7AdD0dSUnafa5UHwpiyqzmwHCmX3Q==";
+        };
+        _HvdsR8Fn = {
+            "id" = "HvdsR8Fn";
+            "file" = "PluginUpdater-paper-4.3.1.jar";
+            "hash" = "sha512-Ifi9sRcDajuevgdF5pmWLKEeHJOo0XZC1v3iqaJO6x7fGOrRCYSsQ/lV3RmVqWO3e5lyIKq4+Eqnwc05lWNVvA==";
+        };
+        _qmIDJ0S4 = {
+            "id" = "qmIDJ0S4";
+            "file" = "PluginUpdater-paper-4.3.1.jar";
+            "hash" = "sha512-B+ctU5osuvBqW7HMBBVbvcLishDJmIt+nfEWgTYyavlRrfaZW2CEQmY3TNMA9gptWYC3Gj/61bpL9VI6H0vXOA==";
+        };
+        _Ees5KnTT = {
+            "id" = "Ees5KnTT";
+            "file" = "PluginUpdater-paper-4.3.1.jar";
+            "hash" = "sha512-hvwqwYga+gOviVr0X8nV/APiDCAIOlWJVTHHjLtvrfl+6H7QbBxeWgPJCOdwnSQJHTjPRAcVcP3hQzsxOim1Ig==";
+        };
+        _y2VMHx8s = {
+            "id" = "y2VMHx8s";
+            "file" = "PluginUpdater-paper-4.3.1.jar";
+            "hash" = "sha512-35PEVPUvErJnYcZyLTAoROWfa46KleN74v2oltfenndpQDpNDZAOQ6yuRVbcpRNOF3JnZnJEhEzjKtarqCFSlw==";
+        };
+        _FeEXzNZS = {
+            "id" = "FeEXzNZS";
+            "file" = "PluginUpdater-paper-4.3.1.jar";
+            "hash" = "sha512-Zi82eV6glRnU0ViL01bfRX8E7IFRVX06UI9V/me1nWhSklBbPSzD7UxXeb9uEbmACntqt7vI9kaX/f/vPSjJAw==";
+        };
+        _1lEM1tE7 = {
+            "id" = "1lEM1tE7";
+            "file" = "PluginUpdater-paper-4.3.1.jar";
+            "hash" = "sha512-MtAhy0aUgr/zk0b38SdDg9YI+fLWhYpVMGQnNQjqfYffz08G1gfo+NdOWvb8ABmlvx9IyQuh644msuKgLSikDQ==";
+        };
+        _pOj0uRgd = {
+            "id" = "pOj0uRgd";
+            "file" = "PluginUpdater-paper-4.3.1.jar";
+            "hash" = "sha512-vgUys/29gFpYZ014gJGvK7LUrDULyy+2gdsix/G3PCObxbylpp0c6S+d8F+bTeTL8JxoRWiDi48yeKRYDVaIUA==";
+        };
+        _Du5pvsBA = {
+            "id" = "Du5pvsBA";
+            "file" = "PluginUpdater-paper-4.3.1.jar";
+            "hash" = "sha512-X7jBQXqT9nedpYEa1A5xR7hFIf3l64/13lpKhHm5oyVGGa8jClaZw/y5bu2WIyKOBKgJcg2HIbGVoY8t5aZVxQ==";
+        };
+        _WYy31WxP = {
+            "id" = "WYy31WxP";
+            "file" = "PluginUpdater-paper-4.3.1.jar";
+            "hash" = "sha512-9WXlC31AYMss6pHjSeeLFArYddSsv872Z0NajmR/XAjVA7PHgtSTc2APQ3177mPBOaMlnPs1psvjwoRrdXtVuw==";
+        };
+        _5NOiYqKY = {
+            "id" = "5NOiYqKY";
+            "file" = "PluginUpdater-paper-4.3.2.jar";
+            "hash" = "sha512-zWWFsPqlaXaj9A7Yout6N0rOt5f5sLXSMzEO2sRYLyb/1EspvcVtmrfklnQM9BhPiXGAuA1J5dhMsEo5jDGwfw==";
+        };
+        _kotfSovb = {
+            "id" = "kotfSovb";
+            "file" = "PluginUpdater-paper-4.3.2.jar";
+            "hash" = "sha512-jR24g2Vbyco0x/YvUonn8pHVnUhxq4pQAoZqsf4vwBU0vmsMJBMU29Xv6eEaKat3i1lCSS3pGiUoK7OpUnB+sw==";
+        };
+        _Zik6G2NN = {
+            "id" = "Zik6G2NN";
+            "file" = "PluginUpdater-paper-4.3.2.jar";
+            "hash" = "sha512-Kku7cbV410eDsKKDOmwxtmIvbHx5YJwDdCvOoFTAciytdYhxhXuSuFRhNF7vszLRyLnzFg1ew4BT1CCRk8e6bA==";
+        };
+        _2PqJegJz = {
+            "id" = "2PqJegJz";
+            "file" = "PluginUpdater-paper-4.3.2.jar";
+            "hash" = "sha512-YSj0qdBXkQNGGKWGVZvH0ZgEdNcoMrQhZy2L1aLLRMcHOUIM561QwpzIHaci0DWg4T/FrcjLdcWkbLHJGZ33bw==";
+        };
+        _qG3sdZaE = {
+            "id" = "qG3sdZaE";
+            "file" = "PluginUpdater-paper-4.3.2.jar";
+            "hash" = "sha512-ArqgGIP4G69xHTOW6Zr7p+eiNMQrNJpYuBy65Y0qOjDNsVCthQEynrAQrOTQfLQ4oy4D/zLTv48FeIrMfnKPVw==";
+        };
+        _gEsCPYmS = {
+            "id" = "gEsCPYmS";
+            "file" = "PluginUpdater-paper-4.3.2.jar";
+            "hash" = "sha512-R0CjJiTEbfJFX8Q1bPNkFwhoULAc1xjbioDV1qcOdqrmK2jVLrXH+gkMZ42hFbOXA7vjTXl/58/bHy39P88mIQ==";
+        };
     in {
         "31ipNODi" = _31ipNODi;
         "4c3Z95uy" = _4c3Z95uy;
@@ -1412,6 +1507,25 @@ let
         "T4G1ElD0" = _T4G1ElD0;
         "ta6FMVEM" = _ta6FMVEM;
         "7bX08Hmo" = _7bX08Hmo;
+        "KBgLucCw" = _KBgLucCw;
+        "EGIc8IU7" = _EGIc8IU7;
+        "jnfzFvLj" = _jnfzFvLj;
+        "gWqZzfZF" = _gWqZzfZF;
+        "HvdsR8Fn" = _HvdsR8Fn;
+        "qmIDJ0S4" = _qmIDJ0S4;
+        "Ees5KnTT" = _Ees5KnTT;
+        "y2VMHx8s" = _y2VMHx8s;
+        "FeEXzNZS" = _FeEXzNZS;
+        "1lEM1tE7" = _1lEM1tE7;
+        "pOj0uRgd" = _pOj0uRgd;
+        "Du5pvsBA" = _Du5pvsBA;
+        "WYy31WxP" = _WYy31WxP;
+        "5NOiYqKY" = _5NOiYqKY;
+        "kotfSovb" = _kotfSovb;
+        "Zik6G2NN" = _Zik6G2NN;
+        "2PqJegJz" = _2PqJegJz;
+        "qG3sdZaE" = _qG3sdZaE;
+        "gEsCPYmS" = _gEsCPYmS;
         "paper-1.18" = _8FWv3tgS;
         "paper-1.18.1" = _8FWv3tgS;
         "paper-1.18.2" = _8FWv3tgS;
@@ -1431,18 +1545,18 @@ let
         "paper-1.21.1" = _8FWv3tgS;
         "paper-1.21.2" = _8FWv3tgS;
         "paper-1.21.3" = _8FWv3tgS;
-        "paper-1.21.4" = _7bX08Hmo;
-        "paper-1.21.5" = _7bX08Hmo;
-        "paper-1.21.6" = _7bX08Hmo;
-        "paper-1.21.7" = _7bX08Hmo;
-        "paper-1.21.8" = _7bX08Hmo;
-        "paper-1.21.9" = _7bX08Hmo;
-        "paper-1.21.10" = _7bX08Hmo;
-        "paper-1.21.11" = _7bX08Hmo;
-        "paper-26.1" = _7bX08Hmo;
-        "paper-26.1.1" = _7bX08Hmo;
-        "paper-26.1.2" = _7bX08Hmo;
-        "paper-26.2" = _7bX08Hmo;
+        "paper-1.21.4" = _gEsCPYmS;
+        "paper-1.21.5" = _gEsCPYmS;
+        "paper-1.21.6" = _gEsCPYmS;
+        "paper-1.21.7" = _gEsCPYmS;
+        "paper-1.21.8" = _gEsCPYmS;
+        "paper-1.21.9" = _gEsCPYmS;
+        "paper-1.21.10" = _gEsCPYmS;
+        "paper-1.21.11" = _gEsCPYmS;
+        "paper-26.1" = _gEsCPYmS;
+        "paper-26.1.1" = _gEsCPYmS;
+        "paper-26.1.2" = _gEsCPYmS;
+        "paper-26.2" = _gEsCPYmS;
         "purpur-1.18" = _8FWv3tgS;
         "purpur-1.18.1" = _8FWv3tgS;
         "purpur-1.18.2" = _8FWv3tgS;
@@ -1462,18 +1576,18 @@ let
         "purpur-1.21.1" = _8FWv3tgS;
         "purpur-1.21.2" = _8FWv3tgS;
         "purpur-1.21.3" = _8FWv3tgS;
-        "purpur-1.21.4" = _7bX08Hmo;
-        "purpur-1.21.5" = _7bX08Hmo;
-        "purpur-1.21.6" = _7bX08Hmo;
-        "purpur-1.21.7" = _7bX08Hmo;
-        "purpur-1.21.8" = _7bX08Hmo;
-        "purpur-1.21.9" = _7bX08Hmo;
-        "purpur-1.21.10" = _7bX08Hmo;
-        "purpur-1.21.11" = _7bX08Hmo;
-        "purpur-26.1" = _7bX08Hmo;
-        "purpur-26.1.1" = _7bX08Hmo;
-        "purpur-26.1.2" = _7bX08Hmo;
-        "purpur-26.2" = _7bX08Hmo;
+        "purpur-1.21.4" = _gEsCPYmS;
+        "purpur-1.21.5" = _gEsCPYmS;
+        "purpur-1.21.6" = _gEsCPYmS;
+        "purpur-1.21.7" = _gEsCPYmS;
+        "purpur-1.21.8" = _gEsCPYmS;
+        "purpur-1.21.9" = _gEsCPYmS;
+        "purpur-1.21.10" = _gEsCPYmS;
+        "purpur-1.21.11" = _gEsCPYmS;
+        "purpur-26.1" = _gEsCPYmS;
+        "purpur-26.1.1" = _gEsCPYmS;
+        "purpur-26.1.2" = _gEsCPYmS;
+        "purpur-26.2" = _gEsCPYmS;
         "spigot-1.18" = _8FWv3tgS;
         "spigot-1.18.1" = _8FWv3tgS;
         "spigot-1.18.2" = _8FWv3tgS;
@@ -1521,18 +1635,18 @@ let
         "folia-1.21.1" = _8FWv3tgS;
         "folia-1.21.2" = _8FWv3tgS;
         "folia-1.21.3" = _8FWv3tgS;
-        "folia-1.21.4" = _7bX08Hmo;
-        "folia-1.21.5" = _7bX08Hmo;
-        "folia-1.21.6" = _7bX08Hmo;
-        "folia-1.21.7" = _7bX08Hmo;
-        "folia-1.21.8" = _7bX08Hmo;
-        "folia-1.21.9" = _7bX08Hmo;
-        "folia-1.21.10" = _7bX08Hmo;
-        "folia-1.21.11" = _7bX08Hmo;
-        "folia-26.1" = _7bX08Hmo;
-        "folia-26.1.1" = _7bX08Hmo;
-        "folia-26.1.2" = _7bX08Hmo;
-        "folia-26.2" = _7bX08Hmo;
+        "folia-1.21.4" = _gEsCPYmS;
+        "folia-1.21.5" = _gEsCPYmS;
+        "folia-1.21.6" = _gEsCPYmS;
+        "folia-1.21.7" = _gEsCPYmS;
+        "folia-1.21.8" = _gEsCPYmS;
+        "folia-1.21.9" = _gEsCPYmS;
+        "folia-1.21.10" = _gEsCPYmS;
+        "folia-1.21.11" = _gEsCPYmS;
+        "folia-26.1" = _gEsCPYmS;
+        "folia-26.1.1" = _gEsCPYmS;
+        "folia-26.1.2" = _gEsCPYmS;
+        "folia-26.2" = _gEsCPYmS;
         "pkg-1.0.1" = _31ipNODi;
         "pkg-1.0.1-b9e8ded" = _4c3Z95uy;
         "pkg-1.0.1-5a2fdaf" = _4YqVMRnb;
@@ -1767,7 +1881,26 @@ let
         "pkg-4.3.0+5e371e1" = _T4G1ElD0;
         "pkg-4.3.1" = _ta6FMVEM;
         "pkg-4.3.1+b8bf368" = _7bX08Hmo;
-        "default" = _7bX08Hmo;
+        "pkg-4.3.1+e5dd311" = _KBgLucCw;
+        "pkg-4.3.1+762c907" = _EGIc8IU7;
+        "pkg-4.3.1+4b86022" = _jnfzFvLj;
+        "pkg-4.3.1+9d8f3ac" = _gWqZzfZF;
+        "pkg-4.3.1+e72c50d" = _HvdsR8Fn;
+        "pkg-4.3.1+21434c8" = _qmIDJ0S4;
+        "pkg-4.3.1+a680874" = _Ees5KnTT;
+        "pkg-4.3.1+3fac015" = _y2VMHx8s;
+        "pkg-4.3.1+3aa171f" = _FeEXzNZS;
+        "pkg-4.3.1+2b09674" = _1lEM1tE7;
+        "pkg-4.3.1+3fe174d" = _pOj0uRgd;
+        "pkg-4.3.1+bdc91ec" = _Du5pvsBA;
+        "pkg-4.3.1+fe45700" = _WYy31WxP;
+        "pkg-4.3.2" = _5NOiYqKY;
+        "pkg-4.3.2+618319f" = _kotfSovb;
+        "pkg-4.3.2+ec1b1ce" = _Zik6G2NN;
+        "pkg-4.3.2+aaebbdf" = _2PqJegJz;
+        "pkg-4.3.2+8420f94" = _qG3sdZaE;
+        "pkg-4.3.2+1e73114" = _gEsCPYmS;
+        "default" = _gEsCPYmS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "plugin-updater";

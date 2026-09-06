@@ -141,6 +141,11 @@ let
             "file" = "artifactscrafting-1.0.0-forge-1.20.1-RPG.jar";
             "hash" = "sha512-R7uFq7Ns+/NDCwGVPOPtkUWj8xLmKbpptBTLaL9n3BCDpTK4fSPRCJPFyqog/YQYffLq+2I43b8ctZ16JasjQQ==";
         };
+        _Rf24Abtp = {
+            "id" = "Rf24Abtp";
+            "file" = "artifactscrafting-forge1.12.2-1.0.0.jar";
+            "hash" = "sha512-Yz8EQLs+1e6w/3se0DlHP5Ix24WTm+we0oYR5KWwxpq/7dKItuBhIxvepP0yCkbZQGY16Hbiizu6MWoML2layQ==";
+        };
     in {
         "txFGvt5s" = _txFGvt5s;
         "pyhK3rZ4" = _pyhK3rZ4;
@@ -170,11 +175,13 @@ let
         "aOS6Opzf" = _aOS6Opzf;
         "MMjfZMx5" = _MMjfZMx5;
         "7cB1NYQZ" = _7cB1NYQZ;
+        "Rf24Abtp" = _Rf24Abtp;
         "forge-1.20.1" = _7cB1NYQZ;
         "forge-1.16.5" = _52L6UJXd;
         "forge-1.18.2" = _bHdJBqRq;
         "forge-1.19.2" = _LMXdVIsa;
         "forge-1.19.4" = _2PjZxEa8;
+        "forge-1.12.2" = _Rf24Abtp;
         "neoforge-1.20.1" = _txFGvt5s;
         "neoforge-1.21.1" = _Q1Uu7dRa;
         "neoforge-1.21.11" = _2e7mbadO;
@@ -183,7 +190,7 @@ let
         "fabric-1.21.1" = _HNGzMHGS;
         "fabric-1.21.11" = _ZPjDkZ43;
         "fabric-26.1.2" = _MMjfZMx5;
-        "pkg-1.0.0" = _7cB1NYQZ;
+        "pkg-1.0.0" = _Rf24Abtp;
         "pkg-1.1.0" = _Q1Uu7dRa;
         "pkg-1.0.1" = _iuSM2sIB;
         "pkg-1.0.2" = _vn4vyybQ;
@@ -193,7 +200,7 @@ let
         "pkg-1.0.4" = _nBqD4rVN;
         "pkg-1.2.0" = _ZPjDkZ43;
         "pkg-2.0.0" = _MMjfZMx5;
-        "default" = _7cB1NYQZ;
+        "default" = _Rf24Abtp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "artifacts-crafting";

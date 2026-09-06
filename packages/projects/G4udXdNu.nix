@@ -1976,6 +1976,266 @@ let
             "file" = "bedrock-miner-v1.5.4-mc1.21.6.jar";
             "hash" = "sha512-2VsOtIJXwXMI5lpUVUIKHdSXogfAGgsLcww8fAHzkFK9V1EYBKRMhx70wQF3Y62GfX3llwZ3pwYiRVdmVb9XJw==";
         };
+        _hbPwOH6U = {
+            "id" = "hbPwOH6U";
+            "file" = "bedrock-miner-v1.6-mc1.20.2.jar";
+            "hash" = "sha512-90oWX0gRV9r3/JNKiaqVhZT7Pf0CbU0cfb4gElXJIppaYZn1wM2PRpAspNOc1RyTolH/eTv2Z1e0ZIBKFZxRxg==";
+        };
+        _rSnQAmLc = {
+            "id" = "rSnQAmLc";
+            "file" = "bedrock-miner-v1.6-mc1.21.3.jar";
+            "hash" = "sha512-yR0TThDOErqvsY0q+4d9Fz0KY8ryoEGfRDl4+oTgj0lzmwFQUfmhUPmn/3hrD+zsdZauEM3dQxo0tqCPbbQ1jg==";
+        };
+        _gLZmOwot = {
+            "id" = "gLZmOwot";
+            "file" = "bedrock-miner-v1.6-mc1.21.4.jar";
+            "hash" = "sha512-1gM1YFTFAFY8DqScs+8Is10rh08p0mD3hb01gGoxX195FvAqAm8x0t/oPvE8HPDyWz+HZLzxy/RePInnZ0sRiQ==";
+        };
+        _eQL1QcJG = {
+            "id" = "eQL1QcJG";
+            "file" = "bedrock-miner-v1.6-mc1.21.5.jar";
+            "hash" = "sha512-c7Sd2ZAPklPkXLXf3/fhtpUi9VHeLu2aovCkNwbK8/uvw5cE0l+gHds4XaUiDFbGwn0bduDzXStnMpH/DSyoTA==";
+        };
+        _urGyJG5D = {
+            "id" = "urGyJG5D";
+            "file" = "bedrock-miner-v1.6-mc1.21.8.jar";
+            "hash" = "sha512-oR6E6IP4G/Q6CaiBmzyvFINay+kWcOXTOlYaasGY3BKcGCBlHGHjdQ6sjz2F3lrijKWZjnn054rg0VG/vRvfRA==";
+        };
+        _QDlD8Vll = {
+            "id" = "QDlD8Vll";
+            "file" = "bedrock-miner-v1.6-mc1.20.6.jar";
+            "hash" = "sha512-K9Tb4a5L1rVFouqOdJUD+DT9NVADbhmJEqnSBZNLifFSACpq04MY0tYcWjGoMhr/GlnXBKBFji+vWtXurbEJZA==";
+        };
+        _j3d6X37F = {
+            "id" = "j3d6X37F";
+            "file" = "bedrock-miner-v1.6-mc1.19.4.jar";
+            "hash" = "sha512-rf24gy+amCJzWgY7oON6YXmaKsrlkxU+moZJKVJ+LSonRUjmcUhUhfHHg9EpvIMVRA9vThZKTAjBvoRbFgpuOg==";
+        };
+        _gnZeI9Rs = {
+            "id" = "gnZeI9Rs";
+            "file" = "bedrock-miner-v1.6-mc1.20.5.jar";
+            "hash" = "sha512-j6u1FYngtT/KQXNTWrG21LsTSFjR482nVFKbpHScrvihK6W2CI3m47VZHnzGucyyar3rN12XviPvcNAUi2//Sw==";
+        };
+        _A9bN32mx = {
+            "id" = "A9bN32mx";
+            "file" = "bedrock-miner-v1.6-mc1.20.1.jar";
+            "hash" = "sha512-eA8wF/DmKyOaQbyIvbNb0WRekzoB7jezEpgrBRo4DYgFdhbkJYyDTJYwvCO+pkDRrqaFpCcrhD9IzWyu0bGbgA==";
+        };
+        _UaXnNec5 = {
+            "id" = "UaXnNec5";
+            "file" = "bedrock-miner-v1.6-mc1.21.2.jar";
+            "hash" = "sha512-wv7hO3ds010P+vpVVB8aDs/8JL/CMPd5MDzJfrtpRsRjT6/0kh3j4P382adhLj0JBky+iSGb4d/9AtB/E3Y5pg==";
+        };
+        _hY6E0qz9 = {
+            "id" = "hY6E0qz9";
+            "file" = "bedrock-miner-v1.6-mc1.19.jar";
+            "hash" = "sha512-WsA4NEWYFWe2Qfu0kLnnmlJ955T83cAY8n44agT6QUx0sZV5KZItP+r6ZF2Si9ByMWkO+xm3ZKbro8d0IF/bbg==";
+        };
+        _KOCA6rik = {
+            "id" = "KOCA6rik";
+            "file" = "bedrock-miner-v1.6-mc1.20.4.jar";
+            "hash" = "sha512-rd0Lt+rnrgQqlrTBiS5PsvmOzAfJhEMY+BpdF8Be5bD6zLVWVbQvaF/x28ngvgXu3lW7iLaDPijFxbv7YRI1+A==";
+        };
+        _oXLTEyIP = {
+            "id" = "oXLTEyIP";
+            "file" = "bedrock-miner-v1.6-mc1.20.jar";
+            "hash" = "sha512-a1VHPiT9Z3bHX4X+crc7uzQrvhI6Cc5UoHGlZmpvH3SG2FbDJ8d1c0sOg39s2XMHOMEN4ppSzoJUKjHzOmc0xQ==";
+        };
+        _vl3ARoR3 = {
+            "id" = "vl3ARoR3";
+            "file" = "bedrock-miner-v1.6-mc1.19.3.jar";
+            "hash" = "sha512-dMgGARvHqWLzPylI38t4lc/MqM6/3fSM6a6w9Lxpbc0XIOF9DZvha+7X5//7d5zsWFuADhPBL7fIz67ThC9CCg==";
+        };
+        _2qWm8kcU = {
+            "id" = "2qWm8kcU";
+            "file" = "bedrock-miner-v1.6-mc1.21.10.jar";
+            "hash" = "sha512-+yOeC6UizwQplCiuNKHlalzpjjW6qq5tlJYlmF4I4r/spgiD/EUVysNtEItTyha/8Z38UzGCqKUWcfIJHCGoeQ==";
+        };
+        _YR3UqBRq = {
+            "id" = "YR3UqBRq";
+            "file" = "bedrock-miner-v1.6-mc1.21.7.jar";
+            "hash" = "sha512-RZLWsyYYUhTa0SzR6DfNazYaz3SNPqyhsMcwaGTbi0YRrRx9QJXT135z64qcH25nn+/HVFPLGvAcEV0iCkLRnA==";
+        };
+        _GVe34j05 = {
+            "id" = "GVe34j05";
+            "file" = "bedrock-miner-v1.6-mc1.20.3.jar";
+            "hash" = "sha512-j81FGkLkCty7UrGoOo8gpaUXqGPu7/vGTlbKZ0ASxiidS4uGKVwFVumzVONQ5/mQZHexFOyWzkyei5VaNdmByg==";
+        };
+        _Lw3egd3i = {
+            "id" = "Lw3egd3i";
+            "file" = "bedrock-miner-v1.6-mc26.2.jar";
+            "hash" = "sha512-mA8h2PZoGKnw985TfIjczx+qaUgXhRtECrNnINxzVAzpKqU/mfb5+GHQJCwKzoHEFhVeBBkt9Yfok62eHCrT1g==";
+        };
+        _rnPoOGcN = {
+            "id" = "rnPoOGcN";
+            "file" = "bedrock-miner-v1.6-mc1.21.6.jar";
+            "hash" = "sha512-m907IWcaOUOGUu20UjjTXPjNGn6Ki4G5VnZQeHhYnJjvYOqCkM4fb/knKv7nxJrnfLzl81jwFDpNiyYH/XSdEw==";
+        };
+        _iGvg1oqf = {
+            "id" = "iGvg1oqf";
+            "file" = "bedrock-miner-v1.6-mc1.21.jar";
+            "hash" = "sha512-cTh/pRXe32X+E6W2l7YIJSxxYDvocM2Vc8qrmW6RFkP7jYzhJ/wUlJ1730h6HY/7fi6IXF7ZjOk+r+4Ga2rT/w==";
+        };
+        _ls5H1s6W = {
+            "id" = "ls5H1s6W";
+            "file" = "bedrock-miner-v1.6-mc1.19.1.jar";
+            "hash" = "sha512-2EtGxfkGnqPJAElGdtkNAP2AfA0dUFDZcbmwo9fi5s1ZktK/GQBeJcGEm5+cCbNgJuNFjgwOgaL+kao7VhXbew==";
+        };
+        _HjqBU9de = {
+            "id" = "HjqBU9de";
+            "file" = "bedrock-miner-v1.6-mc1.19.2.jar";
+            "hash" = "sha512-qkZjG6+ELp8v8RAHSYAGUza9Sm3cEktZR8iSmk356ohOQPPb1O+ynTqWwV564fM3lKCUF0JoedAEEX5ZEHu14Q==";
+        };
+        _z4aeKUcR = {
+            "id" = "z4aeKUcR";
+            "file" = "bedrock-miner-v1.6-mc1.21.9.jar";
+            "hash" = "sha512-ULR1gfWkZQ5sbogUuntLykE+FQ5PGEwgtUTzhQpdKKVbWyc2T38IreEpIDeIVRO0W682TF61rZLoqoXE+ypmQg==";
+        };
+        _fCe4TMhD = {
+            "id" = "fCe4TMhD";
+            "file" = "bedrock-miner-v1.6-mc1.21.1.jar";
+            "hash" = "sha512-nNLEPX2O6qqiHJ8XJERojY23boA+baIRbY8v6hGguZNeN4vJ3AwljlKsEPSRCGkF9utd/bmR+AO+6V1hxqhNMw==";
+        };
+        _8b7Y0f02 = {
+            "id" = "8b7Y0f02";
+            "file" = "bedrock-miner-v1.6-mc26.1.jar";
+            "hash" = "sha512-Nhk5TJ+KeI4OAzT2fioh6Qlsi/EkRc2ZcOMAcMCGcqeCy7tv2FV95dPpkXh8bmTgSyy8tUK7BqdJ1MNSyWIR/w==";
+        };
+        _YUl23m1t = {
+            "id" = "YUl23m1t";
+            "file" = "bedrock-miner-v1.6-mc1.21.11.jar";
+            "hash" = "sha512-FrVT+XIHwKwGEH/zEGUadXyHIINIM7xc+XuFEyknPL2lFmIpm2tHftLTOWS6AEVK/sN5E7CksIc4/H3pm6FZtw==";
+        };
+        _V4EjG47Y = {
+            "id" = "V4EjG47Y";
+            "file" = "bedrock-miner-v1.6.1-mc1.19.2.jar";
+            "hash" = "sha512-tDvUKpfPfDb74LfTQYMpeaPriQAYWuM2yW8Nn2P52AQJ//l2svkeVxrPItjM1//RvLLS2rKi0lo25ozmEhRduw==";
+        };
+        _aYjgFgI8 = {
+            "id" = "aYjgFgI8";
+            "file" = "bedrock-miner-v1.6.1-mc1.21.4.jar";
+            "hash" = "sha512-ynGeud0LqbmFwSpRdc8IKz/AWxgzPV68SNixjy4aanLMYIHMPRmGIGwE2h7FYRcoZI2ph/DcFk+SjVZ3rIJ31A==";
+        };
+        _az8dwNsd = {
+            "id" = "az8dwNsd";
+            "file" = "bedrock-miner-v1.6.1-mc1.21.9.jar";
+            "hash" = "sha512-LkN6eL3jyM6q1UWM3XDGo3DPqKcBZoUi5t8YtROkw3S96e4vQ5qJ10ybgLU3qxPHXy1mbiLx+2b/FVTxeXu51g==";
+        };
+        _G3tar26y = {
+            "id" = "G3tar26y";
+            "file" = "bedrock-miner-v1.6.1-mc1.21.2.jar";
+            "hash" = "sha512-fNaAMnpXzSPpClgvCWlnf1icknkQORnRitToIBpUGT7TYzGx5YtBY4uJMzsTqwC9N3rEFIvWzTbPgtNzvXMo3g==";
+        };
+        _ER3NA06T = {
+            "id" = "ER3NA06T";
+            "file" = "bedrock-miner-v1.6.1-mc1.21.3.jar";
+            "hash" = "sha512-iFBkajalys3O3xF5bci4YBmQm2Szq0vR/KVidAEtJ2A+MaAfRZgsoREvCnWHryfj53HM9dn1ZDq1IG6hujvKMw==";
+        };
+        _CeUgVvCW = {
+            "id" = "CeUgVvCW";
+            "file" = "bedrock-miner-v1.6.1-mc1.21.1.jar";
+            "hash" = "sha512-dqeCGfUKR+kAvTWZb4ycuJGgkhKEoBfIzBuF0lsW0cf5QQOlKb4YGabz1ql1zjsjT42Dl+RmlqNTK1mJPd6tmw==";
+        };
+        _YAJbRX8x = {
+            "id" = "YAJbRX8x";
+            "file" = "bedrock-miner-v1.6.1-mc1.20.2.jar";
+            "hash" = "sha512-iry9m161YnYAEF2/BMHqObO7nxVd7FpjMigT2VQyQlBQh4pdOVDcPpcND00fHhhRFCSLhRE0rOLQKcgi4K+V8g==";
+        };
+        _wpNjiKLj = {
+            "id" = "wpNjiKLj";
+            "file" = "bedrock-miner-v1.6.1-mc1.20.3.jar";
+            "hash" = "sha512-mpe2f0Nupyb65aeCRQuu63ej2NZZd36VPqaDViBCJT74g+QDh2pSPFyCt1Vw/b/ejznZoiS1SuzSGCsONeZj7g==";
+        };
+        _k38rPH2x = {
+            "id" = "k38rPH2x";
+            "file" = "bedrock-miner-v1.6.1-mc1.19.jar";
+            "hash" = "sha512-MWifcJbyLRoji8x5NL6jeKaiwqz/7vP2c2WEZSEdOw+gjm1TyJUfbkuvP3qO5YGjQxzM+HvEo3b3IxpvYWF+Ww==";
+        };
+        _9TV7mZko = {
+            "id" = "9TV7mZko";
+            "file" = "bedrock-miner-v1.6.1-mc1.21.10.jar";
+            "hash" = "sha512-4oHNu8zsL+e7k3hTXHqVq766EY7h8EZt432EjjwCCKgMIFG9km1sv3a3DBuvl2c100qt72gfT+OK4ta6WQtDUQ==";
+        };
+        _uwyPfHCL = {
+            "id" = "uwyPfHCL";
+            "file" = "bedrock-miner-v1.6.1-mc1.20.jar";
+            "hash" = "sha512-oHQ18QSOgmjJinPrBnl4JumJw+fzCfLxqv41WNLwfCxefhVHNrLfxpaqCnlatmsvznTiA8/Ea50Wu1s3XKrK2A==";
+        };
+        _9JTe21EH = {
+            "id" = "9JTe21EH";
+            "file" = "bedrock-miner-v1.6.1-mc1.19.1.jar";
+            "hash" = "sha512-Zg9R6TiHSS3n7t1GBPQ82rwljHBwmve5bNowa1QN+/aBRmQoxIss6myx1I1yG/J8C2L9aSxzX77acOwiGcObTQ==";
+        };
+        _KUEDuW3x = {
+            "id" = "KUEDuW3x";
+            "file" = "bedrock-miner-v1.6.1-mc1.21.7.jar";
+            "hash" = "sha512-8WKQXtqVbANRF858tS4PLQpi4VDzKy/z8kexW1Jyx7SfP/8EzWAJYPk5zkzJWoQWPkaJjwh4JdyEv6DfJ39w4g==";
+        };
+        _kkyR6ljq = {
+            "id" = "kkyR6ljq";
+            "file" = "bedrock-miner-v1.6.1-mc1.21.8.jar";
+            "hash" = "sha512-zTs/2eVlUHUZsQveB7M1gxOG8GMphvuYcobhPZmCqm+WokEEwyckyaWmyNmE1S3B6+EOJWZ3QX7IQDGGPYbDqg==";
+        };
+        _Q2lVssdP = {
+            "id" = "Q2lVssdP";
+            "file" = "bedrock-miner-v1.6.1-mc1.21.jar";
+            "hash" = "sha512-2/sgEc1IKZFtBASLsR4DKRWuqw0E3Y0jRju90qV6a6YnFfdzrBmmpSkmQkDRl1ImI7gEi3ZoW7pN2jPg6B6dpg==";
+        };
+        _xbKUGWVM = {
+            "id" = "xbKUGWVM";
+            "file" = "bedrock-miner-v1.6.1-mc26.1.jar";
+            "hash" = "sha512-p4wC0Nqluy//qMZ/lmN1rPA47wVvgpPNA9jfwDAfbngkvC0Ml4+fFmpEGWU4ziYNxkQpXn87/XKyX3x4IQwdcg==";
+        };
+        _xdSt2TZA = {
+            "id" = "xdSt2TZA";
+            "file" = "bedrock-miner-v1.6.1-mc1.21.6.jar";
+            "hash" = "sha512-IPOgvtW4IHcciAZfQ3nlaj+gM3dtq3TA1wAlTVtCzGS+dvra9nwlaQIjo3CCuAJ1rFPkZHWHNoP2BlPu7OzEZg==";
+        };
+        _YtQYQfj5 = {
+            "id" = "YtQYQfj5";
+            "file" = "bedrock-miner-v1.6.1-mc1.21.11.jar";
+            "hash" = "sha512-IM4hxZQ3TxRlkg520hoFQpXGfH/KFXg7uP18bWgJXNSjl9ogOfnfTGREhfIBs/6JTyVUct+5moU/0upE6t6JZw==";
+        };
+        _DiMRNzoP = {
+            "id" = "DiMRNzoP";
+            "file" = "bedrock-miner-v1.6.1-mc1.20.1.jar";
+            "hash" = "sha512-nszUZuR9z3txKVQbPs3tTAtTt+pxUxxDHvxF+hRy69Mp1jklJWM9OvATLfdX5PHbzXZSUlrt0rzauO1GApUXCg==";
+        };
+        _hinXMfAe = {
+            "id" = "hinXMfAe";
+            "file" = "bedrock-miner-v1.6.1-mc1.20.6.jar";
+            "hash" = "sha512-NOtr5asS6ymOKtXEBazLFaAdZ4ZJioMFc8h3nwkqqI9j6oHek8Ujbt/PSgFSM91yCkDzDTKAuqA7OChqYEzN9w==";
+        };
+        _IYE1sMRD = {
+            "id" = "IYE1sMRD";
+            "file" = "bedrock-miner-v1.6.1-mc1.19.4.jar";
+            "hash" = "sha512-w5B9vY5CrcnPeBf4lNCKBv5o2Oqn3ZjxpQuwfaNKi8BBxrp2E5T5T2Cemv6JUcgIbxC0A0I7Ud4r1l3uT3eg7g==";
+        };
+        _qUulKrr1 = {
+            "id" = "qUulKrr1";
+            "file" = "bedrock-miner-v1.6.1-mc1.20.5.jar";
+            "hash" = "sha512-dSyEUO+MMl/kNJyMTswLN7mo0JncofX2rr+ZNZ7COj2+Rw0vlLBgSXbBBLnEyvbCXq6iSNxY+X2hn45XcERbzw==";
+        };
+        _rLCVDZiS = {
+            "id" = "rLCVDZiS";
+            "file" = "bedrock-miner-v1.6.1-mc1.19.3.jar";
+            "hash" = "sha512-Yymu7ngfQO7UiNV5zhbCHJ1m5x5zAa5dLRW5oCCm0lcISoZE1XgAEjWhFpKMpMuQdTDUfR6XrhmfyavUxQwUGA==";
+        };
+        _5xZHfryk = {
+            "id" = "5xZHfryk";
+            "file" = "bedrock-miner-v1.6.1-mc1.20.4.jar";
+            "hash" = "sha512-0HGOX+CYCEmZDjom3rmVvigla4kvJFH1bcuQbnM2k8ZIIXtVad0ZOMHQN+c3p4NgnconKO0upJSFHzAwds/Esw==";
+        };
+        _pFPAQLRF = {
+            "id" = "pFPAQLRF";
+            "file" = "bedrock-miner-v1.6.1-mc26.2.jar";
+            "hash" = "sha512-PEpt00jovpJc6j9Lpkm/pVw2ajUyLQSK2Xijpw2MOHgVnZBfXc52siddf03rkSgTDV6puW6dImw4Y0w2hKlRjg==";
+        };
+        _ouusjl3O = {
+            "id" = "ouusjl3O";
+            "file" = "bedrock-miner-v1.6.1-mc1.21.5.jar";
+            "hash" = "sha512-ZKLmpWvZEmyYP+2QvhRZVuR0qOAwWRazk28Ma41zZoxJAEjBFJsBsdnqpGYTH3fAENqhTjGbcq71HuNTB0R07Q==";
+        };
     in {
         "UTi5F6Bm" = _UTi5F6Bm;
         "ZmFZHjyw" = _ZmFZHjyw;
@@ -2372,34 +2632,86 @@ let
         "1kI6GEAK" = _1kI6GEAK;
         "uukAMHpw" = _uukAMHpw;
         "2kfG4muE" = _2kfG4muE;
-        "fabric-1.20" = _QTqYOs13;
-        "fabric-1.20.1" = _sxff2aPd;
-        "fabric-1.20.2" = _BPJviyAO;
-        "fabric-1.20.5" = _BfIyccB6;
-        "fabric-1.20.6" = _9nXcyqeA;
-        "fabric-1.21" = _AgA0lzu5;
-        "fabric-1.21.1" = _XJ2xxslB;
-        "fabric-1.21.2" = _1kI6GEAK;
-        "fabric-1.21.3" = _zcTpJfUj;
-        "fabric-1.21.4" = _JEJgRwiB;
-        "fabric-1.21.5" = _gEl0yhmQ;
-        "fabric-1.21.6" = _2kfG4muE;
-        "fabric-1.21.7" = _2BWkHAmP;
-        "fabric-1.21.8" = _sUZXL11F;
-        "fabric-1.19.3" = _7V3LENPB;
-        "fabric-1.19" = _uukAMHpw;
-        "fabric-1.21.9" = _XH1MDFkj;
-        "fabric-1.19.4" = _SV31AFsj;
-        "fabric-1.20.4" = _qkCgWzEW;
-        "fabric-1.20.3" = _LItPrdo3;
-        "fabric-1.19.2" = _LcAHOcOp;
-        "fabric-1.21.10" = _CGzSCcPW;
-        "fabric-1.19.1" = _ovG2NorX;
-        "fabric-1.21.11" = _BYA8UrRu;
-        "fabric-26.1" = _lnhP4saM;
-        "fabric-26.1.1" = _lnhP4saM;
-        "fabric-26.1.2" = _lnhP4saM;
-        "fabric-26.2" = _l7cZW8Cq;
+        "hbPwOH6U" = _hbPwOH6U;
+        "rSnQAmLc" = _rSnQAmLc;
+        "gLZmOwot" = _gLZmOwot;
+        "eQL1QcJG" = _eQL1QcJG;
+        "urGyJG5D" = _urGyJG5D;
+        "QDlD8Vll" = _QDlD8Vll;
+        "j3d6X37F" = _j3d6X37F;
+        "gnZeI9Rs" = _gnZeI9Rs;
+        "A9bN32mx" = _A9bN32mx;
+        "UaXnNec5" = _UaXnNec5;
+        "hY6E0qz9" = _hY6E0qz9;
+        "KOCA6rik" = _KOCA6rik;
+        "oXLTEyIP" = _oXLTEyIP;
+        "vl3ARoR3" = _vl3ARoR3;
+        "2qWm8kcU" = _2qWm8kcU;
+        "YR3UqBRq" = _YR3UqBRq;
+        "GVe34j05" = _GVe34j05;
+        "Lw3egd3i" = _Lw3egd3i;
+        "rnPoOGcN" = _rnPoOGcN;
+        "iGvg1oqf" = _iGvg1oqf;
+        "ls5H1s6W" = _ls5H1s6W;
+        "HjqBU9de" = _HjqBU9de;
+        "z4aeKUcR" = _z4aeKUcR;
+        "fCe4TMhD" = _fCe4TMhD;
+        "8b7Y0f02" = _8b7Y0f02;
+        "YUl23m1t" = _YUl23m1t;
+        "V4EjG47Y" = _V4EjG47Y;
+        "aYjgFgI8" = _aYjgFgI8;
+        "az8dwNsd" = _az8dwNsd;
+        "G3tar26y" = _G3tar26y;
+        "ER3NA06T" = _ER3NA06T;
+        "CeUgVvCW" = _CeUgVvCW;
+        "YAJbRX8x" = _YAJbRX8x;
+        "wpNjiKLj" = _wpNjiKLj;
+        "k38rPH2x" = _k38rPH2x;
+        "9TV7mZko" = _9TV7mZko;
+        "uwyPfHCL" = _uwyPfHCL;
+        "9JTe21EH" = _9JTe21EH;
+        "KUEDuW3x" = _KUEDuW3x;
+        "kkyR6ljq" = _kkyR6ljq;
+        "Q2lVssdP" = _Q2lVssdP;
+        "xbKUGWVM" = _xbKUGWVM;
+        "xdSt2TZA" = _xdSt2TZA;
+        "YtQYQfj5" = _YtQYQfj5;
+        "DiMRNzoP" = _DiMRNzoP;
+        "hinXMfAe" = _hinXMfAe;
+        "IYE1sMRD" = _IYE1sMRD;
+        "qUulKrr1" = _qUulKrr1;
+        "rLCVDZiS" = _rLCVDZiS;
+        "5xZHfryk" = _5xZHfryk;
+        "pFPAQLRF" = _pFPAQLRF;
+        "ouusjl3O" = _ouusjl3O;
+        "fabric-1.20" = _uwyPfHCL;
+        "fabric-1.20.1" = _DiMRNzoP;
+        "fabric-1.20.2" = _YAJbRX8x;
+        "fabric-1.20.5" = _qUulKrr1;
+        "fabric-1.20.6" = _hinXMfAe;
+        "fabric-1.21" = _Q2lVssdP;
+        "fabric-1.21.1" = _CeUgVvCW;
+        "fabric-1.21.2" = _G3tar26y;
+        "fabric-1.21.3" = _ER3NA06T;
+        "fabric-1.21.4" = _aYjgFgI8;
+        "fabric-1.21.5" = _ouusjl3O;
+        "fabric-1.21.6" = _xdSt2TZA;
+        "fabric-1.21.7" = _KUEDuW3x;
+        "fabric-1.21.8" = _kkyR6ljq;
+        "fabric-1.19.3" = _rLCVDZiS;
+        "fabric-1.19" = _k38rPH2x;
+        "fabric-1.21.9" = _az8dwNsd;
+        "fabric-1.19.4" = _IYE1sMRD;
+        "fabric-1.20.4" = _5xZHfryk;
+        "fabric-1.20.3" = _wpNjiKLj;
+        "fabric-1.19.2" = _V4EjG47Y;
+        "fabric-1.21.10" = _9TV7mZko;
+        "fabric-1.19.1" = _9JTe21EH;
+        "fabric-1.21.11" = _YtQYQfj5;
+        "fabric-26.1" = _xbKUGWVM;
+        "fabric-26.1.1" = _xbKUGWVM;
+        "fabric-26.1.2" = _xbKUGWVM;
+        "fabric-26.2" = _pFPAQLRF;
         "pkg-1.20-1.1.6" = _UTi5F6Bm;
         "pkg-1.20.1-1.1.7" = _ZmFZHjyw;
         "pkg-1.20.1-1.1.8" = _1QLHEBcY;
@@ -2778,7 +3090,59 @@ let
         "pkg-v1.5.4-mc1.21.2" = _1kI6GEAK;
         "pkg-v1.5.4-mc1.19" = _uukAMHpw;
         "pkg-v1.5.4-mc1.21.6" = _2kfG4muE;
-        "default" = _2kfG4muE;
+        "pkg-v1.6-mc1.20.2" = _hbPwOH6U;
+        "pkg-v1.6-mc1.21.3" = _rSnQAmLc;
+        "pkg-v1.6-mc1.21.4" = _gLZmOwot;
+        "pkg-v1.6-mc1.21.5" = _eQL1QcJG;
+        "pkg-v1.6-mc1.21.8" = _urGyJG5D;
+        "pkg-v1.6-mc1.20.6" = _QDlD8Vll;
+        "pkg-v1.6-mc1.19.4" = _j3d6X37F;
+        "pkg-v1.6-mc1.20.5" = _gnZeI9Rs;
+        "pkg-v1.6-mc1.20.1" = _A9bN32mx;
+        "pkg-v1.6-mc1.21.2" = _UaXnNec5;
+        "pkg-v1.6-mc1.19" = _hY6E0qz9;
+        "pkg-v1.6-mc1.20.4" = _KOCA6rik;
+        "pkg-v1.6-mc1.20" = _oXLTEyIP;
+        "pkg-v1.6-mc1.19.3" = _vl3ARoR3;
+        "pkg-v1.6-mc1.21.10" = _2qWm8kcU;
+        "pkg-v1.6-mc1.21.7" = _YR3UqBRq;
+        "pkg-v1.6-mc1.20.3" = _GVe34j05;
+        "pkg-v1.6-mc26.2" = _Lw3egd3i;
+        "pkg-v1.6-mc1.21.6" = _rnPoOGcN;
+        "pkg-v1.6-mc1.21" = _iGvg1oqf;
+        "pkg-v1.6-mc1.19.1" = _ls5H1s6W;
+        "pkg-v1.6-mc1.19.2" = _HjqBU9de;
+        "pkg-v1.6-mc1.21.9" = _z4aeKUcR;
+        "pkg-v1.6-mc1.21.1" = _fCe4TMhD;
+        "pkg-v1.6-mc26.1" = _8b7Y0f02;
+        "pkg-v1.6-mc1.21.11" = _YUl23m1t;
+        "pkg-v1.6.1-mc1.19.2" = _V4EjG47Y;
+        "pkg-v1.6.1-mc1.21.4" = _aYjgFgI8;
+        "pkg-v1.6.1-mc1.21.9" = _az8dwNsd;
+        "pkg-v1.6.1-mc1.21.2" = _G3tar26y;
+        "pkg-v1.6.1-mc1.21.3" = _ER3NA06T;
+        "pkg-v1.6.1-mc1.21.1" = _CeUgVvCW;
+        "pkg-v1.6.1-mc1.20.2" = _YAJbRX8x;
+        "pkg-v1.6.1-mc1.20.3" = _wpNjiKLj;
+        "pkg-v1.6.1-mc1.19" = _k38rPH2x;
+        "pkg-v1.6.1-mc1.21.10" = _9TV7mZko;
+        "pkg-v1.6.1-mc1.20" = _uwyPfHCL;
+        "pkg-v1.6.1-mc1.19.1" = _9JTe21EH;
+        "pkg-v1.6.1-mc1.21.7" = _KUEDuW3x;
+        "pkg-v1.6.1-mc1.21.8" = _kkyR6ljq;
+        "pkg-v1.6.1-mc1.21" = _Q2lVssdP;
+        "pkg-v1.6.1-mc26.1" = _xbKUGWVM;
+        "pkg-v1.6.1-mc1.21.6" = _xdSt2TZA;
+        "pkg-v1.6.1-mc1.21.11" = _YtQYQfj5;
+        "pkg-v1.6.1-mc1.20.1" = _DiMRNzoP;
+        "pkg-v1.6.1-mc1.20.6" = _hinXMfAe;
+        "pkg-v1.6.1-mc1.19.4" = _IYE1sMRD;
+        "pkg-v1.6.1-mc1.20.5" = _qUulKrr1;
+        "pkg-v1.6.1-mc1.19.3" = _rLCVDZiS;
+        "pkg-v1.6.1-mc1.20.4" = _5xZHfryk;
+        "pkg-v1.6.1-mc26.2" = _pFPAQLRF;
+        "pkg-v1.6.1-mc1.21.5" = _ouusjl3O;
+        "default" = _ouusjl3O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "next-fabric-bedrock-miner";

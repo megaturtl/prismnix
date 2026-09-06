@@ -411,6 +411,26 @@ let
             "file" = "fertilization-neoforge-26.2-26.2.0.2.jar";
             "hash" = "sha512-rvCl4/SNE7Y2y62tJqnCFh1XSVnz2JjlrjWe4mFdObBfarAvDqwqMoGAwhv3MRHGXNHbyWIk2EpBcnh9uAc64w==";
         };
+        _eShYd4Zo = {
+            "id" = "eShYd4Zo";
+            "file" = "fertilization-fabric-26.1.2-26.1.2.2.jar";
+            "hash" = "sha512-5QRJfkHeAHnHlH4wDedk3EV0aElF0JPULKWgfYG3LqnYCJUfvHur5qmfmWoQ2gG5ytO9G3F58e9Vllb7swpiJw==";
+        };
+        _GuU9tYLC = {
+            "id" = "GuU9tYLC";
+            "file" = "fertilization-neoforge-26.1.2-26.1.2.2.jar";
+            "hash" = "sha512-AbPtTfdQUQ3yEKOVTIbnOSnlKCWMSRpD3rEofXLDxjiKOvV/L7ftIrcbt29utHthR5RzmSn3V8atujUxitn8wg==";
+        };
+        _KwGQvRxV = {
+            "id" = "KwGQvRxV";
+            "file" = "fertilization-fabric-26.2-26.2.0.3.jar";
+            "hash" = "sha512-h67rnhrPcM+rMCXZlJn/1TL0RJezEIdMosFnvRF2JOrNtNTNwbPjaCm+MS3bT52lkeXrmdQmNoLH2YHioU1h4g==";
+        };
+        _fnTGsQwB = {
+            "id" = "fnTGsQwB";
+            "file" = "fertilization-neoforge-26.2-26.2.0.3.jar";
+            "hash" = "sha512-KaahpcgstJxdfI6HMnselFRR6OpWQISmSf6QycwUT+pmo/8NIhkloxbMPFp/JWsogc52XPpDfGA+oAGKWf1jzg==";
+        };
     in {
         "vIDwsZo8" = _vIDwsZo8;
         "DbZYwwGv" = _DbZYwwGv;
@@ -494,6 +514,10 @@ let
         "OzfeYuZL" = _OzfeYuZL;
         "7luVn7by" = _7luVn7by;
         "J4jHs8Rd" = _J4jHs8Rd;
+        "eShYd4Zo" = _eShYd4Zo;
+        "GuU9tYLC" = _GuU9tYLC;
+        "KwGQvRxV" = _KwGQvRxV;
+        "fnTGsQwB" = _fnTGsQwB;
         "forge-1.19" = _vIDwsZo8;
         "forge-1.19.1" = _vIDwsZo8;
         "forge-1.19.2" = _vIDwsZo8;
@@ -543,8 +567,8 @@ let
         "fabric-1.21.11" = _xfqtj1N3;
         "fabric-26.1" = _1S3KxJkq;
         "fabric-26.1.1" = _1S3KxJkq;
-        "fabric-26.1.2" = _OzfeYuZL;
-        "fabric-26.2" = _7luVn7by;
+        "fabric-26.1.2" = _eShYd4Zo;
+        "fabric-26.2" = _KwGQvRxV;
         "neoforge-1.20.2" = _oIQjtL3K;
         "neoforge-1.20.4" = _Y09vM6oL;
         "neoforge-1.20.6" = _nEefGWRf;
@@ -562,8 +586,8 @@ let
         "neoforge-1.21.11" = _UbQiUgKI;
         "neoforge-26.1" = _JavO4wqh;
         "neoforge-26.1.1" = _JavO4wqh;
-        "neoforge-26.1.2" = _s4L0pZ7N;
-        "neoforge-26.2" = _J4jHs8Rd;
+        "neoforge-26.1.2" = _GuU9tYLC;
+        "neoforge-26.2" = _fnTGsQwB;
         "pkg-9.0.0+forge-1.19" = _vIDwsZo8;
         "pkg-9.0.0+fabric-1.19" = _DbZYwwGv;
         "pkg-10.0.0+fabric-1.19.3" = _8iLdf3MC;
@@ -646,7 +670,11 @@ let
         "pkg-26.1.2.1+fabric-26.1.2" = _OzfeYuZL;
         "pkg-26.2.0.2+fabric-26.2" = _7luVn7by;
         "pkg-26.2.0.2+neoforge-26.2" = _J4jHs8Rd;
-        "default" = _J4jHs8Rd;
+        "pkg-26.1.2.2+fabric-26.1.2" = _eShYd4Zo;
+        "pkg-26.1.2.2+neoforge-26.1.2" = _GuU9tYLC;
+        "pkg-26.2.0.3+fabric-26.2" = _KwGQvRxV;
+        "pkg-26.2.0.3+neoforge-26.2" = _fnTGsQwB;
+        "default" = _fnTGsQwB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fertilization";

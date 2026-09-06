@@ -161,6 +161,16 @@ let
             "file" = "underground_village-fabric-26.1-2.1.0.jar";
             "hash" = "sha512-7JTO1GeyaSn9SgtPSEin2MSf00PeRSWNC/v5FOBVV1gHWE0auCwoHkaHcaIldyvmH3U7HFGiUBfIBwuRFxnOSw==";
         };
+        _2YZgqDhK = {
+            "id" = "2YZgqDhK";
+            "file" = "underground_village-fabric-26.1-2.1.1.jar";
+            "hash" = "sha512-mYF7kR21aC9iZAUHnfbMWSzefSQX078uQUebtLhI4wzRA4DTzD7eo7jMfDsd3j8NjA6ACJABCR7ZsWD5BhdmwA==";
+        };
+        _IZ5UAURT = {
+            "id" = "IZ5UAURT";
+            "file" = "underground_village-neoforge-26.1-2.1.1.jar";
+            "hash" = "sha512-4iijR8YxqxqkBn4x0wzd9acpy2JluKxuWxVUpsDljXQae0yS+DJRXynOOFOTUIrjMihA6oniLfH3EhXCp30FxA==";
+        };
     in {
         "RYCXXDwE" = _RYCXXDwE;
         "YY8jvT4W" = _YY8jvT4W;
@@ -194,6 +204,8 @@ let
         "XmSY2nd5" = _XmSY2nd5;
         "ecSDvXYE" = _ecSDvXYE;
         "fbghJ8w2" = _fbghJ8w2;
+        "2YZgqDhK" = _2YZgqDhK;
+        "IZ5UAURT" = _IZ5UAURT;
         "forge-1.20.1" = _I07aEBPp;
         "forge-1.20.3" = _I07aEBPp;
         "forge-1.20.4" = _I07aEBPp;
@@ -225,9 +237,10 @@ let
         "neoforge-1.21.7" = _WnNAFWzK;
         "neoforge-1.21.8" = _WnNAFWzK;
         "neoforge-1.21.11" = _niXEjIJw;
-        "neoforge-26.1" = _ecSDvXYE;
-        "neoforge-26.1.1" = _ecSDvXYE;
-        "neoforge-26.1.2" = _ecSDvXYE;
+        "neoforge-26.1" = _IZ5UAURT;
+        "neoforge-26.1.1" = _IZ5UAURT;
+        "neoforge-26.1.2" = _IZ5UAURT;
+        "neoforge-26.2" = _IZ5UAURT;
         "fabric-1.20.1" = _COqCDTg8;
         "fabric-1.21.1" = _waD0Ow7q;
         "fabric-1.21.5" = _waD0Ow7q;
@@ -238,9 +251,10 @@ let
         "fabric-1.21.3" = _waD0Ow7q;
         "fabric-1.21.4" = _waD0Ow7q;
         "fabric-1.21.11" = _WI3J8udo;
-        "fabric-26.1" = _fbghJ8w2;
-        "fabric-26.1.1" = _fbghJ8w2;
-        "fabric-26.1.2" = _fbghJ8w2;
+        "fabric-26.1" = _2YZgqDhK;
+        "fabric-26.1.1" = _2YZgqDhK;
+        "fabric-26.1.2" = _2YZgqDhK;
+        "fabric-26.2" = _2YZgqDhK;
         "pkg-1.5.1" = _YY8jvT4W;
         "pkg-1.5.2" = _COqCDTg8;
         "pkg-1.5.2-neoforge-1.21.1" = _qNDLbKak;
@@ -252,7 +266,8 @@ let
         "pkg-2.0-beta" = _3Y1m0dwv;
         "pkg-2.0" = _XmSY2nd5;
         "pkg-2.1.0" = _fbghJ8w2;
-        "default" = _fbghJ8w2;
+        "pkg-2.1.1" = _IZ5UAURT;
+        "default" = _IZ5UAURT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "underground-village,-stoneholm";

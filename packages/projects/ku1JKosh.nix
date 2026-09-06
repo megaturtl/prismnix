@@ -86,6 +86,11 @@ let
             "file" = "mica-mc26.1-universal-1.2.0.jar";
             "hash" = "sha512-QGnt+KinxwPz5RZezLIqNeK8CZf9Ap2zIkZZ+5/B93rMmxsEr7GMnNv4R1PmvL1PAnJiWycBHkM+xoB8zOFpKw==";
         };
+        _djRo5n6L = {
+            "id" = "djRo5n6L";
+            "file" = "mica-mc26.2-universal-1.3.0.jar";
+            "hash" = "sha512-layBZJYdy06jaADP3qmsEePlC7/TSzbCBo31nAtSjPe7cz2Khk9kR4WuK5ykkVkDNEdzlXk3o8S3PIKA4TY3Qg==";
+        };
     in {
         "wt9PmYni" = _wt9PmYni;
         "py0heF9A" = _py0heF9A;
@@ -104,6 +109,7 @@ let
         "fYvyL8SC" = _fYvyL8SC;
         "vPyT3y57" = _vPyT3y57;
         "NMdLnG9e" = _NMdLnG9e;
+        "djRo5n6L" = _djRo5n6L;
         "fabric-1.19.4" = _LSogi6jl;
         "fabric-1.20" = _LSogi6jl;
         "fabric-1.20.1" = _LSogi6jl;
@@ -125,6 +131,9 @@ let
         "fabric-1.21.10" = _JZ3RvelL;
         "fabric-1.21.11" = _JZ3RvelL;
         "fabric-26.1" = _NMdLnG9e;
+        "fabric-26.1.1" = _NMdLnG9e;
+        "fabric-26.1.2" = _NMdLnG9e;
+        "fabric-26.2" = _djRo5n6L;
         "quilt-1.19.4" = _LSogi6jl;
         "quilt-1.20" = _LSogi6jl;
         "quilt-1.20.1" = _LSogi6jl;
@@ -146,6 +155,9 @@ let
         "quilt-1.21.10" = _JZ3RvelL;
         "quilt-1.21.11" = _JZ3RvelL;
         "quilt-26.1" = _NMdLnG9e;
+        "quilt-26.1.1" = _NMdLnG9e;
+        "quilt-26.1.2" = _NMdLnG9e;
+        "quilt-26.2" = _djRo5n6L;
         "forge-1.19.4" = _2suYcmxv;
         "forge-1.20" = _2suYcmxv;
         "forge-1.20.1" = _2suYcmxv;
@@ -166,6 +178,9 @@ let
         "forge-1.21.10" = _fYvyL8SC;
         "forge-1.21.11" = _fYvyL8SC;
         "forge-26.1" = _NMdLnG9e;
+        "forge-26.1.1" = _NMdLnG9e;
+        "forge-26.1.2" = _NMdLnG9e;
+        "forge-26.2" = _djRo5n6L;
         "neoforge-1.20.2" = _3I8kOAFw;
         "neoforge-1.20.3" = _3I8kOAFw;
         "neoforge-1.20.4" = _3I8kOAFw;
@@ -184,13 +199,17 @@ let
         "neoforge-1.21.10" = _vPyT3y57;
         "neoforge-1.21.11" = _vPyT3y57;
         "neoforge-26.1" = _NMdLnG9e;
+        "neoforge-26.1.1" = _NMdLnG9e;
+        "neoforge-26.1.2" = _NMdLnG9e;
+        "neoforge-26.2" = _djRo5n6L;
         "pkg-1.0.0-fabric" = _wt9PmYni;
         "pkg-1.0.0-forge" = _py0heF9A;
         "pkg-1.0.1" = _NYRTFu6p;
         "pkg-1.0.2" = _oDJOck6s;
         "pkg-1.1.0" = _vPyT3y57;
         "pkg-1.2.0" = _NMdLnG9e;
-        "default" = _NMdLnG9e;
+        "pkg-1.3.0" = _djRo5n6L;
+        "default" = _djRo5n6L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mica";

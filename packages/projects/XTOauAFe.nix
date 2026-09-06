@@ -11,11 +11,6 @@ let
             "file" = "HollowMell_PvP_1_20_1.zip";
             "hash" = "sha512-gX8GNWuTSIOEo+dG4CkUuTFFIoKygrIzDfnxXKYIml8TEVVGR0cBFv7LQl51D0v/4b6fd/gqPmy7ZozwMdIYbg==";
         };
-        _yroUk6Yv = {
-            "id" = "yroUk6Yv";
-            "file" = "HollowMell_PvP_1_20_4.zip";
-            "hash" = "sha512-ALZwwqee1R5n3KwpWjlCV7t1QMQnMeJxEFKmaAhJM1kki2cVlIFJegv6eMuDrh3xxOZiyiKJPEfvxZ0S/8WKLw==";
-        };
         _bQfaLYP3 = {
             "id" = "bQfaLYP3";
             "file" = "HollowMell_PvP_1_21_1.zip";
@@ -54,7 +49,6 @@ let
     in {
         "Aztp27bS" = _Aztp27bS;
         "enrXZTmX" = _enrXZTmX;
-        "yroUk6Yv" = _yroUk6Yv;
         "bQfaLYP3" = _bQfaLYP3;
         "EOrzuFDH" = _EOrzuFDH;
         "TMKvpaqD" = _TMKvpaqD;
@@ -68,13 +62,23 @@ let
         "minecraft-1.16.3" = _Aztp27bS;
         "minecraft-1.16.4" = _Aztp27bS;
         "minecraft-1.16.5" = _Aztp27bS;
+        "minecraft-1.17" = _enrXZTmX;
+        "minecraft-1.17.1" = _enrXZTmX;
+        "minecraft-1.18" = _enrXZTmX;
+        "minecraft-1.18.1" = _enrXZTmX;
+        "minecraft-1.18.2" = _enrXZTmX;
+        "minecraft-1.19" = _enrXZTmX;
+        "minecraft-1.19.1" = _enrXZTmX;
+        "minecraft-1.19.2" = _enrXZTmX;
+        "minecraft-1.19.3" = _enrXZTmX;
+        "minecraft-1.19.4" = _enrXZTmX;
         "minecraft-1.20" = _enrXZTmX;
         "minecraft-1.20.1" = _enrXZTmX;
         "minecraft-1.20.2" = _enrXZTmX;
         "minecraft-1.20.3" = _enrXZTmX;
-        "minecraft-1.20.4" = _yroUk6Yv;
-        "minecraft-1.20.5" = _yroUk6Yv;
-        "minecraft-1.20.6" = _yroUk6Yv;
+        "minecraft-1.20.4" = _enrXZTmX;
+        "minecraft-1.20.5" = _enrXZTmX;
+        "minecraft-1.20.6" = _enrXZTmX;
         "minecraft-1.21" = _bQfaLYP3;
         "minecraft-1.21.1" = _bQfaLYP3;
         "minecraft-1.21.2" = _EOrzuFDH;
@@ -97,20 +101,14 @@ let
         "minecraft-26.3-snapshot-4" = _vnXKNIXr;
         "minecraft-26.3-snapshot-5" = _vnXKNIXr;
         "minecraft-26.3-snapshot-6" = _vnXKNIXr;
-        "pkg-1.16.x" = _Aztp27bS;
-        "pkg-1.20-1.20.3" = _enrXZTmX;
-        "pkg-1.20.4-1.20.6" = _yroUk6Yv;
-        "pkg-1.21.1" = _bQfaLYP3;
-        "pkg-1.21.2-1.21.4" = _EOrzuFDH;
-        "pkg-1.21.5-1.21.9" = _TMKvpaqD;
-        "pkg-1.21.10-1.21.11" = _mMnTscZA;
-        "pkg-26.1" = _5Y8Hgc9k;
-        "pkg-26.2" = _t36kZBF3;
-        "pkg-snapshot-26.3" = _vnXKNIXr;
+        "minecraft-26.3-snapshot-7" = _vnXKNIXr;
+        "minecraft-26.3-snapshot-8" = _vnXKNIXr;
+        "minecraft-26.3-snapshot-9" = _vnXKNIXr;
+        "pkg-1.0" = _vnXKNIXr;
         "default" = _vnXKNIXr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
-        name = "hollowmell-pvp";
+        name = "hollow-pvp";
         id = "XTOauAFe";
         type = "resourcepack";
         versions = versions;

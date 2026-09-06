@@ -141,6 +141,21 @@ let
             "file" = "pipe-guns-V1.2.8-data.jar";
             "hash" = "sha512-LhGTo8h2WZLlpW68BwX9ePJTiLjkx/XEBEjlSAi7/NGZFWYpeFVpYq5x7nmHbPHLzU/aIgoa7X7//TgcpB6gwA==";
         };
+        _dWnRjHG5 = {
+            "id" = "dWnRjHG5";
+            "file" = "Pipe Guns - Resources V1.2.9.zip";
+            "hash" = "sha512-IqrWTXcbmA8IycSfPDlEVCLrYSKiTAI2TzdjmmYbTeKLEUwOXYbY++MClOJ1UswjIKOiPNdid3XRXkvS80x7kQ==";
+        };
+        _FAfN2yet = {
+            "id" = "FAfN2yet";
+            "file" = "PIpe Guns - Data V1.2.9.zip";
+            "hash" = "sha512-zIkyW9NlzpHSt8OESx10cwR2hGc1RRY3gIFgVZ9OvbuVVifg+0nneDausnUPK/V9o9s+mmHvTyW/lFwYftpHmQ==";
+        };
+        _AdGHt7LG = {
+            "id" = "AdGHt7LG";
+            "file" = "pipe-guns-V1.2.9-data.jar";
+            "hash" = "sha512-uJGDa1Y96MBOqfLzxa2tRxPs0YqrbfbNqPlgvbe2K8N0ATekqIy0ZpG/ijPXFqZ+ad3VNCtD5Uj5c9gE2Svfjw==";
+        };
     in {
         "ObG9tEjT" = _ObG9tEjT;
         "VujKUTcF" = _VujKUTcF;
@@ -170,6 +185,9 @@ let
         "VlguXzzg" = _VlguXzzg;
         "AGnBANeN" = _AGnBANeN;
         "TZiVnz9F" = _TZiVnz9F;
+        "dWnRjHG5" = _dWnRjHG5;
+        "FAfN2yet" = _FAfN2yet;
+        "AdGHt7LG" = _AdGHt7LG;
         "datapack-1.20.4" = _ObG9tEjT;
         "datapack-1.20.6" = _VujKUTcF;
         "datapack-1.21" = _YweGW2zw;
@@ -184,6 +202,7 @@ let
         "datapack-1.21.11" = _JLSVYYPM;
         "datapack-26.1" = _AGnBANeN;
         "datapack-26.1.1" = _AGnBANeN;
+        "datapack-26.2" = _FAfN2yet;
         "fabric-1.21" = _m7NCvaFR;
         "fabric-1.21.1" = _m7NCvaFR;
         "fabric-1.21.4" = _6uyzm3i2;
@@ -196,6 +215,7 @@ let
         "fabric-1.21.11" = _EpCgP1KL;
         "fabric-26.1" = _TZiVnz9F;
         "fabric-26.1.1" = _TZiVnz9F;
+        "fabric-26.2" = _AdGHt7LG;
         "forge-1.21" = _m7NCvaFR;
         "forge-1.21.1" = _m7NCvaFR;
         "forge-1.21.4" = _6uyzm3i2;
@@ -208,6 +228,7 @@ let
         "forge-1.21.11" = _EpCgP1KL;
         "forge-26.1" = _TZiVnz9F;
         "forge-26.1.1" = _TZiVnz9F;
+        "forge-26.2" = _AdGHt7LG;
         "neoforge-1.21" = _m7NCvaFR;
         "neoforge-1.21.1" = _m7NCvaFR;
         "neoforge-1.21.4" = _6uyzm3i2;
@@ -220,6 +241,7 @@ let
         "neoforge-1.21.11" = _EpCgP1KL;
         "neoforge-26.1" = _TZiVnz9F;
         "neoforge-26.1.1" = _TZiVnz9F;
+        "neoforge-26.2" = _AdGHt7LG;
         "quilt-1.21" = _m7NCvaFR;
         "quilt-1.21.1" = _m7NCvaFR;
         "quilt-1.21.4" = _6uyzm3i2;
@@ -232,6 +254,7 @@ let
         "quilt-1.21.11" = _EpCgP1KL;
         "quilt-26.1" = _TZiVnz9F;
         "quilt-26.1.1" = _TZiVnz9F;
+        "quilt-26.2" = _AdGHt7LG;
         "minecraft-1.21.4" = _3EsZBDz2;
         "minecraft-1.21.5" = _8QCVt5mX;
         "minecraft-1.21.6" = _cPQyp8LH;
@@ -242,6 +265,7 @@ let
         "minecraft-1.21.11" = _hn1kcN3i;
         "minecraft-26.1" = _VlguXzzg;
         "minecraft-26.1.1" = _VlguXzzg;
+        "minecraft-26.2" = _dWnRjHG5;
         "pkg-V1.0" = _ObG9tEjT;
         "pkg-V1.1" = _VujKUTcF;
         "pkg-V1.1.1" = _PFILcRjy;
@@ -270,7 +294,10 @@ let
         "pkg-V1.2.8-resource" = _VlguXzzg;
         "pkg-V1.2.8-data" = _AGnBANeN;
         "pkg-V1.2.8-mod" = _TZiVnz9F;
-        "default" = _TZiVnz9F;
+        "pkg-V1.2.9-resource" = _dWnRjHG5;
+        "pkg-V1.2.9-data" = _FAfN2yet;
+        "pkg-V1.2.9-mod" = _AdGHt7LG;
+        "default" = _AdGHt7LG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pipe-guns";

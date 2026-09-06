@@ -66,6 +66,16 @@ let
             "file" = "[1.21-1.21.1Fabric] rsgauges ported v.1.2.1.jar";
             "hash" = "sha512-zMWZXgBqRGiHQ4Vm+VTJ7iKNu075PltC/vk5gVguO0mfTPlBvHhR2GPKuwA6U6CvJKyCVo8z2B1zQVW1ZybMHQ==";
         };
+        _pNhqmpAF = {
+            "id" = "pNhqmpAF";
+            "file" = "[1.21-1.21.1] rsgauges ported v.1.2.2.jar";
+            "hash" = "sha512-WEPhiKrDh/F9xiWaQsDqUH2yla/dMBJF0dewoEwbreUEgFOzxe90EtnkAU42Tb3FVyk6PCAKmO2gHJmwAuC7cA==";
+        };
+        _FlQv340E = {
+            "id" = "FlQv340E";
+            "file" = "[1.21-1.21.1] rsgauges ported v1.2.3.jar";
+            "hash" = "sha512-QMkUO0vOfRUig7aJuWLeQ/K4cK9LtOvWveRr2By9Yt1dI/Hu3kX0JOjlaGrSVlI5xTsn84Q57jIwP3I46gFrxQ==";
+        };
     in {
         "dEh2066O" = _dEh2066O;
         "9tmUsgiM" = _9tmUsgiM;
@@ -80,8 +90,10 @@ let
         "FY4Vmoxp" = _FY4Vmoxp;
         "o29LeIJo" = _o29LeIJo;
         "q7PhrOTO" = _q7PhrOTO;
-        "neoforge-1.21.1" = _hyFLwdss;
-        "neoforge-1.21" = _hyFLwdss;
+        "pNhqmpAF" = _pNhqmpAF;
+        "FlQv340E" = _FlQv340E;
+        "neoforge-1.21.1" = _FlQv340E;
+        "neoforge-1.21" = _FlQv340E;
         "neoforge-1.21.2" = _Wu85NncR;
         "neoforge-1.21.3" = _Wu85NncR;
         "neoforge-1.21.4" = _GLnuhuyN;
@@ -100,7 +112,9 @@ let
         "pkg-1.2.0" = _ygllVp5w;
         "pkg-1.2.1" = _o29LeIJo;
         "pkg-1.2.1-Fabric" = _q7PhrOTO;
-        "default" = _q7PhrOTO;
+        "pkg-1.2.2" = _pNhqmpAF;
+        "pkg-1.2.3" = _FlQv340E;
+        "default" = _FlQv340E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rsgauges";

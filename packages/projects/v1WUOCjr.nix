@@ -111,6 +111,11 @@ let
             "file" = "troll-commands-1.1.21.jar";
             "hash" = "sha512-xI5WpjrVzM662t1XoH8IWuwBMsC20o+qrJ5YuAFTYeVM5YQVc/H3wne07uqpztHJh3jpbvSqEwp2OL1LY97BCQ==";
         };
+        _MHnZ4D3s = {
+            "id" = "MHnZ4D3s";
+            "file" = "troll-commands-1.1.22.jar";
+            "hash" = "sha512-28C0ucLsDz3PUsRKBacaPG3gtxboE8VacMxvwqk5f97yW7pWjoA5lUOj/DiJ16UmRJvQDTr0ve7P4z+kgHGanw==";
+        };
     in {
         "i5QtIktu" = _i5QtIktu;
         "Hh6EnGO8" = _Hh6EnGO8;
@@ -134,6 +139,7 @@ let
         "BU3XfsMH" = _BU3XfsMH;
         "F8vUDSIi" = _F8vUDSIi;
         "FVgp25ak" = _FVgp25ak;
+        "MHnZ4D3s" = _MHnZ4D3s;
         "fabric-1.17.1" = _i5QtIktu;
         "fabric-1.18.1" = _Hh6EnGO8;
         "fabric-1.18.2" = _Hh6EnGO8;
@@ -156,6 +162,7 @@ let
         "fabric-26.1" = _FVgp25ak;
         "fabric-26.1.1" = _FVgp25ak;
         "fabric-26.1.2" = _FVgp25ak;
+        "fabric-26.2" = _MHnZ4D3s;
         "pkg-1.1.0" = _i5QtIktu;
         "pkg-1.1.1" = _Hh6EnGO8;
         "pkg-1.1.2" = _EK9qEgkn;
@@ -178,7 +185,8 @@ let
         "pkg-1.1.19" = _BU3XfsMH;
         "pkg-1.1.20" = _F8vUDSIi;
         "pkg-1.1.21" = _FVgp25ak;
-        "default" = _FVgp25ak;
+        "pkg-1.1.22" = _MHnZ4D3s;
+        "default" = _MHnZ4D3s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "troll-commands";

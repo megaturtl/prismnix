@@ -161,6 +161,26 @@ let
             "file" = "apprentice_codex-0.9.6+mc1.21.1.jar";
             "hash" = "sha512-4HAfQYIpKrclkItFvJ/OvUMEfVJL0jJZhnxPRvYWEZIsN02KtLQmyoX6HJ/vjZj/C99gBCgU48ko18Dnascw3A==";
         };
+        _OuAcwfz1 = {
+            "id" = "OuAcwfz1";
+            "file" = "apprentice_codex-0.9.7+mc1.20.1.jar";
+            "hash" = "sha512-hnBGOgU3Z5y9VXfIEt8yMWAwiZfm4oDLMtbr37JAh8vS2lkbxTMwAuXVg2ecyeZ9XF8BYYcmFf+cgyP4aCS7bQ==";
+        };
+        _oiy65GEb = {
+            "id" = "oiy65GEb";
+            "file" = "apprentice_codex-0.9.7+mc1.21.1.jar";
+            "hash" = "sha512-RKOokXx5A4iwOzfgca9yvPwmcy1bYgZLyCClQCJlvA0xuKTkMbnxbNJr+Y1ANfer1d4jn5A2/cl29hx4n/yjGg==";
+        };
+        _lcCKcjxL = {
+            "id" = "lcCKcjxL";
+            "file" = "apprentice_codex-0.9.7.1+mc1.20.1.jar";
+            "hash" = "sha512-7ySiP71nVtk8gvaE7VCRGZ0MYGKoSdyL3vq0LF6yE6IKmjl6TgK5QuPgzuQx5qAzLSGe2a3qEq6Afr35q40KNQ==";
+        };
+        _NuYlRPpC = {
+            "id" = "NuYlRPpC";
+            "file" = "apprentice_codex-0.9.7.1+mc1.21.1.jar";
+            "hash" = "sha512-M8sc+AhGwff28/htyhLSKSVJC47C8Neh3O0rs2jKgzH/kr8VXw1h1XIv/iteAx3+DGlBAqILwVUnO2vsYMWItA==";
+        };
     in {
         "ohKqj07v" = _ohKqj07v;
         "Q2oINC9L" = _Q2oINC9L;
@@ -194,8 +214,12 @@ let
         "rqfm6ags" = _rqfm6ags;
         "heGoLyL0" = _heGoLyL0;
         "CCIvAwgJ" = _CCIvAwgJ;
-        "forge-1.20.1" = _heGoLyL0;
-        "neoforge-1.21.1" = _CCIvAwgJ;
+        "OuAcwfz1" = _OuAcwfz1;
+        "oiy65GEb" = _oiy65GEb;
+        "lcCKcjxL" = _lcCKcjxL;
+        "NuYlRPpC" = _NuYlRPpC;
+        "forge-1.20.1" = _lcCKcjxL;
+        "neoforge-1.21.1" = _NuYlRPpC;
         "pkg-0.7.1.1" = _ohKqj07v;
         "pkg-0.7.1" = _Q2oINC9L;
         "pkg-0.7.1.2" = _gamXQ4y7;
@@ -215,7 +239,9 @@ let
         "pkg-0.9.4.2" = _ZyqtAkbp;
         "pkg-0.9.5" = _rqfm6ags;
         "pkg-0.9.6" = _CCIvAwgJ;
-        "default" = _CCIvAwgJ;
+        "pkg-0.9.7" = _oiy65GEb;
+        "pkg-0.9.7.1" = _NuYlRPpC;
+        "default" = _NuYlRPpC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "apprentices-codex";

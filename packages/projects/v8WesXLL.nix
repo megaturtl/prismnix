@@ -56,6 +56,21 @@ let
             "file" = "paintbrush-1.2.5.jar";
             "hash" = "sha512-FW2wA4846KoFQge8pkeyy3g4q6dx7KEvV0Ypdx9D2eVqrp9BNQImF9nmEeez3/piMcDhVjEK5EoDLRftkvwZFg==";
         };
+        _YZE7tTxm = {
+            "id" = "YZE7tTxm";
+            "file" = "paintbrush-1.3.0.jar";
+            "hash" = "sha512-L2zjWjUW5c7ROpGGZgYrsjmxXX1hFhysYdsOKXvWz1GTx5ujgDDAh12/aQZVJtjwFLUMWmBTvP6uC1+IeMsquA==";
+        };
+        _9xgb41fw = {
+            "id" = "9xgb41fw";
+            "file" = "paintbrush-1.3.1.jar";
+            "hash" = "sha512-6y7VUUJCeWzCSQm8r7oP1u7SXXcZYdTopPQeJQJlRXqGxJwS0CRxykvpeqEJf/VFU7BZTWxSq26Dp9dRmAHxlQ==";
+        };
+        _eIAfM0XW = {
+            "id" = "eIAfM0XW";
+            "file" = "paintbrush-1.3.2.jar";
+            "hash" = "sha512-x/dDX/elx6AQt+asbXwZPOh45UUAuOytc0TAlQr5vGMvfRXJL66zSHoB3BXvoVwrduyYcLWgNotNdrdu8XZtSA==";
+        };
     in {
         "1OE0mPG4" = _1OE0mPG4;
         "u1e12e0G" = _u1e12e0G;
@@ -68,8 +83,16 @@ let
         "saRdt9xp" = _saRdt9xp;
         "YrgHc4kH" = _YrgHc4kH;
         "h8mKV8V9" = _h8mKV8V9;
+        "YZE7tTxm" = _YZE7tTxm;
+        "9xgb41fw" = _9xgb41fw;
+        "eIAfM0XW" = _eIAfM0XW;
         "fabric-1.19.2" = _5oUvDt11;
-        "fabric-1.20.1" = _h8mKV8V9;
+        "fabric-1.20.1" = _eIAfM0XW;
+        "fabric-1.20.2" = _eIAfM0XW;
+        "fabric-1.20.3" = _eIAfM0XW;
+        "fabric-1.20.4" = _eIAfM0XW;
+        "fabric-1.20.5" = _eIAfM0XW;
+        "fabric-1.20.6" = _eIAfM0XW;
         "pkg-1.0.0" = _1OE0mPG4;
         "pkg-1.0.1" = _u1e12e0G;
         "pkg-1.1.0-beta" = _A9ebOmh9;
@@ -81,7 +104,10 @@ let
         "pkg-1.2.3" = _saRdt9xp;
         "pkg-1.2.4" = _YrgHc4kH;
         "pkg-1.2.5" = _h8mKV8V9;
-        "default" = _h8mKV8V9;
+        "pkg-1.3.0" = _YZE7tTxm;
+        "pkg-1.3.1" = _9xgb41fw;
+        "pkg-1.3.2" = _eIAfM0XW;
+        "default" = _eIAfM0XW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "conquest-reforged-paintbrush";

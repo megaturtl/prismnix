@@ -41,6 +41,11 @@ let
             "file" = "maophone_trial-1.6.330.jar";
             "hash" = "sha512-UaGWRs1PZRIjEX6RWdNDhC/ORIc1fBrcmsBOT+y++Kzn7g/mSUpKU3rcJFrtn11NbslYpH6v2L8phST0ENJaxQ==";
         };
+        _voBSgTYl = {
+            "id" = "voBSgTYl";
+            "file" = "maophone_trial-1.6.338.jar";
+            "hash" = "sha512-ZWKnt4HnwDr0nfnWeSf9hwBKLLhGc4OVw0DGoeG5YtSkX+HrI56fnXPFrPeN1LRVYbLr39zr+bcSYtlvSsHYhA==";
+        };
     in {
         "QhoDA97S" = _QhoDA97S;
         "CgKPnSux" = _CgKPnSux;
@@ -50,7 +55,8 @@ let
         "8Vu4yjFD" = _8Vu4yjFD;
         "cLzw4e1w" = _cLzw4e1w;
         "MvhPv65j" = _MvhPv65j;
-        "forge-1.20.1" = _MvhPv65j;
+        "voBSgTYl" = _voBSgTYl;
+        "forge-1.20.1" = _voBSgTYl;
         "pkg-1.0.192" = _QhoDA97S;
         "pkg-1.1.223" = _CgKPnSux;
         "pkg-1.3.275" = _ftjAu6O4;
@@ -59,7 +65,8 @@ let
         "pkg-1.5.297" = _8Vu4yjFD;
         "pkg-1.5.305" = _cLzw4e1w;
         "pkg-1.6.330" = _MvhPv65j;
-        "default" = _MvhPv65j;
+        "pkg-1.6.338" = _voBSgTYl;
+        "default" = _voBSgTYl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "maophone-trial-version";

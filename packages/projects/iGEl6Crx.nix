@@ -1656,6 +1656,21 @@ let
             "file" = "biolith-neoforge-3.7.0-alpha.2.jar";
             "hash" = "sha512-FFhnGzJvoAsiIbo85kFkuMFGZe5Ltec8ou0mhxf6/HTUCW9pYcvUeDHesuP3/HuwUOqWYmd54HckhJFTjw/KBQ==";
         };
+        _xRtx6rPH = {
+            "id" = "xRtx6rPH";
+            "file" = "biolith-fabric-3.6.0.jar";
+            "hash" = "sha512-mF5b2Awc6iMy6XZ3IS5lnjc5QVXD/0EVPNmEaOhhu+95eCw/7F4Mjh2tn6oVxdhOe75BZyvcdpvFDOYOqlqBUw==";
+        };
+        _yfion3fe = {
+            "id" = "yfion3fe";
+            "file" = "biolith-forge-3.6.0.jar";
+            "hash" = "sha512-lXCj5/DL5oTSBRuz1+2KfyYWiUqQSoO6yQRt2KNhuosa4MATzkPxP8ySbx+fXJB20Txd4wNJzCh0vsMB1pZk+w==";
+        };
+        _whieXuL5 = {
+            "id" = "whieXuL5";
+            "file" = "biolith-neoforge-3.6.0.jar";
+            "hash" = "sha512-Lma+BN9QhCOTDB4uLx3CxWZc90b5kqDXCeQTq1qfxsLNz6EZ1QKlkCS9shaBYN4pdvz4SWi20obvEP8NURUzcA==";
+        };
     in {
         "DgbD2J3k" = _DgbD2J3k;
         "zSFydtUE" = _zSFydtUE;
@@ -1988,6 +2003,9 @@ let
         "6aikmCOR" = _6aikmCOR;
         "jfhzRAJW" = _jfhzRAJW;
         "RQGwhvJ3" = _RQGwhvJ3;
+        "xRtx6rPH" = _xRtx6rPH;
+        "yfion3fe" = _yfion3fe;
+        "whieXuL5" = _whieXuL5;
         "fabric-1.19.4" = _gUa9RrR8;
         "fabric-23w14a" = _zSFydtUE;
         "fabric-23w16a" = _zSFydtUE;
@@ -2083,9 +2101,9 @@ let
         "fabric-1.21.11-rc2" = _2gG9W95c;
         "fabric-1.21.11" = _kJ9qkybI;
         "fabric-26.1-pre-3" = _FV8mhHFn;
-        "fabric-26.1" = _HirgusYp;
-        "fabric-26.1.1" = _HirgusYp;
-        "fabric-26.1.2" = _HirgusYp;
+        "fabric-26.1" = _xRtx6rPH;
+        "fabric-26.1.1" = _xRtx6rPH;
+        "fabric-26.1.2" = _xRtx6rPH;
         "fabric-26.2-rc-2" = _WfZkZS3g;
         "fabric-26.2" = _6aikmCOR;
         "quilt-1.20-pre2" = _K4N5tZT1;
@@ -2176,9 +2194,9 @@ let
         "quilt-1.21.11-rc2" = _2gG9W95c;
         "quilt-1.21.11" = _kJ9qkybI;
         "quilt-26.1-pre-3" = _FV8mhHFn;
-        "quilt-26.1" = _HirgusYp;
-        "quilt-26.1.1" = _HirgusYp;
-        "quilt-26.1.2" = _HirgusYp;
+        "quilt-26.1" = _xRtx6rPH;
+        "quilt-26.1.1" = _xRtx6rPH;
+        "quilt-26.1.2" = _xRtx6rPH;
         "quilt-26.2-rc-2" = _WfZkZS3g;
         "quilt-26.2" = _6aikmCOR;
         "forge-1.20.4" = _ddWqE2bc;
@@ -2204,9 +2222,9 @@ let
         "forge-1.21.9" = _idQtwOeT;
         "forge-1.21.10" = _idQtwOeT;
         "forge-1.21.11" = _5rvr4wUF;
-        "forge-26.1" = _dYn28omW;
-        "forge-26.1.1" = _dYn28omW;
-        "forge-26.1.2" = _dYn28omW;
+        "forge-26.1" = _yfion3fe;
+        "forge-26.1.1" = _yfion3fe;
+        "forge-26.1.2" = _yfion3fe;
         "forge-26.2-rc-2" = _9MFjpHYr;
         "forge-26.2" = _jfhzRAJW;
         "neoforge-1.20.4" = _GnG2pJ5N;
@@ -2233,9 +2251,9 @@ let
         "neoforge-1.21.10" = _FMRSnKrf;
         "neoforge-1.21.11" = _SpfY1ngG;
         "neoforge-26.1-pre-3" = _1F3oNXJZ;
-        "neoforge-26.1" = _WVvdgaT9;
-        "neoforge-26.1.1" = _WVvdgaT9;
-        "neoforge-26.1.2" = _WVvdgaT9;
+        "neoforge-26.1" = _whieXuL5;
+        "neoforge-26.1.1" = _whieXuL5;
+        "neoforge-26.1.2" = _whieXuL5;
         "neoforge-26.2-rc-2" = _Vgu9J3fJ;
         "neoforge-26.2" = _RQGwhvJ3;
         "pkg-0.0.1-alpha.7" = _DgbD2J3k;
@@ -2385,7 +2403,8 @@ let
         "pkg-3.6.0-beta.1" = _WVvdgaT9;
         "pkg-3.7.0-alpha.1" = _EK6OnpOR;
         "pkg-3.7.0-alpha.2" = _RQGwhvJ3;
-        "default" = _RQGwhvJ3;
+        "pkg-3.6.0" = _whieXuL5;
+        "default" = _whieXuL5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "biolith";

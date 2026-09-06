@@ -216,6 +216,26 @@ let
             "file" = "more_potion_effects-3.1.1.jar";
             "hash" = "sha512-3O4dXG8vsMUzE83+Zq35UQ+BXIKJYhVdqtY12hiWzU6WwrqxbpOHsSVbj7vaF2a1G1q78PeIcAJ7kenqxupLOw==";
         };
+        _pxDXBRXF = {
+            "id" = "pxDXBRXF";
+            "file" = "more_potion_effects-2.5.11-forge-1.20.1.jar";
+            "hash" = "sha512-PlXC5Xq38KXAKFbb+C55pSwIal8H7gxwG8XwKglpTUVsucsQ4MZx0a72FSP/YgjUFz4ovGrp9blcyXu0LmuZnQ==";
+        };
+        _WXacFSW4 = {
+            "id" = "WXacFSW4";
+            "file" = "more_potion_effects-3.1.2.jar";
+            "hash" = "sha512-SYltkwOZfr9CwxEzKH8UZg4abvHHBWDLVaZisVncDi8PWEOPd/k4uE0y37I9ZamuB3e/xKYkUlxEJV5X3YZQWA==";
+        };
+        _u6V4l38W = {
+            "id" = "u6V4l38W";
+            "file" = "more_potion_effects-2.6.0-forge-1.20.1.jar";
+            "hash" = "sha512-W27XNii/fgOLQTHU7GSDkD4rnnOXyvDLhd/E1jcjnAFwN3DacSkn2eFXePp5RxBUVQoLwaQUCVaPhuyx/AJt6w==";
+        };
+        _fRSfRVRJ = {
+            "id" = "fRSfRVRJ";
+            "file" = "more_potion_effects-3.2.0-1.21.1-.jar";
+            "hash" = "sha512-SEbrv60w3WEnY5dqX3R0pMrL3JsiKHhhiEJ07jtUGgOKml1p9lfsqCkqCNg5w0uyfRhYsUmjyAzF3RREE8JJPg==";
+        };
     in {
         "NlO26K8A" = _NlO26K8A;
         "XWB2HTlM" = _XWB2HTlM;
@@ -260,10 +280,14 @@ let
         "JxBB6Zom" = _JxBB6Zom;
         "CYt7qVGS" = _CYt7qVGS;
         "MWHOeors" = _MWHOeors;
+        "pxDXBRXF" = _pxDXBRXF;
+        "WXacFSW4" = _WXacFSW4;
+        "u6V4l38W" = _u6V4l38W;
+        "fRSfRVRJ" = _fRSfRVRJ;
         "forge-1.19.2" = _NKoJkl1l;
-        "forge-1.20.1" = _CYt7qVGS;
+        "forge-1.20.1" = _u6V4l38W;
         "neoforge-1.21" = _Fxp3zKAI;
-        "neoforge-1.21.1" = _MWHOeors;
+        "neoforge-1.21.1" = _fRSfRVRJ;
         "pkg-1.1.2" = _NlO26K8A;
         "pkg-1.1.3" = _XWB2HTlM;
         "pkg-1.1.4" = _2iP10uA1;
@@ -303,7 +327,11 @@ let
         "pkg-3.1.0" = _JxBB6Zom;
         "pkg-2.5.10" = _CYt7qVGS;
         "pkg-3.1.1" = _MWHOeors;
-        "default" = _MWHOeors;
+        "pkg-2.5.11" = _pxDXBRXF;
+        "pkg-3.1.2" = _WXacFSW4;
+        "pkg-2.6.0" = _u6V4l38W;
+        "pkg-3.2.0" = _fRSfRVRJ;
+        "default" = _fRSfRVRJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-potion-effects";

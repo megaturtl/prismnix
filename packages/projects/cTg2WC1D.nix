@@ -141,6 +141,11 @@ let
             "file" = "mojangfixstationapi-2.4.4.jar";
             "hash" = "sha512-2q6eZB14m0OSV3fYvOZ8iqOQndOUoJSyVjgzyR5Rtas85yyafM8zUrRYkpYIosrjxyMQrUdcbTNcRmj8lWdXHA==";
         };
+        _T9SQ75b1 = {
+            "id" = "T9SQ75b1";
+            "file" = "mojangfixstationapi-2.4.5.jar";
+            "hash" = "sha512-Qn2qjoX5aoVcq4M9l67TNq0Y+Vw6IzKxz/IjAzse+pD+Fe826yeHsxlOe03hPutye2osIPvMnzp3pl8pWw/DaA==";
+        };
     in {
         "FMTufgXL" = _FMTufgXL;
         "yrN3l6Ko" = _yrN3l6Ko;
@@ -170,8 +175,9 @@ let
         "dEltptl7" = _dEltptl7;
         "OUVFFdni" = _OUVFFdni;
         "wHQvS6nF" = _wHQvS6nF;
-        "babric-b1.7.3" = _wHQvS6nF;
-        "fabric-b1.7.3" = _wHQvS6nF;
+        "T9SQ75b1" = _T9SQ75b1;
+        "babric-b1.7.3" = _T9SQ75b1;
+        "fabric-b1.7.3" = _T9SQ75b1;
         "pkg-1.0.0" = _FMTufgXL;
         "pkg-1.1.0" = _yrN3l6Ko;
         "pkg-1.2.0" = _68vddqd3;
@@ -200,7 +206,8 @@ let
         "pkg-2.4.2" = _dEltptl7;
         "pkg-2.4.3" = _OUVFFdni;
         "pkg-2.4.4" = _wHQvS6nF;
-        "default" = _wHQvS6nF;
+        "pkg-2.4.5" = _T9SQ75b1;
+        "default" = _T9SQ75b1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mojangfix-stationapi-edition";

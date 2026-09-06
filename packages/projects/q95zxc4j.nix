@@ -111,6 +111,16 @@ let
             "file" = "biomeblends-fabric-26.1.2-1.5.jar";
             "hash" = "sha512-qKe2fS4CXIoX6l3u8VGuzEHKHWnpX3mHp8yeZlbgwxvY4sDpPf2J5RZU6JxYB6qOcLxTiXJhxJnOksE4iHhuNw==";
         };
+        _USbwPqEc = {
+            "id" = "USbwPqEc";
+            "file" = "biomeblends-neoforge-26.2-1.5.1.jar";
+            "hash" = "sha512-LnDAZsp7l17FAnjast+tYjTSHuO2EEt5qL+11WEeqtsnoqMr4CS21NLJQmCIpp6ZLsWA6yZVzczDJp8IZG2J6g==";
+        };
+        _1Tp4vqLg = {
+            "id" = "1Tp4vqLg";
+            "file" = "biomeblends-fabric-26.2-1.5.1.jar";
+            "hash" = "sha512-/WUh6zhStJz/0RWGq32hk+Ej60brzmeDTAivfcRbUAt3IsBknrmQH4QhizoN3IE9Rlcq8dKE9N8H3+XkOov5FA==";
+        };
     in {
         "OIp9NGns" = _OIp9NGns;
         "fThIDcs2" = _fThIDcs2;
@@ -134,13 +144,17 @@ let
         "sOLV2aOp" = _sOLV2aOp;
         "ieptm8YK" = _ieptm8YK;
         "JIizrLJf" = _JIizrLJf;
+        "USbwPqEc" = _USbwPqEc;
+        "1Tp4vqLg" = _1Tp4vqLg;
         "neoforge-1.21.1" = _IhnxbYRg;
         "neoforge-26.1.2" = _ieptm8YK;
+        "neoforge-26.2" = _USbwPqEc;
         "fabric-1.21.1" = _X85hHLfq;
         "fabric-1.20.1" = _sOLV2aOp;
         "fabric-26.1" = _JIizrLJf;
         "fabric-26.1.1" = _JIizrLJf;
         "fabric-26.1.2" = _JIizrLJf;
+        "fabric-26.2" = _1Tp4vqLg;
         "forge-1.20.1" = _8ApKV6hj;
         "pkg-1.0" = _fThIDcs2;
         "pkg-1.1" = _1xo1s1py;
@@ -149,7 +163,8 @@ let
         "pkg-1.4" = _GC9G0B2p;
         "pkg-1.4.1" = _sOLV2aOp;
         "pkg-1.5" = _JIizrLJf;
-        "default" = _JIizrLJf;
+        "pkg-1.5.1" = _1Tp4vqLg;
+        "default" = _1Tp4vqLg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "biome-blends";

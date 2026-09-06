@@ -51,6 +51,26 @@ let
             "file" = "[26.2] First Person [1.2.0].jar";
             "hash" = "sha512-iPWCWbXDULMeGbQg49vOfkgt4ZEFH1gXhIqPj0Dio+aXpXJibME/xVblPHWG/jyA7+/XHMRRSh6EI4ChSha3yw==";
         };
+        _BfsaMC3R = {
+            "id" = "BfsaMC3R";
+            "file" = "[26.1] First Person [1.2.1].jar";
+            "hash" = "sha512-VihzMBP8TcahWeGovz/c6ZqGYCFOM9FiR12427Ut+Z9yb/8kEAGrfuzInLvD/OlKOtouovctCY39G/DNxTJxzQ==";
+        };
+        _TLTd1sB1 = {
+            "id" = "TLTd1sB1";
+            "file" = "[26.1.1] First Person [1.2.1].jar";
+            "hash" = "sha512-YkRYyzn7SbHzcFiBlQ1ag+ojBChj0+3UZFQXVB8quKrTQuCf7ImH7/Oe79TwermqqtCglSnBB0aycGAPiFNETw==";
+        };
+        _S8h54Snh = {
+            "id" = "S8h54Snh";
+            "file" = "[26.1.2] First Person [1.2.1].jar";
+            "hash" = "sha512-8P9eMlfAvvyHQCACbdMw5doc4EKSOAqRZyzA3KB+xbdj9ra9NMGmLCEWMVpRVfx2FUDB30z2AtRaveTzvhhD7Q==";
+        };
+        _E2iL0Evm = {
+            "id" = "E2iL0Evm";
+            "file" = "[26.2] First Person [1.2.1].jar";
+            "hash" = "sha512-ADU3W4COYh9C/bt7v2KWduqOgWdJ0dND24IBH9kW9i4XwFlyBzuncmqOGWnfotQooRbPejC8pi2bXESGk1F1ow==";
+        };
     in {
         "xiuQ2Th2" = _xiuQ2Th2;
         "zuVBeV8R" = _zuVBeV8R;
@@ -62,18 +82,23 @@ let
         "4Jnkj2tH" = _4Jnkj2tH;
         "cIbqQPO0" = _cIbqQPO0;
         "M1uULy8O" = _M1uULy8O;
-        "fabric-26.1" = _wfAJd0Mc;
-        "fabric-26.1.1" = _4Jnkj2tH;
-        "fabric-26.1.2" = _cIbqQPO0;
-        "fabric-26.2" = _M1uULy8O;
-        "neoforge-26.1" = _wfAJd0Mc;
-        "neoforge-26.1.1" = _4Jnkj2tH;
-        "neoforge-26.1.2" = _cIbqQPO0;
-        "neoforge-26.2" = _M1uULy8O;
+        "BfsaMC3R" = _BfsaMC3R;
+        "TLTd1sB1" = _TLTd1sB1;
+        "S8h54Snh" = _S8h54Snh;
+        "E2iL0Evm" = _E2iL0Evm;
+        "fabric-26.1" = _BfsaMC3R;
+        "fabric-26.1.1" = _TLTd1sB1;
+        "fabric-26.1.2" = _S8h54Snh;
+        "fabric-26.2" = _E2iL0Evm;
+        "neoforge-26.1" = _BfsaMC3R;
+        "neoforge-26.1.1" = _TLTd1sB1;
+        "neoforge-26.1.2" = _S8h54Snh;
+        "neoforge-26.2" = _E2iL0Evm;
         "pkg-1.0.0" = _XJxAl9GM;
         "pkg-1.1.0" = _LkwNzmEZ;
         "pkg-1.2.0" = _M1uULy8O;
-        "default" = _M1uULy8O;
+        "pkg-1.2.1" = _E2iL0Evm;
+        "default" = _E2iL0Evm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "firstperson";

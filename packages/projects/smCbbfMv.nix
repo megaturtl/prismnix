@@ -16,20 +16,27 @@ let
             "file" = "schemnexus-1.0.2.jar";
             "hash" = "sha512-bFcgczGXBd6MxxWADNQnjf9pOz/+Eea4X7TcnHkbyNWK5EBvxMeZRWjvvp4e6hd2tXMEn7wlGfygXFMn+IfDjw==";
         };
+        _T59M168e = {
+            "id" = "T59M168e";
+            "file" = "schemnexus-1.0.3.jar";
+            "hash" = "sha512-HEhJeTTS2DtXK0a/uIVPRFuUGSGDAmXKTqpv8h/46Y8dYUVuEN0KXHHdZCMHeEBpMk5qqHbHe4lrDReEoUVCJw==";
+        };
     in {
         "6J1Krr3s" = _6J1Krr3s;
         "Wm7tHDdq" = _Wm7tHDdq;
         "m4xSDUTl" = _m4xSDUTl;
-        "fabric-1.20.1" = _m4xSDUTl;
-        "fabric-1.20.2" = _m4xSDUTl;
-        "fabric-1.20.3" = _m4xSDUTl;
-        "fabric-1.20.4" = _m4xSDUTl;
-        "fabric-1.20.5" = _m4xSDUTl;
-        "fabric-1.20.6" = _m4xSDUTl;
+        "T59M168e" = _T59M168e;
+        "fabric-1.20.1" = _T59M168e;
+        "fabric-1.20.2" = _T59M168e;
+        "fabric-1.20.3" = _T59M168e;
+        "fabric-1.20.4" = _T59M168e;
+        "fabric-1.20.5" = _T59M168e;
+        "fabric-1.20.6" = _T59M168e;
         "pkg-1.0.0" = _6J1Krr3s;
         "pkg-1.0.1" = _Wm7tHDdq;
         "pkg-1.0.2" = _m4xSDUTl;
-        "default" = _m4xSDUTl;
+        "pkg-1.0.3" = _T59M168e;
+        "default" = _T59M168e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "schemnexus";

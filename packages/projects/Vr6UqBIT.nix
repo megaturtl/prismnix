@@ -171,6 +171,16 @@ let
             "file" = "wither_spawn_animation-1.6.2-neoforge-1.21.1.jar";
             "hash" = "sha512-v18Re53vgdASD+4blUUcz0MRcgm5DeYKxIJbfgodM9NpyLPYFisQTAFYFSe0Sw0lz3GpHhwSHXyi1/Se/tgLcQ==";
         };
+        _6MfF9iOj = {
+            "id" = "6MfF9iOj";
+            "file" = "wither-spawn-animation-FABRIC-1.20.1-1.0.0.jar";
+            "hash" = "sha512-kmTppJ8vCTePWzAjP95bEtaREAEkMRG6vhJYVihu+5fRAbCcRp3Oq/s7Gzprp5dYuuNrGPaEIo5GyhUj9yyMSg==";
+        };
+        _VJWCQy9M = {
+            "id" = "VJWCQy9M";
+            "file" = "wither-spawn-animation-FABRIC-1.21.1-1.0.0.jar";
+            "hash" = "sha512-kQetb4s8Jhu/UKLpU/MsJtLaeFd6JRBpPL94YBGoFGT6d3OvEmaCUK+SaMbngXjyb5tmSqei65FmwOq0vu1T+g==";
+        };
     in {
         "xOulbgUw" = _xOulbgUw;
         "e5ktIPW7" = _e5ktIPW7;
@@ -206,11 +216,15 @@ let
         "2qystmBA" = _2qystmBA;
         "aQvkHFxC" = _aQvkHFxC;
         "i70oR8c3" = _i70oR8c3;
+        "6MfF9iOj" = _6MfF9iOj;
+        "VJWCQy9M" = _VJWCQy9M;
         "forge-1.20.1" = _aQvkHFxC;
         "neoforge-1.20.4" = _pEv89WJE;
         "neoforge-1.20.6" = _IwEL5PWp;
         "neoforge-1.21.1" = _i70oR8c3;
-        "pkg-1.0.0" = _mFCCXIuA;
+        "fabric-1.20.1" = _6MfF9iOj;
+        "fabric-1.21.1" = _VJWCQy9M;
+        "pkg-1.0.0" = _VJWCQy9M;
         "pkg-1.1.0" = _FByRxb06;
         "pkg-1.1.2" = _IwEL5PWp;
         "pkg-1.1.3" = _CGsUAYNC;
@@ -225,7 +239,7 @@ let
         "pkg-1.6" = _EmvGBaUu;
         "pkg-1.6.1" = _2qystmBA;
         "pkg-1.6.2" = _i70oR8c3;
-        "default" = _i70oR8c3;
+        "default" = _VJWCQy9M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wither-spawn-animation";

@@ -476,6 +476,36 @@ let
             "file" = "sensible_stackables-3.0.2+26.1.2-fabric.jar";
             "hash" = "sha512-RYVX+dVmWYrsSkf84aLjLRp2e4MDZS84MJLBdcckfFE9+8Ir6DDlOsT55kxeWbtArjQn+SIeDkKMCjETj/Dfdg==";
         };
+        _cQvFNFJ9 = {
+            "id" = "cQvFNFJ9";
+            "file" = "sensible_stackables-neoforge-3.0.3+26.2.jar";
+            "hash" = "sha512-K2kFnDnvgmvyCAj3QAK2BCAjAY6sfimorpCr6YR+6F9OkZ1vkbUZXySncaUYC4/AEI3hOIukiQwk1A7Q9S+PEQ==";
+        };
+        _xJqaWf78 = {
+            "id" = "xJqaWf78";
+            "file" = "sensible_stackables-neoforge-3.0.3+1.21.1.jar";
+            "hash" = "sha512-ZVu5S4SApPgCOMyxB7XvbsYsR9wH/tSjqYm5L6j3W4bU/EIB6HxixkMgJiS4dy/G48yJepzMyzGPPiGHN9yIEw==";
+        };
+        _idGrQ43h = {
+            "id" = "idGrQ43h";
+            "file" = "sensible_stackables-fabric-3.0.3+26.2.jar";
+            "hash" = "sha512-zM5g+RYU+/IjTdpYYkePi1kSFbnWBIEdlUgT/hDeBrGGYQfPU5HfcY7cWwc7SPA3sFbQESZGI9R/HI/dagk8uQ==";
+        };
+        _OzBCycDX = {
+            "id" = "OzBCycDX";
+            "file" = "sensible_stackables-fabric-3.0.3+1.21.1.jar";
+            "hash" = "sha512-Yqb+fD8P4wIlecnkEkwsMeX77CDLzAGfmyo4RnIfCmPaKJA/vEXftiiEJflIE4cAIR6nFqshl1aMD3vqhHVRDQ==";
+        };
+        _gPgtkul8 = {
+            "id" = "gPgtkul8";
+            "file" = "sensible_stackables-neoforge-3.0.3+26.1.2.jar";
+            "hash" = "sha512-QltkUP0Gu7Q7PGlHR5vj4i+yqIxYDtWd0n92MXPmJFMS09/aeUbgwiSgKwdr7SWpKrg8p1S2etfm/SN0U5noOg==";
+        };
+        _v2KXX9rD = {
+            "id" = "v2KXX9rD";
+            "file" = "sensible_stackables-fabric-3.0.3+26.1.2.jar";
+            "hash" = "sha512-WIVAejZntcO60BbXi5SZPvmH+Tp3bi96UvaqYRGUAg85gX/2k/8MWk8T90RKgXa3ir9BC0SXt8WtQqRwGIiHiA==";
+        };
     in {
         "8Q9b4tqX" = _8Q9b4tqX;
         "zhcXXj1e" = _zhcXXj1e;
@@ -572,8 +602,14 @@ let
         "cxoCDZYS" = _cxoCDZYS;
         "KoZFDS0w" = _KoZFDS0w;
         "Pl45D6Dh" = _Pl45D6Dh;
-        "fabric-1.21" = _zTr9tJjt;
-        "fabric-1.21.1" = _ZhK9hKIi;
+        "cQvFNFJ9" = _cQvFNFJ9;
+        "xJqaWf78" = _xJqaWf78;
+        "idGrQ43h" = _idGrQ43h;
+        "OzBCycDX" = _OzBCycDX;
+        "gPgtkul8" = _gPgtkul8;
+        "v2KXX9rD" = _v2KXX9rD;
+        "fabric-1.21" = _OzBCycDX;
+        "fabric-1.21.1" = _OzBCycDX;
         "fabric-1.21.2" = _2vg3JizM;
         "fabric-1.21.3" = _2vg3JizM;
         "fabric-1.21.4" = _3lsdNCGf;
@@ -584,12 +620,12 @@ let
         "fabric-1.21.9" = _fQBAGN2w;
         "fabric-1.21.10" = _SU01mvyC;
         "fabric-1.21.11" = _kakDCMrW;
-        "fabric-26.1" = _QDCoBzoj;
-        "fabric-26.1.1" = _QDCoBzoj;
-        "fabric-26.1.2" = _Pl45D6Dh;
-        "fabric-26.2" = _Pl45D6Dh;
-        "neoforge-1.21" = _jZoSz90z;
-        "neoforge-1.21.1" = _a1jdlXMP;
+        "fabric-26.1" = _v2KXX9rD;
+        "fabric-26.1.1" = _v2KXX9rD;
+        "fabric-26.1.2" = _v2KXX9rD;
+        "fabric-26.2" = _idGrQ43h;
+        "neoforge-1.21" = _xJqaWf78;
+        "neoforge-1.21.1" = _xJqaWf78;
         "neoforge-1.21.2" = _HY1924aT;
         "neoforge-1.21.3" = _HY1924aT;
         "neoforge-1.21.4" = _5LF9Wwjr;
@@ -600,9 +636,10 @@ let
         "neoforge-1.21.9" = _N22IhJKO;
         "neoforge-1.21.10" = _UyBzYf7I;
         "neoforge-1.21.11" = _sr94BwUv;
-        "neoforge-26.1" = _1vuc1DHW;
-        "neoforge-26.1.1" = _1vuc1DHW;
-        "neoforge-26.1.2" = _KoZFDS0w;
+        "neoforge-26.1" = _gPgtkul8;
+        "neoforge-26.1.1" = _gPgtkul8;
+        "neoforge-26.1.2" = _gPgtkul8;
+        "neoforge-26.2" = _cQvFNFJ9;
         "pkg-1.0.0+1.21.1" = _CFhoi8ey;
         "pkg-1.0.0+1.21.4" = _ydv6BROt;
         "pkg-1.0.1+1.21.1" = _IFumOJbz;
@@ -665,7 +702,10 @@ let
         "pkg-3.0.1+26.1.2-fabric" = _cxoCDZYS;
         "pkg-3.0.2+26.1.2-neoforge" = _KoZFDS0w;
         "pkg-3.0.2+26.1.2-fabric" = _Pl45D6Dh;
-        "default" = _Pl45D6Dh;
+        "pkg-3.0.3+26.2" = _idGrQ43h;
+        "pkg-3.0.3+1.21.1" = _OzBCycDX;
+        "pkg-3.0.3+26.1.2" = _v2KXX9rD;
+        "default" = _v2KXX9rD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sensible-stackables";

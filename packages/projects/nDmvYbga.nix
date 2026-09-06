@@ -66,6 +66,11 @@ let
             "file" = "lightest-lamps-fabric-4.2.0.jar";
             "hash" = "sha512-pzqD3UbpB7CLK4pKrNHQLPXKr4GtL1VjX+dVw2fbx21/EenGhAWXpfao14XZ3ZQlJaEg+3gixQipyMICTXBdxw==";
         };
+        _qVbDBvTB = {
+            "id" = "qVbDBvTB";
+            "file" = "lightestlamp-6.0.3.jar";
+            "hash" = "sha512-pmz4BWmnlM6EmSwJopphEcbXAte7cS1/c1FrXzKPLxKOKQbOvM4H5Dx4S1dNMW8ZiN4r9sAXI7+fTpLn0q6NvQ==";
+        };
     in {
         "mDRtfFfp" = _mDRtfFfp;
         "PhWZep6u" = _PhWZep6u;
@@ -80,6 +85,7 @@ let
         "q8KRjyRN" = _q8KRjyRN;
         "he11XQqS" = _he11XQqS;
         "4Ifw3SPb" = _4Ifw3SPb;
+        "qVbDBvTB" = _qVbDBvTB;
         "fabric-1.17.1" = _1UJvX7Mr;
         "fabric-1.19" = _RwSp2j1v;
         "fabric-1.19.1" = _RwSp2j1v;
@@ -90,6 +96,7 @@ let
         "quilt-1.19" = _SmEhIaSJ;
         "quilt-1.19.1" = _SmEhIaSJ;
         "quilt-1.19.2" = _SmEhIaSJ;
+        "neoforge-1.21.1" = _qVbDBvTB;
         "pkg-0.9.1" = _mDRtfFfp;
         "pkg-0.9.2" = _PhWZep6u;
         "pkg-0.9.3" = _qP2s3bAZ;
@@ -103,7 +110,8 @@ let
         "pkg-4.1.0" = _q8KRjyRN;
         "pkg-4.1.1" = _he11XQqS;
         "pkg-4.2.0" = _4Ifw3SPb;
-        "default" = _4Ifw3SPb;
+        "pkg-6.0.3" = _qVbDBvTB;
+        "default" = _qVbDBvTB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lightest-lamps";

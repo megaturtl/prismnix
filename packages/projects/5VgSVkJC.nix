@@ -31,6 +31,11 @@ let
             "file" = "Butterbee Resources 1.0.5 - 26.1.zip";
             "hash" = "sha512-I6RBBm4Ne8av3aLv2ZF1Vlg+X+722yMyEj3gbXCJyV5If8azySizwXJ3EN4/h5o7mj4YpMUbAj5HR6UK7ot2kQ==";
         };
+        _QRDMTx5Y = {
+            "id" = "QRDMTx5Y";
+            "file" = "ButterBee Resources-1.0.6.zip";
+            "hash" = "sha512-amIC+/qqmyiclaIEOmWNiKI30lzer5rsMyi5+qigZkk/LJMFtPF6LKNf2K3Wq1Yu6OG1KjfXH0S8Ac1UGUOErQ==";
+        };
     in {
         "DYZPGuW7" = _DYZPGuW7;
         "anwYRovv" = _anwYRovv;
@@ -38,6 +43,7 @@ let
         "NU3BwDuB" = _NU3BwDuB;
         "tJoL7bjX" = _tJoL7bjX;
         "g1mQc6oi" = _g1mQc6oi;
+        "QRDMTx5Y" = _QRDMTx5Y;
         "minecraft-1.21.5" = _NU3BwDuB;
         "minecraft-1.21.6" = _NU3BwDuB;
         "minecraft-1.21.7" = _NU3BwDuB;
@@ -45,16 +51,18 @@ let
         "minecraft-1.21.9" = _tJoL7bjX;
         "minecraft-1.21.10" = _tJoL7bjX;
         "minecraft-1.21.11" = _tJoL7bjX;
-        "minecraft-26.1" = _g1mQc6oi;
-        "minecraft-26.1.1" = _g1mQc6oi;
-        "minecraft-26.1.2" = _g1mQc6oi;
+        "minecraft-26.1" = _QRDMTx5Y;
+        "minecraft-26.1.1" = _QRDMTx5Y;
+        "minecraft-26.1.2" = _QRDMTx5Y;
+        "minecraft-26.2" = _QRDMTx5Y;
         "pkg-1.0" = _DYZPGuW7;
         "pkg-1.0.1" = _anwYRovv;
         "pkg-1.0.2" = _bT5Oi4sa;
         "pkg-1.0.3" = _NU3BwDuB;
         "pkg-1.0.4" = _tJoL7bjX;
         "pkg-1.0.5" = _g1mQc6oi;
-        "default" = _g1mQc6oi;
+        "pkg-1.0.6" = _QRDMTx5Y;
+        "default" = _QRDMTx5Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "butterbee-rp";

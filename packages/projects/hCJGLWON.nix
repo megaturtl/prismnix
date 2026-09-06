@@ -41,6 +41,21 @@ let
             "file" = "steve-ai-mod-1.5.1.jar";
             "hash" = "sha512-A1yBhbhcL3Us1/DNWvMbsfjgwTIqhsJi4PxD1F6gD3S0q3YIM31FohWIFr1dXhVv8FK/hrHbx3FOYE0HMS/Frw==";
         };
+        _gtNL6OfL = {
+            "id" = "gtNL6OfL";
+            "file" = "steve-ai-mod-1.6.0.jar";
+            "hash" = "sha512-Lybv4qWkp5xtnW0caI0P5bIrfTPVNd2UvdGAnUj95slmenKoXGOuzpssldNXwWv6Ld4u0rqgpvqoZXS1hClV1w==";
+        };
+        _1tMGJxnk = {
+            "id" = "1tMGJxnk";
+            "file" = "steve-ai-mod-1.7.0.jar";
+            "hash" = "sha512-zKiti+e4yZiYFW8arMXNCSar6QP3NRzXU0lTxzcmIu+bmrpu6fw7uqflFORQbCxVF9K+HoQR+kFruj1Lfb0J1A==";
+        };
+        _miyYHjpj = {
+            "id" = "miyYHjpj";
+            "file" = "steve-ai-mod-1.7.1.jar";
+            "hash" = "sha512-CQnC7mrprRTNnsMwC39dlht1MCgDfoqCLhbHOazkXQUpqhD6+I72hhzvBcSMxUx6JmGBN6bQgnJ3qeyPGefY0w==";
+        };
     in {
         "MDXYZCNp" = _MDXYZCNp;
         "tVRmwNi0" = _tVRmwNi0;
@@ -50,7 +65,10 @@ let
         "s6nN4cdf" = _s6nN4cdf;
         "tl7HI3GN" = _tl7HI3GN;
         "M6cqIL8p" = _M6cqIL8p;
-        "forge-1.20.1" = _M6cqIL8p;
+        "gtNL6OfL" = _gtNL6OfL;
+        "1tMGJxnk" = _1tMGJxnk;
+        "miyYHjpj" = _miyYHjpj;
+        "forge-1.20.1" = _miyYHjpj;
         "forge-1.20.2" = _M6cqIL8p;
         "forge-1.20.3" = _M6cqIL8p;
         "forge-1.20.4" = _M6cqIL8p;
@@ -65,7 +83,10 @@ let
         "pkg-1.4.2" = _s6nN4cdf;
         "pkg-1.5.0" = _tl7HI3GN;
         "pkg-1.5.1" = _M6cqIL8p;
-        "default" = _M6cqIL8p;
+        "pkg-1.6.0" = _gtNL6OfL;
+        "pkg-1.7.0" = _1tMGJxnk;
+        "pkg-1.7.1" = _miyYHjpj;
+        "default" = _miyYHjpj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "steve-ai";

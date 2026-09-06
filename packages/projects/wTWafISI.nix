@@ -61,6 +61,11 @@ let
             "file" = "chromaworldborder-1.0.10.jar";
             "hash" = "sha512-CcCHCACwauN9wugH86W0B6168xY37Un6t+Km1sC9+hj8erlnK9CaKRZkLHrOuXm4szo1ka4hPP3W37yL+UAoIg==";
         };
+        _XoBpvs9o = {
+            "id" = "XoBpvs9o";
+            "file" = "chromaworldborder-1.0.11.jar";
+            "hash" = "sha512-VTQ9F49ZSlpx70UZW2oZR6W7Pm2a6Eekmb2PT+jEPSibqMEh8qgO7OgJgHkfItO5/fZ9aEjyM8VxwpIo4TaT8g==";
+        };
     in {
         "5CkPpSOD" = _5CkPpSOD;
         "94of5qxI" = _94of5qxI;
@@ -74,6 +79,7 @@ let
         "TXfTKKWF" = _TXfTKKWF;
         "ysRalVg5" = _ysRalVg5;
         "hU3tiiQK" = _hU3tiiQK;
+        "XoBpvs9o" = _XoBpvs9o;
         "fabric-1.20.1" = _3QDpC9AP;
         "fabric-1.20.2" = _2tjU7pFn;
         "fabric-1.20.4" = _gk7XXNIG;
@@ -84,6 +90,7 @@ let
         "fabric-1.21.10" = _TXfTKKWF;
         "fabric-1.21.11" = _ysRalVg5;
         "fabric-26.1" = _hU3tiiQK;
+        "fabric-26.2" = _XoBpvs9o;
         "pkg-1.0.0" = _5CkPpSOD;
         "pkg-1.0.1" = _94of5qxI;
         "pkg-1.0.2" = _PN1x7fBm;
@@ -95,7 +102,8 @@ let
         "pkg-1.0.8" = _TXfTKKWF;
         "pkg-1.0.9" = _ysRalVg5;
         "pkg-1.0.10" = _hU3tiiQK;
-        "default" = _hU3tiiQK;
+        "pkg-1.0.11" = _XoBpvs9o;
+        "default" = _XoBpvs9o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chroma-world-border";

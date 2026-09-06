@@ -71,6 +71,11 @@ let
             "file" = "kstamina-0.1.3-neoforge-1.21.1.jar";
             "hash" = "sha512-0671BOwzQTfI5TKn5vMKkx726hySoHd38uXl8KZnqUbDxRQvV3Doh2idcB/qJRGBVtEpV1mbJsMBvJ83xJGvhw==";
         };
+        _Y3u6WOVT = {
+            "id" = "Y3u6WOVT";
+            "file" = "immersive_stamina-0.2.0-forge-1.20.1.jar";
+            "hash" = "sha512-MDS+nztU4YMfKdcfPwQiiG6/mQGPjildWbjeSVoImZh5ymwOb7MNONmzPo2g+AfUtkbH+ZwjnVCClBkxx/dwrA==";
+        };
     in {
         "WJ8LmqI1" = _WJ8LmqI1;
         "K4xna1rI" = _K4xna1rI;
@@ -86,7 +91,8 @@ let
         "MV4K5peH" = _MV4K5peH;
         "6RYdyOyN" = _6RYdyOyN;
         "yrjMRnAb" = _yrjMRnAb;
-        "forge-1.20.1" = _6RYdyOyN;
+        "Y3u6WOVT" = _Y3u6WOVT;
+        "forge-1.20.1" = _Y3u6WOVT;
         "neoforge-1.21.1" = _yrjMRnAb;
         "pkg-0.0.0-Demo" = _K4xna1rI;
         "pkg-0.0.1-Alpha" = _ZPxuI0zL;
@@ -95,7 +101,8 @@ let
         "pkg-0.1.1" = _diUtCIMF;
         "pkg-0.1.2" = _MV4K5peH;
         "pkg-0.1.3" = _yrjMRnAb;
-        "default" = _yrjMRnAb;
+        "pkg-0.2.0" = _Y3u6WOVT;
+        "default" = _Y3u6WOVT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kstamina";

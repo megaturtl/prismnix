@@ -231,6 +231,26 @@ let
             "file" = "twod_projectiles-neoforge-1.1.1.jar";
             "hash" = "sha512-8wan14FOPuXKe25plkXMgF0AfJdn8oAYlz/6qK7tgvFKiFCgRmGtM90zwPtCub2OUv3xnvzDsYvrYiuuA9CLjA==";
         };
+        _aGoy4pak = {
+            "id" = "aGoy4pak";
+            "file" = "twod_projectiles-fabric-26.1-1.1.1.jar";
+            "hash" = "sha512-Vuxkpb8zhKvhg49kbdsviGZdGKjSlkJsJopixfXrRI0nbUdASyK2OnMW025kFhlOuLR74gJ4q1kBGPAxXFXtNQ==";
+        };
+        _n5dMLmIq = {
+            "id" = "n5dMLmIq";
+            "file" = "twod_projectiles-neoforge-26.1-1.1.1.jar";
+            "hash" = "sha512-/FuEWd/LhfgcLu65KoTMmgOhyCHa0d7aeE2DYXjCB8g7GtF9SmmHfjw0p348QhRNGNdDDxS8sz40f5BY4x8NEw==";
+        };
+        _eQiqJj36 = {
+            "id" = "eQiqJj36";
+            "file" = "twod_projectiles-fabric-26.2-1.1.1.jar";
+            "hash" = "sha512-hBrSKKcfEwfyyjfTaTfstMs3/+N6MsT08dqyDMakpv4dSO3s/pXNCmM6BWiuyJ0VBZHx9VO1WkOKfPrFbBxJYg==";
+        };
+        _CkZOcjsz = {
+            "id" = "CkZOcjsz";
+            "file" = "twod_projectiles-neoforge-26.2-1.1.1.jar";
+            "hash" = "sha512-CYvbNV6XusndhJWfs+R4Sdu5w+pXEKNofIQNocHP9Qhsq+S7QbDN5pT2m334IlOVlpG3zeHiFzJzulFbOFUOqQ==";
+        };
     in {
         "LmeBcJiN" = _LmeBcJiN;
         "fcV62fUi" = _fcV62fUi;
@@ -278,6 +298,10 @@ let
         "NaoB3xDa" = _NaoB3xDa;
         "nBTztLJD" = _nBTztLJD;
         "IA3RePnR" = _IA3RePnR;
+        "aGoy4pak" = _aGoy4pak;
+        "n5dMLmIq" = _n5dMLmIq;
+        "eQiqJj36" = _eQiqJj36;
+        "CkZOcjsz" = _CkZOcjsz;
         "fabric-1.21.4" = _oibb23FA;
         "fabric-1.21.2" = _Y1ltLr3O;
         "fabric-1.21.3" = _Y1ltLr3O;
@@ -293,6 +317,10 @@ let
         "fabric-1.21.9" = _VGlEFyTA;
         "fabric-1.21.10" = _VGlEFyTA;
         "fabric-1.21.11" = _nBTztLJD;
+        "fabric-26.1" = _aGoy4pak;
+        "fabric-26.1.1" = _aGoy4pak;
+        "fabric-26.1.2" = _aGoy4pak;
+        "fabric-26.2" = _eQiqJj36;
         "neoforge-1.21.4" = _JjDBlQ1b;
         "neoforge-1.21.5" = _CEkjxMRa;
         "neoforge-1.21.6" = _CEkjxMRa;
@@ -307,13 +335,17 @@ let
         "neoforge-1.21.9" = _NaoB3xDa;
         "neoforge-1.21.10" = _NaoB3xDa;
         "neoforge-1.21.11" = _IA3RePnR;
+        "neoforge-26.1" = _n5dMLmIq;
+        "neoforge-26.1.1" = _n5dMLmIq;
+        "neoforge-26.1.2" = _n5dMLmIq;
+        "neoforge-26.2" = _CkZOcjsz;
         "forge-1.20.1" = _9zsMNlPW;
         "pkg-1.0.0" = _fcV62fUi;
         "pkg-1.0.1" = _ryIuqCoM;
         "pkg-1.0.2" = _y6eGTWZT;
         "pkg-1.1.0" = _LZgLdlyV;
-        "pkg-1.1.1" = _IA3RePnR;
-        "default" = _IA3RePnR;
+        "pkg-1.1.1" = _CkZOcjsz;
+        "default" = _CkZOcjsz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "twod_projectiles";

@@ -66,6 +66,36 @@ let
             "file" = "enderio_conduit_opt-1.1.0-1.21.1.jar";
             "hash" = "sha512-U6WTpKKE31sqGi/UcFTXqmzMroCwLa65UZ8mzpqiJM9Wvf3SaciQVmvarB1AeJQMwPe8wDOrz+A67z/n3YcJcg==";
         };
+        _nmooku9b = {
+            "id" = "nmooku9b";
+            "file" = "enderio_conduit_opt-1.0.2-1.20.1.jar";
+            "hash" = "sha512-JX122ytBjaZRq5X532k6JWXZgc/9tfe0IhXGIa1IxUEAX+rx82VW4wRYD5F30yFAon8FbUP5RiUHw3zzp1ih6g==";
+        };
+        _ML6t0DCt = {
+            "id" = "ML6t0DCt";
+            "file" = "enderio_conduit_opt-1.1.1-1.21.1.jar";
+            "hash" = "sha512-VHxHHp9/VBPqQ5UmLObYGTwl0dpIvGqRKv8sf8F39dzIP1V8Sjqm1gDqp8ExkIdr8FIejwCYoMY045wffbKNQA==";
+        };
+        _RtQpvmCb = {
+            "id" = "RtQpvmCb";
+            "file" = "enderio_conduit_opt-1.0.3-1.20.1.jar";
+            "hash" = "sha512-Iuo7gr+QgjAoKhyjEYd494G6IpUp6WgvtUY7fGyGvazmAd7luh/McaFo//L5Wz3T0J1UoaLpGRKLNqkJd9Ow5A==";
+        };
+        _K7dyvFtE = {
+            "id" = "K7dyvFtE";
+            "file" = "enderio_conduit_opt-1.0.4-1.20.1.jar";
+            "hash" = "sha512-5n7FnXJha4ol9HamrlsNArzq9I49gPBoz37b9/dc6vsZCTzNZVe2mWsmtXaSaCZjxk5cuR+EmVL+NwityJyonw==";
+        };
+        _YBQwZh1V = {
+            "id" = "YBQwZh1V";
+            "file" = "enderio_conduit_opt-1.1.2-1.21.1.jar";
+            "hash" = "sha512-WlafqYKMfcHMt8KgdCXSyr+GNsvTimNgADR8su1pxsRxA3idhHADcZ1t6fjGmTlRaxPIpaIGG/K9ojwGsyhxFQ==";
+        };
+        _lIFulFB9 = {
+            "id" = "lIFulFB9";
+            "file" = "enderio_conduit_opt-1.1.3-1.21.1.jar";
+            "hash" = "sha512-b4rkmj2bZ4CjW1VHaLfzwqyfWwJ9nYSZz9eE0lfBQRynfGMp3PeMzlw6PkVf3yiXi9wKbu5hbLoT1hmIjkY2XA==";
+        };
     in {
         "CMIbDlR3" = _CMIbDlR3;
         "I8tHFzlT" = _I8tHFzlT;
@@ -80,8 +110,14 @@ let
         "OeSW0z9a" = _OeSW0z9a;
         "Y3LcWLDI" = _Y3LcWLDI;
         "bgtoIO14" = _bgtoIO14;
-        "neoforge-1.21.1" = _bgtoIO14;
-        "forge-1.20.1" = _DJ2Hrsqq;
+        "nmooku9b" = _nmooku9b;
+        "ML6t0DCt" = _ML6t0DCt;
+        "RtQpvmCb" = _RtQpvmCb;
+        "K7dyvFtE" = _K7dyvFtE;
+        "YBQwZh1V" = _YBQwZh1V;
+        "lIFulFB9" = _lIFulFB9;
+        "neoforge-1.21.1" = _lIFulFB9;
+        "forge-1.20.1" = _K7dyvFtE;
         "pkg-1.0.0-1.21.1" = _CMIbDlR3;
         "pkg-1.0.1-1.21.1" = _I8tHFzlT;
         "pkg-1.0.2-1.21.1" = _zDYXsNHj;
@@ -95,7 +131,13 @@ let
         "pkg-1.0.8-1.21.1" = _OeSW0z9a;
         "pkg-1.0.9-1.21.1" = _Y3LcWLDI;
         "pkg-1.1.0-1.21.1" = _bgtoIO14;
-        "default" = _bgtoIO14;
+        "pkg-1.0.2-1.20.1" = _nmooku9b;
+        "pkg-1.1.1-1.21.1" = _ML6t0DCt;
+        "pkg-1.0.3-1.20.1" = _RtQpvmCb;
+        "pkg-1.0.4-1.20.1" = _K7dyvFtE;
+        "pkg-1.1.2-1.21.1" = _YBQwZh1V;
+        "pkg-1.1.3-1.21.1" = _lIFulFB9;
+        "default" = _lIFulFB9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ender-io-conduit-optimizer";

@@ -51,6 +51,16 @@ let
             "file" = "aeroworks-1.4.1.jar";
             "hash" = "sha512-AkUzKMf6Hj0KrFvqUDaTd+8uoCsU6HrpXHjJWkfDEonjZZB0f0PAKBE3xWhYBp8WBZ3Fcs46LBZDBkW9o+Aunw==";
         };
+        _tQ0dgIjI = {
+            "id" = "tQ0dgIjI";
+            "file" = "aeroworks-1.4.2.jar";
+            "hash" = "sha512-KYyfiWYKbjH05Ilf0tBRRK3hoI+4H/qIazjkweaOGbgBGE/+erk5U7plqbMz1t4AcxKkM25Hq+XAHNvPyrly/w==";
+        };
+        _6kk7ruR3 = {
+            "id" = "6kk7ruR3";
+            "file" = "aeroworks-1.5.0.jar";
+            "hash" = "sha512-15Q1qvnI2Gl9HLWpWyGJqwCsE4fcvNwPvXAaJaImeOuiEH5VuNpHvwCJKCKA7is/82QY2de9p0SyENX6X0ymlw==";
+        };
     in {
         "RJwP14xZ" = _RJwP14xZ;
         "RioiGWmn" = _RioiGWmn;
@@ -62,7 +72,9 @@ let
         "EYVmBa7H" = _EYVmBa7H;
         "y0R5bgR0" = _y0R5bgR0;
         "H2PGtFQ5" = _H2PGtFQ5;
-        "neoforge-1.21.1" = _H2PGtFQ5;
+        "tQ0dgIjI" = _tQ0dgIjI;
+        "6kk7ruR3" = _6kk7ruR3;
+        "neoforge-1.21.1" = _6kk7ruR3;
         "pkg-1.2.5" = _RJwP14xZ;
         "pkg-1.2.6" = _RioiGWmn;
         "pkg-1.2.7+mc1.21.1" = _vqNz2nHV;
@@ -73,7 +85,9 @@ let
         "pkg-1.3.0+mc1.21.1" = _EYVmBa7H;
         "pkg-1.4.0+mc1.21.1" = _y0R5bgR0;
         "pkg-1.4.1+mc1.21.1" = _H2PGtFQ5;
-        "default" = _H2PGtFQ5;
+        "pkg-1.4.2+mc1.21.1" = _tQ0dgIjI;
+        "pkg-1.5.0+mc1.21.1" = _6kk7ruR3;
+        "default" = _6kk7ruR3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-aeroworks";
@@ -81,13 +95,13 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "MIT" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Create-Aeroworks-License" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "MIT License";
-                shortName = "MIT";
-                url = null;
+                fullName = "LicenseRef-Create-Aeroworks-License";
+                shortName = "LicenseRef-Create-Aeroworks-License";
+                url = "https://github.com/aeroworks-hangar/aeroworks-license/blob/main/LICENSE.md";
             };
         };
     };

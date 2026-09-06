@@ -431,6 +431,16 @@ let
             "file" = "BotaniaOP-forge-1.20.1-1.11.1.jar";
             "hash" = "sha512-iEsq191GkZK/38w9nJdeX9gsgPm9BCaANZ/OYgQxg46GEGutZkhthnUnnoT6pgL5RzDtePUwB6DDvFRqkMbwag==";
         };
+        _fd83a73j = {
+            "id" = "fd83a73j";
+            "file" = "BotaniaOP-fabric-1.20.1-1.11.2.jar";
+            "hash" = "sha512-JWQx8w4+3WSWGqsCgbe7uHzXxvwnqffCM/ewskUI/fvIv82jkryiUV5S95MwS4R3/b9NgFwxg/mKk8ngScVVdQ==";
+        };
+        _nwQnI1eO = {
+            "id" = "nwQnI1eO";
+            "file" = "BotaniaOP-forge-1.20.1-1.11.2.jar";
+            "hash" = "sha512-Pk69DSz3UWHaz7k6rfn2Ob5j99B1XpjkL9TQEXP7ZfAzP5eCn86riE7xepDsOp6TrNeQ2ELmKnNSenxKVqJuHQ==";
+        };
     in {
         "3o5TJOp5" = _3o5TJOp5;
         "wrWqvaXy" = _wrWqvaXy;
@@ -518,9 +528,11 @@ let
         "qpq6MK9s" = _qpq6MK9s;
         "Gw0GzihS" = _Gw0GzihS;
         "TeSETlcp" = _TeSETlcp;
-        "fabric-1.20.1" = _qpq6MK9s;
+        "fd83a73j" = _fd83a73j;
+        "nwQnI1eO" = _nwQnI1eO;
+        "fabric-1.20.1" = _fd83a73j;
         "fabric-1.19.2" = _kcURcuxD;
-        "forge-1.20.1" = _TeSETlcp;
+        "forge-1.20.1" = _nwQnI1eO;
         "forge-1.19.2" = _Gw0GzihS;
         "pkg-1.20.1-1.0" = _wrWqvaXy;
         "pkg-1.20.1-1.1" = _QBtmC7p9;
@@ -568,7 +580,8 @@ let
         "pkg-1.20.1-1.11.0" = _2JfsIxNX;
         "pkg-1.19.2-1.11.1" = _Gw0GzihS;
         "pkg-1.20.1-1.11.1" = _TeSETlcp;
-        "default" = _TeSETlcp;
+        "pkg-1.20.1-1.11.2" = _nwQnI1eO;
+        "default" = _nwQnI1eO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "botaniaoverpowered";

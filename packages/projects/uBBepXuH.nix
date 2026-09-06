@@ -276,6 +276,11 @@ let
             "file" = "animated-items 1.21.x-26.1.x - v1.6.3.zip";
             "hash" = "sha512-vP88KpAkGlb/uOSo95voJmmorkAtZw837w+zpuGTvKtubDY033kAwPnxUXDF9X0Al10unPssNbOAUOopyXD6AQ==";
         };
+        _CSLqdyiP = {
+            "id" = "CSLqdyiP";
+            "file" = "animated-items 1.21.x-26.1.x-26.2 - v1.6.3.zip";
+            "hash" = "sha512-JqfYnDmbMG1nNutsOSLhtJywh9npDgXUuIp/5Wy28JiTSlzxKsRm0LNRxX4/MzQKtwm6bT0JGC3d4uL/xxAPIw==";
+        };
     in {
         "ARKEx5IF" = _ARKEx5IF;
         "wTc6ex5a" = _wTc6ex5a;
@@ -332,6 +337,7 @@ let
         "K28Q2DAF" = _K28Q2DAF;
         "WUHkWIRV" = _WUHkWIRV;
         "DKsjwVmd" = _DKsjwVmd;
+        "CSLqdyiP" = _CSLqdyiP;
         "minecraft-1.18" = _ARKEx5IF;
         "minecraft-1.18.1" = _ARKEx5IF;
         "minecraft-1.18.2" = _ARKEx5IF;
@@ -347,18 +353,18 @@ let
         "minecraft-1.20.4" = _dgY9r9WB;
         "minecraft-1.20.5" = _weXMSrjD;
         "minecraft-1.20.6" = _weXMSrjD;
-        "minecraft-1.21" = _DKsjwVmd;
-        "minecraft-1.21.1" = _DKsjwVmd;
-        "minecraft-1.21.2" = _DKsjwVmd;
-        "minecraft-1.21.3" = _DKsjwVmd;
-        "minecraft-1.21.4" = _DKsjwVmd;
-        "minecraft-1.21.5" = _DKsjwVmd;
-        "minecraft-1.21.6" = _DKsjwVmd;
-        "minecraft-1.21.7" = _DKsjwVmd;
-        "minecraft-1.21.8" = _DKsjwVmd;
-        "minecraft-1.21.9" = _DKsjwVmd;
-        "minecraft-1.21.10" = _DKsjwVmd;
-        "minecraft-1.21.11" = _DKsjwVmd;
+        "minecraft-1.21" = _CSLqdyiP;
+        "minecraft-1.21.1" = _CSLqdyiP;
+        "minecraft-1.21.2" = _CSLqdyiP;
+        "minecraft-1.21.3" = _CSLqdyiP;
+        "minecraft-1.21.4" = _CSLqdyiP;
+        "minecraft-1.21.5" = _CSLqdyiP;
+        "minecraft-1.21.6" = _CSLqdyiP;
+        "minecraft-1.21.7" = _CSLqdyiP;
+        "minecraft-1.21.8" = _CSLqdyiP;
+        "minecraft-1.21.9" = _CSLqdyiP;
+        "minecraft-1.21.10" = _CSLqdyiP;
+        "minecraft-1.21.11" = _CSLqdyiP;
         "minecraft-24w33a" = _KBtMTjf2;
         "minecraft-24w34a" = _KBtMTjf2;
         "minecraft-24w35a" = _KBtMTjf2;
@@ -367,14 +373,15 @@ let
         "minecraft-24w38a" = _KBtMTjf2;
         "minecraft-24w39a" = _KBtMTjf2;
         "minecraft-24w40a" = _KBtMTjf2;
-        "minecraft-1.21.2-pre1" = _KBtMTjf2;
-        "minecraft-1.21.2-pre2" = _KBtMTjf2;
+        "minecraft-1.21.2-pre1" = _CSLqdyiP;
+        "minecraft-1.21.2-pre2" = _CSLqdyiP;
         "minecraft-24w44a" = _KBtMTjf2;
         "minecraft-24w45a" = _KBtMTjf2;
         "minecraft-24w46a" = _KBtMTjf2;
-        "minecraft-26.1" = _DKsjwVmd;
-        "minecraft-26.1.1" = _DKsjwVmd;
-        "minecraft-26.1.2" = _DKsjwVmd;
+        "minecraft-26.1" = _CSLqdyiP;
+        "minecraft-26.1.1" = _CSLqdyiP;
+        "minecraft-26.1.2" = _CSLqdyiP;
+        "minecraft-26.2" = _CSLqdyiP;
         "pkg-1.0" = _1wbeBKZt;
         "pkg-1.1" = _Z5HjYeo3;
         "pkg-1.1.1" = _MhbU6Ye4;
@@ -394,8 +401,8 @@ let
         "pkg-1.6" = _6G0oKsyh;
         "pkg-1.6.1" = _K28Q2DAF;
         "pkg-1.6.2" = _WUHkWIRV;
-        "pkg-1.6.3" = _DKsjwVmd;
-        "default" = _DKsjwVmd;
+        "pkg-1.6.3" = _CSLqdyiP;
+        "default" = _CSLqdyiP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animated-items";

@@ -36,6 +36,11 @@ let
             "file" = "JR_East_E217_Series_v1.5.zip";
             "hash" = "sha512-Bd1I3l5bW5dyXH9lKY0SUpO2LGTVw5CBE0PcL/L0ZE6UfUT+YceFoPKnXkD3Knp/mDHZCASQgUBS+JyOHDIwzQ==";
         };
+        _WCaRGTY6 = {
+            "id" = "WCaRGTY6";
+            "file" = "JR_East_E217_Series_v1.6.zip";
+            "hash" = "sha512-tqbphoA7+W8s97GFDpItktjUKmmtL/iQ970juHIhS8YQygNNcsJ7phLoeqrxOiTZvv1K71PzZh3r3rtG/VTiaw==";
+        };
     in {
         "ikG3ns5r" = _ikG3ns5r;
         "pyTtufA4" = _pyTtufA4;
@@ -44,12 +49,13 @@ let
         "ixQ1Vg8r" = _ixQ1Vg8r;
         "2PRDD9ve" = _2PRDD9ve;
         "iBIbAEOe" = _iBIbAEOe;
-        "minecraft-1.17.1" = _iBIbAEOe;
-        "minecraft-1.18.2" = _iBIbAEOe;
-        "minecraft-1.19.2" = _iBIbAEOe;
-        "minecraft-1.19.4" = _iBIbAEOe;
-        "minecraft-1.20.1" = _iBIbAEOe;
-        "minecraft-1.20.4" = _iBIbAEOe;
+        "WCaRGTY6" = _WCaRGTY6;
+        "minecraft-1.17.1" = _WCaRGTY6;
+        "minecraft-1.18.2" = _WCaRGTY6;
+        "minecraft-1.19.2" = _WCaRGTY6;
+        "minecraft-1.19.4" = _WCaRGTY6;
+        "minecraft-1.20.1" = _WCaRGTY6;
+        "minecraft-1.20.4" = _WCaRGTY6;
         "minecraft-1.19" = _iBIbAEOe;
         "minecraft-1.18" = _iBIbAEOe;
         "minecraft-1.18.1" = _iBIbAEOe;
@@ -65,7 +71,8 @@ let
         "pkg-1.3" = _ixQ1Vg8r;
         "pkg-1.4" = _2PRDD9ve;
         "pkg-1.5" = _iBIbAEOe;
-        "default" = _iBIbAEOe;
+        "pkg-1.6" = _WCaRGTY6;
+        "default" = _WCaRGTY6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "e217-series-train";

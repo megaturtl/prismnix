@@ -51,6 +51,11 @@ let
             "file" = "engineered_schematics-2.0.jar";
             "hash" = "sha512-c68DRAao7EbbSifhtEIqfbjCuntaNBfjI7Dr5DSl749GTWnu8g0Zf778AR0oMYOo1QmkI1liI8hrm7EdyXHWoQ==";
         };
+        _FEz495JG = {
+            "id" = "FEz495JG";
+            "file" = "EngineeredSchematics-1.12.2-1.0.9-beta.jar";
+            "hash" = "sha512-5ps5OwlTah3gi5/gsIsCxzaZ8o5YiUMfnpYmTCeQkoqYHZmJIfMZbXkpD4/ycYtXJKjUAnIlXO5JEf3RpNHGhw==";
+        };
     in {
         "cDxmmTAs" = _cDxmmTAs;
         "wvf1jtQm" = _wvf1jtQm;
@@ -62,10 +67,12 @@ let
         "iGbuEFS6" = _iGbuEFS6;
         "GcTWh1Fm" = _GcTWh1Fm;
         "qLB02VDS" = _qLB02VDS;
+        "FEz495JG" = _FEz495JG;
         "neoforge-1.20.4" = _Yi59aM93;
         "neoforge-1.20.1" = _srYNGPNB;
         "neoforge-1.21.1" = _qLB02VDS;
         "forge-1.20.1" = _GcTWh1Fm;
+        "forge-1.12.2" = _FEz495JG;
         "pkg-1.0.0" = _cDxmmTAs;
         "pkg-1.0.1" = _wvf1jtQm;
         "pkg-1.1.0-1.20.4" = _Yi59aM93;
@@ -76,7 +83,8 @@ let
         "pkg-1.2.3" = _iGbuEFS6;
         "pkg-1.2.4" = _GcTWh1Fm;
         "pkg-2.0" = _qLB02VDS;
-        "default" = _qLB02VDS;
+        "pkg-1.0.9" = _FEz495JG;
+        "default" = _FEz495JG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "engineered-schematics";

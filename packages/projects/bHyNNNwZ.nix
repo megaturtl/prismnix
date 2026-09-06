@@ -36,6 +36,16 @@ let
             "file" = "NeoEnchant-1.1.0.jar";
             "hash" = "sha512-2X1WUyzWLVvh4NrjMphPzMlPdOudvM17tRPm2JXgQOSHwyECWrfegA0W8LcYDkY+iO7z3SmA9pp2PKpkz3v4fw==";
         };
+        _bd75JdIY = {
+            "id" = "bd75JdIY";
+            "file" = "neoenchant-addons-structure-1.2.0.zip";
+            "hash" = "sha512-/BMkXWIHZQu1b5P3hXrNdbZ41d+uaVslJFp0ZNAgVg8TIxYbJEdHxV4tBAHcJ1qtGCM9yOL/W9oMYDgNf6HnmQ==";
+        };
+        _s8sRlCLt = {
+            "id" = "s8sRlCLt";
+            "file" = "NeoEnchant-1.2.0.jar";
+            "hash" = "sha512-LE0L7Tlgh6bZWr4xgcAOiSI9IM1xItFUumKcS5VKfnhtaEZk0keFT/1wrj4kGmt7X4IqnbKpUO1H0tK6sEnvEg==";
+        };
     in {
         "5ZE6IV4f" = _5ZE6IV4f;
         "uiLHM6ck" = _uiLHM6ck;
@@ -44,6 +54,8 @@ let
         "jXco2Kez" = _jXco2Kez;
         "GZRmoU3u" = _GZRmoU3u;
         "oVdkm3gu" = _oVdkm3gu;
+        "bd75JdIY" = _bd75JdIY;
+        "s8sRlCLt" = _s8sRlCLt;
         "datapack-1.21" = _5ZE6IV4f;
         "datapack-1.21.1" = _5ZE6IV4f;
         "datapack-1.21.2" = _5ZE6IV4f;
@@ -56,6 +68,10 @@ let
         "datapack-1.21.9" = _E2vGUOa6;
         "datapack-1.21.10" = _E2vGUOa6;
         "datapack-1.21.11" = _GZRmoU3u;
+        "datapack-26.1" = _bd75JdIY;
+        "datapack-26.1.1" = _bd75JdIY;
+        "datapack-26.1.2" = _bd75JdIY;
+        "datapack-26.2" = _bd75JdIY;
         "fabric-1.21" = _uiLHM6ck;
         "fabric-1.21.1" = _uiLHM6ck;
         "fabric-1.21.2" = _uiLHM6ck;
@@ -68,6 +84,10 @@ let
         "fabric-1.21.9" = _jXco2Kez;
         "fabric-1.21.10" = _jXco2Kez;
         "fabric-1.21.11" = _oVdkm3gu;
+        "fabric-26.1" = _s8sRlCLt;
+        "fabric-26.1.1" = _s8sRlCLt;
+        "fabric-26.1.2" = _s8sRlCLt;
+        "fabric-26.2" = _s8sRlCLt;
         "forge-1.21" = _uiLHM6ck;
         "forge-1.21.1" = _uiLHM6ck;
         "forge-1.21.2" = _uiLHM6ck;
@@ -80,6 +100,10 @@ let
         "forge-1.21.9" = _jXco2Kez;
         "forge-1.21.10" = _jXco2Kez;
         "forge-1.21.11" = _oVdkm3gu;
+        "forge-26.1" = _s8sRlCLt;
+        "forge-26.1.1" = _s8sRlCLt;
+        "forge-26.1.2" = _s8sRlCLt;
+        "forge-26.2" = _s8sRlCLt;
         "neoforge-1.21" = _uiLHM6ck;
         "neoforge-1.21.1" = _uiLHM6ck;
         "neoforge-1.21.2" = _uiLHM6ck;
@@ -92,6 +116,10 @@ let
         "neoforge-1.21.9" = _jXco2Kez;
         "neoforge-1.21.10" = _jXco2Kez;
         "neoforge-1.21.11" = _oVdkm3gu;
+        "neoforge-26.1" = _s8sRlCLt;
+        "neoforge-26.1.1" = _s8sRlCLt;
+        "neoforge-26.1.2" = _s8sRlCLt;
+        "neoforge-26.2" = _s8sRlCLt;
         "quilt-1.21" = _uiLHM6ck;
         "quilt-1.21.1" = _uiLHM6ck;
         "quilt-1.21.2" = _uiLHM6ck;
@@ -104,6 +132,10 @@ let
         "quilt-1.21.9" = _jXco2Kez;
         "quilt-1.21.10" = _jXco2Kez;
         "quilt-1.21.11" = _oVdkm3gu;
+        "quilt-26.1" = _s8sRlCLt;
+        "quilt-26.1.1" = _s8sRlCLt;
+        "quilt-26.1.2" = _s8sRlCLt;
+        "quilt-26.2" = _s8sRlCLt;
         "pkg-1.0.0" = _5ZE6IV4f;
         "pkg-1.0.0+mod" = _uiLHM6ck;
         "pkg-1.0.1" = _E2vGUOa6;
@@ -111,7 +143,9 @@ let
         "pkg-1.0.2+mod" = _jXco2Kez;
         "pkg-1.1.0" = _GZRmoU3u;
         "pkg-1.1.0+mod" = _oVdkm3gu;
-        "default" = _oVdkm3gu;
+        "pkg-1.2.0" = _bd75JdIY;
+        "pkg-1.2.0+mod" = _s8sRlCLt;
+        "default" = _s8sRlCLt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nneoenchant-addons-structure";

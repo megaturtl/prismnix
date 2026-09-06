@@ -196,6 +196,61 @@ let
             "file" = "extendedae_plus-1.5.5.jar";
             "hash" = "sha512-q7RE/lKC6w4F5EIRo+Dp2xlDnVWnj5JdAExyl3FPoJDStmcs0jf7YHoCb0POXwYJh/hOv6TIhcUvLp2Xcb2wJg==";
         };
+        _G2bHHv7g = {
+            "id" = "G2bHHv7g";
+            "file" = "extendedae_plus-1.6.0.jar";
+            "hash" = "sha512-DIfYgmYkoAS8vfJ2ap07XJF213ICeJWk0CIVvCO1OLFKsbyk0tPNfCOccjhH2k+LI6exrhM/y0rAikDIhaCyzg==";
+        };
+        _g4iCbDEu = {
+            "id" = "g4iCbDEu";
+            "file" = "extendedae_plus-1.6.0.jar";
+            "hash" = "sha512-wwlbxArC9oNGlisbvt6unTJLVCuHoUgZpv7kSMTYFVFBE6Wva0EwQF7tKknJT6iM/XuTVx0rRJ6mnxEcYeEM7w==";
+        };
+        _3KER88lz = {
+            "id" = "3KER88lz";
+            "file" = "extendedae_plus-1.6.0-f1.jar";
+            "hash" = "sha512-A+RIkLWrVCm9DL3usBceOdLSmfUAYOruNVtLG581Hb10/rb5yuwAhAPNrsS01sSs4MGMppquxDAi6NcaEoAA6g==";
+        };
+        _bfWu5QkG = {
+            "id" = "bfWu5QkG";
+            "file" = "extendedae_plus-1.6.0-f1.jar";
+            "hash" = "sha512-SNi5JxBc3yFc+z4eyplfOT/r9R8Tw64UFy6WdS2iheIbLhjY8BZuOk9a8CAiAZBVCJ0jMUliIc85Y8gV3LadLg==";
+        };
+        _8t9eLn0v = {
+            "id" = "8t9eLn0v";
+            "file" = "extendedae_plus-1.6.0-f2.jar";
+            "hash" = "sha512-Xcw5rAk4csZvBeZSwj3lx9r3b2BoIxkwb+TkJquO9PrQxvjCkFbuWvLDl60eSi5aWKKIxzU0Hykvvbq5i188dA==";
+        };
+        _JzefQcmp = {
+            "id" = "JzefQcmp";
+            "file" = "extendedae_plus-1.6.0-f2.jar";
+            "hash" = "sha512-W96omajc/NAqfTMw7LA0xt+3wCnyL/9+7YFxGwk6OWFhKVREwXsZcK5zdLEqB1BvFVlHCpiJW9ZStwS0FZuwsA==";
+        };
+        _i2f3ggaN = {
+            "id" = "i2f3ggaN";
+            "file" = "extendedae_plus-1.6.1.jar";
+            "hash" = "sha512-dRy1jeIhepfrcj4pEpaJ143m22xMKqLXoVJwsKvhL58NZ3jryISdJbVqQNq8xePdL6DcIDoAuctbnWwsIN1LkQ==";
+        };
+        _DLFDZIVx = {
+            "id" = "DLFDZIVx";
+            "file" = "extendedae_plus-1.6.1.jar";
+            "hash" = "sha512-9haYL5c9iSaDczh3U8c1+78gJSVHO/oB6todPg1yobspfoggIKQnYVuzfKgrL3Et02Z+q+l4Tga0Audhfl660w==";
+        };
+        _3sniosWU = {
+            "id" = "3sniosWU";
+            "file" = "extendedae_plus-1.6.1-f1.jar";
+            "hash" = "sha512-vBrbbK9ozC+TMeXG0equ+8NpdzSeTWVa+0K3IvpLsdMlaoIi5KlWn/YPNB+QhhDnDtmzxIcPezwy/d5ML1PjMQ==";
+        };
+        _A3uRgnwT = {
+            "id" = "A3uRgnwT";
+            "file" = "extendedae_plus-1.6.2.jar";
+            "hash" = "sha512-ufar1NU7LmfpX/IGj6O8sPCSaES9wsPHNxM1OY5fzZFIwJCCEkX/lUnP42M6zX40/Wyr3+FtdWdHvvYNtL/JAQ==";
+        };
+        _o8U8Ekro = {
+            "id" = "o8U8Ekro";
+            "file" = "extendedae_plus-1.6.2.jar";
+            "hash" = "sha512-n+xI3QaMP9TE7tEEOF9Ih46bp020QXUjetN44PfqiBiEqH36UyjBfVudCbaLgLxUyl35gvW3adETd4cqLDMeyQ==";
+        };
     in {
         "bXiRO9uz" = _bXiRO9uz;
         "wV2W56pB" = _wV2W56pB;
@@ -236,8 +291,19 @@ let
         "F7DvKTlI" = _F7DvKTlI;
         "BdDOfMzg" = _BdDOfMzg;
         "pN9pMjiW" = _pN9pMjiW;
-        "forge-1.20.1" = _pN9pMjiW;
-        "neoforge-1.21.1" = _BdDOfMzg;
+        "G2bHHv7g" = _G2bHHv7g;
+        "g4iCbDEu" = _g4iCbDEu;
+        "3KER88lz" = _3KER88lz;
+        "bfWu5QkG" = _bfWu5QkG;
+        "8t9eLn0v" = _8t9eLn0v;
+        "JzefQcmp" = _JzefQcmp;
+        "i2f3ggaN" = _i2f3ggaN;
+        "DLFDZIVx" = _DLFDZIVx;
+        "3sniosWU" = _3sniosWU;
+        "A3uRgnwT" = _A3uRgnwT;
+        "o8U8Ekro" = _o8U8Ekro;
+        "forge-1.20.1" = _A3uRgnwT;
+        "neoforge-1.21.1" = _o8U8Ekro;
         "pkg-1.0.0" = _bXiRO9uz;
         "pkg-1.1.3" = _wV2W56pB;
         "pkg-1.2.0-a" = _hUapqbDM;
@@ -276,7 +342,13 @@ let
         "pkg-1.5.4.1" = _neJLqdYv;
         "pkg-1.21.1-1.5.4.1" = _F7DvKTlI;
         "pkg-1.5.5" = _pN9pMjiW;
-        "default" = _pN9pMjiW;
+        "pkg-1.6.0" = _g4iCbDEu;
+        "pkg-1.6.0-f1" = _bfWu5QkG;
+        "pkg-1.6.0-f2" = _JzefQcmp;
+        "pkg-1.6.1" = _DLFDZIVx;
+        "pkg-1.6.1-f1" = _3sniosWU;
+        "pkg-1.6.2" = _o8U8Ekro;
+        "default" = _o8U8Ekro;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "extendedae-plus";

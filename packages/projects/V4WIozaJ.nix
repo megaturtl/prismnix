@@ -56,6 +56,11 @@ let
         "minecraft-1.21.8" = _gnuusVNa;
         "minecraft-1.21.9" = _gnuusVNa;
         "minecraft-1.21.10" = _gnuusVNa;
+        "minecraft-1.21.11" = _gnuusVNa;
+        "minecraft-26.1" = _gnuusVNa;
+        "minecraft-26.1.1" = _gnuusVNa;
+        "minecraft-26.1.2" = _gnuusVNa;
+        "minecraft-26.2" = _gnuusVNa;
         "pkg-1.0" = _1rpXqd8I;
         "pkg-1.1" = _CnjYQJak;
         "pkg-1.2" = _d1PFVQE6;
@@ -69,12 +74,12 @@ let
         type = "resourcepack";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-SA-4.0" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "Creative Commons Attribution Non Commercial Share Alike 4.0 International";
-                shortName = "CC-BY-NC-SA-4.0";
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
                 url = null;
             };
         };

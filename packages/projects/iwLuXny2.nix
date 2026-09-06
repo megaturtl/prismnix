@@ -41,6 +41,26 @@ let
             "file" = "cozycafe-1.7-all.jar";
             "hash" = "sha512-oK2VR4khdeqEoNGg9KT4hCuLrqiKcYgHsvKHnjyn77Oo26YePqpp1bcvJXO5ZPYh7pg9vmJAotNdPQqcdcZHtQ==";
         };
+        _nNbSeQEl = {
+            "id" = "nNbSeQEl";
+            "file" = "cozycafe-1.8-all.jar";
+            "hash" = "sha512-NKFTZr8aA7yS03ZGjEm9FAMGwnUsHbzzX8wtMaK1C10lIpoZMqD8wDn217LABG4d9HRLvQ1iP/v7cRx+I7JyxA==";
+        };
+        _uBdJDKER = {
+            "id" = "uBdJDKER";
+            "file" = "cozycafe-1.9-all.jar";
+            "hash" = "sha512-Q1OzwF+MShmw5fyFPB8WC6kut7ECGQU282xphvu+fPJw/X87UNaYkcsEET+uxPshRFtf/Q9QTDyrbn79Prhp8g==";
+        };
+        _MA5ChqTj = {
+            "id" = "MA5ChqTj";
+            "file" = "cozycafe-1.9-1.21.1.jar";
+            "hash" = "sha512-tUpauoMOhOBrqiGVe9d/sTi5QjrcqBw3qdEuPOekTNTQWGlKNkq00/Cx08UpP9YSDp8XqrskY+yyuGXEuT+rIQ==";
+        };
+        _DSz7DW5V = {
+            "id" = "DSz7DW5V";
+            "file" = "cozycafe-1.10-1.21.1.jar";
+            "hash" = "sha512-GuZRlBgKa4DMp6j87n30MtgP1WrwRGCxMiBXxdRdx5mveQPnfU5/82h28breHOU4FpfGlJcxAIcqQKJSEXd4ZQ==";
+        };
     in {
         "jze2fePg" = _jze2fePg;
         "3Vkooecv" = _3Vkooecv;
@@ -50,7 +70,12 @@ let
         "xRpV49pB" = _xRpV49pB;
         "oS0Bv354" = _oS0Bv354;
         "hnmPyzB6" = _hnmPyzB6;
-        "forge-1.20.1" = _hnmPyzB6;
+        "nNbSeQEl" = _nNbSeQEl;
+        "uBdJDKER" = _uBdJDKER;
+        "MA5ChqTj" = _MA5ChqTj;
+        "DSz7DW5V" = _DSz7DW5V;
+        "forge-1.20.1" = _uBdJDKER;
+        "neoforge-1.21.1" = _DSz7DW5V;
         "pkg-1.0" = _jze2fePg;
         "pkg-1.1" = _3Vkooecv;
         "pkg-1.2" = _yeBKU2Ti;
@@ -59,7 +84,11 @@ let
         "pkg-1.5" = _xRpV49pB;
         "pkg-1.6" = _oS0Bv354;
         "pkg-1.7" = _hnmPyzB6;
-        "default" = _hnmPyzB6;
+        "pkg-1.8" = _nNbSeQEl;
+        "pkg-1.9" = _uBdJDKER;
+        "pkg-1.9-1.21.1" = _MA5ChqTj;
+        "pkg-1.10-1.21.1" = _DSz7DW5V;
+        "default" = _DSz7DW5V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cozycafe";

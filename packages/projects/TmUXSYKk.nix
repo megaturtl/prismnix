@@ -646,6 +646,51 @@ let
             "file" = "mdm-26.7.0-fabric-26.2.jar";
             "hash" = "sha512-d5DUn7+/Cbuf157FvecjgHUwnVuhp0uW8cCO8t9HkjC2vsX5+mIsrh1g21eeubly/mSqRFPY74bXAWCe6JxhUA==";
         };
+        _psLoVFep = {
+            "id" = "psLoVFep";
+            "file" = "mdm-26.9-forge-1.20.1.jar";
+            "hash" = "sha512-0/7mp02He0qFbcCaln6hCWKejdoqVoh2LwH6f1qVsVxvpnWho+VZvKg0CPTsXwH+01VLbkFvz42zjrkUbUBlJw==";
+        };
+        _SHiMd2N9 = {
+            "id" = "SHiMd2N9";
+            "file" = "mdm-26.9-neoforge-1.21.1.jar";
+            "hash" = "sha512-eAU0d0xkjXriWRrT73OrRZrJDf3jWC3nv2gxUoQpUyLvm63X2ZHxnO/+QbBgIiBMiPRpbdXq0d540tVWXie0Nw==";
+        };
+        _DAz8Wk4b = {
+            "id" = "DAz8Wk4b";
+            "file" = "mdm-26.9-neoforge-1.21.11.jar";
+            "hash" = "sha512-zaRrOqgIStchKIb5YlJAWAn/0Nn5MGJM0cCnx+vpp2bfqWa+sm4vkP2rsBOdyZj5W17EtEUDEmWtqv/gBv4wjQ==";
+        };
+        _dY4twsIZ = {
+            "id" = "dY4twsIZ";
+            "file" = "mdm-26.9-neoforge-26.1.2.jar";
+            "hash" = "sha512-okI1pjaUB39SdIXZ2llCFGt9ObiZ7twbHY7XIuvxbMocSXSJwhFLg6F5eSvvXx3nYkTgbfzWYtu5sHDYVEOr8Q==";
+        };
+        _YukFiM99 = {
+            "id" = "YukFiM99";
+            "file" = "mdm-26.9-fabric-1.20.1.jar";
+            "hash" = "sha512-DWkD8Sahs8fZhpPwiu37hYypYEPUvtqKrA+2Do4YO0CmNOUS2LYNJUDVOjNif1JMmtYVt38TOmoVy5rPl1GLEw==";
+        };
+        _x3KhyH6J = {
+            "id" = "x3KhyH6J";
+            "file" = "mdm-26.9-fabric-1.21.1.jar";
+            "hash" = "sha512-pmDa4GUilzRi4CeXdqIAE8FsTKaeje1vyiy1nzom2bFpXJNwk40OiJnEUmjh3VLNCMYic5xiBEvOXaZVQLW62g==";
+        };
+        _Wx0cm5JB = {
+            "id" = "Wx0cm5JB";
+            "file" = "mdm-26.9-fabric-1.21.11.jar";
+            "hash" = "sha512-2GXHg3Yhu/WYS1Fgl7ZSxVEhGISoAxMbpztwu4nuhSzR80pznA6ki+0nUCWkmMO4plHxPjo9fDSdJ6ukLpBXTg==";
+        };
+        _Ld1ED4kZ = {
+            "id" = "Ld1ED4kZ";
+            "file" = "mdm-26.9-fabric-26.1.2.jar";
+            "hash" = "sha512-he1xFdVO8jHL8qf4zbVU8ultftd1I9VIEuOFYVyP7qsIogT3S7J2DFIPq6yio4mwdTVLzHddraN8rH2aIVjk5g==";
+        };
+        _VEbkE6pg = {
+            "id" = "VEbkE6pg";
+            "file" = "mdm-26.9-fabric-26.2.jar";
+            "hash" = "sha512-q4rm5LhDeHOo+9pXkaZQx/silzZKcZHLADIa+nuf0DKQR8NC7omeb9wZ+kmEHm/X4HgXot1NicWzwFD52ZVbDg==";
+        };
     in {
         "3jBR8faY" = _3jBR8faY;
         "bbjsEjVA" = _bbjsEjVA;
@@ -776,7 +821,16 @@ let
         "EAA8h9j3" = _EAA8h9j3;
         "ajULdHt9" = _ajULdHt9;
         "5gRFrxNr" = _5gRFrxNr;
-        "forge-1.20.1" = _9p0kJwAd;
+        "psLoVFep" = _psLoVFep;
+        "SHiMd2N9" = _SHiMd2N9;
+        "DAz8Wk4b" = _DAz8Wk4b;
+        "dY4twsIZ" = _dY4twsIZ;
+        "YukFiM99" = _YukFiM99;
+        "x3KhyH6J" = _x3KhyH6J;
+        "Wx0cm5JB" = _Wx0cm5JB;
+        "Ld1ED4kZ" = _Ld1ED4kZ;
+        "VEbkE6pg" = _VEbkE6pg;
+        "forge-1.20.1" = _psLoVFep;
         "forge-1.16.5" = _DHtvioW8;
         "forge-1.19.4" = _ZSTW2Wdg;
         "forge-1.19.2" = _Ow5ZM8Ty;
@@ -785,21 +839,21 @@ let
         "forge-1.18.2" = _ek6BdwWE;
         "forge-1.17.1" = _oVWHmtUM;
         "forge-1.15.2" = _gJ6T2pE0;
-        "neoforge-1.21.1" = _b5q07MGB;
+        "neoforge-1.21.1" = _SHiMd2N9;
         "neoforge-1.20.4" = _ti9HnYvW;
         "neoforge-1.20.6" = _Um9AG84m;
         "neoforge-1.21" = _EUXYHXdC;
         "neoforge-1.21.4" = _jLouzj3q;
         "neoforge-1.21.5" = _8lNRoAa5;
         "neoforge-1.21.8" = _YuUVG49p;
-        "neoforge-26.1.2" = _EAA8h9j3;
-        "neoforge-1.21.11" = _ajULdHt9;
-        "fabric-1.20.1" = _KssHzVmv;
+        "neoforge-26.1.2" = _dY4twsIZ;
+        "neoforge-1.21.11" = _DAz8Wk4b;
+        "fabric-1.20.1" = _YukFiM99;
         "fabric-1.21.8" = _8t7L9QVy;
-        "fabric-1.21.1" = _wuL51xfG;
-        "fabric-1.21.11" = _q1Kv9EdP;
-        "fabric-26.1.2" = _NAgVgaYv;
-        "fabric-26.2" = _5gRFrxNr;
+        "fabric-1.21.1" = _x3KhyH6J;
+        "fabric-1.21.11" = _Wx0cm5JB;
+        "fabric-26.1.2" = _Ld1ED4kZ;
+        "fabric-26.2" = _VEbkE6pg;
         "pkg-2.0.5" = _3jBR8faY;
         "pkg-2.1.11" = _RnvxUW9g;
         "pkg-2.1.13" = _NASQepTD;
@@ -816,7 +870,8 @@ let
         "pkg-26.5.0" = _dpygb4y7;
         "pkg-26.5.1" = _Ze9n7IdF;
         "pkg-26.7.0" = _5gRFrxNr;
-        "default" = _5gRFrxNr;
+        "pkg-26.9" = _VEbkE6pg;
+        "default" = _VEbkE6pg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modern-decorations-mod";

@@ -116,6 +116,11 @@ let
             "file" = "SelectiveGlowingFabric-1.4+1.21.11.jar";
             "hash" = "sha512-6MjyPfBfcXm5Iyn4VIFJzmG9UyFK/1fkjC49qiWmfiTdBcJWfzfUttnibjpLnm32YOhPmc34CmE2n1hJu86oJw==";
         };
+        _ZSFSEHb1 = {
+            "id" = "ZSFSEHb1";
+            "file" = "SelectiveGlowingFabric-1.4+26.1.jar";
+            "hash" = "sha512-+fs7PODok1ZkIpFh9OPYyU85LxDcVGdA62YOS/h3+FvOJ8at91LrjmvWQzeKWe6m46+fxHBwGVihJkCn890Swg==";
+        };
     in {
         "cGWyu8GC" = _cGWyu8GC;
         "3mFyvsLZ" = _3mFyvsLZ;
@@ -140,6 +145,7 @@ let
         "G9N2Em1W" = _G9N2Em1W;
         "re0udtfb" = _re0udtfb;
         "PqrZjUza" = _PqrZjUza;
+        "ZSFSEHb1" = _ZSFSEHb1;
         "fabric-1.19.4" = _3mFyvsLZ;
         "fabric-1.20.1" = _Hg3grXv5;
         "fabric-1.20.4" = _TBw6ptcA;
@@ -154,6 +160,10 @@ let
         "fabric-1.21.9" = _re0udtfb;
         "fabric-1.21.10" = _re0udtfb;
         "fabric-1.21.11" = _PqrZjUza;
+        "fabric-26.1" = _ZSFSEHb1;
+        "fabric-26.1.1" = _ZSFSEHb1;
+        "fabric-26.1.2" = _ZSFSEHb1;
+        "fabric-26.2" = _ZSFSEHb1;
         "pkg-1.0" = _cGWyu8GC;
         "pkg-1.1" = _TBw6ptcA;
         "pkg-1.1+1.21.1" = _nrbNh5cX;
@@ -175,7 +185,8 @@ let
         "pkg-1.4+1.21.8" = _G9N2Em1W;
         "pkg-1.4+1.21.10" = _re0udtfb;
         "pkg-1.4+1.21.11" = _PqrZjUza;
-        "default" = _PqrZjUza;
+        "pkg-1.4+26.1" = _ZSFSEHb1;
+        "default" = _ZSFSEHb1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "selective-glowing";

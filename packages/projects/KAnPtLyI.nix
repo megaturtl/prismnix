@@ -261,6 +261,21 @@ let
             "file" = "compact-fishing-message-1.10+26.2.jar";
             "hash" = "sha512-HIei7q4vSwcKoPI4+KwC9GGu7RDT7Alr+C1ikyHU84cm3YS3XOkNtPvv3bf6KR5hjNk6moCE8eatXeZg5LSYGQ==";
         };
+        _rUDVkaDi = {
+            "id" = "rUDVkaDi";
+            "file" = "compact-fishing-message+1.11+1.21.11.jar";
+            "hash" = "sha512-+o6uIQJd91V2WMLiVgJxDgWLlwuIL5nC1MepJv6++lR2SIFam3qVi4mH0hNrqV+6ZTYMmPr/CrA6m4bRmpiDEw==";
+        };
+        _gIw6cWC2 = {
+            "id" = "gIw6cWC2";
+            "file" = "compact-fishing-message+1.11+26.1-26.1.2.jar";
+            "hash" = "sha512-GFxulWZIwODa4nYMfaOkVORzRor6aGdGGcSgsyMS4To0U6sHklDjReDe5XE+KmQ+b+t6NJm1+EHA8SD/1sKsQw==";
+        };
+        _B7PMUIK2 = {
+            "id" = "B7PMUIK2";
+            "file" = "compact-fishing-message+1.11+26.2.jar";
+            "hash" = "sha512-0ybEPrZ/Dq/ChxycLKRCE2TZjVcmP5R8a32qLvexf66Qk96cEgsroWiE8oVw+MPO05FocJJucV8pgFLNPqL/mQ==";
+        };
     in {
         "qKH7sMrR" = _qKH7sMrR;
         "FyDOIidz" = _FyDOIidz;
@@ -314,6 +329,9 @@ let
         "nb1PXigT" = _nb1PXigT;
         "WOu5DwFB" = _WOu5DwFB;
         "gfAEuv8E" = _gfAEuv8E;
+        "rUDVkaDi" = _rUDVkaDi;
+        "gIw6cWC2" = _gIw6cWC2;
+        "B7PMUIK2" = _B7PMUIK2;
         "fabric-1.21.4" = _vj2r6jqq;
         "fabric-1.21.5" = _5Fvk7uq5;
         "fabric-1.21.1" = _1KttvQCo;
@@ -324,11 +342,11 @@ let
         "fabric-1.21.8" = _nb1PXigT;
         "fabric-1.21.9" = _Y7EsZHs6;
         "fabric-1.21.10" = _Y7EsZHs6;
-        "fabric-1.21.11" = _Y7EsZHs6;
-        "fabric-26.1" = _WOu5DwFB;
-        "fabric-26.1.1" = _WOu5DwFB;
-        "fabric-26.1.2" = _WOu5DwFB;
-        "fabric-26.2" = _gfAEuv8E;
+        "fabric-1.21.11" = _rUDVkaDi;
+        "fabric-26.1" = _gIw6cWC2;
+        "fabric-26.1.1" = _gIw6cWC2;
+        "fabric-26.1.2" = _gIw6cWC2;
+        "fabric-26.2" = _B7PMUIK2;
         "pkg-1.0.1" = _FyDOIidz;
         "pkg-1.0.2" = _NpJvLm5P;
         "pkg-1.0.3" = _3lOISBhi;
@@ -347,7 +365,8 @@ let
         "pkg-1.8" = _vj2r6jqq;
         "pkg-1.9" = _2Ky8bskP;
         "pkg-1.10" = _gfAEuv8E;
-        "default" = _gfAEuv8E;
+        "pkg-1.11" = _B7PMUIK2;
+        "default" = _B7PMUIK2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcci-compact-fishing-message";

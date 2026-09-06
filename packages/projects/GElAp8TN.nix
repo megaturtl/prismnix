@@ -171,6 +171,11 @@ let
             "file" = "advanced_paintings-1.4-neoforge-26.1.2.jar";
             "hash" = "sha512-iet/Fy7ogwXy1OyHtcsscJE15jJp2104YYCf2yPvl8b3Pt0uLQshR1+YFz4MC3NFFqj0GtgndTkZmekG+9xIqw==";
         };
+        _mI1E6sDN = {
+            "id" = "mI1E6sDN";
+            "file" = "advanced_paintings-1.3-neoforge-26.2.jar";
+            "hash" = "sha512-LXbW45RdlH5VE840w+FCKvtUhzymr664wV9svteZvKrwmQlMcTsD4EB1Tb8/gJY2Ji7D2/Zs5PFqYmBPGmryow==";
+        };
     in {
         "ZB1H3Flu" = _ZB1H3Flu;
         "PoVXylHp" = _PoVXylHp;
@@ -206,12 +211,14 @@ let
         "o1VG1zcz" = _o1VG1zcz;
         "53cyBMvz" = _53cyBMvz;
         "LLpGZ6ji" = _LLpGZ6ji;
+        "mI1E6sDN" = _mI1E6sDN;
         "neoforge-1.20.6" = _79QgDvV4;
         "neoforge-1.21" = _PCjhPRmy;
         "neoforge-1.21.1" = _53cyBMvz;
         "neoforge-1.21.4" = _Er5rB5Wf;
         "neoforge-1.21.8" = _1OFygEOy;
         "neoforge-26.1.2" = _LLpGZ6ji;
+        "neoforge-26.2" = _mI1E6sDN;
         "forge-1.20.1" = _o1VG1zcz;
         "forge-1.19.4" = _LfgualSr;
         "forge-1.19.2" = _pWhvhVFP;
@@ -231,9 +238,9 @@ let
         "pkg-1" = _J5HI1mZJ;
         "pkg-1.1" = _55Cs0sIC;
         "pkg-1.2" = _UW9DxlqX;
-        "pkg-1.3" = _Kl9HuBnV;
+        "pkg-1.3" = _mI1E6sDN;
         "pkg-1.4" = _LLpGZ6ji;
-        "default" = _LLpGZ6ji;
+        "default" = _mI1E6sDN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "advanced-paintings";

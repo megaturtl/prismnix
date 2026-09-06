@@ -491,6 +491,31 @@ let
             "file" = "minecart_trains_fork-2.4.3+26.2.neoforge.jar";
             "hash" = "sha512-b0u5jGiEjQwft9TQCyzwTu/1E48zbrqMj73N7KnAP/fq57owF8qjL9ZMGYy0QMi5ZU8gB+W2NnBiGwOBTxzSYA==";
         };
+        _jg4rXHQE = {
+            "id" = "jg4rXHQE";
+            "file" = "minecart-trains-fork-2.5.0-alpha.1+26.2.jar";
+            "hash" = "sha512-5g6l8329r6AmWDF6RPx1eDp4qng4GMiRU7YX4XXT4HjaiK11luM+vfb29YVHskHU65TdBdtjP9aFRnZ42rqweg==";
+        };
+        _F0Omq0Dq = {
+            "id" = "F0Omq0Dq";
+            "file" = "minecart-trains-fork-2.5.0-alpha.2+26.2.jar";
+            "hash" = "sha512-NZJabDB5PBWq1JJ+vnkHcXNYjCiKVlx45JkJqHkmjarwAZ2V7jAaGyJ+J8KEiH1CDk2ogwdnyzpQBEoyNXZFYw==";
+        };
+        _qaPiTACF = {
+            "id" = "qaPiTACF";
+            "file" = "minecart-trains-fork-2.5.0-alpha.3+26.2.jar";
+            "hash" = "sha512-0RVi9UtS/Jnv7qSdCvZ8lGpW37stEvrucKEkG0BuBhKzueAfnV3a4NYPLoGUnALE7/2ZnS+qMiMB/yHFSrivGg==";
+        };
+        _X4NCzWPP = {
+            "id" = "X4NCzWPP";
+            "file" = "minecart-trains-fork-2.5.0-alpha.4+26.2.jar";
+            "hash" = "sha512-B64lkZKb8y1Rqb93LlXm43886hvp03YoeBc2esQSkR1nBzY7PQSz6EoLigghSgwQmA2TPqniT35lDa5YUz9AkA==";
+        };
+        _RWBxVgQS = {
+            "id" = "RWBxVgQS";
+            "file" = "minecart-trains-fork-2.5.0-beta.1+26.2.jar";
+            "hash" = "sha512-C8sXt2w2deLTXIFELt+/gk+2/o+Qet8IfGzt/iDo4q/sLdRXo2ekGBPr9++g9GEboDdSwyxHVVUfVGoLhwFujg==";
+        };
     in {
         "UR3nUJIF" = _UR3nUJIF;
         "yoKrRrE9" = _yoKrRrE9;
@@ -590,6 +615,11 @@ let
         "CgMKezvU" = _CgMKezvU;
         "udb0rzmR" = _udb0rzmR;
         "ZE0zunwj" = _ZE0zunwj;
+        "jg4rXHQE" = _jg4rXHQE;
+        "F0Omq0Dq" = _F0Omq0Dq;
+        "qaPiTACF" = _qaPiTACF;
+        "X4NCzWPP" = _X4NCzWPP;
+        "RWBxVgQS" = _RWBxVgQS;
         "fabric-1.21.9" = _w8Yq8yvH;
         "fabric-1.21.10" = _w8Yq8yvH;
         "fabric-1.21.6" = _k71tUBQb;
@@ -622,7 +652,7 @@ let
         "fabric-26.1" = _hgfjdGDB;
         "fabric-26.1.1" = _hgfjdGDB;
         "fabric-26.1.2" = _hgfjdGDB;
-        "fabric-26.2" = _udb0rzmR;
+        "fabric-26.2" = _RWBxVgQS;
         "neoforge-26.1" = _3VE9R1PJ;
         "neoforge-26.1.1" = _3VE9R1PJ;
         "neoforge-26.1.2" = _3VE9R1PJ;
@@ -729,7 +759,12 @@ let
         "pkg-2.4.2+26.2" = _CgMKezvU;
         "pkg-2.4.3+26.2" = _udb0rzmR;
         "pkg-2.4.3+26.2.neoforge" = _ZE0zunwj;
-        "default" = _ZE0zunwj;
+        "pkg-2.5.0-alpha.1+26.2" = _jg4rXHQE;
+        "pkg-2.5.0-alpha.2+26.2" = _F0Omq0Dq;
+        "pkg-2.5.0-alpha.3+26.2" = _qaPiTACF;
+        "pkg-2.5.0-alpha.4+26.2" = _X4NCzWPP;
+        "pkg-2.5.0-beta.1+26.2" = _RWBxVgQS;
+        "default" = _RWBxVgQS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minecart-trains-fork";

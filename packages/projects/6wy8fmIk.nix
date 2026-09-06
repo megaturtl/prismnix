@@ -136,6 +136,36 @@ let
             "file" = "astages-2.4.1-1.21.1.jar";
             "hash" = "sha512-SVbccK6NpAWNg/++QCsV9qygoe2KCHlOPWIbdSTkd66zQ7f6TglSEht65LqZOlsWFdFEp7WLk13M1LU5Gl9cEQ==";
         };
+        _mwWvalm7 = {
+            "id" = "mwWvalm7";
+            "file" = "astages-2.5.0-1.20.1.jar";
+            "hash" = "sha512-K6tk1XUr67LTp57rBNtBaPU+Ewy4TfZy+MrDAEUyGtpBST4SvQvAetVMCbOczrbwY8t/X4qFOhc6lPB/Bl9Ggw==";
+        };
+        _7fwq6bMy = {
+            "id" = "7fwq6bMy";
+            "file" = "astages-2.5.0-1.21.1.jar";
+            "hash" = "sha512-ZGJZE/MOLYhCmbJkP/cUZhH9IOXWKGHUEcWSvFlPuMortkE/NGbNd8LVVlaGUks3/VvVulDWOctcMBCe0dHvsg==";
+        };
+        _q0Ebh6eB = {
+            "id" = "q0Ebh6eB";
+            "file" = "astages-2.5.1-1.20.1.jar";
+            "hash" = "sha512-NwuJBFykXdnDDrNW/cbQ80DdDFXphkX7JXloS7W7uTUcQpf52q+9CP/jvi/bA5DXIWfnqM2xmiJc4uL19a0fQg==";
+        };
+        _PbF4n6CF = {
+            "id" = "PbF4n6CF";
+            "file" = "astages-2.5.1-1.21.1.jar";
+            "hash" = "sha512-j3YF5N9hOnl2Lgzy4m78xv9Qb65ln+3TKaN7EsE33Z3oFQmzrDj562zlkCownpJbg5h1xovTBJPHSIQRTGBiRw==";
+        };
+        _KGBPINpA = {
+            "id" = "KGBPINpA";
+            "file" = "astages-2.5.2-1.20.1.jar";
+            "hash" = "sha512-/xs82I43dnz6wSO9NW78h1KnBdRje/5g2Kes1CcnVTRbLkiRGhonOBrH19J4BHSxNUrtH06cmeG+eS66Gru9Qw==";
+        };
+        _chHxj2J2 = {
+            "id" = "chHxj2J2";
+            "file" = "astages-2.5.2-1.21.1.jar";
+            "hash" = "sha512-X6BnJjBzESFWRrUHvROFFibWeZ2DdwMAPslv3Y2szTPuLIz1l3b5qHBiA+joCJsX7APsS8pX8kbfhnixcu99Pw==";
+        };
     in {
         "I1tHZpop" = _I1tHZpop;
         "QQna37kV" = _QQna37kV;
@@ -164,8 +194,14 @@ let
         "vdpF8rVa" = _vdpF8rVa;
         "StMJcsqI" = _StMJcsqI;
         "BXybNksR" = _BXybNksR;
-        "forge-1.20.1" = _StMJcsqI;
-        "neoforge-1.21.1" = _BXybNksR;
+        "mwWvalm7" = _mwWvalm7;
+        "7fwq6bMy" = _7fwq6bMy;
+        "q0Ebh6eB" = _q0Ebh6eB;
+        "PbF4n6CF" = _PbF4n6CF;
+        "KGBPINpA" = _KGBPINpA;
+        "chHxj2J2" = _chHxj2J2;
+        "forge-1.20.1" = _KGBPINpA;
+        "neoforge-1.21.1" = _chHxj2J2;
         "pkg-2.0.0-alpha.2-1.20.1" = _I1tHZpop;
         "pkg-2.0.0-alpha.3-1.20.1" = _QQna37kV;
         "pkg-2.0.0-alpha.4-1.20.1" = _jyfwG5TR;
@@ -193,7 +229,13 @@ let
         "pkg-2.4.0-1.21.1" = _vdpF8rVa;
         "pkg-2.4.1-1.20.1" = _StMJcsqI;
         "pkg-2.4.1-1.21.1" = _BXybNksR;
-        "default" = _BXybNksR;
+        "pkg-2.5.0-1.20.1" = _mwWvalm7;
+        "pkg-2.5.0-1.21.1" = _7fwq6bMy;
+        "pkg-2.5.1-1.20.1" = _q0Ebh6eB;
+        "pkg-2.5.1-1.21.1" = _PbF4n6CF;
+        "pkg-2.5.2-1.20.1" = _KGBPINpA;
+        "pkg-2.5.2-1.21.1" = _chHxj2J2;
+        "default" = _chHxj2J2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "astages";

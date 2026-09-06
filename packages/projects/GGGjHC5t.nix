@@ -81,6 +81,41 @@ let
             "file" = "Buddycards-1.20.1-4.3.2.jar";
             "hash" = "sha512-2M4utXc8Wvz8LoE6eEJZjZhNc12GDkrOn3fM16RCzQf1AMgMrCGv05mo0C4C1oC3yuC6SnfH4jdVOu6RPnZfPw==";
         };
+        _ZDAwO9P4 = {
+            "id" = "ZDAwO9P4";
+            "file" = "buddycards-5.0.0.jar";
+            "hash" = "sha512-h7tEyXXbfnpGj6th4hpECupvzQHd6sGsMbxN4gJx32OxnW9P0lJsMkQf7+Oaj4VjiSRzlONtWMK1PUsDAVFZAQ==";
+        };
+        _Hc5hVRnO = {
+            "id" = "Hc5hVRnO";
+            "file" = "buddycards-1.21.1-5.0.1.jar";
+            "hash" = "sha512-+RL3YT3YVuz6hMx4h/FrgVEVLOsa1wXvchVpnLUAgS5F8M5uUDS5fA4PNDhD0PHNuAXcG/HS6T4CtVwZqUSqkQ==";
+        };
+        _cFpqNqJm = {
+            "id" = "cFpqNqJm";
+            "file" = "buddycards-1.21.1-5.0.2.jar";
+            "hash" = "sha512-xRB997mhP2Hk12/BCncPera6sl5usL5VETDQkAf9YX4JStSp+Co3PdJ8HaJrERf9TUrdfUqg4FXkiB7ov7zUDw==";
+        };
+        _rg1FkchV = {
+            "id" = "rg1FkchV";
+            "file" = "buddycards-1.21.1-5.0.3.jar";
+            "hash" = "sha512-tp0uIEyrQzdse0Is8fjEdt2uuyy7c2USJYljNddhJPyME+TJAbkm5nY9JuGQ6Mw1wyD4NMlxqZ1r3ZhjjPEL7Q==";
+        };
+        _58fUHDvy = {
+            "id" = "58fUHDvy";
+            "file" = "buddycards-1.21.1-5.0.4.jar";
+            "hash" = "sha512-sWAUedg+p2oXGMKMPqde6DaOIo51w9ipyOyxgPHVNuvpng5uzXg7JiohujqAvHiCHkZA8jNtUImEMhdZpzz0ow==";
+        };
+        _9eQGGZ3L = {
+            "id" = "9eQGGZ3L";
+            "file" = "buddycards-1.21.1-5.1.0.jar";
+            "hash" = "sha512-cNk2SD+YvihNM2BvFtxJx7Z83I91UJlNTyb8XqkGypVO6WrZTsP880IO2ioL1+Vz5KGQj7XVXWGf4c/uf1M9qA==";
+        };
+        _9AP7T4Kt = {
+            "id" = "9AP7T4Kt";
+            "file" = "buddycards-1.21.1-5.1.1.jar";
+            "hash" = "sha512-jPCXmgxaXUezlU3sRwhsml6x+KoGptmcDhUsNCh+zSRLwpB0Lz9GasmDwYfFhz87fFqRmY26QqAfpWaerZXmLA==";
+        };
     in {
         "rCGuEz0m" = _rCGuEz0m;
         "AGnjDghZ" = _AGnjDghZ;
@@ -98,8 +133,16 @@ let
         "tr2KQtRb" = _tr2KQtRb;
         "Ce6yhhOU" = _Ce6yhhOU;
         "lrc00XyF" = _lrc00XyF;
+        "ZDAwO9P4" = _ZDAwO9P4;
+        "Hc5hVRnO" = _Hc5hVRnO;
+        "cFpqNqJm" = _cFpqNqJm;
+        "rg1FkchV" = _rg1FkchV;
+        "58fUHDvy" = _58fUHDvy;
+        "9eQGGZ3L" = _9eQGGZ3L;
+        "9AP7T4Kt" = _9AP7T4Kt;
         "forge-1.18.2" = _rgqOKcma;
         "forge-1.20.1" = _lrc00XyF;
+        "neoforge-1.21.1" = _9AP7T4Kt;
         "pkg-1.18.2-3.2.1" = _rCGuEz0m;
         "pkg-1.18.2-3.3.0" = _AGnjDghZ;
         "pkg-1.18.2-3.3.1" = _dTqGW4AJ;
@@ -116,7 +159,14 @@ let
         "pkg-1.20.1-4.3.0" = _tr2KQtRb;
         "pkg-1.20.1-4.3.1" = _Ce6yhhOU;
         "pkg-1.20.1-4.3.2" = _lrc00XyF;
-        "default" = _lrc00XyF;
+        "pkg-1.21.1-5.0.0" = _ZDAwO9P4;
+        "pkg-1.21.1-5.0.1" = _Hc5hVRnO;
+        "pkg-1.21.1-5.0.2" = _cFpqNqJm;
+        "pkg-1.21.1-5.0.3" = _rg1FkchV;
+        "pkg-1.21.1-5.0.4" = _58fUHDvy;
+        "pkg-1.21.1-5.1.0" = _9eQGGZ3L;
+        "pkg-1.21.1-5.1.1" = _9AP7T4Kt;
+        "default" = _9AP7T4Kt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "buddycards";

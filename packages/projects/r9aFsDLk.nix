@@ -129,6 +129,14 @@ let
         "minecraft-26.2-rc-1" = _awf1UkmW;
         "minecraft-26.2-rc-2" = _awf1UkmW;
         "minecraft-26.2" = _awf1UkmW;
+        "minecraft-26.3-snapshot-1" = _awf1UkmW;
+        "minecraft-26.3-snapshot-2" = _awf1UkmW;
+        "minecraft-26.3-snapshot-3" = _awf1UkmW;
+        "minecraft-26.3-snapshot-4" = _awf1UkmW;
+        "minecraft-26.3-snapshot-5" = _awf1UkmW;
+        "minecraft-26.3-snapshot-6" = _awf1UkmW;
+        "minecraft-26.3-snapshot-7" = _awf1UkmW;
+        "minecraft-26.3-snapshot-8" = _awf1UkmW;
         "pkg-1.21.4-1.21.8" = _ex7tTuGK;
         "pkg-1.21.9+" = _awf1UkmW;
         "default" = _awf1UkmW;

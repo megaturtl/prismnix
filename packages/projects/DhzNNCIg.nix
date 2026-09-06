@@ -116,6 +116,11 @@ let
             "file" = "experience-remover-1.0.23.jar";
             "hash" = "sha512-fvhRCf8/ms7t0netK/ubacNvTyBXAIoCwQ28FXVNr2bjOWWgjIvfrqzMJknMfP8tWkMcqysQKUBzDhhIeZ+6Kw==";
         };
+        _pjLWmgnM = {
+            "id" = "pjLWmgnM";
+            "file" = "experience-remover-1.0.24.jar";
+            "hash" = "sha512-j/iy9yZanfHBn/eALbA7o78YI00hDomxWehTFBz93hAfsC5Lh2lVSBtqeLic5VU1EckZ9PKepOwv/YvwneukLg==";
+        };
     in {
         "wnd5YXnz" = _wnd5YXnz;
         "wqJQmwwK" = _wqJQmwwK;
@@ -140,6 +145,7 @@ let
         "wORLlMxB" = _wORLlMxB;
         "zIdnLHfG" = _zIdnLHfG;
         "snpS3W5F" = _snpS3W5F;
+        "pjLWmgnM" = _pjLWmgnM;
         "fabric-1.16.5" = _wnd5YXnz;
         "fabric-1.17" = _wqJQmwwK;
         "fabric-1.17.1" = _wqJQmwwK;
@@ -164,6 +170,7 @@ let
         "fabric-26.1" = _snpS3W5F;
         "fabric-26.1.1" = _snpS3W5F;
         "fabric-26.1.2" = _snpS3W5F;
+        "fabric-26.2" = _pjLWmgnM;
         "pkg-1.0.1" = _wnd5YXnz;
         "pkg-1.0.2" = _wqJQmwwK;
         "pkg-1.0.3" = _QeWTbsmN;
@@ -187,7 +194,8 @@ let
         "pkg-1.0.21" = _wORLlMxB;
         "pkg-1.0.22" = _zIdnLHfG;
         "pkg-1.0.23" = _snpS3W5F;
-        "default" = _snpS3W5F;
+        "pkg-1.0.24" = _pjLWmgnM;
+        "default" = _pjLWmgnM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "experience-remover";

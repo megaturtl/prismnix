@@ -56,6 +56,16 @@ let
             "file" = "ultimate-cobblemon-progression-neoforge-1.4.0.jar";
             "hash" = "sha512-7IZZ+GPMpHiARHT3ACjDhDOQSMdqbUHm2CqdO53Y+tJdI9SUbFk0rObTOvVh7JObMXhKP7kN8bzwDegSkcmp1g==";
         };
+        _EGE36QAG = {
+            "id" = "EGE36QAG";
+            "file" = "ultimate-cobblemon-progression-fabric-1.4.1.jar";
+            "hash" = "sha512-pYlgRt7BI3aGwTD5XxQ09f462Gg7FS5Ny+GHWUPeKukSa9jC4kZCIyOvQgwqDLb5uOHb77SVN6RP7g3dIF2xGg==";
+        };
+        _E90YQK8h = {
+            "id" = "E90YQK8h";
+            "file" = "ultimate-cobblemon-progression-neoforge-1.4.1.jar";
+            "hash" = "sha512-cDPGuhZROdEOcMQMTzUyPK9FrJwzkhCfna8JkloRj8DrwSaI05ZwMiw9nQ5Qc0WLH3n8iD83/+68Wa6zqSjYNA==";
+        };
     in {
         "QcxAhAVo" = _QcxAhAVo;
         "MQaL6qUr" = _MQaL6qUr;
@@ -68,8 +78,10 @@ let
         "xQBRvxaG" = _xQBRvxaG;
         "gAfPJYSe" = _gAfPJYSe;
         "UZ8M1MeI" = _UZ8M1MeI;
-        "fabric-1.21.1" = _gAfPJYSe;
-        "neoforge-1.21.1" = _UZ8M1MeI;
+        "EGE36QAG" = _EGE36QAG;
+        "E90YQK8h" = _E90YQK8h;
+        "fabric-1.21.1" = _EGE36QAG;
+        "neoforge-1.21.1" = _E90YQK8h;
         "pkg-1.0.0" = _QcxAhAVo;
         "pkg-1.1.0" = _MQaL6qUr;
         "pkg-1.1.1" = _N5SIuHVW;
@@ -80,7 +92,9 @@ let
         "pkg-1.3.1" = _bEbpZkrj;
         "pkg-1.3.2" = _xQBRvxaG;
         "pkg-1.4.0" = _UZ8M1MeI;
-        "default" = _UZ8M1MeI;
+        "pkg-1.7.3_1.4.1+fabric" = _EGE36QAG;
+        "pkg-1.7.3_1.4.1+neoforge" = _E90YQK8h;
+        "default" = _E90YQK8h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ultimate-cobblemon-progression";

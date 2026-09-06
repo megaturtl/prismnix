@@ -126,6 +126,11 @@ let
             "file" = "Reign-0.8.1.jar";
             "hash" = "sha512-KR18zNDIO58S/x23TXHrW+uef1Joz0dQaDhe6kMvaSVUZE6GNwicqqUFLwp4z6SoMtV6Wa/cO0Vss6cRcNCoZA==";
         };
+        _7pkXVr4G = {
+            "id" = "7pkXVr4G";
+            "file" = "Reign-0.8.4a.jar";
+            "hash" = "sha512-ds9h2znTYX5L7YbdxIBPphd0yuftAEaYkhySzATofi1xTUGjO0+nTS1R0wFtKjXxr82Dicvyvz5/rLDSOcOalw==";
+        };
     in {
         "fbLVpMYz" = _fbLVpMYz;
         "EkP9y4yN" = _EkP9y4yN;
@@ -152,7 +157,8 @@ let
         "T3VsbBQK" = _T3VsbBQK;
         "xLMUFwKr" = _xLMUFwKr;
         "ZrXvXcQs" = _ZrXvXcQs;
-        "forge-1.20.1" = _ZrXvXcQs;
+        "7pkXVr4G" = _7pkXVr4G;
+        "forge-1.20.1" = _7pkXVr4G;
         "pkg-0.3" = _fbLVpMYz;
         "pkg-0.4.1" = _EkP9y4yN;
         "pkg-0.4.3" = _k8gEWAvo;
@@ -178,7 +184,8 @@ let
         "pkg-0.7.24" = _T3VsbBQK;
         "pkg-0.7.26" = _xLMUFwKr;
         "pkg-0.8.1" = _ZrXvXcQs;
-        "default" = _ZrXvXcQs;
+        "pkg-0.8.4a" = _7pkXVr4G;
+        "default" = _7pkXVr4G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reignmod";

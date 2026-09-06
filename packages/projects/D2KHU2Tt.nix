@@ -1,21 +1,6 @@
 {lib, callPackage, ...}:
 let
     versions = (let
-        _QcYddPTB = {
-            "id" = "QcYddPTB";
-            "file" = "super-steve-1.6.2.jar";
-            "hash" = "sha512-w+PNwkEZwZ0SO/nzW+YVsCatTZdilOwWcrcPq7v2U2XMBUDrQx6GzXoCk9DkoRjXSWySgIVbpDtzZIA6Hs6t1Q==";
-        };
-        _VNw6B5fz = {
-            "id" = "VNw6B5fz";
-            "file" = "super-steve-1.v3.7.1.1.jar";
-            "hash" = "sha512-+ZMBp6bCKvZfBPvCx1NQ+5a8hVml0S+TTGY5oXPKRQ5+jAnmFVsdxJ1y6llhZg8XmyTJckmihNQKw+INZkj9Xg==";
-        };
-        _AAORrlyx = {
-            "id" = "AAORrlyx";
-            "file" = "super-steve-1.7.1.4.2.1.0.0.1.jar";
-            "hash" = "sha512-s6nwaoeC91rKbu8lzWfYXc5labbNRBbcUjkhGGjQj1mi9SF3mrOLPgX6oqbFClf2Tfvej+9AvgTFADznOBIeIQ==";
-        };
         _ao3sgjAd = {
             "id" = "ao3sgjAd";
             "file" = "super-steve-6.7.9.jar";
@@ -51,10 +36,42 @@ let
             "file" = "super-steve-6.8.1.jar";
             "hash" = "sha512-RBb1Xd2bwKcBJsdRfGFn2Y0i0YSGiHFFLpW3Xe5GKHFPKQEh7pWWC31ZjTPErfxk5Mx4AaJDrbKu40CVLdz9YQ==";
         };
+        _tOeiDRyp = {
+            "id" = "tOeiDRyp";
+            "file" = "super-steve-6.8.5.jar";
+            "hash" = "sha512-F1rAg5eXF8QAhyGQxgvivR4p8I8EVDg/i+kCSXpRZBSXj8rzXyb37R/1qKcXQ7TIcKBQCMkCNXp59t3UTt0V0w==";
+        };
+        _7RSEsoAV = {
+            "id" = "7RSEsoAV";
+            "file" = "super-steve-6.8.6.jar";
+            "hash" = "sha512-Vqjcwq63JVVY44Rf07vYUL03u/wgyn6y96CcSKVv50hDv0elZeniM8nNLThE57JQgl/kz+C5ouUOpQq+QmwljA==";
+        };
+        _YJStJeiM = {
+            "id" = "YJStJeiM";
+            "file" = "super-steve-6.8.10sp.jar";
+            "hash" = "sha512-1XG/zaHadGJqHsJnxNQctzIcfDqXAj1SH7At0EcMzB5uNSx+0MKAHyM09oiDW9Sy20UXWQUCVVvf3WItC679dA==";
+        };
+        _BF1VmL6s = {
+            "id" = "BF1VmL6s";
+            "file" = "super-steve-6.8.15t.jar";
+            "hash" = "sha512-AH5knheMQMP2VnJLWGlYoeXyp+TFj7A3TIuHfKVE/2NDUxCif45OJ7LJucDK8eKEhQv/mX9B262tWzOSNzPklQ==";
+        };
+        _k8qiewC6 = {
+            "id" = "k8qiewC6";
+            "file" = "super-steve-6.8.26fsp.jar";
+            "hash" = "sha512-egXgOROyVTWQ/mP37akn0Hv5iU0Y4CpS51kFT9EOQme0R2dzdlFBsve+mHeBkY1BKpCsPXMu7vcWvh+K5ARYSg==";
+        };
+        _1DN2p3h9 = {
+            "id" = "1DN2p3h9";
+            "file" = "super-steve-6.8.29sspp.jar";
+            "hash" = "sha512-F/0VWSI1lgkoeuHO7NYDEU9t/9YscIufQ2lElJrvlYFFDraf7Wc5Utmbf11XDbrKZ7lyWV6weNpWuvXcoQiGAw==";
+        };
+        _4nJaEjW0 = {
+            "id" = "4nJaEjW0";
+            "file" = "super-steve-6.9.1-917813.jar";
+            "hash" = "sha512-LnfpwVzOe8wBrSoPVwwXomfWNCT3+8epAOpy2pI/8R/8TjGacaQdMD2qHvZ5wCikPZfExKNRDrx6C6pezXpytg==";
+        };
     in {
-        "QcYddPTB" = _QcYddPTB;
-        "VNw6B5fz" = _VNw6B5fz;
-        "AAORrlyx" = _AAORrlyx;
         "ao3sgjAd" = _ao3sgjAd;
         "5eq2Jeh8" = _5eq2Jeh8;
         "d9w16vvU" = _d9w16vvU;
@@ -62,10 +79,14 @@ let
         "LGhsSdXU" = _LGhsSdXU;
         "MSHrusLf" = _MSHrusLf;
         "1J28yFbU" = _1J28yFbU;
-        "forge-1.20.1" = _1J28yFbU;
-        "pkg-1.6.2" = _QcYddPTB;
-        "pkg-1.V3.7.1.1" = _VNw6B5fz;
-        "pkg-1.7.1.4.2.1.0.0.1" = _AAORrlyx;
+        "tOeiDRyp" = _tOeiDRyp;
+        "7RSEsoAV" = _7RSEsoAV;
+        "YJStJeiM" = _YJStJeiM;
+        "BF1VmL6s" = _BF1VmL6s;
+        "k8qiewC6" = _k8qiewC6;
+        "1DN2p3h9" = _1DN2p3h9;
+        "4nJaEjW0" = _4nJaEjW0;
+        "forge-1.20.1" = _4nJaEjW0;
         "pkg-6.7.9" = _ao3sgjAd;
         "pkg-6.7.9f" = _5eq2Jeh8;
         "pkg-6.7.9ff" = _d9w16vvU;
@@ -73,7 +94,14 @@ let
         "pkg-6.7.25" = _LGhsSdXU;
         "pkg-6.7.27" = _MSHrusLf;
         "pkg-6.8.1" = _1J28yFbU;
-        "default" = _1J28yFbU;
+        "pkg-6.8.5" = _tOeiDRyp;
+        "pkg-6.8.6" = _7RSEsoAV;
+        "pkg-6.8.10sp" = _YJStJeiM;
+        "pkg-6.8.12t" = _BF1VmL6s;
+        "pkg-6.8.26fsp" = _k8qiewC6;
+        "pkg-6.8.29sspp" = _1DN2p3h9;
+        "pkg-6.9.1-917813" = _4nJaEjW0;
+        "default" = _4nJaEjW0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "supersteve";

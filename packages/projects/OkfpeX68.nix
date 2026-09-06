@@ -356,6 +356,31 @@ let
             "file" = "BetterRecipeBookExtended-fabric-1.21.1-2.2.jar";
             "hash" = "sha512-a2rD15lU7Env6A11kwmVBzubjgIE7oNhL3Y/qXKLHZKoxfLr/WCGP9i1t2ovVgO6wYlmff7yl3e5lohBgWBVQQ==";
         };
+        _o4UhvSgl = {
+            "id" = "o4UhvSgl";
+            "file" = "brbe-ava-fabric-26.2-2.3.jar";
+            "hash" = "sha512-ynQbZ08ypEL7tfus6gMKvuki7q9JdJHNiX9avudVQLn1m5GtQBkK8l2xMPb03ElqXuQeTSPKyf1lvfZNnoGs3A==";
+        };
+        _9qlguDgW = {
+            "id" = "9qlguDgW";
+            "file" = "brbe-ava-fabric-26.2-2.3-beta.3.jar";
+            "hash" = "sha512-3n2mlpEX56KipcGr9uIbE6n+ebxGzObz/tGl+xHwAZzlhpLWTILT0o+jgqVs+icEVynpfJCYCmsCutqi/+Us6Q==";
+        };
+        _KmJ0b0VM = {
+            "id" = "KmJ0b0VM";
+            "file" = "brbe-ava-fabric-1.21.11-2.3-beta.1.jar";
+            "hash" = "sha512-lUevtoovKGru5JscVPK5RGOMH+sW2e0CgM1G2H4IRFLQTKotMfxdQtoNEDFKEOFAGVgsYC00Hioomh3NafULdg==";
+        };
+        _HAKecMbT = {
+            "id" = "HAKecMbT";
+            "file" = "brbe-ava-fabric-1.21.1-2.2.1.jar";
+            "hash" = "sha512-mWevtBBXVm6oDVOp/OSfD0unyBPhC+fhiCTWWDhb8snQjixKNrU78shMhkBRDhl3KKHDl9vjIuRSpwmx5ZH6kg==";
+        };
+        _h2L8U1eh = {
+            "id" = "h2L8U1eh";
+            "file" = "brbe-ava-neoforge-1.21.1-2.2.1.jar";
+            "hash" = "sha512-mvR2rmPhFkXRFJiHio3iFVMCzjqExdURt8il3kk3UATpjUquTVQdk9/P5fhHsZTKfCQQqAkBPqGSFNdGAcB/6Q==";
+        };
     in {
         "x4eP7cId" = _x4eP7cId;
         "IGYdM7t5" = _IGYdM7t5;
@@ -428,13 +453,18 @@ let
         "O8Xn3tZE" = _O8Xn3tZE;
         "vx4cvqAC" = _vx4cvqAC;
         "33A3rX1G" = _33A3rX1G;
-        "fabric-1.21.11" = _O8Xn3tZE;
+        "o4UhvSgl" = _o4UhvSgl;
+        "9qlguDgW" = _9qlguDgW;
+        "KmJ0b0VM" = _KmJ0b0VM;
+        "HAKecMbT" = _HAKecMbT;
+        "h2L8U1eh" = _h2L8U1eh;
+        "fabric-1.21.11" = _KmJ0b0VM;
         "fabric-26.1.2" = _H1gXAl04;
-        "fabric-1.21.1" = _33A3rX1G;
-        "fabric-26.2" = _Z22rcxWM;
+        "fabric-1.21.1" = _HAKecMbT;
+        "fabric-26.2" = _9qlguDgW;
         "neoforge-1.21.11" = _46sFSIwd;
         "neoforge-26.1.2" = _Ph62aO5y;
-        "neoforge-1.21.1" = _vx4cvqAC;
+        "neoforge-1.21.1" = _h2L8U1eh;
         "neoforge-26.2" = _oZ8CTmrx;
         "pkg-1.0.0" = _IGYdM7t5;
         "pkg-1.0.1" = _mJ0ECb9i;
@@ -450,7 +480,12 @@ let
         "pkg-2.1.4" = _hIOS14DH;
         "pkg-2.1.4b" = _Y03Q2CyE;
         "pkg-2.2" = _33A3rX1G;
-        "default" = _33A3rX1G;
+        "pkg-2.3-beta.2" = _o4UhvSgl;
+        "pkg-26.2-2.3-beta.3" = _9qlguDgW;
+        "pkg-1.21.11-2.3-beta.1" = _KmJ0b0VM;
+        "pkg-1.21.1-Fabric-2.2.1" = _HAKecMbT;
+        "pkg-1.21.1-NeoForge-2.2.1" = _h2L8U1eh;
+        "default" = _h2L8U1eh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-recipe-book-(extended)";

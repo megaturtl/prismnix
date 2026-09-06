@@ -286,6 +286,16 @@ let
             "file" = "forestry-1.20.1-2.10.2.jar";
             "hash" = "sha512-S0OXCxbdWpr0d7G3HZq7HznHKjcm6Qm/KijZzrdYZM3HqSwoO1JTxxPom3UncR2PLbHilWYK51LR0Q4A8a1lWg==";
         };
+        _kgQ8pCJ4 = {
+            "id" = "kgQ8pCJ4";
+            "file" = "forestry-1.21.1-3.0.0-alpha6.jar";
+            "hash" = "sha512-LlCiYUMODuOz+/QJLk7AxzK1DHZnRoyXenhUaEOedNIhY+AKEzGMfgg1A+lMMEcRZWO3EC9fv76P/yx8CcjAVA==";
+        };
+        _Up9E2VXi = {
+            "id" = "Up9E2VXi";
+            "file" = "forestry-1.20.1-2.11.0.jar";
+            "hash" = "sha512-ZXMx/rBaNz6w5m0if7njuYinWJMvMTQGWyayhONojr9pqnMVayo4ZUKsbn2CFEjcklUTVVDPf4r/Y2h+UkVMuQ==";
+        };
     in {
         "skKQ6IOQ" = _skKQ6IOQ;
         "RqjLckB0" = _RqjLckB0;
@@ -344,9 +354,12 @@ let
         "3sL3BFx4" = _3sL3BFx4;
         "ZInSOok9" = _ZInSOok9;
         "IAIRb23N" = _IAIRb23N;
+        "kgQ8pCJ4" = _kgQ8pCJ4;
+        "Up9E2VXi" = _Up9E2VXi;
         "forge-1.19.2" = _q98RKZEA;
         "forge-1.12.2" = _HgY1dW7s;
-        "forge-1.20.1" = _IAIRb23N;
+        "forge-1.20.1" = _Up9E2VXi;
+        "neoforge-1.21.1" = _kgQ8pCJ4;
         "pkg-1.0.0" = _skKQ6IOQ;
         "pkg-1.0.1" = _RqjLckB0;
         "pkg-1.0.2" = _UywLMwqo;
@@ -404,7 +417,9 @@ let
         "pkg-2.10.0" = _3sL3BFx4;
         "pkg-2.10.1" = _ZInSOok9;
         "pkg-2.10.2" = _IAIRb23N;
-        "default" = _IAIRb23N;
+        "pkg-3.0.0-alpha6" = _kgQ8pCJ4;
+        "pkg-2.11.0" = _Up9E2VXi;
+        "default" = _Up9E2VXi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "forestry-community-edition";

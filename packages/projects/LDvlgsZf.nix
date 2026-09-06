@@ -41,6 +41,21 @@ let
             "file" = "server_plus_plus-neoforge-1.21.8-0.0.1+build.11.jar";
             "hash" = "sha512-te5rnnK0N2KfzG1oBmcmDaUu4BbdDPeKqn8YZ5x7hLc5EiLKltBFQapQk45gSYfD6mn72pyTadUuayMWxfXEXQ==";
         };
+        _Ma4x5BbO = {
+            "id" = "Ma4x5BbO";
+            "file" = "server_plus_plus-neoforge-1.21.10-0.0.1+build.16.jar";
+            "hash" = "sha512-bG8shObujmBH0HBya1sXmfOw9GXS/KM2Zg89rW69R+cP3ijo7bi1esIw+HcSqxec6Xjopc3dHoTpkVCfKb+fNA==";
+        };
+        _xHTn78oW = {
+            "id" = "xHTn78oW";
+            "file" = "server_plus_plus-neoforge-26.1.2-0.0.1+build.17.jar";
+            "hash" = "sha512-0vPnuGT29cASVvn2QrEvMpH9X95YLzXKz/OUjPxu4ENl+pktfeYzfilAjimTpd698vIEBFLFVZJExFRkECgQrg==";
+        };
+        _mpRbXBNB = {
+            "id" = "mpRbXBNB";
+            "file" = "server_plus_plus-neoforge-26.2-0.0.1+build.18.jar";
+            "hash" = "sha512-dstriA2LPFYf8TPPRPTw11fPEFqraW8vnnZM5D2fx9eb/RBOuOeZcahG3nvnYrKMiXh6U+YbKDcgoQjD7KVCwQ==";
+        };
     in {
         "32ljJiRg" = _32ljJiRg;
         "YE4SfzMI" = _YE4SfzMI;
@@ -50,8 +65,14 @@ let
         "zxnMGfzP" = _zxnMGfzP;
         "oJtiMuBC" = _oJtiMuBC;
         "LRDubjNE" = _LRDubjNE;
+        "Ma4x5BbO" = _Ma4x5BbO;
+        "xHTn78oW" = _xHTn78oW;
+        "mpRbXBNB" = _mpRbXBNB;
         "neoforge-1.21.1" = _zxnMGfzP;
         "neoforge-1.21.8" = _LRDubjNE;
+        "neoforge-1.21.10" = _Ma4x5BbO;
+        "neoforge-26.1.2" = _xHTn78oW;
+        "neoforge-26.2" = _mpRbXBNB;
         "pkg-0.0.1+build.2" = _32ljJiRg;
         "pkg-0.0.1+build.4" = _YE4SfzMI;
         "pkg-0.0.1+build.5" = _2DSM0rX0;
@@ -60,7 +81,10 @@ let
         "pkg-0.0.1+build.8" = _zxnMGfzP;
         "pkg-0.0.1+build.10" = _oJtiMuBC;
         "pkg-0.0.1+build.11" = _LRDubjNE;
-        "default" = _LRDubjNE;
+        "pkg-0.0.1+build.16" = _Ma4x5BbO;
+        "pkg-0.0.1+build.17" = _xHTn78oW;
+        "pkg-0.0.1+build.18" = _mpRbXBNB;
+        "default" = _mpRbXBNB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "server-plus-plus";

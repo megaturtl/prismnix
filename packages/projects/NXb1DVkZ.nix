@@ -66,6 +66,16 @@ let
             "file" = "carpet-shadow-legacy-1.0.2-MC1.21.9-1.21.10.jar";
             "hash" = "sha512-5KfUN5n7kArWK2ymAvy8HVbwcfpiy/qomRWfF9vjIJ8jcWBPe2RGxIUJUz1hqAWqjASIeUSD5YdOpJxvGw1QjA==";
         };
+        _S8wBjeqb = {
+            "id" = "S8wBjeqb";
+            "file" = "carpet-shadow-legacy-1.0.2-MC26.1-26.2.jar";
+            "hash" = "sha512-gGHybKShyWjql6zzplAK+5nqDeGwIyOBmvrAsAcD9m7KTRbq3tkenpbfY115AAiQ3PInm7vwANOc64IYLbTwnQ==";
+        };
+        _j59Dbujr = {
+            "id" = "j59Dbujr";
+            "file" = "carpet-shadow-legacy-1.0.3-Beta-MC1.21-1.21.1.jar";
+            "hash" = "sha512-MS+Ym4OoQCNO5KXkyY1+XqzbE351eODUg/iiLOYQIXNQWfmYPM/0OOSqeHy0QGWymntYQacCr/eKwEy8rMMryw==";
+        };
     in {
         "Yj5bY6HY" = _Yj5bY6HY;
         "jXvWGP0g" = _jXvWGP0g;
@@ -80,8 +90,10 @@ let
         "Z3M1uLe3" = _Z3M1uLe3;
         "rpo13OS8" = _rpo13OS8;
         "4yKpSxSv" = _4yKpSxSv;
-        "fabric-1.21" = _yR3Rf76k;
-        "fabric-1.21.1" = _yR3Rf76k;
+        "S8wBjeqb" = _S8wBjeqb;
+        "j59Dbujr" = _j59Dbujr;
+        "fabric-1.21" = _j59Dbujr;
+        "fabric-1.21.1" = _j59Dbujr;
         "fabric-1.21.4" = _qmfX7VWB;
         "fabric-1.21.5" = _Z3M1uLe3;
         "fabric-1.21.6" = _rpo13OS8;
@@ -90,6 +102,10 @@ let
         "fabric-1.21.9" = _4yKpSxSv;
         "fabric-1.21.10" = _4yKpSxSv;
         "fabric-1.21.11" = _4yKpSxSv;
+        "fabric-26.1" = _S8wBjeqb;
+        "fabric-26.1.1" = _S8wBjeqb;
+        "fabric-26.1.2" = _S8wBjeqb;
+        "fabric-26.2" = _S8wBjeqb;
         "pkg-1.0.0-MC1.21-1.21.1" = _Yj5bY6HY;
         "pkg-1.0.0-MC1.21.4" = _jXvWGP0g;
         "pkg-1.0.0-MC1.21.5" = _GC05lygT;
@@ -103,7 +119,9 @@ let
         "pkg-1.0.2-MC1.21.5" = _Z3M1uLe3;
         "pkg-1.0.2-MC1.21.6-1.21.8" = _rpo13OS8;
         "pkg-1.0.2-MC1.21.9-1.21.11" = _4yKpSxSv;
-        "default" = _4yKpSxSv;
+        "pkg-1.0.2-MC26.1-26.2" = _S8wBjeqb;
+        "pkg-1.0.3-Beta-MC1.21-1.21.1" = _j59Dbujr;
+        "default" = _j59Dbujr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "carpet-shadow-legacy";

@@ -91,6 +91,21 @@ let
             "file" = "motorassistancemod-neoforge-26.2-3.1.2.jar";
             "hash" = "sha512-QIIg8rIqwWvazisJ2Mh8wROqeA0eYJxAZZzUcVy6XbysNKumEpZneTzsi9iFRloHmP0nnjL5eZyz3ozAlUo0Sg==";
         };
+        _xyiXcQxM = {
+            "id" = "xyiXcQxM";
+            "file" = "motorassistance-2.1.1-MC1.20.1-fabric.jar";
+            "hash" = "sha512-m0VmoDz3Mt+y+PM6ZmZ1ErbcrRF9Fc6NLQ2V9itshgUZZim5a2HZEB1rECGiQWO8DV78V8OCkymWhUbVLF6MSw==";
+        };
+        _SLOQXBTz = {
+            "id" = "SLOQXBTz";
+            "file" = "motorassistance-2.1.1-MC1.20.1-forge.jar";
+            "hash" = "sha512-CP0+oYHkGdvFvgQgxoEmhIqJhpNWNsmVIlc5XkmcU6VPmeAIL7W6C0HUvrRaIkvYI4fQ7jfwS8zDD6y+OXNW7A==";
+        };
+        _qsCutA3S = {
+            "id" = "qsCutA3S";
+            "file" = "motorassistancemod-forge-26.2-3.1.2.jar";
+            "hash" = "sha512-iUs77WC/yfXo7tvQ29DPFKgmjgeyxTAk42wE3h1w3Qog5aEHTlUpyBSQclExjlzlc0fqxIVO99czTeFLXb1zcw==";
+        };
     in {
         "x29WVXQL" = _x29WVXQL;
         "3yAiQGwC" = _3yAiQGwC;
@@ -110,7 +125,10 @@ let
         "Z9xtVe8F" = _Z9xtVe8F;
         "AP8HcfRa" = _AP8HcfRa;
         "TF5ZIkbu" = _TF5ZIkbu;
-        "fabric-1.20.1" = _S2WgXjDY;
+        "xyiXcQxM" = _xyiXcQxM;
+        "SLOQXBTz" = _SLOQXBTz;
+        "qsCutA3S" = _qsCutA3S;
+        "fabric-1.20.1" = _xyiXcQxM;
         "fabric-1.21.1" = _E8cOvdHx;
         "fabric-1.21.2" = _E8cOvdHx;
         "fabric-1.21.3" = _E8cOvdHx;
@@ -126,7 +144,8 @@ let
         "fabric-26.1.1" = _6aaZ1cnr;
         "fabric-26.1.2" = _6aaZ1cnr;
         "fabric-26.2" = _AP8HcfRa;
-        "forge-1.20.1" = _3yAiQGwC;
+        "forge-1.20.1" = _SLOQXBTz;
+        "forge-26.2" = _qsCutA3S;
         "neoforge-1.21.1" = _DmJhAeXI;
         "neoforge-1.21.2" = _DmJhAeXI;
         "neoforge-1.21.3" = _DmJhAeXI;
@@ -151,7 +170,10 @@ let
         "pkg-3.1.1-MC26.2-fabric" = _Z9xtVe8F;
         "pkg-3.1.2-MC26.2-fabric" = _AP8HcfRa;
         "pkg-3.1.2-MC26.2-neoforge" = _TF5ZIkbu;
-        "default" = _TF5ZIkbu;
+        "pkg-2.1.1-MC1.20.1-fabric" = _xyiXcQxM;
+        "pkg-2.1.1-MC1.20.1-forge" = _SLOQXBTz;
+        "pkg-3.1.2-MC26.2-forge" = _qsCutA3S;
+        "default" = _qsCutA3S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "motor-assistance";

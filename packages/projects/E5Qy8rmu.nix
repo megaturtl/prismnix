@@ -226,6 +226,21 @@ let
             "file" = "ductwork-0.12.0-alpha.1.jar";
             "hash" = "sha512-7v0YmrKcDh9Tmy+D6ZtKrLJkgBVwIrvY6DcmhtiNfU61EYj5P1wg7mVGsM9djJVLmRzvD+wZvDRLHHXl02hIVA==";
         };
+        _NK7mfZ9O = {
+            "id" = "NK7mfZ9O";
+            "file" = "ductwork-0.12.0.jar";
+            "hash" = "sha512-Zy6r9nrn6PGs3449n3TbZsnO3BMAI8LpgeKq1VpBAvvq5sWtR9PTPzxd4721h4aoBcJprts9BPZ8veNDHJgGsA==";
+        };
+        _dqBlloWg = {
+            "id" = "dqBlloWg";
+            "file" = "ductwork-0.12.1.jar";
+            "hash" = "sha512-bj6knUIFlv6agd1BYvWiyh5oykl2imMcRatrN+tb/QTn+GEBjImsGk/z+b/UZZcDEKKVoqfiQpbJohP883KmSw==";
+        };
+        _XCNsSwQj = {
+            "id" = "XCNsSwQj";
+            "file" = "ductwork-0.13.0.jar";
+            "hash" = "sha512-E+xY8ba0T3XF+4NXBr/uCo7n7P+ZJRKZuyu3kQ0WSbof+xjPJWDaQXyEJD/KK182pOm3wfeIJIMv2KYUXRHfzA==";
+        };
     in {
         "vl22KqxA" = _vl22KqxA;
         "KvLXSovl" = _KvLXSovl;
@@ -272,6 +287,9 @@ let
         "GmS9ULAT" = _GmS9ULAT;
         "Zjs2Yxq5" = _Zjs2Yxq5;
         "IvA7ptS8" = _IvA7ptS8;
+        "NK7mfZ9O" = _NK7mfZ9O;
+        "dqBlloWg" = _dqBlloWg;
+        "XCNsSwQj" = _XCNsSwQj;
         "fabric-1.18.2" = _HvoibrXu;
         "fabric-1.18" = _VCpKEQMz;
         "fabric-1.18.1" = _VCpKEQMz;
@@ -349,9 +367,10 @@ let
         "fabric-1.21.11-rc1" = _GmS9ULAT;
         "fabric-1.21.11-rc2" = _GmS9ULAT;
         "fabric-1.21.11" = _Zjs2Yxq5;
-        "fabric-26.1" = _IvA7ptS8;
-        "fabric-26.1.1" = _IvA7ptS8;
-        "fabric-26.1.2" = _IvA7ptS8;
+        "fabric-26.1" = _dqBlloWg;
+        "fabric-26.1.1" = _dqBlloWg;
+        "fabric-26.1.2" = _dqBlloWg;
+        "fabric-26.2" = _XCNsSwQj;
         "quilt-1.20-pre1" = _jVm0CKeL;
         "quilt-1.20-pre2" = _jVm0CKeL;
         "quilt-1.20-pre3" = _jVm0CKeL;
@@ -411,9 +430,10 @@ let
         "quilt-1.21.11-rc1" = _GmS9ULAT;
         "quilt-1.21.11-rc2" = _GmS9ULAT;
         "quilt-1.21.11" = _Zjs2Yxq5;
-        "quilt-26.1" = _IvA7ptS8;
-        "quilt-26.1.1" = _IvA7ptS8;
-        "quilt-26.1.2" = _IvA7ptS8;
+        "quilt-26.1" = _dqBlloWg;
+        "quilt-26.1.1" = _dqBlloWg;
+        "quilt-26.1.2" = _dqBlloWg;
+        "quilt-26.2" = _XCNsSwQj;
         "pkg-0.1.0-beta3" = _vl22KqxA;
         "pkg-0.1.0" = _KvLXSovl;
         "pkg-0.1.1" = _RiOfN7Nr;
@@ -459,7 +479,10 @@ let
         "pkg-0.11.0-alpha.1" = _GmS9ULAT;
         "pkg-0.11.0" = _Zjs2Yxq5;
         "pkg-0.12.0-alpha.1" = _IvA7ptS8;
-        "default" = _IvA7ptS8;
+        "pkg-0.12.0" = _NK7mfZ9O;
+        "pkg-0.12.1" = _dqBlloWg;
+        "pkg-0.13.0" = _XCNsSwQj;
+        "default" = _XCNsSwQj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ductwork";

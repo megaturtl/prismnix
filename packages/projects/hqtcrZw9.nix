@@ -31,6 +31,11 @@ let
             "file" = "youtubers_natural_disasters-1.1.5-forge-1.20.1.jar";
             "hash" = "sha512-zfzcocsxWF8hQQYYSvECEL2rOVg58ZYcYaYMrnQRUNAC2iPEF8T1GN1nWmCQfdkoE+mOwOuQPkgwYdVEIfVKIQ==";
         };
+        _RicCbXAX = {
+            "id" = "RicCbXAX";
+            "file" = "youtubers_natural_disasters-1.1.6-forge-1.20.1.jar";
+            "hash" = "sha512-Dl8fgr/Lx3lB+43DaI/KVkz8fySS7t/DD9f0BJxiDCJzAuBXIqrC+7nzTNCdpIBxRoMnL0hUmom19raGDVt4bw==";
+        };
     in {
         "wz2BYDzt" = _wz2BYDzt;
         "w5J0qo4i" = _w5J0qo4i;
@@ -38,14 +43,16 @@ let
         "seApzOiY" = _seApzOiY;
         "RAtAZyYV" = _RAtAZyYV;
         "ZRooO5Wg" = _ZRooO5Wg;
-        "forge-1.20.1" = _ZRooO5Wg;
+        "RicCbXAX" = _RicCbXAX;
+        "forge-1.20.1" = _RicCbXAX;
         "pkg-1.1.0" = _wz2BYDzt;
         "pkg-1.1.1" = _w5J0qo4i;
         "pkg-1.1.2" = _wt0bYFmT;
         "pkg-1.1.3" = _seApzOiY;
         "pkg-1.1.4" = _RAtAZyYV;
         "pkg-1.1.5" = _ZRooO5Wg;
-        "default" = _ZRooO5Wg;
+        "pkg-1.1.6" = _RicCbXAX;
+        "default" = _RicCbXAX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "youtubernaturaldisasters";
@@ -53,12 +60,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "MIT" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "MIT License";
-                shortName = "MIT";
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
                 url = null;
             };
         };

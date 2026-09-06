@@ -16,19 +16,26 @@ let
             "file" = "voids_titans_v2.0.jar";
             "hash" = "sha512-KmI8Vy9jOUirXNuBqvgQ54XtpGPPohxErEqZWBQGG+ei4pTAJYJBSJd5ZRVKaLrfkTHDbC6uetpOVZaLTZJsjw==";
         };
+        _T2NLqrUI = {
+            "id" = "T2NLqrUI";
+            "file" = "voids_titans_v2.1.jar";
+            "hash" = "sha512-MdmlLcDn+IdPzrymTFe8vZyX+yOoC9k/8CEVBmxmmelOwKT6sn+ZqymjUFufVpyuTbOdcM2MKxgVsMWulgw96g==";
+        };
     in {
         "a5hM3Vyn" = _a5hM3Vyn;
         "Oik8cenQ" = _Oik8cenQ;
         "xFjxa3IX" = _xFjxa3IX;
+        "T2NLqrUI" = _T2NLqrUI;
         "datapack-1.21.8" = _a5hM3Vyn;
         "datapack-1.21.11" = _Oik8cenQ;
-        "fabric-1.21.11" = _xFjxa3IX;
-        "forge-1.21.11" = _xFjxa3IX;
-        "neoforge-1.21.11" = _xFjxa3IX;
-        "quilt-1.21.11" = _xFjxa3IX;
+        "fabric-1.21.11" = _T2NLqrUI;
+        "forge-1.21.11" = _T2NLqrUI;
+        "neoforge-1.21.11" = _T2NLqrUI;
+        "quilt-1.21.11" = _T2NLqrUI;
         "pkg-V1" = _a5hM3Vyn;
         "pkg-V2" = _xFjxa3IX;
-        "default" = _xFjxa3IX;
+        "pkg-V2.1" = _T2NLqrUI;
+        "default" = _T2NLqrUI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "voids-titans-datapack";

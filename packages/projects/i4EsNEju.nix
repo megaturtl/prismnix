@@ -31,6 +31,21 @@ let
             "file" = "bygonefortress-1.0.0+26.1.1-fabric.jar";
             "hash" = "sha512-csTN3omQV9wscTRbeILm1a3RpeEJna2cq3qEloQVZD1U6kYg+NSj5KAi+BLKZeNK4xVLfqn1EpRtI1VFlxgt7w==";
         };
+        _ccOL8ghK = {
+            "id" = "ccOL8ghK";
+            "file" = "bygonefortress-1.0.0+26.2-fabric.jar";
+            "hash" = "sha512-jg3fAMee5snrf/yhJrY7pRAzVk44FHfDBwJOZKgjn4SNFSWNTSaedc3IR7fNQp8xkZpoKL5ASk4lnQrGjsv2Kw==";
+        };
+        _93PLYvWK = {
+            "id" = "93PLYvWK";
+            "file" = "bygonefortress-1.0.1+26.1.2-fabric.jar";
+            "hash" = "sha512-LSJZ0De46WohT4wE0w9Hx3gnTt2Q/cFPLCMLjcPoTmWML5bXB7IxWHoUwb68IgwZDj4QUCuEq0Jc6aGLd/8QWQ==";
+        };
+        _uERcs4Au = {
+            "id" = "uERcs4Au";
+            "file" = "bygonefortress-1.0.1+26.2-fabric.jar";
+            "hash" = "sha512-RtVURKF6I6ZEunUylrxUJ9ElKe90dPbc50L4nPF86b8PWs9a0AoQylg+9bo2RirVXQr5qxqUylOxY/XVKmGjgA==";
+        };
     in {
         "VXhQShCT" = _VXhQShCT;
         "EYVpt7Kh" = _EYVpt7Kh;
@@ -38,12 +53,16 @@ let
         "nFPtzMLH" = _nFPtzMLH;
         "jxXBMadY" = _jxXBMadY;
         "ix9ofLzN" = _ix9ofLzN;
+        "ccOL8ghK" = _ccOL8ghK;
+        "93PLYvWK" = _93PLYvWK;
+        "uERcs4Au" = _uERcs4Au;
         "fabric-1.21.1" = _VXhQShCT;
         "fabric-1.20.1" = _EYVpt7Kh;
         "fabric-1.21.11" = _nFPtzMLH;
-        "fabric-26.1" = _ix9ofLzN;
-        "fabric-26.1.1" = _ix9ofLzN;
-        "fabric-26.1.2" = _ix9ofLzN;
+        "fabric-26.1" = _93PLYvWK;
+        "fabric-26.1.1" = _93PLYvWK;
+        "fabric-26.1.2" = _93PLYvWK;
+        "fabric-26.2" = _uERcs4Au;
         "neoforge-1.21.1" = _FV3CYkhr;
         "forge-1.20.1" = _jxXBMadY;
         "pkg-1.0.0+1.21.1-fabric" = _VXhQShCT;
@@ -52,7 +71,10 @@ let
         "pkg-1.0.0+1.21.11-fabric" = _nFPtzMLH;
         "pkg-1.0.0+1.20.1-forge" = _jxXBMadY;
         "pkg-1.0.0+26.1.1-fabric" = _ix9ofLzN;
-        "default" = _ix9ofLzN;
+        "pkg-1.0.0+26.2-fabric" = _ccOL8ghK;
+        "pkg-1.0.1+26.1.2-fabric" = _93PLYvWK;
+        "pkg-1.0.1+26.2-fabric" = _uERcs4Au;
+        "default" = _uERcs4Au;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bygone-fortress";

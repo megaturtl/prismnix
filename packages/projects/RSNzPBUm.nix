@@ -426,6 +426,21 @@ let
             "file" = "landdev-fabric-1.7.5.jar";
             "hash" = "sha512-CC5yjkJrafkCpuSRBtdLzaOw4KqQsHjzmlICFDXgAH/bNuXed/V8eJYACuo45Zv0mlBbUJD7sDAJifNoRG7WrQ==";
         };
+        _qgRUAznY = {
+            "id" = "qgRUAznY";
+            "file" = "LandDeveloper-1.7.6.jar";
+            "hash" = "sha512-ukXRQgJHea+Vi2qlqUHYO4CLJWtqeMUBjy59SDYWrsoCmUfTES+TRrF7l3qpcB1dqETtnUyvwRF0XsxxI+MJ2g==";
+        };
+        _M4FMYCpl = {
+            "id" = "M4FMYCpl";
+            "file" = "landdev-1.7.6.jar";
+            "hash" = "sha512-7Jzo8cZYXgAbTbsDpS/Yt75DNTjhT6DPGRJdMAADMHpa0pMxelFW6NuRMNx7PKB7ReK62JrBpe8Dba2oT1oSYg==";
+        };
+        _jrN5JEIR = {
+            "id" = "jrN5JEIR";
+            "file" = "landdev-fabric-1.7.6.jar";
+            "hash" = "sha512-PsHcx3ibN6vNyPBZurmJYibiRaMG7OCDEK1aUqXbcWDyY9Qwoqu1MQpjlbXPIR1fdI+AhEwmN/o4Kk37Kj9Ipw==";
+        };
     in {
         "oaDOa10X" = _oaDOa10X;
         "TmGi2p05" = _TmGi2p05;
@@ -512,13 +527,16 @@ let
         "bhdtPhM7" = _bhdtPhM7;
         "uA6tyBuK" = _uA6tyBuK;
         "9ZWxWgMu" = _9ZWxWgMu;
-        "forge-1.12.2" = _bhdtPhM7;
-        "forge-1.20.1" = _uA6tyBuK;
+        "qgRUAznY" = _qgRUAznY;
+        "M4FMYCpl" = _M4FMYCpl;
+        "jrN5JEIR" = _jrN5JEIR;
+        "forge-1.12.2" = _qgRUAznY;
+        "forge-1.20.1" = _M4FMYCpl;
         "fabric-1.21.5" = _2cZGdxX8;
         "fabric-1.21.8" = _ydNuEjGO;
-        "fabric-26.1" = _9ZWxWgMu;
-        "fabric-26.1.1" = _9ZWxWgMu;
-        "fabric-26.1.2" = _9ZWxWgMu;
+        "fabric-26.1" = _jrN5JEIR;
+        "fabric-26.1.1" = _jrN5JEIR;
+        "fabric-26.1.2" = _jrN5JEIR;
         "pkg-1.0.12" = _oaDOa10X;
         "pkg-1.1.13" = _TmGi2p05;
         "pkg-1.1.14" = _7Uve2uIj;
@@ -561,7 +579,8 @@ let
         "pkg-1.7.3" = _xTMwEjsa;
         "pkg-1.7.4" = _O1FtlP5Q;
         "pkg-1.7.5" = _9ZWxWgMu;
-        "default" = _9ZWxWgMu;
+        "pkg-1.7.6" = _jrN5JEIR;
+        "default" = _jrN5JEIR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "land-developer";

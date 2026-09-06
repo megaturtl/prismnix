@@ -16,20 +16,27 @@ let
             "file" = "RealisticallyOptimized.zip";
             "hash" = "sha512-oOa5uQBsSddyO2j4IfUh0vJUSS1TpDJ3U3u2hivfH0xwvBojSQD8RKx+JPKFE/BBfV+KVgnU2BJC0bKX2IYD+Q==";
         };
+        _lEtf2ObT = {
+            "id" = "lEtf2ObT";
+            "file" = "RealisticallyOptimized.zip";
+            "hash" = "sha512-BYb0dtUMPpE4LY6L95aiGUngjJ0/2NK98vJFjkUNAmBjWjjkWaWMLU/+P7cubDbsdYybbkn6yd/JEXUOUHvbAQ==";
+        };
     in {
         "yVx0lP9X" = _yVx0lP9X;
         "J9WI5nxd" = _J9WI5nxd;
         "dqoCvP7v" = _dqoCvP7v;
+        "lEtf2ObT" = _lEtf2ObT;
         "iris-1.21.11" = _yVx0lP9X;
         "iris-26.1" = _J9WI5nxd;
-        "iris-26.2" = _dqoCvP7v;
+        "iris-26.2" = _lEtf2ObT;
         "optifine-1.21.11" = _yVx0lP9X;
         "optifine-26.1" = _J9WI5nxd;
-        "optifine-26.2" = _dqoCvP7v;
+        "optifine-26.2" = _lEtf2ObT;
         "pkg-0.1.0" = _yVx0lP9X;
         "pkg-0.2.0" = _J9WI5nxd;
         "pkg-1.0.1" = _dqoCvP7v;
-        "default" = _dqoCvP7v;
+        "pkg-1.0.2" = _lEtf2ObT;
+        "default" = _lEtf2ObT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "realisticallyoptimized";

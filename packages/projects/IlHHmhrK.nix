@@ -1,0 +1,187 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _jBYUYuiD = {
+            "id" = "jBYUYuiD";
+            "file" = "Armored Illager (FreshAnim) v1.1.zip";
+            "hash" = "sha512-OFMtnLWFZcekkQsgmcxSsPTZUdo1IsTDH/LuXc2ecU7/MB/ZQstlioNue7j13krF9LnwkSUWLHlemp4x3UZqRg==";
+        };
+        _EmVpF1Wu = {
+            "id" = "EmVpF1Wu";
+            "file" = "Armored Illager (FreshAnim) v1.2.zip";
+            "hash" = "sha512-so4Swx34S36XWEweLr7TH6B9gnPfuT1glAVFT9Zoqb1bcZoivz93MX1nRLsjCMMjfDsJ+cDrtG97KMtKIl0kqQ==";
+        };
+        _KYotlSdA = {
+            "id" = "KYotlSdA";
+            "file" = "Armored Illager (FreshAnim) v1.3.zip";
+            "hash" = "sha512-y5pbnA/RmbmQRoWhuHCY2ABsRI56ejnsnpjM3F4sBKIRJazWUlqS/GXs3dfaChwIJitYjAlYo0ZWoBz04Qnylg==";
+        };
+        _mDzXU1kN = {
+            "id" = "mDzXU1kN";
+            "file" = "Armored Illager (FreshAnim) v1.5.zip";
+            "hash" = "sha512-jDFMPrVgRnwsl+Bpgd+38DjjTpOQFx0HwhrtQQ2As65wGy4XWWj3Z11Ncpuoow9tDONtrSE5etxeuGOSM9zgJg==";
+        };
+        _DS02wddH = {
+            "id" = "DS02wddH";
+            "file" = "Armored Illager (FreshAnim) v1.6.zip";
+            "hash" = "sha512-Vs9RRiaaSffnsRqwGDfQdi58WyjSCQ9eFi09lL7pQDY8h1r9FuoO2rv8zx3UthQXzOSkASflF8KguBLNsa320g==";
+        };
+        _rH4QfERf = {
+            "id" = "rH4QfERf";
+            "file" = "Armored Illager (FreshAnim) v1.7.zip";
+            "hash" = "sha512-QDsTogxOKAMA+7KJTWqQ2OnklA+ZLpaZQi6zgmx4eGnIEPC/kXV/xu2z48IeZNq9kVUV7CGtt7zFOx38DghMeg==";
+        };
+        _kvw9Qw6v = {
+            "id" = "kvw9Qw6v";
+            "file" = "Armored Illager (FreshAnim) v1.8.zip";
+            "hash" = "sha512-eBqIMZ84b5QCYRq9TI/4H0y/qkaAjqePVlC5svjQfHCpXEtOG0TDx9kPm3SOe6BhHnGkPu7DXEGh/zSBhD9Reg==";
+        };
+        _SehrZakS = {
+            "id" = "SehrZakS";
+            "file" = "Armored Illager (FreshAnim) v1.9.zip";
+            "hash" = "sha512-v0x8A/zcyr4pHpgZj4epiSTbTMK0vXkgxqXfxt19pv3pa7hDG0ogDQEyPB0I/V5TSp7PdCRd8KUilutBIOOskA==";
+        };
+        _6DQgckIc = {
+            "id" = "6DQgckIc";
+            "file" = "Armored Illager (FreshAnim) v2.0.zip";
+            "hash" = "sha512-WbWR7QCbWHUW1HqnTFl2XGRoyFacLR4FLtM7cY0uMkJTmZqXDyCY5E+SMJf1IC6vOIjLXTUUo9R4R1Wnc5jEfA==";
+        };
+    in {
+        "jBYUYuiD" = _jBYUYuiD;
+        "EmVpF1Wu" = _EmVpF1Wu;
+        "KYotlSdA" = _KYotlSdA;
+        "mDzXU1kN" = _mDzXU1kN;
+        "DS02wddH" = _DS02wddH;
+        "rH4QfERf" = _rH4QfERf;
+        "kvw9Qw6v" = _kvw9Qw6v;
+        "SehrZakS" = _SehrZakS;
+        "6DQgckIc" = _6DQgckIc;
+        "minecraft-1.11" = _rH4QfERf;
+        "minecraft-1.11.1" = _rH4QfERf;
+        "minecraft-1.11.2" = _rH4QfERf;
+        "minecraft-1.12" = _kvw9Qw6v;
+        "minecraft-1.12.1" = _kvw9Qw6v;
+        "minecraft-1.12.2" = _kvw9Qw6v;
+        "minecraft-1.13" = _kvw9Qw6v;
+        "minecraft-1.13.1" = _kvw9Qw6v;
+        "minecraft-1.13.2" = _kvw9Qw6v;
+        "minecraft-1.14" = _6DQgckIc;
+        "minecraft-1.14.1" = _6DQgckIc;
+        "minecraft-1.14.2" = _6DQgckIc;
+        "minecraft-1.14.3" = _6DQgckIc;
+        "minecraft-1.14.4" = _6DQgckIc;
+        "minecraft-1.15" = _6DQgckIc;
+        "minecraft-1.15.1" = _6DQgckIc;
+        "minecraft-1.15.2" = _6DQgckIc;
+        "minecraft-1.16" = _6DQgckIc;
+        "minecraft-1.16.1" = _6DQgckIc;
+        "minecraft-1.16.2" = _6DQgckIc;
+        "minecraft-1.16.3" = _6DQgckIc;
+        "minecraft-1.16.4" = _6DQgckIc;
+        "minecraft-1.16.5" = _6DQgckIc;
+        "minecraft-1.17" = _6DQgckIc;
+        "minecraft-1.17.1" = _6DQgckIc;
+        "minecraft-1.18" = _6DQgckIc;
+        "minecraft-1.18.1" = _6DQgckIc;
+        "minecraft-1.18.2" = _6DQgckIc;
+        "minecraft-1.19" = _6DQgckIc;
+        "minecraft-1.19.1" = _6DQgckIc;
+        "minecraft-1.19.2" = _6DQgckIc;
+        "minecraft-1.19.3" = _6DQgckIc;
+        "minecraft-1.19.4" = _6DQgckIc;
+        "minecraft-1.20" = _6DQgckIc;
+        "minecraft-1.20.1" = _6DQgckIc;
+        "minecraft-23w31a" = _6DQgckIc;
+        "minecraft-23w32a" = _6DQgckIc;
+        "minecraft-23w33a" = _6DQgckIc;
+        "minecraft-23w35a" = _6DQgckIc;
+        "minecraft-1.20.2-pre1" = _6DQgckIc;
+        "minecraft-1.20.2" = _6DQgckIc;
+        "minecraft-23w42a" = _6DQgckIc;
+        "minecraft-23w43a" = _6DQgckIc;
+        "minecraft-23w43b" = _6DQgckIc;
+        "minecraft-23w44a" = _6DQgckIc;
+        "minecraft-23w45a" = _6DQgckIc;
+        "minecraft-23w46a" = _6DQgckIc;
+        "minecraft-1.20.3" = _6DQgckIc;
+        "minecraft-1.20.4" = _6DQgckIc;
+        "minecraft-24w03a" = _6DQgckIc;
+        "minecraft-24w03b" = _6DQgckIc;
+        "minecraft-24w04a" = _6DQgckIc;
+        "minecraft-24w05a" = _6DQgckIc;
+        "minecraft-24w05b" = _6DQgckIc;
+        "minecraft-24w06a" = _6DQgckIc;
+        "minecraft-24w07a" = _6DQgckIc;
+        "minecraft-24w09a" = _6DQgckIc;
+        "minecraft-24w10a" = _6DQgckIc;
+        "minecraft-24w11a" = _6DQgckIc;
+        "minecraft-24w12a" = _6DQgckIc;
+        "minecraft-24w13a" = _6DQgckIc;
+        "minecraft-24w14potato" = _6DQgckIc;
+        "minecraft-24w14a" = _6DQgckIc;
+        "minecraft-1.20.5-pre1" = _6DQgckIc;
+        "minecraft-1.20.5-pre2" = _6DQgckIc;
+        "minecraft-1.20.5-pre3" = _6DQgckIc;
+        "minecraft-1.20.5" = _6DQgckIc;
+        "minecraft-1.20.6" = _6DQgckIc;
+        "minecraft-24w18a" = _6DQgckIc;
+        "minecraft-24w19a" = _6DQgckIc;
+        "minecraft-24w19b" = _6DQgckIc;
+        "minecraft-24w20a" = _6DQgckIc;
+        "minecraft-1.21" = _6DQgckIc;
+        "minecraft-1.21.1" = _6DQgckIc;
+        "minecraft-24w33a" = _6DQgckIc;
+        "minecraft-24w34a" = _6DQgckIc;
+        "minecraft-24w35a" = _6DQgckIc;
+        "minecraft-24w36a" = _6DQgckIc;
+        "minecraft-24w37a" = _6DQgckIc;
+        "minecraft-24w38a" = _6DQgckIc;
+        "minecraft-24w39a" = _6DQgckIc;
+        "minecraft-24w40a" = _6DQgckIc;
+        "minecraft-1.21.2-pre1" = _6DQgckIc;
+        "minecraft-1.21.2-pre2" = _6DQgckIc;
+        "minecraft-1.21.2" = _6DQgckIc;
+        "minecraft-1.21.3" = _6DQgckIc;
+        "minecraft-24w44a" = _6DQgckIc;
+        "minecraft-24w45a" = _6DQgckIc;
+        "minecraft-24w46a" = _6DQgckIc;
+        "minecraft-1.21.4" = _6DQgckIc;
+        "minecraft-1.21.5" = _6DQgckIc;
+        "minecraft-1.21.6" = _6DQgckIc;
+        "minecraft-1.21.7" = _6DQgckIc;
+        "minecraft-1.21.8" = _6DQgckIc;
+        "minecraft-1.21.9" = _6DQgckIc;
+        "minecraft-1.21.10" = _6DQgckIc;
+        "minecraft-1.21.11" = _6DQgckIc;
+        "minecraft-26.1" = _6DQgckIc;
+        "minecraft-26.1.1" = _6DQgckIc;
+        "minecraft-26.1.2" = _6DQgckIc;
+        "minecraft-26.2" = _6DQgckIc;
+        "pkg-1.1" = _jBYUYuiD;
+        "pkg-1.2" = _EmVpF1Wu;
+        "pkg-1.3" = _KYotlSdA;
+        "pkg-1.5" = _mDzXU1kN;
+        "pkg-1.6" = _DS02wddH;
+        "pkg-1.7" = _rH4QfERf;
+        "pkg-1.8" = _kvw9Qw6v;
+        "pkg-1.9" = _SehrZakS;
+        "pkg-2.0" = _6DQgckIc;
+        "default" = _6DQgckIc;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "armored-illager-(+fresh-animation)";
+        id = "IlHHmhrK";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

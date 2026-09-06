@@ -96,6 +96,31 @@ let
             "file" = "advancedgolems-1.21.1-1.5.3.b-fabric.jar";
             "hash" = "sha512-SC/s3whINT7wSr2ZR0jO44AzVvYjyybtlWpw2cC4g1y67HjeDzcwHyepX9kNzcQM6vfoZBTt0MlCYa6f253ADA==";
         };
+        _7MB5xOAs = {
+            "id" = "7MB5xOAs";
+            "file" = "advancedgolems-1.21.1-1.5.4-neoforge.jar";
+            "hash" = "sha512-NeO1hk07q0d9/wH+50PXSO5AZOCZ78asiMe4/4QGxKSf5L8DDk6xA+z1HqLiop12SfWl8Vac5HBJJvoP+XSbTg==";
+        };
+        _BdzxNyFg = {
+            "id" = "BdzxNyFg";
+            "file" = "advancedgolems-1.21.1-1.5.4-fabric.jar";
+            "hash" = "sha512-nGKiaWbVETgwZ9Ao5FxA+W2Kn47hqLjZan028Yt+FkG6fo2hJG63kDiReJ00TNKV2L39/LXgAaft5EmLEesoVA==";
+        };
+        _2gWuntX1 = {
+            "id" = "2gWuntX1";
+            "file" = "advancedgolems-1.21.1-1.5.4-neoforge.jar";
+            "hash" = "sha512-NeO1hk07q0d9/wH+50PXSO5AZOCZ78asiMe4/4QGxKSf5L8DDk6xA+z1HqLiop12SfWl8Vac5HBJJvoP+XSbTg==";
+        };
+        _s594W0vD = {
+            "id" = "s594W0vD";
+            "file" = "advancedgolems-1.21.1-1.5.4-fabric.jar";
+            "hash" = "sha512-nGKiaWbVETgwZ9Ao5FxA+W2Kn47hqLjZan028Yt+FkG6fo2hJG63kDiReJ00TNKV2L39/LXgAaft5EmLEesoVA==";
+        };
+        _Br4mdzUr = {
+            "id" = "Br4mdzUr";
+            "file" = "advancedgolems-1.21.1-1.5.4.b-neoforge.jar";
+            "hash" = "sha512-zlcwahdr+Ha3oiKp+MdDbIEvc+S2V5Fv0cd0xwQNnR2twUzgHbECWOLL9+uSXb3qyo1+T8ml8SAVIgsNMKeUhw==";
+        };
     in {
         "FF8lsTCp" = _FF8lsTCp;
         "7o73i3bZ" = _7o73i3bZ;
@@ -116,16 +141,21 @@ let
         "mnZhhJZ5" = _mnZhhJZ5;
         "NTmDaD0B" = _NTmDaD0B;
         "QQOrfRYu" = _QQOrfRYu;
+        "7MB5xOAs" = _7MB5xOAs;
+        "BdzxNyFg" = _BdzxNyFg;
+        "2gWuntX1" = _2gWuntX1;
+        "s594W0vD" = _s594W0vD;
+        "Br4mdzUr" = _Br4mdzUr;
         "fabric-1.18.2" = _TxAL9MiO;
         "fabric-1.19.4" = _Kq3JdMGe;
         "fabric-1.20.1" = _hH00e9tP;
         "fabric-1.20.6" = _IQv9MB7M;
-        "fabric-1.21.1" = _QQOrfRYu;
+        "fabric-1.21.1" = _s594W0vD;
         "forge-1.18.2" = _XQO30DpW;
         "forge-1.19.4" = _KkgtiHNV;
         "forge-1.20.1" = _BuhjGSVG;
         "neoforge-1.20.6" = _FhYiApPb;
-        "neoforge-1.21.1" = _NTmDaD0B;
+        "neoforge-1.21.1" = _Br4mdzUr;
         "pkg-1.18.2-1.5.1" = _7o73i3bZ;
         "pkg-1.19.4-1.5.1" = _tekovFq1;
         "pkg-1.20.1-1.5.1" = _BuhjGSVG;
@@ -136,7 +166,10 @@ let
         "pkg-1.21.1-1.5.3-fabric" = _mnZhhJZ5;
         "pkg-1.21.1-1.5.3-neoforge" = _NTmDaD0B;
         "pkg-1.21.1-1.5.3.b-fabric" = _QQOrfRYu;
-        "default" = _QQOrfRYu;
+        "pkg-1.21.1-1.5.4-neoforge" = _2gWuntX1;
+        "pkg-1.21.1-1.5.4-fabric" = _s594W0vD;
+        "pkg-1.21.1-1.5.4.b-neoforge" = _Br4mdzUr;
+        "default" = _Br4mdzUr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "advanced-golems";

@@ -126,6 +126,21 @@ let
             "file" = "instantfeedback-3.2.1+26.2.jar";
             "hash" = "sha512-GIBKmZ6QF70D3t0ysX9caxJAXu3kNLlNOhoTo3YTLvTSYd+ibipPHfydqRUOU5n1++YwbQIqoj1sjXOjTUB36w==";
         };
+        _uwhjNEbQ = {
+            "id" = "uwhjNEbQ";
+            "file" = "instantfeedback-4.0.0+26.2.jar";
+            "hash" = "sha512-yms/F5MfW399p2gCa0GL+BHw+ZAPVMd92E4/F+5ImmDbGVKtjvvax2YbuqYArYqraDcXzRst6hqciHZlIHlXDg==";
+        };
+        _q8eCTqab = {
+            "id" = "q8eCTqab";
+            "file" = "instantfeedback-4.1.0+26.2.jar";
+            "hash" = "sha512-izFgUAdekvG2qesIFKFUbZ4/nOR8S6vgaWslwReuXaINXhRt5zjMRiTARqLitfoW+um8PYH8BR1pZbdw8XFteQ==";
+        };
+        _jq8G50Ir = {
+            "id" = "jq8G50Ir";
+            "file" = "instantfeedback-4.1.1+26.2.jar";
+            "hash" = "sha512-E9uP6B5BM0cYEkQL49+xwddh/j9sgjY38lKwfxS0/XrBjCbbJV4O+yJOVsKSBmcgvrNYzjCyzVuVb5XksmXJ+g==";
+        };
     in {
         "BErrdfrW" = _BErrdfrW;
         "BbCpZ4c2" = _BbCpZ4c2;
@@ -152,6 +167,9 @@ let
         "bo0Z0HMZ" = _bo0Z0HMZ;
         "kfQYTQYd" = _kfQYTQYd;
         "iaC5D3ak" = _iaC5D3ak;
+        "uwhjNEbQ" = _uwhjNEbQ;
+        "q8eCTqab" = _q8eCTqab;
+        "jq8G50Ir" = _jq8G50Ir;
         "fabric-24w40a" = _znVU7PP0;
         "fabric-1.21.2-pre1" = _WckNqEyz;
         "fabric-1.21.2-rc2" = _m1RQ5HdO;
@@ -174,7 +192,7 @@ let
         "fabric-26.1" = _kfQYTQYd;
         "fabric-26.1.1" = _kfQYTQYd;
         "fabric-26.1.2" = _kfQYTQYd;
-        "fabric-26.2" = _iaC5D3ak;
+        "fabric-26.2" = _jq8G50Ir;
         "quilt-24w40a" = _znVU7PP0;
         "quilt-1.21.2-pre1" = _WckNqEyz;
         "quilt-1.21.2-rc2" = _m1RQ5HdO;
@@ -197,7 +215,7 @@ let
         "quilt-26.1" = _kfQYTQYd;
         "quilt-26.1.1" = _kfQYTQYd;
         "quilt-26.1.2" = _kfQYTQYd;
-        "quilt-26.2" = _iaC5D3ak;
+        "quilt-26.2" = _jq8G50Ir;
         "pkg-1.0.0+24w40a" = _BErrdfrW;
         "pkg-1.1.0+24w40a" = _BbCpZ4c2;
         "pkg-1.1.1+24w40a" = _znVU7PP0;
@@ -223,7 +241,10 @@ let
         "pkg-3.2.0+26.1-rc-2" = _bo0Z0HMZ;
         "pkg-3.2.1+26.1" = _kfQYTQYd;
         "pkg-3.2.1+26.2" = _iaC5D3ak;
-        "default" = _iaC5D3ak;
+        "pkg-4.0.0+26.2" = _uwhjNEbQ;
+        "pkg-4.1.0+26.2" = _q8eCTqab;
+        "pkg-4.1.1+26.2" = _jq8G50Ir;
+        "default" = _jq8G50Ir;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "instant-feedback";

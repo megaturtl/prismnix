@@ -241,6 +241,51 @@ let
             "file" = "cards-1.4.2+0.1-forge-1.20.1.jar";
             "hash" = "sha512-B5OgWfwlGYAQFp5gpRwHFeXV/aH3OG/sdGCUzJ92TMWhqQhZP0j/KKmwImB65yA/I+O8anIROeKL8ngQsK1Kcg==";
         };
+        _o1xQsUvz = {
+            "id" = "o1xQsUvz";
+            "file" = "cards-1.4.3-forge-1.20.1.jar";
+            "hash" = "sha512-MBJBwFmCOzKIOBCi/WEz4rqIPwlJeobAmsmLKsM61xdSOKnZ0Ab9geXWmlMHvsT5GFMkhYdzq4F/p31k0axW1A==";
+        };
+        _Ta4PAO23 = {
+            "id" = "Ta4PAO23";
+            "file" = "cards-1.4.4-forge-1.20.1.jar";
+            "hash" = "sha512-GbUp7hJZsxKc0g1O3wIiQhun+KDnhhJwneyTfy7enAT6SVH4d+JUs1KLy8r/hnLyHI/ixOeKw2kAVTvzGLs9XA==";
+        };
+        _IUBwefXQ = {
+            "id" = "IUBwefXQ";
+            "file" = "cards-1.4.5-forge-1.20.1.jar";
+            "hash" = "sha512-JSPCSLVx56sBXmzYViMGkPhhekqB9fLgt56ya1xpanDjncdHPGCntUypCkREsKef3hzLr7vZKGOe21YWbD5+LQ==";
+        };
+        _5uxIqU6O = {
+            "id" = "5uxIqU6O";
+            "file" = "cards-1.4.6-forge-1.20.1.jar";
+            "hash" = "sha512-b31OA3ZEPxwI08s+Acj+hucl5BdBqsk95swiqgTay/U7l0o2zSUVtpMtuYw3PaK0b1TX3gi2jxMUeMIkKVO0Qg==";
+        };
+        _WAk4LBf9 = {
+            "id" = "WAk4LBf9";
+            "file" = "cards-1.4.7-forge-1.20.1.jar";
+            "hash" = "sha512-pGGJr51vfaGu1n3fcuKG+WfML6IHIlFqxmzemZxTbHYcESLcI59gZmWtCu2bom8N6QdmobqBpLr7L5j4eMN0HQ==";
+        };
+        _eqxRLZ2Q = {
+            "id" = "eqxRLZ2Q";
+            "file" = "cards-1.4.8-forge-1.20.1.jar";
+            "hash" = "sha512-6POOaahxI9FKs12FRBFUHiOx5fn6IB5j26lsYiRnWtSKc09TxFqkJ6EQ1Fv74P6djLIgjJu4MeH5gl8VT0VggA==";
+        };
+        _nI33WciO = {
+            "id" = "nI33WciO";
+            "file" = "cards-1.4.9-forge-1.20.1.jar";
+            "hash" = "sha512-TDgmJBvN8sLdU33sG4GGb5at7cBVepbi0mdEXwLzrX/tlLiPVO7uSKCH9H6SOoBE/aZNvUW9Hx3HOsQWp3MFtA==";
+        };
+        _mLRCLGoJ = {
+            "id" = "mLRCLGoJ";
+            "file" = "cards-1.5.0-forge-1.20.1.jar";
+            "hash" = "sha512-gVtcZ0CIL7NFoYNex/gT8E38DNc/pLcUKnbsYIZCuv+f4/SGdu/8vTuOl1gIX8pg6gHeP6RvgFxpBLgZI4DVbw==";
+        };
+        _KgSiIF7L = {
+            "id" = "KgSiIF7L";
+            "file" = "cards-1.5.1-forge-1.20.1.jar";
+            "hash" = "sha512-HTO2O8ZyO9kD/GEQsiAwSGY3kbC5mAG81ws5vqZ/r1LxjO1g1JAd7Uk57Ea0fDFZw1bWCFhmyVk0Me6XdArXcw==";
+        };
     in {
         "U32FXKCa" = _U32FXKCa;
         "xnk7x0eU" = _xnk7x0eU;
@@ -290,7 +335,16 @@ let
         "GiJ3Yoma" = _GiJ3Yoma;
         "6iddR0AF" = _6iddR0AF;
         "KqHvIDr6" = _KqHvIDr6;
-        "forge-1.20.1" = _KqHvIDr6;
+        "o1xQsUvz" = _o1xQsUvz;
+        "Ta4PAO23" = _Ta4PAO23;
+        "IUBwefXQ" = _IUBwefXQ;
+        "5uxIqU6O" = _5uxIqU6O;
+        "WAk4LBf9" = _WAk4LBf9;
+        "eqxRLZ2Q" = _eqxRLZ2Q;
+        "nI33WciO" = _nI33WciO;
+        "mLRCLGoJ" = _mLRCLGoJ;
+        "KgSiIF7L" = _KgSiIF7L;
+        "forge-1.20.1" = _KgSiIF7L;
         "pkg-1.0.0" = _U32FXKCa;
         "pkg-1.0.1" = _xnk7x0eU;
         "pkg-1.0.2" = _WTS7ayku;
@@ -339,7 +393,16 @@ let
         "pkg-1.4.1" = _GiJ3Yoma;
         "pkg-1.4.2" = _6iddR0AF;
         "pkg-1.4.2+0.1" = _KqHvIDr6;
-        "default" = _KqHvIDr6;
+        "pkg-1.4.3" = _o1xQsUvz;
+        "pkg-1.4.4" = _Ta4PAO23;
+        "pkg-1.4.5" = _IUBwefXQ;
+        "pkg-1.4.6" = _5uxIqU6O;
+        "pkg-1.4.7" = _WAk4LBf9;
+        "pkg-1.4.8" = _eqxRLZ2Q;
+        "pkg-1.4.9" = _nI33WciO;
+        "pkg-1.5.0" = _mLRCLGoJ;
+        "pkg-1.5.1" = _KgSiIF7L;
+        "default" = _KgSiIF7L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mc-cards";

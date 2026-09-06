@@ -31,6 +31,21 @@ let
             "file" = "legendarycreatures-1.20.1-1.1.2.5.jar";
             "hash" = "sha512-ebD26If3KiSXuXl04coLr5OUcUPQBPs1tgEuZyJr2P5kN0lJgPKysrMBJrzrbln78O2wIPP4OIpE8IRhdTmZfQ==";
         };
+        _gjqJna6z = {
+            "id" = "gjqJna6z";
+            "file" = "legendarycreatures-1.20.1-1.1.2.6.jar";
+            "hash" = "sha512-P9ZHbWQ/gHZDd1HQEaV0ObaEeck3hyPJCoYyp2GeE0pTWzRL9JRM1nQNYrulhTk11hlZMq787/xjQYgEreCY2w==";
+        };
+        _SF7J8KWc = {
+            "id" = "SF7J8KWc";
+            "file" = "legendarycreatures-1.20.1-1.1.3.0.jar";
+            "hash" = "sha512-eDF8KaLXYnic/BTLV90QWHxxnvsqvknPTydvPkmwy//yzctllqkVDU5wx92UZgijT3xYVvZCKQGpU11tIBX5Vg==";
+        };
+        _pOm6BtVc = {
+            "id" = "pOm6BtVc";
+            "file" = "legendarycreatures-1.20.1-1.1.3.1.jar";
+            "hash" = "sha512-9CRJINrd5x8sa/wRnsRD22nYxDFoEivNHK3tkOcwGEtuT2Xwj18xjBs4KPnGSP+hHNY2RcT3+dznX82dBw5tYg==";
+        };
     in {
         "G0gre5qf" = _G0gre5qf;
         "yGGSL6Lb" = _yGGSL6Lb;
@@ -38,14 +53,20 @@ let
         "sKjTLibg" = _sKjTLibg;
         "Vzrz98Ud" = _Vzrz98Ud;
         "F23EAW5e" = _F23EAW5e;
-        "forge-1.20.1" = _F23EAW5e;
+        "gjqJna6z" = _gjqJna6z;
+        "SF7J8KWc" = _SF7J8KWc;
+        "pOm6BtVc" = _pOm6BtVc;
+        "forge-1.20.1" = _pOm6BtVc;
         "pkg-1.20.1-1.1.2" = _G0gre5qf;
         "pkg-1.20.1-1.1.2.1" = _yGGSL6Lb;
         "pkg-1.20.1-1.1.2.2" = _sWiWnUqV;
         "pkg-1.20.1-1.1.2.3" = _sKjTLibg;
         "pkg-1.20.1-1.1.2.4" = _Vzrz98Ud;
         "pkg-1.20.1-1.1.2.5" = _F23EAW5e;
-        "default" = _F23EAW5e;
+        "pkg-1.20.1-1.1.2.6" = _gjqJna6z;
+        "pkg-1.20.1-1.1.3.0" = _SF7J8KWc;
+        "pkg-1.20.1-1.1.3.1" = _pOm6BtVc;
+        "default" = _pOm6BtVc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legendary-creatures";

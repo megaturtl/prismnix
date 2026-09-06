@@ -206,6 +206,11 @@ let
             "file" = "spellengine-extension-2.16.1.jar";
             "hash" = "sha512-nRwW1gNRLCLB8gG2Dm+CMO6IUH9ZNqPGLMjDIxS8J/zr5Cksv/2G6He5shrPW4ma/tiWCkb7ojZaJKfZfJHYlA==";
         };
+        _cLcxjbAh = {
+            "id" = "cLcxjbAh";
+            "file" = "spellengine-extension-2.16.2.jar";
+            "hash" = "sha512-zeUemKkEnWzMIEP/ztHuU9/iBehOEWnDqDVVAB2T8MXJJ9BYFGmHq11FHo/0BtO3G5JhYRkBu1+6VOQba4Wsvw==";
+        };
     in {
         "7pZIqyc2" = _7pZIqyc2;
         "gLcboEDr" = _gLcboEDr;
@@ -248,8 +253,9 @@ let
         "vJkVK73R" = _vJkVK73R;
         "UFch04AK" = _UFch04AK;
         "OwJXmsUa" = _OwJXmsUa;
+        "cLcxjbAh" = _cLcxjbAh;
         "fabric-1.20.1" = _UdlQADIk;
-        "fabric-1.21.1" = _OwJXmsUa;
+        "fabric-1.21.1" = _cLcxjbAh;
         "pkg-1.0.0" = _7pZIqyc2;
         "pkg-1.1.1" = _gLcboEDr;
         "pkg-1.1.2" = _KaoLQoMa;
@@ -291,7 +297,8 @@ let
         "pkg-2.15.1" = _vJkVK73R;
         "pkg-2.16.0" = _UFch04AK;
         "pkg-2.16.1" = _OwJXmsUa;
-        "default" = _OwJXmsUa;
+        "pkg-2.16.2" = _cLcxjbAh;
+        "default" = _cLcxjbAh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spell-engine-extension";

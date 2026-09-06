@@ -1,57 +1,78 @@
 {lib, callPackage, ...}:
 let
     versions = (let
-        _pxI541My = {
-            "id" = "pxI541My";
-            "file" = "simplebackpacks-3.0.0-neoforge-1.21.4.jar";
-            "hash" = "sha512-dN3VOXoBf6H5MANIgQgVCBebdDAsTUBUrq3XS/vfv/HcjoU0LBqFVsfrPc4lClFe7D42CjtGW08H5HanJDJktg==";
+        _xeODPCCg = {
+            "id" = "xeODPCCg";
+            "file" = "simplebackpacks-fabric-26.1.2-5.0.0.jar";
+            "hash" = "sha512-BP4v0+wzKfrqeBKBnuy3XCdUjaLB5u7V/akucgkaey+VdjEKwnn9APqq48UFDeTa0VYmfqoaTt+IM04h1Rze6g==";
         };
-        _Cw7WHzCR = {
-            "id" = "Cw7WHzCR";
-            "file" = "simplebackpacks-3.0.0-neoforge-1.21.1.jar";
-            "hash" = "sha512-uqnFazw0pr06QhDS3lFhjJRhaxXl0dBP6voEGOrbs7ij1X/GwnnT+1UAq8hTfdhrVP1wSj1XyFGPITnLHE7ktA==";
+        _c0jAw4Vv = {
+            "id" = "c0jAw4Vv";
+            "file" = "simplebackpacks-neoforge-26.1.2-5.0.0.jar";
+            "hash" = "sha512-JWkRlwJPqgxw20sCVBFj++gl6EV7Keg00aEgqdhYlFr2oHh30GFxQWwIxDgMfq9JXSp0mSZi55a3slZ1Eq9hjQ==";
         };
-        _w5Tx5zYC = {
-            "id" = "w5Tx5zYC";
-            "file" = "simplebackpacks-3.0.0-neoforge-1.21.8.jar";
-            "hash" = "sha512-iHTlLjH7vIiPZshscBiFGuKCEDeDdqr7tdPmpDetX52E0Y7Fs2WpddHAvST/3AVckZ6WcTvO23TZMpVbCzA9MQ==";
+        _r5ckdbYC = {
+            "id" = "r5ckdbYC";
+            "file" = "simplebackpacks-neoforge-26.1.2-5.1.0.jar";
+            "hash" = "sha512-bhPx1KaRT+IExbogwuLKL3Hdwq6TgKOH3JRVBOKgH+GEZgC6qrR2ISsrnVOEgv9siif63KYGpXnuf2Hhww29cw==";
         };
-        _Lqj1M5fL = {
-            "id" = "Lqj1M5fL";
-            "file" = "simplebackpacks-3.0.0-forge-1.20.1.jar";
-            "hash" = "sha512-H43C7Q9KQYMJum6znjH573MKjeapD66pIJ5h7CgJA+7N15Fil6RVdGH1ZWTfXZFb4cCtgNfJEgeWZKSCoH73JA==";
+        _ub2zbl4l = {
+            "id" = "ub2zbl4l";
+            "file" = "simplebackpacks-fabric-26.1.2-5.1.0.jar";
+            "hash" = "sha512-kjnL8ydWiQU6OL9pOFQLouF4tQPHgiJRGLIeht2ezhulGxkfTRsoBYbpkdqI+dI6YNIn3jRv8+8R0ZOmL6eVHQ==";
         };
-        _uJT0wHxO = {
-            "id" = "uJT0wHxO";
-            "file" = "simplebackpacks-3.1.0-neoforge-1.21.8.jar";
-            "hash" = "sha512-hw/JPRvluRH8qZQz5vY5bOXZWW1AVLQTzWLhGKUaqiAYD/nLfh+Tn5NrW7MMprSyV7P1PU2KdVbu0yqJiPhBKQ==";
+        _4OVOBcR0 = {
+            "id" = "4OVOBcR0";
+            "file" = "simplebackpacks-neoforge-1.21.8-5.1.0.jar";
+            "hash" = "sha512-w0yepoELhwEXZPwV6J/8hm1SFGbIt2pZ8aGp17fyLbKl6Om7OD1tU2dDsttTMVI1UBdiCW81q2jXiHoV/XVUVQ==";
         };
-        _jmRZeSIe = {
-            "id" = "jmRZeSIe";
-            "file" = "simplebackpacks-3.1.0-fabric-1.21.8.jar";
-            "hash" = "sha512-fhiHvEwjGCwQDwHMNVgM6uAv+Wl+dgEHoeoU3u/J9GU7wfgEX1I5IU89WkvWc5frpxFOeXTTY7I0zjX6IQjXIw==";
+        _bbU0ethx = {
+            "id" = "bbU0ethx";
+            "file" = "simplebackpacks-neoforge-1.21.1-5.1.0.jar";
+            "hash" = "sha512-bAuWyOcbrDb+eMEotlbPpROUlyF75ReEMGTKmN2jtL6eYAqIdWWfg2/lcUvPSFku4A8TBSpb2ckwea6LYpuI0w==";
         };
-        _QPfuycnL = {
-            "id" = "QPfuycnL";
-            "file" = "simplebackpacks-3.1.0-neoforge-1.21.1.jar";
-            "hash" = "sha512-jtT2p3m4xzJdITQrzhCOUZxbv4lSceCRcIjZ0LHz0X08u+9snuFkrDMD4Cl6LCPh4YeHbDkW2U71Ocin9XWZ2g==";
+        _XDsYQsvi = {
+            "id" = "XDsYQsvi";
+            "file" = "simplebackpacks-fabric-26.2-5.1.0.jar";
+            "hash" = "sha512-qSNDJZpwH/k3fqWl7NVeinm7YqiGaM0ZJKlvYZMVDPPsAZNLQ/7pgNCGR8eDceeBA9+xX/IWjLB1s2QImFElQw==";
+        };
+        _ug6AcYil = {
+            "id" = "ug6AcYil";
+            "file" = "simplebackpacks-fabric-1.21.8-5.1.0.jar";
+            "hash" = "sha512-QVumcZLIcrO5j61GJ44+l7lRLjCiY8ldu06PPOxvJ0MYn2xjVgbmwYzDGNQCISEGKHkcDPc/Xe+oebf5MrGf9g==";
+        };
+        _tn7TMMyP = {
+            "id" = "tn7TMMyP";
+            "file" = "simplebackpacks-fabric-1.21.1-5.1.0.jar";
+            "hash" = "sha512-MUJv5qyAHDnJ6c/J3zRf/UzXZ+94oNx9ZB90QHGsW5oUEGy6MLxKA2N0CZib/lM8t3wZIpyw4TDsdfDP0NS7GQ==";
+        };
+        _pKU7rApk = {
+            "id" = "pKU7rApk";
+            "file" = "simplebackpacks-neoforge-26.2-5.1.0.jar";
+            "hash" = "sha512-FwUyNFezBvzkHGtG4sfq/JU6YyN6thyLHxYEwhlIBab+qsx0pgjcSa2dyGOfQDFSvj6edyj6xjyg7Aq5iLBx2Q==";
         };
     in {
-        "pxI541My" = _pxI541My;
-        "Cw7WHzCR" = _Cw7WHzCR;
-        "w5Tx5zYC" = _w5Tx5zYC;
-        "Lqj1M5fL" = _Lqj1M5fL;
-        "uJT0wHxO" = _uJT0wHxO;
-        "jmRZeSIe" = _jmRZeSIe;
-        "QPfuycnL" = _QPfuycnL;
-        "neoforge-1.21.4" = _pxI541My;
-        "neoforge-1.21.1" = _QPfuycnL;
-        "neoforge-1.21.8" = _uJT0wHxO;
-        "forge-1.20.1" = _Lqj1M5fL;
-        "fabric-1.21.8" = _jmRZeSIe;
-        "pkg-3.0.0" = _Lqj1M5fL;
-        "pkg-3.1.0" = _QPfuycnL;
-        "default" = _QPfuycnL;
+        "xeODPCCg" = _xeODPCCg;
+        "c0jAw4Vv" = _c0jAw4Vv;
+        "r5ckdbYC" = _r5ckdbYC;
+        "ub2zbl4l" = _ub2zbl4l;
+        "4OVOBcR0" = _4OVOBcR0;
+        "bbU0ethx" = _bbU0ethx;
+        "XDsYQsvi" = _XDsYQsvi;
+        "ug6AcYil" = _ug6AcYil;
+        "tn7TMMyP" = _tn7TMMyP;
+        "pKU7rApk" = _pKU7rApk;
+        "fabric-26.1.2" = _ub2zbl4l;
+        "fabric-26.2" = _XDsYQsvi;
+        "fabric-1.21.8" = _ug6AcYil;
+        "fabric-1.21.1" = _tn7TMMyP;
+        "neoforge-26.1.2" = _r5ckdbYC;
+        "neoforge-1.21.8" = _4OVOBcR0;
+        "neoforge-1.21.1" = _bbU0ethx;
+        "neoforge-26.2" = _pKU7rApk;
+        "pkg-5.0.0" = _c0jAw4Vv;
+        "pkg-5.1.0" = _pKU7rApk;
+        "default" = _pKU7rApk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-backpacks-by-jupresson";

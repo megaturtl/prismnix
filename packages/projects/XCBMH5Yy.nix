@@ -21,17 +21,38 @@ let
             "file" = "jerotesvillage-1.20.1-1.0.0.5.1.jar";
             "hash" = "sha512-Mxni5nyGSa6tij0F5MuxmQsoX//ZGy8PQB8tXSxsprW/DMjfQ24G2MFv0QL2TpJukkwpmKUHhTGi2uMf8HvCUA==";
         };
+        _ntEjpsB0 = {
+            "id" = "ntEjpsB0";
+            "file" = "jerotesvillage-1.20.1-1.0.0.6.jar";
+            "hash" = "sha512-+DUd/Y7URVkgKCiw6kvyDT0PeJfaYUBL6LyhtlSbUjvBBlCXraw8zjNBKhffKDxs9le9dEQlPiTjPrvRG1UlWg==";
+        };
+        _tc9Xx0Bk = {
+            "id" = "tc9Xx0Bk";
+            "file" = "jerotesvillage-1.20.1-1.0.0.6_fix.jar";
+            "hash" = "sha512-p3INaCzb00mce/rIxXta5ju/s/y+edtBg+thWVta/wr6N7aQnjwmb9czca2sutegl+t1RlH0+6Rx8m6V4WaNUA==";
+        };
+        _RUxyaNFw = {
+            "id" = "RUxyaNFw";
+            "file" = "jerotesvillage-1.20.1-1.0.0.6.1.jar";
+            "hash" = "sha512-bWT3Q83tYUMeuGm8q+URUX7TCwDgSLEDekr5alSBzE+j4qMBu2VWH9ucKb5WkbiyuEgkhuTMUyU9gu0JVAZmzw==";
+        };
     in {
         "u35bDdlr" = _u35bDdlr;
         "jhqmFrtC" = _jhqmFrtC;
         "IldbnOuW" = _IldbnOuW;
         "2MdGIhhv" = _2MdGIhhv;
-        "forge-1.20.1" = _2MdGIhhv;
+        "ntEjpsB0" = _ntEjpsB0;
+        "tc9Xx0Bk" = _tc9Xx0Bk;
+        "RUxyaNFw" = _RUxyaNFw;
+        "forge-1.20.1" = _RUxyaNFw;
         "pkg-1.0.0.0" = _u35bDdlr;
         "pkg-1.0.0.4" = _jhqmFrtC;
         "pkg-1.0.0.5" = _IldbnOuW;
         "pkg-1.0.0.5.1" = _2MdGIhhv;
-        "default" = _2MdGIhhv;
+        "pkg-1.0.0.6" = _ntEjpsB0;
+        "pkg-1.0.0.6_fix" = _tc9Xx0Bk;
+        "pkg-1.0.0.6.1" = _RUxyaNFw;
+        "default" = _RUxyaNFw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jerotes-villages-pillage";

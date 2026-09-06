@@ -181,6 +181,11 @@ let
             "file" = "tconjei-1.20.1-1.6.0.jar";
             "hash" = "sha512-khyUfVLlFuUzOIV15CwHJX8rKUtcizTNwU9HqqUkVwAYlkLRNDQjSPg96cxLwmQTspPTYZH/yh/uFodvr1PQtA==";
         };
+        _1wiGg9QB = {
+            "id" = "1wiGg9QB";
+            "file" = "tconjei-1.20.1-1.6.1.jar";
+            "hash" = "sha512-4ybQIO0wSVtX3SglcpSni1ytCrwsXlsdYsSXrlIUreXt0cNz8/1yGGsaTsGFpDluJdzFTS+dMXKwcL04DJPrqQ==";
+        };
     in {
         "CInFRLwD" = _CInFRLwD;
         "Q64wGXyE" = _Q64wGXyE;
@@ -218,10 +223,11 @@ let
         "u3kL81Vi" = _u3kL81Vi;
         "xgliPx0o" = _xgliPx0o;
         "NTfd22qe" = _NTfd22qe;
+        "1wiGg9QB" = _1wiGg9QB;
         "forge-1.18.2" = _iZQv8rl1;
         "forge-1.19.2" = _nrFYwQD1;
-        "forge-1.20.1" = _NTfd22qe;
-        "neoforge-1.20.1" = _NTfd22qe;
+        "forge-1.20.1" = _1wiGg9QB;
+        "neoforge-1.20.1" = _1wiGg9QB;
         "pkg-1.0.0" = _CInFRLwD;
         "pkg-1.1.0" = _s6BCOLGW;
         "pkg-1.2.0" = _UJi01xmJ;
@@ -245,7 +251,8 @@ let
         "pkg-1.5.4" = _u3kL81Vi;
         "pkg-1.5.5" = _xgliPx0o;
         "pkg-1.6.0" = _NTfd22qe;
-        "default" = _NTfd22qe;
+        "pkg-1.6.1" = _1wiGg9QB;
+        "default" = _1wiGg9QB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tconjei";

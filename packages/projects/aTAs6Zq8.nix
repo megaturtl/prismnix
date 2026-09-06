@@ -46,6 +46,7 @@ let
         "minecraft-26.1" = _NchnmBAP;
         "minecraft-26.1.1" = _NchnmBAP;
         "minecraft-26.1.2" = _NchnmBAP;
+        "minecraft-26.2" = _NchnmBAP;
         "pkg-1.0.1" = _NchnmBAP;
         "pkg-1.0.0" = _yJBPOSkf;
         "default" = _NchnmBAP;

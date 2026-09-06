@@ -176,6 +176,11 @@ let
             "file" = "servux-neoforge-0.5.1+mc26.1.2.jar";
             "hash" = "sha512-+eQd+RMjaI2DoR9vGjwKSjvqwv3lNGRuozOrifqcEmtsVLaesqMFiErUNvPjFMRs2GL+KqZ49hnQQDcID4WXTw==";
         };
+        _91aeDCf5 = {
+            "id" = "91aeDCf5";
+            "file" = "servux-neoforge-0.4.2+mc1.21.1.jar";
+            "hash" = "sha512-7WIsOoSAzWC6XHdb3AcGztVud9yuIaiohFwIRMsjVkue/EFB6U2++HUxeOM56NSyfoJ/v9a4jY5t7DGrOHDEBw==";
+        };
     in {
         "rk6BPaXs" = _rk6BPaXs;
         "tLNxDvhN" = _tLNxDvhN;
@@ -212,6 +217,7 @@ let
         "1szp5wl4" = _1szp5wl4;
         "R4CPwWxX" = _R4CPwWxX;
         "jSVGVHvA" = _jSVGVHvA;
+        "91aeDCf5" = _91aeDCf5;
         "neoforge-1.20.3" = _lPm2TyLb;
         "neoforge-1.20.4" = _lPm2TyLb;
         "neoforge-1.21" = _PnPBwpNm;
@@ -219,8 +225,8 @@ let
         "neoforge-1.21.1" = _V61U2oNg;
         "neoforge-1.21.3" = _nemIELAk;
         "neoforge-1.21.4" = _ajMxqW3u;
-        "neoforge-1.21.9" = _1szp5wl4;
-        "neoforge-1.21.10" = _1szp5wl4;
+        "neoforge-1.21.9" = _91aeDCf5;
+        "neoforge-1.21.10" = _91aeDCf5;
         "neoforge-1.21.5" = _k2uAxFkT;
         "neoforge-1.21.11" = _R4CPwWxX;
         "neoforge-26.1" = _jSVGVHvA;
@@ -278,7 +284,8 @@ let
         "pkg-0.4.2+mc1.21.10" = _1szp5wl4;
         "pkg-0.4.1+mc1.21.11" = _R4CPwWxX;
         "pkg-0.5.1+mc26.1.2" = _jSVGVHvA;
-        "default" = _jSVGVHvA;
+        "pkg-0.4.2+mc1.21.1" = _91aeDCf5;
+        "default" = _91aeDCf5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "servuxforged";

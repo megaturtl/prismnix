@@ -1256,6 +1256,36 @@ let
             "file" = "flan-26.1.2-1.12.7-fabric.jar";
             "hash" = "sha512-gPLezMw9wpME7wwD5M6944W8mrbmsL62AoK2SCvch5z922vS0tL1t5OXNUxlaLF9fTHm6Ki+2zpGLGQJU2hJKA==";
         };
+        _1SJYtmxm = {
+            "id" = "1SJYtmxm";
+            "file" = "flan-1.21.1-1.12.8-fabric.jar";
+            "hash" = "sha512-1d0eaIj1yHUCbw5hboh/aJC4n5AxiKitNGtws1Gsm1/Rpkd9rXOojMUrTP6dOiQ/gv4psXG+K6VfSJHnoYZCWQ==";
+        };
+        _Z6X7Mj4L = {
+            "id" = "Z6X7Mj4L";
+            "file" = "flan-1.21.1-1.12.8-neoforge.jar";
+            "hash" = "sha512-G0I6l266IyrLac0xEaKxwHn/C5bMsyaWjYhDkCfZIFB0Nw+o5IYC8u2N2a/st5QLJZ9q/Wey/LqcJMFSOnAAlQ==";
+        };
+        _McqGkNc0 = {
+            "id" = "McqGkNc0";
+            "file" = "flan-26.1.2-1.12.8-neoforge.jar";
+            "hash" = "sha512-YvswuH7zLBQvCYUYGOVM0MC0uw20vwO+QcQtTeffesZcl0St/exfirCQ1CkumRXuXSlc4mkyOAQhLTr0fhnPJQ==";
+        };
+        _2Bv82VYI = {
+            "id" = "2Bv82VYI";
+            "file" = "flan-26.1.2-1.12.8-fabric.jar";
+            "hash" = "sha512-rKEjfIWeuRRsd/kAG0WpD/3v5BL9mBgTwBFcZOMbSDJy0xMeFbi3cBoCRzSLXo1m9uJ5PwBCpnC5MZUCie6rEA==";
+        };
+        _H9NbCnik = {
+            "id" = "H9NbCnik";
+            "file" = "flan-26.2-1.12.8-neoforge.jar";
+            "hash" = "sha512-WXSJkyrxjh3T9/DC/BBgiSLaz1mq6vXxYFi52Z9cmWM/RDyfk/IGjPW/fl7fFpJ9S97jgIkuBL1ozQIZDpr+Yw==";
+        };
+        _qJDOZxe5 = {
+            "id" = "qJDOZxe5";
+            "file" = "flan-26.2-1.12.8-fabric.jar";
+            "hash" = "sha512-fXxMV+6c9LhEIlvOQyptD81NJ8eY/Xik12WsupxMprm4xUpZPe/soPHh59aWhDz3dbn3DOo3UMqXnwK098U2Mg==";
+        };
     in {
         "jzFrliuY" = _jzFrliuY;
         "tTVK5uYF" = _tTVK5uYF;
@@ -1508,6 +1538,12 @@ let
         "gbljjgY1" = _gbljjgY1;
         "cONCSjvc" = _cONCSjvc;
         "sOppWAjh" = _sOppWAjh;
+        "1SJYtmxm" = _1SJYtmxm;
+        "Z6X7Mj4L" = _Z6X7Mj4L;
+        "McqGkNc0" = _McqGkNc0;
+        "2Bv82VYI" = _2Bv82VYI;
+        "H9NbCnik" = _H9NbCnik;
+        "qJDOZxe5" = _qJDOZxe5;
         "fabric-1.18.2" = _22UlyM3j;
         "fabric-1.19.4" = _5Gij1x9A;
         "fabric-1.20.1" = _Tc08lTqp;
@@ -1515,13 +1551,14 @@ let
         "fabric-1.20.5" = _zrbF20Su;
         "fabric-1.20.6" = _grnlFnyV;
         "fabric-1.21" = _L5UUKBUw;
-        "fabric-1.21.1" = _Dozjx0xr;
+        "fabric-1.21.1" = _1SJYtmxm;
         "fabric-1.21.4" = _9EC25rAV;
         "fabric-1.21.5" = _Xi75GjpP;
         "fabric-1.21.8" = _zDemKokA;
         "fabric-1.21.10" = _Tp7svqko;
         "fabric-1.21.11" = _5Kz9KVo2;
-        "fabric-26.1.2" = _sOppWAjh;
+        "fabric-26.1.2" = _2Bv82VYI;
+        "fabric-26.2" = _qJDOZxe5;
         "forge-1.18.2" = _s6eSPmQi;
         "forge-1.19.4" = _tw6K2tYX;
         "forge-1.20.1" = _Gh42Sknw;
@@ -1529,13 +1566,14 @@ let
         "neoforge-1.20.5" = _vMVspo7o;
         "neoforge-1.20.6" = _3weCEAdq;
         "neoforge-1.21" = _kAXJr6DF;
-        "neoforge-1.21.1" = _2PanOvza;
+        "neoforge-1.21.1" = _Z6X7Mj4L;
         "neoforge-1.21.4" = _mvodm3Kb;
         "neoforge-1.21.5" = _757ezL1Z;
         "neoforge-1.21.8" = _yGL4XM4r;
         "neoforge-1.21.10" = _joDxvzKU;
         "neoforge-1.21.11" = _gbljjgY1;
-        "neoforge-26.1.2" = _cONCSjvc;
+        "neoforge-26.1.2" = _McqGkNc0;
+        "neoforge-26.2" = _H9NbCnik;
         "pkg-1.18.2-1.8.5" = _tTVK5uYF;
         "pkg-1.19.4-1.8.5" = _h20hi0PP;
         "pkg-1.18.2-1.8.6" = _PqY4wW7l;
@@ -1713,7 +1751,13 @@ let
         "pkg-1.21.11-1.12.7-neoforge" = _gbljjgY1;
         "pkg-26.1.2-1.12.7-neoforge" = _cONCSjvc;
         "pkg-26.1.2-1.12.7-fabric" = _sOppWAjh;
-        "default" = _sOppWAjh;
+        "pkg-1.21.1-1.12.8-fabric" = _1SJYtmxm;
+        "pkg-1.21.1-1.12.8-neoforge" = _Z6X7Mj4L;
+        "pkg-26.1.2-1.12.8-neoforge" = _McqGkNc0;
+        "pkg-26.1.2-1.12.8-fabric" = _2Bv82VYI;
+        "pkg-26.2-1.12.8-neoforge" = _H9NbCnik;
+        "pkg-26.2-1.12.8-fabric" = _qJDOZxe5;
+        "default" = _qJDOZxe5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flan";

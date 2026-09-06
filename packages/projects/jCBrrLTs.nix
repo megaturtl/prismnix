@@ -981,6 +981,16 @@ let
             "file" = "TaxFreeLevels-1.4.24-fabric-1.21.11.jar";
             "hash" = "sha512-wZsxltyji3iEmTNUKuBUbWNOgM1/U8uoqyLsU0C+7u8JNptB5BGWvlxfDdbDDap9FNgHqNNGqjQSMI8x5GmOAA==";
         };
+        _b81Q74XX = {
+            "id" = "b81Q74XX";
+            "file" = "TaxFreeLevels-1.4.25-neoforge-1.21.1.jar";
+            "hash" = "sha512-fbQi3bQZSNHqd2ARZF4Aijm2575cD65uEnF4teJquG4reR+OZfhJTVXG80n8g7zBd0uenq5U2KQnu3G6PPXlAA==";
+        };
+        _mix9ptRS = {
+            "id" = "mix9ptRS";
+            "file" = "TaxFreeLevels-1.4.25-forge-1.20.1.jar";
+            "hash" = "sha512-HQfU/67KzE0dFZUbBdXL4eur1rWLerGsDyU5QXRE31nINUhAGccgIQxNXxlRre/n7+lnOjrLyTM65Q0dw4+wgw==";
+        };
     in {
         "kyjJQ6is" = _kyjJQ6is;
         "NQmkmN36" = _NQmkmN36;
@@ -1178,6 +1188,8 @@ let
         "IDGmNLCh" = _IDGmNLCh;
         "YSpZmpyW" = _YSpZmpyW;
         "jjRRufQz" = _jjRRufQz;
+        "b81Q74XX" = _b81Q74XX;
+        "mix9ptRS" = _mix9ptRS;
         "fabric-1.16.2" = _NQmkmN36;
         "fabric-1.16.3" = _NQmkmN36;
         "fabric-1.16.4" = _NQmkmN36;
@@ -1222,12 +1234,12 @@ let
         "forge-1.18.2" = _iW2k5scj;
         "forge-1.19" = _hpR2Y8l4;
         "forge-1.19.1" = _hpR2Y8l4;
-        "forge-1.19.2" = _9ahUaUYx;
-        "forge-1.19.3" = _9ahUaUYx;
+        "forge-1.19.2" = _mix9ptRS;
+        "forge-1.19.3" = _mix9ptRS;
         "forge-1.16.5" = _hTA88KZf;
-        "forge-1.19.4" = _9ahUaUYx;
-        "forge-1.20" = _9ahUaUYx;
-        "forge-1.20.1" = _9ahUaUYx;
+        "forge-1.19.4" = _mix9ptRS;
+        "forge-1.20" = _mix9ptRS;
+        "forge-1.20.1" = _mix9ptRS;
         "forge-1.20.2" = _ruBcsVig;
         "forge-1.20.3" = _ruBcsVig;
         "forge-1.20.4" = _ruBcsVig;
@@ -1241,8 +1253,8 @@ let
         "neoforge-1.20.4" = _ybDIKklB;
         "neoforge-1.20.5" = _Alim2J8M;
         "neoforge-1.20.6" = _Alim2J8M;
-        "neoforge-1.21" = _BWMkAfDt;
-        "neoforge-1.21.1" = _BWMkAfDt;
+        "neoforge-1.21" = _b81Q74XX;
+        "neoforge-1.21.1" = _b81Q74XX;
         "neoforge-1.21.2" = _aWx9n0cm;
         "neoforge-1.21.3" = _aWx9n0cm;
         "neoforge-1.21.4" = _aWx9n0cm;
@@ -1309,7 +1321,8 @@ let
         "pkg-1.4.23" = _sBsLxdZK;
         "pkg-1.5.4" = _nnOm34tW;
         "pkg-1.4.24" = _jjRRufQz;
-        "default" = _jjRRufQz;
+        "pkg-1.4.25" = _mix9ptRS;
+        "default" = _mix9ptRS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tax-free-levels";

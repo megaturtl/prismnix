@@ -107,9 +107,9 @@ let
         "neoforge-26.1.1" = _UCONKGxi;
         "neoforge-26.1.2" = _UCONKGxi;
         "neoforge-26.2" = _GI4mpBOA;
-        "pkg-1.0.0-forge-1.20.1" = _KTyswFWp;
+        "pkg-forge-1.20.1" = _KTyswFWp;
         "pkg-1.20.1-fabric" = _th45qKPW;
-        "pkg-1.0.0-forge-1.21.1" = _8JQ1SvVV;
+        "pkg-forge-1.21.1" = _8JQ1SvVV;
         "pkg-1.21.1-fabric" = _y17C7oXH;
         "pkg-1.21.1-neoforge" = _pLoFIP1e;
         "pkg-1.21.10-neoforge" = _BfZOeQFE;
@@ -119,7 +119,7 @@ let
         "pkg-1.0.1-forge-1.20.1" = _U9fvDgM8;
         "pkg-1.0.1-fabric-1.20.1" = _inGsPrUM;
         "pkg-neoforge-26.1.1-26.1.2" = _UCONKGxi;
-        "pkg-fabric-26.1.1-26.1.2" = _DuqZSv23;
+        "pkg-fabric-26.1.1" = _DuqZSv23;
         "pkg-neoforge-26.2" = _GI4mpBOA;
         "pkg-fabric-26.2" = _YV4VaXgY;
         "default" = _YV4VaXgY;

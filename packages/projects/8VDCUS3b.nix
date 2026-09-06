@@ -1241,6 +1241,101 @@ let
             "file" = "LostCities-1.21.11-9.4.2.jar";
             "hash" = "sha512-SbRVuXHRqs2imn/ARnKmcnUAAmRvqkvGH6eKoAzFl0uW89qtnCa+J8h+OaJed6dAld7D0t80illSQ4UwQMtVRA==";
         };
+        _64aFbGhO = {
+            "id" = "64aFbGhO";
+            "file" = "lostcities-1.20-7.5.0.jar";
+            "hash" = "sha512-yR3HtOKsdCM0QxhfflDVUTMLdjW7mdF+wW5Z1SpVpnoIdYQnJ2I1HqIOrn7AiBKgtSVaEvOvt1CaxQz+I6dnSw==";
+        };
+        _uFLblpyC = {
+            "id" = "uFLblpyC";
+            "file" = "lostcities-1.21-8.4.0.jar";
+            "hash" = "sha512-szVDIEhwFtfHeUIcml8KtUQnZi/2jfmQUb/AQ2X9ZUCxj9zy7pgpVlq1zpeRH4CQV/AyCCN1yuGtBBOQt3VKRQ==";
+        };
+        _Sw1qfbG9 = {
+            "id" = "Sw1qfbG9";
+            "file" = "LostCities-1.21.11-9.5.0.jar";
+            "hash" = "sha512-Aa88zN6xP/df8uhZME/+rKs0Vkf2LByzQOskk71pAWMlEmnf/cR658dHRyppRb4GRY3WQZWhSs664SGcCKFN4Q==";
+        };
+        _HaCb3vnW = {
+            "id" = "HaCb3vnW";
+            "file" = "LostCities-26.1.2-10.0.0.jar";
+            "hash" = "sha512-e7COAaqVUM5ycbKKSmUzSBaSnrVcI2v9DPCVQd69Pqk0lJyeonz6qOJ32xV9g7EZCpEitw0fY9kUJOYr0DhHdw==";
+        };
+        _8F1VgjdK = {
+            "id" = "8F1VgjdK";
+            "file" = "LostCities-26.1.2-10.0.1.jar";
+            "hash" = "sha512-SMw7hCRy1Gu77+EdEtoCRDFodq5bV7DfLYArnDBwTE7JcrQihf/MjEi3e+4Azmfgpi3QXL4WCKERHJ4qWTReIg==";
+        };
+        _6PiuIpnL = {
+            "id" = "6PiuIpnL";
+            "file" = "LostCities-1.21.11-9.5.1.jar";
+            "hash" = "sha512-JN44bPfuVabOQeQH8ARhUgnxH+WTplA9hVt4fWf6G8koABg9K7+XOyaDJ9Lc3r8G/pu1S3YSp1W6MyTeLtKUVA==";
+        };
+        _ZcYBYKq5 = {
+            "id" = "ZcYBYKq5";
+            "file" = "lostcities-1.21-8.4.1.jar";
+            "hash" = "sha512-DPjP7ibHT9FIIjlhxUKnir1EmS4TTqlVmz/wFXF0C/Dt/sLrBY6ykxXVswEP/jYrHQqx3y9nYorcsESUnV0eAA==";
+        };
+        _5Bi34bdy = {
+            "id" = "5Bi34bdy";
+            "file" = "lostcities-1.20-7.5.1.jar";
+            "hash" = "sha512-wdYf5mn3+Nrk+SM09EBlZYhZnvM6Nq8bFgZ0UvGtMdTkZK8ru0HF4qOFR7aAxz4uV4v8ygD1IksHRq2ZDaHfBw==";
+        };
+        _utEaPn7L = {
+            "id" = "utEaPn7L";
+            "file" = "lostcities-1.20-7.5.2.jar";
+            "hash" = "sha512-YWz5bw/GCnvsg9Up9FDbTcyROKSF/jdyOg/ebkqysoe52jQaSHSZvrp87NVpBuVGf6ePJWlxf2OCc4qDNI8X4g==";
+        };
+        _lOvBYez2 = {
+            "id" = "lOvBYez2";
+            "file" = "lostcities-1.20-7.5.3.jar";
+            "hash" = "sha512-nWw8ZwY/RIDc1AphKFSn1j8EnJpj0Y65WiJ29Cf6rldcpPJKqb222qwvnflyHJT8qf0LWvhlky8pu+S2wxlNhA==";
+        };
+        _5pKSd6w7 = {
+            "id" = "5pKSd6w7";
+            "file" = "lostcities-1.21-8.4.2.jar";
+            "hash" = "sha512-KcwMUt2NysNpNWE/RPY3/+Nk4PgjJ9ELqTLh5XvJDT2pmC7cnLxLfHCQZRCfbsj0PHbwj1b3G0lGRzsY6RcbJw==";
+        };
+        _AxoiBRE8 = {
+            "id" = "AxoiBRE8";
+            "file" = "LostCities-1.21.11-9.5.2.jar";
+            "hash" = "sha512-ubgKYZfOyyXGLcZ13iXf3qjmUywgKzjHywHV7sYWi3npfuYTRJhgBSxfpq7MhTqgzmJrl/JfvRnHQtIv/ChIXQ==";
+        };
+        _TH2UXpya = {
+            "id" = "TH2UXpya";
+            "file" = "LostCities-26.1.2-10.0.2.jar";
+            "hash" = "sha512-ZAWT1+gFJni/m3A+aIHh+R7JvH3U719YltQpA1AcJpTAm2lXnKR/KLzTw/gykoi9NFZDLn1bggdZRfcKqjCwAw==";
+        };
+        _OkL2UM66 = {
+            "id" = "OkL2UM66";
+            "file" = "lostcities-1.20-7.5.4.jar";
+            "hash" = "sha512-S/sZz/sGM84sXYDzZspdGUOGZcHZTTseolu5dN/SenQgJcmem98hMqNJO/RLVaL8LJhNbjRvMSkJSLTUdUw8+g==";
+        };
+        _W3W37DRe = {
+            "id" = "W3W37DRe";
+            "file" = "lostcities-1.21-8.4.4.jar";
+            "hash" = "sha512-B0CTF5NgDaRc+IaRsLQcaZUK19ez1FFPiENsGSukMiKjojxNvp/6/DNU9VPn/MnSqG1xIykEX/giGcZmM9XYnQ==";
+        };
+        _Pv2uGAJn = {
+            "id" = "Pv2uGAJn";
+            "file" = "LostCities-1.21.11-9.5.4.jar";
+            "hash" = "sha512-z9g/ffRKZ/aYCQkDGWuUx69u6PNZJjhg1MzhdA00PUZTS9Wr4JA+QKW72bmXnA0V3/+eoKrqYQksS6888VRODg==";
+        };
+        _dRDh6I3G = {
+            "id" = "dRDh6I3G";
+            "file" = "LostCities-26.1.2-10.0.4.jar";
+            "hash" = "sha512-jpi4mTvllnBdJ2QcXlblyaegkxQ1+95Z1E795+OkrVes9m9lj9D7q7m5FDKs0Yvw20bb+ty7BpMxTfLaOEvqoA==";
+        };
+        _gVSA9NBX = {
+            "id" = "gVSA9NBX";
+            "file" = "LostCities-26.2-11.0.0.jar";
+            "hash" = "sha512-hCzsNwHM10KwWsIfz6UYFkCES3KTV2m3xcpYwEOU2URY+exVMUO4R4gyBUUeWoveU9Ns2XOqZ5ZFblUoCIaFEw==";
+        };
+        _z1NXoy5W = {
+            "id" = "z1NXoy5W";
+            "file" = "lostcities-fabric-26.2-26.2-11.0.0-fabric.jar";
+            "hash" = "sha512-nW6t3YKsEihylCntq9zFiv7DntQX7KCyoSF/YsCqENbfwbAD2AUIRjT2ECR0PYjf+du8SzwZ4hV6e5r9pK/hjA==";
+        };
     in {
         "AoqzC7cu" = _AoqzC7cu;
         "ShsObHA2" = _ShsObHA2;
@@ -1490,6 +1585,25 @@ let
         "sT3Y8s4v" = _sT3Y8s4v;
         "k60WL1kI" = _k60WL1kI;
         "tvUJOMn8" = _tvUJOMn8;
+        "64aFbGhO" = _64aFbGhO;
+        "uFLblpyC" = _uFLblpyC;
+        "Sw1qfbG9" = _Sw1qfbG9;
+        "HaCb3vnW" = _HaCb3vnW;
+        "8F1VgjdK" = _8F1VgjdK;
+        "6PiuIpnL" = _6PiuIpnL;
+        "ZcYBYKq5" = _ZcYBYKq5;
+        "5Bi34bdy" = _5Bi34bdy;
+        "utEaPn7L" = _utEaPn7L;
+        "lOvBYez2" = _lOvBYez2;
+        "5pKSd6w7" = _5pKSd6w7;
+        "AxoiBRE8" = _AxoiBRE8;
+        "TH2UXpya" = _TH2UXpya;
+        "OkL2UM66" = _OkL2UM66;
+        "W3W37DRe" = _W3W37DRe;
+        "Pv2uGAJn" = _Pv2uGAJn;
+        "dRDh6I3G" = _dRDh6I3G;
+        "gVSA9NBX" = _gVSA9NBX;
+        "z1NXoy5W" = _z1NXoy5W;
         "forge-1.10.2" = _9Ys8sRgg;
         "forge-1.11.2" = _9Ys8sRgg;
         "forge-1.12" = _JqmPP0Xj;
@@ -1507,10 +1621,13 @@ let
         "forge-1.19.2" = _dDJJO5fh;
         "forge-1.19.3" = _njP2MP1g;
         "forge-1.19.4" = _3c4YooOM;
-        "forge-1.20.1" = _sT3Y8s4v;
+        "forge-1.20.1" = _OkL2UM66;
         "neoforge-1.21" = _rcBuTD4B;
-        "neoforge-1.21.1" = _k60WL1kI;
-        "neoforge-1.21.11" = _tvUJOMn8;
+        "neoforge-1.21.1" = _W3W37DRe;
+        "neoforge-1.21.11" = _Pv2uGAJn;
+        "neoforge-26.1.2" = _dRDh6I3G;
+        "neoforge-26.2" = _gVSA9NBX;
+        "fabric-26.2" = _z1NXoy5W;
         "pkg-1.1x-0.0.1beta" = _AoqzC7cu;
         "pkg-1.1x-0.0.2beta" = _ShsObHA2;
         "pkg-1.1x-0.0.3beta" = _gAieoBFb;
@@ -1759,7 +1876,26 @@ let
         "pkg-1.20-7.4.13" = _sT3Y8s4v;
         "pkg-1.21-8.3.10" = _k60WL1kI;
         "pkg-1.21.11-9.4.2" = _tvUJOMn8;
-        "default" = _tvUJOMn8;
+        "pkg-1.20-7.5.0" = _64aFbGhO;
+        "pkg-1.21-8.4.0" = _uFLblpyC;
+        "pkg-1.21.11-9.5.0" = _Sw1qfbG9;
+        "pkg-26.1.2-10.0.0" = _HaCb3vnW;
+        "pkg-26.1.2-10.0.1" = _8F1VgjdK;
+        "pkg-1.21.11-9.5.1" = _6PiuIpnL;
+        "pkg-1.21-8.4.1" = _ZcYBYKq5;
+        "pkg-1.20-7.5.1" = _5Bi34bdy;
+        "pkg-1.20-7.5.2" = _utEaPn7L;
+        "pkg-1.20-7.5.3" = _lOvBYez2;
+        "pkg-1.21-8.4.2" = _5pKSd6w7;
+        "pkg-1.21.11-9.5.2" = _AxoiBRE8;
+        "pkg-26.1.2-10.0.2" = _TH2UXpya;
+        "pkg-1.20-7.5.4" = _OkL2UM66;
+        "pkg-1.21-8.4.4" = _W3W37DRe;
+        "pkg-1.21.11-9.5.4" = _Pv2uGAJn;
+        "pkg-26.1.2-10.0.4" = _dRDh6I3G;
+        "pkg-26.2-11.0.0" = _gVSA9NBX;
+        "pkg-26.2-11.0.0-fabric" = _z1NXoy5W;
+        "default" = _z1NXoy5W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-lost-cities";

@@ -11,11 +11,6 @@ let
             "file" = "minimalitemframes-fabric-1.19.4-1.0.0.jar";
             "hash" = "sha512-UX85hF+EPE2sPdFtfH/INaF1T8nQ4/I2cfY5ozB9B59RRXsFIgBQfEb0HBn+eWnutleM7iKFgIZ3N326ZvcLjQ==";
         };
-        _LGclcyZ7 = {
-            "id" = "LGclcyZ7";
-            "file" = "itemframeplus-fabric-1.20-1.1.0.jar";
-            "hash" = "sha512-iDMiM3Ofg14Q07ZXjlM8oRRHPUkmnkpPysRAx/zTbj/DUwH6HdbQ8l+xg4ix+qnsXh5Lju5K5I/UPfKmG6sApA==";
-        };
         _LXsdnXPl = {
             "id" = "LXsdnXPl";
             "file" = "itemframesplus-fabric-1.19.4-1.1.0.jar";
@@ -74,7 +69,6 @@ let
     in {
         "bYjzM5tu" = _bYjzM5tu;
         "a4eEZ6bd" = _a4eEZ6bd;
-        "LGclcyZ7" = _LGclcyZ7;
         "LXsdnXPl" = _LXsdnXPl;
         "euKoytYP" = _euKoytYP;
         "d1wvxmaI" = _d1wvxmaI;
@@ -86,12 +80,9 @@ let
         "xFvzcF5r" = _xFvzcF5r;
         "pZUdCz80" = _pZUdCz80;
         "7XvcTILS" = _7XvcTILS;
-        "fabric-1.20" = _LGclcyZ7;
-        "fabric-1.20.1" = _LGclcyZ7;
+        "fabric-1.20" = _bYjzM5tu;
+        "fabric-1.20.1" = _bYjzM5tu;
         "fabric-1.19.4" = _LXsdnXPl;
-        "fabric-1.20.2" = _LGclcyZ7;
-        "fabric-1.20.3" = _LGclcyZ7;
-        "fabric-1.20.4" = _LGclcyZ7;
         "fabric-1.19.3" = _euKoytYP;
         "fabric-1.19.2" = _d1wvxmaI;
         "fabric-1.21.4" = _UWKyPRGr;

@@ -181,6 +181,11 @@ let
             "file" = "ends_delight-2.6+refabricated.1.21.1.jar";
             "hash" = "sha512-scfRnpXXP7SuO0YpcXieJdm8O6vCd7Zgk4JrMcFkRF+xUgGwupAIRmEIOHB8hAnXDy5f/hpKBu38Nqw+84rxzQ==";
         };
+        _FHVQqUkN = {
+            "id" = "FHVQqUkN";
+            "file" = "ends_delight-2.6.1+forge.1.20.1.jar";
+            "hash" = "sha512-xX+qY9nwFjJr54xbooZQm8KedS5ZSke7UUYH265EICZA59dnxDeh5bSAxP8/A3wbod2YMzV4ZtAnXBYSbxuTLQ==";
+        };
     in {
         "1xBY71Om" = _1xBY71Om;
         "8BM65WXH" = _8BM65WXH;
@@ -218,10 +223,11 @@ let
         "YTApg6Hl" = _YTApg6Hl;
         "txuQ2GPU" = _txuQ2GPU;
         "VkP67Q42" = _VkP67Q42;
+        "FHVQqUkN" = _FHVQqUkN;
         "forge-1.19.2" = _Q4q0rf2I;
         "forge-1.18.2" = _yKGzOXSe;
         "forge-1.16.5" = _ZvbxFSM0;
-        "forge-1.20.1" = _txuQ2GPU;
+        "forge-1.20.1" = _FHVQqUkN;
         "fabric-1.20.1" = _kNmI1WJu;
         "fabric-1.19.2" = _VQxr0ozB;
         "fabric-1.18.2" = _HkN86Pzq;
@@ -259,7 +265,8 @@ let
         "pkg-2.6.1+neoforge.1.21.1" = _YTApg6Hl;
         "pkg-2.6+forge.1.20.1" = _txuQ2GPU;
         "pkg-2.6+refabricated.1.21.1" = _VkP67Q42;
-        "default" = _VkP67Q42;
+        "pkg-2.6.1+forge.1.20.1" = _FHVQqUkN;
+        "default" = _FHVQqUkN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ends-delight";

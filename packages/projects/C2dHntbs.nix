@@ -131,6 +131,26 @@ let
             "file" = "ViScriptShop-neoforge-1.21.1-1.1.9.jar";
             "hash" = "sha512-RIBj3GZIcwEJnIJSnTOerPTgwnt4I6tmXPIY8zU9RO/XBoUolnGPBT2qtfFa0mPrlkXoqrP+hkr/MOuc00GxAg==";
         };
+        _QWHnGt8e = {
+            "id" = "QWHnGt8e";
+            "file" = "ViScriptShop-neoforge-1.21.1-1.2.0 beta.jar";
+            "hash" = "sha512-urer93Z9U00a0XqIPLYsCnVWSmw+fNd9B/gKJzjgvno3P/OVgx/N4nPxgYb4Y9BmY81NeLWcFJVqur5SLQ3bKg==";
+        };
+        _Y4FQCuvF = {
+            "id" = "Y4FQCuvF";
+            "file" = "ViScriptShop-neoforge-1.21.1-1.2.0beta.fix1.jar";
+            "hash" = "sha512-3RM5xhFCcjJcsPFakRoatoppGKG3+DZKmpHJEJitygnS9Qe/j7sssW+5+mAOyS5ecPWfs9RfG1sF5tkhNf3GCw==";
+        };
+        _icevoAe2 = {
+            "id" = "icevoAe2";
+            "file" = "ViScriptShop-neoforge-1.21.1-1.2.0.jar";
+            "hash" = "sha512-BdsnaAtUIyrfjyxjg+7/z9ZLjkaKjYpjKlzBoYIYUWUjb8T+2JXAQKRtPXGeH2PDIHPJlpmCEf8v9eOxcudeag==";
+        };
+        _Z3cjNPpK = {
+            "id" = "Z3cjNPpK";
+            "file" = "ViScriptShop-neoforge-1.21.1-1.2.1.jar";
+            "hash" = "sha512-MlupXMd1URS9SWI0EKbXls3p0T/dOUrFvQfr2hTpuDpgbn/JO3KutXwBR+BLMKMJa5LbG/cNgumG/wZ4Qcr8jQ==";
+        };
     in {
         "xCUexekg" = _xCUexekg;
         "Xnv6zEl8" = _Xnv6zEl8;
@@ -158,7 +178,11 @@ let
         "4BnjwjoA" = _4BnjwjoA;
         "rcyk0vWZ" = _rcyk0vWZ;
         "4cWlfVhC" = _4cWlfVhC;
-        "neoforge-1.21.1" = _4cWlfVhC;
+        "QWHnGt8e" = _QWHnGt8e;
+        "Y4FQCuvF" = _Y4FQCuvF;
+        "icevoAe2" = _icevoAe2;
+        "Z3cjNPpK" = _Z3cjNPpK;
+        "neoforge-1.21.1" = _Z3cjNPpK;
         "neoforge-1.21" = _RMKmv1m0;
         "pkg-1.0.0" = _xCUexekg;
         "pkg-1.0.1" = _Xnv6zEl8;
@@ -186,7 +210,11 @@ let
         "pkg-1.1.8" = _4BnjwjoA;
         "pkg-1.1.8fix" = _rcyk0vWZ;
         "pkg-1.1.9" = _4cWlfVhC;
-        "default" = _4cWlfVhC;
+        "pkg-1.2.0beta" = _QWHnGt8e;
+        "pkg-1.2.0beta.fix1" = _Y4FQCuvF;
+        "pkg-1.2.0" = _icevoAe2;
+        "pkg-1.2.1" = _Z3cjNPpK;
+        "default" = _Z3cjNPpK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "viscriptshop";

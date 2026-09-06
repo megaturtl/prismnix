@@ -91,6 +91,36 @@ let
             "file" = "envelope-fabric-1.21.1-0.7.2.jar";
             "hash" = "sha512-V7sFQaIdLCeU8NNbX8x0hUDiH9w3nwIsrkkCjgybbvRW8eYlqYuNBsa/3qis5uD2q8OmX90l3SrO3syMHogpDw==";
         };
+        _ikCx3JuX = {
+            "id" = "ikCx3JuX";
+            "file" = "envelope-fabric-1.21.1-0.7.3.jar";
+            "hash" = "sha512-0s3EMGvq8nw84HyStojIglHe78a/ASl5DwVgv+x4GT/XR0Wr2P0gZmZ5vLB6orTSDr4ytps5SNrgwfJuf63peg==";
+        };
+        _1P5TUxzB = {
+            "id" = "1P5TUxzB";
+            "file" = "envelope-neoforge-1.21.1-0.7.3.jar";
+            "hash" = "sha512-l1p6HnG41Pd95bQ/02S9fsg/cR9jTk/KEiTgAmwqsva1dEbBiidycLNwZTebPGLjKb6ZDG8M1KRtpkOR9oJSkQ==";
+        };
+        _ASI3ttX5 = {
+            "id" = "ASI3ttX5";
+            "file" = "envelope-neoforge-1.21.1-0.7.4.jar";
+            "hash" = "sha512-sWn+FkQ0KvOsnoQdta4+g9oWfLkjpZzRAKsRrZtusWMw4TheK/BmnaJBInhWP3QdAcM6z6rDSXwutxQKUxDS5w==";
+        };
+        _YdTlQwNo = {
+            "id" = "YdTlQwNo";
+            "file" = "envelope-fabric-1.21.1-0.7.4.jar";
+            "hash" = "sha512-gcYji4bIl9qj6f42fQ2O2qELKpxK9OgHN8hTkSPZ1pKdjdsP1oEI7sYYCv3oa3w0mxIA7UeODQBJfdV6ns2rHw==";
+        };
+        _tj4fFL08 = {
+            "id" = "tj4fFL08";
+            "file" = "envelope-fabric-1.21.1-0.7.5.jar";
+            "hash" = "sha512-cKopdeVvM/tZChEaHZW+BlsKN0Gg5PPQ9ECObR9cIewobOfTuyHxB+xr5+608gUHvZFdaEe7Ose5bYdKkZn9mg==";
+        };
+        _xTkokyBk = {
+            "id" = "xTkokyBk";
+            "file" = "envelope-neoforge-1.21.1-0.7.5.jar";
+            "hash" = "sha512-9Hjj+VK/m34IJbdjcszU0lAQ2/jPhxG59JNTABtIpsdLKpVZTL3Jcqe5SJhVNkpoNllRskY3HOxFpc5EX7/ViQ==";
+        };
     in {
         "GUwGP7IL" = _GUwGP7IL;
         "IeIRf1Eh" = _IeIRf1Eh;
@@ -110,8 +140,14 @@ let
         "eKwt0p10" = _eKwt0p10;
         "hlLxWPJQ" = _hlLxWPJQ;
         "CwXMsXGZ" = _CwXMsXGZ;
-        "fabric-1.21.1" = _CwXMsXGZ;
-        "neoforge-1.21.1" = _hlLxWPJQ;
+        "ikCx3JuX" = _ikCx3JuX;
+        "1P5TUxzB" = _1P5TUxzB;
+        "ASI3ttX5" = _ASI3ttX5;
+        "YdTlQwNo" = _YdTlQwNo;
+        "tj4fFL08" = _tj4fFL08;
+        "xTkokyBk" = _xTkokyBk;
+        "fabric-1.21.1" = _tj4fFL08;
+        "neoforge-1.21.1" = _xTkokyBk;
         "pkg-0.5.0" = _IeIRf1Eh;
         "pkg-0.5.1" = _tpEtxCmr;
         "pkg-0.5.2" = _1X04oyJ2;
@@ -121,7 +157,10 @@ let
         "pkg-0.7.0" = _kPnCRfHZ;
         "pkg-0.7.1" = _eKwt0p10;
         "pkg-0.7.2" = _CwXMsXGZ;
-        "default" = _CwXMsXGZ;
+        "pkg-0.7.3" = _1P5TUxzB;
+        "pkg-0.7.4" = _YdTlQwNo;
+        "pkg-0.7.5" = _xTkokyBk;
+        "default" = _xTkokyBk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "envelope";

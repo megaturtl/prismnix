@@ -56,6 +56,56 @@ let
             "file" = "Saturation++.zip";
             "hash" = "sha512-ch5PzTIGNB8dYha4fW8WTLo4HyJ2TougUn7/WLpAwat0zA895TGoj7sCmvFuQ6kJoXBHTyV29Q9YDAmhw+acWA==";
         };
+        _mEBydqsW = {
+            "id" = "mEBydqsW";
+            "file" = "Saturation.zip";
+            "hash" = "sha512-O6o1+crcGBmV5mtPWZaCUNLiSbqfaaLNubusRrQYe6cIITGKw49+uJEyXY4wQGNtp+tG+Xk5g+8FTGE2IyXm2w==";
+        };
+        _cps1SZdW = {
+            "id" = "cps1SZdW";
+            "file" = "Saturation.zip";
+            "hash" = "sha512-xeSqqv8f+4woITjis8JFCpGXG/C0oZNN8ExVUanpoEWrydjy5BmxHcrd5WA6HYf9JSaAB9Y6cZJSa5fMnftDvA==";
+        };
+        _CNmhOWOC = {
+            "id" = "CNmhOWOC";
+            "file" = "Saturation.zip";
+            "hash" = "sha512-tcMKdlz5/Y4wDVfF2MepIt1Qu5z5rzOwwDAciAk4jk17rgZkj+tICDi/sqeqSHmiL9qqwfIj+00UDSdVcPiQ0g==";
+        };
+        _dw6K2C9k = {
+            "id" = "dw6K2C9k";
+            "file" = "Saturation.zip";
+            "hash" = "sha512-E2md5MzQGKD7OdiS7UMQF4DVw515oB3EzuxlK6pJMV4+9XSdNANg/td99cuHuPnXtFfC1kIzNHq8IecfaACMaQ==";
+        };
+        _DgRJ5FoH = {
+            "id" = "DgRJ5FoH";
+            "file" = "Saturation.zip";
+            "hash" = "sha512-+dAkL9ne+EmRa2NQMz9RRTjhNqS5GYTiJxrpqJ8Luvx9LCntl1K9b8sOj9+PGXbQ+9YBVOJOkdDaorpvP6M0hA==";
+        };
+        _9Cu9ML0H = {
+            "id" = "9Cu9ML0H";
+            "file" = "Saturation.zip";
+            "hash" = "sha512-3rxPuhj+Tgg0coiATV9bOPQDmwL5/2jcNFeaphZRV0yDvEu6Ll6Fe8EuG78+/q4j8+83cZOaOevm04ygZDD+OA==";
+        };
+        _DCpWYGIw = {
+            "id" = "DCpWYGIw";
+            "file" = "Saturation.zip";
+            "hash" = "sha512-WZnKXRlTO3K/Ljp/KVHMe3VY2O/v4SBRpn0hqrerfJ6B2q8uhbQDpJ7dyAl93UHLyoh30xl0hHbIRsUAmrY6kw==";
+        };
+        _WPBWi1uu = {
+            "id" = "WPBWi1uu";
+            "file" = "Saturation.zip";
+            "hash" = "sha512-sW53F7SHNGcTxnV7Om9Eh8M9qq/N6U5jAnIJyS4Bof3e9Tl/raLgexMamyKfnnxW/KHIJVExEanWooXA4RHMOA==";
+        };
+        _JUTIUQry = {
+            "id" = "JUTIUQry";
+            "file" = "Saturation.zip";
+            "hash" = "sha512-N3+Fj9Zs0fuRdIqcVxSwKEjTPVnkQCcLKK6diJrHH2+7xF6wXeKWL+wpk8tP+bTFefsw0xysIKwmCbzD3Onk4A==";
+        };
+        _SWDZtdEX = {
+            "id" = "SWDZtdEX";
+            "file" = "Saturation.zip";
+            "hash" = "sha512-dO7vX1TczYQYJRMThMODLPAOWCf1MxpAaqo9bjiyGt41puanwtm4VTogOvLMFirfLG8zBATMeeZoZKuADd87Iw==";
+        };
     in {
         "MSwTpFDS" = _MSwTpFDS;
         "5sIfMhh2" = _5sIfMhh2;
@@ -68,6 +118,16 @@ let
         "1ROUty0x" = _1ROUty0x;
         "RqfzUeI4" = _RqfzUeI4;
         "YTMlmYi6" = _YTMlmYi6;
+        "mEBydqsW" = _mEBydqsW;
+        "cps1SZdW" = _cps1SZdW;
+        "CNmhOWOC" = _CNmhOWOC;
+        "dw6K2C9k" = _dw6K2C9k;
+        "DgRJ5FoH" = _DgRJ5FoH;
+        "9Cu9ML0H" = _9Cu9ML0H;
+        "DCpWYGIw" = _DCpWYGIw;
+        "WPBWi1uu" = _WPBWi1uu;
+        "JUTIUQry" = _JUTIUQry;
+        "SWDZtdEX" = _SWDZtdEX;
         "minecraft-1.12" = _wXAiPh5x;
         "minecraft-1.12.1" = _wXAiPh5x;
         "minecraft-1.12.2" = _wXAiPh5x;
@@ -121,6 +181,16 @@ let
         "minecraft-26.1.1" = _YTMlmYi6;
         "minecraft-26.1.2" = _YTMlmYi6;
         "minecraft-26.2" = _YTMlmYi6;
+        "minecraft-26.3-snapshot-3" = _mEBydqsW;
+        "minecraft-26.3-snapshot-4" = _cps1SZdW;
+        "minecraft-26.3-snapshot-5" = _CNmhOWOC;
+        "minecraft-26.3-snapshot-6" = _dw6K2C9k;
+        "minecraft-26.3-snapshot-7" = _DgRJ5FoH;
+        "minecraft-26.3-snapshot-8" = _9Cu9ML0H;
+        "minecraft-26.3-snapshot-9" = _DCpWYGIw;
+        "minecraft-26.3-snapshot-10" = _WPBWi1uu;
+        "minecraft-26.3-pre-1" = _JUTIUQry;
+        "minecraft-26.3-pre-2" = _SWDZtdEX;
         "pkg-1.0" = _MSwTpFDS;
         "pkg-1.1" = _5sIfMhh2;
         "pkg-1.2" = _5KARh8Wg;
@@ -132,7 +202,17 @@ let
         "pkg-1.8" = _1ROUty0x;
         "pkg-26.1" = _RqfzUeI4;
         "pkg-26.2" = _YTMlmYi6;
-        "default" = _YTMlmYi6;
+        "pkg-26.3-snapshot-3" = _mEBydqsW;
+        "pkg-26.3-snapshot-4" = _cps1SZdW;
+        "pkg-26.3-snapshot-5" = _CNmhOWOC;
+        "pkg-26.3-snapshot-6" = _dw6K2C9k;
+        "pkg-26.3-snapshot-7" = _DgRJ5FoH;
+        "pkg-26.3-snapshot-8" = _9Cu9ML0H;
+        "pkg-26.3-snapshot-9" = _DCpWYGIw;
+        "pkg-26.3-snapshot-10" = _WPBWi1uu;
+        "pkg-26.3-pre-1" = _JUTIUQry;
+        "pkg-26.3-pre-2" = _SWDZtdEX;
+        "default" = _SWDZtdEX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saturation++";

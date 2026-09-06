@@ -201,6 +201,16 @@ let
             "file" = "SkyCubed-1.9.1-26.2.jar";
             "hash" = "sha512-+iqEecLEhfu6CGso79WwJTN87y8WynNseJya4UcDy3bRQzYZAIvAIw14cP2+zbTx5cZHNYwVtZtrqAbHrlNwxw==";
         };
+        _VzSN0XvS = {
+            "id" = "VzSN0XvS";
+            "file" = "SkyCubed-1.9.2-26.1.jar";
+            "hash" = "sha512-Z5S8ARrdFvINZnLj1stJ2vj127eztXVmetucY1EXPWQesYlpLjeqYDc/uQN99EJ+P9ycBx9mZHUm5De+laArzg==";
+        };
+        _tAXIb1aF = {
+            "id" = "tAXIb1aF";
+            "file" = "SkyCubed-1.9.2-26.2.jar";
+            "hash" = "sha512-iHr8+/kE79T1o0y0I36619Crnoq+zHTMxeCZBVOcD62wkm036EPV6MNX84wif+BmXNYkdFy+6xpNL1zYabfagQ==";
+        };
     in {
         "9yGMJan4" = _9yGMJan4;
         "XP4ju0Kn" = _XP4ju0Kn;
@@ -242,6 +252,8 @@ let
         "EYcNOes4" = _EYcNOes4;
         "zCt0GMWK" = _zCt0GMWK;
         "RDJA5TsS" = _RDJA5TsS;
+        "VzSN0XvS" = _VzSN0XvS;
+        "tAXIb1aF" = _tAXIb1aF;
         "fabric-1.21.3" = _XP4ju0Kn;
         "fabric-1.21.4" = _veTBOyOx;
         "fabric-1.21.5" = _rNVb9qsz;
@@ -251,10 +263,10 @@ let
         "fabric-1.21.9" = _NlailQnE;
         "fabric-1.21.10" = _NlailQnE;
         "fabric-1.21.11" = _HK6ybfV8;
-        "fabric-26.1" = _zCt0GMWK;
-        "fabric-26.1.1" = _zCt0GMWK;
-        "fabric-26.1.2" = _zCt0GMWK;
-        "fabric-26.2" = _RDJA5TsS;
+        "fabric-26.1" = _VzSN0XvS;
+        "fabric-26.1.1" = _VzSN0XvS;
+        "fabric-26.1.2" = _VzSN0XvS;
+        "fabric-26.2" = _tAXIb1aF;
         "pkg-1.0.0" = _9yGMJan4;
         "pkg-1.0.1" = _XP4ju0Kn;
         "pkg-1.1.0" = _DsZsd9PU;
@@ -292,7 +304,8 @@ let
         "pkg-1.8.1-1.21.11" = _YfPxQ4Z3;
         "pkg-1.9.0" = _EYcNOes4;
         "pkg-1.9.1" = _RDJA5TsS;
-        "default" = _RDJA5TsS;
+        "pkg-1.9.2" = _tAXIb1aF;
+        "default" = _tAXIb1aF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skycubed";

@@ -416,6 +416,16 @@ let
             "file" = "saplanting-fabric-26.2-snapshot-7-1.3.1.jar";
             "hash" = "sha512-bIUPyFX5pTSB/vrnpl+nwdZJEG0+kcoM4JT6uiF/WRBVAwcLRR9RgztPclfZkiwIfKk4KYfF1Ryeu4kN4nq8rQ==";
         };
+        _V9Bsq9DT = {
+            "id" = "V9Bsq9DT";
+            "file" = "saplanting-neoforge-26.2-1.3.1.jar";
+            "hash" = "sha512-M+3v3gvGSwCxqjD93k4YtaZ/mjncFh7XWVWV4seTo9jtKe1rUr4jmGZCIqXHjAp4MGL8+/B7Y3c+8aWeW+Tc+g==";
+        };
+        _nLCpZfGp = {
+            "id" = "nLCpZfGp";
+            "file" = "saplanting-fabric-26.2-1.3.1.jar";
+            "hash" = "sha512-PgQAde5p3TvRJ9rJ70/eUUs7OTVs8R85sys+mYv+qHX/UEarzw4QqiHqgYatcKDbWwACUY4H4fBtLwBZHvD1ww==";
+        };
     in {
         "vrFOfES1" = _vrFOfES1;
         "EPlVVJSI" = _EPlVVJSI;
@@ -500,6 +510,8 @@ let
         "K6jmlP9H" = _K6jmlP9H;
         "XMpElAtT" = _XMpElAtT;
         "BY7srzFv" = _BY7srzFv;
+        "V9Bsq9DT" = _V9Bsq9DT;
+        "nLCpZfGp" = _nLCpZfGp;
         "fabric-1.19" = _KU0janWJ;
         "fabric-1.19.2" = _z0xTAKQ2;
         "fabric-1.16.5" = _c59U5iS6;
@@ -527,6 +539,7 @@ let
         "fabric-1.21.11" = _jD0aPmQI;
         "fabric-26.1.2" = _K6jmlP9H;
         "fabric-26.2-snapshot-7" = _BY7srzFv;
+        "fabric-26.2" = _nLCpZfGp;
         "forge-1.16.5" = _7xZcgAWs;
         "forge-1.18.2" = _WqVvR15V;
         "forge-1.12.2" = _aqCYcTNx;
@@ -544,6 +557,7 @@ let
         "neoforge-1.21.10" = _L9VyqqZq;
         "neoforge-1.21.11" = _gODbv0gs;
         "neoforge-26.1.2" = _XMpElAtT;
+        "neoforge-26.2" = _V9Bsq9DT;
         "pkg-r1.1.2+1" = _vrFOfES1;
         "pkg-1.1.3" = _EPlVVJSI;
         "pkg-1.1.3+1" = _Hnfh2jlJ;
@@ -562,8 +576,8 @@ let
         "pkg-1.2.7" = _By0AB6Hr;
         "pkg-1.2.8" = _mTKVtjAO;
         "pkg-1.3.0" = _iohCJz23;
-        "pkg-1.3.1" = _BY7srzFv;
-        "default" = _BY7srzFv;
+        "pkg-1.3.1" = _nLCpZfGp;
+        "default" = _nLCpZfGp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saplanting";

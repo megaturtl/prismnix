@@ -118,6 +118,7 @@ let
         "datapack-26.1" = _7810upTV;
         "datapack-26.1.1" = _7810upTV;
         "datapack-26.1.2" = _7810upTV;
+        "datapack-26.2" = _7810upTV;
         "fabric-1.20" = _HpOkp0sa;
         "fabric-1.20.1" = _HpOkp0sa;
         "fabric-1.20.2" = _HpOkp0sa;
@@ -138,6 +139,7 @@ let
         "fabric-26.1" = _3Nb1JalW;
         "fabric-26.1.1" = _3Nb1JalW;
         "fabric-26.1.2" = _3Nb1JalW;
+        "fabric-26.2" = _3Nb1JalW;
         "forge-1.20" = _HpOkp0sa;
         "forge-1.20.1" = _HpOkp0sa;
         "forge-1.20.2" = _HpOkp0sa;
@@ -158,6 +160,7 @@ let
         "neoforge-26.1" = _3Nb1JalW;
         "neoforge-26.1.1" = _3Nb1JalW;
         "neoforge-26.1.2" = _3Nb1JalW;
+        "neoforge-26.2" = _3Nb1JalW;
         "pkg-1.0.0" = _8fFSnref;
         "pkg-1.0.0+mod" = _mjBgGNgo;
         "pkg-1.0.1" = _BlzuyP1r;

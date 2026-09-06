@@ -1076,6 +1076,26 @@ let
             "file" = "LittleTiles_BETA_v1.6.0-pre222_mc1.21.1.jar";
             "hash" = "sha512-h7dsEzrNXXNq0/DrKDdySkwO5VO232/iW5nYRFscF5rwdXtSRvH/2AI37c/Thc5hP8LjKZZEfe9b+kb9welAoA==";
         };
+        _ujXA11jt = {
+            "id" = "ujXA11jt";
+            "file" = "LittleTiles_BETA_v1.6.0-pre223_mc1.21.1.jar";
+            "hash" = "sha512-zHedQ0KEc54yr7nBq1KVZdrAvUsCFO+BQkZT0xhbooTnxL0VfUiWuklARLuDVloMNNVyP3WVit6QQ8KWblqsIw==";
+        };
+        _20CYkAfR = {
+            "id" = "20CYkAfR";
+            "file" = "LittleTiles_BETA_v1.6.0-pre224_mc1.21.1.jar";
+            "hash" = "sha512-ybn5FrCF66U1rRxmKydxpWrT+an2MeF1k1AHxKxuCaLpRMihcV8VtzvXbtbe0DmhW6ul4t/ZVu1bvcA61rzk9w==";
+        };
+        _SAKkGkSf = {
+            "id" = "SAKkGkSf";
+            "file" = "LittleTiles_BETA_v1.6.0-pre225_mc1.21.1.jar";
+            "hash" = "sha512-QcyJfGg46KqCMrxJfBk00+mr2rJkg12Q9TO5zDjOMBEB/Y2FDdWhkHGGxTCSkRyaA92aKGfK7kR1HG1wbv7XSQ==";
+        };
+        _VTccaod0 = {
+            "id" = "VTccaod0";
+            "file" = "LittleTiles_BETA_v1.6.0-pre226_mc1.21.1.jar";
+            "hash" = "sha512-ViL6LIanScvu7x62A6J75/uTOs/LVjlPHqIQp5ay2LFyVaCwTcBhOxnfHAAPTSaBOxtAVzpnhUM/KsKmugM37g==";
+        };
     in {
         "Q7mkn1Ve" = _Q7mkn1Ve;
         "UK4jzCE1" = _UK4jzCE1;
@@ -1292,13 +1312,17 @@ let
         "XinvzHPv" = _XinvzHPv;
         "sTBiTvB3" = _sTBiTvB3;
         "3PADFFMl" = _3PADFFMl;
+        "ujXA11jt" = _ujXA11jt;
+        "20CYkAfR" = _20CYkAfR;
+        "SAKkGkSf" = _SAKkGkSf;
+        "VTccaod0" = _VTccaod0;
         "forge-1.19.4" = _gqY8Rcr3;
         "forge-1.20" = _Q1z1uCgw;
         "forge-1.20.1" = _sBbUjEhq;
         "forge-1.20.2" = _Wg2btKS3;
         "neoforge-1.20" = _Q1z1uCgw;
         "neoforge-1.20.1" = _sBbUjEhq;
-        "neoforge-1.21.1" = _3PADFFMl;
+        "neoforge-1.21.1" = _VTccaod0;
         "pkg-1.6.0-pre039" = _Q7mkn1Ve;
         "pkg-1.6.0-pre040" = _UK4jzCE1;
         "pkg-1.6.0-pre041" = _gqY8Rcr3;
@@ -1477,7 +1501,11 @@ let
         "pkg-1.6.0-pre220" = _XinvzHPv;
         "pkg-1.6.0-pre221" = _sTBiTvB3;
         "pkg-1.6.0-pre222" = _3PADFFMl;
-        "default" = _3PADFFMl;
+        "pkg-1.6.0-pre223" = _ujXA11jt;
+        "pkg-1.6.0-pre224" = _20CYkAfR;
+        "pkg-1.6.0-pre225" = _SAKkGkSf;
+        "pkg-1.6.0-pre226" = _VTccaod0;
+        "default" = _VTccaod0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "littletiles";

@@ -376,6 +376,26 @@ let
             "file" = "eg_particle_interactions-0.10.1+26.2-neoforge.jar";
             "hash" = "sha512-YzBMXOLngvFkValIRMelZUEBvSVe52S9hA06qCoy0hZVxw/2XTdaVqBo9Mq8nxFxAbq5kq5vf1Ll+dq/QnhjUQ==";
         };
+        _Iz5iGHbj = {
+            "id" = "Iz5iGHbj";
+            "file" = "eg_particle_interactions-0.10.2+26.1.2-fabric.jar";
+            "hash" = "sha512-PWAR+u+byy+DclQDECD2IYYYt5fIAyT6KQEDS0fSbxHcQOTH1JpF4MfMeCoMHHFhOF3yNE3ML4hRIbBS7P1wOw==";
+        };
+        _ZcC4zXfk = {
+            "id" = "ZcC4zXfk";
+            "file" = "eg_particle_interactions-0.10.2+26.1.2-neoforge.jar";
+            "hash" = "sha512-V0c8kWfgABPTlQYy1Fa4WPwFFbDhmNKqmPlUe70EJ5xAfKK9Juip9WZhMCbnFqZM3xyTpM43J+G97UAaAh4tBQ==";
+        };
+        _dxxV3WRa = {
+            "id" = "dxxV3WRa";
+            "file" = "eg_particle_interactions-0.10.2+26.2-fabric.jar";
+            "hash" = "sha512-rUKMgqffL+udJuQ/gNmziaUPMUxK5ZIIfyXEE9FfVEndKD5MAoWh55zt1y2Zr+aSQ191P0Bzs0XKfhwrWGc2Gw==";
+        };
+        _ZcRyDX6w = {
+            "id" = "ZcRyDX6w";
+            "file" = "eg_particle_interactions-0.10.2+26.2-neoforge.jar";
+            "hash" = "sha512-FHEvSDbs/paEdxxsCNIxK/TxpxfjIE9XdppwyuiJgYDY4D8te09Tuz2X/FXOBdbICUlzXdqetO9pj7NC54pcVA==";
+        };
     in {
         "37Dtm30W" = _37Dtm30W;
         "8hQzt6lr" = _8hQzt6lr;
@@ -452,6 +472,10 @@ let
         "uTMjt191" = _uTMjt191;
         "klUU9ITa" = _klUU9ITa;
         "JR03vxnA" = _JR03vxnA;
+        "Iz5iGHbj" = _Iz5iGHbj;
+        "ZcC4zXfk" = _ZcC4zXfk;
+        "dxxV3WRa" = _dxxV3WRa;
+        "ZcRyDX6w" = _ZcRyDX6w;
         "neoforge-1.21" = _Js4y2r4d;
         "neoforge-1.21.1" = _Js4y2r4d;
         "neoforge-1.21.2" = _npB6Lsyx;
@@ -464,8 +488,8 @@ let
         "neoforge-1.21.11" = _idk2CsIf;
         "neoforge-26.1" = _QPuXcRwJ;
         "neoforge-26.1.1" = _QPuXcRwJ;
-        "neoforge-26.1.2" = _uTMjt191;
-        "neoforge-26.2" = _JR03vxnA;
+        "neoforge-26.1.2" = _ZcC4zXfk;
+        "neoforge-26.2" = _ZcRyDX6w;
         "fabric-1.21" = _ACBroOz6;
         "fabric-1.21.1" = _d60OZdqy;
         "fabric-1.21.2" = _pWyYwTwu;
@@ -484,8 +508,8 @@ let
         "fabric-26.1-snapshot-6" = _UZG525lt;
         "fabric-26.1" = _uUlAZ0Od;
         "fabric-26.1.1" = _uUlAZ0Od;
-        "fabric-26.1.2" = _QlP8B8ck;
-        "fabric-26.2" = _klUU9ITa;
+        "fabric-26.1.2" = _Iz5iGHbj;
+        "fabric-26.2" = _dxxV3WRa;
         "quilt-1.21" = _DuNqZkaX;
         "quilt-1.21.1" = _DuNqZkaX;
         "quilt-1.21.2" = _pWyYwTwu;
@@ -538,7 +562,11 @@ let
         "pkg-0.10.1+26.1.2-neoforge" = _uTMjt191;
         "pkg-0.10.1+26.2-fabric" = _klUU9ITa;
         "pkg-0.10.1+26.2-neoforge" = _JR03vxnA;
-        "default" = _JR03vxnA;
+        "pkg-0.10.2+26.1.2-fabric" = _Iz5iGHbj;
+        "pkg-0.10.2+26.1.2-neoforge" = _ZcC4zXfk;
+        "pkg-0.10.2+26.2-fabric" = _dxxV3WRa;
+        "pkg-0.10.2+26.2-neoforge" = _ZcRyDX6w;
+        "default" = _ZcRyDX6w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "particle-interactions";

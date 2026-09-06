@@ -55,6 +55,7 @@ let
         "minecraft-26.1" = _gIZtsQFQ;
         "minecraft-26.1.1" = _gIZtsQFQ;
         "minecraft-26.1.2" = _gIZtsQFQ;
+        "minecraft-26.2" = _gIZtsQFQ;
         "pkg-1.0.0" = _gFErri2L;
         "pkg-1.1.0" = _P0zoJPL0;
         "pkg-2.0.0" = _gIZtsQFQ;

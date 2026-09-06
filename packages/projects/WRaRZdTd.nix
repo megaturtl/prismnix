@@ -941,6 +941,26 @@ let
             "file" = "sawmill-1.21-1.8.0-neoforge.jar";
             "hash" = "sha512-tOUD8akUYoFWGDxjMWJvX4lvBC/0G0x/TG1yPLPHuESpBiwUcALQ/trlecd5Nd/swuNk69uWiNHfNE+lVUkcTA==";
         };
+        _vX4jdWHb = {
+            "id" = "vX4jdWHb";
+            "file" = "sawmill-1.21-1.8.1-neoforge.jar";
+            "hash" = "sha512-hTHXDY15+XWtdy1Cz0h/UWRYTGy2LBBrE2uXxCgC2bAMN6bXDmbjwDXVQyCqboF4uJeupH4Dj1eHNAcKUUUwqw==";
+        };
+        _vpZZ1D50 = {
+            "id" = "vpZZ1D50";
+            "file" = "sawmill-1.21-1.8.1-fabric.jar";
+            "hash" = "sha512-G3KnKgMP4KBLWamSUkpJSG/BIhrKvpxNvhs8FKBZ1JYyzlvIcmAmkftud1HAkWIaOx2brJ0ooBVgH+/GpIrsCA==";
+        };
+        _qL5ftNkd = {
+            "id" = "qL5ftNkd";
+            "file" = "sawmill-26.1.2-1.9.0-neoforge.jar";
+            "hash" = "sha512-0wrzw8B6rRlzRGl70/0j5znIhxpOGkCJhYBUbfRCfAucgzMgGGdB9YLPRkMVk5a/pYit88rT2zKoj2QAB2FIAw==";
+        };
+        _m0bxoUBb = {
+            "id" = "m0bxoUBb";
+            "file" = "sawmill-26.1.2-1.9.0-fabric.jar";
+            "hash" = "sha512-YCOcIFByH4J4OSYFMHq+iV66C9hi347UOUjrqosyxVNOcEgX1jHQfbLPVcH27d8Pc1aLHdCb1Aaj2VWQxIAYcg==";
+        };
     in {
         "uVDJQiJG" = _uVDJQiJG;
         "PH1chClR" = _PH1chClR;
@@ -1130,6 +1150,10 @@ let
         "oxchyq1r" = _oxchyq1r;
         "1Z66lBRN" = _1Z66lBRN;
         "RIxcwgDb" = _RIxcwgDb;
+        "vX4jdWHb" = _vX4jdWHb;
+        "vpZZ1D50" = _vpZZ1D50;
+        "qL5ftNkd" = _qL5ftNkd;
+        "m0bxoUBb" = _m0bxoUBb;
         "forge-1.20" = _uVDJQiJG;
         "forge-1.20.1" = _oxchyq1r;
         "forge-1.19.2" = _ueQ31MJ8;
@@ -1137,10 +1161,12 @@ let
         "fabric-1.20.1" = _mJomg5hc;
         "fabric-1.20.4" = _uyqjP8T5;
         "fabric-1.21" = _fDTKJzdz;
-        "fabric-1.21.1" = _1Z66lBRN;
+        "fabric-1.21.1" = _vpZZ1D50;
+        "fabric-26.1.2" = _m0bxoUBb;
         "neoforge-1.20.4" = _S6Bg0kY7;
         "neoforge-1.21" = _kXvMN51Y;
-        "neoforge-1.21.1" = _RIxcwgDb;
+        "neoforge-1.21.1" = _vX4jdWHb;
+        "neoforge-26.1.2" = _qL5ftNkd;
         "pkg-1.20-1.1.1" = _uVDJQiJG;
         "pkg-1.19-1.1.1" = _AYONQcXb;
         "pkg-1.20-1.1.2" = _5dF75b6J;
@@ -1261,7 +1287,9 @@ let
         "pkg-1.21-1.7.7" = _xpemrBXJ;
         "pkg-1.20-1.4.11" = _oxchyq1r;
         "pkg-1.21-1.8.0" = _RIxcwgDb;
-        "default" = _RIxcwgDb;
+        "pkg-1.21-1.8.1" = _vpZZ1D50;
+        "pkg-26.1.2-1.9.0" = _m0bxoUBb;
+        "default" = _m0bxoUBb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "universal-sawmill";

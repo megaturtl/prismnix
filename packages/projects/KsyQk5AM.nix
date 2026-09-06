@@ -171,6 +171,31 @@ let
             "file" = "immersion_in_traffic_context-1.21.1.4.0.0-3beta-neoforge-1.21.1.jar";
             "hash" = "sha512-fKoy2gS15BvkSSTyMYIKyf+k+6F6OHbwwezC6OFAiOpp0J9LenjF16jvxCZ4Um2WghZaYhx4Cl3d6zRhvNe0aA==";
         };
+        _D1ZHjQqB = {
+            "id" = "D1ZHjQqB";
+            "file" = "immersion_in_traffic_context-1.21.1.4.0.0-4beta-neoforge-1.21.1.jar";
+            "hash" = "sha512-QuAca3Xz/sRlvBXRBvyd7VaFzYN6T3HaKKPF99GbvGuqfKxtQu7zEgFgD5RQpQoxuvv1bYxoGPlXYhH21UCmHw==";
+        };
+        _MxYg91Lw = {
+            "id" = "MxYg91Lw";
+            "file" = "immersion_in_traffic_context-1.21.1.4.0.0-5beta-neoforge-1.21.1.jar";
+            "hash" = "sha512-Zl3V7vtiH735DjnSpf3NuNMvgGcjGBFphVxzeua205G4ulNNG6tZWwMvwY9ZOJcIaaOAiT1FVg9XqyHc07NTMA==";
+        };
+        _CjbT4aRO = {
+            "id" = "CjbT4aRO";
+            "file" = "immersion_in_traffic_context-1.21.1.4.0.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-RXqdwyLyF8UZqZimtWP1plRY/ne9l6pE//VoqUyFaklvaO9RXABobi8Arazb21+S66EPVyX7988KH88tkxlvWg==";
+        };
+        _eUKMHXsQ = {
+            "id" = "eUKMHXsQ";
+            "file" = "immersion_in_traffic_context-1.21.1.4.0.1-1beta-neoforge-1.21.1.jar";
+            "hash" = "sha512-EZZFSCZNRC8kQHPfEIh+AzdEsDe1YcyHll59pRAxVYRhHb6pbpsD7emAiADEcY/R+tCmfDy1BdTwLDvm4uu21Q==";
+        };
+        _eVywvqcg = {
+            "id" = "eVywvqcg";
+            "file" = "immersion_in_traffic_context-1.21.1.4.0.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-a2ku1LQa3FAnxA3XWYA5Q/wgmnvGudxOTuo9jcuoy/C+6ehxIKcQyrxquRa8lbDEqxat+UPIcnlC86mGNswvhA==";
+        };
     in {
         "V3joRayX" = _V3joRayX;
         "QKZPx4Rk" = _QKZPx4Rk;
@@ -206,8 +231,13 @@ let
         "xrt8St9M" = _xrt8St9M;
         "82ZWfTzW" = _82ZWfTzW;
         "eqxIRA8Q" = _eqxIRA8Q;
+        "D1ZHjQqB" = _D1ZHjQqB;
+        "MxYg91Lw" = _MxYg91Lw;
+        "CjbT4aRO" = _CjbT4aRO;
+        "eUKMHXsQ" = _eUKMHXsQ;
+        "eVywvqcg" = _eVywvqcg;
         "forge-1.20.1" = _DvJ1HLKV;
-        "neoforge-1.21.1" = _eqxIRA8Q;
+        "neoforge-1.21.1" = _eVywvqcg;
         "neoforge-1.21.4" = _Zly3AWRa;
         "neoforge-1.21.8" = _CVH7uxuv;
         "pkg-1.6.8" = _V3joRayX;
@@ -243,7 +273,12 @@ let
         "pkg-1.21.1.4.0.0-1beta" = _xrt8St9M;
         "pkg-1.21.1.4.0.0-2beta" = _82ZWfTzW;
         "pkg-1.21.1.4.0.0-3beta" = _eqxIRA8Q;
-        "default" = _eqxIRA8Q;
+        "pkg-1.21.1.4.0.0-4beta" = _D1ZHjQqB;
+        "pkg-1.21.1.4.0.0-5beta" = _MxYg91Lw;
+        "pkg-1.21.1.4.0.0" = _CjbT4aRO;
+        "pkg-1.21.1.4.0.1-1beta" = _eUKMHXsQ;
+        "pkg-1.21.1.4.0.1" = _eVywvqcg;
+        "default" = _eVywvqcg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersion-in-traffic-context";

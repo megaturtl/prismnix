@@ -121,6 +121,11 @@ let
             "file" = "hunger-remover-1.1.12.jar";
             "hash" = "sha512-IgdIHd/SiuLZUZZC3FfXnz1qlanndhLd6DxciTxRi5m4p3YtpRmxJy6Hu4lv+p44H/DmfCAapMRZSo/Pxc+O3g==";
         };
+        _8pgmijJP = {
+            "id" = "8pgmijJP";
+            "file" = "hunger-remover-1.1.13.jar";
+            "hash" = "sha512-lUYWlOBlJXc78YEGqcCmV0DWE4m/Y1gSBxBUMtTLHalC6bc5SnSvI79AkveYVIfB1I9aUEX/gmaG8pvpQoy7yg==";
+        };
     in {
         "gYVHCGQF" = _gYVHCGQF;
         "juqEdiRU" = _juqEdiRU;
@@ -146,6 +151,7 @@ let
         "8EJaCtf0" = _8EJaCtf0;
         "c5sPrbPg" = _c5sPrbPg;
         "AsIQ8RAO" = _AsIQ8RAO;
+        "8pgmijJP" = _8pgmijJP;
         "fabric-1.16.5" = _gYVHCGQF;
         "fabric-1.17" = _juqEdiRU;
         "fabric-1.17.1" = _juqEdiRU;
@@ -170,6 +176,7 @@ let
         "fabric-26.1" = _AsIQ8RAO;
         "fabric-26.1.1" = _AsIQ8RAO;
         "fabric-26.1.2" = _AsIQ8RAO;
+        "fabric-26.2" = _8pgmijJP;
         "pkg-1.0.1" = _gYVHCGQF;
         "pkg-1.0.2" = _juqEdiRU;
         "pkg-1.0.3" = _E5M6X6zd;
@@ -194,7 +201,8 @@ let
         "pkg-1.1.10" = _8EJaCtf0;
         "pkg-1.1.11" = _c5sPrbPg;
         "pkg-1.1.12" = _AsIQ8RAO;
-        "default" = _AsIQ8RAO;
+        "pkg-1.1.13" = _8pgmijJP;
+        "default" = _8pgmijJP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hunger-remover";

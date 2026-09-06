@@ -38,6 +38,7 @@ let
         "minecraft-1.21.9" = _clCCLvBY;
         "minecraft-26.1" = _clCCLvBY;
         "minecraft-26.1.1" = _clCCLvBY;
+        "minecraft-26.2" = _clCCLvBY;
         "pkg-1.0.0" = _a6TjONDB;
         "pkg-1.1.0" = _qFDWV6CM;
         "pkg-2.0" = _h5cweIh5;

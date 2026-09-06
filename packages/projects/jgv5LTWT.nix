@@ -56,6 +56,11 @@ let
             "file" = "Reduced Particles 26.1.zip";
             "hash" = "sha512-8yffTcw49RZMb6dGCHgIe5jaiUyCq138V5sJah1BulHi3Fi3N0rer89A0y37Qa9XPq2ZEGgGVJKtpB0tONQAwA==";
         };
+        _hDtvRMoV = {
+            "id" = "hDtvRMoV";
+            "file" = "Reduced Particles 26.2.zip";
+            "hash" = "sha512-h50tcfeI1JrZD8JT0GyIfueZI6wIqY2olOqVls2ziWovigpzNLZury3ky5jg1qq/Dw9/vWjdeqJZv7RoxN9A+A==";
+        };
     in {
         "qpnSVlNt" = _qpnSVlNt;
         "zsX7vD9K" = _zsX7vD9K;
@@ -68,6 +73,7 @@ let
         "5AZoYQwO" = _5AZoYQwO;
         "6JdflPo8" = _6JdflPo8;
         "c3YbPbFE" = _c3YbPbFE;
+        "hDtvRMoV" = _hDtvRMoV;
         "minecraft-1.19" = _qpnSVlNt;
         "minecraft-1.19.1" = _qpnSVlNt;
         "minecraft-1.19.2" = _qpnSVlNt;
@@ -89,8 +95,10 @@ let
         "minecraft-26.1" = _c3YbPbFE;
         "minecraft-26.1.1" = _c3YbPbFE;
         "minecraft-26.1.2" = _c3YbPbFE;
+        "minecraft-26.2" = _hDtvRMoV;
         "pkg-1.0" = _c3YbPbFE;
-        "default" = _c3YbPbFE;
+        "pkg-26.2" = _hDtvRMoV;
+        "default" = _hDtvRMoV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reduced-particles";

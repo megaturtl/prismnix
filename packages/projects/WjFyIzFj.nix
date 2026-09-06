@@ -1196,6 +1196,26 @@ let
             "file" = "hexParse-neoforge-1.21.1-1.11.2-pre35.jar";
             "hash" = "sha512-QE68g9jeXk6KzWOB8t2frbDFdaidCeGuPasbx5FGOV34xMwgQV1+XvaL29vAwO5mxsHN+5mkFb4IUk1McowXaw==";
         };
+        _aEx7RhRF = {
+            "id" = "aEx7RhRF";
+            "file" = "hexParse-fabric-1.21.1-1.11.2-pre47.jar";
+            "hash" = "sha512-nNxYPbq/iFdNaIueKY41qYEfAjjsIEEE05s/v29OxGx2GOibIAW/uY5HWWC2VBAX/RggPpGqhIWycOQaP/CbwQ==";
+        };
+        _EDXpYlwy = {
+            "id" = "EDXpYlwy";
+            "file" = "hexParse-neoforge-1.21.1-1.11.2-pre47.jar";
+            "hash" = "sha512-r1tvbHyx/4QHoOqPi849eoQ5DjyCKCHsnCKUihBGoduMN67sTEnwQbT7G+hDChKjHKerQjWRbGU8Z/bF2aoc9A==";
+        };
+        _L8E2hfcq = {
+            "id" = "L8E2hfcq";
+            "file" = "hexParse-fabric-1.21.1-1.11.2.pre53.jar";
+            "hash" = "sha512-yLngSSezEC00PBXpRhtDb7SbTIlRUM6ELFbsrNHNgFw56sWZt3H6kX65JylGu7WE1Yn5Q5EkWKT9ZR3DtcNJZA==";
+        };
+        _fFV6HwT2 = {
+            "id" = "fFV6HwT2";
+            "file" = "hexParse-neoforge-1.21.1-1.11.2.pre53.jar";
+            "hash" = "sha512-8mu9njT4sjUegvPeykBcHEXVX3DwyBdpZendrp+ewJwsZiTBB3EHWCFKBEgsWzMq1R7rM+F2H9z5P9QopIOG4g==";
+        };
     in {
         "hoKqHJRv" = _hoKqHJRv;
         "EsNvBE7y" = _EsNvBE7y;
@@ -1436,12 +1456,16 @@ let
         "FMywCiHw" = _FMywCiHw;
         "tSGRwP0V" = _tSGRwP0V;
         "6TlCqDtw" = _6TlCqDtw;
+        "aEx7RhRF" = _aEx7RhRF;
+        "EDXpYlwy" = _EDXpYlwy;
+        "L8E2hfcq" = _L8E2hfcq;
+        "fFV6HwT2" = _fFV6HwT2;
         "forge-1.19.2" = _c9SquSma;
         "forge-1.20.1" = _VzqeEbpv;
         "fabric-1.19.2" = _yTJJxIJg;
         "fabric-1.20.1" = _9BkOgzCN;
-        "fabric-1.21.1" = _tSGRwP0V;
-        "neoforge-1.21.1" = _6TlCqDtw;
+        "fabric-1.21.1" = _L8E2hfcq;
+        "neoforge-1.21.1" = _fFV6HwT2;
         "pkg-1.19.2-0.5" = _EsNvBE7y;
         "pkg-1.20.1-0.5" = _qMESqBTz;
         "pkg-1.19.2-0.5.1" = _2Xpb68RU;
@@ -1558,8 +1582,9 @@ let
         "pkg-1.21.1-1.11.1" = _xevlh6tw;
         "pkg-1.19.2-1.11.2" = _c9SquSma;
         "pkg-1.20.1-1.11.2" = _VzqeEbpv;
-        "pkg-1.21.1-1.11.2" = _6TlCqDtw;
-        "default" = _6TlCqDtw;
+        "pkg-1.21.1-1.11.2" = _EDXpYlwy;
+        "pkg-1.21.1-1.11.2.pre53" = _fFV6HwT2;
+        "default" = _fFV6HwT2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hexparse";

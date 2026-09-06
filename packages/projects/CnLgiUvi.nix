@@ -46,6 +46,11 @@ let
             "file" = "pvpsys 2.1.1.7 1.21.11.jar";
             "hash" = "sha512-nWBLyHYhhe038MC+6s+mxDmQHderI2epDxZtzUdCbQWN4mpabY3D6zt+ZLEKekcvtC9mjxtg3lO9AB3zoGfH/Q==";
         };
+        _rrRqybh2 = {
+            "id" = "rrRqybh2";
+            "file" = "Pvpsys 2.1.1.8.jar";
+            "hash" = "sha512-nWBLyHYhhe038MC+6s+mxDmQHderI2epDxZtzUdCbQWN4mpabY3D6zt+ZLEKekcvtC9mjxtg3lO9AB3zoGfH/Q==";
+        };
     in {
         "o1otPzHv" = _o1otPzHv;
         "85PT6N0B" = _85PT6N0B;
@@ -56,6 +61,7 @@ let
         "JJqYu8yt" = _JJqYu8yt;
         "9xs3Qhxq" = _9xs3Qhxq;
         "haH2QIHL" = _haH2QIHL;
+        "rrRqybh2" = _rrRqybh2;
         "fabric-1.21" = _85PT6N0B;
         "fabric-1.21.3" = _P8UD117s;
         "fabric-1.21.4" = _JiidERJ5;
@@ -64,6 +70,7 @@ let
         "fabric-1.21.9" = _JJqYu8yt;
         "fabric-1.21.10" = _9xs3Qhxq;
         "fabric-1.21.11" = _haH2QIHL;
+        "fabric-26.2" = _rrRqybh2;
         "pkg-v1.0" = _o1otPzHv;
         "pkg-2.0.0" = _85PT6N0B;
         "pkg-2.1.1" = _P8UD117s;
@@ -73,7 +80,8 @@ let
         "pkg-2.1.1.5" = _JJqYu8yt;
         "pkg-2.1.1.6" = _9xs3Qhxq;
         "pkg-2.1.1.7" = _haH2QIHL;
-        "default" = _haH2QIHL;
+        "pkg-2.1.1.8" = _rrRqybh2;
+        "default" = _rrRqybh2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pvpsys";

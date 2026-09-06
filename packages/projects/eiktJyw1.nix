@@ -3401,6 +3401,26 @@ let
             "file" = "everycomp-1.21-2.11.48-neoforge.jar";
             "hash" = "sha512-bg0UMO2iC7/ysdQqV97Xfk3lWCSEhvbAMeFgy5S2shfrLwJZ4aZzv9eVe9zctOl5IfvHUkVof/f0o7iTdA0nsg==";
         };
+        _yF7Luubi = {
+            "id" = "yF7Luubi";
+            "file" = "everycomp-1.21-2.11.49-neoforge.jar";
+            "hash" = "sha512-7uakk57SHRoqZBFcf6wlH/dyaaDikkdkHO8Shbb31UMHKn1qB0fUcaIOoYorFrn867gNA7UefDT0SiN7pt/YvA==";
+        };
+        _yPYNH43a = {
+            "id" = "yPYNH43a";
+            "file" = "everycomp-1.21-2.11.49-fabric.jar";
+            "hash" = "sha512-2AVjxNJMGQeN2536IJzEsClllRpzy9YJeUzIcny3+kf29We778bLduIVgGj7UY1KHXeqvr4SQqtxESZnqe0DgA==";
+        };
+        _4ccdp3Ka = {
+            "id" = "4ccdp3Ka";
+            "file" = "everycomp-1.21-2.11.50-fabric.jar";
+            "hash" = "sha512-EdMpr28CRNWBLeZW7QbuTM9uUTPjI1i7Q6RXpzRwEtQKGb8kl5BhxmMjRNwuTa+eST9A/btMaEqyvDF16NyVlQ==";
+        };
+        _vcMMscKB = {
+            "id" = "vcMMscKB";
+            "file" = "everycomp-1.21-2.11.50-neoforge.jar";
+            "hash" = "sha512-x/2N/hoWT383Uj7mxoo3y6yePEAc25ztJ7I7VG4djxcv0HGhzywhILaE8/wMAvWXgahwMrBg9Xf3YjlxQZFuEA==";
+        };
     in {
         "OT7HbcYr" = _OT7HbcYr;
         "Hu3R6pwa" = _Hu3R6pwa;
@@ -4082,6 +4102,10 @@ let
         "U04ZWBr9" = _U04ZWBr9;
         "MHPKBSFF" = _MHPKBSFF;
         "K7B7ybsQ" = _K7B7ybsQ;
+        "yF7Luubi" = _yF7Luubi;
+        "yPYNH43a" = _yPYNH43a;
+        "4ccdp3Ka" = _4ccdp3Ka;
+        "vcMMscKB" = _vcMMscKB;
         "forge-1.18.2" = _LziH2w1e;
         "forge-1.19" = _q6HXkOS0;
         "forge-1.19.1" = _b1XioTmg;
@@ -4094,10 +4118,10 @@ let
         "fabric-1.19.2" = _PjUdiB5P;
         "fabric-1.20.1" = _wJfnAofM;
         "fabric-1.21" = _WCjsV8JI;
-        "fabric-1.21.1" = _MHPKBSFF;
+        "fabric-1.21.1" = _4ccdp3Ka;
         "fabric-1.20" = _wJfnAofM;
         "neoforge-1.21" = _4MRebU1s;
-        "neoforge-1.21.1" = _K7B7ybsQ;
+        "neoforge-1.21.1" = _vcMMscKB;
         "pkg-0" = _OT7HbcYr;
         "pkg-1" = _Hu3R6pwa;
         "pkg-2" = _NzA1gqFO;
@@ -4605,7 +4629,9 @@ let
         "pkg-1.20-2.9.24-forge" = _XjlFVoB7;
         "pkg-1.21-2.11.47" = _U04ZWBr9;
         "pkg-1.21-2.11.48" = _K7B7ybsQ;
-        "default" = _K7B7ybsQ;
+        "pkg-1.21-2.11.49" = _yPYNH43a;
+        "pkg-1.21-2.11.50" = _vcMMscKB;
+        "default" = _vcMMscKB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "every-compat";

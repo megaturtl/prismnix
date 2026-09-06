@@ -36,6 +36,21 @@ let
             "file" = "create_aeronautics_transmission_linkage-0.2.5.jar";
             "hash" = "sha512-3sWEpNLkNCtgSLKuvQy+0imlgJbm8PIoBp5cx3w4fnSM7vXNxXmgsH/HS0nD8REstWBJycawY0w4JNUqfmouJg==";
         };
+        _i5cG7iGg = {
+            "id" = "i5cG7iGg";
+            "file" = "create_aeronautics_transmission_linkage-0.2.6.jar";
+            "hash" = "sha512-HAQaH+iss3mQR6HiPF+ZhN9Q0CzBkZek7gPfXUnz+SeOlv/yC7cb7mGna4rmm/ype2sLVc18FcufE0TPunpKJA==";
+        };
+        _VtjOWtYD = {
+            "id" = "VtjOWtYD";
+            "file" = "create_aeronautics_transmission_linkage-0.2.7.jar";
+            "hash" = "sha512-QfxcdnwIAtcnRVQTolLdbAuX94ci6lY/iwW7xkFkst22Ti3FCw2J9U2iU9V81nkW7ymn/XRJGYA/qBSBnTJ53A==";
+        };
+        _FCZZ3ED4 = {
+            "id" = "FCZZ3ED4";
+            "file" = "create_aeronautics_transmission_linkage-0.2.8.jar";
+            "hash" = "sha512-r2N/x5NEiSg1TLRT95TOCPoUaUJQo3euZ9Si1A23xKAK3Ln5gDh5R8Jk50xXWTnp9SXvHxRDuEccEL9yxSAApQ==";
+        };
     in {
         "xBv5Swbn" = _xBv5Swbn;
         "qlbCXsTF" = _qlbCXsTF;
@@ -44,7 +59,10 @@ let
         "4m4AqUqT" = _4m4AqUqT;
         "NSxDbPV2" = _NSxDbPV2;
         "LRsqtqYq" = _LRsqtqYq;
-        "neoforge-1.21.1" = _LRsqtqYq;
+        "i5cG7iGg" = _i5cG7iGg;
+        "VtjOWtYD" = _VtjOWtYD;
+        "FCZZ3ED4" = _FCZZ3ED4;
+        "neoforge-1.21.1" = _FCZZ3ED4;
         "pkg-0.1.0" = _xBv5Swbn;
         "pkg-0.2.0" = _qlbCXsTF;
         "pkg-0.2.1" = _bqNioSRV;
@@ -52,7 +70,10 @@ let
         "pkg-0.2.3" = _4m4AqUqT;
         "pkg-0.2.4" = _NSxDbPV2;
         "pkg-0.2.5" = _LRsqtqYq;
-        "default" = _LRsqtqYq;
+        "pkg-0.2.6" = _i5cG7iGg;
+        "pkg-0.2.7" = _VtjOWtYD;
+        "pkg-0.2.8" = _FCZZ3ED4;
+        "default" = _FCZZ3ED4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-aeronautics-transmission-linkage";

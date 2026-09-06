@@ -71,6 +71,16 @@ let
             "file" = "HumanEraVillagersIllagers[3.91.5].zip";
             "hash" = "sha512-T2vKLyB6rTavRA1Kr5ehZPSwrlcrp6gcXxNhZQTjo7/bdt4cbz637NJZrXJdYVXVwazsDRV4A7tXDy5BjNgYrw==";
         };
+        _qXc3QFdD = {
+            "id" = "qXc3QFdD";
+            "file" = "HumanVillagerOnly[3.91.6].zip";
+            "hash" = "sha512-vZ4egJfVOZ/xcSaxfPohiMQ4Ld1MJKR7o5YE31j+ApjrqnC4C4SsD+iqPxM4eGOMFrFxehhc09tb071R7Upbgg==";
+        };
+        _V8BbkFtF = {
+            "id" = "V8BbkFtF";
+            "file" = "HumanEraVillagersIllagers[3.91.6].zip";
+            "hash" = "sha512-WfCDr8/fMmz9H71TbbKb3p7MTj59rh2FdLqt8qwy5WmFSxu6JYdotH+ci97EDId3ax18eko0nP8Fnsb+IXNL4Q==";
+        };
     in {
         "MBBoEVqw" = _MBBoEVqw;
         "UH95DAiy" = _UH95DAiy;
@@ -86,16 +96,18 @@ let
         "HwWVrkrx" = _HwWVrkrx;
         "dBGiwRhR" = _dBGiwRhR;
         "UIdTFACz" = _UIdTFACz;
-        "minecraft-1.8.9" = _hUzf8u6q;
-        "minecraft-1.12.2" = _hUzf8u6q;
-        "minecraft-1.14.4" = _dTS1gIfJ;
-        "minecraft-1.16.5" = _dTS1gIfJ;
+        "qXc3QFdD" = _qXc3QFdD;
+        "V8BbkFtF" = _V8BbkFtF;
+        "minecraft-1.8.9" = _V8BbkFtF;
+        "minecraft-1.12.2" = _V8BbkFtF;
+        "minecraft-1.14.4" = _V8BbkFtF;
+        "minecraft-1.16.5" = _V8BbkFtF;
         "minecraft-1.19" = _UIdTFACz;
         "minecraft-1.19.2" = _UIdTFACz;
         "minecraft-1.19.3" = _UIdTFACz;
-        "minecraft-1.19.4" = _UIdTFACz;
+        "minecraft-1.19.4" = _V8BbkFtF;
         "minecraft-1.20" = _UIdTFACz;
-        "minecraft-1.20.1" = _UIdTFACz;
+        "minecraft-1.20.1" = _V8BbkFtF;
         "minecraft-1.20.2" = _UIdTFACz;
         "minecraft-1.20.3" = _UIdTFACz;
         "minecraft-1.20.4" = _UIdTFACz;
@@ -132,7 +144,7 @@ let
         "minecraft-1.17.1" = _dTS1gIfJ;
         "minecraft-1.18" = _dTS1gIfJ;
         "minecraft-1.18.1" = _dTS1gIfJ;
-        "minecraft-1.18.2" = _dTS1gIfJ;
+        "minecraft-1.18.2" = _V8BbkFtF;
         "minecraft-22w42a" = _dTS1gIfJ;
         "minecraft-22w43a" = _dTS1gIfJ;
         "minecraft-22w44a" = _dTS1gIfJ;
@@ -183,11 +195,11 @@ let
         "minecraft-24w44a" = _UIdTFACz;
         "minecraft-24w45a" = _UIdTFACz;
         "minecraft-24w46a" = _UIdTFACz;
-        "minecraft-1.21.11" = _UIdTFACz;
+        "minecraft-1.21.11" = _V8BbkFtF;
         "minecraft-26.1" = _UIdTFACz;
         "minecraft-26.1.1" = _UIdTFACz;
-        "minecraft-26.1.2" = _UIdTFACz;
-        "minecraft-26.2" = _UIdTFACz;
+        "minecraft-26.1.2" = _V8BbkFtF;
+        "minecraft-26.2" = _V8BbkFtF;
         "pkg-hvo_3.8_villager_only" = _MBBoEVqw;
         "pkg-hevi_3.8_full_content" = _UH95DAiy;
         "pkg-hvo_3.9_villager_only" = _Y3YM4DOU;
@@ -202,7 +214,9 @@ let
         "pkg-hevi_3.91.4_full_content" = _HwWVrkrx;
         "pkg-hvo_3.91.5_villager_only" = _dBGiwRhR;
         "pkg-hevi_3.91.5_full_content" = _UIdTFACz;
-        "default" = _UIdTFACz;
+        "pkg-hvo_3.91.6_villager_only" = _qXc3QFdD;
+        "pkg-hevi_3.91.6_full_content" = _V8BbkFtF;
+        "default" = _V8BbkFtF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "human-era-villagers-illagers";

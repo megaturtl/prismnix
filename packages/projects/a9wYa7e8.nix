@@ -16,15 +16,22 @@ let
             "file" = "dragon_wars_variants-1.6.1.jar";
             "hash" = "sha512-YKeryhzi49aaDTWsOYEcBzB+h34pSeaviBrwauH1idJe0faVuwZqaaYDacsxMQPjW3bEAtNbqD/3tjG+pOyamw==";
         };
+        _QQXhSOzA = {
+            "id" = "QQXhSOzA";
+            "file" = "dragon_wars_variants-1.7.0.jar";
+            "hash" = "sha512-5eL4YXm3Hogqj5Ed/JDZT41vfjrwTfJG37hkBOQGfCWClplZ0C6mzWAsLFb0g3MjAd5a/auVFSppZ4RIpKi2xw==";
+        };
     in {
         "kATxl6U8" = _kATxl6U8;
         "aVWSZv6B" = _aVWSZv6B;
         "5J91yHuD" = _5J91yHuD;
-        "forge-1.18.2" = _5J91yHuD;
+        "QQXhSOzA" = _QQXhSOzA;
+        "forge-1.18.2" = _QQXhSOzA;
         "pkg-1.5.0" = _kATxl6U8;
         "pkg-1.6.0" = _aVWSZv6B;
         "pkg-1.6.1" = _5J91yHuD;
-        "default" = _5J91yHuD;
+        "pkg-1.7.0" = _QQXhSOzA;
+        "default" = _QQXhSOzA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dragon-wars-variants";

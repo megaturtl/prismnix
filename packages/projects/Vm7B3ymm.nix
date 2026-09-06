@@ -571,6 +571,11 @@ let
             "file" = "Typewriter-0.9.0-beta-175.jar";
             "hash" = "sha512-EQE6v8P/k/v+JRya5Tgnp1sWoPHNjBP2a2oeg6VF6hhzMArcR+shl7gxqUGYSewnyuC7BkwqjAQVq3VppoYt2A==";
         };
+        _ZF6vepAJ = {
+            "id" = "ZF6vepAJ";
+            "file" = "Typewriter-0.9.0-beta-176.jar";
+            "hash" = "sha512-FjsFZW0EMSHHLKljXQOIciK8E+fX215BmQA3LwYz0NPhrbwgX9YnwCaJlj+LZVQZg6hjOEzRAjD4aYgsUebMTQ==";
+        };
     in {
         "Y9GswrbV" = _Y9GswrbV;
         "Y41XuYtw" = _Y41XuYtw;
@@ -686,6 +691,7 @@ let
         "CPpAUbgE" = _CPpAUbgE;
         "9dultV1M" = _9dultV1M;
         "NWX8MGts" = _NWX8MGts;
+        "ZF6vepAJ" = _ZF6vepAJ;
         "paper-1.19" = _Y9GswrbV;
         "paper-1.19.1" = _Y9GswrbV;
         "paper-1.19.2" = _E4jh5WfT;
@@ -700,19 +706,19 @@ let
         "paper-1.20.6" = _kcjmcgTa;
         "paper-1.21" = _oQQmPI0c;
         "paper-1.21.1" = _oQQmPI0c;
-        "paper-1.21.3" = _NWX8MGts;
-        "paper-1.21.4" = _NWX8MGts;
-        "paper-1.21.5" = _NWX8MGts;
-        "paper-1.21.6" = _NWX8MGts;
-        "paper-1.21.7" = _NWX8MGts;
-        "paper-1.21.8" = _NWX8MGts;
-        "paper-1.21.9" = _NWX8MGts;
-        "paper-1.21.10" = _NWX8MGts;
-        "paper-1.21.11" = _NWX8MGts;
-        "paper-26.1" = _NWX8MGts;
-        "paper-26.1.1" = _NWX8MGts;
-        "paper-26.1.2" = _NWX8MGts;
-        "paper-26.2" = _NWX8MGts;
+        "paper-1.21.3" = _ZF6vepAJ;
+        "paper-1.21.4" = _ZF6vepAJ;
+        "paper-1.21.5" = _ZF6vepAJ;
+        "paper-1.21.6" = _ZF6vepAJ;
+        "paper-1.21.7" = _ZF6vepAJ;
+        "paper-1.21.8" = _ZF6vepAJ;
+        "paper-1.21.9" = _ZF6vepAJ;
+        "paper-1.21.10" = _ZF6vepAJ;
+        "paper-1.21.11" = _ZF6vepAJ;
+        "paper-26.1" = _ZF6vepAJ;
+        "paper-26.1.1" = _ZF6vepAJ;
+        "paper-26.1.2" = _ZF6vepAJ;
+        "paper-26.2" = _ZF6vepAJ;
         "purpur-1.19.2" = _E4jh5WfT;
         "purpur-1.19.3" = _E4jh5WfT;
         "purpur-1.19.4" = _zYrhZVZ8;
@@ -837,7 +843,8 @@ let
         "pkg-0.9.0-beta-173" = _CPpAUbgE;
         "pkg-0.9.0-beta-174" = _9dultV1M;
         "pkg-0.9.0-beta-175" = _NWX8MGts;
-        "default" = _NWX8MGts;
+        "pkg-0.9.0-beta-176" = _ZF6vepAJ;
+        "default" = _ZF6vepAJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "typewriter";

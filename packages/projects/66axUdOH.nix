@@ -56,6 +56,16 @@ let
             "file" = "Tinkers_Useful_Items-1.20.1-1.2.1.jar";
             "hash" = "sha512-JbOgkcrO5hJrl1eGLLvbGHWtjaGCmeJXrzVLfU7QSovyrNMXb/a9KAyxDVHEEJsW6w8Q8A6nrUVbmkpCJHACiQ==";
         };
+        _XndLrCv2 = {
+            "id" = "XndLrCv2";
+            "file" = "Tinkers_Useful_Items-1.20.1-1.3.0.jar";
+            "hash" = "sha512-IoKBwu8iWtXbzlt7NSOgWNQw/3lZUZmSR4Vn1r/uSlTJu60CaEChhv8G/wL7ZlA/l0to3u7ipm4DLfuKRU6gyQ==";
+        };
+        _M3d0Sabn = {
+            "id" = "M3d0Sabn";
+            "file" = "Tinkers_Useful_Items-1.20.1-1.3.0b.jar";
+            "hash" = "sha512-+KhHrZ0qPnqssQYkVnIeUUy3gwbehPAkQFSC8J3yPVaWjz636QvcW4E4c3+VyRM4OExPdYVKyY6OvNn2dh2aUw==";
+        };
     in {
         "GXLtpO62" = _GXLtpO62;
         "3pH7jLU8" = _3pH7jLU8;
@@ -68,7 +78,9 @@ let
         "MrB7v2fS" = _MrB7v2fS;
         "2HS2Am1U" = _2HS2Am1U;
         "l4LSHjdE" = _l4LSHjdE;
-        "forge-1.20.1" = _l4LSHjdE;
+        "XndLrCv2" = _XndLrCv2;
+        "M3d0Sabn" = _M3d0Sabn;
+        "forge-1.20.1" = _M3d0Sabn;
         "pkg-1.0.0" = _GXLtpO62;
         "pkg-1.0.0b" = _3pH7jLU8;
         "pkg-1.0.1" = _a2gIdiY9;
@@ -80,7 +92,9 @@ let
         "pkg-1.1.1" = _MrB7v2fS;
         "pkg-1.2.0" = _2HS2Am1U;
         "pkg-1.2.1" = _l4LSHjdE;
-        "default" = _l4LSHjdE;
+        "pkg-1.3.0" = _XndLrCv2;
+        "pkg-1.3.0b" = _M3d0Sabn;
+        "default" = _M3d0Sabn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tinkers_useful_items";

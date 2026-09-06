@@ -1,0 +1,117 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _mRzY0A0y = {
+            "id" = "mRzY0A0y";
+            "file" = "SimpleHats-1.0-SNAPSHOT.jar";
+            "hash" = "sha512-K/Q5f0RwWMqhE2E77la6aFYimdbbKudjsG081nbKbdxWSy2Vmg2yIGCjgyWayL6DAmRzyY6vWsTv42s6W46pIQ==";
+        };
+        _HPkWodyd = {
+            "id" = "HPkWodyd";
+            "file" = "SimpleHats-1.1-SNAPSHOT.jar";
+            "hash" = "sha512-VnXaEo6waquaZ6b+MHrzYtHMrNW6bKtXkix1RInMQapzfCUt8jnfrHkpeXPf9izk0HgW3CKVpl+W9y+a/w3Xsw==";
+        };
+    in {
+        "mRzY0A0y" = _mRzY0A0y;
+        "HPkWodyd" = _HPkWodyd;
+        "paper-1.21" = _HPkWodyd;
+        "paper-1.21.1" = _HPkWodyd;
+        "paper-1.21.2" = _HPkWodyd;
+        "paper-1.21.3" = _HPkWodyd;
+        "paper-1.21.4" = _HPkWodyd;
+        "paper-1.21.5" = _HPkWodyd;
+        "paper-1.21.6" = _HPkWodyd;
+        "paper-1.21.7" = _HPkWodyd;
+        "paper-1.21.8" = _HPkWodyd;
+        "paper-1.21.9" = _HPkWodyd;
+        "paper-1.21.10" = _HPkWodyd;
+        "paper-1.21.11" = _HPkWodyd;
+        "paper-26.1" = _HPkWodyd;
+        "paper-26.1.1" = _HPkWodyd;
+        "paper-26.1.2" = _HPkWodyd;
+        "paper-26.2" = _HPkWodyd;
+        "bukkit-1.21" = _HPkWodyd;
+        "bukkit-1.21.1" = _HPkWodyd;
+        "bukkit-1.21.2" = _HPkWodyd;
+        "bukkit-1.21.3" = _HPkWodyd;
+        "bukkit-1.21.4" = _HPkWodyd;
+        "bukkit-1.21.5" = _HPkWodyd;
+        "bukkit-1.21.6" = _HPkWodyd;
+        "bukkit-1.21.7" = _HPkWodyd;
+        "bukkit-1.21.8" = _HPkWodyd;
+        "bukkit-1.21.9" = _HPkWodyd;
+        "bukkit-1.21.10" = _HPkWodyd;
+        "bukkit-1.21.11" = _HPkWodyd;
+        "bukkit-26.1" = _HPkWodyd;
+        "bukkit-26.1.1" = _HPkWodyd;
+        "bukkit-26.1.2" = _HPkWodyd;
+        "bukkit-26.2" = _HPkWodyd;
+        "folia-1.21" = _HPkWodyd;
+        "folia-1.21.1" = _HPkWodyd;
+        "folia-1.21.2" = _HPkWodyd;
+        "folia-1.21.3" = _HPkWodyd;
+        "folia-1.21.4" = _HPkWodyd;
+        "folia-1.21.5" = _HPkWodyd;
+        "folia-1.21.6" = _HPkWodyd;
+        "folia-1.21.7" = _HPkWodyd;
+        "folia-1.21.8" = _HPkWodyd;
+        "folia-1.21.9" = _HPkWodyd;
+        "folia-1.21.10" = _HPkWodyd;
+        "folia-1.21.11" = _HPkWodyd;
+        "folia-26.1" = _HPkWodyd;
+        "folia-26.1.1" = _HPkWodyd;
+        "folia-26.1.2" = _HPkWodyd;
+        "folia-26.2" = _HPkWodyd;
+        "purpur-1.21" = _HPkWodyd;
+        "purpur-1.21.1" = _HPkWodyd;
+        "purpur-1.21.2" = _HPkWodyd;
+        "purpur-1.21.3" = _HPkWodyd;
+        "purpur-1.21.4" = _HPkWodyd;
+        "purpur-1.21.5" = _HPkWodyd;
+        "purpur-1.21.6" = _HPkWodyd;
+        "purpur-1.21.7" = _HPkWodyd;
+        "purpur-1.21.8" = _HPkWodyd;
+        "purpur-1.21.9" = _HPkWodyd;
+        "purpur-1.21.10" = _HPkWodyd;
+        "purpur-1.21.11" = _HPkWodyd;
+        "purpur-26.1" = _HPkWodyd;
+        "purpur-26.1.1" = _HPkWodyd;
+        "purpur-26.1.2" = _HPkWodyd;
+        "purpur-26.2" = _HPkWodyd;
+        "spigot-1.21" = _HPkWodyd;
+        "spigot-1.21.1" = _HPkWodyd;
+        "spigot-1.21.2" = _HPkWodyd;
+        "spigot-1.21.3" = _HPkWodyd;
+        "spigot-1.21.4" = _HPkWodyd;
+        "spigot-1.21.5" = _HPkWodyd;
+        "spigot-1.21.6" = _HPkWodyd;
+        "spigot-1.21.7" = _HPkWodyd;
+        "spigot-1.21.8" = _HPkWodyd;
+        "spigot-1.21.9" = _HPkWodyd;
+        "spigot-1.21.10" = _HPkWodyd;
+        "spigot-1.21.11" = _HPkWodyd;
+        "spigot-26.1" = _HPkWodyd;
+        "spigot-26.1.1" = _HPkWodyd;
+        "spigot-26.1.2" = _HPkWodyd;
+        "spigot-26.2" = _HPkWodyd;
+        "pkg-1.0-SNAPSHOT" = _mRzY0A0y;
+        "pkg-1.1" = _HPkWodyd;
+        "default" = _HPkWodyd;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "simplehats";
+        id = "lAfi8eGx";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

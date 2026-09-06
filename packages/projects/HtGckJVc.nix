@@ -461,11 +461,6 @@ let
             "file" = "stack-to-nearby-chests-mc1.21.11-0.5.17.jar";
             "hash" = "sha512-SJ6sAuxmNWR7SxEo+y0R/r+ENknFmPtTM6MhdiCHIxCc7WGY9tHrTk7z/ICIANpeV/A97s6yR0L/0lsypsajiQ==";
         };
-        _FSHxit8Y = {
-            "id" = "FSHxit8Y";
-            "file" = "stack-to-nearby-chests-mc26.2-0.5.18.jar";
-            "hash" = "sha512-vYnf+wipskI29Mr0kQwXsARrGeTBuhzVZZSQIfwnpc/eKnZVIFYfdwXtgngtbV6wSbNYRMzvALQ8XPSAKPsMgA==";
-        };
     in {
         "1JoI68Un" = _1JoI68Un;
         "RMtqWBPG" = _RMtqWBPG;
@@ -559,7 +554,6 @@ let
         "zdq2yHRh" = _zdq2yHRh;
         "J5gCjuWw" = _J5gCjuWw;
         "Q5cL3tf5" = _Q5cL3tf5;
-        "FSHxit8Y" = _FSHxit8Y;
         "fabric-1.19" = _TAwG0GnF;
         "fabric-1.19.1" = _TAwG0GnF;
         "fabric-1.19.2" = _TAwG0GnF;
@@ -587,7 +581,6 @@ let
         "fabric-26.1" = _zdq2yHRh;
         "fabric-26.1.1" = _zdq2yHRh;
         "fabric-26.1.2" = _zdq2yHRh;
-        "fabric-26.2" = _FSHxit8Y;
         "pkg-0.1.1" = _1JoI68Un;
         "pkg-0.1.2" = _RMtqWBPG;
         "pkg-0.1.3" = _LPtaslBa;
@@ -622,8 +615,7 @@ let
         "pkg-0.5.15" = _dcphzFbB;
         "pkg-0.5.16" = _zdq2yHRh;
         "pkg-0.5.17" = _Q5cL3tf5;
-        "pkg-0.5.18" = _FSHxit8Y;
-        "default" = _FSHxit8Y;
+        "default" = _Q5cL3tf5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stack-to-nearby-chests";

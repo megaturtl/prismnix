@@ -101,6 +101,26 @@ let
             "file" = "villagerpickup-neoforge-1.21.11-1.3.1.jar";
             "hash" = "sha512-LJZ27Suw0SYhmo7/gOsMDtSLdLnXQjy9jr9P0WCDGC+kRhysmJEfGnuApVne6epAUFSnaOvEn+8Cyi1y+p/MLw==";
         };
+        _tnjJLqRL = {
+            "id" = "tnjJLqRL";
+            "file" = "villagerpickup-fabric-26.1-1.4.jar";
+            "hash" = "sha512-S+dErTnRoxik6yAetAEPOjQVtfWnxH3G3vp8XP+jVDzrFgxhCiY62yNBk60WG14PbXpqI1ZIf43uWLemCoBtGg==";
+        };
+        _Z54HnFKr = {
+            "id" = "Z54HnFKr";
+            "file" = "villagerpickup-neoforge-26.1-1.4.jar";
+            "hash" = "sha512-lqqZ3pJcwAs3UUFUjPLrgiZe/5D6w8seuz2aq9IIHxVQ2l+WyVFljyyItmtxMFPk+cyz6zFubPV49uiX1oIDyg==";
+        };
+        _ASA0P3XJ = {
+            "id" = "ASA0P3XJ";
+            "file" = "villagerpickup-fabric-26.2-1.4.jar";
+            "hash" = "sha512-X4TjqGn/m2ccNuw3Xc07dO5RpXnGbfCxPjYNz4bzUGLPI6ZR552suAcPO2WA9l4Owcnk1V1DeQXTEZOJS96ZFw==";
+        };
+        _YXTPpvJy = {
+            "id" = "YXTPpvJy";
+            "file" = "villagerpickup-neoforge-26.2-1.4.jar";
+            "hash" = "sha512-QvK8NwTq/7RfdZtUJbXof7aGPiL92vBQvq2a5PA97i4SitzIKNkwCDPyuL4WQeUX8Dqgoft9aXSnT2NAXDg0Nw==";
+        };
     in {
         "nhRyr3Tx" = _nhRyr3Tx;
         "NKc7MlRL" = _NKc7MlRL;
@@ -122,6 +142,10 @@ let
         "8MoHnjGE" = _8MoHnjGE;
         "pfNy8wOj" = _pfNy8wOj;
         "CyCiFYru" = _CyCiFYru;
+        "tnjJLqRL" = _tnjJLqRL;
+        "Z54HnFKr" = _Z54HnFKr;
+        "ASA0P3XJ" = _ASA0P3XJ;
+        "YXTPpvJy" = _YXTPpvJy;
         "fabric-1.19" = _E1u8fsek;
         "fabric-1.19.1" = _E1u8fsek;
         "fabric-1.19.2" = _E1u8fsek;
@@ -138,6 +162,10 @@ let
         "fabric-1.21.5" = _GzB1SZyZ;
         "fabric-1.21.10" = _m996uv0a;
         "fabric-1.21.11" = _pfNy8wOj;
+        "fabric-26.1" = _tnjJLqRL;
+        "fabric-26.1.1" = _tnjJLqRL;
+        "fabric-26.1.2" = _tnjJLqRL;
+        "fabric-26.2" = _ASA0P3XJ;
         "quilt-1.19" = _E1u8fsek;
         "quilt-1.19.1" = _E1u8fsek;
         "quilt-1.19.2" = _E1u8fsek;
@@ -154,8 +182,16 @@ let
         "quilt-1.21.5" = _GzB1SZyZ;
         "quilt-1.21.10" = _m996uv0a;
         "quilt-1.21.11" = _pfNy8wOj;
+        "quilt-26.1" = _tnjJLqRL;
+        "quilt-26.1.1" = _tnjJLqRL;
+        "quilt-26.1.2" = _tnjJLqRL;
+        "quilt-26.2" = _ASA0P3XJ;
         "neoforge-1.21.10" = _oI87ixjk;
         "neoforge-1.21.11" = _CyCiFYru;
+        "neoforge-26.1" = _Z54HnFKr;
+        "neoforge-26.1.1" = _Z54HnFKr;
+        "neoforge-26.1.2" = _Z54HnFKr;
+        "neoforge-26.2" = _YXTPpvJy;
         "pkg-1.0.0" = _NKc7MlRL;
         "pkg-1.1.0" = _6ssmYiH7;
         "pkg-1.1.2" = _Qwxzbp3Y;
@@ -167,7 +203,8 @@ let
         "pkg-1.2-1.21.10" = _oI87ixjk;
         "pkg-1.3" = _8MoHnjGE;
         "pkg-1.3.1" = _CyCiFYru;
-        "default" = _CyCiFYru;
+        "pkg-1.4" = _YXTPpvJy;
+        "default" = _YXTPpvJy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villager-pickup";
@@ -181,7 +218,7 @@ let
                 redistributable = false;
                 fullName = "Creative Commons Zero v1.0 Universal";
                 shortName = "CC0-1.0";
-                url = null;
+                url = "https://github.com/GunnableScum/Villager-Pickup-Mod/blob/main/LICENSE";
             };
         };
     };

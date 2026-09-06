@@ -51,6 +51,16 @@ let
             "file" = "Trinkets and Baubles-Forge-1.12.2-0.33.2.jar";
             "hash" = "sha512-hhy6KYl6EyT0CCnfBo3D/kgHrhpXOYOB4zgh7VBA+sLDoW9hi20N3fSqH91ipcvPNtiKJKwdBnlzGUmuKHGPGw==";
         };
+        _d3VThHVU = {
+            "id" = "d3VThHVU";
+            "file" = "Trinkets and Baubles-Forge-1.12.2-0.33.3.jar";
+            "hash" = "sha512-56OpWeGVWBI9zO2Pj97lA9GQceaN3SijcUmKevTWUxMufEStZnAF2644+84noOxRxtMoni/e3G9k0bHFD8n4Og==";
+        };
+        _F9VYOdIl = {
+            "id" = "F9VYOdIl";
+            "file" = "Trinkets and Baubles-Forge-1.12.2-0.33.4.jar";
+            "hash" = "sha512-/ew3LFVUSTsXnzp+z8/39zzvCXxjZQnOkrW1cOwJTvBaC4BKbi7IajJGF3QI5J+4Nj1s/a3DFqISh06MsKnEqw==";
+        };
     in {
         "rbfcTNWK" = _rbfcTNWK;
         "rcb7v6Rp" = _rcb7v6Rp;
@@ -62,7 +72,9 @@ let
         "AGssTVv4" = _AGssTVv4;
         "3shBoUcI" = _3shBoUcI;
         "VQAqygHQ" = _VQAqygHQ;
-        "forge-1.12.2" = _VQAqygHQ;
+        "d3VThHVU" = _d3VThHVU;
+        "F9VYOdIl" = _F9VYOdIl;
+        "forge-1.12.2" = _F9VYOdIl;
         "pkg-0.31.4" = _rbfcTNWK;
         "pkg-0.32" = _rcb7v6Rp;
         "pkg-0.32.1" = _RnmBOS9Y;
@@ -73,7 +85,9 @@ let
         "pkg-0.33" = _AGssTVv4;
         "pkg-0.33.1" = _3shBoUcI;
         "pkg-0.33.2" = _VQAqygHQ;
-        "default" = _VQAqygHQ;
+        "pkg-0.33.3" = _d3VThHVU;
+        "pkg-0.33.4" = _F9VYOdIl;
+        "default" = _F9VYOdIl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trinkets-and-baubles";

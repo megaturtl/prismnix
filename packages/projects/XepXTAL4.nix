@@ -161,6 +161,11 @@ let
             "file" = "iobvariantloader-2.6.4-all.jar";
             "hash" = "sha512-6IITozAiri0DPGqTY5Ow7rrM63c+HEpUV564I2C7xtJtJ5hfS2WZ5rktyke1n8t2vuucQn/gzKK3gwTA3DF+hg==";
         };
+        _ziMv9NEf = {
+            "id" = "ziMv9NEf";
+            "file" = "iobvariantloader-2.7.0-all.jar";
+            "hash" = "sha512-TDJVeal2VY4wjyUncVMeXqX6YBA+YJzKp1RfzyhjpqxHsdQyOv09BXp1F4bT3aoZe2ubujNmnhWwip/dTlOElw==";
+        };
     in {
         "DWAvTxVw" = _DWAvTxVw;
         "WG1rC62f" = _WG1rC62f;
@@ -194,7 +199,8 @@ let
         "lE3o6Dgz" = _lE3o6Dgz;
         "XVhCV2l6" = _XVhCV2l6;
         "VGQVG1cV" = _VGQVG1cV;
-        "forge-1.18.2" = _VGQVG1cV;
+        "ziMv9NEf" = _ziMv9NEf;
+        "forge-1.18.2" = _ziMv9NEf;
         "pkg-1.0.0" = _DWAvTxVw;
         "pkg-1.1.0" = _WG1rC62f;
         "pkg-1.1.1" = _naluYolZ;
@@ -227,7 +233,8 @@ let
         "pkg-2.6.2" = _lE3o6Dgz;
         "pkg-2.6.3" = _XVhCV2l6;
         "pkg-2.6.4" = _VGQVG1cV;
-        "default" = _VGQVG1cV;
+        "pkg-2.7.0" = _ziMv9NEf;
+        "default" = _ziMv9NEf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "isle-of-berk-variant-loader";

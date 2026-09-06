@@ -156,6 +156,11 @@ let
             "file" = "astral_arsenal-4.0.0.HOTFIX.jar";
             "hash" = "sha512-ZAeKz43SelWX9i+B48zVRl5whswCYDffT/E1vLtIlctQvFLIgC344HpiBV/JBIeraN/hv5HHYbGDRrvxqWkDaw==";
         };
+        _PBAMkQnM = {
+            "id" = "PBAMkQnM";
+            "file" = "astral_arsenal-5.0.0.jar";
+            "hash" = "sha512-uVLwIWcuD1j01a0z26OWO/xrz3b34HhdlGj/+SJGtOBj8mC9ye6zTTm9W31WzPBAcoFkPPDc3UrmlmpLMC1pWw==";
+        };
     in {
         "F0VdCdhB" = _F0VdCdhB;
         "o263mHl4" = _o263mHl4;
@@ -188,8 +193,9 @@ let
         "eKNNLt2F" = _eKNNLt2F;
         "9dS2J1Bw" = _9dS2J1Bw;
         "1PjcDQqX" = _1PjcDQqX;
+        "PBAMkQnM" = _PBAMkQnM;
         "fabric-1.21" = _Jw1t1fOh;
-        "fabric-1.21.1" = _1PjcDQqX;
+        "fabric-1.21.1" = _PBAMkQnM;
         "pkg-1.1.0" = _F0VdCdhB;
         "pkg-1.1.1" = _o263mHl4;
         "pkg-1.2.0" = _XDkuZESG;
@@ -221,7 +227,8 @@ let
         "pkg-3.1.1HOTFIX" = _eKNNLt2F;
         "pkg-4.0.0" = _9dS2J1Bw;
         "pkg-4.0.1" = _1PjcDQqX;
-        "default" = _1PjcDQqX;
+        "pkg-5.0.0" = _PBAMkQnM;
+        "default" = _PBAMkQnM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "astral-arsenal";

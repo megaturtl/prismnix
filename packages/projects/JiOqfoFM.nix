@@ -226,6 +226,21 @@ let
             "file" = "ExtendedAE-1.21-2.2.29-neoforge.jar";
             "hash" = "sha512-W0iXROj9VP574axqqvwG4jgalT87M7uFkPGP5xFrlduasrPOJu0UYzGsKLxNiBcvv3IUnOMyAyd3sHpZOvS5OQ==";
         };
+        _uq3lO4ER = {
+            "id" = "uq3lO4ER";
+            "file" = "ExtendedAE-1.20-1.4.18-forge.jar";
+            "hash" = "sha512-39NoohhKnmb9M8IiPqydo/zqVTBUHEURSsHsJqPI7Fk8wpmkhPeMLCmx16Har1Kn5QN7Jt8onLhM7krud0PfQg==";
+        };
+        _bC302UUP = {
+            "id" = "bC302UUP";
+            "file" = "ExtendedAE-1.21-2.2.35-neoforge.jar";
+            "hash" = "sha512-5bdqUIAgh9mZv2wRO8Y16K3p8g4G9NMnahRPTqowkPw7bGe5tqH30NA25I5p9gERSgzJLFqNRZU/iVcY+AY0jA==";
+        };
+        _KpNzac5y = {
+            "id" = "KpNzac5y";
+            "file" = "ExtendedAE-26.1-1.0.3-neoforge.jar";
+            "hash" = "sha512-6UFLEm2HayF8EGEvto2mpS9wi0FI/UfnqqZngZuNRY0ItUYvJrW9A6xWMR7+4Kt0iQ9tPNnuZ287gg7XqaYeaw==";
+        };
     in {
         "ajWJA9Eb" = _ajWJA9Eb;
         "Ggd55YCl" = _Ggd55YCl;
@@ -272,12 +287,17 @@ let
         "V6UbrXGY" = _V6UbrXGY;
         "leiXZvDb" = _leiXZvDb;
         "4BXqcY77" = _4BXqcY77;
-        "forge-1.20.1" = _leiXZvDb;
+        "uq3lO4ER" = _uq3lO4ER;
+        "bC302UUP" = _bC302UUP;
+        "KpNzac5y" = _KpNzac5y;
+        "forge-1.20.1" = _uq3lO4ER;
         "fabric-1.19.2" = _Ggd55YCl;
         "fabric-1.20.1" = _Wmmw6SrO;
         "neoforge-1.20.4" = _F0f1MNRo;
         "neoforge-1.21" = _MGiWN1zu;
-        "neoforge-1.21.1" = _4BXqcY77;
+        "neoforge-1.21.1" = _bC302UUP;
+        "neoforge-1.20.1" = _uq3lO4ER;
+        "neoforge-26.1.2" = _KpNzac5y;
         "pkg-1.20-1.0.3-forge" = _ajWJA9Eb;
         "pkg-1.19-0.1.2-fabric" = _Ggd55YCl;
         "pkg-1.20-0.1.2-fabric" = _J9gFVZA0;
@@ -323,7 +343,10 @@ let
         "pkg-1.20-1.4.11-forge" = _V6UbrXGY;
         "pkg-1.20-1.4.12-forge" = _leiXZvDb;
         "pkg-1.21-2.2.29-neoforge" = _4BXqcY77;
-        "default" = _4BXqcY77;
+        "pkg-1.20-1.4.18-forge" = _uq3lO4ER;
+        "pkg-1.21-2.2.35-neoforge" = _bC302UUP;
+        "pkg-26.1-1.0.3-neoforge" = _KpNzac5y;
+        "default" = _KpNzac5y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "extended-ae";

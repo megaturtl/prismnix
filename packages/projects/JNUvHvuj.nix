@@ -21,24 +21,49 @@ let
             "file" = "procenciarz-1.21.6.jar";
             "hash" = "sha512-biYkKNYrLgjloxXck6guMf1fR+AWjCmMswR61KZmCnuCj2fHnpDjphuT7TNnp7uYMHajAa93Oias1yecyeVOSg==";
         };
+        _yHIFX23i = {
+            "id" = "yHIFX23i";
+            "file" = "procenciarz-1.1.jar";
+            "hash" = "sha512-dXh6CqNeACzjF2WGglvavMmGpPdX5j/BfhLESWXr4NruZVYNmIx2ZdVn6VV7Ktz22++DgmDYTyXqH1pq5AnYXg==";
+        };
+        _aeK3yhyO = {
+            "id" = "aeK3yhyO";
+            "file" = "procenciarz-1.1.jar";
+            "hash" = "sha512-vEwz8upowWlO2lIwZqjcByBxsi75ULF7VyxSKcd01pffEiy8Lfpa7PnThhY7HlTNAcrJzblnl1uS030YomuiqA==";
+        };
+        _vm1etnI5 = {
+            "id" = "vm1etnI5";
+            "file" = "procenciarz-1.1.jar";
+            "hash" = "sha512-sIXwV/A3nPQr0O5oE28L2WOjteLAqOV39IzJ6G9dfJA4ekRcGYpvgil9Qou6HsThfC2v7KNL5XTePDy45gW5hQ==";
+        };
+        _sbF9aaEH = {
+            "id" = "sbF9aaEH";
+            "file" = "procenciarz-1.1.jar";
+            "hash" = "sha512-oi2cbScWZIhKVTGAkKabUfGzy9dbWSIhAj3sstIyA+W9D1aw1YVkpV84qT7dnZe5RQZSRsKrWKvBQ+qdhqczgw==";
+        };
     in {
         "wGKSktmi" = _wGKSktmi;
         "ZE05Vg24" = _ZE05Vg24;
         "bhwD8b1V" = _bhwD8b1V;
         "tLdCJJnA" = _tLdCJJnA;
-        "fabric-1.21.1" = _wGKSktmi;
-        "fabric-1.21.2" = _wGKSktmi;
-        "fabric-1.21.3" = _wGKSktmi;
-        "fabric-1.21.4" = _ZE05Vg24;
-        "fabric-1.21.5" = _bhwD8b1V;
-        "fabric-1.21.6" = _tLdCJJnA;
-        "fabric-1.21.7" = _tLdCJJnA;
-        "fabric-1.21.8" = _tLdCJJnA;
-        "fabric-1.21.9" = _tLdCJJnA;
-        "fabric-1.21.10" = _tLdCJJnA;
-        "fabric-1.21.11" = _tLdCJJnA;
+        "yHIFX23i" = _yHIFX23i;
+        "aeK3yhyO" = _aeK3yhyO;
+        "vm1etnI5" = _vm1etnI5;
+        "sbF9aaEH" = _sbF9aaEH;
+        "fabric-1.21.1" = _aeK3yhyO;
+        "fabric-1.21.2" = _aeK3yhyO;
+        "fabric-1.21.3" = _aeK3yhyO;
+        "fabric-1.21.4" = _yHIFX23i;
+        "fabric-1.21.5" = _vm1etnI5;
+        "fabric-1.21.6" = _sbF9aaEH;
+        "fabric-1.21.7" = _sbF9aaEH;
+        "fabric-1.21.8" = _sbF9aaEH;
+        "fabric-1.21.9" = _sbF9aaEH;
+        "fabric-1.21.10" = _sbF9aaEH;
+        "fabric-1.21.11" = _sbF9aaEH;
         "pkg-1.0" = _tLdCJJnA;
-        "default" = _tLdCJJnA;
+        "pkg-1.1" = _sbF9aaEH;
+        "default" = _sbF9aaEH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "procenciarz-pl";

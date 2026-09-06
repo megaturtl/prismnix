@@ -71,6 +71,16 @@ let
             "file" = "SkyBlockRpc-1.1.2-26.2.jar";
             "hash" = "sha512-F1EQeno8HVx05Bz2Wacx2aDPY2tbx6dKtc3jep9qP7h+kcItUNKYDJE7sXw0aXqeI/JmWkqMTwunalVS8Zmkxg==";
         };
+        _VRtsDrTt = {
+            "id" = "VRtsDrTt";
+            "file" = "SkyBlockRpc-1.1.3-26.1.jar";
+            "hash" = "sha512-fia8O32fcBZEtUc2Z6DwkWK/n/vmLGmYQFtXuH65WYQKA/Nk5H706TEondPyvnsT+vP2Opz7eus2I+85D7CsvA==";
+        };
+        _6fOKohks = {
+            "id" = "6fOKohks";
+            "file" = "SkyBlockRpc-1.1.3-26.2.jar";
+            "hash" = "sha512-nDOEwsEDRc7PxaMInIwdG7dZSATfQ1Fy6y6/rrc3Vo1Opj65MKOYNfvubaj9BfRIOvBBelA7C6MHR4GITx3zSw==";
+        };
     in {
         "tCxokVSq" = _tCxokVSq;
         "zrwdU5wB" = _zrwdU5wB;
@@ -86,6 +96,8 @@ let
         "dDouJHag" = _dDouJHag;
         "oqfKBBO8" = _oqfKBBO8;
         "CD40QwMx" = _CD40QwMx;
+        "VRtsDrTt" = _VRtsDrTt;
+        "6fOKohks" = _6fOKohks;
         "fabric-1.21.5" = _K3n9Nd8c;
         "fabric-1.21.6" = _yeLTDwy3;
         "fabric-1.21.7" = _yeLTDwy3;
@@ -93,10 +105,10 @@ let
         "fabric-1.21.9" = _y7X9YiHB;
         "fabric-1.21.10" = _y7X9YiHB;
         "fabric-1.21.11" = _dDouJHag;
-        "fabric-26.1" = _oqfKBBO8;
-        "fabric-26.1.1" = _oqfKBBO8;
-        "fabric-26.1.2" = _oqfKBBO8;
-        "fabric-26.2" = _CD40QwMx;
+        "fabric-26.1" = _VRtsDrTt;
+        "fabric-26.1.1" = _VRtsDrTt;
+        "fabric-26.1.2" = _VRtsDrTt;
+        "fabric-26.2" = _6fOKohks;
         "pkg-1.0.0" = _tCxokVSq;
         "pkg-1.0.1-1.21.5" = _zrwdU5wB;
         "pkg-1.0.1-1.21.8" = _1v1LyQhj;
@@ -110,7 +122,8 @@ let
         "pkg-1.1.1-1.21.10" = _y7X9YiHB;
         "pkg-1.1.1-1.21.11" = _dDouJHag;
         "pkg-1.1.2" = _CD40QwMx;
-        "default" = _CD40QwMx;
+        "pkg-1.1.3" = _6fOKohks;
+        "default" = _6fOKohks;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skyblock-rpc";

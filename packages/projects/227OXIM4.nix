@@ -97,6 +97,10 @@ let
         "minecraft-24w45a" = _yA4qHu8A;
         "minecraft-24w46a" = _yA4qHu8A;
         "minecraft-1.21.11" = _h8CoOjq2;
+        "minecraft-26.1" = _h8CoOjq2;
+        "minecraft-26.1.1" = _h8CoOjq2;
+        "minecraft-26.1.2" = _h8CoOjq2;
+        "minecraft-26.2" = _h8CoOjq2;
         "pkg-1.0" = _Qj5wedmX;
         "pkg-1.1" = _ZiTo7nUl;
         "pkg-2.0" = _SgAJ2EkA;

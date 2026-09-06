@@ -1156,6 +1156,16 @@ let
             "file" = "iris-fabric-1.11.2+mc26.1.2.jar";
             "hash" = "sha512-RttUq7QjJPu/uYdMU90yO2OX8zNy6QElWg6jpjCD21f17kRF+6codGIFTSJ3HCSQaaHETK49YlQW1uGj6ptTFA==";
         };
+        _YuBfnIgK = {
+            "id" = "YuBfnIgK";
+            "file" = "iris-neoforge-1.11.3+mc26.1.2.jar";
+            "hash" = "sha512-TB+OgAFxfSB48iaJTavYBorulpybEJPRTwcfm3CFhh3UGNaHRG68I4hLDRafcf5HFNLJxRovjM55nWu88kMFtw==";
+        };
+        _5H9TsVy4 = {
+            "id" = "5H9TsVy4";
+            "file" = "iris-fabric-1.11.3+mc26.1.2.jar";
+            "hash" = "sha512-DBN8/g2sLfJzba4PsoHfsFjjZoIrF/XAhZ9qnaIg93UbTGr0d7Y5bmF3IYGidoNbMQVbRuDYgOjk4QkWsZtG7Q==";
+        };
     in {
         "BKUpdPtO" = _BKUpdPtO;
         "7ULwjID9" = _7ULwjID9;
@@ -1388,6 +1398,8 @@ let
         "bXt6zsZT" = _bXt6zsZT;
         "BO8hxvMR" = _BO8hxvMR;
         "e4ioH5mG" = _e4ioH5mG;
+        "YuBfnIgK" = _YuBfnIgK;
+        "5H9TsVy4" = _5H9TsVy4;
         "fabric-1.16.5" = _1turazSM;
         "fabric-1.17" = _lAEtBzCu;
         "fabric-1.17.1" = _pkGrlTNQ;
@@ -1418,9 +1430,9 @@ let
         "fabric-1.21.9" = _a98UkgML;
         "fabric-1.21.10" = _a98UkgML;
         "fabric-1.21.11" = _fDpuVzVr;
-        "fabric-26.1" = _e4ioH5mG;
-        "fabric-26.1.1" = _e4ioH5mG;
-        "fabric-26.1.2" = _e4ioH5mG;
+        "fabric-26.1" = _5H9TsVy4;
+        "fabric-26.1.1" = _5H9TsVy4;
+        "fabric-26.1.2" = _5H9TsVy4;
         "fabric-26.2" = _oaD6KQls;
         "quilt-1.18.2" = _ogIRhnAJ;
         "quilt-1.17.1" = _pkGrlTNQ;
@@ -1460,9 +1472,9 @@ let
         "neoforge-1.21.8" = _T06etL58;
         "neoforge-1.21.10" = _aBn2niiX;
         "neoforge-1.21.11" = _v6TgIIUM;
-        "neoforge-26.1" = _BO8hxvMR;
-        "neoforge-26.1.1" = _BO8hxvMR;
-        "neoforge-26.1.2" = _BO8hxvMR;
+        "neoforge-26.1" = _YuBfnIgK;
+        "neoforge-26.1.1" = _YuBfnIgK;
+        "neoforge-26.1.2" = _YuBfnIgK;
         "neoforge-26.2" = _bXt6zsZT;
         "pkg-1.0.0-sodium" = _BKUpdPtO;
         "pkg-mc1.16.5-v1.1.0" = _7ULwjID9;
@@ -1695,7 +1707,9 @@ let
         "pkg-1.11.2+26.2-neoforge" = _bXt6zsZT;
         "pkg-1.11.2+26.1-neoforge" = _BO8hxvMR;
         "pkg-1.11.2+26.1-fabric" = _e4ioH5mG;
-        "default" = _e4ioH5mG;
+        "pkg-1.11.3+26.1-neoforge" = _YuBfnIgK;
+        "pkg-1.11.3+26.1-fabric" = _5H9TsVy4;
+        "default" = _5H9TsVy4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "iris";

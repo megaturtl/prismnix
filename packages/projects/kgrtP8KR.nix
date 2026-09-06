@@ -61,6 +61,11 @@ let
             "file" = "§6§lALAND's Enchanted Books - Hypixel SkyBlock §e§l26.1.2+.zip";
             "hash" = "sha512-QlatES2kCwmdiYnrWOhEin5D1HFBy5rR9RMdFJrfHGhGzHBjx6Yk/l3/UvJQKnG3Y33LkdAgcij8SYIB2CzFbg==";
         };
+        _osvU5M1E = {
+            "id" = "osvU5M1E";
+            "file" = "§6§lALAND's Enchanted Books - Hypixel SkyBlock §e§l26.1.2+.zip";
+            "hash" = "sha512-/5gTB103R6wy92pQxgdW8fIXdiqwKtMMILQawVHssx5aPUI7Ozk3jkB2qVPxeKuW1X2M5qp+l6iAHBjd7PW8kw==";
+        };
     in {
         "qX6O99e4" = _qX6O99e4;
         "TLjs9NzK" = _TLjs9NzK;
@@ -74,15 +79,17 @@ let
         "kQG69nhs" = _kQG69nhs;
         "5kEmT1Xm" = _5kEmT1Xm;
         "wp1JhABA" = _wp1JhABA;
+        "osvU5M1E" = _osvU5M1E;
         "minecraft-1.21.5" = _5kEmT1Xm;
         "minecraft-1.21.6" = _5kEmT1Xm;
         "minecraft-1.21.7" = _5kEmT1Xm;
         "minecraft-1.21.8" = _5kEmT1Xm;
         "minecraft-1.21.10" = _5kEmT1Xm;
         "minecraft-1.21.11" = _5kEmT1Xm;
-        "minecraft-26.1" = _wp1JhABA;
-        "minecraft-26.1.1" = _wp1JhABA;
-        "minecraft-26.1.2" = _wp1JhABA;
+        "minecraft-26.1" = _osvU5M1E;
+        "minecraft-26.1.1" = _osvU5M1E;
+        "minecraft-26.1.2" = _osvU5M1E;
+        "minecraft-26.2" = _osvU5M1E;
         "pkg-0.0.1" = _qX6O99e4;
         "pkg-0.1.0" = _TLjs9NzK;
         "pkg-0.2.0" = _d6erS8H7;
@@ -95,7 +102,8 @@ let
         "pkg-0.9.0" = _kQG69nhs;
         "pkg-1.0" = _5kEmT1Xm;
         "pkg-1.1" = _wp1JhABA;
-        "default" = _wp1JhABA;
+        "pkg-1.2" = _osvU5M1E;
+        "default" = _osvU5M1E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "alands-hypixel-skyblock-enchanted-books";

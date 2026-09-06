@@ -161,6 +161,56 @@ let
             "file" = "DiscCord-26.2-3.0.0.jar";
             "hash" = "sha512-GjCcGbzYFTV2T6PtcrOv/8jxofgDFcuV6WDpAscKoBOuTBbttEjyg53hXWyj8VqxAF3uP0x6XrG1Bn3GFtq9LQ==";
         };
+        _4Pp2JdF1 = {
+            "id" = "4Pp2JdF1";
+            "file" = "DiscCord-fabric-26.2-3.1.0.jar";
+            "hash" = "sha512-zoLpZvO6o190J0s7nloa0JQ9PMtjQE77ZqUllkKKWVZLbbC/3G2PpSaDpt2FHoK5Si8IAypZ5NM62trv8yvejA==";
+        };
+        _KjTBMLdS = {
+            "id" = "KjTBMLdS";
+            "file" = "DiscCord-neoforge-26.2-3.1.0.jar";
+            "hash" = "sha512-Uzy1pRncAiFDc2u3BfIrT2P/sUNluzhcqUk8tlealyye522HKSE4rc90cMDoGcZVOKZmj2sBvsrCXaO/+wq9GQ==";
+        };
+        _RGCqif9K = {
+            "id" = "RGCqif9K";
+            "file" = "DiscCord-26.1.2-2.0.1.jar";
+            "hash" = "sha512-8F+0wxvMeOqwFPjN6pR5kVL2rDlaC+Hs/fsv7aqjaHNm/WFBS1iU/7uGq2EEfxDB2dbb8ScVwT+gKnWmDu+3Zw==";
+        };
+        _XbDhMQ6F = {
+            "id" = "XbDhMQ6F";
+            "file" = "DiscCord-fabric-26.2-3.1.0.jar";
+            "hash" = "sha512-EIkSPSsTGvzB1OnyrlgBXgZzQ8uVMf1W5DmDcAnxxQ7+8dSyiXvR14TieWFNXYwwpwrtt8tmGHnE64xiO+3i4g==";
+        };
+        _kZwhrbOH = {
+            "id" = "kZwhrbOH";
+            "file" = "DiscCord-neoforge-26.2-3.1.0.jar";
+            "hash" = "sha512-csaSBgWV8pPuxXp0n/7kw+w1/avUsuVGdgVnxBszQ1KaugdDo/ozepre5avsWJcU6Gqq3/3O/ptpIx9eZ8POlQ==";
+        };
+        _G930p4Ek = {
+            "id" = "G930p4Ek";
+            "file" = "DiscCord-fabric-26.2-3.1.1.jar";
+            "hash" = "sha512-JST05lXHfklJoeqjWAcGqX3jCRmx0ryXZTB5FokTC2yxXIXAqJVui0L1YjYc80NyYcdUwhmMKK9lP4h9EyPqTw==";
+        };
+        _aYpA3g5h = {
+            "id" = "aYpA3g5h";
+            "file" = "DiscCord-neoforge-26.2-3.1.1.jar";
+            "hash" = "sha512-9RdTvDBWJoNfGofAon0rRuAeFmprsVat9g8XK/Mo5Kvl4peD/rQsfgI/KOO6uS4vRHDpoWgkdkzVPAOL1HMAGQ==";
+        };
+        _UtuYwPNi = {
+            "id" = "UtuYwPNi";
+            "file" = "DiscCord-26.1.2-2.0.2.jar";
+            "hash" = "sha512-DS/hZ4Un/FiyoVtYnDIPyPp77gzT/v692IH7B+/TLhQHGTWAzgMmvHLiNntgo2hbIqoX8+2A7BlorZLIo7d8zg==";
+        };
+        _2CbSKBSC = {
+            "id" = "2CbSKBSC";
+            "file" = "DiscCord-1.21.1-1.2.8.jar";
+            "hash" = "sha512-hDrPqOwNjMRvkolP8+KQtJblDIv8j+x/fDqQLdwTJkq1xy3CGef9GigrVZF0SDhyg6FYUCrnQ3ZQh69+wbE8uw==";
+        };
+        _iRRZ7btX = {
+            "id" = "iRRZ7btX";
+            "file" = "DiscCord-1.20.1-1.3.4.jar";
+            "hash" = "sha512-FhF0eGoeTf4JJcXSvytfFxYLPvHwzTTE540m5kWZzZDjU93izWuY56ATpaCJ8mTiXywWU0CZPAzxXcoXbp3Ezg==";
+        };
     in {
         "cqAcCTQV" = _cqAcCTQV;
         "R4CY8WoB" = _R4CY8WoB;
@@ -194,19 +244,31 @@ let
         "jXfeqxLk" = _jXfeqxLk;
         "DetTvJUK" = _DetTvJUK;
         "JFNynnkR" = _JFNynnkR;
+        "4Pp2JdF1" = _4Pp2JdF1;
+        "KjTBMLdS" = _KjTBMLdS;
+        "RGCqif9K" = _RGCqif9K;
+        "XbDhMQ6F" = _XbDhMQ6F;
+        "kZwhrbOH" = _kZwhrbOH;
+        "G930p4Ek" = _G930p4Ek;
+        "aYpA3g5h" = _aYpA3g5h;
+        "UtuYwPNi" = _UtuYwPNi;
+        "2CbSKBSC" = _2CbSKBSC;
+        "iRRZ7btX" = _iRRZ7btX;
         "neoforge-1.21" = _gTLIGiWK;
-        "neoforge-1.20.1" = _jXfeqxLk;
+        "neoforge-1.20.1" = _iRRZ7btX;
         "neoforge-1.19.2" = _Mjkg6umQ;
-        "neoforge-1.21.1" = _DetTvJUK;
+        "neoforge-1.21.1" = _2CbSKBSC;
         "neoforge-1.21.4" = _nfgsKZ74;
         "neoforge-1.21.5" = _DChMj0em;
         "neoforge-1.21.6" = _XdWBnhJc;
         "neoforge-1.21.7" = _uQ8sB48c;
         "neoforge-1.21.11" = _WGZmAjQv;
         "neoforge-26.1.1" = _KFsKovHh;
-        "neoforge-26.2" = _JFNynnkR;
-        "forge-1.20.1" = _jXfeqxLk;
+        "neoforge-26.2" = _aYpA3g5h;
+        "neoforge-26.1.2" = _UtuYwPNi;
+        "forge-1.20.1" = _iRRZ7btX;
         "forge-1.19.2" = _Mjkg6umQ;
+        "fabric-26.2" = _G930p4Ek;
         "pkg-1.0.0" = _Y5aygD4O;
         "pkg-1.0.1" = _gTLIGiWK;
         "pkg-1.1.0" = _D1SdnbzL;
@@ -230,7 +292,13 @@ let
         "pkg-1.3.3" = _jXfeqxLk;
         "pkg-1.2.7" = _DetTvJUK;
         "pkg-3.0.0" = _JFNynnkR;
-        "default" = _JFNynnkR;
+        "pkg-3.1.0" = _kZwhrbOH;
+        "pkg-2.0.1" = _RGCqif9K;
+        "pkg-3.1.1" = _aYpA3g5h;
+        "pkg-2.0.2" = _UtuYwPNi;
+        "pkg-1.2.8" = _2CbSKBSC;
+        "pkg-1.3.4" = _iRRZ7btX;
+        "default" = _iRRZ7btX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "disccord";

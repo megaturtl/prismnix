@@ -111,6 +111,11 @@ let
             "file" = "craftable_enchanted_golden_apple-1.0.20.jar";
             "hash" = "sha512-cEYrX+l0ekLMDlo7DiIjoEmOUWFVuC/0yYsptrCs7fJiPk57uGOJ78q3X36CbCIKjJUk0NsCEDm1p3YJGK6ppw==";
         };
+        _hFPIp9Rq = {
+            "id" = "hFPIp9Rq";
+            "file" = "craftable_enchanted_golden_apple-1.0.21.jar";
+            "hash" = "sha512-Ij0e6J7RlZhh8pMra2mgo9BKKxSYWrV5IxdSxVzNykwEJbLMg5T1/NdQEk4B3cI2VDjVPvp/yx1dpIxq9wRE5g==";
+        };
     in {
         "774C4n3h" = _774C4n3h;
         "rH4NpFzg" = _rH4NpFzg;
@@ -134,6 +139,7 @@ let
         "psd4bp7b" = _psd4bp7b;
         "8ltukP6Y" = _8ltukP6Y;
         "eQKauRIv" = _eQKauRIv;
+        "hFPIp9Rq" = _hFPIp9Rq;
         "fabric-1.16.5" = _774C4n3h;
         "fabric-1.17" = _rH4NpFzg;
         "fabric-1.17.1" = _rH4NpFzg;
@@ -158,6 +164,7 @@ let
         "fabric-26.1" = _eQKauRIv;
         "fabric-26.1.1" = _eQKauRIv;
         "fabric-26.1.2" = _eQKauRIv;
+        "fabric-26.2" = _hFPIp9Rq;
         "pkg-1.0.0" = _774C4n3h;
         "pkg-1.0.1" = _rH4NpFzg;
         "pkg-1.0.2" = _kgfaA9Jl;
@@ -179,7 +186,8 @@ let
         "pkg-1.0.18" = _psd4bp7b;
         "pkg-1.0.19" = _8ltukP6Y;
         "pkg-1.0.20" = _eQKauRIv;
-        "default" = _eQKauRIv;
+        "pkg-1.0.21" = _hFPIp9Rq;
+        "default" = _hFPIp9Rq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craftable-enchanted-golden-apple";

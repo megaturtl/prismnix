@@ -606,6 +606,26 @@ let
             "file" = "MCRider-1.8.0.jar";
             "hash" = "sha512-hpKE2o042L/kQ/quD+L/059lAdAnyT6uSmIbEx4pSQdu4B/i6A3+VAKpTK+++oZ64KXvr1rSoJ3OU2/xNa8McQ==";
         };
+        _1AFtgMqh = {
+            "id" = "1AFtgMqh";
+            "file" = "MCRider-1.8.1.jar";
+            "hash" = "sha512-DAFyZzh/BwIBx4Lwr2SJHTVox8nGEevkXhAB7D5vSDB6SJwP+G8tV2bWdkCd6nRRsd7QvKwkrmVuXjVujdeA8A==";
+        };
+        _4vGzG6ND = {
+            "id" = "4vGzG6ND";
+            "file" = "MCRider-1.8.2.jar";
+            "hash" = "sha512-MPG42tdikDwzFWY5dt6iWQ5GbpoaAbeetfLmTkRCDqN6WcvM4sGzULeKrNkeFOqFjMofzYnxbI9grMMoSdQCTg==";
+        };
+        _3xdKBxCY = {
+            "id" = "3xdKBxCY";
+            "file" = "MCRider-1.8.3.jar";
+            "hash" = "sha512-MOaUSfv9KJP00tGEiVJzsz4o9gBQ8woZ6zZIaFf1GRPYvdf5/Gysqci1FfZyv7p3vQUiQUpUXtWSKiLnNXYyxQ==";
+        };
+        _LWQDd4ZV = {
+            "id" = "LWQDd4ZV";
+            "file" = "MCRider-1.8.4.jar";
+            "hash" = "sha512-gQbCJyQsSBRGwPcbF+B61crhywmdx8lcWInnzNQfkIlgYl5z6E0VakDXrn1153r4OWDll7kCnLmpoWqGoVrQ1Q==";
+        };
     in {
         "oROh84ev" = _oROh84ev;
         "sRHBB8Rh" = _sRHBB8Rh;
@@ -728,8 +748,12 @@ let
         "nz0pifnV" = _nz0pifnV;
         "fZj9zlgF" = _fZj9zlgF;
         "wy6FdNjW" = _wy6FdNjW;
+        "1AFtgMqh" = _1AFtgMqh;
+        "4vGzG6ND" = _4vGzG6ND;
+        "3xdKBxCY" = _3xdKBxCY;
+        "LWQDd4ZV" = _LWQDd4ZV;
         "fabric-1.21.4" = _qnsSZIkG;
-        "fabric-1.21.5" = _wy6FdNjW;
+        "fabric-1.21.5" = _LWQDd4ZV;
         "fabric-1.21.6" = _IUPufx2Q;
         "fabric-1.21.7" = _IUPufx2Q;
         "fabric-1.21.8" = _IUPufx2Q;
@@ -784,7 +808,11 @@ let
         "pkg-1.7.0" = _nz0pifnV;
         "pkg-1.7.1" = _fZj9zlgF;
         "pkg-1.8.0" = _wy6FdNjW;
-        "default" = _wy6FdNjW;
+        "pkg-1.8.1" = _1AFtgMqh;
+        "pkg-1.8.2" = _4vGzG6ND;
+        "pkg-1.8.3" = _3xdKBxCY;
+        "pkg-1.8.4" = _LWQDd4ZV;
+        "default" = _LWQDd4ZV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcrider";

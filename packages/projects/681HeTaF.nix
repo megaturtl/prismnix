@@ -283,6 +283,9 @@ let
         "fabric-26.3-snapshot-5" = _oNLN3gUN;
         "fabric-26.3-snapshot-6" = _oNLN3gUN;
         "fabric-26.3-snapshot-7" = _oNLN3gUN;
+        "fabric-26.3-snapshot-8" = _oNLN3gUN;
+        "fabric-26.3-snapshot-9" = _oNLN3gUN;
+        "fabric-26.3-snapshot-10" = _oNLN3gUN;
         "quilt-1.20" = _IslqcXw5;
         "quilt-1.20.1" = _IslqcXw5;
         "quilt-1.20.2" = _IslqcXw5;
@@ -360,6 +363,9 @@ let
         "quilt-26.3-snapshot-5" = _oNLN3gUN;
         "quilt-26.3-snapshot-6" = _oNLN3gUN;
         "quilt-26.3-snapshot-7" = _oNLN3gUN;
+        "quilt-26.3-snapshot-8" = _oNLN3gUN;
+        "quilt-26.3-snapshot-9" = _oNLN3gUN;
+        "quilt-26.3-snapshot-10" = _oNLN3gUN;
         "pkg-1.0.beta" = _bryN529Y;
         "pkg-1.1.beta" = _L0YE4y6h;
         "pkg-1.2.beta" = _dfzJzZjS;

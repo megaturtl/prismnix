@@ -136,15 +136,15 @@ let
             "file" = "etcetera-fabric-1.21.1-2.2.0.jar";
             "hash" = "sha512-JKSlvtubV4FbOkdaP7zZ7KPl1op+sMMgE9oBw+iyky9rtnYfGNEnobSDHQdfSaKHXn6YNkmt+a6V+hwGDlqMBA==";
         };
-        _QYooM5Gh = {
-            "id" = "QYooM5Gh";
-            "file" = "etcetera-fabric-1.21.1-2.2.1.jar";
-            "hash" = "sha512-2xZIyKvzuzL63n/WbGyB6apvoqf5/brGrrQqYz5t57tD8v9UbKdcY6lTNL/XUls2MpiBrCmfNfB5crJ/DCdsOA==";
-        };
         _RjFQ1WGe = {
             "id" = "RjFQ1WGe";
             "file" = "etcetera-neoforge-1.21.1-2.2.1.jar";
             "hash" = "sha512-kKC/ctGU3qc98TRIRKeUsrz1wSMmA74//RMlip8/DEClOWayAYid88xzlAhctqrBCRZ550M3bY6jQaaICXSNRQ==";
+        };
+        _QYooM5Gh = {
+            "id" = "QYooM5Gh";
+            "file" = "etcetera-fabric-1.21.1-2.2.1.jar";
+            "hash" = "sha512-2xZIyKvzuzL63n/WbGyB6apvoqf5/brGrrQqYz5t57tD8v9UbKdcY6lTNL/XUls2MpiBrCmfNfB5crJ/DCdsOA==";
         };
         _N7YJCKKo = {
             "id" = "N7YJCKKo";
@@ -176,6 +176,26 @@ let
             "file" = "etcetera-fabric-1.21.1-2.2.4.jar";
             "hash" = "sha512-M5SPgalihjGo93FJbhUeDC6i+r/px1oSFBl8lhOFolGFktNBYnmjV3yb9J3X3unsJ89BjgrioS1iBg7OsE+1PQ==";
         };
+        _YjUmkosp = {
+            "id" = "YjUmkosp";
+            "file" = "etcetera-fabric-1.21.1-2.2.6.jar";
+            "hash" = "sha512-b5Q40f+oAUFB4abVtr1FXZxPOPt947Ce4TaYCkZ0h1aCyl0H56Tk3UiNmUmK4PSKp3QoDJSu8Yc8qup0tQdfbw==";
+        };
+        _Q5YEb1Hz = {
+            "id" = "Q5YEb1Hz";
+            "file" = "etcetera-neoforge-1.21.1-2.2.6.jar";
+            "hash" = "sha512-Vth9cUPp1CvPk9xpHW6GQX944uMJSVyBCt2BtqrkTVKBzW/zMpLPczHIekQ8cFtdVjuMxmP4DIwxfGhq/HHPeA==";
+        };
+        _EsBISgeL = {
+            "id" = "EsBISgeL";
+            "file" = "etcetera-neoforge-1.21.1-2.2.7.jar";
+            "hash" = "sha512-zkLfO+0DOYDGwHGLWgd7Z2ykjJoKRM0iB+7yFw7FsIym+iaL0v3nEumpNzuS9bSOedAlucb/Hgp0XFpIhmDLtw==";
+        };
+        _7TIEj7L3 = {
+            "id" = "7TIEj7L3";
+            "file" = "etcetera-fabric-1.21.1-2.2.7.jar";
+            "hash" = "sha512-1AcoZSH8n50w6sdfqLeFW7rcbu/O5U6HBWPbC0Z93z4myO/g8NRuC9Xn+XpCQEzQ09jkTIquADo0ZaCwLMJIAQ==";
+        };
     in {
         "hBIXWMPO" = _hBIXWMPO;
         "trBVKD10" = _trBVKD10;
@@ -204,20 +224,24 @@ let
         "PJ0czk76" = _PJ0czk76;
         "vPo99HTR" = _vPo99HTR;
         "Twzx1gTO" = _Twzx1gTO;
-        "QYooM5Gh" = _QYooM5Gh;
         "RjFQ1WGe" = _RjFQ1WGe;
+        "QYooM5Gh" = _QYooM5Gh;
         "N7YJCKKo" = _N7YJCKKo;
         "M9bXjZ6x" = _M9bXjZ6x;
         "1BYKCCCR" = _1BYKCCCR;
         "e7f2aoNo" = _e7f2aoNo;
         "EatGMkdE" = _EatGMkdE;
         "LHUjQddG" = _LHUjQddG;
+        "YjUmkosp" = _YjUmkosp;
+        "Q5YEb1Hz" = _Q5YEb1Hz;
+        "EsBISgeL" = _EsBISgeL;
+        "7TIEj7L3" = _7TIEj7L3;
         "fabric-1.20" = _OXt4Jd9P;
         "fabric-1.20.1" = _42Dm5geR;
-        "fabric-1.21.1" = _LHUjQddG;
+        "fabric-1.21.1" = _7TIEj7L3;
         "forge-1.20" = _Hyth1pEu;
         "forge-1.20.1" = _uua8xPy8;
-        "neoforge-1.21.1" = _EatGMkdE;
+        "neoforge-1.21.1" = _EsBISgeL;
         "pkg-1.0.1" = _trBVKD10;
         "pkg-1.0.2" = _OPoTKsQN;
         "pkg-1.0.3" = _Hyth1pEu;
@@ -241,15 +265,19 @@ let
         "pkg-2.1.4-1.21.1-fabric" = _PJ0czk76;
         "pkg-2.2.0-1.21.1-neoforge" = _vPo99HTR;
         "pkg-2.2.0-1.21.1-fabric" = _Twzx1gTO;
-        "pkg-2.2.1-1.21.1-fabric" = _QYooM5Gh;
         "pkg-2.2.1-1.21.1-neoforge" = _RjFQ1WGe;
+        "pkg-2.2.1-1.21.1-fabric" = _QYooM5Gh;
         "pkg-2.2.2-1.21.1-neoforge" = _N7YJCKKo;
         "pkg-2.2.2-1.21.1-fabric" = _M9bXjZ6x;
         "pkg-2.2.3-1.21.1-fabric" = _1BYKCCCR;
         "pkg-2.2.3-1.21.1-neoforge" = _e7f2aoNo;
         "pkg-2.2.4-1.21.1-neoforge" = _EatGMkdE;
         "pkg-2.2.4-1.21.1-fabric" = _LHUjQddG;
-        "default" = _LHUjQddG;
+        "pkg-2.2.6-1.21.1-fabric" = _YjUmkosp;
+        "pkg-2.2.6-1.21.1-neoforge" = _Q5YEb1Hz;
+        "pkg-2.2.7-1.21.1-neoforge" = _EsBISgeL;
+        "pkg-2.2.7-1.21.1-fabric" = _7TIEj7L3;
+        "default" = _7TIEj7L3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "etcetera";

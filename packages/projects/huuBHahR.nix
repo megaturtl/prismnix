@@ -156,6 +156,16 @@ let
             "file" = "holdmetight-0.7.2.1-beta.jar";
             "hash" = "sha512-xUrqy3MTaUxc5I9kIzJZmyA1TiA/TX0T8DffqX9d6OsKCYJpTejptuAkZ2IOv7vNiDDllJ7FD1OVqvDj+5+1+w==";
         };
+        _XZ3YQT5R = {
+            "id" = "XZ3YQT5R";
+            "file" = "holdmetight-0.8.0-beta.jar";
+            "hash" = "sha512-gMzF0pdlnUgo0HYkhJcYrsqdLAqtuJgMKnAXWU+QWSW+GRSXxqCSCBw4T3HcBbaDo9Yb5WFSj/Y+3P6vK/NSeA==";
+        };
+        _4bPXmiMd = {
+            "id" = "4bPXmiMd";
+            "file" = "holdmetight-0.8.0.1-beta.jar";
+            "hash" = "sha512-3JXvpERDL4aqDIUd7Q0Ma5p2S8qtGwz4dhqgOyeSNxmEL5aEBAULG33GRI/cFrROf//0SgMIQRFrlJPXgfi3ww==";
+        };
     in {
         "uP4nV3YX" = _uP4nV3YX;
         "Re5B4pd8" = _Re5B4pd8;
@@ -188,7 +198,9 @@ let
         "qhHhAlX5" = _qhHhAlX5;
         "rrkmz5yj" = _rrkmz5yj;
         "96NblWt2" = _96NblWt2;
-        "forge-1.20.1" = _96NblWt2;
+        "XZ3YQT5R" = _XZ3YQT5R;
+        "4bPXmiMd" = _4bPXmiMd;
+        "forge-1.20.1" = _4bPXmiMd;
         "pkg-0.1.1-alpha" = _uP4nV3YX;
         "pkg-0.2.0-alpha" = _Re5B4pd8;
         "pkg-0.2.1-alpha" = _hWCpCcf6;
@@ -220,7 +232,9 @@ let
         "pkg-0.7.1-beta" = _qhHhAlX5;
         "pkg-0.7.2-beta" = _rrkmz5yj;
         "pkg-0.7.2.1-beta" = _96NblWt2;
-        "default" = _96NblWt2;
+        "pkg-0.8.0-beta" = _XZ3YQT5R;
+        "pkg-0.8.0.1-beta" = _4bPXmiMd;
+        "default" = _4bPXmiMd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "holdmetight";

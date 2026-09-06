@@ -46,6 +46,16 @@ let
             "file" = "wyrmroost-1.4.1.jar";
             "hash" = "sha512-isvhlmiU1Al5qELcu6SXlXsE9Q+GK1i8t6hUJDPi0IeQStCTOp2jaRK+sDNp3tfubROMe7NiSrEz7UH0ycECeQ==";
         };
+        _oW2QdyS5 = {
+            "id" = "oW2QdyS5";
+            "file" = "wyrmroost-forge-1.20.1-1.3.3.jar";
+            "hash" = "sha512-o7QaHll1Pc2CkNLJp+7ZUCAQp44v84lGtXlgBshznpKR5ZrcwC379kmzHHNXzqMGonSxLgVpyp5Li88s9vJk3Q==";
+        };
+        _pDSBNy4T = {
+            "id" = "pDSBNy4T";
+            "file" = "wyrmroost-forge-1.20.1-1.3.4.jar";
+            "hash" = "sha512-yjrw8pR21NidpsymSY+1EdC56cPVruWsL8qRo9jiS/9VoDniczrfwrMA+YkFITDO5KDdfpoDFQ2iIBeEP/UzlQ==";
+        };
     in {
         "fcS41cLI" = _fcS41cLI;
         "6xTNEhl5" = _6xTNEhl5;
@@ -56,11 +66,14 @@ let
         "vPphGFMZ" = _vPphGFMZ;
         "ZmN7DlFp" = _ZmN7DlFp;
         "8cPyix5L" = _8cPyix5L;
+        "oW2QdyS5" = _oW2QdyS5;
+        "pDSBNy4T" = _pDSBNy4T;
         "forge-1.16.3" = _fcS41cLI;
         "forge-1.16.4" = _fcS41cLI;
         "forge-1.16.5" = _fcS41cLI;
         "forge-1.15.2" = _6xTNEhl5;
         "forge-1.14.4" = _LPiHcpnM;
+        "forge-1.20.1" = _pDSBNy4T;
         "neoforge-1.21.1" = _8cPyix5L;
         "pkg-1.16.3-1.2.11" = _fcS41cLI;
         "pkg-1.15.2-1.2.7" = _6xTNEhl5;
@@ -68,10 +81,11 @@ let
         "pkg-1.3.0" = _aErQ5CNU;
         "pkg-1.3.1" = _GN4PdyPo;
         "pkg-1.3.2" = _kXWZjjA1;
-        "pkg-1.3.3" = _vPphGFMZ;
+        "pkg-1.3.3" = _oW2QdyS5;
         "pkg-1.4.0" = _ZmN7DlFp;
         "pkg-1.4.1" = _8cPyix5L;
-        "default" = _8cPyix5L;
+        "pkg-1.3.4" = _pDSBNy4T;
+        "default" = _pDSBNy4T;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wyrmroost";

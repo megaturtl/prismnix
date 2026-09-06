@@ -667,13 +667,13 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
+            license = lib.getLicenseFromSpdxIdOr "EUPL-1.2" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "GNU Lesser General Public License v3.0 only";
-                shortName = "LGPL-3.0-only";
-                url = "https://raw.githubusercontent.com/macuguita/macu_lib/refs/heads/1.20.1/LICENSE";
+                fullName = "European Union Public License 1.2";
+                shortName = "EUPL-1.2";
+                url = "https://tangled.org/macuguita.com/macu_lib/blob/26.2/LICENSE";
             };
         };
     };

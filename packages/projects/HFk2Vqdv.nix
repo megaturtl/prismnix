@@ -111,6 +111,11 @@ let
             "file" = "mace3d-neoforge-mc26.1.2-1.2.0.jar";
             "hash" = "sha512-UavCnzyEQEEE/lbNOTOu2/6PlPsaz0NwVrpC9e6cYoo1spXH4YoNMd/s3Fx/Ey4GwP/wqW4R+we6QiJbR+Jf7Q==";
         };
+        _lLAbxVf1 = {
+            "id" = "lLAbxVf1";
+            "file" = "mace3d-fabric-mc26.1.2-1.2.1.jar";
+            "hash" = "sha512-VFM58h9MGpv2ZAqhpWMp44lxnZ2MdA8cxV7YDEyqcN7AQeGjMVs3cVGv2PZiDXBuaFgLO/hSVOztE9FU5CCGHQ==";
+        };
     in {
         "B94nPalA" = _B94nPalA;
         "RlYJoRsY" = _RlYJoRsY;
@@ -134,6 +139,7 @@ let
         "dRK3CSV5" = _dRK3CSV5;
         "N3WhPW2n" = _N3WhPW2n;
         "vR1L1mWZ" = _vR1L1mWZ;
+        "lLAbxVf1" = _lLAbxVf1;
         "neoforge-1.21" = _SF0P1NtE;
         "neoforge-1.21.1" = _SF0P1NtE;
         "neoforge-1.21.2" = _JvfrH744;
@@ -161,20 +167,17 @@ let
         "fabric-1.21.9" = _B5H6kf9h;
         "fabric-1.21.10" = _B5H6kf9h;
         "fabric-1.21.11" = _n6MqFI5Z;
-        "fabric-26.1" = _BGLTMjPs;
-        "fabric-26.1.1" = _BGLTMjPs;
-        "fabric-26.1.2" = _BGLTMjPs;
-        "fabric-26.2" = _BGLTMjPs;
+        "fabric-26.1" = _lLAbxVf1;
+        "fabric-26.1.1" = _lLAbxVf1;
+        "fabric-26.1.2" = _lLAbxVf1;
+        "fabric-26.2" = _N3WhPW2n;
         "forge-1.21" = _WydJtIjj;
         "forge-1.21.1" = _WydJtIjj;
-        "legacy-fabric-26.1" = _N3WhPW2n;
-        "legacy-fabric-26.1.1" = _N3WhPW2n;
-        "legacy-fabric-26.1.2" = _N3WhPW2n;
-        "legacy-fabric-26.2" = _N3WhPW2n;
         "pkg-1.0.1" = _7Wb8rGpJ;
         "pkg-1.1.0" = _dRK3CSV5;
         "pkg-1.2.0" = _vR1L1mWZ;
-        "default" = _vR1L1mWZ;
+        "pkg-1.2.1" = _lLAbxVf1;
+        "default" = _lLAbxVf1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "awesome-3d-mace";

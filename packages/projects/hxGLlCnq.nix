@@ -621,6 +621,81 @@ let
             "file" = "jobsplus-fabric-20.2.6.jar";
             "hash" = "sha512-b4ewr2vHrvT2jybSXqY+C/2z2ZpiUJA+VAssXU+rNNBiZXJEPPoPe8lpHblmul7Eiiz0yrmlJ64U7mQ5IDXXWg==";
         };
+        _FLBzjkqa = {
+            "id" = "FLBzjkqa";
+            "file" = "jobsplus-9.0.1-fabric.jar";
+            "hash" = "sha512-AygWmGiOIRqwvJ5V3Xodqcb6aUxIv+cN6qL+It6U7TKs+Byrt/S0fACGSFvU8Iotn3VWvcdb3ZyoU+aVkcsFHw==";
+        };
+        _GpQdK0Xb = {
+            "id" = "GpQdK0Xb";
+            "file" = "jobsplus-9.0.1-neoforge.jar";
+            "hash" = "sha512-nApgm1zyYgtf2ANigWseXrZbXTFn1V9uNgvN0X+BbJsUiHtn9wG8Lc6dT0PD0RkBqukQUcUgjkcjRf/d0erXUg==";
+        };
+        _AUBWKQZG = {
+            "id" = "AUBWKQZG";
+            "file" = "jobsplus-9.0.1-neoforge.jar";
+            "hash" = "sha512-jegi8u3D+GOOrr+MJTLkTFE1mzfbSnTnm7i5xwoTKwLq9vOnmwIBpo69E0EdEa0eXYI5I2+hoLJRw9aT9YExDg==";
+        };
+        _XtHsZfe1 = {
+            "id" = "XtHsZfe1";
+            "file" = "jobsplus-9.0.1-fabric.jar";
+            "hash" = "sha512-bc541yehnljzMDzqVBGllTJkxujJAG0UPlVQ3rOYcR1xAEypUfi/i/1FLaPnkMDbDF0lzJCOHUHiPeE68F11Ew==";
+        };
+        _sjrqQpiX = {
+            "id" = "sjrqQpiX";
+            "file" = "jobsplus-fabric-21.2.4.jar";
+            "hash" = "sha512-sDoVoMu5FLP0ykfXkYcJibzk+XZ5DeeCzFsERAvO9lpo/LdkoUwGEfaAKvE9HF1snrDDT3EUOxBmLIKyY0lKeA==";
+        };
+        _zNvmsK6o = {
+            "id" = "zNvmsK6o";
+            "file" = "jobsplus-neoforge-21.2.4.jar";
+            "hash" = "sha512-KrTvw++dMkPhmtce0j9aUVGHRDAydVYiCtM5359Ky/o11ATy+5DInXY4A5F8Rw9fFwUXQAzfEmGKbvnJkFLxFQ==";
+        };
+        _Xl4qxhj0 = {
+            "id" = "Xl4qxhj0";
+            "file" = "jobsplus-fabric-20.2.7.jar";
+            "hash" = "sha512-8R84Fc5/dh82vuSecwYJad3Ei7YgDX3J2ZGFeGcv2PLz5V+E9OzcN6pc87aALV2SSKAxkzX9k0jEVgQ8n4G5UA==";
+        };
+        _j8e0bLhO = {
+            "id" = "j8e0bLhO";
+            "file" = "jobsplus-neoforge-20.2.7.jar";
+            "hash" = "sha512-O+m2Yk5U2+7fFMTJG3n3LTk1zGHWHeaHvI5UTW5BRcv5vKME80ErkRfecFv2Btv9L0rxRmWShUJ2zK32mk174A==";
+        };
+        _GclJfuEO = {
+            "id" = "GclJfuEO";
+            "file" = "jobsplus-19.1.1-fabric.jar";
+            "hash" = "sha512-YgbBIOHZXi2K1Wu0yu1Adb6Wks4erkyDz4W7zzH1W9rqpwJiSjPITiImytQzvGvpnYbyrdTfuL4i6TYPGCBd/A==";
+        };
+        _ssnOgxRi = {
+            "id" = "ssnOgxRi";
+            "file" = "jobsplus-19.1.1-dev.jar";
+            "hash" = "sha512-t8Z7G2I/55j6DM6n7TKt+lBefKry3GQoZqewuv7+RXkpABjzAhLXCyf9AFIdlHrJs/HaxdhRKjuNuB+AX0CQNg==";
+        };
+        _hVeGieoG = {
+            "id" = "hVeGieoG";
+            "file" = "jobsplus-19.1.1-dev.jar";
+            "hash" = "sha512-PFVStulFq4gtI9EWIhjqzPOeg1D5UVs+Sk63LuRSTh3y1wJ3RBqAT8g8IDbyEALs75IBXbIZLnnkjS3NDR0baA==";
+        };
+        _674rWlAv = {
+            "id" = "674rWlAv";
+            "file" = "jobsplus-19.1.2-neoforge.jar";
+            "hash" = "sha512-mCd1xKM4w/Q1cZS1620e9KwSXLH/DOBm3TAKmvnAbOQtABIAOHXyxdY6srFA4mVHIwj9Ko6vyIsrGPRqH01y0w==";
+        };
+        _OwdOmog1 = {
+            "id" = "OwdOmog1";
+            "file" = "jobsplus-19.1.2-fabric.jar";
+            "hash" = "sha512-lSVdqI5Ns2sGFFN9jO0mYCS8ioZw7fYR9h8U03TB3OBuQlUK+6Jrd4LKa4wXcTXJzUHbsfyxgrvXqWoIvPyk6w==";
+        };
+        _vzzpdCl9 = {
+            "id" = "vzzpdCl9";
+            "file" = "jobsplus-9.0.2-fabric.jar";
+            "hash" = "sha512-jSQY3/OB22uY3EwwbCbYaT9zPIELrfgCDmPuiUgMDdFfRzFngokYDn8ngv7stBO5AzB/hbDkA6Yf1HiIWfCCfA==";
+        };
+        _HHK264G0 = {
+            "id" = "HHK264G0";
+            "file" = "jobsplus-9.0.2-neoforge.jar";
+            "hash" = "sha512-qgJK2aiHYxGIr+xnV9R4p4wJzFQK0O1V/bSANUQqxckGM//bTj8gx0D/47j0MHuBGyJMXzcMORAwNPfiOyGQXg==";
+        };
     in {
         "HGC4xRKD" = _HGC4xRKD;
         "HzPPbz28" = _HzPPbz28;
@@ -746,32 +821,47 @@ let
         "YfqgolGd" = _YfqgolGd;
         "iuecGF1Y" = _iuecGF1Y;
         "qPKOzhZh" = _qPKOzhZh;
+        "FLBzjkqa" = _FLBzjkqa;
+        "GpQdK0Xb" = _GpQdK0Xb;
+        "AUBWKQZG" = _AUBWKQZG;
+        "XtHsZfe1" = _XtHsZfe1;
+        "sjrqQpiX" = _sjrqQpiX;
+        "zNvmsK6o" = _zNvmsK6o;
+        "Xl4qxhj0" = _Xl4qxhj0;
+        "j8e0bLhO" = _j8e0bLhO;
+        "GclJfuEO" = _GclJfuEO;
+        "ssnOgxRi" = _ssnOgxRi;
+        "hVeGieoG" = _hVeGieoG;
+        "674rWlAv" = _674rWlAv;
+        "OwdOmog1" = _OwdOmog1;
+        "vzzpdCl9" = _vzzpdCl9;
+        "HHK264G0" = _HHK264G0;
         "fabric-1.20.1" = _5pRuEOKD;
-        "fabric-1.21" = _uMx9l222;
-        "fabric-1.21.1" = _uMx9l222;
+        "fabric-1.21" = _vzzpdCl9;
+        "fabric-1.21.1" = _vzzpdCl9;
         "fabric-1.21.5" = _uNZyjXXZ;
         "fabric-1.21.6" = _ARiLNFGI;
         "fabric-1.21.7" = _ARiLNFGI;
         "fabric-1.21.8" = _ARiLNFGI;
         "fabric-1.21.9" = _pHY0btE8;
-        "fabric-1.21.11" = _MokluOVA;
+        "fabric-1.21.11" = _OwdOmog1;
         "fabric-26.1" = _M3uT9eBR;
         "fabric-26.1.1" = _M3uT9eBR;
-        "fabric-26.1.2" = _qPKOzhZh;
-        "fabric-26.2" = _YfqgolGd;
+        "fabric-26.1.2" = _Xl4qxhj0;
+        "fabric-26.2" = _sjrqQpiX;
         "forge-1.20.1" = _UIxSglQx;
-        "neoforge-1.21" = _6PuTdm1X;
-        "neoforge-1.21.1" = _6PuTdm1X;
+        "neoforge-1.21" = _HHK264G0;
+        "neoforge-1.21.1" = _HHK264G0;
         "neoforge-1.21.5" = _WlWDFrco;
         "neoforge-1.21.6" = _KcVHROFB;
         "neoforge-1.21.7" = _KcVHROFB;
         "neoforge-1.21.8" = _KcVHROFB;
         "neoforge-1.21.9" = _hpvMqu1Z;
-        "neoforge-1.21.11" = _uQWAvtgQ;
+        "neoforge-1.21.11" = _674rWlAv;
         "neoforge-26.1" = _NmYyEzpB;
         "neoforge-26.1.1" = _NmYyEzpB;
-        "neoforge-26.1.2" = _iuecGF1Y;
-        "neoforge-26.2" = _8onEUGQi;
+        "neoforge-26.1.2" = _j8e0bLhO;
+        "neoforge-26.2" = _zNvmsK6o;
         "pkg-1.3" = _HzPPbz28;
         "pkg-1.3.2" = _S1RZqd7U;
         "pkg-1.3.3" = _QWM2Lzxg;
@@ -834,7 +924,13 @@ let
         "pkg-21.2.2" = _YF0bm0FU;
         "pkg-21.2.3" = _YfqgolGd;
         "pkg-20.2.6" = _qPKOzhZh;
-        "default" = _qPKOzhZh;
+        "pkg-9.0.1" = _XtHsZfe1;
+        "pkg-21.2.4" = _zNvmsK6o;
+        "pkg-20.2.7" = _j8e0bLhO;
+        "pkg-19.1.1" = _hVeGieoG;
+        "pkg-19.1.2" = _OwdOmog1;
+        "pkg-9.0.2" = _HHK264G0;
+        "default" = _HHK264G0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jobsplus";

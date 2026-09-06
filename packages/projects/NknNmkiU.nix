@@ -101,6 +101,36 @@ let
             "file" = "integratedmekanism-1.21.1-neoforge-1.0.4-110.jar";
             "hash" = "sha512-8c0L4791MU18ITrhoint6z2V7unk7+Qp3eDZgDQJgs8KDLhwhtsjix+fxyILDgnZ2lUsVC8iLxUMqxDNgmgxfg==";
         };
+        _gZS6A6Zx = {
+            "id" = "gZS6A6Zx";
+            "file" = "integratedmekanism-1.21.1-neoforge-1.0.4-121.jar";
+            "hash" = "sha512-JeQPbH2pp2sEbIFO4UN3Z6GqlWmP21RbH8z39wfR+TYo8EOEfeLbYipF1LY2KDnym7CnHQTMRrlHOn3q9F+AJA==";
+        };
+        _jopn9gZS = {
+            "id" = "jopn9gZS";
+            "file" = "IntegratedMekanism-1.20.1-1.1.0.jar";
+            "hash" = "sha512-M++wyB0AFkR2PW9a70XtfBbwm33NaEO6nz8ifaqa2/A3UuFaFJXRSwNhN8DxOCjlvMwAK97O9SBKRZ8GD60Kzw==";
+        };
+        _sOK7GobZ = {
+            "id" = "sOK7GobZ";
+            "file" = "integratedmekanism-1.21.1-neoforge-1.1.0.jar";
+            "hash" = "sha512-ZSFYG95OZSVBIAREmfyIqZ70GRLD9w+xmbOxQGIP7/tfURWXjexvtw6xYL+3Mh5ARpTLZzY8AphJ4gNfxUIWVw==";
+        };
+        _T9BUwSTk = {
+            "id" = "T9BUwSTk";
+            "file" = "integratedmekanism-1.21.1-neoforge-1.1.0-130.jar";
+            "hash" = "sha512-oT3RfHBgrFBXpoAc2cmmL+6tK4BG3dWhjGxpmBduQFrJlXGqtmrJgi28R3xvlzG8ITwpTZMfh+ECIiLGn7YHzA==";
+        };
+        _xfp2ZMJ0 = {
+            "id" = "xfp2ZMJ0";
+            "file" = "integratedmekanism-1.21.1-neoforge-1.1.0-135.jar";
+            "hash" = "sha512-nrXMbAjBHu92ZgYuk9CL76+JBKK83MUYbhaHhnicXPGclPr/bVrtfpjhGpiGR5sZUKoO4yxA9MXJz+PV+d3/1g==";
+        };
+        _MWL4pMij = {
+            "id" = "MWL4pMij";
+            "file" = "integratedmekanism-1.21.1-neoforge-1.1.1.jar";
+            "hash" = "sha512-SmkrdoLs2nMDJ2h4RpfSEJ0D77Gc3xq0B0A++/9VyOjdEJxgj2IWl4gjsDzHClb5VB4K61XjEk//9xqFQekrsQ==";
+        };
     in {
         "GjkaMGan" = _GjkaMGan;
         "6eVVj5uQ" = _6eVVj5uQ;
@@ -122,8 +152,14 @@ let
         "QzBDxWC6" = _QzBDxWC6;
         "E22YZuzs" = _E22YZuzs;
         "nY2Gi1lR" = _nY2Gi1lR;
-        "neoforge-1.21.1" = _nY2Gi1lR;
-        "forge-1.20.1" = _E22YZuzs;
+        "gZS6A6Zx" = _gZS6A6Zx;
+        "jopn9gZS" = _jopn9gZS;
+        "sOK7GobZ" = _sOK7GobZ;
+        "T9BUwSTk" = _T9BUwSTk;
+        "xfp2ZMJ0" = _xfp2ZMJ0;
+        "MWL4pMij" = _MWL4pMij;
+        "neoforge-1.21.1" = _MWL4pMij;
+        "forge-1.20.1" = _jopn9gZS;
         "pkg-1.21.1-1.0.0-58" = _GjkaMGan;
         "pkg-1.21.1-1.0.0" = _6eVVj5uQ;
         "pkg-1.20.1-1.0.0" = _dIXcowUD;
@@ -144,7 +180,13 @@ let
         "pkg-1.21.1-1.0.4" = _QzBDxWC6;
         "pkg-1.20.1-1.0.4" = _E22YZuzs;
         "pkg-1.21.1-1.0.4-110" = _nY2Gi1lR;
-        "default" = _nY2Gi1lR;
+        "pkg-1.21.1-1.0.4-121" = _gZS6A6Zx;
+        "pkg-1.20.1-1.1.0" = _jopn9gZS;
+        "pkg-1.21.1-1.1.0" = _sOK7GobZ;
+        "pkg-1.21.1-1.1.0-130" = _T9BUwSTk;
+        "pkg-1.21.1-1.1.0-135" = _xfp2ZMJ0;
+        "pkg-1.21.1-1.1.1" = _MWL4pMij;
+        "default" = _MWL4pMij;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "integrated-mekanism";

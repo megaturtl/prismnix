@@ -36,6 +36,11 @@ let
             "file" = "createfurnitureseats-4.8.42.jar";
             "hash" = "sha512-296NfJ2c1l0BSqx49nVa/FGUCcLlET8YsHs3yc0rabr6NiEVLNZrlbFMk+D0LDChRJrYsqeRxm3RJBL/Y1xV0A==";
         };
+        _nCfG3qog = {
+            "id" = "nCfG3qog";
+            "file" = "createfurnitureseats-5.0.jar";
+            "hash" = "sha512-Xt3mpu14hWopn2X2etxVhVmmzzbbmRHVROGh2h+m154wj2PDLjDvVZmQhaF+r35LlZLUlFxZW795gI5yOkBmCQ==";
+        };
     in {
         "fJHp55UP" = _fJHp55UP;
         "Y1AquXHF" = _Y1AquXHF;
@@ -44,7 +49,8 @@ let
         "2H0xTzVD" = _2H0xTzVD;
         "kjRLWQRS" = _kjRLWQRS;
         "l3DpkqVr" = _l3DpkqVr;
-        "neoforge-1.21.1" = _l3DpkqVr;
+        "nCfG3qog" = _nCfG3qog;
+        "neoforge-1.21.1" = _nCfG3qog;
         "pkg-4.5.1" = _fJHp55UP;
         "pkg-4.6.0" = _Y1AquXHF;
         "pkg-4.8.3" = _Kmqr5wXY;
@@ -52,7 +58,8 @@ let
         "pkg-4.8.10" = _2H0xTzVD;
         "pkg-4.8.17" = _kjRLWQRS;
         "pkg-4.8.42" = _l3DpkqVr;
-        "default" = _l3DpkqVr;
+        "pkg-5.0" = _nCfG3qog;
+        "default" = _nCfG3qog;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lets-do-furniture-another-furniture-handcrafted-create-sable";

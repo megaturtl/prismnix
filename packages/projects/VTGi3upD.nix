@@ -686,6 +686,11 @@ let
             "file" = "falsetweaks-mc1.7.10-4.4.4.jar";
             "hash" = "sha512-BgTRMe7dnPlBHP2b2AI0Zvy+rZq2vk00T9Fr4C454J8kTjrNGsIvXDeW/kSIdd4afvzDbhAP35FTqOS5HqgdLw==";
         };
+        _EOCf7pGM = {
+            "id" = "EOCf7pGM";
+            "file" = "falsetweaks-mc1.7.10-4.4.5.jar";
+            "hash" = "sha512-um+6+OVzyL2O+1fiW0ggq8nWXR/i5MQ1GaflQVcIaJxYpxo8cO1qmMgzSigeTrF9pC417WMu6Rnylrqqv7W/tw==";
+        };
     in {
         "tXQmV2Ux" = _tXQmV2Ux;
         "zYBYXuqN" = _zYBYXuqN;
@@ -824,7 +829,8 @@ let
         "vT14H3LP" = _vT14H3LP;
         "lYxyS185" = _lYxyS185;
         "N3x0NnWm" = _N3x0NnWm;
-        "forge-1.7.10" = _N3x0NnWm;
+        "EOCf7pGM" = _EOCf7pGM;
+        "forge-1.7.10" = _EOCf7pGM;
         "pkg-1.4.0" = _tXQmV2Ux;
         "pkg-1.4.1" = _zYBYXuqN;
         "pkg-1.4.2" = _28vSG0Ey;
@@ -962,7 +968,8 @@ let
         "pkg-4.4.2" = _vT14H3LP;
         "pkg-4.4.3" = _lYxyS185;
         "pkg-4.4.4" = _N3x0NnWm;
-        "default" = _N3x0NnWm;
+        "pkg-4.4.5" = _EOCf7pGM;
+        "default" = _EOCf7pGM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "falsetweaks";

@@ -1520,7 +1520,7 @@ let
                 redistributable = false;
                 fullName = "MIT License";
                 shortName = "MIT";
-                url = "https://github.com/axperty/cratedelight/blob/1.21.7-neoforge/LICENSE";
+                url = "https://github.com/axperty/cratedelight/blob/26.2-neoforge/LICENSE";
             };
         };
     };

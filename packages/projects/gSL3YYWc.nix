@@ -231,6 +231,26 @@ let
             "file" = "totem-rituals-v2.1.13.jar";
             "hash" = "sha512-ccns43m5iwLX4dtin392WX9cVOXo2C3KGCVmvOIwDyB61Byr4LK/npOMfGjpHNhdKJYzEU/kLqXHeah6/x2t3A==";
         };
+        _63eqczzY = {
+            "id" = "63eqczzY";
+            "file" = "rituals-plugin-2.1.25.jar";
+            "hash" = "sha512-3WnQ4YLD/FLG++cA5hfVuDYH44MLWGEWfVa+KFEGl0+vKs/7K2SHsPARH70CcjXjRNdZuQE/spqt0foGpMR77w==";
+        };
+        _qPgLXx9k = {
+            "id" = "qPgLXx9k";
+            "file" = "rituals.zip";
+            "hash" = "sha512-ZBi0Yl6Wg0yCME1obPLxm2qtMSFUiIi4Gtb/30Z6ynGi2h5Hd7w8JJl4aYLSK+EhvB/XJsHeJsddrPZVFSX2iQ==";
+        };
+        _hNneNSfQ = {
+            "id" = "hNneNSfQ";
+            "file" = "totem-rituals-2.1.25-datapack.jar";
+            "hash" = "sha512-+WGSugYwMahk6OSOaqKEUDK3pwcLwv7zkY48RG9GEvCmFUJQC+z4SF7qRaTS8lG2yXE7hko0fnMfwr7fqR9m1w==";
+        };
+        _zUDWUsm8 = {
+            "id" = "zUDWUsm8";
+            "file" = "compressy-plugin-2.6.8.jar";
+            "hash" = "sha512-jOSD43hT6oEVxG73V/8Vf2p1ihuUrfmCvVh7RkcGybC9c1cF/HAHQfGQgpgTalRY1qNEJRlmigdJtMmu2hXwwA==";
+        };
     in {
         "qXcc7qxJ" = _qXcc7qxJ;
         "TFxUEmKZ" = _TFxUEmKZ;
@@ -278,10 +298,14 @@ let
         "LctFmnP6" = _LctFmnP6;
         "rvKErkMF" = _rvKErkMF;
         "bvrY4SVH" = _bvrY4SVH;
+        "63eqczzY" = _63eqczzY;
+        "qPgLXx9k" = _qPgLXx9k;
+        "hNneNSfQ" = _hNneNSfQ;
+        "zUDWUsm8" = _zUDWUsm8;
         "datapack-1.21.10" = _dLlJ6gAt;
         "datapack-1.21.11" = _dLlJ6gAt;
         "datapack-1.21.9" = _dLlJ6gAt;
-        "datapack-26.2" = _LctFmnP6;
+        "datapack-26.2" = _qPgLXx9k;
         "fabric-1.21.10" = _84ml8jk5;
         "fabric-1.21" = _44BKxd89;
         "fabric-1.21.1" = _44BKxd89;
@@ -294,13 +318,13 @@ let
         "fabric-1.21.8" = _44BKxd89;
         "fabric-1.21.9" = _44BKxd89;
         "fabric-1.21.11" = _hpUbqDwJ;
-        "fabric-26.2" = _bvrY4SVH;
-        "spigot-26.2" = _rvKErkMF;
-        "paper-26.2" = _rvKErkMF;
-        "bukkit-26.2" = _rvKErkMF;
-        "forge-26.2" = _bvrY4SVH;
-        "neoforge-26.2" = _bvrY4SVH;
-        "quilt-26.2" = _bvrY4SVH;
+        "fabric-26.2" = _hNneNSfQ;
+        "spigot-26.2" = _zUDWUsm8;
+        "paper-26.2" = _zUDWUsm8;
+        "bukkit-26.2" = _zUDWUsm8;
+        "forge-26.2" = _hNneNSfQ;
+        "neoforge-26.2" = _hNneNSfQ;
+        "quilt-26.2" = _hNneNSfQ;
         "pkg-0.0.1" = _qXcc7qxJ;
         "pkg-0.0.2" = _TFxUEmKZ;
         "pkg-0.0.3" = _9Qz5aULt;
@@ -326,9 +350,14 @@ let
         "pkg-2.0.0" = _VWnsAinv;
         "pkg-2.1.0" = _vPsgLSsi;
         "pkg-2.1.1" = _de0NYkoP;
-        "pkg-v2.1.13" = _rvKErkMF;
-        "pkg-v2.1.13+mod" = _bvrY4SVH;
-        "default" = _bvrY4SVH;
+        "pkg-2.1.13-datapack" = _LctFmnP6;
+        "pkg-2.1.13-plugin" = _rvKErkMF;
+        "pkg-2.1.13-datapack+mod" = _bvrY4SVH;
+        "pkg-2.1.25-plugin" = _63eqczzY;
+        "pkg-2.1.25-datapack" = _qPgLXx9k;
+        "pkg-2.1.25-datapack+mod" = _hNneNSfQ;
+        "pkg-2.6.8-plugin" = _zUDWUsm8;
+        "default" = _zUDWUsm8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "totem-rituals";

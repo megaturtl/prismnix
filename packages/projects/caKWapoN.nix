@@ -116,6 +116,11 @@ let
             "file" = "codmod-1.12.2.jar";
             "hash" = "sha512-nvofdkP12srHEkdtoNdUPqPrgWVucoO0zAiAQSITGm9ugAFNnmgacokl6BfaeyaanuTmXBu2YF0JxlQQoPjlRw==";
         };
+        _stdt7QYr = {
+            "id" = "stdt7QYr";
+            "file" = "codmod-1.13.jar";
+            "hash" = "sha512-QDNw1QlmSZ0Wm6eoDd+izG+xzvdIyU2MsJCCdLKT2q6oUTj0CGCge9BsFd74kjFbW5cMNoVVskLRvH+aePhhLQ==";
+        };
     in {
         "uXzm9ZwC" = _uXzm9ZwC;
         "dSOjFpYM" = _dSOjFpYM;
@@ -140,7 +145,8 @@ let
         "J6buwWhV" = _J6buwWhV;
         "wUEWqmnh" = _wUEWqmnh;
         "sUYRZGEu" = _sUYRZGEu;
-        "neoforge-1.21.1" = _sUYRZGEu;
+        "stdt7QYr" = _stdt7QYr;
+        "neoforge-1.21.1" = _stdt7QYr;
         "pkg-1.6.2" = _uXzm9ZwC;
         "pkg-1.6.3" = _dSOjFpYM;
         "pkg-1.6.5" = _8R1yaAIy;
@@ -164,7 +170,8 @@ let
         "pkg-1.12" = _J6buwWhV;
         "pkg-1.12.1" = _wUEWqmnh;
         "pkg-1.12.2" = _sUYRZGEu;
-        "default" = _sUYRZGEu;
+        "pkg-1.13" = _stdt7QYr;
+        "default" = _stdt7QYr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cod-mod";

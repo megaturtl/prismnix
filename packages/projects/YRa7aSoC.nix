@@ -26,19 +26,26 @@ let
             "file" = "hitcolorplus-v2.2.0+mc1.21.11-fabric.jar";
             "hash" = "sha512-jaZqdQWHE1YzZhgLjCbG/8BzzUUyIJSOFwEJTH49rIy1WHH/oTjirUVZTrofW+BS2mSJN+DmRgmwxu4HCHye+g==";
         };
+        _23aOepCq = {
+            "id" = "23aOepCq";
+            "file" = "hitcolorplus-v2.3.0+mc1.21.11-fabric.jar";
+            "hash" = "sha512-Nh4wAMf+OtA3rjuP3X8RooaE5YEA4OUN4DNgypgm9x3L/QMPiVlrnTWrxgJiOd7TI3qIJS/T7BFrHWSo/0vwJw==";
+        };
     in {
         "koQ3E3oH" = _koQ3E3oH;
         "s6slQqJH" = _s6slQqJH;
         "44map3At" = _44map3At;
         "kjqdJoao" = _kjqdJoao;
         "urHZHPoM" = _urHZHPoM;
-        "fabric-1.21.11" = _urHZHPoM;
+        "23aOepCq" = _23aOepCq;
+        "fabric-1.21.11" = _23aOepCq;
         "pkg-v1.0.0" = _koQ3E3oH;
         "pkg-v2.0.0" = _s6slQqJH;
         "pkg-v2.1.0" = _44map3At;
         "pkg-v2.1.1" = _kjqdJoao;
         "pkg-v2.2.0" = _urHZHPoM;
-        "default" = _urHZHPoM;
+        "pkg-v2.3.0" = _23aOepCq;
+        "default" = _23aOepCq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hitcolor+";

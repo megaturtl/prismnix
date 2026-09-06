@@ -106,6 +106,16 @@ let
             "file" = "SpectralDecorations-1.9.0-1.21.1-neo.jar";
             "hash" = "sha512-3m4d6DyzkLHwc8eBZfrE2pMMR90srTafv9Taqe9FWtvc2+9kyTDkZ2N8aop2Elsffx03O/MgqNGVWnNJzg3zoQ==";
         };
+        _fNnWkuNh = {
+            "id" = "fNnWkuNh";
+            "file" = "SpectralDecorations-1.9.1-1.21.1-neo.jar";
+            "hash" = "sha512-6hZw+gF9Vi7353XDTdO3/HHHaTCR1fAw8unDulkrcMhB5XMnm7TSbnvgxI6ONPIaTgowYnayu187C1Tinxppiw==";
+        };
+        _O58X367S = {
+            "id" = "O58X367S";
+            "file" = "SpectralDecorations-1.10.0-1.21.1-neo.jar";
+            "hash" = "sha512-i7ZQytvqD3PS93gGgofKKra5sPQj+TE0g3ybrjxJ46DeL0Fj7sjEUi/R2TLZ5ceV2I2MYfD6Ic3dxMrWl/89vw==";
+        };
     in {
         "WZk0minE" = _WZk0minE;
         "HH5qwSUb" = _HH5qwSUb;
@@ -128,12 +138,14 @@ let
         "6IK3Wlyr" = _6IK3Wlyr;
         "ZNZTsznR" = _ZNZTsznR;
         "AQSRT0ho" = _AQSRT0ho;
+        "fNnWkuNh" = _fNnWkuNh;
+        "O58X367S" = _O58X367S;
         "fabric-1.20.1" = _K4YUpKqE;
         "fabric-1.19.2" = _B47LRHyi;
         "fabric-1.21.1" = _ZNZTsznR;
         "quilt-1.20.1" = _V9PtSsCo;
         "quilt-1.19.2" = _B47LRHyi;
-        "neoforge-1.21.1" = _AQSRT0ho;
+        "neoforge-1.21.1" = _O58X367S;
         "pkg-1.0.0" = _WZk0minE;
         "pkg-1.1.0" = _A4JJxJYN;
         "pkg-1.2.0" = _1CsKljow;
@@ -152,7 +164,9 @@ let
         "pkg-1.8.2-1.21.1-neo" = _6IK3Wlyr;
         "pkg-1.8.2-1.21.1-fabric" = _ZNZTsznR;
         "pkg-1.9.0-1.21.1-neo" = _AQSRT0ho;
-        "default" = _AQSRT0ho;
+        "pkg-1.9.1-1.21.1-neo" = _fNnWkuNh;
+        "pkg-1.10.0-1.21.1-neo" = _O58X367S;
+        "default" = _O58X367S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spectral-decorations";

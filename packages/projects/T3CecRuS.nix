@@ -11,13 +11,20 @@ let
             "file" = "createphantom-1.0.1.jar";
             "hash" = "sha512-tIYzMlq5MDkHjDAgotAOlbn9V9jjNdeCK8CUh7LBIsgYdY+cdmwWOSsT94fQDMzelxoVCdMc0tKrJHwkYSMMzg==";
         };
+        _yzWx1UfX = {
+            "id" = "yzWx1UfX";
+            "file" = "createphantom-1.0.2.jar";
+            "hash" = "sha512-HR6ymLiEOnJCroMoMLhf07qLNYRROc/9RdbJp3q2rXtxLyvLB786HLMSpS2rU40T5eGWfNYoJMGUHAb6W5/kEA==";
+        };
     in {
         "IPo7v81g" = _IPo7v81g;
         "HLDBIKtJ" = _HLDBIKtJ;
-        "neoforge-1.21.1" = _HLDBIKtJ;
+        "yzWx1UfX" = _yzWx1UfX;
+        "neoforge-1.21.1" = _yzWx1UfX;
         "pkg-1.0.0" = _IPo7v81g;
         "pkg-1.0.1" = _HLDBIKtJ;
-        "default" = _HLDBIKtJ;
+        "pkg-1.0.2" = _yzWx1UfX;
+        "default" = _yzWx1UfX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "createphantom";

@@ -46,6 +46,11 @@ let
             "file" = "progeny-1.5.1-forge-1.20.1.jar";
             "hash" = "sha512-bgyNuLYTa4C18H70nsQ+zMI0WLldUjcrocudD2fMRxJiftfif6zK+YbdnAr94rAKH4s8tkEFM8hZtjh0+4Wd1A==";
         };
+        _THZwgEkT = {
+            "id" = "THZwgEkT";
+            "file" = "progeny-1.5.2-forge-1.20.1.jar";
+            "hash" = "sha512-KFrh2WftSUjSr7mh9jbkm3UMJBd9Aw8ra7IymPvLN2s04JxtlCyWHg8bNcBUG+0GAA9onsWX5mGXnsIPjTfD2w==";
+        };
     in {
         "bgtDxAUd" = _bgtDxAUd;
         "12Uk4JKq" = _12Uk4JKq;
@@ -56,7 +61,8 @@ let
         "hkxSwTi2" = _hkxSwTi2;
         "1h0zstrv" = _1h0zstrv;
         "36yaKo4D" = _36yaKo4D;
-        "forge-1.20.1" = _36yaKo4D;
+        "THZwgEkT" = _THZwgEkT;
+        "forge-1.20.1" = _THZwgEkT;
         "pkg-1.0.2" = _bgtDxAUd;
         "pkg-1.3.1" = _12Uk4JKq;
         "pkg-1.4.1" = _KENuNT3E;
@@ -66,7 +72,8 @@ let
         "pkg-1.4.11" = _hkxSwTi2;
         "pkg-1.5.0" = _1h0zstrv;
         "pkg-1.5.1" = _36yaKo4D;
-        "default" = _36yaKo4D;
+        "pkg-1.5.2" = _THZwgEkT;
+        "default" = _THZwgEkT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "progeny-mod";

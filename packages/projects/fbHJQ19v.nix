@@ -246,6 +246,11 @@ let
             "file" = "rep_ae2_bridge-1.8.0.0.0-neoforge-1.21.1.jar";
             "hash" = "sha512-kiE/VW46nrhtWXfJhbZYaGllYWd2IHFcSysjmP3sZu4Fmin+EYjy7Sa/n6gmLePo4BWU7AiBMOnUup3Vj3H0wA==";
         };
+        _46DdxNCu = {
+            "id" = "46DdxNCu";
+            "file" = "rep_ae2_bridge-1.8.0.0.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-Aw4I+ROGcZ/wbP/vCcSEkolOIicpkbWgM7l5FlH2jlK8jKi8WBg1N+q2XUKZ0884qYQYHQSM+ZrUm35PYsfThQ==";
+        };
     in {
         "Sox5q1J7" = _Sox5q1J7;
         "E4MACj6k" = _E4MACj6k;
@@ -296,7 +301,8 @@ let
         "Hzq6B7if" = _Hzq6B7if;
         "fAKQth5S" = _fAKQth5S;
         "o9m25brA" = _o9m25brA;
-        "neoforge-1.21.1" = _o9m25brA;
+        "46DdxNCu" = _46DdxNCu;
+        "neoforge-1.21.1" = _46DdxNCu;
         "neoforge-1.20.1" = _toLttViz;
         "neoforge-1.20.2" = _toLttViz;
         "neoforge-1.20.3" = _toLttViz;
@@ -349,7 +355,8 @@ let
         "pkg-1.7.0.1.4" = _Hzq6B7if;
         "pkg-1.7.0.2.0" = _fAKQth5S;
         "pkg-1.8.0.0.0" = _o9m25brA;
-        "default" = _o9m25brA;
+        "pkg-1.8.0.0.1" = _46DdxNCu;
+        "default" = _46DdxNCu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "replication-ae2-bridge";

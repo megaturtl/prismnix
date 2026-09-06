@@ -26,19 +26,26 @@ let
             "file" = "clothes_and_more-1.0.4-neoforge-1.21.1.jar";
             "hash" = "sha512-EWtvkPTwRMCPGzRlrJhQkH6VLDsqrk8DIEZzVVozQNjXCVKQr3dO/wxan80VKWtv4OPZraQDYAr2j/bQCSY+9g==";
         };
+        _zbRXMfBW = {
+            "id" = "zbRXMfBW";
+            "file" = "clothes_and_more-1.0.5-forge-1.20.1.jar";
+            "hash" = "sha512-4te/bOAQRJrUyHByL2LfIvkcZdB8EcyVgkyHFrCr+Pxa7HjZOaW7LUqCTLMgFIg3Agu9nzRJfmzw0fA3LwR+nQ==";
+        };
     in {
         "WgWlqShr" = _WgWlqShr;
         "XIwHUrd3" = _XIwHUrd3;
         "iMqUN0u3" = _iMqUN0u3;
         "hBUSHD2M" = _hBUSHD2M;
         "l010rhGM" = _l010rhGM;
-        "forge-1.20.1" = _hBUSHD2M;
+        "zbRXMfBW" = _zbRXMfBW;
+        "forge-1.20.1" = _zbRXMfBW;
         "neoforge-1.21.1" = _l010rhGM;
         "pkg-1.0.1" = _WgWlqShr;
         "pkg-1.0.2" = _XIwHUrd3;
         "pkg-1.0.3" = _iMqUN0u3;
         "pkg-1.0.4" = _l010rhGM;
-        "default" = _l010rhGM;
+        "pkg-1.0.5" = _zbRXMfBW;
+        "default" = _zbRXMfBW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "clothes-and-more";

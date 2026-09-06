@@ -601,6 +601,36 @@ let
             "file" = "spectrum-1.11.9-1.21.1-neo.jar";
             "hash" = "sha512-ALCqdd9B22x5oJVW6p1MpEaZeyCfHSZcTlNG6P0zn/lIdInMkSQZDGdX4GyCDpkzPtpPnLXEPxHqMAYIw+bqjw==";
         };
+        _iI3E0zeX = {
+            "id" = "iI3E0zeX";
+            "file" = "spectrum-1.12.0-1.21.1-neo.jar";
+            "hash" = "sha512-7WiUniVoReN7t7tj9gj5100Z2JitXtN7PJaGK1XFIymZRj0/cSA0fdAIW7nVGgJhMz4LJKpAEeu5z9w6VrYPWg==";
+        };
+        _LDOns3yY = {
+            "id" = "LDOns3yY";
+            "file" = "spectrum-1.12.1-1.21.1-neo.jar";
+            "hash" = "sha512-sBlcE/Zz9cxVqOQEng5tXQ/22CkZDbktD3V+EVTJ/PPxQO2EcmZBZsqu53LecZEk5xzL0wTsMNEak/hNDhAGjg==";
+        };
+        _R529sxrY = {
+            "id" = "R529sxrY";
+            "file" = "spectrum-1.12.2-1.21.1-neo.jar";
+            "hash" = "sha512-3AlDUfXuVgE4ohMbf0RycA5jygJvfJpF5MZtW5DqH2rM01r/7s5t49a5n3So3yvCA8JRETAtXRGG1BlNiOgPwg==";
+        };
+        _k43I6fSM = {
+            "id" = "k43I6fSM";
+            "file" = "spectrum-1.12.3-1.21.1-neo.jar";
+            "hash" = "sha512-eRRYOHYGL5qcrg8aBrZ8WdydAmLHnMp76bes8zHl+DTejVOrCg0AhPb2xYaOkCQnXVsqFdpn1p97XuhVbDytjw==";
+        };
+        _D6YaamP0 = {
+            "id" = "D6YaamP0";
+            "file" = "spectrum-1.12.4-1.21.1-neo.jar";
+            "hash" = "sha512-RQ+HPMCXKWUFasDXmzqiesgGDtNhxNLXjPj+4rp6L/ezCaJIWi6QbEYPTkTZoeErVaYfT+gnNfO+SKSURCuzaQ==";
+        };
+        _cE3gyVDM = {
+            "id" = "cE3gyVDM";
+            "file" = "spectrum-1.12.5-1.21.1-neo.jar";
+            "hash" = "sha512-lQUUO6YCJeUTnLT7Iu4dNnsskebJGJTiX7pFp6LrKBNrjz6pV0bJ0HhpG4eKEmK+8Tm6Lb7/LtPHiPa53e2kfQ==";
+        };
     in {
         "ZqiJ0my1" = _ZqiJ0my1;
         "XgqfsaxR" = _XgqfsaxR;
@@ -722,6 +752,12 @@ let
         "iFygi3tE" = _iFygi3tE;
         "mASbQyNB" = _mASbQyNB;
         "hmp012Bw" = _hmp012Bw;
+        "iI3E0zeX" = _iI3E0zeX;
+        "LDOns3yY" = _LDOns3yY;
+        "R529sxrY" = _R529sxrY;
+        "k43I6fSM" = _k43I6fSM;
+        "D6YaamP0" = _D6YaamP0;
+        "cE3gyVDM" = _cE3gyVDM;
         "fabric-1.18.1" = _HYBdfvhk;
         "fabric-1.18.2" = _7YmKE57s;
         "fabric-1.19.2" = _cZcvzTh4;
@@ -729,7 +765,7 @@ let
         "fabric-1.21.1" = _iFygi3tE;
         "quilt-1.19.2" = _bkeScaQT;
         "quilt-1.20.1" = _8Ri3sl6F;
-        "neoforge-1.21.1" = _hmp012Bw;
+        "neoforge-1.21.1" = _cE3gyVDM;
         "pkg-1.0.0" = _ZqiJ0my1;
         "pkg-1.0.1" = _XgqfsaxR;
         "pkg-1.1.4" = _CMmKunJD;
@@ -833,7 +869,13 @@ let
         "pkg-1.10.5-1.21.1-fabric" = _iFygi3tE;
         "pkg-1.11.8-1.21.1-neo" = _mASbQyNB;
         "pkg-1.11.9-1.21.1-neo" = _hmp012Bw;
-        "default" = _hmp012Bw;
+        "pkg-1.12.0-1.21.1-neo" = _iI3E0zeX;
+        "pkg-1.12.1-1.21.1-neo" = _LDOns3yY;
+        "pkg-1.12.2-1.21.1-neo" = _R529sxrY;
+        "pkg-1.12.3-1.21.1-neo" = _k43I6fSM;
+        "pkg-1.12.4-1.21.1-neo" = _D6YaamP0;
+        "pkg-1.12.5-1.21.1-neo" = _cE3gyVDM;
+        "default" = _cE3gyVDM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spectrum";

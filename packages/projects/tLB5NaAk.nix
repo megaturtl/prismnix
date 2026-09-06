@@ -111,6 +111,16 @@ let
             "file" = "HandmadeGunsOverdrive-3.3.0.11.jar";
             "hash" = "sha512-/ll3M13qyL0Kyva5A4J8uzIF13yhxYen2AUpo8w3JQu8MhvpuSaSgJgJ06dQvJl8BJNvmsetYa6breQFYb54Nw==";
         };
+        _ExHRitQT = {
+            "id" = "ExHRitQT";
+            "file" = "HandmadeGunsOverdrive-3.3.1.5.jar";
+            "hash" = "sha512-1GGC2m6ilf0FI1nDA1KDELzO3ql9x9Fz0M+tBst4DN+gKJHO/6a5RGt1TWTTtpcSXyGihnuEKAlP0e+G/knt0A==";
+        };
+        _sywnowDb = {
+            "id" = "sywnowDb";
+            "file" = "HandmadeGunsOverdrive-3.3.2.2.jar";
+            "hash" = "sha512-ytdFuBybaFLxP//R/rWvbQAjhlvHOxYpt9KFIoaD75CERXDKAIbZ8H6okRNY8gX7E1oABv+X5P7r/YEqhq6D7A==";
+        };
     in {
         "2mmheXcU" = _2mmheXcU;
         "UI3WG8g7" = _UI3WG8g7;
@@ -134,7 +144,9 @@ let
         "xOoGUylU" = _xOoGUylU;
         "ytsVq9jr" = _ytsVq9jr;
         "nbADGzwE" = _nbADGzwE;
-        "forge-1.7.10" = _nbADGzwE;
+        "ExHRitQT" = _ExHRitQT;
+        "sywnowDb" = _sywnowDb;
+        "forge-1.7.10" = _sywnowDb;
         "pkg-1.0" = _2mmheXcU;
         "pkg-1.3" = _UI3WG8g7;
         "pkg-1.4" = _jwWgD3C9;
@@ -156,7 +168,9 @@ let
         "pkg-3.2.6" = _xOoGUylU;
         "pkg-3.2.7" = _ytsVq9jr;
         "pkg-3.3.0.11" = _nbADGzwE;
-        "default" = _nbADGzwE;
+        "pkg-3.3.1" = _ExHRitQT;
+        "pkg-3.3.2.2" = _sywnowDb;
+        "default" = _sywnowDb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "handmade-guns-overdrive";

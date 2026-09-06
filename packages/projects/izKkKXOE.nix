@@ -36,6 +36,21 @@ let
             "file" = "jousting-1.21.0-v1.0.10.jar";
             "hash" = "sha512-Ys8BLBLwi7ESqKtvuHuSLM01/2W6oMER08bll5hvc+0Aug+iH6iFeaGhgRXHS3MaJqUyDCg9ozBpmTT8vqVjRQ==";
         };
+        _3Be1PKzY = {
+            "id" = "3Be1PKzY";
+            "file" = "jousting-26.1.2-v1.0.12.jar";
+            "hash" = "sha512-lVEOAABLvJzasGgMnmEpijD6ZgbQT/ZDaaEFfltOPi5mNV9NNGZufNIjURjyB3YjZU6/tf1rUNxWyXt7KcwAPw==";
+        };
+        _dOQt2Yoa = {
+            "id" = "dOQt2Yoa";
+            "file" = "jousting-1.20.1-v1.0.9.jar";
+            "hash" = "sha512-x60JZH+ZNZpRGpu3jBLp0p/gZK/N3LWZw4X8BQ2uhKvEBpsHm9Q8OjGnrM4xuomkB1iU9LU/0nNhNZHloceR8Q==";
+        };
+        _AyOwmloF = {
+            "id" = "AyOwmloF";
+            "file" = "jousting-1.21.0-v1.0.12.jar";
+            "hash" = "sha512-brqIZwZnB82K5xAIkhcp7/mrHZsaOb2q1wBAIuBh4erj5pugdkNIjohERlJLQyemuR2vj4QDzljEweedmAi6wg==";
+        };
     in {
         "HP0Ocm5p" = _HP0Ocm5p;
         "8bvMjRTH" = _8bvMjRTH;
@@ -44,6 +59,9 @@ let
         "V2HR1uOd" = _V2HR1uOd;
         "WO2SKXy8" = _WO2SKXy8;
         "LCqtx6Bh" = _LCqtx6Bh;
+        "3Be1PKzY" = _3Be1PKzY;
+        "dOQt2Yoa" = _dOQt2Yoa;
+        "AyOwmloF" = _AyOwmloF;
         "forge-1.15.2" = _HP0Ocm5p;
         "forge-1.16.5" = _8bvMjRTH;
         "forge-1.17.1" = _bKQ74sE7;
@@ -53,7 +71,11 @@ let
         "forge-1.19" = _WO2SKXy8;
         "forge-1.19.1" = _WO2SKXy8;
         "forge-1.19.2" = _WO2SKXy8;
+        "forge-1.20.1" = _dOQt2Yoa;
+        "forge-1.21.1" = _AyOwmloF;
         "neoforge-1.21" = _LCqtx6Bh;
+        "neoforge-26.1.2" = _3Be1PKzY;
+        "neoforge-1.21.1" = _AyOwmloF;
         "pkg-jousting-1.15.2-v1.0.3" = _HP0Ocm5p;
         "pkg-jousting-1.16.5-v1.0.5" = _8bvMjRTH;
         "pkg-jousting-1.17.1-v1.0.4" = _bKQ74sE7;
@@ -61,7 +83,9 @@ let
         "pkg-jousting-1.19.0-v1.0.5" = _V2HR1uOd;
         "pkg-1.19.0-v1.0.7" = _WO2SKXy8;
         "pkg-1.0.10" = _LCqtx6Bh;
-        "default" = _LCqtx6Bh;
+        "pkg-v1.0.12" = _AyOwmloF;
+        "pkg-v1.0.9" = _dOQt2Yoa;
+        "default" = _AyOwmloF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jousting";

@@ -56,6 +56,11 @@ let
             "file" = "vegehenna-0.6-1.21.1.jar";
             "hash" = "sha512-nJANvSvaBm+J4s7DptJKtFEVbNpjPWv24xr5Ox62AWX9k7cNv4sgIh40TkMLerbnRP1+A5Oy06HPacaasa89Qg==";
         };
+        _Ahf4Lcvd = {
+            "id" = "Ahf4Lcvd";
+            "file" = "vegehenna-0.7-1.21.1.jar";
+            "hash" = "sha512-QVhg6GXdmWGS0Fsty3XfgmiFZUS7x765S/ydf/71n92DVAy4OHnVcLO8wHzTdvgrfvKgInlHX+cw8vr5WxRDnQ==";
+        };
     in {
         "w7tCbSFc" = _w7tCbSFc;
         "Lemdk6DP" = _Lemdk6DP;
@@ -68,7 +73,8 @@ let
         "2uwxisyO" = _2uwxisyO;
         "vtHAJdfh" = _vtHAJdfh;
         "eSwCWqfn" = _eSwCWqfn;
-        "fabric-1.21.1" = _eSwCWqfn;
+        "Ahf4Lcvd" = _Ahf4Lcvd;
+        "fabric-1.21.1" = _Ahf4Lcvd;
         "pkg-0.1" = _w7tCbSFc;
         "pkg-0.1.1" = _Lemdk6DP;
         "pkg-0.2" = _Pf5OSG8V;
@@ -80,7 +86,8 @@ let
         "pkg-0.5.1" = _2uwxisyO;
         "pkg-0.5.2" = _vtHAJdfh;
         "pkg-0.6" = _eSwCWqfn;
-        "default" = _eSwCWqfn;
+        "pkg-0.7" = _Ahf4Lcvd;
+        "default" = _Ahf4Lcvd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vegehenna";

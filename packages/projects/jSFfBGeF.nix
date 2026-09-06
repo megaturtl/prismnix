@@ -76,6 +76,16 @@ let
             "file" = "dangerousstonecutter-forge-mc1.19.4-1.8.0.jar";
             "hash" = "sha512-kj73oUmvkPGVzkBXXQScCm0PM9JdzqH+DlO1GU1lHAPayBSf6X/QWqXyKJS+cgEllts8UxOA7LFdq8XEhx/Ctg==";
         };
+        _L3eQT7a8 = {
+            "id" = "L3eQT7a8";
+            "file" = "dangerousstonecutter-neoforge-mc1.21.1-1.9.0.jar";
+            "hash" = "sha512-wuSXgZnffU3mPZb8rGu0pN97uRFdIttflTyVwCgBqly4pJI4Q4jCoiyHVnQtrjksuK77LLvYrZFrCUCdGhZqbg==";
+        };
+        _XISpsH9B = {
+            "id" = "XISpsH9B";
+            "file" = "dangerousstonecutter-fabric-mc1.21.1-1.9.0.jar";
+            "hash" = "sha512-9JS85DRAjX/8bVu56vysVviblb9h10NJ7kAEH460hYpnZd22Rq9ZFm27ICwZXGjbQej0K3JZNKJ/HtJKmhPoaA==";
+        };
     in {
         "InJyrGoD" = _InJyrGoD;
         "XRWjVkRo" = _XRWjVkRo;
@@ -92,6 +102,8 @@ let
         "WjXD8tuJ" = _WjXD8tuJ;
         "qcD4vJaq" = _qcD4vJaq;
         "jGhax5lY" = _jGhax5lY;
+        "L3eQT7a8" = _L3eQT7a8;
+        "XISpsH9B" = _XISpsH9B;
         "forge-1.14.4" = _InJyrGoD;
         "forge-1.15.1" = _XRWjVkRo;
         "forge-1.15.2" = _XRWjVkRo;
@@ -118,6 +130,7 @@ let
         "fabric-1.19.4" = _qcD4vJaq;
         "fabric-1.20" = _qcD4vJaq;
         "fabric-1.20.1" = _qcD4vJaq;
+        "fabric-1.21.1" = _XISpsH9B;
         "quilt-1.18.2" = _qTIczy3k;
         "quilt-1.19" = _fvPNqoBu;
         "quilt-1.19.1" = _fvPNqoBu;
@@ -126,6 +139,8 @@ let
         "quilt-1.19.4" = _qcD4vJaq;
         "quilt-1.20" = _qcD4vJaq;
         "quilt-1.20.1" = _qcD4vJaq;
+        "quilt-1.21.1" = _XISpsH9B;
+        "neoforge-1.21.1" = _L3eQT7a8;
         "pkg-1.14.4-1.2" = _InJyrGoD;
         "pkg-1.15.1-1.2" = _XRWjVkRo;
         "pkg-1.16.2-1.4" = _S50kEDUh;
@@ -141,7 +156,9 @@ let
         "pkg-1.19-1.7.2-Forge" = _WjXD8tuJ;
         "pkg-1.19.4-1.8.0-Fabric" = _qcD4vJaq;
         "pkg-1.19.4-1.8.0-Forge" = _jGhax5lY;
-        "default" = _jGhax5lY;
+        "pkg-1.21.1-1.9.0-NeoForge" = _L3eQT7a8;
+        "pkg-1.21.1-1.9.0-Fabric" = _XISpsH9B;
+        "default" = _XISpsH9B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dangerousstonecutter";

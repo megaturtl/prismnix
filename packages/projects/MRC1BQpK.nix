@@ -206,6 +206,36 @@ let
             "file" = "hexFlow-neoforge-1.21.1-0.5.1.2-pre35.jar";
             "hash" = "sha512-nL/tsRE+4GGkZKBpLdGTKK/FT3n7/8MpAOetmqLqw1Y9UprFGhRy4+iLgupPrs+KIqrCt+QU47dhtQ0Xx10D/A==";
         };
+        _IYbFPWIL = {
+            "id" = "IYbFPWIL";
+            "file" = "hexFlow-fabric-1.20.1-0.6.0.jar";
+            "hash" = "sha512-awMQp5ohtex9KqOKELl6pxX+h6aHTeaVKPIz45NHkgszfQEXJVeFQPLFPiNS6zuMxT63EuadnfLxpeLnnFUNmQ==";
+        };
+        _43sPpmOZ = {
+            "id" = "43sPpmOZ";
+            "file" = "hexFlow-fabric-1.21.1-0.6.0-pre47.jar";
+            "hash" = "sha512-lWhlWt5nehDWw5BjNGTQemVeqLh4HR82e1EoTOfFSUDmh2mf+L6TDLyjHxnlNuH7r7TenygcWJl4U1+dOsKNGQ==";
+        };
+        _b17m9xMc = {
+            "id" = "b17m9xMc";
+            "file" = "hexFlow-forge-1.20.1-0.6.0.jar";
+            "hash" = "sha512-xxeIh6k7JvywUlPMRwlW6FCYUN881ypeJlnBv+rDVVjmCTfAk7TPV076hKNy2FJRBKGtPjXdnBYQHs3/rM51Ig==";
+        };
+        _TSCR1pIb = {
+            "id" = "TSCR1pIb";
+            "file" = "hexFlow-neoforge-1.21.1-0.6.0-pre47.jar";
+            "hash" = "sha512-AsogYkz7yMYTM9OnuEUlsvy6G4alk6lMpWFP/+86J16bqTGP4H0FcYCiBSX7uoIubor1AxRFzaiuv2fU43n2xw==";
+        };
+        _9CRu8oGi = {
+            "id" = "9CRu8oGi";
+            "file" = "hexFlow-fabric-1.21.1-0.6.0.pre53.jar";
+            "hash" = "sha512-omQmID125og+80Q5nUiTGuoAVfgeOb3kndHqTrFYK8jpBygjgj8F1yuxoOiwDORgsBM4GBZxep6I7tDvjQDJmQ==";
+        };
+        _GuP9mx8Y = {
+            "id" = "GuP9mx8Y";
+            "file" = "hexFlow-neoforge-1.21.1-0.6.0.pre53.jar";
+            "hash" = "sha512-SrbaPQw9Ar7XZMeHR98z7+SBbg25S5Cf3wBPaT94rx6fobcJ7NtVTaPQyglcYjah3Pv20g+hX5W8c4eJSKC/wA==";
+        };
     in {
         "IFVxAoYi" = _IFVxAoYi;
         "LDZoyIuc" = _LDZoyIuc;
@@ -248,10 +278,16 @@ let
         "iPlBX4xM" = _iPlBX4xM;
         "cbVA1r2M" = _cbVA1r2M;
         "FYj0mUBi" = _FYj0mUBi;
-        "forge-1.20.1" = _FVO4p76I;
-        "fabric-1.20.1" = _pg6unv3v;
-        "fabric-1.21.1" = _cbVA1r2M;
-        "neoforge-1.21.1" = _FYj0mUBi;
+        "IYbFPWIL" = _IYbFPWIL;
+        "43sPpmOZ" = _43sPpmOZ;
+        "b17m9xMc" = _b17m9xMc;
+        "TSCR1pIb" = _TSCR1pIb;
+        "9CRu8oGi" = _9CRu8oGi;
+        "GuP9mx8Y" = _GuP9mx8Y;
+        "forge-1.20.1" = _b17m9xMc;
+        "fabric-1.20.1" = _IYbFPWIL;
+        "fabric-1.21.1" = _9CRu8oGi;
+        "neoforge-1.21.1" = _GuP9mx8Y;
         "pkg-1.20.1-0.1.0" = _LDZoyIuc;
         "pkg-1.20.1-0.2.0" = _QsHgh85q;
         "pkg-1.20.1-0.2.1" = _jJfxP292;
@@ -267,7 +303,10 @@ let
         "pkg-1.20.1-0.5.1.1" = _FVO4p76I;
         "pkg-1.21.1-0.5.1.1" = _6oHRCuVf;
         "pkg-1.21.1-0.5.1.2" = _FYj0mUBi;
-        "default" = _FYj0mUBi;
+        "pkg-1.20.1-0.6.0" = _b17m9xMc;
+        "pkg-1.21.1-0.6.0" = _TSCR1pIb;
+        "pkg-1.21.1-0.6.0.pre53" = _GuP9mx8Y;
+        "default" = _GuP9mx8Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hexflow";

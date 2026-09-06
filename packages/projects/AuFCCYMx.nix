@@ -96,6 +96,11 @@ let
             "file" = "armored-elytra-1.14.1.jar";
             "hash" = "sha512-aQiFPIwHJxuAzQ0STZFVJ4YkO1GQ1YRCCyoszVfwADUW3Ds4kQA5LnyaVZrW9irR1Ay1IMzZ8rAro2AegCEgDg==";
         };
+        _OovAb5I5 = {
+            "id" = "OovAb5I5";
+            "file" = "armored-elytra-1.15.0.jar";
+            "hash" = "sha512-tVIGFvupebHqUNeszdE8oIEJ5feR7TvjhILPheAsPGDUpJLvdvm64YlcALO3BboHPIN6W86xqF2c/rKbrwrNvA==";
+        };
     in {
         "T3LJWohg" = _T3LJWohg;
         "DEGWVZwj" = _DEGWVZwj;
@@ -116,6 +121,7 @@ let
         "fYjUcMhW" = _fYjUcMhW;
         "qS46SY2D" = _qS46SY2D;
         "IbMR9Ie6" = _IbMR9Ie6;
+        "OovAb5I5" = _OovAb5I5;
         "fabric-1.21" = _DEGWVZwj;
         "fabric-1.21.1" = _FUhz9xnX;
         "fabric-1.21.2" = _L0yShNav;
@@ -131,7 +137,7 @@ let
         "fabric-26.1" = _fYjUcMhW;
         "fabric-26.1.1" = _fYjUcMhW;
         "fabric-26.1.2" = _fYjUcMhW;
-        "fabric-26.2" = _IbMR9Ie6;
+        "fabric-26.2" = _OovAb5I5;
         "datapack-1.21.4" = _4WUlRc4K;
         "pkg-1.0.0" = _T3LJWohg;
         "pkg-1.0.1" = _DEGWVZwj;
@@ -152,7 +158,8 @@ let
         "pkg-1.13.0" = _fYjUcMhW;
         "pkg-1.14.0" = _qS46SY2D;
         "pkg-1.14.1" = _IbMR9Ie6;
-        "default" = _IbMR9Ie6;
+        "pkg-1.15.0" = _OovAb5I5;
+        "default" = _OovAb5I5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytra-armor";

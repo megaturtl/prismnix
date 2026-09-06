@@ -161,6 +161,21 @@ let
             "file" = "git-pack-manager-paper-26.1-5.3.1+paper+26.1-all.jar";
             "hash" = "sha512-4jXGhP6BSwy58jljY+tbjOCEeH+3MiTenv5M5zRUMcwvb+lAYdnR5NsTBOlAluC4y9hBoySS9g+HfUutViKIaA==";
         };
+        _uAEiPBpt = {
+            "id" = "uAEiPBpt";
+            "file" = "git-pack-manager-neoforge-26.1-5.3.2+neoforge+26.1.jar";
+            "hash" = "sha512-p5Q1xpyJna3z61dR3OXQpdaI9vxUOdmxof1OW7ApkZWh8tLgtWkTM3QY1dUAcfQnqQLI0wA5dRFJkGWpQw2G7A==";
+        };
+        _EMj2OgpX = {
+            "id" = "EMj2OgpX";
+            "file" = "git-pack-manager-fabric-26.1-5.3.2+fabric+26.1.jar";
+            "hash" = "sha512-qcDFIpYqMGPVDVCvTuLsEE08Nb7RehBLaaMjHnXUdCJq3IHLpU+SODtKE0oay17SFDjYHSstro7E38+XQEpo5w==";
+        };
+        _MU6n49AX = {
+            "id" = "MU6n49AX";
+            "file" = "git-pack-manager-paper-26.1-5.3.2+paper+26.1-all.jar";
+            "hash" = "sha512-1LE8ABKmxlBYBwmp3RY0grH3Ju9xezmv91ZaYL2DYwcDXyoO/QqYKaI4hfuHbHb4ixw2VK3ziFcBQ3jPP8OItA==";
+        };
     in {
         "mAr8Yq1Z" = _mAr8Yq1Z;
         "K17cGkf1" = _K17cGkf1;
@@ -194,6 +209,9 @@ let
         "L0kPymlx" = _L0kPymlx;
         "PjIFJicz" = _PjIFJicz;
         "HnIa7BVC" = _HnIa7BVC;
+        "uAEiPBpt" = _uAEiPBpt;
+        "EMj2OgpX" = _EMj2OgpX;
+        "MU6n49AX" = _MU6n49AX;
         "fabric-1.20" = _DnFHEYHD;
         "fabric-1.20.1-rc1" = _Kc3wGLq3;
         "fabric-1.20.1" = _DnFHEYHD;
@@ -304,10 +322,10 @@ let
         "fabric-1.21.9" = _urgM9eUm;
         "fabric-1.21.10" = _urgM9eUm;
         "fabric-1.21.11" = _urgM9eUm;
-        "fabric-26.1" = _PjIFJicz;
-        "fabric-26.1.1" = _PjIFJicz;
-        "fabric-26.1.2" = _PjIFJicz;
-        "fabric-26.2" = _PjIFJicz;
+        "fabric-26.1" = _EMj2OgpX;
+        "fabric-26.1.1" = _EMj2OgpX;
+        "fabric-26.1.2" = _EMj2OgpX;
+        "fabric-26.2" = _EMj2OgpX;
         "paper-1.21.1" = _Zech3i6M;
         "paper-1.21.2" = _Zech3i6M;
         "paper-1.21.3" = _Zech3i6M;
@@ -319,10 +337,10 @@ let
         "paper-1.21.9" = _Zech3i6M;
         "paper-1.21.10" = _Zech3i6M;
         "paper-1.21.11" = _Zech3i6M;
-        "paper-26.1" = _HnIa7BVC;
-        "paper-26.1.1" = _HnIa7BVC;
-        "paper-26.1.2" = _HnIa7BVC;
-        "paper-26.2" = _HnIa7BVC;
+        "paper-26.1" = _MU6n49AX;
+        "paper-26.1.1" = _MU6n49AX;
+        "paper-26.1.2" = _MU6n49AX;
+        "paper-26.2" = _MU6n49AX;
         "neoforge-1.21.1" = _9QfmFxfA;
         "neoforge-1.21.2" = _9QfmFxfA;
         "neoforge-1.21.3" = _9QfmFxfA;
@@ -334,14 +352,14 @@ let
         "neoforge-1.21.9" = _9QfmFxfA;
         "neoforge-1.21.10" = _9QfmFxfA;
         "neoforge-1.21.11" = _9QfmFxfA;
-        "neoforge-26.1" = _L0kPymlx;
-        "neoforge-26.1.1" = _L0kPymlx;
-        "neoforge-26.1.2" = _L0kPymlx;
-        "neoforge-26.2" = _L0kPymlx;
-        "purpur-26.1" = _HnIa7BVC;
-        "purpur-26.1.1" = _HnIa7BVC;
-        "purpur-26.1.2" = _HnIa7BVC;
-        "purpur-26.2" = _HnIa7BVC;
+        "neoforge-26.1" = _uAEiPBpt;
+        "neoforge-26.1.1" = _uAEiPBpt;
+        "neoforge-26.1.2" = _uAEiPBpt;
+        "neoforge-26.2" = _uAEiPBpt;
+        "purpur-26.1" = _MU6n49AX;
+        "purpur-26.1.1" = _MU6n49AX;
+        "purpur-26.1.2" = _MU6n49AX;
+        "purpur-26.2" = _MU6n49AX;
         "pkg-1.0.0+1.20.1" = _mAr8Yq1Z;
         "pkg-1.0.1+1.20.1" = _K17cGkf1;
         "pkg-1.0.2+1.20.1" = _lsTF97Wl;
@@ -373,7 +391,10 @@ let
         "pkg-5.3.1+neoforge+26.1" = _L0kPymlx;
         "pkg-5.3.1+fabric+26.1" = _PjIFJicz;
         "pkg-5.3.1+paper+26.1" = _HnIa7BVC;
-        "default" = _HnIa7BVC;
+        "pkg-5.3.2+neoforge+26.1" = _uAEiPBpt;
+        "pkg-5.3.2+fabric+26.1" = _EMj2OgpX;
+        "pkg-5.3.2+paper+26.1" = _MU6n49AX;
+        "default" = _MU6n49AX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "git-pack-manager";

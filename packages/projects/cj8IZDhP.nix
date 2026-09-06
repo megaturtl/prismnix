@@ -111,6 +111,11 @@ let
             "file" = "Tinkers Reforged 1.20.1-2.20.0.6.jar";
             "hash" = "sha512-gYmtvoq0NjqjRElu7dnTNvjTpQ1Gzmvv+oIHPA95hRPF0E61+U0gH6SLstLwokBTVpe2ue0c/WtHUj2Wxs7Jzg==";
         };
+        _hjYjMdw7 = {
+            "id" = "hjYjMdw7";
+            "file" = "Tinkers Reforged 1.20.1-2.20.0.7.jar";
+            "hash" = "sha512-3rt6wFi4LEJdC/o5Wx71++3/A/W/Jzo+y0Dk4RwwsED712W5gc/PfAArEIy2/fDU8bBH/tDPpUTPoSNo+p03Ug==";
+        };
     in {
         "7gRkrGUX" = _7gRkrGUX;
         "jrAxhC6V" = _jrAxhC6V;
@@ -134,11 +139,12 @@ let
         "VAM305AG" = _VAM305AG;
         "S6IVsS8f" = _S6IVsS8f;
         "Hh5M1uac" = _Hh5M1uac;
+        "hjYjMdw7" = _hjYjMdw7;
         "forge-1.12.2" = _7gRkrGUX;
         "forge-1.18.2" = _bgOI4vVY;
         "forge-1.19.2" = _zbPeC5AF;
-        "forge-1.20.1" = _Hh5M1uac;
-        "neoforge-1.20.1" = _Hh5M1uac;
+        "forge-1.20.1" = _hjYjMdw7;
+        "neoforge-1.20.1" = _hjYjMdw7;
         "pkg-1.5.4" = _7gRkrGUX;
         "pkg-1.0.5" = _jrAxhC6V;
         "pkg-1.1.3" = _Ya1buWFt;
@@ -161,7 +167,8 @@ let
         "pkg-2.20.0.4" = _VAM305AG;
         "pkg-2.20.0.5" = _S6IVsS8f;
         "pkg-2.20.0.6" = _Hh5M1uac;
-        "default" = _Hh5M1uac;
+        "pkg-2.20.0.7" = _hjYjMdw7;
+        "default" = _hjYjMdw7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tinkers-reforged";

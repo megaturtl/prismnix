@@ -36,6 +36,11 @@ let
             "file" = "Unknown5473lib-1.21.4-NeoForge-1.0.0.4-d.jar";
             "hash" = "sha512-71kzoE6dYNv+yoEAqIlpcKfWJJaSb+bOUCNob8DZqPuU69pmjAxsINixXf3dpZ5ePZzGr9We6pYCaI4nNhXA0g==";
         };
+        _tJAyRZwk = {
+            "id" = "tJAyRZwk";
+            "file" = "Unknown5473lib-1.21.4-NeoForge-1.0.0.4-e-fix.jar";
+            "hash" = "sha512-Zso3lprLC8KQgnSRcKq8wTkPnal6wcqwQyO6VjJoFohlP97+PdGBhiAGItujuglp6AUsfQawZB/VYpnRVJiVjA==";
+        };
     in {
         "m47iaypq" = _m47iaypq;
         "84xrzmHu" = _84xrzmHu;
@@ -44,8 +49,9 @@ let
         "PEWzIGH9" = _PEWzIGH9;
         "vClXDxSR" = _vClXDxSR;
         "teELXnjj" = _teELXnjj;
+        "tJAyRZwk" = _tJAyRZwk;
         "neoforge-1.21.1" = _m47iaypq;
-        "neoforge-1.21.4" = _teELXnjj;
+        "neoforge-1.21.4" = _tJAyRZwk;
         "forge-1.20.1" = _84xrzmHu;
         "pkg-1.0.0.0" = _84xrzmHu;
         "pkg-1.0.0.1" = _aPY6QOmZ;
@@ -53,7 +59,8 @@ let
         "pkg-1.0.0.4-b" = _PEWzIGH9;
         "pkg-1.0.0.4-c" = _vClXDxSR;
         "pkg-1.0.0.4-d" = _teELXnjj;
-        "default" = _teELXnjj;
+        "pkg-1.0.0.4-e-fix" = _tJAyRZwk;
+        "default" = _tJAyRZwk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unknown5473lib";

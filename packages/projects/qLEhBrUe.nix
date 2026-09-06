@@ -26,20 +26,28 @@ let
             "file" = "rediscovered-1.20.4-2.1.0.jar";
             "hash" = "sha512-57BcW1Is6RBD1Cz1l+PyhlFbBoNJQlJBQ7s7miIvc+k3TW9PTAY00MwHuwrgX6gnzSdT/dqYnZWtWK/bue1LrQ==";
         };
+        _Umk2mr4T = {
+            "id" = "Umk2mr4T";
+            "file" = "rediscovered-26.1.2-2.2.0.jar";
+            "hash" = "sha512-1CDSkaMsvY9isHiseghJItsK1IsXjhv3znnGjI0OEZF4TpFIgIsiEjhosPchzpcKj0OH38FXkZetY+9FeOnNNg==";
+        };
     in {
         "6J743Lej" = _6J743Lej;
         "dOghkyj0" = _dOghkyj0;
         "CPoKo3Af" = _CPoKo3Af;
         "qPEXzDLr" = _qPEXzDLr;
         "dv6hVeSF" = _dv6hVeSF;
+        "Umk2mr4T" = _Umk2mr4T;
         "forge-1.16.4" = _6J743Lej;
         "forge-1.16.5" = _6J743Lej;
         "forge-1.20.1" = _qPEXzDLr;
         "neoforge-1.20.4" = _dv6hVeSF;
+        "neoforge-26.1.2" = _Umk2mr4T;
         "pkg-1.3.7" = _6J743Lej;
         "pkg-2.0.0" = _CPoKo3Af;
         "pkg-2.1.0" = _dv6hVeSF;
-        "default" = _dv6hVeSF;
+        "pkg-2.2.0" = _Umk2mr4T;
+        "default" = _Umk2mr4T;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rediscovered";

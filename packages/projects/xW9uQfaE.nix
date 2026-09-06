@@ -16,10 +16,22 @@ let
             "file" = "Bedwars Wool 1.21.9-1.21.11.zip";
             "hash" = "sha512-Rtdu+Cxx3lUb7KUiuz6f6lwmxnhrWPApcG4grP8AltlzbbXMwdqUToctQ/br5VE7EWLVImf3HKgSsWiBgy5oNQ==";
         };
+        _FznwKVmp = {
+            "id" = "FznwKVmp";
+            "file" = "Bedwars Wool 26.1.zip";
+            "hash" = "sha512-pTzqAF93dxYnwfz2fOrgTi5RbBQX7W2/Evzn26A1HKOi09JPgTJgUO/CFnJgfNKpVRSeXMpQLm/jxTl9+QGfvQ==";
+        };
+        _uqNmJRW3 = {
+            "id" = "uqNmJRW3";
+            "file" = "Bedwars Wool 26.2.zip";
+            "hash" = "sha512-Y3/wdk9yw+xMCLOelt+xSp2+0Ue0CsY+RP8VPsfaURikinzkAfmrNKpqnjnkRi0EpyqsGrFthQGbMxekcCHsVA==";
+        };
     in {
         "U4tnOHK5" = _U4tnOHK5;
         "xarC1EdN" = _xarC1EdN;
         "Wu7OFBE0" = _Wu7OFBE0;
+        "FznwKVmp" = _FznwKVmp;
+        "uqNmJRW3" = _uqNmJRW3;
         "minecraft-1.20.2" = _U4tnOHK5;
         "minecraft-1.20.3" = _U4tnOHK5;
         "minecraft-1.20.4" = _U4tnOHK5;
@@ -66,10 +78,16 @@ let
         "minecraft-1.21.9" = _Wu7OFBE0;
         "minecraft-1.21.10" = _Wu7OFBE0;
         "minecraft-1.21.11" = _Wu7OFBE0;
+        "minecraft-26.1" = _FznwKVmp;
+        "minecraft-26.1.1" = _FznwKVmp;
+        "minecraft-26.1.2" = _FznwKVmp;
+        "minecraft-26.2" = _uqNmJRW3;
         "pkg-1" = _U4tnOHK5;
         "pkg-1.20.1-1.13" = _xarC1EdN;
         "pkg-1.21.9-1.21.11" = _Wu7OFBE0;
-        "default" = _Wu7OFBE0;
+        "pkg-26.1" = _FznwKVmp;
+        "pkg-26.2" = _uqNmJRW3;
+        "default" = _uqNmJRW3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bedwars-wools";

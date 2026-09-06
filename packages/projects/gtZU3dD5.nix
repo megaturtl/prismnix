@@ -66,6 +66,21 @@ let
             "file" = "cms-neoforge-1.1.0.jar";
             "hash" = "sha512-X9fU8nZUe0d66lvIPn5JMwfaqHKX8TviNkRZrShC9yqKfnmB2auHvArzPW7e6OFzZG19uS87j7W28fNw/F5A3A==";
         };
+        _WIYjrOCa = {
+            "id" = "WIYjrOCa";
+            "file" = "cms-fabric-1.2.0-C6.jar";
+            "hash" = "sha512-SSLDfhTCMwFW4nxcu8tOSSSGt7t/2A1GlyhI8ImP/kH00VSKiHfEFN+quyb5aerb1F87s+Vz7gCZTrOZniv5PQ==";
+        };
+        _Tx8Ry3Xn = {
+            "id" = "Tx8Ry3Xn";
+            "file" = "cms-forge-1.2.0-C6.jar";
+            "hash" = "sha512-P3OsX5F46u84+u+X2s7dKo69OYdLlviF8cZUlArrp0PIiO7pfgyN3yutiwM0onOhcJ+7nFfD9KBzACQzSOjSEQ==";
+        };
+        _MuYDrSFE = {
+            "id" = "MuYDrSFE";
+            "file" = "cms-neoforge-1.2.0.jar";
+            "hash" = "sha512-HFoEACKJmR8TmWSGm/Tki0jX8sxOKuaQG1x64fA2nrp93SHsATBKmt8IIpqNMop7wp4dhH/mxDy8aoNMSxOHbA==";
+        };
     in {
         "x4isf2Z1" = _x4isf2Z1;
         "z7whhCEV" = _z7whhCEV;
@@ -80,10 +95,13 @@ let
         "T8z4ggVV" = _T8z4ggVV;
         "jxB5lK8G" = _jxB5lK8G;
         "sW4ZmQCI" = _sW4ZmQCI;
-        "fabric-1.20.1" = _T8z4ggVV;
-        "forge-1.20.1" = _jxB5lK8G;
-        "neoforge-1.20.1" = _jxB5lK8G;
-        "neoforge-1.21.1" = _sW4ZmQCI;
+        "WIYjrOCa" = _WIYjrOCa;
+        "Tx8Ry3Xn" = _Tx8Ry3Xn;
+        "MuYDrSFE" = _MuYDrSFE;
+        "fabric-1.20.1" = _WIYjrOCa;
+        "forge-1.20.1" = _Tx8Ry3Xn;
+        "neoforge-1.20.1" = _Tx8Ry3Xn;
+        "neoforge-1.21.1" = _MuYDrSFE;
         "pkg-1.0.0-C6" = _z7whhCEV;
         "pkg-1.0.0" = _JLdiTazj;
         "pkg-1.0.1-C6" = _Jd5dEbqk;
@@ -93,7 +111,9 @@ let
         "pkg-1.0.3" = _vGUHjIQ4;
         "pkg-1.1.0-C6" = _jxB5lK8G;
         "pkg-1.1.0" = _sW4ZmQCI;
-        "default" = _sW4ZmQCI;
+        "pkg-1.2.0-C6" = _Tx8Ry3Xn;
+        "pkg-1.2.0" = _MuYDrSFE;
+        "default" = _MuYDrSFE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-more-seats";

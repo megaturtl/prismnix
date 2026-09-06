@@ -61,6 +61,21 @@ let
             "file" = "ClientCrasher-Paper-1.0.jar";
             "hash" = "sha512-aOMU20QmMame8jLltA59rH9kylzFkuLrhuW6wDOweoeObhuU53BBvccdUyaBzDmrStujvcP8oI60PtftOzTVvg==";
         };
+        _SZn68Gdm = {
+            "id" = "SZn68Gdm";
+            "file" = "clientcrasher-2.0+26.2.jar";
+            "hash" = "sha512-z3weU/dkR6ghx+0MoXSgvbVFGg9y2l+/TPyoeJC/Q6wbUvccqoSsKuipBwhg+HvGAoGjXrhw/gf+NkLQ2iw86g==";
+        };
+        _DsMAVRxa = {
+            "id" = "DsMAVRxa";
+            "file" = "ClientCrasher-Paper-2.0.jar";
+            "hash" = "sha512-EZLm/1gqFo++1QvS5zjehG4//xpq9VrZL5Ivm50JOXoGPEyyZ4B+8w4fK20LGkZFvrovGMQ+MrMQ6yWXIHl4Ig==";
+        };
+        _9tVdP3l9 = {
+            "id" = "9tVdP3l9";
+            "file" = "ClientCrasher-Paper-2.0.jar";
+            "hash" = "sha512-6NCWm2eIEmY6txtLBrBat/ItBA/JZDG7ievKdbcq0c5DSzFmYQB1uQaHkCov1jiCanvMqjVElYQ3Eg5PCmdlVg==";
+        };
     in {
         "MLP5QhVU" = _MLP5QhVU;
         "NUSiFvbr" = _NUSiFvbr;
@@ -74,6 +89,9 @@ let
         "mR0uFbAX" = _mR0uFbAX;
         "QIAEfbM8" = _QIAEfbM8;
         "BlcPBf8e" = _BlcPBf8e;
+        "SZn68Gdm" = _SZn68Gdm;
+        "DsMAVRxa" = _DsMAVRxa;
+        "9tVdP3l9" = _9tVdP3l9;
         "bukkit-1.15" = _MLP5QhVU;
         "bukkit-1.15.1" = _MLP5QhVU;
         "bukkit-1.15.2" = _MLP5QhVU;
@@ -120,9 +138,9 @@ let
         "paper-1.20.2" = _FKD5fUVC;
         "paper-1.20.3" = _WQpowUPj;
         "paper-1.20.4" = _WQpowUPj;
-        "paper-1.21.11" = _QIAEfbM8;
-        "paper-26.1.2" = _BlcPBf8e;
-        "paper-26.2" = _BlcPBf8e;
+        "paper-1.21.11" = _9tVdP3l9;
+        "paper-26.1.2" = _DsMAVRxa;
+        "paper-26.2" = _DsMAVRxa;
         "purpur-1.15" = _MLP5QhVU;
         "purpur-1.15.1" = _MLP5QhVU;
         "purpur-1.15.2" = _MLP5QhVU;
@@ -146,9 +164,9 @@ let
         "purpur-1.20.2" = _FKD5fUVC;
         "purpur-1.20.3" = _WQpowUPj;
         "purpur-1.20.4" = _WQpowUPj;
-        "purpur-1.21.11" = _QIAEfbM8;
-        "purpur-26.1.2" = _BlcPBf8e;
-        "purpur-26.2" = _BlcPBf8e;
+        "purpur-1.21.11" = _9tVdP3l9;
+        "purpur-26.1.2" = _DsMAVRxa;
+        "purpur-26.2" = _DsMAVRxa;
         "spigot-1.15" = _MLP5QhVU;
         "spigot-1.15.1" = _MLP5QhVU;
         "spigot-1.15.2" = _MLP5QhVU;
@@ -179,7 +197,7 @@ let
         "fabric-1.21.1" = _rbeoSJyn;
         "fabric-1.21.11" = _Poxo1CBp;
         "fabric-26.1.2" = _EJzVl5fK;
-        "fabric-26.2" = _mR0uFbAX;
+        "fabric-26.2" = _SZn68Gdm;
         "quilt-1.20.3" = _qvqZRC2R;
         "quilt-1.20.4" = _qvqZRC2R;
         "pkg-1.0" = _MLP5QhVU;
@@ -194,7 +212,10 @@ let
         "pkg-1.0.1+26.2+fabric" = _mR0uFbAX;
         "pkg-1.0+1.21.11+paper" = _QIAEfbM8;
         "pkg-1.0+26.1.2+paper" = _BlcPBf8e;
-        "default" = _BlcPBf8e;
+        "pkg-2.0+26.2+fabric" = _SZn68Gdm;
+        "pkg-2.0+26.1.2+paper" = _DsMAVRxa;
+        "pkg-2.0+1.21.11+paper" = _9tVdP3l9;
+        "default" = _9tVdP3l9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "clientcrasher";

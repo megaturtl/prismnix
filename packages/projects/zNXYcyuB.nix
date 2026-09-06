@@ -29,6 +29,13 @@ let
         "minecraft-1.21.6" = _E9HKUN3u;
         "minecraft-1.21.7" = _E9HKUN3u;
         "minecraft-1.21.8" = _E9HKUN3u;
+        "minecraft-1.21.9" = _E9HKUN3u;
+        "minecraft-1.21.10" = _E9HKUN3u;
+        "minecraft-1.21.11" = _E9HKUN3u;
+        "minecraft-26.1" = _E9HKUN3u;
+        "minecraft-26.1.1" = _E9HKUN3u;
+        "minecraft-26.1.2" = _E9HKUN3u;
+        "minecraft-26.2" = _E9HKUN3u;
         "pkg-1" = _E9HKUN3u;
         "default" = _E9HKUN3u;
     });

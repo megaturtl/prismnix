@@ -136,6 +136,41 @@ let
             "file" = "legendarytitles-forge-2.0.4.jar";
             "hash" = "sha512-0qfGdzqJvpccSYetCiEiob/wtbSgocIjYHKJTjGapY7AgRniGhwq+2WLgHwWSYD2P7Plad0XsvlIS3s/KoP23A==";
         };
+        _Rcg6SsiP = {
+            "id" = "Rcg6SsiP";
+            "file" = "legendarytitles-forge-2.0.5.jar";
+            "hash" = "sha512-MuS8bWGppIK+cVw8oK3qKxJFvr6KzS9aImT2RvMtbqVDgulMVVYbXNC/QXxX98JAyN/yVSmJ4orvLWVgxnxAzQ==";
+        };
+        _fl5JPWkn = {
+            "id" = "fl5JPWkn";
+            "file" = "legendarytitles-forge-2.0.6.jar";
+            "hash" = "sha512-2XmfmAwfykL6w7gvNUkW7cTINME77Z/WVjJEo62uPfiF+Em0hkGRgx6cun+GMnzlTj/KdojgUXv3GALcusebCA==";
+        };
+        _VSsD7W0g = {
+            "id" = "VSsD7W0g";
+            "file" = "legendarytitles-forge-2.0.7.jar";
+            "hash" = "sha512-GUL+biUJlVA3DQ8ifOruz0wlYX/Iuav8Vq6w61+QukbqDuhW6QQJpRRT9c7im8J8cb+OkkbJ0+balTaU5yc+kQ==";
+        };
+        _xx9r0n9S = {
+            "id" = "xx9r0n9S";
+            "file" = "legendarytitles-forge-2.0.8.jar";
+            "hash" = "sha512-S5/zP1wa1y0LCUkZ4od5KN8Luo0eb8/hZ/YsyAr28U+Cv3WIAEPl/b82U+k3F0YHo0n+W2D/5mFq8YLiJIaDWg==";
+        };
+        _G6kxF9ZZ = {
+            "id" = "G6kxF9ZZ";
+            "file" = "legendarytitles-forge-2.0.9.jar";
+            "hash" = "sha512-FhPrIxcFol465hj2NZM7hjvihgyrzKV4LEhv2XTEbUUHf+RL9I/DvhOhvQTXD6hVlk+8oNQI8DJ98kVAd0YYyA==";
+        };
+        _J4qmY2JZ = {
+            "id" = "J4qmY2JZ";
+            "file" = "legendarytitles-neo-1.21.1-2.0.0.jar";
+            "hash" = "sha512-cruontfWlWoS62K26OF6NQP3y58KW60Kqj0+KPAqXD7lqV8ldQA39miS04jGiCoOpLztw+8UIGKXbZgIxJEAYA==";
+        };
+        _45zYAQh2 = {
+            "id" = "45zYAQh2";
+            "file" = "legendarytitles-forge-2.1.0.jar";
+            "hash" = "sha512-vQ2duu/fTJgnAchn5PKB/GdbEN2LWQe3TOqzCYQo9hgKiOvVg2pjz3tSXCRZWMvBzgPajnsNa4IR9JNSn2knqg==";
+        };
     in {
         "nFM824k4" = _nFM824k4;
         "cQQ2qS74" = _cQQ2qS74;
@@ -164,8 +199,15 @@ let
         "18USbdQc" = _18USbdQc;
         "QKBOMuYW" = _QKBOMuYW;
         "hz8qsIif" = _hz8qsIif;
-        "forge-1.20.1" = _hz8qsIif;
-        "neoforge-1.21.1" = _H7mJ5ArZ;
+        "Rcg6SsiP" = _Rcg6SsiP;
+        "fl5JPWkn" = _fl5JPWkn;
+        "VSsD7W0g" = _VSsD7W0g;
+        "xx9r0n9S" = _xx9r0n9S;
+        "G6kxF9ZZ" = _G6kxF9ZZ;
+        "J4qmY2JZ" = _J4qmY2JZ;
+        "45zYAQh2" = _45zYAQh2;
+        "forge-1.20.1" = _45zYAQh2;
+        "neoforge-1.21.1" = _J4qmY2JZ;
         "pkg-1.0.0" = _dkWbbzSB;
         "pkg-1.0.1" = _fuwVscev;
         "pkg-1.0.2" = _hQf8BB3O;
@@ -177,12 +219,18 @@ let
         "pkg-1.0.8" = _H7mJ5ArZ;
         "pkg-1.0.9" = _8FimlLn0;
         "pkg-1.1.0" = _gBHhQpFU;
-        "pkg-2.0.0" = _xKMZk2ES;
+        "pkg-2.0.0" = _J4qmY2JZ;
         "pkg-2.0.1" = _rNzyYJWE;
         "pkg-2.0.2" = _18USbdQc;
         "pkg-2.0.3" = _QKBOMuYW;
         "pkg-2.0.4" = _hz8qsIif;
-        "default" = _hz8qsIif;
+        "pkg-2.0.5" = _Rcg6SsiP;
+        "pkg-2.0.6" = _fl5JPWkn;
+        "pkg-2.0.7" = _VSsD7W0g;
+        "pkg-2.0.8" = _xx9r0n9S;
+        "pkg-2.0.9" = _G6kxF9ZZ;
+        "pkg-2.1.0" = _45zYAQh2;
+        "default" = _45zYAQh2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legendary-titles";

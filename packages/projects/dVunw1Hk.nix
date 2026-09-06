@@ -1,0 +1,130 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _Uq1slbpq = {
+            "id" = "Uq1slbpq";
+            "file" = "Bastion_remnant_renovation_project-1.16-1.20.6-1.0.zip";
+            "hash" = "sha512-OltisetGhdh792S5EifF4TitDnefAG114WtrEcxr1kBFR5mOz3WrLzCA8pj31RJ23Hz4zQwooqbdDbx7LNiTlQ==";
+        };
+        _x0ZtDVoS = {
+            "id" = "x0ZtDVoS";
+            "file" = "Bastion_remnant_renovation_project-1.21-1.21.11-1.0.zip";
+            "hash" = "sha512-bGz0vQCy4Qe6XhslsMSzdl/DD7+qaoF7nPJtG37MmLGi+5Hf61taoRwbELPZpqO2ZsIfG6qqyZjsjmyivwFbnA==";
+        };
+        _4XvW0WG7 = {
+            "id" = "4XvW0WG7";
+            "file" = "Bastion_remnant_renovation_project-1.16-1.20.6-1.0.jar";
+            "hash" = "sha512-ckpy6ZwJU9GUenmwjR/T03nP6Aa2E2StH8z8QvzqwBSk1k+uE7u5r52MjyekpBvaEM0Ayg2pwNTj6DTK1KVqhg==";
+        };
+        _oP6oQ0T2 = {
+            "id" = "oP6oQ0T2";
+            "file" = "Bastion_remnant_renovation_project-1.21-1.21.11-1.0.jar";
+            "hash" = "sha512-hiGfExZxE7yZ2OuuC9FsP+eh61fQhwU+dAZAIxxeME6ifZqjwtIc278gb+ff8FmrOur3b6jsFy7ji9oFVQ8xYA==";
+        };
+    in {
+        "Uq1slbpq" = _Uq1slbpq;
+        "x0ZtDVoS" = _x0ZtDVoS;
+        "4XvW0WG7" = _4XvW0WG7;
+        "oP6oQ0T2" = _oP6oQ0T2;
+        "datapack-1.16" = _Uq1slbpq;
+        "datapack-1.16.1" = _Uq1slbpq;
+        "datapack-1.16.2" = _Uq1slbpq;
+        "datapack-1.16.3" = _Uq1slbpq;
+        "datapack-1.16.4" = _Uq1slbpq;
+        "datapack-1.16.5" = _Uq1slbpq;
+        "datapack-1.17" = _Uq1slbpq;
+        "datapack-1.17.1" = _Uq1slbpq;
+        "datapack-1.18" = _Uq1slbpq;
+        "datapack-1.18.1" = _Uq1slbpq;
+        "datapack-1.18.2" = _Uq1slbpq;
+        "datapack-1.19" = _Uq1slbpq;
+        "datapack-1.19.1" = _Uq1slbpq;
+        "datapack-1.19.2" = _Uq1slbpq;
+        "datapack-1.19.3" = _Uq1slbpq;
+        "datapack-1.19.4" = _Uq1slbpq;
+        "datapack-1.20" = _Uq1slbpq;
+        "datapack-1.20.1" = _Uq1slbpq;
+        "datapack-1.20.2" = _Uq1slbpq;
+        "datapack-1.20.3" = _Uq1slbpq;
+        "datapack-1.20.4" = _Uq1slbpq;
+        "datapack-1.20.5" = _Uq1slbpq;
+        "datapack-1.20.6" = _Uq1slbpq;
+        "datapack-1.21" = _x0ZtDVoS;
+        "datapack-1.21.1" = _x0ZtDVoS;
+        "datapack-1.21.2" = _x0ZtDVoS;
+        "datapack-1.21.3" = _x0ZtDVoS;
+        "datapack-1.21.4" = _x0ZtDVoS;
+        "datapack-1.21.5" = _x0ZtDVoS;
+        "datapack-1.21.6" = _x0ZtDVoS;
+        "datapack-1.21.7" = _x0ZtDVoS;
+        "datapack-1.21.8" = _x0ZtDVoS;
+        "datapack-1.21.9" = _x0ZtDVoS;
+        "datapack-1.21.10" = _x0ZtDVoS;
+        "datapack-1.21.11" = _x0ZtDVoS;
+        "forge-1.16" = _4XvW0WG7;
+        "forge-1.16.1" = _4XvW0WG7;
+        "forge-1.16.2" = _4XvW0WG7;
+        "forge-1.16.3" = _4XvW0WG7;
+        "forge-1.16.4" = _4XvW0WG7;
+        "forge-1.16.5" = _4XvW0WG7;
+        "forge-1.17" = _4XvW0WG7;
+        "forge-1.17.1" = _4XvW0WG7;
+        "forge-1.18" = _4XvW0WG7;
+        "forge-1.18.1" = _4XvW0WG7;
+        "forge-1.18.2" = _4XvW0WG7;
+        "forge-1.19" = _4XvW0WG7;
+        "forge-1.19.1" = _4XvW0WG7;
+        "forge-1.19.2" = _4XvW0WG7;
+        "forge-1.19.3" = _4XvW0WG7;
+        "forge-1.19.4" = _4XvW0WG7;
+        "forge-1.20" = _4XvW0WG7;
+        "forge-1.20.1" = _4XvW0WG7;
+        "forge-1.20.2" = _4XvW0WG7;
+        "forge-1.20.3" = _4XvW0WG7;
+        "forge-1.20.4" = _4XvW0WG7;
+        "forge-1.20.5" = _4XvW0WG7;
+        "forge-1.20.6" = _4XvW0WG7;
+        "forge-1.21" = _oP6oQ0T2;
+        "forge-1.21.1" = _oP6oQ0T2;
+        "forge-1.21.2" = _oP6oQ0T2;
+        "forge-1.21.3" = _oP6oQ0T2;
+        "forge-1.21.4" = _oP6oQ0T2;
+        "forge-1.21.5" = _oP6oQ0T2;
+        "forge-1.21.6" = _oP6oQ0T2;
+        "forge-1.21.7" = _oP6oQ0T2;
+        "forge-1.21.8" = _oP6oQ0T2;
+        "forge-1.21.9" = _oP6oQ0T2;
+        "forge-1.21.10" = _oP6oQ0T2;
+        "forge-1.21.11" = _oP6oQ0T2;
+        "neoforge-1.21" = _oP6oQ0T2;
+        "neoforge-1.21.1" = _oP6oQ0T2;
+        "neoforge-1.21.2" = _oP6oQ0T2;
+        "neoforge-1.21.3" = _oP6oQ0T2;
+        "neoforge-1.21.4" = _oP6oQ0T2;
+        "neoforge-1.21.5" = _oP6oQ0T2;
+        "neoforge-1.21.6" = _oP6oQ0T2;
+        "neoforge-1.21.7" = _oP6oQ0T2;
+        "neoforge-1.21.8" = _oP6oQ0T2;
+        "neoforge-1.21.9" = _oP6oQ0T2;
+        "neoforge-1.21.10" = _oP6oQ0T2;
+        "neoforge-1.21.11" = _oP6oQ0T2;
+        "pkg-1.0" = _oP6oQ0T2;
+        "default" = _oP6oQ0T2;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "bastion-remnant-renovation-project";
+        id = "dVunw1Hk";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v3.0 or later";
+                shortName = "GPL-3.0-or-later";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

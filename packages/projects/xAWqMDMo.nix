@@ -1,0 +1,122 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _OKuZMpwf = {
+            "id" = "OKuZMpwf";
+            "file" = "HyperShader v1.1.1.zip";
+            "hash" = "sha512-9bq6hKYpnBQABvzo93I97TuIt+y1MuY7QgtmJQQir97qn65yaNpNkONUJm3vodBn6szvnxuLUNAGwNsQEzMs7g==";
+        };
+        _r1Vh6m0k = {
+            "id" = "r1Vh6m0k";
+            "file" = "HyperShader v1.1.0.zip";
+            "hash" = "sha512-+6sB246qEqejW3W+CE/x1jSqMKDt4Jbg8G3xmv2dxhC/5iwLjHLJnICiZKrPCbV+/NWD1bdSojzg66QXdEs33A==";
+        };
+        _gIVW1uxC = {
+            "id" = "gIVW1uxC";
+            "file" = "HyperShader v1.2.0.zip";
+            "hash" = "sha512-kACOLwdAd3wRwt2n7PG5UrwhzKdAGgUL66/M6/FEqmH830NKLJlPy4BdiV2AfK78a6zpyOfKSAcMLU2cwufv6g==";
+        };
+    in {
+        "OKuZMpwf" = _OKuZMpwf;
+        "r1Vh6m0k" = _r1Vh6m0k;
+        "gIVW1uxC" = _gIVW1uxC;
+        "iris-1.10" = _gIVW1uxC;
+        "iris-1.11" = _gIVW1uxC;
+        "iris-1.12" = _gIVW1uxC;
+        "iris-1.13" = _gIVW1uxC;
+        "iris-1.14" = _gIVW1uxC;
+        "iris-1.15" = _gIVW1uxC;
+        "iris-1.16" = _gIVW1uxC;
+        "iris-1.17" = _gIVW1uxC;
+        "iris-1.18" = _gIVW1uxC;
+        "iris-1.19" = _gIVW1uxC;
+        "iris-1.19.1" = _r1Vh6m0k;
+        "iris-1.19.2" = _r1Vh6m0k;
+        "iris-1.19.3" = _r1Vh6m0k;
+        "iris-1.19.4" = _r1Vh6m0k;
+        "iris-1.20" = _gIVW1uxC;
+        "iris-1.20.1" = _r1Vh6m0k;
+        "iris-1.20.2" = _r1Vh6m0k;
+        "iris-1.20.3" = _r1Vh6m0k;
+        "iris-1.20.4" = _r1Vh6m0k;
+        "iris-1.20.5" = _r1Vh6m0k;
+        "iris-1.20.6" = _r1Vh6m0k;
+        "iris-1.21" = _gIVW1uxC;
+        "iris-1.21.1" = _r1Vh6m0k;
+        "iris-1.21.2" = _r1Vh6m0k;
+        "iris-1.21.3" = _r1Vh6m0k;
+        "iris-1.21.4" = _r1Vh6m0k;
+        "iris-1.21.5" = _r1Vh6m0k;
+        "iris-1.21.6" = _r1Vh6m0k;
+        "iris-1.21.7" = _r1Vh6m0k;
+        "iris-1.21.8" = _r1Vh6m0k;
+        "iris-1.21.9" = _r1Vh6m0k;
+        "iris-1.21.10" = _r1Vh6m0k;
+        "iris-1.21.11" = _gIVW1uxC;
+        "iris-26.1" = _gIVW1uxC;
+        "iris-26.1.1" = _gIVW1uxC;
+        "iris-26.1.2" = _gIVW1uxC;
+        "iris-26.2" = _gIVW1uxC;
+        "iris-1.18.1" = _r1Vh6m0k;
+        "iris-1.18.2" = _r1Vh6m0k;
+        "optifine-1.10" = _gIVW1uxC;
+        "optifine-1.11" = _gIVW1uxC;
+        "optifine-1.12" = _gIVW1uxC;
+        "optifine-1.13" = _gIVW1uxC;
+        "optifine-1.14" = _gIVW1uxC;
+        "optifine-1.15" = _gIVW1uxC;
+        "optifine-1.16" = _gIVW1uxC;
+        "optifine-1.17" = _gIVW1uxC;
+        "optifine-1.18" = _gIVW1uxC;
+        "optifine-1.19" = _gIVW1uxC;
+        "optifine-1.19.1" = _r1Vh6m0k;
+        "optifine-1.19.2" = _r1Vh6m0k;
+        "optifine-1.19.3" = _r1Vh6m0k;
+        "optifine-1.19.4" = _r1Vh6m0k;
+        "optifine-1.20" = _gIVW1uxC;
+        "optifine-1.20.1" = _r1Vh6m0k;
+        "optifine-1.20.2" = _r1Vh6m0k;
+        "optifine-1.20.3" = _r1Vh6m0k;
+        "optifine-1.20.4" = _r1Vh6m0k;
+        "optifine-1.20.5" = _r1Vh6m0k;
+        "optifine-1.20.6" = _r1Vh6m0k;
+        "optifine-1.21" = _gIVW1uxC;
+        "optifine-1.21.1" = _r1Vh6m0k;
+        "optifine-1.21.2" = _r1Vh6m0k;
+        "optifine-1.21.3" = _r1Vh6m0k;
+        "optifine-1.21.4" = _r1Vh6m0k;
+        "optifine-1.21.5" = _r1Vh6m0k;
+        "optifine-1.21.6" = _r1Vh6m0k;
+        "optifine-1.21.7" = _r1Vh6m0k;
+        "optifine-1.21.8" = _r1Vh6m0k;
+        "optifine-1.21.9" = _r1Vh6m0k;
+        "optifine-1.21.10" = _r1Vh6m0k;
+        "optifine-1.21.11" = _gIVW1uxC;
+        "optifine-26.1" = _gIVW1uxC;
+        "optifine-26.1.1" = _gIVW1uxC;
+        "optifine-26.1.2" = _gIVW1uxC;
+        "optifine-26.2" = _gIVW1uxC;
+        "optifine-1.18.1" = _r1Vh6m0k;
+        "optifine-1.18.2" = _r1Vh6m0k;
+        "pkg-1.1." = _OKuZMpwf;
+        "pkg-1.1.0" = _r1Vh6m0k;
+        "pkg-1.2.0" = _gIVW1uxC;
+        "default" = _gIVW1uxC;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "hypershader";
+        id = "xAWqMDMo";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

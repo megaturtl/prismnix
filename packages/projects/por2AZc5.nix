@@ -1031,6 +1031,31 @@ let
             "file" = "SkyblockBuilder-21.1.32.jar";
             "hash" = "sha512-3DKHBalOgUXX27P9pOK9lt7rS0nPQ3482yYnIvFtCE/4f80mQmGWLeV6D/fvRpAVGw7tDymOB0LqxR8uAnu7wg==";
         };
+        _5XzKdFkD = {
+            "id" = "5XzKdFkD";
+            "file" = "SkyblockBuilder-21.1.33.jar";
+            "hash" = "sha512-ZFWWM8hvi5zehr/AWch1IHjXsHsHnqE5q4pK+Polye8emC+BkyUSJUGGGxa05AvCRxG0xBJ5wMb38th2g5JeJw==";
+        };
+        _aDPvosUW = {
+            "id" = "aDPvosUW";
+            "file" = "SkyblockBuilder-21.1.34.jar";
+            "hash" = "sha512-pqIF2hUwwr+FF3xFYgLUFrktBou15WYvQBWeyPpR6alAK/ykZ1CrCr8nSbBy96vQRRzSErgf9LSX/5ejvFhq4Q==";
+        };
+        _bFgod5de = {
+            "id" = "bFgod5de";
+            "file" = "SkyblockBuilder-21.1.35.jar";
+            "hash" = "sha512-HgTWQptTeB0/+Esp8D1qeniER1Fjnfqr4alDel+fxsWbUvNYKaoygsavBrE0whhs/6NNFdmU/tpsxEsh2P0G9g==";
+        };
+        _gUAKfMuD = {
+            "id" = "gUAKfMuD";
+            "file" = "SkyblockBuilder-21.1.36.jar";
+            "hash" = "sha512-1bqjzXS/Mrvbvw9KD/L9D4ZPf0ygoR1SzxqOp+nfeAajfwTxGO+yblJl+j4KluH5r1Koe2NXL7e9TP69xoTecA==";
+        };
+        _Kxvkni7I = {
+            "id" = "Kxvkni7I";
+            "file" = "SkyblockBuilder-26.1.0.jar";
+            "hash" = "sha512-8JTigAlGY/wcSlaCWEZenuxl2myvVZjYZnAXxAqBPcAIz2YldU4EFIxxPaAfDOQWwFCJKlON3nMp+B9T7AHtpg==";
+        };
     in {
         "nu5iW9sX" = _nu5iW9sX;
         "8v3Tfv31" = _8v3Tfv31;
@@ -1238,6 +1263,11 @@ let
         "rjVhHP6u" = _rjVhHP6u;
         "Cf9Mrd4W" = _Cf9Mrd4W;
         "CIqBEcct" = _CIqBEcct;
+        "5XzKdFkD" = _5XzKdFkD;
+        "aDPvosUW" = _aDPvosUW;
+        "bFgod5de" = _bFgod5de;
+        "gUAKfMuD" = _gUAKfMuD;
+        "Kxvkni7I" = _Kxvkni7I;
         "forge-1.17.1" = _7Uc1DFMl;
         "forge-1.18.1" = _vSVNkl33;
         "forge-1.18.2" = _PFU4TaEy;
@@ -1248,7 +1278,8 @@ let
         "forge-1.19.2" = _4OSeAw8H;
         "forge-1.20.1" = _Cf9Mrd4W;
         "neoforge-1.20.1" = _DHc1A6v8;
-        "neoforge-1.21.1" = _CIqBEcct;
+        "neoforge-1.21.1" = _gUAKfMuD;
+        "neoforge-26.1.2" = _Kxvkni7I;
         "pkg-1.17.1-2.0.15" = _nu5iW9sX;
         "pkg-1.17.1-2.0.16" = _8v3Tfv31;
         "pkg-1.17.1-2.0.17" = _UfA4CH30;
@@ -1455,7 +1486,12 @@ let
         "pkg-21.1.31" = _rjVhHP6u;
         "pkg-1.20.1-5.1.33" = _Cf9Mrd4W;
         "pkg-21.1.32" = _CIqBEcct;
-        "default" = _CIqBEcct;
+        "pkg-21.1.33" = _5XzKdFkD;
+        "pkg-21.1.34" = _aDPvosUW;
+        "pkg-21.1.35" = _bFgod5de;
+        "pkg-21.1.36" = _gUAKfMuD;
+        "pkg-26.1.0" = _Kxvkni7I;
+        "default" = _Kxvkni7I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skyblock-builder";

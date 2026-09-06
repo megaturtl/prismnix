@@ -86,6 +86,11 @@ let
             "file" = "Cobblemon Translation [RU] 1.5.zip";
             "hash" = "sha512-FyRaHDxaiM6hk13jLhZzTID+6Xx0fsN4pYJm8dLbuDvt5OB/ec/YHV/FmUbtnkGzSGdqtMp/5L+nApFWK4RbNA==";
         };
+        _QbZtBXjb = {
+            "id" = "QbZtBXjb";
+            "file" = "Cobblemon Translation [RU] 1.5.1.zip";
+            "hash" = "sha512-J49C9UJxKjoPL9HQEAaLN3rltT04Pj7KpNNbRbR8TwkDGPVx8MB3KHSuHz+MYsMJ/FVXgaeILn3K2x/ef0xBhw==";
+        };
     in {
         "YcWbzwJ5" = _YcWbzwJ5;
         "xs3esRCV" = _xs3esRCV;
@@ -104,9 +109,10 @@ let
         "7pPbKfo6" = _7pPbKfo6;
         "bAlb5k6v" = _bAlb5k6v;
         "2FuyK7MQ" = _2FuyK7MQ;
-        "minecraft-1.19.2" = _2FuyK7MQ;
-        "minecraft-1.20.1" = _2FuyK7MQ;
-        "minecraft-1.21.1" = _2FuyK7MQ;
+        "QbZtBXjb" = _QbZtBXjb;
+        "minecraft-1.19.2" = _QbZtBXjb;
+        "minecraft-1.20.1" = _QbZtBXjb;
+        "minecraft-1.21.1" = _QbZtBXjb;
         "pkg-1.0" = _YcWbzwJ5;
         "pkg-1.1" = _xs3esRCV;
         "pkg-1.2" = _9JlW0Lnz;
@@ -124,7 +130,8 @@ let
         "pkg-1.4.3" = _7pPbKfo6;
         "pkg-1.4.4" = _bAlb5k6v;
         "pkg-1.5" = _2FuyK7MQ;
-        "default" = _2FuyK7MQ;
+        "pkg-1.5.1" = _QbZtBXjb;
+        "default" = _QbZtBXjb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-localization-ru";

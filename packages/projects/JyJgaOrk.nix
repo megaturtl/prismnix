@@ -1336,6 +1336,16 @@ let
             "file" = "scriptor-neoforge-2.0.10-1.21.1-sgd.jar";
             "hash" = "sha512-Xw1dvku0JWxyH0wo/AdzRnal02TOj5Eu9go+g0QpqYFHPgXX92+X+9Fjr+OgE/5hl4YfKTx9mzu4xeaJz8AWQg==";
         };
+        _o6uUgZWm = {
+            "id" = "o6uUgZWm";
+            "file" = "scriptor-neoforge-2.0.11-1.21.1-sgd.jar";
+            "hash" = "sha512-qSWq0tFJHQ12QE3phupwyIgro8jwa00HBXHzp/fyIEK9VWQlPhbMvMhFSy1Ki6/v86lEKYhJzt1LjyEzwcEQag==";
+        };
+        _KPjJQOn6 = {
+            "id" = "KPjJQOn6";
+            "file" = "scriptor-fabric-2.0.11-1.21.1-sgd.jar";
+            "hash" = "sha512-LaEgfoCp/TRh2l3I4iQnBPcdC5iPOjfzxEt0p1coIOmyvzGFijB6S03hF/g34yReIuvPopvjWs9vvt6njI6qbA==";
+        };
     in {
         "RYbi5ZEg" = _RYbi5ZEg;
         "HLxKvoWi" = _HLxKvoWi;
@@ -1604,6 +1614,8 @@ let
         "vt3tAE8t" = _vt3tAE8t;
         "MTHiQy8B" = _MTHiQy8B;
         "zdcnA5UC" = _zdcnA5UC;
+        "o6uUgZWm" = _o6uUgZWm;
+        "KPjJQOn6" = _KPjJQOn6;
         "quilt-1.19.2" = _aFktE517;
         "quilt-1.19.3" = _ZnHHi8XK;
         "quilt-1.19.4" = _LKFJvSie;
@@ -1626,11 +1638,11 @@ let
         "fabric-1.20.5" = _sansGcaj;
         "fabric-1.20.6" = _WPRh4xp1;
         "fabric-1.21" = _UBe0AOZz;
-        "fabric-1.21.1" = _MTHiQy8B;
+        "fabric-1.21.1" = _KPjJQOn6;
         "neoforge-1.20.5" = _ypQr4i4z;
         "neoforge-1.20.6" = _ZaeZm5nI;
         "neoforge-1.21" = _QknRiPDM;
-        "neoforge-1.21.1" = _zdcnA5UC;
+        "neoforge-1.21.1" = _o6uUgZWm;
         "pkg-0.2.6" = _ruZmbGwR;
         "pkg-0.2.7" = _NSuN3vn7;
         "pkg-0.2.8" = _Y0CrRIMk;
@@ -1803,7 +1815,9 @@ let
         "pkg-2.0.9-1.21.1-neoforge" = _vt3tAE8t;
         "pkg-2.0.10-1.21.1-fabric" = _MTHiQy8B;
         "pkg-2.0.10-1.21.1-neoforge" = _zdcnA5UC;
-        "default" = _zdcnA5UC;
+        "pkg-2.0.11-1.21.1-neoforge" = _o6uUgZWm;
+        "pkg-2.0.11-1.21.1-fabric" = _KPjJQOn6;
+        "default" = _KPjJQOn6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scriptor-magicae";

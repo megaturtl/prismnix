@@ -66,6 +66,16 @@ let
             "file" = "forgeessentials-1.12.2-12.5.1-server.jar";
             "hash" = "sha512-vowjgwvmkHq2A4ZjaR6z9SKatc818KoWGCDrhvJqtdS2nCSv8psubzmGrs1kSWIIJsRigXhacv4GhvRnoyp2Rw==";
         };
+        _hlN9J4qQ = {
+            "id" = "hlN9J4qQ";
+            "file" = "forgeessentials-1.12.2-12.5.3-server.jar";
+            "hash" = "sha512-qxH1XRpZgWgluo+kyclUcRz6dvl5/EnUX3s8YYrsGt3OtDOQdyKV5La7Abvyjl9jnMOFQgZrHY//lrLCH+tzqA==";
+        };
+        _AVC4Ye2R = {
+            "id" = "AVC4Ye2R";
+            "file" = "forgeessentials-1.7.10-7.5.3-server.jar";
+            "hash" = "sha512-OJtocbTT0m/rU6f9l5xlyyu2MNBjkZtKeasKxPAbS+UkaH9QFcX5PGuzch5nPfJ/wSdhaRpSKHwJJ3EO7dsyqA==";
+        };
     in {
         "IAQnmJv8" = _IAQnmJv8;
         "yMc2SV5d" = _yMc2SV5d;
@@ -80,9 +90,11 @@ let
         "4MXrB09k" = _4MXrB09k;
         "731FJQ8l" = _731FJQ8l;
         "WJkMFHWI" = _WJkMFHWI;
-        "forge-1.12.2" = _WJkMFHWI;
+        "hlN9J4qQ" = _hlN9J4qQ;
+        "AVC4Ye2R" = _AVC4Ye2R;
+        "forge-1.12.2" = _hlN9J4qQ;
         "forge-1.16.5" = _gcIcTee6;
-        "forge-1.7.10" = _731FJQ8l;
+        "forge-1.7.10" = _AVC4Ye2R;
         "forge-1.17.1" = _tnuL9dop;
         "forge-1.18.2" = _uWeeYaXa;
         "pkg-12.4.125" = _IAQnmJv8;
@@ -98,7 +110,9 @@ let
         "pkg-12.5.0" = _4MXrB09k;
         "pkg-7.5.1" = _731FJQ8l;
         "pkg-12.5.1" = _WJkMFHWI;
-        "default" = _WJkMFHWI;
+        "pkg-12.5.3" = _hlN9J4qQ;
+        "pkg-7.5.3" = _AVC4Ye2R;
+        "default" = _AVC4Ye2R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "forge-essentials";

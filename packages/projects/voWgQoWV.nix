@@ -96,6 +96,16 @@ let
             "file" = "launchpad-1.9.0+26.1.2-full.jar";
             "hash" = "sha512-DAeYnTLavAep/0XO+CYjTyu0GK7h6ubPWXzrVXUogwcRMMskTdoMW4TmT4JuEyWymg1y/efYRA8l77514KyxVg==";
         };
+        _BF1qprAs = {
+            "id" = "BF1qprAs";
+            "file" = "launchpad-1.9.1+26.1.2-full.jar";
+            "hash" = "sha512-hBEndYDTbYhckI4c36P4qaY5Fw6XHKOZtIi5Dm+voooxtYI/ewk4FzVOWqygdzj8OWtrnvIvTEF/n5oYLATImw==";
+        };
+        _VtoPSyMI = {
+            "id" = "VtoPSyMI";
+            "file" = "launchpad-1.9.2+26.1.2-full.jar";
+            "hash" = "sha512-GD1fHtB0ayyU8xlElF9Mc5bINt6UK0FtU/7vfj2+fQW90zpqthmeOBR6cxaoFBf0TpzudwSUwFGp040tTSuSpQ==";
+        };
     in {
         "ybGNkI98" = _ybGNkI98;
         "c4WbtA7M" = _c4WbtA7M;
@@ -116,9 +126,11 @@ let
         "H0xDphud" = _H0xDphud;
         "nWdOZVsP" = _nWdOZVsP;
         "DVHAu4EU" = _DVHAu4EU;
-        "neoforge-26.1" = _DVHAu4EU;
-        "neoforge-26.1.1" = _DVHAu4EU;
-        "neoforge-26.1.2" = _DVHAu4EU;
+        "BF1qprAs" = _BF1qprAs;
+        "VtoPSyMI" = _VtoPSyMI;
+        "neoforge-26.1" = _VtoPSyMI;
+        "neoforge-26.1.1" = _VtoPSyMI;
+        "neoforge-26.1.2" = _VtoPSyMI;
         "pkg-1.0.0+26.1.2" = _ybGNkI98;
         "pkg-1.1.0+26.1.2" = _c4WbtA7M;
         "pkg-1.2.0+26.1.2" = _lnWg2zHI;
@@ -138,7 +150,9 @@ let
         "pkg-1.7.1+26.1.2" = _H0xDphud;
         "pkg-1.8.0+26.1.2" = _nWdOZVsP;
         "pkg-1.9.0+26.1.2" = _DVHAu4EU;
-        "default" = _DVHAu4EU;
+        "pkg-1.9.1+26.1.2" = _BF1qprAs;
+        "pkg-1.9.2+26.1.2" = _VtoPSyMI;
+        "default" = _VtoPSyMI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "launchpad";

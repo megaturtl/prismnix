@@ -21,17 +21,24 @@ let
             "file" = "immersiveintelligence-0.3.1-dev5.jar";
             "hash" = "sha512-RDe9jdsfwWuXERwb9N0xYq4R3oVvjnSV2m6NSYoSjqOl+FftNcpbwLEJNxKmTwAdS3G3xrJcpR7BuSimsV7GUg==";
         };
+        _zha7NWPy = {
+            "id" = "zha7NWPy";
+            "file" = "ImmersiveIntelligence-0.3.1-dev6.jar";
+            "hash" = "sha512-3oodMS/t4ptQ6Qt3Eh7H76AF0tus4K0VVD56aauYm+Szd74AVx9isNMevxssxKLnQYvuCtrj4CP8Y4464qY2xQ==";
+        };
     in {
         "dEqMoFtx" = _dEqMoFtx;
         "Wec7u1cg" = _Wec7u1cg;
         "kuylySZ4" = _kuylySZ4;
         "qWxLLPvT" = _qWxLLPvT;
-        "forge-1.12.2" = _qWxLLPvT;
+        "zha7NWPy" = _zha7NWPy;
+        "forge-1.12.2" = _zha7NWPy;
         "pkg-0.3.0" = _dEqMoFtx;
         "pkg-0.3.1-dev2" = _Wec7u1cg;
         "pkg-0.3.1-Dev4" = _kuylySZ4;
         "pkg-0.3.1-Dev5" = _qWxLLPvT;
-        "default" = _qWxLLPvT;
+        "pkg-0.3.1-Dev6" = _zha7NWPy;
+        "default" = _zha7NWPy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-intelligence";

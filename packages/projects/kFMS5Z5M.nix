@@ -1,0 +1,104 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _8hEugdpf = {
+            "id" = "8hEugdpf";
+            "file" = "RealisticShader_fixed (1).zip";
+            "hash" = "sha512-AWfXHXWKIf0tTE+91GkWlN6RmIJkyTMBZ/wQrC2CtTvH/zTRc6LRDgxdwvTZVJjPVMABWwLo+yoT5KXLG4ToxA==";
+        };
+    in {
+        "8hEugdpf" = _8hEugdpf;
+        "iris-1.15" = _8hEugdpf;
+        "iris-1.15.1" = _8hEugdpf;
+        "iris-1.15.2" = _8hEugdpf;
+        "iris-1.16" = _8hEugdpf;
+        "iris-1.16.1" = _8hEugdpf;
+        "iris-1.16.2" = _8hEugdpf;
+        "iris-1.16.3" = _8hEugdpf;
+        "iris-1.16.4" = _8hEugdpf;
+        "iris-1.16.5" = _8hEugdpf;
+        "iris-1.19" = _8hEugdpf;
+        "iris-1.19.1" = _8hEugdpf;
+        "iris-1.19.2" = _8hEugdpf;
+        "iris-1.19.3" = _8hEugdpf;
+        "iris-1.19.4" = _8hEugdpf;
+        "iris-1.20" = _8hEugdpf;
+        "iris-1.20.1" = _8hEugdpf;
+        "iris-1.20.2" = _8hEugdpf;
+        "iris-1.20.3" = _8hEugdpf;
+        "iris-1.20.4" = _8hEugdpf;
+        "iris-1.20.5" = _8hEugdpf;
+        "iris-1.20.6" = _8hEugdpf;
+        "iris-1.21" = _8hEugdpf;
+        "iris-1.21.1" = _8hEugdpf;
+        "iris-1.21.2" = _8hEugdpf;
+        "iris-1.21.3" = _8hEugdpf;
+        "iris-1.21.4" = _8hEugdpf;
+        "iris-1.21.5" = _8hEugdpf;
+        "iris-1.21.6" = _8hEugdpf;
+        "iris-1.21.7" = _8hEugdpf;
+        "iris-1.21.8" = _8hEugdpf;
+        "iris-1.21.9" = _8hEugdpf;
+        "iris-1.21.10" = _8hEugdpf;
+        "iris-1.21.11" = _8hEugdpf;
+        "iris-26.1" = _8hEugdpf;
+        "iris-26.1.1" = _8hEugdpf;
+        "iris-26.1.2" = _8hEugdpf;
+        "iris-26.2" = _8hEugdpf;
+        "optifine-1.15" = _8hEugdpf;
+        "optifine-1.15.1" = _8hEugdpf;
+        "optifine-1.15.2" = _8hEugdpf;
+        "optifine-1.16" = _8hEugdpf;
+        "optifine-1.16.1" = _8hEugdpf;
+        "optifine-1.16.2" = _8hEugdpf;
+        "optifine-1.16.3" = _8hEugdpf;
+        "optifine-1.16.4" = _8hEugdpf;
+        "optifine-1.16.5" = _8hEugdpf;
+        "optifine-1.19" = _8hEugdpf;
+        "optifine-1.19.1" = _8hEugdpf;
+        "optifine-1.19.2" = _8hEugdpf;
+        "optifine-1.19.3" = _8hEugdpf;
+        "optifine-1.19.4" = _8hEugdpf;
+        "optifine-1.20" = _8hEugdpf;
+        "optifine-1.20.1" = _8hEugdpf;
+        "optifine-1.20.2" = _8hEugdpf;
+        "optifine-1.20.3" = _8hEugdpf;
+        "optifine-1.20.4" = _8hEugdpf;
+        "optifine-1.20.5" = _8hEugdpf;
+        "optifine-1.20.6" = _8hEugdpf;
+        "optifine-1.21" = _8hEugdpf;
+        "optifine-1.21.1" = _8hEugdpf;
+        "optifine-1.21.2" = _8hEugdpf;
+        "optifine-1.21.3" = _8hEugdpf;
+        "optifine-1.21.4" = _8hEugdpf;
+        "optifine-1.21.5" = _8hEugdpf;
+        "optifine-1.21.6" = _8hEugdpf;
+        "optifine-1.21.7" = _8hEugdpf;
+        "optifine-1.21.8" = _8hEugdpf;
+        "optifine-1.21.9" = _8hEugdpf;
+        "optifine-1.21.10" = _8hEugdpf;
+        "optifine-1.21.11" = _8hEugdpf;
+        "optifine-26.1" = _8hEugdpf;
+        "optifine-26.1.1" = _8hEugdpf;
+        "optifine-26.1.2" = _8hEugdpf;
+        "optifine-26.2" = _8hEugdpf;
+        "pkg-1.0.0" = _8hEugdpf;
+        "default" = _8hEugdpf;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "maxrealstic-shader";
+        id = "kFMS5Z5M";
+        type = "shader";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

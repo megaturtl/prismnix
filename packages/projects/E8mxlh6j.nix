@@ -156,6 +156,11 @@ let
             "file" = "more_bows_and_arrows-merged-1.21.1-5.0.4.jar";
             "hash" = "sha512-CQsk39nRhuuBVr4E0P5dFDm/hJ5GPWHhuJF1sPKKmgGNwyqVS2IsTO+m+3QcAchzGSc19JiHBao4ootjFJRemA==";
         };
+        _i3UZqTTK = {
+            "id" = "i3UZqTTK";
+            "file" = "more_bows_and_arrows-merged-1.21.1-5.0.5.jar";
+            "hash" = "sha512-59z8r9kF1UF/kHuuoEVd+yWBcUAzajr4atvgCR4Pv8qcCFztG90+XfgS284lorl3a9GiaFT2xES2j35VGX638Q==";
+        };
     in {
         "fVUmvI01" = _fVUmvI01;
         "AaNXrWR0" = _AaNXrWR0;
@@ -188,6 +193,7 @@ let
         "eVBx9wNo" = _eVBx9wNo;
         "rOgPkeUw" = _rOgPkeUw;
         "N5az2FeH" = _N5az2FeH;
+        "i3UZqTTK" = _i3UZqTTK;
         "forge-1.20.1" = _3atlvd9r;
         "forge-1.20.2" = _XZPLsC3p;
         "forge-1.18.2" = _l0DZyfp7;
@@ -199,7 +205,7 @@ let
         "neoforge-1.20.1" = _ObpfAJrp;
         "neoforge-1.20.4" = _hEq15aCB;
         "neoforge-1.21" = _vazqCg2C;
-        "neoforge-1.21.1" = _N5az2FeH;
+        "neoforge-1.21.1" = _i3UZqTTK;
         "neoforge-26.1" = _rOgPkeUw;
         "neoforge-26.1.1" = _rOgPkeUw;
         "neoforge-26.1.2" = _rOgPkeUw;
@@ -208,7 +214,7 @@ let
         "fabric-1.20.2" = _XZPLsC3p;
         "fabric-1.20.4" = _HoNF4Hz1;
         "fabric-1.21" = _vazqCg2C;
-        "fabric-1.21.1" = _N5az2FeH;
+        "fabric-1.21.1" = _i3UZqTTK;
         "fabric-26.1" = _eVBx9wNo;
         "fabric-26.1.1" = _eVBx9wNo;
         "fabric-26.1.2" = _eVBx9wNo;
@@ -225,7 +231,8 @@ let
         "pkg-5.0.2" = _EMMw0VUq;
         "pkg-5.0.3" = _rOgPkeUw;
         "pkg-5.0.4" = _N5az2FeH;
-        "default" = _N5az2FeH;
+        "pkg-5.0.5" = _i3UZqTTK;
+        "default" = _i3UZqTTK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-bows-and-arrows";

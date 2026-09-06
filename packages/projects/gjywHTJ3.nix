@@ -91,6 +91,21 @@ let
             "file" = "youkaishomecoming-4.2.12.jar";
             "hash" = "sha512-3xyZZsR961kbg45nShNKENEZkkKiGi4Gnv8M4dSPrtG6kOEQArnr5GLDeUE5xyisBrCyLyFkuTahhNHEj/dHSA==";
         };
+        _aHhiffGh = {
+            "id" = "aHhiffGh";
+            "file" = "youkaishomecoming-4.2.13.jar";
+            "hash" = "sha512-38TAPzre5TLiu819OPvGvsC+y9QXFv2UGxOiFMbvO/i18uFQGsp01HwMosly3ao1VvCWNtdCdb49Tj9FfIZP4A==";
+        };
+        _iDcbZRrr = {
+            "id" = "iDcbZRrr";
+            "file" = "youkaishomecoming-4.2.13+1.jar";
+            "hash" = "sha512-jaED4hvEiMWeopMHt8VLlagborZurXbhcp7C6k0Q9sNgFtuh+gQ9aNzr2rsWASVK2bes8TGHBn7T3jXeU0+m/w==";
+        };
+        _bH1t3HEd = {
+            "id" = "bH1t3HEd";
+            "file" = "youkaishomecoming-4.2.14.jar";
+            "hash" = "sha512-dE5qO1zqF2lly+KqOUxu2NWAJ9eXVuswdtbgUn+onEIXahgVweMQHq4dYN7TXhoS4oI7fyx0mpNlOZ7+4uoz9w==";
+        };
     in {
         "O4IrcJAl" = _O4IrcJAl;
         "myxcAA78" = _myxcAA78;
@@ -110,7 +125,10 @@ let
         "NqPuTZPK" = _NqPuTZPK;
         "ol2cYqrI" = _ol2cYqrI;
         "9ZPAUB0k" = _9ZPAUB0k;
-        "neoforge-1.21.1" = _9ZPAUB0k;
+        "aHhiffGh" = _aHhiffGh;
+        "iDcbZRrr" = _iDcbZRrr;
+        "bH1t3HEd" = _bH1t3HEd;
+        "neoforge-1.21.1" = _bH1t3HEd;
         "pkg-4.1.49" = _O4IrcJAl;
         "pkg-4.1.50" = _myxcAA78;
         "pkg-4.1.51" = _yVFH3oIm;
@@ -129,7 +147,10 @@ let
         "pkg-4.2.10" = _NqPuTZPK;
         "pkg-4.2.11" = _ol2cYqrI;
         "pkg-4.2.12" = _9ZPAUB0k;
-        "default" = _9ZPAUB0k;
+        "pkg-4.2.13" = _aHhiffGh;
+        "pkg-4.2.13+1" = _iDcbZRrr;
+        "pkg-4.2.14" = _bH1t3HEd;
+        "default" = _bH1t3HEd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "youkaishomecoming-unofficial-port";

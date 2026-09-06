@@ -776,6 +776,351 @@ let
             "file" = "BetonQuest-3.2.0-DEV-15.jar";
             "hash" = "sha512-vhjFvC2l0vv/+dI0cI4jWbmELJ0J67wBlYkw53FmCmJ0ZCCmjxdTnMJbr+eg9k/obQXw+DYKJLTMh82KuATWjw==";
         };
+        _KUUuL4Rc = {
+            "id" = "KUUuL4Rc";
+            "file" = "BetonQuest-3.2.0-DEV-16.jar";
+            "hash" = "sha512-hxLqrs2nMJsx9eU2qm+wOOdk1DCZ9hQd7UZoNEVTZKmThKxVcaBe74Wp69mfsSvlWSP2WCd7NAIPYwU2/d4uKA==";
+        };
+        _VlGHH5To = {
+            "id" = "VlGHH5To";
+            "file" = "BetonQuest-3.2.0-DEV-17.jar";
+            "hash" = "sha512-WB8Hr6xwBTvDzRWpiMrnpcKGHRt/ghd9N2Y7CUx8rFI8gSLPzPEF9CCtj1qBpvarDqTzXh/6cX3wr9cqgBUhoQ==";
+        };
+        _7nT3SqAT = {
+            "id" = "7nT3SqAT";
+            "file" = "BetonQuest-3.2.0-DEV-18.jar";
+            "hash" = "sha512-aNe9AAc4XO8qMJNsgkjd7DArfGKec7tKkvDIic5e7h5apviPksW8vw2/Pj5rKSgPrNiS8X5VG5GUnzPDaEzkdw==";
+        };
+        _GPu6Kc6i = {
+            "id" = "GPu6Kc6i";
+            "file" = "BetonQuest-3.2.0-DEV-19.jar";
+            "hash" = "sha512-kQg/HdFanur5u5tXiew20yp2IqH51FbcKuo+oCS8iQ5DPSuCWLgoDMVtJ1h9iY4BfK76k41N3SKcSYqS9P982g==";
+        };
+        _Ikf2Mdu8 = {
+            "id" = "Ikf2Mdu8";
+            "file" = "BetonQuest-3.2.0-DEV-20.jar";
+            "hash" = "sha512-WfuvgnM0boRxjwiPfjqKxWhdAJx4/XWw1x/qDoKia9GjErybi9rk55ekdvzF9pgtsyfCtAvvkuDB1KOgackswg==";
+        };
+        _DxCDOEfO = {
+            "id" = "DxCDOEfO";
+            "file" = "BetonQuest-3.2.0-DEV-21.jar";
+            "hash" = "sha512-dAOgGKaSi8VqOvkQpZlleVyJCYxhDQwi32rnnMEKdWrmMVJYO7IIyvn5m0PePieCccrsHN8tJYXbxC9dfTO4yg==";
+        };
+        _QW5ZiRQQ = {
+            "id" = "QW5ZiRQQ";
+            "file" = "BetonQuest-3.2.0-DEV-22.jar";
+            "hash" = "sha512-sMMsx6emXyswXdzGk1rchCnGIXh2gHFeNan3Om2XVvlnWNVSHzitjW0+LD6FI7hesCE3UPFzH992rDXrkYhJ0A==";
+        };
+        _WoRxTl7P = {
+            "id" = "WoRxTl7P";
+            "file" = "BetonQuest-3.2.0-DEV-23.jar";
+            "hash" = "sha512-VTvlJu5oQKDGUE+H9PAyE7MYOaDnays/1X0uiTexHEBZinvy5m+DQbEJzaDesZGUvI6xhK29WCUGaQqQAHCWzw==";
+        };
+        _DfY8Rjdz = {
+            "id" = "DfY8Rjdz";
+            "file" = "BetonQuest-3.2.0-DEV-24.jar";
+            "hash" = "sha512-1VGsLe3EtczjhzkMAX13c4ECa5XAcYV4O0fJBKH3qz0qjqV0Ju3GzAhl7XRrbe07pGHBwZ3YuUZOYUNK1OvynA==";
+        };
+        _5fP4HS6u = {
+            "id" = "5fP4HS6u";
+            "file" = "BetonQuest-3.2.0-DEV-25.jar";
+            "hash" = "sha512-BJwhQUo3nXlI4AtgacJ7A2bOMjiLO9EX/0FfqnvCo5B9xusMkuTSqnY3E+mMJjeQwIYZVzhVO0BQNdUhpedpsg==";
+        };
+        _CXmXU1LV = {
+            "id" = "CXmXU1LV";
+            "file" = "BetonQuest-3.2.0-DEV-26.jar";
+            "hash" = "sha512-+i4Pn4ZfRIqyKYDJuTB02B+t77thgGNU0S0MFLUKuUzxrlIeMagbSRqHuGTQLerdGJca3n3E5FB0ZxbTkGPIUw==";
+        };
+        _OpS229bs = {
+            "id" = "OpS229bs";
+            "file" = "BetonQuest-3.2.0-DEV-27.jar";
+            "hash" = "sha512-Z1NspwcOvOz1SuiIUaf7Dc62lr/ezJoFnF04UYiyshAB/Rd+T27Eh60BDkuWm5MP3gwxmwqT42dNLjMSr6vu7g==";
+        };
+        _5IEhe4T5 = {
+            "id" = "5IEhe4T5";
+            "file" = "BetonQuest-3.2.0-DEV-28.jar";
+            "hash" = "sha512-z2tIgfwzfj+C2ZoqQJG1CtFnKFXz6a3d5iggOjJwJlH8t/xQ0KBHWVVHQnqkF9NH2Z0QLuRrQtYmLrunviCmDg==";
+        };
+        _lD2ant0K = {
+            "id" = "lD2ant0K";
+            "file" = "BetonQuest-3.2.0-DEV-29.jar";
+            "hash" = "sha512-+pm5pirb8KL4ZijwZCgagx/owuAGQeMXir6iUNNTQD2J0L8TBJGa4+YhCAsQaszI8lHf0thikfUF4k/gnb2xaQ==";
+        };
+        _BTw7o3px = {
+            "id" = "BTw7o3px";
+            "file" = "BetonQuest-3.2.0-DEV-30.jar";
+            "hash" = "sha512-BaHTBnFG1ad9qYxAu5jWq3sLQxHbuB6ji3tTuR3pKef7Y821RkyPRPT0L/zLcOPMW/72I55qNqC6ouT2I0qrdw==";
+        };
+        _tQegij5R = {
+            "id" = "tQegij5R";
+            "file" = "BetonQuest-3.2.0-DEV-31.jar";
+            "hash" = "sha512-FAjaw8l3fov93MKTSvKjzAp38SDxS4leFEEjqhbDWqjU/4NKuYP2OI8AFePG4L/rXzlxu9dB3DZLsL83eYDGTw==";
+        };
+        _NUYc0e3E = {
+            "id" = "NUYc0e3E";
+            "file" = "BetonQuest-3.2.0-DEV-32.jar";
+            "hash" = "sha512-T4KOsMOSTQT8Eq8FRATm4H35zgQPRh/rC41DgS0ojWnc1qYseniuX+XTPl8LBO69Mt8CeYjYF5N9se/WHedHlA==";
+        };
+        _RSUoMu0O = {
+            "id" = "RSUoMu0O";
+            "file" = "BetonQuest-3.2.0-DEV-33.jar";
+            "hash" = "sha512-oC5lmOSa6l0fhdKeBsdsM4AOYIS/oBe81X54spQBM7Sdot6TSg5UVLRkwhtJwLwIeCgsYiKK8/Cg18mvkCcp0g==";
+        };
+        _dxcrZyO7 = {
+            "id" = "dxcrZyO7";
+            "file" = "BetonQuest-3.2.0-DEV-34.jar";
+            "hash" = "sha512-C7z1f2OBPIZLzXzf/d92MtQWZd+yBLGasONWKHEADx9yZZ1h4tXEB5+Dhk/boFXoFunr6xs5jrFZxABJDjCpig==";
+        };
+        _mXq4Hrkb = {
+            "id" = "mXq4Hrkb";
+            "file" = "BetonQuest-3.2.0-DEV-35.jar";
+            "hash" = "sha512-DZCndk6E+uTQvZWO7J9rIbUVJE8PphoECzqAEr4Ao/mUidWCocUMibVbKBBaoT4/30hiBYuX53f8emrDbi+GLw==";
+        };
+        _czuLLSC2 = {
+            "id" = "czuLLSC2";
+            "file" = "BetonQuest-3.2.0-DEV-36.jar";
+            "hash" = "sha512-fzT5b8OzJKgw+kYokWc7ONf5tuAyhLfBeDPxBLMDXFuYuCaACuV5oz3W32kPOdJPbkprwKYuDg6Ji1WiWPCcww==";
+        };
+        _OjGiZfre = {
+            "id" = "OjGiZfre";
+            "file" = "BetonQuest-3.2.0-DEV-37.jar";
+            "hash" = "sha512-OdsSDRqg8MR4Iv+rX6NGAoHSWILsTHxUSO25T5reu+ToNuh3Jbrosu3Aq6ApufXYDNNURWml1Mt5LxWGMFqCeQ==";
+        };
+        _KudRjKvW = {
+            "id" = "KudRjKvW";
+            "file" = "BetonQuest-3.2.0-DEV-38.jar";
+            "hash" = "sha512-za1rUMV3rclo/h4s/Mr29HLD/8DG157T7ozRIEKVw/Zpn3SexEz0aFDC5zKrX+uubjrj1t/IFuwgiJuLDnVgNQ==";
+        };
+        _4VtwFREm = {
+            "id" = "4VtwFREm";
+            "file" = "BetonQuest-3.2.0-DEV-39.jar";
+            "hash" = "sha512-F+VlKOGbXFdH50tBDK5Ql6k5kZBIus+7oX1ulKw/JEhAHbQxj6vFyTYN8DGmUmLt5Ku/yTruIVWCxuGxb7qiVA==";
+        };
+        _N2RtDSrS = {
+            "id" = "N2RtDSrS";
+            "file" = "BetonQuest-3.2.0-DEV-40.jar";
+            "hash" = "sha512-9l+KfkhxYM3VZFv2OzGs1ALEuKVdim/gsOkwiqVvsoLQKMkPyscfSxp7HTiOhLil3J0BEkVGwzYguOtMT/Ca+A==";
+        };
+        _y6BPkvif = {
+            "id" = "y6BPkvif";
+            "file" = "BetonQuest-3.2.0-DEV-41.jar";
+            "hash" = "sha512-4HG20MFJ7/wxqHXoRBnh/FIP/ylIBD3TO2Kvcycj7u8ktkuchqW8enkW1iNS+vkdckW4IapLTi3EKY38V3d+KQ==";
+        };
+        _Fv53vse8 = {
+            "id" = "Fv53vse8";
+            "file" = "BetonQuest-3.2.0-DEV-42.jar";
+            "hash" = "sha512-mIPTVLpSXJOhV0tZN0rpuR/OlACPHTKRE0JmJuMfsX/rAF113CnZbqLydEsy/LcZCOgBSsCITHVorT+O0I1HVg==";
+        };
+        _V0XMnMgo = {
+            "id" = "V0XMnMgo";
+            "file" = "BetonQuest-3.2.0-DEV-43.jar";
+            "hash" = "sha512-Yvq6dyowbnjVe3UsQorlRliG1RnhSMl5c2VwdFV/WSKu+9YoGCzKimW1g160gL+As4li9sMxoznmFetrENyI9g==";
+        };
+        _J2uKcBiB = {
+            "id" = "J2uKcBiB";
+            "file" = "BetonQuest-3.2.0-DEV-44.jar";
+            "hash" = "sha512-eQqFY57j3qwpEBuNTnMDlI19YwDYiuy2REff9PaqLAyqJ7CUUnupiTU/v0KciavOQBgLDtmhOaYHAqAlK4wg/w==";
+        };
+        _tEEK4quj = {
+            "id" = "tEEK4quj";
+            "file" = "BetonQuest-3.2.0-DEV-45.jar";
+            "hash" = "sha512-O5EyU7kl1IYat4qEiW9ToQ4e5LMMh6v7b8rf4e+M+NpD+bFtrF3YtTUoAR+F19BQchoNmr9eUsXh6UbX0Oh92g==";
+        };
+        _8LIbMzXo = {
+            "id" = "8LIbMzXo";
+            "file" = "BetonQuest-3.2.0-DEV-46.jar";
+            "hash" = "sha512-c+Rq3AO04o1+hCSVp3Ho2rxnjSP4XX+SoNBz2tYjYDptz//bjgXh4ondPlTeYDz5vdrBRD9biM6NkUQ0l5rQdw==";
+        };
+        _h1aj35nd = {
+            "id" = "h1aj35nd";
+            "file" = "BetonQuest-3.2.0-DEV-47.jar";
+            "hash" = "sha512-rv8jwOJiGF0lDdEzjnCu5/A1hyWcci9+dzFgnmG0CpkmN1mnIeJSW3PKO1Sftu4764GnIuiZiplyZ7J0Y6siig==";
+        };
+        _pMWB2jvX = {
+            "id" = "pMWB2jvX";
+            "file" = "BetonQuest-3.2.0-DEV-48.jar";
+            "hash" = "sha512-NMNiegyQAb7dEc1L7c1QWQJQ+NWqwFM/IwAl4x6h1TfRpFG02Y/aWGtjLmSenHLTsh4J5VKpBIgceAf886eTdw==";
+        };
+        _asiYI9iX = {
+            "id" = "asiYI9iX";
+            "file" = "BetonQuest-3.2.0-DEV-49.jar";
+            "hash" = "sha512-ydLr3wsgSRe5kqVbLR+UdpbDumugn/BMmrwnrNvZaTh4sNaVoLQIllM40SYaMslDxLuAAFh022od/GltFAso9A==";
+        };
+        _SyVD0kQ0 = {
+            "id" = "SyVD0kQ0";
+            "file" = "BetonQuest-3.2.0-DEV-50.jar";
+            "hash" = "sha512-fI01H2TEyUnYHkgSFqAu303fD7J/+khJYsCZQ7+V+syO5c1cmGhqYf+VrgpcPv7JoxbFSfwZvllz20Oxo7X+LA==";
+        };
+        _mvVnLDF8 = {
+            "id" = "mvVnLDF8";
+            "file" = "BetonQuest-3.2.0-DEV-51.jar";
+            "hash" = "sha512-AWYtayx/xKDvZum8gaKk/KP90T4e3/I3na6MMl/5wjCAfWX8Ah2dZ13TzmYlSCMyacgWwKomnQ94f2E+rMqXzA==";
+        };
+        _m2Vy7p1Z = {
+            "id" = "m2Vy7p1Z";
+            "file" = "BetonQuest-3.2.0-DEV-52.jar";
+            "hash" = "sha512-0mIFyKAeXqLbNCOlsVfGYYKOqsrAybNMY+2hqTpEVNeEzAMSqym1hqO1QQ4mRH4jsJ5kzzI/cNXDczm4E+Uvtg==";
+        };
+        _Sfp4oOVr = {
+            "id" = "Sfp4oOVr";
+            "file" = "BetonQuest-3.2.0.jar";
+            "hash" = "sha512-MMUArjFDONup058WgBF4qAUrHOzETB7uDxhy2fzB888GeGmby9E/XFM9zmwkFNOLAPRNrMa75Qhst5lK5GW0JQ==";
+        };
+        _7VZeSqUH = {
+            "id" = "7VZeSqUH";
+            "file" = "BetonQuest-3.3.0-DEV-1.jar";
+            "hash" = "sha512-56e8GoOoao7XcH0n+jjJWN7vPW4Np05od7mbK01bDRU1/LQ8QfAt+aLfDGCsi9mSNbHPHSu5anY6HI87pKCLTg==";
+        };
+        _VH6QIpfj = {
+            "id" = "VH6QIpfj";
+            "file" = "BetonQuest-3.3.0-DEV-2.jar";
+            "hash" = "sha512-x1HfkNwKdMQX1gIgIwkHne3ZaahhC6bTfbGRoUHuajsEkJyeELBr73pZCS+3MAFzazhU1qwNGuK/9hNFn3y7xw==";
+        };
+        _e8tRU7LB = {
+            "id" = "e8tRU7LB";
+            "file" = "BetonQuest-3.3.0-DEV-3.jar";
+            "hash" = "sha512-giPYlJiJ/Gcz450rnS4Fb/zAR/f/LPeXxra+zGPuvMT9FHfiL7nqQbltse0y7Pt/Lu0FwggUKH9+vNKJqLcxFA==";
+        };
+        _CBRI5P9G = {
+            "id" = "CBRI5P9G";
+            "file" = "BetonQuest-3.3.0-DEV-4.jar";
+            "hash" = "sha512-0vMUHlXzF/n3Fkwww2sdJ2cMMzpyg5gg+lPXlaG1YDHRhslJLDOi/k7hRGXrbnkW4cZznFLqe3xeQIwsFBPwyA==";
+        };
+        _57yNqRuO = {
+            "id" = "57yNqRuO";
+            "file" = "BetonQuest-3.3.0-DEV-5.jar";
+            "hash" = "sha512-nS/CiIQLbFqhpj158b81ImfPIwJbvJfRjgXnpT6HpjF/fcq7ON1TlDssjPhAOoK8w5LAjrP5ihOKeBSAy/Td6A==";
+        };
+        _SkevrnNI = {
+            "id" = "SkevrnNI";
+            "file" = "BetonQuest-3.3.0-DEV-6.jar";
+            "hash" = "sha512-DaqN9wWBTZUAjIFZv06phhTRccfEIKjuguJmjDES2Qj2GFraIjwMaiZxWcMA1Ed3LeCZ4/PqFy0TC+K6TS4WPA==";
+        };
+        _uoVhuiRj = {
+            "id" = "uoVhuiRj";
+            "file" = "BetonQuest-3.3.0-DEV-7.jar";
+            "hash" = "sha512-aBJNDMMA3/02bVr2O20eeI7RzTUTxHxN9gzWiw0BIrlDsTkyhhwq8z/+ecHjueGaxG3417WyCY4ly2EFRmpieA==";
+        };
+        _48IYe6gh = {
+            "id" = "48IYe6gh";
+            "file" = "BetonQuest-3.3.0-DEV-8.jar";
+            "hash" = "sha512-pMxoClNdTkIJ510ZJpBKhCgP8wOsDaXhNu4ZvrH71yA49LUS8a7cZcF2UUcpozBOrE43KQPGdEtjC8bvmf8GMA==";
+        };
+        _gPyWjMS0 = {
+            "id" = "gPyWjMS0";
+            "file" = "BetonQuest-3.3.0-DEV-9.jar";
+            "hash" = "sha512-CvuKZjtQBnEZJQ7h1o2X+ojNOpRRgsvSkgd0fxAjbwI0XSHDSAGdK2QfIbUHePfMhCYYH1jtRg9aZ+nNtx4aWg==";
+        };
+        _tiThSGn0 = {
+            "id" = "tiThSGn0";
+            "file" = "BetonQuest-3.3.0-DEV-10.jar";
+            "hash" = "sha512-INtKGD0XCQhoQYuH7IV4wS3rYnj87aNyGgianQ59RiSHhaAHtuwRAOda9gZAODrK3K145GfpDZK1IQ36/hLo7g==";
+        };
+        _TXXks8aY = {
+            "id" = "TXXks8aY";
+            "file" = "BetonQuest-3.3.0-DEV-11.jar";
+            "hash" = "sha512-e1moLXEt7JEMdVtqa2VTidjbGRrAvDuRcJoDHNki+hwMJQqajFo6ueCNqJb2gH8hMAj2wI20Vx6K7EkAH1QIEg==";
+        };
+        _kpcODLyQ = {
+            "id" = "kpcODLyQ";
+            "file" = "BetonQuest-3.3.0-DEV-12.jar";
+            "hash" = "sha512-kLt2JEsyuAGxibJ8BAwEB4OjvzKrJOu4k1dywdm68ejKVR5NNgQ76Cu+xqyzDt/pfDGNTBNtRzyZfmrlgtUbuQ==";
+        };
+        _Q1BRKSlG = {
+            "id" = "Q1BRKSlG";
+            "file" = "BetonQuest-3.3.0-DEV-13.jar";
+            "hash" = "sha512-srtdaXeqhbO48Q/Yrl8N7GS4ggP3y7+zI6tHYZUtq10SdSfeXkmFtH+CYVzOfYCzeLI7dyc700CDeOhEzThMuQ==";
+        };
+        _1odzdqmM = {
+            "id" = "1odzdqmM";
+            "file" = "BetonQuest-3.3.0-DEV-14.jar";
+            "hash" = "sha512-6fX1PaGg/aUx1sVNeEFu6Seg7cgR4xfh8cjoMFvi2fUX/trd5imRnSU7Sm9ChZNdQpYVslLn4qr6hP0s9kvjDQ==";
+        };
+        _cPXtujPO = {
+            "id" = "cPXtujPO";
+            "file" = "BetonQuest-3.3.0-DEV-15.jar";
+            "hash" = "sha512-ZCxRUt/n0nrdbhb0xLbHQ92ibZ62W7jUV2/oSRkdkBK66SHR7vmv/eCYGMEToMgT6wyXfacGYVaOXzBCwjpOfQ==";
+        };
+        _TkYIxt65 = {
+            "id" = "TkYIxt65";
+            "file" = "BetonQuest-3.3.0-DEV-16.jar";
+            "hash" = "sha512-flKQESikoBmzFBSSSmqgi22q5wfWlAe2B+TxMY3M0+Thb8c9sb4T/fcU1Ipe/J6sq9DkneQu1JRfpSbSaw0rOw==";
+        };
+        _OIIKfkOF = {
+            "id" = "OIIKfkOF";
+            "file" = "BetonQuest-3.3.0-DEV-19.jar";
+            "hash" = "sha512-b5UqeFOmXHXxdRv4l1C0UMHn260Gw1j/EPrH6VekIVWLpDnhRRnPU43thLrJWLAoalayO0d9rS9JDE3VRVM2WQ==";
+        };
+        _XRGUi9nQ = {
+            "id" = "XRGUi9nQ";
+            "file" = "BetonQuest-3.3.0-DEV-20.jar";
+            "hash" = "sha512-XKY5u2ldBoaKFfy7StSmWyg0noHHFRR4Hl+/CFFKvhDn8BATRc80vwJTrKpZFzsvcMdp8tGE7/skxk68Kn3svA==";
+        };
+        _OtCLJfjL = {
+            "id" = "OtCLJfjL";
+            "file" = "BetonQuest-3.3.0-DEV-21.jar";
+            "hash" = "sha512-UjYjcrOj8qRtZlhwAqbMuYHXmfWpAxcFfqANaxfykKLhHeFIXlZ0iG/rkdcJf/iVqpesk/HICwq7xX0gW5yYEA==";
+        };
+        _6lNZXtji = {
+            "id" = "6lNZXtji";
+            "file" = "BetonQuest-3.3.0-DEV-22.jar";
+            "hash" = "sha512-crCGuHL8LawzWWgPjmnEm7X7UsUm8QpA7td+kzhLNXl6oNZn62Z/e1J1IFutpie1x//pSqkPVBGo8Kg5p1LAgQ==";
+        };
+        _8MnUToxE = {
+            "id" = "8MnUToxE";
+            "file" = "BetonQuest-3.3.0-DEV-23.jar";
+            "hash" = "sha512-+9EYY2OVqYieKdRTWD/00zehpvRADovO5XbQuYtSJWQDFKwczGvRQZGP+J/t49My6uHmhnEZsJnizP8Oqwc/pg==";
+        };
+        _zlDHNmAS = {
+            "id" = "zlDHNmAS";
+            "file" = "BetonQuest-3.3.0-DEV-24.jar";
+            "hash" = "sha512-ojhVx9HJXFa+uMvYu1IAU6vn6gt6HUuyQjK+mwizWmU8sMe1zylZmMw6V6dkasBmvnb1KR5AX0gMMOY9Nr2whQ==";
+        };
+        _kuC775Ui = {
+            "id" = "kuC775Ui";
+            "file" = "BetonQuest-3.3.0-DEV-25.jar";
+            "hash" = "sha512-aXwpls9zsPW3LEQPzAcvVYKWM7iCSsHylpAGz8UwzsoeeXAu2vt7BZ0UbGRGRyJzwL9klOxL1mKnctigh0goOg==";
+        };
+        _Ov0gFwHT = {
+            "id" = "Ov0gFwHT";
+            "file" = "BetonQuest-3.3.0-DEV-26.jar";
+            "hash" = "sha512-RXkRoyuNOHi2Jgb/V2bmosYY2HOKwVI1PbMpWbbX5ySjLHE2jxJlS/xSk1WOUzLbdzYxY+8xuxBAbYfh7eQ2ig==";
+        };
+        _DUPnkJrJ = {
+            "id" = "DUPnkJrJ";
+            "file" = "BetonQuest-3.3.0-DEV-27.jar";
+            "hash" = "sha512-fw4cHfDWmVHRxZmK+7uSe3NAb+Xc8vzOZ1f0P1RLzloNOV/uL6cDgH8KkW3uVXyY/1AOEoINRUv3gQToHMsMAg==";
+        };
+        _3PGaJN8k = {
+            "id" = "3PGaJN8k";
+            "file" = "BetonQuest-3.3.0-DEV-28.jar";
+            "hash" = "sha512-LDep4NVOSeuGWUwrc4p+6II8q65YbOQGVQ+RiEfZFCWaemmFySECBYbQmnM3XrvIREkQFmkZA8V+b3D8S3aCBg==";
+        };
+        _vhqGFFrt = {
+            "id" = "vhqGFFrt";
+            "file" = "BetonQuest-3.3.0-DEV-29.jar";
+            "hash" = "sha512-EL7scGw83DAjEq5F9v3AWmjqLj71ZKwMCnwWTlLLNAwpkAH3SZd3fXHtyqY648S48mrOyYFtLJ+92TEtHF1dgw==";
+        };
+        _Ccz8uepX = {
+            "id" = "Ccz8uepX";
+            "file" = "BetonQuest-3.3.0-DEV-30.jar";
+            "hash" = "sha512-S6Ty+4e6tVRVyy84DYZg+yReWi0UfdMcneafvrU8LpjnICr12dSSmLg1df+fhZonN8vtncNRdqlxJUwTyJw4Lg==";
+        };
+        _ubsDebnA = {
+            "id" = "ubsDebnA";
+            "file" = "BetonQuest-3.3.0-DEV-31.jar";
+            "hash" = "sha512-wXzUKZ1RWqakTlV86V/8QJtDxE+4i60j4Q2dNnBcZDGJ6LSQW7JbFNKSU04yzTJWYzR4JuQDr3N2kiup8RJXNg==";
+        };
+        _nUdhYkvG = {
+            "id" = "nUdhYkvG";
+            "file" = "BetonQuest-3.3.0-DEV-32.jar";
+            "hash" = "sha512-S1dJYR1GM4hOvBtkvPhuEE4ZLPDyayNc27tXYgMdEslfLt+psuJA+sV3rTVdLZCuJ03A49AM/LOVB39A6JRJBg==";
+        };
+        _FTzf4MWc = {
+            "id" = "FTzf4MWc";
+            "file" = "BetonQuest-3.3.0-DEV-33.jar";
+            "hash" = "sha512-GIvnVgaGebYdlHKWGZ267RIk6X42wPx615/LARv2gRdAh0HrJywl8frUb+OgULrOJEQgXCl09aewz4KUPbQVDQ==";
+        };
     in {
         "7bxT2Epc" = _7bxT2Epc;
         "NGVOlVce" = _NGVOlVce;
@@ -932,44 +1277,113 @@ let
         "vWEfX5AJ" = _vWEfX5AJ;
         "XfmmR1ou" = _XfmmR1ou;
         "qJx2C5vs" = _qJx2C5vs;
+        "KUUuL4Rc" = _KUUuL4Rc;
+        "VlGHH5To" = _VlGHH5To;
+        "7nT3SqAT" = _7nT3SqAT;
+        "GPu6Kc6i" = _GPu6Kc6i;
+        "Ikf2Mdu8" = _Ikf2Mdu8;
+        "DxCDOEfO" = _DxCDOEfO;
+        "QW5ZiRQQ" = _QW5ZiRQQ;
+        "WoRxTl7P" = _WoRxTl7P;
+        "DfY8Rjdz" = _DfY8Rjdz;
+        "5fP4HS6u" = _5fP4HS6u;
+        "CXmXU1LV" = _CXmXU1LV;
+        "OpS229bs" = _OpS229bs;
+        "5IEhe4T5" = _5IEhe4T5;
+        "lD2ant0K" = _lD2ant0K;
+        "BTw7o3px" = _BTw7o3px;
+        "tQegij5R" = _tQegij5R;
+        "NUYc0e3E" = _NUYc0e3E;
+        "RSUoMu0O" = _RSUoMu0O;
+        "dxcrZyO7" = _dxcrZyO7;
+        "mXq4Hrkb" = _mXq4Hrkb;
+        "czuLLSC2" = _czuLLSC2;
+        "OjGiZfre" = _OjGiZfre;
+        "KudRjKvW" = _KudRjKvW;
+        "4VtwFREm" = _4VtwFREm;
+        "N2RtDSrS" = _N2RtDSrS;
+        "y6BPkvif" = _y6BPkvif;
+        "Fv53vse8" = _Fv53vse8;
+        "V0XMnMgo" = _V0XMnMgo;
+        "J2uKcBiB" = _J2uKcBiB;
+        "tEEK4quj" = _tEEK4quj;
+        "8LIbMzXo" = _8LIbMzXo;
+        "h1aj35nd" = _h1aj35nd;
+        "pMWB2jvX" = _pMWB2jvX;
+        "asiYI9iX" = _asiYI9iX;
+        "SyVD0kQ0" = _SyVD0kQ0;
+        "mvVnLDF8" = _mvVnLDF8;
+        "m2Vy7p1Z" = _m2Vy7p1Z;
+        "Sfp4oOVr" = _Sfp4oOVr;
+        "7VZeSqUH" = _7VZeSqUH;
+        "VH6QIpfj" = _VH6QIpfj;
+        "e8tRU7LB" = _e8tRU7LB;
+        "CBRI5P9G" = _CBRI5P9G;
+        "57yNqRuO" = _57yNqRuO;
+        "SkevrnNI" = _SkevrnNI;
+        "uoVhuiRj" = _uoVhuiRj;
+        "48IYe6gh" = _48IYe6gh;
+        "gPyWjMS0" = _gPyWjMS0;
+        "tiThSGn0" = _tiThSGn0;
+        "TXXks8aY" = _TXXks8aY;
+        "kpcODLyQ" = _kpcODLyQ;
+        "Q1BRKSlG" = _Q1BRKSlG;
+        "1odzdqmM" = _1odzdqmM;
+        "cPXtujPO" = _cPXtujPO;
+        "TkYIxt65" = _TkYIxt65;
+        "OIIKfkOF" = _OIIKfkOF;
+        "XRGUi9nQ" = _XRGUi9nQ;
+        "OtCLJfjL" = _OtCLJfjL;
+        "6lNZXtji" = _6lNZXtji;
+        "8MnUToxE" = _8MnUToxE;
+        "zlDHNmAS" = _zlDHNmAS;
+        "kuC775Ui" = _kuC775Ui;
+        "Ov0gFwHT" = _Ov0gFwHT;
+        "DUPnkJrJ" = _DUPnkJrJ;
+        "3PGaJN8k" = _3PGaJN8k;
+        "vhqGFFrt" = _vhqGFFrt;
+        "Ccz8uepX" = _Ccz8uepX;
+        "ubsDebnA" = _ubsDebnA;
+        "nUdhYkvG" = _nUdhYkvG;
+        "FTzf4MWc" = _FTzf4MWc;
         "paper-1.13.2" = _UXX6UgoZ;
         "paper-1.14.4" = _UXX6UgoZ;
         "paper-1.15.2" = _UXX6UgoZ;
         "paper-1.16.5" = _UXX6UgoZ;
         "paper-1.17.1" = _UXX6UgoZ;
-        "paper-1.18.2" = _qJx2C5vs;
-        "paper-1.19.2" = _qJx2C5vs;
-        "paper-1.18" = _qJx2C5vs;
-        "paper-1.18.1" = _qJx2C5vs;
-        "paper-1.19" = _qJx2C5vs;
-        "paper-1.19.1" = _qJx2C5vs;
-        "paper-1.19.3" = _qJx2C5vs;
-        "paper-1.19.4" = _qJx2C5vs;
-        "paper-1.20" = _qJx2C5vs;
-        "paper-1.20.2" = _qJx2C5vs;
+        "paper-1.18.2" = _FTzf4MWc;
+        "paper-1.19.2" = _FTzf4MWc;
+        "paper-1.18" = _FTzf4MWc;
+        "paper-1.18.1" = _FTzf4MWc;
+        "paper-1.19" = _FTzf4MWc;
+        "paper-1.19.1" = _FTzf4MWc;
+        "paper-1.19.3" = _FTzf4MWc;
+        "paper-1.19.4" = _FTzf4MWc;
+        "paper-1.20" = _FTzf4MWc;
+        "paper-1.20.2" = _FTzf4MWc;
         "paper-1.13" = _UXX6UgoZ;
         "paper-1.13.1" = _UXX6UgoZ;
-        "paper-1.20.4" = _qJx2C5vs;
-        "paper-1.20.5" = _qJx2C5vs;
-        "paper-1.20.6" = _qJx2C5vs;
-        "paper-1.20.1" = _qJx2C5vs;
-        "paper-1.20.3" = _qJx2C5vs;
-        "paper-1.21" = _qJx2C5vs;
-        "paper-1.21.1" = _qJx2C5vs;
-        "paper-1.21.2" = _qJx2C5vs;
-        "paper-1.21.3" = _qJx2C5vs;
-        "paper-1.21.4" = _qJx2C5vs;
-        "paper-1.21.5" = _qJx2C5vs;
-        "paper-1.21.6" = _qJx2C5vs;
-        "paper-1.21.7" = _qJx2C5vs;
-        "paper-1.21.8" = _qJx2C5vs;
-        "paper-1.21.9" = _qJx2C5vs;
-        "paper-1.21.10" = _qJx2C5vs;
-        "paper-1.21.11" = _qJx2C5vs;
-        "paper-26.1" = _qJx2C5vs;
-        "paper-26.1.1" = _qJx2C5vs;
-        "paper-26.1.2" = _qJx2C5vs;
-        "paper-26.2" = _qJx2C5vs;
+        "paper-1.20.4" = _FTzf4MWc;
+        "paper-1.20.5" = _FTzf4MWc;
+        "paper-1.20.6" = _FTzf4MWc;
+        "paper-1.20.1" = _FTzf4MWc;
+        "paper-1.20.3" = _FTzf4MWc;
+        "paper-1.21" = _FTzf4MWc;
+        "paper-1.21.1" = _FTzf4MWc;
+        "paper-1.21.2" = _FTzf4MWc;
+        "paper-1.21.3" = _FTzf4MWc;
+        "paper-1.21.4" = _FTzf4MWc;
+        "paper-1.21.5" = _FTzf4MWc;
+        "paper-1.21.6" = _FTzf4MWc;
+        "paper-1.21.7" = _FTzf4MWc;
+        "paper-1.21.8" = _FTzf4MWc;
+        "paper-1.21.9" = _FTzf4MWc;
+        "paper-1.21.10" = _FTzf4MWc;
+        "paper-1.21.11" = _FTzf4MWc;
+        "paper-26.1" = _FTzf4MWc;
+        "paper-26.1.1" = _FTzf4MWc;
+        "paper-26.1.2" = _FTzf4MWc;
+        "paper-26.2" = _FTzf4MWc;
         "spigot-1.13.2" = _UXX6UgoZ;
         "spigot-1.14.4" = _UXX6UgoZ;
         "spigot-1.15.2" = _UXX6UgoZ;
@@ -1152,7 +1566,76 @@ let
         "pkg-3.2.0-DEV-13" = _vWEfX5AJ;
         "pkg-3.2.0-DEV-14" = _XfmmR1ou;
         "pkg-3.2.0-DEV-15" = _qJx2C5vs;
-        "default" = _qJx2C5vs;
+        "pkg-3.2.0-DEV-16" = _KUUuL4Rc;
+        "pkg-3.2.0-DEV-17" = _VlGHH5To;
+        "pkg-3.2.0-DEV-18" = _7nT3SqAT;
+        "pkg-3.2.0-DEV-19" = _GPu6Kc6i;
+        "pkg-3.2.0-DEV-20" = _Ikf2Mdu8;
+        "pkg-3.2.0-DEV-21" = _DxCDOEfO;
+        "pkg-3.2.0-DEV-22" = _QW5ZiRQQ;
+        "pkg-3.2.0-DEV-23" = _WoRxTl7P;
+        "pkg-3.2.0-DEV-24" = _DfY8Rjdz;
+        "pkg-3.2.0-DEV-25" = _5fP4HS6u;
+        "pkg-3.2.0-DEV-26" = _CXmXU1LV;
+        "pkg-3.2.0-DEV-27" = _OpS229bs;
+        "pkg-3.2.0-DEV-28" = _5IEhe4T5;
+        "pkg-3.2.0-DEV-29" = _lD2ant0K;
+        "pkg-3.2.0-DEV-30" = _BTw7o3px;
+        "pkg-3.2.0-DEV-31" = _tQegij5R;
+        "pkg-3.2.0-DEV-32" = _NUYc0e3E;
+        "pkg-3.2.0-DEV-33" = _RSUoMu0O;
+        "pkg-3.2.0-DEV-34" = _dxcrZyO7;
+        "pkg-3.2.0-DEV-35" = _mXq4Hrkb;
+        "pkg-3.2.0-DEV-36" = _czuLLSC2;
+        "pkg-3.2.0-DEV-37" = _OjGiZfre;
+        "pkg-3.2.0-DEV-38" = _KudRjKvW;
+        "pkg-3.2.0-DEV-39" = _4VtwFREm;
+        "pkg-3.2.0-DEV-40" = _N2RtDSrS;
+        "pkg-3.2.0-DEV-41" = _y6BPkvif;
+        "pkg-3.2.0-DEV-42" = _Fv53vse8;
+        "pkg-3.2.0-DEV-43" = _V0XMnMgo;
+        "pkg-3.2.0-DEV-44" = _J2uKcBiB;
+        "pkg-3.2.0-DEV-45" = _tEEK4quj;
+        "pkg-3.2.0-DEV-46" = _8LIbMzXo;
+        "pkg-3.2.0-DEV-47" = _h1aj35nd;
+        "pkg-3.2.0-DEV-48" = _pMWB2jvX;
+        "pkg-3.2.0-DEV-49" = _asiYI9iX;
+        "pkg-3.2.0-DEV-50" = _SyVD0kQ0;
+        "pkg-3.2.0-DEV-51" = _mvVnLDF8;
+        "pkg-3.2.0-DEV-52" = _m2Vy7p1Z;
+        "pkg-3.2.0" = _Sfp4oOVr;
+        "pkg-3.3.0-DEV-1" = _7VZeSqUH;
+        "pkg-3.3.0-DEV-2" = _VH6QIpfj;
+        "pkg-3.3.0-DEV-3" = _e8tRU7LB;
+        "pkg-3.3.0-DEV-4" = _CBRI5P9G;
+        "pkg-3.3.0-DEV-5" = _57yNqRuO;
+        "pkg-3.3.0-DEV-6" = _SkevrnNI;
+        "pkg-3.3.0-DEV-7" = _uoVhuiRj;
+        "pkg-3.3.0-DEV-8" = _48IYe6gh;
+        "pkg-3.3.0-DEV-9" = _gPyWjMS0;
+        "pkg-3.3.0-DEV-10" = _tiThSGn0;
+        "pkg-3.3.0-DEV-11" = _TXXks8aY;
+        "pkg-3.3.0-DEV-12" = _kpcODLyQ;
+        "pkg-3.3.0-DEV-13" = _Q1BRKSlG;
+        "pkg-3.3.0-DEV-14" = _1odzdqmM;
+        "pkg-3.3.0-DEV-15" = _cPXtujPO;
+        "pkg-3.3.0-DEV-16" = _TkYIxt65;
+        "pkg-3.3.0-DEV-19" = _OIIKfkOF;
+        "pkg-3.3.0-DEV-20" = _XRGUi9nQ;
+        "pkg-3.3.0-DEV-21" = _OtCLJfjL;
+        "pkg-3.3.0-DEV-22" = _6lNZXtji;
+        "pkg-3.3.0-DEV-23" = _8MnUToxE;
+        "pkg-3.3.0-DEV-24" = _zlDHNmAS;
+        "pkg-3.3.0-DEV-25" = _kuC775Ui;
+        "pkg-3.3.0-DEV-26" = _Ov0gFwHT;
+        "pkg-3.3.0-DEV-27" = _DUPnkJrJ;
+        "pkg-3.3.0-DEV-28" = _3PGaJN8k;
+        "pkg-3.3.0-DEV-29" = _vhqGFFrt;
+        "pkg-3.3.0-DEV-30" = _Ccz8uepX;
+        "pkg-3.3.0-DEV-31" = _ubsDebnA;
+        "pkg-3.3.0-DEV-32" = _nUdhYkvG;
+        "pkg-3.3.0-DEV-33" = _FTzf4MWc;
+        "default" = _FTzf4MWc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betonquest";

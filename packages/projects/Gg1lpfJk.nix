@@ -46,6 +46,16 @@ let
             "file" = "furnituresoplenty-fabric-1.2.0.jar";
             "hash" = "sha512-bJl2ZnuFXGL2gvpGk+uqGQEKrKyf5kSk4X8SRLG1C1iGhSVu41/DzLL/DM0qO8uDGK5KRxTZIACK4uWhaXRf8w==";
         };
+        _WWwnpFRl = {
+            "id" = "WWwnpFRl";
+            "file" = "furnituresoplenty-forge-1.20.1-1.2.1.jar";
+            "hash" = "sha512-HzEfB8d30IL4cVqqL9Fn5JfMgUu2SjYyDNGjE+KLJGc70VinFQ+5gSOApzMBxZbXONJ6MfkTgRADtGqlRF9EWA==";
+        };
+        _Ci9Q3aoD = {
+            "id" = "Ci9Q3aoD";
+            "file" = "furnituresoplenty-fabric-1.20.1-1.2.1.jar";
+            "hash" = "sha512-6N96Nnw2a74rnMFUd01u8xrrLWV1dHIogXrVWaZr+iEfiwljRD34CoUwk25xODsdzm+F1OdfURaBPotfLaMkFg==";
+        };
     in {
         "3o6V7hkn" = _3o6V7hkn;
         "2Yhupn4w" = _2Yhupn4w;
@@ -56,8 +66,10 @@ let
         "WBMvj8hd" = _WBMvj8hd;
         "iwXxUjmm" = _iwXxUjmm;
         "DB2liDby" = _DB2liDby;
-        "forge-1.20.1" = _iwXxUjmm;
-        "fabric-1.20.1" = _DB2liDby;
+        "WWwnpFRl" = _WWwnpFRl;
+        "Ci9Q3aoD" = _Ci9Q3aoD;
+        "forge-1.20.1" = _WWwnpFRl;
+        "fabric-1.20.1" = _Ci9Q3aoD;
         "pkg-1.0.0" = _3o6V7hkn;
         "pkg-1.0.1" = _2Yhupn4w;
         "pkg-1.0.2" = _dHufGFX6;
@@ -66,7 +78,8 @@ let
         "pkg-1.1.1" = _ayg1SMWU;
         "pkg-1.1.2" = _WBMvj8hd;
         "pkg-1.2.0" = _DB2liDby;
-        "default" = _DB2liDby;
+        "pkg-1.2.1" = _Ci9Q3aoD;
+        "default" = _Ci9Q3aoD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "furnitures-o-plenty";

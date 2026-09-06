@@ -171,6 +171,11 @@ let
             "file" = "simpleblockoverlay-2.1.0+26.2-fabric.jar";
             "hash" = "sha512-PBx1ok3ahYuvYa/bQJ4qvNpKax8+kTdtgnR5BSpvGtYhX6BFo5LnZF/ZZMiaW9QMyKTE7bsFtK7w1X/H9eC9zA==";
         };
+        _aZAVmTAG = {
+            "id" = "aZAVmTAG";
+            "file" = "simpleblockoverlay-2.1.1+26.2-fabric.jar";
+            "hash" = "sha512-jenOo9hSM7xrt66mMRiswlZ0tqio5FU0gS26ljHtEmf/I/KYS/zk9udrBlofVYOIEXJNhmXMRnx2EMUNvvaT8A==";
+        };
     in {
         "RXVJUGEQ" = _RXVJUGEQ;
         "Uk1JctE6" = _Uk1JctE6;
@@ -206,6 +211,7 @@ let
         "sXqIrBHW" = _sXqIrBHW;
         "gpIvsFWX" = _gpIvsFWX;
         "LqG83JtK" = _LqG83JtK;
+        "aZAVmTAG" = _aZAVmTAG;
         "fabric-1.20" = _YRCWaI9i;
         "fabric-1.20.1" = _YRCWaI9i;
         "fabric-1.20.2" = _YRCWaI9i;
@@ -224,7 +230,7 @@ let
         "fabric-26.1" = _gpIvsFWX;
         "fabric-26.1.1" = _gpIvsFWX;
         "fabric-26.1.2" = _gpIvsFWX;
-        "fabric-26.2" = _LqG83JtK;
+        "fabric-26.2" = _aZAVmTAG;
         "pkg-1.0.0" = _RXVJUGEQ;
         "pkg-1.1.0" = _Uk1JctE6;
         "pkg-1.1.1" = _G9nnJI6u;
@@ -252,7 +258,8 @@ let
         "pkg-1.6.5" = _sXqIrBHW;
         "pkg-2.0.0" = _gpIvsFWX;
         "pkg-2.1.0" = _LqG83JtK;
-        "default" = _LqG83JtK;
+        "pkg-2.1.1" = _aZAVmTAG;
+        "default" = _aZAVmTAG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-block-overlay";

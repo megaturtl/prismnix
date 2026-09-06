@@ -101,6 +101,11 @@ let
             "file" = "Low Fire 26.1.zip";
             "hash" = "sha512-amWFlScnLzDEJoZ7ibrxo4uAzs6RY7rTuW/+c0tZE2Waxy3E1hVeUWghUXCZDrQKix7Qr+Vn/fBw0gcKLKW1pw==";
         };
+        _7Llojsgh = {
+            "id" = "7Llojsgh";
+            "file" = "Low Fire 26.2.zip";
+            "hash" = "sha512-rW8flWZtikLagcKJxNmzG5/8js7nLwCqNqwHXI54ORa4hZfjGKQ6QW5Dr4bW3bweLsE/lK/PudATcsxPN6jU3A==";
+        };
     in {
         "tSxVeI9Q" = _tSxVeI9Q;
         "Sb5hhnpW" = _Sb5hhnpW;
@@ -122,6 +127,7 @@ let
         "zcpF3aJi" = _zcpF3aJi;
         "Ujarb6Jw" = _Ujarb6Jw;
         "EZz5vZfH" = _EZz5vZfH;
+        "7Llojsgh" = _7Llojsgh;
         "minecraft-1.20" = _tSxVeI9Q;
         "minecraft-1.20.1" = _tSxVeI9Q;
         "minecraft-1.18" = _Sb5hhnpW;
@@ -159,10 +165,12 @@ let
         "minecraft-26.1" = _EZz5vZfH;
         "minecraft-26.1.1" = _EZz5vZfH;
         "minecraft-26.1.2" = _EZz5vZfH;
+        "minecraft-26.2" = _7Llojsgh;
         "pkg-1.0" = _Ujarb6Jw;
         "pkg-1.21.5" = _mUI7X5G7;
         "pkg-26.1" = _EZz5vZfH;
-        "default" = _EZz5vZfH;
+        "pkg-26.2" = _7Llojsgh;
+        "default" = _7Llojsgh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lower-fire";

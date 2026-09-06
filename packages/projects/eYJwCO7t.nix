@@ -271,6 +271,26 @@ let
             "file" = "end-reborn-26.1-r1.4-fabric.jar";
             "hash" = "sha512-FWGUVxngllmMbIgwbUW0BcvLAIMogZhNwuqlAEa3bjOXL6FXMP+Pir1xuUMvNHLqgLm3Dlwrzv6RMSSg9T6ZEg==";
         };
+        _DBjecwcl = {
+            "id" = "DBjecwcl";
+            "file" = "end-reborn-26.1-r1.5-neoforge.jar";
+            "hash" = "sha512-Qu+1fIf2lPRyMzvYb37s8n2qscePuGX6v3i+03tjOvOT8wAmtYEPtzjbuLXuABCsADXyKfOQHx/Uig21FyHikA==";
+        };
+        _jcmaI9fx = {
+            "id" = "jcmaI9fx";
+            "file" = "end-reborn-26.1-r1.5-fabric.jar";
+            "hash" = "sha512-sXtmnBak3cnbta2T7kHb5YZZdqlGf2lePCtfUHl483k38EdSCbq6hQ2ztDx0d16+b2lnRJVivBWAUQrgHOPZbw==";
+        };
+        _vVnMivrE = {
+            "id" = "vVnMivrE";
+            "file" = "end-reborn-26.1-r1.6-neoforge.jar";
+            "hash" = "sha512-IA2kQDJF6/yfLuZmfC8w2VcpLALLBULwXY3OVad6cY4Zuio845dfYtjhQT3SHiTILCxixTTWU00DhtHA9WwTTw==";
+        };
+        _Nl7ASICb = {
+            "id" = "Nl7ASICb";
+            "file" = "end-reborn-26.1-r1.6-fabric.jar";
+            "hash" = "sha512-6EtvMdHcW5jY8cXESzp17WJi/WekDdRtoMNAGsER2hU1aJzxbvDU1UqrXt/8xJJn+e/0k/YTY/t7QfSJ4qMrQg==";
+        };
     in {
         "qtGAacAN" = _qtGAacAN;
         "rKsPcngq" = _rKsPcngq;
@@ -326,6 +346,10 @@ let
         "xO3TU8zZ" = _xO3TU8zZ;
         "4MekOn2b" = _4MekOn2b;
         "RyroM8nX" = _RyroM8nX;
+        "DBjecwcl" = _DBjecwcl;
+        "jcmaI9fx" = _jcmaI9fx;
+        "vVnMivrE" = _vVnMivrE;
+        "Nl7ASICb" = _Nl7ASICb;
         "fabric-1.20" = _b9HUcPdW;
         "fabric-1.20.1" = _b9HUcPdW;
         "fabric-1.20.2" = _b9HUcPdW;
@@ -334,12 +358,12 @@ let
         "fabric-1.21.4" = _nuMxXVsF;
         "fabric-1.21.5" = _o2qDnwCQ;
         "fabric-1.21.11" = _5e6Wd9AY;
-        "fabric-26.1" = _RyroM8nX;
-        "fabric-26.1.1" = _RyroM8nX;
-        "fabric-26.1.2" = _RyroM8nX;
-        "neoforge-26.1" = _4MekOn2b;
-        "neoforge-26.1.1" = _4MekOn2b;
-        "neoforge-26.1.2" = _4MekOn2b;
+        "fabric-26.1" = _Nl7ASICb;
+        "fabric-26.1.1" = _Nl7ASICb;
+        "fabric-26.1.2" = _Nl7ASICb;
+        "neoforge-26.1" = _vVnMivrE;
+        "neoforge-26.1.1" = _vVnMivrE;
+        "neoforge-26.1.2" = _vVnMivrE;
         "pkg-1.0.2" = _qtGAacAN;
         "pkg-1.0.3" = _rKsPcngq;
         "pkg-1.0.4" = _ipao8xSk;
@@ -391,7 +415,11 @@ let
         "pkg-26.1-r1.3-fabric" = _xO3TU8zZ;
         "pkg-26.1-r1.4-neoforge" = _4MekOn2b;
         "pkg-26.1-r1.4-fabric" = _RyroM8nX;
-        "default" = _RyroM8nX;
+        "pkg-26.1-r1.5-neoforge" = _DBjecwcl;
+        "pkg-26.1-r1.5-fabric" = _jcmaI9fx;
+        "pkg-26.1-r1.6-neoforge" = _vVnMivrE;
+        "pkg-26.1-r1.6-fabric" = _Nl7ASICb;
+        "default" = _Nl7ASICb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "end-reborn";

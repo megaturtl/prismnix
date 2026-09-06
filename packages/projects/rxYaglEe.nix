@@ -556,6 +556,26 @@ let
             "file" = "AdvancedAE-26.1.5.jar";
             "hash" = "sha512-BqFWZdP9/tnGb5XYJvID7PuI2YsBCnqvbxDG2PP07TjKU+mKpLaxYvnch/sM/hEbO4DJNvz1kBwc83qEESXyPQ==";
         };
+        _kB8AN42t = {
+            "id" = "kB8AN42t";
+            "file" = "AdvancedAE-26.1.6.jar";
+            "hash" = "sha512-4RJakS63EMtp4/hXK/+nklT/XO6/4zTqeKV3z/UR+16OmEt5jpPuipt7jDWcxLyHxaVQyTdSbUcM47uh9DZK3Q==";
+        };
+        _ablTMAjP = {
+            "id" = "ablTMAjP";
+            "file" = "AdvancedAE-1.6.12-1.21.1.jar";
+            "hash" = "sha512-q2HFc1VkmpZ6C89rlBPNa2JyjSbpFFQ7MjHuozveVXFTa9WJrhrAJtRnmXEVCMlCKEw0GeGf9dW/gPEEVELzOg==";
+        };
+        _d83Wdhdn = {
+            "id" = "d83Wdhdn";
+            "file" = "AdvancedAE-1.3.6-1.20.1.jar";
+            "hash" = "sha512-EaZ1JFzg0YQozrpFJKLongN9CdipMqxdUFlLGg2Ikg/40t1GIrARxvUUVLIR1eM8oIRQiCu2M0xHv2k8y9kW7w==";
+        };
+        _hPJMJOBd = {
+            "id" = "hPJMJOBd";
+            "file" = "AdvancedAE-26.1.7.jar";
+            "hash" = "sha512-rzngvq00Nj2UZSPrUztv7ew+64go9apBMvYQIf1u3FWmBEw/HWackm52DibIIUndKVus/TUl2orjkvC2ceyzTg==";
+        };
     in {
         "lYdrtKpI" = _lYdrtKpI;
         "Jinl5ahF" = _Jinl5ahF;
@@ -668,10 +688,14 @@ let
         "NHgHfbs9" = _NHgHfbs9;
         "xqDIGoO0" = _xqDIGoO0;
         "EE8B0gkY" = _EE8B0gkY;
-        "neoforge-1.21.1" = _lHSZ2gYI;
-        "neoforge-1.20.1" = _QwEY7zEa;
-        "neoforge-26.1.2" = _EE8B0gkY;
-        "forge-1.20.1" = _QwEY7zEa;
+        "kB8AN42t" = _kB8AN42t;
+        "ablTMAjP" = _ablTMAjP;
+        "d83Wdhdn" = _d83Wdhdn;
+        "hPJMJOBd" = _hPJMJOBd;
+        "neoforge-1.21.1" = _ablTMAjP;
+        "neoforge-1.20.1" = _d83Wdhdn;
+        "neoforge-26.1.2" = _hPJMJOBd;
+        "forge-1.20.1" = _d83Wdhdn;
         "pkg-0.6.0-1.21.1" = _lYdrtKpI;
         "pkg-0.6.1-1.21.1" = _Jinl5ahF;
         "pkg-1.0.0-1.21.1" = _96GxGQ5G;
@@ -783,7 +807,11 @@ let
         "pkg-26.1.2" = _NHgHfbs9;
         "pkg-26.1.4" = _xqDIGoO0;
         "pkg-26.1.5" = _EE8B0gkY;
-        "default" = _EE8B0gkY;
+        "pkg-26.1.6" = _kB8AN42t;
+        "pkg-1.6.12-1.21.1" = _ablTMAjP;
+        "pkg-1.3.6-1.20.1" = _d83Wdhdn;
+        "pkg-26.1.7" = _hPJMJOBd;
+        "default" = _hPJMJOBd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "advancedae";

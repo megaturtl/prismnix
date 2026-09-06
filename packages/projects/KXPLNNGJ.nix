@@ -131,6 +131,16 @@ let
             "file" = "timer-datapack-7.2.jar";
             "hash" = "sha512-Ti9iTovNylLc9i/ECOqZpo23mlqUyd/f96PmaznKpIhrr4luVkuM/DCi2DGOpgIiSCYutsy9EGOZdT/Dia2v7Q==";
         };
+        _PPgFcPmA = {
+            "id" = "PPgFcPmA";
+            "file" = "simple_timer_1.21.5_by_shadowdara.zip";
+            "hash" = "sha512-YtXDsoMUAXWyUQAe8Cz5g8eEQGDY3ySLnSHQzd68tfebbvSavY7KCyYizzTG69N9fSpFXOjKU1mcLZSfTLkSUw==";
+        };
+        _ElcASEYF = {
+            "id" = "ElcASEYF";
+            "file" = "timer-datapack-1.21.5.jar";
+            "hash" = "sha512-Qvbg27j/SVdw/j3EvF54QV+gufO7Tra0+gmiWkleBrjsj9sf+NgaxWwnMF7GP9hiILM8ZWroO5WWzuBNm5pl9Q==";
+        };
     in {
         "qIbkDmIJ" = _qIbkDmIJ;
         "Kl6pJ04p" = _Kl6pJ04p;
@@ -158,6 +168,8 @@ let
         "Rw7Lfbsb" = _Rw7Lfbsb;
         "cabQHedH" = _cabQHedH;
         "CCzuQvtM" = _CCzuQvtM;
+        "PPgFcPmA" = _PPgFcPmA;
+        "ElcASEYF" = _ElcASEYF;
         "datapack-1.21" = _163x0SVJ;
         "datapack-1.21.1" = _163x0SVJ;
         "datapack-1.20.2" = _WrqwAVmO;
@@ -197,10 +209,13 @@ let
         "datapack-1.21.2" = _163x0SVJ;
         "datapack-1.21.3" = _163x0SVJ;
         "datapack-1.21.4" = _163x0SVJ;
-        "datapack-1.21.5" = _cabQHedH;
-        "datapack-1.21.6" = _cabQHedH;
-        "datapack-1.21.7" = _cabQHedH;
-        "datapack-1.21.8" = _cabQHedH;
+        "datapack-1.21.5" = _PPgFcPmA;
+        "datapack-1.21.6" = _PPgFcPmA;
+        "datapack-1.21.7" = _PPgFcPmA;
+        "datapack-1.21.8" = _PPgFcPmA;
+        "datapack-1.21.9" = _PPgFcPmA;
+        "datapack-1.21.10" = _PPgFcPmA;
+        "datapack-1.21.11" = _PPgFcPmA;
         "fabric-1.21" = _EzrOqapg;
         "fabric-1.21.1" = _EzrOqapg;
         "fabric-1.20.2" = _Rw7Lfbsb;
@@ -237,10 +252,13 @@ let
         "fabric-1.19.2" = _Rw7Lfbsb;
         "fabric-1.19.3" = _Rw7Lfbsb;
         "fabric-1.19.4" = _Rw7Lfbsb;
-        "fabric-1.21.5" = _CCzuQvtM;
-        "fabric-1.21.6" = _CCzuQvtM;
-        "fabric-1.21.7" = _CCzuQvtM;
-        "fabric-1.21.8" = _CCzuQvtM;
+        "fabric-1.21.5" = _ElcASEYF;
+        "fabric-1.21.6" = _ElcASEYF;
+        "fabric-1.21.7" = _ElcASEYF;
+        "fabric-1.21.8" = _ElcASEYF;
+        "fabric-1.21.9" = _ElcASEYF;
+        "fabric-1.21.10" = _ElcASEYF;
+        "fabric-1.21.11" = _ElcASEYF;
         "forge-1.21" = _EzrOqapg;
         "forge-1.21.1" = _EzrOqapg;
         "forge-1.20.2" = _Rw7Lfbsb;
@@ -277,10 +295,13 @@ let
         "forge-1.19.2" = _Rw7Lfbsb;
         "forge-1.19.3" = _Rw7Lfbsb;
         "forge-1.19.4" = _Rw7Lfbsb;
-        "forge-1.21.5" = _CCzuQvtM;
-        "forge-1.21.6" = _CCzuQvtM;
-        "forge-1.21.7" = _CCzuQvtM;
-        "forge-1.21.8" = _CCzuQvtM;
+        "forge-1.21.5" = _ElcASEYF;
+        "forge-1.21.6" = _ElcASEYF;
+        "forge-1.21.7" = _ElcASEYF;
+        "forge-1.21.8" = _ElcASEYF;
+        "forge-1.21.9" = _ElcASEYF;
+        "forge-1.21.10" = _ElcASEYF;
+        "forge-1.21.11" = _ElcASEYF;
         "neoforge-1.21" = _EzrOqapg;
         "neoforge-1.21.1" = _EzrOqapg;
         "neoforge-1.20.2" = _Rw7Lfbsb;
@@ -317,10 +338,13 @@ let
         "neoforge-1.19.4" = _Rw7Lfbsb;
         "neoforge-1.20" = _Rw7Lfbsb;
         "neoforge-1.20.1" = _Rw7Lfbsb;
-        "neoforge-1.21.5" = _CCzuQvtM;
-        "neoforge-1.21.6" = _CCzuQvtM;
-        "neoforge-1.21.7" = _CCzuQvtM;
-        "neoforge-1.21.8" = _CCzuQvtM;
+        "neoforge-1.21.5" = _ElcASEYF;
+        "neoforge-1.21.6" = _ElcASEYF;
+        "neoforge-1.21.7" = _ElcASEYF;
+        "neoforge-1.21.8" = _ElcASEYF;
+        "neoforge-1.21.9" = _ElcASEYF;
+        "neoforge-1.21.10" = _ElcASEYF;
+        "neoforge-1.21.11" = _ElcASEYF;
         "quilt-1.21" = _EzrOqapg;
         "quilt-1.21.1" = _EzrOqapg;
         "quilt-1.20.2" = _Rw7Lfbsb;
@@ -357,10 +381,13 @@ let
         "quilt-1.19.2" = _Rw7Lfbsb;
         "quilt-1.19.3" = _Rw7Lfbsb;
         "quilt-1.19.4" = _Rw7Lfbsb;
-        "quilt-1.21.5" = _CCzuQvtM;
-        "quilt-1.21.6" = _CCzuQvtM;
-        "quilt-1.21.7" = _CCzuQvtM;
-        "quilt-1.21.8" = _CCzuQvtM;
+        "quilt-1.21.5" = _ElcASEYF;
+        "quilt-1.21.6" = _ElcASEYF;
+        "quilt-1.21.7" = _ElcASEYF;
+        "quilt-1.21.8" = _ElcASEYF;
+        "quilt-1.21.9" = _ElcASEYF;
+        "quilt-1.21.10" = _ElcASEYF;
+        "quilt-1.21.11" = _ElcASEYF;
         "pkg-v4" = _aa7SZKdb;
         "pkg-v4+mod" = _JqOpTVZJ;
         "pkg-v5" = _DLHJARC1;
@@ -379,7 +406,9 @@ let
         "pkg-V6.1+mod" = _Rw7Lfbsb;
         "pkg-7.2" = _cabQHedH;
         "pkg-7.2+mod" = _CCzuQvtM;
-        "default" = _CCzuQvtM;
+        "pkg-1.21.5" = _PPgFcPmA;
+        "pkg-1.21.5+mod" = _ElcASEYF;
+        "default" = _ElcASEYF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "timer-datapack";

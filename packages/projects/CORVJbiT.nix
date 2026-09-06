@@ -436,6 +436,26 @@ let
             "file" = "wynnventory-2.2.2-fabric-1.21.11.jar";
             "hash" = "sha512-POq/lXitgadMrTSMJ/EwYDXkYQ9APZtusSehKg2SdkTfqiZ5qxRtkrBEkEwCCl9tYWZhLupfrodtjk0DT186qg==";
         };
+        _5IBu7evH = {
+            "id" = "5IBu7evH";
+            "file" = "wynnventory-2.2.3-neoforge-1.21.11.jar";
+            "hash" = "sha512-2gZq40aU3E5VCj6h0tOHgnO08mmCHAeDmtFwO/1VS2ZymTDR7Ns0USvS9HTfBpaHYWNJ+ZhOBGdxwR8NrlVgvA==";
+        };
+        _BL4mMoK4 = {
+            "id" = "BL4mMoK4";
+            "file" = "wynnventory-2.2.3-fabric-1.21.11.jar";
+            "hash" = "sha512-B2y7/B0CkEk80DE32T8GxfdE8X+HAbopJI3oSlEUEhdh+Z0lfdI+66BYrU8B6NqSl0QC+vowsYvS6tyRY7IDLw==";
+        };
+        _n8Bz7ijz = {
+            "id" = "n8Bz7ijz";
+            "file" = "wynnventory-2.2.4-neoforge-1.21.11.jar";
+            "hash" = "sha512-uOCAyd8PdCGARKceh0CbX/WR8HA9dtm726VJC3nd9PETIqqE8ZQSYWbOl3SMqBAWkCNFAiS5UQZHCtIyzupFRQ==";
+        };
+        _pOBUOPAI = {
+            "id" = "pOBUOPAI";
+            "file" = "wynnventory-2.2.4-fabric-1.21.11.jar";
+            "hash" = "sha512-sfsBQ919vJGvVINUEO2vwdEdMiVUZtk8+W4dMtRnyrnXbOBUNwKvX09tU7neSBxw5TzbZU1BBVmnK1asYrkIwQ==";
+        };
     in {
         "5G4fcEye" = _5G4fcEye;
         "GnZJjDWh" = _GnZJjDWh;
@@ -524,11 +544,15 @@ let
         "2AcHb4Jx" = _2AcHb4Jx;
         "jjnrLjWN" = _jjnrLjWN;
         "L02cnksZ" = _L02cnksZ;
+        "5IBu7evH" = _5IBu7evH;
+        "BL4mMoK4" = _BL4mMoK4;
+        "n8Bz7ijz" = _n8Bz7ijz;
+        "pOBUOPAI" = _pOBUOPAI;
         "fabric-1.21" = _OPU8Xq3i;
         "fabric-1.21.1" = _OPU8Xq3i;
         "fabric-1.21.4" = _F6rD46G5;
-        "fabric-1.21.11" = _L02cnksZ;
-        "neoforge-1.21.11" = _jjnrLjWN;
+        "fabric-1.21.11" = _pOBUOPAI;
+        "neoforge-1.21.11" = _n8Bz7ijz;
         "neoforge-1.21.4" = _FbVXqdlJ;
         "pkg-0.2.2" = _5G4fcEye;
         "pkg-0.2.3" = _GnZJjDWh;
@@ -601,7 +625,9 @@ let
         "pkg-v2.2.0" = _qUTiksYp;
         "pkg-v2.2.1" = _2AcHb4Jx;
         "pkg-v2.2.2" = _L02cnksZ;
-        "default" = _L02cnksZ;
+        "pkg-v2.2.3" = _BL4mMoK4;
+        "pkg-v2.2.4" = _pOBUOPAI;
+        "default" = _pOBUOPAI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wynnventory";

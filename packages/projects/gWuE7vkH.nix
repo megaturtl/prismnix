@@ -161,6 +161,76 @@ let
             "file" = "Controlify_Dungeons.zip";
             "hash" = "sha512-pj9ekX7N5l1WBuVU3I64wILYLXvVzeiw17sS7+JoEAwZa/MpfTdkQ5RMaGfhY1w1AU/EYwVjBpgO1uU0Vlrz+w==";
         };
+        _iHYIguGT = {
+            "id" = "iHYIguGT";
+            "file" = "Controlify_Dungeons_1.20.1_1.8.zip";
+            "hash" = "sha512-wku+EGmnhyPFh9BEBr7y0xLb9tWycKgJ4o20yrI2r75v/Zc7+LEBIGAFNj08YL9ajrUZ3rjHsbQ4hpg1e4vsZw==";
+        };
+        _T4zLLR74 = {
+            "id" = "T4zLLR74";
+            "file" = "Controlify_Dungeons_1.20.4_1.8.zip";
+            "hash" = "sha512-ijaG4W7cZLRhkkSRqpZuhI+uM8rmPtpY5kDb0899Rz9s1NdB7ZgCUKbzRr5s8adI2XNf5qNCP6SlgszJjVkqmw==";
+        };
+        _ZQpqxitE = {
+            "id" = "ZQpqxitE";
+            "file" = "Controlify_Dungeons_1.20.6_1.8.zip";
+            "hash" = "sha512-pgHezYDzolm6OYTdWua7jPj1+iVxhqpBJsZ5fyDANB8CjSzmq9o8Mq+HaZiCvKSev1MeQdRlOhDfn/CEkmy9rA==";
+        };
+        _ZXI20Dk0 = {
+            "id" = "ZXI20Dk0";
+            "file" = "Controlify_Dungeons_1.21.1_1.8.zip";
+            "hash" = "sha512-WAxrf/s51jdtpfUL9lCaKxbiNZHYIEnZMEcqknGfrprM6K6i0GYMlWLzaXVl9u0ydi36bjvuq6R3gZE6CErc0w==";
+        };
+        _zaK2vQUG = {
+            "id" = "zaK2vQUG";
+            "file" = "Controlify_Dungeons_1.21.3_1.8.zip";
+            "hash" = "sha512-Y7YrfdRjf1vwV4Am0KRMtKvTUV7agqz50q9DcDY8B7+fAH1ywAy9neOWYijy7i8f/BpZcS5EnfuSWelqE8L5fw==";
+        };
+        _z0ZAfLYv = {
+            "id" = "z0ZAfLYv";
+            "file" = "Controlify_Dungeons_1.21.4_1.8.zip";
+            "hash" = "sha512-rZNa06sxXzXejde7IUUVG8HPFHLxBnBMzC58Dk8MVNV91AznWvnu+mvnQn1gjSzvBTkW3L+IGXvMH8U4zt4abw==";
+        };
+        _PZtgGMH8 = {
+            "id" = "PZtgGMH8";
+            "file" = "Controlify_Dungeons_1.21.5_1.8.zip";
+            "hash" = "sha512-9kH59R5o0YOC02Lm+qLdizaAkGEAiMWDUWXWRWTbcydIoNAMarw4BcI7icJuQ/8ZdGs6lWdRfWV928Z5SLWQZg==";
+        };
+        _ImAeu08W = {
+            "id" = "ImAeu08W";
+            "file" = "Controlify_Dungeons_1.21.6_1.8.zip";
+            "hash" = "sha512-QuB8I/XhlNT9c9u2Im/MsZQfltrFqH+PPoJzW/RYNt+CKJG6Bxzqc5vWWtbl+SHjdPSdE9FSp1KlUKuUVG5Xxw==";
+        };
+        _H7oQ1Jvo = {
+            "id" = "H7oQ1Jvo";
+            "file" = "Controlify_Dungeons_1.21.7_1.8.zip";
+            "hash" = "sha512-wdT5ySAf/ll7eUQmohBCYUGKDjhY5DzSMvZ1P/qa4a2bswGVh4IdTUBOlh6PDx8Dg1GwlN5uUukeRCwzALBinA==";
+        };
+        _gm2lNGMi = {
+            "id" = "gm2lNGMi";
+            "file" = "Controlify_Dungeons_1.21.9_1.8.zip";
+            "hash" = "sha512-KDAk5CQTkyJueiX4SUoP5fLQkIg9SYXw/gLYyLzb+zWc97mc7ey5z4m6TWNIzb2VdjQlSVs91MSx1hiHFG4Mvg==";
+        };
+        _9JqCjjdS = {
+            "id" = "9JqCjjdS";
+            "file" = "Controlify_Dungeons_1.21.11_1.8.zip";
+            "hash" = "sha512-IBCrZfE+iZrHK9xQ3nkK4j4N3csC4DfiB7YprCt9Ga/hiCVVbJAthZUHrBb9HUdY/9JikScIFf3CcNX1UQLT8g==";
+        };
+        _RM1QULe7 = {
+            "id" = "RM1QULe7";
+            "file" = "Controlify_Dungeons_26.1-26.1.2_1.8.zip";
+            "hash" = "sha512-w44s610BbF4sJ9Ryn+JW4xJZllBVtwr+PLXh6NMPqAyEHT2v8gYn+vgOLgZGDpiFYqHnk6aA+iEVqnvMgVJhbg==";
+        };
+        _6gHt4fHE = {
+            "id" = "6gHt4fHE";
+            "file" = "Controlify_Dungeons_26.1-26.1.2_1.8.1.zip";
+            "hash" = "sha512-90LWrqOUx9Yu7kI15msVJlU3qASWI8KVPhKoO4A8ZxsusGOqT38bt7WwPjsPc6LhxCsPwBqW0HhEXUyWiIxPHg==";
+        };
+        _ZBXrzq36 = {
+            "id" = "ZBXrzq36";
+            "file" = "Controlify_Dungeons_26.2_1.8.1.zip";
+            "hash" = "sha512-QQyxd32SNc56H3D1pxN//X1tTXuLjDj/QlgyKi+5yyhTpHn85xjn2W3r4EMWMd801wfdDUzaItHVwNm1/cZstw==";
+        };
     in {
         "h1mawGnq" = _h1mawGnq;
         "TDZlpECj" = _TDZlpECj;
@@ -194,23 +264,42 @@ let
         "ncgvUlVJ" = _ncgvUlVJ;
         "VtuNlt73" = _VtuNlt73;
         "65GINLKN" = _65GINLKN;
-        "minecraft-1.21.1" = _GUvxqmFl;
-        "minecraft-1.21" = _GUvxqmFl;
-        "minecraft-1.20.3" = _ncgvUlVJ;
-        "minecraft-1.20.4" = _ncgvUlVJ;
-        "minecraft-1.21.2" = _lJ4CjnL5;
-        "minecraft-1.21.3" = _lJ4CjnL5;
-        "minecraft-1.21.4" = _AO8FuOQH;
-        "minecraft-1.21.5" = _awPGLkHo;
-        "minecraft-1.21.6" = _jBEYDIXL;
-        "minecraft-1.20.5" = _20tlrFpz;
-        "minecraft-1.20.6" = _20tlrFpz;
-        "minecraft-1.20" = _VtuNlt73;
-        "minecraft-1.20.1" = _VtuNlt73;
-        "minecraft-1.21.7" = _IYOE6pVJ;
-        "minecraft-1.21.8" = _IYOE6pVJ;
-        "minecraft-1.21.9" = _65GINLKN;
-        "minecraft-1.21.10" = _65GINLKN;
+        "iHYIguGT" = _iHYIguGT;
+        "T4zLLR74" = _T4zLLR74;
+        "ZQpqxitE" = _ZQpqxitE;
+        "ZXI20Dk0" = _ZXI20Dk0;
+        "zaK2vQUG" = _zaK2vQUG;
+        "z0ZAfLYv" = _z0ZAfLYv;
+        "PZtgGMH8" = _PZtgGMH8;
+        "ImAeu08W" = _ImAeu08W;
+        "H7oQ1Jvo" = _H7oQ1Jvo;
+        "gm2lNGMi" = _gm2lNGMi;
+        "9JqCjjdS" = _9JqCjjdS;
+        "RM1QULe7" = _RM1QULe7;
+        "6gHt4fHE" = _6gHt4fHE;
+        "ZBXrzq36" = _ZBXrzq36;
+        "minecraft-1.21.1" = _ZXI20Dk0;
+        "minecraft-1.21" = _ZXI20Dk0;
+        "minecraft-1.20.3" = _T4zLLR74;
+        "minecraft-1.20.4" = _T4zLLR74;
+        "minecraft-1.21.2" = _zaK2vQUG;
+        "minecraft-1.21.3" = _zaK2vQUG;
+        "minecraft-1.21.4" = _z0ZAfLYv;
+        "minecraft-1.21.5" = _PZtgGMH8;
+        "minecraft-1.21.6" = _ImAeu08W;
+        "minecraft-1.20.5" = _ZQpqxitE;
+        "minecraft-1.20.6" = _ZQpqxitE;
+        "minecraft-1.20" = _iHYIguGT;
+        "minecraft-1.20.1" = _iHYIguGT;
+        "minecraft-1.21.7" = _H7oQ1Jvo;
+        "minecraft-1.21.8" = _H7oQ1Jvo;
+        "minecraft-1.21.9" = _gm2lNGMi;
+        "minecraft-1.21.10" = _gm2lNGMi;
+        "minecraft-1.21.11" = _9JqCjjdS;
+        "minecraft-26.1" = _6gHt4fHE;
+        "minecraft-26.1.1" = _6gHt4fHE;
+        "minecraft-26.1.2" = _6gHt4fHE;
+        "minecraft-26.2" = _ZBXrzq36;
         "pkg-1.0" = _h1mawGnq;
         "pkg-1.1" = _TDZlpECj;
         "pkg-1.2" = _TB3YJL7z;
@@ -219,7 +308,9 @@ let
         "pkg-1.5" = _raA6kjx2;
         "pkg-1.6" = _UH2NlZPH;
         "pkg-1.7" = _65GINLKN;
-        "default" = _65GINLKN;
+        "pkg-1.8" = _RM1QULe7;
+        "pkg-1.8.1" = _ZBXrzq36;
+        "default" = _ZBXrzq36;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "controlify-dungeons";

@@ -26,12 +26,24 @@ let
             "file" = "simple-frequency-1.2.0.jar";
             "hash" = "sha512-cU18ymq+TAsegrrl6WbnTLdf2tlmskGlkybfSeBatvuDhSfPHYWdNjlybvX6beA22CxmQfnbMhwkzXHABBVbeg==";
         };
+        _nmwKRb0O = {
+            "id" = "nmwKRb0O";
+            "file" = "Simple Frequency 1.21-1.2.1-alpha.zip";
+            "hash" = "sha512-3kCYSPIlGL5AGKOZwXn+sTIyBCzYwCnuPPs59Cdi5u05iD7S7pMiXX03ycg2rANT8N/nF86+IOCwJlN/wV3yyQ==";
+        };
+        _nJYNAaAk = {
+            "id" = "nJYNAaAk";
+            "file" = "simple-frequency-1.2.1-alpha.jar";
+            "hash" = "sha512-Gdpk6gwrOyVyoeAvQfztMUc+Dy4Viin0YwroXPQHNYdc5GPdtCsf6W7gqiSdZWNoeSfbB8/1dFpJtSMsoXULIw==";
+        };
     in {
         "j0B0unB4" = _j0B0unB4;
         "S3dZeOMo" = _S3dZeOMo;
         "BbKLAb4A" = _BbKLAb4A;
         "nBnBHDCu" = _nBnBHDCu;
         "ulceJfRg" = _ulceJfRg;
+        "nmwKRb0O" = _nmwKRb0O;
+        "nJYNAaAk" = _nJYNAaAk;
         "datapack-1.20" = _nBnBHDCu;
         "datapack-1.20.1" = _nBnBHDCu;
         "datapack-1.20.2" = _nBnBHDCu;
@@ -39,6 +51,11 @@ let
         "datapack-1.20.4" = _nBnBHDCu;
         "datapack-1.20.5" = _nBnBHDCu;
         "datapack-1.20.6" = _nBnBHDCu;
+        "datapack-1.21" = _nmwKRb0O;
+        "datapack-1.21.1" = _nmwKRb0O;
+        "datapack-1.21.2" = _nmwKRb0O;
+        "datapack-1.21.3" = _nmwKRb0O;
+        "datapack-1.21.4" = _nmwKRb0O;
         "fabric-1.20" = _ulceJfRg;
         "fabric-1.20.1" = _ulceJfRg;
         "fabric-1.20.2" = _ulceJfRg;
@@ -46,6 +63,11 @@ let
         "fabric-1.20.4" = _ulceJfRg;
         "fabric-1.20.5" = _ulceJfRg;
         "fabric-1.20.6" = _ulceJfRg;
+        "fabric-1.21" = _nJYNAaAk;
+        "fabric-1.21.1" = _nJYNAaAk;
+        "fabric-1.21.2" = _nJYNAaAk;
+        "fabric-1.21.3" = _nJYNAaAk;
+        "fabric-1.21.4" = _nJYNAaAk;
         "forge-1.20" = _ulceJfRg;
         "forge-1.20.1" = _ulceJfRg;
         "forge-1.20.2" = _ulceJfRg;
@@ -53,6 +75,11 @@ let
         "forge-1.20.4" = _ulceJfRg;
         "forge-1.20.5" = _ulceJfRg;
         "forge-1.20.6" = _ulceJfRg;
+        "forge-1.21" = _nJYNAaAk;
+        "forge-1.21.1" = _nJYNAaAk;
+        "forge-1.21.2" = _nJYNAaAk;
+        "forge-1.21.3" = _nJYNAaAk;
+        "forge-1.21.4" = _nJYNAaAk;
         "neoforge-1.20" = _ulceJfRg;
         "neoforge-1.20.1" = _ulceJfRg;
         "neoforge-1.20.2" = _ulceJfRg;
@@ -60,6 +87,11 @@ let
         "neoforge-1.20.4" = _ulceJfRg;
         "neoforge-1.20.5" = _ulceJfRg;
         "neoforge-1.20.6" = _ulceJfRg;
+        "neoforge-1.21" = _nJYNAaAk;
+        "neoforge-1.21.1" = _nJYNAaAk;
+        "neoforge-1.21.2" = _nJYNAaAk;
+        "neoforge-1.21.3" = _nJYNAaAk;
+        "neoforge-1.21.4" = _nJYNAaAk;
         "quilt-1.20" = _ulceJfRg;
         "quilt-1.20.1" = _ulceJfRg;
         "quilt-1.20.2" = _ulceJfRg;
@@ -67,12 +99,19 @@ let
         "quilt-1.20.4" = _ulceJfRg;
         "quilt-1.20.5" = _ulceJfRg;
         "quilt-1.20.6" = _ulceJfRg;
+        "quilt-1.21" = _nJYNAaAk;
+        "quilt-1.21.1" = _nJYNAaAk;
+        "quilt-1.21.2" = _nJYNAaAk;
+        "quilt-1.21.3" = _nJYNAaAk;
+        "quilt-1.21.4" = _nJYNAaAk;
         "pkg-1.0.0" = _j0B0unB4;
         "pkg-1.1.0" = _S3dZeOMo;
         "pkg-1.1.0+mod" = _BbKLAb4A;
         "pkg-1.2.0" = _nBnBHDCu;
         "pkg-1.2.0+mod" = _ulceJfRg;
-        "default" = _ulceJfRg;
+        "pkg-1.2.1-alpha" = _nmwKRb0O;
+        "pkg-1.2.1-alpha+mod" = _nJYNAaAk;
+        "default" = _nJYNAaAk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-frequency";

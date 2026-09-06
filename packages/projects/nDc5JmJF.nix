@@ -26,6 +26,11 @@ let
         "minecraft-1.21.8" = _pByhxfcc;
         "minecraft-1.21.9" = _pByhxfcc;
         "minecraft-1.21.10" = _pByhxfcc;
+        "minecraft-1.21.11" = _pByhxfcc;
+        "minecraft-26.1" = _pByhxfcc;
+        "minecraft-26.1.1" = _pByhxfcc;
+        "minecraft-26.1.2" = _pByhxfcc;
+        "minecraft-26.2" = _pByhxfcc;
         "pkg-1.0" = _pByhxfcc;
         "default" = _pByhxfcc;
     });

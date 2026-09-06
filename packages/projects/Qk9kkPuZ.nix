@@ -3,8 +3,8 @@ let
     versions = (let
         _Q51VBT0u = {
             "id" = "Q51VBT0u";
-            "file" = "health-display-resource-pack.zip";
-            "hash" = "sha512-f40shpygaFlsb7FYwWb/txrdUV75ere93+EeoOoA1gTTwuYcVIabe6hs4RE+AyQFwBhn2I2eZO7dWhIxc/WG3Q==";
+            "file" = "health-display-data-pack-ver-1-1.zip";
+            "hash" = "sha512-11DEvkPpmQLo2zaf4jHRA4MEzSL6tLwSnU9M4gOdJRn9GalrmVZhl8uE29K2WhSFbVUk5rJE+u6vlluzChw00Q==";
         };
         _y1Pxc4b0 = {
             "id" = "y1Pxc4b0";

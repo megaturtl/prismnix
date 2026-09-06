@@ -76,6 +76,36 @@ let
             "file" = "survivalhouse-1.3.0-fabric-1.21.11.jar";
             "hash" = "sha512-COf3RyDmFGlQs9G01jFBuwDZ5T/cNcVmlD+slTR1Xw1jjSRtLmwZWvamMvJL0Zic/7t0xHHpcaqX2sJuYAA7Ow==";
         };
+        _lXhGmLP1 = {
+            "id" = "lXhGmLP1";
+            "file" = "survivalhouse-1.0.0 Fabric 1.21.1.jar";
+            "hash" = "sha512-TB0rPU62rc9TQ5nBIFs/nrhS8d50XqTzZi/DvVCY/JO9RyV1atmqH+XIb0AhgCahoFkzO7MNLgZQZpSOtZZBAw==";
+        };
+        _lc1OWv55 = {
+            "id" = "lc1OWv55";
+            "file" = "survivalhouse-1.0.0 Neoforge 1.21.11.jar";
+            "hash" = "sha512-Kd1/KQ4OdZaI+/X35YMkV4Hy8FonZkBWdLU39tz6bHOIfvH5ZIo7LaK6us/Ftno0JgjGpOUIFRfl4g/fFCTKPg==";
+        };
+        _j0oYHkOw = {
+            "id" = "j0oYHkOw";
+            "file" = "survivalhouse-1.0.0 Fabric 26.1.2.jar";
+            "hash" = "sha512-pmw5oDCrnuaGD2Kr1NkN/D+X7XbhFqHcDgaRhLAeXzkrLyPrLey5bcTYMmVaijpXy5Ob66YXaQkyMBf04TEhlQ==";
+        };
+        _b2LjhvHk = {
+            "id" = "b2LjhvHk";
+            "file" = "survivalhouse-1.0.0 Neoforge 26.1.2.jar";
+            "hash" = "sha512-k0wsTTU6avzi3tKeUSEq2LWhGlVg1gYmgFKJyqD3LtXl7ZcYaKIU/+qMIJLzKVSFOojg58eDPbhF8lZabzH32Q==";
+        };
+        _WwMlefQt = {
+            "id" = "WwMlefQt";
+            "file" = "survivalhouse-1.0.0 Fabric 26.2.jar";
+            "hash" = "sha512-dhTt/f3EVeaykBvMmy/Katq0emIRjtiBJP8Q9+Xa7dqXcuR+T+ipRaDMsuKvJh3s/HsZNEQ/FtF1HGbBA6BVvg==";
+        };
+        _dqE8ywaV = {
+            "id" = "dqE8ywaV";
+            "file" = "survivalhouse-1.0.0 Neoforge 26.2.jar";
+            "hash" = "sha512-Ut4yrPpn6BQ6NQnPEeTDUVZZkBX0NomUW2Qb4qwgSNEa2Ig4Do2EC4vh3w/oGB9DP2AbTJCZQsvwg+VCJDtWUw==";
+        };
     in {
         "kn1u27Oo" = _kn1u27Oo;
         "DG0U0lZV" = _DG0U0lZV;
@@ -92,6 +122,12 @@ let
         "1FQ72A7R" = _1FQ72A7R;
         "8PMRERx1" = _8PMRERx1;
         "qBmTJqtu" = _qBmTJqtu;
+        "lXhGmLP1" = _lXhGmLP1;
+        "lc1OWv55" = _lc1OWv55;
+        "j0oYHkOw" = _j0oYHkOw;
+        "b2LjhvHk" = _b2LjhvHk;
+        "WwMlefQt" = _WwMlefQt;
+        "dqE8ywaV" = _dqE8ywaV;
         "forge-1.19.2" = _nD6Mucoi;
         "forge-1.20.1" = _pR0wIOGd;
         "neoforge-1.20.4" = _WuVxxlFA;
@@ -99,15 +135,21 @@ let
         "neoforge-1.21.1" = _r8iG3woh;
         "neoforge-1.21.4" = _Wx7B2IG3;
         "neoforge-1.21.8" = _1FQ72A7R;
+        "neoforge-1.21.11" = _lc1OWv55;
+        "neoforge-26.1.2" = _b2LjhvHk;
+        "neoforge-26.2" = _dqE8ywaV;
         "fabric-1.20.1" = _JsOJGSVZ;
         "fabric-1.21.8" = _X5TfkvB6;
         "fabric-1.21.10" = _8PMRERx1;
         "fabric-1.21.11" = _qBmTJqtu;
-        "pkg-1.0.0" = _DG0U0lZV;
+        "fabric-1.21.1" = _lXhGmLP1;
+        "fabric-26.1.2" = _j0oYHkOw;
+        "fabric-26.2" = _WwMlefQt;
+        "pkg-1.0.0" = _dqE8ywaV;
         "pkg-1.1.0" = _WuVxxlFA;
         "pkg-1.2.0" = _JsOJGSVZ;
         "pkg-1.3.0" = _qBmTJqtu;
-        "default" = _qBmTJqtu;
+        "default" = _dqE8ywaV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "beginner-survival-house";

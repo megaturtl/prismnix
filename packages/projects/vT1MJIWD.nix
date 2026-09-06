@@ -261,6 +261,11 @@ let
             "file" = "spirit-vector-1.11.6+1.21.1.jar";
             "hash" = "sha512-NAh+iuKwLi4mtDkukAR/9Yjl/N3/hhnCa8lOjwEkP44OYoc2ZS/T0dAThDFSElbI2/2YpSAXBaYUyB1LtsqXng==";
         };
+        _w5ixhv4M = {
+            "id" = "w5ixhv4M";
+            "file" = "spirit-vector-1.11.7+1.21.1.jar";
+            "hash" = "sha512-Y3SicKgMmTNGGNUGEelGIjT75GCHS4FeCt8c3DrvCRSyY4FbMthZCH0h7wTqvVrWdlsOn/Dqv6obGl6XHsnLlA==";
+        };
     in {
         "UVK7Dmso" = _UVK7Dmso;
         "4EQ8nfLE" = _4EQ8nfLE;
@@ -314,10 +319,13 @@ let
         "dt1e5Gb3" = _dt1e5Gb3;
         "OVIu5ykv" = _OVIu5ykv;
         "oqvFHNkv" = _oqvFHNkv;
-        "fabric-1.21" = _oqvFHNkv;
-        "fabric-1.21.1" = _oqvFHNkv;
+        "w5ixhv4M" = _w5ixhv4M;
+        "fabric-1.21" = _w5ixhv4M;
+        "fabric-1.21.1" = _w5ixhv4M;
         "quilt-1.21" = _oqvFHNkv;
         "quilt-1.21.1" = _oqvFHNkv;
+        "neoforge-1.21" = _w5ixhv4M;
+        "neoforge-1.21.1" = _w5ixhv4M;
         "pkg-0.0.1" = _UVK7Dmso;
         "pkg-1.0.0" = _4EQ8nfLE;
         "pkg-1.1.0" = _ILtSHjyV;
@@ -370,7 +378,8 @@ let
         "pkg-1.11.4+1.21.1" = _dt1e5Gb3;
         "pkg-1.11.5+1.21.1" = _OVIu5ykv;
         "pkg-1.11.6+1.21.1" = _oqvFHNkv;
-        "default" = _oqvFHNkv;
+        "pkg-1.11.7+1.21.1" = _w5ixhv4M;
+        "default" = _w5ixhv4M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spirit-vector";

@@ -111,6 +111,11 @@ let
             "file" = "mae2-2.0.0.jar";
             "hash" = "sha512-ZYYCJ3G6rjkn14EVD+vDD/CBUnBKaDazJoXrTLzn33kGHwaGHKscbny9hjPE/TltUb9QJ/FrGLtYaF5REA+2bg==";
         };
+        _5vXTRu3V = {
+            "id" = "5vXTRu3V";
+            "file" = "mae2-2.0.1.jar";
+            "hash" = "sha512-rtJj4RlA7+IN1EhHrLE3PQy3MC9aZXThfJsusWZzN2YL9ujt7Y2Xvg0/EpDb3M7zdg1P46Amky6rrg0qkk/n4w==";
+        };
     in {
         "qB7DfveY" = _qB7DfveY;
         "ncscsZdF" = _ncscsZdF;
@@ -134,7 +139,8 @@ let
         "sR5Tp7OC" = _sR5Tp7OC;
         "yMMdf1uw" = _yMMdf1uw;
         "WIepcqPc" = _WIepcqPc;
-        "forge-1.20.1" = _WIepcqPc;
+        "5vXTRu3V" = _5vXTRu3V;
+        "forge-1.20.1" = _5vXTRu3V;
         "neoforge-1.20.1" = _sR5Tp7OC;
         "pkg-1.0.0" = _ncscsZdF;
         "pkg-1.1.0" = _iunGfwY8;
@@ -156,7 +162,8 @@ let
         "pkg-2.0.0-beta.c" = _sR5Tp7OC;
         "pkg-2.0.0-beta.j" = _yMMdf1uw;
         "pkg-2.0.0" = _WIepcqPc;
-        "default" = _WIepcqPc;
+        "pkg-2.0.1" = _5vXTRu3V;
+        "default" = _5vXTRu3V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modern-ae2-additions";

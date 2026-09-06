@@ -146,6 +146,16 @@ let
             "file" = "Re-Avaritia-neoforge-1.21.1-1.4.1-release.jar";
             "hash" = "sha512-NCF8uEHxSeitaX/Xm+4/y6+rCWcx2UmBV6iH54+v66py9S0J4QTnOR9cUptsphpgBsmMn+kgSt+FIoruUZ1ADw==";
         };
+        _6KeszKY2 = {
+            "id" = "6KeszKY2";
+            "file" = "Re-Avaritia-neoforge-26.1.2-1.4.0-release.jar";
+            "hash" = "sha512-MBwvwia07QArSKscDpK4VnGfyQ2heb+NQabQcsQtIsdTk0BcfTFe5iGl6C/uVp2RY1W1Nw6r4BNOXFYso0Hj3Q==";
+        };
+        _mUCWL6JN = {
+            "id" = "mUCWL6JN";
+            "file" = "Re-Avaritia-neoforge-26.1.2-1.4.1-release.jar";
+            "hash" = "sha512-uaqeuITq5A9K7oXxZ7k5Tbv2v+rmOBdkLZ4OCQ+nmZp0UFFbCXXWVbvDG2wIL7aZkWNjAbjoarHdXBR0LGEqHw==";
+        };
     in {
         "wPJom34X" = _wPJom34X;
         "FFn9M9Be" = _FFn9M9Be;
@@ -176,13 +186,15 @@ let
         "5muSI5qX" = _5muSI5qX;
         "ssUn2Txe" = _ssUn2Txe;
         "GxKTptCM" = _GxKTptCM;
+        "6KeszKY2" = _6KeszKY2;
+        "mUCWL6JN" = _mUCWL6JN;
         "forge-1.20" = _vigcKMZ9;
         "forge-1.20.1" = _ssUn2Txe;
         "neoforge-1.20" = _vigcKMZ9;
         "neoforge-1.20.1" = _5muSI5qX;
         "neoforge-1.20.4" = _I64tc9zs;
         "neoforge-1.21.1" = _GxKTptCM;
-        "neoforge-26.1.2" = _oyZN02nW;
+        "neoforge-26.1.2" = _mUCWL6JN;
         "fabric-1.20.1" = _6YlQtEx9;
         "pkg-1.3.4" = _wPJom34X;
         "pkg-1.3.5.3" = _I64tc9zs;
@@ -202,10 +214,11 @@ let
         "pkg-1.3.9.6" = _2YX9Yr2A;
         "pkg-1.3.9.8" = _Pih1sAAJ;
         "pkg-1.3.9.9" = _VXmzsQD6;
-        "pkg-1.4.0" = _5muSI5qX;
+        "pkg-1.4.0" = _6KeszKY2;
         "pkg-1.20.1-1.4.1-release" = _ssUn2Txe;
         "pkg-1.21.1-1.4.1-release" = _GxKTptCM;
-        "default" = _GxKTptCM;
+        "pkg-26.1.2-1.4.1-release" = _mUCWL6JN;
+        "default" = _mUCWL6JN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "re-avaritia";

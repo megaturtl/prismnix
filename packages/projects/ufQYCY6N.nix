@@ -526,6 +526,16 @@ let
             "file" = "questlog-fabric-1.21.1-3.3.2.jar";
             "hash" = "sha512-gkTViIHd90XNB3vbJ8/lS9qFUMAqeksDMRNg36m+1/o2m6eXWRWNJLg8BmqoeRo9DlmrcvRWg3g5g7LdJha1ag==";
         };
+        _E4INNQLL = {
+            "id" = "E4INNQLL";
+            "file" = "questlog-fabric-1.20.1-3.3.3.jar";
+            "hash" = "sha512-APN8MtwN+SJTiO7gJsOozrf2ovYUck55Pxe5H9lw/jYvysyS6JkqbJ4NQCztR9SgZHpt8m98y2bqi7+Krkse3Q==";
+        };
+        _J7w2J9Ci = {
+            "id" = "J7w2J9Ci";
+            "file" = "questlog-forge-1.20.1-3.3.3.jar";
+            "hash" = "sha512-u3G9XvvQ0r7CaVffwF75aO6be5snA57jEjHi6cXFSNCtVTRv/4Xyorf8vl3eyJwAe7FHhs10I2CHcwM/zNqy7g==";
+        };
     in {
         "2Im2K2rd" = _2Im2K2rd;
         "1gmhyNrP" = _1gmhyNrP;
@@ -632,18 +642,20 @@ let
         "qN2sUxYM" = _qN2sUxYM;
         "Sah2CQqd" = _Sah2CQqd;
         "IPzzKlDo" = _IPzzKlDo;
+        "E4INNQLL" = _E4INNQLL;
+        "J7w2J9Ci" = _J7w2J9Ci;
         "forge-1.19" = _2Im2K2rd;
         "forge-1.19.1" = _2Im2K2rd;
         "forge-1.19.2" = _2Im2K2rd;
         "forge-1.19.3" = _2Im2K2rd;
         "forge-1.19.4" = _2Im2K2rd;
-        "forge-1.20.1" = _5jrBVS34;
+        "forge-1.20.1" = _J7w2J9Ci;
         "forge-1.20.2" = _1gmhyNrP;
         "forge-1.20.3" = _1gmhyNrP;
         "forge-1.20.4" = _1gmhyNrP;
         "forge-1.20.5" = _1gmhyNrP;
         "forge-1.20.6" = _1gmhyNrP;
-        "fabric-1.20.1" = _qN2sUxYM;
+        "fabric-1.20.1" = _E4INNQLL;
         "fabric-1.21.1" = _IPzzKlDo;
         "neoforge-1.21.1" = _Sah2CQqd;
         "pkg-1.0.0" = _VYP4ieqX;
@@ -724,7 +736,9 @@ let
         "pkg-3.3.2-1.20.1-fabric" = _qN2sUxYM;
         "pkg-3.3.2-1.21.1-neoforge" = _Sah2CQqd;
         "pkg-3.3.2-1.21.1-fabric" = _IPzzKlDo;
-        "default" = _IPzzKlDo;
+        "pkg-3.3.3-1.20.1-fabric" = _E4INNQLL;
+        "pkg-3.3.3-1.20.1-forge" = _J7w2J9Ci;
+        "default" = _J7w2J9Ci;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "questlog";

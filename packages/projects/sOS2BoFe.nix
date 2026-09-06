@@ -24,6 +24,11 @@ let
         "minecraft-1.21.8" = _qgWg0Ew6;
         "minecraft-1.21.9" = _qgWg0Ew6;
         "minecraft-1.21.10" = _qgWg0Ew6;
+        "minecraft-1.21.11" = _qgWg0Ew6;
+        "minecraft-26.1" = _qgWg0Ew6;
+        "minecraft-26.1.1" = _qgWg0Ew6;
+        "minecraft-26.1.2" = _qgWg0Ew6;
+        "minecraft-26.2" = _qgWg0Ew6;
         "vanilla-1.20.2" = _qgWg0Ew6;
         "vanilla-1.20.3" = _qgWg0Ew6;
         "vanilla-1.20.4" = _qgWg0Ew6;
@@ -40,6 +45,11 @@ let
         "vanilla-1.21.8" = _qgWg0Ew6;
         "vanilla-1.21.9" = _qgWg0Ew6;
         "vanilla-1.21.10" = _qgWg0Ew6;
+        "vanilla-1.21.11" = _qgWg0Ew6;
+        "vanilla-26.1" = _qgWg0Ew6;
+        "vanilla-26.1.1" = _qgWg0Ew6;
+        "vanilla-26.1.2" = _qgWg0Ew6;
+        "vanilla-26.2" = _qgWg0Ew6;
         "pkg-1.0.0" = _qgWg0Ew6;
         "default" = _qgWg0Ew6;
     });

@@ -130,11 +130,6 @@ let
         "zyAcoKq7" = _zyAcoKq7;
         "forge-1.19.2" = _1zxadJDV;
         "forge-1.20.1" = _N7oGJCeA;
-        "forge-1.20.2" = _uQHbwNTG;
-        "forge-1.20.3" = _uQHbwNTG;
-        "forge-1.20.4" = _uQHbwNTG;
-        "forge-1.20.5" = _uQHbwNTG;
-        "forge-1.20.6" = _uQHbwNTG;
         "neoforge-1.21.1" = _zyAcoKq7;
         "pkg-1.19.2-1.0.0" = _rYCtLuCC;
         "pkg-1.20.1-1.0.0" = _GmodLwmP;
@@ -160,18 +155,18 @@ let
         "default" = _zyAcoKq7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
-        name = "unusual-fish-mod";
+        name = "unusual-fish";
         id = "vYSi4UOX";
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "GNU Lesser General Public License v3.0 only";
-                shortName = "LGPL-3.0-only";
-                url = null;
+                fullName = "LicenseRef-Custom";
+                shortName = "LicenseRef-Custom";
+                url = "https://github.com/platypushasnohat/Unusual-Fish/blob/main/LICENSE";
             };
         };
     };

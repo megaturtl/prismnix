@@ -286,6 +286,16 @@ let
             "file" = "embellish-chat-3.7.0+26.2.jar";
             "hash" = "sha512-iQFulySAnd1+QF4+88Ev7l7p/ZAM0mcnw95KsvL+8cKyrnV7KdYHe2suM8I+c5qS165bGPDQhHAlVfwnviy3Ag==";
         };
+        _fcDEsNpa = {
+            "id" = "fcDEsNpa";
+            "file" = "embellish-chat-3.8.0.jar";
+            "hash" = "sha512-u1EF+t8RXP25q4pIXppCVhz7tt2Vx3Y4IpBgTyH5j75mU4ugyNzyT+FXs5jBRlraVGrd24A2nf4j9ofok64srg==";
+        };
+        _OVutlU7M = {
+            "id" = "OVutlU7M";
+            "file" = "embellish-chat-3.8.0.jar";
+            "hash" = "sha512-890kIQi6w6k+xx7YnFZfObCBPFd6XHaUmH2FBX7AX7UGpbTLvVTkX4PJvk1F6+ahx+05ee0p1as+TijlgjHdMw==";
+        };
     in {
         "CilDuD2z" = _CilDuD2z;
         "7GRF96iI" = _7GRF96iI;
@@ -344,6 +354,8 @@ let
         "In6ON3ka" = _In6ON3ka;
         "qs5QrRi6" = _qs5QrRi6;
         "30yDWwQ2" = _30yDWwQ2;
+        "fcDEsNpa" = _fcDEsNpa;
+        "OVutlU7M" = _OVutlU7M;
         "fabric-1.21.11" = _In6ON3ka;
         "fabric-1.21.9" = _JZG3dahz;
         "fabric-1.21.10" = _JZG3dahz;
@@ -377,10 +389,19 @@ let
         "fabric-26.2-pre-6" = _duZOYxUN;
         "fabric-26.2-rc-1" = _qlfj2Rmq;
         "fabric-26.2-rc-2" = _qlfj2Rmq;
-        "fabric-26.2" = _30yDWwQ2;
-        "fabric-26.3-snapshot-1" = _30yDWwQ2;
-        "fabric-26.3-snapshot-2" = _30yDWwQ2;
-        "fabric-26.3-snapshot-3" = _30yDWwQ2;
+        "fabric-26.2" = _OVutlU7M;
+        "fabric-26.3-snapshot-1" = _OVutlU7M;
+        "fabric-26.3-snapshot-2" = _OVutlU7M;
+        "fabric-26.3-snapshot-3" = _OVutlU7M;
+        "fabric-26.3-snapshot-4" = _OVutlU7M;
+        "fabric-26.3-snapshot-5" = _OVutlU7M;
+        "fabric-26.3-snapshot-6" = _OVutlU7M;
+        "fabric-26.3-snapshot-7" = _OVutlU7M;
+        "fabric-26.3-snapshot-8" = _OVutlU7M;
+        "fabric-26.3-snapshot-9" = _OVutlU7M;
+        "fabric-26.3-snapshot-10" = _OVutlU7M;
+        "fabric-26.3-pre-1" = _OVutlU7M;
+        "fabric-26.3-pre-2" = _OVutlU7M;
         "pkg-3.0.0" = _7GRF96iI;
         "pkg-3.0.1" = _79CshTPe;
         "pkg-3.1.0" = _Ih87SNo1;
@@ -425,7 +446,9 @@ let
         "pkg-3.7.0+1.21.11" = _In6ON3ka;
         "pkg-3.7.0+26.1" = _qs5QrRi6;
         "pkg-3.7.0+26.2" = _30yDWwQ2;
-        "default" = _30yDWwQ2;
+        "pkg-3.8.0+26.2-beta1" = _fcDEsNpa;
+        "pkg-3.8.0+26.2-beta2" = _OVutlU7M;
+        "default" = _OVutlU7M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "embellish-chat";

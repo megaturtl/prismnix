@@ -75,6 +75,7 @@ let
         "fabric-26.1" = _l9vaO02S;
         "fabric-26.1.1" = _l9vaO02S;
         "fabric-26.1.2" = _l9vaO02S;
+        "fabric-26.2" = _l9vaO02S;
         "pkg-1.0.4" = _k3uU91rg;
         "pkg-1.0.5-fabric" = _tO2A0R41;
         "pkg-1.0.7-fabric" = _E3gCAncl;

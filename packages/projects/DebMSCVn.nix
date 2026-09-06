@@ -86,6 +86,26 @@ let
             "file" = "CreateFastSchematicCannon-1.4.1-neoforge-1.21.1.jar";
             "hash" = "sha512-h/dSK1S4z68MHFsiZbeW0F3cQjThFDu8HHwehT5sClGD4Hel2Sm0tLDbQEaNawFJpGvp75sNAoJ+YCX9RIoftg==";
         };
+        _jbydGQx4 = {
+            "id" = "jbydGQx4";
+            "file" = "CreateFastSchematicCannon-2.6.1-6.0.x-forge-1.20.1.jar";
+            "hash" = "sha512-w9jL4sG/yEfp/BQ/b7YHBoXbw1DelBg1LWzyOLLkzaIN/F+aRtavNzH1CV8aIlxJnb7isdzQI2kxH72QYGpKQg==";
+        };
+        _CdU9qA2M = {
+            "id" = "CdU9qA2M";
+            "file" = "CreateFastSchematicCannon-2.6.1-0.5.1i-forge-1.19.2.jar";
+            "hash" = "sha512-ew4/TOQPUbACfOFbz0lwK01/lzR1BL/oZhUIlyNpLCF4O8JhMDg9dlCWf9cbS1oCxVN665KSYGjoFdAEGnjwAQ==";
+        };
+        _IV74GIAE = {
+            "id" = "IV74GIAE";
+            "file" = "CreateFastSchematicCannon-2.6.1-0.5.1j-forge-1.20.1.jar";
+            "hash" = "sha512-MAy7LZY+sgnTRejCQTzRiXAhcy6rgu8pQS67ugeHk0sgBbjAvcBWLpR9qt71P38y7yQHr6WCAqsR72bQUaqPxw==";
+        };
+        _bG6IJw6J = {
+            "id" = "bG6IJw6J";
+            "file" = "CreateFastSchematicCannon-2.6.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-Q0iOStyeyS+ZFL0R8QJRhhhQrb/6PoA/25j2cdZTJKpN5y2mWj7ONw2icgMfyxFoNBjd22+F9jSZMObc4feRTw==";
+        };
     in {
         "SGNkgwoi" = _SGNkgwoi;
         "ZIjekUyR" = _ZIjekUyR;
@@ -104,10 +124,14 @@ let
         "OJ2Hoki9" = _OJ2Hoki9;
         "6TrKAzWN" = _6TrKAzWN;
         "e70DdjWe" = _e70DdjWe;
-        "forge-1.20.1" = _6TrKAzWN;
-        "forge-1.19.2" = _wfFfrKG4;
+        "jbydGQx4" = _jbydGQx4;
+        "CdU9qA2M" = _CdU9qA2M;
+        "IV74GIAE" = _IV74GIAE;
+        "bG6IJw6J" = _bG6IJw6J;
+        "forge-1.20.1" = _IV74GIAE;
+        "forge-1.19.2" = _CdU9qA2M;
         "neoforge-1.20.1" = _6TrKAzWN;
-        "neoforge-1.21.1" = _e70DdjWe;
+        "neoforge-1.21.1" = _bG6IJw6J;
         "neoforge-1.19.2" = _wfFfrKG4;
         "pkg-1.20.1-1.1-0.5.1j-1.20.1-release" = _SGNkgwoi;
         "pkg-1.20.1-1.1-6.0.0-release" = _ZIjekUyR;
@@ -126,7 +150,11 @@ let
         "pkg-1.20.1-1.4.1-0.5.1j" = _OJ2Hoki9;
         "pkg-1.20.1-1.4.1-6.0.x" = _6TrKAzWN;
         "pkg-1.21.1-1.4.1-neoforge" = _e70DdjWe;
-        "default" = _e70DdjWe;
+        "pkg-1.20.1-2.6.1-6.0.x" = _jbydGQx4;
+        "pkg-1.19.2-2.6.1-0.5.1i" = _CdU9qA2M;
+        "pkg-1.20.1-2.6.1-0.5.1j" = _IV74GIAE;
+        "pkg-1.21.1-2.6.1-neoforge" = _bG6IJw6J;
+        "default" = _bG6IJw6J;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-fast-schematic-cannon";

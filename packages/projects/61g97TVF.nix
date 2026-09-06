@@ -176,6 +176,86 @@ let
             "file" = "overflowparticles-1.1.3+26.2.jar";
             "hash" = "sha512-nXFMSLKRdmboCXoSo8JOaJuJXUScHbtymVMnhW9yB+g3FbBcYYtcJhw3rLA+7a+WRUnVJl5QgSpFJ5mS+V3Y5A==";
         };
+        _3JZuewDM = {
+            "id" = "3JZuewDM";
+            "file" = "overflowparticles-1.1.4+1.21.1.jar";
+            "hash" = "sha512-l1t0/Kg4QcbLz8wvoJv7UOJdycqFU8AkIOaBrb3qqoD6/CjI9xcOQZlEFg3LoU/nvsIDpHE+t1RQB1/ClAhvMA==";
+        };
+        _ZiiMQtBp = {
+            "id" = "ZiiMQtBp";
+            "file" = "overflowparticles-1.1.4+1.21.10.jar";
+            "hash" = "sha512-2fHZhV8SOLtFWrdzgIZBFbqZw+b+0y09tW2cIt3jEVzS3RcpQMmYqBF6vzuTPtM5OSoV4t3JWI41/7Mcoop1pw==";
+        };
+        _owYtlSGZ = {
+            "id" = "owYtlSGZ";
+            "file" = "overflowparticles-1.1.4+1.21.11.jar";
+            "hash" = "sha512-qVh8ASoOa3MxLjdhdFmRsZKkYWlOqUzZinmTqBbIfC84jjpIeAr+DBgMQuUvW0IHes9RldpAmUo0KyGK0S0QCA==";
+        };
+        _wCI95Hqj = {
+            "id" = "wCI95Hqj";
+            "file" = "overflowparticles-1.1.4+1.21.4.jar";
+            "hash" = "sha512-iSOt5pbPOC+g/Wwrq4QwzBD+Lp9rO0R3mTu0OlWQ7Oas+rXxuvu1+QhVWUS1O2X7+igfvpxE2CPfGXtHrWXadQ==";
+        };
+        _AF3CESFQ = {
+            "id" = "AF3CESFQ";
+            "file" = "overflowparticles-1.1.4+1.21.5.jar";
+            "hash" = "sha512-gPC59mEKFDGJ08OBFRWZfTCAzH9GPR0Qso+vwUrk4bc51IGNu37fp/vejefZdGQmTo5kaP3cNXUHzwLtgbDK1Q==";
+        };
+        _LAPKnIXx = {
+            "id" = "LAPKnIXx";
+            "file" = "overflowparticles-1.1.4+26.1.jar";
+            "hash" = "sha512-vpQ3TNQ8dyMMbgzD3+Zb22KtBUctm8DAbNwzxhWLdM4w69IDxcxuizyaZGdMZ/XHfWDBLVJgthfB8wv4nkV32A==";
+        };
+        _L8MJ4Fc5 = {
+            "id" = "L8MJ4Fc5";
+            "file" = "overflowparticles-1.1.4+1.21.8.jar";
+            "hash" = "sha512-AOGpuKxOF9TKe5N1mpsKoltbXqqtyjRAwc4QLhi+HCVXyKoVOn2U7b7YG/T20JfSwvs0wkIShoBai3+E1aW22g==";
+        };
+        _jii0sKSU = {
+            "id" = "jii0sKSU";
+            "file" = "overflowparticles-1.1.4+26.2.jar";
+            "hash" = "sha512-5Cl3e8AOzZIBMJvwC+W7JqeU2kGeCfUFiIvSsjVpdzrnH7yz1Y2eRPDMDi78c4DirZ1sHgCRSeiLgTYT9ohN8g==";
+        };
+        _mgJ7aQeC = {
+            "id" = "mgJ7aQeC";
+            "file" = "overflowparticles-1.1.5+1.21.1.jar";
+            "hash" = "sha512-NA2Yg7N55mORwgVVAJv1ebbGBSGQUfahXxVNrVNWj4ff0X6E8Wn+Ohyrcsft8LuuQN0OXwPbF7gfLN6I0VQNqA==";
+        };
+        _1zJ888LQ = {
+            "id" = "1zJ888LQ";
+            "file" = "overflowparticles-1.1.5+1.21.11.jar";
+            "hash" = "sha512-+WIBoj8BWBN87IN7JsNLTKOo6NDYSdfXakJWLb9vPe1/rbgsh5xpa3SnaqEM4t7KNcrp2MjvuGjeeM08qSrWjQ==";
+        };
+        _6mveCOOI = {
+            "id" = "6mveCOOI";
+            "file" = "overflowparticles-1.1.5+1.21.10.jar";
+            "hash" = "sha512-8652m1Qx2QbrIVJiFeU2wlm2BijOAzBkE60HzrAhLADaMNd9zBEkleHhazkn5vmgRje9d8LA7BnCNg8ZqMCOqg==";
+        };
+        _UZZiSk2x = {
+            "id" = "UZZiSk2x";
+            "file" = "overflowparticles-1.1.5+1.21.4.jar";
+            "hash" = "sha512-mPTaevHIMiw8bkUepWAg1mya1z7nlIqYmbr0woA76eyAJZApd4puV6pv5gMa1A2V7k+UxcHS1tuOVpTOuFrchQ==";
+        };
+        _lpzVk1gB = {
+            "id" = "lpzVk1gB";
+            "file" = "overflowparticles-1.1.5+1.21.5.jar";
+            "hash" = "sha512-7Lfbfu5tJ6bEuRtGviSaBXzRE2gFHjzJ7mC5BtCSP6YBsfoukbT8c3wcKNYdlDeMS2mlDwvuo3Nl356Vj4kxhQ==";
+        };
+        _CId1sVbD = {
+            "id" = "CId1sVbD";
+            "file" = "overflowparticles-1.1.5+26.2.jar";
+            "hash" = "sha512-4yp0tgiJEcmNQ4UO2doCElKEcy8Xew3w5bSzTAJYHKXl58k31IwnaXvywuJBt28rBfzZaKFvF/yZomugzFS9Hg==";
+        };
+        _rQDNzfGO = {
+            "id" = "rQDNzfGO";
+            "file" = "overflowparticles-1.1.5+26.1.jar";
+            "hash" = "sha512-LErGoxrGffV/NafzOIHkS9WCS4TkUlBek+L2YwTF6TdCz/DV9sBf2QVp8fTn/BzLlU0d3IFFoE15uzDTpIr0aw==";
+        };
+        _GidzT4Mn = {
+            "id" = "GidzT4Mn";
+            "file" = "overflowparticles-1.1.5+1.21.8.jar";
+            "hash" = "sha512-0AUQVLdjYmA0XWCqWQfW6soRD8TmDRVKR/AAYLZ8gwyaSPn/iN+ZBaT2NOPeXIX6FIWjHaZohzMgS7o/NtZqAw==";
+        };
     in {
         "Yc9UZmFC" = _Yc9UZmFC;
         "N1zHFQp5" = _N1zHFQp5;
@@ -212,17 +292,33 @@ let
         "roGtTOjF" = _roGtTOjF;
         "azYiT3cm" = _azYiT3cm;
         "lzJ0odDT" = _lzJ0odDT;
+        "3JZuewDM" = _3JZuewDM;
+        "ZiiMQtBp" = _ZiiMQtBp;
+        "owYtlSGZ" = _owYtlSGZ;
+        "wCI95Hqj" = _wCI95Hqj;
+        "AF3CESFQ" = _AF3CESFQ;
+        "LAPKnIXx" = _LAPKnIXx;
+        "L8MJ4Fc5" = _L8MJ4Fc5;
+        "jii0sKSU" = _jii0sKSU;
+        "mgJ7aQeC" = _mgJ7aQeC;
+        "1zJ888LQ" = _1zJ888LQ;
+        "6mveCOOI" = _6mveCOOI;
+        "UZZiSk2x" = _UZZiSk2x;
+        "lpzVk1gB" = _lpzVk1gB;
+        "CId1sVbD" = _CId1sVbD;
+        "rQDNzfGO" = _rQDNzfGO;
+        "GidzT4Mn" = _GidzT4Mn;
         "forge-1.8.9" = _4JC1SCCw;
-        "fabric-1.21.11" = _jdFIrWAF;
-        "fabric-1.21.5" = _roGtTOjF;
-        "fabric-1.21.8" = _azYiT3cm;
-        "fabric-1.21.10" = _gCUTWYgs;
-        "fabric-26.1" = _s9rHZBZJ;
-        "fabric-26.1.1" = _s9rHZBZJ;
-        "fabric-26.1.2" = _s9rHZBZJ;
-        "fabric-1.21.4" = _x7wKqx3K;
-        "fabric-26.2" = _lzJ0odDT;
-        "fabric-1.21.1" = _gCGRcLRq;
+        "fabric-1.21.11" = _1zJ888LQ;
+        "fabric-1.21.5" = _lpzVk1gB;
+        "fabric-1.21.8" = _GidzT4Mn;
+        "fabric-1.21.10" = _6mveCOOI;
+        "fabric-26.1" = _rQDNzfGO;
+        "fabric-26.1.1" = _rQDNzfGO;
+        "fabric-26.1.2" = _rQDNzfGO;
+        "fabric-1.21.4" = _UZZiSk2x;
+        "fabric-26.2" = _CId1sVbD;
+        "fabric-1.21.1" = _mgJ7aQeC;
         "pkg-v1.0.0" = _Yc9UZmFC;
         "pkg-v1.0.1" = _N1zHFQp5;
         "pkg-v1.0.2" = _4JC1SCCw;
@@ -230,7 +326,9 @@ let
         "pkg-v1.1.1" = _icWmoHjU;
         "pkg-v1.1.2" = _Mnh8CQ02;
         "pkg-v1.1.3" = _lzJ0odDT;
-        "default" = _lzJ0odDT;
+        "pkg-v1.1.4" = _jii0sKSU;
+        "pkg-v1.1.5" = _GidzT4Mn;
+        "default" = _GidzT4Mn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "overflowparticles";

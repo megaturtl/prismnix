@@ -536,6 +536,51 @@ let
             "file" = "Satsu_iron_man_addon-3.1.4.jar";
             "hash" = "sha512-Q+zY9ie6lOicp7WrlIbmG10yRgDAgMcBDng8HltXxYO5GIlVeFjDYZT9kO7KtAKio1M9V/BEJO3joklEBjD2/A==";
         };
+        _fpZ8b0Wb = {
+            "id" = "fpZ8b0Wb";
+            "file" = "Satsu_iron_man_addon.3.2.0.jar";
+            "hash" = "sha512-74Sg74j/ThqViyNi1ui2nGZi7m5PkKa45mfhOb/K1qh67fGwCTJHk0yMYR30XxUa6OBomvGpFZrhkm9a3SCQUA==";
+        };
+        _Q3xD20Hh = {
+            "id" = "Q3xD20Hh";
+            "file" = "Satsu_iron_man_addon-4.0.0.jar";
+            "hash" = "sha512-d79t42KZMXAA/vthjMN9ZbNb4ozNQCwQwN32XpsXCbPbvACXt5lLYGXRIZbBGQvYAjrrRd+Ph7Ays2VtOm7M5Q==";
+        };
+        _jN7z5e47 = {
+            "id" = "jN7z5e47";
+            "file" = "Satsu_iron_man_addon-3.4.0.jar";
+            "hash" = "sha512-7FP+/rMvQf6NZo8ZQ2FU3b3eichklo4PZjpUgmQj06ab7vvZFpVp0GI1VfBPuoYL+AHahWv8Js2KmXfM1+kL6Q==";
+        };
+        _4w8NAfHA = {
+            "id" = "4w8NAfHA";
+            "file" = "Satsu_iron_man_addon-3.4.1.jar";
+            "hash" = "sha512-eOfhgDkSFZM2aMiJmDVtHHS2RO/9NeZNNCh3sgcdFIjKTRRfahVDPsXt4kFuJPhx3+kweAmb8G8LeRtRLPI7Ig==";
+        };
+        _qbc9AFsA = {
+            "id" = "qbc9AFsA";
+            "file" = "Satsu_iron_man_addon-3.5.0.jar";
+            "hash" = "sha512-XbOAy2xdwxpsOHJB22gQRr9gk3LHRU4GL+ZuODJNWPUjgZdgmvuugxFm6Z9dmQv4JdOdjt7bGDoWVIDBqALCbQ==";
+        };
+        _4g6p3J2i = {
+            "id" = "4g6p3J2i";
+            "file" = "Satsu_iron_man_addon.jar";
+            "hash" = "sha512-Sp3svpCnZBHooJlXF6nGg0+z7zGhdXGVv8EuqZZDLBwk0hsxK2I+eior7uOgv3n1TAPMXJwxo23Zhf/vENvfZw==";
+        };
+        _kYmoIRQy = {
+            "id" = "kYmoIRQy";
+            "file" = "Satsu_iron_man_addon.jar";
+            "hash" = "sha512-oOQwjqh2S+tMozCSl1rRyhQGckLFn9QjwoeLHbvGhstascjJl3YxQgqn5dSo0Pn7KGOkcq0nUfk+JIKDHehHMg==";
+        };
+        _fA9lXmTS = {
+            "id" = "fA9lXmTS";
+            "file" = "Satsu_iron_man_addon-3.5.0.jar";
+            "hash" = "sha512-0JYMwuGl8dWxmObqb1HRQTyRzLyZv4q4G0mSH05myoQ3wFFHoTtxF10IpVwfAxV3l1LSO6XSJCNjNqTUO/Bp/w==";
+        };
+        _gCmBVX7W = {
+            "id" = "gCmBVX7W";
+            "file" = "Satsu_iron_man_addon-3.5.2.jar";
+            "hash" = "sha512-8gYMAlNr/0RlHSXiGQpzoDE23GyYw/q0ayf19RDGJLKkPYoe99TQyKPwQIUNbzJ9mMbOJoPdyvLUlSXyMnY6wg==";
+        };
     in {
         "x4Pwhgad" = _x4Pwhgad;
         "iWS5WdPk" = _iWS5WdPk;
@@ -644,8 +689,17 @@ let
         "32m8diXD" = _32m8diXD;
         "6PqTi057" = _6PqTi057;
         "GlCqE91o" = _GlCqE91o;
+        "fpZ8b0Wb" = _fpZ8b0Wb;
+        "Q3xD20Hh" = _Q3xD20Hh;
+        "jN7z5e47" = _jN7z5e47;
+        "4w8NAfHA" = _4w8NAfHA;
+        "qbc9AFsA" = _qbc9AFsA;
+        "4g6p3J2i" = _4g6p3J2i;
+        "kYmoIRQy" = _kYmoIRQy;
+        "fA9lXmTS" = _fA9lXmTS;
+        "gCmBVX7W" = _gCmBVX7W;
         "fabric-1.20.1" = _6PqTi057;
-        "forge-1.20.1" = _GlCqE91o;
+        "forge-1.20.1" = _gCmBVX7W;
         "pkg-2.0.0" = _x4Pwhgad;
         "pkg-2.2.3" = _iWS5WdPk;
         "pkg-2.2.4" = _gS9d08ps;
@@ -712,11 +766,18 @@ let
         "pkg-3.0.9" = _pbwohq0Y;
         "pkg-3.0.10" = _ZBWkPpWd;
         "pkg-3.1.0" = _ks2pJrzo;
-        "pkg-4.0.0" = _ehy2PrCi;
+        "pkg-4.0.0" = _Q3xD20Hh;
         "pkg-3.1.2" = _32m8diXD;
         "pkg-3.1.3" = _6PqTi057;
         "pkg-3.1.4" = _GlCqE91o;
-        "default" = _GlCqE91o;
+        "pkg-3.2.0" = _fpZ8b0Wb;
+        "pkg-3.4.0" = _jN7z5e47;
+        "pkg-3.4.1" = _4w8NAfHA;
+        "pkg-3.5.0" = _fA9lXmTS;
+        "pkg-3.3.0" = _4g6p3J2i;
+        "pkg-3.4.2" = _kYmoIRQy;
+        "pkg-3.5.2" = _gCmBVX7W;
+        "default" = _gCmBVX7W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "satsu-iron-man-addon";

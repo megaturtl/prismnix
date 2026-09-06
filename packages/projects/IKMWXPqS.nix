@@ -126,6 +126,11 @@ let
             "file" = "averagedps-forge-1.2.0.jar";
             "hash" = "sha512-SMwnM+8bwevls8pGsaxkf94ERYiJI4IUzsqsa8VCuS6Abrm3rcwBFIev7VhIb8StQKzBcMOg/WAKZa9lEC2uag==";
         };
+        _8OXPTXeR = {
+            "id" = "8OXPTXeR";
+            "file" = "averagedps-forge-1.2.1.jar";
+            "hash" = "sha512-oRq+r1s9wLicjFn8/DWEtuGTv4l83YhP9RiliXWxFNuPibCHohP5zfwqcOwXGIewggzxf3xyVZKxxhrome/XXg==";
+        };
     in {
         "O2hoaLFK" = _O2hoaLFK;
         "r4lDmUpO" = _r4lDmUpO;
@@ -152,7 +157,8 @@ let
         "vV7nrqBh" = _vV7nrqBh;
         "rpPiwYM2" = _rpPiwYM2;
         "iB82hkRe" = _iB82hkRe;
-        "forge-1.20.1" = _iB82hkRe;
+        "8OXPTXeR" = _8OXPTXeR;
+        "forge-1.20.1" = _8OXPTXeR;
         "neoforge-1.21.1" = _16fuAh2t;
         "neoforge-26.1" = _rpPiwYM2;
         "neoforge-26.1.1" = _rpPiwYM2;
@@ -175,7 +181,8 @@ let
         "pkg-1.1.8" = _vV7nrqBh;
         "pkg-1" = _rpPiwYM2;
         "pkg-1.2.0" = _iB82hkRe;
-        "default" = _iB82hkRe;
+        "pkg-1.2.1" = _8OXPTXeR;
+        "default" = _8OXPTXeR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "average-dps";

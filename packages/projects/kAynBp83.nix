@@ -41,6 +41,11 @@ let
             "file" = "solarpunk-0.3.2-1.21.1.jar";
             "hash" = "sha512-6fQely/01HwZo00hsYRAKNoDxkHgcnFV73G/L0ii8mobVS3XZk9x8iCGGHUw9/ijcl7gYOQcn+HnDB9XkbEmwg==";
         };
+        _8k1JYDFT = {
+            "id" = "8k1JYDFT";
+            "file" = "solarpunk-0.4.0-1.21.1.jar";
+            "hash" = "sha512-QU6ZzFHIT66/rihsd6I2NJDaR00JKPlArWYfK9HZm+QJFG6NynTlfx0HQTGbottqmNfqJFmFebJPYusz+lpOPQ==";
+        };
     in {
         "OrZpzkoh" = _OrZpzkoh;
         "mvldEFUb" = _mvldEFUb;
@@ -50,17 +55,18 @@ let
         "OBnPm8ad" = _OBnPm8ad;
         "Vatjbz1u" = _Vatjbz1u;
         "xK4pEdqO" = _xK4pEdqO;
-        "neoforge-1.21.1" = _xK4pEdqO;
-        "neoforge-1.21.2" = _xK4pEdqO;
-        "neoforge-1.21.3" = _xK4pEdqO;
-        "neoforge-1.21.4" = _xK4pEdqO;
-        "neoforge-1.21.5" = _xK4pEdqO;
-        "neoforge-1.21.6" = _xK4pEdqO;
-        "neoforge-1.21.7" = _xK4pEdqO;
-        "neoforge-1.21.8" = _xK4pEdqO;
-        "neoforge-1.21.9" = _xK4pEdqO;
-        "neoforge-1.21.10" = _xK4pEdqO;
-        "neoforge-1.21.11" = _xK4pEdqO;
+        "8k1JYDFT" = _8k1JYDFT;
+        "neoforge-1.21.1" = _8k1JYDFT;
+        "neoforge-1.21.2" = _8k1JYDFT;
+        "neoforge-1.21.3" = _8k1JYDFT;
+        "neoforge-1.21.4" = _8k1JYDFT;
+        "neoforge-1.21.5" = _8k1JYDFT;
+        "neoforge-1.21.6" = _8k1JYDFT;
+        "neoforge-1.21.7" = _8k1JYDFT;
+        "neoforge-1.21.8" = _8k1JYDFT;
+        "neoforge-1.21.9" = _8k1JYDFT;
+        "neoforge-1.21.10" = _8k1JYDFT;
+        "neoforge-1.21.11" = _8k1JYDFT;
         "pkg-0.0.0-1.21.1" = _OrZpzkoh;
         "pkg-0.0.1-1.21.1" = _mvldEFUb;
         "pkg-0.1.1-1.21.1" = _jsL12M6N;
@@ -69,7 +75,8 @@ let
         "pkg-0.3.0-1.21.1" = _OBnPm8ad;
         "pkg-0.3.1-1.21.1" = _Vatjbz1u;
         "pkg-0.3.2-1.21.1" = _xK4pEdqO;
-        "default" = _xK4pEdqO;
+        "pkg-0.4.0-1.21.1" = _8k1JYDFT;
+        "default" = _8k1JYDFT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-solar-punk";

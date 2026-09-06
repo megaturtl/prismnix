@@ -351,6 +351,26 @@ let
             "file" = "combatamenities-3.1.11-26.2.jar";
             "hash" = "sha512-/dAyt2LdTR1SWJTMRP4dBuoMPNSltRLCYQk/yHugyVPA+dtcExOBz3fgkGusMQMUyOsJY9wQkgJZ1vXdLDBaqw==";
         };
+        _7P497QJn = {
+            "id" = "7P497QJn";
+            "file" = "combatamenities-3.2.0-26.2.jar";
+            "hash" = "sha512-/q8/sJpxxnoq+XsHESdo/DybOWGTIsfbKjtylhcGQLT3i5IeXcpUCiWLcbFytyRjsPygGOMVfm4PAK7jw95kmA==";
+        };
+        _RQAWBxaE = {
+            "id" = "RQAWBxaE";
+            "file" = "combatamenities-3.2.1-26.1.2.jar";
+            "hash" = "sha512-BJjT85IKigdNpmXYcIJ0C1nLGD0XACqsaP0wsvJrh08y5AwUa4n6TFA/086BOLuqUyF3d13qVplJbysanrgMFw==";
+        };
+        _nfc9tsZ5 = {
+            "id" = "nfc9tsZ5";
+            "file" = "combatamenities-3.2.1-26.2.jar";
+            "hash" = "sha512-LUGth65dF6uZ7Bv6G5Oit8dgkRRI/8R/zlsttx5kjg5nHcuYApGebVQyr3aiXEVSTXDSeMtJaL8vKwVRfL+Iwg==";
+        };
+        _DkMhfymK = {
+            "id" = "DkMhfymK";
+            "file" = "combatamenities-3.2.2-26.2.jar";
+            "hash" = "sha512-h+r7in+3lgNJLL48uywGtL3UBrneCwVAwHcYXeIcxwSe8f1UpZC6Swl95Jk6NwbRtQmgGo/GFhmhTSkWBns7ig==";
+        };
     in {
         "qKa3GI6A" = _qKa3GI6A;
         "AA1oeTG2" = _AA1oeTG2;
@@ -422,6 +442,10 @@ let
         "3NYh0qO4" = _3NYh0qO4;
         "oC4Rx8wO" = _oC4Rx8wO;
         "aIGDoKA6" = _aIGDoKA6;
+        "7P497QJn" = _7P497QJn;
+        "RQAWBxaE" = _RQAWBxaE;
+        "nfc9tsZ5" = _nfc9tsZ5;
+        "DkMhfymK" = _DkMhfymK;
         "fabric-1.20.1" = _hoHdZ9M1;
         "fabric-1.21.1" = _p4AzAOrN;
         "fabric-1.21" = _GNAt9NBw;
@@ -433,10 +457,10 @@ let
         "fabric-1.21.9" = _hZW3WhF6;
         "fabric-1.21.10" = _11sQALTr;
         "fabric-1.21.11" = _6o3FVQZE;
-        "fabric-26.1.1" = _oC4Rx8wO;
-        "fabric-26.1" = _oC4Rx8wO;
-        "fabric-26.1.2" = _oC4Rx8wO;
-        "fabric-26.2" = _aIGDoKA6;
+        "fabric-26.1.1" = _RQAWBxaE;
+        "fabric-26.1" = _RQAWBxaE;
+        "fabric-26.1.2" = _RQAWBxaE;
+        "fabric-26.2" = _DkMhfymK;
         "pkg-1.0.0" = _qKa3GI6A;
         "pkg-1.0.1" = _AA1oeTG2;
         "pkg-1.1.0" = _GNhRnTXT;
@@ -507,7 +531,11 @@ let
         "pkg-3.1.10-26.2" = _3NYh0qO4;
         "pkg-3.1.11-26.1.2" = _oC4Rx8wO;
         "pkg-3.1.11-26.2" = _aIGDoKA6;
-        "default" = _aIGDoKA6;
+        "pkg-3.2.0-26.2" = _7P497QJn;
+        "pkg-3.2.1-26.1.2" = _RQAWBxaE;
+        "pkg-3.2.1-26.2" = _nfc9tsZ5;
+        "pkg-3.2.2-26.2" = _DkMhfymK;
+        "default" = _DkMhfymK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "combat-amenities";

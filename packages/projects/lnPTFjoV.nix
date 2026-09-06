@@ -21,16 +21,23 @@ let
             "file" = "sporeadd-2.0.0.jar";
             "hash" = "sha512-UC0yQw9frXXmS67DW+ImD+TdMYT53D5SqAu62kgn2OxQ6+t5E14ugIhVIDBdDuRVT7Ykx+I7WaqeYxHnsVZN3Q==";
         };
+        _WR1TFXnR = {
+            "id" = "WR1TFXnR";
+            "file" = "sporeadd-2.1.0.jar";
+            "hash" = "sha512-o5801rIaSFWJf+llCwfxgNGKBXXIgQc17MCqPGY2BvDvuCFxG9wwJbG025QiTF2EwLzxqZpkXb+oRZDGb3bBNw==";
+        };
     in {
         "3jgSDWos" = _3jgSDWos;
         "eXqidWsV" = _eXqidWsV;
         "QNkGFUKt" = _QNkGFUKt;
         "2bY8xDbR" = _2bY8xDbR;
-        "forge-1.20.1" = _2bY8xDbR;
+        "WR1TFXnR" = _WR1TFXnR;
+        "forge-1.20.1" = _WR1TFXnR;
         "pkg-1.0.0" = _3jgSDWos;
         "pkg-1.1.0" = _QNkGFUKt;
         "pkg-2.0.0" = _2bY8xDbR;
-        "default" = _2bY8xDbR;
+        "pkg-2.1.0" = _WR1TFXnR;
+        "default" = _WR1TFXnR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sporeadds";

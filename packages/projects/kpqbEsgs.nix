@@ -46,6 +46,11 @@ let
             "file" = "ItzRealMe Edit 26.1.zip";
             "hash" = "sha512-FbYD2/RfM+Ydt1SKORgF97yO5m+uiTW/LcOhv8qz0wSu4mjLfRxHJHiBSoNQEM7SazBlw/+y5bqj3TL8VSKNYQ==";
         };
+        _ezM7u0Fb = {
+            "id" = "ezM7u0Fb";
+            "file" = "ItzRealMe Edit 26.2.zip";
+            "hash" = "sha512-/RmjqjoWWusapbpzunreNbSxQmwdKvu7CXlKv0UgK2M/8kpWzdO5ed0ZRpD/H5YheOeIJrYVozM+0xFfdoFVbw==";
+        };
     in {
         "gB1p9YhF" = _gB1p9YhF;
         "Vyef3eM8" = _Vyef3eM8;
@@ -56,6 +61,7 @@ let
         "xUjrNYbh" = _xUjrNYbh;
         "AWH5Upme" = _AWH5Upme;
         "IULA0peI" = _IULA0peI;
+        "ezM7u0Fb" = _ezM7u0Fb;
         "minecraft-1.19" = _gB1p9YhF;
         "minecraft-1.19.1" = _gB1p9YhF;
         "minecraft-1.19.2" = _gB1p9YhF;
@@ -81,8 +87,10 @@ let
         "minecraft-26.1" = _IULA0peI;
         "minecraft-26.1.1" = _IULA0peI;
         "minecraft-26.1.2" = _IULA0peI;
+        "minecraft-26.2" = _ezM7u0Fb;
         "pkg-1.0" = _IULA0peI;
-        "default" = _IULA0peI;
+        "pkg-26.2" = _ezM7u0Fb;
+        "default" = _ezM7u0Fb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "itzrealme-edit";

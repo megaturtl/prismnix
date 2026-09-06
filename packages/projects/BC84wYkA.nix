@@ -56,6 +56,16 @@ let
             "file" = "fairylights-8.0.14-neoforge-1.21.1.jar";
             "hash" = "sha512-f4wLrZm2YAGenN0q3tkEIKpIR8wa3fuSg2fFdeFRb1p+vK8Vse9mlcizxbv40FqtB6MDpP0lyS7WhYk4nw3SSA==";
         };
+        _mOWlt2Bt = {
+            "id" = "mOWlt2Bt";
+            "file" = "fairylights-8.0.15-neoforge-1.21.1.jar";
+            "hash" = "sha512-X9UhuZ00zzLXiIOyYSi9S1tzisFnKof67xi5C0XKU4PIE8txr2PLHF4zCtJBxmbExtkTPDTzH0VzDMF4cOWfQw==";
+        };
+        _E1I8EFtk = {
+            "id" = "E1I8EFtk";
+            "file" = "fairylights-8.0.16-neoforge-1.21.1.jar";
+            "hash" = "sha512-kphs78/jM2LCtkgCVTTMq3uAAqnGU8KWkrJ4RWcoT/NsaulPYDYGUg6zme7Lh69kVFQaX2hoKvB0vudec1wOzQ==";
+        };
     in {
         "94PuIWPN" = _94PuIWPN;
         "akC99Vsx" = _akC99Vsx;
@@ -68,7 +78,9 @@ let
         "N0yELNQ7" = _N0yELNQ7;
         "nRZfm3og" = _nRZfm3og;
         "GeO6fhcX" = _GeO6fhcX;
-        "neoforge-1.21.1" = _GeO6fhcX;
+        "mOWlt2Bt" = _mOWlt2Bt;
+        "E1I8EFtk" = _E1I8EFtk;
+        "neoforge-1.21.1" = _E1I8EFtk;
         "pkg-8.0.3" = _94PuIWPN;
         "pkg-8.0.4" = _akC99Vsx;
         "pkg-8.0.5" = _8prkXVKh;
@@ -80,7 +92,9 @@ let
         "pkg-8.0.11" = _N0yELNQ7;
         "pkg-8.0.13" = _nRZfm3og;
         "pkg-8.0.14" = _GeO6fhcX;
-        "default" = _GeO6fhcX;
+        "pkg-8.0.15" = _mOWlt2Bt;
+        "pkg-8.0.16" = _E1I8EFtk;
+        "default" = _E1I8EFtk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fairy-lighting";

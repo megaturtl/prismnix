@@ -265,12 +265,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-License" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "LicenseRef-Custom-License";
-                shortName = "LicenseRef-Custom-License";
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
                 url = "https://github.com/Frostbite-time/AE2-Crystal-Science/blob/1.21.1/LICENSE";
             };
         };

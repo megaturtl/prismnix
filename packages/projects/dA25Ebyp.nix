@@ -181,6 +181,26 @@ let
             "file" = "VideoPlayer-Paper-2.0.0.jar";
             "hash" = "sha512-GHCbH/4wP2l/usHG8473QsQP+VH/USetQINPgffcZlT5ZmInfYwgNvh+f81Czo9nafw4WRCtW34OsNHBULC7CQ==";
         };
+        _ghUXViTO = {
+            "id" = "ghUXViTO";
+            "file" = "VideoPlayer-2.0.3.jar";
+            "hash" = "sha512-BXZnn6D2hmegLcFypktYrhlwK1/xrLJEJ4YYYcttCXT78dGgdG5TDdmOeSfGXxKFwwH2tIilG43IJb8M9LjcNw==";
+        };
+        _nhyah7J2 = {
+            "id" = "nhyah7J2";
+            "file" = "VideoPlayer-Paper-2.0.3.jar";
+            "hash" = "sha512-sIl4EhkXpekpRuq/l6Iaa2EFCIoCDO635uUbb4R3H+HHp22fCYI0ZmkJ0ty/rqgm+66dhQNIMhwlskxLjhpTDQ==";
+        };
+        _XbU6eGXe = {
+            "id" = "XbU6eGXe";
+            "file" = "VideoPlayer-2.0.3-26.2.jar";
+            "hash" = "sha512-GXfCVZrSA5ya1tkbnTL8C2ikgzYUGzstucHHEt2nHAqaNuJet4krQREcWi8A7su97eZTOg5y9ZBEQMdjUynxdQ==";
+        };
+        _2N94hesm = {
+            "id" = "2N94hesm";
+            "file" = "VideoPlayer-Paper-2.0.3-26.2.jar";
+            "hash" = "sha512-Nzv72jPo8eQ28764IYiXZGbzyaTA19XbuKg0bBEJjeE7q+E7qyfePo0iQXHUIgeEbXzCxw5XNrEln6C5WFn5VA==";
+        };
     in {
         "gO0xL4Oe" = _gO0xL4Oe;
         "vOZZADkv" = _vOZZADkv;
@@ -218,11 +238,18 @@ let
         "eeaCqojl" = _eeaCqojl;
         "SPZvt0SS" = _SPZvt0SS;
         "KHsdvV8t" = _KHsdvV8t;
+        "ghUXViTO" = _ghUXViTO;
+        "nhyah7J2" = _nhyah7J2;
+        "XbU6eGXe" = _XbU6eGXe;
+        "2N94hesm" = _2N94hesm;
         "fabric-1.21.4" = _zlLA5Iuk;
         "fabric-1.20.1" = _eeaCqojl;
-        "fabric-1.21.11" = _SPZvt0SS;
-        "folia-1.21.11" = _KHsdvV8t;
-        "paper-1.21.11" = _KHsdvV8t;
+        "fabric-1.21.11" = _ghUXViTO;
+        "fabric-26.2" = _XbU6eGXe;
+        "folia-1.21.11" = _nhyah7J2;
+        "folia-26.2" = _2N94hesm;
+        "paper-1.21.11" = _nhyah7J2;
+        "paper-26.2" = _2N94hesm;
         "pkg-1.0.0" = _gO0xL4Oe;
         "pkg-1.0.1" = _vOZZADkv;
         "pkg-1.0.2" = _ZQdqOZE0;
@@ -253,7 +280,8 @@ let
         "pkg-1.6.4" = _XO4BxjtX;
         "pkg-1.6.4.1" = _eeaCqojl;
         "pkg-2.0.0" = _KHsdvV8t;
-        "default" = _KHsdvV8t;
+        "pkg-2.0.3" = _2N94hesm;
+        "default" = _2N94hesm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "videoplayer";

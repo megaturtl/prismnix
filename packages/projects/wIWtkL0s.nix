@@ -76,6 +76,16 @@ let
             "file" = "retrocommands-0.7.4-babric.jar";
             "hash" = "sha512-DEI/RIM78rfgXi5bhw6HRO1hhnk78I47kd+bPjb/92GRc4u27q+Nyrumk0ddVbBGRTUnucOPmrHWypmg2olN/w==";
         };
+        _MwJWQ1yw = {
+            "id" = "MwJWQ1yw";
+            "file" = "retrocommands-0.7.5.jar";
+            "hash" = "sha512-tt5vX5wvcwJCCdvFeeyfMCjMOuvaBf/J9ccXd5lP7xthF4m0DcJ9PoDUfWfqjg5HjY5mWh4Vhph+LGyNzSnR8w==";
+        };
+        _SnMFQeIQ = {
+            "id" = "SnMFQeIQ";
+            "file" = "retrocommands-0.7.5-babric.jar";
+            "hash" = "sha512-TxD1NNkcagMKm7un8OP91jqg9AfbD7Bi1u0jHS50ABKBy2GrU5bQC1B8UilLr//r6ceNkITITsHCGSRlqIuJOA==";
+        };
     in {
         "DBoVsmTl" = _DBoVsmTl;
         "OVJzJkpC" = _OVJzJkpC;
@@ -92,9 +102,11 @@ let
         "6THYblPw" = _6THYblPw;
         "GQMmHxC0" = _GQMmHxC0;
         "t69ygHC8" = _t69ygHC8;
-        "babric-b1.7.3" = _t69ygHC8;
+        "MwJWQ1yw" = _MwJWQ1yw;
+        "SnMFQeIQ" = _SnMFQeIQ;
+        "babric-b1.7.3" = _SnMFQeIQ;
         "fabric-b1.7.3" = _6THYblPw;
-        "ornithe-b1.7.3" = _GQMmHxC0;
+        "ornithe-b1.7.3" = _MwJWQ1yw;
         "pkg-0.4.3+mojangfix-fix" = _DBoVsmTl;
         "pkg-0.4.4" = _OVJzJkpC;
         "pkg-0.4.5" = _d78o9Ju7;
@@ -110,7 +122,9 @@ let
         "pkg-0.5.10" = _6THYblPw;
         "pkg-0.7.4" = _GQMmHxC0;
         "pkg-0.7.4+babric" = _t69ygHC8;
-        "default" = _t69ygHC8;
+        "pkg-0.7.5" = _MwJWQ1yw;
+        "pkg-0.7.5+babric" = _SnMFQeIQ;
+        "default" = _SnMFQeIQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "retrocommands";

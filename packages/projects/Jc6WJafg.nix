@@ -236,6 +236,26 @@ let
             "file" = "net_music_list-3.2-alpha.jar";
             "hash" = "sha512-z4apdR72PLNR9Zv/LquHgcEAsmmuV7diD9OLy2wCG/ILcOAaSKNu+8M3dBCcR8sMeVLZgcMls/hs1HAX8rrOjw==";
         };
+        _vPZvuSFV = {
+            "id" = "vPZvuSFV";
+            "file" = "net_music_list-3.0.jar";
+            "hash" = "sha512-aBB5HE84i070ofCrswqpgJpsB+OwrTE/d93F2EePEyxua9uws7LwjjIBRpTXJLvHiiAupdQCl1DOwQocHLEfuQ==";
+        };
+        _tudHbLPd = {
+            "id" = "tudHbLPd";
+            "file" = "net_music_list-4.1.jar";
+            "hash" = "sha512-3a9rBiMZW0jZjItCqRugpyX1PhSS3cVQQifhMR9gOPgmKfGbMUfwS89SFRLW5DdTm5i8QWdtkWi1Q18PNJOTQg==";
+        };
+        _Y46dixIi = {
+            "id" = "Y46dixIi";
+            "file" = "net_music_list-4.2.jar";
+            "hash" = "sha512-J5aRq2rTGQ1DCqbvCHJv4CURwHShlHXOSv98BkMCPVHyE4qMGTwm9J8l82usmhHL4Ea83jZVd/oZmAwpkba/zw==";
+        };
+        _MTzfIx4I = {
+            "id" = "MTzfIx4I";
+            "file" = "net_music_list-4.3.jar";
+            "hash" = "sha512-LW/LlRGkNSSjmvxdbURqnR/WroRhxpOfMdlxjunmcZ2xf4FMkAj5hRkLJjPoU70jUrVqRsvp2/Yw6yLrNk/Yfw==";
+        };
     in {
         "f53IK25k" = _f53IK25k;
         "EQkmoCsx" = _EQkmoCsx;
@@ -284,9 +304,13 @@ let
         "aF4uT6AP" = _aF4uT6AP;
         "IXkK9fNU" = _IXkK9fNU;
         "mbqYE3It" = _mbqYE3It;
+        "vPZvuSFV" = _vPZvuSFV;
+        "tudHbLPd" = _tudHbLPd;
+        "Y46dixIi" = _Y46dixIi;
+        "MTzfIx4I" = _MTzfIx4I;
         "fabric-1.20.1" = _f53IK25k;
         "forge-1.20.1" = _WQvQUsL4;
-        "neoforge-1.21.1" = _IXkK9fNU;
+        "neoforge-1.21.1" = _MTzfIx4I;
         "neoforge-26.1.2" = _mbqYE3It;
         "pkg-1.0.0" = _EQkmoCsx;
         "pkg-1.1" = _bpUnAEIv;
@@ -333,7 +357,11 @@ let
         "pkg-2.3.3" = _wyrXXeUE;
         "pkg-2.3.4" = _IXkK9fNU;
         "pkg-3.2-alpha" = _mbqYE3It;
-        "default" = _mbqYE3It;
+        "pkg-4.0" = _vPZvuSFV;
+        "pkg-4.1" = _tudHbLPd;
+        "pkg-4.2" = _Y46dixIi;
+        "pkg-4.3" = _MTzfIx4I;
+        "default" = _MTzfIx4I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "net-music-play-list";
@@ -341,13 +369,13 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "MIT" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-PolyForm-Shield-License-1.0.0" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "MIT License";
-                shortName = "MIT";
-                url = "https://github.com/NotEnoughNetMusic/NetMusicList/blob/master/LICENSE.txt";
+                fullName = "LicenseRef-PolyForm-Shield-License-1.0.0";
+                shortName = "LicenseRef-PolyForm-Shield-License-1.0.0";
+                url = "https://github.com/NotEnoughNetMusic/netMusicListNeoForge/blob/master/LICENSE.md";
             };
         };
     };

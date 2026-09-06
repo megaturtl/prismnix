@@ -36,13 +36,16 @@ let
         "fabric-26.1" = _CjifPxDH;
         "fabric-26.1.1" = _CjifPxDH;
         "fabric-26.1.2" = _CjifPxDH;
+        "fabric-26.2" = _CjifPxDH;
         "forge-1.20.1" = _tmuMpo6f;
         "forge-26.1" = _OZEv59eE;
         "forge-26.1.1" = _OZEv59eE;
         "forge-26.1.2" = _OZEv59eE;
+        "forge-26.2" = _OZEv59eE;
         "neoforge-26.1" = _ZnwLUz9A;
         "neoforge-26.1.1" = _ZnwLUz9A;
         "neoforge-26.1.2" = _ZnwLUz9A;
+        "neoforge-26.2" = _ZnwLUz9A;
         "pkg-1.0.2" = _tmuMpo6f;
         "pkg-1.0.7" = _ZnwLUz9A;
         "default" = _ZnwLUz9A;

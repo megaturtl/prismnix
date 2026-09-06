@@ -106,6 +106,11 @@ let
             "file" = "RebindQuickSwap-2.0.1+26.1.jar";
             "hash" = "sha512-To5v20e/Fz4+Ldu05KAeAnKFIXotIoperxZRhCXwrD0igLDv1wEv7Xao74r3ZEpLLpiHuIMulBXGoocG+vbSCQ==";
         };
+        _UQLhnV4Y = {
+            "id" = "UQLhnV4Y";
+            "file" = "RebindQuickSwap-2.0.2+26.2.jar";
+            "hash" = "sha512-2Awe0iidTPc8HxjD7Pz0jP8IA7eed0op9FpiDDPSAKoCqTEjH3jgDQdQfRg3QLZETQj1gMtlYUM1ulgOFPfdiw==";
+        };
     in {
         "Vty1IfKk" = _Vty1IfKk;
         "OeCgvJFT" = _OeCgvJFT;
@@ -128,6 +133,7 @@ let
         "tmfMQMiY" = _tmfMQMiY;
         "ieMrGoXh" = _ieMrGoXh;
         "KIMH7zZe" = _KIMH7zZe;
+        "UQLhnV4Y" = _UQLhnV4Y;
         "fabric-1.21.4" = _WNxbozR5;
         "fabric-1.21.3" = _fWmIyUcG;
         "fabric-1.21.2" = _fWmIyUcG;
@@ -149,6 +155,7 @@ let
         "fabric-26.1" = _KIMH7zZe;
         "fabric-26.1.1" = _KIMH7zZe;
         "fabric-26.1.2" = _KIMH7zZe;
+        "fabric-26.2" = _UQLhnV4Y;
         "pkg-1.0.0" = _TmzOVU9I;
         "pkg-2.0.0-1.21" = _42F8uIiX;
         "pkg-2.0.0-1.21.2" = _fWmIyUcG;
@@ -159,7 +166,8 @@ let
         "pkg-2.0.0-1.21.11" = _tmfMQMiY;
         "pkg-2.0.0+26.1" = _ieMrGoXh;
         "pkg-2.0.1+26.1" = _KIMH7zZe;
-        "default" = _KIMH7zZe;
+        "pkg-2.0.2+26.2" = _UQLhnV4Y;
+        "default" = _UQLhnV4Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rebind-quick-swap";

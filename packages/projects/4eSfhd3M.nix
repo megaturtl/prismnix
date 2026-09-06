@@ -456,6 +456,86 @@ let
             "file" = "rpgmoblevelingsystem-neoforge-1.21.1-2.0.2.jar";
             "hash" = "sha512-HiZHBmR13r65Rzr9WIjUYe4HPz+2LVnbCNmDV+/Pz7IRc15BJGucFCtlPwjXeNhvPx5OEEC47K5jnNbPprc2xg==";
         };
+        _H8qcrxIs = {
+            "id" = "H8qcrxIs";
+            "file" = "rpgmoblevelingsystem-fabric-1.20.1-2.0.3.jar";
+            "hash" = "sha512-ZEXyfi6Ljld0r44E1cPwukeBWSoxzOQB3JT5v9eNpj4W9kgqq3fAqPG0ux+MNinng2evC5YdCXHahLABdgRsVg==";
+        };
+        _CLD98fwN = {
+            "id" = "CLD98fwN";
+            "file" = "rpgmoblevelingsystem-fabric-1.21.1-2.0.3.jar";
+            "hash" = "sha512-4Qf7yjGmSpVGNqA7Hijyh+5vzKKK+znVzNpHptN+y9TPALbeQI+EdAUhz7A7BiV4i1ZGtVK60q5DKFcEeXj/nQ==";
+        };
+        _sya6jnGR = {
+            "id" = "sya6jnGR";
+            "file" = "rpgmoblevelingsystem-forge-1.20.1-2.0.3.jar";
+            "hash" = "sha512-3oyJULskK1VzRJz6/5nmHn3HI5efDITTZ57q+QnQ6Asu4Ouxu/hW/6E2Uc0seb7V1c6Vo9p9X7LJzTG0/XtS5g==";
+        };
+        _DZpGZDcB = {
+            "id" = "DZpGZDcB";
+            "file" = "rpgmoblevelingsystem-neoforge-1.21.1-2.0.3.jar";
+            "hash" = "sha512-peobwXqe+L9TD6i7EttB2AJOapCgVKqnPKAR3uO7VR212wA3rERrvnXVCob8rfORBNB2B18cSj3iI+uJehDQUQ==";
+        };
+        _D5kfJUPk = {
+            "id" = "D5kfJUPk";
+            "file" = "rpgmoblevelingsystem-fabric-1.20.1-2.0.4.jar";
+            "hash" = "sha512-vO9j73wTnIr9zNJ+Ivq9OM1j+YKdhN423n2NEoTXIrh9G7XjinBHpYMh5uXade6VfTzmDVZdeRNP9HtiqQzNCQ==";
+        };
+        _iVnQq2Df = {
+            "id" = "iVnQq2Df";
+            "file" = "rpgmoblevelingsystem-fabric-1.21.1-2.0.4.jar";
+            "hash" = "sha512-V4GN9l9jNagAyTULSNIvKUY143BmOosaQBuOK7zSsuJK2AZTptcVQpn5lu6PwBrzvZFuGnryq920WzdzykmEGQ==";
+        };
+        _HS1wpgPH = {
+            "id" = "HS1wpgPH";
+            "file" = "rpgmoblevelingsystem-forge-1.20.1-2.0.4.jar";
+            "hash" = "sha512-0LSymyYDOHaKzXCGIkygT3TtK+ZkInRMS70eEFvqNDGpQFnCcO9GuF+6XY9Ca8UbBySYhXrjawYAXGRa7lneEg==";
+        };
+        _GEhZd5Ua = {
+            "id" = "GEhZd5Ua";
+            "file" = "rpgmoblevelingsystem-neoforge-1.21.1-2.0.4.jar";
+            "hash" = "sha512-hhREXWWrzU1RCCGBzwkXm4Q9/LF52bkiLG/VmL7UuIliawezdJ98pNM4HmHb7M8r+jde1aqQHSZzZz2BVZO2IQ==";
+        };
+        _yqKmxZaH = {
+            "id" = "yqKmxZaH";
+            "file" = "rpgmoblevelingsystem-fabric-1.20.1-2.0.5.jar";
+            "hash" = "sha512-E5jHgeuXbWbo91sSXV3Jb5a2wLJkLj5Zj42kOqwzNMRJLRnHjevSkAcauxxb1EcINN64q0jZi66+79D1vBVTTQ==";
+        };
+        _qxeg1SF1 = {
+            "id" = "qxeg1SF1";
+            "file" = "rpgmoblevelingsystem-fabric-1.21.1-2.0.5.jar";
+            "hash" = "sha512-gjlkNER84vWh8f+pjZPM8+7xqt/i2PIslQ+D794xOPYYCjWPAB730k/Esz8Z0fFj++b+Ihbv/SFk3YYu2U2Zlg==";
+        };
+        _LsxbxH2L = {
+            "id" = "LsxbxH2L";
+            "file" = "rpgmoblevelingsystem-forge-1.20.1-2.0.5.jar";
+            "hash" = "sha512-BcYD7e7ljHTpX1B9IfucRVVSS1Mi6AeOoyarFc4b1kvllrwybZ3Eo0SvKiSwJ6cWtIMZN4CkD3XLuPnuOIIAvQ==";
+        };
+        _q64jj3at = {
+            "id" = "q64jj3at";
+            "file" = "rpgmoblevelingsystem-neoforge-1.21.1-2.0.5.jar";
+            "hash" = "sha512-9nDU7bDr9GuBIfBoAIIU/uC9bTv+c/dZVphI/5ZGgUylc6BspAOv5ppHdr1nrv4UryTKGOy8C1JbZykm+OS3HA==";
+        };
+        _Zj5zE4Kn = {
+            "id" = "Zj5zE4Kn";
+            "file" = "rpgmoblevelingsystem-fabric-1.20.1-2.0.7.jar";
+            "hash" = "sha512-s6d5KwNblT1dKPODUNqvZi+WAGzPsvxv95zTtxB9Vy7wn205Zm9kuLL3PoGQ9nu+D0vLh97LbVYQcCHFTtPaVg==";
+        };
+        _FQR898DR = {
+            "id" = "FQR898DR";
+            "file" = "rpgmoblevelingsystem-fabric-1.21.1-2.0.7.jar";
+            "hash" = "sha512-aMuwBft4drn59bIHltbn4nlZHhVXUqtRrpqVQrTFF/sgKfPdB14l66wkp0tJ3vwkHHeA5YwQEbHxJtPe5OaTfQ==";
+        };
+        _ysGVaW5Y = {
+            "id" = "ysGVaW5Y";
+            "file" = "rpgmoblevelingsystem-forge-1.20.1-2.0.7.jar";
+            "hash" = "sha512-tx4jdpMcTQyIkUYEAv4QSM6Vks9sxdP2ljZH24o883NF1AwJcIJoB2IT/sArfSaLbCOc7alrP9ZvhSS/luFA+g==";
+        };
+        _Jotlloxu = {
+            "id" = "Jotlloxu";
+            "file" = "rpgmoblevelingsystem-neoforge-1.21.1-2.0.7.jar";
+            "hash" = "sha512-YOwqyC3QLA69zUndIXXzUx2z51VynNddiAWdYgj+rAYwGASnzkExrE2l3uxKagJ2DFcvbt7nab2HFlATsS4blQ==";
+        };
     in {
         "wWd6YFec" = _wWd6YFec;
         "GFXumiKL" = _GFXumiKL;
@@ -548,15 +628,31 @@ let
         "7PJJ9bMg" = _7PJJ9bMg;
         "u5g79KDN" = _u5g79KDN;
         "mJkcqVAx" = _mJkcqVAx;
-        "forge-1.20.1" = _u5g79KDN;
+        "H8qcrxIs" = _H8qcrxIs;
+        "CLD98fwN" = _CLD98fwN;
+        "sya6jnGR" = _sya6jnGR;
+        "DZpGZDcB" = _DZpGZDcB;
+        "D5kfJUPk" = _D5kfJUPk;
+        "iVnQq2Df" = _iVnQq2Df;
+        "HS1wpgPH" = _HS1wpgPH;
+        "GEhZd5Ua" = _GEhZd5Ua;
+        "yqKmxZaH" = _yqKmxZaH;
+        "qxeg1SF1" = _qxeg1SF1;
+        "LsxbxH2L" = _LsxbxH2L;
+        "q64jj3at" = _q64jj3at;
+        "Zj5zE4Kn" = _Zj5zE4Kn;
+        "FQR898DR" = _FQR898DR;
+        "ysGVaW5Y" = _ysGVaW5Y;
+        "Jotlloxu" = _Jotlloxu;
+        "forge-1.20.1" = _ysGVaW5Y;
         "forge-1.19.2" = _ZKRsos5I;
         "forge-1.18.2" = _iPdp9SzW;
         "forge-1.16.5" = _sp23PoVX;
         "neoforge-1.20.6" = _9t87JUvS;
-        "neoforge-1.21.1" = _mJkcqVAx;
+        "neoforge-1.21.1" = _Jotlloxu;
         "neoforge-1.20.1" = _tcIDS6Q6;
-        "fabric-1.20.1" = _zCBBo8au;
-        "fabric-1.21.1" = _7PJJ9bMg;
+        "fabric-1.20.1" = _Zj5zE4Kn;
+        "fabric-1.21.1" = _FQR898DR;
         "pkg-0.0.1" = _sOTDQjxL;
         "pkg-0.1.0" = _pjxuU3bT;
         "pkg-0.2.0" = _WsTgD7kb;
@@ -583,7 +679,11 @@ let
         "pkg-2.0.0" = _FkapP5yR;
         "pkg-2.0.1" = _zkc3hjVu;
         "pkg-2.0.2" = _mJkcqVAx;
-        "default" = _mJkcqVAx;
+        "pkg-2.0.3" = _DZpGZDcB;
+        "pkg-2.0.4" = _GEhZd5Ua;
+        "pkg-2.0.5" = _q64jj3at;
+        "pkg-2.0.7" = _Jotlloxu;
+        "default" = _Jotlloxu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rpg-mob-leveling-system";
@@ -591,12 +691,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+            license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "LicenseRef-All-Rights-Reserved";
-                shortName = "LicenseRef-All-Rights-Reserved";
+                fullName = "Apache License 2.0";
+                shortName = "Apache-2.0";
                 url = null;
             };
         };

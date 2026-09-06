@@ -71,6 +71,11 @@ let
             "file" = "itemsortermod-fabric-1.10.8+1.21.3.jar";
             "hash" = "sha512-hFkW8jnY5PLzjkjbfxw60ZhSN481kju2FSFO5fBcMWFm8dNx/e4Rt7rRDEkj8yF9EfgI/JQO3SOhGLoBvqEqfA==";
         };
+        _SgIOeXnn = {
+            "id" = "SgIOeXnn";
+            "file" = "itemsortermod-fabric-1.10.9+1.21.4.jar";
+            "hash" = "sha512-jaJR8pjpA0PixVOMug42vCFwFrP18JB6RvCRCNFMiYjvFv2cmIEJdqvTl9YxoLpYTqoP3T5zg5wBdU6pYfcQoA==";
+        };
     in {
         "ewtMj3nK" = _ewtMj3nK;
         "bQNvzmWs" = _bQNvzmWs;
@@ -86,6 +91,7 @@ let
         "KNDwFUR3" = _KNDwFUR3;
         "CbAynjbo" = _CbAynjbo;
         "VLMLxemB" = _VLMLxemB;
+        "SgIOeXnn" = _SgIOeXnn;
         "fabric-1.17" = _ewtMj3nK;
         "fabric-1.17.1" = _ewtMj3nK;
         "fabric-1.18" = _bQNvzmWs;
@@ -103,6 +109,7 @@ let
         "fabric-1.21.1" = _CbAynjbo;
         "fabric-1.21.2" = _VLMLxemB;
         "fabric-1.21.3" = _VLMLxemB;
+        "fabric-1.21.4" = _SgIOeXnn;
         "quilt-1.19" = _nuvsVrJg;
         "quilt-1.19.1" = _lJSHsHE2;
         "quilt-1.19.2" = _L4ctAgN2;
@@ -116,6 +123,7 @@ let
         "quilt-1.21.1" = _CbAynjbo;
         "quilt-1.21.2" = _VLMLxemB;
         "quilt-1.21.3" = _VLMLxemB;
+        "quilt-1.21.4" = _SgIOeXnn;
         "pkg-1.9.0" = _ewtMj3nK;
         "pkg-1.10.0" = _bQNvzmWs;
         "pkg-1.10.1" = _9qMz9cG0;
@@ -130,7 +138,8 @@ let
         "pkg-1.10.6+1.20.6" = _KNDwFUR3;
         "pkg-1.10.7+1.21" = _CbAynjbo;
         "pkg-1.10.8+1.21.3" = _VLMLxemB;
-        "default" = _VLMLxemB;
+        "pkg-1.10.9+1.21.4" = _SgIOeXnn;
+        "default" = _SgIOeXnn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "itemsortermod";

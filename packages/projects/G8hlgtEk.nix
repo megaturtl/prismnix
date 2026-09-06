@@ -86,6 +86,16 @@ let
             "file" = "trinkets-polymer-patch-4.1.0-beta.1.0+26.2.jar";
             "hash" = "sha512-UN/qcy8+i7FGSJr+QawJmm+vjoAVQQyDb4RqOr3N0sXTwTLgCw0kw5HCjWCaWjPPtKMCbCeSX5HXmXwRNOCFJQ==";
         };
+        _4j4YqKKV = {
+            "id" = "4j4YqKKV";
+            "file" = "trinkets-polymer-patch-4.1.0-rc.1.0+26.2.jar";
+            "hash" = "sha512-3/3+/L0BVq9rx6PuKa10nezWy3BvMJV1Qif+K66S6NvHfyLa+X5kXSk45TdjiAw9AFd6g0JxHTl3m89jaa7POg==";
+        };
+        _MtPLTvWO = {
+            "id" = "MtPLTvWO";
+            "file" = "trinkets-polymer-patch-4.0.0-rc.1.0+26.1.jar";
+            "hash" = "sha512-CPGNBYZRP2mTX/HhlQF4nPqZ9YjBPd3ilmBEllXSYPXjurtsBaNvFmvM55y7/CcZBm9QSgDYoFfhlHfw9UNAjg==";
+        };
     in {
         "G2cVXC5m" = _G2cVXC5m;
         "zKOWXRFX" = _zKOWXRFX;
@@ -104,6 +114,8 @@ let
         "G13h8UtB" = _G13h8UtB;
         "27fg4V80" = _27fg4V80;
         "MawK0SxO" = _MawK0SxO;
+        "4j4YqKKV" = _4j4YqKKV;
+        "MtPLTvWO" = _MtPLTvWO;
         "fabric-1.19" = _G2cVXC5m;
         "fabric-1.19.2" = _zKOWXRFX;
         "fabric-1.19.3" = _UBjqeyDC;
@@ -123,8 +135,8 @@ let
         "fabric-1.21.10-rc1" = _WtE14Wq0;
         "fabric-1.21.10" = _WtE14Wq0;
         "fabric-1.21.11" = _G13h8UtB;
-        "fabric-26.1.2" = _27fg4V80;
-        "fabric-26.2" = _MawK0SxO;
+        "fabric-26.1.2" = _MtPLTvWO;
+        "fabric-26.2" = _4j4YqKKV;
         "quilt-1.19" = _G2cVXC5m;
         "quilt-1.19.2" = _zKOWXRFX;
         "quilt-1.19.3" = _UBjqeyDC;
@@ -161,7 +173,9 @@ let
         "pkg-3.11.0-beta.1+polymerport.4" = _G13h8UtB;
         "pkg-4.0.0-beta.1.0+26.1" = _27fg4V80;
         "pkg-4.1.0-beta.1.0+26.2" = _MawK0SxO;
-        "default" = _MawK0SxO;
+        "pkg-4.1.0-rc.1.0+26.2" = _4j4YqKKV;
+        "pkg-4.0.0-rc.1.0+26.1" = _MtPLTvWO;
+        "default" = _MtPLTvWO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trinkets-polymer";

@@ -71,6 +71,36 @@ let
             "file" = "cobblemon-pokestops-neoforge-1.5.0.jar";
             "hash" = "sha512-Fr5pkuVfVkGn2a+OtGRduxeqGot15Ix+sFCajEW0eF0ny5PKBgTKGWuQ/3MMqU1QDmd30Ugt7W5O2idIV+PCLA==";
         };
+        _jSc8SMJF = {
+            "id" = "jSc8SMJF";
+            "file" = "cobblemon-pokestops-fabric-1.6.0.jar";
+            "hash" = "sha512-ueD7cn59Rv3CbPinxqKGSOa3t+PsUijyP1XkkThO5AcBT2hBB642uLF+SA+vqTyrJrJd7/y59g2siHoP/1vijw==";
+        };
+        _g7E5biJc = {
+            "id" = "g7E5biJc";
+            "file" = "cobblemon-pokestops-neoforge-1.6.0.jar";
+            "hash" = "sha512-uJ5AnbiSsQ54rT1pB6xF1wLEJutcz1VaEDOK60IjmXwFWQ/Og/Jq1CUXcn7lj7Q1TaXpOgsDSulz6HG/2JgqKw==";
+        };
+        _gTuo6ZVg = {
+            "id" = "gTuo6ZVg";
+            "file" = "cobblemon-pokestops-neoforge-1.7.0.jar";
+            "hash" = "sha512-buK06lyvikOxJYKNOTRNOgcCRJQp9dauxuKkQFe0RDK55i+fU/I5FP6kLmGe+jbmcxtBBXiwakojpf/wz3v7HQ==";
+        };
+        _OdYGA7gi = {
+            "id" = "OdYGA7gi";
+            "file" = "cobblemon-pokestops-fabric-1.7.0.jar";
+            "hash" = "sha512-bWRxm4zrYbaTiBFJK/vfGC+CBQ9T/bh9NZAQ3ZYRkt+F1eBj7drNhD5pVnSBams6jpwYfBoq1i8oQE4klyFHSA==";
+        };
+        _tVzyChxF = {
+            "id" = "tVzyChxF";
+            "file" = "cobblemon-pokestops-fabric-1.8.0.jar";
+            "hash" = "sha512-aV+j2xgqZMZlCN6eInBIbdEKtPZgNqnSMmrucdBQQCaJ8S98eXJQE806E3Mp//4YyhSj3/qaC1pfVITNh4VVlg==";
+        };
+        _R7EW1XWN = {
+            "id" = "R7EW1XWN";
+            "file" = "cobblemon-pokestops-neoforge-1.8.0.jar";
+            "hash" = "sha512-iDPu/S3azL4jv/Z7+nZrUcReu3qMqxP5ObNj+3WOdQkeuXzeXWndT8uH276q9yFko5RBRnhwMTQra4UBqmdNOw==";
+        };
     in {
         "LMLo6KMd" = _LMLo6KMd;
         "SoyePG0o" = _SoyePG0o;
@@ -86,8 +116,14 @@ let
         "8KDPoxtZ" = _8KDPoxtZ;
         "CmItn4Cc" = _CmItn4Cc;
         "l1pwuLX1" = _l1pwuLX1;
-        "fabric-1.21.1" = _CmItn4Cc;
-        "neoforge-1.21.1" = _l1pwuLX1;
+        "jSc8SMJF" = _jSc8SMJF;
+        "g7E5biJc" = _g7E5biJc;
+        "gTuo6ZVg" = _gTuo6ZVg;
+        "OdYGA7gi" = _OdYGA7gi;
+        "tVzyChxF" = _tVzyChxF;
+        "R7EW1XWN" = _R7EW1XWN;
+        "fabric-1.21.1" = _tVzyChxF;
+        "neoforge-1.21.1" = _R7EW1XWN;
         "pkg-1.0.0" = _SoyePG0o;
         "pkg-1.1.0" = _5XyPUd6O;
         "pkg-1.2.0" = _fanyInG7;
@@ -95,7 +131,10 @@ let
         "pkg-1.3.0" = _6bQkbL1R;
         "pkg-1.4.0" = _8KDPoxtZ;
         "pkg-1.5.0" = _l1pwuLX1;
-        "default" = _l1pwuLX1;
+        "pkg-1.6.0" = _g7E5biJc;
+        "pkg-1.7.0" = _OdYGA7gi;
+        "pkg-1.8.0" = _R7EW1XWN;
+        "default" = _R7EW1XWN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-pokestops";

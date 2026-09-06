@@ -46,6 +46,31 @@ let
             "file" = "Simple Structures Pale Garden 1.20.1.jar";
             "hash" = "sha512-t1G2WUMU+c6k19sdJqDtl4menL4eJw5UTV6mrWts+DQvPTKqi7ZflgH7jED5GaXWf3QwE3amdpy3RWhYU71lnA==";
         };
+        _FJLmgIZ1 = {
+            "id" = "FJLmgIZ1";
+            "file" = "Simple Structures Pale Garden 1.20.1.jar";
+            "hash" = "sha512-msZxf+J3Io/BHovvdSEzw9krVe0rBbRkFmUK8ET/4uPcpXrxzRQCl1J6IZsIqhkMp6ZtEdxCVSbGrEfuiaH3NQ==";
+        };
+        _PUBEIhgp = {
+            "id" = "PUBEIhgp";
+            "file" = "Simple Structures Pale Garden 1.21.1.jar";
+            "hash" = "sha512-hocNOAbDbtDDX3C40wHtNjYwMZsepCMI4llr4BUTxOLbO62WkqVdfn84T4JyGlkz6wAVCS7xo864GI3BH+0BOw==";
+        };
+        _CIVthnEz = {
+            "id" = "CIVthnEz";
+            "file" = "Simple Structures Pale Garden 1.21.1x.jar";
+            "hash" = "sha512-fjIdaSR9tKzrFNZ3EkDmUvriQ6pkBfyf2XSPaZ+F2H8glczv2k2uOQZ3VTRwAf9zLr2pDIwC82vkQhOFLnwyOQ==";
+        };
+        _wwm5SlAm = {
+            "id" = "wwm5SlAm";
+            "file" = "Simple Structures Pale Garden 26.1.jar";
+            "hash" = "sha512-zxlaojgwvVVJExeZAnGbMRyh6i+sNIHMepW7BsJ8rophuSAJtx/LPwMZX5s4NUgkGkyh33dh4zz05XSlFZ6/OA==";
+        };
+        _F7kQZTCP = {
+            "id" = "F7kQZTCP";
+            "file" = "Simple Structures Pale Garden 26.2.jar";
+            "hash" = "sha512-k+QaHWzYUcnYkBkuouShO19vEcoDtggutMl3D86RNBppTOEHv9H1JpH50ux+VjnS36uhnfwe25bkwqA9pWiMlw==";
+        };
     in {
         "5AcJYo9c" = _5AcJYo9c;
         "Rmlksy45" = _Rmlksy45;
@@ -56,38 +81,48 @@ let
         "DmyOJf6e" = _DmyOJf6e;
         "G2zcnmcK" = _G2zcnmcK;
         "T8H8zzC3" = _T8H8zzC3;
-        "fabric-1.21.11" = _5AcJYo9c;
-        "fabric-26.1" = _rolDw5MS;
-        "fabric-26.1.1" = _rolDw5MS;
-        "fabric-26.1.2" = _rolDw5MS;
+        "FJLmgIZ1" = _FJLmgIZ1;
+        "PUBEIhgp" = _PUBEIhgp;
+        "CIVthnEz" = _CIVthnEz;
+        "wwm5SlAm" = _wwm5SlAm;
+        "F7kQZTCP" = _F7kQZTCP;
+        "fabric-1.21.11" = _CIVthnEz;
+        "fabric-26.1" = _wwm5SlAm;
+        "fabric-26.1.1" = _wwm5SlAm;
+        "fabric-26.1.2" = _wwm5SlAm;
         "fabric-26.2-snapshot-2" = _DmyOJf6e;
         "fabric-26.2-snapshot-3" = _DmyOJf6e;
         "fabric-26.2-snapshot-4" = _DmyOJf6e;
         "fabric-26.2-snapshot-5" = _DmyOJf6e;
         "fabric-26.2-snapshot-6" = _DmyOJf6e;
-        "fabric-26.2" = _G2zcnmcK;
-        "fabric-1.20.1" = _T8H8zzC3;
-        "forge-1.21.11" = _5AcJYo9c;
-        "forge-26.1" = _rolDw5MS;
-        "forge-26.1.1" = _rolDw5MS;
-        "forge-26.1.2" = _rolDw5MS;
+        "fabric-26.2" = _F7kQZTCP;
+        "fabric-1.20.1" = _FJLmgIZ1;
+        "fabric-1.21.1" = _PUBEIhgp;
+        "fabric-1.21.10" = _CIVthnEz;
+        "forge-1.21.11" = _CIVthnEz;
+        "forge-26.1" = _wwm5SlAm;
+        "forge-26.1.1" = _wwm5SlAm;
+        "forge-26.1.2" = _wwm5SlAm;
         "forge-26.2-snapshot-2" = _DmyOJf6e;
         "forge-26.2-snapshot-3" = _DmyOJf6e;
         "forge-26.2-snapshot-4" = _DmyOJf6e;
         "forge-26.2-snapshot-5" = _DmyOJf6e;
         "forge-26.2-snapshot-6" = _DmyOJf6e;
-        "forge-26.2" = _G2zcnmcK;
-        "forge-1.20.1" = _T8H8zzC3;
-        "neoforge-1.21.11" = _5AcJYo9c;
-        "neoforge-26.1" = _rolDw5MS;
-        "neoforge-26.1.1" = _rolDw5MS;
-        "neoforge-26.1.2" = _rolDw5MS;
+        "forge-26.2" = _F7kQZTCP;
+        "forge-1.20.1" = _FJLmgIZ1;
+        "forge-1.21.10" = _CIVthnEz;
+        "neoforge-1.21.11" = _CIVthnEz;
+        "neoforge-26.1" = _wwm5SlAm;
+        "neoforge-26.1.1" = _wwm5SlAm;
+        "neoforge-26.1.2" = _wwm5SlAm;
         "neoforge-26.2-snapshot-2" = _DmyOJf6e;
         "neoforge-26.2-snapshot-3" = _DmyOJf6e;
         "neoforge-26.2-snapshot-4" = _DmyOJf6e;
         "neoforge-26.2-snapshot-5" = _DmyOJf6e;
         "neoforge-26.2-snapshot-6" = _DmyOJf6e;
-        "neoforge-26.2" = _G2zcnmcK;
+        "neoforge-26.2" = _F7kQZTCP;
+        "neoforge-1.21.1" = _PUBEIhgp;
+        "neoforge-1.21.10" = _CIVthnEz;
         "datapack-1.21.11" = _Rmlksy45;
         "datapack-26.1-pre-2" = _lcFJd6iW;
         "datapack-26.1-pre-3" = _a6437LgI;
@@ -95,7 +130,8 @@ let
         "datapack-26.1" = _iuoDFfbz;
         "datapack-26.1.1" = _iuoDFfbz;
         "pkg-1.0" = _T8H8zzC3;
-        "default" = _T8H8zzC3;
+        "pkg-1.1" = _F7kQZTCP;
+        "default" = _F7kQZTCP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-structure-pale-garden";

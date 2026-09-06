@@ -2396,6 +2396,66 @@ let
             "file" = "litematica-fabric-1.21.11-0.26.12.jar";
             "hash" = "sha512-RcFUFIXaWyBodyyrFhKamcIz/f6W0RBinsR8V5yFz21xu1BtLmJUrGXzBtZNDoPqwlkRSNf8+neiwFvLl9qK0g==";
         };
+        _q9KTHqNV = {
+            "id" = "q9KTHqNV";
+            "file" = "litematica-fabric-1.21.11-0.26.13.jar";
+            "hash" = "sha512-IVb5n2CRd6/5Vv+rSk98JcsZRw0prVAWwk0wd8RP/AItFhLBR4zG25AY7da5/y+n2mLVO4kthoS4dl0LWmVgEg==";
+        };
+        _DUO41VjZ = {
+            "id" = "DUO41VjZ";
+            "file" = "litematica-fabric-26.1.2-0.27.11.jar";
+            "hash" = "sha512-1T6zhmvUd93u1EcozUqHlGjptKIh6ChEs3F66GSE4WJ0yggnr1mSXNSYzzfwDqIj4sZ1Dgss7aj1ZeF4C4x+Tg==";
+        };
+        _Fhq3KCI8 = {
+            "id" = "Fhq3KCI8";
+            "file" = "litematica-fabric-26.2-0.28.5.jar";
+            "hash" = "sha512-r5iPV+k0BHhIrSlgdJJHk5TO9p51FsBJLMN5B87b/sGz+4y/TgiYctIM4QOdLVks60WRE+5xNUAfkQOM6xAQlw==";
+        };
+        _K0yRfp9V = {
+            "id" = "K0yRfp9V";
+            "file" = "litematica-fabric-1.21.11-0.26.14.jar";
+            "hash" = "sha512-ziOA1YDD/NsvVlzwlYnaA56DDVWbBfMj5HnUQtWcwWIZ5CKkqIqJB3bA+rsnYQfKVfW1mKdTepIEQjlZNJmEfw==";
+        };
+        _8Wl8yI2Z = {
+            "id" = "8Wl8yI2Z";
+            "file" = "litematica-fabric-26.1.2-0.27.12.jar";
+            "hash" = "sha512-VGmtQzPOKGg/RNzwYTrYOCdnGsJ+bcnAuKKuYG9eVvCS4Kn3JOdkaMsun+CzW00UFTBtfjjBLADJeE5un+BQ/Q==";
+        };
+        _awNX9q5c = {
+            "id" = "awNX9q5c";
+            "file" = "litematica-fabric-26.2-0.28.6.jar";
+            "hash" = "sha512-2GbgJj2X4WprvJbJq2HxeB5JCqrQG012zD8d6OyCzvBMpdhPwT3jpYILgEp9BrN0aPuYdfpeRg/bIaPpO+9Wpg==";
+        };
+        _SLidwkWA = {
+            "id" = "SLidwkWA";
+            "file" = "litematica-fabric-1.21.11-0.26.15.jar";
+            "hash" = "sha512-HjHrkKLCQesKuwx9RR6ZZpeSTJGJFnbE4MPUUgGzrrjCuDj4YUkv7zuT9jH2mSS5aR3L9hq+65vhGH18DxhpSg==";
+        };
+        _hNBFdBaZ = {
+            "id" = "hNBFdBaZ";
+            "file" = "litematica-fabric-26.1.2-0.27.13.jar";
+            "hash" = "sha512-CwTvwSUlNun/7XMH4zJhCH5o5m8YLTR6c0b1wM2assUpnKJuLD2lU60CUvnMNy0UKfF3tuGOvI1PcTKkohUR1w==";
+        };
+        _3CYObkmA = {
+            "id" = "3CYObkmA";
+            "file" = "litematica-fabric-26.2-0.28.7.jar";
+            "hash" = "sha512-2v5XxRGob8EnJyvslDGiS7FYxUSs2yYUiz/8VcO4Z+Tu7CHs0gvjaqQoGkPQG3E8LR7m27NsN+DLG/zfBojNAw==";
+        };
+        _mengBR9D = {
+            "id" = "mengBR9D";
+            "file" = "litematica-fabric-1.21.11-0.26.16.jar";
+            "hash" = "sha512-x9jk7joaTqy4JbGdOJoG4X9sS3jDB0/ZKesbsfXqvb13vQlUUimwQuUPR6p43qxABYCaTEv1VFN+gW5A4ohQBQ==";
+        };
+        _w8P6TokG = {
+            "id" = "w8P6TokG";
+            "file" = "litematica-fabric-26.1.2-0.27.14.jar";
+            "hash" = "sha512-q/7hOUhnJqLHs4DAbls7a/g5RUAad+hFeH12NxwuFoGO3uLP28B+5LBXyOxQw6zfoiNx72MCKNWAzS0E7P2+Dg==";
+        };
+        _CuniXtbo = {
+            "id" = "CuniXtbo";
+            "file" = "litematica-fabric-26.2-0.28.8.jar";
+            "hash" = "sha512-0cgFOPMxG1hckxHlnxT9f9PrgiiP5a+zmbITnLNbQtJNtyAzefL2G1CmEHNjNahtvTlcoXlbABYi5rJNxv4qZw==";
+        };
     in {
         "JGl47jWP" = _JGl47jWP;
         "gYbp92ti" = _gYbp92ti;
@@ -2876,6 +2936,18 @@ let
         "MRcKRVoi" = _MRcKRVoi;
         "c91sTAlP" = _c91sTAlP;
         "b3dJnV8d" = _b3dJnV8d;
+        "q9KTHqNV" = _q9KTHqNV;
+        "DUO41VjZ" = _DUO41VjZ;
+        "Fhq3KCI8" = _Fhq3KCI8;
+        "K0yRfp9V" = _K0yRfp9V;
+        "8Wl8yI2Z" = _8Wl8yI2Z;
+        "awNX9q5c" = _awNX9q5c;
+        "SLidwkWA" = _SLidwkWA;
+        "hNBFdBaZ" = _hNBFdBaZ;
+        "3CYObkmA" = _3CYObkmA;
+        "mengBR9D" = _mengBR9D;
+        "w8P6TokG" = _w8P6TokG;
+        "CuniXtbo" = _CuniXtbo;
         "liteloader-1.12" = _q9Igz9e9;
         "liteloader-1.12.2" = _XS3VIQDt;
         "liteloader-1.12.1" = _w7gIqB54;
@@ -2945,11 +3017,11 @@ let
         "fabric-1.20.3" = _RfB4COWa;
         "fabric-1.21.5" = _f9S0ZzGY;
         "fabric-1.20.5" = _h226Yxd4;
-        "fabric-1.21.11" = _b3dJnV8d;
-        "fabric-26.1" = _MRcKRVoi;
-        "fabric-26.1.1" = _MRcKRVoi;
-        "fabric-26.1.2" = _MRcKRVoi;
-        "fabric-26.2" = _jzraAo7b;
+        "fabric-1.21.11" = _mengBR9D;
+        "fabric-26.1" = _w8P6TokG;
+        "fabric-26.1.1" = _w8P6TokG;
+        "fabric-26.1.2" = _w8P6TokG;
+        "fabric-26.2" = _CuniXtbo;
         "fabric-1.21.9" = _c91sTAlP;
         "fabric-1.21.10" = _c91sTAlP;
         "fabric-1.21.6" = _GJMDd9Zq;
@@ -3432,7 +3504,19 @@ let
         "pkg-0.27.10" = _MRcKRVoi;
         "pkg-0.24.9" = _c91sTAlP;
         "pkg-0.26.12" = _b3dJnV8d;
-        "default" = _b3dJnV8d;
+        "pkg-0.26.13" = _q9KTHqNV;
+        "pkg-0.27.11" = _DUO41VjZ;
+        "pkg-0.28.5" = _Fhq3KCI8;
+        "pkg-0.26.14" = _K0yRfp9V;
+        "pkg-0.27.12" = _8Wl8yI2Z;
+        "pkg-0.28.6" = _awNX9q5c;
+        "pkg-0.26.15" = _SLidwkWA;
+        "pkg-0.27.13" = _hNBFdBaZ;
+        "pkg-0.28.7" = _3CYObkmA;
+        "pkg-0.26.16" = _mengBR9D;
+        "pkg-0.27.14" = _w8P6TokG;
+        "pkg-0.28.8" = _CuniXtbo;
+        "default" = _CuniXtbo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "litematica";

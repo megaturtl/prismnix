@@ -318,13 +318,13 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "CC-BY-SA-4.0" {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "Creative Commons Attribution Share Alike 4.0 International";
-                shortName = "CC-BY-SA-4.0";
-                url = "https://creativecommons.org/licenses/by-sa/4.0/";
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://opensource.org/license/mit-0";
             };
         };
     };

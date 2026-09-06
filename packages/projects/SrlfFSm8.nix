@@ -221,6 +221,71 @@ let
             "file" = "UniversalModCore-1.21.1-neoforge-1.3.0-hotfix5.jar";
             "hash" = "sha512-I1c14tyN4XpM6VJ1aQQpDJl3wlKyALoFohjg0omKZ+yXgK9a1FUV1i2+u+YZ6bOLVUpbWbAR6nS7/e3n2kwXVA==";
         };
+        _VT15GqeF = {
+            "id" = "VT15GqeF";
+            "file" = "UniversalModCore-1.7.10-forge-1.3.1.jar";
+            "hash" = "sha512-wdhZ4V9XAMAkxFml6D3VixFDQcFXHZjHiNHPMBCyM/TpojMfo2PQv/5avfN10lQRZxQKhwmbmVmk0b7Cz3XO+Q==";
+        };
+        _QG0MaJGp = {
+            "id" = "QG0MaJGp";
+            "file" = "UniversalModCore-1.10.2-forge-1.3.1.jar";
+            "hash" = "sha512-I6WZt28WtpQXvzw7ZHDfOMb0pY0+qyq6t4XD8/bHceLSJyD4v/TuhlOFPzeEQJqbxBo3G1i6XWQ0X+Nd+jHgyQ==";
+        };
+        _WNLk8Jsw = {
+            "id" = "WNLk8Jsw";
+            "file" = "UniversalModCore-1.11.2-forge-1.3.1.jar";
+            "hash" = "sha512-wBnNHbdXi7Ja059+BJfMhWtybrrBycwHRRSBaZ3W9d+HO5/m+2G5o7cP01h5OV8LDRTSl+BEznQdJvghMSgMWw==";
+        };
+        _QOluV8sb = {
+            "id" = "QOluV8sb";
+            "file" = "UniversalModCore-1.12.2-forge-1.3.1.jar";
+            "hash" = "sha512-EQBYCs8GCSu8B8FhVdYZExOC36qzC1ewtvpM1dbByGQrWx8pP7m9poqt2xe0iMMBYc1haOFif5bpZOjO0hGOVQ==";
+        };
+        _uHwm18D5 = {
+            "id" = "uHwm18D5";
+            "file" = "UniversalModCore-1.14.4-forge-1.3.1.jar";
+            "hash" = "sha512-em4jOpGM/Ypppo3fRSBsbBXGttmYL7FhTevAO8uZb/2/+dOkjUq9qtT/dJYzxKWh4ElWUjWMKiNsz9JJkXM5gg==";
+        };
+        _Vc5v8tKs = {
+            "id" = "Vc5v8tKs";
+            "file" = "UniversalModCore-1.15.2-forge-1.3.1.jar";
+            "hash" = "sha512-npnVfDZ6tQoWuwqswSHjnPnXYiSDXA1g3aUK/ePEmN+kJBlBL1VJXN5ZZ1YLE7F5jAo21asS1iCfUqI/6Gkbhw==";
+        };
+        _bKLMzqhr = {
+            "id" = "bKLMzqhr";
+            "file" = "UniversalModCore-1.16.5-forge-1.3.1.jar";
+            "hash" = "sha512-GU67muv6Ry91W6fXck9irYqGIt7V4zO9D0P/oRXWiwUqp96GcUn1ps4ATvvnHi+qxaZzb3VGZRWX1vk3UjKD8A==";
+        };
+        _uygB5DJr = {
+            "id" = "uygB5DJr";
+            "file" = "UniversalModCore-1.17.1-forge-1.3.1.jar";
+            "hash" = "sha512-jxamxKURQMiYrLw59q+SlsciRcemY4xyNKr5Icm0g9BGxMC9cuzc+SMwonzgwhT2ktr3cz2aXzlYTVlV01aJjA==";
+        };
+        _edo9avqZ = {
+            "id" = "edo9avqZ";
+            "file" = "UniversalModCore-1.18.2-forge-1.3.1.jar";
+            "hash" = "sha512-9pW305byoamOcJT0+ZFY2/yKtWiQ/7JaSWpbBjtE3KxCrhSlQ4O91Mw/Rps/+H9NGJUknpPbHpckUQZxtmW9aA==";
+        };
+        _UVjJUbaV = {
+            "id" = "UVjJUbaV";
+            "file" = "UniversalModCore-1.19.4-forge-1.3.1.jar";
+            "hash" = "sha512-+Ghz3RF4RF6BUNwTTtNKrLSkvVpFjlJDfrPd0/w+u8uqXNOGCMgg5vd3XzCaBU/XRpfvKbLdvikGjkAGn8d1ZA==";
+        };
+        _fIhVIbjp = {
+            "id" = "fIhVIbjp";
+            "file" = "UniversalModCore-1.20.1-forge-1.3.1.jar";
+            "hash" = "sha512-UqbkqWWjJGu1Ix4Pm0kFtffh+nqC5uqlrMPF/sqtjzrJRHdKMfB4/3/9GfJlvTb2M8qiZ3kupW29D/0Ss8QeYg==";
+        };
+        _3xG7dUKo = {
+            "id" = "3xG7dUKo";
+            "file" = "UniversalModCore-1.21.1-neoforge-1.3.1.jar";
+            "hash" = "sha512-Z9yjFevsj/Z7aTucCNr4IZ4UnkI0hzSTMLZBlVexgp/zVwyciGs8rR015nwrXG6vWMRmQJ0z7kgVcDOFR+nncg==";
+        };
+        _c9402z0y = {
+            "id" = "c9402z0y";
+            "file" = "UniversalModCore-1.21.4-neoforge-1.3.1.jar";
+            "hash" = "sha512-WDI02ATmPpqAmKNcreYTAgNPu53g2uDLZgXen0R+3WvjeQN45mAWV3Ej4iowm8StLj+1KTUBGv8nxneNzU1eTw==";
+        };
     in {
         "eYzwSGfg" = _eYzwSGfg;
         "L5sLVhv4" = _L5sLVhv4;
@@ -266,18 +331,32 @@ let
         "X8aYy99l" = _X8aYy99l;
         "tDARgIDJ" = _tDARgIDJ;
         "2epHUWmq" = _2epHUWmq;
-        "forge-1.12.2" = _ktHqwXTb;
-        "forge-1.7.10" = _tDARgIDJ;
-        "forge-1.10.2" = _2lNEjPps;
-        "forge-1.11.2" = _WXkaeAdV;
-        "forge-1.14.4" = _HqzA6K1G;
-        "forge-1.15.2" = _6DumYFHX;
-        "forge-1.16.5" = _jPodepB2;
-        "forge-1.17.1" = _dPcZItKU;
-        "forge-1.18.2" = _V0Ko2CPQ;
-        "forge-1.19.4" = _qGWwRTfm;
-        "forge-1.20.1" = _fReyyqrN;
-        "neoforge-1.21.1" = _2epHUWmq;
+        "VT15GqeF" = _VT15GqeF;
+        "QG0MaJGp" = _QG0MaJGp;
+        "WNLk8Jsw" = _WNLk8Jsw;
+        "QOluV8sb" = _QOluV8sb;
+        "uHwm18D5" = _uHwm18D5;
+        "Vc5v8tKs" = _Vc5v8tKs;
+        "bKLMzqhr" = _bKLMzqhr;
+        "uygB5DJr" = _uygB5DJr;
+        "edo9avqZ" = _edo9avqZ;
+        "UVjJUbaV" = _UVjJUbaV;
+        "fIhVIbjp" = _fIhVIbjp;
+        "3xG7dUKo" = _3xG7dUKo;
+        "c9402z0y" = _c9402z0y;
+        "forge-1.12.2" = _QOluV8sb;
+        "forge-1.7.10" = _VT15GqeF;
+        "forge-1.10.2" = _QG0MaJGp;
+        "forge-1.11.2" = _WNLk8Jsw;
+        "forge-1.14.4" = _uHwm18D5;
+        "forge-1.15.2" = _Vc5v8tKs;
+        "forge-1.16.5" = _bKLMzqhr;
+        "forge-1.17.1" = _uygB5DJr;
+        "forge-1.18.2" = _edo9avqZ;
+        "forge-1.19.4" = _UVjJUbaV;
+        "forge-1.20.1" = _fIhVIbjp;
+        "neoforge-1.21.1" = _3xG7dUKo;
+        "neoforge-1.21.4" = _c9402z0y;
         "pkg-1.1.4" = _eYzwSGfg;
         "pkg-1.7.10-forge-1.2.0" = _L5sLVhv4;
         "pkg-1.10.2-forge-1.2.0" = _m9ynPIOi;
@@ -322,7 +401,20 @@ let
         "pkg-1.7.10-forge-1.3.0-hotfix3" = _X8aYy99l;
         "pkg-1.7.10-forge-1.3.0-hotfix4" = _tDARgIDJ;
         "pkg-1.21.1-neoforge-1.3.0-hotfix5" = _2epHUWmq;
-        "default" = _2epHUWmq;
+        "pkg-1.7.10-forge-1.3.1" = _VT15GqeF;
+        "pkg-1.10.2-forge-1.3.1" = _QG0MaJGp;
+        "pkg-1.11.2-forge-1.3.1" = _WNLk8Jsw;
+        "pkg-1.12.2-forge-1.3.1" = _QOluV8sb;
+        "pkg-1.14.4-forge-1.3.1" = _uHwm18D5;
+        "pkg-1.15.2-forge-1.3.1" = _Vc5v8tKs;
+        "pkg-1.16.5-forge-1.3.1" = _bKLMzqhr;
+        "pkg-1.17.1-forge-1.3.1" = _uygB5DJr;
+        "pkg-1.18.2-forge-1.3.1" = _edo9avqZ;
+        "pkg-1.19.4-forge-1.3.1" = _UVjJUbaV;
+        "pkg-1.20.1-forge-1.3.1" = _fIhVIbjp;
+        "pkg-1.21.1-neoforge-1.3.1" = _3xG7dUKo;
+        "pkg-1.21.4-neoforge-1.3.1" = _c9402z0y;
+        "default" = _c9402z0y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "universal-mod-core";

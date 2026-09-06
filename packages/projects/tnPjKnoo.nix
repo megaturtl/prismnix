@@ -86,6 +86,11 @@ let
             "file" = "rpg-systems-1.0.9.jar";
             "hash" = "sha512-CJbAedIvmKc7wgsl4HZ401BMikEqViNWcUI9XQFePU2o0tzXUGqigJZp+g3rjIm6+52xo0B6QRpzuqLvuckV9Q==";
         };
+        _O6Fy1iDl = {
+            "id" = "O6Fy1iDl";
+            "file" = "rpg-systems-1.1.0.jar";
+            "hash" = "sha512-Z/BO5wAWQxrlBaKSbgA66253KOy5OIlpdKgby/Tl8bnN3BFp984jStY53sAY4AE38NbCGqcTP66pniK/FyEqhg==";
+        };
     in {
         "wt5O4oMe" = _wt5O4oMe;
         "JullsFb1" = _JullsFb1;
@@ -104,7 +109,8 @@ let
         "bAtv7rnL" = _bAtv7rnL;
         "pNHF2YaK" = _pNHF2YaK;
         "huuYIrjo" = _huuYIrjo;
-        "fabric-1.21.1" = _huuYIrjo;
+        "O6Fy1iDl" = _O6Fy1iDl;
+        "fabric-1.21.1" = _O6Fy1iDl;
         "pkg-1.0.0" = _wt5O4oMe;
         "pkg-1.0.1" = _JullsFb1;
         "pkg-1.0.1.1" = _4sJ4S71X;
@@ -122,7 +128,8 @@ let
         "pkg-1.0.7" = _bAtv7rnL;
         "pkg-1.0.8" = _pNHF2YaK;
         "pkg-1.0.9" = _huuYIrjo;
-        "default" = _huuYIrjo;
+        "pkg-1.1.0" = _O6Fy1iDl;
+        "default" = _O6Fy1iDl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rpg-systems";

@@ -426,6 +426,16 @@ let
             "file" = "DoggyTalentsNext-1.21.11-1.19.0-beta1.jar";
             "hash" = "sha512-/j8fE7b1pJ0Y0OWl37HQGY7vOI2gV7X2TXttehBw4WwpXh0INBqCcSUAGRUuwQ6euHD1MDZmTVaTLV6Sxe8twg==";
         };
+        _BKs2urib = {
+            "id" = "BKs2urib";
+            "file" = "DoggyTalentsNext-1.21.1-1.19.1.jar";
+            "hash" = "sha512-F9H3QwEVebgg3cMbeC5M4pKXLP3EFZlGQSKMSp2B4R0A0oJbPTb5MHnjIxzWCzWn9XchTZzlLbGx5haTNkGb2w==";
+        };
+        _zm04EBJK = {
+            "id" = "zm04EBJK";
+            "file" = "DoggyTalentsNext-1.20.1-1.19.1.jar";
+            "hash" = "sha512-+hhplpD6GztE+CbhqxebfjQaXSJIPWF51ApDk8881hyiYpV/SCH1C553gn1G0LWugSK3N/0+l2paKrboNsl92g==";
+        };
     in {
         "CtMY2FRi" = _CtMY2FRi;
         "bzwxw3Mm" = _bzwxw3Mm;
@@ -512,10 +522,12 @@ let
         "8LjqL5fH" = _8LjqL5fH;
         "HqnbVXiN" = _HqnbVXiN;
         "2UxI896v" = _2UxI896v;
-        "forge-1.20.1" = _HqnbVXiN;
+        "BKs2urib" = _BKs2urib;
+        "zm04EBJK" = _zm04EBJK;
+        "forge-1.20.1" = _zm04EBJK;
         "forge-1.19.2" = _eavaasr6;
         "forge-1.18.2" = _s7FUpCNJ;
-        "forge-1.20" = _HqnbVXiN;
+        "forge-1.20" = _zm04EBJK;
         "forge-1.20.2" = _gElalwuY;
         "fabric-1.20" = _kppF1yGv;
         "fabric-1.20.1" = _kppF1yGv;
@@ -525,8 +537,8 @@ let
         "fabric-1.21.5" = _fM6jsoKi;
         "fabric-1.21.10" = _xiOU9UEU;
         "neoforge-1.20.6" = _F8l5T5RX;
-        "neoforge-1.21" = _8LjqL5fH;
-        "neoforge-1.21.1" = _8LjqL5fH;
+        "neoforge-1.21" = _BKs2urib;
+        "neoforge-1.21.1" = _BKs2urib;
         "neoforge-1.20" = _bnoAnrbz;
         "neoforge-1.20.1" = _bnoAnrbz;
         "neoforge-1.21.9" = _QBPGz3no;
@@ -562,7 +574,8 @@ let
         "pkg-1.18.64-beta1" = _7JUM7c5I;
         "pkg-1.19.0-beta1" = _2UxI896v;
         "pkg-1.19.0" = _HqnbVXiN;
-        "default" = _2UxI896v;
+        "pkg-1.19.1" = _zm04EBJK;
+        "default" = _zm04EBJK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "doggy-talents-next";

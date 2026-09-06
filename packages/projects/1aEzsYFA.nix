@@ -151,6 +151,56 @@ let
             "file" = "essentialpatcher-26.1.2-Fabric-1.0.7.jar";
             "hash" = "sha512-t9++ggXknf3Wb/RwokDConN2B+4A1W0fiLtwPRowf7bHmBvucNjwPvJni7y1+zYc8TQi5PMp6NqNNzlgLt0+lQ==";
         };
+        _gTfxGgHs = {
+            "id" = "gTfxGgHs";
+            "file" = "essentialpatcher-1.19.2-Fabric-1.0.8.jar";
+            "hash" = "sha512-BixX54gcVj1WHKNScLInM8MaAC6Xz2GFA6veZV6gzZIgctdDfxYcH6HF+nJgYhXeU1A6OMXx1FRT0/GppO7G+Q==";
+        };
+        _rs70sEHN = {
+            "id" = "rs70sEHN";
+            "file" = "essentialpatcher-1.19.2-Forge-1.0.8.jar";
+            "hash" = "sha512-qMXSZcNbRZFxHfeCpEXBGginAy/LBHRzA36/SrtaTDKzns4o04v7TJogDOXHz29cXPbu2Hj46OJp5PGJVb8tCQ==";
+        };
+        _IA0oEkEa = {
+            "id" = "IA0oEkEa";
+            "file" = "essentialpatcher-1.20.1-Fabric-1.0.8.jar";
+            "hash" = "sha512-QAFz0UzZXoCaO7LjAAvn/Wj7q82nIopGgPTDaIqxX5RzVMhmIjIqpyzMqKLNy3x1ezk9dnMViufV3JUx6iww3w==";
+        };
+        _rJASNJNJ = {
+            "id" = "rJASNJNJ";
+            "file" = "essentialpatcher-1.20.1-Forge-1.0.8.jar";
+            "hash" = "sha512-p6H9Kw8+sEEDh1gTaVuy1ml6xQcKNfRKtUA0M3h9SpO6rNavlt+D+yS5d9zU426kHmTZpA5V6tTulTvdBTlUFA==";
+        };
+        _gSqp0CcX = {
+            "id" = "gSqp0CcX";
+            "file" = "essentialpatcher-1.21.1-Fabric-1.0.8.jar";
+            "hash" = "sha512-KGxwpAszF39CE6/M5mAqKDvH8L9kkIuZ100k/gTBb5PQaZ4uQR8AWYvBQiYyd5IwrzjNnWpWIoTkhBM+VsHANw==";
+        };
+        _VIrVhDNv = {
+            "id" = "VIrVhDNv";
+            "file" = "essentialpatcher-1.21.1-NeoForge-1.0.8.jar";
+            "hash" = "sha512-APyUNQEXT0lTp9yvVllt7X2j3k+CILJ9UNsWGyOIKFQPYUWBq05ooBECJFxmIo8PpkEwroika1mL4rdS6xQasA==";
+        };
+        _pBCRMO5t = {
+            "id" = "pBCRMO5t";
+            "file" = "essentialpatcher-1.21.11-Fabric-1.0.8.jar";
+            "hash" = "sha512-PJ8IuAn+xJdRGXC2+vS8sCv9XkmkFWSzoG6Da9UrnOw5n9XhqN/fJkUs6cT59ILprwLC6xwOQjzXiJH5FPtjJg==";
+        };
+        _bkFp8c5f = {
+            "id" = "bkFp8c5f";
+            "file" = "essentialpatcher-1.21.2-Fabric-1.0.8.jar";
+            "hash" = "sha512-7vImcf4i01Wn9xUN4cK58mAZwsK4834ivbZUfy+pzHjQo+ovEJnkJjwhqRwRKnOKhZtmlQfx4Rt1NUIzPMLSOA==";
+        };
+        _M36rqeGv = {
+            "id" = "M36rqeGv";
+            "file" = "essentialpatcher-1.21.9-Fabric-1.0.8.jar";
+            "hash" = "sha512-ya1xEtj7gLLC5VTOSbt/ecTFgd6xReGJhV6LJgRvNloBVyLkQX5k9hmf0qjlnhrd+61C0Qo6LnfvMPdOxbcQsQ==";
+        };
+        _h8iFkQMS = {
+            "id" = "h8iFkQMS";
+            "file" = "essentialpatcher-26.1.2-Fabric-1.0.8.jar";
+            "hash" = "sha512-6ndQ4tpQ08oFtU5lrqbvBZWpfWSxVIyoJXEuuM14k1DA8NE3LtIXYFYvcO1szSr6NFsJ3YdrfFaZGxfUpOb+LA==";
+        };
     in {
         "7cxS02WG" = _7cxS02WG;
         "kl57maAk" = _kl57maAk;
@@ -182,20 +232,33 @@ let
         "olCx52oQ" = _olCx52oQ;
         "jxVSSatR" = _jxVSSatR;
         "eddBuhqr" = _eddBuhqr;
-        "fabric-26.1.2" = _eddBuhqr;
-        "fabric-1.21.11" = _P6zrt7XN;
-        "fabric-1.21.1" = _mTjZfUtH;
-        "fabric-1.20.1" = _pCMQQsRm;
-        "fabric-1.21.2" = _olCx52oQ;
-        "fabric-1.21.9" = _jxVSSatR;
-        "fabric-26.2" = _eddBuhqr;
-        "neoforge-1.21.1" = _bO9Z1WaD;
-        "forge-1.20.1" = _MSAQxa1y;
+        "gTfxGgHs" = _gTfxGgHs;
+        "rs70sEHN" = _rs70sEHN;
+        "IA0oEkEa" = _IA0oEkEa;
+        "rJASNJNJ" = _rJASNJNJ;
+        "gSqp0CcX" = _gSqp0CcX;
+        "VIrVhDNv" = _VIrVhDNv;
+        "pBCRMO5t" = _pBCRMO5t;
+        "bkFp8c5f" = _bkFp8c5f;
+        "M36rqeGv" = _M36rqeGv;
+        "h8iFkQMS" = _h8iFkQMS;
+        "fabric-26.1.2" = _h8iFkQMS;
+        "fabric-1.21.11" = _pBCRMO5t;
+        "fabric-1.21.1" = _gSqp0CcX;
+        "fabric-1.20.1" = _IA0oEkEa;
+        "fabric-1.21.2" = _bkFp8c5f;
+        "fabric-1.21.9" = _M36rqeGv;
+        "fabric-26.2" = _h8iFkQMS;
+        "fabric-1.19.2" = _gTfxGgHs;
+        "neoforge-1.21.1" = _VIrVhDNv;
+        "forge-1.20.1" = _rJASNJNJ;
+        "forge-1.19.2" = _rs70sEHN;
         "pkg-1.0.3" = _64cDxdOE;
         "pkg-1.0.5" = _z4JaBIXT;
         "pkg-1.0.6" = _dtrXKReJ;
         "pkg-1.0.7" = _eddBuhqr;
-        "default" = _eddBuhqr;
+        "pkg-1.0.8" = _h8iFkQMS;
+        "default" = _h8iFkQMS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "essential-patcher";

@@ -210,6 +210,7 @@ let
         "fabric-26.1" = _rFijEPQw;
         "fabric-26.1.1" = _rFijEPQw;
         "fabric-26.1.2" = _rFijEPQw;
+        "fabric-26.2" = _rFijEPQw;
         "forge-1.18.1" = _giIcUl6Q;
         "forge-1.18.2" = _giIcUl6Q;
         "forge-1.19" = _giIcUl6Q;

@@ -31,6 +31,11 @@ let
             "file" = "tconplanner-1.20.1-forge-1.7.1.jar";
             "hash" = "sha512-dejxr9JMjQDCJdZ7e8WLg7AO+UdaNMwNNyJj2MqkbfaajuDRIC4vifCULoFg292WWTtAdfw24G4ecNIiWdnEQg==";
         };
+        _qnMoOYnz = {
+            "id" = "qnMoOYnz";
+            "file" = "TconPlanner-1.20.1-forge-1.8.0.jar";
+            "hash" = "sha512-Wc2k7dI9RuVx/MwIzSmWyZOEQmELpOy1d5yibToERaqHWJFEsXfeTvsYFCXpb3uhI+AR2gYnPzL0Rtx6pGfLrQ==";
+        };
     in {
         "sR1gDjxE" = _sR1gDjxE;
         "e6U0IXMg" = _e6U0IXMg;
@@ -38,16 +43,18 @@ let
         "35SewAT6" = _35SewAT6;
         "oruj2gUh" = _oruj2gUh;
         "cEVSooG5" = _cEVSooG5;
+        "qnMoOYnz" = _qnMoOYnz;
         "forge-1.19.2" = _oruj2gUh;
-        "forge-1.20.1" = _cEVSooG5;
-        "neoforge-1.20.1" = _e6U0IXMg;
+        "forge-1.20.1" = _qnMoOYnz;
+        "neoforge-1.20.1" = _qnMoOYnz;
         "pkg-1.2.0" = _sR1gDjxE;
         "pkg-1.3" = _e6U0IXMg;
         "pkg-1.5.0" = _Jjv4KNiu;
         "pkg-1.7" = _35SewAT6;
         "pkg-1.6" = _oruj2gUh;
         "pkg-1.7.1" = _cEVSooG5;
-        "default" = _cEVSooG5;
+        "pkg-1.8.0" = _qnMoOYnz;
+        "default" = _qnMoOYnz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tinkers-planner-reborn";

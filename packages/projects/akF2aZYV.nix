@@ -106,6 +106,21 @@ let
             "file" = "Cobweb Outline.zip";
             "hash" = "sha512-okV/mRF0+yFH/v6pm0tFsBD17L5jJByIlAAnQvyLxDNRBbOFCB1mgYQknRHbfK/ATP44UVHf9Ye5MH4cLXhfLw==";
         };
+        _Mfaof7FJ = {
+            "id" = "Mfaof7FJ";
+            "file" = "Cobweb Outline.zip";
+            "hash" = "sha512-F3W95KURKmoxEwXRYh2mKV0jzIn1N9B4/FD1CQnWsh4NfK258AYSPmYV9RKrdfZdF61KEtwlcYMSe1cNnMF0Hg==";
+        };
+        _BbLdK6ne = {
+            "id" = "BbLdK6ne";
+            "file" = "Cobweb Outline.zip";
+            "hash" = "sha512-F3W95KURKmoxEwXRYh2mKV0jzIn1N9B4/FD1CQnWsh4NfK258AYSPmYV9RKrdfZdF61KEtwlcYMSe1cNnMF0Hg==";
+        };
+        _3tEna9wn = {
+            "id" = "3tEna9wn";
+            "file" = "Cobweb Outline.zip";
+            "hash" = "sha512-F3W95KURKmoxEwXRYh2mKV0jzIn1N9B4/FD1CQnWsh4NfK258AYSPmYV9RKrdfZdF61KEtwlcYMSe1cNnMF0Hg==";
+        };
     in {
         "nzKaGn0h" = _nzKaGn0h;
         "GqLacqjY" = _GqLacqjY;
@@ -128,6 +143,9 @@ let
         "HHCv01KR" = _HHCv01KR;
         "68x940m3" = _68x940m3;
         "gl3eGhBL" = _gl3eGhBL;
+        "Mfaof7FJ" = _Mfaof7FJ;
+        "BbLdK6ne" = _BbLdK6ne;
+        "3tEna9wn" = _3tEna9wn;
         "minecraft-1.19" = _nzKaGn0h;
         "minecraft-1.19.1" = _GqLacqjY;
         "minecraft-1.19.2" = _GqLacqjY;
@@ -140,18 +158,18 @@ let
         "minecraft-1.20.4" = _2WzmpetA;
         "minecraft-1.20.5" = _2WzmpetA;
         "minecraft-1.20.6" = _QsSiZsU4;
-        "minecraft-1.21" = _68x940m3;
-        "minecraft-1.21.1" = _68x940m3;
-        "minecraft-1.21.2" = _68x940m3;
-        "minecraft-1.21.3" = _68x940m3;
-        "minecraft-1.21.4" = _68x940m3;
-        "minecraft-1.21.5" = _68x940m3;
-        "minecraft-1.21.6" = _68x940m3;
-        "minecraft-1.21.7" = _68x940m3;
-        "minecraft-1.21.8" = _68x940m3;
-        "minecraft-1.21.9" = _68x940m3;
-        "minecraft-1.21.10" = _68x940m3;
-        "minecraft-1.21.11" = _68x940m3;
+        "minecraft-1.21" = _Mfaof7FJ;
+        "minecraft-1.21.1" = _Mfaof7FJ;
+        "minecraft-1.21.2" = _Mfaof7FJ;
+        "minecraft-1.21.3" = _Mfaof7FJ;
+        "minecraft-1.21.4" = _Mfaof7FJ;
+        "minecraft-1.21.5" = _Mfaof7FJ;
+        "minecraft-1.21.6" = _Mfaof7FJ;
+        "minecraft-1.21.7" = _Mfaof7FJ;
+        "minecraft-1.21.8" = _Mfaof7FJ;
+        "minecraft-1.21.9" = _Mfaof7FJ;
+        "minecraft-1.21.10" = _Mfaof7FJ;
+        "minecraft-1.21.11" = _Mfaof7FJ;
         "minecraft-26.1-snapshot-1" = _JMUvs2Sp;
         "minecraft-26.1-snapshot-2" = _JMUvs2Sp;
         "minecraft-26.1-snapshot-3" = _JMUvs2Sp;
@@ -161,10 +179,10 @@ let
         "minecraft-26.1-snapshot-7" = _JMUvs2Sp;
         "minecraft-26.1-snapshot-8" = _JMUvs2Sp;
         "minecraft-26.1-snapshot-9" = _JMUvs2Sp;
-        "minecraft-26.1" = _NjEGJjII;
-        "minecraft-26.1.1" = _DwNgDNCV;
-        "minecraft-26.1.2" = _s44YNB9q;
-        "minecraft-26.2" = _gl3eGhBL;
+        "minecraft-26.1" = _BbLdK6ne;
+        "minecraft-26.1.1" = _BbLdK6ne;
+        "minecraft-26.1.2" = _BbLdK6ne;
+        "minecraft-26.2" = _3tEna9wn;
         "pkg-1.19" = _nzKaGn0h;
         "pkg-1.19.1-1.19.2" = _GqLacqjY;
         "pkg-1.19.3-1.19.4" = _w8ZNVjwr;
@@ -183,9 +201,10 @@ let
         "pkg-26.1" = _NjEGJjII;
         "pkg-26.1.1" = _DwNgDNCV;
         "pkg-26.1.2" = _s44YNB9q;
-        "pkg-1.21-1.21.11" = _68x940m3;
-        "pkg-26.2" = _gl3eGhBL;
-        "default" = _gl3eGhBL;
+        "pkg-1.21-1.21.11" = _Mfaof7FJ;
+        "pkg-26.2" = _3tEna9wn;
+        "pkg-26.1-26.1.2" = _BbLdK6ne;
+        "default" = _3tEna9wn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobweb-outline";

@@ -16,10 +16,16 @@ let
             "file" = "xaero世界地图汉化v3.zip";
             "hash" = "sha512-quduN747608qhRLEqYKyP0V294tdPzX/tgB67KgGHSM2OzayvEzZwMJkBEJuc5FvzQzfZHnd7WTJXePqfcjI3w==";
         };
+        _MDNlCZL4 = {
+            "id" = "MDNlCZL4";
+            "file" = "xaero世界地图汉化v4.zip";
+            "hash" = "sha512-daH2Mwg7AuY7+YDBedLmZWWFffcUqabJIrov2u185MvItWdu5GkI1GiUpTrlvuiiNRl3oHGmQyzccVFerR9Okw==";
+        };
     in {
         "QKYEYIqt" = _QKYEYIqt;
         "PiMn3jL3" = _PiMn3jL3;
         "U5K4MXpp" = _U5K4MXpp;
+        "MDNlCZL4" = _MDNlCZL4;
         "minecraft-1.20" = _QKYEYIqt;
         "minecraft-1.20.1" = _QKYEYIqt;
         "minecraft-1.20.2" = _QKYEYIqt;
@@ -27,16 +33,16 @@ let
         "minecraft-1.20.4" = _QKYEYIqt;
         "minecraft-1.20.5" = _QKYEYIqt;
         "minecraft-1.20.6" = _QKYEYIqt;
-        "minecraft-1.21" = _U5K4MXpp;
-        "minecraft-1.21.1" = _U5K4MXpp;
-        "minecraft-1.21.2" = _U5K4MXpp;
-        "minecraft-1.21.3" = _U5K4MXpp;
-        "minecraft-1.21.4" = _U5K4MXpp;
-        "minecraft-1.21.5" = _U5K4MXpp;
-        "minecraft-1.21.6" = _U5K4MXpp;
-        "minecraft-1.21.7" = _U5K4MXpp;
-        "minecraft-1.21.8" = _U5K4MXpp;
-        "minecraft-1.21.9" = _U5K4MXpp;
+        "minecraft-1.21" = _MDNlCZL4;
+        "minecraft-1.21.1" = _MDNlCZL4;
+        "minecraft-1.21.2" = _MDNlCZL4;
+        "minecraft-1.21.3" = _MDNlCZL4;
+        "minecraft-1.21.4" = _MDNlCZL4;
+        "minecraft-1.21.5" = _MDNlCZL4;
+        "minecraft-1.21.6" = _MDNlCZL4;
+        "minecraft-1.21.7" = _MDNlCZL4;
+        "minecraft-1.21.8" = _MDNlCZL4;
+        "minecraft-1.21.9" = _MDNlCZL4;
         "minecraft-24w33a" = _PiMn3jL3;
         "minecraft-24w34a" = _PiMn3jL3;
         "minecraft-24w35a" = _PiMn3jL3;
@@ -50,15 +56,17 @@ let
         "minecraft-24w44a" = _PiMn3jL3;
         "minecraft-24w45a" = _PiMn3jL3;
         "minecraft-24w46a" = _PiMn3jL3;
-        "minecraft-1.21.10" = _U5K4MXpp;
-        "minecraft-1.21.11" = _U5K4MXpp;
-        "minecraft-26.1" = _U5K4MXpp;
-        "minecraft-26.1.1" = _U5K4MXpp;
-        "minecraft-26.1.2" = _U5K4MXpp;
+        "minecraft-1.21.10" = _MDNlCZL4;
+        "minecraft-1.21.11" = _MDNlCZL4;
+        "minecraft-26.1" = _MDNlCZL4;
+        "minecraft-26.1.1" = _MDNlCZL4;
+        "minecraft-26.1.2" = _MDNlCZL4;
+        "minecraft-26.2" = _MDNlCZL4;
         "pkg-1.0" = _QKYEYIqt;
         "pkg-v2" = _PiMn3jL3;
         "pkg-v3" = _U5K4MXpp;
-        "default" = _U5K4MXpp;
+        "pkg-V4" = _MDNlCZL4;
+        "default" = _MDNlCZL4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xaero-cn";

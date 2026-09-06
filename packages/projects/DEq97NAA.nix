@@ -436,6 +436,21 @@ let
             "file" = "infinity-cave-0.91-fabric.jar";
             "hash" = "sha512-gZuQwrnoM2bMIhT7y6yTbIiWb0JUUMEPs6SetmxFDP1Bcss43wp6Dgk58LLKtr3GS8qM9Ba2wBV+xaeDRiR+Ug==";
         };
+        _BmUcgOYH = {
+            "id" = "BmUcgOYH";
+            "file" = "infinity-cave-0.92.zip";
+            "hash" = "sha512-Vpa4KJE3yIoc83CjCbIfu8eB/4MYA0KbHPXFTI9lMVMV873Fd91q/XaszJeawqPzzzPUB7L0uT3zy0Brg+jhiA==";
+        };
+        _JfWqMWQT = {
+            "id" = "JfWqMWQT";
+            "file" = "infinity-cave-0.92-fabric.jar";
+            "hash" = "sha512-26+JnWnSkuuO7ZOm3vmzb505wE38lxJe5BWUJm/n0QWMpdh19mNCfRBMr100XoWtYGOM1u2fG9MaVhRMsw8WCQ==";
+        };
+        _By3LtoHn = {
+            "id" = "By3LtoHn";
+            "file" = "infinity-cave-0.92-neoforge.jar";
+            "hash" = "sha512-gWwnj/SZTBox0RTZQ88uQd4auGBIzVbMAdaObDC01lmXnJGY17LC/zAgsUOZyg2RiH7TLEQB4LHUPl19GEJNhw==";
+        };
     in {
         "aEmqvKBT" = _aEmqvKBT;
         "bGQrsaAM" = _bGQrsaAM;
@@ -524,6 +539,9 @@ let
         "cSm5YE12" = _cSm5YE12;
         "EemyC8sp" = _EemyC8sp;
         "IdRYsMDb" = _IdRYsMDb;
+        "BmUcgOYH" = _BmUcgOYH;
+        "JfWqMWQT" = _JfWqMWQT;
+        "By3LtoHn" = _By3LtoHn;
         "fabric-1.20.2" = _nBxoemwa;
         "fabric-1.20.3" = _nBxoemwa;
         "fabric-1.20.4" = _nBxoemwa;
@@ -541,7 +559,7 @@ let
         "fabric-1.21.10" = _It1yJEBV;
         "fabric-1.21.11" = _YZmbXtlW;
         "fabric-26.1.2" = _Mvhdb2rm;
-        "fabric-26.2" = _IdRYsMDb;
+        "fabric-26.2" = _JfWqMWQT;
         "forge-1.20.2" = _In1Np0qF;
         "forge-1.20.3" = _In1Np0qF;
         "forge-1.20.4" = _In1Np0qF;
@@ -567,7 +585,7 @@ let
         "datapack-1.21.10" = _zNuRC9xl;
         "datapack-1.21.11" = _SG5m7xDq;
         "datapack-26.1.2" = _bfcURQJu;
-        "datapack-26.2" = _cSm5YE12;
+        "datapack-26.2" = _BmUcgOYH;
         "neoforge-1.20.2" = _sVNkitX0;
         "neoforge-1.20.3" = _sVNkitX0;
         "neoforge-1.20.4" = _sVNkitX0;
@@ -582,7 +600,7 @@ let
         "neoforge-1.21.10" = _NP7GhxTP;
         "neoforge-1.21.11" = _m4XH5wuk;
         "neoforge-26.1.2" = _cQu1liPX;
-        "neoforge-26.2" = _EemyC8sp;
+        "neoforge-26.2" = _By3LtoHn;
         "pkg-0.1" = _bGQrsaAM;
         "pkg-0.11" = _20ZV87hw;
         "pkg-0.2" = _AEMUwMCT;
@@ -612,7 +630,8 @@ let
         "pkg-0.88.2" = _m4XH5wuk;
         "pkg-0.9" = _bfcURQJu;
         "pkg-0.91" = _IdRYsMDb;
-        "default" = _IdRYsMDb;
+        "pkg-0.92" = _By3LtoHn;
+        "default" = _By3LtoHn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "infinity-cave";

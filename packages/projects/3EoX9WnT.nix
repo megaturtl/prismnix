@@ -11,18 +11,25 @@ let
             "file" = "DEWON-TGV_Duplex_PBKA_1.1.zip";
             "hash" = "sha512-HzSXblQ5870MzBv+Dt/fKmZF3f7wDBQM/PMpgTjZIc1ie6Gq/Mqx0K1wAhi/yX4/aMsVQUAVV9C0fNRF6tU1Dw==";
         };
+        _jDkqeOjF = {
+            "id" = "jDkqeOjF";
+            "file" = "DEWON-TGV_Duplex_PBKA_2.0.zip";
+            "hash" = "sha512-y1bS2NfuGo9CqpOyKR9i1IsTz5B6OukCs8FUQgnnVkx5dLbO2Fit/5ip7rlTHoSyVHJPpI26WiUfnAWjV8y/HQ==";
+        };
     in {
         "YaFjp3Vb" = _YaFjp3Vb;
         "d3mN588n" = _d3mN588n;
-        "minecraft-1.17.1" = _d3mN588n;
-        "minecraft-1.18.2" = _d3mN588n;
-        "minecraft-1.19.2" = _d3mN588n;
-        "minecraft-1.19.4" = _d3mN588n;
-        "minecraft-1.20.1" = _d3mN588n;
-        "minecraft-1.20.4" = _d3mN588n;
+        "jDkqeOjF" = _jDkqeOjF;
+        "minecraft-1.17.1" = _jDkqeOjF;
+        "minecraft-1.18.2" = _jDkqeOjF;
+        "minecraft-1.19.2" = _jDkqeOjF;
+        "minecraft-1.19.4" = _jDkqeOjF;
+        "minecraft-1.20.1" = _jDkqeOjF;
+        "minecraft-1.20.4" = _jDkqeOjF;
         "pkg-1.0-mtr4" = _YaFjp3Vb;
         "pkg-1.1-mtr4" = _d3mN588n;
-        "default" = _d3mN588n;
+        "pkg-2.0-MTR4" = _jDkqeOjF;
+        "default" = _jDkqeOjF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mtr-tgv-duplex";

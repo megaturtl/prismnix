@@ -111,6 +111,21 @@ let
             "file" = "raspberry_core-1.10.1+1.19.2.jar";
             "hash" = "sha512-4bQKFqhWCbzdeRSg36o7T8y+2gaZ2NIQ/guWHE0GDyUTNrv3vDE5hzf18ty3dxYb0q/miUEDZ5kh+VrNvhGmbA==";
         };
+        _AXSnzmF0 = {
+            "id" = "AXSnzmF0";
+            "file" = "raspberry_core-1.11+1.19.2.jar";
+            "hash" = "sha512-bThoaDCs3oJ9VGygiVSAmdeWFz5Gwy8ye0DE6njFvhARzgb0NpH1WlXRYYaY3vqZ1XDJ+ltdsl2kOga3y/smaQ==";
+        };
+        _Hx7vBDoJ = {
+            "id" = "Hx7vBDoJ";
+            "file" = "raspberry_core-1.11+1.20.1.jar";
+            "hash" = "sha512-/uceh8wFytdEbC1ed/GvDTohQL6G6anAmuL3QXNfEb7RXdnehGeHSMAPexNaZ7PIYxholeDoiVb3A+FPT6NTOQ==";
+        };
+        _sHhsln0I = {
+            "id" = "sHhsln0I";
+            "file" = "raspberry_core-1.11.1+1.19.2.jar";
+            "hash" = "sha512-rDLPoZL68tXkPOinRAqlnPJJELSyNKDONXCjDxwH2Vj+DV5wgwn1pAEu3c3OobcFXX5U9sI9oniJGDZZW1bQZw==";
+        };
     in {
         "S9NdrIxc" = _S9NdrIxc;
         "E0ufOz4a" = _E0ufOz4a;
@@ -134,8 +149,11 @@ let
         "CkSt7WpY" = _CkSt7WpY;
         "XGWrsQTs" = _XGWrsQTs;
         "lYV0yZGU" = _lYV0yZGU;
-        "forge-1.19.2" = _lYV0yZGU;
-        "forge-1.20.1" = _CkSt7WpY;
+        "AXSnzmF0" = _AXSnzmF0;
+        "Hx7vBDoJ" = _Hx7vBDoJ;
+        "sHhsln0I" = _sHhsln0I;
+        "forge-1.19.2" = _sHhsln0I;
+        "forge-1.20.1" = _Hx7vBDoJ;
         "pkg-0.1.4" = _S9NdrIxc;
         "pkg-0.1.10" = _E0ufOz4a;
         "pkg-0.1.11" = _snoc5SGM;
@@ -158,7 +176,10 @@ let
         "pkg-1.9+1.20.1" = _CkSt7WpY;
         "pkg-1.10+1.19.2" = _XGWrsQTs;
         "pkg-1.10.1+1.19.2" = _lYV0yZGU;
-        "default" = _lYV0yZGU;
+        "pkg-1.11+1.19.2" = _AXSnzmF0;
+        "pkg-1.11+1.20.1" = _Hx7vBDoJ;
+        "pkg-1.11.1+1.19.2" = _sHhsln0I;
+        "default" = _sHhsln0I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "raspberry-core";

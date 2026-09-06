@@ -41,6 +41,11 @@ let
             "file" = "Painted Pixels Pack 26.2 M12.zip";
             "hash" = "sha512-ry9btScmi6To2judv2Gyfp1+l7ybbd7j7wlvaWqtUs58r8WKP7/Ei8MAN++zGV9MAPV/IXb/G5v2Mcvb77yGOQ==";
         };
+        _dQrBSw7H = {
+            "id" = "dQrBSw7H";
+            "file" = "Painted Pixels Pack 26.2 M13.zip";
+            "hash" = "sha512-jH9FptwdjegGMyoQqSbubAzoh4KwNJRuL0I9MLGJlaAC9NNM/ydOjMqPKhAI9mDSmTKc5V2QXSSH8Fh+avNDxA==";
+        };
     in {
         "MIbCVUpr" = _MIbCVUpr;
         "E1QFg2mI" = _E1QFg2mI;
@@ -50,12 +55,13 @@ let
         "IxLHTpov" = _IxLHTpov;
         "8vNUxh7S" = _8vNUxh7S;
         "KIFk01iA" = _KIFk01iA;
+        "dQrBSw7H" = _dQrBSw7H;
         "minecraft-1.21.10" = _E1QFg2mI;
         "minecraft-1.21.11" = _Cclkoylj;
         "minecraft-26.1" = _IxLHTpov;
         "minecraft-26.1.1" = _IxLHTpov;
         "minecraft-26.1.2" = _IxLHTpov;
-        "minecraft-26.2" = _KIFk01iA;
+        "minecraft-26.2" = _dQrBSw7H;
         "pkg-2" = _MIbCVUpr;
         "pkg-3" = _E1QFg2mI;
         "pkg-4" = _Cclkoylj;
@@ -64,7 +70,8 @@ let
         "pkg-10" = _IxLHTpov;
         "pkg-11" = _8vNUxh7S;
         "pkg-12" = _KIFk01iA;
-        "default" = _KIFk01iA;
+        "pkg-13" = _dQrBSw7H;
+        "default" = _dQrBSw7H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "painted-pixels-pack";

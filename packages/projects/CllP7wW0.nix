@@ -431,6 +431,21 @@ let
             "file" = "smoothscroll-2.9.0.jar";
             "hash" = "sha512-PpC1c7jdQyGur20pU6O1G/xBGf+A8astWTm8b1pWT2CA6v42Y5BJdu5fakN26DgRUSGD9uLgjT41vuRiOZo5ag==";
         };
+        _CWq4tssQ = {
+            "id" = "CWq4tssQ";
+            "file" = "smoothscroll-2.9.1.jar";
+            "hash" = "sha512-Nj2gLVlFV/4xFfpu8xzAcPJQb6Bx7hwtAy79fBt32lnPNts+93O/M6R17fN1G+ncl+XmO9Eh6ZuMyfuscfnFcg==";
+        };
+        _PLF6iAzh = {
+            "id" = "PLF6iAzh";
+            "file" = "smoothscroll-2.9.2.jar";
+            "hash" = "sha512-uI4vN6H+MOzQviEVaGJYR3ZeRWGuKbumuBdFAvUd5Muj2RTYgJ7kuHyj5JIBYTNW8AZduu6ftC/T+AyUFsQyCQ==";
+        };
+        _3h8tO1X1 = {
+            "id" = "3h8tO1X1";
+            "file" = "smoothscroll-3.0.0-beta.1.jar";
+            "hash" = "sha512-k8x3RHGIHsx6fJJ0dTvisacqAIpU/A2Yg7oMc+zuteNmk/80Kez9WaFINocL0bbYkZUDMMATOE3uEF04kYvI9Q==";
+        };
     in {
         "9MgO8UID" = _9MgO8UID;
         "4i7CPdKx" = _4i7CPdKx;
@@ -518,6 +533,9 @@ let
         "OVornAB5" = _OVornAB5;
         "dLYYgSFy" = _dLYYgSFy;
         "UnyB1ePl" = _UnyB1ePl;
+        "CWq4tssQ" = _CWq4tssQ;
+        "PLF6iAzh" = _PLF6iAzh;
+        "3h8tO1X1" = _3h8tO1X1;
         "fabric-1.20.1" = _wxv3N1CR;
         "fabric-1.20.2" = _PKx47WfY;
         "fabric-1.20.3" = _SD7qm6Aq;
@@ -539,7 +557,8 @@ let
         "fabric-26.1" = _dLYYgSFy;
         "fabric-26.1.1" = _dLYYgSFy;
         "fabric-26.1.2" = _dLYYgSFy;
-        "fabric-26.2" = _UnyB1ePl;
+        "fabric-26.2" = _PLF6iAzh;
+        "fabric-26.3-snapshot-9" = _3h8tO1X1;
         "quilt-1.20.1" = _wxv3N1CR;
         "quilt-1.20.2" = _PKx47WfY;
         "quilt-1.20.3" = _SD7qm6Aq;
@@ -561,7 +580,8 @@ let
         "quilt-26.1" = _dLYYgSFy;
         "quilt-26.1.1" = _dLYYgSFy;
         "quilt-26.1.2" = _dLYYgSFy;
-        "quilt-26.2" = _UnyB1ePl;
+        "quilt-26.2" = _PLF6iAzh;
+        "quilt-26.3-snapshot-9" = _3h8tO1X1;
         "pkg-1.4.0" = _9MgO8UID;
         "pkg-1.4.1" = _4i7CPdKx;
         "pkg-1.5.0" = _jo5rtg4w;
@@ -620,7 +640,10 @@ let
         "pkg-2.6.7" = _OVornAB5;
         "pkg-2.8.1" = _dLYYgSFy;
         "pkg-2.9.0" = _UnyB1ePl;
-        "default" = _UnyB1ePl;
+        "pkg-2.9.1" = _CWq4tssQ;
+        "pkg-2.9.2" = _PLF6iAzh;
+        "pkg-3.0.0-beta.1" = _3h8tO1X1;
+        "default" = _3h8tO1X1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smooth-scroll";

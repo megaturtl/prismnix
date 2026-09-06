@@ -81,6 +81,16 @@ let
             "file" = "Skyblock Dark UI 1.16 for 1.21.11+.zip";
             "hash" = "sha512-+lk7uHh9A+xRoomHvOtXZzHQkOd8WouEZoD37kHSSEyH4chTmOuCQKt/hmpV90EBntXoqb6BpfpEmC/QZroVqQ==";
         };
+        _3itLYYuc = {
+            "id" = "3itLYYuc";
+            "file" = "Skyblock Dark UI 1.17 for 1.21.11+.zip";
+            "hash" = "sha512-CFZJJqCeORQkJ1Hmou2/cj8rMCW+wRQjcC3g2sVdHgoBH7Uuf7C2G93sKAcAfAIMT+0g8inD79oScCg0HJxbGA==";
+        };
+        _vDsMM5iE = {
+            "id" = "vDsMM5iE";
+            "file" = "Skyblock Dark UI 1.18 for 26.1.2+.zip";
+            "hash" = "sha512-b2tFgrUONdv/3YkMBe+yqXFBjqrSX5Pe4cE0kXi30pQkS/UxFqZ6C3Ho295/dwF+AbDltbu53sKOYXPT+XzRFw==";
+        };
     in {
         "HRuyn0LM" = _HRuyn0LM;
         "GBhhPkA8" = _GBhhPkA8;
@@ -98,17 +108,19 @@ let
         "EZVKqJR6" = _EZVKqJR6;
         "O6lwPz6J" = _O6lwPz6J;
         "IrX6pCYh" = _IrX6pCYh;
+        "3itLYYuc" = _3itLYYuc;
+        "vDsMM5iE" = _vDsMM5iE;
         "minecraft-1.21.5" = _qG5TJQVZ;
         "minecraft-1.21.6" = _qG5TJQVZ;
         "minecraft-1.21.7" = _qG5TJQVZ;
         "minecraft-1.21.8" = _qG5TJQVZ;
         "minecraft-1.21.9" = _qG5TJQVZ;
         "minecraft-1.21.10" = _EZVKqJR6;
-        "minecraft-1.21.11" = _IrX6pCYh;
-        "minecraft-26.1" = _IrX6pCYh;
-        "minecraft-26.1.1" = _IrX6pCYh;
-        "minecraft-26.1.2" = _IrX6pCYh;
-        "minecraft-26.2" = _IrX6pCYh;
+        "minecraft-1.21.11" = _3itLYYuc;
+        "minecraft-26.1" = _vDsMM5iE;
+        "minecraft-26.1.1" = _vDsMM5iE;
+        "minecraft-26.1.2" = _vDsMM5iE;
+        "minecraft-26.2" = _vDsMM5iE;
         "pkg-1.2" = _HRuyn0LM;
         "pkg-1.3" = _GBhhPkA8;
         "pkg-1.4" = _wjuXCfHj;
@@ -125,7 +137,9 @@ let
         "pkg-1.14" = _EZVKqJR6;
         "pkg-1.15" = _O6lwPz6J;
         "pkg-1.16" = _IrX6pCYh;
-        "default" = _IrX6pCYh;
+        "pkg-1.17" = _3itLYYuc;
+        "pkg-1.18" = _vDsMM5iE;
+        "default" = _vDsMM5iE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skyblock-dark-ui";

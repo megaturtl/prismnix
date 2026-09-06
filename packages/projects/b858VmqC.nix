@@ -326,6 +326,16 @@ let
             "file" = "Exotelcraft-6.5.0-RELEASE-for-MC-26.2.jar";
             "hash" = "sha512-OqI4QppEImttN7NM1V5u7/s7NnymbZaBVn5qZwe7039eiVSj1dyzU0mjr1RfnMwD1MsWd4kTD0Wm2YiisLl1Mg==";
         };
+        _3LoVPGM8 = {
+            "id" = "3LoVPGM8";
+            "file" = "Exotelcraft-6.6.0-for-MC-26.1.2.jar";
+            "hash" = "sha512-7x8+vVynrhAikUD9TiTNdiAFqSEEFYQTg7qDv4VGUxzLkBbcyhab2wtKDPII6c5wKRzF32U/k0OshNBSNsQCWg==";
+        };
+        _8oLnktXm = {
+            "id" = "8oLnktXm";
+            "file" = "Exotelcraft-6.6.0-for-MC-26.2.jar";
+            "hash" = "sha512-22Ic/kuDe1xvf3/jqo7QQo/+Ph7RuvlglXyNnuiXC5SMbR1W3MkJW5jB5h+wmR0S9wyXl/vbQ7Z6j90HApF0mw==";
+        };
     in {
         "WPUjBsld" = _WPUjBsld;
         "rZMQoMXg" = _rZMQoMXg;
@@ -392,6 +402,8 @@ let
         "3BuE5QcQ" = _3BuE5QcQ;
         "EizWDHhN" = _EizWDHhN;
         "SUxRcskC" = _SUxRcskC;
+        "3LoVPGM8" = _3LoVPGM8;
+        "8oLnktXm" = _8oLnktXm;
         "forge-1.19.4" = _aWOEeLJB;
         "forge-1.19.2" = _DAhO3Qk7;
         "forge-1.20" = _j5ZVS2ta;
@@ -420,10 +432,10 @@ let
         "fabric-1.21.8" = _Fj8e3v1p;
         "fabric-1.21.10" = _nfGtaaJx;
         "fabric-1.21.11" = _jrM803R2;
-        "fabric-26.1" = _EizWDHhN;
-        "fabric-26.1.1" = _EizWDHhN;
-        "fabric-26.1.2" = _EizWDHhN;
-        "fabric-26.2" = _SUxRcskC;
+        "fabric-26.1" = _3LoVPGM8;
+        "fabric-26.1.1" = _3LoVPGM8;
+        "fabric-26.1.2" = _3LoVPGM8;
+        "fabric-26.2" = _8oLnktXm;
         "quilt-1.19.4" = _F5naIgds;
         "quilt-1.19.2" = _u8Mfp1Ia;
         "quilt-1.20" = _T4VvC8Lu;
@@ -446,10 +458,10 @@ let
         "quilt-1.21.8" = _Fj8e3v1p;
         "quilt-1.21.10" = _nfGtaaJx;
         "quilt-1.21.11" = _jrM803R2;
-        "quilt-26.1" = _EizWDHhN;
-        "quilt-26.1.1" = _EizWDHhN;
-        "quilt-26.1.2" = _EizWDHhN;
-        "quilt-26.2" = _SUxRcskC;
+        "quilt-26.1" = _3LoVPGM8;
+        "quilt-26.1.1" = _3LoVPGM8;
+        "quilt-26.1.2" = _3LoVPGM8;
+        "quilt-26.2" = _8oLnktXm;
         "neoforge-1.20.5" = _GsUaRbMN;
         "neoforge-1.20.6" = _GsUaRbMN;
         "neoforge-1.21" = _qFmY6JV7;
@@ -463,10 +475,10 @@ let
         "neoforge-1.21.8" = _NfNnsCOA;
         "neoforge-1.21.10" = _N69tvGDn;
         "neoforge-1.21.11" = _HIG2UpCm;
-        "neoforge-26.1" = _EizWDHhN;
-        "neoforge-26.1.1" = _EizWDHhN;
-        "neoforge-26.1.2" = _EizWDHhN;
-        "neoforge-26.2" = _SUxRcskC;
+        "neoforge-26.1" = _3LoVPGM8;
+        "neoforge-26.1.1" = _3LoVPGM8;
+        "neoforge-26.1.2" = _3LoVPGM8;
+        "neoforge-26.2" = _8oLnktXm;
         "pkg-4.1.0-BETA-1" = _rZMQoMXg;
         "pkg-4.1.0-RELEASE" = _jyiQMEi7;
         "pkg-4.1.1-RELEASE" = _gQtxH2RH;
@@ -497,7 +509,8 @@ let
         "pkg-6.3.0-RELEASE" = _jrM803R2;
         "pkg-6.4.0-RELEASE" = _3BuE5QcQ;
         "pkg-6.5.0-RELEASE" = _SUxRcskC;
-        "default" = _SUxRcskC;
+        "pkg-6.6.0" = _8oLnktXm;
+        "default" = _8oLnktXm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "exotelcraft";

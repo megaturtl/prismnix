@@ -421,6 +421,56 @@ let
             "file" = "hudder-10.1.2.jar";
             "hash" = "sha512-38uKa9Rc7whX6Ho6y9eNSLLEDSgNuNBF0I2IXFBMkVJu1tBI1UQo0d6sW8NDNHk9+wT7HQSgziwJZtNnOYtGWA==";
         };
+        _vnyaLVon = {
+            "id" = "vnyaLVon";
+            "file" = "hudder-10.2.0.jar";
+            "hash" = "sha512-X9LYggVC8QlGLsN2xxH+UIgBchh8/3s5Po9t83FKjYgENVvnsDVu6AtG+Rqa/EgR2roO4K1354mzEME+d+/yhA==";
+        };
+        _4LJuG0DH = {
+            "id" = "4LJuG0DH";
+            "file" = "hudder-10.2.1.jar";
+            "hash" = "sha512-MQsnj+oPcwNnPIY3hpApyMD3TpSS8A1Oa7+Y9Y5c3NdcKuh+maPbJZu4NBOMuhUhJj2K61/i1Ah/bhvOIw47FA==";
+        };
+        _mDvw5vsG = {
+            "id" = "mDvw5vsG";
+            "file" = "hudder-10.3.0.jar";
+            "hash" = "sha512-S2T8kmGqH7cWuk7cRJlWNtFZkaPhtxmpApzOidokeEfztiOdXUmdq/ubNdlhjHeIhaYStDJyCoRXyMujXG2jKA==";
+        };
+        _GViwgRRe = {
+            "id" = "GViwgRRe";
+            "file" = "hudder-10.3.0.jar";
+            "hash" = "sha512-WL657Rk8rEAkQF8IwAK2ah2aVXXLVBCJNcLIQvx18f3veEinXaNGd9cXBGq598BkllBd+Q+39RN29DkNesx9XA==";
+        };
+        _5r2A4NXC = {
+            "id" = "5r2A4NXC";
+            "file" = "hudder-10.3.1.jar";
+            "hash" = "sha512-q2yqyoZM8kDUxqGhmSWG8fuwQhr/F+nzUl9au7Ie+BG6dkbE9Cufj/BnsFqcZ7nVPp+da1Pcki5V7uMjBQNJjQ==";
+        };
+        _s9HGiTa4 = {
+            "id" = "s9HGiTa4";
+            "file" = "hudder-10.3.2.jar";
+            "hash" = "sha512-GdYRNWOr9FhBElr7Y43dket8HQ/krsu6brkxdeLqSjh2rGKMdRnEHvAYAF7sV5TYimxFxMxM5biZizTHosmzpg==";
+        };
+        _1VvD9n2c = {
+            "id" = "1VvD9n2c";
+            "file" = "hudder-10.4.0.jar";
+            "hash" = "sha512-04DWTU8DwsU2LlE9hhxxCVqFCkaUCMhOliJFHTwMad3pyFJMezWryZeCDcHC4rzeq8kPkOnPhW7glsEieDDmUw==";
+        };
+        _VmHi4g0R = {
+            "id" = "VmHi4g0R";
+            "file" = "hudder-10.4.0.jar";
+            "hash" = "sha512-fWuLLMgzLDap65poS8WSz8x3WipBLYffEheB/wIJ9zEfXMD+yb/swj+EyCF/V+V5tS5o6/sBFH0WtDzPkpo+Ew==";
+        };
+        _pMtV3lYj = {
+            "id" = "pMtV3lYj";
+            "file" = "hudder-11.0.0.jar";
+            "hash" = "sha512-PuRzJUVmyw/O/F/KP5MiMzhRjEOjjLBgcJGL1L5xWdhK+sRIgKpfebqGxma4aA57JpQ1k4lYtZVW2bR58I9caQ==";
+        };
+        _4kdwPV2t = {
+            "id" = "4kdwPV2t";
+            "file" = "hudder-11.0.0.jar";
+            "hash" = "sha512-rQyBjCyFFXZCUK18fz22vISMFfTavs97oJSNqNxciN9SH+kFyONiNFtjvon95E4RJ68w8JUTG2KehMboaa7KqA==";
+        };
     in {
         "ssaVpN2U" = _ssaVpN2U;
         "osPvsIob" = _osPvsIob;
@@ -506,6 +556,16 @@ let
         "Qc7WXZvn" = _Qc7WXZvn;
         "4ctrPNvv" = _4ctrPNvv;
         "HaqQFp5a" = _HaqQFp5a;
+        "vnyaLVon" = _vnyaLVon;
+        "4LJuG0DH" = _4LJuG0DH;
+        "mDvw5vsG" = _mDvw5vsG;
+        "GViwgRRe" = _GViwgRRe;
+        "5r2A4NXC" = _5r2A4NXC;
+        "s9HGiTa4" = _s9HGiTa4;
+        "1VvD9n2c" = _1VvD9n2c;
+        "VmHi4g0R" = _VmHi4g0R;
+        "pMtV3lYj" = _pMtV3lYj;
+        "4kdwPV2t" = _4kdwPV2t;
         "fabric-1.20.4" = _H7EBJ0r4;
         "fabric-1.20.1" = _nojzEyvu;
         "fabric-1.20.5" = _RkNaKz7Q;
@@ -536,9 +596,15 @@ let
         "fabric-26.2-pre-6" = _pNJDCjz5;
         "fabric-26.2-rc-1" = _pNJDCjz5;
         "fabric-26.2-rc-2" = _pNJDCjz5;
-        "fabric-26.2" = _4ctrPNvv;
-        "fabric-26.3-snapshot-5" = _HaqQFp5a;
-        "fabric-26.3-snapshot-6" = _HaqQFp5a;
+        "fabric-26.2" = _pMtV3lYj;
+        "fabric-26.3-snapshot-5" = _4kdwPV2t;
+        "fabric-26.3-snapshot-6" = _4kdwPV2t;
+        "fabric-26.3-snapshot-7" = _4kdwPV2t;
+        "fabric-26.3-snapshot-8" = _4kdwPV2t;
+        "fabric-26.3-snapshot-9" = _4kdwPV2t;
+        "fabric-26.3-snapshot-10" = _4kdwPV2t;
+        "fabric-26.3-pre-1" = _4kdwPV2t;
+        "fabric-26.3-pre-2" = _4kdwPV2t;
         "pkg-1.0.1" = _ssaVpN2U;
         "pkg-1.0.2" = _osPvsIob;
         "pkg-2.0.0" = _lDV6RdLG;
@@ -621,7 +687,17 @@ let
         "pkg-10.1.1-26.2" = _Qc7WXZvn;
         "pkg-10.1.2-26.2" = _4ctrPNvv;
         "pkg-10.1.2-26.3-snapshots" = _HaqQFp5a;
-        "default" = _HaqQFp5a;
+        "pkg-10.2.0-26.2" = _vnyaLVon;
+        "pkg-10.2.1-26.2" = _4LJuG0DH;
+        "pkg-10.3.0-26.2" = _mDvw5vsG;
+        "pkg-10.3.0-26.3-snapshot-9" = _GViwgRRe;
+        "pkg-10.3.1-26.2" = _5r2A4NXC;
+        "pkg-10.3.2-26.2" = _s9HGiTa4;
+        "pkg-10.4.0-26.2" = _1VvD9n2c;
+        "pkg-10.4.0-26.3-snapshot-10" = _VmHi4g0R;
+        "pkg-11.0.0-26.2" = _pMtV3lYj;
+        "pkg-11.0.0-26.3-pre-2" = _4kdwPV2t;
+        "default" = _4kdwPV2t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hudder";

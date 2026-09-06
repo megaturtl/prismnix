@@ -61,6 +61,16 @@ let
             "file" = "NMinimap.jar";
             "hash" = "sha512-cZGWRsWSjP4wIrSZkO+ZJAVmQXspKbnPHd0F3aG20cp0DUyYbMVaoIm2iKyUzKvqUOv/nz/NzQ6FfI+SE/oN4A==";
         };
+        _woCeIe36 = {
+            "id" = "woCeIe36";
+            "file" = "NMinimap.jar";
+            "hash" = "sha512-IcTbF9VuTJhA4eBaU7dCUI0eBqTrjuXBbWcZO+Rw04Tu1fIu6TgNqekW6w9M5X/c/FPGwSvb8LOLqjIrgn1YwA==";
+        };
+        _QXjxxWBy = {
+            "id" = "QXjxxWBy";
+            "file" = "NMinimap.jar";
+            "hash" = "sha512-D1MI/d46XIhQ8/Jj0F7hzTXYqT9Ani356GbomZ6J1DSvm8whD7WDUNto904CeOE4ynPtoYMLJFAbxoScbMtzfA==";
+        };
     in {
         "aJ4KjNpB" = _aJ4KjNpB;
         "VJBhBuWm" = _VJBhBuWm;
@@ -74,6 +84,8 @@ let
         "3l0V6K2p" = _3l0V6K2p;
         "ihuLGVOz" = _ihuLGVOz;
         "SutkLVdp" = _SutkLVdp;
+        "woCeIe36" = _woCeIe36;
+        "QXjxxWBy" = _QXjxxWBy;
         "paper-1.21" = _sYqHJwF9;
         "paper-1.21.1" = _sYqHJwF9;
         "paper-1.21.2" = _sYqHJwF9;
@@ -85,11 +97,11 @@ let
         "paper-1.21.8" = _sYqHJwF9;
         "paper-1.21.9" = _sYqHJwF9;
         "paper-1.21.10" = _sYqHJwF9;
-        "paper-1.21.11" = _SutkLVdp;
-        "paper-26.1" = _SutkLVdp;
-        "paper-26.1.1" = _SutkLVdp;
-        "paper-26.1.2" = _SutkLVdp;
-        "paper-26.2" = _SutkLVdp;
+        "paper-1.21.11" = _QXjxxWBy;
+        "paper-26.1" = _QXjxxWBy;
+        "paper-26.1.1" = _QXjxxWBy;
+        "paper-26.1.2" = _QXjxxWBy;
+        "paper-26.2" = _QXjxxWBy;
         "purpur-1.21" = _sYqHJwF9;
         "purpur-1.21.1" = _sYqHJwF9;
         "purpur-1.21.2" = _sYqHJwF9;
@@ -101,11 +113,11 @@ let
         "purpur-1.21.8" = _sYqHJwF9;
         "purpur-1.21.9" = _sYqHJwF9;
         "purpur-1.21.10" = _sYqHJwF9;
-        "purpur-1.21.11" = _SutkLVdp;
-        "purpur-26.1" = _SutkLVdp;
-        "purpur-26.1.1" = _SutkLVdp;
-        "purpur-26.1.2" = _SutkLVdp;
-        "purpur-26.2" = _SutkLVdp;
+        "purpur-1.21.11" = _QXjxxWBy;
+        "purpur-26.1" = _QXjxxWBy;
+        "purpur-26.1.1" = _QXjxxWBy;
+        "purpur-26.1.2" = _QXjxxWBy;
+        "purpur-26.2" = _QXjxxWBy;
         "folia-1.21" = _sYqHJwF9;
         "folia-1.21.1" = _sYqHJwF9;
         "folia-1.21.2" = _sYqHJwF9;
@@ -117,16 +129,16 @@ let
         "folia-1.21.8" = _sYqHJwF9;
         "folia-1.21.9" = _sYqHJwF9;
         "folia-1.21.10" = _sYqHJwF9;
-        "folia-1.21.11" = _SutkLVdp;
-        "folia-26.1" = _SutkLVdp;
-        "folia-26.1.1" = _SutkLVdp;
-        "folia-26.1.2" = _SutkLVdp;
-        "folia-26.2" = _SutkLVdp;
-        "spigot-1.21.11" = _SutkLVdp;
-        "spigot-26.1" = _SutkLVdp;
-        "spigot-26.1.1" = _SutkLVdp;
-        "spigot-26.1.2" = _SutkLVdp;
-        "spigot-26.2" = _SutkLVdp;
+        "folia-1.21.11" = _QXjxxWBy;
+        "folia-26.1" = _QXjxxWBy;
+        "folia-26.1.1" = _QXjxxWBy;
+        "folia-26.1.2" = _QXjxxWBy;
+        "folia-26.2" = _QXjxxWBy;
+        "spigot-1.21.11" = _QXjxxWBy;
+        "spigot-26.1" = _QXjxxWBy;
+        "spigot-26.1.1" = _QXjxxWBy;
+        "spigot-26.1.2" = _QXjxxWBy;
+        "spigot-26.2" = _QXjxxWBy;
         "pkg-1.0.0" = _aJ4KjNpB;
         "pkg-1.0.1" = _VJBhBuWm;
         "pkg-1.0.2" = _sYqHJwF9;
@@ -139,7 +151,9 @@ let
         "pkg-1.0.6-quickfix-2" = _3l0V6K2p;
         "pkg-1.0.7" = _ihuLGVOz;
         "pkg-1.0.7-quickfix-1" = _SutkLVdp;
-        "default" = _SutkLVdp;
+        "pkg-1.0.8" = _woCeIe36;
+        "pkg-1.0.8-quickfix-1" = _QXjxxWBy;
+        "default" = _QXjxxWBy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nminimap";

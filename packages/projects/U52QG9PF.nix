@@ -816,6 +816,81 @@ let
             "file" = "B - Simply Cozy 1.9.19.jar";
             "hash" = "sha512-g+mDDcGKz+8kj7jN75S9mxHFT04K9YnCZETtgcWZP249/4cGZWUP+AyXRWBK5Jp6lOXp7RSvcKJWYegL4yjJBA==";
         };
+        _XuxhfcZf = {
+            "id" = "XuxhfcZf";
+            "file" = "simplycozymod-1.0.0.jar";
+            "hash" = "sha512-NcCzbMt1IqiGiupnQVyZS1MwmtXMZkUGdfKVXj+fN3z4acGBh+V8xr148YD9fEwETgf4IAgAucKYSevL130l9A==";
+        };
+        _XfOod7tG = {
+            "id" = "XfOod7tG";
+            "file" = "B - Simply Cozy 1.9.21.jar";
+            "hash" = "sha512-NlPXH7ytIleONyiBMvHIibBrX+faS/tZNYlJ/mzyjZ989FxsRQBtK2yhSj2GWaUm1q1OUtXre6ioV5WJM/XfPQ==";
+        };
+        _xWLXsB1q = {
+            "id" = "xWLXsB1q";
+            "file" = "B - Simply Cozy 1.9.22.jar";
+            "hash" = "sha512-owkR5wE30P6vmcJkyMv5+szI5fzfRw/SyoGWoO7dKm617YdKAOrhRdKBdam50rQOer8mwPyw9FNFrKrmgBy+hQ==";
+        };
+        _MbN0P3uu = {
+            "id" = "MbN0P3uu";
+            "file" = "B - Simply Cozy 1.9.23.jar";
+            "hash" = "sha512-d2Up9+fBjUMGnEw6x0T+1Rn/OUbZnkj6cm3JOiRpCmghKSPfs0nMu4kGaC1a1HVuZmXPWgnTP3UMjFYpdgrEvQ==";
+        };
+        _vUDdhICE = {
+            "id" = "vUDdhICE";
+            "file" = "B - Simply Cozy 1.9.24.jar";
+            "hash" = "sha512-mCVuDmSJTV4iBl2sIxAv8A0V985kHSWyZk0CVCLZBwwPjdEokTt9VjbU/w0WrX14YVXRkWaieD0OxlWt7DYQUQ==";
+        };
+        _W32cJZ93 = {
+            "id" = "W32cJZ93";
+            "file" = "B - Simply Cozy 1.9.25.jar";
+            "hash" = "sha512-IJA+g0x4HUjJLo3Xuv7xyh1qyCfaxPE3AtYzl9ke9RCu7J2emdy7iwi1ZT2cQ8EQutNHxlUM1SFlfAZAS4mvpg==";
+        };
+        _fyDi89SM = {
+            "id" = "fyDi89SM";
+            "file" = "B - Simply Cozy 1.9.26.jar";
+            "hash" = "sha512-yclrwhlc6ikt8oMcpcVuEMQRtancC/P6SiVgfroIenCkLZIFaczWOGi/qaIU8Rv4tXzp0SSY6oGS/pQD/JcA2w==";
+        };
+        _7vCQG56x = {
+            "id" = "7vCQG56x";
+            "file" = "B - Simply Cozy 1.9.27.jar";
+            "hash" = "sha512-GANlXVEEoJp457A6zQWdQ/Oltzj2L1hnH12WF2AVksqu85oSry4qQe3yS5lO8vWiBZEooa100KLfp+4WLABM2g==";
+        };
+        _whjRPw1Z = {
+            "id" = "whjRPw1Z";
+            "file" = "B - Simply Cozy 1.9.28.jar";
+            "hash" = "sha512-OgoFJ4LgRpBmxNOaSWqN6S9fobNtFnN/923Xiptx/PfBrM/813jU6L8tEpNHjMjWePXcZbWunOwRpf+NzFlLDg==";
+        };
+        _uwKrvl8E = {
+            "id" = "uwKrvl8E";
+            "file" = "B - Simply Cozy 1.9.29.jar";
+            "hash" = "sha512-I/8cecg6WmO58/6B1hNiyCSIpUObmw65jhARvs3IlY1QCDeokuPkymYaoMCCeVjIAw1Dv1IB73FJbtRxpeth4g==";
+        };
+        _Zem1Ea6q = {
+            "id" = "Zem1Ea6q";
+            "file" = "B - Simply Cozy 1.9.30.jar";
+            "hash" = "sha512-LlytqJhcsLPY5UXwkf1hereeaTSf35KKigX9HxOq6n+TLjvOTIGYfFtbcerbHLPO3Cxj12XrUR+7/c0EDatv2A==";
+        };
+        _r8hjcdJ2 = {
+            "id" = "r8hjcdJ2";
+            "file" = "B - Simply Cozy 1.9.31.jar";
+            "hash" = "sha512-bR7a9Rbd3yUfIGQM6vpKDm+U4gJOFPry7//AQ/Dc/lexsbljO0xg3qedf1BUc8GON5msmUIXDQovjo+pTe+ejQ==";
+        };
+        _K9bShMx6 = {
+            "id" = "K9bShMx6";
+            "file" = "B - Simply Cozy 1.9.32 - Birthday Update.jar";
+            "hash" = "sha512-Iix+a6ZCxVWfnB15uHpxIOfGR+RgoUmgXqcScfll9JbBURQe38YeSa0RKKs064nHzr6LSm8P52CeuPBFj6EV6A==";
+        };
+        _Rxu77M2y = {
+            "id" = "Rxu77M2y";
+            "file" = "B - Simply Cozy 1.9.33.jar";
+            "hash" = "sha512-UwkxnYlERCNdih1Yz4EGiepd+CGUPbGo6BfBy6bkEogLmkVuMW3k9cEHcXT1aCHMw19C/JRZNh2R/Yrq5Kk5cg==";
+        };
+        _ftlLo7CM = {
+            "id" = "ftlLo7CM";
+            "file" = "B - Simply Cozy 1.9.34.jar";
+            "hash" = "sha512-jZgk+hYQUWRSZjwnuigKej+2gEKZnG3AIR5/3GCLPBn5U7+LySjyHLAt5M639qBd5dRnpnlWG6vwqyqE5au/HA==";
+        };
     in {
         "LgYDkcho" = _LgYDkcho;
         "zLptarbN" = _zLptarbN;
@@ -980,6 +1055,21 @@ let
         "p4UNYPr0" = _p4UNYPr0;
         "nNyD3OvQ" = _nNyD3OvQ;
         "iF2aRWwh" = _iF2aRWwh;
+        "XuxhfcZf" = _XuxhfcZf;
+        "XfOod7tG" = _XfOod7tG;
+        "xWLXsB1q" = _xWLXsB1q;
+        "MbN0P3uu" = _MbN0P3uu;
+        "vUDdhICE" = _vUDdhICE;
+        "W32cJZ93" = _W32cJZ93;
+        "fyDi89SM" = _fyDi89SM;
+        "7vCQG56x" = _7vCQG56x;
+        "whjRPw1Z" = _whjRPw1Z;
+        "uwKrvl8E" = _uwKrvl8E;
+        "Zem1Ea6q" = _Zem1Ea6q;
+        "r8hjcdJ2" = _r8hjcdJ2;
+        "K9bShMx6" = _K9bShMx6;
+        "Rxu77M2y" = _Rxu77M2y;
+        "ftlLo7CM" = _ftlLo7CM;
         "fabric-1.21" = _BLvmxHHN;
         "fabric-1.21.1" = _BLvmxHHN;
         "fabric-1.21.2" = _ikiX739m;
@@ -990,7 +1080,7 @@ let
         "fabric-26.1" = _ObakYRPo;
         "fabric-26.1.1" = _ObakYRPo;
         "fabric-26.1.2" = _ObakYRPo;
-        "fabric-26.2" = _iF2aRWwh;
+        "fabric-26.2" = _ftlLo7CM;
         "pkg-1.0.0" = _LgYDkcho;
         "pkg-1.0.1" = _zLptarbN;
         "pkg-1.0.2" = _ARFdz9md;
@@ -1153,7 +1243,22 @@ let
         "pkg-1.9.17" = _p4UNYPr0;
         "pkg-1.9.18" = _nNyD3OvQ;
         "pkg-1.9.19" = _iF2aRWwh;
-        "default" = _iF2aRWwh;
+        "pkg-1.9.20" = _XuxhfcZf;
+        "pkg-1.9.21" = _XfOod7tG;
+        "pkg-1.9.22" = _xWLXsB1q;
+        "pkg-1.9.23" = _MbN0P3uu;
+        "pkg-1.9.24" = _vUDdhICE;
+        "pkg-1.9.25" = _W32cJZ93;
+        "pkg-1.9.26" = _fyDi89SM;
+        "pkg-1.9.27" = _7vCQG56x;
+        "pkg-1.9.28" = _whjRPw1Z;
+        "pkg-1.9.29" = _uwKrvl8E;
+        "pkg-1.9.30" = _Zem1Ea6q;
+        "pkg-1.9.31" = _r8hjcdJ2;
+        "pkg-1.9.32" = _K9bShMx6;
+        "pkg-1.9.33" = _Rxu77M2y;
+        "pkg-1.9.34" = _ftlLo7CM;
+        "default" = _ftlLo7CM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simply-cozy";

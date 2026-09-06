@@ -51,6 +51,21 @@ let
             "file" = "alltuttasneeds-3.0.0.jar";
             "hash" = "sha512-m1oWdymEisG0ioOra0xsValiMsi4yNxToFEZbuTjs0nzlRIj0ON8TMPSxwLotD1AG5UlntL+9DjPm9hBcTuSAQ==";
         };
+        _OICWB00W = {
+            "id" = "OICWB00W";
+            "file" = "alltuttasneeds-3.1.0.jar";
+            "hash" = "sha512-+JlK7H2mAdFW3ogQp4qmdk9v6r2zyv5UK4NcR9dB10xt89D3Z86CVh928RyFzoVuJYcNVr9091NrPPKrQ24obA==";
+        };
+        _PD9kiKx6 = {
+            "id" = "PD9kiKx6";
+            "file" = "alltuttasneeds-3.1.1.jar";
+            "hash" = "sha512-R5F7WrS8SW0l/Z2J6wCr135/zYBywe5Ydihba/Y9t8sPAy85KF29VEE511wrPFqD189SAlTFGEIsQD3KqmID7w==";
+        };
+        _pfFcB8h0 = {
+            "id" = "pfFcB8h0";
+            "file" = "alltuttasneeds-3.2.0.jar";
+            "hash" = "sha512-6dPsaXNr2ILpLQ1AP1gl9J2MUOUmBKk9uix2yv4K7Xz83EUFC2rakYJuYwoLmDJbVaUGbAOvhQn6tJQra3pacw==";
+        };
     in {
         "zeEuBEt4" = _zeEuBEt4;
         "lfguve0q" = _lfguve0q;
@@ -62,7 +77,10 @@ let
         "6PUB7AEu" = _6PUB7AEu;
         "dvb3tVEM" = _dvb3tVEM;
         "LUifDxcS" = _LUifDxcS;
-        "neoforge-1.21.1" = _LUifDxcS;
+        "OICWB00W" = _OICWB00W;
+        "PD9kiKx6" = _PD9kiKx6;
+        "pfFcB8h0" = _pfFcB8h0;
+        "neoforge-1.21.1" = _pfFcB8h0;
         "pkg-1.0.0" = _zeEuBEt4;
         "pkg-1.5" = _lfguve0q;
         "pkg-1.5.1" = _CA7fG43F;
@@ -73,7 +91,10 @@ let
         "pkg-2.0.0" = _6PUB7AEu;
         "pkg-2.1.0" = _dvb3tVEM;
         "pkg-3.0.0" = _LUifDxcS;
-        "default" = _LUifDxcS;
+        "pkg-3.1.0" = _OICWB00W;
+        "pkg-3.1.1" = _PD9kiKx6;
+        "pkg-3.2.0" = _pfFcB8h0;
+        "default" = _pfFcB8h0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "alltuttasneeds";

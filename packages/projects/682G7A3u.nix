@@ -76,6 +76,11 @@ let
             "file" = "ExplosiveParty-3.1.0-1.26.2.jar";
             "hash" = "sha512-TXCa2DI0CP86isBYtyZt6ZlnCxko2fGkB8t3Uro2MZJ9j0MVGUVccF7s+TQHeBoZhV/EpC8ZZWP+YHA6ooIwAQ==";
         };
+        _IlQCvXk9 = {
+            "id" = "IlQCvXk9";
+            "file" = "ExplosiveParty-3.1.1-1.26.2.jar";
+            "hash" = "sha512-KlVxTsTPgXOXAtJj1TqfRjXga+ogiMca0DoQWzByJRd38S0J3v1N6ZaHBCrqY289iKtF/MOFSEivkn/rpTpiJQ==";
+        };
     in {
         "phnDUCsP" = _phnDUCsP;
         "1EiuFfuA" = _1EiuFfuA;
@@ -92,6 +97,7 @@ let
         "Wy5yBzMH" = _Wy5yBzMH;
         "Z875ZBE5" = _Z875ZBE5;
         "dMCW6Kgt" = _dMCW6Kgt;
+        "IlQCvXk9" = _IlQCvXk9;
         "fabric-1.20" = _1VJxPftO;
         "fabric-1.20.1" = _1VJxPftO;
         "fabric-1.20.2" = _lrfeDGJA;
@@ -114,7 +120,7 @@ let
         "fabric-26.1" = _Z875ZBE5;
         "fabric-26.1.1" = _Z875ZBE5;
         "fabric-26.1.2" = _Z875ZBE5;
-        "fabric-26.2" = _dMCW6Kgt;
+        "fabric-26.2" = _IlQCvXk9;
         "pkg-1.0.0-1.20" = _phnDUCsP;
         "pkg-1.0.1-1.20.2" = _1EiuFfuA;
         "pkg-1.0.1-1.20.3" = _BpZXxBKs;
@@ -130,7 +136,8 @@ let
         "pkg-2.0.3-1.21.11" = _Wy5yBzMH;
         "pkg-3.0.0-1.26.1" = _Z875ZBE5;
         "pkg-3.1.0-1.26.2" = _dMCW6Kgt;
-        "default" = _dMCW6Kgt;
+        "pkg-3.1.1-1.26.2" = _IlQCvXk9;
+        "default" = _IlQCvXk9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "explosive-party";

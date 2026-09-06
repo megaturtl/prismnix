@@ -86,6 +86,16 @@ let
             "file" = "Multiverse-0.5.0+26.2.jar";
             "hash" = "sha512-36sU1qQpl4d6MjkfBOhcx+36vKhoe9EJlC/BKCqOoY8xo/RlOy+3LCwbUCZAj/I4q8E5mGWVs/PkOzLzAwEG4w==";
         };
+        _FXpogaVB = {
+            "id" = "FXpogaVB";
+            "file" = "Multiverse-0.5.1+26.2.jar";
+            "hash" = "sha512-YeDJbl0dO/iMycFcQSiKkdSKQJAP4Y+3k5GC/7uN1L9UAvCxThOkoANPY1MNqoFTCRexTd3L+9c6hgBXZN03rg==";
+        };
+        _sJTp8ho7 = {
+            "id" = "sJTp8ho7";
+            "file" = "Multiverse-0.5.2+26.2.jar";
+            "hash" = "sha512-LH2yqYNkyQ9sSsudBzi0AeWaVcuatvH8JHAppATBVgtNSKknUVdr27IpZAttjk8cLuJF5agwOxJKsSF7n8hcOA==";
+        };
     in {
         "4YQRVKN6" = _4YQRVKN6;
         "Ffd9ztuV" = _Ffd9ztuV;
@@ -104,6 +114,8 @@ let
         "wVvfrEpm" = _wVvfrEpm;
         "zh7xdivz" = _zh7xdivz;
         "K75cBriQ" = _K75cBriQ;
+        "FXpogaVB" = _FXpogaVB;
+        "sJTp8ho7" = _sJTp8ho7;
         "fabric-1.21.8" = _YtQ5V05a;
         "fabric-1.21.9" = _E93KtT29;
         "fabric-1.21.10" = _E93KtT29;
@@ -111,7 +123,7 @@ let
         "fabric-26.1" = _1tcFZsvs;
         "fabric-26.1.1" = _86qHjp0O;
         "fabric-26.1.2" = _zh7xdivz;
-        "fabric-26.2" = _K75cBriQ;
+        "fabric-26.2" = _sJTp8ho7;
         "pkg-0.1.1+1.21.8" = _4YQRVKN6;
         "pkg-0.1.2+1.21.8" = _Ffd9ztuV;
         "pkg-0.1.3+1.21.8" = _PaMpzrRj;
@@ -129,7 +141,9 @@ let
         "pkg-0.4.3+26.1.2" = _wVvfrEpm;
         "pkg-0.4.4+26.1.2" = _zh7xdivz;
         "pkg-0.5.0+26.2" = _K75cBriQ;
-        "default" = _K75cBriQ;
+        "pkg-0.5.1+26.2" = _FXpogaVB;
+        "pkg-0.5.2+26.2" = _sJTp8ho7;
+        "default" = _sJTp8ho7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "multiverse-dimensions";

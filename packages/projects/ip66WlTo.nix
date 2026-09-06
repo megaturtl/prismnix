@@ -86,6 +86,26 @@ let
             "file" = "BuriedWrecks-26.1.2-13.0.0.jar";
             "hash" = "sha512-8gqYWKpGQ9kK5gd8OlEoNLT51jbDi5NWIg0eeL+poNzLfOmbxx42A9qa49rJ4aYu6BCcxqhmOSjZab5vnoTa5Q==";
         };
+        _jPTDOopE = {
+            "id" = "jPTDOopE";
+            "file" = "BuriedWrecks-fabric-26.1.2-13.1.0.jar";
+            "hash" = "sha512-DmjFCoHNlZAOANc+uM+NsO3yQyD1OzdAOy8cakBWub4WgBOVvyP4cwqplhr7ZK1WvBMq8mbI39XvbL9xQwgBEQ==";
+        };
+        _9Gp5usqv = {
+            "id" = "9Gp5usqv";
+            "file" = "BuriedWrecks-neoforge-26.1.2-13.1.0.jar";
+            "hash" = "sha512-xDXjSTTDx1F3Dv4Q8nvlqrAGHet4G1jNIUYeysAyfL1CErYBcG7ekffn6IOKAcgO0Gx7YvMT7y2sIXvAmjaWag==";
+        };
+        _GT13HzC5 = {
+            "id" = "GT13HzC5";
+            "file" = "BuriedWrecks-fabric-26.2-14.0.0.jar";
+            "hash" = "sha512-LDtWF5Jl5GACJLAWKnZoUKXdWKbUg86mMU4vledZvVhXn4sFIkmeToDbb+FBv7qU5XX+vtTlagMzWVLhrgVTlw==";
+        };
+        _unSAwJHi = {
+            "id" = "unSAwJHi";
+            "file" = "BuriedWrecks-neoforge-26.2-14.0.0.jar";
+            "hash" = "sha512-8MWa5TpFLBoLnDPLx2RK+t1fvIBpsyluG8wJbNnyZEDgsHEkJye/RkgbfZcgPWXdpFvWX9ucQz2BkjjUppgHAw==";
+        };
     in {
         "2YnmgvDv" = _2YnmgvDv;
         "WeQkOlm6" = _WeQkOlm6;
@@ -104,6 +124,10 @@ let
         "X4ySaGiq" = _X4ySaGiq;
         "EypCsP16" = _EypCsP16;
         "sRgOLf3d" = _sRgOLf3d;
+        "jPTDOopE" = _jPTDOopE;
+        "9Gp5usqv" = _9Gp5usqv;
+        "GT13HzC5" = _GT13HzC5;
+        "unSAwJHi" = _unSAwJHi;
         "forge-1.18.2" = _WeQkOlm6;
         "forge-1.19.2" = _GCWydfL2;
         "forge-1.19.3" = _dsJ7NavY;
@@ -120,7 +144,10 @@ let
         "neoforge-1.21.1" = _ctKtOkj7;
         "neoforge-1.21.10" = _X4ySaGiq;
         "neoforge-1.21.11" = _EypCsP16;
-        "neoforge-26.1.2" = _sRgOLf3d;
+        "neoforge-26.1.2" = _9Gp5usqv;
+        "neoforge-26.2" = _unSAwJHi;
+        "fabric-26.1.2" = _jPTDOopE;
+        "fabric-26.2" = _GT13HzC5;
         "pkg-1.0.0" = _2YnmgvDv;
         "pkg-1.1.0" = _WeQkOlm6;
         "pkg-2.0.0" = _dsJ7NavY;
@@ -137,7 +164,9 @@ let
         "pkg-11.0.0" = _X4ySaGiq;
         "pkg-12.0.0" = _EypCsP16;
         "pkg-13.0.0" = _sRgOLf3d;
-        "default" = _sRgOLf3d;
+        "pkg-13.1.0" = _9Gp5usqv;
+        "pkg-14.0.0" = _unSAwJHi;
+        "default" = _unSAwJHi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "buried-wrecks";

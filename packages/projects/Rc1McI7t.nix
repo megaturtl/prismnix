@@ -16,15 +16,22 @@ let
             "file" = "kamenriderperfectionproject 0.1.7东京.jar";
             "hash" = "sha512-18Q+nOgoXpWTt83moksELTc+mBFMzdRaEMxVc21O8Df6jPDx9uBbbIxLWxCh1cN0Rl4CV53U3cyPJ4kiFhmwsg==";
         };
+        _1Doh4Hh8 = {
+            "id" = "1Doh4Hh8";
+            "file" = "Kamen Rider Completion Project-0.1.9.2-forge-1.20.1.jar";
+            "hash" = "sha512-ndWCkbBnPEWqQvdKe3RI5EJbJax1xZiA3c6CbWy8OROUrEtMktSVsKljbqXqqVfage5GftwakjG0rzjgP8CBSA==";
+        };
     in {
         "1QU2gnkG" = _1QU2gnkG;
         "TG83jQKy" = _TG83jQKy;
         "ukjbQTO6" = _ukjbQTO6;
-        "forge-1.20.1" = _ukjbQTO6;
+        "1Doh4Hh8" = _1Doh4Hh8;
+        "forge-1.20.1" = _1Doh4Hh8;
         "pkg-0.1.0" = _1QU2gnkG;
         "pkg-0.1.5" = _TG83jQKy;
         "pkg-0.1.7" = _ukjbQTO6;
-        "default" = _ukjbQTO6;
+        "pkg-0.1.9.2" = _1Doh4Hh8;
+        "default" = _1Doh4Hh8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kamenridercompletionplan";

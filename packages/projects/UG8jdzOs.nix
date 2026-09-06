@@ -42,6 +42,11 @@ let
         "bukkit-1.21.8" = _g7ZS72Qk;
         "bukkit-1.21.9" = _g7ZS72Qk;
         "bukkit-1.21.10" = _g7ZS72Qk;
+        "bukkit-1.21.11" = _g7ZS72Qk;
+        "bukkit-26.1" = _g7ZS72Qk;
+        "bukkit-26.1.1" = _g7ZS72Qk;
+        "bukkit-26.1.2" = _g7ZS72Qk;
+        "bukkit-26.2" = _g7ZS72Qk;
         "paper-1.16" = _g7ZS72Qk;
         "paper-1.16.1" = _g7ZS72Qk;
         "paper-1.16.2" = _g7ZS72Qk;
@@ -76,6 +81,11 @@ let
         "paper-1.21.8" = _g7ZS72Qk;
         "paper-1.21.9" = _g7ZS72Qk;
         "paper-1.21.10" = _g7ZS72Qk;
+        "paper-1.21.11" = _g7ZS72Qk;
+        "paper-26.1" = _g7ZS72Qk;
+        "paper-26.1.1" = _g7ZS72Qk;
+        "paper-26.1.2" = _g7ZS72Qk;
+        "paper-26.2" = _g7ZS72Qk;
         "purpur-1.16" = _g7ZS72Qk;
         "purpur-1.16.1" = _g7ZS72Qk;
         "purpur-1.16.2" = _g7ZS72Qk;
@@ -110,6 +120,11 @@ let
         "purpur-1.21.8" = _g7ZS72Qk;
         "purpur-1.21.9" = _g7ZS72Qk;
         "purpur-1.21.10" = _g7ZS72Qk;
+        "purpur-1.21.11" = _g7ZS72Qk;
+        "purpur-26.1" = _g7ZS72Qk;
+        "purpur-26.1.1" = _g7ZS72Qk;
+        "purpur-26.1.2" = _g7ZS72Qk;
+        "purpur-26.2" = _g7ZS72Qk;
         "spigot-1.16" = _g7ZS72Qk;
         "spigot-1.16.1" = _g7ZS72Qk;
         "spigot-1.16.2" = _g7ZS72Qk;
@@ -144,6 +159,11 @@ let
         "spigot-1.21.8" = _g7ZS72Qk;
         "spigot-1.21.9" = _g7ZS72Qk;
         "spigot-1.21.10" = _g7ZS72Qk;
+        "spigot-1.21.11" = _g7ZS72Qk;
+        "spigot-26.1" = _g7ZS72Qk;
+        "spigot-26.1.1" = _g7ZS72Qk;
+        "spigot-26.1.2" = _g7ZS72Qk;
+        "spigot-26.2" = _g7ZS72Qk;
         "pkg-1.0.0" = _g7ZS72Qk;
         "default" = _g7ZS72Qk;
     });

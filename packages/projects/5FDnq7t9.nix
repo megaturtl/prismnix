@@ -16,15 +16,29 @@ let
             "file" = "delta_delight-1.2.621-dev-9acdc4f.jar";
             "hash" = "sha512-ht+NROSnFewaeymBAc/YJ6QOlUrP4VEbFar0HA9So06/NyITqVVYZp+f3gsrw44Cm9gbYf6cvW6QTfS/Pv5ESg==";
         };
+        _xUTgl1E8 = {
+            "id" = "xUTgl1E8";
+            "file" = "delta_delight-1.3.804-dev-5b4be35.jar";
+            "hash" = "sha512-NVo78lN4MnFhcIA9LHK2aMOttHPlySnBY2B//q3mK5adTmVRCErapJXfG86JBn9aXzXUQgpVK212cMaOpq2mTA==";
+        };
+        _9fLIOHEw = {
+            "id" = "9fLIOHEw";
+            "file" = "delta_delight-1.3.819.jar";
+            "hash" = "sha512-lPY72OYfnrNVj+For4V8rgq0FtDFI3qTnYv+DHzKfHfxN4X/KihuU2NGz5MzbLEYQu4SUgM/Jr0h+nfI6Ag3Qg==";
+        };
     in {
         "tlWGVg9m" = _tlWGVg9m;
         "cpBc0WLU" = _cpBc0WLU;
         "vIu7IH0Q" = _vIu7IH0Q;
-        "forge-1.20.1" = _vIu7IH0Q;
+        "xUTgl1E8" = _xUTgl1E8;
+        "9fLIOHEw" = _9fLIOHEw;
+        "forge-1.20.1" = _9fLIOHEw;
         "pkg-1.1403" = _tlWGVg9m;
         "pkg-1.1413" = _cpBc0WLU;
         "pkg-1.2.621" = _vIu7IH0Q;
-        "default" = _vIu7IH0Q;
+        "pkg-1.3.804" = _xUTgl1E8;
+        "pkg-1.3.819" = _9fLIOHEw;
+        "default" = _9fLIOHEw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "delta-delight";

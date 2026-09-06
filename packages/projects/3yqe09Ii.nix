@@ -26,17 +26,43 @@ let
             "file" = "copycats-createfly-3.0.7-createfly+mc.26.2.jar";
             "hash" = "sha512-5q5zaKLi/J5p/osEuWkwb271y73SHQE1tHJzMvgBRi2uXmSkdmIxoyPjV92qwnC8343fYMYgrCiabVoGEQXKrg==";
         };
+        _6IHBnKvD = {
+            "id" = "6IHBnKvD";
+            "file" = "copycats-createfly-3.0.7-createfly+mc.26.1.2.jar";
+            "hash" = "sha512-F3AOLYp/E65vspJWQNPPs1MP7wUBAjy/yje9SdZIsS9h/QYq1gBXVSF9ACtnu5xu26aj3dkmIkl/ICPQ9DE+BA==";
+        };
+        _BWKL0Sem = {
+            "id" = "BWKL0Sem";
+            "file" = "copycats-createfly-3.0.7-createfly+mc.26.2.jar";
+            "hash" = "sha512-pj06l2R1la/Y18sKIXzLzEjKz9VaWNmb/cfGZ6gk4gylsojhuFwRP/lrY/whxQ/O4JmJQXqsU3WNndaQcvQtsg==";
+        };
+        _khQfHrm0 = {
+            "id" = "khQfHrm0";
+            "file" = "CopycatsPlus-26.2.jar";
+            "hash" = "sha512-u5m1NcvzGizwL77hgyUL/jFGXgRPUVLyIuo7tc4AKXqIMbzJDLM1Tm9gq4PMhI7x/N930TjW/DspVKLIiPIyQQ==";
+        };
+        _7hAtknvS = {
+            "id" = "7hAtknvS";
+            "file" = "CopycatsPlus-26.1-to-26.1.2.jar";
+            "hash" = "sha512-8qn0VpG4Tcjg36ucOB0O4dzvqeVBBISqxJv3Ci3HyFvu4mLBDfXPNp5SU58kbYtht9Rt+G5dGXJmdAxYNP7slg==";
+        };
     in {
         "ApTVlZRN" = _ApTVlZRN;
         "rS672lYr" = _rS672lYr;
         "u1n8BGM2" = _u1n8BGM2;
         "Lk8PZmRe" = _Lk8PZmRe;
         "iExokWgK" = _iExokWgK;
-        "fabric-26.1.2" = _Lk8PZmRe;
-        "fabric-26.2" = _iExokWgK;
-        "pkg-3.0.7-createfly+mc.26.1.2" = _Lk8PZmRe;
-        "pkg-3.0.7-createfly+mc.26.2" = _iExokWgK;
-        "default" = _iExokWgK;
+        "6IHBnKvD" = _6IHBnKvD;
+        "BWKL0Sem" = _BWKL0Sem;
+        "khQfHrm0" = _khQfHrm0;
+        "7hAtknvS" = _7hAtknvS;
+        "fabric-26.1.2" = _7hAtknvS;
+        "fabric-26.2" = _khQfHrm0;
+        "fabric-26.1" = _7hAtknvS;
+        "fabric-26.1.1" = _7hAtknvS;
+        "pkg-3.0.7-createfly+mc.26.1.2" = _7hAtknvS;
+        "pkg-3.0.7-createfly+mc.26.2" = _khQfHrm0;
+        "default" = _7hAtknvS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "copycats+-createfly-port";

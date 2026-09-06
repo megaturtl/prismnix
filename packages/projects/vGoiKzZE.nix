@@ -31,6 +31,11 @@ let
             "file" = "audioplayer-roleplay-fabric-0.3.0+26.2.jar";
             "hash" = "sha512-tHJ4n9MEuPqcTIksXztUqDT0MeIVYxFt0Xaf+RujO0nVt9H1u2d8j+FhY+J9DoJGDWqLXcnVTu/dXI1Z3hZ/YQ==";
         };
+        _rxNuG3kW = {
+            "id" = "rxNuG3kW";
+            "file" = "audioplayer-roleplay-fabric-0.4.0+26.2.jar";
+            "hash" = "sha512-dbXxHYMMulW9rTKi8s+V5mKWBdIk5ZcwXPi+vZq4dtOCz0lHHO8UM440FYgDc1dlYNKQNhMzENBU/0F9fDptnw==";
+        };
     in {
         "83acYh61" = _83acYh61;
         "KUFAXatK" = _KUFAXatK;
@@ -38,18 +43,20 @@ let
         "xlEs6o2R" = _xlEs6o2R;
         "wt4BwseN" = _wt4BwseN;
         "P2XAyraK" = _P2XAyraK;
+        "rxNuG3kW" = _rxNuG3kW;
         "fabric-1.21.11" = _83acYh61;
         "fabric-26.1" = _nQ1nXNwK;
         "fabric-26.1.1" = _nQ1nXNwK;
         "fabric-26.1.2" = _nQ1nXNwK;
-        "fabric-26.2" = _P2XAyraK;
+        "fabric-26.2" = _rxNuG3kW;
         "pkg-fabric-0.1.0+1.21.11" = _83acYh61;
         "pkg-fabric-0.1.0+26.1" = _KUFAXatK;
         "pkg-fabric-0.1.0+26.1.2" = _nQ1nXNwK;
         "pkg-fabric-0.1.0+26.2" = _xlEs6o2R;
         "pkg-fabric-0.2.0+26.2" = _wt4BwseN;
         "pkg-fabric-0.3.0+26.2" = _P2XAyraK;
-        "default" = _P2XAyraK;
+        "pkg-fabric-0.4.0+26.2" = _rxNuG3kW;
+        "default" = _rxNuG3kW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "audioplayer-roleplay";

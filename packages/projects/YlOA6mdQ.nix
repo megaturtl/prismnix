@@ -71,6 +71,21 @@ let
             "file" = "moderntrainparts-0.1.7-fabric-mc1.20.1-cr0.5.1-f.jar";
             "hash" = "sha512-r0kjs1mxQwxEgDwfqo2nuYsaLEec9XJcdunk4dwM+6ZjUBtIofFfVoZx0TETAgUpZBFEtKDVktcbPQrYZaHR8w==";
         };
+        _QqHglImW = {
+            "id" = "QqHglImW";
+            "file" = "moderntrainparts-0.2.5-forge-mc1.20.1-cr6.0.8.jar";
+            "hash" = "sha512-JHPqE7Zh09kQ0rBm+EIYiLQQFtYNYZIqkuvWbAm5zXwcUro20HbKHyUpNP3U35aVPBpS7IUs17rO6GVEyHjvMg==";
+        };
+        _cPEJmtve = {
+            "id" = "cPEJmtve";
+            "file" = "moderntrainparts-0.2.5-fabric-mc1.20.1-cr6.0.7.0+mc1.20.1.jar";
+            "hash" = "sha512-VXW1BUk3tAbqXtrb7zKhfYPQACmubaWIb/5j0WIROf7Jg9PAWzZXDVdrx0wDJ6Mq/ezZDXmn5dclYP6pewcfKw==";
+        };
+        _l2cuppxH = {
+            "id" = "l2cuppxH";
+            "file" = "moderntrainparts-0.2.5-neoforge-mc1.21.1-cr6.0.10.jar";
+            "hash" = "sha512-JHFN0u+DczO6tlq+Jk+PzW2TQdfmGuqQzyxDARflD+hedJAkr38SAW8yb6d5+hZgbDPNWI3BzQYMN03DkjD8AQ==";
+        };
     in {
         "wdFwtqpo" = _wdFwtqpo;
         "BToSoIQR" = _BToSoIQR;
@@ -86,10 +101,14 @@ let
         "Y4BcRznm" = _Y4BcRznm;
         "ZtrWTdJ1" = _ZtrWTdJ1;
         "gbCq2Ws8" = _gbCq2Ws8;
+        "QqHglImW" = _QqHglImW;
+        "cPEJmtve" = _cPEJmtve;
+        "l2cuppxH" = _l2cuppxH;
         "forge-1.18.2" = _lBpzEosd;
         "forge-1.19.2" = _1Qhd2IDz;
-        "forge-1.20.1" = _ZtrWTdJ1;
-        "fabric-1.20.1" = _gbCq2Ws8;
+        "forge-1.20.1" = _QqHglImW;
+        "fabric-1.20.1" = _cPEJmtve;
+        "neoforge-1.21.1" = _l2cuppxH;
         "pkg-0.2.1" = _BToSoIQR;
         "pkg-0.2.2" = _ow94GBOo;
         "pkg-0.14-forge-mc1.18.2-cr0.5.1.e" = _Ze72PkeC;
@@ -103,7 +122,10 @@ let
         "pkg-0.1.6-fabric-mc1.20.1-cr0.5.1-f" = _Y4BcRznm;
         "pkg-0.1.7-forge-mc1.20.1-cr0.5.1.f" = _ZtrWTdJ1;
         "pkg-0.1.7-fabric-mc1.20.1-cr0.5.1-f" = _gbCq2Ws8;
-        "default" = _gbCq2Ws8;
+        "pkg-0.2.5-forge-mc1.20.1-cr6.0.8" = _QqHglImW;
+        "pkg-0.2.5-cr6.0.7.0+" = _cPEJmtve;
+        "pkg-0.2.5" = _l2cuppxH;
+        "default" = _l2cuppxH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modern-train-parts";

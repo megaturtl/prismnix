@@ -61,6 +61,16 @@ let
             "file" = "the-twilight-realm-1.5.jar";
             "hash" = "sha512-5DdMqgLsK+yzbJQoaSTKum7ZkBVnBwnRhk+WoacAyJecq0NMALza3KfOY0AGHQkPuXkHnDEZ8Voy8gLs59PL2A==";
         };
+        _ddmai8yW = {
+            "id" = "ddmai8yW";
+            "file" = "Twilight Realm.zip";
+            "hash" = "sha512-Nq3BQ6AosqLp/vDLERi83XpDtUPj5TEr1GXtJGt/ITtBXfdcErJmRBKVCMqjjF55MsqMD0Hxo2BZ975Ty2X8Iw==";
+        };
+        _vn6HazkY = {
+            "id" = "vn6HazkY";
+            "file" = "the-twilight-realm-1.5.jar";
+            "hash" = "sha512-0QOSSe1G9btkjk4Hz0YiKCr2L7srsNWZIOorSYQHdDrfQ+aLTqCYE/lX4q7vUfPxlOtkjhaAyHgP+uC3jO8P+w==";
+        };
     in {
         "YxaV1wys" = _YxaV1wys;
         "Yz3sDiCv" = _Yz3sDiCv;
@@ -74,26 +84,33 @@ let
         "UewcUY1n" = _UewcUY1n;
         "vZ9ZF0AU" = _vZ9ZF0AU;
         "Uz7c3eWW" = _Uz7c3eWW;
+        "ddmai8yW" = _ddmai8yW;
+        "vn6HazkY" = _vn6HazkY;
         "datapack-26.1" = _vZ9ZF0AU;
         "datapack-26.1.1" = _vZ9ZF0AU;
         "datapack-26.1.2" = _vZ9ZF0AU;
         "datapack-26.2" = _vZ9ZF0AU;
+        "datapack-26.3-pre-2" = _ddmai8yW;
         "fabric-26.1" = _Uz7c3eWW;
         "fabric-26.1.1" = _Uz7c3eWW;
         "fabric-26.1.2" = _Uz7c3eWW;
         "fabric-26.2" = _Uz7c3eWW;
+        "fabric-26.3-pre-2" = _vn6HazkY;
         "forge-26.1" = _Uz7c3eWW;
         "forge-26.1.1" = _Uz7c3eWW;
         "forge-26.1.2" = _Uz7c3eWW;
         "forge-26.2" = _Uz7c3eWW;
+        "forge-26.3-pre-2" = _vn6HazkY;
         "neoforge-26.1" = _Uz7c3eWW;
         "neoforge-26.1.1" = _Uz7c3eWW;
         "neoforge-26.1.2" = _Uz7c3eWW;
         "neoforge-26.2" = _Uz7c3eWW;
+        "neoforge-26.3-pre-2" = _vn6HazkY;
         "quilt-26.1" = _Uz7c3eWW;
         "quilt-26.1.1" = _Uz7c3eWW;
         "quilt-26.1.2" = _Uz7c3eWW;
         "quilt-26.2" = _Uz7c3eWW;
+        "quilt-26.3-pre-2" = _vn6HazkY;
         "pkg-1.0" = _YxaV1wys;
         "pkg-1.0+mod" = _Yz3sDiCv;
         "pkg-1.1" = _diIe37zs;
@@ -104,9 +121,9 @@ let
         "pkg-1.3+mod" = _x1ecvZYv;
         "pkg-1.4" = _cDnnQlCf;
         "pkg-1.4+mod" = _UewcUY1n;
-        "pkg-1.5" = _vZ9ZF0AU;
-        "pkg-1.5+mod" = _Uz7c3eWW;
-        "default" = _Uz7c3eWW;
+        "pkg-1.5" = _ddmai8yW;
+        "pkg-1.5+mod" = _vn6HazkY;
+        "default" = _vn6HazkY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-twilight-realm";

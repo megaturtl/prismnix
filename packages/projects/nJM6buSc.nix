@@ -26,20 +26,62 @@ let
             "file" = "create_blueprinted-2.0.jar";
             "hash" = "sha512-WUQBET6N8u6gjBeW5ikpCwdalzQn4nLGBGeqwUmAvLEq4Tgu9NCQP6+QrZPRacxOMZ/mmA3ghLf7t6fA5TcURg==";
         };
+        _xrAjcS3L = {
+            "id" = "xrAjcS3L";
+            "file" = "create_blueprinted-2.1.jar";
+            "hash" = "sha512-wgNZQtxZCiAl1fUKLuZYxo5La3ruq0mtOeFsJXC0Fmxb+sOE6fB8EMlkJ6nq+wGmr0sG8FGVPVRom5SG9Kip1w==";
+        };
+        _LsYg66NK = {
+            "id" = "LsYg66NK";
+            "file" = "create_blueprinted-2.2.jar";
+            "hash" = "sha512-oI+PNuxzeIPL3x5YybxPUYq888hA0p2xEuz1yB1aHp0s3bFbyxF3mxTsu3sQ8/98z85WqPVYgSrB0SVNsKcz3A==";
+        };
+        _UzCda4Lf = {
+            "id" = "UzCda4Lf";
+            "file" = "create_blueprinted-2.2.1.jar";
+            "hash" = "sha512-hL2wCuSl+ExqbmTt99ebXo1OvBaSfIabc9CwJ3fRDGaJnA6eiP9CoSmb0qviQz/2PY+Jsq2QmX7cxHx3WR9fuw==";
+        };
+        _B8tUKMOR = {
+            "id" = "B8tUKMOR";
+            "file" = "create_blueprinted-2.2.2.jar";
+            "hash" = "sha512-wJqsai8tG8QYAVcf6wFMevD5cKvNXWQDqAu2e70OUEOTuTJr41Rf5MT4E9fWO+hAl3XOuYOjA2yJ0vUx9YXJQw==";
+        };
+        _9cKdYAyz = {
+            "id" = "9cKdYAyz";
+            "file" = "create_blueprinted-2.2.3.jar";
+            "hash" = "sha512-vxfpQKOlnlW9NztQw7qjsLJc7qobmMySLJvokd/FtM7husI/1BEKf4sF73ElHjCyFEwqrYCTuCoMpHJWV5N45A==";
+        };
+        _BUtMYN0D = {
+            "id" = "BUtMYN0D";
+            "file" = "create_blueprinted-2.2.4.jar";
+            "hash" = "sha512-8cWST267xQL1KCU4XfsfsMsceRfJf/OQeDYY4SmExqpuKoF6T42mZ6Tf57Q9h0/HnwmMJ1h0OZS/UEUdOy8pqQ==";
+        };
     in {
         "mOiSp6dd" = _mOiSp6dd;
         "onk5C6Df" = _onk5C6Df;
         "AeWwr17w" = _AeWwr17w;
         "wE5L8285" = _wE5L8285;
         "e50eIpMV" = _e50eIpMV;
-        "neoforge-1.21.1" = _e50eIpMV;
+        "xrAjcS3L" = _xrAjcS3L;
+        "LsYg66NK" = _LsYg66NK;
+        "UzCda4Lf" = _UzCda4Lf;
+        "B8tUKMOR" = _B8tUKMOR;
+        "9cKdYAyz" = _9cKdYAyz;
+        "BUtMYN0D" = _BUtMYN0D;
+        "neoforge-1.21.1" = _BUtMYN0D;
         "forge-1.20.1" = _wE5L8285;
         "pkg-1.0" = _mOiSp6dd;
         "pkg-1.0.1" = _onk5C6Df;
         "pkg-1.1+mc1.21.1-neoforge" = _AeWwr17w;
         "pkg-1.1+mc1.20.1-forge" = _wE5L8285;
         "pkg-2.0+mc1.21.1-neoforge" = _e50eIpMV;
-        "default" = _e50eIpMV;
+        "pkg-2.1+mc1.21.1-neoforge" = _xrAjcS3L;
+        "pkg-2.2+mc1.21.1-neoforge" = _LsYg66NK;
+        "pkg-2.2.1+mc1.21.1-neoforge" = _UzCda4Lf;
+        "pkg-2.2.2+mc1.21.1-neoforge" = _B8tUKMOR;
+        "pkg-2.2.3+mc1.21.1-neoforge" = _9cKdYAyz;
+        "pkg-2.2.4+mc1.21.1-neoforge" = _BUtMYN0D;
+        "default" = _BUtMYN0D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-blueprinted";

@@ -66,6 +66,36 @@ let
             "file" = "CobblemonTrialsEdition-neoforge-1.3.1.jar";
             "hash" = "sha512-ZlVzZwKIVUwVWxpoA6kBwFef3L3BGNYozkgteLYF6H72aYI3TliSDaB+DlxRT+hJVQRB1Up4fBlA0aem0DxdaQ==";
         };
+        _huYriEF3 = {
+            "id" = "huYriEF3";
+            "file" = "CobblemonTrialsEdition-neoforge-2.0.0.jar";
+            "hash" = "sha512-BKaf0M+aDh4az9Z/PQA3J94scREVj16adXFxn4A2NGeTQS+oobWLbCDpnmIfXWzwl28a2IIS7c5E1MYsN/15VA==";
+        };
+        _2X0GcYmQ = {
+            "id" = "2X0GcYmQ";
+            "file" = "CobblemonTrialsEdition-fabric-2.0.0.jar";
+            "hash" = "sha512-LZkE4fH4o98sles3ou5nCnuGJZZ70lKbCvEbCzsuC+I56Tb1QkrgIt16S6snvtIN4KxKbbB8Hrv/zalLCoFr4A==";
+        };
+        _br75aICL = {
+            "id" = "br75aICL";
+            "file" = "CobblemonTrialsEdition-neoforge-2.1.0.jar";
+            "hash" = "sha512-wrSNNPCgNM1b7g6Vtsr4VLSDwzKjYfMJpWuFwdgcwoDapNbBsUjUXmiMQ1ABYb47x2X34Ga73iq9Kbw9CmRGpA==";
+        };
+        _sTa2vKE4 = {
+            "id" = "sTa2vKE4";
+            "file" = "CobblemonTrialsEdition-fabric-2.1.0.jar";
+            "hash" = "sha512-qX7zB4S1VDZYD/o6p6JmcYA9/2Wko81xDvCuXgjzMeJY+B8ddySPkbViYlBQ4O6DWIl/edRrJ2Itv4lobSWzWw==";
+        };
+        _E3EbNveG = {
+            "id" = "E3EbNveG";
+            "file" = "CobblemonTrialsEdition-neoforge-2.1.1.jar";
+            "hash" = "sha512-jwH78UXmpG7RtK5O0XsF3ecog+3oE1/3Xbh3SDxlWGIokHMlGsWLf2ayYioENgZxvZgifwHChhO66itd5UlPng==";
+        };
+        _dZc1sz0P = {
+            "id" = "dZc1sz0P";
+            "file" = "CobblemonTrialsEdition-fabric-2.1.1.jar";
+            "hash" = "sha512-kzDcf+siGqEP+xKBH2pUeC4Z9YRhirfm7zGaVZk6w+p6sGUbtsfK3Cepu7f+EIirJ8625/Hc+gScD9DkKthZYQ==";
+        };
     in {
         "heWeqYpc" = _heWeqYpc;
         "h2Pd0dU8" = _h2Pd0dU8;
@@ -80,8 +110,14 @@ let
         "1dQO7pXK" = _1dQO7pXK;
         "aZ1gPBuL" = _aZ1gPBuL;
         "llxyFxFv" = _llxyFxFv;
-        "neoforge-1.21.1" = _llxyFxFv;
-        "fabric-1.21.1" = _aZ1gPBuL;
+        "huYriEF3" = _huYriEF3;
+        "2X0GcYmQ" = _2X0GcYmQ;
+        "br75aICL" = _br75aICL;
+        "sTa2vKE4" = _sTa2vKE4;
+        "E3EbNveG" = _E3EbNveG;
+        "dZc1sz0P" = _dZc1sz0P;
+        "neoforge-1.21.1" = _E3EbNveG;
+        "fabric-1.21.1" = _dZc1sz0P;
         "pkg-1.0.0" = _heWeqYpc;
         "pkg-1.1.0" = _4H5Rf0u5;
         "pkg-1.2.0" = _aV7LKPfL;
@@ -89,7 +125,10 @@ let
         "pkg-1.2.2" = _XdMo4HiB;
         "pkg-1.3.0" = _1dQO7pXK;
         "pkg-1.3.1" = _llxyFxFv;
-        "default" = _llxyFxFv;
+        "pkg-2.0.0" = _2X0GcYmQ;
+        "pkg-2.1.0" = _sTa2vKE4;
+        "pkg-2.1.1" = _dZc1sz0P;
+        "default" = _dZc1sz0P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-trials-edition";

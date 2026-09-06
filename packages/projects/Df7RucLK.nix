@@ -86,6 +86,16 @@ let
             "file" = "Respiteful.jar";
             "hash" = "sha512-2WFQzYU/wrHdVNGhp5FCMpC72nMbXb4Jy/1PPVwApO06kUB40g2IrPTAsYMlG5fCCyLmIXGxX6ykgZjwlaAp8g==";
         };
+        _EaMo8zOI = {
+            "id" = "EaMo8zOI";
+            "file" = "respiteful-1.4.0.jar";
+            "hash" = "sha512-j9WmPmG7OuQWODERUHWhEycT9uYs/vZbC8CkS6cSfls7vVcJALt7/Ml2lAcCvSV43L7ZJidyXHVI2FKMzWMLMQ==";
+        };
+        _wXBWChUn = {
+            "id" = "wXBWChUn";
+            "file" = "respiteful-1.4.1.jar";
+            "hash" = "sha512-XDIXAGSC7zUfDikjUlF/VE4557ugjsYOZDM1tofElo2apAb1wA8hZmIV59GQnecTHzTXf0TFUAI62wpXITuxFw==";
+        };
     in {
         "FcKwWpvR" = _FcKwWpvR;
         "YrxIPvil" = _YrxIPvil;
@@ -104,10 +114,12 @@ let
         "bdqN5nHs" = _bdqN5nHs;
         "SpLtls7A" = _SpLtls7A;
         "abeMbdkJ" = _abeMbdkJ;
+        "EaMo8zOI" = _EaMo8zOI;
+        "wXBWChUn" = _wXBWChUn;
         "forge-1.18.2" = _ckuYCn0m;
         "forge-1.19.2" = _NpcBHs0g;
-        "forge-1.20.1" = _abeMbdkJ;
-        "neoforge-1.20.1" = _abeMbdkJ;
+        "forge-1.20.1" = _wXBWChUn;
+        "neoforge-1.20.1" = _wXBWChUn;
         "pkg-1.0.0" = _YrxIPvil;
         "pkg-1.1.0" = _CoPdHFBS;
         "pkg-1.1.0-patch.1" = _CQQzRYk0;
@@ -118,7 +130,9 @@ let
         "pkg-1.2.0" = _bdqN5nHs;
         "pkg-1.2.1" = _SpLtls7A;
         "pkg-1.3.0" = _abeMbdkJ;
-        "default" = _abeMbdkJ;
+        "pkg-1.4.0" = _EaMo8zOI;
+        "pkg-1.4.1" = _wXBWChUn;
+        "default" = _wXBWChUn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "respiteful";

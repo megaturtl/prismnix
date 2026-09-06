@@ -21,16 +21,23 @@ let
             "file" = "CRZMovesPokemon-1.3.3.jar";
             "hash" = "sha512-vK3Kar6WnzFpPLOPmM8SDBt7Z9rFy/dWbETY4kncSznjXlQVVmH0Wpqw/rVdMxjcjtkpidzvrDXZOZXrXbSIWw==";
         };
+        _OUxL4aAR = {
+            "id" = "OUxL4aAR";
+            "file" = "CRZMovesPokemon-neoforge-1.3.3.jar";
+            "hash" = "sha512-3oKIjwSvOcLWPLc+X/796Pd/JymrCObLHyjRWbVCPFwEKbxh2m7usxZORn9Zy50XNn/rzFYq5R22UlQ5eJGC1A==";
+        };
     in {
         "4K9TMH27" = _4K9TMH27;
         "Vg5pubYg" = _Vg5pubYg;
         "UONBITrI" = _UONBITrI;
         "aoYTuybH" = _aoYTuybH;
+        "OUxL4aAR" = _OUxL4aAR;
         "fabric-1.21.1" = _aoYTuybH;
+        "neoforge-1.21.1" = _OUxL4aAR;
         "pkg-1.0.0" = _Vg5pubYg;
         "pkg-1.1.0" = _UONBITrI;
-        "pkg-1.3.3" = _aoYTuybH;
-        "default" = _aoYTuybH;
+        "pkg-1.3.3" = _OUxL4aAR;
+        "default" = _OUxL4aAR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemoncrzmovespokemon";

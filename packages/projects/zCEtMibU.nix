@@ -46,30 +46,15 @@ let
             "file" = "world tram pack 1.2.3.zip";
             "hash" = "sha512-6SG7O/otps/jbw9CeqCkBqYBTPd2jUJN51QNkpuKSoHEsXrCrQe35zu1/t8EsLKrVpOTBNuBVwmmsDcI+DYnsw==";
         };
-        _IUHGY51Q = {
-            "id" = "IUHGY51Q";
-            "file" = "world tram pack 1.2.4.zip";
-            "hash" = "sha512-F2w4l97we0mC9TjW1/vHsaCSnxqffiAIPQ72PAZXtHtrVpVAvGp+wXoQZcGEpAjqZLX2KG0kwSXHxKIKoVx8Og==";
-        };
-        _PKX2OUW3 = {
-            "id" = "PKX2OUW3";
-            "file" = "WTP 2.0.0 alpha-4.zip";
-            "hash" = "sha512-DCnJMJ/29fPQIOyrQBZfo63rVQtSD0AzTrlBQcx11knxogf69bUfhCIg4lksnDEE+bvqlrQVS4RP/J24w7suTQ==";
-        };
-        _vkIAc6kP = {
-            "id" = "vkIAc6kP";
-            "file" = "world tram pack 1.2.5.zip";
-            "hash" = "sha512-dyosYMPWqgFamqgaRevuXj6p1nxzqJumAq5K6fb83D6JDMGMZENekqFNkajh7wZpLEOgifniBA2xgSyJk5iJfQ==";
-        };
-        _7muICqdS = {
-            "id" = "7muICqdS";
-            "file" = "WTP 2.0.0 alpha-5.zip";
-            "hash" = "sha512-/MKC12bIShH+WFs4e7d4eXQRjwWelDv3M+JUKXqUguSB6Y6Cphi6F2YTjAg9npXHdmaGsuMx9dKOOce/cXu2Ug==";
-        };
-        _IA6uh7WJ = {
-            "id" = "IA6uh7WJ";
+        _zhiQUuHV = {
+            "id" = "zhiQUuHV";
             "file" = "world tram pack 1.2.5f.zip";
-            "hash" = "sha512-HIGo6S22Z3mQwKkg4thPPcrawnCW7UjT6nfjl4Au5XZZMo1sdYOjWWh9ubCLB9YD322IObPGh5Y4AIH1mUH7nw==";
+            "hash" = "sha512-H+ifzIwsMmarhPL9Zb8pheBPuzEn0l1VqiGmyxZCxHI5+C5qp9yPE6qLadepy2NRTcBKkdOg991HGzBuwA6r1g==";
+        };
+        _5FTXvDOp = {
+            "id" = "5FTXvDOp";
+            "file" = "WTP 2.0.0 alpha-5.zip";
+            "hash" = "sha512-uGMkTJ6+3Ml8njBcMsQREefNWJYUHa1unU8e4iZIU+pfJO0f47nSIcFSQgpVl6J9GOvKX8X52wqyVEiUy6tulw==";
         };
     in {
         "keXzXWHU" = _keXzXWHU;
@@ -81,33 +66,28 @@ let
         "TVqJnJUW" = _TVqJnJUW;
         "aYoxpMAO" = _aYoxpMAO;
         "SiqtpeeN" = _SiqtpeeN;
-        "IUHGY51Q" = _IUHGY51Q;
-        "PKX2OUW3" = _PKX2OUW3;
-        "vkIAc6kP" = _vkIAc6kP;
-        "7muICqdS" = _7muICqdS;
-        "IA6uh7WJ" = _IA6uh7WJ;
-        "minecraft-1.17.1" = _IA6uh7WJ;
-        "minecraft-1.18.2" = _IA6uh7WJ;
-        "minecraft-1.19.2" = _IA6uh7WJ;
-        "minecraft-1.19.3" = _vkIAc6kP;
-        "minecraft-1.19.4" = _IA6uh7WJ;
-        "minecraft-1.20.1" = _IA6uh7WJ;
-        "minecraft-1.19" = _vkIAc6kP;
-        "minecraft-1.19.1" = _vkIAc6kP;
+        "zhiQUuHV" = _zhiQUuHV;
+        "5FTXvDOp" = _5FTXvDOp;
+        "minecraft-1.17.1" = _5FTXvDOp;
+        "minecraft-1.18.2" = _5FTXvDOp;
+        "minecraft-1.19.2" = _5FTXvDOp;
+        "minecraft-1.19.3" = _TVqJnJUW;
+        "minecraft-1.19.4" = _aYoxpMAO;
+        "minecraft-1.20.1" = _5FTXvDOp;
+        "minecraft-1.19" = _zhiQUuHV;
+        "minecraft-1.19.1" = _5FTXvDOp;
         "minecraft-1.16.5" = _aYoxpMAO;
-        "minecraft-1.20" = _6vkSl6vA;
-        "minecraft-1.20.4" = _IA6uh7WJ;
+        "minecraft-1.20" = _5FTXvDOp;
+        "minecraft-1.20.4" = _5FTXvDOp;
         "pkg-1.1.1b" = _keXzXWHU;
         "pkg-1.1.1" = _HKsd6GdM;
         "pkg-1.1.2" = _xdmGHO80;
         "pkg-1.1.2f" = _ymvZzaB6;
-        "pkg-2.0.0" = _7muICqdS;
+        "pkg-2.0.0" = _5FTXvDOp;
         "pkg-1.1.3" = _TVqJnJUW;
         "pkg-1.2.3" = _SiqtpeeN;
-        "pkg-1.2.4" = _IUHGY51Q;
-        "pkg-1.2.5" = _vkIAc6kP;
-        "pkg-1.2.5fix" = _IA6uh7WJ;
-        "default" = _IA6uh7WJ;
+        "pkg-1.2.5f" = _zhiQUuHV;
+        "default" = _5FTXvDOp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "worldtrampack";
@@ -115,13 +95,13 @@ let
         type = "resourcepack";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "MIT" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved-Custom" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "MIT License";
-                shortName = "MIT";
-                url = null;
+                fullName = "LicenseRef-All-Rights-Reserved-Custom";
+                shortName = "LicenseRef-All-Rights-Reserved-Custom";
+                url = "https://raw.githubusercontent.com/MapperChan/world-tram-pack/refs/heads/main/LICENSE.md";
             };
         };
     };

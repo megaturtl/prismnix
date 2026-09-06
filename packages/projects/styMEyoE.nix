@@ -718,6 +718,7 @@ let
         "fabric-26.1" = _yFLibl5o;
         "fabric-26.1.1" = _yFLibl5o;
         "fabric-26.1.2" = _yFLibl5o;
+        "fabric-26.2" = _yFLibl5o;
         "legacy-fabric-1.12.2" = _2dmWAGZs;
         "legacy-fabric-1.8.9" = _IkKTIXK9;
         "pkg-1.0.7" = _sOXml339;

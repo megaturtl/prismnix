@@ -80,8 +80,8 @@ let
         "WjMCsigo" = _WjMCsigo;
         "7o62InvK" = _7o62InvK;
         "snCPknin" = _snCPknin;
-        "forge-1.12.2" = _snCPknin;
-        "forge-1.16.5" = _WjMCsigo;
+        "forge-1.12.2" = _7o62InvK;
+        "forge-1.16.5" = _snCPknin;
         "pkg-forge-1.12-1.0.44" = _90r8iTFi;
         "pkg-forge-1.16.5-1.0.44" = _vuOQLoaw;
         "pkg-forge-1.12.2-1.1.0" = _2EkudBDY;

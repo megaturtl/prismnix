@@ -31,6 +31,11 @@ let
             "file" = "Cozy_Beds-v1.4.zip";
             "hash" = "sha512-ghUUV61vyCk6cKkvH0Frgzj3CrJIUneCrDeZ5qI2taJAvYIozB53SiiqDdIAp0KuQ6IaTgfjmorqGpS3czayPA==";
         };
+        _GRJbaU96 = {
+            "id" = "GRJbaU96";
+            "file" = "Cozy_Beds-v2.0.zip";
+            "hash" = "sha512-OQ2nrpCTwSVe38EF9cn/gj+w0X2Sso4HjqbRts1ijuwJbHR/jkImCaorSnQjwjGRISRlnqPDnIsNugai1wq7fw==";
+        };
     in {
         "p5rILQvi" = _p5rILQvi;
         "uSzXSmus" = _uSzXSmus;
@@ -38,13 +43,14 @@ let
         "zjl3SIUV" = _zjl3SIUV;
         "jCu2QYdy" = _jCu2QYdy;
         "bkuejpVA" = _bkuejpVA;
-        "minecraft-1.21.4" = _bkuejpVA;
-        "minecraft-1.21.5" = _bkuejpVA;
-        "minecraft-1.21.6" = _bkuejpVA;
-        "minecraft-1.21.7" = _bkuejpVA;
-        "minecraft-1.21.8" = _bkuejpVA;
-        "minecraft-1.21.9" = _bkuejpVA;
-        "minecraft-1.21.10" = _bkuejpVA;
+        "GRJbaU96" = _GRJbaU96;
+        "minecraft-1.21.4" = _GRJbaU96;
+        "minecraft-1.21.5" = _GRJbaU96;
+        "minecraft-1.21.6" = _GRJbaU96;
+        "minecraft-1.21.7" = _GRJbaU96;
+        "minecraft-1.21.8" = _GRJbaU96;
+        "minecraft-1.21.9" = _GRJbaU96;
+        "minecraft-1.21.10" = _GRJbaU96;
         "minecraft-1.16.5" = _jCu2QYdy;
         "minecraft-1.17" = _jCu2QYdy;
         "minecraft-1.17.1" = _jCu2QYdy;
@@ -67,17 +73,19 @@ let
         "minecraft-1.21.1" = _jCu2QYdy;
         "minecraft-1.21.2" = _jCu2QYdy;
         "minecraft-1.21.3" = _jCu2QYdy;
-        "minecraft-1.21.11" = _bkuejpVA;
-        "minecraft-26.1" = _bkuejpVA;
-        "minecraft-26.1.1" = _bkuejpVA;
-        "minecraft-26.1.2" = _bkuejpVA;
+        "minecraft-1.21.11" = _GRJbaU96;
+        "minecraft-26.1" = _GRJbaU96;
+        "minecraft-26.1.1" = _GRJbaU96;
+        "minecraft-26.1.2" = _GRJbaU96;
+        "minecraft-26.2" = _GRJbaU96;
         "pkg-1.0" = _p5rILQvi;
         "pkg-1.1" = _uSzXSmus;
         "pkg-1.2" = _8GKBxy7o;
         "pkg-1.3" = _zjl3SIUV;
         "pkg-1.4-pre1.21.4" = _jCu2QYdy;
         "pkg-1.4" = _bkuejpVA;
-        "default" = _bkuejpVA;
+        "pkg-2.0" = _GRJbaU96;
+        "default" = _GRJbaU96;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cozy-beds";

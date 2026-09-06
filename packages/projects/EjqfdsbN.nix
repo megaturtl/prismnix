@@ -111,6 +111,26 @@ let
             "file" = "the_afterdark-1.21.5-fabric-1.0.3.1.jar";
             "hash" = "sha512-xn/l6Xy5ly9uXra48pHe+4e1PuawtKv0KPAZ37DMQBOnD0d+0JSrzQPJoRY3tb7AoGSgc65WtgSKRBJWQFw5pA==";
         };
+        _SYXAXBfr = {
+            "id" = "SYXAXBfr";
+            "file" = "the_afterdark-1.20.1-fabric-1.1.0.jar";
+            "hash" = "sha512-cO8GGomMs89o4NIzPcGtxi7D2Y0W/OBH/r6bU2gDDzbuAY1awDbuAvf+9gNlc5o7M5cVMTWrt+5LDl43yNoREg==";
+        };
+        _fkkZ2QKe = {
+            "id" = "fkkZ2QKe";
+            "file" = "the_afterdark-1.20.1-forge-1.1.0.jar";
+            "hash" = "sha512-6BYbOUmeOtjmyA1jh4yLYS/ZjOGAbXHEQFxAHmCA3aM1cSZhluZxCJYX/mU+JMe23WfY+C9tQcym3rLAdkK1nA==";
+        };
+        _9ExsVFk8 = {
+            "id" = "9ExsVFk8";
+            "file" = "the_afterdark-fabric-1.21.1-1.1.0.jar";
+            "hash" = "sha512-TpMTwWezuuLRIF1jXzdi0WYmsCGu8a4e3laSdHLwk81Os8gi2nB3QUyrfjQaZhgiOVF2lLm2RQnrEuon87QoiA==";
+        };
+        _DHqkAKAo = {
+            "id" = "DHqkAKAo";
+            "file" = "the_afterdark-neoforge-1.21.1-1.1.0.jar";
+            "hash" = "sha512-OXf5yAjQg5fDFX9NSPrTsJAnvb6IXauoSV3OgY6gXsyyf9zAsENqmwnO7pLkUjXXDIH4CfkqjsAys+iQq83sbg==";
+        };
     in {
         "t1puAes4" = _t1puAes4;
         "wQhoDUnS" = _wQhoDUnS;
@@ -134,12 +154,16 @@ let
         "4h8Fgd24" = _4h8Fgd24;
         "Ewu9kvJ6" = _Ewu9kvJ6;
         "XrlOWBH1" = _XrlOWBH1;
+        "SYXAXBfr" = _SYXAXBfr;
+        "fkkZ2QKe" = _fkkZ2QKe;
+        "9ExsVFk8" = _9ExsVFk8;
+        "DHqkAKAo" = _DHqkAKAo;
         "fabric-1.20" = _lDfQS5mM;
-        "fabric-1.20.1" = _lDfQS5mM;
+        "fabric-1.20.1" = _SYXAXBfr;
         "fabric-1.20.2" = _lDfQS5mM;
         "fabric-1.20.3" = _lDfQS5mM;
         "fabric-1.20.4" = _lDfQS5mM;
-        "fabric-1.21.1" = _fmzq2nnA;
+        "fabric-1.21.1" = _9ExsVFk8;
         "fabric-1.21.3" = _4R3PmRvo;
         "fabric-1.21.4" = _5kdZ4xxT;
         "fabric-1.21.5" = _XrlOWBH1;
@@ -151,19 +175,20 @@ let
         "quilt-1.21.1" = _fmzq2nnA;
         "quilt-1.21.3" = _4R3PmRvo;
         "quilt-1.21.4" = _5kdZ4xxT;
-        "forge-1.20.1" = _99KZbQ6b;
+        "forge-1.20.1" = _fkkZ2QKe;
         "forge-1.21.1" = _5QgX3DrX;
         "forge-1.21.3" = _cF0Jdfjn;
         "forge-1.21.4" = _4c1nUon5;
         "forge-1.21.5" = _4h8Fgd24;
         "neoforge-1.20.1" = _99KZbQ6b;
-        "neoforge-1.21.1" = _McycPVDO;
+        "neoforge-1.21.1" = _DHqkAKAo;
         "neoforge-1.21.3" = _syecxmaS;
         "neoforge-1.21.4" = _3KMsCMKP;
         "neoforge-1.21.5" = _Ewu9kvJ6;
         "pkg-1.0.3" = _cJrHXlPy;
         "pkg-1.0.3.1" = _XrlOWBH1;
-        "default" = _XrlOWBH1;
+        "pkg-1.1.0" = _DHqkAKAo;
+        "default" = _DHqkAKAo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-afterdark";

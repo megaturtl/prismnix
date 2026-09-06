@@ -150,6 +150,7 @@ let
         "minecraft-26.1" = _hW2BbtE4;
         "minecraft-26.1.1" = _hW2BbtE4;
         "minecraft-26.1.2" = _hW2BbtE4;
+        "minecraft-26.2" = _hW2BbtE4;
         "pkg-1.0.0" = _vIA8d9f2;
         "pkg-1.1.0" = _LNRShecG;
         "pkg-1.1.1" = _8CmiOzPI;

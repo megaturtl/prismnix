@@ -111,6 +111,11 @@ let
             "file" = "compound_v-2.3.5.jar";
             "hash" = "sha512-LZGuUbX49zw9wzPrjJ/HQS8jlYA4u+B8tB69CMzvgQPcukxbutUSfRg0/xDZShYnCv5t3K1WzoYdrBhssUOopQ==";
         };
+        _yT531n50 = {
+            "id" = "yT531n50";
+            "file" = "compound_v-2.3.6.jar";
+            "hash" = "sha512-E2v0z4robwnPNbujGClOnQPDAsMjZTMBpm1efNeuHrXykmbGIC27XO8DM2UDjBSwb9qBz3SYqWIuj/BGNJe+zQ==";
+        };
     in {
         "I4nMLCce" = _I4nMLCce;
         "ZXvlYTiT" = _ZXvlYTiT;
@@ -134,7 +139,8 @@ let
         "vVqtGpdn" = _vVqtGpdn;
         "1ZZjPES8" = _1ZZjPES8;
         "C65KHe5Y" = _C65KHe5Y;
-        "forge-1.20.1" = _C65KHe5Y;
+        "yT531n50" = _yT531n50;
+        "forge-1.20.1" = _yT531n50;
         "pkg-1.0.0" = _I4nMLCce;
         "pkg-1.0.2" = _ZXvlYTiT;
         "pkg-2.0.0" = _GMV9BZ3n;
@@ -157,7 +163,8 @@ let
         "pkg-2.3.3" = _vVqtGpdn;
         "pkg-2.3.4" = _1ZZjPES8;
         "pkg-2.3.5" = _C65KHe5Y;
-        "default" = _C65KHe5Y;
+        "pkg-2.3.6" = _yT531n50;
+        "default" = _yT531n50;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "compound-v";

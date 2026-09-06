@@ -41,6 +41,21 @@ let
             "file" = "ctl-neoforge-1.1.1.jar";
             "hash" = "sha512-4hDwjLdHmHfy8wCCopDV++zU1xrOz2i7ehAhRsEZce3dU2+qCFKvuzXAZyfvYkUJFFERXdmfDnqANX5EkMztQA==";
         };
+        _SEU6EOVz = {
+            "id" = "SEU6EOVz";
+            "file" = "ctl-fabric-1.2.0-C6.jar";
+            "hash" = "sha512-ULpI87T63BuNKklPYziGpHdKwX3VzAleHOuEUFzOzbYCb79yQcOK7v2xAohr+QKahKCiMgjxt9HJHKRKV0n6RQ==";
+        };
+        _PWh96z02 = {
+            "id" = "PWh96z02";
+            "file" = "ctl-forge-1.2.0-C6.jar";
+            "hash" = "sha512-cSULErNGEtRRWOJyL6xASDfjW4pfbUIeGmfMB0ImOle+YW4lajoDCnDD4JYBZd/+6YOW6ulP69SPg0TeRMuaVg==";
+        };
+        _nZ2FO2DF = {
+            "id" = "nZ2FO2DF";
+            "file" = "ctl-neoforge-1.2.0.jar";
+            "hash" = "sha512-sGTchbykpVPReCJXfaX9aw4qMhxzS5EoahQdTontMmE/oT6pb6azq3ltusIKkcYH+FWVq0r6brkGGdGP+n6+1A==";
+        };
     in {
         "cAoWDNYZ" = _cAoWDNYZ;
         "NIHIs0ZX" = _NIHIs0ZX;
@@ -50,10 +65,13 @@ let
         "GVqUKzJp" = _GVqUKzJp;
         "u4VTtfef" = _u4VTtfef;
         "suYdvEKP" = _suYdvEKP;
-        "forge-1.20.1" = _u4VTtfef;
-        "neoforge-1.20.1" = _u4VTtfef;
-        "neoforge-1.21.1" = _suYdvEKP;
-        "fabric-1.20.1" = _GVqUKzJp;
+        "SEU6EOVz" = _SEU6EOVz;
+        "PWh96z02" = _PWh96z02;
+        "nZ2FO2DF" = _nZ2FO2DF;
+        "forge-1.20.1" = _PWh96z02;
+        "neoforge-1.20.1" = _PWh96z02;
+        "neoforge-1.21.1" = _nZ2FO2DF;
+        "fabric-1.20.1" = _SEU6EOVz;
         "pkg-1.0.1-C6" = _cAoWDNYZ;
         "pkg-1.0.2-C6" = _NIHIs0ZX;
         "pkg-1.0.2" = _u9Zl94Vv;
@@ -61,7 +79,9 @@ let
         "pkg-1.1.0" = _V5CufkVY;
         "pkg-1.1.1-C6" = _u4VTtfef;
         "pkg-1.1.1" = _suYdvEKP;
-        "default" = _suYdvEKP;
+        "pkg-1.2.0-C6" = _PWh96z02;
+        "pkg-1.2.0" = _nZ2FO2DF;
+        "default" = _nZ2FO2DF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-train-lights";

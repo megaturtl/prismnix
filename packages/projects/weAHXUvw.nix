@@ -31,6 +31,11 @@ let
             "file" = "Kind-s_Crystal_Optimizer-1.5.0.jar";
             "hash" = "sha512-jErA0lak+LViuiOk8BOO/AHkjjWCx/OxJPW050JV3/4sBJDBPprakIcYGeGyW+o2M0DqEfcfRxuLTPWHtnH03A==";
         };
+        _XDCy477c = {
+            "id" = "XDCy477c";
+            "file" = "Kind-s_Crystal_Optimizer-1.5.0.jar";
+            "hash" = "sha512-jErA0lak+LViuiOk8BOO/AHkjjWCx/OxJPW050JV3/4sBJDBPprakIcYGeGyW+o2M0DqEfcfRxuLTPWHtnH03A==";
+        };
     in {
         "vkZ3jSRQ" = _vkZ3jSRQ;
         "Rsarukjt" = _Rsarukjt;
@@ -38,24 +43,27 @@ let
         "FoQSsisd" = _FoQSsisd;
         "ns7RPH2l" = _ns7RPH2l;
         "zPzpwtrH" = _zPzpwtrH;
-        "fabric-1.21.1" = _zPzpwtrH;
-        "fabric-1.21.2" = _zPzpwtrH;
-        "fabric-1.21.3" = _zPzpwtrH;
-        "fabric-1.21.4" = _zPzpwtrH;
-        "fabric-1.21.5" = _zPzpwtrH;
-        "fabric-1.21.6" = _zPzpwtrH;
-        "fabric-1.21.7" = _zPzpwtrH;
-        "fabric-1.21.8" = _zPzpwtrH;
-        "fabric-1.21.9" = _zPzpwtrH;
-        "fabric-1.21.10" = _zPzpwtrH;
-        "fabric-1.21.11" = _zPzpwtrH;
-        "fabric-1.21" = _ns7RPH2l;
-        "fabric-26.1.1" = _zPzpwtrH;
-        "fabric-26.1.2" = _zPzpwtrH;
-        "fabric-26.1" = _zPzpwtrH;
+        "XDCy477c" = _XDCy477c;
+        "fabric-1.21.1" = _XDCy477c;
+        "fabric-1.21.2" = _XDCy477c;
+        "fabric-1.21.3" = _XDCy477c;
+        "fabric-1.21.4" = _XDCy477c;
+        "fabric-1.21.5" = _XDCy477c;
+        "fabric-1.21.6" = _XDCy477c;
+        "fabric-1.21.7" = _XDCy477c;
+        "fabric-1.21.8" = _XDCy477c;
+        "fabric-1.21.9" = _XDCy477c;
+        "fabric-1.21.10" = _XDCy477c;
+        "fabric-1.21.11" = _XDCy477c;
+        "fabric-1.21" = _XDCy477c;
+        "fabric-26.1.1" = _XDCy477c;
+        "fabric-26.1.2" = _XDCy477c;
+        "fabric-26.1" = _XDCy477c;
+        "fabric-26.2" = _XDCy477c;
         "pkg-1.0.0" = _ns7RPH2l;
         "pkg-1.5.0" = _zPzpwtrH;
-        "default" = _zPzpwtrH;
+        "pkg-1.5.1" = _XDCy477c;
+        "default" = _XDCy477c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kinds-crystal-optimizer";

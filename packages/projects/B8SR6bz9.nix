@@ -36,6 +36,16 @@ let
             "file" = "trs1.0.28neoforge1.21.1.jar";
             "hash" = "sha512-Fb0OtwtO9E0u6ysArww/E/EXkUvPRN8Dh1V44nBRws+TnoK1RNqnb7BDpQOZs5Hm0vUqnN1mlX7+UajxiTdZhg==";
         };
+        _ZjlOGM2f = {
+            "id" = "ZjlOGM2f";
+            "file" = "trs1.1.0neoforge1.21.1.jar";
+            "hash" = "sha512-o9J1KCK2gg7zRpYNjzGlf+vTxUcxCQCePZVSwPJCH4PBt+ipnWVAT760gDRu7tpJXkfj1JeeYKHPwiwgxirh+A==";
+        };
+        _HT9Ue2b8 = {
+            "id" = "HT9Ue2b8";
+            "file" = "trs1.2.0neoforge1.21.1.jar";
+            "hash" = "sha512-rJ5vzzGdsOiXET3fe2IQDnNXojy4fb18ZhFYPg+ODdxZI9OI4PsaIJ4zovCExPpTxSR91LHD45Uz/aRS4p7hhQ==";
+        };
     in {
         "Dd30QiMy" = _Dd30QiMy;
         "WKZELDH1" = _WKZELDH1;
@@ -44,18 +54,20 @@ let
         "DG8Dhri4" = _DG8Dhri4;
         "sPpN8Tcz" = _sPpN8Tcz;
         "nsC2l6Jo" = _nsC2l6Jo;
-        "neoforge-1.21.1" = _nsC2l6Jo;
-        "neoforge-1.21" = _nsC2l6Jo;
-        "neoforge-1.21.2" = _nsC2l6Jo;
-        "neoforge-1.21.3" = _nsC2l6Jo;
-        "neoforge-1.21.4" = _nsC2l6Jo;
-        "neoforge-1.21.5" = _nsC2l6Jo;
-        "neoforge-1.21.6" = _nsC2l6Jo;
-        "neoforge-1.21.7" = _nsC2l6Jo;
-        "neoforge-1.21.8" = _nsC2l6Jo;
-        "neoforge-1.21.9" = _nsC2l6Jo;
-        "neoforge-1.21.10" = _nsC2l6Jo;
-        "neoforge-1.21.11" = _nsC2l6Jo;
+        "ZjlOGM2f" = _ZjlOGM2f;
+        "HT9Ue2b8" = _HT9Ue2b8;
+        "neoforge-1.21.1" = _HT9Ue2b8;
+        "neoforge-1.21" = _HT9Ue2b8;
+        "neoforge-1.21.2" = _HT9Ue2b8;
+        "neoforge-1.21.3" = _HT9Ue2b8;
+        "neoforge-1.21.4" = _HT9Ue2b8;
+        "neoforge-1.21.5" = _HT9Ue2b8;
+        "neoforge-1.21.6" = _HT9Ue2b8;
+        "neoforge-1.21.7" = _HT9Ue2b8;
+        "neoforge-1.21.8" = _HT9Ue2b8;
+        "neoforge-1.21.9" = _HT9Ue2b8;
+        "neoforge-1.21.10" = _HT9Ue2b8;
+        "neoforge-1.21.11" = _HT9Ue2b8;
         "pkg-1.0.6" = _Dd30QiMy;
         "pkg-1.0.13" = _WKZELDH1;
         "pkg-1.0.19" = _amHlulRT;
@@ -63,7 +75,9 @@ let
         "pkg-1.0.22" = _DG8Dhri4;
         "pkg-1.0.24" = _sPpN8Tcz;
         "pkg-1.0.28" = _nsC2l6Jo;
-        "default" = _nsC2l6Jo;
+        "pkg-1.1.0" = _ZjlOGM2f;
+        "pkg-1.2.0" = _HT9Ue2b8;
+        "default" = _HT9Ue2b8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tidal-observation-card";

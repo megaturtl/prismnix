@@ -131,6 +131,21 @@ let
             "file" = "mffs-5.1.28-all.jar";
             "hash" = "sha512-MtTQvEbZhMbhhtfhBWXJobxow12JHmW8mjEGGZI3tHkSsZXr+tsuz4M7p0GCulSyiB5gEBFxqnP4D5OFdaBG8w==";
         };
+        _4j7tQ2aG = {
+            "id" = "4j7tQ2aG";
+            "file" = "mffs-5.8.33.jar";
+            "hash" = "sha512-PZ1PoBCZN7hMTOn2k/VMHMPp04kAa/MTpxOvfCkNq0eg/DAr5i/RpC/vwlkRq4v8HawDUXBriNgNpMBLAvREig==";
+        };
+        _BJEAZiJb = {
+            "id" = "BJEAZiJb";
+            "file" = "mffs-5.1.29-all.jar";
+            "hash" = "sha512-J+z0clvdnL0endOidI/VxKop+X21JF0rk8E/jujqrJg7co38E6dINfTj5Rf8NsobCon232Lbfl7OEj6WDnLnAA==";
+        };
+        _7UOf3Bee = {
+            "id" = "7UOf3Bee";
+            "file" = "mffs-5.8.38.jar";
+            "hash" = "sha512-rvk/HGWPdoQdUcQbnGwBfqxYfK7yCVjkgwgchg3CnMrMjF6HOAJY88sp8kj9jYkzYSNAp+YTnzvY1bo9tr0meQ==";
+        };
     in {
         "PzWZOVDp" = _PzWZOVDp;
         "PZSYmXRV" = _PZSYmXRV;
@@ -158,6 +173,9 @@ let
         "JA5nQUYO" = _JA5nQUYO;
         "MlUrp3xC" = _MlUrp3xC;
         "awhVb0nj" = _awhVb0nj;
+        "4j7tQ2aG" = _4j7tQ2aG;
+        "BJEAZiJb" = _BJEAZiJb;
+        "7UOf3Bee" = _7UOf3Bee;
         "neoforge-1.20.4" = _XwLoeWC6;
         "neoforge-1.20.6" = _hckGM2xI;
         "neoforge-1.21" = _P78MhD7R;
@@ -165,8 +183,8 @@ let
         "neoforge-1.21.4" = _TgdaLwwl;
         "neoforge-1.21.8" = _TKx1XD4p;
         "neoforge-1.21.11" = _JWhnA2Ke;
-        "neoforge-26.1.2" = _JA5nQUYO;
-        "forge-1.20.1" = _awhVb0nj;
+        "neoforge-26.1.2" = _7UOf3Bee;
+        "forge-1.20.1" = _BJEAZiJb;
         "pkg-5.2.5" = _PzWZOVDp;
         "pkg-5.1.9" = _PZSYmXRV;
         "pkg-5.3.2" = _hckGM2xI;
@@ -192,7 +210,10 @@ let
         "pkg-5.8.32" = _JA5nQUYO;
         "pkg-5.4.44" = _MlUrp3xC;
         "pkg-5.1.28" = _awhVb0nj;
-        "default" = _awhVb0nj;
+        "pkg-5.8.33" = _4j7tQ2aG;
+        "pkg-5.1.29" = _BJEAZiJb;
+        "pkg-5.8.38" = _7UOf3Bee;
+        "default" = _7UOf3Bee;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mffs";

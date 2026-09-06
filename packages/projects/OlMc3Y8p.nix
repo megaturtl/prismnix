@@ -261,6 +261,11 @@ let
             "file" = "avomod2-1.5.6+1.21.11.jar";
             "hash" = "sha512-kXrn67pzw7l6l4TpEpus3BNdu1IVz+IVc1Lm2ej2Za4PSOeGzE3LpvLj3Dlh3Wg6HFyFLWVfMOq1V8iBxfM5Yg==";
         };
+        _us9i0B1M = {
+            "id" = "us9i0B1M";
+            "file" = "avomod2-1.5.7+1.21.11.jar";
+            "hash" = "sha512-T1wmpzjtwJF9S5QPjOE5qHl0VeH+/FIn5W7zr0T6eZYF9Gx+upQUHcnKOV+szO1MLRZP/Lat7xVyuxQ4fdUtfw==";
+        };
     in {
         "VkfTTY8C" = _VkfTTY8C;
         "admXSfXS" = _admXSfXS;
@@ -314,6 +319,7 @@ let
         "1TVPGdJC" = _1TVPGdJC;
         "B15MCArB" = _B15MCArB;
         "eKrFp2Kx" = _eKrFp2Kx;
+        "us9i0B1M" = _us9i0B1M;
         "fabric-1.18.2" = _oVqW2yF1;
         "fabric-1.19.3" = _BS64bBgJ;
         "fabric-1.19.4" = _e6hXyLER;
@@ -321,7 +327,7 @@ let
         "fabric-1.21" = _LFoQvrpE;
         "fabric-1.21.1" = _lC9fvqYT;
         "fabric-1.21.4" = _2ET0Hx8f;
-        "fabric-1.21.11" = _eKrFp2Kx;
+        "fabric-1.21.11" = _us9i0B1M;
         "forge-1.12.2" = _admXSfXS;
         "pkg-1.0.0" = _VkfTTY8C;
         "pkg-1.6.6" = _admXSfXS;
@@ -375,7 +381,8 @@ let
         "pkg-1.5.4+1.21.11" = _1TVPGdJC;
         "pkg-1.5.5+1.21.11" = _B15MCArB;
         "pkg-1.5.6+1.21.11" = _eKrFp2Kx;
-        "default" = _eKrFp2Kx;
+        "pkg-1.5.7+1.21.11" = _us9i0B1M;
+        "default" = _us9i0B1M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "avomod";

@@ -366,6 +366,16 @@ let
             "file" = "bmm-paper-2.1.17.jar";
             "hash" = "sha512-+xKZc3qdrIUfarrickVlJEogq+YdYb+k25KOQqA6aqN3w3D9BSKoxpjv35dVp9yfTEqC9KOvAv+oNWaaO7BqMQ==";
         };
+        _K9Nyp2JJ = {
+            "id" = "K9Nyp2JJ";
+            "file" = "bmm-paper-2.1.18.jar";
+            "hash" = "sha512-kWjjA67BRNv5IdOEiGKJqgFUmTu6OUkZVmFCcNg3eQ1c+v79VDFTuZB/Wo1wJdERJyO878Xx8noXjcPH1Y3NGA==";
+        };
+        _ovnGOXwj = {
+            "id" = "ovnGOXwj";
+            "file" = "bmm-fabric-2.1.18.jar";
+            "hash" = "sha512-t5pqRNUIMbL9aV94XlxfohVs8GU+87qpqLFYlXXEqwXT7Rb4nN4x7t0qioCYbrSaBGpxvBvqVgpTGudLZv8b/A==";
+        };
     in {
         "W8GNKbWu" = _W8GNKbWu;
         "qcfGxZIH" = _qcfGxZIH;
@@ -440,6 +450,8 @@ let
         "xIyVWvc4" = _xIyVWvc4;
         "uFrheFCY" = _uFrheFCY;
         "1msHpNMR" = _1msHpNMR;
+        "K9Nyp2JJ" = _K9Nyp2JJ;
+        "ovnGOXwj" = _ovnGOXwj;
         "paper-1.19" = _es8eJc4A;
         "paper-1.19.1" = _es8eJc4A;
         "paper-1.19.2" = _es8eJc4A;
@@ -478,7 +490,7 @@ let
         "paper-26.1" = _pEHMUFOG;
         "paper-26.1.1" = _pEHMUFOG;
         "paper-26.1.2" = _pEHMUFOG;
-        "paper-26.2" = _1msHpNMR;
+        "paper-26.2" = _K9Nyp2JJ;
         "spigot-1.19" = _Q2gioF2S;
         "spigot-1.19.1" = _Q2gioF2S;
         "spigot-1.19.2" = _Q2gioF2S;
@@ -549,7 +561,7 @@ let
         "purpur-26.1" = _pEHMUFOG;
         "purpur-26.1.1" = _pEHMUFOG;
         "purpur-26.1.2" = _pEHMUFOG;
-        "purpur-26.2" = _1msHpNMR;
+        "purpur-26.2" = _K9Nyp2JJ;
         "fabric-1.19" = _I3hisgkZ;
         "fabric-1.19.1" = _I3hisgkZ;
         "fabric-1.19.2" = _I3hisgkZ;
@@ -574,10 +586,10 @@ let
         "fabric-1.21.9" = _78c2r0ML;
         "fabric-1.21.10" = _78c2r0ML;
         "fabric-1.21.11" = _HSNjHWkO;
-        "fabric-26.1" = _ZRiVWoLD;
-        "fabric-26.1.1" = _ZRiVWoLD;
-        "fabric-26.1.2" = _ZRiVWoLD;
-        "fabric-26.2" = _yS3NdeSz;
+        "fabric-26.1" = _ovnGOXwj;
+        "fabric-26.1.1" = _ovnGOXwj;
+        "fabric-26.1.2" = _ovnGOXwj;
+        "fabric-26.2" = _ovnGOXwj;
         "quilt-1.20" = _yxu1UqLJ;
         "quilt-1.20.1" = _yxu1UqLJ;
         "quilt-1.20.2" = _8DWdvWg3;
@@ -650,7 +662,8 @@ let
         "pkg-2.1.15" = _xIyVWvc4;
         "pkg-2.1.16" = _uFrheFCY;
         "pkg-2.1.17" = _1msHpNMR;
-        "default" = _1msHpNMR;
+        "pkg-2.1.18" = _ovnGOXwj;
+        "default" = _ovnGOXwj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bmarker";

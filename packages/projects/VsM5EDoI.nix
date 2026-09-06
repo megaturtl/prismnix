@@ -131,6 +131,11 @@ let
             "file" = "blueprint-1.21.1-8.1.1.jar";
             "hash" = "sha512-RJKaWjEqXcwGYDuKNsoqMeSVxA76ieyMZHNT09PFaxKw6w0rz61FSCHfVRaKDz6E1IXnPaW6KG1HI/ltKYuLGA==";
         };
+        _FHOjk8Ez = {
+            "id" = "FHOjk8Ez";
+            "file" = "blueprint-1.21.1-8.2.0.jar";
+            "hash" = "sha512-C1I8LVOlZnYobd0Trb5lsaJPWvYEDb7Gr5o4zFNbe6JTGhh5r7eklsQHaD6sv77SJwEFOGGl/RInGwiskyOdtA==";
+        };
     in {
         "LeFEEsj6" = _LeFEEsj6;
         "SnLXbWe9" = _SnLXbWe9;
@@ -158,6 +163,7 @@ let
         "AiaPEN6q" = _AiaPEN6q;
         "5JOCYuQM" = _5JOCYuQM;
         "LMGtMapI" = _LMGtMapI;
+        "FHOjk8Ez" = _FHOjk8Ez;
         "forge-1.18.2" = _LeFEEsj6;
         "forge-1.19.2" = _SnLXbWe9;
         "forge-1.20.1" = _AiaPEN6q;
@@ -166,7 +172,7 @@ let
         "forge-1.16.5" = _fEmF971j;
         "forge-1.17.1" = _L7ot1xtH;
         "neoforge-1.20.1" = _AiaPEN6q;
-        "neoforge-1.21.1" = _LMGtMapI;
+        "neoforge-1.21.1" = _FHOjk8Ez;
         "pkg-5.5.0" = _LeFEEsj6;
         "pkg-6.2.0" = _SnLXbWe9;
         "pkg-7.0.0" = _W7LnjQML;
@@ -193,7 +199,8 @@ let
         "pkg-7.1.4" = _AiaPEN6q;
         "pkg-8.1.0" = _5JOCYuQM;
         "pkg-8.1.1" = _LMGtMapI;
-        "default" = _LMGtMapI;
+        "pkg-8.2.0" = _FHOjk8Ez;
+        "default" = _FHOjk8Ez;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blueprint";

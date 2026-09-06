@@ -476,6 +476,46 @@ let
             "file" = "saros_ragdoll-2.0.5.jar";
             "hash" = "sha512-P//4XtPxgmSujfsqwW+kddrTp/qDP/uhKlB+6cNL4sYvgs9IEiDQuhso+vLIOT8W+o4or/8mobZP1TFvBhBtMA==";
         };
+        _iUD5Rg4B = {
+            "id" = "iUD5Rg4B";
+            "file" = "Saros-Player-Ragdoll-Forge-1.20.1-2.0.6.jar";
+            "hash" = "sha512-OcgUcSp65KG7jQAgSe6vvALyuALOHHrldB+Q8y7iOjbHsasOVDmXl7nkz8+5ojOyPb3jHZa0B8mOB8p7Mldcsw==";
+        };
+        _JOe6biTu = {
+            "id" = "JOe6biTu";
+            "file" = "Saros-Player-Ragdoll-NeoForge-1.21.1-2.0.5.jar";
+            "hash" = "sha512-MHVd37qkIkfTkWlp54/rdF+3NB8vVyFZFHXmJoVNsPWJOJslbQvtW1vG34OJQCgRZD7t7Uf7N/NJrGlMI7Ck6Q==";
+        };
+        _Pu7NdBZN = {
+            "id" = "Pu7NdBZN";
+            "file" = "Saros-Player-Ragdoll-NeoForge-1.21.4-2.0.5.jar";
+            "hash" = "sha512-OM3xAl1JZP1EtrjPdn9afdQvUtX4A9IgA9D8BB/sltrvCGSB6iUzxQzUrlfcMdPi9Tt0fnh7I+AasB/kza5EGA==";
+        };
+        _wBoHRWdI = {
+            "id" = "wBoHRWdI";
+            "file" = "Saros-Player-Ragdoll-NeoForge-1.21.11-2.0.5.jar";
+            "hash" = "sha512-z+5XVP9EeHLcKdjZhd94dWVW+LFLxoJCLih8CdeOCJNLmgR/tugrj0uUbcMcdcELvRRGH+uYWgnLUGbC4bVNNg==";
+        };
+        _Cy4n3v7Q = {
+            "id" = "Cy4n3v7Q";
+            "file" = "Saros-Player-Ragdoll-NeoForge-26.1-2.0.5.jar";
+            "hash" = "sha512-BTOI7+/eX3eZuN7JIsiUR6SSbazLgep68k1RUKTrQgUHjF5lg1jrIEipNvwkuaVj7W3BpPysVbDUbxx2p1nASg==";
+        };
+        _NjH9LKFy = {
+            "id" = "NjH9LKFy";
+            "file" = "Saros-Player-Ragdoll-NeoForge-26.2-2.0.5.jar";
+            "hash" = "sha512-8/Ft0tZDSJf+QszRbc5ZaLdxEm1NNqXd0IWgaAV8feChpZxqs799OTGXctjB1GwDNdzvsBGiUOhaaqtFk/ppSA==";
+        };
+        _ac2j7t11 = {
+            "id" = "ac2j7t11";
+            "file" = "Saros-Player-Ragdoll-Fabric-26.2-2.0.5.jar";
+            "hash" = "sha512-FQqEwq9B28LiW7HN7uLskOMJJG5asEtEfSdY3jjaQ0nrXSD+dRx5LdtAeUNEbRx9AkARmuLGReW1zLziYQDWJg==";
+        };
+        _ihiG2W2f = {
+            "id" = "ihiG2W2f";
+            "file" = "saros_ragdoll-2.0.6.jar";
+            "hash" = "sha512-EaXwPl33qWLfmpUaMFBtUwPjkzbvm7YX8xEsZoLM2yg8F16FzoueUgK5dkhAXmpwy2UxlsA4Xz9JVtV80s0NHQ==";
+        };
     in {
         "IhjTUwDd" = _IhjTUwDd;
         "Wdv8jSVo" = _Wdv8jSVo;
@@ -572,25 +612,33 @@ let
         "nc3Ekt9F" = _nc3Ekt9F;
         "eQRwYfCT" = _eQRwYfCT;
         "bh41UNQJ" = _bh41UNQJ;
+        "iUD5Rg4B" = _iUD5Rg4B;
+        "JOe6biTu" = _JOe6biTu;
+        "Pu7NdBZN" = _Pu7NdBZN;
+        "wBoHRWdI" = _wBoHRWdI;
+        "Cy4n3v7Q" = _Cy4n3v7Q;
+        "NjH9LKFy" = _NjH9LKFy;
+        "ac2j7t11" = _ac2j7t11;
+        "ihiG2W2f" = _ihiG2W2f;
         "forge-1.12.2" = _pfEuwKyt;
-        "forge-1.20.1" = _bh41UNQJ;
+        "forge-1.20.1" = _iUD5Rg4B;
         "forge-1.21.1" = _bkJobmPe;
         "forge-1.21.4" = _G4UMaSke;
         "forge-1.21.11" = _65iH2lH1;
         "forge-26.1" = _zzydmMrM;
         "forge-26.2" = _nc3Ekt9F;
-        "neoforge-1.20.1" = _32aHfy8s;
-        "neoforge-1.21.1" = _brdhwE6B;
-        "neoforge-1.21.4" = _elt2PugH;
-        "neoforge-1.21.11" = _Q7PShJED;
-        "neoforge-26.1" = _4LzYGsw9;
-        "neoforge-26.2" = _eQRwYfCT;
+        "neoforge-1.20.1" = _iUD5Rg4B;
+        "neoforge-1.21.1" = _JOe6biTu;
+        "neoforge-1.21.4" = _Pu7NdBZN;
+        "neoforge-1.21.11" = _wBoHRWdI;
+        "neoforge-26.1" = _Cy4n3v7Q;
+        "neoforge-26.2" = _NjH9LKFy;
         "fabric-1.20.1" = _LKrQM6BP;
         "fabric-1.21.1" = _nUK93zS4;
         "fabric-1.21.4" = _1TQlfm78;
         "fabric-1.21.11" = _vYMj5LOh;
         "fabric-26.1" = _Wmhb8Flh;
-        "fabric-26.2" = _qKp3Vl3o;
+        "fabric-26.2" = _ihiG2W2f;
         "pkg-1.6" = _IhjTUwDd;
         "pkg-1.7" = _Wdv8jSVo;
         "pkg-1.8" = _i5NsX3tm;
@@ -641,7 +689,9 @@ let
         "pkg-2.0.3-fabric-1.20.1" = _RhrtmZ6U;
         "pkg-2.0.4" = _eQRwYfCT;
         "pkg-2.0.5-1.20.1" = _bh41UNQJ;
-        "default" = _bh41UNQJ;
+        "pkg-2.0.6" = _ihiG2W2f;
+        "pkg-2.0.5" = _ac2j7t11;
+        "default" = _ihiG2W2f;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saros-player-ragdoll";

@@ -141,6 +141,26 @@ let
             "file" = "cobblemon_smartphone-neoforge-1.1.2.jar";
             "hash" = "sha512-0H7mrUkEMIodHr6ynVjeqdNnlVebwOuHIAl2yxL1ezTW8IqCg9PkgvQJz2PL9k1s3FXnKX6GOHQCgbVbUQJC3g==";
         };
+        _w7JqnSrT = {
+            "id" = "w7JqnSrT";
+            "file" = "cobblemon_smartphone-fabric-1.1.3.jar";
+            "hash" = "sha512-g/DNQGwcQpESkKVmuDs79ttgZ1uJMQZgPNDDpSw7vNeCI5Zdef85AAINomSpDJHuxCPQOccI83YvD7amgXvgWw==";
+        };
+        _TXLuE5FW = {
+            "id" = "TXLuE5FW";
+            "file" = "cobblemon_smartphone-neoforge-1.1.3.jar";
+            "hash" = "sha512-MyKfKNdJrszHBGSHrPUYAwlZxMafwIcPxuLIO5csvbx4wkJiQ/ntw5S3+HRwXswRodO/XcPKYfh4k6p+1VIg6g==";
+        };
+        _h4RQl0Vp = {
+            "id" = "h4RQl0Vp";
+            "file" = "cobblemon_smartphone-fabric-1.1.3-patch1.8.0.jar";
+            "hash" = "sha512-OU2rqbw9eiPrLbuTMF7tJUU9pVU7p82dqKhY6aIxZ8QJMh0XHflaNS+8ikQRTcd5BFQyUcjYZKIpEtKbkwSDBg==";
+        };
+        _TR4WWtqE = {
+            "id" = "TR4WWtqE";
+            "file" = "cobblemon_smartphone-neoforge-1.1.3-patch1.8.0.jar";
+            "hash" = "sha512-xRmFEGNSjDWxDQDad9hwTjtvRMWzQdSBwGvDWC8aBFYrzMfnHMFGNqanaQYlI1heth/04+S3ObWQ9PrdHtmewQ==";
+        };
     in {
         "Dp6Q2TXn" = _Dp6Q2TXn;
         "xK4705Pf" = _xK4705Pf;
@@ -170,8 +190,12 @@ let
         "qs9SIT2b" = _qs9SIT2b;
         "IlZ44NoT" = _IlZ44NoT;
         "jzztROSF" = _jzztROSF;
-        "fabric-1.21.1" = _IlZ44NoT;
-        "neoforge-1.21.1" = _jzztROSF;
+        "w7JqnSrT" = _w7JqnSrT;
+        "TXLuE5FW" = _TXLuE5FW;
+        "h4RQl0Vp" = _h4RQl0Vp;
+        "TR4WWtqE" = _TR4WWtqE;
+        "fabric-1.21.1" = _h4RQl0Vp;
+        "neoforge-1.21.1" = _TR4WWtqE;
         "pkg-1.0.0" = _Dp6Q2TXn;
         "pkg-1.0.1" = _eXdRTm3d;
         "pkg-1.0.2" = _E0Q6Xnua;
@@ -187,7 +211,9 @@ let
         "pkg-1.1.0" = _D4pXNXYb;
         "pkg-1.1.1" = _qs9SIT2b;
         "pkg-1.1.2" = _jzztROSF;
-        "default" = _jzztROSF;
+        "pkg-1.1.3" = _TXLuE5FW;
+        "pkg-1.1.3-patch1.8.0" = _TR4WWtqE;
+        "default" = _TR4WWtqE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-smartphone";

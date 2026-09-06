@@ -66,6 +66,26 @@ let
             "file" = "cobblemon_incubator-neoforge-1.0.4.jar";
             "hash" = "sha512-BfdFOxa+uazZJADKgfX+55T3vdMcK+L2vGBhEhbgrlGXJ/Edgi3ncKNr4eJcNdpLI+CVm+O2oPdJLN573QYE4g==";
         };
+        _kqt2k1Xo = {
+            "id" = "kqt2k1Xo";
+            "file" = "cobblemon_incubator-fabric-1.0.5.jar";
+            "hash" = "sha512-WqWVh0x2AurRBXG6yR9Hj66gOXgn/+Z1ObZUajPx4y/Xwu6xz8dZN3DnTvRQoUf8lluxIkH7JWOEfPVLcPwIkg==";
+        };
+        _4qJ30Iqm = {
+            "id" = "4qJ30Iqm";
+            "file" = "cobblemon_incubator-neoforge-1.0.5.jar";
+            "hash" = "sha512-8yYe1BQ1wRGkcZFKWfrbp2sOc9vBDAWvIupTb3nPBfL7GABSGItaZ7B/BTeBnSNsU1Pct9nIuN/fw/XLeQdv5A==";
+        };
+        _JfIDtPZy = {
+            "id" = "JfIDtPZy";
+            "file" = "cobblemon_incubator-fabric-1.0.6.jar";
+            "hash" = "sha512-VAeZl6ijmEpT3gpl97kF4y8cN7KE6ttZ901/+kZUS77xvU7pN2DrLAv+Cwon/qoeNen1krvNzoRfFR5RQp7rwA==";
+        };
+        _Y0iudnzt = {
+            "id" = "Y0iudnzt";
+            "file" = "cobblemon_incubator-neoforge-1.0.6.jar";
+            "hash" = "sha512-Ul5YKBCAq20aNOk+f/X1maNAsLTSJj628qZb4DuH/PF0mRaFNTzWrlYbwGJyunJ9w1TYS0bQns919j62deUBjA==";
+        };
     in {
         "W9IEnnE4" = _W9IEnnE4;
         "RMWk8Zyj" = _RMWk8Zyj;
@@ -80,8 +100,12 @@ let
         "bxFsKhAp" = _bxFsKhAp;
         "bbEd0Aqo" = _bbEd0Aqo;
         "NEDkggEo" = _NEDkggEo;
-        "fabric-1.21.1" = _bbEd0Aqo;
-        "neoforge-1.21.1" = _NEDkggEo;
+        "kqt2k1Xo" = _kqt2k1Xo;
+        "4qJ30Iqm" = _4qJ30Iqm;
+        "JfIDtPZy" = _JfIDtPZy;
+        "Y0iudnzt" = _Y0iudnzt;
+        "fabric-1.21.1" = _JfIDtPZy;
+        "neoforge-1.21.1" = _Y0iudnzt;
         "pkg-1.0.0" = _RMWk8Zyj;
         "pkg-1.0.0-fix01" = _butW8oAJ;
         "pkg-1.0.1" = _9DyABD2J;
@@ -89,7 +113,9 @@ let
         "pkg-1.0.2-fix" = _nYBmLsWB;
         "pkg-1.0.3" = _bxFsKhAp;
         "pkg-1.0.4" = _NEDkggEo;
-        "default" = _NEDkggEo;
+        "pkg-1.0.5" = _4qJ30Iqm;
+        "pkg-1.0.6" = _Y0iudnzt;
+        "default" = _Y0iudnzt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-incubator";

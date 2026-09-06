@@ -576,6 +576,26 @@ let
             "file" = "EasyAnvils-v26.2.2-mc26.2.x-Fabric.jar";
             "hash" = "sha512-QiD6MkzSxsPLrBeN63aux98Z9UtKmNMEA8gtuyN9cbg+gT2+JSthVWPJqWVNSW6DVX6j4G7gHxltk67XeXdtxA==";
         };
+        _nkznXCKk = {
+            "id" = "nkznXCKk";
+            "file" = "EasyAnvils-v26.1.4-mc26.1.x-Fabric.jar";
+            "hash" = "sha512-vJa8fPXuVgGxyTuY5Uaw0pLTgkUrfKa+1keB4I9qLj2+vacs/plYDyLGadGkZbiQzR+zir/w89Bv+J5c59UfiQ==";
+        };
+        _LXFiKoIu = {
+            "id" = "LXFiKoIu";
+            "file" = "EasyAnvils-v26.2.3-mc26.2.x-Fabric.jar";
+            "hash" = "sha512-d4JmgM0DEUg0b2pdLYeUEn4z93iol6H06OsXdcSe6z4sGoMgUHLYlH/MTWXlfI/HPYjKbYz3DuAXHfJSpPxy7Q==";
+        };
+        _haCeCUVX = {
+            "id" = "haCeCUVX";
+            "file" = "EasyAnvils-v26.1.4-mc26.1.x-NeoForge.jar";
+            "hash" = "sha512-P5u123C+NTnFeI5Gtd0HiKtuYX8AvpZQP+hNruCQs+wxPWjd8WuwWOoShlpWo3sYhkyeKBX5EinzEIrCDJHKBw==";
+        };
+        _SFTxlmII = {
+            "id" = "SFTxlmII";
+            "file" = "EasyAnvils-v26.2.3-mc26.2.x-NeoForge.jar";
+            "hash" = "sha512-yUz+agWVuXDVVh1w9YlQD65zdclkEt6jU6T1fjyj6JXfxHyqQWVsSlcyborzuHfnCxnp9eyvh4AkPKsnfB1RwA==";
+        };
     in {
         "rCbT5K7D" = _rCbT5K7D;
         "8GWLVHc6" = _8GWLVHc6;
@@ -692,6 +712,10 @@ let
         "NZUd2TGk" = _NZUd2TGk;
         "6v9vVkB2" = _6v9vVkB2;
         "J40tXLWg" = _J40tXLWg;
+        "nkznXCKk" = _nkznXCKk;
+        "LXFiKoIu" = _LXFiKoIu;
+        "haCeCUVX" = _haCeCUVX;
+        "SFTxlmII" = _SFTxlmII;
         "fabric-1.19.2" = _JtDnifrB;
         "fabric-1.19.3" = _jb7JDOsg;
         "fabric-1.19.4" = _yNwfm0bQ;
@@ -710,10 +734,10 @@ let
         "fabric-1.21.9" = _Zp5Dppf9;
         "fabric-1.21.10" = _RRPRJ01x;
         "fabric-1.21.11" = _Wtivj05n;
-        "fabric-26.1" = _NZUd2TGk;
-        "fabric-26.1.1" = _NZUd2TGk;
-        "fabric-26.1.2" = _NZUd2TGk;
-        "fabric-26.2" = _J40tXLWg;
+        "fabric-26.1" = _nkznXCKk;
+        "fabric-26.1.1" = _nkznXCKk;
+        "fabric-26.1.2" = _nkznXCKk;
+        "fabric-26.2" = _LXFiKoIu;
         "forge-1.19.2" = _iYAQ1oaP;
         "forge-1.19.3" = _BdF7GYlv;
         "forge-1.19.4" = _NbbGmb9T;
@@ -733,10 +757,10 @@ let
         "neoforge-1.21.9" = _e9oR3mBE;
         "neoforge-1.21.10" = _aOrQpmtS;
         "neoforge-1.21.11" = _L0DmPtEZ;
-        "neoforge-26.1" = _1Dx6fLXd;
-        "neoforge-26.1.1" = _1Dx6fLXd;
-        "neoforge-26.1.2" = _1Dx6fLXd;
-        "neoforge-26.2" = _6v9vVkB2;
+        "neoforge-26.1" = _haCeCUVX;
+        "neoforge-26.1.1" = _haCeCUVX;
+        "neoforge-26.1.2" = _haCeCUVX;
+        "neoforge-26.2" = _SFTxlmII;
         "pkg-v4.0.0-1.19.2-Fabric" = _rCbT5K7D;
         "pkg-v4.0.0-1.19.2-Forge" = _8GWLVHc6;
         "pkg-v4.0.1-1.19.2-Forge" = _BtX60KJE;
@@ -841,7 +865,9 @@ let
         "pkg-21.11.1" = _Wtivj05n;
         "pkg-26.1.3" = _NZUd2TGk;
         "pkg-26.2.2" = _J40tXLWg;
-        "default" = _J40tXLWg;
+        "pkg-26.1.4" = _haCeCUVX;
+        "pkg-26.2.3" = _SFTxlmII;
+        "default" = _SFTxlmII;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easy-anvils";

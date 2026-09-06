@@ -38,6 +38,10 @@ let
         "datapack-1.21.9" = _4vpDClOQ;
         "datapack-1.21.10" = _4vpDClOQ;
         "datapack-1.21.11" = _4vpDClOQ;
+        "datapack-26.1" = _4vpDClOQ;
+        "datapack-26.1.1" = _4vpDClOQ;
+        "datapack-26.1.2" = _4vpDClOQ;
+        "datapack-26.2" = _4vpDClOQ;
         "fabric-1.21" = _5qjSkOQh;
         "fabric-1.21.1" = _5qjSkOQh;
         "fabric-1.21.2" = _iCuCuwAd;
@@ -50,6 +54,10 @@ let
         "fabric-1.21.9" = _iCuCuwAd;
         "fabric-1.21.10" = _iCuCuwAd;
         "fabric-1.21.11" = _iCuCuwAd;
+        "fabric-26.1" = _iCuCuwAd;
+        "fabric-26.1.1" = _iCuCuwAd;
+        "fabric-26.1.2" = _iCuCuwAd;
+        "fabric-26.2" = _iCuCuwAd;
         "forge-1.21" = _5qjSkOQh;
         "forge-1.21.1" = _5qjSkOQh;
         "forge-1.21.2" = _iCuCuwAd;
@@ -62,6 +70,10 @@ let
         "forge-1.21.9" = _iCuCuwAd;
         "forge-1.21.10" = _iCuCuwAd;
         "forge-1.21.11" = _iCuCuwAd;
+        "forge-26.1" = _iCuCuwAd;
+        "forge-26.1.1" = _iCuCuwAd;
+        "forge-26.1.2" = _iCuCuwAd;
+        "forge-26.2" = _iCuCuwAd;
         "neoforge-1.21" = _5qjSkOQh;
         "neoforge-1.21.1" = _5qjSkOQh;
         "neoforge-1.21.2" = _iCuCuwAd;
@@ -74,6 +86,10 @@ let
         "neoforge-1.21.9" = _iCuCuwAd;
         "neoforge-1.21.10" = _iCuCuwAd;
         "neoforge-1.21.11" = _iCuCuwAd;
+        "neoforge-26.1" = _iCuCuwAd;
+        "neoforge-26.1.1" = _iCuCuwAd;
+        "neoforge-26.1.2" = _iCuCuwAd;
+        "neoforge-26.2" = _iCuCuwAd;
         "quilt-1.21" = _5qjSkOQh;
         "quilt-1.21.1" = _5qjSkOQh;
         "quilt-1.21.2" = _iCuCuwAd;
@@ -86,6 +102,10 @@ let
         "quilt-1.21.9" = _iCuCuwAd;
         "quilt-1.21.10" = _iCuCuwAd;
         "quilt-1.21.11" = _iCuCuwAd;
+        "quilt-26.1" = _iCuCuwAd;
+        "quilt-26.1.1" = _iCuCuwAd;
+        "quilt-26.1.2" = _iCuCuwAd;
+        "quilt-26.2" = _iCuCuwAd;
         "pkg-1.0" = _4vpDClOQ;
         "pkg-1.0+modver" = _iCuCuwAd;
         "default" = _iCuCuwAd;

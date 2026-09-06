@@ -311,6 +311,16 @@ let
             "file" = "combat-reborn-26.1-r1.2.1-fabric.jar";
             "hash" = "sha512-rALroh6i/cBt+dpwLwHZwrGQ4U7pSwEQfoXhS1G0IjfpDbI5ErLaI3BayNARyXUxl5Rbgh/x1LqbLlHIznyKnQ==";
         };
+        _J1kcy2Xa = {
+            "id" = "J1kcy2Xa";
+            "file" = "combat-reborn-26.1-r1.2.2-neoforge.jar";
+            "hash" = "sha512-rM/bzmDB7ZdgR34EAmrsW3vlt5yKHQ32zsywn/BPoeobZlN8s0+1fYha63LsrwRA/TyIuHD5dM3sTdJ4J5OnRA==";
+        };
+        _dK8ocDzb = {
+            "id" = "dK8ocDzb";
+            "file" = "combat-reborn-26.1-r1.2.2-fabric.jar";
+            "hash" = "sha512-1J5gRL0P6nKBWpWjQZoeorc+h3rTXeowTPzlM1M7N3kzLmGuZL/HKlnCWmDUtSEp67OZ7KER5rpG4TM4KrcCzA==";
+        };
     in {
         "C6iEnSu0" = _C6iEnSu0;
         "i0JZrCnc" = _i0JZrCnc;
@@ -374,16 +384,18 @@ let
         "ObofmHym" = _ObofmHym;
         "LxziiK98" = _LxziiK98;
         "AzCxqbhF" = _AzCxqbhF;
+        "J1kcy2Xa" = _J1kcy2Xa;
+        "dK8ocDzb" = _dK8ocDzb;
         "fabric-1.21.11" = _9VdaHgD9;
         "fabric-1.21" = _61qXKirn;
         "fabric-1.21.1" = _61qXKirn;
-        "fabric-26.1" = _AzCxqbhF;
-        "fabric-26.1.1" = _AzCxqbhF;
-        "fabric-26.1.2" = _AzCxqbhF;
+        "fabric-26.1" = _dK8ocDzb;
+        "fabric-26.1.1" = _dK8ocDzb;
+        "fabric-26.1.2" = _dK8ocDzb;
         "neoforge-1.21.11" = _rjq604vR;
-        "neoforge-26.1" = _LxziiK98;
-        "neoforge-26.1.1" = _LxziiK98;
-        "neoforge-26.1.2" = _LxziiK98;
+        "neoforge-26.1" = _J1kcy2Xa;
+        "neoforge-26.1.1" = _J1kcy2Xa;
+        "neoforge-26.1.2" = _J1kcy2Xa;
         "pkg-21.11-r1.0" = _C6iEnSu0;
         "pkg-21.11-r1.1" = _i0JZrCnc;
         "pkg-21.1-r1.0" = _juw62xmw;
@@ -446,7 +458,9 @@ let
         "pkg-26.1-r1.1-fabric" = _ObofmHym;
         "pkg-26.1-r1.2.1-neoforge" = _LxziiK98;
         "pkg-26.1-r1.2.1-fabric" = _AzCxqbhF;
-        "default" = _AzCxqbhF;
+        "pkg-26.1-r1.2.2-neoforge" = _J1kcy2Xa;
+        "pkg-26.1-r1.2.2-fabric" = _dK8ocDzb;
+        "default" = _dK8ocDzb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "combat-reborn";

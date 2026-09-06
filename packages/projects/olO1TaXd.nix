@@ -156,6 +156,11 @@ let
             "file" = "Patrix_26.2_32x_basic.zip";
             "hash" = "sha512-fqQ9kTi+5/uVYfRbKSfKkHqag6x+uJB8CG20DCAeJn/BnzKrxOia4bPzIMiqxHOAvdur3kz3eGvmvBFq55zzdQ==";
         };
+        _226vxy35 = {
+            "id" = "226vxy35";
+            "file" = "Patrix_26.2_32x_basic.zip";
+            "hash" = "sha512-urDa/QA8Y7OI9AkHkLXcq/Lm1t/aYyaPtejy9YLpOuZpuKiOSkf9l+dCYSfHgyr+LYuZGuesjnXtcPXMW1HVuQ==";
+        };
     in {
         "XC8ekBzx" = _XC8ekBzx;
         "xafzGoDt" = _xafzGoDt;
@@ -188,6 +193,7 @@ let
         "dqji1V3m" = _dqji1V3m;
         "oYn7zKPU" = _oYn7zKPU;
         "jZHaNOzL" = _jZHaNOzL;
+        "226vxy35" = _226vxy35;
         "minecraft-1.20" = _8RHgulEr;
         "minecraft-1.20.1" = _8RHgulEr;
         "minecraft-1.20.2" = _8RHgulEr;
@@ -210,7 +216,7 @@ let
         "minecraft-26.1" = _dqji1V3m;
         "minecraft-26.1.1" = _dqji1V3m;
         "minecraft-26.1.2" = _dqji1V3m;
-        "minecraft-26.2" = _jZHaNOzL;
+        "minecraft-26.2" = _226vxy35;
         "pkg-60" = _XC8ekBzx;
         "pkg-61" = _xafzGoDt;
         "pkg-62" = _IJ2aAj6Q;
@@ -242,7 +248,8 @@ let
         "pkg-88" = _dqji1V3m;
         "pkg-89" = _oYn7zKPU;
         "pkg-90" = _jZHaNOzL;
-        "default" = _jZHaNOzL;
+        "pkg-91" = _226vxy35;
+        "default" = _226vxy35;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "patrix-32x";

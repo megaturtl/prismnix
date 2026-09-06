@@ -376,6 +376,16 @@ let
             "file" = "basicweapons-neoforge-2.4.0+26.1.jar";
             "hash" = "sha512-kCaR2kq8hVoGAGSMkKk4xZPq09+wRinzZB6sFIDnkAbgACcrtjftw7ll3BXF5r/gPMJuP+wGO1t88t3co8TIAw==";
         };
+        _BONRhyAx = {
+            "id" = "BONRhyAx";
+            "file" = "basicweapons-fabric-2.4.1+26.1.jar";
+            "hash" = "sha512-4Eb9XRzfFOEn5V4+TvJHNHkyE8EFawgAZqMmD/MPULj6toiYkH0Lbu867C0+WEekKWk26+qiNXfoXi0npcR1HA==";
+        };
+        _fXnxBxll = {
+            "id" = "fXnxBxll";
+            "file" = "basicweapons-neoforge-2.4.1+26.1.jar";
+            "hash" = "sha512-cO/whf3S0W8mN4Ho2ElJf1eSwukJO09mFo3VnyJ4hHhncVqal+5eK1ORReehL1PgoaCoQ4Hb5nOSiPmzvIEfHQ==";
+        };
     in {
         "7z6FfHX0" = _7z6FfHX0;
         "Ht65pKah" = _Ht65pKah;
@@ -452,6 +462,8 @@ let
         "HFy6Fvdy" = _HFy6Fvdy;
         "7d2XC2eQ" = _7d2XC2eQ;
         "a0GqT6oQ" = _a0GqT6oQ;
+        "BONRhyAx" = _BONRhyAx;
+        "fXnxBxll" = _fXnxBxll;
         "fabric-1.20.1" = _P2kARD78;
         "fabric-1.20.2" = _piisFHNS;
         "fabric-1.19.2" = _AEYxWCqh;
@@ -466,9 +478,9 @@ let
         "fabric-1.21.4" = _qt5cIJHd;
         "fabric-1.21.10" = _PQHzS4v8;
         "fabric-1.21.11" = _BJh8QX49;
-        "fabric-26.1" = _7d2XC2eQ;
-        "fabric-26.1.1" = _7d2XC2eQ;
-        "fabric-26.1.2" = _7d2XC2eQ;
+        "fabric-26.1" = _BONRhyAx;
+        "fabric-26.1.1" = _BONRhyAx;
+        "fabric-26.1.2" = _BONRhyAx;
         "quilt-1.20.1" = _piisFHNS;
         "quilt-1.20.2" = _piisFHNS;
         "quilt-1.19.2" = _AEYxWCqh;
@@ -482,9 +494,9 @@ let
         "neoforge-1.21.1" = _skijTcJ3;
         "neoforge-1.21.10" = _QxrGeMMG;
         "neoforge-1.21.11" = _HFy6Fvdy;
-        "neoforge-26.1" = _a0GqT6oQ;
-        "neoforge-26.1.1" = _a0GqT6oQ;
-        "neoforge-26.1.2" = _a0GqT6oQ;
+        "neoforge-26.1" = _fXnxBxll;
+        "neoforge-26.1.1" = _fXnxBxll;
+        "neoforge-26.1.2" = _fXnxBxll;
         "pkg-1.0.0" = _fOLWcsal;
         "pkg-1.0.1" = _v1ACpnlq;
         "pkg-1.1.0" = _fkdERjjI;
@@ -526,7 +538,8 @@ let
         "pkg-1.2.13+1.21.4" = _qt5cIJHd;
         "pkg-2.3.7+1.21.11" = _HFy6Fvdy;
         "pkg-2.4.0+26.1.x" = _a0GqT6oQ;
-        "default" = _a0GqT6oQ;
+        "pkg-2.4.1+26.1.x" = _fXnxBxll;
+        "default" = _fXnxBxll;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "basicweapons";

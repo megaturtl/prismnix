@@ -121,6 +121,16 @@ let
             "file" = "mekmm-1.21.1-1.3.3.jar";
             "hash" = "sha512-KhUCXv6Bx4yMJmUFfKViS1KGEwAK2gR1SUuU3i3P5jEgKT7D5wWRwyN0e8SJRCP6IanZLznnE0ehVjXFHH47+Q==";
         };
+        _A8xaRuSG = {
+            "id" = "A8xaRuSG";
+            "file" = "mekmm-1.21.1-1.4.0.jar";
+            "hash" = "sha512-vKtRecXUdnvsBVa2Jn3Apc/pe3aLnDChZHmX3CeOn3z9ExSqylaSh5ygevZx6YZi5oQ8GD8HPf/mdm6pQx8wdw==";
+        };
+        _RYVVOm3d = {
+            "id" = "RYVVOm3d";
+            "file" = "mekmm-1.21.1-1.4.1.jar";
+            "hash" = "sha512-rCrBIubAoiuVp3FfM014mudeDwEnQt2WsoaeBRpARDXhuIBV2XugW207ohL2Rf27LWXPbxkycEIrgvLysu7ANw==";
+        };
     in {
         "sdrRmtQS" = _sdrRmtQS;
         "O3C5vMkV" = _O3C5vMkV;
@@ -146,7 +156,9 @@ let
         "PQ3IlR98" = _PQ3IlR98;
         "uXqTkf0J" = _uXqTkf0J;
         "3EMTKSFL" = _3EMTKSFL;
-        "neoforge-1.21.1" = _3EMTKSFL;
+        "A8xaRuSG" = _A8xaRuSG;
+        "RYVVOm3d" = _RYVVOm3d;
+        "neoforge-1.21.1" = _RYVVOm3d;
         "forge-1.20.1" = _PQ3IlR98;
         "pkg-1.0.0" = _sdrRmtQS;
         "pkg-1.21.1-1.0.1" = _O3C5vMkV;
@@ -172,7 +184,9 @@ let
         "pkg-1.20.1-1.2.1" = _PQ3IlR98;
         "pkg-1.21.1-1.3.2" = _uXqTkf0J;
         "pkg-1.21.1-1.3.3" = _3EMTKSFL;
-        "default" = _3EMTKSFL;
+        "pkg-1.21.1-1.4.0" = _A8xaRuSG;
+        "pkg-1.21.1-1.4.1" = _RYVVOm3d;
+        "default" = _RYVVOm3d;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mekanismmoremachine";

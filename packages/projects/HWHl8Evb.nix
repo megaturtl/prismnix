@@ -36,6 +36,11 @@ let
             "file" = "mutil-1.20.1-6.3.0.jar";
             "hash" = "sha512-xmhR16G4ro+u05+yl04SZDPbPKEH6tIe2umXiM0zVwAHOBKSBki8wrDTDvFxJpfe0FDC4MMUSExvQg1RUKC96w==";
         };
+        _uWdZAndC = {
+            "id" = "uWdZAndC";
+            "file" = "mutil-1.21.1-7.0.0.jar";
+            "hash" = "sha512-2O4ypxYa83wLEcXJEZ6QDWe0WaC5vVS9u5Pu/vSKkImd8e3nzl8Yc03z01m+yKMXnt8CkA7SxIi6c9BckQ+XnA==";
+        };
     in {
         "roxSrtK7" = _roxSrtK7;
         "eR9DYXcD" = _eR9DYXcD;
@@ -44,12 +49,14 @@ let
         "1cVegazl" = _1cVegazl;
         "8CZJ2gLR" = _8CZJ2gLR;
         "ls59E7KT" = _ls59E7KT;
+        "uWdZAndC" = _uWdZAndC;
         "forge-1.19.1" = _1cVegazl;
         "forge-1.19.2" = _1cVegazl;
         "forge-1.20.1" = _ls59E7KT;
         "forge-1.20.2" = _PI1cIWsh;
         "neoforge-1.20.1" = _ls59E7KT;
         "neoforge-1.20.2" = _PI1cIWsh;
+        "neoforge-1.21.1" = _uWdZAndC;
         "pkg-5.1.0" = _roxSrtK7;
         "pkg-6.0.0" = _eR9DYXcD;
         "pkg-6.1.0" = _sjCspb0W;
@@ -57,7 +64,8 @@ let
         "pkg-5.2.0" = _1cVegazl;
         "pkg-6.2.0" = _8CZJ2gLR;
         "pkg-6.3.0" = _ls59E7KT;
-        "default" = _ls59E7KT;
+        "pkg-7.0.0" = _uWdZAndC;
+        "default" = _uWdZAndC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mutil";

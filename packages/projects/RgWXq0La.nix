@@ -376,6 +376,16 @@ let
             "file" = "Dawn Of Time-fabric-1.20.1-1.5.52.jar";
             "hash" = "sha512-4JnCHId54xL8KXknufjCUSPvZtJVXK7aiNj+LDnbk5bBwKCldi5zdb9aV94/KJ9f+opoqRC27nZyOyj2/pMsog==";
         };
+        _c3G5J1Io = {
+            "id" = "c3G5J1Io";
+            "file" = "dawnoftimebuilder-forge-1.20.1-1.5.53.jar";
+            "hash" = "sha512-Yrg+A3+owwUYBaMq27eosQNKo5RaxSXJeUJTNdCJ0F2nX26sHCT80T+NM45mMmMLGL2VoUD3799HO2vIb1xF+Q==";
+        };
+        _jODs6mUr = {
+            "id" = "jODs6mUr";
+            "file" = "Dawn Of Time-fabric-1.20.1-1.5.53.jar";
+            "hash" = "sha512-Mg2oEMzMjrUqVxAaUy0g7bFMEO3vvO7FexWT70+vu8il71UsOXG1s10zjnnIAB9C0phUqSa7bHlSydex4vlsZg==";
+        };
     in {
         "OMmo48Eh" = _OMmo48Eh;
         "SnRTbVxf" = _SnRTbVxf;
@@ -452,12 +462,14 @@ let
         "HmZmcdNR" = _HmZmcdNR;
         "zHqYLK1A" = _zHqYLK1A;
         "rQ5nY4ex" = _rQ5nY4ex;
+        "c3G5J1Io" = _c3G5J1Io;
+        "jODs6mUr" = _jODs6mUr;
         "forge-1.12.2" = _OMmo48Eh;
         "forge-1.14.4" = _SnRTbVxf;
         "forge-1.16.5" = _XBTMSSnY;
-        "forge-1.20.1" = _zHqYLK1A;
+        "forge-1.20.1" = _c3G5J1Io;
         "forge-1.19.2" = _MJYcmss7;
-        "fabric-1.20.1" = _rQ5nY4ex;
+        "fabric-1.20.1" = _jODs6mUr;
         "fabric-1.21.1" = _fUx53G6d;
         "fabric-1.21.8" = _ensTSz1R;
         "fabric-1.21.10" = _G7kwwmtF;
@@ -507,7 +519,8 @@ let
         "pkg-1.6.6" = _fUx53G6d;
         "pkg-1.5.51" = _HmZmcdNR;
         "pkg-1.5.52" = _rQ5nY4ex;
-        "default" = _rQ5nY4ex;
+        "pkg-1.5.53" = _jODs6mUr;
+        "default" = _jODs6mUr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dawn-of-time";

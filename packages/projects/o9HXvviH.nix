@@ -49,6 +49,7 @@ let
         "forge-26.1" = _5Dtq4ygO;
         "forge-26.1.1" = _5Dtq4ygO;
         "forge-26.1.2" = _5Dtq4ygO;
+        "forge-26.2" = _5Dtq4ygO;
         "fabric-1.20.1" = _wRx74yuv;
         "fabric-1.20.2" = _SMzQOStd;
         "fabric-1.20.3" = _SMzQOStd;
@@ -56,10 +57,12 @@ let
         "fabric-26.1" = _p03FLMv4;
         "fabric-26.1.1" = _p03FLMv4;
         "fabric-26.1.2" = _p03FLMv4;
+        "fabric-26.2" = _p03FLMv4;
         "quilt-1.20.1" = _wRx74yuv;
         "neoforge-26.1" = _c337OEAO;
         "neoforge-26.1.1" = _c337OEAO;
         "neoforge-26.1.2" = _c337OEAO;
+        "neoforge-26.2" = _c337OEAO;
         "pkg-1.1.0" = _h4j01EBB;
         "pkg-1.1.1" = _wRx74yuv;
         "pkg-1.1.2" = _SMzQOStd;

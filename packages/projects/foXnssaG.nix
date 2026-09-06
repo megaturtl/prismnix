@@ -286,6 +286,16 @@ let
             "file" = "snowy-weather-1.3.2+26.3-snap3-fabric-quilt.zip";
             "hash" = "sha512-/Us2qKPkHMzM3hvJmr08iRvJk+FlcV4bSsPA1oj/2AqvRZStXj0KocBNRurdV4FlnIlmAphB+ApBjC/mreAanA==";
         };
+        _vyU8WQ4v = {
+            "id" = "vyU8WQ4v";
+            "file" = "Snowy Weather 1.3.2+26.3-pre-release1.zip";
+            "hash" = "sha512-lWXmXIZaaBC/vC6OVLdv90jlmj6TmSro2nqrrFfjbgXUHHRzNt9GBi3AI6xFNaOYYVsERtlEqvgVXuEwXmq6OQ==";
+        };
+        _54KpPCWK = {
+            "id" = "54KpPCWK";
+            "file" = "snowy-weather-1.3.2+26.3-pre-release1-fabric-quilt.jar";
+            "hash" = "sha512-qMGsuWTEztRDzYmp54HyScWzFOJpLtRK+fZhjzYORiLSdUsOMN+3y5YZZPCIPlU7c+lNN50HKW4Tn/3Y3PXgiQ==";
+        };
     in {
         "l3NhHlD3" = _l3NhHlD3;
         "2jdlputp" = _2jdlputp;
@@ -344,6 +354,8 @@ let
         "FqYVSqHM" = _FqYVSqHM;
         "xZVencA9" = _xZVencA9;
         "uVGFFOBw" = _uVGFFOBw;
+        "vyU8WQ4v" = _vyU8WQ4v;
+        "54KpPCWK" = _54KpPCWK;
         "datapack-1.20.1" = _ySRfNtF9;
         "datapack-1.20.2" = _NdQ72ysp;
         "datapack-1.20.3" = _NdQ72ysp;
@@ -398,6 +410,11 @@ let
         "datapack-26.3-snapshot-5" = _xZVencA9;
         "datapack-26.3-snapshot-6" = _xZVencA9;
         "datapack-26.3-snapshot-7" = _xZVencA9;
+        "datapack-26.3-snapshot-8" = _xZVencA9;
+        "datapack-26.3-snapshot-9" = _xZVencA9;
+        "datapack-26.3-snapshot-10" = _xZVencA9;
+        "datapack-26.3-pre-1" = _vyU8WQ4v;
+        "datapack-26.3-pre-2" = _vyU8WQ4v;
         "neoforge-1.21.1" = _r9T63hnD;
         "neoforge-1.21.4" = _oOqTjD2f;
         "neoforge-1.21" = _r9T63hnD;
@@ -444,6 +461,11 @@ let
         "fabric-26.3-snapshot-5" = _uVGFFOBw;
         "fabric-26.3-snapshot-6" = _uVGFFOBw;
         "fabric-26.3-snapshot-7" = _uVGFFOBw;
+        "fabric-26.3-snapshot-8" = _uVGFFOBw;
+        "fabric-26.3-snapshot-9" = _uVGFFOBw;
+        "fabric-26.3-snapshot-10" = _uVGFFOBw;
+        "fabric-26.3-pre-1" = _54KpPCWK;
+        "fabric-26.3-pre-2" = _54KpPCWK;
         "forge-1.20.1" = _5MRPCQ8C;
         "forge-1.21.11" = _HjbaAdUK;
         "forge-1.21.5" = _b4ht8J6l;
@@ -468,6 +490,11 @@ let
         "quilt-26.3-snapshot-5" = _uVGFFOBw;
         "quilt-26.3-snapshot-6" = _uVGFFOBw;
         "quilt-26.3-snapshot-7" = _uVGFFOBw;
+        "quilt-26.3-snapshot-8" = _uVGFFOBw;
+        "quilt-26.3-snapshot-9" = _uVGFFOBw;
+        "quilt-26.3-snapshot-10" = _uVGFFOBw;
+        "quilt-26.3-pre-1" = _54KpPCWK;
+        "quilt-26.3-pre-2" = _54KpPCWK;
         "pkg-1.0.0" = _2jdlputp;
         "pkg-1.0.1" = _Fb9erTsw;
         "pkg-1.0.2" = _Uj4i8jt8;
@@ -479,11 +506,11 @@ let
         "pkg-1.3" = _A5i8T4ti;
         "pkg-1.3-fix" = _b4ht8J6l;
         "pkg-1.3.1" = _FqYVSqHM;
-        "pkg-1.3.2" = _uVGFFOBw;
-        "default" = _uVGFFOBw;
+        "pkg-1.3.2" = _54KpPCWK;
+        "default" = _54KpPCWK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
-        name = "snow-weather";
+        name = "snowy-weather";
         id = "foXnssaG";
         type = "mod";
         versions = versions;

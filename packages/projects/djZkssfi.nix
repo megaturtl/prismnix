@@ -11,26 +11,32 @@ let
             "file" = "Crystal PvP Perfect Pack.zip";
             "hash" = "sha512-6pGsKfGiLZUp8cwDG/KCD6a1LfCTpjSuOsq42uxBw/4GAe6g/CWpE80/znpLoIROgVormUTqzvBirPZfN/zR5g==";
         };
+        _uKSg6kbp = {
+            "id" = "uKSg6kbp";
+            "file" = "Crystal PvP Perfect Pack.zip";
+            "hash" = "sha512-6pGsKfGiLZUp8cwDG/KCD6a1LfCTpjSuOsq42uxBw/4GAe6g/CWpE80/znpLoIROgVormUTqzvBirPZfN/zR5g==";
+        };
     in {
         "1sWPQqa3" = _1sWPQqa3;
         "aKiah1nm" = _aKiah1nm;
+        "uKSg6kbp" = _uKSg6kbp;
         "minecraft-1.21" = _1sWPQqa3;
         "minecraft-1.21.1" = _1sWPQqa3;
-        "minecraft-24w33a" = _1sWPQqa3;
-        "minecraft-24w34a" = _1sWPQqa3;
-        "minecraft-24w35a" = _1sWPQqa3;
-        "minecraft-24w36a" = _1sWPQqa3;
-        "minecraft-24w37a" = _1sWPQqa3;
-        "minecraft-24w38a" = _1sWPQqa3;
-        "minecraft-24w39a" = _1sWPQqa3;
-        "minecraft-24w40a" = _1sWPQqa3;
-        "minecraft-1.21.2-pre1" = _1sWPQqa3;
-        "minecraft-1.21.2-pre2" = _1sWPQqa3;
+        "minecraft-24w33a" = _uKSg6kbp;
+        "minecraft-24w34a" = _uKSg6kbp;
+        "minecraft-24w35a" = _uKSg6kbp;
+        "minecraft-24w36a" = _uKSg6kbp;
+        "minecraft-24w37a" = _uKSg6kbp;
+        "minecraft-24w38a" = _uKSg6kbp;
+        "minecraft-24w39a" = _uKSg6kbp;
+        "minecraft-24w40a" = _uKSg6kbp;
+        "minecraft-1.21.2-pre1" = _uKSg6kbp;
+        "minecraft-1.21.2-pre2" = _uKSg6kbp;
         "minecraft-1.21.2" = _1sWPQqa3;
         "minecraft-1.21.3" = _1sWPQqa3;
-        "minecraft-24w44a" = _1sWPQqa3;
-        "minecraft-24w45a" = _1sWPQqa3;
-        "minecraft-24w46a" = _1sWPQqa3;
+        "minecraft-24w44a" = _uKSg6kbp;
+        "minecraft-24w45a" = _uKSg6kbp;
+        "minecraft-24w46a" = _uKSg6kbp;
         "minecraft-1.21.4" = _1sWPQqa3;
         "minecraft-1.21.5" = _1sWPQqa3;
         "minecraft-1.21.6" = _1sWPQqa3;
@@ -42,9 +48,11 @@ let
         "minecraft-26.1" = _aKiah1nm;
         "minecraft-26.1.1" = _aKiah1nm;
         "minecraft-26.1.2" = _aKiah1nm;
+        "minecraft-26.2" = _uKSg6kbp;
         "pkg-1.21x" = _1sWPQqa3;
         "pkg-26.1x" = _aKiah1nm;
-        "default" = _aKiah1nm;
+        "pkg-26.2x" = _uKSg6kbp;
+        "default" = _uKSg6kbp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crystal-pvp-perfect-pack";

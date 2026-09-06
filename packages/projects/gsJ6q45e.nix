@@ -81,6 +81,26 @@ let
             "file" = "nicer-skies-1.4.1+1.21.1.jar";
             "hash" = "sha512-zl6ee1BqTEN3jKTZkNrUv0hTAbpfNj8OJrX52t6mNr8rBiJWM4hoLD+Zqz1P1LOZUyW13PG0gEsSmdwHbOYINQ==";
         };
+        _YMGPhcbn = {
+            "id" = "YMGPhcbn";
+            "file" = "nicer-skies-1.4.2+1.21.1.jar";
+            "hash" = "sha512-KcsYv9VyVFHKoBS8D2IfmsYIGHROFv7HfYCNQJMhMUcR8iO67VzNzROG1MQBh/5T4Y8t3CmrLc1+9JxlK+0asA==";
+        };
+        _v9p7rpoJ = {
+            "id" = "v9p7rpoJ";
+            "file" = "nicer-skies-1.5.0+1.21.11.jar";
+            "hash" = "sha512-P1az3PdShFCPzg1nGwaXInul9V909Cl4AdXPgy3/trQRlK7Ev3w2L6tpKapuXPEq+pvCuqsX5Al4vqxQKzwm0g==";
+        };
+        _lxcOKrbS = {
+            "id" = "lxcOKrbS";
+            "file" = "nicer-skies-1.5.0+26.1.2.jar";
+            "hash" = "sha512-gG685QtxuyA3AUcVvvnO7asLLwCfGvmRavZevfEt5iMBGlEYil+o+MovXyELB47JjtIrDk6m8ZTSl54h8I/PJw==";
+        };
+        _cPvuQvGv = {
+            "id" = "cPvuQvGv";
+            "file" = "nicer-skies-1.5.0+26.2.jar";
+            "hash" = "sha512-E0yPLqAJMuqm8hp0CvQkSjfru3z8ce+Wi91nmIe52IFePgiM6k/8N9OiMNTckm/F+u0EhLrFTqQIv1LvtYDkIA==";
+        };
     in {
         "ZkaEucRs" = _ZkaEucRs;
         "io1rsYBu" = _io1rsYBu;
@@ -98,6 +118,10 @@ let
         "t3LWdUoC" = _t3LWdUoC;
         "yXeNzZP9" = _yXeNzZP9;
         "NcLxV3wa" = _NcLxV3wa;
+        "YMGPhcbn" = _YMGPhcbn;
+        "v9p7rpoJ" = _v9p7rpoJ;
+        "lxcOKrbS" = _lxcOKrbS;
+        "cPvuQvGv" = _cPvuQvGv;
         "fabric-1.19.2" = _rqUnNZqs;
         "fabric-1.19.3" = _Uo4tUZp5;
         "fabric-1.19.4" = _ROTwIP94;
@@ -106,8 +130,13 @@ let
         "fabric-1.20.2" = _kVhUpOEJ;
         "fabric-1.20.3" = _t3LWdUoC;
         "fabric-1.20.4" = _t3LWdUoC;
-        "fabric-1.21" = _NcLxV3wa;
-        "fabric-1.21.1" = _NcLxV3wa;
+        "fabric-1.21" = _YMGPhcbn;
+        "fabric-1.21.1" = _YMGPhcbn;
+        "fabric-1.21.11" = _v9p7rpoJ;
+        "fabric-26.1" = _lxcOKrbS;
+        "fabric-26.1.1" = _lxcOKrbS;
+        "fabric-26.1.2" = _lxcOKrbS;
+        "fabric-26.2" = _cPvuQvGv;
         "quilt-1.19.2" = _rqUnNZqs;
         "quilt-1.19.3" = _Uo4tUZp5;
         "quilt-1.19.4" = _ROTwIP94;
@@ -122,7 +151,11 @@ let
         "pkg-1.3.1+1.20.4" = _t3LWdUoC;
         "pkg-1.4.0+1.21" = _yXeNzZP9;
         "pkg-1.4.1+1.21.1" = _NcLxV3wa;
-        "default" = _NcLxV3wa;
+        "pkg-1.4.2+1.21.1" = _YMGPhcbn;
+        "pkg-1.5.0+1.21.11" = _v9p7rpoJ;
+        "pkg-1.5.0+26.1.2" = _lxcOKrbS;
+        "pkg-1.5.0+26.2" = _cPvuQvGv;
+        "default" = _cPvuQvGv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nicer-skies";

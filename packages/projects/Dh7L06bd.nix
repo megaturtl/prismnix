@@ -81,6 +81,11 @@ let
             "file" = "[1.21.x] RRC Resources v1.0.16.zip";
             "hash" = "sha512-rwHMQAyPK7Gl5XMHBuYpiL1G8aUdV7hAROG00aTSyGo7VodENTOERRqvrWyVqDYhtEFhkN2B+XduIEQ2YJ5WVQ==";
         };
+        _rgEKVQo1 = {
+            "id" = "rgEKVQo1";
+            "file" = "[1.21.x-26.2] RRC Resources v1.0.17.zip";
+            "hash" = "sha512-mA32icMxDO8uG6fm2JDEezLCObNZQl1w12Geig2N8lbAEC4mAv2/2jOCUrNuF/6itoDjkLzLfr+jVkoB8nAx6g==";
+        };
     in {
         "naikqoEe" = _naikqoEe;
         "zGJPjm8I" = _zGJPjm8I;
@@ -98,6 +103,7 @@ let
         "89f3zHoF" = _89f3zHoF;
         "8727xQqc" = _8727xQqc;
         "4IGrLfpT" = _4IGrLfpT;
+        "rgEKVQo1" = _rgEKVQo1;
         "minecraft-1.20" = _fYmwYZ23;
         "minecraft-1.20.1" = _fYmwYZ23;
         "minecraft-1.20.2" = _fYmwYZ23;
@@ -105,16 +111,16 @@ let
         "minecraft-1.20.4" = _fYmwYZ23;
         "minecraft-1.20.5" = _fYmwYZ23;
         "minecraft-1.20.6" = _fYmwYZ23;
-        "minecraft-1.21" = _4IGrLfpT;
-        "minecraft-1.21.1" = _4IGrLfpT;
-        "minecraft-1.21.2" = _4IGrLfpT;
-        "minecraft-1.21.3" = _4IGrLfpT;
+        "minecraft-1.21" = _rgEKVQo1;
+        "minecraft-1.21.1" = _rgEKVQo1;
+        "minecraft-1.21.2" = _rgEKVQo1;
+        "minecraft-1.21.3" = _rgEKVQo1;
         "minecraft-24w44a" = _vAocHqGX;
-        "minecraft-1.21.4" = _4IGrLfpT;
+        "minecraft-1.21.4" = _rgEKVQo1;
         "minecraft-25w04a" = _cqc8zYuT;
         "minecraft-25w02a" = _cqc8zYuT;
         "minecraft-25w03a" = _cqc8zYuT;
-        "minecraft-1.21.5" = _4IGrLfpT;
+        "minecraft-1.21.5" = _rgEKVQo1;
         "minecraft-25w15a" = _k4DJx0nT;
         "minecraft-25w16a" = _k4DJx0nT;
         "minecraft-25w17a" = _k4DJx0nT;
@@ -122,12 +128,16 @@ let
         "minecraft-25w19a" = _k4DJx0nT;
         "minecraft-25w20a" = _ZdP89bSx;
         "minecraft-25w14craftmine" = _k4DJx0nT;
-        "minecraft-1.21.6" = _4IGrLfpT;
-        "minecraft-1.21.7" = _4IGrLfpT;
-        "minecraft-1.21.8" = _4IGrLfpT;
-        "minecraft-1.21.9" = _4IGrLfpT;
-        "minecraft-1.21.10" = _4IGrLfpT;
-        "minecraft-1.21.11" = _4IGrLfpT;
+        "minecraft-1.21.6" = _rgEKVQo1;
+        "minecraft-1.21.7" = _rgEKVQo1;
+        "minecraft-1.21.8" = _rgEKVQo1;
+        "minecraft-1.21.9" = _rgEKVQo1;
+        "minecraft-1.21.10" = _rgEKVQo1;
+        "minecraft-1.21.11" = _rgEKVQo1;
+        "minecraft-26.1" = _rgEKVQo1;
+        "minecraft-26.1.1" = _rgEKVQo1;
+        "minecraft-26.1.2" = _rgEKVQo1;
+        "minecraft-26.2" = _rgEKVQo1;
         "pkg-1.0.0" = _naikqoEe;
         "pkg-1.0.1" = _zGJPjm8I;
         "pkg-1.0.2" = _IFYeFyRt;
@@ -144,7 +154,8 @@ let
         "pkg-1.0.14" = _89f3zHoF;
         "pkg-1.0.15" = _8727xQqc;
         "pkg-1.0.16" = _4IGrLfpT;
-        "default" = _4IGrLfpT;
+        "pkg-1.0.17" = _rgEKVQo1;
+        "default" = _rgEKVQo1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rrc-resources";

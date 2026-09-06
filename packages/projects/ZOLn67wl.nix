@@ -101,6 +101,11 @@ let
             "file" = "colored-lanterns-0.1.6+1.21.10.jar";
             "hash" = "sha512-1lirGscaV1Wd2Tx5BaGKYVRQFj0VQAfOSC2lT5afbXF3rPgKoz3af9UNMKvOxCK1wei1kUtBAPhv659xems5dg==";
         };
+        _zloP6I4X = {
+            "id" = "zloP6I4X";
+            "file" = "colored-lanterns-0.1.6+26.2.jar";
+            "hash" = "sha512-XuRtEJC9T2Cb9aP3IxO93RNjgbhOXSUiaWkho3BGGVSrDgUFbsVtljRWcQPP5nli/5fVcjodi/O23iFSKgVbIg==";
+        };
     in {
         "5U9jbk7a" = _5U9jbk7a;
         "n6MywJyj" = _n6MywJyj;
@@ -122,6 +127,7 @@ let
         "rosSwnlP" = _rosSwnlP;
         "Nb7wBwxt" = _Nb7wBwxt;
         "nDW5i0HP" = _nDW5i0HP;
+        "zloP6I4X" = _zloP6I4X;
         "fabric-1.21" = _5U9jbk7a;
         "fabric-1.21.1" = _BUhBymc6;
         "fabric-1.21.2" = _5U9jbk7a;
@@ -136,6 +142,10 @@ let
         "fabric-1.21.9" = _nDW5i0HP;
         "fabric-1.21.10" = _nDW5i0HP;
         "fabric-1.21.11" = _nDW5i0HP;
+        "fabric-26.1" = _zloP6I4X;
+        "fabric-26.1.1" = _zloP6I4X;
+        "fabric-26.1.2" = _zloP6I4X;
+        "fabric-26.2" = _zloP6I4X;
         "quilt-1.21.1" = _BUhBymc6;
         "quilt-1.21.4" = _qYm0gFmY;
         "quilt-1.21.5" = _TwaEAVgz;
@@ -162,7 +172,8 @@ let
         "pkg-0.1.4+1.21.6" = _rosSwnlP;
         "pkg-0.1.5+1.21.6" = _Nb7wBwxt;
         "pkg-0.1.6+1.21.10" = _nDW5i0HP;
-        "default" = _nDW5i0HP;
+        "pkg-0.1.6+26.2" = _zloP6I4X;
+        "default" = _zloP6I4X;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "colorful-lanterns";

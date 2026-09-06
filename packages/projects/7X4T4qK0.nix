@@ -2371,6 +2371,26 @@ let
             "file" = "angelblock-26.2-3.10.1.jar";
             "hash" = "sha512-OFk/xnDk7kyaUYlblYagaVTpgSSQbxZxl9s2B1e4/YNq6NAGagcjFES3cD1dJiRs/LTgnYi6qC/UehSj3e3ySQ==";
         };
+        _B8wQGOuc = {
+            "id" = "B8wQGOuc";
+            "file" = "angelblock-26.2-3.10.2.jar";
+            "hash" = "sha512-/Bz9tVw2JeuyD/7c3vG3l2QMlBUGKMtJ2cPztdbFAAnqzdhgoUtm5+xhP3cEMcp2hwLixHhtRcF9xie4AkstoQ==";
+        };
+        _fiUoRi8u = {
+            "id" = "fiUoRi8u";
+            "file" = "angelblock-26.2-3.10.3-alpha.jar";
+            "hash" = "sha512-uoCsYJUcJvwfWphvWAj59TOwRui7ve8Hivg1OtMLoYdRYDkXC0S51MBylPamkV62McJ40aQA5qSHnT3ttx0CNA==";
+        };
+        _j7GcKRXj = {
+            "id" = "j7GcKRXj";
+            "file" = "angelblock-26.2-3.10.4-alpha.jar";
+            "hash" = "sha512-ZmDKG0LuJzQeRXkg4EEvlHAlQMqY63dYBE20K0vQX6mJRThGCWRagXOdST0XJAjLDycMXV+ZlbuoY/aw+SoN8w==";
+        };
+        _Mp3sLVHY = {
+            "id" = "Mp3sLVHY";
+            "file" = "angelblock-26.2-3.10.4.jar";
+            "hash" = "sha512-3c2HV56+tuE8sbQ6sXYy6uB8zkfWRpg8oJUbDQNPk/kBpvtFSmVxoHQ+sIaGZTwIgoITHUR9/jkkDaMtkRDcPQ==";
+        };
     in {
         "XU4vhKxb" = _XU4vhKxb;
         "24sZAWEc" = _24sZAWEc;
@@ -2846,6 +2866,10 @@ let
         "FZSULS8V" = _FZSULS8V;
         "Y3IJWSRO" = _Y3IJWSRO;
         "XYnQnNPd" = _XYnQnNPd;
+        "B8wQGOuc" = _B8wQGOuc;
+        "fiUoRi8u" = _fiUoRi8u;
+        "j7GcKRXj" = _j7GcKRXj;
+        "Mp3sLVHY" = _Mp3sLVHY;
         "neoforge-1.21.4" = _GRCbjnPr;
         "neoforge-1.21.5" = _tK0BTyBs;
         "neoforge-1.21.1" = _uJRhXq9P;
@@ -2859,7 +2883,7 @@ let
         "neoforge-26.1" = _FZSULS8V;
         "neoforge-26.1.1" = _FZSULS8V;
         "neoforge-26.1.2" = _Y3IJWSRO;
-        "neoforge-26.2" = _XYnQnNPd;
+        "neoforge-26.2" = _Mp3sLVHY;
         "pkg-1.21.4-1.1.5" = _XU4vhKxb;
         "pkg-1.21.5-1.0.3-beta" = _24sZAWEc;
         "pkg-1.21.4-1.1.6" = _zSyCrZtf;
@@ -3334,7 +3358,11 @@ let
         "pkg-26.1.1-3.10.1" = _FZSULS8V;
         "pkg-26.1.2-3.10.1" = _Y3IJWSRO;
         "pkg-26.2-3.10.1" = _XYnQnNPd;
-        "default" = _XYnQnNPd;
+        "pkg-26.2-3.10.2" = _B8wQGOuc;
+        "pkg-26.2-3.10.3-alpha" = _fiUoRi8u;
+        "pkg-26.2-3.10.4-alpha" = _j7GcKRXj;
+        "pkg-26.2-3.10.4" = _Mp3sLVHY;
+        "default" = _Mp3sLVHY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "angel-block-mod";

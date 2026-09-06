@@ -48,6 +48,18 @@ let
         "minecraft-1.21.1" = _wfWFr4bp;
         "minecraft-1.21.2" = _wfWFr4bp;
         "minecraft-1.21.3" = _wfWFr4bp;
+        "minecraft-1.21.4" = _wfWFr4bp;
+        "minecraft-1.21.5" = _wfWFr4bp;
+        "minecraft-1.21.6" = _wfWFr4bp;
+        "minecraft-1.21.7" = _wfWFr4bp;
+        "minecraft-1.21.8" = _wfWFr4bp;
+        "minecraft-1.21.9" = _wfWFr4bp;
+        "minecraft-1.21.10" = _wfWFr4bp;
+        "minecraft-1.21.11" = _wfWFr4bp;
+        "minecraft-26.1" = _wfWFr4bp;
+        "minecraft-26.1.1" = _wfWFr4bp;
+        "minecraft-26.1.2" = _wfWFr4bp;
+        "minecraft-26.2" = _wfWFr4bp;
         "pkg-1" = _wfWFr4bp;
         "default" = _wfWFr4bp;
     });

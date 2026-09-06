@@ -96,6 +96,26 @@ let
             "file" = "neoattributemodify-1.2.1.jar";
             "hash" = "sha512-oyYQhBdmQZ7UcPRM57iDTFuz0kBqg/X8HPQ4nHmCLn7picuWUKG58TaOmmN4Q8mbUSPfCD6eOrgRO88BHR0w/g==";
         };
+        _ANXkd3cF = {
+            "id" = "ANXkd3cF";
+            "file" = "attributemodify-1.2.3.jar";
+            "hash" = "sha512-OeS2ko6/2pv569BC6Woqvz7v+8LPy17qOJrxIti7mM1H7ABDHC//eNm+dsSH2Bzgjx/Q05YbW/W8u2sMh/ve4A==";
+        };
+        _KaYefFev = {
+            "id" = "KaYefFev";
+            "file" = "neoattributemodify-1.2.3.jar";
+            "hash" = "sha512-GEnkx/V5DA6KVyqhyuxUOmo8hUb3hRjaE1SYf/PuDsZYkfSn6099IlsBxwQaqnqFAwC42ba2bhcY8HA9OE2OeA==";
+        };
+        _VhqEebj3 = {
+            "id" = "VhqEebj3";
+            "file" = "neoattributemodify-1.2.4.jar";
+            "hash" = "sha512-ZWM45ACVDKnmCZoOOTYHlRiUdt5lRO1lum0sfP9cpkj/3lnc3FucdsYClAd9bMYLaWEqQWQA695vzS6gyjDoJA==";
+        };
+        _TisdORL2 = {
+            "id" = "TisdORL2";
+            "file" = "attributemodify-1.2.4.jar";
+            "hash" = "sha512-MwHxsSfC6miy/4GkCsYdXKYAvD/MwnCZ/fY8DKr2TAPRXzzc6CGR/yQvk+mraKAWiqtJ+Xw20anUSRm5dnMYkw==";
+        };
     in {
         "kNGWl8FI" = _kNGWl8FI;
         "1vdpTEWu" = _1vdpTEWu;
@@ -116,13 +136,17 @@ let
         "YO48azLf" = _YO48azLf;
         "HYWf5uLb" = _HYWf5uLb;
         "Osv2lu22" = _Osv2lu22;
-        "forge-1.20.1" = _HYWf5uLb;
+        "ANXkd3cF" = _ANXkd3cF;
+        "KaYefFev" = _KaYefFev;
+        "VhqEebj3" = _VhqEebj3;
+        "TisdORL2" = _TisdORL2;
+        "forge-1.20.1" = _TisdORL2;
         "forge-1.20.2" = _ubYAIn1a;
         "forge-1.20.3" = _ubYAIn1a;
         "forge-1.20.4" = _ubYAIn1a;
         "forge-1.20.5" = _ubYAIn1a;
         "forge-1.20.6" = _ubYAIn1a;
-        "neoforge-1.21.1" = _Osv2lu22;
+        "neoforge-1.21.1" = _VhqEebj3;
         "neoforge-1.21.2" = _sBbnPvew;
         "neoforge-1.21.3" = _sBbnPvew;
         "neoforge-1.21.4" = _sBbnPvew;
@@ -145,7 +169,9 @@ let
         "pkg-1.0.9" = _mqOgWPcu;
         "pkg-1.1.0" = _YO48azLf;
         "pkg-1.2.1" = _Osv2lu22;
-        "default" = _Osv2lu22;
+        "pkg-1.2.3" = _KaYefFev;
+        "pkg-1.2.4" = _TisdORL2;
+        "default" = _TisdORL2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "attribute-modify";

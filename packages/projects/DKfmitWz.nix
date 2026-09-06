@@ -11,20 +11,21 @@ let
             "file" = "horseupgrades-1.0.jar";
             "hash" = "sha512-UBQe5ukwGsSSTJcpLGgSj0DnvGAyc5NQnSp5+sSXi4k2Vjj+BDo5vSzVHhFAlWMsZwtLs6pCED1maZNX2j2mUg==";
         };
-        _KGmuzGyT = {
-            "id" = "KGmuzGyT";
-            "file" = "horseupgrades-1.0.0.jar";
-            "hash" = "sha512-yfcXEeFgpK4RPv5S3KOyTobL3zKT5hjJV6K5VNKe+WBay786l3V9fH2+sxzFmdbQ3+/3ch35mpTs4vtM5SJbzA==";
+        _RPugWuF4 = {
+            "id" = "RPugWuF4";
+            "file" = "horseupgrades-1.1.0.jar";
+            "hash" = "sha512-acsz4EvGCfieDxQotccyWzo60KliwHAaPUPcDhPpauzhkZcwRZVs5G0rRNdiHCY/zO/Ql5garNSTp5TAvb5htg==";
         };
     in {
         "f8K6G467" = _f8K6G467;
         "wtA6gdZ1" = _wtA6gdZ1;
-        "KGmuzGyT" = _KGmuzGyT;
+        "RPugWuF4" = _RPugWuF4;
         "forge-1.19.2" = _f8K6G467;
         "forge-1.19.4" = _wtA6gdZ1;
-        "neoforge-1.21.1" = _KGmuzGyT;
-        "pkg-1.0" = _KGmuzGyT;
-        "default" = _KGmuzGyT;
+        "neoforge-1.21.1" = _RPugWuF4;
+        "pkg-1.0" = _wtA6gdZ1;
+        "pkg-1.1-1.21.1" = _RPugWuF4;
+        "default" = _RPugWuF4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "horse-upgrades";

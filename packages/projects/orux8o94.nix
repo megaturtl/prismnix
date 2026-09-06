@@ -236,6 +236,16 @@ let
             "file" = "debugutils-26.1.2-1.0.9-fabric.jar";
             "hash" = "sha512-yMJY4r45y6+1ahOGZvdMaM0wNVKGULPOoJUR31h7ZDY7dj1vrVOXlhxQqd1AwhvPNWAwlk7DlaNiaSvpH6KdOA==";
         };
+        _OilEtM0F = {
+            "id" = "OilEtM0F";
+            "file" = "debugutils-26.2-1.0.9-neoforge.jar";
+            "hash" = "sha512-TRXSdVCmNuYVQa2MgoSlazQ0a7+ixnBPh53r5y0BSu9olhcOZYZcjxIi59kCw9zMyhM+x4izMWVaFzJf5xI2ig==";
+        };
+        _wXr8Tsak = {
+            "id" = "wXr8Tsak";
+            "file" = "debugutils-26.2-1.0.9-fabric.jar";
+            "hash" = "sha512-4V5glLXMLJUFBIHDYtG8yS9KEozVajouRjSLrWY9dQ/w5yGLG3AMLDhqXRqAxBFHmngW8kjvYDydEKSf2gytjg==";
+        };
     in {
         "OGWNybMK" = _OGWNybMK;
         "kSymGWqA" = _kSymGWqA;
@@ -284,6 +294,8 @@ let
         "iEQryRjZ" = _iEQryRjZ;
         "CLUWaNdp" = _CLUWaNdp;
         "wR5XMPV7" = _wR5XMPV7;
+        "OilEtM0F" = _OilEtM0F;
+        "wXr8Tsak" = _wXr8Tsak;
         "fabric-1.18.2" = _lbYIAG85;
         "fabric-1.19.4" = _h5dbcB1j;
         "fabric-1.20.1" = _Dpuz1Gax;
@@ -296,6 +308,7 @@ let
         "fabric-1.21.9" = _Q6UIoMHm;
         "fabric-1.21.11" = _sTshGcWc;
         "fabric-26.1.2" = _wR5XMPV7;
+        "fabric-26.2" = _wXr8Tsak;
         "forge-1.18.2" = _A0WvBW2D;
         "forge-1.19.4" = _9bVA3nf8;
         "forge-1.20.1" = _Tr2n6OzX;
@@ -309,6 +322,7 @@ let
         "neoforge-1.21.9" = _Oi4ZVi2q;
         "neoforge-1.21.11" = _iEQryRjZ;
         "neoforge-26.1.2" = _CLUWaNdp;
+        "neoforge-26.2" = _OilEtM0F;
         "pkg-1.18.2-1.0.3" = _kSymGWqA;
         "pkg-1.19.4-1.0.3" = _9bVA3nf8;
         "pkg-1.20.1-1.0.3" = _t2oDaZ0Z;
@@ -344,7 +358,9 @@ let
         "pkg-1.21.11-1.0.9-neoforge" = _iEQryRjZ;
         "pkg-26.1.2-1.0.9-neoforge" = _CLUWaNdp;
         "pkg-26.1.2-1.0.9-fabric" = _wR5XMPV7;
-        "default" = _wR5XMPV7;
+        "pkg-26.2-1.0.9-neoforge" = _OilEtM0F;
+        "pkg-26.2-1.0.9-fabric" = _wXr8Tsak;
+        "default" = _wXr8Tsak;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "debugutils";

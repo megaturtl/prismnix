@@ -36,6 +36,11 @@ let
             "file" = "waystonessable-1.0.6.jar";
             "hash" = "sha512-ChCViHxrDyoAkdKwzyGIZOoLCKKHMh8A/EDmI6pnn4NLZtxJ/b9mm/BEYAWtaevyCIyiO/8X/Yy3JN+Tbd5+xw==";
         };
+        _Wot8Pf4C = {
+            "id" = "Wot8Pf4C";
+            "file" = "waystonessable-1.0.7.jar";
+            "hash" = "sha512-ILZ3x3uvX9M8zPGsK/gCINcWLTDKM9wEUWKFaQ+PrJOSpHibV1RbX9IAFCE6H1WBKtbi79NRiiuneppUvGq1Gg==";
+        };
     in {
         "gqxbnKwV" = _gqxbnKwV;
         "YOk0Jn6X" = _YOk0Jn6X;
@@ -44,7 +49,8 @@ let
         "sU9FMQjX" = _sU9FMQjX;
         "eCbBeTtA" = _eCbBeTtA;
         "kxuAiQvI" = _kxuAiQvI;
-        "neoforge-1.21.1" = _kxuAiQvI;
+        "Wot8Pf4C" = _Wot8Pf4C;
+        "neoforge-1.21.1" = _Wot8Pf4C;
         "pkg-1.0.0" = _gqxbnKwV;
         "pkg-1.0.1" = _YOk0Jn6X;
         "pkg-1.0.2" = _jWfLRjhU;
@@ -52,7 +58,8 @@ let
         "pkg-1.0.4" = _sU9FMQjX;
         "pkg-1.0.5" = _eCbBeTtA;
         "pkg-1.0.6" = _kxuAiQvI;
-        "default" = _kxuAiQvI;
+        "pkg-1.0.7" = _Wot8Pf4C;
+        "default" = _Wot8Pf4C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "waystones-sable";

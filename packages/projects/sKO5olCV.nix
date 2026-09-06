@@ -91,6 +91,16 @@ let
             "file" = "duch-cart-fix-fabric-mc1.21.11-3.0.0.jar";
             "hash" = "sha512-HEY5iGNxNROcK3Xqj73NYa0+5C3r+OhJIWLkL70xfLm6z9mI5P6HLcqOWPbtDB/2pOno0lKBE3AbcTsXcaOXRw==";
         };
+        _8YsPbE68 = {
+            "id" = "8YsPbE68";
+            "file" = "duch-cart-fix-fabric-mc26.1.2-3.0.0.jar";
+            "hash" = "sha512-RoBi8WY76dE259zS795wWLgoIgqIJ8AHro/OXNxgzctiNGEo+QQOdxYJAblN5QyLe5oRC6HlMLhQ5nGrTfIIfg==";
+        };
+        _1Q5UaGf6 = {
+            "id" = "1Q5UaGf6";
+            "file" = "duch-cart-fix-fabric-mc26.2-3.0.0.jar";
+            "hash" = "sha512-phmnhW9gEBtlaeD4zwMCWBFAjlWHtj76tQ2qzGMoLiWS2H/ybw90BqKI51cZJ2PTxU9g8aPN42MVj47gcIBW9A==";
+        };
     in {
         "OvsI57Lx" = _OvsI57Lx;
         "PVydI59D" = _PVydI59D;
@@ -110,6 +120,8 @@ let
         "Pj5062gE" = _Pj5062gE;
         "DTEChETV" = _DTEChETV;
         "cSak9wbr" = _cSak9wbr;
+        "8YsPbE68" = _8YsPbE68;
+        "1Q5UaGf6" = _1Q5UaGf6;
         "fabric-1.21.4" = _JJKz3ix7;
         "fabric-1.21.11" = _cSak9wbr;
         "fabric-1.21" = _m9ku9Z5T;
@@ -117,11 +129,13 @@ let
         "fabric-1.21.6" = _iRTDKvPr;
         "fabric-1.21.8" = _Pj5062gE;
         "fabric-1.21.10" = _DTEChETV;
+        "fabric-26.1.2" = _8YsPbE68;
+        "fabric-26.2" = _1Q5UaGf6;
         "pkg-1.0.0" = _PVydI59D;
         "pkg-2.0.0" = _rlrktTPL;
         "pkg-2.5.0" = _OXXZcLuO;
-        "pkg-3.0.0" = _cSak9wbr;
-        "default" = _cSak9wbr;
+        "pkg-3.0.0" = _1Q5UaGf6;
+        "default" = _1Q5UaGf6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "duch-cart-fix";

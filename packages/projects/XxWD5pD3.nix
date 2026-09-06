@@ -1751,6 +1751,11 @@ let
             "file" = "appliedenergistics2-26.1.10-beta.jar";
             "hash" = "sha512-vLg7Ol6rtbRinrJwWG1s/T8VF2PAH3Z21/qHEOiZzoUhliOjkmpqJLjFGRsx88u5AgpZmGQkfnG5argD7ZQy+Q==";
         };
+        _AyF0Qu5L = {
+            "id" = "AyF0Qu5L";
+            "file" = "appliedenergistics2-26.1.11-beta.jar";
+            "hash" = "sha512-eczHZKYhdefBS2XdDCwNJZDNzcRc0r4wm+JwMm75S5LZ8TFIJMgXq5iwrOHG0g+o/dhrMCMFsa6C532nLpwB/g==";
+        };
     in {
         "OqkivEmV" = _OqkivEmV;
         "DZZbZnbH" = _DZZbZnbH;
@@ -2102,6 +2107,7 @@ let
         "VhdEFsJJ" = _VhdEFsJJ;
         "vzrkvq3t" = _vzrkvq3t;
         "pK0VDmDU" = _pK0VDmDU;
+        "AyF0Qu5L" = _AyF0Qu5L;
         "forge-1.18.1" = _LmtoNQhm;
         "forge-1.18.2" = _qBbqV301;
         "forge-1.19" = _aR5tGCcS;
@@ -2125,7 +2131,7 @@ let
         "neoforge-1.21" = _8hwSVt90;
         "neoforge-1.21.1" = _kfyIqgJ6;
         "neoforge-26.1-snapshot-1" = _85JEIVdn;
-        "neoforge-26.1.2" = _pK0VDmDU;
+        "neoforge-26.1.2" = _AyF0Qu5L;
         "pkg-forge-10.0.0-alpha.6" = _OqkivEmV;
         "pkg-fabric-10.0.0-alpha.8" = _DZZbZnbH;
         "pkg-forge-10.0.0-alpha.7" = _cLm6eoS7;
@@ -2445,7 +2451,8 @@ let
         "pkg-26.1.8-alpha" = _VhdEFsJJ;
         "pkg-26.1.9-alpha" = _vzrkvq3t;
         "pkg-26.1.10-beta" = _pK0VDmDU;
-        "default" = _pK0VDmDU;
+        "pkg-26.1.11-beta" = _AyF0Qu5L;
+        "default" = _AyF0Qu5L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ae2";

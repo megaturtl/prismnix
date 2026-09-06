@@ -46,6 +46,11 @@ let
             "file" = "sustenance-1.1.2.jar";
             "hash" = "sha512-FRjjOIZs8pAZcREF2frNRokoq0I2VtoCapDQ5wR5XjkbuAY8Cm2i5vLx7Ve4iQ5WkvFsU/O5N7zjF84lNLkwIw==";
         };
+        _h02z7bxZ = {
+            "id" = "h02z7bxZ";
+            "file" = "sustenance-1.2.0.jar";
+            "hash" = "sha512-GCMfHCwTZnDTmNbbeOTFMrkPdRbYbsHC+O/DxsluNZ6ukaObvmM8KQfu3iD5rRvVn0aJY8yuw494MB5d8Sn0wA==";
+        };
     in {
         "x9hVRg7O" = _x9hVRg7O;
         "LlR5Zfam" = _LlR5Zfam;
@@ -56,6 +61,7 @@ let
         "WWY145id" = _WWY145id;
         "TtGNvIQz" = _TtGNvIQz;
         "czSRSxel" = _czSRSxel;
+        "h02z7bxZ" = _h02z7bxZ;
         "fabric-1.18" = _PZnJ7nYc;
         "fabric-1.18.2" = _PZnJ7nYc;
         "fabric-1.19" = _TtGNvIQz;
@@ -70,6 +76,10 @@ let
         "fabric-1.20.3" = _TtGNvIQz;
         "fabric-1.21.5" = _czSRSxel;
         "fabric-1.21.6" = _czSRSxel;
+        "fabric-26.1" = _h02z7bxZ;
+        "fabric-26.1.1" = _h02z7bxZ;
+        "fabric-26.1.2" = _h02z7bxZ;
+        "fabric-26.2" = _h02z7bxZ;
         "pkg-1.0.0-1.18.2" = _x9hVRg7O;
         "pkg-1.0.0-1.19.2" = _LlR5Zfam;
         "pkg-1.1.0-1.18.2" = _PZnJ7nYc;
@@ -78,7 +88,8 @@ let
         "pkg-1.1.0-1.20.1" = _R3xvmy41;
         "pkg-1.1.1" = _WWY145id;
         "pkg-1.1.2" = _czSRSxel;
-        "default" = _czSRSxel;
+        "pkg-1.2.0" = _h02z7bxZ;
+        "default" = _h02z7bxZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sustenance";

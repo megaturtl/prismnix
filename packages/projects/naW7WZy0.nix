@@ -126,6 +126,11 @@ let
             "file" = "the_last_sword-1.20.1-forge-1.1.0-fix-fix.jar";
             "hash" = "sha512-lQygigo1fZl6MOsWHACsquZiJajLDrq4BPXYsw3Kf8+dErs6fmxgekA7pwMPwbYIhLXytdWenj/c03NvUoNLoQ==";
         };
+        _iCmK2yWt = {
+            "id" = "iCmK2yWt";
+            "file" = "the_last_sword-1.20.1-forge-1.1.1.jar";
+            "hash" = "sha512-H7Ojzgj36v/b1JNqE5u3cuuRW1T4gPkLPE7Wa6Uy2B7yVc2VDoYUO/Q02gQc5gF0GDonGgZqKsnV0nFAGq6msw==";
+        };
     in {
         "lxdlF1mq" = _lxdlF1mq;
         "OrOp4x2w" = _OrOp4x2w;
@@ -152,7 +157,8 @@ let
         "Twnjh3oP" = _Twnjh3oP;
         "JsFVV4pI" = _JsFVV4pI;
         "z4VFEx2N" = _z4VFEx2N;
-        "forge-1.20.1" = _z4VFEx2N;
+        "iCmK2yWt" = _iCmK2yWt;
+        "forge-1.20.1" = _iCmK2yWt;
         "pkg-1.0.4" = _lxdlF1mq;
         "pkg-1.0.5" = _EzQ6x7mw;
         "pkg-1.0.6-beta" = _399v8EZi;
@@ -176,7 +182,8 @@ let
         "pkg-1.1.0-fix-beta" = _Twnjh3oP;
         "pkg-1.1.0-fix" = _JsFVV4pI;
         "pkg-1.1.0-fix-fix" = _z4VFEx2N;
-        "default" = _z4VFEx2N;
+        "pkg-1.1.1" = _iCmK2yWt;
+        "default" = _iCmK2yWt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-last-sword-you-never-forgot";

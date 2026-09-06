@@ -36,6 +36,11 @@ let
             "file" = "createstellaris-1.5.0.jar";
             "hash" = "sha512-FIgrCQLaUl5J/01CGwCmnsZMVcvADrUc86FDrdGq1feLls/xr57SuDJqdaJF2QuDZRM8pS1cMEITRw1nIpGbvg==";
         };
+        _rY2reEgS = {
+            "id" = "rY2reEgS";
+            "file" = "createstellaris-1.6.0.jar";
+            "hash" = "sha512-p+wFfP86AHaDlEM63GF1pTZ5mTP2jDJfOdiA8cuejGC0FYklXLJ8bMSoNAcJdsPJ5i9fM7Bz1lY35NFQMhP4vQ==";
+        };
     in {
         "Susr4awj" = _Susr4awj;
         "uH7cH5Sz" = _uH7cH5Sz;
@@ -44,7 +49,8 @@ let
         "UxZwpB6k" = _UxZwpB6k;
         "ndjl4hQy" = _ndjl4hQy;
         "1iByme1G" = _1iByme1G;
-        "neoforge-1.21.1" = _1iByme1G;
+        "rY2reEgS" = _rY2reEgS;
+        "neoforge-1.21.1" = _rY2reEgS;
         "pkg-1.0.0" = _Susr4awj;
         "pkg-1.0.5" = _uH7cH5Sz;
         "pkg-1.1.0" = _aCDbk3NM;
@@ -52,7 +58,8 @@ let
         "pkg-1.3.0" = _UxZwpB6k;
         "pkg-1.4.0" = _ndjl4hQy;
         "pkg-1.5.0" = _1iByme1G;
-        "default" = _1iByme1G;
+        "pkg-1.6.0" = _rY2reEgS;
+        "default" = _rY2reEgS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-stellaris";

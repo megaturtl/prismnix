@@ -111,6 +111,16 @@ let
             "file" = "expanded-crossbow-enchantings-1.20.jar";
             "hash" = "sha512-rnMxIZEDLe0MIRedQ98i+cyYLwyb5LiVRSv5HsU8PEn1YXaEUImfW389z5K5D7V3knIRAyXGj4pk0tHn9N1iHg==";
         };
+        _XEMqggDL = {
+            "id" = "XEMqggDL";
+            "file" = "Expanded Crossbow Enchanting 26.2.zip";
+            "hash" = "sha512-fFqCA4z5d6mcfZply/dh1EtsM8u4RCfZQEw8vhMzBXhrxsvRh2Rs2P5XknXlDp2XctMgi643iYqCZ8Up5VoGpg==";
+        };
+        _MvhDJQFK = {
+            "id" = "MvhDJQFK";
+            "file" = "expanded-crossbow-enchantings-1.11.jar";
+            "hash" = "sha512-zk+UHl20UJLR0v2rIXDrthnz4mcettxjWbND1gQr14InbFoFEMbUDuFvj0fwQCQOGoqLEoFkO8YtBv/p6sFN8A==";
+        };
     in {
         "RA4xTjYg" = _RA4xTjYg;
         "BXWE62ob" = _BXWE62ob;
@@ -134,6 +144,8 @@ let
         "vRn5ihZC" = _vRn5ihZC;
         "IJCFMfzK" = _IJCFMfzK;
         "I3u73Ifa" = _I3u73Ifa;
+        "XEMqggDL" = _XEMqggDL;
+        "MvhDJQFK" = _MvhDJQFK;
         "datapack-1.21" = _RA4xTjYg;
         "datapack-1.21.1" = _RA4xTjYg;
         "datapack-1.21.2" = _pe6DgDXX;
@@ -149,6 +161,7 @@ let
         "datapack-26.1" = _IJCFMfzK;
         "datapack-26.1.1" = _IJCFMfzK;
         "datapack-26.1.2" = _IJCFMfzK;
+        "datapack-26.2" = _XEMqggDL;
         "fabric-1.21" = _BXWE62ob;
         "fabric-1.21.1" = _BXWE62ob;
         "fabric-1.21.2" = _G3eEtKQK;
@@ -164,6 +177,7 @@ let
         "fabric-26.1" = _I3u73Ifa;
         "fabric-26.1.1" = _I3u73Ifa;
         "fabric-26.1.2" = _I3u73Ifa;
+        "fabric-26.2" = _MvhDJQFK;
         "forge-1.21" = _BXWE62ob;
         "forge-1.21.1" = _BXWE62ob;
         "forge-1.21.2" = _G3eEtKQK;
@@ -179,6 +193,7 @@ let
         "forge-26.1" = _I3u73Ifa;
         "forge-26.1.1" = _I3u73Ifa;
         "forge-26.1.2" = _I3u73Ifa;
+        "forge-26.2" = _MvhDJQFK;
         "neoforge-1.21" = _BXWE62ob;
         "neoforge-1.21.1" = _BXWE62ob;
         "neoforge-1.21.2" = _G3eEtKQK;
@@ -194,6 +209,7 @@ let
         "neoforge-26.1" = _I3u73Ifa;
         "neoforge-26.1.1" = _I3u73Ifa;
         "neoforge-26.1.2" = _I3u73Ifa;
+        "neoforge-26.2" = _MvhDJQFK;
         "quilt-1.21" = _BXWE62ob;
         "quilt-1.21.1" = _BXWE62ob;
         "quilt-1.21.2" = _G3eEtKQK;
@@ -209,6 +225,7 @@ let
         "quilt-26.1" = _I3u73Ifa;
         "quilt-26.1.1" = _I3u73Ifa;
         "quilt-26.1.2" = _I3u73Ifa;
+        "quilt-26.2" = _MvhDJQFK;
         "pkg-1.0" = _RA4xTjYg;
         "pkg-1.0.1+mod" = _BXWE62ob;
         "pkg-1.1" = _pe6DgDXX;
@@ -231,7 +248,9 @@ let
         "pkg-1.9.1+mod" = _vRn5ihZC;
         "pkg-1.10" = _IJCFMfzK;
         "pkg-1.10.1+mod" = _I3u73Ifa;
-        "default" = _I3u73Ifa;
+        "pkg-1.11" = _XEMqggDL;
+        "pkg-1.11.1+mod" = _MvhDJQFK;
+        "default" = _MvhDJQFK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "expanded-crossbow-enchantings";

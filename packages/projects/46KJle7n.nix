@@ -716,6 +716,11 @@ let
             "file" = "L_Ender's Cataclysm 1.21.1-3.32.jar";
             "hash" = "sha512-CzTxa0mTYue7AN74vLtY7quJ9NWqu9EksY7fbpc0BxpIrAQayl3fLtpTrxH2cA/TaQ8HryGL0WzhMS9dE/ZFQw==";
         };
+        _mYBUDZWl = {
+            "id" = "mYBUDZWl";
+            "file" = "L_Ender's Cataclysm 1.21.1-3.33.jar";
+            "hash" = "sha512-NZrTaBq6R5SGUZp5/SJ6/GCLZtKEOv4fbHGW2mgHaDeStOzqdh6CTxWwPRPW/yk4C0Ob3Vux0kcqBlro6DdD2Q==";
+        };
     in {
         "2eO7IE5C" = _2eO7IE5C;
         "CkOkq2BV" = _CkOkq2BV;
@@ -860,10 +865,11 @@ let
         "axOt8N57" = _axOt8N57;
         "bC6QOYxp" = _bC6QOYxp;
         "695vQRhD" = _695vQRhD;
+        "mYBUDZWl" = _mYBUDZWl;
         "forge-1.20.1" = _C3H0azzB;
         "forge-1.19.2" = _fUDkl8Bn;
         "neoforge-1.20.1" = _3xjv4tRm;
-        "neoforge-1.21.1" = _695vQRhD;
+        "neoforge-1.21.1" = _mYBUDZWl;
         "neoforge-1.21.5" = _ZvFa0rJG;
         "pkg-1.39" = _2eO7IE5C;
         "pkg-1.75" = _CkOkq2BV;
@@ -969,7 +975,8 @@ let
         "pkg-3.31-optimaztion" = _axOt8N57;
         "pkg-3.31-optimaztion2" = _bC6QOYxp;
         "pkg-3.32" = _695vQRhD;
-        "default" = _695vQRhD;
+        "pkg-3.33" = _mYBUDZWl;
+        "default" = _mYBUDZWl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "l_enders-cataclysm";

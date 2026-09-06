@@ -46,6 +46,21 @@ let
             "file" = "whaleborne-1.21.1-1.2.2.jar";
             "hash" = "sha512-EtqVZ1SwdjktYusgV5uR3VJp+ERRAHp8YAn6/nInODPac2vvZr0TUdlNs0m1fBiPef6VRHfGfcJwFdmpcAmt5g==";
         };
+        _8moU7dXO = {
+            "id" = "8moU7dXO";
+            "file" = "whaleborne-1.21.1-1.2.4.jar";
+            "hash" = "sha512-b7FbDhAFLMVFRGiJzqJmU7eAz+xLvRolJzZW0Pj2ZXCdDaVn36SyjRKSRrY1jbhwgKfS0J7ydBW8BGJX4h48uw==";
+        };
+        _oefFZ7Id = {
+            "id" = "oefFZ7Id";
+            "file" = "whaleborne-1.20.1-1.2.4.jar";
+            "hash" = "sha512-SZ4d7jN5eQvrSuEaVYUxn/CX0ZorY6fl+M+0zAwwO4xel0gkR9KRz3fmOeVyrIZVF5m6HWrEIkG9eWxiBPzyCQ==";
+        };
+        _MsrkdChD = {
+            "id" = "MsrkdChD";
+            "file" = "whaleborne-1.20.1-1.2.4b.jar";
+            "hash" = "sha512-UCbKWKde2L3HC7Km9jiPYHHZbO84PvxTTg9Tqhiwr/AmOaFNU+hZfffcrpcQBR7CMpiarhPycXwJykNPdDd05g==";
+        };
     in {
         "hO5vlU7w" = _hO5vlU7w;
         "9NBxkgrE" = _9NBxkgrE;
@@ -56,9 +71,13 @@ let
         "XDGMwGIZ" = _XDGMwGIZ;
         "a5veoQ1k" = _a5veoQ1k;
         "n54AXckx" = _n54AXckx;
-        "forge-1.20.1" = _a5veoQ1k;
+        "8moU7dXO" = _8moU7dXO;
+        "oefFZ7Id" = _oefFZ7Id;
+        "MsrkdChD" = _MsrkdChD;
+        "forge-1.20.1" = _MsrkdChD;
+        "forge-1.21.1" = _8moU7dXO;
         "neoforge-1.20.1" = _a5veoQ1k;
-        "neoforge-1.21.1" = _n54AXckx;
+        "neoforge-1.21.1" = _8moU7dXO;
         "pkg-1.0.0-beta" = _hO5vlU7w;
         "pkg-1.20.1_beta-1.1.0" = _9NBxkgrE;
         "pkg-1.20.1_beta-1.1.0-MR-Hotfix" = _rtqhCEzg;
@@ -68,7 +87,10 @@ let
         "pkg-1.20.1-1.2.2" = _XDGMwGIZ;
         "pkg-1.20.1-1.2.3" = _a5veoQ1k;
         "pkg-1.21.1-1.2.2" = _n54AXckx;
-        "default" = _n54AXckx;
+        "pkg-1.21.1-1.2.4" = _8moU7dXO;
+        "pkg-1.20.1-1.2.4" = _oefFZ7Id;
+        "pkg-1.20.1-1.2.4b" = _MsrkdChD;
+        "default" = _MsrkdChD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "whaleborne";

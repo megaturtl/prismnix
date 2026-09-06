@@ -331,6 +331,26 @@ let
             "file" = "Gexpress-1.8.8.jar";
             "hash" = "sha512-uvFh2q6NpG0K0aY++5YW6DxI3pDq77i9qmBtDCaqldDlUgYOI+M0W4jL2daOI513I0TQl3+FLSQ5QTJo2D25og==";
         };
+        _H9DKyl96 = {
+            "id" = "H9DKyl96";
+            "file" = "Gexpress-1.8.9.jar";
+            "hash" = "sha512-PSZRP5tsT/BsMncN+KEEHFZyBAkw6Ct5xg6NvWwatvB185bdeJBdueKKa7eoaTAxdS5Js1cOcVzrY883rvhr0w==";
+        };
+        _8K7E6uDr = {
+            "id" = "8K7E6uDr";
+            "file" = "Gexpress-1.8.10.jar";
+            "hash" = "sha512-7gLm8LTWHtMy1fR4n/LOFeuJagpo4yyXn7rwbNor3vunHzhTFXNIw1S7MYa73OKY19tZRC8/g36qGwuIDPqsVA==";
+        };
+        _F36hVVJy = {
+            "id" = "F36hVVJy";
+            "file" = "Gexpress-1.8.11.jar";
+            "hash" = "sha512-siNulqn9LsE3vRrOF6xAzNKrAT8qBKuAmrJ+yHWhX/4/jYtFYbVhXvTg7ligNgnSTmEmOwap5hDv5lJTL8zJMA==";
+        };
+        _NzEeCKRj = {
+            "id" = "NzEeCKRj";
+            "file" = "Gexpress-1.8.12.jar";
+            "hash" = "sha512-pxrq/o+MIrM2R7bOwAwQFadBRgPEmbXDk8O8WjHa0N5txMRWPQjL6w79OXZOKj4BngxyIKw6STUoAvWFOzSLNg==";
+        };
     in {
         "qzKqFqFe" = _qzKqFqFe;
         "wdVjMkaR" = _wdVjMkaR;
@@ -398,7 +418,11 @@ let
         "fLhHwush" = _fLhHwush;
         "bfBcVnLt" = _bfBcVnLt;
         "sEj1OP1x" = _sEj1OP1x;
-        "fabric-1.21.1" = _sEj1OP1x;
+        "H9DKyl96" = _H9DKyl96;
+        "8K7E6uDr" = _8K7E6uDr;
+        "F36hVVJy" = _F36hVVJy;
+        "NzEeCKRj" = _NzEeCKRj;
+        "fabric-1.21.1" = _NzEeCKRj;
         "pkg-1.0.0" = _qzKqFqFe;
         "pkg-1.1.0" = _wdVjMkaR;
         "pkg-1.2.0" = _QFnchUZ3;
@@ -465,7 +489,11 @@ let
         "pkg-1.8.6" = _fLhHwush;
         "pkg-1.8.7" = _bfBcVnLt;
         "pkg-1.8.8" = _sEj1OP1x;
-        "default" = _sEj1OP1x;
+        "pkg-1.8.9" = _H9DKyl96;
+        "pkg-1.8.10" = _8K7E6uDr;
+        "pkg-1.8.11" = _F36hVVJy;
+        "pkg-1.8.12" = _NzEeCKRj;
+        "default" = _NzEeCKRj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gexpress";

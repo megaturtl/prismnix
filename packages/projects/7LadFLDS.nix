@@ -26,19 +26,47 @@ let
             "file" = "WatheExtended-3.4.132.jar";
             "hash" = "sha512-/+IPRdGGMUDB8cUgnJuWxh46RFpgxUOhbaTDvrkNAkBhcmPUKThkUzJ3UHOB6+S2YSGvMx+gm1lCZe9zzwY6mw==";
         };
+        _Gb52hy5h = {
+            "id" = "Gb52hy5h";
+            "file" = "WatheExtended-3.5.132.jar";
+            "hash" = "sha512-3F/4fmii6NJrOLBY6p01SsmIxIdfXyADs4l1eWvw7laoZIDDVdLRCSbtXfRYtYpDUjjkIPOYLrukE2hViIOnog==";
+        };
+        _Z3DuXFqg = {
+            "id" = "Z3DuXFqg";
+            "file" = "WatheExtended-3.6.132.jar";
+            "hash" = "sha512-2SSX6OvTxIrS+ofKXwUoxhlwcEmLjNb+wvgHcJA85HjxTvq7jjOo4PJfHwnKeE4qxX52J2gQeEdJwckwKcBIyQ==";
+        };
+        _UAFlMKX7 = {
+            "id" = "UAFlMKX7";
+            "file" = "WatheExtended-3.5.132-FIX.jar";
+            "hash" = "sha512-zwkbhai4PaGmpwhuQIxBYfLvgbLuMUt1lLMrEEjHK/RmeCboY6Suge+Z/MzWywl0iDejUUnQDBLq1F/l2cAa8w==";
+        };
+        _xtqzzbeG = {
+            "id" = "xtqzzbeG";
+            "file" = "WatheExtended-3.5.132-FIX2.jar";
+            "hash" = "sha512-gUFfPERnla+r9fyefJF/skMlRXZUZiV6KVow56ypRrkAVK8zmnwVjpLxhe2NJ1xoP8IXmhIpF4Bi5/+ljKCRdA==";
+        };
     in {
         "rOllqJYm" = _rOllqJYm;
         "oRIBcNnL" = _oRIBcNnL;
         "6GCBrXpb" = _6GCBrXpb;
         "V6RuiTjZ" = _V6RuiTjZ;
         "pywz9YNA" = _pywz9YNA;
-        "fabric-1.21.1" = _pywz9YNA;
+        "Gb52hy5h" = _Gb52hy5h;
+        "Z3DuXFqg" = _Z3DuXFqg;
+        "UAFlMKX7" = _UAFlMKX7;
+        "xtqzzbeG" = _xtqzzbeG;
+        "fabric-1.21.1" = _xtqzzbeG;
         "pkg-3.0.132" = _rOllqJYm;
         "pkg-3.1.132" = _oRIBcNnL;
         "pkg-3.2.132" = _6GCBrXpb;
         "pkg-3.3.132" = _V6RuiTjZ;
         "pkg-3.4.132" = _pywz9YNA;
-        "default" = _pywz9YNA;
+        "pkg-3.5.132" = _Gb52hy5h;
+        "pkg-3.6.132" = _Z3DuXFqg;
+        "pkg-3.6.132-FIX" = _UAFlMKX7;
+        "pkg-3.5.132-FIX2" = _xtqzzbeG;
+        "default" = _xtqzzbeG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wathe-extended";

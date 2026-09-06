@@ -56,6 +56,11 @@ let
             "file" = "armorable-skeleton-horses-1.0.5.jar";
             "hash" = "sha512-97/QmQKQ5k8BghbidObQDz1l1Y57K7UL2RJJ3mPYPChqnsCRO3WMIYluXa5s2wE0CECqQpM2miFtwzb31QzCpw==";
         };
+        _iT94NCvs = {
+            "id" = "iT94NCvs";
+            "file" = "armorable-skeleton-horses-1.0.6.jar";
+            "hash" = "sha512-NU6Uy+/qhQRsOLrr41KlexaWw+wbDDEN19VlUoH24cktTYUD0TbzkFwZaFdFZSIsK7dsZJY4DBq9QqTfppUZmw==";
+        };
     in {
         "MuO2jmW4" = _MuO2jmW4;
         "ORzAvPH5" = _ORzAvPH5;
@@ -68,6 +73,7 @@ let
         "pmRfewSp" = _pmRfewSp;
         "tsxeSKSf" = _tsxeSKSf;
         "AjBetyek" = _AjBetyek;
+        "iT94NCvs" = _iT94NCvs;
         "fabric-1.20.1" = _tsxeSKSf;
         "fabric-1.20" = _T4Q6XY2X;
         "fabric-1.20.2" = _ORzAvPH5;
@@ -75,8 +81,8 @@ let
         "fabric-1.20.4" = _ORzAvPH5;
         "fabric-1.20.5" = _IEjuq0tj;
         "fabric-1.20.6" = _IEjuq0tj;
-        "fabric-1.21" = _AjBetyek;
-        "fabric-1.21.1" = _AjBetyek;
+        "fabric-1.21" = _iT94NCvs;
+        "fabric-1.21.1" = _iT94NCvs;
         "fabric-1.21.4" = _N4VFFsh5;
         "fabric-1.21.2" = _8OnxjDAu;
         "fabric-1.21.3" = _8OnxjDAu;
@@ -87,7 +93,8 @@ let
         "pkg-1.0.3" = _pmRfewSp;
         "pkg-1.0.4" = _tsxeSKSf;
         "pkg-1.0.5" = _AjBetyek;
-        "default" = _AjBetyek;
+        "pkg-1.0.6" = _iT94NCvs;
+        "default" = _iT94NCvs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armorable-skeleton-horses";

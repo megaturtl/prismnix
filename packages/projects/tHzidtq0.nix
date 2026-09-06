@@ -16,15 +16,22 @@ let
             "file" = "goetydargui-1.0.2.jar";
             "hash" = "sha512-+qeoAaMZdZ/jv2byhRm+qs52Gc3XHfAIyzP2f+ZPNn7Gbq7KB6L097D8SJEnd9CMpDlrLhx540E5EvPXvw2y+w==";
         };
+        _h6icrAHO = {
+            "id" = "h6icrAHO";
+            "file" = "goetydargui-1.0.3.jar";
+            "hash" = "sha512-V+qFKZaagXedqu0ysOqAHjeTEqDT4DyEd+omI2+PXzxwP3bt7f8lKRBo1QQq40DVvHOm2Kbg1nQp8VBtEcttyA==";
+        };
     in {
         "fR7wCAe9" = _fR7wCAe9;
         "vfoC6d1Z" = _vfoC6d1Z;
         "pIePAJMQ" = _pIePAJMQ;
-        "forge-1.20.1" = _pIePAJMQ;
+        "h6icrAHO" = _h6icrAHO;
+        "forge-1.20.1" = _h6icrAHO;
         "pkg-1.0.0" = _fR7wCAe9;
         "pkg-1.0.1" = _vfoC6d1Z;
         "pkg-1.0.2" = _pIePAJMQ;
-        "default" = _pIePAJMQ;
+        "pkg-1.0.3" = _h6icrAHO;
+        "default" = _h6icrAHO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "goety-dargui";

@@ -106,6 +106,15 @@ let
         "minecraft-26.2-rc-2" = _AjvT2jUl;
         "minecraft-26.2" = _AjvT2jUl;
         "minecraft-26.3-snapshot-1" = _AjvT2jUl;
+        "minecraft-26.3-snapshot-2" = _AjvT2jUl;
+        "minecraft-26.3-snapshot-3" = _AjvT2jUl;
+        "minecraft-26.3-snapshot-4" = _AjvT2jUl;
+        "minecraft-26.3-snapshot-5" = _AjvT2jUl;
+        "minecraft-26.3-snapshot-6" = _AjvT2jUl;
+        "minecraft-26.3-snapshot-7" = _AjvT2jUl;
+        "minecraft-26.3-snapshot-8" = _AjvT2jUl;
+        "minecraft-26.3-snapshot-9" = _AjvT2jUl;
+        "minecraft-26.3-snapshot-10" = _AjvT2jUl;
         "minecraft-1.15" = _7F0FQmWx;
         "minecraft-1.15.1" = _7F0FQmWx;
         "minecraft-1.15.2" = _7F0FQmWx;

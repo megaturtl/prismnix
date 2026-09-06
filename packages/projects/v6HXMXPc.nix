@@ -131,6 +131,21 @@ let
             "file" = "tickrate-0.7.0-26.2.jar";
             "hash" = "sha512-H+BBg20ba1tjU1rZqfByAaIOImamdpWgE/IOIn/wZWhAGQldRaNi1Xzwpdn39gqxPKOzur/TFhVdg8DBmuQH/g==";
         };
+        _VRJVDQOP = {
+            "id" = "VRJVDQOP";
+            "file" = "tickrate-0.6.2-1.21.1.jar";
+            "hash" = "sha512-0IclpRfLQRhARkfutHJK55sumIeXa+ifqmOQiTbiIPSBntGW7vgscvxzjqRb4Yw3rBU9iFqH+3J5nExmCQAGKg==";
+        };
+        _WtD3Eygq = {
+            "id" = "WtD3Eygq";
+            "file" = "tickrate-0.7.1-26.1.jar";
+            "hash" = "sha512-gI0mMxyu2hDefMglrCyPr9CPiGweHf1pdN33Yazwr7NisOiCPh4VEeWlgUo7a9tKaJ3x38Huw9HdqfGPm6C7SA==";
+        };
+        _8q292P7q = {
+            "id" = "8q292P7q";
+            "file" = "tickrate-0.7.1-26.2.jar";
+            "hash" = "sha512-5oYUG/2Alg8yfDHWVXCugW22kuxOD1rwjJrGwAwNcz4MnOwf8E7cIpc2EuW1EweF/8xYJ35qZm5CZV/ZvHGjVA==";
+        };
     in {
         "nRnGPVhm" = _nRnGPVhm;
         "JUDge3uM" = _JUDge3uM;
@@ -158,9 +173,12 @@ let
         "8xo2xirj" = _8xo2xirj;
         "slYUDwwK" = _slYUDwwK;
         "PEHDMzje" = _PEHDMzje;
+        "VRJVDQOP" = _VRJVDQOP;
+        "WtD3Eygq" = _WtD3Eygq;
+        "8q292P7q" = _8q292P7q;
         "fabric-1.21.3" = _nRnGPVhm;
         "fabric-1.21.4" = _l0BDIASI;
-        "fabric-1.21.1" = _RkyTkkgh;
+        "fabric-1.21.1" = _VRJVDQOP;
         "fabric-1.21.5" = _oVV1mYUv;
         "fabric-1.21.6" = _T7rLjYR8;
         "fabric-1.21.7" = _EgnVcjZB;
@@ -168,10 +186,10 @@ let
         "fabric-1.21.9" = _j9OB5FdT;
         "fabric-1.21.10" = _j9OB5FdT;
         "fabric-1.21.11" = _8xo2xirj;
-        "fabric-26.1" = _slYUDwwK;
-        "fabric-26.1.1" = _slYUDwwK;
-        "fabric-26.1.2" = _slYUDwwK;
-        "fabric-26.2" = _PEHDMzje;
+        "fabric-26.1" = _WtD3Eygq;
+        "fabric-26.1.1" = _WtD3Eygq;
+        "fabric-26.1.2" = _WtD3Eygq;
+        "fabric-26.2" = _8q292P7q;
         "pkg-0.1.0" = _nRnGPVhm;
         "pkg-0.1.1" = _JUDge3uM;
         "pkg-0.1.2" = _OxbhtW1V;
@@ -198,7 +216,10 @@ let
         "pkg-0.6.1-1.21.11" = _8xo2xirj;
         "pkg-0.7.0-26.1" = _slYUDwwK;
         "pkg-0.7.0-26.2" = _PEHDMzje;
-        "default" = _PEHDMzje;
+        "pkg-0.6.2-1.21.1" = _VRJVDQOP;
+        "pkg-0.7.1-26.1" = _WtD3Eygq;
+        "pkg-0.7.1-26.2" = _8q292P7q;
+        "default" = _8q292P7q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tick";

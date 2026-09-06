@@ -41,6 +41,11 @@ let
             "file" = "sentinel-1.4.0.jar";
             "hash" = "sha512-Zub3Iub8wbuHt1tBxM/aLhBkEkg301wMCBqHNYbaAOeIxfQyNDoIAM2Rt31O+LZFLilvoJqFcWz2KqK+ql98gw==";
         };
+        _Kd2sApNt = {
+            "id" = "Kd2sApNt";
+            "file" = "sentinel-1.4.1.jar";
+            "hash" = "sha512-i82J0KbR97Ev0X3PIpgrTSTg9600cXi695qYVa0e2Cgc5dLnCEdZodUJ3fxZmdjjr7Ik90nFglE0OqjvUPE7pA==";
+        };
     in {
         "Fe8AzHrR" = _Fe8AzHrR;
         "rvTEyLVd" = _rvTEyLVd;
@@ -50,7 +55,8 @@ let
         "D1tBEJGY" = _D1tBEJGY;
         "h9GbmYOm" = _h9GbmYOm;
         "ZKQVAtw2" = _ZKQVAtw2;
-        "fabric-1.21.11" = _ZKQVAtw2;
+        "Kd2sApNt" = _Kd2sApNt;
+        "fabric-1.21.11" = _Kd2sApNt;
         "pkg-1.0.0" = _Fe8AzHrR;
         "pkg-1.1.0" = _rvTEyLVd;
         "pkg-1.1.2" = _7sqL1HRJ;
@@ -59,7 +65,8 @@ let
         "pkg-1.2.2" = _D1tBEJGY;
         "pkg-1.3.0" = _h9GbmYOm;
         "pkg-1.4.0" = _ZKQVAtw2;
-        "default" = _ZKQVAtw2;
+        "pkg-1.4.1" = _Kd2sApNt;
+        "default" = _Kd2sApNt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sentinel-client";

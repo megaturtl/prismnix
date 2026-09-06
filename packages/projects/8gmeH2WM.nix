@@ -111,6 +111,16 @@ let
             "file" = "Beyond_Adventures-Fabric-1.1.8.jar";
             "hash" = "sha512-tQlwOaB9xfsQGFksOJSOIPSwU52s7bMzHOevVJaTlrmP3fnjq5rCJadaP0KFO249z45crkxawbRrJi7uYG7rog==";
         };
+        _Ybm5N8pk = {
+            "id" = "Ybm5N8pk";
+            "file" = "Beyond_Adventures-Neoforge-1.1.9.jar";
+            "hash" = "sha512-21lRCW3OujAq42zqWNFAxGL76RuSlIx+VyZuY5iK+5paxYT318rMjlxfe99poS0yyNGr1x3ZrJiCZNP+XpWHaw==";
+        };
+        _vlT8ltbo = {
+            "id" = "vlT8ltbo";
+            "file" = "Beyond_Adventures-Fabric-1.1.9.jar";
+            "hash" = "sha512-vFcoz6dvqwzN+GzY51DcGmpB7PuREbUXAR8iKjHoDCyS7RaRGyRPcSC56aXce5HPvsTN98aVZKeJCsijET6frw==";
+        };
     in {
         "O8DmwPeY" = _O8DmwPeY;
         "ETvHLfE0" = _ETvHLfE0;
@@ -134,8 +144,10 @@ let
         "DKTIhAxb" = _DKTIhAxb;
         "m12pOVaK" = _m12pOVaK;
         "BsfTB3Ap" = _BsfTB3Ap;
-        "fabric-1.21.1" = _BsfTB3Ap;
-        "neoforge-1.21.1" = _m12pOVaK;
+        "Ybm5N8pk" = _Ybm5N8pk;
+        "vlT8ltbo" = _vlT8ltbo;
+        "fabric-1.21.1" = _vlT8ltbo;
+        "neoforge-1.21.1" = _Ybm5N8pk;
         "pkg-1.0.0" = _ETvHLfE0;
         "pkg-1.0.5" = _Si50on2r;
         "pkg-1.0.6" = _KUwPkUEW;
@@ -148,7 +160,8 @@ let
         "pkg-1.1.6" = _6Dz0lsC5;
         "pkg-1.1.7" = _DKTIhAxb;
         "pkg-1.1.8" = _BsfTB3Ap;
-        "default" = _BsfTB3Ap;
+        "pkg-1.1.9" = _vlT8ltbo;
+        "default" = _vlT8ltbo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tensura_beyond_adventures";

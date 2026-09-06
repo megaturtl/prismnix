@@ -246,6 +246,36 @@ let
             "file" = "Too Many Entities 26.2 Fabric v1.2.3.jar";
             "hash" = "sha512-OUAFLPkheHSBPLNBTbJFzEyEof+UtyszhnBy07/8M9Gu5w7+HDrtKkddo1wJY3hFA1GMq6DZ6Y0N0ZhqlKsxDw==";
         };
+        _aUeTvjwY = {
+            "id" = "aUeTvjwY";
+            "file" = "Too Many Entities 1.21.6 Fabric v1.2.4.jar";
+            "hash" = "sha512-KVqer7hZewHer/Hk68oa7rOjFWqXD4nqBNv+NhjCqcG3zruSlLZk5NTWMhj+kKC5w8V9S8yNu57pUgzTMFHaaA==";
+        };
+        _LFoX1glR = {
+            "id" = "LFoX1glR";
+            "file" = "Too Many Entities 1.21.6 NeoForge v1.2.4.jar";
+            "hash" = "sha512-JgyJbYzT4wMj6f9couPYZtNThCMYlUDgTuAvrGrHx8pOfU27p55aMbTLG2sBL79MrpNHoykKLVWgV7EO12f7dg==";
+        };
+        _A9cO8mdZ = {
+            "id" = "A9cO8mdZ";
+            "file" = "Too Many Entities 1.21.9 Fabric v1.2.4.jar";
+            "hash" = "sha512-m5YRlYu8WQ5xk5G7Xp9vsrrAlVdI/LhEqBo7gwZ3kXJ+CLgIZ4hNWZBMuzjyNHkTGlu8TM0v2WoCMYxTH9AJKQ==";
+        };
+        _BEj1xTLr = {
+            "id" = "BEj1xTLr";
+            "file" = "Too Many Entities 1.21.9 NeoForge v1.2.4.jar";
+            "hash" = "sha512-wlgDOV9gnkf3TBwMTAZ5zNkvBK29VFkDprTfIJw31XQCCuOCr/qj/uzC/B34DksiAcaE6j2cEon3yObtztMPiw==";
+        };
+        _GGiQkOcN = {
+            "id" = "GGiQkOcN";
+            "file" = "Too Many Entities 26.1 Fabric v1.2.4.jar";
+            "hash" = "sha512-Vi66LCUXoyU/+ZhTO976J4vFG7/dFGiBWllZFYlFUHNruUr9oHf4SNvqvtFqact6Dx1RCEAVvhvVaiaMMK7LTQ==";
+        };
+        _PlUun7Ky = {
+            "id" = "PlUun7Ky";
+            "file" = "Too Many Entities 26.2 Fabric v1.2.4.jar";
+            "hash" = "sha512-I5RPNmzoDUjJgoRRp9PAG3hm39nAaH9qQtKilOyCsVB1FF0hFuvRc29/yPzcWtViUQCNRwL+6dxuJT+th54cgA==";
+        };
     in {
         "PkkAZUDs" = _PkkAZUDs;
         "qCggWfLF" = _qCggWfLF;
@@ -296,6 +326,12 @@ let
         "yvYGjMcd" = _yvYGjMcd;
         "caqvbtLM" = _caqvbtLM;
         "4oCHJVAy" = _4oCHJVAy;
+        "aUeTvjwY" = _aUeTvjwY;
+        "LFoX1glR" = _LFoX1glR;
+        "A9cO8mdZ" = _A9cO8mdZ;
+        "BEj1xTLr" = _BEj1xTLr;
+        "GGiQkOcN" = _GGiQkOcN;
+        "PlUun7Ky" = _PlUun7Ky;
         "fabric-1.20.6" = _JIaR3CvC;
         "fabric-1.21" = _qVWW9kBk;
         "fabric-1.20" = _28LPIpw5;
@@ -306,16 +342,16 @@ let
         "fabric-1.19.4" = _4hKbzdpf;
         "fabric-1.21.4" = _jhn8yidS;
         "fabric-1.21.5" = _XdCIoLpC;
-        "fabric-1.21.6" = _ZlMTDgM6;
-        "fabric-1.21.7" = _ZlMTDgM6;
-        "fabric-1.21.8" = _ZlMTDgM6;
-        "fabric-1.21.9" = _yvYGjMcd;
-        "fabric-1.21.10" = _yvYGjMcd;
-        "fabric-1.21.11" = _yvYGjMcd;
-        "fabric-26.1" = _caqvbtLM;
-        "fabric-26.1.1" = _caqvbtLM;
-        "fabric-26.1.2" = _caqvbtLM;
-        "fabric-26.2" = _4oCHJVAy;
+        "fabric-1.21.6" = _aUeTvjwY;
+        "fabric-1.21.7" = _aUeTvjwY;
+        "fabric-1.21.8" = _aUeTvjwY;
+        "fabric-1.21.9" = _A9cO8mdZ;
+        "fabric-1.21.10" = _A9cO8mdZ;
+        "fabric-1.21.11" = _A9cO8mdZ;
+        "fabric-26.1" = _GGiQkOcN;
+        "fabric-26.1.1" = _GGiQkOcN;
+        "fabric-26.1.2" = _GGiQkOcN;
+        "fabric-26.2" = _PlUun7Ky;
         "forge-1.20" = _TqeFSjN4;
         "forge-1.20.1" = _oDW50sIk;
         "forge-1.19.2" = _nivPkwJh;
@@ -326,9 +362,12 @@ let
         "neoforge-1.21.1" = _EhFzckYu;
         "neoforge-1.21.4" = _vRo9KNrE;
         "neoforge-1.21.5" = _TTHr9rKH;
-        "neoforge-1.21.6" = _bqJtrBG7;
-        "neoforge-1.21.7" = _bqJtrBG7;
-        "neoforge-1.21.8" = _bqJtrBG7;
+        "neoforge-1.21.6" = _LFoX1glR;
+        "neoforge-1.21.7" = _LFoX1glR;
+        "neoforge-1.21.8" = _LFoX1glR;
+        "neoforge-1.21.9" = _BEj1xTLr;
+        "neoforge-1.21.10" = _BEj1xTLr;
+        "neoforge-1.21.11" = _BEj1xTLr;
         "pkg-1.0.1" = _TqeFSjN4;
         "pkg-1.1.0" = _QTERbiAa;
         "pkg-1.1.1" = _wEMDZ3MK;
@@ -339,7 +378,8 @@ let
         "pkg-1.2.2" = _K2xPDO5Y;
         "pkg-1.2.0b" = _vRo9KNrE;
         "pkg-1.2.3" = _4oCHJVAy;
-        "default" = _4oCHJVAy;
+        "pkg-1.2.4" = _PlUun7Ky;
+        "default" = _PlUun7Ky;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "too-many-entities";

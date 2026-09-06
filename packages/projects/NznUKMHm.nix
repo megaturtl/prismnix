@@ -27,6 +27,9 @@ let
         "fabric-1.21.4" = _umhvjgHk;
         "fabric-1.21.6" = _umhvjgHk;
         "fabric-1.21.8" = _umhvjgHk;
+        "fabric-1.21.9" = _umhvjgHk;
+        "fabric-1.21.10" = _umhvjgHk;
+        "fabric-1.21.11" = _umhvjgHk;
         "pkg-1.0.1" = _QRyrr4Da;
         "pkg-1.0.2+1.21.7" = _Buz9VXU9;
         "pkg-1.1.0" = _umhvjgHk;

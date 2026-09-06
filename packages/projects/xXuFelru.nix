@@ -41,6 +41,26 @@ let
             "file" = "genesis-1.1.0-1.21.1-FABRIC.jar";
             "hash" = "sha512-1VMiprw8f9IV1gl3boKFp6uOfFxP0SdyON5lXtLiuB7xuraqshLbnHltZIqy1UosNJ4PE5HO3FUIlafK9CkTOQ==";
         };
+        _6JALwIGw = {
+            "id" = "6JALwIGw";
+            "file" = "genesis-1.1.1-1.21.1-FABRIC.jar";
+            "hash" = "sha512-R84jCaBkvLB586pwFe6wEWcxZv0Ni3tKKiINma9jPKz2Mib6funwpSKnb72gRubVO3YgW8xPAjyKubvSehI9ZA==";
+        };
+        _3gRxgOI9 = {
+            "id" = "3gRxgOI9";
+            "file" = "genesis-1.1.1-1.21.1-NEOFORGE.jar";
+            "hash" = "sha512-T/SZVuLY7KcDMw0fyfRG1gyKCCy23k55mSzjBBx/NYoG1+0jE0stB+gbImm8DCJueGRqUXxH/gxHfNjLqre1lQ==";
+        };
+        _LXaE2SQK = {
+            "id" = "LXaE2SQK";
+            "file" = "genesis-1.1.1-1.20.1-FABRIC.jar";
+            "hash" = "sha512-T9V9j3xmse41WYOWvpaYGijaLiE9yVpALMcW/l4WL2RUmztu59sZjVfCy+y4zmkK2Ngn18ZX/2kgHhDQt6riuA==";
+        };
+        _m7vPlxTY = {
+            "id" = "m7vPlxTY";
+            "file" = "genesis-1.1.1-1.20.1-FORGE.jar";
+            "hash" = "sha512-QFiJgqyGHxEDBT71wgynx0U8sW5NyJLuWcWuYwo135I+xDpnFawH/2sPOYTepdhQSBvRKQ4EQtouYiD46p9F8A==";
+        };
     in {
         "OAoIQndZ" = _OAoIQndZ;
         "10fzZKmp" = _10fzZKmp;
@@ -50,15 +70,21 @@ let
         "Up3J341S" = _Up3J341S;
         "rUbPw3w3" = _rUbPw3w3;
         "pQSfgkte" = _pQSfgkte;
-        "fabric-1.20.1" = _Up3J341S;
-        "fabric-1.21.1" = _pQSfgkte;
-        "forge-1.20.1" = _7QFLYCWG;
-        "neoforge-1.21.1" = _rUbPw3w3;
+        "6JALwIGw" = _6JALwIGw;
+        "3gRxgOI9" = _3gRxgOI9;
+        "LXaE2SQK" = _LXaE2SQK;
+        "m7vPlxTY" = _m7vPlxTY;
+        "fabric-1.20.1" = _LXaE2SQK;
+        "fabric-1.21.1" = _6JALwIGw;
+        "forge-1.20.1" = _m7vPlxTY;
+        "neoforge-1.21.1" = _3gRxgOI9;
         "pkg-1.0.0-1.20.1" = _10fzZKmp;
         "pkg-1.0.0-1.21.1" = _jY0gEcrD;
         "pkg-1.1.0-1.20.1" = _Up3J341S;
         "pkg-1.1.0-1.21.1" = _pQSfgkte;
-        "default" = _pQSfgkte;
+        "pkg-1.1.1-1.21.1" = _3gRxgOI9;
+        "pkg-1.1.1-1.20.1" = _m7vPlxTY;
+        "default" = _m7vPlxTY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "genesis-world-previewer-pregenerator";

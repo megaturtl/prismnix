@@ -261,6 +261,11 @@ let
             "file" = "milkallthemobs-26.2.0-3.4.jar";
             "hash" = "sha512-QAybcXJ6YysIf4ocuZELAlQa0gHzUE9jAZhi2U40wqYUsNryKAVhIFAzXDTu+Rz/6rF7tXeGGrGKZ4V7hBUHOw==";
         };
+        _3U1Gt0j1 = {
+            "id" = "3U1Gt0j1";
+            "file" = "milkallthemobs-26.2.0-3.5.jar";
+            "hash" = "sha512-xUYsee+DzJXIEO46ClMlcKFTBbPx8LGbWhWxZcpsAMWlH6jFVeHn5MJdyhhRcWvw6jyblQ/8m1hqmk8xwIXOEA==";
+        };
     in {
         "EwaeVIkB" = _EwaeVIkB;
         "7FucSHSl" = _7FucSHSl;
@@ -314,6 +319,7 @@ let
         "VoKXqocx" = _VoKXqocx;
         "ZSjqufMk" = _ZSjqufMk;
         "DKXHKXKS" = _DKXHKXKS;
+        "3U1Gt0j1" = _3U1Gt0j1;
         "fabric-1.16.5" = _cKJKl9zy;
         "fabric-1.18.2" = _Bor9LcH0;
         "fabric-1.19.2" = _Lrk3W6WJ;
@@ -341,7 +347,7 @@ let
         "fabric-26.1" = _WlVt10dL;
         "fabric-26.1.1" = _VoKXqocx;
         "fabric-26.1.2" = _ZSjqufMk;
-        "fabric-26.2" = _DKXHKXKS;
+        "fabric-26.2" = _3U1Gt0j1;
         "forge-1.16.5" = _1WHfIfWn;
         "forge-1.18.2" = _Bor9LcH0;
         "forge-1.19.2" = _Lrk3W6WJ;
@@ -367,7 +373,7 @@ let
         "forge-26.1" = _WlVt10dL;
         "forge-26.1.1" = _VoKXqocx;
         "forge-26.1.2" = _ZSjqufMk;
-        "forge-26.2" = _DKXHKXKS;
+        "forge-26.2" = _3U1Gt0j1;
         "quilt-1.18.2" = _Bor9LcH0;
         "quilt-1.19.2" = _Lrk3W6WJ;
         "quilt-1.19.3" = _PL9Ybjtn;
@@ -394,7 +400,7 @@ let
         "quilt-26.1" = _WlVt10dL;
         "quilt-26.1.1" = _VoKXqocx;
         "quilt-26.1.2" = _ZSjqufMk;
-        "quilt-26.2" = _DKXHKXKS;
+        "quilt-26.2" = _3U1Gt0j1;
         "neoforge-1.20.2" = _NYIHz3Z1;
         "neoforge-1.20.1" = _iuBlJsIE;
         "neoforge-1.20.3" = _pI4nwgXW;
@@ -416,7 +422,7 @@ let
         "neoforge-26.1" = _WlVt10dL;
         "neoforge-26.1.1" = _VoKXqocx;
         "neoforge-26.1.2" = _ZSjqufMk;
-        "neoforge-26.2" = _DKXHKXKS;
+        "neoforge-26.2" = _3U1Gt0j1;
         "pkg-1.16.5-2.0-fabric" = _EwaeVIkB;
         "pkg-1.18.2-2.0-fabric" = _7FucSHSl;
         "pkg-1.19.2-2.1-fabric" = _Zeevz4m2;
@@ -469,7 +475,8 @@ let
         "pkg-26.1.1-3.4-fabric+forge+neo" = _VoKXqocx;
         "pkg-26.1.2-3.4-fabric+forge+neo" = _ZSjqufMk;
         "pkg-26.2.0-3.4-fabric+forge+neo" = _DKXHKXKS;
-        "default" = _DKXHKXKS;
+        "pkg-26.2.0-3.5-fabric+forge+neo" = _3U1Gt0j1;
+        "default" = _3U1Gt0j1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "milk-all-the-mobs";

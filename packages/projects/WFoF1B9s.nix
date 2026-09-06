@@ -26,19 +26,46 @@ let
             "file" = "cointoshop-fabric-1.21.1-1.1.0.jar";
             "hash" = "sha512-bSIiYvtZEJNXdLNmdgLdPbQXm7KQLmvS2oWEOT7jGebH4coR81Ok+yPhm7Lq9UISG4ZbBHuyyjTpegsr3R3laA==";
         };
+        _6gXMsBs6 = {
+            "id" = "6gXMsBs6";
+            "file" = "cointoshop-forge-1.20.1-1.1.1.jar";
+            "hash" = "sha512-j6FvgKL2CIKtFErfcPG7ebbbOfDe1le85RWqgtCTFDbQPU9FxsTR85VbOzMG90XIqu3s0orqIuMwUWFyz3kINQ==";
+        };
+        _V8X9gUkh = {
+            "id" = "V8X9gUkh";
+            "file" = "cointoshop-neoforge-1.21.1-1.1.1.jar";
+            "hash" = "sha512-VB2QerkfS6nq1ZQT0K9LDV8sdzyV7NZ3gTHhMRCBsUr8wRgCxjqyXdldBruQDs+aIu1bEDpgvNCqF39ccOVVhA==";
+        };
+        _nD4o6xUC = {
+            "id" = "nD4o6xUC";
+            "file" = "cointoshop-fabric-1.21.1-1.1.1.jar";
+            "hash" = "sha512-VQeAWfuBI6B5mO+F/rQNCgkNgc96uB8o+6HYCUiI89Ewa5yn4jbBmC86y1lBU5t9PREMRYBtELf1b1PHvoQJ5Q==";
+        };
+        _fKuvufhw = {
+            "id" = "fKuvufhw";
+            "file" = "cointoshop-fabric-1.20.1-1.1.1.jar";
+            "hash" = "sha512-bMoEH0T/i3Ys6gGlyEPDXDl0rYj+hpRUQecd9PjrlSoLLBXAcPqZ7flGFt0ixGLIxGGVB5cYZ3DHW0wtnF2Fzw==";
+        };
     in {
         "StDvNV2i" = _StDvNV2i;
         "amPoiDRb" = _amPoiDRb;
         "XtivHwCp" = _XtivHwCp;
         "ygR7qJsD" = _ygR7qJsD;
         "kOC36IGy" = _kOC36IGy;
-        "fabric-1.21.1" = _kOC36IGy;
-        "fabric-1.20.1" = _ygR7qJsD;
+        "6gXMsBs6" = _6gXMsBs6;
+        "V8X9gUkh" = _V8X9gUkh;
+        "nD4o6xUC" = _nD4o6xUC;
+        "fKuvufhw" = _fKuvufhw;
+        "fabric-1.21.1" = _nD4o6xUC;
+        "fabric-1.20.1" = _fKuvufhw;
+        "forge-1.20.1" = _6gXMsBs6;
+        "neoforge-1.21.1" = _V8X9gUkh;
         "pkg-1.0.0" = _StDvNV2i;
         "pkg-1.0.1" = _amPoiDRb;
         "pkg-1.0.2" = _XtivHwCp;
         "pkg-1.1.0" = _kOC36IGy;
-        "default" = _kOC36IGy;
+        "pkg-1.1.1" = _fKuvufhw;
+        "default" = _fKuvufhw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "coin-to-shop";

@@ -21,17 +21,31 @@ let
             "file" = "createreautomated-1.21.1-neoforge-0.3.0.jar";
             "hash" = "sha512-s5RGGRZ4/csHjAy649dDX8JFxEVm1d21Diywm48vz9+67GGvDUrAYpsFiUKxODGrktOTo4TDb8uWKDIJn5uJFg==";
         };
+        _WaBG5jnU = {
+            "id" = "WaBG5jnU";
+            "file" = "createreautomated-0.3.1-mc1.21.1-neoforge.jar";
+            "hash" = "sha512-yao7Zu3YdT3CKeLXkwWyQjlJ50wVWo1Bu5tGvsIvSAMjfEVTOf9PrimK0J5Pytd8WAp4w7VXMu2gHd+35xOmww==";
+        };
+        _yM6YrKww = {
+            "id" = "yM6YrKww";
+            "file" = "createreautomated-0.3.2-mc1.21.1-neoforge.jar";
+            "hash" = "sha512-wjiEaZhVkK0ZLGIOYpkiBJI7gMEVi87YSXBlKpXEiuwDyaghWgKIK4E/opJqxIEgguGGdzbKXclyPBuM0okv7w==";
+        };
     in {
         "ieiLLxj9" = _ieiLLxj9;
         "8g2Gfmhy" = _8g2Gfmhy;
         "nSe63L2r" = _nSe63L2r;
         "4OKFo9pg" = _4OKFo9pg;
-        "neoforge-1.21.1" = _4OKFo9pg;
+        "WaBG5jnU" = _WaBG5jnU;
+        "yM6YrKww" = _yM6YrKww;
+        "neoforge-1.21.1" = _yM6YrKww;
         "pkg-0.1.0" = _ieiLLxj9;
         "pkg-0.1.1" = _8g2Gfmhy;
         "pkg-0.2.0" = _nSe63L2r;
         "pkg-0.3.0" = _4OKFo9pg;
-        "default" = _4OKFo9pg;
+        "pkg-0.3.1" = _WaBG5jnU;
+        "pkg-0.3.2" = _yM6YrKww;
+        "default" = _yM6YrKww;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-reautomated";

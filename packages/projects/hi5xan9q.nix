@@ -171,11 +171,6 @@ let
             "file" = "netherlink-1.20.1-forge-0.1.1.2.jar";
             "hash" = "sha512-zg2QyUmQtb5a7E1jlVCKhq6b30Kq0Lkg9WIyGvZO2bBzDa0Idw+lvBm9WGg2DfiyIJ1bCW/TQsOLn3cSTNLYYA==";
         };
-        _bRxwj9LW = {
-            "id" = "bRxwj9LW";
-            "file" = "netherlink-1.20.1-fabric-0.1.1.3.jar";
-            "hash" = "sha512-j/vY+Nwsgw2+EDHKKi2z22P986tnNcJiJaoPIr4kvG/erqswW+s40Mu+2CnQZ5p+R+6WYPIYZ0kNJTGecKrSzg==";
-        };
         _Wz6aR02Z = {
             "id" = "Wz6aR02Z";
             "file" = "netherlink-1.20.1-fabric-0.1.1.3.jar";
@@ -221,7 +216,6 @@ let
         "r5Ec5Uiw" = _r5Ec5Uiw;
         "BnrNB6m4" = _BnrNB6m4;
         "d1ANC88k" = _d1ANC88k;
-        "bRxwj9LW" = _bRxwj9LW;
         "Wz6aR02Z" = _Wz6aR02Z;
         "qlK9RUlh" = _qlK9RUlh;
         "fabric-26.1.2" = _Q92YTzEZ;

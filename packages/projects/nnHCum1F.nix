@@ -116,6 +116,16 @@ let
             "file" = "keybindsgalore_plus-1.6.2-beta+1.21.1.jar";
             "hash" = "sha512-fwV653P+IeihVFfgpT0KMEuQb1dnSmtGNoc+BvI8tDPfzt2gBWn8oI2kVGft2S5L4h2SMK1mqB3XJ85jN4zgXw==";
         };
+        _kpkjK9c8 = {
+            "id" = "kpkjK9c8";
+            "file" = "keybindsgalore_plus-1.6.2+26.2.jar";
+            "hash" = "sha512-pFkexw20d5wsHaICFoSdtSUX17Gf7wr+HKsGwBV1ePaurU8z1HPc/Ps2hoP4SHG8w13rNVPAqlxX1o+0SP5Ehg==";
+        };
+        _aofmnXch = {
+            "id" = "aofmnXch";
+            "file" = "keybindsgalore_plus-1.6.2+26.1.jar";
+            "hash" = "sha512-Vcf3DldkFQpcZJZnfko8kj9RdpXK8wZrbKD3bvcj77UCorlS1fRlp+zyaiizNo/QD44fPYClP5WxGBFwkR9U2Q==";
+        };
     in {
         "kNRMfMAa" = _kNRMfMAa;
         "feq0A86n" = _feq0A86n;
@@ -140,6 +150,8 @@ let
         "YNxYDYZT" = _YNxYDYZT;
         "8l94HFc4" = _8l94HFc4;
         "Jg2WpT2u" = _Jg2WpT2u;
+        "kpkjK9c8" = _kpkjK9c8;
+        "aofmnXch" = _aofmnXch;
         "fabric-1.20" = _Lvuwx6y4;
         "fabric-1.20.1" = _Lvuwx6y4;
         "fabric-1.20.2" = _Hfiug4lW;
@@ -155,7 +167,15 @@ let
         "fabric-1.21.6" = _aF5vjrYL;
         "fabric-1.21.5" = _BN1FtabG;
         "fabric-1.21.11" = _8l94HFc4;
+        "fabric-26.2" = _kpkjK9c8;
+        "fabric-26.1" = _aofmnXch;
+        "fabric-26.1.1" = _aofmnXch;
+        "fabric-26.1.2" = _aofmnXch;
         "neoforge-1.21.11" = _8l94HFc4;
+        "neoforge-26.2" = _kpkjK9c8;
+        "neoforge-26.1" = _aofmnXch;
+        "neoforge-26.1.1" = _aofmnXch;
+        "neoforge-26.1.2" = _aofmnXch;
         "pkg-1.0.0+1.20.4" = _kNRMfMAa;
         "pkg-1.1.0+1.20.4" = _feq0A86n;
         "pkg-1.1.0+1.21-alpha" = _iauzJgXb;
@@ -179,7 +199,9 @@ let
         "pkg-1.6.0+1.21.11" = _YNxYDYZT;
         "pkg-1.6.1+1.21.11" = _8l94HFc4;
         "pkg-1.6.2-beta+1.21.1" = _Jg2WpT2u;
-        "default" = _Jg2WpT2u;
+        "pkg-1.6.2+26.2" = _kpkjK9c8;
+        "pkg-1.6.2+26.1" = _aofmnXch;
+        "default" = _aofmnXch;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "keybindsgaloreplus";

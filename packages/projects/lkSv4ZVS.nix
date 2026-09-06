@@ -21,20 +21,27 @@ let
             "file" = "cluttered-3.0.3-26.1.x-0.2.3-fabric-unofficial.jar";
             "hash" = "sha512-mI5G6a/Na0cpOy2RmTsenyqdo6PG7wNRv+thzgmGMZ+kkNzuvvNwze24uE5GmAE5i1HHu99BdGgmE0xPZWYWgw==";
         };
+        _e0BMNUAG = {
+            "id" = "e0BMNUAG";
+            "file" = "cluttered-3.0.3-26.2.x-0.1.1-fabric-unofficial.jar";
+            "hash" = "sha512-6Q6/CnCgo0VLtNFC+X/YyRwHukxWVn/waWK1d6OvYmTTpHJoxY2BCxK+t7N7HYH7mqEP57setkFlPSKX7caE8w==";
+        };
     in {
         "Oqq50qnZ" = _Oqq50qnZ;
         "PGCmRPm5" = _PGCmRPm5;
         "fqxMsvFS" = _fqxMsvFS;
         "FyUrod7Z" = _FyUrod7Z;
+        "e0BMNUAG" = _e0BMNUAG;
         "fabric-26.1" = _FyUrod7Z;
         "fabric-26.1.1" = _FyUrod7Z;
         "fabric-26.1.2" = _FyUrod7Z;
-        "fabric-26.2" = _fqxMsvFS;
+        "fabric-26.2" = _e0BMNUAG;
         "pkg-3.0.3-26.1.x-0.2.1-fabric" = _Oqq50qnZ;
         "pkg-3.0.3-26.1.x-0.2.2-fabric" = _PGCmRPm5;
         "pkg-3.0.3-26.2.x-0.1.0-fabric" = _fqxMsvFS;
         "pkg-3.0.3-26.1.x-0.2.3-fabric" = _FyUrod7Z;
-        "default" = _FyUrod7Z;
+        "pkg-3.0.3-26.2.x-0.1.1-fabric" = _e0BMNUAG;
+        "default" = _e0BMNUAG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cluttered-(unofficial-fabric-port)";

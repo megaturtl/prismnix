@@ -69,13 +69,13 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LicenseRef-CC-BY-SA-3.0" {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "LicenseRef-CC-BY-SA-3.0";
-                shortName = "LicenseRef-CC-BY-SA-3.0";
-                url = "https://creativecommons.org/licenses/by-sa/3.0/";
+                fullName = "GNU General Public License v3.0 only";
+                shortName = "GPL-3.0-only";
+                url = null;
             };
         };
     };

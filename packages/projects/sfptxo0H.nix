@@ -56,6 +56,36 @@ let
             "file" = "cobblemon-picnic-neoforge-1.26.0.jar";
             "hash" = "sha512-0k9d9V7KajpKejM2n/0gfV0lgMFT2SbolOntMf2aiJVUAg7bPYONG1u1qfGnx1TFo5GJuzI1uzw+5XynEohWzg==";
         };
+        _99CuQfkW = {
+            "id" = "99CuQfkW";
+            "file" = "cobblemon-picnic-fabric-1.27.0.jar";
+            "hash" = "sha512-F+LJyCDGz80ILJg8krkjRaLAfkc8STIVcrd3Q3W4sFZ1sm4fjlgX6ntea8rxKB47ANRfgO6VZwPi9pYNQvvq6A==";
+        };
+        _8MQrIliT = {
+            "id" = "8MQrIliT";
+            "file" = "cobblemon-picnic-neoforge-1.27.0.jar";
+            "hash" = "sha512-oz+v4Ah9x4O2UdCB98yJlmcdM2QEuKAKtexHVL5X2dSRHIfiwMVq7AuEiOu7EvJVMg68haTusGw3kTCfvk+0tg==";
+        };
+        _z3uzSteb = {
+            "id" = "z3uzSteb";
+            "file" = "cobblemon-picnic-fabric-1.28.0.jar";
+            "hash" = "sha512-8ykNQIqrOM3ogU6l1AbpnwdZE5KZN78cG/RqzT/oA55G27KgDKJwtgzcCTJDVxKH40YUZxfTl63drhn+NJBFPA==";
+        };
+        _CDaQomEj = {
+            "id" = "CDaQomEj";
+            "file" = "cobblemon-picnic-neoforge-1.28.0.jar";
+            "hash" = "sha512-bkolSqrUfxmUP6vpzdrHYeKk/GoQFuikhfgLrC/hiorsKQxxGuRBn6Z8aLAzx6Dor0xo/27nH60NJoje4Sn6+A==";
+        };
+        _zdXgnQfd = {
+            "id" = "zdXgnQfd";
+            "file" = "cobblemon-picnic-fabric-2.3.0.jar";
+            "hash" = "sha512-hqSTpUt5kOsgsEcFLciNUkLxVyaLQJTcwBmq3pnohrI27x+7t/225Bw99IgJpEp0xSAT4rXDZDh0R7o6Lq5UQw==";
+        };
+        _iOhdX89r = {
+            "id" = "iOhdX89r";
+            "file" = "cobblemon-picnic-neoforge-2.3.0.jar";
+            "hash" = "sha512-6AQ+IcxODv22lyCAruwouBR5pWNqBlNDzhZQVyxLUlwz4AguLqqWlzI/Z3h8GMzKNFQtz20BmhYuwPuDRRzttw==";
+        };
     in {
         "Y0hKGXvt" = _Y0hKGXvt;
         "o8cCqtBx" = _o8cCqtBx;
@@ -68,8 +98,14 @@ let
         "WgSXI2Hu" = _WgSXI2Hu;
         "yyqK0SHA" = _yyqK0SHA;
         "qTQReiiZ" = _qTQReiiZ;
-        "fabric-1.21.1" = _yyqK0SHA;
-        "neoforge-1.21.1" = _qTQReiiZ;
+        "99CuQfkW" = _99CuQfkW;
+        "8MQrIliT" = _8MQrIliT;
+        "z3uzSteb" = _z3uzSteb;
+        "CDaQomEj" = _CDaQomEj;
+        "zdXgnQfd" = _zdXgnQfd;
+        "iOhdX89r" = _iOhdX89r;
+        "fabric-1.21.1" = _zdXgnQfd;
+        "neoforge-1.21.1" = _iOhdX89r;
         "pkg-1.16.1" = _Y0hKGXvt;
         "pkg-1.19.1" = _o8cCqtBx;
         "pkg-1.21.0" = _sTw9d4I2;
@@ -81,7 +117,13 @@ let
         "pkg-1.25.2+neoforge" = _WgSXI2Hu;
         "pkg-1.26.0+fabric" = _yyqK0SHA;
         "pkg-1.26.0+neoforge" = _qTQReiiZ;
-        "default" = _qTQReiiZ;
+        "pkg-1.27.0+fabric" = _99CuQfkW;
+        "pkg-1.27.0+neoforge" = _8MQrIliT;
+        "pkg-1.28.0+fabric" = _z3uzSteb;
+        "pkg-1.28.0+neoforge" = _CDaQomEj;
+        "pkg-2.3.0+fabric" = _zdXgnQfd;
+        "pkg-2.3.0+neoforge" = _iOhdX89r;
+        "default" = _iOhdX89r;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-picnic";

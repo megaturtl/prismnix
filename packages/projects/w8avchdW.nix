@@ -151,6 +151,26 @@ let
             "file" = "telepost-4.2.0-all.jar";
             "hash" = "sha512-neHv/q7tuHcre2ALfmdVMc2MyQGgFtmaowNyiW9GxvDGfXsLqt4z9Fqe1bztBDL+0OHF6WYlzU1AI1I1Lb2NWA==";
         };
+        _UKrY48XG = {
+            "id" = "UKrY48XG";
+            "file" = "telepost-4.2.1-all.jar";
+            "hash" = "sha512-48OlsbG6YUN8E2M9h+2Gj8fcfASEHIX8R4PnVznakI/r0ouUx9oowP44QkGDxtYcNKpHVtDsERcpTSPJ/fzfgQ==";
+        };
+        _s05MUBLb = {
+            "id" = "s05MUBLb";
+            "file" = "telepost-4.2.2-all.jar";
+            "hash" = "sha512-EMAcGqGMJ6becvA9GwZ79WjA1oG6z3CAPEbldimkB9mwPpGAvhTsMwynom/I+T0E40Dz8yTGp+ABwzwSzCPPsg==";
+        };
+        _1DO72SOh = {
+            "id" = "1DO72SOh";
+            "file" = "telepost-4.2.3-all.jar";
+            "hash" = "sha512-9z6Z70iqcbTzfLpniWeaibA1NBc7LegJD8SAJtVy1Mx4OGiPySzAvE0EDQZStSe5oCGbUoT4cRdEt2XgtwqVYA==";
+        };
+        _uvLfQ8hh = {
+            "id" = "uvLfQ8hh";
+            "file" = "telepost-4.2.4-all.jar";
+            "hash" = "sha512-b/npo06ix0+Q2V7gkvhYpU41bppGiS3tlZD0Uu3FNgrpdJ4WltbWmraJroIEX5nPQ/IhJpqRgggwsCHUiK3q/g==";
+        };
     in {
         "uvlHKmyN" = _uvlHKmyN;
         "3pXHtpk4" = _3pXHtpk4;
@@ -182,6 +202,10 @@ let
         "3J9ndX9Q" = _3J9ndX9Q;
         "lHe4QR5y" = _lHe4QR5y;
         "5rM0G8NP" = _5rM0G8NP;
+        "UKrY48XG" = _UKrY48XG;
+        "s05MUBLb" = _s05MUBLb;
+        "1DO72SOh" = _1DO72SOh;
+        "uvLfQ8hh" = _uvLfQ8hh;
         "fabric-1.20.2" = _O4bptQ73;
         "fabric-1.20" = _O4bptQ73;
         "fabric-1.20.1" = _T8k2PfWW;
@@ -195,7 +219,7 @@ let
         "quilt-1.20.4" = _gVm8fudA;
         "quilt-1.20.6" = _zPR2ItCw;
         "quilt-1.21" = _aK4A3GAj;
-        "neoforge-1.21.1" = _5rM0G8NP;
+        "neoforge-1.21.1" = _uvLfQ8hh;
         "pkg-1.1" = _uvlHKmyN;
         "pkg-1.1.a" = _3pXHtpk4;
         "pkg-1.1.b" = _seZI7tA8;
@@ -220,7 +244,11 @@ let
         "pkg-4.0.1" = _3J9ndX9Q;
         "pkg-4.1.0" = _lHe4QR5y;
         "pkg-4.2.0" = _5rM0G8NP;
-        "default" = _5rM0G8NP;
+        "pkg-4.2.1" = _UKrY48XG;
+        "pkg-4.2.2" = _s05MUBLb;
+        "pkg-4.2.3" = _1DO72SOh;
+        "pkg-4.2.4" = _uvLfQ8hh;
+        "default" = _uvLfQ8hh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "telepost";

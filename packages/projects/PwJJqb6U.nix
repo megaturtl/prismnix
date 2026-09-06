@@ -21,17 +21,31 @@ let
             "file" = "manhunt-purple-1.1.7.jar";
             "hash" = "sha512-Qz0pE46xj9LMD5ZweNiCCXLl774NjeAeUbkQlQTdq++xH2ogRuD9XF8381a4tnoUg2Oq+rqmaq0vzXX7zFuNFg==";
         };
+        _Y00TnNc4 = {
+            "id" = "Y00TnNc4";
+            "file" = "manhunt-purple-1.1.2+1.21.11.jar";
+            "hash" = "sha512-RajlQMf0YC5FhYBnvX1wOE6tYS7UgPwKMRMRbst7yrQOBjnRr76mQvpQ33h+2DjwpUZCv6qjsI0BSnCIwg2aPw==";
+        };
+        _b7eNYDxb = {
+            "id" = "b7eNYDxb";
+            "file" = "manhunt-purple-1.1.2+26.2.jar";
+            "hash" = "sha512-/B8nn1jMCxrCTTHk4+tD9VFmDBYl4MbHRjydJNiXFZ/QaMMy04GEB+XqFP3k7PkR6oj8PjtIeA1QNvpLApXroA==";
+        };
     in {
         "OoYZe56h" = _OoYZe56h;
         "mf6Wq9Ai" = _mf6Wq9Ai;
         "REeILd5T" = _REeILd5T;
         "DGznBxpB" = _DGznBxpB;
-        "fabric-1.21.11" = _DGznBxpB;
+        "Y00TnNc4" = _Y00TnNc4;
+        "b7eNYDxb" = _b7eNYDxb;
+        "fabric-1.21.11" = _Y00TnNc4;
+        "fabric-26.2" = _b7eNYDxb;
         "pkg-1.0.0" = _OoYZe56h;
         "pkg-1.0.1" = _mf6Wq9Ai;
         "pkg-1.1.0" = _REeILd5T;
         "pkg-1.1.1" = _DGznBxpB;
-        "default" = _DGznBxpB;
+        "pkg-1.1.2" = _b7eNYDxb;
+        "default" = _b7eNYDxb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "manhunt_compass";

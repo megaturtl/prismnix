@@ -266,6 +266,46 @@ let
             "file" = "sarosbetterglassmod-1.8.jar";
             "hash" = "sha512-IbyfUtBwFwEVOUjrPDiEI6NXtkAYY2bHCgcAAGoTSaOAtbyMlV2YDXVnMZa50kI/k0nl5ypNc903qEFcMPO+Kw==";
         };
+        _QlAashjJ = {
+            "id" = "QlAashjJ";
+            "file" = "Saros-Better-Glass-Fabric-26.1-1.7.jar";
+            "hash" = "sha512-CQrbTrCy2EAX6rqRRfMrYCA7l2I80YyR7wBVGN8d/EmB/z2SFmUgwaQ4dNKQZxduEX4BtvH54WRmakpBS/i5xQ==";
+        };
+        _olwQABjC = {
+            "id" = "olwQABjC";
+            "file" = "Saros-Better-Glass-Fabric-26.1.1-1.7.jar";
+            "hash" = "sha512-/zKYHwbRXZ8MAgGRUsNtB8hwFbe8LijFwDAldLD+Sh8AvQYNXAAnfjjENjJqvWhmDLExwUj7k1R+qX/wgB7icA==";
+        };
+        _5rlE3hdl = {
+            "id" = "5rlE3hdl";
+            "file" = "Saros-Better-Glass-Fabric-26.1.2-1.7.jar";
+            "hash" = "sha512-Oei1RB1mx4qMif4b6VvUxHILq03f00uFpaROTdcY0wFe+VcLym88aP1abGxNf95AlDuEuarH8eZzx8bSerEPBg==";
+        };
+        _vptCUy5g = {
+            "id" = "vptCUy5g";
+            "file" = "Saros-Better-Glass-Fabric-26.2-1.9.jar";
+            "hash" = "sha512-KLwvLGWMhLynYyZBMFJBAU41w+XIoQD7Y14HvWqML29PfSJQ5tmYAGoup+r411FiHOcxSHVAvm7h5xRIEMycGA==";
+        };
+        _Xf1MaBmW = {
+            "id" = "Xf1MaBmW";
+            "file" = "Saros-Better-Glass-Fabric-26.1-1.8.jar";
+            "hash" = "sha512-PlIA0dtPVTI7yB0EyKhAI1FFs4xDwyfOojf8qJ8C/ThSZ4nH6AdqEkpwG4aoJwt8FcRl23H2zgHAB1GXRN+SOA==";
+        };
+        _mhN1XEkH = {
+            "id" = "mhN1XEkH";
+            "file" = "Saros-Better-Glass-Fabric-26.1.1-1.8.jar";
+            "hash" = "sha512-KbtAFJbK2pttNFaU/9Wrq8Mq9hBs1HZmNvwvN70nQWNYNpzu6EfDx0+cI94L1SCq20FXVhpKWX/IXDbSVZp7Cg==";
+        };
+        _7B2OAwnN = {
+            "id" = "7B2OAwnN";
+            "file" = "Saros-Better-Glass-Fabric-26.1.2-1.8.jar";
+            "hash" = "sha512-HgU7QVJdEvLPdRaFOSJ1rWCR8PC6ZinNMZt05gyTz4Qoyd3GqYddjUe3EhQNUjLfn9GuXX4psFO2YN2qh2FJ7w==";
+        };
+        _sOxvfgwN = {
+            "id" = "sOxvfgwN";
+            "file" = "Saros-Better-Glass-Fabric-26.2-1.10.jar";
+            "hash" = "sha512-TBT6yZ3QPHzktOVn2G9wWzYaGozATjCgiTPmBl0ZKSyI/XnmhJaXh10Fk4iCrO7B3c4CH7QiPsHXku3avp9t2g==";
+        };
     in {
         "7LOaz5z2" = _7LOaz5z2;
         "jbCLmpDa" = _jbCLmpDa;
@@ -320,6 +360,14 @@ let
         "KwuNLVJx" = _KwuNLVJx;
         "s2ktOBUa" = _s2ktOBUa;
         "3WeFobGe" = _3WeFobGe;
+        "QlAashjJ" = _QlAashjJ;
+        "olwQABjC" = _olwQABjC;
+        "5rlE3hdl" = _5rlE3hdl;
+        "vptCUy5g" = _vptCUy5g;
+        "Xf1MaBmW" = _Xf1MaBmW;
+        "mhN1XEkH" = _mhN1XEkH;
+        "7B2OAwnN" = _7B2OAwnN;
+        "sOxvfgwN" = _sOxvfgwN;
         "forge-1.19.2" = _jbCLmpDa;
         "forge-1.20.1" = _G1nMbR21;
         "forge-1.21.1" = _e0TpG42C;
@@ -337,10 +385,10 @@ let
         "forge-26.1.2" = _N1er4ixM;
         "forge-26.2" = _AAckl1o0;
         "fabric-1.20.1" = _gvulEHRp;
-        "fabric-26.1" = _8LD4XG2J;
-        "fabric-26.1.1" = _KwuNLVJx;
-        "fabric-26.1.2" = _s2ktOBUa;
-        "fabric-26.2" = _3WeFobGe;
+        "fabric-26.1" = _Xf1MaBmW;
+        "fabric-26.1.1" = _mhN1XEkH;
+        "fabric-26.1.2" = _7B2OAwnN;
+        "fabric-26.2" = _sOxvfgwN;
         "neoforge-26.1" = _B8YiPEaS;
         "neoforge-26.1.1" = _YFA3yRxF;
         "neoforge-26.1.2" = _K0XsGKrT;
@@ -353,7 +401,7 @@ let
         "pkg-1.5" = _CRGT3mL8;
         "pkg-1.6" = _L7p83BSH;
         "pkg-2.2" = _QOG9U47c;
-        "pkg-1.7" = _JKlOlNVk;
+        "pkg-1.7" = _5rlE3hdl;
         "pkg-2.3" = _KulCuywx;
         "pkg-2.4" = _OPFVCpkT;
         "pkg-2.5-forge-1.20.1" = _G1nMbR21;
@@ -371,7 +419,10 @@ let
         "pkg-1.6-fabric-26.1.1" = _KwuNLVJx;
         "pkg-1.6-fabric-26.1.2" = _s2ktOBUa;
         "pkg-1.8-fabric-26.2" = _3WeFobGe;
-        "default" = _3WeFobGe;
+        "pkg-1.9" = _vptCUy5g;
+        "pkg-1.8" = _7B2OAwnN;
+        "pkg-1.10" = _sOxvfgwN;
+        "default" = _sOxvfgwN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saros-better-glass";

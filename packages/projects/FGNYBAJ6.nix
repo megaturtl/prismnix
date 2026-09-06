@@ -226,6 +226,16 @@ let
             "file" = "more-armor-trims-1.5.3-26.2.jar";
             "hash" = "sha512-ixp33TK0yThow2xKAB1jQQ5VcL9+bttSbp2zrUo7eqmqTE2/ym6LisGHzfnlqmjkOoyyzphB3AswbhFKq2Z+JA==";
         };
+        _gyInnZUk = {
+            "id" = "gyInnZUk";
+            "file" = "more_armor_trims-1.5.4-1.20.1.jar";
+            "hash" = "sha512-FHJvspT/TediuIZ4hgKBBUq+yvYtyR0atoiYhDKfLB4NhdhcxcMXdEZWY+Rgxr1h2NkMwidijA+C7W7v64eseg==";
+        };
+        _cYKKw9ar = {
+            "id" = "cYKKw9ar";
+            "file" = "more_armor_trims-1.5.4-1.20.1.jar";
+            "hash" = "sha512-Bz868utrG/uJwWqqhK1XD2rGCenC47kqcQx2nQyAOHNDCguPgYCcnwVyrtcub8xdHiCnsUZiropguQIs9DDPdQ==";
+        };
     in {
         "ewJB3M5R" = _ewJB3M5R;
         "b6TRqm6o" = _b6TRqm6o;
@@ -272,8 +282,10 @@ let
         "DrVT0md9" = _DrVT0md9;
         "HHHAvrcb" = _HHHAvrcb;
         "s6hJsf8C" = _s6hJsf8C;
-        "fabric-1.20" = _ZKoWMpGz;
-        "fabric-1.20.1" = _ZKoWMpGz;
+        "gyInnZUk" = _gyInnZUk;
+        "cYKKw9ar" = _cYKKw9ar;
+        "fabric-1.20" = _cYKKw9ar;
+        "fabric-1.20.1" = _cYKKw9ar;
         "fabric-1.20.3" = _gNOFzRcX;
         "fabric-1.20.4" = _OUnBi3UI;
         "fabric-1.21" = _DrVT0md9;
@@ -336,7 +348,8 @@ let
         "pkg-1.5.3-1.21" = _DrVT0md9;
         "pkg-1.5.3-26.1" = _HHHAvrcb;
         "pkg-1.5.3-26.2" = _s6hJsf8C;
-        "default" = _s6hJsf8C;
+        "pkg-1.5.4-1.20.1" = _cYKKw9ar;
+        "default" = _cYKKw9ar;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-armor-trims";

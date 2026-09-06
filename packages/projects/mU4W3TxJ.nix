@@ -136,6 +136,11 @@ let
             "file" = "simple-multiplayer-ping-0.1.0.jar";
             "hash" = "sha512-tSHdGGbbJE620tuMcE99LVjDAcMGLWGFu/N1gYeGMlhrMjhE5c7u7RZCMd4qD7RY0nsuiPvImGKu2HYs31ztRA==";
         };
+        _f6WInBxm = {
+            "id" = "f6WInBxm";
+            "file" = "simple-multiplayer-ping-0.1.0.jar";
+            "hash" = "sha512-1MjwVWGzgHm9SUbAzTrwktJtMkhvERDV/xqouozERD6RvJWkiQyVTvIkA5VS5H4ZCq7LaWbhsWHs1qDieNLxdA==";
+        };
     in {
         "bB3YryFW" = _bB3YryFW;
         "KMzZX1X8" = _KMzZX1X8;
@@ -164,6 +169,7 @@ let
         "9lOUXXd0" = _9lOUXXd0;
         "tjEAsY6F" = _tjEAsY6F;
         "NHG5OZvH" = _NHG5OZvH;
+        "f6WInBxm" = _f6WInBxm;
         "fabric-1.21.11" = _NHG5OZvH;
         "fabric-1.21.9" = _9lOUXXd0;
         "fabric-1.21.10" = _9lOUXXd0;
@@ -176,6 +182,7 @@ let
         "fabric-1.21.6" = _HoWQrXV8;
         "fabric-1.21.7" = _HoWQrXV8;
         "fabric-1.21.8" = _HoWQrXV8;
+        "fabric-26.2" = _f6WInBxm;
         "pkg-0.1.0" = _bB3YryFW;
         "pkg-0.2.0" = _KMzZX1X8;
         "pkg-0.3.0" = _vyiDLyuW;
@@ -185,8 +192,8 @@ let
         "pkg-1.8" = _fKVzFFgn;
         "pkg-1.8.1" = _IVLkd7Vq;
         "pkg-1.9" = _tjEAsY6F;
-        "pkg-1.9.1" = _NHG5OZvH;
-        "default" = _NHG5OZvH;
+        "pkg-1.9.1" = _f6WInBxm;
+        "default" = _f6WInBxm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simplemultiplayerping";

@@ -126,6 +126,16 @@ let
             "file" = "craftingtweaks-1.7.1.jar";
             "hash" = "sha512-Ecki/9atXIuD4DD3FQ1AIkPE3klD88H2w5gFRSEo2mlTV5sM/Tv/8HVsJjTJULiTZRLwLSwrzlbkcwqeb+Q6gA==";
         };
+        _yMUpHB3E = {
+            "id" = "yMUpHB3E";
+            "file" = "CraftingTweaks26.2v1.7.2.zip";
+            "hash" = "sha512-53gQdBXIYFHpoQ64eD0bLdjOOZ7MdK2gwkeydhfy9gwPJNeSMIR7WvYIPUhs5/HkXU/M+Rf9LOYanQRLRSw/4A==";
+        };
+        _hUMPBCIY = {
+            "id" = "hUMPBCIY";
+            "file" = "craftingtweaks-1.7.2.jar";
+            "hash" = "sha512-AN2678rjjLVj/G6CEbvuUoSk9zWXrfEmN01pssZZFSUX1puAltjPG1xIXsiyN5rLEQ7U4aiIHDeuh1ErX65kbQ==";
+        };
     in {
         "4LAHcIYb" = _4LAHcIYb;
         "Tfijw4FB" = _Tfijw4FB;
@@ -152,41 +162,43 @@ let
         "GkajKYqh" = _GkajKYqh;
         "yqZyKqjH" = _yqZyKqjH;
         "BkEiEFli" = _BkEiEFli;
+        "yMUpHB3E" = _yMUpHB3E;
+        "hUMPBCIY" = _hUMPBCIY;
         "datapack-1.21.9" = _6O67Ka3c;
         "datapack-1.21.10" = _6O67Ka3c;
         "datapack-1.21.11" = _6O67Ka3c;
         "datapack-26.1" = _xz4cKCR6;
         "datapack-26.1.1" = _xz4cKCR6;
         "datapack-26.1.2" = _xz4cKCR6;
-        "datapack-26.2" = _yqZyKqjH;
+        "datapack-26.2" = _yMUpHB3E;
         "fabric-1.21.9" = _cGVqkzQD;
         "fabric-1.21.10" = _cGVqkzQD;
         "fabric-1.21.11" = _cGVqkzQD;
         "fabric-26.1" = _vrI1izMh;
         "fabric-26.1.1" = _vrI1izMh;
         "fabric-26.1.2" = _vrI1izMh;
-        "fabric-26.2" = _BkEiEFli;
+        "fabric-26.2" = _hUMPBCIY;
         "forge-1.21.9" = _cGVqkzQD;
         "forge-1.21.10" = _cGVqkzQD;
         "forge-1.21.11" = _cGVqkzQD;
         "forge-26.1" = _vrI1izMh;
         "forge-26.1.1" = _vrI1izMh;
         "forge-26.1.2" = _vrI1izMh;
-        "forge-26.2" = _BkEiEFli;
+        "forge-26.2" = _hUMPBCIY;
         "neoforge-1.21.9" = _cGVqkzQD;
         "neoforge-1.21.10" = _cGVqkzQD;
         "neoforge-1.21.11" = _cGVqkzQD;
         "neoforge-26.1" = _vrI1izMh;
         "neoforge-26.1.1" = _vrI1izMh;
         "neoforge-26.1.2" = _vrI1izMh;
-        "neoforge-26.2" = _BkEiEFli;
+        "neoforge-26.2" = _hUMPBCIY;
         "quilt-1.21.9" = _cGVqkzQD;
         "quilt-1.21.10" = _cGVqkzQD;
         "quilt-1.21.11" = _cGVqkzQD;
         "quilt-26.1" = _vrI1izMh;
         "quilt-26.1.1" = _vrI1izMh;
         "quilt-26.1.2" = _vrI1izMh;
-        "quilt-26.2" = _BkEiEFli;
+        "quilt-26.2" = _hUMPBCIY;
         "pkg-1.0" = _4LAHcIYb;
         "pkg-1.1" = _Tfijw4FB;
         "pkg-1.2" = _sNIayF8h;
@@ -212,7 +224,9 @@ let
         "pkg-1.7+mod" = _GkajKYqh;
         "pkg-1.7.1" = _yqZyKqjH;
         "pkg-1.7.1+mod" = _BkEiEFli;
-        "default" = _BkEiEFli;
+        "pkg-1.7.2" = _yMUpHB3E;
+        "pkg-1.7.2+mod" = _hUMPBCIY;
+        "default" = _hUMPBCIY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craftingtweaks";

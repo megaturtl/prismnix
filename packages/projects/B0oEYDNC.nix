@@ -41,6 +41,11 @@ let
             "file" = "liteminer-extra-shapes-1.3.0.jar";
             "hash" = "sha512-+HVshsfz+sLKlCH/iDAPfYRHXfmE6p32rxC7ayiPHlmEpLa3yvVQXtOGhz2y12SCp2VQyCqvgR1lMsjOp5r1Ng==";
         };
+        _GNAmoaDg = {
+            "id" = "GNAmoaDg";
+            "file" = "liteminer-extra-shapes-1.0.0.jar";
+            "hash" = "sha512-Cp5Fi3BWolLHrPctp7CZw6hMBQShc4IL6XGosvVZ04RU7IP9o5/q41lmA1QYmepQN0cFFzKe86Kyx0LyLQFL3w==";
+        };
     in {
         "AIKTzRHT" = _AIKTzRHT;
         "5ehIBrVn" = _5ehIBrVn;
@@ -50,11 +55,13 @@ let
         "qNJSxQWM" = _qNJSxQWM;
         "I7N4OI86" = _I7N4OI86;
         "excdgMgu" = _excdgMgu;
+        "GNAmoaDg" = _GNAmoaDg;
         "fabric-1.21.11" = _I7N4OI86;
         "fabric-26.1" = _6JpKqRtI;
         "fabric-26.1.2" = _J4q5gcLH;
         "fabric-26.2" = _excdgMgu;
         "neoforge-26.1.2" = _qNJSxQWM;
+        "forge-1.20.1" = _GNAmoaDg;
         "pkg-1.0.0+1.21.11" = _AIKTzRHT;
         "pkg-1.1.0+1.21.11" = _5ehIBrVn;
         "pkg-1.2.0+26.1" = _6JpKqRtI;
@@ -62,7 +69,8 @@ let
         "pkg-1.3.0+26.1.2" = _qNJSxQWM;
         "pkg-1.2.1+1.21.11" = _I7N4OI86;
         "pkg-1.3.0+26.2" = _excdgMgu;
-        "default" = _excdgMgu;
+        "pkg-1.0.0+1.20.1" = _GNAmoaDg;
+        "default" = _GNAmoaDg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "liteminer-extra-shapes";

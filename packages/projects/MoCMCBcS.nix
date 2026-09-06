@@ -96,6 +96,41 @@ let
             "file" = "annihilationblade-2.7.2-1.20.1-forge.jar";
             "hash" = "sha512-Nd7Bn/O61yXrbOREpgQkLymzgTnvLLTzUEywds8xrJhMkQOiT/qPwYuQ8HSI7kPbgVd7qvVCAsL7HmjaBVGPPQ==";
         };
+        _s3SnGgTx = {
+            "id" = "s3SnGgTx";
+            "file" = "annihilationblade-2.7.4-1.20.1-forge.jar";
+            "hash" = "sha512-msNKKBT4eyDvRbyIttbSb6tdfga/njwfIpxGzWZoWbx37r8BQoFN99jY5h14OnHIZCVkp5D1mKSpUaZjRkA0bw==";
+        };
+        _pMNRxfxH = {
+            "id" = "pMNRxfxH";
+            "file" = "annihilationblade-2.8.0-1.20.1-forge.jar";
+            "hash" = "sha512-GYHJO+M+v6LiDeripygQKqeU1YmLDqKSO7PDMwaFwiCUaA1zanhQzIiJPh001duxSHzlJsd+Of+Cja5LYdn3eA==";
+        };
+        _KXR8p8or = {
+            "id" = "KXR8p8or";
+            "file" = "annihilationbladeex-2.7.4-1.21.1-neoforge.jar";
+            "hash" = "sha512-p3UKcmVur+Nj1ITnAN/OTfG9/IYcoDLyeoC0ZvRfXu7wujKIRkWsL18x/QkNrPRghARBgrTi4FCZSvPn5h02Qw==";
+        };
+        _1Fib7qII = {
+            "id" = "1Fib7qII";
+            "file" = "annihilationbladeex-2.8.0-1.21.1-neoforge.jar";
+            "hash" = "sha512-FtXcTy9T+90fUCmqcA1d6Ztt5ErLI6fRf0bDgbJ6yeTggfE5AIO7NLvTys0bHK4F86bz0dV+usg4puXV568X5g==";
+        };
+        _4q55S0sY = {
+            "id" = "4q55S0sY";
+            "file" = "annihilationbladeex-2.9.0-1.21.1-neoforge.jar";
+            "hash" = "sha512-eogPZFQt/oppKpG9iBzkSGjscDrpUbS7kx/j0vIE+FdMzKKis8W8kAnbBwaLeYrL7uY/HV0kT0PUkfhwdOCy4Q==";
+        };
+        _1qyKAwqJ = {
+            "id" = "1qyKAwqJ";
+            "file" = "slashblade-finale-blade-sanctum-2.9.0-1.20.1-forge.jar";
+            "hash" = "sha512-Z/KrEdHIPgH8ywCljT+dduGDVuIs5TWKGslEKeTScdfW1GxL1LRb94ScDko5XiuMk1AQ/21FBDGXavyN8w5PvA==";
+        };
+        _d1rWC4v4 = {
+            "id" = "d1rWC4v4";
+            "file" = "slashblade-finale-blade-sanctum-2.9.1-1.20.1-forge.jar";
+            "hash" = "sha512-5dyd9Ejn8Uy2I6g/mf/CiZG83tIB2/ZsDsc+JX+iYOZMOOm0RtgKU3GN+5OfY/URZjgK5pByHAPy3fDxZeO7Ow==";
+        };
     in {
         "iuHpLWqf" = _iuHpLWqf;
         "ReMWKtvV" = _ReMWKtvV;
@@ -116,8 +151,15 @@ let
         "nWyaP4k0" = _nWyaP4k0;
         "XG2kxp1S" = _XG2kxp1S;
         "1aMKk35y" = _1aMKk35y;
-        "forge-1.20.1" = _1aMKk35y;
-        "neoforge-1.21.1" = _XG2kxp1S;
+        "s3SnGgTx" = _s3SnGgTx;
+        "pMNRxfxH" = _pMNRxfxH;
+        "KXR8p8or" = _KXR8p8or;
+        "1Fib7qII" = _1Fib7qII;
+        "4q55S0sY" = _4q55S0sY;
+        "1qyKAwqJ" = _1qyKAwqJ;
+        "d1rWC4v4" = _d1rWC4v4;
+        "forge-1.20.1" = _d1rWC4v4;
+        "neoforge-1.21.1" = _4q55S0sY;
         "pkg-2.0.1-hotfix" = _iuHpLWqf;
         "pkg-2.1.1" = _ReMWKtvV;
         "pkg-2.2.5" = _FGjJ5yh3;
@@ -137,7 +179,14 @@ let
         "pkg-2.7.1-1.20.1-forge" = _nWyaP4k0;
         "pkg-2.7.2-1.21.1-neoforge" = _XG2kxp1S;
         "pkg-2.7.2-1.20.1-forge" = _1aMKk35y;
-        "default" = _1aMKk35y;
+        "pkg-2.7.4-1.20.1-forge" = _s3SnGgTx;
+        "pkg-2.8.0-1.20.1-forge" = _pMNRxfxH;
+        "pkg-2.7.4-1.21.1-neoforge" = _KXR8p8or;
+        "pkg-2.8.0-1.21.1-neoforge" = _1Fib7qII;
+        "pkg-2.9.0-1.21.1-neoforge" = _4q55S0sY;
+        "pkg-2.9.0-1.20.1-forge" = _1qyKAwqJ;
+        "pkg-2.9.1-1.20.1-forge" = _d1rWC4v4;
+        "default" = _d1rWC4v4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "annihilationbladeex";

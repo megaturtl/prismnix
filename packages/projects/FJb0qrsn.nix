@@ -116,21 +116,6 @@ let
             "file" = "KenshinsHideAndSeek-1.7.6.jar";
             "hash" = "sha512-BDCaNqlGjq4Kqrep2Zdz8Ipszr2mtL/3VNKdx9Hk9tjETK9jSX8fx1J6ZlhqeqaVo5lU2Xic70KA+GLInWFK4g==";
         };
-        _HpPqGdg7 = {
-            "id" = "HpPqGdg7";
-            "file" = "KenshinsHideAndSeek-2.0.0-alpha1.jar";
-            "hash" = "sha512-Gcjat90GiwEnIj7LaqWdr5MdX1GZ/CNTFBA4tMOf80TUdTXwXa598uLHieFPiYqNRTs5OR0EZd1nol/tYOJHdw==";
-        };
-        _3LSgPD0M = {
-            "id" = "3LSgPD0M";
-            "file" = "KenshinsHideAndSeek-2.0.0-alpha2.jar";
-            "hash" = "sha512-CM07g58Y2qlo1VAY3dSEDgoDxEGWmYEuBybuYt+9cXRD0nfeH9hKLX7qGdCdL+rEquwZZqqGu1oP1jbEW5wJBw==";
-        };
-        _BoX4w2W3 = {
-            "id" = "BoX4w2W3";
-            "file" = "KenshinsHideAndSeek-2.0.0-alpha3.jar";
-            "hash" = "sha512-s+PAkGrb/3CjMrYCeQMl/tNLNzAF1Q0dYqDY8hdCu6P3QpPTdf2hOhWwO7mSo4Vu3mOKlFoM00H0NiG0YMxjUw==";
-        };
         _VnRnRs8m = {
             "id" = "VnRnRs8m";
             "file" = "KenshinsHideAndSeek-2.0.0.jar";
@@ -190,9 +175,6 @@ let
         "IpsCe4Xw" = _IpsCe4Xw;
         "oOHP1qI7" = _oOHP1qI7;
         "se7wS5Ck" = _se7wS5Ck;
-        "HpPqGdg7" = _HpPqGdg7;
-        "3LSgPD0M" = _3LSgPD0M;
-        "BoX4w2W3" = _BoX4w2W3;
         "VnRnRs8m" = _VnRnRs8m;
         "xESA2U8z" = _xESA2U8z;
         "ZBDMWnwC" = _ZBDMWnwC;
@@ -445,9 +427,6 @@ let
         "pkg-1.7.4" = _IpsCe4Xw;
         "pkg-1.7.5" = _oOHP1qI7;
         "pkg-1.7.6" = _se7wS5Ck;
-        "pkg-2.0.0-alpha1" = _HpPqGdg7;
-        "pkg-2.0.0-alpha2" = _3LSgPD0M;
-        "pkg-2.0.0-alpha3" = _BoX4w2W3;
         "pkg-2.0.0" = _VnRnRs8m;
         "pkg-2.0.1" = _xESA2U8z;
         "pkg-2.0.2" = _ZBDMWnwC;
@@ -463,12 +442,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+            license = lib.getLicenseFromSpdxIdOr "AGPL-3.0-or-later" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "GNU General Public License v3.0 only";
-                shortName = "GPL-3.0-only";
+                fullName = "GNU Affero General Public License v3.0 or later";
+                shortName = "AGPL-3.0-or-later";
                 url = null;
             };
         };

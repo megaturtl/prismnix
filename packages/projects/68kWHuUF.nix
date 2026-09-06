@@ -81,6 +81,11 @@ let
             "file" = "universal_ores-1.8.0.jar";
             "hash" = "sha512-ZOoCnPwRRU2zIW6Bz8C9mWw1mpAZcyy7dMNMhwZQv9SXwQa0Poc4fSTu9SNIpk2zDaA9ctXMuze3+H+oLcOyDg==";
         };
+        _VbfUkk3H = {
+            "id" = "VbfUkk3H";
+            "file" = "universal_ores-1.9.0.jar";
+            "hash" = "sha512-xfvl7g7AdnBL0XnrUxwHqG0iQfpconqecN+v4AthfyEuG+6YrMSV0h2x3GX23L5JbBzNx3FZ3AhYdqh00jU85Q==";
+        };
     in {
         "xah6q3JR" = _xah6q3JR;
         "xS5SIDoi" = _xS5SIDoi;
@@ -98,6 +103,7 @@ let
         "n0hOKzrC" = _n0hOKzrC;
         "H7ANDtwL" = _H7ANDtwL;
         "sDBoLbAS" = _sDBoLbAS;
+        "VbfUkk3H" = _VbfUkk3H;
         "fabric-1.17" = _xah6q3JR;
         "fabric-1.17.1" = _xah6q3JR;
         "fabric-1.18" = _ST3kXuRg;
@@ -122,6 +128,7 @@ let
         "fabric-26.1" = _sDBoLbAS;
         "fabric-26.1.1" = _sDBoLbAS;
         "fabric-26.1.2" = _sDBoLbAS;
+        "fabric-26.2" = _VbfUkk3H;
         "quilt-1.19.3" = _AGTMwpCI;
         "quilt-1.19.4" = _yfaaThUO;
         "quilt-1.20" = _bEdg7gJy;
@@ -138,6 +145,7 @@ let
         "quilt-26.1" = _sDBoLbAS;
         "quilt-26.1.1" = _sDBoLbAS;
         "quilt-26.1.2" = _sDBoLbAS;
+        "quilt-26.2" = _VbfUkk3H;
         "pkg-1.0" = _xah6q3JR;
         "pkg-1.1.0" = _xS5SIDoi;
         "pkg-1.2.0" = _nA2h8iOk;
@@ -154,7 +162,8 @@ let
         "pkg-1.6.1" = _n0hOKzrC;
         "pkg-1.7.0" = _H7ANDtwL;
         "pkg-1.8.0" = _sDBoLbAS;
-        "default" = _sDBoLbAS;
+        "pkg-1.9.0" = _VbfUkk3H;
+        "default" = _VbfUkk3H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "universal_ores";

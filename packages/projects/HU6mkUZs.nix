@@ -291,6 +291,26 @@ let
             "file" = "tmcraft-1.4.18+1.7.3.jar";
             "hash" = "sha512-Of2yENWoIu+FEjfip6M+6iP2fCEGGAmFh9agItcq/DPNUiF6P7roM2NT4tR5JRB3TRWsxeEHPfgkN6n52UkP9Q==";
         };
+        _6frUK72K = {
+            "id" = "6frUK72K";
+            "file" = "tmcraft-1.4.18+1.8.0.jar";
+            "hash" = "sha512-GhSY25qBGXWQDZZA42keMrslzyREZSpaOYHChUPjnsz6OEjy8kg434r8+EUGA2slb50L+2pBZ4hiSWsA8XeMhQ==";
+        };
+        _PY8MJ8AA = {
+            "id" = "PY8MJ8AA";
+            "file" = "tmcraft-1.4.19+1.5.2.jar";
+            "hash" = "sha512-l7ameuUQj1VjUi8kUx6b0iVXQ1GB/xM8Fvt4qJgBdkgom/N1ZYTlrmaz2Rd9+cw0Y/LGUa6hAnzvZGod0JSRxw==";
+        };
+        _XAsmlreW = {
+            "id" = "XAsmlreW";
+            "file" = "tmcraft-1.4.19+1.7.3.jar";
+            "hash" = "sha512-0ugs4F9BkzzDphrCK0C9CJUiEP85EmAp37rqvpiKmF4Gg1ko5L0CUpe2kt2YR99nrY7Gxo8VM1HrlepGXtljnQ==";
+        };
+        _ixxKJV1J = {
+            "id" = "ixxKJV1J";
+            "file" = "tmcraft-1.4.19+1.8.0.jar";
+            "hash" = "sha512-4nnLUjP8x9YX4VrCpSBhWxABTrDF8emfJLx0onF4ttE2x6pZOKeSM2LO5gtlMKxvYZw4SDKGQtsMLtwc8tuV/w==";
+        };
     in {
         "L2vUfxWn" = _L2vUfxWn;
         "oVJM1wcN" = _oVJM1wcN;
@@ -350,8 +370,12 @@ let
         "bqTQ8if8" = _bqTQ8if8;
         "VEezJGgr" = _VEezJGgr;
         "RYBI5bnM" = _RYBI5bnM;
-        "fabric-1.20.1" = _A95ZrOLQ;
-        "fabric-1.21.1" = _RYBI5bnM;
+        "6frUK72K" = _6frUK72K;
+        "PY8MJ8AA" = _PY8MJ8AA;
+        "XAsmlreW" = _XAsmlreW;
+        "ixxKJV1J" = _ixxKJV1J;
+        "fabric-1.20.1" = _PY8MJ8AA;
+        "fabric-1.21.1" = _ixxKJV1J;
         "pkg-1.0.0" = _L2vUfxWn;
         "pkg-1.0.1" = _oVJM1wcN;
         "pkg-1.0.2" = _5dd9gccU;
@@ -410,7 +434,11 @@ let
         "pkg-1.4.18+1.7.1" = _bqTQ8if8;
         "pkg-1.4.18+1.7.2" = _VEezJGgr;
         "pkg-1.4.18+1.7.3" = _RYBI5bnM;
-        "default" = _RYBI5bnM;
+        "pkg-1.4.18+1.8.0" = _6frUK72K;
+        "pkg-1.4.19+1.5.2" = _PY8MJ8AA;
+        "pkg-1.4.19+1.7.3" = _XAsmlreW;
+        "pkg-1.4.19+1.8.0" = _ixxKJV1J;
+        "default" = _ixxKJV1J;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tmcraft";

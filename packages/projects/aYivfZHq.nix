@@ -26,12 +26,18 @@ let
             "file" = "heartbalance-1.21.1-1.0.3.jar";
             "hash" = "sha512-Ni6+cglfzX1EZ5779DvmWgVAICOWSIkGdSoBvHUf57BWXocf6h/G0ESTYMOlyAH+ssI/4zNcu0dbPFkoGWWk2g==";
         };
+        _YXgX6Xoj = {
+            "id" = "YXgX6Xoj";
+            "file" = "heartbalance-26.1.2-1.0.3.jar";
+            "hash" = "sha512-oIHpRx99yiNHL6kN9iYOLgKWXKUYqNB77ghmYLfg9UL8rgtsK04zMWzlsbH+NBJtDoY23JrPozpIlnNbi3nmYw==";
+        };
     in {
         "J90reBv3" = _J90reBv3;
         "BFZlbnIV" = _BFZlbnIV;
         "Ev1EwM7r" = _Ev1EwM7r;
         "xHc68moG" = _xHc68moG;
         "mD4WWANs" = _mD4WWANs;
+        "YXgX6Xoj" = _YXgX6Xoj;
         "forge-1.16.5" = _J90reBv3;
         "forge-1.18" = _BFZlbnIV;
         "forge-1.18.1" = _BFZlbnIV;
@@ -40,12 +46,14 @@ let
         "forge-1.20.1" = _xHc68moG;
         "neoforge-1.20.1" = _xHc68moG;
         "neoforge-1.21.1" = _mD4WWANs;
+        "neoforge-26.1.2" = _YXgX6Xoj;
         "pkg-1.16.5-1.0.1" = _J90reBv3;
         "pkg-1.18-1.0.1" = _BFZlbnIV;
         "pkg-1.19.4-1.0.2" = _Ev1EwM7r;
         "pkg-1.20.1-1.0.3" = _xHc68moG;
         "pkg-1.21.1-1.0.3" = _mD4WWANs;
-        "default" = _mD4WWANs;
+        "pkg-26.1.2-1.0.3" = _YXgX6Xoj;
+        "default" = _YXgX6Xoj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "heart-balance";

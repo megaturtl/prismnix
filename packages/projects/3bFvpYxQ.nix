@@ -146,6 +146,41 @@ let
             "file" = "enchantment-tooltips-6.1.0+1.21.2.jar";
             "hash" = "sha512-Esg06MyLaErMNmmHujZiFhTXTsN1eom3+LAhzfgJ1EWNYibWswJu3og1WwB4g0VEpo/ua9QSoR2JlsAWIkrVug==";
         };
+        _4AIKLtN5 = {
+            "id" = "4AIKLtN5";
+            "file" = "enchantment-tooltips-6.0.0+1.21.5.jar";
+            "hash" = "sha512-vnhLJ5TTRwq0SzdUqTW2nqtJFFgHBprVsCBMCCGIB9AbdJGU60nF0lPDJWAVzerqLaKuHt4Q+LhtlRZbi2/zFg==";
+        };
+        _EodYHuzy = {
+            "id" = "EodYHuzy";
+            "file" = "enchantment-tooltips-7.0.0+1.21.6.jar";
+            "hash" = "sha512-VpswILC9fPKHdE79y+8QZjqFHUE7bOBjPZeNkUVZ2e2pkITxSMhRbfTQo/B+oABKjFws0NF/jQcKXo9QF81jbw==";
+        };
+        _fEucqKcB = {
+            "id" = "fEucqKcB";
+            "file" = "enchantment-tooltips-8.0.0+1.21.9.jar";
+            "hash" = "sha512-trZlDZz3olqlprAKG4xPmroKP108DNkba5lm1uPtpyCqAdIe1UX0edLi+UhAvVJcbOf6PrM0gt9dxvVE16+F0w==";
+        };
+        _ziipN3uf = {
+            "id" = "ziipN3uf";
+            "file" = "enchantment-tooltips-9.0.0+1.21.11.jar";
+            "hash" = "sha512-e0yVniphqJ9k3E25LFgfy9S9O9M1t9UGCczvIirAL3VBBN6gCV/9QVaKSMMPDxkzNga+NHBSL+2dAZm27oK7wQ==";
+        };
+        _fWhh0Fib = {
+            "id" = "fWhh0Fib";
+            "file" = "enchantment-tooltips-10.0.0+26.1.jar";
+            "hash" = "sha512-zKs6PvPk9emByclQpYP1atlg1OZor01sFaHMfucx9UDHRCEYicOb1sEVNX1qGsRtcQp1mTuBsEfGG7khmZaS7g==";
+        };
+        _9WY7GFeE = {
+            "id" = "9WY7GFeE";
+            "file" = "enchantment-tooltips-11.0.0+26.2.jar";
+            "hash" = "sha512-RnnSQDqucT2AZaGqnQYt0v4OqrNlZs5yzz2iTLJtGfr4ZtDDDWRRIBqviYpDRKNh2HzocdlQnu4hJAeAKbRXcw==";
+        };
+        _rrL2BiZx = {
+            "id" = "rrL2BiZx";
+            "file" = "enchantment-tooltips-11.0.1+26.2.jar";
+            "hash" = "sha512-uLh7XuWTm23g8YBLzqaMXDAD0yIz6WkFx1cKm0+D6+eM7PuzFCDlTB/9ms/uhwyXS93ST3UPBVjG3ot7PNP12w==";
+        };
     in {
         "OZzLAU8i" = _OZzLAU8i;
         "miDff3QC" = _miDff3QC;
@@ -176,6 +211,13 @@ let
         "A9l1BOpg" = _A9l1BOpg;
         "3zDEXKoY" = _3zDEXKoY;
         "R314zEcA" = _R314zEcA;
+        "4AIKLtN5" = _4AIKLtN5;
+        "EodYHuzy" = _EodYHuzy;
+        "fEucqKcB" = _fEucqKcB;
+        "ziipN3uf" = _ziipN3uf;
+        "fWhh0Fib" = _fWhh0Fib;
+        "9WY7GFeE" = _9WY7GFeE;
+        "rrL2BiZx" = _rrL2BiZx;
         "fabric-1.20" = _SlWraqad;
         "fabric-1.20.1" = _SlWraqad;
         "fabric-1.20.2" = _HNHm3Duj;
@@ -189,6 +231,17 @@ let
         "fabric-1.21.2" = _R314zEcA;
         "fabric-1.21.3" = _R314zEcA;
         "fabric-1.21.4" = _R314zEcA;
+        "fabric-1.21.5" = _4AIKLtN5;
+        "fabric-1.21.6" = _EodYHuzy;
+        "fabric-1.21.7" = _EodYHuzy;
+        "fabric-1.21.8" = _EodYHuzy;
+        "fabric-1.21.9" = _fEucqKcB;
+        "fabric-1.21.10" = _fEucqKcB;
+        "fabric-1.21.11" = _ziipN3uf;
+        "fabric-26.1" = _fWhh0Fib;
+        "fabric-26.1.1" = _fWhh0Fib;
+        "fabric-26.1.2" = _fWhh0Fib;
+        "fabric-26.2" = _rrL2BiZx;
         "pkg-1.0.0" = _PNGk9ah2;
         "pkg-1.1.0" = _Ml7mGo1L;
         "pkg-2.1.0" = _lzjegaVu;
@@ -213,7 +266,14 @@ let
         "pkg-4.2.0+1.20.5" = _A9l1BOpg;
         "pkg-5.2.0+1.21" = _3zDEXKoY;
         "pkg-6.1.0+1.21.2" = _R314zEcA;
-        "default" = _R314zEcA;
+        "pkg-6.0.0+1.21.5" = _4AIKLtN5;
+        "pkg-7.0.0+1.21.6" = _EodYHuzy;
+        "pkg-8.0.0+1.21.9" = _fEucqKcB;
+        "pkg-9.0.0+1.21.11" = _ziipN3uf;
+        "pkg-10.0.0+26.1" = _fWhh0Fib;
+        "pkg-11.0.0+26.2" = _9WY7GFeE;
+        "pkg-11.0.1+26.2" = _rrL2BiZx;
+        "default" = _rrL2BiZx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantment-tooltips";

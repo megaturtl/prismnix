@@ -76,6 +76,11 @@ let
             "file" = "plenty-of-armors-1.3.0+mc1.20.1.jar";
             "hash" = "sha512-42AB4/bCFd5Jt6e3gxahHwpsjN2trkSdrhbciBhoOAUFE8iDY5wcGm5FO+ssay3Za9rR8n6YbjOW95b5BY549g==";
         };
+        _TlWsJFNz = {
+            "id" = "TlWsJFNz";
+            "file" = "plenty-of-armors-1.4.0+mc1.21.1.jar";
+            "hash" = "sha512-D6Sv/y8TjizqVvOoYHbu/NdxDyTRHb4eqyO0ABkvyKyObZR7s7m1mlEhvYALDcrsgAKoseyOWWyH05+nRqVEUA==";
+        };
     in {
         "2uc7keMd" = _2uc7keMd;
         "KoBeOfmT" = _KoBeOfmT;
@@ -92,12 +97,14 @@ let
         "p57DesVV" = _p57DesVV;
         "BEQs9KPR" = _BEQs9KPR;
         "RX9dI3Ln" = _RX9dI3Ln;
+        "TlWsJFNz" = _TlWsJFNz;
         "fabric-1.19" = _boTb6llN;
         "fabric-1.19.1" = _boTb6llN;
         "fabric-1.19.2" = _p57DesVV;
         "fabric-1.19.3" = _BEQs9KPR;
         "fabric-1.20" = _RX9dI3Ln;
         "fabric-1.20.1" = _RX9dI3Ln;
+        "fabric-1.21.1" = _TlWsJFNz;
         "pkg-1.0.0" = _2uc7keMd;
         "pkg-1.0.1" = _KoBeOfmT;
         "pkg-1.0.2" = _boTb6llN;
@@ -108,7 +115,8 @@ let
         "pkg-1.2.0" = _ahDbQLFM;
         "pkg-1.2.1" = _tyUYlP5I;
         "pkg-1.3.0" = _RX9dI3Ln;
-        "default" = _RX9dI3Ln;
+        "pkg-1.4.0" = _TlWsJFNz;
+        "default" = _TlWsJFNz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "plenty-of-armors";

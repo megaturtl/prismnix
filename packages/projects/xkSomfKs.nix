@@ -21,17 +21,24 @@ let
             "file" = "dragon_fire_variants-1.6.1.jar";
             "hash" = "sha512-uLnAwdJAtLQNubUHHu1067gQf1F/WdN92rfE35hgof9eIztJKORn4KpiAyNcIkoYljF2oZGFipm3BG4niZq5RA==";
         };
+        _PIbGyIvC = {
+            "id" = "PIbGyIvC";
+            "file" = "dragon_fire_variants-1.7.0.jar";
+            "hash" = "sha512-VEjKfWN+mOaQG1mMWlYOW+I9Wr14Whf07niclasNy+gIJ6Kh6E08FlIS8mot96UM+vEttpvMFEZcAfkUeOyvEA==";
+        };
     in {
         "lZZGzslC" = _lZZGzslC;
         "7kEHb3OQ" = _7kEHb3OQ;
         "vlxOLNSU" = _vlxOLNSU;
         "niedebha" = _niedebha;
-        "forge-1.18.2" = _niedebha;
+        "PIbGyIvC" = _PIbGyIvC;
+        "forge-1.18.2" = _PIbGyIvC;
         "pkg-1.4.2" = _lZZGzslC;
         "pkg-1.5.0" = _7kEHb3OQ;
         "pkg-1.6.0" = _vlxOLNSU;
         "pkg-1.6.1" = _niedebha;
-        "default" = _niedebha;
+        "pkg-1.7.0" = _PIbGyIvC;
+        "default" = _PIbGyIvC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dragonfire-aa-expansion";

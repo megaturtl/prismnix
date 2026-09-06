@@ -101,6 +101,86 @@ let
             "file" = "easegui-0.4.3-neoforge-1.21.11.jar";
             "hash" = "sha512-K0s7CRpVGUsuPNzCfAiOm8n2n1GcSwui9NVSu0U3XgMOKqOJOWQRbas2ctG/wGUHJofrfdzmQ6+EoIdtW0D6Fw==";
         };
+        _H5s3rSF1 = {
+            "id" = "H5s3rSF1";
+            "file" = "easegui-fabric-0.3.2+1.20.1.jar";
+            "hash" = "sha512-tD79OdqKclfMBXpoj5r2RZD6tzrokTuBUfK+feQG1PUUpkEmNpB/BiGGp5UXgL0saoxQL6/2ERXNkwS3g21XTg==";
+        };
+        _jxfVezHx = {
+            "id" = "jxfVezHx";
+            "file" = "easegui-forge-0.3.2+1.20.1.jar";
+            "hash" = "sha512-sD8qp7FY1QNE1AmsE1+x8PfoO8Yi4whAPcOx0D4mA+DC/RW5r5edMHv8T5+pSYLoJWDv95pmVsu/NJ4pSMa58g==";
+        };
+        _dWQZM04l = {
+            "id" = "dWQZM04l";
+            "file" = "easegui-fabric-0.6.0+26.2.jar";
+            "hash" = "sha512-zSoIk9XAtEi5zMg9F8uwFheFQlN6Ecrghu0cgwgo6yGYXyOT/gize9GwfK+h5cvzBeByxe6EkL74+vIJGLb3Vg==";
+        };
+        _MymkA8za = {
+            "id" = "MymkA8za";
+            "file" = "easegui-neoforge-0.6.0+26.2.jar";
+            "hash" = "sha512-cAXFVz4kLrR1r5YsK+BnVEbOT74CxEF7Hlp78Eeoys89FAO5fOAvEkOOfoJHyzCJsqWOpZAQAivZ8+evNpAmRQ==";
+        };
+        _gqblECuG = {
+            "id" = "gqblECuG";
+            "file" = "easegui-fabric-0.6.0+1.21.11.jar";
+            "hash" = "sha512-0jc4F5UJB/TGvnF76bls1ZEvf8zwaKK2z0A8thrab33lic1csa3D0fZL0hTlINRJHRxIUiFxulqhjdkSMmOiEg==";
+        };
+        _zejoWVVf = {
+            "id" = "zejoWVVf";
+            "file" = "easegui-neoforge-0.6.0+1.21.11.jar";
+            "hash" = "sha512-Fm5l2zhuNnxPYTy7rodm6UD/JQ9NnpwUaWg3bcKLHjxOGDvD6VcCiIAXYekkN/TnZ39nccI2p6v265zdFpQQvw==";
+        };
+        _Xr8TCfLF = {
+            "id" = "Xr8TCfLF";
+            "file" = "easegui-fabric-0.6.0+1.21.1.jar";
+            "hash" = "sha512-b0UCTFGU5caOHLGnaSdveG/6ihQgyapO7DsEDPkBcK4egpvISI4xbRNwaA+IIq9g/aKW1E0E4TYAFfKd8RjyKQ==";
+        };
+        _Lej9CHAZ = {
+            "id" = "Lej9CHAZ";
+            "file" = "easegui-neoforge-0.6.0+1.21.1.jar";
+            "hash" = "sha512-O/qXrqHtWb8Oc93Yf7+7SuY+WZ+cikSsRoiMW/RNXmsH5rbiiFoth5BCUZeKEwvqpEYmagL7Hkl/FSMHrMFSCQ==";
+        };
+        _Fz0g3tQl = {
+            "id" = "Fz0g3tQl";
+            "file" = "easegui-fabric-0.6.1+1.21.11.jar";
+            "hash" = "sha512-VUg5fhpSQBleI9UP7kff4y6EyvmIFqPEhqOLhV6xf7vpf+D+CVf43nuuaVNclJb6xezy+lApMpB5Dl+7QQv+8g==";
+        };
+        _TUxKRzId = {
+            "id" = "TUxKRzId";
+            "file" = "easegui-neoforge-0.6.1+1.21.11.jar";
+            "hash" = "sha512-WxDIjgqmNUzGA1+ijdt5KvtkmGrBnMOgZwgaVK8vvUdPlUWynYf/PxIGPe686bYmCzy8nMB/OWrxhkvPhUjabQ==";
+        };
+        _4oOM6oSI = {
+            "id" = "4oOM6oSI";
+            "file" = "easegui-fabric-0.6.1+26.2.jar";
+            "hash" = "sha512-ZOtMniHkcgcbt3oLuJenceRds8p5Iy5hLiXA8yaXi7MI3iyceulBNDxcBQBfL9XHvtXBDODadUh3xZegZGS0iA==";
+        };
+        _qNlzeric = {
+            "id" = "qNlzeric";
+            "file" = "easegui-neoforge-0.6.1+26.2.jar";
+            "hash" = "sha512-Y14u0m8PQdqdPvO5IMe/azMEfkHl0i8B9gLL9WqFDw0htmSITCdMqpXkrpOwLXJjwcRuYskpLrHemj1U4juJ2g==";
+        };
+        _RvC7hm5v = {
+            "id" = "RvC7hm5v";
+            "file" = "easegui-fabric-1.0.0+26.2.jar";
+            "hash" = "sha512-QsWy44uPBwH+o6PlbIGPyIc4vjv/6W+6n6E2tsNbdRG8jXpVOWyvsrqxmqbtAA/kf7fyB/NlNThKLSCJJN12nw==";
+        };
+        _yxeCrPLa = {
+            "id" = "yxeCrPLa";
+            "file" = "easegui-neoforge-1.0.0+26.2.jar";
+            "hash" = "sha512-wvHHneWcr/PIsaX7mbZpdWl0b4YmCJdL75zL8rZQAfoshfl87rzaDkaMV53+ez7pNt/P0JdSeYYi/SsAc0vYRA==";
+        };
+        _X157OO7c = {
+            "id" = "X157OO7c";
+            "file" = "easegui-fabric-1.0.0+26.1.jar";
+            "hash" = "sha512-6IjRvfMFLKyImqAwIv8T78IT/Bs+DvJ64ciUX/9B7oUd8oitGj7k3YJ3zPJ7i1vPEI7rEfkTyoEglN9GvltRkA==";
+        };
+        _ianprNkZ = {
+            "id" = "ianprNkZ";
+            "file" = "easegui-neoforge-1.0.0+26.1.jar";
+            "hash" = "sha512-vs+ztZ3dE75CVg3sEDWMR3wBiG9Xifekjxa/AoUmcZLbc/E+7uvakzpqb03fDzj7a3ohwwR4kzDQsa1Z6jr2Ew==";
+        };
     in {
         "PpbtmO4W" = _PpbtmO4W;
         "TeJuB2pV" = _TeJuB2pV;
@@ -122,12 +202,36 @@ let
         "CBI3vYkf" = _CBI3vYkf;
         "DCuzDRLv" = _DCuzDRLv;
         "VZRRPs66" = _VZRRPs66;
-        "fabric-1.21.1" = _XrcdxsZN;
-        "fabric-1.21.11" = _DCuzDRLv;
-        "fabric-26.2" = _Sb0p4sZR;
-        "neoforge-1.21.1" = _CBI3vYkf;
-        "neoforge-1.21.11" = _VZRRPs66;
-        "neoforge-26.2" = _P6eKa32d;
+        "H5s3rSF1" = _H5s3rSF1;
+        "jxfVezHx" = _jxfVezHx;
+        "dWQZM04l" = _dWQZM04l;
+        "MymkA8za" = _MymkA8za;
+        "gqblECuG" = _gqblECuG;
+        "zejoWVVf" = _zejoWVVf;
+        "Xr8TCfLF" = _Xr8TCfLF;
+        "Lej9CHAZ" = _Lej9CHAZ;
+        "Fz0g3tQl" = _Fz0g3tQl;
+        "TUxKRzId" = _TUxKRzId;
+        "4oOM6oSI" = _4oOM6oSI;
+        "qNlzeric" = _qNlzeric;
+        "RvC7hm5v" = _RvC7hm5v;
+        "yxeCrPLa" = _yxeCrPLa;
+        "X157OO7c" = _X157OO7c;
+        "ianprNkZ" = _ianprNkZ;
+        "fabric-1.21.1" = _Xr8TCfLF;
+        "fabric-1.21.11" = _Fz0g3tQl;
+        "fabric-26.2" = _RvC7hm5v;
+        "fabric-1.20.1" = _H5s3rSF1;
+        "fabric-26.1" = _X157OO7c;
+        "fabric-26.1.1" = _X157OO7c;
+        "fabric-26.1.2" = _X157OO7c;
+        "neoforge-1.21.1" = _Lej9CHAZ;
+        "neoforge-1.21.11" = _TUxKRzId;
+        "neoforge-26.2" = _yxeCrPLa;
+        "neoforge-26.1" = _ianprNkZ;
+        "neoforge-26.1.1" = _ianprNkZ;
+        "neoforge-26.1.2" = _ianprNkZ;
+        "forge-1.20.1" = _jxfVezHx;
         "pkg-0.1.0" = _TeJuB2pV;
         "pkg-0.2.0" = _XYRLKOzI;
         "pkg-0.3.0" = _QWc9kNS0;
@@ -138,7 +242,15 @@ let
         "pkg-0.5.0" = _P6eKa32d;
         "pkg-0.3.2" = _CBI3vYkf;
         "pkg-0.4.3" = _VZRRPs66;
-        "default" = _VZRRPs66;
+        "pkg-0.3.2+1.20.1" = _jxfVezHx;
+        "pkg-0.6.0+26.2" = _MymkA8za;
+        "pkg-0.6.0+1.21.11" = _zejoWVVf;
+        "pkg-0.6.0+1.21.1" = _Lej9CHAZ;
+        "pkg-0.6.1+1.21.11" = _TUxKRzId;
+        "pkg-0.6.1+26.2" = _qNlzeric;
+        "pkg-1.0.0+26.2" = _yxeCrPLa;
+        "pkg-1.0.0+26.1" = _ianprNkZ;
+        "default" = _ianprNkZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easegui";

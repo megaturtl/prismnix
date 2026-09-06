@@ -1,11 +1,6 @@
 {lib, callPackage, ...}:
 let
     versions = (let
-        _ssSJeQjM = {
-            "id" = "ssSJeQjM";
-            "file" = "afmweapons-0.0.1--1.20.2.jar";
-            "hash" = "sha512-3q/9DKKPax78p+crv4J8LpRem7I83SSXoTKDZKsjkJWyBi/JAA5HNEbALwY5/SAySfZ6Akusu//qicrrAsju0A==";
-        };
         _RI1K08m0 = {
             "id" = "RI1K08m0";
             "file" = "afmweapons-1.0.0--1.20.2.jar";
@@ -37,7 +32,6 @@ let
             "hash" = "sha512-YZZvfVQCA5a8rKR5BKcagYH/IKmbadgyLxF9xaI8WC2ZcP7eAbIOtzf0D6WxfgiAaPpfzEFGNAPXW+y0oed4FA==";
         };
     in {
-        "ssSJeQjM" = _ssSJeQjM;
         "RI1K08m0" = _RI1K08m0;
         "FZLhizki" = _FZLhizki;
         "ek2UD72l" = _ek2UD72l;
@@ -46,7 +40,6 @@ let
         "cmT9M5CF" = _cmT9M5CF;
         "fabric-1.20.2" = _CwvKZPC7;
         "fabric-1.20.1" = _cmT9M5CF;
-        "pkg-0.0.1-0.0.7--1.20.2" = _ssSJeQjM;
         "pkg-1.0.0--1.20.2" = _RI1K08m0;
         "pkg-1.0.1--1.20.2" = _FZLhizki;
         "pkg-1.0.2--1.20.2" = _ek2UD72l;

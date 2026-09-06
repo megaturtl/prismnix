@@ -16,15 +16,22 @@ let
             "file" = "vvp-beta-1.20.1-0.2.0.jar";
             "hash" = "sha512-0XvHP/UxHdOTqsz2/4kvagfiicFuixIlkb1e3eozQVUNrJFgm197GO60XyjFYO7mMJQRWzARwOwOx06D1CzRiQ==";
         };
+        _tY4CHyPC = {
+            "id" = "tY4CHyPC";
+            "file" = "vvp-alpha-beta-1.20.1-0.2.1.jar";
+            "hash" = "sha512-d2cva9B3BUQioO29TOWo22a3V+58L+Gdz3kuqZL02gyW8EVR3lsx2vq72Qrgs018xCazUpKHyI0OO05xP1PrOg==";
+        };
     in {
         "Q8iw3oMe" = _Q8iw3oMe;
         "dAlLACFy" = _dAlLACFy;
         "qEek1Ufk" = _qEek1Ufk;
-        "forge-1.20.1" = _qEek1Ufk;
+        "tY4CHyPC" = _tY4CHyPC;
+        "forge-1.20.1" = _tY4CHyPC;
         "pkg-0.1.6" = _Q8iw3oMe;
         "pkg-0.1.7" = _dAlLACFy;
         "pkg-0.2.0" = _qEek1Ufk;
-        "default" = _qEek1Ufk;
+        "pkg-0.2.1" = _tY4CHyPC;
+        "default" = _tY4CHyPC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sbw-vintage-vehicle-pack";

@@ -66,6 +66,11 @@ let
             "file" = "srpmeshi-2.3.jar";
             "hash" = "sha512-VcV4fye1mHv28y5EwreQO/ruUd2GRKbDZnxpuqB8V5Bb00DplPBscCfC3uYhq/+DUMgAV6I5wHL76Kvsofzecw==";
         };
+        _37F5HAAN = {
+            "id" = "37F5HAAN";
+            "file" = "srpmeshi-2.3.1.jar";
+            "hash" = "sha512-0YoJnw0vvJOfOGbrItTZ71CCi1zfLbJzLL/kp/VFRl+BPd6LI/j1iburrAS27+GC0pmuxBTRr29tKcVM8GRwuw==";
+        };
     in {
         "KHkooSY0" = _KHkooSY0;
         "gQnMMsTM" = _gQnMMsTM;
@@ -80,7 +85,8 @@ let
         "mAJoVe5o" = _mAJoVe5o;
         "pQcEddB2" = _pQcEddB2;
         "8KryN3ZJ" = _8KryN3ZJ;
-        "forge-1.12.2" = _8KryN3ZJ;
+        "37F5HAAN" = _37F5HAAN;
+        "forge-1.12.2" = _37F5HAAN;
         "pkg-1.0" = _KHkooSY0;
         "pkg-1.1" = _gQnMMsTM;
         "pkg-1.2" = _gCXQSiSu;
@@ -94,7 +100,8 @@ let
         "pkg-2.1" = _mAJoVe5o;
         "pkg-2.2" = _pQcEddB2;
         "pkg-2.3" = _8KryN3ZJ;
-        "default" = _8KryN3ZJ;
+        "pkg-2.3.1" = _37F5HAAN;
+        "default" = _37F5HAAN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scape-and-run-meshi";

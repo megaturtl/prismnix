@@ -111,6 +111,11 @@ let
             "file" = "The_Undergarden-26.1.2-0.9.7.jar";
             "hash" = "sha512-XwewN6Bngss93H+5zeYKRADQq7ZDClbQFKR3f/YNYH1EM42ZtSRuDlBvIZL1YZCPInKr/tMHAQppFcnw0fGuaA==";
         };
+        _e8zLw9Sq = {
+            "id" = "e8zLw9Sq";
+            "file" = "The_Undergarden-26.1.2-0.9.8.jar";
+            "hash" = "sha512-rQ5fyU1f2lR7oO2Zq8k2etnj2RDU3WCkCylFy7dTcQ4yqMO1puX3iJfOfRKbyVz7aLnz5XtqJ/NGrRZfGVHiHA==";
+        };
     in {
         "RSuuRKnp" = _RSuuRKnp;
         "PP5haHhk" = _PP5haHhk;
@@ -134,13 +139,14 @@ let
         "jZ3Vcz7R" = _jZ3Vcz7R;
         "sY4KZ9q3" = _sY4KZ9q3;
         "eSzOSZeP" = _eSzOSZeP;
+        "e8zLw9Sq" = _e8zLw9Sq;
         "forge-1.20.1" = _pXfmvzA9;
         "neoforge-1.20.1" = _pXfmvzA9;
         "neoforge-1.20.4" = _HnPBD6tW;
         "neoforge-1.20.6" = _zvw9BAwI;
         "neoforge-1.21" = _Jx33ll0l;
         "neoforge-1.21.1" = _sY4KZ9q3;
-        "neoforge-26.1.2" = _eSzOSZeP;
+        "neoforge-26.1.2" = _e8zLw9Sq;
         "pkg-0.8.9" = _RSuuRKnp;
         "pkg-0.8.10" = _PP5haHhk;
         "pkg-0.8.11" = _8eXhf6u2;
@@ -163,7 +169,8 @@ let
         "pkg-0.9.5" = _jZ3Vcz7R;
         "pkg-0.9.6" = _sY4KZ9q3;
         "pkg-0.9.7" = _eSzOSZeP;
-        "default" = _eSzOSZeP;
+        "pkg-0.9.8" = _e8zLw9Sq;
+        "default" = _e8zLw9Sq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-undergarden";

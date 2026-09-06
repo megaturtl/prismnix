@@ -56,6 +56,31 @@ let
             "file" = "Mace Enchant Indicator [2.0.2-DEV1].zip";
             "hash" = "sha512-LJTLwX2DxDAJDnhVuzz+r102pyX9Zv1FaQ/SktOXEOf/0MIj8IOYaOBGeuvTcxNMDvLansn/mYVfR5XTmmwfMA==";
         };
+        _TXCFuc2P = {
+            "id" = "TXCFuc2P";
+            "file" = "Mace Enchant Indicator 2.0.1-M1.zip";
+            "hash" = "sha512-kzuQqkUMxkW+NHDcqkDpHwTpfO/oyJnHTed34Wat1NdObFVk37a4fMm9K98XMH+OTaJpFM+wt4qhX4Q4jFnUTg==";
+        };
+        _vfPduNNm = {
+            "id" = "vfPduNNm";
+            "file" = "Mace Enchant Indicator [2.0.1-M2].zip";
+            "hash" = "sha512-phyjD9BtSWIbO/Jd7pUH7NE9K0G7nPEK0yKxBgcjvoXpKFgz0Bhm0dzun9wjHHNNaTxIkL91OASq4EBPjVUQTA==";
+        };
+        _EtNnQz80 = {
+            "id" = "EtNnQz80";
+            "file" = "Mace Enchant Indicator [2.0.1-M3].zip";
+            "hash" = "sha512-krs1lsWflM0PvRqlPZeLTNFp5CZQvO7+HJsxWeaNIWiwf1sWc7uJwz7Dju+wFx/LabIPrlwVtf5nDyH/WnEDYQ==";
+        };
+        _8E8NG4DW = {
+            "id" = "8E8NG4DW";
+            "file" = "Mace Enchant Indicator [2.0.2-DEV2].zip";
+            "hash" = "sha512-iY2YvdB8Jx9JRlKao185yaqK91lWiUo6x/82wwncn+J1mf2rlCp0EC+FHeg1LBCqczwxkrsh2Iqe9JH0uPlCOw==";
+        };
+        _QLTgapMp = {
+            "id" = "QLTgapMp";
+            "file" = "Mace Enchant Indicator [2.0.2-PREV1].zip";
+            "hash" = "sha512-/pGIvqAzzAVdkYV5quI9t0b9CKLAQSnPdHS0WWAjE2aMpiIfuz5SUi2eyd35Fra6KhAnsv/FUuic5SkcLzP0GA==";
+        };
     in {
         "LQ1rwd69" = _LQ1rwd69;
         "2a28Fl8J" = _2a28Fl8J;
@@ -68,6 +93,11 @@ let
         "ecSnCpCg" = _ecSnCpCg;
         "zxYMYptb" = _zxYMYptb;
         "Nhlcd0Hd" = _Nhlcd0Hd;
+        "TXCFuc2P" = _TXCFuc2P;
+        "vfPduNNm" = _vfPduNNm;
+        "EtNnQz80" = _EtNnQz80;
+        "8E8NG4DW" = _8E8NG4DW;
+        "QLTgapMp" = _QLTgapMp;
         "minecraft-24w33a" = _vQRBdEHF;
         "minecraft-24w34a" = _vQRBdEHF;
         "minecraft-24w35a" = _vQRBdEHF;
@@ -81,10 +111,10 @@ let
         "minecraft-24w44a" = _vQRBdEHF;
         "minecraft-24w45a" = _vQRBdEHF;
         "minecraft-24w46a" = _vQRBdEHF;
-        "minecraft-1.21.11" = _PHmIA0Nz;
-        "minecraft-26.1" = _PHmIA0Nz;
-        "minecraft-26.1.1" = _PHmIA0Nz;
-        "minecraft-26.1.2" = _PHmIA0Nz;
+        "minecraft-1.21.11" = _EtNnQz80;
+        "minecraft-26.1" = _EtNnQz80;
+        "minecraft-26.1.1" = _EtNnQz80;
+        "minecraft-26.1.2" = _EtNnQz80;
         "minecraft-26.2-snapshot-2" = _ecSnCpCg;
         "minecraft-26.2-snapshot-3" = _ecSnCpCg;
         "minecraft-26.2-snapshot-4" = _ecSnCpCg;
@@ -121,14 +151,25 @@ let
         "minecraft-26.2-pre-6" = _ecSnCpCg;
         "minecraft-26.2-rc-1" = _ecSnCpCg;
         "minecraft-26.2-rc-2" = _ecSnCpCg;
-        "minecraft-26.2" = _zxYMYptb;
-        "minecraft-26.3-snapshot-1" = _Nhlcd0Hd;
-        "minecraft-26.3-snapshot-2" = _Nhlcd0Hd;
-        "minecraft-26.3-snapshot-3" = _Nhlcd0Hd;
-        "minecraft-26.3-snapshot-4" = _Nhlcd0Hd;
-        "minecraft-26.3-snapshot-5" = _Nhlcd0Hd;
-        "minecraft-26.3-snapshot-6" = _Nhlcd0Hd;
-        "minecraft-26.3-snapshot-7" = _Nhlcd0Hd;
+        "minecraft-26.2" = _EtNnQz80;
+        "minecraft-26.3-snapshot-1" = _8E8NG4DW;
+        "minecraft-26.3-snapshot-2" = _8E8NG4DW;
+        "minecraft-26.3-snapshot-3" = _8E8NG4DW;
+        "minecraft-26.3-snapshot-4" = _8E8NG4DW;
+        "minecraft-26.3-snapshot-5" = _8E8NG4DW;
+        "minecraft-26.3-snapshot-6" = _8E8NG4DW;
+        "minecraft-26.3-snapshot-7" = _8E8NG4DW;
+        "minecraft-26.3-snapshot-8" = _8E8NG4DW;
+        "minecraft-26.3-snapshot-9" = _8E8NG4DW;
+        "minecraft-1.21.5" = _EtNnQz80;
+        "minecraft-1.21.6" = _EtNnQz80;
+        "minecraft-1.21.7" = _EtNnQz80;
+        "minecraft-1.21.8" = _EtNnQz80;
+        "minecraft-1.21.9" = _EtNnQz80;
+        "minecraft-1.21.10" = _EtNnQz80;
+        "minecraft-26.3-snapshot-10" = _8E8NG4DW;
+        "minecraft-26.3-pre-1" = _QLTgapMp;
+        "minecraft-26.3-pre-2" = _QLTgapMp;
         "pkg-1.0.0" = _LQ1rwd69;
         "pkg-1.0.1" = _2a28Fl8J;
         "pkg-1.0.2-DEV1" = _OZHnR09x;
@@ -140,7 +181,12 @@ let
         "pkg-2.0.1-DEV2" = _ecSnCpCg;
         "pkg-2.0.1" = _zxYMYptb;
         "pkg-2.0.2-DEV1" = _Nhlcd0Hd;
-        "default" = _Nhlcd0Hd;
+        "pkg-2.0.1-M1" = _TXCFuc2P;
+        "pkg-2.0.1-M2" = _vfPduNNm;
+        "pkg-2.0.1-M3" = _EtNnQz80;
+        "pkg-2.0.2-DEV2" = _8E8NG4DW;
+        "pkg-2.0.2-PREV1" = _QLTgapMp;
+        "default" = _QLTgapMp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mace-enchant-indicator";

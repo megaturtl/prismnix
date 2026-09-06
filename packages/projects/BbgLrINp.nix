@@ -41,6 +41,11 @@ let
             "file" = "enhanced_ore_variety-26.1.2-neoforge-3.0.0.jar";
             "hash" = "sha512-t9i8ENhCuJsFOMuG0PiSu9jtjuQgEi2zkNinzgcS0uXcEEESKAwjcpEVOhW2h/IjPA63VgjzdUHLkaWdztepXg==";
         };
+        _9lwBt78K = {
+            "id" = "9lwBt78K";
+            "file" = "enhanced_ore_variety-1.20.1-forge-1.4.0.jar";
+            "hash" = "sha512-y5n72D9/DulxLeniy/Whtd8+FBw2OcBl70IWv9CHTNNni4S21F4dRbZlno0b8cRTS9SAq+PSDLkq3cpGjCmTWQ==";
+        };
     in {
         "QrLeYDTQ" = _QrLeYDTQ;
         "SztFJjGb" = _SztFJjGb;
@@ -50,7 +55,8 @@ let
         "7wmuU8RW" = _7wmuU8RW;
         "IebvE9hK" = _IebvE9hK;
         "F4cQsthi" = _F4cQsthi;
-        "forge-1.20.1" = _7wmuU8RW;
+        "9lwBt78K" = _9lwBt78K;
+        "forge-1.20.1" = _9lwBt78K;
         "neoforge-1.21.1" = _IebvE9hK;
         "neoforge-26.1.2" = _F4cQsthi;
         "pkg-1.20.1-1.0.0" = _QrLeYDTQ;
@@ -61,7 +67,8 @@ let
         "pkg-1.20.1-forge-1.3.1" = _7wmuU8RW;
         "pkg-1.21.1-neoforge-2.2.0" = _IebvE9hK;
         "pkg-26.1.2-neoforge-3.0.0" = _F4cQsthi;
-        "default" = _F4cQsthi;
+        "pkg-1.20.1-forge-1.4.0" = _9lwBt78K;
+        "default" = _9lwBt78K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mar-mars-enhanced-ore-variety";

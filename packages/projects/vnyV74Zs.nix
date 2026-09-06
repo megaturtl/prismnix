@@ -26,18 +26,32 @@ let
             "file" = "create_parachute-1.0.4a.jar";
             "hash" = "sha512-V6gQW9+SUmS30WWZa6MzuCFciC2MtUos/OJcRHX+SxNLNUMP033eTASo8O/n6As8P2XAh8wEy5iOq9yVlhxSmw==";
         };
+        _7FPEJm4Q = {
+            "id" = "7FPEJm4Q";
+            "file" = "create_parachute-1.0.5.jar";
+            "hash" = "sha512-kKQDop2gGXghEkX7iWmFmrBMR39Y65GTmmOHeLH/X/GDU/a7RsiSdVExh50gd7W4iSeOvIh5oIsSh/+SYFMv3w==";
+        };
+        _yVTzAs88 = {
+            "id" = "yVTzAs88";
+            "file" = "create_parachute-1.1.0.jar";
+            "hash" = "sha512-7H6RVLtA3q+E13RuwFIeO0r9eLDhYQFLA2EoVg9sNMDOtqx4+2N+bB3LCwCSuEjgTggEGkybDhxxZhxHoZVnlg==";
+        };
     in {
         "znzISlfD" = _znzISlfD;
         "jQF4BpCk" = _jQF4BpCk;
         "HcwEsFDe" = _HcwEsFDe;
         "huWz6aCL" = _huWz6aCL;
         "KYArxJys" = _KYArxJys;
-        "neoforge-1.21.1" = _KYArxJys;
+        "7FPEJm4Q" = _7FPEJm4Q;
+        "yVTzAs88" = _yVTzAs88;
+        "neoforge-1.21.1" = _yVTzAs88;
         "pkg-1.0.2" = _jQF4BpCk;
         "pkg-1.0.3" = _HcwEsFDe;
         "pkg-1.0.4" = _huWz6aCL;
         "pkg-1.0.4a" = _KYArxJys;
-        "default" = _KYArxJys;
+        "pkg-1.0.5" = _7FPEJm4Q;
+        "pkg-1.1.0" = _yVTzAs88;
+        "default" = _yVTzAs88;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "createparachute";

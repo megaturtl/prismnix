@@ -66,6 +66,11 @@ let
             "file" = "Simplistic Armor.zip";
             "hash" = "sha512-HwK342+r9MXhMwq5NpAowEvFAoImkVuIkkrE+3LNq33DHxM5WNluOgqJJ+DdNsB3xqrbVEMs4a+eoX6KDMWKPA==";
         };
+        _snstRoPC = {
+            "id" = "snstRoPC";
+            "file" = "Simplistic Armor.zip";
+            "hash" = "sha512-RkgyN4rNWGhRvY9CwZ1m40u3xR/ZiZDRrWCiJRyBl4mqd3640QYrMbc1dfQganfrqzqvXsBLz3B0MJN5ONz0iw==";
+        };
     in {
         "fDsC6GbV" = _fDsC6GbV;
         "oRt91NlS" = _oRt91NlS;
@@ -80,6 +85,7 @@ let
         "KRKLliIb" = _KRKLliIb;
         "FFkZEIRO" = _FFkZEIRO;
         "qPKJi4nj" = _qPKJi4nj;
+        "snstRoPC" = _snstRoPC;
         "minecraft-1.20" = _fDsC6GbV;
         "minecraft-1.20.1" = _fDsC6GbV;
         "minecraft-1.20.2" = _oRt91NlS;
@@ -102,10 +108,11 @@ let
         "minecraft-26.1" = _qPKJi4nj;
         "minecraft-26.1.1" = _qPKJi4nj;
         "minecraft-26.1.2" = _qPKJi4nj;
+        "minecraft-26.2" = _snstRoPC;
         "pkg-1.3" = _YDCCsWYo;
         "pkg-1.4" = _f0BtnFrO;
-        "pkg-1.5" = _qPKJi4nj;
-        "default" = _qPKJi4nj;
+        "pkg-1.5" = _snstRoPC;
+        "default" = _snstRoPC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simplistic-armor";

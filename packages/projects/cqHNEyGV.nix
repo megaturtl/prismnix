@@ -1,19 +1,25 @@
 {lib, callPackage, ...}:
 let
     versions = (let
-        _am0kquVa = {
-            "id" = "am0kquVa";
-            "file" = "ᴀʙꜱᴏʟᴜᴛᴇʟʏ ɴᴏ ᴇxᴘʟᴏꜱɪᴏɴ ᴘᴀʀᴛɪᴄᴀʟꜱ.zip";
-            "hash" = "sha512-KUoBXUFRoViG0ueUcKvuULfs0IrlTT6VGOayiKeAW3xgbekWs38vO62nFEiO56+l5xtbc2Zxss7Bk2Vun+sNvA==";
+        _w733cupR = {
+            "id" = "w733cupR";
+            "file" = "_absolutely_no_explosion_particals (3).zip";
+            "hash" = "sha512-dAA4qLYBRhnG1iUQfNLb4p5JWLiiP/e2GafoG8EX8eN3PUpTLCr/hdNhx/51GJJxFpHHLMfhAHyEazQpmBruEg==";
+        };
+        _29IaDWpX = {
+            "id" = "29IaDWpX";
+            "file" = "_absolutely_no_explosion_particals (2).zip";
+            "hash" = "sha512-gfeRL4AwZKrd9d07MgsHHGuSysbdqTrxeoQeKdlKvDsC/RsT+ZYeN7GL11r57MYMv81Zxf0wpIsJgjdLyfxpxA==";
         };
     in {
-        "am0kquVa" = _am0kquVa;
-        "minecraft-1.21.8" = _am0kquVa;
-        "minecraft-1.21.9" = _am0kquVa;
-        "minecraft-1.21.10" = _am0kquVa;
-        "minecraft-1.21.11" = _am0kquVa;
-        "pkg-1" = _am0kquVa;
-        "default" = _am0kquVa;
+        "w733cupR" = _w733cupR;
+        "29IaDWpX" = _29IaDWpX;
+        "minecraft-1.21.11" = _w733cupR;
+        "minecraft-26.1" = _29IaDWpX;
+        "minecraft-26.1.1" = _29IaDWpX;
+        "minecraft-26.1.2" = _29IaDWpX;
+        "pkg-1.0" = _29IaDWpX;
+        "default" = _29IaDWpX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "absolutely-no-explosion-particles";

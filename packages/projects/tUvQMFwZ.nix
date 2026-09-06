@@ -36,6 +36,11 @@ let
             "file" = "infinity-and-mending-1.20.x-1.0.0.jar";
             "hash" = "sha512-OdhUuPRKr0bFGgcv1MQ8NE2pn4e0y22NRbvow63VAOSiwoeQ1Hrg9GJJgspnjbithZHBf2kp6JIYTsomPkN8ag==";
         };
+        _aJOMAYAq = {
+            "id" = "aJOMAYAq";
+            "file" = "InfinityAndMending-1.0.0.zip";
+            "hash" = "sha512-YhobB90P2O9LVECA6rDPLsGWm+C0LjnU82MXUFshVhk5SUKHewHRwDoDoiqE8h32IWmD8TVY7q97xrzPsjJO7A==";
+        };
     in {
         "oQ0M525A" = _oQ0M525A;
         "Km7YzZdT" = _Km7YzZdT;
@@ -44,6 +49,7 @@ let
         "fFn78X1h" = _fFn78X1h;
         "bPUwMupA" = _bPUwMupA;
         "YT5JLAva" = _YT5JLAva;
+        "aJOMAYAq" = _aJOMAYAq;
         "fabric-1.19" = _oQ0M525A;
         "fabric-1.19.1" = _oQ0M525A;
         "fabric-1.19.2" = _oQ0M525A;
@@ -78,13 +84,29 @@ let
         "quilt-1.20.4" = _YT5JLAva;
         "quilt-1.20.5" = _YT5JLAva;
         "quilt-1.20.6" = _YT5JLAva;
-        "pkg-1.0.0" = _oQ0M525A;
+        "datapack-1.21" = _aJOMAYAq;
+        "datapack-1.21.1" = _aJOMAYAq;
+        "datapack-1.21.2" = _aJOMAYAq;
+        "datapack-1.21.3" = _aJOMAYAq;
+        "datapack-1.21.4" = _aJOMAYAq;
+        "datapack-1.21.5" = _aJOMAYAq;
+        "datapack-1.21.6" = _aJOMAYAq;
+        "datapack-1.21.7" = _aJOMAYAq;
+        "datapack-1.21.8" = _aJOMAYAq;
+        "datapack-1.21.9" = _aJOMAYAq;
+        "datapack-1.21.10" = _aJOMAYAq;
+        "datapack-1.21.11" = _aJOMAYAq;
+        "datapack-26.1" = _aJOMAYAq;
+        "datapack-26.1.1" = _aJOMAYAq;
+        "datapack-26.1.2" = _aJOMAYAq;
+        "datapack-26.2" = _aJOMAYAq;
+        "pkg-1.0.0" = _aJOMAYAq;
         "pkg-1.18.x-1.0.0" = _Km7YzZdT;
         "pkg-1.19.x-1.0.0+1.19.3" = _MFN6lEfs;
         "pkg-1.0.0+1.19.3" = _nzxeehvi;
         "pkg-1.20.x-1.0.0" = _YT5JLAva;
         "pkg-1.21.x-1.0.0" = _bPUwMupA;
-        "default" = _YT5JLAva;
+        "default" = _aJOMAYAq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "infinity-and-mending";

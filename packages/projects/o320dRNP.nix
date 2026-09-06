@@ -46,6 +46,11 @@ let
             "file" = "create_nerfad-1-2-5.jar";
             "hash" = "sha512-bCAuhxoxarWHUF2LMitn8GIo4X4jk73RRybfiEo4gJTQYDUqWr+NYgBhLH9liQNTu4+PCXMLJlqlx1V6ZgiwsA==";
         };
+        _db16HW4f = {
+            "id" = "db16HW4f";
+            "file" = "create_nerfad-1-2-6.jar";
+            "hash" = "sha512-FUoAms+D1HuFh2+HxBkkXeiLzjW2YrnfkbXwTuuUfRO/DR2E59Cxy2HYH2dijMq9v5OTLm7nxM5u3zi09nhl+A==";
+        };
     in {
         "MV6dQh16" = _MV6dQh16;
         "6E35h3W4" = _6E35h3W4;
@@ -56,10 +61,11 @@ let
         "pP0rs2f5" = _pP0rs2f5;
         "jab13nXD" = _jab13nXD;
         "OxPoLsOV" = _OxPoLsOV;
-        "fabric-1.21.11" = _OxPoLsOV;
-        "fabric-26.1.2" = _OxPoLsOV;
+        "db16HW4f" = _db16HW4f;
+        "fabric-1.21.11" = _db16HW4f;
+        "fabric-26.1.2" = _db16HW4f;
         "fabric-26.2-rc-2" = _OxPoLsOV;
-        "fabric-26.2" = _OxPoLsOV;
+        "fabric-26.2" = _db16HW4f;
         "pkg-1.0.0" = _MV6dQh16;
         "pkg-1.1.0" = _6E35h3W4;
         "pkg-1.1.1" = _9dVoOvJD;
@@ -69,7 +75,8 @@ let
         "pkg-1.2.3" = _pP0rs2f5;
         "pkg-1.2.4" = _jab13nXD;
         "pkg-1.2.5" = _OxPoLsOV;
-        "default" = _OxPoLsOV;
+        "pkg-1.2.6" = _db16HW4f;
+        "default" = _db16HW4f;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-nerfad";

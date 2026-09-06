@@ -181,6 +181,26 @@ let
             "file" = "naturalist-2.0.2-neoforge-1.21.1.jar";
             "hash" = "sha512-5xwHhFxHxtOIbJc6OpmM1CO+RYGvPm2LzWRIupdWcxvWS0lpoZodjN9lhEbor6DZcdf6z1PEZ4g6L8dKS/Byig==";
         };
+        _3B6AIHXy = {
+            "id" = "3B6AIHXy";
+            "file" = "naturalist-5.0pre4+fabric-1.20.1.jar";
+            "hash" = "sha512-5RcVr1wa9qAithwj1Y0pgmmkjnppZey32HAPFA23Nqoc9KivcnKECOgqE7NWCCbzkLxJNQjQLCYyPcmFViQLYQ==";
+        };
+        _wnR21jg1 = {
+            "id" = "wnR21jg1";
+            "file" = "naturalist-5.0pre4+forge-1.20.1.jar";
+            "hash" = "sha512-0e7zo7yzpz8d9P5vEBA9IaOBLWXnisYha6zzDkgNh9kVHbXsLrkxkpXagY2bTfXk/jwGj1c6XhCIKE8r9qAliA==";
+        };
+        _DwMaTECx = {
+            "id" = "DwMaTECx";
+            "file" = "naturalist-2.0.3-fabric-1.21.1.jar";
+            "hash" = "sha512-iDTXcLdorxJIaw20SlOOPz8NDpYtW3hz+u17Wc1C/ibVIEe0eFw8oesHLKu/7SbHvREScsFstcCtm4AxxdlkRA==";
+        };
+        _BLB7ktFs = {
+            "id" = "BLB7ktFs";
+            "file" = "naturalist-2.0.3-neoforge-1.21.1.jar";
+            "hash" = "sha512-+m++Fezz0aliGEknTpeJWyd3YsM0YJqW0gcU5Gmy3WsaBNMzB3rPEmrtHh+1Iipd5zMVJete7xfZPKtZVzxbpA==";
+        };
     in {
         "bprTJ2C1" = _bprTJ2C1;
         "A4D0ssAc" = _A4D0ssAc;
@@ -218,18 +238,22 @@ let
         "un5kLMcx" = _un5kLMcx;
         "R17tPorv" = _R17tPorv;
         "5VOUtmLM" = _5VOUtmLM;
+        "3B6AIHXy" = _3B6AIHXy;
+        "wnR21jg1" = _wnR21jg1;
+        "DwMaTECx" = _DwMaTECx;
+        "BLB7ktFs" = _BLB7ktFs;
         "forge-1.19" = _bprTJ2C1;
         "forge-1.19.1" = _bprTJ2C1;
         "forge-1.19.2" = _YjWRWE02;
         "forge-1.18.2" = _A4D0ssAc;
-        "forge-1.20.1" = _Cx95h37p;
+        "forge-1.20.1" = _wnR21jg1;
         "fabric-1.19" = _XWezpMfV;
         "fabric-1.19.1" = _XWezpMfV;
         "fabric-1.19.2" = _sVtayqoK;
         "fabric-1.18.2" = _TLrtGUZa;
-        "fabric-1.20.1" = _tx891fzz;
-        "fabric-1.21.1" = _R17tPorv;
-        "neoforge-1.21.1" = _5VOUtmLM;
+        "fabric-1.20.1" = _3B6AIHXy;
+        "fabric-1.21.1" = _DwMaTECx;
+        "neoforge-1.21.1" = _BLB7ktFs;
         "pkg-2.1.1" = _XWezpMfV;
         "pkg-1.1.1" = _TLrtGUZa;
         "pkg-3.0.1" = _oWGKezhf;
@@ -251,7 +275,11 @@ let
         "pkg-2.0.1+1.21.1-neoforge" = _un5kLMcx;
         "pkg-2.0.2+1.21.1-fabric" = _R17tPorv;
         "pkg-2.0.2+1.21.1-neoforge" = _5VOUtmLM;
-        "default" = _5VOUtmLM;
+        "pkg-5.0pre4+fabric-1.20.1" = _3B6AIHXy;
+        "pkg-5.0pre4+forge-1.20.1" = _wnR21jg1;
+        "pkg-2.0.3+1.21.1-fabric" = _DwMaTECx;
+        "pkg-2.0.3+1.21.1-neoforge" = _BLB7ktFs;
+        "default" = _BLB7ktFs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "naturalist";

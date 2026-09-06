@@ -186,6 +186,11 @@ let
             "file" = "waypoints-4.5.13.jar";
             "hash" = "sha512-fl7LrTi+lBEZBqOouR3S8rpEGVK0AA/Un/T24KFawzQ/N4J9pzwBFUZbo4MMslJpvQAGIAYahoSuCW9Cvla/kw==";
         };
+        _xuikCt6l = {
+            "id" = "xuikCt6l";
+            "file" = "waypoints-5.0.0.jar";
+            "hash" = "sha512-8efyzOYrdVefUICYMDrRmq0rtuN3+osJfGcWC+pKveXtw8Q797oJSru5inwV8Fl3sYiFNt9OraSidmYscYC+lA==";
+        };
     in {
         "fCima0rt" = _fCima0rt;
         "d36FMQjP" = _d36FMQjP;
@@ -224,6 +229,7 @@ let
         "vW4C7wCz" = _vW4C7wCz;
         "KVzhrgvx" = _KVzhrgvx;
         "1kVrXiU2" = _1kVrXiU2;
+        "xuikCt6l" = _xuikCt6l;
         "paper-1.17.1" = _kSUvCF2v;
         "paper-1.18.2" = _FBzAjL37;
         "paper-1.19.3" = _FgwlUjIt;
@@ -244,10 +250,11 @@ let
         "paper-1.21.8" = _1kVrXiU2;
         "paper-1.21.9" = _1kVrXiU2;
         "paper-1.21.10" = _1kVrXiU2;
-        "paper-1.21.11" = _1kVrXiU2;
-        "paper-26.1" = _1kVrXiU2;
-        "paper-26.1.1" = _1kVrXiU2;
-        "paper-26.1.2" = _1kVrXiU2;
+        "paper-1.21.11" = _xuikCt6l;
+        "paper-26.1" = _xuikCt6l;
+        "paper-26.1.1" = _xuikCt6l;
+        "paper-26.1.2" = _xuikCt6l;
+        "paper-26.2" = _xuikCt6l;
         "spigot-1.17.1" = _kSUvCF2v;
         "spigot-1.18.2" = _FBzAjL37;
         "spigot-1.19.3" = _FgwlUjIt;
@@ -272,10 +279,11 @@ let
         "folia-1.21.8" = _1kVrXiU2;
         "folia-1.21.9" = _1kVrXiU2;
         "folia-1.21.10" = _1kVrXiU2;
-        "folia-1.21.11" = _1kVrXiU2;
-        "folia-26.1" = _1kVrXiU2;
-        "folia-26.1.1" = _1kVrXiU2;
-        "folia-26.1.2" = _1kVrXiU2;
+        "folia-1.21.11" = _xuikCt6l;
+        "folia-26.1" = _xuikCt6l;
+        "folia-26.1.1" = _xuikCt6l;
+        "folia-26.1.2" = _xuikCt6l;
+        "folia-26.2" = _xuikCt6l;
         "pkg-3.5.6" = _fCima0rt;
         "pkg-3.5.7" = _d36FMQjP;
         "pkg-3.5.8" = _SZVwKGx7;
@@ -313,7 +321,8 @@ let
         "pkg-4.5.11" = _vW4C7wCz;
         "pkg-4.5.12" = _KVzhrgvx;
         "pkg-4.5.13" = _1kVrXiU2;
-        "default" = _1kVrXiU2;
+        "pkg-5.0.0" = _xuikCt6l;
+        "default" = _xuikCt6l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "waypoints";
@@ -327,7 +336,7 @@ let
                 redistributable = false;
                 fullName = "MIT License";
                 shortName = "MIT";
-                url = "https://github.com/Sytm/waypoints/blob/v4/master/LICENSE";
+                url = "https://codeberg.org/md5lukas/waypoints/src/branch/v5/main/LICENSE";
             };
         };
     };

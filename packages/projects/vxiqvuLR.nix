@@ -1,38 +1,38 @@
 {lib, callPackage, ...}:
 let
     versions = (let
-        _xNdPcHnk = {
-            "id" = "xNdPcHnk";
-            "file" = "modern_glass_doors-Forge-1.0.0-1.20.1.jar";
-            "hash" = "sha512-yuSmQ9R6W7fRXoiCNr/ObGeTB4dLLXWPP6kHDc3CDgR6wQvh26ohpOFUT75Yt2Q3iFJHD38DlK2/3nMzdo5lNg==";
+        _zUtHUcxD = {
+            "id" = "zUtHUcxD";
+            "file" = "modern_glass_doors-1.1.0-1.20.1.jar";
+            "hash" = "sha512-Ufk8y5bM0wuIoLBPmavV0fN4ofxqbhOTJ1uK8BREECvb624HBQx7ekcLVgrmnGgo68ms52pVa+2MYkoCu1qo0g==";
         };
-        _2YKYopI1 = {
-            "id" = "2YKYopI1";
-            "file" = "modern_glass_doors_mod-NeoForge-1.0.0-1.21.1.jar";
-            "hash" = "sha512-WrqcFA63QApYOobAODgWsLKLK2qcTAIEquqVJWbUzUh/x6GNQJRqMTkjJq8sKSG9mA6W069e7HcAmfEuMGgGjQ==";
+        _bI5ofBLl = {
+            "id" = "bI5ofBLl";
+            "file" = "modern_glass_doors-1.1.0-neoforge+1.21.1.jar";
+            "hash" = "sha512-qMGyvVh03mDh5aUdiVlOLl2JZT41uvaeapb5neBYW6EWo8EtxFsr0hdptYmBt5aTxTSoa6E76boCGZr/Dhv6fw==";
         };
-        _3TXfbZqZ = {
-            "id" = "3TXfbZqZ";
-            "file" = "modern_glass_doors-Forge-1.0.0-1.20.1.jar";
-            "hash" = "sha512-Z0+6lKkRs4LBLfOilgt6biaD0Y86mxNUZW/NNZJDGeAbEi9w39FRLvGzAknzDwCN74t7POqmJ8kolvi2acESDQ==";
+        _NCFQLeG5 = {
+            "id" = "NCFQLeG5";
+            "file" = "modern_glass_doors-1.2.0-1.20.1.jar";
+            "hash" = "sha512-FGZc5odDu4nwSWRmMSMfPGEq/om2Dqdcy31dQfszUBv3IAOe6nZiItDvZMMPLzkSu5eqaQp+dODg3MOhl/Q6Yw==";
         };
-        _gGZPYSUv = {
-            "id" = "gGZPYSUv";
-            "file" = "modern_glass_doors-NeoForge-1.0.0-1.21.1.jar";
-            "hash" = "sha512-fF6VVf1RAbmWkd16o6EZBGR9RrWff4ivd5wcWpWTcTgSNDfj+jLbyz020PQ1bjiu7OxD4NrAFQD/TKx9j8ygzA==";
+        _r74cBWjv = {
+            "id" = "r74cBWjv";
+            "file" = "modern_glass_doors-1.2.0-neoforge+1.21.1.jar";
+            "hash" = "sha512-kTsYUAcBO4BkYD1Xzxn+3XxwmXpmVPXSfnt0JByDiXFPIgiBxH5tInIPa3FBsBr7tQXTSN8ZrWJbcImWyRNqtg==";
         };
     in {
-        "xNdPcHnk" = _xNdPcHnk;
-        "2YKYopI1" = _2YKYopI1;
-        "3TXfbZqZ" = _3TXfbZqZ;
-        "gGZPYSUv" = _gGZPYSUv;
-        "forge-1.20.1" = _3TXfbZqZ;
-        "neoforge-1.21.1" = _gGZPYSUv;
-        "pkg-1.0.0-1.20.1" = _xNdPcHnk;
-        "pkg-1.0.0-1.21.1" = _2YKYopI1;
-        "pkg-1.0.0-forge+mc1.20.1" = _3TXfbZqZ;
-        "pkg-1.0.0-neoforge+mc1.21.1" = _gGZPYSUv;
-        "default" = _gGZPYSUv;
+        "zUtHUcxD" = _zUtHUcxD;
+        "bI5ofBLl" = _bI5ofBLl;
+        "NCFQLeG5" = _NCFQLeG5;
+        "r74cBWjv" = _r74cBWjv;
+        "forge-1.20.1" = _NCFQLeG5;
+        "neoforge-1.21.1" = _r74cBWjv;
+        "pkg-1.1.0-1.20.1" = _zUtHUcxD;
+        "pkg-1.1.0-neoforge+1.21.1" = _bI5ofBLl;
+        "pkg-1.2.0-1.20.1" = _NCFQLeG5;
+        "pkg-1.2.0-neoforge+1.21.1" = _r74cBWjv;
+        "default" = _r74cBWjv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modern-glass-doors(forge)";

@@ -31,6 +31,11 @@ let
             "file" = "Whimscape x Cobblemon v1.7.1.zip";
             "hash" = "sha512-fFblmDCR2WsRMs3Ff8Oy3TUlwZSuPHDATVB+cBr6v/pExGvMktAp+Mm8npq5OsnaFptciHWEoXSyUctZyBETcw==";
         };
+        _c0pSAWXe = {
+            "id" = "c0pSAWXe";
+            "file" = "Whimscape x Cobblemon v1.8.zip";
+            "hash" = "sha512-VcSSSo5/tLGvN40RNLCw6hrg6yNCoQJn6V+aRAhxrISi8H1Dd6+T9rLFi5PAPMM6RtQc3ctvdfXBnUpFzsuL2A==";
+        };
     in {
         "PfONcpDO" = _PfONcpDO;
         "O7L6LFxZ" = _O7L6LFxZ;
@@ -38,17 +43,19 @@ let
         "tM7ILwDZ" = _tM7ILwDZ;
         "K43s08Wt" = _K43s08Wt;
         "FCVMpMlq" = _FCVMpMlq;
+        "c0pSAWXe" = _c0pSAWXe;
         "minecraft-1.20.1" = _UIFhuKBP;
-        "minecraft-1.21.1" = _FCVMpMlq;
+        "minecraft-1.21.1" = _c0pSAWXe;
         "minecraft-1.20.2" = _tM7ILwDZ;
-        "minecraft-1.21" = _FCVMpMlq;
+        "minecraft-1.21" = _c0pSAWXe;
         "pkg-1.0" = _PfONcpDO;
         "pkg-2.1" = _O7L6LFxZ;
         "pkg-2.3" = _UIFhuKBP;
         "pkg-2.4" = _tM7ILwDZ;
         "pkg-1.7" = _K43s08Wt;
         "pkg-1.7.1" = _FCVMpMlq;
-        "default" = _FCVMpMlq;
+        "pkg-1.8" = _c0pSAWXe;
+        "default" = _c0pSAWXe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "whimscape-x-cobblemon";

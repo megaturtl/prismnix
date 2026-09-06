@@ -26,19 +26,26 @@ let
             "file" = "HiddenAbilitySpawns-1.1.0+1.21.1.jar";
             "hash" = "sha512-Ovjor8TxBATpm+bBX66tcW7aqlSMDal04n2znGel7SZPbTsGVhSmdyBe6TW41YsdUnpHRuYqtOCc/JCzyF26fA==";
         };
+        _bJq5LDlZ = {
+            "id" = "bJq5LDlZ";
+            "file" = "HiddenAbilitySpawns-1.2.0+1.21.1.jar";
+            "hash" = "sha512-0B9Cvm8CxUcBVfF4qkdu6Ybd8scmQleSraiJeDVYNrB0QsEsN9Tg8WRn1T10zOZcg1zECfqqRgzCZSACTRSo+Q==";
+        };
     in {
         "cd98xaD2" = _cd98xaD2;
         "F3cLPPjj" = _F3cLPPjj;
         "oi94piuL" = _oi94piuL;
         "dv2TSism" = _dv2TSism;
         "nfTC4v35" = _nfTC4v35;
-        "fabric-1.21.1" = _nfTC4v35;
+        "bJq5LDlZ" = _bJq5LDlZ;
+        "fabric-1.21.1" = _bJq5LDlZ;
         "pkg-1.0.0+1.21.1" = _cd98xaD2;
         "pkg-1.0.1+1.21.1" = _F3cLPPjj;
         "pkg-1.0.2+1.21.1" = _oi94piuL;
         "pkg-1.0.3+1.21.1" = _dv2TSism;
         "pkg-1.1.0+1.21.1" = _nfTC4v35;
-        "default" = _nfTC4v35;
+        "pkg-1.2.0+1.21.1" = _bJq5LDlZ;
+        "default" = _bJq5LDlZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hidden-ability-spawns";

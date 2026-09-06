@@ -86,6 +86,16 @@ let
             "file" = "TaskManager-1.2.4.jar";
             "hash" = "sha512-ebKtaOSHJGFf7M0RENruq/Xc/4wsc4x1kO/UIR+SP6l8py/lhfsk98Hiox+OmZX7KFpLeoVyJFIiwPIwY5oYaQ==";
         };
+        _HoZc7s5l = {
+            "id" = "HoZc7s5l";
+            "file" = "TaskManager-1.3.0.jar";
+            "hash" = "sha512-8fcTHm7iW5oYhFUOfpf2EEcvUK+SnKf/m9/RwdvgWhZhoKjGCZNnLCDOL3xXK65jjzyFEH3ZEOJdaNrApFn1iw==";
+        };
+        _nCPGYlc2 = {
+            "id" = "nCPGYlc2";
+            "file" = "TaskManager-1.2.4.jar";
+            "hash" = "sha512-nGl//hz1iJ3izS3P6ghtJVGx/C11i671pqb20R9XO4Vt4DAZmyQxX2VTQ5SbF35Qq8asls+HElgXIpW+zd2W6Q==";
+        };
     in {
         "QCTNPiob" = _QCTNPiob;
         "aW47tQ3e" = _aW47tQ3e;
@@ -104,20 +114,23 @@ let
         "yjOeLVrz" = _yjOeLVrz;
         "xLqaHKjl" = _xLqaHKjl;
         "lkflsJCj" = _lkflsJCj;
+        "HoZc7s5l" = _HoZc7s5l;
+        "nCPGYlc2" = _nCPGYlc2;
         "fabric-1.21.8" = _n89PpsiN;
         "fabric-1.21.9" = _l4j8c9RY;
         "fabric-1.21.10" = _l4j8c9RY;
-        "fabric-1.21.11" = _lkflsJCj;
+        "fabric-1.21.11" = _nCPGYlc2;
         "fabric-1.21.6" = _n89PpsiN;
         "fabric-1.21.7" = _n89PpsiN;
         "fabric-26.1.2" = _xLqaHKjl;
+        "fabric-26.2" = _HoZc7s5l;
         "pkg-1.0-SNAPSHOT" = _UY9xwvEn;
         "pkg-1.0.1" = _KeKmhtPN;
         "pkg-1.2.0" = _fEAkvUBa;
         "pkg-1.2.3" = _J1yMlVrP;
-        "pkg-1.3.0" = _xLqaHKjl;
-        "pkg-1.2.4" = _lkflsJCj;
-        "default" = _lkflsJCj;
+        "pkg-1.3.0" = _HoZc7s5l;
+        "pkg-1.2.4" = _nCPGYlc2;
+        "default" = _nCPGYlc2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "taskmanager";

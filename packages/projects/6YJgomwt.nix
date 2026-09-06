@@ -81,6 +81,11 @@ let
             "file" = "extra_gauges-2.1.2.jar";
             "hash" = "sha512-Ks5mZH0gd89uBs/0kalCSPLmEYIJg6y+Nsms7NzgMLzgi5j5Rh3WfDD3sNFsu3/X0h3Y28+PDYQRKRqOdi0ppw==";
         };
+        _xtIBXji9 = {
+            "id" = "xtIBXji9";
+            "file" = "extra_gauges-2.1.3.jar";
+            "hash" = "sha512-O2zAtu8NIihOJFbp3+OfoeymrfbZMmgjftxqEhx1KV7MjXaZf/tSzAbUM2JM2RYdoUSmez+2GXPjXOb/iyEghQ==";
+        };
     in {
         "ioWFLqfJ" = _ioWFLqfJ;
         "jU8WnmFW" = _jU8WnmFW;
@@ -98,7 +103,8 @@ let
         "ydlu99SR" = _ydlu99SR;
         "ZbA0Ejq9" = _ZbA0Ejq9;
         "7ogQOYHA" = _7ogQOYHA;
-        "neoforge-1.21.1" = _7ogQOYHA;
+        "xtIBXji9" = _xtIBXji9;
+        "neoforge-1.21.1" = _xtIBXji9;
         "forge-1.20.1" = _ZbA0Ejq9;
         "pkg-1.0.0-rc4" = _ioWFLqfJ;
         "pkg-1.1.0-beta" = _kyDON0kP;
@@ -113,7 +119,8 @@ let
         "pkg-2.0.6" = _ydlu99SR;
         "pkg-2.0.7" = _ZbA0Ejq9;
         "pkg-2.1.2" = _7ogQOYHA;
-        "default" = _7ogQOYHA;
+        "pkg-2.1.3" = _xtIBXji9;
+        "default" = _xtIBXji9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "extra-gauges";

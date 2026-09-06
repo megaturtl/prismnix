@@ -69,6 +69,12 @@ let
         "minecraft-26.3-snapshot-3" = _Irc1tHTk;
         "minecraft-26.3-snapshot-4" = _Irc1tHTk;
         "minecraft-26.3-snapshot-5" = _Irc1tHTk;
+        "minecraft-26.3-snapshot-6" = _Irc1tHTk;
+        "minecraft-26.3-snapshot-7" = _Irc1tHTk;
+        "minecraft-26.3-snapshot-8" = _Irc1tHTk;
+        "minecraft-26.3-snapshot-9" = _Irc1tHTk;
+        "minecraft-26.3-snapshot-10" = _Irc1tHTk;
+        "minecraft-26.3-pre-1" = _Irc1tHTk;
         "pkg-v1.0" = _EcUIRM01;
         "pkg-v1.1-beta" = _Irc1tHTk;
         "default" = _Irc1tHTk;

@@ -246,6 +246,46 @@ let
             "file" = "burninthesun-neoforge-26.1.2-1.13.0.jar";
             "hash" = "sha512-eVF000k173DYr3y8iNS+02Zv4H6N8l9PRDFYZ66r5KcY0nh+q1zyiwN6SVHraDYi4ccbQXn1EL9y57BCz5xeTw==";
         };
+        _dRURBSLY = {
+            "id" = "dRURBSLY";
+            "file" = "burninthesun-fabric-26.2-1.14.0.jar";
+            "hash" = "sha512-+9nXTv5KUsSAcs3vYqr6rgBlXVgRH3i66ZczTyHpopuj+3shBXLXvKHts+/UKq9fFtRZETBeB7J44BEcI/d6VQ==";
+        };
+        _qSvuRFsd = {
+            "id" = "qSvuRFsd";
+            "file" = "burninthesun-neoforge-26.2-1.14.0.jar";
+            "hash" = "sha512-G5C0+pftIUss0dkFD3PvXui/NskGid6JyvK3A0bJRjBDAkqIsq9fXPnubPrOE1zRkSwdgiKtaoDxAclZIOJD1Q==";
+        };
+        _oFABXg7p = {
+            "id" = "oFABXg7p";
+            "file" = "burninthesun-fabric-26.2-1.14.1.jar";
+            "hash" = "sha512-BnhSpmzaDtMuj1fu9XSHQqXDlU0KUlTmY40mFkr5BPQude/L6r9JNhuvT9dtsYBUK9emc2dwlxLWy8n5w0nFsg==";
+        };
+        _KnmqeJA2 = {
+            "id" = "KnmqeJA2";
+            "file" = "burninthesun-neoforge-26.2-1.14.1.jar";
+            "hash" = "sha512-AhUUJEECNxbUZB6B86p+NZmN5BPbtdbPCWWR8Tz+GsyUadHn2cjHNrD6kXbuCoroZJZYsvdA1+SA9cnZCP1ZHw==";
+        };
+        _VjZQbGkw = {
+            "id" = "VjZQbGkw";
+            "file" = "burninthesun-fabric-26.2-1.14.1.jar";
+            "hash" = "sha512-9WvDyl6iqvfFlJrVjkBbgV6/4xNinbCHtR+Qz4gExGOffEeFwfLlyn/otbZz1rnsgS5/n5dSI+OARIDUxrrMWA==";
+        };
+        _vKeiyhDe = {
+            "id" = "vKeiyhDe";
+            "file" = "burninthesun-neoforge-26.2-1.14.1.jar";
+            "hash" = "sha512-NLfVgs2VwozrxoXoJOPnqqQSmKVQcsqboL9wsUuAGFnN2u1bKhXx6dHJB/Z3lM/unz1UUM+MwPqnZiZzOdTuDw==";
+        };
+        _xceKAEWd = {
+            "id" = "xceKAEWd";
+            "file" = "burninthesun-fabric-26.1.2-1.13.1.jar";
+            "hash" = "sha512-QNyiRqpwR5dIXMQpLh1149PKLd1gLNxVathBWGCNJJlUSblLeUWYYEsBnF5fV+NtErdmkiYGgeDJKOsJFl7Wlw==";
+        };
+        _ojkdQFqn = {
+            "id" = "ojkdQFqn";
+            "file" = "burninthesun-neoforge-26.1.2-1.13.1.jar";
+            "hash" = "sha512-0xa6UP1ouEo0LShdmJ9C2PlrIOE7v+e20fIx82jEk/OGbmqVics3zkXr0dYyG35hE58p9cMkGv2Xx/Dia68g7Q==";
+        };
     in {
         "F382mlJy" = _F382mlJy;
         "OlSnsMOx" = _OlSnsMOx;
@@ -296,6 +336,14 @@ let
         "ojGuYQfL" = _ojGuYQfL;
         "wasbMfIr" = _wasbMfIr;
         "QEJrfzlm" = _QEJrfzlm;
+        "dRURBSLY" = _dRURBSLY;
+        "qSvuRFsd" = _qSvuRFsd;
+        "oFABXg7p" = _oFABXg7p;
+        "KnmqeJA2" = _KnmqeJA2;
+        "VjZQbGkw" = _VjZQbGkw;
+        "vKeiyhDe" = _vKeiyhDe;
+        "xceKAEWd" = _xceKAEWd;
+        "ojkdQFqn" = _ojkdQFqn;
         "fabric-1.18.1" = _F382mlJy;
         "fabric-1.18.2" = _cjRGCl4R;
         "fabric-1.19.1" = _Kj8tIXYJ;
@@ -309,7 +357,8 @@ let
         "fabric-1.21.10" = _GrAwxVSY;
         "fabric-1.21.11" = _Cqv3lrwu;
         "fabric-1.21.1" = _4RLXmcFj;
-        "fabric-26.1.2" = _wasbMfIr;
+        "fabric-26.1.2" = _xceKAEWd;
+        "fabric-26.2" = _VjZQbGkw;
         "forge-1.12.2" = _3GyZLUso;
         "forge-1.16.5" = _BKxtN7d3;
         "forge-1.17.1" = _GxnphsHK;
@@ -325,7 +374,8 @@ let
         "neoforge-1.21.10" = _4nCu7Os9;
         "neoforge-1.21.11" = _ojGuYQfL;
         "neoforge-1.21.1" = _6rKcVKja;
-        "neoforge-26.1.2" = _QEJrfzlm;
+        "neoforge-26.1.2" = _ojkdQFqn;
+        "neoforge-26.2" = _vKeiyhDe;
         "pkg-1.2.4" = _GxnphsHK;
         "pkg-1.2.3" = _a9YNXCBd;
         "pkg-1.3.1" = _3GyZLUso;
@@ -351,7 +401,10 @@ let
         "pkg-1.11.1" = _4nCu7Os9;
         "pkg-1.12.1" = _ojGuYQfL;
         "pkg-1.13.0" = _QEJrfzlm;
-        "default" = _QEJrfzlm;
+        "pkg-1.14.0" = _KnmqeJA2;
+        "pkg-1.14.1" = _vKeiyhDe;
+        "pkg-1.13.1" = _ojkdQFqn;
+        "default" = _ojkdQFqn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "burn-in-the-sun";

@@ -396,6 +396,136 @@ let
             "file" = "krysztal-language-scala-3.3.2+scala.3.3.0.jar";
             "hash" = "sha512-nET1sccm5f47qcaifI6A/FADRpV6PTjSSpM6BQvH+GnxfY3pszpuIyMAYo8wGYjol44tuAFRMkkl2THZfdYxRQ==";
         };
+        _7nt3e6uA = {
+            "id" = "7nt3e6uA";
+            "file" = "krysztal-language-scala-3.4.1+scala.3.8.2.jar";
+            "hash" = "sha512-/aWAzXCoi7LaKhyhxFRZ1XjnAHGPpslq9jwo/vqLPQB1V76CPTB2d71Mmi75QWoDEIML6NBexdnTI/4oaAE9gw==";
+        };
+        _R6378OIK = {
+            "id" = "R6378OIK";
+            "file" = "krysztal-language-scala-3.4.1+scala.3.8.3.jar";
+            "hash" = "sha512-YdVd07kvHycEKv8lC6GNxmIMktHbtClNgZrQt6Wf3BTVIyrwfNFNF1j0LS37b1YXAvCYsX7CKE6da9NMfa0IKA==";
+        };
+        _GGclof32 = {
+            "id" = "GGclof32";
+            "file" = "krysztal-language-scala-3.4.1+scala.3.8.4.jar";
+            "hash" = "sha512-FBZJO8bb2jjRCm7A6u9E74fPYgvf5h25jZUZ/zKJF7auppi09JnJvqdXan5aFXcbiG20+C8cjUMikw74A5ilmQ==";
+        };
+        _Dk7jk26o = {
+            "id" = "Dk7jk26o";
+            "file" = "krysztal-language-scala-3.4.1+scala.3.8.1.jar";
+            "hash" = "sha512-u0oH/KER8b6z1r+dwqVuCoChZsFoikbrsH1jToBZugI5qaDLPp+cj4Xlw8F+dmStVVdzky8MNkYJp1GvrlBDBQ==";
+        };
+        _wvWhdZpZ = {
+            "id" = "wvWhdZpZ";
+            "file" = "krysztal-language-scala-3.4.1+scala.3.8.0.jar";
+            "hash" = "sha512-CNq+dZpWGTgHBPsFtefOLuUHZxLpMEBgAc1zabW3dkbpCsatzxVC46HKep8LcOCUqLAKlLr5hsYeIJ7KXB9inw==";
+        };
+        _L3iW9yFC = {
+            "id" = "L3iW9yFC";
+            "file" = "krysztal-language-scala-3.4.1+scala.3.7.4.jar";
+            "hash" = "sha512-Sw9UucfDWLbWNKID2Pu50m/iE4y/0lzeDNV4GESDWwrf9Wd4RDuk/SiYht7PvdHX/BNoGiOuZT9drLrEYnTQ9Q==";
+        };
+        _UPbUgkZn = {
+            "id" = "UPbUgkZn";
+            "file" = "krysztal-language-scala-3.4.1+scala.3.7.2.jar";
+            "hash" = "sha512-QIioEq3uyF7j+A6XwEfLx6NdvLI2W4JkkDXoTXbdzu6+eabWJsymeGIb4LO+yfHxL/4wMukfyd86wj4JxwSH/g==";
+        };
+        _AxiIrXC4 = {
+            "id" = "AxiIrXC4";
+            "file" = "krysztal-language-scala-3.4.1+scala.3.7.3.jar";
+            "hash" = "sha512-cM3olM/mO9fuqgqZXEEb55To5DXUnO8mnf2hGMUVrA5+Ia5pLyEgtVyIxhNjWtL3lFhDKqS146HTC+vQ/cAF7g==";
+        };
+        _hgK47L9i = {
+            "id" = "hgK47L9i";
+            "file" = "krysztal-language-scala-3.4.1+scala.3.7.1.jar";
+            "hash" = "sha512-9Dj/aiBazlJfhrkQH6jH+RvaDqSFnvBtuvl+c5EAi432Fj5bNATl8SipebwGfToRG+TqcS89ocC5/JfJHboTHg==";
+        };
+        _X3kEDKfX = {
+            "id" = "X3kEDKfX";
+            "file" = "krysztal-language-scala-3.4.1+scala.3.6.4.jar";
+            "hash" = "sha512-f0ASvtiwoBcei6SmABea4945Lil/AYR2bwtccGwtNhTb1O5G+YTk1ZEcbJUun4kBI8Osc7Rt7XObyEdOtsualA==";
+        };
+        _nRuuUobJ = {
+            "id" = "nRuuUobJ";
+            "file" = "krysztal-language-scala-3.4.1+scala.3.7.0.jar";
+            "hash" = "sha512-91HnStS4RHq0t6SdK/fkxrcpu901zVIJF+/k1ViZUIPlg3MrBAyYUKHx3ylRra03lIdIwRrdvF141sAadUQlbA==";
+        };
+        _d1UmLNy4 = {
+            "id" = "d1UmLNy4";
+            "file" = "krysztal-language-scala-3.4.1+scala.3.6.3.jar";
+            "hash" = "sha512-UEvB6i0IvCXUcJ6JT8AC7FW5egsqqD6RV05B3rasr51i0rYws1ZlxbyUe/GPoRCpaMKI+9uJoJGMQYTha7j9Ew==";
+        };
+        _cbVrmg1N = {
+            "id" = "cbVrmg1N";
+            "file" = "krysztal-language-scala-3.4.1+scala.3.6.2.jar";
+            "hash" = "sha512-E4Re8ieeypGEqs+AbnYwe88I/jqAoEsJJyyzLJq5jsopaaTf7a36LLMj7UkQInfofHLuxekvekqUzKJLw4Jtqg==";
+        };
+        _lAuzAMwx = {
+            "id" = "lAuzAMwx";
+            "file" = "krysztal-language-scala-3.4.1+scala.3.5.2.jar";
+            "hash" = "sha512-24kgPU6M7ifNgzBnPJRT2Agc+FB3a55B/g6tTeKpWAoHlesbZwddxBQP+Bm/zznf994c++bN6aA/O2fNOAhYMQ==";
+        };
+        _niOBsari = {
+            "id" = "niOBsari";
+            "file" = "krysztal-language-scala-3.4.1+scala.3.5.0.jar";
+            "hash" = "sha512-o8ViPt+ZzxXAF/3wMmOd8UOqczM3hPFrmBlWCDGXmJMiZJJxWrG8cu9OpmVkeSm64Mh58RVgnunABo5lvLfUlQ==";
+        };
+        _tDg31vEu = {
+            "id" = "tDg31vEu";
+            "file" = "krysztal-language-scala-3.4.1+scala.3.5.1.jar";
+            "hash" = "sha512-Z2IBjUeRfVr1/KzWxVomAo9mUQxF9XrvLIVYeXzLLXklReEy53mNto7gt7ccFhdsUWHyM0ML7lk1sMtVXHzMTg==";
+        };
+        _J7ZIqQrZ = {
+            "id" = "J7ZIqQrZ";
+            "file" = "krysztal-language-scala-3.4.1+scala.3.4.3.jar";
+            "hash" = "sha512-aIBPkdNl36T3vrrbLIQcRJWO3C+PIjZ20+9yDbs9pN+XOsOAkYb5vTqWJXWKzP5sSLyRXgi3A85p12ifdfii9Q==";
+        };
+        _LKZiAfq2 = {
+            "id" = "LKZiAfq2";
+            "file" = "krysztal-language-scala-3.4.1+scala.3.4.2.jar";
+            "hash" = "sha512-JFfci+taP3YKONnhS1BuqZp4PdhRSX2+a6+LDcsasmTEHpzzfLahFGJTKNxXcfnKniD2QkacZLGxAqsomsIPRQ==";
+        };
+        _56UCbHYL = {
+            "id" = "56UCbHYL";
+            "file" = "krysztal-language-scala-3.4.1+scala.3.4.1.jar";
+            "hash" = "sha512-JAOhIbS8LnlSPP3Oa+YTZJBla2QeWaEmCmYahPMsKpgpL8bnc4+cHSwI/VEi5thf3ZkuQfTDAZUJEyzlSp2RGg==";
+        };
+        _ZImwhVyv = {
+            "id" = "ZImwhVyv";
+            "file" = "krysztal-language-scala-3.4.1+scala.3.4.0.jar";
+            "hash" = "sha512-B54y6QEXJogJHZVFuqE9cMzQvBRQOdEnC2HJSz1yNkL8d0GIj4pFeBw0zAjCdhXQ5/IJwaqskG9zifb2QFjWNQ==";
+        };
+        _6qUD8DoT = {
+            "id" = "6qUD8DoT";
+            "file" = "krysztal-language-scala-3.4.1+scala.3.3.6.jar";
+            "hash" = "sha512-CtlVT+IkPisBoNNenT9NlFLidFd9ksTkiLUAhbhAzJSTl7dLzErN3IHOHL1j2nuUF8u/KLaXXgsok69Hx+BVMg==";
+        };
+        _DYi4nK5a = {
+            "id" = "DYi4nK5a";
+            "file" = "krysztal-language-scala-3.4.1+scala.3.3.5.jar";
+            "hash" = "sha512-BGbgS/wZmhgT/OwSjkEaQLpMYP3CnhmbHH9ihK4Q7OOCJdCU6porsvOaT0run8eZVOEMVpYBN5F3DubhwEZGRQ==";
+        };
+        _eseN7MPD = {
+            "id" = "eseN7MPD";
+            "file" = "krysztal-language-scala-3.4.1+scala.3.3.4.jar";
+            "hash" = "sha512-lEqnzSJXVyKWfchX18k0PcLVmxHZqJDEYvjMjFJd9+gjuvuEDELBdjxKQkZpHPPCthun0yY90iAgSR/rOwEgSA==";
+        };
+        _Jiq2M9zc = {
+            "id" = "Jiq2M9zc";
+            "file" = "krysztal-language-scala-3.4.1+scala.3.3.1.jar";
+            "hash" = "sha512-z6ogwg2yAcpa6ldUR8sZJbXCynEQZhwc5KGC3WWCDoSRd9H2GMMUD6QY/Vdxue+o+5p7iiPWiCKfrad6Ss0Blg==";
+        };
+        _twpPCi5D = {
+            "id" = "twpPCi5D";
+            "file" = "krysztal-language-scala-3.4.1+scala.3.3.0.jar";
+            "hash" = "sha512-qSu+w7Z6PjegJCQiscrtI5yNWRk6VudpvK4+wv+kb0l626kvi3br6lxJ9AateNqtveOf44hsqRM4Otg7cuPK7g==";
+        };
+        _MRFc8WL3 = {
+            "id" = "MRFc8WL3";
+            "file" = "krysztal-language-scala-3.4.1+scala.3.3.3.jar";
+            "hash" = "sha512-/0D659vJMmTHGOsKMu2M/dcV+OWwYjZ2KvUN8/C84fl/KTEFVMFOVBswsn55Hj9wTDTHJNLTKWskvmSP1OcoaA==";
+        };
     in {
         "lylBzKW0" = _lylBzKW0;
         "c6LjPCMG" = _c6LjPCMG;
@@ -476,6 +606,32 @@ let
         "BuvVeJTy" = _BuvVeJTy;
         "YvJnohDQ" = _YvJnohDQ;
         "HZER2tiW" = _HZER2tiW;
+        "7nt3e6uA" = _7nt3e6uA;
+        "R6378OIK" = _R6378OIK;
+        "GGclof32" = _GGclof32;
+        "Dk7jk26o" = _Dk7jk26o;
+        "wvWhdZpZ" = _wvWhdZpZ;
+        "L3iW9yFC" = _L3iW9yFC;
+        "UPbUgkZn" = _UPbUgkZn;
+        "AxiIrXC4" = _AxiIrXC4;
+        "hgK47L9i" = _hgK47L9i;
+        "X3kEDKfX" = _X3kEDKfX;
+        "nRuuUobJ" = _nRuuUobJ;
+        "d1UmLNy4" = _d1UmLNy4;
+        "cbVrmg1N" = _cbVrmg1N;
+        "lAuzAMwx" = _lAuzAMwx;
+        "niOBsari" = _niOBsari;
+        "tDg31vEu" = _tDg31vEu;
+        "J7ZIqQrZ" = _J7ZIqQrZ;
+        "LKZiAfq2" = _LKZiAfq2;
+        "56UCbHYL" = _56UCbHYL;
+        "ZImwhVyv" = _ZImwhVyv;
+        "6qUD8DoT" = _6qUD8DoT;
+        "DYi4nK5a" = _DYi4nK5a;
+        "eseN7MPD" = _eseN7MPD;
+        "Jiq2M9zc" = _Jiq2M9zc;
+        "twpPCi5D" = _twpPCi5D;
+        "MRFc8WL3" = _MRFc8WL3;
         "fabric-1.17" = _wA3wa80W;
         "fabric-1.17.1-pre1" = _wA3wa80W;
         "fabric-1.17.1-pre2" = _wA3wa80W;
@@ -756,6 +912,38 @@ let
         "fabric-1.21.11-rc3" = _HZER2tiW;
         "fabric-1.21.11" = _HZER2tiW;
         "fabric-26.1-snapshot-1" = _HZER2tiW;
+        "fabric-26.1" = _MRFc8WL3;
+        "fabric-26.1.1-rc-1" = _MRFc8WL3;
+        "fabric-26.1.1" = _MRFc8WL3;
+        "fabric-26w14a" = _MRFc8WL3;
+        "fabric-26.2-snapshot-1" = _MRFc8WL3;
+        "fabric-26.1.2-rc-1" = _MRFc8WL3;
+        "fabric-26.1.2" = _MRFc8WL3;
+        "fabric-26.2-snapshot-2" = _MRFc8WL3;
+        "fabric-26.2-snapshot-3" = _MRFc8WL3;
+        "fabric-26.2-snapshot-4" = _MRFc8WL3;
+        "fabric-26.2-snapshot-5" = _MRFc8WL3;
+        "fabric-26.2-snapshot-6" = _MRFc8WL3;
+        "fabric-26.2-snapshot-7" = _MRFc8WL3;
+        "fabric-26.2-snapshot-8" = _MRFc8WL3;
+        "fabric-26.2-pre-1" = _MRFc8WL3;
+        "fabric-26.2-pre-2" = _MRFc8WL3;
+        "fabric-26.2-pre-3" = _MRFc8WL3;
+        "fabric-26.2-pre-4" = _MRFc8WL3;
+        "fabric-26.2-pre-5" = _MRFc8WL3;
+        "fabric-26.2-pre-6" = _MRFc8WL3;
+        "fabric-26.2-rc-1" = _MRFc8WL3;
+        "fabric-26.2-rc-2" = _MRFc8WL3;
+        "fabric-26.2" = _MRFc8WL3;
+        "fabric-26.3-snapshot-1" = _MRFc8WL3;
+        "fabric-26.3-snapshot-2" = _MRFc8WL3;
+        "fabric-26.3-snapshot-3" = _MRFc8WL3;
+        "fabric-26.3-snapshot-4" = _MRFc8WL3;
+        "fabric-26.3-snapshot-5" = _MRFc8WL3;
+        "fabric-26.3-snapshot-6" = _MRFc8WL3;
+        "fabric-26.3-snapshot-7" = _MRFc8WL3;
+        "fabric-26.3-snapshot-8" = _MRFc8WL3;
+        "fabric-26.3-snapshot-9" = _MRFc8WL3;
         "pkg-3.0.0+scala.3.3.3" = _c6LjPCMG;
         "pkg-3.1.0+scala.3.3.3" = _2P5uSiLf;
         "pkg-3.1.0+scala.3.5.0" = _doMXXxmd;
@@ -834,7 +1022,33 @@ let
         "pkg-3.3.2+scala.3.3.3" = _BuvVeJTy;
         "pkg-3.3.2+scala.3.3.1" = _YvJnohDQ;
         "pkg-3.3.2+scala.3.3.0" = _HZER2tiW;
-        "default" = _HZER2tiW;
+        "pkg-3.4.1+scala.3.8.2" = _7nt3e6uA;
+        "pkg-3.4.1+scala.3.8.3" = _R6378OIK;
+        "pkg-3.4.1+scala.3.8.4" = _GGclof32;
+        "pkg-3.4.1+scala.3.8.1" = _Dk7jk26o;
+        "pkg-3.4.1+scala.3.8.0" = _wvWhdZpZ;
+        "pkg-3.4.1+scala.3.7.4" = _L3iW9yFC;
+        "pkg-3.4.1+scala.3.7.2" = _UPbUgkZn;
+        "pkg-3.4.1+scala.3.7.3" = _AxiIrXC4;
+        "pkg-3.4.1+scala.3.7.1" = _hgK47L9i;
+        "pkg-3.4.1+scala.3.6.4" = _X3kEDKfX;
+        "pkg-3.4.1+scala.3.7.0" = _nRuuUobJ;
+        "pkg-3.4.1+scala.3.6.3" = _d1UmLNy4;
+        "pkg-3.4.1+scala.3.6.2" = _cbVrmg1N;
+        "pkg-3.4.1+scala.3.5.2" = _lAuzAMwx;
+        "pkg-3.4.1+scala.3.5.0" = _niOBsari;
+        "pkg-3.4.1+scala.3.5.1" = _tDg31vEu;
+        "pkg-3.4.1+scala.3.4.3" = _J7ZIqQrZ;
+        "pkg-3.4.1+scala.3.4.2" = _LKZiAfq2;
+        "pkg-3.4.1+scala.3.4.1" = _56UCbHYL;
+        "pkg-3.4.1+scala.3.4.0" = _ZImwhVyv;
+        "pkg-3.4.1+scala.3.3.6" = _6qUD8DoT;
+        "pkg-3.4.1+scala.3.3.5" = _DYi4nK5a;
+        "pkg-3.4.1+scala.3.3.4" = _eseN7MPD;
+        "pkg-3.4.1+scala.3.3.1" = _Jiq2M9zc;
+        "pkg-3.4.1+scala.3.3.0" = _twpPCi5D;
+        "pkg-3.4.1+scala.3.3.3" = _MRFc8WL3;
+        "default" = _MRFc8WL3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "krysztal-language-scala";

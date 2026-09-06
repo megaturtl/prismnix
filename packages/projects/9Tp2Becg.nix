@@ -183,6 +183,10 @@ let
         "neoforge-26.3-snapshot-5" = _X7ZkScNj;
         "neoforge-26.3-snapshot-6" = _X7ZkScNj;
         "neoforge-26.3-snapshot-7" = _X7ZkScNj;
+        "neoforge-26.3-snapshot-8" = _X7ZkScNj;
+        "neoforge-26.3-snapshot-9" = _X7ZkScNj;
+        "neoforge-26.3-snapshot-10" = _X7ZkScNj;
+        "neoforge-26.3-pre-1" = _X7ZkScNj;
         "fabric-1.21.1" = _5cNuAKiT;
         "fabric-1.21.11" = _2kFwi8j7;
         "fabric-26.1" = _QmtHsEEy;
@@ -196,6 +200,10 @@ let
         "fabric-26.3-snapshot-5" = _QmtHsEEy;
         "fabric-26.3-snapshot-6" = _QmtHsEEy;
         "fabric-26.3-snapshot-7" = _QmtHsEEy;
+        "fabric-26.3-snapshot-8" = _QmtHsEEy;
+        "fabric-26.3-snapshot-9" = _QmtHsEEy;
+        "fabric-26.3-snapshot-10" = _QmtHsEEy;
+        "fabric-26.3-pre-1" = _QmtHsEEy;
         "quilt-1.21.1" = _5cNuAKiT;
         "quilt-1.21.11" = _2kFwi8j7;
         "quilt-26.1" = _QmtHsEEy;
@@ -209,6 +217,10 @@ let
         "quilt-26.3-snapshot-5" = _QmtHsEEy;
         "quilt-26.3-snapshot-6" = _QmtHsEEy;
         "quilt-26.3-snapshot-7" = _QmtHsEEy;
+        "quilt-26.3-snapshot-8" = _QmtHsEEy;
+        "quilt-26.3-snapshot-9" = _QmtHsEEy;
+        "quilt-26.3-snapshot-10" = _QmtHsEEy;
+        "quilt-26.3-pre-1" = _QmtHsEEy;
         "pkg-1.0.1" = _aubiXWxJ;
         "pkg-1.1.0" = _dCKqzPw7;
         "pkg-1.1.1" = _nHatjWYq;

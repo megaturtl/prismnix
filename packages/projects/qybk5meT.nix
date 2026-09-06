@@ -121,6 +121,11 @@ let
             "file" = "vaultmapper-1.10.jar";
             "hash" = "sha512-6K0yhTW4LJByRntkxAJ0cRC1b4xh/6JbC9FW8fW22X7fBgPk3dxoUNjNZny8PB2Rxwya7clJv/nfKpFTPYdR7A==";
         };
+        _n3p0me5O = {
+            "id" = "n3p0me5O";
+            "file" = "vaultmapper-1.10.1.jar";
+            "hash" = "sha512-SEn2eFHxYKahGzS8/D2bjICts2NN7e2vEAhr1DiqgIjmT0XIJXA4lIG1tXBGsatAUpoeWaGr5atjqfGQgxw4qQ==";
+        };
     in {
         "ZC7iWPOK" = _ZC7iWPOK;
         "m64COXM0" = _m64COXM0;
@@ -146,7 +151,8 @@ let
         "OnvzDU7c" = _OnvzDU7c;
         "ngwrPByP" = _ngwrPByP;
         "yT44wFyK" = _yT44wFyK;
-        "forge-1.18.2" = _yT44wFyK;
+        "n3p0me5O" = _n3p0me5O;
+        "forge-1.18.2" = _n3p0me5O;
         "pkg-1.0" = _ZC7iWPOK;
         "pkg-1.1" = _m64COXM0;
         "pkg-1.1.1" = _dE4cyu1U;
@@ -171,7 +177,8 @@ let
         "pkg-1.8.2" = _OnvzDU7c;
         "pkg-1.9" = _ngwrPByP;
         "pkg-1.10" = _yT44wFyK;
-        "default" = _yT44wFyK;
+        "pkg-1.10.1" = _n3p0me5O;
+        "default" = _n3p0me5O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vaultmapper";

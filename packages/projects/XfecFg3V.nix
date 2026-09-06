@@ -76,6 +76,11 @@ let
             "file" = "ironfurnaces-1.6.0+8.0.jar";
             "hash" = "sha512-PfXknzlwS58TFBvKyOrn8QTFRW5xNzO2Z/MThsXkl5CenoF+gQm/wyVu7lDUA3zCMd484aWMoVscNPlM3GbB4w==";
         };
+        _NQLAzhmd = {
+            "id" = "NQLAzhmd";
+            "file" = "ironfurnaces-2.0.0+8.0.jar";
+            "hash" = "sha512-q2aued1i1vjDhdYxH/qI00X8/mlX6SAMqQa2wf8329565vW55u7s7RHbAJt250T54IyX1J9NV0qQ4ISW7u/kgA==";
+        };
     in {
         "FVmPOb8g" = _FVmPOb8g;
         "DffW3YX7" = _DffW3YX7;
@@ -92,7 +97,8 @@ let
         "r6KjrIo6" = _r6KjrIo6;
         "fxzQQ9fi" = _fxzQQ9fi;
         "ZC9SEZxx" = _ZC9SEZxx;
-        "bta-babric-b1.7.3" = _ZC9SEZxx;
+        "NQLAzhmd" = _NQLAzhmd;
+        "bta-babric-b1.7.3" = _NQLAzhmd;
         "pkg-1.2.2" = _FVmPOb8g;
         "pkg-1.3.0" = _DffW3YX7;
         "pkg-1.3.1" = _hhqxY3z7;
@@ -108,7 +114,8 @@ let
         "pkg-1.5.3" = _r6KjrIo6;
         "pkg-1.5.4" = _fxzQQ9fi;
         "pkg-1.6.0" = _ZC9SEZxx;
-        "default" = _ZC9SEZxx;
+        "pkg-2.0.0+8.0" = _NQLAzhmd;
+        "default" = _NQLAzhmd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "iron-furnaces-bta";

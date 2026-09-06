@@ -31,11 +31,6 @@ let
             "file" = "blaze_remake_final.jar";
             "hash" = "sha512-seDMRDRxGfz+RsnA2n1qkRX+hMtthZoAlIUCY8YcNQSqCDs6+Wlbwj23EHeCc9fsEmw6lK5WeTUYNtt8hat/+Q==";
         };
-        _tATrogzM = {
-            "id" = "tATrogzM";
-            "file" = "blaze_remake_final(crash-problem).jar";
-            "hash" = "sha512-seDMRDRxGfz+RsnA2n1qkRX+hMtthZoAlIUCY8YcNQSqCDs6+Wlbwj23EHeCc9fsEmw6lK5WeTUYNtt8hat/+Q==";
-        };
     in {
         "WAU4waAg" = _WAU4waAg;
         "nBlTK2ip" = _nBlTK2ip;
@@ -43,7 +38,6 @@ let
         "FqnnFP6I" = _FqnnFP6I;
         "Ting92YF" = _Ting92YF;
         "dOeLBg36" = _dOeLBg36;
-        "tATrogzM" = _tATrogzM;
         "fabric-1.21.4" = _WAU4waAg;
         "fabric-1.21.1" = _nBlTK2ip;
         "fabric-1.21.2" = _nBlTK2ip;
@@ -52,17 +46,13 @@ let
         "fabric-1.21.6" = _FqnnFP6I;
         "fabric-1.21.7" = _Ting92YF;
         "fabric-1.21.8" = _dOeLBg36;
-        "fabric-1.21.9" = _tATrogzM;
-        "fabric-1.21.10" = _tATrogzM;
-        "fabric-1.21.11" = _tATrogzM;
         "pkg-1.0" = _WAU4waAg;
         "pkg-1.1" = _nBlTK2ip;
         "pkg-1.5" = _OpLjdZOD;
         "pkg-1.6" = _FqnnFP6I;
         "pkg-1.7" = _Ting92YF;
         "pkg-1.8" = _dOeLBg36;
-        "pkg-1.11" = _tATrogzM;
-        "default" = _tATrogzM;
+        "default" = _dOeLBg36;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blazexremake";

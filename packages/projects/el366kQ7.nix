@@ -46,6 +46,36 @@ let
             "file" = "jungle_treehouse_village-1.0.0-fabric-1.21.11.jar";
             "hash" = "sha512-BkxWad/ei7yTswJVSd3krWR0H/Ckyv+GNgdpIQIq6/uITg8azIm9cACq6xtqM1liSIRFNFrLmRhP/VuqOq2RIQ==";
         };
+        _bb8lOB1I = {
+            "id" = "bb8lOB1I";
+            "file" = "jungle_treehouse_village-1.0.0 Fabric 1.21.1.jar";
+            "hash" = "sha512-A4fmUJaAHQdm02J2ieizMuSY/ItyqAJb9FRgA9/QubCegB0Z/mwyLzj892L/OWFo1zfKOrSBoeI5FQ+klztKuQ==";
+        };
+        _ajHtSWJq = {
+            "id" = "ajHtSWJq";
+            "file" = "jungle_treehouse_village-1.0.0 Neoforge 1.21.11.jar";
+            "hash" = "sha512-8R9+IJYb2X/UO6NkPxa9VXTNjjWyoFpIUHptH+rcuQ6WbXN1L7XjrlzcnrxRGATbiCkrvIwTISyx8JPeFutY+Q==";
+        };
+        _3BJckdT7 = {
+            "id" = "3BJckdT7";
+            "file" = "jungle_treehouse_village-1.0.0 Fabric 26.1.2.jar";
+            "hash" = "sha512-gifbbHVdEpWf1sEpTQ71vii/vXNDabvhwNp2P4ca0HDqKKH/ogZk2EWSAtlFupSonxDDOYMUwGwbpZQ0s+LOGQ==";
+        };
+        _HKw0Hrjt = {
+            "id" = "HKw0Hrjt";
+            "file" = "jungle_treehouse_village-1.0.0 Neoforge 26.1.2.jar";
+            "hash" = "sha512-WWDrwk4gSsot8z8Ryr+Dd7lnR1mka7/kdOIgwwD6RlEE6DOAdibbEsSutyZOX8HuBec5T2B/4MFoYlrP6AW6/A==";
+        };
+        _bCIk3Zzl = {
+            "id" = "bCIk3Zzl";
+            "file" = "jungle_treehouse_village-1.0.0 Fabric 26.2.jar";
+            "hash" = "sha512-Mnjyf9Dm31XX1Fmau6k7qWOcbJtiyBbpl14xXN3VokcB+KRHfFDeTMF9J6Tu1+EOUBNLRypYHv8F7AVa0GSbbA==";
+        };
+        _xefn46Hf = {
+            "id" = "xefn46Hf";
+            "file" = "jungle_treehouse_village-1.0.0 Neoforge 26.2.jar";
+            "hash" = "sha512-cu1yBrm8m1rMfoQT2tLPJBKwTcgqMy6pK2/cqbDJ5GWSliSoD5bkiM9R7Clj0DxBM9zPZnX2+ovOTkn+IGCLiQ==";
+        };
     in {
         "hH7GYAbf" = _hH7GYAbf;
         "Om17KqyJ" = _Om17KqyJ;
@@ -56,17 +86,29 @@ let
         "q1TWnQMs" = _q1TWnQMs;
         "DNojc4st" = _DNojc4st;
         "DD8vloHD" = _DD8vloHD;
+        "bb8lOB1I" = _bb8lOB1I;
+        "ajHtSWJq" = _ajHtSWJq;
+        "3BJckdT7" = _3BJckdT7;
+        "HKw0Hrjt" = _HKw0Hrjt;
+        "bCIk3Zzl" = _bCIk3Zzl;
+        "xefn46Hf" = _xefn46Hf;
         "fabric-1.20.1" = _n6svDZ5j;
         "fabric-1.21.8" = _5yZbKGYO;
         "fabric-1.21.10" = _DNojc4st;
         "fabric-1.21.11" = _DD8vloHD;
+        "fabric-1.21.1" = _bb8lOB1I;
+        "fabric-26.1.2" = _3BJckdT7;
+        "fabric-26.2" = _bCIk3Zzl;
         "forge-1.20.1" = _Om17KqyJ;
         "neoforge-1.21.1" = _cm0A1j6D;
         "neoforge-1.21.4" = _jNn4QeUS;
         "neoforge-1.21.8" = _q1TWnQMs;
-        "pkg-1.0.0" = _DD8vloHD;
+        "neoforge-1.21.11" = _ajHtSWJq;
+        "neoforge-26.1.2" = _HKw0Hrjt;
+        "neoforge-26.2" = _xefn46Hf;
+        "pkg-1.0.0" = _xefn46Hf;
         "pkg-1.0.1" = _n6svDZ5j;
-        "default" = _DD8vloHD;
+        "default" = _xefn46Hf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jungle-treehouse-village";

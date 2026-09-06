@@ -76,6 +76,11 @@ let
             "file" = "theerror-2.7-forge-1.20.1.jar";
             "hash" = "sha512-gAMqfTLEX5RgLWHoGbmTR8dDIiUpDyq/ox9PMDTF/pjS4PCfKR7O7LP2Hp0Pf2V9xHBf2AQU8lp4GLgbLNILGg==";
         };
+        _EU4St3Lw = {
+            "id" = "EU4St3Lw";
+            "file" = "theerror-2.7.1-forge-1.20.1.jar";
+            "hash" = "sha512-JZ1xQzp9goL2jxIzZBtKRc7qGaWjLnCZyIc0EhAcb7GrlU0v57exguszviARrum9Kz/Z9bELKvgwtkxX4zaxPg==";
+        };
     in {
         "gNy7z8SV" = _gNy7z8SV;
         "A2YHfaBH" = _A2YHfaBH;
@@ -92,7 +97,8 @@ let
         "YOtry3Yc" = _YOtry3Yc;
         "mpc03Y2y" = _mpc03Y2y;
         "LITkSb7L" = _LITkSb7L;
-        "forge-1.20.1" = _LITkSb7L;
+        "EU4St3Lw" = _EU4St3Lw;
+        "forge-1.20.1" = _EU4St3Lw;
         "neoforge-1.21.8" = _pwODaSm3;
         "pkg-1.0.0" = _gNy7z8SV;
         "pkg-2.0.0" = _A2YHfaBH;
@@ -103,11 +109,12 @@ let
         "pkg-2.3" = _MqHpQHXp;
         "pkg-2.4" = _pwODaSm3;
         "pkg-2.5" = _e7tZSPjr;
-        "pkg-2.5.bugfix1" = _jaEmt9IM;
-        "pkg-2.5bugfix2" = _YOtry3Yc;
+        "pkg-2.5.1" = _jaEmt9IM;
+        "pkg-2.5.2" = _YOtry3Yc;
         "pkg-2.6" = _mpc03Y2y;
         "pkg-2.7" = _LITkSb7L;
-        "default" = _LITkSb7L;
+        "pkg-2.7.1" = _EU4St3Lw;
+        "default" = _EU4St3Lw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-error-(horror)";

@@ -86,6 +86,11 @@ let
             "file" = "friend-api-1.0.17.jar";
             "hash" = "sha512-mzZ+Faaeb3r0EkwSi0qgoXF9o5qPszhhEGv3YMo/fqgZImYs/MJ5EjWP0buTWvIyznDLSgETHuNRj5pf6Q/n2g==";
         };
+        _moxHDCXk = {
+            "id" = "moxHDCXk";
+            "file" = "friend-api-1.0.18.jar";
+            "hash" = "sha512-rBw1PgTAQzuN0UrSu4Oe6KICId1vXRRyx2om41mf1/LVE7kISKc+6K2wiHorPMjYROyPb+yOnRje50W8i+rECg==";
+        };
     in {
         "LRpul8M8" = _LRpul8M8;
         "XrvIsYNp" = _XrvIsYNp;
@@ -104,6 +109,7 @@ let
         "ZUCNWsKC" = _ZUCNWsKC;
         "VDHJFLBv" = _VDHJFLBv;
         "GcjHgcbs" = _GcjHgcbs;
+        "moxHDCXk" = _moxHDCXk;
         "fabric-1.20.1" = _LRpul8M8;
         "fabric-1.20.5" = _XrvIsYNp;
         "fabric-1.20.6" = _cUNdjhTi;
@@ -121,6 +127,7 @@ let
         "fabric-26.1" = _GcjHgcbs;
         "fabric-26.1.1" = _GcjHgcbs;
         "fabric-26.1.2" = _GcjHgcbs;
+        "fabric-26.2" = _moxHDCXk;
         "pkg-1.0.0" = _LRpul8M8;
         "pkg-1.0.1" = _XrvIsYNp;
         "pkg-1.0.2" = _cUNdjhTi;
@@ -138,7 +145,8 @@ let
         "pkg-1.0.15" = _ZUCNWsKC;
         "pkg-1.0.16" = _VDHJFLBv;
         "pkg-1.0.17" = _GcjHgcbs;
-        "default" = _GcjHgcbs;
+        "pkg-1.0.18" = _moxHDCXk;
+        "default" = _moxHDCXk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "friend-api";

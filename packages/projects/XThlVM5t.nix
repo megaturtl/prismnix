@@ -108,6 +108,10 @@ let
         "fabric-26.3-snapshot-5" = _1LB09vc4;
         "fabric-26.3-snapshot-6" = _1LB09vc4;
         "fabric-26.3-snapshot-7" = _1LB09vc4;
+        "fabric-26.3-snapshot-8" = _1LB09vc4;
+        "fabric-26.3-snapshot-9" = _1LB09vc4;
+        "fabric-26.3-snapshot-10" = _1LB09vc4;
+        "fabric-26.3-pre-1" = _1LB09vc4;
         "quilt-26.1-snapshot-1" = _x3EbaP7C;
         "quilt-26.1-snapshot-2" = _x3EbaP7C;
         "quilt-26.1-snapshot-3" = _x3EbaP7C;
@@ -154,6 +158,10 @@ let
         "quilt-26.3-snapshot-5" = _1LB09vc4;
         "quilt-26.3-snapshot-6" = _1LB09vc4;
         "quilt-26.3-snapshot-7" = _1LB09vc4;
+        "quilt-26.3-snapshot-8" = _1LB09vc4;
+        "quilt-26.3-snapshot-9" = _1LB09vc4;
+        "quilt-26.3-snapshot-10" = _1LB09vc4;
+        "quilt-26.3-pre-1" = _1LB09vc4;
         "pkg-1.0.0" = _x3EbaP7C;
         "pkg-2" = _Y1DjoOm7;
         "pkg-1.0.3" = _JcnrpArG;

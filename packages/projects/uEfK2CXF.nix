@@ -531,6 +531,16 @@ let
             "file" = "JustEnoughResources-Fabric-26.2-1.11.0.42.jar";
             "hash" = "sha512-eWUW18enTQEEzkHuTPkpfnd4R7wJeR4U9f/u9UspH/bWTgh1YzCkL+E7OfAzeepZVYhEXJc3wqluns/aIog3Kw==";
         };
+        _Na0Gcqkb = {
+            "id" = "Na0Gcqkb";
+            "file" = "JustEnoughResources-NeoForge-26.2-1.11.0.43.jar";
+            "hash" = "sha512-MFUBLAFFUrrLfA8Yi1LiZlYVA//yWAgCmWk1sxBj0x0QNxWWJo/Vu+IudAph9IX/qUHkuenlSoP2ghoaK8wHRQ==";
+        };
+        _K3mFlSd5 = {
+            "id" = "K3mFlSd5";
+            "file" = "JustEnoughResources-Fabric-26.2-1.11.0.43.jar";
+            "hash" = "sha512-tR9A5YvQxAu1FvXXxYS5U6a+0yo9GHWzVAtG3cvHl+8UiXe/WFSq4TltGxFWQTz8jPrPIWxDfrZaJzlSOu/Vdw==";
+        };
     in {
         "1oiTtRvR" = _1oiTtRvR;
         "YpCqI9J2" = _YpCqI9J2;
@@ -638,6 +648,8 @@ let
         "CuICTpdh" = _CuICTpdh;
         "1sUcXXlt" = _1sUcXXlt;
         "NhZEdvol" = _NhZEdvol;
+        "Na0Gcqkb" = _Na0Gcqkb;
+        "K3mFlSd5" = _K3mFlSd5;
         "forge-1.18.2" = _1oiTtRvR;
         "forge-1.19.2" = _gYpN3Xsx;
         "forge-1.19.3" = _NEXlKGKc;
@@ -659,7 +671,7 @@ let
         "fabric-1.21.10" = _Fh338zyF;
         "fabric-1.21.11" = _wtZJoBTD;
         "fabric-26.1.2" = _zEihhocG;
-        "fabric-26.2" = _NhZEdvol;
+        "fabric-26.2" = _K3mFlSd5;
         "neoforge-1.20.4" = _obTYX94A;
         "neoforge-1.20.6" = _Q6NTJRvk;
         "neoforge-1.21.1" = _TgNFki8j;
@@ -671,7 +683,7 @@ let
         "neoforge-1.21.10" = _R3HL5C5x;
         "neoforge-1.21.11" = _xZmaYads;
         "neoforge-26.1.2" = _tBAdXL1H;
-        "neoforge-26.2" = _1sUcXXlt;
+        "neoforge-26.2" = _Na0Gcqkb;
         "pkg-0.14.2.206" = _1oiTtRvR;
         "pkg-1.2.2.200" = _hCg1eHjd;
         "pkg-1.3.2.209" = _DTEumDkl;
@@ -723,7 +735,8 @@ let
         "pkg-1.10.1.40" = _zEihhocG;
         "pkg-1.11.0.41" = _CuICTpdh;
         "pkg-1.11.0.42" = _NhZEdvol;
-        "default" = _NhZEdvol;
+        "pkg-1.11.0.43" = _K3mFlSd5;
+        "default" = _K3mFlSd5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "just-enough-resources-jer";

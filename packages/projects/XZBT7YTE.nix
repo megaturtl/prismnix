@@ -36,6 +36,36 @@ let
             "file" = "tacz_x_guns_lights_addon-2.4.3.jar";
             "hash" = "sha512-kL8rUmAqPt3uKHq2XifMFKOQNx7eDD5qC7T7rWVtChoSA8n/0coKo5Bf5gKYxSne9uSNHelCzm47rmsIQ5j4qQ==";
         };
+        _V4BcwSCU = {
+            "id" = "V4BcwSCU";
+            "file" = "tacz_x_guns_lights_addon-2.5.0.jar";
+            "hash" = "sha512-DavVqQMdvnpqYKCjgb4ohy7YlQ2p18sxacQr0tqHlpRgESEyTSEMy5IV5BvEwvp3JB4mF3FZIqY3TMBec0HNnw==";
+        };
+        _zt4YEWcP = {
+            "id" = "zt4YEWcP";
+            "file" = "tacz_x_guns_lights_addon-2.6.0.jar";
+            "hash" = "sha512-+pQMC7NMIFCtGeQ69Dw/lZMZY2WFbnEDL9BmNLs/MMBgP/FwOsmiUic+gexqkLqJQgQVYgIkmONIdc4YG+KrWg==";
+        };
+        _ffE4Lryy = {
+            "id" = "ffE4Lryy";
+            "file" = "tacz_x_guns_lights_addon-forge-1.20.1-2.8.2.jar";
+            "hash" = "sha512-YNuWaMrpglMUQZdEWYPTBMO7fF+4St5xoX554/3hM7n4eFvpSG32A3wQOGmVDQzhugDSL2hWBvG/gWoTBe+vmg==";
+        };
+        _VJUTrr8u = {
+            "id" = "VJUTrr8u";
+            "file" = "tacz_x_guns_lights_addon-neoforge-1.21.1-2.8.2.jar";
+            "hash" = "sha512-/aI+BrfJVIOYVKyJuyhYfGxlC9XqxqRfd5FiaDT71JpZgp+0/MfIPscVah3vQNcW6uIlczIEJESSdqrUxYrd/A==";
+        };
+        _2cS9a2hE = {
+            "id" = "2cS9a2hE";
+            "file" = "tacz_x_guns_lights_addon-fabric-1.21.1-2.8.2.jar";
+            "hash" = "sha512-LF+GQ8iZko0JsQdmIe5mnxcSB9GUwxsbxNvYY2kFl6JWWVFtDG4usL8Us47l2fWGWRNks/eMaQYqNqdXFbQbnA==";
+        };
+        _upgJMEPl = {
+            "id" = "upgJMEPl";
+            "file" = "tacz_x_guns_lights_addon-2.8.3.jar";
+            "hash" = "sha512-mfd0+1+j2LKPoCBWMja88ntPe4tl8BpRbzRmX5k8skT7CV3wzzuGMLGQxwjbGJgUvZShaexBvpqU008AhmPcEg==";
+        };
     in {
         "B2QALR3C" = _B2QALR3C;
         "QYYBqmP7" = _QYYBqmP7;
@@ -44,12 +74,42 @@ let
         "o3YvbzZC" = _o3YvbzZC;
         "a2NuRmXe" = _a2NuRmXe;
         "BH8IjFyh" = _BH8IjFyh;
-        "forge-1.20.1" = _BH8IjFyh;
-        "forge-1.20.2" = _BH8IjFyh;
-        "forge-1.20.3" = _BH8IjFyh;
-        "forge-1.20.4" = _BH8IjFyh;
-        "forge-1.20.5" = _BH8IjFyh;
-        "forge-1.20.6" = _BH8IjFyh;
+        "V4BcwSCU" = _V4BcwSCU;
+        "zt4YEWcP" = _zt4YEWcP;
+        "ffE4Lryy" = _ffE4Lryy;
+        "VJUTrr8u" = _VJUTrr8u;
+        "2cS9a2hE" = _2cS9a2hE;
+        "upgJMEPl" = _upgJMEPl;
+        "forge-1.20.1" = _ffE4Lryy;
+        "forge-1.20.2" = _ffE4Lryy;
+        "forge-1.20.3" = _ffE4Lryy;
+        "forge-1.20.4" = _ffE4Lryy;
+        "forge-1.20.5" = _ffE4Lryy;
+        "forge-1.20.6" = _ffE4Lryy;
+        "forge-1.21.1" = _VJUTrr8u;
+        "forge-1.21.2" = _VJUTrr8u;
+        "forge-1.21.3" = _VJUTrr8u;
+        "forge-1.21.4" = _VJUTrr8u;
+        "forge-1.21.5" = _VJUTrr8u;
+        "forge-1.21.6" = _VJUTrr8u;
+        "forge-1.21.7" = _VJUTrr8u;
+        "forge-1.21.8" = _VJUTrr8u;
+        "forge-1.21.9" = _VJUTrr8u;
+        "forge-1.21.10" = _VJUTrr8u;
+        "forge-1.21.11" = _VJUTrr8u;
+        "neoforge-1.21.1" = _VJUTrr8u;
+        "neoforge-1.21.2" = _VJUTrr8u;
+        "neoforge-1.21.3" = _VJUTrr8u;
+        "neoforge-1.21.4" = _VJUTrr8u;
+        "neoforge-1.21.5" = _VJUTrr8u;
+        "neoforge-1.21.6" = _VJUTrr8u;
+        "neoforge-1.21.7" = _VJUTrr8u;
+        "neoforge-1.21.8" = _VJUTrr8u;
+        "neoforge-1.21.9" = _VJUTrr8u;
+        "neoforge-1.21.10" = _VJUTrr8u;
+        "neoforge-1.21.11" = _VJUTrr8u;
+        "fabric-1.21.1" = _2cS9a2hE;
+        "fabric-1.20.1" = _upgJMEPl;
         "pkg-1.0.2" = _B2QALR3C;
         "pkg-1.0.3" = _QYYBqmP7;
         "pkg-1.0.4" = _CYcuJmsI;
@@ -57,7 +117,10 @@ let
         "pkg-2.0.8" = _o3YvbzZC;
         "pkg-2.0.9" = _a2NuRmXe;
         "pkg-2.4.3" = _BH8IjFyh;
-        "default" = _BH8IjFyh;
+        "pkg-2.5.0" = _V4BcwSCU;
+        "pkg-2.6.0" = _zt4YEWcP;
+        "pkg-2.8.2" = _upgJMEPl;
+        "default" = _upgJMEPl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz-x-guns-lights-addon";

@@ -461,6 +461,11 @@ let
             "file" = "Contagion-2.1.2-Fabric-mc26.2.jar";
             "hash" = "sha512-0SF/SSHf7tO/9bYLV/CoNiZj+r0gFeQM7zQtR2ADV+oDxzBz+zORAdUkiTXWujS8LcMd/OTE0aoH1JX6c74Zug==";
         };
+        _uG8MEjg2 = {
+            "id" = "uG8MEjg2";
+            "file" = "Contagion-2.2.0-Forge-mc1.20.1.jar";
+            "hash" = "sha512-5qpoTOdPvYFn1m2yCh6v0dIob9aPv1j2qloQM4lr1TKZLE0zviQQXZPAS7JrazS3idgBpUkDXLUiw92IQFzqtw==";
+        };
     in {
         "9pbDOkKe" = _9pbDOkKe;
         "UhvEyfSk" = _UhvEyfSk;
@@ -554,6 +559,7 @@ let
         "jnH2yN9z" = _jnH2yN9z;
         "wOfJFFGH" = _wOfJFFGH;
         "S7KVLOGn" = _S7KVLOGn;
+        "uG8MEjg2" = _uG8MEjg2;
         "fabric-1.20.4" = _GyWrPsNE;
         "fabric-1.20.1" = _jnH2yN9z;
         "fabric-1.20.2" = _GyWrPsNE;
@@ -590,7 +596,7 @@ let
         "neoforge-26.1.1" = _dHjXCKSq;
         "neoforge-26.1.2" = _7tDxP9A5;
         "neoforge-26.2" = _xqQr0gg8;
-        "forge-1.20.1" = _cp65LcOS;
+        "forge-1.20.1" = _uG8MEjg2;
         "forge-1.19.2" = _JvzjkZdb;
         "pkg-0.9-1.20.4" = _9pbDOkKe;
         "pkg-0.9.2-1.20.1" = _UhvEyfSk;
@@ -684,7 +690,8 @@ let
         "pkg-2.1.2-Fabric-mc1.20" = _jnH2yN9z;
         "pkg-2.1.2-Fabric-mc26.1" = _wOfJFFGH;
         "pkg-2.1.2-Fabric-mc26.2" = _S7KVLOGn;
-        "default" = _S7KVLOGn;
+        "pkg-2.2.0-Forge-mc1.20.1" = _uG8MEjg2;
+        "default" = _uG8MEjg2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "contagion";

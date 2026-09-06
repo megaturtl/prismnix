@@ -143,11 +143,6 @@ let
         "paper-26.1" = _e2P3vxr3;
         "paper-26.1.1" = _e2P3vxr3;
         "paper-26.1.2" = _e2P3vxr3;
-        "paper-1.2.1" = _e2P3vxr3;
-        "paper-1.2.2" = _e2P3vxr3;
-        "paper-1.2.3" = _e2P3vxr3;
-        "paper-1.2.4" = _e2P3vxr3;
-        "paper-1.2.5" = _e2P3vxr3;
         "paper-26.2" = _e2P3vxr3;
         "purpur-1.20.1" = _e2P3vxr3;
         "purpur-1.20.2" = _e2P3vxr3;
@@ -170,11 +165,6 @@ let
         "purpur-26.1" = _e2P3vxr3;
         "purpur-26.1.1" = _e2P3vxr3;
         "purpur-26.1.2" = _e2P3vxr3;
-        "purpur-1.2.1" = _e2P3vxr3;
-        "purpur-1.2.2" = _e2P3vxr3;
-        "purpur-1.2.3" = _e2P3vxr3;
-        "purpur-1.2.4" = _e2P3vxr3;
-        "purpur-1.2.5" = _e2P3vxr3;
         "purpur-26.2" = _e2P3vxr3;
         "spigot-1.20.1" = _e2P3vxr3;
         "spigot-1.20.2" = _e2P3vxr3;
@@ -197,11 +187,6 @@ let
         "spigot-26.1" = _e2P3vxr3;
         "spigot-26.1.1" = _e2P3vxr3;
         "spigot-26.1.2" = _e2P3vxr3;
-        "spigot-1.2.1" = _e2P3vxr3;
-        "spigot-1.2.2" = _e2P3vxr3;
-        "spigot-1.2.3" = _e2P3vxr3;
-        "spigot-1.2.4" = _e2P3vxr3;
-        "spigot-1.2.5" = _e2P3vxr3;
         "spigot-26.2" = _e2P3vxr3;
         "pkg-0.8-alpha" = _EECNooUe;
         "pkg-0.9-alpha" = _CkYJrjox;

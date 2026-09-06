@@ -671,6 +671,26 @@ let
             "file" = "enchantments-encore-4.6.jar";
             "hash" = "sha512-L7LF6NdFiOIlqHlv8zXvouFtZxJzFCULlJf5+SXGuRKTTWhGREjfWmrFjHmAWuuhYxzowi5kWkG+FBzAbzdNMA==";
         };
+        _ua9QNDDJ = {
+            "id" = "ua9QNDDJ";
+            "file" = "enchantments_encore_4.7.zip";
+            "hash" = "sha512-4slTGFUYaXtxAPeuUjjsXpBZW1h0jOIifw8hc0TpWqYFoVuZAZOy1hTHy7gXX1RwZLTHrVI83+Xoy4qLYd5Ecw==";
+        };
+        _7rTzIiV6 = {
+            "id" = "7rTzIiV6";
+            "file" = "enchantments-encore-4.7.jar";
+            "hash" = "sha512-BU/mZtpTXa4/QrxtMrBqnNXKBdAsHFZDaUxsRJCfmTZwt2rzrY4vezUmdcXDFyPOYqmjpP0YBx0YbFRIB+UedA==";
+        };
+        _QhiNmOC0 = {
+            "id" = "QhiNmOC0";
+            "file" = "enchantments_encore_4.8.zip";
+            "hash" = "sha512-AmmMTXsNhDjizXMKdxL18/ufxRtrXWn1Hmi+XOprOf6ZgeBEdB27v/0hr0kGKBoG0rBl+AZjj5CYirXqDGD4DQ==";
+        };
+        _GkPjR4xw = {
+            "id" = "GkPjR4xw";
+            "file" = "enchantments-encore-4.8.jar";
+            "hash" = "sha512-JfTy3FG8hUrQiEfQKKXvbzncZbXN3iR4swiXGiYzDhV+Z/hcIVNfzQRFegcO4qq56apNPZEeaFf8reIuaTgG1w==";
+        };
     in {
         "79LHaYOM" = _79LHaYOM;
         "yMfwaoWW" = _yMfwaoWW;
@@ -806,6 +826,10 @@ let
         "E6qdTmPJ" = _E6qdTmPJ;
         "qTa8oefJ" = _qTa8oefJ;
         "sD93W1qE" = _sD93W1qE;
+        "ua9QNDDJ" = _ua9QNDDJ;
+        "7rTzIiV6" = _7rTzIiV6;
+        "QhiNmOC0" = _QhiNmOC0;
+        "GkPjR4xw" = _GkPjR4xw;
         "datapack-24w21b" = _nDWrOAnU;
         "datapack-1.21-pre2" = _FZiBeZKu;
         "datapack-1.21-pre3" = _IgXOmo7L;
@@ -825,7 +849,7 @@ let
         "datapack-26.1" = _iCtTXHhf;
         "datapack-26.1.1" = _iCtTXHhf;
         "datapack-26.1.2" = _iCtTXHhf;
-        "datapack-26.2" = _qTa8oefJ;
+        "datapack-26.2" = _QhiNmOC0;
         "fabric-24w21b" = _KG7Ea9WL;
         "fabric-1.21-pre2" = _IjEwA6WI;
         "fabric-1.21-pre3" = _AZ7kdnix;
@@ -845,7 +869,7 @@ let
         "fabric-26.1" = _IgbY99sm;
         "fabric-26.1.1" = _IgbY99sm;
         "fabric-26.1.2" = _IgbY99sm;
-        "fabric-26.2" = _sD93W1qE;
+        "fabric-26.2" = _GkPjR4xw;
         "forge-24w21b" = _KG7Ea9WL;
         "forge-1.21-pre2" = _IjEwA6WI;
         "forge-1.21-pre3" = _AZ7kdnix;
@@ -865,7 +889,7 @@ let
         "forge-26.1" = _IgbY99sm;
         "forge-26.1.1" = _IgbY99sm;
         "forge-26.1.2" = _IgbY99sm;
-        "forge-26.2" = _sD93W1qE;
+        "forge-26.2" = _GkPjR4xw;
         "quilt-24w21b" = _KG7Ea9WL;
         "quilt-1.21-pre2" = _IjEwA6WI;
         "quilt-1.21-pre3" = _AZ7kdnix;
@@ -885,7 +909,7 @@ let
         "quilt-26.1" = _IgbY99sm;
         "quilt-26.1.1" = _IgbY99sm;
         "quilt-26.1.2" = _IgbY99sm;
-        "quilt-26.2" = _sD93W1qE;
+        "quilt-26.2" = _GkPjR4xw;
         "neoforge-1.21" = _G0Ilv4nD;
         "neoforge-1.21.1" = _G0Ilv4nD;
         "neoforge-1.21.2" = _F4v6elMW;
@@ -901,7 +925,7 @@ let
         "neoforge-26.1" = _IgbY99sm;
         "neoforge-26.1.1" = _IgbY99sm;
         "neoforge-26.1.2" = _IgbY99sm;
-        "neoforge-26.2" = _sD93W1qE;
+        "neoforge-26.2" = _GkPjR4xw;
         "pkg-0.1b" = _79LHaYOM;
         "pkg-0.1b+mod" = _yMfwaoWW;
         "pkg-B2" = _nDWrOAnU;
@@ -1034,7 +1058,11 @@ let
         "pkg-4.5-mod" = _E6qdTmPJ;
         "pkg-4.6" = _qTa8oefJ;
         "pkg-4.6-mod" = _sD93W1qE;
-        "default" = _sD93W1qE;
+        "pkg-4.7" = _ua9QNDDJ;
+        "pkg-4.7-mod" = _7rTzIiV6;
+        "pkg-4.8" = _QhiNmOC0;
+        "pkg-4.8-mod" = _GkPjR4xw;
+        "default" = _GkPjR4xw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantments-encore";

@@ -91,6 +91,36 @@ let
             "file" = "Rescale-1.1.0-1.21.4-fabric.jar";
             "hash" = "sha512-3dakUrA3GGKP4hBf4UyosjomM7WbORU4PE1TklqDgdPL0wMZ11SgoYNxCtBJd0Cll6kmL4jEgKL7YwOl5f1jig==";
         };
+        _FYZ0TJyE = {
+            "id" = "FYZ0TJyE";
+            "file" = "Rescale-1.1.0-26.2-neoforge.jar";
+            "hash" = "sha512-EceM6EqgXnY1/Yzi/BGmTbBIG15IL55elgZ7KHoVZ3rtfMkW6NhI4ti9QMfg0nx8TfXAOjmIIEWCsfhVbSqlKg==";
+        };
+        _a5aeUXxg = {
+            "id" = "a5aeUXxg";
+            "file" = "Rescale-1.1.0-1.21.1-neoforge.jar";
+            "hash" = "sha512-Gm2hRArRvHMAekvFlyHXK2fAZTTlJvaIyoHhg7eXJZjv9opEIseeAfUMJwKHV0suVaHVyLflf2lILMVKZeM/Cw==";
+        };
+        _mFlidnlX = {
+            "id" = "mFlidnlX";
+            "file" = "Rescale-1.1.0-1.21.2-neoforge.jar";
+            "hash" = "sha512-wdTSEdKvUCsMJZCm9Aakcpl90BLSQJrvQ2O6ShOkVk6bGiyv7SPzrZNPuBTNYnWmBva69fRcTu1lEdBQAUY/Rw==";
+        };
+        _ljVhZwa1 = {
+            "id" = "ljVhZwa1";
+            "file" = "Rescale-1.1.0-1.21.5-neoforge.jar";
+            "hash" = "sha512-XT6yhl9EHnFEQZGXME1SvlzB0ECpKB3xglYzFJAFu+THiescTuffGhEaFtdnkF473K3mn6SFU5dm+fPdBzZ9IA==";
+        };
+        _akKSVKTC = {
+            "id" = "akKSVKTC";
+            "file" = "Rescale-1.1.0-26.1-neoforge.jar";
+            "hash" = "sha512-EX9mOoydNkZ4Zh2GQ1SGsl4TajeLn5h0Hi81pmmVkmkT6q6r7Qz95O3oiXIeFk3KLaRsc4Yk2+JLaj4ARhbfMg==";
+        };
+        _xz3FPfFK = {
+            "id" = "xz3FPfFK";
+            "file" = "Rescale-1.1.0-1.21.10-neoforge.jar";
+            "hash" = "sha512-qvEraKBnyRY+jpNIfczwrCxm9vCvHHgQM+W3/GO1E5KjlAh3CyB4pHRdO7sUliuMs0s/+DPvxS629sOdaO39jw==";
+        };
     in {
         "994YbbZS" = _994YbbZS;
         "W6gsp1CT" = _W6gsp1CT;
@@ -110,6 +140,12 @@ let
         "2fc7LFm9" = _2fc7LFm9;
         "EolzcWs6" = _EolzcWs6;
         "cEq8mHSE" = _cEq8mHSE;
+        "FYZ0TJyE" = _FYZ0TJyE;
+        "a5aeUXxg" = _a5aeUXxg;
+        "mFlidnlX" = _mFlidnlX;
+        "ljVhZwa1" = _ljVhZwa1;
+        "akKSVKTC" = _akKSVKTC;
+        "xz3FPfFK" = _xz3FPfFK;
         "fabric-1.20.1" = _1Nt10iWK;
         "fabric-1.21" = _QdvEE8Gi;
         "fabric-1.21.1" = _QdvEE8Gi;
@@ -131,12 +167,27 @@ let
         "quilt-1.21.7" = _mAh0YjY0;
         "quilt-1.21.8" = _mAh0YjY0;
         "forge-1.20.1" = _OqeDrmvN;
-        "neoforge-1.21.1" = _Yshtc2b0;
+        "neoforge-1.21.1" = _a5aeUXxg;
+        "neoforge-26.2" = _FYZ0TJyE;
+        "neoforge-1.21" = _a5aeUXxg;
+        "neoforge-1.21.2" = _mFlidnlX;
+        "neoforge-1.21.3" = _mFlidnlX;
+        "neoforge-1.21.4" = _mFlidnlX;
+        "neoforge-1.21.5" = _ljVhZwa1;
+        "neoforge-1.21.6" = _ljVhZwa1;
+        "neoforge-1.21.7" = _ljVhZwa1;
+        "neoforge-1.21.8" = _ljVhZwa1;
+        "neoforge-26.1" = _akKSVKTC;
+        "neoforge-26.1.1" = _akKSVKTC;
+        "neoforge-26.1.2" = _akKSVKTC;
+        "neoforge-1.21.9" = _xz3FPfFK;
+        "neoforge-1.21.10" = _xz3FPfFK;
+        "neoforge-1.21.11" = _xz3FPfFK;
         "pkg-1.0.0" = _W6gsp1CT;
         "pkg-1.0.1" = _2pOIOMLF;
         "pkg-1.0.2" = _Yshtc2b0;
-        "pkg-1.1.0" = _cEq8mHSE;
-        "default" = _cEq8mHSE;
+        "pkg-1.1.0" = _xz3FPfFK;
+        "default" = _xz3FPfFK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rescale";

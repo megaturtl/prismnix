@@ -41,6 +41,16 @@ let
             "file" = "hideinvismsgs-26.1-1.3.jar";
             "hash" = "sha512-y8XI+b2wSHwEKDQjg3YiCp+iVpl6eaPEwYiTj3NYIa6avlRQRyZ0JuB24cPNkwBZfOk5yU+mFB+1GnwhbAVYpA==";
         };
+        _zKprCxNP = {
+            "id" = "zKprCxNP";
+            "file" = "hideinvismsgs-1.21.11-1.4.jar";
+            "hash" = "sha512-tZ9hYuOJ2vwIMuk5rZgih9epctRWv7Z5kNvNmMm5ifLYvMEmjqsrpiQPVKK19WRB0iJikZnxu0EnwAQ/7o6iLA==";
+        };
+        _pOE7WQ6g = {
+            "id" = "pOE7WQ6g";
+            "file" = "hideinvismsgs-26.2-1.4.jar";
+            "hash" = "sha512-6HOujs1srxryBDgLQdzoafTCVEpl5dWlaR60dWqcpNFMPcaxG6JJ8Bkpm3JchFrSPDEla5ELYaKYS7vIiINu/Q==";
+        };
     in {
         "bxPu5P2e" = _bxPu5P2e;
         "t2fMQNrr" = _t2fMQNrr;
@@ -50,7 +60,9 @@ let
         "NxQsPuQn" = _NxQsPuQn;
         "qWxzpGOb" = _qWxzpGOb;
         "gbKhzR8m" = _gbKhzR8m;
-        "fabric-1.21.11" = _qWxzpGOb;
+        "zKprCxNP" = _zKprCxNP;
+        "pOE7WQ6g" = _pOE7WQ6g;
+        "fabric-1.21.11" = _zKprCxNP;
         "fabric-1.20" = _t2fMQNrr;
         "fabric-1.20.1" = _t2fMQNrr;
         "fabric-1.20.2" = _t2fMQNrr;
@@ -69,10 +81,10 @@ let
         "fabric-1.21.8" = _t2fMQNrr;
         "fabric-1.21.9" = _t2fMQNrr;
         "fabric-1.21.10" = _t2fMQNrr;
-        "fabric-26.1" = _gbKhzR8m;
-        "fabric-26.1.1" = _gbKhzR8m;
-        "fabric-26.1.2" = _gbKhzR8m;
-        "fabric-26.2" = _gbKhzR8m;
+        "fabric-26.1" = _pOE7WQ6g;
+        "fabric-26.1.1" = _pOE7WQ6g;
+        "fabric-26.1.2" = _pOE7WQ6g;
+        "fabric-26.2" = _pOE7WQ6g;
         "quilt-1.21.11" = _NxQsPuQn;
         "quilt-1.20" = _t2fMQNrr;
         "quilt-1.20.1" = _t2fMQNrr;
@@ -104,7 +116,9 @@ let
         "pkg-1.21.11+1.2" = _NxQsPuQn;
         "pkg-1.21.11+1.3" = _qWxzpGOb;
         "pkg-26.1+1.3" = _gbKhzR8m;
-        "default" = _gbKhzR8m;
+        "pkg-1.4+1.21.11" = _zKprCxNP;
+        "pkg-1.4+26.2" = _pOE7WQ6g;
+        "default" = _pOE7WQ6g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hide-invis-msgs";

@@ -226,6 +226,16 @@ let
             "file" = "AdvancedReborn-1.20.1-1.3.0.jar";
             "hash" = "sha512-GR84EBRu7inNGKNPEd70eVCxS3aGy7Cv3/QnMpIIjdp4J8eiE2KjvjBa/M6J8OTbcI6iV7Ou1TotBunbfWeZMw==";
         };
+        _frFWDcTf = {
+            "id" = "frFWDcTf";
+            "file" = "AdvancedReborn-26.2-1.4.1.jar";
+            "hash" = "sha512-0ANM0y/H+L6/o7r9kwjUhshyQsbecOnBYidY4juTO+uLlbIpdpFU2BPqZW/113k4h3yMEouARxSzgvt5AxGqMg==";
+        };
+        _pSLFVmGk = {
+            "id" = "pSLFVmGk";
+            "file" = "AdvancedReborn-26.1-1.4.1.jar";
+            "hash" = "sha512-0x7sVh2p2E0N5zrP9u2fKiMRPAp8JMHwkNrsgaSUq2URjprHtqdBU3k1DcF3nIE7KjLpDKNBZ6dfBW+H1eJ5Fw==";
+        };
     in {
         "dBYydUAQ" = _dBYydUAQ;
         "7lynQvyk" = _7lynQvyk;
@@ -272,6 +282,8 @@ let
         "8xEcPxmV" = _8xEcPxmV;
         "pdF6TSFK" = _pdF6TSFK;
         "IjRY2zqj" = _IjRY2zqj;
+        "frFWDcTf" = _frFWDcTf;
+        "pSLFVmGk" = _pSLFVmGk;
         "fabric-1.18.2" = _UTeGbFUZ;
         "fabric-1.19" = _7lynQvyk;
         "fabric-1.19.1" = _7lynQvyk;
@@ -291,9 +303,10 @@ let
         "fabric-1.21.7" = _xR8HsK26;
         "fabric-1.21.8" = _xR8HsK26;
         "fabric-1.21.10" = _8xEcPxmV;
-        "fabric-26.1" = _pdF6TSFK;
-        "fabric-26.1.1" = _pdF6TSFK;
-        "fabric-26.1.2" = _pdF6TSFK;
+        "fabric-26.1" = _pSLFVmGk;
+        "fabric-26.1.1" = _pSLFVmGk;
+        "fabric-26.1.2" = _pSLFVmGk;
+        "fabric-26.2" = _frFWDcTf;
         "pkg-1.18.2-1.1.2" = _dBYydUAQ;
         "pkg-1.19-1.1.2" = _7lynQvyk;
         "pkg-1.1.7-fabric" = _a2bUKvWB;
@@ -331,7 +344,8 @@ let
         "pkg-1.3.8-fabric" = _8xEcPxmV;
         "pkg-1.4.0-fabric" = _pdF6TSFK;
         "pkg-1.20.1-1.3.0-fabric" = _IjRY2zqj;
-        "default" = _IjRY2zqj;
+        "pkg-1.4.1" = _pSLFVmGk;
+        "default" = _pSLFVmGk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "advanced-reborn";

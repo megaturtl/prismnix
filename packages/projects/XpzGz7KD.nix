@@ -2131,6 +2131,46 @@ let
             "file" = "elytratrims-fabric-4.8.3+26.2.jar";
             "hash" = "sha512-gSwJFUwbONPO3ZPCXYvZ27V+VNVTCJ1PjuahnXDeF4u1QdsJdVMnvYVPiH7aps6CdZ1Gxxe1Y2aGIF2fziD7cA==";
         };
+        _pqxhb9D4 = {
+            "id" = "pqxhb9D4";
+            "file" = "elytratrims-fabric-4.9.0-beta.4+26.3-snapshot-7.jar";
+            "hash" = "sha512-NJaKLhE69AZ3vJFZRC4VcWJg1cW3wZ2KSQ9HxHxIVkIgeLcn5gOyqJO1PoRhXoKlHfa34NQm6mtirQ8IrBDnJA==";
+        };
+        _tc75p5Sf = {
+            "id" = "tc75p5Sf";
+            "file" = "elytratrims-neoforge-4.9.0-beta.5+26.1.2.jar";
+            "hash" = "sha512-kuRTzf85U/SRU7aD2fNjDCATUZ/+kFkhIvSQXgIvFkxkvDtLIQE+W1/zLqd4rQZgX+e0ACbHSF9eMkYJmDy7qQ==";
+        };
+        _s51tXs9F = {
+            "id" = "s51tXs9F";
+            "file" = "elytratrims-neoforge-4.9.0-beta.5+26.2.jar";
+            "hash" = "sha512-Uq2Rt+wnG+OJcfvP2PmSmrV+O3+/nxbNBQAWHW/Go7wVHV8alSmiOYfBBYSYsppGvQ/8qIkEg3pHieHD0X4lxA==";
+        };
+        _7TDdaNA9 = {
+            "id" = "7TDdaNA9";
+            "file" = "elytratrims-neoforge-4.9.0-beta.6+26.1.2.jar";
+            "hash" = "sha512-DVmZ82tv8WTdGMBnAm0v3PGfKz6Gc+sGRh3hRAPk2S3vJrq/OPla7wIo9ugqZP9tblY/yUNfAPFLqgK7vRvwNQ==";
+        };
+        _Q3zhDzV4 = {
+            "id" = "Q3zhDzV4";
+            "file" = "elytratrims-fabric-4.9.0-beta.6+26.1.2.jar";
+            "hash" = "sha512-P/wk3dvtt0NlRgfegHuFThuXZiCEa7xY0OSyMQwBtILGPP7Bo9plNa5ZCR9fH0zkcKePkpQW88CETldcj2VGVw==";
+        };
+        _Q8ntxqqX = {
+            "id" = "Q8ntxqqX";
+            "file" = "elytratrims-neoforge-4.9.0-beta.6+26.2.jar";
+            "hash" = "sha512-aHLhmncEcF8oLeWeUJcQDzbFkmjJPa4S/VoHeIP564tOqOr7F4ehnarKgJboWZrotTjYsidHJd8vsq88b3Zx2Q==";
+        };
+        _X4BX7O9a = {
+            "id" = "X4BX7O9a";
+            "file" = "elytratrims-fabric-4.9.0-beta.6+26.2.jar";
+            "hash" = "sha512-Pgxqk9cnKXvdVPxRb0Ku+LGrZG0H0MtT162mgVhDURApGTHYT5EecHqore1ejUhQrsgGuVomPnxZCMwauMap3w==";
+        };
+        _SLm95J8w = {
+            "id" = "SLm95J8w";
+            "file" = "elytratrims-fabric-4.9.0-beta.6+26.3-snapshot-10.jar";
+            "hash" = "sha512-K2Uj3vteH8zpRTWmv2+roXolprFxWcuT8gortTbkjWL6MJiTNBCvVyaADZwJ6i+RSKTBLFbSy2F8zrqfdQGPUg==";
+        };
     in {
         "7va3yOBQ" = _7va3yOBQ;
         "9TQnMw0W" = _9TQnMw0W;
@@ -2558,6 +2598,14 @@ let
         "BCSN7264" = _BCSN7264;
         "ciTtZ2rr" = _ciTtZ2rr;
         "xe4XXryG" = _xe4XXryG;
+        "pqxhb9D4" = _pqxhb9D4;
+        "tc75p5Sf" = _tc75p5Sf;
+        "s51tXs9F" = _s51tXs9F;
+        "7TDdaNA9" = _7TDdaNA9;
+        "Q3zhDzV4" = _Q3zhDzV4;
+        "Q8ntxqqX" = _Q8ntxqqX;
+        "X4BX7O9a" = _X4BX7O9a;
+        "SLm95J8w" = _SLm95J8w;
         "fabric-1.19.4" = _dUDEzKit;
         "fabric-23w12a" = _9TQnMw0W;
         "fabric-23w13a" = _9TQnMw0W;
@@ -2587,17 +2635,21 @@ let
         "fabric-1.21.9" = _GuYLHDtX;
         "fabric-1.21.10" = _GuYLHDtX;
         "fabric-1.21.11" = _Nzd1iQCn;
-        "fabric-26.1" = _BCSN7264;
-        "fabric-26.1.1" = _BCSN7264;
-        "fabric-26.1.2" = _BCSN7264;
+        "fabric-26.1" = _Q3zhDzV4;
+        "fabric-26.1.1" = _Q3zhDzV4;
+        "fabric-26.1.2" = _Q3zhDzV4;
         "fabric-26.2-pre-2" = _zfXuuaop;
         "fabric-26.2-pre-3" = _zfXuuaop;
         "fabric-26.2-pre-4" = _zfXuuaop;
-        "fabric-26.2" = _xe4XXryG;
+        "fabric-26.2" = _X4BX7O9a;
         "fabric-26.3-snapshot-3" = _Nr402HuQ;
         "fabric-26.3-snapshot-4" = _Nr402HuQ;
-        "fabric-26.3-snapshot-5" = _ckfj5opr;
-        "fabric-26.3-snapshot-6" = _ckfj5opr;
+        "fabric-26.3-snapshot-5" = _SLm95J8w;
+        "fabric-26.3-snapshot-6" = _SLm95J8w;
+        "fabric-26.3-snapshot-7" = _SLm95J8w;
+        "fabric-26.3-snapshot-8" = _SLm95J8w;
+        "fabric-26.3-snapshot-9" = _SLm95J8w;
+        "fabric-26.3-snapshot-10" = _SLm95J8w;
         "quilt-1.19.4" = _NHXd6aZk;
         "quilt-23w12a" = _9TQnMw0W;
         "quilt-23w13a" = _9TQnMw0W;
@@ -2632,8 +2684,8 @@ let
         "neoforge-1.21.11" = _u2w6bgX3;
         "neoforge-26.1" = _wgUBgHvL;
         "neoforge-26.1.1" = _wgUBgHvL;
-        "neoforge-26.1.2" = _Hna3jZfU;
-        "neoforge-26.2" = _ciTtZ2rr;
+        "neoforge-26.1.2" = _7TDdaNA9;
+        "neoforge-26.2" = _Q8ntxqqX;
         "pkg-1.0.0+1.19.4" = _7va3yOBQ;
         "pkg-1.0.0+1.20" = _9TQnMw0W;
         "pkg-1.1.0+1.19.4" = _JtH7CecY;
@@ -2765,7 +2817,10 @@ let
         "pkg-4.9.0-beta.2" = _iNxADtAe;
         "pkg-4.9.0-beta.3" = _ckfj5opr;
         "pkg-4.8.3" = _xe4XXryG;
-        "default" = _xe4XXryG;
+        "pkg-4.9.0-beta.4" = _pqxhb9D4;
+        "pkg-4.9.0-beta.5" = _s51tXs9F;
+        "pkg-4.9.0-beta.6" = _SLm95J8w;
+        "default" = _SLm95J8w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytra-trims";

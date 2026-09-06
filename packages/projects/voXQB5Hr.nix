@@ -501,6 +501,16 @@ let
             "file" = "ponderer-1.21.1-fabric-1.10.6.jar";
             "hash" = "sha512-6/wM/cJxDs23RcDQIPkHnKMwUjW0kIi3+n2vh+a1nKjofxggW79vTOdCVpwckIO0l0IMmjlHCH77AM/rzzwK0w==";
         };
+        _YzFWxoks = {
+            "id" = "YzFWxoks";
+            "file" = "ponderer-1.21.1-neoforge-1.10.6.1.jar";
+            "hash" = "sha512-sX01MT22O1HTtalq2bDE5BglBzULoxirOJbgfHqkjfaSj0AVdsMAaJKDxLJE9Sr+j9OV6ZGnV8JpAL5v+tyJ+w==";
+        };
+        _dSOboAPT = {
+            "id" = "dSOboAPT";
+            "file" = "ponderer-1.21.1-fabric-1.10.6.1.jar";
+            "hash" = "sha512-TYcRONUtF6ZXiuQvfXfz/wDUkztou3t65+Yk0gRY3byDcbdvBLQpJxLR4nfoSmNVBCC5ilGc0CKDnSURNkKYkw==";
+        };
     in {
         "F87iKeTi" = _F87iKeTi;
         "KwGlLjL7" = _KwGlLjL7;
@@ -602,10 +612,12 @@ let
         "QVaBfSka" = _QVaBfSka;
         "3h21Iogk" = _3h21Iogk;
         "u3zLYieD" = _u3zLYieD;
-        "neoforge-1.21.1" = _3h21Iogk;
+        "YzFWxoks" = _YzFWxoks;
+        "dSOboAPT" = _dSOboAPT;
+        "neoforge-1.21.1" = _YzFWxoks;
         "forge-1.20.1" = _QsniMZUW;
         "fabric-1.20.1" = _V9lw7bSS;
-        "fabric-1.21.1" = _u3zLYieD;
+        "fabric-1.21.1" = _dSOboAPT;
         "minecraft-1.20.1" = _eAnONipp;
         "minecraft-1.21.1" = _eAnONipp;
         "pkg-1.0.0" = _eAnONipp;
@@ -647,7 +659,8 @@ let
         "pkg-1.10.3" = _vta33l4J;
         "pkg-1.10.4" = _QVaBfSka;
         "pkg-1.10.6" = _u3zLYieD;
-        "default" = _u3zLYieD;
+        "pkg-1.10.6.1" = _dSOboAPT;
+        "default" = _dSOboAPT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-ponderer";

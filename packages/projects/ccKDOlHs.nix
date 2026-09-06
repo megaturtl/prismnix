@@ -556,6 +556,16 @@ let
             "file" = "owo-lib-0.13.0-alpha.15+1.21.jar";
             "hash" = "sha512-k5KZ5yIJ+OWkk3+7IpDtY/e8XK8md+bZ++qL6ASdWtOcEXPwthq658/dz3zOuYAvfi1gueig/do5n8utjwrFtA==";
         };
+        _HmigD8GL = {
+            "id" = "HmigD8GL";
+            "file" = "owo-lib-0.13.1+26.1.jar";
+            "hash" = "sha512-LpX3uHsER3wRT2oN2MrUmxQVvRcVq9U1KUYTvojos3lvX9C2FLWOIYjiCV1vDjF50MxKBnk4ACZiL7f8BUF7dA==";
+        };
+        _1h9g10ru = {
+            "id" = "1h9g10ru";
+            "file" = "owo-lib-0.13.1+26.2.jar";
+            "hash" = "sha512-1zkxKfqdjELCRLlvpmvbu80jln/G05OmifvxsO4R9topfC3c3jw+R20tB7c7YArT1oxzl4bHKaTcE6A+cqwPgg==";
+        };
     in {
         "HyvkCi1L" = _HyvkCi1L;
         "4NeTD3y0" = _4NeTD3y0;
@@ -668,6 +678,8 @@ let
         "33Ei8Thm" = _33Ei8Thm;
         "QmA84JcU" = _QmA84JcU;
         "m3XmDd8j" = _m3XmDd8j;
+        "HmigD8GL" = _HmigD8GL;
+        "1h9g10ru" = _1h9g10ru;
         "fabric-1.17" = _flVS3RS0;
         "fabric-1.17.1" = _flVS3RS0;
         "fabric-21w43a" = _LmWOyXVW;
@@ -699,9 +711,10 @@ let
         "fabric-1.21.9" = _dZPuIa4j;
         "fabric-1.21.10" = _dZPuIa4j;
         "fabric-1.21.11" = _33Ei8Thm;
-        "fabric-26.1" = _QmA84JcU;
-        "fabric-26.1.1" = _QmA84JcU;
-        "fabric-26.1.2" = _QmA84JcU;
+        "fabric-26.1" = _HmigD8GL;
+        "fabric-26.1.1" = _HmigD8GL;
+        "fabric-26.1.2" = _HmigD8GL;
+        "fabric-26.2" = _1h9g10ru;
         "quilt-1.19" = _yGLYmVnT;
         "quilt-1.19.1" = _yGLYmVnT;
         "quilt-1.19.2" = _yGLYmVnT;
@@ -726,9 +739,10 @@ let
         "quilt-1.21.9" = _dZPuIa4j;
         "quilt-1.21.10" = _dZPuIa4j;
         "quilt-1.21.11" = _33Ei8Thm;
-        "quilt-26.1" = _QmA84JcU;
-        "quilt-26.1.1" = _QmA84JcU;
-        "quilt-26.1.2" = _QmA84JcU;
+        "quilt-26.1" = _HmigD8GL;
+        "quilt-26.1.1" = _HmigD8GL;
+        "quilt-26.1.2" = _HmigD8GL;
+        "quilt-26.2" = _1h9g10ru;
         "neoforge-1.21.1" = _NMCHU6DZ;
         "neoforge-1.21.3" = _tqu96AJU;
         "neoforge-1.21.4" = _p9vm8HDx;
@@ -845,7 +859,9 @@ let
         "pkg-0.13.0+1.21.11" = _33Ei8Thm;
         "pkg-0.13.0+26.1" = _QmA84JcU;
         "pkg-0.13.0-alpha.15+1.21" = _m3XmDd8j;
-        "default" = _m3XmDd8j;
+        "pkg-0.13.1+26.1" = _HmigD8GL;
+        "pkg-0.13.1+26.2" = _1h9g10ru;
+        "default" = _1h9g10ru;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "owo-lib";

@@ -1311,6 +1311,16 @@ let
             "file" = "cursors_extended-fabric-4.2.0-alpha.1+26.3.jar";
             "hash" = "sha512-GOF8nECxOn6/Ijba1zKyDP0DtELIhj31B/1uEMAFty4gFy9AqWjweU/ylj9nt4lfe6LZwvxx+S++Wn9I/RVC9w==";
         };
+        _R7JzMeg1 = {
+            "id" = "R7JzMeg1";
+            "file" = "cursors_extended-fabric-4.2.0-alpha.2+26.3.jar";
+            "hash" = "sha512-pOsFLy+4MaI+lYQ5svYgg+Z1Onk7tMUQwuroE+NDGhr9FPsEuOLonx69/yU+03/P5ocqqQR+7vpREyGnrq7mqg==";
+        };
+        _FppGE7pV = {
+            "id" = "FppGE7pV";
+            "file" = "cursors_extended-fabric-4.2.0-alpha.3+26.3.jar";
+            "hash" = "sha512-osF89gHa/vlNeQHguVM9b2pwgX5QXhEwuk49GKNMu71UIj1Y6JfFo1ibNtWJ0GhPFz7EPPr2IYZXpoSI3+mT8g==";
+        };
     in {
         "gTmyoA7q" = _gTmyoA7q;
         "qn0ZA9bw" = _qn0ZA9bw;
@@ -1574,6 +1584,8 @@ let
         "ghvqSaVz" = _ghvqSaVz;
         "QiulgNAP" = _QiulgNAP;
         "s6CGsktZ" = _s6CGsktZ;
+        "R7JzMeg1" = _R7JzMeg1;
+        "FppGE7pV" = _FppGE7pV;
         "fabric-1.21.4" = _V26RCLnT;
         "fabric-1.21" = _Vkzd4zW0;
         "fabric-1.21.1" = _F7TTv9rc;
@@ -1601,9 +1613,14 @@ let
         "fabric-26.2-rc-1" = _ghvqSaVz;
         "fabric-26.2-rc-2" = _ghvqSaVz;
         "fabric-26.2" = _ghvqSaVz;
-        "fabric-26.3-snapshot-4" = _s6CGsktZ;
-        "fabric-26.3-snapshot-5" = _s6CGsktZ;
-        "fabric-26.3-snapshot-6" = _s6CGsktZ;
+        "fabric-26.3-snapshot-4" = _FppGE7pV;
+        "fabric-26.3-snapshot-5" = _FppGE7pV;
+        "fabric-26.3-snapshot-6" = _FppGE7pV;
+        "fabric-26.3-snapshot-7" = _FppGE7pV;
+        "fabric-26.3-snapshot-8" = _FppGE7pV;
+        "fabric-26.3-snapshot-9" = _FppGE7pV;
+        "fabric-26.3-snapshot-10" = _FppGE7pV;
+        "fabric-26.3-pre-2" = _FppGE7pV;
         "neoforge-1.21.1" = _hOGb4sKV;
         "neoforge-1.21.2" = _ipvKh77d;
         "neoforge-1.21.3" = _ipvKh77d;
@@ -1810,7 +1827,9 @@ let
         "pkg-3.11.3+1.21.6" = _oSX2TVXC;
         "pkg-4.1.7+26.2" = _QiulgNAP;
         "pkg-4.2.0-alpha.1+26.3" = _s6CGsktZ;
-        "default" = _s6CGsktZ;
+        "pkg-4.2.0-alpha.2+26.3" = _R7JzMeg1;
+        "pkg-4.2.0-alpha.3+26.3" = _FppGE7pV;
+        "default" = _FppGE7pV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minecraft-cursor";

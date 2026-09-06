@@ -51,6 +51,11 @@ let
             "file" = "woodencog-1.2.18-1.21.1.jar";
             "hash" = "sha512-p+9bDnyzwQYiRahLlhXm1xmo3a/1Cnnl0D8sNavjExZZXhrocWrvSs6lKCt1ZcoDuKhi3sJxm6L5e9WiESKSIw==";
         };
+        _iX6qLxlr = {
+            "id" = "iX6qLxlr";
+            "file" = "woodencog-1.2.19-1.21.1.jar";
+            "hash" = "sha512-qFX6X+kJ9SC6CPk26TKssgEJ01PnOBwJMSqUdeGWIBHEJXi5IQf3/l8Br3sTCQGuZQ9bYMyqz0fyUljM+tSOJA==";
+        };
     in {
         "ASmHTq5r" = _ASmHTq5r;
         "t2U5vTRA" = _t2U5vTRA;
@@ -62,8 +67,9 @@ let
         "CVJJVEhf" = _CVJJVEhf;
         "yofIht9H" = _yofIht9H;
         "vKM6VU8Q" = _vKM6VU8Q;
+        "iX6qLxlr" = _iX6qLxlr;
         "forge-1.20.1" = _yofIht9H;
-        "neoforge-1.21.1" = _vKM6VU8Q;
+        "neoforge-1.21.1" = _iX6qLxlr;
         "pkg-1.0.4-1.20.1" = _ASmHTq5r;
         "pkg-1.2.9-1.20.1" = _t2U5vTRA;
         "pkg-1.2.10-1.20.1" = _LfzWNsMD;
@@ -74,7 +80,8 @@ let
         "pkg-1.2.15-1.20.1" = _CVJJVEhf;
         "pkg-1.2.16-1.20.1" = _yofIht9H;
         "pkg-1.2.18" = _vKM6VU8Q;
-        "default" = _vKM6VU8Q;
+        "pkg-1.2.19" = _iX6qLxlr;
+        "default" = _iX6qLxlr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "woodencog";

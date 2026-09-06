@@ -66,6 +66,11 @@ let
             "file" = "KingD3fault Fanpack 26x.zip";
             "hash" = "sha512-GNz6D1ZGNITHCh8QnpOAyMXi4xTTKIk1dOJrbR71qfFBL0AMP5NR8c1aK6m8GKMQRUVdOk3PWsuyRFlfALEOTw==";
         };
+        _oLEmcM0q = {
+            "id" = "oLEmcM0q";
+            "file" = "KingD3fault's 26.2.zip";
+            "hash" = "sha512-LViY37pL0cbaSumqEN0Fak2odSfHYVsh7OuJQOP1ehd6AyrayIKMMT0QTzME6xQJ0xtNR7CkpSJNlIVF88ispw==";
+        };
     in {
         "I4YcOkw6" = _I4YcOkw6;
         "dDXkj7aH" = _dDXkj7aH;
@@ -80,6 +85,7 @@ let
         "Xag5frMs" = _Xag5frMs;
         "3Rfx3Eo0" = _3Rfx3Eo0;
         "CHLo0jQn" = _CHLo0jQn;
+        "oLEmcM0q" = _oLEmcM0q;
         "minecraft-1.20" = _ChzzEFyW;
         "minecraft-1.20.1" = _ChzzEFyW;
         "minecraft-1.19" = _7lur4mql;
@@ -103,9 +109,11 @@ let
         "minecraft-26.1" = _CHLo0jQn;
         "minecraft-26.1.1" = _CHLo0jQn;
         "minecraft-26.1.2" = _CHLo0jQn;
+        "minecraft-26.2" = _oLEmcM0q;
         "pkg-1.0" = _CHLo0jQn;
         "pkg-2.0" = _LsXnlmJq;
-        "default" = _CHLo0jQn;
+        "pkg-26.2" = _oLEmcM0q;
+        "default" = _oLEmcM0q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kingd3faults";

@@ -51,6 +51,21 @@ let
             "file" = "Radar-1.0.6+26.2.jar";
             "hash" = "sha512-SZVGJraPbhHElGM6yftPHc3fIqQZfmFLWqB9NJqk9JKrFajAgYJWfig70H0aoJxYPUlsB5F3ju8lHEoTgdja+g==";
         };
+        _oVbfS6NF = {
+            "id" = "oVbfS6NF";
+            "file" = "Radar-1.6.1+26.2.jar";
+            "hash" = "sha512-jXhS5CiBEEax9FxJzJx6KIIDI5cuAQrHS/9noI1lxr02oc6sf8npEZ+aiC2iIHhkP3Sz4NW8niyjgP9ev93baA==";
+        };
+        _Ubtbl5jG = {
+            "id" = "Ubtbl5jG";
+            "file" = "Radar-1.6.1+1.21.11.jar";
+            "hash" = "sha512-Retbj6Wro8GpWphZ96kRPTrNRuzqHDBDj6qfPHA596SlpwFCZAqxcqTTdBBDYd9R0GxjcU5JkrxDig+8AnwmOQ==";
+        };
+        _QGGA7jtg = {
+            "id" = "QGGA7jtg";
+            "file" = "Radar-1.6.1+26.1.jar";
+            "hash" = "sha512-76zmMEuosrR16FzvhX9fnhPLgUMXwAm9vQnDslr+zNzewyXzbm6shjljldcsFG/LYF/bTXBe+MX965ARGzNeKg==";
+        };
     in {
         "kYoDA2tz" = _kYoDA2tz;
         "Iq8J913p" = _Iq8J913p;
@@ -62,17 +77,20 @@ let
         "2ti3IZmj" = _2ti3IZmj;
         "AG2frQeP" = _AG2frQeP;
         "KBiFKPYF" = _KBiFKPYF;
+        "oVbfS6NF" = _oVbfS6NF;
+        "Ubtbl5jG" = _Ubtbl5jG;
+        "QGGA7jtg" = _QGGA7jtg;
         "fabric-1.21.1" = _kYoDA2tz;
         "fabric-1.21.4" = _rYyxNhrO;
         "fabric-1.21.5" = _rYyxNhrO;
         "fabric-1.21.6" = _gfBvOItA;
         "fabric-1.21.7" = _gfBvOItA;
         "fabric-1.21.8" = _gfBvOItA;
-        "fabric-1.21.11" = _AG2frQeP;
-        "fabric-26.1" = _2ti3IZmj;
-        "fabric-26.1.1" = _2ti3IZmj;
-        "fabric-26.1.2" = _2ti3IZmj;
-        "fabric-26.2" = _KBiFKPYF;
+        "fabric-1.21.11" = _Ubtbl5jG;
+        "fabric-26.1" = _QGGA7jtg;
+        "fabric-26.1.1" = _QGGA7jtg;
+        "fabric-26.1.2" = _QGGA7jtg;
+        "fabric-26.2" = _oVbfS6NF;
         "pkg-1.0+1.21.1" = _kYoDA2tz;
         "pkg-1.0+1.21.4" = _Iq8J913p;
         "pkg-1.0.1+1.21.4" = _AofWMspj;
@@ -83,7 +101,10 @@ let
         "pkg-1.0.6+26.1" = _2ti3IZmj;
         "pkg-1.0.6+1.21.11" = _AG2frQeP;
         "pkg-1.0.6+26.2" = _KBiFKPYF;
-        "default" = _KBiFKPYF;
+        "pkg-1.6.1+26.2" = _oVbfS6NF;
+        "pkg-1.6.1+1.21.11" = _Ubtbl5jG;
+        "pkg-1.6.1+26.1" = _QGGA7jtg;
+        "default" = _QGGA7jtg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "radar";

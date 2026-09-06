@@ -286,6 +286,11 @@ let
             "file" = "shaderfixer-5.4.jar";
             "hash" = "sha512-SoP18P74nQpyYJil04Aze/qfWs/FRvsYcYyI7TkLvw5cxekWJeZrXjnPhxZURKeooUYtZpcLRmwhuf+ZgDzorw==";
         };
+        _oRXR1x6I = {
+            "id" = "oRXR1x6I";
+            "file" = "shaderfixer-5.5-FINAL.jar";
+            "hash" = "sha512-ekG68nd/5RmBNOC2QCM+/uGvy43mwzpQRHiKlSdgWfqpWNWoQPpScAvchP3ytdHUt0XV9TMwPisk7LpA7+kBIg==";
+        };
     in {
         "kfiiwhIw" = _kfiiwhIw;
         "HEpt8XZR" = _HEpt8XZR;
@@ -344,7 +349,8 @@ let
         "XzWUP784" = _XzWUP784;
         "LXXkoSGu" = _LXXkoSGu;
         "cuPR700Q" = _cuPR700Q;
-        "forge-1.7.10" = _cuPR700Q;
+        "oRXR1x6I" = _oRXR1x6I;
+        "forge-1.7.10" = _oRXR1x6I;
         "pkg-1.3" = _kfiiwhIw;
         "pkg-1.4" = _HEpt8XZR;
         "pkg-1.5" = _eLODlki7;
@@ -402,7 +408,8 @@ let
         "pkg-5.2" = _XzWUP784;
         "pkg-5.3" = _LXXkoSGu;
         "pkg-5.4" = _cuPR700Q;
-        "default" = _cuPR700Q;
+        "pkg-5.5" = _oRXR1x6I;
+        "default" = _oRXR1x6I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shader-fixer";
@@ -410,12 +417,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "MIT" {
+            license = lib.getLicenseFromSpdxIdOr "CC0-1.0" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "MIT License";
-                shortName = "MIT";
+                fullName = "Creative Commons Zero v1.0 Universal";
+                shortName = "CC0-1.0";
                 url = null;
             };
         };

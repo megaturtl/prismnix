@@ -36,6 +36,11 @@ let
             "file" = "bodyguards-1.1.0-neoforge-1.21.1.jar";
             "hash" = "sha512-3+jY+cJEFkw3/dm1vXu+LW14xsqBdO1nKPHEzvi6h4PpIVqsjIb683VtQeAxRn7MXsI/kt3qFTxYYDlLHXnWIw==";
         };
+        _FZ7y2Yb8 = {
+            "id" = "FZ7y2Yb8";
+            "file" = "bodyguard-1.0.0-Snapshot.jar";
+            "hash" = "sha512-qazdsU4lGejfAovnImcPxOLhcDBJ7DBkj49HdMP1RuO2hpLh94EjW2iP4tdqAXZ/ZoLTIbvTr6ibqjyItrO1Gg==";
+        };
     in {
         "2wAJuwnj" = _2wAJuwnj;
         "sKsQk0xr" = _sKsQk0xr;
@@ -44,14 +49,21 @@ let
         "FGszeAJD" = _FGszeAJD;
         "whsju0sn" = _whsju0sn;
         "yTklZtay" = _yTklZtay;
+        "FZ7y2Yb8" = _FZ7y2Yb8;
         "forge-1.19.4" = _sKsQk0xr;
         "forge-1.18.2" = _FGszeAJD;
-        "forge-1.20.1" = _qmU9Hpbc;
+        "forge-1.20.1" = _FZ7y2Yb8;
+        "forge-1.20.2" = _FZ7y2Yb8;
+        "forge-1.20.3" = _FZ7y2Yb8;
+        "forge-1.20.4" = _FZ7y2Yb8;
+        "forge-1.20.5" = _FZ7y2Yb8;
+        "forge-1.20.6" = _FZ7y2Yb8;
         "neoforge-1.21.1" = _yTklZtay;
         "pkg-1.0.0" = _whsju0sn;
         "pkg-1.1.8" = _FGszeAJD;
         "pkg-1.1.0" = _yTklZtay;
-        "default" = _yTklZtay;
+        "pkg-1.0.0-Snapshot" = _FZ7y2Yb8;
+        "default" = _FZ7y2Yb8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bodyguard";

@@ -91,6 +91,11 @@ let
             "file" = "golemdungeons-26.1.2.0+1.jar";
             "hash" = "sha512-x4vQPYGm92p3X80SYqBmFtgjDqIAm/Lx5t//Km21vIY/GO10CAlXsQzDdr4sUEGS25/XlNC/aZddiIhLkmaBaA==";
         };
+        _bPZRINKa = {
+            "id" = "bPZRINKa";
+            "file" = "golemdungeons-26.1.2.0+6.jar";
+            "hash" = "sha512-o1+t9141kSsJVsAuFX8PbHz5GQwwPauja9Wd+DPmXrHVOpxT5/ryk1OWiS3HygBdx3Y9/4lnNAUfgAfqOBOslQ==";
+        };
     in {
         "L5QittrI" = _L5QittrI;
         "ZsZ3tVKS" = _ZsZ3tVKS;
@@ -110,10 +115,11 @@ let
         "tQhakMGs" = _tQhakMGs;
         "AKpUr8RI" = _AKpUr8RI;
         "kglmwKty" = _kglmwKty;
+        "bPZRINKa" = _bPZRINKa;
         "forge-1.20.1" = _AKpUr8RI;
         "neoforge-1.20.1" = _AKpUr8RI;
         "neoforge-1.21.1" = _tQhakMGs;
-        "neoforge-26.1.2" = _kglmwKty;
+        "neoforge-26.1.2" = _bPZRINKa;
         "pkg-1.0.0" = _L5QittrI;
         "pkg-1.0.1" = _ZsZ3tVKS;
         "pkg-1.0.2" = _NnAQVjmC;
@@ -132,7 +138,8 @@ let
         "pkg-2.0.9" = _tQhakMGs;
         "pkg-1.0.7" = _AKpUr8RI;
         "pkg-26.1.2.0+1" = _kglmwKty;
-        "default" = _kglmwKty;
+        "pkg-26.1.2.0+6" = _bPZRINKa;
+        "default" = _bPZRINKa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "golem-dungeons";

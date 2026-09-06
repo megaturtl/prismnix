@@ -11,16 +11,23 @@ let
             "file" = "Coolrexs Cobblemon Collection.zip";
             "hash" = "sha512-ADajiy3PAzF4YaPjsFftdxVO4XYe//FphHoBxdJVM0CevZ4Z6H/RdtbEcjtkYvZ7ptsozU37W6luyWGJKc0oBw==";
         };
+        _jytrWcCX = {
+            "id" = "jytrWcCX";
+            "file" = "Coolrexs Cobblemon Collection.zip";
+            "hash" = "sha512-Ck5hrlHxGv2mnzXg68qsaeHOqVBtLUTEVWnxUs113SrvdNp7JDM+IOS9zf9C6RcEQEzGtmnJrEIyTK7QBHgG1w==";
+        };
     in {
         "tYaiLVrx" = _tYaiLVrx;
         "E67iEJav" = _E67iEJav;
+        "jytrWcCX" = _jytrWcCX;
         "datapack-1.20.1" = _E67iEJav;
-        "datapack-1.21.1" = _E67iEJav;
+        "datapack-1.21.1" = _jytrWcCX;
         "minecraft-1.20.1" = _E67iEJav;
-        "minecraft-1.21.1" = _E67iEJav;
+        "minecraft-1.21.1" = _jytrWcCX;
         "pkg-1.0" = _tYaiLVrx;
         "pkg-1.1" = _E67iEJav;
-        "default" = _E67iEJav;
+        "pkg-1.2" = _jytrWcCX;
+        "default" = _jytrWcCX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "coolrexs-cobblemon-collection";

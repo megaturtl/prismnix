@@ -36,6 +36,11 @@ let
             "file" = "pizzadelight-1.1.3-1.21.1.jar";
             "hash" = "sha512-Z1yyXn3ZY7liA3w2lQIBI/8ewhfXnNYqxKIbaL3vEMneo1NtAI/ZuXioNfYlf4+hM7db/NPI5wAhfctfpHWIag==";
         };
+        _ZI33HMQ3 = {
+            "id" = "ZI33HMQ3";
+            "file" = "pizzadelight-1.1.4-1.21.1.jar";
+            "hash" = "sha512-l76yRo6yjfCKd9oZxg6/TkuqS8u1fG41oMhstjy/8YFFb2ZVcdRvmuBXIpL+OdEXW+azeNIbxkzTuKe9pNJLww==";
+        };
     in {
         "2Zsi5OMV" = _2Zsi5OMV;
         "6eIiqYTF" = _6eIiqYTF;
@@ -44,8 +49,9 @@ let
         "QRmwdhRB" = _QRmwdhRB;
         "XPf54GSh" = _XPf54GSh;
         "5aKajVII" = _5aKajVII;
+        "ZI33HMQ3" = _ZI33HMQ3;
         "forge-1.20.1" = _xVJwSGA5;
-        "neoforge-1.21.1" = _5aKajVII;
+        "neoforge-1.21.1" = _ZI33HMQ3;
         "pkg-0.1-1.20.1" = _2Zsi5OMV;
         "pkg-1.0-1.20.1" = _6eIiqYTF;
         "pkg-1.0.1-1.20.1" = _xVJwSGA5;
@@ -53,7 +59,8 @@ let
         "pkg-1.1.1-1.21.1" = _QRmwdhRB;
         "pkg-1.1.2-1.21.1" = _XPf54GSh;
         "pkg-1.1.3-1.21.1" = _5aKajVII;
-        "default" = _5aKajVII;
+        "pkg-1.1.4-1.21.1" = _ZI33HMQ3;
+        "default" = _ZI33HMQ3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pizza-delight";

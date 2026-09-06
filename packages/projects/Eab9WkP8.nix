@@ -71,6 +71,16 @@ let
             "file" = "the-frostpale-1.3.1.jar";
             "hash" = "sha512-r1/0rGirprtsiHSGK4LUPfi+hX0FCmet1NtQSIUkEbacmUPLY+o1LrNxcErAU4v+1nEvF3ktbv9JJKNl+lc0kA==";
         };
+        _wKqQlYmF = {
+            "id" = "wKqQlYmF";
+            "file" = "the-frostpale-v1.3.1-by-kanokarob.zip";
+            "hash" = "sha512-RLVxGT3+0l3NjOS1jRmbB8vn1vPq8BEIk3PuCyJYx28RX1xcKfGDUQkqLTLMgqNF73cXiHYsv6qjy7idbUUuUw==";
+        };
+        _EuRwQBfP = {
+            "id" = "EuRwQBfP";
+            "file" = "the-frostpale-1.3.1b.jar";
+            "hash" = "sha512-LVdcVa7JnSGMcSe/QHMjZVQIcltImv74sCT81ctjml4h+6T1uUYSw+8djF00c27UtigDHV02VAskteeBak9ahQ==";
+        };
     in {
         "LVZfXjEF" = _LVZfXjEF;
         "vitkpl4V" = _vitkpl4V;
@@ -86,6 +96,8 @@ let
         "uIoVlZsQ" = _uIoVlZsQ;
         "xbvCI1Va" = _xbvCI1Va;
         "22lsJv87" = _22lsJv87;
+        "wKqQlYmF" = _wKqQlYmF;
+        "EuRwQBfP" = _EuRwQBfP;
         "datapack-1.21.5" = _tx3hkk7p;
         "datapack-1.21.6" = _8pcAvwD0;
         "datapack-1.21.7" = _8pcAvwD0;
@@ -93,7 +105,7 @@ let
         "datapack-1.21.9" = _R005k1rq;
         "datapack-1.21.10" = _R005k1rq;
         "datapack-1.21.11" = _SsbjNwkp;
-        "datapack-26.2" = _xbvCI1Va;
+        "datapack-26.2" = _wKqQlYmF;
         "fabric-1.21.5" = _xngRzDwN;
         "fabric-1.21.6" = _TCAyvjB5;
         "fabric-1.21.7" = _TCAyvjB5;
@@ -101,7 +113,7 @@ let
         "fabric-1.21.9" = _LXbf3Ij5;
         "fabric-1.21.10" = _LXbf3Ij5;
         "fabric-1.21.11" = _uIoVlZsQ;
-        "fabric-26.2" = _22lsJv87;
+        "fabric-26.2" = _EuRwQBfP;
         "forge-1.21.5" = _xngRzDwN;
         "forge-1.21.6" = _TCAyvjB5;
         "forge-1.21.7" = _TCAyvjB5;
@@ -109,7 +121,7 @@ let
         "forge-1.21.9" = _LXbf3Ij5;
         "forge-1.21.10" = _LXbf3Ij5;
         "forge-1.21.11" = _uIoVlZsQ;
-        "forge-26.2" = _22lsJv87;
+        "forge-26.2" = _EuRwQBfP;
         "neoforge-1.21.5" = _xngRzDwN;
         "neoforge-1.21.6" = _TCAyvjB5;
         "neoforge-1.21.7" = _TCAyvjB5;
@@ -117,7 +129,7 @@ let
         "neoforge-1.21.9" = _LXbf3Ij5;
         "neoforge-1.21.10" = _LXbf3Ij5;
         "neoforge-1.21.11" = _uIoVlZsQ;
-        "neoforge-26.2" = _22lsJv87;
+        "neoforge-26.2" = _EuRwQBfP;
         "quilt-1.21.5" = _xngRzDwN;
         "quilt-1.21.6" = _TCAyvjB5;
         "quilt-1.21.7" = _TCAyvjB5;
@@ -125,7 +137,7 @@ let
         "quilt-1.21.9" = _LXbf3Ij5;
         "quilt-1.21.10" = _LXbf3Ij5;
         "quilt-1.21.11" = _uIoVlZsQ;
-        "quilt-26.2" = _22lsJv87;
+        "quilt-26.2" = _EuRwQBfP;
         "pkg-1.0" = _LVZfXjEF;
         "pkg-1.0+mod" = _vitkpl4V;
         "pkg-1.0.1" = _fALAydKo;
@@ -140,7 +152,9 @@ let
         "pkg-1.2+mod" = _uIoVlZsQ;
         "pkg-1.3.1" = _xbvCI1Va;
         "pkg-1.3.1+mod" = _22lsJv87;
-        "default" = _22lsJv87;
+        "pkg-1.3.1b" = _wKqQlYmF;
+        "pkg-1.3.1b+mod" = _EuRwQBfP;
+        "default" = _EuRwQBfP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-frostpale";

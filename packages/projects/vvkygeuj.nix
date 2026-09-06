@@ -46,6 +46,15 @@ let
         "minecraft-1.21.4" = _jB7ITA3k;
         "minecraft-1.21.5" = _jB7ITA3k;
         "minecraft-1.21.6" = _jB7ITA3k;
+        "minecraft-1.21.7" = _jB7ITA3k;
+        "minecraft-1.21.8" = _jB7ITA3k;
+        "minecraft-1.21.9" = _jB7ITA3k;
+        "minecraft-1.21.10" = _jB7ITA3k;
+        "minecraft-1.21.11" = _jB7ITA3k;
+        "minecraft-26.1" = _jB7ITA3k;
+        "minecraft-26.1.1" = _jB7ITA3k;
+        "minecraft-26.1.2" = _jB7ITA3k;
+        "minecraft-26.2" = _jB7ITA3k;
         "pkg-1.0.0" = _4Bdr0usV;
         "pkg-1.0.1" = _iofbWnXu;
         "pkg-1.0.2" = _LIvbe93o;

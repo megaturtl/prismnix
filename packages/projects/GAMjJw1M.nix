@@ -41,6 +41,26 @@ let
             "file" = "musketmod_reloaded-26.2-fabric-1.6.3.jar";
             "hash" = "sha512-tidvhlsNiZ8T3xDNQRkWVZigr0w+ZvNZysUNEVqwTX2LeiBP6SR2v3e8VsHhrnzAF6IJSzLS4h3BpLOTGJKbiA==";
         };
+        _NFMAAbYM = {
+            "id" = "NFMAAbYM";
+            "file" = "musketmod_reloaded-26.2-neoforge-1.6.4.jar";
+            "hash" = "sha512-UVH7qBLH+dhqAOj6QM1Z0wUfMBEUtvRas4gSLq6CJLWGg61um6obpngeSwWuwcglJakSutg+3IRoKk9DJS/MXw==";
+        };
+        _I3Jq45ge = {
+            "id" = "I3Jq45ge";
+            "file" = "musketmod_reloaded-26.2-fabric-1.6.4.jar";
+            "hash" = "sha512-vu453++Hov1rRxnbBZXstwepne2mzte9FvjIOMzXAWSkyhfPQAcbX6ynL/ezJxS8EgpcKDd8wiWXkHrlfGsS8w==";
+        };
+        _GCqWuBLC = {
+            "id" = "GCqWuBLC";
+            "file" = "musketmod_reloaded-26.1.2-fabric-1.6.4.jar";
+            "hash" = "sha512-OltNqEU/GJtawIMg4l3bVuVlydPUwNHGi8jy9EUZzxpq7PR/yKwpHgE/533ICnSun/3+HsPIASQO4SOKHYyo5A==";
+        };
+        _62mDwo8l = {
+            "id" = "62mDwo8l";
+            "file" = "musketmod_reloaded-26.1.2-neoforge-1.6.4.jar";
+            "hash" = "sha512-3iSosVxSZffScFuAZfk25F/DBFAIVwM7wOt65lO5SmmUJtEa5tCZBRvyPdUreF6DER4UrMertXZB/HVq4nsvJA==";
+        };
     in {
         "Xqo7ekGM" = _Xqo7ekGM;
         "ynajQYV7" = _ynajQYV7;
@@ -50,15 +70,26 @@ let
         "5n7WLzax" = _5n7WLzax;
         "CAJGvJhT" = _CAJGvJhT;
         "grgziKny" = _grgziKny;
+        "NFMAAbYM" = _NFMAAbYM;
+        "I3Jq45ge" = _I3Jq45ge;
+        "GCqWuBLC" = _GCqWuBLC;
+        "62mDwo8l" = _62mDwo8l;
         "fabric-1.21.11" = _5n7WLzax;
-        "fabric-26.2" = _grgziKny;
+        "fabric-26.2" = _I3Jq45ge;
+        "fabric-26.1" = _GCqWuBLC;
+        "fabric-26.1.1" = _GCqWuBLC;
+        "fabric-26.1.2" = _GCqWuBLC;
         "neoforge-1.21.11" = _F0pNz1IX;
-        "neoforge-26.2" = _CAJGvJhT;
+        "neoforge-26.2" = _NFMAAbYM;
+        "neoforge-26.1" = _62mDwo8l;
+        "neoforge-26.1.1" = _62mDwo8l;
+        "neoforge-26.1.2" = _62mDwo8l;
         "pkg-1.6.0" = _ynajQYV7;
         "pkg-1.6.1" = _BQ4TymJy;
         "pkg-1.6.2" = _5n7WLzax;
         "pkg-1.6.3" = _grgziKny;
-        "default" = _grgziKny;
+        "pkg-1.6.4" = _62mDwo8l;
+        "default" = _62mDwo8l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "musket-mod-reloaded";

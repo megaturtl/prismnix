@@ -1146,6 +1146,11 @@ let
             "file" = "sarosessentialsmod-1.1.1.jar";
             "hash" = "sha512-DBV84e0XHKjIoOAW1ZzjGbzARU0PXb4ihyKBoUSfO3kRODQI4ytZFcoLdY4/3Y1Hmi2Kn/oa6cFpgviTIFj3Qw==";
         };
+        _h2arndFc = {
+            "id" = "h2arndFc";
+            "file" = "Saros-Essentials-Fabric-26.1.1-1.1.2.jar";
+            "hash" = "sha512-aRacD8LX9FAhqKoVxDpegb7OfE4ZVObJojfMNVXHOs8cMoqebe6feAgILlGKqydn/w2IgQoWnbGIG8NQmSL+YA==";
+        };
     in {
         "DhGEXrXA" = _DhGEXrXA;
         "5sMT0avl" = _5sMT0avl;
@@ -1376,6 +1381,7 @@ let
         "pgx5uiBf" = _pgx5uiBf;
         "y76DoiB5" = _y76DoiB5;
         "VR7QgwXw" = _VR7QgwXw;
+        "h2arndFc" = _h2arndFc;
         "forge-1.12.2" = _mBHWSx5B;
         "forge-1.16.5" = _4CEQxwRH;
         "forge-1.20.1" = _TQMdg5as;
@@ -1412,7 +1418,7 @@ let
         "fabric-1.21.5" = _isewHWa9;
         "fabric-26.1" = _OPKDIMzb;
         "fabric-1.20.5" = _zmR7UcoV;
-        "fabric-26.1.1" = _DKKoG721;
+        "fabric-26.1.1" = _h2arndFc;
         "fabric-26.1.2" = _DKKoG721;
         "fabric-26.2" = _PCiYIjLX;
         "neoforge-1.20.4" = _Iq9Qd1Jv;
@@ -1475,7 +1481,8 @@ let
         "pkg-1.1.1-forge-1.21.8" = _pgx5uiBf;
         "pkg-1.1.1-forge-1.21.9" = _y76DoiB5;
         "pkg-1.1.1-forge-1.21.10" = _VR7QgwXw;
-        "default" = _VR7QgwXw;
+        "pkg-1.1.2" = _h2arndFc;
+        "default" = _h2arndFc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saros-essentials";

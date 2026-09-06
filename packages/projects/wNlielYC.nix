@@ -96,6 +96,16 @@ let
             "file" = "draftout-1.14.0.jar";
             "hash" = "sha512-mwDeuJXS5eh8GQ0aKicVc6goteJWaYQdEh1FrNGWI3Adfybl3kbaPz+QsUsoG/FuJ68lRuch0ds8cIW81sfg7A==";
         };
+        _INhNmhKm = {
+            "id" = "INhNmhKm";
+            "file" = "draftout-1.15.0.jar";
+            "hash" = "sha512-2IG6baPpv+258I8lGicHW2LlRBKy9t2OeDo814ouvCcpEjPjq+JrdoZAt5Be/wsIRODL42DJGA5W9mu18dCpkg==";
+        };
+        _OUHPEOss = {
+            "id" = "OUHPEOss";
+            "file" = "draftout-1.15.1.jar";
+            "hash" = "sha512-WJPoexeFpq9XuUS/Sfa2DX9TE6UBrot7+nhXxPsWsJqvIRc+zxzSNjCF1LCJxLkiEIEr5Bw/7aKw70PfJkNT/A==";
+        };
     in {
         "CNlSfiIS" = _CNlSfiIS;
         "xePGCuqY" = _xePGCuqY;
@@ -116,7 +126,9 @@ let
         "8MTt0PhR" = _8MTt0PhR;
         "w3kFYlxY" = _w3kFYlxY;
         "KscVf6Ib" = _KscVf6Ib;
-        "fabric-26.1.1" = _KscVf6Ib;
+        "INhNmhKm" = _INhNmhKm;
+        "OUHPEOss" = _OUHPEOss;
+        "fabric-26.1.1" = _OUHPEOss;
         "pkg-1.8.0" = _CNlSfiIS;
         "pkg-1.8.1" = _xePGCuqY;
         "pkg-1.8.2" = _sBMDMKUq;
@@ -136,7 +148,9 @@ let
         "pkg-1.13.0" = _8MTt0PhR;
         "pkg-1.13.1" = _w3kFYlxY;
         "pkg-1.14.0" = _KscVf6Ib;
-        "default" = _KscVf6Ib;
+        "pkg-1.15.0" = _INhNmhKm;
+        "pkg-1.15.1" = _OUHPEOss;
+        "default" = _OUHPEOss;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "draftout";

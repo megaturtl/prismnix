@@ -241,6 +241,16 @@ let
             "file" = "mebahel-creatures-draugr-1.8.6b-fabric-1.20.1.jar";
             "hash" = "sha512-mOYMBBPrS2pD+jHiytuo5t25OU3DMLL6CBbb5V5IcP1pUHSKUhATssSIqZDDfk5gwEWZqJl8iPVQHx81mh41BA==";
         };
+        _do6jaQ39 = {
+            "id" = "do6jaQ39";
+            "file" = "mebahel-creatures-draugr-1.8.7-fabric-1.20.1.jar";
+            "hash" = "sha512-6oKK0jRrRB9W3h90uFdfkH4O8pK1YXfsT86NfRRD9uEKRgsdQkC3AtHS6HpiTxmQ0czHVjQguhddZofuVq9Qgg==";
+        };
+        _47Sr1LXf = {
+            "id" = "47Sr1LXf";
+            "file" = "mebahel-creatures-draugr-1.8.7-fabric-1.21.1.jar";
+            "hash" = "sha512-g24bqiZScYLsB704QbV269DobafC1ZTUZI9DbzcgvMive26zJwF8HlIUVXy+DQaFsO1llXaF3WTN0tFNNn9HbQ==";
+        };
     in {
         "mp0mIpSv" = _mp0mIpSv;
         "WofyJ6YI" = _WofyJ6YI;
@@ -290,22 +300,24 @@ let
         "juPhwTJa" = _juPhwTJa;
         "5bGZfJjP" = _5bGZfJjP;
         "H4XjhTVI" = _H4XjhTVI;
-        "fabric-1.20" = _H4XjhTVI;
-        "fabric-1.20.1" = _H4XjhTVI;
-        "fabric-1.21.1" = _8K4jkPfg;
-        "fabric-1.21" = _8K4jkPfg;
-        "forge-1.20" = _H4XjhTVI;
-        "forge-1.20.1" = _H4XjhTVI;
-        "forge-1.21.1" = _8K4jkPfg;
-        "forge-1.21" = _8K4jkPfg;
-        "neoforge-1.20" = _H4XjhTVI;
-        "neoforge-1.20.1" = _H4XjhTVI;
-        "neoforge-1.21.1" = _8K4jkPfg;
-        "neoforge-1.21" = _8K4jkPfg;
-        "quilt-1.20" = _H4XjhTVI;
-        "quilt-1.20.1" = _H4XjhTVI;
-        "quilt-1.21.1" = _8K4jkPfg;
-        "quilt-1.21" = _8K4jkPfg;
+        "do6jaQ39" = _do6jaQ39;
+        "47Sr1LXf" = _47Sr1LXf;
+        "fabric-1.20" = _do6jaQ39;
+        "fabric-1.20.1" = _do6jaQ39;
+        "fabric-1.21.1" = _47Sr1LXf;
+        "fabric-1.21" = _47Sr1LXf;
+        "forge-1.20" = _do6jaQ39;
+        "forge-1.20.1" = _do6jaQ39;
+        "forge-1.21.1" = _47Sr1LXf;
+        "forge-1.21" = _47Sr1LXf;
+        "neoforge-1.20" = _do6jaQ39;
+        "neoforge-1.20.1" = _do6jaQ39;
+        "neoforge-1.21.1" = _47Sr1LXf;
+        "neoforge-1.21" = _47Sr1LXf;
+        "quilt-1.20" = _do6jaQ39;
+        "quilt-1.20.1" = _do6jaQ39;
+        "quilt-1.21.1" = _47Sr1LXf;
+        "quilt-1.21" = _47Sr1LXf;
         "pkg-1.0.0" = _mp0mIpSv;
         "pkg-1.1.0" = _WofyJ6YI;
         "pkg-1.2.0-fabric-1.21.1" = _i3qmAWms;
@@ -354,7 +366,9 @@ let
         "pkg-1.8.6-fabric-1.20.1" = _juPhwTJa;
         "pkg-1.8.6a-fabric-1.20.1" = _5bGZfJjP;
         "pkg-1.8.6b-fabric-1.20.1" = _H4XjhTVI;
-        "default" = _H4XjhTVI;
+        "pkg-1.8.7-fabric-1.20.1" = _do6jaQ39;
+        "pkg-1.8.7-fabric-1.21.1" = _47Sr1LXf;
+        "default" = _47Sr1LXf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mebahels-creatures-draugr";

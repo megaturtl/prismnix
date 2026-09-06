@@ -371,6 +371,36 @@ let
             "file" = "resource_nether_ores-fabric-26.1.2-3.0.0.jar";
             "hash" = "sha512-RQpG7SDvaLz4UTP7RRc7ivt4f+8ipOeqyOQmmpkB/ke0NAKjEpB9XkG9GJXl5YuzofNKKfS5Gu0Fbou8Hu1OZQ==";
         };
+        _h1fiLZDo = {
+            "id" = "h1fiLZDo";
+            "file" = "resource_nether_ores-forge-26.2-3.1.0.jar";
+            "hash" = "sha512-92k5BxZRkk62BdmGKq/92Tfn5SggQuDDoA7OdxliVin9Ar7hH9rp8YT24ejHocp7Tprlm39t4hsGBdOcnQaYOQ==";
+        };
+        _D04k6cfp = {
+            "id" = "D04k6cfp";
+            "file" = "resource_nether_ores-neoforge-26.2-3.1.0.jar";
+            "hash" = "sha512-A2Kyrd8aMyUANwNYGOE2dI2JGDBmLFr/bZ4QIQn9On5c4Ir+L/9Ey8f84QTKwujksTBl2qack8RH33kjjTrblg==";
+        };
+        _YQ6W4YKx = {
+            "id" = "YQ6W4YKx";
+            "file" = "resource_nether_ores-fabric-26.2-3.1.0.jar";
+            "hash" = "sha512-vf0M690NNiYXRBA3U/x3uFByg7WR+qZt9/S0CkIVVZ+ykj1EhpIlp51X0MBC2mE8JVx3B/lw4cYiJDmytw6dsw==";
+        };
+        _V3TrmwOg = {
+            "id" = "V3TrmwOg";
+            "file" = "resource_nether_ores-forge-26.1.2-3.1.0.jar";
+            "hash" = "sha512-j5ZIEi00/1iXTZh8S7qiENHSz+Pu1CLbr+8Ej+UgA8bsKGWJEL1r0A2QhEkB0vznUwvRaP2+S6XQF/LoIuylrQ==";
+        };
+        _VZLlmRnM = {
+            "id" = "VZLlmRnM";
+            "file" = "resource_nether_ores-neoforge-26.1.2-3.1.0.jar";
+            "hash" = "sha512-g0l821PLdaV+BOt4MhziQh1+zagZnIvvvvLvaQeYFJwavrvIcSYJ7D7G9He6VAXD0WuJgfGqMRjwqxQlws64PQ==";
+        };
+        _d53pLEH0 = {
+            "id" = "d53pLEH0";
+            "file" = "resource_nether_ores-fabric-26.1.2-3.1.0.jar";
+            "hash" = "sha512-rFSszNP/whaFK2iLzEWrNBg7V7cjDRQtzyntFQhT9JenSDskWfFXwTyKPZ3tNA8woj9JHbzoPbo5VfnGWNb+kA==";
+        };
     in {
         "FRe7dCAK" = _FRe7dCAK;
         "y3Y5Xycm" = _y3Y5Xycm;
@@ -446,6 +476,12 @@ let
         "BQFn0XmI" = _BQFn0XmI;
         "S5gZewhY" = _S5gZewhY;
         "bIAsMNwm" = _bIAsMNwm;
+        "h1fiLZDo" = _h1fiLZDo;
+        "D04k6cfp" = _D04k6cfp;
+        "YQ6W4YKx" = _YQ6W4YKx;
+        "V3TrmwOg" = _V3TrmwOg;
+        "VZLlmRnM" = _VZLlmRnM;
+        "d53pLEH0" = _d53pLEH0;
         "fabric-1.20" = _zMzxhpoP;
         "fabric-1.20.1" = _zMzxhpoP;
         "fabric-1.20.2" = _zMzxhpoP;
@@ -462,7 +498,8 @@ let
         "fabric-1.21.11" = _GpJGYVhA;
         "fabric-26.1" = _bIAsMNwm;
         "fabric-26.1.1" = _bIAsMNwm;
-        "fabric-26.1.2" = _bIAsMNwm;
+        "fabric-26.1.2" = _d53pLEH0;
+        "fabric-26.2" = _YQ6W4YKx;
         "quilt-1.20" = _zMzxhpoP;
         "quilt-1.20.1" = _zMzxhpoP;
         "quilt-1.20.2" = _zMzxhpoP;
@@ -492,6 +529,8 @@ let
         "forge-1.21.9" = _kj2U2WCu;
         "forge-1.21.10" = _CwMir6OU;
         "forge-1.21.11" = _NBWCStRY;
+        "forge-26.2" = _h1fiLZDo;
+        "forge-26.1.2" = _V3TrmwOg;
         "neoforge-1.20.4" = _ob3SX4XQ;
         "neoforge-1.20.6" = _6QKlQvxn;
         "neoforge-1.21" = _xUjXozwy;
@@ -503,7 +542,8 @@ let
         "neoforge-1.21.11" = _JHyqWcti;
         "neoforge-26.1" = _S5gZewhY;
         "neoforge-26.1.1" = _S5gZewhY;
-        "neoforge-26.1.2" = _S5gZewhY;
+        "neoforge-26.1.2" = _VZLlmRnM;
+        "neoforge-26.2" = _D04k6cfp;
         "pkg-1.0.0" = _tMOrX4YY;
         "pkg-1.0.1" = _q2NEepfY;
         "pkg-1.1.0" = _GNqLbMwv;
@@ -523,7 +563,9 @@ let
         "pkg-1.21.11-2.5.0" = _JHyqWcti;
         "pkg-1.21.1-2.5.0" = _BQFn0XmI;
         "pkg-26.1.2-3.0.0" = _bIAsMNwm;
-        "default" = _bIAsMNwm;
+        "pkg-3.1.0" = _YQ6W4YKx;
+        "pkg-26.1.2-3.1.0" = _d53pLEH0;
+        "default" = _d53pLEH0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "resource-nether-ores";

@@ -65,7 +65,7 @@ let
         "default" = _2VllPvM1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
-        name = "unowlys_treetimber";
+        name = "thetreetimber";
         id = "WBOW6vyl";
         type = "mod";
         versions = versions;

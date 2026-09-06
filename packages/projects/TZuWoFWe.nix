@@ -271,6 +271,16 @@ let
             "file" = "punishment-4.2.jar";
             "hash" = "sha512-he/4JczQvta8tgs8sNntBc+s/L4nJAEND86PQ6x+BVXdV6WqBQaUrw0CjWe+nhX/EXzdu91g/0JgzDrVJRg1eA==";
         };
+        _1mpcMc2L = {
+            "id" = "1mpcMc2L";
+            "file" = "purgatory.zip";
+            "hash" = "sha512-Rg5CF1oZcajNU0y38VsAQE4d89pm/73+DxaiwBZeAl1/uWmN5gavEEclYLSzAOcodhRvxBY99frHU0GQNMAmmw==";
+        };
+        _dKxEdyXq = {
+            "id" = "dKxEdyXq";
+            "file" = "punishment-4.3.jar";
+            "hash" = "sha512-Brcow1iEEbTA0M91bctxicz3iZ7r0cvXYjgWj6ut+Y+NSZStXdi6zQ/pta73MoeO40vg/WqON/oM68fg4xbgvQ==";
+        };
     in {
         "cdOj00g9" = _cdOj00g9;
         "LUTGk4KL" = _LUTGk4KL;
@@ -326,41 +336,43 @@ let
         "vYcwNAeN" = _vYcwNAeN;
         "o7DAsXu9" = _o7DAsXu9;
         "xRt2kRgQ" = _xRt2kRgQ;
+        "1mpcMc2L" = _1mpcMc2L;
+        "dKxEdyXq" = _dKxEdyXq;
         "datapack-1.21.9" = _IclKrFuj;
         "datapack-1.21.10" = _IclKrFuj;
         "datapack-1.21.11" = _penn0oD8;
         "datapack-26.1" = _ECGm3Q4m;
         "datapack-26.1.1" = _ECGm3Q4m;
         "datapack-26.1.2" = _ECGm3Q4m;
-        "datapack-26.2" = _o7DAsXu9;
+        "datapack-26.2" = _1mpcMc2L;
         "fabric-1.21.9" = _8KeA5Hpj;
         "fabric-1.21.10" = _8KeA5Hpj;
         "fabric-1.21.11" = _mOewEGTL;
         "fabric-26.1" = _YN39xycB;
         "fabric-26.1.1" = _YN39xycB;
         "fabric-26.1.2" = _YN39xycB;
-        "fabric-26.2" = _xRt2kRgQ;
+        "fabric-26.2" = _dKxEdyXq;
         "forge-1.21.9" = _8KeA5Hpj;
         "forge-1.21.10" = _8KeA5Hpj;
         "forge-1.21.11" = _mOewEGTL;
         "forge-26.1" = _YN39xycB;
         "forge-26.1.1" = _YN39xycB;
         "forge-26.1.2" = _YN39xycB;
-        "forge-26.2" = _xRt2kRgQ;
+        "forge-26.2" = _dKxEdyXq;
         "neoforge-1.21.9" = _8KeA5Hpj;
         "neoforge-1.21.10" = _8KeA5Hpj;
         "neoforge-1.21.11" = _mOewEGTL;
         "neoforge-26.1" = _YN39xycB;
         "neoforge-26.1.1" = _YN39xycB;
         "neoforge-26.1.2" = _YN39xycB;
-        "neoforge-26.2" = _xRt2kRgQ;
+        "neoforge-26.2" = _dKxEdyXq;
         "quilt-1.21.9" = _8KeA5Hpj;
         "quilt-1.21.10" = _8KeA5Hpj;
         "quilt-1.21.11" = _mOewEGTL;
         "quilt-26.1" = _YN39xycB;
         "quilt-26.1.1" = _YN39xycB;
         "quilt-26.1.2" = _YN39xycB;
-        "quilt-26.2" = _xRt2kRgQ;
+        "quilt-26.2" = _dKxEdyXq;
         "pkg-0" = _cdOj00g9;
         "pkg-0+mod" = _LUTGk4KL;
         "pkg-0.1" = _Y1llray4;
@@ -415,7 +427,9 @@ let
         "pkg-4.1+mod" = _vYcwNAeN;
         "pkg-4.2" = _o7DAsXu9;
         "pkg-4.2+mod" = _xRt2kRgQ;
-        "default" = _xRt2kRgQ;
+        "pkg-4.3" = _1mpcMc2L;
+        "pkg-4.3+mod" = _dKxEdyXq;
+        "default" = _dKxEdyXq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "punishment";

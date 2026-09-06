@@ -111,6 +111,11 @@ let
             "file" = "legacy-bows-1.0.22.jar";
             "hash" = "sha512-2cKTEvWMu9/mBk22zxadaBft/LhuE9MZMSCEb/eHJWUhF3hwxTBvcwEILaRqKsd8sjTrJ4ALSLYnAw+BP77IpQ==";
         };
+        _ZkGL49GS = {
+            "id" = "ZkGL49GS";
+            "file" = "legacy-bows-1.0.23.jar";
+            "hash" = "sha512-1JryJ6BJJBdn9P2Xtt9JZhIfvWo2wuWRW1ogxOYzfvMvyQKS+N6G5brDozK6+i0akvaXvJwmr75eSMXvImJ7mw==";
+        };
     in {
         "7EGoKW38" = _7EGoKW38;
         "mYVJVGCy" = _mYVJVGCy;
@@ -134,6 +139,7 @@ let
         "ZfqQ7RKb" = _ZfqQ7RKb;
         "VQyDwSUM" = _VQyDwSUM;
         "r4C6wqSy" = _r4C6wqSy;
+        "ZkGL49GS" = _ZkGL49GS;
         "fabric-1.16.5" = _7EGoKW38;
         "fabric-1.17" = _mYVJVGCy;
         "fabric-1.17.1" = _mYVJVGCy;
@@ -158,6 +164,7 @@ let
         "fabric-26.1" = _r4C6wqSy;
         "fabric-26.1.1" = _r4C6wqSy;
         "fabric-26.1.2" = _r4C6wqSy;
+        "fabric-26.2" = _ZkGL49GS;
         "pkg-1.0.1" = _7EGoKW38;
         "pkg-1.0.2" = _mYVJVGCy;
         "pkg-1.0.3" = _Hr4SVqLM;
@@ -180,7 +187,8 @@ let
         "pkg-1.0.20" = _ZfqQ7RKb;
         "pkg-1.0.21" = _VQyDwSUM;
         "pkg-1.0.22" = _r4C6wqSy;
-        "default" = _r4C6wqSy;
+        "pkg-1.0.23" = _ZkGL49GS;
+        "default" = _ZkGL49GS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legacy-bows";

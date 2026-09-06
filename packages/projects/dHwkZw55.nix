@@ -16,17 +16,30 @@ let
             "file" = "Entity Render Stacking 26.2.jar";
             "hash" = "sha512-Xufjf1PHy44TtAjiLYW6pCyyuZA5o7+Vsz9+kOLSYB1Vgb29AxiICRz4SDjTLoyZUL+MrTN33Aq/ZDSzpFvfTg==";
         };
+        _YXYshlgm = {
+            "id" = "YXYshlgm";
+            "file" = "Entity Render Stacking 1.2 - 1.21.11.jar";
+            "hash" = "sha512-LP+o/SAiHfkTVYcaZsXaSAGu3A2JUYPQjWsP9eJyJPQXOmHMcdcB2TEAPUHeZwLtYgwjRJj644nDIxq43s/D/g==";
+        };
+        _2Mg92g13 = {
+            "id" = "2Mg92g13";
+            "file" = "Entity Render Stacking 1.2 - 26.2.jar";
+            "hash" = "sha512-G+9zQRrhEysMD7Q/k/NMfDO3JXC8ijH7FSwZHm/FZjdxuwT26adx/Mv9HMvr4fHfZW3BnY65oCkt5/c0VNR0fw==";
+        };
     in {
         "BvZG9D9m" = _BvZG9D9m;
         "OnntuN8h" = _OnntuN8h;
         "j3hM9BAI" = _j3hM9BAI;
-        "fabric-1.21.11" = _BvZG9D9m;
+        "YXYshlgm" = _YXYshlgm;
+        "2Mg92g13" = _2Mg92g13;
+        "fabric-1.21.11" = _YXYshlgm;
         "fabric-26.1.2" = _OnntuN8h;
-        "fabric-26.2" = _j3hM9BAI;
+        "fabric-26.2" = _2Mg92g13;
         "pkg-1.0.0" = _BvZG9D9m;
-        "pkg-1.2" = _OnntuN8h;
+        "pkg-26.1.2" = _OnntuN8h;
         "pkg-26.2" = _j3hM9BAI;
-        "default" = _j3hM9BAI;
+        "pkg-1.2" = _2Mg92g13;
+        "default" = _2Mg92g13;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "entity-stack-rendering";

@@ -321,6 +321,41 @@ let
             "file" = "Minesweeper-3.2.2+mc-26.2.jar";
             "hash" = "sha512-P4OU70Qrr3j2YvurjZWBYXE3sX3y3I4DffxXQClA/2XNMdvlB8Wtqs5AhTbkA+0ehupeu2+chHvjuHP7HL0UgA==";
         };
+        _U3GbKe7O = {
+            "id" = "U3GbKe7O";
+            "file" = "Minesweeper-3.2.3+mc-1.21.jar";
+            "hash" = "sha512-s+PcrpNxlELd5a96yeoP6uQFYhhvVPj/UC+/SLoa/iKbIroXMlWzZ0trugABmcvwLf+PIqJn74frJl3MpYDOJg==";
+        };
+        _O8SReFs2 = {
+            "id" = "O8SReFs2";
+            "file" = "Minesweeper-3.2.3+mc-1.21.2.jar";
+            "hash" = "sha512-xQGOXGabGw8LFqIjLzOi9JLsa4JwczI+QEYrlLX9k2DzE80Mcho+hYi48a08teweBcoaPhMkYpJlzGn1L/N75A==";
+        };
+        _3BOA6oNL = {
+            "id" = "3BOA6oNL";
+            "file" = "Minesweeper-3.2.3+mc-1.21.6.jar";
+            "hash" = "sha512-fo8SXra4wGy9oLjKUlmXlTCgrZZjqVS+eAXNLdTg+tWmZKPMxnKx97/JWPZSAKgyGmpzMwXHFFoJK9ARM4RVtg==";
+        };
+        _aZoxGaYq = {
+            "id" = "aZoxGaYq";
+            "file" = "Minesweeper-3.2.3+mc-1.21.9.jar";
+            "hash" = "sha512-wYnh4UyM/G3t5ejDbQ/umvtgEVqRL9VJWF5dzVBOIRu+KuvXxcdDEu3UO2L3ACsZCt1oAg2+BABGxO9OnSHXvg==";
+        };
+        _c9UB5elH = {
+            "id" = "c9UB5elH";
+            "file" = "Minesweeper-3.2.3+mc-1.21.11.jar";
+            "hash" = "sha512-/mEO39lRPjvzr6sZulLRGwJE+7Op1JYaCgBqBhRTlsJd+qlDvfgmdWsw0BzZ/qY7QODVeTNMYnOGuq/Qv5tWOw==";
+        };
+        _DWriT0Ym = {
+            "id" = "DWriT0Ym";
+            "file" = "Minesweeper-3.2.3+mc-26.1.jar";
+            "hash" = "sha512-CRVFVKhYcF8FDVHDRgx1Pnx86iOQqf62rCrU2OEvbyHRBvbddSffq6GWfhBLNf3cZjGBBBBzhNJQCWZqbuHFOw==";
+        };
+        _mQKQ5tQT = {
+            "id" = "mQKQ5tQT";
+            "file" = "Minesweeper-3.2.3+mc-26.2.jar";
+            "hash" = "sha512-zjixkijDSHp/VogY6PdbXdTztIwU5Hj+6VfIpiLyQ1W0I1g+zAVRkiEEc89xdJIuIVbxTf1wtqScAXQ6hJS34g==";
+        };
     in {
         "HXouiBEc" = _HXouiBEc;
         "RAXcPubi" = _RAXcPubi;
@@ -386,22 +421,29 @@ let
         "SkbzRHXO" = _SkbzRHXO;
         "g7HRgIH8" = _g7HRgIH8;
         "lvDrRk44" = _lvDrRk44;
-        "fabric-1.21.3" = _ytPdfNuP;
-        "fabric-1.21.4" = _ytPdfNuP;
-        "fabric-1.21.5" = _ytPdfNuP;
-        "fabric-1.21.8" = _OOlMdUzJ;
-        "fabric-1.21.6" = _OOlMdUzJ;
-        "fabric-1.21.7" = _OOlMdUzJ;
-        "fabric-1.21" = _JVzRnNHB;
-        "fabric-1.21.1" = _JVzRnNHB;
-        "fabric-1.21.9" = _XhQsgHfh;
-        "fabric-1.21.10" = _XhQsgHfh;
-        "fabric-1.21.2" = _ytPdfNuP;
-        "fabric-1.21.11" = _SkbzRHXO;
-        "fabric-26.1" = _g7HRgIH8;
-        "fabric-26.1.1" = _g7HRgIH8;
-        "fabric-26.1.2" = _g7HRgIH8;
-        "fabric-26.2" = _lvDrRk44;
+        "U3GbKe7O" = _U3GbKe7O;
+        "O8SReFs2" = _O8SReFs2;
+        "3BOA6oNL" = _3BOA6oNL;
+        "aZoxGaYq" = _aZoxGaYq;
+        "c9UB5elH" = _c9UB5elH;
+        "DWriT0Ym" = _DWriT0Ym;
+        "mQKQ5tQT" = _mQKQ5tQT;
+        "fabric-1.21.3" = _O8SReFs2;
+        "fabric-1.21.4" = _O8SReFs2;
+        "fabric-1.21.5" = _O8SReFs2;
+        "fabric-1.21.8" = _3BOA6oNL;
+        "fabric-1.21.6" = _3BOA6oNL;
+        "fabric-1.21.7" = _3BOA6oNL;
+        "fabric-1.21" = _U3GbKe7O;
+        "fabric-1.21.1" = _U3GbKe7O;
+        "fabric-1.21.9" = _aZoxGaYq;
+        "fabric-1.21.10" = _aZoxGaYq;
+        "fabric-1.21.2" = _O8SReFs2;
+        "fabric-1.21.11" = _c9UB5elH;
+        "fabric-26.1" = _DWriT0Ym;
+        "fabric-26.1.1" = _DWriT0Ym;
+        "fabric-26.1.2" = _DWriT0Ym;
+        "fabric-26.2" = _mQKQ5tQT;
         "pkg-1.0.0" = _k6btxGqq;
         "pkg-2.0.0" = _BIU4kLdF;
         "pkg-2.0.1" = _QYdc0bpD;
@@ -415,7 +457,8 @@ let
         "pkg-3.2.0" = _KK8nkHhK;
         "pkg-3.2.1" = _ITVCJ4hO;
         "pkg-3.2.2" = _lvDrRk44;
-        "default" = _lvDrRk44;
+        "pkg-3.2.3" = _mQKQ5tQT;
+        "default" = _mQKQ5tQT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minesweeper-in-game";

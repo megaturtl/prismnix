@@ -241,6 +241,11 @@ let
             "file" = "enchantments-unbound-4.3.1+mc26.1.jar";
             "hash" = "sha512-TJ6hhVslzyazG+W3VeUIyDD+KQJUE+b6iakNfvuqpRuBsXhOMlB5hcQZRIxDJToO2deoI0HfMLvrp51A89Fqag==";
         };
+        _kDDOVlc3 = {
+            "id" = "kDDOVlc3";
+            "file" = "enchantments-unbound-4.3.1+mc26.2.jar";
+            "hash" = "sha512-0oYZDlrE447I3Lu0zWZYXhV35YF/ZM3yp5e47r3W959vMnZ3FohewFEO7AdTk3kv3nZ/JDpTFXb8g4IOz020Jg==";
+        };
     in {
         "UbM6kRmG" = _UbM6kRmG;
         "qOvl3CZq" = _qOvl3CZq;
@@ -290,6 +295,7 @@ let
         "XoO8qez5" = _XoO8qez5;
         "WoZeKWuk" = _WoZeKWuk;
         "1UT9sKQh" = _1UT9sKQh;
+        "kDDOVlc3" = _kDDOVlc3;
         "fabric-1.21" = _XoO8qez5;
         "fabric-1.21.1" = _XoO8qez5;
         "fabric-1.21.2" = _XoO8qez5;
@@ -304,6 +310,7 @@ let
         "fabric-1.21.11" = _WoZeKWuk;
         "fabric-26.1" = _1UT9sKQh;
         "fabric-26.1.1" = _1UT9sKQh;
+        "fabric-26.2" = _kDDOVlc3;
         "pkg-1.0.0" = _UbM6kRmG;
         "pkg-1.1.0" = _qOvl3CZq;
         "pkg-1.1.1" = _hMxOcV5j;
@@ -351,7 +358,8 @@ let
         "pkg-4.3.0+mc1.21.4" = _XoO8qez5;
         "pkg-4.3.1+mc1.21.11" = _WoZeKWuk;
         "pkg-4.3.1+mc26.1" = _1UT9sKQh;
-        "default" = _1UT9sKQh;
+        "pkg-4.3.1+mc26.2" = _kDDOVlc3;
+        "default" = _kDDOVlc3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantments-unbound";

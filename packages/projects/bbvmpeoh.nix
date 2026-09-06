@@ -11,13 +11,20 @@ let
             "file" = "Knifes pack from cs2.jar";
             "hash" = "sha512-Lt+Cpox+eAP6rzk47Hjwsc3rVSsQfT9nSvHgzc38NsRB0xvZncTJ9FMZOpnXfPZGyjRAhLWKc+D6tx09dhrjJg==";
         };
+        _leSJKpkp = {
+            "id" = "leSJKpkp";
+            "file" = "Knifes pack from cs2-0.2.1.jar";
+            "hash" = "sha512-nPIMpILML/H3+NWAE4e2o8eW1GTbZQI1CNpc6P9l7ELMZIgPhj00d7LtwL3AuHv1eJDKLDLsf+D9fSmoJuTJaA==";
+        };
     in {
         "oXj5PQt9" = _oXj5PQt9;
         "M3txIeD9" = _M3txIeD9;
-        "forge-1.20.1" = _M3txIeD9;
+        "leSJKpkp" = _leSJKpkp;
+        "forge-1.20.1" = _leSJKpkp;
         "pkg-0.1.0" = _oXj5PQt9;
         "pkg-0.2.0" = _M3txIeD9;
-        "default" = _M3txIeD9;
+        "pkg-0.2.1" = _leSJKpkp;
+        "default" = _leSJKpkp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "knifes-pack-from-cs2";

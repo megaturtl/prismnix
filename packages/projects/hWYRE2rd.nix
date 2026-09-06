@@ -36,6 +36,11 @@ let
             "file" = "LibreLoginProd-0.25.10.jar";
             "hash" = "sha512-5O7LKdMmhUZzaLYT3SKG4zZZRl81YTRSriBDQh8QtcFLVLB/LZcd9ycC6yt7UaasjIeOug2xttvoY2hFjFIcsQ==";
         };
+        _Qp2MdIWT = {
+            "id" = "Qp2MdIWT";
+            "file" = "LibreLoginProd-0.25.11.jar";
+            "hash" = "sha512-qjITWaAuWBoMT5M+hEa2AJp6OmD3NPywHbtoSnlIYYEhIuPRIcpFipqv+rgRXR6/rXFSHoTwxRzqY33byq/csA==";
+        };
     in {
         "DmaohkZe" = _DmaohkZe;
         "k3rOBWZb" = _k3rOBWZb;
@@ -44,6 +49,7 @@ let
         "lvYXyI88" = _lvYXyI88;
         "etTRwzfd" = _etTRwzfd;
         "uR626II6" = _uR626II6;
+        "Qp2MdIWT" = _Qp2MdIWT;
         "paper-1.13" = _etTRwzfd;
         "paper-1.13.1" = _etTRwzfd;
         "paper-1.13.2" = _etTRwzfd;
@@ -87,12 +93,13 @@ let
         "paper-1.21.6" = _etTRwzfd;
         "paper-1.21.7" = _etTRwzfd;
         "paper-1.21.8" = _etTRwzfd;
-        "paper-1.21.9" = _uR626II6;
-        "paper-1.21.10" = _uR626II6;
-        "paper-1.21.11" = _uR626II6;
-        "paper-26.1" = _uR626II6;
-        "paper-26.1.1" = _uR626II6;
-        "paper-26.1.2" = _uR626II6;
+        "paper-1.21.9" = _Qp2MdIWT;
+        "paper-1.21.10" = _Qp2MdIWT;
+        "paper-1.21.11" = _Qp2MdIWT;
+        "paper-26.1" = _Qp2MdIWT;
+        "paper-26.1.1" = _Qp2MdIWT;
+        "paper-26.1.2" = _Qp2MdIWT;
+        "paper-26.2" = _Qp2MdIWT;
         "velocity-1.13" = _etTRwzfd;
         "velocity-1.13.1" = _etTRwzfd;
         "velocity-1.13.2" = _etTRwzfd;
@@ -136,12 +143,13 @@ let
         "velocity-1.21.6" = _etTRwzfd;
         "velocity-1.21.7" = _etTRwzfd;
         "velocity-1.21.8" = _etTRwzfd;
-        "velocity-1.21.9" = _uR626II6;
-        "velocity-1.21.10" = _uR626II6;
-        "velocity-1.21.11" = _uR626II6;
-        "velocity-26.1" = _uR626II6;
-        "velocity-26.1.1" = _uR626II6;
-        "velocity-26.1.2" = _uR626II6;
+        "velocity-1.21.9" = _Qp2MdIWT;
+        "velocity-1.21.10" = _Qp2MdIWT;
+        "velocity-1.21.11" = _Qp2MdIWT;
+        "velocity-26.1" = _Qp2MdIWT;
+        "velocity-26.1.1" = _Qp2MdIWT;
+        "velocity-26.1.2" = _Qp2MdIWT;
+        "velocity-26.2" = _Qp2MdIWT;
         "pkg-0.25.1" = _DmaohkZe;
         "pkg-0.25.2" = _k3rOBWZb;
         "pkg-0.25.3" = _7HS8rg7Z;
@@ -149,7 +157,8 @@ let
         "pkg-0.25.5" = _lvYXyI88;
         "pkg-0.25.8" = _etTRwzfd;
         "pkg-0.25.10" = _uR626II6;
-        "default" = _uR626II6;
+        "pkg-0.25.11" = _Qp2MdIWT;
+        "default" = _Qp2MdIWT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "libreloginprod";

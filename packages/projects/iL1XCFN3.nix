@@ -51,6 +51,36 @@ let
             "file" = "ruined_lighthouse-1.0.2-fabric-1.21.11.jar";
             "hash" = "sha512-/nCDk0/ILbLcWDppCjaCGs3ZrztES1Cj/MlQzmXFjS8guUDAll+12MY3+k3IW7Wma6A4dbz2zcf8iz7nJ8D52Q==";
         };
+        _DiTOxTDD = {
+            "id" = "DiTOxTDD";
+            "file" = "ruined_lighthouse-1.0.0 Fabric 1.21.1.jar";
+            "hash" = "sha512-1WZVnyGcab/pyKikwECwFa6LjQrePUpVpKZsLmk6mQYsYcGChk6q8XhFZ1cG/zcZ5wtvjOnINyu34qSHoUrzBQ==";
+        };
+        _GPrK7HwT = {
+            "id" = "GPrK7HwT";
+            "file" = "ruined_lighthouse-1.0.0 Neoforge 1.21.11.jar";
+            "hash" = "sha512-six3jfFfSmkA9S4a+1SM2XzROUZ1DfMhB/Sf/96LXGqJl3PKsYOZn0GAreY8CTeCqiqDKNNpF6flfmDBpmljgQ==";
+        };
+        _k1ji2JNc = {
+            "id" = "k1ji2JNc";
+            "file" = "ruined_lighthouse-1.0.0 Fabric 26.1.2.jar";
+            "hash" = "sha512-RTXGe0rWJqLIeGe4u6s16FFYjOhWpeiYYwmXQWLSdpieV/MegYW/ODKzsA71CW8xAT8YEON3n0+NVZzOmD+PQw==";
+        };
+        _27T0u7t1 = {
+            "id" = "27T0u7t1";
+            "file" = "ruined_lighthouse-1.0.0 Neoforge 26.1.2.jar";
+            "hash" = "sha512-R8gq2bMfTYe/UKMc9P0gnE6cu74guWMEf3FoVBfZkBUF1qQBZIFGUPTjkugo0FZkpo0EIF7uEnQ3CjXVhycNfg==";
+        };
+        _G0Ih9g5f = {
+            "id" = "G0Ih9g5f";
+            "file" = "ruined_lighthouse-1.0.0 Fabric 26.2.jar";
+            "hash" = "sha512-hUApXkeiCh/8IaK6qQ4oD+82gOVJfND0u8hFIwO4Le+Ib4Tc2ulKVCA1f0RuJ4PT0bgb5Tb/V6xlrlxd1Om3MQ==";
+        };
+        _buKbj3fz = {
+            "id" = "buKbj3fz";
+            "file" = "ruined_lighthouse-1.0.0 Neoforge 26.2.jar";
+            "hash" = "sha512-vpGNPqRKqJzW0QV59n9LqN8ir14hLXct5L5/QVFQ+Iwzrm0e15A3AwPCsQVihQ2cBNXUTnHx2UJ4xCl9jz5cEA==";
+        };
     in {
         "uNj4cFK8" = _uNj4cFK8;
         "asGUVMub" = _asGUVMub;
@@ -62,19 +92,31 @@ let
         "aJ2QK1M9" = _aJ2QK1M9;
         "p4Ra1HgL" = _p4Ra1HgL;
         "UCrjsc70" = _UCrjsc70;
+        "DiTOxTDD" = _DiTOxTDD;
+        "GPrK7HwT" = _GPrK7HwT;
+        "k1ji2JNc" = _k1ji2JNc;
+        "27T0u7t1" = _27T0u7t1;
+        "G0Ih9g5f" = _G0Ih9g5f;
+        "buKbj3fz" = _buKbj3fz;
         "fabric-1.20.1" = _uNj4cFK8;
         "fabric-1.21.8" = _drbI2aVz;
         "fabric-1.21.9" = _aJ2QK1M9;
         "fabric-1.21.10" = _p4Ra1HgL;
         "fabric-1.21.11" = _UCrjsc70;
+        "fabric-1.21.1" = _DiTOxTDD;
+        "fabric-26.1.2" = _k1ji2JNc;
+        "fabric-26.2" = _G0Ih9g5f;
         "forge-1.20.1" = _asGUVMub;
         "neoforge-1.21.1" = _NrxrV48E;
         "neoforge-1.21.4" = _U4FxayTV;
         "neoforge-1.21.8" = _QzpldMb4;
-        "pkg-1.0.0" = _uNj4cFK8;
+        "neoforge-1.21.11" = _GPrK7HwT;
+        "neoforge-26.1.2" = _27T0u7t1;
+        "neoforge-26.2" = _buKbj3fz;
+        "pkg-1.0.0" = _buKbj3fz;
         "pkg-1.0.1" = _UCrjsc70;
         "pkg-1.0.2" = _aJ2QK1M9;
-        "default" = _UCrjsc70;
+        "default" = _buKbj3fz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ruined-lighthouse";

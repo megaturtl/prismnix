@@ -421,6 +421,16 @@ let
             "file" = "bedrockplus-neoforge-26.1-2.0.1.jar";
             "hash" = "sha512-AkWoc6J9hsd+e14o4u757a56HtT0fPLPNuiPe0jUmAQAisRN/VdnvGoDJkczUpA5XLWnGFDMCB0736sEKzRRsQ==";
         };
+        _58zC79RM = {
+            "id" = "58zC79RM";
+            "file" = "bedrockplus-neoforge-26.1-2.0.2.jar";
+            "hash" = "sha512-RBxlBssKEORy3Mj7Cuq0FburGkU9BPFubanQw9/BNIIdAfQXZbn7N8tHgt3Brs2gpCTBYjGnhtK26amUNvEFEw==";
+        };
+        _y8LFleSQ = {
+            "id" = "y8LFleSQ";
+            "file" = "bedrockplus-fabric-26.1-2.0.2.jar";
+            "hash" = "sha512-6yQDmORJL9qYF4MR3FANuTrnk/VVrr/5rHH+/5m2QxbK7wfzLg2TsdQYss7tSCCBTY9KulEGGLdneaQmEwEgmw==";
+        };
     in {
         "wb2bDBxm" = _wb2bDBxm;
         "TcTp6G3a" = _TcTp6G3a;
@@ -506,6 +516,8 @@ let
         "kHHhDVew" = _kHHhDVew;
         "kgiLAWLb" = _kgiLAWLb;
         "9zKl6w69" = _9zKl6w69;
+        "58zC79RM" = _58zC79RM;
+        "y8LFleSQ" = _y8LFleSQ;
         "fabric-1.17.1" = _wb2bDBxm;
         "fabric-1.18.2" = _TcTp6G3a;
         "fabric-1.19" = _AbpJzIOc;
@@ -528,10 +540,10 @@ let
         "fabric-1.21.9" = _ohUjpp0p;
         "fabric-1.21.10" = _ohUjpp0p;
         "fabric-1.21.11" = _QfcO60cV;
-        "fabric-26.1" = _kgiLAWLb;
-        "fabric-26.1.1" = _kgiLAWLb;
-        "fabric-26.1.2" = _kgiLAWLb;
-        "fabric-26.2" = _kgiLAWLb;
+        "fabric-26.1" = _y8LFleSQ;
+        "fabric-26.1.1" = _y8LFleSQ;
+        "fabric-26.1.2" = _y8LFleSQ;
+        "fabric-26.2" = _y8LFleSQ;
         "forge-1.18.2" = _aZG4DB1B;
         "forge-1.19.2" = _w44qETCl;
         "forge-1.19.3" = _9IXTjxxJ;
@@ -571,10 +583,10 @@ let
         "quilt-1.21.9" = _ohUjpp0p;
         "quilt-1.21.10" = _ohUjpp0p;
         "quilt-1.21.11" = _QfcO60cV;
-        "quilt-26.1" = _kgiLAWLb;
-        "quilt-26.1.1" = _kgiLAWLb;
-        "quilt-26.1.2" = _kgiLAWLb;
-        "quilt-26.2" = _kgiLAWLb;
+        "quilt-26.1" = _y8LFleSQ;
+        "quilt-26.1.1" = _y8LFleSQ;
+        "quilt-26.1.2" = _y8LFleSQ;
+        "quilt-26.2" = _y8LFleSQ;
         "neoforge-1.20.6" = _mkGSwn9k;
         "neoforge-1.21" = _swgS1m4W;
         "neoforge-1.21.1" = _swgS1m4W;
@@ -587,10 +599,10 @@ let
         "neoforge-1.21.9" = _CfpPh1Nd;
         "neoforge-1.21.10" = _CfpPh1Nd;
         "neoforge-1.21.11" = _1nTzTOax;
-        "neoforge-26.1" = _9zKl6w69;
-        "neoforge-26.1.1" = _9zKl6w69;
-        "neoforge-26.1.2" = _9zKl6w69;
-        "neoforge-26.2" = _9zKl6w69;
+        "neoforge-26.1" = _58zC79RM;
+        "neoforge-26.1.1" = _58zC79RM;
+        "neoforge-26.1.2" = _58zC79RM;
+        "neoforge-26.2" = _58zC79RM;
         "pkg-1.2.1" = _nuwp16tY;
         "pkg-1.2.1.1" = _jLo7GGPw;
         "pkg-1.3.0" = _h6nR0w6E;
@@ -609,7 +621,8 @@ let
         "pkg-1.10.0" = _kHHhDVew;
         "pkg-2.0.0" = _TPryceKf;
         "pkg-2.0.1" = _9zKl6w69;
-        "default" = _9zKl6w69;
+        "pkg-2.0.2" = _y8LFleSQ;
+        "default" = _y8LFleSQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "-bedrock-plus";

@@ -61,12 +61,12 @@ let
         type = "shader";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "CC-BY-4.0" {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "Creative Commons Attribution 4.0 International";
-                shortName = "CC-BY-4.0";
+                fullName = "MIT License";
+                shortName = "MIT";
                 url = null;
             };
         };

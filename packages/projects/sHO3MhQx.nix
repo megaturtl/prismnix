@@ -66,6 +66,21 @@ let
             "file" = "struts-1.3.0.jar";
             "hash" = "sha512-gYN+l+vAgb1K+w1FaDfntZj3nDex0xh051UNSi9C+MhkWH+aBPRPFPF16c9piEzS5ZP6H7MVcnBAr/odacLfBg==";
         };
+        _f8hyovks = {
+            "id" = "f8hyovks";
+            "file" = "struts-1.1.1+mc1.20.1.jar";
+            "hash" = "sha512-K60Ilt+LhfBzJ+PYu6lKvu2e9M9DiYjgO2BQTNQHgcSsttpVDHjoh0VqnREagoHSXh4RQXycmlXGieZRFSK/IA==";
+        };
+        _wQHaD7LI = {
+            "id" = "wQHaD7LI";
+            "file" = "struts-1.1.1+mc1.20.1.jar";
+            "hash" = "sha512-K60Ilt+LhfBzJ+PYu6lKvu2e9M9DiYjgO2BQTNQHgcSsttpVDHjoh0VqnREagoHSXh4RQXycmlXGieZRFSK/IA==";
+        };
+        _BOTN7zzN = {
+            "id" = "BOTN7zzN";
+            "file" = "struts-1.3.1.jar";
+            "hash" = "sha512-98nDtmySbBY6jHR9O1DEVYnxeWcRvJ3g47s/AkyxilUum3325me4E9EqulA3ejmhzYCkk5JfFk3ricip3HCfSQ==";
+        };
     in {
         "Nd9MCI5M" = _Nd9MCI5M;
         "3g8TrDiB" = _3g8TrDiB;
@@ -80,8 +95,11 @@ let
         "LlB8fR3U" = _LlB8fR3U;
         "pxEpzVUe" = _pxEpzVUe;
         "Nrn7hYca" = _Nrn7hYca;
-        "neoforge-1.21.1" = _Nrn7hYca;
-        "forge-1.20.1" = _Rx1n7jwi;
+        "f8hyovks" = _f8hyovks;
+        "wQHaD7LI" = _wQHaD7LI;
+        "BOTN7zzN" = _BOTN7zzN;
+        "neoforge-1.21.1" = _BOTN7zzN;
+        "forge-1.20.1" = _wQHaD7LI;
         "pkg-1.0.0-SNAPSHOT" = _Nd9MCI5M;
         "pkg-1.0.0" = _3g8TrDiB;
         "pkg-1.0.1" = _rrC7WUvo;
@@ -95,7 +113,9 @@ let
         "pkg-1.2.5" = _LlB8fR3U;
         "pkg-1.2.7" = _pxEpzVUe;
         "pkg-1.3.0" = _Nrn7hYca;
-        "default" = _Nrn7hYca;
+        "pkg-1.1.1+mc1.20.1" = _wQHaD7LI;
+        "pkg-1.3.1" = _BOTN7zzN;
+        "default" = _BOTN7zzN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "strut-your-stuff";

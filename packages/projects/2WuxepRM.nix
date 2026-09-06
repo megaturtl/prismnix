@@ -96,6 +96,16 @@ let
             "file" = "Mega Showdown Repolished.zip";
             "hash" = "sha512-ZheVN0AorDopfmtMdgB9FbrXJ08k1Aqp+tpgwW9Z8+OrqVGnzzfwP+zk+Vga9CeZWoeKcOcqMRpxuyrbbZko5w==";
         };
+        _sj9xoa7Q = {
+            "id" = "sj9xoa7Q";
+            "file" = "Mega Showdown Repolished.zip";
+            "hash" = "sha512-A2Sda1f5pY/RWcS0WyaQmpHBM6BZbZZPUfsTc8gA8hPT2N1OM9EwHtQi/Rd7QDk8rp0pWajFxPqOJFMuje7Jiw==";
+        };
+        _K9W0Pfkp = {
+            "id" = "K9W0Pfkp";
+            "file" = "Mega Showdown Repolished.zip";
+            "hash" = "sha512-pV/CdyCKLLKvy/rH/JeiL7k7lB5zWRVoiNGvqeVyTdbgXMN2O70DSftDPbvcluWvjjoMqN/k4RzSwW8m5QWbwg==";
+        };
     in {
         "Fu0l30HX" = _Fu0l30HX;
         "VpYcBDDm" = _VpYcBDDm;
@@ -116,7 +126,9 @@ let
         "eBbqumYP" = _eBbqumYP;
         "s6G1phnd" = _s6G1phnd;
         "oPJupU2x" = _oPJupU2x;
-        "minecraft-1.21.1" = _oPJupU2x;
+        "sj9xoa7Q" = _sj9xoa7Q;
+        "K9W0Pfkp" = _K9W0Pfkp;
+        "minecraft-1.21.1" = _K9W0Pfkp;
         "pkg-1.0" = _Fu0l30HX;
         "pkg-1.1" = _VpYcBDDm;
         "pkg-1.2" = _tu87wGZX;
@@ -136,7 +148,9 @@ let
         "pkg-1.11.1" = _eBbqumYP;
         "pkg-1.12.0" = _s6G1phnd;
         "pkg-1.12.1" = _oPJupU2x;
-        "default" = _oPJupU2x;
+        "pkg-1.12.2" = _sj9xoa7Q;
+        "pkg-1.12.2.1" = _K9W0Pfkp;
+        "default" = _K9W0Pfkp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "megashowdown_repolished";

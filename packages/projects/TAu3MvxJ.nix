@@ -756,6 +756,11 @@ let
             "file" = "MoreWeaponVariants-1.6.1+26.1(2)-Fabric.jar";
             "hash" = "sha512-iLz2Ul5wqCm1gj+tsQB+y4lJVdg96MtaAhnhrfGaiYoRjntb+x2le9nH3kCKnZ4MbYsL/9K7rqxsYarkpwtRtg==";
         };
+        _2TSD1Gvz = {
+            "id" = "2TSD1Gvz";
+            "file" = "MoreWeaponVariants-1.6.2+26.1(2)-Fabric.jar";
+            "hash" = "sha512-IpVogIgsnFPP6rJ5Nwm8KUgfArmS8IM+VQgfVkSsoqVlGYYS++ZXtMGVum5z39zbr1VF/+oinQF9NQXsdqRUEw==";
+        };
     in {
         "3HMvyB5L" = _3HMvyB5L;
         "78NwTtKS" = _78NwTtKS;
@@ -908,6 +913,7 @@ let
         "38N0iDsn" = _38N0iDsn;
         "sbKymYO2" = _sbKymYO2;
         "iZaZ1pMg" = _iZaZ1pMg;
+        "2TSD1Gvz" = _2TSD1Gvz;
         "fabric-1.20.1" = _o6EIm9Go;
         "fabric-1.20.4" = _tTvOHIAF;
         "fabric-1.20.5" = _ASEdOzju;
@@ -928,10 +934,10 @@ let
         "fabric-1.21.11-pre3" = _r2LEAnTl;
         "fabric-1.21.11-pre4" = _r2LEAnTl;
         "fabric-1.21.11" = _sbKymYO2;
-        "fabric-26.1" = _iZaZ1pMg;
-        "fabric-26.1.1" = _iZaZ1pMg;
-        "fabric-26.1.2" = _iZaZ1pMg;
-        "fabric-26w14a" = _M8GXDr3B;
+        "fabric-26.1" = _2TSD1Gvz;
+        "fabric-26.1.1" = _2TSD1Gvz;
+        "fabric-26.1.2" = _2TSD1Gvz;
+        "fabric-26w14a" = _2TSD1Gvz;
         "fabric-26.2-snapshot-2" = _sF8OZVgv;
         "fabric-26.2-snapshot-3" = _sF8OZVgv;
         "fabric-26.2-snapshot-4" = _sF8OZVgv;
@@ -947,7 +953,7 @@ let
         "fabric-26.2-pre-6" = _sF8OZVgv;
         "fabric-26.2-rc-1" = _sF8OZVgv;
         "fabric-26.2-rc-2" = _sF8OZVgv;
-        "fabric-26.2" = _iZaZ1pMg;
+        "fabric-26.2" = _2TSD1Gvz;
         "pkg-1.0.0" = _K879Wtzp;
         "pkg-1.0.1" = _tDgKIKf8;
         "pkg-1.0.2" = _sb4Z31v7;
@@ -984,7 +990,8 @@ let
         "pkg-1.5.13" = _sF8OZVgv;
         "pkg-1.6.0" = _M8GXDr3B;
         "pkg-1.6.1" = _iZaZ1pMg;
-        "default" = _iZaZ1pMg;
+        "pkg-1.6.2" = _2TSD1Gvz;
+        "default" = _2TSD1Gvz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-weapon-variants";

@@ -121,6 +121,16 @@ let
             "file" = "enchant-icons-1.21.5-v1.3.zip";
             "hash" = "sha512-PBwxA0nJAF+cFJG0MViSrk6Mf+7e2oupf2KjnYTjyU/a7NM3Hk4+QhzFknNLCXQ4aTLhdIp88uq0qpffypbFSA==";
         };
+        _R2ROp4no = {
+            "id" = "R2ROp4no";
+            "file" = "enchant-icons-26.1-26.1.2-v1.3.zip";
+            "hash" = "sha512-puFo7IJLD5GKSFfygZAfI3mn/X2FJlYthawjhNRGIVqtt2C/56fNjiDKXJ6TPZFmh+rFlQBZf+6wSZqyoGCVcw==";
+        };
+        _ri9HvO3m = {
+            "id" = "ri9HvO3m";
+            "file" = "enchant-icons-26.2-v1.3.zip";
+            "hash" = "sha512-qN8IcyjNokbelkxdJg3XG12B8A4Xu18ef0drdNMFzu44dC+/Zb9g5LOwph3MVKAJkqwm7GwkjnVXqB+sghA8eQ==";
+        };
     in {
         "UluC7X2M" = _UluC7X2M;
         "xCbfwgKQ" = _xCbfwgKQ;
@@ -146,6 +156,8 @@ let
         "mAFy08PW" = _mAFy08PW;
         "vInzMXvx" = _vInzMXvx;
         "oOFVZ8LQ" = _oOFVZ8LQ;
+        "R2ROp4no" = _R2ROp4no;
+        "ri9HvO3m" = _ri9HvO3m;
         "minecraft-1.18" = _DNECzf8Z;
         "minecraft-1.18.1" = _DNECzf8Z;
         "minecraft-1.18.2" = _DNECzf8Z;
@@ -173,11 +185,15 @@ let
         "minecraft-1.21.10" = _mAFy08PW;
         "minecraft-1.21.11" = _vInzMXvx;
         "minecraft-1.21.5" = _oOFVZ8LQ;
+        "minecraft-26.1" = _R2ROp4no;
+        "minecraft-26.1.1" = _R2ROp4no;
+        "minecraft-26.1.2" = _R2ROp4no;
+        "minecraft-26.2" = _ri9HvO3m;
         "pkg-v1.1" = _4rmD0lPM;
         "pkg-v1.2" = _2MjezNbu;
         "pkg-v1.3" = _vInzMXvx;
-        "pkg-1.3" = _oOFVZ8LQ;
-        "default" = _oOFVZ8LQ;
+        "pkg-1.3" = _ri9HvO3m;
+        "default" = _ri9HvO3m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchant-icons-countxd";

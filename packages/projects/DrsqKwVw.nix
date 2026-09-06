@@ -1231,6 +1231,56 @@ let
             "file" = "kingdomkeys-1.21.1-2.9.1a.jar";
             "hash" = "sha512-o3nieSabAqbMw26ciIKDsUVNiILqBHAZNcpXuk2wPaeIRSPQBZjVuF5vZ69gTn8j+XKUNqP0ofe4hJxWwI86dg==";
         };
+        _A2GdFodJ = {
+            "id" = "A2GdFodJ";
+            "file" = "kingdomkeys-1.21.1-2.9.1b.jar";
+            "hash" = "sha512-I/wEadhPEts9pMaB3uoLfisA230KwgtKuIlR+0YFl2fM7byQNglGQx273l19IxsMcge2wqeg8qJR44GnB7MtxA==";
+        };
+        _CysKmHYI = {
+            "id" = "CysKmHYI";
+            "file" = "kingdomkeys-1.21.1-2.9.2a.jar";
+            "hash" = "sha512-gSUt4hcgoGzHzvIalvKX+7TDmE7lvW6DdAI9EkiJJ95ayglHtvLXyUp28RliN3d7BAfS6AyiIc9aBs7lufkgLQ==";
+        };
+        _shO5T10o = {
+            "id" = "shO5T10o";
+            "file" = "kingdomkeys-1.21.1-2.9.2b.jar";
+            "hash" = "sha512-pnwVFCzAiekVPhTFXmh+GgdnJVVHn0P3X8NHwV7TkqSgLHe6Ne7o4wXB/M4AYu9ZSm/0MSYj4jO9g6UYy6CLsQ==";
+        };
+        _yRXLsJ3T = {
+            "id" = "yRXLsJ3T";
+            "file" = "kingdomkeys-1.21.1-2.9.2c.jar";
+            "hash" = "sha512-NIy2Iqp2KyyHHYwABJYEPfaGOHf1/zKOhMBj1wt2507Wg0WUcct+arbBh/vv/91HOM0haOEndq+1D+7GHA17vQ==";
+        };
+        _invDJpks = {
+            "id" = "invDJpks";
+            "file" = "kingdomkeys-1.21.1-2.9.2d.jar";
+            "hash" = "sha512-w/WXUUaYv1nIo3mDV3sfV7WTJ2QFnW80Cx4+qP0pBkGSfei77EHCz6WVeAGC/mrBdShUp2a4d6iV2GGk/mKplw==";
+        };
+        _dp9W0xmx = {
+            "id" = "dp9W0xmx";
+            "file" = "kingdomkeys-1.21.1-2.9.3a.jar";
+            "hash" = "sha512-QxpxqOuxhRcduna7KovlqfVTy4pF4huFsIaCv3mnQeMgm9gkjZl5qh16+6+mQd0v3NGjtoLOOUNPP97m7mIhlg==";
+        };
+        _sFATgURL = {
+            "id" = "sFATgURL";
+            "file" = "kingdomkeys-1.21.1-2.9.3b.jar";
+            "hash" = "sha512-pELcqexgQESG/X/Shg/n7gCGOAGoz5FncGsGwCJ64dK5vBDMQa2E4PlbKEXMgRJbaRK/eM9sV4naZrkD6Hj1lw==";
+        };
+        _PIWhDLH2 = {
+            "id" = "PIWhDLH2";
+            "file" = "kingdomkeys-1.21.1-2.9.3c.jar";
+            "hash" = "sha512-DF0vUTfK5YN4EfbRMrxTNtPL4tGd0cidwY7pxANIv8kUfcxEWy+Xt+q/9Lnmu+yFjx2CJ9BdmNl6x2cRbwX8JQ==";
+        };
+        _xOnNJFa9 = {
+            "id" = "xOnNJFa9";
+            "file" = "kingdomkeys-1.21.1-2.9.3d.jar";
+            "hash" = "sha512-DR341eUxhzQqphMM0iBQ6FACG/KouqfyQy4etLkG6cvzUgMl+2hpTL7oeB/K7Rqx0tx37hV6uqj5TzbACw1VNg==";
+        };
+        _AB92PAeX = {
+            "id" = "AB92PAeX";
+            "file" = "kingdomkeys-1.21.1-2.9.3e.jar";
+            "hash" = "sha512-w5SsKpgoBKdbzf45x0ns3fd8WhAhRZYEkLgyX1Od/XgQ5FWcS67dE8Vu2/MLILKFERre4o6HqTGQb9VZ3OkItg==";
+        };
     in {
         "OfOTa4rl" = _OfOTa4rl;
         "k7WJLcDb" = _k7WJLcDb;
@@ -1478,6 +1528,16 @@ let
         "ZC7vQTJ9" = _ZC7vQTJ9;
         "iGrlwYyi" = _iGrlwYyi;
         "rNcKGGJK" = _rNcKGGJK;
+        "A2GdFodJ" = _A2GdFodJ;
+        "CysKmHYI" = _CysKmHYI;
+        "shO5T10o" = _shO5T10o;
+        "yRXLsJ3T" = _yRXLsJ3T;
+        "invDJpks" = _invDJpks;
+        "dp9W0xmx" = _dp9W0xmx;
+        "sFATgURL" = _sFATgURL;
+        "PIWhDLH2" = _PIWhDLH2;
+        "xOnNJFa9" = _xOnNJFa9;
+        "AB92PAeX" = _AB92PAeX;
         "forge-1.5.2" = _OfOTa4rl;
         "forge-1.6.2" = _FOx5Sp5O;
         "forge-1.6.4" = _bHfTmppT;
@@ -1501,7 +1561,7 @@ let
         "forge-1.19.4" = _cVzv5Wcg;
         "forge-1.20.1" = _BCAy9Iw9;
         "neoforge-1.20.1" = _nQTQfjyi;
-        "neoforge-1.21.1" = _rNcKGGJK;
+        "neoforge-1.21.1" = _AB92PAeX;
         "pkg-0.3.0" = _OfOTa4rl;
         "pkg-0.3.2" = _k7WJLcDb;
         "pkg-0.3.3" = _pCPdNqiL;
@@ -1745,7 +1805,17 @@ let
         "pkg-2.9.0a-1.21.1" = _ZC7vQTJ9;
         "pkg-2.9.0b-1.21.1" = _iGrlwYyi;
         "pkg-2.9.1a-1.21.1" = _rNcKGGJK;
-        "default" = _rNcKGGJK;
+        "pkg-2.9.1b-1.21.1" = _A2GdFodJ;
+        "pkg-2.9.2a-1.21.1" = _CysKmHYI;
+        "pkg-2.9.2b-1.21.1" = _shO5T10o;
+        "pkg-2.9.2c-1.21.1" = _yRXLsJ3T;
+        "pkg-2.9.2d-1.21.1" = _invDJpks;
+        "pkg-2.9.3a-1.21.1" = _dp9W0xmx;
+        "pkg-2.9.3b-1.21.1" = _sFATgURL;
+        "pkg-2.9.3c-1.21.1" = _PIWhDLH2;
+        "pkg-2.9.3d-1.21.1" = _xOnNJFa9;
+        "pkg-2.9.3e-1.21.1" = _AB92PAeX;
+        "default" = _AB92PAeX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kingdom-keys-2";

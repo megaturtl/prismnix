@@ -41,6 +41,16 @@ let
             "file" = "powerborne-heroes-1.20.1-0.4.1.jar";
             "hash" = "sha512-j/H138xJ1HGXPN4oTA2Cysdi6R8bZy1frbamhdof3SPBIaO7GcPnch73wd8oKlF4HIi6nCSAiXgleM+XXVcLbA==";
         };
+        _EVnEYKwz = {
+            "id" = "EVnEYKwz";
+            "file" = "powerborne-heroes-1.20.1-0.5.0.jar";
+            "hash" = "sha512-4p67VgfqZXMH7Y4veN+FeN1AIviI4HIYJb9zrOqTTuckzKKv6twdU4Gs7lv/yzEjd7aOte/NjfjwAZOL9kf1ZQ==";
+        };
+        _QkGoO0vJ = {
+            "id" = "QkGoO0vJ";
+            "file" = "powerborne-heroes-1.20.1-0.5.1.jar";
+            "hash" = "sha512-k1EE2QxYR73zL+KVx1Md29DiOv5QYj6gcrPQCLnzNEgTP0TWu9i4ERyDJn+wqUaNSXc4Dnl4moVbv+UD8UU2YA==";
+        };
     in {
         "ZWraLPJw" = _ZWraLPJw;
         "RlmaAOAI" = _RlmaAOAI;
@@ -50,8 +60,10 @@ let
         "pcqizhJP" = _pcqizhJP;
         "wUtFPahh" = _wUtFPahh;
         "fwQbkW9m" = _fwQbkW9m;
-        "fabric-1.20.1" = _fwQbkW9m;
-        "forge-1.20.1" = _fwQbkW9m;
+        "EVnEYKwz" = _EVnEYKwz;
+        "QkGoO0vJ" = _QkGoO0vJ;
+        "fabric-1.20.1" = _QkGoO0vJ;
+        "forge-1.20.1" = _QkGoO0vJ;
         "pkg-0.1.0" = _ZWraLPJw;
         "pkg-0.1.1" = _RlmaAOAI;
         "pkg-0.2.0" = _QVbvjt00;
@@ -60,7 +72,9 @@ let
         "pkg-0.3.2" = _pcqizhJP;
         "pkg-0.4.0" = _wUtFPahh;
         "pkg-0.4.1" = _fwQbkW9m;
-        "default" = _fwQbkW9m;
+        "pkg-0.5.0" = _EVnEYKwz;
+        "pkg-0.5.1" = _QkGoO0vJ;
+        "default" = _QkGoO0vJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "powerborne-heroes";

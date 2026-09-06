@@ -101,6 +101,16 @@ let
             "file" = "UsefulMagic-NeoForge-1.21.1-3.0.3.jar";
             "hash" = "sha512-zgbvtV+08a+Mg6VnamBUrlEPZWuJaO+7U6RsVSXPCO/fZs3ZoRI9E2MPKzT1/3GhhqhvoWSYHxEwZo3vQVvnEA==";
         };
+        _KR7LomUY = {
+            "id" = "KR7LomUY";
+            "file" = "UsefulMagic-Fabric-1.21.1-3.1.1.jar";
+            "hash" = "sha512-UV1Rfwxjge4bMgW61yhaWeMi3nio35VIR2siKCx8KaZNtfEwStzhlEB3jSAJpOekFUoklQaU30PJmCFvuFSHZA==";
+        };
+        _tkuwx9YJ = {
+            "id" = "tkuwx9YJ";
+            "file" = "UsefulMagic-NeoForge-1.21.1-3.1.1.jar";
+            "hash" = "sha512-2qCdSRkXRDUAPQlxEZnilr25XSrA3mJBRqXFbWRkQ9E40HJDUiqasjJJd47rQ/TFUHS4fvPBg6x6y6VJ9o0K/g==";
+        };
     in {
         "J8PsHkcB" = _J8PsHkcB;
         "NqBFgvCw" = _NqBFgvCw;
@@ -122,8 +132,10 @@ let
         "sO333m1x" = _sO333m1x;
         "ze79wnwe" = _ze79wnwe;
         "CDvflNk2" = _CDvflNk2;
-        "fabric-1.21.1" = _ze79wnwe;
-        "neoforge-1.21.1" = _CDvflNk2;
+        "KR7LomUY" = _KR7LomUY;
+        "tkuwx9YJ" = _tkuwx9YJ;
+        "fabric-1.21.1" = _KR7LomUY;
+        "neoforge-1.21.1" = _tkuwx9YJ;
         "pkg-1.0.0" = _J8PsHkcB;
         "pkg-1.0.1" = _NqBFgvCw;
         "pkg-1.1" = _s8GEMi48;
@@ -138,7 +150,8 @@ let
         "pkg-3.0.1" = _hXLgDwmE;
         "pkg-3.0.2" = _sO333m1x;
         "pkg-3.0.3" = _CDvflNk2;
-        "default" = _CDvflNk2;
+        "pkg-3.1.1" = _tkuwx9YJ;
+        "default" = _tkuwx9YJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "usefulmagic";

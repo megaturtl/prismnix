@@ -11,16 +11,24 @@ let
             "file" = "lucium-1.5-pre1.jar";
             "hash" = "sha512-ceYDP4R9pP0RdD0MqhW7VfBuZ8HsXzJ4/13YEzoT7OD5HwUwxokdBkCXvVXtZAcWDAQ8yd56JdrNRjloFU3I3A==";
         };
+        _7dsykDbN = {
+            "id" = "7dsykDbN";
+            "file" = "lucium-2.0.3+1.20.1.jar";
+            "hash" = "sha512-n/ZMFbWmoENp4uq5bmMv6PALG3l2Eczlb5frZrlpaiCehP674vGEas0rjTJtRoTVWv7FeNv+als51iZnuUMLbg==";
+        };
     in {
         "RioeRfdG" = _RioeRfdG;
         "vVCqkoCk" = _vVCqkoCk;
+        "7dsykDbN" = _7dsykDbN;
         "fabric-1.19.1" = _RioeRfdG;
         "fabric-1.19.2" = _vVCqkoCk;
+        "fabric-1.20.1" = _7dsykDbN;
         "quilt-1.19.1" = _RioeRfdG;
         "quilt-1.19.2" = _vVCqkoCk;
         "pkg-1.1" = _RioeRfdG;
         "pkg-1.5-pre1" = _vVCqkoCk;
-        "default" = _vVCqkoCk;
+        "pkg-2.0.3+1.20.1" = _7dsykDbN;
+        "default" = _7dsykDbN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lucium";

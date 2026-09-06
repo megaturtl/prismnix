@@ -41,6 +41,11 @@ let
             "file" = "SophUpgradeAddons-0.8.2.jar";
             "hash" = "sha512-SyE95WqR3mbRjLs2HojWrt3/i6LXa+EigwjYHld+hLW72N78EW7Fdus+sgaGY3ROC94WiVZdzNv7VjsCvDEnjA==";
         };
+        _ncgVG12e = {
+            "id" = "ncgVG12e";
+            "file" = "SophUpgradeAddons-0.8.5.jar";
+            "hash" = "sha512-GpDFfyAK+Gh+F2UPDFz51UU+vCTA245JuoPqtrXKZeWpjyL6PvuYiW6IpmDPkJdil3YpqbS2S599fitevYe6MA==";
+        };
     in {
         "IFfOS7vC" = _IFfOS7vC;
         "CfD2C8Nm" = _CfD2C8Nm;
@@ -50,7 +55,8 @@ let
         "YZIUUFrV" = _YZIUUFrV;
         "DwYvLReA" = _DwYvLReA;
         "6B2EXFxm" = _6B2EXFxm;
-        "forge-1.20.1" = _6B2EXFxm;
+        "ncgVG12e" = _ncgVG12e;
+        "forge-1.20.1" = _ncgVG12e;
         "pkg-0.5.3" = _IFfOS7vC;
         "pkg-0.5.4" = _CfD2C8Nm;
         "pkg-0.7.0" = _6Tu2ARQn;
@@ -59,7 +65,8 @@ let
         "pkg-0.7.3" = _YZIUUFrV;
         "pkg-0.8.0" = _DwYvLReA;
         "pkg-0.8.2" = _6B2EXFxm;
-        "default" = _6B2EXFxm;
+        "pkg-0.8.5" = _ncgVG12e;
+        "default" = _ncgVG12e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "soph-upgrade-addons";

@@ -76,6 +76,16 @@ let
             "file" = "Create-Henry-fabric-1.20.1-1.0.3-6.0.jar";
             "hash" = "sha512-YOhmWFJdFsjSoVi4Tz62lotVrB3mAZ8XStJhk4/l2ffkqkGInW5jp+siT+h1CE+MYJOb0Uc8AycPJ4laDVITJA==";
         };
+        _Zo4DXd8U = {
+            "id" = "Zo4DXd8U";
+            "file" = "Create-Henry-1.20.1-1.0.4-6.0.jar";
+            "hash" = "sha512-Zbvr4xwE1Vxf0y8up4tZeED0v9fuceRpkE585LbnBoG48czSdG/CZ1aTRT+XNIADcrLYqZDxGKo2d+Oil+DcXw==";
+        };
+        _40ZWyNo0 = {
+            "id" = "40ZWyNo0";
+            "file" = "Create-Henry-fabric-1.20.1-1.0.4-6.0.jar";
+            "hash" = "sha512-bu21K4TVAtJLU7T9o3pmEKlIfBYwOG/M1khwMYEklct6/WF43qOKsNVcxwnO3AZL6d+CNG7Dn9RJI9J3Jyl5QA==";
+        };
     in {
         "SERW5zMo" = _SERW5zMo;
         "6K2HO4Zp" = _6K2HO4Zp;
@@ -92,8 +102,10 @@ let
         "wxsSYLLE" = _wxsSYLLE;
         "5kUzGHAd" = _5kUzGHAd;
         "2ZYX2H59" = _2ZYX2H59;
-        "forge-1.20.1" = _5kUzGHAd;
-        "fabric-1.20.1" = _2ZYX2H59;
+        "Zo4DXd8U" = _Zo4DXd8U;
+        "40ZWyNo0" = _40ZWyNo0;
+        "forge-1.20.1" = _Zo4DXd8U;
+        "fabric-1.20.1" = _40ZWyNo0;
         "pkg-0.0.1-6.0" = _SERW5zMo;
         "pkg-0.0.1-5.1" = _6K2HO4Zp;
         "pkg-0.0.2-5.1" = _9CBbUYZV;
@@ -109,7 +121,9 @@ let
         "pkg-1.0.2-Fabric" = _wxsSYLLE;
         "pkg-1.0.3-Forge" = _5kUzGHAd;
         "pkg-1.0.3-Fabric" = _2ZYX2H59;
-        "default" = _2ZYX2H59;
+        "pkg-1.0.4-Forge" = _Zo4DXd8U;
+        "pkg-1.0.4-Fabric" = _40ZWyNo0;
+        "default" = _40ZWyNo0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-henry";

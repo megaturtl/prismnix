@@ -171,6 +171,36 @@ let
             "file" = "reconstructedwands-neoforge-26.2-1.1.4.jar";
             "hash" = "sha512-nAfgSvUeJC8UHAuLzsdx0jDVJTQZG63HasE1ZCPQ0eeuwMlsgeGw/7yaZv0wDfVKGt2ZuQlinM4HuJGglKt9GQ==";
         };
+        _odCS0KFp = {
+            "id" = "odCS0KFp";
+            "file" = "reconstructedwands-fabric-1.20.1-1.1.5.jar";
+            "hash" = "sha512-u9tsDVeNTV71My6usEAWFovhEfSzP4cXhtMw6hIGNzIpjU9QDWAxa5rBWokXMcxoa5kJq/zT+KPgSyYhvgMYdg==";
+        };
+        _FlKqi7og = {
+            "id" = "FlKqi7og";
+            "file" = "reconstructedwands-fabric-1.21.1-1.1.5.jar";
+            "hash" = "sha512-fAgnHU94RWq2vgC+5j3BnmFI4cWpLKkhPHApjmAKFMBFr0E8hBg5Xhee0+d+222lfE8LMje4bHQQ8UDtNbDI+w==";
+        };
+        _aGpYK9pP = {
+            "id" = "aGpYK9pP";
+            "file" = "reconstructedwands-fabric-26.2-1.1.5.jar";
+            "hash" = "sha512-tvYJ+DRSN76coLNh69R04lVhoIy1TUiKo1ZCjxzfI1mYyknc8ls0P6GYOaN1sThqIVeNtqkSqwAHwAztDeWtkw==";
+        };
+        _waxpyfWe = {
+            "id" = "waxpyfWe";
+            "file" = "reconstructedwands-forge-1.20.1-1.1.5.jar";
+            "hash" = "sha512-nDq54GoBQHd06IcpNA8+A+SmE3UG9bBKBjfHhZg7TfYf94azYY8KvrHbnbBZPmO+b+Drj2dJlZrWZaxCBzHOMQ==";
+        };
+        _CrzyXHZ5 = {
+            "id" = "CrzyXHZ5";
+            "file" = "reconstructedwands-neoforge-1.21.1-1.1.5.jar";
+            "hash" = "sha512-UPb0AN/LdxGYEhsrrzUEtj7zxbsxrGF3kBUUU4rX6WOR+s9IKk9WvmQnzmArRFQZyvXxvFf8wYIjmMaFFR4lyw==";
+        };
+        _ArxcjK0Q = {
+            "id" = "ArxcjK0Q";
+            "file" = "reconstructedwands-neoforge-26.2-1.1.5.jar";
+            "hash" = "sha512-Jekwv/n6fNcL5tCnbCVmvc4K3Lg9O9glaWaPPUnS23MVzXIV+0AWph7+H0BMsYMkFqHYwdG3PwyL4UuRN4yDMQ==";
+        };
     in {
         "JEkqCnZf" = _JEkqCnZf;
         "oqWEMNI8" = _oqWEMNI8;
@@ -206,21 +236,27 @@ let
         "C4LuLe2l" = _C4LuLe2l;
         "HZiKN8cT" = _HZiKN8cT;
         "QN2pJAvB" = _QN2pJAvB;
-        "neoforge-1.21.1" = _HZiKN8cT;
+        "odCS0KFp" = _odCS0KFp;
+        "FlKqi7og" = _FlKqi7og;
+        "aGpYK9pP" = _aGpYK9pP;
+        "waxpyfWe" = _waxpyfWe;
+        "CrzyXHZ5" = _CrzyXHZ5;
+        "ArxcjK0Q" = _ArxcjK0Q;
+        "neoforge-1.21.1" = _CrzyXHZ5;
         "neoforge-1.21.2" = _WnAVRjOK;
         "neoforge-1.21.3" = _hol6LY2Q;
         "neoforge-1.21.4" = _VmDifNyj;
         "neoforge-1.21.5" = _58kWM4j4;
         "neoforge-1.20.1" = _to2icQEF;
-        "neoforge-26.2" = _QN2pJAvB;
-        "fabric-1.21.1" = _V8Klp41c;
+        "neoforge-26.2" = _ArxcjK0Q;
+        "fabric-1.21.1" = _FlKqi7og;
         "fabric-1.21.2" = _Lbi4ftr5;
         "fabric-1.21.3" = _7oXvMmhC;
         "fabric-1.21.4" = _y8fAwBiB;
         "fabric-1.21.5" = _H6oNJvn7;
-        "fabric-1.20.1" = _eV0QTsZY;
-        "fabric-26.2" = _n7YCb9GB;
-        "forge-1.20.1" = _C4LuLe2l;
+        "fabric-1.20.1" = _odCS0KFp;
+        "fabric-26.2" = _aGpYK9pP;
+        "forge-1.20.1" = _waxpyfWe;
         "pkg-1.0.0" = _H6oNJvn7;
         "pkg-1.1.0" = _rMcsbrpA;
         "pkg-1.1.1" = _sU89e806;
@@ -231,7 +267,13 @@ let
         "pkg-1.1.4+forge-1.20.1" = _C4LuLe2l;
         "pkg-1.1.4+neoforge-1.21.1" = _HZiKN8cT;
         "pkg-1.1.4+neoforge-26.2" = _QN2pJAvB;
-        "default" = _QN2pJAvB;
+        "pkg-1.1.5+fabric-1.20.1" = _odCS0KFp;
+        "pkg-1.1.5+fabric-1.21.1" = _FlKqi7og;
+        "pkg-1.1.5+fabric-26.2" = _aGpYK9pP;
+        "pkg-1.1.5+forge-1.20.1" = _waxpyfWe;
+        "pkg-1.1.5+neoforge-1.21.1" = _CrzyXHZ5;
+        "pkg-1.1.5+neoforge-26.2" = _ArxcjK0Q;
+        "default" = _ArxcjK0Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reconstructed-wands";
@@ -239,12 +281,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "MIT" {
+            license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "MIT License";
-                shortName = "MIT";
+                fullName = "Apache License 2.0";
+                shortName = "Apache-2.0";
                 url = null;
             };
         };

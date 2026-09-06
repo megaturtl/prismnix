@@ -116,6 +116,11 @@ let
             "file" = "TotalEconomyPaper-1.1.0-alpha.jar";
             "hash" = "sha512-5dJZmwiPlat1SQCiQd3CQgDMixISt0KSYABzJYclL4eCBRXKc9Qbf4IPVG0VtXUKsjrq/PDyKYBhdN1DrYFAFg==";
         };
+        _an5zBk49 = {
+            "id" = "an5zBk49";
+            "file" = "TotalEconomyPaper-1.2.0.jar";
+            "hash" = "sha512-z8oaMTqIWjCwSLs/GgUnJhF+QjS7N5DbSNME5Ab1ttp5cI5kevI9LUB3pKcGA7QoImSGP7dwZI1zCGMQt0RpBg==";
+        };
     in {
         "lO0nXCRc" = _lO0nXCRc;
         "ZiHgKefy" = _ZiHgKefy;
@@ -140,6 +145,7 @@ let
         "227zGpLW" = _227zGpLW;
         "D1yptbCr" = _D1yptbCr;
         "QuDCbVAd" = _QuDCbVAd;
+        "an5zBk49" = _an5zBk49;
         "bukkit-1.19.3" = _TsoGZf62;
         "bukkit-1.19.4" = _TsoGZf62;
         "bukkit-1.20" = _TsoGZf62;
@@ -152,6 +158,7 @@ let
         "bukkit-1.21.3" = _RR1hLpH4;
         "bukkit-1.21.4" = _227zGpLW;
         "bukkit-26.1.2" = _QuDCbVAd;
+        "bukkit-26.2" = _an5zBk49;
         "paper-1.19.3" = _TsoGZf62;
         "paper-1.19.4" = _TsoGZf62;
         "paper-1.20" = _TsoGZf62;
@@ -164,6 +171,7 @@ let
         "paper-1.21.3" = _RR1hLpH4;
         "paper-1.21.4" = _227zGpLW;
         "paper-26.1.2" = _QuDCbVAd;
+        "paper-26.2" = _an5zBk49;
         "spigot-1.19.3" = _TsoGZf62;
         "spigot-1.19.4" = _TsoGZf62;
         "spigot-1.20" = _TsoGZf62;
@@ -176,6 +184,7 @@ let
         "spigot-1.21.3" = _RR1hLpH4;
         "spigot-1.21.4" = _227zGpLW;
         "spigot-26.1.2" = _QuDCbVAd;
+        "spigot-26.2" = _an5zBk49;
         "sponge-1.19.4" = _DJdDWFNK;
         "sponge-1.21" = _u4dJ3Zzx;
         "sponge-1.21.4" = _khcsdMeD;
@@ -192,7 +201,8 @@ let
         "pkg-0.15.1" = _227zGpLW;
         "pkg-1.0.0-alpha" = _D1yptbCr;
         "pkg-1.1.0-alpha" = _QuDCbVAd;
-        "default" = _QuDCbVAd;
+        "pkg-1.2.0" = _an5zBk49;
+        "default" = _an5zBk49;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "total-economy";

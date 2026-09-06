@@ -36,6 +36,11 @@ let
             "file" = "The-Arcane-path-of-Chemistry-1.0.4-1.21.1-1.21.2.jar";
             "hash" = "sha512-hDsU7DXfBfSHibQ8wyhmMrsQ4YxzZd4CI5+5o+om0gOp7m/+J0gmDtqWE2jaYOkLIzeEBHp9AuDeUxqeFXWatQ==";
         };
+        _V3YnrdR3 = {
+            "id" = "V3YnrdR3";
+            "file" = "The-Arcane-path-of-Chemistry-1.0.5-1.21.1-1.21.2.jar";
+            "hash" = "sha512-uY31/bHomPG+1Nt/UN7brWz0GGqAcIjsXURSA6psZM6CCLi31qF9x148lyeWeNcbSyxXQb0Ky9HcW1LsDEEOqw==";
+        };
     in {
         "bISJIgjQ" = _bISJIgjQ;
         "hoF3KiNM" = _hoF3KiNM;
@@ -44,16 +49,18 @@ let
         "avOj4p8D" = _avOj4p8D;
         "XENdt5xq" = _XENdt5xq;
         "BUmmIW4X" = _BUmmIW4X;
-        "neoforge-1.21" = _BUmmIW4X;
-        "neoforge-1.21.1" = _BUmmIW4X;
-        "neoforge-1.21.2" = _BUmmIW4X;
+        "V3YnrdR3" = _V3YnrdR3;
+        "neoforge-1.21" = _V3YnrdR3;
+        "neoforge-1.21.1" = _V3YnrdR3;
+        "neoforge-1.21.2" = _V3YnrdR3;
         "neoforge-1.21.3" = _jYc3v9qa;
         "pkg-1.0.0" = _bISJIgjQ;
         "pkg-1.0.1" = _hoF3KiNM;
         "pkg-1.0.2" = _jYc3v9qa;
         "pkg-1.0.3" = _avOj4p8D;
         "pkg-1.0.4" = _BUmmIW4X;
-        "default" = _BUmmIW4X;
+        "pkg-1.0.5" = _V3YnrdR3;
+        "default" = _V3YnrdR3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-arcane-path-of-chemistry";

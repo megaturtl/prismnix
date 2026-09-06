@@ -161,6 +161,86 @@ let
             "file" = "polyblur-2.0.2+1.21.11.jar";
             "hash" = "sha512-8Ga1u4fyRsv+m2sZy8dTrl4XJIfjwQUW/5SWe48Z5elvB9cZQdtDJBg2bKq2W7ejgdLJ9qzWwJPZIfsc+TON5w==";
         };
+        _ca4PleE2 = {
+            "id" = "ca4PleE2";
+            "file" = "polyblur-2.0.3+26.2.jar";
+            "hash" = "sha512-572P2jEaXaJSW8myFevjyEva+FAwnHLyVTLaElQOmJcyEfiESGrkosLVQc4K+Un8RWa4nUQ9hhK7Yi5MijMFKQ==";
+        };
+        _qDyeypzI = {
+            "id" = "qDyeypzI";
+            "file" = "polyblur-2.0.3+26.1.jar";
+            "hash" = "sha512-risB9IxEYmEIMk2e2N3BBbv0Vj7U+Y81uv8AulTackNK6KK3FwaU+lOFeg5I4MCL0HQMX8QeNTcaVQG3HVm06A==";
+        };
+        _SnJchIsp = {
+            "id" = "SnJchIsp";
+            "file" = "polyblur-2.0.3+1.21.1.jar";
+            "hash" = "sha512-4OFbcT6IfWZdkMNcdbyfgbo8fjPdVz8C2Kp1EQmvlwOZAbUQpQmJt8I2gGRdKYcuJBYQaTT5otFI521oz1jcLg==";
+        };
+        _8U6jjY77 = {
+            "id" = "8U6jjY77";
+            "file" = "polyblur-2.0.3+1.21.8.jar";
+            "hash" = "sha512-V9b2Zta2hc6RMZL5LJ7UgBfb+k+upjc6G5zZglvwfTbnUg8jnnCdmXsdplX2MVPBjOPT5sq+gYLOxjckVAOlFw==";
+        };
+        _1fVyWxZw = {
+            "id" = "1fVyWxZw";
+            "file" = "polyblur-2.0.3+1.21.4.jar";
+            "hash" = "sha512-YkRpscBZ5uQ2q8WdPhov06p6GlHwfFhj7uZ3AVKV7FnbLtmyDKTnZzB5i9D0TBC6tjkdQwnuGdkIEEoQ5qjH+Q==";
+        };
+        _DRhvP6Sx = {
+            "id" = "DRhvP6Sx";
+            "file" = "polyblur-2.0.3+1.21.5.jar";
+            "hash" = "sha512-ALBIJbkCqpR66gCXpEDfV7Onw5tU/mFfxuFETFBvmHkkN7QW7ni7YLaZggJdDoBr6tDLQWifZDBesebmQJnXcg==";
+        };
+        _Rzp0hl63 = {
+            "id" = "Rzp0hl63";
+            "file" = "polyblur-2.0.3+1.21.11.jar";
+            "hash" = "sha512-PRiMWAsYKzv/hk8sPX/HIQv/NYBRbH5dyM4fnKBWI35sNR7la79vYz70YIloKU3uOr8BzDMmGEjxSp50k0DpzA==";
+        };
+        _xC7ghEtQ = {
+            "id" = "xC7ghEtQ";
+            "file" = "polyblur-2.0.3+1.21.10.jar";
+            "hash" = "sha512-rsq4iRKzBRPDSRJ5mTp9VkGqOQnAHSZG4JL6CLKoydNg6eBtQkHXZe6d/TZcIba0X+eXmPY4bGxMOL9xOmWJHg==";
+        };
+        _wvEv6obz = {
+            "id" = "wvEv6obz";
+            "file" = "polyblur-2.1.0+1.21.1.jar";
+            "hash" = "sha512-yQwcpAceuKhZbtB37+ZpBpS6qiD83gBoco2SArmEyZP48RlxHhCxhlEewn5lawp3f/typdYwftc8/TFa5Epssg==";
+        };
+        _8qdsb6r5 = {
+            "id" = "8qdsb6r5";
+            "file" = "polyblur-2.1.0+1.21.4.jar";
+            "hash" = "sha512-a0IC/7DOIioednzC1SFKSPPqdnHNLmozJqCdlurTt6ZNx+hIabtb78tjvM/tDtacyNAHNa2vmm2h0ZS1lcKuJQ==";
+        };
+        _bYudA8OW = {
+            "id" = "bYudA8OW";
+            "file" = "polyblur-2.1.0+1.21.5.jar";
+            "hash" = "sha512-f1Cu689no4M6yLZrLXWS99zOQCChGvDj5BOLpdaMLobCI4RM4VKe3FlgpTFcqWvewt+6zml/mma2qT1goIRpjQ==";
+        };
+        _B5GYaGb3 = {
+            "id" = "B5GYaGb3";
+            "file" = "polyblur-2.1.0+1.21.8.jar";
+            "hash" = "sha512-9JsU8uXI8+e7pwXqrFXG0coUo604p1cKSr/qQM+FYz7JFb3JAwpSPHzq7Dl170mMBw1SVqgts0wcCwgchshhaw==";
+        };
+        _l2ST7cUR = {
+            "id" = "l2ST7cUR";
+            "file" = "polyblur-2.1.0+1.21.10.jar";
+            "hash" = "sha512-lgTaTuBFDVwdo2BLmWfHo3N9Uua6OP8bY2Q/pYAIzL9RfwlTSJxmQgURscQ5WBQGv2gAq2mjoFtgPAGxU12vsw==";
+        };
+        _1w57JFZW = {
+            "id" = "1w57JFZW";
+            "file" = "polyblur-2.1.0+1.21.11.jar";
+            "hash" = "sha512-VoMKW2nYXKskIg/KekFN5MT5NNrLsbnXaKB6zHNkt+BPRhZsoQHEfLWSEd7UVkZd9smn0WYqMUZ0qUd2h5+vMg==";
+        };
+        _ogFHRrVk = {
+            "id" = "ogFHRrVk";
+            "file" = "polyblur-2.1.0+26.1.jar";
+            "hash" = "sha512-mMpjd3S5aJEG77lkCiwIpOmAnZeUBX/fNWm+P1Nmr4e8SWhmuSCbDrabG3Gys3L3BFaoVjC0aunltLUnmTjM8g==";
+        };
+        _EGF8ipVw = {
+            "id" = "EGF8ipVw";
+            "file" = "polyblur-2.1.0+26.2.jar";
+            "hash" = "sha512-3RmXXfqnWc7GhpDumSy1WG0EsSsjdW7XHdzzyax+/gFVzchAD+AjGWCZZSW9YrvoWL9pJcnVOFItuF2dh4k3kQ==";
+        };
     in {
         "Jgm3MvC1" = _Jgm3MvC1;
         "1ICqP31g" = _1ICqP31g;
@@ -194,27 +274,45 @@ let
         "wJAd7auU" = _wJAd7auU;
         "UmBuZjYF" = _UmBuZjYF;
         "jCCS4tMR" = _jCCS4tMR;
+        "ca4PleE2" = _ca4PleE2;
+        "qDyeypzI" = _qDyeypzI;
+        "SnJchIsp" = _SnJchIsp;
+        "8U6jjY77" = _8U6jjY77;
+        "1fVyWxZw" = _1fVyWxZw;
+        "DRhvP6Sx" = _DRhvP6Sx;
+        "Rzp0hl63" = _Rzp0hl63;
+        "xC7ghEtQ" = _xC7ghEtQ;
+        "wvEv6obz" = _wvEv6obz;
+        "8qdsb6r5" = _8qdsb6r5;
+        "bYudA8OW" = _bYudA8OW;
+        "B5GYaGb3" = _B5GYaGb3;
+        "l2ST7cUR" = _l2ST7cUR;
+        "1w57JFZW" = _1w57JFZW;
+        "ogFHRrVk" = _ogFHRrVk;
+        "EGF8ipVw" = _EGF8ipVw;
         "forge-1.8.9" = _w6XrPOU5;
         "forge-1.12.2" = _VSicOHum;
-        "fabric-26.2" = _Py2FZt3v;
-        "fabric-26.1" = _Hbh1ujWL;
-        "fabric-26.1.1" = _Hbh1ujWL;
-        "fabric-26.1.2" = _Hbh1ujWL;
-        "fabric-1.21.1" = _YaO6rfTA;
-        "fabric-1.21.5" = _L1WPo2qT;
-        "fabric-1.21.4" = _7tIDlwJz;
-        "fabric-1.21.7" = _wJAd7auU;
-        "fabric-1.21.8" = _wJAd7auU;
-        "fabric-1.21.11" = _jCCS4tMR;
-        "fabric-1.21.9" = _UmBuZjYF;
-        "fabric-1.21.10" = _UmBuZjYF;
+        "fabric-26.2" = _EGF8ipVw;
+        "fabric-26.1" = _ogFHRrVk;
+        "fabric-26.1.1" = _ogFHRrVk;
+        "fabric-26.1.2" = _ogFHRrVk;
+        "fabric-1.21.1" = _wvEv6obz;
+        "fabric-1.21.5" = _bYudA8OW;
+        "fabric-1.21.4" = _8qdsb6r5;
+        "fabric-1.21.7" = _B5GYaGb3;
+        "fabric-1.21.8" = _B5GYaGb3;
+        "fabric-1.21.11" = _1w57JFZW;
+        "fabric-1.21.9" = _l2ST7cUR;
+        "fabric-1.21.10" = _l2ST7cUR;
         "pkg-v1.0.0" = _1ICqP31g;
         "pkg-v1.0.1" = _d47Pgoeh;
         "pkg-v1.0.2" = _VSicOHum;
         "pkg-v2.0.0" = _9x56kZGt;
         "pkg-v2.0.1" = _1XMEXyVn;
         "pkg-v2.0.2" = _jCCS4tMR;
-        "default" = _jCCS4tMR;
+        "pkg-v2.0.3" = _xC7ghEtQ;
+        "pkg-v2.1.0" = _EGF8ipVw;
+        "default" = _EGF8ipVw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "polyblur";

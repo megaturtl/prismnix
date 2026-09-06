@@ -176,6 +176,21 @@ let
             "file" = "shape-shifter-curse-addon-7.0.0.jar";
             "hash" = "sha512-PCct7P5oNw2vs+ZjYPP579H0YEJkn3OVnUrl+GVz35YVIsL4+uS2mnSDXxAu1P/Uu7zEm2FdvkLrZSoTuYdhFw==";
         };
+        _xr6LllGu = {
+            "id" = "xr6LllGu";
+            "file" = "shape-shifter-curse-addon-8.0.0-beta.2+1.21.1.jar";
+            "hash" = "sha512-DsR9sMxO8zC9huHLyT2VWEgWl+B2TUIrJQ+iCzX+bQa0KSBTYC/FLFHzdrYMhiooBoiyINN7JmmlL4nnswLRBA==";
+        };
+        _38Ah0XoW = {
+            "id" = "38Ah0XoW";
+            "file" = "shape-shifter-curse-addon-8.0.0-beta.2+1.21.1-hotfix.jar";
+            "hash" = "sha512-oAA5qYr5mrbmS2DfAXj5p8Tx/Pyqec8cUdgToG4q7cyjYR1cM627RE/VsvYBFkBqnzcb/JdceX7rGHCogsARMQ==";
+        };
+        _upMW4wtt = {
+            "id" = "upMW4wtt";
+            "file" = "shape-shifter-curse-addon-8.0.0-beta.3-ssc-1.9.2.jar";
+            "hash" = "sha512-Qn8qiFiZ5I28HCPeZh/25fp4lGj6vnlUXImvHZSn48UcVhBPZvFCVV+YyMDRqfk5ZknhU2HrFPm689rNx7AJtw==";
+        };
     in {
         "LworypNJ" = _LworypNJ;
         "zWsJexDC" = _zWsJexDC;
@@ -212,7 +227,12 @@ let
         "3SbQ7StG" = _3SbQ7StG;
         "aoD5p58w" = _aoD5p58w;
         "ukwMkfxT" = _ukwMkfxT;
-        "fabric-1.20.1" = _ukwMkfxT;
+        "xr6LllGu" = _xr6LllGu;
+        "38Ah0XoW" = _38Ah0XoW;
+        "upMW4wtt" = _upMW4wtt;
+        "fabric-1.20.1" = _upMW4wtt;
+        "fabric-1.21.1" = _38Ah0XoW;
+        "neoforge-1.21.1" = _38Ah0XoW;
         "pkg-1.0.0" = _LworypNJ;
         "pkg-1.1.3" = _zWsJexDC;
         "pkg-1.1.3.1" = _b3HreUln;
@@ -248,7 +268,10 @@ let
         "pkg-7.0.0-beta.3" = _3SbQ7StG;
         "pkg-7.0.0-beta.4" = _aoD5p58w;
         "pkg-7.0.0" = _ukwMkfxT;
-        "default" = _ukwMkfxT;
+        "pkg-8.0.0-beta.2+1.21.1" = _xr6LllGu;
+        "pkg-8.0.0-beta.2+1.21.1-hotfix" = _38Ah0XoW;
+        "pkg-v8.0.0-beta.3-ssc-1.9.2" = _upMW4wtt;
+        "default" = _upMW4wtt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shape-shifter-curse-addon";
@@ -256,13 +279,13 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "AGPL-3.0-or-later" {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "GNU Affero General Public License v3.0 or later";
-                shortName = "AGPL-3.0-or-later";
-                url = null;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/MangZai-120/shape-shifter-curse-addon/tree/v7.0.0-Fabric-1.20.1-SSC-1.9.2?tab=License-1-ov-file";
             };
         };
     };

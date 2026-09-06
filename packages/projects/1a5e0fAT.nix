@@ -21,7 +21,7 @@ let
         "M3HeCMQa" = _M3HeCMQa;
         "bNF0gRxL" = _bNF0gRxL;
         "fabric-1.20.1" = _bNF0gRxL;
-        "forge-1.20.1" = _M3HeCMQa;
+        "forge-1.19.2" = _M3HeCMQa;
         "pkg-1.0.0" = _JT9sPwiI;
         "pkg-1.1.0" = _M3HeCMQa;
         "pkg-1.2.0" = _bNF0gRxL;

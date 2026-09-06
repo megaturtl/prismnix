@@ -31,6 +31,21 @@ let
             "file" = "bingobrewers-0.4.1+26.2.jar";
             "hash" = "sha512-sJstXpKlQYhd7qGzHE1+nt7p65iD2+iQMNowkoX62JtQLj9IXeg3J6PqWsMaQA2GT2ucPyGZ30NSbA/5vLib+w==";
         };
+        _2q1XcLme = {
+            "id" = "2q1XcLme";
+            "file" = "bingobrewers-0.4.2+1.21.11.jar";
+            "hash" = "sha512-cJ4szURY2HrFlXwkt89BmArZfbGCoHHZdCNUz3AfNVh+F1SZ1Z+yetNDNFieXBoBc9XsNnEciEzTIpP6cHDLUA==";
+        };
+        _nkKeP4Hp = {
+            "id" = "nkKeP4Hp";
+            "file" = "bingobrewers-0.4.2+26.1.2.jar";
+            "hash" = "sha512-LcCWm2t7TPxmCRGdjqCNDjeve0doUA/aXr3Mf6r/YOJBrHegUgHg/Q28q4CdBzJezUOy17eoKxeim5JVYujWkQ==";
+        };
+        _oGxRyXnH = {
+            "id" = "oGxRyXnH";
+            "file" = "bingobrewers-0.4.2+26.2.jar";
+            "hash" = "sha512-+gGoVBS2AXuUH5DAIdvT8kUI5H8cEaRxQJED2TP4dgRr6mdBy9o1+nZh7q51+VjRArUZdAGyl1fGYE+4w6ij/Q==";
+        };
     in {
         "tHtLLOrQ" = _tHtLLOrQ;
         "hyU32tG7" = _hyU32tG7;
@@ -38,20 +53,26 @@ let
         "tv8XTN9p" = _tv8XTN9p;
         "r6tjt4tb" = _r6tjt4tb;
         "i3W0Yqh7" = _i3W0Yqh7;
+        "2q1XcLme" = _2q1XcLme;
+        "nkKeP4Hp" = _nkKeP4Hp;
+        "oGxRyXnH" = _oGxRyXnH;
         "forge-1.8.9" = _hyU32tG7;
         "fabric-1.21.10" = _V0g1DUmu;
-        "fabric-1.21.11" = _tv8XTN9p;
-        "fabric-26.1" = _r6tjt4tb;
-        "fabric-26.1.1" = _r6tjt4tb;
-        "fabric-26.1.2" = _r6tjt4tb;
-        "fabric-26.2" = _i3W0Yqh7;
+        "fabric-1.21.11" = _2q1XcLme;
+        "fabric-26.1" = _nkKeP4Hp;
+        "fabric-26.1.1" = _nkKeP4Hp;
+        "fabric-26.1.2" = _nkKeP4Hp;
+        "fabric-26.2" = _oGxRyXnH;
         "pkg-0.3.7" = _tHtLLOrQ;
         "pkg-0.3.8" = _hyU32tG7;
         "pkg-0.4-fabric" = _V0g1DUmu;
         "pkg-0.4.1+1.21.11" = _tv8XTN9p;
         "pkg-0.4.1+26.1.2" = _r6tjt4tb;
         "pkg-0.4.1+26.2" = _i3W0Yqh7;
-        "default" = _i3W0Yqh7;
+        "pkg-0.4.2+1.21.11" = _2q1XcLme;
+        "pkg-0.4.2+26.1.2" = _nkKeP4Hp;
+        "pkg-0.4.2+26.2" = _oGxRyXnH;
+        "default" = _oGxRyXnH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bingobrewers";

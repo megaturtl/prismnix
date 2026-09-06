@@ -41,6 +41,11 @@ let
             "file" = "create_melodies_mechanisms-1.2.2-1.21.1.jar";
             "hash" = "sha512-dBSYtrXgbtPSaD8V+YTpacsFlULoeMrk6HHaJz7RjPjdmZJAGF2I1k4/JLY8LT8+q/warC6y8GanT7S0tBvP0g==";
         };
+        _1UvnR4Sh = {
+            "id" = "1UvnR4Sh";
+            "file" = "create_melodies_mechanisms-1.2.3-1.21.1.jar";
+            "hash" = "sha512-iROM2YfezIMB8l0k4WK6nMaNUOdkwc3XxGURNuXLfHDvQ9z4c5s8CLp1Wq7XgwAsXJBnovDvYeDUarIeFYV7Tw==";
+        };
     in {
         "HzpoCAd7" = _HzpoCAd7;
         "AyNQtkI4" = _AyNQtkI4;
@@ -50,6 +55,7 @@ let
         "c6PExk0k" = _c6PExk0k;
         "ZNJRIWx7" = _ZNJRIWx7;
         "NY3R6lho" = _NY3R6lho;
+        "1UvnR4Sh" = _1UvnR4Sh;
         "forge-1.20.1" = _MgqYSrP1;
         "fabric-1.20" = _AyNQtkI4;
         "fabric-1.20.1" = _9NciDdj0;
@@ -58,13 +64,14 @@ let
         "fabric-1.20.4" = _AyNQtkI4;
         "fabric-1.20.5" = _AyNQtkI4;
         "fabric-1.20.6" = _AyNQtkI4;
-        "neoforge-1.21.1" = _NY3R6lho;
+        "neoforge-1.21.1" = _1UvnR4Sh;
         "pkg-1.0.0" = _AyNQtkI4;
         "pkg-1.1.0" = _45k3pG8O;
         "pkg-1.2.0" = _c6PExk0k;
         "pkg-1.2.1" = _ZNJRIWx7;
         "pkg-1.2.2" = _NY3R6lho;
-        "default" = _NY3R6lho;
+        "pkg-1.2.3" = _1UvnR4Sh;
+        "default" = _1UvnR4Sh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-melodies-mechanisms";

@@ -45,6 +45,7 @@ let
         "fabric-26.1" = _iUPr1Wo8;
         "fabric-26.1.1" = _iUPr1Wo8;
         "fabric-26.1.2" = _iUPr1Wo8;
+        "fabric-26.2" = _iUPr1Wo8;
         "quilt-1.20.1" = _IR4VUQFD;
         "quilt-1.20.2" = _IR4VUQFD;
         "quilt-1.20.3" = _IR4VUQFD;
@@ -54,9 +55,11 @@ let
         "forge-26.1" = _H4D1ovOp;
         "forge-26.1.1" = _H4D1ovOp;
         "forge-26.1.2" = _H4D1ovOp;
+        "forge-26.2" = _H4D1ovOp;
         "neoforge-26.1" = _oQfB2ssV;
         "neoforge-26.1.1" = _oQfB2ssV;
         "neoforge-26.1.2" = _oQfB2ssV;
+        "neoforge-26.2" = _oQfB2ssV;
         "pkg-1.0.0" = _IR4VUQFD;
         "pkg-1.0.1" = _Cd7LjTKu;
         "pkg-1.0.2" = _57bRiwtD;

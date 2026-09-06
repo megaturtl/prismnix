@@ -51,6 +51,11 @@ let
             "file" = "createcontraptionterminals-1.21-1.3.0.jar";
             "hash" = "sha512-yncGIBDE+gmgWNbMSg2EvkwRhsrXpLAUo+9bL+glMeSDoSUsOUW2esybfE84Ba9Gfam9255T+M0P2p2Xkj8Ydw==";
         };
+        _gBvq8zOa = {
+            "id" = "gBvq8zOa";
+            "file" = "createcontraptionterminals-1.21-1.4.0.jar";
+            "hash" = "sha512-fuLAbCRCI+b4pJqAzmF/iJg+V+aLs9NPgKkJiSeeSYKq1pFPRIgeB42zlLrkovLOlOCPMbGH6UH8GXj3lRrYJA==";
+        };
     in {
         "cyy1XdkZ" = _cyy1XdkZ;
         "mkzRTbBl" = _mkzRTbBl;
@@ -62,9 +67,10 @@ let
         "5Gi82Kml" = _5Gi82Kml;
         "WIS6BQn2" = _WIS6BQn2;
         "XrNWi3Wo" = _XrNWi3Wo;
+        "gBvq8zOa" = _gBvq8zOa;
         "forge-1.20.1" = _Rdo5tUmb;
         "fabric-1.20.1" = _WIS6BQn2;
-        "neoforge-1.21.1" = _XrNWi3Wo;
+        "neoforge-1.21.1" = _gBvq8zOa;
         "pkg-1.20.1-1.0.0" = _cyy1XdkZ;
         "pkg-1.20.1-1.0.0-fabric" = _mkzRTbBl;
         "pkg-1.20.1-1.0.1" = _KKa2zLhs;
@@ -75,7 +81,8 @@ let
         "pkg-1.21.1-1.2.0" = _5Gi82Kml;
         "pkg-1.20.1-1.2.0-fabric" = _WIS6BQn2;
         "pkg-1.21.1-1.3.0" = _XrNWi3Wo;
-        "default" = _XrNWi3Wo;
+        "pkg-1.21.1-1.4.0" = _gBvq8zOa;
+        "default" = _gBvq8zOa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-contraption-terminals";

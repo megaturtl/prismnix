@@ -16,15 +16,22 @@ let
             "file" = "dontcry-1.0.3.jar";
             "hash" = "sha512-WqecHnHakUvRHyK5Tj5BiQc8WX//MJ5HRjJfA9EDWdeG0Hd7FQBixRy78ca/SvwfzEdfNTZjSMLcXJmBpHaGtg==";
         };
+        _es45vYt4 = {
+            "id" = "es45vYt4";
+            "file" = "dontcry-more__spawnrates.jar";
+            "hash" = "sha512-fmxE1ET/6LQTUYS4/EWcG6PVgxD2fHv1C16l4G1a2Mo11XAbCoUl/xXrziFNiW5JDuG4SVUaINhsB2cre/Lp7w==";
+        };
     in {
         "dxSValm8" = _dxSValm8;
         "c1pj4QDf" = _c1pj4QDf;
         "oJBxaaO4" = _oJBxaaO4;
-        "forge-1.20.1" = _oJBxaaO4;
+        "es45vYt4" = _es45vYt4;
+        "forge-1.20.1" = _es45vYt4;
         "pkg-1.0.0" = _dxSValm8;
         "pkg-1.0.2" = _c1pj4QDf;
         "pkg-1.0.3" = _oJBxaaO4;
-        "default" = _oJBxaaO4;
+        "pkg-1.0.3.5" = _es45vYt4;
+        "default" = _es45vYt4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dontcry";

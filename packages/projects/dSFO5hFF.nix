@@ -21,11 +21,17 @@ let
             "file" = "simpleoreminer-1.1.0.jar";
             "hash" = "sha512-CU0dA1HdpelN3aJTeybhbGK9rHy4hHAfDaqwSVxzuvhSyUqHq+K7GgKpgzBSFZNngVJToM2CYIFdsifLWYxQMg==";
         };
+        _iFnCCWRz = {
+            "id" = "iFnCCWRz";
+            "file" = "simpleoreminer-1.1.0.jar";
+            "hash" = "sha512-jwMHnEyUp5X6HbMbiNZZJ58/fbpKOXz0CbzrjNYeAhB7ZR7oSGQSPUwnJer+jG9KrN8U1Qua5pp0K+P9se6grg==";
+        };
     in {
         "BkfO7qU5" = _BkfO7qU5;
         "PGWsOlwn" = _PGWsOlwn;
         "bRcD7RAO" = _bRcD7RAO;
         "iBmJvXiM" = _iBmJvXiM;
+        "iFnCCWRz" = _iFnCCWRz;
         "fabric-1.21.3" = _BkfO7qU5;
         "fabric-1.21.4" = _BkfO7qU5;
         "fabric-1.21.5" = _PGWsOlwn;
@@ -37,11 +43,13 @@ let
         "fabric-1.21.11" = _bRcD7RAO;
         "fabric-26.1.2" = _iBmJvXiM;
         "fabric-26.2" = _iBmJvXiM;
+        "neoforge-26.2" = _iFnCCWRz;
         "pkg-Fabric-1.0.0" = _BkfO7qU5;
         "pkg-Fabric-1.0.1" = _PGWsOlwn;
         "pkg-Fabric-1.0.2" = _bRcD7RAO;
         "pkg-Fabric-1.1.0" = _iBmJvXiM;
-        "default" = _iBmJvXiM;
+        "pkg-neoforge-v1.1.0" = _iFnCCWRz;
+        "default" = _iFnCCWRz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-ore-miner";

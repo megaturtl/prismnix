@@ -321,6 +321,36 @@ let
             "file" = "InvTweaksEmuForIPN-neoforge-26.1.2-1.3.0.jar";
             "hash" = "sha512-rd4vPjnXcO/zFhGSRUZhi1sxYLe2K7OYoUHrnNuyKHoyXM3GVY9Pj8vIwFX+1fa+X5VWVQjiEDurRBFzIxnUsA==";
         };
+        _6CXMa0LX = {
+            "id" = "6CXMa0LX";
+            "file" = "InvTweaksEmuForIPN-fabric-26.1.2-1.4.1.jar";
+            "hash" = "sha512-P9UrNtSVpkqg1N783VnzJd8nDvDe2N/HcfjLXEqEnJpkbSdc1eaB2kIAuXw+H7dNWq4V++OYBP3aHTip1c2G1Q==";
+        };
+        _DtDGG5wv = {
+            "id" = "DtDGG5wv";
+            "file" = "InvTweaksEmuForIPN-fabric-26.2-1.4.1.jar";
+            "hash" = "sha512-1kapLxu0Xp7hgW2hRy9NJs8v+YNVafKNl3LQ81ewO8/0tVuxrnRFKZVyo5/MQCQ2Tl4EkATUYc+dV+PE8cG5Ww==";
+        };
+        _QQUWYGET = {
+            "id" = "QQUWYGET";
+            "file" = "InvTweaksEmuForIPN-forge-26.2-1.4.1.jar";
+            "hash" = "sha512-TVgndIj9lWjcCR9zPX5XLmCZBqbYgFZjFFi7RVhblKydnsQPMVn9bSgqFJfkuQrEbaMOA86oGz0xcK2DTGdYzA==";
+        };
+        _PhkXyxsp = {
+            "id" = "PhkXyxsp";
+            "file" = "InvTweaksEmuForIPN-forge-26.1.2-1.4.1.jar";
+            "hash" = "sha512-gYbL2yJdLh3Qzy4qxUF6MuVEdc5U8joIJ6ZqaAmr2l87TZfM+7pS6JFGSKPkad2D88LIhXaFWR8z62juD30/mA==";
+        };
+        _vrWjk4Vr = {
+            "id" = "vrWjk4Vr";
+            "file" = "InvTweaksEmuForIPN-neoforge-26.2-1.4.1.jar";
+            "hash" = "sha512-GYmBeRI+Cd50dfUAG8HvugGuwpB2cDjaXUebEwiFf0l0/+51y2t4tCn2rHxa9tZCPl+4oIz2casmJgGy7rqWeg==";
+        };
+        _wMMJWQeW = {
+            "id" = "wMMJWQeW";
+            "file" = "InvTweaksEmuForIPN-neoforge-26.1.2-1.4.1.jar";
+            "hash" = "sha512-3Mu90f1g/dkY4E9PEUTT3xvu+XXq7/VpU3r1H6l4RpRtbcgb8jG6JHYkfeb8wjH9pl7mL0dKcNarvuY0TjmNYQ==";
+        };
     in {
         "NuGold0p" = _NuGold0p;
         "lsVxKj0Q" = _lsVxKj0Q;
@@ -386,6 +416,12 @@ let
         "Iel7sCFL" = _Iel7sCFL;
         "9z8Mx7Mx" = _9z8Mx7Mx;
         "MoePNlE4" = _MoePNlE4;
+        "6CXMa0LX" = _6CXMa0LX;
+        "DtDGG5wv" = _DtDGG5wv;
+        "QQUWYGET" = _QQUWYGET;
+        "PhkXyxsp" = _PhkXyxsp;
+        "vrWjk4Vr" = _vrWjk4Vr;
+        "wMMJWQeW" = _wMMJWQeW;
         "forge-1.16.2" = _6IMh4qs1;
         "forge-1.16.3" = _6IMh4qs1;
         "forge-1.16.4" = _6IMh4qs1;
@@ -408,9 +444,10 @@ let
         "forge-25w05a" = _ykFLDGWH;
         "forge-25w06a" = _ykFLDGWH;
         "forge-1.21.5" = _EQUkXYLr;
-        "forge-26.1" = _9z8Mx7Mx;
-        "forge-26.1.1" = _9z8Mx7Mx;
-        "forge-26.1.2" = _9z8Mx7Mx;
+        "forge-26.1" = _PhkXyxsp;
+        "forge-26.1.1" = _PhkXyxsp;
+        "forge-26.1.2" = _PhkXyxsp;
+        "forge-26.2" = _QQUWYGET;
         "fabric-1.16" = _bFYoy5EW;
         "fabric-1.16.1" = _bFYoy5EW;
         "fabric-1.16.2" = _bFYoy5EW;
@@ -445,9 +482,10 @@ let
         "fabric-1.21.8" = _ovLKv716;
         "fabric-1.21.10" = _44JUpKKq;
         "fabric-1.21.11" = _44JUpKKq;
-        "fabric-26.1" = _Iel7sCFL;
-        "fabric-26.1.1" = _Iel7sCFL;
-        "fabric-26.1.2" = _Iel7sCFL;
+        "fabric-26.1" = _6CXMa0LX;
+        "fabric-26.1.1" = _6CXMa0LX;
+        "fabric-26.1.2" = _6CXMa0LX;
+        "fabric-26.2" = _DtDGG5wv;
         "quilt-1.16" = _kSww5ctC;
         "quilt-1.16.1" = _kSww5ctC;
         "quilt-1.16.2" = _kSww5ctC;
@@ -476,9 +514,10 @@ let
         "neoforge-1.21.7" = _YVPKFeJQ;
         "neoforge-1.21.10" = _aL2ALDea;
         "neoforge-1.21.11" = _aL2ALDea;
-        "neoforge-26.1" = _MoePNlE4;
-        "neoforge-26.1.1" = _MoePNlE4;
-        "neoforge-26.1.2" = _MoePNlE4;
+        "neoforge-26.1" = _wMMJWQeW;
+        "neoforge-26.1.1" = _wMMJWQeW;
+        "neoforge-26.1.2" = _wMMJWQeW;
+        "neoforge-26.2" = _vrWjk4Vr;
         "pkg-forge-1.16.5-1.0.4" = _NuGold0p;
         "pkg-forge-1.18.2-1.0.4" = _lsVxKj0Q;
         "pkg-forge-1.19.4-1.0.4" = _ihZjjSO9;
@@ -540,7 +579,13 @@ let
         "pkg-fabric-26.1-1.3.0" = _Iel7sCFL;
         "pkg-forge-26.1-1.3.0" = _9z8Mx7Mx;
         "pkg-neoforge-26.1-1.3.0" = _MoePNlE4;
-        "default" = _MoePNlE4;
+        "pkg-fabric-26.1-1.4.1" = _6CXMa0LX;
+        "pkg-fabric-26.2-1.4.1" = _DtDGG5wv;
+        "pkg-forge-26.2-1.4.1" = _QQUWYGET;
+        "pkg-forge-26.1-1.4.1" = _PhkXyxsp;
+        "pkg-neoforge-26.2-1.4.1" = _vrWjk4Vr;
+        "pkg-neoforge-26.1-1.4.1" = _wMMJWQeW;
+        "default" = _wMMJWQeW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "invtweaks-emu-for-ipn";

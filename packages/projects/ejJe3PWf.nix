@@ -430,6 +430,11 @@ let
         "minecraft-26.3-snapshot-4" = _o1k70zsn;
         "minecraft-26.3-snapshot-5" = _o1k70zsn;
         "minecraft-26.3-snapshot-6" = _o1k70zsn;
+        "minecraft-26.3-snapshot-7" = _o1k70zsn;
+        "minecraft-26.3-snapshot-8" = _o1k70zsn;
+        "minecraft-26.3-snapshot-9" = _o1k70zsn;
+        "minecraft-26.3-snapshot-10" = _o1k70zsn;
+        "minecraft-26.3-pre-1" = _o1k70zsn;
         "pkg-1.0.0" = _AR2XXBr8;
         "pkg-1.1.0" = _H0DrWFHs;
         "pkg-1.2.0" = _ezPWFNg2;

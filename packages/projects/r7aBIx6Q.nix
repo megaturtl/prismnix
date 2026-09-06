@@ -396,6 +396,126 @@ let
             "file" = "LandOfSignals-1.16.5-forge-1.4.1.jar";
             "hash" = "sha512-7olvJXo7IiOJ4Wt7GkHWj6wSJXQZRu2jKeNx8Dv4BPbF8RJ3s/ROyVjS4agAVqUm1wOSVXmUJufJhk2LRowS+w==";
         };
+        _9iwtxLRQ = {
+            "id" = "9iwtxLRQ";
+            "file" = "LandOfSignals-1.7.10-forge-1.5.0.jar";
+            "hash" = "sha512-fZKPu/9/hO6hD7v9OzrvRJQrOwlvt01AqtN2AnJl+pDiJurkmu5p+4dEbyiowYepe4M7sepFuY+rxufE5bc0FA==";
+        };
+        _M5KDlq5v = {
+            "id" = "M5KDlq5v";
+            "file" = "LandOfSignals-1.10.2-forge-1.5.0.jar";
+            "hash" = "sha512-rEXzY9f9ZakP+1wrsMDo58EKpvCmDHnSwelyZU7yVwpuTYczj/hrcX7eJg+5VR59spc1GJqqKslOvhjm4rsjrg==";
+        };
+        _5id6rmtt = {
+            "id" = "5id6rmtt";
+            "file" = "LandOfSignals-1.11.2-forge-1.5.0.jar";
+            "hash" = "sha512-pF3gqz0bFQ35QonKyx9zbDZr7O73CnZKOEnBmht8uc1vvevrmwwZPzewT4Nw6bes3ROzN7MBy/cR5NDxvXhGRw==";
+        };
+        _bnUI2agF = {
+            "id" = "bnUI2agF";
+            "file" = "LandOfSignals-1.12.2-forge-1.5.0.jar";
+            "hash" = "sha512-+o+vhBOsO0a6adx5xPwXTTdLom0kcy47elyxAFPlhTraYom4lJXzniLuaqmywjXrW+frbw6ko2OD7riU7qLh+A==";
+        };
+        _YYowr8VF = {
+            "id" = "YYowr8VF";
+            "file" = "LandOfSignals-1.14.4-forge-1.5.0.jar";
+            "hash" = "sha512-jRfeRAmZdNoT8Q3wkOqKAMkqdFeDLM9BZXRrAgjrg77uzFpGKSFeJzGergrz2h4G1UquEVNwPHYl2khn8cyi/w==";
+        };
+        _F7XwBoMB = {
+            "id" = "F7XwBoMB";
+            "file" = "LandOfSignals-1.15.2-forge-1.5.0.jar";
+            "hash" = "sha512-0ZXIkG8K2B8r5UMfaw44CqWuv6pMX8ufWQ/8h4geka/XtrVSWmWGxl5Z1voP7ku5mEvVZe4pse+TqLn04GVzvQ==";
+        };
+        _K3lzFIb3 = {
+            "id" = "K3lzFIb3";
+            "file" = "LandOfSignals-1.16.5-forge-1.5.0.jar";
+            "hash" = "sha512-L901XqL+hSbQ+ma0L+iAbaPYnCVxkEFXdScWJtcnE1h52SAYrCkGpyhisl6iVpfnkNqrXCXhml5Q/5wuueIB+w==";
+        };
+        _A0IzDIpO = {
+            "id" = "A0IzDIpO";
+            "file" = "LandOfSignals-1.17.1-forge-1.5.0.jar";
+            "hash" = "sha512-w85iSUAvDoZOibIPA+djMbZ4tfnldmiFpeMJb4HdhnvN7YiL/yKljcSDXpWvCP3Fn4Q6cM8t6/3Ghn6Fm44ZCQ==";
+        };
+        _vurDSilJ = {
+            "id" = "vurDSilJ";
+            "file" = "LandOfSignals-1.18.2-forge-1.5.0.jar";
+            "hash" = "sha512-f87+XDn6PVMzNQSSL2kovKJ6XY8cE/JqB4f7YvVLIx6mYktirjntmVXlpCrDEiVOsoY7b4nOyJrhnMrMtoiEDQ==";
+        };
+        _cymfZ5jn = {
+            "id" = "cymfZ5jn";
+            "file" = "LandOfSignals-1.19.4-forge-1.5.0.jar";
+            "hash" = "sha512-O1cZBAFRSja29OzUYvtOSs0pG3alsGP3MV1kq47ux49Hr7XVwhO7xpZY9KWBqodK5G8AOPsyX2vOtACmJuEJwg==";
+        };
+        _84qNr82o = {
+            "id" = "84qNr82o";
+            "file" = "LandOfSignals-1.20.1-forge-1.5.0.jar";
+            "hash" = "sha512-U0k3QJAh0r0Po1V0pPdRNDeYH7XDUo9UOyBRtqFFUSARWt3UxOwUli0lNNjH5ABNv5BR7UMgFBPczgFaPIYcFQ==";
+        };
+        _6Q4aiqKQ = {
+            "id" = "6Q4aiqKQ";
+            "file" = "LandOfSignals-1.21.1-neoforge-1.5.0.jar";
+            "hash" = "sha512-weDTzrst6X0nOD4BSBqN2P4eUJQpmfi1Kvg3+3wxD1X9xxAwI42X+eogLImU4JrOL3QmI6XvVS7oTB+P45ZLUg==";
+        };
+        _JJd8qWpK = {
+            "id" = "JJd8qWpK";
+            "file" = "LandOfSignals-1.7.10-forge-1.5.1.jar";
+            "hash" = "sha512-1Ra7TnB5z0k6diGjTpbA6gWozn4o1o/a2h5INDSruba95rbeZ+S9mioEqRPKSx7hqveaS4OdgA08tO+op/lPOA==";
+        };
+        _ITVD6VFu = {
+            "id" = "ITVD6VFu";
+            "file" = "LandOfSignals-1.10.2-forge-1.5.1.jar";
+            "hash" = "sha512-OOWEJUBYc9iJb3odtXoo1l5bqapynrv64Hu1Psk334fDWsriRHdGyc96Tg78MjWnozEH+jvuiMp2J5mODhMgBA==";
+        };
+        _1EDkX1MP = {
+            "id" = "1EDkX1MP";
+            "file" = "LandOfSignals-1.11.2-forge-1.5.1.jar";
+            "hash" = "sha512-XChZfwhQT1f1UZblUhifJPt7+z8XU+0OirrLgWlCn6Yp3Qu+ss/VyH8U5yjPkUPV9GOZw25OQJxN80BMGyjQmA==";
+        };
+        _WYuIMhAh = {
+            "id" = "WYuIMhAh";
+            "file" = "LandOfSignals-1.12.2-forge-1.5.1.jar";
+            "hash" = "sha512-QHe08mRqijpYHFNNukQVFJysXxZZ38oikUYmyEkD5XfEe0vldyOxwY1rDsePj/3VaANQ8MTNPSQfUma9ilVAgQ==";
+        };
+        _nAs21KNr = {
+            "id" = "nAs21KNr";
+            "file" = "LandOfSignals-1.14.4-forge-1.5.1.jar";
+            "hash" = "sha512-wdxajyHWDWIXLqVvz+CN0DoyEJPoQ+lHfocmDEJn0aGcEqNqVAsk4gg4F3C6ig6RaElLICBPz5uJbDvwnnEpTw==";
+        };
+        _zXJsNwyl = {
+            "id" = "zXJsNwyl";
+            "file" = "LandOfSignals-1.15.2-forge-1.5.1.jar";
+            "hash" = "sha512-njBphfCznBbzhRxzoTyUtyuWtRQHL6EGyQbqJTEe3PW/hWyZB7I59/jKgYIfdsQUH0raCFajNa/n1L0Ln8PBcQ==";
+        };
+        _G449A5cv = {
+            "id" = "G449A5cv";
+            "file" = "LandOfSignals-1.16.5-forge-1.5.1.jar";
+            "hash" = "sha512-gzumRxh7SGBRY0BeqBuZqi6MBVBRlmvXxHWcmOxCq+ZpiEQolMxJ5OSobrRmj5dX+b7eAIO//mVZSDIuZ5HZ2Q==";
+        };
+        _YWxpEAov = {
+            "id" = "YWxpEAov";
+            "file" = "LandOfSignals-1.17.1-forge-1.5.1.jar";
+            "hash" = "sha512-/Pj0F1zMbu9VGxdoe0mJGHaFTMjxk9RERY3f4BncVx9dxvAf2E9UFueUkM7B4eGnkO1t6xS7JC21n12PSPk/2g==";
+        };
+        _PuAjHBZ1 = {
+            "id" = "PuAjHBZ1";
+            "file" = "LandOfSignals-1.18.2-forge-1.5.1.jar";
+            "hash" = "sha512-oGrFoihpcRBJwtL1NLi+tbvE1KCFsESNbVk23o06RojiAFBaq7WrQC8KVhMkyZlj5c+isYwmMvvWaKxWYSVgdg==";
+        };
+        _1lxjoSrC = {
+            "id" = "1lxjoSrC";
+            "file" = "LandOfSignals-1.19.4-forge-1.5.1.jar";
+            "hash" = "sha512-+KrhwQ0K0w5pgdYd3LPf3lo+ql/P42FaPu/ISLEdSLU7neuOwTlHj7JszWXF6gawezQ66pdQd6oz/OBMgdMNmg==";
+        };
+        _3myFffnN = {
+            "id" = "3myFffnN";
+            "file" = "LandOfSignals-1.20.1-forge-1.5.1.jar";
+            "hash" = "sha512-sWXd6ojeP79c+4osFI9rqtMGnffMjNlHD1xVDm7Ve0ueK6wFKkpvbQFJy2pE9mHAL7Pj0zzH0avw55w/3IBjdA==";
+        };
+        _IHVnM438 = {
+            "id" = "IHVnM438";
+            "file" = "LandOfSignals-1.21.1-neoforge-1.5.1.jar";
+            "hash" = "sha512-R4zKK7OmBRzibsZNCLXUSgORNyraNEDyxiEKkt4N96jWiEX5SUwnsFdVJn4qm0kWNQMWxwfxpRwlPKBRDy3Kcg==";
+        };
     in {
         "ZLa6V30J" = _ZLa6V30J;
         "yn0arXFt" = _yn0arXFt;
@@ -476,14 +596,43 @@ let
         "wOjkgzWF" = _wOjkgzWF;
         "aWrKeW2c" = _aWrKeW2c;
         "ZtYvOT5N" = _ZtYvOT5N;
-        "forge-1.7.10" = _kLj4cdx3;
-        "forge-1.10.2" = _9otzuQS8;
-        "forge-1.11.2" = _bn5Adp26;
-        "forge-1.12.2" = _ADqdJGC6;
-        "forge-1.14.4" = _wOjkgzWF;
-        "forge-1.15.2" = _aWrKeW2c;
+        "9iwtxLRQ" = _9iwtxLRQ;
+        "M5KDlq5v" = _M5KDlq5v;
+        "5id6rmtt" = _5id6rmtt;
+        "bnUI2agF" = _bnUI2agF;
+        "YYowr8VF" = _YYowr8VF;
+        "F7XwBoMB" = _F7XwBoMB;
+        "K3lzFIb3" = _K3lzFIb3;
+        "A0IzDIpO" = _A0IzDIpO;
+        "vurDSilJ" = _vurDSilJ;
+        "cymfZ5jn" = _cymfZ5jn;
+        "84qNr82o" = _84qNr82o;
+        "6Q4aiqKQ" = _6Q4aiqKQ;
+        "JJd8qWpK" = _JJd8qWpK;
+        "ITVD6VFu" = _ITVD6VFu;
+        "1EDkX1MP" = _1EDkX1MP;
+        "WYuIMhAh" = _WYuIMhAh;
+        "nAs21KNr" = _nAs21KNr;
+        "zXJsNwyl" = _zXJsNwyl;
+        "G449A5cv" = _G449A5cv;
+        "YWxpEAov" = _YWxpEAov;
+        "PuAjHBZ1" = _PuAjHBZ1;
+        "1lxjoSrC" = _1lxjoSrC;
+        "3myFffnN" = _3myFffnN;
+        "IHVnM438" = _IHVnM438;
+        "forge-1.7.10" = _JJd8qWpK;
+        "forge-1.10.2" = _ITVD6VFu;
+        "forge-1.11.2" = _1EDkX1MP;
+        "forge-1.12.2" = _WYuIMhAh;
+        "forge-1.14.4" = _nAs21KNr;
+        "forge-1.15.2" = _zXJsNwyl;
         "forge-1.16.4" = _wF8MG8qd;
-        "forge-1.16.5" = _ZtYvOT5N;
+        "forge-1.16.5" = _G449A5cv;
+        "forge-1.17.1" = _YWxpEAov;
+        "forge-1.18.2" = _PuAjHBZ1;
+        "forge-1.19.4" = _1lxjoSrC;
+        "forge-1.20.1" = _3myFffnN;
+        "neoforge-1.21.1" = _IHVnM438;
         "pkg-0.0.3" = _wF8MG8qd;
         "pkg-1.0.4-UMC-testbuild" = _WA3m7pwb;
         "pkg-1.0.4" = _X4XSYzfB;
@@ -498,7 +647,9 @@ let
         "pkg-1.3.3" = _AmENIftZ;
         "pkg-1.4.0" = _wOfMKeo4;
         "pkg-1.4.1" = _ZtYvOT5N;
-        "default" = _ZtYvOT5N;
+        "pkg-1.5.0" = _6Q4aiqKQ;
+        "pkg-1.5.1" = _IHVnM438;
+        "default" = _IHVnM438;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "landofsignals";

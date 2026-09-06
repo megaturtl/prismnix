@@ -51,6 +51,11 @@ let
             "file" = "better-with-aether-1.0.2+7.3_04.jar";
             "hash" = "sha512-58kyUtakKcmLwqhuSkF5CasttxSjxvv2UJcNPtDFYShS5tMu1be1fUu/GP2gRvWcEC4fq+++JZTlvhXfg6m5+w==";
         };
+        _PUkK5bYh = {
+            "id" = "PUkK5bYh";
+            "file" = "better-with-aether-1.0.3+7.3_04.jar";
+            "hash" = "sha512-hqQ5z14Vmb7nHQPbuBMingrtZb3/2YfXBLoMod8ZUxFzQAyKuXhkRaIftbV80W9+2jDEexhySzT1pYtyioZvCw==";
+        };
     in {
         "9UE9Lmn2" = _9UE9Lmn2;
         "T340Jipb" = _T340Jipb;
@@ -62,7 +67,8 @@ let
         "yhKa0Mef" = _yhKa0Mef;
         "KLbuxOQ3" = _KLbuxOQ3;
         "lik4n3Bq" = _lik4n3Bq;
-        "bta-babric-b1.7.3" = _lik4n3Bq;
+        "PUkK5bYh" = _PUkK5bYh;
+        "bta-babric-b1.7.3" = _PUkK5bYh;
         "pkg-0.9.0+7.3_04" = _9UE9Lmn2;
         "pkg-0.10.0+7.3_04" = _T340Jipb;
         "pkg-0.11.0+7.3_04" = _lNJ0HUvf;
@@ -73,7 +79,8 @@ let
         "pkg-1.0.0+7.3_04" = _yhKa0Mef;
         "pkg-1.0.1+7.3_04" = _KLbuxOQ3;
         "pkg-1.0.2+7.3_04" = _lik4n3Bq;
-        "default" = _lik4n3Bq;
+        "pkg-1.0.3+7.3_04" = _PUkK5bYh;
+        "default" = _PUkK5bYh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-with-aether-bta";

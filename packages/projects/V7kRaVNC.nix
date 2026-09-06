@@ -116,6 +116,10 @@ let
         "minecraft-1.21.9" = _31bjXj5y;
         "minecraft-1.21.10" = _31bjXj5y;
         "minecraft-1.21.11" = _31bjXj5y;
+        "minecraft-26.1" = _31bjXj5y;
+        "minecraft-26.1.1" = _31bjXj5y;
+        "minecraft-26.1.2" = _31bjXj5y;
+        "minecraft-26.2" = _31bjXj5y;
         "pkg-0.0.1" = _oIU9ufDs;
         "pkg-0.0.2" = _RfzdYyQK;
         "pkg-0.0.3" = _LGi2f6tK;

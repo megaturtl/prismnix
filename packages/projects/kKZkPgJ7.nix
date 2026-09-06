@@ -43,6 +43,10 @@ let
         "bukkit-1.21.9" = _PNKQ6RMs;
         "bukkit-1.21.10" = _PNKQ6RMs;
         "bukkit-1.21.11" = _PNKQ6RMs;
+        "bukkit-26.1" = _PNKQ6RMs;
+        "bukkit-26.1.1" = _PNKQ6RMs;
+        "bukkit-26.1.2" = _PNKQ6RMs;
+        "bukkit-26.2" = _PNKQ6RMs;
         "paper-1.16" = _PNKQ6RMs;
         "paper-1.16.1" = _PNKQ6RMs;
         "paper-1.16.2" = _PNKQ6RMs;
@@ -78,6 +82,10 @@ let
         "paper-1.21.9" = _PNKQ6RMs;
         "paper-1.21.10" = _PNKQ6RMs;
         "paper-1.21.11" = _PNKQ6RMs;
+        "paper-26.1" = _PNKQ6RMs;
+        "paper-26.1.1" = _PNKQ6RMs;
+        "paper-26.1.2" = _PNKQ6RMs;
+        "paper-26.2" = _PNKQ6RMs;
         "spigot-1.16" = _PNKQ6RMs;
         "spigot-1.16.1" = _PNKQ6RMs;
         "spigot-1.16.2" = _PNKQ6RMs;
@@ -113,6 +121,10 @@ let
         "spigot-1.21.9" = _PNKQ6RMs;
         "spigot-1.21.10" = _PNKQ6RMs;
         "spigot-1.21.11" = _PNKQ6RMs;
+        "spigot-26.1" = _PNKQ6RMs;
+        "spigot-26.1.1" = _PNKQ6RMs;
+        "spigot-26.1.2" = _PNKQ6RMs;
+        "spigot-26.2" = _PNKQ6RMs;
         "pkg-1.14.1-Release" = _PNKQ6RMs;
         "default" = _PNKQ6RMs;
     });

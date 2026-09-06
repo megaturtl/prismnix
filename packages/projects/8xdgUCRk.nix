@@ -51,6 +51,11 @@ let
             "file" = "Default-Dark-Mode-Legacy4J-1.21.9+-1.3.0.zip";
             "hash" = "sha512-UqVThrZd5+SOiaN5L1Err12JWqFfiVKpAn3EQnsnoBSN8hfJEEtQK2i/jf8WKN2LJvHu2c6/WKDMTG3Zflz7PA==";
         };
+        _xgNZAF3b = {
+            "id" = "xgNZAF3b";
+            "file" = "Default-Dark-Mode-Legacy4J-1.21.9+-1.3.1.zip";
+            "hash" = "sha512-b8r+ep/wSjIyhCcY3h0sA26Fqn9isBRvfJDgbYlynzjiP8zYnlL+W7WfNoSR3aFJ+ijgZ1XbUo9nugsSyvNSlw==";
+        };
     in {
         "u7J93AuN" = _u7J93AuN;
         "KVzUSOEl" = _KVzUSOEl;
@@ -62,6 +67,7 @@ let
         "sWz1qDQz" = _sWz1qDQz;
         "iARsV6G1" = _iARsV6G1;
         "Ykaasrzg" = _Ykaasrzg;
+        "xgNZAF3b" = _xgNZAF3b;
         "minecraft-1.20" = _iARsV6G1;
         "minecraft-1.20.1" = _iARsV6G1;
         "minecraft-1.20.2" = _iARsV6G1;
@@ -78,12 +84,16 @@ let
         "minecraft-1.21.7" = _iARsV6G1;
         "minecraft-1.21.8" = _iARsV6G1;
         "minecraft-1.20.5" = _iARsV6G1;
-        "minecraft-1.21.9" = _Ykaasrzg;
-        "minecraft-1.21.10" = _Ykaasrzg;
-        "minecraft-1.21.11" = _Ykaasrzg;
-        "minecraft-26.1" = _Ykaasrzg;
-        "minecraft-26.1.1" = _Ykaasrzg;
-        "minecraft-26.1.2" = _Ykaasrzg;
+        "minecraft-1.21.9" = _xgNZAF3b;
+        "minecraft-1.21.10" = _xgNZAF3b;
+        "minecraft-1.21.11" = _xgNZAF3b;
+        "minecraft-26.1" = _xgNZAF3b;
+        "minecraft-26.1.1" = _xgNZAF3b;
+        "minecraft-26.1.2" = _xgNZAF3b;
+        "minecraft-26.2" = _xgNZAF3b;
+        "minecraft-26.3-snapshot-10" = _xgNZAF3b;
+        "minecraft-26.3-pre-1" = _xgNZAF3b;
+        "minecraft-26.3-pre-2" = _xgNZAF3b;
         "pkg-0.1.1" = _u7J93AuN;
         "pkg-1.0.0" = _KVzUSOEl;
         "pkg-1.1.0" = _o8KYCqn9;
@@ -94,7 +104,8 @@ let
         "pkg-1.2.0" = _sWz1qDQz;
         "pkg-1.2.0-alt" = _iARsV6G1;
         "pkg-1.3.0" = _Ykaasrzg;
-        "default" = _Ykaasrzg;
+        "pkg-1.3.1" = _xgNZAF3b;
+        "default" = _xgNZAF3b;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "default-dark-mode-legacy4j";

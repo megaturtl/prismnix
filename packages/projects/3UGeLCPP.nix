@@ -11,10 +11,16 @@ let
             "file" = "ompworld-1.3.25.jar";
             "hash" = "sha512-BmuwNDLfZao8zIQTBXd2OpZqFiNRpfPjvX4ePUaSynU/sdKgi8N6x2jdEa5nNdV3xmf0gJPqZjzwJLCuu27IoQ==";
         };
+        _MP0Dlnjs = {
+            "id" = "MP0Dlnjs";
+            "file" = "ompworld-1.3.47.jar";
+            "hash" = "sha512-r5dNksqNdfcn8W0TUQ/uN0PbEhjM/X0C8OnoDXNHm2Ad2XvZd8ijiEeQczfxG/U0AP0499LcrW/8f99simPoPA==";
+        };
     in {
         "xohV6exW" = _xohV6exW;
         "woGyJCgt" = _woGyJCgt;
-        "forge-1.20.1" = _woGyJCgt;
+        "MP0Dlnjs" = _MP0Dlnjs;
+        "forge-1.20.1" = _MP0Dlnjs;
         "forge-1.20.2" = _xohV6exW;
         "forge-1.20.3" = _xohV6exW;
         "forge-1.20.4" = _xohV6exW;
@@ -22,7 +28,8 @@ let
         "forge-1.20.6" = _xohV6exW;
         "pkg-1.3.8" = _xohV6exW;
         "pkg-1.3.25" = _woGyJCgt;
-        "default" = _woGyJCgt;
+        "pkg-1.3.47" = _MP0Dlnjs;
+        "default" = _MP0Dlnjs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "one-piece-world-like";

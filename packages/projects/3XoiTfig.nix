@@ -26,19 +26,26 @@ let
             "file" = "midrian-za-1.3.56-1.21.11-FABRIC.jar";
             "hash" = "sha512-sIIPYPMGEhAJnMQ2Wk6KlkP4PVLiBmNG3AZGHHUvftdVbd7dxjd8Ke1tap9W+bUbvaOM4x2LbJW8DO1wfi0YCg==";
         };
+        _2P80RTSp = {
+            "id" = "2P80RTSp";
+            "file" = "mza-1.3.57.jar";
+            "hash" = "sha512-an+Y4orsBkycDCODDwxQBokDTNTpMWKbuO/3AHLRve9mEG5SRPTZFnlCz/s8KIgaTOwxLGX2E3Ebl45Ia2H+YA==";
+        };
     in {
         "5cUppprF" = _5cUppprF;
         "TAaVkSJ7" = _TAaVkSJ7;
         "K4AfLaJu" = _K4AfLaJu;
         "WV5riXZx" = _WV5riXZx;
         "zbc1LqQE" = _zbc1LqQE;
-        "fabric-1.21.11" = _zbc1LqQE;
+        "2P80RTSp" = _2P80RTSp;
+        "fabric-1.21.11" = _2P80RTSp;
         "pkg-1.0.26" = _5cUppprF;
         "pkg-1.0.30" = _TAaVkSJ7;
         "pkg-1.1.38" = _K4AfLaJu;
         "pkg-1.2.47" = _WV5riXZx;
         "pkg-1.3.56" = _zbc1LqQE;
-        "default" = _zbc1LqQE;
+        "pkg-1.3.57" = _2P80RTSp;
+        "default" = _2P80RTSp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "midrian-zombie-apocalypse";

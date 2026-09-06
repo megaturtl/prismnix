@@ -391,6 +391,16 @@ let
             "file" = "Tick Sync-1.4.0 - 1.21.9.jar";
             "hash" = "sha512-8prxYohAUK8QM8zFXs4OMgKRPKrCuXzv3Ipl2ryO0BuUz9vyZnJrDOCcwrbtlteegxQVtwJtFyqOI1a+Ls+cJQ==";
         };
+        _6IsXXZi3 = {
+            "id" = "6IsXXZi3";
+            "file" = "Tick Sync-1.4.0 - 26.2.jar";
+            "hash" = "sha512-AOti+qmXw2033HzmStnBOR0UiK06xF3pbYGymUMWYD9FAZze6jkKodgeo62l4tlWlnZN7pWoqH1av5mqaKvUcw==";
+        };
+        _XtAWReBD = {
+            "id" = "XtAWReBD";
+            "file" = "Tick Sync-1.4.0 - 26.1.jar";
+            "hash" = "sha512-n5dFC8lZQwAVfWsw8pAnLJk215c2B/OVLCwQWt/xo5HKHVYqP30+aTe2zkifXABQO9Z9snTlFUqpyemZDmxElw==";
+        };
     in {
         "eSneX6Lb" = _eSneX6Lb;
         "7modZMfd" = _7modZMfd;
@@ -470,6 +480,8 @@ let
         "JCtEdzmG" = _JCtEdzmG;
         "NB8HHhx4" = _NB8HHhx4;
         "vpGreUKe" = _vpGreUKe;
+        "6IsXXZi3" = _6IsXXZi3;
+        "XtAWReBD" = _XtAWReBD;
         "fabric-1.21.4" = _ctXSZft7;
         "fabric-1.21.5" = _JCtEdzmG;
         "fabric-1.21.6" = _NB8HHhx4;
@@ -481,6 +493,10 @@ let
         "fabric-1.21.2" = _9r3WLO6w;
         "fabric-1.21.3" = _9r3WLO6w;
         "fabric-1.21.1" = _UAq6jzZI;
+        "fabric-26.2" = _6IsXXZi3;
+        "fabric-26.1" = _XtAWReBD;
+        "fabric-26.1.1" = _XtAWReBD;
+        "fabric-26.1.2" = _XtAWReBD;
         "pkg-1.0.3" = _7modZMfd;
         "pkg-1.0.4" = _SzdS72bL;
         "pkg-1.0.5" = _WCGllkqH;
@@ -503,8 +519,8 @@ let
         "pkg-1.3.0.2" = _fBMnepzu;
         "pkg-1.3.0.3" = _JAxAporH;
         "pkg-1.3.2" = _mFb6pLDr;
-        "pkg-1.4.0" = _vpGreUKe;
-        "default" = _vpGreUKe;
+        "pkg-1.4.0" = _XtAWReBD;
+        "default" = _XtAWReBD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tick-sync";

@@ -11,9 +11,15 @@ let
             "file" = "Authentic Night Vision.zip";
             "hash" = "sha512-y4KWE9YboXs7xpOCOgixFKCVIpb4Tp66VEvcxbXQ5YHDN3CdheGW7jpMhF6nmybUMNQ4Jl3AdYRqz9OPsaU+xg==";
         };
+        _jZtASXzZ = {
+            "id" = "jZtASXzZ";
+            "file" = "Authentic Night Vision.zip";
+            "hash" = "sha512-Ssp3F+2gQqmNQQlPR4bl5XcfvuNzJFLwr97WPUsIj9ZuXzCoHxoVZ0TjSQN/EFj2uMxV/Y8rdpqrahZjZb+Oyw==";
+        };
     in {
         "TfhytrfK" = _TfhytrfK;
         "oD7xNhSE" = _oD7xNhSE;
+        "jZtASXzZ" = _jZtASXzZ;
         "minecraft-1.21.6" = _TfhytrfK;
         "minecraft-1.21.7" = _TfhytrfK;
         "minecraft-1.21.8" = _TfhytrfK;
@@ -21,6 +27,7 @@ let
         "minecraft-1.21.10" = _TfhytrfK;
         "minecraft-1.21.11" = _oD7xNhSE;
         "minecraft-26.1" = _oD7xNhSE;
+        "minecraft-26.2" = _jZtASXzZ;
         "vanilla-1.21.6" = _TfhytrfK;
         "vanilla-1.21.7" = _TfhytrfK;
         "vanilla-1.21.8" = _TfhytrfK;
@@ -28,7 +35,8 @@ let
         "vanilla-1.21.10" = _TfhytrfK;
         "pkg-1.0.0" = _TfhytrfK;
         "pkg-1.0.1" = _oD7xNhSE;
-        "default" = _oD7xNhSE;
+        "pkg-1.0.2" = _jZtASXzZ;
+        "default" = _jZtASXzZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "authentic-night-vision";

@@ -86,6 +86,11 @@ let
             "file" = "persistentgamemodeswitcher-1.0.3.13.jar";
             "hash" = "sha512-H18r2h38Hj99EuRydFNLeOqGTdz7G217/dS+mpiHHTDErt110FIaS1OgzkcAfFoglWf4DH279Dk7EbT3yewz3A==";
         };
+        _o3rER3CV = {
+            "id" = "o3rER3CV";
+            "file" = "persistentgamemodeswitcher-1.0.3.14-fabric.jar";
+            "hash" = "sha512-e0sKZW3O1RTDGdpPGjOt1SJJ7jMazLrZB8IE+v7wGB1RObullI0fbCIO5vUzz9FHCESm2oiU+e/8XN7ChYI96w==";
+        };
     in {
         "SsRDe7Mi" = _SsRDe7Mi;
         "8b65uUEh" = _8b65uUEh;
@@ -104,6 +109,7 @@ let
         "s4VCImj9" = _s4VCImj9;
         "2eCTKxk9" = _2eCTKxk9;
         "dA6v8ocV" = _dA6v8ocV;
+        "o3rER3CV" = _o3rER3CV;
         "fabric-1.16" = _SsRDe7Mi;
         "fabric-1.16.1" = _SsRDe7Mi;
         "fabric-1.16.2" = _SsRDe7Mi;
@@ -141,6 +147,7 @@ let
         "fabric-26.1" = _dA6v8ocV;
         "fabric-26.1.1" = _dA6v8ocV;
         "fabric-26.1.2" = _dA6v8ocV;
+        "fabric-26.2" = _o3rER3CV;
         "quilt-1.16" = _SsRDe7Mi;
         "quilt-1.16.1" = _SsRDe7Mi;
         "quilt-1.16.2" = _SsRDe7Mi;
@@ -176,7 +183,8 @@ let
         "pkg-1.0.3.11" = _s4VCImj9;
         "pkg-1.0.3.12" = _2eCTKxk9;
         "pkg-1.0.3.13" = _dA6v8ocV;
-        "default" = _dA6v8ocV;
+        "pkg-1.0.3.14" = _o3rER3CV;
+        "default" = _o3rER3CV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "persistentgamemodeswitcher";

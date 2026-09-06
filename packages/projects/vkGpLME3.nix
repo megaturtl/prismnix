@@ -111,6 +111,16 @@ let
             "file" = "stylizeddamage-1201.2.9-fix.jar";
             "hash" = "sha512-gOlu4jXJ01K9OHEcmtZL2daccNMpz/nCLHY1M5VYBU5WpCC5JtFuCzW/Ok2H6d+TdxkX/RmTnjwCNXjccMj2Iw==";
         };
+        _GL5256LD = {
+            "id" = "GL5256LD";
+            "file" = "stylizeddamage-1201.2.10.jar";
+            "hash" = "sha512-2AmK+gjyjEJUx/X1OWWgdH3tdPAMb4fHzwNo0i5L4LgXDFENhI0RYyrO9vxbra6gYZZHkKSnyVbTdmHFl8HuyQ==";
+        };
+        _EF7LeyKB = {
+            "id" = "EF7LeyKB";
+            "file" = "stylizeddamage-1211.2.10.jar";
+            "hash" = "sha512-ojl4qhWTPGriu3WgYmceSEZV2LDgy+39x0u3ac25ldVKEDlqB73Wq2CX54TtairTEnCs2s43vf51xo4TtoNqbA==";
+        };
     in {
         "gsHjZXIL" = _gsHjZXIL;
         "bWhaAZSF" = _bWhaAZSF;
@@ -134,8 +144,10 @@ let
         "G5hyRrz5" = _G5hyRrz5;
         "EqxPf9Qw" = _EqxPf9Qw;
         "zTqOa8mj" = _zTqOa8mj;
-        "neoforge-1.21.1" = _EqxPf9Qw;
-        "forge-1.20.1" = _zTqOa8mj;
+        "GL5256LD" = _GL5256LD;
+        "EF7LeyKB" = _EF7LeyKB;
+        "neoforge-1.21.1" = _EF7LeyKB;
+        "forge-1.20.1" = _GL5256LD;
         "pkg-1211.2.0" = _gsHjZXIL;
         "pkg-1201.2.0" = _bWhaAZSF;
         "pkg-1211.2.1" = _a0DO4fkI;
@@ -158,7 +170,9 @@ let
         "pkg-1211.2.9" = _G5hyRrz5;
         "pkg-1211.2.9-fix" = _EqxPf9Qw;
         "pkg-1201.2.9-fix" = _zTqOa8mj;
-        "default" = _zTqOa8mj;
+        "pkg-1201.2.10" = _GL5256LD;
+        "pkg-1211.2.10" = _EF7LeyKB;
+        "default" = _EF7LeyKB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stylizeddamage";

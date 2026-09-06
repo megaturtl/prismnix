@@ -371,6 +371,66 @@ let
             "file" = "CustomScoreboard-1.12.8-26.2.jar";
             "hash" = "sha512-JtrxiVehnjU1NEePbLfVVYNeU8W1GRd6uRCd22yyVu3oC6qVPEieeyekNeEgn58SJzriXXvvrnh8kVIRGeHjNA==";
         };
+        _UckojhII = {
+            "id" = "UckojhII";
+            "file" = "CustomScoreboard-1.12.9-26.1.jar";
+            "hash" = "sha512-NsyHCSuNcB7F4GHfyJE1giTacFb9mVAKya1lsuIZox+8/tmqOBG5HFfno2oth8knqiWoCAVVxuket0s4ZIo6NQ==";
+        };
+        _VgqqP25D = {
+            "id" = "VgqqP25D";
+            "file" = "CustomScoreboard-1.12.9-26.2.jar";
+            "hash" = "sha512-xVhS9YlbM6TC6cguWs5dXsU0/k+4dcqIz3PS2Dc8FCLcGJxRoJRdoHptpCzibctEBjN/5tItzb5LJYT+reuItQ==";
+        };
+        _gVjiducA = {
+            "id" = "gVjiducA";
+            "file" = "CustomScoreboard-1.12.10-26.1.jar";
+            "hash" = "sha512-Ha9Oqh3vzuiotUvX2iWuOwlrEtqv4RjuPnUNWeEnp3LvaD2DeHETTqagvvKxkq9Rrazj4RGMbNk8Xs81ghZjzQ==";
+        };
+        _n9K5pdpa = {
+            "id" = "n9K5pdpa";
+            "file" = "CustomScoreboard-1.12.10-26.2.jar";
+            "hash" = "sha512-EjNuhvlczcQuSILBMESNLVolQmxwq+UbGHBG9sa0tT4dfAH9ZuQGiecMcc6WjysrGY/ivWpSnwjLaMRglXLtPg==";
+        };
+        _9ZQ8S1sQ = {
+            "id" = "9ZQ8S1sQ";
+            "file" = "CustomScoreboard-1.12.11-26.1.jar";
+            "hash" = "sha512-yB/eB1tTAnTJrIMWkpiowWvnEGrtptQ0l2CG/AdVM0vMoPYbTKEtkvoKYx1kF7fY/WoNUiFxMp4XtYYdmJ3bCg==";
+        };
+        _AQ9vZ60R = {
+            "id" = "AQ9vZ60R";
+            "file" = "CustomScoreboard-1.12.11-26.2.jar";
+            "hash" = "sha512-vULqocneCM2cuD9AvsO/djk48jwOm+Ug7iH/kW54Qo7h0ilHJUHwBMkMcrsRl8O9H8SgLd+mF820gdXsZLAGqg==";
+        };
+        _Inz2blwJ = {
+            "id" = "Inz2blwJ";
+            "file" = "CustomScoreboard-1.12.12-26.1.jar";
+            "hash" = "sha512-qXov0bP0EOrhXgemB9u9uRl2obiChAXozhu8mj4gCuqVAG+zHjKrdjgkve6ZJf+BTVexf5Jx9XX/S45T35feTQ==";
+        };
+        _RBDl5hcc = {
+            "id" = "RBDl5hcc";
+            "file" = "CustomScoreboard-1.12.12-26.2.jar";
+            "hash" = "sha512-YQWoZ9iLxz/24dK0kib36PRJP1Fb8Hi8XgGuXo/rNG+Ugl6K+XpiPm2fzbtz/avrUat9JA2LT1RcBEWJ+NIviw==";
+        };
+        _zRx9ABtm = {
+            "id" = "zRx9ABtm";
+            "file" = "CustomScoreboard-1.12.13-26.1.jar";
+            "hash" = "sha512-urwKxweCVB7VJunqCgkos9HBXN5HIz/wkrnhm8N4krkPBKjkCVKNTk43snGAZIGT2e8VtOfNK9YoOmEncDXa4w==";
+        };
+        _pyd1eWIb = {
+            "id" = "pyd1eWIb";
+            "file" = "CustomScoreboard-1.12.13-26.2.jar";
+            "hash" = "sha512-1+nPlBPMzOpkYY/5KyZizf/pNPvvjAxRuMdDKgNNugNmIFpNIoifD0ZgoIp68I+S9oX2F289eh6Q8sb71i2a1Q==";
+        };
+        _2Z6qHJlg = {
+            "id" = "2Z6qHJlg";
+            "file" = "CustomScoreboard-1.12.14-26.2.jar";
+            "hash" = "sha512-ckne+Jg5GPB42nS7Hw0CXFEocyfkZSyNB/aYpFSFHz6b7v2RwGmp2m1BwhhYDxKiD/bonGuzypuhY+0f7hPg1A==";
+        };
+        _5VSiG5l7 = {
+            "id" = "5VSiG5l7";
+            "file" = "CustomScoreboard-1.12.14-2-26.1.jar";
+            "hash" = "sha512-EIvGfF7+iGpN0ad9ejm4aFDwBZHJQoh1PQJDMJP8RuU0+8hdmf1zmFq4/YIR9Q9BLd2y9eRIr/a3dB+Z7+i6nw==";
+        };
     in {
         "lbefAVGy" = _lbefAVGy;
         "4umVwSv5" = _4umVwSv5;
@@ -446,6 +506,18 @@ let
         "PyaFUSWT" = _PyaFUSWT;
         "pJwNOZs2" = _pJwNOZs2;
         "UrGA630Q" = _UrGA630Q;
+        "UckojhII" = _UckojhII;
+        "VgqqP25D" = _VgqqP25D;
+        "gVjiducA" = _gVjiducA;
+        "n9K5pdpa" = _n9K5pdpa;
+        "9ZQ8S1sQ" = _9ZQ8S1sQ;
+        "AQ9vZ60R" = _AQ9vZ60R;
+        "Inz2blwJ" = _Inz2blwJ;
+        "RBDl5hcc" = _RBDl5hcc;
+        "zRx9ABtm" = _zRx9ABtm;
+        "pyd1eWIb" = _pyd1eWIb;
+        "2Z6qHJlg" = _2Z6qHJlg;
+        "5VSiG5l7" = _5VSiG5l7;
         "fabric-1.21" = _lbefAVGy;
         "fabric-1.21.1" = _nYYfSfB6;
         "fabric-1.21.2" = _yq7nYEVq;
@@ -458,10 +530,10 @@ let
         "fabric-1.21.9" = _BXPqYy3x;
         "fabric-1.21.10" = _BXPqYy3x;
         "fabric-1.21.11" = _RIWEJ0uh;
-        "fabric-26.1" = _pJwNOZs2;
-        "fabric-26.1.1" = _pJwNOZs2;
-        "fabric-26.1.2" = _pJwNOZs2;
-        "fabric-26.2" = _UrGA630Q;
+        "fabric-26.1" = _5VSiG5l7;
+        "fabric-26.1.1" = _5VSiG5l7;
+        "fabric-26.1.2" = _5VSiG5l7;
+        "fabric-26.2" = _2Z6qHJlg;
         "pkg-0.1" = _lbefAVGy;
         "pkg-0.2" = _4umVwSv5;
         "pkg-0.3" = _qacEreuf;
@@ -529,7 +601,14 @@ let
         "pkg-1.12.6" = _bmWC0SaW;
         "pkg-1.12.7" = _PyaFUSWT;
         "pkg-1.12.8" = _UrGA630Q;
-        "default" = _UrGA630Q;
+        "pkg-1.12.9" = _VgqqP25D;
+        "pkg-1.12.10" = _n9K5pdpa;
+        "pkg-1.12.11" = _AQ9vZ60R;
+        "pkg-1.12.12" = _RBDl5hcc;
+        "pkg-1.12.13" = _pyd1eWIb;
+        "pkg-1.12.14" = _2Z6qHJlg;
+        "pkg-1.12.14-2" = _5VSiG5l7;
+        "default" = _5VSiG5l7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skyblock-custom-scoreboard";

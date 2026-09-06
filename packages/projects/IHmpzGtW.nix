@@ -111,6 +111,11 @@ let
             "file" = "no-nether-portal-overlay-1.0.21.jar";
             "hash" = "sha512-3XXF/F6ja69/wMiL3QnWnjLbgSp4M6ERx98FTi1f2e0CC0UyElqZcMCxUch1kVUDNLdqYnhENuLlsAn2Phr45g==";
         };
+        _cPTTqUQu = {
+            "id" = "cPTTqUQu";
+            "file" = "no-nether-portal-overlay-1.0.22.jar";
+            "hash" = "sha512-99AL2pQqZXr+NoCFYK5kLwbbdNJgJ6oUd2Hf88qDht5fiwhCztLlIDfS81CE/Tc4hXuPI2AX980zbnMmvejgzQ==";
+        };
     in {
         "jcAeBZkb" = _jcAeBZkb;
         "tV841EX0" = _tV841EX0;
@@ -134,6 +139,7 @@ let
         "T5Hxowp2" = _T5Hxowp2;
         "AL7JV5qH" = _AL7JV5qH;
         "wKGrjtNf" = _wKGrjtNf;
+        "cPTTqUQu" = _cPTTqUQu;
         "fabric-1.16.5" = _jcAeBZkb;
         "fabric-1.17" = _tV841EX0;
         "fabric-1.17.1" = _tV841EX0;
@@ -158,6 +164,7 @@ let
         "fabric-26.1" = _wKGrjtNf;
         "fabric-26.1.1" = _wKGrjtNf;
         "fabric-26.1.2" = _wKGrjtNf;
+        "fabric-26.2" = _cPTTqUQu;
         "pkg-1.0.0" = _jcAeBZkb;
         "pkg-1.0.1" = _tV841EX0;
         "pkg-1.0.2" = _tyrqGE9y;
@@ -180,7 +187,8 @@ let
         "pkg-1.0.19" = _T5Hxowp2;
         "pkg-1.0.20" = _AL7JV5qH;
         "pkg-1.0.21" = _wKGrjtNf;
-        "default" = _wKGrjtNf;
+        "pkg-1.0.22" = _cPTTqUQu;
+        "default" = _cPTTqUQu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-nether-portal-overlay";

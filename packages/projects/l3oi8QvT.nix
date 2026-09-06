@@ -66,6 +66,26 @@ let
             "file" = "newvmcomputers-1.4.15-1.21.1-fabric.jar";
             "hash" = "sha512-a/PzyYhYqpt+BuWnamqfSIjaYVVZMsAzJWFD0wvq5STK1jBT8FYOPyp9GYbuYnsJiZFRAiDkc73SFCNCmDYJ/w==";
         };
+        _VYbJA8Xc = {
+            "id" = "VYbJA8Xc";
+            "file" = "newvmcomputers-1.4.15-1.21.1-universal.jar";
+            "hash" = "sha512-l2t4yu3lu4IgfDie5UGqACzEEID2Ek/bVDBTg/up2BsDeN7U94sK16AGqel86fiDQkdCINRp+srE9Vb3FtxBnA==";
+        };
+        _Cfa3abW5 = {
+            "id" = "Cfa3abW5";
+            "file" = "newvmcomputers-1.4.15-1.20.1-universal.jar";
+            "hash" = "sha512-0ezwoduaHZPL8ULgKHS/avRxi3wqxZAxq5QaBKc/3ofhqpQnAZ9magEW1BnsTyogv5sfuLVpgvU8oL+tm8AwCQ==";
+        };
+        _nIw2RHJy = {
+            "id" = "nIw2RHJy";
+            "file" = "newvmcomputers-1.4.15-1.20.1-universal.jar";
+            "hash" = "sha512-JloT1hj30pOEx1vkUolU0xc22uJSl6mYslOvSaWscSDTMBKdUUHgAMp0MX52cQPoOM4Ln7AZJBzh2dJiDR7QfA==";
+        };
+        _3iC7qdC7 = {
+            "id" = "3iC7qdC7";
+            "file" = "newvmcomputers-1.4.15-1.21.1-universal.jar";
+            "hash" = "sha512-XcHSqXG0DONdPhVH05BKNKZLIjF/3RxUc5NyE97kNKzlTt7oDVqGnOPXMMcgnM3u1ha3Ww4Pw2qOpc8SEvHUAQ==";
+        };
     in {
         "Qo8QTKKg" = _Qo8QTKKg;
         "dwA1nZbZ" = _dwA1nZbZ;
@@ -80,15 +100,19 @@ let
         "PITQKEiW" = _PITQKEiW;
         "fzzyRWBZ" = _fzzyRWBZ;
         "AHddy0M8" = _AHddy0M8;
-        "fabric-1.20.1" = _hp86KEhz;
+        "VYbJA8Xc" = _VYbJA8Xc;
+        "Cfa3abW5" = _Cfa3abW5;
+        "nIw2RHJy" = _nIw2RHJy;
+        "3iC7qdC7" = _3iC7qdC7;
+        "fabric-1.20.1" = _nIw2RHJy;
         "fabric-1.20.2" = _qo9Cc3xQ;
         "fabric-1.20.3" = _qo9Cc3xQ;
         "fabric-1.20.4" = _qo9Cc3xQ;
         "fabric-1.20.5" = _qo9Cc3xQ;
         "fabric-1.20.6" = _qo9Cc3xQ;
-        "fabric-1.21.1" = _AHddy0M8;
-        "forge-1.20.1" = _PITQKEiW;
-        "neoforge-1.21.1" = _fzzyRWBZ;
+        "fabric-1.21.1" = _3iC7qdC7;
+        "forge-1.20.1" = _nIw2RHJy;
+        "neoforge-1.21.1" = _3iC7qdC7;
         "pkg-(DEPRECATED)-1.4.15-1.20.1" = _Qo8QTKKg;
         "pkg-(DEPRECATED)-1.5-1.20.1" = _f3vJVB1p;
         "pkg-1.4.15-1.20.1-fabric" = _hp86KEhz;
@@ -100,7 +124,11 @@ let
         "pkg-1.4.15-1.20.1-forge" = _PITQKEiW;
         "pkg-1.4.15-1.21.1-neoforge" = _fzzyRWBZ;
         "pkg-1.4.15-1.21.1-fabric" = _AHddy0M8;
-        "default" = _AHddy0M8;
+        "pkg-(VMWARE)_1.4.15-1.21.1-universal" = _VYbJA8Xc;
+        "pkg-(VMWARE)_1.4.15-1.20.1-universal" = _Cfa3abW5;
+        "pkg-(VMWARE_HOTFIX)1.4.15-1.20.1-uni" = _nIw2RHJy;
+        "pkg-(VMWARE_HOTFIX)1.4.15-1.21.1-uni" = _3iC7qdC7;
+        "default" = _3iC7qdC7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "new-vm-computers";

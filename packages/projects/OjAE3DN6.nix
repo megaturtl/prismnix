@@ -1,41 +1,6 @@
 {lib, callPackage, ...}:
 let
     versions = (let
-        _X00Cxuud = {
-            "id" = "X00Cxuud";
-            "file" = "youarch-fabric-1.21-0.19.1.jar";
-            "hash" = "sha512-0kMrCrFtMztN1dDmE9pDTPdJuftVxsojjId23nN8tAUJFWJa605biL072e9CKcxns0NA1LBKvxlSShwqbGy1Lg==";
-        };
-        _6QIh4kRE = {
-            "id" = "6QIh4kRE";
-            "file" = "yourarch-fabric-1.21.4-0.21.1.jar";
-            "hash" = "sha512-NxaHDcmHURclva4mVqAMY2z2TOt+ueNNB7RRLRLIq8gkfyZQME8lgL6OJp0JjJui4nrMbrvM1F+MXvNCpOLy6g==";
-        };
-        _i1RbmsMn = {
-            "id" = "i1RbmsMn";
-            "file" = "youarch-fabric-1.21.5-0.22.1.jar";
-            "hash" = "sha512-6pa3swKfwzzH5scE0n7fPkR5s8Ch3pE66bUPI0OzX/CF5im3SxSTz/N59IWmAhJw75Hj4vPOHgZP4ftPpA15nA==";
-        };
-        _ILTMo5Hv = {
-            "id" = "ILTMo5Hv";
-            "file" = "youarch-fabric-1.21.7-0.23.1.jar";
-            "hash" = "sha512-J72d1xI//b577jyahkZAx2YWWb0jzW3Dfb+mi2Vtcs3oE/Vj1xTHPvbAx3LK8Lpb4U1e148V+rGhvKXnJTogGQ==";
-        };
-        _dBlV9KHr = {
-            "id" = "dBlV9KHr";
-            "file" = "youarch-fabric-1.21.4-0.21.4.jar";
-            "hash" = "sha512-O1roA+VzZlKdogizdQFP93dbM95G3xBix1IfL//0rcn63nT/BvoRxmNQzMGYKDcs2dureFCZrMwHOyoD6ZbnxQ==";
-        };
-        _7WHLTdnG = {
-            "id" = "7WHLTdnG";
-            "file" = "youarch-fabric-1.21.5-0.22.2.jar";
-            "hash" = "sha512-yeCq4g54pmnQpn0E8gDBQi38QwfLB2KlgiJHAkvFTI0o4Z7GCYXsZoE/Zq4QhXQ/bNapLjwtAglOZsVXnqQaSA==";
-        };
-        _BADkSWRN = {
-            "id" = "BADkSWRN";
-            "file" = "youarch-fabric-1.21.8-0.23.3.jar";
-            "hash" = "sha512-mCbkcM0WZs7LN2NFJXODAjOC9OVehgk+o5sqhns45dmkegiAWz+lARf4KHE8CTrNPpt8fTZPciFPUxmwwMmkmQ==";
-        };
         _CT2LQj2Y = {
             "id" = "CT2LQj2Y";
             "file" = "youarch-fabric-1.21.11-0.26.11.jar";
@@ -51,40 +16,40 @@ let
             "file" = "youarch-fabric-26.2-0.28.3.jar";
             "hash" = "sha512-Qa+vcM91uFVscoIRgIZt4qNv6L//l8SDjApHH2BSMLu4U8yML89O0QYrbnUWkmK8/rI8K85uldPE0zZ6vzXJDQ==";
         };
+        _DPrviJbs = {
+            "id" = "DPrviJbs";
+            "file" = "youarch-fabric-1.21.11-0.26.14.jar";
+            "hash" = "sha512-0JLR1rYzOd6Lcdpn3TqaUqae2e1XpZi0900lPuw8z6K5GD4kan6JQ8IY2d5bG9mTQs+cEf2PxA/y65moTy4kDw==";
+        };
+        _SftFsqjc = {
+            "id" = "SftFsqjc";
+            "file" = "youarch-fabric-26.1.2-0.27.12.jar";
+            "hash" = "sha512-A7PGTjl0xlfSgEi6xfcDBISBDdzg0Lh0L2Q3tw77ggLbUPH2WyclzKNwgkZwvJLIGZHCmL66/XJ4FSdvh6dQHQ==";
+        };
+        _vkuuyWJP = {
+            "id" = "vkuuyWJP";
+            "file" = "youarch-fabric-26.2-0.28.6.jar";
+            "hash" = "sha512-a/SKVtf1I1jIfwyU6yBRahrmlR8fYGEERsd4QrUi/mAq0jlGuIu3OAU1yUKiGS8HJehtV300q9H5hNxIDZtdyg==";
+        };
     in {
-        "X00Cxuud" = _X00Cxuud;
-        "6QIh4kRE" = _6QIh4kRE;
-        "i1RbmsMn" = _i1RbmsMn;
-        "ILTMo5Hv" = _ILTMo5Hv;
-        "dBlV9KHr" = _dBlV9KHr;
-        "7WHLTdnG" = _7WHLTdnG;
-        "BADkSWRN" = _BADkSWRN;
         "CT2LQj2Y" = _CT2LQj2Y;
         "ZV0iZWEw" = _ZV0iZWEw;
         "BGaR2GKp" = _BGaR2GKp;
-        "fabric-1.21" = _X00Cxuud;
-        "fabric-1.21.1" = _X00Cxuud;
-        "fabric-1.21.4" = _dBlV9KHr;
-        "fabric-1.21.5" = _7WHLTdnG;
-        "fabric-1.21.6" = _BADkSWRN;
-        "fabric-1.21.7" = _BADkSWRN;
-        "fabric-1.21.8" = _BADkSWRN;
-        "fabric-1.21.11" = _CT2LQj2Y;
+        "DPrviJbs" = _DPrviJbs;
+        "SftFsqjc" = _SftFsqjc;
+        "vkuuyWJP" = _vkuuyWJP;
+        "fabric-1.21.11" = _DPrviJbs;
         "fabric-26.1" = _ZV0iZWEw;
         "fabric-26.1.1" = _ZV0iZWEw;
-        "fabric-26.1.2" = _ZV0iZWEw;
-        "fabric-26.2" = _BGaR2GKp;
-        "pkg-0.19.1" = _X00Cxuud;
-        "pkg-0.21.1" = _6QIh4kRE;
-        "pkg-0.22.1" = _i1RbmsMn;
-        "pkg-0.23.1" = _ILTMo5Hv;
-        "pkg-0.21.4" = _dBlV9KHr;
-        "pkg-0.22.2" = _7WHLTdnG;
-        "pkg-0.23.3" = _BADkSWRN;
+        "fabric-26.1.2" = _SftFsqjc;
+        "fabric-26.2" = _vkuuyWJP;
         "pkg-0.26.11" = _CT2LQj2Y;
         "pkg-0.27.9" = _ZV0iZWEw;
         "pkg-0.28.3" = _BGaR2GKp;
-        "default" = _BGaR2GKp;
+        "pkg-0.26.14" = _DPrviJbs;
+        "pkg-0.27.12" = _SftFsqjc;
+        "pkg-0.28.6" = _vkuuyWJP;
+        "default" = _vkuuyWJP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "youarch";

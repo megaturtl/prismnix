@@ -51,6 +51,26 @@ let
             "file" = "critical_strike-fabric-1.0.4+1.21.1.jar";
             "hash" = "sha512-T9XMs4DLojtI+kmFsoF41pQaNnC2MoqYHrvMtWijKGykvLX9JFtRFIV8oITQUyrf36TiP64TTMqlnA/L5+urhA==";
         };
+        _GX713akX = {
+            "id" = "GX713akX";
+            "file" = "critical_strike-neoforge-1.0.5+26.1.2.jar";
+            "hash" = "sha512-u7HuTdlvTnOXsdMS6Aq+gKuxkWaalsuGDKV2X35f6TqfX3i7b8tgAlElUKDNuKCFz8e1DYanx+qdwqyMvrq6Lw==";
+        };
+        _VswTemqW = {
+            "id" = "VswTemqW";
+            "file" = "critical_strike-fabric-1.0.5+26.1.2.jar";
+            "hash" = "sha512-eamH8X9HmuM8XXBbXcBKCWq9IR7BkfVBPs/GexU4ADuWTUmn3bdKUuhfbQCg7XZzoQGJp0iIZ79Jp+i4thzc4A==";
+        };
+        _rwXg2SvQ = {
+            "id" = "rwXg2SvQ";
+            "file" = "critical_strike-fabric-1.0.5+26.2.jar";
+            "hash" = "sha512-qfRx77CfAKpqI5wwQJ1yltO6rRRCsUk8vg1yljnc4H8uotyDk8cMIvY55vnwhcpQ7rrDniVxqeteCZbopEpGhg==";
+        };
+        _kypIpNiD = {
+            "id" = "kypIpNiD";
+            "file" = "critical_strike-neoforge-1.0.5+26.2.jar";
+            "hash" = "sha512-IxfOB0/wJvvGbrH92bYnRQ7JlKGBuk12JGKQZnmOH7qvhScggGXhZ7FmuTDlsIL657crTd5zzmDny0i74gZSyw==";
+        };
     in {
         "G80rQG92" = _G80rQG92;
         "hTxWx3uB" = _hTxWx3uB;
@@ -62,10 +82,22 @@ let
         "WbNOtGAn" = _WbNOtGAn;
         "2LZ76MSH" = _2LZ76MSH;
         "8Ci3W6fL" = _8Ci3W6fL;
+        "GX713akX" = _GX713akX;
+        "VswTemqW" = _VswTemqW;
+        "rwXg2SvQ" = _rwXg2SvQ;
+        "kypIpNiD" = _kypIpNiD;
         "fabric-1.21" = _8Ci3W6fL;
         "fabric-1.21.1" = _8Ci3W6fL;
+        "fabric-26.1" = _VswTemqW;
+        "fabric-26.1.1" = _VswTemqW;
+        "fabric-26.1.2" = _VswTemqW;
+        "fabric-26.2" = _rwXg2SvQ;
         "neoforge-1.21" = _2LZ76MSH;
         "neoforge-1.21.1" = _2LZ76MSH;
+        "neoforge-26.1" = _GX713akX;
+        "neoforge-26.1.1" = _GX713akX;
+        "neoforge-26.1.2" = _GX713akX;
+        "neoforge-26.2" = _kypIpNiD;
         "pkg-1.0.0+1.21.1-fabric" = _G80rQG92;
         "pkg-1.0.0+1.21.1-neoforge" = _hTxWx3uB;
         "pkg-1.0.1+1.21.1-fabric" = _cmPl910H;
@@ -76,7 +108,11 @@ let
         "pkg-1.0.3+1.21.1-fabric" = _WbNOtGAn;
         "pkg-1.0.4+1.21.1-neoforge" = _2LZ76MSH;
         "pkg-1.0.4+1.21.1-fabric" = _8Ci3W6fL;
-        "default" = _8Ci3W6fL;
+        "pkg-1.0.5+26.1.2-neoforge" = _GX713akX;
+        "pkg-1.0.5+26.1.2-fabric" = _VswTemqW;
+        "pkg-1.0.5+26.2-fabric" = _rwXg2SvQ;
+        "pkg-1.0.5+26.2-neoforge" = _kypIpNiD;
+        "default" = _kypIpNiD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "critical-strike";

@@ -256,6 +256,21 @@ let
             "file" = "pointblank-neoforge-1.21.11-2.0.1.jar";
             "hash" = "sha512-VHTV7icykfk0tVKaXCYW+jbMdgyoP6lNBNMygNixHlOZ5/nTQ72jFyEDnfW7c0BX5dNqUG165QzNNuZyddiUOw==";
         };
+        _PCCdUQHj = {
+            "id" = "PCCdUQHj";
+            "file" = "pointblank-forge-1.20.1-1.12.1.jar";
+            "hash" = "sha512-LqTOpsuPkJiY62nwYdrmK0xQE7Xz2DTGB27dQaPeUDrm99qSCvvkX0QjuHZCvzmOjj7jaYz0uUHhpGoGapgQ1Q==";
+        };
+        _X6N4idS3 = {
+            "id" = "X6N4idS3";
+            "file" = "pointblank-neoforge-1.21-1.12.1.jar";
+            "hash" = "sha512-eERT7BYihNa8i+xWoAHyY/EpH3Vp0XHCmcbCu7akGsTbuiZgPQmYfeH2oMbDEJmBPP/A+G5MigCkV+0C7JTSeg==";
+        };
+        _WNmKa22J = {
+            "id" = "WNmKa22J";
+            "file" = "pointblank-fabric-1.21-1.12.1.jar";
+            "hash" = "sha512-E7q/37EGx/s73T6OOdlvheURBPCVxsey9UsFtOUH3E52RlSQ9guHA+wGvktwLWh465rvqxkGK6G560yn4FM2mQ==";
+        };
     in {
         "SDaC25v5" = _SDaC25v5;
         "lymTZYbW" = _lymTZYbW;
@@ -308,15 +323,18 @@ let
         "p92D7hU3" = _p92D7hU3;
         "96kcubpx" = _96kcubpx;
         "IAoIKBq2" = _IAoIKBq2;
-        "forge-1.20.1" = _IKvr1xtC;
+        "PCCdUQHj" = _PCCdUQHj;
+        "X6N4idS3" = _X6N4idS3;
+        "WNmKa22J" = _WNmKa22J;
+        "forge-1.20.1" = _PCCdUQHj;
         "forge-1.21" = _8NU5xCMU;
         "forge-1.21.1" = _8NU5xCMU;
         "fabric-1.21" = _pkmEVhfx;
         "fabric-1.20.1" = _YSzjIQd7;
-        "fabric-1.21.1" = _pkmEVhfx;
+        "fabric-1.21.1" = _WNmKa22J;
         "fabric-1.21.11" = _96kcubpx;
         "neoforge-1.21" = _E7JIkQhi;
-        "neoforge-1.21.1" = _E7JIkQhi;
+        "neoforge-1.21.1" = _X6N4idS3;
         "neoforge-1.21.11" = _IAoIKBq2;
         "pkg-1.3.3" = _SDaC25v5;
         "pkg-1.4.2" = _lymTZYbW;
@@ -340,7 +358,8 @@ let
         "pkg-1.11.1" = _8NU5xCMU;
         "pkg-2.0" = _p92D7hU3;
         "pkg-2.0.1" = _IAoIKBq2;
-        "default" = _IAoIKBq2;
+        "pkg-1.12.1" = _WNmKa22J;
+        "default" = _WNmKa22J;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vics-point-blank";

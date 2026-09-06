@@ -111,6 +111,11 @@ let
             "file" = "no-teleport-cooldown-1.0.22.jar";
             "hash" = "sha512-abehft9RzcndfCZz4KPPM3RZI0JyWYh4SDl+I00iGNme320RqEFL0CYJOt73diY3vtOqrBfzUbDeRs24jkEPHA==";
         };
+        _fWLVgMAl = {
+            "id" = "fWLVgMAl";
+            "file" = "no-teleport-cooldown-1.0.23.jar";
+            "hash" = "sha512-QdrwYGkeHftOSRZST0N/JkcUQKjh6R6Uy3pHcgUxcinmDMsMI7wLLsg3alavBcA5OC1CA+vXSwWmgSajK4BKCg==";
+        };
     in {
         "TlJgmxcj" = _TlJgmxcj;
         "n2Z92RGm" = _n2Z92RGm;
@@ -134,6 +139,7 @@ let
         "pJGCwyoB" = _pJGCwyoB;
         "vohArqtT" = _vohArqtT;
         "4sEVfQ6l" = _4sEVfQ6l;
+        "fWLVgMAl" = _fWLVgMAl;
         "fabric-1.16.5" = _TlJgmxcj;
         "fabric-1.17" = _n2Z92RGm;
         "fabric-1.17.1" = _n2Z92RGm;
@@ -158,6 +164,7 @@ let
         "fabric-26.1" = _4sEVfQ6l;
         "fabric-26.1.1" = _4sEVfQ6l;
         "fabric-26.1.2" = _4sEVfQ6l;
+        "fabric-26.2" = _fWLVgMAl;
         "pkg-1.0.1" = _TlJgmxcj;
         "pkg-1.0.2" = _n2Z92RGm;
         "pkg-1.0.3" = _Sl3PCwgh;
@@ -180,7 +187,8 @@ let
         "pkg-1.0.20" = _pJGCwyoB;
         "pkg-1.0.21" = _vohArqtT;
         "pkg-1.0.22" = _4sEVfQ6l;
-        "default" = _4sEVfQ6l;
+        "pkg-1.0.23" = _fWLVgMAl;
+        "default" = _fWLVgMAl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-teleport-cooldown";

@@ -451,6 +451,26 @@ let
             "file" = "[1.21.1-Neoforge] Hybrid Aquatic 1.6.8.jar";
             "hash" = "sha512-fs2frbld8Q8FKW91KZweUpGBMe8w3ectTFaSd3oX4Ru7/sKLuhjkhCxiW6lUKY423rVWlMUOD9DHRL62lyltZw==";
         };
+        _JbcSaVfO = {
+            "id" = "JbcSaVfO";
+            "file" = "[1.20.1-Fabric] Hybrid Aquatic 1.6.9.jar";
+            "hash" = "sha512-Z7SaUudN5A73uxzylXMGWK8q70OtNffatreAWLD7X+m226+27hIobGjdqHVRr5eJPfLIS01qFC/pIa/XCys1vw==";
+        };
+        _Uz0jRbE8 = {
+            "id" = "Uz0jRbE8";
+            "file" = "[1.20.1-Forge] Hybrid Aquatic 1.6.9.jar";
+            "hash" = "sha512-hqc5kWGydrVKcBFspPFQZnHZE/qfaOQE8EH0S9tAU+e7f4Wx8GrvEujGfgXJSar/cwoOe6JFe+g2tA7nMBMXSQ==";
+        };
+        _F5POkJG0 = {
+            "id" = "F5POkJG0";
+            "file" = "[1.21.1-Fabric] Hybrid Aquatic 1.6.9.jar";
+            "hash" = "sha512-XcanZ3b3HM0ZopE/tWrhKDUChf5+axQEcvYZTvPvTwIPBPYOIz92MJkSoeM/0U0Ebky2KVafj5UHs0Kn/B19Yw==";
+        };
+        _nSHix8lr = {
+            "id" = "nSHix8lr";
+            "file" = "[1.21.1-Neoforge] Hybrid Aquatic 1.6.9.jar";
+            "hash" = "sha512-IKy5/o6Y2gpqsz3HLQQ7RGPP5TRAX5WkGeqB+gdbXG3Fn+v/xMJZDrNISnuL6IjzchOomdSnjnaHwy6ZxpCugg==";
+        };
     in {
         "4U8sQSGL" = _4U8sQSGL;
         "6c5zj7yx" = _6c5zj7yx;
@@ -542,16 +562,20 @@ let
         "vGjvBFX3" = _vGjvBFX3;
         "qzgZEGoR" = _qzgZEGoR;
         "NUmFVw9p" = _NUmFVw9p;
+        "JbcSaVfO" = _JbcSaVfO;
+        "Uz0jRbE8" = _Uz0jRbE8;
+        "F5POkJG0" = _F5POkJG0;
+        "nSHix8lr" = _nSHix8lr;
         "fabric-1.19.2" = _3ey2KNYL;
-        "fabric-1.20.1" = _7sKgm1YD;
+        "fabric-1.20.1" = _JbcSaVfO;
         "fabric-1.19.4" = _4yo5BU5p;
         "fabric-1.20.2" = _zmK4VFsK;
         "fabric-1.20.4" = _IbBqf6AS;
-        "fabric-1.21.1" = _qzgZEGoR;
-        "forge-1.20.1" = _LSBMY7By;
+        "fabric-1.21.1" = _F5POkJG0;
+        "forge-1.20.1" = _Uz0jRbE8;
         "forge-1.20.2" = _9w6fg47O;
         "forge-1.20.4" = _I4rbfevS;
-        "neoforge-1.21.1" = _NUmFVw9p;
+        "neoforge-1.21.1" = _nSHix8lr;
         "pkg-1.0.1-1.19.2" = _4U8sQSGL;
         "pkg-1.0.1-1.20.1" = _6c5zj7yx;
         "pkg-1.0.1-1.19.4" = _v1vDo62a;
@@ -615,7 +639,10 @@ let
         "pkg-1.6.8-fabric" = _qzgZEGoR;
         "pkg-1.6.8-forge" = _LSBMY7By;
         "pkg-1.6.8-neoforge" = _NUmFVw9p;
-        "default" = _NUmFVw9p;
+        "pkg-1.6.9-fabric" = _F5POkJG0;
+        "pkg-1.6.9-forge" = _Uz0jRbE8;
+        "pkg-1.6.9-neoforge" = _nSHix8lr;
+        "default" = _nSHix8lr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hybrid-aquatic";

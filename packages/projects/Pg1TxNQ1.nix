@@ -71,6 +71,11 @@ let
             "file" = "StacksAreStacks-2.1.2-1.26.2.jar";
             "hash" = "sha512-CqHhplofHwjxGiU9PZHkRAJdy0yZSbPx58/Dht7K8DdjnZFF8STdCd9DWIc6W9T0Dg/pX/EO9mR0kKpRdj/1OA==";
         };
+        _NinHQFJi = {
+            "id" = "NinHQFJi";
+            "file" = "StacksAreStacks-2.1.3-1.26.2.jar";
+            "hash" = "sha512-Dna0rSbYhZYzsIRY8f6QN/m3To1kE38zXSbuvuqLLtws+MEpnQNtXDL3GVhCfa/ttS02sRSxdU3Uog1Clq66kA==";
+        };
     in {
         "yJIt28lI" = _yJIt28lI;
         "zYS3OQCA" = _zYS3OQCA;
@@ -86,6 +91,7 @@ let
         "FlTFWOj5" = _FlTFWOj5;
         "YCoArXwN" = _YCoArXwN;
         "vHeAb2gZ" = _vHeAb2gZ;
+        "NinHQFJi" = _NinHQFJi;
         "fabric-1.20" = _yJIt28lI;
         "fabric-1.20.1" = _yJIt28lI;
         "fabric-1.20.2" = _yJIt28lI;
@@ -108,7 +114,7 @@ let
         "fabric-26.1" = _FlTFWOj5;
         "fabric-26.1.1" = _FlTFWOj5;
         "fabric-26.1.2" = _FlTFWOj5;
-        "fabric-26.2" = _vHeAb2gZ;
+        "fabric-26.2" = _NinHQFJi;
         "pkg-1.0.0-1.20" = _yJIt28lI;
         "pkg-1.0.0-1.20.4" = _zYS3OQCA;
         "pkg-1.0.0-1.20.5" = _hdgDeaFx;
@@ -123,7 +129,8 @@ let
         "pkg-2.0.1-1.26.1" = _FlTFWOj5;
         "pkg-2.1.1-1.26.2" = _YCoArXwN;
         "pkg-2.1.2-1.26.2" = _vHeAb2gZ;
-        "default" = _vHeAb2gZ;
+        "pkg-2.1.3-1.26.2" = _NinHQFJi;
+        "default" = _NinHQFJi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stacks-are-stacks";

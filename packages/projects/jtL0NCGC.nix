@@ -46,6 +46,21 @@ let
             "file" = "gcr-1.2-BETA.jar";
             "hash" = "sha512-cbdMFs5WXckRpc2aWu9rIzASzBRmAjZ14ggT/2zJL2oYx+sXLSIrLuE78JhGRekgBG7FwVjmrnVJGv7LsZaItw==";
         };
+        _Iuh7Gr0J = {
+            "id" = "Iuh7Gr0J";
+            "file" = "gcr-1.2.1-BETA.jar";
+            "hash" = "sha512-g5XQd0Y51f0JZ90fhKY5uP1ucsPlSI6dUhSs9nTFW7s4DuHuyDEmPPGwMr3H/UH5csrD329HoLYCVvaKcA359Q==";
+        };
+        _BCIOGRDi = {
+            "id" = "BCIOGRDi";
+            "file" = "gcr-1.2.2-BETA.jar";
+            "hash" = "sha512-CH2h5upM+LK9stdaJ1i9iH6FMJvEKtU2yi6DYlcsGw4eC2YFvh828Hx5/45bJNvkq8dwC4yNsPYy6hbeB06A/w==";
+        };
+        _hnyNB8MG = {
+            "id" = "hnyNB8MG";
+            "file" = "gcr-1.2.3-BETA.jar";
+            "hash" = "sha512-RDkSICWyFUXIDaoS+kqyyH+JU6/i/batzPGgneRs8twqaata/bq6tCTIcTI7b+qFwAR22X88W1Pycfxn/WOpmg==";
+        };
     in {
         "lL0I5oLF" = _lL0I5oLF;
         "506zorim" = _506zorim;
@@ -56,7 +71,10 @@ let
         "WSYLDQcC" = _WSYLDQcC;
         "gYTgsbLN" = _gYTgsbLN;
         "TtDkzvLQ" = _TtDkzvLQ;
-        "neoforge-1.21.1" = _TtDkzvLQ;
+        "Iuh7Gr0J" = _Iuh7Gr0J;
+        "BCIOGRDi" = _BCIOGRDi;
+        "hnyNB8MG" = _hnyNB8MG;
+        "neoforge-1.21.1" = _hnyNB8MG;
         "pkg-1.0-BETA" = _lL0I5oLF;
         "pkg-1.0.2-BETA" = _506zorim;
         "pkg-1.1.0-BETA" = _3QCjx8xA;
@@ -66,7 +84,10 @@ let
         "pkg-1.1.4-BETA" = _WSYLDQcC;
         "pkg-1.1.4-BETA-hotfix" = _gYTgsbLN;
         "pkg-1.2-BETA" = _TtDkzvLQ;
-        "default" = _TtDkzvLQ;
+        "pkg-1.2.1-BETA" = _Iuh7Gr0J;
+        "pkg-1.2.2-BETA" = _BCIOGRDi;
+        "pkg-1.2.3-BETA" = _hnyNB8MG;
+        "default" = _hnyNB8MG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "guns-craft-reforged";
@@ -74,12 +95,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "LicenseRef-All-Rights-Reserved";
-                shortName = "LicenseRef-All-Rights-Reserved";
+                fullName = "GNU General Public License v3.0 only";
+                shortName = "GPL-3.0-only";
                 url = null;
             };
         };

@@ -416,6 +416,56 @@ let
             "file" = "betterarcheology-neoforge-26.1.2-1.3.7.jar";
             "hash" = "sha512-UmejvqF6+wgI6bauI1rRppeFLFJFSdKIZUY7JZqYnmjbOSE9mZU6CrvwUJhdZ1P7jlY17gY+0yR4qgyLJ5gbxg==";
         };
+        _HiVBL8w1 = {
+            "id" = "HiVBL8w1";
+            "file" = "betterarcheology-neoforge-1.21.1-1.3.8.jar";
+            "hash" = "sha512-zMORtxS39f4bbzTi1NoyDItFacBHQL5swyRUxiq+cAMrkS4Z6WQNXdVArtSY9I9X8WMJ+i0MsF8PFZchrpBm5A==";
+        };
+        _fOkTIFp0 = {
+            "id" = "fOkTIFp0";
+            "file" = "betterarcheology-fabric-1.21.1-1.3.8.jar";
+            "hash" = "sha512-JjAq46baJbLJ2nmMaezjZa9r3USlealaAzhgeVqPqFBvzCd2ppzbuXHSYOl04fXQgP9zvNGZBFOzBFhTOG94fg==";
+        };
+        _68zKsg1w = {
+            "id" = "68zKsg1w";
+            "file" = "betterarcheology-fabric-1.21.4-1.3.8.jar";
+            "hash" = "sha512-6MS09+RTVrlpJiTzH25i4nTLz7UILzRLx/CeC4RV+xHNepl3LTg4DOuFWSUCHZsHS4qVz4Ses4tsVq8ZR+vBvQ==";
+        };
+        _3sqhEzvj = {
+            "id" = "3sqhEzvj";
+            "file" = "betterarcheology-neoforge-1.21.4-1.3.8.jar";
+            "hash" = "sha512-WVmD2EbN8ZbnkAMkKZjDdAHP/XZJFJdf3IB1PtmPexdryG94+RqPDCtqboO49jHAxUs9hIrS8ZtVO6voMnIgXg==";
+        };
+        _Avt7VRHb = {
+            "id" = "Avt7VRHb";
+            "file" = "betterarcheology-fabric-1.21.11-1.3.8.jar";
+            "hash" = "sha512-cM6prFY0LWQGjlNlES2fnLoOpjM6vPUoOcHHoHDUtShGFXftGL8B4RjapZSbFJcPUnoiTxZVxrtw4YIwGtgGkg==";
+        };
+        _m4UM4v3a = {
+            "id" = "m4UM4v3a";
+            "file" = "betterarcheology-neoforge-1.21.11-1.3.8.jar";
+            "hash" = "sha512-6nxg9aOBWlSQMwTs7nLwN+qxw4gUdUcj8Jb28ZxaUVFdTKew9A3IhS5hvpV/lKqjFqfQ4AnhlrGus7yTE5l8kA==";
+        };
+        _WYB7Lk66 = {
+            "id" = "WYB7Lk66";
+            "file" = "betterarcheology-fabric-26.1.2-1.3.8.jar";
+            "hash" = "sha512-dCL0msNujj/XUsu9ZPOiTuO+DotKBQKUPWNCes2ZMeUkm5Bz7ukydRtFAA5HsP/JxFKpMVGCdWz2fdnjIFj0yA==";
+        };
+        _4zbNKA3M = {
+            "id" = "4zbNKA3M";
+            "file" = "betterarcheology-neoforge-26.1.2-1.3.8.jar";
+            "hash" = "sha512-fJqU+3MQ1KpDtYLfFmCR6kAKodSf+n/uYCuMHSYqvij7gSgdW3BRtJRBAUE6in1L1QN0F/G1WGph61MtgasU7A==";
+        };
+        _Y28XiOH5 = {
+            "id" = "Y28XiOH5";
+            "file" = "betterarcheology-fabric-26.2-1.3.8.jar";
+            "hash" = "sha512-m5Wvv01HtERFh53aJB46WHALY7VXfMUIPG+qmbbJ2STeJmNf+WqQZf4QA9Dt/TnOc1mytJwGNfCV+PCCejGyyg==";
+        };
+        _NKQPaKXt = {
+            "id" = "NKQPaKXt";
+            "file" = "betterarcheology-neoforge-26.2-1.3.8.jar";
+            "hash" = "sha512-nC/IrY2U9bJp9r/ctmqz2J58bWVukZyOTNGumbeYi4QldBoRPEJLn8xMWTHMd/XHnlijN1e9MlbcCtpqNZphSQ==";
+        };
     in {
         "mtxSVVAF" = _mtxSVVAF;
         "eoEx2R8p" = _eoEx2R8p;
@@ -500,21 +550,32 @@ let
         "IOtZtef6" = _IOtZtef6;
         "QfcnB4nZ" = _QfcnB4nZ;
         "d0sQuVSs" = _d0sQuVSs;
+        "HiVBL8w1" = _HiVBL8w1;
+        "fOkTIFp0" = _fOkTIFp0;
+        "68zKsg1w" = _68zKsg1w;
+        "3sqhEzvj" = _3sqhEzvj;
+        "Avt7VRHb" = _Avt7VRHb;
+        "m4UM4v3a" = _m4UM4v3a;
+        "WYB7Lk66" = _WYB7Lk66;
+        "4zbNKA3M" = _4zbNKA3M;
+        "Y28XiOH5" = _Y28XiOH5;
+        "NKQPaKXt" = _NKQPaKXt;
         "fabric-1.20-pre7" = _mtxSVVAF;
         "fabric-1.20" = _QNQXrdhi;
         "fabric-1.20.1" = _QNQXrdhi;
         "fabric-1.20.2" = _oYXfn8Ly;
         "fabric-1.20.4" = _hTIcDdfR;
         "fabric-1.20.3" = _hTIcDdfR;
-        "fabric-1.21" = _my4yGtg4;
-        "fabric-1.21.1" = _my4yGtg4;
-        "fabric-1.21.4" = _ZdzXwofn;
+        "fabric-1.21" = _fOkTIFp0;
+        "fabric-1.21.1" = _fOkTIFp0;
+        "fabric-1.21.4" = _68zKsg1w;
         "fabric-1.21.9" = _YLvNBNco;
         "fabric-1.21.10" = _YLvNBNco;
-        "fabric-1.21.11" = _nfsRQAjG;
-        "fabric-26.1" = _QfcnB4nZ;
-        "fabric-26.1.1" = _QfcnB4nZ;
-        "fabric-26.1.2" = _QfcnB4nZ;
+        "fabric-1.21.11" = _Avt7VRHb;
+        "fabric-26.1" = _WYB7Lk66;
+        "fabric-26.1.1" = _WYB7Lk66;
+        "fabric-26.1.2" = _WYB7Lk66;
+        "fabric-26.2" = _Y28XiOH5;
         "forge-1.20.1" = _vsqxpUo3;
         "forge-1.20" = _vsqxpUo3;
         "forge-1.20.4" = _EAuHtx3t;
@@ -524,15 +585,16 @@ let
         "neoforge-1.20.1" = _vsqxpUo3;
         "neoforge-1.20" = _vsqxpUo3;
         "neoforge-1.20.4" = _GgrL5nB5;
-        "neoforge-1.21" = _vNdCUsLm;
-        "neoforge-1.21.1" = _vNdCUsLm;
-        "neoforge-1.21.4" = _qXb64iKo;
+        "neoforge-1.21" = _HiVBL8w1;
+        "neoforge-1.21.1" = _HiVBL8w1;
+        "neoforge-1.21.4" = _3sqhEzvj;
         "neoforge-1.21.9" = _fYPs6RdP;
         "neoforge-1.21.10" = _fYPs6RdP;
-        "neoforge-1.21.11" = _IOtZtef6;
-        "neoforge-26.1" = _d0sQuVSs;
-        "neoforge-26.1.1" = _d0sQuVSs;
-        "neoforge-26.1.2" = _d0sQuVSs;
+        "neoforge-1.21.11" = _m4UM4v3a;
+        "neoforge-26.1" = _4zbNKA3M;
+        "neoforge-26.1.1" = _4zbNKA3M;
+        "neoforge-26.1.2" = _4zbNKA3M;
+        "neoforge-26.2" = _NKQPaKXt;
         "pkg-0.9.0" = _mtxSVVAF;
         "pkg-1.0.0" = _eoEx2R8p;
         "pkg-1.0.1" = _AeIUTQsm;
@@ -577,7 +639,12 @@ let
         "pkg-1.21.4-1.3.7" = _qXb64iKo;
         "pkg-1.21.11-1.3.7" = _IOtZtef6;
         "pkg-26.1.x-1.3.7" = _d0sQuVSs;
-        "default" = _d0sQuVSs;
+        "pkg-1.21.1-1.3.8" = _fOkTIFp0;
+        "pkg-1.21.4-1.3.8" = _3sqhEzvj;
+        "pkg-1.21.11-1.3.8" = _m4UM4v3a;
+        "pkg-26.1.x-1.3.8" = _4zbNKA3M;
+        "pkg-26.2.x-1.3.8" = _NKQPaKXt;
+        "default" = _NKQPaKXt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-archeology";

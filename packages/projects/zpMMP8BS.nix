@@ -36,6 +36,16 @@ let
             "file" = "Watdad-1.2.0.jar";
             "hash" = "sha512-Kv2zeypMLCjuBfJqXNZ+D64qqGHc3tDPUz63/9EP5rtVxskai6mCtRLEy9vWmLrDm7WyJ1vhRrc8fDOzy8B/KA==";
         };
+        _WhOfuWLh = {
+            "id" = "WhOfuWLh";
+            "file" = "Watdad-1.2.0.jar";
+            "hash" = "sha512-9X9by4PzcOrNqY3RtfbKwI9QhBF9b7tu3I/V1joW0RV5qGPkXCSyGtq0h+MOvX2lzSYkbkQQpjdSbj1krPoVLA==";
+        };
+        _W1w7mBqs = {
+            "id" = "W1w7mBqs";
+            "file" = "Watdad-1.2.0.jar";
+            "hash" = "sha512-rIUSxyu8G/l7uv00a7PrGTvz/i1LTj1hZfsUfiL2h/zZcBl5W6UpmM4gx9pMXsUXVEOo4itdI68/O/UeDuLv6A==";
+        };
     in {
         "Q6W2Mt52" = _Q6W2Mt52;
         "u81b4nK5" = _u81b4nK5;
@@ -44,6 +54,8 @@ let
         "3g7QHnSt" = _3g7QHnSt;
         "Mt9zySnv" = _Mt9zySnv;
         "DbmPYiN4" = _DbmPYiN4;
+        "WhOfuWLh" = _WhOfuWLh;
+        "W1w7mBqs" = _W1w7mBqs;
         "fabric-1.21.4" = _u81b4nK5;
         "fabric-1.21.5" = _uaI6Moob;
         "fabric-1.21.6" = _WNqlDIP1;
@@ -52,10 +64,14 @@ let
         "fabric-1.21.9" = _DbmPYiN4;
         "fabric-1.21.10" = _DbmPYiN4;
         "fabric-1.21.11" = _DbmPYiN4;
+        "fabric-26.1" = _WhOfuWLh;
+        "fabric-26.1.1" = _WhOfuWLh;
+        "fabric-26.1.2" = _WhOfuWLh;
+        "fabric-26.2" = _W1w7mBqs;
         "pkg-1.0" = _Q6W2Mt52;
         "pkg-1.1.0" = _Mt9zySnv;
-        "pkg-1.2.0" = _DbmPYiN4;
-        "default" = _DbmPYiN4;
+        "pkg-1.2.0" = _W1w7mBqs;
+        "default" = _W1w7mBqs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "watdad";

@@ -166,6 +166,21 @@ let
             "file" = "VelocityUtils-4.2.jar";
             "hash" = "sha512-L4NkLU9nAiM5ok4+iXBCvYRy49DkrI3i/7Mef2XlDO/Cs75RBvVwQqUMnK3zxBomp3pQ/MoSx5IMEWIndO8vgQ==";
         };
+        _2avCyg77 = {
+            "id" = "2avCyg77";
+            "file" = "VelocityUtils-4.3.jar";
+            "hash" = "sha512-zZxU1Nm0Erz2XwavoVnnp3azqITFIUcYkPKi1If8zbKZ7WX0VSKYQA2YzxNsp6tKD6SmbuyEUia3C/2y1RxLDg==";
+        };
+        _Ltix74pl = {
+            "id" = "Ltix74pl";
+            "file" = "VelocityUtils-4.4.jar";
+            "hash" = "sha512-rSjuanhRVkuiAsV/WKHkrF3hcooZ3qi/xAbcKB4es4LbLMvzhWNdWSJ7ZjMcn4g3DD/XH73usFG1CQQLUPCSOg==";
+        };
+        _OjsXzEd0 = {
+            "id" = "OjsXzEd0";
+            "file" = "VelocityUtils-4.5.jar";
+            "hash" = "sha512-x33Ad9afXgTMisGhmqA2mHgdW+QfZKmWf4/8CWKUQxXrzs/+aNu93W8f8xhLKjJD1D1aY3W55Ekdw5kxzUI+8Q==";
+        };
     in {
         "uPvY3Por" = _uPvY3Por;
         "kEPwNBkd" = _kEPwNBkd;
@@ -200,7 +215,10 @@ let
         "HhTozncG" = _HhTozncG;
         "RpAtrEfc" = _RpAtrEfc;
         "fYztFWKv" = _fYztFWKv;
-        "velocity-1.0" = _fYztFWKv;
+        "2avCyg77" = _2avCyg77;
+        "Ltix74pl" = _Ltix74pl;
+        "OjsXzEd0" = _OjsXzEd0;
+        "velocity-1.0" = _OjsXzEd0;
         "pkg-1.0" = _uPvY3Por;
         "pkg-1.1" = _kEPwNBkd;
         "pkg-1.2" = _RAGl7BQ6;
@@ -234,7 +252,10 @@ let
         "pkg-4.0" = _HhTozncG;
         "pkg-4.1" = _RpAtrEfc;
         "pkg-4.2" = _fYztFWKv;
-        "default" = _fYztFWKv;
+        "pkg-4.3" = _2avCyg77;
+        "pkg-4.4" = _Ltix74pl;
+        "pkg-4.5" = _OjsXzEd0;
+        "default" = _OjsXzEd0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "velocityutils-rexi";

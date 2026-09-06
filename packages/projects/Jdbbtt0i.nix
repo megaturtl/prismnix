@@ -146,6 +146,21 @@ let
             "file" = "CreateNumismatics-1.0.20+neoforge-mc1.21.1.jar";
             "hash" = "sha512-K0zNUWhlmXc14aPsMjYVvTLZOI4VzAQJesRV8rRTQj/M0hlpeC7P0DGz3m7YVQa6U0naJMMvXj6q9VjFFjzyAw==";
         };
+        _kVi3TESX = {
+            "id" = "kVi3TESX";
+            "file" = "CreateNumismatics-1.1.0+neoforge-mc1.21.1.jar";
+            "hash" = "sha512-8KjmWCj0o2xQD08srZnc6J9ImXEfPr5Limkb8mqL6ayPgzhlB/h6rq1xKrjF+KhHzQa++xknyx+B3pX2y2t3VA==";
+        };
+        _X08Z2kZi = {
+            "id" = "X08Z2kZi";
+            "file" = "CreateNumismatics-1.1.0+fabric-mc1.20.1.jar";
+            "hash" = "sha512-z2ch24FmU2a8vofZ+oooO45VJQRmM3pdGZxeMrMUkdEIZevtGSDw4HzkD8Z6P/aGGD43lHINHOPwH7qiY2jgQQ==";
+        };
+        _OYnlR0GB = {
+            "id" = "OYnlR0GB";
+            "file" = "CreateNumismatics-1.1.0+forge-mc1.20.1.jar";
+            "hash" = "sha512-LczVycoA3V968iSdg1paa00xIhgWi4YgXy0viEnUG/6f9Le1ce69PIjdjnycA83f8sSuf5SpgjmMj4Z6hZZfWw==";
+        };
     in {
         "OJfDE3t5" = _OJfDE3t5;
         "4ejmAA7R" = _4ejmAA7R;
@@ -176,11 +191,14 @@ let
         "SJpLT0Bq" = _SJpLT0Bq;
         "KMFhYqZ9" = _KMFhYqZ9;
         "guON3qvQ" = _guON3qvQ;
-        "fabric-1.20.1" = _SJpLT0Bq;
-        "quilt-1.20.1" = _SJpLT0Bq;
-        "forge-1.20.1" = _wjKJbg4D;
-        "neoforge-1.20.1" = _wjKJbg4D;
-        "neoforge-1.21.1" = _guON3qvQ;
+        "kVi3TESX" = _kVi3TESX;
+        "X08Z2kZi" = _X08Z2kZi;
+        "OYnlR0GB" = _OYnlR0GB;
+        "fabric-1.20.1" = _X08Z2kZi;
+        "quilt-1.20.1" = _X08Z2kZi;
+        "forge-1.20.1" = _OYnlR0GB;
+        "neoforge-1.20.1" = _OYnlR0GB;
+        "neoforge-1.21.1" = _kVi3TESX;
         "pkg-1.0.0+fabric-mc1.20.1" = _OJfDE3t5;
         "pkg-1.0.0+forge-mc1.20.1" = _4ejmAA7R;
         "pkg-1.0.1+forge-mc1.20.1" = _P1ZPi7Kf;
@@ -210,7 +228,10 @@ let
         "pkg-1.0.15+fabric-mc1.20.1" = _SJpLT0Bq;
         "pkg-1.0.19+neoforge-mc1.21.1" = _KMFhYqZ9;
         "pkg-1.0.20+neoforge-mc1.21.1" = _guON3qvQ;
-        "default" = _guON3qvQ;
+        "pkg-1.1.0+neoforge-mc1.21.1" = _kVi3TESX;
+        "pkg-1.1.0+fabric-mc1.20.1" = _X08Z2kZi;
+        "pkg-1.1.0+forge-mc1.20.1" = _OYnlR0GB;
+        "default" = _OYnlR0GB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "numismatics";

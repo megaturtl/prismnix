@@ -136,6 +136,66 @@ let
             "file" = "ranged_weapon_api-neoforge-2.3.3+1.21.1.jar";
             "hash" = "sha512-RiJ9RwRdEQin/jT1XTbqSy2sRtY5nfX+WH0gjg6fMt5Y5MGPxtju6xe1JrqTcOBdPKYimjrbAc9nHTF7MnP+3w==";
         };
+        _Y0NjhK3l = {
+            "id" = "Y0NjhK3l";
+            "file" = "ranged_weapon_api-neoforge-2.3.4+1.21.1.jar";
+            "hash" = "sha512-LQt5XzF7umPZf1F45c5JbPzZoQ/wnomK2yDwyJg+K+RhjjFtI6XbEVlW0ATBwjAo6Q4jpGnu1yLTEaZnKpvRvA==";
+        };
+        _godFf5K3 = {
+            "id" = "godFf5K3";
+            "file" = "ranged_weapon_api-fabric-2.3.4+1.21.1.jar";
+            "hash" = "sha512-anE7hG3dz4AYadmikHfmdgwkOdwaQIK2nDW4jisaX6wkKPITBejdCufQnVSUY6k9hIIrV8xpOGHCzGlkjrrebg==";
+        };
+        _o8J1QzYL = {
+            "id" = "o8J1QzYL";
+            "file" = "ranged_weapon_api-neoforge-2.3.4+1.21.1.jar";
+            "hash" = "sha512-wIYGZUcb9PcAR1nP5SfCpsGpugCQsDVrRDBpJwY/hX1hvnXu2NhCTdRbSyt22xyHBguQJltfKwB33fQVV7VqdA==";
+        };
+        _JUmL4dj7 = {
+            "id" = "JUmL4dj7";
+            "file" = "ranged_weapon_api-fabric-2.3.4+1.21.1.jar";
+            "hash" = "sha512-oGgLHTDuYxHgeMQkBo6FJ9SIz2jYFEq1mgHZfB7L+CEjdOtrnc8r32aLGp41HQnZlEJnQQKdfadyrfPATpdltQ==";
+        };
+        _D23XVjUe = {
+            "id" = "D23XVjUe";
+            "file" = "ranged_weapon_api-fabric-3.0.0+1.21.1.jar";
+            "hash" = "sha512-xIrW20Sdc+dhws3ga97Hp+UsVx1R9NoQZ7MDlTDwa2GuN8puq9ker9qXxAs5PEBiL5IBLpXtu6xahx3LKWYljg==";
+        };
+        _WxNYN3Zh = {
+            "id" = "WxNYN3Zh";
+            "file" = "ranged_weapon_api-neoforge-3.0.0+1.21.1.jar";
+            "hash" = "sha512-5qHA3oCwf2WHTi2Zme9+mPe1zOPIcaG+x8u3TGk7NAgFY8Jb2Hw2/M1C8lxR3uGDGS6X1l69LHgKigit3hP9aA==";
+        };
+        _CRcJQL1K = {
+            "id" = "CRcJQL1K";
+            "file" = "ranged_weapon_api-fabric-4.0.0+1.21.11.jar";
+            "hash" = "sha512-XzEE8HDEDbhV7YrmeMTq1cwwsQ/QHJUqboGb5npymSw7AYQapQ8mTIQVw6bhcbELQ6VQL++V61cYGrJOd+Hf4A==";
+        };
+        _7GXeSJSr = {
+            "id" = "7GXeSJSr";
+            "file" = "ranged_weapon_api-neoforge-4.0.0+1.21.11.jar";
+            "hash" = "sha512-86zDIl9xsUTBPW/6LxRvjw2MpMY09ECZfpXedvtNdhuVgNonkgaBT6G1IJ2Fo3w+rg5lcU3Otu0Nn+T/bL5Ylg==";
+        };
+        _7lq0P8Ck = {
+            "id" = "7lq0P8Ck";
+            "file" = "ranged_weapon_api-fabric-4.0.0+26.1.2.jar";
+            "hash" = "sha512-CB6HC997yChOA993/vfCL805Nl1NJ/NM7cfIQSAfsqDb7xkdSrI9mXRfQTXmfxTtm545AejzbObNp3z08DjuJg==";
+        };
+        _CRB139Ir = {
+            "id" = "CRB139Ir";
+            "file" = "ranged_weapon_api-neoforge-4.0.0+26.1.2.jar";
+            "hash" = "sha512-f6x8lK6upSw8IyHL9CYo1TUnVp4wzhJkEITm+rE8tXim9taSDoDvEtVOeQv1CqIeyn/podczrGzDAwxuXegzLA==";
+        };
+        _pAKK9B14 = {
+            "id" = "pAKK9B14";
+            "file" = "ranged_weapon_api-fabric-4.0.0+26.2.jar";
+            "hash" = "sha512-qae+ljZqEVaASXEIOEm41qPLRCD50WwWjuvw+ZNONHYS+PsUEvFuXs/LWMqirHH4vgSeTsaYwv3ii0v8rFiUhw==";
+        };
+        _oXBMPShc = {
+            "id" = "oXBMPShc";
+            "file" = "ranged_weapon_api-neoforge-4.0.0+26.2.jar";
+            "hash" = "sha512-R6+XYpKW1r5xyKoaY9/1GJNAO6PXJQpsGSlvZEfYsWtw2olEF9NSx4xLms/0/kRs+MNLzeUn68u8e4OmFB7Miw==";
+        };
     in {
         "RzWpA7xD" = _RzWpA7xD;
         "Mj5snp7k" = _Mj5snp7k;
@@ -164,11 +224,33 @@ let
         "806nOJPA" = _806nOJPA;
         "j6w0ptJx" = _j6w0ptJx;
         "6wUNDbSa" = _6wUNDbSa;
+        "Y0NjhK3l" = _Y0NjhK3l;
+        "godFf5K3" = _godFf5K3;
+        "o8J1QzYL" = _o8J1QzYL;
+        "JUmL4dj7" = _JUmL4dj7;
+        "D23XVjUe" = _D23XVjUe;
+        "WxNYN3Zh" = _WxNYN3Zh;
+        "CRcJQL1K" = _CRcJQL1K;
+        "7GXeSJSr" = _7GXeSJSr;
+        "7lq0P8Ck" = _7lq0P8Ck;
+        "CRB139Ir" = _CRB139Ir;
+        "pAKK9B14" = _pAKK9B14;
+        "oXBMPShc" = _oXBMPShc;
         "fabric-1.20.1" = _6LUH2hok;
-        "fabric-1.21" = _j6w0ptJx;
-        "fabric-1.21.1" = _j6w0ptJx;
-        "neoforge-1.21" = _6wUNDbSa;
-        "neoforge-1.21.1" = _6wUNDbSa;
+        "fabric-1.21" = _D23XVjUe;
+        "fabric-1.21.1" = _D23XVjUe;
+        "fabric-1.21.11" = _CRcJQL1K;
+        "fabric-26.1" = _7lq0P8Ck;
+        "fabric-26.1.1" = _7lq0P8Ck;
+        "fabric-26.1.2" = _7lq0P8Ck;
+        "fabric-26.2" = _pAKK9B14;
+        "neoforge-1.21" = _WxNYN3Zh;
+        "neoforge-1.21.1" = _WxNYN3Zh;
+        "neoforge-1.21.11" = _7GXeSJSr;
+        "neoforge-26.1" = _CRB139Ir;
+        "neoforge-26.1.1" = _CRB139Ir;
+        "neoforge-26.1.2" = _CRB139Ir;
+        "neoforge-26.2" = _oXBMPShc;
         "pkg-1.0.0+1.20.1" = _RzWpA7xD;
         "pkg-1.1.0+1.20.1" = _Mj5snp7k;
         "pkg-1.1.1+1.20.1" = _oEjSAqNj;
@@ -196,7 +278,17 @@ let
         "pkg-2.3.2+1.21.1-neoforge" = _806nOJPA;
         "pkg-2.3.3+1.21.1-fabric" = _j6w0ptJx;
         "pkg-2.3.3+1.21.1-neoforge" = _6wUNDbSa;
-        "default" = _6wUNDbSa;
+        "pkg-2.3.4+1.21.1-neoforge" = _o8J1QzYL;
+        "pkg-2.3.4+1.21.1-fabric" = _JUmL4dj7;
+        "pkg-3.0.0+1.21.1-fabric" = _D23XVjUe;
+        "pkg-3.0.0+1.21.1-neoforge" = _WxNYN3Zh;
+        "pkg-4.0.0+1.21.11-fabric" = _CRcJQL1K;
+        "pkg-4.0.0+1.21.11-neoforge" = _7GXeSJSr;
+        "pkg-4.0.0+26.1.2-fabric" = _7lq0P8Ck;
+        "pkg-4.0.0+26.1.2-neoforge" = _CRB139Ir;
+        "pkg-4.0.0+26.2-fabric" = _pAKK9B14;
+        "pkg-4.0.0+26.2-neoforge" = _oXBMPShc;
+        "default" = _oXBMPShc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ranged-weapon-api";

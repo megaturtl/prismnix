@@ -446,6 +446,26 @@ let
             "file" = "quality_food-1.21.1-2.3.6.jar";
             "hash" = "sha512-03B7N/wkRL2oCevy5KmUS0c2IUqC24F/lwwtcofGI4lTLCfNmsal6aQsD9PnFaaFyrnkNoTAf4pXxMhMbzpmiQ==";
         };
+        _1mLWeREo = {
+            "id" = "1mLWeREo";
+            "file" = "quality_food-1.20.1-2.4.0-all.jar";
+            "hash" = "sha512-wjvt0Pdh3AjmlMZ6a6EO1aXwzynct7Cg7c+85n6/CYkfI4dT4U6UNraMsD3ETDy5t0IqUtfhEyfCNUNHgWnxdg==";
+        };
+        _4d9vfDsw = {
+            "id" = "4d9vfDsw";
+            "file" = "quality_food-1.20.1-2.4.1-all.jar";
+            "hash" = "sha512-0gar4iMvKFoJ7pgApru7xTO2vZR0dE8s9ze5FImCCfFKQxC0gNNysl6gPA25uIGWmLZMndMJBkoQ9MOSamA4ww==";
+        };
+        _YRNizPJr = {
+            "id" = "YRNizPJr";
+            "file" = "quality_food-1.20.1-2.4.2-all.jar";
+            "hash" = "sha512-/yrq9v/IVAKWxrGeLj6GxOtZx+Zfpif+uefuX3R10YP+0kJeJMf/O2CqIPWKvqKWiyHRaMo4MyIbqbTh5qnpnQ==";
+        };
+        _Ja8x1NgV = {
+            "id" = "Ja8x1NgV";
+            "file" = "quality_food-1.20.1-2.4.3-all.jar";
+            "hash" = "sha512-xBKRbhbftvYkpemMOLrtnNETIwHopD55D1QBa95LFYd5v+MCrP6mA2fr9NK65DPzft7ie4uejGSZgUzMnCec0w==";
+        };
     in {
         "OuSdx639" = _OuSdx639;
         "wcRtlwee" = _wcRtlwee;
@@ -536,12 +556,16 @@ let
         "9zVcNaUD" = _9zVcNaUD;
         "5tZ2NwUC" = _5tZ2NwUC;
         "Z0Go9O9y" = _Z0Go9O9y;
+        "1mLWeREo" = _1mLWeREo;
+        "4d9vfDsw" = _4d9vfDsw;
+        "YRNizPJr" = _YRNizPJr;
+        "Ja8x1NgV" = _Ja8x1NgV;
         "forge-1.19.2" = _Y4vDkvA6;
-        "forge-1.20" = _5tZ2NwUC;
-        "forge-1.20.1" = _5tZ2NwUC;
+        "forge-1.20" = _Ja8x1NgV;
+        "forge-1.20.1" = _Ja8x1NgV;
         "forge-1.18.2" = _KQ2NjHLp;
-        "neoforge-1.20" = _5tZ2NwUC;
-        "neoforge-1.20.1" = _5tZ2NwUC;
+        "neoforge-1.20" = _Ja8x1NgV;
+        "neoforge-1.20.1" = _Ja8x1NgV;
         "neoforge-1.21" = _Z0Go9O9y;
         "neoforge-1.21.1" = _Z0Go9O9y;
         "pkg-0.0.1" = _OuSdx639;
@@ -596,7 +620,11 @@ let
         "pkg-2.3.4" = _hlJfsrDK;
         "pkg-2.3.5" = _Q2Ua4hew;
         "pkg-2.3.6" = _Z0Go9O9y;
-        "default" = _Z0Go9O9y;
+        "pkg-2.4.0" = _1mLWeREo;
+        "pkg-2.4.1" = _4d9vfDsw;
+        "pkg-2.4.2" = _YRNizPJr;
+        "pkg-2.4.3" = _Ja8x1NgV;
+        "default" = _Ja8x1NgV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "quality-food";

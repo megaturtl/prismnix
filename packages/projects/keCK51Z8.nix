@@ -131,6 +131,16 @@ let
             "file" = "wild-animals-2.2.jar";
             "hash" = "sha512-SbR4AgFW3pMIePdTDFPu6GmGeOXZeS6CilmVoy4vESoLnrqF74qcAJaC6DavnljD11AMuBF3/3zBEOfjHohDoQ==";
         };
+        _S0WZx90U = {
+            "id" = "S0WZx90U";
+            "file" = "Wild Animals.zip";
+            "hash" = "sha512-8JuDNVCFHfOtb78NpztFPRA5mQ+HzUeWYH5MhUey5JR/kjkOkzZPwXLHPfhiFSCkWj3wEKGNuJD4Z9RpyYrwCg==";
+        };
+        _mxccgYpC = {
+            "id" = "mxccgYpC";
+            "file" = "wild-animals-2.2.jar";
+            "hash" = "sha512-zWAR4gBo4A16RJ24eQTvedhbWRFkd5POsHV569WdMpq4WoClxQ8wLDC0asihmHytMsu6bXIvrSszzWvpEfYNgg==";
+        };
     in {
         "T0NQdXqo" = _T0NQdXqo;
         "eW6QQjXk" = _eW6QQjXk;
@@ -158,6 +168,8 @@ let
         "uljGV6PK" = _uljGV6PK;
         "7wlKAYCg" = _7wlKAYCg;
         "SrpJ5kAK" = _SrpJ5kAK;
+        "S0WZx90U" = _S0WZx90U;
+        "mxccgYpC" = _mxccgYpC;
         "datapack-1.21.6" = _7wlKAYCg;
         "datapack-1.21.7" = _7wlKAYCg;
         "datapack-1.21.8" = _7wlKAYCg;
@@ -175,6 +187,7 @@ let
         "datapack-26.1.1" = _7wlKAYCg;
         "datapack-26.1.2" = _7wlKAYCg;
         "datapack-26.2" = _7wlKAYCg;
+        "datapack-26.3-pre-2" = _S0WZx90U;
         "fabric-1.21.6" = _SrpJ5kAK;
         "fabric-1.21.7" = _SrpJ5kAK;
         "fabric-1.21.8" = _SrpJ5kAK;
@@ -192,6 +205,7 @@ let
         "fabric-26.1.1" = _SrpJ5kAK;
         "fabric-26.1.2" = _SrpJ5kAK;
         "fabric-26.2" = _SrpJ5kAK;
+        "fabric-26.3-pre-2" = _mxccgYpC;
         "forge-1.21.6" = _SrpJ5kAK;
         "forge-1.21.7" = _SrpJ5kAK;
         "forge-1.21.8" = _SrpJ5kAK;
@@ -209,6 +223,7 @@ let
         "forge-26.1.1" = _SrpJ5kAK;
         "forge-26.1.2" = _SrpJ5kAK;
         "forge-26.2" = _SrpJ5kAK;
+        "forge-26.3-pre-2" = _mxccgYpC;
         "neoforge-1.21.6" = _SrpJ5kAK;
         "neoforge-1.21.7" = _SrpJ5kAK;
         "neoforge-1.21.8" = _SrpJ5kAK;
@@ -226,6 +241,7 @@ let
         "neoforge-26.1.1" = _SrpJ5kAK;
         "neoforge-26.1.2" = _SrpJ5kAK;
         "neoforge-26.2" = _SrpJ5kAK;
+        "neoforge-26.3-pre-2" = _mxccgYpC;
         "quilt-1.21.6" = _SrpJ5kAK;
         "quilt-1.21.7" = _SrpJ5kAK;
         "quilt-1.21.8" = _SrpJ5kAK;
@@ -243,6 +259,7 @@ let
         "quilt-26.1.1" = _SrpJ5kAK;
         "quilt-26.1.2" = _SrpJ5kAK;
         "quilt-26.2" = _SrpJ5kAK;
+        "quilt-26.3-pre-2" = _mxccgYpC;
         "pkg-1.0" = _T0NQdXqo;
         "pkg-1.0+mod" = _eW6QQjXk;
         "pkg-1.1" = _ZciJk8nY;
@@ -267,9 +284,9 @@ let
         "pkg-2.0+mod" = _SgsSgRG8;
         "pkg-2.1" = _FHQXqu5l;
         "pkg-2.1+mod" = _uljGV6PK;
-        "pkg-2.2" = _7wlKAYCg;
-        "pkg-2.2+mod" = _SrpJ5kAK;
-        "default" = _SrpJ5kAK;
+        "pkg-2.2" = _S0WZx90U;
+        "pkg-2.2+mod" = _mxccgYpC;
+        "default" = _mxccgYpC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wild-animals";

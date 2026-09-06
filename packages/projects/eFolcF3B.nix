@@ -26,19 +26,26 @@ let
             "file" = "createunderpressure-0.2.5.jar";
             "hash" = "sha512-AAmYEQGImMkmzYMRVCLq931pvVpn7/67AHuzr4lZwtdkBee4CUgaEFTVaBhs0+Fze+t9G7YLUqW0zt+tiehEow==";
         };
+        _FbhCFpVf = {
+            "id" = "FbhCFpVf";
+            "file" = "createunderpressure-0.3.0.jar";
+            "hash" = "sha512-gMFByK/+DatTrVg9iq82KRfYRnTAo81d+wTXHS3kyGKj17mI1lCG3cTbouOP/Aa0S5wtToUAVK6CUTxbE0Julw==";
+        };
     in {
         "GClkBO4x" = _GClkBO4x;
         "cWOPeTW5" = _cWOPeTW5;
         "XB3Yh7iM" = _XB3Yh7iM;
         "ls7dDIJi" = _ls7dDIJi;
         "1c2nEqPN" = _1c2nEqPN;
-        "neoforge-1.21.1" = _1c2nEqPN;
+        "FbhCFpVf" = _FbhCFpVf;
+        "neoforge-1.21.1" = _FbhCFpVf;
         "pkg-0.1.0" = _GClkBO4x;
         "pkg-0.2.0" = _cWOPeTW5;
         "pkg-0.2.1" = _XB3Yh7iM;
         "pkg-0.2.2" = _ls7dDIJi;
         "pkg-0.2.5" = _1c2nEqPN;
-        "default" = _1c2nEqPN;
+        "pkg-0.3.0" = _FbhCFpVf;
+        "default" = _FbhCFpVf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-under-pressure";

@@ -141,6 +141,11 @@ let
             "file" = "AuroraQuests-2.2.0.jar";
             "hash" = "sha512-OrTLL4v9MmbeJ/3AjXOgDgrrUjB1F4o2T+GBLRYy5gYQT1o3CPQxg11Lbxom7rotuAlXjztCVVfo4WR3CX1vNw==";
         };
+        _EmjbZJtY = {
+            "id" = "EmjbZJtY";
+            "file" = "AuroraQuests-2.5.0-b168.jar";
+            "hash" = "sha512-VW4oMDYznnoiy5TebqZSia6u4FjVx3f3mDIdNW9UxjWjWxRIEIMmrja1cZnMKNy8ugA/miyxbWoctb0EKKEP4g==";
+        };
     in {
         "HSKRVOoe" = _HSKRVOoe;
         "Gt7LwnaC" = _Gt7LwnaC;
@@ -170,6 +175,7 @@ let
         "daCwofCU" = _daCwofCU;
         "nvRjnDSp" = _nvRjnDSp;
         "5yd0yi6g" = _5yd0yi6g;
+        "EmjbZJtY" = _EmjbZJtY;
         "folia-1.20" = _P4tdDVle;
         "folia-1.20.1" = _P4tdDVle;
         "folia-1.20.2" = _P4tdDVle;
@@ -189,6 +195,7 @@ let
         "folia-1.21.9" = _5yd0yi6g;
         "folia-1.21.10" = _5yd0yi6g;
         "folia-1.21.11" = _5yd0yi6g;
+        "folia-26.2" = _EmjbZJtY;
         "paper-1.20" = _P4tdDVle;
         "paper-1.20.1" = _P4tdDVle;
         "paper-1.20.2" = _P4tdDVle;
@@ -208,6 +215,7 @@ let
         "paper-1.21.9" = _5yd0yi6g;
         "paper-1.21.10" = _5yd0yi6g;
         "paper-1.21.11" = _5yd0yi6g;
+        "paper-26.2" = _EmjbZJtY;
         "purpur-1.20" = _P4tdDVle;
         "purpur-1.20.1" = _P4tdDVle;
         "purpur-1.20.2" = _P4tdDVle;
@@ -227,6 +235,7 @@ let
         "purpur-1.21.9" = _5yd0yi6g;
         "purpur-1.21.10" = _5yd0yi6g;
         "purpur-1.21.11" = _5yd0yi6g;
+        "purpur-26.2" = _EmjbZJtY;
         "pkg-1.0.0" = _HSKRVOoe;
         "pkg-1.0.1" = _Gt7LwnaC;
         "pkg-1.1.0" = _HjpPhmVV;
@@ -255,7 +264,8 @@ let
         "pkg-2.0.3" = _daCwofCU;
         "pkg-2.1.0" = _nvRjnDSp;
         "pkg-2.2.0" = _5yd0yi6g;
-        "default" = _5yd0yi6g;
+        "pkg-2.5.0-b168" = _EmjbZJtY;
+        "default" = _EmjbZJtY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "auroraquests";

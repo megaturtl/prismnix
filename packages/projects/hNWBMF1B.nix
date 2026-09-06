@@ -51,6 +51,11 @@ let
             "file" = "crashfixer-3.1.0+26.2.jar";
             "hash" = "sha512-6s3Saa8MWTP7xdYEhv1TcGDb0J9mgZRuRJgo/TOn+Z7PUvtN2SbIz7RSW4o5iBDQhquuN32jLRZgvRqNXUIyFA==";
         };
+        _cBiVYN3a = {
+            "id" = "cBiVYN3a";
+            "file" = "crashfixer-3.1.1+26.2.jar";
+            "hash" = "sha512-2fMAkiASBSZCI0aBPL76GFk9ltmHaNcV9BKZXQH+0VJz0yyBzNi/i9e/DvMpyTL5xnJ2FaORZRQLfLWbrJNrXw==";
+        };
     in {
         "4qq0uj6v" = _4qq0uj6v;
         "4gZG36Sk" = _4gZG36Sk;
@@ -62,13 +67,14 @@ let
         "McIDud0A" = _McIDud0A;
         "GQx4g0Qe" = _GQx4g0Qe;
         "MfBG9apr" = _MfBG9apr;
+        "cBiVYN3a" = _cBiVYN3a;
         "fabric-1.21.8" = _4qq0uj6v;
         "fabric-1.21.9" = _4gZG36Sk;
         "fabric-1.21.10" = _3TjJYEll;
         "fabric-1.21.11" = _jtcaLR2A;
         "fabric-26.1" = _McIDud0A;
         "fabric-26.1.2" = _GQx4g0Qe;
-        "fabric-26.2" = _MfBG9apr;
+        "fabric-26.2" = _cBiVYN3a;
         "pkg-1.0.0" = _4qq0uj6v;
         "pkg-2.0.0" = _y4nDZu6Y;
         "pkg-2.0.0+1.21.11" = _sd609C1l;
@@ -77,7 +83,8 @@ let
         "pkg-3.1.0+26.1" = _McIDud0A;
         "pkg-3.1.0+26.1.2" = _GQx4g0Qe;
         "pkg-3.1.0+26.2" = _MfBG9apr;
-        "default" = _MfBG9apr;
+        "pkg-3.1.1+26.2" = _cBiVYN3a;
+        "default" = _cBiVYN3a;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crashfixer";

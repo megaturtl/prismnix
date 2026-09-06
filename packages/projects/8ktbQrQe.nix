@@ -96,6 +96,11 @@ let
             "file" = "WorldGuardRegionProtect-1.10.11.21.jar";
             "hash" = "sha512-+ys78sdl41xZwYOw6+N0CHAacMszzNq70dz2jp74jhcoBrFzpXx/G9pG0YMTJ2RdIJ16Tpa4lELsf/pjBUQtlQ==";
         };
+        _oilJWpxL = {
+            "id" = "oilJWpxL";
+            "file" = "WorldGuardRegionProtect-1.12.2.25.jar";
+            "hash" = "sha512-Zmda5T+x76nVm3yQcFs8by00M/hD+Pt2vB62fzgQ6RXcLABaYV5ezPIiTcLQooimo+0dZxVbRazB7a89gRcXmQ==";
+        };
     in {
         "nlJ4Fm9n" = _nlJ4Fm9n;
         "eDOHKTBM" = _eDOHKTBM;
@@ -116,6 +121,7 @@ let
         "Lwum7eLy" = _Lwum7eLy;
         "HhqxmU8Q" = _HhqxmU8Q;
         "wvkesHaa" = _wvkesHaa;
+        "oilJWpxL" = _oilJWpxL;
         "paper-1.20.5" = _wvkesHaa;
         "paper-1.20.6" = _wvkesHaa;
         "paper-1.21" = _wvkesHaa;
@@ -135,6 +141,9 @@ let
         "paper-1.21.9" = _wvkesHaa;
         "paper-1.21.10" = _wvkesHaa;
         "paper-1.21.11" = _wvkesHaa;
+        "paper-26.1" = _oilJWpxL;
+        "paper-26.1.1" = _oilJWpxL;
+        "paper-26.1.2" = _oilJWpxL;
         "purpur-1.20.5" = _wvkesHaa;
         "purpur-1.20.6" = _wvkesHaa;
         "purpur-1.21" = _wvkesHaa;
@@ -154,6 +163,9 @@ let
         "purpur-1.21.9" = _wvkesHaa;
         "purpur-1.21.10" = _wvkesHaa;
         "purpur-1.21.11" = _wvkesHaa;
+        "purpur-26.1" = _oilJWpxL;
+        "purpur-26.1.1" = _oilJWpxL;
+        "purpur-26.1.2" = _oilJWpxL;
         "folia-1.20.5" = _wvkesHaa;
         "folia-1.20.6" = _wvkesHaa;
         "folia-1.21" = _wvkesHaa;
@@ -173,6 +185,9 @@ let
         "folia-1.21.9" = _wvkesHaa;
         "folia-1.21.10" = _wvkesHaa;
         "folia-1.21.11" = _wvkesHaa;
+        "folia-26.1" = _oilJWpxL;
+        "folia-26.1.1" = _oilJWpxL;
+        "folia-26.1.2" = _oilJWpxL;
         "bukkit-1.20" = _wvkesHaa;
         "bukkit-1.20.1" = _wvkesHaa;
         "bukkit-1.20.2" = _wvkesHaa;
@@ -192,6 +207,9 @@ let
         "bukkit-1.21.9" = _wvkesHaa;
         "bukkit-1.21.10" = _wvkesHaa;
         "bukkit-1.21.11" = _wvkesHaa;
+        "bukkit-26.1" = _oilJWpxL;
+        "bukkit-26.1.1" = _oilJWpxL;
+        "bukkit-26.1.2" = _oilJWpxL;
         "spigot-1.20" = _wvkesHaa;
         "spigot-1.20.1" = _wvkesHaa;
         "spigot-1.20.2" = _wvkesHaa;
@@ -211,6 +229,9 @@ let
         "spigot-1.21.9" = _wvkesHaa;
         "spigot-1.21.10" = _wvkesHaa;
         "spigot-1.21.11" = _wvkesHaa;
+        "spigot-26.1" = _oilJWpxL;
+        "spigot-26.1.1" = _oilJWpxL;
+        "spigot-26.1.2" = _oilJWpxL;
         "pkg-1.0.3.21" = _nlJ4Fm9n;
         "pkg-1.0.4.21" = _eDOHKTBM;
         "pkg-1.1.0.21" = _utPOmtHT;
@@ -230,7 +251,8 @@ let
         "pkg-1.8.10.21" = _Lwum7eLy;
         "pkg-1.9.11.21" = _HhqxmU8Q;
         "pkg-1.10.11.21" = _wvkesHaa;
-        "default" = _wvkesHaa;
+        "pkg-1.12.2.25" = _oilJWpxL;
+        "default" = _oilJWpxL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "worldguardregionprotect";

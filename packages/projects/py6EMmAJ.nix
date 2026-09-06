@@ -1361,6 +1361,11 @@ let
             "file" = "yawp-26.2-fabric-0.6.3-beta4.jar";
             "hash" = "sha512-vX/To3CbG3kpVW6WnCRYsMXNntXs2GuIayxn8tyNrXhTRkhDh0xeSaQsDT1pw/00xHa/mC1LxD4cKXIUdVAafg==";
         };
+        _HngBli00 = {
+            "id" = "HngBli00";
+            "file" = "yawp-1.21.1-neoforge-0.6.3-beta4.jar";
+            "hash" = "sha512-RypXmFodUR0P55h3ics+VAuirk86/OQACgl3x3Rg1tu3hfk732v67/dJxX3OXFbA5FUuNzVL1ww/CDvZEb3PHg==";
+        };
     in {
         "tUhfTRKi" = _tUhfTRKi;
         "QY6qaE08" = _QY6qaE08;
@@ -1634,6 +1639,7 @@ let
         "RzUa033K" = _RzUa033K;
         "6YrxPNaC" = _6YrxPNaC;
         "TYzWu4vF" = _TYzWu4vF;
+        "HngBli00" = _HngBli00;
         "forge-1.16.5" = _164VGBVX;
         "forge-1.18.2" = _3AtMoHFx;
         "forge-1.19.2" = _oiLkDvse;
@@ -1665,7 +1671,7 @@ let
         "fabric-26.1.2" = _4wmcTKat;
         "fabric-26.2" = _TYzWu4vF;
         "neoforge-1.20.4" = _ggOsdy1K;
-        "neoforge-1.21.1" = _NElJa5gy;
+        "neoforge-1.21.1" = _HngBli00;
         "neoforge-1.21.4" = _OSWMOCYY;
         "neoforge-1.21.5" = _SqvQwiGy;
         "neoforge-1.21.7" = _GiixLyzK;
@@ -1763,7 +1769,8 @@ let
         "pkg-26.1.2-0.6.3-beta3" = _4wmcTKat;
         "pkg-1.21.1-0.6.3-beta3" = _RzUa033K;
         "pkg-26.2-0.6.3-beta4" = _TYzWu4vF;
-        "default" = _TYzWu4vF;
+        "pkg-1.21.1-0.6.3-beta4" = _HngBli00;
+        "default" = _HngBli00;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yawp";

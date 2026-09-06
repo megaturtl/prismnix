@@ -76,6 +76,11 @@ let
             "file" = "tfcgenviewer-1.21.1-2.1.1.jar";
             "hash" = "sha512-xzHtxdkpDGshdGvxFwtpingi3jcevanOfTYmNqBJjWyElRfqQ/P3+CjWFOuQPgjKpluJfE2ENuotUy3xzGBkkA==";
         };
+        _dxUTWTEa = {
+            "id" = "dxUTWTEa";
+            "file" = "tfcgenviewer-1.21.1-2.1.2.jar";
+            "hash" = "sha512-O7Yxzv1ilLn737TU9csblY3uB2hJYuNZYf20z4w8HY55wDdlSjIADvJNhHygZlmIsCCRlZk35e/3YaVX3YUfOA==";
+        };
     in {
         "CClsQG8h" = _CClsQG8h;
         "rCV1Jch2" = _rCV1Jch2;
@@ -92,9 +97,10 @@ let
         "N9eHxX4d" = _N9eHxX4d;
         "hJkYmxr8" = _hJkYmxr8;
         "i6ZKLUCJ" = _i6ZKLUCJ;
+        "dxUTWTEa" = _dxUTWTEa;
         "forge-1.20.1" = _2hMb8aJ5;
         "neoforge-1.20.1" = _2hMb8aJ5;
-        "neoforge-1.21.1" = _i6ZKLUCJ;
+        "neoforge-1.21.1" = _dxUTWTEa;
         "pkg-1.0.0" = _CClsQG8h;
         "pkg-1.1.0" = _rCV1Jch2;
         "pkg-1.2.0" = _2b95OHXc;
@@ -110,7 +116,8 @@ let
         "pkg-2.0.3" = _N9eHxX4d;
         "pkg-2.1.0" = _hJkYmxr8;
         "pkg-2.1.1" = _i6ZKLUCJ;
-        "default" = _i6ZKLUCJ;
+        "pkg-2.1.2" = _dxUTWTEa;
+        "default" = _dxUTWTEa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tfcgenviewer";

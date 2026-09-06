@@ -386,6 +386,21 @@ let
             "file" = "SlashBladeResharped-1.20.1-1.9.65.jar";
             "hash" = "sha512-46F2mdFyCiCU/h/7wlUAL8Fx6XVyehSSSURfRMzpj62twZoX4cCfCYmHMPha75RiMppRgsqSFXGa892LC0Fp+w==";
         };
+        _M24JqCJM = {
+            "id" = "M24JqCJM";
+            "file" = "SlashBladeResharped-2.0.4-1.21.1.jar";
+            "hash" = "sha512-BbVNKRGkqnUgMk/rnJLg0w4iMaJ2qzRvYShh4o0umAJclKV15N8T0x2yyft76w+K8WsfwVtHNgSh5CyhubCgBw==";
+        };
+        _cw0UX6eX = {
+            "id" = "cw0UX6eX";
+            "file" = "SlashBladeResharped-2.0.5-1.21.1.jar";
+            "hash" = "sha512-LCIAv8WhPEeL/xlQWZDGQ5D5FOtz9tmlKiIjvFcwQmC+GFUBHTeU0xrtzfK4Ek1Jr5G50x9JSlwUhppoFZesQg==";
+        };
+        _u02EDgAr = {
+            "id" = "u02EDgAr";
+            "file" = "SlashBladeResharped-2.0.7-1.21.1.jar";
+            "hash" = "sha512-zkbPko1kFNYMp7wiQ+BadQpo0TogOSTPbMPO256hCpRraW7kLiSphXnwSGvB82MkyYfyXb0y1+AS4/pskcgboQ==";
+        };
     in {
         "OsF4onGf" = _OsF4onGf;
         "MY1Yqylu" = _MY1Yqylu;
@@ -464,9 +479,12 @@ let
         "wfjmcYu5" = _wfjmcYu5;
         "8YMUhGVo" = _8YMUhGVo;
         "pdMMavGH" = _pdMMavGH;
+        "M24JqCJM" = _M24JqCJM;
+        "cw0UX6eX" = _cw0UX6eX;
+        "u02EDgAr" = _u02EDgAr;
         "forge-1.20.1" = _pdMMavGH;
         "neoforge-1.20.1" = _pdMMavGH;
-        "neoforge-1.21.1" = _8YMUhGVo;
+        "neoforge-1.21.1" = _u02EDgAr;
         "pkg-0.1.4" = _OsF4onGf;
         "pkg-0.4.7" = _MY1Yqylu;
         "pkg-0.5.8" = _Ec7BlYGY;
@@ -539,7 +557,10 @@ let
         "pkg-2.0.2-1.21.1" = _wfjmcYu5;
         "pkg-2.0.3-1.21.1" = _8YMUhGVo;
         "pkg-1.9.65" = _pdMMavGH;
-        "default" = _pdMMavGH;
+        "pkg-2.0.4-1.21.1" = _M24JqCJM;
+        "pkg-2.0.5-1.21.1" = _cw0UX6eX;
+        "pkg-2.0.7-1.21.1" = _u02EDgAr;
+        "default" = _u02EDgAr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "slashblade-resharped";

@@ -901,6 +901,26 @@ let
             "file" = "jegn-1.7.4+neoforge26.2.jar";
             "hash" = "sha512-HrfiP/KVOMPTnghobY7K++4LwqpVh+9cExKuAZ4CqhpLRQ47xabAhdbC6vd0ME3K5mKtOwgnOQfunzxkBewMMA==";
         };
+        _r1DeWWmt = {
+            "id" = "r1DeWWmt";
+            "file" = "jegn-1.8.0+fabric1.21.1.jar";
+            "hash" = "sha512-gCFFFXFovlBRxLPrlMlAr6C0cOr1oPXAZXDLLjfmJB4hG2tgmCQ/km6Q20rgvLRULwnWT83kbfIJJSEWOyQaBQ==";
+        };
+        _URjNSy7U = {
+            "id" = "URjNSy7U";
+            "file" = "jegn-1.8.0+fabric26.2.jar";
+            "hash" = "sha512-3Lp4Fd/3xVpWJhyyOGG9MSEZKrl0gje0lBk32/1OUpE1mPxsUl7gJ67mtxmuntj2qUqeAcZFu7C6TLcPML+JWw==";
+        };
+        _eEI9wjap = {
+            "id" = "eEI9wjap";
+            "file" = "jegn-1.8.0+neoforge1.21.1.jar";
+            "hash" = "sha512-JmqTra0h48EGuZJTZK+qnK5p1Lu38YYRQUOsaflxXyaOXR1nHpIUKgAbTxYQRK7NoNMTffCQNcydQKKPjRwcvA==";
+        };
+        _ETKFS0De = {
+            "id" = "ETKFS0De";
+            "file" = "jegn-1.8.0+neoforge26.2.jar";
+            "hash" = "sha512-b5vwH7LCINyFnOC3bFH8IAZqtUdenAzKwKvXVpGR+TkbWjilbvRjG0TJdvbRzkXBZ1DIiB0P6MmQHlCPO5nLvw==";
+        };
     in {
         "ebBmJJJw" = _ebBmJJJw;
         "jQ2w7Bsn" = _jQ2w7Bsn;
@@ -1082,26 +1102,30 @@ let
         "Xqzr2ZXy" = _Xqzr2ZXy;
         "7AlBys2I" = _7AlBys2I;
         "DSRl1pA1" = _DSRl1pA1;
+        "r1DeWWmt" = _r1DeWWmt;
+        "URjNSy7U" = _URjNSy7U;
+        "eEI9wjap" = _eEI9wjap;
+        "ETKFS0De" = _ETKFS0De;
         "neoforge-1.21.8" = _aFuPLZzi;
         "neoforge-1.21.9" = _ERMFQHji;
         "neoforge-1.21.10" = _NB5s9DEQ;
         "neoforge-1.21.6" = _9CMFdmGi;
         "neoforge-1.21.7" = _9CMFdmGi;
-        "neoforge-1.21.1" = _7AlBys2I;
-        "neoforge-1.21.2" = _7AlBys2I;
-        "neoforge-1.21.3" = _7AlBys2I;
-        "neoforge-1.21.4" = _7AlBys2I;
+        "neoforge-1.21.1" = _eEI9wjap;
+        "neoforge-1.21.2" = _eEI9wjap;
+        "neoforge-1.21.3" = _eEI9wjap;
+        "neoforge-1.21.4" = _eEI9wjap;
         "neoforge-1.21.11" = _7spAa2DE;
         "neoforge-26.1" = _XNTrMHVZ;
         "neoforge-26.1.1" = _XNTrMHVZ;
         "neoforge-26.1.2" = _XNTrMHVZ;
-        "neoforge-26.2" = _DSRl1pA1;
-        "fabric-1.21.1" = _E4DNrB6i;
+        "neoforge-26.2" = _ETKFS0De;
+        "fabric-1.21.1" = _r1DeWWmt;
         "fabric-1.21.11" = _ZJRWsUUM;
         "fabric-26.1" = _2nvgrS4V;
         "fabric-26.1.1" = _2nvgrS4V;
         "fabric-26.1.2" = _2nvgrS4V;
-        "fabric-26.2" = _Xqzr2ZXy;
+        "fabric-26.2" = _URjNSy7U;
         "pkg-0.14.0-1.21.8" = _ebBmJJJw;
         "pkg-1.0" = _oyamExuP;
         "pkg-1.1" = _jMDvOGX8;
@@ -1154,7 +1178,8 @@ let
         "pkg-1.7.2" = _Kj4MplKJ;
         "pkg-1.7.3" = _LhhH9cDK;
         "pkg-1.7.4" = _DSRl1pA1;
-        "default" = _DSRl1pA1;
+        "pkg-1.8.0" = _ETKFS0De;
+        "default" = _ETKFS0De;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "just-enough-guns-neoforge";

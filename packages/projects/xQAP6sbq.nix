@@ -41,6 +41,8 @@ let
         "datapack-1.21.11" = _qm2XVall;
         "datapack-26.1" = _qm2XVall;
         "datapack-26.1.1" = _qm2XVall;
+        "datapack-26.1.2" = _qm2XVall;
+        "datapack-26.2" = _qm2XVall;
         "fabric-1.21" = _6rlndbPI;
         "fabric-1.21.1" = _6rlndbPI;
         "fabric-1.21.2" = _6rlndbPI;
@@ -55,6 +57,8 @@ let
         "fabric-1.21.11" = _6rlndbPI;
         "fabric-26.1" = _6rlndbPI;
         "fabric-26.1.1" = _6rlndbPI;
+        "fabric-26.1.2" = _6rlndbPI;
+        "fabric-26.2" = _6rlndbPI;
         "forge-1.21" = _6rlndbPI;
         "forge-1.21.1" = _6rlndbPI;
         "forge-1.21.2" = _6rlndbPI;
@@ -69,6 +73,8 @@ let
         "forge-1.21.11" = _6rlndbPI;
         "forge-26.1" = _6rlndbPI;
         "forge-26.1.1" = _6rlndbPI;
+        "forge-26.1.2" = _6rlndbPI;
+        "forge-26.2" = _6rlndbPI;
         "neoforge-1.21" = _6rlndbPI;
         "neoforge-1.21.1" = _6rlndbPI;
         "neoforge-1.21.2" = _6rlndbPI;
@@ -83,6 +89,8 @@ let
         "neoforge-1.21.11" = _6rlndbPI;
         "neoforge-26.1" = _6rlndbPI;
         "neoforge-26.1.1" = _6rlndbPI;
+        "neoforge-26.1.2" = _6rlndbPI;
+        "neoforge-26.2" = _6rlndbPI;
         "quilt-1.21" = _6rlndbPI;
         "quilt-1.21.1" = _6rlndbPI;
         "quilt-1.21.2" = _6rlndbPI;
@@ -97,6 +105,8 @@ let
         "quilt-1.21.11" = _6rlndbPI;
         "quilt-26.1" = _6rlndbPI;
         "quilt-26.1.1" = _6rlndbPI;
+        "quilt-26.1.2" = _6rlndbPI;
+        "quilt-26.2" = _6rlndbPI;
         "pkg-1" = _UCXDNw7C;
         "pkg-1+mod" = _qTWiUZhw;
         "pkg-V1.1" = _qm2XVall;

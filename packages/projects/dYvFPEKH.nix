@@ -76,6 +76,11 @@ let
             "file" = "golem_spawn_fix-26.1.2-Fabric-1.0.0.jar";
             "hash" = "sha512-aso/NFMppRANmsqLrQu3zOb9uZOtMQY0VR4SNk3GD8moMH77C3ljKu2NsWCgWLH6w8aUxzY16M0JJNS68KozsQ==";
         };
+        _IJBwGISl = {
+            "id" = "IJBwGISl";
+            "file" = "golem_spawn_fix-1.0.2-neoforge-26.1.2.jar";
+            "hash" = "sha512-PxWRQdyKIGDdv69rvDB3nnbkvpiipJjEyEru6uTvGGpLTchC9mC8Djd91rDuwJiH4hdAWAobssMKva1SiXcP4A==";
+        };
     in {
         "OuLW8hUv" = _OuLW8hUv;
         "yfgZJ4iY" = _yfgZJ4iY;
@@ -92,19 +97,21 @@ let
         "R9jFnhjg" = _R9jFnhjg;
         "4qvrS1XG" = _4qvrS1XG;
         "4icDS8f6" = _4icDS8f6;
+        "IJBwGISl" = _IJBwGISl;
         "forge-1.20.1" = _Cja5QNv2;
         "neoforge-1.21.1" = _kBKmnGE2;
         "neoforge-1.21.4" = _mIzMvzp5;
         "neoforge-1.21.5" = _UsFnKMnb;
         "neoforge-1.21.8" = _XiptCQIx;
+        "neoforge-26.1.2" = _IJBwGISl;
         "fabric-1.20.1" = _ln1nTwaR;
         "fabric-1.21.1" = _R9jFnhjg;
         "fabric-1.21.11" = _4qvrS1XG;
         "fabric-26.1.2" = _4icDS8f6;
         "pkg-1.0.0" = _4icDS8f6;
         "pkg-1.0.1" = _9CfCMhYs;
-        "pkg-1.0.2" = _XiptCQIx;
-        "default" = _4icDS8f6;
+        "pkg-1.0.2" = _IJBwGISl;
+        "default" = _IJBwGISl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "golem-spawn-fix";

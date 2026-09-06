@@ -156,6 +156,36 @@ let
             "file" = "koreanify-neoforge-0.1.9+mc26.1.2.jar";
             "hash" = "sha512-hpLzWcy3uMqFUfWPU4Ga323Q0ncpDhpLmBNee7pDspSmM41VprW9izefGgvYhCszHQrzrSR+JGTLGOrJPvQbAg==";
         };
+        _ttvpyAPg = {
+            "id" = "ttvpyAPg";
+            "file" = "koreanify-fabric-0.1.10+mc26.1.2.jar";
+            "hash" = "sha512-JbucOTYpmcgWE/o+cdZaCC8oNpM4hrZcNt4XwmBVCrQAZk+GgIibE3pFx84rAHi/5nG8KJQ08VRwMcC9xbP0iw==";
+        };
+        _OSjkHZcM = {
+            "id" = "OSjkHZcM";
+            "file" = "koreanify-neoforge-0.1.10+mc26.1.2.jar";
+            "hash" = "sha512-VLyv0FQqQ4x/SfZbmaH2V3keA8aXormSGc/lmTlER/xixwwuhFTkjm1UM4AYpKszo1mHoAW0AOPHhgFcvN+IsQ==";
+        };
+        _MANeXC8J = {
+            "id" = "MANeXC8J";
+            "file" = "koreanify-fabric-0.1.11+mc26.1.2.jar";
+            "hash" = "sha512-Z3nppObMGl/pMu5vNl+5reUMzVJ5D7ARNJslvEOcdQMOgO3Op2NJXg7i9gLp+gDd8hgvbZJVqBuxxgDSEuLuUg==";
+        };
+        _1CkHwD9o = {
+            "id" = "1CkHwD9o";
+            "file" = "koreanify-neoforge-0.1.11+mc26.1.2.jar";
+            "hash" = "sha512-T7x2On/Dy0x/gbJcpHrQaqrz+iLie/2W1ma7T4/kY9HRH0JcFavOqZjnBv4mv5tbC5zXMNIFWtMzNCIjAJFGXQ==";
+        };
+        _LxqbWek1 = {
+            "id" = "LxqbWek1";
+            "file" = "koreanify-fabric-0.1.12+mc26.1.2.jar";
+            "hash" = "sha512-YEOTqO1y55n8EBV1X1VdDP5RIn0+jEzXSN7+gmFhkZnbH+KFKadNsPRvq2NkF8ULVmLW1ujGKMpcXZIyntGy2Q==";
+        };
+        _EVm1h2QE = {
+            "id" = "EVm1h2QE";
+            "file" = "koreanify-neoforge-0.1.12+mc26.1.2.jar";
+            "hash" = "sha512-/gF9aKBrIOQs5esKxnayCMs5PTXvwv0OT3qoNgok+SOTm1ps8ktTKzekR+IYnB81UIe4DYw5Xtw9eMgG+OM3jQ==";
+        };
     in {
         "TRzjMaO1" = _TRzjMaO1;
         "8THmvqdc" = _8THmvqdc;
@@ -188,6 +218,12 @@ let
         "qc8Rgvny" = _qc8Rgvny;
         "1Amud8EZ" = _1Amud8EZ;
         "JP2fZWtH" = _JP2fZWtH;
+        "ttvpyAPg" = _ttvpyAPg;
+        "OSjkHZcM" = _OSjkHZcM;
+        "MANeXC8J" = _MANeXC8J;
+        "1CkHwD9o" = _1CkHwD9o;
+        "LxqbWek1" = _LxqbWek1;
+        "EVm1h2QE" = _EVm1h2QE;
         "fabric-26.1-snapshot-9" = _TRzjMaO1;
         "fabric-26.1-snapshot-10" = _Bj4zOkh5;
         "fabric-26.1-snapshot-11" = _Bj4zOkh5;
@@ -197,22 +233,22 @@ let
         "fabric-26.1-rc-1" = _p7OV7HBl;
         "fabric-26.1-rc-2" = _p7OV7HBl;
         "fabric-26.1-rc-3" = _p7OV7HBl;
-        "fabric-26.1" = _1Amud8EZ;
-        "fabric-26.1.1" = _1Amud8EZ;
-        "fabric-26.1.2" = _1Amud8EZ;
-        "fabric-26.2" = _1Amud8EZ;
+        "fabric-26.1" = _LxqbWek1;
+        "fabric-26.1.1" = _LxqbWek1;
+        "fabric-26.1.2" = _LxqbWek1;
+        "fabric-26.2" = _LxqbWek1;
         "neoforge-26.1-snapshot-10" = _syseA96F;
         "neoforge-26.1-snapshot-11" = _syseA96F;
         "neoforge-26.1-rc-2" = _XdcPD5H7;
         "neoforge-26.1-rc-3" = _XdcPD5H7;
-        "neoforge-26.1" = _JP2fZWtH;
-        "neoforge-26.1.1" = _JP2fZWtH;
-        "neoforge-26.1.2" = _JP2fZWtH;
-        "neoforge-26.2" = _JP2fZWtH;
-        "quilt-26.1" = _1Amud8EZ;
-        "quilt-26.1.1" = _1Amud8EZ;
-        "quilt-26.1.2" = _1Amud8EZ;
-        "quilt-26.2" = _1Amud8EZ;
+        "neoforge-26.1" = _EVm1h2QE;
+        "neoforge-26.1.1" = _EVm1h2QE;
+        "neoforge-26.1.2" = _EVm1h2QE;
+        "neoforge-26.2" = _EVm1h2QE;
+        "quilt-26.1" = _LxqbWek1;
+        "quilt-26.1.1" = _LxqbWek1;
+        "quilt-26.1.2" = _LxqbWek1;
+        "quilt-26.2" = _LxqbWek1;
         "pkg-mc26.1-0.1.0-alpha.1" = _TRzjMaO1;
         "pkg-mc26.1-0.1.0-alpha.2" = _8THmvqdc;
         "pkg-mc26.1-0.1.0-alpha.3" = _NjayHqfC;
@@ -244,7 +280,13 @@ let
         "pkg-mc26.1.2-0.1.8-neoforge" = _qc8Rgvny;
         "pkg-mc26.1.2-0.1.9-fabric" = _1Amud8EZ;
         "pkg-mc26.1.2-0.1.9-neoforge" = _JP2fZWtH;
-        "default" = _JP2fZWtH;
+        "pkg-mc26.1.2-0.1.10-fabric" = _ttvpyAPg;
+        "pkg-mc26.1.2-0.1.10-neoforge" = _OSjkHZcM;
+        "pkg-mc26.1.2-0.1.11-fabric" = _MANeXC8J;
+        "pkg-mc26.1.2-0.1.11-neoforge" = _1CkHwD9o;
+        "pkg-mc26.1.2-0.1.12-fabric" = _LxqbWek1;
+        "pkg-mc26.1.2-0.1.12-neoforge" = _EVm1h2QE;
+        "default" = _EVm1h2QE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "koreanify";

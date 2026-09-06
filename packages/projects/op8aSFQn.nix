@@ -71,6 +71,26 @@ let
             "file" = "r_roc_done_right-beta_1.6.1-1.21.1.jar";
             "hash" = "sha512-4anb+4mHJzjWNBbEe0DDyimT84kLnrBlCKM5Fpp+sF0JYwoFSv9CK+QsnQmrBt+xoIIZD0JVAApCLogXYBPYlw==";
         };
+        _QXqGYk8G = {
+            "id" = "QXqGYk8G";
+            "file" = "r_roc_done_right-1.6.2-1.21.1.jar";
+            "hash" = "sha512-4DWB0fk5gViPE5zlbH2vgDOkdoDXu583OJBzmn6M0iuXbCJsR5wzMqGwFT0wTDLrKiHXPlguXgPsdBp8FS9iqw==";
+        };
+        _I020PfIW = {
+            "id" = "I020PfIW";
+            "file" = "r_roc_done_right-1.6.3-1.21.1.jar";
+            "hash" = "sha512-uBkMCmx3WaVZQy8EkG/mEOWAHyCjcPYOlpNP3NQ/cgQTeLsPHXcsKJxlpW4YtQxZZmQfPDUPOEiGZ1NlCurVPA==";
+        };
+        _HjIoMnQa = {
+            "id" = "HjIoMnQa";
+            "file" = "r_roc_done_right-1.6.4-1.21.1.jar";
+            "hash" = "sha512-NpCOQ76HQ0Eheghofciy6DbJf8OJPN8RW4FbFti9Q4maTcArDAWntEnNztJSa3hUEJH7IrQebGrOwF2fiTQW9A==";
+        };
+        _7fLKjPqh = {
+            "id" = "7fLKjPqh";
+            "file" = "r_roc_done_right-1.6.5-1.21.1.jar";
+            "hash" = "sha512-eZgKvb7Ii0vXvI/Ap+PRQATDabjGEYMdDR0mQlrEX3R7moT9b43oL4iEQGpUKB+VXbPGp3hdU/Vpjgtww1dVdA==";
+        };
     in {
         "OMTPCgAE" = _OMTPCgAE;
         "cKFzzJ1x" = _cKFzzJ1x;
@@ -86,9 +106,13 @@ let
         "1YbloE98" = _1YbloE98;
         "ynkuLMCT" = _ynkuLMCT;
         "E6FGWffu" = _E6FGWffu;
+        "QXqGYk8G" = _QXqGYk8G;
+        "I020PfIW" = _I020PfIW;
+        "HjIoMnQa" = _HjIoMnQa;
+        "7fLKjPqh" = _7fLKjPqh;
         "fabric-1.20.4" = _LKybHXdK;
         "fabric-1.21" = _oL920b5i;
-        "fabric-1.21.1" = _E6FGWffu;
+        "fabric-1.21.1" = _7fLKjPqh;
         "pkg-alpha_0.2.7" = _OMTPCgAE;
         "pkg-alpha_0.2.12-1.20.4" = _cKFzzJ1x;
         "pkg-beta_1.0.0-1.20.4" = _FtKIZPtC;
@@ -103,7 +127,11 @@ let
         "pkg-beta_1.5.1-1.21.1" = _1YbloE98;
         "pkg-beta_1.6.0-1.21.1" = _ynkuLMCT;
         "pkg-beta_1.6.1-1.21.1" = _E6FGWffu;
-        "default" = _E6FGWffu;
+        "pkg-1.6.2-1.21.1" = _QXqGYk8G;
+        "pkg-1.6.3-1.21.1" = _I020PfIW;
+        "pkg-1.6.4-1.21.1" = _HjIoMnQa;
+        "pkg-1.6.5-1.21.1" = _7fLKjPqh;
+        "default" = _7fLKjPqh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rocks-done-right";

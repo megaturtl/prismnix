@@ -26,12 +26,24 @@ let
             "file" = "! §d§lVanilla §fOptimized.zip";
             "hash" = "sha512-NjaJtAAImyUAaaLoGQm8vEKRZ2dB4b+ZIWE47jMzdkfDo4J2SVA9Y+hSxkR1o2WkzFK2be8xh+0THxbaqdRwFw==";
         };
+        _yFOSUXbt = {
+            "id" = "yFOSUXbt";
+            "file" = "! §d§lVanilla §fOptimized.zip";
+            "hash" = "sha512-IHUFkKxfnpUVhL2ses0y0y82WsZkhCWdJdAtEkfSck8ZZUIrq04WfmKrJAZnK1fti+wneLr568BlxPR50uXdmA==";
+        };
+        _efW3ercW = {
+            "id" = "efW3ercW";
+            "file" = "! §d§lVanilla §fOptimized.zip";
+            "hash" = "sha512-7sSw30tFXps1SgKDKK0XQmh9Uo6qsk4XyEm507rHtjLrgFPmMTl8mer9LUgw6beegF+e+U3Ctan+e4+LmfiZ2g==";
+        };
     in {
         "9XaAXCJ0" = _9XaAXCJ0;
         "O8qyvdAg" = _O8qyvdAg;
         "udZdIZaz" = _udZdIZaz;
         "rNyQOcc6" = _rNyQOcc6;
         "iuOiqbmb" = _iuOiqbmb;
+        "yFOSUXbt" = _yFOSUXbt;
+        "efW3ercW" = _efW3ercW;
         "minecraft-1.19" = _iuOiqbmb;
         "minecraft-1.19.1" = _iuOiqbmb;
         "minecraft-1.19.2" = _iuOiqbmb;
@@ -47,15 +59,15 @@ let
         "minecraft-1.21" = _iuOiqbmb;
         "minecraft-1.21.1" = _iuOiqbmb;
         "minecraft-1.21.2" = _iuOiqbmb;
-        "minecraft-1.21.3" = _iuOiqbmb;
+        "minecraft-1.21.3" = _efW3ercW;
         "minecraft-1.21.4" = _iuOiqbmb;
-        "minecraft-1.21.5" = _rNyQOcc6;
-        "minecraft-1.21.6" = _rNyQOcc6;
-        "minecraft-1.21.7" = _rNyQOcc6;
-        "minecraft-1.21.8" = _rNyQOcc6;
-        "minecraft-1.21.9" = _rNyQOcc6;
-        "minecraft-1.21.10" = _rNyQOcc6;
-        "minecraft-1.21.11" = _rNyQOcc6;
+        "minecraft-1.21.5" = _yFOSUXbt;
+        "minecraft-1.21.6" = _yFOSUXbt;
+        "minecraft-1.21.7" = _yFOSUXbt;
+        "minecraft-1.21.8" = _yFOSUXbt;
+        "minecraft-1.21.9" = _yFOSUXbt;
+        "minecraft-1.21.10" = _yFOSUXbt;
+        "minecraft-1.21.11" = _yFOSUXbt;
         "minecraft-1.16" = _iuOiqbmb;
         "minecraft-1.16.1" = _iuOiqbmb;
         "minecraft-1.16.2" = _iuOiqbmb;
@@ -67,14 +79,16 @@ let
         "minecraft-1.18" = _iuOiqbmb;
         "minecraft-1.18.1" = _iuOiqbmb;
         "minecraft-1.18.2" = _iuOiqbmb;
-        "minecraft-26.1" = _rNyQOcc6;
-        "minecraft-26.1.1" = _rNyQOcc6;
-        "minecraft-26.1.2" = _rNyQOcc6;
+        "minecraft-26.1" = _yFOSUXbt;
+        "minecraft-26.1.1" = _yFOSUXbt;
+        "minecraft-26.1.2" = _yFOSUXbt;
+        "minecraft-26.2" = _yFOSUXbt;
         "pkg-1.0.0" = _9XaAXCJ0;
         "pkg-1.1.0" = _O8qyvdAg;
         "pkg-1.2.0" = _udZdIZaz;
         "pkg-1.3.0" = _iuOiqbmb;
-        "default" = _iuOiqbmb;
+        "pkg-1.4.0" = _efW3ercW;
+        "default" = _efW3ercW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-optimizeds";

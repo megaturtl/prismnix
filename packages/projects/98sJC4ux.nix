@@ -46,6 +46,11 @@ let
             "file" = "dusks_biomes-1.3.0+1.21.11.jar";
             "hash" = "sha512-C7Ux6GuOVETdtABq9OM9zAarc8oRHNrq1HFIM5zfuGJyTMQD/vZxOADeLQStzT+pGpAIGzHt/w+Sasep90O/eg==";
         };
+        _YYduHHQz = {
+            "id" = "YYduHHQz";
+            "file" = "dusks_biomes-1.2.3+1.21.1.jar";
+            "hash" = "sha512-gTNSf3E/DCSvleU2CqT7CFn3kUi2lzXZ2YTyb66+3+iBes0bYsLnNRvLY3UZy++ciWi9s1wk+vEJFaPRdDM/7w==";
+        };
     in {
         "CHiAlAEQ" = _CHiAlAEQ;
         "ZWSNh4ED" = _ZWSNh4ED;
@@ -56,8 +61,9 @@ let
         "GHTJHWVu" = _GHTJHWVu;
         "Oxp915eK" = _Oxp915eK;
         "BxJt6Cr1" = _BxJt6Cr1;
+        "YYduHHQz" = _YYduHHQz;
         "fabric-1.21" = _KfR4Ar0D;
-        "fabric-1.21.1" = _oTIiS1KX;
+        "fabric-1.21.1" = _YYduHHQz;
         "fabric-1.21.11" = _BxJt6Cr1;
         "quilt-1.21.11" = _BxJt6Cr1;
         "pkg-1.0.0" = _CHiAlAEQ;
@@ -69,7 +75,8 @@ let
         "pkg-1.3.0+1.21.11-alpha.1" = _GHTJHWVu;
         "pkg-1.3.0+1.21.11-alpha.2" = _Oxp915eK;
         "pkg-1.3.0+1.21.11" = _BxJt6Cr1;
-        "default" = _BxJt6Cr1;
+        "pkg-1.2.3+1.21.1" = _YYduHHQz;
+        "default" = _YYduHHQz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dusks-biomes";

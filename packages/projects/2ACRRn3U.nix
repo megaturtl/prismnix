@@ -96,6 +96,11 @@ let
             "file" = "createmetalogistics-1.21.1-0.4.6.jar";
             "hash" = "sha512-ybQIKuEOG1YMh3XVdo4NO5tcciUSgWhOGxAr/p5j5QA+tovLyljuJOpl0tijOOQTHE+3dOYlmUJcex3joiJ5Xg==";
         };
+        _vT5WCxeH = {
+            "id" = "vT5WCxeH";
+            "file" = "createmetalogistics-1.21.1-0.4.7.jar";
+            "hash" = "sha512-cgks6INEXVWN8EZchVpP46Ub9HKXuL+0RACzwu8317qcG7ZRt4Djl2v3sY/ChGQfuqoZ1KgrrB7deYd4P+977A==";
+        };
     in {
         "86KO4w29" = _86KO4w29;
         "qpr4mnFZ" = _qpr4mnFZ;
@@ -116,17 +121,18 @@ let
         "cfB5TKwZ" = _cfB5TKwZ;
         "uzwMJLLM" = _uzwMJLLM;
         "22gj5jAT" = _22gj5jAT;
-        "neoforge-1.21.1" = _22gj5jAT;
-        "neoforge-1.21.2" = _22gj5jAT;
-        "neoforge-1.21.3" = _22gj5jAT;
-        "neoforge-1.21.4" = _22gj5jAT;
-        "neoforge-1.21.5" = _22gj5jAT;
-        "neoforge-1.21.6" = _22gj5jAT;
-        "neoforge-1.21.7" = _22gj5jAT;
-        "neoforge-1.21.8" = _22gj5jAT;
-        "neoforge-1.21.9" = _22gj5jAT;
-        "neoforge-1.21.10" = _22gj5jAT;
-        "neoforge-1.21.11" = _22gj5jAT;
+        "vT5WCxeH" = _vT5WCxeH;
+        "neoforge-1.21.1" = _vT5WCxeH;
+        "neoforge-1.21.2" = _vT5WCxeH;
+        "neoforge-1.21.3" = _vT5WCxeH;
+        "neoforge-1.21.4" = _vT5WCxeH;
+        "neoforge-1.21.5" = _vT5WCxeH;
+        "neoforge-1.21.6" = _vT5WCxeH;
+        "neoforge-1.21.7" = _vT5WCxeH;
+        "neoforge-1.21.8" = _vT5WCxeH;
+        "neoforge-1.21.9" = _vT5WCxeH;
+        "neoforge-1.21.10" = _vT5WCxeH;
+        "neoforge-1.21.11" = _vT5WCxeH;
         "pkg-0.1.3" = _86KO4w29;
         "pkg-0.1.4" = _qpr4mnFZ;
         "pkg-0.2.0" = _n4xFDXmf;
@@ -146,7 +152,8 @@ let
         "pkg-0.4.5b" = _cfB5TKwZ;
         "pkg-0.4.5c" = _uzwMJLLM;
         "pkg-0.4.6" = _22gj5jAT;
-        "default" = _22gj5jAT;
+        "pkg-0.4.7" = _vT5WCxeH;
+        "default" = _vT5WCxeH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-meta-logistics";

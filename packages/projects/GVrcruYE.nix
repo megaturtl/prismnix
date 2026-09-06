@@ -9,6 +9,21 @@ let
     in {
         "O5NVdhZC" = _O5NVdhZC;
         "minecraft-1.21" = _O5NVdhZC;
+        "minecraft-1.21.1" = _O5NVdhZC;
+        "minecraft-1.21.2" = _O5NVdhZC;
+        "minecraft-1.21.3" = _O5NVdhZC;
+        "minecraft-1.21.4" = _O5NVdhZC;
+        "minecraft-1.21.5" = _O5NVdhZC;
+        "minecraft-1.21.6" = _O5NVdhZC;
+        "minecraft-1.21.7" = _O5NVdhZC;
+        "minecraft-1.21.8" = _O5NVdhZC;
+        "minecraft-1.21.9" = _O5NVdhZC;
+        "minecraft-1.21.10" = _O5NVdhZC;
+        "minecraft-1.21.11" = _O5NVdhZC;
+        "minecraft-26.1" = _O5NVdhZC;
+        "minecraft-26.1.1" = _O5NVdhZC;
+        "minecraft-26.1.2" = _O5NVdhZC;
+        "minecraft-26.2" = _O5NVdhZC;
         "pkg-1.2.1" = _O5NVdhZC;
         "default" = _O5NVdhZC;
     });

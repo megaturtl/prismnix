@@ -106,6 +106,16 @@ let
             "file" = "battle_arts-21.16.1.3.jar";
             "hash" = "sha512-W4V8X5zOZz6RUtSzvb3uQzc25FVz/gE/05zzMYdCmmegNdfuIec/dGJdQdR6F2eYZCXopsEMZgTvsnH7bC/kkw==";
         };
+        _eSd5DxFm = {
+            "id" = "eSd5DxFm";
+            "file" = "battle-arts-21.17.1.1-mc1.21.1-neoforge.jar";
+            "hash" = "sha512-CYgWZCUrBKmybd/pQjvrVx6xZ3CfOQswsjEloMT3AMW7Zt4vRWwqiX3EqtG7M95D0xYhrUiglimCSdX7OAhqQA==";
+        };
+        _jqyBg5ho = {
+            "id" = "jqyBg5ho";
+            "file" = "battle-arts-21.17.1.2-mc1.21.1-neoforge.jar";
+            "hash" = "sha512-6JUXNhLmiUiRv4ZJyg4Zy4VztO1S0D6p/4e8b5nI/jP5aEOSWRJTd53SMLvFAHG3qTKIqaBi15F6D5SumUakIQ==";
+        };
     in {
         "RGcDN34U" = _RGcDN34U;
         "Xer0hkLy" = _Xer0hkLy;
@@ -128,6 +138,8 @@ let
         "Av1sLmww" = _Av1sLmww;
         "yFmy6vaL" = _yFmy6vaL;
         "bCYV4LXD" = _bCYV4LXD;
+        "eSd5DxFm" = _eSd5DxFm;
+        "jqyBg5ho" = _jqyBg5ho;
         "forge-1.18.2" = _RGcDN34U;
         "forge-1.19.2" = _Xer0hkLy;
         "forge-1.20.1" = _yFmy6vaL;
@@ -136,7 +148,7 @@ let
         "forge-1.20.4" = _RbTszBYO;
         "forge-1.20.5" = _RbTszBYO;
         "forge-1.20.6" = _RbTszBYO;
-        "neoforge-1.21.1" = _bCYV4LXD;
+        "neoforge-1.21.1" = _jqyBg5ho;
         "pkg-1.0.1" = _QhoGf6Jl;
         "pkg-1.0.0" = _Xer0hkLy;
         "pkg-20.10.7.8" = _TEqiw6YO;
@@ -154,7 +166,9 @@ let
         "pkg-20.14.16.8" = _B6xKb2A7;
         "pkg-20.14.16.9" = _Av1sLmww;
         "pkg-20.14.16.10" = _yFmy6vaL;
-        "default" = _bCYV4LXD;
+        "pkg-21.17.1.1-mc1.21.1-neoforge" = _eSd5DxFm;
+        "pkg-21.17.1.2-mc1.21.1-neoforge" = _jqyBg5ho;
+        "default" = _jqyBg5ho;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "battle-arts";

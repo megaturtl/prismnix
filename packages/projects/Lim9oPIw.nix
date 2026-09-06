@@ -86,6 +86,36 @@ let
             "file" = "unstablesmpdeathsound-1.3.2.jar";
             "hash" = "sha512-wC4tv4GQu6O08s0UgMk93vfJPMIAFLh2p0MfDXH1QL8BANJjq/l9+fHeTLPSzW4B6T7yTONx/iZqlb8SO7HFug==";
         };
+        _H7JdDuMJ = {
+            "id" = "H7JdDuMJ";
+            "file" = "unstablesmpdeathsound-1.3.2.jar";
+            "hash" = "sha512-IH93ZLPTZ1eicGHzvUoUilwpGD//v7DIdpuiI7RQ+9QdC2ndTEm+mVWWR2Y9nPrHamSB1jtMbV2Eb0IZRFN1Lw==";
+        };
+        _abPeV2cT = {
+            "id" = "abPeV2cT";
+            "file" = "unstablesmpdeathsound-1.3.2.jar";
+            "hash" = "sha512-uCr5BPE82kI2VyET73l/50gVGjvojeLT4EFUHd4xtq8avajPvE4uNeyXqaIHGcl63UMwhwjlm7F2miLezJv56w==";
+        };
+        _HkjPyLsJ = {
+            "id" = "HkjPyLsJ";
+            "file" = "unstablesmpdeathsound-1.3.2.jar";
+            "hash" = "sha512-PFaZo05s9vKJ9pr4CKuiyveyHF6XEXREHHxaBL5nMbA+7kJHvSMHk36q+b60W89/Qgn/3PcX3wDEN7Ac5nL23g==";
+        };
+        _8nNcxsjS = {
+            "id" = "8nNcxsjS";
+            "file" = "unstablesmpdeathsound-1.3.2.jar";
+            "hash" = "sha512-Xzp3jTa6Mkr4HxblGCYofEVDnE0oRIbVGeNZeCrcRGaZwL6zEjvap7epqnJDZDuTWlWGrudFtwai23Tk2FU/mg==";
+        };
+        _u4hLnVoC = {
+            "id" = "u4hLnVoC";
+            "file" = "USMPDS 1.3.2 26.3-pre.1.jar";
+            "hash" = "sha512-0A9c9VHYjVIA24ptE94C9MSnN3TaD8NtqjgQjyaABhxxKOpOzGbceh6dqLBMcTM5hHTA/Mui5l3BwohHLKRsVg==";
+        };
+        _GtyN2Byd = {
+            "id" = "GtyN2Byd";
+            "file" = "USMPDS 1.3.2 26.3-pre.2.jar";
+            "hash" = "sha512-MxXuWyzWFaoUC9cKDfv6cHZANg6ke2Y7NiyEGXF86LmcxQ4+sIfOVVS9y+Xwaju7vDn/eMBqZZpVUv6KCc6g5A==";
+        };
     in {
         "gNQwyEfj" = _gNQwyEfj;
         "bC7khzCK" = _bC7khzCK;
@@ -104,6 +134,12 @@ let
         "gsmDcaYY" = _gsmDcaYY;
         "H6NG929d" = _H6NG929d;
         "aWRVPEDB" = _aWRVPEDB;
+        "H7JdDuMJ" = _H7JdDuMJ;
+        "abPeV2cT" = _abPeV2cT;
+        "HkjPyLsJ" = _HkjPyLsJ;
+        "8nNcxsjS" = _8nNcxsjS;
+        "u4hLnVoC" = _u4hLnVoC;
+        "GtyN2Byd" = _GtyN2Byd;
         "fabric-1.21.11" = _bC7khzCK;
         "fabric-1.21.10" = _HLahsDir;
         "fabric-1.21.9" = _FC4UKNNN;
@@ -121,6 +157,12 @@ let
         "fabric-26.3-snapshot-4" = _gsmDcaYY;
         "fabric-26.3-snapshot-5" = _H6NG929d;
         "fabric-26.3-snapshot-6" = _aWRVPEDB;
+        "fabric-26.3-snapshot-7" = _H7JdDuMJ;
+        "fabric-26.3-snapshot-8" = _abPeV2cT;
+        "fabric-26.3-snapshot-9" = _HkjPyLsJ;
+        "fabric-26.3-snapshot-10" = _8nNcxsjS;
+        "fabric-26.3-pre-1" = _u4hLnVoC;
+        "fabric-26.3-pre-2" = _GtyN2Byd;
         "pkg-1.0.0" = _gNQwyEfj;
         "pkg-1.2.0" = _bC7khzCK;
         "pkg-1.21.10-1.3.0" = _HLahsDir;
@@ -137,7 +179,13 @@ let
         "pkg-1.3.1+26.3-s-4" = _gsmDcaYY;
         "pkg-1.3.1+26.3-s-5" = _H6NG929d;
         "pkg-1.3.2+26.3-s-6" = _aWRVPEDB;
-        "default" = _aWRVPEDB;
+        "pkg-1.3.2+26.3-s-7" = _H7JdDuMJ;
+        "pkg-1.3.2+26.3-s-8" = _abPeV2cT;
+        "pkg-1.3.2+26.3-s-9" = _HkjPyLsJ;
+        "pkg-1.3.2+26.3-s-10" = _8nNcxsjS;
+        "pkg-1.3.2+26.3-pre-1" = _u4hLnVoC;
+        "pkg-USMPDS-26.3-pre-2" = _GtyN2Byd;
+        "default" = _GtyN2Byd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unstable-smp-death-sounds-by-bl";

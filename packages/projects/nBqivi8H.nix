@@ -426,6 +426,11 @@ let
             "file" = "Draconic-Evolution-1.21.1-3.1.4.632.jar";
             "hash" = "sha512-shYjXTrqapX+ghUp4J5l8ysy/Ka/fpIrdBfexHxUDVy1yF6R//IRsUOsas4aXpXGZdTZh9cVTgQOW35RPNpsLg==";
         };
+        _84xwXpNh = {
+            "id" = "84xwXpNh";
+            "file" = "Draconic-Evolution-1.21.1-3.1.4.633.jar";
+            "hash" = "sha512-l0D1dQqRbbiSfYBRQwtJ66nrw35VRa7wm4OHKlYach5+uP7YLm7SqtFboBbW+Oos5WalyvrMSih5I5EZzbr/MQ==";
+        };
     in {
         "1IRduNsS" = _1IRduNsS;
         "PokXtvYt" = _PokXtvYt;
@@ -512,6 +517,7 @@ let
         "rJA8I0wc" = _rJA8I0wc;
         "WYBCse8z" = _WYBCse8z;
         "lBMsiWyw" = _lBMsiWyw;
+        "84xwXpNh" = _84xwXpNh;
         "forge-1.7.10" = _1IRduNsS;
         "forge-1.12" = _DhxaYy8T;
         "forge-1.11.2" = _Ahd0p6JL;
@@ -523,7 +529,7 @@ let
         "forge-1.20.1" = _YR33MHbk;
         "neoforge-1.20.1" = _YR33MHbk;
         "neoforge-1.20.4" = _n5FNRb6H;
-        "neoforge-1.21.1" = _lBMsiWyw;
+        "neoforge-1.21.1" = _84xwXpNh;
         "pkg-1.0.2h" = _1IRduNsS;
         "pkg-2.3.2.258" = _PokXtvYt;
         "pkg-2.2.3.260" = _mnW2homu;
@@ -609,7 +615,8 @@ let
         "pkg-3.1.3.629" = _rJA8I0wc;
         "pkg-3.1.4.630" = _WYBCse8z;
         "pkg-3.1.4.632" = _lBMsiWyw;
-        "default" = _lBMsiWyw;
+        "pkg-3.1.4.633" = _84xwXpNh;
+        "default" = _84xwXpNh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "draconic-evolution";

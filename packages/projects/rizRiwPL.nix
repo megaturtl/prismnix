@@ -81,6 +81,11 @@ let
             "file" = "ImproperUI-26.1-0.0.7-BETA.jar";
             "hash" = "sha512-g3sH6W/iZ4owbBdBIXi6uIFQFRJ7MG7wGN8in9ZChpWP/b67ItfbNo3g3aRIuOTuDMg0UDeCCwhmJbxXplji5Q==";
         };
+        _ehAAzRbi = {
+            "id" = "ehAAzRbi";
+            "file" = "ImproperUI-26.2-0.0.8-BETA.jar";
+            "hash" = "sha512-cK3EM5p0FO79zczNkF8SR8cA7xm7BRFBPQfbSZ4ISHR/5/QY3PcPbOdvXMtyZlDbhvBus37p1OL9di0KhQRmuQ==";
+        };
     in {
         "6guKeCsH" = _6guKeCsH;
         "ODEfHPg1" = _ODEfHPg1;
@@ -98,6 +103,7 @@ let
         "tIQ0akPF" = _tIQ0akPF;
         "bG5F25rq" = _bG5F25rq;
         "4FGLrc3a" = _4FGLrc3a;
+        "ehAAzRbi" = _ehAAzRbi;
         "fabric-1.20.4" = _tmkgGV2g;
         "fabric-1.20.6" = _y7vHc4K2;
         "fabric-1.20.2" = _tmkgGV2g;
@@ -112,6 +118,7 @@ let
         "fabric-26.1" = _4FGLrc3a;
         "fabric-26.1.1" = _4FGLrc3a;
         "fabric-26.1.2" = _4FGLrc3a;
+        "fabric-26.2" = _ehAAzRbi;
         "pkg-0.0.1-BETA" = _6guKeCsH;
         "pkg-0.0.2-BETA" = _ODEfHPg1;
         "pkg-0.0.3-BETA" = _kSyqU4C9;
@@ -128,7 +135,8 @@ let
         "pkg-1.21.11-0.0.6-BETA" = _tIQ0akPF;
         "pkg-1.21.11-0.0.7-BETA" = _bG5F25rq;
         "pkg-26.1-0.0.7-BETA" = _4FGLrc3a;
-        "default" = _4FGLrc3a;
+        "pkg-26.2-0.0.8-BETA" = _ehAAzRbi;
+        "default" = _ehAAzRbi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "improperui";

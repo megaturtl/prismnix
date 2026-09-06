@@ -206,6 +206,26 @@ let
             "file" = "veinminer-client-fabric-2.11.2+1.21.1.jar";
             "hash" = "sha512-a7xb7Zv4slKhugoa+sMJvjbej69JRcysXIM2qFRfkYIEBkgiZJ1HQHmi/+MuhdjSUuhGqD9YoYzAxk32VasOMQ==";
         };
+        _mrnMEB4u = {
+            "id" = "mrnMEB4u";
+            "file" = "veinminer-client-fabric-2.12.0.jar";
+            "hash" = "sha512-RjFKbn28u7E/sz0eZV7Ij/aw/NdXrpc7baRwv7Yc4wmmoJkSdbv9PaYm4dA3R13Sd41IM1LIRqEaqzdynNfqOA==";
+        };
+        _XNxcQzRC = {
+            "id" = "XNxcQzRC";
+            "file" = "veinminer-client-neoforge-2.12.0.jar";
+            "hash" = "sha512-a703UQuvSbprJ6XPEFf9YGlgtWkQvBKq7QpSz+PPs5+VNe1/OKbi3FLBozYqh16wiw5GJwTSlYsdUciuICl9XQ==";
+        };
+        _bZ7WIGCC = {
+            "id" = "bZ7WIGCC";
+            "file" = "veinminer-client-fabric-2.12.1.jar";
+            "hash" = "sha512-Pu8RGngu92zx44opruouKy8sfC52uIk+RnOkF8q55XY8V2An3l0Zdw1OKlvqLEXvfUlmDaYAwu8epIMvwsv5Aw==";
+        };
+        _A8MIAvsa = {
+            "id" = "A8MIAvsa";
+            "file" = "veinminer-client-neoforge-2.12.1.jar";
+            "hash" = "sha512-f4sR20KyWz7lyrnE0TrEeJ8c8uS6VWpmo2yzj0HFWSgI+T6n9BYMjroNOhJBOib6fgl8Xf0itQFK0eKm5qSxSw==";
+        };
     in {
         "fObrTfSZ" = _fObrTfSZ;
         "UYZNaDKc" = _UYZNaDKc;
@@ -248,6 +268,10 @@ let
         "Aqks6yRv" = _Aqks6yRv;
         "dIwSWhIM" = _dIwSWhIM;
         "PPnkQNVh" = _PPnkQNVh;
+        "mrnMEB4u" = _mrnMEB4u;
+        "XNxcQzRC" = _XNxcQzRC;
+        "bZ7WIGCC" = _bZ7WIGCC;
+        "A8MIAvsa" = _A8MIAvsa;
         "fabric-1.21.2" = _bVfGsbfb;
         "fabric-1.21.3" = _bVfGsbfb;
         "fabric-1.21.4" = _bVfGsbfb;
@@ -265,7 +289,7 @@ let
         "fabric-26.1" = _sfgXyNVG;
         "fabric-26.1.1" = _sfgXyNVG;
         "fabric-26.1.2" = _sfgXyNVG;
-        "fabric-26.2" = _LRJI3MpY;
+        "fabric-26.2" = _bZ7WIGCC;
         "quilt-1.21.2" = _bVfGsbfb;
         "quilt-1.21.3" = _bVfGsbfb;
         "quilt-1.21.4" = _bVfGsbfb;
@@ -283,13 +307,13 @@ let
         "quilt-26.1" = _sfgXyNVG;
         "quilt-26.1.1" = _sfgXyNVG;
         "quilt-26.1.2" = _sfgXyNVG;
-        "quilt-26.2" = _LRJI3MpY;
+        "quilt-26.2" = _bZ7WIGCC;
         "neoforge-26.1" = _ld9KW91B;
         "neoforge-26.1.1" = _ld9KW91B;
         "neoforge-26.1.2" = _ld9KW91B;
         "neoforge-1.21.11" = _Aqks6yRv;
         "neoforge-1.21.1" = _dIwSWhIM;
-        "neoforge-26.2" = _k7r7anSN;
+        "neoforge-26.2" = _A8MIAvsa;
         "pkg-2.4.0" = _fObrTfSZ;
         "pkg-2.4.1" = _UYZNaDKc;
         "pkg-2.4.2" = _Zfk0H9y4;
@@ -309,7 +333,9 @@ let
         "pkg-2.10.4" = _cNW2gSIv;
         "pkg-2.11.1" = _rnxqVCrP;
         "pkg-2.11.2" = _PPnkQNVh;
-        "default" = _PPnkQNVh;
+        "pkg-2.12.0" = _XNxcQzRC;
+        "pkg-2.12.1" = _A8MIAvsa;
+        "default" = _A8MIAvsa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "veinminer-client";

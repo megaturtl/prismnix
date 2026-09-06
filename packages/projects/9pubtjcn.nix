@@ -356,6 +356,11 @@ let
             "file" = "blocky-bubbles-4.0.0+26.2.jar";
             "hash" = "sha512-DZ2bEplJJneDqHfRRdk+lS4QiIb+K1SvtPKkvN8upcNHjMy9hD+CSCMG45iNco4JKBZL7ONmKmYfXlIfwVHbBg==";
         };
+        _CWpfwXEu = {
+            "id" = "CWpfwXEu";
+            "file" = "blocky-bubbles-4.1.0+26.2.jar";
+            "hash" = "sha512-WyZrpNz4kmbDTAT4yr+kQ7KD5wkT4aa/b7nr0puzHm6g2Qn3OBb15AmxGs5SKvi8vHEv4Xi4WdpSo3ZixgPwsw==";
+        };
     in {
         "AvADRRpa" = _AvADRRpa;
         "BsVoE9CR" = _BsVoE9CR;
@@ -428,6 +433,7 @@ let
         "zkTSoUJU" = _zkTSoUJU;
         "KqBzh8yn" = _KqBzh8yn;
         "5YL3yUNt" = _5YL3yUNt;
+        "CWpfwXEu" = _CWpfwXEu;
         "fabric-1.20.1" = _C4HGH7dk;
         "fabric-1.20.2" = _t8b7qxdb;
         "fabric-1.20.3" = _9S3HKHYG;
@@ -457,7 +463,7 @@ let
         "fabric-26.1" = _KqBzh8yn;
         "fabric-26.1.1" = _KqBzh8yn;
         "fabric-26.1.2" = _KqBzh8yn;
-        "fabric-26.2" = _5YL3yUNt;
+        "fabric-26.2" = _CWpfwXEu;
         "pkg-1.0.0" = _AvADRRpa;
         "pkg-1.0.1" = _BsVoE9CR;
         "pkg-1.1.0+1.17.1" = _yv6IvN0c;
@@ -509,7 +515,8 @@ let
         "pkg-2.0.0" = _zkTSoUJU;
         "pkg-3.0.1" = _KqBzh8yn;
         "pkg-4.0.0" = _5YL3yUNt;
-        "default" = _5YL3yUNt;
+        "pkg-4.1.0" = _CWpfwXEu;
+        "default" = _CWpfwXEu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blocky-bubbles";
@@ -517,13 +524,13 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-or-later" {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "GNU Lesser General Public License v3.0 or later";
-                shortName = "LGPL-3.0-or-later";
-                url = "https://www.gnu.org/licenses/lgpl-3.0.txt";
+                fullName = "GNU Lesser General Public License v3.0 only";
+                shortName = "LGPL-3.0-only";
+                url = null;
             };
         };
     };

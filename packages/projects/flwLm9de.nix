@@ -26,12 +26,18 @@ let
             "file" = "Tears & Cheers 1.3 - Panorama.zip";
             "hash" = "sha512-98+WgUtps3cfdqRZYclSZG/oQeZKJXPVD28EiDk26omxAq1dFfqQSMDSYwh4e8M8gc30Hm+bw3Di5sttjbgpcw==";
         };
+        _6UtmoUBl = {
+            "id" = "6UtmoUBl";
+            "file" = "Tears & Cheers 1.3.1.zip";
+            "hash" = "sha512-USbmO5WZObJRSJ6wwjfA97AOH/EP7EzPieMS3vcvpSyXMxIdaCwU7kwI+4hcUwDG8d3sUNeRO/bGRZlFUSqkVg==";
+        };
     in {
         "VM3hpjK7" = _VM3hpjK7;
         "Lritw6GU" = _Lritw6GU;
         "D1DXcpoE" = _D1DXcpoE;
         "riwvN24w" = _riwvN24w;
         "eK9toPku" = _eK9toPku;
+        "6UtmoUBl" = _6UtmoUBl;
         "minecraft-1.9" = _eK9toPku;
         "minecraft-1.9.1" = _eK9toPku;
         "minecraft-1.9.2" = _eK9toPku;
@@ -95,11 +101,19 @@ let
         "minecraft-1.21.6" = _eK9toPku;
         "minecraft-1.21.7" = _eK9toPku;
         "minecraft-1.21.8" = _eK9toPku;
+        "minecraft-1.21.9" = _6UtmoUBl;
+        "minecraft-1.21.10" = _6UtmoUBl;
+        "minecraft-1.21.11" = _6UtmoUBl;
+        "minecraft-26.1" = _6UtmoUBl;
+        "minecraft-26.1.1" = _6UtmoUBl;
+        "minecraft-26.1.2" = _6UtmoUBl;
+        "minecraft-26.2" = _6UtmoUBl;
         "pkg-1.0" = _VM3hpjK7;
         "pkg-1.1" = _Lritw6GU;
         "pkg-1.2" = _D1DXcpoE;
         "pkg-1.3" = _eK9toPku;
-        "default" = _eK9toPku;
+        "pkg-1.3.1" = _6UtmoUBl;
+        "default" = _6UtmoUBl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tears-and-cheers";

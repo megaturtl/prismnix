@@ -141,6 +141,11 @@ let
             "file" = "vanilla_constructs-1.0.9-neoforge-1.21.8.jar";
             "hash" = "sha512-bc1I4Mu0g4RogyB98aTXIAt69ni7SneHYGFQ4Zk37E2RAVD5JrabMGaePVjnJ99SnjOuFkbhcWdVKyPZU4t+cw==";
         };
+        _mSq1zYyi = {
+            "id" = "mSq1zYyi";
+            "file" = "vanillaconstructs-26.2-1.1.7.jar";
+            "hash" = "sha512-EObCuSfFPGzrb4kVBInrT1i0iJ/778xYKm0hVKiMsMTk6Rw5duZrZ63Ga54XNuvUe/X1+HuJsiVrbu8oWiHKrw==";
+        };
     in {
         "aOFLLSlJ" = _aOFLLSlJ;
         "ATrdlWxj" = _ATrdlWxj;
@@ -170,6 +175,7 @@ let
         "ahhdBFeF" = _ahhdBFeF;
         "bN6zDzER" = _bN6zDzER;
         "7Gg0HE8m" = _7Gg0HE8m;
+        "mSq1zYyi" = _mSq1zYyi;
         "neoforge-1.21.1" = _GAh27DXa;
         "neoforge-1.21.8" = _7Gg0HE8m;
         "fabric-1.21" = _qhDYSwbh;
@@ -182,6 +188,7 @@ let
         "fabric-1.21.7" = _DCRil5z3;
         "fabric-1.21.8" = _ahhdBFeF;
         "fabric-1.21.10" = _bN6zDzER;
+        "fabric-26.2" = _mSq1zYyi;
         "pkg-1.0.0" = _d0FlhJi6;
         "pkg-1.0.1" = _zXtTZdXF;
         "pkg-1.0.2" = _qhDYSwbh;
@@ -200,7 +207,8 @@ let
         "pkg-1.1.5" = _ahhdBFeF;
         "pkg-1.1.6" = _bN6zDzER;
         "pkg-1.0.10" = _7Gg0HE8m;
-        "default" = _7Gg0HE8m;
+        "pkg-1.1.7" = _mSq1zYyi;
+        "default" = _mSq1zYyi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-constructs";

@@ -146,6 +146,16 @@ let
             "file" = "ae2importexportcard-26.1.2-2.0.2.jar";
             "hash" = "sha512-9CAYtipV1NHQypQj8zE72Az4DhwgkRSfYHUwKVQMPUR/HD+1dhBCveOY4ExvnsbEmO25GNw34E0n6pU6mW6sDg==";
         };
+        _v2PSNZ3v = {
+            "id" = "v2PSNZ3v";
+            "file" = "ae2importexportcard-26.1.2-2.1.0.jar";
+            "hash" = "sha512-Ge5HuVL1xMPJ0/aOvcgTKudCbciThegrN8C0jOIDt60b4Yibg8RfiSJH09/SOi72a0wDGuaVWQPIU3WbbrY5+g==";
+        };
+        _UNYpf7A1 = {
+            "id" = "UNYpf7A1";
+            "file" = "ae2importexportcard-1.21.1-1.6.0.jar";
+            "hash" = "sha512-T+S14f68Nqe9CdZZtyFSP3hTitwCHqs3jsTsfzEbgxHRNtwj5JMy9SKdTDCgbDeJSrsSqrANeFolYu9NXT9big==";
+        };
     in {
         "zQYX6Da0" = _zQYX6Da0;
         "8acnk8IE" = _8acnk8IE;
@@ -176,6 +186,8 @@ let
         "nSe4CsaS" = _nSe4CsaS;
         "IuliJoet" = _IuliJoet;
         "gDAmhTZZ" = _gDAmhTZZ;
+        "v2PSNZ3v" = _v2PSNZ3v;
+        "UNYpf7A1" = _UNYpf7A1;
         "forge-1.20.1" = _v8c3El4q;
         "forge-1.19.2" = _h9A1XZdm;
         "forge-1.19.3" = _h9A1XZdm;
@@ -183,8 +195,8 @@ let
         "forge-1.18.2" = _5TBilHBj;
         "neoforge-1.20.1" = _EnkYbQ8X;
         "neoforge-1.21" = _UcKctWsx;
-        "neoforge-1.21.1" = _UtJepGDL;
-        "neoforge-26.1.2" = _gDAmhTZZ;
+        "neoforge-1.21.1" = _UNYpf7A1;
+        "neoforge-26.1.2" = _v2PSNZ3v;
         "pkg-1.20.1-1.0" = _zQYX6Da0;
         "pkg-1.20.1-1.0.1" = _8acnk8IE;
         "pkg-1.20.1-1.0.2" = _mCwrrPGQ;
@@ -214,7 +226,9 @@ let
         "pkg-26.1.2-2.0.0" = _nSe4CsaS;
         "pkg-26.1.2-2.0.1" = _IuliJoet;
         "pkg-26.1.2-2.0.2" = _gDAmhTZZ;
-        "default" = _gDAmhTZZ;
+        "pkg-26.1.2-2.1.0" = _v2PSNZ3v;
+        "pkg-1.21.1-1.6.0" = _UNYpf7A1;
+        "default" = _UNYpf7A1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ae2-import-export-card";

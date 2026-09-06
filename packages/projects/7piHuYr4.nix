@@ -31,6 +31,11 @@ let
             "file" = "phantom_remover-1.0.1-neoforge-1.21.8.jar";
             "hash" = "sha512-Vo7kx19tugUfAKE2QNuw4afLauBxgNiE1DLgvaF+6JwlNsjFR79v8cLeRYCgpafERUCpnVQzaVJVbHvmXpss4Q==";
         };
+        _2Tf89AZp = {
+            "id" = "2Tf89AZp";
+            "file" = "phantom_remover-1.0.1-neoforge-26.1.2.jar";
+            "hash" = "sha512-5lX4643cG3HiLOJU0OLybno5xuUkBSqHS0x3BIN2r3eFlNBAa8RqdLDEYT2IUFYzmehO1faK7QYitJ9K5zXtVg==";
+        };
     in {
         "FkHqNbfY" = _FkHqNbfY;
         "G9COyun7" = _G9COyun7;
@@ -38,14 +43,16 @@ let
         "w2xgaShP" = _w2xgaShP;
         "LRRQEOTM" = _LRRQEOTM;
         "i8ooXfdx" = _i8ooXfdx;
+        "2Tf89AZp" = _2Tf89AZp;
         "forge-1.20.1" = _FkHqNbfY;
         "neoforge-1.20.4" = _G9COyun7;
         "neoforge-1.21.1" = _tpDAWo8w;
         "neoforge-1.21.4" = _w2xgaShP;
         "neoforge-1.21.5" = _LRRQEOTM;
         "neoforge-1.21.8" = _i8ooXfdx;
-        "pkg-1.0.1" = _i8ooXfdx;
-        "default" = _i8ooXfdx;
+        "neoforge-26.1.2" = _2Tf89AZp;
+        "pkg-1.0.1" = _2Tf89AZp;
+        "default" = _2Tf89AZp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "phantom-remover";

@@ -116,6 +116,31 @@ let
             "file" = "spookytrees-1.0.1-fabric-1.21.11.jar";
             "hash" = "sha512-1LYYKu27+jsqaZDX5wjp16u0+83+K2RV9ZZ3b1Hl0+qzSEr4bYzj+KV+nX1iWtaB/n3rf/BZFMyyenaTdt4LIw==";
         };
+        _32HRSNJ8 = {
+            "id" = "32HRSNJ8";
+            "file" = "spookytrees-1.0.0 Fabric 1.21.1.jar";
+            "hash" = "sha512-2RiW4zCqvt+cYppzCwc+Ij9Ud352AWKyCWfF01srpU+rd1UPZJlLHQohl/AiSQaiYfeTIUeSb1ZYmJBuBrfPLw==";
+        };
+        _TaEsijjv = {
+            "id" = "TaEsijjv";
+            "file" = "spookytrees-1.0.0 Fabric 26.1.2.jar";
+            "hash" = "sha512-1BwCGPHicabU30prgy8UCvrYjpI4wWTwZLdxx1sLQQNANmq76qkuQRqBPIIm/s/TqQk/4GMG3s25Z4fD2ZmJfA==";
+        };
+        _f3IgrvDk = {
+            "id" = "f3IgrvDk";
+            "file" = "spookytrees-1.0.0 Neoforge 26.1.2.jar";
+            "hash" = "sha512-jQTeiVjXbcaCxYjwJIzMU++0dvo2/P92kRaGW40TO5SwPGdMdfPinIhHsvNkF+EynZLbCaGmj9fM+1Q5d+gchQ==";
+        };
+        _zXbSlQFA = {
+            "id" = "zXbSlQFA";
+            "file" = "spookytrees-1.0.0 Fabric 26.2.jar";
+            "hash" = "sha512-vZCZoqZ2UQEm7aKJZyZwlzUrSGr8CbMLAS1SBSoVwZvVt69MMPY3GtZS/lcInUyITuuOVqsdO5CQbcvsp+mvGQ==";
+        };
+        _HqF69r4Y = {
+            "id" = "HqF69r4Y";
+            "file" = "spookytrees-1.0.0 Neoforge 26.2.jar";
+            "hash" = "sha512-NuiXNkChgZgX+G10JPwMFFbIye3M6FyVrepqIOVH8ai6bW0adTbvhDtzaVklQx9hxMx5mUe9iyc+wbR9+6B0mw==";
+        };
     in {
         "lVb6cV5P" = _lVb6cV5P;
         "6fHYIAUY" = _6fHYIAUY;
@@ -140,11 +165,19 @@ let
         "VhozYvlH" = _VhozYvlH;
         "CFss55RC" = _CFss55RC;
         "Op32JacP" = _Op32JacP;
+        "32HRSNJ8" = _32HRSNJ8;
+        "TaEsijjv" = _TaEsijjv;
+        "f3IgrvDk" = _f3IgrvDk;
+        "zXbSlQFA" = _zXbSlQFA;
+        "HqF69r4Y" = _HqF69r4Y;
         "fabric-1.20.1" = _ZQEnJ2AA;
         "fabric-1.21.8" = _NI3HVrxw;
         "fabric-1.21.9" = _VhozYvlH;
         "fabric-1.21.10" = _CFss55RC;
         "fabric-1.21.11" = _Op32JacP;
+        "fabric-1.21.1" = _32HRSNJ8;
+        "fabric-26.1.2" = _TaEsijjv;
+        "fabric-26.2" = _zXbSlQFA;
         "forge-1.19.2" = _BWBUSkX0;
         "forge-1.19.4" = _kCMHhohA;
         "forge-1.20.1" = _jcsVhTPk;
@@ -156,9 +189,11 @@ let
         "neoforge-1.21.1" = _US6oBgNg;
         "neoforge-1.21.4" = _NMCR9Ora;
         "neoforge-1.21.8" = _P7JDiLe2;
-        "pkg-1.0.0" = _ZQEnJ2AA;
+        "neoforge-26.1.2" = _f3IgrvDk;
+        "neoforge-26.2" = _HqF69r4Y;
+        "pkg-1.0.0" = _HqF69r4Y;
         "pkg-1.0.1" = _Op32JacP;
-        "default" = _Op32JacP;
+        "default" = _HqF69r4Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spooky-trees";

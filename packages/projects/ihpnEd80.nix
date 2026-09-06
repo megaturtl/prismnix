@@ -286,6 +286,21 @@ let
             "file" = "createcobblestone-1.4.12+neoforge-1.21.1-144.jar";
             "hash" = "sha512-j9lwKPieay1ibzZh7p8D3mwPPyk7Pgi7/yNigAtdBLDKtaZDtZoxKHKM8zG28/hfvFC1rmCJtTD7u4bMUeL6Bg==";
         };
+        _vSfTGXRW = {
+            "id" = "vSfTGXRW";
+            "file" = "createcobblestone-1.5.0+fabric-1.20.1-154.jar";
+            "hash" = "sha512-kaaMX73mWxut6l1FwqPpTAonnoRZyXJNAkM+0lOhVJ52ieAPDGr17kS4UYvfdm6ffbH+QsoA3pMz5r5yE2eigw==";
+        };
+        _K4p3SvRQ = {
+            "id" = "K4p3SvRQ";
+            "file" = "createcobblestone-1.5.0+forge-1.20.1-155.jar";
+            "hash" = "sha512-/6MbdlS9L5VxzAFKzhvsuakKKl1Z5ROmeipUpfpDyhybeEX6Tsz3PuFTSp5Ur1oYjfsw9KQmkn1q+YfDQQ721A==";
+        };
+        _srFLj2Ch = {
+            "id" = "srFLj2Ch";
+            "file" = "createcobblestone-1.5.0+neoforge-1.21.1-153.jar";
+            "hash" = "sha512-qKzcpB3xvG0b2spPaAmUk7WeQgFw2ju7W4uIWCSjtSnQO/t/ZKVi/o2ioG1kJ2b8XgNW3Gq5R3ETGMOCE24O/g==";
+        };
     in {
         "7bqwqV8R" = _7bqwqV8R;
         "WEcomIF1" = _WEcomIF1;
@@ -344,11 +359,14 @@ let
         "GK04ul6R" = _GK04ul6R;
         "BezgtvNb" = _BezgtvNb;
         "qucToeoF" = _qucToeoF;
-        "fabric-1.20.1" = _GK04ul6R;
-        "quilt-1.20.1" = _GK04ul6R;
-        "forge-1.20.1" = _58YbPixw;
-        "neoforge-1.20.1" = _58YbPixw;
-        "neoforge-1.21.1" = _qucToeoF;
+        "vSfTGXRW" = _vSfTGXRW;
+        "K4p3SvRQ" = _K4p3SvRQ;
+        "srFLj2Ch" = _srFLj2Ch;
+        "fabric-1.20.1" = _vSfTGXRW;
+        "quilt-1.20.1" = _vSfTGXRW;
+        "forge-1.20.1" = _K4p3SvRQ;
+        "neoforge-1.20.1" = _K4p3SvRQ;
+        "neoforge-1.21.1" = _srFLj2Ch;
         "pkg-1.0.0+fabric-1.20.1-14" = _7bqwqV8R;
         "pkg-1.1.0+fabric-1.20.1-18" = _WEcomIF1;
         "pkg-1.1.0+fabric-1.20.1-19" = _e4vNrqZC;
@@ -406,7 +424,10 @@ let
         "pkg-1.4.11+fabric-1.20.1-141" = _GK04ul6R;
         "pkg-1.4.11+neoforge-1.21.1-140" = _BezgtvNb;
         "pkg-1.4.12+neoforge-1.21.1-144" = _qucToeoF;
-        "default" = _qucToeoF;
+        "pkg-1.5.0+fabric-1.20.1-154" = _vSfTGXRW;
+        "pkg-1.5.0+forge-1.20.1-155" = _K4p3SvRQ;
+        "pkg-1.5.0+neoforge-1.21.1-153" = _srFLj2Ch;
+        "default" = _srFLj2Ch;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-cobblestone";

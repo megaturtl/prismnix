@@ -311,6 +311,11 @@ let
             "file" = "endertechinf-5.2.3-neoforge-1.21.1.jar";
             "hash" = "sha512-6A/Ufbe/4lFUqdj4vn0GnBu23YIg6LSTkF5eCh93qcKrEi2J/t7Xpos9bi137bJUJ9B+RYPHsa65FtEXC/X6pQ==";
         };
+        _UHkjt7Ww = {
+            "id" = "UHkjt7Ww";
+            "file" = "endertechinf-5.2.4-neoforge-1.21.1.jar";
+            "hash" = "sha512-WVnyHA7rZ5Q1njo5cjwh+LqaAs4je6MyoyJxJ0AnP0w6O2ZtnC5+rBMyIqRl2zVNKtsavtYEUnrJixjUfWAAdg==";
+        };
     in {
         "r29DpGx8" = _r29DpGx8;
         "QF6QnxWf" = _QF6QnxWf;
@@ -374,13 +379,14 @@ let
         "8512O78U" = _8512O78U;
         "vybCdXm2" = _vybCdXm2;
         "88r5VBEc" = _88r5VBEc;
+        "UHkjt7Ww" = _UHkjt7Ww;
         "forge-1.19.4" = _xTcOUxT2;
         "forge-1.20.1" = _o7K22XwJ;
         "forge-1.15.2" = _wT03eGx0;
         "forge-1.18.2" = _JsqIXddv;
         "neoforge-1.20.1" = _o7K22XwJ;
         "neoforge-1.20.4" = _coiDNFVt;
-        "neoforge-1.21.1" = _88r5VBEc;
+        "neoforge-1.21.1" = _UHkjt7Ww;
         "pkg-3.0.0" = _RFaKC8Zk;
         "pkg-3.0.1" = _BM8YULF2;
         "pkg-1.0.0" = _L4kamJzm;
@@ -439,7 +445,8 @@ let
         "pkg-5.2.1" = _8512O78U;
         "pkg-5.2.2" = _vybCdXm2;
         "pkg-5.2.3" = _88r5VBEc;
-        "default" = _88r5VBEc;
+        "pkg-5.2.4" = _UHkjt7Ww;
+        "default" = _UHkjt7Ww;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "endertech-infinity";

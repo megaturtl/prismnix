@@ -141,6 +141,16 @@ let
             "file" = "occultengineering-1.21.1-0.12.3.jar";
             "hash" = "sha512-rcnelxe3hWT3FxNAuZvM96ci0uQSts3n58hGXGkFw6cMXXgHUKv4IThEtQMmOOFm0sw4fXgYItNLoMA8zOEj/w==";
         };
+        _anLCyix8 = {
+            "id" = "anLCyix8";
+            "file" = "occultengineering-1.20.1-0.11.4.jar";
+            "hash" = "sha512-4RfAk8gmwSll5M1RRZJwqAdP9xyYW+hEgH+Q8GTnpXfBk/bG+2YMoo5iG3Pl5bw0GyeJeNaosIETsyzj/1zqog==";
+        };
+        _Xu7rA3D4 = {
+            "id" = "Xu7rA3D4";
+            "file" = "occultengineering-1.21.1-0.13.1.jar";
+            "hash" = "sha512-KWujsmvuo/gaO5gZJZrPL9FKxDIOj2ms27nKGECxmOtaAHbWgbAxb+fRNTHbbNofeMhiZF0tsIBnfSx9mz6zOw==";
+        };
     in {
         "Qex2sXUh" = _Qex2sXUh;
         "EcdUA9HP" = _EcdUA9HP;
@@ -170,9 +180,11 @@ let
         "oDCoWaVk" = _oDCoWaVk;
         "ivaaBZ2f" = _ivaaBZ2f;
         "Se09d8Qf" = _Se09d8Qf;
-        "forge-1.20.1" = _62PubN8L;
-        "neoforge-1.20.1" = _62PubN8L;
-        "neoforge-1.21.1" = _Se09d8Qf;
+        "anLCyix8" = _anLCyix8;
+        "Xu7rA3D4" = _Xu7rA3D4;
+        "forge-1.20.1" = _anLCyix8;
+        "neoforge-1.20.1" = _anLCyix8;
+        "neoforge-1.21.1" = _Xu7rA3D4;
         "pkg-1.20.1-0.1.0" = _Qex2sXUh;
         "pkg-1.20.1-0.2.0" = _EcdUA9HP;
         "pkg-1.20.1-0.3.0" = _6j5YWwTX;
@@ -201,7 +213,9 @@ let
         "pkg-1.21.1-0.12.1" = _oDCoWaVk;
         "pkg-1.21.1-0.12.2" = _ivaaBZ2f;
         "pkg-1.21.1-0.12.3" = _Se09d8Qf;
-        "default" = _Se09d8Qf;
+        "pkg-1.20.1-0.11.4" = _anLCyix8;
+        "pkg-1.21.1-0.13.1" = _Xu7rA3D4;
+        "default" = _Xu7rA3D4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "occult-engineering";

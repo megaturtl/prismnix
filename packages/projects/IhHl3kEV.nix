@@ -71,6 +71,36 @@ let
             "file" = "musicinterface-fabric-1.6.jar";
             "hash" = "sha512-cDaZCQtXDJPLrAMPi6ebA40QPFCoXKEeOLv8cwC8IL66H9ICIVXlw0B9jP0JjnIP/GRe/Xjc18iJadCT6kMHHA==";
         };
+        _p2rM7DS9 = {
+            "id" = "p2rM7DS9";
+            "file" = "musicinterface-neoforge-1.7.jar";
+            "hash" = "sha512-//jXO2Hsqhal+og0T2uP0n4ynkNC4dRWvsEDy7Hd1H9P0rYqNaQeKuN6tXqATsPhlbGoXYNIYTkkytzvw2zxig==";
+        };
+        _2IIbUnH6 = {
+            "id" = "2IIbUnH6";
+            "file" = "musicinterface-fabric-1.7.jar";
+            "hash" = "sha512-rr5hIEm3efOOvPUHe9mVPUGe5Ga5ehj2RWMo9/TfXp8tMhjNgX7IH7AXQLaONyrVWCwUscrfdVhuek63SSSHRw==";
+        };
+        _fg1EDkRz = {
+            "id" = "fg1EDkRz";
+            "file" = "musicinterface-neoforge-1.8.jar";
+            "hash" = "sha512-2zC4jgxvOSTL+H9zCeIkCzfhS+2rH11FOULVDCOMPFC0i5zxdR1wHLb0EJbbD6Lgen7PH0Te6bVt90KjAqTMLw==";
+        };
+        _jAGDH3CE = {
+            "id" = "jAGDH3CE";
+            "file" = "musicinterface-fabric-1.8.jar";
+            "hash" = "sha512-0SDIcoaKMcxDK0krGD4ihBQQ9ROLWb4l5C/z3BPPpfL2oD3AJ+N2lxTib/fNDsmW/KXFH0KyiuPd0xJfj0EJaA==";
+        };
+        _7r4HIyei = {
+            "id" = "7r4HIyei";
+            "file" = "musicinterface-fabric-1.9.jar";
+            "hash" = "sha512-1TdYQbzNr/MtojkCT7aLijNVjULRP3yUna9YiML4rZve6Qj9rShLKyqhphf+L/aN0FDkKOSDIqOiL9mg9EiIgw==";
+        };
+        _bbPnMk3R = {
+            "id" = "bbPnMk3R";
+            "file" = "musicinterface-neoforge-1.9.jar";
+            "hash" = "sha512-OvX3CORGhjo6USrDbmlOnmR/K1SbJEUryejltc6lGm5LNSja7SssoH0xhANFyWFsCLvR7hA7fzvNcxLtqKoM8g==";
+        };
     in {
         "DJaOphU0" = _DJaOphU0;
         "87IYLKsl" = _87IYLKsl;
@@ -86,8 +116,14 @@ let
         "Lzqwr1wu" = _Lzqwr1wu;
         "xS5IzCTv" = _xS5IzCTv;
         "S4EiIk59" = _S4EiIk59;
-        "neoforge-1.21.1" = _xS5IzCTv;
-        "fabric-1.21.1" = _S4EiIk59;
+        "p2rM7DS9" = _p2rM7DS9;
+        "2IIbUnH6" = _2IIbUnH6;
+        "fg1EDkRz" = _fg1EDkRz;
+        "jAGDH3CE" = _jAGDH3CE;
+        "7r4HIyei" = _7r4HIyei;
+        "bbPnMk3R" = _bbPnMk3R;
+        "neoforge-1.21.1" = _bbPnMk3R;
+        "fabric-1.21.1" = _7r4HIyei;
         "pkg-1.1" = _87IYLKsl;
         "pkg-1.2" = _SFgRD2l0;
         "pkg-1.3" = _beLnOizx;
@@ -95,7 +131,10 @@ let
         "pkg-1.4.1" = _7nOx2Jot;
         "pkg-1.5" = _Lzqwr1wu;
         "pkg-1.6" = _S4EiIk59;
-        "default" = _S4EiIk59;
+        "pkg-1.7" = _2IIbUnH6;
+        "pkg-1.8" = _jAGDH3CE;
+        "pkg-1.9" = _bbPnMk3R;
+        "default" = _bbPnMk3R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "music-interface";

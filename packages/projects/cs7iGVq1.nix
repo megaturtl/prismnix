@@ -86,6 +86,16 @@ let
             "file" = "YungsCaveBiomes-26.1.2-NeoForge-4.1.0.jar";
             "hash" = "sha512-ECP+xgHh/ngcG0Z34qUUjiBo0CzMja5OpX/qT5qllTxp7iu2fKv434XyHywMG7xwdzv5Bb6TTRON/TA8Wjd9Ug==";
         };
+        _zY8h88pZ = {
+            "id" = "zY8h88pZ";
+            "file" = "YungsCaveBiomes-26.1.2-Fabric-4.1.1.jar";
+            "hash" = "sha512-NuQ0KQmFrWFNCzu3sgbZkJVi2cvXt0t1jzdarm85KJJKHH468RLbG40FGS5II8tKRbBIsFfgXzW9YvnJowtxyg==";
+        };
+        _oXLoOQEW = {
+            "id" = "oXLoOQEW";
+            "file" = "YungsCaveBiomes-26.1.2-NeoForge-4.1.1.jar";
+            "hash" = "sha512-tQbYoF+Ra1aQWC9RGmT/sm5BP4b6p7f8cYcp+NTjUSYklKhjfe5WnkWCGaRuUHv/ZEO5YyBHLLBTnNE1JKYbBQ==";
+        };
     in {
         "C92BaAVa" = _C92BaAVa;
         "xYL6rIC9" = _xYL6rIC9;
@@ -104,18 +114,20 @@ let
         "geZa9lJS" = _geZa9lJS;
         "UpUyVqHG" = _UpUyVqHG;
         "gSmDx0rS" = _gSmDx0rS;
+        "zY8h88pZ" = _zY8h88pZ;
+        "oXLoOQEW" = _oXLoOQEW;
         "fabric-1.18.2" = _C92BaAVa;
         "fabric-1.20.1" = _8h469FpE;
         "fabric-1.21" = _geZa9lJS;
         "fabric-1.21.1" = _geZa9lJS;
-        "fabric-26.1.1" = _UpUyVqHG;
-        "fabric-26.1.2" = _UpUyVqHG;
+        "fabric-26.1.1" = _zY8h88pZ;
+        "fabric-26.1.2" = _zY8h88pZ;
         "forge-1.18.2" = _xYL6rIC9;
         "forge-1.20.1" = _UzIwhtOp;
         "neoforge-1.21" = _HYGqXWqQ;
         "neoforge-1.21.1" = _HYGqXWqQ;
-        "neoforge-26.1.1" = _gSmDx0rS;
-        "neoforge-26.1.2" = _gSmDx0rS;
+        "neoforge-26.1.1" = _oXLoOQEW;
+        "neoforge-26.1.2" = _oXLoOQEW;
         "pkg-1.18.2-Fabric-1.1.1" = _C92BaAVa;
         "pkg-1.18.2-Forge-1.1.1" = _xYL6rIC9;
         "pkg-1.20.1-Forge-2.0.0" = _JwGnJK3a;
@@ -133,7 +145,9 @@ let
         "pkg-1.21.1-Fabric-3.1.1" = _geZa9lJS;
         "pkg-26.1.2-Fabric-4.1.0" = _UpUyVqHG;
         "pkg-26.1.2-NeoForge-4.1.0" = _gSmDx0rS;
-        "default" = _gSmDx0rS;
+        "pkg-26.1.2-Fabric-4.1.1" = _zY8h88pZ;
+        "pkg-26.1.2-NeoForge-4.1.1" = _oXLoOQEW;
+        "default" = _oXLoOQEW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yungs-cave-biomes";

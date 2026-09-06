@@ -26,20 +26,41 @@ let
             "file" = "legendarysurvivaloverhaul-1.20.1-2.4.6.jar";
             "hash" = "sha512-YXyjdyJUW3bKignb4HlFDkEssWpnioZdMxXegcRHwnCx2oaGEXtoS0eBpc4PzxtHtmZvcKH09KOFthsHe6JVEg==";
         };
+        _dn1Us38I = {
+            "id" = "dn1Us38I";
+            "file" = "legendarysurvivaloverhaul-1.21.1-2.4.6.2.jar";
+            "hash" = "sha512-kmu/mfTAler/0SkQc7cAr716n9MiWl1dnNkRXOL/QLljQOYCYSDDAUI47AvqLdOAcyB6+haAWy1oxEh2OXG6WQ==";
+        };
+        _AZzEduN3 = {
+            "id" = "AZzEduN3";
+            "file" = "legendarysurvivaloverhaul-1.21.1-2.4.7.2.jar";
+            "hash" = "sha512-lTpyiHDaocHTP7nbNtI4bpgSK8kkIWHvm/vXJOAWacI2yfe07qmSIs3MBw0Ulz5E+/lAsosUlyMaL+0Y7NHzqA==";
+        };
+        _BsBOQNzX = {
+            "id" = "BsBOQNzX";
+            "file" = "legendarysurvivaloverhaul-1.20.1-2.4.7.jar";
+            "hash" = "sha512-Nye0JU+GECks8vh40OMoSzTAjTseIssS2D+Y+o4Z06uW0Zi/dXb7zev0KbrmvUyMZQ/Wkk/SsEayeOFtMylnAw==";
+        };
     in {
         "AgUpT99l" = _AgUpT99l;
         "mHCOhIeG" = _mHCOhIeG;
         "qVabfOA6" = _qVabfOA6;
         "34R4Mjuh" = _34R4Mjuh;
         "NIlrLKsr" = _NIlrLKsr;
-        "neoforge-1.21.1" = _34R4Mjuh;
-        "forge-1.20.1" = _NIlrLKsr;
+        "dn1Us38I" = _dn1Us38I;
+        "AZzEduN3" = _AZzEduN3;
+        "BsBOQNzX" = _BsBOQNzX;
+        "neoforge-1.21.1" = _AZzEduN3;
+        "forge-1.20.1" = _BsBOQNzX;
         "pkg-1.21.1-2.4.2" = _AgUpT99l;
         "pkg-1.20.1-2.4.2" = _mHCOhIeG;
         "pkg-1.21.1-2.4.5" = _qVabfOA6;
         "pkg-1.21.1-2.4.6.1" = _34R4Mjuh;
         "pkg-1.20.1-2.4.6" = _NIlrLKsr;
-        "default" = _NIlrLKsr;
+        "pkg-1.21.1-2.4.6.2" = _dn1Us38I;
+        "pkg-1.21.1-2.4.7.2" = _AZzEduN3;
+        "pkg-1.20.1-2.4.7" = _BsBOQNzX;
+        "default" = _BsBOQNzX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legendary-survival-overhaul";

@@ -66,6 +66,11 @@ let
             "file" = "§6§lVanilla Experience+§0.zip";
             "hash" = "sha512-iLhbqPhfFC5pYUBtkBWUh9KckLzXT/OAsvCuRC5mrRZ5A1HpuRZuvDd2eQzCINIkxOh7hJQQhnjXIMzVGa0Zmw==";
         };
+        _BwL49Vq8 = {
+            "id" = "BwL49Vq8";
+            "file" = "§6§lVanilla Experience+§0.zip";
+            "hash" = "sha512-JhRhU8jEYH5f5B1/dF1PvnOJmO0KEr5EDpdQazRK/nHFh/339gw8YYWvfQP+UXf9wOH99QEuXzqPB/h7+rf4TQ==";
+        };
     in {
         "3FE4LoON" = _3FE4LoON;
         "coAztNdq" = _coAztNdq;
@@ -80,6 +85,7 @@ let
         "OaFUK1Lx" = _OaFUK1Lx;
         "odO0HO9c" = _odO0HO9c;
         "6eUNEtr8" = _6eUNEtr8;
+        "BwL49Vq8" = _BwL49Vq8;
         "minecraft-1.18.2" = _uqvN2ZAf;
         "minecraft-1.19" = _uqvN2ZAf;
         "minecraft-1.19.1" = _uqvN2ZAf;
@@ -115,21 +121,21 @@ let
         "minecraft-26.2-snapshot-6" = _zMjbH1F0;
         "minecraft-26.2-snapshot-7" = _zMjbH1F0;
         "minecraft-26.2-snapshot-8" = _zMjbH1F0;
-        "minecraft-26.2-pre-1" = _zMjbH1F0;
-        "minecraft-26.2-pre-2" = _zMjbH1F0;
-        "minecraft-26.2-pre-3" = _zMjbH1F0;
-        "minecraft-26.2-pre-4" = _zMjbH1F0;
-        "minecraft-26.2-pre-5" = _zMjbH1F0;
-        "minecraft-26.2-pre-6" = _zMjbH1F0;
         "minecraft-26.2" = _OaFUK1Lx;
         "minecraft-26.3-snapshot-1" = _6eUNEtr8;
         "minecraft-26.3-snapshot-2" = _6eUNEtr8;
+        "minecraft-26.3-snapshot-7" = _BwL49Vq8;
+        "minecraft-26.3-snapshot-8" = _BwL49Vq8;
+        "minecraft-26.3-snapshot-9" = _BwL49Vq8;
+        "minecraft-26.3-snapshot-10" = _BwL49Vq8;
+        "minecraft-26.3-pre-1" = _BwL49Vq8;
         "pkg-v1.4" = _b4OgWP2j;
         "pkg-v1.5-beta" = _zMjbH1F0;
         "pkg-v1.5" = _OaFUK1Lx;
         "pkg-v1.6-beta1" = _odO0HO9c;
         "pkg-v1.6-beta2" = _6eUNEtr8;
-        "default" = _6eUNEtr8;
+        "pkg-v1.6-beta3" = _BwL49Vq8;
+        "default" = _BwL49Vq8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-exp";

@@ -20,13 +20,13 @@ let
         type = "resourcepack";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "CC-BY-4.0" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-MTR-Resource-Pack-TOU" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "Creative Commons Attribution 4.0 International";
-                shortName = "CC-BY-4.0";
-                url = null;
+                fullName = "LicenseRef-MTR-Resource-Pack-TOU";
+                shortName = "LicenseRef-MTR-Resource-Pack-TOU";
+                url = "https://docs.google.com/document/d/1Y5oUz_Q7YD6XAhgbKEs4D3XFZIP-QJcuo1u2GhuX0Yk/edit?pli=1&tab=t.0";
             };
         };
     };

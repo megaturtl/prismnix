@@ -66,6 +66,11 @@ let
             "file" = "expall-neoforge-1.0.8.jar";
             "hash" = "sha512-ab0l4hPtuPyivJ3wnHjkrZpA15CUYJB8eEV/ozzjYfBhTnB0fA5rKyiwHnExhSeuE08lZGd47PE3jXv1lAivZg==";
         };
+        _UiDo37ak = {
+            "id" = "UiDo37ak";
+            "file" = "expall-1.0.9.jar";
+            "hash" = "sha512-PgB31ScO7tFFRsDvbDl1Oc/WkDPwpT4Dhnda+qXaX9xE4S6xJUbkVl04+oIScvq7buKHFTP9kmJNUZOXlrBz5Q==";
+        };
     in {
         "5HFqweSj" = _5HFqweSj;
         "rvVTubkt" = _rvVTubkt;
@@ -80,7 +85,8 @@ let
         "BCtJk48g" = _BCtJk48g;
         "cmRE0O6A" = _cmRE0O6A;
         "jbm4xpVw" = _jbm4xpVw;
-        "fabric-1.21.1" = _cmRE0O6A;
+        "UiDo37ak" = _UiDo37ak;
+        "fabric-1.21.1" = _UiDo37ak;
         "neoforge-1.21.1" = _jbm4xpVw;
         "pkg-1.0.0" = _5HFqweSj;
         "pkg-1.0.1" = _rvVTubkt;
@@ -92,7 +98,8 @@ let
         "pkg-1.0.6-hotfix" = _WPVRnx0V;
         "pkg-1.0.7" = _BCtJk48g;
         "pkg-1.0.8" = _jbm4xpVw;
-        "default" = _jbm4xpVw;
+        "pkg-1.0.9" = _UiDo37ak;
+        "default" = _UiDo37ak;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "exp-all";

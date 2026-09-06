@@ -181,6 +181,56 @@ let
             "file" = "nycto-26.2-b3.jar";
             "hash" = "sha512-3Fif1ykKd7CBznHbXU8Vru3+aEyxHLD5mTEgz5Adw7KHYfbTUSyYQUcTqeqfr6WJcS6ui0G8Pegy6mt8Ca3QBA==";
         };
+        _HATODmyo = {
+            "id" = "HATODmyo";
+            "file" = "nycto-fabric-26.1-b14.jar";
+            "hash" = "sha512-lnethIH2A4AVbtwI25yY6IapXcwnWPhlM6hhAUF6qrLDED71LxjN41gCzq8sV7wGfJwRbv7pNRL5BaXDdR2fzw==";
+        };
+        _fqOTfTl4 = {
+            "id" = "fqOTfTl4";
+            "file" = "nycto-neoforge-26.1-b14.jar";
+            "hash" = "sha512-WHCN2LJVH+2W2OS38wMDjllhbbztr6b7C8J6Cby5L+R2DPL3+XftiqkORpjrSJKFnTqysR6lYejLaGI7/8+B9g==";
+        };
+        _bbjTzom0 = {
+            "id" = "bbjTzom0";
+            "file" = "nycto-fabric-26.2-b4.jar";
+            "hash" = "sha512-7o289qzddVVVNEwvXw3ztgLz+jfWlRhi+dr80wgmThWXXF3L2pmbI7yjZlMGTtqVEZtKCWS8XR4t5L4+mYYyeQ==";
+        };
+        _Kp0YBDus = {
+            "id" = "Kp0YBDus";
+            "file" = "nycto-fabric-26.2-b5.jar";
+            "hash" = "sha512-3BDxVKlz4CtdFHmBd6fBWKv/6xPdeEJn1OsschBuN/PgVkCs/EdFuScKb2v9cJgT3kuCPL1vfE2/XBWJoA+Z0w==";
+        };
+        _Cr12PZBS = {
+            "id" = "Cr12PZBS";
+            "file" = "nycto-fabric-26.1-b15.jar";
+            "hash" = "sha512-Yszsft19oBcXUOmPEOr6/UsSgGMtA37Q7DVmEnVjJpeeoSPkf1hd/bVnfXy8tGi6RibP23d9y/ahqzx+1mJJhA==";
+        };
+        _uaxfIJoa = {
+            "id" = "uaxfIJoa";
+            "file" = "nycto-neoforge-26.1-b15.jar";
+            "hash" = "sha512-CUbAjDW22uhnDRJcfjIGDWZv5nuztGAUmn/Y0cE8a808IQ+9VjQOdBDZKzVnFwrvRjMrxkS+H7/Iueb8ue15rw==";
+        };
+        _xQczq6pi = {
+            "id" = "xQczq6pi";
+            "file" = "nycto-fabric-26.2-b6.jar";
+            "hash" = "sha512-GP19LYuQIvXjl7nGYmkD7bcOz9oWf355dy29rmU0h7IqhiMLBkhGL9qzwvVCopYpLB1kRukzKtfqeCVKB27Fmw==";
+        };
+        _nXi0CzMz = {
+            "id" = "nXi0CzMz";
+            "file" = "nycto-fabric-26.1-b16.jar";
+            "hash" = "sha512-qOhgOjt5DxrvRyn76nQNy0zZq3riG1NiRB6jGmQ9K6anNHCR1N2GY1eQ8pOTikZp570PhIwvVk/lm40f6R0U2w==";
+        };
+        _W1iYqNQP = {
+            "id" = "W1iYqNQP";
+            "file" = "nycto-neoforge-26.1-b16.jar";
+            "hash" = "sha512-oxq9uAfXYeTa3XTQpnhI8ckhx82ZEv3Y9ict1GNN/7iHoAyzu2uTSaUu20wz5Ug9pKkNTuoPx++5XolJt/T2oA==";
+        };
+        _dqyitjju = {
+            "id" = "dqyitjju";
+            "file" = "nycto-fabric-26.2-b7.jar";
+            "hash" = "sha512-1pJr5hM0RiaVwT0HVA+dzfkpirf3K0QMtgaeKDnN2hE5cK6mcRMo+qvbVR+0iI47e0DOBIaOWzofm9Jd4C3ZWQ==";
+        };
     in {
         "76xoDcLL" = _76xoDcLL;
         "Z3r1bf9m" = _Z3r1bf9m;
@@ -218,14 +268,24 @@ let
         "uWyKqgQL" = _uWyKqgQL;
         "1FRS4ECf" = _1FRS4ECf;
         "PHG4VlSR" = _PHG4VlSR;
+        "HATODmyo" = _HATODmyo;
+        "fqOTfTl4" = _fqOTfTl4;
+        "bbjTzom0" = _bbjTzom0;
+        "Kp0YBDus" = _Kp0YBDus;
+        "Cr12PZBS" = _Cr12PZBS;
+        "uaxfIJoa" = _uaxfIJoa;
+        "xQczq6pi" = _xQczq6pi;
+        "nXi0CzMz" = _nXi0CzMz;
+        "W1iYqNQP" = _W1iYqNQP;
+        "dqyitjju" = _dqyitjju;
         "fabric-1.21.8" = _j6k1kLcP;
         "fabric-1.21.9" = _zoJH6Od1;
         "fabric-1.21.10" = _bk4exkd6;
         "fabric-1.21.11" = _ejwBt1f7;
-        "fabric-26.1" = _1FRS4ECf;
-        "fabric-26.1.1" = _1FRS4ECf;
-        "fabric-26.1.2" = _1FRS4ECf;
-        "fabric-26.2" = _PHG4VlSR;
+        "fabric-26.1" = _nXi0CzMz;
+        "fabric-26.1.1" = _nXi0CzMz;
+        "fabric-26.1.2" = _nXi0CzMz;
+        "fabric-26.2" = _dqyitjju;
         "quilt-1.21.8" = _j6k1kLcP;
         "quilt-1.21.9" = _zoJH6Od1;
         "quilt-1.21.10" = _bk4exkd6;
@@ -234,6 +294,9 @@ let
         "quilt-26.1.1" = _1FRS4ECf;
         "quilt-26.1.2" = _1FRS4ECf;
         "quilt-26.2" = _PHG4VlSR;
+        "neoforge-26.1" = _W1iYqNQP;
+        "neoforge-26.1.1" = _W1iYqNQP;
+        "neoforge-26.1.2" = _W1iYqNQP;
         "pkg-1.21.8-b1" = _76xoDcLL;
         "pkg-1.21.8-b2" = _Z3r1bf9m;
         "pkg-1.21.8-b3" = _GnTSB875;
@@ -270,7 +333,14 @@ let
         "pkg-26.2-b2" = _uWyKqgQL;
         "pkg-26.1-b13" = _1FRS4ECf;
         "pkg-26.2-b3" = _PHG4VlSR;
-        "default" = _PHG4VlSR;
+        "pkg-26.1-b14" = _fqOTfTl4;
+        "pkg-26.2-b4" = _bbjTzom0;
+        "pkg-26.2-b5" = _Kp0YBDus;
+        "pkg-26.1-b15" = _uaxfIJoa;
+        "pkg-26.2-b6" = _xQczq6pi;
+        "pkg-26.1-b16" = _W1iYqNQP;
+        "pkg-26.2-b7" = _dqyitjju;
+        "default" = _dqyitjju;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nycto";

@@ -91,6 +91,11 @@ let
             "file" = "createtreadmill-1.16.jar";
             "hash" = "sha512-VCF28YLD3DvKQrVW3+ZkljeABYDTUJdOmxw6c+fs7JWhvqCOeUykHjQhpn7SUwing/ZhzVRCUdyOMluvjXJbbQ==";
         };
+        _vs8Iqp0G = {
+            "id" = "vs8Iqp0G";
+            "file" = "createtreadmill-1.17.jar";
+            "hash" = "sha512-D0x8yaJdjC6Iligbf0NJpolzJOIK7BkylMKh/dFoo2IQs5DCDu7KRD+2Th9HV/w0AiK+6bUkqAqKUQdboNkt6A==";
+        };
     in {
         "jZULUPGr" = _jZULUPGr;
         "XDBdjIbL" = _XDBdjIbL;
@@ -110,7 +115,8 @@ let
         "zJ4AvqEu" = _zJ4AvqEu;
         "fspGjICh" = _fspGjICh;
         "fpJlOSn6" = _fpJlOSn6;
-        "neoforge-1.21.1" = _fpJlOSn6;
+        "vs8Iqp0G" = _vs8Iqp0G;
+        "neoforge-1.21.1" = _vs8Iqp0G;
         "forge-1.20.1" = _8HTs4Gs6;
         "pkg-1.0" = _jZULUPGr;
         "pkg-1.1" = _XDBdjIbL;
@@ -129,7 +135,8 @@ let
         "pkg-1.13" = _zJ4AvqEu;
         "pkg-1.15" = _fspGjICh;
         "pkg-1.16" = _fpJlOSn6;
-        "default" = _fpJlOSn6;
+        "pkg-1.17" = _vs8Iqp0G;
+        "default" = _vs8Iqp0G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "createtreadmill";

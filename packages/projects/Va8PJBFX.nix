@@ -236,6 +236,16 @@ let
             "file" = "renderscale-1.4.0-alpha.4-fabric+26.2.jar";
             "hash" = "sha512-226vpVXJdhRP7DRdQKWBEZu8TxBdW70YBdoaJ5vebZVfAkCKWrD+1wK53z8bSuJ4WD7SFxR9tbE5nqsuplfyiA==";
         };
+        _O20pSCYu = {
+            "id" = "O20pSCYu";
+            "file" = "renderscale-1.4.0-alpha.5-fabric+1.21.1.jar";
+            "hash" = "sha512-Hrfge6OYrxWr6+BOh/BundZAc7pciZKyobSsZJ12EItOQTUUTwJoicN2BNFUW7kdB99q7PwLHVZk2i467AwGEQ==";
+        };
+        _TbNBGRW9 = {
+            "id" = "TbNBGRW9";
+            "file" = "renderscale-1.4.0-alpha.5-neoforge+1.21.1.jar";
+            "hash" = "sha512-WhG7cSDwLgZec65HGt3YmyD0+/KUoRmfibNfM6vGiejDItVc1cPsjS3uBxsk1864kUHnH9RZ25nVavVjgj9E5g==";
+        };
     in {
         "7ljaYSV1" = _7ljaYSV1;
         "PXdpgdd9" = _PXdpgdd9;
@@ -284,9 +294,11 @@ let
         "ZPJEoAwy" = _ZPJEoAwy;
         "chLvB6d5" = _chLvB6d5;
         "EJ7KZw6k" = _EJ7KZw6k;
+        "O20pSCYu" = _O20pSCYu;
+        "TbNBGRW9" = _TbNBGRW9;
         "fabric-1.21.4" = _9Ka6PhI5;
-        "fabric-1.21" = _ZWmqE30v;
-        "fabric-1.21.1" = _ZWmqE30v;
+        "fabric-1.21" = _O20pSCYu;
+        "fabric-1.21.1" = _O20pSCYu;
         "fabric-1.21.5" = _pjFOUjkm;
         "fabric-1.21.6" = _cVrroItE;
         "fabric-1.21.7" = _cVrroItE;
@@ -300,8 +312,8 @@ let
         "fabric-1.20.1" = _u7FyypwR;
         "fabric-26.2" = _EJ7KZw6k;
         "neoforge-1.21.4" = _yvpdyyJg;
-        "neoforge-1.21" = _7OH5N3Tc;
-        "neoforge-1.21.1" = _Y7rNAruy;
+        "neoforge-1.21" = _TbNBGRW9;
+        "neoforge-1.21.1" = _TbNBGRW9;
         "neoforge-1.21.5" = _PCW6kdIa;
         "neoforge-1.21.11" = _AUEKmIJ9;
         "neoforge-26.1" = _ZPJEoAwy;
@@ -341,7 +353,9 @@ let
         "pkg-1.4.0-alpha.4-neoforge+26.1" = _ZPJEoAwy;
         "pkg-1.4.0-alpha.4-neoforge+26.2" = _chLvB6d5;
         "pkg-1.4.0-alpha.4-fabric+26.2" = _EJ7KZw6k;
-        "default" = _EJ7KZw6k;
+        "pkg-1.4.0-alpha.5-fabric+1.21.1" = _O20pSCYu;
+        "pkg-1.4.0-alpha.5-neoforge+1.21.1" = _TbNBGRW9;
+        "default" = _TbNBGRW9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "renderscale";

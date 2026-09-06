@@ -196,6 +196,26 @@ let
             "file" = "l2weaponry-3.1.2.jar";
             "hash" = "sha512-3NQ9u0PtCdCmUXa/2MYl5cYim1oIGnjijBHP+at5BIfuRhAoiDiIBwuz3UJVX4hl9F++pimWrgZBCZPbB7k2oA==";
         };
+        _ZFLamJi7 = {
+            "id" = "ZFLamJi7";
+            "file" = "l2weaponry-3.1.3.jar";
+            "hash" = "sha512-knp9c9iZOEio/OkqMeivBhWULdKDi8HE1QwMWpQyFb0Zd/ljHYVDSKTSRVhlHxmg/zsnDkieoiIu707b2t28fQ==";
+        };
+        _SxvXBKBF = {
+            "id" = "SxvXBKBF";
+            "file" = "l2weaponry-3.1.4.jar";
+            "hash" = "sha512-9UxeC1DU5qJwOqmeFtYknp1p8nDrPIaGokH+07O3Qh1Qbwn1gcfMWLTzyUXQ6BqTltXQJvthwoYwrTfr6KyKzg==";
+        };
+        _yHxfnc9Z = {
+            "id" = "yHxfnc9Z";
+            "file" = "l2weaponry-2.6.2.jar";
+            "hash" = "sha512-FMJh4c6xxRTScPFxzXj9O29Vce20IfSlT8NDNJ4AvAy6FNBlAvpHuPMrmOK6o1jeNLyBsNvKKhiPVq3EtJ9zjw==";
+        };
+        _lEskBqzd = {
+            "id" = "lEskBqzd";
+            "file" = "l2weaponry-2.6.3.jar";
+            "hash" = "sha512-rRaaPpvIX6k9C1HWc47nPTDLtwxnz2mVbJbTVMM3bXQnk6z01KXwEIqvVLjub8SKPFEtbJ4mgbWZsv8oGEA3wQ==";
+        };
     in {
         "MsmzYbr4" = _MsmzYbr4;
         "CSSGr95D" = _CSSGr95D;
@@ -236,11 +256,15 @@ let
         "5eYv9BUW" = _5eYv9BUW;
         "rh7XMvJI" = _rh7XMvJI;
         "rLqW0GNv" = _rLqW0GNv;
+        "ZFLamJi7" = _ZFLamJi7;
+        "SxvXBKBF" = _SxvXBKBF;
+        "yHxfnc9Z" = _yHxfnc9Z;
+        "lEskBqzd" = _lEskBqzd;
         "forge-1.20" = _MsmzYbr4;
-        "forge-1.20.1" = _rh7XMvJI;
-        "neoforge-1.20.1" = _rh7XMvJI;
+        "forge-1.20.1" = _lEskBqzd;
+        "neoforge-1.20.1" = _lEskBqzd;
         "neoforge-1.21" = _j9LAEIOe;
-        "neoforge-1.21.1" = _rLqW0GNv;
+        "neoforge-1.21.1" = _SxvXBKBF;
         "pkg-2.4.15" = _MsmzYbr4;
         "pkg-2.4.30" = _CSSGr95D;
         "pkg-2.4.32" = _iRPTEbfF;
@@ -279,7 +303,11 @@ let
         "pkg-3.1.1" = _5eYv9BUW;
         "pkg-2.6.1" = _rh7XMvJI;
         "pkg-3.1.2" = _rLqW0GNv;
-        "default" = _rLqW0GNv;
+        "pkg-3.1.3" = _ZFLamJi7;
+        "pkg-3.1.4" = _SxvXBKBF;
+        "pkg-2.6.2" = _yHxfnc9Z;
+        "pkg-2.6.3" = _lEskBqzd;
+        "default" = _lEskBqzd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "l2weaponry";

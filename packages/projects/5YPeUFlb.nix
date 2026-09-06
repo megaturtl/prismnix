@@ -36,6 +36,11 @@ let
             "file" = "hbm_m-0.2.0-alpha+1.20.1-forge.jar";
             "hash" = "sha512-3B5aOcCxp2A6kylZZjPXUdmZ+32tGsUZfd+POrtOT+r6QtDLfwzTOpn93LaraGRU416xWBtCLW+OcaeVSTmBuw==";
         };
+        _rEJAJjEN = {
+            "id" = "rEJAJjEN";
+            "file" = "hbm_m-0.2.1-alpha+1.20.1-forge.jar";
+            "hash" = "sha512-RpCQQR6MV+4InHx7ipzrK3oFiU53IU9BLCDb1uoN63bB9RUkFFjHd1H8lf+esSRbOvlMGTI/o4XkUOUs8Q2foA==";
+        };
     in {
         "Jc6WLbE7" = _Jc6WLbE7;
         "ka4Mbobg" = _ka4Mbobg;
@@ -44,7 +49,8 @@ let
         "PYUJq7DU" = _PYUJq7DU;
         "g49wMrv5" = _g49wMrv5;
         "JzcI9XGV" = _JzcI9XGV;
-        "forge-1.20.1" = _JzcI9XGV;
+        "rEJAJjEN" = _rEJAJjEN;
+        "forge-1.20.1" = _rEJAJjEN;
         "pkg-0.0.4-alpha" = _Jc6WLbE7;
         "pkg-0.0.5-alpha" = _ka4Mbobg;
         "pkg-0.0.6-alpha" = _r5ZDJJtj;
@@ -52,7 +58,8 @@ let
         "pkg-0.1.1-alpha" = _PYUJq7DU;
         "pkg-0.1.2-alpha" = _g49wMrv5;
         "pkg-0.2.0-alpha" = _JzcI9XGV;
-        "default" = _JzcI9XGV;
+        "pkg-0.2.1-alpha" = _rEJAJjEN;
+        "default" = _rEJAJjEN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hbms-nuclear-tech-modernized";

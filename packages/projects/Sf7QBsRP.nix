@@ -716,6 +716,26 @@ let
             "file" = "peripheralworks-forge-1.20.1-1.8.0.jar";
             "hash" = "sha512-syn7NXkXTp/tPpgVdgrgIxAOTqZOmudgOo5cKaLkT3wy+eZ27S21Iy6qMGLNSrKwZr/CeEu8VZrlMgtPDhfmZQ==";
         };
+        _yXWehKhr = {
+            "id" = "yXWehKhr";
+            "file" = "peripheralworks-forge-1.21.1-1.8.0.jar";
+            "hash" = "sha512-QgHdwvoMXx0lUr8E3b8jwCO/1EGMdK7HRHCOr93nUVLPsnD8KcSyYik+GEYjeX/ZFzV+FpewkiY6q/bby+jKOg==";
+        };
+        _iXbCkw7t = {
+            "id" = "iXbCkw7t";
+            "file" = "peripheralworks-fabric-1.21.1-1.8.0.jar";
+            "hash" = "sha512-TkjWFaCSGPj9CxOxJpRRMCl/D46/un7UgRlpyBLY/slltyfxJS2gNhgVCqLFqY04zHR33X1/1j5o1r1LDa63Zw==";
+        };
+        _J4GCHvDj = {
+            "id" = "J4GCHvDj";
+            "file" = "peripheralworks-forge-1.21.1-1.8.1.jar";
+            "hash" = "sha512-JLWZ4gFLWqJHt2MqGOB/6RgheLtzuxCSqJGHsXu0gSIo0YZ2E5LJzIwqhk4VBp6i1CVXgqbvgn/pWtJLCdJvNw==";
+        };
+        _vPGRjprl = {
+            "id" = "vPGRjprl";
+            "file" = "peripheralworks-fabric-1.21.1-1.8.1.jar";
+            "hash" = "sha512-SdZn0hYEnP/5Wf4XtNr0Mjtkow86gVN+SQ6E9PBd8P+mSpMhF5sp+5rBP+TsDtvNgFvMvfOl2m7it27lgDdVLA==";
+        };
     in {
         "wAXpKQ13" = _wAXpKQ13;
         "sSg8Ic3c" = _sSg8Ic3c;
@@ -860,14 +880,20 @@ let
         "LTcKTimz" = _LTcKTimz;
         "rSFIILQp" = _rSFIILQp;
         "JjFV8KUM" = _JjFV8KUM;
+        "yXWehKhr" = _yXWehKhr;
+        "iXbCkw7t" = _iXbCkw7t;
+        "J4GCHvDj" = _J4GCHvDj;
+        "vPGRjprl" = _vPGRjprl;
         "fabric-1.18.2" = _EpugKdyM;
         "fabric-1.19.2" = _SNNZeec7;
         "fabric-1.19.4" = _9nruKEhO;
         "fabric-1.20" = _qGpQti08;
         "fabric-1.20.1" = _rSFIILQp;
+        "fabric-1.21.1" = _vPGRjprl;
         "forge-1.19.4" = _iJRGwuN9;
         "forge-1.20" = _MTY8Qp9f;
         "forge-1.20.1" = _JjFV8KUM;
+        "neoforge-1.21.1" = _J4GCHvDj;
         "pkg-0.1.2" = _wAXpKQ13;
         "pkg-1.18.2-0.2.3" = _sSg8Ic3c;
         "pkg-1.19.2-0.2.3" = _2K3PyN9J;
@@ -949,7 +975,9 @@ let
         "pkg-1.20.1-1.7.15" = _jCbyYQjK;
         "pkg-1.20.1-1.7.17" = _LTcKTimz;
         "pkg-1.20.1-1.8.0" = _JjFV8KUM;
-        "default" = _JjFV8KUM;
+        "pkg-1.21.1-1.8.0" = _iXbCkw7t;
+        "pkg-1.21.1-1.8.1" = _vPGRjprl;
+        "default" = _vPGRjprl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unlimitedperipheralworks";

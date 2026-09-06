@@ -61,6 +61,11 @@ let
             "file" = "Mellow-1.8.9-forge-6.0.0.jar";
             "hash" = "sha512-GUJ/rcN/WNF6Fd9PjE/1gDfY2ZEGo5I9HIB4XqL0dPipXt72kXs5WZFizyAdooaGYNKT/P4O4nZNFpaX0mGhPQ==";
         };
+        _S4JSDkGT = {
+            "id" = "S4JSDkGT";
+            "file" = "Mellow-1.8.9-forge-6.1.0.jar";
+            "hash" = "sha512-4KFoim9vRUqjvrH6f/r04y9MnqwMe+p48dYzgDCB2EWB2YlK4VgwYobX8ANumLETk1sw6F6+vqAQycujIIp/kw==";
+        };
     in {
         "sTpsNuaX" = _sTpsNuaX;
         "MUJkHNPV" = _MUJkHNPV;
@@ -74,7 +79,8 @@ let
         "UFdyrb4j" = _UFdyrb4j;
         "NcFx0dms" = _NcFx0dms;
         "ERjlZRw1" = _ERjlZRw1;
-        "forge-1.8.9" = _ERjlZRw1;
+        "S4JSDkGT" = _S4JSDkGT;
+        "forge-1.8.9" = _S4JSDkGT;
         "pkg-4.0.0" = _sTpsNuaX;
         "pkg-4.1.0" = _MUJkHNPV;
         "pkg-4.1.1" = _k8Exmw64;
@@ -87,7 +93,8 @@ let
         "pkg-5.1.0" = _UFdyrb4j;
         "pkg-5.2.1" = _NcFx0dms;
         "pkg-6.0.0" = _ERjlZRw1;
-        "default" = _ERjlZRw1;
+        "pkg-6.1.0" = _S4JSDkGT;
+        "default" = _S4JSDkGT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "statsify";

@@ -201,6 +201,11 @@ let
             "file" = "fallingleaves-3.1.0.jar";
             "hash" = "sha512-7qOTYw1fWWBJ4rUaz15tEo2SaTMgNBS73nAl0sioDeA9hCSI+4b4Rvu428vzJWQdGvJm245gUZ4Esvk3AUYwUA==";
         };
+        _W9bCbzje = {
+            "id" = "W9bCbzje";
+            "file" = "fallingleaves-26.1.2-3.1.0-beta.jar";
+            "hash" = "sha512-e8+oNCPTdehPteVyj2HBoSd7EF9ef4C1SaVuOC/UFdPFyo/uaFPolP+8az127/D7RAR6kXYIj6Bc6tIuuottIw==";
+        };
     in {
         "JgAIxUhy" = _JgAIxUhy;
         "3iNcBn5v" = _3iNcBn5v;
@@ -242,6 +247,7 @@ let
         "j5eND1ZA" = _j5eND1ZA;
         "34TltlXW" = _34TltlXW;
         "rhZJ4qGC" = _rhZJ4qGC;
+        "W9bCbzje" = _W9bCbzje;
         "forge-1.16.3" = _JgAIxUhy;
         "forge-1.16.4" = _JgAIxUhy;
         "forge-1.16.5" = _JgAIxUhy;
@@ -269,6 +275,7 @@ let
         "neoforge-1.21.5" = _34TltlXW;
         "neoforge-1.21.6" = _34TltlXW;
         "neoforge-1.21.8" = _rhZJ4qGC;
+        "neoforge-26.1.2" = _W9bCbzje;
         "pkg-1.16.3-1.2.2" = _JgAIxUhy;
         "pkg-1.17.1-1.2.4" = _3iNcBn5v;
         "pkg-1.18.2-1.3.2" = _a8aXDowL;
@@ -305,7 +312,8 @@ let
         "pkg-1.20.1-2.1.2" = _j5eND1ZA;
         "pkg-1.21.5-3.0.0" = _34TltlXW;
         "pkg-1.21.8-3.1.0" = _rhZJ4qGC;
-        "default" = _rhZJ4qGC;
+        "pkg-26.1.2-3.1.0-beta" = _W9bCbzje;
+        "default" = _W9bCbzje;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fallingleavesforge";

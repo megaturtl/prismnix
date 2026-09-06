@@ -31,6 +31,11 @@ let
             "file" = "Fullbright by Finnvian.zip";
             "hash" = "sha512-q0PVoNoxqBhQIEYUo7WKPxMBz41rbv6vGw+X1iOhUg9wjKWyksEJlbrlQQnWH+Wzm2WmWl9r6LFQK0R8G1EWWg==";
         };
+        _BGzyAfF3 = {
+            "id" = "BGzyAfF3";
+            "file" = "Fullbright by Finnvian.zip";
+            "hash" = "sha512-Jq89V7VZZBy5QtPAV8U7iLdJJyUUJlAyw5utAHP86E9PHhe8e6SH8Xl6dV3zuAKVIYOBWhOvCB2DU9nNddxL0g==";
+        };
     in {
         "qn1XJUvc" = _qn1XJUvc;
         "r8EBp2yX" = _r8EBp2yX;
@@ -38,6 +43,7 @@ let
         "rbcjmiKc" = _rbcjmiKc;
         "D41SaQtw" = _D41SaQtw;
         "j9FbKUcx" = _j9FbKUcx;
+        "BGzyAfF3" = _BGzyAfF3;
         "minecraft-1.21" = _qn1XJUvc;
         "minecraft-1.21.1" = _qn1XJUvc;
         "minecraft-1.21.2" = _qn1XJUvc;
@@ -96,13 +102,21 @@ let
         "minecraft-26.2-rc-1" = _j9FbKUcx;
         "minecraft-26.2-rc-2" = _j9FbKUcx;
         "minecraft-26.2" = _j9FbKUcx;
+        "minecraft-26.3-snapshot-1" = _BGzyAfF3;
+        "minecraft-26.3-snapshot-2" = _BGzyAfF3;
+        "minecraft-26.3-snapshot-3" = _BGzyAfF3;
+        "minecraft-26.3-snapshot-4" = _BGzyAfF3;
+        "minecraft-26.3-snapshot-5" = _BGzyAfF3;
+        "minecraft-26.3-snapshot-6" = _BGzyAfF3;
+        "minecraft-26.3-snapshot-7" = _BGzyAfF3;
         "pkg-1.0" = _qn1XJUvc;
         "pkg-1.1" = _r8EBp2yX;
         "pkg-1.2" = _tUb3BAcX;
         "pkg-1.3" = _rbcjmiKc;
         "pkg-1.4" = _D41SaQtw;
         "pkg-1.5" = _j9FbKUcx;
-        "default" = _j9FbKUcx;
+        "pkg-1.5.1" = _BGzyAfF3;
+        "default" = _BGzyAfF3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fullbright-resource-pack";

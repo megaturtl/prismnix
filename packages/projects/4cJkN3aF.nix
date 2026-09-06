@@ -131,6 +131,11 @@ let
             "file" = "NaturesAura-41.9.jar";
             "hash" = "sha512-1GU1grHgx/PcYzvnSxQpXHfjc4/GCN39WCy5gNY+E6+SSe9J0Iq8ohvFod2qtK1V3GbPqmZ0fb9nIve5gk3/Sw==";
         };
+        _kJ1hHmK0 = {
+            "id" = "kJ1hHmK0";
+            "file" = "NaturesAura-41.10.jar";
+            "hash" = "sha512-KXEGUghAG4wTiXjlVqcIH06fl8l2GK+nfm1ufnQDJNcxvcNblJFPxTHk8nkRxCPVIGKHABeGHOuy3v87yA8OFQ==";
+        };
     in {
         "Ljnen24N" = _Ljnen24N;
         "E7Ahrfc7" = _E7Ahrfc7;
@@ -158,6 +163,7 @@ let
         "eWETEaUn" = _eWETEaUn;
         "lBBez7KD" = _lBBez7KD;
         "MOS9yScP" = _MOS9yScP;
+        "kJ1hHmK0" = _kJ1hHmK0;
         "forge-1.19.2" = _gHMllbMl;
         "forge-1.18.2" = _E7Ahrfc7;
         "forge-1.16.3" = _OccWRP7V;
@@ -166,7 +172,7 @@ let
         "forge-1.20.1" = _8UiPp0gC;
         "neoforge-1.20.1" = _8UiPp0gC;
         "neoforge-1.20.4" = _Hk0oGb69;
-        "neoforge-1.21.1" = _MOS9yScP;
+        "neoforge-1.21.1" = _kJ1hHmK0;
         "pkg-37.5" = _Ljnen24N;
         "pkg-36.3" = _E7Ahrfc7;
         "pkg-34.3" = _OccWRP7V;
@@ -193,7 +199,8 @@ let
         "pkg-41.7" = _eWETEaUn;
         "pkg-41.8" = _lBBez7KD;
         "pkg-41.9" = _MOS9yScP;
-        "default" = _MOS9yScP;
+        "pkg-41.10" = _kJ1hHmK0;
+        "default" = _kJ1hHmK0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "natures-aura";

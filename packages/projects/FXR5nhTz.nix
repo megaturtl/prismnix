@@ -71,6 +71,11 @@ let
             "file" = "autosort-0.1.13+26.1.2-paper.jar";
             "hash" = "sha512-j8tjGqbeG/Xzh5zT2peRweDm5+a0weKx//yydAM1g241B57M2R19ERtm6v6mPKax6wBZ13v5XdIfLQQVG69tkg==";
         };
+        _IseDH9km = {
+            "id" = "IseDH9km";
+            "file" = "autosort-0.1.14+26.2-paper.jar";
+            "hash" = "sha512-khqVwU/gSP4AKNRvIWl8qzgQ5p7F/tr4g0aABO7ubT3HfCKwuUIqiYIdoshxcDI1KgfNz53xNv5aVuFx6aLhAA==";
+        };
     in {
         "8WDumpyj" = _8WDumpyj;
         "RuZWoEKO" = _RuZWoEKO;
@@ -86,6 +91,7 @@ let
         "7Oz1PZmt" = _7Oz1PZmt;
         "LZxhu1uM" = _LZxhu1uM;
         "mD4K5yW9" = _mD4K5yW9;
+        "IseDH9km" = _IseDH9km;
         "paper-1.20" = _du78ug6P;
         "paper-1.20.1" = _du78ug6P;
         "paper-1.20.2" = _du78ug6P;
@@ -106,6 +112,7 @@ let
         "paper-1.21.10" = _LZxhu1uM;
         "paper-1.21.11" = _LZxhu1uM;
         "paper-26.1.2" = _mD4K5yW9;
+        "paper-26.2" = _IseDH9km;
         "pkg-0.1.0" = _8WDumpyj;
         "pkg-0.1.1" = _RuZWoEKO;
         "pkg-0.1.2" = _tYRiFlwo;
@@ -120,7 +127,8 @@ let
         "pkg-0.1.11" = _7Oz1PZmt;
         "pkg-0.1.12" = _LZxhu1uM;
         "pkg-0.1.13" = _mD4K5yW9;
-        "default" = _mD4K5yW9;
+        "pkg-0.1.14" = _IseDH9km;
+        "default" = _IseDH9km;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autosort";

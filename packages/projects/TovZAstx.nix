@@ -246,6 +246,11 @@ let
             "file" = "spiceoflifelatiao-neoforge-1.4.8.jar";
             "hash" = "sha512-Da/vR4VmZIGF5BzFTIxdNXgyZSD36DVE8Antb14Z7U6RAU2ChyzU+aQK8Ht092OmMF6eOeuFzSF+PvbGPyThnA==";
         };
+        _PumSLJNF = {
+            "id" = "PumSLJNF";
+            "file" = "spiceoflifelatiao-neoforge-1.4.9.jar";
+            "hash" = "sha512-wrpdsSfcBrzAklVbXvTMT5rLpzgQgm2qupk88hFNb94rjam302qvtMH3qI2/zQ+3v5L5BnaN1Nd84+gM84Vy0Q==";
+        };
     in {
         "HcW4j4BT" = _HcW4j4BT;
         "CVcQAWJe" = _CVcQAWJe;
@@ -296,7 +301,8 @@ let
         "bkWmy0kd" = _bkWmy0kd;
         "K5ArEJvi" = _K5ArEJvi;
         "nwCtxmou" = _nwCtxmou;
-        "neoforge-1.21.1" = _nwCtxmou;
+        "PumSLJNF" = _PumSLJNF;
+        "neoforge-1.21.1" = _PumSLJNF;
         "pkg-1.0.0" = _HcW4j4BT;
         "pkg-1.0.1" = _CVcQAWJe;
         "pkg-1.0.2" = _XS2n9miD;
@@ -346,7 +352,8 @@ let
         "pkg-1.4.6" = _bkWmy0kd;
         "pkg-1.4.7" = _K5ArEJvi;
         "pkg-1.4.8" = _nwCtxmou;
-        "default" = _nwCtxmou;
+        "pkg-1.4.9" = _PumSLJNF;
+        "default" = _PumSLJNF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spiceoflifelatiao";

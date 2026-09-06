@@ -111,6 +111,16 @@ let
             "file" = "expanded-mace-enchantings-1.10.jar";
             "hash" = "sha512-dhr07vStFxTrskcwsrS5+NsTR0sLWThkymCZheZniVw0j7KF/z4hV246L4EUAM34+MWvG3Z6guGsWVkKRP2TSQ==";
         };
+        _Y41VsRn9 = {
+            "id" = "Y41VsRn9";
+            "file" = "Expanded Mace Enchanting 26.2.zip";
+            "hash" = "sha512-UYz18jaV0IdC+hcanIMrm+A8bdsXN9RA7uoNzgvpniGZ/9pav1zWubeXA46tv13C2/TMB8w5nUB5iQSVyZ4+lg==";
+        };
+        _cnUZWk6N = {
+            "id" = "cnUZWk6N";
+            "file" = "expanded-mace-enchantings-1.11.jar";
+            "hash" = "sha512-RvyugiHVnx+k/3TTNq4v9UVY5HiFTWtI+AHVeYLT3kK81ZczyNZ5bLmX3xdEvSJ5cLj4TwLKflyaFnrCS//jmA==";
+        };
     in {
         "5VkQSscn" = _5VkQSscn;
         "P4UeotRW" = _P4UeotRW;
@@ -134,6 +144,8 @@ let
         "axPyV73j" = _axPyV73j;
         "c2vj7IaD" = _c2vj7IaD;
         "iJndWtjh" = _iJndWtjh;
+        "Y41VsRn9" = _Y41VsRn9;
+        "cnUZWk6N" = _cnUZWk6N;
         "datapack-1.21" = _5VkQSscn;
         "datapack-1.21.1" = _5VkQSscn;
         "datapack-1.21.2" = _YKpW0vXM;
@@ -149,6 +161,7 @@ let
         "datapack-26.1" = _c2vj7IaD;
         "datapack-26.1.1" = _c2vj7IaD;
         "datapack-26.1.2" = _c2vj7IaD;
+        "datapack-26.2" = _Y41VsRn9;
         "fabric-1.21" = _P4UeotRW;
         "fabric-1.21.1" = _P4UeotRW;
         "fabric-1.21.2" = _D9nDuy9H;
@@ -164,6 +177,7 @@ let
         "fabric-26.1" = _iJndWtjh;
         "fabric-26.1.1" = _iJndWtjh;
         "fabric-26.1.2" = _iJndWtjh;
+        "fabric-26.2" = _cnUZWk6N;
         "forge-1.21" = _P4UeotRW;
         "forge-1.21.1" = _P4UeotRW;
         "forge-1.21.2" = _D9nDuy9H;
@@ -179,6 +193,7 @@ let
         "forge-26.1" = _iJndWtjh;
         "forge-26.1.1" = _iJndWtjh;
         "forge-26.1.2" = _iJndWtjh;
+        "forge-26.2" = _cnUZWk6N;
         "neoforge-1.21" = _P4UeotRW;
         "neoforge-1.21.1" = _P4UeotRW;
         "neoforge-1.21.2" = _D9nDuy9H;
@@ -194,6 +209,7 @@ let
         "neoforge-26.1" = _iJndWtjh;
         "neoforge-26.1.1" = _iJndWtjh;
         "neoforge-26.1.2" = _iJndWtjh;
+        "neoforge-26.2" = _cnUZWk6N;
         "quilt-1.21" = _P4UeotRW;
         "quilt-1.21.1" = _P4UeotRW;
         "quilt-1.21.2" = _D9nDuy9H;
@@ -209,6 +225,7 @@ let
         "quilt-26.1" = _iJndWtjh;
         "quilt-26.1.1" = _iJndWtjh;
         "quilt-26.1.2" = _iJndWtjh;
+        "quilt-26.2" = _cnUZWk6N;
         "pkg-1.0" = _5VkQSscn;
         "pkg-1.0.1+mod" = _P4UeotRW;
         "pkg-1.1" = _YKpW0vXM;
@@ -231,7 +248,9 @@ let
         "pkg-1.9.1+mod" = _axPyV73j;
         "pkg-1.10" = _c2vj7IaD;
         "pkg-1.10.1+mod" = _iJndWtjh;
-        "default" = _iJndWtjh;
+        "pkg-1.11" = _Y41VsRn9;
+        "pkg-1.11.1+mod" = _cnUZWk6N;
+        "default" = _cnUZWk6N;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "expanded-mace-enchantings";

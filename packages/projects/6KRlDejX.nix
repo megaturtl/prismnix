@@ -61,6 +61,21 @@ let
             "file" = "defensive-measures-1.1.2-beta-26.2.jar";
             "hash" = "sha512-H7382+8QQcHrD6LpCBfeGIeOjYF7oHg1+76AWWHcbc9xYvguBd11n6Oxg9R41qCnh51XdpXwNYfUYL8+c0XFTw==";
         };
+        _QlE1WChu = {
+            "id" = "QlE1WChu";
+            "file" = "defensive-measures-1.1.3-beta-1.21.11.jar";
+            "hash" = "sha512-tDB4jgZ2VKjmA6zvbjhz/BSxF0D41NyTyN5hH+B0CUk+ogJS8sPcHnyT4ebzy6DhEea4B6o8hzV4JJGL14UvHw==";
+        };
+        _YqKuH6Hm = {
+            "id" = "YqKuH6Hm";
+            "file" = "defensive-measures-1.1.3-beta-26.1.2.jar";
+            "hash" = "sha512-URdXAz4G63Cftd7ZPrxbIzkq2HErrCT71fWq4GcWdagGDxmMWwAfa6PaAz5O7GpQt4J0riu6y7SBsKwYOWMGDw==";
+        };
+        _LuoWP7vP = {
+            "id" = "LuoWP7vP";
+            "file" = "defensive-measures-1.1.3-beta-26.2.jar";
+            "hash" = "sha512-85WM88aq3C1Zxmbu0WZgEXnfbx+nDhE7EOE+erZM5RpTlifBriLVkczfRonn7FjdOsKtgCfEHl/uT+qCkFu+0A==";
+        };
     in {
         "5QM4yyWZ" = _5QM4yyWZ;
         "ZeFpvMoy" = _ZeFpvMoy;
@@ -74,13 +89,16 @@ let
         "cHC6c0Vu" = _cHC6c0Vu;
         "GxdOBN5z" = _GxdOBN5z;
         "Vg45lyZ7" = _Vg45lyZ7;
+        "QlE1WChu" = _QlE1WChu;
+        "YqKuH6Hm" = _YqKuH6Hm;
+        "LuoWP7vP" = _LuoWP7vP;
         "fabric-1.19.2" = _m6DmuFai;
         "fabric-1.21.4" = _JUsJ8Tn1;
-        "fabric-1.21.11" = _cHC6c0Vu;
-        "fabric-26.1" = _GxdOBN5z;
-        "fabric-26.1.1" = _GxdOBN5z;
-        "fabric-26.1.2" = _GxdOBN5z;
-        "fabric-26.2" = _Vg45lyZ7;
+        "fabric-1.21.11" = _QlE1WChu;
+        "fabric-26.1" = _YqKuH6Hm;
+        "fabric-26.1.1" = _YqKuH6Hm;
+        "fabric-26.1.2" = _YqKuH6Hm;
+        "fabric-26.2" = _LuoWP7vP;
         "quilt-1.19.2" = _Vw3NYmxR;
         "quilt-1.21.4" = _JUsJ8Tn1;
         "quilt-1.21.11" = _76H6OqYR;
@@ -96,7 +114,10 @@ let
         "pkg-1.1.2-beta-1.21.11" = _cHC6c0Vu;
         "pkg-1.1.2-beta-26.1.x" = _GxdOBN5z;
         "pkg-1.1.2-beta-26.2.x" = _Vg45lyZ7;
-        "default" = _Vg45lyZ7;
+        "pkg-1.1.3-beta-1.21.11" = _QlE1WChu;
+        "pkg-1.1.3-beta-26.1.x" = _YqKuH6Hm;
+        "pkg-1.1.3-beta-26.2.x" = _LuoWP7vP;
+        "default" = _LuoWP7vP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "defensive-measures";

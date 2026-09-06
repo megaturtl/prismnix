@@ -41,6 +41,11 @@ let
             "file" = "Numbered Hotbar-07.zip";
             "hash" = "sha512-EYfKsjoodd+LzlBEyAv5xcUwP0m5AOew/iJadc9y80Ke5pt0yfqL5GUcJtttZSUdCzjEl79Ksom2SGVGaM7VSg==";
         };
+        _XSKOpa7A = {
+            "id" = "XSKOpa7A";
+            "file" = "Numbered Hotbar-08.zip";
+            "hash" = "sha512-hY0UgFWPnKNZw6jBv+WbOz7IR/H7aLc84xVt3VSHgrtrtyuCTxqwr0tgvyhiA9Qod+NtV6x1/rKS1vk4k68Deg==";
+        };
     in {
         "fs3Gox0T" = _fs3Gox0T;
         "EbOmoKsO" = _EbOmoKsO;
@@ -50,20 +55,30 @@ let
         "N3RxmHQp" = _N3RxmHQp;
         "kMlrm2Rh" = _kMlrm2Rh;
         "Yu1eYSPo" = _Yu1eYSPo;
-        "minecraft-1.20" = _Yu1eYSPo;
-        "minecraft-1.20.1" = _Yu1eYSPo;
-        "minecraft-1.20.2" = _Yu1eYSPo;
-        "minecraft-1.20.3" = _Yu1eYSPo;
-        "minecraft-1.20.4" = _Yu1eYSPo;
-        "minecraft-1.20.5" = _Yu1eYSPo;
-        "minecraft-1.20.6" = _Yu1eYSPo;
-        "minecraft-1.21" = _Yu1eYSPo;
-        "minecraft-1.21.1" = _Yu1eYSPo;
-        "minecraft-1.21.2" = _Yu1eYSPo;
-        "minecraft-1.21.3" = _Yu1eYSPo;
-        "minecraft-1.21.4" = _Yu1eYSPo;
-        "minecraft-1.21.5" = _Yu1eYSPo;
-        "minecraft-1.21.6" = _Yu1eYSPo;
+        "XSKOpa7A" = _XSKOpa7A;
+        "minecraft-1.20" = _XSKOpa7A;
+        "minecraft-1.20.1" = _XSKOpa7A;
+        "minecraft-1.20.2" = _XSKOpa7A;
+        "minecraft-1.20.3" = _XSKOpa7A;
+        "minecraft-1.20.4" = _XSKOpa7A;
+        "minecraft-1.20.5" = _XSKOpa7A;
+        "minecraft-1.20.6" = _XSKOpa7A;
+        "minecraft-1.21" = _XSKOpa7A;
+        "minecraft-1.21.1" = _XSKOpa7A;
+        "minecraft-1.21.2" = _XSKOpa7A;
+        "minecraft-1.21.3" = _XSKOpa7A;
+        "minecraft-1.21.4" = _XSKOpa7A;
+        "minecraft-1.21.5" = _XSKOpa7A;
+        "minecraft-1.21.6" = _XSKOpa7A;
+        "minecraft-1.21.7" = _XSKOpa7A;
+        "minecraft-1.21.8" = _XSKOpa7A;
+        "minecraft-1.21.9" = _XSKOpa7A;
+        "minecraft-1.21.10" = _XSKOpa7A;
+        "minecraft-1.21.11" = _XSKOpa7A;
+        "minecraft-26.1" = _XSKOpa7A;
+        "minecraft-26.1.1" = _XSKOpa7A;
+        "minecraft-26.1.2" = _XSKOpa7A;
+        "minecraft-26.2" = _XSKOpa7A;
         "pkg-01" = _EbOmoKsO;
         "pkg-02" = _YNGdN9gf;
         "pkg-03" = _8ogA87u8;
@@ -71,7 +86,8 @@ let
         "pkg-05" = _N3RxmHQp;
         "pkg-06" = _kMlrm2Rh;
         "pkg-07" = _Yu1eYSPo;
-        "default" = _Yu1eYSPo;
+        "pkg-08" = _XSKOpa7A;
+        "default" = _XSKOpa7A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "numbered-hotbar";

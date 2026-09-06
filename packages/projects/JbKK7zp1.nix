@@ -111,6 +111,11 @@ let
             "file" = "human-reborn-1.0.21.jar";
             "hash" = "sha512-uzhf9UIP5Eqn6HiMhlp+RYxbY3kUvbGwin1+3qNjCAXfR+zc13S9CHclfm5lmCW7nznDfZC8mEfyI5mhF9+LuA==";
         };
+        _6aZrZucT = {
+            "id" = "6aZrZucT";
+            "file" = "human-reborn-1.0.22.jar";
+            "hash" = "sha512-XmrIUDQMLmlTmgv03nAfrhh5V3TbKmibaXAEQOZ8Tb4Vl5fuXLXVoQnWvdJ29P+qYFmjfUAYTtOehrfiojVUYg==";
+        };
     in {
         "vkpqu5md" = _vkpqu5md;
         "YVQMIGe8" = _YVQMIGe8;
@@ -134,6 +139,7 @@ let
         "PpLuWAi6" = _PpLuWAi6;
         "HfoLz134" = _HfoLz134;
         "7st2rTPE" = _7st2rTPE;
+        "6aZrZucT" = _6aZrZucT;
         "fabric-1.16.5" = _vkpqu5md;
         "fabric-1.17" = _YVQMIGe8;
         "fabric-1.17.1" = _YVQMIGe8;
@@ -158,6 +164,7 @@ let
         "fabric-26.1" = _7st2rTPE;
         "fabric-26.1.1" = _7st2rTPE;
         "fabric-26.1.2" = _7st2rTPE;
+        "fabric-26.2" = _6aZrZucT;
         "pkg-1.0.0" = _vkpqu5md;
         "pkg-1.0.1" = _YVQMIGe8;
         "pkg-1.0.2" = _qMjgTDiM;
@@ -180,7 +187,8 @@ let
         "pkg-1.0.19" = _PpLuWAi6;
         "pkg-1.0.20" = _HfoLz134;
         "pkg-1.0.21" = _7st2rTPE;
-        "default" = _7st2rTPE;
+        "pkg-1.0.22" = _6aZrZucT;
+        "default" = _6aZrZucT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "human-reborn";

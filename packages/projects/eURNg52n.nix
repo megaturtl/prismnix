@@ -31,15 +31,25 @@ let
             "file" = "emotecraft-recording-addon-1.3.0-1.21.11+.jar";
             "hash" = "sha512-D2Kr3rK8A4oqqA9bVsADz/zaCYnroukjGnU9Qw+Ci3Qrlgd8nq9Y8ZWcwY6uoIWkhWtwKobwQSPWfNd8kuz/ZQ==";
         };
-        _9fBjEixD = {
-            "id" = "9fBjEixD";
-            "file" = "emotecraft-recording-addon-1.3.1.jar";
-            "hash" = "sha512-scX7s0UX6eeP3Y9pxM2J5HLowtim38FVGRKRqNetux/2nByVfRswsa52kxDY35wXl7TgS4stmMMcIZ10n/u9ug==";
-        };
         _fnHX0cjO = {
             "id" = "fnHX0cjO";
             "file" = "emotecraft-recording-addon-1.4.0.jar";
             "hash" = "sha512-R13Boi1yDcpTAu/3pgDQofcWIG26k43jCYbHEkZyqkrqgT5x3hDQcg05+gG0b+TPhsfP5kQE0l0Rfj8Vv0ihEg==";
+        };
+        _QqvSLTC2 = {
+            "id" = "QqvSLTC2";
+            "file" = "emotecraft-recording-addon-1.3.2.jar";
+            "hash" = "sha512-4jYc0nD//+8tydjJ+vaeeG/ApxB3//lBWk09dSS+1dettyuiY3Qq9JVt+fU3tua+UHvoFB2jZrnRyzNG8KxpiQ==";
+        };
+        _iDBgUbb1 = {
+            "id" = "iDBgUbb1";
+            "file" = "emotecraft-recording-addon-1.4.1.jar";
+            "hash" = "sha512-PkX7N88ryBpSDjU7sR42a3hFlqKMUa1aMWY+tOGZkqI6Tgq7hkkOZVsknzLqqIPIuAdIll/blRkzqZopxt9W+g==";
+        };
+        _p1afdKDg = {
+            "id" = "p1afdKDg";
+            "file" = "emotecraft-recording-addon-1.5.0.jar";
+            "hash" = "sha512-wSy7BMaYdY1rp4RUMnTbP6NOW0WItRGOJNEAF42ex6wX5+zqFtsBZnifAj3vxKRyYVPN9JVrO+CEE1dD6oNw9g==";
         };
     in {
         "StEwtUW4" = _StEwtUW4;
@@ -48,8 +58,10 @@ let
         "UJ7EpaSi" = _UJ7EpaSi;
         "Pf0DYHqQ" = _Pf0DYHqQ;
         "ZpbLNMEz" = _ZpbLNMEz;
-        "9fBjEixD" = _9fBjEixD;
         "fnHX0cjO" = _fnHX0cjO;
+        "QqvSLTC2" = _QqvSLTC2;
+        "iDBgUbb1" = _iDBgUbb1;
+        "p1afdKDg" = _p1afdKDg;
         "fabric-1.21" = _StEwtUW4;
         "fabric-1.21.1" = _1bTN4SX6;
         "fabric-1.21.2" = _1bTN4SX6;
@@ -59,17 +71,22 @@ let
         "fabric-1.21.7" = _UJ7EpaSi;
         "fabric-1.21.8" = _UJ7EpaSi;
         "fabric-1.21.10" = _Pf0DYHqQ;
-        "fabric-1.21.11" = _9fBjEixD;
-        "fabric-26.1.2" = _fnHX0cjO;
+        "fabric-1.21.11" = _QqvSLTC2;
+        "fabric-26.1.2" = _iDBgUbb1;
+        "fabric-26.1" = _iDBgUbb1;
+        "fabric-26.1.1" = _iDBgUbb1;
+        "fabric-26.2" = _p1afdKDg;
         "pkg-1.0.0" = _StEwtUW4;
         "pkg-1.1.0" = _j5ZaNsbA;
         "pkg-1.0.1" = _1bTN4SX6;
         "pkg-1.2.0" = _UJ7EpaSi;
         "pkg-1.3.0-1.21.10" = _Pf0DYHqQ;
         "pkg-1.3.0-1.21.11" = _ZpbLNMEz;
-        "pkg-1.3.1-1.21.11" = _9fBjEixD;
         "pkg-1.4.0-26.1.2" = _fnHX0cjO;
-        "default" = _fnHX0cjO;
+        "pkg-1.3.2-1.21.11" = _QqvSLTC2;
+        "pkg-1.4.1-26.1.x" = _iDBgUbb1;
+        "pkg-1.5.0-26.2" = _p1afdKDg;
+        "default" = _p1afdKDg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "emotecraft-recording-addon";

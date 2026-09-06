@@ -226,6 +226,16 @@ let
             "file" = "SkyGUIs-21.1.8.jar";
             "hash" = "sha512-9x6gfNMooYeib1jJEShF31oqiHRXWbwUuewc4iPh9jhzw5pZsxRcMUBHGmiGB83N2ILq+XRFYdYcNJW61YVQYQ==";
         };
+        _M32FiLBl = {
+            "id" = "M32FiLBl";
+            "file" = "SkyGUIs-21.1.10.jar";
+            "hash" = "sha512-rWATBsfEJI7Zpdm4XaMk0qpMCC9hRxnEuhrxf2NCG5XcYoy5O2PfCDK1Y3pue9RePsFkzEvyl2ozwKx0oRDH8g==";
+        };
+        _zypaCGkp = {
+            "id" = "zypaCGkp";
+            "file" = "SkyGUIs-26.1.0.jar";
+            "hash" = "sha512-ROrffsehaLEKWeej6jP7ZyeDrEnR9UGEuTpFn55plCPUeCO5mEJnWbewstVIC/pW0F5prV/Z/fYgY1ZV3KAxNA==";
+        };
     in {
         "3GhIatpp" = _3GhIatpp;
         "oLXnGkO1" = _oLXnGkO1;
@@ -272,6 +282,8 @@ let
         "rP3h8q5c" = _rP3h8q5c;
         "FegSOnTj" = _FegSOnTj;
         "hnPyYL3W" = _hnPyYL3W;
+        "M32FiLBl" = _M32FiLBl;
+        "zypaCGkp" = _zypaCGkp;
         "forge-1.18.1" = _NBPASjDB;
         "forge-1.18.2" = _Fh27mGDU;
         "forge-1.19" = _acZQwWaA;
@@ -279,7 +291,8 @@ let
         "forge-1.19.2" = _BExYMoKE;
         "forge-1.20.1" = _Lpsr9UqS;
         "neoforge-1.20.1" = _Lpsr9UqS;
-        "neoforge-1.21.1" = _hnPyYL3W;
+        "neoforge-1.21.1" = _M32FiLBl;
+        "neoforge-26.1.2" = _zypaCGkp;
         "pkg-1.18.1-1.0.0" = _3GhIatpp;
         "pkg-1.18.1-1.0.1" = _oLXnGkO1;
         "pkg-1.18.1-1.0.2" = _NBPASjDB;
@@ -325,7 +338,9 @@ let
         "pkg-21.1.6" = _rP3h8q5c;
         "pkg-21.1.7" = _FegSOnTj;
         "pkg-21.1.8" = _hnPyYL3W;
-        "default" = _hnPyYL3W;
+        "pkg-21.1.10" = _M32FiLBl;
+        "pkg-26.1.0" = _zypaCGkp;
+        "default" = _zypaCGkp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sky-guis";

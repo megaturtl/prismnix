@@ -121,6 +121,16 @@ let
             "file" = "Slate_Work-2.2.0.jar";
             "hash" = "sha512-6NH7l8EPOgR2E/QcIYj/ZCBikLFTX2QqCeQKO/TkI9C6DLO6VJDsCWCZJHi8lT59LOQdWRzalLUJANz8bQXUMQ==";
         };
+        _cqwNbYZI = {
+            "id" = "cqwNbYZI";
+            "file" = "Slate_Work-2.3.0.jar";
+            "hash" = "sha512-MzMDc6iQtU2vn7TIW3Kva4NyDHQv+CF/zosMTsdwivha5OCDaxgVBfOB3AVGXFKlBPKo4FT6xltS4kzBqCXY+g==";
+        };
+        _CglKFROa = {
+            "id" = "CglKFROa";
+            "file" = "Slate_Work-2.3.1.jar";
+            "hash" = "sha512-R7Wr/nLjSZGWCbTW5pajCuZBkdIjm70i8F8HjzdPPXwBYCjq4iNIKBl4GpIMCFrjOnnpArDlzE5KP+zrjXAW8w==";
+        };
     in {
         "Ur5LYIfY" = _Ur5LYIfY;
         "cdPRAPO5" = _cdPRAPO5;
@@ -146,7 +156,9 @@ let
         "6CYQiZTs" = _6CYQiZTs;
         "49yzjvg1" = _49yzjvg1;
         "zTTVX4Io" = _zTTVX4Io;
-        "fabric-1.20.1" = _zTTVX4Io;
+        "cqwNbYZI" = _cqwNbYZI;
+        "CglKFROa" = _CglKFROa;
+        "fabric-1.20.1" = _CglKFROa;
         "pkg-0.1.0" = _Ur5LYIfY;
         "pkg-0.2.2" = _cdPRAPO5;
         "pkg-0.2.3" = _hnE6vxFn;
@@ -171,7 +183,9 @@ let
         "pkg-2.0.1" = _6CYQiZTs;
         "pkg-2.1.0" = _49yzjvg1;
         "pkg-2.2.0" = _zTTVX4Io;
-        "default" = _zTTVX4Io;
+        "pkg-2.3.0" = _cqwNbYZI;
+        "pkg-2.3.1" = _CglKFROa;
+        "default" = _CglKFROa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "slate-works";

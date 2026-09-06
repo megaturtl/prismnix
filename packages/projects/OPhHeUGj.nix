@@ -46,6 +46,11 @@ let
             "file" = "immersivewalk-1.0.3.jar";
             "hash" = "sha512-bgRDGUWl6uquqSCLS3EzcQz0/D6CVc3e4wi6qcfNsRYsT+GrpXNaYDvKZU5W7hHWq/RbKdNQ4hKtPzfrdpc0iw==";
         };
+        _6f6dM8k9 = {
+            "id" = "6f6dM8k9";
+            "file" = "immersivewalk-1.0.3.jar";
+            "hash" = "sha512-dRocmnNGNNooDPvQepoKESCJub7FCEgu1BoCQSTQtxaN6BgGFywFjXSa+4W22jB6HldjmoG0INJ0mGKJrLSUpw==";
+        };
     in {
         "62UJliT3" = _62UJliT3;
         "D7rRLRt3" = _D7rRLRt3;
@@ -56,14 +61,16 @@ let
         "WBOqnCT9" = _WBOqnCT9;
         "9bfiHnyA" = _9bfiHnyA;
         "5rULaZ6o" = _5rULaZ6o;
+        "6f6dM8k9" = _6f6dM8k9;
         "neoforge-1.21.1" = _5rULaZ6o;
         "neoforge-26.1.2" = _h1zXz1MO;
+        "neoforge-26.2" = _6f6dM8k9;
         "forge-1.20.1" = _9bfiHnyA;
         "pkg-1.0.0" = _D7rRLRt3;
         "pkg-1.0.1" = _O2VAi4BF;
         "pkg-1.0.2" = _WBOqnCT9;
-        "pkg-1.0.3" = _5rULaZ6o;
-        "default" = _5rULaZ6o;
+        "pkg-1.0.3" = _6f6dM8k9;
+        "default" = _6f6dM8k9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-walk";

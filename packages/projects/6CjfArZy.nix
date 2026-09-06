@@ -66,6 +66,26 @@ let
             "file" = "ae2_auto_pattern_upload-1.1.3.jar";
             "hash" = "sha512-CIXP3/mw7GN+K2s8/FuCsTYgiQ9+uvM0iz+AEdswPKHvXZ4L/TCmdiANUJIuOFUvme5wi6rrk736o1ki8yLP3A==";
         };
+        _5hMIbVbE = {
+            "id" = "5hMIbVbE";
+            "file" = "ae2_auto_pattern_upload-2.0.0.jar";
+            "hash" = "sha512-gekhpIYZld/xhF1uMPa8auxc35XfYFK1pOOt/VaIRtbSfiBaMmgTqWa+gtbqtKXwa6RNEJQKsSAOJOq9TJiPQA==";
+        };
+        _DPS6aMLH = {
+            "id" = "DPS6aMLH";
+            "file" = "ae2_auto_pattern_upload-2.0.0.jar";
+            "hash" = "sha512-E6xi1zJPA1Dzgooh5wPgGz/ZrXWtoik3qDmq+PYz+K+N7EWr+T2WI3psY2Rglk1NuwvTY6idROiTljCM6abnOw==";
+        };
+        _wwMp2YMn = {
+            "id" = "wwMp2YMn";
+            "file" = "ae2_auto_pattern_upload-2.0.0.jar";
+            "hash" = "sha512-gekhpIYZld/xhF1uMPa8auxc35XfYFK1pOOt/VaIRtbSfiBaMmgTqWa+gtbqtKXwa6RNEJQKsSAOJOq9TJiPQA==";
+        };
+        _xhWuKaTc = {
+            "id" = "xhWuKaTc";
+            "file" = "ae2_auto_pattern_upload-2.0.0.jar";
+            "hash" = "sha512-uoQoqyTW/qieqy/JaReuil8WarNvwZldr4ZBuCfr0fu4hnO/jQVwK5JRbZDoNGUybOATjNW+TKVKoOLHj/QZeg==";
+        };
     in {
         "FU6kHfWS" = _FU6kHfWS;
         "AgvRX1KO" = _AgvRX1KO;
@@ -80,9 +100,15 @@ let
         "ty9uU6WF" = _ty9uU6WF;
         "aziG37se" = _aziG37se;
         "O9BgbXss" = _O9BgbXss;
+        "5hMIbVbE" = _5hMIbVbE;
+        "DPS6aMLH" = _DPS6aMLH;
+        "wwMp2YMn" = _wwMp2YMn;
+        "xhWuKaTc" = _xhWuKaTc;
         "forge-1.12.2" = _O9BgbXss;
         "forge-1.7.10" = _aziG37se;
-        "forge-1.20.1" = _UcJNqjgK;
+        "forge-1.20.1" = _DPS6aMLH;
+        "neoforge-1.21.1" = _wwMp2YMn;
+        "neoforge-26.1.2" = _xhWuKaTc;
         "pkg-1.0.0" = _FU6kHfWS;
         "pkg-GTNH281-1.1.0" = _AgvRX1KO;
         "pkg-1.1.0" = _MLrxWAph;
@@ -96,7 +122,8 @@ let
         "pkg-1.1.2" = _ty9uU6WF;
         "pkg-2.8.1" = _aziG37se;
         "pkg-1.1.3" = _O9BgbXss;
-        "default" = _O9BgbXss;
+        "pkg-2.0.0" = _xhWuKaTc;
+        "default" = _xhWuKaTc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ae2-auto-pattern-upload";

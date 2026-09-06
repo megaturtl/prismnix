@@ -62,6 +62,10 @@ let
         "paper-1.21.9" = _OorXlShX;
         "paper-1.21.10" = _OorXlShX;
         "paper-1.21.11" = _OorXlShX;
+        "paper-26.1" = _OorXlShX;
+        "paper-26.1.1" = _OorXlShX;
+        "paper-26.1.2" = _OorXlShX;
+        "paper-26.2" = _OorXlShX;
         "pkg-1.0" = _4FhVIRQU;
         "pkg-1.1" = _sBzclcC5;
         "pkg-1.2" = _DS3EFqzZ;

@@ -31,6 +31,16 @@ let
             "file" = "HubExtend-1.1.99.jar";
             "hash" = "sha512-HnpsdNRiVp/bzkRDyV3N0cp9cKELZz1ZSDLoVMVlwTRO14N/ubruxLFjHhjkECN8ejfnLDVNtbYrL8CN2JDzgQ==";
         };
+        _NouZtA8P = {
+            "id" = "NouZtA8P";
+            "file" = "HubExtend-1.2.25.jar";
+            "hash" = "sha512-2Dl2CvGPuo/Ne7lG/kRmvZhE8jROzN5qxIK7ykhcsdcUA3creEG8RXpPx+/wvDSrRWct0LbNZS56bj35fXAmOg==";
+        };
+        _oyHhMLac = {
+            "id" = "oyHhMLac";
+            "file" = "HubExtend-1.2.26.jar";
+            "hash" = "sha512-BfjNJIlfN0b0KIprPdPBw81/b/L6eZgYXXic/cKtmy1UzScS8BPSSK/dCdsJGeGjkUi3vAsEokp4UuCCEV1oZg==";
+        };
     in {
         "R2sX9SpV" = _R2sX9SpV;
         "fzLs5HUa" = _fzLs5HUa;
@@ -38,12 +48,16 @@ let
         "JagFV9l7" = _JagFV9l7;
         "odGmce4V" = _odGmce4V;
         "weXIeX8l" = _weXIeX8l;
-        "fabric-1.21.1" = _weXIeX8l;
+        "NouZtA8P" = _NouZtA8P;
+        "oyHhMLac" = _oyHhMLac;
+        "fabric-1.21.1" = _oyHhMLac;
         "pkg-1.0-SNAPSHOT" = _weXIeX8l;
         "pkg-1.16" = _fzLs5HUa;
         "pkg-1.1.92" = _JagFV9l7;
         "pkg-1.1.97" = _odGmce4V;
-        "default" = _weXIeX8l;
+        "pkg-1.25" = _NouZtA8P;
+        "pkg-1.26" = _oyHhMLac;
+        "default" = _oyHhMLac;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hubextended";

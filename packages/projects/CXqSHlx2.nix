@@ -61,6 +61,26 @@ let
             "file" = "exposure-space-fabric-1.2.6.jar";
             "hash" = "sha512-wS94MBnpJm5+7WI0Ik+y78r6LLSqKqcNBqbshYJcVMw79NmSTauxI8XAtzOLdlrpLplMZTxPtMemNRL0hKNhAQ==";
         };
+        _Wp7WLVYQ = {
+            "id" = "Wp7WLVYQ";
+            "file" = "exposure-space-fabric-1.2.7.jar";
+            "hash" = "sha512-dsQ9nTwzUuEKqYb6WEs3RHAm7k1Q9JWgwD2dKuoFbJ8beUdpo6MU1OkZoSiMX/EztQPNRP4Z/HA7MwNhrkXHog==";
+        };
+        _SdaNSzQP = {
+            "id" = "SdaNSzQP";
+            "file" = "exposure-space-neoforge-1.2.7.jar";
+            "hash" = "sha512-XmkS2PqmkKGHWW40UAa19NtwUNjo4uni4sKxtJndoZVwdLTV4kLoWRLYYGsmXthzdo3yzkWXW967L9ih5WHVcA==";
+        };
+        _Tloc97gi = {
+            "id" = "Tloc97gi";
+            "file" = "exposure-space-neoforge-1.2.8.jar";
+            "hash" = "sha512-vcn1xkp/FKq/vyAq9IhI6mfYBp1DczHea0Vr4+W5jpmjJdVKnz5x4oSGnRzcBaE0mUj7pMjlHXht7T//hUh81A==";
+        };
+        _wlyMdoGS = {
+            "id" = "wlyMdoGS";
+            "file" = "exposure-space-fabric-1.2.8.jar";
+            "hash" = "sha512-sIKnNCdqgXmaSKDuZMDtZSN9oTLQvPZFqQJGQFHojg2CS1VJm0yIkmAoZqdJPbiwVAbqIL0ofpuEVkdwSVjxCg==";
+        };
     in {
         "XHZxEPZF" = _XHZxEPZF;
         "aQ2rjugi" = _aQ2rjugi;
@@ -74,8 +94,12 @@ let
         "xbQYqrYp" = _xbQYqrYp;
         "jW9GBaPQ" = _jW9GBaPQ;
         "j1ZkH7Ux" = _j1ZkH7Ux;
-        "fabric-1.21.1" = _j1ZkH7Ux;
-        "neoforge-1.21.1" = _jW9GBaPQ;
+        "Wp7WLVYQ" = _Wp7WLVYQ;
+        "SdaNSzQP" = _SdaNSzQP;
+        "Tloc97gi" = _Tloc97gi;
+        "wlyMdoGS" = _wlyMdoGS;
+        "fabric-1.21.1" = _wlyMdoGS;
+        "neoforge-1.21.1" = _Tloc97gi;
         "pkg-1.0.0" = _XHZxEPZF;
         "pkg-1.0.1" = _XA79tO1e;
         "pkg-1.0.15" = _dQc9aFKv;
@@ -83,7 +107,9 @@ let
         "pkg-1.2" = _3jSA4l7s;
         "pkg-1.2.5" = _xbQYqrYp;
         "pkg-1.2.6" = _j1ZkH7Ux;
-        "default" = _j1ZkH7Ux;
+        "pkg-1.2.7" = _SdaNSzQP;
+        "pkg-1.2.8" = _wlyMdoGS;
+        "default" = _wlyMdoGS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "exposure-space";

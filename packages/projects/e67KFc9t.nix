@@ -966,6 +966,36 @@ let
             "file" = "BarelyDefaultV20.16.1 - 26.2.zip";
             "hash" = "sha512-Gn8J3ufzSVpU36o0v06pNnWaQYFEvPrYRFuEtvYe2OkIX+JjrTev6WjzYxGMTRY8hkg7N3+dUQGlheLqs8Ps1g==";
         };
+        _XNCIvYRa = {
+            "id" = "XNCIvYRa";
+            "file" = "BarelyDefaultV20.17 - 26.2+.zip";
+            "hash" = "sha512-BVYLs4+aDt0XTyUpZ7QsvvyxDg1eVZ9NPDN35UuJ/hKblgKrOLyznTKJbkwflK5IlLIEpCEhxRB0Low55n9I6w==";
+        };
+        _23ABhlg4 = {
+            "id" = "23ABhlg4";
+            "file" = "BarelyDefaultV20.18.zip";
+            "hash" = "sha512-kBuUvnc+bfGhRbsXRUUfnxJQEoFYPG/3dJUTlggqAmDVzOXJORWzyye5uJ8IyhrRer2cGhucIW9BDp3OfTa17Q==";
+        };
+        _GrSGHbaV = {
+            "id" = "GrSGHbaV";
+            "file" = "BarelyDefaultV20.19.zip";
+            "hash" = "sha512-fau88svNk/7zgqC4HvTjBb+OlZb+u6sINjgfBWXk4r1FdkSphjT1hSb/h1X49UYdUqUgn1KaXYzff1Vtk1w3kQ==";
+        };
+        _MRVTHikx = {
+            "id" = "MRVTHikx";
+            "file" = "BarelyDefaultV20.20.1.zip";
+            "hash" = "sha512-EszoW6V4HJzM3H+XxJ49E2Au5VaK760qFEh7q/ee9wI0Ro3gGOhIeu+hQYNucuBEjCDp9JI+5yg8N94LwGhJlg==";
+        };
+        _ZYQsZQuG = {
+            "id" = "ZYQsZQuG";
+            "file" = "BarelyDefaultV20.21.zip";
+            "hash" = "sha512-Q7mID7CPWDIILT5WvRilZKELGHJUTeBtECazn5o18JfrTH5GxZ4f7qMcYn2MljpM43vGo5sU52ZqpbaS/K6MXA==";
+        };
+        _kdA8ytwV = {
+            "id" = "kdA8ytwV";
+            "file" = "BarelyDefaultV20.22.zip";
+            "hash" = "sha512-DxddW+ZQm3vl321SmXlDsh4nHff3HaVJk2D5bBzWpHKOyJ3rcJylQZg93LRHn9LAF3o0a3BPxQdV46FbZetGeQ==";
+        };
     in {
         "WMUixiT4" = _WMUixiT4;
         "i3mMytB4" = _i3mMytB4;
@@ -1160,6 +1190,12 @@ let
         "iPeGsSjI" = _iPeGsSjI;
         "pndgVj7G" = _pndgVj7G;
         "oLLVnw28" = _oLLVnw28;
+        "XNCIvYRa" = _XNCIvYRa;
+        "23ABhlg4" = _23ABhlg4;
+        "GrSGHbaV" = _GrSGHbaV;
+        "MRVTHikx" = _MRVTHikx;
+        "ZYQsZQuG" = _ZYQsZQuG;
+        "kdA8ytwV" = _kdA8ytwV;
         "minecraft-1.19.3" = _CGvCRcPv;
         "minecraft-1.19.4" = _CGvCRcPv;
         "minecraft-1.20" = _CGvCRcPv;
@@ -1195,9 +1231,9 @@ let
         "minecraft-26.1-snapshot-11" = _vurz52hd;
         "minecraft-26.1-pre-1" = _vurz52hd;
         "minecraft-26.1-pre-2" = _vurz52hd;
-        "minecraft-26.1" = _oLLVnw28;
-        "minecraft-26.1.1" = _oLLVnw28;
-        "minecraft-26.1.2" = _oLLVnw28;
+        "minecraft-26.1" = _kdA8ytwV;
+        "minecraft-26.1.1" = _kdA8ytwV;
+        "minecraft-26.1.2" = _kdA8ytwV;
         "minecraft-26.2-snapshot-2" = _s59D7XqL;
         "minecraft-26.2-snapshot-3" = _s59D7XqL;
         "minecraft-26.2-snapshot-4" = _s59D7XqL;
@@ -1208,13 +1244,19 @@ let
         "minecraft-26.2-pre-1" = _s59D7XqL;
         "minecraft-26.2-pre-2" = _s59D7XqL;
         "minecraft-26.2-pre-3" = _s59D7XqL;
-        "minecraft-26.2" = _oLLVnw28;
-        "minecraft-26.3-snapshot-1" = _oLLVnw28;
-        "minecraft-26.3-snapshot-2" = _oLLVnw28;
-        "minecraft-26.3-snapshot-3" = _oLLVnw28;
-        "minecraft-26.3-snapshot-4" = _oLLVnw28;
-        "minecraft-26.3-snapshot-5" = _oLLVnw28;
-        "minecraft-26.3-snapshot-6" = _oLLVnw28;
+        "minecraft-26.2" = _kdA8ytwV;
+        "minecraft-26.3-snapshot-1" = _kdA8ytwV;
+        "minecraft-26.3-snapshot-2" = _kdA8ytwV;
+        "minecraft-26.3-snapshot-3" = _kdA8ytwV;
+        "minecraft-26.3-snapshot-4" = _kdA8ytwV;
+        "minecraft-26.3-snapshot-5" = _kdA8ytwV;
+        "minecraft-26.3-snapshot-6" = _kdA8ytwV;
+        "minecraft-26.3-snapshot-7" = _kdA8ytwV;
+        "minecraft-26.3-snapshot-8" = _kdA8ytwV;
+        "minecraft-26.3-snapshot-9" = _kdA8ytwV;
+        "minecraft-26.3-snapshot-10" = _kdA8ytwV;
+        "minecraft-26.3-pre-1" = _kdA8ytwV;
+        "minecraft-26.3-pre-2" = _kdA8ytwV;
         "pkg-9.22" = _WMUixiT4;
         "pkg-9.23" = _i3mMytB4;
         "pkg-9.24" = _yDj6WCIr;
@@ -1406,7 +1448,13 @@ let
         "pkg-20.14" = _iPeGsSjI;
         "pkg-20.15" = _pndgVj7G;
         "pkg-20.16.1" = _oLLVnw28;
-        "default" = _oLLVnw28;
+        "pkg-20.17" = _XNCIvYRa;
+        "pkg-20.18" = _23ABhlg4;
+        "pkg-20.19" = _GrSGHbaV;
+        "pkg-20.20.1" = _MRVTHikx;
+        "pkg-20.21" = _ZYQsZQuG;
+        "pkg-20.22" = _kdA8ytwV;
+        "default" = _kdA8ytwV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mickey-joes-relatively-improved-default";

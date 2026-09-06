@@ -16,15 +16,29 @@ let
             "file" = "tfmg_stellaris_compat-1.1.1.jar";
             "hash" = "sha512-kT8h/HDoqHOZALAJcwXitCv16dupWws9km6li3HIA8mNdMh16Kt7QXumIwKrjfMU4lKjuJBAYVyMWsnu0HTyaQ==";
         };
+        _A5dRrMY7 = {
+            "id" = "A5dRrMY7";
+            "file" = "tfmg_stellaris_compat-1.2.0.jar";
+            "hash" = "sha512-F5W2TVvfDY2RNDgiFrOVWqb+ohCtfkSKSIZUaIt3dnaWf7Gh+oA9dZrsA5jc3gFP1IF7p33aQnuQrft0FL9xIQ==";
+        };
+        _3bN2GRsd = {
+            "id" = "3bN2GRsd";
+            "file" = "tfmg_stellaris_compat-1.2.0.1.jar";
+            "hash" = "sha512-7AP9uWx2omFtMXEbj9e2sRaNkI6MrPRPaicD/kzuEjLRD0FMtLkK1GI73/IAZre439EOXhoVNlFJAziCo7Gyug==";
+        };
     in {
         "pAVlMEcX" = _pAVlMEcX;
         "wPEqLj5W" = _wPEqLj5W;
         "MLHm74pl" = _MLHm74pl;
-        "neoforge-1.21.1" = _MLHm74pl;
+        "A5dRrMY7" = _A5dRrMY7;
+        "3bN2GRsd" = _3bN2GRsd;
+        "neoforge-1.21.1" = _3bN2GRsd;
         "pkg-1.0.0" = _pAVlMEcX;
         "pkg-1.1.0" = _wPEqLj5W;
         "pkg-1.1.1" = _MLHm74pl;
-        "default" = _MLHm74pl;
+        "pkg-1.2.0" = _A5dRrMY7;
+        "pkg-1.2.0.1" = _3bN2GRsd;
+        "default" = _3bN2GRsd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tfmg-stellaris-compat";

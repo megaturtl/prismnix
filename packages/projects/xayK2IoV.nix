@@ -71,6 +71,11 @@ let
             "file" = "Old Enchant Glint Plus.zip";
             "hash" = "sha512-QsY6LeTG6eCt8x6ErlVhJx+WYZ8DFhoRBJI5SZjL1AumAQQib+3yrZoQBkZi6h2pLqdMZZ1P0hRxqGQ96zPvpg==";
         };
+        _dztKDdvA = {
+            "id" = "dztKDdvA";
+            "file" = "Old Enchant Glint Plus.zip";
+            "hash" = "sha512-YC7COb1Vobym5mEyuq/tAIGfcRt2KYwt2CCzpU3Huc6vJyauGzBqI2DvmjvEiyZrVZuox1Xtn/r49kkZLx5L9Q==";
+        };
     in {
         "pWM5s3mC" = _pWM5s3mC;
         "JVSz0b6V" = _JVSz0b6V;
@@ -86,6 +91,7 @@ let
         "QDh5z73v" = _QDh5z73v;
         "ZE3dPd9u" = _ZE3dPd9u;
         "5rJHXSdH" = _5rJHXSdH;
+        "dztKDdvA" = _dztKDdvA;
         "minecraft-1.19.4" = _ZE3dPd9u;
         "minecraft-1.20" = _ZE3dPd9u;
         "minecraft-1.20.1" = _ZE3dPd9u;
@@ -103,12 +109,12 @@ let
         "minecraft-1.21.6" = _ZE3dPd9u;
         "minecraft-1.21.7" = _ZE3dPd9u;
         "minecraft-1.21.8" = _ZE3dPd9u;
-        "minecraft-1.21.9" = _5rJHXSdH;
-        "minecraft-1.21.10" = _5rJHXSdH;
-        "minecraft-1.21.11" = _5rJHXSdH;
-        "minecraft-26.1" = _5rJHXSdH;
-        "minecraft-26.1.1" = _5rJHXSdH;
-        "minecraft-26.1.2" = _5rJHXSdH;
+        "minecraft-1.21.9" = _dztKDdvA;
+        "minecraft-1.21.10" = _dztKDdvA;
+        "minecraft-1.21.11" = _dztKDdvA;
+        "minecraft-26.1" = _dztKDdvA;
+        "minecraft-26.1.1" = _dztKDdvA;
+        "minecraft-26.1.2" = _dztKDdvA;
         "minecraft-23w14a" = _ZE3dPd9u;
         "minecraft-23w16a" = _ZE3dPd9u;
         "minecraft-23w31a" = _ZE3dPd9u;
@@ -156,6 +162,7 @@ let
         "minecraft-24w44a" = _ZE3dPd9u;
         "minecraft-24w45a" = _ZE3dPd9u;
         "minecraft-24w46a" = _ZE3dPd9u;
+        "minecraft-26.2" = _dztKDdvA;
         "pkg-1.0" = _pWM5s3mC;
         "pkg-1.1" = _JVSz0b6V;
         "pkg-1.2" = _BC0ZCYY0;
@@ -170,7 +177,8 @@ let
         "pkg-1.9.2" = _QDh5z73v;
         "pkg-1.9.3" = _ZE3dPd9u;
         "pkg-1.9.4" = _5rJHXSdH;
-        "default" = _5rJHXSdH;
+        "pkg-1.9.5" = _dztKDdvA;
+        "default" = _dztKDdvA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "old-enchant-glint-plus";

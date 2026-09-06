@@ -26,14 +26,40 @@ let
             "file" = "modpackcoreessentials-fabric-26-2-1.2.0.jar";
             "hash" = "sha512-Vv5iLLzCbRVGIujY+bDRSULeqsLmt5bkUfoqpP07GEM0r3UA+JwXC2djAAl7uISXu8Orf9TQtoOaq/9msx70PQ==";
         };
+        _YnT4yF8C = {
+            "id" = "YnT4yF8C";
+            "file" = "modpackcoreessentials-fabric-26-2-1.3.0.jar";
+            "hash" = "sha512-Sg3GlMcTZ5cK9Rh7F732tFGhsjQNiN00vHvBets8g9bCFqaAVVSMgdhs7nKKIlWLm9TLqUkPr7tk68biVflxFQ==";
+        };
+        _eg4zrhYU = {
+            "id" = "eg4zrhYU";
+            "file" = "modpackcoreessentials-fabric-26.1.2-1.3.0.jar";
+            "hash" = "sha512-OK7skIYEgV3zQ+M4l+Ggufy3Jp4oIyvZNPqTAZPMxd5Sd/APOArQe9RUPlP5o4YA7RBhNbZ0UcJTKlHjFseLYg==";
+        };
+        _ACa1jPO9 = {
+            "id" = "ACa1jPO9";
+            "file" = "modpackcoreessentials-fabric-26.1.1-1.3.0.jar";
+            "hash" = "sha512-C/OCOBmdf/F8kE8IukWvLeNDLYcFwtD+S3Fu0/ZMdT6iadPXtzuFzLzAuiqPKnApg02L11vjy6bWWtbGGKNOEw==";
+        };
+        _xD5vZxL3 = {
+            "id" = "xD5vZxL3";
+            "file" = "modpackcoreessentials-fabric-26.1-1.3.0.jar";
+            "hash" = "sha512-lt9/17gJnTbsRkdkTPja4Ce7SQmrOBd6XJAMEiM7VN0qbh8e4wD43ZFgJ0lJsuDWZn99XjzBbRT3wMQb1GzTKQ==";
+        };
     in {
         "Pii0Neyv" = _Pii0Neyv;
         "SHJDzm92" = _SHJDzm92;
         "XVQSS4nk" = _XVQSS4nk;
         "TQxhVGmW" = _TQxhVGmW;
         "RoG5t9F5" = _RoG5t9F5;
-        "fabric-26.1.2" = _Pii0Neyv;
-        "fabric-26.2" = _RoG5t9F5;
+        "YnT4yF8C" = _YnT4yF8C;
+        "eg4zrhYU" = _eg4zrhYU;
+        "ACa1jPO9" = _ACa1jPO9;
+        "xD5vZxL3" = _xD5vZxL3;
+        "fabric-26.1.2" = _eg4zrhYU;
+        "fabric-26.2" = _YnT4yF8C;
+        "fabric-26.1.1" = _ACa1jPO9;
+        "fabric-26.1" = _xD5vZxL3;
         "neoforge-1.21.1" = _SHJDzm92;
         "neoforge-26.1.2" = _XVQSS4nk;
         "pkg-1.0.0-26.1.2" = _Pii0Neyv;
@@ -41,7 +67,11 @@ let
         "pkg-1.0.1-26.1.2" = _XVQSS4nk;
         "pkg-1.1.0-26.2" = _TQxhVGmW;
         "pkg-1.2.0-26.2" = _RoG5t9F5;
-        "default" = _RoG5t9F5;
+        "pkg-1.3.0-26.2" = _YnT4yF8C;
+        "pkg-1.3.0-26.1.2" = _eg4zrhYU;
+        "pkg-1.3.0-26.1.1" = _ACa1jPO9;
+        "pkg-1.3.0-26.1" = _xD5vZxL3;
+        "default" = _xD5vZxL3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modpack-core-essentials";

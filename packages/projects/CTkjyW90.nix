@@ -71,6 +71,26 @@ let
             "file" = "itempeek-mc26.2-1.1.3.jar";
             "hash" = "sha512-Wnevy1yZIRhWg5MPJChM9I9kd8cY7GBz9nKckzQgZ6NgXVRHWQ20YJyH7crYju8vCMOrxeX2skqe2nyyZ5o47w==";
         };
+        _661CpDr9 = {
+            "id" = "661CpDr9";
+            "file" = "itempeek-mc1.21.1-1.2.0.jar";
+            "hash" = "sha512-6liQEnFRuKTnyJhd3KvMAj7XSYRKHClKH+7YwMwTAC8eFI6qfKTVgk1rMWEoEkznmhofMRTVM8LIAGwyywd5dA==";
+        };
+        _aH3MuGFc = {
+            "id" = "aH3MuGFc";
+            "file" = "itempeek-mc26.1.2-1.2.0.jar";
+            "hash" = "sha512-vDJPzWII/eIBfTZj8pId4qcyPdBhcOHiCOOVuUM+2mlI8PPHA/Bw1d+w+stjhx0lwYzmrW9jZDjlutR9zbvEdA==";
+        };
+        _1OWCDitI = {
+            "id" = "1OWCDitI";
+            "file" = "itempeek-mc26.2-1.2.0.jar";
+            "hash" = "sha512-KEa96nS9p9fx1wEaDryiwQQGT7gkUArxk6dgLAc/0HqJ3WeIRM8ZUBGlN8bdUBh8EGFHVOiiFOvcFRSVrKbOCg==";
+        };
+        _7nxsyrsX = {
+            "id" = "7nxsyrsX";
+            "file" = "itempeek-mc1.20.1-1.2.0.jar";
+            "hash" = "sha512-EpwFW9tN689cSJ3GuFcfoKuvJXm7Gv6lGqXByTNeCQ4jPOkjPlmnSmSSA3GV3R5rd1xv/Z4qPNq7tHYbCUD25w==";
+        };
     in {
         "osXkhXNL" = _osXkhXNL;
         "XgUD5MBN" = _XgUD5MBN;
@@ -86,18 +106,23 @@ let
         "Q2O3bX95" = _Q2O3bX95;
         "Y5koG294" = _Y5koG294;
         "rV4rPeGd" = _rV4rPeGd;
-        "neoforge-1.21.1" = _Q2O3bX95;
+        "661CpDr9" = _661CpDr9;
+        "aH3MuGFc" = _aH3MuGFc;
+        "1OWCDitI" = _1OWCDitI;
+        "7nxsyrsX" = _7nxsyrsX;
+        "neoforge-1.21.1" = _661CpDr9;
         "neoforge-1.21.5" = _fl3ZlBeR;
         "neoforge-1.21.11" = _T4LKKSB8;
-        "neoforge-26.1.2" = _xcwIUUu1;
-        "neoforge-26.2" = _rV4rPeGd;
-        "forge-1.20.1" = _Y5koG294;
+        "neoforge-26.1.2" = _aH3MuGFc;
+        "neoforge-26.2" = _1OWCDitI;
+        "forge-1.20.1" = _7nxsyrsX;
         "pkg-1.0.0" = _XgUD5MBN;
         "pkg-1.0.1" = _mwzfszIa;
         "pkg-1.1.1" = _qVEDasF0;
         "pkg-1.1.2" = _rPFlLVe5;
         "pkg-1.1.3" = _rV4rPeGd;
-        "default" = _rV4rPeGd;
+        "pkg-1.2.0" = _7nxsyrsX;
+        "default" = _7nxsyrsX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "itempeek";

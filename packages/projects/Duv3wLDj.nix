@@ -706,6 +706,41 @@ let
             "file" = "Boss Warps 1.20.1 v1.0.72.jar";
             "hash" = "sha512-pNr9NbDRNqc5rSQ7qt/SkwYibDOeB5PptW/QjTEIdD4CLtWFXnU/dBQJFEpWMy1qNJTT6VmhBLVpzGkdJsez8w==";
         };
+        _qEebmKYL = {
+            "id" = "qEebmKYL";
+            "file" = "Boss Warps 1.20.1 v1.0.73.jar";
+            "hash" = "sha512-aZGFCD0vngw/Ou7qeBmDjOYUmGeP7MVsJv7zvaNvfbtJWVaIdMeJIv/CNC5LHGqQrbXpANYuzJZDGvl2MG8Qcg==";
+        };
+        _wDL8wJM4 = {
+            "id" = "wDL8wJM4";
+            "file" = "Boss Warps 1.20.1 v1.0.74.jar";
+            "hash" = "sha512-sV0qz+ZMnjmWu56h8SH++fYubko1ucRCttceEeRpl1wGC+QJiwvAfklYYN7rQXq+Fp5/nc5qjWo8+PIKuw10EQ==";
+        };
+        _rxiyWqro = {
+            "id" = "rxiyWqro";
+            "file" = "Boss Warps 1.21(.1) v1.0.33.zip";
+            "hash" = "sha512-sH6jjhWhNh5KTUmCfNW/IMYSnVyjJeC6ByPKYE6kM9XtZMDs5aiPxWLsbW3CkU5LWDnp11NMmwNXS6iH51KpcA==";
+        };
+        _jOGqXXSa = {
+            "id" = "jOGqXXSa";
+            "file" = "boss-warps-1.0.33.jar";
+            "hash" = "sha512-rRaIuf8JqINfuCoo/V4XjIrz5vADRLBpzxibCHasn+K8SM+eW/ehSorBf5eWFWo6NlvxQBmPuejfWZvCcC6Ofg==";
+        };
+        _dvUcBuYP = {
+            "id" = "dvUcBuYP";
+            "file" = "Boss Warps 1.20.1 v1.0.75.jar";
+            "hash" = "sha512-Q400XuUR1clnKTnhRWa5AYsa2K+TBqjrWNZNOENHpqJS6ytXntNPdAEiMF0ujYmf2RiCriCLQYmylvz2oic8uQ==";
+        };
+        _wLYVlTET = {
+            "id" = "wLYVlTET";
+            "file" = "Boss Warps 1.21(.1) v1.0.34.zip";
+            "hash" = "sha512-GQzaIp9z1zj0/3kRaVga4UUz3qUYBsyy4wy5oVD305JWZ3J7PgR5inxWsqFX4gG3ZyAhENZwbJ7rbNxqTti6fA==";
+        };
+        _p7nxSOMG = {
+            "id" = "p7nxSOMG";
+            "file" = "boss-warps-1.0.34.jar";
+            "hash" = "sha512-/yCRZ7zYii8B9utEJ+3Dvza7px2QhqrZUq52SlEitXGoP3G2A4wXSW0qNhE9N2+FfipOCtNU+5T/FyNnyXVgZw==";
+        };
     in {
         "kdk9uohi" = _kdk9uohi;
         "XQ1mX6Qb" = _XQ1mX6Qb;
@@ -848,18 +883,25 @@ let
         "8SL3K9YG" = _8SL3K9YG;
         "R3iYfQOK" = _R3iYfQOK;
         "K18PGP4p" = _K18PGP4p;
-        "forge-1.20.1" = _K18PGP4p;
-        "forge-1.21" = _R3iYfQOK;
-        "forge-1.21.1" = _R3iYfQOK;
-        "neoforge-1.20.1" = _K18PGP4p;
-        "neoforge-1.21" = _R3iYfQOK;
-        "neoforge-1.21.1" = _R3iYfQOK;
-        "datapack-1.21" = _8SL3K9YG;
-        "datapack-1.21.1" = _8SL3K9YG;
-        "fabric-1.21" = _R3iYfQOK;
-        "fabric-1.21.1" = _R3iYfQOK;
-        "quilt-1.21" = _R3iYfQOK;
-        "quilt-1.21.1" = _R3iYfQOK;
+        "qEebmKYL" = _qEebmKYL;
+        "wDL8wJM4" = _wDL8wJM4;
+        "rxiyWqro" = _rxiyWqro;
+        "jOGqXXSa" = _jOGqXXSa;
+        "dvUcBuYP" = _dvUcBuYP;
+        "wLYVlTET" = _wLYVlTET;
+        "p7nxSOMG" = _p7nxSOMG;
+        "forge-1.20.1" = _dvUcBuYP;
+        "forge-1.21" = _p7nxSOMG;
+        "forge-1.21.1" = _p7nxSOMG;
+        "neoforge-1.20.1" = _dvUcBuYP;
+        "neoforge-1.21" = _p7nxSOMG;
+        "neoforge-1.21.1" = _p7nxSOMG;
+        "datapack-1.21" = _wLYVlTET;
+        "datapack-1.21.1" = _wLYVlTET;
+        "fabric-1.21" = _p7nxSOMG;
+        "fabric-1.21.1" = _p7nxSOMG;
+        "quilt-1.21" = _p7nxSOMG;
+        "quilt-1.21.1" = _p7nxSOMG;
         "pkg-1.0.0" = _vBLELd6G;
         "pkg-1.0.1" = _GQfTUsOm;
         "pkg-1.0.2" = _EwtWLY5h;
@@ -894,8 +936,8 @@ let
         "pkg-1.0.30" = _TZ76CBUJ;
         "pkg-1.0.31" = _hDUzJIVO;
         "pkg-1.0.32" = _8SL3K9YG;
-        "pkg-1.0.33" = _5s6VRmJw;
-        "pkg-1.0.34" = _nz4vsVpd;
+        "pkg-1.0.33" = _rxiyWqro;
+        "pkg-1.0.34" = _wLYVlTET;
         "pkg-1.0.35" = _hPLCdif6;
         "pkg-1.0.36" = _uBXbLo2l;
         "pkg-1.0.37" = _aIMFyuz9;
@@ -968,7 +1010,12 @@ let
         "pkg-1.0.71" = _tlnVFOX1;
         "pkg-1.0.32+mod" = _R3iYfQOK;
         "pkg-1.0.72" = _K18PGP4p;
-        "default" = _K18PGP4p;
+        "pkg-1.0.73" = _qEebmKYL;
+        "pkg-1.0.74" = _wDL8wJM4;
+        "pkg-1.0.33+mod" = _jOGqXXSa;
+        "pkg-1.0.75" = _dvUcBuYP;
+        "pkg-1.0.34+mod" = _p7nxSOMG;
+        "default" = _p7nxSOMG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "boss-warps";

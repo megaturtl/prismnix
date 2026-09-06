@@ -146,6 +146,16 @@ let
             "file" = "gpushift-gpu-v2-beta-universal-1.21.1-1.3.0-beta.5.jar";
             "hash" = "sha512-QA43fCIdq6Iqlxd8yA+22vSHySyoD1vqssh2Ef8l93jF6TaeNQ6hh9mULogSFI/jBsC4JW+PiS47YJ1b45n/2g==";
         };
+        _RsuZfnuf = {
+            "id" = "RsuZfnuf";
+            "file" = "gpushift-universal-1.20.1-1.2.8.jar";
+            "hash" = "sha512-FgStabQKyTpouG+N/oHEEy/ySyk/THJOMFvolYeWxe9rxJEhH1xSUwEKkPrnY1wY/KziByE1Zmv57RzpsvnhGw==";
+        };
+        _dXiMlK7w = {
+            "id" = "dXiMlK7w";
+            "file" = "gpushift-universal-1.21.1-1.2.8.jar";
+            "hash" = "sha512-9IJbmJnn1b/hkRAsuS22BrYR4XMOmbkugoyCLxvhGipX5Ql08z+MCbdWyVQQRt/AAy5cuMoKQs4fXGQ/r7KK+g==";
+        };
     in {
         "OczJ7ILt" = _OczJ7ILt;
         "W0cQpvHR" = _W0cQpvHR;
@@ -176,11 +186,13 @@ let
         "QH19vbKT" = _QH19vbKT;
         "vyPXqoNV" = _vyPXqoNV;
         "kSeiO6zE" = _kSeiO6zE;
-        "neoforge-1.21.1" = _kSeiO6zE;
+        "RsuZfnuf" = _RsuZfnuf;
+        "dXiMlK7w" = _dXiMlK7w;
+        "neoforge-1.21.1" = _dXiMlK7w;
         "neoforge-1.20.1" = _F6sTTOi5;
-        "fabric-1.21.1" = _kSeiO6zE;
-        "fabric-1.20.1" = _vyPXqoNV;
-        "forge-1.20.1" = _vyPXqoNV;
+        "fabric-1.21.1" = _dXiMlK7w;
+        "fabric-1.20.1" = _RsuZfnuf;
+        "forge-1.20.1" = _RsuZfnuf;
         "pkg-1.0.0" = _ldY1XCuE;
         "pkg-1.1.0" = _I3Y7BIOM;
         "pkg-1.2.0" = _nNPXGaPX;
@@ -195,7 +207,8 @@ let
         "pkg-1.3.0-beta.2" = _wd06nh91;
         "pkg-1.2.7" = _vyPXqoNV;
         "pkg-1.3.0-beta.3" = _kSeiO6zE;
-        "default" = _kSeiO6zE;
+        "pkg-1.2.8" = _dXiMlK7w;
+        "default" = _dXiMlK7w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gpushift";

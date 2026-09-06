@@ -86,6 +86,11 @@ let
             "file" = "cursed_tweaks-8.7.4-forge-1.20.1.jar";
             "hash" = "sha512-16EDzW7ij0JQ//qy5iHH1EwjtjacYSPwtQny1VzuK0jSq3zMXoGF/sThbw9wZf+8UPKBpLJNcJTS0vChze+nlw==";
         };
+        _zkIuVSIk = {
+            "id" = "zkIuVSIk";
+            "file" = "cursed_tweaks-9.1.0-forge-1.20.1.jar";
+            "hash" = "sha512-AR7u6Sqvb21/yay5NlyX2ittbagMSi57vrDxWR7O513adYSdTdpPehDpVwdM0SEuMRm0wdhANnHC292uA6ABdA==";
+        };
     in {
         "JLxKfL8l" = _JLxKfL8l;
         "XDOnLeCx" = _XDOnLeCx;
@@ -104,7 +109,8 @@ let
         "mr0CUNz1" = _mr0CUNz1;
         "l1GsxIb9" = _l1GsxIb9;
         "UCUKubw5" = _UCUKubw5;
-        "forge-1.20.1" = _UCUKubw5;
+        "zkIuVSIk" = _zkIuVSIk;
+        "forge-1.20.1" = _zkIuVSIk;
         "pkg-4.7.9" = _JLxKfL8l;
         "pkg-5.0.1" = _XDOnLeCx;
         "pkg-5.4.7" = _POMY8iYn;
@@ -122,7 +128,8 @@ let
         "pkg-8.6.2" = _mr0CUNz1;
         "pkg-8.7.2" = _l1GsxIb9;
         "pkg-8.7.4" = _UCUKubw5;
-        "default" = _UCUKubw5;
+        "pkg-9.1.0" = _zkIuVSIk;
+        "default" = _zkIuVSIk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cursed-fate-cursed-tweaks";

@@ -116,6 +116,11 @@ let
             "file" = "crossroads-1.21.1-2.11.8.jar";
             "hash" = "sha512-MrQoFy85zH9GBcLviTEGTZEnEamGu6RuKpKW8bPwHQneIGOC237yLzlvP5KN5ugYvZ6w/unFJBXtob78E7GRXQ==";
         };
+        _gg5b3sbY = {
+            "id" = "gg5b3sbY";
+            "file" = "crossroads-1.21.1-2.12.0.jar";
+            "hash" = "sha512-As0Q3DLscyFF9MaEuFUrjBhzPA0yMjGgdj2nhup4C3TtVcvUviORzDLCmfGTA5uHHzkTGRVVD74GN5/sZ01uVQ==";
+        };
     in {
         "UVBGspmq" = _UVBGspmq;
         "Eb2i3MQA" = _Eb2i3MQA;
@@ -140,6 +145,7 @@ let
         "EgSYNn26" = _EgSYNn26;
         "t11qGm7E" = _t11qGm7E;
         "s0w6wLtx" = _s0w6wLtx;
+        "gg5b3sbY" = _gg5b3sbY;
         "forge-1.20.1" = _clpfXXqV;
         "forge-1.19.4" = _Eb2i3MQA;
         "forge-1.18.2" = _pdev0yqn;
@@ -151,8 +157,8 @@ let
         "forge-1.10.2" = _ThKHOBy1;
         "forge-1.19.2" = _yuWRbwdF;
         "neoforge-1.20.1" = _clpfXXqV;
-        "neoforge-1.21" = _s0w6wLtx;
-        "neoforge-1.21.1" = _s0w6wLtx;
+        "neoforge-1.21" = _gg5b3sbY;
+        "neoforge-1.21.1" = _gg5b3sbY;
         "pkg-1.20.1-2.10.0" = _UVBGspmq;
         "pkg-1.19.4-2.9.7" = _Eb2i3MQA;
         "pkg-1.18.2-2.8.1" = _pdev0yqn;
@@ -176,7 +182,8 @@ let
         "pkg-1.21.1-2.11.6" = _EgSYNn26;
         "pkg-1.21.1-2.11.7" = _t11qGm7E;
         "pkg-1.21.1-2.11.8" = _s0w6wLtx;
-        "default" = _s0w6wLtx;
+        "pkg-1.21.1-2.12.0" = _gg5b3sbY;
+        "default" = _gg5b3sbY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crossroads";

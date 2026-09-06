@@ -76,6 +76,16 @@ let
             "file" = "vulkan-create-compat-13.0.0.jar";
             "hash" = "sha512-t0AgpkH77E5Adx3seyf6HBGRGKEhl0xofXVrUJqT9zZKKIbR+VlN2exG9A+au5HZf/EBUsxzX9JvOPLwaEPRjA==";
         };
+        _XmiPrHhO = {
+            "id" = "XmiPrHhO";
+            "file" = "vulkan-create-compat-13.0.0.jar";
+            "hash" = "sha512-erN+PsMWWYjl4jUQ5OP3LmIlC0wt43+cjK9pts0EvbnqO7J0r/Si67bmVoLCPscIMTfJcfieM/veiJB5F04msQ==";
+        };
+        _vf73SmVD = {
+            "id" = "vf73SmVD";
+            "file" = "vulkan-create-compat-14.0.0.jar";
+            "hash" = "sha512-Nh7AitCAJX1u985ATumdXRSSj2SkZDdHl9WFkYorf9mCXY+uckBRm1Fg66APQpn+dEh+YdnpRdsJiSXzJ0wQYg==";
+        };
     in {
         "LW22mXvz" = _LW22mXvz;
         "kS3YBQVj" = _kS3YBQVj;
@@ -92,7 +102,9 @@ let
         "eqEn8xaU" = _eqEn8xaU;
         "8eSKPmZ7" = _8eSKPmZ7;
         "nOHhWXT3" = _nOHhWXT3;
-        "fabric-1.20.1" = _vYBUb77i;
+        "XmiPrHhO" = _XmiPrHhO;
+        "vf73SmVD" = _vf73SmVD;
+        "fabric-1.20.1" = _vf73SmVD;
         "fabric-1.21.10" = _8eSKPmZ7;
         "fabric-1.21.11" = _nOHhWXT3;
         "pkg-1.0.0" = _LW22mXvz;
@@ -107,8 +119,9 @@ let
         "pkg-10.0.0" = _vtDs9ejI;
         "pkg-11.0.0" = _sUnlQZOn;
         "pkg-12.0.0" = _eqEn8xaU;
-        "pkg-13.0.0" = _nOHhWXT3;
-        "default" = _nOHhWXT3;
+        "pkg-13.0.0" = _XmiPrHhO;
+        "pkg-14.0.0" = _vf73SmVD;
+        "default" = _vf73SmVD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vulkan-create-compatibility";

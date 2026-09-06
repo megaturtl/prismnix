@@ -311,6 +311,31 @@ let
             "file" = "forcemaster-class-mod-1.2.6-1.20.1.jar";
             "hash" = "sha512-puOe2pxhjbEcm2sHECH7Rcl9MSHviuY7qGJ+Ngh6owymD+Nn44qC5uBODXrOgLuk0mbPQmdMXEoB6gR+/ANZ8A==";
         };
+        _mpMlv1RJ = {
+            "id" = "mpMlv1RJ";
+            "file" = "forcemaster-class-mod-1.2.7-1.20.1.jar";
+            "hash" = "sha512-DPu3/nsUXMsOXxgG7/yzD1e6D5+ZHX29bBt8gQPvqDmgx1RJF8Evg+ncC1pF4ydXdWGbsgBkmfvl5+me0+MXyg==";
+        };
+        _kAelM2R4 = {
+            "id" = "kAelM2R4";
+            "file" = "forcemaster_rpg-fabric-3.0.0+1.21.1.jar";
+            "hash" = "sha512-gFUsU/iXHhPcbJ7/ysOJngnBaOPM43uXkuYXnppdW1tXckZHzrz5T1nBaER8FPmv9/dxODjxpy3L80PiILMRrQ==";
+        };
+        _JjCTPJ3z = {
+            "id" = "JjCTPJ3z";
+            "file" = "forcemaster_rpg-neoforge-3.0.0+1.21.1.jar";
+            "hash" = "sha512-vhwArFcMXO5SOKVTHVgfk/3BwMFq5BCUlJQZ7Jp2e2jOrTiz0lqvcez6nFIAY4zaHBgbt8IPhAT/1Jk9lh2oyw==";
+        };
+        _60qSBk5A = {
+            "id" = "60qSBk5A";
+            "file" = "forcemaster_rpg-fabric-3.1.0+1.21.1.jar";
+            "hash" = "sha512-wUbzGvr0bT481WviIQImxPP3w/faa3G0mCTdflxS8+4VvMay1CHw2VSC+S5bzs8QoCK7ubw4KMgavJfcKOX2uw==";
+        };
+        _JoDQSIOO = {
+            "id" = "JoDQSIOO";
+            "file" = "forcemaster_rpg-neoforge-3.1.0+1.21.1.jar";
+            "hash" = "sha512-etTb6piHrpygDT3zhNDAiMhi1l7muf6kfMbxvcninA38jkidLq+idgmkLBfn80cPuEtE+XJX1Bz6yOvTKG2D/Q==";
+        };
     in {
         "gtmt4nxC" = _gtmt4nxC;
         "ykMKn30A" = _ykMKn30A;
@@ -374,10 +399,15 @@ let
         "cgEFs1KH" = _cgEFs1KH;
         "ONfc3WT4" = _ONfc3WT4;
         "fQs02xLz" = _fQs02xLz;
-        "fabric-1.20.1" = _fQs02xLz;
+        "mpMlv1RJ" = _mpMlv1RJ;
+        "kAelM2R4" = _kAelM2R4;
+        "JjCTPJ3z" = _JjCTPJ3z;
+        "60qSBk5A" = _60qSBk5A;
+        "JoDQSIOO" = _JoDQSIOO;
+        "fabric-1.20.1" = _mpMlv1RJ;
         "fabric-1.21" = _9cktt524;
-        "fabric-1.21.1" = _jvOwJGuV;
-        "neoforge-1.21.1" = _cgEFs1KH;
+        "fabric-1.21.1" = _60qSBk5A;
+        "neoforge-1.21.1" = _JoDQSIOO;
         "pkg-1.0.0" = _gtmt4nxC;
         "pkg-1.0.1" = _ykMKn30A;
         "pkg-1.0.2" = _ISIgahjH;
@@ -440,7 +470,12 @@ let
         "pkg-2.6.0+1.21.1-neoforge" = _cgEFs1KH;
         "pkg-1.2.5-1.20.1" = _ONfc3WT4;
         "pkg-1.2.6-1.20.1" = _fQs02xLz;
-        "default" = _fQs02xLz;
+        "pkg-1.2.7-1.20.1" = _mpMlv1RJ;
+        "pkg-3.0.0+1.21.1-fabric" = _kAelM2R4;
+        "pkg-3.0.0+1.21.1-neoforge" = _JjCTPJ3z;
+        "pkg-3.1.0+1.21.1-fabric" = _60qSBk5A;
+        "pkg-3.1.0+1.21.1-neoforge" = _JoDQSIOO;
+        "default" = _JoDQSIOO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "forcemaster-rpg-class";

@@ -416,6 +416,11 @@ let
             "file" = "DungeonCrawl-NeoForge-26.1-2.3.17.jar";
             "hash" = "sha512-0/F0igoa90egclku7a/tdGC0EDKBqQql46oxpJXGecNpY+8V0j8JNFq+v4qHdi92+v5X8Fk2buM7lZb05qLJyg==";
         };
+        _Y8DFD7Qi = {
+            "id" = "Y8DFD7Qi";
+            "file" = "DungeonCrawl-NeoForge-26.2-2.3.17.jar";
+            "hash" = "sha512-LjqCleTZNSgTSUHqGiglNl20483KpLopzVsVS5K6mOLWGJPtQ/pzM7hbd4fbPQV73Reuue12CZtY1pRt+SwtXQ==";
+        };
     in {
         "i60amiqe" = _i60amiqe;
         "vNs64gtO" = _vNs64gtO;
@@ -500,6 +505,7 @@ let
         "D7lKpb69" = _D7lKpb69;
         "SYeGOEIt" = _SYeGOEIt;
         "CKaCNpB8" = _CKaCNpB8;
+        "Y8DFD7Qi" = _Y8DFD7Qi;
         "forge-1.14" = _vNs64gtO;
         "forge-1.14.1" = _vNs64gtO;
         "forge-1.14.2" = _IbRfX5Mb;
@@ -536,6 +542,7 @@ let
         "neoforge-26.1" = _CKaCNpB8;
         "neoforge-26.1.1" = _CKaCNpB8;
         "neoforge-26.1.2" = _CKaCNpB8;
+        "neoforge-26.2" = _Y8DFD7Qi;
         "pkg-1.0.0" = _i60amiqe;
         "pkg-1.1.0" = _D1WR0fAs;
         "pkg-1.1.1" = _JmPNckAx;
@@ -574,8 +581,8 @@ let
         "pkg-2.3.14" = _ijlRKVbB;
         "pkg-2.3.15" = _RBozVFRJ;
         "pkg-2.3.16" = _5PufLopq;
-        "pkg-2.3.17" = _CKaCNpB8;
-        "default" = _CKaCNpB8;
+        "pkg-2.3.17" = _Y8DFD7Qi;
+        "default" = _Y8DFD7Qi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dungeoncrawl";

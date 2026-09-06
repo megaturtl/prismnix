@@ -26,22 +26,30 @@ let
             "file" = "modernmapart-1.3-1.21.11.jar";
             "hash" = "sha512-H+7jxH8sAFMfRD/fa+/ER0zNtZoc8U55y0YtXc1MiksbcucHIolGOoFaKRoizdfsay77BrXhMfPpVIGZFb+gMw==";
         };
+        _E9oyirAw = {
+            "id" = "E9oyirAw";
+            "file" = "modernmaptooltip-1.3-26.2.jar";
+            "hash" = "sha512-7bhh/gzlr6GKBwGeOzGs/471hOcg+YI4oLATSkBAZ8v6C8hnVO/GzkVJuxAzBI98mnJe4IIjE0vYDqmbOiWzLw==";
+        };
     in {
         "2isxIULY" = _2isxIULY;
         "b56ClzpZ" = _b56ClzpZ;
         "QVlni6gW" = _QVlni6gW;
         "O4IkYyM4" = _O4IkYyM4;
         "XQh18Yqf" = _XQh18Yqf;
+        "E9oyirAw" = _E9oyirAw;
         "fabric-1.21.11" = _XQh18Yqf;
         "fabric-26.1" = _O4IkYyM4;
         "fabric-26.1.1" = _O4IkYyM4;
         "fabric-26.1.2" = _O4IkYyM4;
+        "fabric-26.2" = _E9oyirAw;
         "pkg-1.0" = _2isxIULY;
         "pkg-1.1" = _b56ClzpZ;
         "pkg-1.2" = _QVlni6gW;
         "pkg-1.3-26.1" = _O4IkYyM4;
         "pkg-1.3-1.21.11" = _XQh18Yqf;
-        "default" = _XQh18Yqf;
+        "pkg-1.3-26.2" = _E9oyirAw;
+        "default" = _E9oyirAw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modern-map-tooltip";

@@ -156,6 +156,26 @@ let
             "file" = "g4mespeed-capture-playback-0.7.0-beta-mc26.1.2.jar";
             "hash" = "sha512-1JezSkmtHXPS8n+4DeHe2pcuvxXeLgfg+UQOfOfxGwZjLHwDW+7xE2R2b8ASHRmDGnK5LUIGj5BPrd4nHmTYdg==";
         };
+        _uEpor33I = {
+            "id" = "uEpor33I";
+            "file" = "g4mespeed-capture-playback-0.8.0-beta-mc1.20.6.jar";
+            "hash" = "sha512-xlwzSdXp3H6JD/B9pC2uBJhbrW29F793iLcDVFMS93nhsvZgtqJ1xg60vqY4f2IU0vtzVlmC7rDvraDSw5Fc1Q==";
+        };
+        _x6HoAPQ6 = {
+            "id" = "x6HoAPQ6";
+            "file" = "g4mespeed-capture-playback-0.8.0-beta-mc1.21.11.jar";
+            "hash" = "sha512-tT5E6dHyCtndRIcjTE1dlLemSRMhMvyfwZRjEcmfz9bhO6irBt7zpNhgoVLNnDZaJVrF6a5Ch/i2UTwWpW3iUA==";
+        };
+        _P5xruOOd = {
+            "id" = "P5xruOOd";
+            "file" = "g4mespeed-capture-playback-0.8.0-beta-mc26.1.2.jar";
+            "hash" = "sha512-x+28jD3QNnEpMVcnPOzsVDKtiHwxNsGQk7IcYmoEheDDykx43Lv6ukgKLi74Ybo0P6AuHDTkP+vTwllbAvHU9w==";
+        };
+        _N0pmrAgx = {
+            "id" = "N0pmrAgx";
+            "file" = "g4mespeed-capture-playback-0.8.0-beta-mc26.2.jar";
+            "hash" = "sha512-8hhn07/AC1JV8gY7Kan6HlHBFxXM6rgMgiphlH2bdFOv5fgSyQVNz2sxHM7aL0Ri3ly3ewzPq6LZEkZy68H8fg==";
+        };
     in {
         "cbvGiKHr" = _cbvGiKHr;
         "BJafuUpH" = _BJafuUpH;
@@ -188,6 +208,10 @@ let
         "xr0iSIwy" = _xr0iSIwy;
         "WpfPl2Bs" = _WpfPl2Bs;
         "GB8DFJ0S" = _GB8DFJ0S;
+        "uEpor33I" = _uEpor33I;
+        "x6HoAPQ6" = _x6HoAPQ6;
+        "P5xruOOd" = _P5xruOOd;
+        "N0pmrAgx" = _N0pmrAgx;
         "fabric-1.16.5" = _cbvGiKHr;
         "fabric-1.17.1" = _BJafuUpH;
         "fabric-1.18.2" = _e7uR1QV1;
@@ -196,7 +220,7 @@ let
         "fabric-1.20.2" = _UqJflYo2;
         "fabric-1.20.4" = _UIt2iWPq;
         "fabric-1.20.5" = _ZebNinH9;
-        "fabric-1.20.6" = _cxEmUTWp;
+        "fabric-1.20.6" = _uEpor33I;
         "fabric-1.21" = _B6WIOW04;
         "fabric-1.21.2" = _YmnYuB3l;
         "fabric-1.21.3" = _YmnYuB3l;
@@ -207,10 +231,11 @@ let
         "fabric-1.21.8" = _JMt40R0f;
         "fabric-1.21.9" = _KSuLji0m;
         "fabric-1.21.10" = _gB7Pdv0G;
-        "fabric-1.21.11" = _F8E5MIpL;
+        "fabric-1.21.11" = _x6HoAPQ6;
         "fabric-26.1" = _xr0iSIwy;
         "fabric-26.1.1" = _WpfPl2Bs;
-        "fabric-26.1.2" = _GB8DFJ0S;
+        "fabric-26.1.2" = _P5xruOOd;
+        "fabric-26.2" = _N0pmrAgx;
         "pkg-0.5.2-beta" = _kCXnoaln;
         "pkg-0.5.3-beta" = _CSQdsjEC;
         "pkg-0.5.4-beta" = _zRtjPwG0;
@@ -237,7 +262,11 @@ let
         "pkg-0.7.0-beta-mc26.1" = _xr0iSIwy;
         "pkg-0.7.0-beta-mc26.1.1" = _WpfPl2Bs;
         "pkg-0.7.0-beta-mc26.1.2" = _GB8DFJ0S;
-        "default" = _GB8DFJ0S;
+        "pkg-0.8.0-beta-mc1.20.6" = _uEpor33I;
+        "pkg-0.8.0-beta-mc1.21.11" = _x6HoAPQ6;
+        "pkg-0.8.0-beta-mc26.1.2" = _P5xruOOd;
+        "pkg-0.8.0-beta-mc26.2" = _N0pmrAgx;
+        "default" = _N0pmrAgx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "capture-playback";

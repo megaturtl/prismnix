@@ -23,6 +23,11 @@ let
         "minecraft-1.21.8" = _pFDWsNBr;
         "minecraft-1.21.9" = _pFDWsNBr;
         "minecraft-1.21.10" = _pFDWsNBr;
+        "minecraft-1.21.11" = _pFDWsNBr;
+        "minecraft-26.1" = _pFDWsNBr;
+        "minecraft-26.1.1" = _pFDWsNBr;
+        "minecraft-26.1.2" = _pFDWsNBr;
+        "minecraft-26.2" = _pFDWsNBr;
         "vanilla-1.21.2" = _7TjWnsnb;
         "vanilla-1.21.3" = _7TjWnsnb;
         "vanilla-1.21.4" = _7TjWnsnb;

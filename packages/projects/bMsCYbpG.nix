@@ -21,11 +21,23 @@ let
             "file" = "! §7§lMace §fOptimized.zip";
             "hash" = "sha512-1k75fvFIBENPb2sdzV+LXnAPuHeK2hc6xzRk00V1x7Vu8XfaE6elJ0W+VamJ0V5vubAy+ZPXBTRAIwCgiFtfKQ==";
         };
+        _zWeoQw71 = {
+            "id" = "zWeoQw71";
+            "file" = "! §7§lMace §fOptimized.zip";
+            "hash" = "sha512-6+j3ITJInuzxiaLx/4xmS4Wtjh6TNeHx9Kdh2i6NqEZphJPLjria5PtOimzbTtUtH1q4Bnrt/cqmKRNmED6fqg==";
+        };
+        _7KYPgqUi = {
+            "id" = "7KYPgqUi";
+            "file" = "! §7§lMace §fOptimized.zip";
+            "hash" = "sha512-KaV682F7Ua+p/j/azHXvy+ZlrSObQoc/qtXCixxcJ8xPjcQ/g3zkomDIePlo85X9107/wuRho9fWfD2c1gdT7w==";
+        };
     in {
         "SokyCiyJ" = _SokyCiyJ;
         "uSB3Xuav" = _uSB3Xuav;
         "XhLYXvRy" = _XhLYXvRy;
         "idViF6qj" = _idViF6qj;
+        "zWeoQw71" = _zWeoQw71;
+        "7KYPgqUi" = _7KYPgqUi;
         "minecraft-1.16" = _idViF6qj;
         "minecraft-1.16.1" = _idViF6qj;
         "minecraft-1.16.2" = _idViF6qj;
@@ -52,21 +64,23 @@ let
         "minecraft-1.21" = _idViF6qj;
         "minecraft-1.21.1" = _idViF6qj;
         "minecraft-1.21.2" = _idViF6qj;
-        "minecraft-1.21.3" = _idViF6qj;
+        "minecraft-1.21.3" = _7KYPgqUi;
         "minecraft-1.21.4" = _idViF6qj;
-        "minecraft-1.21.5" = _XhLYXvRy;
-        "minecraft-1.21.6" = _XhLYXvRy;
-        "minecraft-1.21.7" = _XhLYXvRy;
-        "minecraft-1.21.8" = _XhLYXvRy;
-        "minecraft-1.21.9" = _XhLYXvRy;
-        "minecraft-1.21.10" = _XhLYXvRy;
-        "minecraft-1.21.11" = _XhLYXvRy;
-        "minecraft-26.1" = _XhLYXvRy;
-        "minecraft-26.1.1" = _XhLYXvRy;
-        "minecraft-26.1.2" = _XhLYXvRy;
+        "minecraft-1.21.5" = _zWeoQw71;
+        "minecraft-1.21.6" = _zWeoQw71;
+        "minecraft-1.21.7" = _zWeoQw71;
+        "minecraft-1.21.8" = _zWeoQw71;
+        "minecraft-1.21.9" = _zWeoQw71;
+        "minecraft-1.21.10" = _zWeoQw71;
+        "minecraft-1.21.11" = _zWeoQw71;
+        "minecraft-26.1" = _zWeoQw71;
+        "minecraft-26.1.1" = _zWeoQw71;
+        "minecraft-26.1.2" = _zWeoQw71;
+        "minecraft-26.2" = _zWeoQw71;
         "pkg-1.0.0" = _uSB3Xuav;
         "pkg-1.1.0" = _idViF6qj;
-        "default" = _idViF6qj;
+        "pkg-1.2.0" = _7KYPgqUi;
+        "default" = _7KYPgqUi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mace-optimized";

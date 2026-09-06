@@ -286,6 +286,31 @@ let
             "file" = "DragNs_Livestock_Overhaul-1.20.1-3.8.jar";
             "hash" = "sha512-E814zgMPxMIUdxyiQsL4CZPJQRHoKLr5FkbgVLMiwn6Cv6ReWnc4npvZkaiBmoTWWbhTYqBvYQoydL5yMRPJEQ==";
         };
+        _BUUoE2ci = {
+            "id" = "BUUoE2ci";
+            "file" = "DragNs_Livestock_Overhaul-1.20.1-3.9.jar";
+            "hash" = "sha512-S4vXKyJtAveSpENFRfOSb/avwhHGCE62YLMbOQrD91QqqZ3asPcFkHi/ZIdgVrGneyOd+YCcum76c5nJVaWyww==";
+        };
+        _qnxFpee9 = {
+            "id" = "qnxFpee9";
+            "file" = "DragNs_Livestock_Overhaul-1.20.1-3.9.1.jar";
+            "hash" = "sha512-hZaHFhigQhIX+9/UmsrIMCA4ECe4uDUEKisGGHgAOEgadkQkUVj5i+EwJh7Z3eH65iAS7WP95iXLeKHIIe513A==";
+        };
+        _dlbp1AZH = {
+            "id" = "dlbp1AZH";
+            "file" = "DragNs_Livestock_Overhaul-1.20.1-3.9.2.jar";
+            "hash" = "sha512-QpcBAXWwt7OVY2JPu1DvqquVHC7mUvFrgS7DlnqCyQSU9tzZSYyKWHXB8vB/I8LQtVUlfL7l8vM7IE5loRatng==";
+        };
+        _HK6Xw1kh = {
+            "id" = "HK6Xw1kh";
+            "file" = "DragNs_Livestock_Overhaul-1.20.1-3.9.3.jar";
+            "hash" = "sha512-YAaU5o9l28sBRzNLtbckD1Wz8mHeos697+vHjjlbTLQNdESRzzJdozhQYLIHh7QlRUD/UtcGLi+G1+awO4k2FA==";
+        };
+        _kEPXPF5A = {
+            "id" = "kEPXPF5A";
+            "file" = "DragNs_Livestock_Overhaul-1.20.1-3.9.4.jar";
+            "hash" = "sha512-gziSJtwazbhheJSf+deylmni88C3yrJtyn6uVusGIbctxNm94QpVmI3A7Xbl3itk/p0kLkl0oQJyaMDnX7JLcA==";
+        };
     in {
         "5WFU809a" = _5WFU809a;
         "S0qhRFOh" = _S0qhRFOh;
@@ -344,8 +369,13 @@ let
         "UmXHeg3M" = _UmXHeg3M;
         "D9GLUTFM" = _D9GLUTFM;
         "oN2Fbruo" = _oN2Fbruo;
+        "BUUoE2ci" = _BUUoE2ci;
+        "qnxFpee9" = _qnxFpee9;
+        "dlbp1AZH" = _dlbp1AZH;
+        "HK6Xw1kh" = _HK6Xw1kh;
+        "kEPXPF5A" = _kEPXPF5A;
         "forge-1.18.2" = _963G6fbc;
-        "forge-1.20.1" = _oN2Fbruo;
+        "forge-1.20.1" = _kEPXPF5A;
         "pkg-1.18.2-1.0" = _5WFU809a;
         "pkg-1.18.2-1.0.1" = _S0qhRFOh;
         "pkg-1.18.2-1.1" = _J6LsgGXo;
@@ -400,7 +430,12 @@ let
         "pkg-3.6.2" = _UmXHeg3M;
         "pkg-3.7" = _D9GLUTFM;
         "pkg-3.8" = _oN2Fbruo;
-        "default" = _oN2Fbruo;
+        "pkg-3.9" = _BUUoE2ci;
+        "pkg-3.9.1" = _qnxFpee9;
+        "pkg-3.9.2" = _dlbp1AZH;
+        "pkg-3.9.3" = _HK6Xw1kh;
+        "pkg-3.9.4" = _kEPXPF5A;
+        "default" = _kEPXPF5A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dragns-livestock-overhaul";

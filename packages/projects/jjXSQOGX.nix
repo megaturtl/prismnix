@@ -341,6 +341,11 @@ let
             "file" = "Veinmine-universal-26.2-1.4.1.jar";
             "hash" = "sha512-RV2BF2yfIwn6K/ClCKtrJ7WWu92L85SlKnMGgzUwXtfm9xKdpabl7j5lxfxeMVpL2662f9xb8yW0+EpbGqq3fw==";
         };
+        _VGKKRWnA = {
+            "id" = "VGKKRWnA";
+            "file" = "Veinmine-fabric-26.3-snapshot-9-1.4.2-beta.1.jar";
+            "hash" = "sha512-bdE01pGjdzlNOz8m+iYItjcvXz3gb958a9K5nOWmvvPBpvf+lnRggrUa0kODwrrARwgZAnzBLtUrLpBwfzm6Pw==";
+        };
     in {
         "2tvryleG" = _2tvryleG;
         "xz192nbO" = _xz192nbO;
@@ -410,6 +415,7 @@ let
         "HBrNFVe4" = _HBrNFVe4;
         "KDtEuq8g" = _KDtEuq8g;
         "JHZ1ry2q" = _JHZ1ry2q;
+        "VGKKRWnA" = _VGKKRWnA;
         "fabric-1.21.4" = _mzEL5YZ0;
         "fabric-1.21.5" = _kVLh0GKg;
         "fabric-1.21.6" = _gGW7eTCp;
@@ -433,6 +439,7 @@ let
         "fabric-26.2-pre-3" = _fmq7HPfs;
         "fabric-26.2-rc-2" = _2rin0usl;
         "fabric-26.2" = _JHZ1ry2q;
+        "fabric-26.3-snapshot-9" = _VGKKRWnA;
         "neoforge-26.1-snapshot-2" = _9EvBfX23;
         "neoforge-26.1-snapshot-6" = _s1R2jVEw;
         "neoforge-26.1-snapshot-11" = _7NnzbCZs;
@@ -482,7 +489,8 @@ let
         "pkg-1.4.1-beta.3" = _2rin0usl;
         "pkg-1.4.1" = _KDtEuq8g;
         "pkg-1.4.1-universal" = _JHZ1ry2q;
-        "default" = _JHZ1ry2q;
+        "pkg-1.4.2-beta.1" = _VGKKRWnA;
+        "default" = _VGKKRWnA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "veinmine";

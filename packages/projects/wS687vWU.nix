@@ -51,6 +51,11 @@ let
             "file" = "tornado_intercept-1.5.4-neoforge-1.21.1.jar";
             "hash" = "sha512-q6kgor/8MkKLJsTLrPAUHJSnY478pzwpoC0j5qPP+bv8oHRDEzD8HAWvM+KalxlU5wlUKHoMv1VD31u2pWoEHQ==";
         };
+        _PkAIsBjB = {
+            "id" = "PkAIsBjB";
+            "file" = "tornado_intercept-1.5.5-neoforge-1.21.1.jar";
+            "hash" = "sha512-t6LW63cy1oaCLq2Hy0CdT6t+TCP44y9rJPmYg3Y+99SWKxSfkdEZWNnM3u7p5Dm2s+t3swdLIrNW1G08hUFOYQ==";
+        };
     in {
         "tkM6JEtn" = _tkM6JEtn;
         "tl9nHudK" = _tl9nHudK;
@@ -62,7 +67,8 @@ let
         "AJSJaFxV" = _AJSJaFxV;
         "5pfMb9eo" = _5pfMb9eo;
         "AIPpO82i" = _AIPpO82i;
-        "neoforge-1.21.1" = _AIPpO82i;
+        "PkAIsBjB" = _PkAIsBjB;
+        "neoforge-1.21.1" = _PkAIsBjB;
         "pkg-1.0.0" = _tkM6JEtn;
         "pkg-1.1.0" = _tl9nHudK;
         "pkg-1.1.2" = _kmE8n4o6;
@@ -73,7 +79,8 @@ let
         "pkg-1.4.3" = _AJSJaFxV;
         "pkg-1.4.4" = _5pfMb9eo;
         "pkg-1.5.4" = _AIPpO82i;
-        "default" = _AIPpO82i;
+        "pkg-1.5.5" = _PkAIsBjB;
+        "default" = _PkAIsBjB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tornado-intercept";

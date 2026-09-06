@@ -9,7 +9,7 @@ let
     in {
         "u3C3mX29" = _u3C3mX29;
         "forge-1.20.1" = _u3C3mX29;
-        "pkg-1.0.0" = _u3C3mX29;
+        "pkg-1.69.420" = _u3C3mX29;
         "default" = _u3C3mX29;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
@@ -18,13 +18,13 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-idk-just-do-whatever-you-want-with-the-mod-i-wouldnt-care" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "LicenseRef-All-Rights-Reserved";
-                shortName = "LicenseRef-All-Rights-Reserved";
-                url = null;
+                fullName = "LicenseRef-idk-just-do-whatever-you-want-with-the-mod-i-wouldnt-care";
+                shortName = "LicenseRef-idk-just-do-whatever-you-want-with-the-mod-i-wouldnt-care";
+                url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
             };
         };
     };

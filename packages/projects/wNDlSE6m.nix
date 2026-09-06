@@ -31,6 +31,11 @@ let
             "file" = "create_steelskin-2.1.1-neoforge-1.21.1.jar";
             "hash" = "sha512-3QYMvoWan1RcNXEDkNnAWt1hPstjg1UIEPkuMDsuWHF/+eWs/ev/IELCzOrpU1fpSZbchEkB4y0AtzmRDIaWxQ==";
         };
+        _U6uHOI7Y = {
+            "id" = "U6uHOI7Y";
+            "file" = "create_steelskin-2.1.3-neoforge-1.21.1.jar";
+            "hash" = "sha512-zATjR2ZpWCNy49y0cFCRBXGl8GvH3k4jv1FbOSNPD1qKHDbdDFIx3zV329d7w7PxfPm/e/ohfpjszhRJ0Xt2ug==";
+        };
     in {
         "F6PMdJgl" = _F6PMdJgl;
         "XQdoVXM0" = _XQdoVXM0;
@@ -38,14 +43,16 @@ let
         "uHKzafG1" = _uHKzafG1;
         "oSWF92Jg" = _oSWF92Jg;
         "JpwMr8Q3" = _JpwMr8Q3;
-        "neoforge-1.21.1" = _JpwMr8Q3;
+        "U6uHOI7Y" = _U6uHOI7Y;
+        "neoforge-1.21.1" = _U6uHOI7Y;
         "pkg-1.0.5" = _F6PMdJgl;
         "pkg-1.0.6" = _XQdoVXM0;
         "pkg-1.0.7" = _Vyn1vb3l;
         "pkg-2.0.0" = _uHKzafG1;
         "pkg-2.1.0" = _oSWF92Jg;
         "pkg-2.1.1" = _JpwMr8Q3;
-        "default" = _JpwMr8Q3;
+        "pkg-2.1.3" = _U6uHOI7Y;
+        "default" = _U6uHOI7Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-steelskin";

@@ -166,6 +166,11 @@ let
             "file" = "Weskerson's 3D Items.zip";
             "hash" = "sha512-8cjKlb56uLl3f0dxb+ByTlX50lyx27M/DHbIbrHYFzHrP6+dSpkrj8+Lz/EyDQBmHul3xwpd2OjAgdnBdixdUg==";
         };
+        _YT79F9pj = {
+            "id" = "YT79F9pj";
+            "file" = "Weskerson's 3D Items.zip";
+            "hash" = "sha512-Lm/YepKn53dSebHxq2P0w3wjFMEMK6igwGmVqnuXwavc1oslDMSMAKj/tNjMW7gjThcnMIMBypic0lk7HdN7fQ==";
+        };
     in {
         "vBJrMi6L" = _vBJrMi6L;
         "1YHXGLiY" = _1YHXGLiY;
@@ -200,16 +205,20 @@ let
         "xBQ4X1l7" = _xBQ4X1l7;
         "ErHl2t11" = _ErHl2t11;
         "igK5lpoh" = _igK5lpoh;
-        "minecraft-1.21.4" = _igK5lpoh;
-        "minecraft-1.21.5" = _igK5lpoh;
-        "minecraft-1.21.6" = _igK5lpoh;
-        "minecraft-1.21.7" = _igK5lpoh;
-        "minecraft-1.21.8" = _igK5lpoh;
+        "YT79F9pj" = _YT79F9pj;
+        "minecraft-1.21.4" = _YT79F9pj;
+        "minecraft-1.21.5" = _YT79F9pj;
+        "minecraft-1.21.6" = _YT79F9pj;
+        "minecraft-1.21.7" = _YT79F9pj;
+        "minecraft-1.21.8" = _YT79F9pj;
         "minecraft-25w36b" = _T7QMkMna;
-        "minecraft-1.21.9" = _igK5lpoh;
-        "minecraft-1.21.10" = _igK5lpoh;
-        "minecraft-1.21.11" = _igK5lpoh;
-        "minecraft-26.1" = _igK5lpoh;
+        "minecraft-1.21.9" = _YT79F9pj;
+        "minecraft-1.21.10" = _YT79F9pj;
+        "minecraft-1.21.11" = _YT79F9pj;
+        "minecraft-26.1" = _YT79F9pj;
+        "minecraft-26.1.1" = _YT79F9pj;
+        "minecraft-26.1.2" = _YT79F9pj;
+        "minecraft-26.2" = _YT79F9pj;
         "pkg-1.0" = _Kexr3JXR;
         "pkg-1.1" = _1YHXGLiY;
         "pkg-1.2" = _rGWNpTGd;
@@ -237,7 +246,8 @@ let
         "pkg-2.4.1" = _xBQ4X1l7;
         "pkg-2.4.2" = _ErHl2t11;
         "pkg-2.4.3" = _igK5lpoh;
-        "default" = _igK5lpoh;
+        "pkg-2.5" = _YT79F9pj;
+        "default" = _YT79F9pj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tools-and-utils";

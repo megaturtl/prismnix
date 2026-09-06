@@ -106,6 +106,11 @@ let
             "file" = "enhancedkeybinds-4.0.0+26.1.x.jar";
             "hash" = "sha512-zd9vvu/V0jd6AgPtsVUlZAbbsU4RQF5dshxplh7q6p6dojyMbfJJlNKW2pX2fyZG2miIbQfllGY8bb78GeE9mw==";
         };
+        _UEXytndB = {
+            "id" = "UEXytndB";
+            "file" = "enhancedkeybinds-4.0.0+26.2.jar";
+            "hash" = "sha512-bhp8gmh9jW2H1yi8Li9aJ5uVZqxHv59YEHlLnikKgO83VJdDKsIXt/rN08Mdp+X0qza442i/DzHLsTn7Y+Beow==";
+        };
     in {
         "dKw1yoKF" = _dKw1yoKF;
         "Znlbuflh" = _Znlbuflh;
@@ -128,6 +133,7 @@ let
         "d2TQ8MBu" = _d2TQ8MBu;
         "X7C90Pi4" = _X7C90Pi4;
         "1WnvcLUB" = _1WnvcLUB;
+        "UEXytndB" = _UEXytndB;
         "fabric-1.21.4" = _MGTXjjSf;
         "fabric-1.21.7" = _P06ZGvqG;
         "fabric-1.21.5" = _gWHVPETh;
@@ -137,10 +143,12 @@ let
         "fabric-26.1" = _1WnvcLUB;
         "fabric-26.1.1" = _1WnvcLUB;
         "fabric-26.1.2" = _1WnvcLUB;
+        "fabric-26.2" = _UEXytndB;
         "quilt-1.21.11" = _X7C90Pi4;
         "quilt-26.1" = _1WnvcLUB;
         "quilt-26.1.1" = _1WnvcLUB;
         "quilt-26.1.2" = _1WnvcLUB;
+        "quilt-26.2" = _UEXytndB;
         "pkg-0.0.1" = _dKw1yoKF;
         "pkg-0.0.2" = _Znlbuflh;
         "pkg-0.0.3" = _cP4b3UYR;
@@ -160,7 +168,8 @@ let
         "pkg-3.2.1+1.21.11" = _d2TQ8MBu;
         "pkg-4.0.0+1.21.11" = _X7C90Pi4;
         "pkg-4.0.0+26.1.x" = _1WnvcLUB;
-        "default" = _1WnvcLUB;
+        "pkg-4.0.0+26.2" = _UEXytndB;
+        "default" = _UEXytndB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enhanced-keybinds";

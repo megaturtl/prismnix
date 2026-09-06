@@ -36,6 +36,11 @@ let
             "file" = "fictional-1.20.1-0.0.8.jar";
             "hash" = "sha512-p4/Nirbu0CmhGaSsPj1DXfiJZOnOpQm6lo7nUcDs0kny5xeFaJQmRj6QZdj1SPT2jbNSGWQvhE2k4ASl2KIAgA==";
         };
+        _HHb0I2Nj = {
+            "id" = "HHb0I2Nj";
+            "file" = "fictional-1.20.1-0.0.9.jar";
+            "hash" = "sha512-odBWrNMCsAA3NYA4+xrEAvFQgSawEvmX3vdBuYK4+XqO8BxbN1u92quzMZQdq//xOsM051N2wMPdXIPUiNycPw==";
+        };
     in {
         "MzmAbBkz" = _MzmAbBkz;
         "wVlqGROk" = _wVlqGROk;
@@ -44,7 +49,8 @@ let
         "rGNPwOEo" = _rGNPwOEo;
         "6FGRPt9N" = _6FGRPt9N;
         "sQnweVpS" = _sQnweVpS;
-        "forge-1.20.1" = _sQnweVpS;
+        "HHb0I2Nj" = _HHb0I2Nj;
+        "forge-1.20.1" = _HHb0I2Nj;
         "pkg-1.20.1-0.0.1" = _MzmAbBkz;
         "pkg-1.20.1-0.0.2" = _wVlqGROk;
         "pkg-1.20.1-0.0.3" = _1H0XwwMR;
@@ -52,7 +58,8 @@ let
         "pkg-1.20.1-0.0.5" = _rGNPwOEo;
         "pkg-1.20.1-0.0.7" = _6FGRPt9N;
         "pkg-1.20.1-0.0.8" = _sQnweVpS;
-        "default" = _sQnweVpS;
+        "pkg-1.20.1-0.0.9" = _HHb0I2Nj;
+        "default" = _HHb0I2Nj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fictional";

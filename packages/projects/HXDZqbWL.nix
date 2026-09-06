@@ -53,6 +53,11 @@ let
         "bukkit-1.21.8" = _gQn4FYR6;
         "bukkit-1.21.9" = _gQn4FYR6;
         "bukkit-1.21.10" = _gQn4FYR6;
+        "bukkit-1.21.11" = _gQn4FYR6;
+        "bukkit-26.1" = _gQn4FYR6;
+        "bukkit-26.1.1" = _gQn4FYR6;
+        "bukkit-26.1.2" = _gQn4FYR6;
+        "bukkit-26.2" = _gQn4FYR6;
         "paper-1.13" = _gQn4FYR6;
         "paper-1.13.1" = _gQn4FYR6;
         "paper-1.13.2" = _gQn4FYR6;
@@ -98,6 +103,11 @@ let
         "paper-1.21.8" = _gQn4FYR6;
         "paper-1.21.9" = _gQn4FYR6;
         "paper-1.21.10" = _gQn4FYR6;
+        "paper-1.21.11" = _gQn4FYR6;
+        "paper-26.1" = _gQn4FYR6;
+        "paper-26.1.1" = _gQn4FYR6;
+        "paper-26.1.2" = _gQn4FYR6;
+        "paper-26.2" = _gQn4FYR6;
         "purpur-1.13" = _gQn4FYR6;
         "purpur-1.13.1" = _gQn4FYR6;
         "purpur-1.13.2" = _gQn4FYR6;
@@ -143,6 +153,11 @@ let
         "purpur-1.21.8" = _gQn4FYR6;
         "purpur-1.21.9" = _gQn4FYR6;
         "purpur-1.21.10" = _gQn4FYR6;
+        "purpur-1.21.11" = _gQn4FYR6;
+        "purpur-26.1" = _gQn4FYR6;
+        "purpur-26.1.1" = _gQn4FYR6;
+        "purpur-26.1.2" = _gQn4FYR6;
+        "purpur-26.2" = _gQn4FYR6;
         "spigot-1.13" = _gQn4FYR6;
         "spigot-1.13.1" = _gQn4FYR6;
         "spigot-1.13.2" = _gQn4FYR6;
@@ -188,6 +203,11 @@ let
         "spigot-1.21.8" = _gQn4FYR6;
         "spigot-1.21.9" = _gQn4FYR6;
         "spigot-1.21.10" = _gQn4FYR6;
+        "spigot-1.21.11" = _gQn4FYR6;
+        "spigot-26.1" = _gQn4FYR6;
+        "spigot-26.1.1" = _gQn4FYR6;
+        "spigot-26.1.2" = _gQn4FYR6;
+        "spigot-26.2" = _gQn4FYR6;
         "pkg-1.0.0" = _gQn4FYR6;
         "default" = _gQn4FYR6;
     });

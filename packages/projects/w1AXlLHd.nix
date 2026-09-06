@@ -131,6 +131,11 @@ let
             "file" = "neutral-animals-1.2.19.jar";
             "hash" = "sha512-90G9zyp7zT1kn5aNQZ/576vc5yHQr6et1V+GXuy2dYTpytIrY7cuCoG0xCOQv9lfZeCw0earlUpmPhaLws1Ojw==";
         };
+        _HkTFHQkJ = {
+            "id" = "HkTFHQkJ";
+            "file" = "neutral-animals-1.2.20.jar";
+            "hash" = "sha512-1YaAxrPwGXxHNgrLnN66NG1q+YDJw+5W8JW5NGdseuoEpeeVHvOueyg80atdS6MCLcKGQ+XMi1TqhvyTnBivIg==";
+        };
     in {
         "LH2Xqhmg" = _LH2Xqhmg;
         "2fnikKBa" = _2fnikKBa;
@@ -158,6 +163,7 @@ let
         "Ipn4XAxa" = _Ipn4XAxa;
         "jzmnUlzr" = _jzmnUlzr;
         "HUlAU9cq" = _HUlAU9cq;
+        "HkTFHQkJ" = _HkTFHQkJ;
         "fabric-1.16.5" = _LH2Xqhmg;
         "fabric-1.17" = _9IsdqC5x;
         "fabric-1.17.1" = _MxadFqe3;
@@ -182,6 +188,7 @@ let
         "fabric-26.1" = _HUlAU9cq;
         "fabric-26.1.1" = _HUlAU9cq;
         "fabric-26.1.2" = _HUlAU9cq;
+        "fabric-26.2" = _HkTFHQkJ;
         "pkg-1.0.0" = _LH2Xqhmg;
         "pkg-1.0.1" = _2fnikKBa;
         "pkg-1.0.2" = _9IsdqC5x;
@@ -208,7 +215,8 @@ let
         "pkg-1.2.17" = _Ipn4XAxa;
         "pkg-1.2.18" = _jzmnUlzr;
         "pkg-1.2.19" = _HUlAU9cq;
-        "default" = _HUlAU9cq;
+        "pkg-1.2.20" = _HkTFHQkJ;
+        "default" = _HkTFHQkJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "neutral-animals";

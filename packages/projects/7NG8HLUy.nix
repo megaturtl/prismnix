@@ -201,6 +201,46 @@ let
             "file" = "Enhanced-Farming-26.1.2-11.0.1.jar";
             "hash" = "sha512-96elSckEyAQyoW1qBzWBvv/JhjzFZJ81njZmIKiHDUrTL+PzYdLhP2Z+0HJyvgBjt6oKYpVtVVs+pn2GpylOIQ==";
         };
+        _dVBUzu8A = {
+            "id" = "dVBUzu8A";
+            "file" = "Enhanced-Farming-26.1.2-11.0.2.jar";
+            "hash" = "sha512-wwhXHVCIyoWuZtuc6Gwa/0Rlrk68obPpPPctpkrrzlzN5fXf4Kunqhkcgg6evnNPkwDpfpQPoyAydCFNdMRpbQ==";
+        };
+        _WoR9Gsas = {
+            "id" = "WoR9Gsas";
+            "file" = "Enhanced-Farming-26.2-12.0.0.jar";
+            "hash" = "sha512-gCTxSiMP/JWLLwmg2uklXUVX+FPwJ4jpMzUh0Bp/UC7wjP6/HlZTdq05QTZV80zAOx8GXZcCaqm43We9XFMdCA==";
+        };
+        _DZsu0zfC = {
+            "id" = "DZsu0zfC";
+            "file" = "Enhanced-Farming-26.1.2-11.0.3.jar";
+            "hash" = "sha512-5qTe5Dyxy3xUC13JYppCth87BFqg2y6HRVmUXV0PGvOJT523c7vFIZzGVbefrICyWoVr8kBuWbtd83VOZ03LdQ==";
+        };
+        _t2EG0vHo = {
+            "id" = "t2EG0vHo";
+            "file" = "Enhanced-Farming-26.2-12.0.1.jar";
+            "hash" = "sha512-UXe1XYJWsIPvEOGZWcCDm9+SnI3oDsgjGE8tmXJklW2tXpAub4S4hrueIyBAkITiUqrW/MTmUe4CkmFi2W1sZw==";
+        };
+        _Er7YEgM7 = {
+            "id" = "Er7YEgM7";
+            "file" = "Enhanced-Farming-1.21.1-6.0.5.jar";
+            "hash" = "sha512-6gVNS/ESoKMUxQ2C4GEwDmnhNeDdQ/Bv4Zmbv2bzl4JZigAkddnTn46DHUFzucpd41dyyZTwwInN1PzefBSqCA==";
+        };
+        _bQEydXjN = {
+            "id" = "bQEydXjN";
+            "file" = "Enhanced-Farming-26.1.2-11.0.4.jar";
+            "hash" = "sha512-GVlLnxh5/FN4f6GaHQ7syqFB1SZrp6NqWSt8WMNnk+1RMvH3LOAsYyPvfJons0qdVY2g+SvNfECcRfW6nYHRdA==";
+        };
+        _FPMiWkRn = {
+            "id" = "FPMiWkRn";
+            "file" = "Enhanced-Farming-26.2-12.0.2.jar";
+            "hash" = "sha512-dagVPuotYcvRaKX8Qh5IoP31w/YP0RwPZ/FPjhSJDnRNScgO/pWokZhn9xvfSiLhSzkjRZAxCxqosad2247wRA==";
+        };
+        _xmlIFQWD = {
+            "id" = "xmlIFQWD";
+            "file" = "Enhanced-Farming-1.20.1-2.1.2.jar";
+            "hash" = "sha512-w5lJRq4Wq4ARS1HE/xCs1XYUYZnJZi27RPM0G5I3CmpvW9L5jzfJUsvrIVP/wNOik4bopWY3Sus9dIJwg/DkWw==";
+        };
     in {
         "E02cohzi" = _E02cohzi;
         "tKVxr2Xf" = _tKVxr2Xf;
@@ -242,6 +282,14 @@ let
         "BmlhiDSv" = _BmlhiDSv;
         "PMevfozC" = _PMevfozC;
         "YuZu4PRp" = _YuZu4PRp;
+        "dVBUzu8A" = _dVBUzu8A;
+        "WoR9Gsas" = _WoR9Gsas;
+        "DZsu0zfC" = _DZsu0zfC;
+        "t2EG0vHo" = _t2EG0vHo;
+        "Er7YEgM7" = _Er7YEgM7;
+        "bQEydXjN" = _bQEydXjN;
+        "FPMiWkRn" = _FPMiWkRn;
+        "xmlIFQWD" = _xmlIFQWD;
         "forge-1.18.2" = _XTrZBJMd;
         "forge-1.16.5" = _tKVxr2Xf;
         "forge-1.12.2" = _bXcvyhNZ;
@@ -251,18 +299,20 @@ let
         "forge-1.19.3" = _az9LxPJQ;
         "forge-1.19.4" = _GPzWFxew;
         "forge-1.20" = _EtaGyzDF;
-        "forge-1.20.1" = _gZQAtJ1T;
+        "forge-1.20.1" = _xmlIFQWD;
         "neoforge-1.20.2" = _PC6y8Q8a;
         "neoforge-1.20.4" = _vLlTh8T4;
         "neoforge-1.20.6" = _pYRUuDPc;
         "neoforge-1.21" = _BhgJGgwt;
-        "neoforge-1.21.1" = _yVzzu3sC;
+        "neoforge-1.21.1" = _Er7YEgM7;
         "neoforge-1.21.4" = _GYBKcuG0;
         "neoforge-1.21.5" = _QfloTUQQ;
         "neoforge-1.21.8" = _paP0mOMA;
         "neoforge-1.21.11" = _BmlhiDSv;
         "neoforge-26.1" = _PMevfozC;
-        "neoforge-26.1.2" = _YuZu4PRp;
+        "neoforge-26.1.2" = _bQEydXjN;
+        "neoforge-26.2" = _FPMiWkRn;
+        "neoforge-1.20.1" = _xmlIFQWD;
         "pkg-1.3.1.0" = _E02cohzi;
         "pkg-1.2.3.1" = _tKVxr2Xf;
         "pkg-1.1.3.0" = _bXcvyhNZ;
@@ -303,7 +353,15 @@ let
         "pkg-10.0.0" = _BmlhiDSv;
         "pkg-11.0.0" = _PMevfozC;
         "pkg-11.0.1" = _YuZu4PRp;
-        "default" = _YuZu4PRp;
+        "pkg-11.0.2" = _dVBUzu8A;
+        "pkg-12.0.0" = _WoR9Gsas;
+        "pkg-11.0.3" = _DZsu0zfC;
+        "pkg-12.0.1" = _t2EG0vHo;
+        "pkg-6.0.5" = _Er7YEgM7;
+        "pkg-11.0.4" = _bQEydXjN;
+        "pkg-12.0.2" = _FPMiWkRn;
+        "pkg-2.1.2" = _xmlIFQWD;
+        "default" = _xmlIFQWD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enhanced-farming";

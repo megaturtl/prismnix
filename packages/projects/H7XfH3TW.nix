@@ -321,6 +321,16 @@ let
             "file" = "everythingjapanese-1.27-beta1-26.1.2-slim.jar";
             "hash" = "sha512-U0VSz4PBwBumTuRWvKoBFn5HLYkP7An9+yNBJ8k0YJj/UC/1MRgPRThouUZ1Jvg0IgxvHplQv6FpFuqm6DzzZw==";
         };
+        _5sNMoV6d = {
+            "id" = "5sNMoV6d";
+            "file" = "everythingjapanese-1.27-beta2-26.2-slim.jar";
+            "hash" = "sha512-0c/UysLvrlRHxEGvpnrGfBwfcPz8CsX/jDnl4zVssjpnbp9KF7xPs2f2rn9QWEIs6cZZZ8uqe0fPwYc6TAfnUg==";
+        };
+        _JYb3UQGw = {
+            "id" = "JYb3UQGw";
+            "file" = "everythingjapanese-1.27-26.2-slim.jar";
+            "hash" = "sha512-Qo9dfUuNqReY/K345V1KLKqhFn9k4a/z6snuiEelsQDWBKRKmqFM5+m9YkXNCVnxiW6qOhfaGYkhp3PBpKkoRw==";
+        };
     in {
         "t2vQ2cgG" = _t2vQ2cgG;
         "tDsROSQR" = _tDsROSQR;
@@ -386,6 +396,8 @@ let
         "fAc2R6ou" = _fAc2R6ou;
         "XSWuU7ci" = _XSWuU7ci;
         "mWSkXrks" = _mWSkXrks;
+        "5sNMoV6d" = _5sNMoV6d;
+        "JYb3UQGw" = _JYb3UQGw;
         "forge-1.21.1" = _AXzlSSnN;
         "forge-1.21.5" = _BF7Za71f;
         "forge-1.21.7" = _SMDH2JO5;
@@ -396,6 +408,7 @@ let
         "neoforge-1.21.10" = _1NdtRX17;
         "neoforge-1.21.11" = _m73PMHXo;
         "neoforge-26.1.2" = _mWSkXrks;
+        "neoforge-26.2" = _JYb3UQGw;
         "pkg-0.0.4-1.21.1" = _t2vQ2cgG;
         "pkg-0.0.5-1.21.1" = _tDsROSQR;
         "pkg-0.0.6-1.21.1" = _Mi8NOv7z;
@@ -458,7 +471,9 @@ let
         "pkg-1.27-alpha2-26.1.2" = _fAc2R6ou;
         "pkg-1.27-alpha3-26.1.2" = _XSWuU7ci;
         "pkg-1.27-beta1-26.1.2" = _mWSkXrks;
-        "default" = _mWSkXrks;
+        "pkg-1.27-beta2-26.2" = _5sNMoV6d;
+        "pkg-1.27-26.2" = _JYb3UQGw;
+        "default" = _JYb3UQGw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "everything-japanese";

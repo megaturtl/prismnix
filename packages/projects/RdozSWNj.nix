@@ -56,6 +56,41 @@ let
             "file" = "breakingplace_neoforge-26.2+.jar";
             "hash" = "sha512-AsjAhEFJOoQkNcLnXLbADhKQ9PYwV0lodV61ePrCPjLw3tuAFLgA5P64YucZsVlxXMDdETEF1IWgZblH3c4B2w==";
         };
+        _Pp2Et9bt = {
+            "id" = "Pp2Et9bt";
+            "file" = "breakingplace_forge-1.20-1.20.4.jar";
+            "hash" = "sha512-gcUtffcQZ8cq02znuVqCloCD98aJgdfH7mxnFF0c1lcpabj8+h0ymrp90BC/MhRsKDn/lOEWYTh1AyvrxCJoNw==";
+        };
+        _juDt2yzz = {
+            "id" = "juDt2yzz";
+            "file" = "breakingplace_forge-1.19-1.19.4.jar";
+            "hash" = "sha512-l1gSyKR7MMwsCXLAo8wEswS/Emw1rWemzB/WD5hAUD+3jz5oUbAYb2YTsh52+uzj2m9ge1Az8UqItMuUMB/nrQ==";
+        };
+        _ZZE8wgyv = {
+            "id" = "ZZE8wgyv";
+            "file" = "breakingplace_forge-1.18-1.18.2.jar";
+            "hash" = "sha512-zyILZW8HaF47ZieI/xkz0PtcDuTI7/pepaK2CarZND4TPAGKyY64VfEIdwJ/aTJi/sp9kv5pBUbN0uTpRR9K4Q==";
+        };
+        _L0tloVea = {
+            "id" = "L0tloVea";
+            "file" = "breakingplace_forge-1.17.1.jar";
+            "hash" = "sha512-aZ/gsUhwEG/wElgJMvq3NIhbrWgg9U/Oi77wlmQ8SeOQEC90IUHtXWG/2DpqmbvYQnN4qTmrvJ9rt4IAENp6ww==";
+        };
+        _EWWftb3p = {
+            "id" = "EWWftb3p";
+            "file" = "breakingplace_fabric-1.20-1.20.6.jar";
+            "hash" = "sha512-B23kWzQDbFwmtGGQhxeqnPyjnRcx0oiJ2i5JKeDKqNTT24sSsvsg2fs0i7v8vjq8qwKlcNnV3NVx7rem85QG4w==";
+        };
+        _sjHeiI5i = {
+            "id" = "sjHeiI5i";
+            "file" = "breakingplace_fabric-1.19-1.19.4.jar";
+            "hash" = "sha512-0Kh9rVumamxFyxsxje9Ip+kZ2Qo69Ewsd8suYzCcRFdYgpIGV9rE2z6e66CY+noFl4OEIbLrWOa8ARpHHfqW/A==";
+        };
+        _gsttahap = {
+            "id" = "gsttahap";
+            "file" = "breakingplace_fabric-1.18.2.jar";
+            "hash" = "sha512-BgdDJOO4jrJ3Jrk5HX7eJk7znfCQAW5UX1nnAxuJV34MsTuutC59IOTmm/wU7LG34OgBBvB7Yj+ChnG4n8pUDw==";
+        };
     in {
         "igPMgGWI" = _igPMgGWI;
         "g9RjEIh4" = _g9RjEIh4;
@@ -68,6 +103,13 @@ let
         "WSBhs6Rl" = _WSBhs6Rl;
         "zTPc4ARw" = _zTPc4ARw;
         "C7flDMoF" = _C7flDMoF;
+        "Pp2Et9bt" = _Pp2Et9bt;
+        "juDt2yzz" = _juDt2yzz;
+        "ZZE8wgyv" = _ZZE8wgyv;
+        "L0tloVea" = _L0tloVea;
+        "EWWftb3p" = _EWWftb3p;
+        "sjHeiI5i" = _sjHeiI5i;
+        "gsttahap" = _gsttahap;
         "fabric-1.21.1" = _igPMgGWI;
         "fabric-1.21.2" = _igPMgGWI;
         "fabric-1.21.3" = _igPMgGWI;
@@ -83,6 +125,19 @@ let
         "fabric-26.1.1" = _fNmWey2I;
         "fabric-26.1.2" = _fNmWey2I;
         "fabric-26.2" = _zTPc4ARw;
+        "fabric-1.20" = _EWWftb3p;
+        "fabric-1.20.1" = _EWWftb3p;
+        "fabric-1.20.2" = _EWWftb3p;
+        "fabric-1.20.3" = _EWWftb3p;
+        "fabric-1.20.4" = _EWWftb3p;
+        "fabric-1.20.5" = _EWWftb3p;
+        "fabric-1.20.6" = _EWWftb3p;
+        "fabric-1.19" = _sjHeiI5i;
+        "fabric-1.19.1" = _sjHeiI5i;
+        "fabric-1.19.2" = _sjHeiI5i;
+        "fabric-1.19.3" = _sjHeiI5i;
+        "fabric-1.19.4" = _sjHeiI5i;
+        "fabric-1.18.2" = _gsttahap;
         "neoforge-1.21.1" = _JH3fZPTO;
         "neoforge-1.21.2" = _JH3fZPTO;
         "neoforge-1.21.3" = _JH3fZPTO;
@@ -113,8 +168,22 @@ let
         "forge-26.1.1" = _keTdFOFI;
         "forge-26.1.2" = _keTdFOFI;
         "forge-26.2" = _WSBhs6Rl;
-        "pkg-1.0.0" = _C7flDMoF;
-        "default" = _C7flDMoF;
+        "forge-1.20" = _Pp2Et9bt;
+        "forge-1.20.1" = _Pp2Et9bt;
+        "forge-1.20.2" = _Pp2Et9bt;
+        "forge-1.20.3" = _Pp2Et9bt;
+        "forge-1.20.4" = _Pp2Et9bt;
+        "forge-1.19" = _juDt2yzz;
+        "forge-1.19.1" = _juDt2yzz;
+        "forge-1.19.2" = _juDt2yzz;
+        "forge-1.19.3" = _juDt2yzz;
+        "forge-1.19.4" = _juDt2yzz;
+        "forge-1.18" = _ZZE8wgyv;
+        "forge-1.18.1" = _ZZE8wgyv;
+        "forge-1.18.2" = _ZZE8wgyv;
+        "forge-1.17.1" = _L0tloVea;
+        "pkg-1.0.0" = _gsttahap;
+        "default" = _gsttahap;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "breaking-place";

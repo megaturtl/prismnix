@@ -206,6 +206,11 @@ let
             "file" = "servercosmetics-0.2.7+1.21.1.jar";
             "hash" = "sha512-USNeDG1YjWh6Y5Vqus41m4PHKgcfuXvMBcLsTlyvXcr+Seat/C9f0p7uZpwIMUfh7vpy29bctBGpfYoX91zENQ==";
         };
+        _aIzTXvUa = {
+            "id" = "aIzTXvUa";
+            "file" = "servercosmetics-0.4.0+26.2.jar";
+            "hash" = "sha512-i68BC6QGc5tSjDC5B4pWB1hlc3iultLAkzAow5EPeMchekyuLkISORBfjug2+vj3zPer0onUCBql5YSmN6wQag==";
+        };
     in {
         "uLzYheef" = _uLzYheef;
         "4heZrfJX" = _4heZrfJX;
@@ -248,10 +253,12 @@ let
         "4xBaysj1" = _4xBaysj1;
         "HKOg4wzC" = _HKOg4wzC;
         "TAgjhVnF" = _TAgjhVnF;
+        "aIzTXvUa" = _aIzTXvUa;
         "fabric-1.20.1" = _L1Kz8HkN;
         "fabric-1.21" = _vgiP3G0f;
         "fabric-1.21.1" = _TAgjhVnF;
         "fabric-1.21.8" = _K05auwYR;
+        "fabric-26.2" = _aIzTXvUa;
         "pkg-0.1.1" = _uLzYheef;
         "pkg-0.1.2" = _4heZrfJX;
         "pkg-0.1.3" = _oFVDGwUm;
@@ -293,7 +300,8 @@ let
         "pkg-0.2.5+1.21.1" = _4xBaysj1;
         "pkg-0.2.6+1.21.1" = _HKOg4wzC;
         "pkg-0.2.7+1.21.1" = _TAgjhVnF;
-        "default" = _TAgjhVnF;
+        "pkg-0.4.0+26.2" = _aIzTXvUa;
+        "default" = _aIzTXvUa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "server-cosmetics";

@@ -21,16 +21,23 @@ let
             "file" = "Mcheliomodrinthloaderfixretry.jar";
             "hash" = "sha512-rro7g+0MEVdrS8JT+pOQAbxxv7uj2i2Kvw5NivO1QV9YKVSiXgvVpdPZHNiPDFlmppgeb5klNHRiNDJmPGappw==";
         };
+        _UhyeEAmO = {
+            "id" = "UhyeEAmO";
+            "file" = "Mcheli Overdrive v2.1.jar";
+            "hash" = "sha512-ybiIrRO7mrvvNTrJIWBZTq9KQCBCTt+kXxK942WqI7V1Q7514UfxCxA0M7FtvsV11mpuIXev2kx8O0T3etNWNw==";
+        };
     in {
         "CUppNu4I" = _CUppNu4I;
         "imNn9F4v" = _imNn9F4v;
         "soonV9BS" = _soonV9BS;
         "pQMQNFMd" = _pQMQNFMd;
-        "forge-1.7.10" = _pQMQNFMd;
+        "UhyeEAmO" = _UhyeEAmO;
+        "forge-1.7.10" = _UhyeEAmO;
         "pkg-1.6.1" = _CUppNu4I;
         "pkg-1.7" = _imNn9F4v;
         "pkg-1.8.2" = _pQMQNFMd;
-        "default" = _pQMQNFMd;
+        "pkg-2.1" = _UhyeEAmO;
+        "default" = _UhyeEAmO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcheli-o";

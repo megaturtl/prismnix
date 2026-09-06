@@ -61,6 +61,11 @@ let
             "file" = "Alivent Messenger v1.3.4 + mc1.21.5.jar";
             "hash" = "sha512-ErRAJvm5XjRqZcPPSl+RcBUYA2ORz3k7lVzugcXnvkehu1Dxnl3HFJ7KNLSYZ9BaLoK9C/vS/q9Q8C6JrqA34Q==";
         };
+        _RfE3atjK = {
+            "id" = "RfE3atjK";
+            "file" = "Alivent Messenger v1.3.4 + mc1.21.9-1.3.4.jar";
+            "hash" = "sha512-R7XNoazOY+mTFRowM2XnI3iv+G2cgFVQmFW8ImLSbAmYwP/5Zv8mTEZ/UB/puUQ2cF6QxYHLePOpKfzeNEnysA==";
+        };
     in {
         "7a8HVjuX" = _7a8HVjuX;
         "tazvMDPZ" = _tazvMDPZ;
@@ -74,6 +79,7 @@ let
         "Js4wDqb6" = _Js4wDqb6;
         "D7F6sW18" = _D7F6sW18;
         "RduBAe1z" = _RduBAe1z;
+        "RfE3atjK" = _RfE3atjK;
         "fabric-1.19.3" = _7a8HVjuX;
         "fabric-1.19.4" = _tazvMDPZ;
         "fabric-1.20.1" = _cOxmaULN;
@@ -92,6 +98,8 @@ let
         "fabric-1.21.7" = _D7F6sW18;
         "fabric-1.21.8" = _D7F6sW18;
         "fabric-1.21.5" = _RduBAe1z;
+        "fabric-1.21.9" = _RfE3atjK;
+        "fabric-1.21.10" = _RfE3atjK;
         "pkg-1.2.6+1.19.3" = _7a8HVjuX;
         "pkg-1.2.7+1.19.4" = _tazvMDPZ;
         "pkg-1.2.7+1.20.1" = _p5q98lr1;
@@ -104,7 +112,8 @@ let
         "pkg-1.3.3+1.21.4" = _Js4wDqb6;
         "pkg-1.3.4+1.21.6" = _D7F6sW18;
         "pkg-1.3.4+1.21.5" = _RduBAe1z;
-        "default" = _RduBAe1z;
+        "pkg-1.3.4+1.21.9" = _RfE3atjK;
+        "default" = _RfE3atjK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "alivent-messager";

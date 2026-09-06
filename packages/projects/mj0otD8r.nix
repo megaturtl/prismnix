@@ -31,6 +31,11 @@ let
             "file" = "HeldItemSaver-2.1.0+1.21.1.jar";
             "hash" = "sha512-8Q6mrN93+zAKVqU2cInKL6r+arXsx2mcwbZWWjZy7SiMmkqGBSSi9Wndgv/G2XFtnFGZJG7IAhEvCjANdOFpXg==";
         };
+        _KmJPYNfe = {
+            "id" = "KmJPYNfe";
+            "file" = "HeldItemSaver-2.2.0+1.21.1.jar";
+            "hash" = "sha512-yXuWVqYKXi608ibQ7eM4ktiXqXPoYkXPZhI+xxp38mfQPasDss65t0pBV5XawVa44QuqC1DdkxWx+U1SU/7llQ==";
+        };
     in {
         "ZGt43Plv" = _ZGt43Plv;
         "NB9FnBvF" = _NB9FnBvF;
@@ -38,15 +43,17 @@ let
         "CdVVTAey" = _CdVVTAey;
         "X8UJ1UJO" = _X8UJ1UJO;
         "YDnLWFOU" = _YDnLWFOU;
+        "KmJPYNfe" = _KmJPYNfe;
         "fabric-1.20.1" = _ZGt43Plv;
-        "fabric-1.21.1" = _YDnLWFOU;
+        "fabric-1.21.1" = _KmJPYNfe;
         "pkg-1.0.0" = _ZGt43Plv;
         "pkg-1.1.0+1.21.1" = _NB9FnBvF;
         "pkg-1.1.1+1.21.1" = _B9PKR0ou;
         "pkg-1.1.2+1.21.1" = _CdVVTAey;
         "pkg-2.0.0+1.21.1" = _X8UJ1UJO;
         "pkg-2.1.0+1.21.1" = _YDnLWFOU;
-        "default" = _YDnLWFOU;
+        "pkg-2.2.0+1.21.1" = _KmJPYNfe;
+        "default" = _KmJPYNfe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "held-item-saver-cobblemon";

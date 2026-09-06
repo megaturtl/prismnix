@@ -836,6 +836,66 @@ let
             "file" = "Ore Creeper-fabric-26.1.2-2.0.2.jar";
             "hash" = "sha512-WV9vMr7Ja9hD+nUVDQvyZhYK5GbBW7tsVWTGFgPVfpTn4nQCGE9Pn4NNBQtt9hCYpwS3FuSjMVvrZqUA+eoWig==";
         };
+        _9V5Zmsvb = {
+            "id" = "9V5Zmsvb";
+            "file" = "Ore Creeper-fabric-26.2-2.0.2.jar";
+            "hash" = "sha512-JUpG82Iy/C4UIJMFGY3rWjakC79XPiFCzeDB2zWGSDrm6AK2Df/1ILy2mtSa1g56+/NPNKZjyAiVEfaedJWG4Q==";
+        };
+        _jwPWyOsW = {
+            "id" = "jwPWyOsW";
+            "file" = "Ore Creeper-neoforge-26.2-2.0.2.jar";
+            "hash" = "sha512-zAj4VOPEH5gLDs5sv9foLm71JW8C8aywSzPEFSUWYqOPMk9o8TQfot3uyY+P5Pr/52lXXutbXlKEVCipjbQeQg==";
+        };
+        _iN6pVFc7 = {
+            "id" = "iN6pVFc7";
+            "file" = "Ore Creeper-forge-26.2-2.0.2.jar";
+            "hash" = "sha512-wXd57V8j0Gjn/eRkGgUgz+O6bd2phJ5xQnS+jKMWDLhfzd9ZztuPpoZmyU9GMBJ0gMZcQjwwvIJMITgbamu4cg==";
+        };
+        _cktMMYP5 = {
+            "id" = "cktMMYP5";
+            "file" = "Ore Creeper-fabric-26.2-2.0.2.jar";
+            "hash" = "sha512-JUpG82Iy/C4UIJMFGY3rWjakC79XPiFCzeDB2zWGSDrm6AK2Df/1ILy2mtSa1g56+/NPNKZjyAiVEfaedJWG4Q==";
+        };
+        _TaFK0xIU = {
+            "id" = "TaFK0xIU";
+            "file" = "Ore Creeper-forge-26.2-2.0.2.jar";
+            "hash" = "sha512-wXd57V8j0Gjn/eRkGgUgz+O6bd2phJ5xQnS+jKMWDLhfzd9ZztuPpoZmyU9GMBJ0gMZcQjwwvIJMITgbamu4cg==";
+        };
+        _uvVbmwqT = {
+            "id" = "uvVbmwqT";
+            "file" = "Ore Creeper-neoforge-26.2-2.0.2.jar";
+            "hash" = "sha512-zAj4VOPEH5gLDs5sv9foLm71JW8C8aywSzPEFSUWYqOPMk9o8TQfot3uyY+P5Pr/52lXXutbXlKEVCipjbQeQg==";
+        };
+        _HwYCsOw0 = {
+            "id" = "HwYCsOw0";
+            "file" = "Ore Creeper-fabric-26.2-2.0.3.jar";
+            "hash" = "sha512-FN0EHRTQ4bfliofbo2lNWKMVofWCj9smrWJRS29Ah0t3K6difOyHTx6MLzLuL2MmRI3jhETrsCsrlZOD0FCwFg==";
+        };
+        _HyUTJlYt = {
+            "id" = "HyUTJlYt";
+            "file" = "Ore Creeper-forge-26.2-2.0.3.jar";
+            "hash" = "sha512-u3e1FKFypBiXCfd/Ny2UUyTzgU1YKFA1C1Bdz5Pf1IPwShh0YPPJf61Efh0FcXQgNFtlJ143F01przxianNepg==";
+        };
+        _MpvkQa5k = {
+            "id" = "MpvkQa5k";
+            "file" = "Ore Creeper-neoforge-26.2-2.0.3.jar";
+            "hash" = "sha512-SzlpyzWWLyjrFjn2b44jsVwCmPDzee8fTEUc86L2U2fVspQutGjEAyYTrfSwm9wjR0X1AOYo2TEzytskA8O91g==";
+        };
+        _YvZlbBZa = {
+            "id" = "YvZlbBZa";
+            "file" = "Ore Creeper-fabric-26.1.2-2.0.3.jar";
+            "hash" = "sha512-oZHtJOQoanoSHOagVEiO4XXRiIPrCIUjDVXeDrIqmpx9Kad2IVYIAeK8c9C/ajDAWMDbF/C43vECgbEwKsdQHw==";
+        };
+        _bQsZWOdL = {
+            "id" = "bQsZWOdL";
+            "file" = "Ore Creeper-forge-26.1.2-2.0.3.jar";
+            "hash" = "sha512-NY8r3HJLDXEQ7MF0uJXjwtMBBpJdT8CcmUYO1WUciB3XWohArb8kbdI3TBMfjs/W1e6/X2QKAzSClsuDvynwLA==";
+        };
+        _p3nbAjez = {
+            "id" = "p3nbAjez";
+            "file" = "Ore Creeper-neoforge-26.1.2-2.0.3.jar";
+            "hash" = "sha512-KeHyV/voqOjovmEtwJQgHH+yr4rmzPhJlc9FlXqo4aFJiRkSVbjsuN+GWA9L4FDd7peownRLX4gCye020r3Zqg==";
+        };
     in {
         "HhBCSWp4" = _HhBCSWp4;
         "vJG6jPFJ" = _vJG6jPFJ;
@@ -1004,6 +1064,18 @@ let
         "PAHJGemU" = _PAHJGemU;
         "icwIJbMH" = _icwIJbMH;
         "7NynupSP" = _7NynupSP;
+        "9V5Zmsvb" = _9V5Zmsvb;
+        "jwPWyOsW" = _jwPWyOsW;
+        "iN6pVFc7" = _iN6pVFc7;
+        "cktMMYP5" = _cktMMYP5;
+        "TaFK0xIU" = _TaFK0xIU;
+        "uvVbmwqT" = _uvVbmwqT;
+        "HwYCsOw0" = _HwYCsOw0;
+        "HyUTJlYt" = _HyUTJlYt;
+        "MpvkQa5k" = _MpvkQa5k;
+        "YvZlbBZa" = _YvZlbBZa;
+        "bQsZWOdL" = _bQsZWOdL;
+        "p3nbAjez" = _p3nbAjez;
         "forge-1.19.2" = _wPDKA6Nz;
         "forge-1.19.4" = _hpbscf5D;
         "forge-1.20" = _u5GBJTLk;
@@ -1022,7 +1094,8 @@ let
         "forge-1.21.9" = _4c5dkSGI;
         "forge-1.21.10" = _BKEuX9Jt;
         "forge-1.21.11" = _7n9RjEst;
-        "forge-26.1.2" = _icwIJbMH;
+        "forge-26.1.2" = _bQsZWOdL;
+        "forge-26.2" = _HyUTJlYt;
         "fabric-1.20.2" = _HAaUKBLf;
         "fabric-1.20.4" = _Dc7Sen4v;
         "fabric-1.20.6" = _YAoip5XN;
@@ -1037,7 +1110,8 @@ let
         "fabric-1.21.9" = _T1TFsyTv;
         "fabric-1.21.10" = _SOcjfwz2;
         "fabric-1.21.11" = _lUEFHudk;
-        "fabric-26.1.2" = _7NynupSP;
+        "fabric-26.1.2" = _YvZlbBZa;
+        "fabric-26.2" = _HwYCsOw0;
         "neoforge-1.20.2" = _VkW4X8hM;
         "neoforge-1.20.4" = _vNOSLXdk;
         "neoforge-1.20.6" = _1U1yBfEm;
@@ -1052,7 +1126,8 @@ let
         "neoforge-1.21.9" = _RYbxzwMd;
         "neoforge-1.21.10" = _eh1qwaw2;
         "neoforge-1.21.11" = _KDti8vn1;
-        "neoforge-26.1.2" = _PAHJGemU;
+        "neoforge-26.1.2" = _p3nbAjez;
+        "neoforge-26.2" = _MpvkQa5k;
         "pkg-1.19.2-1.2.0" = _HhBCSWp4;
         "pkg-1.19.4-1.2.0" = _vJG6jPFJ;
         "pkg-1.20-1.2.0" = _3KXBqChJ;
@@ -1081,8 +1156,9 @@ let
         "pkg-2.0.0-beta" = _vPyCpae1;
         "pkg-2.0.0" = _lcf2xLv0;
         "pkg-2.0.1" = _gJed6sMk;
-        "pkg-2.0.2" = _7NynupSP;
-        "default" = _7NynupSP;
+        "pkg-2.0.2" = _uvVbmwqT;
+        "pkg-2.0.3" = _p3nbAjez;
+        "default" = _p3nbAjez;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ore-creeper";

@@ -86,6 +86,81 @@ let
             "file" = "cpvp-macros-macro_26.1-3.4.jar";
             "hash" = "sha512-ltwZ2RzlIMWj4H3ufdXQMMJVzdRtWClUFnwQslhtvs7zjJjl06pqqr/ZE7gQmLiY5fEObXfFJj4rvneMibuzZQ==";
         };
+        _IODxker8 = {
+            "id" = "IODxker8";
+            "file" = "cpvp-macros-3.5-1.21.jar";
+            "hash" = "sha512-9W2ToqLc5Ch+kR0b8ti5BGqyl4KipoGlOJWxkT16vaGIdBteSfwaahzjuqqzPDchWDD7hQ2ZA7++nyymejZkCw==";
+        };
+        _FrnGQ7W4 = {
+            "id" = "FrnGQ7W4";
+            "file" = "cpvp-macros-3.5-1.21.1.jar";
+            "hash" = "sha512-foEh7HIcO3yUcdZjaZXt5BQ67n9zHuT/4c6k+ut+6yQyyIyJ3C25U+sqz7DsjEXmzcH9ow/yYeBtmlswj/+yzQ==";
+        };
+        _1NSxJspJ = {
+            "id" = "1NSxJspJ";
+            "file" = "cpvp-macros-3.5-1.21.2.jar";
+            "hash" = "sha512-XBIbRgoacoIQE81oIrRdTZ7o7sfB3rI3DstiIXiUelwjfQ2CDKI1qWZL5AEuUszbtgAy/BaTWA2f/t8NoQjyKA==";
+        };
+        _ky2tYtcL = {
+            "id" = "ky2tYtcL";
+            "file" = "cpvp-macros-3.5-1.21.3.jar";
+            "hash" = "sha512-CcgBQFdHemvgcGujiREPpfaIdWF7ZraJaLTfRFnWQRAR4qpdUlmKbJWW/p1+B9vQ9aI6bNM0o5aSq7H7PtTKAw==";
+        };
+        _fIFBQvFf = {
+            "id" = "fIFBQvFf";
+            "file" = "cpvp-macros-3.5-1.21.4.jar";
+            "hash" = "sha512-hZE7KYHMJ5gvdo6CQ92Jx5w5vAelowSZje3LQT0lYNNzTqL2qVTnSYOFCBEr2S4mdKWNABX9HMm08/gWrcFhCA==";
+        };
+        _C4XYUHiw = {
+            "id" = "C4XYUHiw";
+            "file" = "cpvp-macros-3.5-1.21.5.jar";
+            "hash" = "sha512-Z0qVGrufOaUXWrIVzFWHEtTA1HCC00nFOS055m/oMeY/3unUPzaOTrsi2bmZs6tlGhHNVDOlLZ+2pF6P0ydesQ==";
+        };
+        _7z622gTh = {
+            "id" = "7z622gTh";
+            "file" = "cpvp-macros-3.5-1.21.6.jar";
+            "hash" = "sha512-OeT7cPG28t0JWOMI6PDyFANWQpJER5oG6G5kJdJTqbt9IL96GDOUVK3rlEMGw/Gy5z9YTgmVysla82fciFCS9w==";
+        };
+        _CflTQJ8m = {
+            "id" = "CflTQJ8m";
+            "file" = "cpvp-macros-3.5-1.21.7.jar";
+            "hash" = "sha512-Lfc/8dvLTbO1w6NE2ucbgZ5RJ5ghF46vPyUcLyoBaj6/sKryhbAy5NdTSCVv8TxaFVRthEm9wJepEjNGZBNnxQ==";
+        };
+        _EMU83NkI = {
+            "id" = "EMU83NkI";
+            "file" = "cpvp-macros-3.5-1.21.8.jar";
+            "hash" = "sha512-P7tWXaxp9OyUYC5czG8L2xBXtlJdgKaRV2KHANWzqREHJaLHbVx3XcQ10yuNkHbahOqwxMqWSkxdpm398bdwqg==";
+        };
+        _MZqCU125 = {
+            "id" = "MZqCU125";
+            "file" = "cpvp-macros-3.5-1.21.9.jar";
+            "hash" = "sha512-blAqAggp1VvQsVCK9jDVbzhKRm8kaRXNYelNMqhlXensFVQfsx2SRFGICDrtGZrpnrdYloJ1WCt/SB2Ag09RYg==";
+        };
+        _jzVNAUYX = {
+            "id" = "jzVNAUYX";
+            "file" = "cpvp-macros-3.5-1.21.10.jar";
+            "hash" = "sha512-Nxw6qz+lxc4i/L2xAABizYp9XSjkiQGKTPt1XrDQWi8o3nj4qQRZgwXPyf0VG7+yPh1guLBLvclztOivXvUj9w==";
+        };
+        _EyHqd4f3 = {
+            "id" = "EyHqd4f3";
+            "file" = "cpvp-macros-3.5-1.21.11.jar";
+            "hash" = "sha512-ak/FLxodJfo4M1lH6ulNMoBqEzr9gA+sJa4X5aSai3hIVQ5Uvf/WZKKhb+sh6P4zJfE0hpXUzJOOj4r7yW4nSg==";
+        };
+        _PiBIQWk1 = {
+            "id" = "PiBIQWk1";
+            "file" = "cpvp-macros-3.5-26.1.jar";
+            "hash" = "sha512-2BaGOF/yH6axNhvF0SlvHpLdNNyv2TPGxkwixFWiPiyHfaFoTdbK+S+2nPiDTDcon3Q8xuWxqhurT5lW+cQWBg==";
+        };
+        _jRTh7svj = {
+            "id" = "jRTh7svj";
+            "file" = "cpvp-macros-3.5-26.1.2.jar";
+            "hash" = "sha512-N6V4EfO+Y6dxYRuEReggyudJ0P2fBCZQd552v4Qw9aC4ofpXdWkrByuj9IEXKvjZJyiO3P0RkVjFnnq/qLBwXQ==";
+        };
+        _hQcnKR4M = {
+            "id" = "hQcnKR4M";
+            "file" = "cpvp-macros-3.5-26.2.jar";
+            "hash" = "sha512-CnPCriKfW8WSKlhDE7fDt66uXXPXxiV3PWjLj+6fmatod6GyxIS8mGBtWHjnxQ8zQEfz+ZHnwPGXzYrtAjLhYQ==";
+        };
     in {
         "u367pZfB" = _u367pZfB;
         "TO2UUGAG" = _TO2UUGAG;
@@ -104,22 +179,37 @@ let
         "DaqKnKL4" = _DaqKnKL4;
         "2JJRklhy" = _2JJRklhy;
         "utnlina0" = _utnlina0;
-        "fabric-1.21" = _TMOSY1LK;
-        "fabric-1.21.1" = _TMOSY1LK;
-        "fabric-1.21.2" = _TMOSY1LK;
-        "fabric-1.21.3" = _TMOSY1LK;
-        "fabric-1.21.4" = _TMOSY1LK;
-        "fabric-1.21.5" = _DaqKnKL4;
-        "fabric-1.21.6" = _2JJRklhy;
-        "fabric-1.21.7" = _2JJRklhy;
-        "fabric-1.21.8" = _2JJRklhy;
-        "fabric-1.21.9" = _2JJRklhy;
-        "fabric-1.21.10" = _2JJRklhy;
-        "fabric-1.21.11" = _2JJRklhy;
-        "fabric-26.1" = _utnlina0;
+        "IODxker8" = _IODxker8;
+        "FrnGQ7W4" = _FrnGQ7W4;
+        "1NSxJspJ" = _1NSxJspJ;
+        "ky2tYtcL" = _ky2tYtcL;
+        "fIFBQvFf" = _fIFBQvFf;
+        "C4XYUHiw" = _C4XYUHiw;
+        "7z622gTh" = _7z622gTh;
+        "CflTQJ8m" = _CflTQJ8m;
+        "EMU83NkI" = _EMU83NkI;
+        "MZqCU125" = _MZqCU125;
+        "jzVNAUYX" = _jzVNAUYX;
+        "EyHqd4f3" = _EyHqd4f3;
+        "PiBIQWk1" = _PiBIQWk1;
+        "jRTh7svj" = _jRTh7svj;
+        "hQcnKR4M" = _hQcnKR4M;
+        "fabric-1.21" = _IODxker8;
+        "fabric-1.21.1" = _FrnGQ7W4;
+        "fabric-1.21.2" = _1NSxJspJ;
+        "fabric-1.21.3" = _ky2tYtcL;
+        "fabric-1.21.4" = _fIFBQvFf;
+        "fabric-1.21.5" = _C4XYUHiw;
+        "fabric-1.21.6" = _7z622gTh;
+        "fabric-1.21.7" = _CflTQJ8m;
+        "fabric-1.21.8" = _EMU83NkI;
+        "fabric-1.21.9" = _MZqCU125;
+        "fabric-1.21.10" = _jzVNAUYX;
+        "fabric-1.21.11" = _EyHqd4f3;
+        "fabric-26.1" = _PiBIQWk1;
         "fabric-26.1.1" = _utnlina0;
-        "fabric-26.1.2" = _utnlina0;
-        "fabric-26.2" = _utnlina0;
+        "fabric-26.1.2" = _jRTh7svj;
+        "fabric-26.2" = _hQcnKR4M;
         "pkg-1.0.0" = _u367pZfB;
         "pkg-2.0" = _TO2UUGAG;
         "pkg-3.0" = _DWE3d8jg;
@@ -127,7 +217,22 @@ let
         "pkg-3.2" = _8gpCW34u;
         "pkg-3.3" = _YflrGYTV;
         "pkg-3.4" = _utnlina0;
-        "default" = _utnlina0;
+        "pkg-3.5-1.21" = _IODxker8;
+        "pkg-3.5-1.21.1" = _FrnGQ7W4;
+        "pkg-3.5-1.21.2" = _1NSxJspJ;
+        "pkg-3.5-1.21.3" = _ky2tYtcL;
+        "pkg-3.5-1.21.4" = _fIFBQvFf;
+        "pkg-3.5-1.21.5" = _C4XYUHiw;
+        "pkg-3.5-1.21.6" = _7z622gTh;
+        "pkg-3.5-1.21.7" = _CflTQJ8m;
+        "pkg-3.5-1.21.8" = _EMU83NkI;
+        "pkg-3.5-1.21.9" = _MZqCU125;
+        "pkg-3.5-1.21.10" = _jzVNAUYX;
+        "pkg-3.5-1.21.11" = _EyHqd4f3;
+        "pkg-3.5-26.1" = _PiBIQWk1;
+        "pkg-3.5-26.1.2" = _jRTh7svj;
+        "pkg-3.5-26.2" = _hQcnKR4M;
+        "default" = _hQcnKR4M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cpvp-macros";

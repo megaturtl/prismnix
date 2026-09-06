@@ -36,6 +36,11 @@ let
             "file" = "vietnam_delight-1.1.2-forge-1.20.1.jar";
             "hash" = "sha512-vZKa+xubwIiAUuGZ5jsN7ILguLijVoT3SdU6U0MiPsQBEHa5qJ9TO87tbP29N4+x6K4GlcJuxpyFGTnK6W1P1w==";
         };
+        _o837wgTm = {
+            "id" = "o837wgTm";
+            "file" = "vietnam_delight-1.1.3.jar";
+            "hash" = "sha512-pgS3NgsxUqfviyn6N8YYzlNbodhn/9TNmoLiiQ1hu4/7DNlMqcFhHxrq3vkE8Ernhx7mO2VWRmcVb3+AdfVg1w==";
+        };
     in {
         "YysVAd2r" = _YysVAd2r;
         "YQ7whaus" = _YQ7whaus;
@@ -44,7 +49,8 @@ let
         "LdkhBcdP" = _LdkhBcdP;
         "cKmrqwkh" = _cKmrqwkh;
         "RvXFXLwx" = _RvXFXLwx;
-        "forge-1.20.1" = _RvXFXLwx;
+        "o837wgTm" = _o837wgTm;
+        "forge-1.20.1" = _o837wgTm;
         "pkg-1.0.6" = _YysVAd2r;
         "pkg-1.0.7" = _YQ7whaus;
         "pkg-1.0.8" = _ef2qKYeW;
@@ -52,7 +58,8 @@ let
         "pkg-1.1.0" = _LdkhBcdP;
         "pkg-1.1.1" = _cKmrqwkh;
         "pkg-1.1.2" = _RvXFXLwx;
-        "default" = _RvXFXLwx;
+        "pkg-1.1.3" = _o837wgTm;
+        "default" = _o837wgTm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vietnam-delight";

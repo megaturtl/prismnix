@@ -301,6 +301,21 @@ let
             "file" = "antiblocksrechiseled-fabric-26.1.1.1.jar";
             "hash" = "sha512-ZJMiSli6EGqhrSeOb2yjZwc/omx6ruPeBR4JHtVAzX/XcCe4UstR5oflR75cdc2L1Oj04pLnHIa4P/JhtvQ9mA==";
         };
+        _RQFqBv3I = {
+            "id" = "RQFqBv3I";
+            "file" = "antiblocksrechiseled-neo-26.2.1.1.jar";
+            "hash" = "sha512-Okwzw0MyF+9bBeEMokn8MA003CzE1DA9TEz9CwB/axyQZLxOU7LUIEQHEX3RDGrzjACGiXQjeDzgKb8uYTlj7Q==";
+        };
+        _SaVNMp9k = {
+            "id" = "SaVNMp9k";
+            "file" = "antiblocksrechiseled-fabric-26.2.1.1.jar";
+            "hash" = "sha512-6ZxvRZsDfY75vyG5KKGKGEqCaSD5wS3/l5iJMHtS69CSY3MrpT0wlmZddbqAfDsDqCR20rSjXuuI3iidvpqrOQ==";
+        };
+        _OlFxTjgj = {
+            "id" = "OlFxTjgj";
+            "file" = "antiblocksrechiseled-forge-26.2.1.1.jar";
+            "hash" = "sha512-slCTd8Zwz2Mel7vplxUZx9KjG0VkV6FQ5iVh001zDd+RknbY5KTlS/f/hbl1aUKBw4ajjiQs8SfvgjiwA8RAZA==";
+        };
     in {
         "hfJpQQ6C" = _hfJpQQ6C;
         "aj7xrMCZ" = _aj7xrMCZ;
@@ -362,6 +377,9 @@ let
         "yrg7O2Is" = _yrg7O2Is;
         "GKBsjbEn" = _GKBsjbEn;
         "4tukU9Bd" = _4tukU9Bd;
+        "RQFqBv3I" = _RQFqBv3I;
+        "SaVNMp9k" = _SaVNMp9k;
+        "OlFxTjgj" = _OlFxTjgj;
         "forge-1.20.1" = _T8ekM3pE;
         "forge-1.20.2" = _sB8qRRpO;
         "forge-1.20.3" = _R8AAL5QA;
@@ -373,6 +391,7 @@ let
         "forge-26.1" = _GKBsjbEn;
         "forge-26.1.1" = _GKBsjbEn;
         "forge-26.1.2" = _GKBsjbEn;
+        "forge-26.2" = _OlFxTjgj;
         "fabric-1.20.1" = _aj7xrMCZ;
         "fabric-1.20.2" = _BaMHzeUX;
         "fabric-1.20.3" = _eDULSFwj;
@@ -385,6 +404,7 @@ let
         "fabric-26.1" = _4tukU9Bd;
         "fabric-26.1.1" = _4tukU9Bd;
         "fabric-26.1.2" = _4tukU9Bd;
+        "fabric-26.2" = _SaVNMp9k;
         "neoforge-1.20.4" = _yyPNN4da;
         "neoforge-1.20.6" = _DzmNIJlN;
         "neoforge-1.20.3" = _Wv6YYIw2;
@@ -399,6 +419,7 @@ let
         "neoforge-26.1" = _yrg7O2Is;
         "neoforge-26.1.1" = _yrg7O2Is;
         "neoforge-26.1.2" = _yrg7O2Is;
+        "neoforge-26.2" = _RQFqBv3I;
         "pkg-0.4.2" = _aj7xrMCZ;
         "pkg-0.5.1" = _sxNk1SBp;
         "pkg-0.6.1" = _6xv8Sh9k;
@@ -433,7 +454,8 @@ let
         "pkg-0.10.8" = _YROzKpsd;
         "pkg-12111.1.1" = _aD8Oo4kb;
         "pkg-26.1.1.1" = _4tukU9Bd;
-        "default" = _4tukU9Bd;
+        "pkg-26.2.1.1" = _OlFxTjgj;
+        "default" = _OlFxTjgj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "antiblocksrechiseled";

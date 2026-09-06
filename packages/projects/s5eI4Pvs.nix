@@ -101,6 +101,36 @@ let
             "file" = "freefbible-FABRIC-1.21.11-1.0.0.jar";
             "hash" = "sha512-HsVHYW6ApHwmikN3kpfN1KAf663sxvRvwj/GsckFHWXfQgwHFNlo980M4slxsTKim0F+iS1tjmVCDc3EObSYDg==";
         };
+        _FYexFPmg = {
+            "id" = "FYexFPmg";
+            "file" = "freefbible-FORGE-1.10.2-1.0.0.jar";
+            "hash" = "sha512-4plt87NLgNOZ93zLseUFrC8cHGEiVb/JMVPKcFl/b1I3HvxAkUdWM7olC0k/r6mUE7Ja0n+nXh+iy6E+mNouFA==";
+        };
+        _osnu1DsF = {
+            "id" = "osnu1DsF";
+            "file" = "freefbible-NEOFORGE-26.1.2-1.0.0.jar";
+            "hash" = "sha512-JtcEmQrET8Ct/yOPp3/cCVNBIeo+2iePTREmhGmEb6Z55hI5lEaaXb32MHDdrnKTZBTD+fbcoauo0YkFPFDWvQ==";
+        };
+        _zLTGk40D = {
+            "id" = "zLTGk40D";
+            "file" = "freefbible-NEOFORGE-26.2-1.0.0.jar";
+            "hash" = "sha512-tRs2cvTBcUbCMKo1KKKWOd3c7OFXI9lK1mXgsf9DEG5lvsr02ofe005dAwMk71HSf7YRDLWnJMlDg6/ERmUA8A==";
+        };
+        _avQ1RpCI = {
+            "id" = "avQ1RpCI";
+            "file" = "freefbible-FABRIC-26.2-1.0.0.jar";
+            "hash" = "sha512-+dCyZYskclFczUr5kL5562WSvqMXFWVw0SNTWKUaH5sabqaKiS6wqf+KNf8a1da2Sg1V47bnuvBlEOn6zFJy5Q==";
+        };
+        _N3vYw9WF = {
+            "id" = "N3vYw9WF";
+            "file" = "freefbible-FABRIC-1.19.2-1.0.0.jar";
+            "hash" = "sha512-E1vBH9lXd7s9Gmp5axQKT0L/tvwqOP6Vo6vrWE0tzI5mmEevELRibt2n+mkjkhbteyQQKqVRsCQzcuojW4nKxQ==";
+        };
+        _2GwXT85F = {
+            "id" = "2GwXT85F";
+            "file" = "freefbible-FORGE-1.6.4-1.0.0.jar";
+            "hash" = "sha512-PtFlkCgYvrLYrGScmoaEXto6SsSrL4S809MBcYuD+bJT3v8pPovbYAuCDEKgXfj2p5tyMju2TsL3+HYf3k+dUQ==";
+        };
     in {
         "xTjbKAwC" = _xTjbKAwC;
         "V2P2lL4e" = _V2P2lL4e;
@@ -122,10 +152,18 @@ let
         "feUbqUVm" = _feUbqUVm;
         "m271ZxfI" = _m271ZxfI;
         "cNaxrtdm" = _cNaxrtdm;
+        "FYexFPmg" = _FYexFPmg;
+        "osnu1DsF" = _osnu1DsF;
+        "zLTGk40D" = _zLTGk40D;
+        "avQ1RpCI" = _avQ1RpCI;
+        "N3vYw9WF" = _N3vYw9WF;
+        "2GwXT85F" = _2GwXT85F;
         "fabric-1.20.1" = _xTjbKAwC;
         "fabric-1.21.5" = _2FlCaEZs;
         "fabric-1.21.1" = _43LBQj5U;
         "fabric-1.21.11" = _cNaxrtdm;
+        "fabric-26.2" = _avQ1RpCI;
+        "fabric-1.19.2" = _N3vYw9WF;
         "quilt-1.20.1" = _xTjbKAwC;
         "quilt-1.21.1" = _43LBQj5U;
         "forge-1.12.2" = _V2P2lL4e;
@@ -141,10 +179,14 @@ let
         "forge-1.21.5" = _In4kfVBf;
         "forge-1.17.1" = _mymHq4y3;
         "forge-1.21.8" = _m271ZxfI;
+        "forge-1.10.2" = _FYexFPmg;
+        "forge-1.6.4" = _2GwXT85F;
         "neoforge-1.20.1" = _A9IDK73a;
         "neoforge-1.21.1" = _1bmQyBTJ;
         "neoforge-1.21.5" = _A7hBMOLP;
         "neoforge-1.21.8" = _feUbqUVm;
+        "neoforge-26.1.2" = _osnu1DsF;
+        "neoforge-26.2" = _zLTGk40D;
         "pkg-FABRIC-1.20.1-1.0.0" = _xTjbKAwC;
         "pkg-FORGE-1.12.2-1.0.0" = _V2P2lL4e;
         "pkg-FORGE-1.16.5-1.0.0" = _iHuchGby;
@@ -152,17 +194,25 @@ let
         "pkg-FORGE-1.19.2-1.0.0" = _rJRzYzGS;
         "pkg-FORGE-1.19.4-1.0.0" = _dG1lF3YH;
         "pkg-FORGE-1.20.1-1.0.0" = _A9IDK73a;
-        "pkg-1.20.6-1.0.0" = _SKOG6BvZ;
-        "pkg-1.21.1-1.0.0" = _1bmQyBTJ;
+        "pkg-FORGE-1.20.6-1.0.0" = _SKOG6BvZ;
+        "pkg-FORGE-1.21.1-1.0.0" = _lVkbUH6C;
         "pkg-FORGE-1.8.9-1.0.0" = _zfi2aE8B;
         "pkg-FORGE-1.7.10-1.0.1" = _nrkzRdN1;
-        "pkg-1.21.5-1.0.0" = _In4kfVBf;
-        "pkg-1.17.1-1.0.0" = _mymHq4y3;
+        "pkg-NEOFORGE-1.21.1-1.0.0" = _1bmQyBTJ;
+        "pkg-NEOFORGE-1.21.5-1.0.0" = _A7hBMOLP;
+        "pkg-FABRIC-1.21.5-1.0.0" = _2FlCaEZs;
+        "pkg-FORGE-1.21.5-1.0.0" = _In4kfVBf;
+        "pkg-FORGE-1.17.1-1.0.0" = _mymHq4y3;
         "pkg-FABRIC-1.21.1-1.0.0" = _43LBQj5U;
         "pkg-NEOFORGE-1.21.8-1.0.0" = _feUbqUVm;
         "pkg-FORGE-1.21.8-1.0.0" = _m271ZxfI;
         "pkg-FABRIC-1.21.11-1.0.0" = _cNaxrtdm;
-        "default" = _cNaxrtdm;
+        "pkg-FORGE-1.10.2-1.0.0" = _2GwXT85F;
+        "pkg-NEOFORGE-26.1.2-1.0.0" = _osnu1DsF;
+        "pkg-NEOFORGE-26.2-1.0.0" = _zLTGk40D;
+        "pkg-FABRIC-26.2-1.0.0" = _avQ1RpCI;
+        "pkg-FABRIC-1.19.2-1.0.0" = _N3vYw9WF;
+        "default" = _2GwXT85F;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-bible";

@@ -101,6 +101,16 @@ let
             "file" = "sturdy-vehicles-2.4.0+MC1.21.11.jar";
             "hash" = "sha512-C6r1c7NOgn5wYEC2rEM1PSxJ6kFxpGTlOMxxiHVu6WqOtmzhAlTx+xd6HKw7JdFMX6ge6G1pJkQ4/sBms8w9Vw==";
         };
+        _t5Zyjstz = {
+            "id" = "t5Zyjstz";
+            "file" = "sturdy_vehicles-2.5.0+MC26.1.x.jar";
+            "hash" = "sha512-GFp49vU7OcSMqZGMNnV02V2DH53diKT8sBV2wMHY5VB1kUVGvUqcv9nKweJ1mAunpOF8qKVXUnzCACL9Nu+iQA==";
+        };
+        _jdl28T2R = {
+            "id" = "jdl28T2R";
+            "file" = "sturdy_vehicles-2.6.0+MC26.2.x.jar";
+            "hash" = "sha512-T7JtWDIw4fa/cLGKkHiDNS/63I3CbaUSz8NehXLzhW1+lDuMc7B+aJZlaRm/nKsxayCVv9vSA3poGZFVMrK97Q==";
+        };
     in {
         "yAyARVK5" = _yAyARVK5;
         "byQlhCGc" = _byQlhCGc;
@@ -122,6 +132,8 @@ let
         "gm9FtSQu" = _gm9FtSQu;
         "l3eKUtsb" = _l3eKUtsb;
         "4wPmdQPd" = _4wPmdQPd;
+        "t5Zyjstz" = _t5Zyjstz;
+        "jdl28T2R" = _jdl28T2R;
         "fabric-1.18.1" = _byQlhCGc;
         "fabric-1.18.2" = _byQlhCGc;
         "fabric-1.19" = _YeG6pH0N;
@@ -148,6 +160,10 @@ let
         "fabric-1.21.9" = _l3eKUtsb;
         "fabric-1.21.10" = _l3eKUtsb;
         "fabric-1.21.11" = _4wPmdQPd;
+        "fabric-26.1" = _t5Zyjstz;
+        "fabric-26.1.1" = _t5Zyjstz;
+        "fabric-26.1.2" = _t5Zyjstz;
+        "fabric-26.2" = _jdl28T2R;
         "quilt-1.19" = _YeG6pH0N;
         "quilt-1.19.1" = _YeG6pH0N;
         "quilt-1.19.2" = _YeG6pH0N;
@@ -172,6 +188,10 @@ let
         "quilt-1.21.9" = _l3eKUtsb;
         "quilt-1.21.10" = _l3eKUtsb;
         "quilt-1.21.11" = _4wPmdQPd;
+        "quilt-26.1" = _t5Zyjstz;
+        "quilt-26.1.1" = _t5Zyjstz;
+        "quilt-26.1.2" = _t5Zyjstz;
+        "quilt-26.2" = _jdl28T2R;
         "pkg-1.0.0+MC1.18.1" = _yAyARVK5;
         "pkg-1.0.1+MC1.18.1-1.18.2" = _byQlhCGc;
         "pkg-1.0.2+MC1.19" = _IBGleefQ;
@@ -192,7 +212,9 @@ let
         "pkg-2.2.3+MC1.21.5-1.21.8" = _gm9FtSQu;
         "pkg-2.3.0+MC1.21.9-1.21.10" = _l3eKUtsb;
         "pkg-2.4.0+MC1.21.11" = _4wPmdQPd;
-        "default" = _4wPmdQPd;
+        "pkg-2.5.0+MC26.1.x" = _t5Zyjstz;
+        "pkg-2.6.0+MC26.2.x" = _jdl28T2R;
+        "default" = _jdl28T2R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sturdy-vehicles";

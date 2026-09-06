@@ -486,6 +486,11 @@ let
             "file" = "config-editor-1.1.11+26.1.2.jar";
             "hash" = "sha512-qPsgz5/iPmEWBiL+gEPwCCyH27I6i8kjzt6PHuWukYURSSMEu7vri2aA1Co1rNRMPaeU9CeZ3TTXbExenQmuiA==";
         };
+        _5i7wpHTb = {
+            "id" = "5i7wpHTb";
+            "file" = "config-editor-1.1.11+26.2.jar";
+            "hash" = "sha512-iCpZ7vtb9jue5GB7LHdDoRacjr3W/GfMcBlAAJxNMFreCVRMcMWSA/E9FhWisSMwcNmTHlb8O9o4k4odFqAV4w==";
+        };
     in {
         "yCt1hpID" = _yCt1hpID;
         "3nJ4J0RC" = _3nJ4J0RC;
@@ -584,6 +589,7 @@ let
         "VxmUBIb6" = _VxmUBIb6;
         "dU1doC63" = _dU1doC63;
         "CVeqqBLA" = _CVeqqBLA;
+        "5i7wpHTb" = _5i7wpHTb;
         "fabric-1.20.6" = _bcQyelNV;
         "fabric-1.21.8" = _Bt5lJDNY;
         "fabric-1.21.7" = _Bt5lJDNY;
@@ -606,6 +612,7 @@ let
         "fabric-26.1" = _CVeqqBLA;
         "fabric-26.1.2" = _CVeqqBLA;
         "fabric-26.1.1" = _CVeqqBLA;
+        "fabric-26.2" = _5i7wpHTb;
         "neoforge-1.21.10" = _EvnVL1xb;
         "pkg-1.0.0-beta.1" = _yCt1hpID;
         "pkg-1.0.0" = _3nJ4J0RC;
@@ -695,7 +702,8 @@ let
         "pkg-1.1.11-fix.1" = _KW3PQUwM;
         "pkg-1.1.11+26.1" = _VxmUBIb6;
         "pkg-1.1.11+26.1.2" = _CVeqqBLA;
-        "default" = _CVeqqBLA;
+        "pkg-1.1.11+26.2" = _5i7wpHTb;
+        "default" = _5i7wpHTb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "config-editor";

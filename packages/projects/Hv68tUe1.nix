@@ -86,6 +86,11 @@ let
         "fabric-26.3-snapshot-4" = _wrgoXqaG;
         "fabric-26.3-snapshot-5" = _VrDfhswp;
         "fabric-26.3-snapshot-6" = _VrDfhswp;
+        "fabric-26.3-snapshot-7" = _VrDfhswp;
+        "fabric-26.3-snapshot-8" = _VrDfhswp;
+        "fabric-26.3-snapshot-9" = _VrDfhswp;
+        "fabric-26.3-snapshot-10" = _VrDfhswp;
+        "fabric-26.3-pre-1" = _VrDfhswp;
         "pkg-1.0.0" = _BxSRzkcx;
         "pkg-1.1.0" = _1gcLlzdX;
         "pkg-1.2.0+26.1" = _3HNvoHDc;

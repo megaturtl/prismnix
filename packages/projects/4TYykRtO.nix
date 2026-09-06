@@ -24,6 +24,7 @@ let
         "minecraft-26.1" = _sGQC0Lze;
         "minecraft-26.1.1" = _sGQC0Lze;
         "minecraft-26.1.2" = _sGQC0Lze;
+        "minecraft-26.2" = _sGQC0Lze;
         "pkg-1.0" = _BYog1joe;
         "pkg-1.1" = _sGQC0Lze;
         "default" = _sGQC0Lze;

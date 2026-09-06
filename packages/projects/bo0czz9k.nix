@@ -121,6 +121,16 @@ let
             "file" = "zombiesutils-2.6.1.jar";
             "hash" = "sha512-VyBRzyYnqoQvmvzaLBX+QE+8pZ1c+r+AGrmpqDjXb4m+/dBWDvyiGauVOQUlvLTLm0mUubsgACcSdcUFK5fqLA==";
         };
+        _upK8ydQs = {
+            "id" = "upK8ydQs";
+            "file" = "zombiesutils-2.7.0.jar";
+            "hash" = "sha512-D5oup03kX8SKOr+bdcmaScV7UhPqE+CxVuvDXIDe/waA9YDz3BBuvInMPYIg+PqQX6thYYgdXC+gt+pj5hYPBg==";
+        };
+        _3hlx8ED1 = {
+            "id" = "3hlx8ED1";
+            "file" = "zombiesutils-2.7.1.jar";
+            "hash" = "sha512-7wVCGaqQDAjIq7uAGmsrrKbC4I8U9WftJqo5H9GHaW5to9EqLK4rpb960ltonnRUwYe5ch1R2g5JH3zcmE0AKQ==";
+        };
     in {
         "n8tDXyB7" = _n8tDXyB7;
         "j7Rnzrrl" = _j7Rnzrrl;
@@ -146,10 +156,12 @@ let
         "GCPJI4ga" = _GCPJI4ga;
         "FcV5pO4O" = _FcV5pO4O;
         "5JkiI2eH" = _5JkiI2eH;
+        "upK8ydQs" = _upK8ydQs;
+        "3hlx8ED1" = _3hlx8ED1;
         "forge-1.8.9" = _GlaTWEXV;
         "fabric-1.21.11" = _XupjvkIu;
         "fabric-26.1.2" = _GCPJI4ga;
-        "fabric-26.2" = _5JkiI2eH;
+        "fabric-26.2" = _3hlx8ED1;
         "pkg-1.3.6" = _n8tDXyB7;
         "pkg-1.3.7-PRE_1" = _j7Rnzrrl;
         "pkg-1.3.7-PRE_2" = _89devLxj;
@@ -174,7 +186,9 @@ let
         "pkg-2.5.5" = _GCPJI4ga;
         "pkg-2.5.6" = _FcV5pO4O;
         "pkg-2.6.1" = _5JkiI2eH;
-        "default" = _5JkiI2eH;
+        "pkg-2.7.0" = _upK8ydQs;
+        "pkg-2.7.1" = _3hlx8ED1;
+        "default" = _3hlx8ED1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zombies-utils";

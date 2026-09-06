@@ -86,6 +86,36 @@ let
             "file" = "Cyberspace 4.1.1 (NF1.21.1).jar";
             "hash" = "sha512-e8wVLIePQyrbFKfSGq9858tFwf16wpfmclgDTfXhowIfZ7zCgNigSMs5s8+qN9HCHObueuBNqKdot1T6nRmQNQ==";
         };
+        _K60orQ3a = {
+            "id" = "K60orQ3a";
+            "file" = "Cyberspace 5.0 (NF1.21.1).jar";
+            "hash" = "sha512-7TpYKl3G7S5gQzfkh+M1SSvg44iU0iTINsGrEPxGUGicm6rHpIFSkYSXvesOSnSgJme5m0kiMvZ2HauCwnMDNQ==";
+        };
+        _BhsSlT7V = {
+            "id" = "BhsSlT7V";
+            "file" = "Cyberspace 5.0 (F1.20.1).jar";
+            "hash" = "sha512-nRYxEs6Lnd1mz+W1TuldZygVRlOJ0Oq7Or0qNV1tWl9WlU0HQJK5csKLaqYf2FWY66xxzhDgFU+MtYQW/9Pu5Q==";
+        };
+        _aptQffQb = {
+            "id" = "aptQffQb";
+            "file" = "Cyberspace 5.0.1 (NF1.21.1).jar";
+            "hash" = "sha512-7BZe2ietnL29kBDpbaB+cr6c8qTT69FaRxIEBoPnLB/dHvlmcdtxUPio8YtGzSJO4+WvII/UxJbO5bIMBY8JiQ==";
+        };
+        _tnCARX78 = {
+            "id" = "tnCARX78";
+            "file" = "Cyberspace 5.0.1 (F1.20.1).jar";
+            "hash" = "sha512-8XQWmDqlpJzm9X02WORzD2IQb1wp1HQ52Sfe9LNXHEpIY6Q+lbgBOrDSNH6nmR6A+whJrXWp/0mCGwYdua4mVg==";
+        };
+        _HlbW3s0I = {
+            "id" = "HlbW3s0I";
+            "file" = "Cyberspace 5.0.2 (NF1.21.1).jar";
+            "hash" = "sha512-aZo7yyIGZeT+eaucXAe/BCk+g/jnbA53JAsGgl+l36NaLFGgUx+YHeNISA1uXsWSB3VkV4k3MAbeqD/rKWI03A==";
+        };
+        _4EqxxExE = {
+            "id" = "4EqxxExE";
+            "file" = "Cyberspace 5.0.2 (F1.20.1).jar";
+            "hash" = "sha512-qR2bEd2OXXQiO9MTITtHgmjFeUjL0HxN3Ml9Mrz/zOsfgjlWlShbd1Xt8Oa0keZIOaFt9JbnHwCinbb/EA81oQ==";
+        };
     in {
         "bAqE2IhK" = _bAqE2IhK;
         "3whCenUC" = _3whCenUC;
@@ -104,9 +134,15 @@ let
         "YddF1RYl" = _YddF1RYl;
         "awMwXn7A" = _awMwXn7A;
         "9eUFDK65" = _9eUFDK65;
-        "forge-1.20.1" = _JP6el9hX;
+        "K60orQ3a" = _K60orQ3a;
+        "BhsSlT7V" = _BhsSlT7V;
+        "aptQffQb" = _aptQffQb;
+        "tnCARX78" = _tnCARX78;
+        "HlbW3s0I" = _HlbW3s0I;
+        "4EqxxExE" = _4EqxxExE;
+        "forge-1.20.1" = _4EqxxExE;
         "neoforge-1.21.4" = _7Sop9vxl;
-        "neoforge-1.21.1" = _9eUFDK65;
+        "neoforge-1.21.1" = _HlbW3s0I;
         "pkg-1.0" = _bAqE2IhK;
         "pkg-1.1" = _3whCenUC;
         "pkg-2.0" = _iqQxEgjD;
@@ -122,7 +158,10 @@ let
         "pkg-4.0.3" = _YddF1RYl;
         "pkg-4.1" = _awMwXn7A;
         "pkg-4.1.1" = _9eUFDK65;
-        "default" = _9eUFDK65;
+        "pkg-5.0" = _BhsSlT7V;
+        "pkg-5.0.1" = _tnCARX78;
+        "pkg-5.0.2" = _4EqxxExE;
+        "default" = _4EqxxExE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cyberspace";

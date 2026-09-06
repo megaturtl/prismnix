@@ -201,6 +201,16 @@ let
             "file" = "UndergroundVillages-neoforge-26.1.2-11.0.0.jar";
             "hash" = "sha512-I7nzHc3SnySLjOckaye+D47PyOyXTdsVkbC6bNoEVXVMUP7Fi+Mt66Ty9JmsqieAQyE0CAJvO33NSrAiTVGARw==";
         };
+        _q6BgMjT7 = {
+            "id" = "q6BgMjT7";
+            "file" = "UndergroundVillages-fabric-26.2-12.0.0.jar";
+            "hash" = "sha512-mUi/DWmk06X9e832mRJqI0ESkMH7HlkANqZDylKz8xWq3p1S4TP2xrqMF1IUOwIX4ZEf016Fb+P54OgOBddtng==";
+        };
+        _VWxbLWOr = {
+            "id" = "VWxbLWOr";
+            "file" = "UndergroundVillages-neoforge-26.2-12.0.0.jar";
+            "hash" = "sha512-HqT0R2uaqFr6GtDLqlQ8I/jOZZHLTOpOfkQBQWHbivwXX7PrMyWedJdPSGlqUW0TCNi5MCP5RqKGud229fWe2w==";
+        };
     in {
         "Qo8SeLRP" = _Qo8SeLRP;
         "7dDtakeD" = _7dDtakeD;
@@ -242,6 +252,8 @@ let
         "ZF9jV5EZ" = _ZF9jV5EZ;
         "ZG27xI3w" = _ZG27xI3w;
         "IlDwbtDc" = _IlDwbtDc;
+        "q6BgMjT7" = _q6BgMjT7;
+        "VWxbLWOr" = _VWxbLWOr;
         "forge-1.18.2" = _2Cx86y5w;
         "forge-1.19" = _7dDtakeD;
         "forge-1.19.1" = _7dDtakeD;
@@ -261,6 +273,7 @@ let
         "neoforge-1.21.10" = _q5Cgh1nL;
         "neoforge-1.21.11" = _POUFenq5;
         "neoforge-26.1.2" = _IlDwbtDc;
+        "neoforge-26.2" = _VWxbLWOr;
         "fabric-1.20.1" = _Xt5gPHu2;
         "fabric-1.20.4" = _BSu5przo;
         "fabric-1.21" = _MxvXCZXA;
@@ -272,6 +285,7 @@ let
         "fabric-1.21.10" = _jPtz8wuY;
         "fabric-1.21.11" = _ZF9jV5EZ;
         "fabric-26.1.2" = _ZG27xI3w;
+        "fabric-26.2" = _q6BgMjT7;
         "pkg-1.0.1" = _Qo8SeLRP;
         "pkg-1.1.1" = _7dDtakeD;
         "pkg-1.2.0" = _2Cx86y5w;
@@ -295,7 +309,8 @@ let
         "pkg-9.0.0" = _jPtz8wuY;
         "pkg-10.0.0" = _ZF9jV5EZ;
         "pkg-11.0.0" = _IlDwbtDc;
-        "default" = _IlDwbtDc;
+        "pkg-12.0.0" = _VWxbLWOr;
+        "default" = _VWxbLWOr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "underground-villages";

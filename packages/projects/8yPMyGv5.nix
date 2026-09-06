@@ -41,6 +41,26 @@ let
             "file" = "vortylib-1.2.3.jar";
             "hash" = "sha512-qgoax/VBubhvCMK0En/wqSQMJnU/FLVPV7UEIPk26Wyc2GwWNc+SvagMxM35m2M9wvQgMRms7MCMXcUupwYj8w==";
         };
+        _FJrQdWbF = {
+            "id" = "FJrQdWbF";
+            "file" = "vortylib-1.2.4.jar";
+            "hash" = "sha512-tiKrZoFADVzEOWCIkibnxoPM2PS5fqWK6iGYHveRcfc8moSvKRiCWGmzqEw0qmrv96jgxnjG9HDV5syDLQy1CQ==";
+        };
+        _uUeTHprt = {
+            "id" = "uUeTHprt";
+            "file" = "vortylib-1.2.5.jar";
+            "hash" = "sha512-jok/Ws2V/EyGSxlejFlzHCl+LpNwvOmjbynvTWD3rSt9RDpjNrQStleFj75gRYzNr+BUr2Ykfp6hQXy3J2pavQ==";
+        };
+        _nSjGEaix = {
+            "id" = "nSjGEaix";
+            "file" = "vortylib-1.2.5.1.jar";
+            "hash" = "sha512-0KxKnV91CQ/bzF1jE07CVz6HOdYX+Ef7A09MmbJZDVQKTR9PGrRuZZQF0zjLJNSsGuVfYG9SAFr1U2Q59aEOVg==";
+        };
+        _xNOPMtPL = {
+            "id" = "xNOPMtPL";
+            "file" = "vortylib-1.2.5.2.jar";
+            "hash" = "sha512-XniFB6eBd/GKgaB4UNZQSDq3ClliqcX74qj9+UgGXLcojHnCaeDpf4DL2s2Znil/6CMG2KxNzFOpvs4o3OjxLA==";
+        };
     in {
         "xoEPpZ0X" = _xoEPpZ0X;
         "tp1QsEM6" = _tp1QsEM6;
@@ -50,7 +70,11 @@ let
         "Ci37E8sK" = _Ci37E8sK;
         "yVbAhFrX" = _yVbAhFrX;
         "iEEBL2J7" = _iEEBL2J7;
-        "neoforge-1.21.1" = _yVbAhFrX;
+        "FJrQdWbF" = _FJrQdWbF;
+        "uUeTHprt" = _uUeTHprt;
+        "nSjGEaix" = _nSjGEaix;
+        "xNOPMtPL" = _xNOPMtPL;
+        "neoforge-1.21.1" = _xNOPMtPL;
         "forge-1.20.1" = _iEEBL2J7;
         "pkg-1.0" = _xoEPpZ0X;
         "pkg-1.1" = _tp1QsEM6;
@@ -58,7 +82,11 @@ let
         "pkg-1.2.1" = _NsOExgMo;
         "pkg-1.2.2" = _Ci37E8sK;
         "pkg-1.2.3" = _iEEBL2J7;
-        "default" = _iEEBL2J7;
+        "pkg-1.2.4" = _FJrQdWbF;
+        "pkg-1.2.5" = _uUeTHprt;
+        "pkg-1.2.5.1" = _nSjGEaix;
+        "pkg-1.2.5.2" = _xNOPMtPL;
+        "default" = _xNOPMtPL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vortylib";

@@ -31,6 +31,11 @@ let
             "file" = "FriendlyGriefing-1.20-1.0.2.jar";
             "hash" = "sha512-J9mPFjuJNnDtNe1fD9xHqC4Soi3E4cGeP6AFf7QjGSpKy+nzrbJbDKyc+/JpVoeUkb7Go0WofGFt085vRGm2tw==";
         };
+        _1typenEA = {
+            "id" = "1typenEA";
+            "file" = "FriendlyGriefing-1.20.4-1.0.2.jar";
+            "hash" = "sha512-GlrKTluJe85a5lQaTGdYuASN0/g8lbEZRv6IA5iWdJzjRz7tNAPe/8qRt6ucBNP6SFFwzpTT77+9CzE78GYIIg==";
+        };
     in {
         "eqq7hghG" = _eqq7hghG;
         "DR31m6OW" = _DR31m6OW;
@@ -38,19 +43,22 @@ let
         "vKtsvyaQ" = _vKtsvyaQ;
         "6zW5e6vr" = _6zW5e6vr;
         "EqQg2qvt" = _EqQg2qvt;
+        "1typenEA" = _1typenEA;
         "forge-1.18.2" = _eqq7hghG;
         "forge-1.19" = _IGiXIeDH;
         "forge-1.19.3" = _vKtsvyaQ;
         "forge-1.19.4" = _6zW5e6vr;
         "forge-1.20" = _EqQg2qvt;
         "forge-1.20.1" = _EqQg2qvt;
+        "neoforge-1.20.4" = _1typenEA;
         "pkg-1.0.1" = _eqq7hghG;
         "pkg-1.19-1.0.1" = _DR31m6OW;
         "pkg-1.19-1.0.2" = _IGiXIeDH;
         "pkg-1.19.3-1.0.2" = _vKtsvyaQ;
         "pkg-1.19.4-1.0.2" = _6zW5e6vr;
         "pkg-1.20-1.0.2" = _EqQg2qvt;
-        "default" = _EqQg2qvt;
+        "pkg-1.20.4-1.0.2" = _1typenEA;
+        "default" = _1typenEA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "friendly-griefing";

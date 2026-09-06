@@ -86,8 +86,8 @@ let
         "qQdIcbA6" = _qQdIcbA6;
         "dQLIT3U8" = _dQLIT3U8;
         "fnswGpgd" = _fnswGpgd;
-        "datapack-1.21" = _oj9vSJc2;
-        "datapack-1.21.1" = _oj9vSJc2;
+        "datapack-1.21" = _3CfErEBP;
+        "datapack-1.21.1" = _3CfErEBP;
         "datapack-1.21.2" = _3dGYWuRo;
         "datapack-1.21.3" = _3dGYWuRo;
         "datapack-1.21.4" = _3dGYWuRo;
@@ -102,8 +102,8 @@ let
         "datapack-26.1.1" = _dQLIT3U8;
         "datapack-26.1.2" = _dQLIT3U8;
         "datapack-26.2" = _dQLIT3U8;
-        "fabric-1.21" = _7pbNMw2R;
-        "fabric-1.21.1" = _7pbNMw2R;
+        "fabric-1.21" = _qD3s0rx1;
+        "fabric-1.21.1" = _qD3s0rx1;
         "fabric-1.21.2" = _qQdIcbA6;
         "fabric-1.21.3" = _qQdIcbA6;
         "fabric-1.21.4" = _qQdIcbA6;
@@ -118,8 +118,8 @@ let
         "fabric-26.1.1" = _fnswGpgd;
         "fabric-26.1.2" = _fnswGpgd;
         "fabric-26.2" = _fnswGpgd;
-        "forge-1.21" = _7pbNMw2R;
-        "forge-1.21.1" = _7pbNMw2R;
+        "forge-1.21" = _qD3s0rx1;
+        "forge-1.21.1" = _qD3s0rx1;
         "forge-1.21.2" = _qQdIcbA6;
         "forge-1.21.3" = _qQdIcbA6;
         "forge-1.21.4" = _qQdIcbA6;
@@ -134,8 +134,8 @@ let
         "forge-26.1.1" = _fnswGpgd;
         "forge-26.1.2" = _fnswGpgd;
         "forge-26.2" = _fnswGpgd;
-        "neoforge-1.21" = _7pbNMw2R;
-        "neoforge-1.21.1" = _7pbNMw2R;
+        "neoforge-1.21" = _qD3s0rx1;
+        "neoforge-1.21.1" = _qD3s0rx1;
         "neoforge-1.21.2" = _qQdIcbA6;
         "neoforge-1.21.3" = _qQdIcbA6;
         "neoforge-1.21.4" = _qQdIcbA6;
@@ -150,8 +150,8 @@ let
         "neoforge-26.1.1" = _fnswGpgd;
         "neoforge-26.1.2" = _fnswGpgd;
         "neoforge-26.2" = _fnswGpgd;
-        "quilt-1.21" = _7pbNMw2R;
-        "quilt-1.21.1" = _7pbNMw2R;
+        "quilt-1.21" = _qD3s0rx1;
+        "quilt-1.21.1" = _qD3s0rx1;
         "quilt-1.21.2" = _qQdIcbA6;
         "quilt-1.21.3" = _qQdIcbA6;
         "quilt-1.21.4" = _qQdIcbA6;

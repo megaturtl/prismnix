@@ -61,6 +61,21 @@ let
             "file" = "pmweathercm1-1.1.1.jar";
             "hash" = "sha512-CzSF2nAJqiyVodxSrmW8nKg56TOFRAd+r8QKcasN5M3dyfEanZujRfgTfJ0R+7LaAK/PoOusLgVhApJc4X0qgg==";
         };
+        _GRlt2ob6 = {
+            "id" = "GRlt2ob6";
+            "file" = "pmweathercm1-1.1.2.jar";
+            "hash" = "sha512-iTUw6kTySZA405mTXkxgtBqwjjgzlzQDQqWPR83Ykeeno1zUoBeCDagWSDHi/BgxO6Qo1MfNDEJGj6j9yXH2cw==";
+        };
+        _byqfygLf = {
+            "id" = "byqfygLf";
+            "file" = "pmweathercm1-1.1.3.jar";
+            "hash" = "sha512-1UOJQYY+Y47xFPC16gzqWuL5GMRcoa4yU9s2jo16+2WDRfHZ5vVW8j9UHdmOL9BmDmw99JQaVn6I01RJCqmz+w==";
+        };
+        _tdtBna0Y = {
+            "id" = "tdtBna0Y";
+            "file" = "pmweathercm1-1.1.4.jar";
+            "hash" = "sha512-BWCoqMlbuzx3DI/bM0iCMQPTaLUV4vC+TQjs1jdG6QoVTM56cblYL9wLCct3g2Gqr8bEz3yukilFKaFynyvCEA==";
+        };
     in {
         "i0deSxz3" = _i0deSxz3;
         "U9QsT5m7" = _U9QsT5m7;
@@ -74,7 +89,10 @@ let
         "TxSvf0KV" = _TxSvf0KV;
         "DjwsDMLn" = _DjwsDMLn;
         "YvqS9PHr" = _YvqS9PHr;
-        "neoforge-1.21.1" = _YvqS9PHr;
+        "GRlt2ob6" = _GRlt2ob6;
+        "byqfygLf" = _byqfygLf;
+        "tdtBna0Y" = _tdtBna0Y;
+        "neoforge-1.21.1" = _tdtBna0Y;
         "pkg-1.0.0" = _i0deSxz3;
         "pkg-1.0.1" = _U9QsT5m7;
         "pkg-1.0.2" = _Szg4efMe;
@@ -87,7 +105,10 @@ let
         "pkg-1.0.9" = _TxSvf0KV;
         "pkg-1.1.0" = _DjwsDMLn;
         "pkg-1.1.1" = _YvqS9PHr;
-        "default" = _YvqS9PHr;
+        "pkg-1.1.2" = _GRlt2ob6;
+        "pkg-1.1.3" = _byqfygLf;
+        "pkg-1.1.4" = _tdtBna0Y;
+        "default" = _tdtBna0Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pmweathercm1";

@@ -91,6 +91,21 @@ let
             "file" = "neoecoae-21.1.1.jar";
             "hash" = "sha512-d4cHKqmYUXeTJK9vVWr7F9rEHTbbArxsRnB7W0KbKFmLFSTx+RwYzfX8+cM/CAH3OaOlxTHvaU/BMs5Xf9BYUg==";
         };
+        _ueacEcfO = {
+            "id" = "ueacEcfO";
+            "file" = "neoecoae-20.4.0.jar";
+            "hash" = "sha512-baS6HXcAez114p5LYEUlJwgoBTVKneFdCmV+vm0ZJfFCWUOYrgmoERABZlTL72MLO3taAs39P9V8vXNW0TBbmg==";
+        };
+        _9aEHjbjY = {
+            "id" = "9aEHjbjY";
+            "file" = "neoecoae-20.4.1.jar";
+            "hash" = "sha512-RaeA/IHnXFN/m1TkYR6ymSCztYsbrvFseJjorh6hRfHkjIeNdJ6Y8z38fCvHRVIouPOByA0D2r19m0PMyAqSOw==";
+        };
+        _Qm3GW128 = {
+            "id" = "Qm3GW128";
+            "file" = "neoecoae-20.4.2.jar";
+            "hash" = "sha512-NuyX7w1bUibqpY+p4lOi/CS4IYIH0SzRYs6RP7ApvnW+6NLk41K75khhxETllr9Q9ZYbfAvwKNhoIVRNLCodjA==";
+        };
     in {
         "fk6J0mSI" = _fk6J0mSI;
         "Fgo9rAPU" = _Fgo9rAPU;
@@ -110,8 +125,11 @@ let
         "tRIayGs9" = _tRIayGs9;
         "TYrXvWwv" = _TYrXvWwv;
         "gWMhHBje" = _gWMhHBje;
+        "ueacEcfO" = _ueacEcfO;
+        "9aEHjbjY" = _9aEHjbjY;
+        "Qm3GW128" = _Qm3GW128;
         "neoforge-1.21.1" = _gWMhHBje;
-        "forge-1.20.1" = _TYrXvWwv;
+        "forge-1.20.1" = _Qm3GW128;
         "pkg-1.0.0" = _fk6J0mSI;
         "pkg-1.1.0" = _Fgo9rAPU;
         "pkg-1.1.1" = _YOuQBQrj;
@@ -129,7 +147,10 @@ let
         "pkg-21.1.0" = _tRIayGs9;
         "pkg-20.3.0" = _TYrXvWwv;
         "pkg-21.1.1" = _gWMhHBje;
-        "default" = _gWMhHBje;
+        "pkg-20.4.0" = _ueacEcfO;
+        "pkg-20.4.1" = _9aEHjbjY;
+        "pkg-20.4.2" = _Qm3GW128;
+        "default" = _Qm3GW128;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "neoecoae";

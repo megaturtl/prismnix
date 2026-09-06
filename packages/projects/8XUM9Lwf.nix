@@ -56,6 +56,16 @@ let
             "file" = "flintrequired-1.5.0F.jar";
             "hash" = "sha512-lznCsVKB7/2Ofsjja9Vds19AOTsqyl+ot4MG/Kv6xvRU6/71bUTXhqg2EYrCqSN1xmnrfBzgoWZppnniquThLQ==";
         };
+        _uDOfPC54 = {
+            "id" = "uDOfPC54";
+            "file" = "flintrequired-1.5.1.jar";
+            "hash" = "sha512-z3EPbdh9gGVogofIs8Vve4+/PJmhRAPHjua869IMDh4FCA+seaLKd5iCUjjwGxTi61KGkcWfiFiQZzAkADNB9Q==";
+        };
+        _73JYL48A = {
+            "id" = "73JYL48A";
+            "file" = "flintrequired-1.5.2.jar";
+            "hash" = "sha512-JlMAhqNV+irDh8gCQr6OJlZlFtE7e+iyAq6GqSHARi5HEPp5cjDfH6TusgI7FRNEsZ3DNnmqKolC///O94XBHA==";
+        };
     in {
         "4O5LSC7a" = _4O5LSC7a;
         "fC4Wwh5m" = _fC4Wwh5m;
@@ -68,8 +78,10 @@ let
         "rg6Ip3Gm" = _rg6Ip3Gm;
         "HRbFB6Sa" = _HRbFB6Sa;
         "rtd6B72y" = _rtd6B72y;
+        "uDOfPC54" = _uDOfPC54;
+        "73JYL48A" = _73JYL48A;
         "forge-1.20.1" = _tSJHyhPh;
-        "neoforge-1.21.1" = _rtd6B72y;
+        "neoforge-1.21.1" = _73JYL48A;
         "pkg-1.1.0" = _4O5LSC7a;
         "pkg-1.2.0" = _fC4Wwh5m;
         "pkg-1.3.0" = _QHWDzKIq;
@@ -79,7 +91,9 @@ let
         "pkg-1.4.3" = _rg6Ip3Gm;
         "pkg-1.5.0" = _HRbFB6Sa;
         "pkg-1.5.0F" = _rtd6B72y;
-        "default" = _rtd6B72y;
+        "pkg-1.5.1" = _uDOfPC54;
+        "pkg-1.5.2" = _73JYL48A;
+        "default" = _73JYL48A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flint-required";

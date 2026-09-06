@@ -41,6 +41,11 @@ let
             "file" = "the-block-keeps-ticking-1.2.0.jar";
             "hash" = "sha512-QdCh7dxJVppcDo+OWvnNjjEUopnhIPoB6FZrD/VcSDFqXWL1IVIWhMzZ27iljeVKPpoN8x6NaLVWbBTbAivfCg==";
         };
+        _QTXoeB2j = {
+            "id" = "QTXoeB2j";
+            "file" = "the-block-keeps-ticking-1.2.1.jar";
+            "hash" = "sha512-Yqlth9d1nEphfY0wCgrv06VlUI2ay6bbH/fcRrgGD/tR4jwX4XMxphphNKi1KjNEsGOz1jIJLoe5mxBg2YMclg==";
+        };
     in {
         "lbACybVB" = _lbACybVB;
         "wucKZisx" = _wucKZisx;
@@ -50,6 +55,7 @@ let
         "Xv62d5GL" = _Xv62d5GL;
         "lzVhEsAn" = _lzVhEsAn;
         "s5gwcJ2o" = _s5gwcJ2o;
+        "QTXoeB2j" = _QTXoeB2j;
         "fabric-1.21.6" = _wucKZisx;
         "fabric-1.21.7" = _wucKZisx;
         "fabric-1.21.8" = _wucKZisx;
@@ -59,7 +65,7 @@ let
         "fabric-26.1" = _lzVhEsAn;
         "fabric-26.1.1" = _lzVhEsAn;
         "fabric-26.1.2" = _lzVhEsAn;
-        "fabric-26.2" = _s5gwcJ2o;
+        "fabric-26.2" = _QTXoeB2j;
         "pkg-1.0.0" = _lbACybVB;
         "pkg-1.0.1" = _wucKZisx;
         "pkg-1.0.2" = _9vKtOYe8;
@@ -68,7 +74,8 @@ let
         "pkg-1.0.5" = _Xv62d5GL;
         "pkg-1.1.0" = _lzVhEsAn;
         "pkg-1.2.0" = _s5gwcJ2o;
-        "default" = _s5gwcJ2o;
+        "pkg-1.2.1" = _QTXoeB2j;
+        "default" = _QTXoeB2j;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-block-keeps-ticking";

@@ -16,15 +16,22 @@ let
             "file" = "coldsweat_altitude-0.6.3.jar";
             "hash" = "sha512-tg0gTjc6VNVezJez8n/XOI2Jm/MrMnzbFtc5imcw+9YIpf5500QuV9yfecZt4FzBu16RD5bAc7UggUTg8qaJKQ==";
         };
+        _caz4v737 = {
+            "id" = "caz4v737";
+            "file" = "coldsweat_altitude-0.7.0.jar";
+            "hash" = "sha512-BscDNZN+A5qOcpO2xkVzLqKL/qdwH6DYl0AVim6c/hsZXKdsNO8ySe8Pn/0VLeDgUALlxeG8I9ov5KV396Mnrw==";
+        };
     in {
         "NEcxRPRP" = _NEcxRPRP;
         "7yPBs5jy" = _7yPBs5jy;
         "G9Z54AV9" = _G9Z54AV9;
-        "neoforge-1.21.1" = _G9Z54AV9;
+        "caz4v737" = _caz4v737;
+        "neoforge-1.21.1" = _caz4v737;
         "pkg-0.6.1" = _NEcxRPRP;
         "pkg-0.6.2" = _7yPBs5jy;
         "pkg-0.6.3" = _G9Z54AV9;
-        "default" = _G9Z54AV9;
+        "pkg-0.7.0" = _caz4v737;
+        "default" = _caz4v737;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cold-sweat-altitude";

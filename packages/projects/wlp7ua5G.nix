@@ -206,6 +206,46 @@ let
             "file" = "archerythings-neoforge-26.2-26.2.0.3.jar";
             "hash" = "sha512-x0TlgWE+hmXSVLP7NyAXiGgeXUUTAeqWHi90zEYxjW1+XIeDPR5+iBhP5Cekomob3eolKhFHGUJUoK4+EjYLcg==";
         };
+        _jmGDeRKI = {
+            "id" = "jmGDeRKI";
+            "file" = "archerythings-neoforge-26.2-26.2.0.4.jar";
+            "hash" = "sha512-afn1OmrJll22yr2Pe3uhtIAq//bBbAa97IBSlB4nh0v2GS5qIxyp5JRsiSr3yPISWotiMdfoNI97l02zL83nUA==";
+        };
+        _iDmSbUUX = {
+            "id" = "iDmSbUUX";
+            "file" = "archerythings-fabric-26.2-26.2.0.4.jar";
+            "hash" = "sha512-noHb9dngs+lS6JkYAC6xChIXZ/4BtMmGybmBkx4KIPAQBK0wqWx9pIfg7dwB/XeVVhM7wa4kcrp1e032U+nHYw==";
+        };
+        _wJEHUYbC = {
+            "id" = "wJEHUYbC";
+            "file" = "archerythings-neoforge-26.1.2-26.1.2.5.jar";
+            "hash" = "sha512-oE91QVvbbOwsfnMaSUIFrEErTUFRlBezxVpMw4ldlxncm9+K35/yWgY3G+oVt0fZX+9orlwohf7Mfs6yG/34RQ==";
+        };
+        _BsYWQknX = {
+            "id" = "BsYWQknX";
+            "file" = "archerythings-fabric-26.1.2-26.1.2.5.jar";
+            "hash" = "sha512-icxqErj19fb70fwhav7CL3OIb8VU2XRsZv5il7DY6yw2anJ3vFOHVUPw6lNmmcJ5AQAIaLIu0/wRumY/DaN+RQ==";
+        };
+        _rsri1VYg = {
+            "id" = "rsri1VYg";
+            "file" = "archerythings-fabric-26.1.2-26.1.2.6.jar";
+            "hash" = "sha512-LhTm28F7yz9B3w+X7n8KLWn/QuUf5aiDFRugXWAU/RXYSs3nHoz3SRq/0Hj+rXQaZyG0PCq8/k+u+YNLV+RZwA==";
+        };
+        _eSFdJKlV = {
+            "id" = "eSFdJKlV";
+            "file" = "archerythings-neoforge-26.1.2-26.1.2.6.jar";
+            "hash" = "sha512-UgOgKT9Tuk6m26wDSc57VPwfNC4dG9zWogVS7UaQWyFPdKfY+vkiYH3fD99XdCWkj0byTRcw5lJcYdPPay0ryQ==";
+        };
+        _DWzWC2ct = {
+            "id" = "DWzWC2ct";
+            "file" = "archerythings-fabric-26.2-26.2.0.5.jar";
+            "hash" = "sha512-4dxkszw7CeKykc++cJBq4ggEwUCDnMvmX8BKt3ssYSkxIzN9z74EkC+cY/0GTE1e4xDj6b6VwBbQIkmUIXPe3A==";
+        };
+        _OOezMBv2 = {
+            "id" = "OOezMBv2";
+            "file" = "archerythings-neoforge-26.2-26.2.0.5.jar";
+            "hash" = "sha512-49/7NeyorDgYKW17QJXoOzSAyn3lXx8sFYe0R9iGWZ5dsFtsbcajC9RSoVXmucXLMyEEtsX+kgSmthY3yWvTVw==";
+        };
     in {
         "jkoWL3Fh" = _jkoWL3Fh;
         "Eh49XArf" = _Eh49XArf;
@@ -248,20 +288,28 @@ let
         "5jdkoHTo" = _5jdkoHTo;
         "514ntvNI" = _514ntvNI;
         "xKHCKZ1v" = _xKHCKZ1v;
+        "jmGDeRKI" = _jmGDeRKI;
+        "iDmSbUUX" = _iDmSbUUX;
+        "wJEHUYbC" = _wJEHUYbC;
+        "BsYWQknX" = _BsYWQknX;
+        "rsri1VYg" = _rsri1VYg;
+        "eSFdJKlV" = _eSFdJKlV;
+        "DWzWC2ct" = _DWzWC2ct;
+        "OOezMBv2" = _OOezMBv2;
         "neoforge-1.21.11" = _sZwGiGtn;
         "neoforge-1.21.10" = _b4DupIH4;
         "neoforge-26.1-snapshot-7" = _D3jCxumB;
         "neoforge-26.1" = _xqsJWiq3;
         "neoforge-26.1.1" = _xqsJWiq3;
-        "neoforge-26.1.2" = _5jdkoHTo;
-        "neoforge-26.2" = _xKHCKZ1v;
+        "neoforge-26.1.2" = _eSFdJKlV;
+        "neoforge-26.2" = _OOezMBv2;
         "fabric-1.21.11" = _i0dSXUY1;
         "fabric-1.21.10" = _ynTCVwq0;
         "fabric-26.1-snapshot-7" = _sxVqbi2y;
         "fabric-26.1" = _OAnsk5Gg;
         "fabric-26.1.1" = _OAnsk5Gg;
-        "fabric-26.1.2" = _gfKuKzGu;
-        "fabric-26.2" = _514ntvNI;
+        "fabric-26.1.2" = _rsri1VYg;
+        "fabric-26.2" = _DWzWC2ct;
         "pkg-1.0.0+mc1.21.11-neoforge" = _jkoWL3Fh;
         "pkg-1.0.0+mc1.21.11-fabric" = _Eh49XArf;
         "pkg-1.0.0+mc1.21.10-neoforge" = _cIFdawrE;
@@ -295,7 +343,11 @@ let
         "pkg-26.2.0.2" = _ynt5SJWp;
         "pkg-26.1.2.4" = _5jdkoHTo;
         "pkg-26.2.0.3" = _xKHCKZ1v;
-        "default" = _xKHCKZ1v;
+        "pkg-26.2.0.4" = _iDmSbUUX;
+        "pkg-26.1.2.5" = _BsYWQknX;
+        "pkg-26.1.2.6" = _eSFdJKlV;
+        "pkg-26.2.0.5" = _OOezMBv2;
+        "default" = _OOezMBv2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "archery-things";

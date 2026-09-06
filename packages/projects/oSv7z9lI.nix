@@ -31,6 +31,16 @@ let
             "file" = "toybox-1.1.jar";
             "hash" = "sha512-F6rN3+UwAaomfxrzrITpEQ6b6T8SEyfr90e4o0iCttv34voMMC+mdvLTO2gMG8ihiUfAKDdVBfmME5ZFIGnY3w==";
         };
+        _YMjjffl7 = {
+            "id" = "YMjjffl7";
+            "file" = "Toybox 1.20.1 v1.0.6.jar";
+            "hash" = "sha512-yc6iFGdztWzYJGwCQnCVMScqCQTi9d6bjG6IW0lzUB1PEs4b9NnInHDkJNDvEF6sTzPqhorsnEk/AAxhTBpjEA==";
+        };
+        _RoCCiqR1 = {
+            "id" = "RoCCiqR1";
+            "file" = "Toybox 1.21.1 v1.1.1.jar";
+            "hash" = "sha512-JDL3FxtFh9Wa6ZnC4Qkp4AgGGAQKR2SSUIFA3ci6LL69sAVBc595GrZZsdM8mmeO7VY05WivXpUF7jaiPnFiqA==";
+        };
     in {
         "1dKirCyY" = _1dKirCyY;
         "69L0mCP3" = _69L0mCP3;
@@ -38,16 +48,20 @@ let
         "BQh0L0F2" = _BQh0L0F2;
         "BGJDmeh7" = _BGJDmeh7;
         "FwJUxkfp" = _FwJUxkfp;
-        "forge-1.20.1" = _BGJDmeh7;
-        "neoforge-1.20.1" = _BGJDmeh7;
-        "neoforge-1.21.1" = _FwJUxkfp;
+        "YMjjffl7" = _YMjjffl7;
+        "RoCCiqR1" = _RoCCiqR1;
+        "forge-1.20.1" = _YMjjffl7;
+        "neoforge-1.20.1" = _YMjjffl7;
+        "neoforge-1.21.1" = _RoCCiqR1;
         "pkg-1.0" = _1dKirCyY;
         "pkg-1.0.1" = _69L0mCP3;
         "pkg-1.0.2" = _7AMvpqeK;
         "pkg-1.0.3" = _BQh0L0F2;
         "pkg-1.0.4" = _BGJDmeh7;
         "pkg-1.1" = _FwJUxkfp;
-        "default" = _FwJUxkfp;
+        "pkg-1.0.6" = _YMjjffl7;
+        "pkg-1.1.1" = _RoCCiqR1;
+        "default" = _RoCCiqR1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "toybox-mod";

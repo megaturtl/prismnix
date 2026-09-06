@@ -21,18 +21,25 @@ let
             "file" = "TFCBetterBlastFurnace-1.21.1-2.0.0.jar";
             "hash" = "sha512-m2ANcY0AdJXejm/ZGm/Af2i1HdJziR19UIPnzAtHGuL5J8wUTdSWxAG3G8WmScgzEa3cPU8DAFJ3+Wen7LaM+A==";
         };
+        _dJGvS6mC = {
+            "id" = "dJGvS6mC";
+            "file" = "TFCBetterBlastFurnace-1.21.1-2.0.1.jar";
+            "hash" = "sha512-gvHxz3QJwTcY7niqEoWgHH4HkxTWreLNzgOGvCBPCH7j04fJKa1EC5qKIEZ4/nPYt2MFMWsXeGunAqyaBgKDtg==";
+        };
     in {
         "kXi8g4JA" = _kXi8g4JA;
         "MyOPcTS9" = _MyOPcTS9;
         "vdRmPxPV" = _vdRmPxPV;
         "p3pH4Ex1" = _p3pH4Ex1;
+        "dJGvS6mC" = _dJGvS6mC;
         "forge-1.20.1" = _vdRmPxPV;
-        "neoforge-1.21.1" = _p3pH4Ex1;
+        "neoforge-1.21.1" = _dJGvS6mC;
         "pkg-1.0.0" = _kXi8g4JA;
         "pkg-1.0.1" = _MyOPcTS9;
         "pkg-1.0.2" = _vdRmPxPV;
         "pkg-2.0.0" = _p3pH4Ex1;
-        "default" = _p3pH4Ex1;
+        "pkg-2.0.1" = _dJGvS6mC;
+        "default" = _dJGvS6mC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tfc-better-blast-furnace";

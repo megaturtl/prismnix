@@ -91,6 +91,21 @@ let
             "file" = "copperrails-1.1.0+mc26.1.jar";
             "hash" = "sha512-O/9onry+PWaFYwN1R6qeBPi+n1SkQOJ235NYjKLS6gTFKmBRHc1iolK83swrrD6eNZcn4i5jqeknfjlaXt0fFA==";
         };
+        _SSewM6sj = {
+            "id" = "SSewM6sj";
+            "file" = "copperrails-1.1.1+mc1.21.11.jar";
+            "hash" = "sha512-c4LB+4DWfCREGJVYUUxPYbxQwKWIJkGggOtaE17UikTIV1PJXoUeViz1cjMMx2hXDvAr0syJjIQwQGdHT8bJtg==";
+        };
+        _Nllo2vCe = {
+            "id" = "Nllo2vCe";
+            "file" = "copperrails-1.1.1+mc26.1.jar";
+            "hash" = "sha512-GJnoSZnAN2vUfBuuMSVP/xX1OdozaljJTiQfapiX1s2M2rgkfo+C9Be/arjuCq3F812aR0F+5I+k0pTduJd0wA==";
+        };
+        _XKqqDTlD = {
+            "id" = "XKqqDTlD";
+            "file" = "copperrails-1.1.1+mc26.2.jar";
+            "hash" = "sha512-QyvHCVpD9PA4wYe/fTU74zF3kQFyYq2Z2+oHQdF9tW8bepOh7klqJIs2GAoGHf04Yz3FW41KfNefDasE4VlllQ==";
+        };
     in {
         "VsBDCr2J" = _VsBDCr2J;
         "XfEFVbRU" = _XfEFVbRU;
@@ -110,6 +125,9 @@ let
         "sSBGr0ez" = _sSBGr0ez;
         "zZ7E7rw4" = _zZ7E7rw4;
         "Jgc0LpgD" = _Jgc0LpgD;
+        "SSewM6sj" = _SSewM6sj;
+        "Nllo2vCe" = _Nllo2vCe;
+        "XKqqDTlD" = _XKqqDTlD;
         "fabric-1.21" = _lFhE7Iaj;
         "fabric-1.21.1" = _lFhE7Iaj;
         "fabric-1.18" = _t2rVi1gc;
@@ -120,10 +138,12 @@ let
         "fabric-1.20.2" = _ZXVRcSFz;
         "fabric-1.21.4" = _3sbj4Hwj;
         "fabric-1.21.5" = _3sbj4Hwj;
-        "fabric-1.21.11" = _sSBGr0ez;
+        "fabric-1.21.11" = _SSewM6sj;
         "fabric-26.1-rc-3" = _zZ7E7rw4;
-        "fabric-26.1" = _Jgc0LpgD;
-        "fabric-26.1.1" = _Jgc0LpgD;
+        "fabric-26.1" = _Nllo2vCe;
+        "fabric-26.1.1" = _Nllo2vCe;
+        "fabric-26.1.2" = _Nllo2vCe;
+        "fabric-26.2" = _XKqqDTlD;
         "pkg-1.0.0" = _VsBDCr2J;
         "pkg-1.0.1" = _XfEFVbRU;
         "pkg-1.0.2" = _RtgxHJmd;
@@ -131,7 +151,8 @@ let
         "pkg-1.0.4" = _mWVOK89F;
         "pkg-1.0.5" = _GLw1GkRg;
         "pkg-1.1.0" = _Jgc0LpgD;
-        "default" = _Jgc0LpgD;
+        "pkg-1.1.1" = _XKqqDTlD;
+        "default" = _XKqqDTlD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "copperrails";

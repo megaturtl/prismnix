@@ -134,6 +134,7 @@ let
         "fabric-26.2" = _8Qq7BFCP;
         "fabric-26.3-snapshot-6" = _8Qq7BFCP;
         "fabric-26.3-snapshot-7" = _8Qq7BFCP;
+        "fabric-26.3-snapshot-8" = _8Qq7BFCP;
         "neoforge-1.21.1" = _ptw0IFFi;
         "neoforge-1.21.2" = _ptw0IFFi;
         "neoforge-1.21.3" = _ptw0IFFi;

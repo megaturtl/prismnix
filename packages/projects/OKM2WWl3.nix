@@ -310,6 +310,8 @@ let
         "fabric-1.21.11" = _PxHTwRPi;
         "fabric-26.1" = _btOysWCR;
         "fabric-26.1.1" = _btOysWCR;
+        "fabric-26.1.2" = _btOysWCR;
+        "fabric-26.2" = _btOysWCR;
         "forge-1.20.5" = _HeC5IbBq;
         "forge-1.20.6-rc1" = _HeC5IbBq;
         "forge-1.20.6" = _HeC5IbBq;
@@ -355,6 +357,8 @@ let
         "forge-1.21.11" = _NuqEDV8s;
         "forge-26.1" = _T63cfbDL;
         "forge-26.1.1" = _T63cfbDL;
+        "forge-26.1.2" = _T63cfbDL;
+        "forge-26.2" = _T63cfbDL;
         "neoforge-1.20.5" = _4I1fYbSs;
         "neoforge-1.20.6-rc1" = _4I1fYbSs;
         "neoforge-1.20.6" = _4I1fYbSs;
@@ -399,6 +403,8 @@ let
         "neoforge-1.21.11" = _aTBWjMKL;
         "neoforge-26.1" = _cU8aJajM;
         "neoforge-26.1.1" = _cU8aJajM;
+        "neoforge-26.1.2" = _cU8aJajM;
+        "neoforge-26.2" = _cU8aJajM;
         "pkg-1.0.0+1.18.2" = _FTgHhV1N;
         "pkg-1.0.0+1.19.2" = _Cj4lswbj;
         "pkg-1.0.0+1.20.1" = _dAQZQBhG;

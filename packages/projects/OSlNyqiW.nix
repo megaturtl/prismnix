@@ -51,6 +51,11 @@ let
             "file" = "monsterexpansion-1.20.1-v0.7.5.jar";
             "hash" = "sha512-YjM4t0OEO+gEchotp3qAWQj6pW3JK6ugZsxgyyc8kfxdiPMoSU8dAaDqswiiqrYBA2lTQWo6AKZAGJYzrzpiPQ==";
         };
+        _360wT97X = {
+            "id" = "360wT97X";
+            "file" = "monsterexpansion-1.20.1-v0.7.6.jar";
+            "hash" = "sha512-nb6LDNPz1dX/X1HlfOwf60i03J7Ql6dVehjjs4MO1odxyxZzM6BAnWNPuc5QXZ2lyLBh7Es5fyi1S6fq1puNaQ==";
+        };
     in {
         "Hj59oEEB" = _Hj59oEEB;
         "ij0E1jYI" = _ij0E1jYI;
@@ -62,12 +67,13 @@ let
         "ZmcmXQ35" = _ZmcmXQ35;
         "16Ibyd9N" = _16Ibyd9N;
         "OEeeRkw4" = _OEeeRkw4;
-        "forge-1.20.1" = _OEeeRkw4;
-        "forge-1.20.2" = _OEeeRkw4;
-        "forge-1.20.3" = _OEeeRkw4;
-        "forge-1.20.4" = _OEeeRkw4;
-        "forge-1.20.5" = _OEeeRkw4;
-        "forge-1.20.6" = _OEeeRkw4;
+        "360wT97X" = _360wT97X;
+        "forge-1.20.1" = _360wT97X;
+        "forge-1.20.2" = _360wT97X;
+        "forge-1.20.3" = _360wT97X;
+        "forge-1.20.4" = _360wT97X;
+        "forge-1.20.5" = _360wT97X;
+        "forge-1.20.6" = _360wT97X;
         "pkg-1.20.1-v0.6.0" = _Hj59oEEB;
         "pkg-1.20.1-v0.6.1" = _ij0E1jYI;
         "pkg-1.20.1-v0.6.2" = _5CIeAXRI;
@@ -78,7 +84,8 @@ let
         "pkg-1.20.1-v0.7.3" = _ZmcmXQ35;
         "pkg-1.20.1-v0.7.4" = _16Ibyd9N;
         "pkg-1.20.1-v0.7.5" = _OEeeRkw4;
-        "default" = _OEeeRkw4;
+        "pkg-1.20.1-v0.7.6" = _360wT97X;
+        "default" = _360wT97X;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "monster-expansion";

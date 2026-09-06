@@ -76,6 +76,36 @@ let
             "file" = "thebrokenscript-1.10.1+mc1.21.1-build.280.jar";
             "hash" = "sha512-CeAVpjDG6WL+4jYAxySjspMAL5DCg+hH1ahUYrgjrVRyyxYbWN0wEq3WZBHkRSO+pHZtNA3ql3noQBf46OPiFA==";
         };
+        _RaNmgJuC = {
+            "id" = "RaNmgJuC";
+            "file" = "thebrokenscript-neoforge-2.0.0+mc1.21.1-build.3083.jar";
+            "hash" = "sha512-Ylct28ulEy2hH9Ic1AekEvhXook3GP549a//W9P+e2ZKQ/K0Dc2oAFVSuTmVAvIcZSm3EQ03Mz08asKp7bGzYg==";
+        };
+        _4QiNxVc7 = {
+            "id" = "4QiNxVc7";
+            "file" = "thebrokenscript-neoforge-2.0.0+mc1.21.1-build.3084.jar";
+            "hash" = "sha512-j4toTBm1gQztS+aa1y2xWW2HyaGGjvzBR1+T3JvPLF+5VFKen5UOr5jQHZ5vSsm1r+VLXdM5M0v+hDqX7tL4qw==";
+        };
+        _R8S0Jt8o = {
+            "id" = "R8S0Jt8o";
+            "file" = "thebrokenscript-neoforge-2.0.0+mc1.21.1-build.3090.jar";
+            "hash" = "sha512-+ZBWvbnPxRSYQqWEaDgpudDXriHF4wCV8qd2E0EmwvgL9S4/GKMiApKWjPE1nKi2DcUrwQKZXQVxHrZpvQC66g==";
+        };
+        _dxvW8zwQ = {
+            "id" = "dxvW8zwQ";
+            "file" = "thebrokenscript-neoforge-2.0.3+mc1.21.1-build.3096.jar";
+            "hash" = "sha512-nR2ROsALS18Ur1AJqr/r5WhVaMTP3Y8n31j2DiRyEwK7mPq+yeJQwJbIeWymb2zAF1SHbfsRmUkep/vTBh9x6A==";
+        };
+        _GgQs5pPJ = {
+            "id" = "GgQs5pPJ";
+            "file" = "thebrokenscript-neoforge-2.0.4+mc1.21.1-build.3282.jar";
+            "hash" = "sha512-0EtomLiCh8MDxZwclDO1VS6qwilzKsiCxEDimW9e/4SzDtM1e8/4/qWBB25g9gi9deWuOetYmbSVaB7CbCCtMA==";
+        };
+        _pRPkmb7S = {
+            "id" = "pRPkmb7S";
+            "file" = "thebrokenscript-neoforge-2.0.4-hotfix+mc1.21.1-build.3291.jar";
+            "hash" = "sha512-CKaZsjomC4YGP+bs+CebGE5vFuXz5vgmoq/2qgdXvjCwk4YRCqppijpZWGXQXXCOLeTbYtSVAdbY22uNbnouZw==";
+        };
     in {
         "QnSnDZob" = _QnSnDZob;
         "OkGS7Zuk" = _OkGS7Zuk;
@@ -92,7 +122,13 @@ let
         "k2yVsmO5" = _k2yVsmO5;
         "jUTNpOw9" = _jUTNpOw9;
         "AztIoeo1" = _AztIoeo1;
-        "neoforge-1.21.1" = _AztIoeo1;
+        "RaNmgJuC" = _RaNmgJuC;
+        "4QiNxVc7" = _4QiNxVc7;
+        "R8S0Jt8o" = _R8S0Jt8o;
+        "dxvW8zwQ" = _dxvW8zwQ;
+        "GgQs5pPJ" = _GgQs5pPJ;
+        "pRPkmb7S" = _pRPkmb7S;
+        "neoforge-1.21.1" = _pRPkmb7S;
         "pkg-1.9.3+mc1.21.1-alpha.2" = _QnSnDZob;
         "pkg-1.9.3+mc1.21.1-alpha.3" = _OkGS7Zuk;
         "pkg-1.9.3+mc1.21.1-alpha.4" = _dvQJHPUC;
@@ -108,7 +144,13 @@ let
         "pkg-1.9.7+mc1.21.1-beta.1" = _k2yVsmO5;
         "pkg-1.10.0-beta.1" = _jUTNpOw9;
         "pkg-1.10.1" = _AztIoeo1;
-        "default" = _AztIoeo1;
+        "pkg-2.0.0" = _RaNmgJuC;
+        "pkg-2.0.1" = _4QiNxVc7;
+        "pkg-2.0.2" = _R8S0Jt8o;
+        "pkg-2.0.3" = _dxvW8zwQ;
+        "pkg-2.0.4" = _GgQs5pPJ;
+        "pkg-2.0.4-hotfix" = _pRPkmb7S;
+        "default" = _pRPkmb7S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-broken-script";

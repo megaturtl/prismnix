@@ -16,17 +16,25 @@ let
             "file" = "subtlycs-2.0+26.2.jar";
             "hash" = "sha512-bmxthF/WTVYeFsNLRQ4ay4b7IogfOfnE32rMEoN6tsDQIBjVA7a6aVZpMb+0xHW4EdN7LAMj/FayEeuQpH2MbA==";
         };
+        _C8hM48hP = {
+            "id" = "C8hM48hP";
+            "file" = "subtlycs-2.0+1.21.1.jar";
+            "hash" = "sha512-/dTQmtjqg8xQBUGDGHg0+PkEJCII1Qz/3JGzB/kiiwIs2Snk524Z1zrLgDy4DdBA1ieG7GQGNKg9AxANkK3L4g==";
+        };
     in {
         "hYiPNRjn" = _hYiPNRjn;
         "t9M3dcPV" = _t9M3dcPV;
         "RCG8bSh9" = _RCG8bSh9;
+        "C8hM48hP" = _C8hM48hP;
         "fabric-1.21.10" = _hYiPNRjn;
         "fabric-1.21.11" = _t9M3dcPV;
         "fabric-26.2" = _RCG8bSh9;
+        "fabric-1.21.1" = _C8hM48hP;
         "pkg-1.0.0" = _hYiPNRjn;
         "pkg-1.2.0" = _t9M3dcPV;
         "pkg-2.0+26.2" = _RCG8bSh9;
-        "default" = _RCG8bSh9;
+        "pkg-2.0+1.21.1" = _C8hM48hP;
+        "default" = _C8hM48hP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "subtly-camera-shake";

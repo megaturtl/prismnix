@@ -136,13 +136,13 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "GNU General Public License v3.0 or later";
-                shortName = "GPL-3.0-or-later";
-                url = "https://github.com/mrqx0195/true-power-of-maid/blob/main/LICENSE";
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/mrqx0195/true-power-of-maid/blob/1.20.1-Forge/LICENSE";
             };
         };
     };

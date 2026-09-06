@@ -134,13 +134,13 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LicenseRef-HPWW-Project-License" {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-ND-4.0" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "LicenseRef-HPWW-Project-License";
-                shortName = "LicenseRef-HPWW-Project-License";
-                url = "https://github.com/MrSheep11/Harry-Potter-And-The-Wizarding-World/blob/HPWW-Datapack-Resourcepack/Harry%20Potter%20_%20Wizarding%20World%20Liscense%20_%20MrSh3ep.md";
+                fullName = "Creative Commons Attribution Non Commercial No Derivatives 4.0 International";
+                shortName = "CC-BY-NC-ND-4.0";
+                url = null;
             };
         };
     };

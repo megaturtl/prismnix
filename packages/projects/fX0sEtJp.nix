@@ -81,6 +81,16 @@ let
             "file" = "bblroutersfacade-neoforge_26.1.2-1.0.6.jar";
             "hash" = "sha512-OQa0aNC69SRS03w//xFx7NsrRECBdpxU0AtDQt6MoCh1lzvOzoLyZdEqvYOvo3luElDAU4TYvA66A/mvhfd2Ow==";
         };
+        _Ys2XvN3P = {
+            "id" = "Ys2XvN3P";
+            "file" = "bblroutersfacade-neoforge_26.1.2-1.0.7.jar";
+            "hash" = "sha512-xotVgUaSOnD21eRxtwNOiq0zNraKgNmLvRgSs5xmUB93saMYy7gwbG+bIGs3kncH4T2RHRe1EN2JgJ9YIrjgrQ==";
+        };
+        _7FTCn1bn = {
+            "id" = "7FTCn1bn";
+            "file" = "bblroutersfacade-neoforge_26.1.2-1.0.8.jar";
+            "hash" = "sha512-eSKh0GFhhBxc6IZfMDhIP1aVCK1sQxCbpfUOe9R2IFuoUj9GEKEAjA6OANbPW35RgNCa+xwe9OH1kRis2GevzQ==";
+        };
     in {
         "vCT7tJYF" = _vCT7tJYF;
         "3ywmki1p" = _3ywmki1p;
@@ -98,12 +108,14 @@ let
         "VZfuP7bz" = _VZfuP7bz;
         "zHVcmGLh" = _zHVcmGLh;
         "tQ85viXg" = _tQ85viXg;
+        "Ys2XvN3P" = _Ys2XvN3P;
+        "7FTCn1bn" = _7FTCn1bn;
         "neoforge-1.21" = _vCT7tJYF;
         "neoforge-1.21.1" = _W84DldlZ;
         "neoforge-1.21.11" = _ToshE6cB;
         "neoforge-26.1" = _VZfuP7bz;
         "neoforge-26.1.1" = _zHVcmGLh;
-        "neoforge-26.1.2" = _tQ85viXg;
+        "neoforge-26.1.2" = _7FTCn1bn;
         "pkg-1.0.0" = _vCT7tJYF;
         "pkg-1.0.1" = _3ywmki1p;
         "pkg-1.0.2" = _dLqbKKmV;
@@ -115,7 +127,9 @@ let
         "pkg-v26.1-1.0.6" = _VZfuP7bz;
         "pkg-v26.1.1-1.0.6" = _zHVcmGLh;
         "pkg-v26.1.2-1.0.6" = _tQ85viXg;
-        "default" = _tQ85viXg;
+        "pkg-26.1.2-1.0.7" = _Ys2XvN3P;
+        "pkg-26.1.2-1.0.8" = _7FTCn1bn;
+        "default" = _7FTCn1bn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bbl-routers-facades";

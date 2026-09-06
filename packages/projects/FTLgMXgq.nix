@@ -111,6 +111,11 @@ let
             "file" = "valarian_conquest-4.2.2-forge-1.20.1.jar";
             "hash" = "sha512-Ik8is1C03CsNtc2tiBPqDAJk4O95KZCJX5BcoYJr/ItcjF+esTUEZWx1p7OBiiN2nYicxA7RLih8jLzU78zQ1A==";
         };
+        _q3ZYMkZ9 = {
+            "id" = "q3ZYMkZ9";
+            "file" = "valarian_conquest-4.2.2-neoforge-1.21.1.jar";
+            "hash" = "sha512-fO3lU0jaZl2itTJF6jXtyeLlRfiQpM/JGxg5b71voJmul4TRedJWGxggV7LmSWhO+IhH9SrhtV5U39UffOl63w==";
+        };
     in {
         "FAuHjex0" = _FAuHjex0;
         "f71iX2Mw" = _f71iX2Mw;
@@ -134,8 +139,9 @@ let
         "8NhqlegA" = _8NhqlegA;
         "rJEDQhmW" = _rJEDQhmW;
         "IVZVWWRO" = _IVZVWWRO;
+        "q3ZYMkZ9" = _q3ZYMkZ9;
         "forge-1.20.1" = _IVZVWWRO;
-        "neoforge-1.21.1" = _rJEDQhmW;
+        "neoforge-1.21.1" = _q3ZYMkZ9;
         "pkg-3.0" = _f71iX2Mw;
         "pkg-3.1" = _g7K1XPTJ;
         "pkg-3.2" = _Kc9ERIec;
@@ -146,8 +152,8 @@ let
         "pkg-4.2" = _bMR8bpci;
         "pkg-4.2.1" = _8NhqlegA;
         "pkg-4.2.1.1" = _rJEDQhmW;
-        "pkg-4.2.2" = _IVZVWWRO;
-        "default" = _IVZVWWRO;
+        "pkg-4.2.2" = _q3ZYMkZ9;
+        "default" = _q3ZYMkZ9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "valarian-conquest";

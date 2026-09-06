@@ -751,6 +751,26 @@ let
             "file" = "horseman-fabric-26.1.1-1.7.4.jar";
             "hash" = "sha512-oKYjSmYuvWlzMu9oF7Z5ybgXX/4ItpM28g827ucqkIyfrCfQPVpbQS0M0OfNqD9Y3/bSajH5n1th4jPQK41N0w==";
         };
+        _jJ93aLVn = {
+            "id" = "jJ93aLVn";
+            "file" = "horseman-neoforge-1.21.1-1.5.13.jar";
+            "hash" = "sha512-OorqPwYNTUl4SZrTId6uQYG4VaRXKjsriz24Lwy1SZbIldlb37Odu/w1hNvZIExphLul8uf6+JXimEtuONgeJQ==";
+        };
+        _Y70eYqh0 = {
+            "id" = "Y70eYqh0";
+            "file" = "horseman-fabric-1.21.1-1.5.13.jar";
+            "hash" = "sha512-KxXrvUi5iZsGj1PXPYdhoa34edQSuLGwG2LJJkMi2kr89mgd92vJo+HBUa8x0OTrvm1RqS3JDHO+9qJt9tP3Ig==";
+        };
+        _10D8k6Uk = {
+            "id" = "10D8k6Uk";
+            "file" = "horseman-neoforge-26.2-1.7.5.jar";
+            "hash" = "sha512-9OkTluVW/FuWVyri1xjT+6ew9dw8vgkAvJvSzHLZYfnbOWY/v7F0htrRow8kHsoOsQUzg8VcX/VWe8Z4uEqUng==";
+        };
+        _xU6ysEWF = {
+            "id" = "xU6ysEWF";
+            "file" = "horseman-fabric-26.2-1.7.5.jar";
+            "hash" = "sha512-omOMGCuyo/zTOiQoUGp0bbQurk6ZIwIqcu23gw6UmosCXKXA+ewp681sdzWp+3OjwMI0nIOzjuNG28HtNL6hhA==";
+        };
     in {
         "W7aMJMJZ" = _W7aMJMJZ;
         "MWtieiOv" = _MWtieiOv;
@@ -902,8 +922,12 @@ let
         "TEUrXCXq" = _TEUrXCXq;
         "tPHvVV59" = _tPHvVV59;
         "EU30CmDt" = _EU30CmDt;
+        "jJ93aLVn" = _jJ93aLVn;
+        "Y70eYqh0" = _Y70eYqh0;
+        "10D8k6Uk" = _10D8k6Uk;
+        "xU6ysEWF" = _xU6ysEWF;
         "fabric-1.20.1" = _AEkcPbHr;
-        "fabric-1.21.1" = _ljjahGsX;
+        "fabric-1.21.1" = _Y70eYqh0;
         "fabric-1.21.4" = _GE7JAWUj;
         "fabric-1.21.5" = _t0XUC9mj;
         "fabric-1.21.8" = _Dgz8KJlM;
@@ -912,11 +936,11 @@ let
         "fabric-26.1" = _EU30CmDt;
         "fabric-26.1.1" = _EU30CmDt;
         "fabric-26.1.2" = _EU30CmDt;
-        "fabric-26.2" = _TEUrXCXq;
+        "fabric-26.2" = _xU6ysEWF;
         "quilt-1.20.1" = _AEkcPbHr;
         "forge-1.20.1" = _1MPXijp8;
         "neoforge-1.20.1" = _VjXoTsWW;
-        "neoforge-1.21.1" = _NG64wT0Q;
+        "neoforge-1.21.1" = _jJ93aLVn;
         "neoforge-1.21.4" = _PvNAplNU;
         "neoforge-1.21.5" = _1opUkqEy;
         "neoforge-1.21.8" = _fUjQPlXV;
@@ -925,7 +949,7 @@ let
         "neoforge-26.1" = _tPHvVV59;
         "neoforge-26.1.1" = _tPHvVV59;
         "neoforge-26.1.2" = _tPHvVV59;
-        "neoforge-26.2" = _l9vc13xa;
+        "neoforge-26.2" = _10D8k6Uk;
         "pkg-1.0.0" = _MWtieiOv;
         "pkg-1.0.1" = _R5t28RTe;
         "pkg-1.0.2" = _IMy7fhCV;
@@ -982,7 +1006,9 @@ let
         "pkg-1.5.12" = _ljjahGsX;
         "pkg-1.3.17" = _AEkcPbHr;
         "pkg-1.7.4" = _EU30CmDt;
-        "default" = _EU30CmDt;
+        "pkg-1.5.13" = _Y70eYqh0;
+        "pkg-1.7.5" = _xU6ysEWF;
+        "default" = _xU6ysEWF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "horseman";

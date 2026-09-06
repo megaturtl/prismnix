@@ -49,6 +49,11 @@ let
         "minecraft-1.21.8" = _G6oIbYul;
         "minecraft-1.21.9" = _G6oIbYul;
         "minecraft-1.21.10" = _G6oIbYul;
+        "minecraft-1.21.11" = _G6oIbYul;
+        "minecraft-26.1" = _G6oIbYul;
+        "minecraft-26.1.1" = _G6oIbYul;
+        "minecraft-26.1.2" = _G6oIbYul;
+        "minecraft-26.2" = _G6oIbYul;
         "pkg-3.0.0" = _dgSQDy2L;
         "pkg-3.0.2" = _FpQBW3DS;
         "pkg-4.0.0" = _ZcLEa6jD;

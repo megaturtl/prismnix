@@ -1756,6 +1756,176 @@ let
             "file" = "UsefulFood_Reborn-1.5.2-26.2-Fabric.jar";
             "hash" = "sha512-20M5ce4+jy6IQmKvUbH0bZwweUEs14MXltDF+l7Ki8Rir8ZE1RehnKUjEBus9DxMbkN/yAfa0Yn5wD6iXV7xCg==";
         };
+        _Vs6pzN0o = {
+            "id" = "Vs6pzN0o";
+            "file" = "UsefulFood_Reborn-1.5.3-26.2-Fabric.jar";
+            "hash" = "sha512-LRrx00mCZRVubVApfJK8vjXvSrFpm7MGXY2OH2mQWHr6jY+qBhch9A6Y8wMc3gZGqtSI/s2qrYX2ece9sVONCQ==";
+        };
+        _ENfL0l8Q = {
+            "id" = "ENfL0l8Q";
+            "file" = "UsefulFood_Reborn-1.5.3-26.2-Forge.jar";
+            "hash" = "sha512-WfxL+1tXbDJAbIp0oy0ReYc04wule8yjgylee8O6J9tOEWb8xh3gk/floOwP6r1rx+kI4iKCiFEyviSf5ONSZA==";
+        };
+        _zikhkjiy = {
+            "id" = "zikhkjiy";
+            "file" = "UsefulFood_Reborn-1.5.3-26.2-Neoforge.jar";
+            "hash" = "sha512-sHEHkK8sBAJgwWTADAJ7fZsSAVryGYT0g1pTwmcZcevAVNIyMX5Gdqb3c3Smn7fepLVRfjZCyrvv7WQVCd2cbw==";
+        };
+        _rnigLlHx = {
+            "id" = "rnigLlHx";
+            "file" = "UsefulFood_Reborn-1.5.3-26.1.2-Forge.jar";
+            "hash" = "sha512-97o2T6KJPAeZRahMUXE24MCbE7xkhh8Wvaif3srnFzunZzvatMn/ebxXKYaUxar/g6UZ5wYCfi29dvBq7aOTvQ==";
+        };
+        _u51rvgky = {
+            "id" = "u51rvgky";
+            "file" = "UsefulFood_Reborn-1.5.3-26.1.2-Neoforge.jar";
+            "hash" = "sha512-WYLKJpZNxqGb6pc0LAGATvgkEYk86XmeBr78d6T5a3BgddzJzh2OrPBrOYVeJ4IOSjMjbyFc2R+7XK0c+Y8m7w==";
+        };
+        _AgeU8OIE = {
+            "id" = "AgeU8OIE";
+            "file" = "UsefulFood_Reborn-1.5.3-26.1.2-Fabric.jar";
+            "hash" = "sha512-6OeI4/tBN1RqQsPu/hdq41iDNTOwV6n6xZo1xFPQj3ollUo43+rRLP3G2JGfxg3rCmP57bupi6zPnDaPYwiSeA==";
+        };
+        _zjs5aO80 = {
+            "id" = "zjs5aO80";
+            "file" = "UsefulFood_Reborn-1.5.1-1.21.11-Forge.jar";
+            "hash" = "sha512-44biV9pisDJ9TilGELbKTJ+SGWVRF/k0+07LV3tZP/eyU8kyPJ9U8itp7Jr4ipLamJR5yiwC3TJbRVvyS8SKvw==";
+        };
+        _KOngtv67 = {
+            "id" = "KOngtv67";
+            "file" = "UsefulFood_Reborn-1.5.1-1.21.11-Neoforge.jar";
+            "hash" = "sha512-jxLWYaXefBgEREx2KU4/8TmQQnxoBcQUc+k7HzYkXWhyTMdWN3h61oqCKHRifhK9ARtk8j0emi5FtnpfTGJFdA==";
+        };
+        _IbbN905H = {
+            "id" = "IbbN905H";
+            "file" = "UsefulFood_Reborn-1.5.1-1.21.11-Fabric.jar";
+            "hash" = "sha512-Kebxc6rvICX4wnnlMJepxhE/1M2DldQQm1kcHLUnsWlf4i9T1AztCq/Jlj8Vz8fD8JuXYGw27DKw6+3ZVqzr0A==";
+        };
+        _GhmI2GRH = {
+            "id" = "GhmI2GRH";
+            "file" = "UsefulFood_Reborn-1.5.1-1.21.10-Forge.jar";
+            "hash" = "sha512-oIyUZ2J3v2HBjN+lXxrIcIXbAOBKxMrSYQOShvpX4tGzbYQvQS8c1rCn698CXSBiFrKpRRJSJEh7GRBkt9f+Iw==";
+        };
+        _pzZ1vT9f = {
+            "id" = "pzZ1vT9f";
+            "file" = "UsefulFood_Reborn-1.5.1-1.21.10-Neoforge.jar";
+            "hash" = "sha512-ljjvuIjiw2McuQfE+qklqXVvsCwOjRluRWMkwLy/UoSZfdgequCXjsboiiDcJuaqC1uZSPwT+ODGuxS5Na0pFA==";
+        };
+        _DOwhr03g = {
+            "id" = "DOwhr03g";
+            "file" = "UsefulFood_Reborn-1.5.1-1.21.10-Fabric.jar";
+            "hash" = "sha512-iO4BR79CdTT1Hh8dRLkpVkbTa2ilsbaF1dSRMTcQfw/tz9lWePpcqgeLeofT5mAQVc61My1TpQfUl5LF5jw5tw==";
+        };
+        _vVBnT5W3 = {
+            "id" = "vVBnT5W3";
+            "file" = "UsefulFood_Reborn-1.5.1-1.21.8-Forge.jar";
+            "hash" = "sha512-EEIZ5k0D3SsWCvwvF0KsmzKXnPeUKXx+R48tOCTNr9ElzCPsqkiJR/kDbgLLSOX/hbvuOnWtrp6OT4PxapQI0w==";
+        };
+        _BDluvuKN = {
+            "id" = "BDluvuKN";
+            "file" = "UsefulFood_Reborn-1.5.1-1.21.8-Neoforge.jar";
+            "hash" = "sha512-0ts/KLuyeUj3YeZjYE4kHXyzKt2ymMwpDBXOLWSnx4xBeDc2vqbjURSXT6nstPnedh/NtvgWtCb/F/kNr3Puaw==";
+        };
+        _rplZ3Efj = {
+            "id" = "rplZ3Efj";
+            "file" = "UsefulFood_Reborn-1.5.1-1.21.8-Fabric.jar";
+            "hash" = "sha512-NMp+8NlOiQv/5+mbnmun1BmVU/lOBnDyO0opfVlwFVbrT42KvFd9wPyiFa+JQIgayrJlQpE+RuKm4uAPR29J+g==";
+        };
+        _qYNDKSLJ = {
+            "id" = "qYNDKSLJ";
+            "file" = "UsefulFood_Reborn-1.5.1-1.21.5-Forge.jar";
+            "hash" = "sha512-ayrPxeo9qvb2/TbWLiBZi6ArzrBz1gTmJKm2O6XuqFv8cGQqcY0s+Ms3E82gVQokZ5GOSOoXRNRDQG5/6z8OoA==";
+        };
+        _wcGchoQ0 = {
+            "id" = "wcGchoQ0";
+            "file" = "UsefulFood_Reborn-1.5.1-1.21.5-Neoforge.jar";
+            "hash" = "sha512-yV4MNCf5nnUCar4LJGHGLr00tEbP5+4ouloqPssZvlXq2Ks39Nsyc5B+xcUM+xmZN1x5fyCOpRVfsjxJDNFXQA==";
+        };
+        _CeL28tLX = {
+            "id" = "CeL28tLX";
+            "file" = "UsefulFood_Reborn-1.5.1-1.21.5-Fabric.jar";
+            "hash" = "sha512-kWT95nhU3Sy2n8syTI0/8dSN/t/tLSsQEEy98Xb0pbpgsZXCx0JJoChD8CtCD8yEt6w3NP4GVzjMtf7rnTtd5A==";
+        };
+        _v3FvOLaR = {
+            "id" = "v3FvOLaR";
+            "file" = "UsefulFood_Reborn-1.5.1-1.21.4-Forge.jar";
+            "hash" = "sha512-Fnir/XwQ/2JG4MZan4n1T704P54kmpSoXbtoGOgsBh6TBkzFZEykDylx28aOzyPzXtVxt3hpt3l8hN704Ssltg==";
+        };
+        _QoZ9Ud6t = {
+            "id" = "QoZ9Ud6t";
+            "file" = "UsefulFood_Reborn-1.5.1-1.21.4-Neoforge.jar";
+            "hash" = "sha512-r0LCXu4CU/310FJsrGTbkCGxW/LLgv/vUjjNkfQUgTg5X1zNaDYSn28v1WsXm1y00pcPw8uEnw5EYdxo2rHRZw==";
+        };
+        _bxCZY2yK = {
+            "id" = "bxCZY2yK";
+            "file" = "UsefulFood_Reborn-1.5.1-1.21.4-Fabric.jar";
+            "hash" = "sha512-7HsnfKoDAIhKDKngEq4OyfMdsaeywMHPaSF8JkHJFADHgEvf/LlRKT0T5c2Uvff7ETYBGcvEGupI8rOd95qBlA==";
+        };
+        _18xQ4kIS = {
+            "id" = "18xQ4kIS";
+            "file" = "UsefulFood_Reborn-1.5.1-1.21.1-Forge.jar";
+            "hash" = "sha512-56hsMhg6SmmUJpqQJ0v1dyaVNPwLY6cXkRjgol+/4XUyA3Jd+S8LJhC8P5jUZ+BdUGMd//HAMA488L+XF1Jrvw==";
+        };
+        _ZR8r31x5 = {
+            "id" = "ZR8r31x5";
+            "file" = "UsefulFood_Reborn-1.5.1-1.21.1-Neoforge.jar";
+            "hash" = "sha512-mnhCbeekgSb3+sXx8cOs9zDfvxegdDC7ZwNiJR2cGVIFaVm81w3fG5h2kAjXvNr2chyjUP4EjKfFjfEris0FAA==";
+        };
+        _NDym1evi = {
+            "id" = "NDym1evi";
+            "file" = "UsefulFood_Reborn-1.5.1-1.21.1-Fabric.jar";
+            "hash" = "sha512-EU5LzCG6AV3QpWadN5h5kiEQsigswEcclbf20wrEr3olt11JYF6OfMfjSc2VkGl/vxp1yCgrmEAf/1chWHvSFw==";
+        };
+        _klDa5Mcs = {
+            "id" = "klDa5Mcs";
+            "file" = "UsefulFood_Reborn-1.5.1-1.20.4-Fabric.jar";
+            "hash" = "sha512-ZHaYq1tSfVk01oK0hRIuvJqrI+56P0kij+RqycmkIC3KXbgnXbh1PgjPKqtVRAwfmthCFRYiOieinl5GQ+Ekew==";
+        };
+        _caRj4wdR = {
+            "id" = "caRj4wdR";
+            "file" = "UsefulFood_Reborn-1.5.1-1.20.4-Forge.jar";
+            "hash" = "sha512-APk1Z6ybfXS1Jrf+jkMiKAaegza2gtVKIv6pb4YPoWNEekBjtbYHza05wtk7WmZt0CjdYVt8N8fHKbxJ8fULUA==";
+        };
+        _o7TGMTMk = {
+            "id" = "o7TGMTMk";
+            "file" = "UsefulFood_Reborn-1.5.1-1.20.1-Forge.jar";
+            "hash" = "sha512-Vhrfkk8rMrxQtC18JRXRdC8ZgMqKO5bfFWLtGmSK41+o0cFdYfb137YZkc3R2MDYiX9H0Re0O0auLczibX7Dug==";
+        };
+        _BXIB1erh = {
+            "id" = "BXIB1erh";
+            "file" = "UsefulFood_Reborn-1.5.1-1.20.1-Fabric.jar";
+            "hash" = "sha512-rQcLrPAMKQCjCCeKIJxK1CQ40r/dtvlbjJv4m2ZVi1iyc7QulbTeY9D9dwupyWuAsjsxmIKz/lnVNOqELCpzGg==";
+        };
+        _ZSWLYS9r = {
+            "id" = "ZSWLYS9r";
+            "file" = "UsefulFood_Reborn-1.5.1-1.19.2-Fabric.jar";
+            "hash" = "sha512-LftjGlq/Y8do9lsXbAfWSfcXC6Ckz6XS3bfigp/jAumhiQmyM9d/9vrP8Jv9/Ifq/ukkjyYsF030uyWS8Dh3JA==";
+        };
+        _tuQFWsQi = {
+            "id" = "tuQFWsQi";
+            "file" = "UsefulFood_Reborn-1.5.1-1.19.2-Forge.jar";
+            "hash" = "sha512-h/fPM5rOCsS1Z0Au08XOhQsWmXbiUnFTG5ICtX5RJ9tMtQgtR+Iu9GX9tJlf4jcbBF4JjasTCVxCf44oXOa7iw==";
+        };
+        _Beqsbfcv = {
+            "id" = "Beqsbfcv";
+            "file" = "UsefulFood_Reborn-1.5.1-1.18.2-Fabric.jar";
+            "hash" = "sha512-oludF1/cjflNclVA3OI3tIPIplS9LAHpepMjdcZaScVkza8JpSfKYXWiSC4LyNBU8sCZhkHZSV/5m84hIGxf7A==";
+        };
+        _xFu9Zv0E = {
+            "id" = "xFu9Zv0E";
+            "file" = "UsefulFood_Reborn-1.5.1-1.18.2-Forge.jar";
+            "hash" = "sha512-yYl0xWXz1Eghf7ueppf2AAUNLnUIELvhT7iOl1A/kiZsC6nzKRyjWIvIeEjHAC9viMq0Kb2aPAWUKwQxM1waYw==";
+        };
+        _zan4QTtC = {
+            "id" = "zan4QTtC";
+            "file" = "UsefulFood_Reborn-1.5.4-26.1.2-Fabric.jar";
+            "hash" = "sha512-Cbkud8YifVADhcKK9SkJ7j6M9r4xnOeY8NuhD8C37KkYLURUT+e43TqNPDQCHbELJ1l/OXKQPCvMBqTkUW7NjQ==";
+        };
+        _KCM2vBuw = {
+            "id" = "KCM2vBuw";
+            "file" = "UsefulFood_Reborn-1.5.4-26.2-Fabric.jar";
+            "hash" = "sha512-9YQ6nmjTXXO+K69jq7Epj8li+RMYWXqhKw64Rvt9rp/KX3nVuZ5XyxBZjOlqJfSsFXQVVbvJZQm7CPBfKiwFOw==";
+        };
     in {
         "uxCp0vIk" = _uxCp0vIk;
         "5JpRik7G" = _5JpRik7G;
@@ -2108,74 +2278,108 @@ let
         "A1O177iR" = _A1O177iR;
         "N2E02AJn" = _N2E02AJn;
         "2nHSMDqr" = _2nHSMDqr;
-        "fabric-1.19.2" = _t5LS660Q;
+        "Vs6pzN0o" = _Vs6pzN0o;
+        "ENfL0l8Q" = _ENfL0l8Q;
+        "zikhkjiy" = _zikhkjiy;
+        "rnigLlHx" = _rnigLlHx;
+        "u51rvgky" = _u51rvgky;
+        "AgeU8OIE" = _AgeU8OIE;
+        "zjs5aO80" = _zjs5aO80;
+        "KOngtv67" = _KOngtv67;
+        "IbbN905H" = _IbbN905H;
+        "GhmI2GRH" = _GhmI2GRH;
+        "pzZ1vT9f" = _pzZ1vT9f;
+        "DOwhr03g" = _DOwhr03g;
+        "vVBnT5W3" = _vVBnT5W3;
+        "BDluvuKN" = _BDluvuKN;
+        "rplZ3Efj" = _rplZ3Efj;
+        "qYNDKSLJ" = _qYNDKSLJ;
+        "wcGchoQ0" = _wcGchoQ0;
+        "CeL28tLX" = _CeL28tLX;
+        "v3FvOLaR" = _v3FvOLaR;
+        "QoZ9Ud6t" = _QoZ9Ud6t;
+        "bxCZY2yK" = _bxCZY2yK;
+        "18xQ4kIS" = _18xQ4kIS;
+        "ZR8r31x5" = _ZR8r31x5;
+        "NDym1evi" = _NDym1evi;
+        "klDa5Mcs" = _klDa5Mcs;
+        "caRj4wdR" = _caRj4wdR;
+        "o7TGMTMk" = _o7TGMTMk;
+        "BXIB1erh" = _BXIB1erh;
+        "ZSWLYS9r" = _ZSWLYS9r;
+        "tuQFWsQi" = _tuQFWsQi;
+        "Beqsbfcv" = _Beqsbfcv;
+        "xFu9Zv0E" = _xFu9Zv0E;
+        "zan4QTtC" = _zan4QTtC;
+        "KCM2vBuw" = _KCM2vBuw;
+        "fabric-1.19.2" = _ZSWLYS9r;
         "fabric-1.20" = _W3fCZ0RB;
-        "fabric-1.20.1" = _sSbexxbQ;
+        "fabric-1.20.1" = _BXIB1erh;
         "fabric-1.18" = _tQlhI3bR;
         "fabric-1.18.1" = _tQlhI3bR;
-        "fabric-1.18.2" = _9FWd5BpA;
+        "fabric-1.18.2" = _Beqsbfcv;
         "fabric-1.16.5" = _tBcPoR6k;
         "fabric-1.20.2" = _Ijeiwo7N;
         "fabric-1.20.3" = _cxreeJW8;
-        "fabric-1.20.4" = _zItRw56t;
+        "fabric-1.20.4" = _klDa5Mcs;
         "fabric-1.21" = _lfyOId4O;
-        "fabric-1.21.1" = _bCIbHeyj;
+        "fabric-1.21.1" = _NDym1evi;
         "fabric-1.21.2" = _UDlg4qHT;
         "fabric-1.21.3" = _UDlg4qHT;
-        "fabric-1.21.4" = _ybvvFtgp;
-        "fabric-1.21.5" = _iwD4FjzB;
+        "fabric-1.21.4" = _bxCZY2yK;
+        "fabric-1.21.5" = _CeL28tLX;
         "fabric-1.21.6" = _KTbevdSX;
         "fabric-1.21.7" = _KTbevdSX;
-        "fabric-1.21.8" = _KTbevdSX;
+        "fabric-1.21.8" = _rplZ3Efj;
         "fabric-1.21.9" = _Bit1YwnO;
-        "fabric-1.21.10" = _Bit1YwnO;
-        "fabric-1.21.11" = _6hMJfmwE;
+        "fabric-1.21.10" = _DOwhr03g;
+        "fabric-1.21.11" = _IbbN905H;
         "fabric-26.1-snapshot-9" = _vv7M6shY;
-        "fabric-26.1" = _QJkdWskl;
-        "fabric-26.1.1" = _QJkdWskl;
-        "fabric-26.1.2" = _QJkdWskl;
-        "fabric-26.2" = _2nHSMDqr;
-        "forge-1.19.2" = _JikOMO4n;
+        "fabric-26.1" = _zan4QTtC;
+        "fabric-26.1.1" = _zan4QTtC;
+        "fabric-26.1.2" = _zan4QTtC;
+        "fabric-26.2" = _KCM2vBuw;
+        "forge-1.19.2" = _tuQFWsQi;
         "forge-1.20" = _afnahih1;
-        "forge-1.20.1" = _Gc9tq73h;
-        "forge-1.18.2" = _ibqORT2q;
+        "forge-1.20.1" = _o7TGMTMk;
+        "forge-1.18.2" = _xFu9Zv0E;
         "forge-1.16.5" = _JwuOodpe;
         "forge-1.18" = _QoVAHmet;
         "forge-1.18.1" = _QoVAHmet;
         "forge-1.20.2" = _Vm1iBOCD;
-        "forge-1.20.4" = _vtf9CYiI;
+        "forge-1.20.4" = _caRj4wdR;
         "forge-1.21" = _SUjgXUEs;
-        "forge-1.21.1" = _KYlWFpxR;
+        "forge-1.21.1" = _18xQ4kIS;
         "forge-1.21.2" = _BFDcSG6j;
         "forge-1.21.3" = _BFDcSG6j;
-        "forge-1.21.4" = _E8MMhMu3;
-        "forge-1.21.5" = _3JgMbR40;
-        "forge-1.21.6" = _jAaape5M;
-        "forge-1.21.7" = _jAaape5M;
-        "forge-1.21.8" = _jAaape5M;
+        "forge-1.21.4" = _v3FvOLaR;
+        "forge-1.21.5" = _qYNDKSLJ;
+        "forge-1.21.6" = _vVBnT5W3;
+        "forge-1.21.7" = _vVBnT5W3;
+        "forge-1.21.8" = _vVBnT5W3;
         "forge-1.21.9" = _so7timS8;
-        "forge-1.21.10" = _so7timS8;
-        "forge-1.21.11" = _ANt5iOa2;
-        "forge-26.1" = _TtEMpt9L;
-        "forge-26.1.1" = _TtEMpt9L;
-        "forge-26.1.2" = _TtEMpt9L;
-        "forge-26.2" = _N2E02AJn;
+        "forge-1.21.10" = _GhmI2GRH;
+        "forge-1.21.11" = _zjs5aO80;
+        "forge-26.1" = _rnigLlHx;
+        "forge-26.1.1" = _rnigLlHx;
+        "forge-26.1.2" = _rnigLlHx;
+        "forge-26.2" = _ENfL0l8Q;
         "neoforge-1.21" = _O8A77fvb;
-        "neoforge-1.21.1" = _ESEO0a1b;
+        "neoforge-1.21.1" = _ZR8r31x5;
         "neoforge-1.21.2" = _8XntAbLM;
         "neoforge-1.21.3" = _8XntAbLM;
-        "neoforge-1.21.4" = _YDvzBGMG;
-        "neoforge-1.21.5" = _y14RnITn;
-        "neoforge-1.21.6" = _74jFjX0j;
-        "neoforge-1.21.7" = _74jFjX0j;
-        "neoforge-1.21.8" = _74jFjX0j;
-        "neoforge-1.21.9" = _PzEsYiZG;
-        "neoforge-1.21.10" = _PzEsYiZG;
-        "neoforge-1.21.11" = _kVRcnWNx;
-        "neoforge-26.1" = _EyvSj8qe;
-        "neoforge-26.1.1" = _EyvSj8qe;
-        "neoforge-26.1.2" = _drJljNFC;
-        "neoforge-26.2" = _A1O177iR;
+        "neoforge-1.21.4" = _QoZ9Ud6t;
+        "neoforge-1.21.5" = _wcGchoQ0;
+        "neoforge-1.21.6" = _BDluvuKN;
+        "neoforge-1.21.7" = _BDluvuKN;
+        "neoforge-1.21.8" = _BDluvuKN;
+        "neoforge-1.21.9" = _pzZ1vT9f;
+        "neoforge-1.21.10" = _pzZ1vT9f;
+        "neoforge-1.21.11" = _KOngtv67;
+        "neoforge-26.1" = _u51rvgky;
+        "neoforge-26.1.1" = _u51rvgky;
+        "neoforge-26.1.2" = _u51rvgky;
+        "neoforge-26.2" = _zikhkjiy;
         "pkg-1.0.0-1.19.2-Fabric" = _uxCp0vIk;
         "pkg-1.0.0-1.20.1-Fabric" = _5JpRik7G;
         "pkg-1.0.0-1.19.2-Forge" = _IFmmJY8o;
@@ -2526,7 +2730,41 @@ let
         "pkg-1.5.2-26.2-Neoforge" = _A1O177iR;
         "pkg-1.5.2-26.2-Forge" = _N2E02AJn;
         "pkg-1.5.2-26.2-Fabric" = _2nHSMDqr;
-        "default" = _2nHSMDqr;
+        "pkg-1.5.3-26.2-Fabric" = _Vs6pzN0o;
+        "pkg-1.5.3-26.2-Forge" = _ENfL0l8Q;
+        "pkg-1.5.3-26.2-Neoforge" = _zikhkjiy;
+        "pkg-1.5.3-26.1.2-Forge" = _rnigLlHx;
+        "pkg-1.5.3-26.1.2-Neoforge" = _u51rvgky;
+        "pkg-1.5.3-26.1.2-Fabric" = _AgeU8OIE;
+        "pkg-1.5.1-1.21.11-Forge" = _zjs5aO80;
+        "pkg-1.5.1-1.21.11-Neoforge" = _KOngtv67;
+        "pkg-1.5.1-1.21.11-Fabric" = _IbbN905H;
+        "pkg-1.5.1-1.21.10-Forge" = _GhmI2GRH;
+        "pkg-1.5.1-1.21.10-Neoforge" = _pzZ1vT9f;
+        "pkg-1.5.1-1.21.10-Fabric" = _DOwhr03g;
+        "pkg-1.5.1-1.21.8-Forge" = _vVBnT5W3;
+        "pkg-1.5.1-1.21.8-Neoforge" = _BDluvuKN;
+        "pkg-1.5.1-1.21.8-Fabric" = _rplZ3Efj;
+        "pkg-1.5.1-1.21.5-Forge" = _qYNDKSLJ;
+        "pkg-1.5.1-1.21.5-Neoforge" = _wcGchoQ0;
+        "pkg-1.5.1-1.21.5-Fabric" = _CeL28tLX;
+        "pkg-1.5.1-1.21.4-Forge" = _v3FvOLaR;
+        "pkg-1.5.1-1.21.4-Neoforge" = _QoZ9Ud6t;
+        "pkg-1.5.1-1.21.4-Fabric" = _bxCZY2yK;
+        "pkg-1.5.1-1.21.1-Forge" = _18xQ4kIS;
+        "pkg-1.5.1-1.21.1-Neoforge" = _ZR8r31x5;
+        "pkg-1.5.1-1.21.1-Fabric" = _NDym1evi;
+        "pkg-1.5.1-1.20.4-Fabric" = _klDa5Mcs;
+        "pkg-1.5.1-1.20.4-Forge" = _caRj4wdR;
+        "pkg-1.5.1-1.20.1-Forge" = _o7TGMTMk;
+        "pkg-1.5.1-1.20.1-Fabric" = _BXIB1erh;
+        "pkg-1.5.1-1.19.2-Fabric" = _ZSWLYS9r;
+        "pkg-1.5.1-1.19.2-Forge" = _tuQFWsQi;
+        "pkg-1.5.1-1.18.2-Fabric" = _Beqsbfcv;
+        "pkg-1.5.1-1.18.2-Forge" = _xFu9Zv0E;
+        "pkg-1.5.4-26.1.2-Fabric" = _zan4QTtC;
+        "pkg-1.5.4-26.2-Fabric" = _KCM2vBuw;
+        "default" = _KCM2vBuw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "usefulfood-reborn";

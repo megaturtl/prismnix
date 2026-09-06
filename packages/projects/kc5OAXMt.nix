@@ -878,6 +878,9 @@ let
         "minecraft-26.3-snapshot-5" = _n2eoh8kJ;
         "minecraft-26.3-snapshot-6" = _n2eoh8kJ;
         "minecraft-26.3-snapshot-7" = _n2eoh8kJ;
+        "minecraft-26.3-snapshot-8" = _n2eoh8kJ;
+        "minecraft-26.3-snapshot-9" = _n2eoh8kJ;
+        "minecraft-26.3-snapshot-10" = _n2eoh8kJ;
         "pkg-1" = _n2eoh8kJ;
         "pkg-2" = _fFjaXWiI;
         "pkg-3" = _XDFIyOvj;

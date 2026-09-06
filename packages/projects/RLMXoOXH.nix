@@ -51,6 +51,11 @@ let
             "file" = "Lookin-Sharp-neoforge-1.0.4.jar";
             "hash" = "sha512-iG6oqXIJQyXyVBfJTVrFcSyAtpqvRHTOL0NmcJFHXPDPkLPbaiXsw8Kb70If0MElJzvQ+YsILdwD/fAcYdBgpw==";
         };
+        _OpZ2h38l = {
+            "id" = "OpZ2h38l";
+            "file" = "Lookin-Sharp-neoforge-1.0.5.jar";
+            "hash" = "sha512-kLKrJgk8a0+39238cWILJl0PjlzSprsaaWWOXzYCHQGc4X4dTjptrD5NjF22AhSUHMTl2o2DlwUQCjBSDKy/QQ==";
+        };
     in {
         "lXqeMSuy" = _lXqeMSuy;
         "11fjcuUS" = _11fjcuUS;
@@ -62,17 +67,19 @@ let
         "zPsrER9u" = _zPsrER9u;
         "7EkXUp6k" = _7EkXUp6k;
         "QFyQ7Ygv" = _QFyQ7Ygv;
+        "OpZ2h38l" = _OpZ2h38l;
         "fabric-1.20.1" = _PkfegkuC;
         "fabric-1.21.1" = _7EkXUp6k;
         "forge-1.20.1" = _fOeMhphb;
         "neoforge-1.20.1" = _c98FWT9q;
-        "neoforge-1.21.1" = _QFyQ7Ygv;
+        "neoforge-1.21.1" = _OpZ2h38l;
         "pkg-1.0.0" = _11fjcuUS;
         "pkg-1.0.1" = _RnW6dnwc;
         "pkg-1.0.2" = _PkfegkuC;
         "pkg-1.0.3" = _zPsrER9u;
         "pkg-1.0.4" = _QFyQ7Ygv;
-        "default" = _QFyQ7Ygv;
+        "pkg-1.0.5" = _OpZ2h38l;
+        "default" = _OpZ2h38l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lookin-sharp";

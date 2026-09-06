@@ -71,6 +71,11 @@ let
             "file" = "Dumplings Delight-1.20.1-Forge-1.3.2.jar";
             "hash" = "sha512-0YLbGbrZY7XTE8h0CJ1/Jvls21f+7bYA4SmBQXb3ArBU8sWiJWp4C6TrJ6xUQcVrNQJ88higJJzC9a1pClW2bg==";
         };
+        _k1g0JiXI = {
+            "id" = "k1g0JiXI";
+            "file" = "Dumplings Delight-1.20.1-Forge-1.3.3.jar";
+            "hash" = "sha512-dk7uzNSaqRIJu03hR81yc6hja7TIAXOAGITJsHW+JZofOWT/0rI84q1z9yHaqSj9Z5wom3CHq848Ug8s+DyFfg==";
+        };
     in {
         "udQUDllN" = _udQUDllN;
         "X6qHyjca" = _X6qHyjca;
@@ -86,7 +91,8 @@ let
         "gBMBTcag" = _gBMBTcag;
         "RozGGn5e" = _RozGGn5e;
         "dACeLYVO" = _dACeLYVO;
-        "forge-1.20.1" = _dACeLYVO;
+        "k1g0JiXI" = _k1g0JiXI;
+        "forge-1.20.1" = _k1g0JiXI;
         "forge-1.19.2" = _gBMBTcag;
         "pkg-1.0" = _affjAIye;
         "pkg-1.1" = _tkUagp70;
@@ -98,7 +104,8 @@ let
         "pkg-1.3" = _V8HOBKjg;
         "pkg-1.3.1" = _RozGGn5e;
         "pkg-1.3.2" = _dACeLYVO;
-        "default" = _dACeLYVO;
+        "pkg-1.3.3" = _k1g0JiXI;
+        "default" = _k1g0JiXI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dumplings-delight-reload";

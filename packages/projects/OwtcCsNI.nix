@@ -1701,6 +1701,16 @@ let
             "file" = "onlyhammersandexcavators-26.2-0.1.jar";
             "hash" = "sha512-2pQXLO05D3Qe3f3HP+wamBMhA3MrOMAp0N2YlzX1nchodHW3AYYnzNu8dkS8KwS4J6Tc8x8LelgQCUopaXAfng==";
         };
+        _xhGskVkA = {
+            "id" = "xhGskVkA";
+            "file" = "OnlyHammersAndExcavators-26.2-0.2.jar";
+            "hash" = "sha512-vKmC7ITZKgQN0437LZazipLKdbk5X9iB2IA7Oln/yseG6be8kQK0vgxfxsOwx9JuW8K4m/gscjZnaxcl7WxMAw==";
+        };
+        _vbibbl8k = {
+            "id" = "vbibbl8k";
+            "file" = "onlyhammersandexcavators-26.2-0.2.jar";
+            "hash" = "sha512-XdlYZJtSqoP+zCCsxjhpwxUOlff7ItY8ioCSxvHYbuH0Pt2dOUHPFzmJG3mG6C/J043KNxZm/Q1of/8RhxL+mg==";
+        };
     in {
         "K5jm10Dx" = _K5jm10Dx;
         "AhvJRzjE" = _AhvJRzjE;
@@ -2042,6 +2052,8 @@ let
         "MM38WrQl" = _MM38WrQl;
         "hlF3GWXh" = _hlF3GWXh;
         "CSvbvIVx" = _CSvbvIVx;
+        "xhGskVkA" = _xhGskVkA;
+        "vbibbl8k" = _vbibbl8k;
         "forge-1.19" = _OcvTcHHx;
         "forge-1.19.1" = _pJlaXJmQ;
         "forge-1.19.2" = _RXdO3HcB;
@@ -2087,7 +2099,7 @@ let
         "fabric-26.1" = _6dVRtews;
         "fabric-26.1.1" = _rfOihp6E;
         "fabric-26.1.2" = _MM38WrQl;
-        "fabric-26.2" = _hlF3GWXh;
+        "fabric-26.2" = _xhGskVkA;
         "neoforge-1.21" = _geo8DQxK;
         "neoforge-1.21.1" = _5gLdEqaZ;
         "neoforge-1.21.3" = _ubmC3TZp;
@@ -2102,7 +2114,7 @@ let
         "neoforge-26.1.2" = _PMSBcX7M;
         "neoforge-26.1.1" = _4f1dDDRL;
         "neoforge-26.1" = _pel014b4;
-        "neoforge-26.2" = _CSvbvIVx;
+        "neoforge-26.2" = _vbibbl8k;
         "pkg-1.19-0.1" = _QjMyXO2N;
         "pkg-1.19.1-0.1" = _J5IZsPZ2;
         "pkg-1.19.2-0.1" = _zmFYyaK9;
@@ -2240,7 +2252,8 @@ let
         "pkg-26.1.1-0.2" = _rfOihp6E;
         "pkg-26.1.2-0.2" = _MM38WrQl;
         "pkg-26.2-0.1" = _CSvbvIVx;
-        "default" = _CSvbvIVx;
+        "pkg-26.2-0.2" = _vbibbl8k;
+        "default" = _vbibbl8k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "only-hammers-and-excavators";

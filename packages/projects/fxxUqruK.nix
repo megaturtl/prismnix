@@ -151,6 +151,11 @@ let
             "file" = "voxy-0.2.18-beta-26.1.2.jar";
             "hash" = "sha512-JoPRjwZ12RVPw3YpkD2+FQcrsEgrCIL4mj6LlsoG02C5mqhkMvHjoGvuMxHvp2TZgS4MXkc1+DhmQ5seH14X1w==";
         };
+        _LzyXnE51 = {
+            "id" = "LzyXnE51";
+            "file" = "voxy-0.2.19-beta.jar";
+            "hash" = "sha512-kHGs7/8A+VKwSRNPfui1yL4nZGremSJ0+aMuSt960JMvl1VTD6ISqOZcwjs+1dxkOvE5voP8uJx3jYyOcjucOg==";
+        };
     in {
         "pLjgjIpO" = _pLjgjIpO;
         "JxZK65ko" = _JxZK65ko;
@@ -182,6 +187,7 @@ let
         "K3mJrsgk" = _K3mJrsgk;
         "zZX86mbc" = _zZX86mbc;
         "Zt3LPI0b" = _Zt3LPI0b;
+        "LzyXnE51" = _LzyXnE51;
         "fabric-1.20.4" = _pSAhmtO2;
         "fabric-1.21.6" = _PUzawk52;
         "fabric-1.21.7" = _PUzawk52;
@@ -192,7 +198,7 @@ let
         "fabric-26.1" = _tIs0IXaN;
         "fabric-26.1.1" = _tIs0IXaN;
         "fabric-26.1.2" = _Zt3LPI0b;
-        "fabric-26.2" = _zZX86mbc;
+        "fabric-26.2" = _LzyXnE51;
         "pkg-0.1.0-alpha" = _pLjgjIpO;
         "pkg-0.1.1-alpha" = _JxZK65ko;
         "pkg-0.1.2-alpha" = _NmD6dBH7;
@@ -218,7 +224,8 @@ let
         "pkg-0.2.17-alpha" = _hUUcusfA;
         "pkg-0.2.17-beta" = _K3mJrsgk;
         "pkg-0.2.18-beta" = _Zt3LPI0b;
-        "default" = _Zt3LPI0b;
+        "pkg-0.2.19-beta" = _LzyXnE51;
+        "default" = _LzyXnE51;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "voxy";

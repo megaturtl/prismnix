@@ -581,6 +581,16 @@ let
             "file" = "crazyae2addons-3.2.2-all.jar";
             "hash" = "sha512-nBQ51sbWyQvnTo07fENRLr5CfUmPAfo7kEttiYOw0IjA6tsaHwOUKsOtBO6ypN0oDjCpsbne4V+V3Lz3JQuF6w==";
         };
+        _aEKMqqDu = {
+            "id" = "aEKMqqDu";
+            "file" = "crazyae2addons-3.2.3-all.jar";
+            "hash" = "sha512-Cv7eIZ5vD+HGGcWdhqvJ8L5EyliYdwy9Zww8sR/GmXzhzEsqUmnd2YQcwBrJZVAYlNQe8Sbb8afp5heaX34GjA==";
+        };
+        _KwFCuLdA = {
+            "id" = "KwFCuLdA";
+            "file" = "crazyae2addons-3.2.4-all.jar";
+            "hash" = "sha512-X26aaXXDZAmzTQPmOSNUe09kNIaJNSN90xj6JzHtUtkXm1WmHbt/NcxZETQHa9YdwcQsIAa4YGjzSRoyHpZgOw==";
+        };
     in {
         "tUNw9d73" = _tUNw9d73;
         "Qh5wi7gN" = _Qh5wi7gN;
@@ -698,12 +708,14 @@ let
         "voOGHbZZ" = _voOGHbZZ;
         "fQpsWcUH" = _fQpsWcUH;
         "nkYHY36D" = _nkYHY36D;
-        "forge-1.20.1" = _nkYHY36D;
-        "forge-1.20.2" = _nkYHY36D;
-        "forge-1.20.3" = _nkYHY36D;
-        "forge-1.20.4" = _nkYHY36D;
-        "forge-1.20.5" = _nkYHY36D;
-        "forge-1.20.6" = _nkYHY36D;
+        "aEKMqqDu" = _aEKMqqDu;
+        "KwFCuLdA" = _KwFCuLdA;
+        "forge-1.20.1" = _KwFCuLdA;
+        "forge-1.20.2" = _KwFCuLdA;
+        "forge-1.20.3" = _KwFCuLdA;
+        "forge-1.20.4" = _KwFCuLdA;
+        "forge-1.20.5" = _KwFCuLdA;
+        "forge-1.20.6" = _KwFCuLdA;
         "pkg-0.1.0" = _tUNw9d73;
         "pkg-0.1.1" = _Qh5wi7gN;
         "pkg-0.1.2" = _lUjeRlbj;
@@ -820,7 +832,9 @@ let
         "pkg-3.2.0" = _voOGHbZZ;
         "pkg-3.2.1" = _fQpsWcUH;
         "pkg-3.2.2" = _nkYHY36D;
-        "default" = _nkYHY36D;
+        "pkg-3.2.3" = _aEKMqqDu;
+        "pkg-3.2.4" = _KwFCuLdA;
+        "default" = _KwFCuLdA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crazy-ae2-addons";

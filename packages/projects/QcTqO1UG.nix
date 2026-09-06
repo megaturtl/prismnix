@@ -36,6 +36,11 @@ let
             "file" = "nobrokenarmor-fabric-mc26.2-1.0.1.jar";
             "hash" = "sha512-2nEH2ABO3+K6474amsL3qzHpKY6qMZD2SWpSfo7+rRKBqOJjDClJ1iF3Iu3RCjeANErugOHuh04hxP0NEumdxg==";
         };
+        _D0d9bgUI = {
+            "id" = "D0d9bgUI";
+            "file" = "nobrokenarmor-mc26.3-2.0.jar";
+            "hash" = "sha512-I15eIt53xLaeuyMvgqKi3f2tsBDbENmhy7rff/99WpH87Zwj2evXKW9yuwuV7rnWQ9bUWRPNXZGfU0jVaV3oEw==";
+        };
     in {
         "adLIw9Lw" = _adLIw9Lw;
         "yMACqzif" = _yMACqzif;
@@ -44,6 +49,7 @@ let
         "G2ifS21I" = _G2ifS21I;
         "BdUrvLUh" = _BdUrvLUh;
         "9vvRHRaz" = _9vvRHRaz;
+        "D0d9bgUI" = _D0d9bgUI;
         "fabric-1.19.2" = _adLIw9Lw;
         "fabric-1.20.1" = _yMACqzif;
         "fabric-1.20.5" = _LBLqC08J;
@@ -55,9 +61,11 @@ let
         "fabric-26.1.1" = _9vvRHRaz;
         "fabric-26.1.2" = _9vvRHRaz;
         "fabric-26.2" = _9vvRHRaz;
+        "fabric-26.3-snapshot-9" = _D0d9bgUI;
         "pkg-1.0.0" = _BdUrvLUh;
         "pkg-1.0.1+mc26.2" = _9vvRHRaz;
-        "default" = _9vvRHRaz;
+        "pkg-2.0" = _D0d9bgUI;
+        "default" = _D0d9bgUI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-broken-armor";

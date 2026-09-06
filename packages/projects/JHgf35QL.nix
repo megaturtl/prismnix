@@ -1521,6 +1521,16 @@ let
             "file" = "nemos-inventory-sorting-NeoForge-26.2-1.21.2.jar";
             "hash" = "sha512-TZIGPy0VrXsxidvST1y9yIQHI8CvfGdvjqQVCxcnDVmTsiTGiRG7VkY0idwLC9WCPrTQAL3bRl2GAeuTogJaSw==";
         };
+        _B5LcbwIg = {
+            "id" = "B5LcbwIg";
+            "file" = "nemos-inventory-sorting-Fabric-26.2-1.21.3.jar";
+            "hash" = "sha512-J/uEcLGDOyXKFBF8YUPBizBALwho769rMowUqs3ip44FT/bjMr77mQFJQyDsYj+TfI8VozSFbvJkkBRsrGVnrQ==";
+        };
+        _5kvIwox1 = {
+            "id" = "5kvIwox1";
+            "file" = "nemos-inventory-sorting-NeoForge-26.2-1.21.3.jar";
+            "hash" = "sha512-x4yGo23jMckSMEX6kaVrDPkqdYe+zJnS1NX+5ID1pxgPp3edsPpHexZ25R6egcNYlw/mMo9tbFRhj3fw2UNTmQ==";
+        };
     in {
         "eTXE5Twl" = _eTXE5Twl;
         "1srmjknH" = _1srmjknH;
@@ -1826,6 +1836,8 @@ let
         "4ppmdySb" = _4ppmdySb;
         "7wOWeSaH" = _7wOWeSaH;
         "Opu4sheG" = _Opu4sheG;
+        "B5LcbwIg" = _B5LcbwIg;
+        "5kvIwox1" = _5kvIwox1;
         "fabric-1.21.2" = _YybNPHJE;
         "fabric-1.21.3" = _YybNPHJE;
         "fabric-1.21.4" = _7A0VD7ww;
@@ -1842,7 +1854,7 @@ let
         "fabric-1.21.11" = _lFxbbiZM;
         "fabric-26.1" = _2NmfYfug;
         "fabric-26.1.2" = _RTIABN0x;
-        "fabric-26.2" = _7wOWeSaH;
+        "fabric-26.2" = _B5LcbwIg;
         "forge-1.21.2" = _ela881Iu;
         "forge-1.21.3" = _ela881Iu;
         "forge-1.21.4" = _F34jxcJX;
@@ -1870,7 +1882,7 @@ let
         "neoforge-1.21.11" = _VJmSL2Rh;
         "neoforge-26.1" = _Hml0Bjwq;
         "neoforge-26.1.2" = _W1MKHHJ8;
-        "neoforge-26.2" = _Opu4sheG;
+        "neoforge-26.2" = _5kvIwox1;
         "pkg-1.21.3-1.0" = _swXTs4ip;
         "pkg-1.21.3-1.0.1" = _px9O3Sor;
         "pkg-1.21.3-1.0.2" = _ooHI9pTF;
@@ -1991,7 +2003,8 @@ let
         "pkg-26.2-1.21" = _JYZ5UISE;
         "pkg-26.2-1.21.1" = _4ppmdySb;
         "pkg-26.2-1.21.2" = _Opu4sheG;
-        "default" = _Opu4sheG;
+        "pkg-26.2-1.21.3" = _5kvIwox1;
+        "default" = _5kvIwox1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nemos-inventory-sorting";

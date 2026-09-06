@@ -56,6 +56,21 @@ let
             "file" = "enchantment-effects-1.0.0+26.2.jar";
             "hash" = "sha512-1cwJTPwCSx7C+8WxD5yw6KCbisGrAJtGK5iiq8efakOVig11FwGFGLkxa7+j18xybntSaJONJ+RV6bTaF1dDtw==";
         };
+        _v1QStXP3 = {
+            "id" = "v1QStXP3";
+            "file" = "enchantment-effects-1.1.0+26.2.jar";
+            "hash" = "sha512-ujItyORvQBrfpT497gDOhxPbU2RWfijldTJQm3eBjNb+DKNCcfNo6US3J1byb8xMOpXmIDOGMQ1moSpriwCDbw==";
+        };
+        _R12UvzaZ = {
+            "id" = "R12UvzaZ";
+            "file" = "enchantment-effects-1.1.0+26.1.x.jar";
+            "hash" = "sha512-DDPfeJgeAxOKKKtUoUkAOjXF2Fl9otvo1nUwP3Kis6yB5IDJJH08EsTkltWFdG99EOWQBAX8M9as6kjg/Gwkhg==";
+        };
+        _j0INocAh = {
+            "id" = "j0INocAh";
+            "file" = "enchantment-effects-1.1.0+1.21.11.jar";
+            "hash" = "sha512-d+4i1E9RsOznm1l9b1kN/I+dnqNFSGWT4EFjklBxPfd8Atxk46enHXdKse32FDHH6v9NCoHxE8B5eOTy/p8KYg==";
+        };
     in {
         "ieRjHUZK" = _ieRjHUZK;
         "uDkbpHsZ" = _uDkbpHsZ;
@@ -68,11 +83,14 @@ let
         "P74vR2Gl" = _P74vR2Gl;
         "mhKfHOYH" = _mhKfHOYH;
         "bJVbFCyL" = _bJVbFCyL;
-        "fabric-26.1" = _P74vR2Gl;
-        "fabric-26.1.1" = _P74vR2Gl;
-        "fabric-26.1.2" = _P74vR2Gl;
-        "fabric-1.21.11" = _mhKfHOYH;
-        "fabric-26.2" = _bJVbFCyL;
+        "v1QStXP3" = _v1QStXP3;
+        "R12UvzaZ" = _R12UvzaZ;
+        "j0INocAh" = _j0INocAh;
+        "fabric-26.1" = _R12UvzaZ;
+        "fabric-26.1.1" = _R12UvzaZ;
+        "fabric-26.1.2" = _R12UvzaZ;
+        "fabric-1.21.11" = _j0INocAh;
+        "fabric-26.2" = _v1QStXP3;
         "pkg-0.1.0+26.1.x" = _ieRjHUZK;
         "pkg-0.1.1+26.1.x" = _uDkbpHsZ;
         "pkg-0.2.0+26.1.x" = _Bddp9kD4;
@@ -84,7 +102,10 @@ let
         "pkg-1.0.0+26.1.x" = _P74vR2Gl;
         "pkg-1.0.0+1.21.11" = _mhKfHOYH;
         "pkg-1.0.0+26.2" = _bJVbFCyL;
-        "default" = _bJVbFCyL;
+        "pkg-1.1.0+26.2" = _v1QStXP3;
+        "pkg-1.1.0+26.1.x" = _R12UvzaZ;
+        "pkg-1.1.0+1.21.11" = _j0INocAh;
+        "default" = _j0INocAh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sb-enchantment-effects";

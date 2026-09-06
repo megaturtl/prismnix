@@ -31,6 +31,16 @@ let
             "file" = "shinycookie-fabric-0.1.1.jar";
             "hash" = "sha512-WE+qpkqpI730SHE0FVBBQ3is48cXJTBXX5jmRQKZjPyU+aKXN5CSzApgloWEV2c2zsC0mJBxPHnJB7JzB14z+g==";
         };
+        _P340VtnT = {
+            "id" = "P340VtnT";
+            "file" = "shinycookie-neoforge-0.1.2.jar";
+            "hash" = "sha512-odzCEV847/SxhpeHSWvZWHGcklMFzE1uDIJHqQatep4dr7HvhGmkp9zUhJgfh2IHwngGFKY6TiXrlmv+KmdjFw==";
+        };
+        _RgxpSvCs = {
+            "id" = "RgxpSvCs";
+            "file" = "shinycookie-fabric-0.1.2.jar";
+            "hash" = "sha512-tWcyoqfwk0dGA2TRs0W2weOWAz3iYpAIu/PamzgRUZuvO/+TcRA/ZkV7vgV53k8SeCZcBLuwrlvLRA+SJzPy2Q==";
+        };
     in {
         "B0gQ06D1" = _B0gQ06D1;
         "YIna1pKh" = _YIna1pKh;
@@ -38,12 +48,15 @@ let
         "l1xO4aZG" = _l1xO4aZG;
         "cH7tgPQp" = _cH7tgPQp;
         "ArsKCqdl" = _ArsKCqdl;
-        "neoforge-1.21.1" = _cH7tgPQp;
-        "fabric-1.21.1" = _ArsKCqdl;
+        "P340VtnT" = _P340VtnT;
+        "RgxpSvCs" = _RgxpSvCs;
+        "neoforge-1.21.1" = _P340VtnT;
+        "fabric-1.21.1" = _RgxpSvCs;
         "pkg-0.0.1" = _YIna1pKh;
         "pkg-0.1.0" = _l1xO4aZG;
         "pkg-0.1.1" = _ArsKCqdl;
-        "default" = _ArsKCqdl;
+        "pkg-0.1.2" = _RgxpSvCs;
+        "default" = _RgxpSvCs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-shiny-cookie";

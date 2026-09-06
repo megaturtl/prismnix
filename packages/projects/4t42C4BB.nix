@@ -91,6 +91,21 @@ let
             "file" = "new-frontier-craft-0.6.0.jar";
             "hash" = "sha512-G7GVih/sjjWqlTUJZW5IlY1nZi/hxEh28k0Kos7CCkucK/r52JGY2kZ9xTZhTujWEuTJma89iAmsnWMyDc4djQ==";
         };
+        _X8oK1QeI = {
+            "id" = "X8oK1QeI";
+            "file" = "new-frontier-craft-1.0.0.jar";
+            "hash" = "sha512-56G2cYXsbdlwsrqR8lWi1DJMel1e7CAIeztuyBdvur4TGz2CDO5eFRO8vjLcTLR7CUBKMmjDJ1KEr/vJjvn+uA==";
+        };
+        _GTod2Ewf = {
+            "id" = "GTod2Ewf";
+            "file" = "new-frontier-craft-1.1.1.jar";
+            "hash" = "sha512-UckHeFpB0Nj2IFZwTjVdwXhUOaRl0fk9SZn5BIMvlR7yHY+HvGebyRf9oLyygmNtm6R9UADBgTboLtDil7QtbA==";
+        };
+        _j41AvWWy = {
+            "id" = "j41AvWWy";
+            "file" = "new-frontier-craft-1.1.2.jar";
+            "hash" = "sha512-hSLsMRr9I5KEW4RQX8QwHOjOfFNLXR5Z4LBU2FrOQ3XTaZROBdP1CGa+RgFrM5WUppv5UJyzM7ER6VRl70Jeyg==";
+        };
     in {
         "9b3voxtX" = _9b3voxtX;
         "kTjyh3NW" = _kTjyh3NW;
@@ -110,8 +125,11 @@ let
         "l9DQFk4Q" = _l9DQFk4Q;
         "DJQkfOHE" = _DJQkfOHE;
         "OpYvXHHC" = _OpYvXHHC;
-        "babric-b1.7.3" = _OpYvXHHC;
-        "fabric-b1.7.3" = _OpYvXHHC;
+        "X8oK1QeI" = _X8oK1QeI;
+        "GTod2Ewf" = _GTod2Ewf;
+        "j41AvWWy" = _j41AvWWy;
+        "babric-b1.7.3" = _j41AvWWy;
+        "fabric-b1.7.3" = _j41AvWWy;
         "pkg-0.1.0" = _9b3voxtX;
         "pkg-0.2.0" = _kTjyh3NW;
         "pkg-0.3.0" = _aNGeRVhy;
@@ -130,7 +148,10 @@ let
         "pkg-0.5.5" = _l9DQFk4Q;
         "pkg-0.5.6" = _DJQkfOHE;
         "pkg-0.6.0" = _OpYvXHHC;
-        "default" = _OpYvXHHC;
+        "pkg-1.0.0" = _X8oK1QeI;
+        "pkg-1.1.1" = _GTod2Ewf;
+        "pkg-1.1.2" = _j41AvWWy;
+        "default" = _j41AvWWy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "new-frontier-craft";

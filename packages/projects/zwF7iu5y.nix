@@ -26,19 +26,32 @@ let
             "file" = "corrupted_worlds-1.3-BETA.jar";
             "hash" = "sha512-qBcq0mjJlxRipTFP9PLincP14MVUufLMHU+faCufKqutQifGCWje6zGYOWknbdvE1IXpEv9tFPD+HbsSGpASZg==";
         };
+        _A1fP0noK = {
+            "id" = "A1fP0noK";
+            "file" = "corrupted_worlds-1.3-For-Modrinth.jar";
+            "hash" = "sha512-bKtHcenKzhY/ttP74wqabwf8iWSoggcQtRXWei7cEjl/VA2EgE35hp8/Lz7Z9nWrEvZkTX5mZodBBxvywIexfw==";
+        };
+        _y09kW7Zk = {
+            "id" = "y09kW7Zk";
+            "file" = "corrupted_worlds-1.3.1-For-Modrinth.jar";
+            "hash" = "sha512-E8QPfQRvrN9+axB3vBqZEIRbUrwBIAXLvqAbd1bvbfuUFkLjigXxQetCOqpgRz6qdVrcs/kvps+zQFiLeGtjhw==";
+        };
     in {
         "zYsSan5Q" = _zYsSan5Q;
         "kwn30xT5" = _kwn30xT5;
         "EycRFQqV" = _EycRFQqV;
         "wlIiMmXS" = _wlIiMmXS;
         "QBynrySs" = _QBynrySs;
-        "forge-1.20.1" = _QBynrySs;
+        "A1fP0noK" = _A1fP0noK;
+        "y09kW7Zk" = _y09kW7Zk;
+        "forge-1.20.1" = _y09kW7Zk;
         "pkg-1.0" = _zYsSan5Q;
         "pkg-1.1" = _kwn30xT5;
         "pkg-1.2" = _EycRFQqV;
         "pkg-1.2.1" = _wlIiMmXS;
-        "pkg-1.3" = _QBynrySs;
-        "default" = _QBynrySs;
+        "pkg-1.3" = _A1fP0noK;
+        "pkg-1.3.1" = _y09kW7Zk;
+        "default" = _y09kW7Zk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "corrupted_worlds";

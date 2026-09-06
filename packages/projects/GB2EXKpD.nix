@@ -81,7 +81,7 @@ let
         "minecraft-26.1.1" = _h9LZVq3I;
         "minecraft-26.1.2" = _h9LZVq3I;
         "minecraft-26.2" = _h9LZVq3I;
-        "minecraft-26.3-snapshot-7" = _h9LZVq3I;
+        "minecraft-26.3-pre-2" = _h9LZVq3I;
         "pkg-1.0.0" = _OdpHggHV;
         "pkg-1.5.0" = _Tj8DPJS1;
         "pkg-1.5.1" = _r6TXExIL;

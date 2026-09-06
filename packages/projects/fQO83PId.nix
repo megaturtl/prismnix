@@ -1026,6 +1026,111 @@ let
             "file" = "reliquary-1.21.8-2.0.76.1534.jar";
             "hash" = "sha512-CO/zgDHs8Iw6QZ+GHmgNi6Khpke6Zamm/RIZa99itLi8h7TfS5r8dJVF+HJJaBle6GyZ4k5i+ZF9SbRBHLpYcg==";
         };
+        _XflEYinq = {
+            "id" = "XflEYinq";
+            "file" = "reliquary-26.2-2.0.90.1551.jar";
+            "hash" = "sha512-8I14hWt1DOZpKynDxFcYAPIZEVvA2Y8CYAvttyaClzUZ4sBMO0zoDiK67c4S72Uqr/EJTYcgqJtfOFzfQ+8L/Q==";
+        };
+        _UzE8hWNG = {
+            "id" = "UzE8hWNG";
+            "file" = "reliquary-1.20.1-2.0.63.1553.jar";
+            "hash" = "sha512-cyQMtP6aQymzWXKPz0RAG+tuqyRzFdKTHD5wipKE35Y4OuA9OH1c8mXtYPc9GLFO4WvKGo0tKBDDhwHUNl0SHw==";
+        };
+        _h6Id2Vcf = {
+            "id" = "h6Id2Vcf";
+            "file" = "reliquary-1.21.1-2.0.78.1552.jar";
+            "hash" = "sha512-JSiDCEwFTvCJ+6CNVUQ/Wa/GKnP8uw8ANi+/apori6lRWr1Z87EyuUY7hdI1ZX9fnYTqYIUCfiTBMvzjRvDVog==";
+        };
+        _dwSlfQ3l = {
+            "id" = "dwSlfQ3l";
+            "file" = "reliquary-1.20.1-2.0.64.1554.jar";
+            "hash" = "sha512-5e4MXV5clABuwnzRGxfXm5XxgnqoUNR4VmfUY0biHIkrXcn+JSc0coM1PfBj2bhFitzTi+fqA74HsgTWjhzVjg==";
+        };
+        _PmFeOFEL = {
+            "id" = "PmFeOFEL";
+            "file" = "reliquary-26.2-2.0.91.1559.jar";
+            "hash" = "sha512-Tb6L6D51yB3dSayxfIDPACauTwPcamAFtJbwyceTMNCVUpsfLSDUHMLxj1zO5K7UxYe8CpCwRyTKxq3UPLk/bw==";
+        };
+        _KucM5PX7 = {
+            "id" = "KucM5PX7";
+            "file" = "reliquary-26.1.2-2.0.91.1562.jar";
+            "hash" = "sha512-PZQA/Q9Z4XrZe2c5/ZmVVikVcOBpT5skK3mhzkfAceRMeKZPfo+6zP3qtq5LwsyEmNkkx/6z+mNd+WXepx9l1A==";
+        };
+        _OfQOx9co = {
+            "id" = "OfQOx9co";
+            "file" = "reliquary-1.21.1-2.0.79.1555.jar";
+            "hash" = "sha512-guwYUPAq2lQGfAB4bBu4hmKB7hl15DJ9gsuBqiaF2PrLInZuEfBcc8/8K1RZxvFq93FtWDjHOvfWMjtWH9ol9w==";
+        };
+        _8VVCpKgu = {
+            "id" = "8VVCpKgu";
+            "file" = "reliquary-1.21.4-2.0.76.1560.jar";
+            "hash" = "sha512-WR3WybMVbIvwa4l1YzXik5JDo2YGAfbX4jXO36/U1ooGIcwjBH6GwMICAGPCYbmdYB4H5ON1D3MEvZgI/zyLAg==";
+        };
+        _OrYOiIHq = {
+            "id" = "OrYOiIHq";
+            "file" = "reliquary-1.21.5-2.0.76.1556.jar";
+            "hash" = "sha512-DpaHbXMmn2xNf2TqICw3DA1jvHUoS+KMzVBU9vTSZl5Rn8nPecrH/sN+WKJWVCfWC9rOJDsfhwxD80AWKoCXGw==";
+        };
+        _9c96Kexf = {
+            "id" = "9c96Kexf";
+            "file" = "reliquary-1.21.10-2.0.81.1561.jar";
+            "hash" = "sha512-yOIqgaZHymN9yHGgW6wV509Bdm6eD5dk/pdC5/2lt/Lpov92c8Zm7HgU6aUOFYmrbRjen/8E/TkKI7NTNPZNMQ==";
+        };
+        _whY0P190 = {
+            "id" = "whY0P190";
+            "file" = "reliquary-1.21.11-2.0.83.1558.jar";
+            "hash" = "sha512-9qMlRsbayali/GASCX85pRkeFz3U1IEG+iq5mrYYajVGzA84auaCUT089IN8/gMJxgWYWGahAVoQr2U3jJ57ZA==";
+        };
+        _fyR6CjHT = {
+            "id" = "fyR6CjHT";
+            "file" = "reliquary-1.21.8-2.0.77.1557.jar";
+            "hash" = "sha512-uA1jJV34w+fIL2UhOCTDmpBVj/J+q0aTwNu+Dntp8OV4Ol4gEzEf3lQmwnfDrnskxh9gU/+J7+BEwXmNkL6Hjw==";
+        };
+        _G6PGb5oa = {
+            "id" = "G6PGb5oa";
+            "file" = "reliquary-26.2-2.0.92.1568.jar";
+            "hash" = "sha512-kEOEWthK0NPXwGnQccrzxs5hcB28ZxTsGMqcxnARC78ixzNgWSyefIkwPNyKe08oFrzE+nfVpTYGloPl5OoRwA==";
+        };
+        _oub7jUP0 = {
+            "id" = "oub7jUP0";
+            "file" = "reliquary-26.1.2-2.0.92.1563.jar";
+            "hash" = "sha512-SD6ApZefJb19DfXxWHFksV0PAKoKhBhrwqwyutV7yH3SN2M2ATYzP5zVnjDWRxwie/hQ4qotTRQ+IpDXU9Caxw==";
+        };
+        _eNvLbVGP = {
+            "id" = "eNvLbVGP";
+            "file" = "reliquary-1.20.1-2.0.65.1565.jar";
+            "hash" = "sha512-Oe3fW7EMdlkdO7yWf7F//tnMydCD2hZWc5tY+rTmB64r5LcBZmoZE5SD/QIHhLADDwhRbjdmDHjw4lRHp+ZiUA==";
+        };
+        _2tFwWcWD = {
+            "id" = "2tFwWcWD";
+            "file" = "reliquary-1.21.8-2.0.78.1564.jar";
+            "hash" = "sha512-+RF+/tICxfCtosyYqYIUf7s/Y6h7xSo2d3hT9n1KlmU0vkguXsGrTPqkd7EWIhsl9vd1Lc0s4N2p6Xuokgkr/w==";
+        };
+        _qo46o7sL = {
+            "id" = "qo46o7sL";
+            "file" = "reliquary-1.21.4-2.0.77.1566.jar";
+            "hash" = "sha512-oQigpclOremxrr3qBrZFu/J37njtuKkxf2xEgYPddQf364/xeJrFF9cf1izmIT/o3R27YImSsp7KnjlU3XGqjw==";
+        };
+        _IS2jN6UZ = {
+            "id" = "IS2jN6UZ";
+            "file" = "reliquary-1.21.5-2.0.77.1571.jar";
+            "hash" = "sha512-uGmCYuhLhBchBymGpJnmtNCrdysNfxSGe9zXiUh2OCKXv9DdGqkSLw0826qVTnjnEsVWvUltROV63PvN9T8ZXQ==";
+        };
+        _e2wrHWzc = {
+            "id" = "e2wrHWzc";
+            "file" = "reliquary-1.21.10-2.0.82.1567.jar";
+            "hash" = "sha512-PZWfq28NKM3Z1ty2xun7f1CwFYGFI7oa366HHjc9dn318YjVNsLRzh4kt2MXcoZI4GrBbrDPi7hqr2WnWzzGOQ==";
+        };
+        _kOKl8h6O = {
+            "id" = "kOKl8h6O";
+            "file" = "reliquary-1.21.1-2.0.80.1570.jar";
+            "hash" = "sha512-+zlG2rgxrGquDmIFpZw+2mvf7rB0wJuYAbUfCZETv/bUPQLsyy8NBOJcEZISdra8Y2P3hePdl4zR78P3bN0wsg==";
+        };
+        _40gMkmgJ = {
+            "id" = "40gMkmgJ";
+            "file" = "reliquary-1.21.11-2.0.84.1569.jar";
+            "hash" = "sha512-RKc/DNFAg68nvn6UJbdE1J1PRqka3wSYXR9Y22SFplUD9M+XRrHVEA6wYOQON7G6wyce1k7aOl0qGMItFAGsrA==";
+        };
     in {
         "dgdNJAdF" = _dgdNJAdF;
         "F7iOLki0" = _F7iOLki0;
@@ -1232,24 +1337,45 @@ let
         "vCP6UDyI" = _vCP6UDyI;
         "Tlzfqw8R" = _Tlzfqw8R;
         "roLijVgu" = _roLijVgu;
-        "forge-1.20.1" = _vCP6UDyI;
+        "XflEYinq" = _XflEYinq;
+        "UzE8hWNG" = _UzE8hWNG;
+        "h6Id2Vcf" = _h6Id2Vcf;
+        "dwSlfQ3l" = _dwSlfQ3l;
+        "PmFeOFEL" = _PmFeOFEL;
+        "KucM5PX7" = _KucM5PX7;
+        "OfQOx9co" = _OfQOx9co;
+        "8VVCpKgu" = _8VVCpKgu;
+        "OrYOiIHq" = _OrYOiIHq;
+        "9c96Kexf" = _9c96Kexf;
+        "whY0P190" = _whY0P190;
+        "fyR6CjHT" = _fyR6CjHT;
+        "G6PGb5oa" = _G6PGb5oa;
+        "oub7jUP0" = _oub7jUP0;
+        "eNvLbVGP" = _eNvLbVGP;
+        "2tFwWcWD" = _2tFwWcWD;
+        "qo46o7sL" = _qo46o7sL;
+        "IS2jN6UZ" = _IS2jN6UZ;
+        "e2wrHWzc" = _e2wrHWzc;
+        "kOKl8h6O" = _kOKl8h6O;
+        "40gMkmgJ" = _40gMkmgJ;
+        "forge-1.20.1" = _eNvLbVGP;
         "forge-1.8.9" = _kQqo1Ui8;
         "forge-1.10.2" = _aVRfqARk;
         "forge-1.12.2" = _iEa6eLTv;
         "forge-1.16.5" = _UPFWqKbe;
         "forge-1.18.2" = _LbhMjrUe;
         "forge-1.19.2" = _ZYC7gzKd;
-        "neoforge-1.20.1" = _vCP6UDyI;
-        "neoforge-1.21.1" = _Ore7iCX1;
-        "neoforge-1.21.4" = _o8CpcOW6;
-        "neoforge-1.21.5" = _mPBqntUO;
-        "neoforge-1.21.8" = _roLijVgu;
-        "neoforge-1.21.10" = _SBEEXG0K;
-        "neoforge-1.21.11" = _nV7jlQ4k;
+        "neoforge-1.20.1" = _eNvLbVGP;
+        "neoforge-1.21.1" = _kOKl8h6O;
+        "neoforge-1.21.4" = _qo46o7sL;
+        "neoforge-1.21.5" = _IS2jN6UZ;
+        "neoforge-1.21.8" = _2tFwWcWD;
+        "neoforge-1.21.10" = _e2wrHWzc;
+        "neoforge-1.21.11" = _40gMkmgJ;
         "neoforge-26.1" = _AzFaSvQn;
         "neoforge-26.1.1" = _AzFaSvQn;
-        "neoforge-26.1.2" = _Tlzfqw8R;
-        "neoforge-26.2" = _6Y4nzaLN;
+        "neoforge-26.1.2" = _oub7jUP0;
+        "neoforge-26.2" = _G6PGb5oa;
         "pkg-1.20.1-2.0.42.1238" = _dgdNJAdF;
         "pkg-1.20.1-2.0.44.1241" = _F7iOLki0;
         "pkg-1.20.1-2.0.44.1243" = _SXFN7gz9;
@@ -1455,7 +1581,28 @@ let
         "pkg-1.20.1-2.0.62.1532" = _vCP6UDyI;
         "pkg-26.1.2-2.0.90.1536" = _Tlzfqw8R;
         "pkg-1.21.8-2.0.76.1534" = _roLijVgu;
-        "default" = _roLijVgu;
+        "pkg-26.2-2.0.90.1551" = _XflEYinq;
+        "pkg-1.20.1-2.0.63.1553" = _UzE8hWNG;
+        "pkg-1.21.1-2.0.78.1552" = _h6Id2Vcf;
+        "pkg-1.20.1-2.0.64.1554" = _dwSlfQ3l;
+        "pkg-26.2-2.0.91.1559" = _PmFeOFEL;
+        "pkg-26.1.2-2.0.91.1562" = _KucM5PX7;
+        "pkg-1.21.1-2.0.79.1555" = _OfQOx9co;
+        "pkg-1.21.4-2.0.76.1560" = _8VVCpKgu;
+        "pkg-1.21.5-2.0.76.1556" = _OrYOiIHq;
+        "pkg-1.21.10-2.0.81.1561" = _9c96Kexf;
+        "pkg-1.21.11-2.0.83.1558" = _whY0P190;
+        "pkg-1.21.8-2.0.77.1557" = _fyR6CjHT;
+        "pkg-26.2-2.0.92.1568" = _G6PGb5oa;
+        "pkg-26.1.2-2.0.92.1563" = _oub7jUP0;
+        "pkg-1.20.1-2.0.65.1565" = _eNvLbVGP;
+        "pkg-1.21.8-2.0.78.1564" = _2tFwWcWD;
+        "pkg-1.21.4-2.0.77.1566" = _qo46o7sL;
+        "pkg-1.21.5-2.0.77.1571" = _IS2jN6UZ;
+        "pkg-1.21.10-2.0.82.1567" = _e2wrHWzc;
+        "pkg-1.21.1-2.0.80.1570" = _kOKl8h6O;
+        "pkg-1.21.11-2.0.84.1569" = _40gMkmgJ;
+        "default" = _40gMkmgJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reliquary-reincarnations";

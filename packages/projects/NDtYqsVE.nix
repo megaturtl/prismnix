@@ -51,6 +51,16 @@ let
             "file" = "foodstats-3.0.3.jar";
             "hash" = "sha512-7HhTHiOJIQoevW5CTdM/t3BGy39vOOjmXP2T+8KYx4rPYXz81BdGv0fs/gmkiC9Khzev/sbE5Ix7gLGnRGg1eQ==";
         };
+        _63Z76OZN = {
+            "id" = "63Z76OZN";
+            "file" = "foodstats-3.0.4.jar";
+            "hash" = "sha512-fX6CYm4PQFQB1dHyQM9iV6D6ZUYK1TujYiMjRp8utN29QfrWGZwMCNtp1UURe7swpmw3c2zjfxiF4UNBMO/NXQ==";
+        };
+        _qI0W284d = {
+            "id" = "qI0W284d";
+            "file" = "foodstats-3.0.0.jar";
+            "hash" = "sha512-Y1SNU+6Eu1b4utp3OlywOrUhkMU1HWkFw27zxTDvpDj0cHUuZNHfNO60ohCYSTO6S3mzDGbmSJHSMTTynBSNVw==";
+        };
     in {
         "wgz1TCm3" = _wgz1TCm3;
         "7HA6RlIU" = _7HA6RlIU;
@@ -62,8 +72,10 @@ let
         "QnydYqgX" = _QnydYqgX;
         "E2EEPSRN" = _E2EEPSRN;
         "bZ59WC83" = _bZ59WC83;
-        "forge-1.20.1" = _oQnlocJx;
-        "neoforge-1.21.1" = _bZ59WC83;
+        "63Z76OZN" = _63Z76OZN;
+        "qI0W284d" = _qI0W284d;
+        "forge-1.20.1" = _qI0W284d;
+        "neoforge-1.21.1" = _63Z76OZN;
         "pkg-2.0.0" = _wgz1TCm3;
         "pkg-2.1.0" = _7HA6RlIU;
         "pkg-2.2.0" = _hcC3luTK;
@@ -73,7 +85,9 @@ let
         "pkg-2.3.3" = _QnydYqgX;
         "pkg-3.0.2" = _E2EEPSRN;
         "pkg-3.0.3" = _bZ59WC83;
-        "default" = _bZ59WC83;
+        "pkg-3.0.4" = _63Z76OZN;
+        "pkg-forge-3.0.0" = _qI0W284d;
+        "default" = _qI0W284d;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "foodstats";

@@ -71,6 +71,11 @@ let
             "file" = "shutupdeadentities-mc26.1+1.2.jar";
             "hash" = "sha512-A4rWsF+5veIBDpeznm7UrRzgO2kAKmEL6DKPoOtzneNo1qAopNKQuQFrWCg67Y/q8BpIQuRFh+5sX1k890A/xQ==";
         };
+        _ZDmiUmUL = {
+            "id" = "ZDmiUmUL";
+            "file" = "shutupdeadentities-mc26.2+1.2.jar";
+            "hash" = "sha512-dwcMT1nsp9x4rKHGPoybcfnGAqJOGL7k3daVw/wqWp8aVz/WCty6Z9UZo9vI3SdGm37dY56wPG/7XrknLZYuuA==";
+        };
     in {
         "w35PovIi" = _w35PovIi;
         "NB2VR5Ro" = _NB2VR5Ro;
@@ -86,6 +91,7 @@ let
         "VaGyE4aE" = _VaGyE4aE;
         "QsRJqsQ7" = _QsRJqsQ7;
         "g7whBV1W" = _g7whBV1W;
+        "ZDmiUmUL" = _ZDmiUmUL;
         "fabric-1.20.4" = _NB2VR5Ro;
         "fabric-1.20.3" = _NB2VR5Ro;
         "fabric-1.19" = _Gs67rsVe;
@@ -128,10 +134,11 @@ let
         "fabric-26.1" = _g7whBV1W;
         "fabric-26.1.1" = _g7whBV1W;
         "fabric-26.1.2" = _g7whBV1W;
+        "fabric-26.2" = _ZDmiUmUL;
         "pkg-1.0" = _w35PovIi;
         "pkg-1.1" = _VaGyE4aE;
-        "pkg-1.2" = _g7whBV1W;
-        "default" = _g7whBV1W;
+        "pkg-1.2" = _ZDmiUmUL;
+        "default" = _ZDmiUmUL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shutupdeadentities";

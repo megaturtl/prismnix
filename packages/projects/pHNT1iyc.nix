@@ -566,6 +566,26 @@ let
             "file" = "tesseract-api-neoforge-1.13.4-alpha-26.1.2.jar";
             "hash" = "sha512-ykabAnycQL3vqzSLWYmshBpzarmszSc7xwIvUKgp1H1QlWwEdRWHhJ5BTTC+haU9Q3H0dzlpIuUcXpMWt8nNew==";
         };
+        _oEjTK1JB = {
+            "id" = "oEjTK1JB";
+            "file" = "tesseract-api-neoforge-1.12.14-1.21.1.jar";
+            "hash" = "sha512-cHvdd3+cysvGOOnsZqhmkPfHg+qf5pFKRJuxZNPFVd/Cecrb0RZPGaE1cCkeqVQo8tgh3YuzksNvaIPkEwfWZA==";
+        };
+        _dNGXHwcB = {
+            "id" = "dNGXHwcB";
+            "file" = "tesseract-api-neoforge-1.12.15-1.21.1.jar";
+            "hash" = "sha512-9xObPeHYK8X30JF1QymMGQySDLui5MHHCQk+Hb4+qAfsI22B/WMhiTbFTgCgihuNrEOBVX1gfP+CZ/o2K1OMYw==";
+        };
+        _QBdXDLBz = {
+            "id" = "QBdXDLBz";
+            "file" = "tesseract-api-neoforge-1.12.16-1.21.1.jar";
+            "hash" = "sha512-mqUeWY74ZFhhbIAWIt8KGNhvLE8n8De92DWxmfS5EFSDjvdSKVXGXtaylOnyPCbwYQBvhRroAuq4l6GqpdREGw==";
+        };
+        _FzrOyEX6 = {
+            "id" = "FzrOyEX6";
+            "file" = "tesseract-api-neoforge-1.13.5-alpha-26.1.2.jar";
+            "hash" = "sha512-aq/Uw9pUHtadODF/RXSdAqoK8o+Moq0L41NyHWhMJVxkNE3sCC7uCbtf/so86ne+evSW9xktK7bfl23XYVRZaA==";
+        };
     in {
         "xpdG2QyQ" = _xpdG2QyQ;
         "gYeIx7qd" = _gYeIx7qd;
@@ -680,10 +700,14 @@ let
         "taHm23d6" = _taHm23d6;
         "KirqXJ5z" = _KirqXJ5z;
         "DDRX4vxI" = _DDRX4vxI;
+        "oEjTK1JB" = _oEjTK1JB;
+        "dNGXHwcB" = _dNGXHwcB;
+        "QBdXDLBz" = _QBdXDLBz;
+        "FzrOyEX6" = _FzrOyEX6;
         "neoforge-1.20.4" = _EAkN36Zh;
         "neoforge-1.21" = _XrSPqBjK;
-        "neoforge-1.21.1" = _KirqXJ5z;
-        "neoforge-26.1.2" = _DDRX4vxI;
+        "neoforge-1.21.1" = _QBdXDLBz;
+        "neoforge-26.1.2" = _FzrOyEX6;
         "pkg-1.0.0+1.20.4" = _xpdG2QyQ;
         "pkg-1.0.1+1.20.4" = _gYeIx7qd;
         "pkg-1.0.3+1.20.4" = _zLfS1Y0C;
@@ -797,7 +821,11 @@ let
         "pkg-1.12.12-1.21.1" = _taHm23d6;
         "pkg-1.12.13-1.21.1" = _KirqXJ5z;
         "pkg-1.13.4-alpha-26.1.2" = _DDRX4vxI;
-        "default" = _DDRX4vxI;
+        "pkg-1.12.14-1.21.1" = _oEjTK1JB;
+        "pkg-1.12.15-1.21.1" = _dNGXHwcB;
+        "pkg-1.12.16-1.21.1" = _QBdXDLBz;
+        "pkg-1.13.5-alpha-26.1.2" = _FzrOyEX6;
+        "default" = _FzrOyEX6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tesseract-api";

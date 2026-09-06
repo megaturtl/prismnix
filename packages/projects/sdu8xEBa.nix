@@ -325,6 +325,12 @@ let
         "minecraft-26.2" = _jqLVL8B7;
         "minecraft-26.3-snapshot-1" = _jqLVL8B7;
         "minecraft-26.3-snapshot-2" = _jqLVL8B7;
+        "minecraft-26.3-snapshot-3" = _jqLVL8B7;
+        "minecraft-26.3-snapshot-4" = _jqLVL8B7;
+        "minecraft-26.3-snapshot-5" = _jqLVL8B7;
+        "minecraft-26.3-snapshot-6" = _jqLVL8B7;
+        "minecraft-26.3-snapshot-7" = _jqLVL8B7;
+        "minecraft-26.3-snapshot-8" = _jqLVL8B7;
         "pkg-v1" = _4bLbXZ2n;
         "pkg-v2" = _jqLVL8B7;
         "default" = _jqLVL8B7;

@@ -1121,6 +1121,106 @@ let
             "file" = "EX Pluralis 9.2.7 (26.1.2).jar";
             "hash" = "sha512-pvbQqo1Xd0GO+IEfZLV0h4A3i/nCF4QaZXdFjyx63cO/5WAM+gEyi+4qtieT4R9H/dppDoxS7D4YuR8/S2r5dQ==";
         };
+        _6aJElDkV = {
+            "id" = "6aJElDkV";
+            "file" = "EX Pluralis 9.2.8 (1.20.1).jar";
+            "hash" = "sha512-PBCdJ7uocuc4jgJSlLEHtb7RqYK3Seh2un8YzUu1trJZaBoXp5BSagIMj5E0vxVClIrQsWkbgKEaOadCLmNLHQ==";
+        };
+        _JqfCpsoG = {
+            "id" = "JqfCpsoG";
+            "file" = "EX Pluralis 9.2.8 (1.21.1).jar";
+            "hash" = "sha512-7vb5mXCey9DIO2DBxq1Zg4GuFVgNsUl1RTu+BchodKV9yik4IzNwo6ScIA8lkUt0bGM1UKmWge/xZh094SZ5Fw==";
+        };
+        _z0icVXS8 = {
+            "id" = "z0icVXS8";
+            "file" = "EX Pluralis 9.2.8 (1.21.4).jar";
+            "hash" = "sha512-Hi3nYaWjeyl1Lc58/uWeNZmTEtWuW103Y0p+GbJjVu8NkFFvLTsQgzhFBJIGKuJpFSfhoRxJhQObuwNGOLaUZA==";
+        };
+        _ZRR1SbGe = {
+            "id" = "ZRR1SbGe";
+            "file" = "EX Pluralis 9.2.8 (1.21.8).jar";
+            "hash" = "sha512-mRdMm4cOJvC8J2Zgo5kuz+8SqwzgWThNvfaua1ghVRrhDwvmkNUfzJj5BaKhvJDuqwLQAc5n3XR4orTAr8jd7A==";
+        };
+        _5wrRGZzS = {
+            "id" = "5wrRGZzS";
+            "file" = "EX Pluralis 9.2.8 (26.1.2).jar";
+            "hash" = "sha512-Gix7TUNjUDFnlxPfPzR2S8vSBRY3xSNlM4RDP7DfMdXihPAp0q+LhmvQ2BTBP6lflVSxVeP1AjAC2tqgtoGz9g==";
+        };
+        _z7qDIDB2 = {
+            "id" = "z7qDIDB2";
+            "file" = "EX Pluralis 9.2.9 (1.20.1).jar";
+            "hash" = "sha512-eDm2blly5wlEzSDWQL33lBgn+3cJLTwyKV71dP4rV/lZlAd3R3JZsdWzx4olJPy8VjrwyXf7DwiyKLCiVaSf4A==";
+        };
+        _qiV0TIkX = {
+            "id" = "qiV0TIkX";
+            "file" = "EX Pluralis 9.2.9 (1.21.1).jar";
+            "hash" = "sha512-giRYB0hvYuXYNvwUrYghLvqXneLCU2RZAto3xftA6QvXRSfa3z5/TBm0D0kBjx2zxC8r3jDi1I7kuvZqlGBr2g==";
+        };
+        _N9DySPod = {
+            "id" = "N9DySPod";
+            "file" = "EX Pluralis 9.2.9 (1.21.4).jar";
+            "hash" = "sha512-RGeoaa0yPX4lDDwS9hzj0ckCQ7d+ZD/KapqT6Q91hZTvbaTf3bhUw8YTqKPw0g6otQDvbROcA6wsvYJWObBxnQ==";
+        };
+        _SHmvqGLT = {
+            "id" = "SHmvqGLT";
+            "file" = "EX Pluralis 9.2.9 (1.21.8).jar";
+            "hash" = "sha512-kf2bfC2J82YPBfEqiItK+HFDZVCmywhIlzOlRYAUTNrfbHoBMxVxOdw0b4G9n+q3AOjNA5t93Qs8c+X7c1Lf7Q==";
+        };
+        _egC3vn8B = {
+            "id" = "egC3vn8B";
+            "file" = "EX Pluralis 9.2.9 (26.1.2).jar";
+            "hash" = "sha512-GH8PM2qSmmcxTLRQHQQS7a+OtAy4YwJSMRciJX0txM+D+JDIpc3q4ShoE4fZbX0An2J+VHtX1pSWm150jmMTPw==";
+        };
+        _nGfMZU4Z = {
+            "id" = "nGfMZU4Z";
+            "file" = "EX Pluralis 9.2.10 (1.20.1).jar";
+            "hash" = "sha512-ZtRjb3w7l7lMJ7ueWK/mJ0OKF0edCcLF7FSCgRwOv2lZAJ4lAhyVvV7TZd8fQ9YEbgcR6ZG5hAr4wCtsf90IrA==";
+        };
+        _sJhFEUcM = {
+            "id" = "sJhFEUcM";
+            "file" = "EX Pluralis 9.2.10 (1.21.1).jar";
+            "hash" = "sha512-Fz1vd/PG+Ndr7wgPaT2irNiAIgSgb5I78al6HW9Pju4bAdrTElojZW4rK3ZPClTVEkXFTjwbpUDChs3D5w8+1g==";
+        };
+        _Pf1wJOxN = {
+            "id" = "Pf1wJOxN";
+            "file" = "EX Pluralis 9.2.10 (1.21.4).jar";
+            "hash" = "sha512-moQN9P3v/30lVcXWyMf/faOoEsf534U+ljxgbYxsr+fyuTsgt5VvLYeZvf3Zw3m2VGzil18u3xMLGRLRjVdJDQ==";
+        };
+        _iLnc7Nd6 = {
+            "id" = "iLnc7Nd6";
+            "file" = "EX Pluralis 9.2.10 (1.21.8).jar";
+            "hash" = "sha512-6BZ2GBf7neEfHfHDpA9t9f8LC+t+ZFtTPZMK5Nt7E/aDv42N/1rBgEiR+O8pq+U6ijacLOTJwT+NTHkarwqcaw==";
+        };
+        _43r46pOp = {
+            "id" = "43r46pOp";
+            "file" = "EX Pluralis 9.2.10 (26.1.2).jar";
+            "hash" = "sha512-agN2spStyb//1q1w387xJCcXvn70pDoxElclOPU+/WuTyX1ein2hcK6SugGTZbAXAwQIybndra3I7FXZu1NtQg==";
+        };
+        _6bTgot2n = {
+            "id" = "6bTgot2n";
+            "file" = "EX Pluralis 9.2.11 (1.20.1).jar";
+            "hash" = "sha512-+4mp+MHk8CUEuhMbJ2yAhdDJJcXkDl3F3YlbgfEnd+yTPa1C9eOn8CJL+cs9Gdc2BzK0p6148GxPyL3om5ZloA==";
+        };
+        _5HlM2ATm = {
+            "id" = "5HlM2ATm";
+            "file" = "EX Pluralis 9.2.11 (1.21.1).jar";
+            "hash" = "sha512-MzpeQSn7HE3cs1k+ArGj7yTBE5ue8Sy1vNl3jLPmmKsUkPZA1B6OV5rItS38uCrOzYlq6M4AX+SUIh3Yk9gXqQ==";
+        };
+        _u2YE2Z9S = {
+            "id" = "u2YE2Z9S";
+            "file" = "EX Pluralis 9.2.11 (1.21.4).jar";
+            "hash" = "sha512-5BTgDnTBn+cK5FehSIJdqFPJhN1lqnJSVfPkU1fG46HnzyTPpaAi/5x+b/vdHCVipY40ZqpsC6HO4cZWiX6iAw==";
+        };
+        _UoAVmdSi = {
+            "id" = "UoAVmdSi";
+            "file" = "EX Pluralis 9.2.11 (1.21.8).jar";
+            "hash" = "sha512-NkZVTYAc/5sFqL49sZfZWpC3aCDmSyX3gxdYUXm1pw8nLTbBVqhxQI708L8k8e9PAlpgy+EEtBTdRTuC7bh0Xg==";
+        };
+        _oomeYbJ7 = {
+            "id" = "oomeYbJ7";
+            "file" = "EX Pluralis 9.2.11 (26.1.2).jar";
+            "hash" = "sha512-LHD6OmJs35KPuyudaeBR7Gj1QHxD0c+Ir/Ht5ubpjWhJ103RzOjBRKm1KKOAouj4a4xaDBU5fl89JxGYkqbBvg==";
+        };
     in {
         "lqZ43STo" = _lqZ43STo;
         "T7zLjtEH" = _T7zLjtEH;
@@ -1346,21 +1446,41 @@ let
         "d6Xdo940" = _d6Xdo940;
         "mps4oWZU" = _mps4oWZU;
         "AmO2zfnC" = _AmO2zfnC;
+        "6aJElDkV" = _6aJElDkV;
+        "JqfCpsoG" = _JqfCpsoG;
+        "z0icVXS8" = _z0icVXS8;
+        "ZRR1SbGe" = _ZRR1SbGe;
+        "5wrRGZzS" = _5wrRGZzS;
+        "z7qDIDB2" = _z7qDIDB2;
+        "qiV0TIkX" = _qiV0TIkX;
+        "N9DySPod" = _N9DySPod;
+        "SHmvqGLT" = _SHmvqGLT;
+        "egC3vn8B" = _egC3vn8B;
+        "nGfMZU4Z" = _nGfMZU4Z;
+        "sJhFEUcM" = _sJhFEUcM;
+        "Pf1wJOxN" = _Pf1wJOxN;
+        "iLnc7Nd6" = _iLnc7Nd6;
+        "43r46pOp" = _43r46pOp;
+        "6bTgot2n" = _6bTgot2n;
+        "5HlM2ATm" = _5HlM2ATm;
+        "u2YE2Z9S" = _u2YE2Z9S;
+        "UoAVmdSi" = _UoAVmdSi;
+        "oomeYbJ7" = _oomeYbJ7;
         "forge-1.19.4" = _uvIzA3ga;
         "forge-1.19.2" = _1PI9HOig;
         "forge-1.18.2" = _O1RjLteJ;
-        "forge-1.20.1" = _8i6KX1vo;
+        "forge-1.20.1" = _6bTgot2n;
         "forge-1.20.4" = _Lb1P42dU;
         "neoforge-1.20.4" = _YeMyJrY4;
         "neoforge-1.20.6" = _PJKlpy2h;
         "neoforge-1.21" = _PJKlpy2h;
-        "neoforge-1.21.1" = _MBHGknke;
+        "neoforge-1.21.1" = _5HlM2ATm;
         "neoforge-1.21.2" = _AjGFErkZ;
         "neoforge-1.21.3" = _AjGFErkZ;
-        "neoforge-1.21.4" = _d6Xdo940;
+        "neoforge-1.21.4" = _u2YE2Z9S;
         "neoforge-1.21.5" = _tzZ09iwP;
-        "neoforge-1.21.8" = _mps4oWZU;
-        "neoforge-26.1.2" = _AmO2zfnC;
+        "neoforge-1.21.8" = _UoAVmdSi;
+        "neoforge-26.1.2" = _oomeYbJ7;
         "pkg-5.6.5" = _5boVqmvV;
         "pkg-5.6.6" = _BWNDOTrO;
         "pkg-5.6.7" = _ayCiKGw0;
@@ -1408,7 +1528,11 @@ let
         "pkg-9.0.7" = _GBqbYzAK;
         "pkg-9.1.7" = _Az84urxc;
         "pkg-9.2.7" = _AmO2zfnC;
-        "default" = _AmO2zfnC;
+        "pkg-9.2.8" = _5wrRGZzS;
+        "pkg-9.2.9" = _egC3vn8B;
+        "pkg-9.2.10" = _43r46pOp;
+        "pkg-9.2.11" = _oomeYbJ7;
+        "default" = _oomeYbJ7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "several-things";

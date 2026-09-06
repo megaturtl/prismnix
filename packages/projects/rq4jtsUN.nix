@@ -31,6 +31,16 @@ let
             "file" = "gigantic-squid-1.2.jar";
             "hash" = "sha512-7IWd3crFVcIBagKYTnu/0X1zOhxRDxdALYdtpv8FDbRoUJNMTn1sdjd/BVm8jUXI8oFv+eOgEMr8WTSGqL+8ww==";
         };
+        _hQm4KJ7T = {
+            "id" = "hQm4KJ7T";
+            "file" = "Gigantic Squid.zip";
+            "hash" = "sha512-nU2a2g82gbEH4sW2d5yYY8aaVf08LpMt+qImEbYjlV8BGYEX76PG6VjgKYM6LDTNHdShag9mjKdGHj6NNm6lxA==";
+        };
+        _r1wm1hfj = {
+            "id" = "r1wm1hfj";
+            "file" = "gigantic-squid-1.2.jar";
+            "hash" = "sha512-i/XkHWmUZjxK8aSMJc2ZTgZUFvcwqNLE0XJaSYXORRVaBdT3MlaumSrfzdcw2AQE9LbCnExunr79EMo+sY9ItQ==";
+        };
     in {
         "E0vcy2uq" = _E0vcy2uq;
         "gHFLWnGV" = _gHFLWnGV;
@@ -38,6 +48,8 @@ let
         "xtTwadPG" = _xtTwadPG;
         "FEWWk4m3" = _FEWWk4m3;
         "1IQK2BnW" = _1IQK2BnW;
+        "hQm4KJ7T" = _hQm4KJ7T;
+        "r1wm1hfj" = _r1wm1hfj;
         "datapack-1.21.4" = _FEWWk4m3;
         "datapack-1.21.5" = _FEWWk4m3;
         "datapack-1.21.6" = _FEWWk4m3;
@@ -53,6 +65,7 @@ let
         "datapack-26.1.1" = _FEWWk4m3;
         "datapack-26.1.2" = _FEWWk4m3;
         "datapack-26.2" = _FEWWk4m3;
+        "datapack-26.3-pre-2" = _hQm4KJ7T;
         "fabric-1.21.4" = _1IQK2BnW;
         "fabric-1.21.5" = _1IQK2BnW;
         "fabric-1.21.6" = _1IQK2BnW;
@@ -68,6 +81,7 @@ let
         "fabric-26.1.1" = _1IQK2BnW;
         "fabric-26.1.2" = _1IQK2BnW;
         "fabric-26.2" = _1IQK2BnW;
+        "fabric-26.3-pre-2" = _r1wm1hfj;
         "forge-1.21.4" = _1IQK2BnW;
         "forge-1.21.5" = _1IQK2BnW;
         "forge-1.21.6" = _1IQK2BnW;
@@ -83,6 +97,7 @@ let
         "forge-26.1.1" = _1IQK2BnW;
         "forge-26.1.2" = _1IQK2BnW;
         "forge-26.2" = _1IQK2BnW;
+        "forge-26.3-pre-2" = _r1wm1hfj;
         "neoforge-1.21.4" = _1IQK2BnW;
         "neoforge-1.21.5" = _1IQK2BnW;
         "neoforge-1.21.6" = _1IQK2BnW;
@@ -98,6 +113,7 @@ let
         "neoforge-26.1.1" = _1IQK2BnW;
         "neoforge-26.1.2" = _1IQK2BnW;
         "neoforge-26.2" = _1IQK2BnW;
+        "neoforge-26.3-pre-2" = _r1wm1hfj;
         "quilt-1.21.4" = _1IQK2BnW;
         "quilt-1.21.5" = _1IQK2BnW;
         "quilt-1.21.6" = _1IQK2BnW;
@@ -113,13 +129,14 @@ let
         "quilt-26.1.1" = _1IQK2BnW;
         "quilt-26.1.2" = _1IQK2BnW;
         "quilt-26.2" = _1IQK2BnW;
+        "quilt-26.3-pre-2" = _r1wm1hfj;
         "pkg-1.0" = _E0vcy2uq;
         "pkg-1.0+mod" = _gHFLWnGV;
         "pkg-1.1" = _ujXz8ll6;
         "pkg-1.1+mod" = _xtTwadPG;
-        "pkg-1.2" = _FEWWk4m3;
-        "pkg-1.2+mod" = _1IQK2BnW;
-        "default" = _1IQK2BnW;
+        "pkg-1.2" = _hQm4KJ7T;
+        "pkg-1.2+mod" = _r1wm1hfj;
+        "default" = _r1wm1hfj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gigantic-squid";

@@ -1,0 +1,124 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _kXaZYnQk = {
+            "id" = "kXaZYnQk";
+            "file" = "Aurora Enhanced.zip";
+            "hash" = "sha512-KfnXOhB7SyIb3ltUQFDJ766XWhz8/nrYFXGOA1ruvgJWqxU0ZIdpAezqwLuWvlWpF7hdNu2CFOoBC2AqVv+Waw==";
+        };
+        _q0wDzLiw = {
+            "id" = "q0wDzLiw";
+            "file" = "Aurora_Enhanced_V2.zip";
+            "hash" = "sha512-Q/pyXu4Z98pTHJ13fLVIzhCS0PSEVWw22i3oGhsUlxcqqziXyolQfual5LXEO1Dyooz50ORC0G/N1TFSbXFB0g==";
+        };
+        _U0ZMYqwo = {
+            "id" = "U0ZMYqwo";
+            "file" = "Aurora Enhanced V3.zip";
+            "hash" = "sha512-rwzdrB14sH485k2+1o4EvjQ5oP4RuW2ITeqY6IgEuDxwmHGTIHqdPRBMXG7rgc4Av3ROmdg+CzeMcNGj/A0f+g==";
+        };
+    in {
+        "kXaZYnQk" = _kXaZYnQk;
+        "q0wDzLiw" = _q0wDzLiw;
+        "U0ZMYqwo" = _U0ZMYqwo;
+        "minecraft-1.19" = _kXaZYnQk;
+        "minecraft-1.19.1" = _kXaZYnQk;
+        "minecraft-1.19.2" = _kXaZYnQk;
+        "minecraft-1.19.3" = _kXaZYnQk;
+        "minecraft-1.19.4" = _kXaZYnQk;
+        "minecraft-1.20" = _U0ZMYqwo;
+        "minecraft-1.20.1" = _U0ZMYqwo;
+        "minecraft-1.20.2" = _kXaZYnQk;
+        "minecraft-1.20.3" = _kXaZYnQk;
+        "minecraft-1.20.4" = _kXaZYnQk;
+        "minecraft-1.20.5" = _kXaZYnQk;
+        "minecraft-1.20.6" = _kXaZYnQk;
+        "minecraft-1.21" = _kXaZYnQk;
+        "minecraft-1.21.1" = _kXaZYnQk;
+        "minecraft-1.21.2" = _kXaZYnQk;
+        "minecraft-1.21.3" = _kXaZYnQk;
+        "minecraft-1.21.4" = _kXaZYnQk;
+        "minecraft-1.21.5" = _kXaZYnQk;
+        "minecraft-1.21.6" = _kXaZYnQk;
+        "minecraft-1.21.7" = _kXaZYnQk;
+        "minecraft-1.21.8" = _kXaZYnQk;
+        "minecraft-1.21.9" = _kXaZYnQk;
+        "minecraft-1.21.10" = _kXaZYnQk;
+        "minecraft-1.21.11" = _kXaZYnQk;
+        "iris-1.19" = _q0wDzLiw;
+        "iris-1.19.1" = _q0wDzLiw;
+        "iris-1.19.2" = _q0wDzLiw;
+        "iris-1.19.3" = _q0wDzLiw;
+        "iris-1.19.4" = _q0wDzLiw;
+        "iris-1.20" = _q0wDzLiw;
+        "iris-1.20.1" = _q0wDzLiw;
+        "iris-1.20.2" = _q0wDzLiw;
+        "iris-1.20.3" = _q0wDzLiw;
+        "iris-1.20.4" = _q0wDzLiw;
+        "iris-1.20.5" = _q0wDzLiw;
+        "iris-1.20.6" = _q0wDzLiw;
+        "iris-1.21" = _q0wDzLiw;
+        "iris-1.21.1" = _q0wDzLiw;
+        "iris-1.21.2" = _q0wDzLiw;
+        "iris-1.21.3" = _q0wDzLiw;
+        "iris-1.21.4" = _q0wDzLiw;
+        "iris-1.21.5" = _q0wDzLiw;
+        "iris-1.21.6" = _q0wDzLiw;
+        "iris-1.21.7" = _q0wDzLiw;
+        "iris-1.21.8" = _q0wDzLiw;
+        "iris-1.21.9" = _q0wDzLiw;
+        "iris-1.21.10" = _q0wDzLiw;
+        "iris-1.21.11" = _q0wDzLiw;
+        "iris-26.1" = _q0wDzLiw;
+        "iris-26.1.1" = _q0wDzLiw;
+        "iris-26.1.2" = _q0wDzLiw;
+        "iris-26.2" = _q0wDzLiw;
+        "optifine-1.19" = _q0wDzLiw;
+        "optifine-1.19.1" = _q0wDzLiw;
+        "optifine-1.19.2" = _q0wDzLiw;
+        "optifine-1.19.3" = _q0wDzLiw;
+        "optifine-1.19.4" = _q0wDzLiw;
+        "optifine-1.20" = _q0wDzLiw;
+        "optifine-1.20.1" = _q0wDzLiw;
+        "optifine-1.20.2" = _q0wDzLiw;
+        "optifine-1.20.3" = _q0wDzLiw;
+        "optifine-1.20.4" = _q0wDzLiw;
+        "optifine-1.20.5" = _q0wDzLiw;
+        "optifine-1.20.6" = _q0wDzLiw;
+        "optifine-1.21" = _q0wDzLiw;
+        "optifine-1.21.1" = _q0wDzLiw;
+        "optifine-1.21.2" = _q0wDzLiw;
+        "optifine-1.21.3" = _q0wDzLiw;
+        "optifine-1.21.4" = _q0wDzLiw;
+        "optifine-1.21.5" = _q0wDzLiw;
+        "optifine-1.21.6" = _q0wDzLiw;
+        "optifine-1.21.7" = _q0wDzLiw;
+        "optifine-1.21.8" = _q0wDzLiw;
+        "optifine-1.21.9" = _q0wDzLiw;
+        "optifine-1.21.10" = _q0wDzLiw;
+        "optifine-1.21.11" = _q0wDzLiw;
+        "optifine-26.1" = _q0wDzLiw;
+        "optifine-26.1.1" = _q0wDzLiw;
+        "optifine-26.1.2" = _q0wDzLiw;
+        "optifine-26.2" = _q0wDzLiw;
+        "pkg-V1" = _kXaZYnQk;
+        "pkg-2" = _q0wDzLiw;
+        "pkg-3" = _U0ZMYqwo;
+        "default" = _U0ZMYqwo;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "cinematic-villa";
+        id = "xFrc4NPo";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

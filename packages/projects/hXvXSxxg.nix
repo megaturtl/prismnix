@@ -31,6 +31,16 @@ let
             "file" = "MobsBeGone-0.0.7.jar";
             "hash" = "sha512-zLU2EN5tR32lowf3XnTE7GiYSv/wDppEl91MnHfS1r/VWXPrx2AQKk5qk8DKxB+w9cK3rsA+XIJM329seEfvvQ==";
         };
+        _JUGWFh0E = {
+            "id" = "JUGWFh0E";
+            "file" = "MobsBeGone-0.0.8.jar";
+            "hash" = "sha512-2sE2MFAuSQw5edikd0SsUeIanswh8NzXEcN0k6znPM4c5eihwH5pw8tPXjuDdrj3fmrYNB8c+UBmFo5LV6KYZA==";
+        };
+        _ZGbHcluC = {
+            "id" = "ZGbHcluC";
+            "file" = "MobsBeGone-0.0.9.jar";
+            "hash" = "sha512-eRUssK6Tj/M5FFqlsW5NckFcJqyGkfNVBMWutPFyN6HB3x6lqQlZUqhS5OHoiWqiSuue9n6ucazYnVvpsozGBQ==";
+        };
     in {
         "w5CcmFfx" = _w5CcmFfx;
         "SnRrFnIn" = _SnRrFnIn;
@@ -38,14 +48,18 @@ let
         "MHuIm6kS" = _MHuIm6kS;
         "NRoxHmmM" = _NRoxHmmM;
         "B5tawRRL" = _B5tawRRL;
-        "fabric-1.21.1" = _B5tawRRL;
+        "JUGWFh0E" = _JUGWFh0E;
+        "ZGbHcluC" = _ZGbHcluC;
+        "fabric-1.21.1" = _ZGbHcluC;
         "pkg-0.0.1" = _w5CcmFfx;
         "pkg-0.0.2" = _SnRrFnIn;
         "pkg-0.0.3" = _iNIY65ph;
         "pkg-0.0.5" = _MHuIm6kS;
         "pkg-0.0.6" = _NRoxHmmM;
         "pkg-0.0.7" = _B5tawRRL;
-        "default" = _B5tawRRL;
+        "pkg-0.0.8" = _JUGWFh0E;
+        "pkg-0.0.9" = _ZGbHcluC;
+        "default" = _ZGbHcluC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mobsbegone";

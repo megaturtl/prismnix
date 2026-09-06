@@ -21,19 +21,27 @@ let
             "file" = "colouredstuff-1.21.1-1.3.4.jar";
             "hash" = "sha512-3s4zmhcx5G/7XGt4gE+DFog65ZEsHLxAz7AOguvyJfcGqbTWj6Jbx5kO9XCSwpwXr5kJUKsKPRD6kEwEEvb9Ug==";
         };
+        _lYZfPhLY = {
+            "id" = "lYZfPhLY";
+            "file" = "colouredstuff-26.1.2-1.3.4.jar";
+            "hash" = "sha512-2/1yv++0w0QLyEfQkIZM5d7QAYNOK4pNIOXoPWAu9DQ1uRmQvXMYsyZ9YmKruuITUEBCpN3bPx3dfLvIYgVrQw==";
+        };
     in {
         "8N4RsN9s" = _8N4RsN9s;
         "QmPVYW0n" = _QmPVYW0n;
         "YzFrD3ut" = _YzFrD3ut;
         "nK0i4tyR" = _nK0i4tyR;
+        "lYZfPhLY" = _lYZfPhLY;
         "forge-1.20.1" = _YzFrD3ut;
         "neoforge-1.20.1" = _YzFrD3ut;
         "neoforge-1.21.1" = _nK0i4tyR;
+        "neoforge-26.1.2" = _lYZfPhLY;
         "pkg-1.20.1-1.3.0" = _8N4RsN9s;
         "pkg-1.20.1-1.3.3" = _QmPVYW0n;
         "pkg-1.20.1-1.3.4" = _YzFrD3ut;
         "pkg-1.21.1-1.3.4" = _nK0i4tyR;
-        "default" = _nK0i4tyR;
+        "pkg-26.1.2-1.3.4" = _lYZfPhLY;
+        "default" = _lYZfPhLY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "coloured-stuff";

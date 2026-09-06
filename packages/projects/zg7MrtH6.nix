@@ -56,6 +56,16 @@ let
             "file" = "villagertradestats-2.0.0+26.1-26.1.2.jar";
             "hash" = "sha512-8tcznv6P29J+keGyDMTqljkFErtZRtCXRx8ldsIkI5psTHnWuSrvePEUnjoH+D2iWM11qs6TbYj9W9rAOltMwQ==";
         };
+        _zuGqX3ET = {
+            "id" = "zuGqX3ET";
+            "file" = "villagertradestats-3.0.0+26.2.jar";
+            "hash" = "sha512-h9PHgYlgJ2ZBLzWeZaQ+NLQyux6FjN2DZ5rCIyfK6iTJVw31MNipmGyQ0E9TvABpwv4eBM+sGmpidBUkXy+6uw==";
+        };
+        _gt59jsat = {
+            "id" = "gt59jsat";
+            "file" = "villagertradestats-3.0.0+1.21.11.jar";
+            "hash" = "sha512-0gvkwyq/FYxKx/Fs6TEaPh0HzD9ZjVZusdlIv7EbW1eD18rW58b0YXqxkv+uL/vsWnYH/ji5c41yy0GFf6Wu0A==";
+        };
     in {
         "XdfCqTau" = _XdfCqTau;
         "ypAzwn25" = _ypAzwn25;
@@ -68,6 +78,8 @@ let
         "iYl6lfgO" = _iYl6lfgO;
         "HwGu1LFL" = _HwGu1LFL;
         "F3W44wbA" = _F3W44wbA;
+        "zuGqX3ET" = _zuGqX3ET;
+        "gt59jsat" = _gt59jsat;
         "fabric-1.21.1" = _XdfCqTau;
         "fabric-1.21.5" = _wPACQR52;
         "fabric-1.21.4" = _wPACQR52;
@@ -76,12 +88,13 @@ let
         "fabric-1.21.8" = _4oSYgxuC;
         "fabric-1.21.9" = _HwGu1LFL;
         "fabric-1.21.10" = _AWjuIx7T;
-        "fabric-1.21.11" = _iYl6lfgO;
+        "fabric-1.21.11" = _gt59jsat;
         "fabric-1.21.2" = _wPACQR52;
         "fabric-1.21.3" = _wPACQR52;
         "fabric-26.1" = _F3W44wbA;
         "fabric-26.1.1" = _F3W44wbA;
         "fabric-26.1.2" = _F3W44wbA;
+        "fabric-26.2" = _zuGqX3ET;
         "pkg-1.0.0+1.21.1" = _XdfCqTau;
         "pkg-1.0.0+1.21.5" = _ypAzwn25;
         "pkg-1.0.0+1.21.4" = _b76p1QNZ;
@@ -93,7 +106,9 @@ let
         "pkg-2.0.0+1.21.11" = _iYl6lfgO;
         "pkg-2.0.0+1.21.9" = _HwGu1LFL;
         "pkg-2.0.0+26.1-26.1.2" = _F3W44wbA;
-        "default" = _F3W44wbA;
+        "pkg-3.0.0+26.2" = _zuGqX3ET;
+        "pkg-3.0.0+1.21.11" = _gt59jsat;
+        "default" = _gt59jsat;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villagertradestats";

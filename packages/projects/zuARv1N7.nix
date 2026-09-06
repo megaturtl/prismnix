@@ -601,6 +601,66 @@ let
             "file" = "vista-fabric-1.21.1-5.2.5.jar";
             "hash" = "sha512-Y4d/ULbx9XmdUIqX75alC4XCotDAqN1gifW3jD64i6ZTlV5TrCpOw4HP9TCl7ciDji+1Cx0kBWtfCBaL974J/Q==";
         };
+        _QR5stuX8 = {
+            "id" = "QR5stuX8";
+            "file" = "vista-1.21.1-5.3.0-neoforge.jar";
+            "hash" = "sha512-rcRB66w8iNVZGfIIDeTlM3pCiWNNSgIJfy/7FLYg+zlu28BwfjhWOKTsrmy0TTxHBZXvZsQdjt99v8Ix8axU9Q==";
+        };
+        _xKTlLOv9 = {
+            "id" = "xKTlLOv9";
+            "file" = "vista-1.21.1-5.3.0-fabric.jar";
+            "hash" = "sha512-7yV5KXOm+982VXefPLaQUJ9zw+M4cfq2ukZBpG6SqUeWW6wHyyfX2aZQn95+d1yVzso0wltBDdM5rfqH557gpA==";
+        };
+        _wAqTP1F6 = {
+            "id" = "wAqTP1F6";
+            "file" = "vista-1.21.1-5.3.3-fabric.jar";
+            "hash" = "sha512-0nt3Zmil8QtIhfEdASkUdhgNtYTHHiKKjwRt+LxuulL/+IWQTxW0zq8X1PBX6HM3sIFfBRCnTfj3yCpuAOkZ9g==";
+        };
+        _lNHal75A = {
+            "id" = "lNHal75A";
+            "file" = "vista-1.21.1-5.3.4-fabric.jar";
+            "hash" = "sha512-cYVEzICfnewt7gDdUuOibUf+fnqYyOqoBGLA2YxMRkmbsO6VDVpxpycm79peJPkiNZOI9y5ZXHW2R14z8GelHA==";
+        };
+        _pWThUjU7 = {
+            "id" = "pWThUjU7";
+            "file" = "vista-1.21.1-5.3.4-neoforge.jar";
+            "hash" = "sha512-b6mQCGnTjaVpg+e4bG0LhomhNY+zTtINBDq5YhbbIr4wxZmfultBc7OtKKwdf3BPXFCKfSUjVGskftQh/RjjgA==";
+        };
+        _Ka1U98A2 = {
+            "id" = "Ka1U98A2";
+            "file" = "vista-1.21.1-5.3.6-fabric.jar";
+            "hash" = "sha512-wso0jm7lFpcel5vuuZ/cOZj7hSO2Y2bAJzVdOrmi4ktOkB4KF5AQkUExs02T0Ad6WTfXY8Vs32UkG6vOlLSm8A==";
+        };
+        _GOve5xvO = {
+            "id" = "GOve5xvO";
+            "file" = "vista-1.21.1-5.3.6-neoforge.jar";
+            "hash" = "sha512-mZFoLxj+gBJSRcfSDfCODFUmxuOMQAFRL6F0GmQG/HOJW5sKD32BrQH+BNld39gpDU+XBlA4qOmy7Gf0M7AzRg==";
+        };
+        _yOyEFL6U = {
+            "id" = "yOyEFL6U";
+            "file" = "vista-1.21.1-5.3.7-neoforge.jar";
+            "hash" = "sha512-PfCeX7+ty2RRlwnGXM5sqU0+3kPlW86pHKlL1j28pmCCQjvSfTMGR+Cl2YhbmWoDZw9la8/XwprMHQJqNBL/UA==";
+        };
+        _XYrvTXjp = {
+            "id" = "XYrvTXjp";
+            "file" = "vista-1.21.1-5.4.3-neoforge.jar";
+            "hash" = "sha512-23StV9paPlmfROcOW3ig4RZhs4ENuvrnVETplWQAB7QoJqhrZswTqJQEbDzZ1L+OeL6MGrWe+45pqwaZAEygIw==";
+        };
+        _mYqA1EHO = {
+            "id" = "mYqA1EHO";
+            "file" = "vista-1.21.1-5.4.3-fabric.jar";
+            "hash" = "sha512-LZjgT/zFshVlQOJpPbxJjiDidx4L4awGgwT7Jw5csus1yd1evBjvmxkmrzrWqNR8/vwWyBXcFRkU4v+fxvXChw==";
+        };
+        _XFKsvpxn = {
+            "id" = "XFKsvpxn";
+            "file" = "vista-1.21.1-5.4.4-fabric.jar";
+            "hash" = "sha512-yxGWenfyxc37NZ1MyYks+Xg7j0dI4hy4f5e8v99YP5cLMqs3Efl5KjCqf1FFG2r+sg2LJcdmIzGIF3Nt1QiPQw==";
+        };
+        _lRpm2YCs = {
+            "id" = "lRpm2YCs";
+            "file" = "vista-1.21.1-5.4.4-neoforge.jar";
+            "hash" = "sha512-omEG+yIPcaCeW3gX91eVLwtf8nfSopz84HJV0wemgL3egVjMwP+pMRNW5woSWybthSFqlBiqGV/UfcSKSxXdYA==";
+        };
     in {
         "1Xue2jMa" = _1Xue2jMa;
         "qd1P5p2t" = _qd1P5p2t;
@@ -722,11 +782,23 @@ let
         "rg3RXkRu" = _rg3RXkRu;
         "r6IGPoXU" = _r6IGPoXU;
         "WKzJXLku" = _WKzJXLku;
+        "QR5stuX8" = _QR5stuX8;
+        "xKTlLOv9" = _xKTlLOv9;
+        "wAqTP1F6" = _wAqTP1F6;
+        "lNHal75A" = _lNHal75A;
+        "pWThUjU7" = _pWThUjU7;
+        "Ka1U98A2" = _Ka1U98A2;
+        "GOve5xvO" = _GOve5xvO;
+        "yOyEFL6U" = _yOyEFL6U;
+        "XYrvTXjp" = _XYrvTXjp;
+        "mYqA1EHO" = _mYqA1EHO;
+        "XFKsvpxn" = _XFKsvpxn;
+        "lRpm2YCs" = _lRpm2YCs;
         "fabric-1.21" = _1Xue2jMa;
-        "fabric-1.21.1" = _WKzJXLku;
+        "fabric-1.21.1" = _XFKsvpxn;
         "fabric-1.20.1" = _7ApkNrsx;
         "neoforge-1.21" = _qd1P5p2t;
-        "neoforge-1.21.1" = _r6IGPoXU;
+        "neoforge-1.21.1" = _lRpm2YCs;
         "forge-1.20.1" = _MlNtZuIX;
         "pkg-1.21-1.0.9" = _qd1P5p2t;
         "pkg-1.21-2.0.1-fabric" = _L6kSJ66O;
@@ -819,7 +891,14 @@ let
         "pkg-1.21.1-5.2.2" = _C8s2mi5J;
         "pkg-1.21.1-5.2.3" = _rg3RXkRu;
         "pkg-1.21.1-5.2.5" = _WKzJXLku;
-        "default" = _WKzJXLku;
+        "pkg-1.21.1-5.3.0" = _xKTlLOv9;
+        "pkg-1.21.1-5.3.3" = _wAqTP1F6;
+        "pkg-1.21.1-5.3.4" = _pWThUjU7;
+        "pkg-1.21.1-5.3.6" = _GOve5xvO;
+        "pkg-1.21.1-5.3.7" = _yOyEFL6U;
+        "pkg-1.21.1-5.4.3" = _mYqA1EHO;
+        "pkg-1.21.1-5.4.4" = _lRpm2YCs;
+        "default" = _lRpm2YCs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vista_tv";

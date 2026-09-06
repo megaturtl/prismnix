@@ -156,6 +156,26 @@ let
             "file" = "Shimmer-fabric-1.20.1-0.2.4.jar";
             "hash" = "sha512-kwgOuqU4BInb/fajKEpzSnYBKkD37CQx1+d2ohPQ/BLUJXr3E1pPRL9Z3Q2a09IJ2G5BxdufVAZMvvjzUAJo4A==";
         };
+        _GFXZjoNJ = {
+            "id" = "GFXZjoNJ";
+            "file" = "Shimmer-fabric-1.20.1-0.2.4.jar";
+            "hash" = "sha512-bRiY2WQ+WMX6tPkZw6Y++Wqwqg37oCsWZeMnYRTtkIgtHnBvC+6rhagQiBJDo76GikQlc36fCh6+f/mrsQd9kg==";
+        };
+        _dFbF86Rb = {
+            "id" = "dFbF86Rb";
+            "file" = "Shimmer-forge-1.20.1-0.2.4.jar";
+            "hash" = "sha512-d1cYtqJ4bdr+xI9Q5n3t0kuvm9p9BmvUuYUmbU8tDKaCdLKptCXSWNEg0Ur6w9UsRvk0YyC7idtFC2yT6RoMXQ==";
+        };
+        _BeAfFYQQ = {
+            "id" = "BeAfFYQQ";
+            "file" = "Shimmer-forge-1.20.1-0.3.0.jar";
+            "hash" = "sha512-4IyjNZv7TibHxETjCOuDfdw2OUtdJWyy+zIepKfyY7l7sRrTsp2uunFQJHBAR1fBiEN00rfLXn+y42wGb/uP8g==";
+        };
+        _U7W7ZFsM = {
+            "id" = "U7W7ZFsM";
+            "file" = "Shimmer-fabric-1.20.1-0.3.0.jar";
+            "hash" = "sha512-G+GO759BVMKV2/obDG970WpUGVralCd+ON9iNuUCF7in/zMrIqub6VOVl+TrJW8pB80SD5fMk2rgKUrl/tbckw==";
+        };
     in {
         "s6KDUomM" = _s6KDUomM;
         "lqJJXRfH" = _lqJJXRfH;
@@ -188,26 +208,30 @@ let
         "SMEvXMae" = _SMEvXMae;
         "za2dJzYV" = _za2dJzYV;
         "VEc2s37H" = _VEc2s37H;
-        "fabric-1.20" = _VEc2s37H;
+        "GFXZjoNJ" = _GFXZjoNJ;
+        "dFbF86Rb" = _dFbF86Rb;
+        "BeAfFYQQ" = _BeAfFYQQ;
+        "U7W7ZFsM" = _U7W7ZFsM;
+        "fabric-1.20" = _U7W7ZFsM;
         "fabric-1.19.4" = _SMEvXMae;
         "fabric-1.19.2" = _QNETiSHZ;
         "fabric-1.18.2" = _xgN0NZ8k;
-        "fabric-1.20.1" = _VEc2s37H;
-        "fabric-1.20.2" = _VEc2s37H;
-        "fabric-1.20.3" = _VEc2s37H;
-        "fabric-1.20.4" = _VEc2s37H;
-        "fabric-1.20.5" = _VEc2s37H;
-        "fabric-1.20.6" = _VEc2s37H;
-        "forge-1.20" = _za2dJzYV;
+        "fabric-1.20.1" = _U7W7ZFsM;
+        "fabric-1.20.2" = _U7W7ZFsM;
+        "fabric-1.20.3" = _U7W7ZFsM;
+        "fabric-1.20.4" = _U7W7ZFsM;
+        "fabric-1.20.5" = _U7W7ZFsM;
+        "fabric-1.20.6" = _U7W7ZFsM;
+        "forge-1.20" = _BeAfFYQQ;
         "forge-1.19.4" = _AGQQwF6X;
         "forge-1.19.2" = _LNm5tirl;
         "forge-1.18.2" = _vYY4WCXS;
-        "forge-1.20.1" = _za2dJzYV;
-        "forge-1.20.2" = _za2dJzYV;
-        "forge-1.20.3" = _za2dJzYV;
-        "forge-1.20.4" = _za2dJzYV;
-        "forge-1.20.5" = _za2dJzYV;
-        "forge-1.20.6" = _za2dJzYV;
+        "forge-1.20.1" = _BeAfFYQQ;
+        "forge-1.20.2" = _BeAfFYQQ;
+        "forge-1.20.3" = _BeAfFYQQ;
+        "forge-1.20.4" = _BeAfFYQQ;
+        "forge-1.20.5" = _BeAfFYQQ;
+        "forge-1.20.6" = _BeAfFYQQ;
         "pkg-1.20-0.1.15" = _JnmRkCHn;
         "pkg-1.19.4-0.1.15" = _N4hOecUj;
         "pkg-1.19.2-0.1.14" = _T1BIIXjZ;
@@ -221,10 +245,11 @@ let
         "pkg-1.20.1-0.2.1" = _UJv7ipyy;
         "pkg-1.20.1-0.2.2" = _f8bPkm6r;
         "pkg-1.20.1-0.2.3" = _zh7cZkGa;
-        "pkg-1.20.1-0.2.4" = _VEc2s37H;
+        "pkg-1.20.1-0.2.4" = _dFbF86Rb;
         "pkg-1.19.2-0.2.5" = _QNETiSHZ;
         "pkg-1.19.4-0.2.5" = _SMEvXMae;
-        "default" = _VEc2s37H;
+        "pkg-1.20.1-0.3.0" = _U7W7ZFsM;
+        "default" = _U7W7ZFsM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shimmer!";

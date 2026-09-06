@@ -56,6 +56,11 @@ let
             "file" = "theboys-1.21.1-neoforge-1.0.0.jar";
             "hash" = "sha512-D0L6njSw6JUqP0IoYzyW74LJ61k+PONBhKUOFoyLS0KpN0d5/L+p78sD4gfixacbGm4SYPU2sBhhVlmd4x98sg==";
         };
+        _5mB2h3Rq = {
+            "id" = "5mB2h3Rq";
+            "file" = "theboys-1.21.1-neoforge-1.0.1.jar";
+            "hash" = "sha512-MXwjlNjup3gDvp0xVRJaVcZpjivZajknLRj2eHx3JZbRb5mmOLrZSw7/a89q2mdzYYrA1JRbMTvOk7c5pmeesQ==";
+        };
     in {
         "JoL1BrX9" = _JoL1BrX9;
         "RDY6IJdM" = _RDY6IJdM;
@@ -68,12 +73,13 @@ let
         "Zpxpkk87" = _Zpxpkk87;
         "uACZVgb7" = _uACZVgb7;
         "yPHxf4WX" = _yPHxf4WX;
+        "5mB2h3Rq" = _5mB2h3Rq;
         "fabric-1.20.4" = _JoL1BrX9;
         "fabric-1.20.1" = _RDY6IJdM;
         "fabric-1.21.1" = _uACZVgb7;
         "fabric-1.21.4" = _Zpxpkk87;
         "fabric-1.21.10" = _Wx5bmCoa;
-        "neoforge-1.21.1" = _yPHxf4WX;
+        "neoforge-1.21.1" = _5mB2h3Rq;
         "pkg-1.0.0" = _JoL1BrX9;
         "pkg-1.20.1-1.0" = _RDY6IJdM;
         "pkg-1.21.1-1.0.0" = _uACZVgb7;
@@ -83,7 +89,8 @@ let
         "pkg-1.21.10-1.0.3" = _Wx5bmCoa;
         "pkg-1.21.4-1.0.3" = _Zpxpkk87;
         "pkg-1.21.1-neoforge-1.0.0" = _yPHxf4WX;
-        "default" = _yPHxf4WX;
+        "pkg-1.21.1-neoforge-1.0.1" = _5mB2h3Rq;
+        "default" = _5mB2h3Rq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-boys-mod";

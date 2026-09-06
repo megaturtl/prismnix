@@ -376,6 +376,16 @@ let
             "file" = "anvianslib-neoforge-1.20.2-1.4.2.jar";
             "hash" = "sha512-XaijxHx2+jhDB4oFTMoPSPn15Hzwmb42noDPnGEZulUdIZtpW7MtSAI6uN/6J/pIwCeTNOOgmUEWq0lVSsRTrg==";
         };
+        _yF1sty8C = {
+            "id" = "yF1sty8C";
+            "file" = "anvianslib-fabric-26.1-1.5.0.jar";
+            "hash" = "sha512-cVrDfCCXtKXkZM1xpa5FzkI71JNdjF1wY5EW3P4dlgco3KKqbCRX2hbX3O0lVQipmBTxtvD8r/Bg/uRwCBzXrw==";
+        };
+        _HLoFZCLI = {
+            "id" = "HLoFZCLI";
+            "file" = "anvianslib-neoforge-26.1-1.5.0.jar";
+            "hash" = "sha512-H2ouuZuDijVA028Eh4k0bAvwgLm1vj8+eqtVtKoN23CE+W5HTJWJcGgsltQmkVLo44Fc7RGfLjcaNSuDP/WnFA==";
+        };
     in {
         "LNW9EwSK" = _LNW9EwSK;
         "zBt5vL2g" = _zBt5vL2g;
@@ -452,6 +462,8 @@ let
         "AjIzEnXQ" = _AjIzEnXQ;
         "oBJysVkI" = _oBJysVkI;
         "iWh9iiwY" = _iWh9iiwY;
+        "yF1sty8C" = _yF1sty8C;
+        "HLoFZCLI" = _HLoFZCLI;
         "forge-1.21" = _JeYBsCnq;
         "forge-1.21.1" = _JeYBsCnq;
         "forge-1.21.2" = _JeYBsCnq;
@@ -491,10 +503,10 @@ let
         "neoforge-1.21.9" = _jQfOCUGg;
         "neoforge-1.21.10" = _jQfOCUGg;
         "neoforge-1.21.11" = _jQfOCUGg;
-        "neoforge-26.1" = _QELUpiMh;
-        "neoforge-26.1.1" = _QELUpiMh;
-        "neoforge-26.1.2" = _QELUpiMh;
-        "neoforge-26.2" = _QELUpiMh;
+        "neoforge-26.1" = _HLoFZCLI;
+        "neoforge-26.1.1" = _HLoFZCLI;
+        "neoforge-26.1.2" = _HLoFZCLI;
+        "neoforge-26.2" = _HLoFZCLI;
         "neoforge-1.20.2" = _iWh9iiwY;
         "neoforge-1.20.3" = _iWh9iiwY;
         "fabric-1.21" = _AqotrEdS;
@@ -521,10 +533,10 @@ let
         "fabric-1.21.9" = _sxNNgRCw;
         "fabric-1.21.10" = _sxNNgRCw;
         "fabric-1.21.11" = _sxNNgRCw;
-        "fabric-26.1" = _dlJ8gvKs;
-        "fabric-26.1.1" = _dlJ8gvKs;
-        "fabric-26.1.2" = _dlJ8gvKs;
-        "fabric-26.2" = _dlJ8gvKs;
+        "fabric-26.1" = _yF1sty8C;
+        "fabric-26.1.1" = _yF1sty8C;
+        "fabric-26.1.2" = _yF1sty8C;
+        "fabric-26.2" = _yF1sty8C;
         "quilt-1.21" = _AqotrEdS;
         "quilt-1.21.1" = _AqotrEdS;
         "quilt-1.21.2" = _AqotrEdS;
@@ -549,10 +561,10 @@ let
         "quilt-1.21.9" = _sxNNgRCw;
         "quilt-1.21.10" = _sxNNgRCw;
         "quilt-1.21.11" = _sxNNgRCw;
-        "quilt-26.1" = _dlJ8gvKs;
-        "quilt-26.1.1" = _dlJ8gvKs;
-        "quilt-26.1.2" = _dlJ8gvKs;
-        "quilt-26.2" = _dlJ8gvKs;
+        "quilt-26.1" = _yF1sty8C;
+        "quilt-26.1.1" = _yF1sty8C;
+        "quilt-26.1.2" = _yF1sty8C;
+        "quilt-26.2" = _yF1sty8C;
         "pkg-1.0" = _hNn0TgHp;
         "pkg-1.1" = _FUHl4aFg;
         "pkg-1.2" = _eZR78shw;
@@ -562,7 +574,8 @@ let
         "pkg-1.4.1" = _vrGYM1ym;
         "pkg-1.4" = _WiNn6Sxm;
         "pkg-1.4.2" = _iWh9iiwY;
-        "default" = _iWh9iiwY;
+        "pkg-1.5.0" = _HLoFZCLI;
+        "default" = _HLoFZCLI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "anvians-lib";

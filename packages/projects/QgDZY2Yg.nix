@@ -51,6 +51,11 @@ let
             "file" = "modelbrowser-1.4.1-beta.jar";
             "hash" = "sha512-6k7hnBXoZd1KnhWRbaq4+T2Q1TNvwDMQHCHAK49nu4DxuZGjpZUeysyDl2N5+JlBEReczD0y10AH91vZ/pG5xw==";
         };
+        _hfn55GDh = {
+            "id" = "hfn55GDh";
+            "file" = "modelbrowser-1.5.0.jar";
+            "hash" = "sha512-CCJgctINfsDEmYEUjSkkEHynonu7Cw6XzpOzOb6rbJUvlmjx+0tniIHsmAis9K0Q6kfLzk24tyevBrTM5szPxg==";
+        };
     in {
         "4QGqS8fk" = _4QGqS8fk;
         "gYtsD9OG" = _gYtsD9OG;
@@ -62,12 +67,13 @@ let
         "sRYtnJzb" = _sRYtnJzb;
         "fLjDYoxz" = _fLjDYoxz;
         "bV8aCOa4" = _bV8aCOa4;
+        "hfn55GDh" = _hfn55GDh;
         "fabric-1.21.10" = _GffsQXPi;
         "fabric-1.21.11" = _sRYtnJzb;
         "fabric-26.1" = _fLjDYoxz;
         "fabric-26.1.1" = _fLjDYoxz;
         "fabric-26.1.2" = _fLjDYoxz;
-        "fabric-26.2" = _bV8aCOa4;
+        "fabric-26.2" = _hfn55GDh;
         "pkg-1.0.0" = _4QGqS8fk;
         "pkg-1.0.1" = _gYtsD9OG;
         "pkg-1.2.0" = _8hK4YlEg;
@@ -78,7 +84,8 @@ let
         "pkg-1.3.2" = _sRYtnJzb;
         "pkg-1.4.0-beta" = _fLjDYoxz;
         "pkg-1.4.1-beta" = _bV8aCOa4;
-        "default" = _bV8aCOa4;
+        "pkg-1.5.0" = _hfn55GDh;
+        "default" = _hfn55GDh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "model-browser";

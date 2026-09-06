@@ -47,6 +47,7 @@ let
         "datapack-26.1" = _EYdDXZIP;
         "datapack-26.1.1" = _EYdDXZIP;
         "datapack-26.1.2" = _EYdDXZIP;
+        "datapack-26.2" = _EYdDXZIP;
         "fabric-1.21" = _s61dieLb;
         "fabric-1.21.1" = _s61dieLb;
         "fabric-1.21.2" = _uCkwBWEJ;
@@ -62,6 +63,7 @@ let
         "fabric-26.1" = _uCkwBWEJ;
         "fabric-26.1.1" = _uCkwBWEJ;
         "fabric-26.1.2" = _uCkwBWEJ;
+        "fabric-26.2" = _uCkwBWEJ;
         "forge-1.21" = _s61dieLb;
         "forge-1.21.1" = _s61dieLb;
         "forge-1.21.2" = _uCkwBWEJ;
@@ -77,6 +79,7 @@ let
         "forge-26.1" = _uCkwBWEJ;
         "forge-26.1.1" = _uCkwBWEJ;
         "forge-26.1.2" = _uCkwBWEJ;
+        "forge-26.2" = _uCkwBWEJ;
         "quilt-1.21" = _s61dieLb;
         "quilt-1.21.1" = _s61dieLb;
         "quilt-1.21.2" = _uCkwBWEJ;
@@ -92,6 +95,7 @@ let
         "quilt-26.1" = _uCkwBWEJ;
         "quilt-26.1.1" = _uCkwBWEJ;
         "quilt-26.1.2" = _uCkwBWEJ;
+        "quilt-26.2" = _uCkwBWEJ;
         "neoforge-1.21.2" = _uCkwBWEJ;
         "neoforge-1.21.3" = _uCkwBWEJ;
         "neoforge-1.21.4" = _uCkwBWEJ;
@@ -105,6 +109,7 @@ let
         "neoforge-26.1" = _uCkwBWEJ;
         "neoforge-26.1.1" = _uCkwBWEJ;
         "neoforge-26.1.2" = _uCkwBWEJ;
+        "neoforge-26.2" = _uCkwBWEJ;
         "neoforge-1.21" = _s61dieLb;
         "neoforge-1.21.1" = _s61dieLb;
         "pkg-1.0-1.21" = _155Hig0d;

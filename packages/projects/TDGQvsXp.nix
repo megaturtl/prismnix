@@ -121,6 +121,11 @@ let
             "file" = "health-levels-1.0.23.jar";
             "hash" = "sha512-FlQvl81lonXVJK8bW+INhJZ1lJ+zTG3E041gY/o2SclZvAVc+d7IB1haNFb+vxaN+fVPdTZVMd/lY2LnEZmkoA==";
         };
+        _tkJhS4xi = {
+            "id" = "tkJhS4xi";
+            "file" = "health-levels-1.0.24.jar";
+            "hash" = "sha512-+fcoj294fErm4w6Tf2AvAbQsUVsjbokX3HnCRauMyaX8/bMxDvfcf1ubxCNkh1BiN5fUKDGGRzfkS1HY4+avbQ==";
+        };
     in {
         "2i754Pcx" = _2i754Pcx;
         "4qzlMC4Y" = _4qzlMC4Y;
@@ -146,6 +151,7 @@ let
         "XZ8rpE5l" = _XZ8rpE5l;
         "zyd0xXzt" = _zyd0xXzt;
         "eu106VfS" = _eu106VfS;
+        "tkJhS4xi" = _tkJhS4xi;
         "fabric-1.16.5" = _2i754Pcx;
         "fabric-1.17" = _4qzlMC4Y;
         "fabric-1.17.1" = _4qzlMC4Y;
@@ -170,6 +176,7 @@ let
         "fabric-26.1" = _eu106VfS;
         "fabric-26.1.1" = _eu106VfS;
         "fabric-26.1.2" = _eu106VfS;
+        "fabric-26.2" = _tkJhS4xi;
         "pkg-1.0.0" = _2i754Pcx;
         "pkg-1.0.1" = _4qzlMC4Y;
         "pkg-1.0.2" = _Kq4j9MLD;
@@ -194,7 +201,8 @@ let
         "pkg-1.0.21" = _XZ8rpE5l;
         "pkg-1.0.22" = _zyd0xXzt;
         "pkg-1.0.23" = _eu106VfS;
-        "default" = _eu106VfS;
+        "pkg-1.0.24" = _tkJhS4xi;
+        "default" = _tkJhS4xi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "health-levels";

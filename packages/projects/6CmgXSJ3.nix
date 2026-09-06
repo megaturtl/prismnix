@@ -116,6 +116,26 @@ let
             "file" = "horse_armor-1.0.0-fabric-1.21.11.jar";
             "hash" = "sha512-pqWXJ+w9yWrVLcoI3kNVYGQ+gkLrXSgvysYjCa6kQT4g+Hl0YsLzbjN8elpzk2tMtBeHhybnrEYa2gYPjv1KQg==";
         };
+        _39MHOti4 = {
+            "id" = "39MHOti4";
+            "file" = "horse_armor-1.0.0-fabric-26.2.jar";
+            "hash" = "sha512-mpFxaO6OyAzDkijgzKHU70aFLBSWq1lR1WPDn2TYhtE94d1zCSbWzMD0Y8XoVx8tcuQVeEhOfHSLYOWkwdevog==";
+        };
+        _UMmJn2Zr = {
+            "id" = "UMmJn2Zr";
+            "file" = "horse_armor-1.0.0-fabric-26.1.2.jar";
+            "hash" = "sha512-9MMOz/N2LF7/YFycLNpAc88Ts7kVpk92hkGMkXry0M8C55K0bLf/kaC1Kw/S/KKq8+NKlFW0hwTyNeislckDYg==";
+        };
+        _h22nwJeo = {
+            "id" = "h22nwJeo";
+            "file" = "horse_armor-1.0.0.jar";
+            "hash" = "sha512-k7a/CywgmHUuri//yAGNTVvPEoaVdVQnO+gVmct0PO9bOUq9HOprRpyaYvMWheR5lXKkCMs/cDEgLZ3z6jPE2g==";
+        };
+        _DyQ1gnC2 = {
+            "id" = "DyQ1gnC2";
+            "file" = "horse_armor-1.0.0.jar";
+            "hash" = "sha512-PjmXLNspdRVHg5/Nd9U923u5SvhgKnxmA8Sqw9aTz5KMV1Dpf7fbj+HttYFnwhFAq7Ntu2Y3FjoE+N4L0WGxKQ==";
+        };
     in {
         "EaZsF2VS" = _EaZsF2VS;
         "Yk2EwxDc" = _Yk2EwxDc;
@@ -140,6 +160,10 @@ let
         "WGx70QSN" = _WGx70QSN;
         "LKllvJD8" = _LKllvJD8;
         "PfEQFN7w" = _PfEQFN7w;
+        "39MHOti4" = _39MHOti4;
+        "UMmJn2Zr" = _UMmJn2Zr;
+        "h22nwJeo" = _h22nwJeo;
+        "DyQ1gnC2" = _DyQ1gnC2;
         "fabric-1.21" = _EaZsF2VS;
         "fabric-1.21.1" = _EaZsF2VS;
         "fabric-1.21.2" = _EaZsF2VS;
@@ -156,12 +180,16 @@ let
         "fabric-1.21.8" = _WGx70QSN;
         "fabric-1.21.10" = _LKllvJD8;
         "fabric-1.21.11" = _PfEQFN7w;
+        "fabric-26.2" = _39MHOti4;
+        "fabric-26.1.2" = _UMmJn2Zr;
         "neoforge-1.21.1" = _LXhRfe0Y;
         "neoforge-1.21.4" = _PDEn6l7d;
         "neoforge-1.20.4" = _ttnDFY3m;
         "neoforge-1.20.6" = _rkILfYtq;
         "neoforge-1.21.5" = _HmVfWqvK;
         "neoforge-1.21.8" = _Hk863H2E;
+        "neoforge-26.1.2" = _h22nwJeo;
+        "neoforge-26.2" = _DyQ1gnC2;
         "forge-1.14.4" = _TYBUPn6g;
         "forge-1.15.2" = _mmN9iorv;
         "forge-1.16.5" = _IDLOmDtQ;
@@ -184,9 +212,9 @@ let
         "quilt-1.20.4" = _pq6wJE98;
         "quilt-1.20.5" = _pq6wJE98;
         "quilt-1.20.6" = _pq6wJE98;
-        "pkg-1.0.0" = _PfEQFN7w;
+        "pkg-1.0.0" = _DyQ1gnC2;
         "pkg-1.2.0" = _WGx70QSN;
-        "default" = _PfEQFN7w;
+        "default" = _DyQ1gnC2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "horse-armor";

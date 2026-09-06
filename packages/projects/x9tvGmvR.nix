@@ -146,6 +146,16 @@ let
             "file" = "mythic_charms-2.1.4.b.jar";
             "hash" = "sha512-FptjhrNEt4Ne4zW3uClKT8KdT7RFh04spqhfOAluPqjPKq2grvsWyzS+OYDTDT+epwY4vK8HsleFJtf5ouZwAw==";
         };
+        _hrLcRl1j = {
+            "id" = "hrLcRl1j";
+            "file" = "mythic_charms-2.2.0.jar";
+            "hash" = "sha512-iJHDmt8BydfJ5VZzJQVHtrfaAfJanMEKJC5dyFeDPeOR6I3Dmjeo+r2X0hFQhdbbWSpYzTVqy9a0BjHJ25wFYg==";
+        };
+        _Ta1a2lQz = {
+            "id" = "Ta1a2lQz";
+            "file" = "mythic_charms-2.2.1.jar";
+            "hash" = "sha512-o7U9VKUZJSVywq8hHvdkY66ZoFK5h1p++7B6gVWgFlmdwP2jxouMDQhPXVEJO/g/xxOWl8FDzqCY7cXhWMFSOA==";
+        };
     in {
         "QzB38UE6" = _QzB38UE6;
         "BfN7Sj99" = _BfN7Sj99;
@@ -176,9 +186,11 @@ let
         "j8OlZDQn" = _j8OlZDQn;
         "oYvzmpZ9" = _oYvzmpZ9;
         "9KBjovHd" = _9KBjovHd;
+        "hrLcRl1j" = _hrLcRl1j;
+        "Ta1a2lQz" = _Ta1a2lQz;
         "fabric-1.20.1" = _UUvcLOtX;
         "fabric-1.20.2" = _FyReTOlX;
-        "fabric-1.21.1" = _9KBjovHd;
+        "fabric-1.21.1" = _Ta1a2lQz;
         "pkg-0.1.2" = _QzB38UE6;
         "pkg-0.2.0" = _LmVwnkSL;
         "pkg-0.3.0" = _UJFojfrV;
@@ -206,7 +218,9 @@ let
         "pkg-2.1.2.b" = _j8OlZDQn;
         "pkg-2.1.3.b" = _oYvzmpZ9;
         "pkg-2.1.4.b" = _9KBjovHd;
-        "default" = _9KBjovHd;
+        "pkg-2.2.0" = _hrLcRl1j;
+        "pkg-2.2.1" = _Ta1a2lQz;
+        "default" = _Ta1a2lQz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mythic-charms";

@@ -131,6 +131,16 @@ let
             "file" = "infinity-7.0.jar";
             "hash" = "sha512-ycWWQLAtapGxi/RDV1bePY44i+IkFY34Zx8IOgN4/cUx9MOydus610z05HNNGSqLz7jWGUvhhMyy0I7hMH+P8w==";
         };
+        _bqYSeShm = {
+            "id" = "bqYSeShm";
+            "file" = "infinity-7.1.jar";
+            "hash" = "sha512-6/ror+iZPkrdqSxeJ1r2gt4HOJplwOhf32vnP2pIX2Hp587O44TwWVRfRBdzuOf2T8nxVQvykQIit911RGAm/w==";
+        };
+        _o4bYKBPp = {
+            "id" = "o4bYKBPp";
+            "file" = "infinity-7.2.jar";
+            "hash" = "sha512-Z2V5KGSv/mvjJmequlj7ReLnvHw+HM+QKSrbJCfcuKGtRLJrhFxBbfcWfVGA/wKETwYviH3xJNJIjTKFiNnL1A==";
+        };
     in {
         "JAieLTIo" = _JAieLTIo;
         "1mQyC1Ry" = _1mQyC1Ry;
@@ -158,7 +168,9 @@ let
         "hQqQYahQ" = _hQqQYahQ;
         "6q3jdEjc" = _6q3jdEjc;
         "f8h8ZEhC" = _f8h8ZEhC;
-        "forge-1.20.1" = _f8h8ZEhC;
+        "bqYSeShm" = _bqYSeShm;
+        "o4bYKBPp" = _o4bYKBPp;
+        "forge-1.20.1" = _o4bYKBPp;
         "fabric-1.20.1" = _f8h8ZEhC;
         "pkg-0.1" = _JAieLTIo;
         "pkg-1.2" = _1mQyC1Ry;
@@ -186,7 +198,9 @@ let
         "pkg-6.1" = _hQqQYahQ;
         "pkg-6.3" = _6q3jdEjc;
         "pkg-7.0" = _f8h8ZEhC;
-        "default" = _f8h8ZEhC;
+        "pkg-7.1" = _bqYSeShm;
+        "pkg-7.2" = _o4bYKBPp;
+        "default" = _o4bYKBPp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pugmeowlas-infinity-stone-core";

@@ -441,6 +441,66 @@ let
             "file" = "martinis-cutting-and-crafting-26.3-Snapshot-6.jar";
             "hash" = "sha512-juoSTwSFjwTg6q54+CQtYA4Q3UXTO9eGrtJPzQbZ6ILtzVJHA0JWKuvYoo8G5mfK8Z46QL+6LsntFmdbquNydw==";
         };
+        _mRmfoAlk = {
+            "id" = "mRmfoAlk";
+            "file" = "Martini's_Cutting_and_Crafting_26.3_new.zip";
+            "hash" = "sha512-910z+6iMHdAdUZN6jueR5cxaqpYzAfi8pds18oA0fnqAtfZBg4aZAvwq0or0idTHoEuu+5+e9BothW6qlfq6Zg==";
+        };
+        _Ku1sAuhZ = {
+            "id" = "Ku1sAuhZ";
+            "file" = "martinis-cutting-and-crafting-26.3-Snapshot-7.jar";
+            "hash" = "sha512-V5wYaPOhI8cSADQEFWVgWMlFLVb0/1LU/hbn47EGLLjvBl7mWNl/trw8DVShoG1nlVoSaD7ziLGsQMkJNJdhpg==";
+        };
+        _jAl1px2A = {
+            "id" = "jAl1px2A";
+            "file" = "Martini's_Cutting_and_Crafting_26.3_new.zip";
+            "hash" = "sha512-PQyFHjKBHyh3q7MMu+HObH+a1iSaSGNHhlCh72ClwkXj9wRk8c3fZ3dFZSOADfbSKL306qtxy/V4kJS4VIKxrw==";
+        };
+        _2mdLNMfV = {
+            "id" = "2mdLNMfV";
+            "file" = "martinis-cutting-and-crafting-26.3-Snapshot-8.jar";
+            "hash" = "sha512-qcslec7k6YGEQiDejOStUg2MeFiF/8Xa21aRofOd1QqJlx58TcqH3ibPmNYP85LE+A9rTypcqas76cNGp+w4aA==";
+        };
+        _ec1t0T7f = {
+            "id" = "ec1t0T7f";
+            "file" = "Martini's_Cutting_and_Crafting_26.3_new.zip";
+            "hash" = "sha512-+F5vBKQMeWzam5FXJffs62zxTBnfXMywGdx5SQvBJgLMAeHaePqW1t+CLHHjU2ldgSRYaCR7LlCs39s+mNshpg==";
+        };
+        _SEntXc02 = {
+            "id" = "SEntXc02";
+            "file" = "martinis-cutting-and-crafting-26.3-Snapshot-9.jar";
+            "hash" = "sha512-PrJlcBOZc6EV5DQ8M0jYB2YAfAkDwDF+2hdTiPRo2UJczn1FA+kJgYRr2hwm31ODm//Uhe9j1Y/6zoD2rjI/pw==";
+        };
+        _uqBzrfqi = {
+            "id" = "uqBzrfqi";
+            "file" = "Martini's_Cutting_and_Crafting_26.3_new.zip";
+            "hash" = "sha512-Wn8G7vhukKTGrwXHnh8cOpnzzyoMfRBpFOVbS4f0cZlk7xqJxjJETB8A+eVJE/ZPGUuwWlTZTYTGIw5vhBlirQ==";
+        };
+        _M0TkCrTq = {
+            "id" = "M0TkCrTq";
+            "file" = "martinis-cutting-and-crafting-26.3-Snapshot-10.jar";
+            "hash" = "sha512-O1DLCFK4zp2HLC7HMSNeGsE/bYtslawvJTYKDttT7/0J/wLM1Nt3fz6k7w0Ie3ZBQBF9BrhkuVk+o9SViS6CiQ==";
+        };
+        _ueGOpLod = {
+            "id" = "ueGOpLod";
+            "file" = "Martini's_Cutting_and_Crafting_26.3_new.zip";
+            "hash" = "sha512-QQ5eN3Bz1yFjoe8RZY7V4xcUZCyhLNqHIGfcdPfqKKajNG9w01HdI8aV8biq8B1DtroSPMVWV3l+RphyELVnJw==";
+        };
+        _O5jOczT1 = {
+            "id" = "O5jOczT1";
+            "file" = "martinis-cutting-and-crafting-26.3-pre-1.jar";
+            "hash" = "sha512-lPBWIrjMd7/nCTb0cU2mbP3Ls2L1qW8ocn7N6/+zI9udmqWcID3Fvqmx57j8b8cjlIIAT1SyTrUHKuS1VbdiJg==";
+        };
+        _CK2mKD1N = {
+            "id" = "CK2mKD1N";
+            "file" = "Martini's_Cutting_and_Crafting_26.3_new.zip";
+            "hash" = "sha512-PFvJk+3nOyf4dJoVRvhB2E8N0+geLEc8wfnPtFYXGAFPn21FesTM6XopTCrD0IbdUXyDO1hsu+NjiuCpCL5arw==";
+        };
+        _TrLYYR6p = {
+            "id" = "TrLYYR6p";
+            "file" = "martinis-cutting-and-crafting-26.3-pre-release-2.jar";
+            "hash" = "sha512-lW+Vvz2DEBB+mxuwWA9QvCZQ3x3GwF5EwG9EW2iuxa5ULdqXLHrvgnvMoCSdt7+mrxoSQZMK0/hidHy+L7MbZQ==";
+        };
     in {
         "BPUpppit" = _BPUpppit;
         "FsmRW8QT" = _FsmRW8QT;
@@ -530,6 +590,18 @@ let
         "aMNoJIDq" = _aMNoJIDq;
         "9LZZH3IG" = _9LZZH3IG;
         "C0ny2mMG" = _C0ny2mMG;
+        "mRmfoAlk" = _mRmfoAlk;
+        "Ku1sAuhZ" = _Ku1sAuhZ;
+        "jAl1px2A" = _jAl1px2A;
+        "2mdLNMfV" = _2mdLNMfV;
+        "ec1t0T7f" = _ec1t0T7f;
+        "SEntXc02" = _SEntXc02;
+        "uqBzrfqi" = _uqBzrfqi;
+        "M0TkCrTq" = _M0TkCrTq;
+        "ueGOpLod" = _ueGOpLod;
+        "O5jOczT1" = _O5jOczT1;
+        "CK2mKD1N" = _CK2mKD1N;
+        "TrLYYR6p" = _TrLYYR6p;
         "datapack-24w44a" = _mA7zGzJc;
         "datapack-24w45a" = _mA7zGzJc;
         "datapack-24w46a" = _mA7zGzJc;
@@ -644,6 +716,12 @@ let
         "datapack-26.3-snapshot-4" = _GxG5iVxn;
         "datapack-26.3-snapshot-5" = _9LZZH3IG;
         "datapack-26.3-snapshot-6" = _9LZZH3IG;
+        "datapack-26.3-snapshot-7" = _CK2mKD1N;
+        "datapack-26.3-snapshot-8" = _CK2mKD1N;
+        "datapack-26.3-snapshot-9" = _CK2mKD1N;
+        "datapack-26.3-snapshot-10" = _CK2mKD1N;
+        "datapack-26.3-pre-1" = _CK2mKD1N;
+        "datapack-26.3-pre-2" = _CK2mKD1N;
         "fabric-24w44a" = _kOLR9kbD;
         "fabric-24w45a" = _kOLR9kbD;
         "fabric-24w46a" = _kOLR9kbD;
@@ -766,6 +844,12 @@ let
         "fabric-26.3-snapshot-4" = _aMNoJIDq;
         "fabric-26.3-snapshot-5" = _C0ny2mMG;
         "fabric-26.3-snapshot-6" = _C0ny2mMG;
+        "fabric-26.3-snapshot-7" = _TrLYYR6p;
+        "fabric-26.3-snapshot-8" = _TrLYYR6p;
+        "fabric-26.3-snapshot-9" = _TrLYYR6p;
+        "fabric-26.3-snapshot-10" = _TrLYYR6p;
+        "fabric-26.3-pre-1" = _TrLYYR6p;
+        "fabric-26.3-pre-2" = _TrLYYR6p;
         "quilt-24w44a" = _kOLR9kbD;
         "quilt-24w45a" = _kOLR9kbD;
         "quilt-24w46a" = _kOLR9kbD;
@@ -888,6 +972,12 @@ let
         "quilt-26.3-snapshot-4" = _aMNoJIDq;
         "quilt-26.3-snapshot-5" = _C0ny2mMG;
         "quilt-26.3-snapshot-6" = _C0ny2mMG;
+        "quilt-26.3-snapshot-7" = _TrLYYR6p;
+        "quilt-26.3-snapshot-8" = _TrLYYR6p;
+        "quilt-26.3-snapshot-9" = _TrLYYR6p;
+        "quilt-26.3-snapshot-10" = _TrLYYR6p;
+        "quilt-26.3-pre-1" = _TrLYYR6p;
+        "quilt-26.3-pre-2" = _TrLYYR6p;
         "neoforge-1.21.3" = _kOLR9kbD;
         "neoforge-24w44a" = _kOLR9kbD;
         "neoforge-24w45a" = _kOLR9kbD;
@@ -1010,6 +1100,12 @@ let
         "neoforge-26.3-snapshot-4" = _aMNoJIDq;
         "neoforge-26.3-snapshot-5" = _C0ny2mMG;
         "neoforge-26.3-snapshot-6" = _C0ny2mMG;
+        "neoforge-26.3-snapshot-7" = _TrLYYR6p;
+        "neoforge-26.3-snapshot-8" = _TrLYYR6p;
+        "neoforge-26.3-snapshot-9" = _TrLYYR6p;
+        "neoforge-26.3-snapshot-10" = _TrLYYR6p;
+        "neoforge-26.3-pre-1" = _TrLYYR6p;
+        "neoforge-26.3-pre-2" = _TrLYYR6p;
         "forge-1.21.4" = _zvtvKto3;
         "forge-25w02a" = _zvtvKto3;
         "forge-25w03a" = _zvtvKto3;
@@ -1111,6 +1207,12 @@ let
         "forge-26.3-snapshot-4" = _aMNoJIDq;
         "forge-26.3-snapshot-5" = _C0ny2mMG;
         "forge-26.3-snapshot-6" = _C0ny2mMG;
+        "forge-26.3-snapshot-7" = _TrLYYR6p;
+        "forge-26.3-snapshot-8" = _TrLYYR6p;
+        "forge-26.3-snapshot-9" = _TrLYYR6p;
+        "forge-26.3-snapshot-10" = _TrLYYR6p;
+        "forge-26.3-pre-1" = _TrLYYR6p;
+        "forge-26.3-pre-2" = _TrLYYR6p;
         "pkg-0.0.1a" = _FsmRW8QT;
         "pkg-0.0.2a" = _pd7ggicO;
         "pkg-0.0.2a+mod" = _vvOjFWVs;
@@ -1190,7 +1292,19 @@ let
         "pkg-26.3-Snapshot-4+mod" = _aMNoJIDq;
         "pkg-26.3-Snapshot-6" = _9LZZH3IG;
         "pkg-26.3-Snapshot-6+mod" = _C0ny2mMG;
-        "default" = _C0ny2mMG;
+        "pkg-26.3-Snapshot-7" = _mRmfoAlk;
+        "pkg-26.3-Snapshot-7+mod" = _Ku1sAuhZ;
+        "pkg-26.3-Snapshot-8" = _jAl1px2A;
+        "pkg-26.3-Snapshot-8+mod" = _2mdLNMfV;
+        "pkg-26.3-Snapshot-9" = _ec1t0T7f;
+        "pkg-26.3-Snapshot-9+mod" = _SEntXc02;
+        "pkg-26.3-Snapshot-10" = _uqBzrfqi;
+        "pkg-26.3-Snapshot-10+mod" = _M0TkCrTq;
+        "pkg-26.3-pre-1" = _ueGOpLod;
+        "pkg-26.3-pre-1+mod" = _O5jOczT1;
+        "pkg-26.3-pre-release-2" = _CK2mKD1N;
+        "pkg-26.3-pre-release-2+mod" = _TrLYYR6p;
+        "default" = _TrLYYR6p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "martinis-cutting-and-crafting";

@@ -136,6 +136,71 @@ let
             "file" = "viltrumiteflight-forge-1.5.0.jar";
             "hash" = "sha512-KJHgIRhrWd9AMCiaef2/1d4TST6blVUzKc5R09IO+jMQc4StbtGuI9tnIBjc2A0wmfMLkBGUq56GiZCGXnMusw==";
         };
+        _CdBCNAQI = {
+            "id" = "CdBCNAQI";
+            "file" = "viltrumiteflight-1.5.1.jar";
+            "hash" = "sha512-c76RlaZKwiw+uqy2shFe0dVHt4DX6TumglM8oIF6+mPMWY62YlW0UUbKoht51zVmAX3vIi76I6beWUndYjJVMw==";
+        };
+        _4keRsmUY = {
+            "id" = "4keRsmUY";
+            "file" = "viltrumiteflight-forge-1.5.1.jar";
+            "hash" = "sha512-SLKrses5p6uGdk4vF60jRMta2ZcMyT7q3uIY35qqTS2owlMpBFVzD++nBMfDBlkr9I0UPMzNyXf3Te2e+HCAsw==";
+        };
+        _dwMrfH8f = {
+            "id" = "dwMrfH8f";
+            "file" = "viltrumiteflight-1.6.0.jar";
+            "hash" = "sha512-0XZMQ96ZBruaj+Kr/YC3Yyr1n/7r7sXOONayp9+JUtE8W4W/xIV1cHTTF35tA8Cviv4Uz5kqwmKJVYhF72z1DQ==";
+        };
+        _M6c94AxY = {
+            "id" = "M6c94AxY";
+            "file" = "viltrumiteflight-forge-1.6.0.jar";
+            "hash" = "sha512-XPoVfKUMe8V6+CYDd/4+Ka6JZeTB/Gj5s+AaQ/Z7SlXgP0HyMBzvGkkzRJ4H4QpEZavt1nJZLLNNxJIAwGwsSg==";
+        };
+        _El33ZITf = {
+            "id" = "El33ZITf";
+            "file" = "viltrumiteflight-1.6.1.jar";
+            "hash" = "sha512-8gtRCg0Wgj7NGHj7YrnBg3hxrfEWB5lxBZ83G+fk6psZStdmPj5IFRzfxMHfs86bAp6k5wmrAe22PnKczHBHnA==";
+        };
+        _7zGB7wXc = {
+            "id" = "7zGB7wXc";
+            "file" = "viltrumiteflight-forge-1.6.1.jar";
+            "hash" = "sha512-JO4UQnvUQUPb8KQ222Uj6j9JXactmpDC8VtMxYjKjixkSK+ukMY79AOyAsD76TA++McUDdV/IsgR3TXymwSw2w==";
+        };
+        _h42SrDuE = {
+            "id" = "h42SrDuE";
+            "file" = "viltrumiteflight-1.6.2.jar";
+            "hash" = "sha512-VAZEr9JcRWrgraofOdlxNtFi6fnO4EStGYprVtUOaAWJGtvOcaZGuD0XPD9+9z6k4GmIp/dzWkXe+mWZcVqPzw==";
+        };
+        _BSK6zqVT = {
+            "id" = "BSK6zqVT";
+            "file" = "viltrumiteflight-forge-1.6.2.jar";
+            "hash" = "sha512-GT/aMuqUR+PuwDVs/4cbvuytyIO50tZk3XB/SN6H5gP/26TWf5nrTf73QPWqWyGsDtzU1mjpTm9/j704dxejsw==";
+        };
+        _GqodGYH3 = {
+            "id" = "GqodGYH3";
+            "file" = "viltrumiteflight-1.6.3.jar";
+            "hash" = "sha512-DDyN3X4lNXtgzDo9iWn9uXu9ggYpKAinCrfSNNokBO0778Ac3LUQW+IBafF6Ey9H3yVsF568dm24uoj6VACnHg==";
+        };
+        _aKsWh6Wp = {
+            "id" = "aKsWh6Wp";
+            "file" = "viltrumiteflight-forge-1.6.3.jar";
+            "hash" = "sha512-ww4B3wkFM5rfgy89ch+/hjE0ZvWmV23Y82OVWXhYmj/wXrQeIs+3gkV4h5iJcUf3QhdP1bnpTkoxdqJX8E64aw==";
+        };
+        _4XYUlXtb = {
+            "id" = "4XYUlXtb";
+            "file" = "viltrumiteflight-forge-1.6.3.1.jar";
+            "hash" = "sha512-UC42FIHJF+zZeHNtFa+074UKLCF3G9fNui6rtuhnQx9HVW4U6t48/KB6jTGFnphjCyrMiNkzQVgt9uD8Nrz4LA==";
+        };
+        _BFOs5Izp = {
+            "id" = "BFOs5Izp";
+            "file" = "viltrumiteflight-1.6.4.jar";
+            "hash" = "sha512-11SRWM8ductMsK66B3BgRXfb1fYZG3WpgqSnJaseVMzZbX1vbQleEKS/28v7QUGYgAnUhCoxHIZ3aEonjTYXsg==";
+        };
+        _uJC0nwpu = {
+            "id" = "uJC0nwpu";
+            "file" = "viltrumiteflight-forge-1.6.4.jar";
+            "hash" = "sha512-NHaTGHrplzR90wmom76xw/ffDFCMFju6Nxgco0Gz7lNDzv7Pvv6vJE06N22mBxOy84BLESmXcQvRDYemh9M7Tw==";
+        };
     in {
         "g31uRtso" = _g31uRtso;
         "PYJ78cK4" = _PYJ78cK4;
@@ -164,8 +229,21 @@ let
         "JYeA89ui" = _JYeA89ui;
         "gaMYzBql" = _gaMYzBql;
         "nvb0jced" = _nvb0jced;
-        "fabric-1.20.1" = _gaMYzBql;
-        "forge-1.20.1" = _nvb0jced;
+        "CdBCNAQI" = _CdBCNAQI;
+        "4keRsmUY" = _4keRsmUY;
+        "dwMrfH8f" = _dwMrfH8f;
+        "M6c94AxY" = _M6c94AxY;
+        "El33ZITf" = _El33ZITf;
+        "7zGB7wXc" = _7zGB7wXc;
+        "h42SrDuE" = _h42SrDuE;
+        "BSK6zqVT" = _BSK6zqVT;
+        "GqodGYH3" = _GqodGYH3;
+        "aKsWh6Wp" = _aKsWh6Wp;
+        "4XYUlXtb" = _4XYUlXtb;
+        "BFOs5Izp" = _BFOs5Izp;
+        "uJC0nwpu" = _uJC0nwpu;
+        "fabric-1.20.1" = _BFOs5Izp;
+        "forge-1.20.1" = _uJC0nwpu;
         "pkg-1.0.0" = _g31uRtso;
         "pkg-1.0.1" = _PYJ78cK4;
         "pkg-1.0.2" = _buxXpTpz;
@@ -190,7 +268,14 @@ let
         "pkg-1.4.3" = _kC3oeSW0;
         "pkg-1.4.4" = _JYeA89ui;
         "pkg-1.5.0" = _nvb0jced;
-        "default" = _nvb0jced;
+        "pkg-1.5.1" = _4keRsmUY;
+        "pkg-1.6.0" = _M6c94AxY;
+        "pkg-1.6.1" = _7zGB7wXc;
+        "pkg-1.6.2" = _BSK6zqVT;
+        "pkg-1.6.3" = _aKsWh6Wp;
+        "pkg-1.6.3.1" = _4XYUlXtb;
+        "pkg-1.6.4" = _uJC0nwpu;
+        "default" = _uJC0nwpu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "viltrumite-flight";

@@ -221,6 +221,46 @@ let
             "file" = "tooltrims-2.0.6+tt3.0.x+mc26.1.2.jar";
             "hash" = "sha512-jEvn1Jjpu6ejm2MADGcCyI/yXesabTxRZ0sfqO/QoYwU057CftSVwl+uaxvDb/7loI2QZdCVG8DOs77vkrChsA==";
         };
+        _xMdUuRt7 = {
+            "id" = "xMdUuRt7";
+            "file" = "tooltrims-2.0.7+tt3.0.x+mc26.2.jar";
+            "hash" = "sha512-6qE/xRjorrzKwVQ1sSlg7pECiPDRbN7Lhs+tr6n8p6LF7gS4+nAQrGhKl0GvPsVoaLOGnuhP3IWVtzkWfTo1IQ==";
+        };
+        _3x7VtOJU = {
+            "id" = "3x7VtOJU";
+            "file" = "tooltrims-2.0.7+tt3.0.x+mc26.1.2.jar";
+            "hash" = "sha512-ZjRFNvzqtwdPdolj86eecDuq9YZYyRmghAuCiFtf3mjvT3PablldYMBLh2xocKjaEhHC10fGsXkzQNkK7VafVQ==";
+        };
+        _oxLW5xba = {
+            "id" = "oxLW5xba";
+            "file" = "tooltrims-2.0.8+tt3.0.x+mc26.2.jar";
+            "hash" = "sha512-UDlX0jht6x8KfRFRWc4/dB2KarRfjsUZRboL1nK6meIUJjk+VZ83ojz2TTc8tOkznDd0xk4zNKTZGUmdcKD85Q==";
+        };
+        _FkCrpe31 = {
+            "id" = "FkCrpe31";
+            "file" = "tooltrims-2.0.8+tt3.0.x+mc26.1.2.jar";
+            "hash" = "sha512-zU9odV9qJdSwKPMk0Lc8BGk9XqCcz7uutV+/wz0b2rzAm8s8b9ebEbjqIncDcR6/1LRwgYowt5ypgmnt13F13Q==";
+        };
+        _i65UrtvC = {
+            "id" = "i65UrtvC";
+            "file" = "tooltrims-2.0.8+tt3.0.x+mc26.2.jar";
+            "hash" = "sha512-UDlX0jht6x8KfRFRWc4/dB2KarRfjsUZRboL1nK6meIUJjk+VZ83ojz2TTc8tOkznDd0xk4zNKTZGUmdcKD85Q==";
+        };
+        _SpstlVDE = {
+            "id" = "SpstlVDE";
+            "file" = "tooltrims-2.0.9+tt3.0.x+mc26.1.2.jar";
+            "hash" = "sha512-qp+/ZCatmBc5f1mFylDF3qHDQiisX3OQEHeBXwHogXLPON16mKeU0yHJbpBL16WFLTjtb/6mXeeApcOuTTJ+QA==";
+        };
+        _Hbyk0zuB = {
+            "id" = "Hbyk0zuB";
+            "file" = "tooltrims-2.0.10+tt3.0.x+mc26.2.jar";
+            "hash" = "sha512-MBiKcYKGiHO5tYDRqsPQnCBvK07bHWCeoS3Zjec4qLzZ96z0PtP7FZRw/qRnUsTSs/RDdHyN0YGY2cYZBacSCA==";
+        };
+        _TL0qjIrc = {
+            "id" = "TL0qjIrc";
+            "file" = "tooltrims-2.0.10+tt3.0.x+mc26.1.2.jar";
+            "hash" = "sha512-655z0Sq67yfPM8N4GPThvkSowQqC20l2lpC0F94jNikF0Qays+L067/bHQ2zQ/tPmmVy+blaifP1JvIAUxoTMQ==";
+        };
     in {
         "WRtppsyl" = _WRtppsyl;
         "dw2LtBRK" = _dw2LtBRK;
@@ -266,6 +306,14 @@ let
         "z3A2D5xE" = _z3A2D5xE;
         "1MRp6pTk" = _1MRp6pTk;
         "puxwOM2E" = _puxwOM2E;
+        "xMdUuRt7" = _xMdUuRt7;
+        "3x7VtOJU" = _3x7VtOJU;
+        "oxLW5xba" = _oxLW5xba;
+        "FkCrpe31" = _FkCrpe31;
+        "i65UrtvC" = _i65UrtvC;
+        "SpstlVDE" = _SpstlVDE;
+        "Hbyk0zuB" = _Hbyk0zuB;
+        "TL0qjIrc" = _TL0qjIrc;
         "fabric-1.20" = _scwcAaKL;
         "fabric-1.20.1" = _scwcAaKL;
         "fabric-1.20.2" = _dw2LtBRK;
@@ -294,12 +342,12 @@ let
         "fabric-26.1-snapshot-7" = _PA08wIEz;
         "fabric-26.1-snapshot-8" = _PA08wIEz;
         "fabric-26.1-snapshot-9" = _PA08wIEz;
-        "fabric-26.1" = _puxwOM2E;
-        "fabric-26.1.1" = _puxwOM2E;
-        "fabric-26.1.2" = _puxwOM2E;
+        "fabric-26.1" = _TL0qjIrc;
+        "fabric-26.1.1" = _TL0qjIrc;
+        "fabric-26.1.2" = _TL0qjIrc;
         "fabric-26.2-rc-1" = _8XWSNWql;
         "fabric-26.2-rc-2" = _8XWSNWql;
-        "fabric-26.2" = _1MRp6pTk;
+        "fabric-26.2" = _Hbyk0zuB;
         "quilt-1.20" = _scwcAaKL;
         "quilt-1.20.1" = _scwcAaKL;
         "quilt-1.20.2" = _dw2LtBRK;
@@ -357,7 +405,15 @@ let
         "pkg-2.0.5+tt3.0.x+mc26.1.2" = _z3A2D5xE;
         "pkg-2.0.6+tt3.0.x+mc26.2" = _1MRp6pTk;
         "pkg-2.0.6+tt3.0.x+mc26.1.2" = _puxwOM2E;
-        "default" = _puxwOM2E;
+        "pkg-2.0.7+tt3.0.x+mc26.2" = _xMdUuRt7;
+        "pkg-2.0.7+tt3.0.x+mc26.1.2" = _3x7VtOJU;
+        "pkg-2.0.8+tt3.0.x+mc26.2" = _oxLW5xba;
+        "pkg-2.0.8+tt3.0.x+mc26.1.2" = _FkCrpe31;
+        "pkg-2.0.9+tt3.0.x+mc26.2" = _i65UrtvC;
+        "pkg-2.0.9+tt3.0.x+mc26.1.2" = _SpstlVDE;
+        "pkg-2.0.10+tt3.0.x+mc26.2" = _Hbyk0zuB;
+        "pkg-2.0.10+tt3.0.x+mc26.1.2" = _TL0qjIrc;
+        "default" = _TL0qjIrc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tool-trims-mod";

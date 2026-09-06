@@ -116,6 +116,26 @@ let
             "file" = "nofrills-26.1-0.4.12.jar";
             "hash" = "sha512-M9pVk/KhXlhMAFM/M2WnofEasDD7VgNG4d8ycnEKP8UGeA5+KRh7JxKNwrkDTy4gJMkzbp3l/Oao48aEv6+F0w==";
         };
+        _fvKLgyVA = {
+            "id" = "fvKLgyVA";
+            "file" = "nofrills-26.1-0.4.13.jar";
+            "hash" = "sha512-/9izewuf6o7YYz3tCfFyDtGoWLnyM//dWWv2y8APJPcZ4iphyxEX5qtFnEhR5ai4mp0PsMo7HtjoxCs+zoCCnQ==";
+        };
+        _cQZRiDB2 = {
+            "id" = "cQZRiDB2";
+            "file" = "nofrills-26.2-0.4.13.jar";
+            "hash" = "sha512-Tet8cwbdlpXqBiJ/CuGlTw7zlz1jH7cYI5JQIlQOYztaOOUAstw308qzkQ1JOoiT1EBEXi2L+lYH02m/4uvqVw==";
+        };
+        _ifwi3EPT = {
+            "id" = "ifwi3EPT";
+            "file" = "nofrills-26.1-0.4.14.jar";
+            "hash" = "sha512-kZUkw7ExqbdXJGGvb0YqEfZ2z//OT63cyR6RjgqJA22/cRFPD7bnYP6Lorr8aU2TsFjahZx26yrOo84RHfITpg==";
+        };
+        _Tho7kTTD = {
+            "id" = "Tho7kTTD";
+            "file" = "nofrills-26.2-0.4.14.jar";
+            "hash" = "sha512-vtm0F/bcuFPsyOAvYsR+gv/gpYUnGpBMSts+VrH5lzovF66xdGfL9326ZMNYt0i+d9dIZxnPkXgeR7ITvWry8A==";
+        };
     in {
         "DwlSOlQb" = _DwlSOlQb;
         "rDI0871b" = _rDI0871b;
@@ -140,6 +160,10 @@ let
         "rysKylW2" = _rysKylW2;
         "erXx58fq" = _erXx58fq;
         "QSMluqZK" = _QSMluqZK;
+        "fvKLgyVA" = _fvKLgyVA;
+        "cQZRiDB2" = _cQZRiDB2;
+        "ifwi3EPT" = _ifwi3EPT;
+        "Tho7kTTD" = _Tho7kTTD;
         "fabric-1.21.5" = _urHgAX72;
         "fabric-1.21.6" = _NRPWvCt4;
         "fabric-1.21.7" = _NRPWvCt4;
@@ -147,9 +171,10 @@ let
         "fabric-1.21.9" = _7bsbnG0H;
         "fabric-1.21.10" = _7bsbnG0H;
         "fabric-1.21.11" = _rysKylW2;
-        "fabric-26.1" = _QSMluqZK;
-        "fabric-26.1.1" = _QSMluqZK;
-        "fabric-26.1.2" = _QSMluqZK;
+        "fabric-26.1" = _ifwi3EPT;
+        "fabric-26.1.1" = _ifwi3EPT;
+        "fabric-26.1.2" = _ifwi3EPT;
+        "fabric-26.2" = _Tho7kTTD;
         "pkg-0.4.0" = _DwlSOlQb;
         "pkg-0.4.1" = _rDI0871b;
         "pkg-0.4.2" = _gtT615m3;
@@ -163,7 +188,9 @@ let
         "pkg-0.4.10" = _NKVY1eTK;
         "pkg-0.4.11" = _erXx58fq;
         "pkg-0.4.12-2" = _QSMluqZK;
-        "default" = _QSMluqZK;
+        "pkg-0.4.13" = _cQZRiDB2;
+        "pkg-0.4.14" = _Tho7kTTD;
+        "default" = _Tho7kTTD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nofrills";

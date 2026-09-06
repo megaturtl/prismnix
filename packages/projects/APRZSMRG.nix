@@ -21,11 +21,17 @@ let
             "file" = "enchant-cycle-1.1.0+1.21-1.21.10.jar";
             "hash" = "sha512-nJJz5hCUkGlEUyUBuCv6A854kkZ+G1YBYn3mhLXaMpjN9GJP2fTk2Vl6d3ExMjqUbNHNYdYFnNpjYA7pTrLEsw==";
         };
+        _ClBfOVgI = {
+            "id" = "ClBfOVgI";
+            "file" = "enchant-cycle-sulfur-cube-1.1.0-sulfur-cube.jar";
+            "hash" = "sha512-1g2FIGNTh2V9n9FUnONUbJkWEmBdhI71NL+SGDnADjsvhr/9quXedGnGIhah5nLdBCmngPU5KnhB2VDstZEDuw==";
+        };
     in {
         "QgJQBDMo" = _QgJQBDMo;
         "ZAZWyeiX" = _ZAZWyeiX;
         "WGp0lbPq" = _WGp0lbPq;
         "5Z9PxQaJ" = _5Z9PxQaJ;
+        "ClBfOVgI" = _ClBfOVgI;
         "fabric-26.1.2" = _ZAZWyeiX;
         "fabric-26.1" = _ZAZWyeiX;
         "fabric-26.1.1" = _ZAZWyeiX;
@@ -41,11 +47,13 @@ let
         "fabric-1.21.8" = _5Z9PxQaJ;
         "fabric-1.21.9" = _5Z9PxQaJ;
         "fabric-1.21.10" = _5Z9PxQaJ;
+        "fabric-26.2" = _ClBfOVgI;
         "pkg-1.0.0" = _QgJQBDMo;
         "pkg-1.1.0" = _ZAZWyeiX;
         "pkg-1.1.0+1.21.11" = _WGp0lbPq;
         "pkg-1.1.0+1.21-1.21.10" = _5Z9PxQaJ;
-        "default" = _5Z9PxQaJ;
+        "pkg-1.1.0-sulfur-cube" = _ClBfOVgI;
+        "default" = _ClBfOVgI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantment-table-cycle";

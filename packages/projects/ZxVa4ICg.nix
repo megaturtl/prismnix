@@ -136,6 +136,11 @@ let
             "file" = "chat_highlight_n_sound-1.1.4.jar";
             "hash" = "sha512-nWiKDPtCBjWFV4NgffAiUUrmJIXdGWaZIwP2z37INuctjYtgWDjiUPdsp0urahyGv2UjEqWwVQNJqmLweVxqJQ==";
         };
+        _dIb8Hh6E = {
+            "id" = "dIb8Hh6E";
+            "file" = "chat_highlight_n_sound-1.1.4-2.jar";
+            "hash" = "sha512-f/AI3WV7zCaA3lnDRFNbojujbzHaAEYTANTGXlLH52zXN+uQHSGEBDyafKCsUFJVq+jfNaYCoDiDwL4xY7n/4A==";
+        };
     in {
         "Ci1JSQyK" = _Ci1JSQyK;
         "ntYqUbkA" = _ntYqUbkA;
@@ -164,12 +169,13 @@ let
         "WYRVpkdX" = _WYRVpkdX;
         "NkJwFO0K" = _NkJwFO0K;
         "tqylDC8j" = _tqylDC8j;
+        "dIb8Hh6E" = _dIb8Hh6E;
         "forge-1.20.1" = _tqylDC8j;
         "neoforge-1.21.10" = _ntYqUbkA;
         "neoforge-1.21.1" = _NkJwFO0K;
-        "fabric-1.21.10" = _pWPVgJGt;
+        "fabric-1.21.10" = _dIb8Hh6E;
         "fabric-1.21.8" = _wFdiigbp;
-        "fabric-1.21.11" = _pWPVgJGt;
+        "fabric-1.21.11" = _dIb8Hh6E;
         "fabric-26.1.2" = _bhqb5Q80;
         "fabric-26.1" = _bhqb5Q80;
         "fabric-26.1.1" = _bhqb5Q80;
@@ -185,7 +191,8 @@ let
         "pkg-1.1.2" = _oprd36OO;
         "pkg-1.1.3" = _iIDsaP29;
         "pkg-1.1.4" = _tqylDC8j;
-        "default" = _tqylDC8j;
+        "pkg-1.1.4-2" = _dIb8Hh6E;
+        "default" = _dIb8Hh6E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chat-highlight-n-sound";

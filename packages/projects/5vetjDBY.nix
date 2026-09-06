@@ -246,6 +246,26 @@ let
             "file" = "obscure_tooltips-forge-1.12.2-3.10.2.jar";
             "hash" = "sha512-iw3b3uz/85pKtwZoOcR0cIDJYbVHBV0Igob4xzFsq/ODDq+jKE230mJMICYqtyLrmOpi0zyUAAYwDK/gEY/tLg==";
         };
+        _GFzghj2Y = {
+            "id" = "GFzghj2Y";
+            "file" = "obscure_tooltips-fabric-1.21.1-4.2.3.jar";
+            "hash" = "sha512-ZlDYG0n0jSThfzNz/JMduBQG/VlwFmQU39OX1221KXTwiKKT421H+//PaPifneIMTiscpe7NyRvUqm4/UiwduQ==";
+        };
+        _JSoqAwFK = {
+            "id" = "JSoqAwFK";
+            "file" = "obscure_tooltips-neoforge-1.21.1-4.2.3.jar";
+            "hash" = "sha512-W7X2n91bARzV2dB1hj0LW4tbpNiYmPPCXf5CkBBGdKNvWN3ujz/KQHNaC4CC6JEhb6rHIcetaLMuTYWfFicxAw==";
+        };
+        _nGpQcruw = {
+            "id" = "nGpQcruw";
+            "file" = "obscure_tooltips-fabric-1.21.1-4.2.4.jar";
+            "hash" = "sha512-maERxavaQsZGovSwHMPou3V/RH18+CP4Iwb5joiKkJooqNFIL0lliOLrxJ25+h4FMuvJTSfp82W5IwwzwPjvkw==";
+        };
+        _f7xkynP2 = {
+            "id" = "f7xkynP2";
+            "file" = "obscure_tooltips-neoforge-1.21.1-4.2.4.jar";
+            "hash" = "sha512-Cw5j8UWwZdRGg/dpPAKIAH0efcUF3Rw+HNuSsTYlwMum/rgdtrbmHyAaoWz34JdCIsWVUtFD3nyJrqXbVWUT9Q==";
+        };
     in {
         "EcdKj1Oi" = _EcdKj1Oi;
         "vMFRVMtw" = _vMFRVMtw;
@@ -296,15 +316,19 @@ let
         "j7ZZ7Xha" = _j7ZZ7Xha;
         "QkcrmF4K" = _QkcrmF4K;
         "jEkA4yhG" = _jEkA4yhG;
+        "GFzghj2Y" = _GFzghj2Y;
+        "JSoqAwFK" = _JSoqAwFK;
+        "nGpQcruw" = _nGpQcruw;
+        "f7xkynP2" = _f7xkynP2;
         "fabric-1.20.1" = _iAUQRr8H;
-        "fabric-1.21.1" = _mBe8F11V;
+        "fabric-1.21.1" = _nGpQcruw;
         "fabric-1.21.11" = _HVCkWxdX;
         "quilt-1.20.1" = _iAUQRr8H;
-        "quilt-1.21.1" = _mBe8F11V;
+        "quilt-1.21.1" = _nGpQcruw;
         "quilt-1.21.11" = _HVCkWxdX;
         "forge-1.20.1" = _sFFZXXl8;
         "forge-1.12.2" = _jEkA4yhG;
-        "neoforge-1.21.1" = _sQ2dM0ur;
+        "neoforge-1.21.1" = _f7xkynP2;
         "neoforge-1.21.11" = _MSBersym;
         "pkg-3.1.0" = _vMFRVMtw;
         "pkg-3.1.1" = _hS5icoac;
@@ -331,7 +355,9 @@ let
         "pkg-5.0.0" = _MSBersym;
         "pkg-3.10.1" = _QkcrmF4K;
         "pkg-3.10.2" = _jEkA4yhG;
-        "default" = _jEkA4yhG;
+        "pkg-4.2.3" = _JSoqAwFK;
+        "pkg-4.2.4" = _f7xkynP2;
+        "default" = _f7xkynP2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "obscure-tooltips";

@@ -296,6 +296,16 @@ let
             "file" = "hammer_mod-fabric-26.2-4.4.4.jar";
             "hash" = "sha512-dgpx3DqCQjPqLOjkoe+iZBGzm1KVQQL2H2Tq+em4KlnJ9apg1ZIQENIg3pvzcOfgztrgIaykcYUbYwS/d8lCRg==";
         };
+        _xOitiImH = {
+            "id" = "xOitiImH";
+            "file" = "hammer_mod-fabric-26.2-4.4.5.jar";
+            "hash" = "sha512-57wfokQ6XM+aBuKcRJjBQQdkA2WRUmQmh5NV5BsDYpzcr3vkgSkpSwB4UbUMcsP5vpurZPFlTPyutQ03e96MHw==";
+        };
+        _Cpo0vMc9 = {
+            "id" = "Cpo0vMc9";
+            "file" = "hammer_mod-neoforge-26.2-4.4.5.jar";
+            "hash" = "sha512-DMESrrl0GD/QZZqji19TVJBFm5BUblwyJxz77Q+efpvGbfDomKQLm2ZCIJZ6FiNVthyda3v28nWlbtgcqoN+rA==";
+        };
     in {
         "T7QAYX73" = _T7QAYX73;
         "zCyDyzMU" = _zCyDyzMU;
@@ -356,6 +366,8 @@ let
         "w7P8x2ql" = _w7P8x2ql;
         "XFyoQ7rf" = _XFyoQ7rf;
         "rD5QkVSH" = _rD5QkVSH;
+        "xOitiImH" = _xOitiImH;
+        "Cpo0vMc9" = _Cpo0vMc9;
         "neoforge-1.21.1" = _1J3cdf0U;
         "neoforge-1.21.5" = _8Ug4A2ha;
         "neoforge-1.21.4" = _o6GXltWH;
@@ -372,13 +384,13 @@ let
         "neoforge-26.1" = _DUGbm0za;
         "neoforge-26.1.1" = _DUGbm0za;
         "neoforge-26.1.2" = _GoJD6A4V;
-        "neoforge-26.2" = _XFyoQ7rf;
+        "neoforge-26.2" = _Cpo0vMc9;
         "forge-1.20.1" = _MqF05qQK;
         "fabric-1.21.1" = _tYURyukU;
         "fabric-26.1.1" = _w79hLlmq;
         "fabric-26.1.2" = _w7P8x2ql;
         "fabric-26.1" = _w79hLlmq;
-        "fabric-26.2" = _rD5QkVSH;
+        "fabric-26.2" = _xOitiImH;
         "pkg-2.0.0" = _GHRJjsyb;
         "pkg-1.0.1" = _zCyDyzMU;
         "pkg-1.0.2" = _e6FQtDJW;
@@ -422,7 +434,9 @@ let
         "pkg-4.4.4-Fabric-26.1.2" = _w7P8x2ql;
         "pkg-4.4.4-NeoForge-26.2" = _XFyoQ7rf;
         "pkg-4.4.4-Fabric-26.2" = _rD5QkVSH;
-        "default" = _rD5QkVSH;
+        "pkg-4.4.5-Fabric-26.2" = _xOitiImH;
+        "pkg-4.4.5-NeoForge-26.2" = _Cpo0vMc9;
+        "default" = _Cpo0vMc9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hammersaddition";

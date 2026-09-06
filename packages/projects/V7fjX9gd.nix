@@ -261,6 +261,16 @@ let
             "file" = "speedometer-neoforge-6.4.3_26.2.jar";
             "hash" = "sha512-znYlfIp+0ZSVH3EvugCaK/cpEE/8pZkDXIzqkKe0VOy4TOGDdDnc8FvfXbHp15gK3sNsxhFzTH7RH9TK5+Jv+g==";
         };
+        _HdAbbSGg = {
+            "id" = "HdAbbSGg";
+            "file" = "speedometer-fabric-6.4.4_26.2.jar";
+            "hash" = "sha512-VqYoPtt7Xe5aHDzqFyqmxlsjtfJMKfwqmG5hvr0BMl2D4ZQph4LVdPmumkZFHVO5PaH5Dc+9Yzmn2IBA2+7Gjw==";
+        };
+        _gC8ykr4T = {
+            "id" = "gC8ykr4T";
+            "file" = "speedometer-neoforge-6.4.4_26.2.jar";
+            "hash" = "sha512-t9bQKi3Ok/J4zqlfy3YtJtVsIJOltbmMQnOLwax82gpKs+GyUNG1kbhig8emVcQCfXPyRxuqMGsWZ935rBuN8A==";
+        };
     in {
         "gRuVMbWw" = _gRuVMbWw;
         "kcucTUTE" = _kcucTUTE;
@@ -314,6 +324,8 @@ let
         "3V7Hve6z" = _3V7Hve6z;
         "9ujKEHYJ" = _9ujKEHYJ;
         "twAhC6Ca" = _twAhC6Ca;
+        "HdAbbSGg" = _HdAbbSGg;
+        "gC8ykr4T" = _gC8ykr4T;
         "fabric-1.20" = _XC63Tx60;
         "fabric-1.20.1" = _XC63Tx60;
         "fabric-1.20.2" = _XC63Tx60;
@@ -340,7 +352,7 @@ let
         "fabric-26.1" = _3V7Hve6z;
         "fabric-26.1.1" = _3V7Hve6z;
         "fabric-26.1.2" = _3V7Hve6z;
-        "fabric-26.2" = _9ujKEHYJ;
+        "fabric-26.2" = _HdAbbSGg;
         "forge-1.20" = _clZR3yTQ;
         "forge-1.20.1" = _clZR3yTQ;
         "forge-1.20.2" = _clZR3yTQ;
@@ -362,7 +374,7 @@ let
         "neoforge-1.21.10" = _q3wTmyTZ;
         "neoforge-1.21.11" = _ahaFEy4e;
         "neoforge-26.1.2" = _IPNJEsO4;
-        "neoforge-26.2" = _twAhC6Ca;
+        "neoforge-26.2" = _gC8ykr4T;
         "pkg-1.0" = _kcucTUTE;
         "pkg-2.0" = _7YtVaZha;
         "pkg-3.0" = _jPhWQF2p;
@@ -387,7 +399,8 @@ let
         "pkg-6.4.2" = _fxGrIl68;
         "pkg-6.4.2.1" = _3V7Hve6z;
         "pkg-6.4.3" = _twAhC6Ca;
-        "default" = _twAhC6Ca;
+        "pkg-6.4.4" = _gC8ykr4T;
+        "default" = _gC8ykr4T;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "speedometer";

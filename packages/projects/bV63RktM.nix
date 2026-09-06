@@ -181,6 +181,46 @@ let
             "file" = "1.4.7_POM.zip";
             "hash" = "sha512-0+fFI+Zr91hCRmyN8SAuOi9cCT4Wy+EdqLetWaGlEaCNoEL/rMUsC/oO850yUDzjjdOd2gRIqDmx7Dupp7AYvw==";
         };
+        _fc4cjlGK = {
+            "id" = "fc4cjlGK";
+            "file" = "a1.2-b1.1_02_POM.zip";
+            "hash" = "sha512-M9ouzhPmUvhyX2KNiIOyK1uOPmsY/OSdprM9KQW5iCgUA46LO8XVnvbGgdq6pIu8BhfQ6ddrPS5ymqxPWZTASQ==";
+        };
+        _pldScmHH = {
+            "id" = "pldScmHH";
+            "file" = "b1.7-b1.7.3_POM.zip";
+            "hash" = "sha512-lgos64sIlFFbW5peTMQ5QNFSETy+x18j9LLbQlRCY7IVT1X+F5o/LoPikFPc1iLF9gX0W4NT3fhni87c7s/bxA==";
+        };
+        _UgC96ttn = {
+            "id" = "UgC96ttn";
+            "file" = "1.4.7_POM.zip";
+            "hash" = "sha512-CVStvsSu1QgVMkvxEXK/RhEXgaXkTXiQCWcEE0hXKjiazSqxH1e+QJ9fTu0bwiNE4Nq5N/l8i5leRUlJ3VNI7A==";
+        };
+        _562BubpW = {
+            "id" = "562BubpW";
+            "file" = "1.5.2_POM.zip";
+            "hash" = "sha512-YqflZSZSicMIhZcFTJ7JeTQD4jaWqcPrCtRZPFp07xBPNrpIC1yIOBlj0IW4YPbAK4+ILHvJ3mSbR9FH+qwnEw==";
+        };
+        _qcdpYrka = {
+            "id" = "qcdpYrka";
+            "file" = "1.8.9_POM.zip";
+            "hash" = "sha512-SREILK4OBxuu0+fYIJLow5C0Aze0FN0zyF99J1g2tCIJNw2/0KOD8nBFn46CX+DTwVFiE5aaGBQqt0yueMGJEQ==";
+        };
+        _hd9ovDUq = {
+            "id" = "hd9ovDUq";
+            "file" = "1.12.2_POM.zip";
+            "hash" = "sha512-kJc1m58I0vQLlJpG9ZmkGd3MrOCeAGkDL99D4TgJWbDAwEE94ynRizhiK6GDMIANenxq1Y+U78F6OM8buxvxQg==";
+        };
+        _Y8cWHWC2 = {
+            "id" = "Y8cWHWC2";
+            "file" = "1.14.4_POM.zip";
+            "hash" = "sha512-YNx22zVDZPvSMUMwhYKDXukslLBuPO+QoHHd1TzRi5vLOOxOBwBJY8Xdjut1tl+x4CykFcaZyL/PIOXNOcq7VA==";
+        };
+        _NIKb8SFi = {
+            "id" = "NIKb8SFi";
+            "file" = "1.16.5_POM.zip";
+            "hash" = "sha512-qcXZaxHlxyS8QZQ98sr3gwC1i56CpBpaON9d16B6F4VBXqcME+hz4I4oOmKbasTVxmsaZZoLAr874ZadXcUvjg==";
+        };
     in {
         "cdkJ4EM4" = _cdkJ4EM4;
         "3hhsqBnf" = _3hhsqBnf;
@@ -218,14 +258,22 @@ let
         "PZSFYFUA" = _PZSFYFUA;
         "vq6EWksg" = _vq6EWksg;
         "j5LyKOlp" = _j5LyKOlp;
+        "fc4cjlGK" = _fc4cjlGK;
+        "pldScmHH" = _pldScmHH;
+        "UgC96ttn" = _UgC96ttn;
+        "562BubpW" = _562BubpW;
+        "qcdpYrka" = _qcdpYrka;
+        "hd9ovDUq" = _hd9ovDUq;
+        "Y8cWHWC2" = _Y8cWHWC2;
+        "NIKb8SFi" = _NIKb8SFi;
         "minecraft-a1.2.0" = _K1ButA7J;
-        "minecraft-b1.1_02" = _K1ButA7J;
+        "minecraft-b1.1_02" = _fc4cjlGK;
         "minecraft-b1.7" = _HsOIhWF9;
         "minecraft-b1.7.2" = _3hhsqBnf;
-        "minecraft-b1.7.3" = _HsOIhWF9;
-        "minecraft-1.5.2" = _fEALXZIr;
-        "minecraft-a1.2.6" = _K1ButA7J;
-        "minecraft-1.8.9" = _L56Olhsi;
+        "minecraft-b1.7.3" = _pldScmHH;
+        "minecraft-1.5.2" = _562BubpW;
+        "minecraft-a1.2.6" = _fc4cjlGK;
+        "minecraft-1.8.9" = _qcdpYrka;
         "minecraft-1.6.1" = _pw6vHmAa;
         "minecraft-1.6.2" = _pw6vHmAa;
         "minecraft-1.6.4" = _pw6vHmAa;
@@ -252,7 +300,7 @@ let
         "minecraft-1.11.2" = _rvbhjMEy;
         "minecraft-1.12" = _rvbhjMEy;
         "minecraft-1.12.1" = _rvbhjMEy;
-        "minecraft-1.12.2" = _Zc4bwRAh;
+        "minecraft-1.12.2" = _hd9ovDUq;
         "minecraft-1.13" = _IuRrVItZ;
         "minecraft-1.13.1" = _pJ7qyI3G;
         "minecraft-1.13.2" = _pJ7qyI3G;
@@ -260,11 +308,11 @@ let
         "minecraft-1.14.1" = _pJ7qyI3G;
         "minecraft-1.14.2" = _pJ7qyI3G;
         "minecraft-1.14.3" = _pJ7qyI3G;
-        "minecraft-1.14.4" = _IuRrVItZ;
-        "minecraft-b1.8" = _j5LyKOlp;
-        "minecraft-1.4.7" = _j5LyKOlp;
+        "minecraft-1.14.4" = _Y8cWHWC2;
+        "minecraft-b1.8" = _UgC96ttn;
+        "minecraft-1.4.7" = _UgC96ttn;
         "minecraft-1.15" = _PZSFYFUA;
-        "minecraft-1.16.5" = _PZSFYFUA;
+        "minecraft-1.16.5" = _NIKb8SFi;
         "minecraft-1.18" = _vq6EWksg;
         "minecraft-1.18.1" = _vq6EWksg;
         "minecraft-1.18.2" = _vq6EWksg;
@@ -303,7 +351,15 @@ let
         "pkg-1.16.5-V1" = _PZSFYFUA;
         "pkg-1.18.2-V1" = _vq6EWksg;
         "pkg-1.4.7-V2.1" = _j5LyKOlp;
-        "default" = _j5LyKOlp;
+        "pkg-A1.2-B1.1_02-V6" = _fc4cjlGK;
+        "pkg-B1.7-B1.7.3-V6" = _pldScmHH;
+        "pkg-1.4.7-V3" = _UgC96ttn;
+        "pkg-1.5.2-V7" = _562BubpW;
+        "pkg-1.8.9-V5" = _qcdpYrka;
+        "pkg-1.12.2-V4" = _hd9ovDUq;
+        "pkg-1.14.4-V3" = _Y8cWHWC2;
+        "pkg-1.16.5-V2" = _NIKb8SFi;
+        "default" = _NIKb8SFi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "prominence-of-minecraft";

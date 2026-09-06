@@ -111,6 +111,11 @@ let
             "file" = "daylight-mobs-reborn-1.2.22.jar";
             "hash" = "sha512-lkWmT1S6p0vu2b2F8BwMigzDimsJbRH8ccvKc7G8WSCQzdDaM4PCtaHNfoMoON/J8GYVJIK8EtE8VG1AKGoWKg==";
         };
+        _CEh0WtNE = {
+            "id" = "CEh0WtNE";
+            "file" = "daylight-mobs-reborn-1.2.23.jar";
+            "hash" = "sha512-YtVL4zPxF58LnYrAEa+wt2kVw1pXme344/mSqrp35El/W1nTECYFy8gAvy6pFQa9I+eVx8AoDyaF7jQ4AkR+Cg==";
+        };
     in {
         "Sma85AjU" = _Sma85AjU;
         "k8yOLzvx" = _k8yOLzvx;
@@ -134,6 +139,7 @@ let
         "AsL5rOlP" = _AsL5rOlP;
         "60lRrfqd" = _60lRrfqd;
         "NpxMZSlR" = _NpxMZSlR;
+        "CEh0WtNE" = _CEh0WtNE;
         "fabric-1.16.5" = _Sma85AjU;
         "fabric-1.17" = _k8yOLzvx;
         "fabric-1.17.1" = _k8yOLzvx;
@@ -158,6 +164,7 @@ let
         "fabric-26.1" = _NpxMZSlR;
         "fabric-26.1.1" = _NpxMZSlR;
         "fabric-26.1.2" = _NpxMZSlR;
+        "fabric-26.2" = _CEh0WtNE;
         "pkg-1.2.1" = _Sma85AjU;
         "pkg-1.2.2" = _k8yOLzvx;
         "pkg-1.2.3" = _nOeXspVr;
@@ -180,7 +187,8 @@ let
         "pkg-1.2.20" = _AsL5rOlP;
         "pkg-1.2.21" = _60lRrfqd;
         "pkg-1.2.22" = _NpxMZSlR;
-        "default" = _NpxMZSlR;
+        "pkg-1.2.23" = _CEh0WtNE;
+        "default" = _CEh0WtNE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "daylight-mobs-reborn";

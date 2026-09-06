@@ -141,6 +141,26 @@ let
             "file" = "eymistakens-hud-1.1.1-7.jar";
             "hash" = "sha512-e2YKrUmAK3oyIjHZrafDcWkC3TUzlvM+/geex1FBW5sOvsKo0iy5PBQhRsEV8kdYgR2idyyShzqFRFn5aSXyLg==";
         };
+        _IcZtTsCO = {
+            "id" = "IcZtTsCO";
+            "file" = "eymistakens-hud-1.1.1-8.jar";
+            "hash" = "sha512-iD1Hj8UAvErQVWZNT9/fYn9dnQReiiTWtG5btcVyeVz0mJf+8w6gzvWtHCLdcgUtg275LRMmuC92uBqiytRnTA==";
+        };
+        _dHiLRIM3 = {
+            "id" = "dHiLRIM3";
+            "file" = "eymistakens-hud-1.1.1-9.jar";
+            "hash" = "sha512-VO6vb00ueKQgD//9TMHao12Dd1Trt3r594zcwVp9+m6WuLVvxVYs9H3BSf5608lWBdnjz+K/lpJfq1N9tgYd+Q==";
+        };
+        _dIyg1qs3 = {
+            "id" = "dIyg1qs3";
+            "file" = "eymistakens-hud-1.2.0.jar";
+            "hash" = "sha512-PZPqj27KGuCPWNjJwT4p9gZS1s8nxCxZYcV2K6SDL234Yo9jLlvjhKcec/NifPEEMx3fWUY69CCrcGXtBB+wiw==";
+        };
+        _C6RyNsmK = {
+            "id" = "C6RyNsmK";
+            "file" = "eymistakens-hud-1.2.1.jar";
+            "hash" = "sha512-oYvVGmHxpSMDuoNd2qKdf0E5NekbFlI/8Tmx7cfPygd7yuBcXf/c6ae3qYfXh8O3ubtWfECsvca4yDno3ySXng==";
+        };
     in {
         "ysbpVtzy" = _ysbpVtzy;
         "C657F5KV" = _C657F5KV;
@@ -170,6 +190,10 @@ let
         "LyVHhsDo" = _LyVHhsDo;
         "PrFTR6GB" = _PrFTR6GB;
         "cHmrkQSe" = _cHmrkQSe;
+        "IcZtTsCO" = _IcZtTsCO;
+        "dHiLRIM3" = _dHiLRIM3;
+        "dIyg1qs3" = _dIyg1qs3;
+        "C6RyNsmK" = _C6RyNsmK;
         "fabric-1.21.6" = _N04H9Bst;
         "fabric-1.21.7" = _N04H9Bst;
         "fabric-1.21.8" = _N04H9Bst;
@@ -177,10 +201,10 @@ let
         "fabric-1.21.10" = _N04H9Bst;
         "fabric-1.21.11" = _N04H9Bst;
         "fabric-1.21.5" = _iuIwpC9q;
-        "fabric-26.1" = _cHmrkQSe;
-        "fabric-26.1.1" = _cHmrkQSe;
-        "fabric-26.1.2" = _cHmrkQSe;
-        "fabric-26.2" = _cHmrkQSe;
+        "fabric-26.1" = _C6RyNsmK;
+        "fabric-26.1.1" = _C6RyNsmK;
+        "fabric-26.1.2" = _C6RyNsmK;
+        "fabric-26.2" = _C6RyNsmK;
         "pkg-1.0.0" = _ysbpVtzy;
         "pkg-1.0.1" = _C657F5KV;
         "pkg-1.0.2" = _iuIwpC9q;
@@ -208,7 +232,11 @@ let
         "pkg-1.1.1-5" = _LyVHhsDo;
         "pkg-1.1.1-6" = _PrFTR6GB;
         "pkg-1.1.1-7" = _cHmrkQSe;
-        "default" = _cHmrkQSe;
+        "pkg-1.1.1-8" = _IcZtTsCO;
+        "pkg-1.1.1-9" = _dHiLRIM3;
+        "pkg-1.2.0" = _dIyg1qs3;
+        "pkg-1.2.1" = _C6RyNsmK;
+        "default" = _C6RyNsmK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eymistakenshud";

@@ -26,13 +26,19 @@ let
             "file" = "Updated Mobs 1.21.5 v.2.5.zip";
             "hash" = "sha512-O0IFgewbZ4tjRFyDnVTJkhXBt99+qdeD8TRONGUL1RV/RyVOonqWOP3NQU72XJTEoBIm28wE54QCHPiM4Ej+dA==";
         };
+        _e7R6O5nD = {
+            "id" = "e7R6O5nD";
+            "file" = "Updated Mobs 26.2 v.3.0.zip";
+            "hash" = "sha512-Y0yathyZR3MWsyHf4cJUE8cGD+Oma4+nOhSdtF53NrxYIhyxvd/4vFhKGWxXPLy3zsUNqZeijk8lH8I+4nyWxw==";
+        };
     in {
         "nG47MFS0" = _nG47MFS0;
         "rrIxqNCW" = _rrIxqNCW;
         "dZbUCxV8" = _dZbUCxV8;
         "c0eTWUL7" = _c0eTWUL7;
         "ZBcemrR7" = _ZBcemrR7;
-        "minecraft-1.19.4" = _nG47MFS0;
+        "e7R6O5nD" = _e7R6O5nD;
+        "minecraft-1.19.4" = _e7R6O5nD;
         "minecraft-1.20" = _nG47MFS0;
         "minecraft-1.20.1" = _nG47MFS0;
         "minecraft-1.20.2" = _nG47MFS0;
@@ -47,10 +53,15 @@ let
         "minecraft-1.21.4" = _ZBcemrR7;
         "minecraft-1.21.5" = _ZBcemrR7;
         "minecraft-1.21.6" = _c0eTWUL7;
+        "minecraft-26.1" = _e7R6O5nD;
+        "minecraft-26.1.1" = _e7R6O5nD;
+        "minecraft-26.1.2" = _e7R6O5nD;
+        "minecraft-26.2" = _e7R6O5nD;
         "pkg-1" = _nG47MFS0;
         "pkg-2" = _rrIxqNCW;
         "pkg-3" = _ZBcemrR7;
-        "default" = _ZBcemrR7;
+        "pkg-26.2" = _e7R6O5nD;
+        "default" = _e7R6O5nD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "updated-mobs";

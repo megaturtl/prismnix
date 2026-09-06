@@ -36,6 +36,11 @@ let
             "file" = "basichud-3.4.0.jar";
             "hash" = "sha512-dYxCVjfr23D3U75Q/a91da9sS9gEojCMQl6ruYBLX4QYAB/Q5AL5mp6udyiIHziUgII3HfTOvcPlT7GbmMiFwg==";
         };
+        _YXNlWyby = {
+            "id" = "YXNlWyby";
+            "file" = "basichud-3.6.0.jar";
+            "hash" = "sha512-DgzSSPDxY0Z6iNDwzimlhWH4pxA5Y57lgNUzzKJL1PDXZzCsnNeokUKj3alqcUEwn/ieth79qEFm4GLvNhisWA==";
+        };
     in {
         "C2SYrydP" = _C2SYrydP;
         "4vO82H0S" = _4vO82H0S;
@@ -44,7 +49,8 @@ let
         "jwlrea4y" = _jwlrea4y;
         "aixT6MLQ" = _aixT6MLQ;
         "TG1ZK0mO" = _TG1ZK0mO;
-        "forge-1.8.9" = _TG1ZK0mO;
+        "YXNlWyby" = _YXNlWyby;
+        "forge-1.8.9" = _YXNlWyby;
         "pkg-2.1.0" = _C2SYrydP;
         "pkg-2.2.0" = _4vO82H0S;
         "pkg-3.0.0" = _aWaYubew;
@@ -52,7 +58,8 @@ let
         "pkg-3.2.2" = _jwlrea4y;
         "pkg-3.2.3" = _aixT6MLQ;
         "pkg-3.4.0" = _TG1ZK0mO;
-        "default" = _TG1ZK0mO;
+        "pkg-3.6.0" = _YXNlWyby;
+        "default" = _YXNlWyby;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "basichud";

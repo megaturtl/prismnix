@@ -354,6 +354,7 @@ let
         "neoforge-26.1" = _UGW1CTqG;
         "neoforge-26.1.1" = _UGW1CTqG;
         "neoforge-26.1.2" = _UGW1CTqG;
+        "neoforge-26.2" = _UGW1CTqG;
         "pkg-1.0.3-fabric" = _rx5RlBsm;
         "pkg-1.0.3-forge" = _3LzweUmf;
         "pkg-1.0.4-fabric" = _WXGiA718;

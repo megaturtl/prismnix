@@ -41,6 +41,21 @@ let
             "file" = "scpo-3.0.0-forge-1.20.1.jar";
             "hash" = "sha512-vQeleIvouojsynMVn7rinviTupzCIot0LuKwmkjMGZlOZbMgXmLzhRrOGDYfFqA9QpXCgpxFRR0S6V3G3xAn2A==";
         };
+        _ZfoKEhOa = {
+            "id" = "ZfoKEhOa";
+            "file" = "scpo-3.1.0-forge-1.20.1public_alpha_test_build-3.jar";
+            "hash" = "sha512-PaS+lfdRMAuru+HwTDektsXqKl8tygIxNmscDDqBl65uZxU+iQ6zVdbv8G5gwkV2D9MSdylAq7Fhmv6nCcypBA==";
+        };
+        _9bCBJzgv = {
+            "id" = "9bCBJzgv";
+            "file" = "scpo-3.1.1-forge-1.20.1.jar";
+            "hash" = "sha512-+qVG5NkFa30wFnVUb3pAqrQQp9zXvZBIOCZyOoB0As2kHXrZI/qBH6deoZRtSIps1wnTwuJF8KixPoDg5i7dMw==";
+        };
+        _aY2LKyhS = {
+            "id" = "aY2LKyhS";
+            "file" = "scpo-3.1.2-forge-1.20.1.jar";
+            "hash" = "sha512-0crqLR7i44GhJJHYCYLw3v0ZND35bHMi+KM2IiEoXkBRiFBjpfdL/dcEzY5PVVh0DaNW20iF8I3++Jrw0sA6yw==";
+        };
     in {
         "FUubwMug" = _FUubwMug;
         "nGSiLViA" = _nGSiLViA;
@@ -50,8 +65,11 @@ let
         "l80sPPGE" = _l80sPPGE;
         "EkBEoK4a" = _EkBEoK4a;
         "JrBDE5og" = _JrBDE5og;
+        "ZfoKEhOa" = _ZfoKEhOa;
+        "9bCBJzgv" = _9bCBJzgv;
+        "aY2LKyhS" = _aY2LKyhS;
         "forge-1.16.5" = _FUubwMug;
-        "forge-1.20.1" = _JrBDE5og;
+        "forge-1.20.1" = _aY2LKyhS;
         "pkg-1.5.2" = _FUubwMug;
         "pkg-2.0.0" = _nGSiLViA;
         "pkg-2.0.8" = _FkdES7hx;
@@ -60,7 +78,10 @@ let
         "pkg-2.1.1" = _l80sPPGE;
         "pkg-2.2" = _EkBEoK4a;
         "pkg-3.0.0" = _JrBDE5og;
-        "default" = _JrBDE5og;
+        "pkg-3.1.0" = _ZfoKEhOa;
+        "pkg-3.1.1" = _9bCBJzgv;
+        "pkg-3.1.2" = _aY2LKyhS;
+        "default" = _aY2LKyhS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scp-overtime";

@@ -106,6 +106,11 @@ let
             "file" = "BlockMeter-20-26.1.jar";
             "hash" = "sha512-g+Kp9c1HngDYWhVAxE+O4qMlS+Ytn+16rOR+xIj8D6Qkwyi3g4/rStG4MQt/o63TK1z3rmRLrkhWMYCr71UgEQ==";
         };
+        _xpxSmDgO = {
+            "id" = "xpxSmDgO";
+            "file" = "BlockMeter-21-26.2.jar";
+            "hash" = "sha512-rjdqKk5Oon32Cfw2kf7kkm8I9hL/k5aH+hIKovBD3r4d5hWusq1XtaaWoJNhxMAgrwqhlIOijZUbOvD/nza/JQ==";
+        };
     in {
         "rqzE7cU2" = _rqzE7cU2;
         "Sp0n5r1E" = _Sp0n5r1E;
@@ -128,6 +133,7 @@ let
         "6E4UwP1c" = _6E4UwP1c;
         "AOmW58vr" = _AOmW58vr;
         "97uWlRe8" = _97uWlRe8;
+        "xpxSmDgO" = _xpxSmDgO;
         "fabric-1.18.2" = _rqzE7cU2;
         "fabric-1.19" = _JEMRlxY2;
         "fabric-1.19.1" = _JEMRlxY2;
@@ -154,6 +160,7 @@ let
         "fabric-26.1" = _97uWlRe8;
         "fabric-26.1.1" = _97uWlRe8;
         "fabric-26.1.2" = _97uWlRe8;
+        "fabric-26.2" = _xpxSmDgO;
         "pkg-1.6" = _rqzE7cU2;
         "pkg-v1.7.9" = _Sp0n5r1E;
         "pkg-v1.7.10" = _JEMRlxY2;
@@ -175,7 +182,8 @@ let
         "pkg-1.18" = _6E4UwP1c;
         "pkg-1.19" = _AOmW58vr;
         "pkg-20" = _97uWlRe8;
-        "default" = _97uWlRe8;
+        "pkg-22" = _xpxSmDgO;
+        "default" = _xpxSmDgO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blockmeter";

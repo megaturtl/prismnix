@@ -236,6 +236,11 @@ let
             "file" = "crabbersdelight-1.21.1-1.2.6.jar";
             "hash" = "sha512-JiJdeSbAzEWljedcqJ7IxLb2vcwDp2kY/8UJTuUvudDDgEAhOvN+5BwiSU+v6vW4YlkfR1I8SXYyQl8Ys93kNA==";
         };
+        _lqTZplSC = {
+            "id" = "lqTZplSC";
+            "file" = "crabbersdelight-1.21.1-1.3.0.jar";
+            "hash" = "sha512-rSMg0m2ulNXagvXkstfyFPK4V+iJcHzCnAp5q9SoOjjtfiA0yTdPg3tiSD70j/oHCEE3giuc6IOg1Km5TYSxbw==";
+        };
     in {
         "fe7Pjcyp" = _fe7Pjcyp;
         "Rs0QMT3i" = _Rs0QMT3i;
@@ -284,6 +289,7 @@ let
         "CwxH5yCK" = _CwxH5yCK;
         "9NT9IkSs" = _9NT9IkSs;
         "uwSpUkrQ" = _uwSpUkrQ;
+        "lqTZplSC" = _lqTZplSC;
         "forge-1.19.2" = _q2lyova5;
         "forge-1.20.1" = _9NT9IkSs;
         "forge-1.18.2" = _raWodeSb;
@@ -291,7 +297,7 @@ let
         "neoforge-1.20" = _ANlvYe3X;
         "neoforge-1.20.1" = _OJEzJil1;
         "neoforge-1.21" = _DdCpl5Lq;
-        "neoforge-1.21.1" = _uwSpUkrQ;
+        "neoforge-1.21.1" = _lqTZplSC;
         "pkg-1.0.0" = _fe7Pjcyp;
         "pkg-1.0.1" = _Rs0QMT3i;
         "pkg-1.0.2" = _icazXdt2;
@@ -322,7 +328,8 @@ let
         "pkg-1.2.4" = _3jloHMLU;
         "pkg-1.2.5" = _CwxH5yCK;
         "pkg-1.2.6" = _uwSpUkrQ;
-        "default" = _uwSpUkrQ;
+        "pkg-1.3.0" = _lqTZplSC;
+        "default" = _lqTZplSC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crabbers-delight";

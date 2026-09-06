@@ -861,6 +861,21 @@ let
             "file" = "simple_smithing_overhaul-2.9.9+26.2-fabric.jar";
             "hash" = "sha512-RN6OHXMbvtHoXyVwyuBui29D4sugW2e1/MJw+upq0KkaYTdpnlsMN1OoAylLrgf3JaKOvUEI6onO6WMNCppxEw==";
         };
+        _mZ0VXOxm = {
+            "id" = "mZ0VXOxm";
+            "file" = "simple_smithing_overhaul-2.9.10+26.1.2-neoforge.jar";
+            "hash" = "sha512-pVChQqt8Ozk6nb7lhfE+kev4akBEerOxe/qx3Lm3p97+3Qih9JzaOJnDMLEkrRvl9Sd02Y+uzUYrrhFn//hg+g==";
+        };
+        _GG4f5wOP = {
+            "id" = "GG4f5wOP";
+            "file" = "simple_smithing_overhaul-2.9.10+26.2-fabric.jar";
+            "hash" = "sha512-X/LllVUrkCuP6ryz4WjicgO5oT+fTQd3IXkG7YwK78MSV2jHJDFu2qI6YIAmJr0GMyAe5PZOHydNrL6Q5ajWKg==";
+        };
+        _xNgeTf2V = {
+            "id" = "xNgeTf2V";
+            "file" = "simple_smithing_overhaul-2.9.10+26.1.2-fabric.jar";
+            "hash" = "sha512-bhnF5OgkJOTItBrFg/Y2CkD0w/XY96n+LEGG0dx0+G7Z/ljB66oS3+ntbj6kkQn8CxK46csXXGZeAN5krZsDlA==";
+        };
     in {
         "tHAe9lqL" = _tHAe9lqL;
         "qmFU7v1j" = _qmFU7v1j;
@@ -1034,6 +1049,9 @@ let
         "jXOizhoC" = _jXOizhoC;
         "DaMq0DEX" = _DaMq0DEX;
         "A8DnjQ4x" = _A8DnjQ4x;
+        "mZ0VXOxm" = _mZ0VXOxm;
+        "GG4f5wOP" = _GG4f5wOP;
+        "xNgeTf2V" = _xNgeTf2V;
         "fabric-1.21" = _O11QPzfw;
         "fabric-1.21.1" = _xJQe64Vw;
         "fabric-1.21.2" = _8n7BeJuS;
@@ -1046,8 +1064,8 @@ let
         "fabric-1.21.11" = _7ZDrzmuL;
         "fabric-26.1" = _ydzXhA0I;
         "fabric-26.1.1" = _ydzXhA0I;
-        "fabric-26.1.2" = _DaMq0DEX;
-        "fabric-26.2" = _A8DnjQ4x;
+        "fabric-26.1.2" = _xNgeTf2V;
+        "fabric-26.2" = _GG4f5wOP;
         "neoforge-1.21" = _NctCeuNj;
         "neoforge-1.21.1" = _93qypBbb;
         "neoforge-1.21.2" = _mqksnXUR;
@@ -1057,7 +1075,7 @@ let
         "neoforge-1.21.11" = _dECFxnn4;
         "neoforge-26.1" = _jgDFDYw6;
         "neoforge-26.1.1" = _jgDFDYw6;
-        "neoforge-26.1.2" = _jXOizhoC;
+        "neoforge-26.1.2" = _mZ0VXOxm;
         "pkg-1.0.0+1.21.1" = _vCq0WEsa;
         "pkg-1.0.0+1.21.3" = _Ix2C2ACF;
         "pkg-1.0.0+1.21.4" = _e4n3p3DU;
@@ -1203,7 +1221,10 @@ let
         "pkg-2.9.9+26.1.2-neoforge" = _jXOizhoC;
         "pkg-2.9.9+26.1.2-fabric" = _DaMq0DEX;
         "pkg-2.9.9+26.2-fabric" = _A8DnjQ4x;
-        "default" = _A8DnjQ4x;
+        "pkg-2.9.10+26.1.2-neoforge" = _mZ0VXOxm;
+        "pkg-2.9.10+26.2-fabric" = _GG4f5wOP;
+        "pkg-2.9.10+26.1.2-fabric" = _xNgeTf2V;
+        "default" = _xNgeTf2V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-smithing-overhaul";

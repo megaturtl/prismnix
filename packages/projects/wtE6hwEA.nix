@@ -161,26 +161,6 @@ let
             "file" = "craftableinvframes-2.4.0.jar";
             "hash" = "sha512-woRmDcdsv/ph2FGIuhEaE0WYrJj+KO6AAq6HynVpnrVRrr5CVjev/8ZiPEp6AFS4kiX4/dn675nazAIpSEUsDQ==";
         };
-        _KHxiV4vC = {
-            "id" = "KHxiV4vC";
-            "file" = "craftableinvframes-2.4.1-SNAPSHOT.jar";
-            "hash" = "sha512-NTrTCXF7RvJJhO0W8artJVMmg8PPdRLwCyKkP5GaipOuL6/Yle56n50AMw/dslfhexMKVojH4EX0e50bDILSAA==";
-        };
-        _Mqt1heqw = {
-            "id" = "Mqt1heqw";
-            "file" = "craftableinvframes-2.4.1-SNAPSHOT2.jar";
-            "hash" = "sha512-owL4Qzql7y1sMIi6QtgHY6MjScXVvGFSobLAaQQtTGiblx2aEpraK2g/b0lQyMRwhaTxVfBQZMFId1nd8PANhw==";
-        };
-        _z2a1fHoI = {
-            "id" = "z2a1fHoI";
-            "file" = "craftableinvframes-2.4.1-SNAPSHOT3.jar";
-            "hash" = "sha512-Qn0DZdj2yjmzJQn0ceJLlExS7MfzjNB9kgOb4KMf3Gqkrd8wHw03LLTA00c3a8tSEHqe1AkLgjgzKfb97XNbIw==";
-        };
-        _zabL7CeW = {
-            "id" = "zabL7CeW";
-            "file" = "craftableinvframes-2.4.1-SNAPSHOT4.jar";
-            "hash" = "sha512-wRrVJM+ZiuvSKX5O0idGnpLxV0dK/Qufwjii37ez4M2MdvIsH2XeMd73UPfSr89yCha1HvgsSH3aIezvsJWIrg==";
-        };
         _snCgr9QJ = {
             "id" = "snCgr9QJ";
             "file" = "craftableinvframes-2.4.1.jar";
@@ -219,10 +199,6 @@ let
         "Hr5pMypq" = _Hr5pMypq;
         "8QJ5bqLE" = _8QJ5bqLE;
         "NZdsT8Tn" = _NZdsT8Tn;
-        "KHxiV4vC" = _KHxiV4vC;
-        "Mqt1heqw" = _Mqt1heqw;
-        "z2a1fHoI" = _z2a1fHoI;
-        "zabL7CeW" = _zabL7CeW;
         "snCgr9QJ" = _snCgr9QJ;
         "bukkit-1.18" = _2CKm5VAw;
         "bukkit-1.18.1" = _2CKm5VAw;
@@ -313,7 +289,7 @@ let
         "paper-1.21.9" = _FkL5mguO;
         "paper-1.21.10" = _FkL5mguO;
         "paper-1.21.11" = _Hr5pMypq;
-        "paper-26.1.2" = _Mqt1heqw;
+        "paper-26.1.2" = _NZdsT8Tn;
         "paper-26.2" = _snCgr9QJ;
         "spigot-1.18" = _2CKm5VAw;
         "spigot-1.18.1" = _2CKm5VAw;
@@ -404,9 +380,9 @@ let
         "purpur-1.21.9" = _FkL5mguO;
         "purpur-1.21.10" = _FkL5mguO;
         "purpur-1.21.11" = _7Sm7uaRu;
-        "purpur-26.1.2" = _Mqt1heqw;
+        "purpur-26.1.2" = _NZdsT8Tn;
         "purpur-26.2" = _snCgr9QJ;
-        "folia-26.1.2" = _Mqt1heqw;
+        "folia-26.1.2" = _NZdsT8Tn;
         "folia-26.2" = _snCgr9QJ;
         "pkg-2.1.4" = _iTAiqAol;
         "pkg-2.1.5" = _Nj4xNMzL;
@@ -436,10 +412,6 @@ let
         "pkg-2.3.3" = _Hr5pMypq;
         "pkg-2.3.4" = _8QJ5bqLE;
         "pkg-2.4.0" = _NZdsT8Tn;
-        "pkg-2.4.1-SNAPSHOT" = _KHxiV4vC;
-        "pkg-2.4.1-SNAPSHOT2" = _Mqt1heqw;
-        "pkg-2.4.1-SNAPSHOT3" = _z2a1fHoI;
-        "pkg-2.4.1-SNAPSHOT4" = _zabL7CeW;
         "pkg-2.4.1" = _snCgr9QJ;
         "default" = _snCgr9QJ;
     });
@@ -455,7 +427,7 @@ let
                 redistributable = false;
                 fullName = "GNU General Public License v3.0 or later";
                 shortName = "GPL-3.0-or-later";
-                url = "https://codeberg.org/WasteLandOrigin/CraftableInvFrames/src/branch/main/LICENSE";
+                url = "https://codeberg.org/WasteLandOrigin/CraftableInvFrames/src/branch/main/LICENSE.md";
             };
         };
     };

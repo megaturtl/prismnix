@@ -312,6 +312,11 @@ let
         "fabric-26.3-snapshot-5" = _VEms9sBf;
         "fabric-26.3-snapshot-6" = _VEms9sBf;
         "fabric-26.3-snapshot-7" = _VEms9sBf;
+        "fabric-26.3-snapshot-8" = _VEms9sBf;
+        "fabric-26.3-snapshot-9" = _VEms9sBf;
+        "fabric-26.3-snapshot-10" = _VEms9sBf;
+        "fabric-26.3-pre-1" = _VEms9sBf;
+        "fabric-26.3-pre-2" = _VEms9sBf;
         "neoforge-1.21" = _RlBJJ9Gf;
         "neoforge-1.21.1" = _RlBJJ9Gf;
         "neoforge-1.21.2" = _5jpevoGv;

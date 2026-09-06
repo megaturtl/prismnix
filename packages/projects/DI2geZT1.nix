@@ -101,6 +101,66 @@ let
             "file" = "stepcrafter-fabric-1.21.1-0.1.6.jar";
             "hash" = "sha512-IJ3no9od5XbPiMYs4hyhc2W0lP65Z01bTnfSTEx8flo0+3V3Y594UhN0cgz8uZmcWgpTiF2kXjgv1/fDj19npg==";
         };
+        _r3fclAA7 = {
+            "id" = "r3fclAA7";
+            "file" = "stepcrafter-neoforge-26.1.2-1.0.1.jar";
+            "hash" = "sha512-9j2KrGIFKRv1QdBwi+h33pR6Yyd+jXBqGvovvFZl5+i7YpY3YFMUhs59MW2JB4yR6MpBOAdER4QelnFLhk6BYA==";
+        };
+        _FSvUTHze = {
+            "id" = "FSvUTHze";
+            "file" = "stepcrafter-fabric-26.1.2-1.0.1.jar";
+            "hash" = "sha512-t5sfNCTCXf/5aR2vC1hPYSPKe3H+IwpVAMuFROKvnlKSqEoLpYWUUkcFuRI+exKIW2h0RF6FE7qFbOaoYV1WnA==";
+        };
+        _1dkU2CaY = {
+            "id" = "1dkU2CaY";
+            "file" = "stepcrafter-neoforge-1.21.1-0.1.7.jar";
+            "hash" = "sha512-IPZcQ9t2fbty2fuRlDemvF1/jbN/ym9LuWwdF+cDfJyq5+Ied+z/tOorAgscv6Xp9Ic47i4ZLI8bnpf24Xhrtw==";
+        };
+        _e2HjVmCu = {
+            "id" = "e2HjVmCu";
+            "file" = "stepcrafter-fabric-1.21.1-0.1.7.jar";
+            "hash" = "sha512-9+c5xIXUGECGTWWSBTLnEOuU2q22M1JLjhHJHA6RLobQBZEBZxHIVGD0wTY3jF07z/JR/VmGbRs/SU/GNHioeQ==";
+        };
+        _F0YyNUFa = {
+            "id" = "F0YyNUFa";
+            "file" = "stepcrafter-neoforge-26.1.2-1.0.2.jar";
+            "hash" = "sha512-TIYFqa5WPS1OcPI3fcuwCQJDhtCISijYmPJ6eJddkZAMwMaTUYtuzSds4aieLE0wvWYjT0YNf5ds4U47iPNCHw==";
+        };
+        _FdUex472 = {
+            "id" = "FdUex472";
+            "file" = "stepcrafter-fabric-26.1.2-1.0.2.jar";
+            "hash" = "sha512-YOpzuxTtxqLDY9YmVmUBRTiFSKJe/jkgX7cmy+isMYJNGxCQMSU3Hwcd0008cVuRAsKFLbbKixE0MZQQGCUpbw==";
+        };
+        _C1TXW68t = {
+            "id" = "C1TXW68t";
+            "file" = "stepcrafter-neoforge-1.21.1-0.1.8.jar";
+            "hash" = "sha512-jH4yVdrI5p+gAA72/5p8KPkSEPVpN31cD/uXVif6wvUi1DB9Ah3QT+e6cEBejVMuUe5QKbfJFFkAjwv1MgLeuQ==";
+        };
+        _Ks84q8Lf = {
+            "id" = "Ks84q8Lf";
+            "file" = "stepcrafter-fabric-1.21.1-0.1.8.jar";
+            "hash" = "sha512-ICTL/PxkfD0raNjJhsfyaxHhbuomob8uuMQC17MGe0KokeFTO19BuWIZLhAoeauf03r5dbON54qvLd9RNWMKew==";
+        };
+        _XneLArMN = {
+            "id" = "XneLArMN";
+            "file" = "stepcrafter-neoforge-1.21.1-0.1.9.jar";
+            "hash" = "sha512-VvJCNHOMDyormqNg+BSCpmQDt8S8cFGL+bV0aoPuDY18eqjbwsQ6gXi/Al6lLCxBJcaYYuhYNWIccsDlXwORHw==";
+        };
+        _dXBuD7kB = {
+            "id" = "dXBuD7kB";
+            "file" = "stepcrafter-fabric-1.21.1-0.1.9.jar";
+            "hash" = "sha512-8ZAT/4BSbjdFGqzmCAFw7pkWOx5kVgMqyspeLol1VwEyQGutuapraz0qX78Q821Y1R/hLAhAuSMXidCH0lqYnA==";
+        };
+        _ZpjjuMkY = {
+            "id" = "ZpjjuMkY";
+            "file" = "stepcrafter-neoforge-26.1.2-1.0.3.jar";
+            "hash" = "sha512-m49QkVHy2XfGfANVrFU4MN3UsV2pS1i5o1jxTmcPeYJaOTtG14oel7ON0FyIJK8ijFSuRIS19Duj0WVHFdCRww==";
+        };
+        _rZJDc4o4 = {
+            "id" = "rZJDc4o4";
+            "file" = "stepcrafter-fabric-26.1.2-1.0.3.jar";
+            "hash" = "sha512-SnBACQ+U+WPBzT3/75Xn+LRJV0smd3VQlVi+El6Nfrfg6yiw54V6FYrG+c/n7mDjhq5OAVlEC8o1mceiKw79XQ==";
+        };
     in {
         "DG483GUj" = _DG483GUj;
         "Iwg2LAYE" = _Iwg2LAYE;
@@ -122,10 +182,22 @@ let
         "DturTFVR" = _DturTFVR;
         "GX8f8Cbb" = _GX8f8Cbb;
         "rrr29e0j" = _rrr29e0j;
-        "neoforge-1.21.1" = _GX8f8Cbb;
-        "neoforge-26.1.2" = _OnKtwFvv;
-        "fabric-1.21.1" = _rrr29e0j;
-        "fabric-26.1.2" = _DturTFVR;
+        "r3fclAA7" = _r3fclAA7;
+        "FSvUTHze" = _FSvUTHze;
+        "1dkU2CaY" = _1dkU2CaY;
+        "e2HjVmCu" = _e2HjVmCu;
+        "F0YyNUFa" = _F0YyNUFa;
+        "FdUex472" = _FdUex472;
+        "C1TXW68t" = _C1TXW68t;
+        "Ks84q8Lf" = _Ks84q8Lf;
+        "XneLArMN" = _XneLArMN;
+        "dXBuD7kB" = _dXBuD7kB;
+        "ZpjjuMkY" = _ZpjjuMkY;
+        "rZJDc4o4" = _rZJDc4o4;
+        "neoforge-1.21.1" = _XneLArMN;
+        "neoforge-26.1.2" = _ZpjjuMkY;
+        "fabric-1.21.1" = _dXBuD7kB;
+        "fabric-26.1.2" = _rZJDc4o4;
         "pkg-1.21.1-0.0.1" = _Iwg2LAYE;
         "pkg-1.21.1-0.0.2" = _VlFN1E7d;
         "pkg-1.21.1-0.1.0" = _JNSyZ1Oz;
@@ -136,7 +208,13 @@ let
         "pkg-1.21.1-0.1.5" = _6BqYuzBb;
         "pkg-26.1.2-1.0.0" = _DturTFVR;
         "pkg-1.21.1-0.1.6" = _rrr29e0j;
-        "default" = _rrr29e0j;
+        "pkg-26.1.2-1.0.1" = _FSvUTHze;
+        "pkg-1.21.1-0.1.7" = _e2HjVmCu;
+        "pkg-26.1.2-1.0.2" = _FdUex472;
+        "pkg-1.21.1-0.1.8" = _Ks84q8Lf;
+        "pkg-1.21.1-0.1.9" = _dXBuD7kB;
+        "pkg-26.1.2-1.0.3" = _rZJDc4o4;
+        "default" = _rZJDc4o4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "step-crafter";

@@ -246,6 +246,21 @@ let
             "file" = "dreamtinker-2.2.7.2-1.20.1-SNAPSHOT.jar";
             "hash" = "sha512-MLNd1TQMtOFsnRTxH16LAPLUUHXmymqToUVOCipC+/dSZUnBhnAadh1tg9t9oVI4ReEN0QedpCEBhfhQsDSDOQ==";
         };
+        _pfrdFfev = {
+            "id" = "pfrdFfev";
+            "file" = "dreamtinker-2.2.7.3-1.20.1-SNAPSHOT.jar";
+            "hash" = "sha512-uoPrqPvfCdLkcE6rTcdGZnfR6cZwHxiIbVuqe02UuGRzXYLekzZ80WbTcazGWgZXU97YeJ8f/8tRwzz2h8AbzQ==";
+        };
+        _BhmAvftO = {
+            "id" = "BhmAvftO";
+            "file" = "dreamtinker-2.2.8.0-1.20.1-SNAPSHOT.jar";
+            "hash" = "sha512-DVeRPG/PoI9Zo3V7JHUgbNcyfbx6rhMt+IWYKFEzh4DCuEIMKC1OAl8IIQRJdSVrSzyAYetqYabMgOivPJP63Q==";
+        };
+        _XkxJ9vrr = {
+            "id" = "XkxJ9vrr";
+            "file" = "dreamtinker-2.2.9.0-1.20.1-SNAPSHOT.jar";
+            "hash" = "sha512-h63Kcm39IQ19vCZqypFNin1o864taXBZrWHFZBhkz0+TZKyp+xoXblPPSpohsBhEybpX9/JoRy38UTH6fW9Ygw==";
+        };
     in {
         "2ZFQouCc" = _2ZFQouCc;
         "NOXhWr31" = _NOXhWr31;
@@ -296,13 +311,11 @@ let
         "OVsbCt7X" = _OVsbCt7X;
         "4YUGUJ8h" = _4YUGUJ8h;
         "3dPZJSbR" = _3dPZJSbR;
+        "pfrdFfev" = _pfrdFfev;
+        "BhmAvftO" = _BhmAvftO;
+        "XkxJ9vrr" = _XkxJ9vrr;
         "forge-1.19.2" = _2ZFQouCc;
-        "forge-1.20.1" = _3dPZJSbR;
-        "forge-1.20.2" = _OVsbCt7X;
-        "forge-1.20.3" = _OVsbCt7X;
-        "forge-1.20.4" = _OVsbCt7X;
-        "forge-1.20.5" = _OVsbCt7X;
-        "forge-1.20.6" = _OVsbCt7X;
+        "forge-1.20.1" = _XkxJ9vrr;
         "pkg-1.2-SNAPSHOT" = _2ZFQouCc;
         "pkg-2.0-SNAPSHOT" = _NOXhWr31;
         "pkg-2.0.2-SNAPSHOT" = _x15Y2V0J;
@@ -352,7 +365,10 @@ let
         "pkg-2.2.7.0-1.20.1-SNAPSHOT" = _OVsbCt7X;
         "pkg-2.2.7.1-1.20.1-SNAPSHOT" = _4YUGUJ8h;
         "pkg-2.2.7.2-1.20.1-SNAPSHOT" = _3dPZJSbR;
-        "default" = _3dPZJSbR;
+        "pkg-2.2.7.3-1.20.1-SNAPSHOT" = _pfrdFfev;
+        "pkg-2.2.8.0-1.20.1-SNAPSHOT" = _BhmAvftO;
+        "pkg-2.2.9.0-1.20.1-SNAPSHOT" = _XkxJ9vrr;
+        "default" = _XkxJ9vrr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dreamtinker";

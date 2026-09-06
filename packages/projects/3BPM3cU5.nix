@@ -1031,6 +1031,116 @@ let
             "file" = "Dark Smooth GUI 26.2.x.zip";
             "hash" = "sha512-UJVK164cCBVZiGVRqHqR9kKLcE0ugszrtfDTXf/A0Qb2EnRN8EA0ucaEkm/I8J/J4LtETvHFgpd5tZJzSzx3HA==";
         };
+        _xMmUwguL = {
+            "id" = "xMmUwguL";
+            "file" = "Dark Smooth GUI 1.21.11.zip";
+            "hash" = "sha512-eMS8ynwtFVgCYxUSr+8QVrwSi7ZHkjKwkuocK0gHE6AmS0r3YBCLjH9tgGiN4tBcALSBrb1j5pAWa05fKOHMeQ==";
+        };
+        _tbax0z6Q = {
+            "id" = "tbax0z6Q";
+            "file" = "Dark Smooth GUI 1.17.x blue-3D94FF-5EA6FF-0049A3-00316E.zip";
+            "hash" = "sha512-/dV7jb1bxRI27Af2rz/BKxXGnyHTpZtdVWJ0XHHukVo1BprCgLxbi43ib+/3oCJU/meAnAqaf2S/vsnN1EtanQ==";
+        };
+        _eWz2cnG3 = {
+            "id" = "eWz2cnG3";
+            "file" = "Dark Smooth GUI 26.1.x.zip";
+            "hash" = "sha512-Af+sPexfpGu2cStYbiIJb4KDcQJMVErD0KFR66j+3VJjUS4nBz9A+1mmqkvEzDBbx+AzQ0PcbBo3fxd5uLuXfg==";
+        };
+        _rJwpbMkB = {
+            "id" = "rJwpbMkB";
+            "file" = "Dark Smooth GUI 1.18.x blue-3D94FF-5EA6FF-0049A3-00316E.zip";
+            "hash" = "sha512-k+p9/0jR8BdbdIXa7m5yNxHSVfWmfbXW40Vv7q77SZkZcpYUU5kLFIMEHx1DZDKWH+AfmehqMER3Hu6J/cIjkg==";
+        };
+        _gu5EII8f = {
+            "id" = "gu5EII8f";
+            "file" = "Dark Smooth GUI 1.17.x.zip";
+            "hash" = "sha512-I4x5C5LyKe42rU9gssPdSDvZhiBKMX88plrCKxpvNmKxWKXrMOsKPy/2Oour7aw8bcf2sLGatOfJEQUxXn8DLQ==";
+        };
+        _ArghPH0E = {
+            "id" = "ArghPH0E";
+            "file" = "Dark Smooth GUI 1.20-1.20.1.zip";
+            "hash" = "sha512-45+dhQ51fhH5NksAm9PUOu6m6AoxNuiLO70EMc4bdA5E4Udq9CNdny82cP6vrdGaU2C1KOrsRLZp6Wb+FM6PBQ==";
+        };
+        _UeunGO98 = {
+            "id" = "UeunGO98";
+            "file" = "Dark Smooth GUI 1.19.x blue-3D94FF-5EA6FF-0049A3-00316E.zip";
+            "hash" = "sha512-M179xgUBr1h+ru0RzEWt7a4Z141Ni8dAfEfc2HTWk4MprGePAFSqbf2jUqc0Dj80/NAal7pfbcer0N1EmZRkHg==";
+        };
+        _v93Rjmiu = {
+            "id" = "v93Rjmiu";
+            "file" = "Dark Smooth GUI 1.19.x.zip";
+            "hash" = "sha512-RXrT+b2FplhiqBos/ZJHEgsnIh3HJRk9Xd0rO4sT9k/cH69R6konnjFjOJWeSmRHIyEul/him8V8u65stNJIkg==";
+        };
+        _tReM1f8S = {
+            "id" = "tReM1f8S";
+            "file" = "Dark Smooth GUI 1.21.6-1.21.8.zip";
+            "hash" = "sha512-XMn3AGAcZAnTea26LouC92UtGQo6kl1RSvxHCzZ8pGUlqGJN9ryaL8tI1zrkqu2mPKMNFW2Pa9Btt316O0EStg==";
+        };
+        _x4qfUjqP = {
+            "id" = "x4qfUjqP";
+            "file" = "Dark Smooth GUI 26.1.x blue-3D94FF-5EA6FF-0049A3-00316E.zip";
+            "hash" = "sha512-ZPhVpwZWns3Tn0i1O6PuqVdxKc44EnQcjUoaRmSe/GpNrbTBDZ+VEEGhP3JqFZiKiJ7SlZ0zLx87faMb4yZhIQ==";
+        };
+        _wXswayxE = {
+            "id" = "wXswayxE";
+            "file" = "Dark Smooth GUI 26.2.x blue-3D94FF-5EA6FF-0049A3-00316E.zip";
+            "hash" = "sha512-zCpuDMGgpTQlc1fq90QH7++cUOvJCSRAsH7w8Jpnq0carfuolMxE5aPoCTSoJy771K1pc6SAEYR4A8UeLqBHEQ==";
+        };
+        _BQbZaJmU = {
+            "id" = "BQbZaJmU";
+            "file" = "Dark Smooth GUI 1.20-1.20.1 blue-3D94FF-5EA6FF-0049A3-00316E.zip";
+            "hash" = "sha512-uc5BiFrFYDAyrCQko94/bTAqTV/KZKSQvBKJJNHOV0kpZCqjwZKKOP8JAbJaw0aMJoP8784c1jeWuJO1tLc4ww==";
+        };
+        _yZlFAKt2 = {
+            "id" = "yZlFAKt2";
+            "file" = "Dark Smooth GUI 1.21.6-1.21.8 blue-3D94FF-5EA6FF-0049A3-00316E.zip";
+            "hash" = "sha512-3Y2NaTZitGlX0Kjt6wpsC9GqijBaxM9QS2SBPfzCEvdU9igcKtj2m12AdpqhsFT6H5pwgxDic36MZwZq2IW9Qg==";
+        };
+        _SpHmLhAT = {
+            "id" = "SpHmLhAT";
+            "file" = "Dark Smooth GUI 1.20.5-1.21.5 blue-3D94FF-5EA6FF-0049A3-00316E.zip";
+            "hash" = "sha512-NqzfAiFxaY9me8SbbVc4GQH/fZfELxapg2PI+/g5GpL7L4rDMq5IYP5q/3xAElOzoIPpHFbs2VErwZPhbMZ5NA==";
+        };
+        _dEqHyvYY = {
+            "id" = "dEqHyvYY";
+            "file" = "Dark Smooth GUI 1.21.11 blue-3D94FF-5EA6FF-0049A3-00316E.zip";
+            "hash" = "sha512-11eZliGUQJAnamv3F7lVZv+AypBT8m9CTdND5jpd9AgGKDw63hHQTCZZ2Ff8N5UB4NiDQ/L50JCmj5x9atuySQ==";
+        };
+        _5quMI7xe = {
+            "id" = "5quMI7xe";
+            "file" = "Dark Smooth GUI 1.18.x.zip";
+            "hash" = "sha512-U7ZmLa3XLS31dYP0i5FQ7GXtYXoaKZ2z6JXguuQ85D9Ov5peC+H34o4HmKhk7El+9tyxEi0sf3EPmXn3zPLDxA==";
+        };
+        _BgalxE2V = {
+            "id" = "BgalxE2V";
+            "file" = "Dark Smooth GUI 1.20.5-1.21.5.zip";
+            "hash" = "sha512-JOuT/JcT6S6YtC9Pq7HMoLgUotBuTCrJlDk1k9hPwJ+gpb6sHR8T30qkkAM7z3aU+3FyzgunGIKZORkPEgJVXQ==";
+        };
+        _gZQN6wvG = {
+            "id" = "gZQN6wvG";
+            "file" = "Dark Smooth GUI 26.2.x.zip";
+            "hash" = "sha512-E5WLfkYAq86Mjg2LuuEDqH2jWmBnurycq1QqeM9tfA1RIjVVEVikbuiJdffvb1KcVrUmzrW3y1cbx8amjn7IAQ==";
+        };
+        _nkCzEzkx = {
+            "id" = "nkCzEzkx";
+            "file" = "Dark Smooth GUI 1.20.2-1.20.4 blue-3D94FF-5EA6FF-0049A3-00316E.zip";
+            "hash" = "sha512-2tZ3uk81J8aKIK6G92/MpUVNf0PpZXOQQMFy+Idd+Onoax5H6HykUE/2qwAc0cLUpTYPP2wCXqpi7Ye5UOyo5g==";
+        };
+        _DIyu4Y98 = {
+            "id" = "DIyu4Y98";
+            "file" = "Dark Smooth GUI 1.20.2-1.20.4.zip";
+            "hash" = "sha512-1/MwaGePyNhp00PneYrM7WQ5tgZFaT5jKjroZZgL321e65/sCjNKmcys6zOI87jOKqOfYftktt4m8+qjWSq87w==";
+        };
+        _6TAVT5K1 = {
+            "id" = "6TAVT5K1";
+            "file" = "Dark Smooth GUI 1.21.9-1.21.10 blue-3D94FF-5EA6FF-0049A3-00316E.zip";
+            "hash" = "sha512-aKruFKGxLv2Dnz3jcD4vorQ3DaWjkp235vu+4cSNwd7v2JbZbeX2MTeoz5SB8B1lw1e96oTQqBsXH372/BMkAQ==";
+        };
+        _FRggqRnL = {
+            "id" = "FRggqRnL";
+            "file" = "Dark Smooth GUI 1.21.9-1.21.10.zip";
+            "hash" = "sha512-4U8MnTwzXGC7H9wcz1aTJJLZ5a2Ow9l2HTy8vaRrmUzMtloNzHZmxa+IbhbS02nk1FYRwNPpWWXfuGtOtjkWgQ==";
+        };
     in {
         "nQtfkmmT" = _nQtfkmmT;
         "jpUglfCQ" = _jpUglfCQ;
@@ -1238,39 +1348,61 @@ let
         "cBS4Suq2" = _cBS4Suq2;
         "C6xAZXz7" = _C6xAZXz7;
         "OJOFPTxU" = _OJOFPTxU;
-        "minecraft-1.17" = _LswRp53q;
-        "minecraft-1.17.1" = _LswRp53q;
-        "minecraft-1.18" = _RGm23kj7;
-        "minecraft-1.18.1" = _RGm23kj7;
-        "minecraft-1.18.2" = _RGm23kj7;
-        "minecraft-1.19" = _k2qzNTFB;
-        "minecraft-1.19.1" = _k2qzNTFB;
-        "minecraft-1.19.2" = _k2qzNTFB;
-        "minecraft-1.19.3" = _k2qzNTFB;
-        "minecraft-1.19.4" = _k2qzNTFB;
-        "minecraft-1.20" = _lithexXD;
-        "minecraft-1.20.1" = _lithexXD;
-        "minecraft-1.20.2" = _ZwblpZij;
-        "minecraft-1.20.3" = _ZwblpZij;
-        "minecraft-1.20.4" = _ZwblpZij;
-        "minecraft-1.20.5" = _YB6oJ0ol;
-        "minecraft-1.20.6" = _YB6oJ0ol;
-        "minecraft-1.21" = _YB6oJ0ol;
-        "minecraft-1.21.1" = _YB6oJ0ol;
-        "minecraft-1.21.2" = _YB6oJ0ol;
-        "minecraft-1.21.3" = _YB6oJ0ol;
-        "minecraft-1.21.4" = _YB6oJ0ol;
-        "minecraft-1.21.5" = _YB6oJ0ol;
-        "minecraft-1.21.6" = _6x5apFxc;
-        "minecraft-1.21.7" = _6x5apFxc;
-        "minecraft-1.21.8" = _6x5apFxc;
-        "minecraft-1.21.9" = _cBS4Suq2;
-        "minecraft-1.21.10" = _cBS4Suq2;
-        "minecraft-1.21.11" = _3R6et2xX;
-        "minecraft-26.1" = _C6xAZXz7;
-        "minecraft-26.1.1" = _C6xAZXz7;
-        "minecraft-26.1.2" = _C6xAZXz7;
-        "minecraft-26.2" = _OJOFPTxU;
+        "xMmUwguL" = _xMmUwguL;
+        "tbax0z6Q" = _tbax0z6Q;
+        "eWz2cnG3" = _eWz2cnG3;
+        "rJwpbMkB" = _rJwpbMkB;
+        "gu5EII8f" = _gu5EII8f;
+        "ArghPH0E" = _ArghPH0E;
+        "UeunGO98" = _UeunGO98;
+        "v93Rjmiu" = _v93Rjmiu;
+        "tReM1f8S" = _tReM1f8S;
+        "x4qfUjqP" = _x4qfUjqP;
+        "wXswayxE" = _wXswayxE;
+        "BQbZaJmU" = _BQbZaJmU;
+        "yZlFAKt2" = _yZlFAKt2;
+        "SpHmLhAT" = _SpHmLhAT;
+        "dEqHyvYY" = _dEqHyvYY;
+        "5quMI7xe" = _5quMI7xe;
+        "BgalxE2V" = _BgalxE2V;
+        "gZQN6wvG" = _gZQN6wvG;
+        "nkCzEzkx" = _nkCzEzkx;
+        "DIyu4Y98" = _DIyu4Y98;
+        "6TAVT5K1" = _6TAVT5K1;
+        "FRggqRnL" = _FRggqRnL;
+        "minecraft-1.17" = _gu5EII8f;
+        "minecraft-1.17.1" = _gu5EII8f;
+        "minecraft-1.18" = _5quMI7xe;
+        "minecraft-1.18.1" = _5quMI7xe;
+        "minecraft-1.18.2" = _5quMI7xe;
+        "minecraft-1.19" = _v93Rjmiu;
+        "minecraft-1.19.1" = _v93Rjmiu;
+        "minecraft-1.19.2" = _v93Rjmiu;
+        "minecraft-1.19.3" = _v93Rjmiu;
+        "minecraft-1.19.4" = _v93Rjmiu;
+        "minecraft-1.20" = _BQbZaJmU;
+        "minecraft-1.20.1" = _BQbZaJmU;
+        "minecraft-1.20.2" = _DIyu4Y98;
+        "minecraft-1.20.3" = _DIyu4Y98;
+        "minecraft-1.20.4" = _DIyu4Y98;
+        "minecraft-1.20.5" = _BgalxE2V;
+        "minecraft-1.20.6" = _BgalxE2V;
+        "minecraft-1.21" = _BgalxE2V;
+        "minecraft-1.21.1" = _BgalxE2V;
+        "minecraft-1.21.2" = _BgalxE2V;
+        "minecraft-1.21.3" = _BgalxE2V;
+        "minecraft-1.21.4" = _BgalxE2V;
+        "minecraft-1.21.5" = _BgalxE2V;
+        "minecraft-1.21.6" = _yZlFAKt2;
+        "minecraft-1.21.7" = _yZlFAKt2;
+        "minecraft-1.21.8" = _yZlFAKt2;
+        "minecraft-1.21.9" = _FRggqRnL;
+        "minecraft-1.21.10" = _FRggqRnL;
+        "minecraft-1.21.11" = _dEqHyvYY;
+        "minecraft-26.1" = _x4qfUjqP;
+        "minecraft-26.1.1" = _x4qfUjqP;
+        "minecraft-26.1.2" = _x4qfUjqP;
+        "minecraft-26.2" = _gZQN6wvG;
         "pkg-0.4.0+1.17.x" = _nQtfkmmT;
         "pkg-0.4.0+1.18.x" = _jpUglfCQ;
         "pkg-0.4.0+1.19.x" = _vLkidZxU;
@@ -1477,7 +1609,29 @@ let
         "pkg-0.14.0+1.21.9-1.21.10" = _cBS4Suq2;
         "pkg-0.14.0+26.1.x" = _C6xAZXz7;
         "pkg-0.14.0+26.2.x" = _OJOFPTxU;
-        "default" = _OJOFPTxU;
+        "pkg-0.14.1+1.21.11" = _xMmUwguL;
+        "pkg-0.14.1+1.17.x-blue" = _tbax0z6Q;
+        "pkg-0.14.1+26.1.x" = _eWz2cnG3;
+        "pkg-0.14.1+1.18.x-blue" = _rJwpbMkB;
+        "pkg-0.14.1+1.17.x" = _gu5EII8f;
+        "pkg-0.14.1+1.20-1.20.1" = _ArghPH0E;
+        "pkg-0.14.1+1.19.x-blue" = _UeunGO98;
+        "pkg-0.14.1+1.19.x" = _v93Rjmiu;
+        "pkg-0.14.1+1.21.6-1.21.8" = _tReM1f8S;
+        "pkg-0.14.1+26.1.x-blue" = _x4qfUjqP;
+        "pkg-0.14.1+26.2.x-blue" = _wXswayxE;
+        "pkg-0.14.1+1.20-1.20.1-blue" = _BQbZaJmU;
+        "pkg-0.14.1+1.21.6-1.21.8-blue" = _yZlFAKt2;
+        "pkg-0.14.1+1.20.5-1.21.5-blue" = _SpHmLhAT;
+        "pkg-0.14.1+1.21.11-blue" = _dEqHyvYY;
+        "pkg-0.14.1+1.18.x" = _5quMI7xe;
+        "pkg-0.14.1+1.20.5-1.21.5" = _BgalxE2V;
+        "pkg-0.14.1+26.2.x" = _gZQN6wvG;
+        "pkg-0.14.1+1.20.2-1.20.4-blue" = _nkCzEzkx;
+        "pkg-0.14.1+1.20.2-1.20.4" = _DIyu4Y98;
+        "pkg-0.14.1+1.21.9-1.21.10-blue" = _6TAVT5K1;
+        "pkg-0.14.1+1.21.9-1.21.10" = _FRggqRnL;
+        "default" = _FRggqRnL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dark-smooth-gui";

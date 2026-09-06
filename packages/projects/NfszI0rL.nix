@@ -121,6 +121,11 @@ let
             "file" = "Stellarity-5.5.4-RP.zip";
             "hash" = "sha512-1AYB+/hkKbK1KFpYze6lhlgPd8IVzRA6ziJuks6xIOSewtVRhYJ1UC8kGhu9qik6gHGGY+yPKLrZYt6k4ufQ2A==";
         };
+        _2631aNLP = {
+            "id" = "2631aNLP";
+            "file" = "Stellarity-5.5.5-RP.zip";
+            "hash" = "sha512-iZu4daEBuLv5F27p/J48RjgSrYOztlgY+VIfp2Rtfic/qwYA2W9bw9lCdH/x/PZGT1v6I8wGxw6+RwMooivrJA==";
+        };
     in {
         "vxZ90Woa" = _vxZ90Woa;
         "qgT1QmdB" = _qgT1QmdB;
@@ -146,6 +151,7 @@ let
         "o6BdoBmy" = _o6BdoBmy;
         "bmYyj4kz" = _bmYyj4kz;
         "oxR5vxA0" = _oxR5vxA0;
+        "2631aNLP" = _2631aNLP;
         "minecraft-1.20.2" = _vxZ90Woa;
         "minecraft-1.20.3" = _vxZ90Woa;
         "minecraft-1.20.4" = _vxZ90Woa;
@@ -157,7 +163,7 @@ let
         "minecraft-1.21.8" = _wnDv8w9v;
         "minecraft-1.21.9" = _wnDv8w9v;
         "minecraft-1.21.10" = _wnDv8w9v;
-        "minecraft-1.21.11" = _oxR5vxA0;
+        "minecraft-1.21.11" = _2631aNLP;
         "minecraft-24w33a" = _6sJ0Gk3z;
         "minecraft-24w34a" = _6sJ0Gk3z;
         "minecraft-24w35a" = _6sJ0Gk3z;
@@ -171,10 +177,10 @@ let
         "minecraft-24w44a" = _6sJ0Gk3z;
         "minecraft-24w45a" = _6sJ0Gk3z;
         "minecraft-24w46a" = _6sJ0Gk3z;
-        "minecraft-26.1" = _oxR5vxA0;
-        "minecraft-26.1.1" = _oxR5vxA0;
-        "minecraft-26.1.2" = _oxR5vxA0;
-        "minecraft-26.2" = _oxR5vxA0;
+        "minecraft-26.1" = _2631aNLP;
+        "minecraft-26.1.1" = _2631aNLP;
+        "minecraft-26.1.2" = _2631aNLP;
+        "minecraft-26.2" = _2631aNLP;
         "pkg-2.2.0" = _vxZ90Woa;
         "pkg-3.0.0" = _qgT1QmdB;
         "pkg-3.0.2" = _lD265Jsc;
@@ -199,7 +205,8 @@ let
         "pkg-5.5.1" = _o6BdoBmy;
         "pkg-5.5.2" = _bmYyj4kz;
         "pkg-5.5.4" = _oxR5vxA0;
-        "default" = _oxR5vxA0;
+        "pkg-5.5.5" = _2631aNLP;
+        "default" = _2631aNLP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stellarity-rp";

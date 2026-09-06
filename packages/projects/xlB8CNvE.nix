@@ -61,6 +61,16 @@ let
             "file" = "qraftys-bunkers-4.1.jar";
             "hash" = "sha512-8JV7Mk/ou0GBiZABZMOVJddlK30/zxGcNlD5YTInRJCVA7ir/cH5g0D/naTQKu3OsRdmC9K9VCsbCX1os9IWfQ==";
         };
+        _KlGScdnj = {
+            "id" = "KlGScdnj";
+            "file" = "qrafty's-underground-villages.zip";
+            "hash" = "sha512-S8omuD8eELRyw6Bu+oyyYOn99vsn256ykCX1jONGw5z5fZl44+f4e9AyEYoiyaoKPDepPepOgbvRg32VILcNwQ==";
+        };
+        _bT7WkZ4l = {
+            "id" = "bT7WkZ4l";
+            "file" = "qraftys-bunkers-5.0.jar";
+            "hash" = "sha512-mtslXjQ/A2WwcD7MtXUxdycNZWAGWx65CQm9nVBr7q84iRNAJXjnZZ4t18pO+eMlmat27qJviS8Uu6WbEKGWcQ==";
+        };
     in {
         "64eXdmEY" = _64eXdmEY;
         "redJeGdg" = _redJeGdg;
@@ -74,6 +84,8 @@ let
         "B84NHS9H" = _B84NHS9H;
         "UCmctzxp" = _UCmctzxp;
         "5Tg1pF5Q" = _5Tg1pF5Q;
+        "KlGScdnj" = _KlGScdnj;
+        "bT7WkZ4l" = _bT7WkZ4l;
         "datapack-1.20.3" = _64eXdmEY;
         "datapack-1.20.4" = _64eXdmEY;
         "datapack-1.20.5" = _CBldN6EJ;
@@ -82,7 +94,7 @@ let
         "datapack-1.21.1" = _asGLAxZJ;
         "datapack-1.21.4" = _TxPVL3IP;
         "datapack-1.21.5" = _yiVycAYh;
-        "datapack-26.2" = _UCmctzxp;
+        "datapack-26.2" = _KlGScdnj;
         "fabric-1.20.3" = _redJeGdg;
         "fabric-1.20.4" = _redJeGdg;
         "fabric-1.20.5" = _Y7uLeiha;
@@ -91,7 +103,7 @@ let
         "fabric-1.21.1" = _jUD6K6Ev;
         "fabric-1.21.4" = _MyUegAtZ;
         "fabric-1.21.5" = _B84NHS9H;
-        "fabric-26.2" = _5Tg1pF5Q;
+        "fabric-26.2" = _bT7WkZ4l;
         "forge-1.20.3" = _redJeGdg;
         "forge-1.20.4" = _redJeGdg;
         "forge-1.20.5" = _Y7uLeiha;
@@ -100,7 +112,7 @@ let
         "forge-1.21.1" = _jUD6K6Ev;
         "forge-1.21.4" = _MyUegAtZ;
         "forge-1.21.5" = _B84NHS9H;
-        "forge-26.2" = _5Tg1pF5Q;
+        "forge-26.2" = _bT7WkZ4l;
         "quilt-1.20.3" = _redJeGdg;
         "quilt-1.20.4" = _redJeGdg;
         "quilt-1.20.5" = _Y7uLeiha;
@@ -109,10 +121,10 @@ let
         "quilt-1.21.1" = _jUD6K6Ev;
         "quilt-1.21.4" = _MyUegAtZ;
         "quilt-1.21.5" = _B84NHS9H;
-        "quilt-26.2" = _5Tg1pF5Q;
+        "quilt-26.2" = _bT7WkZ4l;
         "neoforge-1.21.4" = _MyUegAtZ;
         "neoforge-1.21.5" = _B84NHS9H;
-        "neoforge-26.2" = _5Tg1pF5Q;
+        "neoforge-26.2" = _bT7WkZ4l;
         "pkg-1" = _64eXdmEY;
         "pkg-1+mod" = _redJeGdg;
         "pkg-2.1" = _CBldN6EJ;
@@ -125,7 +137,9 @@ let
         "pkg-3.2+mod" = _B84NHS9H;
         "pkg-4.1" = _UCmctzxp;
         "pkg-4.1+mod" = _5Tg1pF5Q;
-        "default" = _5Tg1pF5Q;
+        "pkg-5.0" = _KlGScdnj;
+        "pkg-5.0+mod" = _bT7WkZ4l;
+        "default" = _bT7WkZ4l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "qraftys-bunkers";
@@ -133,12 +147,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-4.0" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "LicenseRef-All-Rights-Reserved";
-                shortName = "LicenseRef-All-Rights-Reserved";
+                fullName = "Creative Commons Attribution Non Commercial 4.0 International";
+                shortName = "CC-BY-NC-4.0";
                 url = null;
             };
         };

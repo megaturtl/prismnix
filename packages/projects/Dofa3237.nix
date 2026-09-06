@@ -1,0 +1,131 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _6BZ6zVHs = {
+            "id" = "6BZ6zVHs";
+            "file" = "VillagersDropEgg.zip";
+            "hash" = "sha512-+NK1oI8sn9qvOVsJ/OCd6uvo9fBJlty2uw3DtfuCFbvLrL3Zgjxc13rE8xZlAl5wyaiPxrVnx5DfBUh79b53PQ==";
+        };
+        _38tDXcPy = {
+            "id" = "38tDXcPy";
+            "file" = "villagers-drop-eggs-1.0.jar";
+            "hash" = "sha512-Ktp/SfSCcW6aRxXko3lP/83x7FGvtSWAEKU8W14luLzkFC7dfxJxuc13WaLxMwvizfUob5wBwXTdco47PAkUpw==";
+        };
+        _icQ16m2q = {
+            "id" = "icQ16m2q";
+            "file" = "VillagersDropEgg.zip";
+            "hash" = "sha512-pj/lCKh+Smr4y1OtG5ao+AEx6yuQxm26rU1BAW2qP4wHGswT6OjXJEExgsnlBCiXC3OFq/vPJhOkZ9gW4xkaaQ==";
+        };
+        _QK3JjxiY = {
+            "id" = "QK3JjxiY";
+            "file" = "villagers-drop-eggs-2.0.jar";
+            "hash" = "sha512-7hF9xm1L5A4o1Zp/9ok53voh1EDS1a4TUT38nScO/cORGAavYijGVvKaQJ/FHFYjnBLJLq6PPhTzCf1utJWu9w==";
+        };
+    in {
+        "6BZ6zVHs" = _6BZ6zVHs;
+        "38tDXcPy" = _38tDXcPy;
+        "icQ16m2q" = _icQ16m2q;
+        "QK3JjxiY" = _QK3JjxiY;
+        "datapack-1.21" = _icQ16m2q;
+        "datapack-1.21.1" = _icQ16m2q;
+        "datapack-1.21.2" = _icQ16m2q;
+        "datapack-1.21.3" = _icQ16m2q;
+        "datapack-1.21.4" = _icQ16m2q;
+        "datapack-1.21.5" = _icQ16m2q;
+        "datapack-1.21.6" = _icQ16m2q;
+        "datapack-1.21.7" = _icQ16m2q;
+        "datapack-1.21.8" = _icQ16m2q;
+        "datapack-1.21.9" = _icQ16m2q;
+        "datapack-1.21.10" = _icQ16m2q;
+        "datapack-1.21.11" = _icQ16m2q;
+        "datapack-26.1" = _icQ16m2q;
+        "datapack-26.1.1" = _icQ16m2q;
+        "datapack-26.1.2" = _icQ16m2q;
+        "datapack-26.2" = _icQ16m2q;
+        "fabric-1.21" = _QK3JjxiY;
+        "fabric-1.21.1" = _QK3JjxiY;
+        "fabric-1.21.2" = _QK3JjxiY;
+        "fabric-1.21.3" = _QK3JjxiY;
+        "fabric-1.21.4" = _QK3JjxiY;
+        "fabric-1.21.5" = _QK3JjxiY;
+        "fabric-1.21.6" = _QK3JjxiY;
+        "fabric-1.21.7" = _QK3JjxiY;
+        "fabric-1.21.8" = _QK3JjxiY;
+        "fabric-1.21.9" = _QK3JjxiY;
+        "fabric-1.21.10" = _QK3JjxiY;
+        "fabric-1.21.11" = _QK3JjxiY;
+        "fabric-26.1" = _QK3JjxiY;
+        "fabric-26.1.1" = _QK3JjxiY;
+        "fabric-26.1.2" = _QK3JjxiY;
+        "fabric-26.2" = _QK3JjxiY;
+        "forge-1.21" = _QK3JjxiY;
+        "forge-1.21.1" = _QK3JjxiY;
+        "forge-1.21.2" = _QK3JjxiY;
+        "forge-1.21.3" = _QK3JjxiY;
+        "forge-1.21.4" = _QK3JjxiY;
+        "forge-1.21.5" = _QK3JjxiY;
+        "forge-1.21.6" = _QK3JjxiY;
+        "forge-1.21.7" = _QK3JjxiY;
+        "forge-1.21.8" = _QK3JjxiY;
+        "forge-1.21.9" = _QK3JjxiY;
+        "forge-1.21.10" = _QK3JjxiY;
+        "forge-1.21.11" = _QK3JjxiY;
+        "forge-26.1" = _QK3JjxiY;
+        "forge-26.1.1" = _QK3JjxiY;
+        "forge-26.1.2" = _QK3JjxiY;
+        "forge-26.2" = _QK3JjxiY;
+        "neoforge-1.21" = _QK3JjxiY;
+        "neoforge-1.21.1" = _QK3JjxiY;
+        "neoforge-1.21.2" = _QK3JjxiY;
+        "neoforge-1.21.3" = _QK3JjxiY;
+        "neoforge-1.21.4" = _QK3JjxiY;
+        "neoforge-1.21.5" = _QK3JjxiY;
+        "neoforge-1.21.6" = _QK3JjxiY;
+        "neoforge-1.21.7" = _QK3JjxiY;
+        "neoforge-1.21.8" = _QK3JjxiY;
+        "neoforge-1.21.9" = _QK3JjxiY;
+        "neoforge-1.21.10" = _QK3JjxiY;
+        "neoforge-1.21.11" = _QK3JjxiY;
+        "neoforge-26.1" = _QK3JjxiY;
+        "neoforge-26.1.1" = _QK3JjxiY;
+        "neoforge-26.1.2" = _QK3JjxiY;
+        "neoforge-26.2" = _QK3JjxiY;
+        "quilt-1.21" = _QK3JjxiY;
+        "quilt-1.21.1" = _QK3JjxiY;
+        "quilt-1.21.2" = _QK3JjxiY;
+        "quilt-1.21.3" = _QK3JjxiY;
+        "quilt-1.21.4" = _QK3JjxiY;
+        "quilt-1.21.5" = _QK3JjxiY;
+        "quilt-1.21.6" = _QK3JjxiY;
+        "quilt-1.21.7" = _QK3JjxiY;
+        "quilt-1.21.8" = _QK3JjxiY;
+        "quilt-1.21.9" = _QK3JjxiY;
+        "quilt-1.21.10" = _QK3JjxiY;
+        "quilt-1.21.11" = _QK3JjxiY;
+        "quilt-26.1" = _QK3JjxiY;
+        "quilt-26.1.1" = _QK3JjxiY;
+        "quilt-26.1.2" = _QK3JjxiY;
+        "quilt-26.2" = _QK3JjxiY;
+        "pkg-1.0" = _6BZ6zVHs;
+        "pkg-1.0+mod" = _38tDXcPy;
+        "pkg-2.0" = _icQ16m2q;
+        "pkg-2.0+mod" = _QK3JjxiY;
+        "default" = _QK3JjxiY;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "villagers-drop-eggs";
+        id = "Dofa3237";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

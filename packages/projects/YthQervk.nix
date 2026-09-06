@@ -66,6 +66,11 @@ let
             "file" = "HardPlus-3.1.0.jar";
             "hash" = "sha512-FC2bnq+aJgh9Z04XkqFkJz87l3kvs7Djbx2uRY89buNvDnal0qwyB13Atur0+oQ8x1D8l5Ag8GOsw0YlKuR+kQ==";
         };
+        _i5J0KMQD = {
+            "id" = "i5J0KMQD";
+            "file" = "HardPlus-3.1.0-26.2.jar";
+            "hash" = "sha512-e8yDe6INDlfVN1IaM9R9Q9ZcbSTLnXwIE5bp9i4jg2JC3DlnJKv7orGYNtSMWeKQTJ2Pf/2MDue+gmlZhI2IgA==";
+        };
     in {
         "UNUNeRYs" = _UNUNeRYs;
         "1UznH3tO" = _1UznH3tO;
@@ -80,6 +85,7 @@ let
         "tSS9scxM" = _tSS9scxM;
         "Frh7cb0d" = _Frh7cb0d;
         "pimJQ12R" = _pimJQ12R;
+        "i5J0KMQD" = _i5J0KMQD;
         "paper-1.19.2" = _1UznH3tO;
         "paper-1.19.3" = _ucgibrlC;
         "paper-1.19.4" = _eKqysJuQ;
@@ -96,6 +102,7 @@ let
         "paper-1.21.10" = _fzjzBMmc;
         "paper-1.21.11" = _tSS9scxM;
         "paper-26.1.2" = _pimJQ12R;
+        "paper-26.2" = _i5J0KMQD;
         "pkg-2.0.0-beta1" = _UNUNeRYs;
         "pkg-2.1.0-beta" = _1UznH3tO;
         "pkg-2.2.0-beta" = _ucgibrlC;
@@ -109,7 +116,8 @@ let
         "pkg-3.0.0" = _tSS9scxM;
         "pkg-3.0.1" = _Frh7cb0d;
         "pkg-3.1.0" = _pimJQ12R;
-        "default" = _pimJQ12R;
+        "pkg-3.1.0-26.2" = _i5J0KMQD;
+        "default" = _i5J0KMQD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hardplus";

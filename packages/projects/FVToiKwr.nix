@@ -296,6 +296,26 @@ let
             "file" = "via_romana-2.2.2+1.20.1-forge.jar";
             "hash" = "sha512-/0MnV4StlP1/YQe+lc3wqXCbbYFesXWHab6skFBD9FpOovZogBeF+98DxpCDcNiz2J2b6aa24EvWKIZ9NFLvgA==";
         };
+        _d4GYLwBN = {
+            "id" = "d4GYLwBN";
+            "file" = "via_romana-2.2.3+1.20.1-fabric.jar";
+            "hash" = "sha512-QMKWiLxvkhQlZg7oWXtzVaEp26YavJ/r2tPV7JctmxqCDi1bsi/ngdd94dY/je6CcT10IhSi8VIOurD+h1qx7Q==";
+        };
+        _45x878IX = {
+            "id" = "45x878IX";
+            "file" = "via_romana-2.2.3+1.21.1-fabric.jar";
+            "hash" = "sha512-AqGwRxwP6RROF6YXqMjw+nEbcMPV1i35k6GHndG2Rdv8ICmcjs4x4Ze/GkoMHl7/YoITAqdJSKnhe5G/clUk0g==";
+        };
+        _I7nIGnGB = {
+            "id" = "I7nIGnGB";
+            "file" = "via_romana-2.2.3+1.21.1-neoforge.jar";
+            "hash" = "sha512-KpsoZh3u3d+vLSI/yzlLDfa/WNTMjbbtEOAOsFHoFtDJLGXFRi77QYavYuSYqYNvmPf42T1EP36XEciBUcjnqQ==";
+        };
+        _vIdX4XS9 = {
+            "id" = "vIdX4XS9";
+            "file" = "via_romana-2.2.3+1.20.1-forge.jar";
+            "hash" = "sha512-/klcVO/UDAnr2hCoiffGd8w2f0MwV25ljhoJk/aOlPOi/9l3Hgao1VNzsIco3Ieju5ilcxjepVE8jvfzKpBKuQ==";
+        };
     in {
         "ZNgxqukR" = _ZNgxqukR;
         "3WuIC7hG" = _3WuIC7hG;
@@ -356,13 +376,17 @@ let
         "znZsBYGz" = _znZsBYGz;
         "7sf8VbzB" = _7sf8VbzB;
         "hPBpjlxa" = _hPBpjlxa;
-        "forge-1.20.1" = _hPBpjlxa;
+        "d4GYLwBN" = _d4GYLwBN;
+        "45x878IX" = _45x878IX;
+        "I7nIGnGB" = _I7nIGnGB;
+        "vIdX4XS9" = _vIdX4XS9;
+        "forge-1.20.1" = _vIdX4XS9;
         "forge-1.19.4" = _Kp0C0RVk;
         "forge-1.19.2" = _6wjExxEF;
-        "neoforge-1.20.1" = _hPBpjlxa;
-        "neoforge-1.21.1" = _7sf8VbzB;
-        "fabric-1.20.1" = _OdNixdND;
-        "fabric-1.21.1" = _znZsBYGz;
+        "neoforge-1.20.1" = _oZqAExUm;
+        "neoforge-1.21.1" = _I7nIGnGB;
+        "fabric-1.20.1" = _d4GYLwBN;
+        "fabric-1.21.1" = _45x878IX;
         "pkg-1.0.0" = _ZNgxqukR;
         "pkg-1.1.0" = _3WuIC7hG;
         "pkg-1.1.1" = _6FLayXaw;
@@ -409,7 +433,11 @@ let
         "pkg-2.2.2+1.21.1-fabric" = _znZsBYGz;
         "pkg-2.2.2+1.21.1-neoforge" = _7sf8VbzB;
         "pkg-2.2.2+1.20.1-forge" = _hPBpjlxa;
-        "default" = _hPBpjlxa;
+        "pkg-2.2.3+1.20.1-fabric" = _d4GYLwBN;
+        "pkg-2.2.3+1.21.1-fabric" = _45x878IX;
+        "pkg-2.2.3+1.21.1-neoforge" = _I7nIGnGB;
+        "pkg-2.2.3+1.20.1-forge" = _vIdX4XS9;
+        "default" = _vIdX4XS9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "via-romana";

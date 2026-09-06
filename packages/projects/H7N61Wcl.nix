@@ -291,6 +291,11 @@ let
             "file" = "dismountentity-26.2.0-3.6.jar";
             "hash" = "sha512-MRHNTOFzN6hr3B3J0Qp5lgqIOHxaCkl4osOZEZHm0E46FemQuzSdM/3tPn8IMuZ5tJArcLZG6RghDEe2eIxhwA==";
         };
+        _iRmQ4UUd = {
+            "id" = "iRmQ4UUd";
+            "file" = "dismountentity-26.2.0-3.7.jar";
+            "hash" = "sha512-69Ni3kXBjA4G1OW/hCl7TY7va4WeBqeCIOrXAtLwlQfg4VhIbvq+msy0DZTyPXxSNF90OXz/yeF7jkCFcQ586g==";
+        };
     in {
         "zLTirM9z" = _zLTirM9z;
         "tQ468AmM" = _tQ468AmM;
@@ -350,6 +355,7 @@ let
         "4eKBBYg8" = _4eKBBYg8;
         "3YNHaxOV" = _3YNHaxOV;
         "1rTwi4Rl" = _1rTwi4Rl;
+        "iRmQ4UUd" = _iRmQ4UUd;
         "fabric-1.16.5" = _mPV1LSrH;
         "fabric-1.18.2" = _EpjQgMkL;
         "fabric-1.19.2" = _osu0fWd1;
@@ -377,7 +383,7 @@ let
         "fabric-26.1" = _DZnk67sl;
         "fabric-26.1.1" = _4eKBBYg8;
         "fabric-26.1.2" = _3YNHaxOV;
-        "fabric-26.2" = _1rTwi4Rl;
+        "fabric-26.2" = _iRmQ4UUd;
         "forge-1.16.5" = _jl4qWxY5;
         "forge-1.18.2" = _EpjQgMkL;
         "forge-1.19.2" = _osu0fWd1;
@@ -403,7 +409,7 @@ let
         "forge-26.1" = _DZnk67sl;
         "forge-26.1.1" = _4eKBBYg8;
         "forge-26.1.2" = _3YNHaxOV;
-        "forge-26.2" = _1rTwi4Rl;
+        "forge-26.2" = _iRmQ4UUd;
         "quilt-1.18.2" = _EpjQgMkL;
         "quilt-1.19.2" = _osu0fWd1;
         "quilt-1.19.3" = _okc4YaJq;
@@ -430,7 +436,7 @@ let
         "quilt-26.1" = _DZnk67sl;
         "quilt-26.1.1" = _4eKBBYg8;
         "quilt-26.1.2" = _3YNHaxOV;
-        "quilt-26.2" = _1rTwi4Rl;
+        "quilt-26.2" = _iRmQ4UUd;
         "neoforge-1.20.2" = _RNXZIVhg;
         "neoforge-1.20.1" = _8dvHq4gs;
         "neoforge-1.20.3" = _LHO8hOhH;
@@ -452,7 +458,7 @@ let
         "neoforge-26.1" = _DZnk67sl;
         "neoforge-26.1.1" = _4eKBBYg8;
         "neoforge-26.1.2" = _3YNHaxOV;
-        "neoforge-26.2" = _1rTwi4Rl;
+        "neoforge-26.2" = _iRmQ4UUd;
         "pkg-1.16.5-1.9-fabric" = _zLTirM9z;
         "pkg-1.18.2-1.9-fabric" = _tQ468AmM;
         "pkg-1.19.2-2.0-fabric" = _cr9nNE1E;
@@ -511,7 +517,8 @@ let
         "pkg-26.1.1-3.6-fabric+forge+neo" = _4eKBBYg8;
         "pkg-26.1.2-3.6-fabric+forge+neo" = _3YNHaxOV;
         "pkg-26.2.0-3.6-fabric+forge+neo" = _1rTwi4Rl;
-        "default" = _1rTwi4Rl;
+        "pkg-26.2.0-3.7-fabric+forge+neo" = _iRmQ4UUd;
+        "default" = _iRmQ4UUd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dismount-entity";

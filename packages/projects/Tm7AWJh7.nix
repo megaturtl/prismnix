@@ -41,6 +41,11 @@ let
             "file" = "Autumn Fall.zip";
             "hash" = "sha512-+tkNAnUklbJRdQIOSiaQLZy0LBmbJ3wywgoxy6/1wfkagidFVhT+rP02B687X6YZt6MmifJp9hl2lKCp651w/Q==";
         };
+        _Uz8mJvrr = {
+            "id" = "Uz8mJvrr";
+            "file" = "Autumn Fall.zip";
+            "hash" = "sha512-+tkNAnUklbJRdQIOSiaQLZy0LBmbJ3wywgoxy6/1wfkagidFVhT+rP02B687X6YZt6MmifJp9hl2lKCp651w/Q==";
+        };
     in {
         "xWapOqnk" = _xWapOqnk;
         "cfICqc4H" = _cfICqc4H;
@@ -50,6 +55,7 @@ let
         "CrTfOoB4" = _CrTfOoB4;
         "g38vAjY8" = _g38vAjY8;
         "yFFcaNs8" = _yFFcaNs8;
+        "Uz8mJvrr" = _Uz8mJvrr;
         "minecraft-1.16.5" = _xWapOqnk;
         "minecraft-1.19.2" = _cfICqc4H;
         "minecraft-1.20.1" = _5xqRuj30;
@@ -70,6 +76,11 @@ let
         "minecraft-1.21.9" = _yFFcaNs8;
         "minecraft-1.21.10" = _yFFcaNs8;
         "minecraft-1.21.11" = _yFFcaNs8;
+        "minecraft-26.1" = _Uz8mJvrr;
+        "minecraft-26.1.1" = _Uz8mJvrr;
+        "minecraft-26.1.2" = _Uz8mJvrr;
+        "minecraft-26.2" = _Uz8mJvrr;
+        "minecraft-26.3-snapshot-9" = _Uz8mJvrr;
         "pkg-1.16.5" = _xWapOqnk;
         "pkg-1.19.2" = _cfICqc4H;
         "pkg-1.20.1" = _5xqRuj30;
@@ -78,7 +89,8 @@ let
         "pkg-1.20.6" = _CrTfOoB4;
         "pkg-1.21" = _g38vAjY8;
         "pkg-1.21.11" = _yFFcaNs8;
-        "default" = _yFFcaNs8;
+        "pkg-26.2" = _Uz8mJvrr;
+        "default" = _Uz8mJvrr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autumn-fall";

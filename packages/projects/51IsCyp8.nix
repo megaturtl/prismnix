@@ -16,22 +16,34 @@ let
             "file" = "§6§lExperience Coins §7v1.0.2.zip";
             "hash" = "sha512-N0q8ZbI3VcKJUNxSDU+g2ZyYJ7AY+OawMBQxjdJG1rcza5CcQHJalTl2D92JvqknfwxiG6ILR21iI2iKkojA9g==";
         };
+        _Dc4YwqtE = {
+            "id" = "Dc4YwqtE";
+            "file" = "§6§lExperience Coins §7v1.0.3.zip";
+            "hash" = "sha512-glTq56swbaTJXJ1E1sxqv7P1jd+C40iMmrdN3mKa5rmGQ2SQbV3+pkg9Gm9vNhze1YufuHEGZfZ91rX0jHXGZA==";
+        };
+        _OCOfCyis = {
+            "id" = "OCOfCyis";
+            "file" = "§6§lExperience Coins §7v1.0.4.zip";
+            "hash" = "sha512-/EEgepKWF1X6Wtar1M56af5uWm/zVmSgpoAAdEuXXWe2PMqQR/IE+VxetiZR9s9aag8hdfq96fEYjQ9puwxv/g==";
+        };
     in {
         "zK76ghpG" = _zK76ghpG;
         "6LgE9IEY" = _6LgE9IEY;
         "tlDkL1a9" = _tlDkL1a9;
-        "minecraft-1.20.5" = _tlDkL1a9;
-        "minecraft-1.20.6" = _tlDkL1a9;
-        "minecraft-1.21" = _tlDkL1a9;
-        "minecraft-1.21.1" = _tlDkL1a9;
-        "minecraft-1.21.2" = _tlDkL1a9;
-        "minecraft-1.21.3" = _tlDkL1a9;
-        "minecraft-1.21.4" = _tlDkL1a9;
-        "minecraft-1.21.6" = _tlDkL1a9;
-        "minecraft-1.21.7" = _tlDkL1a9;
-        "minecraft-1.21.8" = _tlDkL1a9;
-        "minecraft-1.21.9" = _tlDkL1a9;
-        "minecraft-1.21.10" = _tlDkL1a9;
+        "Dc4YwqtE" = _Dc4YwqtE;
+        "OCOfCyis" = _OCOfCyis;
+        "minecraft-1.20.5" = _OCOfCyis;
+        "minecraft-1.20.6" = _OCOfCyis;
+        "minecraft-1.21" = _OCOfCyis;
+        "minecraft-1.21.1" = _OCOfCyis;
+        "minecraft-1.21.2" = _OCOfCyis;
+        "minecraft-1.21.3" = _OCOfCyis;
+        "minecraft-1.21.4" = _OCOfCyis;
+        "minecraft-1.21.6" = _OCOfCyis;
+        "minecraft-1.21.7" = _OCOfCyis;
+        "minecraft-1.21.8" = _OCOfCyis;
+        "minecraft-1.21.9" = _OCOfCyis;
+        "minecraft-1.21.10" = _OCOfCyis;
         "minecraft-22w42a" = _tlDkL1a9;
         "minecraft-22w43a" = _tlDkL1a9;
         "minecraft-22w44a" = _tlDkL1a9;
@@ -82,18 +94,23 @@ let
         "minecraft-24w44a" = _tlDkL1a9;
         "minecraft-24w45a" = _tlDkL1a9;
         "minecraft-24w46a" = _tlDkL1a9;
-        "minecraft-1.21.5" = _tlDkL1a9;
-        "minecraft-1.18.2" = _tlDkL1a9;
-        "minecraft-1.19" = _tlDkL1a9;
-        "minecraft-1.19.1" = _tlDkL1a9;
-        "minecraft-1.19.2" = _tlDkL1a9;
-        "minecraft-1.19.3" = _tlDkL1a9;
-        "minecraft-1.19.4" = _tlDkL1a9;
-        "minecraft-1.20" = _tlDkL1a9;
-        "minecraft-1.20.1" = _tlDkL1a9;
-        "minecraft-1.20.2" = _tlDkL1a9;
-        "minecraft-1.20.3" = _tlDkL1a9;
-        "minecraft-1.20.4" = _tlDkL1a9;
+        "minecraft-1.21.5" = _OCOfCyis;
+        "minecraft-1.18.2" = _OCOfCyis;
+        "minecraft-1.19" = _OCOfCyis;
+        "minecraft-1.19.1" = _OCOfCyis;
+        "minecraft-1.19.2" = _OCOfCyis;
+        "minecraft-1.19.3" = _OCOfCyis;
+        "minecraft-1.19.4" = _OCOfCyis;
+        "minecraft-1.20" = _OCOfCyis;
+        "minecraft-1.20.1" = _OCOfCyis;
+        "minecraft-1.20.2" = _OCOfCyis;
+        "minecraft-1.20.3" = _OCOfCyis;
+        "minecraft-1.20.4" = _OCOfCyis;
+        "minecraft-1.21.11" = _OCOfCyis;
+        "minecraft-26.1" = _OCOfCyis;
+        "minecraft-26.1.1" = _OCOfCyis;
+        "minecraft-26.1.2" = _OCOfCyis;
+        "minecraft-26.2" = _OCOfCyis;
         "vanilla-1.20.5" = _zK76ghpG;
         "vanilla-1.20.6" = _zK76ghpG;
         "vanilla-1.21" = _zK76ghpG;
@@ -109,7 +126,9 @@ let
         "pkg-1.0.0" = _zK76ghpG;
         "pkg-1.0.1" = _6LgE9IEY;
         "pkg-1.0.2" = _tlDkL1a9;
-        "default" = _tlDkL1a9;
+        "pkg-1.0.3" = _Dc4YwqtE;
+        "pkg-1.0.4" = _OCOfCyis;
+        "default" = _OCOfCyis;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xpcoins";
@@ -117,12 +136,12 @@ let
         type = "resourcepack";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "CC-BY-NC-SA-4.0" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "Creative Commons Attribution Non Commercial Share Alike 4.0 International";
-                shortName = "CC-BY-NC-SA-4.0";
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
                 url = null;
             };
         };

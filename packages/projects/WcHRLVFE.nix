@@ -457,6 +457,7 @@ let
         "fabric-26.1" = _vkWzfpy9;
         "fabric-26.1.1" = _vkWzfpy9;
         "fabric-26.1.2" = _vkWzfpy9;
+        "fabric-26.2" = _vkWzfpy9;
         "neoforge-1.21" = _qfJRc6cQ;
         "neoforge-1.20.5" = _CBJaTvJE;
         "neoforge-1.20.6" = _CBJaTvJE;

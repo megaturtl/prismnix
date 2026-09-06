@@ -11,18 +11,26 @@ let
             "file" = "Even More Crowns.zip";
             "hash" = "sha512-+GcthlGdBYGD1RWjPfJuZwKKbdoCgZF34yxl3Ghnfua0bxhKirwmhW3JbGzhrPqZ9XZ18T8l4ZKGwJr67Zcsrw==";
         };
+        _wb9AAdBQ = {
+            "id" = "wb9AAdBQ";
+            "file" = "Even More Crowns v1.2.zip";
+            "hash" = "sha512-27MBi+QiPPdJbHlCPpc/8JYzXwHJJsSQpGB9VJRbwIvKdyLaKFtTnztIYnwQpHUK+GGVusXkdm51Rvee8nLaGw==";
+        };
     in {
         "7aiogB2S" = _7aiogB2S;
         "9efxddMl" = _9efxddMl;
+        "wb9AAdBQ" = _wb9AAdBQ;
         "minecraft-1.20" = _7aiogB2S;
         "minecraft-1.20.1" = _7aiogB2S;
         "minecraft-1.20.2" = _7aiogB2S;
         "minecraft-1.20.3" = _7aiogB2S;
         "minecraft-1.20.4" = _7aiogB2S;
         "minecraft-1.21" = _9efxddMl;
+        "minecraft-26.2" = _wb9AAdBQ;
         "pkg-1.0" = _7aiogB2S;
         "pkg-1.1" = _9efxddMl;
-        "default" = _9efxddMl;
+        "pkg-1.2" = _wb9AAdBQ;
+        "default" = _wb9AAdBQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "even-more-crowns";

@@ -161,6 +161,26 @@ let
             "file" = "catchindicator-neoforge-2.0.jar";
             "hash" = "sha512-Z61QymywzMiDO/ZdFuJeYUjlhC0zD9QTjsNxrS08Y2g4i3tury0Mz5LxIkmvtBEIAq90MZhDNejDvODb0x7fwg==";
         };
+        _1yEdIPmh = {
+            "id" = "1yEdIPmh";
+            "file" = "catchindicator-neoforge-2.1.jar";
+            "hash" = "sha512-SICMN3KcrSyoTtMSGnEjpkm9OoUNYlSoBpl1+wtLfItxN6tvHZLzsWTX0yqecjfkFDNiPqnBPFxHBmOxXmqFGQ==";
+        };
+        _t9fQYOgM = {
+            "id" = "t9fQYOgM";
+            "file" = "catchindicator-fabric-2.1.jar";
+            "hash" = "sha512-m/kthW7IDcWxR2H2C/gtH6jadvVCW813VGfMWz4DiiroE3LBO4cMoqf5PUIAo6U8z3KYiiAOG3p6G2GhefBNng==";
+        };
+        _EQdaGLbP = {
+            "id" = "EQdaGLbP";
+            "file" = "catchindicator-fabric-2.1.1.jar";
+            "hash" = "sha512-Kk4JrxpzkINkWam7j+bAkTIdKJudAxREm1cWlZIVIw/wNNEeB8x0kShkLkF9a98oNmJswMYRMXzEJLEWq4VvFg==";
+        };
+        _IDXRIUav = {
+            "id" = "IDXRIUav";
+            "file" = "catchindicator-neoforge-2.1.1.jar";
+            "hash" = "sha512-wfez1LXz7iXqONXE+ePk/BNio5ee5P+51fFwKRrAwIYzMRnv6qoem6bIhawwl+CKYcC3VgvXTNDa0ma19M3xQQ==";
+        };
     in {
         "LfcKe77a" = _LfcKe77a;
         "dwrFpbgf" = _dwrFpbgf;
@@ -194,8 +214,12 @@ let
         "G5NBxFt1" = _G5NBxFt1;
         "vQTzJAfu" = _vQTzJAfu;
         "GNiBeCL6" = _GNiBeCL6;
-        "neoforge-1.21.1" = _GNiBeCL6;
-        "fabric-1.21.1" = _vQTzJAfu;
+        "1yEdIPmh" = _1yEdIPmh;
+        "t9fQYOgM" = _t9fQYOgM;
+        "EQdaGLbP" = _EQdaGLbP;
+        "IDXRIUav" = _IDXRIUav;
+        "neoforge-1.21.1" = _IDXRIUav;
+        "fabric-1.21.1" = _EQdaGLbP;
         "pkg-1.0" = _dwrFpbgf;
         "pkg-1.1" = _8AYiVbA6;
         "pkg-1.2" = _vy2p12Ej;
@@ -213,7 +237,9 @@ let
         "pkg-1.8.1" = _LceXtbN7;
         "pkg-1.8.2" = _G5NBxFt1;
         "pkg-2.0" = _GNiBeCL6;
-        "default" = _GNiBeCL6;
+        "pkg-2.1" = _t9fQYOgM;
+        "pkg-2.1.1" = _IDXRIUav;
+        "default" = _IDXRIUav;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "catch-indicator";

@@ -116,6 +116,46 @@ let
             "file" = "Möbius Automata 0.7.0 - 26.2.jar";
             "hash" = "sha512-phOYQFQ2sWvUDYScRLqA1YkeU2+ARcvenfSWBtkzBF3PAK+CTxnEIGBMiFJqQesDEsliUPdLSEdrHsOQs+81Wg==";
         };
+        _M4c0YYBu = {
+            "id" = "M4c0YYBu";
+            "file" = "Möbius Automata 0.8.0 - 1.21.11.jar";
+            "hash" = "sha512-Dk9HLDH2yftb2EWicSbTyMsjM5YD5TvQVssZRIFCgrtSGYCdcnu10g56a8zdJUvSCpwDljT8hPwT0DefASwr7A==";
+        };
+        _WdXQfqWZ = {
+            "id" = "WdXQfqWZ";
+            "file" = "Möbius Automata 0.8.0 - 26.2.jar";
+            "hash" = "sha512-w3Lz/rq7FW3tf++bjGQoWrMWFZdI6ccvqmAuwOziryYOymupOcO+imnhhZTsh39coWXZj6TqT2pNqXgSz94t5w==";
+        };
+        _KL0CtMae = {
+            "id" = "KL0CtMae";
+            "file" = "Möbius Automata 0.8.1 - 1.21.11.jar";
+            "hash" = "sha512-8wzGutjOC+ftlKelxibpJy7rj1VYf4GJARR3sH2bZaz8UajGgcdkVIrvwSi1Xm0OAYjkLA0W8Vl+AgobcCyW0w==";
+        };
+        _XCTtDfZq = {
+            "id" = "XCTtDfZq";
+            "file" = "Möbius Automata 0.8.1 - 26.2.jar";
+            "hash" = "sha512-gGF8/l5yFkxRH6aLZdmdW7ao79rsIMGn4mJ+168XL24SF+IlAjyT9rnr/S0eAdhqoc3M6E+0AlKUtffvlgu8rQ==";
+        };
+        _NY6aLLjX = {
+            "id" = "NY6aLLjX";
+            "file" = "Möbius Automata 0.8.2 - 1.21.11.jar";
+            "hash" = "sha512-/dvHDQzjja9d0ShF8Ke8SvtH3QIKcAqa0taQMzHVGcRIqdJsn4svzSeCRojLyASBB76xPjrJIOoaLOoOeJYHmw==";
+        };
+        _bfPgHan0 = {
+            "id" = "bfPgHan0";
+            "file" = "Möbius Automata 0.8.2 - 26.2.jar";
+            "hash" = "sha512-9LOyJkqDe9jVbX7daiRF41e9Z+O5w/EhuTX8ZSf1qwecnLrvZOG9Zg8EEM1nwl/zrx00ysVAwvBeQJTFvFoZdQ==";
+        };
+        _Ygw2tiMl = {
+            "id" = "Ygw2tiMl";
+            "file" = "Möbius Automata 0.9.0 indev - 1.21.11.jar";
+            "hash" = "sha512-3amxrdkhVs5SIdNpmO35xcaEMaMQNVaDbTnNV2vy3m35kOLoMXfiNE5e7jApo1ZGXPfbYYrNtuh6JmZF/gGuAg==";
+        };
+        _nvsqX2ik = {
+            "id" = "nvsqX2ik";
+            "file" = "Möbius Automata 0.9.0 indev - 26.2.jar";
+            "hash" = "sha512-/EFsf1AChpZfFwDmG8QC9CrVbHhLzd1q9FxV9yyTEFHfMyEi3VKAc4DUdT/IxNNOOi8sk9MZ8oR1of6bLdH7mQ==";
+        };
     in {
         "IAo3G7Rd" = _IAo3G7Rd;
         "WctMXyvk" = _WctMXyvk;
@@ -140,10 +180,18 @@ let
         "97QKp4ZU" = _97QKp4ZU;
         "JfiG4SKj" = _JfiG4SKj;
         "Ll1DM3vU" = _Ll1DM3vU;
-        "fabric-1.21.11" = _JfiG4SKj;
+        "M4c0YYBu" = _M4c0YYBu;
+        "WdXQfqWZ" = _WdXQfqWZ;
+        "KL0CtMae" = _KL0CtMae;
+        "XCTtDfZq" = _XCTtDfZq;
+        "NY6aLLjX" = _NY6aLLjX;
+        "bfPgHan0" = _bfPgHan0;
+        "Ygw2tiMl" = _Ygw2tiMl;
+        "nvsqX2ik" = _nvsqX2ik;
+        "fabric-1.21.11" = _Ygw2tiMl;
         "fabric-1.21.1" = _HoOboOD3;
         "fabric-26.1.2" = _Px6I2Nky;
-        "fabric-26.2" = _Ll1DM3vU;
+        "fabric-26.2" = _nvsqX2ik;
         "pkg-0.1" = _IAo3G7Rd;
         "pkg-0.2" = _HoOboOD3;
         "pkg-0.2.1" = _ik4qi5jl;
@@ -157,7 +205,11 @@ let
         "pkg-0.6.1" = _6PVDDtRw;
         "pkg-0.6.2" = _97QKp4ZU;
         "pkg-0.7.0" = _Ll1DM3vU;
-        "default" = _Ll1DM3vU;
+        "pkg-0.8.0" = _WdXQfqWZ;
+        "pkg-0.8.1" = _XCTtDfZq;
+        "pkg-0.8.2" = _bfPgHan0;
+        "pkg-0.9.0-indev" = _nvsqX2ik;
+        "default" = _nvsqX2ik;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-mbius-automata";

@@ -56,6 +56,21 @@ let
             "file" = "ArdaPaths-1.3.0.jar";
             "hash" = "sha512-D0jPhvENN5VBYUTJBg3KM28W9awBvZ10h9Q6uny0HFUhtXj5LJxQ8luxUny/wsnd/UMuJWT9DiGqh3b2ygL0AQ==";
         };
+        _dirCSSUk = {
+            "id" = "dirCSSUk";
+            "file" = "ArdaPaths-1.4.0.jar";
+            "hash" = "sha512-7PyKEwb7ICOWEOhQo3MDxy6dfuNioMy/qn1vMlAXc7xsgLU8mqtYAi3X5MaAyXQl1iUEqweeGZeRrazy3xItTg==";
+        };
+        _Bm8acszI = {
+            "id" = "Bm8acszI";
+            "file" = "ArdaPaths-1.5.0.jar";
+            "hash" = "sha512-kIozUYNu0dwTUlC0onGMV8H9HosQUqU9ycv0OwaHbZqaPe1xrbawRjsJ8xwWN8GGurTBJO2bEPXr9cpq8RiqeQ==";
+        };
+        _EKYz3hIY = {
+            "id" = "EKYz3hIY";
+            "file" = "ArdaPaths-1.5.0+1.21.1.jar";
+            "hash" = "sha512-FHs6KeDVuim2ObMDFmzkB4h9ZcMRjNQQscm3eU6eKtNjYkOfT6k//hn+7qwC530O86WeyNIENVoFL4f9aRIqaQ==";
+        };
     in {
         "kxenPwCL" = _kxenPwCL;
         "Rdx0rfoQ" = _Rdx0rfoQ;
@@ -68,8 +83,12 @@ let
         "oEeiEpel" = _oEeiEpel;
         "r3oJmGcD" = _r3oJmGcD;
         "IRZZqdNE" = _IRZZqdNE;
+        "dirCSSUk" = _dirCSSUk;
+        "Bm8acszI" = _Bm8acszI;
+        "EKYz3hIY" = _EKYz3hIY;
         "fabric-1.19.2" = _HEdvo8N2;
-        "fabric-1.20.1" = _IRZZqdNE;
+        "fabric-1.20.1" = _Bm8acszI;
+        "fabric-1.21.1" = _EKYz3hIY;
         "pkg-1.0-SNAPSHOT" = _kxenPwCL;
         "pkg-1.0.1-SNAPSHOT" = _Rdx0rfoQ;
         "pkg-1.1.0" = _PqdVdWtN;
@@ -81,7 +100,10 @@ let
         "pkg-1.2.4" = _oEeiEpel;
         "pkg-1.2.5" = _r3oJmGcD;
         "pkg-1.3.0" = _IRZZqdNE;
-        "default" = _IRZZqdNE;
+        "pkg-1.4.0" = _dirCSSUk;
+        "pkg-1.5.0" = _Bm8acszI;
+        "pkg-1.5.0+1.21.1" = _EKYz3hIY;
+        "default" = _EKYz3hIY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "arda-paths";

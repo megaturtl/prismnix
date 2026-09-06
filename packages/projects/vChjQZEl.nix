@@ -201,6 +201,21 @@ let
             "file" = "historystages-5.5.1-1.20.1.jar";
             "hash" = "sha512-7KK7d/jJIAW9aLEy2kxZH7HayWnuMmuWlfouVnVzQYiqFFxySgJkjQIVg1uQt0JaKkhONUj2tvGNWoPZGw1Vww==";
         };
+        _NHbClVnR = {
+            "id" = "NHbClVnR";
+            "file" = "historystages-5.6.0-1.21.1.jar";
+            "hash" = "sha512-EjXxr0LqzvMgMgRCeNwTb5wyVndThpyJ/PxX8UJfiDgZV8eCZq8Ek1VtD6XuYP9oZkW9slx7WENMozi/vH7Z5Q==";
+        };
+        _ECJEQvN0 = {
+            "id" = "ECJEQvN0";
+            "file" = "historystages-5.6.1-1.21.1.jar";
+            "hash" = "sha512-F7D90a8EOp6xCvkIe7seUXNatbHFqvGt9LO16hcSvd0WhpYlhI4oy0MMbjMvaG0LGHCx8VLbXxemzoJhaCwrpA==";
+        };
+        _8HiJMreB = {
+            "id" = "8HiJMreB";
+            "file" = "historystages-5.6.0-1.20.1.jar";
+            "hash" = "sha512-V01HMTa1S7SembJKjMld2+rRFV4TXm8PUVqNTaZ6UUSqpfjjusomu0b98qEDVCt19MHCdGTtEJS/D5zX6Alq/w==";
+        };
     in {
         "KJUY6XS1" = _KJUY6XS1;
         "TKGeCaRA" = _TKGeCaRA;
@@ -242,13 +257,16 @@ let
         "5cyhGP7y" = _5cyhGP7y;
         "uRFdMktA" = _uRFdMktA;
         "xRuonCSd" = _xRuonCSd;
-        "forge-1.20.1" = _xRuonCSd;
-        "forge-1.20" = _xRuonCSd;
+        "NHbClVnR" = _NHbClVnR;
+        "ECJEQvN0" = _ECJEQvN0;
+        "8HiJMreB" = _8HiJMreB;
+        "forge-1.20.1" = _8HiJMreB;
+        "forge-1.20" = _8HiJMreB;
         "forge-1.19" = _9kb7LdGj;
         "forge-1.19.1" = _9kb7LdGj;
         "forge-1.19.2" = _9kb7LdGj;
-        "neoforge-1.21" = _5cyhGP7y;
-        "neoforge-1.21.1" = _5cyhGP7y;
+        "neoforge-1.21" = _ECJEQvN0;
+        "neoforge-1.21.1" = _ECJEQvN0;
         "fabric-1.21" = _ftXzag9j;
         "fabric-1.21.1" = _ftXzag9j;
         "pkg-0.2-1.20.1" = _KJUY6XS1;
@@ -291,7 +309,10 @@ let
         "pkg-5.5.1-1.21.1" = _5cyhGP7y;
         "pkg-5.5.0-1.20.1" = _uRFdMktA;
         "pkg-5.5.1-1.20.1" = _xRuonCSd;
-        "default" = _xRuonCSd;
+        "pkg-5.6.0-1.21.1" = _NHbClVnR;
+        "pkg-5.6.1-1.21.1" = _ECJEQvN0;
+        "pkg-5.6.0-1.20.1" = _8HiJMreB;
+        "default" = _8HiJMreB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "history-stages";
@@ -299,12 +320,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-History-Stages-Custom-License" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "LicenseRef-All-Rights-Reserved";
-                shortName = "LicenseRef-All-Rights-Reserved";
+                fullName = "LicenseRef-History-Stages-Custom-License";
+                shortName = "LicenseRef-History-Stages-Custom-License";
                 url = "https://github.com/Flix100000/History-Stages/blob/neoforge-1.21.X/LICENSE.txt";
             };
         };

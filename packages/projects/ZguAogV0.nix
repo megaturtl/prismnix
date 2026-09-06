@@ -374,12 +374,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
+            license = lib.getLicenseFromSpdxIdOr "CC0-1.0" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "GNU General Public License v3.0 or later";
-                shortName = "GPL-3.0-or-later";
+                fullName = "Creative Commons Zero v1.0 Universal";
+                shortName = "CC0-1.0";
                 url = null;
             };
         };

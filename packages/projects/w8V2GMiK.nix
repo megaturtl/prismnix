@@ -91,6 +91,11 @@ let
             "file" = "spartan_weaponry_unofficial-1.2.2-1.21.1.jar";
             "hash" = "sha512-Yk+ChrAKT00lkDEiSA9p2dFeU1Cyorq+tKPtl4+6e8k13En+VTzBMBoXJ2oXEWoVWS7qoJLSxLvR5vrh/ibGtw==";
         };
+        _ygaWB8ji = {
+            "id" = "ygaWB8ji";
+            "file" = "spartan_weaponry_unofficial-1.2.3-1.21.1.jar";
+            "hash" = "sha512-hsp0Y0/uQzBH26EYPGUCWIto6rfnCQpdRi8uPbJBLBDRWgDM6rTduW6ZmhuxQsuErI4Y7Hz9utlo7HqTUD9hTg==";
+        };
     in {
         "TehHaJfe" = _TehHaJfe;
         "OrPyDNYQ" = _OrPyDNYQ;
@@ -110,7 +115,8 @@ let
         "SGK2w1X3" = _SGK2w1X3;
         "LED3KcKP" = _LED3KcKP;
         "I7KW38kf" = _I7KW38kf;
-        "neoforge-1.21.1" = _I7KW38kf;
+        "ygaWB8ji" = _ygaWB8ji;
+        "neoforge-1.21.1" = _ygaWB8ji;
         "neoforge-26.1" = _j0Bs65aa;
         "pkg-1.0.0" = _TehHaJfe;
         "pkg-1.21.1-1.0.1" = _OrPyDNYQ;
@@ -130,7 +136,8 @@ let
         "pkg-1.21.1-1.2.0" = _SGK2w1X3;
         "pkg-1.21.1-1.2.1" = _LED3KcKP;
         "pkg-1.21.1-1.2.2" = _I7KW38kf;
-        "default" = _I7KW38kf;
+        "pkg-1.21.1-1.2.3" = _ygaWB8ji;
+        "default" = _ygaWB8ji;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spartan-weaponry-unofficial";

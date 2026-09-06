@@ -251,6 +251,11 @@ let
             "file" = "splendid_slimes-0.20.4.jar";
             "hash" = "sha512-4mvb79w6kMfHqlF+Qh63eKp7YBTGNT/N15a2xITJ2JuxOrIOtmvb3nbpTUdac6t9eJiUvloSTSSKP5QRjsKfHw==";
         };
+        _wIRK6YDI = {
+            "id" = "wIRK6YDI";
+            "file" = "splendid_slimes-0.20.5.jar";
+            "hash" = "sha512-9l/sV8XJVRnYZw6nT0WynnTehU2DMOx49mDwZWGuOXiAKw8EFA8K3jPf/qygifQhq5d//VwsemUo44c9ej0QvA==";
+        };
     in {
         "rDiCpicQ" = _rDiCpicQ;
         "7QH74qdO" = _7QH74qdO;
@@ -302,7 +307,8 @@ let
         "8KF3QHNK" = _8KF3QHNK;
         "LfSiCRFi" = _LfSiCRFi;
         "PvwMuZXj" = _PvwMuZXj;
-        "forge-1.20.1" = _PvwMuZXj;
+        "wIRK6YDI" = _wIRK6YDI;
+        "forge-1.20.1" = _wIRK6YDI;
         "pkg-0.1.0" = _rDiCpicQ;
         "pkg-0.1.1" = _7QH74qdO;
         "pkg-0.2.0" = _cjWSEDR2;
@@ -353,7 +359,8 @@ let
         "pkg-0.20.2" = _8KF3QHNK;
         "pkg-0.20.3" = _LfSiCRFi;
         "pkg-0.20.4" = _PvwMuZXj;
-        "default" = _PvwMuZXj;
+        "pkg-0.20.5" = _wIRK6YDI;
+        "default" = _wIRK6YDI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "splendid-slimes";

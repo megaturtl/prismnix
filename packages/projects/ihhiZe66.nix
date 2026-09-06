@@ -21,17 +21,24 @@ let
             "file" = "management_wanted_2-2.6.jar";
             "hash" = "sha512-BWc95pXKsZJKX+FGHBIiADGZWKl2Oj7Z2mgi4Phh3xUWAJWChw/Ml2elqZgnDXYZaWTp0wlAMY0hS81Np/lqvQ==";
         };
+        _l6EDApAq = {
+            "id" = "l6EDApAq";
+            "file" = "management_wanted_2-2.7.jar";
+            "hash" = "sha512-RlhuC01fcbioCPrwSyQ5Ismr/9BOFNdleKlhvX4vx7ZZUAX24XJ7DF5pUMiwUombYZ3WL6Ckp3Y7Jn1etC/73w==";
+        };
     in {
         "rscAa7cy" = _rscAa7cy;
         "HiYCMEn7" = _HiYCMEn7;
         "DadR9Aw6" = _DadR9Aw6;
         "myhKWtuX" = _myhKWtuX;
-        "forge-1.20.1" = _myhKWtuX;
+        "l6EDApAq" = _l6EDApAq;
+        "forge-1.20.1" = _l6EDApAq;
         "pkg-2.3" = _rscAa7cy;
         "pkg-2.4" = _HiYCMEn7;
         "pkg-2.5" = _DadR9Aw6;
         "pkg-2.6" = _myhKWtuX;
-        "default" = _myhKWtuX;
+        "pkg-2.7" = _l6EDApAq;
+        "default" = _l6EDApAq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "management-wanted-more-decor";

@@ -31,6 +31,16 @@ let
             "file" = "create-aeronautics-bundled-1.21.1-1.3.0.jar";
             "hash" = "sha512-Krui4Wag7I1CqwYQi2MHDWH5hUIOzKhznFsjAFYbMUhrabOtEzELDEWe257evv+1WkzfTOSTgFgz0y9b3pzneA==";
         };
+        _Vzp221Un = {
+            "id" = "Vzp221Un";
+            "file" = "create-aeronautics-bundled-1.21.1-1.3.1.jar";
+            "hash" = "sha512-Frp6LIM1RDvfatR3dze3YvCUUr4t02T4Af0gs161gUcxYXY2mew36xLRrq+MGM+CmbIVLiQzTu3Mn+Zir1u7Jw==";
+        };
+        _44pLdPGg = {
+            "id" = "44pLdPGg";
+            "file" = "create-aeronautics-bundled-1.21.1-1.3.2.jar";
+            "hash" = "sha512-3H6OEUj6RCJDiJuilBIgcTfhu4YgbmySvApYnxN0pGbpPeIr2/FPdTmE2GwpMI+73A8UpLlhixTArBZmo2tG9Q==";
+        };
     in {
         "HY8u0JqC" = _HY8u0JqC;
         "FIeWE7UC" = _FIeWE7UC;
@@ -38,14 +48,18 @@ let
         "1sv6OtSz" = _1sv6OtSz;
         "YhZLrAFC" = _YhZLrAFC;
         "w7zlLnea" = _w7zlLnea;
-        "neoforge-1.21.1" = _w7zlLnea;
+        "Vzp221Un" = _Vzp221Un;
+        "44pLdPGg" = _44pLdPGg;
+        "neoforge-1.21.1" = _44pLdPGg;
         "pkg-1.0.2+mc1.21.1" = _HY8u0JqC;
         "pkg-1.0.3+mc1.21.1" = _FIeWE7UC;
         "pkg-1.1.0+mc1.21.1" = _trnVk44s;
         "pkg-1.1.3+mc1.21.1" = _1sv6OtSz;
         "pkg-1.2.1+mc1.21.1" = _YhZLrAFC;
         "pkg-1.3.0+mc1.21.1" = _w7zlLnea;
-        "default" = _w7zlLnea;
+        "pkg-1.3.1+mc1.21.1" = _Vzp221Un;
+        "pkg-1.3.2+mc1.21.1" = _44pLdPGg;
+        "default" = _44pLdPGg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-aeronautics";

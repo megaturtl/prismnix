@@ -96,6 +96,16 @@ let
             "file" = "SRParasites-1.10.7.jar";
             "hash" = "sha512-XS4f7HeMUpSGVa1tpoLe9Y018EvtDqd9bwuuLU1fyXYgp0Z/DxoVc+HBzeQEY5YkP7wMprVgr0INs+GmCsA06A==";
         };
+        _8Ttvz1l5 = {
+            "id" = "8Ttvz1l5";
+            "file" = "SRParasites-1.10.8.jar";
+            "hash" = "sha512-jOjf18PNnUvOvjdeNKgE7pCrCDQ7IIhaHz1Mo+a6ef6oUDnhoPSOCJOuYCwXrzsXrfYRdt+WLyK5Y+IPNffUSg==";
+        };
+        _GqXT1zbV = {
+            "id" = "GqXT1zbV";
+            "file" = "SRParasites-1.10.9.jar";
+            "hash" = "sha512-CeE8jac8Qib4hawOCL7NABFetOyfZk/qt2HyzjLy9XYElxfGezHGU8kgPjYerRkWkZ2bozh1sXjJhtzHLjsuWg==";
+        };
     in {
         "kX5n0IPa" = _kX5n0IPa;
         "MQqBRRhk" = _MQqBRRhk;
@@ -116,7 +126,9 @@ let
         "We9B2AWK" = _We9B2AWK;
         "QI9vxDqv" = _QI9vxDqv;
         "MCel2qKp" = _MCel2qKp;
-        "forge-1.12.2" = _MCel2qKp;
+        "8Ttvz1l5" = _8Ttvz1l5;
+        "GqXT1zbV" = _GqXT1zbV;
+        "forge-1.12.2" = _GqXT1zbV;
         "pkg-1.9.6" = _kX5n0IPa;
         "pkg-1.9.7" = _MQqBRRhk;
         "pkg-1.9.10" = _cYkjbgrg;
@@ -136,7 +148,9 @@ let
         "pkg-1.10.5" = _We9B2AWK;
         "pkg-1.10.6" = _QI9vxDqv;
         "pkg-1.10.7" = _MCel2qKp;
-        "default" = _MCel2qKp;
+        "pkg-1.10.8" = _8Ttvz1l5;
+        "pkg-1.10.9" = _GqXT1zbV;
+        "default" = _GqXT1zbV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scapeandrunparasites";

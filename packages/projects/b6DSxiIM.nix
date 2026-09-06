@@ -66,6 +66,11 @@ let
             "file" = "KoreanChat-1.5.3.jar";
             "hash" = "sha512-kC1iMj/efyX9DJJy3cEzsCSAbSxbszsLwI/Oio48BScefuyldHsh7TZGV4Yd8TWSvqk3R8T3B3Tq53puqnUuwA==";
         };
+        _wTkcKegs = {
+            "id" = "wTkcKegs";
+            "file" = "KoreanChat-1.6.jar";
+            "hash" = "sha512-Tz9fz5QJpZ0NPR/APUTcWSFq82oKcWT0NLoIBTwNAb6cIlJI8+Gs4r2Z4G2GZPsF+ISiw/iym17uQZkpPyyCOQ==";
+        };
     in {
         "bWdqMn8S" = _bWdqMn8S;
         "zH5FRTGo" = _zH5FRTGo;
@@ -80,6 +85,7 @@ let
         "RYx2YElr" = _RYx2YElr;
         "URRW2Sgl" = _URRW2Sgl;
         "5eQXy2Q5" = _5eQXy2Q5;
+        "wTkcKegs" = _wTkcKegs;
         "fabric-1.19.4" = _zH5FRTGo;
         "fabric-1.20" = _zH5FRTGo;
         "fabric-1.20.1" = _zH5FRTGo;
@@ -98,6 +104,7 @@ let
         "fabric-1.21.9" = _URRW2Sgl;
         "fabric-1.21.10" = _URRW2Sgl;
         "fabric-1.21.11" = _5eQXy2Q5;
+        "fabric-26.2" = _wTkcKegs;
         "pkg-1.0" = _bWdqMn8S;
         "pkg-1.1" = _zH5FRTGo;
         "pkg-1.2" = _wK6hlyEU;
@@ -107,7 +114,8 @@ let
         "pkg-1.5" = _RYx2YElr;
         "pkg-1.5.2" = _URRW2Sgl;
         "pkg-1.5.3" = _5eQXy2Q5;
-        "default" = _5eQXy2Q5;
+        "pkg-1.6" = _wTkcKegs;
+        "default" = _wTkcKegs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "koreanchat";

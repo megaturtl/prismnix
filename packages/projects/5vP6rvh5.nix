@@ -61,6 +61,11 @@ let
             "file" = "CottageCraftAxolotls-3.3.0-1.26.2.jar";
             "hash" = "sha512-FKjG2STai9HMO6xQNHS3vLh9GXyhtP+4O04wdCuja4ps3bWhJnx+mflW9//qOnZjjSt13rCOfJGbN82ZKimvfg==";
         };
+        _Jq6SihNb = {
+            "id" = "Jq6SihNb";
+            "file" = "CottageCraftAxolotls-3.3.1-1.26.2.jar";
+            "hash" = "sha512-2nyP0Vt/uRxHNXoZfRCu8QsPiwhnZwlYiUBbwHRIA+hFtUhq4+8AfpqZQL0zA6ObI2GA7FlNTWT2gYQGN0F+CA==";
+        };
     in {
         "Kf4z9l5O" = _Kf4z9l5O;
         "VfWbQLBW" = _VfWbQLBW;
@@ -74,6 +79,7 @@ let
         "ZbfE7fjz" = _ZbfE7fjz;
         "1ojsY7Hl" = _1ojsY7Hl;
         "YIyHBtN3" = _YIyHBtN3;
+        "Jq6SihNb" = _Jq6SihNb;
         "fabric-1.20.1" = _QjW7YXyu;
         "fabric-1.20.2" = _QjW7YXyu;
         "fabric-1.20.3" = _QjW7YXyu;
@@ -85,7 +91,7 @@ let
         "fabric-26.1" = _1ojsY7Hl;
         "fabric-26.1.1" = _1ojsY7Hl;
         "fabric-26.1.2" = _1ojsY7Hl;
-        "fabric-26.2" = _YIyHBtN3;
+        "fabric-26.2" = _Jq6SihNb;
         "pkg-1.0.0-1.20.1+" = _Kf4z9l5O;
         "pkg-1.1.0-1.20.1+" = _VfWbQLBW;
         "pkg-1.2.0-1.20.1+" = _7bgHCUz5;
@@ -98,7 +104,8 @@ let
         "pkg-3.1.1-1.26.1" = _ZbfE7fjz;
         "pkg-3.2.0-1.26.1" = _1ojsY7Hl;
         "pkg-3.3.0-1.26.2" = _YIyHBtN3;
-        "default" = _YIyHBtN3;
+        "pkg-3.3.1-1.26.2" = _Jq6SihNb;
+        "default" = _Jq6SihNb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cottagecraft-axolotls";

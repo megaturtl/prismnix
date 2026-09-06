@@ -61,6 +61,26 @@ let
             "file" = "AliensUntapped-1.2.3.jar";
             "hash" = "sha512-QWbAMIFjvFEU62KLB7mWlrezODnVsnW+fvqPYFI4hY6VDiavePvoMELFK2fI+MjAXqmotWczXP1WQ+EkbtsAcA==";
         };
+        _KU8dRGag = {
+            "id" = "KU8dRGag";
+            "file" = "AliensUntapped-1.3.0.jar";
+            "hash" = "sha512-zwSTjbSInUSN3Jc0L48mvPLdvlCiKPQeq9vCue8kev4CaUHSCv2tjH3GD0F6s0pQBV07H8pXt4DdS4xrXgwxbg==";
+        };
+        _XPfpqtLk = {
+            "id" = "XPfpqtLk";
+            "file" = "AliensUntapped-1.3.1.jar";
+            "hash" = "sha512-cywZkpfUbxCrDA89t0jM0amBgxirb3InMZjNJmb09lAmU7URsT6Fqb7vqpfEXeRxT1wjl/c5VU5X3HOKB757fQ==";
+        };
+        _DziwcPda = {
+            "id" = "DziwcPda";
+            "file" = "AliensUntapped-1.3.2.jar";
+            "hash" = "sha512-WJo71esFDgVNVLiDqhcR9NCO4E0wC4+C/zWcyq05SV+HW3FchQYTxap4zG7LyAeYrIobo4QVsjxpsprFMmCfdQ==";
+        };
+        _ZVzBWKlC = {
+            "id" = "ZVzBWKlC";
+            "file" = "AliensUntapped-1.3.3.jar";
+            "hash" = "sha512-3XWJGYN/x29xQJcOuZ6qLnNPHxHAfX4P0rV5G5h3uPtuoEaYm3IF3CCGLIGcB1K8HiYBmrjJ3u39Xn9rC4b2qA==";
+        };
     in {
         "p3NdOGVY" = _p3NdOGVY;
         "GX9xENCO" = _GX9xENCO;
@@ -74,7 +94,11 @@ let
         "X5ZwI29C" = _X5ZwI29C;
         "dzgxFIBs" = _dzgxFIBs;
         "taSQZsRz" = _taSQZsRz;
-        "forge-1.20.1" = _taSQZsRz;
+        "KU8dRGag" = _KU8dRGag;
+        "XPfpqtLk" = _XPfpqtLk;
+        "DziwcPda" = _DziwcPda;
+        "ZVzBWKlC" = _ZVzBWKlC;
+        "forge-1.20.1" = _ZVzBWKlC;
         "pkg-1.0.0" = _p3NdOGVY;
         "pkg-1.0.1" = _GX9xENCO;
         "pkg-1.0.2" = _eeI7s381;
@@ -87,7 +111,11 @@ let
         "pkg-1.2.1" = _X5ZwI29C;
         "pkg-1.2.2" = _dzgxFIBs;
         "pkg-1.2.3" = _taSQZsRz;
-        "default" = _taSQZsRz;
+        "pkg-1.3.0" = _KU8dRGag;
+        "pkg-1.3.1" = _XPfpqtLk;
+        "pkg-1.3.2" = _DziwcPda;
+        "pkg-1.3.3" = _ZVzBWKlC;
+        "default" = _ZVzBWKlC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aliens-untapped";

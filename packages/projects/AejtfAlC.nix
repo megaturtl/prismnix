@@ -486,6 +486,26 @@ let
             "file" = "staminafortweakers-fabric-1.21.1-1.11.jar";
             "hash" = "sha512-hN/BXnwXlrmAeto6WozX65cADqHhu/ET7RoRYpZbOGgc67PLaHEE4w8jZ08ql35cYrRUGVgKbWkWFDPs2zs1xA==";
         };
+        _sMLWaND2 = {
+            "id" = "sMLWaND2";
+            "file" = "staminafortweakers-fabric-1.20.1-1.12.jar";
+            "hash" = "sha512-NoKB4QR6lIQZIoZzcg+L9CzOXwiLDpKv3zbWkHQ5oGJk+3Z7r2XOPxN1Xjx7SjtL3RxFnAGdZZG+52nyVTad8A==";
+        };
+        _hmuMbJLI = {
+            "id" = "hmuMbJLI";
+            "file" = "staminafortweakers-forge-1.20.1-1.12.jar";
+            "hash" = "sha512-oiG+8aQlu7xfwZHNOYPZ88E4TMMRLJGYH23+xT7gPKMmuWvRyhx9H85/U2KAAekhUzSUdEi9931CA7Ngo6zjSg==";
+        };
+        _Dx5oFrd6 = {
+            "id" = "Dx5oFrd6";
+            "file" = "staminafortweakers-fabric-1.21.1-1.12.jar";
+            "hash" = "sha512-l6qQKgCtJ5ovWTvd/ohDohjSR2LwIJshn9ayluydAqzuzvU/kobfRTYqkr8Q92Iuv4u/7DVW8X1rkbcv/IqXxg==";
+        };
+        _D3Pvn5LX = {
+            "id" = "D3Pvn5LX";
+            "file" = "staminafortweakers-neoforge-1.21.1-1.12.jar";
+            "hash" = "sha512-cehLZKIYrBefCBO7SG9vci/yuL0G5T3Lj2+kq9+OKlJe/nwe6UAGcb/E/+PXmwpgKGDMc199rmHKlqvcfUhRhA==";
+        };
     in {
         "nEdn5DDe" = _nEdn5DDe;
         "wC6M3fVk" = _wC6M3fVk;
@@ -584,11 +604,15 @@ let
         "OG0z1vt2" = _OG0z1vt2;
         "SKSshM9v" = _SKSshM9v;
         "92GYAAc4" = _92GYAAc4;
-        "fabric-1.20.1" = _spc2xrPh;
+        "sMLWaND2" = _sMLWaND2;
+        "hmuMbJLI" = _hmuMbJLI;
+        "Dx5oFrd6" = _Dx5oFrd6;
+        "D3Pvn5LX" = _D3Pvn5LX;
+        "fabric-1.20.1" = _sMLWaND2;
         "fabric-1.21" = _57Q9yTlL;
-        "fabric-1.21.1" = _92GYAAc4;
-        "forge-1.20.1" = _OG0z1vt2;
-        "neoforge-1.21.1" = _SKSshM9v;
+        "fabric-1.21.1" = _Dx5oFrd6;
+        "forge-1.20.1" = _hmuMbJLI;
+        "neoforge-1.21.1" = _D3Pvn5LX;
         "pkg-1.0.0" = _nEdn5DDe;
         "pkg-1.0.1-1.20.1" = _wC6M3fVk;
         "pkg-1.0.1-1.21" = _xP5rCfLU;
@@ -667,7 +691,9 @@ let
         "pkg-1.10+1.21.1" = _RcSMIXnt;
         "pkg-1.11+1.20.1" = _OG0z1vt2;
         "pkg-1.11+1.21.1" = _92GYAAc4;
-        "default" = _92GYAAc4;
+        "pkg-1.12+1.20.1" = _hmuMbJLI;
+        "pkg-1.12+1.21.1" = _D3Pvn5LX;
+        "default" = _D3Pvn5LX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stamina-for-tweakers";

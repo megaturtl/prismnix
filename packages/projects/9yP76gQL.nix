@@ -221,6 +221,16 @@ let
             "file" = "nekoui-1.20.1-2.0.0-26072400-all.jar";
             "hash" = "sha512-sxZ+jO+cRAsLduGM09JcuDplO9us9RRcTDBbzI/dlgFxy1zpmXtL8twiBV0nHRZK0iob70F6KHdObolc/MVN2Q==";
         };
+        _ffIqE0xX = {
+            "id" = "ffIqE0xX";
+            "file" = "nekoui-26.1.1-2.1.0-26082800-Neo-all.jar";
+            "hash" = "sha512-qZy/qKtJ7KomANhUxCNIMQtW96Ghm4B9qU2wZdMYGpYj6FAxVCakI4CJRcxvKGVvx60aUU912RNXcrZJ1zwl3g==";
+        };
+        _XektIgGi = {
+            "id" = "XektIgGi";
+            "file" = "nekoui-26.2-2.1.0-26083000-Neo-all.jar";
+            "hash" = "sha512-Ajkq4JUaKc/3O49GM4eIaa6GXBSLZ+0mEzhk2cuBSkQT5FDAk5vCFhvI2OLDMIaFnRu7EcCGjSrsZRYW5xsncQ==";
+        };
     in {
         "GzrqGwOG" = _GzrqGwOG;
         "fxxMwucR" = _fxxMwucR;
@@ -266,6 +276,8 @@ let
         "CBkQ092V" = _CBkQ092V;
         "WB74LzHR" = _WB74LzHR;
         "50yfPB1v" = _50yfPB1v;
+        "ffIqE0xX" = _ffIqE0xX;
+        "XektIgGi" = _XektIgGi;
         "neoforge-1.21" = _jeyV8WAP;
         "neoforge-1.20.1" = _5NNHQ7NR;
         "neoforge-1.21.1" = _2oFdjyMV;
@@ -276,9 +288,9 @@ let
         "neoforge-1.21.9" = _bJ5R35FH;
         "neoforge-1.21.10" = _rola7dvZ;
         "neoforge-1.21.11" = _VREBnA4A;
-        "neoforge-26.1.1" = _mtVhxi1j;
+        "neoforge-26.1.1" = _ffIqE0xX;
         "neoforge-26.1.2" = _mtVhxi1j;
-        "neoforge-26.2" = _CBkQ092V;
+        "neoforge-26.2" = _XektIgGi;
         "forge-1.21" = _fxxMwucR;
         "forge-1.20.1" = _50yfPB1v;
         "forge-1.21.1" = _FzLsFeLA;
@@ -332,7 +344,9 @@ let
         "pkg-26.2-2.1.0-26061800-Neo" = _CBkQ092V;
         "pkg-26.2-2.0.1-26071900" = _WB74LzHR;
         "pkg-1.20.1-2.0.0-26072400" = _50yfPB1v;
-        "default" = _50yfPB1v;
+        "pkg-26.1.1-2.1.0-26082800-Neo" = _ffIqE0xX;
+        "pkg-26.2-2.1.0-26083000-Neo" = _XektIgGi;
+        "default" = _XektIgGi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "neko-ui";

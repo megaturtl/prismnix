@@ -187,13 +187,13 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "MIT" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Faunify-Non-Commercial-License" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "MIT License";
-                shortName = "MIT";
-                url = null;
+                fullName = "LicenseRef-Faunify-Non-Commercial-License";
+                shortName = "LicenseRef-Faunify-Non-Commercial-License";
+                url = "https://pastebin.com/raw/v6xcBGgv";
             };
         };
     };

@@ -46,6 +46,26 @@ let
             "file" = "jcraft-twhv-addon-forge-1.1.2.jar";
             "hash" = "sha512-uEjRWNmFK2XOKjW/hCtE9UL9OMFekP5H/GS4nzsos9ladBQxlwy3z7AtSbLPrIawroBzcrkjRDzKPgPCKkBbAg==";
         };
+        _h0i9b3ov = {
+            "id" = "h0i9b3ov";
+            "file" = "jcraft-twhv-addon-forge-1.1.3.jar";
+            "hash" = "sha512-oFAZjH+gbl2t9VtJv4j/LQwrHcQgxeRfU7e2T1+2AbzvnvcST2Xse+AQf+6LoFWQx0BpEXEqhTlmUTcW4OrTiQ==";
+        };
+        _X7qQjLsl = {
+            "id" = "X7qQjLsl";
+            "file" = "jcraft-twhv-addon-fabric-1.1.3.jar";
+            "hash" = "sha512-Ld8vT+tjD4G+Jx2APUgud7HquPOeGwPV/ODhkyET5Lp0la2ifTrsogSt+M0LyI4MeLeiAwAGGPsxfEx/vMDIOQ==";
+        };
+        _IhkqG202 = {
+            "id" = "IhkqG202";
+            "file" = "jcraft-twhv-addon-forge-1.1.4.jar";
+            "hash" = "sha512-PNzGHfx0RwOiaDKqVoAyFNKGzVSrpneYHWY6X9J6VHZuVh1HFE3HqW/0E7TNJHYqCZqdrditWqo9yyI3cOZ9rg==";
+        };
+        _YV9yN0SH = {
+            "id" = "YV9yN0SH";
+            "file" = "jcraft-twhv-addon-fabric-1.1.4.jar";
+            "hash" = "sha512-Q9OzIvRlEyfF+8MnVuA2GPpzwupeIq+SlDiPxCU2afpJi7fsk70vPVOpKPgFtKuecFp9Sje5j8efY30eA1pDTw==";
+        };
     in {
         "yJqnuFxp" = _yJqnuFxp;
         "HrUVyC68" = _HrUVyC68;
@@ -56,14 +76,20 @@ let
         "u7G83c2a" = _u7G83c2a;
         "BBtIYyB1" = _BBtIYyB1;
         "tFZSONtV" = _tFZSONtV;
-        "fabric-1.20.1" = _BBtIYyB1;
-        "forge-1.20.1" = _tFZSONtV;
+        "h0i9b3ov" = _h0i9b3ov;
+        "X7qQjLsl" = _X7qQjLsl;
+        "IhkqG202" = _IhkqG202;
+        "YV9yN0SH" = _YV9yN0SH;
+        "fabric-1.20.1" = _YV9yN0SH;
+        "forge-1.20.1" = _IhkqG202;
         "pkg-1.0.0" = _HrUVyC68;
         "pkg-1.0.1" = _vK7kaLKt;
         "pkg-1.1.0" = _bMyL7S50;
         "pkg-1.1.1" = _u7G83c2a;
         "pkg-1.1.2" = _tFZSONtV;
-        "default" = _tFZSONtV;
+        "pkg-1.1.3" = _X7qQjLsl;
+        "pkg-1.1.4" = _YV9yN0SH;
+        "default" = _YV9yN0SH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-world-high-voltage-(jcraft-addon)";

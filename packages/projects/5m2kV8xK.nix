@@ -311,6 +311,11 @@ let
             "file" = "ntgl-1.21.1-3.1.8.jar";
             "hash" = "sha512-1f2FVh/gIhJ8VFOVTT+UF172uqzBIgRpoClCAbBfuge1ouAKcO0FfYf+vOS4vb0CWrGzBI61xhWr5v8uBX+WWQ==";
         };
+        _zd7xJnqO = {
+            "id" = "zd7xJnqO";
+            "file" = "ntgl-1.21.1-3.2.0.jar";
+            "hash" = "sha512-/RZMU2i+VSI3wyeXjTxT8+kgiBJDjZdHE4LDuyG14nLkzvLEZnhOqMFpptHped1uTOuVekRPVZDD9D18FuSFRA==";
+        };
     in {
         "9KFmYj2X" = _9KFmYj2X;
         "2k2zlK11" = _2k2zlK11;
@@ -374,13 +379,14 @@ let
         "2O4Cz7iQ" = _2O4Cz7iQ;
         "jo2okC23" = _jo2okC23;
         "imvFmxur" = _imvFmxur;
+        "zd7xJnqO" = _zd7xJnqO;
         "forge-1.18.2" = _zDlw3hzc;
         "forge-1.19.2" = _rPrWWHVn;
         "forge-1.20.1" = _mzcsyxWd;
         "forge-1.20" = _8R0KDIQj;
         "neoforge-1.20" = _8R0KDIQj;
         "neoforge-1.20.1" = _mzcsyxWd;
-        "neoforge-1.21.1" = _imvFmxur;
+        "neoforge-1.21.1" = _zd7xJnqO;
         "pkg-1.18.2-1.0.0" = _9KFmYj2X;
         "pkg-1.18.2-1.0.2" = _2k2zlK11;
         "pkg-1.19.2-1.0.2" = _b0vtgsrk;
@@ -440,7 +446,8 @@ let
         "pkg-3.1.6" = _2O4Cz7iQ;
         "pkg-3.1.7" = _jo2okC23;
         "pkg-3.1.8" = _imvFmxur;
-        "default" = _imvFmxur;
+        "pkg-3.2.0" = _zd7xJnqO;
+        "default" = _zd7xJnqO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ntgl";

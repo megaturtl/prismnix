@@ -193,6 +193,11 @@ let
         "minecraft-26.3-snapshot-5" = _hUmacZAp;
         "minecraft-26.3-snapshot-6" = _hUmacZAp;
         "minecraft-26.3-snapshot-7" = _hUmacZAp;
+        "minecraft-26.3-snapshot-8" = _hUmacZAp;
+        "minecraft-26.3-snapshot-9" = _hUmacZAp;
+        "minecraft-26.3-snapshot-10" = _hUmacZAp;
+        "minecraft-26.3-pre-1" = _hUmacZAp;
+        "minecraft-26.3-pre-2" = _hUmacZAp;
         "minecraft-1.6.1" = _qjCedkqb;
         "minecraft-1.6.2" = _qjCedkqb;
         "minecraft-1.6.4" = _qjCedkqb;

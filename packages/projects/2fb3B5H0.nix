@@ -176,6 +176,11 @@ let
             "file" = "Doppler-1.2.3+26.1.2_fabric.jar";
             "hash" = "sha512-Q7IfN3VUjw8rl3jAFXi7f/hBNAjEgTm5/FgeUoNKMB4FY6JDkvylfxt1OcH4yyQ/vWPZjLU5ngEtvaLRKpOTNw==";
         };
+        _ow9IQKL0 = {
+            "id" = "ow9IQKL0";
+            "file" = "Doppler-1.2.3+26.2_fabric.jar";
+            "hash" = "sha512-RBBN3IdtJoXC8KtMZow+0CBoFg1p/28oSiCTBnWBtlIc5mhnH+WAglBRjy93CTwNGyttqptRz/CAuQ4z4pDHBQ==";
+        };
     in {
         "eJsoPfqm" = _eJsoPfqm;
         "Ywkh3pQs" = _Ywkh3pQs;
@@ -212,6 +217,7 @@ let
         "cEF7XKH6" = _cEF7XKH6;
         "1dGAhWQf" = _1dGAhWQf;
         "KjxrzG0g" = _KjxrzG0g;
+        "ow9IQKL0" = _ow9IQKL0;
         "fabric-1.21.5" = _ggDA8h7S;
         "fabric-1.21.10" = _7265yFEc;
         "fabric-1.21.1" = _AFgGR48j;
@@ -219,6 +225,7 @@ let
         "fabric-1.19.2" = _hmOyOzPw;
         "fabric-1.18.2" = _cEF7XKH6;
         "fabric-26.1.2" = _KjxrzG0g;
+        "fabric-26.2" = _ow9IQKL0;
         "neoforge-1.21.5" = _nLvDPU8R;
         "neoforge-1.21.1" = _SsVFmEzs;
         "forge-1.20.1" = _c6nuwoX5;
@@ -244,8 +251,8 @@ let
         "pkg-1.2.0+1.18.2" = _ngR4gxV3;
         "pkg-1.2.0" = _IPDJ2pZd;
         "pkg-1.2.2" = _1dGAhWQf;
-        "pkg-1.2.3" = _KjxrzG0g;
-        "default" = _KjxrzG0g;
+        "pkg-1.2.3" = _ow9IQKL0;
+        "default" = _ow9IQKL0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "doppler";

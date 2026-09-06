@@ -246,6 +246,16 @@ let
             "file" = "TelePass-fabric-26.1.2-14.0.0.jar";
             "hash" = "sha512-xmoSrBkSG30VdG1ioUVTR2SZtfdiJ9ZtIbdZFb7BUq3SBZQ1B1TR2iuQu+/Un+5s35OlDk3qAmi9ojkaziODgQ==";
         };
+        _v4fTDq6K = {
+            "id" = "v4fTDq6K";
+            "file" = "TelePass-fabric-26.2-15.0.0.jar";
+            "hash" = "sha512-Vdzgt9TC0l1aqLXChX0BuxvlESpsgcbH9VkO9wgSrWxwV0aRJj4tw1GjE5hFzjRGcys+q+s2CVlGmDvqgYCVgA==";
+        };
+        _ody3jgtc = {
+            "id" = "ody3jgtc";
+            "file" = "TelePass-neoforge-26.2-15.0.0.jar";
+            "hash" = "sha512-Y+fpfBP2I2hCXC12OwA+TB0t57J65gWKFfeVgF47RKjm4fPsqG9tlGN3Vv0PdurKFekQZ3JXX8Qa+4/Qiaxqpg==";
+        };
     in {
         "je9dhs2E" = _je9dhs2E;
         "Zp9Dqkwg" = _Zp9Dqkwg;
@@ -296,6 +306,8 @@ let
         "4Or08B3L" = _4Or08B3L;
         "I7pKvV5K" = _I7pKvV5K;
         "Y9YSmK0o" = _Y9YSmK0o;
+        "v4fTDq6K" = _v4fTDq6K;
+        "ody3jgtc" = _ody3jgtc;
         "forge-1.18" = _vmTIwV2t;
         "forge-1.18.1" = _vmTIwV2t;
         "forge-1.18.2" = _vmTIwV2t;
@@ -325,6 +337,7 @@ let
         "neoforge-1.21.10" = _rxzYS4Os;
         "neoforge-1.21.11" = _DyBdDbei;
         "neoforge-26.1.2" = _I7pKvV5K;
+        "neoforge-26.2" = _ody3jgtc;
         "fabric-1.20.1" = _QQTK7aMu;
         "fabric-1.20.2" = _6HPNPndN;
         "fabric-1.20.4" = _h0nLdsRb;
@@ -339,6 +352,7 @@ let
         "fabric-1.21.10" = _hqU3phoP;
         "fabric-1.21.11" = _4Or08B3L;
         "fabric-26.1.2" = _Y9YSmK0o;
+        "fabric-26.2" = _v4fTDq6K;
         "pkg-1.1.2.3" = _je9dhs2E;
         "pkg-1.1.2.1" = _Zp9Dqkwg;
         "pkg-1.1.2.2" = _aS0VUoqy;
@@ -367,7 +381,8 @@ let
         "pkg-12.0.0" = _hqU3phoP;
         "pkg-13.0.0" = _4Or08B3L;
         "pkg-14.0.0" = _Y9YSmK0o;
-        "default" = _Y9YSmK0o;
+        "pkg-15.0.0" = _ody3jgtc;
+        "default" = _ody3jgtc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "telepass";

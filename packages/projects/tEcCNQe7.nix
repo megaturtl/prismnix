@@ -161,6 +161,16 @@ let
             "file" = "improved-signs-1.7.0+mc26.2.jar";
             "hash" = "sha512-UMbpDC+MArDk0Q+tv6TyG8ZMb4gmFPGrBPhb2DgCvJNxlQyH1bHxZ15C8ItRmM3AbA69c3L3An3A/pOaTRwAnw==";
         };
+        _eG2aUAld = {
+            "id" = "eG2aUAld";
+            "file" = "improved-signs-1.7.1+mc26.2.jar";
+            "hash" = "sha512-ZJnNrFc3ZHAwNZL9Xt8zMRQ/BuVlCWa2u2i1gFnO/NFXawEJpnUETwdVRmzdLtES1aaGj/KdPHlrDsg1h32S9Q==";
+        };
+        _7gkczZhQ = {
+            "id" = "7gkczZhQ";
+            "file" = "improved-signs-1.7.1+mc1.21.1.jar";
+            "hash" = "sha512-aA15mc98wdI067btuc0O7ELyNuRH95WG83Gr4LQR/L+C/7Y1gAJ9Pm3S/399dC5Y5DJn2DVCSICivw2ckjvaPw==";
+        };
     in {
         "k3CpB7e0" = _k3CpB7e0;
         "EQWaQ6zl" = _EQWaQ6zl;
@@ -194,6 +204,8 @@ let
         "Uy3SVGX0" = _Uy3SVGX0;
         "pP9xYrIO" = _pP9xYrIO;
         "POquc3FG" = _POquc3FG;
+        "eG2aUAld" = _eG2aUAld;
+        "7gkczZhQ" = _7gkczZhQ;
         "fabric-1.16.5" = _k3CpB7e0;
         "fabric-1.17" = _abs0Intl;
         "fabric-1.17.1" = _UgEtsOWx;
@@ -210,7 +222,7 @@ let
         "fabric-1.20.5" = _3dAyYuh4;
         "fabric-1.20.6" = _bYi3gcoj;
         "fabric-1.21" = _ayHyNo9O;
-        "fabric-1.21.1" = _yrJhnvQh;
+        "fabric-1.21.1" = _7gkczZhQ;
         "fabric-1.21.3" = _EHigEkQn;
         "fabric-1.21.4" = _xTfhlDN8;
         "fabric-1.21.5" = _1djqOXik;
@@ -221,7 +233,7 @@ let
         "fabric-1.21.10" = _qj2uONOj;
         "fabric-1.21.11" = _wUAKh1yn;
         "fabric-26.1.2" = _Uy3SVGX0;
-        "fabric-26.2" = _POquc3FG;
+        "fabric-26.2" = _eG2aUAld;
         "quilt-1.19" = _MPeqJcKJ;
         "quilt-1.19.1" = _jCuRv8Fh;
         "quilt-1.19.2" = _eXGUTNJu;
@@ -263,7 +275,8 @@ let
         "pkg-1.5.1" = _Snd745di;
         "pkg-1.6.0" = _pP9xYrIO;
         "pkg-1.7.0" = _POquc3FG;
-        "default" = _POquc3FG;
+        "pkg-1.7.1" = _7gkczZhQ;
+        "default" = _7gkczZhQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "improved-signs";

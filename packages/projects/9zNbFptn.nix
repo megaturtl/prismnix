@@ -86,6 +86,16 @@ let
             "file" = "Boykisser powder snow 1.21.11.zip";
             "hash" = "sha512-3DqcxtWI2+Ssbc6hbXwDAGFuDKg5x4aYaHR5Pj/ZewWhOT22a6Fjlbm9bfPIhP+bWPs51/WnKj56PFUhOCBvDA==";
         };
+        _dZqHTtt3 = {
+            "id" = "dZqHTtt3";
+            "file" = "Boykisser powder snow 26.1 - 26.1.2.zip.zip";
+            "hash" = "sha512-JlF1ZdkBEX2HAzF9DD5vW/iOoByl2n7a7YVQ7w+qvd1zYGAVURPVH0TjOBnoTpXz49LQGz7z9ABkioIDc1usHA==";
+        };
+        _ycbRjotb = {
+            "id" = "ycbRjotb";
+            "file" = "Boykisser powder snow 26.2.zip";
+            "hash" = "sha512-zuDqZ6J6CxxSdBraPk74da/LguB1dwvdII8hdCEDZaIZEolVNuMED8/+w+NgigtLUc6ETxaaffnkqC/l35CIIg==";
+        };
     in {
         "x86dWOKl" = _x86dWOKl;
         "K7G4tudz" = _K7G4tudz;
@@ -104,6 +114,8 @@ let
         "x6GuNGCr" = _x6GuNGCr;
         "eDRtXeZE" = _eDRtXeZE;
         "heFZsIAQ" = _heFZsIAQ;
+        "dZqHTtt3" = _dZqHTtt3;
+        "ycbRjotb" = _ycbRjotb;
         "minecraft-1.17" = _x86dWOKl;
         "minecraft-1.17.1" = _x86dWOKl;
         "minecraft-1.18" = _K7G4tudz;
@@ -131,6 +143,10 @@ let
         "minecraft-1.21.9" = _eDRtXeZE;
         "minecraft-1.21.10" = _eDRtXeZE;
         "minecraft-1.21.11" = _heFZsIAQ;
+        "minecraft-26.1" = _dZqHTtt3;
+        "minecraft-26.1.1" = _dZqHTtt3;
+        "minecraft-26.1.2" = _dZqHTtt3;
+        "minecraft-26.2" = _ycbRjotb;
         "pkg-1" = _heFZsIAQ;
         "pkg-1.20" = _lO8NySqs;
         "pkg-1.20.2" = _s5qiygSL;
@@ -141,7 +157,9 @@ let
         "pkg-1.21.4" = _uBYkYNlk;
         "pkg-1.21.5" = _zqRe9k5i;
         "pkg-1.21.6" = _FgPu1Gdw;
-        "default" = _heFZsIAQ;
+        "pkg-26.1" = _dZqHTtt3;
+        "pkg-26.2" = _ycbRjotb;
+        "default" = _ycbRjotb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "boykisser-powder-snow";

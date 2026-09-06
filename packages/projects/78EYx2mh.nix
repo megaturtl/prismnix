@@ -206,6 +206,61 @@ let
             "file" = "poopsky-2.1+NeoForge1.21.1-hotfix.jar";
             "hash" = "sha512-8nyuoooQxTVfUyrb9zut2mxJJNjwhP4iMBbPjFg2nQ+dAqJYz34BYB6eV4G69g5aFy7GKO7yG+dWZiTPEN4gqw==";
         };
+        _UXJnH72x = {
+            "id" = "UXJnH72x";
+            "file" = "poopsky-2.1.1+NeoForge1.21.1.jar";
+            "hash" = "sha512-ffq0qRkyqeWzixVeeeP6TIYN8rbPtOG4WhUk551Y/j91hyDvLaGeryDl+JqMv1E9S2K2OCSct5dUaksFN6egFA==";
+        };
+        _GkL38l0g = {
+            "id" = "GkL38l0g";
+            "file" = "poopsky-2.1.1+NeoForge1.21.1-hotfix.jar";
+            "hash" = "sha512-cJmsCwDiHKhQ0WpCPkRm+fzCrQoEF767EFnErFNRM95x2+0k0ufFy3KoROJPtBkhSBaqfBoDo15TJLd7SDp3BQ==";
+        };
+        _ttrr7wl0 = {
+            "id" = "ttrr7wl0";
+            "file" = "poopsky-2.1.1+NeoForge1.21.1-hotfix2.jar";
+            "hash" = "sha512-67KEx6lG29QZZEs7ToVgsPSqMinKLyARNrjicBAXxMvo5qu0wkWq7qq8H8mVjwsKyAFva+hFQZ4gr0Ivv/iu1Q==";
+        };
+        _gM9CkcgV = {
+            "id" = "gM9CkcgV";
+            "file" = "poopsky-2.1.2+NeoForge1.21.1.jar";
+            "hash" = "sha512-It9k9g8E1fhcp1GsCKA5BK3b3EnSbrCoV/XTcsumjA/NrinBVB2f4BRZU5AGx60k6CSH/IK11c69OCmDnsjVcA==";
+        };
+        _ug13bbfy = {
+            "id" = "ug13bbfy";
+            "file" = "poopsky-2.1.3+NeoForge1.21.1.jar";
+            "hash" = "sha512-vPaJflaGmwEF3/xAvJ4Y/ZCjVs3Otd2CqCjOWEb7ViH7RM/OxXHQoqYMVcRuixTm8kkew28tYQMKPQ8T0iyoxw==";
+        };
+        _aki5dPsO = {
+            "id" = "aki5dPsO";
+            "file" = "poopsky-2.1.3+NeoForge1.21.1-hotfix.jar";
+            "hash" = "sha512-wDay0LHcOG3lZq4QxiF2UC9bSITsY8ollCtu0mjEAtsghaqg1WusWTPigqw0g8OXLD2PzJMmDeTEhc/aHDUcWA==";
+        };
+        _4OYDs6di = {
+            "id" = "4OYDs6di";
+            "file" = "poopsky-2.1.3+Fabric1.21.1-hotfix.jar";
+            "hash" = "sha512-/oZPYIzpY0a7QrZTa/J2G4TeN015jMhhQs6XnTtwv8UaFPkDPMgc7DtH5pgP3J2DIWGL2rsynlwfTJVN1XWgaw==";
+        };
+        _pCqUyRsx = {
+            "id" = "pCqUyRsx";
+            "file" = "poopsky-2.1.4+Fabric1.21.1.jar";
+            "hash" = "sha512-AOQAaLxT7Qu8dO7ylP5uNhGwf09KMa7QHVJ+K+8o1VC6Vo0wi3gJMcb123Ke3rld5bbp8E6JJuZJLnn82x2UHw==";
+        };
+        _79ys4sIK = {
+            "id" = "79ys4sIK";
+            "file" = "poopsky-2.1.5+Fabric1.21.1.jar";
+            "hash" = "sha512-FQfLEYFHePKH8067eo3L/iX/erp61AJVK2Ivw+zqWygJk1h7RevnYxVLJL47AbwUCTHmA0s9fD9HRReKt4nl+w==";
+        };
+        _i4WdJyul = {
+            "id" = "i4WdJyul";
+            "file" = "poopsky-2.2+NeoForge1.21.1.jar";
+            "hash" = "sha512-WHFMZWkvBACPUSo4feDZJq/diB8pnoBM7dsLiwAxboUIhZM3uPapIH1PBQLJ/i/eVq0nXmLlYULm2Rkpgk2Lmw==";
+        };
+        _CEa86OFf = {
+            "id" = "CEa86OFf";
+            "file" = "poopsky-2.2+NeoForge1.21.1-Hotfix2.jar";
+            "hash" = "sha512-hCRAKgnUeeujibYt17pi5MZXsZFxFj1VqZ0Gdsmgt2E4h3bDnVFQl5/FSL9DqFCDP+rC6BE2i7/YYn/JK4KLjQ==";
+        };
     in {
         "uL3UbGyT" = _uL3UbGyT;
         "D0Cv2eK0" = _D0Cv2eK0;
@@ -248,9 +303,20 @@ let
         "COJL1EXj" = _COJL1EXj;
         "ohiPJclA" = _ohiPJclA;
         "Xhc9Ac4i" = _Xhc9Ac4i;
-        "fabric-1.21.1" = _g3BKxUOs;
-        "fabric-1.21" = _g3BKxUOs;
-        "neoforge-1.21.1" = _Xhc9Ac4i;
+        "UXJnH72x" = _UXJnH72x;
+        "GkL38l0g" = _GkL38l0g;
+        "ttrr7wl0" = _ttrr7wl0;
+        "gM9CkcgV" = _gM9CkcgV;
+        "ug13bbfy" = _ug13bbfy;
+        "aki5dPsO" = _aki5dPsO;
+        "4OYDs6di" = _4OYDs6di;
+        "pCqUyRsx" = _pCqUyRsx;
+        "79ys4sIK" = _79ys4sIK;
+        "i4WdJyul" = _i4WdJyul;
+        "CEa86OFf" = _CEa86OFf;
+        "fabric-1.21.1" = _79ys4sIK;
+        "fabric-1.21" = _4OYDs6di;
+        "neoforge-1.21.1" = _CEa86OFf;
         "pkg-1.12.1-1.0.0" = _uL3UbGyT;
         "pkg-1.12.1-1.0.0-datafix" = _D0Cv2eK0;
         "pkg-1.12.1-1.0.1" = _XyNfhUpL;
@@ -292,7 +358,18 @@ let
         "pkg-1.21.1-2.0.1-hotfix" = _COJL1EXj;
         "pkg-2.1+NeoForge1.21.1" = _ohiPJclA;
         "pkg-2.1+NeoForge1.21.1-hotfix" = _Xhc9Ac4i;
-        "default" = _Xhc9Ac4i;
+        "pkg-2.1.1+NeoForge1.21.1" = _UXJnH72x;
+        "pkg-2.1.1+NeoForge1.21.1-hotfix" = _GkL38l0g;
+        "pkg-2.1.1+NeoForge1.21.1-hotfix2" = _ttrr7wl0;
+        "pkg-2.1.2+NeoForge1.21.1" = _gM9CkcgV;
+        "pkg-2.1.3+NeoForge1.21.1" = _ug13bbfy;
+        "pkg-2.1.3+NeoForge1.21.1-hotfix" = _aki5dPsO;
+        "pkg-2.1.3+Fabric1.21.1-hotfix" = _4OYDs6di;
+        "pkg-2.1.4+Fabric1.21.1" = _pCqUyRsx;
+        "pkg-2.1.5+Fabric1.21.1" = _79ys4sIK;
+        "pkg-2.2+NeoForge1.21.1" = _i4WdJyul;
+        "pkg-2.2+NeoForge1.21.1-Hotfix2" = _CEa86OFf;
+        "default" = _CEa86OFf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "poopsky";

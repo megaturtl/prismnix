@@ -241,6 +241,31 @@ let
             "file" = "powergrid-mc1.21.1-0.5.5.1.jar";
             "hash" = "sha512-Da/oJDgUMnCnYvm//zSDxW6FpdsLs4LboVMCttb2qIbyUt7kL8oI+0bHp265QB+QQw1BmUsgEz6cAJ1bh2uLtQ==";
         };
+        _ZHqOfBhb = {
+            "id" = "ZHqOfBhb";
+            "file" = "powergrid-mc1.20.1-0.6.0.jar";
+            "hash" = "sha512-DPy+3XuZ889KWjkdX4uD0Zb43PNO3oxsN0YutrSYRS0W4+7AcdaQsTw6ed5I7F3lllkTOBFrOHN0iYxOfqpnBg==";
+        };
+        _An59qZES = {
+            "id" = "An59qZES";
+            "file" = "powergrid-mc1.21.1-0.6.0.jar";
+            "hash" = "sha512-IDCHUFFexv+2de3CRKlXNh4YjZ3DvNg3jhAxLCLg3OSg0s5uw4hXxlxTPUxlrw998m2sJotYAXsLi7FAhmrNeg==";
+        };
+        _IhWvpljS = {
+            "id" = "IhWvpljS";
+            "file" = "powergrid-mc1.21.1-0.6.0.1.jar";
+            "hash" = "sha512-lHrCA1fl8VKZc8/1nn5NHeb37MLFCtsY/rxngBfoG8INAQxFnq3bIzUWicmnrbQyncRS36S071NfDTtgjlHdnA==";
+        };
+        _ziG4IQ4x = {
+            "id" = "ziG4IQ4x";
+            "file" = "powergrid-mc1.20.1-0.6.1.jar";
+            "hash" = "sha512-vCjNZyR4usBYzdiDby5LOxSQKuAI9tkwm2+eTx1TmqhP/cYm0iyyNilfc0+6FXzmFYAok7mqkKYm6Yu7uKnGFw==";
+        };
+        _ip4gJrgx = {
+            "id" = "ip4gJrgx";
+            "file" = "powergrid-mc1.21.1-0.6.1.jar";
+            "hash" = "sha512-1dcHWxl3tEnxlkaJY83ySRCESCPqDGfXo2mKxHAuOZl4M3s4qvYLbPfrsIn3EsuLLcDCkg5r85JzuuYI3lwTxA==";
+        };
     in {
         "exw4HBeB" = _exw4HBeB;
         "StnIY0Zm" = _StnIY0Zm;
@@ -290,9 +315,14 @@ let
         "Uqrdw4ZP" = _Uqrdw4ZP;
         "BElWxOs7" = _BElWxOs7;
         "8EtGIOFr" = _8EtGIOFr;
-        "forge-1.20.1" = _BElWxOs7;
+        "ZHqOfBhb" = _ZHqOfBhb;
+        "An59qZES" = _An59qZES;
+        "IhWvpljS" = _IhWvpljS;
+        "ziG4IQ4x" = _ziG4IQ4x;
+        "ip4gJrgx" = _ip4gJrgx;
+        "forge-1.20.1" = _ziG4IQ4x;
         "fabric-1.20.1" = _5RXy8PFp;
-        "neoforge-1.21.1" = _8EtGIOFr;
+        "neoforge-1.21.1" = _ip4gJrgx;
         "pkg-0.1.0" = _exw4HBeB;
         "pkg-0.1.1" = _StnIY0Zm;
         "pkg-0.1.2" = _9Z2R2JJi;
@@ -326,7 +356,10 @@ let
         "pkg-0.5.4.1" = _5RXy8PFp;
         "pkg-0.5.5" = _Uqrdw4ZP;
         "pkg-0.5.5.1" = _8EtGIOFr;
-        "default" = _8EtGIOFr;
+        "pkg-0.6.0" = _An59qZES;
+        "pkg-0.6.0.1" = _IhWvpljS;
+        "pkg-0.6.1" = _ip4gJrgx;
+        "default" = _ip4gJrgx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "power-grid";

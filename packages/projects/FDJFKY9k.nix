@@ -71,6 +71,31 @@ let
             "file" = "trash-slot-2.0.2.jar";
             "hash" = "sha512-0iYf1xt1j8AoC6WmQrGeo9/o2F/IqOoUIoZSkVY64mKTlVjMAT76YCaE9zDoqmIn6mQQ7ug16uNxERFYjidGXw==";
         };
+        _52I5OBEX = {
+            "id" = "52I5OBEX";
+            "file" = "trash-slot-2.0.3.jar";
+            "hash" = "sha512-idzPLpAvU0F3QF7xLLdALat2txaXfKLbIRsA50FYuy6VJNZNSyILDTrepPwqQzQvvH29Po6OL/Xgrv5/w6faGA==";
+        };
+        _bc4utdfM = {
+            "id" = "bc4utdfM";
+            "file" = "trash-slot-2.0.3.jar";
+            "hash" = "sha512-5/ZKoBbaddEI8iOLk0kw7D01h5h1fTezH9uq+aDa7EKXzqyQUYRlxEAAud87m8p06O/cwMTIR1M06EnR8vU2DA==";
+        };
+        _N04zuRun = {
+            "id" = "N04zuRun";
+            "file" = "trash-slot-2.0.4.jar";
+            "hash" = "sha512-fjMhLaXn+ZpDpUYwbgovmKVGr4rCRoFmU6XpfQVmH0KfX+7b8BapdNOdxUtsPaTLR0bVJYJMM/TKwDcFVBaSFg==";
+        };
+        _rTEagtLu = {
+            "id" = "rTEagtLu";
+            "file" = "trash-slot-2.0.4.jar";
+            "hash" = "sha512-+kahH0oflZTauFg4jQUCn4ETTjGxIhv52FEUM/F+LI9/wn1VFx+9G4p5Mby7MYFnibUWjYV4xqwCGcfO6ZTOKw==";
+        };
+        _kJkHZEHe = {
+            "id" = "kJkHZEHe";
+            "file" = "trash-slot-2.0.4.jar";
+            "hash" = "sha512-nq6uSaVKzYMufUqGQwfHJ5qtsqZDw3W9VrqDs/jAXwOpXoo85eNxjkumarBUIl8+pg+JjorYvhmHQ9otSH4/hg==";
+        };
     in {
         "SmU6BA4b" = _SmU6BA4b;
         "LEkJnby7" = _LEkJnby7;
@@ -86,6 +111,11 @@ let
         "8fvxxKh2" = _8fvxxKh2;
         "u8LI4gDp" = _u8LI4gDp;
         "U3jTXcTy" = _U3jTXcTy;
+        "52I5OBEX" = _52I5OBEX;
+        "bc4utdfM" = _bc4utdfM;
+        "N04zuRun" = _N04zuRun;
+        "rTEagtLu" = _rTEagtLu;
+        "kJkHZEHe" = _kJkHZEHe;
         "forge-1.20.1" = _SmU6BA4b;
         "forge-1.20.2" = _SmU6BA4b;
         "forge-1.20.3" = _SmU6BA4b;
@@ -102,13 +132,16 @@ let
         "forge-1.14.4" = _2HS1KI0d;
         "forge-1.13.2" = _DkyU0Jum;
         "forge-1.12.2" = _uBHrPq8F;
-        "fabric-26.2" = _u8LI4gDp;
-        "fabric-1.20.1" = _U3jTXcTy;
+        "fabric-26.2" = _N04zuRun;
+        "fabric-1.20.1" = _rTEagtLu;
+        "fabric-1.20.4" = _kJkHZEHe;
         "pkg-1.1.0" = _uBHrPq8F;
         "pkg-2.0.0" = _iSHtTNru;
         "pkg-2.0.1" = _8fvxxKh2;
         "pkg-2.0.2" = _U3jTXcTy;
-        "default" = _U3jTXcTy;
+        "pkg-2.0.3" = _bc4utdfM;
+        "pkg-2.0.4" = _kJkHZEHe;
+        "default" = _kJkHZEHe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trash-slot";

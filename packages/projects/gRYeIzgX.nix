@@ -96,6 +96,11 @@ let
             "file" = "k-turrets-1.0.9-1.20.1.jar";
             "hash" = "sha512-Geh43saHOdpJnB+WkmhLgDUy5NNTWsjizdvKdWiux5qNHXbIdAKpp9jT2gsQPf9NLR5BYpcFkEoqtgO+3/pSyw==";
         };
+        _NpkHzMyo = {
+            "id" = "NpkHzMyo";
+            "file" = "k_turrets-fabric-1.21.1-4.0.15.jar";
+            "hash" = "sha512-kzu5Zmlx32+IJqN8l7UP6U08wbRUOqUv1o0EFJ3xUBUbiQFIqOIzVP5UftI00Snw+HGUdb+hEekPUAhyI5FJYA==";
+        };
     in {
         "YGToWIsO" = _YGToWIsO;
         "YZ0HKxGa" = _YZ0HKxGa;
@@ -116,6 +121,7 @@ let
         "9WcFiCYt" = _9WcFiCYt;
         "2TnPTyQF" = _2TnPTyQF;
         "J9lQakyw" = _J9lQakyw;
+        "NpkHzMyo" = _NpkHzMyo;
         "fabric-1.19" = _YZ0HKxGa;
         "fabric-1.19.1" = _YZ0HKxGa;
         "fabric-1.19.2" = _YZ0HKxGa;
@@ -123,7 +129,7 @@ let
         "fabric-1.19.4" = _YZ0HKxGa;
         "fabric-1.20" = _2TnPTyQF;
         "fabric-1.20.1" = _J9lQakyw;
-        "fabric-1.21.1" = _cQmMw4pV;
+        "fabric-1.21.1" = _NpkHzMyo;
         "pkg-0.0.18-1.19.2" = _YGToWIsO;
         "pkg-0.0.20-1.19.2" = _YZ0HKxGa;
         "pkg-1.0.0-1.20.1" = _ABLaa7dB;
@@ -143,7 +149,8 @@ let
         "pkg-1.0.7-1.20.1" = _9WcFiCYt;
         "pkg-1.0.8-1.20.1" = _2TnPTyQF;
         "pkg-1.0.9-1.20.1" = _J9lQakyw;
-        "default" = _J9lQakyw;
+        "pkg-4.0.15" = _NpkHzMyo;
+        "default" = _NpkHzMyo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "k-turrets";

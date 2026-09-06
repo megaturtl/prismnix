@@ -401,6 +401,16 @@ let
             "file" = "utility-26.1.2-2.8.0.jar";
             "hash" = "sha512-KCf7+Olz/bQHrj1ZYZHDyRxg9v4MFenoap3DbfzohZ2kk9Ya/5Xk+pVL3ZUsJGjUtMXhaz4RpCD1aawSHGcrpg==";
         };
+        _dfvxgiBO = {
+            "id" = "dfvxgiBO";
+            "file" = "utility-26.1-2.2.0.jar";
+            "hash" = "sha512-59TuIlc2+vuFDh1Pcw36/ZHjCHTDXKjeBhzs3vqdcdzo2S9tGnJNVJzjFk9OvxITS9kKMaSc2F3VdFwxir4t9A==";
+        };
+        _ErZoVqQY = {
+            "id" = "ErZoVqQY";
+            "file" = "utility-26.1.2-2.8.1.jar";
+            "hash" = "sha512-di+Af3QLz4cemPQuIOZCGCb5zMj95MIDVWRUsLzceP+4uOqiNJbctxuGapM9PZ651w+PmwVTxRxfUe+PEff/+Q==";
+        };
     in {
         "gdVTReC5" = _gdVTReC5;
         "BXRjJLDh" = _BXRjJLDh;
@@ -482,6 +492,8 @@ let
         "MMhjsucN" = _MMhjsucN;
         "6Scb0O5n" = _6Scb0O5n;
         "qmwFr2sX" = _qmwFr2sX;
+        "dfvxgiBO" = _dfvxgiBO;
+        "ErZoVqQY" = _ErZoVqQY;
         "forge-1.19.2" = _QDpzVukN;
         "forge-1.20" = _5LziSNHr;
         "forge-1.20.1" = _5LziSNHr;
@@ -489,9 +501,9 @@ let
         "neoforge-1.21.1" = _IZUy2kuP;
         "neoforge-1.21.9" = _Na1SB86J;
         "neoforge-1.21.11" = _a6QAiesw;
-        "neoforge-26.1" = _2oXg5vw6;
+        "neoforge-26.1" = _dfvxgiBO;
         "neoforge-26.1.1" = _2oXg5vw6;
-        "neoforge-26.1.2" = _qmwFr2sX;
+        "neoforge-26.1.2" = _ErZoVqQY;
         "pkg-1.14.2" = _gdVTReC5;
         "pkg-1.16" = _BXRjJLDh;
         "pkg-1.19.X-1.19" = _QDpzVukN;
@@ -538,7 +550,7 @@ let
         "pkg-1.21.11-1.5.0" = _a6QAiesw;
         "pkg-26.1-pre-3-2.0.1" = _sDU3LlYb;
         "pkg-26.1-pre-3-2.1.1" = _qf1fbfN9;
-        "pkg-26.1-2.2.0" = _BXHuBmiV;
+        "pkg-26.1-2.2.0" = _dfvxgiBO;
         "pkg-26.1.1-2.3.0" = _xx4uRusV;
         "pkg-26.1.2-2.4.0" = _izScMw5q;
         "pkg-26.1.2-2.4.1" = _L82fHNs8;
@@ -566,7 +578,8 @@ let
         "pkg-26.1.2-2.7.12" = _i6ACBtmh;
         "pkg-26.1.2-2.7.13" = _6Scb0O5n;
         "pkg-26.1.2-2.8.0" = _qmwFr2sX;
-        "default" = _qmwFr2sX;
+        "pkg-26.1.2-2.8.1" = _ErZoVqQY;
+        "default" = _ErZoVqQY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bbl-utility";

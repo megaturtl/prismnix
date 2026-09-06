@@ -91,6 +91,11 @@ let
             "file" = "occultism_kubejs-1.21.1-neoforge-1.11.0.jar";
             "hash" = "sha512-/OersOdgaWUWG9SpjTjoTFp67cBkzDlKqRg++kt/3j9+0HRahWcp6qME/x+RYNTvtKm3F4R9GYne9ujv41Q/sQ==";
         };
+        _PnKGZZNX = {
+            "id" = "PnKGZZNX";
+            "file" = "occultism_kubejs-26.1.2-neoforge-1.11.0.jar";
+            "hash" = "sha512-bLET+I2DgTPIUsec/F/wOhDEc995m97FfbDRXK+b+gr5JTw5L0gLNR/NRjua80egC/3THrNmzthF2plYD4eJ9Q==";
+        };
     in {
         "Csa1r6pJ" = _Csa1r6pJ;
         "BhOa2fom" = _BhOa2fom;
@@ -110,11 +115,13 @@ let
         "6hhtU2gK" = _6hhtU2gK;
         "yj8B7oj1" = _yj8B7oj1;
         "785rsUjd" = _785rsUjd;
+        "PnKGZZNX" = _PnKGZZNX;
         "forge-1.20.1" = _BhOa2fom;
         "forge-1.21" = _5CqEvkK8;
         "neoforge-1.20.1" = _BhOa2fom;
         "neoforge-1.21" = _i3mIyswr;
         "neoforge-1.21.1" = _785rsUjd;
+        "neoforge-26.1.2" = _PnKGZZNX;
         "pkg-1.0.0" = _Csa1r6pJ;
         "pkg-1.20.1-1.0.0" = _BhOa2fom;
         "pkg-1.21-neoforge-1.0.2" = _5CqEvkK8;
@@ -131,7 +138,8 @@ let
         "pkg-1.21.1-neoforge-1.9.1" = _6hhtU2gK;
         "pkg-1.21.1-neoforge-1.10.0" = _yj8B7oj1;
         "pkg-1.21.1-neoforge-1.11.0" = _785rsUjd;
-        "default" = _785rsUjd;
+        "pkg-26.1.2-neoforge-1.11.0" = _PnKGZZNX;
+        "default" = _PnKGZZNX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "occultism-kubejs";

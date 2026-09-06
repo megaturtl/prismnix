@@ -36,6 +36,11 @@ let
             "file" = "porkyslegacy_eoc-5.0.333-neoforge-1.21.1.jar";
             "hash" = "sha512-rN4MJxaG4jh33xCHJzmEJTio289/KHaUmRKc3xmiKBqELpMTx63/qF3nyfx1LLpiuNT+UHIckyeldCyJOYS7DQ==";
         };
+        _dClaboMA = {
+            "id" = "dClaboMA";
+            "file" = "porkyslegacy_eoc-5.1.333-neoforge-1.21.1.jar";
+            "hash" = "sha512-Awph2/2KVxHJuiZcU/FemZl2j9BpDPF3okwlJz6kbPa6ygM/PFpsZlbHEwxCmUwiU+CZk3jbCva9gUa0lbh9iw==";
+        };
     in {
         "HfF2dh1v" = _HfF2dh1v;
         "FH9x2Sft" = _FH9x2Sft;
@@ -44,16 +49,18 @@ let
         "ujQZvKWh" = _ujQZvKWh;
         "Pn03nDVq" = _Pn03nDVq;
         "tbfmOWqk" = _tbfmOWqk;
+        "dClaboMA" = _dClaboMA;
         "forge-1.19.4" = _FH9x2Sft;
         "forge-1.20.1" = _DozC5QVt;
-        "neoforge-1.21.1" = _tbfmOWqk;
+        "neoforge-1.21.1" = _dClaboMA;
         "pkg-1.0" = _HfF2dh1v;
         "pkg-1.1" = _DozC5QVt;
         "pkg-2.0" = _FSY02EHg;
         "pkg-3.0" = _ujQZvKWh;
         "pkg-4.0" = _Pn03nDVq;
         "pkg-5.0" = _tbfmOWqk;
-        "default" = _tbfmOWqk;
+        "pkg-5.1" = _dClaboMA;
+        "default" = _dClaboMA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "porkys-legacy-era-of-corruption";

@@ -116,6 +116,11 @@ let
             "file" = "eidolon_repraised-1.21.1-0.5.0.2.jar";
             "hash" = "sha512-SqaF1j8e0+qlbBoGau/ewGb/Qs+d6YeHP1fzgnq9tG5jP9GqM+iqsinjrH1LPvNtJCuOBwbJGTwNu/aJ2VYpgg==";
         };
+        _26BM492Z = {
+            "id" = "26BM492Z";
+            "file" = "eidolon_repraised-1.20.1-0.3.13.jar";
+            "hash" = "sha512-tec4nWTWIkYodnDjHgWDh2NxpqvUmSWRGPmAC4XJS1zR1CNQEasP/Q2c1RvP/QrK9kriFbfW4iwCU9788Fz3Yg==";
+        };
     in {
         "58g7vxGa" = _58g7vxGa;
         "g45o4dLw" = _g45o4dLw;
@@ -140,12 +145,13 @@ let
         "Qpjqz8ua" = _Qpjqz8ua;
         "Y1R2mM6v" = _Y1R2mM6v;
         "e82la8yu" = _e82la8yu;
+        "26BM492Z" = _26BM492Z;
         "forge-1.20" = _58g7vxGa;
-        "forge-1.20.1" = _Qpjqz8ua;
+        "forge-1.20.1" = _26BM492Z;
         "forge-1.20.2" = _58g7vxGa;
         "forge-1.19.2" = _L7ij9heh;
         "neoforge-1.20" = _58g7vxGa;
-        "neoforge-1.20.1" = _Qpjqz8ua;
+        "neoforge-1.20.1" = _26BM492Z;
         "neoforge-1.20.2" = _58g7vxGa;
         "neoforge-1.21" = _e82la8yu;
         "neoforge-1.21.1" = _e82la8yu;
@@ -172,7 +178,8 @@ let
         "pkg-eidolon_repraised-1.20.1-0.3.12" = _Qpjqz8ua;
         "pkg-0.5.0.1" = _Y1R2mM6v;
         "pkg-0.5.0.2" = _e82la8yu;
-        "default" = _e82la8yu;
+        "pkg-eidolon_repraised-1.20.1-0.3.13" = _26BM492Z;
+        "default" = _26BM492Z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eidolonrepraised";

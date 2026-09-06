@@ -166,6 +166,31 @@ let
             "file" = "HadEnoughItems_1.12.2-4.32.0.jar";
             "hash" = "sha512-ynhGTgSbXnSC67S1498qQu1tYKBvo2wZ7PBkzRQrxoVE0A7efEkCvmJbzW5E9EceZXSCaiO7O/II9gbsUY397g==";
         };
+        _4Niot8um = {
+            "id" = "4Niot8um";
+            "file" = "HadEnoughItems_1.12.2-4.33.0.jar";
+            "hash" = "sha512-PznmbpwFg6DYH8oSgEuHMZUmzht72oWNfGKSc7SqpMQ9OkEJEWog4RGCVOgdCgi5qFtylJwaDlwMFpeHBhYY2Q==";
+        };
+        _T0J37EOS = {
+            "id" = "T0J37EOS";
+            "file" = "HadEnoughItems_1.12.2-4.34.0.jar";
+            "hash" = "sha512-Ap8Yofqh2yHxBIwuZKHJiqPIqhmkRPMBoYUrN7NsVfhraAB2xX/KbruZBMra3N2ldn5W+RLXbQ3sRgPM+ExixA==";
+        };
+        _bYV4TPe6 = {
+            "id" = "bYV4TPe6";
+            "file" = "HadEnoughItems_1.12.2-4.34.1.jar";
+            "hash" = "sha512-s8QjPsZPYeABCiQyQyPlh/V6CggU6hXNiuM6Lb1S0c2gZzPX5ZTnvCMMEwcdNfgec+RBmqb6SsgA9XXmAS0vJA==";
+        };
+        _H5KlUmv5 = {
+            "id" = "H5KlUmv5";
+            "file" = "HadEnoughItems_1.12.2-4.34.2.jar";
+            "hash" = "sha512-wC8XEv2+L7zjZ5Fa0iot7t2f59knXgTTTZaatDxKuvDXsDlNVWbw4jwjslII6popt3b0W/JngQTKG1MfmnxfQQ==";
+        };
+        _KH9dY324 = {
+            "id" = "KH9dY324";
+            "file" = "HadEnoughItems_1.12.2-4.34.3.jar";
+            "hash" = "sha512-Nj86wez91tEatAeiyk2yD5k4rEnFnbzrv86CHl97AFwu4ryHREgeKKkbM8gA0fhlmF01aiAp2F56BrBPtRgStQ==";
+        };
     in {
         "WNEFxxQ5" = _WNEFxxQ5;
         "K5rdkMmb" = _K5rdkMmb;
@@ -200,7 +225,12 @@ let
         "9N1VArJz" = _9N1VArJz;
         "2n6nfyY4" = _2n6nfyY4;
         "QnA1JVsz" = _QnA1JVsz;
-        "forge-1.12.2" = _QnA1JVsz;
+        "4Niot8um" = _4Niot8um;
+        "T0J37EOS" = _T0J37EOS;
+        "bYV4TPe6" = _bYV4TPe6;
+        "H5KlUmv5" = _H5KlUmv5;
+        "KH9dY324" = _KH9dY324;
+        "forge-1.12.2" = _KH9dY324;
         "pkg-4.26.0" = _WNEFxxQ5;
         "pkg-4.26.1" = _K5rdkMmb;
         "pkg-4.26.2" = _EYlKeUXm;
@@ -234,7 +264,12 @@ let
         "pkg-4.31.1" = _9N1VArJz;
         "pkg-4.31.2" = _2n6nfyY4;
         "pkg-4.32.0" = _QnA1JVsz;
-        "default" = _QnA1JVsz;
+        "pkg-4.33.0" = _4Niot8um;
+        "pkg-4.34.0" = _T0J37EOS;
+        "pkg-4.34.1" = _bYV4TPe6;
+        "pkg-4.34.2" = _H5KlUmv5;
+        "pkg-4.34.3" = _KH9dY324;
+        "default" = _KH9dY324;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "had-enough-items";

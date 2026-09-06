@@ -48,7 +48,7 @@ let
         "default" = _VZXwceD2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
-        name = "jurassic-world-craft-dlc-port";
+        name = "jurassic-world-craft";
         id = "L599avEq";
         type = "mod";
         versions = versions;

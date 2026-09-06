@@ -81,6 +81,21 @@ let
             "file" = "ethium_reimagined-1.14.2-neoforge-1.21.1.jar";
             "hash" = "sha512-ro859+MIFpfcfmlxZo8o9FnUuTkkOOuEckZP0HMrPu7hKMLSbyzRQuLt3fx3sqyeDm1EG0xKBSGHO7go0Aj/ww==";
         };
+        _sHqZcYcX = {
+            "id" = "sHqZcYcX";
+            "file" = "ethium_reimagined-1.14.3-neoforge-1.21.1.jar";
+            "hash" = "sha512-fyX+q2v/tIYQViaooOx+eC/1i82Q4CcM0DJvORiKRGEJmO1WC47YfiaulDEWVkHLPD8eMFFWuR00kR4rcxbwuw==";
+        };
+        _WlafHUjt = {
+            "id" = "WlafHUjt";
+            "file" = "ethium_reimagined-1.14.4-neoforge-1.21.1.jar";
+            "hash" = "sha512-ORWBNR/pJEcLyav9/rzKVMMf8BlMbE4Kb0lkVMrodKSawpBcbfR6d0X8z+BQTayuC+a8EvKIEtjCcfUYdD9yzA==";
+        };
+        _wTi0eIwo = {
+            "id" = "wTi0eIwo";
+            "file" = "ethium_reimagined-1.14.4-forge-1.20.1.jar";
+            "hash" = "sha512-dMo9rbh64CwvGyaRe6RdmNdEHt8PBxVg28mQvl3ssDKYmFOWY1fN91LQuWu8lSF7nFHZMHO/IRSZBHhycR4f+g==";
+        };
     in {
         "3voSaBR9" = _3voSaBR9;
         "LXvAVHNe" = _LXvAVHNe;
@@ -98,7 +113,11 @@ let
         "7W3jV9OD" = _7W3jV9OD;
         "N5BEjIa5" = _N5BEjIa5;
         "P7WfNyo1" = _P7WfNyo1;
-        "neoforge-1.21.1" = _P7WfNyo1;
+        "sHqZcYcX" = _sHqZcYcX;
+        "WlafHUjt" = _WlafHUjt;
+        "wTi0eIwo" = _wTi0eIwo;
+        "neoforge-1.21.1" = _WlafHUjt;
+        "forge-1.20.1" = _wTi0eIwo;
         "pkg-1.1" = _3voSaBR9;
         "pkg-1.2" = _LXvAVHNe;
         "pkg-1.3" = _rKrwyqcL;
@@ -115,7 +134,9 @@ let
         "pkg-1.14" = _7W3jV9OD;
         "pkg-1.14.1" = _N5BEjIa5;
         "pkg-1.14.2" = _P7WfNyo1;
-        "default" = _P7WfNyo1;
+        "pkg-1.14.3" = _sHqZcYcX;
+        "pkg-1.14.4" = _wTi0eIwo;
+        "default" = _wTi0eIwo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ethium";

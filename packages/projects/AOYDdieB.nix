@@ -216,6 +216,46 @@ let
             "file" = "aviator-dreams-reloaded-forge-1.2.7+1.20.1.jar";
             "hash" = "sha512-0bnCyL3CviJHuoKBb83IvDghZ0llDbY2WvjGrz2KgRZCEstlm4d5lXJC08/SYsHCSRFA4y3uWBEDGgasitYaCw==";
         };
+        _ddpQy9ha = {
+            "id" = "ddpQy9ha";
+            "file" = "aviator_dreams_reloaded-fabric-1.3.2+1.21.11.jar";
+            "hash" = "sha512-XaqWmwHCA3+ZYM9IStTX/ZgePPthnufljJMOXKm1hAtLKhPH8eW/K1VaHKReTuMhXmF8aBpi3GPmRO0EqJhNXw==";
+        };
+        _5DCPVtuc = {
+            "id" = "5DCPVtuc";
+            "file" = "aviator_dreams_reloaded-neoforge-1.3.2+1.21.11.jar";
+            "hash" = "sha512-HJmOtSe9Gx6/xs7Pu2quPBG6RrsuE77eTH/xhsCu18U5qgug51FiuDQvKuywFc4etQjrL7tgcE5DW52OxGVOpQ==";
+        };
+        _pYm67tx3 = {
+            "id" = "pYm67tx3";
+            "file" = "aviator-dreams-reloaded-forge-1.2.8+1.20.1.jar";
+            "hash" = "sha512-vneKrJ5AetOwXkPESwi4DPl1RB4ts8omB6a8csvOiLXKTNUy/enirYdbS3JAGmekxDs3kmWgNklcl6Uo/ZJLTw==";
+        };
+        _R1NH3JM0 = {
+            "id" = "R1NH3JM0";
+            "file" = "aviator-dreams-reloaded-fabric-1.2.8+1.20.1.jar";
+            "hash" = "sha512-EksQxR+qHOEpUqo6vAZ77seooMwsVjGPXQTReDAxIM1Oqr20AP6Vm0cgY1U6TCc/dcaByiUhtLam7j2wmg/cTA==";
+        };
+        _Xkkj6kJq = {
+            "id" = "Xkkj6kJq";
+            "file" = "aviator-dreams-reloaded-fabric-1.2.7+1.21.1.jar";
+            "hash" = "sha512-pogtCuqCfCVI/byjpDCwMrwd7fSGDIZsjfQKEifiLsPwOYSgp9vain0nuCYrtah7NadRtzk60NRqxtWB9ay/zA==";
+        };
+        _4Aa8QEq9 = {
+            "id" = "4Aa8QEq9";
+            "file" = "aviator-dreams-reloaded-neoforge-1.2.7+1.21.1.jar";
+            "hash" = "sha512-OONcZVPJ35zgD7emJZbTIKuZGAyPUk1mCx/Kr9pSItv87ArLYdg19P0LvhqHJP21lMMFaZ680RnhkEWHN6retw==";
+        };
+        _38tc87sq = {
+            "id" = "38tc87sq";
+            "file" = "aviator_dreams_reloaded-fabric-1.3.3+1.21.11.jar";
+            "hash" = "sha512-XbQLvMlnEIK3KNP5ai7t8jJ/kmuwqNuz6J3djCXD3UyJFb1jPUEj5nUZMedft7XUy/p3v/HbhzA9BNXP8hkyVg==";
+        };
+        _bhBYYmNz = {
+            "id" = "bhBYYmNz";
+            "file" = "aviator_dreams_reloaded-neoforge-1.3.3+1.21.11.jar";
+            "hash" = "sha512-bLPQRpe0UHR0kdcKo44Drr77H4HacoEnN++47JA+6mMPHMpLq53WxNcfwraW+u6pSg8HbjcpwNgOQntyBcx5cg==";
+        };
     in {
         "DO2uG3ox" = _DO2uG3ox;
         "YuVNjEwX" = _YuVNjEwX;
@@ -260,12 +300,20 @@ let
         "sOmBXeyC" = _sOmBXeyC;
         "rUcwTwcg" = _rUcwTwcg;
         "wFypF5bv" = _wFypF5bv;
-        "fabric-1.21.1" = _rC0D1aqg;
-        "fabric-1.20.1" = _rUcwTwcg;
-        "fabric-1.21.11" = _EArS995P;
-        "neoforge-1.21.1" = _cHbZF6TB;
-        "neoforge-1.21.11" = _rUnwt6rN;
-        "forge-1.20.1" = _wFypF5bv;
+        "ddpQy9ha" = _ddpQy9ha;
+        "5DCPVtuc" = _5DCPVtuc;
+        "pYm67tx3" = _pYm67tx3;
+        "R1NH3JM0" = _R1NH3JM0;
+        "Xkkj6kJq" = _Xkkj6kJq;
+        "4Aa8QEq9" = _4Aa8QEq9;
+        "38tc87sq" = _38tc87sq;
+        "bhBYYmNz" = _bhBYYmNz;
+        "fabric-1.21.1" = _Xkkj6kJq;
+        "fabric-1.20.1" = _R1NH3JM0;
+        "fabric-1.21.11" = _38tc87sq;
+        "neoforge-1.21.1" = _4Aa8QEq9;
+        "neoforge-1.21.11" = _bhBYYmNz;
+        "forge-1.20.1" = _pYm67tx3;
         "pkg-1.0.0-1.21.1-fabric" = _DO2uG3ox;
         "pkg-1.0.0+1.21.1-neoforge" = _YuVNjEwX;
         "pkg-1.0.1+1.21.1-fabric" = _7ZQXMvaT;
@@ -306,7 +354,15 @@ let
         "pkg-1.2.6+1.20.1-forge" = _sOmBXeyC;
         "pkg-1.2.7+1.20.1-fabric" = _rUcwTwcg;
         "pkg-1.2.7+1.20.1-forge" = _wFypF5bv;
-        "default" = _wFypF5bv;
+        "pkg-1.3.2+1.21.11-fabric" = _ddpQy9ha;
+        "pkg-1.3.2+1.21.11-neoforge" = _5DCPVtuc;
+        "pkg-1.2.8+1.20.1-forge" = _pYm67tx3;
+        "pkg-1.2.8+1.20.1-fabric" = _R1NH3JM0;
+        "pkg-1.2.7+1.21.1-fabric" = _Xkkj6kJq;
+        "pkg-1.2.7+1.21.1-neoforge" = _4Aa8QEq9;
+        "pkg-1.3.3+1.21.11-fabric" = _38tc87sq;
+        "pkg-1.3.3+1.21.11-neoforge" = _bhBYYmNz;
+        "default" = _bhBYYmNz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aviator-dreams-reloaded";

@@ -71,6 +71,11 @@ let
             "file" = "DrDonut Fanpack 26.1-26.1.2.zip";
             "hash" = "sha512-Du5dtTW4/A+JMQtmn9nttV0hKYRPBqLnz3YFknVkSESkKWlYEqzxMpWxngPoWo+G7ImYD7EshljPUAKgfkHjnQ==";
         };
+        _uSUv9aPs = {
+            "id" = "uSUv9aPs";
+            "file" = "DrDonut Fan Pack 26.2.zip";
+            "hash" = "sha512-ycKpIlLXJP6BL1yA/oMGrkD9dM/9Sbl8pp7d4S0Vti/HVDwLHF59Gdo6ziSNNLvt9wx5HN+NZ2WpazEPyvy9Yg==";
+        };
     in {
         "bsoYUeq2" = _bsoYUeq2;
         "kViwAyfR" = _kViwAyfR;
@@ -86,6 +91,7 @@ let
         "AVt1qZdl" = _AVt1qZdl;
         "YgZUQvYE" = _YgZUQvYE;
         "Zv6WdHC8" = _Zv6WdHC8;
+        "uSUv9aPs" = _uSUv9aPs;
         "minecraft-1.20" = _LMwnvHlY;
         "minecraft-1.20.1" = _LMwnvHlY;
         "minecraft-1.20.2" = _LMwnvHlY;
@@ -113,11 +119,13 @@ let
         "minecraft-26.1" = _Zv6WdHC8;
         "minecraft-26.1.1" = _Zv6WdHC8;
         "minecraft-26.1.2" = _Zv6WdHC8;
+        "minecraft-26.2" = _uSUv9aPs;
         "pkg-1.0" = _Zv6WdHC8;
         "pkg-2.0" = _kViwAyfR;
         "pkg-1.1" = _fJe6IwAe;
         "pkg-2.1" = _s75MHMLB;
-        "default" = _Zv6WdHC8;
+        "pkg-26.2" = _uSUv9aPs;
+        "default" = _uSUv9aPs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "drdonuts";

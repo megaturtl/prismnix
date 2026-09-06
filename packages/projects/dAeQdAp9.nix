@@ -141,6 +141,76 @@ let
             "file" = "parcoolskill-1.3.3.jar";
             "hash" = "sha512-erqqMRPlXx8TMn17iHEyHx+ei4jdPpjXaU38DpK5MG4nSUCOQwUvkWE5GhSjtU0OvoNvvL7/r0zWmPrOeaJ9Ig==";
         };
+        _feVz5gWS = {
+            "id" = "feVz5gWS";
+            "file" = "parcoolskill-1.3.4.jar";
+            "hash" = "sha512-lxTUQZxYa4RyVoVHlASKsp3/Ev59IVl4mlqpYIlZZmk6yzATBNvLSPnIJYvXet8a8mbx1SEZd2cHSbO47yqwKA==";
+        };
+        _6ualq6T5 = {
+            "id" = "6ualq6T5";
+            "file" = "parcoolskill-1.3.4.jar";
+            "hash" = "sha512-7oZRnF7zNK3YomVqa43CXzbD/S2ngGMaJQo6eg1whFWoviOfUVUOSfumflqZCmkYsJEFLEanqrnyOXo6Tp3S+A==";
+        };
+        _JAKjXpsR = {
+            "id" = "JAKjXpsR";
+            "file" = "parcoolskill-1.3.4-all.jar";
+            "hash" = "sha512-Di1k/OKK0ezuoDbAklhEFCb3ieWuTRYYjGnj4fVzm+2Jfogkj0qcBU1uYNdLQ+WI6dTJuQHWBlMUhgjZ0QL/3w==";
+        };
+        _ErPMoJPr = {
+            "id" = "ErPMoJPr";
+            "file" = "parcoolskill-1.3.5-all.jar";
+            "hash" = "sha512-mDeCKGwYzlNHBcsGOIZmOoQH6Txp6f0cn4K5IVGhFc+afjBqRPsdU4oTzlw3giUgEcIMmhC2/3erTD45kDth3w==";
+        };
+        _CGMJ8Zwb = {
+            "id" = "CGMJ8Zwb";
+            "file" = "parcoolskill-1.3.6-all.jar";
+            "hash" = "sha512-7KLzwPImywH1b7DiLud0soMhJna/glwccW0CeLOYIRD5Qqwpdkq6f7BWaXzp87TMX1CFR6PMRirqXkxyaUrPuA==";
+        };
+        _zalbfpWE = {
+            "id" = "zalbfpWE";
+            "file" = "parcoolskill-1.3.7-all.jar";
+            "hash" = "sha512-z4VJ0lnur8l81B0wqdhAODRIZw+K9H3tERDKJv2NyVbRdX525KK/XeVAhUdehz9doHu3WRw/HoxscqUvfwiTXg==";
+        };
+        _KdUYVAxR = {
+            "id" = "KdUYVAxR";
+            "file" = "parcoolskill-1.3.8-all.jar";
+            "hash" = "sha512-585RSbUR3SeF8gBa/8C/OSPB8CLDd2v0dsuTBf6Y3ZGw+QCNO3+QcmQH7RzTrz3HRzoKF41OS1QotZop23G2Pg==";
+        };
+        _emBYu3Xq = {
+            "id" = "emBYu3Xq";
+            "file" = "parcoolskill-1.3.9.jar";
+            "hash" = "sha512-dN7tQGApvbqytMsmKN3tr/L4MUIkEOGpQp1TY6uQhj1T7izc4SDfnRTm9FfOnkhKcyUKeuOvdBP3PoTnsBiY7g==";
+        };
+        _nP85xekM = {
+            "id" = "nP85xekM";
+            "file" = "parcoolskill-1.3.9.jar";
+            "hash" = "sha512-RWjz+vNKraHiCrtsRRyJI6/g69ag3cx06XqM0qzZRwEQyxeGVAyjRu2HhQaU0beG05iqSWIFIea1aPamSz2IDw==";
+        };
+        _Apj2sWuW = {
+            "id" = "Apj2sWuW";
+            "file" = "parcoolskill-1.3.9-all.jar";
+            "hash" = "sha512-ch7kazay36LQO2oQz4WaydnfS64INLtNV5Haej7qJjE/OvZrH6u1xvNMvf0F50CCGDLjvH64hfW8wQFDUGUX1g==";
+        };
+        _wGLzP5KU = {
+            "id" = "wGLzP5KU";
+            "file" = "parcoolskill-1.3.10-all.jar";
+            "hash" = "sha512-XT3pgX1vD0774LQRAs7uPXpoZd76OKS3j9BmCpo6BdJOEaSZXetOaJjQmr6J6UCIKI06UpBwXc+AzUEyRYimMw==";
+        };
+        _5fdqLaoy = {
+            "id" = "5fdqLaoy";
+            "file" = "parcoolskill-1.3.11.jar";
+            "hash" = "sha512-Iot9R7xbcQTWpsHO7S065BrO7UasCJBF9+Tvb2mna7eEAfA598Tieouq6OPDE5FFxtN6xt9QwfZBjjwXjvXzEg==";
+        };
+        _BDvgoyOL = {
+            "id" = "BDvgoyOL";
+            "file" = "parcoolskill-1.3.11-all.jar";
+            "hash" = "sha512-YROWXTHdHzUWimjDOiUI/UDla/6q0PDphU4IH2n899HPDnPHc2NgmPSoAAKSZsvun47dWr/kNga88Coi5J7WLQ==";
+        };
+        _4YO6DUSm = {
+            "id" = "4YO6DUSm";
+            "file" = "parcoolskill-1.3.11.jar";
+            "hash" = "sha512-jgT8N8Sfnnn83Yl1c7+jTtxLah4KtjSO4kDoDnTnBECKBAWjkr7vgMoWqZiZufegMFkts2sYtXakWyQD8ScKNg==";
+        };
     in {
         "LwAsUhi0" = _LwAsUhi0;
         "lGGkX1Ud" = _lGGkX1Ud;
@@ -170,8 +240,24 @@ let
         "MORTJC9n" = _MORTJC9n;
         "7ZCovHVs" = _7ZCovHVs;
         "okS0Q9ir" = _okS0Q9ir;
-        "neoforge-1.21.1" = _7ZCovHVs;
-        "neoforge-1.21.11" = _okS0Q9ir;
+        "feVz5gWS" = _feVz5gWS;
+        "6ualq6T5" = _6ualq6T5;
+        "JAKjXpsR" = _JAKjXpsR;
+        "ErPMoJPr" = _ErPMoJPr;
+        "CGMJ8Zwb" = _CGMJ8Zwb;
+        "zalbfpWE" = _zalbfpWE;
+        "KdUYVAxR" = _KdUYVAxR;
+        "emBYu3Xq" = _emBYu3Xq;
+        "nP85xekM" = _nP85xekM;
+        "Apj2sWuW" = _Apj2sWuW;
+        "wGLzP5KU" = _wGLzP5KU;
+        "5fdqLaoy" = _5fdqLaoy;
+        "BDvgoyOL" = _BDvgoyOL;
+        "4YO6DUSm" = _4YO6DUSm;
+        "neoforge-1.21.1" = _5fdqLaoy;
+        "neoforge-1.21.11" = _4YO6DUSm;
+        "neoforge-1.20.1" = _BDvgoyOL;
+        "forge-1.20.1" = _BDvgoyOL;
         "pkg-1.0.0" = _LwAsUhi0;
         "pkg-1.0.1" = _lGGkX1Ud;
         "pkg-1.0.2" = _gm3Qs4Pq;
@@ -192,7 +278,15 @@ let
         "pkg-1.3.1" = _iLqnwvCR;
         "pkg-1.3.2" = _MORTJC9n;
         "pkg-1.3.3" = _okS0Q9ir;
-        "default" = _okS0Q9ir;
+        "pkg-1.3.4" = _JAKjXpsR;
+        "pkg-1.3.5" = _ErPMoJPr;
+        "pkg-1.3.6" = _CGMJ8Zwb;
+        "pkg-1.3.7" = _zalbfpWE;
+        "pkg-1.3.8" = _KdUYVAxR;
+        "pkg-1.3.9" = _Apj2sWuW;
+        "pkg-1.3.10" = _wGLzP5KU;
+        "pkg-1.3.11" = _4YO6DUSm;
+        "default" = _4YO6DUSm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "parcoolskill";

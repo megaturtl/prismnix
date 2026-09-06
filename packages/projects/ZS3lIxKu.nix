@@ -552,6 +552,10 @@ let
         "datapack-26.3-snapshot-5" = _AEwKcStb;
         "datapack-26.3-snapshot-6" = _AEwKcStb;
         "datapack-26.3-snapshot-7" = _AEwKcStb;
+        "datapack-26.3-snapshot-8" = _AEwKcStb;
+        "datapack-26.3-snapshot-9" = _AEwKcStb;
+        "datapack-26.3-snapshot-10" = _AEwKcStb;
+        "datapack-26.3-pre-1" = _AEwKcStb;
         "fabric-1.16" = _Kyh2oMoR;
         "fabric-1.16.1" = _Kyh2oMoR;
         "fabric-1.16.2" = _Kyh2oMoR;
@@ -598,6 +602,10 @@ let
         "fabric-26.3-snapshot-5" = _mKi5a96L;
         "fabric-26.3-snapshot-6" = _mKi5a96L;
         "fabric-26.3-snapshot-7" = _mKi5a96L;
+        "fabric-26.3-snapshot-8" = _mKi5a96L;
+        "fabric-26.3-snapshot-9" = _mKi5a96L;
+        "fabric-26.3-snapshot-10" = _mKi5a96L;
+        "fabric-26.3-pre-1" = _mKi5a96L;
         "forge-1.16" = _Kyh2oMoR;
         "forge-1.16.1" = _Kyh2oMoR;
         "forge-1.16.2" = _Kyh2oMoR;
@@ -644,6 +652,10 @@ let
         "forge-26.3-snapshot-5" = _mKi5a96L;
         "forge-26.3-snapshot-6" = _mKi5a96L;
         "forge-26.3-snapshot-7" = _mKi5a96L;
+        "forge-26.3-snapshot-8" = _mKi5a96L;
+        "forge-26.3-snapshot-9" = _mKi5a96L;
+        "forge-26.3-snapshot-10" = _mKi5a96L;
+        "forge-26.3-pre-1" = _mKi5a96L;
         "quilt-1.16" = _Kyh2oMoR;
         "quilt-1.16.1" = _Kyh2oMoR;
         "quilt-1.16.2" = _Kyh2oMoR;
@@ -690,6 +702,10 @@ let
         "quilt-26.3-snapshot-5" = _mKi5a96L;
         "quilt-26.3-snapshot-6" = _mKi5a96L;
         "quilt-26.3-snapshot-7" = _mKi5a96L;
+        "quilt-26.3-snapshot-8" = _mKi5a96L;
+        "quilt-26.3-snapshot-9" = _mKi5a96L;
+        "quilt-26.3-snapshot-10" = _mKi5a96L;
+        "quilt-26.3-pre-1" = _mKi5a96L;
         "neoforge-1.21.1" = _Vu7afFvf;
         "neoforge-1.21.2" = _bnGi6FWa;
         "neoforge-1.21.3" = _pWZtgC8x;
@@ -712,6 +728,10 @@ let
         "neoforge-26.3-snapshot-5" = _mKi5a96L;
         "neoforge-26.3-snapshot-6" = _mKi5a96L;
         "neoforge-26.3-snapshot-7" = _mKi5a96L;
+        "neoforge-26.3-snapshot-8" = _mKi5a96L;
+        "neoforge-26.3-snapshot-9" = _mKi5a96L;
+        "neoforge-26.3-snapshot-10" = _mKi5a96L;
+        "neoforge-26.3-pre-1" = _mKi5a96L;
         "pkg-0.1" = _25pq4ApS;
         "pkg-0.1+mod" = _6I4EljW7;
         "pkg-0.2" = _Slc17gdg;

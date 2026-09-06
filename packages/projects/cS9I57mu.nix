@@ -71,6 +71,16 @@ let
             "file" = "villagersreborn-1.0.9.jar";
             "hash" = "sha512-2B38LM9LJyg1dSpMPZhcLJFf373U8JP2oHE/+ttDb0ZsGym5EvPNsa/d0tu0I1uET4dBdluBUDa+0IelnaNj8w==";
         };
+        _Ea4sfqwp = {
+            "id" = "Ea4sfqwp";
+            "file" = "villagersreborn-1.0.9b.jar";
+            "hash" = "sha512-9wrXTLsPK3OK1BJNQhZc/gDg7C7PPCljgZXC24siQkVteG3V6/XCWOuFQQYSa+W1UI7g+QJ8p8Z5bjiIEE+/gA==";
+        };
+        _4fDzNnav = {
+            "id" = "4fDzNnav";
+            "file" = "villagersreborn-1.0.9b.jar";
+            "hash" = "sha512-3DTsa7CuAL8TxhTUkFDn+0fVa26SmogVbjWkLbdjWEpAuXsSsGciTV74Hb8nqrZbeXy33i04mLGZSuOoC1BA7A==";
+        };
     in {
         "34HCJACW" = _34HCJACW;
         "1VshqlMs" = _1VshqlMs;
@@ -86,9 +96,11 @@ let
         "tDtX7mao" = _tDtX7mao;
         "wL3XqTIY" = _wL3XqTIY;
         "tCvIl5bD" = _tCvIl5bD;
-        "neoforge-1.21.1" = _wL3XqTIY;
+        "Ea4sfqwp" = _Ea4sfqwp;
+        "4fDzNnav" = _4fDzNnav;
+        "neoforge-1.21.1" = _Ea4sfqwp;
         "neoforge-1.21.11" = _aRri3bhn;
-        "forge-1.20.1" = _tCvIl5bD;
+        "forge-1.20.1" = _4fDzNnav;
         "pkg-1.0.0" = _34HCJACW;
         "pkg-1.0.1" = _1VshqlMs;
         "pkg-1.0.2" = _4nuF06jE;
@@ -100,7 +112,8 @@ let
         "pkg-1.0.7" = _dGJusInM;
         "pkg-1.0.8" = _tDtX7mao;
         "pkg-1.0.9" = _tCvIl5bD;
-        "default" = _tCvIl5bD;
+        "pkg-1.0.9b" = _4fDzNnav;
+        "default" = _4fDzNnav;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villagers-reborn";

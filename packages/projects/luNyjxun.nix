@@ -31,6 +31,11 @@ let
             "file" = "scaffoldingpower-1.20.1-1.4.0.jar";
             "hash" = "sha512-i6Ht7HytELyFv6sv3zBWsLbo9qOkd8qCS7KmKhFZbifjDt9NPeIby442DLotGyUeU460Tz/YmGEJ2+LVecQ1Ew==";
         };
+        _r65O7U7c = {
+            "id" = "r65O7U7c";
+            "file" = "scaffoldingpower-26.1.2-1.4.0.jar";
+            "hash" = "sha512-tDUpZM+40a13YHF8zlwoxpa2m1dM2/uOgXfCeaWTxzohZN5dHXSMUn5Af6m0/8v0NPb6rYWSeMgcju7v5nDNdw==";
+        };
     in {
         "GUV6MtzU" = _GUV6MtzU;
         "fl53lGTX" = _fl53lGTX;
@@ -38,6 +43,7 @@ let
         "EGJEBLUn" = _EGJEBLUn;
         "66csUqtc" = _66csUqtc;
         "oUc2h9MQ" = _oUc2h9MQ;
+        "r65O7U7c" = _r65O7U7c;
         "forge-1.16.5" = _GUV6MtzU;
         "forge-1.17.1" = _fl53lGTX;
         "forge-1.18.2" = _dv7llKN5;
@@ -47,13 +53,15 @@ let
         "forge-1.19.4" = _66csUqtc;
         "forge-1.20.1" = _oUc2h9MQ;
         "neoforge-1.20.1" = _oUc2h9MQ;
+        "neoforge-26.1.2" = _r65O7U7c;
         "pkg-1.16.5-1.3.0" = _GUV6MtzU;
         "pkg-1.17.1-1.3.0" = _fl53lGTX;
         "pkg-1.18.2-1.3.0" = _dv7llKN5;
         "pkg-1.19-1.3.1" = _EGJEBLUn;
         "pkg-1.19.4-1.3.1" = _66csUqtc;
         "pkg-1.20.1-1.4.0" = _oUc2h9MQ;
-        "default" = _oUc2h9MQ;
+        "pkg-26.1.2-1.4.0" = _r65O7U7c;
+        "default" = _r65O7U7c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scaffolding-behavior";

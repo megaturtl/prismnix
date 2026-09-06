@@ -18,7 +18,7 @@ let
         "default" = _Q1dBYFUk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
-        name = "ysis-radiation-mod";
+        name = "elysis-radiation-mod";
         id = "AdACnFrq";
         type = "mod";
         versions = versions;

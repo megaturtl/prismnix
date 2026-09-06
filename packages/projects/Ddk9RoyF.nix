@@ -85,6 +85,7 @@ let
         "fabric-26.1" = _XaRStJ3h;
         "fabric-26.1.1" = _XaRStJ3h;
         "fabric-26.1.2" = _XaRStJ3h;
+        "fabric-26.2" = _XaRStJ3h;
         "forge-1.21.4" = _9aAYxJPQ;
         "forge-1.21.5" = _9aAYxJPQ;
         "forge-1.21.6" = _9aAYxJPQ;

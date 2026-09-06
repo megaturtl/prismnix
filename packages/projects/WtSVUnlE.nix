@@ -68,6 +68,10 @@ let
         "minecraft-1.21.9" = _saywHLVM;
         "minecraft-1.21.10" = _saywHLVM;
         "minecraft-1.21.11" = _saywHLVM;
+        "minecraft-26.1" = _saywHLVM;
+        "minecraft-26.1.1" = _saywHLVM;
+        "minecraft-26.1.2" = _saywHLVM;
+        "minecraft-26.2" = _saywHLVM;
         "pkg-1.0" = _saywHLVM;
         "default" = _saywHLVM;
     });
@@ -77,12 +81,12 @@ let
         type = "resourcepack";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "LicenseRef-All-Rights-Reserved";
-                shortName = "LicenseRef-All-Rights-Reserved";
+                fullName = "MIT License";
+                shortName = "MIT";
                 url = null;
             };
         };

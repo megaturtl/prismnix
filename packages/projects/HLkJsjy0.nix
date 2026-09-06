@@ -161,6 +161,11 @@ let
             "file" = "tweaks-3.5.0-all.jar";
             "hash" = "sha512-qIDI/YTdFgT4DRdmPcIP1bFyTYcwgaWDfwarrLCGpCuRwMesVShg85oGY7//KP0JRrlElruODHbC6lSEOx9s8A==";
         };
+        _tHh5UQPJ = {
+            "id" = "tHh5UQPJ";
+            "file" = "tweaks-3.5.1-all.jar";
+            "hash" = "sha512-halqLNMXm7o97uqhLhuoxqiXynvlafrUaUO007exWpZMIaXVefy8xHAyApTj/pWooIDGqA9XhOIytQ1+3AJ1gg==";
+        };
     in {
         "4FHXme5W" = _4FHXme5W;
         "IeOAj1s2" = _IeOAj1s2;
@@ -194,6 +199,7 @@ let
         "wABNAofW" = _wABNAofW;
         "64X3aNbU" = _64X3aNbU;
         "gF0vJXU3" = _gF0vJXU3;
+        "tHh5UQPJ" = _tHh5UQPJ;
         "folia-1.20.6" = _IeOAj1s2;
         "folia-1.21" = _EZtvLHGc;
         "folia-1.21.1" = _aJ3gngh7;
@@ -205,11 +211,11 @@ let
         "folia-1.21.8" = _7duUSVa5;
         "folia-1.21.9" = _7duUSVa5;
         "folia-1.21.10" = _7duUSVa5;
-        "folia-1.21.11" = _gF0vJXU3;
-        "folia-26.1" = _gF0vJXU3;
-        "folia-26.1.1" = _gF0vJXU3;
-        "folia-26.1.2" = _gF0vJXU3;
-        "folia-26.2" = _gF0vJXU3;
+        "folia-1.21.11" = _tHh5UQPJ;
+        "folia-26.1" = _tHh5UQPJ;
+        "folia-26.1.1" = _tHh5UQPJ;
+        "folia-26.1.2" = _tHh5UQPJ;
+        "folia-26.2" = _tHh5UQPJ;
         "paper-1.20.6" = _IeOAj1s2;
         "paper-1.21" = _EZtvLHGc;
         "paper-1.21.1" = _aJ3gngh7;
@@ -221,11 +227,11 @@ let
         "paper-1.21.8" = _7duUSVa5;
         "paper-1.21.9" = _7duUSVa5;
         "paper-1.21.10" = _7duUSVa5;
-        "paper-1.21.11" = _gF0vJXU3;
-        "paper-26.1" = _gF0vJXU3;
-        "paper-26.1.1" = _gF0vJXU3;
-        "paper-26.1.2" = _gF0vJXU3;
-        "paper-26.2" = _gF0vJXU3;
+        "paper-1.21.11" = _tHh5UQPJ;
+        "paper-26.1" = _tHh5UQPJ;
+        "paper-26.1.1" = _tHh5UQPJ;
+        "paper-26.1.2" = _tHh5UQPJ;
+        "paper-26.2" = _tHh5UQPJ;
         "pkg-2.1.1" = _4FHXme5W;
         "pkg-2.1.2" = _IeOAj1s2;
         "pkg-2.1.3" = _etOqmQDq;
@@ -258,7 +264,8 @@ let
         "pkg-3.3.6" = _wABNAofW;
         "pkg-3.4.0" = _64X3aNbU;
         "pkg-3.5.0" = _gF0vJXU3;
-        "default" = _gF0vJXU3;
+        "pkg-3.5.1" = _tHh5UQPJ;
+        "default" = _tHh5UQPJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tweaks-1";

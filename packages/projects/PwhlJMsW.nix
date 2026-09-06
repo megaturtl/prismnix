@@ -551,6 +551,26 @@ let
             "file" = "Lunar-fabric-26.1-0.2.8.jar";
             "hash" = "sha512-rtW7gKaDQWIu8/s73I68cTEeI2+BazKnq2WL92qjoG71nJSnbkNhGX0YeRFPYsF8kUEa5THohfcekYv8GJAL1Q==";
         };
+        _E9bTyMvT = {
+            "id" = "E9bTyMvT";
+            "file" = "Lunar-fabric-1.21.11-0.2.9.jar";
+            "hash" = "sha512-2RxD5Llxtsb6flJfTppuAwQhlgKESd59wMPpdUD7Yjw9JiAVauKKJkFD8XnPFzuojDvYY7uBQyXjq1Ux8eruzg==";
+        };
+        _NJaeuXnp = {
+            "id" = "NJaeuXnp";
+            "file" = "Lunar-fabric-26.1-0.2.9.jar";
+            "hash" = "sha512-2LgLaN4poClsgE+hbUgrkel+Yu9ZXONiaMZHeYthztxuMhjMU5BSQACTemxKoNqGWlUE38QM1N2GlGoNUQfF2g==";
+        };
+        _vrKKMJhR = {
+            "id" = "vrKKMJhR";
+            "file" = "Lunar-neoforge-1.21.11-0.2.9.jar";
+            "hash" = "sha512-Gqkae+9clZhNdQ6WYJ1HsZ2U+XlYLa6M6sHn2nTNOrVP0XJtceqvPQ1JUYSs/HCh9O5owQjec/hDU4/6KfJuJQ==";
+        };
+        _1CVtO5Jp = {
+            "id" = "1CVtO5Jp";
+            "file" = "Lunar-neoforge-26.1-0.2.9.jar";
+            "hash" = "sha512-l0tTgqhkYTt4NeGQDhtq48zzlQIDBLJfcxWMkjFAIGr5bk+nw12eb0r9QVL6swm5oYVeHXMOQdJafzb1stapsw==";
+        };
     in {
         "e3eQNDjJ" = _e3eQNDjJ;
         "uoRxrM45" = _uoRxrM45;
@@ -662,6 +682,10 @@ let
         "Z9fqdxOn" = _Z9fqdxOn;
         "pVltaqs3" = _pVltaqs3;
         "4Dob0J6w" = _4Dob0J6w;
+        "E9bTyMvT" = _E9bTyMvT;
+        "NJaeuXnp" = _NJaeuXnp;
+        "vrKKMJhR" = _vrKKMJhR;
+        "1CVtO5Jp" = _1CVtO5Jp;
         "fabric-1.19.2" = _byxdJrPS;
         "fabric-1.20.1" = _ghfLuZEs;
         "fabric-1.20.2" = _eW3kKM53;
@@ -674,8 +698,8 @@ let
         "fabric-1.21.7" = _RE7NNAdf;
         "fabric-1.21.8" = _RE7NNAdf;
         "fabric-1.21.10" = _ko9uemcL;
-        "fabric-1.21.11" = _Z9fqdxOn;
-        "fabric-26.1" = _4Dob0J6w;
+        "fabric-1.21.11" = _E9bTyMvT;
+        "fabric-26.1" = _NJaeuXnp;
         "forge-1.19.2" = _OKKMfcNT;
         "forge-1.20.1" = _SfxCpdey;
         "neoforge-1.20.2" = _HAKqqgrR;
@@ -688,8 +712,8 @@ let
         "neoforge-1.21.7" = _eE7lxApr;
         "neoforge-1.21.8" = _eE7lxApr;
         "neoforge-1.21.10" = _Mv32FTDM;
-        "neoforge-1.21.11" = _8C0oB3y3;
-        "neoforge-26.1" = _pVltaqs3;
+        "neoforge-1.21.11" = _vrKKMJhR;
+        "neoforge-26.1" = _1CVtO5Jp;
         "pkg-0.1.0" = _UFfGpXsf;
         "pkg-0.1.1" = _2qcf18A7;
         "pkg-0.1.2" = _TNKrPdEL;
@@ -710,7 +734,8 @@ let
         "pkg-0.2.6" = _eN60Cyqm;
         "pkg-0.2.7" = _ghfLuZEs;
         "pkg-0.2.8" = _4Dob0J6w;
-        "default" = _4Dob0J6w;
+        "pkg-0.2.9" = _1CVtO5Jp;
+        "default" = _1CVtO5Jp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lunar";

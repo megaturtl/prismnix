@@ -96,6 +96,16 @@ let
             "file" = "lightdust Forge 2.0.1.jar";
             "hash" = "sha512-kPQGIJA/AOo1Xax9xGZ2pVqhTh+cDwpNYC4ClBMjBXlrkR4clCnQtnYBXgGJPjv3K9tbYtvEPH9PxkuI6HP/aQ==";
         };
+        _V835ION5 = {
+            "id" = "V835ION5";
+            "file" = "lightdust NeoForge 2.0.2.jar";
+            "hash" = "sha512-X5xR5MMEh9vzMrqyBOIilZt5a0L6p7UIOoeSsl+ORK0omAM9UOgLjsWTUHGc3Tv9R+DJwNMg6f3rXHnVRY0DZg==";
+        };
+        _pyiHRDuq = {
+            "id" = "pyiHRDuq";
+            "file" = "lightdust Forge 2.0.2.jar";
+            "hash" = "sha512-EyGQ/WyaDBYLi2h98KTCm6P8vP/gGHBntC9IyOh+BAnQjYqid4KlUhD4z9NiMbpqOeBN2/7YWDN3XvzhE4TQVg==";
+        };
     in {
         "GPKlHvdQ" = _GPKlHvdQ;
         "lJv0LyGD" = _lJv0LyGD;
@@ -116,8 +126,10 @@ let
         "i9jBkhHE" = _i9jBkhHE;
         "V9z3XUoL" = _V9z3XUoL;
         "4QCY1BHa" = _4QCY1BHa;
-        "forge-1.20.1" = _4QCY1BHa;
-        "neoforge-1.21.1" = _V9z3XUoL;
+        "V835ION5" = _V835ION5;
+        "pyiHRDuq" = _pyiHRDuq;
+        "forge-1.20.1" = _pyiHRDuq;
+        "neoforge-1.21.1" = _V835ION5;
         "pkg-1.0.0" = _GPKlHvdQ;
         "pkg-1.0.1" = _lJv0LyGD;
         "pkg-1.0.2" = _QSVhHokY;
@@ -135,7 +147,8 @@ let
         "pkg-1.9.5" = _ECsW4OhF;
         "pkg-2.0.0" = _i9jBkhHE;
         "pkg-2.0.1" = _4QCY1BHa;
-        "default" = _4QCY1BHa;
+        "pkg-2.0.2" = _pyiHRDuq;
+        "default" = _pyiHRDuq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "light-dust";

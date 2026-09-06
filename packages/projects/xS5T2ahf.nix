@@ -61,6 +61,26 @@ let
             "file" = "chatmacro-1.21.11.jar";
             "hash" = "sha512-Q3xHcJum4LJ1jeKhFyni566yHMyVgNbV1eEjuLdqBRgcQozB3gELHVAF68tiyDm+HtVP/c9LzvUzKzaDVNOFUw==";
         };
+        _1vtcKFDg = {
+            "id" = "1vtcKFDg";
+            "file" = "chatmacro-26.1.jar";
+            "hash" = "sha512-JR1KU5MuKnZHOw31tYaB3dfxoVf7hS1VKMnsbNjdQUG/9rGPG7lrjevcKqmYmQfDvbTUa07fnLMR1QmgPNm5EA==";
+        };
+        _D6NWOTn9 = {
+            "id" = "D6NWOTn9";
+            "file" = "chatmacro-26.1.1.jar";
+            "hash" = "sha512-JR1KU5MuKnZHOw31tYaB3dfxoVf7hS1VKMnsbNjdQUG/9rGPG7lrjevcKqmYmQfDvbTUa07fnLMR1QmgPNm5EA==";
+        };
+        _K5b1gQ1h = {
+            "id" = "K5b1gQ1h";
+            "file" = "chatmacro-26.1.2.jar";
+            "hash" = "sha512-JR1KU5MuKnZHOw31tYaB3dfxoVf7hS1VKMnsbNjdQUG/9rGPG7lrjevcKqmYmQfDvbTUa07fnLMR1QmgPNm5EA==";
+        };
+        _mdLxB35f = {
+            "id" = "mdLxB35f";
+            "file" = "chatmacro-26.2.jar";
+            "hash" = "sha512-Z/tvwIrw1yccd1PWY3QA29ebDzW84NCINuzJ2E2Kmq2BviQQx27rVNKC//d26lRcX8sT9Qx8s+fPBBmLWZNpYw==";
+        };
     in {
         "CCLKRmzY" = _CCLKRmzY;
         "2x4d039b" = _2x4d039b;
@@ -74,6 +94,10 @@ let
         "7fLmMGC0" = _7fLmMGC0;
         "ySABIzRF" = _ySABIzRF;
         "PKtYz7NV" = _PKtYz7NV;
+        "1vtcKFDg" = _1vtcKFDg;
+        "D6NWOTn9" = _D6NWOTn9;
+        "K5b1gQ1h" = _K5b1gQ1h;
+        "mdLxB35f" = _mdLxB35f;
         "fabric-1.21" = _CCLKRmzY;
         "fabric-1.21.1" = _2x4d039b;
         "fabric-1.21.2" = _U3ZQuFyZ;
@@ -85,6 +109,10 @@ let
         "fabric-1.21.8" = _vlz82MwF;
         "fabric-1.21.10" = _7fLmMGC0;
         "fabric-1.21.11" = _PKtYz7NV;
+        "fabric-26.1" = _1vtcKFDg;
+        "fabric-26.1.1" = _D6NWOTn9;
+        "fabric-26.1.2" = _K5b1gQ1h;
+        "fabric-26.2" = _mdLxB35f;
         "pkg-1.21" = _CCLKRmzY;
         "pkg-1.21.1" = _2x4d039b;
         "pkg-1.21.2" = _U3ZQuFyZ;
@@ -96,7 +124,11 @@ let
         "pkg-1.21.8" = _vlz82MwF;
         "pkg-1.21.10" = _7fLmMGC0;
         "pkg-1.21.11" = _PKtYz7NV;
-        "default" = _PKtYz7NV;
+        "pkg-26.1" = _1vtcKFDg;
+        "pkg-26.1.1" = _D6NWOTn9;
+        "pkg-26.1.2" = _K5b1gQ1h;
+        "pkg-26.2" = _mdLxB35f;
+        "default" = _mdLxB35f;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chat-macro";

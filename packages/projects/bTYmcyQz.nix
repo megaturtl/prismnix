@@ -121,6 +121,56 @@ let
             "file" = "tiertagger-26.1-1.2.2.jar";
             "hash" = "sha512-XuzIL660NZAAIos6gyvdp4c+GhKpFAfCaMRxbR0D1d/1x/vuevSplGywFypu+ngtERncNzuW70DVSgpo0Q/cdQ==";
         };
+        _qssrpyJh = {
+            "id" = "qssrpyJh";
+            "file" = "tiertagger-26.2-1.2.2.jar";
+            "hash" = "sha512-iOiIy13/g0wADO4Qpyiq3n3tIJdhyqgz1YSyyxgPf+cbSEmZJBQbCwJYhmp3A60BO2koWSg0bY2YufOAbWVMDg==";
+        };
+        _qs3rekOr = {
+            "id" = "qs3rekOr";
+            "file" = "tiertagger-26.2-1.3.0.jar";
+            "hash" = "sha512-ng/2GLKyAe2RnkLBSmbQlbXj2MPAXvXNdZ17gnXAU5CPBtf9Q9lC9e74T5RyzGAiAzzNhGKD9UBWHSpBuUuNDA==";
+        };
+        _LOcwMwql = {
+            "id" = "LOcwMwql";
+            "file" = "tiertagger-26.1-1.3.0.jar";
+            "hash" = "sha512-22xbbub6sagmPr+l/6Zo+N6LOUCVWQCAnhVmljoJ4FUAgryf/nCqnOerBDDorszqg//58wQrBEzMqBIKP6QafQ==";
+        };
+        _8HQhWD35 = {
+            "id" = "8HQhWD35";
+            "file" = "tiertagger-1.21.11-1.3.0.jar";
+            "hash" = "sha512-zvJZiu1yWrsezB4JOS+35OGKGRqBixN+6jT0/+zR7LEmJVd3JTnSrjuI0N0TP2E7428RGFMpjugnB7UWrNB3eQ==";
+        };
+        _JWatsNo0 = {
+            "id" = "JWatsNo0";
+            "file" = "tiertagger-1.21.9-1.3.0.jar";
+            "hash" = "sha512-tFv9ZpVi9Ikp/HqRbKvD/Uc2BBWVDq9oQCOJzORzwQtWsrjy9uhFYhRydBrJfUnWb9o2SQFI+FtV8cfrv8nl7Q==";
+        };
+        _jy8oaKJq = {
+            "id" = "jy8oaKJq";
+            "file" = "tiertagger-1.21.6-1.3.0.jar";
+            "hash" = "sha512-aKT6aNjXUfoESIV1M/jjim4I7qoLAqfMjYQPfvl57j70E0qMdj6RvhBg4JIKgWvHa817s9dC/aZB8Ck4zl/DWQ==";
+        };
+        _jF77Eu1O = {
+            "id" = "jF77Eu1O";
+            "file" = "tiertagger-1.21.5-1.3.0.jar";
+            "hash" = "sha512-YN4Ijp5dJZsfYkLknw2BkmhOQuPcDx4ICRANm9qnSOswkU+ZOp7u0z+lQzlh5vGesEt0Ot+RWnLl7/SFudCZUA==";
+        };
+        _9MmouAfA = {
+            "id" = "9MmouAfA";
+            "file" = "tiertagger-1.21.4-1.3.0.jar";
+            "hash" = "sha512-yr3kKNrVCGtYH4RqDcN0cNrdM9zSfYhIHaxUv62EwkTqHR8lwydUi3sOoS2avFPDU69aopFYaJUs1zOxO4V6Xg==";
+        };
+        _tuTtBbhZ = {
+            "id" = "tuTtBbhZ";
+            "file" = "tiertagger-1.21.2-1.3.0.jar";
+            "hash" = "sha512-YCJ+KmnJs5vo331DstDAB20kY72QXoePUuaBHLWq2/Vr3oujmLD7SMS1AIKvmdfkrbZDSTRTUUMl5CNuk+tOnw==";
+        };
+        _K28nBTL9 = {
+            "id" = "K28nBTL9";
+            "file" = "tiertagger-1.21-1.3.0.jar";
+            "hash" = "sha512-8lRcs/dhswK8xYK6ri7MCYXmBUOX7YXN3Xnn2kWORJ73CVijocNgANlRLsNJnvqye8A3JR/b0oPxNl5dMm3i/g==";
+        };
     in {
         "nkJTMOBw" = _nkJTMOBw;
         "b5EENTpH" = _b5EENTpH;
@@ -146,21 +196,32 @@ let
         "g07ywh6I" = _g07ywh6I;
         "V4QsWhVg" = _V4QsWhVg;
         "bFBIZoxj" = _bFBIZoxj;
-        "fabric-1.21" = _mNdq2vtL;
-        "fabric-1.21.1" = _mNdq2vtL;
-        "fabric-1.21.2" = _WpfBrHcW;
-        "fabric-1.21.3" = _WpfBrHcW;
-        "fabric-1.21.4" = _8goVv5wr;
-        "fabric-1.21.5" = _6QsaHdAr;
-        "fabric-1.21.6" = _UDPPffdF;
-        "fabric-1.21.7" = _UDPPffdF;
-        "fabric-1.21.8" = _UDPPffdF;
-        "fabric-1.21.9" = _g07ywh6I;
-        "fabric-1.21.10" = _g07ywh6I;
-        "fabric-1.21.11" = _V4QsWhVg;
-        "fabric-26.1" = _bFBIZoxj;
-        "fabric-26.1.1" = _bFBIZoxj;
-        "fabric-26.1.2" = _bFBIZoxj;
+        "qssrpyJh" = _qssrpyJh;
+        "qs3rekOr" = _qs3rekOr;
+        "LOcwMwql" = _LOcwMwql;
+        "8HQhWD35" = _8HQhWD35;
+        "JWatsNo0" = _JWatsNo0;
+        "jy8oaKJq" = _jy8oaKJq;
+        "jF77Eu1O" = _jF77Eu1O;
+        "9MmouAfA" = _9MmouAfA;
+        "tuTtBbhZ" = _tuTtBbhZ;
+        "K28nBTL9" = _K28nBTL9;
+        "fabric-1.21" = _K28nBTL9;
+        "fabric-1.21.1" = _K28nBTL9;
+        "fabric-1.21.2" = _tuTtBbhZ;
+        "fabric-1.21.3" = _tuTtBbhZ;
+        "fabric-1.21.4" = _9MmouAfA;
+        "fabric-1.21.5" = _jF77Eu1O;
+        "fabric-1.21.6" = _jy8oaKJq;
+        "fabric-1.21.7" = _jy8oaKJq;
+        "fabric-1.21.8" = _jy8oaKJq;
+        "fabric-1.21.9" = _JWatsNo0;
+        "fabric-1.21.10" = _JWatsNo0;
+        "fabric-1.21.11" = _8HQhWD35;
+        "fabric-26.1" = _LOcwMwql;
+        "fabric-26.1.1" = _LOcwMwql;
+        "fabric-26.1.2" = _LOcwMwql;
+        "fabric-26.2" = _qs3rekOr;
         "forge-1.8.8" = _2j9paxii;
         "forge-1.8.9" = _2j9paxii;
         "quilt-1.21" = _SnGp6b0b;
@@ -181,8 +242,9 @@ let
         "pkg-1.1.1" = _EsBQ4FnS;
         "pkg-1.2.0" = _zRjxmIid;
         "pkg-1.2.1" = _T5i3CQWg;
-        "pkg-1.2.2" = _bFBIZoxj;
-        "default" = _bFBIZoxj;
+        "pkg-1.2.2" = _qssrpyJh;
+        "pkg-1.3.0" = _K28nBTL9;
+        "default" = _K28nBTL9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tiertests";

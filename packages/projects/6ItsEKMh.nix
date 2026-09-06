@@ -241,6 +241,36 @@ let
             "file" = "homesteads-2.0.0-for-neoforge-26.2.jar";
             "hash" = "sha512-B/eYwU4nyg4gOmoKppHr2g7htLoNuHkv31JOhsZPi/klrMBWdsJ9Zbk49huBEmtYYvnJi5Nb3divgXsvw0chHg==";
         };
+        _opF2Oi7g = {
+            "id" = "opF2Oi7g";
+            "file" = "homesteads-2.0.1-for-neoforge-1.21.1.jar";
+            "hash" = "sha512-LWT2xpLobqbD9JtSRlEOdWALROZDwJk/g3GM4AqsLzmgFGSBhXRrXHbVZvS9fzZ3bdHWIpe5g7VJcwOebdq9XQ==";
+        };
+        _FuoOnWzf = {
+            "id" = "FuoOnWzf";
+            "file" = "homesteads-2.0.1-for-neoforge-1.21.11.jar";
+            "hash" = "sha512-Zu3TRvIuXhv+/Dp7KXA85rFl44Sa8/aU1BBinICQINkcuOhbDR1FGvTyq9UEWlL197bBrgXNrXTGkKKVLggmmw==";
+        };
+        _etyuzvoy = {
+            "id" = "etyuzvoy";
+            "file" = "homesteads-2.0.1-for-neoforge-26.1.jar";
+            "hash" = "sha512-PSsYllM4NtWWC1UKIWc5N3Bwg7DMDKn/rK0Bd6UTy8/3BAoWwNEqqVjOcYrlTNxEfSDor59A8rvtbiQhJ4Lb3Q==";
+        };
+        _v42Bl0N6 = {
+            "id" = "v42Bl0N6";
+            "file" = "homesteads-2.0.1-for-neoforge-26.1.2.jar";
+            "hash" = "sha512-CDBzq310t1JGAvri+damn80sxRg4MbLKHncXT2p8foxJ8xdvO3URAGVyKFU3bNv/y3i7BQSBfZr/DOkcPjy0qg==";
+        };
+        _frhpGFWE = {
+            "id" = "frhpGFWE";
+            "file" = "homesteads-2.0.1-for-neoforge-26.2.jar";
+            "hash" = "sha512-ctbTu9DiMYFU4pq8aYojJ719x8AjE9XnPpi5XO4IzhC4MxZoelUEFlGA75axIpFXz1nMjDrh+N5QxqtRRNostw==";
+        };
+        _BJknEPC5 = {
+            "id" = "BJknEPC5";
+            "file" = "homesteads-2.0.2-for-neoforge-1.21.1.jar";
+            "hash" = "sha512-EVaYuF3ssLHTxLLcdGTRNhqpoFhAY6XmbnANE5WAX1CwGlMB8ZV/vkce+nM3hmY/Y5Au5auqFsavuqK0p+UzEw==";
+        };
     in {
         "MGqMdIzV" = _MGqMdIzV;
         "kTr4cdgj" = _kTr4cdgj;
@@ -290,20 +320,26 @@ let
         "YaPpijWU" = _YaPpijWU;
         "MrjsgJwR" = _MrjsgJwR;
         "AU9B1eRZ" = _AU9B1eRZ;
+        "opF2Oi7g" = _opF2Oi7g;
+        "FuoOnWzf" = _FuoOnWzf;
+        "etyuzvoy" = _etyuzvoy;
+        "v42Bl0N6" = _v42Bl0N6;
+        "frhpGFWE" = _frhpGFWE;
+        "BJknEPC5" = _BJknEPC5;
         "forge-1.20.1" = _NCdJwlUp;
         "forge-1.20.4" = _kTr4cdgj;
-        "neoforge-1.21.1" = _XknGijgC;
+        "neoforge-1.21.1" = _BJknEPC5;
         "neoforge-1.21.4" = _yrtasw1y;
         "neoforge-1.21.5" = _117yiqfJ;
         "neoforge-1.21.7" = _vNoZ7NF7;
         "neoforge-1.21.8" = _LTWJjsaa;
         "neoforge-1.21.9" = _cQe7p5bj;
         "neoforge-1.21.10" = _LcoNDDYr;
-        "neoforge-1.21.11" = _H5JUdYlZ;
-        "neoforge-26.1" = _PX3Ri1Ii;
+        "neoforge-1.21.11" = _FuoOnWzf;
+        "neoforge-26.1" = _etyuzvoy;
         "neoforge-26.1.1" = _ncqv6cHj;
-        "neoforge-26.1.2" = _5ASCHgy0;
-        "neoforge-26.2" = _AU9B1eRZ;
+        "neoforge-26.1.2" = _v42Bl0N6;
+        "neoforge-26.2" = _frhpGFWE;
         "fabric-1.21.5" = _LNHhpzOe;
         "fabric-1.21.7" = _HyObqHFs;
         "fabric-1.21.8" = _UweXSmTS;
@@ -320,8 +356,9 @@ let
         "pkg-1.0.1" = _XVVhtZS7;
         "pkg-1.0.2" = _4Jrvdk9L;
         "pkg-2.0.0" = _AU9B1eRZ;
-        "pkg-2.0.1" = _MrjsgJwR;
-        "default" = _AU9B1eRZ;
+        "pkg-2.0.1" = _frhpGFWE;
+        "pkg-2.0.2" = _BJknEPC5;
+        "default" = _BJknEPC5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "homesteads";

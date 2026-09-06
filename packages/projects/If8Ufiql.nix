@@ -21,23 +21,33 @@ let
             "file" = "Railway infrastructure v2.2.zip";
             "hash" = "sha512-A2Bamu72fj9enH4K+8Z4QWeq2BQsUkRzw38HH5+ApJ5FEVflv/dwQtxeBSLo88otfZZuzI6+h6PdanPZBazv4Q==";
         };
+        _hlWjeuOx = {
+            "id" = "hlWjeuOx";
+            "file" = "ITRP_MTR4_Demo_Modern.zip";
+            "hash" = "sha512-VxT/jIX5OeG8hhU2UrlveqnH3z3cqkChjKqbiIvbURO5lK0TeM7rxXh0nrGFoDiceOlB26+67IwBu2BVwNOOog==";
+        };
     in {
         "JCdOSGvu" = _JCdOSGvu;
         "b5dOHCrK" = _b5dOHCrK;
         "UGymIHBY" = _UGymIHBY;
         "mWhE9Viy" = _mWhE9Viy;
-        "minecraft-1.17.1" = _JCdOSGvu;
-        "minecraft-1.18.2" = _mWhE9Viy;
-        "minecraft-1.19.2" = _b5dOHCrK;
-        "minecraft-1.20.1" = _b5dOHCrK;
-        "minecraft-1.17" = _b5dOHCrK;
+        "hlWjeuOx" = _hlWjeuOx;
+        "minecraft-1.17.1" = _hlWjeuOx;
+        "minecraft-1.18.2" = _hlWjeuOx;
+        "minecraft-1.19.2" = _hlWjeuOx;
+        "minecraft-1.20.1" = _hlWjeuOx;
+        "minecraft-1.17" = _hlWjeuOx;
         "minecraft-1.18" = _mWhE9Viy;
         "minecraft-1.18.1" = _mWhE9Viy;
+        "minecraft-1.19.4" = _hlWjeuOx;
+        "minecraft-1.20" = _hlWjeuOx;
+        "minecraft-1.21.1" = _hlWjeuOx;
         "pkg-2.0" = _JCdOSGvu;
         "pkg-2.0H" = _b5dOHCrK;
         "pkg-2.1" = _UGymIHBY;
         "pkg-2.2" = _mWhE9Viy;
-        "default" = _mWhE9Viy;
+        "pkg-4.0.1" = _hlWjeuOx;
+        "default" = _hlWjeuOx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "international-trainpack";
@@ -51,7 +61,7 @@ let
                 redistributable = false;
                 fullName = "LicenseRef-All-Rights-Reserved";
                 shortName = "LicenseRef-All-Rights-Reserved";
-                url = null;
+                url = "https://raw.githubusercontent.com/RuMTR-Development/International-Trainpack-ITRP-License/refs/heads/main/LICENSE.md";
             };
         };
     };

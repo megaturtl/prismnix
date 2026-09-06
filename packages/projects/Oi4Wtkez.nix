@@ -16,22 +16,31 @@ let
             "file" = "Ultimate VeinMiner Language Resource Pack v1.2.zip";
             "hash" = "sha512-9u9UkDnYVJe4qOuqzy4h4z2awHlpVyWb53Yrv41DhKafebuaIC1ABBQYLdQMoq2vAClq3IMDKp4WASq36cUYWw==";
         };
+        _E2rTYb9y = {
+            "id" = "E2rTYb9y";
+            "file" = "Ultimate VeinMiner Language Resource Pack v1.3.zip";
+            "hash" = "sha512-1GdKMFgSJtX59HPbvCeKvqKpS0E6zQLigzJbVH0jNZqPJD7ycO0qveUb3qpYtl0DlMABhN6g7nzWMfCbuOlpuA==";
+        };
     in {
         "BiIP8Lix" = _BiIP8Lix;
         "ruouCYOC" = _ruouCYOC;
         "T72Xisbu" = _T72Xisbu;
-        "minecraft-1.21.6" = _T72Xisbu;
-        "minecraft-1.21.7" = _T72Xisbu;
-        "minecraft-1.21.8" = _T72Xisbu;
-        "minecraft-1.21.9" = _T72Xisbu;
-        "minecraft-1.21.10" = _T72Xisbu;
-        "minecraft-1.21.11" = _T72Xisbu;
-        "minecraft-26.1" = _T72Xisbu;
-        "minecraft-26.1.1" = _T72Xisbu;
+        "E2rTYb9y" = _E2rTYb9y;
+        "minecraft-1.21.6" = _E2rTYb9y;
+        "minecraft-1.21.7" = _E2rTYb9y;
+        "minecraft-1.21.8" = _E2rTYb9y;
+        "minecraft-1.21.9" = _E2rTYb9y;
+        "minecraft-1.21.10" = _E2rTYb9y;
+        "minecraft-1.21.11" = _E2rTYb9y;
+        "minecraft-26.1" = _E2rTYb9y;
+        "minecraft-26.1.1" = _E2rTYb9y;
+        "minecraft-26.1.2" = _E2rTYb9y;
+        "minecraft-26.2" = _E2rTYb9y;
         "pkg-res-1.0" = _BiIP8Lix;
         "pkg-res-1.1" = _ruouCYOC;
         "pkg-res-1.2" = _T72Xisbu;
-        "default" = _T72Xisbu;
+        "pkg-res-1.3" = _E2rTYb9y;
+        "default" = _E2rTYb9y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ultimate-veinminer-rp";

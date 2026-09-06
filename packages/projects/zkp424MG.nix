@@ -111,6 +111,11 @@ let
             "file" = "illager_expansion-1.11.0+26.2.jar";
             "hash" = "sha512-CXzlp5o6PC+RReUMBiF1EFaeU8GFRDg/3h3/wy+IXea11BEV1mZrMw/S2vEvK6Kdi3BTkdzewJZw2rVtL9tOSQ==";
         };
+        _LaFB1JrG = {
+            "id" = "LaFB1JrG";
+            "file" = "illager_expansion-1.11.1+26.2.jar";
+            "hash" = "sha512-XzvPiC3JDR4kQMkuYa8ZoAF7ZKuuc+fpfIj/b/gnwMe5e4CfAKfe56QQGXkmeDg+XWnfmBXW5vADwG8cumAl3Q==";
+        };
     in {
         "Mvjlcozy" = _Mvjlcozy;
         "1VSQjRCJ" = _1VSQjRCJ;
@@ -134,6 +139,7 @@ let
         "YYQYUqr3" = _YYQYUqr3;
         "qk1l3DzZ" = _qk1l3DzZ;
         "MmOCtLYt" = _MmOCtLYt;
+        "LaFB1JrG" = _LaFB1JrG;
         "fabric-1.19" = _Mvjlcozy;
         "fabric-1.19.1" = _1VSQjRCJ;
         "fabric-1.19.2" = _1VSQjRCJ;
@@ -157,7 +163,7 @@ let
         "fabric-26.1" = _qk1l3DzZ;
         "fabric-26.1.1" = _qk1l3DzZ;
         "fabric-26.1.2" = _qk1l3DzZ;
-        "fabric-26.2" = _MmOCtLYt;
+        "fabric-26.2" = _LaFB1JrG;
         "quilt-1.19" = _Mvjlcozy;
         "quilt-1.19.1" = _1VSQjRCJ;
         "quilt-1.19.2" = _1VSQjRCJ;
@@ -200,7 +206,8 @@ let
         "pkg-1.9.1+1.21.11" = _YYQYUqr3;
         "pkg-1.10.0+26.1.1" = _qk1l3DzZ;
         "pkg-1.11.0+26.2" = _MmOCtLYt;
-        "default" = _MmOCtLYt;
+        "pkg-1.11.1+26.2" = _LaFB1JrG;
+        "default" = _LaFB1JrG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "illager-expansion-polymer";

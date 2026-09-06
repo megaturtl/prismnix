@@ -251,6 +251,16 @@ let
             "file" = "bountifulfares-neoforge-1.21.1-3.0.11.jar";
             "hash" = "sha512-FP+i55VghjnWj39hd91PMQD9F9k+g3sEn6/wqcytaWlMm4V+W8VdMdAkt5g72LO0tPihUZYRjzhB3HgWnCTUcg==";
         };
+        _bC1mCe1G = {
+            "id" = "bC1mCe1G";
+            "file" = "bountifulfares-fabric-1.21.1-3.0.12.jar";
+            "hash" = "sha512-YqGvezTARTJrz8eH4UPBz6irDxpg7jy3ZqZWqOgP7SIZNUmX2pTTZMctj6wdO30dSXsDhJBnjFtpHmuKdMpOzA==";
+        };
+        _mobA3Cfl = {
+            "id" = "mobA3Cfl";
+            "file" = "bountifulfares-neoforge-1.21.1-3.0.12.jar";
+            "hash" = "sha512-ID5GgCXYyjCnZqD4gNYBzfFSCmX4OYFZBJhoTAvsA0D5Uv0XmFrAr85sY0h8a+s3uicpCtScWWZBPUMwRqx1aw==";
+        };
     in {
         "jGajDi3M" = _jGajDi3M;
         "onYBPvRG" = _onYBPvRG;
@@ -302,13 +312,15 @@ let
         "NOhMsKoR" = _NOhMsKoR;
         "fGDNnEtG" = _fGDNnEtG;
         "3EC8C1GU" = _3EC8C1GU;
+        "bC1mCe1G" = _bC1mCe1G;
+        "mobA3Cfl" = _mobA3Cfl;
         "fabric-1.20.1" = _H4COb7fF;
         "fabric-1.20.2" = _iWYuIorG;
         "fabric-1.20.3" = _TbgXPVq9;
         "fabric-1.20.4" = _TbgXPVq9;
         "fabric-1.21" = _2J3zYkPc;
-        "fabric-1.21.1" = _fGDNnEtG;
-        "neoforge-1.21.1" = _3EC8C1GU;
+        "fabric-1.21.1" = _bC1mCe1G;
+        "neoforge-1.21.1" = _mobA3Cfl;
         "pkg-1.0.0" = _6AeuveU6;
         "pkg-1.0.1" = _eXdkKxJE;
         "pkg-1.0.2" = _sOxCapv7;
@@ -334,7 +346,8 @@ let
         "pkg-3.0.9" = _1jShvADf;
         "pkg-3.0.10" = _NOhMsKoR;
         "pkg-3.0.11" = _3EC8C1GU;
-        "default" = _3EC8C1GU;
+        "pkg-3.0.12" = _mobA3Cfl;
+        "default" = _mobA3Cfl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bountiful-fares";

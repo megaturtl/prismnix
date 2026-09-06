@@ -136,6 +136,21 @@ let
             "file" = "QuirksUnchainedV18.jar";
             "hash" = "sha512-HwztxYnFtu/5l6njfKmhbRgbt2G2kc1YK3W9NAtyJxpUUyumFhN+n06gADy0Zzgj1k9/Xx0v2LjwO8cNZz0L0w==";
         };
+        _W1JBBXZM = {
+            "id" = "W1JBBXZM";
+            "file" = "QuirksUnchainedV19.jar";
+            "hash" = "sha512-1iaaYq448V0p1vlWagsGWfTuJfqUVV32webthz3RE1Ds8G635aKZ/HImgwMPveKbxoYhfHoofch95bzH0b7eJw==";
+        };
+        _FB999Dcv = {
+            "id" = "FB999Dcv";
+            "file" = "QuirksUnchainedV19.1.jar";
+            "hash" = "sha512-XTf9uHAgKXA5et251LKJciOwz5QixsYopDNunN3sYQBbinKT70+PKPBRgmoWoDDUNxpsSUh5nrpxf8H+MVzdYw==";
+        };
+        _w3ApImtx = {
+            "id" = "w3ApImtx";
+            "file" = "QuirksUnchainedV19.2.jar";
+            "hash" = "sha512-XM/QtWS4mdO7jOxncp07gtlSc0epU+ObBXEBIsoJuQTyDbIYg/qbIPgeI4xsvOGYwZmddr6OMFeNQAHLdj155Q==";
+        };
     in {
         "XOG4Flf6" = _XOG4Flf6;
         "U5GcSVju" = _U5GcSVju;
@@ -164,7 +179,10 @@ let
         "uIdrI278" = _uIdrI278;
         "Mel9CKwr" = _Mel9CKwr;
         "UqgxvY4S" = _UqgxvY4S;
-        "forge-1.20.1" = _UqgxvY4S;
+        "W1JBBXZM" = _W1JBBXZM;
+        "FB999Dcv" = _FB999Dcv;
+        "w3ApImtx" = _w3ApImtx;
+        "forge-1.20.1" = _w3ApImtx;
         "pkg-V1" = _XOG4Flf6;
         "pkg-V2" = _U5GcSVju;
         "pkg-V3" = _mrQ8CBAp;
@@ -192,7 +210,10 @@ let
         "pkg-V17" = _uIdrI278;
         "pkg-V17.1" = _Mel9CKwr;
         "pkg-V18" = _UqgxvY4S;
-        "default" = _UqgxvY4S;
+        "pkg-19" = _W1JBBXZM;
+        "pkg-V19.1" = _FB999Dcv;
+        "pkg-V19.2" = _w3ApImtx;
+        "default" = _w3ApImtx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "quirks-unchained";

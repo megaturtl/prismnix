@@ -161,6 +161,11 @@ let
             "file" = "HBM-NTM-[1.0.27_X5758_H261].jar";
             "hash" = "sha512-WQwSjbqMTrVaxINdPI9JuwSBdBi4U46GT3rtxlpIrMa9FuVpdwK/zRwDerde6VuItRO6Jp7XryLUbwzLq6cg8w==";
         };
+        _HKdklvsV = {
+            "id" = "HKdklvsV";
+            "file" = "HBM-NTM-[1.0.27_X5778_H261].jar";
+            "hash" = "sha512-JrOli9NB5Pr/Jbd0xC6/shIpfQUfLVTMa02AdGUbykALoMG7aUYLqrh5HroQwvW8XUACu+ySvhUk0pdvoLu5CQ==";
+        };
     in {
         "C4RIS42I" = _C4RIS42I;
         "wyV2YvAx" = _wyV2YvAx;
@@ -194,7 +199,8 @@ let
         "KimWc3zR" = _KimWc3zR;
         "I1sUdZSJ" = _I1sUdZSJ;
         "CZHIrRq4" = _CZHIrRq4;
-        "forge-1.7.10" = _CZHIrRq4;
+        "HKdklvsV" = _HKdklvsV;
+        "forge-1.7.10" = _HKdklvsV;
         "pkg-X5036" = _C4RIS42I;
         "pkg-X5052B2" = _wyV2YvAx;
         "pkg-X5054" = _mfbTLxO6;
@@ -227,7 +233,8 @@ let
         "pkg-X5719_H261" = _KimWc3zR;
         "pkg-X5751_H261" = _I1sUdZSJ;
         "pkg-X5758_H261" = _CZHIrRq4;
-        "default" = _CZHIrRq4;
+        "pkg-X5778_H261" = _HKdklvsV;
+        "default" = _HKdklvsV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ntmspace";

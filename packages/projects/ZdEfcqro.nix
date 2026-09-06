@@ -486,6 +486,36 @@ let
             "file" = "trickster-2.0.0-beta.48.jar";
             "hash" = "sha512-dj2udSIyCaWIb3oLfFna+QIrwNQRVoxmWcqwC7bc72RXaJAz6f/ZORutT0SG8Q47RK7lo4jdEzh7sqXeFeTUyA==";
         };
+        _WVLcmPmw = {
+            "id" = "WVLcmPmw";
+            "file" = "trickster-2.0.0-beta.49.jar";
+            "hash" = "sha512-EjxxdJv3mrKKy9GrdwdtboygdjHb/HKR9WpOT2ZLf+iCDH0JJJGbs0u5FsFwUGWUzDMiz14rCODBTZomOAsIpw==";
+        };
+        _sLuVfBBi = {
+            "id" = "sLuVfBBi";
+            "file" = "trickster-2.0.0-beta.50.jar";
+            "hash" = "sha512-vsFyAJzr6vnmB9ZHTfLkGrJ/KtRUZRBshDKRuKyVEkOA/L7ikR2NdAOYEoz6R8JA5z/poGMoq6BLK5gjIQHSLw==";
+        };
+        _yCYSwujn = {
+            "id" = "yCYSwujn";
+            "file" = "trickster-2.0.0-beta.51.jar";
+            "hash" = "sha512-FdiAHOOHIHaZbFyZTAhUBWHFmOrEVi1XgrNWS7CGYo/iFvuR2XoNptCLNHt/hMqIi4tWf0V9qLtAQEwbU2p3Yw==";
+        };
+        _DAgkqQ0z = {
+            "id" = "DAgkqQ0z";
+            "file" = "trickster-2.0.0-beta.52.jar";
+            "hash" = "sha512-l/9dRjgUokPaiOME1rmpsrPDMSvA1i8stg1TllYlfrc/JweYn2PhBBf3IiFHv2lyi2EQutvIPAHIKIkrCGYQkQ==";
+        };
+        _IojjsIGb = {
+            "id" = "IojjsIGb";
+            "file" = "trickster-2.0.0-beta.53.jar";
+            "hash" = "sha512-d+KB39/v1E3sLOPwF97kLoYG9KCXWBQdY9ALuGFlCTpPdGS/408MaDLXcZcKuzkwnX3I8ePGj3NUISQ0LshDCw==";
+        };
+        _aYoyhNU6 = {
+            "id" = "aYoyhNU6";
+            "file" = "trickster-2.0.0-beta.54.jar";
+            "hash" = "sha512-Q0Fe39XbbMOsuTLoTYlv0EsaG5yndJOqRqdKE6qDCrTXrlIvYYqQPpMbWA7Lai2nx62a6/7YIdaPtWq7nhSEUg==";
+        };
     in {
         "wjNY96vv" = _wjNY96vv;
         "cdx0Z20M" = _cdx0Z20M;
@@ -584,8 +614,14 @@ let
         "JZ0YfQ42" = _JZ0YfQ42;
         "KdqVYniI" = _KdqVYniI;
         "1u5hNXXD" = _1u5hNXXD;
+        "WVLcmPmw" = _WVLcmPmw;
+        "sLuVfBBi" = _sLuVfBBi;
+        "yCYSwujn" = _yCYSwujn;
+        "DAgkqQ0z" = _DAgkqQ0z;
+        "IojjsIGb" = _IojjsIGb;
+        "aYoyhNU6" = _aYoyhNU6;
         "fabric-1.21" = _1u5hNXXD;
-        "fabric-1.21.1" = _1u5hNXXD;
+        "fabric-1.21.1" = _aYoyhNU6;
         "pkg-1.0.0" = _wjNY96vv;
         "pkg-1.0.1" = _cdx0Z20M;
         "pkg-1.0.2" = _LD1wPpOq;
@@ -683,7 +719,13 @@ let
         "pkg-2.0.0-beta.46" = _JZ0YfQ42;
         "pkg-2.0.0-beta.47" = _KdqVYniI;
         "pkg-2.0.0-beta.48" = _1u5hNXXD;
-        "default" = _1u5hNXXD;
+        "pkg-2.0.0-beta.49" = _WVLcmPmw;
+        "pkg-2.0.0-beta.50" = _sLuVfBBi;
+        "pkg-2.0.0-beta.51" = _yCYSwujn;
+        "pkg-2.0.0-beta.52" = _DAgkqQ0z;
+        "pkg-2.0.0-beta.53" = _IojjsIGb;
+        "pkg-2.0.0-beta.54" = _aYoyhNU6;
+        "default" = _aYoyhNU6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trickster";

@@ -21,11 +21,17 @@ let
             "file" = "Better-Farmlands.zip";
             "hash" = "sha512-mWX3SYzPXIz9jZYKX6aBZJrDf5P3at34CvTr6pwOWkemh+twoQDQdXamEcBVyQt24MDMpPUde1RbYVD0h5k1qw==";
         };
+        _bhwmI5Zg = {
+            "id" = "bhwmI5Zg";
+            "file" = "Better-FarmLands.zip";
+            "hash" = "sha512-rDyww+MQMSTxsQMmw8Tr44Y3WLPWYD7eLXdqQHHXfmtbqjZbIYQMtpENd19PTbucZ/hhOo4yhB4PhwvMdteVgg==";
+        };
     in {
         "bjOpXugs" = _bjOpXugs;
         "rIMe4hEq" = _rIMe4hEq;
         "IfjvPXa3" = _IfjvPXa3;
         "P1efHmnA" = _P1efHmnA;
+        "bhwmI5Zg" = _bhwmI5Zg;
         "minecraft-1.19" = _bjOpXugs;
         "minecraft-1.19.1" = _bjOpXugs;
         "minecraft-1.19.2" = _bjOpXugs;
@@ -38,22 +44,28 @@ let
         "minecraft-1.20.4" = _IfjvPXa3;
         "minecraft-1.20.5" = _IfjvPXa3;
         "minecraft-1.20.6" = _IfjvPXa3;
-        "minecraft-1.21" = _P1efHmnA;
-        "minecraft-1.21.1" = _P1efHmnA;
-        "minecraft-1.21.2" = _P1efHmnA;
-        "minecraft-1.21.3" = _P1efHmnA;
-        "minecraft-1.21.4" = _P1efHmnA;
-        "minecraft-1.21.5" = _P1efHmnA;
-        "minecraft-1.21.6" = _P1efHmnA;
-        "minecraft-1.21.7" = _P1efHmnA;
-        "minecraft-1.21.8" = _P1efHmnA;
-        "minecraft-1.21.9" = _P1efHmnA;
-        "minecraft-1.21.10" = _P1efHmnA;
+        "minecraft-1.21" = _bhwmI5Zg;
+        "minecraft-1.21.1" = _bhwmI5Zg;
+        "minecraft-1.21.2" = _bhwmI5Zg;
+        "minecraft-1.21.3" = _bhwmI5Zg;
+        "minecraft-1.21.4" = _bhwmI5Zg;
+        "minecraft-1.21.5" = _bhwmI5Zg;
+        "minecraft-1.21.6" = _bhwmI5Zg;
+        "minecraft-1.21.7" = _bhwmI5Zg;
+        "minecraft-1.21.8" = _bhwmI5Zg;
+        "minecraft-1.21.9" = _bhwmI5Zg;
+        "minecraft-1.21.10" = _bhwmI5Zg;
+        "minecraft-1.21.11" = _bhwmI5Zg;
+        "minecraft-26.1" = _bhwmI5Zg;
+        "minecraft-26.1.1" = _bhwmI5Zg;
+        "minecraft-26.1.2" = _bhwmI5Zg;
+        "minecraft-26.2" = _bhwmI5Zg;
         "pkg-1.0" = _bjOpXugs;
         "pkg-1.1" = _rIMe4hEq;
         "pkg-1.2" = _IfjvPXa3;
         "pkg-1.3" = _P1efHmnA;
-        "default" = _P1efHmnA;
+        "pkg-1.4" = _bhwmI5Zg;
+        "default" = _bhwmI5Zg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-farmlands";

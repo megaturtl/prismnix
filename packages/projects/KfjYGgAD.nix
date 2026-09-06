@@ -76,6 +76,11 @@ let
             "file" = "ZeroContact-main-build-65-9a949f8.jar";
             "hash" = "sha512-EnloeZFnI4MMFGSndqSvKhovZWEbwgxk7vaGMQlbeCVLbk8ICAUYqzBCFOdhvQW8xLxmIPg5BUZc+ZwyLVwWGw==";
         };
+        _EnLUirjM = {
+            "id" = "EnLUirjM";
+            "file" = "ZeroContact-main-build-72-36c6a8f.jar";
+            "hash" = "sha512-nZe4exZFYz8vwgCtU2LtYqXtT8TGePI5OcvVI8q5tTSmbpvAmN+t94xnkI4jfpljFfkIKEn7xirAp0ZmcWUXfQ==";
+        };
     in {
         "s7QbaiTX" = _s7QbaiTX;
         "Wr45NMrs" = _Wr45NMrs;
@@ -92,7 +97,8 @@ let
         "Sm6gUsTE" = _Sm6gUsTE;
         "zNcRA8TW" = _zNcRA8TW;
         "28fqFCuC" = _28fqFCuC;
-        "forge-1.20.1" = _28fqFCuC;
+        "EnLUirjM" = _EnLUirjM;
+        "forge-1.20.1" = _EnLUirjM;
         "pkg-indev.1.0.0" = _s7QbaiTX;
         "pkg-indev.1.0.2" = _Wr45NMrs;
         "pkg-indev.1.0.4" = _Gw5L9j1q;
@@ -108,7 +114,8 @@ let
         "pkg-1.1.3" = _Sm6gUsTE;
         "pkg-1.1.4" = _zNcRA8TW;
         "pkg-1.1.4-hotfix" = _28fqFCuC;
-        "default" = _28fqFCuC;
+        "pkg-1.1.5-beta" = _EnLUirjM;
+        "default" = _EnLUirjM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zerocontact";

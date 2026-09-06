@@ -571,6 +571,16 @@ let
             "file" = "rftoolsbuilder-1.21-7.0.5.jar";
             "hash" = "sha512-SWCIhhk1U6RqCXRVfh9mPAv1Zl4qZ2PU+sQFIvEWh+uDcB1u+rwUTUVYF+r0BR6SGdOeZ0cHglY0T/7Jg9PiDw==";
         };
+        _DrVfKfKP = {
+            "id" = "DrVfKfKP";
+            "file" = "rftoolsbuilder-1.20-6.0.10.jar";
+            "hash" = "sha512-J+cJ63HHA4aIxdXRVJQlql8cGbmo6FdUAhUu7NBGsbA0pecUZnMh5dzojO21bm2a8HIGPHV1xpoO/jl3zHyJvg==";
+        };
+        _6LuZx89G = {
+            "id" = "6LuZx89G";
+            "file" = "rftoolsbuilder-1.21-7.0.6.jar";
+            "hash" = "sha512-AAiIdtXHKzpuDovg/TaM2c1xjSFzXfNveq63tTofZnUoj0ZjqMcxasGkzphQNCHJ5UZdSFDQdEhob01ytrUTOA==";
+        };
     in {
         "LD479cPW" = _LD479cPW;
         "NEgHxNrx" = _NEgHxNrx;
@@ -686,6 +696,8 @@ let
         "W7rLle5C" = _W7rLle5C;
         "Mhb0ELvN" = _Mhb0ELvN;
         "R3Rv7s4l" = _R3Rv7s4l;
+        "DrVfKfKP" = _DrVfKfKP;
+        "6LuZx89G" = _6LuZx89G;
         "forge-1.14.4" = _AXJqL25h;
         "forge-1.15.2" = _tKoHFoQP;
         "forge-1.16.2" = _oNvs8Rsw;
@@ -699,8 +711,8 @@ let
         "forge-1.19.2" = _LyjevT0q;
         "forge-1.19.3" = _LyjevT0q;
         "forge-1.19.4" = _LyjevT0q;
-        "forge-1.20.1" = _Mhb0ELvN;
-        "neoforge-1.21.1" = _R3Rv7s4l;
+        "forge-1.20.1" = _DrVfKfKP;
+        "neoforge-1.21.1" = _6LuZx89G;
         "pkg-1.14-1.2.4-alpha" = _LD479cPW;
         "pkg-1.14-1.2.5-alpha" = _NEgHxNrx;
         "pkg-1.14-1.2.6-alpha" = _ZdTcat1F;
@@ -815,7 +827,9 @@ let
         "pkg-1.21-7.0.4" = _W7rLle5C;
         "pkg-1.20-6.0.9" = _Mhb0ELvN;
         "pkg-1.21-7.0.5" = _R3Rv7s4l;
-        "default" = _R3Rv7s4l;
+        "pkg-1.20-6.0.10" = _DrVfKfKP;
+        "pkg-1.21-7.0.6" = _6LuZx89G;
+        "default" = _6LuZx89G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rftools-builder";

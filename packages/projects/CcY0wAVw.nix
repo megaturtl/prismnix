@@ -126,6 +126,16 @@ let
             "file" = "ChowderExpress-neoforge-26.1.2-11.0.0.jar";
             "hash" = "sha512-N+Dn0vevsqYCrxAqfJ/fg3vk3uucVWwhZgokW3/CuBR5U/GIR6vbCqCUH3mQ5YmZuBsBAVO4Yh7kvBS9D74fVQ==";
         };
+        _koGvrP2C = {
+            "id" = "koGvrP2C";
+            "file" = "ChowderExpress-fabric-26.2-12.0.0.jar";
+            "hash" = "sha512-shp5lQQI0iBaF8sZMgueqxpkc1ehn02mJ/u4/tE76fpNFe/4BaiqknVudAgVLQo735E0hg00M7NOOklq36yxCQ==";
+        };
+        _zS8aQfrq = {
+            "id" = "zS8aQfrq";
+            "file" = "ChowderExpress-neoforge-26.2-12.0.0.jar";
+            "hash" = "sha512-odnCqqRnTbKvsZAK3Id3q8eVhauHP5UJvD3hh9ORRnr5Dw7zVG7xUAehIWCpcCJdI1irqWibBIu6NMrVg8M/Xg==";
+        };
     in {
         "LYqMCedh" = _LYqMCedh;
         "pvOHmFvv" = _pvOHmFvv;
@@ -152,6 +162,8 @@ let
         "aQDELaz9" = _aQDELaz9;
         "hreuJ4pk" = _hreuJ4pk;
         "viZeOhpj" = _viZeOhpj;
+        "koGvrP2C" = _koGvrP2C;
+        "zS8aQfrq" = _zS8aQfrq;
         "forge-1.18.2" = _dS04fNIp;
         "forge-1.19.2" = _GpGRB3Eh;
         "forge-1.19.3" = _714zFCtZ;
@@ -168,9 +180,11 @@ let
         "neoforge-1.21.8" = _2a7n80nq;
         "neoforge-1.21.11" = _m6NvCOul;
         "neoforge-26.1.2" = _viZeOhpj;
+        "neoforge-26.2" = _zS8aQfrq;
         "fabric-1.21.1" = _pDkMHy0N;
         "fabric-1.21.11" = _aQDELaz9;
         "fabric-26.1.2" = _hreuJ4pk;
+        "fabric-26.2" = _koGvrP2C;
         "pkg-1.0.0" = _pvOHmFvv;
         "pkg-1.1.0" = _GpGRB3Eh;
         "pkg-1.2.0" = _714zFCtZ;
@@ -190,7 +204,8 @@ let
         "pkg-6.1.1" = _pDkMHy0N;
         "pkg-10.0.0" = _aQDELaz9;
         "pkg-11.0.0" = _viZeOhpj;
-        "default" = _viZeOhpj;
+        "pkg-12.0.0" = _zS8aQfrq;
+        "default" = _zS8aQfrq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chowder-express";

@@ -31,6 +31,11 @@ let
             "file" = "alcohol_industry-2.2.2.jar";
             "hash" = "sha512-c5xzR5FMpuj+FB8frqglwuZFveB1NO/b29bdXERaZdCml3ztlIMH+zO9e1rZ38yZtfHKMxkPXi9spCrrjrzx7w==";
         };
+        _yAiMVopq = {
+            "id" = "yAiMVopq";
+            "file" = "alcohol_industry-2.2.3.jar";
+            "hash" = "sha512-t3kYGhd+yy8mCYWVVtxe3yQa+MJoj8n/Ah7OA5ScmcjMLZv8ykhpRJ98V4HrtO/d/SfnWNQ/ewFt6FU3lwuupA==";
+        };
     in {
         "iwi0ZPmG" = _iwi0ZPmG;
         "30sNmYOR" = _30sNmYOR;
@@ -38,14 +43,16 @@ let
         "Hsvmk4Rd" = _Hsvmk4Rd;
         "td8PIlz1" = _td8PIlz1;
         "2YwopjIZ" = _2YwopjIZ;
-        "neoforge-1.21.1" = _2YwopjIZ;
+        "yAiMVopq" = _yAiMVopq;
+        "neoforge-1.21.1" = _yAiMVopq;
         "pkg-1.0" = _iwi0ZPmG;
         "pkg-2.0" = _30sNmYOR;
         "pkg-2.1" = _as7JJdxC;
         "pkg-2.2" = _Hsvmk4Rd;
         "pkg-2.2.1" = _td8PIlz1;
         "pkg-2.2.2" = _2YwopjIZ;
-        "default" = _2YwopjIZ;
+        "pkg-2.2.3" = _yAiMVopq;
+        "default" = _yAiMVopq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-alcohol-industry";

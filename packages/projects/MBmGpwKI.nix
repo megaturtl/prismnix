@@ -61,6 +61,11 @@ let
             "file" = "unseen-world-0.4.1.jar";
             "hash" = "sha512-/Opk3lzgcxgyQl2SpyFht56XjfogqkgjIteLUl406BLyw3+YWsl1dQ8jzxEFYS29k06CaA+IxkxL5EMrprdqNQ==";
         };
+        _xELqrzD2 = {
+            "id" = "xELqrzD2";
+            "file" = "unseen_world-3.5.3.jar";
+            "hash" = "sha512-OZWWkJVDS9IYx3TgbavbsDKdnjr1TOmAnHZp5NQZdHYX+JsIZ5AntH2WA1lim4KTN93X+cfBfmmRcyB2kQQ9zQ==";
+        };
     in {
         "3QrmXNDk" = _3QrmXNDk;
         "1gt96KSW" = _1gt96KSW;
@@ -74,7 +79,8 @@ let
         "RefVwWET" = _RefVwWET;
         "HAdmjLVn" = _HAdmjLVn;
         "1tudav0n" = _1tudav0n;
-        "forge-1.20.1" = _HAdmjLVn;
+        "xELqrzD2" = _xELqrzD2;
+        "forge-1.20.1" = _xELqrzD2;
         "forge-1.19.2" = _cvnzhzuh;
         "fabric-1.20.1" = _HAdmjLVn;
         "fabric-1.21.1" = _1tudav0n;
@@ -91,7 +97,8 @@ let
         "pkg-0.4.0-1.21.1" = _RefVwWET;
         "pkg-0.4.1" = _HAdmjLVn;
         "pkg-0.4.1-1.21.1" = _1tudav0n;
-        "default" = _1tudav0n;
+        "pkg-3.5.3" = _xELqrzD2;
+        "default" = _xELqrzD2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unseen-world";

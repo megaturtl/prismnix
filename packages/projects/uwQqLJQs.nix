@@ -371,6 +371,31 @@ let
             "file" = "strainers-26.1.2-6.10.10.jar";
             "hash" = "sha512-PnF9gFbQK51fXVgAG8/biTuBKd5bo+oMKuK0Vviox3631LOh5b1nHoIFh4pUSKBflACduFL2uN1GMlU4vEnDjQ==";
         };
+        _WO8luiIe = {
+            "id" = "WO8luiIe";
+            "file" = "strainers-26.1.2-6.11.0.jar";
+            "hash" = "sha512-sdwOpbLlHD6vouowiTETTTGTZ6suygGfotzi1Td4ic7GwdbQjMxTnBTC/FeHmncZeASn81iJGsjl4gyEZxrILQ==";
+        };
+        _nlIZqDRU = {
+            "id" = "nlIZqDRU";
+            "file" = "strainers-26.1.2-6.11.1.jar";
+            "hash" = "sha512-i8D3QhaBMOmsLLgwFNv1xc1dehUA9VnVLKhlbBorwQD1rvN0s+8zEGOLMTzGpzd0IaxPR3cBIcZvWabqYjAhbQ==";
+        };
+        _g71hnxfw = {
+            "id" = "g71hnxfw";
+            "file" = "strainers-26.1.2-6.11.2.jar";
+            "hash" = "sha512-So9b2NLc7TZ3Cmr1MP9DtckRBJtVUVyHmP8HaFQxd6eXv+Bfdg76FoUDImLw6w4J23I4COnRPJr2u+fdQy/SQA==";
+        };
+        _JHQYqBRi = {
+            "id" = "JHQYqBRi";
+            "file" = "strainers-26.1.2-6.11.3.jar";
+            "hash" = "sha512-PdJnbusUJrxW173B6piCWQ9pQXFTUhjcWlk7LYNOz5L+WE3okluarB/CnVtWCdc50/0chGTSUCCaTl/RgaUiGQ==";
+        };
+        _E8NqYZR2 = {
+            "id" = "E8NqYZR2";
+            "file" = "strainers-26.1.2-6.11.3.jar";
+            "hash" = "sha512-CSnLOoB2tVA30bShWz7/zY10X+F4EPg4rYf6XW0uuL4Cqd4tdnoecYaQ6rJ4kR6nI6c8Ei/jVcp8vF44YjXkTw==";
+        };
     in {
         "c6nnymnA" = _c6nnymnA;
         "s6zJ90Gi" = _s6zJ90Gi;
@@ -446,11 +471,16 @@ let
         "mW4SAj6y" = _mW4SAj6y;
         "PGVtTpZe" = _PGVtTpZe;
         "XlTbqK0H" = _XlTbqK0H;
+        "WO8luiIe" = _WO8luiIe;
+        "nlIZqDRU" = _nlIZqDRU;
+        "g71hnxfw" = _g71hnxfw;
+        "JHQYqBRi" = _JHQYqBRi;
+        "E8NqYZR2" = _E8NqYZR2;
         "neoforge-1.21" = _a0z0dhv9;
         "neoforge-1.21.1" = _a0z0dhv9;
         "neoforge-26.1" = _aNQTAG5x;
         "neoforge-26.1.1" = _aNQTAG5x;
-        "neoforge-26.1.2" = _XlTbqK0H;
+        "neoforge-26.1.2" = _E8NqYZR2;
         "neoforge-26.2" = _joQtRkNZ;
         "pkg-2.5.0" = _c6nnymnA;
         "pkg-1.21-2.5.0" = _s6zJ90Gi;
@@ -513,7 +543,11 @@ let
         "pkg-26.1.2-6.10.8" = _mW4SAj6y;
         "pkg-26.1.2-6.10.9" = _PGVtTpZe;
         "pkg-26.1.2-6.10.10" = _XlTbqK0H;
-        "default" = _XlTbqK0H;
+        "pkg-26.1.2-6.11.0" = _WO8luiIe;
+        "pkg-26.1.2-6.11.1" = _nlIZqDRU;
+        "pkg-26.1.2-6.11.2" = _g71hnxfw;
+        "pkg-26.1.2-6.11.3" = _E8NqYZR2;
+        "default" = _E8NqYZR2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bbl-strainers";

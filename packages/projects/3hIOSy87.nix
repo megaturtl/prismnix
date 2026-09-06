@@ -36,6 +36,11 @@ let
             "file" = "Glowing Glazed (26.1).zip";
             "hash" = "sha512-veuTXmMcL6oLQ98zC+AGMOqXzXDvCsElt5CawPBR/iHaDSIeArJQ/SRhAKsgFPjld/jpj5d80QXSerDhtP7lvA==";
         };
+        _WyQrmqIJ = {
+            "id" = "WyQrmqIJ";
+            "file" = "Glowing Glazed (26.2).zip";
+            "hash" = "sha512-3OqfKOaoA25/EIlDuMjoE6F0psnPnrVIxa4cDY1Lm7hIvTO9SMR4NdRT/m6YDSvhCZWZNt6YTekYB8DXvEWmOQ==";
+        };
     in {
         "4fJHpViA" = _4fJHpViA;
         "OXgVTd6O" = _OXgVTd6O;
@@ -44,17 +49,19 @@ let
         "SYaQel9j" = _SYaQel9j;
         "v3lUmveq" = _v3lUmveq;
         "QEHm7xBe" = _QEHm7xBe;
+        "WyQrmqIJ" = _WyQrmqIJ;
         "minecraft-1.21.4" = _4fJHpViA;
         "minecraft-1.21.5" = _OXgVTd6O;
         "minecraft-1.21.6" = _z7SCmRN8;
         "minecraft-1.21.7" = _eXKw7Wgi;
         "minecraft-1.21.8" = _eXKw7Wgi;
-        "minecraft-1.21.9" = _QEHm7xBe;
-        "minecraft-1.21.10" = _QEHm7xBe;
-        "minecraft-1.21.11" = _QEHm7xBe;
-        "minecraft-26.1" = _QEHm7xBe;
-        "minecraft-26.1.1" = _QEHm7xBe;
-        "minecraft-26.1.2" = _QEHm7xBe;
+        "minecraft-1.21.9" = _WyQrmqIJ;
+        "minecraft-1.21.10" = _WyQrmqIJ;
+        "minecraft-1.21.11" = _WyQrmqIJ;
+        "minecraft-26.1" = _WyQrmqIJ;
+        "minecraft-26.1.1" = _WyQrmqIJ;
+        "minecraft-26.1.2" = _WyQrmqIJ;
+        "minecraft-26.2" = _WyQrmqIJ;
         "pkg-1.21.4" = _4fJHpViA;
         "pkg-1.21.5" = _OXgVTd6O;
         "pkg-1.21.6" = _z7SCmRN8;
@@ -62,7 +69,8 @@ let
         "pkg-1.21.9" = _SYaQel9j;
         "pkg-1.21.11" = _v3lUmveq;
         "pkg-26.1" = _QEHm7xBe;
-        "default" = _QEHm7xBe;
+        "pkg-26.2" = _WyQrmqIJ;
+        "default" = _WyQrmqIJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glowing-glazed";

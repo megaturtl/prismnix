@@ -146,6 +146,21 @@ let
             "file" = "nastias_miracle_stones_mod-1.7.5-Snake_Public_Beta.jar";
             "hash" = "sha512-2gk6puKTB0FT03bg1Ij0DvsNLTdulJANU16Q+6tCPhz74AlZAwt73t81uTYSBBkVqQn2GNvkDTLmhcI8WGUiTg==";
         };
+        _c2e7yUdL = {
+            "id" = "c2e7yUdL";
+            "file" = "nastias_miracle_stones_mod-2.1.0-Snake_update.jar";
+            "hash" = "sha512-kRGafBv0w0Gs5iMJVtZvrnre7ware+hlFuuTegj11jXY0yqhHvND1HpMU/Dvlnm/1kbHPDA9fVaGudGmQrT8LA==";
+        };
+        _G2WBJ55u = {
+            "id" = "G2WBJ55u";
+            "file" = "nastias_miracle_stones_mod-2.1.1-Bugfix.jar";
+            "hash" = "sha512-CkeMYw44HD8UkaJ7WiRpYDTtt2U3pXu2va5Mzed5Fdeu6WZdeMUTYw4Idbm6hDzYVDIKGwHXNcoDltGXzOk2Ow==";
+        };
+        _U9Z5CQX2 = {
+            "id" = "U9Z5CQX2";
+            "file" = "nastias_miracle_stones_mod-2.1.2-Bugfix2.jar";
+            "hash" = "sha512-rELAfMdFs3iIJlzvOn3ARlXxJm4PCaiYU3CAaEpMJwpX7zJsQ3Vr+dhLtn4uvZJl7oSw5jUNJtYXfO7wc5xsrQ==";
+        };
     in {
         "FxIa6gxj" = _FxIa6gxj;
         "qjjpcta2" = _qjjpcta2;
@@ -176,7 +191,10 @@ let
         "WFseSZjS" = _WFseSZjS;
         "APU33NbW" = _APU33NbW;
         "QWfncVPa" = _QWfncVPa;
-        "forge-1.20.1" = _QWfncVPa;
+        "c2e7yUdL" = _c2e7yUdL;
+        "G2WBJ55u" = _G2WBJ55u;
+        "U9Z5CQX2" = _U9Z5CQX2;
+        "forge-1.20.1" = _U9Z5CQX2;
         "pkg-1.0.0" = _FxIa6gxj;
         "pkg-1.1.0" = _N0agwaMD;
         "pkg-1.2.0" = _M1gGrgYj;
@@ -200,7 +218,10 @@ let
         "pkg-1.7.3" = _WFseSZjS;
         "pkg-1.7.4" = _APU33NbW;
         "pkg-1.7.5" = _QWfncVPa;
-        "default" = _QWfncVPa;
+        "pkg-2.1" = _c2e7yUdL;
+        "pkg-2.1.1" = _G2WBJ55u;
+        "pkg-2.1.2" = _U9Z5CQX2;
+        "default" = _U9Z5CQX2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nastia`s-miracle-stones";

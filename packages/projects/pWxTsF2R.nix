@@ -41,11 +41,6 @@ let
             "file" = "ravenclawspingequalizer-1.4.2-obf.jar";
             "hash" = "sha512-wbXKRxtYS4HsBaWUT7mWMF0wBponvgweTN7t9Bya/4F02JWbu0hauwiQ6JI2tuDF1MmWdY4VAdwX77e+6z941A==";
         };
-        _6sn0IylJ = {
-            "id" = "6sn0IylJ";
-            "file" = "ravenclawspingequalizer-1.4.2-obf.jar";
-            "hash" = "sha512-fnO6DVmdMkl64Tf3wW31eI1yQytl7/znKk84knn6FxjbiRde4+x4BL0KQdP1sBNQG0xqfPNAkKFtW1T6ZCVulg==";
-        };
         _6kGLdnm2 = {
             "id" = "6kGLdnm2";
             "file" = "ravenclawspingequalizer-1.5+1.21.jar";
@@ -65,7 +60,6 @@ let
         "xZ6JbAO9" = _xZ6JbAO9;
         "gRwVubk9" = _gRwVubk9;
         "mPv8JEd8" = _mPv8JEd8;
-        "6sn0IylJ" = _6sn0IylJ;
         "6kGLdnm2" = _6kGLdnm2;
         "9v2tALGV" = _9v2tALGV;
         "fabric-1.20" = _Y1OjRg31;
@@ -98,7 +92,7 @@ let
         "pkg-1.3.0" = _yWfcgw0x;
         "pkg-1.4.0" = _xZ6JbAO9;
         "pkg-1.4.1" = _gRwVubk9;
-        "pkg-1.4.2" = _6sn0IylJ;
+        "pkg-1.4.2" = _mPv8JEd8;
         "pkg-1.5+1.21.x" = _6kGLdnm2;
         "pkg-1.5+26.x" = _9v2tALGV;
         "default" = _9v2tALGV;

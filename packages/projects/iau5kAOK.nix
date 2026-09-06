@@ -311,6 +311,56 @@ let
             "file" = "fishonmcextras-0.3.5+26.1.jar";
             "hash" = "sha512-aYhzVYuU1F0Prrd+HWajMZdxPD8bfTgAiIFR+EAMOCPvKDhY77W5poBlzD080biTI9liFhRlqw5pQLylBTwg4w==";
         };
+        _jDsJediw = {
+            "id" = "jDsJediw";
+            "file" = "fishonmcextras-0.3.6+1.21.11.jar";
+            "hash" = "sha512-ECuJoq+iFYNaGnVBbvtJbgAHeji62DmGMk8/roa8zJYyBYJZJPTkjCIrtt45j90KUEYc5KfTt+98SEBU0WWo2Q==";
+        };
+        _hdzTFPPS = {
+            "id" = "hdzTFPPS";
+            "file" = "fishonmcextras-0.3.6+26.1.jar";
+            "hash" = "sha512-QL61KqAkYeks0DcEOTpVxiBs0WfOUpmcZWudN8kfClRi9Qi3P/GmB5/YxlNHr4+wWvDyK/8U252ZBhiqfhr/UA==";
+        };
+        _dfkUblpq = {
+            "id" = "dfkUblpq";
+            "file" = "fishonmcextras-0.3.7+1.21.11.jar";
+            "hash" = "sha512-ZPJAeX0XIM+ZyTHLkpiPA9NgslF7KXJsKkkpuXfQFNcS08j20jInI6APSdj48X28NaagX+oAAzCHikodJDaRNw==";
+        };
+        _W3Vt4JrR = {
+            "id" = "W3Vt4JrR";
+            "file" = "fishonmcextras-0.3.7+26.1.jar";
+            "hash" = "sha512-gRLwv4lEcnpHEGCrTOU7C4Y4k19LWZjY7DHclh++dw17IyaVYa7BNm++pBJrWGZt3x/t0gojcpoPkV3XYl/+Hg==";
+        };
+        _dr7RDMoH = {
+            "id" = "dr7RDMoH";
+            "file" = "fishonmcextras-0.3.8+1.21.11.jar";
+            "hash" = "sha512-ONUPsQ+moaOGpfuIphxbchlgmFBtIhUjxiywdvOc+qbkJ+VqweHMmFjTrXqntxhj0wPJIeumwQ86UK02QavVvA==";
+        };
+        _6RilN3gG = {
+            "id" = "6RilN3gG";
+            "file" = "fishonmcextras-0.3.8+26.1.jar";
+            "hash" = "sha512-B75SXe0Q464wmtHBY+va8YpU1mcdEPJXkMhYc2sMOR/v1sj90kJQzQ2taiCBhoc4MgnrUvLzyTI0B+Yb4iu/Ng==";
+        };
+        _gKAIwcQT = {
+            "id" = "gKAIwcQT";
+            "file" = "fishonmcextras-0.3.9+1.21.11.jar";
+            "hash" = "sha512-Vqew8AiTPBJqB6ijJw1lz6vaYIUAK67Xt5oUDrMckzg9OtfoQqwqNGV+oSRCWRheHufpdQ+/ZbFBZhSVyCQ8Fw==";
+        };
+        _U7k62UHB = {
+            "id" = "U7k62UHB";
+            "file" = "fishonmcextras-0.3.9+26.1.jar";
+            "hash" = "sha512-2rMI4RRYg3S8ZPvYRQz7x1FEvFQGR2f7GgjQ4qM7bmMjaeNjifBGkSChYOudVAKd1WOgCdJ5vUB4FU1wRHE2mQ==";
+        };
+        _Put2LOAb = {
+            "id" = "Put2LOAb";
+            "file" = "fishonmcextras-0.3.10+1.21.11.jar";
+            "hash" = "sha512-MN1mlQgP0FUsAPKwOSn9RDgasbA/XC4JcErzsfeJAiXpaKlI1ava/C6/Gs1Rf0/gjUj901gB8sqyyxsBcxGWVA==";
+        };
+        _VdrDTtEE = {
+            "id" = "VdrDTtEE";
+            "file" = "fishonmcextras-0.3.10+26.1.jar";
+            "hash" = "sha512-bATS80L272g0eHHRxo1qYdtdQ6zObTJXxlgkw5l5xL8qluyEkppG+rDKR2e4syiDWCG5dj0+T/9PLdKgY/qTWw==";
+        };
     in {
         "YqsdpVQI" = _YqsdpVQI;
         "U78LUUdr" = _U78LUUdr;
@@ -374,12 +424,22 @@ let
         "PQDPrKVa" = _PQDPrKVa;
         "3QSbNDfb" = _3QSbNDfb;
         "7BLLGx9Q" = _7BLLGx9Q;
+        "jDsJediw" = _jDsJediw;
+        "hdzTFPPS" = _hdzTFPPS;
+        "dfkUblpq" = _dfkUblpq;
+        "W3Vt4JrR" = _W3Vt4JrR;
+        "dr7RDMoH" = _dr7RDMoH;
+        "6RilN3gG" = _6RilN3gG;
+        "gKAIwcQT" = _gKAIwcQT;
+        "U7k62UHB" = _U7k62UHB;
+        "Put2LOAb" = _Put2LOAb;
+        "VdrDTtEE" = _VdrDTtEE;
         "fabric-1.21.4" = _oxEiWHcr;
         "fabric-1.21.5" = _fQD3OkQb;
-        "fabric-1.21.11" = _3QSbNDfb;
-        "fabric-26.1" = _7BLLGx9Q;
-        "fabric-26.1.1" = _7BLLGx9Q;
-        "fabric-26.1.2" = _7BLLGx9Q;
+        "fabric-1.21.11" = _Put2LOAb;
+        "fabric-26.1" = _VdrDTtEE;
+        "fabric-26.1.1" = _VdrDTtEE;
+        "fabric-26.1.2" = _VdrDTtEE;
         "pkg-0.0.14+1.21.4" = _YqsdpVQI;
         "pkg-0.0.15+1.21.4" = _U78LUUdr;
         "pkg-0.0.16+1.21.4" = _PqAXGGS8;
@@ -442,7 +502,17 @@ let
         "pkg-0.3.4+26.1" = _PQDPrKVa;
         "pkg-0.3.5+1.21.11" = _3QSbNDfb;
         "pkg-0.3.5+26.1" = _7BLLGx9Q;
-        "default" = _7BLLGx9Q;
+        "pkg-0.3.6+1.21.11" = _jDsJediw;
+        "pkg-0.3.6+26.1" = _hdzTFPPS;
+        "pkg-0.3.7+1.21.11" = _dfkUblpq;
+        "pkg-0.3.7+26.1" = _W3Vt4JrR;
+        "pkg-0.3.8+1.21.11" = _dr7RDMoH;
+        "pkg-0.3.8+26.1" = _6RilN3gG;
+        "pkg-0.3.9+1.21.11" = _gKAIwcQT;
+        "pkg-0.3.9+26.1" = _U7k62UHB;
+        "pkg-0.3.10+1.21.11" = _Put2LOAb;
+        "pkg-0.3.10+26.1" = _VdrDTtEE;
+        "default" = _VdrDTtEE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fishonmc-extras-r";

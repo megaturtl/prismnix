@@ -10356,6 +10356,21 @@ let
             "file" = "BiomesOPlenty-neoforge-26.2-26.2.0.0.26.jar";
             "hash" = "sha512-O4XS+5BbeMcE/ZEl6nPBdZjeDLQbUSLbbF1m1jRBlVnY7nALkT60ubJZ3pJAbsLReaFEz+W9quze/iTPsM3Xyg==";
         };
+        _E7z1CyMo = {
+            "id" = "E7z1CyMo";
+            "file" = "BiomesOPlenty-forge-26.2-26.2.0.0.27.jar";
+            "hash" = "sha512-AcwQIwb2wa8k3HZBaPIyFN6IlSWpxBXFjyjRXsOYtvE/JYu3o+J3Ks8NY9jbLnoy/IqSwUsFnuvROyP4RjgoAA==";
+        };
+        _63XfOtkQ = {
+            "id" = "63XfOtkQ";
+            "file" = "BiomesOPlenty-neoforge-26.2-26.2.0.0.27.jar";
+            "hash" = "sha512-lptGQF+o/f2T9SGlj2Ub1LPjTjfNT4eL6U3lezkgfU0lW76W9QegaFiTPTAS7IjYx/DqrJvenWdMF5BCb/kB8Q==";
+        };
+        _U6G52pa1 = {
+            "id" = "U6G52pa1";
+            "file" = "BiomesOPlenty-fabric-26.2-26.2.0.0.27.jar";
+            "hash" = "sha512-fhqkdDzhNSix/96A+zxf6o6MDUYGrOx97oLWjhqnSlwWJqyr2OfEqf4mJE/lLQc0CeeX2PjZRPYqkV/JnwWY5Q==";
+        };
     in {
         "qQSedQAe" = _qQSedQAe;
         "MHt23aM2" = _MHt23aM2;
@@ -12428,6 +12443,9 @@ let
         "DSuBUe1F" = _DSuBUe1F;
         "bJDp2YnJ" = _bJDp2YnJ;
         "kYz8T08F" = _kYz8T08F;
+        "E7z1CyMo" = _E7z1CyMo;
+        "63XfOtkQ" = _63XfOtkQ;
+        "U6G52pa1" = _U6G52pa1;
         "forge-1.8" = _Cjq4ELMv;
         "forge-1.7.10" = _YoWpRk0h;
         "forge-1.8.8" = _SCfPOXUR;
@@ -12475,7 +12493,7 @@ let
         "forge-1.21.10" = _mb90fd5E;
         "forge-1.21.11" = _a3i8bZGT;
         "forge-26.1.2" = _QbPWS83T;
-        "forge-26.2" = _DSuBUe1F;
+        "forge-26.2" = _E7z1CyMo;
         "neoforge-1.20.4" = _IsClCU50;
         "neoforge-1.20.6" = _sAWtkTFs;
         "neoforge-1.21" = _r2WRwsce;
@@ -12490,7 +12508,7 @@ let
         "neoforge-1.21.10" = _GA1U3T4h;
         "neoforge-1.21.11" = _cCnnnC72;
         "neoforge-26.1.2" = _mqkuMsI9;
-        "neoforge-26.2" = _kYz8T08F;
+        "neoforge-26.2" = _63XfOtkQ;
         "fabric-1.20.4" = _TCPjNaJ0;
         "fabric-1.20.6" = _J8FfkwPL;
         "fabric-1.21" = _qAKuAKD7;
@@ -12506,7 +12524,7 @@ let
         "fabric-1.21.10" = _pzUNs4s7;
         "fabric-1.21.11" = _JJKbM72H;
         "fabric-26.1.2" = _8MVwdPgG;
-        "fabric-26.2" = _bJDp2YnJ;
+        "fabric-26.2" = _U6G52pa1;
         "pkg-3.0.0.1085" = _qQSedQAe;
         "pkg-3.0.0.1086" = _MHt23aM2;
         "pkg-3.0.0.1092" = _jZ9cNlNL;
@@ -14097,7 +14115,8 @@ let
         "pkg-26.2.0.0.24" = _wIKiBlF2;
         "pkg-26.2.0.0.25" = _b6BGdQfL;
         "pkg-26.2.0.0.26" = _kYz8T08F;
-        "default" = _kYz8T08F;
+        "pkg-26.2.0.0.27" = _U6G52pa1;
+        "default" = _U6G52pa1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "biomes-o-plenty";

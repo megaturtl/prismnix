@@ -46,6 +46,11 @@ let
             "file" = "slayerxpoverlay-1.2.3.jar";
             "hash" = "sha512-vGdOBZXNTknpKVkTFJaJFo2CeYftbRJDz9qASPgg7b0yP6T/11Ye7O8YGPnYholvwZf/YWs0hZoo3/ZJI39vWg==";
         };
+        _RApTI142 = {
+            "id" = "RApTI142";
+            "file" = "slayerxpoverlay-1.2.5-dev.jar";
+            "hash" = "sha512-ZipN67CyOicE0LTpGVrjyyUnlMFquDXjSJzxC32I1KVU3F7Aue3vwgSFGt2ViYYc8B3J2y87ajKvzbhyg1Ai6Q==";
+        };
     in {
         "pplmmPDr" = _pplmmPDr;
         "P2B5gQ8c" = _P2B5gQ8c;
@@ -56,15 +61,18 @@ let
         "xATUPq0z" = _xATUPq0z;
         "tiRp1mnA" = _tiRp1mnA;
         "UBXVLbS9" = _UBXVLbS9;
+        "RApTI142" = _RApTI142;
         "fabric-1.21.10" = _5HFMEq09;
         "fabric-1.21.11" = _UBXVLbS9;
+        "fabric-26.1.2" = _RApTI142;
         "pkg-1.0.0" = _pplmmPDr;
         "pkg-1.0.1" = _1ZeXoIFI;
         "pkg-1.2.0" = _EiXuaj74;
         "pkg-1.2.1" = _xATUPq0z;
         "pkg-1.2.2" = _tiRp1mnA;
         "pkg-1.2.3" = _UBXVLbS9;
-        "default" = _UBXVLbS9;
+        "pkg-1.2.5" = _RApTI142;
+        "default" = _RApTI142;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sxp";

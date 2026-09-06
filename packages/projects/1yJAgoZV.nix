@@ -126,6 +126,11 @@ let
             "file" = "headbrowser-2.6.4+26.1.x.jar";
             "hash" = "sha512-krecXk/f3K6RgNdHK1MhD/4XDHjj0A3WHTyZ5OCTpnNsaQ3l95d8aNHIWSUeYzdzFZaVAy77gnKd8GJCqZii3A==";
         };
+        _L6qTz3rU = {
+            "id" = "L6qTz3rU";
+            "file" = "headbrowser-2.6.4+26.2.jar";
+            "hash" = "sha512-2u1OLENNEsntcomH2C8QpK4KDnp4WKVyatq3Q4J4AaCexEqGi4KZ6DCQR7EO5dxUj1WU7vLh1M+/vQ+SpavUTw==";
+        };
     in {
         "1pOx65cS" = _1pOx65cS;
         "AvAKHZzE" = _AvAKHZzE;
@@ -152,6 +157,7 @@ let
         "tYYfFJO2" = _tYYfFJO2;
         "nLstVOuA" = _nLstVOuA;
         "eNkN2QOZ" = _eNkN2QOZ;
+        "L6qTz3rU" = _L6qTz3rU;
         "fabric-1.21" = _FqxuGwqE;
         "fabric-1.21.1" = _Oxsuc67X;
         "fabric-1.21.3" = _l8svrmXu;
@@ -164,6 +170,7 @@ let
         "fabric-26.1" = _eNkN2QOZ;
         "fabric-26.1.1" = _eNkN2QOZ;
         "fabric-26.1.2" = _eNkN2QOZ;
+        "fabric-26.2" = _L6qTz3rU;
         "pkg-1.0-Beta.1+1.21" = _1pOx65cS;
         "pkg-1.0-Beta.1+1.21.1" = _AvAKHZzE;
         "pkg-1.0-Beta.1+1.21.3" = _qPViq5yw;
@@ -189,7 +196,8 @@ let
         "pkg-2.6.2+26.1" = _tYYfFJO2;
         "pkg-2.6.3+26.1" = _nLstVOuA;
         "pkg-2.6.4+26.1.x" = _eNkN2QOZ;
-        "default" = _eNkN2QOZ;
+        "pkg-2.6.4+26.2" = _L6qTz3rU;
+        "default" = _L6qTz3rU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "headbrowser";

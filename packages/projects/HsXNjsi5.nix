@@ -136,6 +136,41 @@ let
             "file" = "Modular Forcefields-1.19.2-0.4.2.jar";
             "hash" = "sha512-Mtn4oUCeI7c0aud4Ig000aZS3z3tSX+1d52n+76rUCtJRaoTn6wABPfw8AMTeFp2C/xEczlj9yG3+rxqYTEmSQ==";
         };
+        _uHcYmR1a = {
+            "id" = "uHcYmR1a";
+            "file" = "modularforcefields-1.21.1-0.5.0.jar";
+            "hash" = "sha512-YPUb71kFCYlPlgZgHYx5kQJZLpg4NOT0ytigcgbdHLAWlNcQ0XQumGqi/IootckqEcKxnhpLRWZdHmnNWdkpqA==";
+        };
+        _ITl0y5vw = {
+            "id" = "ITl0y5vw";
+            "file" = "Modular Forcefields-1.20.1-0.5.0.jar";
+            "hash" = "sha512-PER+ukl3vyeuaOrkgnBHT84HXXWV4eYf+GOgyD0TztB9199iIJ90BVF12LCDGmnqCnNKHmbi4inCsps9hPbOhg==";
+        };
+        _DgvojsRT = {
+            "id" = "DgvojsRT";
+            "file" = "Modular Forcefields-1.19.2-0.5.0.jar";
+            "hash" = "sha512-zCuSXExAPT6A7Kvi056gUn6OnGGd8HGT1PG1FHZxbknFVhZBjnZbm1476k9oByVROmv2k/Poxj4mp3MQz7+zGg==";
+        };
+        _5kcuvuRi = {
+            "id" = "5kcuvuRi";
+            "file" = "modularforcefields-1.21.1-0.5.1.jar";
+            "hash" = "sha512-l6jE+Cc71aWVl3EuFRq5pwZqSkActkJJp2XgS+JuI1qkpJy9sePXbn1ZYLyHvkguOtTckPE8TpXUyLtFDN03KA==";
+        };
+        _mIC7kk6K = {
+            "id" = "mIC7kk6K";
+            "file" = "modularforcefields-1.21.1-0.5.2.jar";
+            "hash" = "sha512-7tHPF0R3J5XwKg5NlNVYp9q4J9zhMEbv0YhmnHCLXWEh3WF1PQYj81xhRwfejH494wPdTX2YXbIIl0NVbgdL/w==";
+        };
+        _7iJiTzVR = {
+            "id" = "7iJiTzVR";
+            "file" = "Modular Forcefields-1.20.1-0.5.2.jar";
+            "hash" = "sha512-3oX5XD5kPKuZJthjDPaezxqXQ3CuPX7yenu1wC7YdD+HfiH//pBXvWBl9eFTBYoT4uoerOx3wACCmV9b7HUCqQ==";
+        };
+        _bz85UHEl = {
+            "id" = "bz85UHEl";
+            "file" = "Modular Forcefields-1.19.2-0.5.2.jar";
+            "hash" = "sha512-QUwmaOA/Vsn6y0xNDhJ45JHn7JBcvfHBQWq7ou0Ch4fxDpZZMVlc3KJKD/AWazhJXJyYSxuXryxsyN4D0q8W0A==";
+        };
     in {
         "B5e85MbN" = _B5e85MbN;
         "wxxGUJhb" = _wxxGUJhb;
@@ -164,11 +199,18 @@ let
         "Pej4lFc0" = _Pej4lFc0;
         "Q2iPlvPR" = _Q2iPlvPR;
         "htraDiYd" = _htraDiYd;
-        "forge-1.19.2" = _htraDiYd;
+        "uHcYmR1a" = _uHcYmR1a;
+        "ITl0y5vw" = _ITl0y5vw;
+        "DgvojsRT" = _DgvojsRT;
+        "5kcuvuRi" = _5kcuvuRi;
+        "mIC7kk6K" = _mIC7kk6K;
+        "7iJiTzVR" = _7iJiTzVR;
+        "bz85UHEl" = _bz85UHEl;
+        "forge-1.19.2" = _bz85UHEl;
         "forge-1.18.2" = _7dvmfaHe;
-        "forge-1.20.1" = _Q2iPlvPR;
-        "neoforge-1.20.1" = _Q2iPlvPR;
-        "neoforge-1.21.1" = _Pej4lFc0;
+        "forge-1.20.1" = _7iJiTzVR;
+        "neoforge-1.20.1" = _7iJiTzVR;
+        "neoforge-1.21.1" = _mIC7kk6K;
         "pkg-1.19.2-0.1.2-1" = _B5e85MbN;
         "pkg-1.18.2-0.0.1-3" = _wxxGUJhb;
         "pkg-1.20.1-0.2.0-0" = _6u6T1rUJ;
@@ -196,7 +238,14 @@ let
         "pkg-1.21.1-0.4.2" = _Pej4lFc0;
         "pkg-1.20.1-0.4.2" = _Q2iPlvPR;
         "pkg-1.19.2-0.4.2" = _htraDiYd;
-        "default" = _htraDiYd;
+        "pkg-1.21.1-0.5.0" = _uHcYmR1a;
+        "pkg-1.20.1-0.5.0" = _ITl0y5vw;
+        "pkg-1.19.2-0.5.0" = _DgvojsRT;
+        "pkg-1.21.1-0.5.1" = _5kcuvuRi;
+        "pkg-1.21.1-0.5.2" = _mIC7kk6K;
+        "pkg-1.20.1-0.5.2" = _7iJiTzVR;
+        "pkg-1.19.2-0.5.2" = _bz85UHEl;
+        "default" = _bz85UHEl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modular-force-field-systems";

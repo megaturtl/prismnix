@@ -31,6 +31,11 @@ let
             "file" = "ChatEmojis-26.1.jar";
             "hash" = "sha512-7/TfibDOj1mapTbf9vWXIFOVBuvBQyK8XRUuLjazsVcsjB8JhagGpZ2Uq53qVtJEedqSpN/Mmj+m3OPUnd+CRg==";
         };
+        _sS1A0DSB = {
+            "id" = "sS1A0DSB";
+            "file" = "ChatEmojis-26.2.jar";
+            "hash" = "sha512-9O479wTbSSjUnv9AvjwhSXOsa3M8rs3qrm9vD+yKdS60PYMydCfUrdyKX3tNjipftdS8tHjHUuPctuL2BwF9AQ==";
+        };
     in {
         "yBNF4084" = _yBNF4084;
         "hwmvp7cT" = _hwmvp7cT;
@@ -38,6 +43,7 @@ let
         "G9ZMkhAf" = _G9ZMkhAf;
         "D7ZWBxsn" = _D7ZWBxsn;
         "Qjsk4uQu" = _Qjsk4uQu;
+        "sS1A0DSB" = _sS1A0DSB;
         "fabric-1.21.1" = _yBNF4084;
         "fabric-1.21.2" = _yBNF4084;
         "fabric-1.21.3" = _hwmvp7cT;
@@ -46,10 +52,11 @@ let
         "fabric-1.21.11" = _G9ZMkhAf;
         "fabric-26.1" = _Qjsk4uQu;
         "fabric-26.1.1" = _Qjsk4uQu;
+        "fabric-26.2" = _sS1A0DSB;
         "pkg-1.0.2" = _G9ZMkhAf;
         "pkg-1.0.3" = _D7ZWBxsn;
-        "pkg-1.0.4" = _Qjsk4uQu;
-        "default" = _Qjsk4uQu;
+        "pkg-1.0.4" = _sS1A0DSB;
+        "default" = _sS1A0DSB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chatemojisbythesuperweasel";

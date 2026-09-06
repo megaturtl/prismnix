@@ -56,6 +56,11 @@ let
             "file" = "animatedinventory-1.3.1+neoforge.jar";
             "hash" = "sha512-OjPCde5M8CGzVFnU5eiLTlIN2BvhA/ZtVpIKddM2wTq7WG1GQcw18N2jAlNqwQt9ldKoR7YQKiUQWv+gCTh4Og==";
         };
+        _oHFsAp3u = {
+            "id" = "oHFsAp3u";
+            "file" = "animated-inventory-1.4.0.jar";
+            "hash" = "sha512-/+66tZkDgfXhZtJRNMNKyM3MMaCYZUriKf2tDB/QlGZzwXfXG6vqFJQGRkZdDokfrWfVlyEzA4SsO6DTOKqdGw==";
+        };
     in {
         "JyqBBsIS" = _JyqBBsIS;
         "fBjNfE4R" = _fBjNfE4R;
@@ -68,6 +73,7 @@ let
         "uKvwAgGV" = _uKvwAgGV;
         "UsTLwGVz" = _UsTLwGVz;
         "ZZh9Fbkv" = _ZZh9Fbkv;
+        "oHFsAp3u" = _oHFsAp3u;
         "fabric-1.21" = _uKvwAgGV;
         "fabric-1.21.1" = _uKvwAgGV;
         "fabric-1.21.2" = _6wUHIt2I;
@@ -87,6 +93,10 @@ let
         "fabric-1.20.5" = _uKvwAgGV;
         "fabric-1.20.6" = _uKvwAgGV;
         "fabric-1.21.11" = _UsTLwGVz;
+        "fabric-26.1" = _oHFsAp3u;
+        "fabric-26.1.1" = _oHFsAp3u;
+        "fabric-26.1.2" = _oHFsAp3u;
+        "fabric-26.2" = _oHFsAp3u;
         "neoforge-1.20.4" = _ZZh9Fbkv;
         "pkg-1.0.0-mc1.21" = _JyqBBsIS;
         "pkg-1.0.0" = _fBjNfE4R;
@@ -99,7 +109,8 @@ let
         "pkg-1.3.0+1.20.2" = _uKvwAgGV;
         "pkg-1.3.1" = _UsTLwGVz;
         "pkg-1.3.1+neoforge" = _ZZh9Fbkv;
-        "default" = _ZZh9Fbkv;
+        "pkg-1.4.0" = _oHFsAp3u;
+        "default" = _oHFsAp3u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animated-inventory";

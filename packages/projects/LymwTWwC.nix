@@ -160,6 +160,13 @@ let
         "fabric-26.3-snapshot-3" = _zkW4NMKY;
         "fabric-26.3-snapshot-4" = _zkW4NMKY;
         "fabric-26.3-snapshot-5" = _zkW4NMKY;
+        "fabric-26.3-snapshot-6" = _zkW4NMKY;
+        "fabric-26.3-snapshot-7" = _zkW4NMKY;
+        "fabric-26.3-snapshot-8" = _zkW4NMKY;
+        "fabric-26.3-snapshot-9" = _zkW4NMKY;
+        "fabric-26.3-snapshot-10" = _zkW4NMKY;
+        "fabric-26.3-pre-1" = _zkW4NMKY;
+        "fabric-26.3-pre-2" = _zkW4NMKY;
         "neoforge-1.21" = _J5Qdgivz;
         "neoforge-1.21.1" = _J5Qdgivz;
         "neoforge-1.21.2" = _J5Qdgivz;
@@ -181,6 +188,13 @@ let
         "neoforge-26.3-snapshot-3" = _4VWSqqRT;
         "neoforge-26.3-snapshot-4" = _4VWSqqRT;
         "neoforge-26.3-snapshot-5" = _4VWSqqRT;
+        "neoforge-26.3-snapshot-6" = _4VWSqqRT;
+        "neoforge-26.3-snapshot-7" = _4VWSqqRT;
+        "neoforge-26.3-snapshot-8" = _4VWSqqRT;
+        "neoforge-26.3-snapshot-9" = _4VWSqqRT;
+        "neoforge-26.3-snapshot-10" = _4VWSqqRT;
+        "neoforge-26.3-pre-1" = _4VWSqqRT;
+        "neoforge-26.3-pre-2" = _4VWSqqRT;
         "pkg-1.0.0" = _EIR4YI4a;
         "pkg-1.0.1" = _6OOGxPb3;
         "pkg-1.2+1.18.2" = _1N5YqwEN;

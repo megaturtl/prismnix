@@ -76,6 +76,11 @@ let
             "file" = "easaddon-0.17.1.jar";
             "hash" = "sha512-gGzHRkKPuwhqqWAMwdOenKr8bxSQgowEy+/z/oxhFXiwz8+RcWovPXFfTlp9khc+3Lahq5EFTntuhJ3wjWoOYw==";
         };
+        _freS6Qmc = {
+            "id" = "freS6Qmc";
+            "file" = "easaddon-0.17.3.jar";
+            "hash" = "sha512-Uw6blzf5Zu/L38UzUvRgIU8aJVLWTf+WIaLTLzlk1ggEaHb3QR7AiHUimG9SDnRLuav6+yXlrxNZa+RU8TGO/Q==";
+        };
     in {
         "WtK408XP" = _WtK408XP;
         "zsh8zMbD" = _zsh8zMbD;
@@ -92,7 +97,8 @@ let
         "UVhu6IyS" = _UVhu6IyS;
         "4jvZFwLE" = _4jvZFwLE;
         "S4fOnBhz" = _S4fOnBhz;
-        "neoforge-1.21.1" = _S4fOnBhz;
+        "freS6Qmc" = _freS6Qmc;
+        "neoforge-1.21.1" = _freS6Qmc;
         "forge-1.20.1" = _UVhu6IyS;
         "pkg-0.13.7" = _WtK408XP;
         "pkg-0.13.10" = _zsh8zMbD;
@@ -109,7 +115,8 @@ let
         "pkg-0.16.4-1.20.1" = _UVhu6IyS;
         "pkg-0.16.4-2" = _4jvZFwLE;
         "pkg-0.17.1" = _S4fOnBhz;
-        "default" = _S4fOnBhz;
+        "pkg-0.17.3" = _freS6Qmc;
+        "default" = _freS6Qmc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eas-addon";

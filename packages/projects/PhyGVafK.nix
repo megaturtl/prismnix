@@ -41,6 +41,11 @@ let
             "file" = "MagicSpells-4.0-Beta-18.jar";
             "hash" = "sha512-vWRBljNJSs5FXLVOfGP6sO6DCiMveD9sFFfBMoS3MFnWpaPyg2Q19NHPQSWaUfIniZ2t8SOKhp7Y/U+E/mSHMw==";
         };
+        _6X6kl4cB = {
+            "id" = "6X6kl4cB";
+            "file" = "MagicSpells-4.0-Beta-19.jar";
+            "hash" = "sha512-V6bWAsjgxYKszH4141ozMuqqdARoyJ8joR2ysB4TiBCN+H7iLytrjVwWx0BmXSXo9i3RNtxmtuiHLlTxzPEspw==";
+        };
     in {
         "RF3CmnQt" = _RF3CmnQt;
         "z7O56QyU" = _z7O56QyU;
@@ -50,6 +55,7 @@ let
         "MXt2iiRt" = _MXt2iiRt;
         "JCEG42U7" = _JCEG42U7;
         "kqrpspe3" = _kqrpspe3;
+        "6X6kl4cB" = _6X6kl4cB;
         "paper-1.19" = _RF3CmnQt;
         "paper-1.19.1" = _RF3CmnQt;
         "paper-1.19.2" = _RF3CmnQt;
@@ -69,6 +75,8 @@ let
         "paper-1.21.8" = _JCEG42U7;
         "paper-1.21.10" = _kqrpspe3;
         "paper-1.21.11" = _kqrpspe3;
+        "paper-26.1.2" = _6X6kl4cB;
+        "paper-26.2" = _6X6kl4cB;
         "pkg-4.0-Beta-12" = _RF3CmnQt;
         "pkg-4.0-Beta-13" = _z7O56QyU;
         "pkg-4.0-Beta-13-patch-1" = _XMFcE6lG;
@@ -77,7 +85,8 @@ let
         "pkg-4.0-Beta-16" = _MXt2iiRt;
         "pkg-4.0-Beta-17" = _JCEG42U7;
         "pkg-4.0-Beta-18" = _kqrpspe3;
-        "default" = _kqrpspe3;
+        "pkg-4.0-Beta-19" = _6X6kl4cB;
+        "default" = _6X6kl4cB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "magicspells";

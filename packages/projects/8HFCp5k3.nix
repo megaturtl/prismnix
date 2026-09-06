@@ -81,6 +81,16 @@ let
             "file" = "battlemusic-1.20.1-1.2.1.jar";
             "hash" = "sha512-uQm1oX34j1Ru+S2gtMOdab/mZPrRCNJE5aO5DAoYnoXzkPIr5dSbUC2rC4pL/dmbKha5HJBrNM9V3TmAaYJ/Cw==";
         };
+        _6pnnzMQO = {
+            "id" = "6pnnzMQO";
+            "file" = "battlemusic-1.2.2.jar";
+            "hash" = "sha512-HE30YuOzxbN6L5FRk1/z1DYcntVfz5imMHLxV6/N1YYf2TKxcrrFnP1aNpDzyV2s4sAdNFlvbo5jWvjKKruMkQ==";
+        };
+        _44J2cfAm = {
+            "id" = "44J2cfAm";
+            "file" = "battlemusic-1.20.1-1.2.2.jar";
+            "hash" = "sha512-BxQXmBpG7JdaOtKRfV0La/K1KNJ/GJZRNhbpA390vJbYHgfk9Tmj74D3cA+vBGya4bfXmVoOY0Eq3tIe4c3mQQ==";
+        };
     in {
         "QtzE3Mqo" = _QtzE3Mqo;
         "xKktqFhg" = _xKktqFhg;
@@ -98,8 +108,10 @@ let
         "54jLMoeO" = _54jLMoeO;
         "6aAmKGqr" = _6aAmKGqr;
         "ElPor64Y" = _ElPor64Y;
-        "forge-1.20" = _ElPor64Y;
-        "forge-1.20.1" = _ElPor64Y;
+        "6pnnzMQO" = _6pnnzMQO;
+        "44J2cfAm" = _44J2cfAm;
+        "forge-1.20" = _44J2cfAm;
+        "forge-1.20.1" = _44J2cfAm;
         "forge-1.20.2" = _yD56jMYa;
         "forge-1.20.3" = _yD56jMYa;
         "forge-1.20.4" = _yD56jMYa;
@@ -109,11 +121,11 @@ let
         "forge-1.16.5" = _oMFPEOjk;
         "forge-1.20.5" = _XwXJXW6M;
         "forge-1.20.6" = _XwXJXW6M;
-        "forge-1.19.3" = _ElPor64Y;
-        "forge-1.19.4" = _ElPor64Y;
+        "forge-1.19.3" = _44J2cfAm;
+        "forge-1.19.4" = _44J2cfAm;
         "forge-1.21" = _62n8xDIY;
         "neoforge-1.20.1" = _yjx5bpdm;
-        "neoforge-1.21.1" = _6aAmKGqr;
+        "neoforge-1.21.1" = _6pnnzMQO;
         "pkg-1.0" = _XwXJXW6M;
         "pkg-1.0.1" = _HtqMMb8i;
         "pkg-1.0.2" = _yD56jMYa;
@@ -126,7 +138,9 @@ let
         "pkg-1.2.0" = _54jLMoeO;
         "pkg-1.2.1" = _6aAmKGqr;
         "pkg-1.20.1-1.2.1" = _ElPor64Y;
-        "default" = _ElPor64Y;
+        "pkg-1.2.2" = _6pnnzMQO;
+        "pkg-1.20.1-1.2.2" = _44J2cfAm;
+        "default" = _44J2cfAm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "battlemusic";

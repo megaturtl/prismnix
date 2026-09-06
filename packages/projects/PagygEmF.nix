@@ -46,6 +46,11 @@ let
             "file" = "sabs_structures_reworked-0.9.6.1.jar";
             "hash" = "sha512-QnBmi4XT3B5Oyb2msVF9WFrVmBzWu3AIUcq9DYbm1m7hyiBOZ2fH7g3xGMFXi1EkRU9N7UI8CTKanh7DEvq/0g==";
         };
+        _9FRXhSFF = {
+            "id" = "9FRXhSFF";
+            "file" = "sabs_structures_reworked-0.9.6.2.jar";
+            "hash" = "sha512-655Vz2illWbWyA6qRuwKeIXox58w72pIziUSZSTWCol/Hpd7MnkhHx0rRwP/jDvW1IpRiuVQyOf4/Uedfm908g==";
+        };
     in {
         "aLmN73WV" = _aLmN73WV;
         "sIe5d0Np" = _sIe5d0Np;
@@ -56,7 +61,8 @@ let
         "aClXmAVD" = _aClXmAVD;
         "4bjEgaQ7" = _4bjEgaQ7;
         "cBw4XZ7v" = _cBw4XZ7v;
-        "forge-1.20.1" = _cBw4XZ7v;
+        "9FRXhSFF" = _9FRXhSFF;
+        "forge-1.20.1" = _9FRXhSFF;
         "pkg-0.5.0" = _aLmN73WV;
         "pkg-0.6.0" = _sIe5d0Np;
         "pkg-0.6.3" = _VcfHdDvo;
@@ -66,7 +72,8 @@ let
         "pkg-0.9.0" = _aClXmAVD;
         "pkg-0.9.6" = _4bjEgaQ7;
         "pkg-0.9.6.1" = _cBw4XZ7v;
-        "default" = _cBw4XZ7v;
+        "pkg-0.9.6.2" = _9FRXhSFF;
+        "default" = _9FRXhSFF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sabstructures";

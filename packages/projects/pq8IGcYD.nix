@@ -221,6 +221,51 @@ let
             "file" = "ibarnoriginsaddon-fabric-1.21.1-1.6.8.jar";
             "hash" = "sha512-jHYM5uF+8j3uP/PiZhUrg19HqBrnDHNZIy7CkpxINDXgPkxhODPk2VSCw9Pr+MZWYKljltBctr2BrRz3iNdipw==";
         };
+        _Xjhk9mPf = {
+            "id" = "Xjhk9mPf";
+            "file" = "ibarnorigins-fabric-1.21.1-1.6.9.jar";
+            "hash" = "sha512-ipAzFUqzKVQhkErs5ti6YSi3qJiULG0hBTfqCPxieyJ/EUEuS5rYz/sMLlq6+hA+YFOaRxxRR9apPtn8mcyWlA==";
+        };
+        _u58DNODw = {
+            "id" = "u58DNODw";
+            "file" = "ibarnorigins-neoforge-1.21.1-1.6.9.jar";
+            "hash" = "sha512-XfUzAuGYyWK8d/tekL2hblfrh8qaKqcNncLmF97erhc4eJaxm9h/sc01z5WXKjm7p6v3pA8Haefkf4oGMvDH8A==";
+        };
+        _zmwYgHXa = {
+            "id" = "zmwYgHXa";
+            "file" = "ibarnoriginsaddon-1.6.9-fabric-26.2.jar";
+            "hash" = "sha512-yyFOzY+hrfQYn8EZlUcthuXpnH+Pw0RK1P5y7UMRfAgXJNYCST+UGt2phsxacbfNWgzie56jLMpil4De1fEOyA==";
+        };
+        _rd5PYpig = {
+            "id" = "rd5PYpig";
+            "file" = "ibarnorigins-fabric-1.21.1-1.7.0.jar";
+            "hash" = "sha512-rXORJhyzGBqy/+v9D0GvMO7yow85pwtQlPJgSwN2j0P3Js/cZSUuF9bdskNxANggyADUJE7K727TwYW1a0KgdA==";
+        };
+        _J7MtiNz4 = {
+            "id" = "J7MtiNz4";
+            "file" = "ibarnorigins-neoforge-1.21.1-1.7.0.jar";
+            "hash" = "sha512-OyLf2XpYa9tXvxbOSxJRQvJpHuy3ch7bDa2bxXNzqq9Z5xLv/Ki0LL9LwPUDj0IJC5lCOBTLjEM6DaTFf2MIKQ==";
+        };
+        _3ud7o0FA = {
+            "id" = "3ud7o0FA";
+            "file" = "ibarnoriginsaddon-1.7.0-fabric-26.2.jar";
+            "hash" = "sha512-1osGzlmMlC0RdhtTwoiGpDBF3D+vYpPosqzTtzpAaNiJUT2D4KdOKatYWf07fpy4MhEXyQiUc4To8VVnB+O60Q==";
+        };
+        _IUxMQCVP = {
+            "id" = "IUxMQCVP";
+            "file" = "ibarnorigins-neoforge-1.21.1-1.7.1.jar";
+            "hash" = "sha512-petbh9fjZceveWVcsuk5raiEhWU8r/x44nCnTlnaSFYHFchKJOJ+KOnQNKgWwmG+CgW4T8GDmrGxMh6/NJJo/Q==";
+        };
+        _G97kUEwZ = {
+            "id" = "G97kUEwZ";
+            "file" = "ibarnoriginsaddon-1.7.1-fabric-26.2.jar";
+            "hash" = "sha512-I2Fy8dRqxerUfUOcqNVvSXGNCiMOIdTQ0ocKTbytYk7VUQ8c0Bu9z8vAHYMQcn7LJu+8AedudjaFpuOjkuJMKA==";
+        };
+        _IzzbFKJ9 = {
+            "id" = "IzzbFKJ9";
+            "file" = "ibarnorigins-fabric-1.21.1-1.7.1.jar";
+            "hash" = "sha512-rRtUAlu2KUu6afXKSE8RibYionitP9hEKRYBJD++kDFMYcttadrv3xZFERk+4I/4lRZAPZ2h2MdQXgkL1w575g==";
+        };
     in {
         "uGA7NzmU" = _uGA7NzmU;
         "E5BQbOzB" = _E5BQbOzB;
@@ -266,6 +311,15 @@ let
         "aTQb0sq9" = _aTQb0sq9;
         "uUCYMFyr" = _uUCYMFyr;
         "2ziHgqop" = _2ziHgqop;
+        "Xjhk9mPf" = _Xjhk9mPf;
+        "u58DNODw" = _u58DNODw;
+        "zmwYgHXa" = _zmwYgHXa;
+        "rd5PYpig" = _rd5PYpig;
+        "J7MtiNz4" = _J7MtiNz4;
+        "3ud7o0FA" = _3ud7o0FA;
+        "IUxMQCVP" = _IUxMQCVP;
+        "G97kUEwZ" = _G97kUEwZ;
+        "IzzbFKJ9" = _IzzbFKJ9;
         "fabric-1.19.4" = _uGA7NzmU;
         "fabric-1.20" = _8r3B78lO;
         "fabric-1.20.1" = _cUrVeP6X;
@@ -273,10 +327,10 @@ let
         "fabric-26.1" = _OlqwzfRT;
         "fabric-26.1.1" = _OlqwzfRT;
         "fabric-26.1.2" = _OlqwzfRT;
-        "fabric-26.2" = _aTQb0sq9;
-        "fabric-1.21.1" = _2ziHgqop;
+        "fabric-26.2" = _G97kUEwZ;
+        "fabric-1.21.1" = _IzzbFKJ9;
         "forge-1.20.1" = _dILwJfcj;
-        "neoforge-1.21.1" = _uUCYMFyr;
+        "neoforge-1.21.1" = _IUxMQCVP;
         "pkg-1.3.0" = _E5BQbOzB;
         "pkg-1.4.0" = _cshLOxaW;
         "pkg-1.4.1" = _MgRMrzQE;
@@ -307,7 +361,13 @@ let
         "pkg-1.6.7-26.2" = _aTQb0sq9;
         "pkg-1.6.7-1.21.1" = _uUCYMFyr;
         "pkg-1.6.8-1.21.1" = _2ziHgqop;
-        "default" = _2ziHgqop;
+        "pkg-1.6.9-1.21.1" = _u58DNODw;
+        "pkg-1.6.9-26.2" = _zmwYgHXa;
+        "pkg-1.7.0-1.21.1" = _J7MtiNz4;
+        "pkg-1.7.0-26.2" = _3ud7o0FA;
+        "pkg-1.7.1-1.21.1" = _IzzbFKJ9;
+        "pkg-1.7.1-26.2" = _G97kUEwZ;
+        "default" = _IzzbFKJ9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ibarns-quartet-origins-addon";

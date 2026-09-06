@@ -126,6 +126,31 @@ let
             "file" = "fablemod-5.2.0-mc26.2.jar";
             "hash" = "sha512-AMq7b97P4A/CAG9oT6UykWTutXvMWbvjaYstaQ+8y4XHRatdgJdcugpc/yh/XFMJ0KnsbRKIaaqJM9JI2CuaBg==";
         };
+        _hqGxFmQX = {
+            "id" = "hqGxFmQX";
+            "file" = "fablemod-5.1.3-mc26.1.jar";
+            "hash" = "sha512-Xg5kB6Q4ldXgeDclQTsRQsY/WCLbCL35x0mKz0RTO92lIbeJTlyBzK5UraNaOC0EBkR3sqi/WXSmcbp/vDKPTQ==";
+        };
+        _KN1hszj7 = {
+            "id" = "KN1hszj7";
+            "file" = "fablemod-5.2.1-mc26.2.jar";
+            "hash" = "sha512-b65/91Rr1aeBEWQj/rauPjw5msqiKEsZAXsBp4oCsQp4MPzPxPh1CmQwkLtm5gdPmGFpVaCHRHMe5aoLzE/3bw==";
+        };
+        _AN0SK2Es = {
+            "id" = "AN0SK2Es";
+            "file" = "fablemod-5.1.1-mc1.21.11.jar";
+            "hash" = "sha512-pnNfiC3107KFTS7i3ch1AN8L5YmjPEWJ+788ktjlIOeY56quSQfIyNL2csnVzJ8EHoc9OkHQxaBRstiu+D2z6A==";
+        };
+        _9p3bBOiP = {
+            "id" = "9p3bBOiP";
+            "file" = "fablemod-5.1.4-mc26.1.jar";
+            "hash" = "sha512-mxqCx9vifR1JiHPvz6bdWdmbpVjj7sayrfhpFh06qPL/YEdjN8lkFbL0Vjmsa/ZSVM0H4SCzBDUK8B5e6DZJ4Q==";
+        };
+        _Y8zxmdQJ = {
+            "id" = "Y8zxmdQJ";
+            "file" = "fablemod-5.2.2-mc26.2.jar";
+            "hash" = "sha512-PhExXS3XS/Bt84IM/SwJO0B9fQ0z6nJjIpMzzeE2BXXEb3+095rzVtkzTYNmxOBPCCkpzxFumizljmfXNxchDA==";
+        };
     in {
         "Lck9mJAO" = _Lck9mJAO;
         "py3HEcMc" = _py3HEcMc;
@@ -152,6 +177,11 @@ let
         "wuLt2Xdd" = _wuLt2Xdd;
         "O5w4U2Hp" = _O5w4U2Hp;
         "QuGhSqzb" = _QuGhSqzb;
+        "hqGxFmQX" = _hqGxFmQX;
+        "KN1hszj7" = _KN1hszj7;
+        "AN0SK2Es" = _AN0SK2Es;
+        "9p3bBOiP" = _9p3bBOiP;
+        "Y8zxmdQJ" = _Y8zxmdQJ;
         "forge-1.16.5" = _Lck9mJAO;
         "fabric-1.19.4" = _gSsgIq0b;
         "fabric-1.20.1" = _Yyf4AJdJ;
@@ -162,12 +192,12 @@ let
         "fabric-1.21.7" = _66veRXWx;
         "fabric-1.21.9" = _Zm04PVRM;
         "fabric-1.21.10" = _Zm04PVRM;
-        "fabric-1.21.11" = _wuLt2Xdd;
-        "fabric-26.1" = _O5w4U2Hp;
-        "fabric-26.1.1" = _O5w4U2Hp;
+        "fabric-1.21.11" = _AN0SK2Es;
+        "fabric-26.1" = _9p3bBOiP;
+        "fabric-26.1.1" = _9p3bBOiP;
         "fabric-26.1.2-rc-1" = _bN1gmQPe;
-        "fabric-26.1.2" = _O5w4U2Hp;
-        "fabric-26.2" = _QuGhSqzb;
+        "fabric-26.1.2" = _9p3bBOiP;
+        "fabric-26.2" = _Y8zxmdQJ;
         "pkg-1.5.1" = _Lck9mJAO;
         "pkg-2.4.1" = _py3HEcMc;
         "pkg-2.5.0" = _gSsgIq0b;
@@ -193,7 +223,12 @@ let
         "pkg-5.1.0-mc1.21.11" = _wuLt2Xdd;
         "pkg-5.1.2-mc26.1" = _O5w4U2Hp;
         "pkg-5.2.0-mc26.2" = _QuGhSqzb;
-        "default" = _QuGhSqzb;
+        "pkg-5.1.3-mc26.1" = _hqGxFmQX;
+        "pkg-5.2.1-mc26.2" = _KN1hszj7;
+        "pkg-5.1.1-mc1.21.11" = _AN0SK2Es;
+        "pkg-5.1.4-mc26.1" = _9p3bBOiP;
+        "pkg-5.2.2-mc26.2" = _Y8zxmdQJ;
+        "default" = _Y8zxmdQJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fable-mod";

@@ -71,6 +71,21 @@ let
             "file" = "morpher-1.0.7.jar";
             "hash" = "sha512-KBCZHEJpJkX/MyVudJE6BfVj3S5U2ue6Ag9OBHK1E75LPC1yMRf9Mg99MxJgitZtKQuKCRry6KSXFTszvgzUzg==";
         };
+        _xR2H9Hb3 = {
+            "id" = "xR2H9Hb3";
+            "file" = "morpher-1.1.1.jar";
+            "hash" = "sha512-lhIOt+h76s6KJgE/D8FlLJYiA3Dv5cQ2vHDyvQIkcfgXUsAsRat6unzy0rqiZ8dmDlGIerQVkz7ynvvkhQGA5w==";
+        };
+        _9NHnaGcK = {
+            "id" = "9NHnaGcK";
+            "file" = "morpher-1.1.2.jar";
+            "hash" = "sha512-A2P/8wWtZ4RGDnA4EQ7OUPobcmna23Ib/LINWN/SZKZA3JWInlOCMyH0dyNzf10qx4BI0bREZLziSR3jaXQXxg==";
+        };
+        _CVokQei9 = {
+            "id" = "CVokQei9";
+            "file" = "morpher-1.1.3.jar";
+            "hash" = "sha512-jfr0oRxFJhFEWNiMGSoqv4EQrE6aNpxeFkOhnnwQ/eOOmNKxNUdMdqn6V+Mwa12viP69QIKlJnSq8E5SjzXXJw==";
+        };
     in {
         "dZzsKyee" = _dZzsKyee;
         "oyNvLPco" = _oyNvLPco;
@@ -86,8 +101,11 @@ let
         "snAJ4RoU" = _snAJ4RoU;
         "D7HVzFh9" = _D7HVzFh9;
         "K1WLGfbR" = _K1WLGfbR;
+        "xR2H9Hb3" = _xR2H9Hb3;
+        "9NHnaGcK" = _9NHnaGcK;
+        "CVokQei9" = _CVokQei9;
         "fabric-1.20.4" = _coZ2G2BM;
-        "fabric-1.21.1" = _snAJ4RoU;
+        "fabric-1.21.1" = _CVokQei9;
         "forge-1.20.1" = _K1WLGfbR;
         "pkg-1.0.0" = _Mw0zwH4c;
         "pkg-1.0.1" = _Jy4EYUZM;
@@ -98,7 +116,10 @@ let
         "pkg-1.1.0" = _snAJ4RoU;
         "pkg-1.0.6" = _D7HVzFh9;
         "pkg-1.0.7" = _K1WLGfbR;
-        "default" = _K1WLGfbR;
+        "pkg-1.1.1" = _xR2H9Hb3;
+        "pkg-1.1.2" = _9NHnaGcK;
+        "pkg-1.1.3" = _CVokQei9;
+        "default" = _CVokQei9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "morpher";

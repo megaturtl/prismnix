@@ -95,6 +95,7 @@ let
         "fabric-26.1" = _k4M3kdLm;
         "fabric-26.1.1" = _k4M3kdLm;
         "fabric-26.1.2" = _k4M3kdLm;
+        "fabric-26.2" = _k4M3kdLm;
         "pkg-1.6.0" = _DdBx3GhA;
         "pkg-1.6.1" = _afDFsXR8;
         "pkg-1.6.3" = _X5mcXkS3;

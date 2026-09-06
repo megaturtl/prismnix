@@ -341,6 +341,11 @@ let
             "file" = "spells_and_shields-1.21.1-2.18.1.jar";
             "hash" = "sha512-KezpZnjcd0MwaECbUCybmdWmoR9GjB1CB9LoS2HJLEYyd5nivMmn3bCpqw6n+EGGd4HFfVHAbn0JNVZRJqY+LA==";
         };
+        _qq5J2ASb = {
+            "id" = "qq5J2ASb";
+            "file" = "spells_and_shields-1.21.1-2.19.0.jar";
+            "hash" = "sha512-JO6OFwIc4NqcuDW8/q0hJS+JAetMJld5/xVHW4jLZTCvxMCQmPeZeVgLvCw6O3mLAnTw4pTgZV85LybC1WbaGA==";
+        };
     in {
         "4emmlnpU" = _4emmlnpU;
         "7We6k3dZ" = _7We6k3dZ;
@@ -410,12 +415,13 @@ let
         "FjH48jq4" = _FjH48jq4;
         "XlaFcT16" = _XlaFcT16;
         "6NnP92ob" = _6NnP92ob;
+        "qq5J2ASb" = _qq5J2ASb;
         "forge-1.19.2" = _DGxsXIVp;
         "forge-1.18.2" = _44z9tKFt;
         "forge-1.20.1" = _ufkAsVao;
         "neoforge-1.20.2" = _IEMItJnK;
         "neoforge-1.20.1" = _ufkAsVao;
-        "neoforge-1.21.1" = _6NnP92ob;
+        "neoforge-1.21.1" = _qq5J2ASb;
         "pkg-1.19.2-2.0.0-BETA" = _4emmlnpU;
         "pkg-1.19.2-2.0.1-BETA" = _7We6k3dZ;
         "pkg-1.19.2-2.0.2-BETA" = _WxoFaEdu;
@@ -484,7 +490,8 @@ let
         "pkg-1.21.1-2.17.0" = _FjH48jq4;
         "pkg-1.21.1-2.18.0" = _XlaFcT16;
         "pkg-1.21.1-2.18.1" = _6NnP92ob;
-        "default" = _6NnP92ob;
+        "pkg-1.21.1-2.19.0" = _qq5J2ASb;
+        "default" = _qq5J2ASb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spells-shields";

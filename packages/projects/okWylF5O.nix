@@ -176,6 +176,16 @@ let
             "file" = "ricksportalgun-fabric-1.20.1-1.4.9.jar";
             "hash" = "sha512-/qViuels5xIxy9GkFvi8rdZ2fVYYJD6qzMcSzy3UpwqOmDLB7f8D3Z+t3iUAXA8lYGhgMZTPSxa2Ixp2q6/syw==";
         };
+        _HojX5KCi = {
+            "id" = "HojX5KCi";
+            "file" = "ricksportalgun-fabric-1.21.1-1.4.5.jar";
+            "hash" = "sha512-432wcf8/Xm0qGgjWmNCFyN/tPRC4Sv8KT7NQR+kzWQD/Q1R2mKr4YCkOObtCYXJThMsBbUsUJ5tobBAVnpoACw==";
+        };
+        _kjSflGac = {
+            "id" = "kjSflGac";
+            "file" = "ricksportalgun-fabric-1.20.1-1.4.10.jar";
+            "hash" = "sha512-TMUJrhHNZNRStaZLNLQT7fHJE04+6f1dgTxhtPAm4akaWN/T6DuTM/CXt9VHc7chh8AqQFjEkqlj4Ah5zNxHXA==";
+        };
     in {
         "gPGFLO6w" = _gPGFLO6w;
         "749yEjcW" = _749yEjcW;
@@ -212,14 +222,16 @@ let
         "gzcYRTAE" = _gzcYRTAE;
         "Uqq8cZW1" = _Uqq8cZW1;
         "fZ4bq0U7" = _fZ4bq0U7;
+        "HojX5KCi" = _HojX5KCi;
+        "kjSflGac" = _kjSflGac;
         "fabric-1.19.2" = _2M3DLOx5;
-        "fabric-1.20.1" = _fZ4bq0U7;
+        "fabric-1.20.1" = _kjSflGac;
         "fabric-1.21.4" = _qVoDgd2r;
-        "fabric-1.21.1" = _GdNh922C;
+        "fabric-1.21.1" = _HojX5KCi;
         "quilt-1.19.2" = _2M3DLOx5;
         "quilt-1.20.1" = _fZ4bq0U7;
         "quilt-1.21.4" = _qVoDgd2r;
-        "quilt-1.21.1" = _GdNh922C;
+        "quilt-1.21.1" = _HojX5KCi;
         "pkg-1.3.1" = _749yEjcW;
         "pkg-1.3.2" = _eVgODXvQ;
         "pkg-1.3.3" = _lKvxUxM4;
@@ -235,11 +247,12 @@ let
         "pkg-1.4.2" = _Bt2ZsIUp;
         "pkg-1.4.3" = _AVoEoxaX;
         "pkg-1.4.4" = _GdNh922C;
-        "pkg-1.4.5" = _VKfSJMva;
+        "pkg-1.4.5" = _HojX5KCi;
         "pkg-1.4.6" = _gzcYRTAE;
         "pkg-1.4.7" = _Uqq8cZW1;
         "pkg-1.4.9" = _fZ4bq0U7;
-        "default" = _fZ4bq0U7;
+        "pkg-1.4.10" = _kjSflGac;
+        "default" = _kjSflGac;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ricks-portal-gun-fabric";

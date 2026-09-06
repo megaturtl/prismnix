@@ -76,6 +76,36 @@ let
             "file" = "pmwextra-0.1.5.jar";
             "hash" = "sha512-S3NWzAkNqAUwll3Tgr5TFJ57gFRjyzB77rBBuuRczwwwFF8H+/z6YKivmDeNgpTKIvO26uGG/aBx1616I8CT3g==";
         };
+        _6aH5tFdh = {
+            "id" = "6aH5tFdh";
+            "file" = "pmwextra-0.1.6.jar";
+            "hash" = "sha512-F/g3UJGTt3Ol9k20K6qq/V7wBFI7LNBZiEnNS7U5nnkBSHHzgjeUTMlU3zwtIITf1wTUVUpWEC3ICAdachaVZA==";
+        };
+        _ZyTr1sIc = {
+            "id" = "ZyTr1sIc";
+            "file" = "pmwextra-0.1.7.jar";
+            "hash" = "sha512-b52sT7VeCG4B+LSFU1KJwXdkN2aqjAVY/AljnpPFp45dkPu5txjyTq6kCt1ktAqcAOhhaaxVYuim5zUlvlMpfg==";
+        };
+        _hDfX8xsO = {
+            "id" = "hDfX8xsO";
+            "file" = "pmwextra-0.1.8.jar";
+            "hash" = "sha512-qxJS352fSuR+pN1GxZDT/M7/uuvvECbUyfPr7c5UN92N0bXssSMPQTKxK4nBGJnN8QhMcP5zPBDsDqKxS6C2Qw==";
+        };
+        _jGnlOW9f = {
+            "id" = "jGnlOW9f";
+            "file" = "pmwextra-0.1.9.jar";
+            "hash" = "sha512-G1J/8ynUBP/Qh0wKRbH90aVQq0F/kIOJmVomVbac5PGpoRVzhlkLc3EEvNy4zJ9nCs/JrO0zS6hcgfd7jdVtqg==";
+        };
+        _6qzaHqqf = {
+            "id" = "6qzaHqqf";
+            "file" = "pmwextra-0.2.0.jar";
+            "hash" = "sha512-WCsWqi79jGfOQgyeUCChgKgjihDevI5mktAkFjuquBmY7ZN9UNh9yNSChUBcq9sLcqyGG39UIBFdYilNO+Wu1w==";
+        };
+        _2RysQE1i = {
+            "id" = "2RysQE1i";
+            "file" = "pmwextra-0.2.1.jar";
+            "hash" = "sha512-tQ7H6wyuxBSjOqbqvRFIfhKYIZNDCXt411lFJgmXoEILTya+/RZkALHx+Sw1E3ypE7Rl4gierROGsPXHGNEEmw==";
+        };
     in {
         "dtvXjN5d" = _dtvXjN5d;
         "pB7Ciw9o" = _pB7Ciw9o;
@@ -92,7 +122,13 @@ let
         "WcEw5fqk" = _WcEw5fqk;
         "RLyy39Vs" = _RLyy39Vs;
         "20KW2iVl" = _20KW2iVl;
-        "neoforge-1.21.1" = _20KW2iVl;
+        "6aH5tFdh" = _6aH5tFdh;
+        "ZyTr1sIc" = _ZyTr1sIc;
+        "hDfX8xsO" = _hDfX8xsO;
+        "jGnlOW9f" = _jGnlOW9f;
+        "6qzaHqqf" = _6qzaHqqf;
+        "2RysQE1i" = _2RysQE1i;
+        "neoforge-1.21.1" = _2RysQE1i;
         "pkg-0.0.1" = _dtvXjN5d;
         "pkg-0.0.2" = _pB7Ciw9o;
         "pkg-0.0.3" = _f8lQpx1p;
@@ -108,7 +144,13 @@ let
         "pkg-0.1.3" = _WcEw5fqk;
         "pkg-0.1.4" = _RLyy39Vs;
         "pkg-0.1.5" = _20KW2iVl;
-        "default" = _20KW2iVl;
+        "pkg-0.1.6" = _6aH5tFdh;
+        "pkg-0.1.7" = _ZyTr1sIc;
+        "pkg-0.1.8" = _hDfX8xsO;
+        "pkg-0.1.9" = _jGnlOW9f;
+        "pkg-0.2.0" = _6qzaHqqf;
+        "pkg-0.2.1" = _2RysQE1i;
+        "default" = _2RysQE1i;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pmwextra";
@@ -116,12 +158,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "MIT" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "MIT License";
-                shortName = "MIT";
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
                 url = null;
             };
         };

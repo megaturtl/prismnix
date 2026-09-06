@@ -41,6 +41,16 @@ let
             "file" = "farmingexperience-26.07.28-1.21-neoforge.jar";
             "hash" = "sha512-hwYLu6eHy6UbG97EgqhtNm0ubpwRzXi0qv4IWNM6HmUNYD7Iyal6M39gNYab686IuixWlMLuOXGNHFhtFz+rgw==";
         };
+        _HwpJqtFG = {
+            "id" = "HwpJqtFG";
+            "file" = "farmingexperiencecore-26.08.07-1.21-neoforge.jar";
+            "hash" = "sha512-HG61eX96ZWJOm61GQmY7GPAOdJVT+HyNb4uky5Sn2ItnDOehrg3BpJkoNM3u0Zy+nQxkY4h2ZVqX+PtrtqSwOg==";
+        };
+        _mGYxErZX = {
+            "id" = "mGYxErZX";
+            "file" = "farmingexperiencecore-26.08.12-1.21-neoforge.jar";
+            "hash" = "sha512-hFlIRnouCFW7b1q+tKolSJwJnnNR9lF4M64yBfQmVaS5DxRo5c6L7bh0GO9X8rFmNiXXEFBn8dd5WWS8r7fjkA==";
+        };
     in {
         "OXKGhop2" = _OXKGhop2;
         "ZGiOJcli" = _ZGiOJcli;
@@ -50,9 +60,11 @@ let
         "cQ4HLrtZ" = _cQ4HLrtZ;
         "alKZZ5uO" = _alKZZ5uO;
         "ZkSGylIB" = _ZkSGylIB;
+        "HwpJqtFG" = _HwpJqtFG;
+        "mGYxErZX" = _mGYxErZX;
         "fabric-1.20.1" = _vhgN5fSc;
         "fabric-1.21.1" = _iGVKVD4v;
-        "neoforge-1.21.1" = _ZkSGylIB;
+        "neoforge-1.21.1" = _mGYxErZX;
         "pkg-24.09.17-1.20-fabric" = _OXKGhop2;
         "pkg-24.09.18-1.20-fabric" = _ZGiOJcli;
         "pkg-24.10.16-1.21-fabric" = _7WjIAnqz;
@@ -61,10 +73,12 @@ let
         "pkg-25.04.04-1.21-neoforge" = _cQ4HLrtZ;
         "pkg-25.10.20-1.21-neoforge" = _alKZZ5uO;
         "pkg-26.07.28-1.21-neoforge" = _ZkSGylIB;
-        "default" = _ZkSGylIB;
+        "pkg-26.08.07-1.21-neoforge" = _HwpJqtFG;
+        "pkg-26.08.12-1.21-neoforge" = _mGYxErZX;
+        "default" = _mGYxErZX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
-        name = "farming-experience-tweaks";
+        name = "farming-experience-core";
         id = "r021Om9k";
         type = "mod";
         versions = versions;
@@ -75,7 +89,7 @@ let
                 redistributable = false;
                 fullName = "MIT License";
                 shortName = "MIT";
-                url = "https://github.com/axperty/farmingexperience/blob/master/LICENSE";
+                url = "https://github.com/axperty/farmingexperiencecore/blob/master/LICENSE";
             };
         };
     };

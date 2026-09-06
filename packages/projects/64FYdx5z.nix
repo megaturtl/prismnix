@@ -86,6 +86,11 @@ let
             "file" = "fabric-seasons-extras-1.3.2-BETA+1.21.jar";
             "hash" = "sha512-3Ok8aMOpzOuzvoDFVu0aF9s2fNMtocWdLB4/lAkcF5vqM3yfL4wMiGBoZNMFe+2J9+3v3FSSNAT0pBxJoiNGvg==";
         };
+        _ZIfSos0S = {
+            "id" = "ZIfSos0S";
+            "file" = "fabric-seasons-extras-1.3.3-BETA+1.21.jar";
+            "hash" = "sha512-tmKKjeFN+WLXuqeiDi8c/LkveQs5pEj2KemyQa/xk+OGp/uXxWDE23AdLI9k/GwOvLYae8vtHonlZLTvws+OIg==";
+        };
     in {
         "ZsIzAEfK" = _ZsIzAEfK;
         "XR4aiIK6" = _XR4aiIK6;
@@ -104,12 +109,13 @@ let
         "9vCrZAzd" = _9vCrZAzd;
         "RJ4U7Kz1" = _RJ4U7Kz1;
         "W9dvZHrP" = _W9dvZHrP;
+        "ZIfSos0S" = _ZIfSos0S;
         "fabric-1.19.2" = _NSa0G7u9;
         "fabric-1.19.3" = _ncdVTDpt;
         "fabric-1.19.4" = _j9GoL3Wu;
         "fabric-1.20" = _H6OLpHJp;
         "fabric-1.20.1" = _RJ4U7Kz1;
-        "fabric-1.21.1" = _W9dvZHrP;
+        "fabric-1.21.1" = _ZIfSos0S;
         "pkg-1.0-BETA+1.19" = _ZsIzAEfK;
         "pkg-1.1-BETA+1.19" = _XR4aiIK6;
         "pkg-1.1-BETA+1.19.3" = _Hz4mjAwN;
@@ -127,7 +133,8 @@ let
         "pkg-1.3.1-BETA+1.21" = _9vCrZAzd;
         "pkg-1.3.2-BETA+1.20" = _RJ4U7Kz1;
         "pkg-1.3.2-BETA+1.21" = _W9dvZHrP;
-        "default" = _W9dvZHrP;
+        "pkg-1.3.3-BETA+1.21" = _ZIfSos0S;
+        "default" = _ZIfSos0S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fabric-seasons-extras";

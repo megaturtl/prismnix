@@ -491,6 +491,16 @@ let
             "file" = "UtilitiX-21.1.6.jar";
             "hash" = "sha512-QTOJZENBzkMsUt4jhwraESU2lV1M/j/ZCK7wmV++LQf6zfmXpPoVU24FZb7vGzSNsVuHzlMTmvky2cT+vDnczw==";
         };
+        _9Uii3X7C = {
+            "id" = "9Uii3X7C";
+            "file" = "UtilitiX-26.1.0.jar";
+            "hash" = "sha512-UnpnNzUsVRCBtSYLbqKI4Cbwp19JRdeYrZcGcKggeckuaD0FPf8pCd75Nf6XeZBavyTW/pWNUYfm9nJf+FWfnw==";
+        };
+        _fvCtfP9g = {
+            "id" = "fvCtfP9g";
+            "file" = "UtilitiX-26.1.1.jar";
+            "hash" = "sha512-3jJdMvVpF00/S0Q+rLgj20U4CEB2ZHXEf6bCEXow6RSZQDWAScUFxNAOyAwv4E31Tm6gUmI0zQN7O16pOAMhGA==";
+        };
     in {
         "UWj1pgbA" = _UWj1pgbA;
         "ym3fmXVE" = _ym3fmXVE;
@@ -590,6 +600,8 @@ let
         "sUSIa3Sy" = _sUSIa3Sy;
         "3CN9nzHb" = _3CN9nzHb;
         "dXCPPM3u" = _dXCPPM3u;
+        "9Uii3X7C" = _9Uii3X7C;
+        "fvCtfP9g" = _fvCtfP9g;
         "forge-1.17.1" = _k3PJ73mJ;
         "forge-1.18" = _lm8Tkywi;
         "forge-1.18.1" = _pu6Q0jcd;
@@ -603,6 +615,7 @@ let
         "forge-1.20.1" = _sUSIa3Sy;
         "neoforge-1.20.1" = _sUSIa3Sy;
         "neoforge-1.21.1" = _dXCPPM3u;
+        "neoforge-26.1.2" = _fvCtfP9g;
         "pkg-1.17.1-0.2.7" = _UWj1pgbA;
         "pkg-1.17.1-0.2.8" = _ym3fmXVE;
         "pkg-1.17.1-0.2.9" = _fcqCYg2N;
@@ -701,7 +714,9 @@ let
         "pkg-1.20.1-0.8.28" = _sUSIa3Sy;
         "pkg-21.1.5" = _3CN9nzHb;
         "pkg-21.1.6" = _dXCPPM3u;
-        "default" = _dXCPPM3u;
+        "pkg-26.1.0" = _9Uii3X7C;
+        "pkg-26.1.1" = _fvCtfP9g;
+        "default" = _fvCtfP9g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "utilitix";

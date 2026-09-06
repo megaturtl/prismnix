@@ -2171,6 +2171,11 @@ let
             "file" = "TechReborn-6.1.0.jar";
             "hash" = "sha512-Cslg73bz5ElePksD3nrDBoHEHOzSS/CZit0KXdIUxyRbf8LsrLjnjHMRQn5rJwAWEc36Jl1cWt2XQ0VQFxqpmA==";
         };
+        _YsPVZIsK = {
+            "id" = "YsPVZIsK";
+            "file" = "TechReborn-6.1.1.jar";
+            "hash" = "sha512-PJi9t1zczk3mK9jvlWsBJwktSWs3w9xqFotSJiT7KrHpafP2k+C1S6rUSPjw5cL2vS8RgUqf87WFPkiwzt5Qpw==";
+        };
     in {
         "ZV5o1TW7" = _ZV5o1TW7;
         "NVt2POPY" = _NVt2POPY;
@@ -2606,6 +2611,7 @@ let
         "Uu3wjJLx" = _Uu3wjJLx;
         "odOcmoOg" = _odOcmoOg;
         "plFNm9Ks" = _plFNm9Ks;
+        "YsPVZIsK" = _YsPVZIsK;
         "forge-1.7.10" = _9yDBTln0;
         "forge-1.8.8" = _EvC9GMiA;
         "forge-1.8.9" = _TxuCb0Vt;
@@ -2652,7 +2658,7 @@ let
         "fabric-26.1" = _odOcmoOg;
         "fabric-26.1.1" = _odOcmoOg;
         "fabric-26.1.2" = _odOcmoOg;
-        "fabric-26.2" = _plFNm9Ks;
+        "fabric-26.2" = _YsPVZIsK;
         "pkg-0.3.0.729+universal" = _ZV5o1TW7;
         "pkg-0.3.1.740+universal" = _NVt2POPY;
         "pkg-0.3.2.765+universal" = _BIWNLLGn;
@@ -3069,7 +3075,8 @@ let
         "pkg-6.0.4" = _Uu3wjJLx;
         "pkg-6.0.5" = _odOcmoOg;
         "pkg-6.1.0" = _plFNm9Ks;
-        "default" = _plFNm9Ks;
+        "pkg-6.1.1" = _YsPVZIsK;
+        "default" = _YsPVZIsK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "techreborn";

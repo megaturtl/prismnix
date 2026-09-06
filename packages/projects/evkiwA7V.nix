@@ -446,6 +446,106 @@ let
             "file" = "AxiomPaper-5.0.4-for-MC26.2.jar";
             "hash" = "sha512-hyZAV9WdZNtF0Rc2TEDbC9WbwXAYbFifxFKUPubExEINTY0S6XdF5uIwJVlx9+eJAbfgc6c7xXYI99psHQlF0A==";
         };
+        _abn2k750 = {
+            "id" = "abn2k750";
+            "file" = "AxiomPaperPlugin-6.0.0-for-MC1.20.1.jar";
+            "hash" = "sha512-pUZcM8KMMNqHyOwUeMfCAr8dnruL2YqnyeJhL0wcDJLksCDBUKw7NRz1TBGEXTMXsUUAyIDDSbnhCwMIL43myQ==";
+        };
+        _1m2eebxP = {
+            "id" = "1m2eebxP";
+            "file" = "AxiomPaperPlugin-6.0.0-for-MC1.21.1.jar";
+            "hash" = "sha512-MW8k2p13FQ0lF5M5yg1+V5zRsUdniLVERWBPYqqAtVTx45ma51gg17lI58EI0hN9+cTsWbNfnxibfJYKdR7ftw==";
+        };
+        _RsSPOPv3 = {
+            "id" = "RsSPOPv3";
+            "file" = "AxiomPaperPlugin-6.0.0-for-MC1.21.3.jar";
+            "hash" = "sha512-5lsU9Y98UoPSGmOKZS91oAqPRfTjsL6Yr97XwacrDXY8MBXAiUIrQNdKyM1zDrfm33VF+XcnQe5ODpw8KHkfdg==";
+        };
+        _etbWgPSP = {
+            "id" = "etbWgPSP";
+            "file" = "AxiomPaperPlugin-6.0.0-for-MC1.21.4.jar";
+            "hash" = "sha512-FH7C360KRRTQ3IR/o5upTpz+KWMFyFjWPV+AwxhRKBjRTfStFqYXFEBNLK8ihCT679CATkYx2MCFoqZAhbldPg==";
+        };
+        _aJ7n2AlC = {
+            "id" = "aJ7n2AlC";
+            "file" = "AxiomPaperPlugin-6.0.0-for-MC1.21.5.jar";
+            "hash" = "sha512-w6oCuP/tuhabAq72alYpaaJh23WOMaizd/99yD3DoZPiyJkE9ctUDzkM1cmcqqrQ63CBq8pgO6KU+ioaij55lw==";
+        };
+        _bXSxHsNH = {
+            "id" = "bXSxHsNH";
+            "file" = "AxiomPaperPlugin-6.0.0-for-MC1.21.8.jar";
+            "hash" = "sha512-8ZMQPKhYAsLmhbsMk6wZg/oWGgEkxSNUBHzwby2+zV47qy7OC+ZoRX5d95xDbcF1KcdOx2YLGpj4z8cFrWH5Ow==";
+        };
+        _LxZA7FLZ = {
+            "id" = "LxZA7FLZ";
+            "file" = "AxiomPaperPlugin-6.0.0-for-MC1.21.10.jar";
+            "hash" = "sha512-8J7V3dBjO3QKyPCsj3hpDXVFhdGADyj0kiwQETDg56nxOgRwz3wEt8DubEh1mHvB96FL0OyJR+3LnG1hVgeFVw==";
+        };
+        _wMQkzll7 = {
+            "id" = "wMQkzll7";
+            "file" = "AxiomPaperPlugin-6.0.0-for-MC1.21.11.jar";
+            "hash" = "sha512-f8fOK7CVR+r1JGdek3x1fwXDtBIqLFxeZbUMb0zDbp4WQA6LZY+IbIqXsO438wKJcgEYrgows+V6cD66MDKmRw==";
+        };
+        _rBc8S063 = {
+            "id" = "rBc8S063";
+            "file" = "AxiomPaperPlugin-6.0.0-for-MC26.1.jar";
+            "hash" = "sha512-bdkC9iXOThQZDX7pboNmJpMWhlUWnosLpjWtUY2Pi2V/wZ94uWQRiY0PZlWhJQhx2FIM6mTIvrIzD0oBJGNH1A==";
+        };
+        _BbhoGfI8 = {
+            "id" = "BbhoGfI8";
+            "file" = "AxiomPaperPlugin-6.0.0-for-MC26.2.jar";
+            "hash" = "sha512-8cRlnolKMocgjsG/w+zuQEotgtra3s0AVdtVoriZkvKmHi2SQbJCrVFA7w+5XC3/j7EFQq4pQ8R+GQQqJ7MpEg==";
+        };
+        _9I3YBL5l = {
+            "id" = "9I3YBL5l";
+            "file" = "AxiomPaperPlugin-6.0.1-for-MC1.20.1.jar";
+            "hash" = "sha512-AMezEaO8DXOWXm+Wck4cHiz9Hr3Qxn8Te2MnsssqYBWAepUu3jiFDvaTPJ4kAACZifoCS0nnm8ONEasjYDVVzw==";
+        };
+        _iVGN8CXY = {
+            "id" = "iVGN8CXY";
+            "file" = "AxiomPaperPlugin-6.0.1-for-MC1.21.1.jar";
+            "hash" = "sha512-cncnTTPTjpc7ceHpZ1/pyJkgOeQIWXj7K3MnGwcGQ1QXRuQeAIZbsnktV0x9AzVsMDlUoi7Oc7Fz8TJer16KBw==";
+        };
+        _kLN4YAXE = {
+            "id" = "kLN4YAXE";
+            "file" = "AxiomPaperPlugin-6.0.1-for-MC1.21.3.jar";
+            "hash" = "sha512-jy5qnNTVM3pZ1WGVQKEC6knUF95dIvARPxgkr7aEV36p4BAuZbUW42HnlfMPFYY4TbJYZ0uuTTQknAEiTB4m0w==";
+        };
+        _MKH3jJmS = {
+            "id" = "MKH3jJmS";
+            "file" = "AxiomPaperPlugin-6.0.1-for-MC1.21.4.jar";
+            "hash" = "sha512-9kRI/Y7EtpCTQjGKyrPXA6cyUrhzOL2EsNtkdjRebTSEkr68OkanliuGmjm20sPQElxRL8Yfz0T/NMaqf2pdhw==";
+        };
+        _8hNjSbGe = {
+            "id" = "8hNjSbGe";
+            "file" = "AxiomPaperPlugin-6.0.1-for-MC1.21.5.jar";
+            "hash" = "sha512-7nO+Y6NV++BrRyU2HWkAnDmE9+V4ZRihkUVw1TOoBnSrAN7JeAugMpYuP8n/WuSe/RqWD6/vjI5mc/n0WbRrIw==";
+        };
+        _CelkNHJp = {
+            "id" = "CelkNHJp";
+            "file" = "AxiomPaperPlugin-6.0.1-for-MC1.21.8.jar";
+            "hash" = "sha512-k//shi7B2EdB4V9GzxQH2uecqGzUbnd7HDC27HvU2+S1OSX0gR23h7ZebW1IObpugfCjzhNnAC1Y68M+KZGCHQ==";
+        };
+        _b7keQrSs = {
+            "id" = "b7keQrSs";
+            "file" = "AxiomPaperPlugin-6.0.1-for-MC1.21.10.jar";
+            "hash" = "sha512-gJmvkU4urnGvFMz8Q2CBw2BAXctq8Yjf/TJACl9ES/n6SPi4OLb3NaFQAyK+YBGZiiK94HcK0jmVC/N9ok0fAQ==";
+        };
+        _AtKpiumb = {
+            "id" = "AtKpiumb";
+            "file" = "AxiomPaperPlugin-6.0.1-for-MC1.21.11.jar";
+            "hash" = "sha512-bfLH/3Ych6A3pybXAaRb5o8o3MfjMyPcXJqn+G/HyEX81Q3yPBTyScd0o9hpMkY53g2I+zAdD5arBD4y0oNSYQ==";
+        };
+        _JTwkajGE = {
+            "id" = "JTwkajGE";
+            "file" = "AxiomPaperPlugin-6.0.1-for-MC26.1.jar";
+            "hash" = "sha512-vDvJbDR4aag3F1X10So42Au820z9MspgpRbqcOWjdRrO+4jc3NJJi9yJE4KkZgnPw/nwXvjKB0ZI6+cGMclT6g==";
+        };
+        _93qRRLuz = {
+            "id" = "93qRRLuz";
+            "file" = "AxiomPaperPlugin-6.0.1-for-MC26.2.jar";
+            "hash" = "sha512-eP0f0peGskOF6491pJQHngqRJXAwBKK1fziidtVW0ffYCBKdDYGBNtGKlgeo7FaxGGhrdYOd09RyaqP7H/Rc5A==";
+        };
     in {
         "xpWFfY7v" = _xpWFfY7v;
         "Iy74sjXE" = _Iy74sjXE;
@@ -536,29 +636,49 @@ let
         "KIGJ1Vhv" = _KIGJ1Vhv;
         "mSS9faHn" = _mSS9faHn;
         "Ow8CJ6pP" = _Ow8CJ6pP;
-        "paper-1.20" = _ytRJjtGr;
-        "paper-1.20.1" = _ytRJjtGr;
+        "abn2k750" = _abn2k750;
+        "1m2eebxP" = _1m2eebxP;
+        "RsSPOPv3" = _RsSPOPv3;
+        "etbWgPSP" = _etbWgPSP;
+        "aJ7n2AlC" = _aJ7n2AlC;
+        "bXSxHsNH" = _bXSxHsNH;
+        "LxZA7FLZ" = _LxZA7FLZ;
+        "wMQkzll7" = _wMQkzll7;
+        "rBc8S063" = _rBc8S063;
+        "BbhoGfI8" = _BbhoGfI8;
+        "9I3YBL5l" = _9I3YBL5l;
+        "iVGN8CXY" = _iVGN8CXY;
+        "kLN4YAXE" = _kLN4YAXE;
+        "MKH3jJmS" = _MKH3jJmS;
+        "8hNjSbGe" = _8hNjSbGe;
+        "CelkNHJp" = _CelkNHJp;
+        "b7keQrSs" = _b7keQrSs;
+        "AtKpiumb" = _AtKpiumb;
+        "JTwkajGE" = _JTwkajGE;
+        "93qRRLuz" = _93qRRLuz;
+        "paper-1.20" = _9I3YBL5l;
+        "paper-1.20.1" = _9I3YBL5l;
         "paper-1.20.2" = _FKhmXg6K;
         "paper-1.20.3" = _R5NEs6NA;
         "paper-1.20.4" = _R5NEs6NA;
         "paper-1.20.6" = _YgfCvPam;
-        "paper-1.21" = _ZQcpUDoQ;
-        "paper-1.21.1" = _ZQcpUDoQ;
+        "paper-1.21" = _iVGN8CXY;
+        "paper-1.21.1" = _iVGN8CXY;
         "paper-1.20.5" = _YgfCvPam;
-        "paper-1.21.2" = _AFlTIgz5;
-        "paper-1.21.3" = _AFlTIgz5;
-        "paper-1.21.4" = _AroBA4wS;
-        "paper-1.21.5" = _Su1K5zRg;
-        "paper-1.21.6" = _DVyL2GVr;
-        "paper-1.21.7" = _DVyL2GVr;
-        "paper-1.21.8" = _DVyL2GVr;
-        "paper-1.21.9" = _ubr3cAQb;
-        "paper-1.21.10" = _KIGJ1Vhv;
-        "paper-1.21.11" = _mSS9faHn;
-        "paper-26.1" = _igh8dKkm;
-        "paper-26.1.1" = _igh8dKkm;
-        "paper-26.1.2" = _igh8dKkm;
-        "paper-26.2" = _Ow8CJ6pP;
+        "paper-1.21.2" = _kLN4YAXE;
+        "paper-1.21.3" = _kLN4YAXE;
+        "paper-1.21.4" = _MKH3jJmS;
+        "paper-1.21.5" = _8hNjSbGe;
+        "paper-1.21.6" = _CelkNHJp;
+        "paper-1.21.7" = _CelkNHJp;
+        "paper-1.21.8" = _CelkNHJp;
+        "paper-1.21.9" = _b7keQrSs;
+        "paper-1.21.10" = _b7keQrSs;
+        "paper-1.21.11" = _AtKpiumb;
+        "paper-26.1" = _JTwkajGE;
+        "paper-26.1.1" = _JTwkajGE;
+        "paper-26.1.2" = _JTwkajGE;
+        "paper-26.2" = _93qRRLuz;
         "pkg-1.4.0" = _xpWFfY7v;
         "pkg-1.5.1" = _ZzUOiLhq;
         "pkg-1.5.2" = _O6ozwZaM;
@@ -624,7 +744,27 @@ let
         "pkg-5.0.4+1.21.10" = _KIGJ1Vhv;
         "pkg-5.0.4+1.21.11" = _mSS9faHn;
         "pkg-5.0.4+26.2" = _Ow8CJ6pP;
-        "default" = _Ow8CJ6pP;
+        "pkg-6.0.0+1.20.1" = _abn2k750;
+        "pkg-6.0.0+1.21.1" = _1m2eebxP;
+        "pkg-6.0.0+1.21.3" = _RsSPOPv3;
+        "pkg-6.0.0+1.21.4" = _etbWgPSP;
+        "pkg-6.0.0+1.21.5" = _aJ7n2AlC;
+        "pkg-6.0.0+1.21.8" = _bXSxHsNH;
+        "pkg-6.0.0+1.21.10" = _LxZA7FLZ;
+        "pkg-6.0.0+1.21.11" = _wMQkzll7;
+        "pkg-6.0.0+26.1" = _rBc8S063;
+        "pkg-6.0.0+26.2" = _BbhoGfI8;
+        "pkg-6.0.1+1.20.1" = _9I3YBL5l;
+        "pkg-6.0.1+1.21.1" = _iVGN8CXY;
+        "pkg-6.0.1+1.21.3" = _kLN4YAXE;
+        "pkg-6.0.1+1.21.4" = _MKH3jJmS;
+        "pkg-6.0.1+1.21.5" = _8hNjSbGe;
+        "pkg-6.0.1+1.21.8" = _CelkNHJp;
+        "pkg-6.0.1+1.21.10" = _b7keQrSs;
+        "pkg-6.0.1+1.21.11" = _AtKpiumb;
+        "pkg-6.0.1+26.1" = _JTwkajGE;
+        "pkg-6.0.1+26.2" = _93qRRLuz;
+        "default" = _93qRRLuz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "axiom-paper-plugin";

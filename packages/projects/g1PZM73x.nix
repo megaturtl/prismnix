@@ -416,6 +416,16 @@ let
             "file" = "enchants-and-expeditions-26.1-r1.5-fabric.jar";
             "hash" = "sha512-ou0ws74ex2BDj3FH4Bxh9dF7Yi7ASbmDqenvdZyskevFa6X9opHACkhvQY1/doewgql4WUaZ1TnFzbikCjccXw==";
         };
+        _rdqFBhh2 = {
+            "id" = "rdqFBhh2";
+            "file" = "enchants-and-expeditions-26.1-r1.6-neoforge.jar";
+            "hash" = "sha512-H01BULVD3d8HaLRRLa8tjggB540Wl4Kg79UBsGJddU/E5zAkZGflKtwhYfwwJHYKc6u4zs/NlngtLx1+VWgVkA==";
+        };
+        _sSk3oXYP = {
+            "id" = "sSk3oXYP";
+            "file" = "enchants-and-expeditions-26.1-r1.6-fabric.jar";
+            "hash" = "sha512-fha6CTDI9ifseTfb9/fFdOXOr1ovRFkZSvM5ybsfjms0/k2mxsrNbUzXGB4+YE1E5jPGk+ysHZ9JnGctT7hNGQ==";
+        };
     in {
         "nAZ7w65z" = _nAZ7w65z;
         "6NvkSfqi" = _6NvkSfqi;
@@ -500,17 +510,19 @@ let
         "FqkJHFbz" = _FqkJHFbz;
         "u1Sq6Zqa" = _u1Sq6Zqa;
         "qxotJ4bP" = _qxotJ4bP;
+        "rdqFBhh2" = _rdqFBhh2;
+        "sSk3oXYP" = _sSk3oXYP;
         "fabric-1.21.4" = _SBTagDmo;
         "fabric-1.21.5" = _bMBIrhaX;
         "fabric-1.21.11" = _VI3Kz9vn;
         "fabric-1.21" = _2z3flpjG;
         "fabric-1.21.1" = _2z3flpjG;
-        "fabric-26.1" = _qxotJ4bP;
-        "fabric-26.1.1" = _qxotJ4bP;
-        "fabric-26.1.2" = _qxotJ4bP;
-        "neoforge-26.1" = _u1Sq6Zqa;
-        "neoforge-26.1.1" = _u1Sq6Zqa;
-        "neoforge-26.1.2" = _u1Sq6Zqa;
+        "fabric-26.1" = _sSk3oXYP;
+        "fabric-26.1.1" = _sSk3oXYP;
+        "fabric-26.1.2" = _sSk3oXYP;
+        "neoforge-26.1" = _rdqFBhh2;
+        "neoforge-26.1.1" = _rdqFBhh2;
+        "neoforge-26.1.2" = _rdqFBhh2;
         "pkg-1.21.4-v1.0.0" = _nAZ7w65z;
         "pkg-1.21.4-v1.0.1" = _6NvkSfqi;
         "pkg-1.21.4-v1.0.2" = _LPmYY3LW;
@@ -594,7 +606,9 @@ let
         "pkg-26.1-r1.4.1-fabric" = _FqkJHFbz;
         "pkg-26.1-r1.5-neoforge" = _u1Sq6Zqa;
         "pkg-26.1-r1.5-fabric" = _qxotJ4bP;
-        "default" = _qxotJ4bP;
+        "pkg-26.1-r1.6-neoforge" = _rdqFBhh2;
+        "pkg-26.1-r1.6-fabric" = _sSk3oXYP;
+        "default" = _sSk3oXYP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchants-and-expeditions";

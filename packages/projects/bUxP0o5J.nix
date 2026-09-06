@@ -21,36 +21,55 @@ let
             "file" = "expanded-spear-enchantings-1.1.jar";
             "hash" = "sha512-uyaV1Fny0JKrfBIlZ0hafBmhmvkcwsHWeU/C5UddrGYcR7UWe1oNR1HE6cjtapAthPjdJgfMcUoMJupdgMesfA==";
         };
+        _JdnsHk1m = {
+            "id" = "JdnsHk1m";
+            "file" = "Expanded Spears Enchanting 26.2.zip";
+            "hash" = "sha512-w+OCEfHJKGl8fa+F6RaS4m64bLF0WIVLbqHAbleRvtzYoqxmQqU2K1FGRAyT//vxYOf8sr7Kkj8/zUTufqnIAg==";
+        };
+        _oQ2FvL4h = {
+            "id" = "oQ2FvL4h";
+            "file" = "expanded-spear-enchantings-1.2.jar";
+            "hash" = "sha512-KIuPbV0MRN9Kh6LQTn1LZD1lf9u1KVJ4CH9ral9I/qO3D8wV2RTBKdquD1FSH8gI5MsZorRD0FdrgV3h3b4lCQ==";
+        };
     in {
         "VpDrl1l3" = _VpDrl1l3;
         "ODzmAO1o" = _ODzmAO1o;
         "TdfqfB3U" = _TdfqfB3U;
         "JcKpGinX" = _JcKpGinX;
+        "JdnsHk1m" = _JdnsHk1m;
+        "oQ2FvL4h" = _oQ2FvL4h;
         "datapack-1.21.11" = _VpDrl1l3;
         "datapack-26.1" = _TdfqfB3U;
         "datapack-26.1.1" = _TdfqfB3U;
         "datapack-26.1.2" = _TdfqfB3U;
+        "datapack-26.2" = _JdnsHk1m;
         "fabric-1.21.11" = _ODzmAO1o;
         "fabric-26.1" = _JcKpGinX;
         "fabric-26.1.1" = _JcKpGinX;
         "fabric-26.1.2" = _JcKpGinX;
+        "fabric-26.2" = _oQ2FvL4h;
         "forge-1.21.11" = _ODzmAO1o;
         "forge-26.1" = _JcKpGinX;
         "forge-26.1.1" = _JcKpGinX;
         "forge-26.1.2" = _JcKpGinX;
+        "forge-26.2" = _oQ2FvL4h;
         "neoforge-1.21.11" = _ODzmAO1o;
         "neoforge-26.1" = _JcKpGinX;
         "neoforge-26.1.1" = _JcKpGinX;
         "neoforge-26.1.2" = _JcKpGinX;
+        "neoforge-26.2" = _oQ2FvL4h;
         "quilt-1.21.11" = _ODzmAO1o;
         "quilt-26.1" = _JcKpGinX;
         "quilt-26.1.1" = _JcKpGinX;
         "quilt-26.1.2" = _JcKpGinX;
+        "quilt-26.2" = _oQ2FvL4h;
         "pkg-1.0" = _VpDrl1l3;
         "pkg-1.0.1+mod" = _ODzmAO1o;
         "pkg-1.1" = _TdfqfB3U;
         "pkg-1.1.1+mod" = _JcKpGinX;
-        "default" = _JcKpGinX;
+        "pkg-1.2" = _JdnsHk1m;
+        "pkg-1.2.1+mod" = _oQ2FvL4h;
+        "default" = _oQ2FvL4h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "expanded-spear-enchantings";

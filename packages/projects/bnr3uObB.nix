@@ -81,6 +81,16 @@ let
             "file" = "neutrontools-1.12.1.jar";
             "hash" = "sha512-XeDa3ura3WIM/CoFhnxMdfoog96QhRO5qVxWvMAEfe1YQ3+vCuV/V4Zqb4pX3jipIQ5tILG+LGaTxr4SZJJGEg==";
         };
+        _JEAZZDPs = {
+            "id" = "JEAZZDPs";
+            "file" = "neutrontools-1.12.2.jar";
+            "hash" = "sha512-aTrII/nqGLckOXSHuEFC8ljwRhpJdQauFssOm1KRCMwAEETMPYYX8rhLrafG+MMubBv7iaF6EqWm/JENmf0dTg==";
+        };
+        _CbxhC8jC = {
+            "id" = "CbxhC8jC";
+            "file" = "neutrontools-1.13.0.jar";
+            "hash" = "sha512-EsOy2tpVwh0dTkE3bXSyH6/oo4qFVBbWnvs3OHdYFxqPHrq33SsO6TrLEESn+E2HazKs9zDAT7q09zQISw7EqA==";
+        };
     in {
         "TelIdxlC" = _TelIdxlC;
         "rdXnzaV6" = _rdXnzaV6;
@@ -98,6 +108,8 @@ let
         "6hMZItDW" = _6hMZItDW;
         "e9P4Dzp9" = _e9P4Dzp9;
         "Rf1QbldN" = _Rf1QbldN;
+        "JEAZZDPs" = _JEAZZDPs;
+        "CbxhC8jC" = _CbxhC8jC;
         "forge-1.20.1" = _E1dI37Fl;
         "forge-1.20.2" = _E1dI37Fl;
         "forge-1.20.3" = _E1dI37Fl;
@@ -107,8 +119,8 @@ let
         "forge-1.20" = _rdXnzaV6;
         "neoforge-1.20" = _rdXnzaV6;
         "neoforge-1.20.1" = _rdXnzaV6;
-        "neoforge-1.21" = _Rf1QbldN;
-        "neoforge-1.21.1" = _Rf1QbldN;
+        "neoforge-1.21" = _CbxhC8jC;
+        "neoforge-1.21.1" = _CbxhC8jC;
         "pkg-1.2.0" = _TelIdxlC;
         "pkg-1.2.1" = _rdXnzaV6;
         "pkg-1.6.0" = _eW1f9wR2;
@@ -125,7 +137,9 @@ let
         "pkg-1.11.0" = _6hMZItDW;
         "pkg-1.12.0" = _e9P4Dzp9;
         "pkg-1.12.1" = _Rf1QbldN;
-        "default" = _Rf1QbldN;
+        "pkg-1.12.2" = _JEAZZDPs;
+        "pkg-1.13.0" = _CbxhC8jC;
+        "default" = _CbxhC8jC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "neutron-tools";

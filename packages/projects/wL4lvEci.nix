@@ -71,6 +71,16 @@ let
             "file" = "dynamicwaters-12.0.0.jar";
             "hash" = "sha512-3qKkNGsE5S+ffsSL/8vdOz3V0YEwNkF9pWx4BqaqsShMW2ixsozNZy6zZxge6/rdrmqg1LUKfFStrH7VvJLbjw==";
         };
+        _gtwEPs3V = {
+            "id" = "gtwEPs3V";
+            "file" = "dynamicwaters-12.0.0.jar";
+            "hash" = "sha512-K1DR75Bjmycnb181MjsVUGlt78QCHs5E8leMsj7fjx1kdHGdz6fZqGNTE4A2ot/GhEzYYaXf3od2vQVPWGImwQ==";
+        };
+        _vX02uOIB = {
+            "id" = "vX02uOIB";
+            "file" = "dynamicwaters-12.0.0.jar";
+            "hash" = "sha512-yqUHI5NcYpwlmLrnyQJkXdlm2XHY/hcWSJ/r50P35m9bNlHD4DE3bdSsLjZkM/1I70JKgkTHjwnBzYsJ7WPEoA==";
+        };
     in {
         "nJyFMhuX" = _nJyFMhuX;
         "H2g5ig6M" = _H2g5ig6M;
@@ -86,8 +96,10 @@ let
         "KF4xNYaZ" = _KF4xNYaZ;
         "UAlqEU9d" = _UAlqEU9d;
         "Z1lO8GeM" = _Z1lO8GeM;
+        "gtwEPs3V" = _gtwEPs3V;
+        "vX02uOIB" = _vX02uOIB;
         "forge-1.20.1" = _KF4xNYaZ;
-        "neoforge-1.21.1" = _Z1lO8GeM;
+        "neoforge-1.21.1" = _vX02uOIB;
         "pkg-8.0.0" = _nJyFMhuX;
         "pkg-9.0.1" = _H2g5ig6M;
         "pkg-9.1.0" = _Tc6KoKAv;
@@ -102,7 +114,9 @@ let
         "pkg-11.1.2.HOTFIXED" = _KF4xNYaZ;
         "pkg-NEOFORGE.11.1.2.HOTFIXED" = _UAlqEU9d;
         "pkg-12.0.testver" = _Z1lO8GeM;
-        "default" = _Z1lO8GeM;
+        "pkg-dynamicwaters-12.0.testver.jar" = _gtwEPs3V;
+        "pkg-dynamicwaters-12.0.thirdtestvers" = _vX02uOIB;
+        "default" = _vX02uOIB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dynamic-waters-realistic-flowing-rivers";
@@ -110,12 +124,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "CC-BY-4.0" {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "Creative Commons Attribution 4.0 International";
-                shortName = "CC-BY-4.0";
+                fullName = "MIT License";
+                shortName = "MIT";
                 url = null;
             };
         };

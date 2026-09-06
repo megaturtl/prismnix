@@ -586,6 +586,26 @@ let
             "file" = "extended-industrialization-1.15.45-1.21.1.jar";
             "hash" = "sha512-3hCVEotxNuvueuBfcM8y16NxhPWpMEVBz+RVd6tHEGdiaZTr9PgYfq3kxoK/J548RwWr9noANDBsmXmjn8NpKg==";
         };
+        _dJQ13pXI = {
+            "id" = "dJQ13pXI";
+            "file" = "extended-industrialization-1.15.46-1.21.1.jar";
+            "hash" = "sha512-VOa5U1ew47pOw9/7BiiuewTbKOv82S+fVe8fa57/xa7mkO3KNglzXW5rxahxhIiJUKKgzV2XlZdYqV2RSoXu6w==";
+        };
+        _NQ4doJBh = {
+            "id" = "NQ4doJBh";
+            "file" = "extended-industrialization-1.16.0-1.21.1.jar";
+            "hash" = "sha512-d73n/8OGN2DLTGeoaX5oxah933giCuv8Dhi5seIWdUrhJ/YseH01LxLz/WBeeV03dqkPapzwRQaVbGrwRRl1Qw==";
+        };
+        _gsckx7bI = {
+            "id" = "gsckx7bI";
+            "file" = "extended-industrialization-1.16.1-1.21.1.jar";
+            "hash" = "sha512-eBDKId8DVMlS2uXg3i4PoWuClwLklWXahEjNLP1yuYk/rgdEmLyG6wLw0LGxsY4b5jEUpq0mm2mFcJyGiWm+tQ==";
+        };
+        _glBO8j6T = {
+            "id" = "glBO8j6T";
+            "file" = "extended-industrialization-1.16.2-1.21.1.jar";
+            "hash" = "sha512-/d9cvebOEifmZKD1yDv6S5wVvsPt2nsUFja6rnADcp7rPvRth4lKb1BMATrHcXqYWoaklkqJivDs4RMGl6RcAg==";
+        };
     in {
         "R9msxlAh" = _R9msxlAh;
         "O1QL9F52" = _O1QL9F52;
@@ -704,9 +724,13 @@ let
         "pgduSwTh" = _pgduSwTh;
         "HmsaWSwC" = _HmsaWSwC;
         "8pvQoruI" = _8pvQoruI;
+        "dJQ13pXI" = _dJQ13pXI;
+        "NQ4doJBh" = _NQ4doJBh;
+        "gsckx7bI" = _gsckx7bI;
+        "glBO8j6T" = _glBO8j6T;
         "neoforge-1.20.4" = _VFOSrHf3;
         "neoforge-1.21" = _QhhbqcvL;
-        "neoforge-1.21.1" = _8pvQoruI;
+        "neoforge-1.21.1" = _glBO8j6T;
         "pkg-1.0.0+1.20.4" = _R9msxlAh;
         "pkg-1.1.0+1.20.4" = _O1QL9F52;
         "pkg-1.1.1+1.20.4" = _XqPnqCsM;
@@ -824,7 +848,11 @@ let
         "pkg-1.15.43-1.21.1" = _pgduSwTh;
         "pkg-1.15.44-1.21.1" = _HmsaWSwC;
         "pkg-1.15.45-1.21.1" = _8pvQoruI;
-        "default" = _8pvQoruI;
+        "pkg-1.15.46-1.21.1" = _dJQ13pXI;
+        "pkg-1.16.0-1.21.1" = _NQ4doJBh;
+        "pkg-1.16.1-1.21.1" = _gsckx7bI;
+        "pkg-1.16.2-1.21.1" = _glBO8j6T;
+        "default" = _glBO8j6T;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "extended-industrialization";

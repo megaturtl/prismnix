@@ -46,6 +46,16 @@ let
             "file" = "sky_archipelago-1.3.4.jar";
             "hash" = "sha512-vNUunq9XjUjEfgVGhW2Giuky5Ubd8PcAURb41FtvOXHkGS33B/2yRpnwdIgb5HCV1u4IIm5JDBZl7reKCbh5JQ==";
         };
+        _wVcN5lO2 = {
+            "id" = "wVcN5lO2";
+            "file" = "sky_archipelago-1.3.5.jar";
+            "hash" = "sha512-A3zgtBUOTgWmVOq7Jmglzpnow1IgrSHXgKDxzqw51Y0SrbR+lpH+9y7RmUrqpKVyWgcytbq2Xs39V4A2MtN9FQ==";
+        };
+        _RwLz4CJb = {
+            "id" = "RwLz4CJb";
+            "file" = "sky_archipelago-1.3.6.jar";
+            "hash" = "sha512-Ssqo+ymm65StQODW787sLbVh+jjh2uG/SAO3izoMSwPKxo67yXvtSH48IXBKDUgkPhJJdKxrMJ9pPQIskCEWfA==";
+        };
     in {
         "5lVemVlC" = _5lVemVlC;
         "TMDMIhbi" = _TMDMIhbi;
@@ -56,7 +66,9 @@ let
         "jlDEtTxc" = _jlDEtTxc;
         "8gS6islc" = _8gS6islc;
         "wmsgGqpS" = _wmsgGqpS;
-        "neoforge-1.21.1" = _wmsgGqpS;
+        "wVcN5lO2" = _wVcN5lO2;
+        "RwLz4CJb" = _RwLz4CJb;
+        "neoforge-1.21.1" = _RwLz4CJb;
         "pkg-1.0.0" = _5lVemVlC;
         "pkg-1.2.0" = _TMDMIhbi;
         "pkg-1.2.1" = _LV8rvYnw;
@@ -66,7 +78,9 @@ let
         "pkg-1.3.2" = _jlDEtTxc;
         "pkg-1.3.3" = _8gS6islc;
         "pkg-1.3.4" = _wmsgGqpS;
-        "default" = _wmsgGqpS;
+        "pkg-1.3.5" = _wVcN5lO2;
+        "pkg-1.3.6" = _RwLz4CJb;
+        "default" = _RwLz4CJb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sky-archipelago";

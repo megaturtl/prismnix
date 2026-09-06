@@ -116,6 +116,11 @@ let
             "file" = "StarWarsExpansionv3.0.0.jar";
             "hash" = "sha512-DeDtfkTDHV/K9O06LwbSh/A8vdKVdIoT7UNNwlJYrNXe1rWCeTEfsdb8Y1VyZu6kTDV3HlIV8GoQNVrpak8Sgg==";
         };
+        _gelaxlYz = {
+            "id" = "gelaxlYz";
+            "file" = "StarWarsExpansionv3.1.0.jar";
+            "hash" = "sha512-CejdPcswGnSoeksO4wCX/W3B+oxUrYSaiwM+FzTNmQxY59l3lrHDydUbzVqeeJR3cUC1QsjAADC1HPTDzk1Xjw==";
+        };
     in {
         "jT71zwW0" = _jT71zwW0;
         "LEYOWy3p" = _LEYOWy3p;
@@ -140,7 +145,8 @@ let
         "qlwiKpIM" = _qlwiKpIM;
         "SMdTGUj4" = _SMdTGUj4;
         "kYLGVQ0A" = _kYLGVQ0A;
-        "forge-1.20.1" = _kYLGVQ0A;
+        "gelaxlYz" = _gelaxlYz;
+        "forge-1.20.1" = _gelaxlYz;
         "pkg-1.0.0" = _jT71zwW0;
         "pkg-1.1.0" = _LEYOWy3p;
         "pkg-1.2.0" = _WWTUQ1ve;
@@ -164,7 +170,8 @@ let
         "pkg-2.3.0" = _qlwiKpIM;
         "pkg-2.4.0" = _SMdTGUj4;
         "pkg-3.0.0" = _kYLGVQ0A;
-        "default" = _kYLGVQ0A;
+        "pkg-3.1.0" = _gelaxlYz;
+        "default" = _gelaxlYz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "star-wars-expansion";

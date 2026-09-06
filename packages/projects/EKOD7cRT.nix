@@ -516,6 +516,16 @@ let
             "file" = "simplekeybinds-1.4.4_fabric-mc26.2.jar";
             "hash" = "sha512-XUeIad+fYCk08B0UYLobiMnIdV/WBR0UQSTQaTRXSmvybWcMABb6RpI9akWAbPy2Oh9SHP7Um3xhmvE998Kjfw==";
         };
+        _jRlh73ix = {
+            "id" = "jRlh73ix";
+            "file" = "simplekeybinds-1.4.5_neoforge-mc26.2.jar";
+            "hash" = "sha512-Wy+6ldQ+uHx0lIEmdcqxWJHWr6D6HVtKUFUWoCE+YyLQICASHhEPCYvTBLiB/Byoeuwrkhry8TYg3SmFQ/RNcA==";
+        };
+        _lhjVKrLO = {
+            "id" = "lhjVKrLO";
+            "file" = "simplekeybinds-1.4.5_fabric-mc26.2.jar";
+            "hash" = "sha512-MneO7sItFBDlowISvsryd4Lry2e5BfLpc2OuYx9BAvgtZbmNiN9VUXOFYnUuDWw96t1faQDp0wMNldmhBpZkGA==";
+        };
     in {
         "YpvHVhQ6" = _YpvHVhQ6;
         "zd1Ud1wo" = _zd1Ud1wo;
@@ -620,6 +630,8 @@ let
         "oLXRt9wc" = _oLXRt9wc;
         "eaRK36p7" = _eaRK36p7;
         "Ugkyegx2" = _Ugkyegx2;
+        "jRlh73ix" = _jRlh73ix;
+        "lhjVKrLO" = _lhjVKrLO;
         "fabric-1.16.5" = _x6IKLWxb;
         "fabric-1.17" = _Qlne5Kca;
         "fabric-1.17.1" = _Qlne5Kca;
@@ -655,7 +667,7 @@ let
         "fabric-26.1" = _xVqmHKbp;
         "fabric-26.1.1" = _xVqmHKbp;
         "fabric-26.1.2" = _AviXHhPf;
-        "fabric-26.2" = _Ugkyegx2;
+        "fabric-26.2" = _lhjVKrLO;
         "forge-1.20" = _9g3XkzOx;
         "forge-1.20.1" = _YHcMcHst;
         "forge-1.20.2" = _9g3XkzOx;
@@ -688,7 +700,7 @@ let
         "neoforge-26.1" = _HP7qf9xQ;
         "neoforge-26.1.1" = _HP7qf9xQ;
         "neoforge-26.1.2" = _hi7GuF5K;
-        "neoforge-26.2" = _eaRK36p7;
+        "neoforge-26.2" = _jRlh73ix;
         "pkg-1.0-1.16.5" = _YpvHVhQ6;
         "pkg-1.0-1.17.x" = _zd1Ud1wo;
         "pkg-1.0-1.18.x" = _TAFsq6FI;
@@ -745,7 +757,8 @@ let
         "pkg-1.4.2" = _O6Gh2H4A;
         "pkg-1.4.3" = _oLXRt9wc;
         "pkg-1.4.4" = _Ugkyegx2;
-        "default" = _Ugkyegx2;
+        "pkg-1.4.5" = _lhjVKrLO;
+        "default" = _lhjVKrLO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-keybinds";

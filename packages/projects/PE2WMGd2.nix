@@ -656,6 +656,26 @@ let
             "file" = "progression-reborn-26.1-r2.0-fabric.jar";
             "hash" = "sha512-sJuuJcttCsgkR4o8DneHl9+jd28wGMXMXhv1vFXoNLX13+cmszgnkLj9zx7BwBbfcMDTF7mcAyxgVzYUX3LAnQ==";
         };
+        _3ySVh67I = {
+            "id" = "3ySVh67I";
+            "file" = "progression-reborn-26.1-r2.1-neoforge.jar";
+            "hash" = "sha512-EvbrB1fAMPtKB6Df0EVoQsmNsdErQPUD6o8LXk3wTL33YTibdTi9UoD5Et8TUjIzjMzn2y5lOym4uZRGYcb2xg==";
+        };
+        _6ru9TQ9w = {
+            "id" = "6ru9TQ9w";
+            "file" = "progression-reborn-26.1-r2.1-fabric.jar";
+            "hash" = "sha512-0yqVgo87SaQs5DUWaXjAay264J5mohfR/IpwA3zmWj9iRvzD+mnFMZi5sTZ56AomCtvtcTRg5gFvaoay05eRSA==";
+        };
+        _izLVrcxg = {
+            "id" = "izLVrcxg";
+            "file" = "progression-reborn-26.1-r2.1.1-neoforge.jar";
+            "hash" = "sha512-JmyCFsQeyBDxY17aiJPV54UaPJwF7BADwhScG0qSBwJVla2dkpCUByG2zWvXtteeaYJ4kazFRr5H34d8eYmpuA==";
+        };
+        _OCeGcGA4 = {
+            "id" = "OCeGcGA4";
+            "file" = "progression-reborn-26.1-r2.1.1-fabric.jar";
+            "hash" = "sha512-a27ivqh4Eq9bENlKO6zm5uDnB1/npIIDt0TRwzK/lIOQFo4PhlCjuaXWFwM/LC25MuUMY/ujorJPsmmL69t0Ig==";
+        };
     in {
         "Zt9kmkjR" = _Zt9kmkjR;
         "bJU2WRPr" = _bJU2WRPr;
@@ -788,6 +808,10 @@ let
         "f4nvtPUW" = _f4nvtPUW;
         "ewOFtC8P" = _ewOFtC8P;
         "wf3NnyQg" = _wf3NnyQg;
+        "3ySVh67I" = _3ySVh67I;
+        "6ru9TQ9w" = _6ru9TQ9w;
+        "izLVrcxg" = _izLVrcxg;
+        "OCeGcGA4" = _OCeGcGA4;
         "fabric-1.19" = _6667i36L;
         "fabric-1.19.1" = _6667i36L;
         "fabric-1.19.2" = _6667i36L;
@@ -801,12 +825,12 @@ let
         "fabric-1.21.1" = _ymAsozbk;
         "fabric-1.21.5" = _onwrpWYL;
         "fabric-1.21.11" = _DS0JmtsD;
-        "fabric-26.1" = _wf3NnyQg;
-        "fabric-26.1.1" = _wf3NnyQg;
-        "fabric-26.1.2" = _wf3NnyQg;
-        "neoforge-26.1" = _ewOFtC8P;
-        "neoforge-26.1.1" = _ewOFtC8P;
-        "neoforge-26.1.2" = _ewOFtC8P;
+        "fabric-26.1" = _OCeGcGA4;
+        "fabric-26.1.1" = _OCeGcGA4;
+        "fabric-26.1.2" = _OCeGcGA4;
+        "neoforge-26.1" = _izLVrcxg;
+        "neoforge-26.1.1" = _izLVrcxg;
+        "neoforge-26.1.2" = _izLVrcxg;
         "pkg-1.0.1" = _9UXTm63h;
         "pkg-1.0.2" = _qY4IEA4W;
         "pkg-1.0.3" = _SXGndUoF;
@@ -929,7 +953,11 @@ let
         "pkg-26.1-r1.2-fabric" = _f4nvtPUW;
         "pkg-26.1-r2.0-neoforge" = _ewOFtC8P;
         "pkg-26.1-r2.0-fabric" = _wf3NnyQg;
-        "default" = _wf3NnyQg;
+        "pkg-26.1-r2.1-neoforge" = _3ySVh67I;
+        "pkg-26.1-r2.1-fabric" = _6ru9TQ9w;
+        "pkg-26.1-r2.1.1-neoforge" = _izLVrcxg;
+        "pkg-26.1-r2.1.1-fabric" = _OCeGcGA4;
+        "default" = _OCeGcGA4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "progression-reborn";

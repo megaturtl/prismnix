@@ -476,6 +476,16 @@ let
             "file" = "autopickup-neoforge-1.4.14+26.2.jar";
             "hash" = "sha512-wQEkBfaLA9PQHFwqj/P/qffDAhYahGdfjkE4EhW8zvE85yJEhWRr5MgKMa8MqGqBZ9DOLf+kPTQltqCGaX6DJQ==";
         };
+        _P2eX3vN7 = {
+            "id" = "P2eX3vN7";
+            "file" = "autopickup-fabric-1.4.15+26.2.jar";
+            "hash" = "sha512-PNpuH2IXwb0EK3tianPbtpQtAhcEJRIKUGQVLjeOvzVj4H49U7rJaLsQZWyl8xf1e5cr6uVESnM6gGIMxUAqIg==";
+        };
+        _GIymrrsm = {
+            "id" = "GIymrrsm";
+            "file" = "autopickup-neoforge-1.4.15+26.2.jar";
+            "hash" = "sha512-lp67d2KZxH8ywbfuyhQMX5gdx2HL8y3MOiUaUW83xt0aMb/cG57+sVCvy31aF9k7giNcxMImnL/FvA2ti1m7Ug==";
+        };
     in {
         "4yLWM3Ib" = _4yLWM3Ib;
         "akon43Hz" = _akon43Hz;
@@ -572,6 +582,8 @@ let
         "ulyLuy0f" = _ulyLuy0f;
         "ygFXkhQe" = _ygFXkhQe;
         "BQDQpvkc" = _BQDQpvkc;
+        "P2eX3vN7" = _P2eX3vN7;
+        "GIymrrsm" = _GIymrrsm;
         "fabric-1.21.5" = _s7auWwgK;
         "fabric-1.21.6" = _s7auWwgK;
         "fabric-1.21.7" = _s7auWwgK;
@@ -594,7 +606,7 @@ let
         "fabric-26.1" = _aRqvjbqL;
         "fabric-26.1.1" = _aRqvjbqL;
         "fabric-26.1.2" = _aRqvjbqL;
-        "fabric-26.2" = _ygFXkhQe;
+        "fabric-26.2" = _P2eX3vN7;
         "neoforge-26.1" = _ulyLuy0f;
         "neoforge-26.1.1" = _ulyLuy0f;
         "neoforge-26.1.2" = _ulyLuy0f;
@@ -603,7 +615,7 @@ let
         "neoforge-1.21.9" = _3eYS3Cud;
         "neoforge-1.21.10" = _3eYS3Cud;
         "neoforge-1.21.11" = _3eYS3Cud;
-        "neoforge-26.2" = _BQDQpvkc;
+        "neoforge-26.2" = _GIymrrsm;
         "forge-1.20.1" = _luVKA5YD;
         "forge-1.21" = _POJVRI1b;
         "forge-1.21.1" = _POJVRI1b;
@@ -668,7 +680,8 @@ let
         "pkg-1.4.14+1.21.9-11" = _3eYS3Cud;
         "pkg-1.4.14+26.1.2" = _ulyLuy0f;
         "pkg-1.4.14+26.2" = _BQDQpvkc;
-        "default" = _BQDQpvkc;
+        "pkg-1.4.15+26.2" = _GIymrrsm;
+        "default" = _GIymrrsm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-autopickup";

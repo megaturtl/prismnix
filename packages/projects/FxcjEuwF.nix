@@ -67,12 +67,12 @@ let
         type = "resourcepack";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Henoke-MTR-ResoursePack-License" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Henoke-MTR-ResoursePack-License-A" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "LicenseRef-Henoke-MTR-ResoursePack-License";
-                shortName = "LicenseRef-Henoke-MTR-ResoursePack-License";
+                fullName = "LicenseRef-Henoke-MTR-ResoursePack-License-A";
+                shortName = "LicenseRef-Henoke-MTR-ResoursePack-License-A";
                 url = "https://gist.githubusercontent.com/Henoke-ekoneH/f69fdaeb6ecbd6ec78c1efd9e91013fc/raw/35310bd970013cdb4ebc6e3c048309d5779ca9ca/HenokeMTRResoursePackLisence.md";
             };
         };

@@ -121,6 +121,16 @@ let
             "file" = "delightfulcreators-1.1.8.jar";
             "hash" = "sha512-Zu4qLN1SWo2jH7LFg1mMisa4nB+Ux00Aa4a7RrR4+We1EuRS8Tjdw4KQP/OD9AkhDvIXZAoKBiCW20xxtzduNg==";
         };
+        _RaZ6cEBB = {
+            "id" = "RaZ6cEBB";
+            "file" = "delightfulcreators-1.1.9.jar";
+            "hash" = "sha512-DDz366wOFFipj409/NS4f0VwbI+8S3wmbzkIUbYGqAJRyFnjIYmOwkpaVlTNqCTk1RY9s5LPLXfju9Y+RzMIaA==";
+        };
+        _xde79BbO = {
+            "id" = "xde79BbO";
+            "file" = "delightfulcreators-1.2.1.jar";
+            "hash" = "sha512-7D0nn8+QwRyrdrRmzJ33T9M9AFTB1TzprhaVYMh7jVuo6fnvLK/GPRgcLGhH2SDhp0BQ+0WY7vhv2Wd0KQaDWA==";
+        };
     in {
         "wu3YB1wA" = _wu3YB1wA;
         "eje1aZqZ" = _eje1aZqZ;
@@ -146,6 +156,8 @@ let
         "NQYn2veF" = _NQYn2veF;
         "669sIhQp" = _669sIhQp;
         "mUMlzK7t" = _mUMlzK7t;
+        "RaZ6cEBB" = _RaZ6cEBB;
+        "xde79BbO" = _xde79BbO;
         "fabric-1.19.2" = _8nGvRGPL;
         "fabric-1.20.1" = _NQYn2veF;
         "fabric-1.20.2" = _NQYn2veF;
@@ -153,13 +165,13 @@ let
         "fabric-1.20.4" = _NQYn2veF;
         "fabric-1.20.5" = _NQYn2veF;
         "fabric-1.20.6" = _NQYn2veF;
-        "forge-1.20.1" = _mUMlzK7t;
+        "forge-1.20.1" = _RaZ6cEBB;
         "forge-1.20.2" = _mUMlzK7t;
         "forge-1.20.3" = _mUMlzK7t;
         "forge-1.20.4" = _mUMlzK7t;
         "forge-1.20.5" = _mUMlzK7t;
         "forge-1.20.6" = _mUMlzK7t;
-        "neoforge-1.21.1" = _669sIhQp;
+        "neoforge-1.21.1" = _xde79BbO;
         "neoforge-1.21.2" = _669sIhQp;
         "neoforge-1.21.3" = _669sIhQp;
         "neoforge-1.21.4" = _669sIhQp;
@@ -170,6 +182,7 @@ let
         "neoforge-1.21.9" = _669sIhQp;
         "neoforge-1.21.10" = _669sIhQp;
         "neoforge-1.21.11" = _669sIhQp;
+        "neoforge-1.20.1" = _RaZ6cEBB;
         "pkg-0.0.1" = _wu3YB1wA;
         "pkg-0.0.1a" = _eje1aZqZ;
         "pkg-0.0.1b" = _aFbvt8I0;
@@ -190,7 +203,9 @@ let
         "pkg-1.2" = _669sIhQp;
         "pkg-1.5-1.20.x" = _pypf2sxy;
         "pkg-1.6-1.20.x" = _NQYn2veF;
-        "default" = _mUMlzK7t;
+        "pkg-1.1.9" = _RaZ6cEBB;
+        "pkg-1.2.1" = _xde79BbO;
+        "default" = _xde79BbO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "delightful-creators";

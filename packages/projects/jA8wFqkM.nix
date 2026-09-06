@@ -106,6 +106,26 @@ let
             "file" = "potatologistics-1.1.2.jar";
             "hash" = "sha512-2SrD7omMAesEhda7S9A+6SwLcBM1/X6VLfdyxc4ye7jjq8eAaYAJz4SU9PqG0uJWT+qI1fTuJ4SGnaIuEqEsaw==";
         };
+        _nnOpYGYT = {
+            "id" = "nnOpYGYT";
+            "file" = "potatologistics-1.2.0+8.0.1.jar";
+            "hash" = "sha512-rPkJUy8VKt6OPM4FGnLtV5IMBIczj6llUZy93JdIM44TKx9luwMg0d9nO8uMEXY8e24V/KpaVMVojolg3FjPZQ==";
+        };
+        _FrC3FaLN = {
+            "id" = "FrC3FaLN";
+            "file" = "potatologistics-1.2.1+8.0.1.jar";
+            "hash" = "sha512-7oCLwLVacUSmUB6WmuxS5+SYgL7+Cipd/2aU/wgGgckT0AMIZDck65lufhrzFqe+6k+0o8Q+YQf7dYLXhHhxWA==";
+        };
+        _vCmf1pg7 = {
+            "id" = "vCmf1pg7";
+            "file" = "potatologistics-1.2.1+8.0.1.jar";
+            "hash" = "sha512-MD3EdZI2bpk7ErGktWmcAfqajXSgGqOSWRhsHuY9JvEfjoVaczZcC0O6UTJhdplsw3+JRLMel7tRraTcfEHmkg==";
+        };
+        _9jJLjuxV = {
+            "id" = "9jJLjuxV";
+            "file" = "potatologistics-1.2.2+8.0.1.jar";
+            "hash" = "sha512-hx1C8KpNTN0PK+eVz6mVbBsq5rDRgcg3neuwlidZN9+nBnqtC3CVHUFXgPjJaHO7dftm19WQV7hImfyw/IwAYQ==";
+        };
     in {
         "rDhioosx" = _rDhioosx;
         "BLUJarZ6" = _BLUJarZ6;
@@ -128,9 +148,13 @@ let
         "CoKuNQUI" = _CoKuNQUI;
         "zrj1ke4n" = _zrj1ke4n;
         "y8GPsJcs" = _y8GPsJcs;
-        "fabric-b1.7.3" = _y8GPsJcs;
-        "bta-babric-b1.7.3" = _y8GPsJcs;
-        "babric-b1.7.3" = _udvVbAly;
+        "nnOpYGYT" = _nnOpYGYT;
+        "FrC3FaLN" = _FrC3FaLN;
+        "vCmf1pg7" = _vCmf1pg7;
+        "9jJLjuxV" = _9jJLjuxV;
+        "fabric-b1.7.3" = _nnOpYGYT;
+        "bta-babric-b1.7.3" = _9jJLjuxV;
+        "babric-b1.7.3" = _FrC3FaLN;
         "pkg-0.3.2" = _rDhioosx;
         "pkg-0.3.3" = _MFE5o1lD;
         "pkg-0.4.0" = _Z4edX9ei;
@@ -151,7 +175,11 @@ let
         "pkg-1.1.0" = _CoKuNQUI;
         "pkg-1.1.1" = _zrj1ke4n;
         "pkg-1.1.2" = _y8GPsJcs;
-        "default" = _y8GPsJcs;
+        "pkg-1.2.0" = _nnOpYGYT;
+        "pkg-1.2.1" = _FrC3FaLN;
+        "pkg-1.2.1b" = _vCmf1pg7;
+        "pkg-1.2.2" = _9jJLjuxV;
+        "default" = _9jJLjuxV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "potato-logistics";

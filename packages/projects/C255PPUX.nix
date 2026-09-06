@@ -271,6 +271,21 @@ let
             "file" = "map_atlases-fabric-1.21-6.6.3.jar";
             "hash" = "sha512-BhZIMLLUkaOh6Z7w50Zb9i0DK0DVgO6WH9OvzeCy2TX+qMr5Va5j36z4YGj47klHuxHB/WnzrInXRE0HrT7iwA==";
         };
+        _PSYRoPcO = {
+            "id" = "PSYRoPcO";
+            "file" = "map_atlases-1.21-6.7.1-fabric.jar";
+            "hash" = "sha512-hTWYPkCGcoxCQ5z2YmL9V9+1hmSK9nBwid61KvX8gIx4klh6v6/N2gq2Ulh4pnAPELjgcFqzmb9L09JnhEAa/A==";
+        };
+        _f51OQTVz = {
+            "id" = "f51OQTVz";
+            "file" = "map_atlases-1.21-6.7.2-fabric.jar";
+            "hash" = "sha512-aqkZiTN36xI4VLuGCqBJmiSxSiPXiKG/22sFa1UTwItDxx9VpZZfkMPVp6+XcpskLkffnrDP9scWiGsMLaxWtQ==";
+        };
+        _dDBq7m8w = {
+            "id" = "dDBq7m8w";
+            "file" = "map_atlases-1.21-6.7.3-fabric.jar";
+            "hash" = "sha512-oja3GcgVH8XFXqsfvAmc3LKAXTFTyhSYYUmjNsjvPNnBzVVtOz7IOqM5x0k0koWEOGZM1FNZJc5ZLPa3n3wAbA==";
+        };
     in {
         "iDcqJ7M9" = _iDcqJ7M9;
         "bcdzezHN" = _bcdzezHN;
@@ -326,6 +341,9 @@ let
         "vVuqrskW" = _vVuqrskW;
         "gbgRQ5qB" = _gbgRQ5qB;
         "7AqSTCHY" = _7AqSTCHY;
+        "PSYRoPcO" = _PSYRoPcO;
+        "f51OQTVz" = _f51OQTVz;
+        "dDBq7m8w" = _dDBq7m8w;
         "fabric-1.16.2" = _bcdzezHN;
         "fabric-1.16.3" = _bcdzezHN;
         "fabric-1.16.4" = _bcdzezHN;
@@ -342,7 +360,7 @@ let
         "fabric-1.20.1" = _vVuqrskW;
         "fabric-1.20.4" = _Cm1VPyWo;
         "fabric-1.21" = _gMYXmWb8;
-        "fabric-1.21.1" = _7AqSTCHY;
+        "fabric-1.21.1" = _dDBq7m8w;
         "pkg-V1.2.3" = _iDcqJ7M9;
         "pkg-1.2.5" = _bcdzezHN;
         "pkg-2.0.1+1.19" = _K3mpZWDs;
@@ -391,7 +409,10 @@ let
         "pkg-1.20-6.0.20" = _vVuqrskW;
         "pkg-1.21-6.6.2" = _gbgRQ5qB;
         "pkg-1.21-6.6.3" = _7AqSTCHY;
-        "default" = _7AqSTCHY;
+        "pkg-1.21-6.7.1" = _PSYRoPcO;
+        "pkg-1.21-6.7.2" = _f51OQTVz;
+        "pkg-1.21-6.7.3" = _dDBq7m8w;
+        "default" = _dDBq7m8w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "map-atlases";

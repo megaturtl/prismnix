@@ -25,12 +25,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "GNU General Public License v3.0 or later";
-                shortName = "GPL-3.0-or-later";
+                fullName = "MIT License";
+                shortName = "MIT";
                 url = "https://github.com/mrqx0195/slashblade-skin/blob/main/LICENSE";
             };
         };

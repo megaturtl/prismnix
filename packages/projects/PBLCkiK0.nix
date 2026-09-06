@@ -66,10 +66,25 @@ let
             "file" = "justarmour-2.0.jar";
             "hash" = "sha512-MAh82p43r7vTjBMjnwa2gVEL50eMWntKTpwasVKRCFy9f/gBpo2J8XfzCf3DA0TUkmZKptUM2ug/c/4ZBNhP5A==";
         };
-        _pXxtZarD = {
-            "id" = "pXxtZarD";
-            "file" = "JustArmour-3.0.jar";
-            "hash" = "sha512-MbXibbvJWJ0gYJ5vFpYdLpWdUuVPK7Jwq4ak4woLRRbUUb6KFftK/4F6m64TkTmiikCuNviOiF0nt9Fvhjsvpg==";
+        _tm1uFPmh = {
+            "id" = "tm1uFPmh";
+            "file" = "JustArmourHud-3.0.jar";
+            "hash" = "sha512-3R3HhUxRXOTXOFeCIS4w6Nghc/lNeUlf92NhsbLj3HXj16v4bji9B9dBQevsrnP51AovvtEUBSwcv/Icgs5omA==";
+        };
+        _7K3lpoTd = {
+            "id" = "7K3lpoTd";
+            "file" = "JustArmourHud-3.0.jar";
+            "hash" = "sha512-uV7qhZ0MEGxsNPQdjIfzaxtgjvGnc9HLWRa2SsiABjfpRwqHScBSVbkYKNN6xDb1wsmj9nyxuZ0m/yMj/mZYFA==";
+        };
+        _7tpH7ade = {
+            "id" = "7tpH7ade";
+            "file" = "JustArmourHud-3.0.jar";
+            "hash" = "sha512-PjYc7/JWbT139uKaDdVo33681OiB3wov02Gr0OGrtp6MG3Ru0bPOhuqCWLVVOM9ZKsTXsw/O0Ea1ygH2B10lYA==";
+        };
+        _sMYtqWjM = {
+            "id" = "sMYtqWjM";
+            "file" = "JustArmourHud-3.0.jar";
+            "hash" = "sha512-/FF1V6gPuWUc4XL/zgo6pZO5GEW7mp9sG+TNu4jOEeiKyQMJy2QK/r3wYRdcwIi+vYHYdDrvcfljH5HsfYUaiQ==";
         };
     in {
         "pfltS8NS" = _pfltS8NS;
@@ -85,23 +100,30 @@ let
         "9cd7eOSq" = _9cd7eOSq;
         "QlW6L2DX" = _QlW6L2DX;
         "l82iaoQw" = _l82iaoQw;
-        "pXxtZarD" = _pXxtZarD;
-        "fabric-1.21" = _pXxtZarD;
-        "fabric-1.21.1" = _pXxtZarD;
+        "tm1uFPmh" = _tm1uFPmh;
+        "7K3lpoTd" = _7K3lpoTd;
+        "7tpH7ade" = _7tpH7ade;
+        "sMYtqWjM" = _sMYtqWjM;
+        "fabric-1.21" = _BEaDdX1g;
+        "fabric-1.21.1" = _BEaDdX1g;
         "fabric-1.21.2" = _BEaDdX1g;
         "fabric-1.21.3" = _BEaDdX1g;
         "fabric-1.21.4" = _BEaDdX1g;
         "fabric-1.21.5" = _9cd7eOSq;
         "fabric-1.21.6" = _QlW6L2DX;
         "fabric-1.21.8" = _SPfVPUx2;
-        "fabric-1.21.11" = _qWlrz0ml;
-        "fabric-1.21.10" = _l82iaoQw;
+        "fabric-1.21.11" = _tm1uFPmh;
+        "fabric-1.21.10" = _sMYtqWjM;
+        "fabric-26.1" = _7K3lpoTd;
+        "fabric-26.1.1" = _7K3lpoTd;
+        "fabric-26.1.2" = _7K3lpoTd;
+        "fabric-26.2" = _7tpH7ade;
         "pkg-1.1.1" = _b9vY74fn;
         "pkg-1.1.2" = _GTYdRTZI;
         "pkg-1.2.2" = _xpmVxav3;
         "pkg-2.0" = _l82iaoQw;
-        "pkg-3.0" = _pXxtZarD;
-        "default" = _pXxtZarD;
+        "pkg-3.0" = _sMYtqWjM;
+        "default" = _sMYtqWjM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "justarmour";

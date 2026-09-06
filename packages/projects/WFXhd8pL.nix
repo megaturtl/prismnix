@@ -36,6 +36,11 @@ let
             "file" = "Green 26.1.zip";
             "hash" = "sha512-cgzZmBRD3mDJB4NjZqHMKR/PyoGgjyuVKipacK4YiPGjGutOc4mIG11OLpJgN7nk6znhMmelml/jHXGWsG603w==";
         };
+        _8WMsxLNK = {
+            "id" = "8WMsxLNK";
+            "file" = "Green 26.2.zip";
+            "hash" = "sha512-43PO2+MR6YVpJ5NnQUQ7sVmbW69Nqzoo/il5VF5gehO3K8qQXKRsyjQeKgiE3lXXNFxLlYZ8g53odB20TxHDuw==";
+        };
     in {
         "oNBQPjIo" = _oNBQPjIo;
         "FwbFDLHN" = _FwbFDLHN;
@@ -44,6 +49,7 @@ let
         "lkfwH8Qx" = _lkfwH8Qx;
         "odLCPCM3" = _odLCPCM3;
         "c9tgnjQc" = _c9tgnjQc;
+        "8WMsxLNK" = _8WMsxLNK;
         "minecraft-1.20" = _oNBQPjIo;
         "minecraft-1.20.1" = _oNBQPjIo;
         "minecraft-1.21" = _FwbFDLHN;
@@ -57,8 +63,10 @@ let
         "minecraft-26.1" = _c9tgnjQc;
         "minecraft-26.1.1" = _c9tgnjQc;
         "minecraft-26.1.2" = _c9tgnjQc;
+        "minecraft-26.2" = _8WMsxLNK;
         "pkg-1.0" = _c9tgnjQc;
-        "default" = _c9tgnjQc;
+        "pkg-26.2" = _8WMsxLNK;
+        "default" = _8WMsxLNK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "green";

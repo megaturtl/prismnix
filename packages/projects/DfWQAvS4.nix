@@ -166,20 +166,20 @@ let
             "file" = "immersiveenchanting-5.0.1-forge-1.20.1.jar";
             "hash" = "sha512-8E24IzIE8bahwomC8v3pcD/m0o9f1NjTu3G6fMeXrVa7OKUaWfWlMSYnOcH6K8c48Uosc+e0ojO7PBpAH90GTg==";
         };
-        _jOJoSLe2 = {
-            "id" = "jOJoSLe2";
-            "file" = "immersiveenchanting-6.0.0-forge-1.20.1.jar";
-            "hash" = "sha512-WYshcBQaUnBDenrJ2jj5JBTmebbYPlcaauVO//S/CaL8kowAsqN7mnYQkeIINA7ExJz/j5tSklioYmU+BvNB3w==";
+        _1axWAPS7 = {
+            "id" = "1axWAPS7";
+            "file" = "beta-immersiveenchanting-6.0.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-nGX8sFRKIOEi7uolvV0VxwYxWiNpc+QgIasKZ9UB3JY/d1FgFAFqRazHfXZfC25g9AzSq7dXvMCC7FR7Cbkj+Q==";
         };
-        _dAYfyhxT = {
-            "id" = "dAYfyhxT";
-            "file" = "immersiveenchanting-6.0.0-neoforge-1.21.1.jar";
-            "hash" = "sha512-yKOuEg6C7jkEk2SI93pD4q2oAmYX5LiXUfXWIBDA1Ivrp9rHnO94phNoT1NxGSPLRfX6i1v5ZlKGZ6prs7+eAA==";
+        _2ozQFJp6 = {
+            "id" = "2ozQFJp6";
+            "file" = "beta-immersiveenchanting-6.0.1-forge-1.20.1.jar";
+            "hash" = "sha512-nsxzNJBqrqCI9uc9pGR2cXszo0MU6yTStKrQlyeD3GePppb9NtNgK6v7YvcszqQlO10KqMWozK7QdtLrSzakqw==";
         };
-        _O38BRtlL = {
-            "id" = "O38BRtlL";
-            "file" = "immersiveenchanting-6.0.0-neoforge-26.1.jar";
-            "hash" = "sha512-M26I78JCdR3fsCumzMG4JKrifULuSIlwBP9HYbNI1iCvSI+lqhCojliVAxDKGauxOsO/I2dekntKUYqvm+LhHQ==";
+        _xcGSU3Gq = {
+            "id" = "xcGSU3Gq";
+            "file" = "immersiveenchanting-6.0.1-neoforge-26.1.jar";
+            "hash" = "sha512-fh8U0GzBmnSgpevd+1Dcney2SmzQNCWLLEp3z2uG7hbTYR/AV4uOxlntOEmIC+iPf6zC4eIwfjsNKW29mEqipQ==";
         };
     in {
         "BW8xfQt8" = _BW8xfQt8;
@@ -215,12 +215,13 @@ let
         "ZrmDl9fK" = _ZrmDl9fK;
         "K1pctBBF" = _K1pctBBF;
         "L1uablxv" = _L1uablxv;
-        "jOJoSLe2" = _jOJoSLe2;
-        "dAYfyhxT" = _dAYfyhxT;
-        "O38BRtlL" = _O38BRtlL;
-        "neoforge-1.21.1" = _dAYfyhxT;
-        "neoforge-26.1" = _O38BRtlL;
-        "forge-1.20.1" = _jOJoSLe2;
+        "1axWAPS7" = _1axWAPS7;
+        "2ozQFJp6" = _2ozQFJp6;
+        "xcGSU3Gq" = _xcGSU3Gq;
+        "neoforge-1.21.1" = _1axWAPS7;
+        "neoforge-26.1" = _xcGSU3Gq;
+        "neoforge-26.1.1" = _xcGSU3Gq;
+        "forge-1.20.1" = _2ozQFJp6;
         "pkg-1.0.1" = _BW8xfQt8;
         "pkg-1.1.1" = _1qAfK45Z;
         "pkg-1.2.0" = _MiDE0YKu;
@@ -240,8 +241,8 @@ let
         "pkg-5.0.0" = _7Sv0NVj7;
         "pkg-5.0.1" = _L1uablxv;
         "pkg-5.0.2" = _ZrmDl9fK;
-        "pkg-6.0.0" = _O38BRtlL;
-        "default" = _O38BRtlL;
+        "pkg-6.0.1" = _xcGSU3Gq;
+        "default" = _xcGSU3Gq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-enchanting";

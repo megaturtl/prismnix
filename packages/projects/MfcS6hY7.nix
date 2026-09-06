@@ -28,6 +28,8 @@ let
         "bukkit-1.21.11" = _gdLFZOJz;
         "bukkit-26.1" = _kJ4W2NH5;
         "bukkit-26.1.1" = _kJ4W2NH5;
+        "bukkit-26.1.2" = _kJ4W2NH5;
+        "bukkit-26.2" = _kJ4W2NH5;
         "paper-1.21" = _gdLFZOJz;
         "paper-1.21.1" = _gdLFZOJz;
         "paper-1.21.2" = _gdLFZOJz;
@@ -42,6 +44,8 @@ let
         "paper-1.21.11" = _gdLFZOJz;
         "paper-26.1" = _kJ4W2NH5;
         "paper-26.1.1" = _kJ4W2NH5;
+        "paper-26.1.2" = _kJ4W2NH5;
+        "paper-26.2" = _kJ4W2NH5;
         "purpur-1.21" = _gdLFZOJz;
         "purpur-1.21.1" = _gdLFZOJz;
         "purpur-1.21.2" = _gdLFZOJz;
@@ -56,6 +60,8 @@ let
         "purpur-1.21.11" = _gdLFZOJz;
         "purpur-26.1" = _kJ4W2NH5;
         "purpur-26.1.1" = _kJ4W2NH5;
+        "purpur-26.1.2" = _kJ4W2NH5;
+        "purpur-26.2" = _kJ4W2NH5;
         "spigot-1.21" = _gdLFZOJz;
         "spigot-1.21.1" = _gdLFZOJz;
         "spigot-1.21.2" = _gdLFZOJz;
@@ -70,6 +76,8 @@ let
         "spigot-1.21.11" = _gdLFZOJz;
         "spigot-26.1" = _kJ4W2NH5;
         "spigot-26.1.1" = _kJ4W2NH5;
+        "spigot-26.1.2" = _kJ4W2NH5;
+        "spigot-26.2" = _kJ4W2NH5;
         "pkg-1.0.0a" = _gdLFZOJz;
         "pkg-1.0.0b" = _kJ4W2NH5;
         "default" = _kJ4W2NH5;

@@ -116,6 +116,56 @@ let
             "file" = "cookiejar-0.2.5+26.2.jar";
             "hash" = "sha512-QhRbU+P2IWNEGib/jxu6Z4YFRyayo21xfTQKHPiOHBM7cc4lUEiK/ay6zw03V8pvIV4ccp416331f6W9z3qmIw==";
         };
+        _NkXsCRSE = {
+            "id" = "NkXsCRSE";
+            "file" = "cookiejar-0.2.6+1.20.5.jar";
+            "hash" = "sha512-F3qLH+Hg+FwUhsI7kPQ87QAW80QxzZ4Fm5uxUBGAVC/vIw5AQnIbELvgybBNkfvPTC0Kh2gws/ZCnG26DYm5jA==";
+        };
+        _ay5LPr0B = {
+            "id" = "ay5LPr0B";
+            "file" = "cookiejar-0.2.6+1.21.jar";
+            "hash" = "sha512-qQhKfkUUaU+JjzHYG6ViaS12C1xoZswXjXtP0mmcFT4TAjoZRfRlU4X9Ws05fUs5kaR+cUF1+rrACdCcEps2hA==";
+        };
+        _SgqWaQVx = {
+            "id" = "SgqWaQVx";
+            "file" = "cookiejar-0.2.6+1.21.2.jar";
+            "hash" = "sha512-2uAWX0iSnNOk8yj8foBB02VcK84Nl+LD0EZfXzFGsSZWX0a3Wz/AOzE4pAOpBca6ClhV+ORq+WwHTC7/aPhwug==";
+        };
+        _JMOuspeE = {
+            "id" = "JMOuspeE";
+            "file" = "cookiejar-0.2.6+1.21.4.jar";
+            "hash" = "sha512-qzNJ369KJZ3BpUt3P5106T8IxjQU99NnSgYZTY/MNAWnB+N39czMJROGquZbvXAebpAaRMTjsXUN/ugWrHXHig==";
+        };
+        _WphN6OLU = {
+            "id" = "WphN6OLU";
+            "file" = "cookiejar-0.2.6+1.21.5.jar";
+            "hash" = "sha512-on34exi07vH2ZFQr00CVhw9w6JNjKZHW5eez0u3eK329jsxhx+FMtpsaemgesKOBm1U1X2hPlLy7uHnp+95QUA==";
+        };
+        _ui7vM17M = {
+            "id" = "ui7vM17M";
+            "file" = "cookiejar-0.2.6+1.21.6.jar";
+            "hash" = "sha512-U3BAoKBW/n5/e+aIsahyg6dTonGP1QI239nv42roe+jAGJQnimivnbIbeUHMXXzAQhvaV/AfY9qFjMD6uGiFmg==";
+        };
+        _UhH3uIks = {
+            "id" = "UhH3uIks";
+            "file" = "cookiejar-0.2.6+1.21.9.jar";
+            "hash" = "sha512-i2yfZRx/cE2zIXpGNLPvTEYZEdrRPugclr3p5vON27zWZSUDJp8ytaYGLHN00hkaAtgkUBYM4hlp5bxqSYta5A==";
+        };
+        _AY7Mohfz = {
+            "id" = "AY7Mohfz";
+            "file" = "cookiejar-0.2.6+1.21.11.jar";
+            "hash" = "sha512-yqCwUc+xHDRUbDu+hetzOYVAEz4VppFZTEiYvM36Z5FcKkATPM6jDM1BMoQtblYqInM2zK/mJmsQDwKgeO11fg==";
+        };
+        _NkrtmIAI = {
+            "id" = "NkrtmIAI";
+            "file" = "cookiejar-0.2.6+26.1.jar";
+            "hash" = "sha512-YHdtE/jZl/zeGCh9WQk31qjUkmVTi0WoBRbJ2ruA91fY9uvJ8dZnM0VxL9f7hVHltBO1idYccPtFxDEFkp2a8A==";
+        };
+        _jITfSU2v = {
+            "id" = "jITfSU2v";
+            "file" = "cookiejar-0.2.6+26.2.jar";
+            "hash" = "sha512-p68N5xSa8N2FI6/Bw+XmsRxZmbC3e48jCk5wfTEK5W1VYpi24/HfF/J9h/l/DymvqW23kiI0AcIqknEHfZoAJw==";
+        };
     in {
         "ZrzHv9Jk" = _ZrzHv9Jk;
         "t7QAU5gs" = _t7QAU5gs;
@@ -140,25 +190,35 @@ let
         "aRkGDGio" = _aRkGDGio;
         "hQ4PufEP" = _hQ4PufEP;
         "aV6cafRJ" = _aV6cafRJ;
+        "NkXsCRSE" = _NkXsCRSE;
+        "ay5LPr0B" = _ay5LPr0B;
+        "SgqWaQVx" = _SgqWaQVx;
+        "JMOuspeE" = _JMOuspeE;
+        "WphN6OLU" = _WphN6OLU;
+        "ui7vM17M" = _ui7vM17M;
+        "UhH3uIks" = _UhH3uIks;
+        "AY7Mohfz" = _AY7Mohfz;
+        "NkrtmIAI" = _NkrtmIAI;
+        "jITfSU2v" = _jITfSU2v;
         "fabric-24w05b" = _ZrzHv9Jk;
-        "fabric-1.20.5" = _zzU23oR6;
-        "fabric-1.20.6" = _zzU23oR6;
-        "fabric-1.21" = _nrnai3Vo;
-        "fabric-1.21.1" = _nrnai3Vo;
-        "fabric-1.21.2" = _pyLaD6jZ;
-        "fabric-1.21.3" = _pyLaD6jZ;
-        "fabric-1.21.4" = _TMGbwtGk;
-        "fabric-1.21.5" = _c7IC4CUX;
-        "fabric-1.21.6" = _jMVaJMj0;
-        "fabric-1.21.7" = _jMVaJMj0;
-        "fabric-1.21.8" = _jMVaJMj0;
-        "fabric-1.21.9" = _bONko2Xv;
-        "fabric-1.21.10" = _bONko2Xv;
-        "fabric-1.21.11" = _aRkGDGio;
-        "fabric-26.1" = _hQ4PufEP;
-        "fabric-26.1.1" = _hQ4PufEP;
-        "fabric-26.1.2" = _hQ4PufEP;
-        "fabric-26.2" = _aV6cafRJ;
+        "fabric-1.20.5" = _NkXsCRSE;
+        "fabric-1.20.6" = _NkXsCRSE;
+        "fabric-1.21" = _ay5LPr0B;
+        "fabric-1.21.1" = _ay5LPr0B;
+        "fabric-1.21.2" = _SgqWaQVx;
+        "fabric-1.21.3" = _SgqWaQVx;
+        "fabric-1.21.4" = _JMOuspeE;
+        "fabric-1.21.5" = _WphN6OLU;
+        "fabric-1.21.6" = _ui7vM17M;
+        "fabric-1.21.7" = _ui7vM17M;
+        "fabric-1.21.8" = _ui7vM17M;
+        "fabric-1.21.9" = _UhH3uIks;
+        "fabric-1.21.10" = _UhH3uIks;
+        "fabric-1.21.11" = _AY7Mohfz;
+        "fabric-26.1" = _NkrtmIAI;
+        "fabric-26.1.1" = _NkrtmIAI;
+        "fabric-26.1.2" = _NkrtmIAI;
+        "fabric-26.2" = _jITfSU2v;
         "pkg-0.1.0" = _ZrzHv9Jk;
         "pkg-0.1.1" = _t7QAU5gs;
         "pkg-0.1.2" = _ZG5mUwcM;
@@ -171,7 +231,8 @@ let
         "pkg-0.2.3" = _aRkGDGio;
         "pkg-0.2.4" = _hQ4PufEP;
         "pkg-0.2.5" = _aV6cafRJ;
-        "default" = _aV6cafRJ;
+        "pkg-0.2.6" = _jITfSU2v;
+        "default" = _jITfSU2v;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cookiejar";

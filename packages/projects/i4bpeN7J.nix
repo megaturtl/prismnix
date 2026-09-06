@@ -311,6 +311,26 @@ let
             "file" = "jurassicsaga-0.2.1-forge-1.20.1.jar";
             "hash" = "sha512-9yXL2CGcQdu+x2h7nfYtwZ6ZXY/TZEP0jlX2XCifQY02AUzbJLS1uacXFXXBhEQooGpyRTEIQiYxQirYmpq+5g==";
         };
+        _tslG4MF1 = {
+            "id" = "tslG4MF1";
+            "file" = "jurassicsaga-0.2.2-neoforge-1.21.1.jar";
+            "hash" = "sha512-DMy9o7XDaYVu1d0OGPWQWxmL8xcegKggHXs+NjYbRX9GJAaahrEHY0OTt20fe9Q2E/nDt/qTQx7aKNDBmE2vuw==";
+        };
+        _odlIJ15e = {
+            "id" = "odlIJ15e";
+            "file" = "jurassicsaga-0.2.2-forge-1.20.1.jar";
+            "hash" = "sha512-MNrSN+MRGBFZRj/9fmyoa3wXsDA1obxGE0LjITxMs8CpVjOcXTg45itwF8Wkspq1DNq5+qUMEWpdCTyVVDAyGw==";
+        };
+        _EzDlTUHi = {
+            "id" = "EzDlTUHi";
+            "file" = "jurassicsaga-0.2.3-neoforge-1.21.1.jar";
+            "hash" = "sha512-XEloy5inom+HgSoOMRDbgMd9fVJu6n4qWYVn5mmMXnS1l12kZnbN/I+5njcQBybzGG99cV39m0kHqi1IJ86U/w==";
+        };
+        _2jMgnaYZ = {
+            "id" = "2jMgnaYZ";
+            "file" = "jurassicsaga-0.2.3-forge-1.20.1.jar";
+            "hash" = "sha512-Z4IoxB2KvvEck+c68B2Yg/o8wVLibm0DxOZ8bBqwuSVJf+IDkgknJ/73daUU1WwcehLrW8ieGbukM+wZIaIkjw==";
+        };
     in {
         "ej95mNDh" = _ej95mNDh;
         "wsvgtgdy" = _wsvgtgdy;
@@ -374,11 +394,15 @@ let
         "4bIwCP2o" = _4bIwCP2o;
         "YdbXbcFo" = _YdbXbcFo;
         "Va3G53TV" = _Va3G53TV;
-        "neoforge-1.21.1" = _YdbXbcFo;
+        "tslG4MF1" = _tslG4MF1;
+        "odlIJ15e" = _odlIJ15e;
+        "EzDlTUHi" = _EzDlTUHi;
+        "2jMgnaYZ" = _2jMgnaYZ;
+        "neoforge-1.21.1" = _EzDlTUHi;
         "neoforge-1.20.1" = _F2s7vJx1;
         "fabric-1.21.1" = _2hn955Ef;
         "fabric-1.20.1" = _hvPFdYSb;
-        "forge-1.20.1" = _Va3G53TV;
+        "forge-1.20.1" = _2jMgnaYZ;
         "pkg-0.0.3.2" = _wsvgtgdy;
         "pkg-0.1" = _Eo0BXkvG;
         "pkg-0.1.1" = _fByUVcNO;
@@ -403,7 +427,9 @@ let
         "pkg-0.1.11.1" = _htcaFsrs;
         "pkg-0.2" = _4bIwCP2o;
         "pkg-0.2.1" = _Va3G53TV;
-        "default" = _Va3G53TV;
+        "pkg-0.2.2" = _odlIJ15e;
+        "pkg-0.2.3" = _2jMgnaYZ;
+        "default" = _2jMgnaYZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jurassic-saga";

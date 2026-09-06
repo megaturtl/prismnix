@@ -197,6 +197,7 @@ let
         "neoforge-1.21.9" = _XA3THZNU;
         "neoforge-1.21.10" = _XA3THZNU;
         "neoforge-1.21.11" = _XA3THZNU;
+        "neoforge-26.2" = _XA3THZNU;
         "pkg-1.0.3-fabric" = _TUflI7RC;
         "pkg-1.0.3-forge" = _7FNxXu6l;
         "pkg-1.0.4-fabric" = _UJYDvUYC;

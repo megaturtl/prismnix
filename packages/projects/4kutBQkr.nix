@@ -45,7 +45,7 @@ let
         "pkg-v1.0.1" = _5XoT6FaR;
         "pkg-v1.1.0" = _mCqtWDo5;
         "pkg-v1.2.0" = _F1TqfX1S;
-        "pkg-v1.3.0_Pre-Release_1" = _pbQHSsje;
+        "pkg-v2.0.0_Pre-Release_1" = _pbQHSsje;
         "default" = _pbQHSsje;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

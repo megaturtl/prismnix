@@ -1121,6 +1121,646 @@ let
             "file" = "Saros-Road-Blocks-NeoForge-26.2-5.8.jar";
             "hash" = "sha512-TTgfQkym1ZTcVgor0QyaEvY2lrDZHlOyJ+diIwUc/m3nzeb00WUGL+pa0JuRnouYwzi6IOedv9CDZJO7AXbNEw==";
         };
+        _Of2lQynU = {
+            "id" = "Of2lQynU";
+            "file" = "Saros-Road-Blocks-NeoForge-1.21.1-5.9.4.jar";
+            "hash" = "sha512-Tr67bdIzJsAnODCPNFF3TxMvzsj72KpIAlbSneGLeEIWmw9oBaGdOdOfisSJ0nPz5RBXhDFbdEJYBfNOMxgDxQ==";
+        };
+        _6JwggTbt = {
+            "id" = "6JwggTbt";
+            "file" = "Saros-Road-Blocks-Fabric-26.1.2-5.8.jar";
+            "hash" = "sha512-nxJbNMwZRYQ8mA/gTMk7/4b6mGFKZjeqCmykDlXfjWJpbn034KWGf13vWGE7+FmF2SbvuBECaL+jUl6pqfjJ8A==";
+        };
+        _u6M7MsLZ = {
+            "id" = "u6M7MsLZ";
+            "file" = "Saros-Road-Blocks-Forge-1.20.1-5.8.jar";
+            "hash" = "sha512-Lk2hNJRd645ob8LnLfNbOtqVftddRlEQ3h7U6YOleZBvqz5TmN3haFJbVLxtiDP9iS1898nDtudQ6RI9+ZotiA==";
+        };
+        _9E9iT3xa = {
+            "id" = "9E9iT3xa";
+            "file" = "Saros-Road-Blocks-Forge-26.1.2-5.5.jar";
+            "hash" = "sha512-Ftp2aviRK6xooXyz3kJa8JLdGSRu7+AAcTXEJcjj9f+Ifg+toZaqxe8ZNjlMcbIknz6ijBGXbxZJRu0ktWa7ZQ==";
+        };
+        _Yw1mCUjj = {
+            "id" = "Yw1mCUjj";
+            "file" = "Saros-Road-Blocks-Forge-26.1.1-5.5.jar";
+            "hash" = "sha512-LfvGJeSDB9J/ZK0S1QcajY4A6iz4mrSKnE+6vEjh2y4iCgbbi0ibxw08mwVJFiqXssaFJHxrJA4DDxOO+qjyKQ==";
+        };
+        _PwMdTwIk = {
+            "id" = "PwMdTwIk";
+            "file" = "Saros-Road-Blocks-Forge-1.21.11-5.5.jar";
+            "hash" = "sha512-xgeTrL3HoCSTWaX+BZzW6vqmhuS0j4qA4Pnf9TgECR+XTk5P+DJvDeWVw3k9MA+n5Li8sUJZoOLGRU5bd7s36g==";
+        };
+        _Vtq2DvLm = {
+            "id" = "Vtq2DvLm";
+            "file" = "Saros-Road-Blocks-NeoForge-1.21.1-5.9.5.jar";
+            "hash" = "sha512-7cnYf6aZQTt95uuMCLNLU00mrdGI8C/vIkq7M0PPEDsJl2PKILO+UE49rhG5YBdlWqngkiN3Sb8apXiY8AcmNQ==";
+        };
+        _VnFiALBK = {
+            "id" = "VnFiALBK";
+            "file" = "Saros-Road-Blocks-Forge-1.21.1-5.8.jar";
+            "hash" = "sha512-57iYpurNtAVjZsuAEuG4+05nxIL9LC1ISQcKoot42MgRnOJD8m53WAFqtbK1pTuSpt48kAQnjc63YYbdwKXWNQ==";
+        };
+        _Epksccji = {
+            "id" = "Epksccji";
+            "file" = "Saros-Road-Blocks-Fabric-1.21.1-5.8.jar";
+            "hash" = "sha512-nKvWjypr7mVlPe6hy5Il42zG5uN1yqd69cGz7RnzVU+Ng3rEtJA8iLkc5z/ZFv+Ub2jPSUwdi+V2V9WjvRN1Fg==";
+        };
+        _NqKriRyB = {
+            "id" = "NqKriRyB";
+            "file" = "Saros-Road-Blocks-Forge-1.20.1-5.9.jar";
+            "hash" = "sha512-cBc3LG6gwN8NF2/1GrDDTcUciTtC3C7aaNSuMaGEHlBrGkCmnt/HR96Ky1hgtH4+9OcTV6MKHcUDTWy4kxRgCw==";
+        };
+        _SfPoCe6t = {
+            "id" = "SfPoCe6t";
+            "file" = "Saros-Road-Blocks-Fabric-1.20.1-5.6.jar";
+            "hash" = "sha512-/+7wKPhkAovv/yQo1rYGLfe8WwU/fBNdqi5Ff7yH4NknWUMYJfz+mgfgruIeePhX+OYDYnEHWW5gSKuVo9zRGA==";
+        };
+        _19FodZ9N = {
+            "id" = "19FodZ9N";
+            "file" = "Saros-Road-Blocks-Forge-1.21.11-5.5.jar";
+            "hash" = "sha512-xgeTrL3HoCSTWaX+BZzW6vqmhuS0j4qA4Pnf9TgECR+XTk5P+DJvDeWVw3k9MA+n5Li8sUJZoOLGRU5bd7s36g==";
+        };
+        _B0nDj920 = {
+            "id" = "B0nDj920";
+            "file" = "Saros-Road-Blocks-Forge-1.21.1-5.8.jar";
+            "hash" = "sha512-57iYpurNtAVjZsuAEuG4+05nxIL9LC1ISQcKoot42MgRnOJD8m53WAFqtbK1pTuSpt48kAQnjc63YYbdwKXWNQ==";
+        };
+        _f8IPsDHR = {
+            "id" = "f8IPsDHR";
+            "file" = "Saros-Road-Blocks-Fabric-1.21.1-5.8.jar";
+            "hash" = "sha512-nKvWjypr7mVlPe6hy5Il42zG5uN1yqd69cGz7RnzVU+Ng3rEtJA8iLkc5z/ZFv+Ub2jPSUwdi+V2V9WjvRN1Fg==";
+        };
+        _lRi0zkBx = {
+            "id" = "lRi0zkBx";
+            "file" = "Saros-Road-Blocks-Forge-1.20.1-5.11.jar";
+            "hash" = "sha512-/8R4ETP8nS6Z6M8qeghwfiCpQlAI1BtrqUUsTcWoqW14xenB2l13x0PlpYQe7FVXVE7gnU+IrDSke2WltPIw/A==";
+        };
+        _ad7z6yZw = {
+            "id" = "ad7z6yZw";
+            "file" = "Saros-Road-Blocks-Fabric-1.20.1-5.7.jar";
+            "hash" = "sha512-occlQWcFABbB3I7RRuPOOMzXxUgjUThgC0iHs5IdgEXsqQrTy9yHLDbH4cPqwpT/7qaswvkGGgvITo8f2lnTew==";
+        };
+        _xKDw72iz = {
+            "id" = "xKDw72iz";
+            "file" = "Saros-Road-Blocks-Forge-1.21.1-5.9.jar";
+            "hash" = "sha512-iCoV2awpKG4+/WSuUNATzlgT4qD2bfHKj6B5Y6cg2LgNHfDeFO6u4a/0oJdqyljA/9wXwVYopy6EBkQRHh/k7A==";
+        };
+        _rUxatAMn = {
+            "id" = "rUxatAMn";
+            "file" = "Saros-Road-Blocks-Fabric-1.21.1-5.9.jar";
+            "hash" = "sha512-HO1oOMhZfGc1NTANwwSrM0M53QuO1hyqJOJeumcz4niWH2fwfwNzTvRqUM/Kjp/LpHw8DiJyK8h/yArkRCxhZA==";
+        };
+        _DnSVsms8 = {
+            "id" = "DnSVsms8";
+            "file" = "Saros-Road-Blocks-NeoForge-1.21.1-5.9.6.jar";
+            "hash" = "sha512-U0m7qwVeE+yZCsI7YuZ50RgmvITjU9K2mScy2iIXdwPtNUNZyw8LbLlAV7ctAu0NVWMrMldDLhOPJ+jHUVWQmQ==";
+        };
+        _L8ELSPVT = {
+            "id" = "L8ELSPVT";
+            "file" = "Saros-Road-Blocks-Forge-1.21.11-5.6.jar";
+            "hash" = "sha512-nONR3AIEX5PIjqe6Ka0A4XR4uZaHCMn9bW8e8HDigA/gNT+2e7Ym20YCC4wvh2jMtzunm+vQg7qKo3WUbOGSGQ==";
+        };
+        _6mIINexZ = {
+            "id" = "6mIINexZ";
+            "file" = "Saros-Road-Blocks-Forge-26.1.1-5.6.jar";
+            "hash" = "sha512-5+Z5qHR/khahfLYZaoGHTXTo+Qxe4eYxVx86M1/EraZD7Y4h6rVB/LvOF5qjbzdivjbNErhsQCZ+5xdASuhB0Q==";
+        };
+        _Zq0xU6mz = {
+            "id" = "Zq0xU6mz";
+            "file" = "Saros-Road-Blocks-Forge-26.1.2-5.6.jar";
+            "hash" = "sha512-9axAAspAH1FiorTlfgfEFg3zNAvCGMWaVxjjssO1IejXu2LNAImFySAN4hn52v1ArHaEQ3liwIYU9ENmfqJVpA==";
+        };
+        _hNizrFAq = {
+            "id" = "hNizrFAq";
+            "file" = "Saros-Road-Blocks-Forge-1.20.1-5.12.jar";
+            "hash" = "sha512-uG4v8XTuMk6gDBQ+GWHe6VmxDcZPywGx9Un2OAby7Qhww2ioSKM+SRTlvgW8Hg1w372fVgfo4VZqXT7Lnc5spw==";
+        };
+        _Kx5dMtgl = {
+            "id" = "Kx5dMtgl";
+            "file" = "Saros-Road-Blocks-Fabric-1.20.1-5.8.jar";
+            "hash" = "sha512-ghW2sscj5wx/LjDTyJxIXbYFtgmKej5F1VGCiYtdEZvPNU+jnoYLZwUmlYcPC7JB9pblSlZ3LRNrML0uGC5AjA==";
+        };
+        _QFqFBiod = {
+            "id" = "QFqFBiod";
+            "file" = "Saros-Road-Blocks-Forge-1.20.4-4.4.jar";
+            "hash" = "sha512-XfsYI7WgNhPqqaeEVfR6fLZbhIHlryxF74TKn4m4Ugksi9dzfJWcXUQlOz+iYJjAnpU5ec/QPeGvgKs8LugIEQ==";
+        };
+        _d8UtUXVi = {
+            "id" = "d8UtUXVi";
+            "file" = "Saros-Road-Blocks-Forge-1.20.6-4.4.jar";
+            "hash" = "sha512-RIrAGRYHxbm0m+IkAL9NiVWw9y5TGGBJQnutChF2Fp+Ot8gXn2TL9txwQFcftPGwZPPUcjLDOdwTT7oJ7t3p3Q==";
+        };
+        _3MochSXK = {
+            "id" = "3MochSXK";
+            "file" = "Saros-Road-Blocks-Forge-1.21.1-5.10.jar";
+            "hash" = "sha512-dNILfQFFlCTuRxyMNS7+J749Oxr69vW8t4MqTK2ob91GceLJ2ihu4gg33H9UWymesZ7zvrpvPaMlGR7DQq2iUA==";
+        };
+        _fdU2DbwS = {
+            "id" = "fdU2DbwS";
+            "file" = "Saros-Road-Blocks-Fabric-1.21.1-5.10.jar";
+            "hash" = "sha512-yX7XoV2APv62qds5BkuUK6MnZ80lqFRWCoTUaSixloKf+s6C/OwmHmdpSYBnrtXxowmaTrpgTJyRHV9amro/mw==";
+        };
+        _2s6ZKddg = {
+            "id" = "2s6ZKddg";
+            "file" = "Saros-Road-Blocks-NeoForge-1.21.1-5.9.7.jar";
+            "hash" = "sha512-O+9gKzPPPp2OP3thbSgt0K7TDVLKvsOcNvxAcKPKWTi8Y3OEgC9OPwHnTGKPsB7us0yLW6Bm9qOYGnXJwCDPOg==";
+        };
+        _LTNk8nXH = {
+            "id" = "LTNk8nXH";
+            "file" = "Saros-Road-Blocks-Forge-1.21.3-4.6.jar";
+            "hash" = "sha512-3Ho5RtPhwEk/AJu08ZVguTmOnXOgP0PwVkvKe15YItX9tZppIq8WI8J2bHDhEQ1qLLZJhUsjWAniGi+x0+H6ng==";
+        };
+        _Arc001dj = {
+            "id" = "Arc001dj";
+            "file" = "Saros-Road-Blocks-Forge-1.21.5-4.6.jar";
+            "hash" = "sha512-OzOzmWhruzoTddMsT76m7E9iUd5hvLnjokgal0a3md/4UXMllUTrWxmJqBIoDvaRz1z712ErfPw0zCdWwn+Lng==";
+        };
+        _GeLacHoi = {
+            "id" = "GeLacHoi";
+            "file" = "Saros-Road-Blocks-Forge-1.21.6-4.6.jar";
+            "hash" = "sha512-5RkpJKrK4OEqfihfspylNBQTmiFsrCv+hlrQqr4DPtOP6Z/jfn1OxtxPKtOVttWJ4Q+3YuhN43/2EIVgcv79ng==";
+        };
+        _E2FeMz4g = {
+            "id" = "E2FeMz4g";
+            "file" = "Saros-Road-Blocks-Forge-1.21.7-4.5.jar";
+            "hash" = "sha512-qYgyqBWIKG2d7yhyWmscCCSFEQG9oZrsNOtp51bRUsljpS2/zU3I6BYtR8tDHFpZLNiEw19Co5uuno2i8oaeUw==";
+        };
+        _CL1qJ9zH = {
+            "id" = "CL1qJ9zH";
+            "file" = "Saros-Road-Blocks-Forge-1.21.8-4.5.jar";
+            "hash" = "sha512-al5FzLA7iCmOkOXwiHILuDeT/BaUliPW0LanPvjbTU9mfjeA7jvoYTXVWkGMCP8BsGEegp9ybG0C7d9zbG+mRQ==";
+        };
+        _XwTORBh4 = {
+            "id" = "XwTORBh4";
+            "file" = "Saros-Road-Blocks-Forge-1.21.9-4.5.jar";
+            "hash" = "sha512-ORuE/LV9kSF1dDDboge+kyHVGdH3dwJj9iFtm1nXu0viAWBIPlZyj9vavpETairtwALIvshXbHQ6zNrf/50tEQ==";
+        };
+        _UsQtQTxq = {
+            "id" = "UsQtQTxq";
+            "file" = "Saros-Road-Blocks-Forge-1.21.10-4.7.jar";
+            "hash" = "sha512-AGkFR9mVD5H+82EoU4+xgE/cTMf5CKqu6qnJy36x9B1JUuVJKDvY/XKC9sjgEx3B2rfK+Xuxllc7hOQU7WIY3Q==";
+        };
+        _5UiJoOP6 = {
+            "id" = "5UiJoOP6";
+            "file" = "Saros-Road-Blocks-Fabric-1.21.10-4.9.6.jar";
+            "hash" = "sha512-Hl6ZmEhgJPFDcPjUAhdpcVn7x6ZrcCYTzmdlc2TIUYQbcADDtNUXHH8DCSjIL33A7cHXqKwjtwKcxf1rqOZNpg==";
+        };
+        _dwda8v1S = {
+            "id" = "dwda8v1S";
+            "file" = "Saros-Road-Blocks-Forge-1.21.11-5.7.jar";
+            "hash" = "sha512-pEFEVQBJ64LEf/8UuMLRWgG7QbHbDXhuimfYWMXq47FQfZnN9Wt/c4c7u0Q/eDH5DWF6djuJPDV4X651Q8vHug==";
+        };
+        _EiS6c3qL = {
+            "id" = "EiS6c3qL";
+            "file" = "Saros-Road-Blocks-Fabric-1.21.11-5.0.8.jar";
+            "hash" = "sha512-W5rvgyg90hevzijQaoz1C8tDuD5JAR1BZMH2t7KRX9Te6wsznuwsmXHvTWm6Q3fqeuX7ZSCnZvH2YrHCV683Dg==";
+        };
+        _LcGyYCHX = {
+            "id" = "LcGyYCHX";
+            "file" = "Saros-Road-Blocks-Forge-26.1-5.1.7.jar";
+            "hash" = "sha512-CIGst5mO/cWcTXLxo8L0WWPv8n24dSwR+0XL6ARzGzBYvCrbD9kokbqjYV/GkZCrCe4eqQ2BETbuPtjN1qITMQ==";
+        };
+        _jnS0GA3C = {
+            "id" = "jnS0GA3C";
+            "file" = "Saros-Road-Blocks-NeoForge-26.1-5.8.jar";
+            "hash" = "sha512-vmXnr6u0A96gX+AfZqy1uaHDtofY/lrpmTz/3hv19VRxFNQm3a6sFtifvijsiK9KIhK+DPxJVyrurQNdqcpRXA==";
+        };
+        _5cbigWl1 = {
+            "id" = "5cbigWl1";
+            "file" = "Saros-Road-Blocks-Fabric-26.1-5.9.jar";
+            "hash" = "sha512-8gLx7AkfzVvJy0eodQ/Noatlkh2xVtdkq6SZyyKbgzo76xpkjshAtuXlscjDvlsn3Gys2TgkKFTcsKlHxBg2MQ==";
+        };
+        _HzJua2E2 = {
+            "id" = "HzJua2E2";
+            "file" = "Saros-Road-Blocks-Forge-26.1.1-5.7.jar";
+            "hash" = "sha512-zBbPH6UhgkAww4+MXxie5D0x6yAsWUfBqA/0yUr2tiCed1BxrG0eOoyKYcUzmkKsoW4kYfRc1NUfluBpyDBsYg==";
+        };
+        _YBZbbPCo = {
+            "id" = "YBZbbPCo";
+            "file" = "Saros-Road-Blocks-NeoForge-26.1.1-5.8.jar";
+            "hash" = "sha512-TJNhtScnzx7qLQ57PVhWerHLbWnZ5HCzgGWAp8YNo032kWdfiiFvzhN5KA7hLKdY5V5TtzcolpKCbV7hF6J8hw==";
+        };
+        _PcZaFxN5 = {
+            "id" = "PcZaFxN5";
+            "file" = "Saros-Road-Blocks-Fabric-26.1.1-5.9.jar";
+            "hash" = "sha512-nrLE+3q0Fgb/qsGafsdz3INVXuMbH0ozso7m3vKuVgMDX4rdEhyXb8iFG1jN8QAgxdQC0oS1V/dMyzlI3Kmxuw==";
+        };
+        _loQbGwEi = {
+            "id" = "loQbGwEi";
+            "file" = "Saros-Road-Blocks-Forge-26.1.2-5.7.jar";
+            "hash" = "sha512-zaW17i2arZUA5aC88a4K1r5t9saHA3zKDhfs5aDyVB3EnVVj4+WLcVBD93TtdpownI5tF4OJiX6VlfSz0uQ3Mg==";
+        };
+        _H2hMR6U3 = {
+            "id" = "H2hMR6U3";
+            "file" = "Saros-Road-Blocks-NeoForge-26.1.2-5.9.jar";
+            "hash" = "sha512-dSOwo+GLS6CDo7RvP8PMCWvKZKw3GnNikMaTirihUqkUOU/k3bt57zrvm2d+7ikZvMzQsXN6FGVL3/815l0AqA==";
+        };
+        _LnanPan5 = {
+            "id" = "LnanPan5";
+            "file" = "Saros-Road-Blocks-Fabric-26.1.2-5.9.jar";
+            "hash" = "sha512-vMat4+zQ3wyEwFFiJVg2soPY8rNKc1fmjDG9Ro++qlQDxdyukyVfoBV8s+GJE9CKmwF7iV0C9g7PaSLOzih8pg==";
+        };
+        _HxBJzz3r = {
+            "id" = "HxBJzz3r";
+            "file" = "Saros-Road-Blocks-Forge-26.2-5.7.jar";
+            "hash" = "sha512-9Yu5ZTspvgvOwMMacRR6lE4SUFGLZ2DeU43nkk58wiL9Q5Fis4z08XHyYXmbLjWCqb0y86CnfRNkyHLBg1UV0w==";
+        };
+        _9vShDcmz = {
+            "id" = "9vShDcmz";
+            "file" = "Saros-Road-Blocks-NeoForge-26.2-5.10.jar";
+            "hash" = "sha512-nZ7QUp5mhzXmf1yr/+VfU0WENB37OwTE/EAmWiKl/FuR2L1UrJpaK0s8O+vo5F5cCh8i7Upw0tpOcuf8Z9vASg==";
+        };
+        _jAQyLOzy = {
+            "id" = "jAQyLOzy";
+            "file" = "Saros-Road-Blocks-Fabric-26.2-5.10.jar";
+            "hash" = "sha512-sYZShyChVR3psBc/kkTuL6qoFgIvok6HRa7LgWADzaxUZo/FKPlnO9R8UDdE3+ykE9Bd1LZh1N2AdrS+nGvWXQ==";
+        };
+        _Ys4hDM9T = {
+            "id" = "Ys4hDM9T";
+            "file" = "Saros-Road-Blocks-NeoForge-1.21.1-5.9.8.jar";
+            "hash" = "sha512-p997ZnuIztHhnCRaX1b49se51IfQzkdL/aby35gnWkeJNS3+gX9tv4kbo89mmWVkZ07J6SnYx3o3V8nc9EHvpg==";
+        };
+        _sgfeRzvd = {
+            "id" = "sgfeRzvd";
+            "file" = "Saros-Road-Blocks-Fabric-1.20.1-5.10.jar";
+            "hash" = "sha512-7ujWmf02azqUy21LGN4Zo75nZ28yQ3sBt4+Rrks+OJPvjkO2cMgQCDeCAwUPyj2GZUK7TSYbpE/qlLtCSupFUw==";
+        };
+        _oKPPW17k = {
+            "id" = "oKPPW17k";
+            "file" = "Saros-Road-Blocks-Forge-1.20.1-5.13.jar";
+            "hash" = "sha512-IoIha04mlsQW+bO31GRpE9j/2UYhn+ylXr4ik9dy0Z1kSV/4pjfIoiAb9sbuaAECsQQrj2VvdehExVuHH1+3dg==";
+        };
+        _HvmVujmV = {
+            "id" = "HvmVujmV";
+            "file" = "Saros-Road-Blocks-Forge-1.21.1-5.11.jar";
+            "hash" = "sha512-l4k1isBD1nsW0AEB8HtNJ7bI30JOYiYZaXewqfcGAtmfm2KC6V4M0uMIHdYabM5CHsVgxTf1UjJqm9jF93Qixg==";
+        };
+        _xz4bvmkS = {
+            "id" = "xz4bvmkS";
+            "file" = "Saros-Road-Blocks-Fabric-1.21.1-5.11.jar";
+            "hash" = "sha512-wtfo9TOxey37D6IWjDXRSPwNgSFMYpIQJUdVfElM7lrCr2sj+XTpluetC5uXZy/dUZZmbpaEQw44iAbYuSs0gw==";
+        };
+        _7SjzjV1o = {
+            "id" = "7SjzjV1o";
+            "file" = "Saros-Road-Blocks-Forge-1.20.4-4.5.jar";
+            "hash" = "sha512-revixld/DfJbcqeJdcIHQ4V/Og0JakSKYUeJ8NAY+rtm8uTwCcath9/RvAhpZ6Gjl2OPRAmVc3Hvg49NRTPpPQ==";
+        };
+        _jZU8EEOY = {
+            "id" = "jZU8EEOY";
+            "file" = "Saros-Road-Blocks-Forge-1.20.6-4.5.jar";
+            "hash" = "sha512-4Uco/RPsm1o7fcgnb/4jtozB+XrB6pcssCYPQjxAMxTxhOGc1pAeeQSTQL97Sc4R9r+CIyLvnF7+EytW7qjtdQ==";
+        };
+        _8JU5tRT4 = {
+            "id" = "8JU5tRT4";
+            "file" = "Saros-Road-Blocks-Forge-1.20.6-4.5.jar";
+            "hash" = "sha512-4Uco/RPsm1o7fcgnb/4jtozB+XrB6pcssCYPQjxAMxTxhOGc1pAeeQSTQL97Sc4R9r+CIyLvnF7+EytW7qjtdQ==";
+        };
+        _tOkaAysh = {
+            "id" = "tOkaAysh";
+            "file" = "Saros-Road-Blocks-Forge-1.21.3-4.7.jar";
+            "hash" = "sha512-QI/tk+e2UksXD5Khx9dMpgzm5q8P7CnIMyYDJcovDstBDxjBDdm2+k5Dorjj8swnuvJO+ydHuTTYT7eFnaZ9Tw==";
+        };
+        _m6y23bSz = {
+            "id" = "m6y23bSz";
+            "file" = "Saros-Road-Blocks-Forge-1.21.5-4.7.jar";
+            "hash" = "sha512-MGfGtm4fJzLFP38vBM4Tqgyw1Y9+Fc6UIoLsIsvRTcD4rXNmIVK236mXhH1o3zYFdWY/BK/A8tS7U+QfhdnJBg==";
+        };
+        _qPowq0hK = {
+            "id" = "qPowq0hK";
+            "file" = "Saros-Road-Blocks-Forge-1.21.6-4.7.jar";
+            "hash" = "sha512-aCi/mFWR7jD35+ovMapUxHVTUfWrLAkSdxZ4eogikhL1dNi4NJsQUHN9CJg9nVh41TR5Qo0jKPw3MgfuxFBdTA==";
+        };
+        _1GzzuqSz = {
+            "id" = "1GzzuqSz";
+            "file" = "Saros-Road-Blocks-Forge-1.21.7-4.6.jar";
+            "hash" = "sha512-sapuKaZQPqRaoXrLmSDymf5pNIGSXEHTAJrClPRNYCAOjG5C3ULROip/BebUC736EQ/Y+BgPrrwJayQ4L3T7iA==";
+        };
+        _pDT902df = {
+            "id" = "pDT902df";
+            "file" = "Saros-Road-Blocks-Forge-1.21.8-4.6.jar";
+            "hash" = "sha512-wuiHbyOk+C727hqYxIniiShF9SQ3fF65D+mUlhbqQ0sLee99Q4VblzqoG7n/PG4gxcBCO9UE0XicFwWrC5Bsww==";
+        };
+        _UurCl3B4 = {
+            "id" = "UurCl3B4";
+            "file" = "Saros-Road-Blocks-Forge-1.21.9-4.6.jar";
+            "hash" = "sha512-BL9C7jWB66YdIv9QXKsCHXXdugHcgOEh9PEkcycgLbOjXm3RT1GeC6KA5f/+3RKlDWtKjX8bjiAORwC2Ij8eRQ==";
+        };
+        _Y4Vo5GAi = {
+            "id" = "Y4Vo5GAi";
+            "file" = "Saros-Road-Blocks-Forge-1.21.10-4.8.jar";
+            "hash" = "sha512-Z//6nj0ZMSZ5tCd5g4UqbQ35G5ps4q9JvZrSPcB7+dcQfewLkA0RLtAoKnv35z8cFQhSWPV+IaMg6E4oom8mBw==";
+        };
+        _iiX3vuxR = {
+            "id" = "iiX3vuxR";
+            "file" = "Saros-Road-Blocks-Fabric-1.21.10-4.9.7.jar";
+            "hash" = "sha512-fo1U1g8yQNOm1VCyZ/kKPQSpSe4O74WoRNas/vxFHKyMA6WIBbmQXe1IVVgMDx8FhgxrYGq1PcNHwV9oLH8Ujw==";
+        };
+        _Fa4hwSMt = {
+            "id" = "Fa4hwSMt";
+            "file" = "Saros-Road-Blocks-Forge-1.21.11-5.8.jar";
+            "hash" = "sha512-7uqmdTVtZZNXNrUr9qj4ncSPdiNQigo5RESfCV444siUT7aLNvjDG5KuU7lTRCqvKyqlDbuMGxgeRAeh5wooCg==";
+        };
+        _77xRzHiU = {
+            "id" = "77xRzHiU";
+            "file" = "Saros-Road-Blocks-Fabric-1.21.11-5.0.9.jar";
+            "hash" = "sha512-YknKs+o/uU793xZBMlIgXidVqei4VSulqLT15IXZfknKY3rI4dWr+r+WCECB/L0gyY9ixuqnjtTOWfcMgoB8uw==";
+        };
+        _AWVZbQCf = {
+            "id" = "AWVZbQCf";
+            "file" = "Saros-Road-Blocks-Forge-26.1-5.1.8.jar";
+            "hash" = "sha512-f0HRLAQnor/0J6JTvpnJ3ewCx6GsPtdNa25P6pZFvhkiVSf1Fx+qUEW7H1jipgBEiFOz+mXENixoEQgwlOwBag==";
+        };
+        _qH3vZvo3 = {
+            "id" = "qH3vZvo3";
+            "file" = "Saros-Road-Blocks-NeoForge-26.1-5.9.jar";
+            "hash" = "sha512-LmbCJVuSdp9Jb1AH5CMnXLYE5XKSgclUXaeJIehDIT1imegNepGMFDEhN9IDQsQoBL1MhwiDOskwnTDrkXlfaw==";
+        };
+        _Q7dU2V4w = {
+            "id" = "Q7dU2V4w";
+            "file" = "Saros-Road-Blocks-Fabric-26.1-5.10.jar";
+            "hash" = "sha512-9O4g2vj5pi7OEBmQu8W87AYL+vIjQ+WqwaD+Bb2Dev8rCHAWr85DBpVguXA1glfjObE44p61heFsWzYA2kENHA==";
+        };
+        _udCvv5B1 = {
+            "id" = "udCvv5B1";
+            "file" = "Saros-Road-Blocks-Forge-26.1.1-5.8.jar";
+            "hash" = "sha512-9F9H7S4s5C4TCY6wVv8bR03YbglZB9ujYG7YE0ecoNHt64j6FO9gNptXrVIIEgsBPBRX8IAPv83TKAuWeCPoeg==";
+        };
+        _UY8k3mbS = {
+            "id" = "UY8k3mbS";
+            "file" = "Saros-Road-Blocks-NeoForge-26.1.1-5.9.jar";
+            "hash" = "sha512-5y3GKRdmYQZs52nvG/88fc10oVVdrAZ6WOzeFSYhcAFFzoxQg8H8d1Zp1kTq2apMdJDEtOyt8TJgcEcaUK7yTQ==";
+        };
+        _DkrbkIme = {
+            "id" = "DkrbkIme";
+            "file" = "Saros-Road-Blocks-Fabric-26.1.1-5.10.jar";
+            "hash" = "sha512-oJd4Vgm+bRM3wBH68FcoR+596VLGvSbUbNXRKnFr9IqRL6/3tWtUgJg9U2HIhYC1Nrfa5/oyixyVjxhR/cMZ2g==";
+        };
+        _ASHLDqCL = {
+            "id" = "ASHLDqCL";
+            "file" = "Saros-Road-Blocks-Forge-26.1.2-5.8.jar";
+            "hash" = "sha512-8FgVS29MriGoLphoEnEI5h1HFvYIUbnRSYBgw/LL4jmVDSrCX/11CgynY+98C8IHcPis94b0GsJ7QSwUpyAwvw==";
+        };
+        _LPk75PR4 = {
+            "id" = "LPk75PR4";
+            "file" = "Saros-Road-Blocks-NeoForge-26.1.2-5.10.jar";
+            "hash" = "sha512-ix5FbcHU61Wj4/iOnsNGFSbGrZOVFliLlPicmJr8wyjLKooUHiJuwbO/vquk1OUPWKYIVHsARrWwdhNyHr/A3g==";
+        };
+        _9BPTVYPQ = {
+            "id" = "9BPTVYPQ";
+            "file" = "Saros-Road-Blocks-Fabric-26.1.2-5.10.jar";
+            "hash" = "sha512-nD4HfqIWzMwvLx90sMsTW2czaG8+HM91ds7kVlDZJ03ooW2VJ3uMhtlWKRDAKLobGX5fHzZY8vuV+iNMBdMvsQ==";
+        };
+        _dNzTOgJh = {
+            "id" = "dNzTOgJh";
+            "file" = "Saros-Road-Blocks-Forge-26.2-5.8.jar";
+            "hash" = "sha512-8c566FgZDH7HzkgETNupSy7Er0KIBRqcvBo5+K0KdgvRCW6yIFgfZcckOFvxKLKw8cAIkz7tLVyvugDyoA475A==";
+        };
+        _jPtblSbn = {
+            "id" = "jPtblSbn";
+            "file" = "Saros-Road-Blocks-NeoForge-26.2-5.11.jar";
+            "hash" = "sha512-8G4WEvoMUTSx/vkXXoOmtwWE97UWDSHmQGK6vMQuscn5pUIWMYOjVvTheeCvkU40UmNOUEbGEvC8OuGN1NGiww==";
+        };
+        _BZV6LfEM = {
+            "id" = "BZV6LfEM";
+            "file" = "Saros-Road-Blocks-Fabric-26.2-5.11.jar";
+            "hash" = "sha512-nbyljPXVGRcEVV6zhXzBxQSOMD4elKJK+Z+iJuSNG43EqL37s+8ZC/UyqcDwZ4OdcEB5cpIKwkU+JPCN0qTD9Q==";
+        };
+        _uJ25Wc6G = {
+            "id" = "uJ25Wc6G";
+            "file" = "Saros-Road-Blocks-Fabric-1.21.1-5.12.jar";
+            "hash" = "sha512-CQDK5+/R5Q+xixLFbh8ZbxZQuiQhL3DWwwAr8fimNVRvB2jNn6p8xgyQA5ob/E/vApLMAwDD+oI6GfRcDxNZ9w==";
+        };
+        _b1lobgM0 = {
+            "id" = "b1lobgM0";
+            "file" = "Saros-Road-Blocks-Forge-1.20.1-5.14.jar";
+            "hash" = "sha512-op6mQLWy+eI3REskq8SUkNbWAdxxe6FwbwPBIQZr96E0q16yNGHtgHHsECzLQzUyQhOryU04hnJ/bfxa7CFoTQ==";
+        };
+        _OngIc1ip = {
+            "id" = "OngIc1ip";
+            "file" = "Saros-Road-Blocks-Fabric-1.20.1-5.11.jar";
+            "hash" = "sha512-VREmtGi4cUbpn7fZFLyKpmcSIoYLbGX6kOlvO5GHoScde3KjC9OXFFoHmrB8lP7OLboNR6kf3TeL50i7OeGw9A==";
+        };
+        _x8ajMJE0 = {
+            "id" = "x8ajMJE0";
+            "file" = "Saros-Road-Blocks-Fabric-1.21.1-5.13.jar";
+            "hash" = "sha512-766d0faQRWqsRuKj9Dm7aiuCwP2hEQ65HX6w/8zFMtNysjjn5aPfCXKhu89U1GPzReS0OQvJlQ56Zru4V9Rbbw==";
+        };
+        _iXFLt7cj = {
+            "id" = "iXFLt7cj";
+            "file" = "Saros-Road-Blocks-Fabric-1.21.10-4.9.8.jar";
+            "hash" = "sha512-GicAfVe9etSidqceQdLMlSnDRsE/zKQhWSrD/BLKeTfjZXLHEL4q/WXq4jVCyTuqWroQlCoywyq7do9K90tZJQ==";
+        };
+        _gpkrIepO = {
+            "id" = "gpkrIepO";
+            "file" = "Saros-Road-Blocks-Fabric-1.21.11-5.0.10.jar";
+            "hash" = "sha512-GBRrB+FeyqYQMFjcNslpOTZ/nZmYY4NQiHprt3cUKEaHXM7zxZ1eIO8lw3st9zqrwPyUzRMIerDQQaxiHJd6lw==";
+        };
+        _9aXuBjFn = {
+            "id" = "9aXuBjFn";
+            "file" = "Saros-Road-Blocks-Fabric-26.1-5.11.jar";
+            "hash" = "sha512-XHIikuZSTSuRMXNzAriIXcwb7ZKK19Thh7S7AHH74qEzaqdI3xo1E+M5KrWNw3b5jjQ00/K0llKfvbpznsykeg==";
+        };
+        _BztE8XHx = {
+            "id" = "BztE8XHx";
+            "file" = "Saros-Road-Blocks-Fabric-26.1.1-5.11.jar";
+            "hash" = "sha512-D0r84tnfyvBLXaF/jJms76Zd+8xOfaZLRjRppKDrbhz2N5PViO+GdDG/dlgU19CPtjuct0Vs92DusDMxcxee6g==";
+        };
+        _jAT8MXwy = {
+            "id" = "jAT8MXwy";
+            "file" = "Saros-Road-Blocks-Fabric-26.1.2-5.11.jar";
+            "hash" = "sha512-xvTdLeIkapP8nx/OtN57mbiYiW4ldkTpIkWVjGOpqq8l9GUuJotX4lFAQ2u+1Nho3hVY7rS5Mdwyu3OXdR1SZg==";
+        };
+        _OuzKAgPV = {
+            "id" = "OuzKAgPV";
+            "file" = "Saros-Road-Blocks-Fabric-26.2-5.12.jar";
+            "hash" = "sha512-h+vJt7BEuFkJ9WEGlOYlLPIMHxySxqKW+UoGAQrLY+8yF0Uh7Ng9732B8hsWW+y5lK0xcAfAmRj0eBwj9f8zZA==";
+        };
+        _p68yKDZj = {
+            "id" = "p68yKDZj";
+            "file" = "Saros-Road-Blocks-Forge-1.16.5-4.4.3.jar";
+            "hash" = "sha512-D/efK2SoxtuwhvKb7AQdBfsmlQr0NhWysjv3sIfR/uP6/TX5SnTVxnY5A7to1/iQClupoMOvvyQnRXSGRUWOxg==";
+        };
+        _LmC1hV2D = {
+            "id" = "LmC1hV2D";
+            "file" = "Saros-Road-Blocks-Forge-1.20.1-5.15.jar";
+            "hash" = "sha512-1o3hX3WIfq5dPjzPuFGVZb6QaYeOFhAhRdHSbNn9uUU8XLV3Aj8LVYEg7dCQhFpWKbEFnBHdG5shWUdpU40fpg==";
+        };
+        _MOA7Ei8o = {
+            "id" = "MOA7Ei8o";
+            "file" = "Saros-Road-Blocks-Forge-1.20.4-4.6.jar";
+            "hash" = "sha512-rwT61r9QZ/IQ2yVT3d+mjsoSaBaq+OSomaMrpjMT2Xl4Fi7XRWJZbB0AYF56PyTuNRvfcDjvinJaOB3Foe7TjQ==";
+        };
+        _LEift6nt = {
+            "id" = "LEift6nt";
+            "file" = "Saros-Road-Blocks-Forge-1.20.6-4.6.jar";
+            "hash" = "sha512-k8S3htE4ZMFVQc4n/k/fHKl7G1h3SvO29tZhbuz1j0AIL0rE9bTJ0kpmthiL3Z+zt4Icxbba4z04wOmtNSu9qg==";
+        };
+        _m7huIaz7 = {
+            "id" = "m7huIaz7";
+            "file" = "Saros-Road-Blocks-Forge-1.21.1-5.12.jar";
+            "hash" = "sha512-V1VIS281LvYlKEP/3QZKOiRtIY1wWSzAMvq87F2I6Ok4lCy8idVU2vUO3NgGAE7vzNzYMNSOXPobnXfjwolSIw==";
+        };
+        _ZcrleAlt = {
+            "id" = "ZcrleAlt";
+            "file" = "Saros-Road-Blocks-Forge-1.21.10-4.9.jar";
+            "hash" = "sha512-la1Swsgq9wGtzfEbfoiHgpZyo2chiV3NOcyYuM2ooepmxCKQsPb311IOLlzaAnomzp6ea7woOo5j0dpjbTbDNQ==";
+        };
+        _q9n6yhsz = {
+            "id" = "q9n6yhsz";
+            "file" = "Saros-Road-Blocks-Forge-1.21.11-5.9.jar";
+            "hash" = "sha512-bxhKtwUdusS3ych6VIPa7BGRN4q0yxYMyTJEPG70k8IL0T13QTNcR6jn+pOHZevzVdlWUs90Miuhi3escdiEVA==";
+        };
+        _Pkj0yYRc = {
+            "id" = "Pkj0yYRc";
+            "file" = "Saros-Road-Blocks-Forge-1.21.3-4.8.jar";
+            "hash" = "sha512-gJaqFYQtOcOtLnR5nCYy3Io6qsykOZ/v+GLkPmDsAsR54mVmG076+76VNfd+VbX9nkZU6DgXtCFhpdKIsfCxkA==";
+        };
+        _z5qyiypV = {
+            "id" = "z5qyiypV";
+            "file" = "Saros-Road-Blocks-Forge-1.21.5-4.8.jar";
+            "hash" = "sha512-7oXLz4moFu8yJEs6+8rR70U4hz71XvO2bXa1DbxpoApVZLDey7Tc6Ei9cfPnYb8ZrIbG+qRPH/t7f3WDYVe7gg==";
+        };
+        _G4GgUBWE = {
+            "id" = "G4GgUBWE";
+            "file" = "Saros-Road-Blocks-Forge-1.21.6-4.8.jar";
+            "hash" = "sha512-1Xz5mlag7lMhfoAMD70YbzJ6lBY6UjF9JyRQRcT1TzKftxgM/FigI777AykIS6bcM7nbf9v24KBinWrTLixv4Q==";
+        };
+        _O3Q392m5 = {
+            "id" = "O3Q392m5";
+            "file" = "Saros-Road-Blocks-Forge-1.21.7-4.7.jar";
+            "hash" = "sha512-UvsUMhFeqweoNd01oSc03RkR/fp/Z5fYDUVIXfAw/iiTh2F0lXYqSU6Wo+RiwK3k64zTHpbs2vejkIGiw9GK4w==";
+        };
+        _HqLOFAus = {
+            "id" = "HqLOFAus";
+            "file" = "Saros-Road-Blocks-Forge-1.21.8-4.7.jar";
+            "hash" = "sha512-V+bzG5+X355K1Uwgg0VhQaXLP1lGia5W1nSOILEjWMxXzfePRWs+Gel8yKYjXdGclSicJwF7uRrY24QVvhtPKg==";
+        };
+        _9qizC7tj = {
+            "id" = "9qizC7tj";
+            "file" = "Saros-Road-Blocks-Forge-1.21.9-4.7.jar";
+            "hash" = "sha512-IVmxs0iZijE7AWtq3qSN9/z57AKDbfAi2Hdz4wGXmM1mO011Od4/PPj1JJ21/rMwdH81ZrN1HZrQNtFoUKEK5A==";
+        };
+        _VECzOqxU = {
+            "id" = "VECzOqxU";
+            "file" = "Saros-Road-Blocks-Forge-26.1-5.1.9.jar";
+            "hash" = "sha512-xT+5GHJVwJgwWOh7QceXPJg/sWJXdg8mKcRtbXnZfpfSWpA9lG5JshAxBWCFHDdOiM2GauELjM/3DLLIveANGw==";
+        };
+        _31fyv7G0 = {
+            "id" = "31fyv7G0";
+            "file" = "Saros-Road-Blocks-Forge-26.1.1-5.9.jar";
+            "hash" = "sha512-8IvE88cxRa14YfFFkgFVEZZr2RsgieTXYQTBz7oi6Ahp1VqY8af0oTKgiEjF6Hch0UJmpCY8igH4r4hJuTT49g==";
+        };
+        _u9SmtHNm = {
+            "id" = "u9SmtHNm";
+            "file" = "Saros-Road-Blocks-Forge-26.1.2-5.9.jar";
+            "hash" = "sha512-lcKnW8UKmh7QEFWwc5ZNR2Tz99TE/2YtEur+lWpc6uCKgt/JrZCL7dfSjXi+VGko6S3+vTy+9WGx9gFmf9CTig==";
+        };
+        _pil2MHjc = {
+            "id" = "pil2MHjc";
+            "file" = "Saros-Road-Blocks-Forge-26.2-5.9.jar";
+            "hash" = "sha512-H0BgH2wuy5wuKdsLxNIjkNBHN+KH5Uz3plS908eSaKhw3ESJrU98NH1SYRAQqEt+81i+eOnLzrp/T/HN1e0qVg==";
+        };
+        _mcsn7RJp = {
+            "id" = "mcsn7RJp";
+            "file" = "Saros-Road-Blocks-NeoForge-1.21.1-5.9.9.jar";
+            "hash" = "sha512-/GfE4oiNlpqJqB7NlL0sU6Tz2aYKp5DMEbaMoPH42eCwdE7vyzVdjVOvKWonLP7lUOwoSLLtdjJol7++8Uan1g==";
+        };
+        _ytC4xREj = {
+            "id" = "ytC4xREj";
+            "file" = "Saros-Road-Blocks-NeoForge-26.1-5.10.jar";
+            "hash" = "sha512-LdB7f3kIjtPaCk+pTq3+0lT9uGjTTs8bhXljLxANgtnLPztyTlmR0oo9v6sFxtQqF6H9LR2nxa47hzq7ssWRrQ==";
+        };
+        _NXhj2QO1 = {
+            "id" = "NXhj2QO1";
+            "file" = "Saros-Road-Blocks-NeoForge-26.1.1-5.10.jar";
+            "hash" = "sha512-me6XoCsEWD4Y17eL4TqK5IdvWRWTcah3tiAg1O/Ngwbop7aaHi9nfkisZIjurmdtCzlwshc73JIYAXeNPNqbmA==";
+        };
+        _F4iLSOu3 = {
+            "id" = "F4iLSOu3";
+            "file" = "Saros-Road-Blocks-NeoForge-26.1.2-5.11.jar";
+            "hash" = "sha512-9mQhvtw8KKu1n9NEM1N8+4vwaQ/8aqe5oOv7dSuQ0ON8ha3Z8zHlG8y6vKbuQ+STg3Ne7Y1vYkZtgvBNayssIw==";
+        };
+        _bwVjXLFc = {
+            "id" = "bwVjXLFc";
+            "file" = "Saros-Road-Blocks-NeoForge-26.2-5.12.jar";
+            "hash" = "sha512-lqDih3RbRt/UbHBrL6fRZLf/qDD2L9sGmo3OYN2a+akM8znLHUgzGieBStBYi+u4drdwHahGsiQ4Kh1n59x1Kg==";
+        };
+        _fBIY6Pfj = {
+            "id" = "fBIY6Pfj";
+            "file" = "Saros-Road-Blocks-Fabric-1.20.1-5.12.jar";
+            "hash" = "sha512-Qx5Bz7cg3sbT4iHGw4HyIGIOESw/NWw85o2Nj0DgVkacasOdKK+I6Q5+U0krFVlo0cgHpefbj9c06gKTrswZ4A==";
+        };
+        _2OqrKqb9 = {
+            "id" = "2OqrKqb9";
+            "file" = "Saros-Road-Blocks-Fabric-1.21.10-4.9.9.jar";
+            "hash" = "sha512-7/L2XmzvtVHws1fNQnMCL2yZwSvxYZBEd4a5M6YExEjOo7f/Dcci8ocaGTJAubabRKLS1e9AlJtnxmadtO+/zg==";
+        };
+        _Cpcx91uW = {
+            "id" = "Cpcx91uW";
+            "file" = "Saros-Road-Blocks-Fabric-1.21.11-5.0.11.jar";
+            "hash" = "sha512-7sO1KIAEaJszRvSMCWRBpTBaA+YjkfHMVmhQEGksgqJN0Kgah5PsxQHzyUEDHHnzFMKYiaKensHrsrF3NTzMFw==";
+        };
+        _yUevnPQt = {
+            "id" = "yUevnPQt";
+            "file" = "Saros-Road-Blocks-Fabric-26.1-5.12.jar";
+            "hash" = "sha512-ULoPRfN8BEsa6q8cZakKFlXK4wP+5/NfFyyBXvGdSE5l0whJpCIW3K8rgKyuHM+dclJ+uFIHVoi8yEoyF2vKjA==";
+        };
+        _WCOo8kBq = {
+            "id" = "WCOo8kBq";
+            "file" = "Saros-Road-Blocks-Fabric-26.1.1-5.12.jar";
+            "hash" = "sha512-htNyb6oT0eZ2bSMNvrpC+CBAMr/7wCJcouHrrxrbiTFUO7KFfdG+NKT5fnGlh0614/QGY3VJbWA5ScbcW3p/pA==";
+        };
+        _6gmF18je = {
+            "id" = "6gmF18je";
+            "file" = "Saros-Road-Blocks-Fabric-26.1.2-5.12.jar";
+            "hash" = "sha512-ILgXVt/eG3RDLgva142aoSEf8ZzTMfJWaDha4uf4SmNrGINVqniWabgfPsVN/U6p4MWKhqUGKfbZ5q0ok8aRbQ==";
+        };
+        _xIxPoIbp = {
+            "id" = "xIxPoIbp";
+            "file" = "Saros-Road-Blocks-Fabric-26.2-5.13.jar";
+            "hash" = "sha512-Oz/7c1tfMoAz5Lyq6z/rwNNeH1qAkIo/70ujualr8OWkvMRBL3CxOLhMkonJ0dyqXjbsE9ZGA8dOO6uBY6JcZA==";
+        };
+        _9QIIMqCk = {
+            "id" = "9QIIMqCk";
+            "file" = "Saros-Road-Blocks-Forge-26.1-5.1.10.jar";
+            "hash" = "sha512-vm741BqH0OE202dpdLY5yBukIKvMge/F/EL3m1bo5gwVQiEYpBBHXQVws3k5yhxrP1u33HEdOYbmxI8o01McIQ==";
+        };
+        _AaUwKiRx = {
+            "id" = "AaUwKiRx";
+            "file" = "Saros-Road-Blocks-Forge-26.1.1-5.10.jar";
+            "hash" = "sha512-8VlRW9frrI8cU3u4zbViTauQv5s5oWORpF9k0a7Df7curb3ppJTxYFfIJAfmgNF13IW4pl5daUAJ5RzCppCe6A==";
+        };
+        _aXqPGRbk = {
+            "id" = "aXqPGRbk";
+            "file" = "Saros-Road-Blocks-Forge-26.1.2-5.10.jar";
+            "hash" = "sha512-8T+CoRjKwdccRO8W9TbyeuICvX1VajNvrRraOwsR362P7vUXKps0pMaMwxshJNC6ySqvu9GdBcYjbu0CwzUGDQ==";
+        };
+        _879HOG2L = {
+            "id" = "879HOG2L";
+            "file" = "Saros-Road-Blocks-Forge-26.2-5.10.jar";
+            "hash" = "sha512-tY3IIwgZkWvRCDlKF/NdbTeoYSyGbOM99EB5ETzT9glslPxyidIEC80x3dqPqQChVl9y9jNisA+R7yc+1yUzpg==";
+        };
+        _p13pvxpZ = {
+            "id" = "p13pvxpZ";
+            "file" = "Saros-Road-Blocks-NeoForge-26.1-5.11.jar";
+            "hash" = "sha512-4yfhpkNW+7LAJhxFJiyNneVG0rtdlKgjcfYiYAMvfw2n5ngn2OJKnSuZOm18Of3Nm138KGbCbl6QSny7k8LZ9A==";
+        };
+        _teI5aBjE = {
+            "id" = "teI5aBjE";
+            "file" = "Saros-Road-Blocks-NeoForge-26.1.1-5.11.jar";
+            "hash" = "sha512-nlP3RPh4yB/QyWam+AgRucgYdjuILApEpRMc1fCZ9TBrgGjzCvSHCx0faEC4h2dPrNz9K1vikIGnekagvTJ5Qg==";
+        };
+        _Cmz5DcD8 = {
+            "id" = "Cmz5DcD8";
+            "file" = "Saros-Road-Blocks-NeoForge-26.1.2-5.12.jar";
+            "hash" = "sha512-DLXj4EafDqc+/P0UbcZQlXlATuhP8gO+w4djhxVIgzBr8cdQdysyasAvKYi0i5qfbdpd97scsZY3QO/h0Kxa+w==";
+        };
+        _z34Xf6Ks = {
+            "id" = "z34Xf6Ks";
+            "file" = "Saros-Road-Blocks-NeoForge-26.2-5.13.jar";
+            "hash" = "sha512-4no5BYsjzH4Qr2oTDzkP+IMTee5t8OadYZM0P4qFdcRfBCnWOS9ljs1p1IdyM+q8amqrx3jT3Gl5mTdb2VxNTg==";
+        };
     in {
         "l75yLEmE" = _l75yLEmE;
         "mnrtlD5N" = _mnrtlD5N;
@@ -1346,47 +1986,175 @@ let
         "zRMMU80y" = _zRMMU80y;
         "59i79Kya" = _59i79Kya;
         "jS5iMwZ2" = _jS5iMwZ2;
-        "forge-1.16.5" = _pSWheBGp;
+        "Of2lQynU" = _Of2lQynU;
+        "6JwggTbt" = _6JwggTbt;
+        "u6M7MsLZ" = _u6M7MsLZ;
+        "9E9iT3xa" = _9E9iT3xa;
+        "Yw1mCUjj" = _Yw1mCUjj;
+        "PwMdTwIk" = _PwMdTwIk;
+        "Vtq2DvLm" = _Vtq2DvLm;
+        "VnFiALBK" = _VnFiALBK;
+        "Epksccji" = _Epksccji;
+        "NqKriRyB" = _NqKriRyB;
+        "SfPoCe6t" = _SfPoCe6t;
+        "19FodZ9N" = _19FodZ9N;
+        "B0nDj920" = _B0nDj920;
+        "f8IPsDHR" = _f8IPsDHR;
+        "lRi0zkBx" = _lRi0zkBx;
+        "ad7z6yZw" = _ad7z6yZw;
+        "xKDw72iz" = _xKDw72iz;
+        "rUxatAMn" = _rUxatAMn;
+        "DnSVsms8" = _DnSVsms8;
+        "L8ELSPVT" = _L8ELSPVT;
+        "6mIINexZ" = _6mIINexZ;
+        "Zq0xU6mz" = _Zq0xU6mz;
+        "hNizrFAq" = _hNizrFAq;
+        "Kx5dMtgl" = _Kx5dMtgl;
+        "QFqFBiod" = _QFqFBiod;
+        "d8UtUXVi" = _d8UtUXVi;
+        "3MochSXK" = _3MochSXK;
+        "fdU2DbwS" = _fdU2DbwS;
+        "2s6ZKddg" = _2s6ZKddg;
+        "LTNk8nXH" = _LTNk8nXH;
+        "Arc001dj" = _Arc001dj;
+        "GeLacHoi" = _GeLacHoi;
+        "E2FeMz4g" = _E2FeMz4g;
+        "CL1qJ9zH" = _CL1qJ9zH;
+        "XwTORBh4" = _XwTORBh4;
+        "UsQtQTxq" = _UsQtQTxq;
+        "5UiJoOP6" = _5UiJoOP6;
+        "dwda8v1S" = _dwda8v1S;
+        "EiS6c3qL" = _EiS6c3qL;
+        "LcGyYCHX" = _LcGyYCHX;
+        "jnS0GA3C" = _jnS0GA3C;
+        "5cbigWl1" = _5cbigWl1;
+        "HzJua2E2" = _HzJua2E2;
+        "YBZbbPCo" = _YBZbbPCo;
+        "PcZaFxN5" = _PcZaFxN5;
+        "loQbGwEi" = _loQbGwEi;
+        "H2hMR6U3" = _H2hMR6U3;
+        "LnanPan5" = _LnanPan5;
+        "HxBJzz3r" = _HxBJzz3r;
+        "9vShDcmz" = _9vShDcmz;
+        "jAQyLOzy" = _jAQyLOzy;
+        "Ys4hDM9T" = _Ys4hDM9T;
+        "sgfeRzvd" = _sgfeRzvd;
+        "oKPPW17k" = _oKPPW17k;
+        "HvmVujmV" = _HvmVujmV;
+        "xz4bvmkS" = _xz4bvmkS;
+        "7SjzjV1o" = _7SjzjV1o;
+        "jZU8EEOY" = _jZU8EEOY;
+        "8JU5tRT4" = _8JU5tRT4;
+        "tOkaAysh" = _tOkaAysh;
+        "m6y23bSz" = _m6y23bSz;
+        "qPowq0hK" = _qPowq0hK;
+        "1GzzuqSz" = _1GzzuqSz;
+        "pDT902df" = _pDT902df;
+        "UurCl3B4" = _UurCl3B4;
+        "Y4Vo5GAi" = _Y4Vo5GAi;
+        "iiX3vuxR" = _iiX3vuxR;
+        "Fa4hwSMt" = _Fa4hwSMt;
+        "77xRzHiU" = _77xRzHiU;
+        "AWVZbQCf" = _AWVZbQCf;
+        "qH3vZvo3" = _qH3vZvo3;
+        "Q7dU2V4w" = _Q7dU2V4w;
+        "udCvv5B1" = _udCvv5B1;
+        "UY8k3mbS" = _UY8k3mbS;
+        "DkrbkIme" = _DkrbkIme;
+        "ASHLDqCL" = _ASHLDqCL;
+        "LPk75PR4" = _LPk75PR4;
+        "9BPTVYPQ" = _9BPTVYPQ;
+        "dNzTOgJh" = _dNzTOgJh;
+        "jPtblSbn" = _jPtblSbn;
+        "BZV6LfEM" = _BZV6LfEM;
+        "uJ25Wc6G" = _uJ25Wc6G;
+        "b1lobgM0" = _b1lobgM0;
+        "OngIc1ip" = _OngIc1ip;
+        "x8ajMJE0" = _x8ajMJE0;
+        "iXFLt7cj" = _iXFLt7cj;
+        "gpkrIepO" = _gpkrIepO;
+        "9aXuBjFn" = _9aXuBjFn;
+        "BztE8XHx" = _BztE8XHx;
+        "jAT8MXwy" = _jAT8MXwy;
+        "OuzKAgPV" = _OuzKAgPV;
+        "p68yKDZj" = _p68yKDZj;
+        "LmC1hV2D" = _LmC1hV2D;
+        "MOA7Ei8o" = _MOA7Ei8o;
+        "LEift6nt" = _LEift6nt;
+        "m7huIaz7" = _m7huIaz7;
+        "ZcrleAlt" = _ZcrleAlt;
+        "q9n6yhsz" = _q9n6yhsz;
+        "Pkj0yYRc" = _Pkj0yYRc;
+        "z5qyiypV" = _z5qyiypV;
+        "G4GgUBWE" = _G4GgUBWE;
+        "O3Q392m5" = _O3Q392m5;
+        "HqLOFAus" = _HqLOFAus;
+        "9qizC7tj" = _9qizC7tj;
+        "VECzOqxU" = _VECzOqxU;
+        "31fyv7G0" = _31fyv7G0;
+        "u9SmtHNm" = _u9SmtHNm;
+        "pil2MHjc" = _pil2MHjc;
+        "mcsn7RJp" = _mcsn7RJp;
+        "ytC4xREj" = _ytC4xREj;
+        "NXhj2QO1" = _NXhj2QO1;
+        "F4iLSOu3" = _F4iLSOu3;
+        "bwVjXLFc" = _bwVjXLFc;
+        "fBIY6Pfj" = _fBIY6Pfj;
+        "2OqrKqb9" = _2OqrKqb9;
+        "Cpcx91uW" = _Cpcx91uW;
+        "yUevnPQt" = _yUevnPQt;
+        "WCOo8kBq" = _WCOo8kBq;
+        "6gmF18je" = _6gmF18je;
+        "xIxPoIbp" = _xIxPoIbp;
+        "9QIIMqCk" = _9QIIMqCk;
+        "AaUwKiRx" = _AaUwKiRx;
+        "aXqPGRbk" = _aXqPGRbk;
+        "879HOG2L" = _879HOG2L;
+        "p13pvxpZ" = _p13pvxpZ;
+        "teI5aBjE" = _teI5aBjE;
+        "Cmz5DcD8" = _Cmz5DcD8;
+        "z34Xf6Ks" = _z34Xf6Ks;
+        "forge-1.16.5" = _p68yKDZj;
         "forge-1.18.2" = _mnrtlD5N;
         "forge-1.19.2" = _eOkKveWN;
         "forge-1.19.4" = _eKTawVd7;
-        "forge-1.20.1" = _xys9Mb8E;
-        "forge-1.20.4" = _2YNHFGoY;
-        "forge-1.20.6" = _Q0YU0xkO;
+        "forge-1.20.1" = _LmC1hV2D;
+        "forge-1.20.4" = _MOA7Ei8o;
+        "forge-1.20.6" = _LEift6nt;
         "forge-1.21" = _X48wCWrL;
-        "forge-1.21.1" = _1f2DmRmC;
+        "forge-1.21.1" = _m7huIaz7;
         "forge-1.21.4" = _2qkSXtVj;
-        "forge-1.21.5" = _3XrH1p9Y;
-        "forge-1.21.3" = _IUqxg8bb;
-        "forge-1.21.6" = _iKEl6Mgm;
-        "forge-1.21.7" = _Vg4scvbo;
-        "forge-1.21.8" = _7Wd6eseG;
-        "forge-1.21.9" = _h2rrBEat;
-        "forge-1.21.10" = _DEkAcXyP;
-        "forge-1.21.11" = _HSA08xtH;
-        "forge-26.1" = _XvoKoGgh;
-        "forge-26.1.1" = _S8h0hlBs;
-        "forge-26.1.2" = _mZTDtQVO;
-        "forge-26.2" = _7D4YMH24;
+        "forge-1.21.5" = _z5qyiypV;
+        "forge-1.21.3" = _Pkj0yYRc;
+        "forge-1.21.6" = _G4GgUBWE;
+        "forge-1.21.7" = _O3Q392m5;
+        "forge-1.21.8" = _HqLOFAus;
+        "forge-1.21.9" = _9qizC7tj;
+        "forge-1.21.10" = _ZcrleAlt;
+        "forge-1.21.11" = _q9n6yhsz;
+        "forge-26.1" = _9QIIMqCk;
+        "forge-26.1.1" = _AaUwKiRx;
+        "forge-26.1.2" = _aXqPGRbk;
+        "forge-26.2" = _879HOG2L;
         "fabric-1.19.2" = _slushDBy;
-        "fabric-1.20.1" = _nw7OSKLJ;
-        "fabric-1.21.10" = _RMlB4u5t;
-        "fabric-1.21.11" = _wMOYD9bt;
+        "fabric-1.20.1" = _fBIY6Pfj;
+        "fabric-1.21.10" = _2OqrKqb9;
+        "fabric-1.21.11" = _Cpcx91uW;
         "fabric-1.21" = _mX1ha58U;
-        "fabric-1.21.1" = _kZbBvSIQ;
-        "fabric-26.1" = _Plsp1bV5;
-        "fabric-26.1.1" = _JeNDcay7;
-        "fabric-26.1.2" = _QJz4mSFF;
-        "fabric-26.2" = _qMRohfs6;
+        "fabric-1.21.1" = _x8ajMJE0;
+        "fabric-26.1" = _yUevnPQt;
+        "fabric-26.1.1" = _WCOo8kBq;
+        "fabric-26.1.2" = _6gmF18je;
+        "fabric-26.2" = _xIxPoIbp;
         "quilt-1.19.2" = _slushDBy;
         "quilt-1.20.1" = _7nFQaAkN;
-        "neoforge-1.20.1" = _xys9Mb8E;
-        "neoforge-1.21.1" = _nP9MiJQ4;
-        "neoforge-26.1" = _IkIpL3hY;
-        "neoforge-26.1.1" = _zRMMU80y;
-        "neoforge-26.1.2" = _59i79Kya;
+        "neoforge-1.20.1" = _LmC1hV2D;
+        "neoforge-1.21.1" = _mcsn7RJp;
+        "neoforge-26.1" = _p13pvxpZ;
+        "neoforge-26.1.1" = _teI5aBjE;
+        "neoforge-26.1.2" = _Cmz5DcD8;
         "neoforge-1.21.2" = _r1B13hZy;
-        "neoforge-26.2" = _jS5iMwZ2;
+        "neoforge-26.2" = _z34Xf6Ks;
         "pkg-2.5" = _slushDBy;
         "pkg-2.6" = _Nyomv9D7;
         "pkg-1.1" = _7E3D5JZ3;
@@ -1407,17 +2175,17 @@ let
         "pkg-4.1" = _H9Y8fu7g;
         "pkg-4.2" = _Q0YU0xkO;
         "pkg-4.3" = _h2rrBEat;
-        "pkg-4.4" = _iKEl6Mgm;
+        "pkg-4.4" = _d8UtUXVi;
         "pkg-4.4.1" = _VkSFqhyb;
         "pkg-4.4.2" = _pSWheBGp;
         "pkg-4.4.4" = _7A6BnTHx;
         "pkg-4.4.5" = _wyS2fY8W;
         "pkg-4.4.6" = _r3x85BOf;
-        "pkg-4.5" = _DEkAcXyP;
-        "pkg-4.6" = _AWvnDa0r;
-        "pkg-4.7" = _EXhwIhp0;
-        "pkg-4.8" = _stw7oyzo;
-        "pkg-4.9" = _fxcnWQ0L;
+        "pkg-4.5" = _8JU5tRT4;
+        "pkg-4.6" = _LEift6nt;
+        "pkg-4.7" = _9qizC7tj;
+        "pkg-4.8" = _G4GgUBWE;
+        "pkg-4.9" = _ZcrleAlt;
         "pkg-4.9.1" = _4f27ejsq;
         "pkg-5.0" = _BHcv7lXy;
         "pkg-5.0.1" = _sybF9VJw;
@@ -1454,12 +2222,12 @@ let
         "pkg-5.3-1.21.1-forge" = _df2L6j3C;
         "pkg-5.4-1.21.1-neoforge" = _MpkOJH9S;
         "pkg-5.4-1.21.1-fabric" = _ZrOGGafW;
-        "pkg-5.5" = _7D4YMH24;
-        "pkg-5.6" = _zRMMU80y;
+        "pkg-5.5" = _19FodZ9N;
+        "pkg-5.6" = _Zq0xU6mz;
         "pkg-4.9.3" = _BAPIsrhI;
         "pkg-5.0.5" = _lN6j6Wp5;
         "pkg-5.1.4" = _haNa1BNR;
-        "pkg-5.7" = _59i79Kya;
+        "pkg-5.7" = _HxBJzz3r;
         "pkg-5.7-neoforge-1.21.1" = _AE1H7IpK;
         "pkg-5.8-neoforge-1.21.1" = _heJE9A3c;
         "pkg-5.9-neoforge-1.21.1" = _1OtbSDbd;
@@ -1468,8 +2236,34 @@ let
         "pkg-5.0.6" = _wMOYD9bt;
         "pkg-5.1.5" = _XvoKoGgh;
         "pkg-5.9.3" = _nP9MiJQ4;
-        "pkg-5.8" = _jS5iMwZ2;
-        "default" = _jS5iMwZ2;
+        "pkg-5.8" = _dNzTOgJh;
+        "pkg-5.9.4" = _Of2lQynU;
+        "pkg-5.9.5" = _Vtq2DvLm;
+        "pkg-5.9" = _pil2MHjc;
+        "pkg-5.11" = _teI5aBjE;
+        "pkg-5.9.6" = _DnSVsms8;
+        "pkg-5.12" = _Cmz5DcD8;
+        "pkg-5.10" = _879HOG2L;
+        "pkg-5.9.7" = _2s6ZKddg;
+        "pkg-4.9.6" = _5UiJoOP6;
+        "pkg-5.0.8" = _EiS6c3qL;
+        "pkg-5.1.7" = _LcGyYCHX;
+        "pkg-5.9.8" = _Ys4hDM9T;
+        "pkg-5.13" = _z34Xf6Ks;
+        "pkg-4.9.7" = _iiX3vuxR;
+        "pkg-5.0.9" = _77xRzHiU;
+        "pkg-5.1.8" = _AWVZbQCf;
+        "pkg-5.14" = _b1lobgM0;
+        "pkg-4.9.8" = _iXFLt7cj;
+        "pkg-5.0.10" = _gpkrIepO;
+        "pkg-4.4.3" = _p68yKDZj;
+        "pkg-5.15" = _LmC1hV2D;
+        "pkg-5.1.9" = _VECzOqxU;
+        "pkg-5.9.9" = _mcsn7RJp;
+        "pkg-4.9.9" = _2OqrKqb9;
+        "pkg-5.0.11" = _Cpcx91uW;
+        "pkg-5.1.10" = _9QIIMqCk;
+        "default" = _z34Xf6Ks;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saros-road-blocks";

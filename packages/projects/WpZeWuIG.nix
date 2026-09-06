@@ -126,6 +126,16 @@ let
             "file" = "FabricKotlinExtensions-2.0.3.jar";
             "hash" = "sha512-HliEBjNrxdHs8bc3GQoeViDh7uVl2btsV+WAGwobfENo8HIXpPMjEuLZlhPetHungr8EvLcntfT8+0Ukd3DRYA==";
         };
+        _vnqV2Xt2 = {
+            "id" = "vnqV2Xt2";
+            "file" = "EthansKotlinExtensions-2.1.jar";
+            "hash" = "sha512-MxLo1oNeYOuXC77wFHHXKpQcsANsS0JMjH+9h+OqoF+3jmxMLBQ7j9MYfdjT1Ay9amWAw9SFMyWOo5ow2t5mIQ==";
+        };
+        _njxWzuMD = {
+            "id" = "njxWzuMD";
+            "file" = "EthansKotlinExtensions-2.1.jar";
+            "hash" = "sha512-MxLo1oNeYOuXC77wFHHXKpQcsANsS0JMjH+9h+OqoF+3jmxMLBQ7j9MYfdjT1Ay9amWAw9SFMyWOo5ow2t5mIQ==";
+        };
     in {
         "FfHEafjv" = _FfHEafjv;
         "eHfhYB1Q" = _eHfhYB1Q;
@@ -152,6 +162,8 @@ let
         "fwSWgxRP" = _fwSWgxRP;
         "5D0mv4MO" = _5D0mv4MO;
         "USmNgT5R" = _USmNgT5R;
+        "vnqV2Xt2" = _vnqV2Xt2;
+        "njxWzuMD" = _njxWzuMD;
         "fabric-1.20.1" = _htrjTJfr;
         "fabric-1.20.2" = _htrjTJfr;
         "fabric-1.14" = _htrjTJfr;
@@ -201,12 +213,14 @@ let
         "fabric-26.1-rc-1" = _fwSWgxRP;
         "fabric-26.1-rc-2" = _fwSWgxRP;
         "fabric-26.1-rc-3" = _fwSWgxRP;
-        "fabric-26.1" = _USmNgT5R;
-        "fabric-26.1.1" = _USmNgT5R;
-        "fabric-26.1.2" = _USmNgT5R;
+        "fabric-26.1" = _vnqV2Xt2;
+        "fabric-26.1.1" = _vnqV2Xt2;
+        "fabric-26.1.2" = _vnqV2Xt2;
         "fabric-26.2-snapshot-7" = _5D0mv4MO;
-        "fabric-26.2" = _USmNgT5R;
-        "fabric-26.3-snapshot-5" = _USmNgT5R;
+        "fabric-26.2" = _vnqV2Xt2;
+        "fabric-26.3-snapshot-5" = _vnqV2Xt2;
+        "fabric-26.3-snapshot-6" = _vnqV2Xt2;
+        "fabric-26.3-snapshot-7" = _vnqV2Xt2;
         "quilt-1.20.1" = _htrjTJfr;
         "quilt-1.20.2" = _htrjTJfr;
         "quilt-1.14" = _htrjTJfr;
@@ -257,6 +271,13 @@ let
         "quilt-26.1-rc-2" = _fwSWgxRP;
         "quilt-26.1-rc-3" = _fwSWgxRP;
         "quilt-26.1" = _fwSWgxRP;
+        "neoforge-26.1" = _njxWzuMD;
+        "neoforge-26.1.1" = _njxWzuMD;
+        "neoforge-26.1.2" = _njxWzuMD;
+        "neoforge-26.2" = _njxWzuMD;
+        "neoforge-26.3-snapshot-5" = _njxWzuMD;
+        "neoforge-26.3-snapshot-6" = _njxWzuMD;
+        "neoforge-26.3-snapshot-7" = _njxWzuMD;
         "pkg-1.0" = _FfHEafjv;
         "pkg-1.0.1" = _eHfhYB1Q;
         "pkg-1.0.2" = _R3toaalh;
@@ -281,10 +302,12 @@ let
         "pkg-2.0.1" = _fwSWgxRP;
         "pkg-2.0.2" = _5D0mv4MO;
         "pkg-2.0.3" = _USmNgT5R;
-        "default" = _USmNgT5R;
+        "pkg-2.1-fabric" = _vnqV2Xt2;
+        "pkg-2.1-neoforge" = _njxWzuMD;
+        "default" = _njxWzuMD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
-        name = "fabric-kotlin-extensions";
+        name = "ethans-kotlin-extensions";
         id = "WpZeWuIG";
         type = "mod";
         versions = versions;

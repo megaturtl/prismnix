@@ -66,6 +66,11 @@ let
             "file" = "quickcapes-2.0.3.jar";
             "hash" = "sha512-HpdrKggTp6QJUpoETWliFkxOgk4ZoSsIm18zhrz9gDAs8exw7Bc36SfUfewNZJMEtIBd1Oo5ZC6R+uBQOq/J2w==";
         };
+        _L3WAiT7n = {
+            "id" = "L3WAiT7n";
+            "file" = "quickcapes-1.10.jar";
+            "hash" = "sha512-hyMcdXZZSmA5zc2xbHcqz5BNaYYxg4jPlaF/pD/cfpRKuiZVkSDOg+IyUsDpSEDXfWEBAZsKaAH8U6kfY6h8Xw==";
+        };
     in {
         "3LXZPeyp" = _3LXZPeyp;
         "i0bPVzUR" = _i0bPVzUR;
@@ -80,7 +85,8 @@ let
         "Zwb3e3ig" = _Zwb3e3ig;
         "LUIsCn5k" = _LUIsCn5k;
         "VFdwVklL" = _VFdwVklL;
-        "forge-1.8.9" = _VFdwVklL;
+        "L3WAiT7n" = _L3WAiT7n;
+        "forge-1.8.9" = _L3WAiT7n;
         "pkg-1.1" = _3LXZPeyp;
         "pkg-1.2" = _i0bPVzUR;
         "pkg-v1.3" = _cQxQx8jB;
@@ -94,7 +100,8 @@ let
         "pkg-v2.0.1" = _Zwb3e3ig;
         "pkg-v2.0.2" = _LUIsCn5k;
         "pkg-v2.0.3" = _VFdwVklL;
-        "default" = _VFdwVklL;
+        "pkg-v1.10" = _L3WAiT7n;
+        "default" = _L3WAiT7n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "quickcapes";

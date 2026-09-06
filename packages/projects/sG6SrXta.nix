@@ -235,6 +235,9 @@ let
         "paper-1.21.10" = _tgIjpa3D;
         "paper-1.21.11" = _tgIjpa3D;
         "paper-26.1" = _tgIjpa3D;
+        "paper-26.1.1" = _tgIjpa3D;
+        "paper-26.1.2" = _tgIjpa3D;
+        "paper-26.2" = _tgIjpa3D;
         "purpur-1.12.2" = _WAvRyY6V;
         "purpur-1.13" = _WAvRyY6V;
         "purpur-1.13.1" = _WAvRyY6V;
@@ -306,6 +309,9 @@ let
         "purpur-1.21.10" = _tgIjpa3D;
         "purpur-1.21.11" = _tgIjpa3D;
         "purpur-26.1" = _tgIjpa3D;
+        "purpur-26.1.1" = _tgIjpa3D;
+        "purpur-26.1.2" = _tgIjpa3D;
+        "purpur-26.2" = _tgIjpa3D;
         "velocity-1.12.2" = _1Gy7jBHC;
         "velocity-1.13" = _1Gy7jBHC;
         "velocity-1.13.1" = _1Gy7jBHC;
@@ -386,6 +392,9 @@ let
         "velocity-1.21.10" = _1Gy7jBHC;
         "velocity-1.21.11" = _1Gy7jBHC;
         "velocity-26.1" = _1Gy7jBHC;
+        "velocity-26.1.1" = _1Gy7jBHC;
+        "velocity-26.1.2" = _1Gy7jBHC;
+        "velocity-26.2" = _1Gy7jBHC;
         "spigot-1.8.7" = _WAvRyY6V;
         "spigot-1.8.8" = _WAvRyY6V;
         "spigot-1.8.9" = _WAvRyY6V;
@@ -569,6 +578,9 @@ let
         "folia-1.21.10" = _tgIjpa3D;
         "folia-1.21.11" = _tgIjpa3D;
         "folia-26.1" = _tgIjpa3D;
+        "folia-26.1.1" = _tgIjpa3D;
+        "folia-26.1.2" = _tgIjpa3D;
+        "folia-26.2" = _tgIjpa3D;
         "pkg-3.0.0" = _f570xHeY;
         "pkg-3.0.1" = _xfDxsMFc;
         "pkg-3.0.2" = _TXJFvENY;

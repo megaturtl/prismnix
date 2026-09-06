@@ -81,6 +81,11 @@ let
             "file" = "dynamichud-4.1.0.jar";
             "hash" = "sha512-f2G6SdzyLjk3N50qH/oSgnHGVK0kowGgkHKYhtvbF1j6IfV1jN65nGMQQDV4OGmBsNr/XPmAGI2BjX2kR1T/dw==";
         };
+        _cnila8js = {
+            "id" = "cnila8js";
+            "file" = "dynamichud-5.0.0.jar";
+            "hash" = "sha512-jCqjMHNtDAv1HYvQbeVTKdyJSxrTzKZXfHe3/QeM81Pj8AEpozc+RbKTNZ+oQS0nWRinRP2FTzSD2AejhrIOPA==";
+        };
     in {
         "8Wqhs16Z" = _8Wqhs16Z;
         "F8dCdCBg" = _F8dCdCBg;
@@ -98,6 +103,7 @@ let
         "16OPYWAw" = _16OPYWAw;
         "LGfME83Z" = _LGfME83Z;
         "8tX9fvJP" = _8tX9fvJP;
+        "cnila8js" = _cnila8js;
         "fabric-1.19.4" = _8Wqhs16Z;
         "fabric-1.20" = _zx4ZgEuf;
         "fabric-1.20.1" = _zx4ZgEuf;
@@ -110,6 +116,10 @@ let
         "fabric-1.21.4" = _gZwWvs4E;
         "fabric-1.21.5" = _16OPYWAw;
         "fabric-1.21.11" = _8tX9fvJP;
+        "fabric-26.1.1" = _cnila8js;
+        "fabric-26.1.2" = _cnila8js;
+        "quilt-26.1.1" = _cnila8js;
+        "quilt-26.1.2" = _cnila8js;
         "pkg-1.0.0" = _8Wqhs16Z;
         "pkg-1.1.0" = _F8dCdCBg;
         "pkg-1.1.1" = _mqa83JjI;
@@ -126,7 +136,8 @@ let
         "pkg-3.1.0" = _16OPYWAw;
         "pkg-4.0.0" = _LGfME83Z;
         "pkg-4.1.0" = _8tX9fvJP;
-        "default" = _8tX9fvJP;
+        "pkg-5.0.0" = _cnila8js;
+        "default" = _cnila8js;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dynamichud";

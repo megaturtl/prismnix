@@ -16,15 +16,23 @@ let
             "file" = "dew_drop_watering_cans-1.0.2.jar";
             "hash" = "sha512-L+2e7BdnxxAZ4Ag2WEmTeJ9RGzyyN26VdsuLwPxfu5/hXLSap+tK6KiQ2eSm/3xozVNhZEZeRJXYuet8yb7swA==";
         };
+        _f9mOi7W5 = {
+            "id" = "f9mOi7W5";
+            "file" = "dew_drop_watering_cans-1.0.2-1.21.1.jar";
+            "hash" = "sha512-nidCMpxF7Qf46LWKXsvlcYgjUI2epDbEWmRr5EroFQ05D2Z40uF4vYycgqDLOvENFLuP6J01Ypldij91g8EurA==";
+        };
     in {
         "3gNnBDyl" = _3gNnBDyl;
         "igX9kFBr" = _igX9kFBr;
         "7e8NWI5O" = _7e8NWI5O;
+        "f9mOi7W5" = _f9mOi7W5;
         "forge-1.20.1" = _7e8NWI5O;
+        "neoforge-1.21.1" = _f9mOi7W5;
         "pkg-1.0" = _3gNnBDyl;
         "pkg-1.0.1" = _igX9kFBr;
         "pkg-1.0.2" = _7e8NWI5O;
-        "default" = _7e8NWI5O;
+        "pkg-1.0.2-1.21.1" = _f9mOi7W5;
+        "default" = _f9mOi7W5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dew-drop-watering-cans";

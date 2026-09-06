@@ -21,17 +21,29 @@ let
             "file" = "lrtactical-1.20.1-0.4.1.jar";
             "hash" = "sha512-DoqC0mtRVjRyjfVcVABH71xKsPqTXZlY/STyTAncNptHQuOm8BfrmU+b1PiiB1o3YBQDKX85uuWvLG0ltrdibw==";
         };
+        _eygQmqIl = {
+            "id" = "eygQmqIl";
+            "file" = "lrtactical-1.20.1-0.4.3.jar";
+            "hash" = "sha512-V8T6pvtAj4ImJx7LjshV3nKPvgRofkwFvzZlTm9ef6KrqS0+0ysQiSDdNMBgEcuSCInxCfbpHSydjiFkXLTNOQ==";
+        };
     in {
         "DvPYoQxE" = _DvPYoQxE;
         "wMn7gapK" = _wMn7gapK;
         "E7qEgKDy" = _E7qEgKDy;
         "McZNhhZ1" = _McZNhhZ1;
-        "forge-1.20.1" = _McZNhhZ1;
+        "eygQmqIl" = _eygQmqIl;
+        "forge-1.20.1" = _eygQmqIl;
+        "forge-1.20.2" = _eygQmqIl;
+        "forge-1.20.3" = _eygQmqIl;
+        "forge-1.20.4" = _eygQmqIl;
+        "forge-1.20.5" = _eygQmqIl;
+        "forge-1.20.6" = _eygQmqIl;
         "pkg-0.2.4" = _DvPYoQxE;
         "pkg-0.3.0" = _wMn7gapK;
         "pkg-0.4.0" = _E7qEgKDy;
         "pkg-0.4.1" = _McZNhhZ1;
-        "default" = _McZNhhZ1;
+        "pkg-0.4.3" = _eygQmqIl;
+        "default" = _eygQmqIl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lr-tactical";

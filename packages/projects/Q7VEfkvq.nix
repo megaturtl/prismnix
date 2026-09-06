@@ -91,6 +91,96 @@ let
             "file" = "skyrecipes-0.5.0+26.2.jar";
             "hash" = "sha512-szSNAWDAU3OSBdZGDdyqh+JXXuASaQngpHBQ35C7ieWKZzXcJpvruDTfJOy63003ycGBpH3SusTpa8BMMjcffg==";
         };
+        _xpCMT2K7 = {
+            "id" = "xpCMT2K7";
+            "file" = "skyrecipes-0.5.1+26.2.jar";
+            "hash" = "sha512-HG6aQnP5SfJaq/OeMqql04akkDeZXubSTyTgNlojGKN7zIo3jGlhHlo1MhEfRvtGkfeblIAB2NzBqx/LlBfV6A==";
+        };
+        _nHht2TZi = {
+            "id" = "nHht2TZi";
+            "file" = "skyrecipes-0.5.1+26.1.2.jar";
+            "hash" = "sha512-/TYXYtlsg+5hs0SANCsmiZk4hVGk6ulBnBZlpy5zv7ae7agBS8WOBS1bXxYH55OXglj1ExMfzdZHwLGWq0Mnag==";
+        };
+        _1bboeqdR = {
+            "id" = "1bboeqdR";
+            "file" = "skyrecipes-0.5.2+26.1.2.jar";
+            "hash" = "sha512-RoZd54vQB3mk0dIP+cPdHzNIDPDvut6ycjzWpqgO7o1qsHoaCE3fU60gAlbKmr3KExxBzjQ/qhORjAfSmyUkSQ==";
+        };
+        _C1lCnZFN = {
+            "id" = "C1lCnZFN";
+            "file" = "skyrecipes-0.5.2+26.2.jar";
+            "hash" = "sha512-v87spzfb4wzLZgQ3EByZlVjuw/jJuUuHwrUzMD+KytsIWg91aGMEVbUVCRFsWJ5dYrtMmWx+lr46h1H3pI4QOA==";
+        };
+        _HwisRExf = {
+            "id" = "HwisRExf";
+            "file" = "skyrecipes-0.5.3+26.2.jar";
+            "hash" = "sha512-AauZC3ZZUCHpw468xwrPX8LAXHv8C5f+FsieTcgPu1kWplSHmO+bqEUYthxXRQC29Q1oCqwAPPfjmD8dy5fGBA==";
+        };
+        _iAWrf1W7 = {
+            "id" = "iAWrf1W7";
+            "file" = "skyrecipes-0.5.3+26.1.2.jar";
+            "hash" = "sha512-B25FgaEdjok2fKYC+EeIf/y2H8fJWy+VtknfzVV+fpsRU54gXZLWE7fmYCEwPZYa9HOYqyQ0CU17Tqt0BGiDNQ==";
+        };
+        _Z3icVy8v = {
+            "id" = "Z3icVy8v";
+            "file" = "skyrecipes-0.5.4+26.1.2.jar";
+            "hash" = "sha512-Jl2rE3tkv4w0iYBqeSZopuCKGKpfL8vXIReDlNGGWY2s+pVvJoWuOwhiH0y7oVjZLfLY2bmlM8gzNUxC+0S+jQ==";
+        };
+        _Zlv9sZo1 = {
+            "id" = "Zlv9sZo1";
+            "file" = "skyrecipes-0.5.4+26.2.jar";
+            "hash" = "sha512-R4mfiae+atsYsZy9n6P4JfvkfYtkmhxbplxcQWZX+BkIY6KHWVMtCCzSLrfVzUq5dRT0VM5Ob079LClnqiBhUw==";
+        };
+        _jMIwOV2c = {
+            "id" = "jMIwOV2c";
+            "file" = "skyrecipes-0.5.5+26.2.jar";
+            "hash" = "sha512-bq4mysv7W61iMjba4nX2NSUE0pVIVX/nXGs7170XsIBLijTK/QtM7sCF1RfFQQMxyVRvmDP43kP3Bj7mhsnerg==";
+        };
+        _4DFDkz2j = {
+            "id" = "4DFDkz2j";
+            "file" = "skyrecipes-0.5.5+26.1.2.jar";
+            "hash" = "sha512-5yE5ZXS09j9Hdy4t28XxNbpRcCJz150mCKZ5den4hn50pGknii1CQ6h/S3QCuWPtWTNLVtwo8AAcyOy7foa46Q==";
+        };
+        _DH0T0eRn = {
+            "id" = "DH0T0eRn";
+            "file" = "skyrecipes-0.5.6+26.2.jar";
+            "hash" = "sha512-xQO8CC5jubABv6ycBOZNqMHr2P8/LMWozecL2A9VEcoYTsdiCRN5B9M/mvEG2gHMXJj0QG5RHpIbCL8LYYs0jg==";
+        };
+        _itB0BE4u = {
+            "id" = "itB0BE4u";
+            "file" = "skyrecipes-0.5.6+26.1.2.jar";
+            "hash" = "sha512-Bq1wYupIdjwgpDTGuX9ULc+XdNyay3Is5EenXZjeBbGZYsKvTZjAvKYgURLc9piMsGSvogPx++kl9f/lBJbuKg==";
+        };
+        _6ZpHiSGU = {
+            "id" = "6ZpHiSGU";
+            "file" = "skyrecipes-0.5.7+26.1.2.jar";
+            "hash" = "sha512-0FEMpnor3sEBlvPwgvOByCa6+Z5To0jQEV6S87ivR+G/BcHV+tVl9TeZB1UrASXxr5dCGYv2D/LEra0RXaPbVA==";
+        };
+        _yg5QpF4I = {
+            "id" = "yg5QpF4I";
+            "file" = "skyrecipes-0.5.7+26.2.jar";
+            "hash" = "sha512-bBRo3EvO1Cuor27PRlIZjFJgMZXVFy4tHyoFGZzhsTzQuMAsuah98fGuqBvJRdtTy4nGSntdoJVIEvUfsZazRg==";
+        };
+        _3soppqbw = {
+            "id" = "3soppqbw";
+            "file" = "skyrecipes-0.5.8+26.1.2.jar";
+            "hash" = "sha512-bFwQEwatWiJaSSuHmAFNSLdOE7Js7ecYsXx5IMkePDhlkNmUkkaMVB7yKTNP8eXbZEm5PgdPEdy2GcnyF9UUJQ==";
+        };
+        _GRhicSFN = {
+            "id" = "GRhicSFN";
+            "file" = "skyrecipes-0.5.8+26.2.jar";
+            "hash" = "sha512-HoXdy+NKPi2OdMoqDUWUBYXHo7LKkQAA+BuePRy+qZomfbwPHks/VmMiyJ2osRNkOh7XDJKxqV625HtV1wqG3w==";
+        };
+        _la9q6Lge = {
+            "id" = "la9q6Lge";
+            "file" = "skyrecipes-0.5.9+26.1.2.jar";
+            "hash" = "sha512-TOcQSQD1X+vCZJUEhxadJ41XutfvW7kZGxAppxALRfK1y/+BZq3x3QYdZmIdsCHGnI5Aekw18GjAA5NOlnOvWg==";
+        };
+        _XIzqg5mr = {
+            "id" = "XIzqg5mr";
+            "file" = "skyrecipes-0.5.9+26.2.jar";
+            "hash" = "sha512-ccsFK6Ctq6QjrZYR/FTb76pkW0LJt9cYr2YT4brxumCWZP7OlJRC2O5K6TKCBb1av3l3LAoKI/66Pq8j3IWT+w==";
+        };
     in {
         "WbrS3DNQ" = _WbrS3DNQ;
         "u3W1qY5A" = _u3W1qY5A;
@@ -110,10 +200,28 @@ let
         "eyQ66UhF" = _eyQ66UhF;
         "rEQd5yTJ" = _rEQd5yTJ;
         "zyYpI09Z" = _zyYpI09Z;
-        "fabric-26.1" = _rEQd5yTJ;
-        "fabric-26.1.1" = _rEQd5yTJ;
-        "fabric-26.1.2" = _rEQd5yTJ;
-        "fabric-26.2" = _zyYpI09Z;
+        "xpCMT2K7" = _xpCMT2K7;
+        "nHht2TZi" = _nHht2TZi;
+        "1bboeqdR" = _1bboeqdR;
+        "C1lCnZFN" = _C1lCnZFN;
+        "HwisRExf" = _HwisRExf;
+        "iAWrf1W7" = _iAWrf1W7;
+        "Z3icVy8v" = _Z3icVy8v;
+        "Zlv9sZo1" = _Zlv9sZo1;
+        "jMIwOV2c" = _jMIwOV2c;
+        "4DFDkz2j" = _4DFDkz2j;
+        "DH0T0eRn" = _DH0T0eRn;
+        "itB0BE4u" = _itB0BE4u;
+        "6ZpHiSGU" = _6ZpHiSGU;
+        "yg5QpF4I" = _yg5QpF4I;
+        "3soppqbw" = _3soppqbw;
+        "GRhicSFN" = _GRhicSFN;
+        "la9q6Lge" = _la9q6Lge;
+        "XIzqg5mr" = _XIzqg5mr;
+        "fabric-26.1" = _la9q6Lge;
+        "fabric-26.1.1" = _la9q6Lge;
+        "fabric-26.1.2" = _la9q6Lge;
+        "fabric-26.2" = _XIzqg5mr;
         "pkg-v0.1.0-mc26.1.2" = _WbrS3DNQ;
         "pkg-v0.2.0-mc26.1.2" = _u3W1qY5A;
         "pkg-v0.2.1-mc26.1.2" = _Dphii8pL;
@@ -132,7 +240,25 @@ let
         "pkg-v0.4.4-mc26.2" = _eyQ66UhF;
         "pkg-v0.5.0-mc26.1.2" = _rEQd5yTJ;
         "pkg-v0.5.0-mc26.2" = _zyYpI09Z;
-        "default" = _zyYpI09Z;
+        "pkg-v0.5.1-mc26.2" = _xpCMT2K7;
+        "pkg-v0.5.1-mc26.1.2" = _nHht2TZi;
+        "pkg-v0.5.2-mc26.1.2" = _1bboeqdR;
+        "pkg-v0.5.2-mc26.2" = _C1lCnZFN;
+        "pkg-v0.5.3-mc26.2" = _HwisRExf;
+        "pkg-v0.5.3-mc26.1.2" = _iAWrf1W7;
+        "pkg-v0.5.4-mc26.1.2" = _Z3icVy8v;
+        "pkg-v0.5.4-mc26.2" = _Zlv9sZo1;
+        "pkg-v0.5.5-mc26.2" = _jMIwOV2c;
+        "pkg-v0.5.5-mc26.1.2" = _4DFDkz2j;
+        "pkg-v0.5.6-mc26.2" = _DH0T0eRn;
+        "pkg-v0.5.6-mc26.1.2" = _itB0BE4u;
+        "pkg-v0.5.7-mc26.1.2" = _6ZpHiSGU;
+        "pkg-v0.5.7-mc26.2" = _yg5QpF4I;
+        "pkg-v0.5.8-mc26.1.2" = _3soppqbw;
+        "pkg-v0.5.8-mc26.2" = _GRhicSFN;
+        "pkg-v0.5.9-mc26.1.2" = _la9q6Lge;
+        "pkg-v0.5.9-mc26.2" = _XIzqg5mr;
+        "default" = _XIzqg5mr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enhanced-skyrecipes";

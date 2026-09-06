@@ -301,6 +301,36 @@ let
             "file" = "zamega-neoforge-1.7.5-hotfix.jar";
             "hash" = "sha512-mzKMB6UPFnGM+CggGmpdTRTP+9P2S/lQ1U1EpHAwjXQgyMmQPHDYnPgbPHRTClti8WFOvrDkXwIltEMg4c50kA==";
         };
+        _EiJO9FoL = {
+            "id" = "EiJO9FoL";
+            "file" = "zamega-fabric-1.7.6.jar";
+            "hash" = "sha512-gJ5AbWw5GUY5u/TatwCnuGTzJoHXGFsyoJk04mmHp0vhUD2DNFiTeDzIEJZ+aG9dvkhdj5T/qfKNd06vsVICDQ==";
+        };
+        _I2TIMyf4 = {
+            "id" = "I2TIMyf4";
+            "file" = "zamega-neoforge-1.7.6.jar";
+            "hash" = "sha512-GRK1StTxbwWcCpuFRU4MIg1Ov7XsBoruDvJg6DnLDlLYMtXjBVfUwRxaNvI7aFXWMPCO2XWNsAq6nO0iKNGeIA==";
+        };
+        _8EKUEs2X = {
+            "id" = "8EKUEs2X";
+            "file" = "zamega-neoforge-1.7.6+1.8.jar";
+            "hash" = "sha512-Euzfl1FO2iKDxHb6yjIuWP0VcfeMeGkKYuSpmV0eJmJI3WLkDDAkV1bIwIne4wSoibmLSmJ6/KvU97Nd7cOvRg==";
+        };
+        _IAfKpgL8 = {
+            "id" = "IAfKpgL8";
+            "file" = "zamega-fabric-1.7.6+1.8.jar";
+            "hash" = "sha512-l2rtD/0OO6xdlcnfThlIqGFpugVRAbz1DjYSaesSUAtSFGfcgSQrraL+FEqTXnfcNOJ1Vp22hPRfmIWZpWpELA==";
+        };
+        _jlpvkxRM = {
+            "id" = "jlpvkxRM";
+            "file" = "zamega-fabric-1.7.7+1.8.jar";
+            "hash" = "sha512-cg15LUtyJMlWty4/SAsiXMACEm1ZOyjEkmP4yUzOWTp3Iw6BhU2baVOH1Ly6XM9rOKoFVjiuF0wnFavgqz41wg==";
+        };
+        _lmM1mzoE = {
+            "id" = "lmM1mzoE";
+            "file" = "zamega-neoforge-1.7.7+1.8.jar";
+            "hash" = "sha512-+zkEoC3+fKWQ7Vc84jmKVz8/aeoV5WSfSIxhvigYr+8nPAAJsCWDfS7t06oU3Cd/O1ZGhNdUcr+3XGBIj1oZlQ==";
+        };
     in {
         "PWnNshnB" = _PWnNshnB;
         "67GxfNuL" = _67GxfNuL;
@@ -362,9 +392,15 @@ let
         "RHpzoxn8" = _RHpzoxn8;
         "a8P4YDI4" = _a8P4YDI4;
         "MFuRZOBA" = _MFuRZOBA;
+        "EiJO9FoL" = _EiJO9FoL;
+        "I2TIMyf4" = _I2TIMyf4;
+        "8EKUEs2X" = _8EKUEs2X;
+        "IAfKpgL8" = _IAfKpgL8;
+        "jlpvkxRM" = _jlpvkxRM;
+        "lmM1mzoE" = _lmM1mzoE;
         "datapack-1.21.1" = _r9p6V7hl;
-        "fabric-1.21.1" = _a8P4YDI4;
-        "neoforge-1.21.1" = _MFuRZOBA;
+        "fabric-1.21.1" = _jlpvkxRM;
+        "neoforge-1.21.1" = _lmM1mzoE;
         "pkg-0.9.0" = _PWnNshnB;
         "pkg-0.9.1" = _67GxfNuL;
         "pkg-1.0" = _NsIrA0dG;
@@ -400,7 +436,10 @@ let
         "pkg-1.7.4-hotfix-hotfix" = _iOnZJI9z;
         "pkg-1.7.5" = _RHpzoxn8;
         "pkg-1.7.5-hotfix" = _MFuRZOBA;
-        "default" = _MFuRZOBA;
+        "pkg-1.7.6" = _I2TIMyf4;
+        "pkg-1.7.6+1.8" = _IAfKpgL8;
+        "pkg-1.7.7+1.8" = _lmM1mzoE;
+        "default" = _lmM1mzoE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "navas-zamega";

@@ -416,6 +416,36 @@ let
             "file" = "MoreSnifferFlowers-1.21.1-neo-6.6.6.jar";
             "hash" = "sha512-QHkPKa2k2EAXc8Vp3WQ3GHHFbx/r1aUhRnWruTNF5L4srNaMGWZpJcvNNgOIoVn2eJwLY7ABipN6Z/0+xNXgmQ==";
         };
+        _zAk4tyyQ = {
+            "id" = "zAk4tyyQ";
+            "file" = "MoreSnifferFlowers-1.20.1-Forge-6.7.jar";
+            "hash" = "sha512-9DP4rYfpcQDOzkQFUCgl+qxcz6i0/MojJUOUiTda25mU0g8HqXEkMBuQknoQTiWdULb5J4Hl4xXHGm+323LaNg==";
+        };
+        _5kX6k0ct = {
+            "id" = "5kX6k0ct";
+            "file" = "MoreSnifferFlowers-1.21.1-neo-6.7.jar";
+            "hash" = "sha512-MXsarilnwY6QqZ6B+loX+AKHmsJG1P6oxg8gFO/o/UACFvq8Yoq0/Yu2vGBsBHGgRzU5PJrks5nAtHWimG7jgw==";
+        };
+        _9gOekYpr = {
+            "id" = "9gOekYpr";
+            "file" = "MoreSnifferFlowers-1.20.1-Forge-6.7.1.jar";
+            "hash" = "sha512-ZIHvzlXI239YXtBicR+abbBTkxCdpTJUvg//xq9/nMGKDGmSZM6WVLT/sB1nPTw2NsPZi/zGEpBomLUstzeI7w==";
+        };
+        _IglzyqSB = {
+            "id" = "IglzyqSB";
+            "file" = "MoreSnifferFlowers-1.21.1-neo-6.7.1.jar";
+            "hash" = "sha512-IqALatVh894AsfGxiZTPckllfesae0pyqiyS/JD6hd0XNFyVw6N+L+wONIBbJQt/+1UnjhGMv4W2jmdVLT9wag==";
+        };
+        _maaN7Pr3 = {
+            "id" = "maaN7Pr3";
+            "file" = "MoreSnifferFlowers-1.20.1-Forge-6.7.2.jar";
+            "hash" = "sha512-o4Fht29kiHfszk3DIt1d0LLrzy9V3F1D+cwcSQWRqfqPQa7k+CmE5WOgUZ6DnbIRi9TetwzlQLaYCyTyLbiNEQ==";
+        };
+        _mULgzS3g = {
+            "id" = "mULgzS3g";
+            "file" = "MoreSnifferFlowers-1.21.1-neo-6.7.2.jar";
+            "hash" = "sha512-hp0OlfN+/9YKMRC+KANFw1wzMuEvSwOK+5ZHqQ9ceq5UVBo15+nllkytz/U8/6Ky2tCUfrJUHYGYeaSlvHf68g==";
+        };
     in {
         "yIhBQsKw" = _yIhBQsKw;
         "w5ztDsSe" = _w5ztDsSe;
@@ -500,12 +530,18 @@ let
         "ugmkM2NR" = _ugmkM2NR;
         "6R4Gl4bz" = _6R4Gl4bz;
         "6EEcogGC" = _6EEcogGC;
-        "forge-1.20.1" = _6R4Gl4bz;
+        "zAk4tyyQ" = _zAk4tyyQ;
+        "5kX6k0ct" = _5kX6k0ct;
+        "9gOekYpr" = _9gOekYpr;
+        "IglzyqSB" = _IglzyqSB;
+        "maaN7Pr3" = _maaN7Pr3;
+        "mULgzS3g" = _mULgzS3g;
+        "forge-1.20.1" = _maaN7Pr3;
         "forge-1.20" = _elsNuX86;
         "neoforge-1.20.4" = _oakUlyuY;
-        "neoforge-1.20.1" = _6R4Gl4bz;
+        "neoforge-1.20.1" = _maaN7Pr3;
         "neoforge-1.21" = _lDD82Fqx;
-        "neoforge-1.21.1" = _6EEcogGC;
+        "neoforge-1.21.1" = _mULgzS3g;
         "neoforge-1.20" = _elsNuX86;
         "neoforge-1.21.4" = _fVJdJr0N;
         "fabric-1.20" = _VnyXFNiz;
@@ -558,7 +594,10 @@ let
         "pkg-6.6.4" = _Q97ARefz;
         "pkg-6.6.5" = _ugmkM2NR;
         "pkg-6.6.6" = _6EEcogGC;
-        "default" = _6EEcogGC;
+        "pkg-6.7" = _5kX6k0ct;
+        "pkg-6.7.1" = _IglzyqSB;
+        "pkg-6.7.2" = _mULgzS3g;
+        "default" = _mULgzS3g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-sniffer-flowers";

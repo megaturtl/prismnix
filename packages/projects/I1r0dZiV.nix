@@ -101,6 +101,16 @@ let
             "file" = "sengokuFabric-2.1.4+1.21.1-Fabric.jar";
             "hash" = "sha512-Ey9ZF8rDmDHvuElzBBobxRHM6oFctBJ0WEu3obOJfylKehIv/6mpJiFsPRbV7ycoxCQjMFNpG+I4/kUX6HeA9g==";
         };
+        _EhGqlur0 = {
+            "id" = "EhGqlur0";
+            "file" = "sengokuFabric-2.1.5+1.21.1-Fabric.jar";
+            "hash" = "sha512-WNBp808k5DvUNtmCRd8JXB4YRYoNUO/qCLESn3cKrrZQYW1rJgLPkdZsycNZi+SLBIWx5wBWuki73e+7v+UNGg==";
+        };
+        _uL0ovPRO = {
+            "id" = "uL0ovPRO";
+            "file" = "sengokuFabric-2.1.5+1.21.1-Fabric.jar";
+            "hash" = "sha512-wgDwpbMraGCRnjMlOYCpQhMqQbrb+nTmpI2XuFZGFt9U6gVQkwVDodxPsKEWuq6bYb67BLFsqG3AewRxgfqcJg==";
+        };
     in {
         "Tl5qIXzw" = _Tl5qIXzw;
         "SERJGHG4" = _SERJGHG4;
@@ -122,7 +132,9 @@ let
         "dTwPEHlo" = _dTwPEHlo;
         "WyjZrgbR" = _WyjZrgbR;
         "y47kmdV6" = _y47kmdV6;
-        "fabric-1.21.1" = _y47kmdV6;
+        "EhGqlur0" = _EhGqlur0;
+        "uL0ovPRO" = _uL0ovPRO;
+        "fabric-1.21.1" = _uL0ovPRO;
         "pkg-2.0.3" = _SERJGHG4;
         "pkg-2.0.5" = _Zs2Bn4Kb;
         "pkg-2.0.6" = _eaghJI5X;
@@ -138,7 +150,8 @@ let
         "pkg-2.1.2" = _dTwPEHlo;
         "pkg-2.1.3" = _WyjZrgbR;
         "pkg-2.1.4" = _y47kmdV6;
-        "default" = _y47kmdV6;
+        "pkg-2.1.5" = _uL0ovPRO;
+        "default" = _uL0ovPRO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sengokujidaimod";

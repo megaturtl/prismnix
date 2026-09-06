@@ -181,6 +181,71 @@ let
             "file" = "apocalypse_ends-1.3.1fix.jar";
             "hash" = "sha512-c62ZGUOk4oCZtO/ou36lFD66DK3YU89JdS1hO4O5JaptWfkXYbV4vMnY/HF3QerDw8RrHU05r4omE4A8qG/27Q==";
         };
+        _2YCcutPM = {
+            "id" = "2YCcutPM";
+            "file" = "apocalypse_ends-2.0.0.jar";
+            "hash" = "sha512-typPoQRr+thPAl/hHaurwfoiQ0gnyOu0qBuKhokulx3AkKJ8NJ3EhoTc+F5qZgBss/A5ji43DnKFUAhy1il5Ew==";
+        };
+        _AqbLNFyT = {
+            "id" = "AqbLNFyT";
+            "file" = "apocalypse_ends-2.0.1.jar";
+            "hash" = "sha512-jRaR5Cp72PF7nhb3hayKO0rcWA0dsNKyUJqzbeUMBCVTssSBMFroNrhLiVbA/nV8oGZBkG49xSP6HN4B7peMqQ==";
+        };
+        _LI89xHaf = {
+            "id" = "LI89xHaf";
+            "file" = "apocalypse_ends-3.0.0.jar";
+            "hash" = "sha512-ksx4/lUV914VQ01YOuSHPMsTevTGrjc+gV1ZUHifjed3zEo30LuWZvzlPmvYZCMBB2H4zSuwIOnsJlT4rtFNRw==";
+        };
+        _HLKnjZtI = {
+            "id" = "HLKnjZtI";
+            "file" = "apocalypse_ends-3.0.0fix.jar";
+            "hash" = "sha512-pdp2Q3VnjDSindWUQIGQu6M4OXgu41tt25Ot+zkqBiBPSINF1fZZ2nfwY+Z5PoUGY+mGcwUNaLzlEdYMtEqK0w==";
+        };
+        _M5PfadjZ = {
+            "id" = "M5PfadjZ";
+            "file" = "apocalypse_ends-3.1.0.jar";
+            "hash" = "sha512-icwxwWz4bnpj2M+7XvU3sZ3ztS7IA1tHABRBqBWYXCGmh76N7nqsfLTN3Nw9aE0+FZI1tmfZ/cRK5Xk4Vo8n7w==";
+        };
+        _3pqqx1QN = {
+            "id" = "3pqqx1QN";
+            "file" = "apocalypse_ends-3.1.1.jar";
+            "hash" = "sha512-gJ7Dp7KVRG6NUPBjd3Lxxdr5WtteJzKLQKcriJFQQaZIRB5pYiPC6AsaUzP28F+p8foCKj45qJsBdOH4bkHwHQ==";
+        };
+        _s4GF5Kba = {
+            "id" = "s4GF5Kba";
+            "file" = "apocalypse_ends-3.1.1fix.jar";
+            "hash" = "sha512-iqFZp9shMsVT1iHNe6/VwZHixsdUskSnesdzg+vSXZ4+MmgvPN0gFHgTW5ipmPEZN/WRGLES+fh1GJPm34s6+w==";
+        };
+        _4DC0lY0P = {
+            "id" = "4DC0lY0P";
+            "file" = "apocalypse_ends-3.2.0.jar";
+            "hash" = "sha512-6l+zgvGE9mhfux9T7Avb9yIIEHhpaS0/x4371L3DI+EdQnDhI6lfBBvBAq5KF2ejEM2oJhIWta9vV5pp3cgwng==";
+        };
+        _ZTYjmbQu = {
+            "id" = "ZTYjmbQu";
+            "file" = "apocalypse_ends-3.2.1.jar";
+            "hash" = "sha512-Tl4WMv1WlUNC/zCc4EeLHO/EwhqvgMszhKPzKN2OhvGTNXYAWTq8aWJBwpNGddFDlLqrCTCyGoIvxiQyyY0FEQ==";
+        };
+        _qO2wBBaG = {
+            "id" = "qO2wBBaG";
+            "file" = "apocalypse_ends-3.2.2.jar";
+            "hash" = "sha512-FYWNMMD/1v8N60HkyIcYiOZuf2BnVh7raZra5zZaQIP2JANBO8i/mMEb5qwmwzS5EgqLFneD1UTzjfIgs7CVHw==";
+        };
+        _ZNGBfZI0 = {
+            "id" = "ZNGBfZI0";
+            "file" = "apocalypse_ends-3.2.3.jar";
+            "hash" = "sha512-O90c68sS4283dmR6ekTbdngqZudMZWgWWddKmWQJTKQKOWNEL/v+LVjpVQpsk8gUzlS7ypTkvqGp9d6Sx7eCJw==";
+        };
+        _sSflEC1b = {
+            "id" = "sSflEC1b";
+            "file" = "apocalypse_ends-3.2.4.jar";
+            "hash" = "sha512-Ml7OmLx+fbl6c2Mv5owtSZQQZ8Qh5uWlVSrQvv9LFCDES2PvtnKHaL2vB6YrxUCRjnM4Jej2euajGQEiZtfDoA==";
+        };
+        _h0pGhuBX = {
+            "id" = "h0pGhuBX";
+            "file" = "apocalypse_ends-3.2.5.jar";
+            "hash" = "sha512-4Nr1PnbfxTom6CN9HjRS/jekghEysy6SeWyXIHXk212a36falmZnzFNb6Z1h78XN7woMEDasIb/itaj7aEl52w==";
+        };
     in {
         "dWuJ0jGJ" = _dWuJ0jGJ;
         "aKUCe1Rh" = _aKUCe1Rh;
@@ -218,7 +283,20 @@ let
         "Fbd4znRV" = _Fbd4znRV;
         "d27bGDLP" = _d27bGDLP;
         "8uGvJELB" = _8uGvJELB;
-        "forge-1.20.1" = _8uGvJELB;
+        "2YCcutPM" = _2YCcutPM;
+        "AqbLNFyT" = _AqbLNFyT;
+        "LI89xHaf" = _LI89xHaf;
+        "HLKnjZtI" = _HLKnjZtI;
+        "M5PfadjZ" = _M5PfadjZ;
+        "3pqqx1QN" = _3pqqx1QN;
+        "s4GF5Kba" = _s4GF5Kba;
+        "4DC0lY0P" = _4DC0lY0P;
+        "ZTYjmbQu" = _ZTYjmbQu;
+        "qO2wBBaG" = _qO2wBBaG;
+        "ZNGBfZI0" = _ZNGBfZI0;
+        "sSflEC1b" = _sSflEC1b;
+        "h0pGhuBX" = _h0pGhuBX;
+        "forge-1.20.1" = _h0pGhuBX;
         "neoforge-1.21.1" = _2s568kbx;
         "neoforge-1.21.2" = _2s568kbx;
         "neoforge-1.21.3" = _2s568kbx;
@@ -265,7 +343,20 @@ let
         "pkg-1.3.0fix" = _Fbd4znRV;
         "pkg-1.3.1" = _d27bGDLP;
         "pkg-1.3.1fix" = _8uGvJELB;
-        "default" = _8uGvJELB;
+        "pkg-2.0.0" = _2YCcutPM;
+        "pkg-2.0.1" = _AqbLNFyT;
+        "pkg-3.0.0" = _LI89xHaf;
+        "pkg-3.0.0fix" = _HLKnjZtI;
+        "pkg-3.1.0" = _M5PfadjZ;
+        "pkg-3.1.1" = _3pqqx1QN;
+        "pkg-3.1.1fix" = _s4GF5Kba;
+        "pkg-3.2.0" = _4DC0lY0P;
+        "pkg-3.2.1" = _ZTYjmbQu;
+        "pkg-3.2.2" = _qO2wBBaG;
+        "pkg-3.2.3" = _ZNGBfZI0;
+        "pkg-3.2.4" = _sSflEC1b;
+        "pkg-3.2.5" = _h0pGhuBX;
+        "default" = _h0pGhuBX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "apocalypse_end";

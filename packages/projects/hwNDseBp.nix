@@ -241,6 +241,16 @@ let
             "file" = "Yggdrasil-7.0.0.jar";
             "hash" = "sha512-Tlc/hSjSoM7rgeSsxemDOKcgpzYOzxulozFaD9MQbuUwdhcDfzMUYF9SAH8svoo8C9JgG8aBNgATcj0kuP/Uog==";
         };
+        _jee4aFXA = {
+            "id" = "jee4aFXA";
+            "file" = "Yggdrasil-7.1.0.zip";
+            "hash" = "sha512-QQAph2/lzO/xXVp9tXF961Yx9CZKauPPeTWaqu/Bu24sTxVZFEp0SxNl7V1e2dba+3IVD2stsaKXyBHMpR8eFA==";
+        };
+        _Vb9v3iYq = {
+            "id" = "Vb9v3iYq";
+            "file" = "Yggdrasil-7.1.0.jar";
+            "hash" = "sha512-hhQCPu9rT7mGRYgn1a6pDl0ezMQY//sdY5u/8XeuBMs/YrLc+qDKnKxCNO5GMWOhGJoqOBCT52T/T/ANXjMNVw==";
+        };
     in {
         "qadnwAoR" = _qadnwAoR;
         "i2lrZuXf" = _i2lrZuXf;
@@ -290,6 +300,8 @@ let
         "H4lyzZA5" = _H4lyzZA5;
         "ZM9UfJ8s" = _ZM9UfJ8s;
         "zsZTocfO" = _zsZTocfO;
+        "jee4aFXA" = _jee4aFXA;
+        "Vb9v3iYq" = _Vb9v3iYq;
         "datapack-1.21-pre2" = _qadnwAoR;
         "datapack-1.21-pre4" = _qadnwAoR;
         "datapack-1.21" = _2gnwMPSD;
@@ -306,6 +318,7 @@ let
         "datapack-1.21.10" = _zYfKOiY6;
         "datapack-1.21.11" = _zYfKOiY6;
         "datapack-26.1.2" = _ZM9UfJ8s;
+        "datapack-26.2" = _jee4aFXA;
         "fabric-1.21-pre2" = _i2lrZuXf;
         "fabric-1.21-pre4" = _i2lrZuXf;
         "fabric-1.21" = _RPuu7Vml;
@@ -321,6 +334,7 @@ let
         "fabric-1.21.10" = _N6daY9Ef;
         "fabric-1.21.11" = _N6daY9Ef;
         "fabric-26.1.2" = _zsZTocfO;
+        "fabric-26.2" = _Vb9v3iYq;
         "forge-1.21-pre2" = _i2lrZuXf;
         "forge-1.21-pre4" = _i2lrZuXf;
         "forge-1.21" = _RPuu7Vml;
@@ -336,6 +350,7 @@ let
         "forge-1.21.10" = _N6daY9Ef;
         "forge-1.21.11" = _N6daY9Ef;
         "forge-26.1.2" = _zsZTocfO;
+        "forge-26.2" = _Vb9v3iYq;
         "quilt-1.21-pre2" = _i2lrZuXf;
         "quilt-1.21-pre4" = _i2lrZuXf;
         "quilt-1.21" = _RPuu7Vml;
@@ -351,6 +366,7 @@ let
         "quilt-1.21.10" = _N6daY9Ef;
         "quilt-1.21.11" = _N6daY9Ef;
         "quilt-26.1.2" = _zsZTocfO;
+        "quilt-26.2" = _Vb9v3iYq;
         "neoforge-1.21.2" = _n8R8XMlT;
         "neoforge-1.21.3" = _H4lyzZA5;
         "neoforge-1.21" = _RPuu7Vml;
@@ -364,6 +380,7 @@ let
         "neoforge-1.21.10" = _N6daY9Ef;
         "neoforge-1.21.11" = _N6daY9Ef;
         "neoforge-26.1.2" = _zsZTocfO;
+        "neoforge-26.2" = _Vb9v3iYq;
         "pkg-1.0.0" = _qadnwAoR;
         "pkg-1.0.0+mod" = _i2lrZuXf;
         "pkg-1.2.0" = _jF0WN3AR;
@@ -395,7 +412,9 @@ let
         "pkg-6.0.0+mod" = _H4lyzZA5;
         "pkg-7.0.0" = _ZM9UfJ8s;
         "pkg-7.0.0+mod" = _zsZTocfO;
-        "default" = _zsZTocfO;
+        "pkg-7.1.0" = _jee4aFXA;
+        "pkg-7.1.0+mod" = _Vb9v3iYq;
+        "default" = _Vb9v3iYq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yggdrasil-structure";

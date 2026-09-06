@@ -76,6 +76,7 @@ let
         "datapack-26.1" = _49gEpA32;
         "datapack-26.1.1" = _49gEpA32;
         "datapack-26.1.2" = _49gEpA32;
+        "datapack-26.2" = _49gEpA32;
         "fabric-1.20.5" = _TunRswjF;
         "fabric-1.20.6" = _TunRswjF;
         "fabric-1.21" = _TunRswjF;
@@ -93,6 +94,7 @@ let
         "fabric-26.1" = _TunRswjF;
         "fabric-26.1.1" = _TunRswjF;
         "fabric-26.1.2" = _TunRswjF;
+        "fabric-26.2" = _TunRswjF;
         "forge-1.20.5" = _TunRswjF;
         "forge-1.20.6" = _TunRswjF;
         "forge-1.21" = _TunRswjF;
@@ -110,6 +112,7 @@ let
         "forge-26.1" = _TunRswjF;
         "forge-26.1.1" = _TunRswjF;
         "forge-26.1.2" = _TunRswjF;
+        "forge-26.2" = _TunRswjF;
         "quilt-1.20.5" = _TunRswjF;
         "quilt-1.20.6" = _TunRswjF;
         "quilt-1.21" = _TunRswjF;
@@ -127,6 +130,7 @@ let
         "quilt-26.1" = _TunRswjF;
         "quilt-26.1.1" = _TunRswjF;
         "quilt-26.1.2" = _TunRswjF;
+        "quilt-26.2" = _TunRswjF;
         "neoforge-1.20.5" = _TunRswjF;
         "neoforge-1.20.6" = _TunRswjF;
         "neoforge-1.21" = _TunRswjF;
@@ -144,6 +148,7 @@ let
         "neoforge-26.1" = _TunRswjF;
         "neoforge-26.1.1" = _TunRswjF;
         "neoforge-26.1.2" = _TunRswjF;
+        "neoforge-26.2" = _TunRswjF;
         "pkg-0.1.0" = _84Ne0GKZ;
         "pkg-0.2.0" = _J39ghI6s;
         "pkg-0.2.1" = _hu3EpgD9;

@@ -701,6 +701,41 @@ let
             "file" = "photon-neoforge-1.21.1-2.2.2.jar";
             "hash" = "sha512-58tzouzA7FkLRWLLUyM9NbmsrAhEeZAUytes3ao9YzAqUaJPoypvOVNN3QDLZk8M3FYQoyAG3biUeC5xUG9VWQ==";
         };
+        _Xl8OqIeD = {
+            "id" = "Xl8OqIeD";
+            "file" = "photon-neoforge-26.1-26.1.2.0.jar";
+            "hash" = "sha512-Qnk65bW2QSJM9DZYTmEBUryB3CfYONiR40tUA7A8/kSDajQP+cPiiB+ooBUx7EIUhjdIHFjm9H0c7TYa3r2Tfg==";
+        };
+        _xBpjGNkJ = {
+            "id" = "xBpjGNkJ";
+            "file" = "photon-neoforge-1.21.1-2.2.3-all.jar";
+            "hash" = "sha512-ktamMSMVwnh4zbVt36IJUHWQjht9DnN2pNhxuJtH+buOfbY1mCOzgaZ1fxuSOUPvk6i4fp374YUy4NUh/ko3vA==";
+        };
+        _I6VMwI6x = {
+            "id" = "I6VMwI6x";
+            "file" = "photon-neoforge-1.21.1-2.2.4-all.jar";
+            "hash" = "sha512-xm6woc/LHAS09XhMMx0bP7ayiltr/BYBHWr0k/9t7V+QrokmeG11Cc65le5wpdabxjvSnLqOAEteaf3bJ6rMLg==";
+        };
+        _XflihBxE = {
+            "id" = "XflihBxE";
+            "file" = "photon-neoforge-26.1-26.1.2.1.jar";
+            "hash" = "sha512-XdIXOoMcKLJuLd0AbsjM47k7gLZ2Z+iYryfiM3A1vkBdKEYH1fEjkoQ0zoBCUj15NPxSNJb5EiqvEk34/zrctQ==";
+        };
+        _RGRKZRt7 = {
+            "id" = "RGRKZRt7";
+            "file" = "photon-neoforge-1.21.1-2.2.5-all.jar";
+            "hash" = "sha512-u6s+oCY/x9k+8MBXZEmra4F8DiqE3YeI8Kp/m01sTdZBNmDj1r6hFHzEDQtJRelEMFXPlqYy/+tuDKWWTWqqUA==";
+        };
+        _glu8ipw7 = {
+            "id" = "glu8ipw7";
+            "file" = "photon-neoforge-1.21.1-2.2.6-all.jar";
+            "hash" = "sha512-+Osohs5vjKBP+3/wv209l08SHUBciuPE7muZKzOQXc9dAuSDblNf99Ob5xx3Jqp0rOYYq767nynhE9ds2wlcIA==";
+        };
+        _QnNHvquk = {
+            "id" = "QnNHvquk";
+            "file" = "photon-neoforge-26.1-26.1.2.2.jar";
+            "hash" = "sha512-eSoO114K6eOYgS4aHIJUERaZhs/b27WyN7vI4HHom87senXL8uh9KE8kfPsSZgjjkd4A+qnBO4eHYTuscGuA4g==";
+        };
     in {
         "AO2V8RIM" = _AO2V8RIM;
         "hsrVC3BW" = _hsrVC3BW;
@@ -842,6 +877,13 @@ let
         "VbcODCcs" = _VbcODCcs;
         "BNrxtjkV" = _BNrxtjkV;
         "VCgl0IQF" = _VCgl0IQF;
+        "Xl8OqIeD" = _Xl8OqIeD;
+        "xBpjGNkJ" = _xBpjGNkJ;
+        "I6VMwI6x" = _I6VMwI6x;
+        "XflihBxE" = _XflihBxE;
+        "RGRKZRt7" = _RGRKZRt7;
+        "glu8ipw7" = _glu8ipw7;
+        "QnNHvquk" = _QnNHvquk;
         "fabric-1.19.2" = _WhImODOk;
         "fabric-1.19.4" = _EONlDMwk;
         "fabric-1.20" = _BRYoOoZK;
@@ -850,8 +892,10 @@ let
         "forge-1.19.4" = _hFCJMspl;
         "forge-1.20" = _2U9ouggL;
         "forge-1.20.1" = _a7chTVuf;
-        "neoforge-1.21" = _VCgl0IQF;
-        "neoforge-1.21.1" = _VCgl0IQF;
+        "neoforge-1.21" = _glu8ipw7;
+        "neoforge-1.21.1" = _glu8ipw7;
+        "neoforge-26.1.1" = _QnNHvquk;
+        "neoforge-26.1.2" = _QnNHvquk;
         "pkg-1.0.0" = _hsrVC3BW;
         "pkg-1.0.1" = _1XZanT4W;
         "pkg-1.0.2" = _rabRGLmh;
@@ -983,7 +1027,14 @@ let
         "pkg-mc1.21.1-2.2.0-neoforge" = _VbcODCcs;
         "pkg-mc1.21.1-2.2.1-neoforge" = _BNrxtjkV;
         "pkg-mc1.21.1-2.2.2-neoforge" = _VCgl0IQF;
-        "default" = _VCgl0IQF;
+        "pkg-mc26.1.x-26.1.2.0-neoforge" = _Xl8OqIeD;
+        "pkg-mc1.21.1-2.2.3-neoforge" = _xBpjGNkJ;
+        "pkg-mc1.21.1-2.2.4-neoforge" = _I6VMwI6x;
+        "pkg-mc26.1.x-26.1.2.1-neoforge" = _XflihBxE;
+        "pkg-mc1.21.1-2.2.5-neoforge" = _RGRKZRt7;
+        "pkg-mc1.21.1-2.2.6-neoforge" = _glu8ipw7;
+        "pkg-mc26.1.x-26.1.2.2-neoforge" = _QnNHvquk;
+        "default" = _QnNHvquk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "photon-editor";

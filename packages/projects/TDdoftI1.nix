@@ -286,6 +286,31 @@ let
             "file" = "enhancedai-4.2.2.0.jar";
             "hash" = "sha512-heF1kUN7ytAPctAZYNrVmc+D9gf+A0WlJjHOSy6ko0QQvsmbwAIEp2K/lWEgtj5KmnaQExCoiMsqZOhtWxlUdw==";
         };
+        _cXyYAGdU = {
+            "id" = "cXyYAGdU";
+            "file" = "enhancedai-4.2.2.1.jar";
+            "hash" = "sha512-2N+W8jyNLhCiaqg0hvHLsrXc9NAnesyUxpMsKj9wHFfZXbp7MuSjk90UlALHx9Tmd8ejgwVgZny+fuHp0oEIpQ==";
+        };
+        _or9tej7P = {
+            "id" = "or9tej7P";
+            "file" = "enhancedai-4.2.2.2.jar";
+            "hash" = "sha512-wIWXCjRg19hT0gNSN1c9xCvBJzNryXANH/mC5vZC9bnuyNL5YKOFWB7CJX2MU2qJOzydPyHswqejrpbemNBI6w==";
+        };
+        _Mmc0HwX1 = {
+            "id" = "Mmc0HwX1";
+            "file" = "enhancedai-4.2.2.3.jar";
+            "hash" = "sha512-MS+fXG33VyWTtcbCRW1K4mPCKeuqPLzHFQiqjg8drlncD5hFMA985kH4mGDQSpQo/GfLvPxWXsq6GRmnbtNH0g==";
+        };
+        _lRALoRPY = {
+            "id" = "lRALoRPY";
+            "file" = "enhancedai-4.2.2.4.jar";
+            "hash" = "sha512-pr0ONAdWFgoi7/JJT9y4ND9Pm0SWOm664lX6U7ee+MrvZp0Yxncq7jSxaYhPheOnuPQCnDbpRkox2IZW2+rfeA==";
+        };
+        _e1H8zmnW = {
+            "id" = "e1H8zmnW";
+            "file" = "enhancedai-4.2.2.5.jar";
+            "hash" = "sha512-LFp0+4gMgAG9yTOf6dvyVnYjliIz5bA/zT01FMoEhUIh8VjRCpmXFshRdMemUhVNyvyo5TmNSBCQx8xbCnmsYA==";
+        };
     in {
         "zRP6PBHS" = _zRP6PBHS;
         "yoUplQnB" = _yoUplQnB;
@@ -344,13 +369,18 @@ let
         "LtzH8Qax" = _LtzH8Qax;
         "Axl80tAd" = _Axl80tAd;
         "gIpc00UC" = _gIpc00UC;
+        "cXyYAGdU" = _cXyYAGdU;
+        "or9tej7P" = _or9tej7P;
+        "Mmc0HwX1" = _Mmc0HwX1;
+        "lRALoRPY" = _lRALoRPY;
+        "e1H8zmnW" = _e1H8zmnW;
         "forge-1.18.2" = _zRP6PBHS;
         "forge-1.19.2" = _yoUplQnB;
         "forge-1.20.1" = _JTMTbZMb;
         "forge-1.20" = _X6qXUJQf;
         "neoforge-1.20" = _X6qXUJQf;
         "neoforge-1.20.1" = _IkY3PBuf;
-        "neoforge-1.21.1" = _gIpc00UC;
+        "neoforge-1.21.1" = _e1H8zmnW;
         "pkg-1.6.10" = _zRP6PBHS;
         "pkg-1.8.5" = _yoUplQnB;
         "pkg-2.0.5" = _Swy0t5Wq;
@@ -407,7 +437,12 @@ let
         "pkg-4.2.1.2" = _LtzH8Qax;
         "pkg-4.2.1.3" = _Axl80tAd;
         "pkg-4.2.2.0" = _gIpc00UC;
-        "default" = _gIpc00UC;
+        "pkg-4.2.2.1" = _cXyYAGdU;
+        "pkg-4.2.2.2" = _or9tej7P;
+        "pkg-4.2.2.3" = _Mmc0HwX1;
+        "pkg-4.2.2.4" = _lRALoRPY;
+        "pkg-4.2.2.5" = _e1H8zmnW;
+        "default" = _e1H8zmnW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enhanced-ai";

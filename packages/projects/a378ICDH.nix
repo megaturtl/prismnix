@@ -216,6 +216,16 @@ let
             "file" = "hauntedharvest-fabric-1.21-3.4.0.jar";
             "hash" = "sha512-H9iwrcdba8wLECzdSIIfhjuUJgTgnsOqxb8QuoKhWusDuQxb34sEai6f/9oi2oAM67/5XUMppiOLFJ2p06ThHQ==";
         };
+        _9xvVhkZV = {
+            "id" = "9xvVhkZV";
+            "file" = "hauntedharvest-1.21-3.5.0-fabric.jar";
+            "hash" = "sha512-xekHNqoQnu6UP9Sx/09VC5shqs+VSbK35DwCpe+rPoRVIzyyQvnlhrl8UagiXUnkJhm57G5Ehrd8Nx2PgUvltQ==";
+        };
+        _GdJA2UIU = {
+            "id" = "GdJA2UIU";
+            "file" = "hauntedharvest-1.21-3.5.0-neoforge.jar";
+            "hash" = "sha512-u9RR7Sd5aL4J39tLAEC1frPyaTq2nEvHWZcyL2L5PMyTJaLLKh2ZNsWF1oKoBiEhnkFVvMGprqabwHybHiBbDQ==";
+        };
     in {
         "31ZzB6ed" = _31ZzB6ed;
         "TQAxZ8TF" = _TQAxZ8TF;
@@ -260,18 +270,20 @@ let
         "K4RjWU0Z" = _K4RjWU0Z;
         "9QBICTvP" = _9QBICTvP;
         "hz4mIag0" = _hz4mIag0;
+        "9xvVhkZV" = _9xvVhkZV;
+        "GdJA2UIU" = _GdJA2UIU;
         "fabric-1.20" = _31ZzB6ed;
         "fabric-1.20.1" = _Tuz3LO3E;
         "fabric-1.20.2" = _31ZzB6ed;
         "fabric-1.19.2" = _yUzAmQT3;
         "fabric-1.21" = _K4RjWU0Z;
-        "fabric-1.21.1" = _hz4mIag0;
+        "fabric-1.21.1" = _9xvVhkZV;
         "forge-1.20" = _TQAxZ8TF;
         "forge-1.20.1" = _Bg0FkKzl;
         "forge-1.20.2" = _TQAxZ8TF;
         "forge-1.19.2" = _BYEEKN8F;
         "neoforge-1.21" = _W3GQrLju;
-        "neoforge-1.21.1" = _9QBICTvP;
+        "neoforge-1.21.1" = _GdJA2UIU;
         "pkg-1.20-3.1.11" = _TQAxZ8TF;
         "pkg-1.19.2-3.1.8" = _JyqoWe1o;
         "pkg-1.20-3.1.12" = _5MiroJud;
@@ -304,7 +316,8 @@ let
         "pkg-1.21-3.3.9-neoforge" = _W3GQrLju;
         "pkg-1.21-3.3.9-fabric" = _K4RjWU0Z;
         "pkg-1.21-3.4.0" = _hz4mIag0;
-        "default" = _hz4mIag0;
+        "pkg-1.21-3.5.0" = _GdJA2UIU;
+        "default" = _GdJA2UIU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "haunted-harvest";

@@ -164,7 +164,7 @@ let
         "minecraft-1.21.3" = _NVMEcF0C;
         "minecraft-1.21.4" = _kleomlGr;
         "minecraft-1.21.5" = _kleomlGr;
-        "minecraft-25w14craftmine" = _NVMEcF0C;
+        "minecraft-25w14craftmine" = _kleomlGr;
         "minecraft-a1.2.2a" = _6Fd7s6mE;
         "minecraft-a1.2.2b" = _6Fd7s6mE;
         "minecraft-a1.2.3" = _6Fd7s6mE;
@@ -318,7 +318,7 @@ let
         "minecraft-1.20.1" = _RC1b6F8M;
         "minecraft-26.2" = _kleomlGr;
         "pkg-1.1.0" = _GlsedHuK;
-        "pkg-Legacy" = _6Fd7s6mE;
+        "pkg-Golden-age_port" = _6Fd7s6mE;
         "pkg-1.2.0" = _2zA3wCOq;
         "pkg-1.2.1" = _aiqeFdTo;
         "pkg-1.2.2" = _QfOMI4hg;

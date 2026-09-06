@@ -16,10 +16,16 @@ let
             "file" = "Guitars §ev1.1 §8[§f1.21.5§a+§8].zip";
             "hash" = "sha512-rjnrZ0yGpbFBxzB+J+YurFNIDxpfMbl7izYGWJ35vkwvZ0xPwb/oVAMwY9wQlht7KMsJnJGyZxux4imqjLh+dA==";
         };
+        _fTD18d6O = {
+            "id" = "fTD18d6O";
+            "file" = "Guitars §ev1.2 §8[§f1.21.5§a+§8].zip";
+            "hash" = "sha512-ciIp6RmPAn/Nj3soBdx5ot/bEh1CT5d6HOIQ0GWK6w8O7QLEyEd9DDE1dioCkDwA/kQhOHflJpjpnlqPGj0Gtw==";
+        };
     in {
         "JXeJh4XR" = _JXeJh4XR;
         "zSH85CUf" = _zSH85CUf;
         "YaeNOPWa" = _YaeNOPWa;
+        "fTD18d6O" = _fTD18d6O;
         "minecraft-1.20" = _zSH85CUf;
         "minecraft-1.20.1" = _zSH85CUf;
         "minecraft-1.20.2" = _zSH85CUf;
@@ -29,23 +35,24 @@ let
         "minecraft-1.20.6" = _zSH85CUf;
         "minecraft-1.21" = _zSH85CUf;
         "minecraft-1.21.1" = _zSH85CUf;
-        "minecraft-1.21.5" = _YaeNOPWa;
-        "minecraft-1.21.6" = _YaeNOPWa;
-        "minecraft-1.21.7" = _YaeNOPWa;
-        "minecraft-1.21.8" = _YaeNOPWa;
-        "minecraft-1.21.9" = _YaeNOPWa;
-        "minecraft-1.21.10" = _YaeNOPWa;
-        "minecraft-1.21.11" = _YaeNOPWa;
-        "minecraft-26.1" = _YaeNOPWa;
-        "minecraft-26.1.1" = _YaeNOPWa;
-        "minecraft-26.1.2" = _YaeNOPWa;
-        "minecraft-26.2" = _YaeNOPWa;
+        "minecraft-1.21.5" = _fTD18d6O;
+        "minecraft-1.21.6" = _fTD18d6O;
+        "minecraft-1.21.7" = _fTD18d6O;
+        "minecraft-1.21.8" = _fTD18d6O;
+        "minecraft-1.21.9" = _fTD18d6O;
+        "minecraft-1.21.10" = _fTD18d6O;
+        "minecraft-1.21.11" = _fTD18d6O;
+        "minecraft-26.1" = _fTD18d6O;
+        "minecraft-26.1.1" = _fTD18d6O;
+        "minecraft-26.1.2" = _fTD18d6O;
+        "minecraft-26.2" = _fTD18d6O;
         "minecraft-26.3-snapshot-1" = _YaeNOPWa;
         "minecraft-26.3-snapshot-2" = _YaeNOPWa;
         "minecraft-26.3-snapshot-3" = _YaeNOPWa;
         "pkg-1.0" = _JXeJh4XR;
         "pkg-1.1" = _YaeNOPWa;
-        "default" = _YaeNOPWa;
+        "pkg-1.2" = _fTD18d6O;
+        "default" = _fTD18d6O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "guitars";

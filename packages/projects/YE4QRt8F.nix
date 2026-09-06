@@ -626,6 +626,21 @@ let
             "file" = "useless-reptile-0.13.5-26.2.jar";
             "hash" = "sha512-Pcmv7rhnmbYo9WrXHgB7y9U+aHGRtzwmzvBEmyDPQ44keOHa9ZBCvViQ1oZqYiFEAD2uOTpCuN6GZu7kaD37vg==";
         };
+        _GZuE3Jfg = {
+            "id" = "GZuE3Jfg";
+            "file" = "useless-reptile-0.14.0-26.1.2.jar";
+            "hash" = "sha512-sjuYhUBXH0Snvewfk7ru/waU2kQdNZNJWNG6uTclIRVQfD/Jkv8klHHQzK0iZ1Jqq4KMiOIHujoqZdiaoIs3lA==";
+        };
+        _eAFy4HvI = {
+            "id" = "eAFy4HvI";
+            "file" = "useless-reptile-0.14.0-26.2.jar";
+            "hash" = "sha512-+v8GcWtTeVMvMWb9Mna1sCCZBd1G0yJcIN5ZPwL5k36c0Mj1SR6UczNOohjfFdqE8FqCztMXQNZFpgjh7wNWvA==";
+        };
+        _I9u8qJY2 = {
+            "id" = "I9u8qJY2";
+            "file" = "useless-reptile-0.14.1-26.2.jar";
+            "hash" = "sha512-7XDACv3om5HH7FjvVEyl5RrieAPGnPmpW3Md7YtZJcdNRGCDFJ3p/VyUMq0pjvSRGLejI6EDV6nK7jlB56DjGQ==";
+        };
     in {
         "4eaOxuh0" = _4eaOxuh0;
         "t60ZvxNk" = _t60ZvxNk;
@@ -752,6 +767,9 @@ let
         "WNtZm7IN" = _WNtZm7IN;
         "1SiXnRDg" = _1SiXnRDg;
         "EVcfMEWW" = _EVcfMEWW;
+        "GZuE3Jfg" = _GZuE3Jfg;
+        "eAFy4HvI" = _eAFy4HvI;
+        "I9u8qJY2" = _I9u8qJY2;
         "fabric-1.19.2" = _RXjiSNPs;
         "fabric-22w43a" = _OzNTeRf6;
         "fabric-22w45a" = _h8NFeMCI;
@@ -771,10 +789,10 @@ let
         "fabric-1.21.7" = _rE8lD5RK;
         "fabric-1.21.8" = _rE8lD5RK;
         "fabric-1.21.11" = _jGGPMBUS;
-        "fabric-26.1" = _1SiXnRDg;
-        "fabric-26.1.1" = _1SiXnRDg;
-        "fabric-26.1.2" = _1SiXnRDg;
-        "fabric-26.2" = _EVcfMEWW;
+        "fabric-26.1" = _GZuE3Jfg;
+        "fabric-26.1.1" = _GZuE3Jfg;
+        "fabric-26.1.2" = _GZuE3Jfg;
+        "fabric-26.2" = _I9u8qJY2;
         "pkg-0.1.0" = _4eaOxuh0;
         "pkg-0.1.1" = _t60ZvxNk;
         "pkg-0.1.2" = _6nxmqEiR;
@@ -900,7 +918,10 @@ let
         "pkg-0.13.4-26.2" = _WNtZm7IN;
         "pkg-0.13.5-26.1.2" = _1SiXnRDg;
         "pkg-0.13.5-26.2" = _EVcfMEWW;
-        "default" = _EVcfMEWW;
+        "pkg-0.14.0-26.1.2" = _GZuE3Jfg;
+        "pkg-0.14.0-26.2" = _eAFy4HvI;
+        "pkg-0.14.1-26.2" = _I9u8qJY2;
+        "default" = _I9u8qJY2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "useless-reptile";

@@ -106,13 +106,13 @@ let
         type = "resourcepack";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Custom-license-see-terms" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "Apache License 2.0";
-                shortName = "Apache-2.0";
-                url = null;
+                fullName = "LicenseRef-Custom-license-see-terms";
+                shortName = "LicenseRef-Custom-license-see-terms";
+                url = "https://license.cre.ooo/modrinth";
             };
         };
     };

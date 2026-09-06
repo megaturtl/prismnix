@@ -76,6 +76,31 @@ let
             "file" = "Autumn's Realistic Cloud's v1.6.zip";
             "hash" = "sha512-5XwLIy0HI4/WZx3Ptr5yES5Afot9G2eKJm8vt2A8G+isQuhjbWy+hHoiDVuR69iBsEbKH5eBkB/TeSRp+gPnvA==";
         };
+        _nkdCe3aj = {
+            "id" = "nkdCe3aj";
+            "file" = "Autumn's Realistic Cloud's v1.7.zip";
+            "hash" = "sha512-wziJ73GDTfb99MpXLoySdaWenmU0Ntl5ENUwYhQkqeVsFGyFEovEbPWJRieiqV1axspyz5QTmDKRaAeIVnbUHA==";
+        };
+        _ZQg1Iztu = {
+            "id" = "ZQg1Iztu";
+            "file" = "Autumn's Realistic Cloud's v1.7.1.zip";
+            "hash" = "sha512-2uXwPb2SAgfbKLR6mPkBiU3CdBAb7afXZ9Ri0W2kectxkRZVqesZ1l2qKF4/k9aifumeriVc4VxFMxoQerJSKQ==";
+        };
+        _HNAXDYVu = {
+            "id" = "HNAXDYVu";
+            "file" = "Autumn's Realistic Cloud's v1.7.2.zip";
+            "hash" = "sha512-a5EhuLM5xXn9aABncWopVYi+FK6zuYEBPpCAt19hBmAqCHxXpx5bZ2vBm7KGacHGJm6xP1rmGXxWjQD4ISCBig==";
+        };
+        _oRsuObdT = {
+            "id" = "oRsuObdT";
+            "file" = "Autumn's Realistic Cloud's v1.8.zip";
+            "hash" = "sha512-NS4e+L9SMyh4ltvefy0u53L+FLRWa/lG13SS8xe3P7ihqHru6Izd+W2zuBzcdNwfTojfQzZFm6aWHA7rlt0fKw==";
+        };
+        _RXtpZG8x = {
+            "id" = "RXtpZG8x";
+            "file" = "Autumn's Realistic Cloud's v1.8.1.zip";
+            "hash" = "sha512-CrunHv1s3uNZ0Gof0NvyZOJuf04NwN0MarqcjZePRPVpkfTFj9EaQypi3SiY1ejZzbQkAh3NzU1zLm2frCtAHw==";
+        };
     in {
         "5pe9aH56" = _5pe9aH56;
         "yN8ZMCu8" = _yN8ZMCu8;
@@ -92,7 +117,12 @@ let
         "hJKIQlND" = _hJKIQlND;
         "7VQNqrlQ" = _7VQNqrlQ;
         "BPuL3HDE" = _BPuL3HDE;
-        "minecraft-1.21.1" = _BPuL3HDE;
+        "nkdCe3aj" = _nkdCe3aj;
+        "ZQg1Iztu" = _ZQg1Iztu;
+        "HNAXDYVu" = _HNAXDYVu;
+        "oRsuObdT" = _oRsuObdT;
+        "RXtpZG8x" = _RXtpZG8x;
+        "minecraft-1.21.1" = _RXtpZG8x;
         "pkg-v1" = _5pe9aH56;
         "pkg-v1.1" = _yN8ZMCu8;
         "pkg-v1.2" = _h01TvTIM;
@@ -105,7 +135,12 @@ let
         "pkg-v1.5.2" = _hJKIQlND;
         "pkg-v1.5.3" = _7VQNqrlQ;
         "pkg-v1.6" = _BPuL3HDE;
-        "default" = _BPuL3HDE;
+        "pkg-v1.7" = _nkdCe3aj;
+        "pkg-v1.7.1" = _ZQg1Iztu;
+        "pkg-v1.7.2" = _HNAXDYVu;
+        "pkg-v1.8" = _oRsuObdT;
+        "pkg-v1.8.1" = _RXtpZG8x;
+        "default" = _RXtpZG8x;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autumns-realistic-clouds";

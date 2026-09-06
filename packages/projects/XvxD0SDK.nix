@@ -441,6 +441,126 @@ let
             "file" = "moltenveins-neoforge-0.7.7-mc26.2.jar";
             "hash" = "sha512-WUfWc0sdrrLpEJ1NM3jU7qrstibDI3lkGtoUwTn40u+IVlYc9y9d3KjnrrlzJw1g/r/4TblFOuOMx8LEJVBMdQ==";
         };
+        _Gj7eUpGr = {
+            "id" = "Gj7eUpGr";
+            "file" = "moltenveins-0.7.8-mc1.21.8.jar";
+            "hash" = "sha512-oCJ1z5nW+bWrtfdOyZfJpukm4cET2soVyYeExeo94t3CvxDkDQHbfKw1P4Qv56Wu7NV6ZlxTlpOxX8X2ekMfOw==";
+        };
+        _HxZbtlyl = {
+            "id" = "HxZbtlyl";
+            "file" = "moltenveins-0.7.8-mc1.21.9.jar";
+            "hash" = "sha512-8AuyvMY/cGTSWSYo2tUO4F/VJBxjVMMC7bVNSyzEwWIg16vMiChsvd5ZSrfN/vLKAakoS0+NkWHW2jwHYUobKA==";
+        };
+        _Vq3TCZC0 = {
+            "id" = "Vq3TCZC0";
+            "file" = "moltenveins-0.7.8-mc1.21.10.jar";
+            "hash" = "sha512-dyv+3L1e2zENpab1k+BH+Y+HIHxGCm0Vf7KtPW75h+aHxRvn25yhJyImkNzkMLXu7NR7C3EiIkmMLn4omDQjug==";
+        };
+        _dArBpwSr = {
+            "id" = "dArBpwSr";
+            "file" = "moltenveins-0.7.8-mc1.21.11.jar";
+            "hash" = "sha512-x0WDDGVW9HsdyQqFcyUzwtB1WtlQF5hlk2FUceg+b++nK7s9lvjBCmQn+69M6W5Ii+/9/wmlkEyCYA5w9jJuBQ==";
+        };
+        _eNlReHa2 = {
+            "id" = "eNlReHa2";
+            "file" = "moltenveins-0.7.8-mc26.1-26.1.1-26.1.2.jar";
+            "hash" = "sha512-KF6VUG8JtK2uAB+TtBtY++70I973/mqjLgja+ySIH8ArPVBQIZ0VDQtbU0d00Rao9a3yhMJvFw35c7qlZxrN7g==";
+        };
+        _GlHEQD4B = {
+            "id" = "GlHEQD4B";
+            "file" = "moltenveins-0.7.8-mc26.2.jar";
+            "hash" = "sha512-safsI3gPkzAxDrnfKkObYbKAvI7KQkaoYW1JlvkI1+QzCvoNrolEOc3Yz/34j0fjEZGRfqAD2vGZZLdSOYRgOQ==";
+        };
+        _1TC6IxtT = {
+            "id" = "1TC6IxtT";
+            "file" = "moltenveins-neoforge-0.7.8-mc1.21.8.jar";
+            "hash" = "sha512-x2PHa3EWoZdNu8jvc5OA+3N7PnjmfH/9nRfJOjfHm1d9TpRMg4nCEMDILekj0fhbzL6NxJx9xZWBiyxdVJdkig==";
+        };
+        _PxU62ily = {
+            "id" = "PxU62ily";
+            "file" = "moltenveins-neoforge-0.7.8-mc1.21.9.jar";
+            "hash" = "sha512-k7spaH7TgibhYfT2xQKILQVmB8aiaT9B9eJp+PwKARgwSc+XkK4ITMWwFpLyeFfru8AxFMLucvY+YXGnOUdUNg==";
+        };
+        _cOBO86i0 = {
+            "id" = "cOBO86i0";
+            "file" = "moltenveins-neoforge-0.7.8-mc1.21.10.jar";
+            "hash" = "sha512-avlDLJxveI9WbxhYxbNzO+I+VZBvwDO+R+IvhQeBbro9osWvVMPzTIwGIN6FYiY7CUJXr5VEL1pQl8vc/ZJe9w==";
+        };
+        _RfzTHJmO = {
+            "id" = "RfzTHJmO";
+            "file" = "moltenveins-neoforge-0.7.8-mc1.21.11.jar";
+            "hash" = "sha512-2aT9Kmi2bUbkxwcmUyERgure6Z02Dkf+PnmBlCgMeeZw19WtksEy38itj4dri6ZjMPjACQsn6EYZk+J0X/8Dbw==";
+        };
+        _y8u7p9d4 = {
+            "id" = "y8u7p9d4";
+            "file" = "moltenveins-neoforge-0.7.8-mc26.1-26.1.1-26.1.2.jar";
+            "hash" = "sha512-2Y1/C3NmOaTzXBFMoWhUIPV6vn+RrJuZDVbReiw4THrp/Plu1dEOeV9ypVi9KA4Dj0ndn6xMcfeE757QPbGEaQ==";
+        };
+        _nGCFA8tg = {
+            "id" = "nGCFA8tg";
+            "file" = "moltenveins-neoforge-0.7.8-mc26.2.jar";
+            "hash" = "sha512-xcr6yOyxHA+pfhjW771sys+T/XR+6DBQ6+ExCSXYeHiuIXJIi7CEMdTEtmFwehrg/O4vO8i1azUolcPjXkEPtg==";
+        };
+        _vQ8Fs4tX = {
+            "id" = "vQ8Fs4tX";
+            "file" = "moltenveins-0.7.9-mc1.21.8.jar";
+            "hash" = "sha512-aOkje8rYrBXAAgjolPvBy2ox6M6/5uVNbJpFiAC+zEg8gEz0abOzqbbPVzHAoMJV6JVtbxEk5WvHbWXJDHeAGg==";
+        };
+        _gSlFq0uK = {
+            "id" = "gSlFq0uK";
+            "file" = "moltenveins-0.7.9-mc1.21.9.jar";
+            "hash" = "sha512-umLKu/p9LFLnvXla5LmfqVu5iS6VEuy9eqT7i5287FA7pYLcFh5aEkef+9ybWg8Fib+kaFVr4z3HxLixt7u3Aw==";
+        };
+        _9RZo7Qxz = {
+            "id" = "9RZo7Qxz";
+            "file" = "moltenveins-0.7.9-mc1.21.10.jar";
+            "hash" = "sha512-yHt40zvYuqYXfB4MWdIJcf4nTuAmvj8kdzYECSLe83LmguFNZS5YHvWY+umzUGsk53+cFzsKjfonPCtS3HTnqQ==";
+        };
+        _bSbr4AQv = {
+            "id" = "bSbr4AQv";
+            "file" = "moltenveins-0.7.9-mc1.21.11.jar";
+            "hash" = "sha512-TVTIQSOzvihpLUgOskyad4bziPqdPR5cI/kSyrVzn1FmPeaFIYnrgxrQYwojT5slsKeec3lvj5fBvk1nijscaQ==";
+        };
+        _sUtv2XUV = {
+            "id" = "sUtv2XUV";
+            "file" = "moltenveins-0.7.9-mc26.1-26.1.1-26.1.2.jar";
+            "hash" = "sha512-kofN/9p0cEQRXQ+VUEJnXQVhiSlI2Ii3SD/EoolYQzxgUg3X4Nd+DfWfKi1XPYM/NeeQD3Gt54MV9FlL5uYPaw==";
+        };
+        _DfZkcRNx = {
+            "id" = "DfZkcRNx";
+            "file" = "moltenveins-0.7.9-mc26.2.jar";
+            "hash" = "sha512-3SggCTu/nJ40bc4Mi26jKSHrSrpJhuB7wNs841HUPjYJmXZ3R/VeKjSvdc3IUK3RTNxoa8e8rAGNsBQ2AW9r9g==";
+        };
+        _4v44FEBt = {
+            "id" = "4v44FEBt";
+            "file" = "moltenveins-neoforge-0.7.9-mc1.21.8.jar";
+            "hash" = "sha512-BCeOQUFXgSylZmv3G0Qii9rLgVn6fhCTYI+uIYxYaI8ShMQHofzCJv1RCI04pq4Dz6qSJcY1JHnvcV8oThbCDw==";
+        };
+        _PtCGIEwQ = {
+            "id" = "PtCGIEwQ";
+            "file" = "moltenveins-neoforge-0.7.9-mc1.21.9.jar";
+            "hash" = "sha512-2HO6YwvG0s/4QhV4x+AlGuwAJiiUi9+GftfWPyUClMaVek1IUiacnqiRNRCsWyht9MevmvTIiGhNzG0JsnxCGg==";
+        };
+        _lVlutpiF = {
+            "id" = "lVlutpiF";
+            "file" = "moltenveins-neoforge-0.7.9-mc1.21.10.jar";
+            "hash" = "sha512-GY/qFH+z4Srb7ZAtCPqgo5sjesIzjqguUzsRZQhQF6p3IoWic4EWNxqVT6ZUJOM772RaTdoCPYVTceHJc/eb4A==";
+        };
+        _xZWJiyDn = {
+            "id" = "xZWJiyDn";
+            "file" = "moltenveins-neoforge-0.7.9-mc1.21.11.jar";
+            "hash" = "sha512-2uS/UUNKpCFjhUwZTv3T4wnv3Rogddx6HU9HDEmujTcLzc8fQ25AWgsi6fxrbNK/KVKj3bgsKYLWJiMOkk+Y8w==";
+        };
+        _ylY6KwTc = {
+            "id" = "ylY6KwTc";
+            "file" = "moltenveins-neoforge-0.7.9-mc26.1-26.1.1-26.1.2.jar";
+            "hash" = "sha512-QzU8YoSGpt4rXp8TmFhEDdjpDrXBRRBX7QELlrwKa8WsPb86NX+ca45En/hBMsHg6S6KY1buww+w3aTVzxNsOQ==";
+        };
+        _jEj9MCT2 = {
+            "id" = "jEj9MCT2";
+            "file" = "moltenveins-neoforge-0.7.9-mc26.2.jar";
+            "hash" = "sha512-dPNsdhmAHxEx4K3tqgw8qL2aW9lMoUkenDMLgUBNOFKrONeIIkbuUkAQ/ipjGq1mS4fecbgYs8+Nyvi6NGTq2A==";
+        };
     in {
         "R6OD1XOK" = _R6OD1XOK;
         "7xXGQHFP" = _7xXGQHFP;
@@ -530,22 +650,46 @@ let
         "T8V66RDE" = _T8V66RDE;
         "mrdqvGSL" = _mrdqvGSL;
         "HqcIKaQN" = _HqcIKaQN;
-        "fabric-1.21.8" = _tF9iHt02;
-        "fabric-1.21.9" = _M4AvXFq0;
-        "fabric-1.21.10" = _4RyURGJU;
-        "fabric-1.21.11" = _1uGP1TDw;
-        "fabric-26.1" = _w5h6Bu4o;
-        "fabric-26.1.1" = _w5h6Bu4o;
-        "fabric-26.1.2" = _w5h6Bu4o;
-        "fabric-26.2" = _gyZYIVE3;
-        "neoforge-1.21.8" = _4nldzs01;
-        "neoforge-1.21.9" = _rZrUXMaZ;
-        "neoforge-1.21.10" = _HOvUrODg;
-        "neoforge-1.21.11" = _T8V66RDE;
-        "neoforge-26.1" = _mrdqvGSL;
-        "neoforge-26.1.1" = _mrdqvGSL;
-        "neoforge-26.1.2" = _mrdqvGSL;
-        "neoforge-26.2" = _HqcIKaQN;
+        "Gj7eUpGr" = _Gj7eUpGr;
+        "HxZbtlyl" = _HxZbtlyl;
+        "Vq3TCZC0" = _Vq3TCZC0;
+        "dArBpwSr" = _dArBpwSr;
+        "eNlReHa2" = _eNlReHa2;
+        "GlHEQD4B" = _GlHEQD4B;
+        "1TC6IxtT" = _1TC6IxtT;
+        "PxU62ily" = _PxU62ily;
+        "cOBO86i0" = _cOBO86i0;
+        "RfzTHJmO" = _RfzTHJmO;
+        "y8u7p9d4" = _y8u7p9d4;
+        "nGCFA8tg" = _nGCFA8tg;
+        "vQ8Fs4tX" = _vQ8Fs4tX;
+        "gSlFq0uK" = _gSlFq0uK;
+        "9RZo7Qxz" = _9RZo7Qxz;
+        "bSbr4AQv" = _bSbr4AQv;
+        "sUtv2XUV" = _sUtv2XUV;
+        "DfZkcRNx" = _DfZkcRNx;
+        "4v44FEBt" = _4v44FEBt;
+        "PtCGIEwQ" = _PtCGIEwQ;
+        "lVlutpiF" = _lVlutpiF;
+        "xZWJiyDn" = _xZWJiyDn;
+        "ylY6KwTc" = _ylY6KwTc;
+        "jEj9MCT2" = _jEj9MCT2;
+        "fabric-1.21.8" = _vQ8Fs4tX;
+        "fabric-1.21.9" = _gSlFq0uK;
+        "fabric-1.21.10" = _9RZo7Qxz;
+        "fabric-1.21.11" = _bSbr4AQv;
+        "fabric-26.1" = _sUtv2XUV;
+        "fabric-26.1.1" = _sUtv2XUV;
+        "fabric-26.1.2" = _sUtv2XUV;
+        "fabric-26.2" = _DfZkcRNx;
+        "neoforge-1.21.8" = _4v44FEBt;
+        "neoforge-1.21.9" = _PtCGIEwQ;
+        "neoforge-1.21.10" = _lVlutpiF;
+        "neoforge-1.21.11" = _xZWJiyDn;
+        "neoforge-26.1" = _ylY6KwTc;
+        "neoforge-26.1.1" = _ylY6KwTc;
+        "neoforge-26.1.2" = _ylY6KwTc;
+        "neoforge-26.2" = _jEj9MCT2;
         "pkg-0.5.1" = _R6OD1XOK;
         "pkg-0.6.0" = _7xXGQHFP;
         "pkg-0.6.1" = _8QaT5reM;
@@ -564,7 +708,9 @@ let
         "pkg-0.7.5" = _6sdLOiVG;
         "pkg-0.7.6" = _3lHknteX;
         "pkg-0.7.7" = _HqcIKaQN;
-        "default" = _HqcIKaQN;
+        "pkg-0.7.8" = _nGCFA8tg;
+        "pkg-0.7.9" = _jEj9MCT2;
+        "default" = _jEj9MCT2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "molten-veins";

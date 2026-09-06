@@ -411,6 +411,56 @@ let
             "file" = "scabbard-neoforge-1.21.4-2.1.3.jar";
             "hash" = "sha512-l1ktkq4M9dEJVg28xzkj9uAbtgDLX98+T1dTIw0cysIvMfrL0CoZ87xRhqbbrEXFbU5YLFOxLJmhx91RX3uZ3w==";
         };
+        _hCgRTqVM = {
+            "id" = "hCgRTqVM";
+            "file" = "scabbard-fabric-1.20.1-0.4.19-sources.jar";
+            "hash" = "sha512-orHzg7e+xB7mfBBpht0GYlKvjTb5aOy5HZCdYNHi/fKggJhCg1quUK7841Yc3QiPL9f6XpB0yXjjHmRUcmvkqQ==";
+        };
+        _4VcUx5tM = {
+            "id" = "4VcUx5tM";
+            "file" = "scabbard-forge-1.20.1-0.4.19-sources.jar";
+            "hash" = "sha512-HGDaxheVsjEISz+rXYdsapSmQnOTiIrGzIBYoXLKRrG+fEeNXFQcKNgUVTdL5Ll+S7L9/RTf08ahuXcZVL/MUw==";
+        };
+        _GalUTpdT = {
+            "id" = "GalUTpdT";
+            "file" = "scabbard-fabric-1.20.1-0.4.20.jar";
+            "hash" = "sha512-kDjj5JmlS3Vro/tBaorfwQYA2xifatweiadBN5U3+ClscC3EL+tsMc/PJOAk8+oRykf+MqYRGwfAO/dUkzSeGg==";
+        };
+        _CAqv2lB6 = {
+            "id" = "CAqv2lB6";
+            "file" = "scabbard-forge-1.20.1-0.4.20.jar";
+            "hash" = "sha512-ZxbcCQ7vhvLMEYVYqXjZ6dhOvwP1B2vcjAFr0cYKPE7tzbBSi1bX7E5iVHU/r6tpB496Xc1nb1RYSQ/WEXNDXw==";
+        };
+        _2Vs9D6My = {
+            "id" = "2Vs9D6My";
+            "file" = "scabbard-fabric-1.20.1-0.4.21.jar";
+            "hash" = "sha512-JuUZ42l42opPEWciCf9vIIG/4g5pf/VBdGvSFibOwA2BTpdD99U89hZZ2PS1bEYCvgL8CCEQnKNWd0TaVekCkw==";
+        };
+        _g5ci7iyT = {
+            "id" = "g5ci7iyT";
+            "file" = "scabbard-forge-1.20.1-0.4.21.jar";
+            "hash" = "sha512-tW7N7L03/m7/rgG0EzcI7MS7IL5RBS7KW8oWHWlAcr4cGC8lTm05fXgkOt4UBxLU7j2uS7MtgUqJfehUWyIeWA==";
+        };
+        _dSVnOuZi = {
+            "id" = "dSVnOuZi";
+            "file" = "scabbard-fabric-1.20.1-0.4.22.jar";
+            "hash" = "sha512-bo3DVHnPLuY3WGR9trVSg32r74cJ64XsKI8uHzDuPCUopEx72Yoo6tB89H/QPtXcgSStpE/rBMCn9W2biNZwLQ==";
+        };
+        _ZSFX9bdQ = {
+            "id" = "ZSFX9bdQ";
+            "file" = "scabbard-forge-1.20.1-0.4.22.jar";
+            "hash" = "sha512-JMC7T8tJpU4ytgsd5OSbWN/IKUkj0pRTqbwBiEGXlYrLxsN84v1M2NFEmxJTupZ83R9bSapZKeB/0bt3VBOOXA==";
+        };
+        _HzbdPOiK = {
+            "id" = "HzbdPOiK";
+            "file" = "scabbard-fabric-1.20.1-0.4.23.jar";
+            "hash" = "sha512-rJoi4EBa2Sby8Bg1s2Xl1sHlAjYuielFrjARNbmLb3eogk4xkDLWxf9RPp4xESVuMzUq9O4VpSAPvKLKeiNxRw==";
+        };
+        _daeB8w8c = {
+            "id" = "daeB8w8c";
+            "file" = "scabbard-forge-1.20.1-0.4.23.jar";
+            "hash" = "sha512-zd73MZoq4E2+8DC+mfilFSy9NgEpGYwyQpfLBfhWaM7neN6gZ4bRDngah1xt1NjP8/ugloefuscZYXMqdInqFQ==";
+        };
     in {
         "hg1Rvvm5" = _hg1Rvvm5;
         "dMXabBbp" = _dMXabBbp;
@@ -494,10 +544,20 @@ let
         "mFutqPll" = _mFutqPll;
         "C9eOSxE8" = _C9eOSxE8;
         "3EfOHzai" = _3EfOHzai;
-        "fabric-1.20.1" = _NwmkokES;
+        "hCgRTqVM" = _hCgRTqVM;
+        "4VcUx5tM" = _4VcUx5tM;
+        "GalUTpdT" = _GalUTpdT;
+        "CAqv2lB6" = _CAqv2lB6;
+        "2Vs9D6My" = _2Vs9D6My;
+        "g5ci7iyT" = _g5ci7iyT;
+        "dSVnOuZi" = _dSVnOuZi;
+        "ZSFX9bdQ" = _ZSFX9bdQ;
+        "HzbdPOiK" = _HzbdPOiK;
+        "daeB8w8c" = _daeB8w8c;
+        "fabric-1.20.1" = _HzbdPOiK;
         "fabric-1.21.1" = _YYL1yF4H;
         "fabric-1.21.4" = _mFutqPll;
-        "forge-1.20.1" = _24Yw5Ny0;
+        "forge-1.20.1" = _daeB8w8c;
         "forge-1.21.1" = _jxzXF8fl;
         "forge-1.21.4" = _C9eOSxE8;
         "neoforge-1.21.1" = _7i75lozq;
@@ -584,7 +644,17 @@ let
         "pkg-2.1.3+fabric" = _mFutqPll;
         "pkg-2.1.3+forge" = _C9eOSxE8;
         "pkg-2.1.3+neoforge" = _3EfOHzai;
-        "default" = _3EfOHzai;
+        "pkg-0.4.19+fabric" = _hCgRTqVM;
+        "pkg-0.4.19+forge" = _4VcUx5tM;
+        "pkg-0.4.20+fabric" = _GalUTpdT;
+        "pkg-0.4.20+forge" = _CAqv2lB6;
+        "pkg-0.4.21+fabric" = _2Vs9D6My;
+        "pkg-0.4.21+forge" = _g5ci7iyT;
+        "pkg-0.4.22+fabric" = _dSVnOuZi;
+        "pkg-0.4.22+forge" = _ZSFX9bdQ;
+        "pkg-0.4.23+fabric" = _HzbdPOiK;
+        "pkg-0.4.23+forge" = _daeB8w8c;
+        "default" = _daeB8w8c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scabbard";

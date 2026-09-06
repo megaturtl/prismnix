@@ -11,14 +11,22 @@ let
             "file" = "auto_totem-1.21.10-0.0.2.jar";
             "hash" = "sha512-W/UdPaSDkSZvWoVKA2ryW+xZiL8ButVoTBNyGUzXG7O/UprIkNWeWL7aT+YcEnIah6jzD+bsFEiIFPjjLobaQA==";
         };
+        _lOFGZTf0 = {
+            "id" = "lOFGZTf0";
+            "file" = "auto_totem-26.2.jar";
+            "hash" = "sha512-MKgui7EehxOBoi2NSN7lwW+o+8yhRfqBpHgrLmK7d7HJ1N1FNznTzcc6Azu5iBgACi46h1QovAChipK0fiAn4g==";
+        };
     in {
         "47iSq0z3" = _47iSq0z3;
         "JLznzaea" = _JLznzaea;
+        "lOFGZTf0" = _lOFGZTf0;
         "fabric-1.21.8" = _47iSq0z3;
         "fabric-1.21.10" = _JLznzaea;
+        "fabric-26.2" = _lOFGZTf0;
         "pkg-0.0.1" = _47iSq0z3;
         "pkg-0.0.2" = _JLznzaea;
-        "default" = _JLznzaea;
+        "pkg-0.0.3" = _lOFGZTf0;
+        "default" = _lOFGZTf0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-auto-totem";

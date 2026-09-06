@@ -401,6 +401,16 @@ let
             "file" = "regions-unexplored-0.7.0+beta1-neoforge.jar";
             "hash" = "sha512-qhJ3LE99xaF62IpXoLj6fci0oVq2iLGwGuSIHdf/6keRkYlACgr8RIbctiz+crrTnHgW+zwDjuHin3M4WLMTOg==";
         };
+        _Gzfiwier = {
+            "id" = "Gzfiwier";
+            "file" = "regions-unexplored-0.7.0+beta2-fabric.jar";
+            "hash" = "sha512-SKlMRtAAu9PKoTNW4FFhVtm4sjf4yU0+lZMWwHXcrXZTMAetda0ScmFhKPDo+vevoDRb3aNo0np14a9wadqu5Q==";
+        };
+        _7l15n9Bm = {
+            "id" = "7l15n9Bm";
+            "file" = "regions-unexplored-0.7.0+beta2-neoforge.jar";
+            "hash" = "sha512-x9gdjZu9uz2pTMUYixkwULOK7Wh9v8uQaofbL6tlsqLS4jTVM9zHHphnpWvAYkAVsSzGWqGUf3l9/UEDE1uC+A==";
+        };
     in {
         "L5Ti8Ac3" = _L5Ti8Ac3;
         "LWHTvpoI" = _LWHTvpoI;
@@ -482,6 +492,8 @@ let
         "5A8LFnXX" = _5A8LFnXX;
         "9m4gA1OZ" = _9m4gA1OZ;
         "WbhEQ9sa" = _WbhEQ9sa;
+        "Gzfiwier" = _Gzfiwier;
+        "7l15n9Bm" = _7l15n9Bm;
         "fabric-1.19.2" = _L5Ti8Ac3;
         "fabric-1.19.4" = _LWHTvpoI;
         "fabric-1.20" = _P5G5b4aO;
@@ -490,9 +502,9 @@ let
         "fabric-1.20.4" = _EhR8i21m;
         "fabric-1.21" = _bHIj876h;
         "fabric-1.21.1" = _SffwLsGY;
-        "fabric-26.1" = _9m4gA1OZ;
-        "fabric-26.1.1" = _9m4gA1OZ;
-        "fabric-26.1.2" = _9m4gA1OZ;
+        "fabric-26.1" = _Gzfiwier;
+        "fabric-26.1.1" = _Gzfiwier;
+        "fabric-26.1.2" = _Gzfiwier;
         "forge-1.19.2" = _ulmEIms0;
         "forge-1.19.4" = _eLdbgbQE;
         "forge-1.18.2" = _vXPKsf84;
@@ -508,9 +520,9 @@ let
         "quilt-1.20.4" = _3JMpGZ9U;
         "neoforge-1.21" = _283vJhzw;
         "neoforge-1.21.1" = _5A8LFnXX;
-        "neoforge-26.1" = _WbhEQ9sa;
-        "neoforge-26.1.1" = _WbhEQ9sa;
-        "neoforge-26.1.2" = _WbhEQ9sa;
+        "neoforge-26.1" = _7l15n9Bm;
+        "neoforge-26.1.1" = _7l15n9Bm;
+        "neoforge-26.1.2" = _7l15n9Bm;
         "pkg-0.4.1+1.19.2" = _gRbegtWC;
         "pkg-0.4.1+1.19.4" = _eLdbgbQE;
         "pkg-0.4.1+1.18.2" = _u2UbUTDy;
@@ -571,7 +583,9 @@ let
         "pkg-0.6.2-neoforge-21.1" = _5A8LFnXX;
         "pkg-0.7.0+beta1-fabric-26.1" = _9m4gA1OZ;
         "pkg-0.7.0+beta1-neoforge-26.1" = _WbhEQ9sa;
-        "default" = _WbhEQ9sa;
+        "pkg-0.7.0+beta2-fabric-26.1" = _Gzfiwier;
+        "pkg-0.7.0+beta2-neoforge-26.1" = _7l15n9Bm;
+        "default" = _7l15n9Bm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "regions-unexplored";

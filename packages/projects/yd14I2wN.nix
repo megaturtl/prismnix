@@ -91,6 +91,96 @@ let
             "file" = "atmospheric-fauna-0.4.0+26.2.jar";
             "hash" = "sha512-eS4rQSKUUvGHzEt1sVkrw9mr7ZSYIMCjQ9wHAaK/mI8dCjFk8DyTtILlAkhXAy68STDyKhPdsY/yKeNpPgd3sA==";
         };
+        _Spo8dbMO = {
+            "id" = "Spo8dbMO";
+            "file" = "atmospheric-fauna-0.5.0+1.21.jar";
+            "hash" = "sha512-v6Ghg52xrGPG52Zk0TpvjWJH5e+XMowdC/TOvGcLU5sN4IEH24h5HnNRYeHZigdw9fDT5PTVv+D4QNLSIr5Pvw==";
+        };
+        _C6iru6Ia = {
+            "id" = "C6iru6Ia";
+            "file" = "atmospheric-fauna-0.5.0+1.21.2.jar";
+            "hash" = "sha512-uNfwdzc4VbP2ldLjdfDnexYFVdx0Cd6VH3gQsmsFFiLnUCQt1wvqDW1XakI2khEn3NMuo7P15YuCmW8SqjHEJw==";
+        };
+        _etfCgJ7w = {
+            "id" = "etfCgJ7w";
+            "file" = "atmospheric-fauna-0.5.0+1.21.4.jar";
+            "hash" = "sha512-U6RfTOy/qy1c4omEC26iVr2Tiv5HFqb3T+Pj24CWQTosQ4jqY0Z8w1I4D/38ipHcZldaQ+wvFQyzcgRGlMAMgw==";
+        };
+        _o6IDzTF2 = {
+            "id" = "o6IDzTF2";
+            "file" = "atmospheric-fauna-0.5.0+1.21.5.jar";
+            "hash" = "sha512-qbGpQ46q918pqJMkc3N27DRJ5VdXQGs8svbzEnysPAarKDXtsqiAjQrKjjauTdX4JvnZoD5uLTGz0O1lGvOXKg==";
+        };
+        _mjZrX1y0 = {
+            "id" = "mjZrX1y0";
+            "file" = "atmospheric-fauna-0.5.0+1.21.6.jar";
+            "hash" = "sha512-Zezhwg5RAnqFIIBd6Wgy7cLXFRPc04Yr3J5WAjSyAi+KKAxRHBD+QyDTa+mxd/O3dd2Ke84Xr3Bo9OMGYwWeeA==";
+        };
+        _aGa2nZMn = {
+            "id" = "aGa2nZMn";
+            "file" = "atmospheric-fauna-0.5.0+1.21.9.jar";
+            "hash" = "sha512-SEpsnhs+Qiv23uoVtAAVK4AU4pvK3VK5Ubf1ODktWJQIRvrEhdrDgKbIoPu18hUlA+rcJSUUvf0taGHKUotRcg==";
+        };
+        _2WHXHsi6 = {
+            "id" = "2WHXHsi6";
+            "file" = "atmospheric-fauna-0.5.0+1.21.11.jar";
+            "hash" = "sha512-/ymxTqs9FwQBqqCYkbtBNONS+xYGZtJhJLr3ufBGLSOkLMqGen7EC6NlabymwD0bxLQcwuySU8FNtS19rlOPAw==";
+        };
+        _Z8rGyZ6U = {
+            "id" = "Z8rGyZ6U";
+            "file" = "atmospheric-fauna-0.5.0+26.1.jar";
+            "hash" = "sha512-en6QDtrXLNhYihc4LqOPjBa/bme+tfPlYP3V2fiL1KEwbkr2bzw38QzwcynTEKr83DAepwcMfs4w6GY5bChIFw==";
+        };
+        _nLLQPcVQ = {
+            "id" = "nLLQPcVQ";
+            "file" = "atmospheric-fauna-0.5.0+26.2.jar";
+            "hash" = "sha512-S9WtjjOm2/Gk3U68PAoI2Hfmxn7vNJO6v34qbGN64vvhm7ezAZ7FapkdvMvVVfZ+Xb4q0k9ONno6TPyuIp5aJw==";
+        };
+        _m4E3YdvX = {
+            "id" = "m4E3YdvX";
+            "file" = "atmospheric-fauna-0.5.1+1.21.jar";
+            "hash" = "sha512-DAUYMMCVgD6VR+hsiQf+wzVPy3lweTqD4FEELSdzqOBYNbEqsTnVhUnyCVXR14eOwCfCRVm3/+AJcoeBjz3K5Q==";
+        };
+        _6eMGWv5h = {
+            "id" = "6eMGWv5h";
+            "file" = "atmospheric-fauna-0.5.1+1.21.2.jar";
+            "hash" = "sha512-J2t01NEWXQ7dNY7BmB0aBUOfu0EHULqtBB/O0C90k0bW6ssMamse775A4OtgwJbjYSnMkFcHBDgbOSAFIjVuCw==";
+        };
+        _FjZFaBDV = {
+            "id" = "FjZFaBDV";
+            "file" = "atmospheric-fauna-0.5.1+1.21.4.jar";
+            "hash" = "sha512-ZqkGXELfxt0e7vEbkX/LkKJnyq49IOjUnfP76OcDX5vJnsSoWeM2V9EQAvZI/MDGL/RcxsZk0wI+0Pm8kk1RgQ==";
+        };
+        _rooqWOoO = {
+            "id" = "rooqWOoO";
+            "file" = "atmospheric-fauna-0.5.1+1.21.5.jar";
+            "hash" = "sha512-HQwKWkNwt66DZDLKn/ydoto04qryjwZS6O8a+wwloMz6YkQx2Pje2kRFFQe41CFN0MCmUjJNg/T4VJ5SC1+ZZA==";
+        };
+        _NZifqb7q = {
+            "id" = "NZifqb7q";
+            "file" = "atmospheric-fauna-0.5.1+1.21.6.jar";
+            "hash" = "sha512-oz+vwf2o0kTdymIAc6b7oB6VW8p42JVCkU89qz5seP6/lErcvVGj6f9A35pXJlL2XNPkM6fx30nL4xPz7qpiWw==";
+        };
+        _Al3nTeTw = {
+            "id" = "Al3nTeTw";
+            "file" = "atmospheric-fauna-0.5.1+1.21.9.jar";
+            "hash" = "sha512-3wu7HXlGQU5Ku0IjGj8TekOkaNjX4J4r+MvpylDb5YaISi5gPI7HHnDw4yG3gnjvHxppePbn2v1jcuu64IhCmg==";
+        };
+        _h3v9yUFy = {
+            "id" = "h3v9yUFy";
+            "file" = "atmospheric-fauna-0.5.1+1.21.11.jar";
+            "hash" = "sha512-OthMnxR8hr7X13l22ldfiHkVTzrBcdF3zUb8LKtYic6zJif3LrBj5AOZQFRqjDg7btHJ5m7yTONFbbl/V2wRnA==";
+        };
+        _VEgZsKZ8 = {
+            "id" = "VEgZsKZ8";
+            "file" = "atmospheric-fauna-0.5.1+26.1.jar";
+            "hash" = "sha512-J4ECj2tx9mWxYglhrB00h5YHwBx23OugaXCtQlB8hsNA18qfbnXM1r9aAEPnpaHErPBEH1YpkBjXDZSj8phUlw==";
+        };
+        _9DGFVCuu = {
+            "id" = "9DGFVCuu";
+            "file" = "atmospheric-fauna-0.5.1+26.2.jar";
+            "hash" = "sha512-wYNbd2CXUchMG7Lf3NlAQ1tqCFKvky9ADvW7mlXmrSLhaVG6uUb3NPDgyc16757ZbxRisYqCKOrhQ5l+fNRSlA==";
+        };
     in {
         "PptNooDr" = _PptNooDr;
         "WTuzM6xS" = _WTuzM6xS;
@@ -110,22 +200,40 @@ let
         "Q07L4Huv" = _Q07L4Huv;
         "y73cb0Up" = _y73cb0Up;
         "9RoYVDtS" = _9RoYVDtS;
-        "fabric-1.21.11" = _Q07L4Huv;
-        "fabric-26.1" = _y73cb0Up;
-        "fabric-26.1.1" = _y73cb0Up;
-        "fabric-26.1.2" = _y73cb0Up;
-        "fabric-26.2" = _9RoYVDtS;
-        "fabric-1.21" = _aOINv1Xs;
-        "fabric-1.21.1" = _aOINv1Xs;
-        "fabric-1.21.2" = _brf8Ubhd;
-        "fabric-1.21.3" = _brf8Ubhd;
-        "fabric-1.21.4" = _Cwhgrso5;
-        "fabric-1.21.5" = _C1q56GKS;
-        "fabric-1.21.6" = _85J1ZZgl;
-        "fabric-1.21.7" = _85J1ZZgl;
-        "fabric-1.21.8" = _85J1ZZgl;
-        "fabric-1.21.9" = _Hg7cpeZB;
-        "fabric-1.21.10" = _Hg7cpeZB;
+        "Spo8dbMO" = _Spo8dbMO;
+        "C6iru6Ia" = _C6iru6Ia;
+        "etfCgJ7w" = _etfCgJ7w;
+        "o6IDzTF2" = _o6IDzTF2;
+        "mjZrX1y0" = _mjZrX1y0;
+        "aGa2nZMn" = _aGa2nZMn;
+        "2WHXHsi6" = _2WHXHsi6;
+        "Z8rGyZ6U" = _Z8rGyZ6U;
+        "nLLQPcVQ" = _nLLQPcVQ;
+        "m4E3YdvX" = _m4E3YdvX;
+        "6eMGWv5h" = _6eMGWv5h;
+        "FjZFaBDV" = _FjZFaBDV;
+        "rooqWOoO" = _rooqWOoO;
+        "NZifqb7q" = _NZifqb7q;
+        "Al3nTeTw" = _Al3nTeTw;
+        "h3v9yUFy" = _h3v9yUFy;
+        "VEgZsKZ8" = _VEgZsKZ8;
+        "9DGFVCuu" = _9DGFVCuu;
+        "fabric-1.21.11" = _h3v9yUFy;
+        "fabric-26.1" = _VEgZsKZ8;
+        "fabric-26.1.1" = _VEgZsKZ8;
+        "fabric-26.1.2" = _VEgZsKZ8;
+        "fabric-26.2" = _9DGFVCuu;
+        "fabric-1.21" = _m4E3YdvX;
+        "fabric-1.21.1" = _m4E3YdvX;
+        "fabric-1.21.2" = _6eMGWv5h;
+        "fabric-1.21.3" = _6eMGWv5h;
+        "fabric-1.21.4" = _FjZFaBDV;
+        "fabric-1.21.5" = _rooqWOoO;
+        "fabric-1.21.6" = _NZifqb7q;
+        "fabric-1.21.7" = _NZifqb7q;
+        "fabric-1.21.8" = _NZifqb7q;
+        "fabric-1.21.9" = _Al3nTeTw;
+        "fabric-1.21.10" = _Al3nTeTw;
         "pkg-v0.1.0-alpha+1.21.11" = _PptNooDr;
         "pkg-v0.1.0+1.21.11" = _WTuzM6xS;
         "pkg-v0.2.0+1.21.11" = _32XxiF7n;
@@ -144,7 +252,9 @@ let
         "pkg-v0.4.0+1.12.11" = _Q07L4Huv;
         "pkg-v0.4.0+26.1" = _y73cb0Up;
         "pkg-v0.4.0+26.2" = _9RoYVDtS;
-        "default" = _9RoYVDtS;
+        "pkg-v0.5.0" = _nLLQPcVQ;
+        "pkg-v0.5.1" = _9DGFVCuu;
+        "default" = _9DGFVCuu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "atmospheric-fauna";

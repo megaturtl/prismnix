@@ -31,6 +31,16 @@ let
             "file" = "orbital-strike-cannon-0.6.0-beta.jar";
             "hash" = "sha512-GnEpeeAIXmd8afv4m3OBnvAqMF41ICP0oclHe8zkoE4z/Y05v+WGt4c9VqudH/R9EzyUv/4Zhy365MBmnIpIAg==";
         };
+        _ibb1EDfJ = {
+            "id" = "ibb1EDfJ";
+            "file" = "orbital-strike-cannon-0.7.0+26.1.2.jar";
+            "hash" = "sha512-XK09KWRxLABy5d7OaF+CKrHtC1cgbIHoXeQYbA6gYZ2EiN3tLx4B7aRPYtbR1wkjA2jBlYNbI6DDEgf3sfoKCA==";
+        };
+        _tBMILoMC = {
+            "id" = "tBMILoMC";
+            "file" = "orbital-strike-cannon-0.7.0+26.2.jar";
+            "hash" = "sha512-Y8vggEvC0lmoOqE5qNxqjaHzt+c068HgrQsabO6fKt5hRnmYLjUoSGLQ3GGj9AEbyyyFBuT6J+STUHlHD9RKpQ==";
+        };
     in {
         "PB7n6o6V" = _PB7n6o6V;
         "954GHqDm" = _954GHqDm;
@@ -38,14 +48,19 @@ let
         "6esKbOnL" = _6esKbOnL;
         "iu4G03Fn" = _iu4G03Fn;
         "TYFDeh4d" = _TYFDeh4d;
+        "ibb1EDfJ" = _ibb1EDfJ;
+        "tBMILoMC" = _tBMILoMC;
         "fabric-1.21.11" = _TYFDeh4d;
+        "fabric-26.1.2" = _ibb1EDfJ;
+        "fabric-26.2" = _tBMILoMC;
         "pkg-0.1.0-beta" = _PB7n6o6V;
         "pkg-0.2.0-beta" = _954GHqDm;
         "pkg-0.3.0-beta" = _I4T4aDRv;
         "pkg-0.4.0-beta" = _6esKbOnL;
         "pkg-0.5.0-beta" = _iu4G03Fn;
         "pkg-0.6.0-beta" = _TYFDeh4d;
-        "default" = _TYFDeh4d;
+        "pkg-0.7.0" = _tBMILoMC;
+        "default" = _tBMILoMC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "orbital-nuke";

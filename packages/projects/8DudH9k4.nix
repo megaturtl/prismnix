@@ -116,6 +116,41 @@ let
             "file" = "auto-totem-1.21.11-1.2.4.jar";
             "hash" = "sha512-HXaKzuWiLXNiGo5CXJw/XU2usp1O92a5FVdM0p8GDiouNPIKjZb08ON5A1T/clDWZJhXJPu67HaDGdkLpEqm9Q==";
         };
+        _5gv6eJ6t = {
+            "id" = "5gv6eJ6t";
+            "file" = "auto-totem-1.21.11-1.3.5.jar";
+            "hash" = "sha512-93FOPqkfs8U7iy9WatlXujMmbgf1BT2ONqR50wCX1dn/boeoV91tC/uc5RcklZ+fzo2sWPZ8i0r94ZckRXD2+g==";
+        };
+        _QqE5Iu7R = {
+            "id" = "QqE5Iu7R";
+            "file" = "sillyautototem-neoforge-26.2-2.3.6.jar";
+            "hash" = "sha512-Ci5nPsEewGe4MLxFDfCfw0h3K39LjXTkhyN4MGTnJHnnYlqnZcw8+nUSWOHrq9zJH3Jcaz9RvHnVC8uBFwj/zw==";
+        };
+        _5KX5b8FY = {
+            "id" = "5KX5b8FY";
+            "file" = "sillyautototem-fabric-26.2-2.3.6.jar";
+            "hash" = "sha512-HMBTPPnEwaq5mgM7+9pDnCfOXN+4mvPMNzNyzSoMn9N7t17ZBuHzrYqYxuBSNfU7W5KlGkCa7Q2H4OM6pRMEcg==";
+        };
+        _GGnibCwv = {
+            "id" = "GGnibCwv";
+            "file" = "sillyautototem-fabric-26.1.2-2.3.6.jar";
+            "hash" = "sha512-lk/cG4wTI+le1bnvUBxwVXxtnHCrXSgW/YOx4aRoqQlx1Q0s1A+HGmYfursvuBomumX8sv5ja40Q6hhNJ++YSQ==";
+        };
+        _mAsoTEGK = {
+            "id" = "mAsoTEGK";
+            "file" = "sillyautototem-neoforge-26.1.2-2.3.6.jar";
+            "hash" = "sha512-4C2PacMWxVKP45YzmQn/0rwy5Jc0rdQRFL1qYQoEy9T6+OtsQSQD26C7Gv/SdDtpE7EoAZd3ytCP5tSZtRX7Rw==";
+        };
+        _LBBXEBAd = {
+            "id" = "LBBXEBAd";
+            "file" = "sillyautototem-neoforge-1.21.11-2.3.6.jar";
+            "hash" = "sha512-XwU6xBrTh4mCgsr6Zobo6eHy8E6q8rBePERKFuDniv7L98htJoifeAutKb3N+WXsYVKkh/nrK6MOw27o693e+A==";
+        };
+        _E8PREyNC = {
+            "id" = "E8PREyNC";
+            "file" = "sillyautototem-fabric-1.21.11-2.3.6.jar";
+            "hash" = "sha512-mnNomRHQmbMs/4Gu67DHqErvx+fgNao+5NnJ18MdJC2D58iFbJoTWpwmKQYsfYugQUkj2EanNs3pB86rKJFhJg==";
+        };
     in {
         "tEB6Ls6O" = _tEB6Ls6O;
         "t6StO4M7" = _t6StO4M7;
@@ -140,6 +175,13 @@ let
         "PQGQZIGa" = _PQGQZIGa;
         "7jCxiO5M" = _7jCxiO5M;
         "YBTKIHGq" = _YBTKIHGq;
+        "5gv6eJ6t" = _5gv6eJ6t;
+        "QqE5Iu7R" = _QqE5Iu7R;
+        "5KX5b8FY" = _5KX5b8FY;
+        "GGnibCwv" = _GGnibCwv;
+        "mAsoTEGK" = _mAsoTEGK;
+        "LBBXEBAd" = _LBBXEBAd;
+        "E8PREyNC" = _E8PREyNC;
         "fabric-1.21.5" = _h2rowr5W;
         "fabric-1.21.6" = _Osyf8RCh;
         "fabric-1.21.7" = _68tsiBxz;
@@ -158,15 +200,21 @@ let
         "fabric-1.21.8" = _RWHYYlxM;
         "fabric-1.21.10" = _PQGQZIGa;
         "fabric-1.21.9" = _7jCxiO5M;
-        "fabric-1.21.11" = _YBTKIHGq;
+        "fabric-1.21.11" = _E8PREyNC;
         "fabric-26.1" = _YBTKIHGq;
         "fabric-26.1.1" = _YBTKIHGq;
-        "fabric-26.1.2" = _YBTKIHGq;
+        "fabric-26.1.2" = _GGnibCwv;
+        "fabric-26.2" = _5KX5b8FY;
+        "neoforge-26.2" = _QqE5Iu7R;
+        "neoforge-26.1.2" = _mAsoTEGK;
+        "neoforge-1.21.11" = _LBBXEBAd;
         "pkg-1.0.1" = _tEB6Ls6O;
         "pkg-1.0.2" = _J4l59Tn7;
         "pkg-1.2.3" = _RWHYYlxM;
         "pkg-1.2.4" = _YBTKIHGq;
-        "default" = _YBTKIHGq;
+        "pkg-1.3.5" = _5gv6eJ6t;
+        "pkg-2.3.6" = _E8PREyNC;
+        "default" = _E8PREyNC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sillys-auto-totem";

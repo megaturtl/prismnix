@@ -51,6 +51,11 @@ let
             "file" = "OneEnoughBlock-1.1.3.1-hotfix.jar";
             "hash" = "sha512-l3akx54ZoJw98WgmcEEjhs9zfxQjZC/3PuIB+eheZmYGkEHuE/j3OriVOxBk0HNmFnUzDzBRV3GsqkYNRKm7ng==";
         };
+        _ibxHkV6I = {
+            "id" = "ibxHkV6I";
+            "file" = "OneEnoughBlock-neoforge-26.1.2-1.0.0.jar";
+            "hash" = "sha512-k8AhrrL2mfPhyX6cuLiX6mP2xmYCF45SCiDIHk0Zee1ChWW6r4Km/uITFuZNiYrUVLcYvAuD306pHGUqq3NuHQ==";
+        };
     in {
         "5SHeHRuj" = _5SHeHRuj;
         "P2mCwr0C" = _P2mCwr0C;
@@ -62,16 +67,18 @@ let
         "yLtjA7aI" = _yLtjA7aI;
         "7VniLjNa" = _7VniLjNa;
         "Ach9Hi1C" = _Ach9Hi1C;
+        "ibxHkV6I" = _ibxHkV6I;
         "forge-1.20.1" = _Ach9Hi1C;
         "neoforge-1.21.1" = _PDVoFCX9;
-        "pkg-1.0.0" = _yl7Y2xzH;
+        "neoforge-26.1.2" = _ibxHkV6I;
+        "pkg-1.0.0" = _ibxHkV6I;
         "pkg-1.1.1-jech" = _OWAkAhOM;
         "pkg-1.1.2" = _Dq3jyHsb;
         "pkg-1.1.2-hotfix" = _PDVoFCX9;
         "pkg-1.1.3" = _yLtjA7aI;
         "pkg-1.1.3.1" = _7VniLjNa;
         "pkg-1.1.3.1-hotfix" = _Ach9Hi1C;
-        "default" = _Ach9Hi1C;
+        "default" = _ibxHkV6I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "one-enough-block";

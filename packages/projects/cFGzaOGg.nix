@@ -106,6 +106,11 @@ let
             "file" = "asteroid-0.4.1-alpha-2.jar";
             "hash" = "sha512-m/oRuizJvP1O2/Bw/v12U0OMZNDlj/H8qiYcMtJPAm5GuuAMcd3rYYLFdKCV1NS3/1w0KbXLlZ3GjZO8GvaHEg==";
         };
+        _gsmJj0qI = {
+            "id" = "gsmJj0qI";
+            "file" = "asteroid-0.4.1-alpha-3.jar";
+            "hash" = "sha512-Tqx4htiDTY9cOyHae9FGFy8FFuZzSgeQnA6U0sbeke159kCEDfunsMKDnKAk4Edqg7Y51YsgA762SQeP8SgCdA==";
+        };
     in {
         "jXsJfsdz" = _jXsJfsdz;
         "ge4vPntj" = _ge4vPntj;
@@ -128,6 +133,7 @@ let
         "4oyQOgoI" = _4oyQOgoI;
         "TaeobdSY" = _TaeobdSY;
         "oTHKaZUr" = _oTHKaZUr;
+        "gsmJj0qI" = _gsmJj0qI;
         "fabric-1.20.5" = _jXsJfsdz;
         "fabric-1.20.6" = _jXsJfsdz;
         "fabric-1.21" = _TmHWAc3J;
@@ -145,7 +151,7 @@ let
         "fabric-26.1" = _4oyQOgoI;
         "fabric-26.1.1" = _4oyQOgoI;
         "fabric-26.1.2" = _4oyQOgoI;
-        "fabric-26.2" = _oTHKaZUr;
+        "fabric-26.2" = _gsmJj0qI;
         "pkg-0.1.0" = _jXsJfsdz;
         "pkg-0.1.1" = _ge4vPntj;
         "pkg-0.1.2" = _YBzokYuq;
@@ -167,7 +173,8 @@ let
         "pkg-0.4.0" = _4oyQOgoI;
         "pkg-0.4.1-alpha" = _TaeobdSY;
         "pkg-0.4.1-alpha-2" = _oTHKaZUr;
-        "default" = _oTHKaZUr;
+        "pkg-0.4.1-alpha-3" = _gsmJj0qI;
+        "default" = _gsmJj0qI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "asteroid";

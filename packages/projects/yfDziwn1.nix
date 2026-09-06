@@ -841,6 +841,31 @@ let
             "file" = "SodiumTranslations.zip";
             "hash" = "sha512-0sEjbFTaUK4AQCEN1lFhvZQw3hfN/uKoHfkDlZD5EhG003wxJZo2KP3qgS2xAfCW5MGTrgCxxE0stHulKxgqng==";
         };
+        _3NpjygNs = {
+            "id" = "3NpjygNs";
+            "file" = "SodiumTranslations.zip";
+            "hash" = "sha512-J8N91MvwFn3XqN/jobBArCCXFe02hl4kmO2VFqol++BytxzcYFAEOcPW/z9g76bETA1Ir7TnHsk/GHInJBpaww==";
+        };
+        _PlfwCjn2 = {
+            "id" = "PlfwCjn2";
+            "file" = "SodiumTranslations.zip";
+            "hash" = "sha512-tdSzlZdSwdJucxoM77N+Xf/7WQQ9hK/J6I+ir+5h/gVgsZeUvq4PcCEdgG+MOu+q+IdLUvlvh8vM5oacVKjQbw==";
+        };
+        _9svKlAHI = {
+            "id" = "9svKlAHI";
+            "file" = "SodiumTranslations.zip";
+            "hash" = "sha512-bonqEbWIZ4VoZjIDbpVOyeeURmx4/iM8KOU0TISN/TTAGuBX57pIPlzpgGqjXF6v9YMNoTaoF88yq8mbxjwkPg==";
+        };
+        _bgGjmwGk = {
+            "id" = "bgGjmwGk";
+            "file" = "SodiumTranslations.zip";
+            "hash" = "sha512-fkTVKebhX88lrvm07FIlVMnEaUu33SGt7O/gXm20WZHNE7QPe+4mLTRewQsVJAsKG0S53p51Frr8/RBRJvlAnA==";
+        };
+        _yJaqpR9F = {
+            "id" = "yJaqpR9F";
+            "file" = "SodiumTranslations.zip";
+            "hash" = "sha512-8YZRb1Ss+9xZwazpmTOjpikl9KDZ8nNWheK5rxl63RjdQDxXw6d8sGO41PrMACV89YZ+FzcpEBfvm9vUg2xSEw==";
+        };
     in {
         "qS9Lv7vO" = _qS9Lv7vO;
         "AT4kckgH" = _AT4kckgH;
@@ -1010,6 +1035,11 @@ let
         "aWUQvPXo" = _aWUQvPXo;
         "r7AZ0jmT" = _r7AZ0jmT;
         "11MKV3hD" = _11MKV3hD;
+        "3NpjygNs" = _3NpjygNs;
+        "PlfwCjn2" = _PlfwCjn2;
+        "9svKlAHI" = _9svKlAHI;
+        "bgGjmwGk" = _bgGjmwGk;
+        "yJaqpR9F" = _yJaqpR9F;
         "minecraft-1.17.1" = _AT4kckgH;
         "minecraft-1.18" = _AT4kckgH;
         "minecraft-1.18.1" = _AT4kckgH;
@@ -1019,29 +1049,29 @@ let
         "minecraft-1.19.2" = _AT4kckgH;
         "minecraft-1.19.3" = _AT4kckgH;
         "minecraft-1.19.4" = _AT4kckgH;
-        "minecraft-1.20" = _11MKV3hD;
-        "minecraft-1.20.1" = _11MKV3hD;
-        "minecraft-1.20.2" = _11MKV3hD;
-        "minecraft-1.20.3" = _11MKV3hD;
-        "minecraft-1.20.4" = _11MKV3hD;
-        "minecraft-1.20.5" = _11MKV3hD;
-        "minecraft-1.20.6" = _11MKV3hD;
-        "minecraft-1.21" = _11MKV3hD;
-        "minecraft-1.21.1" = _11MKV3hD;
-        "minecraft-1.21.2" = _11MKV3hD;
-        "minecraft-1.21.3" = _11MKV3hD;
-        "minecraft-1.21.4" = _11MKV3hD;
-        "minecraft-1.21.5" = _11MKV3hD;
-        "minecraft-1.21.6" = _11MKV3hD;
-        "minecraft-1.21.7" = _11MKV3hD;
-        "minecraft-1.21.8" = _11MKV3hD;
-        "minecraft-1.21.9" = _11MKV3hD;
-        "minecraft-1.21.10" = _11MKV3hD;
-        "minecraft-1.21.11" = _11MKV3hD;
-        "minecraft-26.1" = _11MKV3hD;
-        "minecraft-26.1.1" = _11MKV3hD;
-        "minecraft-26.1.2" = _11MKV3hD;
-        "minecraft-26.2" = _11MKV3hD;
+        "minecraft-1.20" = _yJaqpR9F;
+        "minecraft-1.20.1" = _yJaqpR9F;
+        "minecraft-1.20.2" = _yJaqpR9F;
+        "minecraft-1.20.3" = _yJaqpR9F;
+        "minecraft-1.20.4" = _yJaqpR9F;
+        "minecraft-1.20.5" = _yJaqpR9F;
+        "minecraft-1.20.6" = _yJaqpR9F;
+        "minecraft-1.21" = _yJaqpR9F;
+        "minecraft-1.21.1" = _yJaqpR9F;
+        "minecraft-1.21.2" = _yJaqpR9F;
+        "minecraft-1.21.3" = _yJaqpR9F;
+        "minecraft-1.21.4" = _yJaqpR9F;
+        "minecraft-1.21.5" = _yJaqpR9F;
+        "minecraft-1.21.6" = _yJaqpR9F;
+        "minecraft-1.21.7" = _yJaqpR9F;
+        "minecraft-1.21.8" = _yJaqpR9F;
+        "minecraft-1.21.9" = _yJaqpR9F;
+        "minecraft-1.21.10" = _yJaqpR9F;
+        "minecraft-1.21.11" = _yJaqpR9F;
+        "minecraft-26.1" = _yJaqpR9F;
+        "minecraft-26.1.1" = _yJaqpR9F;
+        "minecraft-26.1.2" = _yJaqpR9F;
+        "minecraft-26.2" = _yJaqpR9F;
         "pkg-v1.10.0" = _qS9Lv7vO;
         "pkg-v1.11.0" = _AT4kckgH;
         "pkg-v2.0.0" = _hsgHZ6wQ;
@@ -1208,7 +1238,12 @@ let
         "pkg-v8.6.0" = _aWUQvPXo;
         "pkg-v8.7.0" = _r7AZ0jmT;
         "pkg-v8.8.0" = _11MKV3hD;
-        "default" = _11MKV3hD;
+        "pkg-v8.9.0" = _3NpjygNs;
+        "pkg-v8.10.0" = _PlfwCjn2;
+        "pkg-v8.11.0" = _9svKlAHI;
+        "pkg-v8.12.0" = _bgGjmwGk;
+        "pkg-v8.13.0" = _yJaqpR9F;
+        "default" = _yJaqpR9F;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "translations-for-sodium";

@@ -26,20 +26,34 @@ let
             "file" = "createterminal-1.21.1-1.0.2.jar";
             "hash" = "sha512-U1rXYEpdRHB2UQrbnCQBLjJ5tCROkPsyzhrdg4syU5gQ95RzHaWxR8FCJuIE1L3F3GCm8aVbLmwFjc76hn7X4A==";
         };
+        _irAdfthb = {
+            "id" = "irAdfthb";
+            "file" = "createterminal-1.20.1-1.0.4.jar";
+            "hash" = "sha512-mzumSfPpe0XCPzehY74eJemAAKTJc1nyATlL5b06E3jE+aRH/eeL9GL5jZoGgFE2HSPgri3SJ8MfCkRZMtHZbw==";
+        };
+        _oFnfsNlI = {
+            "id" = "oFnfsNlI";
+            "file" = "createterminal-1.21.1-1.0.4.jar";
+            "hash" = "sha512-0tCcK+arTDE/pkuI2BfUO35MO7BF4xDb2InjvbHrl6CaAGivFuX3gHSnTwiOka5fNErpwyVJeNX5pP9wYbASqw==";
+        };
     in {
         "ZfDbehjG" = _ZfDbehjG;
         "6AI9WEX8" = _6AI9WEX8;
         "v04y9dxS" = _v04y9dxS;
         "Wt8UEZ7q" = _Wt8UEZ7q;
         "H4wNS4NT" = _H4wNS4NT;
-        "forge-1.20.1" = _Wt8UEZ7q;
-        "neoforge-1.21.1" = _H4wNS4NT;
+        "irAdfthb" = _irAdfthb;
+        "oFnfsNlI" = _oFnfsNlI;
+        "forge-1.20.1" = _irAdfthb;
+        "neoforge-1.21.1" = _oFnfsNlI;
         "pkg-1.0.0-1.20.1" = _ZfDbehjG;
         "pkg-1.0.1-1.20.1" = _6AI9WEX8;
         "pkg-1.0.2-1.20.1" = _v04y9dxS;
         "pkg-1.20.1-1.0.3" = _Wt8UEZ7q;
         "pkg-1.21.1-1.0.2" = _H4wNS4NT;
-        "default" = _H4wNS4NT;
+        "pkg-1.20.1-1.0.4" = _irAdfthb;
+        "pkg-1.21.1-1.0.4" = _oFnfsNlI;
+        "default" = _oFnfsNlI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-remote-terminal";

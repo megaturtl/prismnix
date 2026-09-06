@@ -216,6 +216,26 @@ let
             "file" = "tretackshop-4.6.5--1.20.1-Normal-Build.jar";
             "hash" = "sha512-jyIf4YI1g8lcP3l2tI4Le7LyU78iPuu9YyHLsc4pil+kWTkpQ49VbIBmnNn91cb0+pO6AplWvQGAG5cf/5Q3Rg==";
         };
+        _pK0HhBsL = {
+            "id" = "pK0HhBsL";
+            "file" = "tretackshop-4.6.5--1.21.1-BETA-Normal-Build.jar";
+            "hash" = "sha512-+sVUNOkOWkAwZ88BozUJNntaTPqUiKagZKIKaEyAA42nfMqvgehRa14lXKsPzQO6xXN36OFLmI3afHcJtCSiIQ==";
+        };
+        _WM5TqeTe = {
+            "id" = "WM5TqeTe";
+            "file" = "tretackshop-5.0.0--1.20.1.jar";
+            "hash" = "sha512-fTZoL1jb2hc6Fpdi+A2GEDK3Wwd7EZVr3JWKzQOC8tWitJFFTkrhm45hwIN2iaEQtwjIvUC95B7JWu+Rvx89oQ==";
+        };
+        _eAbdIvhL = {
+            "id" = "eAbdIvhL";
+            "file" = "tretackshop-5.0.1--1.20.1.jar";
+            "hash" = "sha512-ScuPE0x92+UHbNhdOIOaeKWDpyDtFgWx1OoemmyjPLjMPmHohdqE9Fmi1DD2qLbFrWlDcq2rOVwNKZzjMj049w==";
+        };
+        _dNqhi1ks = {
+            "id" = "dNqhi1ks";
+            "file" = "tretackshop-5.0.2--1.20.1.jar";
+            "hash" = "sha512-CPj/vtfg00/tNYZNghce201VAxS/vXxnOiI4/1Bi+E3M3kag6jd7KVSvJJkKMKiHvliIUr4BSQBCLBd95KS4cQ==";
+        };
     in {
         "hG1IvE9c" = _hG1IvE9c;
         "4pu8Vd0N" = _4pu8Vd0N;
@@ -260,12 +280,22 @@ let
         "5NrNe1Nx" = _5NrNe1Nx;
         "IdwDi8V1" = _IdwDi8V1;
         "CLfnKDj1" = _CLfnKDj1;
+        "pK0HhBsL" = _pK0HhBsL;
+        "WM5TqeTe" = _WM5TqeTe;
+        "eAbdIvhL" = _eAbdIvhL;
+        "dNqhi1ks" = _dNqhi1ks;
         "forge-1.18.2" = _L6qh4Vj6;
-        "forge-1.20.1" = _CLfnKDj1;
+        "forge-1.20.1" = _dNqhi1ks;
         "forge-1.16.5" = _41NxTAHO;
         "forge-1.18" = _L6qh4Vj6;
         "forge-1.18.1" = _L6qh4Vj6;
+        "forge-1.20.2" = _WM5TqeTe;
+        "forge-1.20.3" = _WM5TqeTe;
+        "forge-1.20.4" = _WM5TqeTe;
+        "forge-1.20.5" = _WM5TqeTe;
+        "forge-1.20.6" = _WM5TqeTe;
         "neoforge-1.20.1" = _IdwDi8V1;
+        "neoforge-1.21.1" = _pK0HhBsL;
         "pkg-0.3.3-BETA" = _hG1IvE9c;
         "pkg-1.0.0--1.18.2" = _4pu8Vd0N;
         "pkg-0.3.0--1.20.1--BETA" = _UoXLgjQe;
@@ -308,7 +338,11 @@ let
         "pkg-4.6.3--1.20.1--NO-TACK-BUILD" = _5NrNe1Nx;
         "pkg-4.6.4--1.20.1-Normal-Build" = _IdwDi8V1;
         "pkg-4.6.5--1.20.1-Normal-Build" = _CLfnKDj1;
-        "default" = _CLfnKDj1;
+        "pkg-4.6.5--1.21.1-BETA" = _pK0HhBsL;
+        "pkg-5.0.0--1.20.1-Normal-Build" = _WM5TqeTe;
+        "pkg-5.0.1--1.20.1-Normal-Build" = _eAbdIvhL;
+        "pkg-5.0.2--1.20.1-Normal-Build" = _dNqhi1ks;
+        "default" = _dNqhi1ks;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tres-tack-shop";

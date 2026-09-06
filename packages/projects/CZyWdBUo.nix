@@ -11,13 +11,20 @@ let
             "file" = "gbf-1.0.2.jar";
             "hash" = "sha512-whG5Dv8ckWQ+zdGvneMvAfTQ4nKjG3kf1U4Yaebco10BlQKhayOUq0D6VUYj7fKgdjHkclUj/NeHuR4jyvu4ag==";
         };
+        _cqGqtGak = {
+            "id" = "cqGqtGak";
+            "file" = "gbf-1.21.1-1.0.2.jar";
+            "hash" = "sha512-uAzl/HoEMIiEuek9GEx3rf4fF3WTzmsIjr9VrqD/BbEvE9iKAeyHkVhONRVb++ghLtEGI+0codLsjWj3WwdOLQ==";
+        };
     in {
         "jDFobCZf" = _jDFobCZf;
         "tlhG5poa" = _tlhG5poa;
+        "cqGqtGak" = _cqGqtGak;
         "forge-1.20.1" = _tlhG5poa;
+        "neoforge-1.21.1" = _cqGqtGak;
         "pkg-1.0.1" = _jDFobCZf;
-        "pkg-1.0.2" = _tlhG5poa;
-        "default" = _tlhG5poa;
+        "pkg-1.0.2" = _cqGqtGak;
+        "default" = _cqGqtGak;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "geckolibbetterfps";

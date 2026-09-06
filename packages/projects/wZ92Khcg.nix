@@ -111,6 +111,11 @@ let
             "file" = "lotr-1.16-extended-beta-1.10.2.jar";
             "hash" = "sha512-JDDFB5W2YbKF8gp/azHWvBiqfrTAcryHLjft75s7zOeLVBX5slo6DQkGG/gVxr5WeC2diWk2NWIClCunF3Hr0Q==";
         };
+        _dxh3Ghc4 = {
+            "id" = "dxh3Ghc4";
+            "file" = "lotr-1.16-extended-beta-1.10.3.jar";
+            "hash" = "sha512-NSjYN35zwvGB+plJFEy4UhnXGf5leaw7z1/wJ5CDKaBKfdScB6Z4z2tgeW2N6QTRGNJ6HOhMgwtYRspTdWeEew==";
+        };
     in {
         "hGZ09dgw" = _hGZ09dgw;
         "miOR1qnK" = _miOR1qnK;
@@ -134,7 +139,8 @@ let
         "pktCGzSs" = _pktCGzSs;
         "LUwCSYAv" = _LUwCSYAv;
         "6icdBdt3" = _6icdBdt3;
-        "forge-1.16.5" = _6icdBdt3;
+        "dxh3Ghc4" = _dxh3Ghc4;
+        "forge-1.16.5" = _dxh3Ghc4;
         "pkg-1.5.0" = _hGZ09dgw;
         "pkg-1.5.1" = _miOR1qnK;
         "pkg-1.5.2" = _NTZVRvjk;
@@ -156,7 +162,8 @@ let
         "pkg-1.10.0" = _pktCGzSs;
         "pkg-1.10.1" = _LUwCSYAv;
         "pkg-1.10.2" = _6icdBdt3;
-        "default" = _6icdBdt3;
+        "pkg-1.10.3" = _dxh3Ghc4;
+        "default" = _dxh3Ghc4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lotr-renewed-extended";

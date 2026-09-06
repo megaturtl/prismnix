@@ -61,6 +61,11 @@ let
             "file" = "bedrockflavor-10.0.0.zip";
             "hash" = "sha512-YqoNYDfL0BlQE2VZzQu7stMFno+lDArDJ+eE+KXkYVJ1RS4EzFUb3KrTk95fgs5QkRpL/phVrysWkFwmtKKEbA==";
         };
+        _id9wCxkG = {
+            "id" = "id9wCxkG";
+            "file" = "bedrockflavor-11.0.0.zip";
+            "hash" = "sha512-scPuVY5DtLoHI1uyBTjJpuopFYo8KZrsXv0scZth19UEOEm+4+iDO8zZ4YXImgNekF/jaKRF/S3eW5iUnB43jA==";
+        };
     in {
         "Xz5VRKW0" = _Xz5VRKW0;
         "z5D6hxnV" = _z5D6hxnV;
@@ -74,18 +79,19 @@ let
         "9Lw9e4Tm" = _9Lw9e4Tm;
         "W3z5upDP" = _W3z5upDP;
         "tB1dlfHD" = _tB1dlfHD;
-        "minecraft-1.21.4" = _tB1dlfHD;
-        "minecraft-1.21.5" = _tB1dlfHD;
-        "minecraft-1.21.6" = _tB1dlfHD;
-        "minecraft-1.21.7" = _tB1dlfHD;
-        "minecraft-1.21.8" = _tB1dlfHD;
-        "minecraft-1.21.9" = _tB1dlfHD;
-        "minecraft-1.21.10" = _tB1dlfHD;
-        "minecraft-1.21.11" = _tB1dlfHD;
-        "minecraft-26.1" = _tB1dlfHD;
-        "minecraft-26.1.1" = _tB1dlfHD;
-        "minecraft-26.1.2" = _tB1dlfHD;
-        "minecraft-26.2" = _tB1dlfHD;
+        "id9wCxkG" = _id9wCxkG;
+        "minecraft-1.21.4" = _id9wCxkG;
+        "minecraft-1.21.5" = _id9wCxkG;
+        "minecraft-1.21.6" = _id9wCxkG;
+        "minecraft-1.21.7" = _id9wCxkG;
+        "minecraft-1.21.8" = _id9wCxkG;
+        "minecraft-1.21.9" = _id9wCxkG;
+        "minecraft-1.21.10" = _id9wCxkG;
+        "minecraft-1.21.11" = _id9wCxkG;
+        "minecraft-26.1" = _id9wCxkG;
+        "minecraft-26.1.1" = _id9wCxkG;
+        "minecraft-26.1.2" = _id9wCxkG;
+        "minecraft-26.2" = _id9wCxkG;
         "pkg-0.0.1" = _Xz5VRKW0;
         "pkg-1.0.0" = _z5D6hxnV;
         "pkg-2.0.0" = _vAA4zBy5;
@@ -98,10 +104,11 @@ let
         "pkg-9.0.0" = _9Lw9e4Tm;
         "pkg-9.1.0" = _W3z5upDP;
         "pkg-10.0.0" = _tB1dlfHD;
-        "default" = _tB1dlfHD;
+        "pkg-11.0.0" = _id9wCxkG;
+        "default" = _id9wCxkG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
-        name = "bedrockflavor";
+        name = "bedrock-flavor";
         id = "fSMYD0L5";
         type = "resourcepack";
         versions = versions;

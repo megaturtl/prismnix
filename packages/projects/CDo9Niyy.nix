@@ -46,6 +46,11 @@ let
             "file" = "NotSoEssential-Forge-1.0.9.jar";
             "hash" = "sha512-MzboB4wNoxUBjI0fib2CHmJUHQzgTnc4YQnyo12cMGutOhDG08id5f6fFuRFcogJ42Jv+pNomcO7hPAY3cq9pA==";
         };
+        _K7W6OIOH = {
+            "id" = "K7W6OIOH";
+            "file" = "NotSoEssential-Forge-1.1.0.jar";
+            "hash" = "sha512-+1IhBL5g3krQFlPmzxRRAuXZSjfr9Rr2ixf93kXFPmhgtnoK9MJ+LpzW5jX6yQRo26C5GfD7z/g3c1LZtUoIVA==";
+        };
     in {
         "UiZfIeQl" = _UiZfIeQl;
         "t9nKxXNr" = _t9nKxXNr;
@@ -56,8 +61,9 @@ let
         "60vwX0yI" = _60vwX0yI;
         "l1JDKmdc" = _l1JDKmdc;
         "8sXBFdED" = _8sXBFdED;
-        "forge-1.8.9" = _8sXBFdED;
-        "forge-1.12.2" = _8sXBFdED;
+        "K7W6OIOH" = _K7W6OIOH;
+        "forge-1.8.9" = _K7W6OIOH;
+        "forge-1.12.2" = _K7W6OIOH;
         "fabric-1.16.5" = _l1JDKmdc;
         "fabric-1.17" = _l1JDKmdc;
         "fabric-1.17.1" = _l1JDKmdc;
@@ -100,7 +106,8 @@ let
         "pkg-1.0.7" = _kjk0Qt3y;
         "pkg-1.0.8" = _l1JDKmdc;
         "pkg-1.0.9" = _8sXBFdED;
-        "default" = _8sXBFdED;
+        "pkg-1.1.0" = _K7W6OIOH;
+        "default" = _K7W6OIOH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "notsoessential";

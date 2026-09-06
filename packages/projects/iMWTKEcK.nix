@@ -56,6 +56,11 @@ let
             "file" = "stormborn_tomb-1.3.5 fabric.jar";
             "hash" = "sha512-MBr3nDv04sxfiA7zkas3HdLw4zKOs2pnueDPNNCKYHLGUjcGx1s6UO/nhmcjCneRZ3jLaU2gikrGXORtw1pmLQ==";
         };
+        _oHnQxKmq = {
+            "id" = "oHnQxKmq";
+            "file" = "stormborn_tomb-1.3.5 forge.jar";
+            "hash" = "sha512-ztOlCbceYV9JNrAfBOgfoN1b59LC0IgPx58p7sG3hQ//PKPTvA2iE87aTt+FdxnuLskFsMd7xHeve0Zi+fWWCg==";
+        };
     in {
         "sjJqXqIb" = _sjJqXqIb;
         "vkoJ4Yn1" = _vkoJ4Yn1;
@@ -68,19 +73,20 @@ let
         "g4D4kjoJ" = _g4D4kjoJ;
         "wKVVWlrU" = _wKVVWlrU;
         "X0uoBHac" = _X0uoBHac;
-        "forge-1.20.1" = _wKVVWlrU;
+        "oHnQxKmq" = _oHnQxKmq;
+        "forge-1.20.1" = _oHnQxKmq;
         "fabric-1.20.1" = _X0uoBHac;
         "fabric-1.21.1" = _uCvn8hyN;
         "neoforge-1.21.1" = _uCvn8hyN;
-        "neoforge-1.20.1" = _wKVVWlrU;
+        "neoforge-1.20.1" = _oHnQxKmq;
         "pkg-1.0.0" = _vkoJ4Yn1;
         "pkg-1.1.0" = _wvoBQZVc;
         "pkg-1.1.2" = _v9oYOUbW;
         "pkg-1.1.3" = _uCvn8hyN;
         "pkg-1.2.0" = _g4D4kjoJ;
         "pkg-1.3.0" = _wKVVWlrU;
-        "pkg-1.3.5" = _X0uoBHac;
-        "default" = _X0uoBHac;
+        "pkg-1.3.5" = _oHnQxKmq;
+        "default" = _oHnQxKmq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dungeon-conquest-stormborn-tomb";

@@ -71,6 +71,11 @@ let
             "file" = "orc_hut-1.0.3-neoforge-1.21.8.jar";
             "hash" = "sha512-51C61YjS9NYG4YqVXbrJsQowwI6K6AdO7wO5V4w5Y/Wc5GiksyaJpWXiqcLLCgUBKesgY2+iGc8pg+Nj0NGQmQ==";
         };
+        _UoBAe5XR = {
+            "id" = "UoBAe5XR";
+            "file" = "orc_hut-1.0.3-neoforge-26.1.2.jar";
+            "hash" = "sha512-rw7/Vy0azMnrghgtNyhCEPyD/dZBya4OL1Wv49+jk6NKCKImCoL5OcRm+4ol6ypWxgm+cvRV3j2jU102ExCmng==";
+        };
     in {
         "l0IytnZK" = _l0IytnZK;
         "PJnxoXbB" = _PJnxoXbB;
@@ -86,6 +91,7 @@ let
         "zorYNCdV" = _zorYNCdV;
         "2zgq3eO7" = _2zgq3eO7;
         "IFTCrgDz" = _IFTCrgDz;
+        "UoBAe5XR" = _UoBAe5XR;
         "forge-1.19.2" = _3BGc4AKb;
         "forge-1.19.4" = _VpsLNA4n;
         "forge-1.20.1" = _oqrLekJW;
@@ -94,12 +100,13 @@ let
         "neoforge-1.21.1" = _wnjCyZzO;
         "neoforge-1.21.4" = _zorYNCdV;
         "neoforge-1.21.8" = _IFTCrgDz;
+        "neoforge-26.1.2" = _UoBAe5XR;
         "fabric-1.21.8" = _2zgq3eO7;
         "pkg-1.0.0" = _ErEDYFfH;
         "pkg-1.0.2" = _8Q0qK0f0;
-        "pkg-1.0.3" = _IFTCrgDz;
+        "pkg-1.0.3" = _UoBAe5XR;
         "pkg-1.0.4" = _2zgq3eO7;
-        "default" = _IFTCrgDz;
+        "default" = _UoBAe5XR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "orc-hut";

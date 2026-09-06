@@ -961,6 +961,11 @@ let
             "file" = "modmenu-21.0.0-alpha.1.jar";
             "hash" = "sha512-c7ytYQnY+mIL7XBq0yo5uMCtObNt1YV0AH/23kpMMmtHcR4Uvd2sEwbcxzDIHlB9fSVBfDkFY1kodMZ3AqrvBA==";
         };
+        _leKKCpqK = {
+            "id" = "leKKCpqK";
+            "file" = "modmenu-1.7.18.jar";
+            "hash" = "sha512-aFO22pRacTwH3ZSj+IhdVS8c5474T5jZvqgXV0dq+OlcBVGCf/vsLCCoVgpy6Jz0ApXpWb9zUXUEwHuqoix7qw==";
+        };
     in {
         "M3KFXLhq" = _M3KFXLhq;
         "DgzrfgAZ" = _DgzrfgAZ;
@@ -1154,6 +1159,7 @@ let
         "j2vTurvl" = _j2vTurvl;
         "njXb639R" = _njXb639R;
         "9DznhFoj" = _9DznhFoj;
+        "leKKCpqK" = _leKKCpqK;
         "fabric-1.16.5" = _aShj7736;
         "fabric-1.16.4" = _DgzrfgAZ;
         "fabric-1.15.2" = _3umfHb6R;
@@ -1194,7 +1200,7 @@ let
         "fabric-1.19.1-pre2" = _ybXxCvz4;
         "fabric-1.19.1" = _2Ys0a7JE;
         "fabric-1.19.2" = _gSoPJyVn;
-        "fabric-1.14.4" = _kQDE01D3;
+        "fabric-1.14.4" = _leKKCpqK;
         "fabric-22w43a" = _7mdkE3Od;
         "fabric-1.19.3" = _id0aLmxO;
         "fabric-23w03a" = _yA8g3pEj;
@@ -1664,7 +1670,8 @@ let
         "pkg-17.0.1-beta.1" = _j2vTurvl;
         "pkg-20.0.1" = _njXb639R;
         "pkg-21.0.0-alpha.1" = _9DznhFoj;
-        "default" = _9DznhFoj;
+        "pkg-1.7.18" = _leKKCpqK;
+        "default" = _leKKCpqK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modmenu";

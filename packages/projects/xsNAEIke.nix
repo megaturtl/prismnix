@@ -351,6 +351,86 @@ let
             "file" = "woodenbucket-neoforge-26.2-5.1.0.0.jar";
             "hash" = "sha512-tyaFUMif/P20E1Y3Xr1kjzS5Jwy1Hxndr/Sn2lid+JRmvO71l44/GJiSuNFX/upEh3PElH8gzi8JnW9Sn6aUlg==";
         };
+        _HNFVXz38 = {
+            "id" = "HNFVXz38";
+            "file" = "woodenbucket-neoforge-26.2-5.1.1.0.jar";
+            "hash" = "sha512-OaxiNauB895Goe41MJcp1x54Ialh10l0HJeRrXg3kC0qe8jIcDXt2l4jt0vwWuETtq56zo0PYjVJBUtnwfykZA==";
+        };
+        _AWWwhZpd = {
+            "id" = "AWWwhZpd";
+            "file" = "woodenbucket-fabric-26.2-5.1.1.0.jar";
+            "hash" = "sha512-Bkr4AzF4KrpCStYLXjiPsKH2uDGfWm2CmDEIKdZHE1BO+b5R2VorfS82w9+7pHipD2sjfBBHvrx1VYY5yj8ZNA==";
+        };
+        _5f03M1Mw = {
+            "id" = "5f03M1Mw";
+            "file" = "woodenbucket-fabric-1.21-4.1.4.0.jar";
+            "hash" = "sha512-4p/7Bed4WrS1e6tyA9TRRMqTngzYMiTkwGgDJ9VSLlznWXydrn1wiHIzHqbhdawD0H++LhkBboCXMFh5xJxtYg==";
+        };
+        _FGy662kS = {
+            "id" = "FGy662kS";
+            "file" = "woodenbucket-neoforge-1.21-4.1.4.0.jar";
+            "hash" = "sha512-bX/5w+s3sXl022jGAVteqEVmAi6977wUC8So0alk2mzWaKCUJbzUiEGITb8bis4+Gs2xBokumXMp5LlEL8ha6A==";
+        };
+        _yJyTFFSh = {
+            "id" = "yJyTFFSh";
+            "file" = "woodenbucket-neoforge-1.21.4-4.3.2.0.jar";
+            "hash" = "sha512-njAU8AnafA8AEIiScCCAcMB50mnvjy7uc3yU/QHgLvczYLpGhutU/KglHoQFPf+pmByz+GSDodNyRzRkIX3WAg==";
+        };
+        _22DLEqlz = {
+            "id" = "22DLEqlz";
+            "file" = "woodenbucket-neoforge-1.21.3-4.2.3.0.jar";
+            "hash" = "sha512-SYMT09xsE0UJfev8uYiMJv25bdU5w4z1QKHOxNYVG9Wi73wDE5EOWYNbL5h4+M3PysmqSYlZOM9zSbQcxo7iZw==";
+        };
+        _glCuwFK5 = {
+            "id" = "glCuwFK5";
+            "file" = "woodenbucket-fabric-1.21.4-4.3.2.0.jar";
+            "hash" = "sha512-CMADoySW9IlsHqyKFmmQxVdDklByfFzhYcgax81eFnSOsS+1by3WD72DFzSiXpCfmsaUYOrZGStB/+dXUDoyUg==";
+        };
+        _VUh2UOU1 = {
+            "id" = "VUh2UOU1";
+            "file" = "woodenbucket-fabric-1.21.3-4.2.3.0.jar";
+            "hash" = "sha512-UPHH0X/ugXwUHqtkDcr4IxUoqTJJYy50lsOQgI8FZ8p8K0hUxDHpKEnBmyEwyhawvo33QdnOL4pU9ZYHL6abtg==";
+        };
+        _XXfilQ5J = {
+            "id" = "XXfilQ5J";
+            "file" = "woodenbucket-neoforge-1.21.4-4.3.2.0.jar";
+            "hash" = "sha512-z8yVobdb7/63F518pJNj668NxKGipjaF2X/T/4v8iAq+HQowpqy6gH3CNwLcTDvb3d0zozNAeJtq2r5yUFBUHQ==";
+        };
+        _DwY7N5EU = {
+            "id" = "DwY7N5EU";
+            "file" = "woodenbucket-fabric-1.21.4-4.3.2.0.jar";
+            "hash" = "sha512-20LQXu2kxCrrrk7lWg0bKyTpr7ndzlJAPyktbmwtSwJfbsTmySIhhiuwl4Tx9W7xSMnP1YtueTjH+cd7+O6bdg==";
+        };
+        _G1C49YKP = {
+            "id" = "G1C49YKP";
+            "file" = "woodenbucket-neoforge-1.21.5-4.4.2.0.jar";
+            "hash" = "sha512-YpEj+lxeYW3YHvKrJhYdjfJeLoDqTCLQIqOnncv+Qu7VCcQAd8QqW4KCyriirNuk3Y2ceX4cV1fZ7rk109nIXw==";
+        };
+        _tCkei9GL = {
+            "id" = "tCkei9GL";
+            "file" = "woodenbucket-fabric-1.21.5-4.4.2.0.jar";
+            "hash" = "sha512-k9FXiXHsq9mgW3jafGmMAbluUr4mrlXlDbaXsuLMkPlhZDnJTW36e/rvn9T5OimHAtWgI5rLwH90n4Y/t3ESWw==";
+        };
+        _V8d1HIRA = {
+            "id" = "V8d1HIRA";
+            "file" = "woodenbucket-neoforge-1.21.7-4.5.2.0.jar";
+            "hash" = "sha512-55hxFweJyKrPCbKsaplscmog8BAr4IUfL6OO4W+O3ieqsGijtCVAcopgyGLtDlQnXFW3MtWkey9lSgCWR9b47w==";
+        };
+        _1eI0VTLt = {
+            "id" = "1eI0VTLt";
+            "file" = "woodenbucket-fabric-1.21.7-4.5.2.0.jar";
+            "hash" = "sha512-U3g7RwRErugGmW8pO9BkSaaWmiguWUPqGZD7TGkfahDMSguqQtwTlV762lNt3BXNU9Lk5Bisiw9t7azWytj7RQ==";
+        };
+        _XK9o1tkT = {
+            "id" = "XK9o1tkT";
+            "file" = "woodenbucket-neoforge-1.21.9-4.6.2.0.jar";
+            "hash" = "sha512-U82Hl3KOvZ5/6+XKTn3caaCzI8zR9Qkf2Kys6NC7em1uBBsCoQy+e7yRujWtXIuQRvA1hf76Un4XrYC9q23p5Q==";
+        };
+        _JtmzbVmP = {
+            "id" = "JtmzbVmP";
+            "file" = "woodenbucket-fabric-1.21.9-4.6.2.0.jar";
+            "hash" = "sha512-Hc8Z/i8WVrhKONQHJf7mRPjazcLsmC7PIa8PxIDaRZ18y4kyytV878dTuSzVTKT8Ejbn9CG7tDOg54if7JMMBg==";
+        };
     in {
         "eRl01kdJ" = _eRl01kdJ;
         "AXr9vEk8" = _AXr9vEk8;
@@ -422,6 +502,22 @@ let
         "SftUVaxY" = _SftUVaxY;
         "wMVxTHv6" = _wMVxTHv6;
         "SxYCVTom" = _SxYCVTom;
+        "HNFVXz38" = _HNFVXz38;
+        "AWWwhZpd" = _AWWwhZpd;
+        "5f03M1Mw" = _5f03M1Mw;
+        "FGy662kS" = _FGy662kS;
+        "yJyTFFSh" = _yJyTFFSh;
+        "22DLEqlz" = _22DLEqlz;
+        "glCuwFK5" = _glCuwFK5;
+        "VUh2UOU1" = _VUh2UOU1;
+        "XXfilQ5J" = _XXfilQ5J;
+        "DwY7N5EU" = _DwY7N5EU;
+        "G1C49YKP" = _G1C49YKP;
+        "tCkei9GL" = _tCkei9GL;
+        "V8d1HIRA" = _V8d1HIRA;
+        "1eI0VTLt" = _1eI0VTLt;
+        "XK9o1tkT" = _XK9o1tkT;
+        "JtmzbVmP" = _JtmzbVmP;
         "forge-1.18.2" = _eRl01kdJ;
         "forge-1.19" = _AXr9vEk8;
         "forge-1.19.1" = _AXr9vEk8;
@@ -435,52 +531,52 @@ let
         "neoforge-1.20.2" = _Me9gKc2L;
         "neoforge-1.20.4" = _WAnIYbUq;
         "neoforge-1.20.6" = _DUKkaqV4;
-        "neoforge-1.21" = _6BSr1KXk;
-        "neoforge-1.21.1" = _6BSr1KXk;
-        "neoforge-1.21.3" = _SftUVaxY;
-        "neoforge-1.21.4" = _nt5SA0rc;
-        "neoforge-1.21.5" = _ee4H2bSD;
-        "neoforge-1.21.7" = _RdYZvv2h;
-        "neoforge-1.21.8" = _RdYZvv2h;
-        "neoforge-1.21.9" = _6Aa2P70v;
-        "neoforge-1.21.10" = _6Aa2P70v;
+        "neoforge-1.21" = _FGy662kS;
+        "neoforge-1.21.1" = _FGy662kS;
+        "neoforge-1.21.3" = _22DLEqlz;
+        "neoforge-1.21.4" = _XXfilQ5J;
+        "neoforge-1.21.5" = _G1C49YKP;
+        "neoforge-1.21.7" = _V8d1HIRA;
+        "neoforge-1.21.8" = _V8d1HIRA;
+        "neoforge-1.21.9" = _XK9o1tkT;
+        "neoforge-1.21.10" = _XK9o1tkT;
         "neoforge-1.21.11" = _aKjbxT9L;
         "neoforge-26.1" = _xvjfApWT;
         "neoforge-26.1.1" = _xvjfApWT;
         "neoforge-26.1.2" = _xvjfApWT;
-        "neoforge-26.2" = _SxYCVTom;
+        "neoforge-26.2" = _HNFVXz38;
         "fabric-1.20.4" = _S79mISRc;
         "fabric-1.20.6" = _2Zhdd4aY;
-        "fabric-1.21" = _dmZYAXe3;
-        "fabric-1.21.1" = _dmZYAXe3;
-        "fabric-1.21.3" = _pZ170H4s;
-        "fabric-1.21.4" = _zO6rOHzu;
-        "fabric-1.21.5" = _GNyUppkg;
-        "fabric-1.21.7" = _SDxwTZbz;
-        "fabric-1.21.8" = _SDxwTZbz;
-        "fabric-1.21.9" = _pWv3wkpV;
-        "fabric-1.21.10" = _pWv3wkpV;
+        "fabric-1.21" = _5f03M1Mw;
+        "fabric-1.21.1" = _5f03M1Mw;
+        "fabric-1.21.3" = _VUh2UOU1;
+        "fabric-1.21.4" = _DwY7N5EU;
+        "fabric-1.21.5" = _tCkei9GL;
+        "fabric-1.21.7" = _1eI0VTLt;
+        "fabric-1.21.8" = _1eI0VTLt;
+        "fabric-1.21.9" = _JtmzbVmP;
+        "fabric-1.21.10" = _JtmzbVmP;
         "fabric-1.21.11" = _rMfmcefE;
         "fabric-26.1" = _Krxy3Swi;
         "fabric-26.1.1" = _Krxy3Swi;
         "fabric-26.1.2" = _Krxy3Swi;
-        "fabric-26.2" = _wMVxTHv6;
+        "fabric-26.2" = _AWWwhZpd;
         "quilt-1.20.4" = _S79mISRc;
         "quilt-1.20.6" = _2Zhdd4aY;
-        "quilt-1.21" = _dmZYAXe3;
-        "quilt-1.21.1" = _dmZYAXe3;
-        "quilt-1.21.3" = _pZ170H4s;
-        "quilt-1.21.4" = _zO6rOHzu;
-        "quilt-1.21.5" = _GNyUppkg;
-        "quilt-1.21.7" = _SDxwTZbz;
-        "quilt-1.21.8" = _SDxwTZbz;
-        "quilt-1.21.9" = _pWv3wkpV;
-        "quilt-1.21.10" = _pWv3wkpV;
+        "quilt-1.21" = _5f03M1Mw;
+        "quilt-1.21.1" = _5f03M1Mw;
+        "quilt-1.21.3" = _VUh2UOU1;
+        "quilt-1.21.4" = _DwY7N5EU;
+        "quilt-1.21.5" = _tCkei9GL;
+        "quilt-1.21.7" = _1eI0VTLt;
+        "quilt-1.21.8" = _1eI0VTLt;
+        "quilt-1.21.9" = _JtmzbVmP;
+        "quilt-1.21.10" = _JtmzbVmP;
         "quilt-1.21.11" = _rMfmcefE;
         "quilt-26.1" = _Krxy3Swi;
         "quilt-26.1.1" = _Krxy3Swi;
         "quilt-26.1.2" = _Krxy3Swi;
-        "quilt-26.2" = _wMVxTHv6;
+        "quilt-26.2" = _AWWwhZpd;
         "pkg-1.18.2-1.0.2.1" = _eRl01kdJ;
         "pkg-1.19-1.1.0.0" = _AXr9vEk8;
         "pkg-1.19.3-1.2.0.0" = _R9aObI7r;
@@ -520,7 +616,14 @@ let
         "pkg-1.21.4-4.3.1.0" = _nt5SA0rc;
         "pkg-1.21.3-4.2.2.0" = _SftUVaxY;
         "pkg-26.2-5.1.0.0" = _SxYCVTom;
-        "default" = _SxYCVTom;
+        "pkg-26.2-5.1.1.0" = _AWWwhZpd;
+        "pkg-1.21-4.1.4.0" = _FGy662kS;
+        "pkg-1.21.4-4.3.2.0" = _DwY7N5EU;
+        "pkg-1.21.3-4.2.3.0" = _VUh2UOU1;
+        "pkg-1.21.5-4.4.2.0" = _tCkei9GL;
+        "pkg-1.21.7-4.5.2.0" = _1eI0VTLt;
+        "pkg-1.21.9-4.6.2.0" = _JtmzbVmP;
+        "default" = _JtmzbVmP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wooden-bucket";

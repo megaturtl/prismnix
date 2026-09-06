@@ -26,19 +26,26 @@ let
             "file" = "sablejade-1.2.1.jar";
             "hash" = "sha512-IurJ5vw1LVZrCWw4eMZJ15XJe97EoC5JYGh9VsbI3EJaHaubA+1H7P565Pzavs294KbyOxybg8UiIYUrvZ3qxQ==";
         };
+        _cxUohR7A = {
+            "id" = "cxUohR7A";
+            "file" = "sablejade-1.3.0.jar";
+            "hash" = "sha512-IKC4CLXh6g5yUb2axRYb2Wz1BLBU8n+FNDmAlWmAIQvms2To1sutvemmWIVQr9JOZu5fF0gIOZmHctyd5xmtZA==";
+        };
     in {
         "stLQ4xEg" = _stLQ4xEg;
         "Cayoq42b" = _Cayoq42b;
         "y5pqu8im" = _y5pqu8im;
         "bwwxfX1J" = _bwwxfX1J;
         "7HFg7hFp" = _7HFg7hFp;
-        "neoforge-1.21.1" = _7HFg7hFp;
+        "cxUohR7A" = _cxUohR7A;
+        "neoforge-1.21.1" = _cxUohR7A;
         "pkg-1.0.0" = _stLQ4xEg;
         "pkg-1.1.0" = _Cayoq42b;
         "pkg-1.1.1" = _y5pqu8im;
         "pkg-1.2.0" = _bwwxfX1J;
         "pkg-1.2.1" = _7HFg7hFp;
-        "default" = _7HFg7hFp;
+        "pkg-1.3.0" = _cxUohR7A;
+        "default" = _cxUohR7A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jade-sable-compat";

@@ -133,7 +133,7 @@ let
         "default" = _tNB5DUUk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
-        name = "c-commands";
+        name = "s-commands";
         id = "XRwXgh5o";
         type = "mod";
         versions = versions;

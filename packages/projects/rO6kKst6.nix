@@ -206,6 +206,21 @@ let
             "file" = "railcraft-reborn-26.1.2-1.4.0.jar";
             "hash" = "sha512-3ZY5akB3bXhU19QDeTfYVXQG8UACfbc21nEp8pXp9DXxDOQqpDuuWT7tK4Mm6qgs0DGznbdiuf04qAx+E0rRfQ==";
         };
+        _kvKeJnL3 = {
+            "id" = "kvKeJnL3";
+            "file" = "railcraft-reborn-26.1.2-1.4.1.jar";
+            "hash" = "sha512-gf7PW7Xq+0spf4c7eX+F9n6jwIRKrVszhk2ahqiTnxqurdpMPxyhF+tpF9pmqJRQQdEgYUShps7cSR2JZeB/bw==";
+        };
+        _AGp4gR0N = {
+            "id" = "AGp4gR0N";
+            "file" = "railcraft-reborn-26.1.2-1.4.2.jar";
+            "hash" = "sha512-mmZ3uKoy2+FpHvIgX4g/TaS3EAzE1alEgGPnpfdVyico+oPY2naKjNkg+2u0+3rdpgth3bIAMzIDo4r2jAna+g==";
+        };
+        _hSDac3b9 = {
+            "id" = "hSDac3b9";
+            "file" = "railcraft-reborn-26.1.2-1.4.3.jar";
+            "hash" = "sha512-M9ROl/O2boI+XxXgvLVGTHxrsuK0Gypoht9nXo6+gE9BoUpixe7+s0PFMHeSshtw4i7RxrYkwjKZ4yoXZsi7Kw==";
+        };
     in {
         "ASbJgSOz" = _ASbJgSOz;
         "7akE0o9F" = _7akE0o9F;
@@ -248,12 +263,15 @@ let
         "nfNePSUE" = _nfNePSUE;
         "wNOUeJHM" = _wNOUeJHM;
         "3qL2nOis" = _3qL2nOis;
+        "kvKeJnL3" = _kvKeJnL3;
+        "AGp4gR0N" = _AGp4gR0N;
+        "hSDac3b9" = _hSDac3b9;
         "forge-1.20.1" = _wNOUeJHM;
         "neoforge-1.20.1" = _wNOUeJHM;
         "neoforge-1.21" = _Pos7XJEZ;
         "neoforge-1.21.1" = _BrIwB6GH;
         "neoforge-1.21.10" = _nfNePSUE;
-        "neoforge-26.1.2" = _3qL2nOis;
+        "neoforge-26.1.2" = _hSDac3b9;
         "pkg-1.0.0" = _ASbJgSOz;
         "pkg-1.0.1" = _7akE0o9F;
         "pkg-1.0.2" = _9ydikkdo;
@@ -295,7 +313,10 @@ let
         "pkg-1.3.5" = _nfNePSUE;
         "pkg-1.1.11" = _wNOUeJHM;
         "pkg-1.4.0" = _3qL2nOis;
-        "default" = _3qL2nOis;
+        "pkg-1.4.1" = _kvKeJnL3;
+        "pkg-1.4.2" = _AGp4gR0N;
+        "pkg-1.4.3" = _hSDac3b9;
+        "default" = _hSDac3b9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "railcraft-reborn";

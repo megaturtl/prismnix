@@ -71,6 +71,11 @@ let
             "file" = "ANB3DS (BETA-3.5).zip";
             "hash" = "sha512-eYweM94sKtXuPJr1QK76X4jnBGtu8llGx5bnCO09qaG5dIjSZKsB9wpldmPGRc6iPp7xt8sidxQvisPTN8ZG7w==";
         };
+        _rlO6VuhS = {
+            "id" = "rlO6VuhS";
+            "file" = "Actually Not Bad 3D Stuff (4.0).zip";
+            "hash" = "sha512-+n+hff+1N7C+MHCzT7EvFfYMd1AGwY8wT8sdJzaUdlvkNymDLo7UZR0i3sRGGseEv/6LK9B+z6ObLYCxy9niLQ==";
+        };
     in {
         "HqCscsjn" = _HqCscsjn;
         "L6Lep73z" = _L6Lep73z;
@@ -86,15 +91,17 @@ let
         "ocjUSjOu" = _ocjUSjOu;
         "URxscZa7" = _URxscZa7;
         "ASuMnJiX" = _ASuMnJiX;
+        "rlO6VuhS" = _rlO6VuhS;
         "minecraft-1.21.6" = _ocjUSjOu;
         "minecraft-1.21.7" = _ocjUSjOu;
         "minecraft-1.21.8" = _ocjUSjOu;
-        "minecraft-1.21.9" = _ASuMnJiX;
-        "minecraft-1.21.10" = _ASuMnJiX;
-        "minecraft-1.21.11" = _ASuMnJiX;
-        "minecraft-26.1" = _ASuMnJiX;
+        "minecraft-1.21.9" = _rlO6VuhS;
+        "minecraft-1.21.10" = _rlO6VuhS;
+        "minecraft-1.21.11" = _rlO6VuhS;
+        "minecraft-26.1" = _rlO6VuhS;
         "minecraft-26.1.1" = _ASuMnJiX;
         "minecraft-26.1.2" = _ASuMnJiX;
+        "minecraft-26.2" = _rlO6VuhS;
         "pkg--devv" = _HqCscsjn;
         "pkg--devv-2" = _L6Lep73z;
         "pkg--Alpha" = _BYaLG57Y;
@@ -109,7 +116,8 @@ let
         "pkg--BETA-2.5" = _ocjUSjOu;
         "pkg--BETA-3.0" = _URxscZa7;
         "pkg--BETA-3.5" = _ASuMnJiX;
-        "default" = _ASuMnJiX;
+        "pkg--BETA-4.0" = _rlO6VuhS;
+        "default" = _rlO6VuhS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "actually-not-bad-3d-stuff";

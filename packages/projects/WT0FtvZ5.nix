@@ -36,6 +36,26 @@ let
             "file" = "diamondglass-1.20.1-6.0.0.jar";
             "hash" = "sha512-zmLsBaPl/MzhU0hVZnFHyhLfoVm9Q5677qgJkxCdk8U3+ltE1CPfyGbLnNtDuu0IZH6bWhBYrDw2DSGG8vE9RQ==";
         };
+        _oHAvfuW2 = {
+            "id" = "oHAvfuW2";
+            "file" = "diamondglass-fabric-26.1-5.0.0.jar";
+            "hash" = "sha512-KBPIH5VT7+2I32b1kVrPVSXPW2AaQ566GJdqVcS/rmPGGgfxEJs9g/Eh5w5FMRpTl38vWztNkualNtm5ORP7VQ==";
+        };
+        _rKA2xEYY = {
+            "id" = "rKA2xEYY";
+            "file" = "diamondglass-fabric-26.2-5.1.0.jar";
+            "hash" = "sha512-zz9eRpZ3aOlBmxWLurgTgJFaQvee7x8pcgNT5Z06Qfq0lJv7sz6NpK+THl2BLZ6SYUu6rC6ZuModeabq23H5Pg==";
+        };
+        _SWhCQGsB = {
+            "id" = "SWhCQGsB";
+            "file" = "diamondglass-neoforge-26.1-5.0.0.jar";
+            "hash" = "sha512-3sYmqHAiVnmWmsrnWhZUWqmKG9WKvbeZ2mrbVBeG/CSfSzuQKzlHVu3LD8jCbcbWijTObs95PUWTR4yA+K0yAg==";
+        };
+        _1evglLAP = {
+            "id" = "1evglLAP";
+            "file" = "diamondglass-neoforge-26.2-5.1.0.jar";
+            "hash" = "sha512-9za4GceqzkdNVkHm5/6Q21hQMz8JN4J2+6UCMXsIBYY46OGj8dAMlorpEzvn5NIABcf/lvi2ATjyIPLC6bcCbQ==";
+        };
     in {
         "XcylRANe" = _XcylRANe;
         "OieZddhj" = _OieZddhj;
@@ -44,7 +64,13 @@ let
         "BR5YwK0C" = _BR5YwK0C;
         "3cxwNK1N" = _3cxwNK1N;
         "GUvQ1tEn" = _GUvQ1tEn;
+        "oHAvfuW2" = _oHAvfuW2;
+        "rKA2xEYY" = _rKA2xEYY;
+        "SWhCQGsB" = _SWhCQGsB;
+        "1evglLAP" = _1evglLAP;
         "fabric-1.18.2" = _XcylRANe;
+        "fabric-26.1.2" = _oHAvfuW2;
+        "fabric-26.2" = _rKA2xEYY;
         "forge-1.11.2" = _OieZddhj;
         "forge-1.15.2" = _GJAiUP6X;
         "forge-1.16.5" = _ZWyUZeG3;
@@ -52,12 +78,16 @@ let
         "forge-1.19.2" = _3cxwNK1N;
         "forge-1.20.1" = _GUvQ1tEn;
         "neoforge-1.20.1" = _GUvQ1tEn;
+        "neoforge-26.1.2" = _SWhCQGsB;
+        "neoforge-26.2" = _1evglLAP;
         "pkg-4.5.30" = _BR5YwK0C;
         "pkg-1.5.0.9" = _OieZddhj;
         "pkg-3.4.20" = _GJAiUP6X;
         "pkg-1.19.2-5.0.1" = _3cxwNK1N;
         "pkg-1.20.1-6.0.0" = _GUvQ1tEn;
-        "default" = _GUvQ1tEn;
+        "pkg-5.0.0" = _SWhCQGsB;
+        "pkg-5.1.0" = _1evglLAP;
+        "default" = _1evglLAP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "diamond-glass";

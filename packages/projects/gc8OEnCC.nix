@@ -316,6 +316,51 @@ let
             "file" = "better-end-26.300.2.jar";
             "hash" = "sha512-uDyBijoxzpOBwOMXJBgmzhODZOLF6B3IqmaiYypYIgvXWkomGl51n5Fyy12Tc6Q+HGi2y8+h8VZ6Nl9yvO9oQw==";
         };
+        _1rGEkD80 = {
+            "id" = "1rGEkD80";
+            "file" = "better-end-21.800.0.jar";
+            "hash" = "sha512-SZvCp14FvfK9wmhbd+YjdmJ36nHo61DGAN0QA2yvQ7RE/5Vsa8j/hrS09bbnBp52C/cIIXw217wgGkRCETlqlA==";
+        };
+        _KMyUxYz6 = {
+            "id" = "KMyUxYz6";
+            "file" = "better-end-26.101.0.jar";
+            "hash" = "sha512-xxVF/aezcXw4eqmOZ14HGoDh+dL6iYpnjQUfl32G35iVglyhc2DheS+pbGXzTYLGhsZb8sJ1yDOubBMONCWJwQ==";
+        };
+        _6XqFhao3 = {
+            "id" = "6XqFhao3";
+            "file" = "better-end-26.201.0.jar";
+            "hash" = "sha512-cRRb1TzxxX0DQUtq9muzX/BMwje84Sw/3TNbuEXVJjpvBZly+iO5z80sOHc2RoMT+vaO4NuO0I5mCcSbK4p3yw==";
+        };
+        _q2lc2PLL = {
+            "id" = "q2lc2PLL";
+            "file" = "better-end-26.101.1.jar";
+            "hash" = "sha512-6Tie7Y3j1v1ufE9aQ38oIjhFoQJblbhpg4FGJBua0ZoLDVFxu/Pdxo4Duh7mtQtFuo4GRErFO0l+0CJFqenEIQ==";
+        };
+        _1NFpFqMB = {
+            "id" = "1NFpFqMB";
+            "file" = "better-end-21.800.1.jar";
+            "hash" = "sha512-wqAdTT9YCBP3GuHQZnLTGbF1SU2yUiWjH7QJl8pvaEevpzmEyr2qL22neeqqWrX8Nlm199P3EJTACRun8e2cVg==";
+        };
+        _603d4gFf = {
+            "id" = "603d4gFf";
+            "file" = "better-end-26.201.1.jar";
+            "hash" = "sha512-vU55LxQ4YiA0/SdArwcGI++vnfuuOj39i9Tkt45Ru0bRPRS/9mcCQrossRzEpMCXdkuGE/nDS7N6yDMjK0AEPw==";
+        };
+        _feoiqgRY = {
+            "id" = "feoiqgRY";
+            "file" = "better-end-26.301.0.jar";
+            "hash" = "sha512-U3TsUx+UDO1wxBT1F38ysYuPm3cRLysz85uTOtM5YFX2FGs6GeS6lDEk0cBKp7OeXCwwnO6rofcJzfOcOz//YA==";
+        };
+        _VD4qwVUF = {
+            "id" = "VD4qwVUF";
+            "file" = "better-end-26.201.2.jar";
+            "hash" = "sha512-9uyHFZuzbchIrX/RcOZDFw/Z42gR2RwiJ41tJW4yCwzCih+mneaA/v4HZSo5tnzPDYTV0DfSqPAPFI7grjXJSg==";
+        };
+        _tBdZGZeX = {
+            "id" = "tBdZGZeX";
+            "file" = "better-end-26.101.2.jar";
+            "hash" = "sha512-KfXdlLSO7xDAbUuLvQsD2qjGdAwOOvZjVYnTXhAY52gd4VI5VH06NCPJ33nYZ8KJtSgxwpjdEI8oS+1D6eQB1w==";
+        };
     in {
         "hJMQDYuT" = _hJMQDYuT;
         "ANsvdFr8" = _ANsvdFr8;
@@ -380,6 +425,15 @@ let
         "5FuGVgzY" = _5FuGVgzY;
         "yZWbaH33" = _yZWbaH33;
         "ndWarwfw" = _ndWarwfw;
+        "1rGEkD80" = _1rGEkD80;
+        "KMyUxYz6" = _KMyUxYz6;
+        "6XqFhao3" = _6XqFhao3;
+        "q2lc2PLL" = _q2lc2PLL;
+        "1NFpFqMB" = _1NFpFqMB;
+        "603d4gFf" = _603d4gFf;
+        "feoiqgRY" = _feoiqgRY;
+        "VD4qwVUF" = _VD4qwVUF;
+        "tBdZGZeX" = _tBdZGZeX;
         "fabric-1.19" = _F3omRrtz;
         "fabric-1.19.1" = _F3omRrtz;
         "fabric-1.19.2" = _F3omRrtz;
@@ -391,14 +445,14 @@ let
         "fabric-1.20.4" = _WAIDCJK8;
         "fabric-1.21" = _4qhBEg6J;
         "fabric-1.21.1" = _4qhBEg6J;
-        "fabric-1.21.6" = _ZkbhHWaO;
-        "fabric-1.21.7" = _ZkbhHWaO;
-        "fabric-1.21.8" = _ZkbhHWaO;
-        "fabric-26.1" = _5FuGVgzY;
-        "fabric-26.1.1" = _5FuGVgzY;
-        "fabric-26.1.2" = _5FuGVgzY;
-        "fabric-26.3-snapshot-6" = _ndWarwfw;
-        "fabric-26.2" = _yZWbaH33;
+        "fabric-1.21.6" = _1NFpFqMB;
+        "fabric-1.21.7" = _1NFpFqMB;
+        "fabric-1.21.8" = _1NFpFqMB;
+        "fabric-26.1" = _tBdZGZeX;
+        "fabric-26.1.1" = _tBdZGZeX;
+        "fabric-26.1.2" = _tBdZGZeX;
+        "fabric-26.3-snapshot-6" = _feoiqgRY;
+        "fabric-26.2" = _VD4qwVUF;
         "pkg-2.1.1" = _hJMQDYuT;
         "pkg-2.1.2" = _ANsvdFr8;
         "pkg-3.1.0" = _TndPF7zF;
@@ -460,7 +514,16 @@ let
         "pkg-26.100.3" = _5FuGVgzY;
         "pkg-26.200.1" = _yZWbaH33;
         "pkg-26.300.2" = _ndWarwfw;
-        "default" = _ndWarwfw;
+        "pkg-21.800.0" = _1rGEkD80;
+        "pkg-26.101.0" = _KMyUxYz6;
+        "pkg-26.201.0" = _6XqFhao3;
+        "pkg-26.101.1" = _q2lc2PLL;
+        "pkg-21.800.1" = _1NFpFqMB;
+        "pkg-26.201.1" = _603d4gFf;
+        "pkg-26.301.0" = _feoiqgRY;
+        "pkg-26.201.2" = _VD4qwVUF;
+        "pkg-26.101.2" = _tBdZGZeX;
+        "default" = _tBdZGZeX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betterend";

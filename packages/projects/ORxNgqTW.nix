@@ -191,6 +191,26 @@ let
             "file" = "Shroomcraft-v26.2.1-mc26.2.x-Fabric.jar";
             "hash" = "sha512-G0z9O22ziHDbJ9mX4LEvsQEWwxMkHoJprhYOC8hcTLyU9CsC9vaIHO/CNEvjU1R4mE3aNNtXwK9qfJjLUjmuZg==";
         };
+        _PHYz0sb4 = {
+            "id" = "PHYz0sb4";
+            "file" = "Shroomcraft-v26.1.1-mc26.1.x-NeoForge.jar";
+            "hash" = "sha512-tUEATG6cobtxEGD7tqK6YtSMwYokbMiVUShoQOMW8kkBnS1GbGGedMiDGChG93bc8+XuD7d6kB5xLMTfhnkeSw==";
+        };
+        _K3CLFQOw = {
+            "id" = "K3CLFQOw";
+            "file" = "Shroomcraft-v26.1.1-mc26.1.x-Fabric.jar";
+            "hash" = "sha512-M/kku0EHU7Jw3GiYhpFq2I5C3h5t3+GHbIXRhOSNygVsgRH+BFXGrDyUa0KMzVUHqzqIPt3tVi0EZLXjavptWw==";
+        };
+        _cWUDXyrS = {
+            "id" = "cWUDXyrS";
+            "file" = "Shroomcraft-v26.2.2-mc26.2.x-NeoForge.jar";
+            "hash" = "sha512-e0eQOizrKoR/KZwLIpZtwPpx49gh/i9WWrUfb9YweOdDxhUrru5C0Uisno7Jj6DMK0OGDAWsTvuYN4ex4H0qFg==";
+        };
+        _l5psk3GD = {
+            "id" = "l5psk3GD";
+            "file" = "Shroomcraft-v26.2.2-mc26.2.x-Fabric.jar";
+            "hash" = "sha512-wd68HqUATEJISE1tdrgQQ4Q+l5fxmS6dDU05WECGATu1I7RZmxKLVVhCCd2n/XtfynTJ3kQnDtfK6+JEeKRd+w==";
+        };
     in {
         "91v60Neg" = _91v60Neg;
         "F5x8Zx4n" = _F5x8Zx4n;
@@ -230,28 +250,32 @@ let
         "yEsIeBg3" = _yEsIeBg3;
         "nirj1BQc" = _nirj1BQc;
         "pbLCA1Rh" = _pbLCA1Rh;
+        "PHYz0sb4" = _PHYz0sb4;
+        "K3CLFQOw" = _K3CLFQOw;
+        "cWUDXyrS" = _cWUDXyrS;
+        "l5psk3GD" = _l5psk3GD;
         "fabric-1.21.10" = _SOA8ojHt;
         "fabric-1.21.3" = _xajpQDWm;
         "fabric-1.21.4" = _ewfu8lJy;
         "fabric-1.21.5" = _EEGdJqQ3;
         "fabric-1.21.8" = _k1iCJ7ad;
         "fabric-1.21.11" = _pO7pyFtx;
-        "fabric-26.1" = _NhqjphKc;
-        "fabric-26.1.1" = _NhqjphKc;
-        "fabric-26.1.2" = _NhqjphKc;
+        "fabric-26.1" = _K3CLFQOw;
+        "fabric-26.1.1" = _K3CLFQOw;
+        "fabric-26.1.2" = _K3CLFQOw;
         "fabric-1.21.1" = _x4p99Vi2;
-        "fabric-26.2" = _pbLCA1Rh;
+        "fabric-26.2" = _l5psk3GD;
         "neoforge-1.21.10" = _zB5qadPo;
         "neoforge-1.21.3" = _ZEgavBcC;
         "neoforge-1.21.5" = _CXNvwMxo;
         "neoforge-1.21.8" = _Uda8TTaU;
         "neoforge-1.21.4" = _51hWbxTg;
         "neoforge-1.21.11" = _8EGHZ25B;
-        "neoforge-26.1" = _xtWYtG7S;
-        "neoforge-26.1.1" = _xtWYtG7S;
-        "neoforge-26.1.2" = _xtWYtG7S;
+        "neoforge-26.1" = _PHYz0sb4;
+        "neoforge-26.1.1" = _PHYz0sb4;
+        "neoforge-26.1.2" = _PHYz0sb4;
         "neoforge-1.21.1" = _fbsq8GCO;
-        "neoforge-26.2" = _nirj1BQc;
+        "neoforge-26.2" = _cWUDXyrS;
         "pkg-21.10.0" = _F5x8Zx4n;
         "pkg-v21.3.0-1.21.3-Fabric" = _z9FIz63H;
         "pkg-v21.3.0-1.21.3-NeoForge" = _Z0K5wnwP;
@@ -281,7 +305,9 @@ let
         "pkg-21.1.0" = _fbsq8GCO;
         "pkg-26.2.0" = _yEsIeBg3;
         "pkg-26.2.1" = _pbLCA1Rh;
-        "default" = _pbLCA1Rh;
+        "pkg-26.1.1" = _K3CLFQOw;
+        "pkg-26.2.2" = _l5psk3GD;
+        "default" = _l5psk3GD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shroomcraft";

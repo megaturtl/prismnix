@@ -381,6 +381,61 @@ let
             "file" = "questown-1.19.2-0.0.10-alpha.3-unstable.jar";
             "hash" = "sha512-2wKheo0xY/dvnZ5ePayifhHarr/WuDCu0nwaFM08Rc0tNBZ7wm/5zUx0tvVJyVPLvuiTxLmMETEq4fRX0Hl2gw==";
         };
+        _3XmaYEeA = {
+            "id" = "3XmaYEeA";
+            "file" = "questown-1.19.2-0.0.10-alpha.4-unstable.jar";
+            "hash" = "sha512-wYeXdj8Sx3KnLHzbO2lFzr6BGBQ4xjQJbXGJk+xZm2BCWD/1gh22UIOWMOzjftopMHzU/0jNpJJBk7ptiAWGfw==";
+        };
+        _NH9XSPEJ = {
+            "id" = "NH9XSPEJ";
+            "file" = "questown-1.19.2-0.0.10-alpha.5-unstable.jar";
+            "hash" = "sha512-+WrPJeNKaW4/03hBstRpTXncucv5Vy4tkN21g37h+/QuCNpxSi38R26m+twGPEOO4UJxwwlGfyxFY+vi2iUniA==";
+        };
+        _8Nro7IJn = {
+            "id" = "8Nro7IJn";
+            "file" = "questown-1.20.1-alpha.1-unstable.jar";
+            "hash" = "sha512-FP267QFd75TR0sxYLC9wRZNDqSC3ozZ+S+8uS9iGd8ANZItatrTZ9FYUDtMET9xqWBTAyrPmD4JO+7e8CBr02Q==";
+        };
+        _YcQdH8La = {
+            "id" = "YcQdH8La";
+            "file" = "questown-1.19.2-0.0.10-alpha.6-unstable.jar";
+            "hash" = "sha512-gYv3xs2nNBYxNuDqYj7JBDpFsh8XPiWAIfCxEg+5rnY1Okomgn63ateAZYy6dV1/4KHDINOwPyoYScmqdkLUuA==";
+        };
+        _QoZf3l3y = {
+            "id" = "QoZf3l3y";
+            "file" = "questown-1.19.2-0.0.10-alpha.6-unstable.jar";
+            "hash" = "sha512-B00ZeAA0V0TTvxCHVJHbYvIglz5kfQPp9gMU6c/+2M3mRfUvgzytGzQ9oFN0IWW1M8CRjmcSQYVLtLrR0IvebQ==";
+        };
+        _qisM71je = {
+            "id" = "qisM71je";
+            "file" = "questown-1.19.2-0.0.10-alpha.7-unstable.jar";
+            "hash" = "sha512-a+migHXqvX/h3T0nJiuhBgJMaBUj69l9c5wWD2LStHAVV8016s19xv3j0U2JW4KEUFjmOsRhrDE+HQ5ZktM56A==";
+        };
+        _XXyPcF23 = {
+            "id" = "XXyPcF23";
+            "file" = "questown-1.19.2-0.0.10-alpha.8-unstable.jar";
+            "hash" = "sha512-NrrHrp8TCgLmqLbflOeAgKzd8flvwd0hxqaXq0SCmhFEx+MrjRLVFWeQMU7MWbaux/iDv1pdicndWL4/mptP3g==";
+        };
+        _N7mj4m1A = {
+            "id" = "N7mj4m1A";
+            "file" = "questown-1.19.2-0.0.10-alpha.9-unstable.jar";
+            "hash" = "sha512-GbVrPxtJsXnAY3866DKpiyPTOqa/P0w5UoUJb6EijqIxX0hpc0bg64eRVzHdAsn3bzVs7sbgPQz6J4//AQ/cxA==";
+        };
+        _NDBbsUwL = {
+            "id" = "NDBbsUwL";
+            "file" = "questown-1.19.2-0.0.10-alpha.10-unstable.jar";
+            "hash" = "sha512-keVUDtGi5q/EqgiLXrtV+QAcYDYw2X49VWREvxH0OHJHtqOPWPYCSCt0kdNWsyJ90+YiYknBSoDXln5lTHTMew==";
+        };
+        _qKke8lRE = {
+            "id" = "qKke8lRE";
+            "file" = "questown-1.19.2-0.0.10-alpha.11-unstable.jar";
+            "hash" = "sha512-um1aLTxauJdXzlU5MElYdnP5o36IF1xvF8EhiWm04n0QQiwYtii6ayHmxRzdIOdPZ74tcWZQ5a/DzuxzFHatJA==";
+        };
+        _7oQicFfH = {
+            "id" = "7oQicFfH";
+            "file" = "questown-1.19.2-0.0.10-alpha.12-unstable.jar";
+            "hash" = "sha512-40ArZoIhlZYkc9MHO1nooXsagiiLNOUuidP1iedCKd7+xZwBQ8yXeSTu9YAGNfu5DB1LbM98tSNysa0F+mCwjQ==";
+        };
     in {
         "mDBHwOwl" = _mDBHwOwl;
         "6mCaBclS" = _6mCaBclS;
@@ -458,8 +513,20 @@ let
         "tefQgACS" = _tefQgACS;
         "gDVpkmNA" = _gDVpkmNA;
         "MbSdP7p2" = _MbSdP7p2;
+        "3XmaYEeA" = _3XmaYEeA;
+        "NH9XSPEJ" = _NH9XSPEJ;
+        "8Nro7IJn" = _8Nro7IJn;
+        "YcQdH8La" = _YcQdH8La;
+        "QoZf3l3y" = _QoZf3l3y;
+        "qisM71je" = _qisM71je;
+        "XXyPcF23" = _XXyPcF23;
+        "N7mj4m1A" = _N7mj4m1A;
+        "NDBbsUwL" = _NDBbsUwL;
+        "qKke8lRE" = _qKke8lRE;
+        "7oQicFfH" = _7oQicFfH;
         "forge-1.18.2" = _NblOOQbD;
-        "forge-1.19.2" = _MbSdP7p2;
+        "forge-1.19.2" = _7oQicFfH;
+        "forge-1.20.1" = _8Nro7IJn;
         "pkg-1.18.2-0.0.1-alpha.1" = _mDBHwOwl;
         "pkg-1.18.2-0.0.1-alpha.2" = _6mCaBclS;
         "pkg-1.18.2-0.0.1-alpha.3" = _7YrpyYqq;
@@ -536,7 +603,17 @@ let
         "pkg-1.19.2-0.0.9-beta.1" = _tefQgACS;
         "pkg-1.19.2-0.0.10-alpha.1" = _gDVpkmNA;
         "pkg-1.19.2-0.0.10-alpha.3-unstable" = _MbSdP7p2;
-        "default" = _MbSdP7p2;
+        "pkg-1.19.2-0.0.10-alpha.4-unstable" = _3XmaYEeA;
+        "pkg-1.19.2-0.0.10-alpha.5-unstable" = _NH9XSPEJ;
+        "pkg-1.20.1-alpha.1-unstable" = _8Nro7IJn;
+        "pkg-1.19.2-0.0.10-alpha.6-unstable" = _QoZf3l3y;
+        "pkg-1.19.2-0.0.10-alpha.7-unstable" = _qisM71je;
+        "pkg-1.19.2-0.0.10-alpha.8-unstable" = _XXyPcF23;
+        "pkg-1.19.2-0.0.10-alpha.9-unstable" = _N7mj4m1A;
+        "pkg-1.19.2-0.0.10-alpha.10-unstable" = _NDBbsUwL;
+        "pkg-1.19.2-0.0.10-alpha.11-unstable" = _qKke8lRE;
+        "pkg-1.19.2-0.0.10-alpha.12-unstable" = _7oQicFfH;
+        "default" = _7oQicFfH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "questown";

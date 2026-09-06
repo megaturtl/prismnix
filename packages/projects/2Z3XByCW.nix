@@ -46,6 +46,41 @@ let
             "file" = "cameracraft-2.0-neoforge-1.21.4.jar";
             "hash" = "sha512-Y2zInptRkzp1TeRyBbq2ySckT2nDEehzQTgZub+uh/tgXOLFYmhug/EVnvFzdVvtY0n0fBIRAodGu9fWCx3JEA==";
         };
+        _78g404o9 = {
+            "id" = "78g404o9";
+            "file" = "cameracraft-2.1-forge-1.18.2.jar";
+            "hash" = "sha512-+jNWaftV2pO6Ps2mZQGI7wuU0wFP5iKPW1fU1dYBWsRtD2uUKxNJwhwkZAfw/3q+gsvNkVa4BVcONsFaeoCLYg==";
+        };
+        _L6kACVJZ = {
+            "id" = "L6kACVJZ";
+            "file" = "cameracraft-2.1-forge-1.19.2.jar";
+            "hash" = "sha512-8WOmpstlBRdMziwOL8XkEbyypPceQJ5lUI6AQxXIU5rW3gXMY64nyI1nJX2u+d4yVy3WgrtBkNgsqfwsh4Njxg==";
+        };
+        _ieSkf9ae = {
+            "id" = "ieSkf9ae";
+            "file" = "cameracraft-2.1-forge-1.19.4.jar";
+            "hash" = "sha512-/SqENKU9vHlW0BJ2GBI0uZAgN2jINdXZAMdfO/MKKb6oHE6N8Qy1tgVyRqjLxgwUuogqFANs0iK16GeKoF/suA==";
+        };
+        _dNcuBYCB = {
+            "id" = "dNcuBYCB";
+            "file" = "cameracraft-2.1-forge-1.20.1.jar";
+            "hash" = "sha512-N9VjID4jxZpeeyerZ4Vrcu3WFjby+ZyJ2ryfE5Ul4q3V6lPlc8bqf97uS9ZgEUWSor34RK01k17/Rdl8pE40Zg==";
+        };
+        _56uwYWNW = {
+            "id" = "56uwYWNW";
+            "file" = "cameracraft-2.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-50J/wLKEovVssdxaKHUKLTRovu/JbOPl9aSoVXvhqDGszNjDv9YyYHdFODiPyP7CTI35bzH9pTtR5nn+Q/hE7w==";
+        };
+        _IKhQrtyZ = {
+            "id" = "IKhQrtyZ";
+            "file" = "cameracraft-2.1-neoforge-1.21.4.jar";
+            "hash" = "sha512-ZJIWE8zL2LQwFw7a0NVzRkLFxtEuls8Ycs/35MDaFrzz9ppSOfDvUo2yqgx4MRoYhi/22DYuEoQAqflV0w+eYQ==";
+        };
+        _MrUkxXfk = {
+            "id" = "MrUkxXfk";
+            "file" = "cameracraft-2.1-neoforge-1.21.8.jar";
+            "hash" = "sha512-eLFYHRlR9hiSAD+CEK5hJENi2GZW3707c/hE9GvLcK5+aRDSnbPd+k/wEs8Qg7cxj9JhowgDo8NPrWWOV8JSUQ==";
+        };
     in {
         "ZutBUTIU" = _ZutBUTIU;
         "aGnQ29sZ" = _aGnQ29sZ;
@@ -56,21 +91,30 @@ let
         "j9PPLFfv" = _j9PPLFfv;
         "ciRkOOpa" = _ciRkOOpa;
         "jPwmOVeL" = _jPwmOVeL;
+        "78g404o9" = _78g404o9;
+        "L6kACVJZ" = _L6kACVJZ;
+        "ieSkf9ae" = _ieSkf9ae;
+        "dNcuBYCB" = _dNcuBYCB;
+        "56uwYWNW" = _56uwYWNW;
+        "IKhQrtyZ" = _IKhQrtyZ;
+        "MrUkxXfk" = _MrUkxXfk;
         "forge-1.2.5" = _ZutBUTIU;
         "forge-1.4.5" = _aGnQ29sZ;
         "forge-1.4.6" = _ccfhj8hZ;
         "forge-1.4.7" = _ccfhj8hZ;
-        "forge-1.18.2" = _dXs7es3v;
-        "forge-1.19.2" = _J94d949w;
-        "forge-1.19.4" = _T0mx99pa;
-        "forge-1.20.1" = _j9PPLFfv;
-        "neoforge-1.21.1" = _ciRkOOpa;
-        "neoforge-1.21.4" = _jPwmOVeL;
+        "forge-1.18.2" = _78g404o9;
+        "forge-1.19.2" = _L6kACVJZ;
+        "forge-1.19.4" = _ieSkf9ae;
+        "forge-1.20.1" = _dNcuBYCB;
+        "neoforge-1.21.1" = _56uwYWNW;
+        "neoforge-1.21.4" = _IKhQrtyZ;
+        "neoforge-1.21.8" = _MrUkxXfk;
         "pkg-1.2.5" = _ZutBUTIU;
         "pkg-1.4.5" = _aGnQ29sZ;
         "pkg-1.4.6" = _ccfhj8hZ;
         "pkg-2.0" = _jPwmOVeL;
-        "default" = _jPwmOVeL;
+        "pkg-2.1" = _MrUkxXfk;
+        "default" = _MrUkxXfk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cameracraft";

@@ -1281,6 +1281,86 @@ let
             "file" = "afkplus-v1.7.15-mc26.1.2.jar";
             "hash" = "sha512-f5lC+jSRj/951uuKK+XV4b1Ttpg/32nOcmC+RCI+x/hDK9b0x82rnlQJAhPzK6rjrhdTyyPf6I+AQgdpbtF30w==";
         };
+        _Fn1Gjhpl = {
+            "id" = "Fn1Gjhpl";
+            "file" = "afkplus-v1.7.16-mc1.19.3.jar";
+            "hash" = "sha512-FLbFxBTL9FNtNht487AW9zGeBLTG2kzT3y3WFIe9KTwcoLzFTf2FZGE2wIqcL/VxyIHqlQbI5HwtjnP+bxkJ0w==";
+        };
+        _eQNTRWPi = {
+            "id" = "eQNTRWPi";
+            "file" = "afkplus-v1.7.16-mc1.20.1.jar";
+            "hash" = "sha512-JCxen/1jzcNX2jIlWgaP6YbMLedS9yVpmLDz+quajgsyPtANz5tQf3pkCIywXHmAcDccuXu++5SA0eAhE1WOsg==";
+        };
+        _UybuC2AB = {
+            "id" = "UybuC2AB";
+            "file" = "afkplus-v1.7.16-mc1.19.2.jar";
+            "hash" = "sha512-UhsdcIdkLWBl+EGXzV4XFxpofMyPu4jF1bciC8c3Yt47t9KZ2XSYH1EZg/M0UKT96Vk6FPOoQ3WNUpsmCcZLIQ==";
+        };
+        _dUlvXLeW = {
+            "id" = "dUlvXLeW";
+            "file" = "afkplus-v1.7.16-mc1.19.4.jar";
+            "hash" = "sha512-g7Qk+b0auPRAOMR+28wRBmD9ZlNKohsw0ji406omvaqCcfwTH2YN5ftTDfxJjApMpVrwxz3FhKYZcxz1VzEVDQ==";
+        };
+        _Ql71zWw0 = {
+            "id" = "Ql71zWw0";
+            "file" = "afkplus-v1.7.16-mc1.20.4.jar";
+            "hash" = "sha512-ajDQUJivP7O1abkHVNKwA4nm0yPr30QKwK01oJN0Ki03Q/EHLzvIoycT2gQPaH49mi0ZR6t8A6nhy/El8TzlHQ==";
+        };
+        _o6T25LTQ = {
+            "id" = "o6T25LTQ";
+            "file" = "afkplus-v1.7.16-mc1.21.1.jar";
+            "hash" = "sha512-jc9K2bP3Pe/mVeXjoTJveNn3hJElQ0lz+bz9ytbpuzxvY5EsaT6vWZuSoOH9bor63ORfVBXsQZ1CPw82YD0ISw==";
+        };
+        _jakj2nJz = {
+            "id" = "jakj2nJz";
+            "file" = "afkplus-v1.7.16-mc1.20.2.jar";
+            "hash" = "sha512-1jq0pNIsQJ8Rx6I7DGN0SmJwx2EjxiOLziBqr9e0uVhersM7dlTNBNBQ+a/V1tr3bWb/5ysiowgeQoM+XjiadA==";
+        };
+        _iDuVtBkQ = {
+            "id" = "iDuVtBkQ";
+            "file" = "afkplus-v1.7.16-mc1.20.6.jar";
+            "hash" = "sha512-fPYuyt5P4LdnRouxvA8J97/QxyHT7s4XoZUtN+y0BtweobRaUop3ldVEPdzuJaF0MfBJ2CLuCceMHEbz0p/nhA==";
+        };
+        _kA6YLIE7 = {
+            "id" = "kA6YLIE7";
+            "file" = "afkplus-v1.7.16-mc1.21.4.jar";
+            "hash" = "sha512-oWLf0UVUBi0yqtEk1JSmRB0+VGSPwhbRCU7ShBWDed9u1oQcAd4bX+COQLUiIzeCMzeMIrBS9MuB8Gxc9CQgEQ==";
+        };
+        _z6YLieGg = {
+            "id" = "z6YLieGg";
+            "file" = "afkplus-v1.7.16-mc1.21.5.jar";
+            "hash" = "sha512-by3RfBKHrrJnUaXjNjAip+YmeidkB7Kdy00r68kdjr2PTf/19vVTX7X7w6AzyxZkZzxuQPEgly068TF5xqUu2w==";
+        };
+        _4MJauNy0 = {
+            "id" = "4MJauNy0";
+            "file" = "afkplus-v1.7.16-mc1.21.3.jar";
+            "hash" = "sha512-SrLCRUQ1uVHoGSk3NWunjvzcw4ef2Usi24gy1LfnA48O/Cx7c3FiuZv6F8hx/ejVv2mkZ+xC/stQ9oXO6caH4A==";
+        };
+        _28lbHAWF = {
+            "id" = "28lbHAWF";
+            "file" = "afkplus-v1.7.16-mc1.21.8.jar";
+            "hash" = "sha512-x1cEV3hZVA5VOxyk2kPTQvidZI19H+njX8CKRF6xrEEexY1iZCT1OKTfKDCFEKFVRSI9CkH42LkGiWAAliSqgg==";
+        };
+        _VKRLdKvv = {
+            "id" = "VKRLdKvv";
+            "file" = "afkplus-v1.7.16-mc1.21.10.jar";
+            "hash" = "sha512-TQJ5M2obBVC+hhtKPANNLQvbvp37aXHQn3EuH9faextiKXsMpSUpZlH3dv7MlKva9z1bapu6u4LP/c+NU1WUog==";
+        };
+        _go2njp6A = {
+            "id" = "go2njp6A";
+            "file" = "afkplus-v1.7.16-mc26.2.jar";
+            "hash" = "sha512-fc1rWcA7/hoGwJzWFzW/aNuVqR+2qAXe+jRYnlBxpOvzVECCWq8/ob3z4WwulVfSW/2TexSQdwFgxbVQjR3hwA==";
+        };
+        _WbJz0nlf = {
+            "id" = "WbJz0nlf";
+            "file" = "afkplus-v1.7.16-mc1.21.11.jar";
+            "hash" = "sha512-IF7Lck1Np/AHny2lDLf1J7QfrfGDqFjzz1jaVv9ho16ckDK4P2C9J863Osvtwb/jC8gWfvREM614ZrxJzvCRGg==";
+        };
+        _H9MnLmKG = {
+            "id" = "H9MnLmKG";
+            "file" = "afkplus-v1.7.16-mc26.1.2.jar";
+            "hash" = "sha512-58AKkq71Vgf5ODcLNrqhiQGOOlnNs5dWVB647dc/7f8nEchvXHl9S84CkrsKe2teE12oJjxjAD10lw4W2U9Bog==";
+        };
     in {
         "fTPHJmvN" = _fTPHJmvN;
         "7NdEgzPG" = _7NdEgzPG;
@@ -1538,40 +1618,56 @@ let
         "OSca8dFu" = _OSca8dFu;
         "dYGDScQY" = _dYGDScQY;
         "gmnDqjKF" = _gmnDqjKF;
-        "fabric-1.20.2" = _U3wvAyev;
+        "Fn1Gjhpl" = _Fn1Gjhpl;
+        "eQNTRWPi" = _eQNTRWPi;
+        "UybuC2AB" = _UybuC2AB;
+        "dUlvXLeW" = _dUlvXLeW;
+        "Ql71zWw0" = _Ql71zWw0;
+        "o6T25LTQ" = _o6T25LTQ;
+        "jakj2nJz" = _jakj2nJz;
+        "iDuVtBkQ" = _iDuVtBkQ;
+        "kA6YLIE7" = _kA6YLIE7;
+        "z6YLieGg" = _z6YLieGg;
+        "4MJauNy0" = _4MJauNy0;
+        "28lbHAWF" = _28lbHAWF;
+        "VKRLdKvv" = _VKRLdKvv;
+        "go2njp6A" = _go2njp6A;
+        "WbJz0nlf" = _WbJz0nlf;
+        "H9MnLmKG" = _H9MnLmKG;
+        "fabric-1.20.2" = _jakj2nJz;
         "fabric-1.20.3-rc1" = _YEkPDg18;
-        "fabric-1.20.3" = _fy4Kq3zG;
-        "fabric-1.20.4" = _fy4Kq3zG;
-        "fabric-1.19.4" = _PSR5smau;
+        "fabric-1.20.3" = _Ql71zWw0;
+        "fabric-1.20.4" = _Ql71zWw0;
+        "fabric-1.19.4" = _dUlvXLeW;
         "fabric-1.17" = _NV4Hz08B;
         "fabric-1.17.1" = _VygCjqWI;
         "fabric-1.18" = _VygCjqWI;
         "fabric-1.18.1" = _VygCjqWI;
         "fabric-1.18.2" = _VygCjqWI;
-        "fabric-1.20" = _R9gGJKhj;
-        "fabric-1.20.1" = _R9gGJKhj;
-        "fabric-1.20.5" = _fnTTn6yW;
-        "fabric-1.20.6" = _fnTTn6yW;
+        "fabric-1.20" = _eQNTRWPi;
+        "fabric-1.20.1" = _eQNTRWPi;
+        "fabric-1.20.5" = _iDuVtBkQ;
+        "fabric-1.20.6" = _iDuVtBkQ;
         "fabric-1.21-rc1" = _9bYfjCtl;
-        "fabric-1.21" = _v48B8hZh;
-        "fabric-1.21.1" = _v48B8hZh;
-        "fabric-1.21.2" = _2fY7vp8M;
-        "fabric-1.21.3" = _2fY7vp8M;
-        "fabric-1.21.4" = _aSm1CptC;
-        "fabric-1.19.1" = _r9u42BoY;
-        "fabric-1.19.2" = _r9u42BoY;
-        "fabric-1.19.3" = _NR8UyGg0;
-        "fabric-1.21.5" = _FfRdDhXH;
-        "fabric-1.21.6" = _OSca8dFu;
-        "fabric-1.21.7" = _OSca8dFu;
-        "fabric-1.21.8" = _OSca8dFu;
-        "fabric-1.21.9" = _lMwUtlUc;
-        "fabric-1.21.10" = _lMwUtlUc;
-        "fabric-1.21.11" = _A8G8PPbq;
-        "fabric-26.1" = _gmnDqjKF;
-        "fabric-26.1.1" = _gmnDqjKF;
-        "fabric-26.1.2" = _gmnDqjKF;
-        "fabric-26.2" = _dYGDScQY;
+        "fabric-1.21" = _o6T25LTQ;
+        "fabric-1.21.1" = _o6T25LTQ;
+        "fabric-1.21.2" = _4MJauNy0;
+        "fabric-1.21.3" = _4MJauNy0;
+        "fabric-1.21.4" = _kA6YLIE7;
+        "fabric-1.19.1" = _UybuC2AB;
+        "fabric-1.19.2" = _UybuC2AB;
+        "fabric-1.19.3" = _Fn1Gjhpl;
+        "fabric-1.21.5" = _z6YLieGg;
+        "fabric-1.21.6" = _28lbHAWF;
+        "fabric-1.21.7" = _28lbHAWF;
+        "fabric-1.21.8" = _28lbHAWF;
+        "fabric-1.21.9" = _VKRLdKvv;
+        "fabric-1.21.10" = _VKRLdKvv;
+        "fabric-1.21.11" = _WbJz0nlf;
+        "fabric-26.1" = _H9MnLmKG;
+        "fabric-26.1.1" = _H9MnLmKG;
+        "fabric-26.1.2" = _H9MnLmKG;
+        "fabric-26.2" = _go2njp6A;
         "pkg-1.3.4" = _fTPHJmvN;
         "pkg-1.3.5" = _7NdEgzPG;
         "pkg-1.3.6" = _dMo02g9L;
@@ -1779,7 +1875,23 @@ let
         "pkg-v1.7.15-mc1.21.8" = _OSca8dFu;
         "pkg-v1.7.15-mc26.2" = _dYGDScQY;
         "pkg-v1.7.15-mc26.1.2" = _gmnDqjKF;
-        "default" = _gmnDqjKF;
+        "pkg-v1.7.16-mc1.19.3" = _Fn1Gjhpl;
+        "pkg-v1.7.16-mc1.20.1" = _eQNTRWPi;
+        "pkg-v1.7.16-mc1.19.2" = _UybuC2AB;
+        "pkg-v1.7.16-mc1.19.4" = _dUlvXLeW;
+        "pkg-v1.7.16-mc1.20.4" = _Ql71zWw0;
+        "pkg-v1.7.16-mc1.21.1" = _o6T25LTQ;
+        "pkg-v1.7.16-mc1.20.2" = _jakj2nJz;
+        "pkg-v1.7.16-mc1.20.6" = _iDuVtBkQ;
+        "pkg-v1.7.16-mc1.21.4" = _kA6YLIE7;
+        "pkg-v1.7.16-mc1.21.5" = _z6YLieGg;
+        "pkg-v1.7.16-mc1.21.3" = _4MJauNy0;
+        "pkg-v1.7.16-mc1.21.8" = _28lbHAWF;
+        "pkg-v1.7.16-mc1.21.10" = _VKRLdKvv;
+        "pkg-v1.7.16-mc26.2" = _go2njp6A;
+        "pkg-v1.7.16-mc1.21.11" = _WbJz0nlf;
+        "pkg-v1.7.16-mc26.1.2" = _H9MnLmKG;
+        "default" = _H9MnLmKG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "afkplus";

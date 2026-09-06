@@ -131,6 +131,41 @@ let
             "file" = "EpicfightDd-20.14.1.14.0.jar";
             "hash" = "sha512-on57+Hf3V2DN7TFRr23NTdQf7fpRPFZJI0S5icH9CSCWydOqE0zGpX5IX8YKL10oNAhFS3h5Fd8ch/JEcsqcPA==";
         };
+        _9S8LfvHV = {
+            "id" = "9S8LfvHV";
+            "file" = "EpicfightDd-20.14.1.15.0.jar";
+            "hash" = "sha512-W0YqSbbj98EAXJ5hQrp09m0mWzk839ipwo4omVIqPVnlpmFghBZrZq5QMf1bhia8mxVVyDqdzdYEHauKVlDiYA==";
+        };
+        _aH0oyuk3 = {
+            "id" = "aH0oyuk3";
+            "file" = "EpicfightDd-20.14.1.16.0.jar";
+            "hash" = "sha512-Ebx9ImVe0KCh1IXzqOHtFjrb1n6vXOio0e6rPMMaQMl/PjSEk+6dYawCa9295dafhmwgkFnge7HrrsF6iMNZ4Q==";
+        };
+        _QV5sXC9h = {
+            "id" = "QV5sXC9h";
+            "file" = "EpicfightDd-20.14.1.16.1.jar";
+            "hash" = "sha512-7hUGbK4qcq0p/+U3YUEKDEnsa++YScX26PJm+sZyRLdiPQToSdrud68CYc2vOjRhSPTayWefduwXmP3NT10ZNw==";
+        };
+        _xrOiye4J = {
+            "id" = "xrOiye4J";
+            "file" = "EpicfightDd-20.14.1.16.2.jar";
+            "hash" = "sha512-4xemm6NUYqLyI6QHL4AzIweQbSPcbNWltsxSPdv+jUuAiglZCo6Ppg3gjLWDA0GCU9mpvEgTb0f4UuLe2okk9Q==";
+        };
+        _ZH7rHPnN = {
+            "id" = "ZH7rHPnN";
+            "file" = "EpicfightDd-20.14.1.16.3.jar";
+            "hash" = "sha512-eDOhDr6t2OXi6tkDVfmgMB7gSiNKhTYXIs/C74GJsVovCoc89lDb8dU6fLCn4yx/IQcSWu8Zt/S2VoAEMPEQkw==";
+        };
+        _21V3A33i = {
+            "id" = "21V3A33i";
+            "file" = "EpicfightDd-20.14.1.16.4.jar";
+            "hash" = "sha512-I5O5w6pMLMn2DiVszNhLDptH9AIWSrXdqavk3qDC/n7GbvYzjoXHriL9yErpsynpblBS07w3KJAIhfpnUz4v3Q==";
+        };
+        _F0YS8mU4 = {
+            "id" = "F0YS8mU4";
+            "file" = "epic-fight-dawn-day-21.17.1.2.0-neoforge.jar";
+            "hash" = "sha512-6848nINUnI5FKo8TBYTFx1ipI9ChrbEdjDZ7+PAngq41xsdowJcMbOdbI5zDWVKyDtG2OutjiYKXknDCtMQbAw==";
+        };
     in {
         "ZeSWGQGK" = _ZeSWGQGK;
         "ZSmSgKiP" = _ZSmSgKiP;
@@ -158,8 +193,15 @@ let
         "ETKjWGhG" = _ETKjWGhG;
         "2dClYTFx" = _2dClYTFx;
         "XRgGBan5" = _XRgGBan5;
-        "forge-1.20.1" = _XRgGBan5;
-        "neoforge-1.21.1" = _wZJiiIv5;
+        "9S8LfvHV" = _9S8LfvHV;
+        "aH0oyuk3" = _aH0oyuk3;
+        "QV5sXC9h" = _QV5sXC9h;
+        "xrOiye4J" = _xrOiye4J;
+        "ZH7rHPnN" = _ZH7rHPnN;
+        "21V3A33i" = _21V3A33i;
+        "F0YS8mU4" = _F0YS8mU4;
+        "forge-1.20.1" = _21V3A33i;
+        "neoforge-1.21.1" = _F0YS8mU4;
         "pkg-20.14.1.0.0" = _ZeSWGQGK;
         "pkg-20.14.1.1.0" = _ZSmSgKiP;
         "pkg-20.14.1.2.0" = _w5hsfZRr;
@@ -186,7 +228,14 @@ let
         "pkg-20.14.1.13.0" = _ETKjWGhG;
         "pkg-20.14.1.13.1" = _2dClYTFx;
         "pkg-20.14.1.14.0" = _XRgGBan5;
-        "default" = _XRgGBan5;
+        "pkg-20.14.1.15.0" = _9S8LfvHV;
+        "pkg-20.14.1.16.0" = _aH0oyuk3;
+        "pkg-20.14.1.16.1" = _QV5sXC9h;
+        "pkg-20.14.1.16.2" = _xrOiye4J;
+        "pkg-20.14.1.16.3" = _ZH7rHPnN;
+        "pkg-20.14.1.16.4" = _21V3A33i;
+        "pkg-21.17.1.2.0" = _F0YS8mU4;
+        "default" = _F0YS8mU4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "epic-fight-dawn-day";

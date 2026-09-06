@@ -36,6 +36,16 @@ let
             "file" = "abundant-vegetation-0.2.jar";
             "hash" = "sha512-JnRTRZEUXw26/yef+7aQzNoBas1xkcNNvVz1dHblAOyRDtPO0LXUXR6ZOSjfrYSLLje0Y7peaFg5eRjfB6+Npg==";
         };
+        _pp0wtyJm = {
+            "id" = "pp0wtyJm";
+            "file" = "abundant_vegetation_v0.3_Beta 1.19.2~1.20.4.zip";
+            "hash" = "sha512-ebuc3C5JkjL1Znsh9CWibZBdLQR/IUojknAJfs/yqzTaRztRipPdnwVWZD0d1P6gY5SbgTywXpIAq6V3BFkPtQ==";
+        };
+        _7jpYiYu5 = {
+            "id" = "7jpYiYu5";
+            "file" = "abundant-vegetation-0.3.jar";
+            "hash" = "sha512-PUuPUc3IUN5VatqIiJDl00XTv22vhRYl6Jr6h4R0QpcoP5whivnFFDYGo8WCes+2QiRQuC0fKrpA6E17UWPlNg==";
+        };
     in {
         "toIWfiIz" = _toIWfiIz;
         "6UddsrjO" = _6UddsrjO;
@@ -44,11 +54,13 @@ let
         "Xk5qVhEp" = _Xk5qVhEp;
         "LmIcZLhJ" = _LmIcZLhJ;
         "vIwehGkm" = _vIwehGkm;
-        "datapack-1.20" = _6UddsrjO;
-        "datapack-1.20.1" = _6UddsrjO;
-        "datapack-1.20.2" = _6UddsrjO;
-        "datapack-1.20.3" = _6UddsrjO;
-        "datapack-1.20.4" = _6UddsrjO;
+        "pp0wtyJm" = _pp0wtyJm;
+        "7jpYiYu5" = _7jpYiYu5;
+        "datapack-1.20" = _pp0wtyJm;
+        "datapack-1.20.1" = _pp0wtyJm;
+        "datapack-1.20.2" = _pp0wtyJm;
+        "datapack-1.20.3" = _pp0wtyJm;
+        "datapack-1.20.4" = _pp0wtyJm;
         "datapack-1.19.2" = _6UddsrjO;
         "datapack-1.19.3" = _6UddsrjO;
         "datapack-1.19.4" = _6UddsrjO;
@@ -62,11 +74,11 @@ let
         "fabric-1.19.2" = _Xk5qVhEp;
         "fabric-1.19.3" = _Xk5qVhEp;
         "fabric-1.19.4" = _Xk5qVhEp;
-        "fabric-1.20" = _Xk5qVhEp;
-        "fabric-1.20.1" = _Xk5qVhEp;
-        "fabric-1.20.2" = _Xk5qVhEp;
-        "fabric-1.20.3" = _Xk5qVhEp;
-        "fabric-1.20.4" = _Xk5qVhEp;
+        "fabric-1.20" = _7jpYiYu5;
+        "fabric-1.20.1" = _7jpYiYu5;
+        "fabric-1.20.2" = _7jpYiYu5;
+        "fabric-1.20.3" = _7jpYiYu5;
+        "fabric-1.20.4" = _7jpYiYu5;
         "fabric-1.21.4" = _LmIcZLhJ;
         "fabric-1.20.5" = _vIwehGkm;
         "fabric-1.20.6" = _vIwehGkm;
@@ -77,11 +89,11 @@ let
         "forge-1.19.2" = _Xk5qVhEp;
         "forge-1.19.3" = _Xk5qVhEp;
         "forge-1.19.4" = _Xk5qVhEp;
-        "forge-1.20" = _Xk5qVhEp;
-        "forge-1.20.1" = _Xk5qVhEp;
-        "forge-1.20.2" = _Xk5qVhEp;
-        "forge-1.20.3" = _Xk5qVhEp;
-        "forge-1.20.4" = _Xk5qVhEp;
+        "forge-1.20" = _7jpYiYu5;
+        "forge-1.20.1" = _7jpYiYu5;
+        "forge-1.20.2" = _7jpYiYu5;
+        "forge-1.20.3" = _7jpYiYu5;
+        "forge-1.20.4" = _7jpYiYu5;
         "forge-1.21.4" = _LmIcZLhJ;
         "forge-1.20.5" = _vIwehGkm;
         "forge-1.20.6" = _vIwehGkm;
@@ -92,11 +104,11 @@ let
         "neoforge-1.19.2" = _Xk5qVhEp;
         "neoforge-1.19.3" = _Xk5qVhEp;
         "neoforge-1.19.4" = _Xk5qVhEp;
-        "neoforge-1.20" = _Xk5qVhEp;
-        "neoforge-1.20.1" = _Xk5qVhEp;
-        "neoforge-1.20.2" = _Xk5qVhEp;
-        "neoforge-1.20.3" = _Xk5qVhEp;
-        "neoforge-1.20.4" = _Xk5qVhEp;
+        "neoforge-1.20" = _7jpYiYu5;
+        "neoforge-1.20.1" = _7jpYiYu5;
+        "neoforge-1.20.2" = _7jpYiYu5;
+        "neoforge-1.20.3" = _7jpYiYu5;
+        "neoforge-1.20.4" = _7jpYiYu5;
         "neoforge-1.21.4" = _LmIcZLhJ;
         "neoforge-1.20.5" = _vIwehGkm;
         "neoforge-1.20.6" = _vIwehGkm;
@@ -107,11 +119,11 @@ let
         "quilt-1.19.2" = _Xk5qVhEp;
         "quilt-1.19.3" = _Xk5qVhEp;
         "quilt-1.19.4" = _Xk5qVhEp;
-        "quilt-1.20" = _Xk5qVhEp;
-        "quilt-1.20.1" = _Xk5qVhEp;
-        "quilt-1.20.2" = _Xk5qVhEp;
-        "quilt-1.20.3" = _Xk5qVhEp;
-        "quilt-1.20.4" = _Xk5qVhEp;
+        "quilt-1.20" = _7jpYiYu5;
+        "quilt-1.20.1" = _7jpYiYu5;
+        "quilt-1.20.2" = _7jpYiYu5;
+        "quilt-1.20.3" = _7jpYiYu5;
+        "quilt-1.20.4" = _7jpYiYu5;
         "quilt-1.21.4" = _LmIcZLhJ;
         "quilt-1.20.5" = _vIwehGkm;
         "quilt-1.20.6" = _vIwehGkm;
@@ -122,7 +134,9 @@ let
         "pkg-0.1" = _toIWfiIz;
         "pkg-0.2" = _thCzxZzy;
         "pkg-0.2+mod" = _vIwehGkm;
-        "default" = _vIwehGkm;
+        "pkg-0.3" = _pp0wtyJm;
+        "pkg-0.3+mod" = _7jpYiYu5;
+        "default" = _7jpYiYu5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "abundant-vegetation";

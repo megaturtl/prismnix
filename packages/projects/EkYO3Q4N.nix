@@ -105,6 +105,10 @@ let
         "paper-1.21.10" = _trKCXB6B;
         "paper-1.0" = _x5clvYZA;
         "paper-1.21.11" = _trKCXB6B;
+        "paper-26.1" = _trKCXB6B;
+        "paper-26.1.1" = _trKCXB6B;
+        "paper-26.1.2" = _trKCXB6B;
+        "paper-26.2" = _trKCXB6B;
         "spigot-1.19" = _hGTZRkx5;
         "spigot-1.19.1" = _hGTZRkx5;
         "spigot-1.19.2" = _hGTZRkx5;

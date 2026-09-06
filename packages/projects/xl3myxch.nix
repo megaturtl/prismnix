@@ -616,6 +616,11 @@ let
             "file" = "apexcore-26.2.0.jar";
             "hash" = "sha512-0IoJJFA4IRPVEf5u1VlmOVaduZrvm7ajSxFEtwzyCB6QQJSf5PYYwd+9a0L1o0B0yfnciVYKkmQ+B1Eu9VnbEQ==";
         };
+        _E71ieo55 = {
+            "id" = "E71ieo55";
+            "file" = "apexcore-26.2.3.jar";
+            "hash" = "sha512-NEpypi0n/3lE9UfZdNde/6E+2q5sMRiNAkXM8kRH66DxvQi4jcb03oQs1H4/pZ1cuYsiuz8DsrvOAvXOzS1MQQ==";
+        };
     in {
         "k41ISvNa" = _k41ISvNa;
         "qN75hvkE" = _qN75hvkE;
@@ -740,6 +745,7 @@ let
         "ccHXedYu" = _ccHXedYu;
         "Xc9AVbkn" = _Xc9AVbkn;
         "e14VtFSd" = _e14VtFSd;
+        "E71ieo55" = _E71ieo55;
         "forge-1.16.5" = _yN7aMb5u;
         "forge-1.18.1" = _fSyFE6Vr;
         "forge-1.18.2" = _1Y9sPCk7;
@@ -762,7 +768,7 @@ let
         "neoforge-26.1" = _Xc9AVbkn;
         "neoforge-26.1.1" = _Xc9AVbkn;
         "neoforge-26.1.2" = _Xc9AVbkn;
-        "neoforge-26.2" = _e14VtFSd;
+        "neoforge-26.2" = _E71ieo55;
         "pkg-1.1.30" = _k41ISvNa;
         "pkg-1.2.0" = _qN75hvkE;
         "pkg-3.0.7" = _mcb6CX6v;
@@ -885,7 +891,8 @@ let
         "pkg-26.1.2" = _ccHXedYu;
         "pkg-26.1.4" = _Xc9AVbkn;
         "pkg-26.2.0" = _e14VtFSd;
-        "default" = _e14VtFSd;
+        "pkg-26.2.3" = _E71ieo55;
+        "default" = _E71ieo55;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "apexcore";

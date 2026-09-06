@@ -91,6 +91,9 @@ let
         "datapack-26.3-snapshot-5" = _jFkL5oO0;
         "datapack-26.3-snapshot-6" = _jFkL5oO0;
         "datapack-26.3-snapshot-7" = _jFkL5oO0;
+        "datapack-26.3-snapshot-8" = _jFkL5oO0;
+        "datapack-26.3-snapshot-9" = _jFkL5oO0;
+        "datapack-26.3-snapshot-10" = _jFkL5oO0;
         "fabric-1.17" = _HPfnOa6G;
         "fabric-1.17.1" = _HPfnOa6G;
         "fabric-1.18" = _HPfnOa6G;
@@ -132,6 +135,9 @@ let
         "fabric-26.3-snapshot-5" = _VqdY2vwC;
         "fabric-26.3-snapshot-6" = _VqdY2vwC;
         "fabric-26.3-snapshot-7" = _VqdY2vwC;
+        "fabric-26.3-snapshot-8" = _VqdY2vwC;
+        "fabric-26.3-snapshot-9" = _VqdY2vwC;
+        "fabric-26.3-snapshot-10" = _VqdY2vwC;
         "forge-1.17" = _HPfnOa6G;
         "forge-1.17.1" = _HPfnOa6G;
         "forge-1.18" = _HPfnOa6G;
@@ -173,6 +179,9 @@ let
         "forge-26.3-snapshot-5" = _VqdY2vwC;
         "forge-26.3-snapshot-6" = _VqdY2vwC;
         "forge-26.3-snapshot-7" = _VqdY2vwC;
+        "forge-26.3-snapshot-8" = _VqdY2vwC;
+        "forge-26.3-snapshot-9" = _VqdY2vwC;
+        "forge-26.3-snapshot-10" = _VqdY2vwC;
         "neoforge-1.17" = _HPfnOa6G;
         "neoforge-1.17.1" = _HPfnOa6G;
         "neoforge-1.18" = _HPfnOa6G;
@@ -214,6 +223,9 @@ let
         "neoforge-26.3-snapshot-5" = _VqdY2vwC;
         "neoforge-26.3-snapshot-6" = _VqdY2vwC;
         "neoforge-26.3-snapshot-7" = _VqdY2vwC;
+        "neoforge-26.3-snapshot-8" = _VqdY2vwC;
+        "neoforge-26.3-snapshot-9" = _VqdY2vwC;
+        "neoforge-26.3-snapshot-10" = _VqdY2vwC;
         "quilt-1.17" = _HPfnOa6G;
         "quilt-1.17.1" = _HPfnOa6G;
         "quilt-1.18" = _HPfnOa6G;
@@ -255,6 +267,9 @@ let
         "quilt-26.3-snapshot-5" = _VqdY2vwC;
         "quilt-26.3-snapshot-6" = _VqdY2vwC;
         "quilt-26.3-snapshot-7" = _VqdY2vwC;
+        "quilt-26.3-snapshot-8" = _VqdY2vwC;
+        "quilt-26.3-snapshot-9" = _VqdY2vwC;
+        "quilt-26.3-snapshot-10" = _VqdY2vwC;
         "pkg-1.0+datapack" = _SCIudYUC;
         "pkg-1.1+datapack" = _bWcsLV8B;
         "pkg-1.0+mod" = _HPfnOa6G;

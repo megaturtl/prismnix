@@ -161,6 +161,96 @@ let
             "file" = "bonesupdate-forge-1.21.6-1.2.4.jar";
             "hash" = "sha512-XMVsQ2BnQfFVekmLC2aX9KbtOpKt4oxxcZ3bqHW64ynCK+7Sj9rLe9W5sY/IR0uC14NOa0ChF4sjutk8QH6czg==";
         };
+        _rwQaxITT = {
+            "id" = "rwQaxITT";
+            "file" = "bonesupdate-forge-1.21.7-1.2.4.jar";
+            "hash" = "sha512-J2xNFIwSD2mQtXab9DZJSVdnbUE92TyRXO3WoFSyRlRrbhA2x8cBC/Keq/yBeQ0jNBRD2jChAd4hudypedAo+w==";
+        };
+        _pmhPFLHM = {
+            "id" = "pmhPFLHM";
+            "file" = "bonesupdate-forge-1.21.8-1.2.4.jar";
+            "hash" = "sha512-iumfQW6aMNu9WjVa12R28i9/gBbXwOTBpQ/FsYfQxhEDLLI46DOLkq/KeLArHzExzIPM7QlUsnbjHrKjiJ6z3w==";
+        };
+        _6ooq1z8t = {
+            "id" = "6ooq1z8t";
+            "file" = "bonesupdate-forge-1.21.9-1.2.4.jar";
+            "hash" = "sha512-iglHGVtEtOnM/8EoHeHBfgd0cpmquRBIlE2JsPoxAzqwhbZYEBYzTJoLVV0PaMOZffdNEpp4k+IEBhFVjEXM8A==";
+        };
+        _7eYnVS1d = {
+            "id" = "7eYnVS1d";
+            "file" = "bonesupdate-neoforge-1.21.9-1.2.4.jar";
+            "hash" = "sha512-CcSeDNHpsq2Mhao4vAGz8FPR4A7vglR9gkLBMR984SNmXeGnNMllF/L+irxRzj1j1i6IjSAXqzR3L0ot992W1w==";
+        };
+        _ODW5n1Je = {
+            "id" = "ODW5n1Je";
+            "file" = "bonesupdate-neoforge-1.21.10-1.2.4.jar";
+            "hash" = "sha512-qzNyEvZ5hPCyrrZ2/fKyY6kOqul8eyfOZKTipaHiTj29U+jBsXHNrB8BR+D4pbuzBVZOakx8hdQ1c7zuRaeroQ==";
+        };
+        _8ET9Urq5 = {
+            "id" = "8ET9Urq5";
+            "file" = "bonesupdate-neoforge-1.21.5-1.2.5.jar";
+            "hash" = "sha512-uu7PvjfAnRfKXs4uY6j7nZ6wkj2VagyVEqWwy2W1aQcDznVqFj/RS+98uN/oUkT4lYINm6Q9f+ZTFRQZWbJ2Ww==";
+        };
+        _rdRGuUZ5 = {
+            "id" = "rdRGuUZ5";
+            "file" = "bonesupdate-neoforge-1.21.6-1.2.5.jar";
+            "hash" = "sha512-3KXdr8gKGIIkrlSVEhDIAzAgC5OejN/oaSJrxv3XqKg2iWX3maU77YI3wcFItn4kp/G9za8RS3qyL8MvLf/WWw==";
+        };
+        _EHzslj2x = {
+            "id" = "EHzslj2x";
+            "file" = "bonesupdate-neoforge-1.21.7-1.2.5.jar";
+            "hash" = "sha512-3IME7i3EwA7ZJ55ilT8hnSF4AO5/8cUa5FTC45qAUmxpVwM6Vc15X3EolgoY5v5jP9BNIpwcmNq/pxXsPGS9eg==";
+        };
+        _r9BCetIh = {
+            "id" = "r9BCetIh";
+            "file" = "bonesupdate-neoforge-1.21.8-1.2.5.jar";
+            "hash" = "sha512-Wr+6mks4NLiUymvSrnNpNwUPLvKOys6zYiqJrsCYGqYY0kOBkmLDjDERnlWtOMqx+92hsOyGddlmvzbB9fvW1g==";
+        };
+        _Y8l5MCyK = {
+            "id" = "Y8l5MCyK";
+            "file" = "bonesupdate-neoforge-1.21.10-1.2.5.jar";
+            "hash" = "sha512-+6opwa+EtlS2JRqYpsHaPzHmebrmzpAKHUijMvxe1GD9OlEFQilVQ3wWzTlQPFC9yD3NrCiFFKgh+WtNuTNLqQ==";
+        };
+        _rZLXc2yd = {
+            "id" = "rZLXc2yd";
+            "file" = "bonesupdate-neoforge-1.21.9-1.2.5.jar";
+            "hash" = "sha512-udNfdPpHeNOK/bsRjYebD0A1DHDmPh67WfAjHKyrobY8qG6HcCUtLx1PeL6d7Z11zeuBVj6rgp7D67aUAkjbjg==";
+        };
+        _e9mmq2s0 = {
+            "id" = "e9mmq2s0";
+            "file" = "bonesupdate-forge-1.21.5-1.2.5.jar";
+            "hash" = "sha512-ra0DS448kFdpeV1b468Z88uVjKDT3uZ5x16dbQfr7VDJx9q36LkzV94QNpRkQcZjfPj8ue4UDJfrbPXB31YyyQ==";
+        };
+        _NC8QzVBZ = {
+            "id" = "NC8QzVBZ";
+            "file" = "bonesupdate-forge-1.21.6-1.2.5.jar";
+            "hash" = "sha512-F2o9rO+nV+l/68uDWyTDTYIO5pdPracPG8z2dwdbYJzqBU8zokrRaBfaqUaWXnEZWO4CfUMycnTbVeuuFhAFEg==";
+        };
+        _dvnoj8ga = {
+            "id" = "dvnoj8ga";
+            "file" = "bonesupdate-forge-1.21.7-1.2.5.jar";
+            "hash" = "sha512-w1n52/XK26ndwAplr4d9L5hhxEqrMhLLLy86lp7MDvyVL8Fh9aickHlMw7vTzRrw+KhJXHAUuFgktP9ynE1EAQ==";
+        };
+        _s08GP3S8 = {
+            "id" = "s08GP3S8";
+            "file" = "bonesupdate-forge-1.21.8-1.2.5.jar";
+            "hash" = "sha512-whMkSPrECVuwyYB0S0zWIaXIl4rv/bua6PNPDCUEtp4F+d0Z++Gbwo2OwFf7Gyg1TarUPaQzPo9TVLw2t8ieJg==";
+        };
+        _tYBAybxE = {
+            "id" = "tYBAybxE";
+            "file" = "bonesupdate-forge-1.21.9-1.2.5.jar";
+            "hash" = "sha512-3DgKNB1hht2v86Shal/S+ZZj4maBPOgEUMfiMBG9N0byZM2DqSSR6FqRjbzpbNi8vbkaDnHEBFg8PuJE3tRrYw==";
+        };
+        _PxRo0SUp = {
+            "id" = "PxRo0SUp";
+            "file" = "bonesupdate-forge-1.21.10-1.2.5.jar";
+            "hash" = "sha512-GUO6R2McRwPTfASlP89FgNQ/NhRqr8rh8+JI1nKxH+oWQiDETFEYc/AqqhbhbXEnUkbAcpEkI1T0rRzXdiixNQ==";
+        };
+        _jiIezX6L = {
+            "id" = "jiIezX6L";
+            "file" = "bonesupdate-neoforge-1.21.11-1.3.0.jar";
+            "hash" = "sha512-o1bj7cskpCjfBIA/CkBiIdd6cJYDaT/EIb8iQDPVYlRalZiApVghjXnAH5ACr1OgJtQX5Rycc6XSFHKd3jzkwQ==";
+        };
     in {
         "GBFL1Xiu" = _GBFL1Xiu;
         "bbkLlDaG" = _bbkLlDaG;
@@ -194,6 +284,24 @@ let
         "sNRkbiTF" = _sNRkbiTF;
         "dftiCsUe" = _dftiCsUe;
         "mg29Dnpa" = _mg29Dnpa;
+        "rwQaxITT" = _rwQaxITT;
+        "pmhPFLHM" = _pmhPFLHM;
+        "6ooq1z8t" = _6ooq1z8t;
+        "7eYnVS1d" = _7eYnVS1d;
+        "ODW5n1Je" = _ODW5n1Je;
+        "8ET9Urq5" = _8ET9Urq5;
+        "rdRGuUZ5" = _rdRGuUZ5;
+        "EHzslj2x" = _EHzslj2x;
+        "r9BCetIh" = _r9BCetIh;
+        "Y8l5MCyK" = _Y8l5MCyK;
+        "rZLXc2yd" = _rZLXc2yd;
+        "e9mmq2s0" = _e9mmq2s0;
+        "NC8QzVBZ" = _NC8QzVBZ;
+        "dvnoj8ga" = _dvnoj8ga;
+        "s08GP3S8" = _s08GP3S8;
+        "tYBAybxE" = _tYBAybxE;
+        "PxRo0SUp" = _PxRo0SUp;
+        "jiIezX6L" = _jiIezX6L;
         "forge-1.19.4" = _6jIYIEEN;
         "forge-1.20.1" = _JwugI59w;
         "forge-1.20.3" = _BsXqdgUE;
@@ -203,17 +311,24 @@ let
         "forge-1.21.1" = _r0wPYgX0;
         "forge-1.21.3" = _ryLini4N;
         "forge-1.21.4" = _sNRkbiTF;
-        "forge-1.21.5" = _dftiCsUe;
-        "forge-1.21.6" = _mg29Dnpa;
+        "forge-1.21.5" = _e9mmq2s0;
+        "forge-1.21.6" = _NC8QzVBZ;
+        "forge-1.21.7" = _dvnoj8ga;
+        "forge-1.21.8" = _s08GP3S8;
+        "forge-1.21.9" = _tYBAybxE;
+        "forge-1.21.10" = _PxRo0SUp;
         "neoforge-1.20.6" = _dfAX04wM;
         "neoforge-1.21" = _HPgz3Gac;
         "neoforge-1.21.1" = _oUZOzRzW;
         "neoforge-1.21.3" = _P7hkb44W;
         "neoforge-1.21.4" = _c0XuOqZF;
-        "neoforge-1.21.5" = _y6hhYtwL;
-        "neoforge-1.21.6" = _YAGbKtc5;
-        "neoforge-1.21.7" = _xmAzGYnS;
-        "neoforge-1.21.8" = _k2c0x4RK;
+        "neoforge-1.21.5" = _8ET9Urq5;
+        "neoforge-1.21.6" = _rdRGuUZ5;
+        "neoforge-1.21.7" = _EHzslj2x;
+        "neoforge-1.21.8" = _r9BCetIh;
+        "neoforge-1.21.9" = _rZLXc2yd;
+        "neoforge-1.21.10" = _Y8l5MCyK;
+        "neoforge-1.21.11" = _jiIezX6L;
         "pkg-1.0.0-F1.19.4" = _GBFL1Xiu;
         "pkg-1.1.0-F1.19.4" = _bbkLlDaG;
         "pkg-1.2.0-F1.19.4" = _6jIYIEEN;
@@ -246,7 +361,25 @@ let
         "pkg-1.2.4-F1.21.4" = _sNRkbiTF;
         "pkg-1.2.4-F1.21.5" = _dftiCsUe;
         "pkg-1.2.4-F1.21.6" = _mg29Dnpa;
-        "default" = _mg29Dnpa;
+        "pkg-1.2.4-F1.21.7" = _rwQaxITT;
+        "pkg-1.2.4-F1.21.8" = _pmhPFLHM;
+        "pkg-1.2.4-F1.21.9" = _6ooq1z8t;
+        "pkg-1.2.4-NF1.21.9" = _7eYnVS1d;
+        "pkg-1.2.4-NF1.21.10" = _ODW5n1Je;
+        "pkg-1.2.5-NF1.21.5" = _8ET9Urq5;
+        "pkg-1.2.5-NF1.21.6" = _rdRGuUZ5;
+        "pkg-1.2.5-NF1.21.7" = _EHzslj2x;
+        "pkg-1.2.5-NF1.21.8" = _r9BCetIh;
+        "pkg-1.2.5-NF1.21.10" = _Y8l5MCyK;
+        "pkg-1.2.5-NF1.21.9" = _rZLXc2yd;
+        "pkg-1.2.5-F1.21.5" = _e9mmq2s0;
+        "pkg-1.2.5-F1.21.6" = _NC8QzVBZ;
+        "pkg-1.2.5-F1.21.7" = _dvnoj8ga;
+        "pkg-1.2.5-F1.21.8" = _s08GP3S8;
+        "pkg-1.2.5-F1.21.9" = _tYBAybxE;
+        "pkg-1.2.5-F1.21.10" = _PxRo0SUp;
+        "pkg-1.3.0-NF1.21.11" = _jiIezX6L;
+        "default" = _jiIezX6L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bones-update";

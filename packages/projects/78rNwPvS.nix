@@ -116,6 +116,16 @@ let
             "file" = "MoreUpgradeTemplate-1.21.1-neoforge-0.5.0-beta1.jar";
             "hash" = "sha512-fKzVI4h4MbZbeIL0nZ55xnG8LUxaunYr1YlIUPACB/f4E29YBc7C3CZLKyt+YbPJQYuYERtdKbsndOEPquF/nw==";
         };
+        _hQKNxSku = {
+            "id" = "hQKNxSku";
+            "file" = "MoreUpgradeTemplate-1.21.1-neoforge-0.5.0-beta2.jar";
+            "hash" = "sha512-cuNfOJ2bUHdnp9br4QLdXrvCoU/bnW2cT+FO0Ezr0fjHW2m+3aUQ5hLQs78etpgKehQn+MLQRhFZRdEpV1FyKg==";
+        };
+        _ZbnePEhg = {
+            "id" = "ZbnePEhg";
+            "file" = "MoreUpgradeTemplate-1.21.1-neoforge-0.5.0-beta3.jar";
+            "hash" = "sha512-BHkIyP+/VaHCTp+5e2Dn1lBgdZp9G8Xsg5rm1JJoxBWJwqXOC5uDsjtt9O9gJfY6ZlxJkKSagOrJQs2XFnhcVw==";
+        };
     in {
         "50OyDevj" = _50OyDevj;
         "J5gb7VtM" = _J5gb7VtM;
@@ -140,8 +150,10 @@ let
         "C930k6FG" = _C930k6FG;
         "Us8rAglJ" = _Us8rAglJ;
         "wqV2eHnh" = _wqV2eHnh;
+        "hQKNxSku" = _hQKNxSku;
+        "ZbnePEhg" = _ZbnePEhg;
         "forge-1.20.1" = _Us8rAglJ;
-        "neoforge-1.21.1" = _wqV2eHnh;
+        "neoforge-1.21.1" = _ZbnePEhg;
         "pkg-1.2.6" = _50OyDevj;
         "pkg-0.1.0a" = _J5gb7VtM;
         "pkg-0.1.0b" = _qpJFOVMT;
@@ -164,7 +176,9 @@ let
         "pkg-1.2.8" = _C930k6FG;
         "pkg-1.2.8a" = _Us8rAglJ;
         "pkg-0.5.0-beta-1" = _wqV2eHnh;
-        "default" = _wqV2eHnh;
+        "pkg-0.5.0-beta2" = _hQKNxSku;
+        "pkg-0.5.0-beta3" = _ZbnePEhg;
+        "default" = _ZbnePEhg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "moreupgradetemplate";

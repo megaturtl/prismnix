@@ -66,6 +66,11 @@ let
             "file" = "sim_copycats-1.3.1.jar";
             "hash" = "sha512-dKNMvLgUWiuaX8a9YBFWBdII+iHIkIYfQ7Q3e0fAaBIzwfj3h/n2+J2ST59jIxRV0Ci/+YVnB8tlWwA8s8D7OA==";
         };
+        _6zbD44Qe = {
+            "id" = "6zbD44Qe";
+            "file" = "sim_copycats-1.3.2.jar";
+            "hash" = "sha512-7hHP1vNhbv/U3C7Fxcs1MuT1FV6waEwHl2yhG/xnPnhEs4NDYNOJ23TiJc/0k09asLtVDwmtz7OXJumM6IlonA==";
+        };
     in {
         "RLgGY3TC" = _RLgGY3TC;
         "BRYmDCPF" = _BRYmDCPF;
@@ -80,7 +85,8 @@ let
         "2ROaQKiA" = _2ROaQKiA;
         "tkfBRjqK" = _tkfBRjqK;
         "HQIoiO2c" = _HQIoiO2c;
-        "neoforge-1.21.1" = _HQIoiO2c;
+        "6zbD44Qe" = _6zbD44Qe;
+        "neoforge-1.21.1" = _6zbD44Qe;
         "pkg-0.8" = _RLgGY3TC;
         "pkg-0.9" = _BRYmDCPF;
         "pkg-1.0" = _pDkcFIi0;
@@ -94,7 +100,8 @@ let
         "pkg-1.2.0" = _2ROaQKiA;
         "pkg-1.3.0" = _tkfBRjqK;
         "pkg-1.3.1" = _HQIoiO2c;
-        "default" = _HQIoiO2c;
+        "pkg-1.3.2" = _6zbD44Qe;
+        "default" = _6zbD44Qe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simulated-copycats";

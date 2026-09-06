@@ -131,6 +131,16 @@ let
             "file" = "MonumentaRP_v6.1.0.zip";
             "hash" = "sha512-xhA0vfarePRi5sVsYGMg4O6qOj7KXmfK+Rh9CuVPTQFAeqSOMWynJy/CKw4gFslaPAuYYKiczKr0qv9sMyH65A==";
         };
+        _FWj61OpU = {
+            "id" = "FWj61OpU";
+            "file" = "MonumentaRP_v6.2.0.zip";
+            "hash" = "sha512-J/wG8jtapQ5qI65hIl67ZkPPPAiQGww0b8HzJtJ4kBvP8za9pUQX0yMIpKu+ErOd8MeBeSWAMvzURNSkDTCZQA==";
+        };
+        _pUW8VAWf = {
+            "id" = "pUW8VAWf";
+            "file" = "MonumentaRP_v6.3.0.zip";
+            "hash" = "sha512-yM9ogWatm3KVebRIqx4mfxc4QmICQsTewOlbvFh3/ut5ECgjPsQ8LaBQc0wrjMvY9A6uVzRxtgdTg1vsWdNu5A==";
+        };
     in {
         "Pjz5ZumP" = _Pjz5ZumP;
         "M8ng9BYY" = _M8ng9BYY;
@@ -158,11 +168,13 @@ let
         "jrXUB8NZ" = _jrXUB8NZ;
         "yu7uRXMK" = _yu7uRXMK;
         "ud2dFJ6f" = _ud2dFJ6f;
+        "FWj61OpU" = _FWj61OpU;
+        "pUW8VAWf" = _pUW8VAWf;
         "minecraft-1.19.4" = _Su09uk7c;
         "minecraft-1.20" = _oCkLlreJ;
         "minecraft-1.20.1" = _oCkLlreJ;
         "minecraft-1.20.2" = _oCkLlreJ;
-        "minecraft-1.20.4" = _ud2dFJ6f;
+        "minecraft-1.20.4" = _pUW8VAWf;
         "pkg-4.4.0" = _Pjz5ZumP;
         "pkg-4.4.1" = _M8ng9BYY;
         "pkg-4.4.2" = _cI0slrFO;
@@ -189,7 +201,9 @@ let
         "pkg-5.12.1" = _jrXUB8NZ;
         "pkg-6.0.0" = _yu7uRXMK;
         "pkg-6.1.0" = _ud2dFJ6f;
-        "default" = _ud2dFJ6f;
+        "pkg-6.2.0" = _FWj61OpU;
+        "pkg-6.3.0" = _pUW8VAWf;
+        "default" = _pUW8VAWf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "monumenta-mmo-resource-pack";

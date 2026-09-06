@@ -51,6 +51,56 @@ let
             "file" = "mcpaintball-1.2.0.jar";
             "hash" = "sha512-0DHG9q/a3fA+VCNm1w56WoxD1rN7RxKj/XdxZeVKPKrQ/wcyD8BhEbbtZWOttsbsaHcVwrHrcRlOus3d1dTkYA==";
         };
+        _Vm8S6UHQ = {
+            "id" = "Vm8S6UHQ";
+            "file" = "26.1-MCPaintball-1.3.0.jar";
+            "hash" = "sha512-jG2YaCTtKvdKFz9y79Ki/W+pmXNa7LGh7qLPmfMttli8T2nFPD1z/ktAZsYlW5Rp2oUps8iKqtZUN3JwfqzetA==";
+        };
+        _ffx1r19V = {
+            "id" = "ffx1r19V";
+            "file" = "26-2-mcpaintball-1.3.0.jar";
+            "hash" = "sha512-fG0KvkEaE5OV6sOq8/qsJJ4RL+OYHeFbyLbojCn0xiffVCdJjp33DH1AQsg5RHWVndD/G5QOKJYE6XE9AjRTzA==";
+        };
+        _N5WWbMUH = {
+            "id" = "N5WWbMUH";
+            "file" = "mcpaintball-1.3.0.jar";
+            "hash" = "sha512-LiiyeCEsN2eb64CgVscSoPJtfaUS3f3z9q8DbiP7aVL8Fy4YqROLkwywaYNRbepIh9zC6KcJ0DQrK6/Q0ukokg==";
+        };
+        _TurLv8Ct = {
+            "id" = "TurLv8Ct";
+            "file" = "mcpaintball-1.3.0.jar";
+            "hash" = "sha512-QAlRJodsDHORPH5vey61krBqQ+p5tAJfKM1ib6sLNjCp2W1k8NuZV0cbC8QqW+0z5DuBmusdbvSyJWpqWaMbWw==";
+        };
+        _Bw36zSo2 = {
+            "id" = "Bw36zSo2";
+            "file" = "mcpaintball-1.4.0.jar";
+            "hash" = "sha512-bqXqHxpXfSrp0pYc3GysfqcPngr0ALyCIa0J0AjnahKQ7m3OTEvOTX+BUk8+NHsLfP0z9NsXpGkPvEqSduzlxQ==";
+        };
+        _6BGhgTCC = {
+            "id" = "6BGhgTCC";
+            "file" = "26.1-MCPaintball-1.4.0.jar";
+            "hash" = "sha512-o6PNYluQPNUwz+uSr+VOzds6Y+L/YUPELtAhhkBwL7utMfzXI2JzZPLYzm0kJPiHCDTRZzs1g98I8SJ54HdgYQ==";
+        };
+        _b9pZSiGw = {
+            "id" = "b9pZSiGw";
+            "file" = "mcpaintball-2.0.0.jar";
+            "hash" = "sha512-jlnr1QBAU5pYGXoHQt+M4dgm7jnD35eEJAEOATQG+iAHSs+QB4q7q6H4+d2X82SSClPWx/wfH2Asrptm6M6q/w==";
+        };
+        _iwcZWXV1 = {
+            "id" = "iwcZWXV1";
+            "file" = "26.1-MCPaintball-2.0.0.jar";
+            "hash" = "sha512-tGw75i39cqf4YjniZsePOAuf+V6JqsPaBfqmlycuN7X2yht7ZjFt4yzzeCDPshZ1tBY4O4mwdSanP8OxjWXuDg==";
+        };
+        _ZamxmYhF = {
+            "id" = "ZamxmYhF";
+            "file" = "26.1-MCPaintball-2.1.0.jar";
+            "hash" = "sha512-vK+cZCox54p0MrXueEY056RDR1OD9Wpeda1S0yt8GUpGXqOXBcthbQhqI+Y7X/kHMyLMjBqpHzA9NqQ0ZQep5w==";
+        };
+        _4mBKw6j0 = {
+            "id" = "4mBKw6j0";
+            "file" = "mcpaintball-2.1.0.jar";
+            "hash" = "sha512-A9+9+5TrBdTHke2+oH+VEVfjQrxvaiayYpQMwJXvYKtYG1RN05Xn5wcKxjqW3NJXRRbDHqPJb6kDHWxL2oMjHg==";
+        };
     in {
         "UN6cI5lg" = _UN6cI5lg;
         "jcrMzPhY" = _jcrMzPhY;
@@ -62,15 +112,30 @@ let
         "6F9O1aJO" = _6F9O1aJO;
         "hhTYuqc9" = _hhTYuqc9;
         "64OA4zA5" = _64OA4zA5;
-        "neoforge-26.1.2" = _hhTYuqc9;
-        "neoforge-26.2" = _64OA4zA5;
-        "fabric-26.1.2" = _6F9O1aJO;
-        "fabric-26.2" = _6F9O1aJO;
-        "fabric-26.1.1" = _6F9O1aJO;
+        "Vm8S6UHQ" = _Vm8S6UHQ;
+        "ffx1r19V" = _ffx1r19V;
+        "N5WWbMUH" = _N5WWbMUH;
+        "TurLv8Ct" = _TurLv8Ct;
+        "Bw36zSo2" = _Bw36zSo2;
+        "6BGhgTCC" = _6BGhgTCC;
+        "b9pZSiGw" = _b9pZSiGw;
+        "iwcZWXV1" = _iwcZWXV1;
+        "ZamxmYhF" = _ZamxmYhF;
+        "4mBKw6j0" = _4mBKw6j0;
+        "neoforge-26.1.2" = _4mBKw6j0;
+        "neoforge-26.2" = _4mBKw6j0;
+        "neoforge-26.1.1" = _Bw36zSo2;
+        "fabric-26.1.2" = _ZamxmYhF;
+        "fabric-26.2" = _ZamxmYhF;
+        "fabric-26.1.1" = _ZamxmYhF;
         "pkg-1.0.0" = _jcrMzPhY;
         "pkg-1.1.0" = _VvImBlaD;
         "pkg-1.2.0" = _64OA4zA5;
-        "default" = _64OA4zA5;
+        "pkg-1.3.0" = _TurLv8Ct;
+        "pkg-1.4.0" = _6BGhgTCC;
+        "pkg-2.0.0" = _iwcZWXV1;
+        "pkg-2.1.0" = _4mBKw6j0;
+        "default" = _4mBKw6j0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mc-paintball";

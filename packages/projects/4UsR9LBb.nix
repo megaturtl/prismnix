@@ -106,6 +106,26 @@ let
             "file" = "goety_mastery_of_magic-2.0.2-1.21.1-neoforge.jar";
             "hash" = "sha512-Rul2Yx25rbpwmuzFCfYlsGP04r5pBDgwEcz5F8X2Uu/qthJoql9FqljURAq+by1i97DQXqDAfrYYkbWfYlUFuQ==";
         };
+        _S2u3U3mE = {
+            "id" = "S2u3U3mE";
+            "file" = "goety_mastery_of_magic-2.0.3-1.21.1-neoforge.jar";
+            "hash" = "sha512-lJDZythCAIvABcQmKoHBxYIa2wKWrAyhcsJ2Diw2BQpEcn4wM4Zk5zQe0bcz1dHupAZ3cz+yFwxe9Frus0R3dw==";
+        };
+        _mQ9qbhUQ = {
+            "id" = "mQ9qbhUQ";
+            "file" = "goety_mastery_of_magic-2.0.4-1.20.1.jar";
+            "hash" = "sha512-tkqKewYbwc3Nzr31Y/o9ovIGHHGUOhdI19803BkBoLGfb7ys6faWevfkT25pnOmEx2+soDqaryqBhfPDuwtVDw==";
+        };
+        _eTU9cZ5H = {
+            "id" = "eTU9cZ5H";
+            "file" = "goety_mastery_of_magic-2.0.4-1.21.1-neoforge.jar";
+            "hash" = "sha512-9AJpwpKayoPkHVEP4oTMdLtAuFr0RSipNc23rKq9j+UhZRVaxgyQlBiBX6dA/ll1DKU87T+VjY2h7+237ur1Cg==";
+        };
+        _L7XEGgxJ = {
+            "id" = "L7XEGgxJ";
+            "file" = "goety_mastery_of_magic-2.0.4-1.20.1.jar";
+            "hash" = "sha512-UDTt1VFkCd7/KEAfXhvnVOlkCGhCXz/v2OBkyEcrIZIcJnCwdfohY7nfsym2J0AQwxaaiiFMwYeBZacZ4TE9IA==";
+        };
     in {
         "oqEsvNGs" = _oqEsvNGs;
         "zKPVmRVp" = _zKPVmRVp;
@@ -128,8 +148,12 @@ let
         "mFoLJtv3" = _mFoLJtv3;
         "AzYwcBPT" = _AzYwcBPT;
         "xYmgdJ8N" = _xYmgdJ8N;
-        "forge-1.20.1" = _mFoLJtv3;
-        "neoforge-1.21.1" = _xYmgdJ8N;
+        "S2u3U3mE" = _S2u3U3mE;
+        "mQ9qbhUQ" = _mQ9qbhUQ;
+        "eTU9cZ5H" = _eTU9cZ5H;
+        "L7XEGgxJ" = _L7XEGgxJ;
+        "forge-1.20.1" = _L7XEGgxJ;
+        "neoforge-1.21.1" = _eTU9cZ5H;
         "pkg-1.0.0" = _oqEsvNGs;
         "pkg-1.1.1" = _zKPVmRVp;
         "pkg-1.2.0" = _7gb4Shtd;
@@ -150,7 +174,10 @@ let
         "pkg-2.0.0" = _9UdvG9Cy;
         "pkg-2.0.1" = _AzYwcBPT;
         "pkg-2.0.2" = _xYmgdJ8N;
-        "default" = _xYmgdJ8N;
+        "pkg-2.0.3" = _S2u3U3mE;
+        "pkg-2.0.4" = _eTU9cZ5H;
+        "pkg-2.0.4.1" = _L7XEGgxJ;
+        "default" = _L7XEGgxJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "goety-mastery-of-magic-addon";

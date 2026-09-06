@@ -1,16 +1,6 @@
 {lib, callPackage, ...}:
 let
     versions = (let
-        _X5q3ECfN = {
-            "id" = "X5q3ECfN";
-            "file" = "travelfriendlyfood 1.9.0 1.20.4 fabric.jar";
-            "hash" = "sha512-a1q0HFk0MJ1j94D4Bm2zPzu6B5JEpfHNAfy/SXNnsnhq2hkOT2rjEABOk7VvvaGUnsT9TtrkQ1jZkZgaxDLx7Q==";
-        };
-        _B14pxeEp = {
-            "id" = "B14pxeEp";
-            "file" = "travelfriendlyfood 1.10.0 1.20.2 fabric.jar";
-            "hash" = "sha512-eBqBgl4YbD28HvHSgPHZWYSDI6UWMjGM4GzKhTnn1zCrs0AA6uHnPdnjevKojFSJiM8923jlwQZkOfHQ7CGdUA==";
-        };
         _SI4nAgsz = {
             "id" = "SI4nAgsz";
             "file" = "travelfriendlyfood -1.4.0 1.16.5 forge.jar";
@@ -31,11 +21,6 @@ let
             "file" = "travelfriendlyfood 1.1.0 1.19.2 fabric.jar";
             "hash" = "sha512-ONbiVPehzfbgfw1W30AHZCLOIJuEFIr4+DrVVCbRonm5W//dPgxNFMY4+CdXC0V45AUOjq53CiH2FtO4ekXL5A==";
         };
-        _Gc17sdh9 = {
-            "id" = "Gc17sdh9";
-            "file" = "travelfriendlyfood 1.3.0 1.19.4 forge.jar";
-            "hash" = "sha512-WzzS6Z+JOzl+0YAH92HQH0V6OxIKiWR3oEHLbJ4TM39F09vDGYCfFQgkebdM0L75DLHKFkCIaywmTvknS5fBQg==";
-        };
         _HmEFLrj9 = {
             "id" = "HmEFLrj9";
             "file" = "travelfriendlyfood -1.5.0 1.20.1 forge.jar";
@@ -45,21 +30,6 @@ let
             "id" = "lds87jeY";
             "file" = "travelfriendlyfood 1.0.0 fabric 1.20.1.jar";
             "hash" = "sha512-JdoFodiPjYolEopVGi/OAKUoqQ8RQJ/PhGHwqED1V0XrAOL+AYHra0BstZx96rO2dwdPJ8b4YG4tfiLiEtungA==";
-        };
-        _hosI9TXA = {
-            "id" = "hosI9TXA";
-            "file" = "travelfriendlyfood 1.7.0 1.20.2 forge.jar";
-            "hash" = "sha512-I0D0p6yN77JaKh4mZoRr/rNOPO/P8PTeOqEi9VIGsjxezdc3HJIDaXtfc8E+StQpLA1E7vuj+MBzNiLvfQouuQ==";
-        };
-        _OC0gF1fh = {
-            "id" = "OC0gF1fh";
-            "file" = "travelfriendlyfood 1.8.0 1.20.4 forge.jar";
-            "hash" = "sha512-VptLQN6QSut1JgYBlWecoT18BFImy1Erp4+IwyElChFjBwUFrWayfMi2N9tKc4Rlyi3utZujR8udn9dzoswpfA==";
-        };
-        _ELeLliFZ = {
-            "id" = "ELeLliFZ";
-            "file" = "travel_friendly_food-1.1.2-neoforge-1.20.6.jar";
-            "hash" = "sha512-pRIDBB2dpfuhAw9kheKfZbNmCaWtg3gzDDZndzC+ouQSH7m+joWUAj03MrgL1TG7RJCj9uvpnQTb/Ay0UwwZoA==";
         };
         _kuYIaSAj = {
             "id" = "kuYIaSAj";
@@ -91,28 +61,49 @@ let
             "file" = "travel-bites-1.0.0-fabric-1.21.11.jar";
             "hash" = "sha512-hMwb1JYb8h62iBj+Ucx+VC9QwjaNDMcStCGemO4D6ImPCHmFbNHNjlTsyCo28N0HqAP2sl0qxzvNHkHpNOAGBQ==";
         };
+        _o8MxFg7g = {
+            "id" = "o8MxFg7g";
+            "file" = "travelbites-2.0.0-forge-26.1.2-26.3.jar";
+            "hash" = "sha512-hF9GSdgrIl581hGVa+SJqqtstw3skYXvmODOVg62iepsUCbBLJmOy9cUNjMsydPoQldYifu16Ke5ZWfJyYhKfQ==";
+        };
+        _loygmVX6 = {
+            "id" = "loygmVX6";
+            "file" = "travelbites-2.0.0-neoforge-26.1.2-26.3.jar";
+            "hash" = "sha512-8jUidpFzEcGDZEdPhsaH+66WuKfi4wMbWFNPgaCev+fOXKAQFpSuXDxAZs2kKdv7VYoX+qhaXHGuYi6kwrojaQ==";
+        };
+        _7TXCJsHT = {
+            "id" = "7TXCJsHT";
+            "file" = "travel-bites-2.0.0-fabric-26.1.2-26.3.jar";
+            "hash" = "sha512-wI/TZeLP7vqgyME3gJnb9YbdsIEjUXdcr1pXdwixilAJiwF5VS0InFdVOpdviSRkmIPqcQC5MxmQVID9ErWy1A==";
+        };
     in {
-        "X5q3ECfN" = _X5q3ECfN;
-        "B14pxeEp" = _B14pxeEp;
         "SI4nAgsz" = _SI4nAgsz;
         "AQ2tJlPB" = _AQ2tJlPB;
         "ZdTBIwq2" = _ZdTBIwq2;
         "H1wYSVa9" = _H1wYSVa9;
-        "Gc17sdh9" = _Gc17sdh9;
         "HmEFLrj9" = _HmEFLrj9;
         "lds87jeY" = _lds87jeY;
-        "hosI9TXA" = _hosI9TXA;
-        "OC0gF1fh" = _OC0gF1fh;
-        "ELeLliFZ" = _ELeLliFZ;
         "kuYIaSAj" = _kuYIaSAj;
         "vJVYWN7K" = _vJVYWN7K;
         "WHFPXIIi" = _WHFPXIIi;
         "QqRGFsbN" = _QqRGFsbN;
         "pp4II3Ep" = _pp4II3Ep;
         "TW2DouZw" = _TW2DouZw;
-        "fabric-1.20.4" = _X5q3ECfN;
-        "fabric-1.20.2" = _B14pxeEp;
-        "fabric-1.20.3" = _B14pxeEp;
+        "o8MxFg7g" = _o8MxFg7g;
+        "loygmVX6" = _loygmVX6;
+        "7TXCJsHT" = _7TXCJsHT;
+        "forge-1.16.5" = _SI4nAgsz;
+        "forge-1.18.2" = _AQ2tJlPB;
+        "forge-1.19.2" = _ZdTBIwq2;
+        "forge-1.20.1" = _HmEFLrj9;
+        "forge-1.21.1" = _vJVYWN7K;
+        "forge-1.21.6" = _QqRGFsbN;
+        "forge-1.21.7" = _QqRGFsbN;
+        "forge-1.21.8" = _QqRGFsbN;
+        "forge-1.21.9" = _QqRGFsbN;
+        "forge-1.21.10" = _QqRGFsbN;
+        "forge-26.1.2" = _o8MxFg7g;
+        "forge-26.2" = _o8MxFg7g;
         "fabric-1.19.2" = _H1wYSVa9;
         "fabric-1.20.1" = _lds87jeY;
         "fabric-1.21.5" = _WHFPXIIi;
@@ -122,20 +113,8 @@ let
         "fabric-1.21.9" = _WHFPXIIi;
         "fabric-1.21.10" = _WHFPXIIi;
         "fabric-1.21.11" = _TW2DouZw;
-        "forge-1.16.5" = _SI4nAgsz;
-        "forge-1.18.2" = _AQ2tJlPB;
-        "forge-1.19.2" = _ZdTBIwq2;
-        "forge-1.19.4" = _Gc17sdh9;
-        "forge-1.20.1" = _HmEFLrj9;
-        "forge-1.20.2" = _hosI9TXA;
-        "forge-1.20.4" = _OC0gF1fh;
-        "forge-1.21.1" = _vJVYWN7K;
-        "forge-1.21.6" = _QqRGFsbN;
-        "forge-1.21.7" = _QqRGFsbN;
-        "forge-1.21.8" = _QqRGFsbN;
-        "forge-1.21.9" = _QqRGFsbN;
-        "forge-1.21.10" = _QqRGFsbN;
-        "neoforge-1.20.6" = _ELeLliFZ;
+        "fabric-26.1.2" = _7TXCJsHT;
+        "fabric-26.2" = _7TXCJsHT;
         "neoforge-1.21.1" = _kuYIaSAj;
         "neoforge-1.21.5" = _pp4II3Ep;
         "neoforge-1.21.6" = _pp4II3Ep;
@@ -143,21 +122,17 @@ let
         "neoforge-1.21.8" = _pp4II3Ep;
         "neoforge-1.21.9" = _pp4II3Ep;
         "neoforge-1.21.10" = _pp4II3Ep;
-        "pkg-1.9.0" = _X5q3ECfN;
-        "pkg-1.10.0" = _B14pxeEp;
+        "neoforge-26.1.2" = _loygmVX6;
+        "neoforge-26.2" = _loygmVX6;
         "pkg-1.4.0" = _SI4nAgsz;
         "pkg-1.6.0" = _AQ2tJlPB;
         "pkg-1.2.0" = _H1wYSVa9;
-        "pkg-1.3.0" = _Gc17sdh9;
         "pkg-1.5.0" = _HmEFLrj9;
         "pkg-1.0.0" = _TW2DouZw;
-        "pkg-1.7.0" = _hosI9TXA;
-        "pkg-1.8.0" = _OC0gF1fh;
-        "pkg-1.1.2" = _ELeLliFZ;
         "pkg-1.1.3" = _kuYIaSAj;
         "pkg-1.1.4" = _vJVYWN7K;
-        "pkg-2.0.0" = _pp4II3Ep;
-        "default" = _TW2DouZw;
+        "pkg-2.0.0" = _7TXCJsHT;
+        "default" = _7TXCJsHT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "travel-bites";

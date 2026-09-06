@@ -101,6 +101,16 @@ let
             "file" = "IllegalBuilding-26.1.2-11.0.0.jar";
             "hash" = "sha512-Wbul5aj4nQqiTgSCEwwq5Ccvuj/PGMbLaPKT4RA8WYAqGIFToNSiq6q2cblaR8ST2BbBCc6iAmPjuGbDIvUavw==";
         };
+        _yspraNOe = {
+            "id" = "yspraNOe";
+            "file" = "IllegalBuilding-26.1.2-11.1.0.jar";
+            "hash" = "sha512-93YJhRcQg67ciDMa9fKieP/Hx7qq8XrLGbpGDK7zfRPYGRjyaQSeeO2jv6QnuwbGENHMQuBZWemvPyR+x/GcqQ==";
+        };
+        _ElvtPIO9 = {
+            "id" = "ElvtPIO9";
+            "file" = "IllegalBuilding-26.2-12.0.0.jar";
+            "hash" = "sha512-7AZBnj3nHUr7Q39nPKmi0CIOYIAcfKt7jHHlFIxH1XsOahtGdkIObDCR75MOkuMJLyPDRbP2sxazYDEydp+A5w==";
+        };
     in {
         "ddJ9z1lT" = _ddJ9z1lT;
         "r1ojrRQV" = _r1ojrRQV;
@@ -122,6 +132,8 @@ let
         "jrHcOzbl" = _jrHcOzbl;
         "iyk532jn" = _iyk532jn;
         "b9eyJMsb" = _b9eyJMsb;
+        "yspraNOe" = _yspraNOe;
+        "ElvtPIO9" = _ElvtPIO9;
         "forge-1.18.2" = _ddJ9z1lT;
         "forge-1.18" = _r1ojrRQV;
         "forge-1.18.1" = _r1ojrRQV;
@@ -141,7 +153,8 @@ let
         "neoforge-1.21.5" = _rcJmiDFA;
         "neoforge-1.21.8" = _jrHcOzbl;
         "neoforge-1.21.11" = _iyk532jn;
-        "neoforge-26.1.2" = _b9eyJMsb;
+        "neoforge-26.1.2" = _yspraNOe;
+        "neoforge-26.2" = _ElvtPIO9;
         "pkg-1.0.1.4" = _ddJ9z1lT;
         "pkg-1.0.1.3" = _r1ojrRQV;
         "pkg-1.0.1.2" = _yKOt7gAn;
@@ -162,7 +175,9 @@ let
         "pkg-9.0.0" = _jrHcOzbl;
         "pkg-10.0.0" = _iyk532jn;
         "pkg-11.0.0" = _b9eyJMsb;
-        "default" = _b9eyJMsb;
+        "pkg-11.1.0" = _yspraNOe;
+        "pkg-12.0.0" = _ElvtPIO9;
+        "default" = _ElvtPIO9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "illegal-building";

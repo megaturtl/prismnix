@@ -66,6 +66,11 @@ let
             "file" = "idontwannascrollagain-1.0+26.1.x.jar";
             "hash" = "sha512-QsDQbkgYgedKUjvWPW+mO3AE7zNbHz1iFei8gBrCP3Zg4/mi0XNLjeDzywEupJ0NzOO/Ne/DYEH9yD/VgbpPlA==";
         };
+        _bxkvTHvd = {
+            "id" = "bxkvTHvd";
+            "file" = "idontwannascrollagain-1.0+26.2.jar";
+            "hash" = "sha512-BtIkf3h3dvdW7i6ErWnRDE1Aa0veFIVr//qlMPR6PKPBQAPE7bUom/IIStJhu+m5TkLfK1BxVdAxXqQ5pe1bIQ==";
+        };
     in {
         "rc1AooH6" = _rc1AooH6;
         "eu3utKbV" = _eu3utKbV;
@@ -80,6 +85,7 @@ let
         "iFQIsE49" = _iFQIsE49;
         "wGLDfL5k" = _wGLDfL5k;
         "xl0NRxqB" = _xl0NRxqB;
+        "bxkvTHvd" = _bxkvTHvd;
         "fabric-1.21" = _rc1AooH6;
         "fabric-1.20.4" = _eu3utKbV;
         "fabric-1.21.1" = _eNnxfB4S;
@@ -95,6 +101,7 @@ let
         "fabric-26.1" = _xl0NRxqB;
         "fabric-26.1.1" = _xl0NRxqB;
         "fabric-26.1.2" = _xl0NRxqB;
+        "fabric-26.2" = _bxkvTHvd;
         "pkg-1.0+1.21" = _rc1AooH6;
         "pkg-1.0+1.20.4" = _eu3utKbV;
         "pkg-1.0+1.21.1" = _eNnxfB4S;
@@ -108,7 +115,8 @@ let
         "pkg-1.0+1.21.10" = _iFQIsE49;
         "pkg-1.0+1.21.11" = _wGLDfL5k;
         "pkg-1.0+26.1.x" = _xl0NRxqB;
-        "default" = _xl0NRxqB;
+        "pkg-1.0+26.2" = _bxkvTHvd;
+        "default" = _bxkvTHvd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "idontwannascrollagain";

@@ -126,6 +126,11 @@ let
             "file" = "fantasyfurniture_nordic-26.2.0.jar";
             "hash" = "sha512-USrus2VH21X6R1qjl1VqRuQsikyQ+fllZyoMIu4RVtRj5FDkWnYiRPxMzTRegeNG1GtvNwi6X4A31WjiJ9h8sg==";
         };
+        _ZYXXbblg = {
+            "id" = "ZYXXbblg";
+            "file" = "fantasyfurniture_nordic-26.2.4.jar";
+            "hash" = "sha512-yanPTJmKVIBh7+65GNuK50IS9HfrHQ1Dop00fGuzQEbIthiNJnCPRK+vhzY4nDLatOS92TwnantSL3IwnG8D5A==";
+        };
     in {
         "NEmqWLQG" = _NEmqWLQG;
         "DBBKvexc" = _DBBKvexc;
@@ -152,6 +157,7 @@ let
         "XejSiMro" = _XejSiMro;
         "jyE3q3hd" = _jyE3q3hd;
         "2rK0MVLm" = _2rK0MVLm;
+        "ZYXXbblg" = _ZYXXbblg;
         "neoforge-1.21.4" = _BMwCttBC;
         "neoforge-1.21.5" = _hnAus3y7;
         "neoforge-1.21.6" = _3n4xRHEv;
@@ -161,7 +167,7 @@ let
         "neoforge-26.1" = _jyE3q3hd;
         "neoforge-26.1.1" = _jyE3q3hd;
         "neoforge-26.1.2" = _jyE3q3hd;
-        "neoforge-26.2" = _2rK0MVLm;
+        "neoforge-26.2" = _ZYXXbblg;
         "pkg-21.4.69" = _NEmqWLQG;
         "pkg-21.4.86" = _DBBKvexc;
         "pkg-21.4.91" = _2ytSyxEj;
@@ -187,7 +193,8 @@ let
         "pkg-26.1.4" = _XejSiMro;
         "pkg-26.1.7" = _jyE3q3hd;
         "pkg-26.2.0" = _2rK0MVLm;
-        "default" = _2rK0MVLm;
+        "pkg-26.2.4" = _ZYXXbblg;
+        "default" = _ZYXXbblg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fantasys-furniture-nordic";

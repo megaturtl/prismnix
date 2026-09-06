@@ -81,6 +81,26 @@ let
             "file" = "hexthings-fabric-0.1.7+1.20.1.jar";
             "hash" = "sha512-OMJcEF4zegjnC2zr2BF8iNKPGyrwG/tVav2NDYfR0gOGmE/y1Bd4ThUsJeEiQhZx38rwRCvn4vkzX3afhHUbEQ==";
         };
+        _IjK2Wot2 = {
+            "id" = "IjK2Wot2";
+            "file" = "hexthings-forge-0.1.8+1.20.1.jar";
+            "hash" = "sha512-+MMu8FxxS33tKAvKS5gSGm72ICyeoVr93ktv2zceUdw0ZeQf3owJ310Yz9YpMeLZYIhsZiLdPzV/ZdZ7OAu6sA==";
+        };
+        _G9A9F2GN = {
+            "id" = "G9A9F2GN";
+            "file" = "hexthings-fabric-0.1.8+1.20.1.jar";
+            "hash" = "sha512-peRtkk38xjtnfGGhyzCsNZrS9Jr8QZyxTu1u2kT6Y21rfPlEQJAvnkaFv9roWqUsgKOLS2FHbRFNk2iY11gs0w==";
+        };
+        _IMUe79dz = {
+            "id" = "IMUe79dz";
+            "file" = "hexthings-forge-0.2.0+1.20.1.jar";
+            "hash" = "sha512-ll4qpc5IbvvvuwD6L0fMgX/LSXNgT+GC0B3iPuA0TmB+Ms6y1qsDlrzHVPsTN8iX/3qLf8pe+j7MkC/IK6DIuA==";
+        };
+        _uITeUl6U = {
+            "id" = "uITeUl6U";
+            "file" = "hexthings-fabric-0.2.0+1.20.1.jar";
+            "hash" = "sha512-fA9lIougnhBncqobHqPML7GGIcdsbYKSuJrQI38MFh7w0g2iV1rijg2IuccMC2VDe0/rLPTihDVZK8It9N3GJA==";
+        };
     in {
         "YtFS02Bn" = _YtFS02Bn;
         "QZSU0dXa" = _QZSU0dXa;
@@ -98,8 +118,12 @@ let
         "eF3Vw7gn" = _eF3Vw7gn;
         "vp5z5nz4" = _vp5z5nz4;
         "bEEaENX3" = _bEEaENX3;
-        "fabric-1.20.1" = _bEEaENX3;
-        "forge-1.20.1" = _vp5z5nz4;
+        "IjK2Wot2" = _IjK2Wot2;
+        "G9A9F2GN" = _G9A9F2GN;
+        "IMUe79dz" = _IMUe79dz;
+        "uITeUl6U" = _uITeUl6U;
+        "fabric-1.20.1" = _uITeUl6U;
+        "forge-1.20.1" = _IMUe79dz;
         "pkg-0.1.1+1.20.1" = _QZSU0dXa;
         "pkg-0.1.2+1.20.1" = _nzqyQpKZ;
         "pkg-0.1.3+1.20.1" = _hML8tkC5;
@@ -108,7 +132,9 @@ let
         "pkg-0.1.5.1+1.20.1" = _yw8jnFC2;
         "pkg-0.1.6.1+1.20.1" = _eF3Vw7gn;
         "pkg-0.1.7+1.20.1" = _bEEaENX3;
-        "default" = _bEEaENX3;
+        "pkg-0.1.8+1.20.1" = _G9A9F2GN;
+        "pkg-0.2.0+1.20.1" = _uITeUl6U;
+        "default" = _uITeUl6U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hexthings";

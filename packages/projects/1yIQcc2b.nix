@@ -401,6 +401,326 @@ let
             "file" = "evergreenhud-3.3.0+26.2.jar";
             "hash" = "sha512-FcfigsHxTJO1LToHRPKj+g+aYqYMKt8BbDBdGdsdE9uefMcLI9pO7qmegAcPxB+WRy1fTy45NLIgL2QW8f2kWw==";
         };
+        _bpCE6gfO = {
+            "id" = "bpCE6gfO";
+            "file" = "evergreenhud-3.4.0+1.21.1.jar";
+            "hash" = "sha512-NdxXpcE+bxZvZy5vx8BESyK7BjagevB0Da9FyKaKYQDVZh6qZSs72AeukzntaUwTq2W/spdTwMglnRDUlR6qgw==";
+        };
+        _5JHu4evB = {
+            "id" = "5JHu4evB";
+            "file" = "evergreenhud-3.4.0+1.21.4.jar";
+            "hash" = "sha512-5mxm+HUBqURbFzPK9/SL5xPrYl7R5vLSpYBqfbEyQ2MwwG+uvygvzzkMIrKUdqTDwY5RJLZMvpQbvspnZDD4QA==";
+        };
+        _zXYAiAZy = {
+            "id" = "zXYAiAZy";
+            "file" = "evergreenhud-3.4.0+1.21.5.jar";
+            "hash" = "sha512-beurLq83PttK+NmpGuUOyuyoCZmWhjAt4UNQ4gR+3ir7OHAYaQP7a8/zFrNGWfKRIVpvZAPfH9ijm8V2sQREHQ==";
+        };
+        _Z2k7WWd6 = {
+            "id" = "Z2k7WWd6";
+            "file" = "evergreenhud-3.4.0+1.21.8.jar";
+            "hash" = "sha512-bpdrfBR+bII57KchgxkfBSzjQqUhSma2UgM3dD6CCOWknQKT37NWPnHd/LwxHCcU261l/FBF3gIrMnwqEVWfrA==";
+        };
+        _1MehDEbT = {
+            "id" = "1MehDEbT";
+            "file" = "evergreenhud-3.4.0+1.21.10.jar";
+            "hash" = "sha512-afV1bW4v0xbJzHA+U8vwTC3ziAn/j9JRzRegoyHxwwJFh2O6LiflHBGr86QF7cvAdkxk31CLC+oCP40Y+VtdOA==";
+        };
+        _yf5PxuUW = {
+            "id" = "yf5PxuUW";
+            "file" = "evergreenhud-3.4.0+1.21.11.jar";
+            "hash" = "sha512-xTX2jklRtBaDT2PHEVcZgx4OENcGo2ulRQpspAKddvC8KhEtLh8+a2ty3hOPz9DnBueKi9QEiKuLCBqiayECqA==";
+        };
+        _cRwdKbGy = {
+            "id" = "cRwdKbGy";
+            "file" = "evergreenhud-3.4.0+26.1.jar";
+            "hash" = "sha512-22k5CHpf64dDfr17FrvulmTkbDMofTJ7x3oXZPb9ro2LBPmOLm/KEEt2q7Vx3Jmbx9ASWdoxvxN40Mr2ypt5uA==";
+        };
+        _I1MzlbPq = {
+            "id" = "I1MzlbPq";
+            "file" = "evergreenhud-3.4.0+26.2.jar";
+            "hash" = "sha512-JM6fm12SW+m8BivGNmdigSOisGE+lnKu+6oztxjrlfy+G9O/+Djur4oK4dEvex+g/cUkIxiaTfd8kMRNFeLdiw==";
+        };
+        _RDxim4zS = {
+            "id" = "RDxim4zS";
+            "file" = "evergreenhud-3.5.0+1.21.1.jar";
+            "hash" = "sha512-AVEqj0XDnlPUo3ksmyFQNJ2SdMUV0bcM9366hGmwUrdAwHSwPR2WplSHO79z/LOecJMVgszhhjbjQ6hHLyi6yg==";
+        };
+        _bJTVTF8T = {
+            "id" = "bJTVTF8T";
+            "file" = "evergreenhud-3.5.0+1.21.4.jar";
+            "hash" = "sha512-ahlx3P2Vp7oOYC94ED37BLaIe7o0uouqHVq5pleofwCL0D58JK2k/TD9alShxiOsvZsyK3usUgRP0DYSNMCSBQ==";
+        };
+        _M6h6ozLT = {
+            "id" = "M6h6ozLT";
+            "file" = "evergreenhud-3.5.0+1.21.5.jar";
+            "hash" = "sha512-JL9ny+qvuYLVzVpDXz+FfmCS2CRMRISESTvkyvk46Vlild42K0nfFlbSCAEzOLnf2nyam0ETWv3mSawZ+1Nyrw==";
+        };
+        _A2FjIwkW = {
+            "id" = "A2FjIwkW";
+            "file" = "evergreenhud-3.5.0+1.21.8.jar";
+            "hash" = "sha512-9ULYq1hrf8UC7nrTdqtFCDjgrc4ajJNkQFik21G8uxe6u8lv8qJo8Gj5ZTut4WeJYyxING3pTAvk5VhXBoJQ1w==";
+        };
+        _8Tpvyp9S = {
+            "id" = "8Tpvyp9S";
+            "file" = "evergreenhud-3.5.0+1.21.10.jar";
+            "hash" = "sha512-QSp+VFj9goJhf2uermyP0pC4NdWImgdKPzvvtS95FEts+h9Gj7R4SZ93adfmJiZCjlUqdLHGIts5SEWx+eERvQ==";
+        };
+        _erS83PBl = {
+            "id" = "erS83PBl";
+            "file" = "evergreenhud-3.5.0+1.21.11.jar";
+            "hash" = "sha512-LNh0woLQxGYbAvq7Dbhzy7nyEtkEXMnr6xi/UwyJNezvQ3Ds1SZ9ZRu/ob6udBiyJpB80fxIP/3rxznfQp35iw==";
+        };
+        _n6mblpl8 = {
+            "id" = "n6mblpl8";
+            "file" = "evergreenhud-3.5.0+26.1.jar";
+            "hash" = "sha512-iX8buP5mOy/pQHUECOYgwzkkcTnPw1qQ05A/mv+6yjYPp6eGOjLAgmbvsYyIYiNCYLBZLFN7vnOETclI2w2hDQ==";
+        };
+        _mU5V5z89 = {
+            "id" = "mU5V5z89";
+            "file" = "evergreenhud-3.5.0+26.2.jar";
+            "hash" = "sha512-NJCs5d00bypmJZQuCCQHdi5igHKanp7eRq6MoNbIN43u9prilLxEwDZ2HfB4ynT4Iqf7Km+s7y7WYh7Rqnjgcw==";
+        };
+        _aklSoZdL = {
+            "id" = "aklSoZdL";
+            "file" = "evergreenhud-3.5.1+1.21.1.jar";
+            "hash" = "sha512-Is4Jfx0zK9w6k7gJK3MdmAcRR2o6fPD+yzXgp/8hjRKvmJmEvFH0mrM3ROQUrRkaqHv1E1tRvan2ZQZxaFd9CQ==";
+        };
+        _ET79rsxq = {
+            "id" = "ET79rsxq";
+            "file" = "evergreenhud-3.5.1+1.21.4.jar";
+            "hash" = "sha512-f26EPSL/vO71zekBp69ZmQ6rEFNf3uR+/ynBZcYDS4JO8Jx93puc0s/7aHF+YMH6XHGjMDrinig7fKnenTmMGg==";
+        };
+        _PtLfbWDv = {
+            "id" = "PtLfbWDv";
+            "file" = "evergreenhud-3.5.1+1.21.5.jar";
+            "hash" = "sha512-dex08WOl0HSYZNq+e44g5xunuwDpATLZQ5I5xWqqFGsKhkNAVMDS9iT8ujvCyKuVOak4tctqxfD5YXd0Bs7+8Q==";
+        };
+        _6yxt2KOL = {
+            "id" = "6yxt2KOL";
+            "file" = "evergreenhud-3.5.1+1.21.8.jar";
+            "hash" = "sha512-2W6NbyijOOJVsXZBq5fRet40n6um53pQQH5rDfS1WJW3mOQy2IWtkb4TcMjxYzWc8778FmV/dnJGx2gheTYCPw==";
+        };
+        _ZYmBYzKx = {
+            "id" = "ZYmBYzKx";
+            "file" = "evergreenhud-3.5.1+1.21.10.jar";
+            "hash" = "sha512-ntIDM0L/jvsqz/1OQCjH1NuDaF43BOfGFM6qOPpYWNHxPZA51XbQk4cxOLwIOr1Cbfdo+7B9cndFFAREUb8v0Q==";
+        };
+        _4hGU09aW = {
+            "id" = "4hGU09aW";
+            "file" = "evergreenhud-3.5.1+1.21.11.jar";
+            "hash" = "sha512-5l+F7FkR/KGzzr2jEZrqcA8+pHjT7+H/h702CEgiMPAFJGF/2+KHJ6RvnqcPAaNtknFPt5BA+ujysyYt7A3N7Q==";
+        };
+        _rDHDjQEA = {
+            "id" = "rDHDjQEA";
+            "file" = "evergreenhud-3.5.1+26.1.jar";
+            "hash" = "sha512-qqlPKJTIMLUQm/BsTKGhiY41+ifuX7B1JsnU61VIWMueYphPCyrjMpS1Xrc8d2ldwYHrrAZN4WUwd/rPtXadqQ==";
+        };
+        _UpJZXJns = {
+            "id" = "UpJZXJns";
+            "file" = "evergreenhud-3.5.1+26.2.jar";
+            "hash" = "sha512-XiAWO1qS5ntcKM8yosUoQNDA29Rh3jcC1nvVezNxrDiaotbzy8ZnIK0ZYTrW/xdakaOZxxayIQOttOH/1Tr3uQ==";
+        };
+        _Bu3TEyCa = {
+            "id" = "Bu3TEyCa";
+            "file" = "evergreenhud-3.6.1+1.21.1.jar";
+            "hash" = "sha512-GQNJrsc8zrxiRrXZazziudJ/cXDKDrqL+HzgFnrdNUMBiGAy5BEQjbP8absj5ztHRO5vCgn7bI8vflcwa4UsHQ==";
+        };
+        _hJM5xofx = {
+            "id" = "hJM5xofx";
+            "file" = "evergreenhud-3.6.1+1.21.4.jar";
+            "hash" = "sha512-MBrxZgLr2tTWQR3bhfZK18FEGkYbXEe78Ek8WHSewaMdN9gT9tsTWJjQdtt/1/8a1rNwtsD7C1K53bXDqadRig==";
+        };
+        _r8KWVKTe = {
+            "id" = "r8KWVKTe";
+            "file" = "evergreenhud-3.6.1+1.21.5.jar";
+            "hash" = "sha512-yBNWLkDTPtfdMsgiM/9kXVZ8Todn4ausPE/vJ8B3Bf5PDMjHx3Z1huJ8cLEQzkHEbyNAyAk8j6kBN8ZLOc3mrw==";
+        };
+        _YRriwqe5 = {
+            "id" = "YRriwqe5";
+            "file" = "evergreenhud-3.6.1+1.21.8.jar";
+            "hash" = "sha512-FXw5Td8/aaaZlNisMRiR/LBbff9E+Tqtu5tkI/CuL5xBCDH0cEr5/vrLZpmUOZJHc9dVdPbl4bar+iUy66x8gA==";
+        };
+        _FPKxS71n = {
+            "id" = "FPKxS71n";
+            "file" = "evergreenhud-3.6.1+1.21.10.jar";
+            "hash" = "sha512-XLNwj+/n08VkIQ+22o5zY9pqwy8O+1Bdue8lslSYROzEiTVcSZ/ffriLYuv67thhhZx3Gt93lKgH8pmMAgfJnQ==";
+        };
+        _fu0Ugj8c = {
+            "id" = "fu0Ugj8c";
+            "file" = "evergreenhud-3.6.1+1.21.11.jar";
+            "hash" = "sha512-A/hjwiS3cX+OmWKL45TsEPpJa4t+Ps86AhuAWhKhIR6gm9Q7kCO7XzwpVsUwTLBXiHFjoBSkTVKCR7ehrfDFDA==";
+        };
+        _sTLj6bvb = {
+            "id" = "sTLj6bvb";
+            "file" = "evergreenhud-3.6.1+26.1.jar";
+            "hash" = "sha512-pbZXiDx5kRdAvIlqKge+2PKyB5mYqQCy8/V3RT9pFPYm74/UMaeLH0f021bdNELPCmhzFnL0RGnqXsaVdrQNXQ==";
+        };
+        _58Xs0lng = {
+            "id" = "58Xs0lng";
+            "file" = "evergreenhud-3.6.1+26.2.jar";
+            "hash" = "sha512-9BVoHSnepErKsLDizNwWEbmiDwLH0J20HC9KD+ld0ogpJK2AKCts1kJ3Cqd6TFPrO8oN45C2U6EY/0QAUt32ig==";
+        };
+        _SfhGLaMR = {
+            "id" = "SfhGLaMR";
+            "file" = "evergreenhud-3.6.2+1.21.1.jar";
+            "hash" = "sha512-4lfx4oKisEkvuN14uBmppUgFEgqOLWXKS0VhxnVR2gGVkZ8mrMSeEtscDYz+Jolc7m09epqRPZMo0yrLj3ytJw==";
+        };
+        _p3TB5pSi = {
+            "id" = "p3TB5pSi";
+            "file" = "evergreenhud-3.6.2+1.21.4.jar";
+            "hash" = "sha512-7VMlzG5o46Zq1vsosMd/WqcsL6FUljP0kCcgcPomOKCBGpwPcowglXZz0+Zi3tcZ2yiiAinzmFNrLF0ufBt8Pg==";
+        };
+        _4TuYIAkb = {
+            "id" = "4TuYIAkb";
+            "file" = "evergreenhud-3.6.2+1.21.5.jar";
+            "hash" = "sha512-HzzLS8b55mx0FSPQsjGROJQidVTbH8ZKIVkSIdtP38bDtiQUugAwT8TIPpF1dMZMNaZANAXXemWt2RCdWpbu3Q==";
+        };
+        _p8uexnbr = {
+            "id" = "p8uexnbr";
+            "file" = "evergreenhud-3.6.2+1.21.8.jar";
+            "hash" = "sha512-GUauGsXYqeB8U4prXAnc3PHqtTidF+sOFsRlqE4aQxPUIhAKU0WN+YT9tiCjjxg8djw6V/VPdUEFFwFGlzZhbQ==";
+        };
+        _SPtl33E5 = {
+            "id" = "SPtl33E5";
+            "file" = "evergreenhud-3.6.2+1.21.10.jar";
+            "hash" = "sha512-/maPyJIhVveE4OcZlbEaXQtJ2Ok12dQHAjrioRtLnBbRaFSVRACC8XU55PJBrhjesU80nm1gkkSJ5IOT3SX9Iw==";
+        };
+        _ot3Czdph = {
+            "id" = "ot3Czdph";
+            "file" = "evergreenhud-3.6.2+1.21.11.jar";
+            "hash" = "sha512-lfZiWGdz8VbJuf6Mll8eNgsPLvZ0GOiC7SPvHjHqX3XyFfr3+3D2RC8k4YnqzKbX57SR7lHuHSSUg4QhqMqPYA==";
+        };
+        _m3o2cHhx = {
+            "id" = "m3o2cHhx";
+            "file" = "evergreenhud-3.6.2+26.1.jar";
+            "hash" = "sha512-NrDNlhFcyfMMh8HDUkO6vk00W688II3F0xgkuLvnM/i97t5J1rWmy8pguEQN07SIR8apU8HiF7mAaoku+M0GFA==";
+        };
+        _1qSdabaC = {
+            "id" = "1qSdabaC";
+            "file" = "evergreenhud-3.6.2+26.2.jar";
+            "hash" = "sha512-mFEdTkDlHOD4n0qpWUQFYgmNyqyZPKgQD1JMsUWck7beDSSSpZiC8gXJBrs6Fj/w75l+f6AeMZAvSF18hPil7Q==";
+        };
+        _2sMAnJtd = {
+            "id" = "2sMAnJtd";
+            "file" = "evergreenhud-3.7.0+1.21.1.jar";
+            "hash" = "sha512-tGXjgeBvzLEUoTCIViaF94OPy5xNmQh6ZWaja27UH2OAGB2zTBTob395L1OC9bySe+LpDFp0M9aePC5TOl5s0g==";
+        };
+        _BA1By3ku = {
+            "id" = "BA1By3ku";
+            "file" = "evergreenhud-3.7.0+1.21.4.jar";
+            "hash" = "sha512-0SheVE9RmK4HZ4FKiapuPzADsCYmw+1UHVwqD/798oF4Ijiy3LWHAg+Q5+7F4kY7m2YON3eO3uYt0SwhlnoNWA==";
+        };
+        _srW6j9a3 = {
+            "id" = "srW6j9a3";
+            "file" = "evergreenhud-3.7.0+1.21.5.jar";
+            "hash" = "sha512-o9UoAfE7nXznrdwe3DuIOOOOw1Cdmc7Xq1XXubofPE4z60ySzZ5nKij08pBbhZy6HQDzQ19UnuO2BEeGhUrTfw==";
+        };
+        _ywPeU6nk = {
+            "id" = "ywPeU6nk";
+            "file" = "evergreenhud-3.7.0+1.21.8.jar";
+            "hash" = "sha512-gUu5CiqOR/JSJNh9qJOmCm/2WJzjtjg9EzN5frt1W6VbbL9LcEUVQEqLOS0Wsify5VS4iqleAObsbIF7l4Jnsg==";
+        };
+        _4fJTpGC8 = {
+            "id" = "4fJTpGC8";
+            "file" = "evergreenhud-3.7.0+1.21.10.jar";
+            "hash" = "sha512-5yJr4hUlp4YNssLHvDs95pivrWzWmtNAqiozaEy/YrxxE+tjryPmHZDXrSDarvGUWWTPndE3akg+R84JaIvutw==";
+        };
+        _BUeifEyO = {
+            "id" = "BUeifEyO";
+            "file" = "evergreenhud-3.7.0+1.21.11.jar";
+            "hash" = "sha512-RkX/kt0wHBNu1YiGt7J1Bi6LXQjfcSxzhq3QoulkySRF0+tPaDQnn4wwwsNTdYxc6I1ZQl0kLviQuEhiNmPWhg==";
+        };
+        _JF9gG0c8 = {
+            "id" = "JF9gG0c8";
+            "file" = "evergreenhud-3.7.0+26.1.jar";
+            "hash" = "sha512-LPS+YR8zRROXJWBLNwOpmwTI5PxbJ5IXcpfMf1zEfxvTjBwWeOpsc5lA6cd695AA2xXSLJIvAjmElETur1pDVg==";
+        };
+        _iG8z068u = {
+            "id" = "iG8z068u";
+            "file" = "evergreenhud-3.7.0+26.2.jar";
+            "hash" = "sha512-0/W4s8p9YhWQeNqQtoJ5tUoCxFMC7n5uAYVFS+WM19oJx+rJQW8ymOERgSzVyhzd1bNvyI6Y2i0OvsGBtfTAHA==";
+        };
+        _a4l23SPt = {
+            "id" = "a4l23SPt";
+            "file" = "evergreenhud-3.8.0+1.21.1.jar";
+            "hash" = "sha512-lUoVqmMLg8lNnrJn5K3PIw083RlbG1vGdD5cCAA7jpZ7/IqGOQwpcYz+qwTYTP4KEGGdoFllaCqtOYOz6FpZgQ==";
+        };
+        _NT580Q9W = {
+            "id" = "NT580Q9W";
+            "file" = "evergreenhud-3.8.0+1.21.4.jar";
+            "hash" = "sha512-Wb4L2Fn+6/CyaghRukpnjhz4uebVAvJS/y3RMJOiukCSMqXovHRhzZrKQ4Fgg+64TuIPLJXUMkJ6OwGmg34djA==";
+        };
+        _fkYc886K = {
+            "id" = "fkYc886K";
+            "file" = "evergreenhud-3.8.0+1.21.5.jar";
+            "hash" = "sha512-L0nNstELRsEst2itA2AqJLa9xIi22XLgXn8MdM7wDey3KUx3F66TStHDa3i2bMDQ7zCZHncFTONFCCCcL7W1pg==";
+        };
+        _d33OYpSA = {
+            "id" = "d33OYpSA";
+            "file" = "evergreenhud-3.8.0+1.21.8.jar";
+            "hash" = "sha512-Qg3annw+AYr4kr/h68GaVc8J4y3dU4XV90tJgHwGE5VDcWzq/fK/3Mi7gKxaYVR/iE+enDWDM3AeHEP1eIHJkQ==";
+        };
+        _aL4UnoYm = {
+            "id" = "aL4UnoYm";
+            "file" = "evergreenhud-3.8.0+1.21.10.jar";
+            "hash" = "sha512-3F2O4eWUkECG5sdkFCYn5DNOZ0uhsh9AmbYlU9uCWeQ8U/GsbO8pz6ZFJgh8vKTzoxUuObQL4Jo4TafKR1obzA==";
+        };
+        _p9MkjFZq = {
+            "id" = "p9MkjFZq";
+            "file" = "evergreenhud-3.8.0+1.21.11.jar";
+            "hash" = "sha512-Uhh3aErNwJCrzHUJKzNLmtBpVd48lIFP5WgRZ1mNivkg3SgCFxXGDmCE1nCcHqLgoez5r16v0Rb3/hr1Qsgc8Q==";
+        };
+        _UIoOV0LF = {
+            "id" = "UIoOV0LF";
+            "file" = "evergreenhud-3.8.0+26.1.jar";
+            "hash" = "sha512-U8r/D3r9REGCOPNCE0eZW99cDrIuD+90eGHcQg0A4SEj4MbOWH5Lehotqma3Q1R3N8/xr9MkDGe/ziUg0qpwyg==";
+        };
+        _Ho41KDcM = {
+            "id" = "Ho41KDcM";
+            "file" = "evergreenhud-3.8.0+26.2.jar";
+            "hash" = "sha512-8iINYNhZebqrJYGAzwnMg3rPstNC6QdKxsepQYRC8+rwuklw/8mYNmrtN0RymczHM7YjAc981Sa6M6wVuIG8Wg==";
+        };
+        _nvdBg4Av = {
+            "id" = "nvdBg4Av";
+            "file" = "evergreenhud-3.8.1+1.21.1.jar";
+            "hash" = "sha512-RuUVRZXv8q8pYvt07SbUbtCOKvmWWmVDx+3q+o0P7Fm2LRRtUl0l83iObQ3s1or+nYWUA95BNh/egEIGUtIBcA==";
+        };
+        _EN7ueqod = {
+            "id" = "EN7ueqod";
+            "file" = "evergreenhud-3.8.1+1.21.4.jar";
+            "hash" = "sha512-EWSID3fRA+YnGXNMWKjlfwfgj2Q0Wl/DFXp0rh2wnwtPaKm1+OSHt2J2y5HYtPeOJuXe+2sbj/Jf3m4gDSztbg==";
+        };
+        _muCSuaFk = {
+            "id" = "muCSuaFk";
+            "file" = "evergreenhud-3.8.1+1.21.5.jar";
+            "hash" = "sha512-pwLnxAGIQV898Uc/c4Yg35E4pOGTd/8lzxj2FbiFGqkvuA+X9EqPUDughlSV8P4dyqPGyEgrwuHeogTvlFap1g==";
+        };
+        _sZJwDh9Q = {
+            "id" = "sZJwDh9Q";
+            "file" = "evergreenhud-3.8.1+1.21.8.jar";
+            "hash" = "sha512-0AAybj9yIEoZvi7p9bW1L12yhW2200u64EqvSJl8PNhkG8LHWrZR2Qf1BMk7UbZOEjb6aTlBjbZNdb5WBxbizw==";
+        };
+        _Eh2DutOF = {
+            "id" = "Eh2DutOF";
+            "file" = "evergreenhud-3.8.1+1.21.10.jar";
+            "hash" = "sha512-jYGHfdkFFrKFOAKeLBzpEBdhAmLXY9vQRxPXwL3oIYiQD4/l4eyQR6Rquyirt+oc4GuQvNEo8tPJcgUU/WtdZQ==";
+        };
+        _ORu2M9vg = {
+            "id" = "ORu2M9vg";
+            "file" = "evergreenhud-3.8.1+1.21.11.jar";
+            "hash" = "sha512-0kqKy7DGXIp+9CBbXbfSoOTIPOvPxkmpkLU8ZUvCCP8APjItcubkWwvdNzklyYEBD8uqE4Kbor5pbkRZKvgexg==";
+        };
+        _WHEo8ySs = {
+            "id" = "WHEo8ySs";
+            "file" = "evergreenhud-3.8.1+26.1.jar";
+            "hash" = "sha512-08c7zho5RJGzEREboNXRXvwnPknKI1anfEYR3coMlNHWRKgLqMse6rmzebpq0vXpWFG2/SxDBj1HctUO6m1kuw==";
+        };
+        _gu5cmP67 = {
+            "id" = "gu5cmP67";
+            "file" = "evergreenhud-3.8.1+26.2.jar";
+            "hash" = "sha512-cxdHm1Smx08fo57c5+HH0Dxut/AnICMUIKOk/8KTK+AD6f3kYOyXlQicMCXdc5E2uEZccA3uyty/2OZLK1DxKQ==";
+        };
     in {
         "WVrqj9Vn" = _WVrqj9Vn;
         "3jI76xvU" = _3jI76xvU;
@@ -482,19 +802,83 @@ let
         "ASiXfc8Z" = _ASiXfc8Z;
         "gs44dOHv" = _gs44dOHv;
         "spXb3nRL" = _spXb3nRL;
+        "bpCE6gfO" = _bpCE6gfO;
+        "5JHu4evB" = _5JHu4evB;
+        "zXYAiAZy" = _zXYAiAZy;
+        "Z2k7WWd6" = _Z2k7WWd6;
+        "1MehDEbT" = _1MehDEbT;
+        "yf5PxuUW" = _yf5PxuUW;
+        "cRwdKbGy" = _cRwdKbGy;
+        "I1MzlbPq" = _I1MzlbPq;
+        "RDxim4zS" = _RDxim4zS;
+        "bJTVTF8T" = _bJTVTF8T;
+        "M6h6ozLT" = _M6h6ozLT;
+        "A2FjIwkW" = _A2FjIwkW;
+        "8Tpvyp9S" = _8Tpvyp9S;
+        "erS83PBl" = _erS83PBl;
+        "n6mblpl8" = _n6mblpl8;
+        "mU5V5z89" = _mU5V5z89;
+        "aklSoZdL" = _aklSoZdL;
+        "ET79rsxq" = _ET79rsxq;
+        "PtLfbWDv" = _PtLfbWDv;
+        "6yxt2KOL" = _6yxt2KOL;
+        "ZYmBYzKx" = _ZYmBYzKx;
+        "4hGU09aW" = _4hGU09aW;
+        "rDHDjQEA" = _rDHDjQEA;
+        "UpJZXJns" = _UpJZXJns;
+        "Bu3TEyCa" = _Bu3TEyCa;
+        "hJM5xofx" = _hJM5xofx;
+        "r8KWVKTe" = _r8KWVKTe;
+        "YRriwqe5" = _YRriwqe5;
+        "FPKxS71n" = _FPKxS71n;
+        "fu0Ugj8c" = _fu0Ugj8c;
+        "sTLj6bvb" = _sTLj6bvb;
+        "58Xs0lng" = _58Xs0lng;
+        "SfhGLaMR" = _SfhGLaMR;
+        "p3TB5pSi" = _p3TB5pSi;
+        "4TuYIAkb" = _4TuYIAkb;
+        "p8uexnbr" = _p8uexnbr;
+        "SPtl33E5" = _SPtl33E5;
+        "ot3Czdph" = _ot3Czdph;
+        "m3o2cHhx" = _m3o2cHhx;
+        "1qSdabaC" = _1qSdabaC;
+        "2sMAnJtd" = _2sMAnJtd;
+        "BA1By3ku" = _BA1By3ku;
+        "srW6j9a3" = _srW6j9a3;
+        "ywPeU6nk" = _ywPeU6nk;
+        "4fJTpGC8" = _4fJTpGC8;
+        "BUeifEyO" = _BUeifEyO;
+        "JF9gG0c8" = _JF9gG0c8;
+        "iG8z068u" = _iG8z068u;
+        "a4l23SPt" = _a4l23SPt;
+        "NT580Q9W" = _NT580Q9W;
+        "fkYc886K" = _fkYc886K;
+        "d33OYpSA" = _d33OYpSA;
+        "aL4UnoYm" = _aL4UnoYm;
+        "p9MkjFZq" = _p9MkjFZq;
+        "UIoOV0LF" = _UIoOV0LF;
+        "Ho41KDcM" = _Ho41KDcM;
+        "nvdBg4Av" = _nvdBg4Av;
+        "EN7ueqod" = _EN7ueqod;
+        "muCSuaFk" = _muCSuaFk;
+        "sZJwDh9Q" = _sZJwDh9Q;
+        "Eh2DutOF" = _Eh2DutOF;
+        "ORu2M9vg" = _ORu2M9vg;
+        "WHEo8ySs" = _WHEo8ySs;
+        "gu5cmP67" = _gu5cmP67;
         "forge-1.8.9" = _YAwKwEPz;
         "forge-1.12.2" = _vdhjeVdh;
         "fabric-1.18.2" = _cMtnJlCl;
-        "fabric-1.21.11" = _ASiXfc8Z;
-        "fabric-26.2" = _spXb3nRL;
-        "fabric-26.1" = _gs44dOHv;
-        "fabric-26.1.1" = _gs44dOHv;
-        "fabric-26.1.2" = _gs44dOHv;
-        "fabric-1.21.10" = _2mSjCjFG;
-        "fabric-1.21.1" = _wiC9koyf;
-        "fabric-1.21.8" = _wjXBGbKv;
-        "fabric-1.21.5" = _QhEtthLi;
-        "fabric-1.21.4" = _oxr6mLwD;
+        "fabric-1.21.11" = _ORu2M9vg;
+        "fabric-26.2" = _gu5cmP67;
+        "fabric-26.1" = _WHEo8ySs;
+        "fabric-26.1.1" = _WHEo8ySs;
+        "fabric-26.1.2" = _WHEo8ySs;
+        "fabric-1.21.10" = _Eh2DutOF;
+        "fabric-1.21.1" = _nvdBg4Av;
+        "fabric-1.21.8" = _sZJwDh9Q;
+        "fabric-1.21.5" = _muCSuaFk;
+        "fabric-1.21.4" = _EN7ueqod;
         "pkg-2.0.0.73-pre.12" = _WVrqj9Vn;
         "pkg-2.0.0.94-pre.12" = _3jI76xvU;
         "pkg-1.4.0" = _HaPeaHes;
@@ -564,7 +948,36 @@ let
         "pkg-3.3.0+1.21.11" = _ASiXfc8Z;
         "pkg-3.3.0+26.1" = _gs44dOHv;
         "pkg-3.3.0+26.2" = _spXb3nRL;
-        "default" = _spXb3nRL;
+        "pkg-3.4.0+1.21.1" = _bpCE6gfO;
+        "pkg-3.4.0+1.21.4" = _5JHu4evB;
+        "pkg-3.4.0+1.21.5" = _zXYAiAZy;
+        "pkg-3.4.0+1.21.8" = _Z2k7WWd6;
+        "pkg-3.4.0+1.21.10" = _1MehDEbT;
+        "pkg-3.4.0+1.21.11" = _yf5PxuUW;
+        "pkg-3.4.0+26.1" = _cRwdKbGy;
+        "pkg-3.4.0+26.2" = _I1MzlbPq;
+        "pkg-3.5.0+1.21.1" = _RDxim4zS;
+        "pkg-3.5.0+1.21.4" = _bJTVTF8T;
+        "pkg-3.5.0+1.21.5" = _M6h6ozLT;
+        "pkg-3.5.0+1.21.8" = _A2FjIwkW;
+        "pkg-3.5.0+1.21.10" = _8Tpvyp9S;
+        "pkg-3.5.0+1.21.11" = _erS83PBl;
+        "pkg-3.5.0+26.1" = _n6mblpl8;
+        "pkg-3.5.0+26.2" = _mU5V5z89;
+        "pkg-3.5.1+1.21.1" = _aklSoZdL;
+        "pkg-3.5.1+1.21.4" = _ET79rsxq;
+        "pkg-3.5.1+1.21.5" = _PtLfbWDv;
+        "pkg-3.5.1+1.21.8" = _6yxt2KOL;
+        "pkg-3.5.1+1.21.10" = _ZYmBYzKx;
+        "pkg-3.5.1+1.21.11" = _4hGU09aW;
+        "pkg-3.5.1+26.1" = _rDHDjQEA;
+        "pkg-3.5.1+26.2" = _UpJZXJns;
+        "pkg-v3.6.1" = _58Xs0lng;
+        "pkg-v3.6.2" = _1qSdabaC;
+        "pkg-v3.7.0" = _iG8z068u;
+        "pkg-v3.8.0" = _Ho41KDcM;
+        "pkg-v3.8.1" = _gu5cmP67;
+        "default" = _gu5cmP67;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "evergreenhud";

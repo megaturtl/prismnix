@@ -1013,6 +1013,10 @@ let
         "minecraft-26.3-snapshot-5" = _I2QfpvO2;
         "minecraft-26.3-snapshot-6" = _I2QfpvO2;
         "minecraft-26.3-snapshot-7" = _I2QfpvO2;
+        "minecraft-26.3-snapshot-8" = _I2QfpvO2;
+        "minecraft-26.3-snapshot-9" = _I2QfpvO2;
+        "minecraft-26.3-snapshot-10" = _I2QfpvO2;
+        "minecraft-26.3-pre-1" = _I2QfpvO2;
         "pkg-1.0" = _kjus4QNO;
         "pkg-1.1-1.0" = _8iHYn9ZY;
         "pkg-1.1-1.6.1" = _KAhkl5sx;

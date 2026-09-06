@@ -41,6 +41,36 @@ let
             "file" = "appliedsticks-26.1.2-2.0.2.jar";
             "hash" = "sha512-mXwlKFxA9TyO01G8Pe8RaI66v7oe5Ajk+p7DdWhmvTWPsfUo9NA5m5EKh6y8kcaLvMjgpuHGOonrVhsiPISNyQ==";
         };
+        _WOW85mbl = {
+            "id" = "WOW85mbl";
+            "file" = "appliedsticks-26.1.2-2.0.3.jar";
+            "hash" = "sha512-vm+Z1A+HdVKDqb2Ukzbn5n6BKAHUx9PU+7vw+JXUok4tVSs9uNiWVbODVESvlcnG/6PyH/6Z7McDkP6Pt+BNEA==";
+        };
+        _JsAueZAS = {
+            "id" = "JsAueZAS";
+            "file" = "appliedsticks-26.1.2-2.0.3.jar";
+            "hash" = "sha512-vm+Z1A+HdVKDqb2Ukzbn5n6BKAHUx9PU+7vw+JXUok4tVSs9uNiWVbODVESvlcnG/6PyH/6Z7McDkP6Pt+BNEA==";
+        };
+        _EuZbH0Ln = {
+            "id" = "EuZbH0Ln";
+            "file" = "appliedsticks-1.21.1-1.2.1.jar";
+            "hash" = "sha512-Utu4terABYZUvT78MgSX6tJGOjeAx07Y+wtz7PmG+0xJ7bCQ8Cmb1WVCdx4CygaUsyPn+F/MqJC36TV2OS7j5Q==";
+        };
+        _SZDHLV67 = {
+            "id" = "SZDHLV67";
+            "file" = "appliedsticks-26.1.2-2.0.3.jar";
+            "hash" = "sha512-OAWEETtMlA9YAQQJqvmyFsQImUk0cTcFJtDQDXz6nEJyOrYnWdeVxLFQkPGsf8JGFsutg+r2cQWLoiJXi3eX6A==";
+        };
+        _sQJWBCQk = {
+            "id" = "sQJWBCQk";
+            "file" = "appliedsticks-26.1.2-2.0.4.jar";
+            "hash" = "sha512-lu9M0RgP9vsnFuHk9ZpPU06kYRbjfpf7ancMUzrMmOd+V0Q/moSsGYIISnA1KeCkmAOyr0PwaswfXY8CEvOaAw==";
+        };
+        _4I7ydDfV = {
+            "id" = "4I7ydDfV";
+            "file" = "appliedsticks-26.1.2-2.0.4.jar";
+            "hash" = "sha512-lu9M0RgP9vsnFuHk9ZpPU06kYRbjfpf7ancMUzrMmOd+V0Q/moSsGYIISnA1KeCkmAOyr0PwaswfXY8CEvOaAw==";
+        };
     in {
         "ji3itb1M" = _ji3itb1M;
         "yxqQ4NpB" = _yxqQ4NpB;
@@ -50,8 +80,14 @@ let
         "FcjEsujE" = _FcjEsujE;
         "NeWL9ynE" = _NeWL9ynE;
         "2nJtBqp5" = _2nJtBqp5;
-        "neoforge-1.21.1" = _KPp5Bq7P;
-        "neoforge-26.1.2" = _2nJtBqp5;
+        "WOW85mbl" = _WOW85mbl;
+        "JsAueZAS" = _JsAueZAS;
+        "EuZbH0Ln" = _EuZbH0Ln;
+        "SZDHLV67" = _SZDHLV67;
+        "sQJWBCQk" = _sQJWBCQk;
+        "4I7ydDfV" = _4I7ydDfV;
+        "neoforge-1.21.1" = _EuZbH0Ln;
+        "neoforge-26.1.2" = _4I7ydDfV;
         "pkg-1.1.1" = _ji3itb1M;
         "pkg-1.21.1-1.1.2" = _yxqQ4NpB;
         "pkg-1.21.1-1.1.3" = _EiqsWWQx;
@@ -59,7 +95,10 @@ let
         "pkg-26.1.2-2.0.0" = _Kn3x3ULj;
         "pkg-26.1.2-2.0.1" = _NeWL9ynE;
         "pkg-26.1.2-2.0.2" = _2nJtBqp5;
-        "default" = _2nJtBqp5;
+        "pkg-26.1.2-2.0.3" = _SZDHLV67;
+        "pkg-1.21.1-1.2.1" = _EuZbH0Ln;
+        "pkg-26.1.2-2.0.4" = _4I7ydDfV;
+        "default" = _4I7ydDfV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "applied-construction-sticks";

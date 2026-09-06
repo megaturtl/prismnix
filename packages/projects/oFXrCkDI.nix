@@ -696,6 +696,26 @@ let
             "file" = "commoncapabilities-1.21.1-neoforge-2.11.5-363.jar";
             "hash" = "sha512-roUtxde1hX475MjH/V/N1OT9qPZJdHMV4deFKL7K3+qgGFas7a/ttADrTKKj852Mheg56GBuC6U1y7or2AMLHg==";
         };
+        _Pz2UmGhP = {
+            "id" = "Pz2UmGhP";
+            "file" = "commoncapabilities-26.2-neoforge-2.11.8-367.jar";
+            "hash" = "sha512-g07mJTo+RzAeFKvpJJoLGbGypAy5yCU3YRqOm+25BHAIEduPnoE1a64Q+KHixN2W8czFFPtSMG0+JLByT2bLaA==";
+        };
+        _HGFZRnBF = {
+            "id" = "HGFZRnBF";
+            "file" = "commoncapabilities-26.1.2-neoforge-2.11.8-366.jar";
+            "hash" = "sha512-SmqqRSnW/dS1rnSXqz0esXZMX2+9byDtp0c7kUs68U6m3K+GDOBCEt75fS3gPabulod9s0E6y3/2wmjwbnlCAA==";
+        };
+        _rcwd9X6o = {
+            "id" = "rcwd9X6o";
+            "file" = "commoncapabilities-26.1.2-neoforge-2.11.8-369.jar";
+            "hash" = "sha512-YHLZcNKTA4cUVpa/Nb9iYq7ZzLP6uLDwnALy3zGXVpu3JwvVNv17DaoPx1YGichqJp4SY0ylHqeSSbPrODXldA==";
+        };
+        _WnmcuXVD = {
+            "id" = "WnmcuXVD";
+            "file" = "commoncapabilities-26.2-neoforge-2.11.8-370.jar";
+            "hash" = "sha512-Nf96fgKL/LPB0Rr48lv4pZmguzruq5dVOKyw1kkn8D4BtyInwo8QJj4Lr20BWKBOKL8QbCgsm3iV4cxq7Phlhg==";
+        };
     in {
         "v12QARWs" = _v12QARWs;
         "3OcGLGGI" = _3OcGLGGI;
@@ -836,6 +856,10 @@ let
         "AB2lby3C" = _AB2lby3C;
         "HFTEQG0E" = _HFTEQG0E;
         "TOl9njea" = _TOl9njea;
+        "Pz2UmGhP" = _Pz2UmGhP;
+        "HGFZRnBF" = _HGFZRnBF;
+        "rcwd9X6o" = _rcwd9X6o;
+        "WnmcuXVD" = _WnmcuXVD;
         "forge-1.18.2" = _1NcPejMt;
         "forge-1.19" = _TagTGPCV;
         "forge-1.19.2" = _kCgwp7ya;
@@ -852,8 +876,8 @@ let
         "neoforge-1.21.10" = _KXRNleRP;
         "neoforge-1.21.11" = _FUjBfgN2;
         "neoforge-26.1.1" = _fgDoWs8y;
-        "neoforge-26.1.2" = _AB2lby3C;
-        "neoforge-26.2" = _HFTEQG0E;
+        "neoforge-26.1.2" = _rcwd9X6o;
+        "neoforge-26.2" = _WnmcuXVD;
         "pkg-2.8.2" = _v12QARWs;
         "pkg-1.19-2.8.2" = _3OcGLGGI;
         "pkg-1.19-2.8.3" = _TagTGPCV;
@@ -993,7 +1017,11 @@ let
         "pkg-26.1.2-2.11.8-364" = _AB2lby3C;
         "pkg-26.2-2.11.8-365" = _HFTEQG0E;
         "pkg-1.21.1-2.11.5-363" = _TOl9njea;
-        "default" = _TOl9njea;
+        "pkg-26.2-2.11.8-367" = _Pz2UmGhP;
+        "pkg-26.1.2-2.11.8-366" = _HGFZRnBF;
+        "pkg-26.1.2-2.11.8-369" = _rcwd9X6o;
+        "pkg-26.2-2.11.8-370" = _WnmcuXVD;
+        "default" = _WnmcuXVD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "common-capabilities";

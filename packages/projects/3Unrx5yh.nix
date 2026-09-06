@@ -191,6 +191,11 @@ let
             "file" = "lostsouls-1.21-5.0.1.jar";
             "hash" = "sha512-gawnUsMg3zCpKCApSkSHu18zIGSS7JW1XTQOX5dKnCjlth+jQClmgpwY34tbCBRpg637S72q0w5m+AmaG0gsXw==";
         };
+        _bAvI8nDc = {
+            "id" = "bAvI8nDc";
+            "file" = "lostsouls-1.20-4.1.7.jar";
+            "hash" = "sha512-tUs4KQGzR7YDflW7LwYR/ISMdpIXdwpjGtQrxR7npgvjS96az5X8n4dJzbyYcr5lHCgkjg0hws/gPckoUDfRLQ==";
+        };
     in {
         "hCw742ys" = _hCw742ys;
         "2zapE0ML" = _2zapE0ML;
@@ -230,13 +235,14 @@ let
         "YzO9bbN1" = _YzO9bbN1;
         "bKQM8Qaf" = _bKQM8Qaf;
         "Wy7VzpLb" = _Wy7VzpLb;
+        "bAvI8nDc" = _bAvI8nDc;
         "forge-1.12" = _8YPgeIYh;
         "forge-1.12.1" = _134s8c5A;
         "forge-1.12.2" = _wh0WJ7Ln;
         "forge-1.18.2" = _Npng2lyk;
         "forge-1.19.2" = _6g57lEMg;
         "forge-1.19.3" = _ZBCtTft5;
-        "forge-1.20.1" = _bKQM8Qaf;
+        "forge-1.20.1" = _bAvI8nDc;
         "neoforge-1.21.1" = _Wy7VzpLb;
         "pkg-1.12-0.0.1beta" = _hCw742ys;
         "pkg-1.12-0.0.2beta" = _2zapE0ML;
@@ -274,7 +280,8 @@ let
         "pkg-1.21-5.0.0" = _YzO9bbN1;
         "pkg-1.20-4.1.6" = _bKQM8Qaf;
         "pkg-1.21-5.0.1" = _Wy7VzpLb;
-        "default" = _Wy7VzpLb;
+        "pkg-1.20-4.1.7" = _bAvI8nDc;
+        "default" = _bAvI8nDc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lost-souls";

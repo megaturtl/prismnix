@@ -534,6 +534,12 @@ let
         "minecraft-26.3-snapshot-3" = _tf1V44yQ;
         "minecraft-26.3-snapshot-4" = _tf1V44yQ;
         "minecraft-26.3-snapshot-5" = _tf1V44yQ;
+        "minecraft-26.3-snapshot-6" = _tf1V44yQ;
+        "minecraft-26.3-snapshot-7" = _tf1V44yQ;
+        "minecraft-26.3-snapshot-8" = _tf1V44yQ;
+        "minecraft-26.3-snapshot-9" = _tf1V44yQ;
+        "minecraft-26.3-snapshot-10" = _tf1V44yQ;
+        "minecraft-26.3-pre-1" = _tf1V44yQ;
         "pkg-v1.3" = _hSW6nisx;
         "pkg-v1.4" = _cgkAtQJn;
         "pkg-v1.5" = _HahfrOLV;

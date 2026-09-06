@@ -336,6 +336,31 @@ let
             "file" = "stackplus-26.3-snapshot-2-3.1.1.jar";
             "hash" = "sha512-SvSvWIBpS4u3HMe0jheSBgePPftNfyx9NDq5loqcHlfPtxxhWVXVaKN8pID7WK3+qkMHyCb/WMldiV3elpGc9A==";
         };
+        _2zYebMxE = {
+            "id" = "2zYebMxE";
+            "file" = "stackplus-1.21.11-3.1.2.jar";
+            "hash" = "sha512-toWjagOlbbo6QGfhT6njO6WsZaqGVHmJexUqRTeeMROwqd8zuxXCspkjT7H47zN3yxZiSmbrPfjHWPpPo+T1Tg==";
+        };
+        _uPhXTuL7 = {
+            "id" = "uPhXTuL7";
+            "file" = "stackplus-26.1.1-3.1.2.jar";
+            "hash" = "sha512-t78BffDDGalXWqsvCDqXLndOnIZNDhThMk0JcCuvvKHs+U8JzQN81vnOYkO3FEOrrpQj2e3IzyCOcVPX2XZeWw==";
+        };
+        _KReJ3rJm = {
+            "id" = "KReJ3rJm";
+            "file" = "stackplus-26.1.2-3.1.2.jar";
+            "hash" = "sha512-eHV2mqwdM8CT1JX8YrJdbiNNRp5xOs8nrPIZNvdzkIOk0ALk54IRzejnmnNoN6gl0mDKL3ajLvTssLJxvBnHnw==";
+        };
+        _a0NT86Nr = {
+            "id" = "a0NT86Nr";
+            "file" = "stackplus-26.1-3.1.2.jar";
+            "hash" = "sha512-FLsu7iTSvd21POqTm8NeVu0BKQrO5zlTTc8Ey0kHH0nvzcxUkJdJpwdXTGr32UpKdXXrgeWYTX3HqjwI5YNCfA==";
+        };
+        _6hlyc9J4 = {
+            "id" = "6hlyc9J4";
+            "file" = "stackplus-26.2-3.1.2.jar";
+            "hash" = "sha512-/eZ6DYcFjlcI4P8vqd7S9eK1J2uVdPikE9rwBd+3iACFrDRuIb45RayHrG07hW6weabhM6CI5Lho3o/1pKoJCg==";
+        };
     in {
         "CJbhiSfH" = _CJbhiSfH;
         "mGUmpj0Z" = _mGUmpj0Z;
@@ -404,6 +429,11 @@ let
         "6EtqK5pi" = _6EtqK5pi;
         "3D4jY4eB" = _3D4jY4eB;
         "xlMng7LC" = _xlMng7LC;
+        "2zYebMxE" = _2zYebMxE;
+        "uPhXTuL7" = _uPhXTuL7;
+        "KReJ3rJm" = _KReJ3rJm;
+        "a0NT86Nr" = _a0NT86Nr;
+        "6hlyc9J4" = _6hlyc9J4;
         "fabric-1.21.9" = _bgEYvcob;
         "fabric-1.21.10" = _FMQqCuhL;
         "fabric-1.21" = _qxE16ZbL;
@@ -415,11 +445,11 @@ let
         "fabric-1.21.6" = _JCJ1G5ji;
         "fabric-1.21.7" = _FgB1YwNP;
         "fabric-1.21.8" = _eGm69E4r;
-        "fabric-1.21.11" = _nxkG14VP;
-        "fabric-26.1" = _6EtqK5pi;
-        "fabric-26.1.1" = _em7OwHKI;
-        "fabric-26.1.2" = _nQyYUzia;
-        "fabric-26.2" = _3D4jY4eB;
+        "fabric-1.21.11" = _2zYebMxE;
+        "fabric-26.1" = _a0NT86Nr;
+        "fabric-26.1.1" = _uPhXTuL7;
+        "fabric-26.1.2" = _KReJ3rJm;
+        "fabric-26.2" = _6hlyc9J4;
         "fabric-26.3-snapshot-2" = _xlMng7LC;
         "neoforge-1.21.9" = _Iu7xJdNT;
         "neoforge-1.21.10" = _Iu7xJdNT;
@@ -441,7 +471,8 @@ let
         "pkg-3.0.0" = _cr1qTcDC;
         "pkg-3.1.0" = _XOKE2O21;
         "pkg-3.1.1" = _xlMng7LC;
-        "default" = _xlMng7LC;
+        "pkg-3.1.2" = _6hlyc9J4;
+        "default" = _6hlyc9J4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stackplus";

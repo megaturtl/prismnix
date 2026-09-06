@@ -71,6 +71,7 @@ let
         "forge-1.20" = _SxSXjhQ9;
         "forge-1.20.1" = _SxSXjhQ9;
         "forge-1.20.4" = _SxSXjhQ9;
+        "forge-26.2" = _SxSXjhQ9;
         "neoforge-1.20.4" = _Ho4lhj2e;
         "neoforge-1.21" = _Ho4lhj2e;
         "neoforge-1.21.1" = _Ho4lhj2e;

@@ -61,6 +61,11 @@ let
             "file" = "Skript-2.16.1.jar";
             "hash" = "sha512-ThnnToKcNWzwJ35hK7+diqD0RxjSgPPd+gB+eJP0Nkafb/G6Yx4bO1E0vBhPbPxCcZ5lkdbviQY/m34AABZK/w==";
         };
+        _4JYDcsAm = {
+            "id" = "4JYDcsAm";
+            "file" = "Skript-2.16.2.jar";
+            "hash" = "sha512-CMGo8ldlwj4GsB/CIhxIQYdNK/LMUojHjeWdECP7RKIwNB/n5hpS5PGMz3LecSpKWELDLP7+5fxoAca744za3A==";
+        };
     in {
         "o2KKbxRo" = _o2KKbxRo;
         "oLyH9Mpt" = _oLyH9Mpt;
@@ -74,6 +79,7 @@ let
         "2QwoQvep" = _2QwoQvep;
         "1FoOjYHA" = _1FoOjYHA;
         "9s2QlgIA" = _9s2QlgIA;
+        "4JYDcsAm" = _4JYDcsAm;
         "paper-1.20.4" = _oLyH9Mpt;
         "paper-1.20.5" = _oLyH9Mpt;
         "paper-1.20.6" = _oLyH9Mpt;
@@ -81,18 +87,18 @@ let
         "paper-1.21.1" = _2QwoQvep;
         "paper-1.21.2" = _2QwoQvep;
         "paper-1.21.3" = _2QwoQvep;
-        "paper-1.21.4" = _9s2QlgIA;
-        "paper-1.21.5" = _9s2QlgIA;
-        "paper-1.21.6" = _9s2QlgIA;
-        "paper-1.21.7" = _9s2QlgIA;
-        "paper-1.21.8" = _9s2QlgIA;
-        "paper-1.21.9" = _9s2QlgIA;
-        "paper-1.21.10" = _9s2QlgIA;
-        "paper-1.21.11" = _9s2QlgIA;
+        "paper-1.21.4" = _4JYDcsAm;
+        "paper-1.21.5" = _4JYDcsAm;
+        "paper-1.21.6" = _4JYDcsAm;
+        "paper-1.21.7" = _4JYDcsAm;
+        "paper-1.21.8" = _4JYDcsAm;
+        "paper-1.21.9" = _4JYDcsAm;
+        "paper-1.21.10" = _4JYDcsAm;
+        "paper-1.21.11" = _4JYDcsAm;
         "paper-26.1" = _HpdbRhER;
         "paper-26.1.1" = _HpdbRhER;
-        "paper-26.1.2" = _9s2QlgIA;
-        "paper-26.2" = _9s2QlgIA;
+        "paper-26.1.2" = _4JYDcsAm;
+        "paper-26.2" = _4JYDcsAm;
         "pkg-2.13.1" = _o2KKbxRo;
         "pkg-2.13.2" = _oLyH9Mpt;
         "pkg-2.14.0" = _jchMJWJm;
@@ -105,7 +111,8 @@ let
         "pkg-2.15.4" = _2QwoQvep;
         "pkg-2.16.0" = _1FoOjYHA;
         "pkg-2.16.1" = _9s2QlgIA;
-        "default" = _9s2QlgIA;
+        "pkg-2.16.2" = _4JYDcsAm;
+        "default" = _4JYDcsAm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skript";

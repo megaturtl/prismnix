@@ -76,6 +76,26 @@ let
             "file" = "StardewHUD-1.20.1-forge-1.2.3fix.jar";
             "hash" = "sha512-fGgBpkC8JYuh250mFayJeqSfRwMY8/pLyNK0DSNag8IGHIpbkU40vASYfq5DySJuepIKu+rfQmBS/EWJhJ+mow==";
         };
+        _2hAszMSZ = {
+            "id" = "2hAszMSZ";
+            "file" = "StardewHUD-1.20.1-fabric-1.2.5.jar";
+            "hash" = "sha512-B7Rt4hQTSbuY71Ij16SZCfkEwRWPkUtj+yGeulMAbzJz/phXZyiF+0qf2QCliFKxFVXWfKN8o4r2j4+G5NkXPg==";
+        };
+        _v2He58sy = {
+            "id" = "v2He58sy";
+            "file" = "StardewHUD-1.20.1-forge-1.2.5.jar";
+            "hash" = "sha512-D/+d1K8Lnkdg58mmravZnU8jTbQjTayrEFroL8Zlb7Vwo0rceGYVtbfD5mqxJ0/112tUyGemQuJR0ILveNqbMQ==";
+        };
+        _hQkPD2mE = {
+            "id" = "hQkPD2mE";
+            "file" = "StardewHUD-1.21.1-fabric-1.2.5.jar";
+            "hash" = "sha512-U5MxvNH61gm7nWg6tuxXiyY1Fhnt+elnthVohoHUMh/3BZLVXMCmQoGW7OODcr5ITvVJAwM5LZWUNUjlkqSb2Q==";
+        };
+        _bpKeMe3h = {
+            "id" = "bpKeMe3h";
+            "file" = "StardewHUD-1.21.1-neoforge-1.2.5.jar";
+            "hash" = "sha512-OOx7A5BjgG+wvK+x1rPFD7l6x1rExrnUW7WM2OabUrsoDlHwDu0FywKpkmd7oMdOQeAksbkRJudSnDmn6fPRWQ==";
+        };
     in {
         "r2BuSn95" = _r2BuSn95;
         "xQEHjgGr" = _xQEHjgGr;
@@ -92,17 +112,42 @@ let
         "sK4kgnX2" = _sK4kgnX2;
         "bnTaJ0IP" = _bnTaJ0IP;
         "BLpDAZOE" = _BLpDAZOE;
-        "fabric-1.20.1" = _mIGlGkZI;
-        "fabric-1.21.1" = _vqfEsdvQ;
-        "forge-1.20.1" = _BLpDAZOE;
-        "neoforge-1.21.1" = _bnTaJ0IP;
+        "2hAszMSZ" = _2hAszMSZ;
+        "v2He58sy" = _v2He58sy;
+        "hQkPD2mE" = _hQkPD2mE;
+        "bpKeMe3h" = _bpKeMe3h;
+        "fabric-1.20.1" = _2hAszMSZ;
+        "fabric-1.21.1" = _hQkPD2mE;
+        "fabric-1.20.2" = _2hAszMSZ;
+        "fabric-1.20.3" = _2hAszMSZ;
+        "fabric-1.20.4" = _2hAszMSZ;
+        "fabric-1.20.5" = _2hAszMSZ;
+        "fabric-1.20.6" = _2hAszMSZ;
+        "fabric-1.21.2" = _hQkPD2mE;
+        "fabric-1.21.3" = _hQkPD2mE;
+        "fabric-1.21.4" = _hQkPD2mE;
+        "fabric-1.21.5" = _hQkPD2mE;
+        "fabric-1.21.6" = _hQkPD2mE;
+        "fabric-1.21.7" = _hQkPD2mE;
+        "fabric-1.21.8" = _hQkPD2mE;
+        "fabric-1.21.9" = _hQkPD2mE;
+        "fabric-1.21.10" = _hQkPD2mE;
+        "fabric-1.21.11" = _hQkPD2mE;
+        "forge-1.20.1" = _v2He58sy;
+        "forge-1.20.2" = _v2He58sy;
+        "forge-1.20.3" = _v2He58sy;
+        "forge-1.20.4" = _v2He58sy;
+        "forge-1.20.5" = _v2He58sy;
+        "forge-1.20.6" = _v2He58sy;
+        "neoforge-1.21.1" = _bpKeMe3h;
         "pkg-1.2.0" = _b2ig9Zv4;
         "pkg-1.2.1" = _QFIFp4Mg;
         "pkg-1.2.2" = _Y4RZ3SAJ;
         "pkg-1.2.3" = _sK4kgnX2;
         "pkg-1.2.4" = _bnTaJ0IP;
         "pkg-1.2.3-fix" = _BLpDAZOE;
-        "default" = _BLpDAZOE;
+        "pkg-1.2.5" = _bpKeMe3h;
+        "default" = _bpKeMe3h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stardew-hud";

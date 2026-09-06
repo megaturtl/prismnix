@@ -21,18 +21,32 @@ let
             "file" = "iaie-1.1-1.20.1.jar";
             "hash" = "sha512-VGSramHB1uc2mQei2P8u5aRGmwQa4HEyNnRyg0q2bcLiSmdE8fgy8DButuPc0OPj2CCtbqlanrO9IA17BwzlFg==";
         };
+        _1Z0wWnyU = {
+            "id" = "1Z0wWnyU";
+            "file" = "iaie-1.2-1.21.1.jar";
+            "hash" = "sha512-8V3MrWdjsj8P5a4yenzlHLhP/y7jQK6IDXJO6fO+yv4nGrlEn+aJT0gkFfoQeWfXCPjMwT1agDJzpZ0zgEZYvw==";
+        };
+        _d4ST5GIV = {
+            "id" = "d4ST5GIV";
+            "file" = "iaie-1.2-1.20.1.jar";
+            "hash" = "sha512-FKwBQ0xoOUIC4x7TVyO3IeMgB677zVjMIoPxlDR8yMZRtGd3Q/fuXxuAsc4EBWoCp+3/tZy4t7OIzh9qSHVujA==";
+        };
     in {
         "bVHAOrdG" = _bVHAOrdG;
         "QWK4JafL" = _QWK4JafL;
         "ig4FC4WA" = _ig4FC4WA;
         "f7XOVDMB" = _f7XOVDMB;
-        "forge-1.20.1" = _f7XOVDMB;
-        "neoforge-1.21.1" = _ig4FC4WA;
+        "1Z0wWnyU" = _1Z0wWnyU;
+        "d4ST5GIV" = _d4ST5GIV;
+        "forge-1.20.1" = _d4ST5GIV;
+        "neoforge-1.21.1" = _1Z0wWnyU;
         "pkg-1.0-1.20.1" = _bVHAOrdG;
         "pkg-1.0-1.21.1" = _QWK4JafL;
         "pkg-1.1-1.21.1" = _ig4FC4WA;
         "pkg-1.1-1.20.1" = _f7XOVDMB;
-        "default" = _f7XOVDMB;
+        "pkg-1.2-1.21.1" = _1Z0wWnyU;
+        "pkg-1.2-1.20.1" = _d4ST5GIV;
+        "default" = _d4ST5GIV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-aircraft-x-immersive-engineering";

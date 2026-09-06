@@ -41,6 +41,16 @@ let
             "file" = "Duels-mod-beta-3.0.0.jar";
             "hash" = "sha512-c2RGPHNEDTv5xx2B7scgPhURCAixMM+i9HGEay9ilnNL+gFGoe99JcVDz+J2Qi1jdrBTlKvm/gFplsuowzA/DA==";
         };
+        _5XbbPYmz = {
+            "id" = "5XbbPYmz";
+            "file" = "Duels-mod-beta-3.0.1.jar";
+            "hash" = "sha512-GmS/8Oh4Xc/k7l2rKuyNtmErpOZIr1JT9+51KIqdNQ1t319ephwlxUqa+XhTYuD7v9SP7ODs8GeuQwF2Vn3SlA==";
+        };
+        _7Obco0as = {
+            "id" = "7Obco0as";
+            "file" = "Duels-mod-beta-3.0.2.jar";
+            "hash" = "sha512-tDQIuR6lJFgvCCifoPzGT/Os+/N8VmX0FuV8lWShl3mH+a9YH94/g71b/1Gw3wXxEs+NtjIpcfUJMJ7PE4yqFQ==";
+        };
     in {
         "qGEFP7BK" = _qGEFP7BK;
         "sw8ys1fM" = _sw8ys1fM;
@@ -50,7 +60,9 @@ let
         "Olzyogok" = _Olzyogok;
         "bNPkphil" = _bNPkphil;
         "2XGkvxwb" = _2XGkvxwb;
-        "fabric-1.21.11" = _2XGkvxwb;
+        "5XbbPYmz" = _5XbbPYmz;
+        "7Obco0as" = _7Obco0as;
+        "fabric-1.21.11" = _7Obco0as;
         "pkg-1.1-Beta" = _qGEFP7BK;
         "pkg-1.3-Beta" = _sw8ys1fM;
         "pkg-1.4-Beta" = _42pFeN4G;
@@ -59,7 +71,9 @@ let
         "pkg-1.5.2-Beta" = _Olzyogok;
         "pkg-2.0.0-Beta" = _bNPkphil;
         "pkg-3.0.0" = _2XGkvxwb;
-        "default" = _2XGkvxwb;
+        "pkg-3.0.1" = _5XbbPYmz;
+        "pkg-3.0.2" = _7Obco0as;
+        "default" = _7Obco0as;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "duelsmod";

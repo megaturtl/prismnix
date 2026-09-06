@@ -101,6 +101,21 @@ let
             "file" = "PuppetPlayers-1.7.0+26.2.jar";
             "hash" = "sha512-QF9V8RNqKqiCoaH6KfHKIymksrdoZcPdhc6QZnzxkWArjSGo6ZXX9Cr1hr0vlReW0Sfw3pTHg7arVoEP/KrwGw==";
         };
+        _x2xNxp6T = {
+            "id" = "x2xNxp6T";
+            "file" = "PuppetPlayers-1.8.0+26.2.jar";
+            "hash" = "sha512-8QtAhTyCCFTb9QsB0AmKJBdJZgu7REw9le3cZE/JM563ulpEACt/KywaMKsWZdfdOkUfOE3jiPuChX8rEfddSw==";
+        };
+        _nUL7daih = {
+            "id" = "nUL7daih";
+            "file" = "PuppetPlayers-2.0.0+26.2.jar";
+            "hash" = "sha512-i8Ju8OJ4f8hhJGPl8WQvq5UmTCEKPtmqJsfC9w1HR0cdYQPy1Ws1veZxxMUhwQmmoYJogzFrrcEoOGiWol/Q3Q==";
+        };
+        _FiBFm99w = {
+            "id" = "FiBFm99w";
+            "file" = "PuppetPlayers-2.0.1+26.2.jar";
+            "hash" = "sha512-8m11Fn85p5az6kdjbou7OdHf8iW1/1l5Ump5nOImYhEn5jSVWuSYIf0HgsKj584FNOg2Lb6+afhi/9dpeysBsQ==";
+        };
     in {
         "I5pPqqLW" = _I5pPqqLW;
         "oHbMOgKx" = _oHbMOgKx;
@@ -122,6 +137,9 @@ let
         "OoUGjocC" = _OoUGjocC;
         "JaoWkgg0" = _JaoWkgg0;
         "4GM1mWBW" = _4GM1mWBW;
+        "x2xNxp6T" = _x2xNxp6T;
+        "nUL7daih" = _nUL7daih;
+        "FiBFm99w" = _FiBFm99w;
         "fabric-1.21.5" = _I5pPqqLW;
         "fabric-1.21.6" = _oHbMOgKx;
         "fabric-1.21.7" = _oHbMOgKx;
@@ -132,7 +150,7 @@ let
         "fabric-26.1" = _PrLvosgu;
         "fabric-26.1.1" = _VC9z5Kky;
         "fabric-26.1.2" = _JaoWkgg0;
-        "fabric-26.2" = _4GM1mWBW;
+        "fabric-26.2" = _FiBFm99w;
         "pkg-1.0.0+1.21.5" = _I5pPqqLW;
         "pkg-1.0.4+1.21.8" = _oHbMOgKx;
         "pkg-1.0.6+1.21.8" = _X9q5Ut86;
@@ -153,7 +171,10 @@ let
         "pkg-1.6.1+26.1.2" = _OoUGjocC;
         "pkg-1.6.2+26.1.2" = _JaoWkgg0;
         "pkg-1.7.0+26.2" = _4GM1mWBW;
-        "default" = _4GM1mWBW;
+        "pkg-1.8.0+26.2" = _x2xNxp6T;
+        "pkg-2.0.0+26.2" = _nUL7daih;
+        "pkg-2.0.1+26.2" = _FiBFm99w;
+        "default" = _FiBFm99w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "puppet-players";

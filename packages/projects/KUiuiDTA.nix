@@ -1,0 +1,136 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _fIuAwSne = {
+            "id" = "fIuAwSne";
+            "file" = "CPVP-Disabler-1.0-1.16-1.21.1.zip";
+            "hash" = "sha512-Wj7k6D9uGGWNM6w+gsrjJVJJ4jUIcSvr1zwTjKKp55vKxfr1ZdqYYO9me1B6rN1ToXmJbq8nXq+GQI3vj19X2g==";
+        };
+        _8VYnK8cd = {
+            "id" = "8VYnK8cd";
+            "file" = "CPVP-Disabler-1.0-1.21.2-26.1.2.zip";
+            "hash" = "sha512-mqlbpaiKJ1fjU3zV74t3OPkz33E5OrmgppBktD2fXlbq5vZRkGZ2t5eYSE9N36T1rLf+Q33hjeTbYbQCGgo4Rg==";
+        };
+        _t3PYZz8M = {
+            "id" = "t3PYZz8M";
+            "file" = "CPVP-Disabler-1.0-1.16-26.1.2.zip";
+            "hash" = "sha512-AlQtxpU3D0BgjPINh7OMyZaOGI0i5JXrrUZCXxnzdXPhnnXRtqCGVOuU7qEfHxGFW7bdhOz00LTA+N2i+bmeEw==";
+        };
+        _EBa5bL3m = {
+            "id" = "EBa5bL3m";
+            "file" = "CPVP-Disabler-1.1-1.21-26.1.2.jar";
+            "hash" = "sha512-6vo4EADXMjh+HTIFYWHYQZhJ7I9sJYvEV9K0THoKU2luJXcOvXGZNVq1A0uAXXxC19U1wRp9qUXi3mqp/IlMlw==";
+        };
+    in {
+        "fIuAwSne" = _fIuAwSne;
+        "8VYnK8cd" = _8VYnK8cd;
+        "t3PYZz8M" = _t3PYZz8M;
+        "EBa5bL3m" = _EBa5bL3m;
+        "datapack-1.16" = _t3PYZz8M;
+        "datapack-1.16.1" = _t3PYZz8M;
+        "datapack-1.16.2" = _t3PYZz8M;
+        "datapack-1.16.3" = _t3PYZz8M;
+        "datapack-1.16.4" = _t3PYZz8M;
+        "datapack-1.16.5" = _t3PYZz8M;
+        "datapack-1.17" = _t3PYZz8M;
+        "datapack-1.17.1" = _t3PYZz8M;
+        "datapack-1.18" = _t3PYZz8M;
+        "datapack-1.18.1" = _t3PYZz8M;
+        "datapack-1.18.2" = _t3PYZz8M;
+        "datapack-1.19" = _t3PYZz8M;
+        "datapack-1.19.1" = _t3PYZz8M;
+        "datapack-1.19.2" = _t3PYZz8M;
+        "datapack-1.19.3" = _t3PYZz8M;
+        "datapack-1.19.4" = _t3PYZz8M;
+        "datapack-1.20" = _t3PYZz8M;
+        "datapack-1.20.1" = _t3PYZz8M;
+        "datapack-1.20.2" = _t3PYZz8M;
+        "datapack-1.20.3" = _t3PYZz8M;
+        "datapack-1.20.4" = _t3PYZz8M;
+        "datapack-1.20.5" = _t3PYZz8M;
+        "datapack-1.20.6" = _t3PYZz8M;
+        "datapack-1.21" = _t3PYZz8M;
+        "datapack-1.21.1" = _t3PYZz8M;
+        "datapack-1.21.2" = _t3PYZz8M;
+        "datapack-1.21.3" = _t3PYZz8M;
+        "datapack-1.21.4" = _t3PYZz8M;
+        "datapack-1.21.5" = _t3PYZz8M;
+        "datapack-1.21.6" = _t3PYZz8M;
+        "datapack-1.21.7" = _t3PYZz8M;
+        "datapack-1.21.8" = _t3PYZz8M;
+        "datapack-1.21.9" = _t3PYZz8M;
+        "datapack-1.21.10" = _t3PYZz8M;
+        "datapack-1.21.11" = _t3PYZz8M;
+        "datapack-26.1" = _t3PYZz8M;
+        "datapack-26.1.1" = _t3PYZz8M;
+        "datapack-26.1.2" = _t3PYZz8M;
+        "datapack-26.2" = _t3PYZz8M;
+        "fabric-1.21" = _EBa5bL3m;
+        "fabric-1.21.1" = _EBa5bL3m;
+        "fabric-1.21.2" = _EBa5bL3m;
+        "fabric-1.21.3" = _EBa5bL3m;
+        "fabric-1.21.4" = _EBa5bL3m;
+        "fabric-1.21.5" = _EBa5bL3m;
+        "fabric-1.21.6" = _EBa5bL3m;
+        "fabric-1.21.7" = _EBa5bL3m;
+        "fabric-1.21.8" = _EBa5bL3m;
+        "fabric-1.21.9" = _EBa5bL3m;
+        "fabric-1.21.10" = _EBa5bL3m;
+        "fabric-1.21.11" = _EBa5bL3m;
+        "fabric-26.1" = _EBa5bL3m;
+        "fabric-26.1.1" = _EBa5bL3m;
+        "fabric-26.1.2" = _EBa5bL3m;
+        "fabric-26.2" = _EBa5bL3m;
+        "forge-1.21" = _EBa5bL3m;
+        "forge-1.21.1" = _EBa5bL3m;
+        "forge-1.21.2" = _EBa5bL3m;
+        "forge-1.21.3" = _EBa5bL3m;
+        "forge-1.21.4" = _EBa5bL3m;
+        "forge-1.21.5" = _EBa5bL3m;
+        "forge-1.21.6" = _EBa5bL3m;
+        "forge-1.21.7" = _EBa5bL3m;
+        "forge-1.21.8" = _EBa5bL3m;
+        "forge-1.21.9" = _EBa5bL3m;
+        "forge-1.21.10" = _EBa5bL3m;
+        "forge-1.21.11" = _EBa5bL3m;
+        "forge-26.1" = _EBa5bL3m;
+        "forge-26.1.1" = _EBa5bL3m;
+        "forge-26.1.2" = _EBa5bL3m;
+        "forge-26.2" = _EBa5bL3m;
+        "neoforge-1.21" = _EBa5bL3m;
+        "neoforge-1.21.1" = _EBa5bL3m;
+        "neoforge-1.21.2" = _EBa5bL3m;
+        "neoforge-1.21.3" = _EBa5bL3m;
+        "neoforge-1.21.4" = _EBa5bL3m;
+        "neoforge-1.21.5" = _EBa5bL3m;
+        "neoforge-1.21.6" = _EBa5bL3m;
+        "neoforge-1.21.7" = _EBa5bL3m;
+        "neoforge-1.21.8" = _EBa5bL3m;
+        "neoforge-1.21.9" = _EBa5bL3m;
+        "neoforge-1.21.10" = _EBa5bL3m;
+        "neoforge-1.21.11" = _EBa5bL3m;
+        "neoforge-26.1" = _EBa5bL3m;
+        "neoforge-26.1.1" = _EBa5bL3m;
+        "neoforge-26.1.2" = _EBa5bL3m;
+        "neoforge-26.2" = _EBa5bL3m;
+        "pkg-1.0" = _8VYnK8cd;
+        "pkg-1.1" = _EBa5bL3m;
+        "default" = _EBa5bL3m;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "simple-crystal-pvp-disabler";
+        id = "KUiuiDTA";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

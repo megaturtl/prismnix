@@ -1881,6 +1881,36 @@ let
             "file" = "toms_storage_fabric-26.2-2.11.2.jar";
             "hash" = "sha512-U/iG+wV09gDJXl6YQlYr5j8tMtJiQ1n+1TWWfPtRvzEK1vFoifRQcK7OIOOOyHEWzK7ArmydRIuf2MHhYXQ+/g==";
         };
+        _WQAMoIMC = {
+            "id" = "WQAMoIMC";
+            "file" = "toms_storage-1.21-2.4.2.jar";
+            "hash" = "sha512-U9thtEhmFrOnjf/4O1j5Qk3Zv1Jeo9tORE/wQD+3Cqmrf8CX3/L0lmXkgLzpNrMr52swUaWv8heJiyuU2EbTCw==";
+        };
+        _nhRuPk5W = {
+            "id" = "nhRuPk5W";
+            "file" = "toms_storage_fabric-1.21-2.4.2.jar";
+            "hash" = "sha512-44ubKiVoQE2pjORo+TzMqLwaWjxOV9Ecfr/PQrHumIMxipx8/HKGiP9JOD1hFJhStCIGE6foxAgwneaKRa3M3g==";
+        };
+        _4gfSOCkU = {
+            "id" = "4gfSOCkU";
+            "file" = "toms_storage-26.1-2.10.2.jar";
+            "hash" = "sha512-YolRhjOoNLyFswDL3pSWD1Z5Atm4/9UjyJMOh89oa5dVXUPdSSzOES8qkRZqjMmKNNcvT+jpOQi3mALQhm9pCg==";
+        };
+        _kaQdqIea = {
+            "id" = "kaQdqIea";
+            "file" = "toms_storage_fabric-26.1-2.10.2.jar";
+            "hash" = "sha512-xL0ftOV9uK/HPRtfTTsXX9+1xeS8OFH9U9+ZTkt5MVb+zGP9VdNRISOm2NEGDqhXxw8ocndViqnjyAQ2pGu7Uw==";
+        };
+        _UdGowO79 = {
+            "id" = "UdGowO79";
+            "file" = "toms_storage-26.2-2.11.2.jar";
+            "hash" = "sha512-taucG6xVgwIhQhKFW5UlNCTE1IenxpJeslqArWem+2oxuQwBKVaIGoPRpWMxtcTqkzYSLenB1zJG7gB2q9NjoA==";
+        };
+        _V1KIQDWS = {
+            "id" = "V1KIQDWS";
+            "file" = "toms_storage_fabric-26.2-2.11.3.jar";
+            "hash" = "sha512-2mEKsvecvz+JTgGqSc5wQIBvOvwmMLEVz9v/U1ivYyP+ke66MuOXKJNexfnl6WkeTAB33WeM/9nvd1v2ABv34w==";
+        };
     in {
         "OuVq5op5" = _OuVq5op5;
         "MFFsa9k8" = _MFFsa9k8;
@@ -2258,6 +2288,12 @@ let
         "nngqHhiv" = _nngqHhiv;
         "CbOpfi3w" = _CbOpfi3w;
         "9KkiCXs5" = _9KkiCXs5;
+        "WQAMoIMC" = _WQAMoIMC;
+        "nhRuPk5W" = _nhRuPk5W;
+        "4gfSOCkU" = _4gfSOCkU;
+        "kaQdqIea" = _kaQdqIea;
+        "UdGowO79" = _UdGowO79;
+        "V1KIQDWS" = _V1KIQDWS;
         "forge-1.18" = _OuVq5op5;
         "forge-1.18.1" = _OuVq5op5;
         "forge-1.16.5" = _vA1AvvN1;
@@ -2312,8 +2348,8 @@ let
         "fabric-1.20.5-pre1" = _maJnquZH;
         "fabric-1.20.5" = _3cTjzNHP;
         "fabric-1.20.6" = _FpbYdAH4;
-        "fabric-1.21" = _rfiala5p;
-        "fabric-1.21.1" = _rfiala5p;
+        "fabric-1.21" = _nhRuPk5W;
+        "fabric-1.21.1" = _nhRuPk5W;
         "fabric-1.21.2-pre3" = _BD8Ro7tR;
         "fabric-1.21.2" = _h9IMZ6BE;
         "fabric-1.21.3" = _h9IMZ6BE;
@@ -2324,10 +2360,10 @@ let
         "fabric-1.21.8" = _eOUsxNs8;
         "fabric-1.21.10" = _Gk2tI0ZM;
         "fabric-1.21.11" = _FydlCSUl;
-        "fabric-26.1" = _nngqHhiv;
-        "fabric-26.1.1" = _nngqHhiv;
-        "fabric-26.1.2" = _nngqHhiv;
-        "fabric-26.2" = _9KkiCXs5;
+        "fabric-26.1" = _kaQdqIea;
+        "fabric-26.1.1" = _kaQdqIea;
+        "fabric-26.1.2" = _kaQdqIea;
+        "fabric-26.2" = _V1KIQDWS;
         "quilt-1.18.2" = _D6WrGoAd;
         "quilt-22w17a" = _IdEpyr8t;
         "quilt-22w18a" = _IdEpyr8t;
@@ -2338,8 +2374,8 @@ let
         "neoforge-1.20.4" = _BEakrZ61;
         "neoforge-1.20.5" = _UZcSiXSk;
         "neoforge-1.20.6" = _1JqY9TTx;
-        "neoforge-1.21" = _QQqFyS6K;
-        "neoforge-1.21.1" = _QQqFyS6K;
+        "neoforge-1.21" = _WQAMoIMC;
+        "neoforge-1.21.1" = _WQAMoIMC;
         "neoforge-1.21.2" = _NWgkxW4I;
         "neoforge-1.21.3" = _NWgkxW4I;
         "neoforge-1.21.4" = _cERcDmW2;
@@ -2351,8 +2387,8 @@ let
         "neoforge-1.21.11" = _Cl6WdkOf;
         "neoforge-26.1" = _LJuuSq8p;
         "neoforge-26.1.1" = _LJuuSq8p;
-        "neoforge-26.1.2" = _LJuuSq8p;
-        "neoforge-26.2" = _CbOpfi3w;
+        "neoforge-26.1.2" = _4gfSOCkU;
+        "neoforge-26.2" = _UdGowO79;
         "pkg-1.18-1.2.23" = _OuVq5op5;
         "pkg-1.2.19" = _MFFsa9k8;
         "pkg-1.1.16" = _BwKZgywB;
@@ -2721,7 +2757,13 @@ let
         "pkg-26.1-2.10.1-fabric" = _nngqHhiv;
         "pkg-26.2-2.11.1" = _CbOpfi3w;
         "pkg-26.2-2.11.2-fabric" = _9KkiCXs5;
-        "default" = _9KkiCXs5;
+        "pkg-1.21-2.4.2" = _WQAMoIMC;
+        "pkg-1.21-2.4.2-fabric" = _nhRuPk5W;
+        "pkg-26.1-2.10.2" = _4gfSOCkU;
+        "pkg-26.1-2.10.2-fabric" = _kaQdqIea;
+        "pkg-26.2-2.11.2" = _UdGowO79;
+        "pkg-26.2-2.11.3-fabric" = _V1KIQDWS;
+        "default" = _V1KIQDWS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "toms-storage";

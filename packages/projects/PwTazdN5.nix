@@ -26,20 +26,27 @@ let
             "file" = "voicecastaddon-1.0.1-1.20.1.jar";
             "hash" = "sha512-/f68nV0Th0RVXi8d2ivxFibA9LIN7SSV19WqW59DTG8LJ2oaZhhyda+1mNoHygtWHfbbTLHl/DrpAKEU9iO7+w==";
         };
+        _npojHt8c = {
+            "id" = "npojHt8c";
+            "file" = "voicecastaddon-1.0.2-1.20.1.jar";
+            "hash" = "sha512-/4VkLywJ+XG+lvH9garlV7Dv+lXJLt+sQSPX2Kv6Fk+O6bHxK9mi47YqzKscGa5cRRLZXKPofxnKRwkb5R/iBw==";
+        };
     in {
         "YwPY9KZQ" = _YwPY9KZQ;
         "zIvANYFq" = _zIvANYFq;
         "t7ZRi6Nz" = _t7ZRi6Nz;
         "XKRr8SaO" = _XKRr8SaO;
         "Td2uTlgq" = _Td2uTlgq;
+        "npojHt8c" = _npojHt8c;
         "neoforge-1.21.1" = _t7ZRi6Nz;
-        "forge-1.20.1" = _Td2uTlgq;
+        "forge-1.20.1" = _npojHt8c;
         "pkg-1.0.0" = _YwPY9KZQ;
         "pkg-1.0.1" = _zIvANYFq;
         "pkg-1.0.2" = _t7ZRi6Nz;
         "pkg-1.0.0-1.20.1" = _XKRr8SaO;
         "pkg-1.0.1-1.20.1" = _Td2uTlgq;
-        "default" = _Td2uTlgq;
+        "pkg-1.0.2-1.20.1" = _npojHt8c;
+        "default" = _npojHt8c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "irons-spells-spoken-sorcery";

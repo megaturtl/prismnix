@@ -174,6 +174,10 @@ let
         "datapack-26.3-snapshot-5" = _hh9jpwZQ;
         "datapack-26.3-snapshot-6" = _hh9jpwZQ;
         "datapack-26.3-snapshot-7" = _hh9jpwZQ;
+        "datapack-26.3-snapshot-8" = _hh9jpwZQ;
+        "datapack-26.3-snapshot-9" = _hh9jpwZQ;
+        "datapack-26.3-snapshot-10" = _hh9jpwZQ;
+        "datapack-26.3-pre-1" = _hh9jpwZQ;
         "fabric-1.21" = _1xw9EHou;
         "fabric-1.21.1" = _1xw9EHou;
         "fabric-1.21.2" = _1xw9EHou;
@@ -214,6 +218,10 @@ let
         "fabric-26.3-snapshot-5" = _IGp1ZASf;
         "fabric-26.3-snapshot-6" = _IGp1ZASf;
         "fabric-26.3-snapshot-7" = _IGp1ZASf;
+        "fabric-26.3-snapshot-8" = _IGp1ZASf;
+        "fabric-26.3-snapshot-9" = _IGp1ZASf;
+        "fabric-26.3-snapshot-10" = _IGp1ZASf;
+        "fabric-26.3-pre-1" = _IGp1ZASf;
         "forge-1.21" = _1xw9EHou;
         "forge-1.21.1" = _1xw9EHou;
         "forge-1.21.2" = _1xw9EHou;
@@ -254,6 +262,10 @@ let
         "forge-26.3-snapshot-5" = _IGp1ZASf;
         "forge-26.3-snapshot-6" = _IGp1ZASf;
         "forge-26.3-snapshot-7" = _IGp1ZASf;
+        "forge-26.3-snapshot-8" = _IGp1ZASf;
+        "forge-26.3-snapshot-9" = _IGp1ZASf;
+        "forge-26.3-snapshot-10" = _IGp1ZASf;
+        "forge-26.3-pre-1" = _IGp1ZASf;
         "neoforge-1.21" = _1xw9EHou;
         "neoforge-1.21.1" = _1xw9EHou;
         "neoforge-1.21.2" = _1xw9EHou;
@@ -294,6 +306,10 @@ let
         "neoforge-26.3-snapshot-5" = _IGp1ZASf;
         "neoforge-26.3-snapshot-6" = _IGp1ZASf;
         "neoforge-26.3-snapshot-7" = _IGp1ZASf;
+        "neoforge-26.3-snapshot-8" = _IGp1ZASf;
+        "neoforge-26.3-snapshot-9" = _IGp1ZASf;
+        "neoforge-26.3-snapshot-10" = _IGp1ZASf;
+        "neoforge-26.3-pre-1" = _IGp1ZASf;
         "quilt-1.21" = _1xw9EHou;
         "quilt-1.21.1" = _1xw9EHou;
         "quilt-1.21.2" = _1xw9EHou;
@@ -334,6 +350,10 @@ let
         "quilt-26.3-snapshot-5" = _IGp1ZASf;
         "quilt-26.3-snapshot-6" = _IGp1ZASf;
         "quilt-26.3-snapshot-7" = _IGp1ZASf;
+        "quilt-26.3-snapshot-8" = _IGp1ZASf;
+        "quilt-26.3-snapshot-9" = _IGp1ZASf;
+        "quilt-26.3-snapshot-10" = _IGp1ZASf;
+        "quilt-26.3-pre-1" = _IGp1ZASf;
         "pkg-1.21x-release+4" = _5k7LtNph;
         "pkg-1.21x-release+4+mod" = _2ufJNTfC;
         "pkg-26.2-release+1" = _CTCAzIhp;

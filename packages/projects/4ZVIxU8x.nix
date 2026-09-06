@@ -1626,6 +1626,66 @@ let
             "file" = "goety-3.1.0.jar";
             "hash" = "sha512-K3ZCtkebkMkfDe+/vKh9Tz/uwNxW6ti69uQM0+KUkkzYM3zpblOSVAGfdeF987mBq0JznyDmN4nQZrCwA0Q/VA==";
         };
+        _WUiA3kAZ = {
+            "id" = "WUiA3kAZ";
+            "file" = "goety-3.1.1.jar";
+            "hash" = "sha512-EQxkry86zSW7WAjGRNS9msEF+ub9iuThIvDT4FY9wS1G1nlfMScheJPLMCvcja+Jv8kis/Ca+En08ZxUHBsE6w==";
+        };
+        _pvTV38KU = {
+            "id" = "pvTV38KU";
+            "file" = "goety-3.1.2.jar";
+            "hash" = "sha512-A3kp0+0HM5loFIhWjlbW4zvnbf/0SvWQdJhssIj3sSkt67/OGyHcGfhuIbmmUbqmaDsp9Gzj/R1Y93hVm/ACcw==";
+        };
+        _nvmT9849 = {
+            "id" = "nvmT9849";
+            "file" = "goety-2.5.56.1.jar";
+            "hash" = "sha512-W3UVws4kSyU8HzKKH7c2lqrYD1KpOyMkVH29RBTAy1hYuF2JJTPOhnnc7qhowKym1U0CZWEQaTRgUIvL9GueZw==";
+        };
+        _l2tsN61y = {
+            "id" = "l2tsN61y";
+            "file" = "goety-2.5.56.2.jar";
+            "hash" = "sha512-vW2WUTOGDWE+G7vJHW5dyVMEt9S8H38XRB59ZU0GejpKAbpAmDloJ1G2WzdNLTwjscCgYX3TYyDuqFqM4T8FIg==";
+        };
+        _ZQWmPrCt = {
+            "id" = "ZQWmPrCt";
+            "file" = "goety-2.5.56.3.jar";
+            "hash" = "sha512-U04Dpv1nFy9muF72+GCaLOA5ZPqUPf+fsSfDCtlDEgqtjsLbPnR1wOYDSRhNctLdERbKkQX22ia45tC4FdoDOQ==";
+        };
+        _M9WMh1DD = {
+            "id" = "M9WMh1DD";
+            "file" = "goety-2.5.56.4.jar";
+            "hash" = "sha512-P55iF9aOElD83Z28Y05VkHkV6qJPxqbREOti0Pr15Gqq5PExyWfsoWraAj7/RAKIznXewzQ1wBnlnHV0Xo3MRg==";
+        };
+        _1He3MJQP = {
+            "id" = "1He3MJQP";
+            "file" = "goety-2.5.56.5.jar";
+            "hash" = "sha512-4tbBSkhc3e/WC6FJMLicj5mBj0ZjBoeSnL2VFUKZzz+oefoDO5RCEIkLU01dfI5/MTw2t5a1weAYYgDVt0FN3g==";
+        };
+        _LBDrMg4p = {
+            "id" = "LBDrMg4p";
+            "file" = "goety-3.1.4.jar";
+            "hash" = "sha512-BF+21TB7YWo3Lrpy3vsaiu6ObG94ZdHsoBJHwORl75m2hespogTHHPL6gbM2rmpOXAM3FP8ZjsU2/+TnmjSCVQ==";
+        };
+        _HZ9tYKlS = {
+            "id" = "HZ9tYKlS";
+            "file" = "goety-2.5.57.0.jar";
+            "hash" = "sha512-8QhEVhh4klCOiB5jWvj2U12b2t5JLC2zBIKXCRMdkjP8qigNUc3SA7SSgVrpkxR0a9qPr1tLHkdi8M14ImALbg==";
+        };
+        _TYTcUDVb = {
+            "id" = "TYTcUDVb";
+            "file" = "goety-2.5.57.1.jar";
+            "hash" = "sha512-7zUVHFX5G/Ydkml8LEE2HGpbsR2T5JOdXOuTIidtLTTvtYCE8C1+u79ApycFtYqHuDnU/ThjkI2pnApKCDxcRQ==";
+        };
+        _CkXbueI2 = {
+            "id" = "CkXbueI2";
+            "file" = "goety-2.5.57.2.jar";
+            "hash" = "sha512-+XJpWwHsO/eYCo/9nf18iu4vHjlhStj8Saxw85NlH2oHB6MHgb5Gl5AZk4o/0ij7w7njnAS4Be+VHB8HEWYzzQ==";
+        };
+        _jVtlXH2H = {
+            "id" = "jVtlXH2H";
+            "file" = "goety-2.5.57.3.jar";
+            "hash" = "sha512-79sHP13QZ8FmLyPhHjkApqKf2JAKWAGIIFrMai6VineiBvZU2z2XO/SNYyGLUAy4ZTlBJ7Ut1l/y6v1jIxai1w==";
+        };
     in {
         "kbb3FLSo" = _kbb3FLSo;
         "I4uXhIb5" = _I4uXhIb5;
@@ -1952,11 +2012,23 @@ let
         "4F21shjN" = _4F21shjN;
         "fKt6XTwN" = _fKt6XTwN;
         "tyFkP45Q" = _tyFkP45Q;
+        "WUiA3kAZ" = _WUiA3kAZ;
+        "pvTV38KU" = _pvTV38KU;
+        "nvmT9849" = _nvmT9849;
+        "l2tsN61y" = _l2tsN61y;
+        "ZQWmPrCt" = _ZQWmPrCt;
+        "M9WMh1DD" = _M9WMh1DD;
+        "1He3MJQP" = _1He3MJQP;
+        "LBDrMg4p" = _LBDrMg4p;
+        "HZ9tYKlS" = _HZ9tYKlS;
+        "TYTcUDVb" = _TYTcUDVb;
+        "CkXbueI2" = _CkXbueI2;
+        "jVtlXH2H" = _jVtlXH2H;
         "forge-1.19.2" = _P53aA5BL;
         "forge-1.16.5" = _nSsAx9u3;
-        "forge-1.20.1" = _fKt6XTwN;
-        "neoforge-1.20.1" = _fKt6XTwN;
-        "neoforge-1.21.1" = _tyFkP45Q;
+        "forge-1.20.1" = _jVtlXH2H;
+        "neoforge-1.20.1" = _jVtlXH2H;
+        "neoforge-1.21.1" = _LBDrMg4p;
         "pkg-2.2.0" = _kbb3FLSo;
         "pkg-1.31.4" = _I4uXhIb5;
         "pkg-2.3.0" = _gAMacvjx;
@@ -2282,7 +2354,19 @@ let
         "pkg-3.0.7" = _4F21shjN;
         "pkg-2.5.56.0" = _fKt6XTwN;
         "pkg-3.1.0" = _tyFkP45Q;
-        "default" = _tyFkP45Q;
+        "pkg-3.1.1" = _WUiA3kAZ;
+        "pkg-3.1.2" = _pvTV38KU;
+        "pkg-2.5.56.1" = _nvmT9849;
+        "pkg-2.5.56.2" = _l2tsN61y;
+        "pkg-2.5.56.3" = _ZQWmPrCt;
+        "pkg-2.5.56.4" = _M9WMh1DD;
+        "pkg-2.5.56.5" = _1He3MJQP;
+        "pkg-3.1.4" = _LBDrMg4p;
+        "pkg-2.5.57.0" = _HZ9tYKlS;
+        "pkg-2.5.57.1" = _TYTcUDVb;
+        "pkg-2.5.57.2" = _CkXbueI2;
+        "pkg-2.5.57.3" = _jVtlXH2H;
+        "default" = _jVtlXH2H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "goety";

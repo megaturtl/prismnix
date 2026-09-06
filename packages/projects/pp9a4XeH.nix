@@ -39,6 +39,10 @@ let
         "minecraft-1.21.9" = _h2pozlZ2;
         "minecraft-1.21.10" = _h2pozlZ2;
         "minecraft-1.21.11" = _h2pozlZ2;
+        "minecraft-26.1" = _h2pozlZ2;
+        "minecraft-26.1.1" = _h2pozlZ2;
+        "minecraft-26.1.2" = _h2pozlZ2;
+        "minecraft-26.2" = _h2pozlZ2;
         "pkg-1.0" = _vWn1US1J;
         "pkg-1.1" = _h2pozlZ2;
         "default" = _h2pozlZ2;

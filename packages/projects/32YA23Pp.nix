@@ -86,6 +86,11 @@ let
             "file" = "Myotus-1.21.1-19.1.0-hotfix1.jar";
             "hash" = "sha512-25E0QCxN6Vg6DW/Nly4z9JNYd5+fJctGQt2x+rPQqpDbYKW9bgWBynrBgaApmjTKQ+xYwjbaJ8zQ7bmnA4YtWQ==";
         };
+        _uqvIHRrm = {
+            "id" = "uqvIHRrm";
+            "file" = "Myotus-1.21.1-19.1.1.jar";
+            "hash" = "sha512-sIbB4zNnOId0biUOivBlzuEkw1kXqXSRdLSnyjshpi1NAiuyqz6LAEL6eSvC2WAQV6gk50mgVY0EbAYgyuIazA==";
+        };
     in {
         "5JzeoQEE" = _5JzeoQEE;
         "CEMO9mSM" = _CEMO9mSM;
@@ -104,7 +109,8 @@ let
         "v2F0I4J7" = _v2F0I4J7;
         "Wd7dbj4N" = _Wd7dbj4N;
         "nsPTsdOG" = _nsPTsdOG;
-        "neoforge-1.21.1" = _nsPTsdOG;
+        "uqvIHRrm" = _uqvIHRrm;
+        "neoforge-1.21.1" = _uqvIHRrm;
         "forge-1.20.1" = _De7gWmvt;
         "pkg-1.21.1-19.0.2" = _5JzeoQEE;
         "pkg-1.21.1-19.0.3" = _CEMO9mSM;
@@ -123,7 +129,8 @@ let
         "pkg-1.21.1-19.0.9" = _v2F0I4J7;
         "pkg-1.21.1-19.1.0" = _Wd7dbj4N;
         "pkg-1.21.1-19.1.0-hotfix1" = _nsPTsdOG;
-        "default" = _nsPTsdOG;
+        "pkg-1.21.1-19.1.1" = _uqvIHRrm;
+        "default" = _uqvIHRrm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "myotus-lib";

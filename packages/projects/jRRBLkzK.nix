@@ -156,6 +156,16 @@ let
             "file" = "bigbrain-2.2.7-1.21.1.jar";
             "hash" = "sha512-+vpebtoPwk16zdwE7rKceLvm3frIVYoCOemASOu0nL9z6DM8svGhw9p71fucXCRm9YIdoT9p7uy0nK3WOVCZlg==";
         };
+        _5VqgzLg9 = {
+            "id" = "5VqgzLg9";
+            "file" = "bigbrain-2.2.8-1.21.1.jar";
+            "hash" = "sha512-viCC872pRT16BPa9kIZblBvJfhRbGTzgk5tvpzi92JWSm2Tp+jPYCy4GULFJqFWEj8XPhbc/VlEat1BvNGZKZA==";
+        };
+        _c5DBfEz9 = {
+            "id" = "c5DBfEz9";
+            "file" = "bigbrain-1.20.1-1.7.8.jar";
+            "hash" = "sha512-KtwAfWqPWWWq/F//QZvahL9mp9HhcbDv2+fucXoCWoSA2f9+mSNfo4Hu3CWazZjQhvyz+KrOoQ8edvw2sHw0aw==";
+        };
     in {
         "BYUN1VrJ" = _BYUN1VrJ;
         "PYqTu2mG" = _PYqTu2mG;
@@ -188,15 +198,17 @@ let
         "YlFouAv4" = _YlFouAv4;
         "FoBE5l9H" = _FoBE5l9H;
         "BMezbCaG" = _BMezbCaG;
+        "5VqgzLg9" = _5VqgzLg9;
+        "c5DBfEz9" = _c5DBfEz9;
         "forge-1.19.3" = _PYqTu2mG;
         "forge-1.19.4" = _sht5OISr;
         "forge-1.19.2" = _V8DzQK8V;
         "forge-1.20" = _cvYvOC2G;
-        "forge-1.20.1" = _FoBE5l9H;
+        "forge-1.20.1" = _c5DBfEz9;
         "forge-1.20.2" = _4VWzUMjR;
         "neoforge-1.21" = _89YBePbE;
-        "neoforge-1.20.1" = _FoBE5l9H;
-        "neoforge-1.21.1" = _BMezbCaG;
+        "neoforge-1.20.1" = _c5DBfEz9;
+        "neoforge-1.21.1" = _5VqgzLg9;
         "pkg-1.6.2" = _BYUN1VrJ;
         "pkg-1.6.3" = _PYqTu2mG;
         "pkg-1.19.4-1.6.3" = _QNn7o1VX;
@@ -228,7 +240,9 @@ let
         "pkg-2.2.6" = _YlFouAv4;
         "pkg-1.7.7" = _FoBE5l9H;
         "pkg-2.2.7" = _BMezbCaG;
-        "default" = _BMezbCaG;
+        "pkg-2.2.8" = _5VqgzLg9;
+        "pkg-1.7.8" = _c5DBfEz9;
+        "default" = _c5DBfEz9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "big-brain";

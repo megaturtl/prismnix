@@ -111,6 +111,16 @@ let
             "file" = "gibbing-1.4.1.jar";
             "hash" = "sha512-dAvTlyKFhDuzg2FgbJZ12yI/CkvUcqI3b9/uK5MsaX2m8tFdVHpGu/tCC/zaWj3q1iyMlgxxCnKlFo5V22WfSg==";
         };
+        _G68zN1QX = {
+            "id" = "G68zN1QX";
+            "file" = "Death Animations v1.5.zip";
+            "hash" = "sha512-8Te7qZrs6vtDdC60ruzj7+GSdqWiW/pGrzRuua0J3NRz8faDU7h0db+6n7SZKGKCYaUeXBWt2NJ9Tfeza225NA==";
+        };
+        _fN68Hbrh = {
+            "id" = "fN68Hbrh";
+            "file" = "gibbing-1.5.jar";
+            "hash" = "sha512-IJyTygG3Lc+eCRZ80mgcU0gEGMlSKfPqyG4yUOZhNrPBE0QnZ+vIcCg8fH//8H6wzcrABVYeN0i/IaSLTXuFcg==";
+        };
     in {
         "aeu1uqwJ" = _aeu1uqwJ;
         "a63yRo6u" = _a63yRo6u;
@@ -134,6 +144,8 @@ let
         "EiPgC8ms" = _EiPgC8ms;
         "MPFBxp48" = _MPFBxp48;
         "UbPtj8ej" = _UbPtj8ej;
+        "G68zN1QX" = _G68zN1QX;
+        "fN68Hbrh" = _fN68Hbrh;
         "datapack-1.21.8" = _MPFBxp48;
         "datapack-1.21.9" = _MPFBxp48;
         "datapack-1.21.10" = _MPFBxp48;
@@ -154,7 +166,7 @@ let
         "datapack-26.1" = _MPFBxp48;
         "datapack-26.1.1" = _MPFBxp48;
         "datapack-26.1.2" = _MPFBxp48;
-        "datapack-26.2" = _MPFBxp48;
+        "datapack-26.2" = _G68zN1QX;
         "fabric-1.21.8" = _UbPtj8ej;
         "fabric-1.21.9" = _UbPtj8ej;
         "fabric-1.21.10" = _UbPtj8ej;
@@ -175,7 +187,7 @@ let
         "fabric-26.1" = _UbPtj8ej;
         "fabric-26.1.1" = _UbPtj8ej;
         "fabric-26.1.2" = _UbPtj8ej;
-        "fabric-26.2" = _UbPtj8ej;
+        "fabric-26.2" = _fN68Hbrh;
         "forge-1.21.8" = _UbPtj8ej;
         "forge-1.21.9" = _UbPtj8ej;
         "forge-1.21.10" = _UbPtj8ej;
@@ -196,7 +208,7 @@ let
         "forge-26.1" = _UbPtj8ej;
         "forge-26.1.1" = _UbPtj8ej;
         "forge-26.1.2" = _UbPtj8ej;
-        "forge-26.2" = _UbPtj8ej;
+        "forge-26.2" = _fN68Hbrh;
         "neoforge-1.21.8" = _UbPtj8ej;
         "neoforge-1.21.9" = _UbPtj8ej;
         "neoforge-1.21.10" = _UbPtj8ej;
@@ -217,7 +229,7 @@ let
         "neoforge-26.1" = _UbPtj8ej;
         "neoforge-26.1.1" = _UbPtj8ej;
         "neoforge-26.1.2" = _UbPtj8ej;
-        "neoforge-26.2" = _UbPtj8ej;
+        "neoforge-26.2" = _fN68Hbrh;
         "quilt-1.21.8" = _UbPtj8ej;
         "quilt-1.21.9" = _UbPtj8ej;
         "quilt-1.21.10" = _UbPtj8ej;
@@ -238,7 +250,7 @@ let
         "quilt-26.1" = _UbPtj8ej;
         "quilt-26.1.1" = _UbPtj8ej;
         "quilt-26.1.2" = _UbPtj8ej;
-        "quilt-26.2" = _UbPtj8ej;
+        "quilt-26.2" = _fN68Hbrh;
         "pkg-1.0.0" = _aeu1uqwJ;
         "pkg-1.0.0+mod" = _a63yRo6u;
         "pkg-1.1.0" = _AFIUD5zW;
@@ -257,7 +269,9 @@ let
         "pkg-1.4.0+mod" = _EiPgC8ms;
         "pkg-1.4.1" = _MPFBxp48;
         "pkg-1.4.1+mod" = _UbPtj8ej;
-        "default" = _UbPtj8ej;
+        "pkg-1.5" = _G68zN1QX;
+        "pkg-1.5+mod" = _fN68Hbrh;
+        "default" = _fN68Hbrh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gibbing";

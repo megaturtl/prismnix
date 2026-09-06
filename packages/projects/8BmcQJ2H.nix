@@ -2711,6 +2711,36 @@ let
             "file" = "geckolib-neoforge-1.21.1-4.9.2.jar";
             "hash" = "sha512-yRASsWzEDI9I9pt4y44uXABkhq4kMfvSid/AG+ekIXKUvs6iLYOhVdazKzlpRQ34cTUqNpXhRSFouE9BNV97ng==";
         };
+        _gitzCxyH = {
+            "id" = "gitzCxyH";
+            "file" = "geckolib-fabric-26.2-5.5.4.jar";
+            "hash" = "sha512-v6HDpGLYdTc2vVLTHd911hIYItZl3YfZnadLnjDLO/MUeMxWZjRYDuoJNbgUKTvx2QEQ/HCQdCGTQFz/leZfow==";
+        };
+        _H570FdIH = {
+            "id" = "H570FdIH";
+            "file" = "geckolib-forge-26.2-5.5.4.jar";
+            "hash" = "sha512-hgLTsjAhiOHmy7J/2T/a0wD3rZvZEsaCY6aNJ4thRQFdipfaYHR3OUH6kHmJBCmqtKBwV3e2M05/eg1CI8wwpg==";
+        };
+        _JJwT4ZBq = {
+            "id" = "JJwT4ZBq";
+            "file" = "geckolib-neoforge-26.2-5.5.4.jar";
+            "hash" = "sha512-SrlSN+Oo9KQgQrjp96bXIhOla0aZIhyLaa8U5D36sFzJzjHTwgCgY8dGBdOhyARid3zUQSmBMkaYINK2Qtfo3g==";
+        };
+        _7gaQHok7 = {
+            "id" = "7gaQHok7";
+            "file" = "geckolib-fabric-26.2-5.5.5.jar";
+            "hash" = "sha512-CY8ou+VRVR+Z6FWEs2w35GbfxGCEc37TZE/IWI2uZ2ZT9cWxY5PMz/LLkMXzd5Jg4K7FoOjFgT3zRWFmwLzp7A==";
+        };
+        _qF3gZcbz = {
+            "id" = "qF3gZcbz";
+            "file" = "geckolib-forge-26.2-5.5.5.jar";
+            "hash" = "sha512-mkVql2jICF0tBcbOpPKHCNg7vVSz6Wgwza+fu0YdjaQDdfYGIUz1bj7ods96nAT6nwPH5BLoP+iBn7zzDpPkVg==";
+        };
+        _fTK5ltWI = {
+            "id" = "fTK5ltWI";
+            "file" = "geckolib-neoforge-26.2-5.5.5.jar";
+            "hash" = "sha512-gzOSpOiiXRfoU+NOgOWyQcgjOyf7LHZITTXlrAUhaFLPUqpLWLJaWOWviwv5dvR58qirtCO58M/g4zF0ShXmyQ==";
+        };
     in {
         "qsDdTKC4" = _qsDdTKC4;
         "WlJpUDzh" = _WlJpUDzh;
@@ -3254,6 +3284,12 @@ let
         "dnJdtm0u" = _dnJdtm0u;
         "54HVH8sg" = _54HVH8sg;
         "tPkJmim6" = _tPkJmim6;
+        "gitzCxyH" = _gitzCxyH;
+        "H570FdIH" = _H570FdIH;
+        "JJwT4ZBq" = _JJwT4ZBq;
+        "7gaQHok7" = _7gaQHok7;
+        "qF3gZcbz" = _qF3gZcbz;
+        "fTK5ltWI" = _fTK5ltWI;
         "forge-1.12.2" = _PePYVhnE;
         "forge-1.15.2" = _WlJpUDzh;
         "forge-1.17.1" = _qL484XIi;
@@ -3279,7 +3315,7 @@ let
         "forge-1.21.8" = _OPISN5mY;
         "forge-1.21.10" = _eN3dbGqR;
         "forge-1.21.11" = _Mkh4Yn87;
-        "forge-26.2" = _FsHncxvM;
+        "forge-26.2" = _qF3gZcbz;
         "forge-26.1.2" = _koLjgWA3;
         "fabric-1.17.1" = _uGcjKjMT;
         "fabric-1.18.2" = _Z7uH6V77;
@@ -3311,7 +3347,7 @@ let
         "fabric-1.21.11" = _G1BvHQDL;
         "fabric-26.1" = _yUpAp23B;
         "fabric-26.1.2" = _XZTmZlwb;
-        "fabric-26.2" = _L6bn4TS8;
+        "fabric-26.2" = _7gaQHok7;
         "quilt-1.18.2" = _HSMmTQz5;
         "quilt-1.19.1" = _3wOAeMp4;
         "quilt-1.19.2" = _YaWDUJEE;
@@ -3337,7 +3373,7 @@ let
         "neoforge-1.21.11" = _FpONDAt3;
         "neoforge-26.1" = _ScUAwGRA;
         "neoforge-26.1.2" = _xfVfPcoC;
-        "neoforge-26.2" = _Kgc42zo3;
+        "neoforge-26.2" = _fTK5ltWI;
         "pkg-3.0.30" = _qsDdTKC4;
         "pkg-3.0.46" = _HSMmTQz5;
         "pkg-3.0.15" = _qL484XIi;
@@ -3539,7 +3575,9 @@ let
         "pkg-4.9.1" = _hv8CwiCV;
         "pkg-5.5.3" = _Kgc42zo3;
         "pkg-4.9.2" = _tPkJmim6;
-        "default" = _tPkJmim6;
+        "pkg-5.5.4" = _JJwT4ZBq;
+        "pkg-5.5.5" = _fTK5ltWI;
+        "default" = _fTK5ltWI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "geckolib";

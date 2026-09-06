@@ -334,6 +334,9 @@ let
         "paper-1.21.10" = _N2WfJ0ll;
         "paper-1.21.11" = _N2WfJ0ll;
         "paper-26.1" = _N2WfJ0ll;
+        "paper-26.1.1" = _N2WfJ0ll;
+        "paper-26.1.2" = _N2WfJ0ll;
+        "paper-26.2" = _N2WfJ0ll;
         "purpur-1.18.2" = _VYHzJEMw;
         "purpur-1.19" = _VYHzJEMw;
         "purpur-1.19.1" = _VYHzJEMw;
@@ -360,6 +363,9 @@ let
         "purpur-1.21.10" = _N2WfJ0ll;
         "purpur-1.21.11" = _N2WfJ0ll;
         "purpur-26.1" = _N2WfJ0ll;
+        "purpur-26.1.1" = _N2WfJ0ll;
+        "purpur-26.1.2" = _N2WfJ0ll;
+        "purpur-26.2" = _N2WfJ0ll;
         "velocity-1.18.2" = _Kpbing8i;
         "velocity-1.19" = _Kpbing8i;
         "velocity-1.19.1" = _Kpbing8i;
@@ -440,6 +446,9 @@ let
         "velocity-1.21.10" = _Kpbing8i;
         "velocity-1.21.11" = _Kpbing8i;
         "velocity-26.1" = _Kpbing8i;
+        "velocity-26.1.1" = _Kpbing8i;
+        "velocity-26.1.2" = _Kpbing8i;
+        "velocity-26.2" = _Kpbing8i;
         "folia-1.19.4" = _J2guR3GH;
         "folia-1.19.3" = _F2Tzd1ze;
         "folia-1.20" = _J2guR3GH;
@@ -462,6 +471,9 @@ let
         "folia-1.21.10" = _N2WfJ0ll;
         "folia-1.21.11" = _N2WfJ0ll;
         "folia-26.1" = _N2WfJ0ll;
+        "folia-26.1.1" = _N2WfJ0ll;
+        "folia-26.1.2" = _N2WfJ0ll;
+        "folia-26.2" = _N2WfJ0ll;
         "fabric-1.19.4" = _bKlpE4fA;
         "fabric-23w17a" = _r2ZUlaTY;
         "fabric-23w18a" = _r2ZUlaTY;
@@ -493,6 +505,9 @@ let
         "fabric-1.21.10" = _32gOedIJ;
         "fabric-1.21.11" = _ypkD8BlQ;
         "fabric-26.1" = _77nYBVqe;
+        "fabric-26.1.1" = _77nYBVqe;
+        "fabric-26.1.2" = _77nYBVqe;
+        "fabric-26.2" = _77nYBVqe;
         "quilt-1.19.4" = _bKlpE4fA;
         "quilt-23w17a" = _r2ZUlaTY;
         "quilt-23w18a" = _r2ZUlaTY;
@@ -522,6 +537,9 @@ let
         "quilt-1.21.10" = _32gOedIJ;
         "quilt-1.21.11" = _ypkD8BlQ;
         "quilt-26.1" = _77nYBVqe;
+        "quilt-26.1.1" = _77nYBVqe;
+        "quilt-26.1.2" = _77nYBVqe;
+        "quilt-26.2" = _77nYBVqe;
         "sponge-1.16.5" = _W2OpSm11;
         "sponge-1.17" = _W2OpSm11;
         "sponge-1.17.1" = _W2OpSm11;
@@ -553,6 +571,9 @@ let
         "sponge-1.21.10" = _9YJLSJAW;
         "sponge-1.21.11" = _9YJLSJAW;
         "sponge-26.1" = _9YJLSJAW;
+        "sponge-26.1.1" = _9YJLSJAW;
+        "sponge-26.1.2" = _9YJLSJAW;
+        "sponge-26.2" = _9YJLSJAW;
         "pkg-1.2.0" = _NdcZ2h7M;
         "pkg-1.2.1" = _cRrd6qg5;
         "pkg-1.3.1" = _VYHzJEMw;

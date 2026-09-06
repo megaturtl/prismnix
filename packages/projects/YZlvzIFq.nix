@@ -361,6 +361,46 @@ let
             "file" = "roomfortwo-fabric-26.2-0.2.0.jar";
             "hash" = "sha512-CW8XQyA8MmAQ9rKrSIjy5GV0JgYLMroOV8RE8PZlCkmTX13eN4Pc2FbhkpJ+vjIXRg968k99S3lSqupId8baIQ==";
         };
+        _PkjnaeHp = {
+            "id" = "PkjnaeHp";
+            "file" = "roomfortwo-fabric-1.21.4-0.2.0.jar";
+            "hash" = "sha512-DaOeKyu7mf3lV3zH4MFf3g/YerxH2Uey8liuZR7t2GzGLSauR5Dd0Ydrdav7es4OBIV0/e8P49OLEmEHslZrCw==";
+        };
+        _6Q4FdXpV = {
+            "id" = "6Q4FdXpV";
+            "file" = "roomfortwo-forge-1.21.4-0.2.0.jar";
+            "hash" = "sha512-tzO+ctCK/+42QhlbkBgPW5xCSpRNK7JcLcX4ZPemRc/QGy4sQJ3BoQeLZAYRPPfxhljoD7G0pVyXu85oCTbDFA==";
+        };
+        _mGCEE1C1 = {
+            "id" = "mGCEE1C1";
+            "file" = "roomfortwo-neoforge-1.21.4-0.2.0.jar";
+            "hash" = "sha512-JbzpQxC0LNHK28harnU40I8wb+iUZHgznviDwhj33CS7q3kTcSSxgz7TKZd/wNZaW2gXuqS/dkTFLqw/BCDjnQ==";
+        };
+        _2BdV7tkn = {
+            "id" = "2BdV7tkn";
+            "file" = "roomfortwo-fabric-1.19.2-0.2.0.jar";
+            "hash" = "sha512-EkXCG38phi7Qpx7Wty+pkR32paHBiin7UsljYcFDEwFPtrpKtppRuyMIEypx6HT7y/tSoWHKKeyPZiH73pyb2g==";
+        };
+        _pizN6IUM = {
+            "id" = "pizN6IUM";
+            "file" = "roomfortwo-forge-1.19.2-0.2.0.jar";
+            "hash" = "sha512-thAPb7k++i88H9yPHF0NqGLvkwqjI2RwIqM55bKBf6wHnmMPEYjjGe0MvcenysBMvfXgzJDRxD45LD3rdeNaUA==";
+        };
+        _wgZkMlJH = {
+            "id" = "wgZkMlJH";
+            "file" = "roomfortwo-fabric-26.2-0.3.0.jar";
+            "hash" = "sha512-Wtl49gm6jf1/svMnVKzbY7w9fp/lEwmMOcxP2WH1sg8ME47PRsW1fuF9GbzIjeC7Q9eFGPUqmjoKKJyYGW7Fcw==";
+        };
+        _IpJLUnDL = {
+            "id" = "IpJLUnDL";
+            "file" = "roomfortwo-forge-26.2-0.3.0.jar";
+            "hash" = "sha512-FBwtCBUGCSuXTYilaIB5ex+pWZuZH1664fkKnhMf4/0jdMF6k/V26M+NHeA+V5KvgzBftuytc79CazV3JOJgbQ==";
+        };
+        _brqGUfVX = {
+            "id" = "brqGUfVX";
+            "file" = "roomfortwo-neoforge-26.2-0.3.0.jar";
+            "hash" = "sha512-tt76e9tFd4Dbzfp6nlnB0ilZUdZ9YGXuI73m6FAY4cFqtee8D2s1SKB5lFIm0/O07DBoyL1Ou/JuepVmb9QfEQ==";
+        };
     in {
         "BvOIeMun" = _BvOIeMun;
         "ai7W19Qk" = _ai7W19Qk;
@@ -434,6 +474,14 @@ let
         "aIusMXfs" = _aIusMXfs;
         "vHovniNL" = _vHovniNL;
         "2djTe67a" = _2djTe67a;
+        "PkjnaeHp" = _PkjnaeHp;
+        "6Q4FdXpV" = _6Q4FdXpV;
+        "mGCEE1C1" = _mGCEE1C1;
+        "2BdV7tkn" = _2BdV7tkn;
+        "pizN6IUM" = _pizN6IUM;
+        "wgZkMlJH" = _wgZkMlJH;
+        "IpJLUnDL" = _IpJLUnDL;
+        "brqGUfVX" = _brqGUfVX;
         "fabric-26.1" = _6KSSmYVi;
         "fabric-26.1.1" = _6KSSmYVi;
         "fabric-26.1.2" = _6KSSmYVi;
@@ -445,7 +493,10 @@ let
         "fabric-1.20.3" = _UKKUyBuZ;
         "fabric-1.20.4" = _UKKUyBuZ;
         "fabric-1.21.11" = _fiaSBJLZ;
-        "fabric-26.2" = _2djTe67a;
+        "fabric-26.2" = _wgZkMlJH;
+        "fabric-1.21.4" = _PkjnaeHp;
+        "fabric-1.19.1" = _2BdV7tkn;
+        "fabric-1.19.2" = _2BdV7tkn;
         "forge-26.1" = _WYa1sUQc;
         "forge-26.1.1" = _WYa1sUQc;
         "forge-26.1.2" = _WYa1sUQc;
@@ -459,7 +510,10 @@ let
         "forge-1.18.2" = _QgM8cwjQ;
         "forge-1.21.11" = _eZg61GEQ;
         "forge-1.12.2" = _DwLlG7lI;
-        "forge-26.2" = _aIusMXfs;
+        "forge-26.2" = _IpJLUnDL;
+        "forge-1.21.4" = _6Q4FdXpV;
+        "forge-1.19.1" = _pizN6IUM;
+        "forge-1.19.2" = _pizN6IUM;
         "neoforge-26.1" = _SB8jRc3d;
         "neoforge-26.1.1" = _SB8jRc3d;
         "neoforge-26.1.2" = _SB8jRc3d;
@@ -469,14 +523,16 @@ let
         "neoforge-1.20.3" = _ZGBdrDIb;
         "neoforge-1.20.4" = _ZGBdrDIb;
         "neoforge-1.21.11" = _nMpGptOu;
-        "neoforge-26.2" = _vHovniNL;
+        "neoforge-26.2" = _brqGUfVX;
+        "neoforge-1.21.4" = _mGCEE1C1;
         "pkg-0.0.1" = _Rv7LgVnf;
         "pkg-0.0.2" = _7lTI7y8Z;
         "pkg-0.0.3" = _4X8Gdban;
         "pkg-0.1.0" = _IS7XRe3J;
         "pkg-0.1.1" = _Bhc1nSFf;
-        "pkg-0.2.0" = _2djTe67a;
-        "default" = _2djTe67a;
+        "pkg-0.2.0" = _pizN6IUM;
+        "pkg-0.3.0" = _brqGUfVX;
+        "default" = _brqGUfVX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "room-for-two";

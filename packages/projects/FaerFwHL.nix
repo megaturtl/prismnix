@@ -146,6 +146,21 @@ let
             "file" = "backslot-1.2.1.jar";
             "hash" = "sha512-wTf387pmf6RQA+CnnMLMw3QI/3mbeqXW/uSKzLsvb9/IPdVIATqaCELFh7C/YwRx6lRoZDudkYT0/Lrsx4sdfQ==";
         };
+        _SZG2ulwC = {
+            "id" = "SZG2ulwC";
+            "file" = "backslot-1.2.1.jar";
+            "hash" = "sha512-CkqegJdVVqYbiJjR9YcWPSDe0unSLKZCLlCxtWToaKc6wXtYFWT7bz0VWVZyTFlGF8TOiFBVsPluSaED2L+cOw==";
+        };
+        _5yeKxdNj = {
+            "id" = "5yeKxdNj";
+            "file" = "backslot-1.2.2.jar";
+            "hash" = "sha512-N1y+oTwc6jRstWchMwg+gr+OhZs3Q0qAWN3PmJkaGqZ/uOD8HnTY+RkIRSxZWZtoAaZn2P37jq3BhPG3uQDECA==";
+        };
+        _Qp3OW6sm = {
+            "id" = "Qp3OW6sm";
+            "file" = "backslot-1.2.2.jar";
+            "hash" = "sha512-aMLSh1Hgh0GXIT6+sHhpL+RMDTqpAkB+VmkleFN5w74iBPurjygSFX3HR+ZXit68LQOHvu1ap9gjV9y7+xS1nw==";
+        };
     in {
         "PfbfYCgZ" = _PfbfYCgZ;
         "f1tyX4M7" = _f1tyX4M7;
@@ -176,24 +191,29 @@ let
         "og6vmyig" = _og6vmyig;
         "MKwW0ai0" = _MKwW0ai0;
         "TIbkxjB0" = _TIbkxjB0;
+        "SZG2ulwC" = _SZG2ulwC;
+        "5yeKxdNj" = _5yeKxdNj;
+        "Qp3OW6sm" = _Qp3OW6sm;
         "fabric-1.21.5" = _m7Cwld1E;
         "fabric-1.20.1" = _3Fv5FnOc;
         "fabric-1.21.8" = _s5oTkrxG;
         "fabric-1.21.10" = _Gmxat3JV;
         "fabric-1.21.1" = _opIz9ztO;
-        "fabric-1.21.11" = _og6vmyig;
-        "fabric-26.1" = _TIbkxjB0;
-        "fabric-26.1.1" = _TIbkxjB0;
-        "fabric-26.1.2" = _TIbkxjB0;
+        "fabric-1.21.11" = _SZG2ulwC;
+        "fabric-26.1" = _5yeKxdNj;
+        "fabric-26.1.1" = _5yeKxdNj;
+        "fabric-26.1.2" = _5yeKxdNj;
+        "fabric-26.2" = _Qp3OW6sm;
         "quilt-1.21.5" = _m7Cwld1E;
         "quilt-1.20.1" = _3Fv5FnOc;
         "quilt-1.21.8" = _s5oTkrxG;
         "quilt-1.21.10" = _Gmxat3JV;
         "quilt-1.21.1" = _opIz9ztO;
-        "quilt-1.21.11" = _og6vmyig;
-        "quilt-26.1" = _TIbkxjB0;
-        "quilt-26.1.1" = _TIbkxjB0;
-        "quilt-26.1.2" = _TIbkxjB0;
+        "quilt-1.21.11" = _SZG2ulwC;
+        "quilt-26.1" = _5yeKxdNj;
+        "quilt-26.1.1" = _5yeKxdNj;
+        "quilt-26.1.2" = _5yeKxdNj;
+        "quilt-26.2" = _Qp3OW6sm;
         "pkg-1.0" = _PfbfYCgZ;
         "pkg-1.1.0" = _lLk5kzAh;
         "pkg-1.1.1" = _4k7wM0O6;
@@ -207,8 +227,9 @@ let
         "pkg-1.1.6" = _ppBeC080;
         "pkg-1.1.7" = _qJ5ZA1Kr;
         "pkg-1.2.0" = _MKwW0ai0;
-        "pkg-1.2.1" = _TIbkxjB0;
-        "default" = _TIbkxjB0;
+        "pkg-1.2.1" = _SZG2ulwC;
+        "pkg-1.2.2" = _Qp3OW6sm;
+        "default" = _Qp3OW6sm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "backslot-mod";

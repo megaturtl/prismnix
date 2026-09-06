@@ -26,12 +26,18 @@ let
             "file" = "strong-leads-1.0.0+26.1.jar";
             "hash" = "sha512-inCLnXBPlK9ZReqHrUrmYxlCI/dnBdUl+Dua41mHPxzvj3AGvX3JOJ/uxUGT6o2JFXkO3ItDKuBmop2n6wAxKg==";
         };
+        _XPI07eQT = {
+            "id" = "XPI07eQT";
+            "file" = "strong-leads-1.0.0+26.2.jar";
+            "hash" = "sha512-tHXiMF4IEAZq4YFwAk7f+x1lFtDanBPvHUIukjMSVxGVCffOBJFQrMr6oGb0hhmZ3VIh25gsDr+BqcsaNqQupQ==";
+        };
     in {
         "qkgRi0Tu" = _qkgRi0Tu;
         "bI36kUgu" = _bI36kUgu;
         "W5Ev9h0r" = _W5Ev9h0r;
         "b9o0OeSo" = _b9o0OeSo;
         "lnhltygk" = _lnhltygk;
+        "XPI07eQT" = _XPI07eQT;
         "fabric-1.20.4" = _qkgRi0Tu;
         "fabric-1.21" = _bI36kUgu;
         "fabric-1.21.4" = _W5Ev9h0r;
@@ -41,12 +47,14 @@ let
         "fabric-26.1" = _lnhltygk;
         "fabric-26.1.1" = _lnhltygk;
         "fabric-26.1.2" = _lnhltygk;
+        "fabric-26.2" = _XPI07eQT;
         "pkg-1.0.0+1.20.4" = _qkgRi0Tu;
         "pkg-1.0.0+1.21" = _bI36kUgu;
         "pkg-1.0.0+1.21.4" = _W5Ev9h0r;
         "pkg-1.1.0+1.21.6-1.21.8" = _b9o0OeSo;
         "pkg-1.0.0+26.1" = _lnhltygk;
-        "default" = _lnhltygk;
+        "pkg-1.0.0+26.2" = _XPI07eQT;
+        "default" = _XPI07eQT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "strong-leads";
@@ -54,13 +62,13 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "MIT" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "MIT License";
-                shortName = "MIT";
-                url = "https://github.com/Kim-Lan/strong-leads/blob/main/LICENSE";
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = null;
             };
         };
     };

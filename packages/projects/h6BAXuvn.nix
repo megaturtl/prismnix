@@ -216,6 +216,21 @@ let
             "file" = "fxntstorage-1.3.2+mc-1.21.1-neoforge.jar";
             "hash" = "sha512-a+xk6mgpu8YSqYHl+zi3hN3HFoZ0zaqcsE53ScWYB7v8Jf/3iAE9AXhtBzxClwPRJz/Wa8YUvrfbTUqNhhufxg==";
         };
+        _2Fmql6Uo = {
+            "id" = "2Fmql6Uo";
+            "file" = "fxntstorage-1.3.3+mc-1.21.1-neoforge.jar";
+            "hash" = "sha512-hzolmWt5i/jz/cQEZwJv0pnk+6Jyu4BKrgDnFeEONKtUJBknGsX9NnFTonlKRLnNuYs4wUB62JSLCaZ6p2lRsQ==";
+        };
+        _mv90qduJ = {
+            "id" = "mv90qduJ";
+            "file" = "fxntstorage-1.3.4+mc-1.21.1-neoforge.jar";
+            "hash" = "sha512-HERLD2WhX412oFugeI2Ctz7TWjoGLH6Xk1lmJVEv/t5Ll6sc2zv3E86eZ2a/MxNjDUlH5tnZdPV80glFfKGZ+g==";
+        };
+        _oSsfZYxj = {
+            "id" = "oSsfZYxj";
+            "file" = "fxntstorage-1.2.7+mc-1.20.1-forge.jar";
+            "hash" = "sha512-jyT8UOsyZA7TcLVVQiJnvgmasPO2xEW7eFDciZhSqjOKGvYLmdPnR28kF/4hVv3SaHd1fpQlW07Mrt7LSKEqSw==";
+        };
     in {
         "Y6yCBmsS" = _Y6yCBmsS;
         "rJjsqmnN" = _rJjsqmnN;
@@ -260,8 +275,11 @@ let
         "kLh1AoBL" = _kLh1AoBL;
         "2LamNN3F" = _2LamNN3F;
         "mqnmowII" = _mqnmowII;
-        "neoforge-1.21.1" = _mqnmowII;
-        "forge-1.20.1" = _z5LbIuGf;
+        "2Fmql6Uo" = _2Fmql6Uo;
+        "mv90qduJ" = _mv90qduJ;
+        "oSsfZYxj" = _oSsfZYxj;
+        "neoforge-1.21.1" = _mv90qduJ;
+        "forge-1.20.1" = _oSsfZYxj;
         "pkg-1.0.0" = _rJjsqmnN;
         "pkg-1.0.1" = _umQdbPMZ;
         "pkg-1.0.2" = _vBbF8Exa;
@@ -283,11 +301,13 @@ let
         "pkg-1.2.4a" = _vn2UpaAu;
         "pkg-1.2.5" = _8OK8aqBC;
         "pkg-1.2.6" = _cH5mNe0a;
-        "pkg-1.2.7" = _7vigigOh;
+        "pkg-1.2.7" = _oSsfZYxj;
         "pkg-1.3.0" = _kLh1AoBL;
         "pkg-1.3.1" = _2LamNN3F;
         "pkg-1.3.2" = _mqnmowII;
-        "default" = _mqnmowII;
+        "pkg-1.3.3" = _2Fmql6Uo;
+        "pkg-1.3.4" = _mv90qduJ;
+        "default" = _oSsfZYxj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-storage-neo-forge";

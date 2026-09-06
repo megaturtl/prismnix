@@ -86,6 +86,11 @@ let
             "file" = "adventuremodetweaks-26.2.0-1.3.jar";
             "hash" = "sha512-KI3wkK1gUye0aU2IV4Sh7HB8Sp/iYdp+8IVWdd3J7RIKY0ileN64Nd3jibrsDjD7YbXehEQeclTv23WNhqvDpQ==";
         };
+        _urs1fZm3 = {
+            "id" = "urs1fZm3";
+            "file" = "adventuremodetweaks-26.2.0-1.4.jar";
+            "hash" = "sha512-04bjfyjibWC845ko7rO+jSFTeUKvAI5lBUfIQTwHV9S+d8qv7Z7skWJQAP7PTqArMY15vwwrrGc3TC33S+YPSg==";
+        };
     in {
         "9eIJDrOS" = _9eIJDrOS;
         "tjqi2B6P" = _tjqi2B6P;
@@ -104,6 +109,7 @@ let
         "hA496ufK" = _hA496ufK;
         "G2cyqmpi" = _G2cyqmpi;
         "x8T15Ltz" = _x8T15Ltz;
+        "urs1fZm3" = _urs1fZm3;
         "fabric-1.20.1" = _9eIJDrOS;
         "fabric-1.21" = _tjqi2B6P;
         "fabric-1.21.1" = _tjqi2B6P;
@@ -118,7 +124,7 @@ let
         "fabric-26.1" = _k0KiaVrB;
         "fabric-26.1.1" = _hA496ufK;
         "fabric-26.1.2" = _G2cyqmpi;
-        "fabric-26.2" = _x8T15Ltz;
+        "fabric-26.2" = _urs1fZm3;
         "forge-1.20.1" = _9eIJDrOS;
         "forge-1.21" = _tjqi2B6P;
         "forge-1.21.1" = _tjqi2B6P;
@@ -133,7 +139,7 @@ let
         "forge-26.1" = _k0KiaVrB;
         "forge-26.1.1" = _hA496ufK;
         "forge-26.1.2" = _G2cyqmpi;
-        "forge-26.2" = _x8T15Ltz;
+        "forge-26.2" = _urs1fZm3;
         "neoforge-1.20.1" = _9eIJDrOS;
         "neoforge-1.21" = _tjqi2B6P;
         "neoforge-1.21.1" = _tjqi2B6P;
@@ -148,7 +154,7 @@ let
         "neoforge-26.1" = _k0KiaVrB;
         "neoforge-26.1.1" = _hA496ufK;
         "neoforge-26.1.2" = _G2cyqmpi;
-        "neoforge-26.2" = _x8T15Ltz;
+        "neoforge-26.2" = _urs1fZm3;
         "quilt-1.20.1" = _9eIJDrOS;
         "quilt-1.21" = _tjqi2B6P;
         "quilt-1.21.1" = _tjqi2B6P;
@@ -163,7 +169,7 @@ let
         "quilt-26.1" = _k0KiaVrB;
         "quilt-26.1.1" = _hA496ufK;
         "quilt-26.1.2" = _G2cyqmpi;
-        "quilt-26.2" = _x8T15Ltz;
+        "quilt-26.2" = _urs1fZm3;
         "pkg-1.20.1-1.0-fabric+forge+neo" = _9eIJDrOS;
         "pkg-1.21.1-1.0-fabric+forge+neo" = _tjqi2B6P;
         "pkg-1.21.4-1.0-fabric+forge+neo" = _7ym2kqLV;
@@ -181,7 +187,8 @@ let
         "pkg-26.1.1-1.3-fabric+forge+neo" = _hA496ufK;
         "pkg-26.1.2-1.3-fabric+forge+neo" = _G2cyqmpi;
         "pkg-26.2.0-1.3-fabric+forge+neo" = _x8T15Ltz;
-        "default" = _x8T15Ltz;
+        "pkg-26.2.0-1.4-fabric+forge+neo" = _urs1fZm3;
+        "default" = _urs1fZm3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "adventure-mode-tweaks";

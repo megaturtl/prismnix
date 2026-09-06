@@ -171,6 +171,41 @@ let
             "file" = "hearty-meals-fabric-26.2-r2.jar";
             "hash" = "sha512-QG+NrcWFvbat64PXfDoUK4QvB6ri9v7/SurBZGZzA/VRjNV+XksPzhH/1UjnoU+z/FO74JFLDvK+QCmFOcFBqw==";
         };
+        _It9mrnQG = {
+            "id" = "It9mrnQG";
+            "file" = "hearty-meals-fabric-26.2-r3.jar";
+            "hash" = "sha512-S4/Bpj0DEBSQI7XcLnRPnxTUnRK+jz6Ke90Ifx7e2xXIlaDphtcEe4sqXrIsA9mywMj+cAFrc9NsEz5z9ozJuw==";
+        };
+        _yovjqBzr = {
+            "id" = "yovjqBzr";
+            "file" = "hearty-meals-fabric-26.2-r4.jar";
+            "hash" = "sha512-Qmmai3pWa/V4uzJPFm+iAVUeeyliDLXwG4ZlRehC485wdZ2PqHb+7e7o1TrrJ+VGTgI1iTB9JlXkQmu9K0EbaA==";
+        };
+        _jyw1Z34J = {
+            "id" = "jyw1Z34J";
+            "file" = "hearty-meals-fabric-26.1-r3.jar";
+            "hash" = "sha512-K3C09aDsJX0zXPYgLCwQWXQq/qhEnnEn2rZcllqfdP7k9kDTaZJSGz7SqlbMzG66hUu3V27isPypTkqj/8Rc7w==";
+        };
+        _qWGa1VBP = {
+            "id" = "qWGa1VBP";
+            "file" = "hearty-meals-neoforge-26.1-r3.jar";
+            "hash" = "sha512-sMNvmi8WR1ObHgrDQfTZBbo/oZzjK4Qg/i8zWWr8tcppNLI++9MUcYx2jwqchPtS3uX1iAW78HeoQ+8Bij6M2g==";
+        };
+        _dxT6sdd5 = {
+            "id" = "dxT6sdd5";
+            "file" = "hearty-meals-fabric-26.1-r4.jar";
+            "hash" = "sha512-pXns69WyakH2sMs6arm2KpuP1eQyvDpk3WdQFMofua1zSuFJU40GoUuxxPMB8jSbD/LsLc8EYdVp0xFrFsCBXw==";
+        };
+        _2EGcybkk = {
+            "id" = "2EGcybkk";
+            "file" = "hearty-meals-neoforge-26.1-r4.jar";
+            "hash" = "sha512-wtuaG1ChDF5GoCyxv8DDZe94recWT2V8nTLY7zpUa/Uu2KPLcXuPGEfRJSCPUO48mnfoVxkot9tvQ/gTKfDXIQ==";
+        };
+        _Fg0qgesV = {
+            "id" = "Fg0qgesV";
+            "file" = "hearty-meals-fabric-26.2-r5.jar";
+            "hash" = "sha512-xMmE/YnQFX07Fgi7m12g81vyih/1FIDrDm7+ZpGULF/0v+DUK8cSPaS80XKLgnXWnXzpb7NJmG0CbaUvp1loLg==";
+        };
     in {
         "rhwfMu9L" = _rhwfMu9L;
         "CUJUMz0c" = _CUJUMz0c;
@@ -206,6 +241,13 @@ let
         "Oabo1Nzz" = _Oabo1Nzz;
         "iEXudJgi" = _iEXudJgi;
         "VvsoBxuT" = _VvsoBxuT;
+        "It9mrnQG" = _It9mrnQG;
+        "yovjqBzr" = _yovjqBzr;
+        "jyw1Z34J" = _jyw1Z34J;
+        "qWGa1VBP" = _qWGa1VBP;
+        "dxT6sdd5" = _dxT6sdd5;
+        "2EGcybkk" = _2EGcybkk;
+        "Fg0qgesV" = _Fg0qgesV;
         "fabric-1.20.1" = _zNw0ihOn;
         "fabric-1.20.6" = _wSq2Yk0f;
         "fabric-1.21" = _kd4u2hPI;
@@ -220,10 +262,10 @@ let
         "fabric-1.21.9" = _FRRRGAmv;
         "fabric-1.21.10" = _eWjpz1v4;
         "fabric-1.21.11" = _S8BER18N;
-        "fabric-26.1" = _Oabo1Nzz;
-        "fabric-26.1.1" = _Oabo1Nzz;
-        "fabric-26.1.2" = _Oabo1Nzz;
-        "fabric-26.2" = _VvsoBxuT;
+        "fabric-26.1" = _dxT6sdd5;
+        "fabric-26.1.1" = _dxT6sdd5;
+        "fabric-26.1.2" = _dxT6sdd5;
+        "fabric-26.2" = _Fg0qgesV;
         "quilt-1.20.1" = _zNw0ihOn;
         "quilt-1.20.6" = _wSq2Yk0f;
         "quilt-1.21" = _kd4u2hPI;
@@ -242,9 +284,9 @@ let
         "quilt-26.1.1" = _TGaxoy0q;
         "quilt-26.1.2" = _TGaxoy0q;
         "quilt-26.2" = _2prwWAkX;
-        "neoforge-26.1" = _iEXudJgi;
-        "neoforge-26.1.1" = _iEXudJgi;
-        "neoforge-26.1.2" = _iEXudJgi;
+        "neoforge-26.1" = _2EGcybkk;
+        "neoforge-26.1.1" = _2EGcybkk;
+        "neoforge-26.1.2" = _2EGcybkk;
         "pkg-1.20-1" = _rhwfMu9L;
         "pkg-1.20-2" = _CUJUMz0c;
         "pkg-1.20-3" = _Xtg67x2e;
@@ -278,7 +320,12 @@ let
         "pkg-26.2-r1" = _2prwWAkX;
         "pkg-26.1-r2" = _iEXudJgi;
         "pkg-26.2-r2" = _VvsoBxuT;
-        "default" = _VvsoBxuT;
+        "pkg-26.2-r3" = _It9mrnQG;
+        "pkg-26.2-r4" = _yovjqBzr;
+        "pkg-26.1-r3" = _qWGa1VBP;
+        "pkg-26.1-r4" = _2EGcybkk;
+        "pkg-26.2-r5" = _Fg0qgesV;
+        "default" = _Fg0qgesV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hearty-meals";

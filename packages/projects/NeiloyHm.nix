@@ -71,6 +71,36 @@ let
             "file" = "fetzisdisplays-neoforge-1.1.0-1.21.jar";
             "hash" = "sha512-lvo0O6XDh9Czlg7wwkgSeIuw0kRHzJbeLaqGl1KJ1f6Gz3o6rui3CDYuuRvIgevZuriLV/9bVYWSfEYJR/H+3w==";
         };
+        _KHNSk96X = {
+            "id" = "KHNSk96X";
+            "file" = "fetzisdisplays-fabric-1.1.1-1.20.1.jar";
+            "hash" = "sha512-L8+17oJKw3FKspX3LyaDkV1A8DOioTQ6GZWY4CgHtYbDgc0V2qZ3/bltbxKpgoG54+QoGqT9Vykg21y5t1trjQ==";
+        };
+        _FSwIwryo = {
+            "id" = "FSwIwryo";
+            "file" = "fetzisdisplays-forge-1.1.1-1.20.1.jar";
+            "hash" = "sha512-W1ViiTxncCtEr6LW5vJ3z3h0GEHYreRqS8IP9J7bu2Urfql1HRmh9hkHscqaIMJ8z2arJQnzqhqJBMuN2RXh+g==";
+        };
+        _rcV8h18T = {
+            "id" = "rcV8h18T";
+            "file" = "fetzisdisplays-fabric-1.1.1-1.21.jar";
+            "hash" = "sha512-tPvocevVkID8ep8IVkHjJ17BCCwcd/NlTabjMQAwDnfB635dPwa5JMfOWpTH72CijYD7uiKJPXN9zC2PXfN+Sw==";
+        };
+        _v6rsTYan = {
+            "id" = "v6rsTYan";
+            "file" = "fetzisdisplays-neoforge-1.1.1-1.21.jar";
+            "hash" = "sha512-cyKxcW0kFTA0M6DyAhT5gpX3gI0PO2M4YfvvQ8U7HzL5aO3sUbsxQuTwWQvoyNV+iHx7FMLUceKBSh62Gf1Hjw==";
+        };
+        _9TSYt2sT = {
+            "id" = "9TSYt2sT";
+            "file" = "fetzisdisplays-fabric-1.1.1-26.1.jar";
+            "hash" = "sha512-rg4fcO6jxvT+kFB3FBW3VgxAfwtA3f9h8FObGIBPo3AtNRjZ/tM3eZYj5/UJDD0gpAdeGNjLxcHTaX2+JdbFSQ==";
+        };
+        _O4NzXoV6 = {
+            "id" = "O4NzXoV6";
+            "file" = "fetzisdisplays-neoforge-1.1.1-26.1.jar";
+            "hash" = "sha512-XWR8yTkWgZvXViOhZadDMmKOiBXPInfd9xoANpOw5pHfrC1qaSD3z0IfIXW1UCcLbz80R65eTjkIK4fUFA5N3A==";
+        };
     in {
         "NypqvTRQ" = _NypqvTRQ;
         "dPEI0eUX" = _dPEI0eUX;
@@ -86,18 +116,31 @@ let
         "SC7n8RVn" = _SC7n8RVn;
         "RvxtdcPU" = _RvxtdcPU;
         "lEnkIRJr" = _lEnkIRJr;
-        "fabric-1.20.1" = _KZvvCG9s;
-        "fabric-1.21" = _RvxtdcPU;
-        "fabric-1.21.1" = _RvxtdcPU;
-        "forge-1.20.1" = _SC7n8RVn;
-        "neoforge-1.21" = _lEnkIRJr;
-        "neoforge-1.21.1" = _lEnkIRJr;
+        "KHNSk96X" = _KHNSk96X;
+        "FSwIwryo" = _FSwIwryo;
+        "rcV8h18T" = _rcV8h18T;
+        "v6rsTYan" = _v6rsTYan;
+        "9TSYt2sT" = _9TSYt2sT;
+        "O4NzXoV6" = _O4NzXoV6;
+        "fabric-1.20.1" = _KHNSk96X;
+        "fabric-1.21" = _rcV8h18T;
+        "fabric-1.21.1" = _rcV8h18T;
+        "fabric-26.1" = _9TSYt2sT;
+        "fabric-26.1.1" = _9TSYt2sT;
+        "fabric-26.1.2" = _9TSYt2sT;
+        "forge-1.20.1" = _FSwIwryo;
+        "neoforge-1.21" = _v6rsTYan;
+        "neoforge-1.21.1" = _v6rsTYan;
+        "neoforge-26.1" = _O4NzXoV6;
+        "neoforge-26.1.1" = _O4NzXoV6;
+        "neoforge-26.1.2" = _O4NzXoV6;
         "pkg-1.0.0" = _dPEI0eUX;
         "pkg-1.0.1-beta" = _yTonydbB;
         "pkg-1.0.1" = _pEpRb5IV;
         "pkg-1.0.2" = _WiRIZ39M;
         "pkg-1.1.0" = _lEnkIRJr;
-        "default" = _lEnkIRJr;
+        "pkg-1.1.1" = _O4NzXoV6;
+        "default" = _O4NzXoV6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fetzis-displays";

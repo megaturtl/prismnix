@@ -21,11 +21,17 @@ let
             "file" = "fabric-per-player-spawns-3.2.jar";
             "hash" = "sha512-O7e0K/WRIrcL/+v8HF03okK4KVbrFYvYtrWSrI2vMYeifhjNPgdzL7/eUNXAJx+SoROrsj0WlMFrYYA0kudLaw==";
         };
+        _s9IVa42X = {
+            "id" = "s9IVa42X";
+            "file" = "fabric-per-player-spawns-3.2.1.jar";
+            "hash" = "sha512-bacc36WSLY213vrF3OcaZXEiCJgOCAQO3+fZFe1htA8BIRhaSmeTqV8dDdUVBj9+gc8Vb9AKxr1AWRICD8BEoQ==";
+        };
     in {
         "6tSpbtUi" = _6tSpbtUi;
         "9OtyOfcK" = _9OtyOfcK;
         "ha21i5x1" = _ha21i5x1;
         "9fS1P5xs" = _9fS1P5xs;
+        "s9IVa42X" = _s9IVa42X;
         "fabric-1.20" = _6tSpbtUi;
         "fabric-1.20.1" = _6tSpbtUi;
         "fabric-1.21" = _9OtyOfcK;
@@ -42,11 +48,13 @@ let
         "fabric-26.1" = _9fS1P5xs;
         "fabric-26.1.1" = _9fS1P5xs;
         "fabric-26.1.2" = _9fS1P5xs;
+        "fabric-26.2" = _s9IVa42X;
         "pkg-3.0.6" = _6tSpbtUi;
         "pkg-3.0.7" = _9OtyOfcK;
         "pkg-3.1" = _ha21i5x1;
         "pkg-3.2" = _9fS1P5xs;
-        "default" = _9fS1P5xs;
+        "pkg-3.2.1" = _s9IVa42X;
+        "default" = _s9IVa42X;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fabric-per-player-spawns";

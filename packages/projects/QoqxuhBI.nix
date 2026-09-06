@@ -401,6 +401,11 @@ let
             "file" = "MTNS-v2.10.4-[1.21.8-neoforge].jar";
             "hash" = "sha512-+X3WDUIQQngmG3qWGV8mvom2RS+eae4yeU42KOR/GsikcfQDybTHhxu3+6K5MMcyvn7EvxFZKUofymy1n9rCCg==";
         };
+        _xI8lrAgX = {
+            "id" = "xI8lrAgX";
+            "file" = "MTNS-v2.10.5-[1.21.8-neoforge].jar";
+            "hash" = "sha512-Rls4NNq0NuR32LpgKvTVa7yoi82VEYIiBGpi6kkXyhZ7ZB+U+cCdI/I3R3LdReJ3mB4L8uRnbrY5dwFWQSciAA==";
+        };
     in {
         "tcl3Stfg" = _tcl3Stfg;
         "fValBOjG" = _fValBOjG;
@@ -482,12 +487,13 @@ let
         "YqJxxeI9" = _YqJxxeI9;
         "SppRyefu" = _SppRyefu;
         "t3079jcE" = _t3079jcE;
+        "xI8lrAgX" = _xI8lrAgX;
         "forge-1.18.2" = _LNWSfSU1;
         "forge-1.19.2" = _mbT5uBsM;
         "forge-1.19.4" = _R3610HUw;
         "forge-1.20.1" = _6wpsG54n;
         "neoforge-1.21.1" = _7K9kBkkN;
-        "neoforge-1.21.8" = _t3079jcE;
+        "neoforge-1.21.8" = _xI8lrAgX;
         "minecraft-1.21.8" = _Y5ogXq8t;
         "pkg-1.5.1" = _tcl3Stfg;
         "pkg-1.5.2" = _fValBOjG;
@@ -569,7 +575,8 @@ let
         "pkg-2.10.2" = _YqJxxeI9;
         "pkg-2.10.3" = _SppRyefu;
         "pkg-2.10.4" = _t3079jcE;
-        "default" = _t3079jcE;
+        "pkg-2.10.5" = _xI8lrAgX;
+        "default" = _xI8lrAgX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-tools-n-stuff";

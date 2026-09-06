@@ -266,6 +266,16 @@ let
             "file" = "linear-progression-1.8.1.jar";
             "hash" = "sha512-GXnKvej6KSYthpPy1p/Ogo02hLkgccXolZ7fwLn6cmd00r55q5GoXaXEXW2d0RF9Cx849z0kt/Tw65Lojmd8kA==";
         };
+        _aYTnXPLw = {
+            "id" = "aYTnXPLw";
+            "file" = "LinearProgression 2.0.0.zip";
+            "hash" = "sha512-W/o8Wt7QXF7S6kN383ejLxoxJ1FUsqdYo2Lx7ouCQCIsaVudOriJbp5HFzXngTWR98GB8/nC2/DfNQ4p9HXiwg==";
+        };
+        _s9DfNeIV = {
+            "id" = "s9DfNeIV";
+            "file" = "linear-progression-2.0.0.jar";
+            "hash" = "sha512-kbWW9wY/Qx51bMZpNKa4CTyQ9BMp6rSYJXBbQe/7alwdED1KJPO4Beh4e9E5D/c7n78O/YO2el9K8XGrOQFrCA==";
+        };
     in {
         "2DfMABNF" = _2DfMABNF;
         "1eHiB2mw" = _1eHiB2mw;
@@ -320,21 +330,23 @@ let
         "K2EbcOsn" = _K2EbcOsn;
         "h1TrVUgM" = _h1TrVUgM;
         "bQEfK2py" = _bQEfK2py;
+        "aYTnXPLw" = _aYTnXPLw;
+        "s9DfNeIV" = _s9DfNeIV;
         "datapack-1.21" = _smoMZVUR;
         "datapack-1.21.1" = _smoMZVUR;
-        "datapack-1.21.11" = _h1TrVUgM;
+        "datapack-1.21.11" = _aYTnXPLw;
         "fabric-1.21" = _mfqfvxFe;
         "fabric-1.21.1" = _mfqfvxFe;
-        "fabric-1.21.11" = _bQEfK2py;
+        "fabric-1.21.11" = _s9DfNeIV;
         "forge-1.21" = _mfqfvxFe;
         "forge-1.21.1" = _mfqfvxFe;
-        "forge-1.21.11" = _bQEfK2py;
+        "forge-1.21.11" = _s9DfNeIV;
         "neoforge-1.21" = _mfqfvxFe;
         "neoforge-1.21.1" = _mfqfvxFe;
-        "neoforge-1.21.11" = _bQEfK2py;
+        "neoforge-1.21.11" = _s9DfNeIV;
         "quilt-1.21" = _mfqfvxFe;
         "quilt-1.21.1" = _mfqfvxFe;
-        "quilt-1.21.11" = _bQEfK2py;
+        "quilt-1.21.11" = _s9DfNeIV;
         "pkg-1.0.0" = _2DfMABNF;
         "pkg-1.1.0" = _1eHiB2mw;
         "pkg-1.2" = _MrdHJz0n;
@@ -388,7 +400,9 @@ let
         "pkg-1.8.0+mod" = _K2EbcOsn;
         "pkg-1.8.1" = _h1TrVUgM;
         "pkg-1.8.1+mod" = _bQEfK2py;
-        "default" = _bQEfK2py;
+        "pkg-2.0.0" = _aYTnXPLw;
+        "pkg-2.0.0+mod" = _s9DfNeIV;
+        "default" = _s9DfNeIV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "linear-progression";

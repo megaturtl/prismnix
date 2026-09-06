@@ -21,19 +21,33 @@ let
             "file" = "mob_effects_vfx-1.21.1-0.8.jar";
             "hash" = "sha512-0zQdFD+kXLQaTDKbthy8yZXKLfKyDFjPSkGyusiCL3ZScELJkMR7HC9ELhks8omQpBv9ibEPfEBuKgXKNcNUJg==";
         };
+        _gnw5TsJa = {
+            "id" = "gnw5TsJa";
+            "file" = "mobeffectsvfx-1.21.1-1.0-rc-1.jar";
+            "hash" = "sha512-Lkh061g1by16wFgnftE9TWaHYc7XiMEGQlxIcL+979CnA0I9f9bz7qFcecmwJWQ8xRgAlSAcupaaSESVsB55mQ==";
+        };
+        _owwvKswr = {
+            "id" = "owwvKswr";
+            "file" = "mobeffectsvfx-1.21.1-1.0.jar";
+            "hash" = "sha512-ap5gZszFnn4smOoE4ZNMwoIJwB0U5tIwZZ3UQkbiVbORmsB8cNMoBQRKkJRO3cIGVNIPOmEbnqsWDOioBGM9KQ==";
+        };
     in {
         "KZ0ESVx4" = _KZ0ESVx4;
         "CDbyuTxN" = _CDbyuTxN;
         "OYL8P9EI" = _OYL8P9EI;
         "wCrBC5Rg" = _wCrBC5Rg;
+        "gnw5TsJa" = _gnw5TsJa;
+        "owwvKswr" = _owwvKswr;
         "forge-1.20.1" = _OYL8P9EI;
         "neoforge-1.20.1" = _OYL8P9EI;
-        "neoforge-1.21.1" = _wCrBC5Rg;
+        "neoforge-1.21.1" = _owwvKswr;
         "pkg-0.6" = _KZ0ESVx4;
         "pkg-0.7" = _CDbyuTxN;
         "pkg-0.8" = _OYL8P9EI;
         "pkg-1.21.1-0.8" = _wCrBC5Rg;
-        "default" = _wCrBC5Rg;
+        "pkg-1.21.1-1.0-rc-1" = _gnw5TsJa;
+        "pkg-1.21.1-1.0" = _owwvKswr;
+        "default" = _owwvKswr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mobeffectsvfx";

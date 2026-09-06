@@ -806,6 +806,31 @@ let
             "file" = "ViaFabric-0.4.21+176-26.x.jar";
             "hash" = "sha512-kEeio3bHU/VS80NmM24z8n7noHP+vXzSheSRDAUhhh6/prYBp0JGOaIMorSiB3HKqfIthZ/OIeeOeDs4syuuoQ==";
         };
+        _Q1iF5FEH = {
+            "id" = "Q1iF5FEH";
+            "file" = "ViaFabric-0.4.21+178-26.x.jar";
+            "hash" = "sha512-R6EsvH9ezzai8eeHskWXmBAdG2s//sHGIu2wTvTjyXvUAwrnJ78gVs0EuDD1SNfjCf0h965xPXpoqr4/934ujQ==";
+        };
+        _iVBXqMNT = {
+            "id" = "iVBXqMNT";
+            "file" = "ViaFabric-0.4.21+177-1.14-1.21.jar";
+            "hash" = "sha512-mKjMY6CJSwCqv+tdtx4i2MWcxXon61MKOcAYuCVq0Kjxmzu83ano95AKtPctzpakFYZAO6jqZr3gN+Tl/EdR2Q==";
+        };
+        _Cb20DjYc = {
+            "id" = "Cb20DjYc";
+            "file" = "ViaFabric-0.4.21+180-1.14-1.21.jar";
+            "hash" = "sha512-0s+T30d2+tfAfZYenNyeQ4ToipHWfc9e3RlxflC8mDDh6RJVCyWmuammq4DA1mUC/Ss+8+JKleSxmLldKZDnEQ==";
+        };
+        _mghyw8Ep = {
+            "id" = "mghyw8Ep";
+            "file" = "ViaFabric-0.4.21+182-26.x.jar";
+            "hash" = "sha512-XDAoLP9lGANfBCHA0HMcV5WTBrhziwRWS1Xo8ogorBOahYXrB2/rVpa+9KXa78HOJBc2Ip/H9/poCWubvYTAqQ==";
+        };
+        _tUvNpHH0 = {
+            "id" = "tUvNpHH0";
+            "file" = "ViaFabric-0.4.21+181-1.14-1.21.jar";
+            "hash" = "sha512-ccBkUupPCR3zbN6Q9dcHhh95VYTbaNxih9rk1LAO/rYL1DLBCcB2u/HPjLk7kxnEmIJaZIoZnM3BL9p1TzfziA==";
+        };
     in {
         "Czu1J2go" = _Czu1J2go;
         "45dNsrNu" = _45dNsrNu;
@@ -968,12 +993,17 @@ let
         "JsqLEkHy" = _JsqLEkHy;
         "U1uUiwCm" = _U1uUiwCm;
         "qTp3MGwf" = _qTp3MGwf;
+        "Q1iF5FEH" = _Q1iF5FEH;
+        "iVBXqMNT" = _iVBXqMNT;
+        "Cb20DjYc" = _Cb20DjYc;
+        "mghyw8Ep" = _mghyw8Ep;
+        "tUvNpHH0" = _tUvNpHH0;
         "fabric-1.8.9" = _jIfyL2G3;
-        "fabric-1.14.4" = _U1uUiwCm;
-        "fabric-1.15.2" = _U1uUiwCm;
-        "fabric-1.16.5" = _U1uUiwCm;
-        "fabric-1.17.1" = _U1uUiwCm;
-        "fabric-1.18.2" = _U1uUiwCm;
+        "fabric-1.14.4" = _tUvNpHH0;
+        "fabric-1.15.2" = _tUvNpHH0;
+        "fabric-1.16.5" = _tUvNpHH0;
+        "fabric-1.17.1" = _tUvNpHH0;
+        "fabric-1.18.2" = _tUvNpHH0;
         "fabric-1.19-pre1" = _45dNsrNu;
         "fabric-1.19-pre3" = _mi2wL9gn;
         "fabric-1.19-rc2" = _6Av0TZL9;
@@ -986,7 +1016,7 @@ let
         "fabric-1.19.3" = _1CbkwFOx;
         "fabric-23w04a" = _1CbkwFOx;
         "fabric-23w07a" = _vzFAMo07;
-        "fabric-1.19.4" = _U1uUiwCm;
+        "fabric-1.19.4" = _tUvNpHH0;
         "fabric-23w14a" = _HijWckMU;
         "fabric-1.20-pre1" = _1wDlgp1s;
         "fabric-1.20-pre6" = _Qtx2zcBT;
@@ -1000,7 +1030,7 @@ let
         "fabric-1.20.4" = _YVYkific;
         "fabric-1.12.2" = _jIfyL2G3;
         "fabric-1.20.5" = _ncLX0RTk;
-        "fabric-1.20.6" = _U1uUiwCm;
+        "fabric-1.20.6" = _tUvNpHH0;
         "fabric-1.21" = _6DgogkJ3;
         "fabric-1.21.1" = _6DgogkJ3;
         "fabric-1.21.2" = _CQ7NwggR;
@@ -1012,11 +1042,11 @@ let
         "fabric-1.21.8" = _17bTjshZ;
         "fabric-1.21.9" = _nWGb09E0;
         "fabric-1.21.10" = _kdVGOJPv;
-        "fabric-1.21.11" = _U1uUiwCm;
-        "fabric-26.1" = _qTp3MGwf;
-        "fabric-26.1.1" = _qTp3MGwf;
-        "fabric-26.1.2" = _qTp3MGwf;
-        "fabric-26.2" = _qTp3MGwf;
+        "fabric-1.21.11" = _tUvNpHH0;
+        "fabric-26.1" = _mghyw8Ep;
+        "fabric-26.1.1" = _mghyw8Ep;
+        "fabric-26.1.2" = _mghyw8Ep;
+        "fabric-26.2" = _mghyw8Ep;
         "pkg-0.4.6+273-main" = _Czu1J2go;
         "pkg-0.4.7+1-main" = _45dNsrNu;
         "pkg-0.4.7+3-main" = _mi2wL9gn;
@@ -1177,7 +1207,12 @@ let
         "pkg-0.4.21+174-26.x" = _JsqLEkHy;
         "pkg-0.4.21+173-1.14-1.21" = _U1uUiwCm;
         "pkg-0.4.21+176-26.x" = _qTp3MGwf;
-        "default" = _qTp3MGwf;
+        "pkg-0.4.21+178-26.x" = _Q1iF5FEH;
+        "pkg-0.4.21+177-1.14-1.21" = _iVBXqMNT;
+        "pkg-0.4.21+180-1.14-1.21" = _Cb20DjYc;
+        "pkg-0.4.21+182-26.x" = _mghyw8Ep;
+        "pkg-0.4.21+181-1.14-1.21" = _tUvNpHH0;
+        "default" = _tUvNpHH0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "viafabric";

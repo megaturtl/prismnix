@@ -91,6 +91,46 @@ let
             "file" = "village_taverns-neoforge-1.1.5+1.21.1.jar";
             "hash" = "sha512-f3oM/QTr18yzUwWlp8whEnDSHlKdPNHz8G0UTG9MFu/FEQLg3zA2JrQ0Ek2lmI1VPa4GzP8jMBP9DRmGNVlCVQ==";
         };
+        _WQpp5VnA = {
+            "id" = "WQpp5VnA";
+            "file" = "village_taverns-neoforge-1.2.0+1.21.1.jar";
+            "hash" = "sha512-DQL6NiIR/XokkM/Y3noPIB7+blPDyrRc+c/6n2mggTEVGZLxPr81v0EzVSd6l/Vf4Btolzue16WhsDwvXz/fLQ==";
+        };
+        _eOIbtbBs = {
+            "id" = "eOIbtbBs";
+            "file" = "village_taverns-fabric-1.2.0+1.21.1.jar";
+            "hash" = "sha512-qMe0VAbr4B5y7YJnXFaOuhpBmWeqcsinGAj7YNVLVErg3P+9z/hQ+NJzvyj+S/b5DD4U4ni8MoZXVDBk9vVgkA==";
+        };
+        _kBxjfCaP = {
+            "id" = "kBxjfCaP";
+            "file" = "village_taverns-fabric-1.3.0+1.21.1.jar";
+            "hash" = "sha512-+0wIVesyXryAYB230CdTQ0ePYRsUQ7uHVP3l5F7YJRGnPnq0xYpCYhFqsaKEQsXG1Fto+NLpp7L8vFBOiv15Fw==";
+        };
+        _qhOcjQ6u = {
+            "id" = "qhOcjQ6u";
+            "file" = "village_taverns-neoforge-1.3.0+1.21.1.jar";
+            "hash" = "sha512-tho3RqVpgq1vH3uhZDF8g8iELkiBqVuiZSaqFNsgcwVHPUWtX9J4t4na+2JrK/MneMsJY3chRphCl2JYYSajAQ==";
+        };
+        _gafZ1nf0 = {
+            "id" = "gafZ1nf0";
+            "file" = "village_taverns-neoforge-1.3.0+26.1.2.jar";
+            "hash" = "sha512-OJXldDHSMRmSLYRSZYBlD3YzRFdeAoXOMB/ljzUGeiVStUkEdAqcbtE/AvmNKY82DeGTJRqZSdrGmtbzrk3LHw==";
+        };
+        _Kw9mkt3L = {
+            "id" = "Kw9mkt3L";
+            "file" = "village_taverns-fabric-1.3.0+26.1.2.jar";
+            "hash" = "sha512-cc3lgYE8CzzeJDcZEyESlzgNYFi3ZhqGxSR7nXZosA4yB4YIdizXcFxJmh27ss0EWNglYgOy/dQdRzqxt8R2vQ==";
+        };
+        _DEucIT52 = {
+            "id" = "DEucIT52";
+            "file" = "village_taverns-neoforge-1.3.0+26.2.jar";
+            "hash" = "sha512-HcRcFKhnMb+byY6x2wkq20KkOJ3eK0XviyUuDmC0qtifrMB8wqif7J4BPITqJofAk/aNRcpvnn7NABerrUxBDw==";
+        };
+        _ZWHi8JOM = {
+            "id" = "ZWHi8JOM";
+            "file" = "village_taverns-fabric-1.3.0+26.2.jar";
+            "hash" = "sha512-6Z7rPc2LRJ6AUj45yyJj7uaUgBZ5pFn2mCUpzNuP+Sp3XsvAnkxWt3610G0pUzMIIVN1zqLu6NXhQZkcNSb53g==";
+        };
     in {
         "CDK1D1Z9" = _CDK1D1Z9;
         "wgnl90Cm" = _wgnl90Cm;
@@ -110,10 +150,26 @@ let
         "Yk6tPl5Y" = _Yk6tPl5Y;
         "YU3Vmiqk" = _YU3Vmiqk;
         "oalauy0c" = _oalauy0c;
-        "fabric-1.21" = _YU3Vmiqk;
-        "fabric-1.21.1" = _YU3Vmiqk;
-        "neoforge-1.21" = _oalauy0c;
-        "neoforge-1.21.1" = _oalauy0c;
+        "WQpp5VnA" = _WQpp5VnA;
+        "eOIbtbBs" = _eOIbtbBs;
+        "kBxjfCaP" = _kBxjfCaP;
+        "qhOcjQ6u" = _qhOcjQ6u;
+        "gafZ1nf0" = _gafZ1nf0;
+        "Kw9mkt3L" = _Kw9mkt3L;
+        "DEucIT52" = _DEucIT52;
+        "ZWHi8JOM" = _ZWHi8JOM;
+        "fabric-1.21" = _kBxjfCaP;
+        "fabric-1.21.1" = _kBxjfCaP;
+        "fabric-26.1" = _Kw9mkt3L;
+        "fabric-26.1.1" = _Kw9mkt3L;
+        "fabric-26.1.2" = _Kw9mkt3L;
+        "fabric-26.2" = _ZWHi8JOM;
+        "neoforge-1.21" = _qhOcjQ6u;
+        "neoforge-1.21.1" = _qhOcjQ6u;
+        "neoforge-26.1" = _gafZ1nf0;
+        "neoforge-26.1.1" = _gafZ1nf0;
+        "neoforge-26.1.2" = _gafZ1nf0;
+        "neoforge-26.2" = _DEucIT52;
         "pkg-1.0.0+1.21.1" = _CDK1D1Z9;
         "pkg-1.0.1+1.21.1" = _wgnl90Cm;
         "pkg-1.0.2+1.21.1" = _p58TzxkZ;
@@ -132,7 +188,15 @@ let
         "pkg-1.1.4+1.21.1-fabric" = _Yk6tPl5Y;
         "pkg-1.1.5+1.21.1-fabric" = _YU3Vmiqk;
         "pkg-1.1.5+1.21.1-neoforge" = _oalauy0c;
-        "default" = _oalauy0c;
+        "pkg-1.2.0+1.21.1-neoforge" = _WQpp5VnA;
+        "pkg-1.2.0+1.21.1-fabric" = _eOIbtbBs;
+        "pkg-1.3.0+1.21.1-fabric" = _kBxjfCaP;
+        "pkg-1.3.0+1.21.1-neoforge" = _qhOcjQ6u;
+        "pkg-1.3.0+26.1.2-neoforge" = _gafZ1nf0;
+        "pkg-1.3.0+26.1.2-fabric" = _Kw9mkt3L;
+        "pkg-1.3.0+26.2-neoforge" = _DEucIT52;
+        "pkg-1.3.0+26.2-fabric" = _ZWHi8JOM;
+        "default" = _ZWHi8JOM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "village-taverns";

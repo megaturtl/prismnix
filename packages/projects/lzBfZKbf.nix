@@ -1,224 +1,58 @@
 {lib, callPackage, ...}:
 let
     versions = (let
-        _vMuJFDtA = {
-            "id" = "vMuJFDtA";
-            "file" = "intelligent_villagers-0.5.0.jar";
-            "hash" = "sha512-NY/LAVre5wAmYGUWpe0lF+DFQwwSTb3I39w3D5qBQGeSooOmJKR9ekwASsqnKUUUK9+yg0ctzsvWedDyhY8M0w==";
-        };
-        _KvsyLgYS = {
-            "id" = "KvsyLgYS";
-            "file" = "intelligent_villagers-0.5.0.jar";
-            "hash" = "sha512-Xudr2vBHbm7vqhArStuOOQ98WDdNj/QknqKuAEa780b1/oPMtrTEqrDOumgF/thDXVG347hByxpvaKNTvVV9kQ==";
-        };
-        _uf0OqRKT = {
-            "id" = "uf0OqRKT";
-            "file" = "intelligent_villagers-0.5.0.jar";
-            "hash" = "sha512-c0StlEt8zY+CzHcioqvUPUDgA9o20XbJ/Qc4g8q2ceC/J7nIcxy1Eu7t8GuxLGcT5kFwnW6sL4foK6vQiU7RsA==";
-        };
-        _Ja4mvW0r = {
-            "id" = "Ja4mvW0r";
-            "file" = "intelligent_villagers-0.5.0.jar";
-            "hash" = "sha512-4Gwz28VgW0Ok20ZAvbKyQoPEQSxAr0OjEbZA0rpvd5j+azVeUODSxUHCwnTqNl/W/q9Du2bift2YeIhl8c5YCw==";
-        };
-        _yDIp6vfQ = {
-            "id" = "yDIp6vfQ";
+        _6w46s4kp = {
+            "id" = "6w46s4kp";
             "file" = "intelligentvillagers-0.5.0.jar";
-            "hash" = "sha512-YzaYqpmFo2/+NuC1II2X+6BfUJ7JUOJ3ec8Zgv6GWE0Yf+Yq9OB2QXOQS57lZbOt8hqaJQwlMuAOjj9livhRmQ==";
+            "hash" = "sha512-kCQOdvijapT0kOvb3faHauE+OvGH+G8CINYvsJ8Ge1jQ7GBL2jSoieD2OcC/OldTdvCrp9140dACCrxXUzuilw==";
         };
-        _r0EYnngM = {
-            "id" = "r0EYnngM";
+        _uVss2DmQ = {
+            "id" = "uVss2DmQ";
             "file" = "intelligentvillagers-0.5.0.jar";
-            "hash" = "sha512-Af9yKIl87SF6jyMB8POdqmTr7Ek27ajyJq+uqPD6Dhq53f2hml6pTKjkAUb552dVskRoZ0MZzM236VQvTBKafQ==";
+            "hash" = "sha512-Rd0P7F8jLuRYMIPA/b4lRu+P01lzIaUdfldALHy5Q+3H3Hrtc5vUtGopVeOu3VbtewUdtggcKLT1hIOs4tYJEw==";
         };
-        _zYBVHrRs = {
-            "id" = "zYBVHrRs";
+        _VSiJBvx0 = {
+            "id" = "VSiJBvx0";
             "file" = "intelligentvillagers-0.5.0.jar";
-            "hash" = "sha512-QHKw0PKhXLr/lHeepG8jYZEdeYwmmdU6bTFt4ELF+A7mKyViFGHRFbvjnj6cXXhW58HFbZWNH+/kYo4L2qt0JQ==";
+            "hash" = "sha512-EfSMn6doHCP3QaLpNmkjcK0kfSU2RJvwCmnKicRZ+Qca7IuCMqbNf+su4ilxbhO0w1Fn97B94wefZmWCRkwVcQ==";
         };
-        _zstLjD9N = {
-            "id" = "zstLjD9N";
+        _X8Gqlihs = {
+            "id" = "X8Gqlihs";
             "file" = "intelligentvillagers-0.5.0.jar";
-            "hash" = "sha512-4OqzHn18yjHOVAcpBMrCc43TBt51O8nTAGYb7+HwHdxQ8jiE8so4mLgF48WP1pVe8gVFQIdMFMGpPTCHxXBCIg==";
+            "hash" = "sha512-qdeAsIkFsm2lUAPO1fWGd9ByoXTHwcum6oKWKN/s5myXQ6PEAA+1nviuCzZe6oMKRFiKKSlHs7sC0oEBmyWF+A==";
         };
-        _698vk7T7 = {
-            "id" = "698vk7T7";
+        _hz7NVhaD = {
+            "id" = "hz7NVhaD";
             "file" = "intelligentvillagers-0.5.0.jar";
-            "hash" = "sha512-jlUcFbmVb9lVJM8cuzuezeyn+3rQeGaAmZQGmgl/YNmq1mKLETIpkSrOgTXjO7cOcI5s3OWftpg4FN7Z17iJKA==";
+            "hash" = "sha512-PepGa3GQgMoLUM/F+i7ze7IqcN6g9RYfwF83Js2Ap4dyyljjGUrCIMqtLwV9I1M+KNVgbe2e1zEHsiTCDK3L5Q==";
         };
-        _DfzCPHVk = {
-            "id" = "DfzCPHVk";
+        _9dewYXhc = {
+            "id" = "9dewYXhc";
             "file" = "intelligentvillagers-0.5.0.jar";
-            "hash" = "sha512-Chvg/oLK7mQEh7Rcxzsu0Z9+nIvVswQMVQTAdjLcxI6O8P0pQxshioH75Tsg1lKL0dWc19peXhmgLQdAvCx7xg==";
+            "hash" = "sha512-oCrDyIvQE235vWGkmcgcTebVC0p74s+wtyU1aTrnOFu4AGGfd4C1LFN5FhIuJjY8LGwqxlVFTvGI+i4ARSQBwg==";
         };
-        _ytNHRDQk = {
-            "id" = "ytNHRDQk";
+        _hVMn9Drz = {
+            "id" = "hVMn9Drz";
             "file" = "intelligentvillagers-0.5.0.jar";
-            "hash" = "sha512-CdistuEKzGyPThkYy4jQIQjfFBEti3bVzjYv9ojkeMIJcwHbJjRSI9otjYdfwj0g8+EPzw63mnveojAfHRzmdg==";
-        };
-        _QIG4L8xE = {
-            "id" = "QIG4L8xE";
-            "file" = "intelligentvillagers-0.5.0.jar";
-            "hash" = "sha512-jwCcPwlxMOZuAMd16pKZar1IISkLRuJJjcuQtJvCUb9jfa5T+M85E/DfZIzaKcR/NNx+gp0gHW507jjQWSQwkw==";
-        };
-        _UHuYTAxG = {
-            "id" = "UHuYTAxG";
-            "file" = "intelligentvillagers-0.5.0.jar";
-            "hash" = "sha512-83ezHsaxX2qJ6UyvtCJPVOGNlY2MnhUHSs3sPoGjMpp59gGRfDnipkMWdcoZiB4Fga1encYAHJzETFiqCq68KA==";
-        };
-        _DEAiY8BH = {
-            "id" = "DEAiY8BH";
-            "file" = "intelligentvillagers-0.5.0.jar";
-            "hash" = "sha512-ag4vYnxSPT+NPH0iENGxCr6mFO/Ik5u/GRa746u4+BR6vbiHeCK9mJR+GQWr8rOmW+rY5QsLd6DmHHJrWWtp5A==";
-        };
-        _FCW6nHKo = {
-            "id" = "FCW6nHKo";
-            "file" = "intelligentvillagers-0.5.0.jar";
-            "hash" = "sha512-lc+5gkoKjkDQz0e1bYbxMraC3XW7Kv72D2LnvLlbGfgn/33pM0bwp7a+zCot2EGRgocUnMxlzjh4YRQHEPFQFA==";
-        };
-        _e8Mc3sfB = {
-            "id" = "e8Mc3sfB";
-            "file" = "intelligentvillagers-0.5.0.jar";
-            "hash" = "sha512-dXYOmHnxRKYU5QI6Df3q6QdwIo0L5Wwp3p5K3R8TWvPMvwq2+67cXrVaxWWue6brX7Pe5Haaktqro/bvO7voVw==";
-        };
-        _UNihwtmM = {
-            "id" = "UNihwtmM";
-            "file" = "intelligentvillagers-0.5.0.jar";
-            "hash" = "sha512-5zZ/knmk24T4TfIu+MlOdjeTZv/xamsmbMU7lHmWnfxNl4Btyq7VCS34llcFtzDEiBe5tRv39mJ1yggsASySGw==";
-        };
-        _VN80FGE1 = {
-            "id" = "VN80FGE1";
-            "file" = "intelligentvillagers-0.5.0.jar";
-            "hash" = "sha512-T/U5apaNYc/rmy+OJQszdDP4rtFwmc8TL7rrryvyOj1VWdb7KTjcgZCPLgftVxmAnbjxgUqz7Zz//fSapznOjw==";
-        };
-        _RpuOAGVa = {
-            "id" = "RpuOAGVa";
-            "file" = "intelligentvillagers-0.5.0.jar";
-            "hash" = "sha512-JOnLdUAM5IlJ1nm7LtnZqHKhEpY66khzV1fdfCvPM3r1jHLjQp0b4otWQFXo2evvFHGSB+dNb3+j8qGZ8eWlPQ==";
-        };
-        _L1EB3nQ3 = {
-            "id" = "L1EB3nQ3";
-            "file" = "intelligentvillagers-0.5.0.jar";
-            "hash" = "sha512-M5lKQ8mNEabOUyoVnZUozCO//a5mdcy/36Gsb22Hd36PxWn7WYQWlmqnF/y6xlcpbOQJgljCWX0H9mRZpgGvOA==";
-        };
-        _oB06VeOZ = {
-            "id" = "oB06VeOZ";
-            "file" = "intelligentvillagers-0.5.0.jar";
-            "hash" = "sha512-CXvCpJK0Lo3KNBf/9Bf8T4oYaoxyRuMsVbCHIAvb3HJBmJmg2M1g1u1pYRvSgaTW98bQ58RvFqPxyWLo6TxIYg==";
-        };
-        _Bs8UuZH8 = {
-            "id" = "Bs8UuZH8";
-            "file" = "intelligentvillagers-0.5.0.jar";
-            "hash" = "sha512-J5FVrcXVjnlS8xTOgc52HHDkNFnGHVE68zmt7jxgZG2olPg9/hbn6ohIawSeYLXTQdW8DQ5uLmKAJjdpVceYLQ==";
-        };
-        _Bh504AVq = {
-            "id" = "Bh504AVq";
-            "file" = "intelligentvillagers-0.5.0.jar";
-            "hash" = "sha512-02yQVaIenMKbskNqchEGoAXUETINCESDbkR3fBzRtrjgNEG01JGeGXasAplGrkIJBax391Qdy3v1kw6N4AdYtA==";
-        };
-        _Tz61mBg2 = {
-            "id" = "Tz61mBg2";
-            "file" = "intelligentvillagers-0.5.0.jar";
-            "hash" = "sha512-VDa3E4lns6nadYqB3xcu5wqIWgmDSBUvy8J0ZE9FDzg255UftPge0+COuabsMulGYwNY+lPRF6/pvh9690+Elg==";
-        };
-        _TMNHRhxG = {
-            "id" = "TMNHRhxG";
-            "file" = "intelligentvillagers-0.5.0.jar";
-            "hash" = "sha512-mIN3wGVZi5S1WYn9dgkacJESMR2k51UznZAs2JSHw6NS9U+P6fHUJeo1Rkzj7PEll6zosE5CvgDBAd7Tr+Hhgw==";
-        };
-        _lmUcpY86 = {
-            "id" = "lmUcpY86";
-            "file" = "intelligentvillagers-0.5.0.jar";
-            "hash" = "sha512-yQYLzkelUlhEN4+F7dlij3kTx1V1I7ljlwj27LVq7mKEt8vetYZuAig2KSbWuF//dqjBX+t043EKcyzFzobCcQ==";
-        };
-        _AqVkkg22 = {
-            "id" = "AqVkkg22";
-            "file" = "intelligentvillagers-0.5.0.jar";
-            "hash" = "sha512-1jxoutVYB1zIOfGO/mP45HjlUjNrP96U082TplO+PvS5a9uG9Y2KpljWwLHRvQfi+KdLWS/zevbcUEI/8RAo2Q==";
-        };
-        _d6ZjUQwv = {
-            "id" = "d6ZjUQwv";
-            "file" = "intelligentvillagers-0.5.0.jar";
-            "hash" = "sha512-wnvvF73q5kLxT2mPtgikdlmjLQqg6u7sSTXxFXOvD1v98fSNGoeyqVhsPaE93w5v0243nbIChlJ4gxtJPNLV6g==";
-        };
-        _M0q4yNox = {
-            "id" = "M0q4yNox";
-            "file" = "intelligentvillagers-0.5.0.jar";
-            "hash" = "sha512-wnvvF73q5kLxT2mPtgikdlmjLQqg6u7sSTXxFXOvD1v98fSNGoeyqVhsPaE93w5v0243nbIChlJ4gxtJPNLV6g==";
-        };
-        _jqc2RX3j = {
-            "id" = "jqc2RX3j";
-            "file" = "intelligentvillagers-0.5.0.jar";
-            "hash" = "sha512-5S5c6RSWkusHNaEJsXUJe6lWzVYbhT49uJD5I5f46x3+CdRkkdhhAjWUdMY4LUzIf0G3loEnGXQW8QdUWls/QA==";
-        };
-        _nn9Yiz8m = {
-            "id" = "nn9Yiz8m";
-            "file" = "intelligentvillagers-0.5.0.jar";
-            "hash" = "sha512-SoW+5BxmeZxpH2S6KTnFSA4lwllSODFXg7vIcx3TthH6uhnnI+dDx4A9uzcM2KbyfdH67LS1NRZaJeMXwRN6lw==";
+            "hash" = "sha512-o87ObV9AxZwKmOP2afxv1Acjf5MOs+9mQ9mIs9WCXikng4HN/Mgdzm5dWglOyApeex14lwSdQEK2cZah7sYfxw==";
         };
     in {
-        "vMuJFDtA" = _vMuJFDtA;
-        "KvsyLgYS" = _KvsyLgYS;
-        "uf0OqRKT" = _uf0OqRKT;
-        "Ja4mvW0r" = _Ja4mvW0r;
-        "yDIp6vfQ" = _yDIp6vfQ;
-        "r0EYnngM" = _r0EYnngM;
-        "zYBVHrRs" = _zYBVHrRs;
-        "zstLjD9N" = _zstLjD9N;
-        "698vk7T7" = _698vk7T7;
-        "DfzCPHVk" = _DfzCPHVk;
-        "ytNHRDQk" = _ytNHRDQk;
-        "QIG4L8xE" = _QIG4L8xE;
-        "UHuYTAxG" = _UHuYTAxG;
-        "DEAiY8BH" = _DEAiY8BH;
-        "FCW6nHKo" = _FCW6nHKo;
-        "e8Mc3sfB" = _e8Mc3sfB;
-        "UNihwtmM" = _UNihwtmM;
-        "VN80FGE1" = _VN80FGE1;
-        "RpuOAGVa" = _RpuOAGVa;
-        "L1EB3nQ3" = _L1EB3nQ3;
-        "oB06VeOZ" = _oB06VeOZ;
-        "Bs8UuZH8" = _Bs8UuZH8;
-        "Bh504AVq" = _Bh504AVq;
-        "Tz61mBg2" = _Tz61mBg2;
-        "TMNHRhxG" = _TMNHRhxG;
-        "lmUcpY86" = _lmUcpY86;
-        "AqVkkg22" = _AqVkkg22;
-        "d6ZjUQwv" = _d6ZjUQwv;
-        "M0q4yNox" = _M0q4yNox;
-        "jqc2RX3j" = _jqc2RX3j;
-        "nn9Yiz8m" = _nn9Yiz8m;
-        "neoforge-1.21.1" = _nn9Yiz8m;
-        "pkg-2.0.6" = _vMuJFDtA;
-        "pkg-2.0.7" = _KvsyLgYS;
-        "pkg-2.0.8" = _uf0OqRKT;
-        "pkg-2.0.9" = _Ja4mvW0r;
-        "pkg-2.1.1" = _yDIp6vfQ;
-        "pkg-2.1.2" = _r0EYnngM;
-        "pkg-2.1.3" = _zYBVHrRs;
-        "pkg-2.1.4" = _zstLjD9N;
-        "pkg-2.1.5" = _698vk7T7;
-        "pkg-2.1.6" = _QIG4L8xE;
-        "pkg-2.2.5" = _RpuOAGVa;
-        "pkg-2.1.7" = _UHuYTAxG;
-        "pkg-2.1.8" = _DEAiY8BH;
-        "pkg-2.2.0" = _FCW6nHKo;
-        "pkg-2.2.1" = _e8Mc3sfB;
-        "pkg-2.2.2" = _UNihwtmM;
-        "pkg-2.2.4" = _VN80FGE1;
-        "pkg-2.2.6" = _L1EB3nQ3;
-        "pkg-2.2.7" = _oB06VeOZ;
-        "pkg-2.2.8" = _Bs8UuZH8;
-        "pkg-2.3.0" = _Bh504AVq;
-        "pkg-3.0.1" = _Tz61mBg2;
-        "pkg-3.0.2" = _TMNHRhxG;
-        "pkg-3.0.4" = _lmUcpY86;
-        "pkg-3.0.5" = _AqVkkg22;
-        "pkg-5.0.2" = _d6ZjUQwv;
-        "pkg-5.0.3" = _M0q4yNox;
-        "pkg-5.0.4" = _jqc2RX3j;
-        "pkg-5.0.5" = _nn9Yiz8m;
-        "default" = _nn9Yiz8m;
+        "6w46s4kp" = _6w46s4kp;
+        "uVss2DmQ" = _uVss2DmQ;
+        "VSiJBvx0" = _VSiJBvx0;
+        "X8Gqlihs" = _X8Gqlihs;
+        "hz7NVhaD" = _hz7NVhaD;
+        "9dewYXhc" = _9dewYXhc;
+        "hVMn9Drz" = _hVMn9Drz;
+        "neoforge-1.21.1" = _hVMn9Drz;
+        "pkg-6.0.0" = _6w46s4kp;
+        "pkg-6.0.1" = _uVss2DmQ;
+        "pkg-6.0.2" = _VSiJBvx0;
+        "pkg-6.0.3" = _X8Gqlihs;
+        "pkg-6.0.4" = _hz7NVhaD;
+        "pkg-6.0.6" = _9dewYXhc;
+        "pkg-6.0.7" = _hVMn9Drz;
+        "default" = _hVMn9Drz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nations-villagers-ai-reborn";

@@ -186,6 +186,21 @@ let
             "file" = "danlib-2.0.0.jar";
             "hash" = "sha512-yuApvoyTMUbvsLZB2pO1gGXNgdKLMow7fF3/pCM/EhKCd0c2+T+/uRKUwS/n3slwtunBSTTUzz8FEkkoh2oQuQ==";
         };
+        _NbVMTnkD = {
+            "id" = "NbVMTnkD";
+            "file" = "danlib-2.0.0.jar";
+            "hash" = "sha512-yuApvoyTMUbvsLZB2pO1gGXNgdKLMow7fF3/pCM/EhKCd0c2+T+/uRKUwS/n3slwtunBSTTUzz8FEkkoh2oQuQ==";
+        };
+        _PyeTRg9B = {
+            "id" = "PyeTRg9B";
+            "file" = "danlib-2.0.0.jar";
+            "hash" = "sha512-ak9AYwIyfqncxgVZNWfdIFDt6BXTSe4rv7bbGrt/ff4qsEXvXdPBGwbXxB2sLQH5oKEiMng/dc3NF6jfXCxBqg==";
+        };
+        _ytybyXBb = {
+            "id" = "ytybyXBb";
+            "file" = "danlib-2.0.0.jar";
+            "hash" = "sha512-ak9AYwIyfqncxgVZNWfdIFDt6BXTSe4rv7bbGrt/ff4qsEXvXdPBGwbXxB2sLQH5oKEiMng/dc3NF6jfXCxBqg==";
+        };
     in {
         "uBzNPAfJ" = _uBzNPAfJ;
         "HRqrwV9M" = _HRqrwV9M;
@@ -224,6 +239,9 @@ let
         "vjAXwqS7" = _vjAXwqS7;
         "5nbxLsVY" = _5nbxLsVY;
         "pFrMakfv" = _pFrMakfv;
+        "NbVMTnkD" = _NbVMTnkD;
+        "PyeTRg9B" = _PyeTRg9B;
+        "ytybyXBb" = _ytybyXBb;
         "fabric-25w32a" = _uBzNPAfJ;
         "fabric-25w34b" = _HRqrwV9M;
         "fabric-25w35a" = _tZx1zAF3;
@@ -271,6 +289,11 @@ let
         "fabric-26.3-snapshot-3" = _5nbxLsVY;
         "fabric-26.3-snapshot-4" = _pFrMakfv;
         "fabric-26.3-snapshot-5" = _pFrMakfv;
+        "fabric-26.3-snapshot-6" = _NbVMTnkD;
+        "fabric-26.3-snapshot-7" = _NbVMTnkD;
+        "fabric-26.3-snapshot-8" = _PyeTRg9B;
+        "fabric-26.3-snapshot-9" = _ytybyXBb;
+        "fabric-26.3-snapshot-10" = _ytybyXBb;
         "pkg-1.0.3" = _uBzNPAfJ;
         "pkg-1.0.0" = _UyEMroHP;
         "pkg-1.0.4" = _h7enN31P;
@@ -294,7 +317,10 @@ let
         "pkg-2.0.0-26.3snapshot2" = _vjAXwqS7;
         "pkg-2.0.0-26.3snapshot3" = _5nbxLsVY;
         "pkg-2.0.0-26.3snapshot4" = _pFrMakfv;
-        "default" = _pFrMakfv;
+        "pkg-2.0.0-26.3snapshot6" = _NbVMTnkD;
+        "pkg-2.0.0-26.3snapshot8" = _PyeTRg9B;
+        "pkg-2.0.0-26.3snapshot9" = _ytybyXBb;
+        "default" = _ytybyXBb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "danlib";

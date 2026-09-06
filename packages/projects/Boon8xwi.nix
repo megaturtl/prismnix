@@ -1191,6 +1191,51 @@ let
             "file" = "inventoryessentials-fabric-26.2-26.2.0.3.jar";
             "hash" = "sha512-MKR4z45xeuqaKCj1nx3/yuAlT9LOYzSFKuDzKl01HoTPGmX6UOLDjJ17X4M7Ra8N9t0hTq82VgcIhk0JdNuoBQ==";
         };
+        _8Ph4OFyN = {
+            "id" = "8Ph4OFyN";
+            "file" = "inventoryessentials-fabric-1.20.1-8.2.19.jar";
+            "hash" = "sha512-TtSAdS/KD+xz4u4SS5XsJV5/1UmmRFnorA5F5XcGMW3ouAhXtb62N1tuVrzp7B/lrV7QbRfPG6xxmoih4G2AAQ==";
+        };
+        _ydMbZRv1 = {
+            "id" = "ydMbZRv1";
+            "file" = "inventoryessentials-fabric-26.1.2-26.1.2.5.jar";
+            "hash" = "sha512-XO794E32WF6vgV7p1cPX3EDz7gyQgITqtMC92rJh8/dCZGu7IavSjE72X5bMh/a1CFL1EkCARTCKrkqRcivVnQ==";
+        };
+        _MofH1nU6 = {
+            "id" = "MofH1nU6";
+            "file" = "inventoryessentials-fabric-26.2-26.2.0.4.jar";
+            "hash" = "sha512-50zdLyYAHd887CnTEeel6VVBIKwu/qFK/6PMJpDhjscT2dYeFgBMPJ6oxKQZrK8EHV2uMdse+rTe/Q3K3eA/nQ==";
+        };
+        _ziSJxtpV = {
+            "id" = "ziSJxtpV";
+            "file" = "inventoryessentials-neoforge-26.1.2-26.1.2.5.jar";
+            "hash" = "sha512-LvdW92lPG9upSS7e8GOi0Jk1u96Q97IV3sMPpzxNzVTp1eygIfxT6WrXY0UojAfJPezPfpJpjkA3sTLoGAPpfQ==";
+        };
+        _uxCrp3LR = {
+            "id" = "uxCrp3LR";
+            "file" = "inventoryessentials-neoforge-26.2-26.2.0.4.jar";
+            "hash" = "sha512-/5Br9m5EC0Brxao17I51PgEcCA1jGS+kaE8seB43bXcZ+351LqvW0XwfHtRJyDikyU6ROrv8sRoU3Y2KHnNr8w==";
+        };
+        _ZFRf70mt = {
+            "id" = "ZFRf70mt";
+            "file" = "inventoryessentials-fabric-1.21.1-21.1.18.jar";
+            "hash" = "sha512-gAfq8TjvdsNywVoQoQ65WGZ+Cz/8OWCzF2ut4TC9BCbeatGH0M7CcQ7/f2Qbz8XE0KP/qvSWks3UH8zAOBqmuw==";
+        };
+        _yXrTheEG = {
+            "id" = "yXrTheEG";
+            "file" = "inventoryessentials-forge-1.21.1-21.1.18.jar";
+            "hash" = "sha512-x0BhuqjkztYiPYGvRIO9Pg/iohpGcX32ABLeYQVV55k/Iir5d4iEcMZq1iw4fNVVEBse1XyCgJR1WIhgJBsjPQ==";
+        };
+        _kSYg2mEh = {
+            "id" = "kSYg2mEh";
+            "file" = "inventoryessentials-neoforge-1.21.1-21.1.18.jar";
+            "hash" = "sha512-fA4buCuyjqMQ6yjivwH7RLNR2FbmyfXKpE1Q5vimYl6SgY9oGRcUx2ckTML0j0pHifnd8ylUILu+5C2RSNboTQ==";
+        };
+        _BhuVHyaA = {
+            "id" = "BhuVHyaA";
+            "file" = "inventoryessentials-forge-1.20.1-8.2.19.jar";
+            "hash" = "sha512-mekeSd3W8H06fyyOoJZe2YOCPdesJJWcGSIK/NdWQqkkzf54kEmfPIighhZRrNyJfm0OPV8zRV5zjw0k6nOEhw==";
+        };
     in {
         "u0meKHWd" = _u0meKHWd;
         "qurP2LEN" = _qurP2LEN;
@@ -1430,6 +1475,15 @@ let
         "yIg4QTS4" = _yIg4QTS4;
         "nRC6iNZP" = _nRC6iNZP;
         "wKop0ZCj" = _wKop0ZCj;
+        "8Ph4OFyN" = _8Ph4OFyN;
+        "ydMbZRv1" = _ydMbZRv1;
+        "MofH1nU6" = _MofH1nU6;
+        "ziSJxtpV" = _ziSJxtpV;
+        "uxCrp3LR" = _uxCrp3LR;
+        "ZFRf70mt" = _ZFRf70mt;
+        "yXrTheEG" = _yXrTheEG;
+        "kSYg2mEh" = _kSYg2mEh;
+        "BhuVHyaA" = _BhuVHyaA;
         "forge-1.19" = _cRTkO1l6;
         "forge-1.19.1" = _cRTkO1l6;
         "forge-1.19.2" = _cRTkO1l6;
@@ -1439,12 +1493,12 @@ let
         "forge-1.19.3" = _Hp5PybJZ;
         "forge-1.19.4" = _Hp5PybJZ;
         "forge-1.20" = _lymlfcUI;
-        "forge-1.20.1" = _lymlfcUI;
+        "forge-1.20.1" = _BhuVHyaA;
         "forge-1.20.2" = _gr1uM5Xg;
         "forge-1.20.4" = _72A5bYdd;
         "forge-1.20.6" = _SO2CRy39;
         "forge-1.21" = _lKwKodWJ;
-        "forge-1.21.1" = _VHp5U2q2;
+        "forge-1.21.1" = _yXrTheEG;
         "forge-1.21.4" = _gjj9yE9L;
         "forge-1.21.5" = _XNMwfQkX;
         "forge-1.21.6" = _1tXOKibS;
@@ -1460,13 +1514,13 @@ let
         "fabric-1.18.2" = _MuIEKp2S;
         "fabric-1.19.3" = _Xn6HIl5u;
         "fabric-1.19.4" = _Xn6HIl5u;
-        "fabric-1.20" = _ov8TTAwC;
-        "fabric-1.20.1" = _ov8TTAwC;
+        "fabric-1.20" = _8Ph4OFyN;
+        "fabric-1.20.1" = _8Ph4OFyN;
         "fabric-1.20.2" = _2NqKT97A;
         "fabric-1.20.4" = _81glPVsY;
         "fabric-1.20.6" = _5NVPu65K;
         "fabric-1.21" = _P9P9R5jy;
-        "fabric-1.21.1" = _eBm7B7uF;
+        "fabric-1.21.1" = _ZFRf70mt;
         "fabric-1.21.2" = _6InL8l3Z;
         "fabric-1.21.3" = _6InL8l3Z;
         "fabric-1.21.4" = _DaleySzF;
@@ -1479,13 +1533,13 @@ let
         "fabric-1.21.11" = _9VYHFaRj;
         "fabric-26.1" = _2D07qlwJ;
         "fabric-26.1.1" = _2D07qlwJ;
-        "fabric-26.1.2" = _aIrdPgeW;
-        "fabric-26.2" = _wKop0ZCj;
+        "fabric-26.1.2" = _ydMbZRv1;
+        "fabric-26.2" = _MofH1nU6;
         "neoforge-1.20.2" = _dGEvlIEE;
         "neoforge-1.20.4" = _zCCNL9Wk;
         "neoforge-1.20.6" = _medGEIyd;
         "neoforge-1.21" = _wfZHdNT1;
-        "neoforge-1.21.1" = _7oG8uNtJ;
+        "neoforge-1.21.1" = _kSYg2mEh;
         "neoforge-1.21.2" = _LitMIL1T;
         "neoforge-1.21.3" = _LitMIL1T;
         "neoforge-1.21.4" = _DNNc2YGs;
@@ -1498,8 +1552,8 @@ let
         "neoforge-1.21.11" = _mdpNXmB2;
         "neoforge-26.1" = _pom8g4yX;
         "neoforge-26.1.1" = _pom8g4yX;
-        "neoforge-26.1.2" = _yIg4QTS4;
-        "neoforge-26.2" = _nRC6iNZP;
+        "neoforge-26.1.2" = _ziSJxtpV;
+        "neoforge-26.2" = _uxCrp3LR;
         "pkg-5.0.0+forge-1.19" = _u0meKHWd;
         "pkg-5.0.0+fabric-1.19" = _qurP2LEN;
         "pkg-4.0.2+forge-1.18.2" = _k0UlaXy2;
@@ -1738,7 +1792,16 @@ let
         "pkg-26.1.2.4+neoforge-26.1.2" = _yIg4QTS4;
         "pkg-26.2.0.3+neoforge-26.2" = _nRC6iNZP;
         "pkg-26.2.0.3+fabric-26.2" = _wKop0ZCj;
-        "default" = _wKop0ZCj;
+        "pkg-8.2.19+fabric-1.20.1" = _8Ph4OFyN;
+        "pkg-26.1.2.5+fabric-26.1.2" = _ydMbZRv1;
+        "pkg-26.2.0.4+fabric-26.2" = _MofH1nU6;
+        "pkg-26.1.2.5+neoforge-26.1.2" = _ziSJxtpV;
+        "pkg-26.2.0.4+neoforge-26.2" = _uxCrp3LR;
+        "pkg-21.1.18+fabric-1.21.1" = _ZFRf70mt;
+        "pkg-21.1.18+forge-1.21.1" = _yXrTheEG;
+        "pkg-21.1.18+neoforge-1.21.1" = _kSYg2mEh;
+        "pkg-8.2.19+forge-1.20.1" = _BhuVHyaA;
+        "default" = _BhuVHyaA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "inventory-essentials";

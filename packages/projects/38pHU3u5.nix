@@ -171,6 +171,11 @@ let
             "file" = "CustomPortals-4.0.0+26.1.2.jar";
             "hash" = "sha512-8yaeDWv/XJ3Bkx4P9AH1WNVBt4E1gbh21A8inqF2DuaQ6QctlcXO9WTr5MxU9Fil9BfLaOscEd+sxxzRZU+DYg==";
         };
+        _gHkDVQJe = {
+            "id" = "gHkDVQJe";
+            "file" = "CustomPortals-4.0.1+26.2.jar";
+            "hash" = "sha512-vYvJw3Shld9OV1l9KAbTu2SPGRGitO5y5XzaaiFgd25ZbM2rh0sinUiccZz2gyzVaSssbm5ksyHjHq7PISvbjA==";
+        };
     in {
         "yDpjcFAV" = _yDpjcFAV;
         "HS74QU7p" = _HS74QU7p;
@@ -206,6 +211,7 @@ let
         "iRHI0P4r" = _iRHI0P4r;
         "4KxcvEpi" = _4KxcvEpi;
         "TPlalLmt" = _TPlalLmt;
+        "gHkDVQJe" = _gHkDVQJe;
         "fabric-1.16" = _yDpjcFAV;
         "fabric-1.16.1" = _yDpjcFAV;
         "fabric-1.16.2" = _yDpjcFAV;
@@ -242,6 +248,7 @@ let
         "fabric-1.21.10" = _Vi74onTX;
         "fabric-1.21.11" = _iRHI0P4r;
         "fabric-26.1.2" = _TPlalLmt;
+        "fabric-26.2" = _gHkDVQJe;
         "pkg-1.4.2" = _yDpjcFAV;
         "pkg-2.1.0" = _HS74QU7p;
         "pkg-3.0.1" = _2ucfpYoI;
@@ -269,7 +276,8 @@ let
         "pkg-3.12.1" = _iRHI0P4r;
         "pkg-3.4.3" = _4KxcvEpi;
         "pkg-4.0.0" = _TPlalLmt;
-        "default" = _TPlalLmt;
+        "pkg-4.0.1" = _gHkDVQJe;
+        "default" = _gHkDVQJe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-portals";

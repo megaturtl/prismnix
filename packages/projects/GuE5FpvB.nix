@@ -186,6 +186,16 @@ let
             "file" = "promenade-5.5.1.jar";
             "hash" = "sha512-iEwXP/WX+6iHsF7kjdrIN42UMvDjkUYGNG0HGEl+ldjP81Jy+OiKIx7xRKA0rWF3E0xJesZT9+nSPqe3vuiCKw==";
         };
+        _828FQBS6 = {
+            "id" = "828FQBS6";
+            "file" = "promenade-5.5.2.jar";
+            "hash" = "sha512-AQ3D0BetVi1dW4e7ZeVXdfFDx5n2VsVf1q34oObpm9/FLR/h/KN5N9UWIUKiNnWXO3lCIC9NuXN7UIILi4MK/A==";
+        };
+        _ldF03LkA = {
+            "id" = "ldF03LkA";
+            "file" = "promenade-5.6.0.jar";
+            "hash" = "sha512-2kyEtGspxrvncMUstEQiwjPNf5sXPqXrBE3Jvt5OE37Uhu0EqRdq+bZycJ14j/G9WIipr4VGPIpA0zk7cKB7Ig==";
+        };
     in {
         "FW8Jsy6b" = _FW8Jsy6b;
         "AnQZPALY" = _AnQZPALY;
@@ -224,6 +234,8 @@ let
         "heAfOH3k" = _heAfOH3k;
         "rNklt2vJ" = _rNklt2vJ;
         "BjPhwjDV" = _BjPhwjDV;
+        "828FQBS6" = _828FQBS6;
+        "ldF03LkA" = _ldF03LkA;
         "fabric-1.16.2" = _J3w72Yuv;
         "fabric-1.16.3" = _J3w72Yuv;
         "fabric-1.16.4" = _J3w72Yuv;
@@ -248,9 +260,10 @@ let
         "fabric-1.21.9" = _ETXI000d;
         "fabric-1.21.10" = _ETXI000d;
         "fabric-1.21.11" = _heAfOH3k;
-        "fabric-26.1" = _BjPhwjDV;
-        "fabric-26.1.1" = _BjPhwjDV;
-        "fabric-26.1.2" = _BjPhwjDV;
+        "fabric-26.1" = _828FQBS6;
+        "fabric-26.1.1" = _828FQBS6;
+        "fabric-26.1.2" = _828FQBS6;
+        "fabric-26.2" = _ldF03LkA;
         "quilt-1.19.3" = _obpRw4SX;
         "quilt-1.19.4" = _yzCPompk;
         "quilt-1.20" = _A5YD9uS3;
@@ -264,9 +277,10 @@ let
         "quilt-1.21.9" = _ETXI000d;
         "quilt-1.21.10" = _ETXI000d;
         "quilt-1.21.11" = _heAfOH3k;
-        "quilt-26.1" = _BjPhwjDV;
-        "quilt-26.1.1" = _BjPhwjDV;
-        "quilt-26.1.2" = _BjPhwjDV;
+        "quilt-26.1" = _828FQBS6;
+        "quilt-26.1.1" = _828FQBS6;
+        "quilt-26.1.2" = _828FQBS6;
+        "quilt-26.2" = _ldF03LkA;
         "pkg-v1.3.1" = _FW8Jsy6b;
         "pkg-1.3.2" = _AnQZPALY;
         "pkg-1.3.3" = _WP8At0cA;
@@ -304,7 +318,9 @@ let
         "pkg-5.4.0" = _heAfOH3k;
         "pkg-5.5.0" = _rNklt2vJ;
         "pkg-5.5.1" = _BjPhwjDV;
-        "default" = _BjPhwjDV;
+        "pkg-5.5.2" = _828FQBS6;
+        "pkg-5.6.0" = _ldF03LkA;
+        "default" = _ldF03LkA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "promenade";

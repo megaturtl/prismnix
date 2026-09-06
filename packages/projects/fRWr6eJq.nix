@@ -36,6 +36,16 @@ let
             "file" = "cbc_firepower_components-neoforge-1.21.1-0.3.2+mc.1.21.1-neoforge.jar";
             "hash" = "sha512-asTjOVTuii4RMm8XYBaeR+qTjp2BaB8vZbVbfr5IgcZPXtjqBWFyAkVU4c5N5aY3xz/KNcE+SbzOdjgtIZi7hw==";
         };
+        _8G09rkh2 = {
+            "id" = "8G09rkh2";
+            "file" = "cbc_firepower_components-neoforge-1.21.1-0.4.0+mc.1.21.1-neoforge.jar";
+            "hash" = "sha512-CZ1Vk8bc/Xm5Tb34+2N4V+YwDvf9m5u58w/nv5mumB40pnnzcpusjFOlV/XC6F15fjvreGpaJEUFVGuerHtbJA==";
+        };
+        _MIIQsPeB = {
+            "id" = "MIIQsPeB";
+            "file" = "cbc_firepower_components-neoforge-1.21.1-0.4.2+mc.1.21.1-neoforge.jar";
+            "hash" = "sha512-wcc62TNo+KwG6HQ/Vv9W9RoQXuPEO7R2hpfpAcHy+t/I2Yf+y0YrbJDcHfid7EVsFMct8PaBr+b2sUiOEXjOkQ==";
+        };
     in {
         "qxamTIad" = _qxamTIad;
         "aCLWg61J" = _aCLWg61J;
@@ -44,14 +54,18 @@ let
         "c0n1Dpxn" = _c0n1Dpxn;
         "JLWqJIS0" = _JLWqJIS0;
         "4695joRq" = _4695joRq;
-        "neoforge-1.21.1" = _4695joRq;
+        "8G09rkh2" = _8G09rkh2;
+        "MIIQsPeB" = _MIIQsPeB;
+        "neoforge-1.21.1" = _MIIQsPeB;
         "forge-1.20.1" = _c0n1Dpxn;
         "pkg-0.1.6" = _qxamTIad;
         "pkg-0.1.5" = _aCLWg61J;
         "pkg-0.1.7" = _MI0bXBtl;
         "pkg-0.2.0" = _JLWqJIS0;
         "pkg-0.3.2" = _4695joRq;
-        "default" = _4695joRq;
+        "pkg-0.4.0" = _8G09rkh2;
+        "pkg-0.4.2" = _MIIQsPeB;
+        "default" = _MIIQsPeB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cbc-firepower-components";

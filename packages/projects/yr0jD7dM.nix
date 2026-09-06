@@ -66,6 +66,16 @@ let
             "file" = "Alpha's Rise V3.4.3.jar";
             "hash" = "sha512-IAvoFSfwGL/xRqL7YdAPl8h6gO7d6XY/MjgweJ+PEKlFSHPzMX4M7XRJ3nH5991q7caj5ZVOO1zwFww2QMljLQ==";
         };
+        _mptQbZ3I = {
+            "id" = "mptQbZ3I";
+            "file" = "Alpha's Rise V4.0.0.jar";
+            "hash" = "sha512-dF7Tp+n6sd2QCDu0oTkKLwzMpNt1ZW3x50DjDhsZNZTepwwIKliBCV8dHRVkmDmJpCzcaI+FGPgsYkgEs+MnCA==";
+        };
+        _3m0lNlge = {
+            "id" = "3m0lNlge";
+            "file" = "Alpha's Rise V4.0.1.jar";
+            "hash" = "sha512-gORSHQ2aoK6kAOR4EpgYj38WflZpCtpyhc0o54F09JIHxNntES3corTUX1BhdaKpYoqxA+aMbH411AT3D9ovGA==";
+        };
     in {
         "fhtstoEj" = _fhtstoEj;
         "UNZuwOrd" = _UNZuwOrd;
@@ -80,7 +90,9 @@ let
         "UhsZ4qLi" = _UhsZ4qLi;
         "C1Zc1W1Z" = _C1Zc1W1Z;
         "v17KsV5z" = _v17KsV5z;
-        "forge-1.18.2" = _v17KsV5z;
+        "mptQbZ3I" = _mptQbZ3I;
+        "3m0lNlge" = _3m0lNlge;
+        "forge-1.18.2" = _3m0lNlge;
         "pkg-1.0.0" = _fhtstoEj;
         "pkg-1.1.0" = _UNZuwOrd;
         "pkg-1.2.0" = _MQUrHAyC;
@@ -94,7 +106,9 @@ let
         "pkg-3.4.1" = _UhsZ4qLi;
         "pkg-3.4.2" = _C1Zc1W1Z;
         "pkg-3.4.3" = _v17KsV5z;
-        "default" = _v17KsV5z;
+        "pkg-4.0.0" = _mptQbZ3I;
+        "pkg-4.0.1" = _3m0lNlge;
+        "default" = _3m0lNlge;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "alphas-rise";

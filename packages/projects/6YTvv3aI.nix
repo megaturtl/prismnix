@@ -66,6 +66,26 @@ let
             "file" = "ElysiumAPI-1.21.1-2.0.0-BETA.6.jar";
             "hash" = "sha512-yAM3VIc5vU2xh9E5md0BZmxrdOYt91YGU4fv2xxAZV9OywSUPShcTym6Zrprq284qyO3IFMMqNcYT2UWKGK0XA==";
         };
+        _WBVxMlXP = {
+            "id" = "WBVxMlXP";
+            "file" = "ElysiumAPI-1.21.1-2.0.0-BETA.22.jar";
+            "hash" = "sha512-SRyVPx5lDG9PxG/0b1UJjUh9cVNXATlajH7OnRBbQ5OyxdBaaYMd5IL6oWZWppfIkeX10+1VImW9AIWldFco2Q==";
+        };
+        _fNNKNu4Y = {
+            "id" = "fNNKNu4Y";
+            "file" = "ElysiumAPI-1.21.1-2.0.0-BETA.24.jar";
+            "hash" = "sha512-fwLs77o8jbqW1ywq6JNX+g0CEGjLzNfNBkLq5BecF7P6JItrLdNpz6Gv6GKFYMlL+B6DZrHIqKFoUYD2LtcqZQ==";
+        };
+        _9AGJWXpG = {
+            "id" = "9AGJWXpG";
+            "file" = "ElysiumAPI-1.21.1-2.0.0.jar";
+            "hash" = "sha512-0EdBqrHcL8WZlGbLqtd3Lm9cU2qYhragkE1bfgG+sL9JjBdvLLqBD2FrpKUfvHkTgcInpcUCyArk4SCUAZxB3g==";
+        };
+        _d2JaQ362 = {
+            "id" = "d2JaQ362";
+            "file" = "ElysiumAPI-1.21.1-2.0.1.jar";
+            "hash" = "sha512-Itqp+oAYuu6q7B1cPpHhMJkwAgjKLG1X+7pj2f3e9YOgl7nr4LWQtQlfSKRJxiMM3xk9ItTXUByXJZGNmERI2w==";
+        };
     in {
         "4WwHPwKb" = _4WwHPwKb;
         "Unei4XTb" = _Unei4XTb;
@@ -80,8 +100,12 @@ let
         "eQe3TzFx" = _eQe3TzFx;
         "s6zKcvN8" = _s6zKcvN8;
         "EIhZq8hW" = _EIhZq8hW;
+        "WBVxMlXP" = _WBVxMlXP;
+        "fNNKNu4Y" = _fNNKNu4Y;
+        "9AGJWXpG" = _9AGJWXpG;
+        "d2JaQ362" = _d2JaQ362;
         "forge-1.20.1" = _SqTYKsC6;
-        "neoforge-1.21.1" = _EIhZq8hW;
+        "neoforge-1.21.1" = _d2JaQ362;
         "pkg-1.20.1-1.0.0" = _4WwHPwKb;
         "pkg-1.20.1-1.0.1" = _Unei4XTb;
         "pkg-1.20.1-1.0.2" = _wcq14XyS;
@@ -95,7 +119,11 @@ let
         "pkg-1.21.1-1.2.0-ALPHA.19" = _eQe3TzFx;
         "pkg-1.21.1-2.0.0-BETA.2" = _s6zKcvN8;
         "pkg-1.21.1-2.0.0-BETA.6" = _EIhZq8hW;
-        "default" = _EIhZq8hW;
+        "pkg-1.21.1-2.0.0-BETA.22" = _WBVxMlXP;
+        "pkg-1.21.1-2.0.0-BETA.24" = _fNNKNu4Y;
+        "pkg-1.21.1-2.0.0" = _9AGJWXpG;
+        "pkg-1.21.1-2.0.1" = _d2JaQ362;
+        "default" = _d2JaQ362;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elysium-api";

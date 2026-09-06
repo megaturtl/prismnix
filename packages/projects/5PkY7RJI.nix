@@ -226,6 +226,31 @@ let
             "file" = "rtsbuilding-fabric-1.21.1-1.1.6-patch2-fabric-alpha.1.jar";
             "hash" = "sha512-qc+lY8v5I+ZuX0Zg4EYsJ8wUPl64My8vSsAX1Oa92224x0/HkhDcep2MCA4UfQ0AgNWxjwd9qnHKiCEy4meEOw==";
         };
+        _eRqVRZNd = {
+            "id" = "eRqVRZNd";
+            "file" = "rtsbuilding-1.1.6-1.12.2-port.jar";
+            "hash" = "sha512-O74kBDun/dHFK3Is4rMPVHkIO+fxjBqWYFypxlpC6EtrIGAIrL5d2Gy8arhp+PvRkNiwfZoXRisApuL8ROukCg==";
+        };
+        _FCuoNg2W = {
+            "id" = "FCuoNg2W";
+            "file" = "rtsbuilding-neoforge-1.21.1-1.1.6-patch3.jar";
+            "hash" = "sha512-I8P/dPpowaDskYafjx/8Fz+f02OH3GA0BHdN7A3Y5/DKvxD6sYJjNoBzhUVyYwVYbHEnWfR3kUN20H2F50kUVQ==";
+        };
+        _5Th6WDU2 = {
+            "id" = "5Th6WDU2";
+            "file" = "rtsbuilding-neoforge-1.21.1-1.1.7-beta1.jar";
+            "hash" = "sha512-ipXlp/wu1Arh7pq8orv6ZLposa2B3hFY1RhGo0AXJDJ3iEhAI2oefFxEeOI99sBs6P3Di9ZnZaVQNALrdKQ6nQ==";
+        };
+        _J6pjI9e8 = {
+            "id" = "J6pjI9e8";
+            "file" = "rtsbuilding-neoforge-1.21.1-1.1.7.jar";
+            "hash" = "sha512-o4EHC7uFZPAO9oma4vDoHo8uoUw+LgWAw43Vte0XBvsKGsSDmB7L3SXPju1s8bEn3LVE7XXJmL9BKoEDMLJUzA==";
+        };
+        _yqKYx6fC = {
+            "id" = "yqKYx6fC";
+            "file" = "rtsbuilding-forge-1.20.1-1.1.7-beta1.jar";
+            "hash" = "sha512-i0Jdm6BzX3x3XlNnLqxFChGSjR5XAMTBQSiFe0GynqPbx04YKL8G9P5otxKgSYP7EDzx7I1IUuvNzt0ewdp/zQ==";
+        };
     in {
         "NTRGPI9N" = _NTRGPI9N;
         "ThQ4gM8y" = _ThQ4gM8y;
@@ -272,14 +297,20 @@ let
         "IGZHrDce" = _IGZHrDce;
         "DwMnfSb2" = _DwMnfSb2;
         "W9ZbL3pP" = _W9ZbL3pP;
-        "neoforge-1.21.1" = _IGZHrDce;
+        "eRqVRZNd" = _eRqVRZNd;
+        "FCuoNg2W" = _FCuoNg2W;
+        "5Th6WDU2" = _5Th6WDU2;
+        "J6pjI9e8" = _J6pjI9e8;
+        "yqKYx6fC" = _yqKYx6fC;
+        "neoforge-1.21.1" = _J6pjI9e8;
         "neoforge-26.1.2" = _Ao1znvNN;
-        "forge-1.20.1" = _DwMnfSb2;
+        "forge-1.20.1" = _yqKYx6fC;
         "forge-1.20.2" = _AymVMqRG;
         "forge-1.20.3" = _AymVMqRG;
         "forge-1.20.4" = _AymVMqRG;
         "forge-1.20.5" = _AymVMqRG;
         "forge-1.20.6" = _AymVMqRG;
+        "forge-1.12.2" = _eRqVRZNd;
         "fabric-1.21.1" = _W9ZbL3pP;
         "pkg-1.0.10-alpha" = _NTRGPI9N;
         "pkg-1.0.11-alpha" = _ThQ4gM8y;
@@ -313,7 +344,11 @@ let
         "pkg-1.1.6-patch1" = _wvHQSETR;
         "pkg-1.1.6-patch2" = _DwMnfSb2;
         "pkg-1.1.6-patch2-fabric-alpha.1" = _W9ZbL3pP;
-        "default" = _W9ZbL3pP;
+        "pkg-1.1.6-1.12.2-port" = _eRqVRZNd;
+        "pkg-1.1.6-patch3" = _FCuoNg2W;
+        "pkg-1.1.7-beta1" = _yqKYx6fC;
+        "pkg-1.1.7" = _J6pjI9e8;
+        "default" = _yqKYx6fC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rts-building-build-from-above";

@@ -381,6 +381,16 @@ let
             "file" = "better-babies-0.8.9.jar";
             "hash" = "sha512-S0hueM7TwJ/fgjYBVHWKKTAse/Pu46N84HFybaFYXoWJSKksPRpThfjJ1EF0InAlPFbYxcRJ1A7Qgnu9J+p2Wg==";
         };
+        _oiBbybNE = {
+            "id" = "oiBbybNE";
+            "file" = "better_babies.zip";
+            "hash" = "sha512-Y5fdAzsD1Di9nUYahWly/bp2fQp9vli6GMg08lY5Qn47g48MKpcJV9KL3xZhsCx2rllBziSxVl/FzeJPJqu10A==";
+        };
+        _WfuyGzsa = {
+            "id" = "WfuyGzsa";
+            "file" = "better-babies-1.8.X+backport+data_api.jar";
+            "hash" = "sha512-XIIbkGb+//JxB9h0HF8OEF5W3T60iF+hBxc8qrwpt/j4PDMQl/YWvX4thXJzZLpd7PDgRlate81Pns3Ww22u9w==";
+        };
     in {
         "EiPaPaR8" = _EiPaPaR8;
         "Rf3NpuUZ" = _Rf3NpuUZ;
@@ -458,6 +468,8 @@ let
         "pfAOTBrT" = _pfAOTBrT;
         "kOCAvZ7C" = _kOCAvZ7C;
         "kiuRyXG2" = _kiuRyXG2;
+        "oiBbybNE" = _oiBbybNE;
+        "WfuyGzsa" = _WfuyGzsa;
         "datapack-1.20" = _h1jDEYGh;
         "datapack-1.20.1" = _h1jDEYGh;
         "datapack-1.20.2" = _QKnRM7tm;
@@ -466,7 +478,7 @@ let
         "datapack-1.20.5" = _uwYyHKHv;
         "datapack-1.20.6" = _DvFcr4ie;
         "datapack-1.21" = _8qMMT9bN;
-        "datapack-1.21.1" = _Vq5uu8KB;
+        "datapack-1.21.1" = _oiBbybNE;
         "datapack-1.21.2" = _KSzCLXWx;
         "datapack-1.21.3" = _IR9dckFP;
         "datapack-1.21.4" = _Wo5Y7Psd;
@@ -491,6 +503,10 @@ let
         "datapack-26.3-snapshot-5" = _kOCAvZ7C;
         "datapack-26.3-snapshot-6" = _kOCAvZ7C;
         "datapack-26.3-snapshot-7" = _kOCAvZ7C;
+        "datapack-26.3-snapshot-8" = _kOCAvZ7C;
+        "datapack-26.3-snapshot-9" = _kOCAvZ7C;
+        "datapack-26.3-snapshot-10" = _kOCAvZ7C;
+        "datapack-26.3-pre-1" = _kOCAvZ7C;
         "fabric-1.20" = _JeasMcHW;
         "fabric-1.20.1" = _JeasMcHW;
         "fabric-1.20.2" = _cvjJhx17;
@@ -499,7 +515,7 @@ let
         "fabric-1.20.5" = _dOBARBb8;
         "fabric-1.20.6" = _6tve2Mw0;
         "fabric-1.21" = _UrVbhPBD;
-        "fabric-1.21.1" = _A4g4fcwi;
+        "fabric-1.21.1" = _WfuyGzsa;
         "fabric-1.21.2" = _Btd29CZN;
         "fabric-1.21.3" = _40zkSqx4;
         "fabric-1.21.4" = _Zfu4rp8H;
@@ -521,6 +537,10 @@ let
         "fabric-26.3-snapshot-5" = _kiuRyXG2;
         "fabric-26.3-snapshot-6" = _kiuRyXG2;
         "fabric-26.3-snapshot-7" = _kiuRyXG2;
+        "fabric-26.3-snapshot-8" = _kiuRyXG2;
+        "fabric-26.3-snapshot-9" = _kiuRyXG2;
+        "fabric-26.3-snapshot-10" = _kiuRyXG2;
+        "fabric-26.3-pre-1" = _kiuRyXG2;
         "forge-1.20" = _JeasMcHW;
         "forge-1.20.1" = _JeasMcHW;
         "forge-1.20.2" = _cvjJhx17;
@@ -529,7 +549,7 @@ let
         "forge-1.20.5" = _dOBARBb8;
         "forge-1.20.6" = _6tve2Mw0;
         "forge-1.21" = _UrVbhPBD;
-        "forge-1.21.1" = _A4g4fcwi;
+        "forge-1.21.1" = _WfuyGzsa;
         "forge-1.21.2" = _Btd29CZN;
         "forge-1.21.3" = _40zkSqx4;
         "forge-1.21.4" = _Zfu4rp8H;
@@ -551,6 +571,10 @@ let
         "forge-26.3-snapshot-5" = _kiuRyXG2;
         "forge-26.3-snapshot-6" = _kiuRyXG2;
         "forge-26.3-snapshot-7" = _kiuRyXG2;
+        "forge-26.3-snapshot-8" = _kiuRyXG2;
+        "forge-26.3-snapshot-9" = _kiuRyXG2;
+        "forge-26.3-snapshot-10" = _kiuRyXG2;
+        "forge-26.3-pre-1" = _kiuRyXG2;
         "quilt-1.20" = _JeasMcHW;
         "quilt-1.20.1" = _JeasMcHW;
         "quilt-1.20.2" = _cvjJhx17;
@@ -559,7 +583,7 @@ let
         "quilt-1.20.5" = _dOBARBb8;
         "quilt-1.20.6" = _6tve2Mw0;
         "quilt-1.21" = _UrVbhPBD;
-        "quilt-1.21.1" = _A4g4fcwi;
+        "quilt-1.21.1" = _WfuyGzsa;
         "quilt-1.21.2" = _Btd29CZN;
         "quilt-1.21.3" = _40zkSqx4;
         "quilt-1.21.4" = _Zfu4rp8H;
@@ -581,7 +605,11 @@ let
         "quilt-26.3-snapshot-5" = _kiuRyXG2;
         "quilt-26.3-snapshot-6" = _kiuRyXG2;
         "quilt-26.3-snapshot-7" = _kiuRyXG2;
-        "neoforge-1.21.1" = _A4g4fcwi;
+        "quilt-26.3-snapshot-8" = _kiuRyXG2;
+        "quilt-26.3-snapshot-9" = _kiuRyXG2;
+        "quilt-26.3-snapshot-10" = _kiuRyXG2;
+        "quilt-26.3-pre-1" = _kiuRyXG2;
+        "neoforge-1.21.1" = _WfuyGzsa;
         "neoforge-1.21.2" = _Btd29CZN;
         "neoforge-1.21.3" = _40zkSqx4;
         "neoforge-1.21.4" = _Zfu4rp8H;
@@ -603,6 +631,10 @@ let
         "neoforge-26.3-snapshot-5" = _kiuRyXG2;
         "neoforge-26.3-snapshot-6" = _kiuRyXG2;
         "neoforge-26.3-snapshot-7" = _kiuRyXG2;
+        "neoforge-26.3-snapshot-8" = _kiuRyXG2;
+        "neoforge-26.3-snapshot-9" = _kiuRyXG2;
+        "neoforge-26.3-snapshot-10" = _kiuRyXG2;
+        "neoforge-26.3-pre-1" = _kiuRyXG2;
         "pkg-0.6" = _EiPaPaR8;
         "pkg-0.6+mod" = _Rf3NpuUZ;
         "pkg-0.6.1" = _C1y5heCu;
@@ -679,7 +711,9 @@ let
         "pkg-0.8.8+mod" = _pfAOTBrT;
         "pkg-0.8.9" = _kOCAvZ7C;
         "pkg-0.8.9+mod" = _kiuRyXG2;
-        "default" = _kiuRyXG2;
+        "pkg-1.8.X+backport+data_api" = _oiBbybNE;
+        "pkg-1.8.X+backport+data_api+mod" = _WfuyGzsa;
+        "default" = _WfuyGzsa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-babies";

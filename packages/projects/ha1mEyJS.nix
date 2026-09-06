@@ -426,6 +426,36 @@ let
             "file" = "PlayerAnimationLibNeoforge-1.1.9+mc.1.21.11.jar";
             "hash" = "sha512-vm5ukmADqpBwOIbSm7ts4UxFRuJzN+sb43p1rmRr17aLaVOwBQ5ltmq2TJj41QAocw2f9JYpDQkcBr3rFcVR1A==";
         };
+        _GiRAXABH = {
+            "id" = "GiRAXABH";
+            "file" = "PlayerAnimationLibMerged-1.2.6+mc.26.1.jar";
+            "hash" = "sha512-/WRfRJ89rYPceJ4iuizhy7fBDFmR2qkj7VN20SQ2UsOh28agZVuYK7Y554onnXkTnG4T+Cs4J3jZWm0ZGuVJ8A==";
+        };
+        _wJLdv4ZQ = {
+            "id" = "wJLdv4ZQ";
+            "file" = "PlayerAnimationLibFabric-1.1.10+mc.1.21.11.jar";
+            "hash" = "sha512-ihqDWY5nM6u8BaC791BRJ6lQCHEYXyw5WTjt8BZvIHZu+ua4FudWlX0mrN+VjdLxJjSv75Ql0N0sOhHE0v/35g==";
+        };
+        _X39o2UJS = {
+            "id" = "X39o2UJS";
+            "file" = "PlayerAnimationLibNeoforge-1.1.10+mc.1.21.11.jar";
+            "hash" = "sha512-1gEcksV2Q6fT3DHA3+rTwy9EFe5WDQYm+RAHuvxW+Xgf33XTBZqkJA+9qalHJ43+X8r8Ugbt7DcpovVOM2plDg==";
+        };
+        _tDcfU8FO = {
+            "id" = "tDcfU8FO";
+            "file" = "PlayerAnimationLibFabric-1.1.6+mc.1.21.1.jar";
+            "hash" = "sha512-Yh3UET/huavdEoBwyBKeUOPNRiiyk4koaebU/w+lDz4aEHOGlwyzbcuncAeGfjiREeNAipFbyz1FpqE7OnryYA==";
+        };
+        _yjxtkvnD = {
+            "id" = "yjxtkvnD";
+            "file" = "PlayerAnimationLibNeoforge-1.1.6+mc.1.21.1.jar";
+            "hash" = "sha512-gqcdn/m2KBvcLTZEhG9kbuu0SAKWCl/9HBram/5QhAi/fD5hpQKFo7QMs3bCnBacfzBER0Vz1QgUsWadaWLTjQ==";
+        };
+        _Hq1CwB9w = {
+            "id" = "Hq1CwB9w";
+            "file" = "PlayerAnimationLibMerged-1.2.6+mc.26.2.jar";
+            "hash" = "sha512-ikl+bxaIN8Zg+I2dgTTO6ila1shirjo0KWODvLmmjmsXO2naWP9uXrgFlCCAZLQfDuDwKq7v3e9Tonqy5x6ijw==";
+        };
     in {
         "fGS0ECPY" = _fGS0ECPY;
         "9bojLvzT" = _9bojLvzT;
@@ -512,26 +542,32 @@ let
         "ReDTdA0C" = _ReDTdA0C;
         "BXYewCJb" = _BXYewCJb;
         "iYqqVMj8" = _iYqqVMj8;
+        "GiRAXABH" = _GiRAXABH;
+        "wJLdv4ZQ" = _wJLdv4ZQ;
+        "X39o2UJS" = _X39o2UJS;
+        "tDcfU8FO" = _tDcfU8FO;
+        "yjxtkvnD" = _yjxtkvnD;
+        "Hq1CwB9w" = _Hq1CwB9w;
         "fabric-1.21.7" = _mwkEvRa1;
         "fabric-1.21.8" = _dIf3Q9r1;
-        "fabric-1.21.1" = _FkO8Scek;
+        "fabric-1.21.1" = _tDcfU8FO;
         "fabric-1.21.9" = _p8nawkdm;
         "fabric-1.21.10" = _p8nawkdm;
-        "fabric-1.21.11" = _BXYewCJb;
-        "fabric-26.1" = _SdKAeB6x;
-        "fabric-26.1.1" = _SdKAeB6x;
-        "fabric-26.1.2" = _SdKAeB6x;
-        "fabric-26.2" = _OQqtEQC6;
+        "fabric-1.21.11" = _wJLdv4ZQ;
+        "fabric-26.1" = _GiRAXABH;
+        "fabric-26.1.1" = _GiRAXABH;
+        "fabric-26.1.2" = _GiRAXABH;
+        "fabric-26.2" = _Hq1CwB9w;
         "neoforge-1.21.7" = _74vWa88e;
         "neoforge-1.21.8" = _QTilrphh;
-        "neoforge-1.21.1" = _ReDTdA0C;
+        "neoforge-1.21.1" = _yjxtkvnD;
         "neoforge-1.21.9" = _Ciw2S8Ez;
         "neoforge-1.21.10" = _Ciw2S8Ez;
-        "neoforge-1.21.11" = _iYqqVMj8;
-        "neoforge-26.1" = _SdKAeB6x;
-        "neoforge-26.1.1" = _SdKAeB6x;
-        "neoforge-26.1.2" = _SdKAeB6x;
-        "neoforge-26.2" = _OQqtEQC6;
+        "neoforge-1.21.11" = _X39o2UJS;
+        "neoforge-26.1" = _GiRAXABH;
+        "neoforge-26.1.1" = _GiRAXABH;
+        "neoforge-26.1.2" = _GiRAXABH;
+        "neoforge-26.2" = _Hq1CwB9w;
         "pkg-1.0.0" = _9bojLvzT;
         "pkg-1.0.1" = _bupKatjE;
         "pkg-1.0.4" = _KWs8YKn0;
@@ -554,7 +590,7 @@ let
         "pkg-1.1.0" = _OP6PlJ0W;
         "pkg-1.1.4" = _X11AqKQb;
         "pkg-1.1.5" = _ReDTdA0C;
-        "pkg-1.1.6" = _xuMUejpt;
+        "pkg-1.1.6" = _yjxtkvnD;
         "pkg-1.2.0" = _39urhbX5;
         "pkg-1.2.1" = _6F4jCTUD;
         "pkg-1.2.2" = _XVZlFrOK;
@@ -564,7 +600,9 @@ let
         "pkg-1.2.5" = _OQqtEQC6;
         "pkg-1.1.8" = _mDyiWITh;
         "pkg-1.1.9" = _iYqqVMj8;
-        "default" = _iYqqVMj8;
+        "pkg-1.2.6" = _Hq1CwB9w;
+        "pkg-1.1.10" = _X39o2UJS;
+        "default" = _Hq1CwB9w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "player-animation-library";

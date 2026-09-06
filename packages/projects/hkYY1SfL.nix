@@ -64,6 +64,7 @@ let
         "datapack-26.1" = _IQir4hEZ;
         "datapack-26.1.1" = _IQir4hEZ;
         "datapack-26.1.2" = _IQir4hEZ;
+        "datapack-26.2" = _IQir4hEZ;
         "fabric-1.17" = _mHm3mFMb;
         "fabric-1.17.1" = _mHm3mFMb;
         "fabric-1.18" = _mHm3mFMb;
@@ -96,6 +97,7 @@ let
         "fabric-26.1" = _mHm3mFMb;
         "fabric-26.1.1" = _mHm3mFMb;
         "fabric-26.1.2" = _mHm3mFMb;
+        "fabric-26.2" = _mHm3mFMb;
         "forge-1.17" = _mHm3mFMb;
         "forge-1.17.1" = _mHm3mFMb;
         "forge-1.18" = _mHm3mFMb;
@@ -128,6 +130,7 @@ let
         "forge-26.1" = _mHm3mFMb;
         "forge-26.1.1" = _mHm3mFMb;
         "forge-26.1.2" = _mHm3mFMb;
+        "forge-26.2" = _mHm3mFMb;
         "neoforge-1.17" = _mHm3mFMb;
         "neoforge-1.17.1" = _mHm3mFMb;
         "neoforge-1.18" = _mHm3mFMb;
@@ -160,6 +163,7 @@ let
         "neoforge-26.1" = _mHm3mFMb;
         "neoforge-26.1.1" = _mHm3mFMb;
         "neoforge-26.1.2" = _mHm3mFMb;
+        "neoforge-26.2" = _mHm3mFMb;
         "quilt-1.17" = _mHm3mFMb;
         "quilt-1.17.1" = _mHm3mFMb;
         "quilt-1.18" = _mHm3mFMb;
@@ -192,6 +196,7 @@ let
         "quilt-26.1" = _mHm3mFMb;
         "quilt-26.1.1" = _mHm3mFMb;
         "quilt-26.1.2" = _mHm3mFMb;
+        "quilt-26.2" = _mHm3mFMb;
         "pkg-1.0" = _4gWDlbpT;
         "pkg-1.0.1" = _IyXBhWpx;
         "pkg-1.0.1+mod" = _FB0Axhzp;

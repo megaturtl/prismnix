@@ -126,6 +126,26 @@ let
             "file" = "tlsywen+mc1.21.1-neoforge-0.1.16.jar";
             "hash" = "sha512-atbAcvtgeQak1F7nrbbqV2IosNfuDlgJLP9KAvHd3Vsin2AYk0KkK2XqdSEt2knaVY1hE/Vofz20TuG19Rfe7Q==";
         };
+        _4TLHYQs9 = {
+            "id" = "4TLHYQs9";
+            "file" = "tlsywen-0.1.16+mc1.20.1-forge-all.jar";
+            "hash" = "sha512-QoGnqoBqbHK+dlkgtXfUpTWRZTxBL70LD65MaYsyBKg4mCZew1QMrH5v9jAjCuhq3nDqzTQyMeYXpjKnFFvT8w==";
+        };
+        _RShC9LFW = {
+            "id" = "RShC9LFW";
+            "file" = "tlsywen-fabric-0.1.16+mc1.20.1.jar";
+            "hash" = "sha512-e1+Uy5aRqnP1T+HNsnhpAXselOywmB9SsREaEJ2k22qebaTVyBZb3VBIKMfsIhwC3x7YkWcfCYcunr8ekjrvLw==";
+        };
+        _A3ul2W5z = {
+            "id" = "A3ul2W5z";
+            "file" = "tlsywen-0.1.17+mc1.20.1-forge-all.jar";
+            "hash" = "sha512-I2HxBBY2FG2SE9oVb0nd9Umjf8g7IUnkPtFD4/hiVSDxx0g4pq02sse5L1Yg/DwWNKnfGh1+FQssN9lqBCLHfw==";
+        };
+        _QFFTZ0DP = {
+            "id" = "QFFTZ0DP";
+            "file" = "tlsywen-fabric-0.1.17+mc1.20.1.jar";
+            "hash" = "sha512-VWVi5j86II6VL8iFx6WgKGrHsXx+q4Jchx99nKibAW0BtOgU/a9DtBJBk2hoCLCoaZef5nnrw5015KMGAYskFQ==";
+        };
     in {
         "U7IqJsjf" = _U7IqJsjf;
         "gmAe8vq3" = _gmAe8vq3;
@@ -152,16 +172,20 @@ let
         "x49CEXzs" = _x49CEXzs;
         "QCuavx9s" = _QCuavx9s;
         "m3KozKcb" = _m3KozKcb;
-        "fabric-1.20.1" = _zbMYayli;
+        "4TLHYQs9" = _4TLHYQs9;
+        "RShC9LFW" = _RShC9LFW;
+        "A3ul2W5z" = _A3ul2W5z;
+        "QFFTZ0DP" = _QFFTZ0DP;
+        "fabric-1.20.1" = _QFFTZ0DP;
         "fabric-1.20.4" = _tXkvsdPP;
         "fabric-1.20.6" = _m56tP3lj;
         "fabric-1.21.1" = _RZkR2WEQ;
-        "quilt-1.20.1" = _zbMYayli;
+        "quilt-1.20.1" = _QFFTZ0DP;
         "quilt-1.20.4" = _tXkvsdPP;
         "quilt-1.20.6" = _m56tP3lj;
         "quilt-1.21.1" = _RZkR2WEQ;
-        "forge-1.20.1" = _x49CEXzs;
-        "neoforge-1.20.1" = _x49CEXzs;
+        "forge-1.20.1" = _A3ul2W5z;
+        "neoforge-1.20.1" = _A3ul2W5z;
         "neoforge-1.20.4" = _I4KTTBOa;
         "neoforge-1.20.6" = _QCuavx9s;
         "neoforge-1.21.1" = _m3KozKcb;
@@ -190,7 +214,11 @@ let
         "pkg-forge-0.1.15+mc1.20.1" = _x49CEXzs;
         "pkg-neoforge-0.1.16+mc1.20.6" = _QCuavx9s;
         "pkg-neoforge-0.1.16+mc1.21.1" = _m3KozKcb;
-        "default" = _m3KozKcb;
+        "pkg-forge-0.1.16+mc1.20.1" = _4TLHYQs9;
+        "pkg-fabric-0.1.16+mc1.20.1" = _RShC9LFW;
+        "pkg-forge-0.1.17+mc1.20.1" = _A3ul2W5z;
+        "pkg-fabric-0.1.17+mc1.20.1" = _QFFTZ0DP;
+        "default" = _QFFTZ0DP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-last-sword-you-will-ever-need-remastered";

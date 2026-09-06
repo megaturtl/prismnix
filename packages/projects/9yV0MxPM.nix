@@ -151,6 +151,11 @@ let
             "file" = "coloredslimes-1.0.4-fabric-1.20.1-0.92.7.jar";
             "hash" = "sha512-zLjE0yy3A0SPHkdC7+JpZwLW/dlOe0nrmNEKLfJ3ZzmuuByAx7zXkfCANdp+fIbsk+C9Ihr0DgTKufFgxVFbNA==";
         };
+        _nKkEQzD7 = {
+            "id" = "nKkEQzD7";
+            "file" = "coloredslimes-1.0.4-fabric-1.21.1-0.116.8.jar";
+            "hash" = "sha512-Fg7DP1qwHV1Gwhhk5r3fi8BEsCGkbBKsYAQEetH6FeoeVA+Og/bJ4c62FviWPXHrm1ou3IqnXP9Xg+YTDaEwQw==";
+        };
     in {
         "YuLfGD2l" = _YuLfGD2l;
         "cNoPR07y" = _cNoPR07y;
@@ -182,6 +187,7 @@ let
         "KlUqMNKh" = _KlUqMNKh;
         "hiHQO1Du" = _hiHQO1Du;
         "WqFX8d5F" = _WqFX8d5F;
+        "nKkEQzD7" = _nKkEQzD7;
         "forge-1.21.6" = _B6XjPSxV;
         "forge-1.21.7" = _B6XjPSxV;
         "forge-1.21.8" = _B6XjPSxV;
@@ -200,7 +206,7 @@ let
         "fabric-1.21.9" = _s5FU8pjO;
         "fabric-1.21.10" = _s5FU8pjO;
         "fabric-1.21.11" = _yMP4DEUj;
-        "fabric-1.21.1" = _zp6dxAh3;
+        "fabric-1.21.1" = _nKkEQzD7;
         "fabric-1.20.1" = _WqFX8d5F;
         "fabric-26.1" = _D6vW41ua;
         "fabric-26.1.1" = _D6vW41ua;
@@ -240,7 +246,8 @@ let
         "pkg-1.0.4-forge-1.21.1-52.1.5" = _KlUqMNKh;
         "pkg-1.0.4-forge-1.20.1-47.4.9" = _hiHQO1Du;
         "pkg-1.0.4-fabric-1.20.1-0.92.7" = _WqFX8d5F;
-        "default" = _WqFX8d5F;
+        "pkg-1.0.4-fabric-1.21.1-0.116.8" = _nKkEQzD7;
+        "default" = _nKkEQzD7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "colored-slimes";

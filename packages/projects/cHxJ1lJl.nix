@@ -61,6 +61,11 @@ let
             "file" = "instant-fishing-1.2.0+mc26.1.jar";
             "hash" = "sha512-xzmKxbTXOdBsrcD74/2ub+tjSbJLKTUpFCA63y8ihPNGfAO5zH/0H8GHX6fINmujFUUHDqNozknTFS3+thW3fg==";
         };
+        _Qro0hTzQ = {
+            "id" = "Qro0hTzQ";
+            "file" = "instant-fishing-1.2.0+mc26.2.jar";
+            "hash" = "sha512-zcN5sRWd2EiskpMNjG7l7zp6Xo05enlStAAmWboicbSKspdt9tUEcVbB1mqHScHBUkvkw1ykp4AvLh7VVhNvFw==";
+        };
     in {
         "3YmdawBX" = _3YmdawBX;
         "iI8rM0Cr" = _iI8rM0Cr;
@@ -74,6 +79,7 @@ let
         "8uxly2xV" = _8uxly2xV;
         "LrSgEYe1" = _LrSgEYe1;
         "fKJHWQpD" = _fKJHWQpD;
+        "Qro0hTzQ" = _Qro0hTzQ;
         "fabric-1.21.5" = _xAZTiX32;
         "fabric-1.21.6" = _xAZTiX32;
         "fabric-1.21.7" = _xAZTiX32;
@@ -85,6 +91,7 @@ let
         "fabric-26.1" = _fKJHWQpD;
         "fabric-26.1.1" = _fKJHWQpD;
         "fabric-26.1.2" = _fKJHWQpD;
+        "fabric-26.2" = _Qro0hTzQ;
         "pkg-1.0.0" = _3YmdawBX;
         "pkg-1.0.1" = _iI8rM0Cr;
         "pkg-1.0.1+mc1.21.6" = _HzaP2YrS;
@@ -97,7 +104,8 @@ let
         "pkg-1.1.0+mc1.21.11" = _8uxly2xV;
         "pkg-1.2.0+mc1.21.11" = _LrSgEYe1;
         "pkg-1.2.0+mc26.1" = _fKJHWQpD;
-        "default" = _fKJHWQpD;
+        "pkg-1.2.0+mc26.2" = _Qro0hTzQ;
+        "default" = _Qro0hTzQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "instant-fishing";

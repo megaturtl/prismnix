@@ -11,9 +11,21 @@ let
             "file" = "revived-pet-V1.0.jar";
             "hash" = "sha512-Gjrkv4d6Stqb1FFEdTjcoLvCJCStLY6SBg7L8DyJBijLPK83u50yxSdak8+26/EmCOnMbJxjngdwtJmCgCqdJw==";
         };
+        _GDdE8i05 = {
+            "id" = "GDdE8i05";
+            "file" = "revived pet DP.zip";
+            "hash" = "sha512-q6O+kAXG98TRcUo6rF1SpKvOD044KpOECVQumsG8k3+vOl0EYCxZgi50t8pdmOE7U6aRK500FTQbIV/rWIbWoQ==";
+        };
+        _j2o2EfhI = {
+            "id" = "j2o2EfhI";
+            "file" = "revived-pet-V1.1.jar";
+            "hash" = "sha512-f4pI2SDvcnmLkVvMDrLKaO/njODXvrC6pieEAQkzhSkJCeZQeMXgnPOp/gNEu864qJNwOySvwhQ7pW1nWAPvhw==";
+        };
     in {
         "lZNVe07P" = _lZNVe07P;
         "RKU0OxUs" = _RKU0OxUs;
+        "GDdE8i05" = _GDdE8i05;
+        "j2o2EfhI" = _j2o2EfhI;
         "datapack-1.21" = _lZNVe07P;
         "datapack-1.21.1" = _lZNVe07P;
         "datapack-1.21.2" = _lZNVe07P;
@@ -26,6 +38,10 @@ let
         "datapack-1.21.9" = _lZNVe07P;
         "datapack-1.21.10" = _lZNVe07P;
         "datapack-1.21.11" = _lZNVe07P;
+        "datapack-26.1" = _GDdE8i05;
+        "datapack-26.1.1" = _GDdE8i05;
+        "datapack-26.1.2" = _GDdE8i05;
+        "datapack-26.2" = _GDdE8i05;
         "fabric-1.21" = _RKU0OxUs;
         "fabric-1.21.1" = _RKU0OxUs;
         "fabric-1.21.2" = _RKU0OxUs;
@@ -38,6 +54,10 @@ let
         "fabric-1.21.9" = _RKU0OxUs;
         "fabric-1.21.10" = _RKU0OxUs;
         "fabric-1.21.11" = _RKU0OxUs;
+        "fabric-26.1" = _j2o2EfhI;
+        "fabric-26.1.1" = _j2o2EfhI;
+        "fabric-26.1.2" = _j2o2EfhI;
+        "fabric-26.2" = _j2o2EfhI;
         "forge-1.21" = _RKU0OxUs;
         "forge-1.21.1" = _RKU0OxUs;
         "forge-1.21.2" = _RKU0OxUs;
@@ -50,6 +70,10 @@ let
         "forge-1.21.9" = _RKU0OxUs;
         "forge-1.21.10" = _RKU0OxUs;
         "forge-1.21.11" = _RKU0OxUs;
+        "forge-26.1" = _j2o2EfhI;
+        "forge-26.1.1" = _j2o2EfhI;
+        "forge-26.1.2" = _j2o2EfhI;
+        "forge-26.2" = _j2o2EfhI;
         "neoforge-1.21" = _RKU0OxUs;
         "neoforge-1.21.1" = _RKU0OxUs;
         "neoforge-1.21.2" = _RKU0OxUs;
@@ -62,6 +86,10 @@ let
         "neoforge-1.21.9" = _RKU0OxUs;
         "neoforge-1.21.10" = _RKU0OxUs;
         "neoforge-1.21.11" = _RKU0OxUs;
+        "neoforge-26.1" = _j2o2EfhI;
+        "neoforge-26.1.1" = _j2o2EfhI;
+        "neoforge-26.1.2" = _j2o2EfhI;
+        "neoforge-26.2" = _j2o2EfhI;
         "quilt-1.21" = _RKU0OxUs;
         "quilt-1.21.1" = _RKU0OxUs;
         "quilt-1.21.2" = _RKU0OxUs;
@@ -74,9 +102,15 @@ let
         "quilt-1.21.9" = _RKU0OxUs;
         "quilt-1.21.10" = _RKU0OxUs;
         "quilt-1.21.11" = _RKU0OxUs;
+        "quilt-26.1" = _j2o2EfhI;
+        "quilt-26.1.1" = _j2o2EfhI;
+        "quilt-26.1.2" = _j2o2EfhI;
+        "quilt-26.2" = _j2o2EfhI;
         "pkg-V1.0" = _lZNVe07P;
         "pkg-V1.0+mod" = _RKU0OxUs;
-        "default" = _RKU0OxUs;
+        "pkg-V1.1" = _GDdE8i05;
+        "pkg-V1.1+mod" = _j2o2EfhI;
+        "default" = _j2o2EfhI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "revived-pet";

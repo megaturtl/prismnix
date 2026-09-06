@@ -191,6 +191,46 @@ let
             "file" = "tiny-multiblock-lib-neo-26.1-3.2.1.jar";
             "hash" = "sha512-X78GpecrsP//W/HPDFsZhdS6vFPEorKoZVM0Gk0SzW3GEkTKMZQZKcmw+1DApBEBcOvm0zTdxYvZgyDWJi5QtA==";
         };
+        _jfnKcZH0 = {
+            "id" = "jfnKcZH0";
+            "file" = "tiny-multiblock-lib-forge-1.20.1-4.0.0.jar";
+            "hash" = "sha512-1VkSBCna/LznRbw1qxezPbnRGYToBc/QVLMW6OkFOpgzy/sytaytjxtQc0o7n3u/ytE0ULr8DKY1TiMM4Dj5WQ==";
+        };
+        _xAHpKvsp = {
+            "id" = "xAHpKvsp";
+            "file" = "tiny-multiblock-lib-fabric-1.20.1-4.0.0.jar";
+            "hash" = "sha512-f6ZgoUovuPhFAONSs6dcZv43FGnqxtaIbzzhRTx1F95PrJBhaJBjGAFVlfLf5OxVuQfuAWpyR18wQF5jxRwTlA==";
+        };
+        _CuC8L52b = {
+            "id" = "CuC8L52b";
+            "file" = "tiny-multiblock-lib-neo-1.21.1-4.0.0.jar";
+            "hash" = "sha512-M5nESy9XbZ4oLOFakBHrJ4nZqERjUJiP0hskz8hQiy9FTsUEypxMvaGPROZ+1yj9jhxPYRbL/0Psa8LfpOFQrQ==";
+        };
+        _zUmG9PhD = {
+            "id" = "zUmG9PhD";
+            "file" = "tiny-multiblock-lib-fabric-1.21.1-4.0.0.jar";
+            "hash" = "sha512-BDVkJQCXtk6DCtbbOf0yJqZsDWL+1HvA9Grmu4Zj4oJ19j6XZ3faE1mF9GqhcxH4rykMuPDmtbVYl6q5UVj8OA==";
+        };
+        _6eeJ0xFC = {
+            "id" = "6eeJ0xFC";
+            "file" = "tiny-multiblock-lib-neo-26.1.2-4.0.0.jar";
+            "hash" = "sha512-odSHLbPUskjo/BtLzg0mT9W/PihoVuFXza47RwhhzjuwL4X6KMPDy278IG4W0bB41W+z6wNM6h4sLtMxlBDX2Q==";
+        };
+        _UOUQAhv0 = {
+            "id" = "UOUQAhv0";
+            "file" = "tiny-multiblock-lib-fabric-26.1.2-4.0.0.jar";
+            "hash" = "sha512-Wb7h1fRZHDyN2ALYYWXN4fQwxAq9CJZ2WSUnqLuiIs1R1MM67fAQfpkzXMYVipsJdMPpA1EeUcQlo98R9KyHHw==";
+        };
+        _evubwfSx = {
+            "id" = "evubwfSx";
+            "file" = "tiny-multiblock-lib-neo-26.2-4.0.0.jar";
+            "hash" = "sha512-uMPYClUk9ysDnFEfK5EcLF5vRaHC0QCFvPI+xxr1wkM3n4osCVsKc0xi+sfsxRfdJL0+ihH14NPXbARkzuLoZA==";
+        };
+        _MFOPelwq = {
+            "id" = "MFOPelwq";
+            "file" = "tiny-multiblock-lib-fabric-26.2-4.0.0.jar";
+            "hash" = "sha512-MfZsoc24sDvhJUbslNLDXzRRzNqtFlnLDNoeTGDeGyRn9C0H7kgAX2UrhNx5Rf0aEwCMiK73PwhTAxELAxiD6w==";
+        };
     in {
         "rkOABh9z" = _rkOABh9z;
         "QkABMF52" = _QkABMF52;
@@ -230,7 +270,15 @@ let
         "gJdO8QOx" = _gJdO8QOx;
         "K5lYesDz" = _K5lYesDz;
         "n8XC6kT0" = _n8XC6kT0;
-        "forge-1.20.1" = _OdMT2LO9;
+        "jfnKcZH0" = _jfnKcZH0;
+        "xAHpKvsp" = _xAHpKvsp;
+        "CuC8L52b" = _CuC8L52b;
+        "zUmG9PhD" = _zUmG9PhD;
+        "6eeJ0xFC" = _6eeJ0xFC;
+        "UOUQAhv0" = _UOUQAhv0;
+        "evubwfSx" = _evubwfSx;
+        "MFOPelwq" = _MFOPelwq;
+        "forge-1.20.1" = _jfnKcZH0;
         "forge-1.19.4" = _OdMT2LO9;
         "forge-1.20" = _OdMT2LO9;
         "forge-1.20.2" = _OdMT2LO9;
@@ -242,23 +290,25 @@ let
         "neoforge-1.20.2" = _WknSCFcC;
         "neoforge-1.20.3" = _WknSCFcC;
         "neoforge-1.20.4" = _WknSCFcC;
-        "neoforge-1.21.1" = _gbRIPDRZ;
+        "neoforge-1.21.1" = _CuC8L52b;
         "neoforge-1.21" = _NkkOYu2b;
         "neoforge-1.21.11" = _Dkl241i7;
-        "neoforge-26.1" = _n8XC6kT0;
-        "neoforge-26.1.1" = _n8XC6kT0;
-        "neoforge-26.1.2" = _n8XC6kT0;
+        "neoforge-26.1" = _6eeJ0xFC;
+        "neoforge-26.1.1" = _6eeJ0xFC;
+        "neoforge-26.1.2" = _6eeJ0xFC;
+        "neoforge-26.2" = _evubwfSx;
         "fabric-1.19.4" = _htVgl9r8;
         "fabric-1.20" = _htVgl9r8;
-        "fabric-1.20.1" = _xUv5csJp;
+        "fabric-1.20.1" = _xAHpKvsp;
         "fabric-1.20.2" = _dRPpNh9e;
         "fabric-1.20.3" = _dRPpNh9e;
         "fabric-1.20.4" = _dRPpNh9e;
-        "fabric-1.21.1" = _zRE9vUJ7;
+        "fabric-1.21.1" = _zUmG9PhD;
         "fabric-1.21.11" = _coqlCYox;
         "fabric-26.1" = _K5lYesDz;
         "fabric-26.1.1" = _K5lYesDz;
-        "fabric-26.1.2" = _K5lYesDz;
+        "fabric-26.1.2" = _UOUQAhv0;
+        "fabric-26.2" = _MFOPelwq;
         "pkg-1.0" = _rkOABh9z;
         "pkg-1.1" = _NCmlEBas;
         "pkg-forge-1.20.1-2.0" = _jrGIHVj0;
@@ -294,7 +344,15 @@ let
         "pkg-neo-26.1-3.2.0" = _gJdO8QOx;
         "pkg-fabric-26.1-3.2.0" = _K5lYesDz;
         "pkg-neo-26.1-3.2.1" = _n8XC6kT0;
-        "default" = _n8XC6kT0;
+        "pkg-forge-1.20.1-4.0.0" = _jfnKcZH0;
+        "pkg-fabric-1.20.1-4.0.0" = _xAHpKvsp;
+        "pkg-neo-1.21.1-4.0.0" = _CuC8L52b;
+        "pkg-fabric-1.21.1-4.0.0" = _zUmG9PhD;
+        "pkg-neo-26.1-4.0.0" = _6eeJ0xFC;
+        "pkg-fabric-26.1-4.0.0" = _UOUQAhv0;
+        "pkg-neo-26.2-4.0.0" = _evubwfSx;
+        "pkg-fabric-26.2-4.0.0" = _MFOPelwq;
+        "default" = _MFOPelwq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tiny-multiblock-lib";

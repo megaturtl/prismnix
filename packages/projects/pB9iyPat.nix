@@ -151,6 +151,31 @@ let
             "file" = "warriorcats_events-forge-1.20.1-1.11.0.jar";
             "hash" = "sha512-NEdIeJqdBYVWiYnxQtBeKYK3DRuKMP3PTnBdxxqGkkpF7tBasJwMvDBjVHtPSB5gfzra/ptf05a99V3yr8Corw==";
         };
+        _KowWuuMq = {
+            "id" = "KowWuuMq";
+            "file" = "warriorcats_events-neoforge-1.21.1-1.12.0.jar";
+            "hash" = "sha512-DbM2uAPTEyyVGqMCcZYKSq6wQf75/+hEsqlDy/ufrQTkFaf5oyVZ19RvuNOfK/3Z34HwCgV0edaiHxGxVSscDg==";
+        };
+        _lhQkGqQ5 = {
+            "id" = "lhQkGqQ5";
+            "file" = "warriorcats_events-forge-1.20.1-1.12.0.jar";
+            "hash" = "sha512-m6+3eZRoBSiyqrWXN9OEKlvvXvk73f/aZAHpoLhFdeJoWys4BcFdkqu4bi6lbI4Lu07XbB8jop+zb01v1I1NQw==";
+        };
+        _IyNeJFsV = {
+            "id" = "IyNeJFsV";
+            "file" = "warriorcats_events-neoforge-1.21.1-1.12.1.jar";
+            "hash" = "sha512-2pDl1jfIi6gblefUdSgHtzpQh4msqt9kmrxIDYMwxCL5TGwkA2Ef8MKLnPAxi1wQ1dkVqFnxQEPGgjYDOsD31A==";
+        };
+        _S4s1eBJm = {
+            "id" = "S4s1eBJm";
+            "file" = "warriorcats_events-forge-1.20.1-1.12.2.jar";
+            "hash" = "sha512-3PZpGSlS9S+1lzNhOPJXmzA51EqcCKzAoUBwcsTdh1Ev+hi7aPjcfDlAMzzP/eb3ok+zvffrJbbX6cCE90eqdg==";
+        };
+        _k7zJS6Qi = {
+            "id" = "k7zJS6Qi";
+            "file" = "warriorcats_events-neoforge-1.21.1-1.12.2.jar";
+            "hash" = "sha512-MtiXr6MT3ZzINBFst5j28dG6PwlR4mQDL1VydtVxdtyAtTDNj3mMJVqUTSdnHZfVFu/5rU04n+u7XLGTkpbPnw==";
+        };
     in {
         "Lw3gjJCH" = _Lw3gjJCH;
         "IDoNfYBw" = _IDoNfYBw;
@@ -182,8 +207,13 @@ let
         "JPza37ls" = _JPza37ls;
         "SYTR2Vod" = _SYTR2Vod;
         "b1br9HbD" = _b1br9HbD;
-        "forge-1.20.1" = _b1br9HbD;
-        "neoforge-1.21.1" = _SYTR2Vod;
+        "KowWuuMq" = _KowWuuMq;
+        "lhQkGqQ5" = _lhQkGqQ5;
+        "IyNeJFsV" = _IyNeJFsV;
+        "S4s1eBJm" = _S4s1eBJm;
+        "k7zJS6Qi" = _k7zJS6Qi;
+        "forge-1.20.1" = _S4s1eBJm;
+        "neoforge-1.21.1" = _k7zJS6Qi;
         "pkg-1.0.1" = _Lw3gjJCH;
         "pkg-1.0.2" = _IDoNfYBw;
         "pkg-1.1.0" = _1YzwdE6Q;
@@ -211,7 +241,10 @@ let
         "pkg-1.9.3" = _r5SVEoqs;
         "pkg-1.10.0" = _JPza37ls;
         "pkg-1.11.0" = _b1br9HbD;
-        "default" = _b1br9HbD;
+        "pkg-1.12.0" = _lhQkGqQ5;
+        "pkg-1.12.1" = _IyNeJFsV;
+        "pkg-1.12.2" = _k7zJS6Qi;
+        "default" = _k7zJS6Qi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "warrior-cats-events";

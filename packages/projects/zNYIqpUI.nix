@@ -16,15 +16,22 @@ let
             "file" = "phgirl-1.0.3-forge-1.20.1.jar";
             "hash" = "sha512-QEI+a1X4gmEA1oO0R+bybr1xTXlax3/kI0Y/hY8TnqJr+rYqLl+a6KK2+sH8YMoS9t+s8kjey/PtyBZ85eBvDQ==";
         };
+        _Pf8iaBSK = {
+            "id" = "Pf8iaBSK";
+            "file" = "phgirl-1.0.4-forge-1.20.1.jar";
+            "hash" = "sha512-7x35d1LpGVwy+aFT0ZVD1xcVVVY2jtt0r4f0jBrRqCz0IlgNJ3AoU18uLtN+Z+YxDNrnfiC39/vRXC9s9wOIuA==";
+        };
     in {
         "USlK5MKK" = _USlK5MKK;
         "B8MkGkn0" = _B8MkGkn0;
         "Kpp3areM" = _Kpp3areM;
-        "forge-1.20.1" = _Kpp3areM;
+        "Pf8iaBSK" = _Pf8iaBSK;
+        "forge-1.20.1" = _Pf8iaBSK;
         "pkg-1.0.1" = _USlK5MKK;
         "pkg-1.0.2" = _B8MkGkn0;
         "pkg-1.0.3" = _Kpp3areM;
-        "default" = _Kpp3areM;
+        "pkg-1.0.4" = _Pf8iaBSK;
+        "default" = _Pf8iaBSK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "proto-hivemind-girl";

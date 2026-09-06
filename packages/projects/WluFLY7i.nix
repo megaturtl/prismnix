@@ -26,12 +26,18 @@ let
             "file" = "mc-fix-hardcoded-lava-level-1.2.2.jar";
             "hash" = "sha512-hpz8thO3rU0ojOwxqXlb6Io8wBgbVGZl5zTNiG//z2wSdEujPIR2lj3ZF9w9xDlG7BAg7K0zq7ghlcGZKJONqA==";
         };
+        _cVF0A5RV = {
+            "id" = "cVF0A5RV";
+            "file" = "mc-fix-hardcoded-lava-level-1.3.0.jar";
+            "hash" = "sha512-B3G/Cq7WhV9CSxm36emG0Lo6bsNUX9QVxMp+6Xu2tHTs6H97RsHwVgYltguAcJthO1DUogcVEnmCYmO16BaF0g==";
+        };
     in {
         "TLlILAEd" = _TLlILAEd;
         "Q0k0ScLs" = _Q0k0ScLs;
         "5o98QfYR" = _5o98QfYR;
         "T4QCDRec" = _T4QCDRec;
         "Bh3nSw2L" = _Bh3nSw2L;
+        "cVF0A5RV" = _cVF0A5RV;
         "fabric-1.19.3" = _T4QCDRec;
         "fabric-1.19.4" = _T4QCDRec;
         "fabric-1.20" = _T4QCDRec;
@@ -54,12 +60,14 @@ let
         "fabric-1.21.9" = _T4QCDRec;
         "fabric-1.21.10" = _T4QCDRec;
         "fabric-26.1.2" = _Bh3nSw2L;
+        "fabric-26.2" = _cVF0A5RV;
         "pkg-1.0.0" = _TLlILAEd;
         "pkg-1.1.0" = _Q0k0ScLs;
         "pkg-1.2.0" = _5o98QfYR;
         "pkg-1.2.1" = _T4QCDRec;
         "pkg-1.2.2" = _Bh3nSw2L;
-        "default" = _Bh3nSw2L;
+        "pkg-1.3.0" = _cVF0A5RV;
+        "default" = _cVF0A5RV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mc-fix-hardcoded-lava-level";

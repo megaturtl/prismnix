@@ -136,6 +136,26 @@ let
             "file" = "energizedpowerfd-3.0.0-beta.8+1.21.1-neoforge.jar";
             "hash" = "sha512-pgb7g0O9oUqfPpiA0xFXFVLzvQuErYWZvHmwrsSm15PCB5OmagaPMv9x4tKtL4gyn8QsOExXKiOtvVeb7r+lpQ==";
         };
+        _7HMz6W5O = {
+            "id" = "7HMz6W5O";
+            "file" = "energizedpowerfd-3.0.0+1.21.1-fabric.jar";
+            "hash" = "sha512-9CUpyZYXBx2OL4Pdrku5sadtethE0wEAIUB4+XLorZmRUXxRn9yz34qLHKxEkdg8EeWPEDcT2g8uJ0qmum5DXA==";
+        };
+        _cmHyU5Xo = {
+            "id" = "cmHyU5Xo";
+            "file" = "energizedpowerfd-3.0.0+26.1.x-fabric.jar";
+            "hash" = "sha512-Iebs/pOts5QsA+WsePPi3nNNlClYu0HPTXgRUIQU744qZJGKf6LUpmFG95oVAW3piyNJXiXG07hGUPtcDgGqiw==";
+        };
+        _RiUdFdEp = {
+            "id" = "RiUdFdEp";
+            "file" = "energizedpowerfd-3.0.0+26.2.x-fabric.jar";
+            "hash" = "sha512-8CF5oVnF/DZu/VKb5yZYRh5c8P5ZUXcBvnttx8sBgiFjSJF6VbHOzKOU5QQ8b6Lr1SZT+q6n5Gf0t6k73YT/6A==";
+        };
+        _BJBEaaWO = {
+            "id" = "BJBEaaWO";
+            "file" = "energizedpowerfd-3.0.0+1.21.1-neoforge.jar";
+            "hash" = "sha512-jQk+nQS7+2/FDI0Il5d5Uh+/77dv8HuWYexuu+wY3zZJYYF8i206sFSbKvEFHE4mNi6kd6/CtIs204qDkq/DfQ==";
+        };
     in {
         "xP5sN9lh" = _xP5sN9lh;
         "ww431Ime" = _ww431Ime;
@@ -164,16 +184,20 @@ let
         "mzCs3Wqu" = _mzCs3Wqu;
         "RcxIqTyZ" = _RcxIqTyZ;
         "DHYG4smm" = _DHYG4smm;
-        "neoforge-1.21.1" = _DHYG4smm;
+        "7HMz6W5O" = _7HMz6W5O;
+        "cmHyU5Xo" = _cmHyU5Xo;
+        "RiUdFdEp" = _RiUdFdEp;
+        "BJBEaaWO" = _BJBEaaWO;
+        "neoforge-1.21.1" = _BJBEaaWO;
         "neoforge-1.20.1" = _IoAw12Lt;
-        "fabric-1.21.1" = _8TnX5EnK;
+        "fabric-1.21.1" = _7HMz6W5O;
         "fabric-1.20.1" = _4kEDmdxr;
         "fabric-1.21.10" = _jsQraIkc;
         "fabric-1.21.11" = _GGDd4Ep6;
-        "fabric-26.1" = _mzCs3Wqu;
-        "fabric-26.1.1" = _mzCs3Wqu;
-        "fabric-26.1.2" = _mzCs3Wqu;
-        "fabric-26.2" = _RcxIqTyZ;
+        "fabric-26.1" = _cmHyU5Xo;
+        "fabric-26.1.1" = _cmHyU5Xo;
+        "fabric-26.1.2" = _cmHyU5Xo;
+        "fabric-26.2" = _RiUdFdEp;
         "forge-1.20.1" = _IoAw12Lt;
         "pkg-1.21.1-1.0.0-neoforge" = _xP5sN9lh;
         "pkg-1.21.1-1.0.0-fabric" = _ww431Ime;
@@ -202,7 +226,11 @@ let
         "pkg-3.0.0-beta.8+26.1.x-fabric" = _mzCs3Wqu;
         "pkg-3.0.0-beta.8+26.2.x-fabric" = _RcxIqTyZ;
         "pkg-3.0.0-beta.8+1.21.1-neoforge" = _DHYG4smm;
-        "default" = _DHYG4smm;
+        "pkg-3.0.0+1.21.1-fabric" = _7HMz6W5O;
+        "pkg-3.0.0+26.1.x-fabric" = _cmHyU5Xo;
+        "pkg-3.0.0+26.2.x-fabric" = _RiUdFdEp;
+        "pkg-3.0.0+1.21.1-neoforge" = _BJBEaaWO;
+        "default" = _BJBEaaWO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "energized-power-fd";

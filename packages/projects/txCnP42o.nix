@@ -11,13 +11,20 @@ let
             "file" = "Fresh Skybox.zip";
             "hash" = "sha512-UrpnGlzhL7lW4OFrlLryXlnlw0/wCRKbyCjSwDlxbCcsHnjSGYnKp88dzuMPWsw/SkzLGjgkA0AT+uy63Mfzlw==";
         };
+        _liAaHxHu = {
+            "id" = "liAaHxHu";
+            "file" = "Fresh Skybox.zip";
+            "hash" = "sha512-cKtcqcWaTAbO5s84wV8ySbUF8r5ffnan4ot75YWJxlvlHg9UZyfIvQv5cpwWWE6vHiwn/BL6MGBwu4MSZDBDXA==";
+        };
     in {
         "e65zjV97" = _e65zjV97;
         "jWvPwAWA" = _jWvPwAWA;
-        "minecraft-1.21.1" = _jWvPwAWA;
+        "liAaHxHu" = _liAaHxHu;
+        "minecraft-1.21.1" = _liAaHxHu;
         "pkg-Nuit-v1" = _e65zjV97;
         "pkg-Nuit-v1.1" = _jWvPwAWA;
-        "default" = _jWvPwAWA;
+        "pkg-Nuit-v1.2" = _liAaHxHu;
+        "default" = _liAaHxHu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fresh-skybox";

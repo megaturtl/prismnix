@@ -21,11 +21,17 @@ let
             "file" = "multidisplayfix-26.1-0.3.0.jar";
             "hash" = "sha512-Ea6FHJPS3qjkz9puVGaNxD3FzZtfJvWKFbceRb3d0mwQ6J1Yd2ku3brdL/4fzL/O8rDiKWvbrH8S8Bpz0i66dQ==";
         };
+        _BmJX46iR = {
+            "id" = "BmJX46iR";
+            "file" = "multidisplayfix-26.2-0.4.0.jar";
+            "hash" = "sha512-oEznOIR5QO9Ki8sqX36Y4URhflbK4+zv5BJ6D77TGIynD+Xz++Eu+ClnmqI/IcPrPqQsgfQn6Xxts04HUN8YBA==";
+        };
     in {
         "uLXZWshi" = _uLXZWshi;
         "VsUbHIXQ" = _VsUbHIXQ;
         "RmOfl1n0" = _RmOfl1n0;
         "RT8Gxnrj" = _RT8Gxnrj;
+        "BmJX46iR" = _BmJX46iR;
         "fabric-1.21.4" = _RmOfl1n0;
         "fabric-1.21.1" = _RmOfl1n0;
         "fabric-1.21.2" = _RmOfl1n0;
@@ -40,10 +46,12 @@ let
         "fabric-26.1" = _RT8Gxnrj;
         "fabric-26.1.1" = _RT8Gxnrj;
         "fabric-26.1.2" = _RT8Gxnrj;
+        "fabric-26.2" = _BmJX46iR;
         "pkg-0.1.0" = _VsUbHIXQ;
         "pkg-0.2.0" = _RmOfl1n0;
         "pkg-0.3.0" = _RT8Gxnrj;
-        "default" = _RT8Gxnrj;
+        "pkg-0.4.0" = _BmJX46iR;
+        "default" = _BmJX46iR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "multidisplayfix";

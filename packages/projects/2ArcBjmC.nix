@@ -76,6 +76,16 @@ let
             "file" = "villager_retaliation-neoforge-1.21.1-1.0.0-beta.12-hotfix.2.jar";
             "hash" = "sha512-SloK6/EBLQfo+2m70k556tMvoUHRhSbw39KYApER2LQ6xwXZB+yOt3l1ROG27MMfsVJ+L6Ft9b2mhUvIMl2F3Q==";
         };
+        _O7T3ZeIo = {
+            "id" = "O7T3ZeIo";
+            "file" = "villager_retaliation-neoforge-1.21.1-1.0.0-beta.13.jar";
+            "hash" = "sha512-JBQNQjbNgIrX/IKVxtjHgsH58yUiyKYiQC0xTGqHmb+dDmdj7rgPYuBk/+OQXdZMGUX0fgm84j2gcOdsF9uIMQ==";
+        };
+        _YzZjCP1E = {
+            "id" = "YzZjCP1E";
+            "file" = "villager_retaliation-neoforge-1.21.1-1.0.0-beta.13-hotfix.1.jar";
+            "hash" = "sha512-QwVy/H202hVglveEs7VxVVICmThTAxnCfW5CJYow4SFRCPCCkBONbtBHLOfvRNT/aNbHKRPypxKiDie4UfrnVA==";
+        };
     in {
         "C0ZT8MjQ" = _C0ZT8MjQ;
         "ACpedTom" = _ACpedTom;
@@ -92,7 +102,9 @@ let
         "mJSGLIrd" = _mJSGLIrd;
         "XlPYPHGM" = _XlPYPHGM;
         "SGWvoBnC" = _SGWvoBnC;
-        "neoforge-1.21.1" = _SGWvoBnC;
+        "O7T3ZeIo" = _O7T3ZeIo;
+        "YzZjCP1E" = _YzZjCP1E;
+        "neoforge-1.21.1" = _YzZjCP1E;
         "pkg-1.0.0-beta.1" = _C0ZT8MjQ;
         "pkg-1.0.0-beta.2" = _ACpedTom;
         "pkg-1.0.0-beta.3" = _MJ24LLze;
@@ -108,7 +120,9 @@ let
         "pkg-1.0.0-beta.12" = _mJSGLIrd;
         "pkg-1.0.0-beta.12-hotfix.1" = _XlPYPHGM;
         "pkg-1.0.0-beta.12-hotfix.2" = _SGWvoBnC;
-        "default" = _SGWvoBnC;
+        "pkg-1.0.0-beta.13" = _O7T3ZeIo;
+        "pkg-1.0.0-beta.13-hotfix.1" = _YzZjCP1E;
+        "default" = _YzZjCP1E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villager-retaliation";

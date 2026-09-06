@@ -81,6 +81,26 @@ let
             "file" = "Armageddon for Neoforge 1.21.1 (v3.0.04) - Polished.jar";
             "hash" = "sha512-Rw3ccamGmE8AuHAjq/8U8o/rt6XQ9tTRNoEkrUQ/YnP7vhJDZgDPshu1zX+Oci0r3KsXPsZ4mCSHuU1yV4q9bg==";
         };
+        _xopu2NLc = {
+            "id" = "xopu2NLc";
+            "file" = "Armageddon for 1.20.1 (v3.0.06) - Polished.jar";
+            "hash" = "sha512-CG2BgPtUCOPBMk2ODIhxrf4vlR8DgOENkoVMIbIw024xaigu0weaop2zZ90it/TKysaXbGzW9cbOPQsITCyYUg==";
+        };
+        _Z0JrlPcD = {
+            "id" = "Z0JrlPcD";
+            "file" = "Armageddon for Neoforge 1.21.1 (v3.0.06) - Polished.jar";
+            "hash" = "sha512-yq6eElF0GdpWIaCWkdfBzsgRbqKbcuxwCpuS1aej1iWcEpCc/mvQgaMfD7n5G1x+ztOM5+VK4DUEkPBp+ThnRw==";
+        };
+        _RBafGQnQ = {
+            "id" = "RBafGQnQ";
+            "file" = "Armageddon for 1.20.1 (v3.0.07) - Polished.jar";
+            "hash" = "sha512-fX7+uV4+Qb/7RuhnVNu7WLvS9k0wUyNl5KpB6xyeDTkypP4dmYfGe4GCezvdCoYEKbiEf4ERkLwgu87WYUBflA==";
+        };
+        _rVIl8NYc = {
+            "id" = "rVIl8NYc";
+            "file" = "Armageddon for Neoforge 1.21.1 (v3.0.07) - Polished.jar";
+            "hash" = "sha512-+iUdQ6CwgnqT+f88hs0kBa+79YdYWiOAOVPRe+rcEnN6t31J3wgIugxSDngCcqFHtyqxkMo+ngvdQGP7PqM7wA==";
+        };
     in {
         "LKvhK3Ot" = _LKvhK3Ot;
         "9DsQX5om" = _9DsQX5om;
@@ -98,8 +118,12 @@ let
         "Q8TYpDYK" = _Q8TYpDYK;
         "adCobbfn" = _adCobbfn;
         "WpjqlwCo" = _WpjqlwCo;
-        "forge-1.20.1" = _adCobbfn;
-        "neoforge-1.21.1" = _WpjqlwCo;
+        "xopu2NLc" = _xopu2NLc;
+        "Z0JrlPcD" = _Z0JrlPcD;
+        "RBafGQnQ" = _RBafGQnQ;
+        "rVIl8NYc" = _rVIl8NYc;
+        "forge-1.20.1" = _RBafGQnQ;
+        "neoforge-1.21.1" = _rVIl8NYc;
         "pkg-0.1.5" = _LKvhK3Ot;
         "pkg-1.5.2" = _9DsQX5om;
         "pkg-1.5.3" = _6DKShyOK;
@@ -114,7 +138,9 @@ let
         "pkg-v3.0.01" = _B4jSXkXq;
         "pkg-v3.0.03" = _Q8TYpDYK;
         "pkg-v3.0.04" = _WpjqlwCo;
-        "default" = _WpjqlwCo;
+        "pkg-3.0.06" = _Z0JrlPcD;
+        "pkg-v3.0.07" = _rVIl8NYc;
+        "default" = _rVIl8NYc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armageddon";

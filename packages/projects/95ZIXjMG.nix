@@ -26,14 +26,20 @@ let
             "file" = "HumanPlayerMobs[1.21.11-4.6].zip";
             "hash" = "sha512-5LtnHmqbjb39EtXidHSzGU2M7NC57TDYffOLN4BWWLd7l/QHj/UNoPjytDwe02v/gqXa3580PhUDO6NjbxzA+g==";
         };
+        _qoGeaRuC = {
+            "id" = "qoGeaRuC";
+            "file" = "HumanPlayerMobs[4.7].zip";
+            "hash" = "sha512-mGNtyWBH72Rk6n020N0i3VMtGiVsPS4lwuARkvO9jIIguuIeL1xbcU3gd0eVZD3iRWGCBHBYx1JMGO9+3HRoGg==";
+        };
     in {
         "cszDiNBe" = _cszDiNBe;
         "zLY9WI0U" = _zLY9WI0U;
         "DXXFMZF2" = _DXXFMZF2;
         "6M0HYdDq" = _6M0HYdDq;
         "RuLVMZ30" = _RuLVMZ30;
+        "qoGeaRuC" = _qoGeaRuC;
         "minecraft-1.20" = _RuLVMZ30;
-        "minecraft-1.20.1" = _RuLVMZ30;
+        "minecraft-1.20.1" = _qoGeaRuC;
         "minecraft-1.20.2" = _RuLVMZ30;
         "minecraft-1.20.3" = _RuLVMZ30;
         "minecraft-1.20.4" = _RuLVMZ30;
@@ -95,18 +101,27 @@ let
         "minecraft-24w44a" = _DXXFMZF2;
         "minecraft-24w45a" = _DXXFMZF2;
         "minecraft-24w46a" = _DXXFMZF2;
-        "minecraft-1.21.11" = _RuLVMZ30;
-        "minecraft-1.19" = _RuLVMZ30;
-        "minecraft-1.19.1" = _RuLVMZ30;
-        "minecraft-1.19.2" = _RuLVMZ30;
-        "minecraft-1.19.3" = _RuLVMZ30;
-        "minecraft-1.19.4" = _RuLVMZ30;
+        "minecraft-1.21.11" = _qoGeaRuC;
+        "minecraft-1.19" = _qoGeaRuC;
+        "minecraft-1.19.1" = _qoGeaRuC;
+        "minecraft-1.19.2" = _qoGeaRuC;
+        "minecraft-1.19.3" = _qoGeaRuC;
+        "minecraft-1.19.4" = _qoGeaRuC;
+        "minecraft-1.16.5" = _qoGeaRuC;
+        "minecraft-1.18" = _qoGeaRuC;
+        "minecraft-1.18.1" = _qoGeaRuC;
+        "minecraft-1.18.2" = _qoGeaRuC;
+        "minecraft-26.1" = _qoGeaRuC;
+        "minecraft-26.1.1" = _qoGeaRuC;
+        "minecraft-26.1.2" = _qoGeaRuC;
+        "minecraft-26.2" = _qoGeaRuC;
         "pkg-4.2" = _cszDiNBe;
         "pkg-4.3" = _zLY9WI0U;
         "pkg-4.4" = _DXXFMZF2;
         "pkg-4.5" = _6M0HYdDq;
         "pkg-4.6" = _RuLVMZ30;
-        "default" = _RuLVMZ30;
+        "pkg-4.7" = _qoGeaRuC;
+        "default" = _qoGeaRuC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "human-player-mobs";

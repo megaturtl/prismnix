@@ -76,6 +76,11 @@ let
             "file" = "LynxArt Texture Pack.zip";
             "hash" = "sha512-iSHzo6vCu9T4FFhXh0sF/ApNGvFkFSwSKNXCpaU1jHbF+q/mMCWdmurpYFefGwaJJg8fuI/AaPj4VX5J3MRR1Q==";
         };
+        _c4k8jlkI = {
+            "id" = "c4k8jlkI";
+            "file" = "LynxArt Texture Pack.zip";
+            "hash" = "sha512-Ea1B38Bj98CKRFfiJ4VPOytKX54K8fe80582UowMI7cAPZ/Vwrz7gtUDKt8bb3QSDD/rFeKxR6D3v9fFYceXeQ==";
+        };
     in {
         "KxUDrxWJ" = _KxUDrxWJ;
         "4SOjhZw7" = _4SOjhZw7;
@@ -92,10 +97,11 @@ let
         "3Tm8rZ25" = _3Tm8rZ25;
         "Bp9f34vc" = _Bp9f34vc;
         "4gyV3TbP" = _4gyV3TbP;
+        "c4k8jlkI" = _c4k8jlkI;
         "minecraft-1.20.1" = _4gyV3TbP;
-        "minecraft-1.20" = _4gyV3TbP;
+        "minecraft-1.20" = _c4k8jlkI;
         "minecraft-1.20.4" = _Za5IygSK;
-        "minecraft-1.21" = _3Tm8rZ25;
+        "minecraft-1.21" = _c4k8jlkI;
         "minecraft-1.20.2" = _Za5IygSK;
         "minecraft-1.20.3" = _Za5IygSK;
         "minecraft-1.20.5" = _Za5IygSK;
@@ -108,7 +114,9 @@ let
         "minecraft-1.21.6" = _3Tm8rZ25;
         "minecraft-1.21.7" = _3Tm8rZ25;
         "minecraft-1.21.8" = _4gyV3TbP;
-        "minecraft-1.21.11" = _Bp9f34vc;
+        "minecraft-1.21.11" = _c4k8jlkI;
+        "minecraft-26.1.2" = _c4k8jlkI;
+        "minecraft-26.2" = _c4k8jlkI;
         "pkg-1.01" = _KxUDrxWJ;
         "pkg-1.02" = _4SOjhZw7;
         "pkg-2405" = _UxfcRDJQ;
@@ -124,7 +132,8 @@ let
         "pkg-2509" = _3Tm8rZ25;
         "pkg-2512" = _Bp9f34vc;
         "pkg-2606" = _4gyV3TbP;
-        "default" = _4gyV3TbP;
+        "pkg-2607" = _c4k8jlkI;
+        "default" = _c4k8jlkI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lynxart-texture-pack";

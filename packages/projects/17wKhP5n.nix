@@ -886,6 +886,11 @@ let
             "file" = "Origins-Reborn-2.10.10-all.jar";
             "hash" = "sha512-amwqu5QNvbpJBgwOCpAh7Zy8ddVSDW58+DDSadpXzKscHbm1ayM5TMqtTZ6i0MZ0iTd4xOwH9SmGhfsNbBITMw==";
         };
+        _XneO23OF = {
+            "id" = "XneO23OF";
+            "file" = "Origins-Reborn-2.10.11-all.jar";
+            "hash" = "sha512-2adD5EhGTrQoDHBCrhV192lsHf8EcDKsGNF64mBT5bmcOien5JFx+JFCwRaodgDQ6hcnBws30T2njfHUaL2ghw==";
+        };
     in {
         "97CQmErF" = _97CQmErF;
         "xgmL9cWS" = _xgmL9cWS;
@@ -1064,6 +1069,7 @@ let
         "btdrabMb" = _btdrabMb;
         "X7Y11WxP" = _X7Y11WxP;
         "B8C0YAzv" = _B8C0YAzv;
+        "XneO23OF" = _XneO23OF;
         "paper-1.20.2" = _X7Y11WxP;
         "paper-1.20.4" = _X7Y11WxP;
         "paper-1.20" = _X7Y11WxP;
@@ -1083,17 +1089,14 @@ let
         "paper-1.21.3" = _X7Y11WxP;
         "paper-1.18.1" = _X7Y11WxP;
         "paper-1.21.4" = _X7Y11WxP;
-        "paper-1.21.5" = _B8C0YAzv;
-        "paper-1.21.6" = _B8C0YAzv;
-        "paper-1.21.7" = _B8C0YAzv;
-        "paper-1.21.8" = _B8C0YAzv;
-        "paper-1.21.9" = _B8C0YAzv;
-        "paper-1.21.10" = _B8C0YAzv;
-        "paper-1.21.11" = _B8C0YAzv;
-        "paper-26.1" = _B8C0YAzv;
-        "paper-26.1.1" = _B8C0YAzv;
-        "paper-26.1.2" = _B8C0YAzv;
-        "paper-26.2" = _B8C0YAzv;
+        "paper-1.21.5" = _X7Y11WxP;
+        "paper-1.21.6" = _X7Y11WxP;
+        "paper-1.21.7" = _X7Y11WxP;
+        "paper-1.21.8" = _X7Y11WxP;
+        "paper-1.21.9" = _X7Y11WxP;
+        "paper-1.21.10" = _X7Y11WxP;
+        "paper-1.21.11" = _X7Y11WxP;
+        "paper-26.2" = _XneO23OF;
         "purpur-1.20.2" = _X7Y11WxP;
         "purpur-1.20.4" = _X7Y11WxP;
         "purpur-1.20" = _X7Y11WxP;
@@ -1113,17 +1116,14 @@ let
         "purpur-1.21.3" = _X7Y11WxP;
         "purpur-1.18.1" = _X7Y11WxP;
         "purpur-1.21.4" = _X7Y11WxP;
-        "purpur-1.21.5" = _B8C0YAzv;
-        "purpur-1.21.6" = _B8C0YAzv;
-        "purpur-1.21.7" = _B8C0YAzv;
-        "purpur-1.21.8" = _B8C0YAzv;
-        "purpur-1.21.9" = _B8C0YAzv;
-        "purpur-1.21.10" = _B8C0YAzv;
-        "purpur-1.21.11" = _B8C0YAzv;
-        "purpur-26.1" = _B8C0YAzv;
-        "purpur-26.1.1" = _B8C0YAzv;
-        "purpur-26.1.2" = _B8C0YAzv;
-        "purpur-26.2" = _B8C0YAzv;
+        "purpur-1.21.5" = _X7Y11WxP;
+        "purpur-1.21.6" = _X7Y11WxP;
+        "purpur-1.21.7" = _X7Y11WxP;
+        "purpur-1.21.8" = _X7Y11WxP;
+        "purpur-1.21.9" = _X7Y11WxP;
+        "purpur-1.21.10" = _X7Y11WxP;
+        "purpur-1.21.11" = _X7Y11WxP;
+        "purpur-26.2" = _XneO23OF;
         "pkg-1.0.0" = _97CQmErF;
         "pkg-2.0.0" = _xgmL9cWS;
         "pkg-2.0.1" = _HeQxLiyA;
@@ -1301,7 +1301,8 @@ let
         "pkg-2.10.8" = _btdrabMb;
         "pkg-2.10.9" = _X7Y11WxP;
         "pkg-2.10.10" = _B8C0YAzv;
-        "default" = _B8C0YAzv;
+        "pkg-2.10.11" = _XneO23OF;
+        "default" = _XneO23OF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "origins-reborn";

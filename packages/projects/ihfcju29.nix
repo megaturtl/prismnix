@@ -77,8 +77,11 @@ let
         "minecraft-1.21.11" = _HPlfLvt9;
         "minecraft-26.1" = _HPlfLvt9;
         "minecraft-26.1.1" = _HPlfLvt9;
+        "minecraft-26.1.2" = _HPlfLvt9;
+        "minecraft-26.2" = _HPlfLvt9;
         "pkg-1.0nl" = _cRZyFqiU;
         "pkg-1.0" = _H7I8aEbv;
+        "pkg-1.1nl" = _QBVCMJkW;
         "pkg-1.1" = _HPlfLvt9;
         "default" = _HPlfLvt9;
     });

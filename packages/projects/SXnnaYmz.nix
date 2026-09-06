@@ -111,6 +111,16 @@ let
             "file" = "expanded-axe-enchantings-1.10.jar";
             "hash" = "sha512-1JllYeASbXi9eXo0RRJkdBMA8SKi/HERPBf5zinQmnUBXVfzyZWKeYq1jtOWmHxkglZOyBAvr7GqnQFr52kbmA==";
         };
+        _VsGZRRb7 = {
+            "id" = "VsGZRRb7";
+            "file" = "Expanded Axe Enchanting 26.2.zip";
+            "hash" = "sha512-HvcBaYxP5Rb+gjFjQZLhsG5LXBZPxsYbSJKULa8kMKmiQQu8pS2G0xuAiGV13RefLbOK8h57Iubl/T43ZsC4tA==";
+        };
+        _kZqykVhV = {
+            "id" = "kZqykVhV";
+            "file" = "expanded-axe-enchantings-1.11.jar";
+            "hash" = "sha512-4tJnGi5x875Fty9mTfBifuNmqfnn2X6JxPOExDcSx915zYX131tqeFJbV0Rst/1yARrfcUf83XwBIfXsp0MMgg==";
+        };
     in {
         "rtngmdBu" = _rtngmdBu;
         "5iLJSb4U" = _5iLJSb4U;
@@ -134,6 +144,8 @@ let
         "5v5ss5yj" = _5v5ss5yj;
         "QoprjQRJ" = _QoprjQRJ;
         "gylI2Z8n" = _gylI2Z8n;
+        "VsGZRRb7" = _VsGZRRb7;
+        "kZqykVhV" = _kZqykVhV;
         "datapack-1.21" = _rtngmdBu;
         "datapack-1.21.1" = _rtngmdBu;
         "datapack-1.21.2" = _9YvwShyR;
@@ -149,6 +161,7 @@ let
         "datapack-26.1" = _QoprjQRJ;
         "datapack-26.1.1" = _QoprjQRJ;
         "datapack-26.1.2" = _QoprjQRJ;
+        "datapack-26.2" = _VsGZRRb7;
         "fabric-1.21" = _5iLJSb4U;
         "fabric-1.21.1" = _5iLJSb4U;
         "fabric-1.21.2" = _MfOchnik;
@@ -164,6 +177,7 @@ let
         "fabric-26.1" = _gylI2Z8n;
         "fabric-26.1.1" = _gylI2Z8n;
         "fabric-26.1.2" = _gylI2Z8n;
+        "fabric-26.2" = _kZqykVhV;
         "forge-1.21" = _5iLJSb4U;
         "forge-1.21.1" = _5iLJSb4U;
         "forge-1.21.2" = _MfOchnik;
@@ -179,6 +193,7 @@ let
         "forge-26.1" = _gylI2Z8n;
         "forge-26.1.1" = _gylI2Z8n;
         "forge-26.1.2" = _gylI2Z8n;
+        "forge-26.2" = _kZqykVhV;
         "neoforge-1.21" = _5iLJSb4U;
         "neoforge-1.21.1" = _5iLJSb4U;
         "neoforge-1.21.2" = _MfOchnik;
@@ -194,6 +209,7 @@ let
         "neoforge-26.1" = _gylI2Z8n;
         "neoforge-26.1.1" = _gylI2Z8n;
         "neoforge-26.1.2" = _gylI2Z8n;
+        "neoforge-26.2" = _kZqykVhV;
         "quilt-1.21" = _5iLJSb4U;
         "quilt-1.21.1" = _5iLJSb4U;
         "quilt-1.21.2" = _MfOchnik;
@@ -209,6 +225,7 @@ let
         "quilt-26.1" = _gylI2Z8n;
         "quilt-26.1.1" = _gylI2Z8n;
         "quilt-26.1.2" = _gylI2Z8n;
+        "quilt-26.2" = _kZqykVhV;
         "pkg-1.0" = _rtngmdBu;
         "pkg-1.0.1+mod" = _5iLJSb4U;
         "pkg-1.1" = _9YvwShyR;
@@ -231,7 +248,9 @@ let
         "pkg-1.9.1+mod" = _5v5ss5yj;
         "pkg-1.10" = _QoprjQRJ;
         "pkg-1.10.1+mod" = _gylI2Z8n;
-        "default" = _gylI2Z8n;
+        "pkg-1.11" = _VsGZRRb7;
+        "pkg-1.11.1+mod" = _kZqykVhV;
+        "default" = _kZqykVhV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "expanded-axe-enchantings";

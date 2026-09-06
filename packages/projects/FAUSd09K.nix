@@ -96,6 +96,21 @@ let
             "file" = "flib-26.1.2-0.2.8.jar";
             "hash" = "sha512-lY97k9qrr1ccuuQh0l4TpMfeGZE/aicGVgQlACJj9gAGdIilvgI1ale6mYMUYc7cEvcNwTffbuMDR4P7AtJFXA==";
         };
+        _i46U23pv = {
+            "id" = "i46U23pv";
+            "file" = "flib-1.21.1-0.2.9.jar";
+            "hash" = "sha512-r1RaG/nbf/H0uZ0zrlaL31MF4Jc59a9AhILcBzGgTdUElLqrZnRHAXJodPggKrI9HG3fbQ1YDFR3mE9RzYb4KQ==";
+        };
+        _FTLOp4iO = {
+            "id" = "FTLOp4iO";
+            "file" = "flib-26.1.2-0.2.9.jar";
+            "hash" = "sha512-2Z4WtNZBRamw75x4Du+orR/LtD3pI0JSwKRrR9upDH6vTlC8Gv5TMS2UvHgm9RZU3w/czVDAUwV8ZnitsCXHzA==";
+        };
+        _qzXWEOPs = {
+            "id" = "qzXWEOPs";
+            "file" = "flib-26.1.2-0.2.10.jar";
+            "hash" = "sha512-8hxLSEs3klVzjB/ucdhKgoXt3uBWL1kuQbDpv+GYWdE42VuW2s0UIXZCQIDbzxKEprttQoSTQpbf6o/R55/wkQ==";
+        };
     in {
         "2KRI9zKW" = _2KRI9zKW;
         "AyDfPGqL" = _AyDfPGqL;
@@ -116,14 +131,17 @@ let
         "Ba1H0eUh" = _Ba1H0eUh;
         "CDihtEoy" = _CDihtEoy;
         "oYe1030V" = _oYe1030V;
+        "i46U23pv" = _i46U23pv;
+        "FTLOp4iO" = _FTLOp4iO;
+        "qzXWEOPs" = _qzXWEOPs;
         "forge-1.19.4" = _2KRI9zKW;
         "forge-1.20" = _AyDfPGqL;
         "forge-1.20.1" = _CDihtEoy;
         "forge-1.18.2" = _CAfOycla;
         "forge-1.19.2" = _U76oIwHC;
         "neoforge-1.20.1" = _CDihtEoy;
-        "neoforge-1.21.1" = _Ba1H0eUh;
-        "neoforge-26.1.2" = _oYe1030V;
+        "neoforge-1.21.1" = _i46U23pv;
+        "neoforge-26.1.2" = _qzXWEOPs;
         "pkg-1.19.4-0.0.4" = _2KRI9zKW;
         "pkg-1.20.1-0.0.5" = _AyDfPGqL;
         "pkg-1.20.1-0.0.14" = _Qv28YacJ;
@@ -143,7 +161,10 @@ let
         "pkg-1.21.1-0.2.8" = _Ba1H0eUh;
         "pkg-1.20.1-0.0.16" = _CDihtEoy;
         "pkg-26.1.2-0.2.8" = _oYe1030V;
-        "default" = _oYe1030V;
+        "pkg-1.21.1-0.2.9" = _i46U23pv;
+        "pkg-26.1.2-0.2.9" = _FTLOp4iO;
+        "pkg-26.1.2-0.2.10" = _qzXWEOPs;
+        "default" = _qzXWEOPs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flib";

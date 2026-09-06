@@ -21,17 +21,29 @@ let
             "file" = "playerrevive_compat-1.0.3-f4fdba6.jar";
             "hash" = "sha512-lZMjUFPOrWoi6IUK3kGdVvXA32vpBl2/nuIDcOKC+4QtA28lcr8LIoFNZM7SRMCxagAHvB1jECXvD/Dr2qK26Q==";
         };
+        _Gqkdgwuu = {
+            "id" = "Gqkdgwuu";
+            "file" = "playerrevive_compat-1.0.4-daf51f2.jar";
+            "hash" = "sha512-UIS73J73vu13G9m2EjxqS6S9ZXt9SUGy7BVceNsuk2X3Mzkm7xADGixm3Vq3ui9AigiMi9qxThxFFZvw30kNaw==";
+        };
     in {
         "1SasjMO0" = _1SasjMO0;
         "UN22uxxT" = _UN22uxxT;
         "KPgfEXO6" = _KPgfEXO6;
         "EDMqRnfK" = _EDMqRnfK;
-        "forge-1.20.1" = _EDMqRnfK;
+        "Gqkdgwuu" = _Gqkdgwuu;
+        "forge-1.20.1" = _Gqkdgwuu;
+        "forge-1.20.2" = _Gqkdgwuu;
+        "forge-1.20.3" = _Gqkdgwuu;
+        "forge-1.20.4" = _Gqkdgwuu;
+        "forge-1.20.5" = _Gqkdgwuu;
+        "forge-1.20.6" = _Gqkdgwuu;
         "pkg-1.0.0" = _1SasjMO0;
         "pkg-1.0.1" = _UN22uxxT;
         "pkg-1.0.2" = _KPgfEXO6;
         "pkg-1.0.3" = _EDMqRnfK;
-        "default" = _EDMqRnfK;
+        "pkg-1.0.4" = _Gqkdgwuu;
+        "default" = _Gqkdgwuu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "taczsbw-playerrevive-gun-mod-compitability";

@@ -411,6 +411,16 @@ let
             "file" = "thematic-heroes-1.20.1-1.0.7.jar";
             "hash" = "sha512-IsHkKaoPMOlvJ/Uy6J4vwMPjHCQi7ZbYkReryRPLF15c9rSZJW5sViY7mvlnFtCEMZ6bmXjQuwCxWx5w4mvfCA==";
         };
+        _rKulEY9K = {
+            "id" = "rKulEY9K";
+            "file" = "thematic-heroes-1.20.1-1.0.8.jar";
+            "hash" = "sha512-9RMIzJCUXQrjSXHtsaLMK7sL74f/oziKVaDhdi7xcWP5TEMjE6pl23fMAB/P7ZV3rFiruySMW4YwTVyc2kk6UQ==";
+        };
+        _UjoIFDMO = {
+            "id" = "UjoIFDMO";
+            "file" = "thematic-heroes-1.20.1-1.0.9.jar";
+            "hash" = "sha512-nNlRx+lEHvkG+ipI1+bWzNsNq+60JWEQJ0zYWLpK3Q5cvy9eMd2/taCSrKvf1xG697R0GQnfwLuFXEqAMYh4Cg==";
+        };
     in {
         "IMNv1qnq" = _IMNv1qnq;
         "qktY3dn5" = _qktY3dn5;
@@ -494,10 +504,12 @@ let
         "ioYyrZvY" = _ioYyrZvY;
         "yFg3LlgE" = _yFg3LlgE;
         "c0Y2YNuK" = _c0Y2YNuK;
-        "fabric-1.20.1" = _c0Y2YNuK;
+        "rKulEY9K" = _rKulEY9K;
+        "UjoIFDMO" = _UjoIFDMO;
+        "fabric-1.20.1" = _UjoIFDMO;
         "fabric-1.20.2" = _hv0E0Pmv;
         "fabric-1.20.4" = _BdSeae4H;
-        "fabric-1.20" = _c0Y2YNuK;
+        "fabric-1.20" = _UjoIFDMO;
         "pkg-1.2.48-BETA" = _IMNv1qnq;
         "pkg-1.2.485-BETA" = _qktY3dn5;
         "pkg-1.2.486-BETA" = _rsxxEioc;
@@ -577,7 +589,9 @@ let
         "pkg-1.0.5" = _ioYyrZvY;
         "pkg-1.0.6-hf" = _yFg3LlgE;
         "pkg-1.0.7" = _c0Y2YNuK;
-        "default" = _c0Y2YNuK;
+        "pkg-1.0.8" = _rKulEY9K;
+        "pkg-1.0.9" = _UjoIFDMO;
+        "default" = _UjoIFDMO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thematic-superheroes";

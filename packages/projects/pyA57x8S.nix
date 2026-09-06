@@ -1946,6 +1946,391 @@ let
             "file" = "Carry Cats 2.3 1.21.4.jar";
             "hash" = "sha512-kVrGqvOBufSQKPmmtMfVRL0Vm2tY2h6hRGXDwsip3q1JDJOsE0ZVWCa3V4d6kt3nPlDYCINBGeR9ul9rDte2Zw==";
         };
+        _EOJqNGN3 = {
+            "id" = "EOJqNGN3";
+            "file" = "Carry Cats 2.4 1.18.2.jar";
+            "hash" = "sha512-pjWc0W0EnwbzYReTRtXG0B5xgnmpYDZYokFzwGiNioKBDnfCBkFp180+/zKwL6Rqq+csIB4vIbxawcKanTWHqw==";
+        };
+        _gMp9swON = {
+            "id" = "gMp9swON";
+            "file" = "Carry Cats 2.4 1.19.jar";
+            "hash" = "sha512-QRhcog2U622defiZ2zCeovu4WMMI9Lk9geEClPstOFECPML4BpoP7qsxwJDp2gpX8by6bS5AzZWcrTrVdSjSzQ==";
+        };
+        _3wmEre8n = {
+            "id" = "3wmEre8n";
+            "file" = "Carry Cats 2.4 1.19.1.jar";
+            "hash" = "sha512-kSTQjm3Juu7N9xzgYSGaI0Fx8nAerLwTulP/WjCjwITkbPw10QTkoOzijL02mev4PCuxmuY0csgdq5Pderqvmw==";
+        };
+        _9aZmalww = {
+            "id" = "9aZmalww";
+            "file" = "Carry Cats 2.4 1.19.2.jar";
+            "hash" = "sha512-2BYezlrhwTuIUr0xDvQkP98wbL3XAfbIklf/PNoL2aPBBfamI2yquzKfdPY0BdCHd4Su01eGL66fS6wBiz4zRg==";
+        };
+        _1yuGJTMG = {
+            "id" = "1yuGJTMG";
+            "file" = "Carry Cats 2.4 1.19.3.jar";
+            "hash" = "sha512-ArBwXulvsYNyfgZTTOStJY8+VnIuC3Lu0kDRevVin3hrEFq/0Vd2G7quMqCuTh3Mk7IZoT6GIJlINO6RpYWUVA==";
+        };
+        _T5rOzP7W = {
+            "id" = "T5rOzP7W";
+            "file" = "Carry Cats 2.4 1.19.4.jar";
+            "hash" = "sha512-51mPy5WDrC+T1PPLYXU/bCEq+85cz31puOCwThzJbmUiINSa50gLZxXU7Q/ZPak0qydO5uQ4gXbyjiA3GvBbmw==";
+        };
+        _Vlpi03Vb = {
+            "id" = "Vlpi03Vb";
+            "file" = "Carry Cats 2.4 1.20.jar";
+            "hash" = "sha512-nzEjpxiIXhvnpSJOBs2vm3xyvoAQAxwkpyKf11OGBSWYVc1q3wm/WwJ6ZG58+TSFzQtDyNwWMhT1KPYxoyp9eA==";
+        };
+        _MIRrFodn = {
+            "id" = "MIRrFodn";
+            "file" = "Carry Cats 2.4 1.20.1.jar";
+            "hash" = "sha512-xBlzvm3dRJ8u+LZBeNFj3cSf+Xd5a8fflPbBksCcZAlg6MtmZEhIahTI+5CotSIxFAlizHpOYxwKDxp9uK+N8Q==";
+        };
+        _wS56OVH3 = {
+            "id" = "wS56OVH3";
+            "file" = "Carry Cats 2.4 1.20.2.jar";
+            "hash" = "sha512-ZWth3yzE5TOYsJo+5z+ye0Phjkkp4NbAWiKJZRP3VA477/n71H7U3Q2SIteDPq+Ne6qkTXD+0fvl4G9UWC9INQ==";
+        };
+        _8KsT6CFF = {
+            "id" = "8KsT6CFF";
+            "file" = "Carry Cats 2.4 1.20.3.jar";
+            "hash" = "sha512-7BSiUI/lAzqWgreC29GZ+9251xLpm+8ZfpXTRy4nZf84OwyCPwdwumsVca1PwxiDgyBcaZOpBG3XU4B6L0GHWw==";
+        };
+        _J7g846hC = {
+            "id" = "J7g846hC";
+            "file" = "Carry Cats 2.4 1.20.4.jar";
+            "hash" = "sha512-m4hYZlQc0WDDfkOsrBTO8djoAQgti7XMW0rkEB2Khr8+vTTSgx6oJcIc4CtOErz/T2t0vdYOlht8GNPk58l6hw==";
+        };
+        _GPqbt7R9 = {
+            "id" = "GPqbt7R9";
+            "file" = "Carry Cats 2.4 1.20.5.jar";
+            "hash" = "sha512-7pW80Pt4Xg0bIiGBDY7qLR53+4P+ABLppXiN4GAGzAEx2q9UhJJNA+YkvA0ChHxp+3PGbiGkOW5jzDcHxEBuug==";
+        };
+        _x3syjGU8 = {
+            "id" = "x3syjGU8";
+            "file" = "Carry Cats 2.4 1.20.6.jar";
+            "hash" = "sha512-FBGPi4lMO30tNU2ABzWVxdQZ63NMmbvKvvH7nqwte9xSjq06DP9ptQfZZL9/Bb0yfMXA7iXH2nHBx07wsSJFHg==";
+        };
+        _DIMkJq4d = {
+            "id" = "DIMkJq4d";
+            "file" = "Carry Cats 2.4 1.21.jar";
+            "hash" = "sha512-7EinHcq7to97Wcuf+A7SHvhh426M2nnnofQaJgTQoNbWG5iK6ii5kRiVTax0xR/xzndJUSH+H1e8whxnZ48cvQ==";
+        };
+        _ra2q7Mbw = {
+            "id" = "ra2q7Mbw";
+            "file" = "Carry Cats 2.4 1.21.1.jar";
+            "hash" = "sha512-CXO39f22AimjttvabakW6/vTksCzO70NZxfzkUZXlJ+ITnO+Z8s+cT4vXcRwycHKz2cRpP7Jn1DqvFxrhJzMVg==";
+        };
+        _4u7jZs3I = {
+            "id" = "4u7jZs3I";
+            "file" = "Carry Cats 2.4 1.21.2.jar";
+            "hash" = "sha512-J3LJijosfyGDqndPi9fYoP4y5HS0o1C2wL/Wx1Bc4IVXVHyBePJvroPvjtqhWiipcU33fAkPqiJtyr9aZkVYXg==";
+        };
+        _jljSzfjw = {
+            "id" = "jljSzfjw";
+            "file" = "Carry Cats 2.4 1.21.3.jar";
+            "hash" = "sha512-u6n16JaQqga6eMtfuuIMIvhRLMUwPIzAWSJ2t1bEP5WNeFr9JuDex8HEhwb2MU8ZjpLVFDKDC5N8yNzW99GDdg==";
+        };
+        _Uvdn0PkD = {
+            "id" = "Uvdn0PkD";
+            "file" = "Carry Cats 2.4 1.21.4.jar";
+            "hash" = "sha512-wcIloyN7FR2e28z2OdnqxTzMesWqGdzqgQG/8KmnN/cCLiuYNbVo0tN3kfj6ELRFuE7/lMUYSqu8oQU2o40DjA==";
+        };
+        _k01b5ncZ = {
+            "id" = "k01b5ncZ";
+            "file" = "Carry Cats 2.4 1.21.5.jar";
+            "hash" = "sha512-KpUFKUAZgcGmetZBTU8PlLtx7ZHU7sZmDl5SGfFKOzo9qOh/sGju/yR0TwLoaxJqmiGLe0TvlXmTwZJR9wSLaw==";
+        };
+        _m6ZNKJlm = {
+            "id" = "m6ZNKJlm";
+            "file" = "Carry Cats 2.4 1.21.6.jar";
+            "hash" = "sha512-NHkAoD342LegMLUKYyn9mF7N/KCnxEJibuyi8WHQnEMqXGOd2Kxtg+z9JwkLgNdKBMUoe4tuBtB+sHNO6VdXdw==";
+        };
+        _jxdn6fSj = {
+            "id" = "jxdn6fSj";
+            "file" = "Carry Cats 2.4 1.21.7.jar";
+            "hash" = "sha512-mWcfPdIAruC+N4d2Qqi5oj3S+RvOheaf0K/TTNeExGTBw8a99UR0X6YKJ966dGNvYSjYEInQedsuU1S548jxfA==";
+        };
+        _D5z1Ss3p = {
+            "id" = "D5z1Ss3p";
+            "file" = "Carry Cats 2.4 1.21.8.jar";
+            "hash" = "sha512-mUwodHKcmN4KnhhLic3ApI6Iv2iIO97q16rUDdH/zuU4BvIPwXbr4HpXNVPKNuJWtsngDeF+El1rUa0oYmEMBA==";
+        };
+        _qONb80Gh = {
+            "id" = "qONb80Gh";
+            "file" = "Carry Cats 2.4 1.21.9.jar";
+            "hash" = "sha512-AwkEcxIeT5ei0tPjReoDgBL2efFFU2o6xlT3EGf5jwU9Ri2fklkSkhM3RrelPaCFs24Nh5xsPUKQRVgibN6LSQ==";
+        };
+        _K9TjtHh2 = {
+            "id" = "K9TjtHh2";
+            "file" = "Carry Cats 2.4 1.21.10.jar";
+            "hash" = "sha512-qCknfo06cAvXeTphk2DWTgQm2VDB2PMRN3IPMMLrXl+MvWbALR6vUJUjONgCjHLGW+NlkfOqlyL6WGdXbtp7Dg==";
+        };
+        _hlihpJRA = {
+            "id" = "hlihpJRA";
+            "file" = "Carry Cats 2.4 1.21.11.jar";
+            "hash" = "sha512-T11A5u+uAPcQ0hRN4UicaHsysvRAMVAFHdVHttARwh4vHBzetkiflGn5RlHK/boFyf4TWyg3aDOACR+ZscCfOA==";
+        };
+        _Y5AJWROU = {
+            "id" = "Y5AJWROU";
+            "file" = "Carry Cats 2.4 26.1.jar";
+            "hash" = "sha512-9RuP34qmiPgMPG9ktu6srWwQCSYrnwTC+8BxgmfEmGGksuzyF0aJ9y6tyWaAncKUn/i+37Hj1X8qLCelzA2V7A==";
+        };
+        _SDBvEhBw = {
+            "id" = "SDBvEhBw";
+            "file" = "Carry Cats 2.4 26.1.1.jar";
+            "hash" = "sha512-L9e+w70SNCHaAwZ8sDOOaU2d+yD30/bK6l/HcOG37/LcGkaiQprrMCErr4DpZZnyk8QQVZedUMwmjeENNws94Q==";
+        };
+        _5kDEyCAq = {
+            "id" = "5kDEyCAq";
+            "file" = "Carry Cats 2.4 26.1.2.jar";
+            "hash" = "sha512-VicrRy88Q6pEJCts2jNiQa60cxaMPARCxHZlKaDoyz8PLf542Vk4XdEb7OoteXBZL00gTFiXaYLrjRR2PKSsNg==";
+        };
+        _mAmdhGuw = {
+            "id" = "mAmdhGuw";
+            "file" = "Carry Cats 2.4 26.2.jar";
+            "hash" = "sha512-4SU/APrIaXTgsRNpxJC+5A89ka72QuXJQIvxgP5zvaDJcI5SLZQAct0kitIgP/ooK0hSI3M7rwswhO7TPjJn/A==";
+        };
+        _ewf8jcha = {
+            "id" = "ewf8jcha";
+            "file" = "Carry Cats 2.4 1.18.2.jar";
+            "hash" = "sha512-Ur01uOMv/LQRXUEam+CFuyq5eyBgp+eEuBm3NWK0ljgJQqQiol1UgHbrJDHw4qJ+8eRye0Syh021nh2DbqIziA==";
+        };
+        _5WpWKmTL = {
+            "id" = "5WpWKmTL";
+            "file" = "Carry Cats 2.4 1.19.jar";
+            "hash" = "sha512-FxGU49zrgB9+X5gLC6Hp7+qQ/UN5mmnrPGl9U7LmQvxfz6apYjJmd4yJuHfT0Gmz/+Caauw4pN4MQSCKRBrlig==";
+        };
+        _xNF17S4h = {
+            "id" = "xNF17S4h";
+            "file" = "Carry Cats 2.4 1.19.1.jar";
+            "hash" = "sha512-J2Ipzu2r9b3CZcB/TV1febWgTqVedkRlVMObDRHLBuXFMh0SgcgpkfvRpFs5h2knvMNguvyiteeP2NaSnvcs0g==";
+        };
+        _YCNpa9jZ = {
+            "id" = "YCNpa9jZ";
+            "file" = "Carry Cats 2.4 1.19.2.jar";
+            "hash" = "sha512-RO8IhQGP/lorsmTafn7YnDf/FFpBgBXBqUVoeZOnHVJPOWWrtjuHBKxao8pl18Apm8L/V4Arqs45AjVC7aEnBw==";
+        };
+        _lHVmIDSo = {
+            "id" = "lHVmIDSo";
+            "file" = "Carry Cats 2.4 1.19.3.jar";
+            "hash" = "sha512-NBDtCUyw9cWdp3yO2M1rSWTE1ZEkhMcMKgFQI9j0s7AXnGqRmJO19FsTOkIMvJGvvQtsAM0LAddpAwDLmPRRCQ==";
+        };
+        _4y1k9Xzf = {
+            "id" = "4y1k9Xzf";
+            "file" = "Carry Cats 2.4 1.19.4.jar";
+            "hash" = "sha512-gnbpWUVPN6t35dyLA4hFGaZ2ZdSJcgEvTQQcQ0oKJQwTrosxaH2Pf9a7bEJVZ4hxUQV9Dwbj5FeMU5giwtS0eQ==";
+        };
+        _lgsooLt1 = {
+            "id" = "lgsooLt1";
+            "file" = "Carry Cats 2.4 1.20.jar";
+            "hash" = "sha512-ADRx3xc5tC/sZ7/5kXQPRks5Nv8hpCnMrx84rqx+4oQmZ/yPWkbw9/hw1es34JMMlJNS+jemj6Ru0ypVN5GMBg==";
+        };
+        _ZMdF658F = {
+            "id" = "ZMdF658F";
+            "file" = "Carry Cats 2.4 1.20.1.jar";
+            "hash" = "sha512-ZqowgRBOXcT/0DYNoOlmwmege2BSkcW/BomyTLgHzqLC1vrbyFWJOSFTnZjUv+0nIDEVSx6ulETfWqknTi94kQ==";
+        };
+        _Tw7V1uTC = {
+            "id" = "Tw7V1uTC";
+            "file" = "Carry Cats 2.4 1.20.2.jar";
+            "hash" = "sha512-KbcG/dMsk0SuMjbyw8898mo1KjH/3aaE8GXUb0/Jfo+WJQ3F1OtASPK8fkevTYZeC82NTuUa0qIgbemGvililw==";
+        };
+        _ofuhl65x = {
+            "id" = "ofuhl65x";
+            "file" = "Carry Cats 2.4 1.20.3.jar";
+            "hash" = "sha512-Ow6PEoyF5c9G/GSznWetoa3qKJKrg74/aYqwXCMoc7in1dDM0w1nYP1d+svRliBc40qywtjoBXBqVY2zV978HQ==";
+        };
+        _9MWahXMz = {
+            "id" = "9MWahXMz";
+            "file" = "Carry Cats 2.4 1.20.4.jar";
+            "hash" = "sha512-C3/hz1SkyY+Be3g2yhmzNld7RU9R3uo99icsWB9n8yIIjTAWOsNetx6vVoZq+HwtlNz8zZNokIEtQCfrqnnTXg==";
+        };
+        _1QXXVyng = {
+            "id" = "1QXXVyng";
+            "file" = "Carry Cats 2.4 1.20.6.jar";
+            "hash" = "sha512-jR6dCzKWTMt27XCKzNLCDz6pWaOBQuyFucmS8LhhLD8m+rmomSRe6Qn8DYQWSbyz49jFc0y3+ZwviEDf7cje8Q==";
+        };
+        _KUSYKE9x = {
+            "id" = "KUSYKE9x";
+            "file" = "Carry Cats 2.4 1.21.jar";
+            "hash" = "sha512-7EpoeYhoiLPXLStzzHYBfVjHWZqBILrebO5jMf+on4tuQxmXDIaQ4K83oZ6ctCM1xM59cmxNBNyINxlaIVJTwQ==";
+        };
+        _YzgOqoh1 = {
+            "id" = "YzgOqoh1";
+            "file" = "Carry Cats 2.4 1.21.1.jar";
+            "hash" = "sha512-XXg+2cDN5w51/aoE0WPSGY1pgFKfwEoT2lNoBSTwa12NTRM2i2A2eq+RMyGGjevrOYszExBniKrVY0NdEHM/jQ==";
+        };
+        _xiJ7Og7L = {
+            "id" = "xiJ7Og7L";
+            "file" = "Carry Cats 2.4 1.21.3.jar";
+            "hash" = "sha512-gm0na55MT8xp76bBWYEwPxYslD4cM7NYowggzojSrmgtubHQ9BVifQQLPwa9aPGTfNSUyttH8HhbQ3JcihhKBg==";
+        };
+        _lwVQvM7U = {
+            "id" = "lwVQvM7U";
+            "file" = "Carry Cats 2.4 1.21.4.jar";
+            "hash" = "sha512-ozRet36iGqq8Z3iMxQRhXH8GCzV20JJ3Mxtt+eJH1zVubD9OD2WgfeUipHoUWpJ6ijaBA/09RkjJb6lqIXx6dQ==";
+        };
+        _u2ZCpIWx = {
+            "id" = "u2ZCpIWx";
+            "file" = "Carry Cats 2.4 1.21.5.jar";
+            "hash" = "sha512-SdvBjSNNpcrwWgxYMi05wobPzdrIx+tig8QBQak/qKfDKhy0tDpvm7AzonHwvweaE+nhLCatK+62Blwm0AGQmQ==";
+        };
+        _TRAHf40b = {
+            "id" = "TRAHf40b";
+            "file" = "Carry Cats 2.4 1.21.6.jar";
+            "hash" = "sha512-N7x7YGyU2vRBpfVpRhVPWsiqsKg2EGaxTkyhM+2rkAZW0KvcLeCr4TBxfhhwbhAPXG89O0R/b77GONnI+ltcfw==";
+        };
+        _q1aEuTpd = {
+            "id" = "q1aEuTpd";
+            "file" = "Carry Cats 2.4 1.21.7.jar";
+            "hash" = "sha512-bGw8xCbbAbDvxhaWSCzP4jfaB7/CDt9uLcU2mowNPBryP/XqkkclTGMen7RCnw/h7lBKrXnlg3diyR+6O0IFpA==";
+        };
+        _ZbmjleRL = {
+            "id" = "ZbmjleRL";
+            "file" = "Carry Cats 2.4 1.21.8.jar";
+            "hash" = "sha512-bB97KjRsMxPD7lhNMsbB1byx74hfzMVAQ//WiD7ytXvyqNr05XHgZHNXYrsgPG5WmSDoHfWCG1JT6DP3H5QWIg==";
+        };
+        _M4KgW9HD = {
+            "id" = "M4KgW9HD";
+            "file" = "Carry Cats 2.4 1.21.9.jar";
+            "hash" = "sha512-LRyuBzPC5E9RzBioKLd+5Xwu5jyhkKRfXIFFXrm6ZWhnvk9Ty874DfZmZByn15l0tmDiJS7ueAzOiQJeynYW8w==";
+        };
+        _edbsVRtn = {
+            "id" = "edbsVRtn";
+            "file" = "Carry Cats 2.4 1.21.10.jar";
+            "hash" = "sha512-4z8HBuojB4gQUBIE9LXiYee1Tg/M7HO9fa5d1vV4xaZ8vL5hPz9Vrc3vaZ4pTgQ5j75JNWC1fbkO64P4+9hupA==";
+        };
+        _v9SyY085 = {
+            "id" = "v9SyY085";
+            "file" = "Carry Cats 2.4 1.21.11.jar";
+            "hash" = "sha512-1O3tJaeQqJ1cc5MQKEhE7wwxfUNtWKgzd5MgQKM9AKjcHYlbc2jTv+L4LO/9pOiNIsyJ/IZeY9K8SlTKxOQvSg==";
+        };
+        _sMjuWFkL = {
+            "id" = "sMjuWFkL";
+            "file" = "Carry Cats 2.4 26.1.jar";
+            "hash" = "sha512-oFklLmDPTtC7RIEqOvoiEx6QtPF5o0OoXrJ0wg5ifG9jfk2Te5F1Obrb3weSgIO+VJn0UbcNuoEMtO29C55pnA==";
+        };
+        _D9DSEuUv = {
+            "id" = "D9DSEuUv";
+            "file" = "Carry Cats 2.4 26.1.1.jar";
+            "hash" = "sha512-8zPzBWVexZtriGfUO4jT6fMQBL7rJ2KlaoDLHNvMgMZgzbuONYvrkvZyVL9yGA8BzNANQj9u6quMYwdhIw2ksw==";
+        };
+        _K6r1HP5D = {
+            "id" = "K6r1HP5D";
+            "file" = "Carry Cats 2.4 26.1.2.jar";
+            "hash" = "sha512-irJI5XYpgm/9akNUSd1xajk91+Xl/GSjMSLaKb8ILidx9mFqsHyGsD+lKgz8fPDvDv5PqHmm3y7Ad7n0dow6tQ==";
+        };
+        _ImFwpCBo = {
+            "id" = "ImFwpCBo";
+            "file" = "Carry Cats 2.4 26.2.jar";
+            "hash" = "sha512-0nDDZ8Q8+B2dWW+eTuYcRhrXE8ZW1hS5ZtaWaZ9Ipzq328PMIoEW2e+R6RrxRBC2fuDD6t6Vjet9M0NdymiGEw==";
+        };
+        _o5u4Myrw = {
+            "id" = "o5u4Myrw";
+            "file" = "Carry Cats 2.4 1.20.2.jar";
+            "hash" = "sha512-ZzCOYpMtO07QeEVds4UBc9OKZpYw1zkEx9vbKhE0EthsZeYN7GPB/6SPHI7v8Zm4mKZBj2Svru+9ED96WKC94w==";
+        };
+        _NosvXJZT = {
+            "id" = "NosvXJZT";
+            "file" = "Carry Cats 2.4 1.20.3.jar";
+            "hash" = "sha512-D/ep5vQAoIYaIqMVYjS4YHcwCTxtI/nPKTK6ZPco4RuSGIT55VRnX4iFgXxHp3qJAkDw2G/7nT867vhP6DwSUQ==";
+        };
+        _zfmxxpB2 = {
+            "id" = "zfmxxpB2";
+            "file" = "Carry Cats 2.4 1.20.4.jar";
+            "hash" = "sha512-3OGdgFu2SOP16NSSWQdbcQdR/TAdGwrL/iNzrd2cjOesVPMFSLJcrLAyow2qhUAGNJq+UAvjyzk6o6Sh7h3Zog==";
+        };
+        _i6LKvwSp = {
+            "id" = "i6LKvwSp";
+            "file" = "Carry Cats 2.4 1.20.5.jar";
+            "hash" = "sha512-8i5bwpD0C7gYHplrHIR1/qKpTnrDS8XxQOjwQLJ8qiGUhoSvqTxBvQ/AXA4tcokDRejOjqgYhpUoq1YIqC3FKA==";
+        };
+        _DrsRCWuc = {
+            "id" = "DrsRCWuc";
+            "file" = "Carry Cats 2.4 1.20.6.jar";
+            "hash" = "sha512-cwxT2zq98/C4YcykDrGbi1Mib58mSP2tqwRPuCUcAbFgCxp8d2ebA8D9mGzNJ9Ueqdr3cgr2h8EkDT8sz0ApJg==";
+        };
+        _TizSlvKI = {
+            "id" = "TizSlvKI";
+            "file" = "Carry Cats 2.4 1.21.jar";
+            "hash" = "sha512-QpY1yM8ADYqimm3y2P+dpGoMaZnNlv01R0hEU4vfduMiFVfBH+GZpYNQuMVcFJGMmD40onItwZ/LAkBmZw6/lQ==";
+        };
+        _eRVmRy4z = {
+            "id" = "eRVmRy4z";
+            "file" = "Carry Cats 2.4 1.21.1.jar";
+            "hash" = "sha512-NmDRfMIauIxy+RUFQP+6ZdJdUMsbCFzpx+mYF01BmaHIeSae+/tGbWNsrq2amfg6cIj0Bzz6FvYdG8uH9GnuwA==";
+        };
+        _KICYPr3L = {
+            "id" = "KICYPr3L";
+            "file" = "Carry Cats 2.4 1.21.2.jar";
+            "hash" = "sha512-Juw5Gi9UzgtNT86dzUCZ2cgxxhwAPGG5yNh9GJtiRZspQcfijBYpwG4Jjz7poN7Y0No0+MZvrI7qvtVKKl0Njg==";
+        };
+        _8YHnRIEj = {
+            "id" = "8YHnRIEj";
+            "file" = "Carry Cats 2.4 1.21.3.jar";
+            "hash" = "sha512-2f04FXR1+w+fedF64UZyK4nYx3bmBtUh3BwxGTvQ1Jb1gph98oCVmBo/CAGvd90rTdVoVsYjhnbedZtlCZfahg==";
+        };
+        _o6kexm5l = {
+            "id" = "o6kexm5l";
+            "file" = "Carry Cats 2.4 1.21.4.jar";
+            "hash" = "sha512-A4oNWbS6IaVOYtVETQSQlIw7D+eJoGcTe5LYeJk77bY6QHEEMLFB3d4TTpdTdDev3J2c5DSFUZxgPDbZHEuoUQ==";
+        };
+        _PPeteU3S = {
+            "id" = "PPeteU3S";
+            "file" = "Carry Cats 2.4 1.21.5.jar";
+            "hash" = "sha512-6oLiT317FW1ucDwm8r1KUY6D0KkO+hF5MZFV1G4+o3y92y02ZXFi6rln94C/eyQmHyhMLPwnwofcUnvJx81jXA==";
+        };
+        _kJJTG6zp = {
+            "id" = "kJJTG6zp";
+            "file" = "Carry Cats 2.4 1.21.6.jar";
+            "hash" = "sha512-GexW+zZQXR2bQcweRywNwnFb+m64wDfINklHYcAHn1QybwlYuODyntXG2/DXpJIK/Vb6Lv2JHZz7qmMKC06ucg==";
+        };
+        _sPLqkICa = {
+            "id" = "sPLqkICa";
+            "file" = "Carry Cats 2.4 1.21.7.jar";
+            "hash" = "sha512-7bukQXgq470UIgNXRZsFjA4yTtFSQrlRxMoXJy733uDEOhAUGU/qTmRqtae5Nm0/wptlTz239H2K6Sm0xExvjg==";
+        };
+        _OFB2g1cl = {
+            "id" = "OFB2g1cl";
+            "file" = "Carry Cats 2.4 1.21.8.jar";
+            "hash" = "sha512-/3Ry5L0Jpb9d3wCWKqTMVigkDG5VWeUGDwClE5HvvMuyYZXU3xiXAPHj/kGeUx2JCG3qLz7Pe80la774BuLqbw==";
+        };
+        _riv3ngAa = {
+            "id" = "riv3ngAa";
+            "file" = "Carry Cats 2.4 1.21.9.jar";
+            "hash" = "sha512-JvDL/NUqK5uE684BzhXGZqB7e5gHVTp85Slbx13OlomsUfXwAW9LeSgWWxJCz6p+caNO/cCmcOo6+XT4lNYYtw==";
+        };
+        _IzEkcFXr = {
+            "id" = "IzEkcFXr";
+            "file" = "Carry Cats 2.4 1.21.10.jar";
+            "hash" = "sha512-F0T/jXFgJjFNTPK01dHLkhpohZiSyeweEYvcyUWrXvm9lMMarr4wcEpaVgaDZuZNH3NFbxIjOOg/qrIPcb+oeQ==";
+        };
+        _HhDEnvLX = {
+            "id" = "HhDEnvLX";
+            "file" = "Carry Cats 2.4 1.21.11.jar";
+            "hash" = "sha512-7+RqqBvjnpq5gs2mikbecjdwjFGXjhtNi0pzpwBuGU5pjUL4HnA3NbCnrJWYP4RQestK6o2QfADQRJ0UbxHC7Q==";
+        };
+        _HXxzfS0n = {
+            "id" = "HXxzfS0n";
+            "file" = "Carry Cats 2.4 26.1.jar";
+            "hash" = "sha512-NMpxkD9hay4HYogzvU5u6SqMjNkaouJHdPRkGj+/bo0W2gucxEg+MHmkmOyeNnmTU9ToekPdD8p+gKKKF4A9Yw==";
+        };
+        _RWeOE2B1 = {
+            "id" = "RWeOE2B1";
+            "file" = "Carry Cats 2.4 26.1.1.jar";
+            "hash" = "sha512-8uwntWLW7kd7dO2oJhZN9po4YgxPuaxacelB8ZxgVz5PCuFj354Zsj0wzYCweh0Kaw43Bd9CU0TNAFcksEML3g==";
+        };
+        _pxCawZ5C = {
+            "id" = "pxCawZ5C";
+            "file" = "Carry Cats 2.4 26.1.2.jar";
+            "hash" = "sha512-U24XKwLujYbYcCmXsTqPPtY+hZbTp1O8u+SYhcNbBs9nDjJyAFERieyiZZZZT0XFtlp3+PVU1NXZ/WUzhUTZTg==";
+        };
+        _vUWFAndf = {
+            "id" = "vUWFAndf";
+            "file" = "Carry Cats 2.4 26.2.jar";
+            "hash" = "sha512-VSM8hh0Km98CfdqUrHXjzlJfxLar1cHOJeTVzawpddXT0225TMnkqXcWyFLPdWqIlCrPp81QQR/6Dx9xbvEOzQ==";
+        };
     in {
         "gUVN1QCa" = _gUVN1QCa;
         "8YN8nJGs" = _8YN8nJGs;
@@ -2336,83 +2721,160 @@ let
         "lVf3xLBd" = _lVf3xLBd;
         "3iJ6xTb1" = _3iJ6xTb1;
         "ry8ofAFR" = _ry8ofAFR;
-        "fabric-1.21.11" = _HrafvLJs;
-        "fabric-1.18.2" = _KmB6S9Nj;
-        "fabric-1.19" = _Vii5Pz88;
-        "fabric-1.19.1" = _F7i1p1mI;
-        "fabric-1.19.2" = _Vho09qJy;
-        "fabric-1.19.3" = _HzPKcPUZ;
-        "fabric-1.19.4" = _D1FH8ojB;
-        "fabric-1.20" = _uaPb14lZ;
-        "fabric-1.20.1" = _n7r38aPp;
-        "fabric-1.20.2" = _FiLc1FH5;
-        "fabric-1.20.3" = _3e9Q1pE3;
-        "fabric-1.20.4" = _I5l8Rew7;
-        "fabric-1.20.5" = _WDIPWCm1;
-        "fabric-1.20.6" = _vivvTugI;
-        "fabric-1.21" = _9pI8YzI6;
-        "fabric-1.21.1" = _R76fifsV;
-        "fabric-1.21.10" = _mmlan5SS;
-        "fabric-1.21.2" = _GkYKaQAN;
-        "fabric-1.21.3" = _Hewb3C6H;
-        "fabric-1.21.4" = _EvDCdfqz;
-        "fabric-1.21.5" = _5dK7V2lk;
-        "fabric-1.21.6" = _S3coa3F7;
-        "fabric-1.21.7" = _9ApZ72f2;
-        "fabric-1.21.8" = _pD4VaK5M;
-        "fabric-1.21.9" = _Sjhoovrv;
-        "fabric-26.1" = _u8PrxVgJ;
-        "fabric-26.1.1" = _jhvzV7LJ;
-        "fabric-26.1.2" = _uLnqeU1A;
-        "fabric-26.2" = _1iENGhK8;
-        "forge-1.21.11" = _pa37X9KE;
-        "forge-1.18.2" = _uOl3fntT;
-        "forge-1.19" = _bI37WNoz;
-        "forge-1.19.1" = _gXXxPmkP;
-        "forge-1.19.2" = _uwknFcZt;
-        "forge-1.19.3" = _yVeNJceV;
-        "forge-1.19.4" = _GbJArG3w;
-        "forge-1.20" = _3p8EDMfo;
-        "forge-1.20.1" = _GlJexfzo;
-        "forge-1.20.2" = _VU3RM9bo;
-        "forge-1.20.3" = _kVHHH7Ok;
-        "forge-1.20.4" = _iCXF5WQe;
-        "forge-1.20.6" = _KAupwHzY;
-        "forge-1.21" = _NT2ajNxF;
-        "forge-1.21.1" = _7x5xcWgk;
-        "forge-1.21.10" = _KknaMoJm;
-        "forge-1.21.3" = _9tU0ZL2Q;
-        "forge-1.21.4" = _bl3bRmuz;
-        "forge-1.21.5" = _TTSSwDkk;
-        "forge-1.21.6" = _zmZQ3P4R;
-        "forge-1.21.7" = _pNple2DV;
-        "forge-1.21.8" = _uRw0Jhx2;
-        "forge-1.21.9" = _doMsNvTX;
-        "forge-26.1" = _Iff0llt1;
-        "forge-26.1.1" = _blZG6L8X;
-        "forge-26.1.2" = _3g5MxlCs;
-        "forge-26.2" = _suq5jqVC;
-        "neoforge-1.21.1" = _lVf3xLBd;
-        "neoforge-1.20.2" = _DKYBNtXB;
-        "neoforge-1.20.3" = _nf1OUbT5;
-        "neoforge-1.20.4" = _pS6sTLsl;
-        "neoforge-1.20.5" = _zARafeNJ;
-        "neoforge-1.20.6" = _197YxmGF;
-        "neoforge-1.21" = _XGgcr6Y0;
-        "neoforge-1.21.2" = _tXtVHCKi;
-        "neoforge-1.21.3" = _3iJ6xTb1;
-        "neoforge-1.21.4" = _ry8ofAFR;
-        "neoforge-1.21.5" = _xdtB3kW2;
-        "neoforge-1.21.6" = _dKl6NRad;
-        "neoforge-1.21.7" = _VjYVpZbd;
-        "neoforge-1.21.8" = _13GwlldF;
-        "neoforge-1.21.9" = _JLCuSZEL;
-        "neoforge-1.21.10" = _FhJzKyvV;
-        "neoforge-1.21.11" = _CRxSZD2q;
-        "neoforge-26.1" = _S5QG0zij;
-        "neoforge-26.1.1" = _6F2q7Wt3;
-        "neoforge-26.1.2" = _fYC07qfQ;
-        "neoforge-26.2" = _bcLAKYg2;
+        "EOJqNGN3" = _EOJqNGN3;
+        "gMp9swON" = _gMp9swON;
+        "3wmEre8n" = _3wmEre8n;
+        "9aZmalww" = _9aZmalww;
+        "1yuGJTMG" = _1yuGJTMG;
+        "T5rOzP7W" = _T5rOzP7W;
+        "Vlpi03Vb" = _Vlpi03Vb;
+        "MIRrFodn" = _MIRrFodn;
+        "wS56OVH3" = _wS56OVH3;
+        "8KsT6CFF" = _8KsT6CFF;
+        "J7g846hC" = _J7g846hC;
+        "GPqbt7R9" = _GPqbt7R9;
+        "x3syjGU8" = _x3syjGU8;
+        "DIMkJq4d" = _DIMkJq4d;
+        "ra2q7Mbw" = _ra2q7Mbw;
+        "4u7jZs3I" = _4u7jZs3I;
+        "jljSzfjw" = _jljSzfjw;
+        "Uvdn0PkD" = _Uvdn0PkD;
+        "k01b5ncZ" = _k01b5ncZ;
+        "m6ZNKJlm" = _m6ZNKJlm;
+        "jxdn6fSj" = _jxdn6fSj;
+        "D5z1Ss3p" = _D5z1Ss3p;
+        "qONb80Gh" = _qONb80Gh;
+        "K9TjtHh2" = _K9TjtHh2;
+        "hlihpJRA" = _hlihpJRA;
+        "Y5AJWROU" = _Y5AJWROU;
+        "SDBvEhBw" = _SDBvEhBw;
+        "5kDEyCAq" = _5kDEyCAq;
+        "mAmdhGuw" = _mAmdhGuw;
+        "ewf8jcha" = _ewf8jcha;
+        "5WpWKmTL" = _5WpWKmTL;
+        "xNF17S4h" = _xNF17S4h;
+        "YCNpa9jZ" = _YCNpa9jZ;
+        "lHVmIDSo" = _lHVmIDSo;
+        "4y1k9Xzf" = _4y1k9Xzf;
+        "lgsooLt1" = _lgsooLt1;
+        "ZMdF658F" = _ZMdF658F;
+        "Tw7V1uTC" = _Tw7V1uTC;
+        "ofuhl65x" = _ofuhl65x;
+        "9MWahXMz" = _9MWahXMz;
+        "1QXXVyng" = _1QXXVyng;
+        "KUSYKE9x" = _KUSYKE9x;
+        "YzgOqoh1" = _YzgOqoh1;
+        "xiJ7Og7L" = _xiJ7Og7L;
+        "lwVQvM7U" = _lwVQvM7U;
+        "u2ZCpIWx" = _u2ZCpIWx;
+        "TRAHf40b" = _TRAHf40b;
+        "q1aEuTpd" = _q1aEuTpd;
+        "ZbmjleRL" = _ZbmjleRL;
+        "M4KgW9HD" = _M4KgW9HD;
+        "edbsVRtn" = _edbsVRtn;
+        "v9SyY085" = _v9SyY085;
+        "sMjuWFkL" = _sMjuWFkL;
+        "D9DSEuUv" = _D9DSEuUv;
+        "K6r1HP5D" = _K6r1HP5D;
+        "ImFwpCBo" = _ImFwpCBo;
+        "o5u4Myrw" = _o5u4Myrw;
+        "NosvXJZT" = _NosvXJZT;
+        "zfmxxpB2" = _zfmxxpB2;
+        "i6LKvwSp" = _i6LKvwSp;
+        "DrsRCWuc" = _DrsRCWuc;
+        "TizSlvKI" = _TizSlvKI;
+        "eRVmRy4z" = _eRVmRy4z;
+        "KICYPr3L" = _KICYPr3L;
+        "8YHnRIEj" = _8YHnRIEj;
+        "o6kexm5l" = _o6kexm5l;
+        "PPeteU3S" = _PPeteU3S;
+        "kJJTG6zp" = _kJJTG6zp;
+        "sPLqkICa" = _sPLqkICa;
+        "OFB2g1cl" = _OFB2g1cl;
+        "riv3ngAa" = _riv3ngAa;
+        "IzEkcFXr" = _IzEkcFXr;
+        "HhDEnvLX" = _HhDEnvLX;
+        "HXxzfS0n" = _HXxzfS0n;
+        "RWeOE2B1" = _RWeOE2B1;
+        "pxCawZ5C" = _pxCawZ5C;
+        "vUWFAndf" = _vUWFAndf;
+        "fabric-1.21.11" = _hlihpJRA;
+        "fabric-1.18.2" = _EOJqNGN3;
+        "fabric-1.19" = _gMp9swON;
+        "fabric-1.19.1" = _3wmEre8n;
+        "fabric-1.19.2" = _9aZmalww;
+        "fabric-1.19.3" = _1yuGJTMG;
+        "fabric-1.19.4" = _T5rOzP7W;
+        "fabric-1.20" = _Vlpi03Vb;
+        "fabric-1.20.1" = _MIRrFodn;
+        "fabric-1.20.2" = _wS56OVH3;
+        "fabric-1.20.3" = _8KsT6CFF;
+        "fabric-1.20.4" = _J7g846hC;
+        "fabric-1.20.5" = _GPqbt7R9;
+        "fabric-1.20.6" = _x3syjGU8;
+        "fabric-1.21" = _DIMkJq4d;
+        "fabric-1.21.1" = _ra2q7Mbw;
+        "fabric-1.21.10" = _K9TjtHh2;
+        "fabric-1.21.2" = _4u7jZs3I;
+        "fabric-1.21.3" = _jljSzfjw;
+        "fabric-1.21.4" = _Uvdn0PkD;
+        "fabric-1.21.5" = _k01b5ncZ;
+        "fabric-1.21.6" = _m6ZNKJlm;
+        "fabric-1.21.7" = _jxdn6fSj;
+        "fabric-1.21.8" = _D5z1Ss3p;
+        "fabric-1.21.9" = _qONb80Gh;
+        "fabric-26.1" = _Y5AJWROU;
+        "fabric-26.1.1" = _SDBvEhBw;
+        "fabric-26.1.2" = _5kDEyCAq;
+        "fabric-26.2" = _mAmdhGuw;
+        "forge-1.21.11" = _v9SyY085;
+        "forge-1.18.2" = _ewf8jcha;
+        "forge-1.19" = _5WpWKmTL;
+        "forge-1.19.1" = _xNF17S4h;
+        "forge-1.19.2" = _YCNpa9jZ;
+        "forge-1.19.3" = _lHVmIDSo;
+        "forge-1.19.4" = _4y1k9Xzf;
+        "forge-1.20" = _lgsooLt1;
+        "forge-1.20.1" = _ZMdF658F;
+        "forge-1.20.2" = _Tw7V1uTC;
+        "forge-1.20.3" = _ofuhl65x;
+        "forge-1.20.4" = _9MWahXMz;
+        "forge-1.20.6" = _1QXXVyng;
+        "forge-1.21" = _KUSYKE9x;
+        "forge-1.21.1" = _YzgOqoh1;
+        "forge-1.21.10" = _edbsVRtn;
+        "forge-1.21.3" = _xiJ7Og7L;
+        "forge-1.21.4" = _lwVQvM7U;
+        "forge-1.21.5" = _u2ZCpIWx;
+        "forge-1.21.6" = _TRAHf40b;
+        "forge-1.21.7" = _q1aEuTpd;
+        "forge-1.21.8" = _ZbmjleRL;
+        "forge-1.21.9" = _M4KgW9HD;
+        "forge-26.1" = _sMjuWFkL;
+        "forge-26.1.1" = _D9DSEuUv;
+        "forge-26.1.2" = _K6r1HP5D;
+        "forge-26.2" = _ImFwpCBo;
+        "neoforge-1.21.1" = _eRVmRy4z;
+        "neoforge-1.20.2" = _o5u4Myrw;
+        "neoforge-1.20.3" = _NosvXJZT;
+        "neoforge-1.20.4" = _zfmxxpB2;
+        "neoforge-1.20.5" = _i6LKvwSp;
+        "neoforge-1.20.6" = _DrsRCWuc;
+        "neoforge-1.21" = _TizSlvKI;
+        "neoforge-1.21.2" = _KICYPr3L;
+        "neoforge-1.21.3" = _8YHnRIEj;
+        "neoforge-1.21.4" = _o6kexm5l;
+        "neoforge-1.21.5" = _PPeteU3S;
+        "neoforge-1.21.6" = _kJJTG6zp;
+        "neoforge-1.21.7" = _sPLqkICa;
+        "neoforge-1.21.8" = _OFB2g1cl;
+        "neoforge-1.21.9" = _riv3ngAa;
+        "neoforge-1.21.10" = _IzEkcFXr;
+        "neoforge-1.21.11" = _HhDEnvLX;
+        "neoforge-26.1" = _HXxzfS0n;
+        "neoforge-26.1.1" = _RWeOE2B1;
+        "neoforge-26.1.2" = _pxCawZ5C;
+        "neoforge-26.2" = _vUWFAndf;
         "pkg-1.1.0+mc1.21.11-fabric" = _gUVN1QCa;
         "pkg-1.1.0+mc1.21.11-forge" = _8YN8nJGs;
         "pkg-1.1.0+mc1.18.2-fabric" = _xUEL5Gbq;
@@ -2802,7 +3264,84 @@ let
         "pkg-2.3+mc1.21.1-neoforge" = _lVf3xLBd;
         "pkg-2.3+mc1.21.3-neoforge" = _3iJ6xTb1;
         "pkg-2.3+mc1.21.4-neoforge" = _ry8ofAFR;
-        "default" = _ry8ofAFR;
+        "pkg-2.4+mc1.18.2-fabric" = _EOJqNGN3;
+        "pkg-2.4+mc1.19-fabric" = _gMp9swON;
+        "pkg-2.4+mc1.19.1-fabric" = _3wmEre8n;
+        "pkg-2.4+mc1.19.2-fabric" = _9aZmalww;
+        "pkg-2.4+mc1.19.3-fabric" = _1yuGJTMG;
+        "pkg-2.4+mc1.19.4-fabric" = _T5rOzP7W;
+        "pkg-2.4+mc1.20-fabric" = _Vlpi03Vb;
+        "pkg-2.4+mc1.20.1-fabric" = _MIRrFodn;
+        "pkg-2.4+mc1.20.2-fabric" = _wS56OVH3;
+        "pkg-2.4+mc1.20.3-fabric" = _8KsT6CFF;
+        "pkg-2.4+mc1.20.4-fabric" = _J7g846hC;
+        "pkg-2.4+mc1.20.5-fabric" = _GPqbt7R9;
+        "pkg-2.4+mc1.20.6-fabric" = _x3syjGU8;
+        "pkg-2.4+mc1.21-fabric" = _DIMkJq4d;
+        "pkg-2.4+mc1.21.1-fabric" = _ra2q7Mbw;
+        "pkg-2.4+mc1.21.2-fabric" = _4u7jZs3I;
+        "pkg-2.4+mc1.21.3-fabric" = _jljSzfjw;
+        "pkg-2.4+mc1.21.4-fabric" = _Uvdn0PkD;
+        "pkg-2.4+mc1.21.5-fabric" = _k01b5ncZ;
+        "pkg-2.4+mc1.21.6-fabric" = _m6ZNKJlm;
+        "pkg-2.4+mc1.21.7-fabric" = _jxdn6fSj;
+        "pkg-2.4+mc1.21.8-fabric" = _D5z1Ss3p;
+        "pkg-2.4+mc1.21.9-fabric" = _qONb80Gh;
+        "pkg-2.4+mc1.21.10-fabric" = _K9TjtHh2;
+        "pkg-2.4+mc1.21.11-fabric" = _hlihpJRA;
+        "pkg-2.4+mc26.1-fabric" = _Y5AJWROU;
+        "pkg-2.4+mc26.1.1-fabric" = _SDBvEhBw;
+        "pkg-2.4+mc26.1.2-fabric" = _5kDEyCAq;
+        "pkg-2.4+mc26.2-fabric" = _mAmdhGuw;
+        "pkg-2.4+mc1.18.2-forge" = _ewf8jcha;
+        "pkg-2.4+mc1.19-forge" = _5WpWKmTL;
+        "pkg-2.4+mc1.19.1-forge" = _xNF17S4h;
+        "pkg-2.4+mc1.19.2-forge" = _YCNpa9jZ;
+        "pkg-2.4+mc1.19.3-forge" = _lHVmIDSo;
+        "pkg-2.4+mc1.19.4-forge" = _4y1k9Xzf;
+        "pkg-2.4+mc1.20-forge" = _lgsooLt1;
+        "pkg-2.4+mc1.20.1-forge" = _ZMdF658F;
+        "pkg-2.4+mc1.20.2-forge" = _Tw7V1uTC;
+        "pkg-2.4+mc1.20.3-forge" = _ofuhl65x;
+        "pkg-2.4+mc1.20.4-forge" = _9MWahXMz;
+        "pkg-2.4+mc1.20.6-forge" = _1QXXVyng;
+        "pkg-2.4+mc1.21-forge" = _KUSYKE9x;
+        "pkg-2.4+mc1.21.1-forge" = _YzgOqoh1;
+        "pkg-2.4+mc1.21.3-forge" = _xiJ7Og7L;
+        "pkg-2.4+mc1.21.4-forge" = _lwVQvM7U;
+        "pkg-2.4+mc1.21.5-forge" = _u2ZCpIWx;
+        "pkg-2.4+mc1.21.6-forge" = _TRAHf40b;
+        "pkg-2.4+mc1.21.7-forge" = _q1aEuTpd;
+        "pkg-2.4+mc1.21.8-forge" = _ZbmjleRL;
+        "pkg-2.4+mc1.21.9-forge" = _M4KgW9HD;
+        "pkg-2.4+mc1.21.10-forge" = _edbsVRtn;
+        "pkg-2.4+mc1.21.11-forge" = _v9SyY085;
+        "pkg-2.4+mc26.1-forge" = _sMjuWFkL;
+        "pkg-2.4+mc26.1.1-forge" = _D9DSEuUv;
+        "pkg-2.4+mc26.1.2-forge" = _K6r1HP5D;
+        "pkg-2.4+mc26.2-forge" = _ImFwpCBo;
+        "pkg-2.4+mc1.20.2-neoforge" = _o5u4Myrw;
+        "pkg-2.4+mc1.20.3-neoforge" = _NosvXJZT;
+        "pkg-2.4+mc1.20.4-neoforge" = _zfmxxpB2;
+        "pkg-2.4+mc1.20.5-neoforge" = _i6LKvwSp;
+        "pkg-2.4+mc1.20.6-neoforge" = _DrsRCWuc;
+        "pkg-2.4+mc1.21-neoforge" = _TizSlvKI;
+        "pkg-2.4+mc1.21.1-neoforge" = _eRVmRy4z;
+        "pkg-2.4+mc1.21.2-neoforge" = _KICYPr3L;
+        "pkg-2.4+mc1.21.3-neoforge" = _8YHnRIEj;
+        "pkg-2.4+mc1.21.4-neoforge" = _o6kexm5l;
+        "pkg-2.4+mc1.21.5-neoforge" = _PPeteU3S;
+        "pkg-2.4+mc1.21.6-neoforge" = _kJJTG6zp;
+        "pkg-2.4+mc1.21.7-neoforge" = _sPLqkICa;
+        "pkg-2.4+mc1.21.8-neoforge" = _OFB2g1cl;
+        "pkg-2.4+mc1.21.9-neoforge" = _riv3ngAa;
+        "pkg-2.4+mc1.21.10-neoforge" = _IzEkcFXr;
+        "pkg-2.4+mc1.21.11-neoforge" = _HhDEnvLX;
+        "pkg-2.4+mc26.1-neoforge" = _HXxzfS0n;
+        "pkg-2.4+mc26.1.1-neoforge" = _RWeOE2B1;
+        "pkg-2.4+mc26.1.2-neoforge" = _pxCawZ5C;
+        "pkg-2.4+mc26.2-neoforge" = _vUWFAndf;
+        "default" = _vUWFAndf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "carry-cats!";

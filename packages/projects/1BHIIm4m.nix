@@ -236,6 +236,26 @@ let
             "file" = "archers_expansion-fabric-1.5.1+1.21.1.jar";
             "hash" = "sha512-XwB0An+WVy4lxJMiVgMsyuZLT48zhZoFJwbSelKLKxf3UmAo+uSIx7Y7/ZJVeaejknFh8Jyplvlex8MMuBA/qQ==";
         };
+        _wN6sAw5w = {
+            "id" = "wN6sAw5w";
+            "file" = "archers_expansion-neoforge-2.0.0+1.21.1.jar";
+            "hash" = "sha512-ya0Pk9YutFaZXy1Hbfus3toTXekDaE0/MrdSt6S06OGqBjOd+FKZcg321KIJV+cpHtpzRV7J7FEtCMboTQOV+Q==";
+        };
+        _QuNR0GMp = {
+            "id" = "QuNR0GMp";
+            "file" = "archers_expansion-fabric-2.0.0+1.21.1.jar";
+            "hash" = "sha512-pru0aaXBvQwxOESZ9EpwiPzoCgMXdIiPf1/9P20pSMOTLecejZxdZWddHKOORbAKDh2wp+hy9dloPQ02F5ZatQ==";
+        };
+        _iF40cAbm = {
+            "id" = "iF40cAbm";
+            "file" = "archers_expansion-neoforge-2.1.0+1.21.1.jar";
+            "hash" = "sha512-tWxUSy3v034EQrUZ9OLoTKnLep+Juk+z7RwAFDHbQ0I/FjTHoiGf+L7d8th45+aQ4qgstWT06fI8L7UAMN8C8w==";
+        };
+        _AzQF18oI = {
+            "id" = "AzQF18oI";
+            "file" = "archers_expansion-fabric-2.1.0+1.21.1.jar";
+            "hash" = "sha512-vFlU/SuwIMJtKKxmPGXOLj3nTQH1irSq716Kd88FZlsWBMQdsDtbcm5uu9108nhqE0LqnuX5BKg1UOqDb3u5UA==";
+        };
     in {
         "cv8SnQij" = _cv8SnQij;
         "MifSbDmA" = _MifSbDmA;
@@ -284,10 +304,14 @@ let
         "QfZyudri" = _QfZyudri;
         "k4HKgkwr" = _k4HKgkwr;
         "fQr4YJ7l" = _fQr4YJ7l;
+        "wN6sAw5w" = _wN6sAw5w;
+        "QuNR0GMp" = _QuNR0GMp;
+        "iF40cAbm" = _iF40cAbm;
+        "AzQF18oI" = _AzQF18oI;
         "fabric-1.20.1" = _ZQgCdsbG;
         "fabric-1.21" = _vuKgzpsP;
-        "fabric-1.21.1" = _fQr4YJ7l;
-        "neoforge-1.21.1" = _k4HKgkwr;
+        "fabric-1.21.1" = _AzQF18oI;
+        "neoforge-1.21.1" = _iF40cAbm;
         "pkg-0.1.0-1.20.1" = _cv8SnQij;
         "pkg-0.1.1-1.20.1" = _MifSbDmA;
         "pkg-0.1.2-1.20.1" = _DiwkGVbv;
@@ -335,7 +359,11 @@ let
         "pkg-1.5.0+1.21.1-neoforge" = _QfZyudri;
         "pkg-1.5.1+1.21.1-neoforge" = _k4HKgkwr;
         "pkg-1.5.1+1.21.1-fabric" = _fQr4YJ7l;
-        "default" = _fQr4YJ7l;
+        "pkg-2.0.0+1.21.1-neoforge" = _wN6sAw5w;
+        "pkg-2.0.0+1.21.1-fabric" = _QuNR0GMp;
+        "pkg-2.1.0+1.21.1-neoforge" = _iF40cAbm;
+        "pkg-2.1.0+1.21.1-fabric" = _AzQF18oI;
+        "default" = _AzQF18oI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "archers-expansion";

@@ -346,6 +346,11 @@ let
             "file" = "breedablekillerrabbit-26.2.0-4.1.jar";
             "hash" = "sha512-jIBXzG8ZcRyXRzyJtouCT9pqq2GrUH5PrwpdnsXDRZW+aUPMlLGhCEBGubuUVZGkMnct4P/dv6XN2VrEcRON/w==";
         };
+        _vBYl3N5h = {
+            "id" = "vBYl3N5h";
+            "file" = "breedablekillerrabbit-26.2.0-4.2.jar";
+            "hash" = "sha512-jkj9eqtJX/TRxMVkc8tODbGqpf82GxMkZNA4HbhsG35aS2SBn54ayHKvEnHGh7wcjkqJrmxZHte+hC+zgdp6dQ==";
+        };
     in {
         "s0nUlILp" = _s0nUlILp;
         "mM4Sflu0" = _mM4Sflu0;
@@ -416,6 +421,7 @@ let
         "BjXLtNpO" = _BjXLtNpO;
         "ZEYulqER" = _ZEYulqER;
         "Ij7i2YBd" = _Ij7i2YBd;
+        "vBYl3N5h" = _vBYl3N5h;
         "fabric-1.16.5" = _XpxT6kVC;
         "fabric-1.18.2" = _aOaqF8DI;
         "fabric-1.19.2" = _MRwMqCA2;
@@ -443,7 +449,7 @@ let
         "fabric-26.1" = _5gUSuKT0;
         "fabric-26.1.1" = _6UeXC5E4;
         "fabric-26.1.2" = _ZEYulqER;
-        "fabric-26.2" = _Ij7i2YBd;
+        "fabric-26.2" = _vBYl3N5h;
         "forge-1.16.5" = _LJtv9n84;
         "forge-1.18.2" = _aOaqF8DI;
         "forge-1.19.2" = _MRwMqCA2;
@@ -469,7 +475,7 @@ let
         "forge-26.1" = _5gUSuKT0;
         "forge-26.1.1" = _6UeXC5E4;
         "forge-26.1.2" = _ZEYulqER;
-        "forge-26.2" = _Ij7i2YBd;
+        "forge-26.2" = _vBYl3N5h;
         "quilt-1.18.2" = _aOaqF8DI;
         "quilt-1.19.2" = _MRwMqCA2;
         "quilt-1.19.3" = _lXJ9ARtV;
@@ -496,7 +502,7 @@ let
         "quilt-26.1" = _5gUSuKT0;
         "quilt-26.1.1" = _6UeXC5E4;
         "quilt-26.1.2" = _ZEYulqER;
-        "quilt-26.2" = _Ij7i2YBd;
+        "quilt-26.2" = _vBYl3N5h;
         "neoforge-1.20.2" = _FH40veb1;
         "neoforge-1.20.1" = _lvDctFv0;
         "neoforge-1.20.3" = _i500jte1;
@@ -518,7 +524,7 @@ let
         "neoforge-26.1" = _5gUSuKT0;
         "neoforge-26.1.1" = _6UeXC5E4;
         "neoforge-26.1.2" = _ZEYulqER;
-        "neoforge-26.2" = _Ij7i2YBd;
+        "neoforge-26.2" = _vBYl3N5h;
         "pkg-1.16.5-2.0-fabric" = _s0nUlILp;
         "pkg-1.18.2-2.0-fabric" = _mM4Sflu0;
         "pkg-1.19.2-2.1-fabric" = _62LahsQq;
@@ -588,7 +594,8 @@ let
         "pkg-26.2.0-4.0-fabric+forge+neo" = _BjXLtNpO;
         "pkg-26.1.2-4.1-fabric+forge+neo" = _ZEYulqER;
         "pkg-26.2.0-4.1-fabric+forge+neo" = _Ij7i2YBd;
-        "default" = _Ij7i2YBd;
+        "pkg-26.2.0-4.2-fabric+forge+neo" = _vBYl3N5h;
+        "default" = _vBYl3N5h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "breedable-killer-rabbit";

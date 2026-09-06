@@ -361,6 +361,11 @@ let
             "file" = "Crafting Cloth v2.3.26 Snapshot6.zip";
             "hash" = "sha512-MwJXqPMpqbrBXN/lDP0bCghOnMW59uQ9BbY/osaQ5GidvP9ADm7Sco9MLvFiAS1+rdfsFcjj4EdPuURA0QNv/g==";
         };
+        _fREILQhu = {
+            "id" = "fREILQhu";
+            "file" = "Crafting Cloth v2.3.27 26.3 SnapshotX.zip";
+            "hash" = "sha512-CAD2yW2EqrNavFQK0/P30ryoIxWwN7yTFj4x8rp6ig5KmXOo65i1KUWZ3C12XOFtLtgL+VR3KxCKkVwioIWC2w==";
+        };
     in {
         "49KKQ5P1" = _49KKQ5P1;
         "E6O0Qofa" = _E6O0Qofa;
@@ -434,6 +439,7 @@ let
         "QlrzIIaW" = _QlrzIIaW;
         "OQQL3gHa" = _OQQL3gHa;
         "D9E3uIHP" = _D9E3uIHP;
+        "fREILQhu" = _fREILQhu;
         "minecraft-1.20" = _pcHtNfY0;
         "minecraft-1.20.1" = _pcHtNfY0;
         "minecraft-1.20.2" = _pcHtNfY0;
@@ -613,12 +619,14 @@ let
         "minecraft-26.2-snapshot-5" = _xASvBxLz;
         "minecraft-26.2-snapshot-7" = _IrHAWyDt;
         "minecraft-26.2" = _yGLsrgEV;
-        "minecraft-26.3-snapshot-1" = _4s4u29uX;
-        "minecraft-26.3-snapshot-2" = _4s4u29uX;
-        "minecraft-26.3-snapshot-3" = _QlrzIIaW;
-        "minecraft-26.3-snapshot-4" = _OQQL3gHa;
-        "minecraft-26.3-snapshot-5" = _D9E3uIHP;
-        "minecraft-26.3-snapshot-6" = _D9E3uIHP;
+        "minecraft-26.3-snapshot-1" = _fREILQhu;
+        "minecraft-26.3-snapshot-2" = _fREILQhu;
+        "minecraft-26.3-snapshot-3" = _fREILQhu;
+        "minecraft-26.3-snapshot-4" = _fREILQhu;
+        "minecraft-26.3-snapshot-5" = _fREILQhu;
+        "minecraft-26.3-snapshot-6" = _fREILQhu;
+        "minecraft-26.3-snapshot-7" = _fREILQhu;
+        "minecraft-26.3-snapshot-8" = _fREILQhu;
         "pkg-1.0.1" = _49KKQ5P1;
         "pkg-1.0.2" = _E6O0Qofa;
         "pkg-1.1.1" = _qEp1gHft;
@@ -691,7 +699,8 @@ let
         "pkg-v2.3.24-snapshot3" = _QlrzIIaW;
         "pkg-v2.3.25-snapshot4" = _OQQL3gHa;
         "pkg-v2.3.26-snapshot6" = _D9E3uIHP;
-        "default" = _D9E3uIHP;
+        "pkg-v2.3.27-26.3snapshotX" = _fREILQhu;
+        "default" = _fREILQhu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crafting-cloth";

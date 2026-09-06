@@ -1461,6 +1461,11 @@ let
             "file" = "dynamiccrosshair-9.13+26.2-fabric.jar";
             "hash" = "sha512-JosjVALkV2F5PrFVeIbYnF9wn4mQZ39qiec847DiNlaFC6ApaXfvWIPIFXrg0Fut0pZkMH9QDNtxlMfu6ZWWlw==";
         };
+        _JGy4NTx0 = {
+            "id" = "JGy4NTx0";
+            "file" = "dynamiccrosshair-9.14+26.2-fabric.jar";
+            "hash" = "sha512-I9DvLPRrHCwtgrZVGr2WQccpJehZjcEvZ+GKczhCgqBM9CZeShrgf394bD+/YLgGCO52Jh2umFY0UCKJ6YvcOg==";
+        };
     in {
         "20bC160n" = _20bC160n;
         "zJdREVIO" = _zJdREVIO;
@@ -1754,6 +1759,7 @@ let
         "RgrSldiN" = _RgrSldiN;
         "yfqIrjgD" = _yfqIrjgD;
         "sDRRBglG" = _sDRRBglG;
+        "JGy4NTx0" = _JGy4NTx0;
         "fabric-1.18.2" = _aT7BTmm2;
         "fabric-1.18" = _aT7BTmm2;
         "fabric-1.18.1" = _aT7BTmm2;
@@ -1784,7 +1790,7 @@ let
         "fabric-26.1" = _yfqIrjgD;
         "fabric-26.1.1" = _yfqIrjgD;
         "fabric-26.1.2" = _yfqIrjgD;
-        "fabric-26.2" = _sDRRBglG;
+        "fabric-26.2" = _JGy4NTx0;
         "forge-1.19" = _8x7iVA0A;
         "forge-1.19.1" = _8x7iVA0A;
         "forge-1.19.2" = _8x7iVA0A;
@@ -2083,7 +2089,8 @@ let
         "pkg-9.11+1.21.9-fabric" = _RgrSldiN;
         "pkg-9.12+26.1-fabric" = _yfqIrjgD;
         "pkg-9.13+26.2-fabric" = _sDRRBglG;
-        "default" = _sDRRBglG;
+        "pkg-9.14+26.2-fabric" = _JGy4NTx0;
+        "default" = _JGy4NTx0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dynamiccrosshair";

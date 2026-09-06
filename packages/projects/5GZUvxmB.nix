@@ -86,6 +86,11 @@ let
             "file" = "expanded-bow-enchanting-1.1.14.jar";
             "hash" = "sha512-wa5OEnBXesG0Zq5qId1CUp5xpAXUSoGaIVfuWsz+/nN+2VDtXDms7wkV5lymYsn91Lc+lZ7JHy99izpG8hosIg==";
         };
+        _GrMKl1Oo = {
+            "id" = "GrMKl1Oo";
+            "file" = "expanded-bow-enchanting-1.1.15.jar";
+            "hash" = "sha512-gfCeRRDU/Uay3gKL1D0gvqmB2NKb9fRg8YdC658gyunpL1cbefcbZ9/SAk+52r132XPtGxfIO+x1KT4xbxbe3w==";
+        };
     in {
         "oHKb9m3d" = _oHKb9m3d;
         "bcklyeFf" = _bcklyeFf;
@@ -104,6 +109,7 @@ let
         "XGlVaIAs" = _XGlVaIAs;
         "jDMmYdfw" = _jDMmYdfw;
         "jEtCgh1l" = _jEtCgh1l;
+        "GrMKl1Oo" = _GrMKl1Oo;
         "fabric-1.20.1" = _oHKb9m3d;
         "fabric-1.20.6" = _bcklyeFf;
         "fabric-1.21" = _zMIzrxjB;
@@ -120,6 +126,7 @@ let
         "fabric-26.1" = _jEtCgh1l;
         "fabric-26.1.1" = _jEtCgh1l;
         "fabric-26.1.2" = _jEtCgh1l;
+        "fabric-26.2" = _GrMKl1Oo;
         "pkg-1.0.0" = _oHKb9m3d;
         "pkg-1.0.1" = _bcklyeFf;
         "pkg-1.1.0" = _mArz7E1v;
@@ -137,7 +144,8 @@ let
         "pkg-1.1.12" = _XGlVaIAs;
         "pkg-1.1.13" = _jDMmYdfw;
         "pkg-1.1.14" = _jEtCgh1l;
-        "default" = _jEtCgh1l;
+        "pkg-1.1.15" = _GrMKl1Oo;
+        "default" = _GrMKl1Oo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "expanded-bow-enchanting";

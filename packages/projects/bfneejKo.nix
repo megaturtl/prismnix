@@ -221,6 +221,21 @@ let
             "file" = "syncmatica-fabric-26.2-0.3.19.jar";
             "hash" = "sha512-5EZgh439+AsgkeYgZxXKwGWNzDiyuAqza9Pijjo0oXxyf38iBtwB2dhPcwlu5JZW5R4cR2adfjP2fwluOkThKg==";
         };
+        _jMRygmU0 = {
+            "id" = "jMRygmU0";
+            "file" = "syncmatica-fabric-1.21.11-0.3.20.jar";
+            "hash" = "sha512-Whbn+iaJJH6steD5NtcwXOXva+tBoelgFIk93uoxrBevMlovx9CSlHqjmqqQfpzJMpGeFNEzRhIl0prZB8EnXQ==";
+        };
+        _wsFbuMkX = {
+            "id" = "wsFbuMkX";
+            "file" = "syncmatica-fabric-26.1.2-0.3.20.jar";
+            "hash" = "sha512-3FlYC/lxQS85vYT6j3dX0UiUbqlJk06twVZwvx/Jo3GnYZ82+zkK0ilSqRNJbFBv+YEpnUtJAwqd61QXs1VovQ==";
+        };
+        _POv0nHxV = {
+            "id" = "POv0nHxV";
+            "file" = "syncmatica-fabric-26.2-0.3.20.jar";
+            "hash" = "sha512-z0n5h//cYm4Zh++BzfVMnHL448kGs1NQE7VooiJSopkeOxrW2SIbrY+Z6ahn7poS9vHDV9ZPR2gHCStNGADqFg==";
+        };
     in {
         "ZJm4UbPV" = _ZJm4UbPV;
         "8kQVaVYx" = _8kQVaVYx;
@@ -266,6 +281,9 @@ let
         "EdlEKM23" = _EdlEKM23;
         "3CQ1r2nx" = _3CQ1r2nx;
         "f74T22XS" = _f74T22XS;
+        "jMRygmU0" = _jMRygmU0;
+        "wsFbuMkX" = _wsFbuMkX;
+        "POv0nHxV" = _POv0nHxV;
         "fabric-1.19.1" = _4GaJKJoH;
         "fabric-1.16.5" = _YCpraFCt;
         "fabric-1.17.1" = _YCpraFCt;
@@ -300,11 +318,11 @@ let
         "fabric-1.21.8" = _x2GEse4M;
         "fabric-1.21.9" = _buY4n8tz;
         "fabric-1.21.10" = _buY4n8tz;
-        "fabric-1.21.11" = _EdlEKM23;
-        "fabric-26.1" = _3CQ1r2nx;
-        "fabric-26.1.1" = _3CQ1r2nx;
-        "fabric-26.1.2" = _3CQ1r2nx;
-        "fabric-26.2" = _f74T22XS;
+        "fabric-1.21.11" = _jMRygmU0;
+        "fabric-26.1" = _wsFbuMkX;
+        "fabric-26.1.1" = _wsFbuMkX;
+        "fabric-26.1.2" = _wsFbuMkX;
+        "fabric-26.2" = _POv0nHxV;
         "quilt-1.18" = _4GaJKJoH;
         "quilt-1.18.1" = _4GaJKJoH;
         "quilt-1.18.2" = _4GaJKJoH;
@@ -352,7 +370,8 @@ let
         "pkg-0.3.17" = _a3qv3pRT;
         "pkg-0.3.18" = _qeU4LUwM;
         "pkg-0.3.19" = _f74T22XS;
-        "default" = _f74T22XS;
+        "pkg-0.3.20" = _POv0nHxV;
+        "default" = _POv0nHxV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "syncmatica";

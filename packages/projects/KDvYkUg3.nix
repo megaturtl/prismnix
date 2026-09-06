@@ -606,15 +606,15 @@ let
             "file" = "refinedstorage-1.2.22.jar";
             "hash" = "sha512-lhyEVUMKvjbQunvY3SI3iaWL/zHmlQRT0VGLB3dAPszwkxholyYG1fVVgji7jGa4Dt8moiDm/M0nL5CW1VeLuQ==";
         };
-        _ZwA2eWbr = {
-            "id" = "ZwA2eWbr";
-            "file" = "refinedstorage-1.2.24.jar";
-            "hash" = "sha512-MiDpR7jSM/n1d+wtptkkaRv+BR9I6bw2eJTtztSmGdq7XUZHFrkCnyh7XgZ71O2IbGUJhIO+MHX+D3S75H1kjA==";
-        };
         _lduq40MS = {
             "id" = "lduq40MS";
             "file" = "refinedstorage-1.2.23.jar";
             "hash" = "sha512-03LMRmKL0g/6bTljmPaf0B7WMDWwIvmEvjigcZTFZlc0tUGnZ5cxFmfc4l5b1u7Fn3u8y7LAk6s9K5CE7Ah0qg==";
+        };
+        _ZwA2eWbr = {
+            "id" = "ZwA2eWbr";
+            "file" = "refinedstorage-1.2.24.jar";
+            "hash" = "sha512-MiDpR7jSM/n1d+wtptkkaRv+BR9I6bw2eJTtztSmGdq7XUZHFrkCnyh7XgZ71O2IbGUJhIO+MHX+D3S75H1kjA==";
         };
         _bqOGk9wF = {
             "id" = "bqOGk9wF";
@@ -771,15 +771,15 @@ let
             "file" = "refinedstorage-1.4.20.jar";
             "hash" = "sha512-vV6tDqlIhPLTMHoBkmyydmEStwIauHlW+mE76faWU97RNcClIOwKDiiqz3YUSeIaz3ISNmoNMEBYaSclm5xkUg==";
         };
-        _BNdtdvCF = {
-            "id" = "BNdtdvCF";
-            "file" = "refinedstorage-1.5.10.jar";
-            "hash" = "sha512-6RckVmYHwiDJgHQFoxYvsO1um9vbCruuDkNJuCI/XGikq/s2Qb7faFYOPb0ZoeqptMAOmf/l+Ghk5RatVVWQEg==";
-        };
         _zd9efSD4 = {
             "id" = "zd9efSD4";
             "file" = "refinedstorage-1.5.11.jar";
             "hash" = "sha512-OkQ8Aobze/OTbU9jHSTv/Wc0tCOKczis5zVaXQ00DZRQYRz5vGWGlNGl50F8OeNfuxy0mU1vlH1PkQ49aEUQfA==";
+        };
+        _BNdtdvCF = {
+            "id" = "BNdtdvCF";
+            "file" = "refinedstorage-1.5.10.jar";
+            "hash" = "sha512-6RckVmYHwiDJgHQFoxYvsO1um9vbCruuDkNJuCI/XGikq/s2Qb7faFYOPb0ZoeqptMAOmf/l+Ghk5RatVVWQEg==";
         };
         _mz38svG6 = {
             "id" = "mz38svG6";
@@ -1848,8 +1848,8 @@ let
         "o2cBXo5K" = _o2cBXo5K;
         "obWjt4eG" = _obWjt4eG;
         "IfASYu3s" = _IfASYu3s;
-        "ZwA2eWbr" = _ZwA2eWbr;
         "lduq40MS" = _lduq40MS;
+        "ZwA2eWbr" = _ZwA2eWbr;
         "bqOGk9wF" = _bqOGk9wF;
         "SMmGjwzY" = _SMmGjwzY;
         "E6IGnQVV" = _E6IGnQVV;
@@ -1881,8 +1881,8 @@ let
         "i3HoGPiT" = _i3HoGPiT;
         "Y1Spkg9x" = _Y1Spkg9x;
         "9bPnZGVd" = _9bPnZGVd;
-        "BNdtdvCF" = _BNdtdvCF;
         "zd9efSD4" = _zd9efSD4;
+        "BNdtdvCF" = _BNdtdvCF;
         "mz38svG6" = _mz38svG6;
         "aXkKelNh" = _aXkKelNh;
         "4TWwqV8M" = _4TWwqV8M;
@@ -2220,8 +2220,8 @@ let
         "pkg-1.2.21" = _o2cBXo5K;
         "pkg-1.4.1-beta" = _obWjt4eG;
         "pkg-1.2.22" = _IfASYu3s;
-        "pkg-1.2.24" = _ZwA2eWbr;
         "pkg-1.2.23" = _lduq40MS;
+        "pkg-1.2.24" = _ZwA2eWbr;
         "pkg-1.2.25" = _bqOGk9wF;
         "pkg-1.4.2-beta" = _SMmGjwzY;
         "pkg-1.4.3-beta" = _E6IGnQVV;
@@ -2253,8 +2253,8 @@ let
         "pkg-1.5.9" = _i3HoGPiT;
         "pkg-1.4.19" = _Y1Spkg9x;
         "pkg-1.4.20" = _9bPnZGVd;
-        "pkg-1.5.10" = _BNdtdvCF;
         "pkg-1.5.11" = _zd9efSD4;
+        "pkg-1.5.10" = _BNdtdvCF;
         "pkg-1.5.12" = _mz38svG6;
         "pkg-1.5.13" = _aXkKelNh;
         "pkg-1.5.14" = _4TWwqV8M;

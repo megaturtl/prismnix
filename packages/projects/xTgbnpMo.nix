@@ -141,6 +141,16 @@ let
             "file" = "ravenbrookscraft-1.4.6 - Extras Update (The End - Patch 6)-forge-1.20.1.jar";
             "hash" = "sha512-SUv9/bUA8kcRX7l8GmF9jYGULmBMmX6nBjHLS4P7XCLvADE3ZVDnBQWjAuPERS7LMsL9UnKIOo2/wDIQska9BA==";
         };
+        _9vi5V66S = {
+            "id" = "9vi5V66S";
+            "file" = "ravenbrookscraft-1.4.7 - Extras Update-forge-1.20.1.jar";
+            "hash" = "sha512-TeXnFdptPv9v1FbZRqRrq1B+dpPe/eCgMhhv/e3BXPjjKVWAzP39pEF+hpW33yUC2zUmWUMgsgcWnFqQKQkKDQ==";
+        };
+        _WoNUdLkF = {
+            "id" = "WoNUdLkF";
+            "file" = "ravenbrookscraft-1.4.7.1 - Extras Update [Electrical Fix]-forge-1.20.1.jar";
+            "hash" = "sha512-oOfoWp/W0DeZreyC6vUifosiAO7ou623av6xdUy2LJO3A4vewvpXCHiVaRBYgkwJ8oXPXcH7hbfihDiPb8IyeQ==";
+        };
     in {
         "IRU6QhGK" = _IRU6QhGK;
         "8Zktdpkg" = _8Zktdpkg;
@@ -170,7 +180,9 @@ let
         "PRisy9WK" = _PRisy9WK;
         "J4wGvzFM" = _J4wGvzFM;
         "vfWY6lGT" = _vfWY6lGT;
-        "forge-1.20.1" = _vfWY6lGT;
+        "9vi5V66S" = _9vi5V66S;
+        "WoNUdLkF" = _WoNUdLkF;
+        "forge-1.20.1" = _WoNUdLkF;
         "pkg-1.2.0" = _IRU6QhGK;
         "pkg-1.2.2" = _8Zktdpkg;
         "pkg-1.2.3" = _O5eq0exs;
@@ -198,7 +210,9 @@ let
         "pkg-1.4.4" = _PRisy9WK;
         "pkg-1.4.5" = _J4wGvzFM;
         "pkg-1.4.6" = _vfWY6lGT;
-        "default" = _vfWY6lGT;
+        "pkg-1.4.7" = _9vi5V66S;
+        "pkg-1.4.7.1" = _WoNUdLkF;
+        "default" = _WoNUdLkF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ravenbrooks.c-hello-neighbor";

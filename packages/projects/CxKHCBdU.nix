@@ -51,6 +51,11 @@ let
             "file" = "btwaila-1.3.0.jar";
             "hash" = "sha512-QWzs+Zm7grqKO9doYsVy95496DS0vypIe+rIWJa/lSTz7FjqxXKTkS3Io9Kfdg9CKK0k/+EJ2Iognz44sqJR8Q==";
         };
+        _dIlPMdA8 = {
+            "id" = "dIlPMdA8";
+            "file" = "btwaila-1.3.1.jar";
+            "hash" = "sha512-6pp4hCd7hrmMj7fUIt7ryfR71ruNJRpy4H4NjpO9whoDb2OWxpBRg74te+0u196mzeeu13qdkkte/X52r7+b+Q==";
+        };
     in {
         "h5tmpkNP" = _h5tmpkNP;
         "AWrGmb3s" = _AWrGmb3s;
@@ -62,7 +67,8 @@ let
         "lf9vWvgQ" = _lf9vWvgQ;
         "64DdZ5g6" = _64DdZ5g6;
         "V7IY9zFC" = _V7IY9zFC;
-        "bta-babric-b1.7.3" = _V7IY9zFC;
+        "dIlPMdA8" = _dIlPMdA8;
+        "bta-babric-b1.7.3" = _dIlPMdA8;
         "pkg-1.0.8-7.1" = _h5tmpkNP;
         "pkg-1.0.9-7.1" = _AWrGmb3s;
         "pkg-1.0.10-7.1" = _UpadsjKK;
@@ -73,7 +79,8 @@ let
         "pkg-1.2.4-7.3_04" = _lf9vWvgQ;
         "pkg-1.2.5-7.3_04" = _64DdZ5g6;
         "pkg-1.3.0-8.0-pre1" = _V7IY9zFC;
-        "default" = _V7IY9zFC;
+        "pkg-1.3.1-8.0" = _dIlPMdA8;
+        "default" = _dIlPMdA8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "btwaila";

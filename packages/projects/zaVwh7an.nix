@@ -626,6 +626,201 @@ let
             "file" = "eslium-forge-4.3.jar";
             "hash" = "sha512-uz8NGqZunpFGH9VyQS1ybiRkNRjciKpYDkuh3A1RYaN+652SvT4ssSwE1Oy3BdBvuSg0GeZUHCtMSwdENZFQvw==";
         };
+        _XaQGsM8z = {
+            "id" = "XaQGsM8z";
+            "file" = "eslium-4.4.0-alpha.jar";
+            "hash" = "sha512-+J89/a36eHVMBU5bws+bme913FsFsEUSDpvZ55ygBqjlpPm2KQw206qirNxxV0Ql7RwTSx6xKl8TaIa9r/GwkQ==";
+        };
+        _zejnzJA7 = {
+            "id" = "zejnzJA7";
+            "file" = "eslium-4.4.1-alpha.jar";
+            "hash" = "sha512-2mK20jHddZeVi3OhU3qvpemPmPBf+/lPketIlhjj93uc1rpv18pKRZSNSmihJKJ9Q672W92eu0XigD9+Dt7L5A==";
+        };
+        _gPiHdKzu = {
+            "id" = "gPiHdKzu";
+            "file" = "eslium-4.4.2-alpha.jar";
+            "hash" = "sha512-rqs4X3dVTY2rcbmrGr6fzWDynal4Sx9Tz6JGJpkD5NPbD3B0fD1Coyi/6663oW8nBfX1AbUy44QP9+qSQFWTqw==";
+        };
+        _1pf1AwMs = {
+            "id" = "1pf1AwMs";
+            "file" = "eslium-4.4.3-alpha.jar";
+            "hash" = "sha512-H26zYimM1Q03Jb4pxhQ7jo82CMfnu9yjcId88R5/nSPrD2iE/edpKX8fnJHE0sQovGYR5EsvL2cF/DLJfN8jWg==";
+        };
+        _m8yORvmU = {
+            "id" = "m8yORvmU";
+            "file" = "eslium-4.4.3-alpha.jar";
+            "hash" = "sha512-GjGUHfVHNfFknXNGY9h6dQvSv6S29q0UrsSCRlf4Op88zmw/fdC4j/U+ZoCO+l/x8C1r0V3jd6FCsJHp84YyXQ==";
+        };
+        _Sqk0s4bl = {
+            "id" = "Sqk0s4bl";
+            "file" = "eslium-4.4.3-alpha.jar";
+            "hash" = "sha512-YMU2ZoCqu+S8DIdssGts6O7QvkmABveDZEH2QUWk5KXSQ62sHsFGrCxtvHzpBzdaJhrMO/HlYnFEsh0F+IafdA==";
+        };
+        _2RWgyqd3 = {
+            "id" = "2RWgyqd3";
+            "file" = "eslium-4.4.3-alpha.jar";
+            "hash" = "sha512-ngAe/VggLG/m/p0dnY6UhjAj+Rm9CFOtc579g49yYDGMILeCaFGfkBXIcPQSMxeqGCmymZnSRoryQNrJIscRBg==";
+        };
+        _GrGHJY9S = {
+            "id" = "GrGHJY9S";
+            "file" = "eslium-4.4.4-beta.jar";
+            "hash" = "sha512-yAv4iMhZnCzp2+JDnLhvFc7a4aHEuMs5yV8JjK3Nawk3Q6KsnzDLOcBroaU1Rk6VBoEcseSL3cG8NvsIiB7ylg==";
+        };
+        _bn3K15hP = {
+            "id" = "bn3K15hP";
+            "file" = "eslium-4.4.4-alpha.jar";
+            "hash" = "sha512-tqfQzhxpAnfCsa4Rmg3PgeLsapnvQD9UQgqRZ2P0d2HH3n2CI0+wFNavE5kDaiI53WyzhpOBO16w3LjzIfrzWg==";
+        };
+        _DW43SbQG = {
+            "id" = "DW43SbQG";
+            "file" = "eslium-4.4.4-beta.jar";
+            "hash" = "sha512-Fd+3MsLcGY7n5ij3LpcASMNA0QaxLvLGzLj90geQbJ3XAylLC+1DWENciq0/ztUWeN6yFm5lXaXriGWd4e19AA==";
+        };
+        _lN515VHF = {
+            "id" = "lN515VHF";
+            "file" = "eslium-4.4.4-beta.jar";
+            "hash" = "sha512-g4KXQb/TF3b7jA4l2j4fYjVwA8ySdjW9UEQqIQ4tIY+7TRzz6OCBbfm6HjVb0JrRrfFcYrgIaD5WbbwGMfykzg==";
+        };
+        _2EeGjtQG = {
+            "id" = "2EeGjtQG";
+            "file" = "eslium-4.4.4-beta.jar";
+            "hash" = "sha512-A9et6kWi2LtWAjJKldxkpsumI40pYYlBtZFtM68Y3fimI/9WteIwQoncwBDV10mz4fFCNqYHMR8As7/QvNFSQg==";
+        };
+        _Kwxft1by = {
+            "id" = "Kwxft1by";
+            "file" = "eslium-4.4.4-beta.jar";
+            "hash" = "sha512-BBghb16edOn6uA+ifX6rnaFHLgDSdVcDTEdKm6mYtjC4QTDIfSAC4dcQMTEtRo3plAgivLmQsuuBUIxqyzS80w==";
+        };
+        _CuzYGXkh = {
+            "id" = "CuzYGXkh";
+            "file" = "eslium-4.4.4-beta.jar";
+            "hash" = "sha512-OAdMwX2nf+ZGEa1ZwXwFNH3/8P6Rnhy7Frdcx4t52qlhQZlYJmgwpi9IICFeC5O/bFCXIJlKRTnBA91/0ruGvA==";
+        };
+        _vYuc2ZON = {
+            "id" = "vYuc2ZON";
+            "file" = "eslium-4.4.4-beta.jar";
+            "hash" = "sha512-/Z01Irw9zBv4sy5cSz7MyWmhUnVCdTI5B3lui3tvVfOSOTY/FZcyUgV8VLy+O/HZja0874DL345h5OHN1tg4Hg==";
+        };
+        _w5aDZbw9 = {
+            "id" = "w5aDZbw9";
+            "file" = "eslium-4.4.4-beta.jar";
+            "hash" = "sha512-0Q1oCQHfrUzLRxOGu4FTlZyZIWkyT41nB51XddNDuSWycM/rpw73flMcWpguECD/xyTgeieI63JZrn6kGokqHw==";
+        };
+        _oU5rmP9a = {
+            "id" = "oU5rmP9a";
+            "file" = "eslium-4.5.0-beta.jar";
+            "hash" = "sha512-b4LTkzo6+EIzBSsbZ3sb+HuuR56/UYi7116J9reyFKD4/C8IfYO+faKB486AE4q4wRKQOHwZdNtPjdcyO9TMrw==";
+        };
+        _TyYGvpRm = {
+            "id" = "TyYGvpRm";
+            "file" = "eslium-4.5.0-beta.jar";
+            "hash" = "sha512-5TIs8QVx600S9D+DumzbPmCQyDgaEfBxHZwbfG2a+ASdhvs7eGgzJpXYTyJvmo9RKHfFRF7ZN445WxUFCCdAZA==";
+        };
+        _1jUyrlKW = {
+            "id" = "1jUyrlKW";
+            "file" = "eslium-4.5.0-beta.jar";
+            "hash" = "sha512-n+oO7DHOIuB3I1a48N1JO6iobK9NLr56Im5Rs1mLpXK8LbRQZzzBOcq3EB1rWVseWa15IUJcYk/KFCTLPJ0Rlg==";
+        };
+        _tTtgaumg = {
+            "id" = "tTtgaumg";
+            "file" = "eslium-4.5.0-beta.jar";
+            "hash" = "sha512-+sxy5TvMfkKPJOIw0Cjh7q9sZLKYI047YlN9GwQsmVfCh3ePGDYygAef9wvRAKoojQSISK5t8ot4bZ8/CDjUIQ==";
+        };
+        _akfK0QrS = {
+            "id" = "akfK0QrS";
+            "file" = "eslium-4.5.0-beta.jar";
+            "hash" = "sha512-oQiP+SsSP33nCjUizKEdPz9y/gv97vm9/oaQykTg0tMZC0GRaquAdfmHOrw9nstTBPGdpf8B50sHBWjHy5nxkA==";
+        };
+        _mTxtm3cx = {
+            "id" = "mTxtm3cx";
+            "file" = "eslium-4.5.0-beta.jar";
+            "hash" = "sha512-sCgaOVvlKcINvQXnCWoWLZPRCU8F/TeQu5pK2kDWzovguTHpgTo0NWKuSknkDaSGsdNX/BI0niUqNVBiizWgXg==";
+        };
+        _fjB6Xiid = {
+            "id" = "fjB6Xiid";
+            "file" = "eslium-4.5.0-beta.jar";
+            "hash" = "sha512-PnvduaO0B7/UBpa9/iWs2ITTlAAukp4FTODpPE0vye5+0V6ftlWpw6295UNrnV+1lawIDPf1wpwQ7QFGoRjGnA==";
+        };
+        _r1Oy3Th3 = {
+            "id" = "r1Oy3Th3";
+            "file" = "eslium-4.5.0-beta.jar";
+            "hash" = "sha512-Br1g363k5i+EYYr7IEQyquklW5CVTl/Hub4ZkhXb7WJBdhNYdBg+5f5BdOBGLZYjiUjBGM6yN6bgZJE78bNEUQ==";
+        };
+        _HU8maLue = {
+            "id" = "HU8maLue";
+            "file" = "eslium-4.5.0-beta.jar";
+            "hash" = "sha512-stmf2VjUH+smrXjpyiCR3RC/JiFRghGjZ9IkGC6Rq4AGpVQshwmlf3RvbhNhBuJd7oxKIbQmxBHSAdeOSKHVIw==";
+        };
+        _ZX2wccPn = {
+            "id" = "ZX2wccPn";
+            "file" = "eslium-4.5.0-beta.jar";
+            "hash" = "sha512-17OdmbqmkBTPM1YnZFBsvPFIYAaa/hpnUjYox99dqKk/HjGREBtG8fJbidgh7UfrqrF47m+UGBBO+JLUoOi3CQ==";
+        };
+        _Obh4Fpa9 = {
+            "id" = "Obh4Fpa9";
+            "file" = "eslium-4.5.0-beta.jar";
+            "hash" = "sha512-b/YE7v9aNBjAZsI8/MS0x54MvAVyeWY14s7VDP8Sg+P4CjqLpKpkB2XpipphORPhBSRwmx7Wz60xoDjgTCEZRQ==";
+        };
+        _P56g0qmO = {
+            "id" = "P56g0qmO";
+            "file" = "eslium-4.5.0-beta.jar";
+            "hash" = "sha512-kVJ8dh6xLZ8FNgI7ynk/pLHlxQIbCqgyDai45OIOSTFIov8LTue3MnLUZj/3wOhzXA2DwOCWHrgbF6a4Q0G07w==";
+        };
+        _lot29UyS = {
+            "id" = "lot29UyS";
+            "file" = "eslium-4.5.0-beta.jar";
+            "hash" = "sha512-Z3pnXp8iP5Ki4MgcmZa+9ZB27WFq6IXg5fWyQ9rEIAp8PNBHJ7lFfeJPreLyrDVW5fOB3hzIOwXHoEeRq9l2BA==";
+        };
+        _w0uI6GV5 = {
+            "id" = "w0uI6GV5";
+            "file" = "eslium-4.6.0.jar";
+            "hash" = "sha512-zcPxrszRxYAkMpIUUo5Zw72XxsZSftOql3xvw3DBnzCUEKfYVLU+weYGYKgBsKnVW/DvLXeC8o43Anh7EM21jw==";
+        };
+        _CERzOxT2 = {
+            "id" = "CERzOxT2";
+            "file" = "eslium-4.6.0.jar";
+            "hash" = "sha512-Pc0eSSjdAyvJdNFfAfxR6tkxS36K2oKeGGth5FwHnW3Reg3jYUc2hZH9dPBIiRtwgTiZ8HbgYX97lGH7RXOZpQ==";
+        };
+        _cN1dXYUu = {
+            "id" = "cN1dXYUu";
+            "file" = "eslium-4.6.0.jar";
+            "hash" = "sha512-EnjDe1S7Mlfq8bslUNGLE6r8to6elZ5JSSheJIJHicA2nmCdLkCkkZR6lpnNI0PzTp40/IEQxb+TS0QTjVd5DQ==";
+        };
+        _12vCl4jf = {
+            "id" = "12vCl4jf";
+            "file" = "eslium-4.6.0.jar";
+            "hash" = "sha512-BJdmA0RiH/nzpoxh3GQ57VqpZaxv5R8Do0AGHVYR4R1NnGSy/SZYnqU9f8pUCd4Y0qFcpKNzeQl3WCMEMdgScg==";
+        };
+        _usgs2CXB = {
+            "id" = "usgs2CXB";
+            "file" = "eslium-4.6.0.jar";
+            "hash" = "sha512-kpUzMzFhtMDLXZ2iZU6O7u5OMWwQbLxsxlEmcJb2WR/aybGOmp09kzJ6i4EhqRrQccHHTZMAHZxGh/vqAAR7Vw==";
+        };
+        _6vK4ym2H = {
+            "id" = "6vK4ym2H";
+            "file" = "eslium-4.6.0.jar";
+            "hash" = "sha512-N3DDl/xCoo/FFCr5OpqEFQLt/badhXVExzdDzp3QkZJqf5itpM39TUHtOWFG+AziDKiEXFUEgFqrU3AVYB4Znw==";
+        };
+        _rAVKbMLQ = {
+            "id" = "rAVKbMLQ";
+            "file" = "eslium-4.6.0.jar";
+            "hash" = "sha512-QZMa0is+1UJ6KxyqnbBDHoGKfLAWY5o8ndGDGJdy5D3XLc1nyH30Si9qKs2aVw8uKk3uEfLVDeBnThTGUNjZPw==";
+        };
+        _Ff6mIM6q = {
+            "id" = "Ff6mIM6q";
+            "file" = "eslium-4.6.0.jar";
+            "hash" = "sha512-R02Hny9tL2ESYjBWC/iYzeuwUv5LvQYh3E4Z+C44uczRi6XUDSTvvSy6tZzVbuGw7rJ1mzOu8ONqcOok8hN0VQ==";
+        };
+        _NeQBgYVu = {
+            "id" = "NeQBgYVu";
+            "file" = "eslium-4.6.0.jar";
+            "hash" = "sha512-yWmOewx1EJlZpcxoVCIx0FrR8VrZVUAMqMNb0AbZVwk4ZPCnGqWRmGzGcJ5e4Y7EycLOBQdckmEfSb7eOGS5GQ==";
+        };
+        _7H02EHPI = {
+            "id" = "7H02EHPI";
+            "file" = "eslium-4.6.0.jar";
+            "hash" = "sha512-2gIsZMmoDZqXq9zYhdXK/u9bbVofYDadsYaxwDR6XmnBlr8PsRBYpwVrCWV5NErrGOMUVR3LgISzyoGIMJCbzA==";
+        };
     in {
         "hMlp9vbD" = _hMlp9vbD;
         "Ki5T6AaR" = _Ki5T6AaR;
@@ -752,35 +947,87 @@ let
         "wvZU13HB" = _wvZU13HB;
         "JqgzpA1p" = _JqgzpA1p;
         "JmpyLY7d" = _JmpyLY7d;
-        "fabric-1.21.5" = _BNJBFZnS;
-        "fabric-1.21" = _8fsTqGFr;
-        "fabric-1.21.1" = _8fsTqGFr;
-        "fabric-1.21.2" = _e56BSa8i;
-        "fabric-1.21.3" = _e56BSa8i;
-        "fabric-1.21.4" = _7UkSoMhi;
-        "fabric-1.21.6" = _D8cy0b47;
-        "fabric-1.21.7" = _D8cy0b47;
-        "fabric-1.21.8" = _D8cy0b47;
-        "fabric-1.21.9" = _mToeuR0l;
-        "fabric-1.21.10" = _mToeuR0l;
-        "fabric-1.21.11" = _ZTroKpDt;
-        "fabric-26.1" = _35WjQfdu;
-        "fabric-26.1.1" = _35WjQfdu;
-        "fabric-26.1.2" = _35WjQfdu;
-        "quilt-1.21" = _8fsTqGFr;
-        "quilt-1.21.1" = _8fsTqGFr;
-        "quilt-1.21.2" = _e56BSa8i;
-        "quilt-1.21.3" = _e56BSa8i;
-        "quilt-1.21.4" = _7UkSoMhi;
-        "quilt-1.21.5" = _BNJBFZnS;
-        "quilt-1.21.6" = _D8cy0b47;
-        "quilt-1.21.7" = _D8cy0b47;
-        "quilt-1.21.8" = _D8cy0b47;
-        "quilt-1.21.9" = _mToeuR0l;
-        "quilt-1.21.10" = _mToeuR0l;
-        "quilt-26.1" = _wvZU13HB;
-        "quilt-26.1.1" = _wvZU13HB;
-        "quilt-26.1.2" = _wvZU13HB;
+        "XaQGsM8z" = _XaQGsM8z;
+        "zejnzJA7" = _zejnzJA7;
+        "gPiHdKzu" = _gPiHdKzu;
+        "1pf1AwMs" = _1pf1AwMs;
+        "m8yORvmU" = _m8yORvmU;
+        "Sqk0s4bl" = _Sqk0s4bl;
+        "2RWgyqd3" = _2RWgyqd3;
+        "GrGHJY9S" = _GrGHJY9S;
+        "bn3K15hP" = _bn3K15hP;
+        "DW43SbQG" = _DW43SbQG;
+        "lN515VHF" = _lN515VHF;
+        "2EeGjtQG" = _2EeGjtQG;
+        "Kwxft1by" = _Kwxft1by;
+        "CuzYGXkh" = _CuzYGXkh;
+        "vYuc2ZON" = _vYuc2ZON;
+        "w5aDZbw9" = _w5aDZbw9;
+        "oU5rmP9a" = _oU5rmP9a;
+        "TyYGvpRm" = _TyYGvpRm;
+        "1jUyrlKW" = _1jUyrlKW;
+        "tTtgaumg" = _tTtgaumg;
+        "akfK0QrS" = _akfK0QrS;
+        "mTxtm3cx" = _mTxtm3cx;
+        "fjB6Xiid" = _fjB6Xiid;
+        "r1Oy3Th3" = _r1Oy3Th3;
+        "HU8maLue" = _HU8maLue;
+        "ZX2wccPn" = _ZX2wccPn;
+        "Obh4Fpa9" = _Obh4Fpa9;
+        "P56g0qmO" = _P56g0qmO;
+        "lot29UyS" = _lot29UyS;
+        "w0uI6GV5" = _w0uI6GV5;
+        "CERzOxT2" = _CERzOxT2;
+        "cN1dXYUu" = _cN1dXYUu;
+        "12vCl4jf" = _12vCl4jf;
+        "usgs2CXB" = _usgs2CXB;
+        "6vK4ym2H" = _6vK4ym2H;
+        "rAVKbMLQ" = _rAVKbMLQ;
+        "Ff6mIM6q" = _Ff6mIM6q;
+        "NeQBgYVu" = _NeQBgYVu;
+        "7H02EHPI" = _7H02EHPI;
+        "fabric-1.21.5" = _rAVKbMLQ;
+        "fabric-1.21" = _7H02EHPI;
+        "fabric-1.21.1" = _7H02EHPI;
+        "fabric-1.21.2" = _NeQBgYVu;
+        "fabric-1.21.3" = _NeQBgYVu;
+        "fabric-1.21.4" = _Ff6mIM6q;
+        "fabric-1.21.6" = _6vK4ym2H;
+        "fabric-1.21.7" = _6vK4ym2H;
+        "fabric-1.21.8" = _6vK4ym2H;
+        "fabric-1.21.9" = _usgs2CXB;
+        "fabric-1.21.10" = _usgs2CXB;
+        "fabric-1.21.11" = _12vCl4jf;
+        "fabric-26.1" = _cN1dXYUu;
+        "fabric-26.1.1" = _cN1dXYUu;
+        "fabric-26.1.2" = _cN1dXYUu;
+        "fabric-26.2" = _w0uI6GV5;
+        "fabric-26.3-snapshot-7" = _Sqk0s4bl;
+        "fabric-26.3-snapshot-8" = _ZX2wccPn;
+        "fabric-26.3-snapshot-9" = _Obh4Fpa9;
+        "fabric-26.3-snapshot-10" = _P56g0qmO;
+        "fabric-26.3-pre-1" = _CERzOxT2;
+        "quilt-1.21" = _7H02EHPI;
+        "quilt-1.21.1" = _7H02EHPI;
+        "quilt-1.21.2" = _NeQBgYVu;
+        "quilt-1.21.3" = _NeQBgYVu;
+        "quilt-1.21.4" = _Ff6mIM6q;
+        "quilt-1.21.5" = _rAVKbMLQ;
+        "quilt-1.21.6" = _6vK4ym2H;
+        "quilt-1.21.7" = _6vK4ym2H;
+        "quilt-1.21.8" = _6vK4ym2H;
+        "quilt-1.21.9" = _usgs2CXB;
+        "quilt-1.21.10" = _usgs2CXB;
+        "quilt-26.1" = _cN1dXYUu;
+        "quilt-26.1.1" = _cN1dXYUu;
+        "quilt-26.1.2" = _cN1dXYUu;
+        "quilt-26.2" = _w0uI6GV5;
+        "quilt-26.3-snapshot-7" = _Sqk0s4bl;
+        "quilt-1.21.11" = _12vCl4jf;
+        "quilt-26.3-snapshot-8" = _ZX2wccPn;
+        "quilt-26.3-snapshot-9" = _Obh4Fpa9;
+        "quilt-26.3-snapshot-10" = _P56g0qmO;
+        "quilt-26.3-pre-1" = _CERzOxT2;
         "forge-26.1" = _JmpyLY7d;
         "forge-26.1.1" = _JmpyLY7d;
         "forge-26.1.2" = _JmpyLY7d;
@@ -828,7 +1075,15 @@ let
         "pkg-4.2.0" = _iZrvAw6r;
         "pkg-4.2.1" = _oU5P6F6K;
         "pkg-4.3" = _JmpyLY7d;
-        "default" = _JmpyLY7d;
+        "pkg-4.4.0-alpha" = _XaQGsM8z;
+        "pkg-4.4.1-alpha" = _zejnzJA7;
+        "pkg-4.4.2-alpha" = _gPiHdKzu;
+        "pkg-4.4.3-alpha" = _2RWgyqd3;
+        "pkg-4.4.4-beta" = _w5aDZbw9;
+        "pkg-4.4.4-alpha" = _bn3K15hP;
+        "pkg-4.5.0-beta" = _lot29UyS;
+        "pkg-4.6.0" = _7H02EHPI;
+        "default" = _7H02EHPI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eslium";

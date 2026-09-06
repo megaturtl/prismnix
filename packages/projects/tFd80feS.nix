@@ -236,6 +236,11 @@ let
             "file" = "basalt_crusher-1.15.0.jar";
             "hash" = "sha512-HVFbDUy2vpvsR4Xoz6YZl3W7oZ/Mp0l6mn6s3VaMp2RaKUfWdzgtywNrv4qVuolN7y7soWUwZ4s1nnTSJsRJvA==";
         };
+        _l2F3lof9 = {
+            "id" = "l2F3lof9";
+            "file" = "basalt_crusher-1.16.0.jar";
+            "hash" = "sha512-8NHTu76o9h4iSsJT/mhpbBKpWA1eUS4gF+OhSwXyUstdyhD7+hiMx46AHVekpsPPRFFcFwCkFPW1hgi3y9qtyQ==";
+        };
     in {
         "zpJkpDcg" = _zpJkpDcg;
         "vORtYeoZ" = _vORtYeoZ;
@@ -284,6 +289,7 @@ let
         "s1mHB5pN" = _s1mHB5pN;
         "E233PFoK" = _E233PFoK;
         "lkI8YVDT" = _lkI8YVDT;
+        "l2F3lof9" = _l2F3lof9;
         "fabric-1.18" = _Q76PEGKU;
         "fabric-1.18.1" = _Q76PEGKU;
         "fabric-1.18.2" = _MTrAbPEW;
@@ -353,6 +359,7 @@ let
         "fabric-26.1" = _lkI8YVDT;
         "fabric-26.1.1" = _lkI8YVDT;
         "fabric-26.1.2" = _lkI8YVDT;
+        "fabric-26.2" = _l2F3lof9;
         "quilt-1.20-pre6" = _nhAiq8dO;
         "quilt-1.20-pre7" = _nhAiq8dO;
         "quilt-1.20-rc1" = _nhAiq8dO;
@@ -401,6 +408,7 @@ let
         "quilt-26.1" = _lkI8YVDT;
         "quilt-26.1.1" = _lkI8YVDT;
         "quilt-26.1.2" = _lkI8YVDT;
+        "quilt-26.2" = _l2F3lof9;
         "pkg-0.1.0" = _zpJkpDcg;
         "pkg-0.1.1" = _vORtYeoZ;
         "pkg-0.1.2" = _KxUF6tis;
@@ -448,7 +456,8 @@ let
         "pkg-1.13.1" = _s1mHB5pN;
         "pkg-1.14.1" = _E233PFoK;
         "pkg-1.15.0" = _lkI8YVDT;
-        "default" = _lkI8YVDT;
+        "pkg-1.16.0" = _l2F3lof9;
+        "default" = _l2F3lof9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "basalt-crusher";

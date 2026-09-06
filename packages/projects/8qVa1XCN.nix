@@ -151,6 +151,26 @@ let
             "file" = "light-overlay-2.10.3+26.2.jar";
             "hash" = "sha512-m/Zb187oXgxkTSqNhA2mAaOHA4lNR5zw78RSFnxOoYJucgAiYhlB2WWVqtv6j5Sxg2ntKN8/rsofjVfxN0wWkg==";
         };
+        _F6OCMzFA = {
+            "id" = "F6OCMzFA";
+            "file" = "light-overlay-2.10.4+26.2.jar";
+            "hash" = "sha512-cdA490Fgds7P+gTnoMWFc4KYX9dXAiXB0uJFRKNAQItbBtTptQHZiwsuxtJpR4h+Wbhb52vwwDa2/TyjUICHXw==";
+        };
+        _gm415N8d = {
+            "id" = "gm415N8d";
+            "file" = "light-overlay-2.11.0+26.2.jar";
+            "hash" = "sha512-+7qhjKTc589UGpIQoHvk74hS+gGN45Eezk3GVIXy4GgbboJj2R/Ab1sUrweX53MafZ1ITOFjLnKqShZNJhH8NA==";
+        };
+        _2H2mtn8q = {
+            "id" = "2H2mtn8q";
+            "file" = "light-overlay-2.11.1+26.2.jar";
+            "hash" = "sha512-iEydEYw3/wjd9LuF0ziW+BlKyvb4Wnr1Heq3oDiFViKQyQl9eVoc6YHNa/xEOM1bO045Zm39xWOcPOLDx54y+g==";
+        };
+        _AT01Q5uN = {
+            "id" = "AT01Q5uN";
+            "file" = "light-overlay-2.12.0+26.2.jar";
+            "hash" = "sha512-lnPzTTVvW+LvH91OhExf8tDt9z5vy9XkYxNpCaxk5sSbCE76zjtreMUO09aDR2xAcfMuBYYj+MBmY0POVUvWYg==";
+        };
     in {
         "D56GKsHd" = _D56GKsHd;
         "OsX6wHWd" = _OsX6wHWd;
@@ -182,6 +202,10 @@ let
         "DqkjFdHa" = _DqkjFdHa;
         "vFNj9Jrn" = _vFNj9Jrn;
         "oPcnpmE8" = _oPcnpmE8;
+        "F6OCMzFA" = _F6OCMzFA;
+        "gm415N8d" = _gm415N8d;
+        "2H2mtn8q" = _2H2mtn8q;
+        "AT01Q5uN" = _AT01Q5uN;
         "fabric-1.21.9" = _i5M1dSjM;
         "fabric-1.21.6" = _AXJyclVl;
         "fabric-1.21.7" = _AXJyclVl;
@@ -192,7 +216,7 @@ let
         "fabric-26.1.1-rc-1" = _vZnWXXdc;
         "fabric-26.1.1" = _Nh5BO6yG;
         "fabric-26.1.2" = _Nh5BO6yG;
-        "fabric-26.2" = _oPcnpmE8;
+        "fabric-26.2" = _AT01Q5uN;
         "pkg-1.0.0-1.21.9" = _D56GKsHd;
         "pkg-1.0.0-1.21.6-1.21.8" = _OsX6wHWd;
         "pkg-1.1.0-1.21.9" = _hu1ozhzZ;
@@ -223,7 +247,11 @@ let
         "pkg-2.10.1+26.2" = _DqkjFdHa;
         "pkg-2.10.2+26.2" = _vFNj9Jrn;
         "pkg-2.10.3+26.2" = _oPcnpmE8;
-        "default" = _oPcnpmE8;
+        "pkg-2.10.4+26.2" = _F6OCMzFA;
+        "pkg-2.11.0+26.2" = _gm415N8d;
+        "pkg-2.11.1+26.2" = _2H2mtn8q;
+        "pkg-2.12.0+26.2" = _AT01Q5uN;
+        "default" = _AT01Q5uN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lightoverlay";

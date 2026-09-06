@@ -31,6 +31,36 @@ let
             "file" = "worldplaytimereborn-1.2.5+26.2-neoforge.jar";
             "hash" = "sha512-DsK+Ps/2h9zoHslGUcT/+LoSgTE8uLtmOmDE0cdjB1qhuP5p0ZGOO68KJt6Z/wZoiGwQZ316ZrC43lO9Xffgpg==";
         };
+        _g91HCVP5 = {
+            "id" = "g91HCVP5";
+            "file" = "worldplaytimereborn-1.2.6+1.21.11-fabric.jar";
+            "hash" = "sha512-+95BiOK3PTubiReuXHFFy9bY6PJBZzMOVvl3SDL+hxD8WmXplrA7EHsACFIz3CgmjQMDIS6KlAj32GD/GHvqbw==";
+        };
+        _pCCWv0uY = {
+            "id" = "pCCWv0uY";
+            "file" = "worldplaytimereborn-1.2.6+1.21.11-neoforge.jar";
+            "hash" = "sha512-Y84MbqHtdAf0kYpQLVBUhYezalar/TQ5h/WH2z73jVez+HQcHSBMQSFw9Qd2SBOk1YOaRCFBJ3IjipxhxCjtUw==";
+        };
+        _BPPFCFdk = {
+            "id" = "BPPFCFdk";
+            "file" = "worldplaytimereborn-1.2.6+26.1.2-fabric.jar";
+            "hash" = "sha512-5158qr6DGT/CicZF1PNi6/naNdEnWXbWL+gYswZPLtGokEWb2T/IpuF4NEMcLVCcUstbtwYO9BpAtTOz8oyx7Q==";
+        };
+        _tQW0zeLb = {
+            "id" = "tQW0zeLb";
+            "file" = "worldplaytimereborn-1.2.6+26.1.2-neoforge.jar";
+            "hash" = "sha512-0Y3+1OV+9y3blNjofKR/X92jHoVFz1/A/qadV/TaPqKNK4G/Dy3A7MutVox9ovhNSBwECOGSFBfnTKWMGyaAGg==";
+        };
+        _HWpqpkOX = {
+            "id" = "HWpqpkOX";
+            "file" = "worldplaytimereborn-1.2.6+26.2-fabric.jar";
+            "hash" = "sha512-0Kdp82b7RODslgYP0mueOJmXpZRj0J26ONJIXDTRquBSUP8ZQdls4Trv9fkccjBSDpCml4PoZE1hauzrxEn5AA==";
+        };
+        _GKRvltX2 = {
+            "id" = "GKRvltX2";
+            "file" = "worldplaytimereborn-1.2.6+26.2-neoforge.jar";
+            "hash" = "sha512-KjRcOIfequMPtfSSywZwS3EraVUpRG+B3gDPo6IpWFFJuoyejqz9lJHOcTka3yE7Sthu+Js68NtRwOkEjwmOoQ==";
+        };
     in {
         "z8j0pIKF" = _z8j0pIKF;
         "tzdJcRUh" = _tzdJcRUh;
@@ -38,17 +68,24 @@ let
         "7Ib3WYga" = _7Ib3WYga;
         "lFPiLGmJ" = _lFPiLGmJ;
         "ZbaiBOYU" = _ZbaiBOYU;
-        "fabric-1.21.11" = _z8j0pIKF;
-        "fabric-26.1.2" = _1CNJom96;
-        "fabric-26.2" = _lFPiLGmJ;
-        "quilt-1.21.11" = _z8j0pIKF;
-        "quilt-26.1.2" = _1CNJom96;
-        "quilt-26.2" = _lFPiLGmJ;
-        "neoforge-1.21.11" = _tzdJcRUh;
-        "neoforge-26.1.2" = _7Ib3WYga;
-        "neoforge-26.2" = _ZbaiBOYU;
+        "g91HCVP5" = _g91HCVP5;
+        "pCCWv0uY" = _pCCWv0uY;
+        "BPPFCFdk" = _BPPFCFdk;
+        "tQW0zeLb" = _tQW0zeLb;
+        "HWpqpkOX" = _HWpqpkOX;
+        "GKRvltX2" = _GKRvltX2;
+        "fabric-1.21.11" = _g91HCVP5;
+        "fabric-26.1.2" = _BPPFCFdk;
+        "fabric-26.2" = _HWpqpkOX;
+        "quilt-1.21.11" = _g91HCVP5;
+        "quilt-26.1.2" = _BPPFCFdk;
+        "quilt-26.2" = _HWpqpkOX;
+        "neoforge-1.21.11" = _pCCWv0uY;
+        "neoforge-26.1.2" = _tQW0zeLb;
+        "neoforge-26.2" = _GKRvltX2;
         "pkg-1.2.5" = _ZbaiBOYU;
-        "default" = _ZbaiBOYU;
+        "pkg-1.2.6" = _GKRvltX2;
+        "default" = _GKRvltX2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "world-play-time-reborn";

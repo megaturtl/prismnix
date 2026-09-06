@@ -441,6 +441,21 @@ let
             "file" = "great-big-world-1.0.1+1.21.11.jar";
             "hash" = "sha512-VXWuzgGWWGp0S8iKnTjcPPvtJ39/knD39EB125eULd+DIYnhBe9Ff7nqm/sSJMqojHj7VTVePszwNvkGWVV1eA==";
         };
+        _9aD6Dx5S = {
+            "id" = "9aD6Dx5S";
+            "file" = "great-big-world-1.0.2+1.21.11.jar";
+            "hash" = "sha512-rr9RBVDu/6jOV+T6ztdJZ2YUOJWyn4/bSDorkxStfGoZ5hcg5zHY7CmZZibxacuK0rL3KSWqyqtJnm4523INDA==";
+        };
+        _Eo7Seb6U = {
+            "id" = "Eo7Seb6U";
+            "file" = "great-big-world-1.0.3+1.21.11.jar";
+            "hash" = "sha512-htEeXcYtd0rxbz+xFjZfVOeRDJsno8iTyftcKECYspj7NQUZ6RktcIWSqE6jjn3+LXtE9DOwutEgIePrCvHE7Q==";
+        };
+        _taUGMoi3 = {
+            "id" = "taUGMoi3";
+            "file" = "great-big-world-1.0.4+1.21.11.jar";
+            "hash" = "sha512-DUt3l9662PAsnmCYFTc7zYkJAAPppMRSBzYiVLF0ujMRqvLZET/8DY1dulD7i33gz3V+lRJAldlZ9V0bC4YHww==";
+        };
     in {
         "QK1MxHDx" = _QK1MxHDx;
         "aiGaet7y" = _aiGaet7y;
@@ -530,13 +545,16 @@ let
         "8Qt2LnXu" = _8Qt2LnXu;
         "EaLqPIK6" = _EaLqPIK6;
         "8h1ZJlc6" = _8h1ZJlc6;
+        "9aD6Dx5S" = _9aD6Dx5S;
+        "Eo7Seb6U" = _Eo7Seb6U;
+        "taUGMoi3" = _taUGMoi3;
         "fabric-1.20.6" = _LMN0sJBA;
         "fabric-1.21.1" = _9i7X2YrJ;
         "fabric-1.21.4" = _eCQuFNLy;
         "fabric-1.21.5" = _lNvfEUgs;
         "fabric-1.21.8" = _DtiHFpX1;
         "fabric-1.21.10" = _xx3uAtkF;
-        "fabric-1.21.11" = _8h1ZJlc6;
+        "fabric-1.21.11" = _taUGMoi3;
         "pkg-0.4.3+1.20.6" = _QK1MxHDx;
         "pkg-0.5.1+1.20.6" = _aiGaet7y;
         "pkg-0.5.2+1.20.6" = _hsMoNlVt;
@@ -625,7 +643,10 @@ let
         "pkg-0.20.14+1.21.11" = _8Qt2LnXu;
         "pkg-1.0.0+1.21.11" = _EaLqPIK6;
         "pkg-1.0.1+1.21.11" = _8h1ZJlc6;
-        "default" = _8h1ZJlc6;
+        "pkg-1.0.2+1.21.11" = _9aD6Dx5S;
+        "pkg-1.0.3+1.21.11" = _Eo7Seb6U;
+        "pkg-1.0.4+1.21.11" = _taUGMoi3;
+        "default" = _taUGMoi3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "great-big-world";

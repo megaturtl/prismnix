@@ -151,6 +151,46 @@ let
             "file" = "ts_multitools-forge-mc1.20.1-1.1.0.jar";
             "hash" = "sha512-E9xX82Q8ZifRTTpbAem81Ae2cWWYYsvYWsMN8LzBAqou6KvlSngYK4WQ/opgWCDY0I20uDxGGk6kESlckK/j6A==";
         };
+        _284pNF5o = {
+            "id" = "284pNF5o";
+            "file" = "ts_multitools-fabric-mc1.20.1-1.2.0.jar";
+            "hash" = "sha512-bhZA4ztElusdp+pk9gQOYP/Z74OpK4lFhgY91Z8vxDiltxr8Q7LZvyAxbqxbuE/TZq1L9nZDrhuqodkRvtS8JQ==";
+        };
+        _uOjPsYps = {
+            "id" = "uOjPsYps";
+            "file" = "ts_multitools-forge-mc1.20.1-1.2.0.jar";
+            "hash" = "sha512-LpU3WZJTXwGNyicm8pEZ3zSScwV2K+MibUQ1ivvDSxmUFFLT4v4iCRhIkwjfD4FW19JEHnClXpE5A0RNzpXNdA==";
+        };
+        _aaRBNQOr = {
+            "id" = "aaRBNQOr";
+            "file" = "ts_multitools-fabric-mc1.20.1-1.2.1.jar";
+            "hash" = "sha512-cV5HXnF5rAEKQTNw3z4Pydd3dLjk9TQWDTu3J/ajWIbQecAPsRnEQL/KU1f63+p/+pkjPwBGWaWCnBtPL3G/jA==";
+        };
+        _afFduL3v = {
+            "id" = "afFduL3v";
+            "file" = "ts_multitools-forge-mc1.20.1-1.2.1.jar";
+            "hash" = "sha512-VaTk6RdGCP3YByFKmi4gYW9E7K8YY5vi6SsyWBSDSbz3DO3S7DPnV22PWQ/lWssJruyNzdStb0UlCeMvYVe+qw==";
+        };
+        _c89MZHKa = {
+            "id" = "c89MZHKa";
+            "file" = "ts_multitools-fabric-mc26.1-1.2.0.jar";
+            "hash" = "sha512-Jkte2j3jd6GFMQG/qFjdHJXgI/hBWNVQ5hPSlNxVjFUYhZftOrK2v311a+Wt9eB21soqI45kG3FnV13/z3rc8Q==";
+        };
+        _Q2aXDPaJ = {
+            "id" = "Q2aXDPaJ";
+            "file" = "ts_multitools-neoforge-mc26.1-1.2.0.jar";
+            "hash" = "sha512-4hygLDSOrmBkNN1Rdds73/3pmg24hj1zWVwZtZeSD+RYP6EuFRDD+jScvsLW7tQnMDjI+R/H08E7zIS3AFPs6g==";
+        };
+        _eu9bZpD5 = {
+            "id" = "eu9bZpD5";
+            "file" = "ts_multitools-fabric-mc26.2-1.2.0.jar";
+            "hash" = "sha512-F17bFisjeDZOkj63Ore3vmhF9ez9yP5MZ38y8QUDMngfuqcjQzf0L6TS5GXBAb5/MDwJjF/orlZPog/KOuS6ww==";
+        };
+        _2HAbFKOj = {
+            "id" = "2HAbFKOj";
+            "file" = "ts_multitools-neoforge-mc26.2-1.2.0.jar";
+            "hash" = "sha512-jg/xOKbE5qtKRnUOwttLhq2ddUl/qcSiNaWYIUCv9p9p8ArEm8fWcWLbHi29po5j3HadvqWMH95QdCq+25j0FA==";
+        };
     in {
         "Q7ZCbZOa" = _Q7ZCbZOa;
         "K81cpHdj" = _K81cpHdj;
@@ -182,20 +222,28 @@ let
         "4zekU0Ls" = _4zekU0Ls;
         "58m0KLav" = _58m0KLav;
         "ZpVPUr3y" = _ZpVPUr3y;
+        "284pNF5o" = _284pNF5o;
+        "uOjPsYps" = _uOjPsYps;
+        "aaRBNQOr" = _aaRBNQOr;
+        "afFduL3v" = _afFduL3v;
+        "c89MZHKa" = _c89MZHKa;
+        "Q2aXDPaJ" = _Q2aXDPaJ;
+        "eu9bZpD5" = _eu9bZpD5;
+        "2HAbFKOj" = _2HAbFKOj;
         "fabric-1.21.8" = _6yZRAQI5;
         "fabric-1.21.9" = _GL4T8ExD;
         "fabric-1.21.10" = _GL4T8ExD;
         "fabric-1.21.11" = _KVXuqfpo;
-        "fabric-26.1" = _2Ib848e1;
-        "fabric-26.1.1" = _2Ib848e1;
-        "fabric-26.1.2" = _2Ib848e1;
-        "fabric-26.2" = _KSGJQQb0;
-        "fabric-1.20.1" = _58m0KLav;
-        "neoforge-26.1" = _vjQWs57T;
-        "neoforge-26.1.1" = _vjQWs57T;
-        "neoforge-26.1.2" = _vjQWs57T;
-        "neoforge-26.2" = _JyHqS72W;
-        "forge-1.20.1" = _ZpVPUr3y;
+        "fabric-26.1" = _c89MZHKa;
+        "fabric-26.1.1" = _c89MZHKa;
+        "fabric-26.1.2" = _c89MZHKa;
+        "fabric-26.2" = _eu9bZpD5;
+        "fabric-1.20.1" = _aaRBNQOr;
+        "neoforge-26.1" = _Q2aXDPaJ;
+        "neoforge-26.1.1" = _Q2aXDPaJ;
+        "neoforge-26.1.2" = _Q2aXDPaJ;
+        "neoforge-26.2" = _2HAbFKOj;
+        "forge-1.20.1" = _afFduL3v;
         "pkg-0.1.0" = _Q7ZCbZOa;
         "pkg-0.2.0" = _K81cpHdj;
         "pkg-0.1.1" = _w0dqtpuI;
@@ -224,7 +272,15 @@ let
         "pkg-1.0.5+1.20.1-forge" = _4zekU0Ls;
         "pkg-1.1.0+1.20.1-fabric" = _58m0KLav;
         "pkg-1.1.0+1.20.1-forge" = _ZpVPUr3y;
-        "default" = _ZpVPUr3y;
+        "pkg-1.2.0+1.20.1-fabric" = _284pNF5o;
+        "pkg-1.2.0+1.20.1-forge" = _uOjPsYps;
+        "pkg-1.2.1+1.20.1-fabric" = _aaRBNQOr;
+        "pkg-1.2.1+1.20.1-forge" = _afFduL3v;
+        "pkg-1.2.0+26.1-fabric" = _c89MZHKa;
+        "pkg-1.2.0+26.1-neoforge" = _Q2aXDPaJ;
+        "pkg-1.2.0+26.2-fabric" = _eu9bZpD5;
+        "pkg-1.2.0+26.2-neoforge" = _2HAbFKOj;
+        "default" = _2HAbFKOj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ts-multitools";

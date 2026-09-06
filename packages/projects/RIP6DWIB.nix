@@ -31,6 +31,11 @@ let
             "file" = "lumi-mc1.7.10-1.2.1.jar";
             "hash" = "sha512-VobSrplnrVsPDKhGVdj+D6nINlsHuTLXCykbddqaa49Kz/rCfPZmkaRCSzEWPuK9WKFo873RaUPKTLDrodXWiA==";
         };
+        _6FhqnLG0 = {
+            "id" = "6FhqnLG0";
+            "file" = "lumi-mc1.7.10-1.2.2.jar";
+            "hash" = "sha512-G86+qMcXvFlZXN2WZ6s0fxauXudkq88bqqs25Uq2aYvi33ArSXT3AF7KKil6ytrG4ewWI7L4Ply7CGLDc7zoBA==";
+        };
     in {
         "jUmn43oi" = _jUmn43oi;
         "58WQDxOC" = _58WQDxOC;
@@ -38,14 +43,16 @@ let
         "J9w5ywrL" = _J9w5ywrL;
         "fzHaqXCn" = _fzHaqXCn;
         "5YBG7Jna" = _5YBG7Jna;
-        "forge-1.7.10" = _5YBG7Jna;
+        "6FhqnLG0" = _6FhqnLG0;
+        "forge-1.7.10" = _6FhqnLG0;
         "pkg-1.0.0" = _jUmn43oi;
         "pkg-1.0.1" = _58WQDxOC;
         "pkg-1.0.2" = _rZZLTvno;
         "pkg-1.1.0" = _J9w5ywrL;
         "pkg-1.2.0" = _fzHaqXCn;
         "pkg-1.2.1" = _5YBG7Jna;
-        "default" = _5YBG7Jna;
+        "pkg-1.2.2" = _6FhqnLG0;
+        "default" = _6FhqnLG0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lumi1710";

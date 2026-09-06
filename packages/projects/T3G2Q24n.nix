@@ -111,6 +111,16 @@ let
             "file" = "litematic-downloader-1.1.10.jar";
             "hash" = "sha512-hi8Agx9eEH7J7u7/nZa2dzYGz+Ba5ntzDlZ3ZWcEJxgQgp8aQi8+DQiY47B5sWJmjryEUmX5r7q/AsRWF9ordQ==";
         };
+        _mPCvt8VG = {
+            "id" = "mPCvt8VG";
+            "file" = "litematic-downloader-1.1.11.jar";
+            "hash" = "sha512-0bTCp/c2upOxtUdyDgCYI6VtpLUJ3jDenKO6bQdUuAt4X4SXFNF7oC2m5Inz4qIkW1UQV4ih/x88FjmRKmN7NA==";
+        };
+        _uCveIcdb = {
+            "id" = "uCveIcdb";
+            "file" = "litematic-downloader-1.1.12.jar";
+            "hash" = "sha512-UBmrbFNoVGRqPKfjbgO+futeRxxPhwDuBOg3UmU/rHN8yl7c8FG2pp1hWtd6c8Ko8LrEtLkm9UZEbdJMmUEo+A==";
+        };
     in {
         "cl0WtiXL" = _cl0WtiXL;
         "igR9dFYU" = _igR9dFYU;
@@ -134,6 +144,8 @@ let
         "xrp3zQz7" = _xrp3zQz7;
         "FuX0PfVp" = _FuX0PfVp;
         "YeAOjBT6" = _YeAOjBT6;
+        "mPCvt8VG" = _mPCvt8VG;
+        "uCveIcdb" = _uCveIcdb;
         "fabric-1.21.6" = _sZpXHAG0;
         "fabric-1.21.7" = _sZpXHAG0;
         "fabric-1.21.8" = _sZpXHAG0;
@@ -146,7 +158,7 @@ let
         "fabric-26.1" = _FuX0PfVp;
         "fabric-26.1.1" = _FuX0PfVp;
         "fabric-26.1.2" = _FuX0PfVp;
-        "fabric-26.2" = _YeAOjBT6;
+        "fabric-26.2" = _uCveIcdb;
         "pkg-1.0.5" = _cl0WtiXL;
         "pkg-1.0.6" = _igR9dFYU;
         "pkg-1.0.7" = _e9aUONyS;
@@ -164,7 +176,9 @@ let
         "pkg-1.1.8" = _xrp3zQz7;
         "pkg-1.1.9" = _FuX0PfVp;
         "pkg-1.1.10" = _YeAOjBT6;
-        "default" = _YeAOjBT6;
+        "pkg-1.1.11" = _mPCvt8VG;
+        "pkg-1.1.12" = _uCveIcdb;
+        "default" = _uCveIcdb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "litematicdownloader";

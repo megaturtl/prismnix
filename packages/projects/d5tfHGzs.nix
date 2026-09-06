@@ -101,6 +101,51 @@ let
             "file" = "lucidity-2.0.1+1.21.9.jar";
             "hash" = "sha512-kYaK1WpczwpDV6/d7sqB9+5tq4V7rAFzYOiG0tx2/O9bNJsU5QJp2vXiRl1hcoBPvm+2goezHdTF4Z69ieSCrQ==";
         };
+        _1V9IPJ35 = {
+            "id" = "1V9IPJ35";
+            "file" = "lucidity-2.0.1+1.21.11.jar";
+            "hash" = "sha512-leokE6Zq43hE08MakGZrNnKR5FSQDbWTFO1/WL66cq8r9RT7dTQKUWMcMCNZW9cMIWDVJp+Q6OAW6C44L8yA7A==";
+        };
+        _7rf9gqEx = {
+            "id" = "7rf9gqEx";
+            "file" = "lucidity-2.0.2+1.21.11.jar";
+            "hash" = "sha512-nSOMs+Ad/bkrrEMUBmYLZs9wsr8vcb1XRIyMF44ygXWuAXcJiuXYx+q0gWVOTJksHMCxOFaXUrPpCisfBBKkpg==";
+        };
+        _eGP6VaWC = {
+            "id" = "eGP6VaWC";
+            "file" = "lucidity-2.0.2+1.21.11.jar";
+            "hash" = "sha512-vfvhoCGaZC24f9vpGM5fBYlqhRMBRetURHfz+OwsGSwxPAmFQUU0aA7+jKbgsfUIoe/tW5OuYxSuByhX0fD61A==";
+        };
+        _LK447gut = {
+            "id" = "LK447gut";
+            "file" = "lucidity-2.0.2+1.21.1.jar";
+            "hash" = "sha512-jEfU9l0CQeHjL/jzm7UXvjMFp6phBiYjiTCkKDWFPt4U64yRgbzBTYun/PI6gwKyHvWjA69xqh8NNl5zPC7spQ==";
+        };
+        _uf2bWnfu = {
+            "id" = "uf2bWnfu";
+            "file" = "lucidity-2.0.2+1.21.3.jar";
+            "hash" = "sha512-Zodr0vyb7JNAgyZVwPHyRIKplz7bCJb+JBD76RtH/jTvzaiL6NvrxvzpUtWBys83Ax2dr6i4277/8Pv9CzY5ZQ==";
+        };
+        _DvBvHbjw = {
+            "id" = "DvBvHbjw";
+            "file" = "lucidity-2.0.2+1.21.4.jar";
+            "hash" = "sha512-uBfbg/ttc5E4ZkcO9KwsZeuCoAQyHsPT3hBn+PBkuWYxuaYlpwa08rvMTSw/gN8ZRIUrlcrSeWG401MEKRcYyg==";
+        };
+        _xkFFu5t4 = {
+            "id" = "xkFFu5t4";
+            "file" = "lucidity-2.0.2+1.21.5.jar";
+            "hash" = "sha512-v596Izs+Z4uLiw1xGZUc+jNaX9/2toDPNmtxnvvmEDkaGV4F7svs0xkc+guob3PU2/f7pzsHqXv7ZOerFYHssw==";
+        };
+        _RVL7IvyQ = {
+            "id" = "RVL7IvyQ";
+            "file" = "lucidity-2.0.2+1.21.6.jar";
+            "hash" = "sha512-bH//DnWTKpNGGtaM0CQjc7XTLu2p1OPpmaap2By5bSAUBWiFFdc/9OcRBevVP7/oeLUkjKR8cpX+A1Su0TfTWQ==";
+        };
+        _FRbA2gSN = {
+            "id" = "FRbA2gSN";
+            "file" = "lucidity-2.0.2+1.21.9.jar";
+            "hash" = "sha512-oUF4TFoHnruT6bDSNUNmdmSieGLpGRePt9zVeN5Y5bscvcZogkqHAa3FGKkRTuZMrUL6e/bHBfMgBYRLYoPJIQ==";
+        };
     in {
         "luH5d65r" = _luH5d65r;
         "jK2oDChh" = _jK2oDChh;
@@ -122,17 +167,27 @@ let
         "u6ynV1Eh" = _u6ynV1Eh;
         "WuaFi5s0" = _WuaFi5s0;
         "aKZKCzQg" = _aKZKCzQg;
-        "fabric-1.21" = _vctlSbFR;
-        "fabric-1.21.1" = _vctlSbFR;
-        "fabric-1.21.3" = _mt1PCrkG;
-        "fabric-1.21.4" = _qUulEI55;
-        "fabric-1.21.5" = _u6ynV1Eh;
+        "1V9IPJ35" = _1V9IPJ35;
+        "7rf9gqEx" = _7rf9gqEx;
+        "eGP6VaWC" = _eGP6VaWC;
+        "LK447gut" = _LK447gut;
+        "uf2bWnfu" = _uf2bWnfu;
+        "DvBvHbjw" = _DvBvHbjw;
+        "xkFFu5t4" = _xkFFu5t4;
+        "RVL7IvyQ" = _RVL7IvyQ;
+        "FRbA2gSN" = _FRbA2gSN;
+        "fabric-1.21" = _LK447gut;
+        "fabric-1.21.1" = _LK447gut;
+        "fabric-1.21.3" = _uf2bWnfu;
+        "fabric-1.21.4" = _DvBvHbjw;
+        "fabric-1.21.5" = _xkFFu5t4;
         "fabric-1.21.7" = _WuaFi5s0;
         "fabric-1.21.8" = _WuaFi5s0;
-        "fabric-1.21.6" = _WuaFi5s0;
-        "fabric-1.21.2" = _mt1PCrkG;
-        "fabric-1.21.9" = _aKZKCzQg;
+        "fabric-1.21.6" = _RVL7IvyQ;
+        "fabric-1.21.2" = _uf2bWnfu;
+        "fabric-1.21.9" = _FRbA2gSN;
         "fabric-1.21.10" = _aKZKCzQg;
+        "fabric-1.21.11" = _eGP6VaWC;
         "pkg-1.5.0-1.21-fabric0.16.0" = _luH5d65r;
         "pkg-1.5.2-1.21-fabric0.16.0" = _jK2oDChh;
         "pkg-1.6.3-1.21-fabric0.16.0" = _Qk5lSJOO;
@@ -147,8 +202,16 @@ let
         "pkg-1.6.9-1.21.5-feature-complete" = _Qoavhna5;
         "pkg-1.6.9-1.21.7-feature-complete" = _ZewtbNTY;
         "pkg-1.6.9-1.21.6-feature-complete" = _QKbujtVg;
-        "pkg-2.0.1" = _aKZKCzQg;
-        "default" = _aKZKCzQg;
+        "pkg-2.0.1" = _1V9IPJ35;
+        "pkg-2.0.2" = _7rf9gqEx;
+        "pkg-2.0.2+1.21.11" = _eGP6VaWC;
+        "pkg-2.0.2+1.21.1" = _LK447gut;
+        "pkg-2.0.2+1.21.3" = _uf2bWnfu;
+        "pkg-2.0.2+1.21.4" = _DvBvHbjw;
+        "pkg-2.0.2+1.21.5" = _xkFFu5t4;
+        "pkg-2.0.2+1.21.6" = _RVL7IvyQ;
+        "pkg-2.0.2+1.21.9" = _FRbA2gSN;
+        "default" = _FRbA2gSN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lucidity-mod";

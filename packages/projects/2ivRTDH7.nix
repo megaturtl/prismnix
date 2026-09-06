@@ -111,6 +111,11 @@ let
             "file" = "TotemPartyPopper-5.0.1-1.26.2.jar";
             "hash" = "sha512-Q4C6y2Dof/BBUR10UurL3QS5wD+xQtAqrDhejM6awYnP8D0G0xf1Vf+HBW+RYFkg3z8nF1mpZyjETtfx9vRZ2Q==";
         };
+        _x06YBMid = {
+            "id" = "x06YBMid";
+            "file" = "TotemPartyPopper-5.0.2-1.26.2.jar";
+            "hash" = "sha512-va269h4bqolbQofK23+/rQw0F+6w59oTJNl4g1XU4ZTX/iWyzU+spoHIv/rwBaTMRYlf0B3CWzP9hGdprN6dUA==";
+        };
     in {
         "y2Ehn1cY" = _y2Ehn1cY;
         "WwjWuYVo" = _WwjWuYVo;
@@ -134,6 +139,7 @@ let
         "R8OApfbz" = _R8OApfbz;
         "gNlFKTGy" = _gNlFKTGy;
         "V8ttnZwN" = _V8ttnZwN;
+        "x06YBMid" = _x06YBMid;
         "fabric-1.19.4" = _FmYJW3s0;
         "fabric-1.19.3" = _UwPPHcG2;
         "fabric-1.20" = _33pzAZfH;
@@ -158,7 +164,7 @@ let
         "fabric-26.1" = _R8OApfbz;
         "fabric-26.1.1" = _R8OApfbz;
         "fabric-26.1.2" = _R8OApfbz;
-        "fabric-26.2" = _V8ttnZwN;
+        "fabric-26.2" = _x06YBMid;
         "pkg-1.0.0-1.19.4" = _y2Ehn1cY;
         "pkg-1.0.0-1.19.3" = _WwjWuYVo;
         "pkg-1.1.0-1.19.3" = _UwPPHcG2;
@@ -181,7 +187,8 @@ let
         "pkg-5.0.0-1.26.1" = _R8OApfbz;
         "pkg-5.0.0-1.26.2" = _gNlFKTGy;
         "pkg-5.0.1-1.26.2" = _V8ttnZwN;
-        "default" = _V8ttnZwN;
+        "pkg-5.0.2-1.26.2" = _x06YBMid;
+        "default" = _x06YBMid;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "totem-party-popper";

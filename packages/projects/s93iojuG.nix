@@ -331,6 +331,16 @@ let
             "file" = "ConquestReforged-forge-1.20.1-1.6.2.jar";
             "hash" = "sha512-VwlogECiMIxSQzcg+lI0K9nV6AZbpxzmeTMwCFl6cms66HsKamps+hJ7bBS2idQ7pji0RjG00Jn0FXlF13ouCg==";
         };
+        _ig3yxqkP = {
+            "id" = "ig3yxqkP";
+            "file" = "ConquestReforged-fabric-1.20.1-1.7.0.jar";
+            "hash" = "sha512-a21ala6nhMXTHmCHXtgU0gPBLlt+z8eIg9jWp1D1u9n2kcSXplYlkc2F81BOBNZwK7peVKUcn+lT517fg4ur/Q==";
+        };
+        _dpfs1fNi = {
+            "id" = "dpfs1fNi";
+            "file" = "ConquestReforged-forge-1.20.1-1.7.0.jar";
+            "hash" = "sha512-XrFWOkTtrKoYxbIql4Ge7hc8GfrguQr+LIRpHZdTNQZP/TLctnzYg4UD/NogX9mC9eEDZfC+QfFSV1p6BCcZDg==";
+        };
     in {
         "r3McPTXg" = _r3McPTXg;
         "DJzAQEJR" = _DJzAQEJR;
@@ -398,14 +408,16 @@ let
         "tkXlWdze" = _tkXlWdze;
         "8AbAfRLT" = _8AbAfRLT;
         "AaPETHNU" = _AaPETHNU;
+        "ig3yxqkP" = _ig3yxqkP;
+        "dpfs1fNi" = _dpfs1fNi;
         "forge-1.18.2" = _r3McPTXg;
         "forge-1.10.2" = _eGiFfxs4;
         "forge-1.12.2" = _6pTzZPph;
         "forge-1.15.2" = _RN1JpzyP;
         "forge-1.16.5" = _XhWbeuzx;
-        "forge-1.20.1" = _AaPETHNU;
+        "forge-1.20.1" = _dpfs1fNi;
         "fabric-1.19.2" = _J1W8579i;
-        "fabric-1.20.1" = _8AbAfRLT;
+        "fabric-1.20.1" = _ig3yxqkP;
         "pkg-7.0.4" = _r3McPTXg;
         "pkg-1.0.2" = _DJzAQEJR;
         "pkg-1.0.3" = _J1W8579i;
@@ -445,7 +457,8 @@ let
         "pkg-1.6.0" = _KkysRwHv;
         "pkg-1.6.1" = _tkXlWdze;
         "pkg-1.6.2" = _AaPETHNU;
-        "default" = _AaPETHNU;
+        "pkg-1.7.0" = _dpfs1fNi;
+        "default" = _dpfs1fNi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "conquest-reforged";

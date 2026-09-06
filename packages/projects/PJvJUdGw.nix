@@ -191,6 +191,66 @@ let
             "file" = "armory-fabric-1.4.3+1.21.1.jar";
             "hash" = "sha512-qN9vP4K/tCYOKjZ5xA950gf8n0fGZaMK1UBadiv0u03tftboMG3cj6/AQhVbZc1fKNawXvNn1SdzwGN+aAt4UQ==";
         };
+        _xEl9TpYo = {
+            "id" = "xEl9TpYo";
+            "file" = "armory-neoforge-1.4.4+1.21.1.jar";
+            "hash" = "sha512-vvRi0vPYuyFjl6aDcj+7lGBqBa2Jg58+FnsK4e3/hsHtmWZTCE6iVklrS6icPeUfEwE71T3q/ZG++kevpRB1rg==";
+        };
+        _NCaBkeIt = {
+            "id" = "NCaBkeIt";
+            "file" = "armory-fabric-1.4.4+1.21.1.jar";
+            "hash" = "sha512-02JcTzrwW3sZW1Vlkzc54WSiW14+/8sSDe/cHRJhMSv4CXYo6XoPG30Ob6Yu3S8332IBFkM3KQK552/CsSDYxw==";
+        };
+        _dUXTUkG9 = {
+            "id" = "dUXTUkG9";
+            "file" = "armory-fabric-1.5.0+1.21.1.jar";
+            "hash" = "sha512-PuBU7jsEeB5LP1b9Yl29aTwX5nUon7/01aF+UPe2NysQ/4B9MPrvefP/13BsPXX1x2Vjr0VoiiJ89PbO9k0H3w==";
+        };
+        _3m2nty1T = {
+            "id" = "3m2nty1T";
+            "file" = "armory-neoforge-1.5.0+1.21.1.jar";
+            "hash" = "sha512-JWFRdn4AmvO9d0lPnFN+vM/q0IZCdjYA4le178EEgnm1r8A6koW5LG3G/0hcXRC9/QgHcDxqbMJ9MsyhPc3Reg==";
+        };
+        _whSvYwkK = {
+            "id" = "whSvYwkK";
+            "file" = "armory-fabric-1.5.1+1.21.1.jar";
+            "hash" = "sha512-QdrdCzNSTpXhceKxTrE7DN7qpY66eLZpffb1CfgYLEUDTOdfqDdxhX6q5CTtKKQKhfE1AC08owNi4ZjNa8CxVg==";
+        };
+        _xyXu7fxK = {
+            "id" = "xyXu7fxK";
+            "file" = "armory-neoforge-1.5.1+1.21.1.jar";
+            "hash" = "sha512-ob2HKsN0c3ecnjGCUhSYgDYcIiyYH/k8oFZFilE6pFPqvYoRL7jEhS97cDOBM0HQ2aM2HQ24XBIh6VwQfPZcuw==";
+        };
+        _Dn09X5Dm = {
+            "id" = "Dn09X5Dm";
+            "file" = "armory-fabric-1.5.2+1.21.1.jar";
+            "hash" = "sha512-rVP6a9rbgEp/X03H59FYMr66nOSVrXoEHh7ivHC0wCPJKC1V0D8LMY8Rph+8rr3W1h67LH6J9fGGAZmWeMt3kA==";
+        };
+        _51cccxUm = {
+            "id" = "51cccxUm";
+            "file" = "armory-neoforge-1.5.2+1.21.1.jar";
+            "hash" = "sha512-NHfa/UcAnr7h6L5YMYJXAIjiZTaAvWqAUN8OIV6JbdbH/odKtHgxTabvKZPWFDNFTqsD0BMxYN2qLE2iuB3VVg==";
+        };
+        _WJxHHeHe = {
+            "id" = "WJxHHeHe";
+            "file" = "armory-fabric-1.5.2+26.1.2.jar";
+            "hash" = "sha512-OD0l8CGpStnrz+1h9WzXljtQ+1adfe/0HWk+q1Vwdhiwad/7kYGhbRivRIHunT4BIHzbHOCs9GZssZ4M2S+eHA==";
+        };
+        _uxMRzlEa = {
+            "id" = "uxMRzlEa";
+            "file" = "armory-neoforge-1.5.2+26.1.2.jar";
+            "hash" = "sha512-Fc1HKIewkUEapbRvymAjVLNH1c/bO8szx7hh1fu45PPEyUbsBWq9iG84VC06fy+aHv2227KI0hXA/S44+6vBKQ==";
+        };
+        _hdSb38L8 = {
+            "id" = "hdSb38L8";
+            "file" = "armory-fabric-1.5.2+26.2.jar";
+            "hash" = "sha512-aEUphbkslQHLWfuWA7XN7GJhN8fBrXRJFtaE6IflUu0L1ooc6Cz/9hTsuUR5uT3OxIxSCHjW8emeOZCooTEr1g==";
+        };
+        _NQe80vqo = {
+            "id" = "NQe80vqo";
+            "file" = "armory-neoforge-1.5.2+26.2.jar";
+            "hash" = "sha512-hB/kCHvbmQHX9IvviZDjw8CQiPjxDZFspAEpKf86Hzdqd+VRIYRaq1/6ucgi1t2Vw5tAVp1gWboFKONDz2pfNg==";
+        };
     in {
         "Ofr1aGxw" = _Ofr1aGxw;
         "wyYhOenl" = _wyYhOenl;
@@ -230,8 +290,20 @@ let
         "gCi4yQrf" = _gCi4yQrf;
         "IIw45veq" = _IIw45veq;
         "OZUtWumV" = _OZUtWumV;
-        "fabric-1.21" = _OZUtWumV;
-        "fabric-1.21.1" = _OZUtWumV;
+        "xEl9TpYo" = _xEl9TpYo;
+        "NCaBkeIt" = _NCaBkeIt;
+        "dUXTUkG9" = _dUXTUkG9;
+        "3m2nty1T" = _3m2nty1T;
+        "whSvYwkK" = _whSvYwkK;
+        "xyXu7fxK" = _xyXu7fxK;
+        "Dn09X5Dm" = _Dn09X5Dm;
+        "51cccxUm" = _51cccxUm;
+        "WJxHHeHe" = _WJxHHeHe;
+        "uxMRzlEa" = _uxMRzlEa;
+        "hdSb38L8" = _hdSb38L8;
+        "NQe80vqo" = _NQe80vqo;
+        "fabric-1.21" = _Dn09X5Dm;
+        "fabric-1.21.1" = _Dn09X5Dm;
         "fabric-1.21.2" = _Ofr1aGxw;
         "fabric-1.21.3" = _Ofr1aGxw;
         "fabric-1.21.4" = _Ofr1aGxw;
@@ -239,8 +311,16 @@ let
         "fabric-1.21.6" = _Ofr1aGxw;
         "fabric-1.21.7" = _Ofr1aGxw;
         "fabric-1.21.8" = _Ofr1aGxw;
-        "neoforge-1.21" = _IIw45veq;
-        "neoforge-1.21.1" = _IIw45veq;
+        "fabric-26.1" = _WJxHHeHe;
+        "fabric-26.1.1" = _WJxHHeHe;
+        "fabric-26.1.2" = _WJxHHeHe;
+        "fabric-26.2" = _hdSb38L8;
+        "neoforge-1.21" = _51cccxUm;
+        "neoforge-1.21.1" = _51cccxUm;
+        "neoforge-26.1" = _uxMRzlEa;
+        "neoforge-26.1.1" = _uxMRzlEa;
+        "neoforge-26.1.2" = _uxMRzlEa;
+        "neoforge-26.2" = _NQe80vqo;
         "pkg-1.0.0+1.21.1" = _Ofr1aGxw;
         "pkg-1.0.1+1.21.1" = _wyYhOenl;
         "pkg-1.0.2+1.21.1" = _jVZLjdKQ;
@@ -279,7 +359,19 @@ let
         "pkg-1.4.2+1.21.1-neoforge" = _gCi4yQrf;
         "pkg-1.4.3+1.21.1-neoforge" = _IIw45veq;
         "pkg-1.4.3+1.21.1-fabric" = _OZUtWumV;
-        "default" = _OZUtWumV;
+        "pkg-1.4.4+1.21.1-neoforge" = _xEl9TpYo;
+        "pkg-1.4.4+1.21.1-fabric" = _NCaBkeIt;
+        "pkg-1.5.0+1.21.1-fabric" = _dUXTUkG9;
+        "pkg-1.5.0+1.21.1-neoforge" = _3m2nty1T;
+        "pkg-1.5.1+1.21.1-fabric" = _whSvYwkK;
+        "pkg-1.5.1+1.21.1-neoforge" = _xyXu7fxK;
+        "pkg-1.5.2+1.21.1-fabric" = _Dn09X5Dm;
+        "pkg-1.5.2+1.21.1-neoforge" = _51cccxUm;
+        "pkg-1.5.2+26.1.2-fabric" = _WJxHHeHe;
+        "pkg-1.5.2+26.1.2-neoforge" = _uxMRzlEa;
+        "pkg-1.5.2+26.2-fabric" = _hdSb38L8;
+        "pkg-1.5.2+26.2-neoforge" = _NQe80vqo;
+        "default" = _NQe80vqo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armory-rpg-series";

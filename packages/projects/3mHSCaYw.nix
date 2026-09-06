@@ -56,6 +56,11 @@ let
             "file" = "BetterNether-20.0.11.jar";
             "hash" = "sha512-CY5P/4/JIHpz/dLDBK8j4G+pDqMpF2TemqBT5oQiffzllsnScPYJUl2QWfpPRbtzCuCy5Q/juhMDyRtMX6mufQ==";
         };
+        _BEw6Aggq = {
+            "id" = "BEw6Aggq";
+            "file" = "BetterNether-20.0.12.jar";
+            "hash" = "sha512-YGqET+yWFIkQl03zHs+z2GPkys2cU530XHXZzkyiff9FmlhaFciYXSu3m4i24/tsYWLvsbP4D6dkoAW83CCHqA==";
+        };
     in {
         "YCJD19nE" = _YCJD19nE;
         "D0hsK8iJ" = _D0hsK8iJ;
@@ -68,7 +73,8 @@ let
         "pMY9iGXs" = _pMY9iGXs;
         "UJBNzSqS" = _UJBNzSqS;
         "gVvBKz4Q" = _gVvBKz4Q;
-        "forge-1.20.1" = _gVvBKz4Q;
+        "BEw6Aggq" = _BEw6Aggq;
+        "forge-1.20.1" = _BEw6Aggq;
         "pkg-20.0.1" = _YCJD19nE;
         "pkg-20.0.2" = _D0hsK8iJ;
         "pkg-20.0.3" = _93iumgB0;
@@ -80,7 +86,8 @@ let
         "pkg-20.0.9" = _pMY9iGXs;
         "pkg-20.0.10" = _UJBNzSqS;
         "pkg-20.0.11" = _gVvBKz4Q;
-        "default" = _gVvBKz4Q;
+        "pkg-20.0.12" = _BEw6Aggq;
+        "default" = _BEw6Aggq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betternether-forge";

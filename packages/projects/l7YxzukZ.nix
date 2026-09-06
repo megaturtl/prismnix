@@ -66,6 +66,31 @@ let
             "file" = "sons-of-sins-1.20.1-2.1.11.jar";
             "hash" = "sha512-/AnOSZsfeIilMgucWmjwXCV8N90fCqA5pSc4+TeeOgkWpUkWXkHc+PxHcOm6rXXTwr0sdp13StURjzbShGp5Yw==";
         };
+        _zxuIhpHB = {
+            "id" = "zxuIhpHB";
+            "file" = "sons_of_sins-1.20.1-2.2.0.jar";
+            "hash" = "sha512-k94/Jr7O1U7Jd7rftYZdSQUyAZ8vPJCMIsdVvbY4ITqfyD+D7iv4YygdUYPLN2DTSBsIOW3wiSFkTO18jUGQAg==";
+        };
+        _nTyGeqcX = {
+            "id" = "nTyGeqcX";
+            "file" = "sons_of_sins-2.2.1-forge-1.20.1.jar";
+            "hash" = "sha512-RBIh5j24R/PRPZfCwQl7OxW9rgu4R0yJLNF2t6tzM7ah38A+n2QeEnm0yJDRHeyjcE3VnHBf8dHMYdwJ34b/oA==";
+        };
+        _zyBxfBmE = {
+            "id" = "zyBxfBmE";
+            "file" = "sons_of_sins-2.2.1b-neoforge-1.21.1.jar";
+            "hash" = "sha512-YLWUk3xDfZsFdIj8FBnGQI7Tp6+HlLgASJi/ZAVOYi0u+zs69u/2UzHK58uapWnrXy4qSaKC2PSij8tYdQmZ5g==";
+        };
+        _Ht6dwOOn = {
+            "id" = "Ht6dwOOn";
+            "file" = "sons_of_sins-2.2.1c-neoforge-1.21.1.jar";
+            "hash" = "sha512-FGhppSmHL6Kvs4nzYk7nVoELVRi2tMowiuKGtLPTDgzKy7c1QUPt/AJlWq4BtnZo8ZhQIBlDob5z2VvPErRlRw==";
+        };
+        _kE6s629n = {
+            "id" = "kE6s629n";
+            "file" = "sons_of_sins-2.2.1d-neoforge-1.21.1.jar";
+            "hash" = "sha512-g0IFYb9OIkfbc0azJqo14rmMGTmQSKUrf9D33bPyP8oSnGndBzDaH0lXCPMPOvwE4BsZ8WSRN2hN0t1fUBw/gg==";
+        };
     in {
         "w8cakGLd" = _w8cakGLd;
         "JCcfvz6C" = _JCcfvz6C;
@@ -80,8 +105,14 @@ let
         "aLaneJCe" = _aLaneJCe;
         "OffKysVW" = _OffKysVW;
         "RaKzYFbP" = _RaKzYFbP;
-        "forge-1.20.1" = _RaKzYFbP;
+        "zxuIhpHB" = _zxuIhpHB;
+        "nTyGeqcX" = _nTyGeqcX;
+        "zyBxfBmE" = _zyBxfBmE;
+        "Ht6dwOOn" = _Ht6dwOOn;
+        "kE6s629n" = _kE6s629n;
+        "forge-1.20.1" = _nTyGeqcX;
         "forge-1.19.2" = _luBWTc8c;
+        "neoforge-1.21.1" = _kE6s629n;
         "pkg-2.0.2" = _w8cakGLd;
         "pkg-2.0.3" = _ns5REX04;
         "pkg-2.0.4" = _Xii2urKA;
@@ -92,7 +123,12 @@ let
         "pkg-2.1.8" = _aLaneJCe;
         "pkg-2.1.9" = _OffKysVW;
         "pkg-2.1.11" = _RaKzYFbP;
-        "default" = _RaKzYFbP;
+        "pkg-2.2.0" = _zxuIhpHB;
+        "pkg-2.2.1" = _nTyGeqcX;
+        "pkg-2.2.1.b" = _zyBxfBmE;
+        "pkg-2.2.1.c" = _Ht6dwOOn;
+        "pkg-2.2.1.d" = _kE6s629n;
+        "default" = _kE6s629n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sons-of-sins";

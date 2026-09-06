@@ -21,17 +21,24 @@ let
             "file" = "hudglassescc-0.1.3-beta.jar";
             "hash" = "sha512-n6QiRaFnmCOBIbskci+nWgLemoUjDkcnvm9AcBXxA744UY54k/VgPuo1X+UA71TVJ/GkitPTFnFS3WpxpXVVnQ==";
         };
+        _BTQbUFYC = {
+            "id" = "BTQbUFYC";
+            "file" = "hudglassescc-0.1.4-beta.jar";
+            "hash" = "sha512-7IJOFff6CwybLmTszkcVuGcXOHK6EyMxTmdh2gvv11+sHIBzmrGtwNTMDbfESI9zX09gWFKTnov05sdK2iLvuA==";
+        };
     in {
         "1mHUe2wV" = _1mHUe2wV;
         "bl2oxWXU" = _bl2oxWXU;
         "1mBe7FjW" = _1mBe7FjW;
         "6p53WFd6" = _6p53WFd6;
-        "neoforge-1.21.1" = _6p53WFd6;
+        "BTQbUFYC" = _BTQbUFYC;
+        "neoforge-1.21.1" = _BTQbUFYC;
         "pkg-0.1.0-beta" = _1mHUe2wV;
         "pkg-0.1.1-beta" = _bl2oxWXU;
         "pkg-0.1.2-beta" = _1mBe7FjW;
         "pkg-0.1.3-beta" = _6p53WFd6;
-        "default" = _6p53WFd6;
+        "pkg-0.1.4-beta" = _BTQbUFYC;
+        "default" = _BTQbUFYC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cc-hud-glasses";

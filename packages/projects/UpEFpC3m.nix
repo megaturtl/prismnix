@@ -161,6 +161,16 @@ let
             "file" = "more_lights-1.3-26.1.2.jar";
             "hash" = "sha512-yFuVE1s+S+1Qhq2yo7P0OmwynK/39htKvPlgEgVidpaj+M4kK1ZYwakgux5HwKDXVQQNyI2FPaU7OtOGQ0+7gQ==";
         };
+        _LokJ1MIc = {
+            "id" = "LokJ1MIc";
+            "file" = "more_lights-1.3-fabric-26.1.jar";
+            "hash" = "sha512-+xWTzkZqqrRxz4kq8W8zaIHQMfLs42POiSldE3s3E910y6zZncb1aRXpTxGLqUtjanlnkwTxrF/dlGQGGg5Ezg==";
+        };
+        _OU6Ljw5v = {
+            "id" = "OU6Ljw5v";
+            "file" = "more_lights-1.3-fabric-26.2.jar";
+            "hash" = "sha512-6Wm72g7o0eAKyifW2/HUPzJu0MDQ04pMoLMrSJjZExBOk/LpsZheZSHiduMKQOEYZ+fFXS9ZkjtBlLysxC0H8Q==";
+        };
     in {
         "vhh6uCS6" = _vhh6uCS6;
         "Nj33yiOL" = _Nj33yiOL;
@@ -194,6 +204,8 @@ let
         "oafDSyrW" = _oafDSyrW;
         "Vul7VI0E" = _Vul7VI0E;
         "YQf7PgbG" = _YQf7PgbG;
+        "LokJ1MIc" = _LokJ1MIc;
+        "OU6Ljw5v" = _OU6Ljw5v;
         "neoforge-1.21.1" = _HU2TMzK1;
         "neoforge-1.21.3" = _GfDpGxP7;
         "neoforge-1.21.4" = _aVDlbaij;
@@ -207,6 +219,7 @@ let
         "neoforge-26.2" = _YQf7PgbG;
         "fabric-1.21" = _1OLeHhQM;
         "fabric-1.21.1" = _1OLeHhQM;
+        "fabric-1.21.2" = _NtQTd1Io;
         "fabric-1.21.3" = _NtQTd1Io;
         "fabric-1.21.4" = _4SuYGacX;
         "fabric-1.21.5" = _A4Lqj7JF;
@@ -216,6 +229,10 @@ let
         "fabric-1.21.9" = _oafDSyrW;
         "fabric-1.21.10" = _oafDSyrW;
         "fabric-1.21.11" = _Vul7VI0E;
+        "fabric-26.1" = _LokJ1MIc;
+        "fabric-26.1.1" = _LokJ1MIc;
+        "fabric-26.1.2" = _LokJ1MIc;
+        "fabric-26.2" = _OU6Ljw5v;
         "pkg-0.1" = _vhh6uCS6;
         "pkg-0.2" = _Nj33yiOL;
         "pkg-0.3" = _H0YLTLvn;
@@ -226,8 +243,8 @@ let
         "pkg-1.0.5" = _hH5BSlSZ;
         "pkg-1.1" = _eOTqfoq7;
         "pkg-1.2" = _BHDfS2Ew;
-        "pkg-1.3" = _YQf7PgbG;
-        "default" = _YQf7PgbG;
+        "pkg-1.3" = _OU6Ljw5v;
+        "default" = _OU6Ljw5v;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-lights";

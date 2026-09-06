@@ -36,6 +36,7 @@ let
         "bukkit-26.1" = _olAChofR;
         "bukkit-26.1.1" = _olAChofR;
         "bukkit-26.1.2" = _olAChofR;
+        "bukkit-26.2" = _olAChofR;
         "paper-1.20" = _olAChofR;
         "paper-1.20.1" = _olAChofR;
         "paper-1.20.2" = _olAChofR;
@@ -58,6 +59,7 @@ let
         "paper-26.1" = _olAChofR;
         "paper-26.1.1" = _olAChofR;
         "paper-26.1.2" = _olAChofR;
+        "paper-26.2" = _olAChofR;
         "purpur-1.20" = _olAChofR;
         "purpur-1.20.1" = _olAChofR;
         "purpur-1.20.2" = _olAChofR;
@@ -80,6 +82,7 @@ let
         "purpur-26.1" = _olAChofR;
         "purpur-26.1.1" = _olAChofR;
         "purpur-26.1.2" = _olAChofR;
+        "purpur-26.2" = _olAChofR;
         "spigot-1.20" = _olAChofR;
         "spigot-1.20.1" = _olAChofR;
         "spigot-1.20.2" = _olAChofR;
@@ -102,6 +105,7 @@ let
         "spigot-26.1" = _olAChofR;
         "spigot-26.1.1" = _olAChofR;
         "spigot-26.1.2" = _olAChofR;
+        "spigot-26.2" = _olAChofR;
         "folia-1.20" = _olAChofR;
         "folia-1.20.1" = _olAChofR;
         "folia-1.20.2" = _olAChofR;
@@ -124,6 +128,7 @@ let
         "folia-26.1" = _olAChofR;
         "folia-26.1.1" = _olAChofR;
         "folia-26.1.2" = _olAChofR;
+        "folia-26.2" = _olAChofR;
         "pkg-1.0" = _YlQ5grB2;
         "pkg-1.1" = _olAChofR;
         "default" = _olAChofR;

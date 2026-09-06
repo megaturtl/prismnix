@@ -81,6 +81,21 @@ let
             "file" = "FADGhosts-forge1.20.1-1.5.0-entropy.jar";
             "hash" = "sha512-9nkkLClwCZ7Pl0VjNlrI8UYH3wHc4t4ER6BZw7njJxRNdr3JTjm+SECLb0rvb59Zt4J+yuP+YKbSKNIoeC7n8Q==";
         };
+        _gtkko9u9 = {
+            "id" = "gtkko9u9";
+            "file" = "FADGhosts-forge1.20.1-1.6.0-entropy.jar";
+            "hash" = "sha512-i6hFbirPjBzPmBYXInrDlcomFcI/EbiJy5Gfmfg0yeEKDvwUCsc2TVt0LTh/GCrKMz67+KgVPI5IvpNp0sgQUA==";
+        };
+        _swnsCQDO = {
+            "id" = "swnsCQDO";
+            "file" = "FADGhosts-forge1.20.1-1.6.1-entropy.jar";
+            "hash" = "sha512-SHXbn6KQHBp7LnLLmG8blrEdBlsxzJV/1OhGLoHVg2CoXRaOk9RcqN8zYJ9VPkWGenXjA1KSUWFZ90ntBJrmjw==";
+        };
+        _uidWwpyK = {
+            "id" = "uidWwpyK";
+            "file" = "FADGhosts-forge1.20.1-1.6.2-entropy.jar";
+            "hash" = "sha512-vmx8mC2D0LZ99Bo8y+5+FyZk/gBm79abxpZZjbaSYxvN8ZfbbdXEhDvbCszKZBIKWTOD1jmekZOGdOKarT8Adw==";
+        };
     in {
         "hbO3fn9U" = _hbO3fn9U;
         "BXkr0fyG" = _BXkr0fyG;
@@ -98,7 +113,10 @@ let
         "XU5YXYKr" = _XU5YXYKr;
         "DODeepD4" = _DODeepD4;
         "CBtFjIP6" = _CBtFjIP6;
-        "forge-1.20.1" = _CBtFjIP6;
+        "gtkko9u9" = _gtkko9u9;
+        "swnsCQDO" = _swnsCQDO;
+        "uidWwpyK" = _uidWwpyK;
+        "forge-1.20.1" = _uidWwpyK;
         "pkg-1.0.0" = _hbO3fn9U;
         "pkg-1.0.1" = _BXkr0fyG;
         "pkg-1.0.2" = _X68zWlcp;
@@ -115,7 +133,10 @@ let
         "pkg-1.4.2" = _XU5YXYKr;
         "pkg-1.4.3" = _DODeepD4;
         "pkg-1.5.0" = _CBtFjIP6;
-        "default" = _CBtFjIP6;
+        "pkg-1.6.0" = _gtkko9u9;
+        "pkg-1.6.1" = _swnsCQDO;
+        "pkg-1.6.2" = _uidWwpyK;
+        "default" = _uidWwpyK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "from-another-dimensionghosts";

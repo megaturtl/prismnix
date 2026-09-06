@@ -16,11 +16,6 @@ let
             "file" = "decentbiomes 1.19.2 forge.jar";
             "hash" = "sha512-bIKpShLy44sKV8JYN8mw173AF4/jXTha+JEjLoKbPvbkLc2ocl0pjISHWdXm+dkMNYpvPBCxo/DyHTkioQ7nFg==";
         };
-        _RfQVpopz = {
-            "id" = "RfQVpopz";
-            "file" = "decentbiomes 1.19.4 forge.jar";
-            "hash" = "sha512-bZEP3hQVq58AVKulAx2Dda5b02f3uxPKDLDwDuPrxrzbNcKTmBgrfoKXJlAIHzceOLFP5t76OTv1gWdoowd4qg==";
-        };
         _HsPXgRwI = {
             "id" = "HsPXgRwI";
             "file" = "decentbiomes 1.20.1 forge.jar";
@@ -30,17 +25,14 @@ let
         "bJbWTc2t" = _bJbWTc2t;
         "ZundK61N" = _ZundK61N;
         "xqDFwJ1w" = _xqDFwJ1w;
-        "RfQVpopz" = _RfQVpopz;
         "HsPXgRwI" = _HsPXgRwI;
         "forge-1.18.2" = _bJbWTc2t;
         "forge-1.16.5" = _ZundK61N;
         "forge-1.19.2" = _xqDFwJ1w;
-        "forge-1.19.4" = _RfQVpopz;
         "forge-1.20.1" = _HsPXgRwI;
         "pkg-1.3.0" = _bJbWTc2t;
         "pkg-1.4.0" = _ZundK61N;
         "pkg-1.2.0" = _xqDFwJ1w;
-        "pkg-1.1.0" = _RfQVpopz;
         "pkg-1.0.0" = _HsPXgRwI;
         "default" = _HsPXgRwI;
     });

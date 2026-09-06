@@ -276,6 +276,11 @@ let
             "file" = "extractpoison-26.2.0-3.5.jar";
             "hash" = "sha512-Bf4Sl3xnm96muNTs5BVzX9adwtzDcqyCs8wZPRdkwypeB2MyzBknKEsP91dUr131OI705RW3HpaF6XuTfHuigg==";
         };
+        _G4ERLAv0 = {
+            "id" = "G4ERLAv0";
+            "file" = "extractpoison-26.2.0-3.6.jar";
+            "hash" = "sha512-REWqjvu4HQ7NT1IokWNji8l5BIaT0kdK73jFNu0FJxUEYSKsrP1HYchzPgd25QUwIn7V8Yp+cHouYdML2SbjDw==";
+        };
     in {
         "IkWFRUYy" = _IkWFRUYy;
         "lkuszicv" = _lkuszicv;
@@ -332,6 +337,7 @@ let
         "k2z9KgMC" = _k2z9KgMC;
         "gfAwhZSo" = _gfAwhZSo;
         "fEVllI7f" = _fEVllI7f;
+        "G4ERLAv0" = _G4ERLAv0;
         "fabric-1.16.5" = _BMUIBRWd;
         "fabric-1.18.2" = _JX3zXMz7;
         "fabric-1.19.2" = _DGbzoQkR;
@@ -359,7 +365,7 @@ let
         "fabric-26.1" = _wEsPmA48;
         "fabric-26.1.1" = _k2z9KgMC;
         "fabric-26.1.2" = _gfAwhZSo;
-        "fabric-26.2" = _fEVllI7f;
+        "fabric-26.2" = _G4ERLAv0;
         "forge-1.16.5" = _M0AtD8Bo;
         "forge-1.18.2" = _JX3zXMz7;
         "forge-1.19.2" = _DGbzoQkR;
@@ -385,7 +391,7 @@ let
         "forge-26.1" = _wEsPmA48;
         "forge-26.1.1" = _k2z9KgMC;
         "forge-26.1.2" = _gfAwhZSo;
-        "forge-26.2" = _fEVllI7f;
+        "forge-26.2" = _G4ERLAv0;
         "quilt-1.18.2" = _JX3zXMz7;
         "quilt-1.19.2" = _DGbzoQkR;
         "quilt-1.19.3" = _vZTmBxIs;
@@ -412,7 +418,7 @@ let
         "quilt-26.1" = _wEsPmA48;
         "quilt-26.1.1" = _k2z9KgMC;
         "quilt-26.1.2" = _gfAwhZSo;
-        "quilt-26.2" = _fEVllI7f;
+        "quilt-26.2" = _G4ERLAv0;
         "neoforge-1.20.2" = _x7qHhjmg;
         "neoforge-1.20.1" = _d8t8ljrP;
         "neoforge-1.20.3" = _OkxVS2tv;
@@ -434,7 +440,7 @@ let
         "neoforge-26.1" = _wEsPmA48;
         "neoforge-26.1.1" = _k2z9KgMC;
         "neoforge-26.1.2" = _gfAwhZSo;
-        "neoforge-26.2" = _fEVllI7f;
+        "neoforge-26.2" = _G4ERLAv0;
         "pkg-1.16.5-2.0-fabric" = _IkWFRUYy;
         "pkg-1.18.2-2.0-fabric" = _lkuszicv;
         "pkg-1.19.2-2.1-fabric" = _XJZCyjVF;
@@ -490,7 +496,8 @@ let
         "pkg-26.1.1-3.5-fabric+forge+neo" = _k2z9KgMC;
         "pkg-26.1.2-3.5-fabric+forge+neo" = _gfAwhZSo;
         "pkg-26.2.0-3.5-fabric+forge+neo" = _fEVllI7f;
-        "default" = _fEVllI7f;
+        "pkg-26.2.0-3.6-fabric+forge+neo" = _G4ERLAv0;
+        "default" = _G4ERLAv0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "extract-poison";

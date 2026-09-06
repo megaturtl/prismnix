@@ -36,6 +36,16 @@ let
             "file" = "lcmcmod-0.3.5-forge-1.20.1.jar";
             "hash" = "sha512-6guUCHkeUaqPN46zZJ9+IjgD8FHOvBdbHEc+u0QbBZu2jPTDIS4uId2jaMhefFZOo0aGUIVRJZay6Wui+S5l4g==";
         };
+        _NbDqPrLc = {
+            "id" = "NbDqPrLc";
+            "file" = "nlcmc-0.0.1-neoforge-26.1.2.jar";
+            "hash" = "sha512-MBEFWyy+h7cnuUJIFIYOGwENpEdljWuubjqJfMQzIHGxMMVZc4mq8H45JhpMywYS1mmMA1elhN6oV7VlDYzuEQ==";
+        };
+        _KHz4ghko = {
+            "id" = "KHz4ghko";
+            "file" = "nlcmc-0.0.2-neoforge-26.1.2.jar";
+            "hash" = "sha512-Xbo5LHRJBVpx514kUkbOzDu/XXnK1AL5nK9fO24bXMQXm1qMESnSHdazEnEKbYYK56k6sjWfc8FVAJFYcFGZiA==";
+        };
     in {
         "6IhaV067" = _6IhaV067;
         "WjSBNhd5" = _WjSBNhd5;
@@ -44,14 +54,19 @@ let
         "39kbOtq9" = _39kbOtq9;
         "Q4JLN1to" = _Q4JLN1to;
         "c3RaccI0" = _c3RaccI0;
+        "NbDqPrLc" = _NbDqPrLc;
+        "KHz4ghko" = _KHz4ghko;
         "forge-1.20.1" = _c3RaccI0;
+        "neoforge-26.1.2" = _KHz4ghko;
         "pkg-0.3.0" = _6IhaV067;
         "pkg-0.3.1" = _WjSBNhd5;
         "pkg-0.3.2" = _YMntuZKE;
         "pkg-0.3.3" = _39kbOtq9;
         "pkg-0.3.4" = _Q4JLN1to;
         "pkg-0.3.5" = _c3RaccI0;
-        "default" = _c3RaccI0;
+        "pkg-0.0.1" = _NbDqPrLc;
+        "pkg-0.0.2" = _KHz4ghko;
+        "default" = _KHz4ghko;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lcmc";

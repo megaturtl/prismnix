@@ -111,6 +111,16 @@ let
             "file" = "Waxable Coral-fabric-1.21.11-3.0.0.jar";
             "hash" = "sha512-wWciaL0uuyvtQnmWH2OlSX7okUUqkIzLZzZO1wtnvns4bcBex+gHrCUUd46uU1zXZ29eaHnqLWAc2sR9oqOXoA==";
         };
+        _ELTPP16P = {
+            "id" = "ELTPP16P";
+            "file" = "Waxable Coral-fabric-26.2-3.0.0.jar";
+            "hash" = "sha512-KiPGa8jKqTgpiTF+yJumZI3+dirf1KMwc11j1Nd4wQPok4FtM8oAbR7N7P4t7PpJsCqHd096g6uJxBtQiemJZA==";
+        };
+        _zsXqfjQd = {
+            "id" = "zsXqfjQd";
+            "file" = "Waxable Coral-neoforge-26.2-3.0.0.jar";
+            "hash" = "sha512-YzFlkCK7YKuGD3F7kiz6cN+l/nirG+zHK/TaPfShUwMYKRltnCuOIDDTha4eTkLVhGHTZkJE10O1k3SAVTHyyw==";
+        };
     in {
         "VziitOAq" = _VziitOAq;
         "q0vcbuz3" = _q0vcbuz3;
@@ -134,6 +144,8 @@ let
         "veoiBQnU" = _veoiBQnU;
         "cdV1VisX" = _cdV1VisX;
         "jryCt9mp" = _jryCt9mp;
+        "ELTPP16P" = _ELTPP16P;
+        "zsXqfjQd" = _zsXqfjQd;
         "fabric-1.18.2" = _VziitOAq;
         "fabric-1.19.2" = _KuEGYUop;
         "fabric-1.19.3" = _GZh65el7;
@@ -146,6 +158,7 @@ let
         "fabric-1.20.2" = _iWzEvn6O;
         "fabric-1.21.10" = _veoiBQnU;
         "fabric-1.21.11" = _jryCt9mp;
+        "fabric-26.2" = _ELTPP16P;
         "forge-1.18.2" = _lAgCTDVX;
         "forge-1.19.2" = _SUeaMKlG;
         "forge-1.19.3" = _J151nOsQ;
@@ -163,6 +176,7 @@ let
         "neoforge-1.20.2" = _kRZEFChi;
         "neoforge-1.21.10" = _qhVPRS4O;
         "neoforge-1.21.11" = _cdV1VisX;
+        "neoforge-26.2" = _zsXqfjQd;
         "pkg-1.0.1" = _lAgCTDVX;
         "pkg-1.0.2" = _J151nOsQ;
         "pkg-1.1.0" = _zQRGPNbk;
@@ -180,7 +194,9 @@ let
         "pkg-1.21.10-3.0.0+fabric" = _veoiBQnU;
         "pkg-1.21.11-3.0.0+neoforge" = _cdV1VisX;
         "pkg-1.21.11-3.0.0+fabric" = _jryCt9mp;
-        "default" = _jryCt9mp;
+        "pkg-26.2-3.0.0+fabric" = _ELTPP16P;
+        "pkg-26.2-3.0.0+neoforge" = _zsXqfjQd;
+        "default" = _zsXqfjQd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "waxable-coral";

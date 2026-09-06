@@ -481,6 +481,26 @@ let
             "file" = "diversity_better_bundle-neoforge-1.21.11-2.5.4.jar";
             "hash" = "sha512-oFTLOq6aRGrV1wMO+xZ7fiQ374j1+br+MW1MXL3yvwjGuXpLS+Tn11HGok3yN1itIOMINNvUNCK7yn2ZOUKJTA==";
         };
+        _OayPyt2L = {
+            "id" = "OayPyt2L";
+            "file" = "diversity_better_bundle-neoforge-26.1.2-2.5.5.jar";
+            "hash" = "sha512-ZNWOta81+/DBnJMwJkJwMiE0+5aLnQRxuti79eSiYL2i2ijDHbcBZx4R8kXUAZyTR0HMSA3Uupv25rVTYeH5Mg==";
+        };
+        _k6te7XfI = {
+            "id" = "k6te7XfI";
+            "file" = "diversity_better_bundle-fabric-26.1.2-2.5.5.jar";
+            "hash" = "sha512-aVGsvO/zlJ095EsEMYswU+wUAxo3kl9wSXsjNpDAREMiKSzpWk9sQzPG4CpjLnuPW5PsLR9pp4m1OoCIY4z66w==";
+        };
+        _oRzNuOAN = {
+            "id" = "oRzNuOAN";
+            "file" = "diversity_better_bundle-neoforge-26.2-2.5.5.jar";
+            "hash" = "sha512-mQkQRuY//+6dV/MPG7rQDi1FpaweofxbkiNyUQXcvPUVC+eYIqWLadTOwnyfIpONoxdbGMZipB4uf2L0A1shPQ==";
+        };
+        _fOusvp49 = {
+            "id" = "fOusvp49";
+            "file" = "diversity_better_bundle-fabric-26.2-2.5.5.jar";
+            "hash" = "sha512-ZujQJ+87Wm7XoRaq3lJ+iI7mLov6oHYFg/Tmn+CyoXVNno0X+xmvRVv1RE/eqcHg5B9miR5R6UfF1yUul/wfaQ==";
+        };
     in {
         "IsrWw7yQ" = _IsrWw7yQ;
         "AsJng1p7" = _AsJng1p7;
@@ -578,6 +598,10 @@ let
         "z5kYOd24" = _z5kYOd24;
         "1AYatao6" = _1AYatao6;
         "J2SXhvdc" = _J2SXhvdc;
+        "OayPyt2L" = _OayPyt2L;
+        "k6te7XfI" = _k6te7XfI;
+        "oRzNuOAN" = _oRzNuOAN;
+        "fOusvp49" = _fOusvp49;
         "neoforge-1.21" = _OZr9HOIH;
         "neoforge-1.21.1" = _vAjKg7yZ;
         "neoforge-1.20.1" = _wJFAXjkF;
@@ -589,6 +613,8 @@ let
         "neoforge-1.21.8" = _WExPenJ1;
         "neoforge-1.21.10" = _wBL8JQlC;
         "neoforge-1.21.11" = _J2SXhvdc;
+        "neoforge-26.1.2" = _OayPyt2L;
+        "neoforge-26.2" = _oRzNuOAN;
         "fabric-1.21" = _kgrWQOgb;
         "fabric-1.21.1" = _St4Dn91z;
         "fabric-1.20.1" = _bGrzK3Px;
@@ -600,6 +626,8 @@ let
         "fabric-1.21.8" = _OBgxrKE1;
         "fabric-1.21.10" = _c5tija2v;
         "fabric-1.21.11" = _1AYatao6;
+        "fabric-26.1.2" = _k6te7XfI;
+        "fabric-26.2" = _fOusvp49;
         "quilt-1.21" = _kgrWQOgb;
         "quilt-1.21.1" = _St4Dn91z;
         "quilt-1.20.1" = _bGrzK3Px;
@@ -611,6 +639,8 @@ let
         "quilt-1.21.8" = _OBgxrKE1;
         "quilt-1.21.10" = _c5tija2v;
         "quilt-1.21.11" = _1AYatao6;
+        "quilt-26.1.2" = _k6te7XfI;
+        "quilt-26.2" = _fOusvp49;
         "forge-1.20.1" = _wJFAXjkF;
         "forge-1.21.1" = _Y9bwnQ4Y;
         "forge-1.21.3" = _ChdGMCYe;
@@ -634,7 +664,8 @@ let
         "pkg-2.5.1" = _WExPenJ1;
         "pkg-2.5.3" = _z5kYOd24;
         "pkg-2.5.4" = _J2SXhvdc;
-        "default" = _J2SXhvdc;
+        "pkg-2.5.5" = _fOusvp49;
+        "default" = _fOusvp49;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "diversity-better-bundle";

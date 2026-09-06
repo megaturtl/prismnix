@@ -36,6 +36,11 @@ let
             "file" = "garnishedstoneautomation-0.1.2+1.21.1-neoforged.jar";
             "hash" = "sha512-ykdbvYwpVzrT9XN64m9PubgduT/AjFwhz+wsGWJ0jMyrDJsJ2dH9WfrnYUu3ii6UtORfYdE3T0GwcaGDMHQF+Q==";
         };
+        _X2MEuulf = {
+            "id" = "X2MEuulf";
+            "file" = "garnishedstoneautomation-0.1.3+1.21.1-neoforged.jar";
+            "hash" = "sha512-uvWjDit/A73iEPtOC9D0uXumcQTxWssPu7OT/ol8WVdYe5GaUzgy0XE81vwdk+sICthM1baq88mt66iIblgLiw==";
+        };
     in {
         "y0mQV8H3" = _y0mQV8H3;
         "ItmoC6dV" = _ItmoC6dV;
@@ -44,12 +49,13 @@ let
         "4scZcrTC" = _4scZcrTC;
         "brSaqKnN" = _brSaqKnN;
         "ruH4l7o2" = _ruH4l7o2;
+        "X2MEuulf" = _X2MEuulf;
         "forge-1.20" = _brSaqKnN;
         "forge-1.20.1" = _brSaqKnN;
         "neoforge-1.20" = _brSaqKnN;
         "neoforge-1.20.1" = _brSaqKnN;
-        "neoforge-1.21" = _ruH4l7o2;
-        "neoforge-1.21.1" = _ruH4l7o2;
+        "neoforge-1.21" = _X2MEuulf;
+        "neoforge-1.21.1" = _X2MEuulf;
         "fabric-1.20" = _4scZcrTC;
         "fabric-1.20.1" = _4scZcrTC;
         "quilt-1.20" = _4scZcrTC;
@@ -61,7 +67,8 @@ let
         "pkg-0.1.2+1.20.1-fabric" = _4scZcrTC;
         "pkg-0.1.2+1.20.1-neoforged" = _brSaqKnN;
         "pkg-0.1.2+1.21.1-neoforged" = _ruH4l7o2;
-        "default" = _ruH4l7o2;
+        "pkg-0.1.3+1.21.1-neoforged" = _X2MEuulf;
+        "default" = _X2MEuulf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "garnished-stone-automation";

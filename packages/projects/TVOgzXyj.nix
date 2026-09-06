@@ -271,6 +271,41 @@ let
             "file" = "inline_tooltips-1.7.0+26.2-pre-1-fabric.jar";
             "hash" = "sha512-6cUXebTBdBsxtbkeDJkfpIAyxqVCklogQUMdNHjcpUv1vKFNVx2prGPKcB6mxr6s2bl9r2i4E3DH6/bfsYgCLQ==";
         };
+        _hGqA5rrq = {
+            "id" = "hGqA5rrq";
+            "file" = "inline_tooltips-1.7.1+1.21.1-fabric.jar";
+            "hash" = "sha512-LgT8G8gm3SGUujfrlbFhwm1rHqH9ge/VPEgfwLWpnjF+cLYpjO6XNO00C2ULIpU6I1IVQKZfY0VmkscV7qwW3Q==";
+        };
+        _1zw8t1XM = {
+            "id" = "1zw8t1XM";
+            "file" = "inline_tooltips-1.7.1+1.21.1-neoforge.jar";
+            "hash" = "sha512-M+HXam/Y5GtDTbuiC34C3nK+X5j0Y8QKBxbkuxT+EsuLlfL1zx6gLiBWcwaY7+EXcpHbBumKTYxQAh63oZ61kg==";
+        };
+        _uCMkeYp2 = {
+            "id" = "uCMkeYp2";
+            "file" = "inline_tooltips-1.7.1+26.1.2-fabric.jar";
+            "hash" = "sha512-fkELRJ5OQ6AMR4eUdwt9yfNpyLf4Lg/ELIRshZciZS3V1y4LF2TpLybHk0xbsaau6fghDQaYgEbgIXATrovCFA==";
+        };
+        _6HwDdHDU = {
+            "id" = "6HwDdHDU";
+            "file" = "inline_tooltips-1.7.1+26.1.2-neoforge.jar";
+            "hash" = "sha512-uSHu4k9B1/xs68fPlDV9vWfRF9HKQS5vKlr2tSzPlv2KSdV3EZgd7F9oI/WOCVgCnW8bcSf6SO9VkaQmh5DW2g==";
+        };
+        _rU8CLpcN = {
+            "id" = "rU8CLpcN";
+            "file" = "inline_tooltips-1.7.1+26.2-fabric.jar";
+            "hash" = "sha512-gvhpmcWQaUfCZD+SBfysaznF3dCyZQaSFncFKFsjy1p3sErwrK/rnQFkAjW+ExQt+lQ8t/07nDIKwBcfvxzBug==";
+        };
+        _mxHzDZP7 = {
+            "id" = "mxHzDZP7";
+            "file" = "inline_tooltips-1.7.1+26.3-snapshot-7-fabric.jar";
+            "hash" = "sha512-2jx0FVIGhm0LPDYy9+8ZVFjH4fmQkai8qa1NCsRshcTB87e+t/Vz2yNOWw2IxoSNAVJtSVK1WVgI1vp/7D6ACQ==";
+        };
+        _vR6D77gA = {
+            "id" = "vR6D77gA";
+            "file" = "inline_tooltips-1.7.2+1.21.1-neoforge.jar";
+            "hash" = "sha512-7ltKfPlbSYVXV4JG2qutBuzs4OiA6dHGoHZyJuq9f1JnwQKSvHXBU+EGUcAgJqic9g3THqUtr76eD+n5oKy71Q==";
+        };
     in {
         "PpICbem5" = _PpICbem5;
         "MC39eEqf" = _MC39eEqf;
@@ -326,7 +361,14 @@ let
         "sEBj7k4I" = _sEBj7k4I;
         "urZalnGT" = _urZalnGT;
         "J6JHnpHz" = _J6JHnpHz;
-        "fabric-1.21.1" = _7kICJX7a;
+        "hGqA5rrq" = _hGqA5rrq;
+        "1zw8t1XM" = _1zw8t1XM;
+        "uCMkeYp2" = _uCMkeYp2;
+        "6HwDdHDU" = _6HwDdHDU;
+        "rU8CLpcN" = _rU8CLpcN;
+        "mxHzDZP7" = _mxHzDZP7;
+        "vR6D77gA" = _vR6D77gA;
+        "fabric-1.21.1" = _hGqA5rrq;
         "fabric-1.21.9" = _LETZZj8M;
         "fabric-1.21.10" = _LETZZj8M;
         "fabric-25w42a" = _Z5BF1b3X;
@@ -349,15 +391,17 @@ let
         "fabric-26.1-rc-2" = _ho5ofR2R;
         "fabric-26.1" = _ho5ofR2R;
         "fabric-26.1.1" = _ho5ofR2R;
-        "fabric-26.1.2" = _urZalnGT;
+        "fabric-26.1.2" = _uCMkeYp2;
         "fabric-26.2-pre-1" = _J6JHnpHz;
         "fabric-26.2-rc-1" = _J6JHnpHz;
         "fabric-26.2-rc-2" = _J6JHnpHz;
-        "fabric-26.2" = _J6JHnpHz;
-        "neoforge-1.21.1" = _sEBj7k4I;
+        "fabric-26.2" = _rU8CLpcN;
+        "fabric-26.3-snapshot-7" = _mxHzDZP7;
+        "neoforge-1.21.1" = _vR6D77gA;
         "neoforge-1.21.9" = _e3loXYNy;
         "neoforge-1.21.10" = _e3loXYNy;
         "neoforge-1.21.11" = _cPqBzWQH;
+        "neoforge-26.1.2" = _6HwDdHDU;
         "pkg-1.2.0+1.21.1-fabric" = _PpICbem5;
         "pkg-1.2.0+1.21.1-neoforge" = _MC39eEqf;
         "pkg-1.2.0+1.21.10-fabric" = _YUFxXybv;
@@ -411,7 +455,14 @@ let
         "pkg-1.7.0+1.21.1-neoforge" = _sEBj7k4I;
         "pkg-1.7.0+26.1.2-fabric" = _urZalnGT;
         "pkg-1.7.0+26.2-pre-1-fabric" = _J6JHnpHz;
-        "default" = _J6JHnpHz;
+        "pkg-1.7.1+1.21.1-fabric" = _hGqA5rrq;
+        "pkg-1.7.1+1.21.1-neoforge" = _1zw8t1XM;
+        "pkg-1.7.1+26.1.2-fabric" = _uCMkeYp2;
+        "pkg-1.7.1+26.1.2-neoforge" = _6HwDdHDU;
+        "pkg-1.7.1+26.2-fabric" = _rU8CLpcN;
+        "pkg-1.7.1+26.3-snapshot-7-fabric" = _mxHzDZP7;
+        "pkg-1.7.2+1.21.1-neoforge" = _vR6D77gA;
+        "default" = _vR6D77gA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "inline-tooltips";

@@ -8,11 +8,6 @@ let
         };
     in {
         "gIZ2h86Z" = _gIZ2h86Z;
-        "minecraft-1.19" = _gIZ2h86Z;
-        "minecraft-1.19.1" = _gIZ2h86Z;
-        "minecraft-1.19.2" = _gIZ2h86Z;
-        "minecraft-1.19.3" = _gIZ2h86Z;
-        "minecraft-1.19.4" = _gIZ2h86Z;
         "minecraft-1.20" = _gIZ2h86Z;
         "minecraft-1.20.1" = _gIZ2h86Z;
         "minecraft-1.20.2" = _gIZ2h86Z;
@@ -22,7 +17,21 @@ let
         "minecraft-1.20.6" = _gIZ2h86Z;
         "minecraft-1.21" = _gIZ2h86Z;
         "minecraft-1.21.1" = _gIZ2h86Z;
-        "pkg-1.19.x-1.21.x" = _gIZ2h86Z;
+        "minecraft-1.21.2" = _gIZ2h86Z;
+        "minecraft-1.21.3" = _gIZ2h86Z;
+        "minecraft-1.21.4" = _gIZ2h86Z;
+        "minecraft-1.21.5" = _gIZ2h86Z;
+        "minecraft-1.21.6" = _gIZ2h86Z;
+        "minecraft-1.21.7" = _gIZ2h86Z;
+        "minecraft-1.21.8" = _gIZ2h86Z;
+        "minecraft-1.21.9" = _gIZ2h86Z;
+        "minecraft-1.21.10" = _gIZ2h86Z;
+        "minecraft-1.21.11" = _gIZ2h86Z;
+        "minecraft-26.1" = _gIZ2h86Z;
+        "minecraft-26.1.1" = _gIZ2h86Z;
+        "minecraft-26.1.2" = _gIZ2h86Z;
+        "minecraft-26.2" = _gIZ2h86Z;
+        "pkg-Release" = _gIZ2h86Z;
         "default" = _gIZ2h86Z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

@@ -96,6 +96,16 @@ let
             "file" = "Xenofactions-version=2.1.7.jar";
             "hash" = "sha512-7QLn8R8kLeHOkAIpV7SpAdoaeyo/pmja7+33hr+QLQPsmS1H3thcRt7BIwfiYQ14n3J6t/TP9EFanftwD1EVow==";
         };
+        _XUYy6SqA = {
+            "id" = "XUYy6SqA";
+            "file" = "Xenofactions-2.2.0.jar";
+            "hash" = "sha512-mdSl7Gbwm3UPzemQuEdZY0zUk0pTOYxVeeFr3zedwVkFFTb58oiedbDuCIKE02yuEffxtC5zAalz8TSPEbKXdA==";
+        };
+        _jPpViJYa = {
+            "id" = "jPpViJYa";
+            "file" = "Xenofactions-2.2.2.jar";
+            "hash" = "sha512-Vi+PU7YoavTV2X9VTN0ZCD9dboyye1zYj01mQ4vC2tmiMiHTJglKmdDicD6Z6jmNNOWCDxP/YWfq8rpVwGSB2A==";
+        };
     in {
         "QGVfSyEl" = _QGVfSyEl;
         "3NSqx6Fn" = _3NSqx6Fn;
@@ -116,7 +126,9 @@ let
         "QlGVg7Ni" = _QlGVg7Ni;
         "WUHkLGkA" = _WUHkLGkA;
         "o6bXr1BM" = _o6bXr1BM;
-        "forge-1.7.10" = _o6bXr1BM;
+        "XUYy6SqA" = _XUYy6SqA;
+        "jPpViJYa" = _jPpViJYa;
+        "forge-1.7.10" = _jPpViJYa;
         "pkg-1.0" = _QGVfSyEl;
         "pkg-1.2" = _3NSqx6Fn;
         "pkg-1.5.1" = _lR8nh3tf;
@@ -136,7 +148,9 @@ let
         "pkg-2.1.5" = _QlGVg7Ni;
         "pkg-2.1.6" = _WUHkLGkA;
         "pkg-2.1.7" = _o6bXr1BM;
-        "default" = _o6bXr1BM;
+        "pkg-2.2.0" = _XUYy6SqA;
+        "pkg-2.2.2" = _jPpViJYa;
+        "default" = _jPpViJYa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xenofactions";

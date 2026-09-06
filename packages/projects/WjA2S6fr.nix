@@ -51,6 +51,16 @@ let
             "file" = "BotanyPotsGrowableOresCompat-1.0.4-1.21.1-Fabric.jar";
             "hash" = "sha512-X285oCT1j63zhdQA1dvugbYYkH/SVTq7YWe+zXL2DiWHxTdyDleyJ5CbuabUX+s01kIR2BJmFHKeBaG36Te0Cw==";
         };
+        _pHlZf45a = {
+            "id" = "pHlZf45a";
+            "file" = "BotanyPotsGrowableOresCompat-1.0.5-1.21.1-NeoForge.jar";
+            "hash" = "sha512-sKEFJgli6v8Kyewm96UrwBFc8HSiQK3av9OJA/BrdcF/x6NiphB9Y9GXQWE7Pk5bIRpRgmQMqQLIToG8yL6kkQ==";
+        };
+        _25h8avyX = {
+            "id" = "25h8avyX";
+            "file" = "BotanyPotsGrowableOresCompat-1.0.5-1.21.1-Fabric.jar";
+            "hash" = "sha512-VPO8djB0VY1SKGy/dY1NBEE1Ul2Ba4G2qZ+ZUhKre3365wBJvIfzOWrmFdia+dvgq5jlv39BD2tqSKp7wBUxwQ==";
+        };
     in {
         "h8RfX9on" = _h8RfX9on;
         "7JgKLRaU" = _7JgKLRaU;
@@ -62,8 +72,10 @@ let
         "Oq5QnvVh" = _Oq5QnvVh;
         "RMgH15MQ" = _RMgH15MQ;
         "bHv1Uaqh" = _bHv1Uaqh;
-        "fabric-1.21.1" = _bHv1Uaqh;
-        "neoforge-1.21.1" = _RMgH15MQ;
+        "pHlZf45a" = _pHlZf45a;
+        "25h8avyX" = _25h8avyX;
+        "fabric-1.21.1" = _25h8avyX;
+        "neoforge-1.21.1" = _pHlZf45a;
         "pkg-1.0.0-1.21.1-Fabric" = _h8RfX9on;
         "pkg-1.0.0-1.21.1-NeoForge" = _7JgKLRaU;
         "pkg-1.0.1-1.21.1-Fabric" = _COU99Y8s;
@@ -74,7 +86,9 @@ let
         "pkg-1.0.3-1.21.1-NeoForge" = _Oq5QnvVh;
         "pkg-1.0.4-1.21.1-NeoForge" = _RMgH15MQ;
         "pkg-1.0.4-1.21.1-Fabric" = _bHv1Uaqh;
-        "default" = _bHv1Uaqh;
+        "pkg-1.0.5-1.21.1-NeoForge" = _pHlZf45a;
+        "pkg-1.0.5-1.21.1-Fabric" = _25h8avyX;
+        "default" = _25h8avyX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "botany-potsgrowableores-compat";

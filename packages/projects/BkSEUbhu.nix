@@ -41,6 +41,16 @@ let
             "file" = "chikas_plants_mod-v1.0.0-Forge-1.20.1.jar";
             "hash" = "sha512-wwlG0DIZZ+o8qOkFnBEU7cR3cDU5U67NRZcM8BejkW9EuuqNH+x9C1hgTb9Ej9L8Cg8LmdxPAeFWE0+0Ino0sQ==";
         };
+        _Gdc3wyZG = {
+            "id" = "Gdc3wyZG";
+            "file" = "chikas_plants_mod-v1.1.0-Forge-1.20.1.jar";
+            "hash" = "sha512-Sd99y+qMsg7Dj5cCd0dPDiQevroFrYNYbe5nuJT1TPSvDlkRDNvM70FV5hbV6I4TuydWhUX6ra/RqduOvxvL7g==";
+        };
+        _YkMvieOC = {
+            "id" = "YkMvieOC";
+            "file" = "chikas_plants_mod-v1.1.1-Forge-1.20.1.jar";
+            "hash" = "sha512-Uk3Ku6LA0x5p1gVGRTFLH53eMLWNjtuPHt/OGxDIIZwKa1L2lLEdtBNuKF5jELy3V/sblGX6bBL+nmCl0BlHNg==";
+        };
     in {
         "VVdJmZNZ" = _VVdJmZNZ;
         "RkcJogJV" = _RkcJogJV;
@@ -50,8 +60,10 @@ let
         "OMIsXCtz" = _OMIsXCtz;
         "R7YbInpK" = _R7YbInpK;
         "mglLuxYQ" = _mglLuxYQ;
+        "Gdc3wyZG" = _Gdc3wyZG;
+        "YkMvieOC" = _YkMvieOC;
         "forge-1.19.2" = _R7YbInpK;
-        "forge-1.20.1" = _mglLuxYQ;
+        "forge-1.20.1" = _YkMvieOC;
         "pkg-v0.9.0-1.19.2" = _VVdJmZNZ;
         "pkg-v0.9.1-1.19.2" = _RkcJogJV;
         "pkg-v0.9.2-1.19.2" = _XMrDuQLl;
@@ -60,7 +72,9 @@ let
         "pkg-v0.9.5-1.19.2" = _OMIsXCtz;
         "pkg-v0.9.6-1.19.2" = _R7YbInpK;
         "pkg-v1.0.0-1.20.1" = _mglLuxYQ;
-        "default" = _mglLuxYQ;
+        "pkg-v1.1.0-1.20.1" = _Gdc3wyZG;
+        "pkg-v1.1.1-1.20.1" = _YkMvieOC;
+        "default" = _YkMvieOC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chikas-plants-mod";

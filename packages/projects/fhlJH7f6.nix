@@ -116,6 +116,26 @@ let
             "file" = "AioStructures-4.8.1.jar";
             "hash" = "sha512-864geTgh//VqcPb93Kb1Y14BwNMkdGNOKYpyTfivUKTf+99rHx2Q3K80Cxp3mFU1EEuF2cVqCTNuL5vLxtil5A==";
         };
+        _D2h6BPMr = {
+            "id" = "D2h6BPMr";
+            "file" = "AioStructures-4.8.1.1.zip";
+            "hash" = "sha512-+n96DmlXtOfPHDp23rTwJC3c0tmycVoqAmrmIUMZrXW2hD5kwiRKU9C3k9DgDr7ETCBt8sxfVi+BQ5w4anheEw==";
+        };
+        _TbhnhbEp = {
+            "id" = "TbhnhbEp";
+            "file" = "AioStructures-4.8.1.1.jar";
+            "hash" = "sha512-s4ioebrM+CWBDw4edmGCPOmRnFU7nElx1E3cLndiYx2TJXuyjsEF2ny9HI63vKVzzm7jjemIRbdpyQHkbwARpw==";
+        };
+        _18xECd0e = {
+            "id" = "18xECd0e";
+            "file" = "AioStructures-4.8.1.2.zip";
+            "hash" = "sha512-vtTUdqJJxFaF+Mw2Yxp6Rj+18+/tJiIElT53hlQfd4jWk+sxqBKuloguTcFPBcv8O40OEvmin8L1dPDhI2qTKA==";
+        };
+        _e5bLDZ8I = {
+            "id" = "e5bLDZ8I";
+            "file" = "AioStructures-4.8.1.2.jar";
+            "hash" = "sha512-OEoj/IYR4EeI+wg2OZPla0pMu8xAUCXacbumkr8pNlJIWQMWSNBn31Q/8EJTiYuAn7dxRIBPuZiR0DLlnC3oUA==";
+        };
     in {
         "mHDWRdfJ" = _mHDWRdfJ;
         "K89HNZ58" = _K89HNZ58;
@@ -140,10 +160,14 @@ let
         "PVlHAvq8" = _PVlHAvq8;
         "V9NiybvY" = _V9NiybvY;
         "qN13zGhi" = _qN13zGhi;
-        "datapack-1.21.1" = _V9NiybvY;
-        "datapack-1.21" = _V9NiybvY;
-        "fabric-1.21.1" = _qN13zGhi;
-        "neoforge-1.21.1" = _qN13zGhi;
+        "D2h6BPMr" = _D2h6BPMr;
+        "TbhnhbEp" = _TbhnhbEp;
+        "18xECd0e" = _18xECd0e;
+        "e5bLDZ8I" = _e5bLDZ8I;
+        "datapack-1.21.1" = _18xECd0e;
+        "datapack-1.21" = _18xECd0e;
+        "fabric-1.21.1" = _e5bLDZ8I;
+        "neoforge-1.21.1" = _e5bLDZ8I;
         "pkg-1.0.0" = _mHDWRdfJ;
         "pkg-1.1.0" = _K89HNZ58;
         "pkg-2.1.0" = _QJw0YEAz;
@@ -161,7 +185,9 @@ let
         "pkg-4.7.0" = _RLf7IMj2;
         "pkg-4.8.0" = _PVlHAvq8;
         "pkg-4.8.1" = _qN13zGhi;
-        "default" = _qN13zGhi;
+        "pkg-4.8.1.1" = _TbhnhbEp;
+        "pkg-4.8.1.2" = _e5bLDZ8I;
+        "default" = _e5bLDZ8I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aios-extra-structures!";

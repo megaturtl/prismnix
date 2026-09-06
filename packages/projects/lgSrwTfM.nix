@@ -16,10 +16,34 @@ let
             "file" = "Soartex Fanver 26.2 19_07_2026.zip";
             "hash" = "sha512-w2wikUJoZk0x89Yu4A0ATmSrIlS4vfw7bwx93a95+EXtHjWsrE/OD1yylOwRnAUQ4RjrJrl3K2HLn+ZGaoJd6Q==";
         };
+        _bynHUCrE = {
+            "id" = "bynHUCrE";
+            "file" = "Soartex Fantastik 04_08_2026.zip";
+            "hash" = "sha512-ni7n1hddx2cpMgmj/Cr9jc9XSAsK4bbwUgDzrH0GOWfowT6hQCaWsEFFDb5lPotvSc2POpjWXqYQVHUI3n2Mng==";
+        };
+        _BgHvcb4f = {
+            "id" = "BgHvcb4f";
+            "file" = "Soartex Fantastik 14_08_2026.zip";
+            "hash" = "sha512-ocy2qTMUsH4/6i45pVTJPdX9wOJgadForOkMguE5xZsrqV9aEHjaVyjVc1BjQ27Urfleyc2mb6LVQC6FEqvRKQ==";
+        };
+        _afuyYTqk = {
+            "id" = "afuyYTqk";
+            "file" = "Soartex Fantastik 26.2 22_08_2026.zip";
+            "hash" = "sha512-kzazQafDKGWOeCiyHTQIDwBPLcIUE7j+FJ04HB0gR0KbnqmbyysWRLCYKVGknzUp73zCPu6n2N1BXmMjNOWeLA==";
+        };
+        _o6iw9rK2 = {
+            "id" = "o6iw9rK2";
+            "file" = "Soartex Fantastik 04_09_2026.zip";
+            "hash" = "sha512-KnqDLINyRr6vv0nCLzdsMvgW1ZDrHBpV2LvT5d1PJdb4FFI6FdtlxQXgGkAgXT8+PLkQI4CcgUTAvBcpt2CAZg==";
+        };
     in {
         "8lqtK3wj" = _8lqtK3wj;
         "u176F8ZE" = _u176F8ZE;
         "36Uuz9LE" = _36Uuz9LE;
+        "bynHUCrE" = _bynHUCrE;
+        "BgHvcb4f" = _BgHvcb4f;
+        "afuyYTqk" = _afuyYTqk;
+        "o6iw9rK2" = _o6iw9rK2;
         "minecraft-1.20" = _u176F8ZE;
         "minecraft-1.20.1" = _u176F8ZE;
         "minecraft-23w31a" = _u176F8ZE;
@@ -59,8 +83,8 @@ let
         "minecraft-24w19a" = _u176F8ZE;
         "minecraft-24w19b" = _u176F8ZE;
         "minecraft-24w20a" = _u176F8ZE;
-        "minecraft-1.21" = _u176F8ZE;
-        "minecraft-1.21.1" = _u176F8ZE;
+        "minecraft-1.21" = _afuyYTqk;
+        "minecraft-1.21.1" = _afuyYTqk;
         "minecraft-24w33a" = _u176F8ZE;
         "minecraft-24w34a" = _u176F8ZE;
         "minecraft-24w35a" = _u176F8ZE;
@@ -71,19 +95,19 @@ let
         "minecraft-24w40a" = _u176F8ZE;
         "minecraft-1.21.2-pre1" = _u176F8ZE;
         "minecraft-1.21.2-pre2" = _u176F8ZE;
-        "minecraft-1.21.2" = _u176F8ZE;
-        "minecraft-1.21.3" = _u176F8ZE;
+        "minecraft-1.21.2" = _afuyYTqk;
+        "minecraft-1.21.3" = _afuyYTqk;
         "minecraft-24w44a" = _u176F8ZE;
         "minecraft-24w45a" = _u176F8ZE;
         "minecraft-24w46a" = _u176F8ZE;
-        "minecraft-1.21.4" = _u176F8ZE;
-        "minecraft-1.21.5" = _u176F8ZE;
-        "minecraft-1.21.6" = _u176F8ZE;
-        "minecraft-1.21.7" = _u176F8ZE;
-        "minecraft-1.21.8" = _u176F8ZE;
-        "minecraft-1.21.9" = _u176F8ZE;
-        "minecraft-1.21.10" = _u176F8ZE;
-        "minecraft-1.21.11" = _36Uuz9LE;
+        "minecraft-1.21.4" = _o6iw9rK2;
+        "minecraft-1.21.5" = _o6iw9rK2;
+        "minecraft-1.21.6" = _o6iw9rK2;
+        "minecraft-1.21.7" = _o6iw9rK2;
+        "minecraft-1.21.8" = _o6iw9rK2;
+        "minecraft-1.21.9" = _o6iw9rK2;
+        "minecraft-1.21.10" = _o6iw9rK2;
+        "minecraft-1.21.11" = _o6iw9rK2;
         "minecraft-26.1-snapshot-1" = _u176F8ZE;
         "minecraft-26.1-snapshot-2" = _u176F8ZE;
         "minecraft-26.1-snapshot-3" = _u176F8ZE;
@@ -101,13 +125,13 @@ let
         "minecraft-26.1-rc-1" = _u176F8ZE;
         "minecraft-26.1-rc-2" = _u176F8ZE;
         "minecraft-26.1-rc-3" = _u176F8ZE;
-        "minecraft-26.1" = _36Uuz9LE;
+        "minecraft-26.1" = _o6iw9rK2;
         "minecraft-26.1.1-rc-1" = _u176F8ZE;
-        "minecraft-26.1.1" = _36Uuz9LE;
+        "minecraft-26.1.1" = _o6iw9rK2;
         "minecraft-26w14a" = _u176F8ZE;
         "minecraft-26.2-snapshot-1" = _u176F8ZE;
         "minecraft-26.1.2-rc-1" = _u176F8ZE;
-        "minecraft-26.1.2" = _36Uuz9LE;
+        "minecraft-26.1.2" = _o6iw9rK2;
         "minecraft-26.2-snapshot-2" = _u176F8ZE;
         "minecraft-26.2-snapshot-3" = _u176F8ZE;
         "minecraft-26.2-snapshot-4" = _u176F8ZE;
@@ -123,11 +147,15 @@ let
         "minecraft-26.2-pre-6" = _u176F8ZE;
         "minecraft-26.2-rc-1" = _u176F8ZE;
         "minecraft-26.2-rc-2" = _u176F8ZE;
-        "minecraft-26.2" = _36Uuz9LE;
+        "minecraft-26.2" = _o6iw9rK2;
         "pkg-0.1.1" = _8lqtK3wj;
         "pkg-15_06_2026" = _u176F8ZE;
         "pkg-19.07.2026" = _36Uuz9LE;
-        "default" = _36Uuz9LE;
+        "pkg-04.08.2026" = _bynHUCrE;
+        "pkg-14.08.2026" = _BgHvcb4f;
+        "pkg-22.08.2026" = _afuyYTqk;
+        "pkg-04.09.2026" = _o6iw9rK2;
+        "default" = _o6iw9rK2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "soartex-fantastik";

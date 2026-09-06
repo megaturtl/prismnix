@@ -41,6 +41,11 @@ let
             "file" = "suixingxiugai-1.20.1-forge-1.0.7.jar";
             "hash" = "sha512-srp3SGR2kWnmvj39n04Nj8/s/WSAw6DCOweHS/IDPF8FJ4oFCsvNTiCIMdfRNop3LRyY05gglFUfwPriMdeIFg==";
         };
+        _M6UmRX1G = {
+            "id" = "M6UmRX1G";
+            "file" = "suixingxiugai-1.20.1-forge-1.0.8.jar";
+            "hash" = "sha512-3vPyha4X2pH5SYA0z2d+pRyZHZCCOJKoQ3PPXovnvKCTu9JxqhebDzNktiy7h5KNFUCMPtHGzO8VmSljIRqXTQ==";
+        };
     in {
         "jSzHJOFv" = _jSzHJOFv;
         "VQS38LOR" = _VQS38LOR;
@@ -50,7 +55,8 @@ let
         "zx55gWsA" = _zx55gWsA;
         "zZC36VHM" = _zZC36VHM;
         "9QZRptAA" = _9QZRptAA;
-        "forge-1.20.1" = _9QZRptAA;
+        "M6UmRX1G" = _M6UmRX1G;
+        "forge-1.20.1" = _M6UmRX1G;
         "pkg-1.0.0" = _jSzHJOFv;
         "pkg-1.0.1" = _VQS38LOR;
         "pkg-1.0.2" = _aVuZtGaP;
@@ -59,7 +65,8 @@ let
         "pkg-1.0.5" = _zx55gWsA;
         "pkg-1.0.6" = _zZC36VHM;
         "pkg-1.0.7" = _9QZRptAA;
-        "default" = _9QZRptAA;
+        "pkg-1.0.8" = _M6UmRX1G;
+        "default" = _M6UmRX1G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "suixingxiugai";

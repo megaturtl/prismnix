@@ -136,6 +136,56 @@ let
             "file" = "servux-fabric-1.21-0.3.17.jar";
             "hash" = "sha512-HoOZTvkXoQbiDsV40R9L14UeszisV3bQcxpNyKx1fdGoNv+JiIjPZQfGvxauyemnLQGQNtUfU5jP3antOengsA==";
         };
+        _hP2cDwH3 = {
+            "id" = "hP2cDwH3";
+            "file" = "servux-fabric-1.21.11-0.9.6.jar";
+            "hash" = "sha512-23jTwkDmF7EA9Ar2OMvVwdfN5D2XCT30CwfOXwuE3OArGH2RkLlqsxuWJPd1SQOmHuatVrXYkPDC9Vfk2rRugQ==";
+        };
+        _D9CHQV6u = {
+            "id" = "D9CHQV6u";
+            "file" = "servux-fabric-26.1.2-0.10.5.jar";
+            "hash" = "sha512-F6boGKrDYySxq1VMk1PpCuFtqrhCICgDAFzvy1na4TysOLJG7NHyo91kJsssVDq+fOJ7vtP3U1Nw9PtKL9UOJw==";
+        };
+        _Er2wlain = {
+            "id" = "Er2wlain";
+            "file" = "servux-fabric-26.2-0.11.3.jar";
+            "hash" = "sha512-QuyHabpQ7PGsaz2kyqVU1drW6CJuu0+vCRikg8Cngj46GmmuOcEVcCkgm0Jy32pvsCXFt5f9DUQCq53cyACuZw==";
+        };
+        _wSlKd8CQ = {
+            "id" = "wSlKd8CQ";
+            "file" = "servux-fabric-1.21.11-0.9.7.jar";
+            "hash" = "sha512-jOmfSj4mPSC7KBgVOVseD1WeTNscrJio3SzlozPyJX7UyXehzNs8WWMvBxTxLlnJkmOfRq6qlcbmUSbf6h5Apw==";
+        };
+        _DUi0P0Sw = {
+            "id" = "DUi0P0Sw";
+            "file" = "servux-fabric-26.1.2-0.10.6.jar";
+            "hash" = "sha512-Ui/8r/zJslm31unA7WhN+pTAwF35mQSK1wqUtGWjFfJ1jo/LvUxXcsD0XviEDfJWOiJTQ8VcuMN0XyXIARgGWw==";
+        };
+        _WDpB6sAV = {
+            "id" = "WDpB6sAV";
+            "file" = "servux-fabric-26.2-0.11.4.jar";
+            "hash" = "sha512-tplIvgXhTmOU2olv7jUXNORy433KIuBbPJY2WG0XJpBN6G+7+L9YWECgBV/9i3AewMpgp+/P3m0AuCJfabh/zg==";
+        };
+        _dd7cLE5P = {
+            "id" = "dd7cLE5P";
+            "file" = "servux-fabric-1.21.11-0.9.8.jar";
+            "hash" = "sha512-je8Qqby9MBgxknjyJe5XbL+xkF76mPXV87PG/aTOmiObx59SsLHeuHZvRlcq1H9ERJkBJHRXgomuWpBomDTFqg==";
+        };
+        _9041JwWA = {
+            "id" = "9041JwWA";
+            "file" = "servux-fabric-1.21.11-0.9.9.jar";
+            "hash" = "sha512-5fjWp9d0voK2WJM2OrMYCHHr+TKhB+yJNQ9FTkNLkMhE6UrBmgnfIa7UhLnzMz0U8mfuOAl6EH4Eu5ENmUxdJw==";
+        };
+        _xtqzPJ2k = {
+            "id" = "xtqzPJ2k";
+            "file" = "servux-fabric-26.1.2-0.10.7.jar";
+            "hash" = "sha512-Ztqrfmg7xqPLUYqhQcoBK9P34hprHVuim2cJ/6PmR6f46nU1gvZtqrxJLPwzrCQmdxF233WQHzXwx7YRvt65nQ==";
+        };
+        _cjAxEbhD = {
+            "id" = "cjAxEbhD";
+            "file" = "servux-fabric-26.2-0.11.5.jar";
+            "hash" = "sha512-klie3nZvOR/KaObLB3ZZVBethiFGQttXXenSCnV/m/eJDv9ULFE4YVnFGzn0Ugewsfy2uA9gzZDr/S0D7vEF1A==";
+        };
     in {
         "XUdcqL9w" = _XUdcqL9w;
         "MA4L0jvm" = _MA4L0jvm;
@@ -164,6 +214,16 @@ let
         "tuwXjDoU" = _tuwXjDoU;
         "3Hu5sIDG" = _3Hu5sIDG;
         "MtgbQ59C" = _MtgbQ59C;
+        "hP2cDwH3" = _hP2cDwH3;
+        "D9CHQV6u" = _D9CHQV6u;
+        "Er2wlain" = _Er2wlain;
+        "wSlKd8CQ" = _wSlKd8CQ;
+        "DUi0P0Sw" = _DUi0P0Sw;
+        "WDpB6sAV" = _WDpB6sAV;
+        "dd7cLE5P" = _dd7cLE5P;
+        "9041JwWA" = _9041JwWA;
+        "xtqzPJ2k" = _xtqzPJ2k;
+        "cjAxEbhD" = _cjAxEbhD;
         "fabric-1.14.4" = _mDgqjDBQ;
         "fabric-1.15" = _mDgqjDBQ;
         "fabric-1.15.1" = _mDgqjDBQ;
@@ -191,11 +251,11 @@ let
         "fabric-1.20.4" = _y3YGV2rC;
         "fabric-1.20.5" = _6kQQWRGx;
         "fabric-1.20.6" = _6kQQWRGx;
-        "fabric-1.21.11" = _lZKJhJXh;
-        "fabric-26.1" = _njuJ4MNd;
-        "fabric-26.1.1" = _njuJ4MNd;
-        "fabric-26.1.2" = _njuJ4MNd;
-        "fabric-26.2" = _qMld6z1t;
+        "fabric-1.21.11" = _9041JwWA;
+        "fabric-26.1" = _xtqzPJ2k;
+        "fabric-26.1.1" = _xtqzPJ2k;
+        "fabric-26.1.2" = _xtqzPJ2k;
+        "fabric-26.2" = _cjAxEbhD;
         "fabric-1.21.9" = _iuFWTrsG;
         "fabric-1.21.10" = _iuFWTrsG;
         "fabric-1.21.6" = _uUWbjyhY;
@@ -224,7 +284,17 @@ let
         "pkg-0.5.7" = _tuwXjDoU;
         "pkg-0.4.8" = _3Hu5sIDG;
         "pkg-0.3.17" = _MtgbQ59C;
-        "default" = _MtgbQ59C;
+        "pkg-0.9.6" = _hP2cDwH3;
+        "pkg-0.10.5" = _D9CHQV6u;
+        "pkg-0.11.3" = _Er2wlain;
+        "pkg-0.9.7" = _wSlKd8CQ;
+        "pkg-0.10.6" = _DUi0P0Sw;
+        "pkg-0.11.4" = _WDpB6sAV;
+        "pkg-0.9.8" = _dd7cLE5P;
+        "pkg-0.9.9" = _9041JwWA;
+        "pkg-0.10.7" = _xtqzPJ2k;
+        "pkg-0.11.5" = _cjAxEbhD;
+        "default" = _cjAxEbhD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "servux";

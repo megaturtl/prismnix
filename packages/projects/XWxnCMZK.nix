@@ -111,6 +111,11 @@ let
             "file" = "SCP Foundation Requisites 3.1.3.jar";
             "hash" = "sha512-GIdwdJHun+XjZwifbgQdxKoMMEwq23osyKI2ywrWQqtyW2dJO7T1+Kq5XFiOurUJ1hLcRNWVTdioYIN5ITVg5w==";
         };
+        _CAORA3Yj = {
+            "id" = "CAORA3Yj";
+            "file" = "SCP Foundation Requisites 3.2.jar";
+            "hash" = "sha512-NA9mKVSdcbepURf75E3Pff50cddFtnrSJKSfNUl6959oMfxObTKxCQrCUgD8NNA9drDl8c/HM8hgbOWNrPPVQg==";
+        };
     in {
         "ZzJGEAGV" = _ZzJGEAGV;
         "KM7qLz5J" = _KM7qLz5J;
@@ -134,9 +139,10 @@ let
         "euDdfcYG" = _euDdfcYG;
         "ZVjKtXRH" = _ZVjKtXRH;
         "xlksRlm3" = _xlksRlm3;
+        "CAORA3Yj" = _CAORA3Yj;
         "forge-1.12.2" = _XZtYJmPq;
         "forge-1.16.5" = _Wwxerlg3;
-        "forge-1.20.1" = _xlksRlm3;
+        "forge-1.20.1" = _CAORA3Yj;
         "neoforge-1.21.1" = _zwT4u8Li;
         "pkg-1.19" = _ZzJGEAGV;
         "pkg-1.19.1" = _KM7qLz5J;
@@ -160,7 +166,8 @@ let
         "pkg-3.1.1" = _euDdfcYG;
         "pkg-3.1.2" = _ZVjKtXRH;
         "pkg-3.1.3" = _xlksRlm3;
-        "default" = _xlksRlm3;
+        "pkg-3.2" = _CAORA3Yj;
+        "default" = _CAORA3Yj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scp-foundation-requisites";

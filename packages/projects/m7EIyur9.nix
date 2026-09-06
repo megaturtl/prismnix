@@ -29,6 +29,13 @@ let
         "minecraft-1.21.6" = _lZNcLCo8;
         "minecraft-1.21.7" = _lZNcLCo8;
         "minecraft-1.21.8" = _lZNcLCo8;
+        "minecraft-1.21.9" = _lZNcLCo8;
+        "minecraft-1.21.10" = _lZNcLCo8;
+        "minecraft-1.21.11" = _lZNcLCo8;
+        "minecraft-26.1" = _lZNcLCo8;
+        "minecraft-26.1.1" = _lZNcLCo8;
+        "minecraft-26.1.2" = _lZNcLCo8;
+        "minecraft-26.2" = _lZNcLCo8;
         "pkg-1" = _lZNcLCo8;
         "default" = _lZNcLCo8;
     });

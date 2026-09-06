@@ -16,10 +16,22 @@ let
             "file" = "Ore Borders 1.21.9-1.21.11.zip";
             "hash" = "sha512-FuYwbY+DyZgCDfMXL7yfFlns8kXckwkISbsQcVMRb79QWnRNk6Z6Srg8qlJXF3yizHRyhiT7pDADMlnY62fg1w==";
         };
+        _E8RjOFle = {
+            "id" = "E8RjOFle";
+            "file" = "Ore Borders 26.1.zip";
+            "hash" = "sha512-r2Q17NaBcz7lQNDZay2IyQE0HsR/RWWr1e8e1/ooALph54XXB6BGn97jXNFWvIzz9n3FwGDb70XRXkLDFoJtlQ==";
+        };
+        _iMD6ZOKg = {
+            "id" = "iMD6ZOKg";
+            "file" = "Ore Borders 26.2.zip";
+            "hash" = "sha512-WSHnGhXX6YsEWewkt1jsigvEPZFW0obm4X5LKY0iCPZeehBbgGcquCryYDmRdgfGkEWxhxW8sumgz0lwJ3d4XA==";
+        };
     in {
         "4uFftLNl" = _4uFftLNl;
         "alo1GDrY" = _alo1GDrY;
         "LK6inuA5" = _LK6inuA5;
+        "E8RjOFle" = _E8RjOFle;
+        "iMD6ZOKg" = _iMD6ZOKg;
         "minecraft-1.20.2" = _4uFftLNl;
         "minecraft-1.20.3" = _4uFftLNl;
         "minecraft-1.20.4" = _4uFftLNl;
@@ -39,10 +51,16 @@ let
         "minecraft-1.21.9" = _LK6inuA5;
         "minecraft-1.21.10" = _LK6inuA5;
         "minecraft-1.21.11" = _LK6inuA5;
+        "minecraft-26.1" = _E8RjOFle;
+        "minecraft-26.1.1" = _E8RjOFle;
+        "minecraft-26.1.2" = _E8RjOFle;
+        "minecraft-26.2" = _iMD6ZOKg;
         "pkg-1" = _4uFftLNl;
         "pkg-1.1" = _alo1GDrY;
         "pkg-1.21.9-1.21.11" = _LK6inuA5;
-        "default" = _LK6inuA5;
+        "pkg-26.1" = _E8RjOFle;
+        "pkg-26.2" = _iMD6ZOKg;
+        "default" = _iMD6ZOKg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "classic-ore-borders";

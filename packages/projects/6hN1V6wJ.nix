@@ -691,6 +691,26 @@ let
             "file" = "enchancement-fabric-26.2-r3.jar";
             "hash" = "sha512-e6EC2v5GkT1oGFMt1yfGV0NNO7PJ8HOl3rd8XPQPCnVS9fYaa3y06sVdg5HzzJCnQoB+bskSqX+eeHyKvZnW2g==";
         };
+        _Oip0ZdF3 = {
+            "id" = "Oip0ZdF3";
+            "file" = "enchancement-fabric-26.1-r20.jar";
+            "hash" = "sha512-gIUB6u7I54r39N3vnJSbeyC1mzfV0+YWrvrnkULGmsjG79wIyiTO/jxGBSzSThH7btlSbnTdiRpdiJ0Z/nOeRg==";
+        };
+        _H0SdaE9A = {
+            "id" = "H0SdaE9A";
+            "file" = "enchancement-neoforge-26.1-r20.jar";
+            "hash" = "sha512-nXkpv/xDqw6cNbV+Uf5q/YodIjZo++qnTt9uhr+7ND7aCMe/4XppBMyX6ZlZhMqPNg22t/ZmxcejXEqLolxWZg==";
+        };
+        _BA9m9cG9 = {
+            "id" = "BA9m9cG9";
+            "file" = "enchancement-fabric-26.2-r4.jar";
+            "hash" = "sha512-xK+MkapNsm9lH+cKCmrR983LizLmDLmf1pkd/V28yM0S/yYGuAxOYcTSed1wNgI/Rt5+KdcJ8BlC+pWdG/P0fg==";
+        };
+        _DAC2kyV6 = {
+            "id" = "DAC2kyV6";
+            "file" = "enchancement-neoforge-26.1-r21.jar";
+            "hash" = "sha512-EA3bmDFNzbGKMska0cgZOLfqWEnLj9N9STawSYoX726UOOM8LJCNO0pB6HtUizIxQEV2GQPSPXJzQiOUSTfFvw==";
+        };
     in {
         "J3VF5aKI" = _J3VF5aKI;
         "VBmLq71s" = _VBmLq71s;
@@ -830,6 +850,10 @@ let
         "XLBgbrtG" = _XLBgbrtG;
         "s7YDsNp2" = _s7YDsNp2;
         "RapaJc8S" = _RapaJc8S;
+        "Oip0ZdF3" = _Oip0ZdF3;
+        "H0SdaE9A" = _H0SdaE9A;
+        "BA9m9cG9" = _BA9m9cG9;
+        "DAC2kyV6" = _DAC2kyV6;
         "fabric-1.18.2" = _J3VF5aKI;
         "fabric-1.19.2" = _OC5PAcny;
         "fabric-1.19.3" = _kCJ2DnM6;
@@ -847,10 +871,10 @@ let
         "fabric-1.21.8" = _6eTpB23m;
         "fabric-1.21.10" = _RNTVAq67;
         "fabric-1.21.11" = _z5srSROp;
-        "fabric-26.1" = _XLBgbrtG;
-        "fabric-26.1.1" = _XLBgbrtG;
-        "fabric-26.1.2" = _XLBgbrtG;
-        "fabric-26.2" = _RapaJc8S;
+        "fabric-26.1" = _Oip0ZdF3;
+        "fabric-26.1.1" = _Oip0ZdF3;
+        "fabric-26.1.2" = _Oip0ZdF3;
+        "fabric-26.2" = _BA9m9cG9;
         "quilt-1.18.2" = _J3VF5aKI;
         "quilt-1.19.2" = _OC5PAcny;
         "quilt-1.19.3" = _kCJ2DnM6;
@@ -872,9 +896,9 @@ let
         "quilt-26.1.1" = _ejxPm1Am;
         "quilt-26.1.2" = _ejxPm1Am;
         "quilt-26.2" = _AyzexWCb;
-        "neoforge-26.1" = _s7YDsNp2;
-        "neoforge-26.1.1" = _s7YDsNp2;
-        "neoforge-26.1.2" = _s7YDsNp2;
+        "neoforge-26.1" = _DAC2kyV6;
+        "neoforge-26.1.1" = _DAC2kyV6;
+        "neoforge-26.1.2" = _DAC2kyV6;
         "pkg-1.18-19" = _J3VF5aKI;
         "pkg-1.19-12" = _VBmLq71s;
         "pkg-1.19-13" = _1jQBg2iC;
@@ -1012,7 +1036,10 @@ let
         "pkg-26.1-r18" = _ejxPm1Am;
         "pkg-26.1-r19" = _s7YDsNp2;
         "pkg-26.2-r3" = _RapaJc8S;
-        "default" = _RapaJc8S;
+        "pkg-26.1-r20" = _H0SdaE9A;
+        "pkg-26.2-r4" = _BA9m9cG9;
+        "pkg-26.1-r21" = _DAC2kyV6;
+        "default" = _DAC2kyV6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchancement";

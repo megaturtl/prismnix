@@ -73,6 +73,7 @@ let
         "minecraft-26.1" = _SP1yfAws;
         "minecraft-26.1.1" = _SP1yfAws;
         "minecraft-26.1.2" = _SP1yfAws;
+        "minecraft-26.2" = _SP1yfAws;
         "pkg-0.1" = _SP1yfAws;
         "pkg-0.2" = _uQIxkXXw;
         "default" = _SP1yfAws;

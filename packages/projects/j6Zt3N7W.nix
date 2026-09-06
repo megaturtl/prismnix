@@ -46,6 +46,11 @@ let
             "file" = "create_factory-0.7a-1.21.1.jar";
             "hash" = "sha512-IeZrBqnXMWj1+0OP6xQbHbU8tMb9iS3J1roqd6UCZxMcaOaQQBnFI8LFWAPrto/5HW7AGUEnsFZLxgA6TBzUVA==";
         };
+        _OA9Dvj5m = {
+            "id" = "OA9Dvj5m";
+            "file" = "create_factory-0.7b-1.21.1.jar";
+            "hash" = "sha512-Ssw3FEpkTqDdwSkOJBmy64UuOPqkiZL3Aq/CVVFi/Mi6qbecnasvd9pXtbUwARrXN89ji6SBMFOmPEOzpVTUhQ==";
+        };
     in {
         "OGnDlRJa" = _OGnDlRJa;
         "5V11qwsT" = _5V11qwsT;
@@ -56,11 +61,12 @@ let
         "BFGkUG6R" = _BFGkUG6R;
         "th2Aigum" = _th2Aigum;
         "8RgwHaKI" = _8RgwHaKI;
+        "OA9Dvj5m" = _OA9Dvj5m;
         "forge-1.19.2" = _OGnDlRJa;
         "forge-1.19.3" = _OGnDlRJa;
         "forge-1.19.4" = _OGnDlRJa;
         "forge-1.20.1" = _Zwitv6ea;
-        "neoforge-1.21.1" = _8RgwHaKI;
+        "neoforge-1.21.1" = _OA9Dvj5m;
         "pkg-0.0.2-1.19.2" = _OGnDlRJa;
         "pkg-0.3a-1.20.1" = _5V11qwsT;
         "pkg-0.4a-1.20.1" = _jF6zyIlL;
@@ -70,7 +76,8 @@ let
         "pkg-0.6a-1.21.1" = _BFGkUG6R;
         "pkg-0.6b-1.21.1" = _th2Aigum;
         "pkg-0.7a-1.21.1" = _8RgwHaKI;
-        "default" = _8RgwHaKI;
+        "pkg-0.7b-1.21.1" = _OA9Dvj5m;
+        "default" = _OA9Dvj5m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-factory";

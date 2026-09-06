@@ -2536,6 +2536,216 @@ let
             "file" = "ModsTranslationPack-1.21.x.zip";
             "hash" = "sha512-hfmmp3TAWAyqd5n7LigCehbEqJMS+QsRdkgkIPg0ziT0UmUV3FWqw3n8ys8aOXwjQ61wuj9ALN1QecjFSobn+g==";
         };
+        _lDMbloQS = {
+            "id" = "lDMbloQS";
+            "file" = "ModsTranslationPack-1.18.zip";
+            "hash" = "sha512-oabEWLbL/HhQmQIwrlh9x2ZkEilhi45LTsubFp292JCHoSwKs/PjvnSTbBEF27/XXo9T0VK5asSxV0DylXGnXA==";
+        };
+        _Y7c9iGsT = {
+            "id" = "Y7c9iGsT";
+            "file" = "ModsTranslationPack-1.19.zip";
+            "hash" = "sha512-PmPHTdlHeGZZ4Svtqib78CzO+/L/V40TlwX9k8B1wsklVhclFtKDSQzKOjDbEZeHcKBJo8QqbcHbdK2mLHi34w==";
+        };
+        _vbp8mw2L = {
+            "id" = "vbp8mw2L";
+            "file" = "ModsTranslationPack-1.21.zip";
+            "hash" = "sha512-mLo55P241ITdVwaPo0O7WmE4tnfVFjmWGJ77kYhBRjnNfsjf6X2gexyWFldd/WlkZp7xuQyVjz8rTbBFEhHb8g==";
+        };
+        _TwTqlnrf = {
+            "id" = "TwTqlnrf";
+            "file" = "ModsTranslationPack-26.1.zip";
+            "hash" = "sha512-dpxVZgM6peg9cNefPv9EHGrd3E4bvVT/ZP32u7uwM/oxtOY+V+eIx8SwLuOVM2bYqQrhIbtg9XyqLKvlOVKp0g==";
+        };
+        _sQaXZoGn = {
+            "id" = "sQaXZoGn";
+            "file" = "ModsTranslationPack-26.2.zip";
+            "hash" = "sha512-Y2cjR3pXaD9NSdIB9f7Viz/PjddCWFYT/+P4BYkTaM0Qd9YK4h9V4N73bCuM0ryPmUB5lnP74HRbKxneTGR4Eg==";
+        };
+        _wXZM90Fw = {
+            "id" = "wXZM90Fw";
+            "file" = "ModsTranslationPack-1.20.zip";
+            "hash" = "sha512-pMfAC2BNpqFwLfjm33RR5hOLAkM1nNs9Ny6eaK6A/9A9vhSaYrQUdh9TG6eNJWDtj+89CRPCicEfx71rSVlHlA==";
+        };
+        _xBhU22op = {
+            "id" = "xBhU22op";
+            "file" = "ModsTranslationPack-1.18.zip";
+            "hash" = "sha512-qAeR7Ih+evrrwbGYpY3U8UtyJ/HZQ1058fTB5KRLhpqj9t7tBcJLtp2N/QOyEbsQ/wwY4sYyw82z7p2BRMCpFA==";
+        };
+        _gBBZERAQ = {
+            "id" = "gBBZERAQ";
+            "file" = "ModsTranslationPack-1.19.zip";
+            "hash" = "sha512-0OkhEGvmqjBucDJ8hyGr8AXuL1PELaNprtuAJYemjXFc4fPZqVLCZ+n6R7fEbq22Z3WybiqI/yerGJ4GbIcAbw==";
+        };
+        _htnaN08Y = {
+            "id" = "htnaN08Y";
+            "file" = "ModsTranslationPack-1.20.zip";
+            "hash" = "sha512-EJlaSa2Ua0W4zzfkml01IMbp7wHrtCMLn01t1RhspvtYUMXgeoQWR4kjBesQ8IUys9mK5ZeCusGS7C7TMcK+ew==";
+        };
+        _ZBqMVa31 = {
+            "id" = "ZBqMVa31";
+            "file" = "ModsTranslationPack-1.21.zip";
+            "hash" = "sha512-b5/bqps900CTElPD/cKWyWAd/PnA+qEQNvo2tcYAcghohTwudJvRyIum6a5I8hSIV8/Gv8UGhMj5fmWRdHeeIQ==";
+        };
+        _gBhbkr6s = {
+            "id" = "gBhbkr6s";
+            "file" = "ModsTranslationPack-26.1.zip";
+            "hash" = "sha512-nHDh4uWrWsHeOQvH66oG+fFZHFZX/kYdiliOQ1VX10Ql/oB2JwsOv6o+D9n+dSfkhLm1Q9sRBksHXlQwIxjJkQ==";
+        };
+        _SbBmnJDx = {
+            "id" = "SbBmnJDx";
+            "file" = "ModsTranslationPack-26.2.zip";
+            "hash" = "sha512-++i9E3PFEgGkNf/zt322GjQ3aSfStUIDuNSZwO0nECx+Fqo/+ppJIQrruuwp6YQ0J2tV02yKGl/4aQJsTG4f0w==";
+        };
+        _aMw4xGnt = {
+            "id" = "aMw4xGnt";
+            "file" = "ModsTranslationPack-1.18.zip";
+            "hash" = "sha512-UjbyLm9He48XJjNHlONuEuFM9R6jULjM2C8Hg7ecqMlM36qbjGekYAT5z2OOl46r9u0Z4IymsBdVFF3Vz1/e6g==";
+        };
+        _HCag6E0f = {
+            "id" = "HCag6E0f";
+            "file" = "ModsTranslationPack-1.19.zip";
+            "hash" = "sha512-RKsyKaza1tNrPpewrDixsDnfb1ZzRz5aDWgcSCbwNnrUUYUdOZbs/t/ZTFSCpvlARF/tw75V/q59BJkA64Jieg==";
+        };
+        _IUap6Y0k = {
+            "id" = "IUap6Y0k";
+            "file" = "ModsTranslationPack-1.20.zip";
+            "hash" = "sha512-Y5Z4yAuu+CL8IDI1GPbSPovmi1p0gxviyld/npSFye69QVcBL55aeMQSJcNHlhmmLzI2mL+PtD1pu2l2yE9Y4w==";
+        };
+        _ZEAWqdPj = {
+            "id" = "ZEAWqdPj";
+            "file" = "ModsTranslationPack-1.21.zip";
+            "hash" = "sha512-SDFVIWtXr+gsYlhKKfM4frTv7Lu/LlmkShQVD2n3ZJycfD0OQPzgMVQzB/unuKWVo8Ny1P/ecosuUAqv8ncFTw==";
+        };
+        _8KqichhR = {
+            "id" = "8KqichhR";
+            "file" = "ModsTranslationPack-26.1.zip";
+            "hash" = "sha512-m6Le9yJrjlTsqMxdmuKD+BKmmS8F73+Re5GdafSINhGiT2p7N4cPm/1QZMCDE8MrH4GshzFk5ZObvL78YeWyng==";
+        };
+        _ZabKxXdt = {
+            "id" = "ZabKxXdt";
+            "file" = "ModsTranslationPack-26.2.zip";
+            "hash" = "sha512-qxlXamT2KQdytWs08hJ5N0RlaeVL+BZa154RPwwz6wdsihehpNklhBv1F7GynwVU8icUw5diFmL4JOuxe5lWiA==";
+        };
+        _utUZHRx0 = {
+            "id" = "utUZHRx0";
+            "file" = "ModsTranslationPack-1.18.zip";
+            "hash" = "sha512-KMVo9UWDkXyLgLwNCc80ETNXIt3pI5oRYkuEwOunW4U49LSIeguWrDCWLCV33zRAL6myeLHJrTLu/ceeHN3ppw==";
+        };
+        _utP9NXJI = {
+            "id" = "utP9NXJI";
+            "file" = "ModsTranslationPack-1.19.zip";
+            "hash" = "sha512-cIKGMqP3fUbrO6lD1jLZ+TNmesFuyDzdBjykbaVn7qJCAlHkb0jf+KX2IWF3Wug6x9/oAnz1vMnqn6MLUi3ZuA==";
+        };
+        _X1taBRjQ = {
+            "id" = "X1taBRjQ";
+            "file" = "ModsTranslationPack-1.20.zip";
+            "hash" = "sha512-uUmJ7dQDB1OWGh8WnBTqErrtVHLYQUf5VFGqjPydabDfEbmjyo7FspojVRpkim69QMfim44923JVY5R2PfyW4Q==";
+        };
+        _l81QStdp = {
+            "id" = "l81QStdp";
+            "file" = "ModsTranslationPack-1.21.zip";
+            "hash" = "sha512-49XjyPexEy/n9lqo2ZrXdnEXyGJWkiu512IjC3KuxRL7KU45AbCUdklx24NgTHLLwyGqZdYOJo1Vl4tQtULv/g==";
+        };
+        _4MmhXB5z = {
+            "id" = "4MmhXB5z";
+            "file" = "ModsTranslationPack-26.1.zip";
+            "hash" = "sha512-JQ49tEHuYeCiRE2zeBaMEVwrcww4aDEijwCixT+uabErShIi+EAvf45gy/xj+FNT8uAbU6oonEhR2JPokt23jw==";
+        };
+        _5RhPD9p1 = {
+            "id" = "5RhPD9p1";
+            "file" = "ModsTranslationPack-26.2.zip";
+            "hash" = "sha512-31+HrG6bt55jTJRCjgqyGTx1wUlIa8LSNJ5h72hrKSQSbC8HtlscStBmhPu09iTYrvbNYFiCgko15JFVniNeAA==";
+        };
+        _xceThNzF = {
+            "id" = "xceThNzF";
+            "file" = "ModsTranslationPack-1.18.zip";
+            "hash" = "sha512-tA2MpSzPOyZbY3WWSCB24FR02iAUz72BGvha2LFVZHyhJPWcBmMu0foV+ZCYH5Xi305Ky4rYEkLlCZokGGCL/Q==";
+        };
+        _B37KkX7l = {
+            "id" = "B37KkX7l";
+            "file" = "ModsTranslationPack-1.19.zip";
+            "hash" = "sha512-LYv80FL1HO4R9rnWxQxhTWch/MlFkLqMpBa/SLna+2slUtQ4sr2ceHmDrrmczRq7MPHMxv7LpeURJXSKHaAJ/Q==";
+        };
+        _pxw7bu7c = {
+            "id" = "pxw7bu7c";
+            "file" = "ModsTranslationPack-1.20.zip";
+            "hash" = "sha512-oneXvDVpfa8mDGiPIP90O53VF/L1lHOEQIh8GsjRRCg0v/x1mN5uE9ge3GixrJPMQdOMVVwwCzkx7CssEnhBnw==";
+        };
+        _Rl0u9tWw = {
+            "id" = "Rl0u9tWw";
+            "file" = "ModsTranslationPack-1.21.zip";
+            "hash" = "sha512-dUx33Njv+twN2LzGOnqHZ7q/Rz45lXRW+knMEQhHszzWaG8zOVKtDKF/vgeep1yN00tg1W8X6o+XYdiqBgG8pw==";
+        };
+        _HGq7fDmU = {
+            "id" = "HGq7fDmU";
+            "file" = "ModsTranslationPack-26.1.zip";
+            "hash" = "sha512-RkxOAoOmdOyrsQjuTKIGLCw4um6w5k+JRy9Lo/mwfQcNHoHvdoJxOtVutOGnBK0HDqj8aoSIobNI87IaQq02Gg==";
+        };
+        _oLT6NNDa = {
+            "id" = "oLT6NNDa";
+            "file" = "ModsTranslationPack-26.2.zip";
+            "hash" = "sha512-Xx666uOFwflurf/3MzcV8Zt946gjL4iLamsr/+v5LRFnWXtqlBLuADdwDah1D8wMTscjhLU+D5UbEk7IL5YPgw==";
+        };
+        _cPg7q3bT = {
+            "id" = "cPg7q3bT";
+            "file" = "ModsTranslationPack-1.18.zip";
+            "hash" = "sha512-A/Y3O0UyvkiYlI6d1ynEx4GV6GNzlZAskxVjeOz2enqFULQ3P6Y63pkZl+uHbGg76LrHWwYH78Wdd90+kcUVzA==";
+        };
+        _TbIowE4u = {
+            "id" = "TbIowE4u";
+            "file" = "ModsTranslationPack-1.19.zip";
+            "hash" = "sha512-Q7gjcyWL06FLuQwhBGhp2Vu88xX+j+frZlX3TYITyW0G/8YO0BY26D8oDZAx1iA6JsokhnOfKCPkPifml2PDbA==";
+        };
+        _xNyW6sUw = {
+            "id" = "xNyW6sUw";
+            "file" = "ModsTranslationPack-1.20.zip";
+            "hash" = "sha512-LpLrE8kIfoTM2lrPS0otED1/at6xZm8hEX9fGjguVUbrQQqulAHPbdhSC5QIpIbKScErlZRxix/7V2qPPtoauw==";
+        };
+        _Y8rCmrdA = {
+            "id" = "Y8rCmrdA";
+            "file" = "ModsTranslationPack-1.21.zip";
+            "hash" = "sha512-49WtW+mECp3sK1FNdy4WKqDbaGAlKti85dIBWrKw1zGZFt0YWaihFQnYUdu+44hYJ5LkGoHk9QKsMlEIu8wKFQ==";
+        };
+        _AAG91c7r = {
+            "id" = "AAG91c7r";
+            "file" = "ModsTranslationPack-26.1.zip";
+            "hash" = "sha512-LgrJ5bJsrH7q1yNhr5gRBdEir5t47pJqxZYyGEi+5hktd6Lx3b4sBpvbtSWUm814atrzL8oiCCjeXEcZ39KWAg==";
+        };
+        _RUTu9Txk = {
+            "id" = "RUTu9Txk";
+            "file" = "ModsTranslationPack-26.2.zip";
+            "hash" = "sha512-0PZnn5ei86GpQRuNJ2YxAiafSY2snZ04DVlOvOfGzP4ZhzexuykwESbBPx6Ru9W9GRR+mX9LeBssSnxc0TGq2g==";
+        };
+        _7zpoJeXU = {
+            "id" = "7zpoJeXU";
+            "file" = "ModsTranslationPack-1.18.zip";
+            "hash" = "sha512-7JCXMs3mXNoYNswDdwEbB22q7JiRrgzEcJegecckoNJ1JBVpUfeny+rJfjSe4wjWEL/zD+7xn8ZJf0FVLKuamg==";
+        };
+        _viTjoIp7 = {
+            "id" = "viTjoIp7";
+            "file" = "ModsTranslationPack-1.19.zip";
+            "hash" = "sha512-9qKDnh3NGJJG+m4VYiiKOZ1oj0o6o5fp3PlQsg5WsElMwKEMy9QUbUd70PjcbsegNdEwteARu6uJOCqX7d/3Aw==";
+        };
+        _kqK6udCO = {
+            "id" = "kqK6udCO";
+            "file" = "ModsTranslationPack-1.20.zip";
+            "hash" = "sha512-QrDBNqDHo59FlCQEnfkRlI+MR+jlDd24AZXD5vNJPpTz0c0rLPm6L+NWS7LEHflk1i1XegKPOu8hk0E1nfgnVg==";
+        };
+        _dSQ4uN5D = {
+            "id" = "dSQ4uN5D";
+            "file" = "ModsTranslationPack-1.21.zip";
+            "hash" = "sha512-s4V8zmf8a4l2Fngau2OM7ot0qnP8ze4RBVYpUwRcoDHDZcVeGbSys8EEdtByjtTW6ix9ejHh7imgYd4q6FEwWA==";
+        };
+        _OvVcewzF = {
+            "id" = "OvVcewzF";
+            "file" = "ModsTranslationPack-26.1.zip";
+            "hash" = "sha512-qVZSomAuS7eADDZTJvjrY3kaqdRIfqMz9G0rLW/q4W/qHYhwGhoMbPTpNpU0DHxkw+dJY9nnAMi4/W5u1v4+UA==";
+        };
+        _l2txmLnY = {
+            "id" = "l2txmLnY";
+            "file" = "ModsTranslationPack-26.2.zip";
+            "hash" = "sha512-Vf4rR6nuBKR6ctxQAEr3Td5dI8sBlcZUk3phui0NOE3tqnm+SxRR7cx9qaoqJp2xm+mDi3beEvso57o7iVRREQ==";
+        };
     in {
         "4afWmqyg" = _4afWmqyg;
         "z22O165y" = _z22O165y;
@@ -3044,36 +3254,79 @@ let
         "HRXw1mzI" = _HRXw1mzI;
         "HL5g9sLK" = _HL5g9sLK;
         "L5Xvf9xs" = _L5Xvf9xs;
-        "minecraft-1.18" = _8n5lM9uK;
-        "minecraft-1.18.1" = _8n5lM9uK;
-        "minecraft-1.18.2" = _8n5lM9uK;
-        "minecraft-1.19" = _HRXw1mzI;
-        "minecraft-1.19.1" = _HRXw1mzI;
-        "minecraft-1.19.2" = _HRXw1mzI;
-        "minecraft-1.19.3" = _HRXw1mzI;
-        "minecraft-1.19.4" = _HRXw1mzI;
-        "minecraft-1.20" = _HL5g9sLK;
-        "minecraft-1.20.1" = _HL5g9sLK;
-        "minecraft-1.20.2" = _HL5g9sLK;
-        "minecraft-1.20.3" = _HL5g9sLK;
-        "minecraft-1.20.4" = _HL5g9sLK;
-        "minecraft-1.20.5" = _HL5g9sLK;
-        "minecraft-1.20.6" = _HL5g9sLK;
-        "minecraft-1.21" = _L5Xvf9xs;
-        "minecraft-1.21.1" = _L5Xvf9xs;
-        "minecraft-1.21.2" = _L5Xvf9xs;
-        "minecraft-1.21.3" = _L5Xvf9xs;
-        "minecraft-1.21.4" = _L5Xvf9xs;
-        "minecraft-1.21.5" = _L5Xvf9xs;
-        "minecraft-1.21.6" = _L5Xvf9xs;
-        "minecraft-1.21.7" = _L5Xvf9xs;
-        "minecraft-1.21.8" = _L5Xvf9xs;
-        "minecraft-1.21.9" = _L5Xvf9xs;
-        "minecraft-1.21.10" = _L5Xvf9xs;
-        "minecraft-1.21.11" = _L5Xvf9xs;
-        "minecraft-26.1" = _L5Xvf9xs;
-        "minecraft-26.1.1" = _L5Xvf9xs;
-        "minecraft-26.1.2" = _L5Xvf9xs;
+        "lDMbloQS" = _lDMbloQS;
+        "Y7c9iGsT" = _Y7c9iGsT;
+        "vbp8mw2L" = _vbp8mw2L;
+        "TwTqlnrf" = _TwTqlnrf;
+        "sQaXZoGn" = _sQaXZoGn;
+        "wXZM90Fw" = _wXZM90Fw;
+        "xBhU22op" = _xBhU22op;
+        "gBBZERAQ" = _gBBZERAQ;
+        "htnaN08Y" = _htnaN08Y;
+        "ZBqMVa31" = _ZBqMVa31;
+        "gBhbkr6s" = _gBhbkr6s;
+        "SbBmnJDx" = _SbBmnJDx;
+        "aMw4xGnt" = _aMw4xGnt;
+        "HCag6E0f" = _HCag6E0f;
+        "IUap6Y0k" = _IUap6Y0k;
+        "ZEAWqdPj" = _ZEAWqdPj;
+        "8KqichhR" = _8KqichhR;
+        "ZabKxXdt" = _ZabKxXdt;
+        "utUZHRx0" = _utUZHRx0;
+        "utP9NXJI" = _utP9NXJI;
+        "X1taBRjQ" = _X1taBRjQ;
+        "l81QStdp" = _l81QStdp;
+        "4MmhXB5z" = _4MmhXB5z;
+        "5RhPD9p1" = _5RhPD9p1;
+        "xceThNzF" = _xceThNzF;
+        "B37KkX7l" = _B37KkX7l;
+        "pxw7bu7c" = _pxw7bu7c;
+        "Rl0u9tWw" = _Rl0u9tWw;
+        "HGq7fDmU" = _HGq7fDmU;
+        "oLT6NNDa" = _oLT6NNDa;
+        "cPg7q3bT" = _cPg7q3bT;
+        "TbIowE4u" = _TbIowE4u;
+        "xNyW6sUw" = _xNyW6sUw;
+        "Y8rCmrdA" = _Y8rCmrdA;
+        "AAG91c7r" = _AAG91c7r;
+        "RUTu9Txk" = _RUTu9Txk;
+        "7zpoJeXU" = _7zpoJeXU;
+        "viTjoIp7" = _viTjoIp7;
+        "kqK6udCO" = _kqK6udCO;
+        "dSQ4uN5D" = _dSQ4uN5D;
+        "OvVcewzF" = _OvVcewzF;
+        "l2txmLnY" = _l2txmLnY;
+        "minecraft-1.18" = _7zpoJeXU;
+        "minecraft-1.18.1" = _7zpoJeXU;
+        "minecraft-1.18.2" = _7zpoJeXU;
+        "minecraft-1.19" = _viTjoIp7;
+        "minecraft-1.19.1" = _viTjoIp7;
+        "minecraft-1.19.2" = _viTjoIp7;
+        "minecraft-1.19.3" = _viTjoIp7;
+        "minecraft-1.19.4" = _viTjoIp7;
+        "minecraft-1.20" = _kqK6udCO;
+        "minecraft-1.20.1" = _kqK6udCO;
+        "minecraft-1.20.2" = _kqK6udCO;
+        "minecraft-1.20.3" = _kqK6udCO;
+        "minecraft-1.20.4" = _kqK6udCO;
+        "minecraft-1.20.5" = _kqK6udCO;
+        "minecraft-1.20.6" = _kqK6udCO;
+        "minecraft-1.21" = _dSQ4uN5D;
+        "minecraft-1.21.1" = _dSQ4uN5D;
+        "minecraft-1.21.2" = _dSQ4uN5D;
+        "minecraft-1.21.3" = _dSQ4uN5D;
+        "minecraft-1.21.4" = _dSQ4uN5D;
+        "minecraft-1.21.5" = _dSQ4uN5D;
+        "minecraft-1.21.6" = _dSQ4uN5D;
+        "minecraft-1.21.7" = _dSQ4uN5D;
+        "minecraft-1.21.8" = _dSQ4uN5D;
+        "minecraft-1.21.9" = _dSQ4uN5D;
+        "minecraft-1.21.10" = _dSQ4uN5D;
+        "minecraft-1.21.11" = _dSQ4uN5D;
+        "minecraft-26.1" = _OvVcewzF;
+        "minecraft-26.1.1" = _OvVcewzF;
+        "minecraft-26.1.2" = _OvVcewzF;
+        "minecraft-26.2" = _l2txmLnY;
         "pkg-v1.0.0" = _4afWmqyg;
         "pkg-v1.0.1" = _z22O165y;
         "pkg-v1.1.0" = _XDvYnLSV;
@@ -3230,7 +3483,14 @@ let
         "pkg-git-2e170e2" = _VTQlnStn;
         "pkg-v1.9.2" = _HrKgu7g3;
         "pkg-v1.9.3" = _L5Xvf9xs;
-        "default" = _L5Xvf9xs;
+        "pkg-git-9818335" = _wXZM90Fw;
+        "pkg-git-ecdcacc" = _SbBmnJDx;
+        "pkg-git-70c5d4a" = _ZabKxXdt;
+        "pkg-git-1062c97" = _5RhPD9p1;
+        "pkg-git-cf8191f" = _oLT6NNDa;
+        "pkg-git-ed44a6e" = _RUTu9Txk;
+        "pkg-git-f716cf7" = _l2txmLnY;
+        "default" = _l2txmLnY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modstranslationpack";

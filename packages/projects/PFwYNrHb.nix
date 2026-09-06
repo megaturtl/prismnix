@@ -911,6 +911,16 @@ let
             "file" = "ArmorPoser-neoforge-26.2-15.0.2.jar";
             "hash" = "sha512-HYwuI57zwmtM5aHjyj/roLkf3FEXdjpbKLkswP8JZErYcrGcx3jhr+JqQFCZkKenFOCRFrelEpxhJzWd4jPAyg==";
         };
+        _kAojpcBr = {
+            "id" = "kAojpcBr";
+            "file" = "ArmorPoser-fabric-26.2-15.0.3.jar";
+            "hash" = "sha512-Ck3gJGs3q2GA3wFzi1gOZYry2v83obOCWNY0HfCB0XWI5zOiSy8Elsnbp3+8zoM84PfoBKDdKmCKUhT5HhxaEA==";
+        };
+        _yq517k9r = {
+            "id" = "yq517k9r";
+            "file" = "ArmorPoser-neoforge-26.2-15.0.3.jar";
+            "hash" = "sha512-RKd9+tqIUo5/oc3b9BphC+N6dGP6LDTBjp4P3k+uiiTMDxPOiNEPekEwD5P7qNmquS9pBaoXa1/UXSZ6Ye8Y2w==";
+        };
     in {
         "pqxsDThc" = _pqxsDThc;
         "DQUQgjkj" = _DQUQgjkj;
@@ -1094,6 +1104,8 @@ let
         "JrUTpWNc" = _JrUTpWNc;
         "EYDmNTN7" = _EYDmNTN7;
         "80KPHgQl" = _80KPHgQl;
+        "kAojpcBr" = _kAojpcBr;
+        "yq517k9r" = _yq517k9r;
         "forge-1.18.2" = _hJ7COX8B;
         "forge-1.18.1" = _rFWOiaZL;
         "forge-1.17.1" = _n89ecp9R;
@@ -1130,7 +1142,7 @@ let
         "fabric-26.1" = _pvcm0Rzq;
         "fabric-26.1.1" = _R6FCwbuD;
         "fabric-26.1.2" = _l1mAfNMP;
-        "fabric-26.2" = _EYDmNTN7;
+        "fabric-26.2" = _kAojpcBr;
         "neoforge-1.20.1" = _zhJ8sCJh;
         "neoforge-1.20.4" = _FD2uXmGG;
         "neoforge-1.20.5" = _1ePcmGhn;
@@ -1149,7 +1161,7 @@ let
         "neoforge-26.1" = _1iViapQP;
         "neoforge-26.1.1" = _672fFA8f;
         "neoforge-26.1.2" = _bqNsQ6jG;
-        "neoforge-26.2" = _80KPHgQl;
+        "neoforge-26.2" = _yq517k9r;
         "pkg-1.0.3.2" = _pqxsDThc;
         "pkg-1.0.3.1" = _DQUQgjkj;
         "pkg-1.0.2.2" = _rFWOiaZL;
@@ -1246,7 +1258,8 @@ let
         "pkg-6.2.4" = _UNtgorCZ;
         "pkg-15.0.1" = _JrUTpWNc;
         "pkg-15.0.2" = _80KPHgQl;
-        "default" = _80KPHgQl;
+        "pkg-15.0.3" = _yq517k9r;
+        "default" = _yq517k9r;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armor-poser";

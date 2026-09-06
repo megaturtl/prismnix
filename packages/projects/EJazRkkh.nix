@@ -31,6 +31,11 @@ let
             "file" = "dmz_passives_plus-1.5.0.jar";
             "hash" = "sha512-k/jms0+Kb6uVs/Hob4Aw2CTTC9/kbQd9F8wtMEQinbasBqHxEsOFfKjuq9dmnkOZ7w69LZxXdHGFI/XYIl83+g==";
         };
+        _Vbr4a01E = {
+            "id" = "Vbr4a01E";
+            "file" = "dmz_passives_plus-1.5.1.jar";
+            "hash" = "sha512-ysxAk3Z+tFPcZxWmzh9pYdrTii2ovhQGmcV3BomVag5viemyH384mIZP3Pz3ThZIr1H6i2UHbsKLda7I3mCkOw==";
+        };
     in {
         "XLsYVz1M" = _XLsYVz1M;
         "OzhGRJRE" = _OzhGRJRE;
@@ -38,14 +43,16 @@ let
         "MmsDPycr" = _MmsDPycr;
         "wz25JkQ7" = _wz25JkQ7;
         "FKgIjdEg" = _FKgIjdEg;
-        "forge-1.20.1" = _FKgIjdEg;
+        "Vbr4a01E" = _Vbr4a01E;
+        "forge-1.20.1" = _Vbr4a01E;
         "pkg-1.2.0" = _XLsYVz1M;
         "pkg-1.2.5" = _OzhGRJRE;
         "pkg-1.3.0" = _qwqxjNsm;
         "pkg-1.4.0" = _MmsDPycr;
         "pkg-1.4.1" = _wz25JkQ7;
         "pkg-1.5.0" = _FKgIjdEg;
-        "default" = _FKgIjdEg;
+        "pkg-1.5.1" = _Vbr4a01E;
+        "default" = _Vbr4a01E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dragonmine-z-passives+";

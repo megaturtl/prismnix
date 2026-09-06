@@ -171,6 +171,26 @@ let
             "file" = "gardeners-dream-2.5.1.jar";
             "hash" = "sha512-hH8x0cMxlg++9ywcZAwxGS6w/AkMYcTw1QL4/Eca6HakbBuHt40fpT4yb03PgTnuNyqO7gosicmsyXDP8PwwFw==";
         };
+        _mwbcrSK2 = {
+            "id" = "mwbcrSK2";
+            "file" = "gardeners-dream-v2-4-3.zip";
+            "hash" = "sha512-evgZOH0U5+k9Ju1zOcb/oj+QX+iPUdrNYfla94+UGN9OPlF/PNpnbu5dM/vRkcfqMeRjMzCFd+lLlVAWqF6Tsg==";
+        };
+        _ynRx8IkE = {
+            "id" = "ynRx8IkE";
+            "file" = "gardeners-dream-2.4.3.jar";
+            "hash" = "sha512-GrFRlTYe7HQIlkVHEKgnRZHx0yV25gPuXtCFL21fntHzNxckG1S/bU17qVDhUPBy0avC6UdodAeqC2L6caR15w==";
+        };
+        _XOTi4XMM = {
+            "id" = "XOTi4XMM";
+            "file" = "gardeners-dream-v2-5-2.zip";
+            "hash" = "sha512-seuTIGF/8amx40EWLKJBMXdTyyBSyWIq+H7XjlUbJzGK3N7wauQZ2ASDEx3ILRBquWroLF6SOBuCzkKM0O9RwA==";
+        };
+        _dK6tHn3y = {
+            "id" = "dK6tHn3y";
+            "file" = "gardeners-dream-2.5.2.jar";
+            "hash" = "sha512-HBIUmKgwxs8Y6tgbPP1KW7n8glvL8EXLqjFLNIWSJft1WlV8jK+rmYSb7FmqvJ86BOvHdKBbB+AcHKTeVJZVeA==";
+        };
     in {
         "jBJhBEQy" = _jBJhBEQy;
         "vkj0XibE" = _vkj0XibE;
@@ -206,6 +226,10 @@ let
         "3SAzAXDR" = _3SAzAXDR;
         "XVRRhqZp" = _XVRRhqZp;
         "2NNkOWVx" = _2NNkOWVx;
+        "mwbcrSK2" = _mwbcrSK2;
+        "ynRx8IkE" = _ynRx8IkE;
+        "XOTi4XMM" = _XOTi4XMM;
+        "dK6tHn3y" = _dK6tHn3y;
         "datapack-1.20" = _jBJhBEQy;
         "datapack-1.20.1" = _jBJhBEQy;
         "datapack-1.20.2" = _jBJhBEQy;
@@ -224,11 +248,11 @@ let
         "datapack-1.21.8" = _rJLO49AS;
         "datapack-1.21.9" = _SMJ0O34o;
         "datapack-1.21.10" = _SMJ0O34o;
-        "datapack-1.21.11" = _GA1Nh3ov;
-        "datapack-26.1" = _GA1Nh3ov;
-        "datapack-26.1.1" = _GA1Nh3ov;
-        "datapack-26.1.2" = _GA1Nh3ov;
-        "datapack-26.2" = _XVRRhqZp;
+        "datapack-1.21.11" = _mwbcrSK2;
+        "datapack-26.1" = _mwbcrSK2;
+        "datapack-26.1.1" = _mwbcrSK2;
+        "datapack-26.1.2" = _mwbcrSK2;
+        "datapack-26.2" = _XOTi4XMM;
         "fabric-1.20" = _vkj0XibE;
         "fabric-1.20.1" = _vkj0XibE;
         "fabric-1.20.2" = _vkj0XibE;
@@ -247,11 +271,11 @@ let
         "fabric-1.21.8" = _PtHN9wKV;
         "fabric-1.21.9" = _Smch9jgJ;
         "fabric-1.21.10" = _Smch9jgJ;
-        "fabric-1.21.11" = _3SAzAXDR;
-        "fabric-26.1" = _3SAzAXDR;
-        "fabric-26.1.1" = _3SAzAXDR;
-        "fabric-26.1.2" = _3SAzAXDR;
-        "fabric-26.2" = _2NNkOWVx;
+        "fabric-1.21.11" = _ynRx8IkE;
+        "fabric-26.1" = _ynRx8IkE;
+        "fabric-26.1.1" = _ynRx8IkE;
+        "fabric-26.1.2" = _ynRx8IkE;
+        "fabric-26.2" = _dK6tHn3y;
         "forge-1.20" = _vkj0XibE;
         "forge-1.20.1" = _vkj0XibE;
         "forge-1.20.2" = _vkj0XibE;
@@ -270,11 +294,11 @@ let
         "forge-1.21.8" = _PtHN9wKV;
         "forge-1.21.9" = _Smch9jgJ;
         "forge-1.21.10" = _Smch9jgJ;
-        "forge-1.21.11" = _3SAzAXDR;
-        "forge-26.1" = _3SAzAXDR;
-        "forge-26.1.1" = _3SAzAXDR;
-        "forge-26.1.2" = _3SAzAXDR;
-        "forge-26.2" = _2NNkOWVx;
+        "forge-1.21.11" = _ynRx8IkE;
+        "forge-26.1" = _ynRx8IkE;
+        "forge-26.1.1" = _ynRx8IkE;
+        "forge-26.1.2" = _ynRx8IkE;
+        "forge-26.2" = _dK6tHn3y;
         "quilt-1.20" = _vkj0XibE;
         "quilt-1.20.1" = _vkj0XibE;
         "quilt-1.20.2" = _vkj0XibE;
@@ -293,11 +317,11 @@ let
         "quilt-1.21.8" = _PtHN9wKV;
         "quilt-1.21.9" = _Smch9jgJ;
         "quilt-1.21.10" = _Smch9jgJ;
-        "quilt-1.21.11" = _3SAzAXDR;
-        "quilt-26.1" = _3SAzAXDR;
-        "quilt-26.1.1" = _3SAzAXDR;
-        "quilt-26.1.2" = _3SAzAXDR;
-        "quilt-26.2" = _2NNkOWVx;
+        "quilt-1.21.11" = _ynRx8IkE;
+        "quilt-26.1" = _ynRx8IkE;
+        "quilt-26.1.1" = _ynRx8IkE;
+        "quilt-26.1.2" = _ynRx8IkE;
+        "quilt-26.2" = _dK6tHn3y;
         "neoforge-1.21.2" = _EwGbc6m7;
         "neoforge-1.21.3" = _EwGbc6m7;
         "neoforge-1.21.4" = _t94MPcdA;
@@ -307,11 +331,11 @@ let
         "neoforge-1.21.8" = _PtHN9wKV;
         "neoforge-1.21.9" = _Smch9jgJ;
         "neoforge-1.21.10" = _Smch9jgJ;
-        "neoforge-1.21.11" = _3SAzAXDR;
-        "neoforge-26.1" = _3SAzAXDR;
-        "neoforge-26.1.1" = _3SAzAXDR;
-        "neoforge-26.1.2" = _3SAzAXDR;
-        "neoforge-26.2" = _2NNkOWVx;
+        "neoforge-1.21.11" = _ynRx8IkE;
+        "neoforge-26.1" = _ynRx8IkE;
+        "neoforge-26.1.1" = _ynRx8IkE;
+        "neoforge-26.1.2" = _ynRx8IkE;
+        "neoforge-26.2" = _dK6tHn3y;
         "pkg-1" = _jBJhBEQy;
         "pkg-1+mod" = _vkj0XibE;
         "pkg-1.2" = _VSanOn16;
@@ -346,7 +370,11 @@ let
         "pkg-2.4.2+mod" = _3SAzAXDR;
         "pkg-2.5.1" = _XVRRhqZp;
         "pkg-2.5.1+mod" = _2NNkOWVx;
-        "default" = _2NNkOWVx;
+        "pkg-2.4.3" = _mwbcrSK2;
+        "pkg-2.4.3+mod" = _ynRx8IkE;
+        "pkg-2.5.2" = _XOTi4XMM;
+        "pkg-2.5.2+mod" = _dK6tHn3y;
+        "default" = _dK6tHn3y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gardeners-dream";

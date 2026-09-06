@@ -221,6 +221,26 @@ let
             "file" = "bubusteinmoneymod-NeoForge-mc26.2-14.1.0.jar";
             "hash" = "sha512-WE96poAgZW8wh6QfD6V8U1djt3tjF+hIwoSVN77Ew6tFc25PTKWMm9GLchEzhz96gsCBxHr4fWR/rTIegbHqZQ==";
         };
+        _vxrvapLR = {
+            "id" = "vxrvapLR";
+            "file" = "bubusteinmoneymod-Fabric-mc1.20.1-5.2.0.jar";
+            "hash" = "sha512-/wC82OzGpwgNAs2foGxz7Av9VwXR9HlbqHmPhjTQLl2yCKToWR36VRcxs8VHZnHzNNzt8ZsLG7a+TBP1QPKtCQ==";
+        };
+        _K4yZpB9I = {
+            "id" = "K4yZpB9I";
+            "file" = "bubusteinmoneymod-Forge-mc1.20.1-5.2.0.jar";
+            "hash" = "sha512-icnQgygHwEHaD6UmVByF8dnpw7gg+Gqi64wlu9r214Sbq6ReAFFQQhGH8l2QCVWHCUMUgLPd1iOGUupd+cfRTA==";
+        };
+        _kIFFoluX = {
+            "id" = "kIFFoluX";
+            "file" = "bubusteinmoneymod-Fabric-mc1.21.1-8.2.0.jar";
+            "hash" = "sha512-MlPrilNNuPmmwMsRWQiA39ecim2MgLjMsc/cb+vl6TL12OrWObRgv/EtWZsgJmz+8/DA+5JjuKyO3ew6Ipc7Vg==";
+        };
+        _z14jxQfa = {
+            "id" = "z14jxQfa";
+            "file" = "bubusteinmoneymod-NeoForge-mc1.21.1-8.2.0.jar";
+            "hash" = "sha512-sHtDjhyyKv/XjLr0R3wxHTpXFc+fJeNnE0zb6vMw3HrxhNKPZqRBEq/56ymT9epe0GDyCBoHFcF6CiF2bEux1w==";
+        };
     in {
         "IGi6qznJ" = _IGi6qznJ;
         "jS70LRR4" = _jS70LRR4;
@@ -266,17 +286,21 @@ let
         "xyE4rfWp" = _xyE4rfWp;
         "PH2g1ktp" = _PH2g1ktp;
         "sOM77Gil" = _sOM77Gil;
+        "vxrvapLR" = _vxrvapLR;
+        "K4yZpB9I" = _K4yZpB9I;
+        "kIFFoluX" = _kIFFoluX;
+        "z14jxQfa" = _z14jxQfa;
         "fabric-1.19.2" = _KUKo0WCA;
         "fabric-1.19.3" = _jS70LRR4;
         "fabric-1.19.4" = _jS70LRR4;
-        "fabric-1.20.1" = _ps5VltXk;
+        "fabric-1.20.1" = _vxrvapLR;
         "fabric-1.18.2" = _ymxLURY3;
         "fabric-1.16.5" = _PKayy0E1;
         "fabric-1.20.4" = _5xI9QBpg;
         "fabric-1.20.6" = _zOuVSEgh;
         "fabric-1.21.4" = _zsVZNyqx;
         "fabric-1.21.5" = _SmE9cTVi;
-        "fabric-1.21.1" = _wBojmIby;
+        "fabric-1.21.1" = _kIFFoluX;
         "fabric-1.21.8" = _wnX8rEBz;
         "fabric-1.21" = _ZF8d4mql;
         "fabric-1.21.11" = _B30tp0e7;
@@ -285,14 +309,14 @@ let
         "forge-1.16.5" = _XILf1tPq;
         "forge-1.18.2" = _BnqxX5Bq;
         "forge-1.19.2" = _vMi0kzqY;
-        "forge-1.20.1" = _30N9TpkJ;
+        "forge-1.20.1" = _K4yZpB9I;
         "forge-1.20.4" = _D2GNMRnq;
         "neoforge-1.20.1" = _QHYGBwp1;
         "neoforge-1.20.4" = _wbOaU47w;
         "neoforge-1.20.6" = _is3WWKl0;
         "neoforge-1.21.4" = _6tdl6Hsd;
         "neoforge-1.21.5" = _KWPB02tk;
-        "neoforge-1.21.1" = _oYDtJqOx;
+        "neoforge-1.21.1" = _z14jxQfa;
         "neoforge-1.21.8" = _sqVqjL3j;
         "neoforge-1.21" = _l9XKeXmg;
         "neoforge-1.21.11" = _IhLeESWy;
@@ -342,7 +366,11 @@ let
         "pkg-13.1.0+neoforge" = _xyE4rfWp;
         "pkg-14.1.0+fabric" = _PH2g1ktp;
         "pkg-14.1.0+neoforge" = _sOM77Gil;
-        "default" = _sOM77Gil;
+        "pkg-5.2.0+fabric" = _vxrvapLR;
+        "pkg-5.2.0+forge" = _K4yZpB9I;
+        "pkg-8.2.0+fabric" = _kIFFoluX;
+        "pkg-8.2.0+neoforge" = _z14jxQfa;
+        "default" = _z14jxQfa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bubustein-money";
@@ -350,13 +378,13 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "GNU Lesser General Public License v3.0 only";
-                shortName = "LGPL-3.0-only";
-                url = null;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = "https://bubustein.com/LICENSE.txt";
             };
         };
     };

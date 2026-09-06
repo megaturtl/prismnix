@@ -246,6 +246,21 @@ let
             "file" = "simplemacro-fabric-1.2.0+26.2.jar";
             "hash" = "sha512-Qx+5xU+7pi+SvrELB3EJOu2NULoiXmjDt5e80zu4Ksqd92nftvr7s3l4Bl+T610lo4infqD84d1nOhpxZ5P7qg==";
         };
+        _xhU3ezDV = {
+            "id" = "xhU3ezDV";
+            "file" = "simplemacro-neoforge-1.2.1+26.2.jar";
+            "hash" = "sha512-7AsP/IFUnYfG3rdJlx3G5OBIKWlNjIN/IrGCnnUI6XknYiTtnHoF84+nziidCUDYQZE/pwA0VSa/qaIc8aZnMw==";
+        };
+        _8amMOuQX = {
+            "id" = "8amMOuQX";
+            "file" = "simplemacro-forge-1.2.1+26.2.jar";
+            "hash" = "sha512-Ow5hCyQaXSIOM4gdpM8997qKWZJmbf0M32IM/aF2oSasCsTCW+zKQNqVgOkh6piwl2jikwB0e7QmtCek3wuxqg==";
+        };
+        _EdBKgr70 = {
+            "id" = "EdBKgr70";
+            "file" = "simplemacro-fabric-1.2.1+26.2.jar";
+            "hash" = "sha512-lxKuVc+Hmxzhxrhg6/Nmu/kiTtp06+iDN+quw+vol0uh6KK6i3CAXvEZ/bPAknOezJPMhLnyL7kBi+t+zYboEw==";
+        };
     in {
         "PSNQCiH7" = _PSNQCiH7;
         "SGZBWFdl" = _SGZBWFdl;
@@ -296,6 +311,9 @@ let
         "Wc12jdRi" = _Wc12jdRi;
         "l67D7Abx" = _l67D7Abx;
         "2iB5QioB" = _2iB5QioB;
+        "xhU3ezDV" = _xhU3ezDV;
+        "8amMOuQX" = _8amMOuQX;
+        "EdBKgr70" = _EdBKgr70;
         "fabric-1.21" = _n7ONDinZ;
         "fabric-1.21.1" = _n7ONDinZ;
         "fabric-1.21.3" = _QHOrn5u1;
@@ -311,7 +329,7 @@ let
         "fabric-26.1" = _ra56aVib;
         "fabric-26.1.1" = _ra56aVib;
         "fabric-26.1.2" = _ra56aVib;
-        "fabric-26.2" = _2iB5QioB;
+        "fabric-26.2" = _EdBKgr70;
         "neoforge-1.21" = _mQA03z7Z;
         "neoforge-1.21.1" = _mQA03z7Z;
         "neoforge-1.21.3" = _jptU6mx9;
@@ -327,7 +345,7 @@ let
         "neoforge-26.1" = _F0Ca2Av3;
         "neoforge-26.1.1" = _F0Ca2Av3;
         "neoforge-26.1.2" = _F0Ca2Av3;
-        "neoforge-26.2" = _Wc12jdRi;
+        "neoforge-26.2" = _xhU3ezDV;
         "forge-1.21" = _tDHSzZnB;
         "forge-1.21.1" = _tDHSzZnB;
         "forge-1.21.2" = _EkZAu1ct;
@@ -343,7 +361,7 @@ let
         "forge-26.1" = _oeUH23V8;
         "forge-26.1.1" = _oeUH23V8;
         "forge-26.1.2" = _oeUH23V8;
-        "forge-26.2" = _l67D7Abx;
+        "forge-26.2" = _8amMOuQX;
         "pkg-fabric-1.21.1-1.0.0" = _PSNQCiH7;
         "pkg-neoforge-1.21.1-1.0.0" = _SGZBWFdl;
         "pkg-fabric-1.21.3-1.0.0" = _Ostpg0Gs;
@@ -393,7 +411,10 @@ let
         "pkg-neoforge-1.2.0+26.2" = _Wc12jdRi;
         "pkg-forge-1.2.0+26.2" = _l67D7Abx;
         "pkg-fabric-1.2.0+26.2" = _2iB5QioB;
-        "default" = _2iB5QioB;
+        "pkg-neoforge-1.2.1+26.2" = _xhU3ezDV;
+        "pkg-forge-1.2.1+26.2" = _8amMOuQX;
+        "pkg-fabric-1.2.1+26.2" = _EdBKgr70;
+        "default" = _EdBKgr70;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-macro";

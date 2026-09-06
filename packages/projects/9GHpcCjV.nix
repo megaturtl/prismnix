@@ -21,12 +21,18 @@ let
             "file" = "createchemistry-1.2.0.jar";
             "hash" = "sha512-BIj7FL9WvYoPlLHxZGRK/n2Wcc+XbKlIJUZ5upY7EuVce12AQAr4jSa/NRKs2cpFygEOOWRHyyn/0uQtbElDhA==";
         };
+        _UixsaJrT = {
+            "id" = "UixsaJrT";
+            "file" = "createchemistry-1.3.0.jar";
+            "hash" = "sha512-MYIPjXnhXgQ1Ysorvy/NWZlW2kqDKjxXYw5Fnlw4lNwumV3VK3bOImNGn2Q98ipnW6nPKVQcvWdglua0llUKeg==";
+        };
     in {
         "GBEWerUZ" = _GBEWerUZ;
         "gBYEplX3" = _gBYEplX3;
         "DVwOVm2M" = _DVwOVm2M;
         "e3jbqiKL" = _e3jbqiKL;
-        "neoforge-1.21.1" = _e3jbqiKL;
+        "UixsaJrT" = _UixsaJrT;
+        "neoforge-1.21.1" = _UixsaJrT;
         "neoforge-1.21.2" = _e3jbqiKL;
         "neoforge-1.21.3" = _e3jbqiKL;
         "neoforge-1.21.4" = _e3jbqiKL;
@@ -41,7 +47,8 @@ let
         "pkg-1.0.1" = _gBYEplX3;
         "pkg-1.1.0" = _DVwOVm2M;
         "pkg-1.2.0" = _e3jbqiKL;
-        "default" = _e3jbqiKL;
+        "pkg-1.3.0" = _UixsaJrT;
+        "default" = _UixsaJrT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-chemistry";

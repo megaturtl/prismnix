@@ -319,6 +319,9 @@ let
         "paper-1.21.10" = _toiZxpnA;
         "paper-1.21.11" = _toiZxpnA;
         "paper-26.1" = _toiZxpnA;
+        "paper-26.1.1" = _toiZxpnA;
+        "paper-26.1.2" = _toiZxpnA;
+        "paper-26.2" = _toiZxpnA;
         "purpur-1.7.10" = _dWZddqE3;
         "purpur-1.8.1" = _dWZddqE3;
         "purpur-1.8.2" = _dWZddqE3;
@@ -391,6 +394,9 @@ let
         "purpur-1.21.10" = _toiZxpnA;
         "purpur-1.21.11" = _toiZxpnA;
         "purpur-26.1" = _toiZxpnA;
+        "purpur-26.1.1" = _toiZxpnA;
+        "purpur-26.1.2" = _toiZxpnA;
+        "purpur-26.2" = _toiZxpnA;
         "spigot-1.7.10" = _dWZddqE3;
         "spigot-1.8.1" = _fw8JvY7X;
         "spigot-1.8.2" = _fw8JvY7X;
@@ -527,6 +533,9 @@ let
         "sponge-1.21.10" = _h3QKFZ92;
         "sponge-1.21.11" = _h3QKFZ92;
         "sponge-26.1" = _h3QKFZ92;
+        "sponge-26.1.1" = _h3QKFZ92;
+        "sponge-26.1.2" = _h3QKFZ92;
+        "sponge-26.2" = _h3QKFZ92;
         "velocity-1.7.10" = _Xbv7kSgS;
         "velocity-1.8.1" = _Xbv7kSgS;
         "velocity-1.8.2" = _Xbv7kSgS;
@@ -607,6 +616,9 @@ let
         "velocity-1.21.10" = _Xbv7kSgS;
         "velocity-1.21.11" = _Xbv7kSgS;
         "velocity-26.1" = _Xbv7kSgS;
+        "velocity-26.1.1" = _Xbv7kSgS;
+        "velocity-26.1.2" = _Xbv7kSgS;
+        "velocity-26.2" = _Xbv7kSgS;
         "waterfall-1.7.10" = _gU2VDwza;
         "waterfall-1.8.1" = _l3uwhkf5;
         "waterfall-1.8.2" = _l3uwhkf5;
@@ -686,6 +698,9 @@ let
         "folia-1.21.10" = _toiZxpnA;
         "folia-1.21.11" = _toiZxpnA;
         "folia-26.1" = _toiZxpnA;
+        "folia-26.1.1" = _toiZxpnA;
+        "folia-26.1.2" = _toiZxpnA;
+        "folia-26.2" = _toiZxpnA;
         "pkg-2.0.0" = _gU2VDwza;
         "pkg-2.1.0" = _slwc21yP;
         "pkg-2.2.0" = _HB9tTkZp;

@@ -1,0 +1,108 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _Yho4SjDp = {
+            "id" = "Yho4SjDp";
+            "file" = "FNAF Ambience.zip";
+            "hash" = "sha512-EoOwnp83iJGd6OQKNOS0mQD//Jv0GRGOGqLPOTB3rTYH26FSKJclkzY00cz5YJMVWrkeNU+StT8BN7Bm1+2p1A==";
+        };
+    in {
+        "Yho4SjDp" = _Yho4SjDp;
+        "minecraft-1.7.2" = _Yho4SjDp;
+        "minecraft-1.7.3" = _Yho4SjDp;
+        "minecraft-1.7.4" = _Yho4SjDp;
+        "minecraft-1.7.5" = _Yho4SjDp;
+        "minecraft-1.7.6" = _Yho4SjDp;
+        "minecraft-1.7.7" = _Yho4SjDp;
+        "minecraft-1.7.8" = _Yho4SjDp;
+        "minecraft-1.7.9" = _Yho4SjDp;
+        "minecraft-1.7.10" = _Yho4SjDp;
+        "minecraft-1.8" = _Yho4SjDp;
+        "minecraft-1.8.1" = _Yho4SjDp;
+        "minecraft-1.8.2" = _Yho4SjDp;
+        "minecraft-1.8.3" = _Yho4SjDp;
+        "minecraft-1.8.4" = _Yho4SjDp;
+        "minecraft-1.8.5" = _Yho4SjDp;
+        "minecraft-1.8.6" = _Yho4SjDp;
+        "minecraft-1.8.7" = _Yho4SjDp;
+        "minecraft-1.8.8" = _Yho4SjDp;
+        "minecraft-1.8.9" = _Yho4SjDp;
+        "minecraft-1.9" = _Yho4SjDp;
+        "minecraft-1.9.1" = _Yho4SjDp;
+        "minecraft-1.9.2" = _Yho4SjDp;
+        "minecraft-1.9.3" = _Yho4SjDp;
+        "minecraft-1.9.4" = _Yho4SjDp;
+        "minecraft-1.10" = _Yho4SjDp;
+        "minecraft-1.10.1" = _Yho4SjDp;
+        "minecraft-1.10.2" = _Yho4SjDp;
+        "minecraft-1.11" = _Yho4SjDp;
+        "minecraft-1.11.1" = _Yho4SjDp;
+        "minecraft-1.11.2" = _Yho4SjDp;
+        "minecraft-1.12" = _Yho4SjDp;
+        "minecraft-1.12.1" = _Yho4SjDp;
+        "minecraft-1.12.2" = _Yho4SjDp;
+        "minecraft-1.13" = _Yho4SjDp;
+        "minecraft-1.13.1" = _Yho4SjDp;
+        "minecraft-1.13.2" = _Yho4SjDp;
+        "minecraft-1.14" = _Yho4SjDp;
+        "minecraft-1.14.1" = _Yho4SjDp;
+        "minecraft-1.14.2" = _Yho4SjDp;
+        "minecraft-1.14.3" = _Yho4SjDp;
+        "minecraft-1.14.4" = _Yho4SjDp;
+        "minecraft-1.15" = _Yho4SjDp;
+        "minecraft-1.15.1" = _Yho4SjDp;
+        "minecraft-1.15.2" = _Yho4SjDp;
+        "minecraft-1.16" = _Yho4SjDp;
+        "minecraft-1.16.1" = _Yho4SjDp;
+        "minecraft-1.16.2" = _Yho4SjDp;
+        "minecraft-1.16.3" = _Yho4SjDp;
+        "minecraft-1.16.4" = _Yho4SjDp;
+        "minecraft-1.16.5" = _Yho4SjDp;
+        "minecraft-1.17" = _Yho4SjDp;
+        "minecraft-1.17.1" = _Yho4SjDp;
+        "minecraft-1.18" = _Yho4SjDp;
+        "minecraft-1.18.1" = _Yho4SjDp;
+        "minecraft-1.18.2" = _Yho4SjDp;
+        "minecraft-1.19" = _Yho4SjDp;
+        "minecraft-1.19.1" = _Yho4SjDp;
+        "minecraft-1.19.2" = _Yho4SjDp;
+        "minecraft-1.19.3" = _Yho4SjDp;
+        "minecraft-1.19.4" = _Yho4SjDp;
+        "minecraft-1.20" = _Yho4SjDp;
+        "minecraft-1.20.1" = _Yho4SjDp;
+        "minecraft-1.20.2" = _Yho4SjDp;
+        "minecraft-1.20.3" = _Yho4SjDp;
+        "minecraft-1.20.4" = _Yho4SjDp;
+        "minecraft-1.20.5" = _Yho4SjDp;
+        "minecraft-1.20.6" = _Yho4SjDp;
+        "minecraft-1.21" = _Yho4SjDp;
+        "minecraft-1.21.1" = _Yho4SjDp;
+        "minecraft-1.21.2" = _Yho4SjDp;
+        "minecraft-1.21.3" = _Yho4SjDp;
+        "minecraft-1.21.4" = _Yho4SjDp;
+        "minecraft-1.21.5" = _Yho4SjDp;
+        "minecraft-1.21.6" = _Yho4SjDp;
+        "minecraft-1.21.7" = _Yho4SjDp;
+        "minecraft-1.21.8" = _Yho4SjDp;
+        "minecraft-1.21.9" = _Yho4SjDp;
+        "minecraft-1.21.10" = _Yho4SjDp;
+        "pkg-1.0" = _Yho4SjDp;
+        "default" = _Yho4SjDp;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "fnaf-ambience";
+        id = "HrFOAq51";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

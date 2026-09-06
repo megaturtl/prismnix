@@ -206,6 +206,16 @@ let
             "file" = "spyglass_astronomy-1.0.25-mc26.2.jar";
             "hash" = "sha512-T3Cbh73G3xa57bybfm+VbJbGYg81JcgjkwRUfkpB7AOF3wfzzVuK66Qc6wwE90UkW+ad4q7RfIhV99vbbUc1+Q==";
         };
+        _tva28pl8 = {
+            "id" = "tva28pl8";
+            "file" = "spyglass_astronomy-1.0.25-mc26.1.2.jar";
+            "hash" = "sha512-sQYIXi/g4qVY1Knu9d5mqEf347lqhP6s09ZhhqDqAhOKObFJtonAd+DhqPhsoMde6w+Ww3Cd5VTPSm/H2cF3Wg==";
+        };
+        _Gn3PFt7n = {
+            "id" = "Gn3PFt7n";
+            "file" = "spyglass_astronomy-1.0.26-mc26.2.jar";
+            "hash" = "sha512-zK2BPAmyY1XR2gz0eCL2b2tO0c0Sc3wsUZirQbu/Cg3E2K9SihZ+e3ivXe7eadYmNyNturVwSbFTM5Y61yuW+Q==";
+        };
     in {
         "nI4qp7Mu" = _nI4qp7Mu;
         "xOfNbmQ6" = _xOfNbmQ6;
@@ -248,6 +258,8 @@ let
         "gkUKkoIY" = _gkUKkoIY;
         "5Or3cA9p" = _5Or3cA9p;
         "24HQiIJy" = _24HQiIJy;
+        "tva28pl8" = _tva28pl8;
+        "Gn3PFt7n" = _Gn3PFt7n;
         "fabric-1.19" = _nI4qp7Mu;
         "fabric-1.19.1" = _xOfNbmQ6;
         "fabric-1.19.2" = _xOfNbmQ6;
@@ -274,8 +286,8 @@ let
         "fabric-1.21.11" = _i9pD5L7s;
         "fabric-26.1" = _DQeZSpcn;
         "fabric-26.1.1" = _DQeZSpcn;
-        "fabric-26.1.2" = _DQeZSpcn;
-        "fabric-26.2" = _24HQiIJy;
+        "fabric-26.1.2" = _tva28pl8;
+        "fabric-26.2" = _Gn3PFt7n;
         "pkg-1.0.0" = _nI4qp7Mu;
         "pkg-1.0.1" = _1WFJg9bP;
         "pkg-1.0.2" = _BrAcU4L5;
@@ -312,7 +324,9 @@ let
         "pkg-1.0.23-mc26.2" = _gkUKkoIY;
         "pkg-1.0.24-mc26.2" = _5Or3cA9p;
         "pkg-1.0.25-mc26.2" = _24HQiIJy;
-        "default" = _24HQiIJy;
+        "pkg-1.0.25-mc26.1.2" = _tva28pl8;
+        "pkg-1.0.26-mc26.2" = _Gn3PFt7n;
+        "default" = _Gn3PFt7n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spyglass-astronomy";

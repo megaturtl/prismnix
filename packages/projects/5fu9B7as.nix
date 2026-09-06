@@ -101,6 +101,11 @@ let
             "file" = "MChallenge-133.jar";
             "hash" = "sha512-cmTDbUULPLC/S/Dgkn55a5IV3MB6lOpVVsKvlYlBS0rnqRYHAm0/mlETCbdXXI/KT45rJQ+5T2fp6W5VJaa5kw==";
         };
+        _u7tm8bUE = {
+            "id" = "u7tm8bUE";
+            "file" = "MChallenge-134-all.jar";
+            "hash" = "sha512-Wm48jlnD7bqChwh7ybJDbQoKbYGVD8f62uwyV2stio1k1f8NlGENg+isybYNe6KeN/j9gr3NWgRGOEBIoXonDA==";
+        };
     in {
         "T2Vjrtb3" = _T2Vjrtb3;
         "ENHyrnZ3" = _ENHyrnZ3;
@@ -122,6 +127,7 @@ let
         "SBWkXYOD" = _SBWkXYOD;
         "Buup0tbR" = _Buup0tbR;
         "MepyIzQc" = _MepyIzQc;
+        "u7tm8bUE" = _u7tm8bUE;
         "paper-1.18" = _21J8VcrS;
         "paper-1.18.1" = _21J8VcrS;
         "paper-1.18.2" = _21J8VcrS;
@@ -146,10 +152,10 @@ let
         "paper-1.21.6" = _Buup0tbR;
         "paper-1.21.7" = _Buup0tbR;
         "paper-1.21.8" = _Buup0tbR;
-        "paper-26.1" = _MepyIzQc;
-        "paper-26.1.1" = _MepyIzQc;
-        "paper-26.1.2" = _MepyIzQc;
-        "paper-26.2" = _MepyIzQc;
+        "paper-26.1" = _u7tm8bUE;
+        "paper-26.1.1" = _u7tm8bUE;
+        "paper-26.1.2" = _u7tm8bUE;
+        "paper-26.2" = _u7tm8bUE;
         "purpur-1.18" = _21J8VcrS;
         "purpur-1.18.1" = _21J8VcrS;
         "purpur-1.18.2" = _21J8VcrS;
@@ -174,6 +180,10 @@ let
         "purpur-1.21.6" = _Buup0tbR;
         "purpur-1.21.7" = _Buup0tbR;
         "purpur-1.21.8" = _Buup0tbR;
+        "purpur-26.1" = _u7tm8bUE;
+        "purpur-26.1.1" = _u7tm8bUE;
+        "purpur-26.1.2" = _u7tm8bUE;
+        "purpur-26.2" = _u7tm8bUE;
         "pkg-113" = _T2Vjrtb3;
         "pkg-114" = _ENHyrnZ3;
         "pkg-115" = _21J8VcrS;
@@ -194,7 +204,8 @@ let
         "pkg-130" = _SBWkXYOD;
         "pkg-131" = _Buup0tbR;
         "pkg-133" = _MepyIzQc;
-        "default" = _MepyIzQc;
+        "pkg-134" = _u7tm8bUE;
+        "default" = _u7tm8bUE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "challenge";

@@ -76,6 +76,31 @@ let
             "file" = "secret_paintings-2.0.0-fabric-1.21.11.jar";
             "hash" = "sha512-bym3t68rxIcjnA7x6PQSIpI7DIDIVdgtpmyF5+NddoXJ42UsmOMY2VVgQlLtsuLnF3Vxw6flNBU/k+XcGDVYlA==";
         };
+        _zLOmy84V = {
+            "id" = "zLOmy84V";
+            "file" = "secret_paintings-1.0.0 Fabric 1.21.1.jar";
+            "hash" = "sha512-4r3ZOzX739bCo1xvwE8VHcCeYzHA4OejKvSJp6iTBZO/Awl0knlIL97XrGQDdiTMqk9jfhKEmKd3XNlpbjS20g==";
+        };
+        _uSt5ukvj = {
+            "id" = "uSt5ukvj";
+            "file" = "secret_paintings-1.0.0 Fabric 26.1.2.jar";
+            "hash" = "sha512-1PGnbV8uHPBqDIfRV3tlxq7eeY0ciam9lALauqwcjKs9AI5ny8t1kL122i8RoALXJIOJngnwiJL9OMh/wRFVig==";
+        };
+        _gotjO1u2 = {
+            "id" = "gotjO1u2";
+            "file" = "secret_paintings-1.0.0 Neoforge 26.1.2.jar";
+            "hash" = "sha512-tKavrrwYpufMkfYFoMR51ct2773fmQpC8D6p2jXoe6A0TRax5WT0cbUV5+BEyo71Go3lj1VtycVsdLFUNPHP4Q==";
+        };
+        _Y8QUcvS8 = {
+            "id" = "Y8QUcvS8";
+            "file" = "secret_paintings-1.0.0 fabric 26.2.jar";
+            "hash" = "sha512-FTfkQChKVhIVpORig3UwXE++MBm7N36Er4aUVMU4KhR8VDH+iPSFOWJmmgIuMGVha6FeDwFIB81ayJERl/pbZA==";
+        };
+        _mSOOczI2 = {
+            "id" = "mSOOczI2";
+            "file" = "secret_paintings-1.0.0 Neoforge 26.2.jar";
+            "hash" = "sha512-51AlPZH8glyhxgVCk4exhMrEnkj8ppJl37RHw/OPb/sWEzqNcdTVglJ+K1g6+r+T4ZNk/aXvMicgC5c89HLQuw==";
+        };
     in {
         "aBLcy4zv" = _aBLcy4zv;
         "Yh6SV14K" = _Yh6SV14K;
@@ -92,6 +117,11 @@ let
         "fmcfimEb" = _fmcfimEb;
         "1KUfMuAH" = _1KUfMuAH;
         "A0N6peav" = _A0N6peav;
+        "zLOmy84V" = _zLOmy84V;
+        "uSt5ukvj" = _uSt5ukvj;
+        "gotjO1u2" = _gotjO1u2;
+        "Y8QUcvS8" = _Y8QUcvS8;
+        "mSOOczI2" = _mSOOczI2;
         "forge-1.19.2" = _aBLcy4zv;
         "forge-1.18.2" = _Yh6SV14K;
         "forge-1.20.1" = _fTwiZmmX;
@@ -101,14 +131,19 @@ let
         "neoforge-1.21.1" = _QPTL4os8;
         "neoforge-1.21.4" = _912Y2M1N;
         "neoforge-1.21.8" = _Cy5IzXwb;
+        "neoforge-26.1.2" = _gotjO1u2;
+        "neoforge-26.2" = _mSOOczI2;
         "fabric-1.20.1" = _ezt0UGK8;
         "fabric-1.21.8" = _YIOrSifS;
         "fabric-1.21.9" = _fmcfimEb;
         "fabric-1.21.10" = _1KUfMuAH;
         "fabric-1.21.11" = _A0N6peav;
-        "pkg-1.0.0" = _912Y2M1N;
+        "fabric-1.21.1" = _zLOmy84V;
+        "fabric-26.1.2" = _uSt5ukvj;
+        "fabric-26.2" = _Y8QUcvS8;
+        "pkg-1.0.0" = _mSOOczI2;
         "pkg-2.0.0" = _A0N6peav;
-        "default" = _A0N6peav;
+        "default" = _mSOOczI2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "leons-secret-paintings";

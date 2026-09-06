@@ -1025,6 +1025,9 @@ let
         "fabric-26.3-snapshot-5" = _u1ZGDDp8;
         "fabric-26.3-snapshot-6" = _u1ZGDDp8;
         "fabric-26.3-snapshot-7" = _u1ZGDDp8;
+        "fabric-26.3-snapshot-8" = _u1ZGDDp8;
+        "fabric-26.3-snapshot-9" = _u1ZGDDp8;
+        "fabric-26.3-snapshot-10" = _u1ZGDDp8;
         "ornithe-18w31a" = _LSrtsHE1;
         "ornithe-18w32a" = _LSrtsHE1;
         "ornithe-18w33a" = _LSrtsHE1;

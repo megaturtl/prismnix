@@ -16,17 +16,31 @@ let
             "file" = "AdvancedDarkness - 1.1.jar";
             "hash" = "sha512-yDYyr5nfEca142am7R98zgSk9s1ZPDp3sD8H28BZ3ej0n6bV1napP5cEK09I6XJiI3I7s8ISwerI2BCY+k5fgQ==";
         };
+        _sHtWZj1v = {
+            "id" = "sHtWZj1v";
+            "file" = "advanceddarkness_1-1.jar";
+            "hash" = "sha512-JMLFBxMh5TomZ6CCq3uhE5TZOpE5lpN9KWl4DTxy/Lvi9r2nMTx4z7heTXb789GgGihGDFxelqrz3lRU98F3vQ==";
+        };
+        _l6QdO6eU = {
+            "id" = "l6QdO6eU";
+            "file" = "advanceddarkness_2.0.jar";
+            "hash" = "sha512-/6adFVYiw1A3ZDjq/yNZr64wizBsND48Xai642pylvsUdsUMnTeeRIU8xGr9j50NxLtiDrGRgkOLtwzCRol7Yw==";
+        };
     in {
         "Be3pt8gP" = _Be3pt8gP;
         "PoMfB389" = _PoMfB389;
         "LyB6QCoZ" = _LyB6QCoZ;
+        "sHtWZj1v" = _sHtWZj1v;
+        "l6QdO6eU" = _l6QdO6eU;
         "forge-1.21" = _Be3pt8gP;
         "forge-1.21.1" = _Be3pt8gP;
-        "forge-1.20.1" = _LyB6QCoZ;
+        "forge-1.20.1" = _l6QdO6eU;
+        "forge-1.21.5" = _sHtWZj1v;
         "pkg-1.0.0" = _Be3pt8gP;
         "pkg-1.0.1" = _PoMfB389;
-        "pkg-1.1" = _LyB6QCoZ;
-        "default" = _LyB6QCoZ;
+        "pkg-1.1" = _sHtWZj1v;
+        "pkg-2.0" = _l6QdO6eU;
+        "default" = _l6QdO6eU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scary-ambient-mod";

@@ -141,6 +141,16 @@ let
             "file" = "marketguard-1.5.0-beta.2+26.2.jar";
             "hash" = "sha512-a1JaZ47PIoU4fLa6FNpaG7v/0hP7pVWH4io54VI2NEvcqBXNWKLPOPzRUj2j3Eq/OcD5SCPGVbcC5LsCDuA6Nw==";
         };
+        _6MRCiQCa = {
+            "id" = "6MRCiQCa";
+            "file" = "marketguard-1.5.0-beta.3+26.1.2.jar";
+            "hash" = "sha512-fzjdXcydrrNvSc+wip3UPdws8KnH5h7Dx6+P3cyhBqjBffj7iHTshZIGIGUIEt7rUMsdGGGsecIicK9IxaVYRA==";
+        };
+        _6XgL9yPw = {
+            "id" = "6XgL9yPw";
+            "file" = "marketguard-1.5.0-beta.3+26.2.jar";
+            "hash" = "sha512-0b26k7h/NDK8OM4B4dDjEvjHMGrjV/sbx9WMvbgV1FniQgQlfzs+UP1CDVS8EFkWBpYX3nO98x78Odp7qJjsqA==";
+        };
     in {
         "gtbnfCWo" = _gtbnfCWo;
         "ENhzo6IR" = _ENhzo6IR;
@@ -170,12 +180,14 @@ let
         "Gy5UQ80q" = _Gy5UQ80q;
         "8U7WyF59" = _8U7WyF59;
         "ze2nZUKW" = _ze2nZUKW;
+        "6MRCiQCa" = _6MRCiQCa;
+        "6XgL9yPw" = _6XgL9yPw;
         "fabric-1.21.10" = _fLI8afLR;
         "fabric-1.21.11" = _Aumd4qWZ;
-        "fabric-26.1" = _8U7WyF59;
-        "fabric-26.1.1" = _8U7WyF59;
-        "fabric-26.1.2" = _8U7WyF59;
-        "fabric-26.2" = _ze2nZUKW;
+        "fabric-26.1" = _6MRCiQCa;
+        "fabric-26.1.1" = _6MRCiQCa;
+        "fabric-26.1.2" = _6MRCiQCa;
+        "fabric-26.2" = _6XgL9yPw;
         "pkg-0.6.1+1.21.10" = _gtbnfCWo;
         "pkg-0.6.1+1.21.11" = _ENhzo6IR;
         "pkg-1.0.0-beta1+1.21.10" = _KuzkLdzd;
@@ -204,7 +216,9 @@ let
         "pkg-1.5.0-beta.1+26.2" = _Gy5UQ80q;
         "pkg-1.5.0-beta.2+26.1.2" = _8U7WyF59;
         "pkg-1.5.0-beta.2+26.2" = _ze2nZUKW;
-        "default" = _ze2nZUKW;
+        "pkg-1.5.0-beta.3+26.1.2" = _6MRCiQCa;
+        "pkg-1.5.0-beta.3+26.2" = _6XgL9yPw;
+        "default" = _6XgL9yPw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "marketguard";

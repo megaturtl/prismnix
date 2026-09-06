@@ -131,6 +131,11 @@ let
             "file" = "ender-eyes-13.0.0+26.2.jar";
             "hash" = "sha512-l5G3rP9PXIMrRlAqTPse3VDb659H3KzPKuATLz5l3/GGk43CDaFfpxP+gF6/dWzhtJxim0chlM7sMncH/spF6A==";
         };
+        _ycP7Tjmr = {
+            "id" = "ycP7Tjmr";
+            "file" = "ender-eyes-14.0.0-beta+26.3.jar";
+            "hash" = "sha512-TK+Evjknit4NfxuNyhcCE1JKxJfx4XEgdYq2BP5ZAgj84OSGjOM2EpYmwacBv+dLQXMAD3Te5WhJeaDnjKSgog==";
+        };
     in {
         "3aTQFcFM" = _3aTQFcFM;
         "lpkFMa7C" = _lpkFMa7C;
@@ -158,6 +163,7 @@ let
         "VU2dUNTi" = _VU2dUNTi;
         "RsUDvYOA" = _RsUDvYOA;
         "mqRiCc7Y" = _mqRiCc7Y;
+        "ycP7Tjmr" = _ycP7Tjmr;
         "fabric-1.20" = _lcT1xB0L;
         "fabric-1.20.1" = _lcT1xB0L;
         "fabric-1.20.2" = _nVUtA9dp;
@@ -182,6 +188,7 @@ let
         "fabric-26.1.1" = _RsUDvYOA;
         "fabric-26.1.2" = _RsUDvYOA;
         "fabric-26.2" = _mqRiCc7Y;
+        "fabric-26.3-snapshot-7" = _ycP7Tjmr;
         "pkg-1.0.0" = _3aTQFcFM;
         "pkg-2.0.0" = _lpkFMa7C;
         "pkg-2.1.0" = _uYCO9r8y;
@@ -207,7 +214,8 @@ let
         "pkg-11.0.0+1.21.11" = _VU2dUNTi;
         "pkg-12.0.0+26.1" = _RsUDvYOA;
         "pkg-13.0.0+26.2" = _mqRiCc7Y;
-        "default" = _mqRiCc7Y;
+        "pkg-14.0.0-beta+26.3" = _ycP7Tjmr;
+        "default" = _ycP7Tjmr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ender-eyes";

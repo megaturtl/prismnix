@@ -196,6 +196,11 @@ let
             "file" = "Aurora-2.5.3.jar";
             "hash" = "sha512-qjHK+8AHsj+AjyhyI1l7hNMiziCZKl8gSOWA+XVho5HYyGaoshNCDZy2tR0UZ7cZqi5g+7odjJ/bWr1mEy6T0g==";
         };
+        _zrYYVH3O = {
+            "id" = "zrYYVH3O";
+            "file" = "Aurora-2.6.0-b215.jar";
+            "hash" = "sha512-6D2T5kbQ/O9nThBDKVFKpNOJuZ9JVD7RKl6pCo5ApTrTZ1FI2eUdKV4Gyu/FvM6wFJaGtpaoB5b5nNf1pOJY+w==";
+        };
     in {
         "M4NB4KHL" = _M4NB4KHL;
         "sjKyG7VW" = _sjKyG7VW;
@@ -236,6 +241,7 @@ let
         "RQlxTKFa" = _RQlxTKFa;
         "3QCAeQAI" = _3QCAeQAI;
         "lJPVaapD" = _lJPVaapD;
+        "zrYYVH3O" = _zrYYVH3O;
         "paper-1.20.4" = _FG4hwuKW;
         "paper-1.20.5" = _FG4hwuKW;
         "paper-1.20.6" = _FG4hwuKW;
@@ -258,6 +264,7 @@ let
         "paper-26.1" = _lJPVaapD;
         "paper-26.1.1" = _lJPVaapD;
         "paper-26.1.2" = _lJPVaapD;
+        "paper-26.2" = _zrYYVH3O;
         "purpur-1.20.4" = _FG4hwuKW;
         "purpur-1.20.5" = _FG4hwuKW;
         "purpur-1.20.6" = _FG4hwuKW;
@@ -280,6 +287,7 @@ let
         "purpur-26.1" = _lJPVaapD;
         "purpur-26.1.1" = _lJPVaapD;
         "purpur-26.1.2" = _lJPVaapD;
+        "purpur-26.2" = _zrYYVH3O;
         "folia-1.20" = _VqUhoKjc;
         "folia-1.20.1" = _VqUhoKjc;
         "folia-1.20.2" = _VqUhoKjc;
@@ -302,6 +310,7 @@ let
         "folia-26.1" = _lJPVaapD;
         "folia-26.1.1" = _lJPVaapD;
         "folia-26.1.2" = _lJPVaapD;
+        "folia-26.2" = _zrYYVH3O;
         "pkg-1.4.0" = _M4NB4KHL;
         "pkg-1.4.1" = _sjKyG7VW;
         "pkg-1.4.2" = _Pxj6aOot;
@@ -341,7 +350,8 @@ let
         "pkg-2.5.0" = _RQlxTKFa;
         "pkg-2.5.1" = _3QCAeQAI;
         "pkg-2.5.3" = _lJPVaapD;
-        "default" = _lJPVaapD;
+        "pkg-2.6.0-b215" = _zrYYVH3O;
+        "default" = _zrYYVH3O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "auroralib";

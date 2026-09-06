@@ -1046,6 +1046,26 @@ let
             "file" = "autohud-8.11+1.21.9-fabric.jar";
             "hash" = "sha512-0f/Gv1J9V359auG27JgIaKTF8I3UALUyIaq5quRso4Q4xQwm7DcbvqvOPHun56legylMJJO85AL+ABHYK5J+ew==";
         };
+        _90q6vmLG = {
+            "id" = "90q6vmLG";
+            "file" = "autohud-9.0-beta.1+26.2-fabric.jar";
+            "hash" = "sha512-YWTUkvn74pQep65UPxEWGRgOaMfszutS8bdIE+R4Gax0Hh0Z/DI7hrq7W8SakQ/YqTj02ClqVml2zkGS25136g==";
+        };
+        _6whjN2oD = {
+            "id" = "6whjN2oD";
+            "file" = "autohud-9.0-beta.2+26.2-fabric.jar";
+            "hash" = "sha512-ls43bi3JVfgnd0g10w2jI+i1QZG7wsXwobbcbTUQNMkWsqu5m35IadMyNd5hhQdyeKo5DE/tyQvF9QZlvM2tzA==";
+        };
+        _1HnudpY7 = {
+            "id" = "1HnudpY7";
+            "file" = "autohud-9.0-beta.3+26.2-fabric.jar";
+            "hash" = "sha512-mVTkQmW4EFyVfd4Cm+Lc5R591pra5z2o5sLjLTs9mtUxrEQYmq1KHd521MTZZ0NXLwsSJotrPX6UKgii8PHCpg==";
+        };
+        _QYYyUL5F = {
+            "id" = "QYYyUL5F";
+            "file" = "autohud-9.0+26.2-fabric.jar";
+            "hash" = "sha512-A/nmm7Md6oRTqdWZXO2eL2ill8DnXc6qmmdWv2HVY+SAHVI2zP0grXxTmqalytEKwKThzpy/wJKMRb1zMMGjiw==";
+        };
     in {
         "RvyadWAV" = _RvyadWAV;
         "a3pHKWTX" = _a3pHKWTX;
@@ -1256,6 +1276,10 @@ let
         "OqfyfEo5" = _OqfyfEo5;
         "DhvX9TVB" = _DhvX9TVB;
         "gcMWsDkp" = _gcMWsDkp;
+        "90q6vmLG" = _90q6vmLG;
+        "6whjN2oD" = _6whjN2oD;
+        "1HnudpY7" = _1HnudpY7;
+        "QYYyUL5F" = _QYYyUL5F;
         "fabric-1.18.2" = _I8Elvcmo;
         "fabric-1.19" = _TyP9drU7;
         "fabric-1.19.1" = _TyP9drU7;
@@ -1281,6 +1305,7 @@ let
         "fabric-1.21.9" = _gcMWsDkp;
         "fabric-1.21.10" = _KzlQtK91;
         "fabric-1.21.11" = _8sEdPebk;
+        "fabric-26.2" = _QYYyUL5F;
         "forge-1.20" = _E3V1cOmD;
         "forge-1.20.1" = _E3V1cOmD;
         "forge-1.19.4" = _MnW3SMZG;
@@ -1510,7 +1535,11 @@ let
         "pkg-8.11+1.21.5-fabric" = _OqfyfEo5;
         "pkg-8.11+1.21.7-fabric" = _DhvX9TVB;
         "pkg-8.11+1.21.9-fabric" = _gcMWsDkp;
-        "default" = _gcMWsDkp;
+        "pkg-9.0-beta.1+26.2-fabric" = _90q6vmLG;
+        "pkg-9.0-beta.2+26.2-fabric" = _6whjN2oD;
+        "pkg-9.0-beta.3+26.2-fabric" = _1HnudpY7;
+        "pkg-9.0+26.2-fabric" = _QYYyUL5F;
+        "default" = _QYYyUL5F;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autohud";

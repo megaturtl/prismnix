@@ -431,6 +431,26 @@ let
             "file" = "takeitout-1.1.27-26.1.2.jar";
             "hash" = "sha512-OVOjbR4TMJIUAlyu6TVCbqm6EyKzYvo/GjEfxNfqf76wugoNEB2gNlWhPafnUA9G6s9npdgnhA7t4clT3YOjDw==";
         };
+        _znr6oN35 = {
+            "id" = "znr6oN35";
+            "file" = "takeitout-1.1.27-26.2.jar";
+            "hash" = "sha512-o9zDoBmSPKLZzwHICzzcXHcnPSwjE9hXWyuw+kBkyss2/+hYyyLEsPofrtpfizYtMIdoD78xFAGwG8hMGcpagg==";
+        };
+        _PZVgMB05 = {
+            "id" = "PZVgMB05";
+            "file" = "takeitout-1.1.27-neoforge-1.21.1.jar";
+            "hash" = "sha512-k3Ln2Id2LSmAEXAQcyKFAKSpKz6S6W480yZEaAXWqz/MKjOc0mz76QDXkNjkFNH/mQGYMRBaiOmJTd371nHMlQ==";
+        };
+        _3Ij1zxdF = {
+            "id" = "3Ij1zxdF";
+            "file" = "takeitout-1.1.27-26.2.jar";
+            "hash" = "sha512-K3kwOYTExnKWUFQhnmM1VJzdPTBRLkTl9YbLm1r3cB5HYZPQW8Ac8gJVwRBnRX/D5uPOhz0C0ib2CUEeP1On+w==";
+        };
+        _WVOeXOGB = {
+            "id" = "WVOeXOGB";
+            "file" = "takeitout-1.1.27-forge-1.20.1.jar";
+            "hash" = "sha512-qvCNTJ5UfaHyyZaDlZj0hBbEHPdpTOCpFDajW1lr6tS8JoNqSyPLlmQEWgwYO0iSCiVEVXxWw8BCamb9VSELKg==";
+        };
     in {
         "pCLFsAdp" = _pCLFsAdp;
         "ONXI42od" = _ONXI42od;
@@ -518,6 +538,10 @@ let
         "kYJst4fs" = _kYJst4fs;
         "swIyg2Nq" = _swIyg2Nq;
         "5RIMjWMg" = _5RIMjWMg;
+        "znr6oN35" = _znr6oN35;
+        "PZVgMB05" = _PZVgMB05;
+        "3Ij1zxdF" = _3Ij1zxdF;
+        "WVOeXOGB" = _WVOeXOGB;
         "fabric-1.21" = _BCyBD77F;
         "fabric-1.21.1" = _jZPbqO89;
         "fabric-1.21.4" = _KEvBaXvy;
@@ -535,7 +559,7 @@ let
         "fabric-26.1" = _JCdk32aU;
         "fabric-26.1.1" = _JCdk32aU;
         "fabric-26.1.2" = _JCdk32aU;
-        "fabric-26.2" = _iZE8tGQE;
+        "fabric-26.2" = _znr6oN35;
         "bukkit-1.21" = _QPTDfXAX;
         "bukkit-1.21.1" = _QPTDfXAX;
         "bukkit-1.21.2" = _QPTDfXAX;
@@ -595,9 +619,9 @@ let
         "spigot-26.2" = _VbFECFj3;
         "neoforge-26.1.2" = _5RIMjWMg;
         "neoforge-1.21.11" = _HPVDemiY;
-        "neoforge-26.2" = _IYB4LpUL;
-        "neoforge-1.21.1" = _swIyg2Nq;
-        "forge-1.20.1" = _kYJst4fs;
+        "neoforge-26.2" = _3Ij1zxdF;
+        "neoforge-1.21.1" = _PZVgMB05;
+        "forge-1.20.1" = _WVOeXOGB;
         "pkg-1.0-SNAPSHOT" = _ONXI42od;
         "pkg-1.01-SNAPSHOT" = _QPTDfXAX;
         "pkg-1.02-SNAPSHOT" = _O3ZXeBrA;
@@ -680,7 +704,10 @@ let
         "pkg-1.1.26-forge-1.20.1" = _kYJst4fs;
         "pkg-1.1.26-neoforge-1.21.1" = _swIyg2Nq;
         "pkg-1.1.27-26.1.2" = _5RIMjWMg;
-        "default" = _5RIMjWMg;
+        "pkg-1.1.27-26.2" = _3Ij1zxdF;
+        "pkg-1.1.27-neoforge-1.21.1" = _PZVgMB05;
+        "pkg-1.1.27-forge-1.20.1" = _WVOeXOGB;
+        "default" = _WVOeXOGB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "takeitout";

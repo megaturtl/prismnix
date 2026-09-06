@@ -1,31 +1,31 @@
 {lib, callPackage, ...}:
 let
     versions = (let
-        _pzcBe8j5 = {
-            "id" = "pzcBe8j5";
-            "file" = "§7§lѕᴍᴀʟʟ ᴍᴀᴄᴇ.zip";
-            "hash" = "sha512-C5OWS8VCm6nli92WBlbG0tuB4Ps6UMzx6T6RQ9Tg+nP6a7Wh1JABoMjEr/UnvGN4f+otb0blaFCjUOmV0jnUMQ==";
+        _jGciCpSF = {
+            "id" = "jGciCpSF";
+            "file" = "§7§lSmall Mace.zip";
+            "hash" = "sha512-NfWsK0/9vkMfddiOryKcIB7jB5S2EyiHCanYdDPfnCm/CP/umHmI75kU/NTbbmouU6F91HHVp20f55RENz8jww==";
         };
     in {
-        "pzcBe8j5" = _pzcBe8j5;
-        "minecraft-1.21" = _pzcBe8j5;
-        "minecraft-1.21.1" = _pzcBe8j5;
-        "minecraft-1.21.2" = _pzcBe8j5;
-        "minecraft-1.21.3" = _pzcBe8j5;
-        "minecraft-1.21.4" = _pzcBe8j5;
-        "minecraft-1.21.5" = _pzcBe8j5;
-        "minecraft-1.21.6" = _pzcBe8j5;
-        "minecraft-1.21.7" = _pzcBe8j5;
-        "minecraft-1.21.8" = _pzcBe8j5;
-        "minecraft-1.21.9" = _pzcBe8j5;
-        "minecraft-1.21.10" = _pzcBe8j5;
-        "minecraft-1.21.11" = _pzcBe8j5;
-        "minecraft-26.1" = _pzcBe8j5;
-        "minecraft-26.1.1" = _pzcBe8j5;
-        "minecraft-26.1.2" = _pzcBe8j5;
-        "minecraft-26.2" = _pzcBe8j5;
-        "pkg-1.0" = _pzcBe8j5;
-        "default" = _pzcBe8j5;
+        "jGciCpSF" = _jGciCpSF;
+        "minecraft-1.21" = _jGciCpSF;
+        "minecraft-1.21.1" = _jGciCpSF;
+        "minecraft-1.21.2" = _jGciCpSF;
+        "minecraft-1.21.3" = _jGciCpSF;
+        "minecraft-1.21.4" = _jGciCpSF;
+        "minecraft-1.21.5" = _jGciCpSF;
+        "minecraft-1.21.6" = _jGciCpSF;
+        "minecraft-1.21.7" = _jGciCpSF;
+        "minecraft-1.21.8" = _jGciCpSF;
+        "minecraft-1.21.9" = _jGciCpSF;
+        "minecraft-1.21.10" = _jGciCpSF;
+        "minecraft-1.21.11" = _jGciCpSF;
+        "minecraft-26.1" = _jGciCpSF;
+        "minecraft-26.1.1" = _jGciCpSF;
+        "minecraft-26.1.2" = _jGciCpSF;
+        "minecraft-26.2" = _jGciCpSF;
+        "pkg-1.1" = _jGciCpSF;
+        "default" = _jGciCpSF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smallmace";

@@ -31,6 +31,11 @@ let
             "file" = "onemoneyblock-1.0.0.jar";
             "hash" = "sha512-q38vh+YPGrR5zNxMJB4J0uvogN0T5HTp2+u41XwJOEJ+aF+tWXLtWfJPrDLhpbY4k6YdmCkGFMzuDG7iCBO2Nw==";
         };
+        _6XatpMWK = {
+            "id" = "6XatpMWK";
+            "file" = "onemoneyblock-1.0.0.jar";
+            "hash" = "sha512-/ZLGPf/zySm3bIQfLgKZDRgxthbe7EB8YYpJ/Z6LqFy8PxFAu8avoZVSHNfa18lts7QmdGKzgJ56dbosjxODDg==";
+        };
     in {
         "qFzKuGMu" = _qFzKuGMu;
         "9yE05Jea" = _9yE05Jea;
@@ -38,12 +43,17 @@ let
         "TltZxWeQ" = _TltZxWeQ;
         "7VjMzS1k" = _7VjMzS1k;
         "7Ssj67zo" = _7Ssj67zo;
+        "6XatpMWK" = _6XatpMWK;
         "forge-1.20.1" = _9yE05Jea;
         "forge-26.1" = _7VjMzS1k;
         "forge-26.1.1" = _7VjMzS1k;
         "forge-26.1.2" = _7VjMzS1k;
         "forge-26.2" = _7VjMzS1k;
         "neoforge-1.21.1" = _NxEltQJk;
+        "neoforge-26.1" = _6XatpMWK;
+        "neoforge-26.1.1" = _6XatpMWK;
+        "neoforge-26.1.2" = _6XatpMWK;
+        "neoforge-26.2" = _6XatpMWK;
         "fabric-1.21.6" = _TltZxWeQ;
         "fabric-1.21.7" = _TltZxWeQ;
         "fabric-1.21.8" = _TltZxWeQ;
@@ -54,9 +64,9 @@ let
         "fabric-26.1.1" = _7Ssj67zo;
         "fabric-26.1.2" = _7Ssj67zo;
         "fabric-26.2" = _7Ssj67zo;
-        "pkg-1.0.0" = _7Ssj67zo;
+        "pkg-1.0.0" = _6XatpMWK;
         "pkg-1.0.1" = _9yE05Jea;
-        "default" = _7Ssj67zo;
+        "default" = _6XatpMWK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "one-money-block";

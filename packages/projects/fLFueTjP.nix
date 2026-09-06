@@ -41,6 +41,11 @@ let
             "file" = "nightvision-mod-1.1.jar";
             "hash" = "sha512-QH7SUMO6v5fcqjtMIqP9g/NAJS5oAs+akxhBXi9R6vEr0jk+HsTSOGRiWR26fYcW3d6F+cTJKWJM46vPU11qVg==";
         };
+        _torWzrZX = {
+            "id" = "torWzrZX";
+            "file" = "nightvision-mod-1.2.jar";
+            "hash" = "sha512-kp3SZCXbHwVM18rkK84Hf8tj6bLbozuhtqxsdsC8HMwE+SPugKYW5knotO+GUqTLUH9mXV8MXIgIoL8DzoFo5g==";
+        };
     in {
         "89dMIDN9" = _89dMIDN9;
         "ABkgmjFE" = _ABkgmjFE;
@@ -50,6 +55,7 @@ let
         "hCflm5zW" = _hCflm5zW;
         "ZdinvGlL" = _ZdinvGlL;
         "m3KDoobh" = _m3KDoobh;
+        "torWzrZX" = _torWzrZX;
         "fabric-1.19" = _ZdinvGlL;
         "fabric-1.19.1" = _ZdinvGlL;
         "fabric-1.20" = _ZdinvGlL;
@@ -61,6 +67,8 @@ let
         "fabric-1.19.3" = _ZdinvGlL;
         "fabric-1.19.4" = _ZdinvGlL;
         "fabric-1.21" = _m3KDoobh;
+        "fabric-26.1.2" = _torWzrZX;
+        "fabric-26.2" = _torWzrZX;
         "forge-1.20" = _ZdinvGlL;
         "forge-1.20.1" = _ZdinvGlL;
         "forge-1.20.2" = _ZdinvGlL;
@@ -72,6 +80,8 @@ let
         "forge-1.19.3" = _ZdinvGlL;
         "forge-1.19.4" = _ZdinvGlL;
         "neoforge-1.21" = _m3KDoobh;
+        "neoforge-26.1.2" = _torWzrZX;
+        "neoforge-26.2" = _torWzrZX;
         "pkg-1.0" = _89dMIDN9;
         "pkg-1.0.1" = _ABkgmjFE;
         "pkg-1.0.2" = _MgPKGOh5;
@@ -80,7 +90,8 @@ let
         "pkg-1.0.5" = _hCflm5zW;
         "pkg-1.0.6" = _ZdinvGlL;
         "pkg-1.1" = _m3KDoobh;
-        "default" = _m3KDoobh;
+        "pkg-1.2" = _torWzrZX;
+        "default" = _torWzrZX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nightvision";

@@ -341,6 +341,16 @@ let
             "file" = "ricksportalgun-forge-1.20.1-1.4.9.jar";
             "hash" = "sha512-B/Tr9mHRj3YfZ8SBllVMe+TxUPl1P7pqNYiLbuQ6rbIBMoEMJ8nrm+Ij+TRf2hT9qn9UyfUfvSzrZpa81y3pHw==";
         };
+        _UWOt28bl = {
+            "id" = "UWOt28bl";
+            "file" = "ricksportalgun-neoforge-1.21.1-1.4.5.jar";
+            "hash" = "sha512-hYFnCg4V+oaS77Pp5X8U++RkYia9kOsal3/aCHDesmYdFQb/Z/PyqMZjsCv2iBjJEDcksz/+0lWnwVwzuOqodQ==";
+        };
+        _lCEaQlcs = {
+            "id" = "lCEaQlcs";
+            "file" = "ricksportalgun-forge-1.20.1-1.4.10.jar";
+            "hash" = "sha512-l55uNxZD5sZ1A5MQftcKIbWRUkNfF6B7DU7RIkU2khgsvmqrzKfUMRvv2A6yfcwSi4CXP0UowljOTyZpeXQj9w==";
+        };
     in {
         "TSUuwZCB" = _TSUuwZCB;
         "3mWRGudn" = _3mWRGudn;
@@ -410,13 +420,15 @@ let
         "YImcNUPS" = _YImcNUPS;
         "BNrU1bp0" = _BNrU1bp0;
         "1hT1wwXJ" = _1hT1wwXJ;
+        "UWOt28bl" = _UWOt28bl;
+        "lCEaQlcs" = _lCEaQlcs;
         "forge-1.19.2" = _Q2Uouwjy;
-        "forge-1.20.1" = _1hT1wwXJ;
+        "forge-1.20.1" = _lCEaQlcs;
         "forge-1.16.5" = _QOBLvGlJ;
         "forge-1.18.2" = _BdPkEVj7;
         "forge-1.21.1" = _ZhGOWNhG;
         "neoforge-1.20.1" = _1hT1wwXJ;
-        "neoforge-1.21.1" = _RAYkg9A9;
+        "neoforge-1.21.1" = _UWOt28bl;
         "neoforge-1.21.4" = _Ienii6nI;
         "pkg-1.0.0" = _TSUuwZCB;
         "pkg-1.0.1" = _gfjVHFhW;
@@ -441,12 +453,13 @@ let
         "pkg-1.4.2" = _w8QlC3ez;
         "pkg-1.4.3" = _jOKZCYJ7;
         "pkg-1.4.4" = _RAYkg9A9;
-        "pkg-1.4.5" = _OX5LQE5M;
+        "pkg-1.4.5" = _UWOt28bl;
         "pkg-1.4.6" = _dwq7MC2W;
         "pkg-1.4.7" = _YImcNUPS;
         "pkg-1.4.8" = _BNrU1bp0;
         "pkg-1.4.9" = _1hT1wwXJ;
-        "default" = _1hT1wwXJ;
+        "pkg-1.4.10" = _lCEaQlcs;
+        "default" = _lCEaQlcs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ricks-portal-gun";

@@ -251,6 +251,11 @@ let
             "file" = "better_deco-1.1.4.1-NeoForge-26.2.jar";
             "hash" = "sha512-92WYHhQyrbHF4UwXA0TFZJtAkhiX/zIiNw1762inMZ2nv7qc6swcFwC8RD1vZuXyxMQsEfffKr4AYAuHTW08qg==";
         };
+        _hiI8mecc = {
+            "id" = "hiI8mecc";
+            "file" = "better_deco-1.1.4.2-NeoForge-26.2.jar";
+            "hash" = "sha512-QT9jTiZkHXM0olcdJpe/JlxBWu/f6n7/KHAj73FBUHn9b0Wkp7WN+qOHs1bdSOotGzpc+z6N3Fdb6WPPpkEatQ==";
+        };
     in {
         "zeC0nb7H" = _zeC0nb7H;
         "4iZUq9SA" = _4iZUq9SA;
@@ -302,6 +307,7 @@ let
         "t5wcAj8Z" = _t5wcAj8Z;
         "OIUAgJ4R" = _OIUAgJ4R;
         "YEtSkf9R" = _YEtSkf9R;
+        "hiI8mecc" = _hiI8mecc;
         "neoforge-1.21.1" = _ioneimbM;
         "neoforge-1.21.4" = _nVzLUEjK;
         "neoforge-1.21.5" = _vT1DPocg;
@@ -312,7 +318,7 @@ let
         "neoforge-26.1" = _30u92iMH;
         "neoforge-26.1.1" = _30u92iMH;
         "neoforge-26.1.2" = _t5wcAj8Z;
-        "neoforge-26.2" = _YEtSkf9R;
+        "neoforge-26.2" = _hiI8mecc;
         "forge-1.20.1" = _kcSYtCs7;
         "pkg-1.0.0-NeoForge-1.21.1" = _zeC0nb7H;
         "pkg-1.0.2-NeoForge-1.21.1" = _4iZUq9SA;
@@ -364,7 +370,8 @@ let
         "pkg-1.1.4.0-NeoForge-26.1.2" = _t5wcAj8Z;
         "pkg-1.1.4.0-NeoForge-26.2" = _OIUAgJ4R;
         "pkg-1.1.4.1-NeoForge-26.2" = _YEtSkf9R;
-        "default" = _YEtSkf9R;
+        "pkg-1.1.4.2-NeoForge-26.2" = _hiI8mecc;
+        "default" = _hiI8mecc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better_deco";

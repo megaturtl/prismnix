@@ -126,6 +126,21 @@ let
             "file" = "eastersdelight-fabric-26.1-1.2.0.jar";
             "hash" = "sha512-vNEZDeQIR8qijbHz5kctz1Y4+wYXY53Y/3EBQaJjX4fOulcC3msRwB3hwGOBdoFy7N8JvFrhSmAiNw/VkmVhxA==";
         };
+        _Cs8xdxut = {
+            "id" = "Cs8xdxut";
+            "file" = "eastersdelight-fabric-26.2-1.3.0.jar";
+            "hash" = "sha512-vPVaW0wsVAX0ovsWSdj1OEG4AdfS/xGxPXvOhxVE/MyY01EMvab0CNYxQ9DQeBSBxGMo84aO3cxl2RRiEPntuw==";
+        };
+        _rd7t1aJD = {
+            "id" = "rd7t1aJD";
+            "file" = "eastersdelight-fabric-26.2-1.3.1.jar";
+            "hash" = "sha512-USR9iHa6i+xqLI1XeCtDH8Yy4ok/b6lXBMYRoyxbjgQA/MvJYYmNnnxUnOQ/nme2wr6Jut6t7nmHgpr4x6dmzw==";
+        };
+        _7B7g9vHS = {
+            "id" = "7B7g9vHS";
+            "file" = "eastersdelight-fabric-26.1-1.3.0.jar";
+            "hash" = "sha512-+PBvr14S9xLXVpz/RZQqy1fDBCl22gz3IOxtN7frEEljtB59ipZ+FmzZ2NorA4As2pkqxodFlDhmoEm0hVGK6A==";
+        };
     in {
         "azxDUiJg" = _azxDUiJg;
         "NYLtMSAP" = _NYLtMSAP;
@@ -152,6 +167,9 @@ let
         "mbtSXQY9" = _mbtSXQY9;
         "77herVlE" = _77herVlE;
         "ofnrUjf4" = _ofnrUjf4;
+        "Cs8xdxut" = _Cs8xdxut;
+        "rd7t1aJD" = _rd7t1aJD;
+        "7B7g9vHS" = _7B7g9vHS;
         "neoforge-1.21" = _mbtSXQY9;
         "neoforge-1.21.1" = _mbtSXQY9;
         "neoforge-1.20.1" = _7Cu6hFkb;
@@ -166,9 +184,10 @@ let
         "fabric-1.21.9" = _mTwgkVww;
         "fabric-1.21.10" = _mTwgkVww;
         "fabric-1.21.11" = _ypah16tt;
-        "fabric-26.1" = _ofnrUjf4;
-        "fabric-26.1.1" = _ofnrUjf4;
-        "fabric-26.1.2" = _ofnrUjf4;
+        "fabric-26.1" = _7B7g9vHS;
+        "fabric-26.1.1" = _7B7g9vHS;
+        "fabric-26.1.2" = _7B7g9vHS;
+        "fabric-26.2" = _rd7t1aJD;
         "pkg-0.1.0" = _azxDUiJg;
         "pkg-0.2.0" = _3ECYLMvh;
         "pkg-0.2.1" = _vBxKqsjB;
@@ -178,7 +197,9 @@ let
         "pkg-1.1.1" = _yVoWvDM2;
         "pkg-1.2.0" = _ofnrUjf4;
         "pkg-1.2.1" = _mbtSXQY9;
-        "default" = _ofnrUjf4;
+        "pkg-1.3.0" = _7B7g9vHS;
+        "pkg-1.3.1" = _rd7t1aJD;
+        "default" = _7B7g9vHS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easters-delight";

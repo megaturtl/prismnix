@@ -36,6 +36,16 @@ let
             "file" = "simpleplanes-1.21.1-5.3.7.jar";
             "hash" = "sha512-rkFFdggOtoJ/8tHmTDw63Us09BF/rd3czFGgxWlGmNSmy3xWM/haflMVITm/dib2M1bi5wy1q9hBUjc0mNbagw==";
         };
+        _iqO6mToJ = {
+            "id" = "iqO6mToJ";
+            "file" = "simpleplanes-1.21.1-5.3.8.jar";
+            "hash" = "sha512-3fDqX3i3SlEROWuQZnKh2Ov8d/AcUi3ULCnhSaZvHdsEOyHQfJll9G6ce7QUhLa+DZFumoSjPElXVIvUtR/1UA==";
+        };
+        _tGW6Zlf9 = {
+            "id" = "tGW6Zlf9";
+            "file" = "simpleplanes-1.21.1-5.3.9.jar";
+            "hash" = "sha512-W3b2pXHvsFHwKp56c4oVMOFyIv1RHolhJzvYFfB+5nHQMDqiBYf9wxg987jgWctrjBJ8jOFn0raRfL744LRSTA==";
+        };
     in {
         "mTsI5OLK" = _mTsI5OLK;
         "FJhrX1W8" = _FJhrX1W8;
@@ -44,10 +54,12 @@ let
         "gd8vTUZm" = _gd8vTUZm;
         "Pi5iB6fS" = _Pi5iB6fS;
         "ZR8M3fcv" = _ZR8M3fcv;
+        "iqO6mToJ" = _iqO6mToJ;
+        "tGW6Zlf9" = _tGW6Zlf9;
         "forge-1.20.1" = _qfgEqe0E;
         "forge-1.19.2" = _zHx0xSp4;
         "neoforge-1.20.1" = _FJhrX1W8;
-        "neoforge-1.21.1" = _ZR8M3fcv;
+        "neoforge-1.21.1" = _tGW6Zlf9;
         "pkg-1.20.1-5.2.6" = _mTsI5OLK;
         "pkg-1.20.1-5.2.7" = _FJhrX1W8;
         "pkg-1.20.1-5.3.0" = _qfgEqe0E;
@@ -55,7 +67,9 @@ let
         "pkg-5.3.4" = _gd8vTUZm;
         "pkg-5.3.6" = _Pi5iB6fS;
         "pkg-5.3.7" = _ZR8M3fcv;
-        "default" = _ZR8M3fcv;
+        "pkg-5.3.8" = _iqO6mToJ;
+        "pkg-5.3.9" = _tGW6Zlf9;
+        "default" = _tGW6Zlf9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-planes";

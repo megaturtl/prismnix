@@ -226,6 +226,61 @@ let
             "file" = "tarkovcraft_core-neoforge-2.8.0+1.21.1.jar";
             "hash" = "sha512-6uHXqkIh8rf7uczBYZHeyt5vBWCmQuYk1JAhBeUCcBIx4fIsZMvN5hVgeJwUwWeWgDQLQ2AXK9aYRDfpe9K5GA==";
         };
+        _Lg2MRetr = {
+            "id" = "Lg2MRetr";
+            "file" = "tarkovcraft_core-neoforge-2.9.0+26.2.jar";
+            "hash" = "sha512-t+p4ORpvyJvbafMyeedilPs6E0hvG8qVfaFfc5iNTXZZVtb9x5rTJBsl46WfoUKAi5hE9mnyYGrPBcP+A7kbEg==";
+        };
+        _bXtHH3Ba = {
+            "id" = "bXtHH3Ba";
+            "file" = "tarkovcraft_core-neoforge-2.9.0+26.1.2.jar";
+            "hash" = "sha512-raTu3NeBu4+XBvHCaSFoVpo2r/AsKiBDUMV+Z3IyfiJKQRe/MIlP+fKIBNebzp9fJQJ4eK3H2zNSRqgpLRFBPg==";
+        };
+        _FUK9n3xQ = {
+            "id" = "FUK9n3xQ";
+            "file" = "tarkovcraft_core-neoforge-2.9.0+1.21.1.jar";
+            "hash" = "sha512-FDtbKZtKohy6MzZBDGoeDNXSSRH+OdkVntauw1BmfFG70WPUG/H2IpGsdq3FxqG3eX4dNNT1JbP3g4jdh+cibA==";
+        };
+        _RLnI3IDP = {
+            "id" = "RLnI3IDP";
+            "file" = "tarkovcraft_core-neoforge-2.10.0+26.2.jar";
+            "hash" = "sha512-nf8AgnKHuT7/TORBu0GoFZMTd2moh8pzJLla9LKlu0b26xbidqRttwjRPPYUjpQ75V7g+Lvc1Cs4Q+ZxCKijiQ==";
+        };
+        _MjXVNdKv = {
+            "id" = "MjXVNdKv";
+            "file" = "tarkovcraft_core-neoforge-2.10.0+26.1.2.jar";
+            "hash" = "sha512-i3nXLh2yDyd+uDvqQW0I0UWYFkx4QbM65VK0wVhOOT2GXNsSwyZfXfmeMqtc9Gb/1v8Qummb/krYeaFqPHXqBw==";
+        };
+        _DqPe6k0Q = {
+            "id" = "DqPe6k0Q";
+            "file" = "tarkovcraft_core-neoforge-2.10.0+1.21.1.jar";
+            "hash" = "sha512-ZxxES4kPi0g0Yu0ZKTVZYifvCQ4ISnh1CMjlfTstugArnbe4tETTjhQS8ga0qs72qTi6e8l3RURZO2JjlN27ig==";
+        };
+        _B3GLP3Ys = {
+            "id" = "B3GLP3Ys";
+            "file" = "tarkovcraft_core-neoforge-2.10.1+26.2.jar";
+            "hash" = "sha512-lXlHG2pbcO8a3hIL4bXWNEojUeCQO7gvu386aZrKbbXm5Tbhnq+a4a8H+YuXijYIDB0ltFWAIjyYiQjj72L9wA==";
+        };
+        _94iOTWUX = {
+            "id" = "94iOTWUX";
+            "file" = "tarkovcraft_core-neoforge-2.10.1+26.1.2.jar";
+            "hash" = "sha512-Lxjf9vrKGYdofngHkQetzQKbTPspeKce0PhXJ+0GVDZ01++q/RocLZPRG/uYY6fol43ibfBzRyT733WDyNo16g==";
+        };
+        _wYPjpgLP = {
+            "id" = "wYPjpgLP";
+            "file" = "tarkovcraft_core-neoforge-2.10.2+26.2.jar";
+            "hash" = "sha512-01dLUJQnnU//iZwDWrqokkK04xz9iiX+5vqXPv9D20QRZCBdYnvnd4Yr5JX31TkR0U7jlJSmnjfYxjAkUOTpvg==";
+        };
+        _wjHy1Nn8 = {
+            "id" = "wjHy1Nn8";
+            "file" = "tarkovcraft_core-neoforge-2.10.2+26.1.2.jar";
+            "hash" = "sha512-1jmIe2y9x/ONtvuGW2MNelbC+a86jlJ9nwHCfqphWKJowtFx2m6h7UaUa4LTEpDZfnhQbxN0fccGAahjanyBYA==";
+        };
+        _bTkG27LT = {
+            "id" = "bTkG27LT";
+            "file" = "tarkovcraft_core-neoforge-2.10.2+1.21.1.jar";
+            "hash" = "sha512-ll60671cxn65G7q5kViuiLa3XIkJxd/XiIHvfR055a6eeZeDRDsv2zE2fby2NQra/wTiQ1w7e28cx851C0wDzw==";
+        };
     in {
         "90rWZYyH" = _90rWZYyH;
         "ZsyL1lRV" = _ZsyL1lRV;
@@ -272,18 +327,29 @@ let
         "AzTHC5BG" = _AzTHC5BG;
         "DYwGaFsl" = _DYwGaFsl;
         "E4w2cL2a" = _E4w2cL2a;
+        "Lg2MRetr" = _Lg2MRetr;
+        "bXtHH3Ba" = _bXtHH3Ba;
+        "FUK9n3xQ" = _FUK9n3xQ;
+        "RLnI3IDP" = _RLnI3IDP;
+        "MjXVNdKv" = _MjXVNdKv;
+        "DqPe6k0Q" = _DqPe6k0Q;
+        "B3GLP3Ys" = _B3GLP3Ys;
+        "94iOTWUX" = _94iOTWUX;
+        "wYPjpgLP" = _wYPjpgLP;
+        "wjHy1Nn8" = _wjHy1Nn8;
+        "bTkG27LT" = _bTkG27LT;
         "neoforge-1.21.5" = _ZsyL1lRV;
         "neoforge-1.21.6" = _55NYtdp8;
         "neoforge-1.21.7" = _9QrVxKtX;
         "neoforge-1.21.8" = _UNyctBCa;
         "neoforge-1.21.9" = _CBb55AmE;
         "neoforge-1.21.10" = _CBb55AmE;
-        "neoforge-1.21.1" = _E4w2cL2a;
+        "neoforge-1.21.1" = _bTkG27LT;
         "neoforge-1.21.11" = _CQVlLrR0;
         "neoforge-26.1" = _DYwGaFsl;
         "neoforge-26.1.1" = _DYwGaFsl;
-        "neoforge-26.1.2" = _DYwGaFsl;
-        "neoforge-26.2" = _AzTHC5BG;
+        "neoforge-26.1.2" = _wjHy1Nn8;
+        "neoforge-26.2" = _wYPjpgLP;
         "pkg-1.0" = _90rWZYyH;
         "pkg-1.1.0" = _p6aInkts;
         "pkg-1.1.1" = _5RcAr2WC;
@@ -321,7 +387,18 @@ let
         "pkg-2.8.0+26.2" = _AzTHC5BG;
         "pkg-2.8.0+26.1.2" = _DYwGaFsl;
         "pkg-2.8.0+1.21.1" = _E4w2cL2a;
-        "default" = _E4w2cL2a;
+        "pkg-2.9.0+26.2" = _Lg2MRetr;
+        "pkg-2.9.0+26.1.2" = _bXtHH3Ba;
+        "pkg-2.9.0+1.21.1" = _FUK9n3xQ;
+        "pkg-2.10.0+26.2" = _RLnI3IDP;
+        "pkg-2.10.0+26.1.2" = _MjXVNdKv;
+        "pkg-2.10.0+1.21.1" = _DqPe6k0Q;
+        "pkg-2.10.1+26.2" = _B3GLP3Ys;
+        "pkg-2.10.1+26.1.2" = _94iOTWUX;
+        "pkg-2.10.2+26.2" = _wYPjpgLP;
+        "pkg-2.10.2+26.1.2" = _wjHy1Nn8;
+        "pkg-2.10.2+1.21.1" = _bTkG27LT;
+        "default" = _bTkG27LT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tarkovcraft-core";

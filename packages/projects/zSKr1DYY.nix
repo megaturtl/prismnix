@@ -26,19 +26,33 @@ let
             "file" = "LesRaisins-Tactical-Equipements-1.21.1-0.4.0.jar";
             "hash" = "sha512-fIsEkAs7NoAIvph+yeWi638O0AxBhfEaI0VAf5GzoCI41bAmI/ijgzrdx2W3atoUdk4KL5/8Tq+IcSy0dO6luw==";
         };
+        _EtPdkvep = {
+            "id" = "EtPdkvep";
+            "file" = "LesRaisins-Tactical-Equipements-1.21.1-0.4.0.jar";
+            "hash" = "sha512-WkD0W7fRytrYeqhehy248DUd5YiyMoA/NqI6GgexZgRfbdEGUsS0se1bD5apwWgf/5L+dznBL0Zj9wAe6Pn27w==";
+        };
+        _fcwJFQFG = {
+            "id" = "fcwJFQFG";
+            "file" = "LesRaisins-Tactical-Equipements-1.21.1-0.4.3.jar";
+            "hash" = "sha512-kDXijY840yTNuRJQbyh03Rcf76gMJT/kSOw10iV7MK74KHx162Bynaqco2GychhHLBH53e0s0DSOkugHkbbexA==";
+        };
     in {
         "ExEPHTDb" = _ExEPHTDb;
         "KNLaCisF" = _KNLaCisF;
         "STelQaYb" = _STelQaYb;
         "miXsoDpT" = _miXsoDpT;
         "uZDlX7wN" = _uZDlX7wN;
-        "neoforge-1.21.1" = _uZDlX7wN;
+        "EtPdkvep" = _EtPdkvep;
+        "fcwJFQFG" = _fcwJFQFG;
+        "neoforge-1.21.1" = _fcwJFQFG;
         "pkg-0.3.0" = _ExEPHTDb;
         "pkg-0.3.0-r1" = _KNLaCisF;
         "pkg-0.4.0-beta1" = _STelQaYb;
         "pkg-0.4.0-beta2" = _miXsoDpT;
         "pkg-0.4.0-r1" = _uZDlX7wN;
-        "default" = _uZDlX7wN;
+        "pkg-0.4.0-r2" = _EtPdkvep;
+        "pkg-0.4.3" = _fcwJFQFG;
+        "default" = _fcwJFQFG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lr-tactical-1.21.1";

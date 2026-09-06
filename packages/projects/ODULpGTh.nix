@@ -116,6 +116,11 @@ let
             "file" = "MobsToEggs - 1.7.22.jar";
             "hash" = "sha512-ihpvcEVYuqrfbVuH0BCbOH4AXOQS0jGX3Fcq+cEwyE205ydSZSIcutyG7btXTYvxyVdIartwQY+r5klwrTLeMw==";
         };
+        _ulC9k4he = {
+            "id" = "ulC9k4he";
+            "file" = "MobsToEggs - 1.7.23.jar";
+            "hash" = "sha512-sqM9QoXAVXgFaPP+HuJjMPa5yqIDlTMXuyN0jx5j1qPpnxIV8i9WXce/dBeJ1l44yhU7p/PPssTJyaY27xmdkw==";
+        };
     in {
         "16oLBbmd" = _16oLBbmd;
         "jsUhGx6W" = _jsUhGx6W;
@@ -140,6 +145,7 @@ let
         "YNLSQxms" = _YNLSQxms;
         "kleLCgH5" = _kleLCgH5;
         "QR7m0xSh" = _QR7m0xSh;
+        "ulC9k4he" = _ulC9k4he;
         "bukkit-1.19" = _I1cU7tmf;
         "bukkit-1.19.1" = _I1cU7tmf;
         "bukkit-1.19.2" = _I1cU7tmf;
@@ -186,7 +192,11 @@ let
         "paper-1.21.8" = _QR7m0xSh;
         "paper-1.21.9" = _QR7m0xSh;
         "paper-1.21.10" = _QR7m0xSh;
-        "paper-1.21.11" = _QR7m0xSh;
+        "paper-1.21.11" = _ulC9k4he;
+        "paper-26.1" = _ulC9k4he;
+        "paper-26.1.1" = _ulC9k4he;
+        "paper-26.1.2" = _ulC9k4he;
+        "paper-26.2" = _ulC9k4he;
         "spigot-1.19" = _I1cU7tmf;
         "spigot-1.19.1" = _I1cU7tmf;
         "spigot-1.19.2" = _I1cU7tmf;
@@ -233,7 +243,11 @@ let
         "purpur-1.21.8" = _QR7m0xSh;
         "purpur-1.21.9" = _QR7m0xSh;
         "purpur-1.21.10" = _QR7m0xSh;
-        "purpur-1.21.11" = _QR7m0xSh;
+        "purpur-1.21.11" = _ulC9k4he;
+        "purpur-26.1" = _ulC9k4he;
+        "purpur-26.1.1" = _ulC9k4he;
+        "purpur-26.1.2" = _ulC9k4he;
+        "purpur-26.2" = _ulC9k4he;
         "pkg-1.7.2" = _16oLBbmd;
         "pkg-1.7.3" = _jsUhGx6W;
         "pkg-1.7.4" = _QTfudF6a;
@@ -256,7 +270,8 @@ let
         "pkg-1.7.20" = _YNLSQxms;
         "pkg-1.7.21" = _kleLCgH5;
         "pkg-1.7.22" = _QR7m0xSh;
-        "default" = _QR7m0xSh;
+        "pkg-1.7.23" = _ulC9k4he;
+        "default" = _ulC9k4he;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mobstoeggs";

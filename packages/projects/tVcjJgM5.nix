@@ -51,13 +51,13 @@ let
         type = "resourcepack";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "Apache License 2.0";
-                shortName = "Apache-2.0";
-                url = null;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/DoomedArtemis/ResourcePacksManager/blob/master/LICENSE";
             };
         };
     };

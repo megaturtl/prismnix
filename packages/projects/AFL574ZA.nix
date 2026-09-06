@@ -51,6 +51,16 @@ let
             "file" = "bartering-1.5.jar";
             "hash" = "sha512-O42H+3vNsOlVkw/Mb5o3/mun5ipvWkHT2kXwQaetKTJISyfYNvMng3KS+0j1+xZJMmp9NunnMs4kta2dv5Y27Q==";
         };
+        _hqU86Mle = {
+            "id" = "hqU86Mle";
+            "file" = "Better Markets v1.6.zip";
+            "hash" = "sha512-hlcClVzlE8aqYoFrCBsnGQW4iEncVYHz1GqURuwo+LBt6htdyWpj+1eUA3yZA42w8rIpvnu5OgiZIfbVS7/g3Q==";
+        };
+        _uVfXSOGg = {
+            "id" = "uVfXSOGg";
+            "file" = "bartering-1.6.jar";
+            "hash" = "sha512-TbODvkAd6r23EQUvmmE8Ua3d22Eqb0KBsE3wsXCixp2CEBK2HDfpV/psGvbMQ1RDFxsvSMCjPAT1tu0e2BCZWQ==";
+        };
     in {
         "O7oc3QLe" = _O7oc3QLe;
         "T7FRnin4" = _T7FRnin4;
@@ -62,6 +72,8 @@ let
         "Fg2ofBNJ" = _Fg2ofBNJ;
         "BSN1W4zU" = _BSN1W4zU;
         "z1tJoSxu" = _z1tJoSxu;
+        "hqU86Mle" = _hqU86Mle;
+        "uVfXSOGg" = _uVfXSOGg;
         "datapack-1.21" = _lWyfPkjh;
         "datapack-1.21.1" = _lWyfPkjh;
         "datapack-1.21.2" = _lWyfPkjh;
@@ -73,6 +85,11 @@ let
         "datapack-1.21.8" = _Fg2ofBNJ;
         "datapack-1.21.9" = _Fg2ofBNJ;
         "datapack-1.21.10" = _Fg2ofBNJ;
+        "datapack-1.21.11" = _hqU86Mle;
+        "datapack-26.1" = _hqU86Mle;
+        "datapack-26.1.1" = _hqU86Mle;
+        "datapack-26.1.2" = _hqU86Mle;
+        "datapack-26.2" = _hqU86Mle;
         "fabric-1.21" = _mZcp1QMs;
         "fabric-1.21.1" = _mZcp1QMs;
         "fabric-1.21.2" = _mZcp1QMs;
@@ -84,6 +101,11 @@ let
         "fabric-1.21.8" = _z1tJoSxu;
         "fabric-1.21.9" = _z1tJoSxu;
         "fabric-1.21.10" = _z1tJoSxu;
+        "fabric-1.21.11" = _uVfXSOGg;
+        "fabric-26.1" = _uVfXSOGg;
+        "fabric-26.1.1" = _uVfXSOGg;
+        "fabric-26.1.2" = _uVfXSOGg;
+        "fabric-26.2" = _uVfXSOGg;
         "forge-1.21" = _mZcp1QMs;
         "forge-1.21.1" = _mZcp1QMs;
         "forge-1.21.2" = _mZcp1QMs;
@@ -95,6 +117,11 @@ let
         "forge-1.21.8" = _z1tJoSxu;
         "forge-1.21.9" = _z1tJoSxu;
         "forge-1.21.10" = _z1tJoSxu;
+        "forge-1.21.11" = _uVfXSOGg;
+        "forge-26.1" = _uVfXSOGg;
+        "forge-26.1.1" = _uVfXSOGg;
+        "forge-26.1.2" = _uVfXSOGg;
+        "forge-26.2" = _uVfXSOGg;
         "neoforge-1.21" = _mZcp1QMs;
         "neoforge-1.21.1" = _mZcp1QMs;
         "neoforge-1.21.2" = _mZcp1QMs;
@@ -106,6 +133,11 @@ let
         "neoforge-1.21.8" = _z1tJoSxu;
         "neoforge-1.21.9" = _z1tJoSxu;
         "neoforge-1.21.10" = _z1tJoSxu;
+        "neoforge-1.21.11" = _uVfXSOGg;
+        "neoforge-26.1" = _uVfXSOGg;
+        "neoforge-26.1.1" = _uVfXSOGg;
+        "neoforge-26.1.2" = _uVfXSOGg;
+        "neoforge-26.2" = _uVfXSOGg;
         "quilt-1.21" = _mZcp1QMs;
         "quilt-1.21.1" = _mZcp1QMs;
         "quilt-1.21.2" = _mZcp1QMs;
@@ -117,6 +149,11 @@ let
         "quilt-1.21.8" = _z1tJoSxu;
         "quilt-1.21.9" = _z1tJoSxu;
         "quilt-1.21.10" = _z1tJoSxu;
+        "quilt-1.21.11" = _uVfXSOGg;
+        "quilt-26.1" = _uVfXSOGg;
+        "quilt-26.1.1" = _uVfXSOGg;
+        "quilt-26.1.2" = _uVfXSOGg;
+        "quilt-26.2" = _uVfXSOGg;
         "pkg-1.0" = _O7oc3QLe;
         "pkg-1.1" = _T7FRnin4;
         "pkg-1.2" = _4WXmXdM7;
@@ -126,7 +163,9 @@ let
         "pkg-1.4.1+mod" = _jpy2oTR7;
         "pkg-1.5" = _Fg2ofBNJ;
         "pkg-1.5+mod" = _z1tJoSxu;
-        "default" = _z1tJoSxu;
+        "pkg-1.6" = _hqU86Mle;
+        "pkg-1.6+mod" = _uVfXSOGg;
+        "default" = _uVfXSOGg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bartering";

@@ -71,6 +71,11 @@ let
             "file" = "DontHideTheTooltip-1.0+26.1.x.jar";
             "hash" = "sha512-i2sjorslnARxZhNyKDH64Xg90eD7Cft6806RHjO8t5YXyy9mJ1eIHogGZVxkD2kIucO18c/EIBRrwVJmJlGUqA==";
         };
+        _MCKRW6By = {
+            "id" = "MCKRW6By";
+            "file" = "DontHideTheTooltip-1.0+26.2.jar";
+            "hash" = "sha512-TJOcmfLvESArVtTV66mW8qFXof9vt4i8h48/zhNzXKpZgkgJN+jjmjZex4htQX/NimzmCa+gkh2w0v204si2sA==";
+        };
     in {
         "jE9i3d1R" = _jE9i3d1R;
         "brxnqeZY" = _brxnqeZY;
@@ -86,6 +91,7 @@ let
         "CpQkbzH5" = _CpQkbzH5;
         "45VCU2fq" = _45VCU2fq;
         "C3SEF2Cm" = _C3SEF2Cm;
+        "MCKRW6By" = _MCKRW6By;
         "fabric-1.20.6" = _jE9i3d1R;
         "fabric-1.20.4" = _brxnqeZY;
         "fabric-1.21" = _1KWmxt1M;
@@ -102,6 +108,7 @@ let
         "fabric-26.1" = _C3SEF2Cm;
         "fabric-26.1.1" = _C3SEF2Cm;
         "fabric-26.1.2" = _C3SEF2Cm;
+        "fabric-26.2" = _MCKRW6By;
         "pkg-1.0+1.20.6" = _jE9i3d1R;
         "pkg-1.0+1.20.4" = _brxnqeZY;
         "pkg-1.0+1.21" = _1KWmxt1M;
@@ -116,7 +123,8 @@ let
         "pkg-1.0+1.21.8" = _CpQkbzH5;
         "pkg-1.0+1.21.11" = _45VCU2fq;
         "pkg-1.0+26.1.x" = _C3SEF2Cm;
-        "default" = _C3SEF2Cm;
+        "pkg-1.0+26.2" = _MCKRW6By;
+        "default" = _MCKRW6By;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "donthidethetooltip";

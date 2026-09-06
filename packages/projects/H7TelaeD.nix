@@ -196,6 +196,16 @@ let
             "file" = "trims-color-splash-v1.3.3.jar";
             "hash" = "sha512-AJDc1GgNrbrrJ/soPLaiZJZG4glc2swRBbdP35V6ZxaUg0ieh6KQyxb6oznYteRY1Om4sL3C0Y0OsjkEcoyA5Q==";
         };
+        _80eZV0GK = {
+            "id" = "80eZV0GK";
+            "file" = "Trims Color Splash [DP]-v1.3.4 - 26.1+.zip";
+            "hash" = "sha512-pfEewGIegZYjl6Bq4zDRETw69U6I/BRV/Qmg0x/o4yDQCwaOaV/a7tBZG8JHX2Jj6U48XayhOVKN9zA/wFCLiA==";
+        };
+        _2HmOxCAw = {
+            "id" = "2HmOxCAw";
+            "file" = "trims-color-splash-v1.3.4.jar";
+            "hash" = "sha512-F6EgiOvvGxu7O5JjxmumUaOTR6nhViAaaL2JO5tbRmszBilsM3W2OJjBKhIO1P7xPJYzKzoUogQBcJ/7Q6d1VA==";
+        };
     in {
         "CeuqMQrS" = _CeuqMQrS;
         "NAHaZOgb" = _NAHaZOgb;
@@ -236,6 +246,8 @@ let
         "ib1oRZNg" = _ib1oRZNg;
         "voW7fjK0" = _voW7fjK0;
         "S3uGOFhm" = _S3uGOFhm;
+        "80eZV0GK" = _80eZV0GK;
+        "2HmOxCAw" = _2HmOxCAw;
         "datapack-1.21.5" = _nZr6tJFu;
         "datapack-1.21.6" = _nZr6tJFu;
         "datapack-1.21.7" = _nZr6tJFu;
@@ -307,10 +319,10 @@ let
         "datapack-24w44a" = _vJyjaujD;
         "datapack-24w45a" = _vJyjaujD;
         "datapack-24w46a" = _vJyjaujD;
-        "datapack-26.1" = _voW7fjK0;
-        "datapack-26.1.1" = _voW7fjK0;
-        "datapack-26.1.2" = _voW7fjK0;
-        "datapack-26.2" = _voW7fjK0;
+        "datapack-26.1" = _80eZV0GK;
+        "datapack-26.1.1" = _80eZV0GK;
+        "datapack-26.1.2" = _80eZV0GK;
+        "datapack-26.2" = _80eZV0GK;
         "datapack-26.3-snapshot-1" = _59ymjviV;
         "datapack-26.3-snapshot-2" = _59ymjviV;
         "datapack-26.3-snapshot-3" = _59ymjviV;
@@ -385,10 +397,10 @@ let
         "fabric-24w44a" = _ejq6ozLv;
         "fabric-24w45a" = _ejq6ozLv;
         "fabric-24w46a" = _ejq6ozLv;
-        "fabric-26.1" = _S3uGOFhm;
-        "fabric-26.1.1" = _S3uGOFhm;
-        "fabric-26.1.2" = _S3uGOFhm;
-        "fabric-26.2" = _S3uGOFhm;
+        "fabric-26.1" = _2HmOxCAw;
+        "fabric-26.1.1" = _2HmOxCAw;
+        "fabric-26.1.2" = _2HmOxCAw;
+        "fabric-26.2" = _2HmOxCAw;
         "fabric-26.3-snapshot-1" = _cDGZUOde;
         "fabric-26.3-snapshot-2" = _cDGZUOde;
         "fabric-26.3-snapshot-3" = _cDGZUOde;
@@ -463,10 +475,10 @@ let
         "forge-24w44a" = _ejq6ozLv;
         "forge-24w45a" = _ejq6ozLv;
         "forge-24w46a" = _ejq6ozLv;
-        "forge-26.1" = _S3uGOFhm;
-        "forge-26.1.1" = _S3uGOFhm;
-        "forge-26.1.2" = _S3uGOFhm;
-        "forge-26.2" = _S3uGOFhm;
+        "forge-26.1" = _2HmOxCAw;
+        "forge-26.1.1" = _2HmOxCAw;
+        "forge-26.1.2" = _2HmOxCAw;
+        "forge-26.2" = _2HmOxCAw;
         "forge-26.3-snapshot-1" = _cDGZUOde;
         "forge-26.3-snapshot-2" = _cDGZUOde;
         "forge-26.3-snapshot-3" = _cDGZUOde;
@@ -541,10 +553,10 @@ let
         "neoforge-24w44a" = _ejq6ozLv;
         "neoforge-24w45a" = _ejq6ozLv;
         "neoforge-24w46a" = _ejq6ozLv;
-        "neoforge-26.1" = _S3uGOFhm;
-        "neoforge-26.1.1" = _S3uGOFhm;
-        "neoforge-26.1.2" = _S3uGOFhm;
-        "neoforge-26.2" = _S3uGOFhm;
+        "neoforge-26.1" = _2HmOxCAw;
+        "neoforge-26.1.1" = _2HmOxCAw;
+        "neoforge-26.1.2" = _2HmOxCAw;
+        "neoforge-26.2" = _2HmOxCAw;
         "neoforge-26.3-snapshot-1" = _cDGZUOde;
         "neoforge-26.3-snapshot-2" = _cDGZUOde;
         "neoforge-26.3-snapshot-3" = _cDGZUOde;
@@ -619,10 +631,10 @@ let
         "quilt-24w44a" = _ejq6ozLv;
         "quilt-24w45a" = _ejq6ozLv;
         "quilt-24w46a" = _ejq6ozLv;
-        "quilt-26.1" = _S3uGOFhm;
-        "quilt-26.1.1" = _S3uGOFhm;
-        "quilt-26.1.2" = _S3uGOFhm;
-        "quilt-26.2" = _S3uGOFhm;
+        "quilt-26.1" = _2HmOxCAw;
+        "quilt-26.1.1" = _2HmOxCAw;
+        "quilt-26.1.2" = _2HmOxCAw;
+        "quilt-26.2" = _2HmOxCAw;
         "quilt-26.3-snapshot-1" = _cDGZUOde;
         "quilt-26.3-snapshot-2" = _cDGZUOde;
         "quilt-26.3-snapshot-3" = _cDGZUOde;
@@ -645,7 +657,9 @@ let
         "pkg-v1.3.2+packaged" = _ib1oRZNg;
         "pkg-v1.3.3" = _voW7fjK0;
         "pkg-v1.3.3+packaged" = _S3uGOFhm;
-        "default" = _S3uGOFhm;
+        "pkg-v1.3.4" = _80eZV0GK;
+        "pkg-v1.3.4+packaged" = _2HmOxCAw;
+        "default" = _2HmOxCAw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trims-color-splash";

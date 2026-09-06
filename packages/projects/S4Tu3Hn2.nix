@@ -91,6 +91,21 @@ let
             "file" = "loginsystem-2.2.jar";
             "hash" = "sha512-Ww7/CwQWMjMV8k47y3fmDBcdFOi3OoRQ//jY2Y8pqfV+u+fvf6v3TOQvKIyECnQbnf7KgDiEKOibua25aYpH4w==";
         };
+        _qER1rYVd = {
+            "id" = "qER1rYVd";
+            "file" = "loginsystem-3.1.jar";
+            "hash" = "sha512-Khymo9l5rEzAwqIaIu7uzc6BwF5khGU4slHNOevijyIkh2ec+Tg6U658crS7QhkkQYqS1ZxOQz1sKQnEVKH1Lg==";
+        };
+        _CHCDSJh1 = {
+            "id" = "CHCDSJh1";
+            "file" = "loginsystem-3.0.jar";
+            "hash" = "sha512-qTk5qVLf+ZUHt3Jid52GrgfSQq/hygTAGNVFgmdrWSx4qG919eHzrbrrNDEmaGrc+hNdziMowQDbJapM9EPxjQ==";
+        };
+        _DP99egtl = {
+            "id" = "DP99egtl";
+            "file" = "loginsystem-3.1.jar";
+            "hash" = "sha512-sxxFuMkZ5WrWbhMZG5w94RDmG9HoYxHl78PwWcmIymX5VhYPnQ4SI+A++WmtAHsrsveD0NwiBa55sOYrdAR+Ww==";
+        };
     in {
         "SFqA909D" = _SFqA909D;
         "NxpSxrVQ" = _NxpSxrVQ;
@@ -110,6 +125,9 @@ let
         "yDNmejHj" = _yDNmejHj;
         "dgFHnrmv" = _dgFHnrmv;
         "gYWXnbjV" = _gYWXnbjV;
+        "qER1rYVd" = _qER1rYVd;
+        "CHCDSJh1" = _CHCDSJh1;
+        "DP99egtl" = _DP99egtl;
         "forge-1.20" = _b0HIVWOS;
         "forge-1.20.1" = _b0HIVWOS;
         "forge-1.20.2" = _b0HIVWOS;
@@ -127,6 +145,10 @@ let
         "forge-1.21.9" = _yDNmejHj;
         "forge-1.21.10" = _yDNmejHj;
         "forge-1.21.11" = _yDNmejHj;
+        "forge-26.1" = _CHCDSJh1;
+        "forge-26.1.1" = _CHCDSJh1;
+        "forge-26.1.2" = _CHCDSJh1;
+        "forge-26.2" = _CHCDSJh1;
         "fabric-1.20" = _a4c7y4hS;
         "fabric-1.20.1" = _a4c7y4hS;
         "fabric-1.20.2" = _a4c7y4hS;
@@ -144,9 +166,10 @@ let
         "fabric-1.21.9" = _gYWXnbjV;
         "fabric-1.21.10" = _gYWXnbjV;
         "fabric-1.21.11" = _gYWXnbjV;
-        "fabric-26.1" = _j43tIBxK;
-        "fabric-26.1.1" = _j43tIBxK;
-        "fabric-26.1.2" = _j43tIBxK;
+        "fabric-26.1" = _DP99egtl;
+        "fabric-26.1.1" = _DP99egtl;
+        "fabric-26.1.2" = _DP99egtl;
+        "fabric-26.2" = _DP99egtl;
         "neoforge-1.21" = _dgFHnrmv;
         "neoforge-1.21.1" = _dgFHnrmv;
         "neoforge-1.21.2" = _dgFHnrmv;
@@ -159,9 +182,10 @@ let
         "neoforge-1.21.9" = _dgFHnrmv;
         "neoforge-1.21.10" = _dgFHnrmv;
         "neoforge-1.21.11" = _dgFHnrmv;
-        "neoforge-26.1" = _lcSsVuEj;
-        "neoforge-26.1.1" = _lcSsVuEj;
-        "neoforge-26.1.2" = _lcSsVuEj;
+        "neoforge-26.1" = _qER1rYVd;
+        "neoforge-26.1.1" = _qER1rYVd;
+        "neoforge-26.1.2" = _qER1rYVd;
+        "neoforge-26.2" = _qER1rYVd;
         "pkg-1.3" = _SFqA909D;
         "pkg-1.0" = _NxpSxrVQ;
         "pkg-1.4" = _dbDkpbWl;
@@ -173,9 +197,10 @@ let
         "pkg-2.0" = _yDNmejHj;
         "pkg-2.1" = _pRDXsfWG;
         "pkg-1.7" = _b0HIVWOS;
-        "pkg-3.0" = _j43tIBxK;
+        "pkg-3.0" = _CHCDSJh1;
         "pkg-2.2" = _gYWXnbjV;
-        "default" = _gYWXnbjV;
+        "pkg-3.1" = _DP99egtl;
+        "default" = _DP99egtl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "loginmod";

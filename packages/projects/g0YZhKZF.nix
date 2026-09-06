@@ -81,6 +81,11 @@ let
             "file" = "decorative_core-2.0705-neoforge-1.21.1.jar";
             "hash" = "sha512-X8yDdyJ2LgESWBWrR1zEchOvPyEAJqE7iSIXlq6O7KMuGLjO4tUzW32Xn1BHajWkvWQURLfiKBcWFfrkOZHTyQ==";
         };
+        _UeJN2lY6 = {
+            "id" = "UeJN2lY6";
+            "file" = "decorative_core-2.0708-neoforge-26.1.2.jar";
+            "hash" = "sha512-yxKkfmD5/3u99KpQvvyX6x4AgfaPLP84OCFIc23L4u1Wdy+4YhPQX0UN1Sl+3712hBwMrx0gf7MBPNwU8g/soA==";
+        };
     in {
         "R0DvmI6d" = _R0DvmI6d;
         "dKbnHwG3" = _dKbnHwG3;
@@ -98,7 +103,9 @@ let
         "avyGjI6q" = _avyGjI6q;
         "eFht81Vh" = _eFht81Vh;
         "oc18Qb65" = _oc18Qb65;
+        "UeJN2lY6" = _UeJN2lY6;
         "neoforge-1.21.1" = _oc18Qb65;
+        "neoforge-26.1.2" = _UeJN2lY6;
         "forge-1.20.1" = _eFht81Vh;
         "fabric-1.20.1" = _ohx8pXvC;
         "pkg-1.0004-neoforge-1.21.1" = _R0DvmI6d;
@@ -117,7 +124,8 @@ let
         "pkg-2.0602-neoforge-1.21.1" = _avyGjI6q;
         "pkg-2.0705-forge-1.20.1" = _eFht81Vh;
         "pkg-2.0705-neoforge-1.21.1" = _oc18Qb65;
-        "default" = _oc18Qb65;
+        "pkg-2.0708-neoforge-26.1.2" = _UeJN2lY6;
+        "default" = _UeJN2lY6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "decorative-core";

@@ -41,6 +41,11 @@ let
             "file" = "interactivestuff-0.7.0-SNAPSHOT-3.jar";
             "hash" = "sha512-qMUztF+dnErwRFTFwNNDS+ooRHsdg1FiGvdcctgL6x4KmxJumaSlv6149S80H283U9N0qJTDJt6IhQ1P8DrxmQ==";
         };
+        _njJxVzq4 = {
+            "id" = "njJxVzq4";
+            "file" = "interactivestuff-0.7.0-SNAPSHOT-4-all.jar";
+            "hash" = "sha512-o2Du0FqdgoWAItGB4/GaEUAVu85b5GtOhjHGBSQHMLVXZnJVPnjQ9oKw2sSovAJUi0Vqq2aP855jxBxUjIw27g==";
+        };
     in {
         "yBeKEhhl" = _yBeKEhhl;
         "pdKSGhIh" = _pdKSGhIh;
@@ -50,17 +55,20 @@ let
         "DNN5S2M0" = _DNN5S2M0;
         "iy3ERpCM" = _iy3ERpCM;
         "22YAx3jx" = _22YAx3jx;
+        "njJxVzq4" = _njJxVzq4;
         "fabric-1.21.10" = _22YAx3jx;
         "fabric-1.21.11" = _22YAx3jx;
+        "fabric-26.2" = _njJxVzq4;
         "pkg-0.5" = _yBeKEhhl;
         "pkg-0.5.5" = _pdKSGhIh;
         "pkg-0.6" = _obymQyrZ;
         "pkg-0.6.1" = _1NleRhZB;
         "pkg-0.6.2" = _BpvtCJUj;
-        "pkg-0.7-snapshot" = _DNN5S2M0;
+        "pkg-0.7.0-SNAPSHOT-1" = _DNN5S2M0;
         "pkg-0.7.0-SNAPSHOT-2" = _iy3ERpCM;
         "pkg-0.7.0-SNAPSHOT-3" = _22YAx3jx;
-        "default" = _22YAx3jx;
+        "pkg-0.7.0-SNAPSHOT-4" = _njJxVzq4;
+        "default" = _njJxVzq4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "interactivestuff";

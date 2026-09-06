@@ -106,6 +106,31 @@ let
             "file" = "footsteps-trail-1.2.0-26.2-neoforge.jar";
             "hash" = "sha512-9Qt9+0a03SlNzzrepYFVBKYGrtdyYT6z4RsdFwoFHpGtcPYGAsDNHTY9fb0MIti0LLwtJBhwlvaMyVCWh8k8GQ==";
         };
+        _nMBpVIes = {
+            "id" = "nMBpVIes";
+            "file" = "footsteps-trail 1.3.0 1.12.2-forge.jar";
+            "hash" = "sha512-F6jZ9iccJAHrH18sQuaQ6ph1Sjr6Dzvc4i9GsjxliAH7XE383XLrCF4Izuh+cnKeArzeeeI5zaAQxtQOZW37ow==";
+        };
+        _9yWrxicX = {
+            "id" = "9yWrxicX";
+            "file" = "footsteps-trail 1.3.0 1.20.1-forge.jar";
+            "hash" = "sha512-2d+qA8xMq9xixCS5FkVq3apP/EsMDvVn2MEmLUJe48enYY8Dp/aBoJfhxvyx74WSEbxagO8rHYB6ZiA7FwBJfA==";
+        };
+        _DaWq746r = {
+            "id" = "DaWq746r";
+            "file" = "footsteps-trail 1.3.0 1.20.1-fabric.jar";
+            "hash" = "sha512-oHSFqQ2xPGERmNKxaO9/2ooDCeluD39Ekk7ePiijIsjm/+t/VkYeiqrZzV8i9B4dmcCSk5+3bXf56knkkUGMqA==";
+        };
+        _K7rInDGw = {
+            "id" = "K7rInDGw";
+            "file" = "footsteps-trail 1.3.0 26.2-fabric.jar";
+            "hash" = "sha512-izo/JxmfTYgw72wGfLYiF6eIniifowxCD/6POxZF6b6dOaDomRAClhF1H4rZeoowPztr5FheCfL2p97xQ8NLCw==";
+        };
+        _o5JATz5c = {
+            "id" = "o5JATz5c";
+            "file" = "footsteps-trail 1.3.0 26.2-neoforge.jar";
+            "hash" = "sha512-o6pyiZD3n9U16CMysstZWZRz+EIFOrAYRK3HpDfkQVDvOicxaBdokgHgCkpZ8lXs4QkgYdEufO53bhPMb9RSqw==";
+        };
     in {
         "9hus7yGh" = _9hus7yGh;
         "zp59p3oa" = _zp59p3oa;
@@ -128,21 +153,26 @@ let
         "XVewL2Ww" = _XVewL2Ww;
         "YWlQw4un" = _YWlQw4un;
         "vauNkNA3" = _vauNkNA3;
-        "fabric-1.20.1" = _WbNljFbd;
-        "fabric-1.20.2" = _WbNljFbd;
-        "fabric-1.20.3" = _WbNljFbd;
-        "fabric-1.20.4" = _WbNljFbd;
-        "fabric-1.20.5" = _WbNljFbd;
-        "fabric-1.20.6" = _WbNljFbd;
+        "nMBpVIes" = _nMBpVIes;
+        "9yWrxicX" = _9yWrxicX;
+        "DaWq746r" = _DaWq746r;
+        "K7rInDGw" = _K7rInDGw;
+        "o5JATz5c" = _o5JATz5c;
+        "fabric-1.20.1" = _DaWq746r;
+        "fabric-1.20.2" = _DaWq746r;
+        "fabric-1.20.3" = _DaWq746r;
+        "fabric-1.20.4" = _DaWq746r;
+        "fabric-1.20.5" = _DaWq746r;
+        "fabric-1.20.6" = _DaWq746r;
         "fabric-1.21.11" = _qsXn9NyC;
         "fabric-1.19.2" = _LOSN6uAD;
         "fabric-1.19.3" = _LOSN6uAD;
         "fabric-1.19.4" = _LOSN6uAD;
         "fabric-26.1.2" = _B6cAqmLL;
-        "fabric-26.2" = _YWlQw4un;
-        "forge-1.20.1" = _Lzk7DQbh;
+        "fabric-26.2" = _K7rInDGw;
+        "forge-1.20.1" = _9yWrxicX;
         "forge-1.21.11" = _jy3bzWGf;
-        "forge-1.12.2" = _rertlgU6;
+        "forge-1.12.2" = _nMBpVIes;
         "forge-1.20.2" = _Lzk7DQbh;
         "forge-1.20.3" = _Lzk7DQbh;
         "forge-1.20.4" = _Lzk7DQbh;
@@ -150,11 +180,12 @@ let
         "forge-1.20.6" = _Lzk7DQbh;
         "forge-26.1.2" = _9cp9jg9O;
         "forge-26.2" = _XVewL2Ww;
-        "neoforge-26.2" = _vauNkNA3;
+        "neoforge-26.2" = _o5JATz5c;
         "pkg-1.0.0" = _6k5LikxM;
         "pkg-1.1.0" = _CGNvUxBT;
         "pkg-1.2.0" = _vauNkNA3;
-        "default" = _vauNkNA3;
+        "pkg-1.3.0" = _o5JATz5c;
+        "default" = _o5JATz5c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "footsteps-trail";

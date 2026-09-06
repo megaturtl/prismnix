@@ -66,6 +66,16 @@ let
             "file" = "ssu-1.1.0+26.1.2.jar";
             "hash" = "sha512-E73N/HdU1mcFpT/YgKytu+SbWOPf9w0WLst2sSVdPpweqlC42eRpy625RuBb4hmu22x0EPhf00vmOcG1LT1a2g==";
         };
+        _JfotQINj = {
+            "id" = "JfotQINj";
+            "file" = "ssu-1.2.0+26.1.jar";
+            "hash" = "sha512-cdeiv4G5d0qgdndetC/Of6o3pXAo0wxyzGgkdiGjDh66BYxvZFeV2zz2Cn0sSJXwRbyrkqtlvXwdXKv678tsyw==";
+        };
+        _9IRKqewe = {
+            "id" = "9IRKqewe";
+            "file" = "ssu-1.2.0+26.2.jar";
+            "hash" = "sha512-j6KOAr6/s0A0hM7ampDavK0dXGxLNrJ8SIdDKt+ItKXSuB5lUmjwLQowLeGowmUsr9wFKbKzlQ1D7GwR2EfaXw==";
+        };
     in {
         "cDfBNWvY" = _cDfBNWvY;
         "ZMAWrtR0" = _ZMAWrtR0;
@@ -80,13 +90,18 @@ let
         "zqosALeh" = _zqosALeh;
         "NQhoHWu9" = _NQhoHWu9;
         "UXekE698" = _UXekE698;
+        "JfotQINj" = _JfotQINj;
+        "9IRKqewe" = _9IRKqewe;
         "fabric-1.21.1" = _ALJlutcZ;
         "fabric-1.21.4" = _ALJlutcZ;
         "fabric-1.21.5" = _WQnbFEKz;
         "fabric-1.21.8" = _9p2mXdPt;
         "fabric-1.21.10" = _oO2gCNp9;
         "fabric-1.21.11" = _NQhoHWu9;
-        "fabric-26.1.2" = _UXekE698;
+        "fabric-26.1.2" = _JfotQINj;
+        "fabric-26.1" = _JfotQINj;
+        "fabric-26.1.1" = _JfotQINj;
+        "fabric-26.2" = _9IRKqewe;
         "pkg-1.0" = _cDfBNWvY;
         "pkg-1.0.1" = _ZMAWrtR0;
         "pkg-1.0.2" = _7v2SBoPd;
@@ -98,7 +113,9 @@ let
         "pkg-1.0.8" = _zqosALeh;
         "pkg-1.0.9" = _NQhoHWu9;
         "pkg-1.1.0" = _UXekE698;
-        "default" = _UXekE698;
+        "pkg-1.2.0+26.1" = _JfotQINj;
+        "pkg-1.2.0+26.2" = _9IRKqewe;
+        "default" = _9IRKqewe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skyblock-supercraft-utilities";

@@ -272,6 +272,10 @@ let
         "minecraft-26.3-snapshot-5" = _rIcKPWUE;
         "minecraft-26.3-snapshot-6" = _rIcKPWUE;
         "minecraft-26.3-snapshot-7" = _rIcKPWUE;
+        "minecraft-26.3-snapshot-8" = _rIcKPWUE;
+        "minecraft-26.3-snapshot-9" = _rIcKPWUE;
+        "minecraft-26.3-snapshot-10" = _rIcKPWUE;
+        "minecraft-26.3-pre-1" = _rIcKPWUE;
         "minecraft-1.14-pre1" = _rIcKPWUE;
         "minecraft-1.14-pre2" = _rIcKPWUE;
         "minecraft-1.14-pre3" = _rIcKPWUE;

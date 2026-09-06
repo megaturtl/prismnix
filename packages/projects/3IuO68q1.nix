@@ -406,6 +406,11 @@ let
             "file" = "puzzle-neoforge-2.3.1+26.2.jar";
             "hash" = "sha512-E2SgCiSzVdo7jWmVPFcKeZnKzBpy7VYJutB9w3sRdcnFd/iBKEAMxXbuxVN6+kzPjIZTP0EnPcJYg6WJl5nghA==";
         };
+        _563lcr7M = {
+            "id" = "563lcr7M";
+            "file" = "puzzle-neoforge-2.3.1.1+26.2.jar";
+            "hash" = "sha512-87A7RGAbnL2/LFuOxKsXMOWPsLAncUJ1m403x1/NfMYBIDzi9QQnILfWPAhj0km5Pb1VIunc6XDEmzBCxSOGYg==";
+        };
     in {
         "EvContoS" = _EvContoS;
         "TaUhktcF" = _TaUhktcF;
@@ -488,6 +493,7 @@ let
         "kQbKxLmz" = _kQbKxLmz;
         "O8oBjnDH" = _O8oBjnDH;
         "chCN1n3A" = _chCN1n3A;
+        "563lcr7M" = _563lcr7M;
         "fabric-1.18.1" = _EZrDjvh2;
         "fabric-1.18" = _EZrDjvh2;
         "fabric-1.18.2" = _EZrDjvh2;
@@ -563,7 +569,7 @@ let
         "neoforge-26.1" = _kQbKxLmz;
         "neoforge-26.1.1" = _kQbKxLmz;
         "neoforge-26.1.2" = _kQbKxLmz;
-        "neoforge-26.2" = _chCN1n3A;
+        "neoforge-26.2" = _563lcr7M;
         "pkg-1.0.0-pre4" = _EvContoS;
         "pkg-1.0.0" = _TaUhktcF;
         "pkg-1.1.0" = _lJOX0zu5;
@@ -645,7 +651,8 @@ let
         "pkg-2.3.1+26.1-neoforge" = _kQbKxLmz;
         "pkg-2.3.1+26.2-fabric" = _O8oBjnDH;
         "pkg-2.3.1+26.2-neoforge" = _chCN1n3A;
-        "default" = _chCN1n3A;
+        "pkg-2.3.1.1+26.2-neoforge" = _563lcr7M;
+        "default" = _563lcr7M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "puzzle";

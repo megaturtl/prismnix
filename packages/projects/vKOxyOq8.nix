@@ -1,20 +1,10 @@
 {lib, callPackage, ...}:
 let
     versions = (let
-        _kGE6dvuk = {
-            "id" = "kGE6dvuk";
-            "file" = "creamykeys-1.21.jar";
-            "hash" = "sha512-SuyrDxfnJWQ3NR1Srx3sdFlORPmPAXLyFzDob3TM0bJsjzSdxijf0ONxvoOTBh+bw6bXQi/9cpI7AGli+P/y8Q==";
-        };
         _GVtGaqma = {
             "id" = "GVtGaqma";
             "file" = "creamykeys-1.21.jar";
             "hash" = "sha512-ZnFyRbpp8vBBA39RW2NBtvM0bEf3GKxuAcHcVh/lbKsaHkHxZ6nEvDBP4gGYChSbnYX6pgAQD4g2VFITiwFoHg==";
-        };
-        _Vi96oYOC = {
-            "id" = "Vi96oYOC";
-            "file" = "CreamyKeys-1.21.4.jar";
-            "hash" = "sha512-lawjuZr6UNtTZC5DP6LEEP02KUSdovDdXTGYKx2JaT/0Gjt+oSd2K7+RBCeHtuQd/Mcm8bx+vCM/8vgkBQlbrA==";
         };
         _JLpbPvhK = {
             "id" = "JLpbPvhK";
@@ -302,9 +292,7 @@ let
             "hash" = "sha512-7hIkffAV+jZrqrMmBex0T1KJFXorH214BOPeVijH47+oE2nJv2evIbMuEPQNVU3OQhO30/bVRoop98vwO0FgwQ==";
         };
     in {
-        "kGE6dvuk" = _kGE6dvuk;
         "GVtGaqma" = _GVtGaqma;
-        "Vi96oYOC" = _Vi96oYOC;
         "JLpbPvhK" = _JLpbPvhK;
         "b6GawUlJ" = _b6GawUlJ;
         "6akNujpG" = _6akNujpG;
@@ -363,7 +351,6 @@ let
         "aKl8hi2y" = _aKl8hi2y;
         "pdFnz68w" = _pdFnz68w;
         "fabric-1.21" = _Eov7pihM;
-        "fabric-1.21.4" = _Eov7pihM;
         "fabric-1.17.1" = _JLpbPvhK;
         "fabric-1.18" = _b6GawUlJ;
         "fabric-1.18.1" = _6akNujpG;
@@ -383,6 +370,7 @@ let
         "fabric-1.21.1" = _Eov7pihM;
         "fabric-1.21.2" = _Eov7pihM;
         "fabric-1.21.3" = _Eov7pihM;
+        "fabric-1.21.4" = _Eov7pihM;
         "fabric-1.21.5" = _Eov7pihM;
         "fabric-1.21.6" = _Eov7pihM;
         "fabric-1.21.7" = _Eov7pihM;
@@ -396,7 +384,6 @@ let
         "fabric-26.2" = _aKl8hi2y;
         "forge-1.8.9" = _pdFnz68w;
         "pkg-1.21" = _l3KtTfcZ;
-        "pkg-1.21.4" = _k0EVPOKA;
         "pkg-1.17.1" = _JLpbPvhK;
         "pkg-1.18" = _b6GawUlJ;
         "pkg-1.18.1" = _6akNujpG;
@@ -416,6 +403,7 @@ let
         "pkg-1.21.1" = _b2UryZPo;
         "pkg-1.21.2" = _MBjOjKS5;
         "pkg-1.21.3" = _woSCwrzL;
+        "pkg-1.21.4" = _k0EVPOKA;
         "pkg-1.21.5" = _GKAFhVvr;
         "pkg-1.21.6" = _FwWOUFgB;
         "pkg-1.21.7" = _t2DbsN3T;

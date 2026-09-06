@@ -31,6 +31,11 @@ let
             "file" = "Mob-Repellent-NeoForge-1.2.1-mc1.21.1.jar";
             "hash" = "sha512-4H3jDubv/GwQIxeVSCsAybqQnXiBrJ8ZyWRsFrBjnt2+pgXAUe+H4Ta3vaGRYR/+g1rc1X4j/C+vDf7hLqlr3A==";
         };
+        _fR3v2HKN = {
+            "id" = "fR3v2HKN";
+            "file" = "Mob-Repellent-Fabric-1.2.1-mc1.21.1.jar";
+            "hash" = "sha512-oH1k2uPWa/hOsIS4n9470vL09zf88pHeWiTEnCpA4WcXpR6j9H7TK7F1GK4i7/qIT1OzWKxEcumFKAzw/H3X3g==";
+        };
     in {
         "MUbdJM9W" = _MUbdJM9W;
         "RGbexr58" = _RGbexr58;
@@ -38,16 +43,17 @@ let
         "vZS3I0BD" = _vZS3I0BD;
         "wIoPtpM4" = _wIoPtpM4;
         "Ud59teog" = _Ud59teog;
+        "fR3v2HKN" = _fR3v2HKN;
         "neoforge-1.21.1" = _Ud59teog;
         "neoforge-26.1" = _wIoPtpM4;
         "neoforge-26.1.1" = _wIoPtpM4;
-        "fabric-1.21.1" = _vZS3I0BD;
+        "fabric-1.21.1" = _fR3v2HKN;
         "pkg-1.0.0" = _MUbdJM9W;
         "pkg-1.1.0" = _RGbexr58;
         "pkg-1.1.1" = _vZS3I0BD;
         "pkg-1.2.0" = _wIoPtpM4;
-        "pkg-1.2.1" = _Ud59teog;
-        "default" = _Ud59teog;
+        "pkg-1.2.1" = _fR3v2HKN;
+        "default" = _fR3v2HKN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mob-repellent";

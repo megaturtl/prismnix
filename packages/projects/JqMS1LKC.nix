@@ -146,6 +146,16 @@ let
             "file" = "rustlingspots-fabric-4.2.1.jar";
             "hash" = "sha512-x6hc0ZtUdVLBlYRefXNBXABF3UxCa2wyJkkwGPZHFlReF9qOR/dQQADGReQKGtMsHdAgtFOqSsxxCS7C9vCtnA==";
         };
+        _D0pxXHDU = {
+            "id" = "D0pxXHDU";
+            "file" = "rustlingspots-fabric-4.3.jar";
+            "hash" = "sha512-ofbisz7hy/fvAWpHuZredNVJIaZr/0WJ9X+jcnC94vFhgC9LSij/wUHLwMGDFl5GiYCYwYfqp5TsEERkj9AxNQ==";
+        };
+        _dEWmjG1v = {
+            "id" = "dEWmjG1v";
+            "file" = "rustlingspots-neoforge-4.3.jar";
+            "hash" = "sha512-AQ67Y+8+5qrLsq/SIeCcqBRNzWVyMoOkvAhpNY5v3Y60kiCUniHalFgoArDlH/oEtN6Kc7WHavZbVWN+BNeZJA==";
+        };
     in {
         "Y9Ml4bZ7" = _Y9Ml4bZ7;
         "pc2T2nP1" = _pc2T2nP1;
@@ -176,8 +186,10 @@ let
         "zy6o5gkL" = _zy6o5gkL;
         "u73uLaX6" = _u73uLaX6;
         "JWsLvnqd" = _JWsLvnqd;
-        "neoforge-1.21.1" = _u73uLaX6;
-        "fabric-1.21.1" = _JWsLvnqd;
+        "D0pxXHDU" = _D0pxXHDU;
+        "dEWmjG1v" = _dEWmjG1v;
+        "neoforge-1.21.1" = _dEWmjG1v;
+        "fabric-1.21.1" = _D0pxXHDU;
         "pkg-1.0" = _Y9Ml4bZ7;
         "pkg-1.1" = _pc2T2nP1;
         "pkg-1.2" = _zEDBKpKn;
@@ -196,7 +208,8 @@ let
         "pkg-4.1" = _OJS1w7jQ;
         "pkg-4.2" = _zy6o5gkL;
         "pkg-4.2.1" = _JWsLvnqd;
-        "default" = _JWsLvnqd;
+        "pkg-4.3" = _dEWmjG1v;
+        "default" = _dEWmjG1v;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-rustling-spots";
@@ -204,13 +217,13 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+            license = lib.getLicenseFromSpdxIdOr "MPL-2.0" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "LicenseRef-All-Rights-Reserved";
-                shortName = "LicenseRef-All-Rights-Reserved";
-                url = "https://www.curseforge.com/minecraft/mc-mods/cobblemon-rustling-spots#license";
+                fullName = "Mozilla Public License 2.0";
+                shortName = "MPL-2.0";
+                url = "https://github.com/LevelsFR/RustlingSpots-MultiLoader-1.21.1/blob/master/LICENSE";
             };
         };
     };

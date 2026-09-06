@@ -41,6 +41,11 @@ let
             "file" = "quarry-1.21.1-2.2.0.jar";
             "hash" = "sha512-hV6EspLPYsXLdjSqPtl493nTduadSZTBBLOfi0Ew1fys3YggCFN5Htp6cYPcs7PY3Z+g1VzT9nINa6w9Z6PmtA==";
         };
+        _aOeGvc7X = {
+            "id" = "aOeGvc7X";
+            "file" = "quarry-2.3.0.jar";
+            "hash" = "sha512-P3P0ZPKTnx0FyT6AzkHH11MEFeytB/cNAXbdQzzMOmHh3wSXOL/fK79THqqxHkWysE0zsvr0T4eimgWioiLkmQ==";
+        };
     in {
         "bLKECmW5" = _bLKECmW5;
         "tJD4KVrz" = _tJD4KVrz;
@@ -50,18 +55,21 @@ let
         "3cv1RWMO" = _3cv1RWMO;
         "zi3fdy4a" = _zi3fdy4a;
         "ExkR8c0t" = _ExkR8c0t;
+        "aOeGvc7X" = _aOeGvc7X;
         "forge-1.19.2" = _bLKECmW5;
         "forge-1.19.3" = _tJD4KVrz;
         "forge-1.20.1" = _Tvq8hiOw;
         "neoforge-1.20.1" = _Tvq8hiOw;
         "neoforge-1.21.1" = _ExkR8c0t;
+        "neoforge-26.1.2" = _aOeGvc7X;
         "pkg-1.6.5r" = _fzoz5rx7;
         "pkg-2.0.0r" = _Tvq8hiOw;
         "pkg-2.1.0r" = _yS8cLidR;
         "pkg-2.1.1r" = _3cv1RWMO;
         "pkg-2.1.2r" = _zi3fdy4a;
         "pkg-2.2.0r" = _ExkR8c0t;
-        "default" = _ExkR8c0t;
+        "pkg-2.3.0r" = _aOeGvc7X;
+        "default" = _aOeGvc7X;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "quarry";

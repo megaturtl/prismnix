@@ -151,6 +151,11 @@ let
             "file" = "ConsumableOptimizer-2.2.2-26.1.jar";
             "hash" = "sha512-0VREgY7Qj0GZ2AbIg2M/tuWccowAhccoZWjX6gRGBtWVU6U7yRF5FLpaHLfLuOLSTLbbHQ7z+93REKy/kNiH6w==";
         };
+        _tEmd4FGS = {
+            "id" = "tEmd4FGS";
+            "file" = "ConsumableOptimizer-2.2.2-26.2.jar";
+            "hash" = "sha512-Ney4vE4tB9SeM9ZfUFh1m/rj7iPoh8JVUX5pQBradB0TmxaAQW9ZwDdsMlwy96CDzvSG8mOCLRo2dCZ5jZZulw==";
+        };
     in {
         "qexfxHrG" = _qexfxHrG;
         "P5hKHPLf" = _P5hKHPLf;
@@ -182,6 +187,7 @@ let
         "H6hrhtT4" = _H6hrhtT4;
         "bkMGtELL" = _bkMGtELL;
         "dIxVOqud" = _dIxVOqud;
+        "tEmd4FGS" = _tEmd4FGS;
         "fabric-1.21" = _fn4tyZjj;
         "fabric-1.21.1" = _fn4tyZjj;
         "fabric-1.21.2" = _4Zj0omFG;
@@ -199,6 +205,7 @@ let
         "fabric-26.1" = _dIxVOqud;
         "fabric-26.1.1" = _dIxVOqud;
         "fabric-26.1.2" = _dIxVOqud;
+        "fabric-26.2" = _tEmd4FGS;
         "pkg-1.0.0" = _DQLds5sY;
         "pkg-1.1.0" = _zNcui7LU;
         "pkg-2.0.0-1.21.5" = _EqstjKPR;
@@ -213,7 +220,8 @@ let
         "pkg-2.2.2-1.21.4" = _H6hrhtT4;
         "pkg-2.2.1-26.1" = _bkMGtELL;
         "pkg-2.2.2-26.1" = _dIxVOqud;
-        "default" = _dIxVOqud;
+        "pkg-2.2.2-26.2" = _tEmd4FGS;
+        "default" = _tEmd4FGS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "consumableoptimizer";

@@ -61,6 +61,16 @@ let
             "file" = "HalfLifeMenu3-mc26.2-3.2.1.jar";
             "hash" = "sha512-26h7zSg2E9dEJIqeNHUsanirSBF3DLx/OzL4G0pt8v+5s8uRfc/BJN0tO0Xz3E2JEX7VEDF8STiZKgZZWNy18A==";
         };
+        _FEBfqBEE = {
+            "id" = "FEBfqBEE";
+            "file" = "HalfLifeMenu3-mc1.21.1-3.2.1-backport1.jar";
+            "hash" = "sha512-s8b7+H/eGQdPMk6JN5xlWKifEsevFETwMkAGjS1ndePHiYLA/7ps6LwVlrzHk+23NeM6Qxc4iONblGcLsPsijA==";
+        };
+        _Sie43twe = {
+            "id" = "Sie43twe";
+            "file" = "HalfLifeMenu3-mc1.20.1-3.2.1-backport2.jar";
+            "hash" = "sha512-8v8QCaTAxW9AouYIEKRGNn6mOi383pwvNLBP9FiU2LdTQe66FTzBWcuWVS41nklx6U4XAaVZI6c8EbX7085LhA==";
+        };
     in {
         "aRYpkqtO" = _aRYpkqtO;
         "WQsHXUQi" = _WQsHXUQi;
@@ -74,6 +84,8 @@ let
         "AgB1sG3F" = _AgB1sG3F;
         "hYmPUvgE" = _hYmPUvgE;
         "fNMcQfcf" = _fNMcQfcf;
+        "FEBfqBEE" = _FEBfqBEE;
+        "Sie43twe" = _Sie43twe;
         "fabric-1.21" = _WQsHXUQi;
         "fabric-1.21.11" = _ZG9vyDAE;
         "fabric-26.1-snapshot-1" = _lLfd7LWj;
@@ -82,6 +94,8 @@ let
         "fabric-26w14a" = _AgB1sG3F;
         "fabric-26.1.2" = _hYmPUvgE;
         "fabric-26.2" = _fNMcQfcf;
+        "fabric-1.21.1" = _FEBfqBEE;
+        "fabric-1.20.1" = _Sie43twe;
         "quilt-1.21.11" = _ZG9vyDAE;
         "quilt-26.1-snapshot-1" = _lLfd7LWj;
         "quilt-26.1" = _dH2qPvE0;
@@ -89,6 +103,8 @@ let
         "quilt-26w14a" = _AgB1sG3F;
         "quilt-26.1.2" = _hYmPUvgE;
         "quilt-26.2" = _fNMcQfcf;
+        "quilt-1.21.1" = _FEBfqBEE;
+        "quilt-1.20.1" = _Sie43twe;
         "neoforge-26.1-snapshot-1" = _lLfd7LWj;
         "neoforge-26.1" = _dH2qPvE0;
         "neoforge-26.1.1" = _aOotcHGo;
@@ -109,7 +125,9 @@ let
         "pkg-3.1.2" = _AgB1sG3F;
         "pkg-3.1.3" = _hYmPUvgE;
         "pkg-3.2.1" = _fNMcQfcf;
-        "default" = _fNMcQfcf;
+        "pkg-3.2.1-backport1" = _FEBfqBEE;
+        "pkg-3.2.1-backport2" = _Sie43twe;
+        "default" = _Sie43twe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "halflifemenu";

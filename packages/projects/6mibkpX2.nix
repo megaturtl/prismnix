@@ -181,6 +181,11 @@ let
             "file" = "havenbagspreview-1.17-1.1.2.jar";
             "hash" = "sha512-77D8aConOkiZdSYOGQj1Y2FCnckdfGnFLmpyeWR9tVEj6GGP91wuwnWzCPsNIUP1E0eHbYr3+aj7/8uiaLigEQ==";
         };
+        _rUSAg1Yn = {
+            "id" = "rUSAg1Yn";
+            "file" = "havenbagspreview-26.2-1.1.2.jar";
+            "hash" = "sha512-pdCBuHzXVvDyMd4yk6aNmlG0cAImeqB7UeLsKZLo/2igvmn3FuupFXJdua0IReWeVnb6J96UXvifieDeOg02ng==";
+        };
     in {
         "oRZ0SY3d" = _oRZ0SY3d;
         "lxAumBNK" = _lxAumBNK;
@@ -218,6 +223,7 @@ let
         "5DziX5F1" = _5DziX5F1;
         "Go3N5I2W" = _Go3N5I2W;
         "cbN2jsrt" = _cbN2jsrt;
+        "rUSAg1Yn" = _rUSAg1Yn;
         "fabric-1.17" = _cbN2jsrt;
         "fabric-1.17.1" = _cbN2jsrt;
         "fabric-1.18" = _tg9yMbkB;
@@ -247,6 +253,7 @@ let
         "fabric-1.21.9" = _D5svBNPF;
         "fabric-1.21.10" = _D5svBNPF;
         "fabric-1.21.11" = _D5svBNPF;
+        "fabric-26.2" = _rUSAg1Yn;
         "pkg-1.0.0" = _4mFMp5y3;
         "pkg-1.0.0+1.21.2" = _VrJ4rwZE;
         "pkg-1.0.0+1.21.5" = _RJqXIDAd;
@@ -278,7 +285,8 @@ let
         "pkg-1.1.2-fabric-1.20.4" = _5DziX5F1;
         "pkg-1.1.2-fabric-1.20.6" = _Go3N5I2W;
         "pkg-1.1.2-fabric-1.17" = _cbN2jsrt;
-        "default" = _cbN2jsrt;
+        "pkg-1.1.2-fabric-26.2" = _rUSAg1Yn;
+        "default" = _rUSAg1Yn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "havenbagspreview";

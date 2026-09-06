@@ -66,6 +66,16 @@ let
             "file" = "craftemon-1.9.jar";
             "hash" = "sha512-2k2ZbUoJ1FgIW4e/3PRHI4bgb2ATbQX8TA6yhMLD4Ol0TslKEWaXYb7c+iKi44v+XaCTEeqASvV14nWzR+rl2g==";
         };
+        _1mbCGMxQ = {
+            "id" = "1mbCGMxQ";
+            "file" = "Craftemon.zip";
+            "hash" = "sha512-PdtaInp70K76SMrdF5pqVPeoqMr2SpJ96fkSIxg+adTtchjFyIrM9dzQ0/oLKFl/VJ2UQCbsSylpcY9Kom54bw==";
+        };
+        _L9bDGAgP = {
+            "id" = "L9bDGAgP";
+            "file" = "craftemon-1.9.1.jar";
+            "hash" = "sha512-wfXufVxCnZg3KKWsJUylAWA+3wrh4MnNNs/7gHPdnwLyWkUeQTUCMCcuqHPxbHoQPee7y9PngMZF8iHkv10peQ==";
+        };
     in {
         "rulsbchY" = _rulsbchY;
         "s7sYmu6g" = _s7sYmu6g;
@@ -80,6 +90,8 @@ let
         "VQExZLFL" = _VQExZLFL;
         "PbclnGID" = _PbclnGID;
         "8R2t3nxg" = _8R2t3nxg;
+        "1mbCGMxQ" = _1mbCGMxQ;
+        "L9bDGAgP" = _L9bDGAgP;
         "datapack-1.20.1" = _VQExZLFL;
         "datapack-1.20" = _VQExZLFL;
         "datapack-1.20.2" = _VQExZLFL;
@@ -88,14 +100,14 @@ let
         "datapack-1.20.5" = _VQExZLFL;
         "datapack-1.20.6" = _VQExZLFL;
         "datapack-1.21" = _VQExZLFL;
-        "datapack-1.21.1" = _PbclnGID;
+        "datapack-1.21.1" = _1mbCGMxQ;
         "datapack-1.21.2" = _VQExZLFL;
         "datapack-1.21.3" = _VQExZLFL;
         "datapack-1.21.4" = _VQExZLFL;
-        "minecraft-1.21.1" = _PbclnGID;
-        "fabric-1.21.1" = _8R2t3nxg;
-        "forge-1.21.1" = _8R2t3nxg;
-        "neoforge-1.21.1" = _8R2t3nxg;
+        "minecraft-1.21.1" = _1mbCGMxQ;
+        "fabric-1.21.1" = _L9bDGAgP;
+        "forge-1.21.1" = _L9bDGAgP;
+        "neoforge-1.21.1" = _L9bDGAgP;
         "quilt-1.21.1" = _8R2t3nxg;
         "pkg-1.1" = _rulsbchY;
         "pkg-1.2" = _s7sYmu6g;
@@ -110,7 +122,9 @@ let
         "pkg-1.8" = _VQExZLFL;
         "pkg-1.9" = _PbclnGID;
         "pkg-1.9+mod" = _8R2t3nxg;
-        "default" = _8R2t3nxg;
+        "pkg-1.9.1" = _1mbCGMxQ;
+        "pkg-1.9.1+mod" = _L9bDGAgP;
+        "default" = _L9bDGAgP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craftemon";

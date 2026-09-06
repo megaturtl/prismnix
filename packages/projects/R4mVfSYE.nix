@@ -61,6 +61,51 @@ let
             "file" = "shizuku-blade-3.4.0.jar";
             "hash" = "sha512-YpG03dF2C+WfHBKsGSoSjYDZD7hM2tju25+FySiq7QyYxdIEgTHZRBppoX8rcYNWhWFWH7QnPNn1IjDcTfcSzQ==";
         };
+        _giU6YtY7 = {
+            "id" = "giU6YtY7";
+            "file" = "shizuku-blade-3.5.0.jar";
+            "hash" = "sha512-OV/z9IEHv0KbBkP2VH2VyqHFfi29NE103s7x/dELwd/Tzzvx6g/1NWpfBx1cUuqhXiqYx+LW+GBPK0Ps8Ad1Nw==";
+        };
+        _dvghTY8g = {
+            "id" = "dvghTY8g";
+            "file" = "shizuku-blade-3.5.0-1.21.1.jar";
+            "hash" = "sha512-b+RMkNw5xwtCJ+SOdDRyyIicpBjvZSip6kVULOLl0L231nz+7N74z5Si/73qGYGzO9UXImxiiMkKXxsJgTjHbQ==";
+        };
+        _PCyCPRAT = {
+            "id" = "PCyCPRAT";
+            "file" = "shizuku-blade-3.6.0.jar";
+            "hash" = "sha512-lc6Mk45LGKd8YDBdffn97gUYyAho3APiATlMyB9Dbiue8vIA56BLqB2coUHu9nqeECAMyXHlfEJo7kkVfWYx9A==";
+        };
+        _UrhZ5FgU = {
+            "id" = "UrhZ5FgU";
+            "file" = "shizuku-blade-3.6.0fix.jar";
+            "hash" = "sha512-xS4lMf9+FrRd1tyNV5DZkZcYA83FEvrh1Rzgx4nEYJZWhcfHrFxXC64yk+a/tDLlgNhMs7m4TqIC/ao9sXWxGw==";
+        };
+        _amZAlEt1 = {
+            "id" = "amZAlEt1";
+            "file" = "shizuku-blade-3.6.0fix2.jar";
+            "hash" = "sha512-7Mg+81AI6bz4BYxlBnySzx9ix2TF4kJR5B8oYvr+PncEOU88yxaAd1oaWMbbcrxNKh0U4bal6T5nExnJP2G+7A==";
+        };
+        _Hnu1FGew = {
+            "id" = "Hnu1FGew";
+            "file" = "shizuku-blade-3.6.0.jar";
+            "hash" = "sha512-ylSy0leVfXBnR+S56Nm8OVvpSDR2GSc0/c+ZiLpUbfA3YLzxy3oD2LsdjB2JmPEUAKZv7Q8wge5Ewz+smzqqxg==";
+        };
+        _Ddmi5wvI = {
+            "id" = "Ddmi5wvI";
+            "file" = "shizuku-blade-3.6.0fix2-1.21.1.jar";
+            "hash" = "sha512-uEbzCZUXBHp5XVM3O5fIExXXYcFNpb2i2Mwm3LL9oSh+6+IOmrugh06PEq/6LIaqBSDz+eVOo9GNbzFvWQlRXg==";
+        };
+        _Eg1zyMk0 = {
+            "id" = "Eg1zyMk0";
+            "file" = "shizuku-blade-3.7.0.jar";
+            "hash" = "sha512-cUtqyEP9Z+XCnsX62ugRf535gOeqGCUzNJ/xR9q8EkrQQC0Xpbw3EVNqGsJw+1bQ1YBmfksgwoQHHVhIade0rw==";
+        };
+        _ddKh2hmI = {
+            "id" = "ddKh2hmI";
+            "file" = "shizuku-blade-3.7.0-1.21.1.jar";
+            "hash" = "sha512-MIzrcjHygKtRSH8olIU1I1CKKDmB2hvlYdccj63+U/2WRTU3sXv0LgOjvkdUGfJ/g4UjuOpY323CN/7aCNLOKA==";
+        };
     in {
         "AND3Xpdw" = _AND3Xpdw;
         "o8yGU1d8" = _o8yGU1d8;
@@ -74,7 +119,17 @@ let
         "5wRHg82x" = _5wRHg82x;
         "gwhZWLpu" = _gwhZWLpu;
         "215oLn3A" = _215oLn3A;
-        "forge-1.20.1" = _215oLn3A;
+        "giU6YtY7" = _giU6YtY7;
+        "dvghTY8g" = _dvghTY8g;
+        "PCyCPRAT" = _PCyCPRAT;
+        "UrhZ5FgU" = _UrhZ5FgU;
+        "amZAlEt1" = _amZAlEt1;
+        "Hnu1FGew" = _Hnu1FGew;
+        "Ddmi5wvI" = _Ddmi5wvI;
+        "Eg1zyMk0" = _Eg1zyMk0;
+        "ddKh2hmI" = _ddKh2hmI;
+        "forge-1.20.1" = _Eg1zyMk0;
+        "neoforge-1.21.1" = _ddKh2hmI;
         "pkg-1.0.0" = _AND3Xpdw;
         "pkg-1.0.1" = _o8yGU1d8;
         "pkg-1.0.2" = _AL9q1zoZ;
@@ -87,7 +142,12 @@ let
         "pkg-3.3.0" = _5wRHg82x;
         "pkg-3.3.0fix" = _gwhZWLpu;
         "pkg-3.4.0" = _215oLn3A;
-        "default" = _215oLn3A;
+        "pkg-3.5.0" = _dvghTY8g;
+        "pkg-3.6.0" = _Hnu1FGew;
+        "pkg-3.6.0fix" = _UrhZ5FgU;
+        "pkg-3.6.0fix2" = _Ddmi5wvI;
+        "pkg-3.7.0" = _ddKh2hmI;
+        "default" = _ddKh2hmI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nekohashizuku-blade";

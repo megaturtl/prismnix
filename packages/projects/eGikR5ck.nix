@@ -81,6 +81,11 @@ let
             "file" = "zombieconversion-1.0.1-26.2.jar";
             "hash" = "sha512-MUyKKv5rX3Q+t/MqQvtm11CGd58lIACB6fIEIm/5yvgA4KJmWheO8k8u/njqqUdCUuZtlM1DbJ3yS5J4VPsygA==";
         };
+        _d3Gvp0sN = {
+            "id" = "d3Gvp0sN";
+            "file" = "zombieconversion-1.0.2-26.2.jar";
+            "hash" = "sha512-Q9PluhhjW5hWrnpPsOubJuYKwQm8q9ZR2LAMZuAwRXEUOLCAfs9N6Ks6NV17ssg1XOvr9ap51KbchloKN9X4XQ==";
+        };
     in {
         "1QEjzI26" = _1QEjzI26;
         "k8bkWBTR" = _k8bkWBTR;
@@ -98,6 +103,7 @@ let
         "f0ZW55Ch" = _f0ZW55Ch;
         "ftcfcM32" = _ftcfcM32;
         "cl2r7ItQ" = _cl2r7ItQ;
+        "d3Gvp0sN" = _d3Gvp0sN;
         "fabric-1.18.2" = _1QEjzI26;
         "fabric-1.14.4" = _k8bkWBTR;
         "fabric-1.15.2" = _5vB8H14W;
@@ -113,7 +119,7 @@ let
         "fabric-26.1" = _ftcfcM32;
         "fabric-26.1.1" = _ftcfcM32;
         "fabric-26.1.2" = _ftcfcM32;
-        "fabric-26.2" = _cl2r7ItQ;
+        "fabric-26.2" = _d3Gvp0sN;
         "pkg-1.0.0" = _FKnmngm0;
         "pkg-1.0.1-1.19.2" = _30yOQGbk;
         "pkg-1.0.1-1.19.3" = _x5aKdXAd;
@@ -124,7 +130,8 @@ let
         "pkg-1.0.1-1.21.11" = _f0ZW55Ch;
         "pkg-1.0.1-26.1" = _ftcfcM32;
         "pkg-1.0.1-26.2" = _cl2r7ItQ;
-        "default" = _cl2r7ItQ;
+        "pkg-1.0.2-26.2" = _d3Gvp0sN;
+        "default" = _d3Gvp0sN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zombie-conversion";

@@ -26,21 +26,28 @@ let
             "file" = "Totem & Stuff.zip";
             "hash" = "sha512-oCTswIQuIv8j+OytKQmQSsVqJoMObifcu4eqxinBt8JUzpKBjMwJA0APFGHIc+SIc7ofiKc87rgKRsJQ1+/+zg==";
         };
+        _y0kim3hJ = {
+            "id" = "y0kim3hJ";
+            "file" = "Totem & Stuff.zip";
+            "hash" = "sha512-umw08WeE9po0cmnvY9p8vWKOr+d1Asqj9qNGkM5WU841SPEcKOX4QlDu0qlxQnl118eLKPG6I5Khi/ZUKSw3tg==";
+        };
     in {
         "SDZ3VDnB" = _SDZ3VDnB;
         "2ZJSrafN" = _2ZJSrafN;
         "mVht3Rlx" = _mVht3Rlx;
         "iKi6h0mX" = _iKi6h0mX;
         "Ve2D03AJ" = _Ve2D03AJ;
-        "minecraft-1.21.9" = _Ve2D03AJ;
-        "minecraft-1.21.10" = _Ve2D03AJ;
-        "minecraft-1.21.11" = _Ve2D03AJ;
+        "y0kim3hJ" = _y0kim3hJ;
+        "minecraft-1.21.9" = _y0kim3hJ;
+        "minecraft-1.21.10" = _y0kim3hJ;
+        "minecraft-1.21.11" = _y0kim3hJ;
         "pkg-1.0" = _SDZ3VDnB;
         "pkg-1.1" = _2ZJSrafN;
         "pkg-1.2" = _mVht3Rlx;
         "pkg-1.3" = _iKi6h0mX;
         "pkg-1.3h" = _Ve2D03AJ;
-        "default" = _Ve2D03AJ;
+        "pkg-1.3h2" = _y0kim3hJ;
+        "default" = _y0kim3hJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "totem-stuff";

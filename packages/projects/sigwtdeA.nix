@@ -111,6 +111,21 @@ let
             "file" = "ai-player-1.0.5.3-release+1.21.1.jar";
             "hash" = "sha512-waALSfvnCGdPU4bBQ8hVSXUJX6jpCCCwNtPdsUOybiwPBA4YSlrDMBFnVDkzjwx1K4owadh1XXAyH+ZzsnfzjQ==";
         };
+        _kLS9Zurz = {
+            "id" = "kLS9Zurz";
+            "file" = "ai-player-1.0.6-release+26.2.jar";
+            "hash" = "sha512-Zoa9lyUQB9dsPO+KnU2eP89Zb5kCcJixpy5RbTrqx+UNhJ5OqNHv//GHdu0cs4mcwKPVQg5YUx0nEUFZfcgdXQ==";
+        };
+        _QpKmJhLp = {
+            "id" = "QpKmJhLp";
+            "file" = "ai-player-1.0.6.1-release+26.2.jar";
+            "hash" = "sha512-VH9QsLH3/Mp0DY6fnlAsSihH0L47447FIk8uF8wY6om+hbraDFe2CEGKv+p1s8EGXqcm5e1RNxvHF1vMzbXp+w==";
+        };
+        _zjmX87CB = {
+            "id" = "zjmX87CB";
+            "file" = "ai-player-1.0.6.1-release+26.1.jar";
+            "hash" = "sha512-IU0U4JgFo1S5rCupr8TxY0zJXopyP0PmuHFP1uEI83z+y+C2kmUrvMYJOAQRlzecrxyvhSCAHUg/Tmp4TIzU3Q==";
+        };
     in {
         "owZBUIzV" = _owZBUIzV;
         "8QEh6NWp" = _8QEh6NWp;
@@ -134,10 +149,17 @@ let
         "JpOOfCaG" = _JpOOfCaG;
         "5T6lnMmL" = _5T6lnMmL;
         "OwNjWFEL" = _OwNjWFEL;
+        "kLS9Zurz" = _kLS9Zurz;
+        "QpKmJhLp" = _QpKmJhLp;
+        "zjmX87CB" = _zjmX87CB;
         "fabric-1.20.4" = _42JdHwOX;
         "fabric-1.20.6" = _JpOOfCaG;
         "fabric-1.20.1" = _Uutim7s5;
         "fabric-1.21.1" = _OwNjWFEL;
+        "fabric-26.2" = _QpKmJhLp;
+        "fabric-26.1" = _zjmX87CB;
+        "fabric-26.1.1" = _zjmX87CB;
+        "fabric-26.1.2" = _zjmX87CB;
         "pkg-1.0.0" = _owZBUIzV;
         "pkg-1.0.1" = _8QEh6NWp;
         "pkg-1.0.1-alpha-1" = _CouhMswp;
@@ -160,7 +182,10 @@ let
         "pkg-1.0.5.1-release+1.20.6-bugfix-2" = _JpOOfCaG;
         "pkg-1.0.5.2-release+1.21.1" = _5T6lnMmL;
         "pkg-1.0.5.3-release+1.21.1" = _OwNjWFEL;
-        "default" = _OwNjWFEL;
+        "pkg-1.0.6-release+26.2" = _kLS9Zurz;
+        "pkg-1.0.6.1-release+26.2" = _QpKmJhLp;
+        "pkg-1.0.6.1-release+26.1" = _zjmX87CB;
+        "default" = _zjmX87CB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ai-player";
@@ -168,13 +193,13 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "MIT" {
+            license = lib.getLicenseFromSpdxIdOr "GPL-2.0-or-later" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "MIT License";
-                shortName = "MIT";
-                url = null;
+                fullName = "GNU General Public License v2.0 or later";
+                shortName = "GPL-2.0-or-later";
+                url = "https://github.com/shasankp000/AI-Player/blob/26.2/LICENSE";
             };
         };
     };

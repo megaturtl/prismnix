@@ -33,6 +33,10 @@ let
         "minecraft-1.21.9" = _WuBPPzxU;
         "minecraft-1.21.10" = _WuBPPzxU;
         "minecraft-1.21.11" = _WuBPPzxU;
+        "minecraft-26.1" = _WuBPPzxU;
+        "minecraft-26.1.1" = _WuBPPzxU;
+        "minecraft-26.1.2" = _WuBPPzxU;
+        "minecraft-26.2" = _WuBPPzxU;
         "pkg-1.0" = _WuBPPzxU;
         "default" = _WuBPPzxU;
     });

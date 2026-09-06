@@ -56,6 +56,11 @@ let
             "file" = "crafter-presets-4.0.0+26.1.2.jar";
             "hash" = "sha512-K884X0/43iojIAf4EaVCnPdbyWy8CxAelXKezCbskYntwK/v0UaOtaIeHHQr95xdTeb5B9iOUxJX8Q1UPhELog==";
         };
+        _YUWaq3ri = {
+            "id" = "YUWaq3ri";
+            "file" = "crafter-presets-4.0.0+26.2.jar";
+            "hash" = "sha512-TmqCfTu70mpf8UcWlbXY9amDoYzvPqGLScpDNSLb5sksgWvMRu/QLCpmPvIXG/BF8a9YRDWrR+KgSW7PHGRAGA==";
+        };
     in {
         "D2zark5x" = _D2zark5x;
         "DcEHpZLB" = _DcEHpZLB;
@@ -68,6 +73,7 @@ let
         "UwyqcDcQ" = _UwyqcDcQ;
         "eJ2JvGLA" = _eJ2JvGLA;
         "FW7VCyXt" = _FW7VCyXt;
+        "YUWaq3ri" = _YUWaq3ri;
         "fabric-1.21.11" = _D2zark5x;
         "fabric-1.21.10" = _DcEHpZLB;
         "fabric-1.21.9" = _S1so1vbS;
@@ -79,6 +85,7 @@ let
         "fabric-26.1" = _UwyqcDcQ;
         "fabric-26.1.1" = _eJ2JvGLA;
         "fabric-26.1.2" = _FW7VCyXt;
+        "fabric-26.2" = _YUWaq3ri;
         "pkg-4.0.0+1.21.11" = _D2zark5x;
         "pkg-4.0.0+1.21.10" = _DcEHpZLB;
         "pkg-4.0.0+1.21.9" = _S1so1vbS;
@@ -90,7 +97,8 @@ let
         "pkg-4.0.0+26.1" = _UwyqcDcQ;
         "pkg-4.0.0+26.1.1" = _eJ2JvGLA;
         "pkg-4.0.0+26.1.2" = _FW7VCyXt;
-        "default" = _FW7VCyXt;
+        "pkg-4.0.0+26.2" = _YUWaq3ri;
+        "default" = _YUWaq3ri;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crafter-presets";

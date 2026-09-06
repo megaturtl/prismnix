@@ -136,6 +136,36 @@ let
             "file" = "ACRP 1.2.2-Fabric.zip";
             "hash" = "sha512-m99blnv6ZPRMMScKCvopiEf83txxQe2ZbNQHb9AWYBceWDzlT58Q81aAmbn9StHmye2EqtMOkJxHvMDJIvGQmg==";
         };
+        _oWPxT0ur = {
+            "id" = "oWPxT0ur";
+            "file" = "ACRP 1.2.3-Fabric.zip";
+            "hash" = "sha512-4UEjaE/aa5VzPQo+q1dgt5Y+ec4Je+v/K4fNZyxunlavHlYbsgMSlAHLVfswmaQAUiNWCLTKMAuiS9A+scFkIw==";
+        };
+        _21Vw1tsO = {
+            "id" = "21Vw1tsO";
+            "file" = "ACRP 1.2.4-Fabric.zip";
+            "hash" = "sha512-k8/cAK5StpWzL5R6H29jrQO9brSAqqMh3P4f3TSNbye3dL1fBlOVPxOyf+5KMwJ3PvBkNRudsNLDkIYI4qrTXA==";
+        };
+        _VZ7IYtcP = {
+            "id" = "VZ7IYtcP";
+            "file" = "ACRP 1.2.5-Fabric.zip";
+            "hash" = "sha512-86qCruqViWNEq0HnnoUguKQGj7FpthcXH5wJ/S9SEMdSyKWWGwRg5HJR7SKkcRblmXZQ8iz146iE8Iy8cpYUvw==";
+        };
+        _LsTmZ6Cu = {
+            "id" = "LsTmZ6Cu";
+            "file" = "ACRP 1.2.6-Fabric.zip";
+            "hash" = "sha512-SgUQBvhzHBBhzEdG1FQvXb2sbrUqrcahJdlG+6QMWCGloe7BBttltM0xPtuHmbpzmtFMekuk60ytbv+kNqiFgA==";
+        };
+        _hoWWAudd = {
+            "id" = "hoWWAudd";
+            "file" = "ACRP 1.2.7-Fabric.zip";
+            "hash" = "sha512-1+dKpHQTPzMQfgMlUQ8RfU5BxQyeVyjE6TdDk98F0yfZD9bqCmDgz2ve9MAesz6s8pz/U+qLrYK6/qJc2zJvdg==";
+        };
+        _dcogk0TP = {
+            "id" = "dcogk0TP";
+            "file" = "ACRP 1.2.8-Fabric.zip";
+            "hash" = "sha512-eHfV2cBAit2pvSGp1c+0ZifaNyNkPr+xocuJ2VZkYty/plMh3FaRiFUS3YMdEbTs4UZFwqmDy9WsfsXO9pMX3g==";
+        };
     in {
         "zgDw2qIh" = _zgDw2qIh;
         "TFhZ1MRn" = _TFhZ1MRn;
@@ -164,10 +194,16 @@ let
         "inWlqDlv" = _inWlqDlv;
         "no60sEyT" = _no60sEyT;
         "JdWCe1Tp" = _JdWCe1Tp;
+        "oWPxT0ur" = _oWPxT0ur;
+        "21Vw1tsO" = _21Vw1tsO;
+        "VZ7IYtcP" = _VZ7IYtcP;
+        "LsTmZ6Cu" = _LsTmZ6Cu;
+        "hoWWAudd" = _hoWWAudd;
+        "dcogk0TP" = _dcogk0TP;
         "minecraft-1.19.2" = _ujCcvUPi;
         "minecraft-1.19" = _ujCcvUPi;
         "minecraft-1.19.1" = _ujCcvUPi;
-        "minecraft-1.20.1" = _JdWCe1Tp;
+        "minecraft-1.20.1" = _dcogk0TP;
         "pkg-3.0" = _zgDw2qIh;
         "pkg-3.1" = _TFhZ1MRn;
         "pkg-3.2" = _lYjqsnBT;
@@ -195,7 +231,13 @@ let
         "pkg-1.2.0" = _inWlqDlv;
         "pkg-1.2.1" = _no60sEyT;
         "pkg-1.2.2" = _JdWCe1Tp;
-        "default" = _JdWCe1Tp;
+        "pkg-1.2.3" = _oWPxT0ur;
+        "pkg-1.2.4" = _21Vw1tsO;
+        "pkg-1.2.5" = _VZ7IYtcP;
+        "pkg-1.2.6" = _LsTmZ6Cu;
+        "pkg-1.2.7" = _hoWWAudd;
+        "pkg-1.2.8" = _dcogk0TP;
+        "default" = _dcogk0TP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ardacraft-overlay";

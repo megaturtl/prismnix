@@ -106,6 +106,21 @@ let
             "file" = "aeronauticsdiscovery-1.6.3.jar";
             "hash" = "sha512-19Z63MNPN5ldDQoPchWT9O/1Ijf4zT+GN8bS7/nhe05v4u8sXmSvC3jHKaBdfIxx5VyYFJ7qZQO7w4UGCEsv1g==";
         };
+        _wCfkLj6o = {
+            "id" = "wCfkLj6o";
+            "file" = "aeronauticsdiscovery-2.0.0.jar";
+            "hash" = "sha512-RF8nsvkmdPBnb3I267KkDvFzBYn2lHcX50uwbZJyTU+epWznzvNCiQOhHNTpTfPColszRaUasZx4nZCBg9REgw==";
+        };
+        _6vuLVb0p = {
+            "id" = "6vuLVb0p";
+            "file" = "aeronauticsdiscovery-2.0.1.jar";
+            "hash" = "sha512-27cDtt8RntPHAj+HU1eBjzRJlK3TM2FcDvzt8zMWXyIMP0Ssyc0Wv9gCDRT4QjlYtpoMf+GCP5o2YPFQt2w/LA==";
+        };
+        _Mt5flY47 = {
+            "id" = "Mt5flY47";
+            "file" = "aeronauticsdiscovery-2.1.0.jar";
+            "hash" = "sha512-UqC+O6jMxokQtfMP51trZax2Zv2r49j8y/JCDxoNS6iwoqEP8wCUuKOJcsja4sx9qvNyjlGuVLINwLjEDSPrIg==";
+        };
     in {
         "vdWbLbSh" = _vdWbLbSh;
         "79DoUkXg" = _79DoUkXg;
@@ -128,7 +143,10 @@ let
         "shf6PBSD" = _shf6PBSD;
         "oPNxX8DG" = _oPNxX8DG;
         "rEgdPvO2" = _rEgdPvO2;
-        "neoforge-1.21.1" = _rEgdPvO2;
+        "wCfkLj6o" = _wCfkLj6o;
+        "6vuLVb0p" = _6vuLVb0p;
+        "Mt5flY47" = _Mt5flY47;
+        "neoforge-1.21.1" = _Mt5flY47;
         "pkg-1.0.0" = _vdWbLbSh;
         "pkg-1.1.0" = _79DoUkXg;
         "pkg-1.2.0" = _Lm3yct1B;
@@ -150,7 +168,10 @@ let
         "pkg-1.6.1" = _shf6PBSD;
         "pkg-1.6.2" = _oPNxX8DG;
         "pkg-1.6.3" = _rEgdPvO2;
-        "default" = _rEgdPvO2;
+        "pkg-2.0.0" = _wCfkLj6o;
+        "pkg-2.0.1" = _6vuLVb0p;
+        "pkg-2.1.0" = _Mt5flY47;
+        "default" = _Mt5flY47;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-aeronautics-discovery";

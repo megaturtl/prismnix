@@ -141,6 +141,16 @@ let
             "file" = "mullak99s-Faithful-32x-MC1.21-R1_BETA3.zip";
             "hash" = "sha512-wTLC/mmllfWXsp/L4rPa1GzASPshP2DIf3rAA+lKBD224jkiJuOYej9d3sY/U3Y7XZB/11UVp+rErk8ByBKbGg==";
         };
+        _TPFNwHme = {
+            "id" = "TPFNwHme";
+            "file" = "mullak99s-Faithful-32x-MC1.21-R1.zip";
+            "hash" = "sha512-QuPlSCUXCsh4BJxXq4y2k0wEjZfs+ZDjTvDx/jtjyliTOsofmk9JxVVUdWC9owr1mYVWiyULk3hfktm3Pf/YCg==";
+        };
+        _8hDrC5Ju = {
+            "id" = "8hDrC5Ju";
+            "file" = "mullak99s-Faithful-32x-2026-R1.zip";
+            "hash" = "sha512-PJ5OFs8kxINRCywDykDYlQZlD0zUcYa8fwOPxdOsd47tbwjh1cY+qGghVGDsr/PFmPI3aRIj0a2vveqLhKTsiA==";
+        };
     in {
         "Qlzoxane" = _Qlzoxane;
         "EilGAJfv" = _EilGAJfv;
@@ -170,6 +180,8 @@ let
         "sJBaN78z" = _sJBaN78z;
         "kRrMP0jV" = _kRrMP0jV;
         "LF9ISeJg" = _LF9ISeJg;
+        "TPFNwHme" = _TPFNwHme;
+        "8hDrC5Ju" = _8hDrC5Ju;
         "minecraft-1.8" = _Qlzoxane;
         "minecraft-1.8.1" = _Qlzoxane;
         "minecraft-1.8.2" = _Qlzoxane;
@@ -228,18 +240,22 @@ let
         "minecraft-1.20.4" = _sJBaN78z;
         "minecraft-1.20.5" = _sJBaN78z;
         "minecraft-1.20.6" = _sJBaN78z;
-        "minecraft-1.21" = _LF9ISeJg;
-        "minecraft-1.21.1" = _LF9ISeJg;
-        "minecraft-1.21.2" = _LF9ISeJg;
-        "minecraft-1.21.3" = _LF9ISeJg;
-        "minecraft-1.21.4" = _LF9ISeJg;
-        "minecraft-1.21.5" = _LF9ISeJg;
-        "minecraft-1.21.6" = _LF9ISeJg;
-        "minecraft-1.21.7" = _LF9ISeJg;
-        "minecraft-1.21.8" = _LF9ISeJg;
-        "minecraft-1.21.9" = _LF9ISeJg;
-        "minecraft-1.21.10" = _LF9ISeJg;
-        "minecraft-1.21.11" = _LF9ISeJg;
+        "minecraft-1.21" = _TPFNwHme;
+        "minecraft-1.21.1" = _TPFNwHme;
+        "minecraft-1.21.2" = _TPFNwHme;
+        "minecraft-1.21.3" = _TPFNwHme;
+        "minecraft-1.21.4" = _TPFNwHme;
+        "minecraft-1.21.5" = _TPFNwHme;
+        "minecraft-1.21.6" = _TPFNwHme;
+        "minecraft-1.21.7" = _TPFNwHme;
+        "minecraft-1.21.8" = _TPFNwHme;
+        "minecraft-1.21.9" = _TPFNwHme;
+        "minecraft-1.21.10" = _TPFNwHme;
+        "minecraft-1.21.11" = _TPFNwHme;
+        "minecraft-26.1" = _8hDrC5Ju;
+        "minecraft-26.1.1" = _8hDrC5Ju;
+        "minecraft-26.1.2" = _8hDrC5Ju;
+        "minecraft-26.2" = _8hDrC5Ju;
         "pkg-1.8-R4" = _Qlzoxane;
         "pkg-1.9-R3" = _EilGAJfv;
         "pkg-1.10-R5" = _LnnEcgSp;
@@ -268,7 +284,9 @@ let
         "pkg-MC1.20-R3" = _sJBaN78z;
         "pkg-MC1.21-R1_BETA2" = _kRrMP0jV;
         "pkg-MC1.21-R1_BETA3" = _LF9ISeJg;
-        "default" = _LF9ISeJg;
+        "pkg-MC1.21-R1" = _TPFNwHme;
+        "pkg-2026-R1" = _8hDrC5Ju;
+        "default" = _8hDrC5Ju;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mullak99s-faithful";

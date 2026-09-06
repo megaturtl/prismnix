@@ -41,6 +41,16 @@ let
             "file" = "foragersinsight-1.20.1-ITW-3.3.jar";
             "hash" = "sha512-VEVGzafd0+OalK30tJf4ckZ+K7WAwCdSrvk+51p3VoINeo5Jyz4mFgWirkV7imljBmBIlToRznAwpt6y9n8Tfg==";
         };
+        _BJKgUbqU = {
+            "id" = "BJKgUbqU";
+            "file" = "foragersinsight-1.20.1-ITW2-3.5.jar";
+            "hash" = "sha512-cRlmOjleqsID0SN/Od2XHRMK+Mw2WZe/Sp4+ToiC3w+6d3vji2/i08WJ7JQNvMjuSGWuKbLt6oKPx1dMY6mfrQ==";
+        };
+        _rUVlE2JJ = {
+            "id" = "rUVlE2JJ";
+            "file" = "foragersinsight-1.20.1-ITW2-3.55.jar";
+            "hash" = "sha512-TXkEBtGCXNfN44yhj+EvwWSu9ghHCxKVPqEz3+zI0m6foiN/Jjz2YGNdzu/OxWfu12if/RnQqJmrhI4GbHX0gQ==";
+        };
     in {
         "ptu7auLU" = _ptu7auLU;
         "45iphnU2" = _45iphnU2;
@@ -50,7 +60,9 @@ let
         "PbLx0vOy" = _PbLx0vOy;
         "aBMdW8yV" = _aBMdW8yV;
         "see0qLVR" = _see0qLVR;
-        "forge-1.20.1" = _see0qLVR;
+        "BJKgUbqU" = _BJKgUbqU;
+        "rUVlE2JJ" = _rUVlE2JJ;
+        "forge-1.20.1" = _rUVlE2JJ;
         "pkg-1.20.1-0.3" = _ptu7auLU;
         "pkg-1.20.1-0.5(TnT)" = _45iphnU2;
         "pkg-1.20.1-1.0(TnT)" = _b36MLn8h;
@@ -59,7 +71,9 @@ let
         "pkg-1.20.1-3.0(ITW)" = _PbLx0vOy;
         "pkg-1.20.1-3.25(ITW)" = _aBMdW8yV;
         "pkg-1.20.1-3.3(ITW)" = _see0qLVR;
-        "default" = _see0qLVR;
+        "pkg-1.20.1-3.5(ITW2)" = _BJKgUbqU;
+        "pkg-1.20.1-3.55(ITW2)" = _rUVlE2JJ;
+        "default" = _rUVlE2JJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "foragers-insight";

@@ -26,29 +26,48 @@ let
             "file" = "createnucleartech-1.4.jar";
             "hash" = "sha512-n1neIXlRfOeE5+qs+tEbX9EhGy49eF5va0DvgfL9pQyBy49jgJp0tmuD8WFmDisTHn1NVak2A0SD9AqC2hp5AQ==";
         };
+        _Ll9s7Gdf = {
+            "id" = "Ll9s7Gdf";
+            "file" = "createnucleartech-1.0s.jar";
+            "hash" = "sha512-cCFEQS931RfpizBgqbPwxEBhh3QFJ9unVBhgUDEHcGNlOyZNvn2ff8QGtTYAczpexO2XKJQSscYMuei5GjVYlw==";
+        };
+        _nFBuZKv7 = {
+            "id" = "nFBuZKv7";
+            "file" = "createnucleartech-1.0s.jar";
+            "hash" = "sha512-Kp7t4fVkp9+TJ2lqe5VJ+x/LuVDBo/LVN5V5OZL1ah+skZdFj4EbFWYb1uuBnmGe26jakm9w4SrDkCyAlOIu3w==";
+        };
+        _Re22oGj5 = {
+            "id" = "Re22oGj5";
+            "file" = "createnucleartech-1.0s.jar";
+            "hash" = "sha512-IgReOqqZzTD4ch9jmpHFD8EjLC2ZtgQnNvNcw53y8a942wA1yFqoLe79BML2ZtLE6bG9GWUJODm/1CuI4lY6mA==";
+        };
     in {
         "eA6XbG5a" = _eA6XbG5a;
         "oG4X5GZV" = _oG4X5GZV;
         "dCV7wVQv" = _dCV7wVQv;
         "eQif1GwL" = _eQif1GwL;
         "mKJfOwtA" = _mKJfOwtA;
-        "neoforge-1.21.1" = _mKJfOwtA;
-        "neoforge-1.21.2" = _oG4X5GZV;
-        "neoforge-1.21.3" = _oG4X5GZV;
-        "neoforge-1.21.4" = _oG4X5GZV;
-        "neoforge-1.21.5" = _oG4X5GZV;
-        "neoforge-1.21.6" = _oG4X5GZV;
-        "neoforge-1.21.7" = _oG4X5GZV;
-        "neoforge-1.21.8" = _oG4X5GZV;
-        "neoforge-1.21.9" = _oG4X5GZV;
-        "neoforge-1.21.10" = _oG4X5GZV;
-        "neoforge-1.21.11" = _oG4X5GZV;
+        "Ll9s7Gdf" = _Ll9s7Gdf;
+        "nFBuZKv7" = _nFBuZKv7;
+        "Re22oGj5" = _Re22oGj5;
+        "neoforge-1.21.1" = _Re22oGj5;
+        "neoforge-1.21.2" = _Re22oGj5;
+        "neoforge-1.21.3" = _Re22oGj5;
+        "neoforge-1.21.4" = _Re22oGj5;
+        "neoforge-1.21.5" = _Re22oGj5;
+        "neoforge-1.21.6" = _Re22oGj5;
+        "neoforge-1.21.7" = _Re22oGj5;
+        "neoforge-1.21.8" = _Re22oGj5;
+        "neoforge-1.21.9" = _Re22oGj5;
+        "neoforge-1.21.10" = _Re22oGj5;
+        "neoforge-1.21.11" = _Re22oGj5;
         "pkg-1.2" = _eA6XbG5a;
         "pkg-1.2.3" = _oG4X5GZV;
         "pkg-1.2.6" = _dCV7wVQv;
         "pkg-1.3" = _eQif1GwL;
         "pkg-1.4" = _mKJfOwtA;
-        "default" = _mKJfOwtA;
+        "pkg-1.0s" = _Re22oGj5;
+        "default" = _Re22oGj5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-nuclear-tech";

@@ -121,6 +121,16 @@ let
             "file" = "Yummy-1.20.1-1.2.1.jar";
             "hash" = "sha512-RO7NRWYWtSGPVVhtWCSEOrvrUvRP2edPCZ1Vq2caYR5nuk3U7o30GhD+avlr2ndor6Uq7poAc0OrVdOLW6tbkw==";
         };
+        _VRH9KKmN = {
+            "id" = "VRH9KKmN";
+            "file" = "Yummy-1.21.1-1.3.0-neoforge.jar";
+            "hash" = "sha512-9FtvOfVf1n2gg7mOnPDnzljepgINRS9gbM7Bv1QcMLSpin4IlhqZSoSns5w7cfZX1RQI9GPCShrnAyYJuVLXZQ==";
+        };
+        _zwyKWCEc = {
+            "id" = "zwyKWCEc";
+            "file" = "Yummy-26.1.2-1.3.0-neoforge.jar";
+            "hash" = "sha512-iNxwBqJ4SIvP/zB/FduIXDUGVkrd4T0TiNvj+LSlAW7Oob9/5n1k01UmYRiL8HE/vqGxiHdL9jErUDbdRdw1LA==";
+        };
     in {
         "dDlc6UoK" = _dDlc6UoK;
         "DjsyR95T" = _DjsyR95T;
@@ -146,10 +156,14 @@ let
         "1QPbQBxt" = _1QPbQBxt;
         "1tbtXqWw" = _1tbtXqWw;
         "ur8ydDWO" = _ur8ydDWO;
+        "VRH9KKmN" = _VRH9KKmN;
+        "zwyKWCEc" = _zwyKWCEc;
         "forge-1.20.1" = _ur8ydDWO;
         "forge-1.19.4" = _1tbtXqWw;
         "forge-1.19.2" = _1QPbQBxt;
         "forge-1.18.2" = _rNHQoLc5;
+        "neoforge-1.21.1" = _VRH9KKmN;
+        "neoforge-26.1.2" = _zwyKWCEc;
         "pkg-1.20.1-1.1.0" = _dDlc6UoK;
         "pkg-1.19.4-1.1.0" = _DjsyR95T;
         "pkg-1.19.2-1.1.0" = _SIuTgqQj;
@@ -174,7 +188,9 @@ let
         "pkg-1.19.2-1.2.1" = _1QPbQBxt;
         "pkg-1.19.4-1.2.1" = _1tbtXqWw;
         "pkg-1.20.1-1.2.1" = _ur8ydDWO;
-        "default" = _ur8ydDWO;
+        "pkg-1.21.1-1.3.0" = _VRH9KKmN;
+        "pkg-26.1.2-1.3.0" = _zwyKWCEc;
+        "default" = _zwyKWCEc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mrgoat2ks-yummy";

@@ -16,15 +16,22 @@ let
             "file" = "nightvisiontoggle-1.0.0-neoforge-1.21.4.jar";
             "hash" = "sha512-PGTugrhqDRZAJoDZGXUpxlSxwB22Zem/2pgEeOJs1Gjj/z56467MJvmHRVrNgIPIpuOU6l13HlPBIUzhvtXivQ==";
         };
+        _4XSwOvo8 = {
+            "id" = "4XSwOvo8";
+            "file" = "night_vision_toggle-1.0.0-neoforge-26.1.2.jar";
+            "hash" = "sha512-Pbk4NyQSFYiV+MhFQofcrb6Gq9ONBefXg8tTQQGUCkc9125xXft5RxCivaiRVy0Dq2ptzFUw1yNONorlq6vE2g==";
+        };
     in {
         "i74VeniR" = _i74VeniR;
         "iPBjhLvX" = _iPBjhLvX;
         "hkRsrCcY" = _hkRsrCcY;
+        "4XSwOvo8" = _4XSwOvo8;
         "forge-1.20.1" = _i74VeniR;
         "neoforge-1.21.1" = _iPBjhLvX;
         "neoforge-1.21.4" = _hkRsrCcY;
-        "pkg-1.0.0" = _hkRsrCcY;
-        "default" = _hkRsrCcY;
+        "neoforge-26.1.2" = _4XSwOvo8;
+        "pkg-1.0.0" = _4XSwOvo8;
+        "default" = _4XSwOvo8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "night_vision_toggle";

@@ -226,6 +226,11 @@ let
             "file" = "mavapi-2.3.1+26.2-fabric.jar";
             "hash" = "sha512-IDDi2vXDmH7REEd4Cq+KVgGGpfQGN1/uKrC16J/VCBAMF5pfbgWwZuNH7PwYU2KYHPAeaUmzdXn+yq/8yy11hg==";
         };
+        _ndEiu8W2 = {
+            "id" = "ndEiu8W2";
+            "file" = "mavapi-2.3.0+26.3-fabric.jar";
+            "hash" = "sha512-H6a/ok7rMCQuGX/Fo9piFEC3cmJ8JEUQqS/JeY1gj8zDbxWlXTWMhEhbs0rN5uXdXnZyYwJR/Ohi7bw7KoVX6A==";
+        };
     in {
         "cpkfsUwz" = _cpkfsUwz;
         "9iUwSI2V" = _9iUwSI2V;
@@ -272,6 +277,7 @@ let
         "XmriLKgu" = _XmriLKgu;
         "vm3DNghK" = _vm3DNghK;
         "z5aceGaQ" = _z5aceGaQ;
+        "ndEiu8W2" = _ndEiu8W2;
         "fabric-1.19.2" = _VBZ13Nzd;
         "fabric-1.18.2" = _l1guFcLO;
         "fabric-1.19.3" = _gXPQpzBz;
@@ -297,6 +303,7 @@ let
         "fabric-26.1.2" = _ETNFQGJP;
         "fabric-26.2-rc-2" = _XmriLKgu;
         "fabric-26.2" = _z5aceGaQ;
+        "fabric-26.3-pre-2" = _ndEiu8W2;
         "forge-1.19.2" = _VBZ13Nzd;
         "forge-1.18.2" = _l1guFcLO;
         "forge-1.19.3" = _gXPQpzBz;
@@ -374,7 +381,8 @@ let
         "pkg-2.3.0+26.2-fabric" = _XmriLKgu;
         "pkg-2.3.1+26.2-neoforge" = _vm3DNghK;
         "pkg-2.3.1+26.2-fabric" = _z5aceGaQ;
-        "default" = _z5aceGaQ;
+        "pkg-2.3.0+26.3-fabric" = _ndEiu8W2;
+        "default" = _ndEiu8W2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mavapi";

@@ -92,6 +92,7 @@ let
         "fabric-26.1" = _PQ9oJDOP;
         "fabric-26.1.1" = _PQ9oJDOP;
         "fabric-26.1.2" = _PQ9oJDOP;
+        "fabric-26.2" = _PQ9oJDOP;
         "neoforge-1.21.4" = _ESSXsyvh;
         "neoforge-1.21.5" = _ESSXsyvh;
         "neoforge-1.21.6" = _ESSXsyvh;

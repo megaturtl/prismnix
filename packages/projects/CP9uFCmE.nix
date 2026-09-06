@@ -176,6 +176,11 @@ let
             "file" = "shadowlands-4.0.2.jar";
             "hash" = "sha512-t1jArgd6IeVYQv1+nn1EADoDzeqizFdLBGcEmOc8AR9kKRYv0lHH2Imswe1HY3XrdmVuwf0qKIRi1XEliFF8BQ==";
         };
+        _1bVFaiwd = {
+            "id" = "1bVFaiwd";
+            "file" = "Shadowlands 1.20.1 v4.0.3.jar";
+            "hash" = "sha512-d2UuvewSfPxGsJuKUH69iaAvVKZimdtv9pAtnDGuZ3QQkbHkZVeX88bVT0PcXIBcWJax3zWnU9ZJqjWO6P6Hvg==";
+        };
     in {
         "iBLOSHZI" = _iBLOSHZI;
         "iCG2rsaP" = _iCG2rsaP;
@@ -212,12 +217,13 @@ let
         "D0XGr5Tm" = _D0XGr5Tm;
         "kUclLAjL" = _kUclLAjL;
         "SnnG1GhB" = _SnnG1GhB;
+        "1bVFaiwd" = _1bVFaiwd;
         "forge-1.16.5" = _GHVmpm5M;
         "forge-1.19.2" = _ZyzJ4dH3;
-        "forge-1.20.1" = _SnnG1GhB;
+        "forge-1.20.1" = _1bVFaiwd;
         "forge-1.19.4" = _Zk3Wgq2C;
         "forge-1.20.4" = _LjwHtzNP;
-        "neoforge-1.20.1" = _SnnG1GhB;
+        "neoforge-1.20.1" = _1bVFaiwd;
         "neoforge-1.20.4" = _LjwHtzNP;
         "pkg-2.5" = _iBLOSHZI;
         "pkg-2.6" = _iCG2rsaP;
@@ -250,7 +256,8 @@ let
         "pkg-3.11" = _D0XGr5Tm;
         "pkg-4.0" = _kUclLAjL;
         "pkg-4.0.2" = _SnnG1GhB;
-        "default" = _SnnG1GhB;
+        "pkg-4.0.3" = _1bVFaiwd;
+        "default" = _1bVFaiwd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shadowlands";

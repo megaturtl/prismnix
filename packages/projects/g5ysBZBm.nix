@@ -65,6 +65,14 @@ let
         "minecraft-1.21.5" = _VipN0ByC;
         "minecraft-1.21.6" = _VipN0ByC;
         "minecraft-1.21.7" = _VipN0ByC;
+        "minecraft-1.21.8" = _VipN0ByC;
+        "minecraft-1.21.9" = _VipN0ByC;
+        "minecraft-1.21.10" = _VipN0ByC;
+        "minecraft-1.21.11" = _VipN0ByC;
+        "minecraft-26.1" = _VipN0ByC;
+        "minecraft-26.1.1" = _VipN0ByC;
+        "minecraft-26.1.2" = _VipN0ByC;
+        "minecraft-26.2" = _VipN0ByC;
         "pkg-1" = _VipN0ByC;
         "default" = _VipN0ByC;
     });

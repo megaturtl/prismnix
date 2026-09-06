@@ -121,6 +121,21 @@ let
             "file" = "yttr-9.20.1085.jar";
             "hash" = "sha512-3PZyVh05LeF8wItU7+E3OvzqJPW73Z1j4zXMCtaMIhmWmcU3Mw9LW2VvGdUuy5Sr+6l4/d7gZ9skV0JicdUNVg==";
         };
+        _CBr9m2yT = {
+            "id" = "CBr9m2yT";
+            "file" = "yttr-9.20.1124.jar";
+            "hash" = "sha512-Y4aB2HsZHAaSDD0aRwME++WUkJaKujt4lPWIptPOI6199tj0uK5xDJVo0eqmpXA6cH00eLDpItLeljN0UgzKYA==";
+        };
+        _hteZiggd = {
+            "id" = "hteZiggd";
+            "file" = "yttr-9.20.1125.jar";
+            "hash" = "sha512-8iOjLmeZ7axG7pJO0Gx9n1avfO2Dpx2CMfzbMai5w/2MqmqYf7ZVZ0w2zOTMtYdQVEkEnd/fRX1zd9t2iAOoBQ==";
+        };
+        _YdSYc6al = {
+            "id" = "YdSYc6al";
+            "file" = "yttr-9.20.1138.jar";
+            "hash" = "sha512-bGdCgF2sPiCs6n+8r8ygp4s1GlHT5MRG2cZP+Xg7J0YWKxwX6N+Rsj/YK24Ks4iLDZPCWe+AQUHmiB/SdO6Q2g==";
+        };
     in {
         "9J3l60Cj" = _9J3l60Cj;
         "cVQNIfxq" = _cVQNIfxq;
@@ -146,6 +161,9 @@ let
         "GNJMf6i2" = _GNJMf6i2;
         "Vf8ygFdx" = _Vf8ygFdx;
         "mWjqegPA" = _mWjqegPA;
+        "CBr9m2yT" = _CBr9m2yT;
+        "hteZiggd" = _hteZiggd;
+        "YdSYc6al" = _YdSYc6al;
         "fabric-1.16.3" = _9J3l60Cj;
         "fabric-1.16.4" = _9J3l60Cj;
         "fabric-1.16.5" = _9J3l60Cj;
@@ -153,18 +171,18 @@ let
         "fabric-1.19" = _9RO9dtyX;
         "fabric-1.19.1" = _9RO9dtyX;
         "fabric-1.19.2" = _9RO9dtyX;
-        "fabric-1.20.1" = _mWjqegPA;
-        "fabric-1.20" = _mWjqegPA;
+        "fabric-1.20.1" = _YdSYc6al;
+        "fabric-1.20" = _YdSYc6al;
         "quilt-1.18.2" = _cVQNIfxq;
         "quilt-1.19" = _9RO9dtyX;
         "quilt-1.19.1" = _9RO9dtyX;
         "quilt-1.19.2" = _9RO9dtyX;
-        "quilt-1.20" = _mWjqegPA;
-        "quilt-1.20.1" = _mWjqegPA;
-        "forge-1.20" = _mWjqegPA;
-        "forge-1.20.1" = _mWjqegPA;
-        "neoforge-1.20" = _mWjqegPA;
-        "neoforge-1.20.1" = _mWjqegPA;
+        "quilt-1.20" = _YdSYc6al;
+        "quilt-1.20.1" = _YdSYc6al;
+        "forge-1.20" = _YdSYc6al;
+        "forge-1.20.1" = _YdSYc6al;
+        "neoforge-1.20" = _YdSYc6al;
+        "neoforge-1.20.1" = _YdSYc6al;
         "pkg-5.417+1.16.5" = _9J3l60Cj;
         "pkg-7.626+1.18.2" = _cVQNIfxq;
         "pkg-7.638+1.19.2" = _ic0rXb1F;
@@ -189,7 +207,10 @@ let
         "pkg-9.20.1046" = _GNJMf6i2;
         "pkg-9.20.1058" = _Vf8ygFdx;
         "pkg-9.20.1085" = _mWjqegPA;
-        "default" = _mWjqegPA;
+        "pkg-9.20.1124" = _CBr9m2yT;
+        "pkg-9.20.1125" = _hteZiggd;
+        "pkg-9.20.1138" = _YdSYc6al;
+        "default" = _YdSYc6al;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yttr";

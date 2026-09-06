@@ -196,6 +196,26 @@ let
             "file" = "createcybernetics-0.5.0b-neoforge-1.21.1.jar";
             "hash" = "sha512-ZBV2O8o4MxVJsaAJ5xh44u3Z33x9yh4K/pvT1Fx9bLML4E7CSRtlA1dpoo2SAJW1gWIwTpUtJDtL/e97n7fO2Q==";
         };
+        _vWD63Ugm = {
+            "id" = "vWD63Ugm";
+            "file" = "createcybernetics-0.5.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-JXFbrkZ91YPeE7EKFih246rYnk640T32GOadvYPJG97owlssebc+VwG35cidWA5t5xKdxa5DRbb6ixoB+Q45mA==";
+        };
+        _oIO6u65N = {
+            "id" = "oIO6u65N";
+            "file" = "createcybernetics-0.5.1-neoforge-1.21.1-HOTFIX.jar";
+            "hash" = "sha512-Dma6z5ZV5ofE4mRNoC6NGjD//lHFUQESgJPLNlMtl5El9I6JIZRNaFmztCZn2Oh0X7OHXGdHKkAFYvMDfI6egQ==";
+        };
+        _ELUd2enO = {
+            "id" = "ELUd2enO";
+            "file" = "createcybernetics-0.5.2-neoforge-1.21.1.jar";
+            "hash" = "sha512-DPGLeWadoR7YKiJutvtxz3wReR0TagWu5O9ngKLvtLHzOviGY3THLyQgi0GltMOe9qPFxIuxSdr5qQDUlYD7Ig==";
+        };
+        _smUjGKaM = {
+            "id" = "smUjGKaM";
+            "file" = "createcybernetics-0.5.2-neoforge-1.21.1-HOTFIX.jar";
+            "hash" = "sha512-+llLd5nFERQF5QCB601cmwPxiqXbfpS/QJ6ZA6wF5cRNTIiNHumF9GEFNB7ASH0hlCiVsml/lKqZQPBCONM+ww==";
+        };
     in {
         "KAU0iaYx" = _KAU0iaYx;
         "xGq7q9pU" = _xGq7q9pU;
@@ -236,7 +256,11 @@ let
         "SlKqW6kl" = _SlKqW6kl;
         "TW7wRFpv" = _TW7wRFpv;
         "NnPuMTjy" = _NnPuMTjy;
-        "neoforge-1.21.1" = _NnPuMTjy;
+        "vWD63Ugm" = _vWD63Ugm;
+        "oIO6u65N" = _oIO6u65N;
+        "ELUd2enO" = _ELUd2enO;
+        "smUjGKaM" = _smUjGKaM;
+        "neoforge-1.21.1" = _smUjGKaM;
         "pkg-0.1.1b" = _KAU0iaYx;
         "pkg-0.1.2b" = _xGq7q9pU;
         "pkg-0.1.3" = _C9QjYKWk;
@@ -274,7 +298,11 @@ let
         "pkg-0.4.7b-HOTFIX" = _SlKqW6kl;
         "pkg-0.4.8b" = _TW7wRFpv;
         "pkg-0.5.0" = _NnPuMTjy;
-        "default" = _NnPuMTjy;
+        "pkg-0.5.1" = _vWD63Ugm;
+        "pkg-0.5.1-HOTFIX" = _oIO6u65N;
+        "pkg-0.5.2" = _ELUd2enO;
+        "pkg-0.5.2-HOTFIX" = _smUjGKaM;
+        "default" = _smUjGKaM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "createcybernetics";

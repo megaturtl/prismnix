@@ -286,6 +286,26 @@ let
             "file" = "limbo-dimension-datapack-4.0.1-1.21.1-portal-fix.jar";
             "hash" = "sha512-ps+t/7jTxYYckHDLPW8bjR+K5+P0XvA8xStHFjkgjnSsfsBpZgJIvVEfCQkZp1jph5otBGUB1FMILox4QMLGEA==";
         };
+        _NqtNzp3u = {
+            "id" = "NqtNzp3u";
+            "file" = "limbo-26-2.zip";
+            "hash" = "sha512-Um1l2igAeQmbthuZLQwQVhP8o20zzr2wRbn6HeJTtGUHCjI0yF3LxLTTQQiiIvEakLKq1J8CbhSnsK5/3KUi1w==";
+        };
+        _WMTg6lFh = {
+            "id" = "WMTg6lFh";
+            "file" = "limbo-dimension-datapack-4.0.1.jar";
+            "hash" = "sha512-Wz9o+Zngigy7zBb+PN7stMJNnBwORPOvEbSVhZcGMo4//+zkkCvSpF3I8ySA4hu0rsjQfchBDwzOwyex5ukhmQ==";
+        };
+        _xAdky496 = {
+            "id" = "xAdky496";
+            "file" = "limbo-26.1.zip";
+            "hash" = "sha512-NQ64x8Y6LJhbSyzgbZTvJo1ArzpAbOXribOq9qBdvmmbWcUiFAwp2GKb98WS3Aij6sXOkqrSslLjDBb6jNn23w==";
+        };
+        _WY5NVK9n = {
+            "id" = "WY5NVK9n";
+            "file" = "limbo-dimension-datapack-4.0.1.jar";
+            "hash" = "sha512-YHabKUuKNJ0vxjeP48CrJSBnKQc5Xvq8YflhIbipXNS39kRDt28W6ooLgjch0iEa6nQaBRUMGdq3kNwqJnNShw==";
+        };
     in {
         "2fCeGkag" = _2fCeGkag;
         "J1ClLI0H" = _J1ClLI0H;
@@ -344,6 +364,10 @@ let
         "71z1FsnV" = _71z1FsnV;
         "8mDlK4Ob" = _8mDlK4Ob;
         "Up6NRa8M" = _Up6NRa8M;
+        "NqtNzp3u" = _NqtNzp3u;
+        "WMTg6lFh" = _WMTg6lFh;
+        "xAdky496" = _xAdky496;
+        "WY5NVK9n" = _WY5NVK9n;
         "datapack-1.19" = _2fCeGkag;
         "datapack-1.19.1" = _2fCeGkag;
         "datapack-1.19.2" = _2fCeGkag;
@@ -365,6 +389,10 @@ let
         "datapack-1.21.9" = _NAjWRWx4;
         "datapack-1.21.10" = _NAjWRWx4;
         "datapack-1.21.11" = _ENl8DXvM;
+        "datapack-26.2" = _NqtNzp3u;
+        "datapack-26.1" = _xAdky496;
+        "datapack-26.1.1" = _xAdky496;
+        "datapack-26.1.2" = _xAdky496;
         "fabric-1.20" = _E5gVovZL;
         "fabric-1.20.1" = _E5gVovZL;
         "fabric-1.20.2" = _E5gVovZL;
@@ -381,6 +409,10 @@ let
         "fabric-1.21.9" = _71z1FsnV;
         "fabric-1.21.10" = _71z1FsnV;
         "fabric-1.21.11" = _zDzHMRgl;
+        "fabric-26.2" = _WMTg6lFh;
+        "fabric-26.1" = _WY5NVK9n;
+        "fabric-26.1.1" = _WY5NVK9n;
+        "fabric-26.1.2" = _WY5NVK9n;
         "forge-1.20" = _E5gVovZL;
         "forge-1.20.1" = _E5gVovZL;
         "forge-1.20.2" = _E5gVovZL;
@@ -397,6 +429,10 @@ let
         "forge-1.21.9" = _71z1FsnV;
         "forge-1.21.10" = _71z1FsnV;
         "forge-1.21.11" = _zDzHMRgl;
+        "forge-26.2" = _WMTg6lFh;
+        "forge-26.1" = _WY5NVK9n;
+        "forge-26.1.1" = _WY5NVK9n;
+        "forge-26.1.2" = _WY5NVK9n;
         "quilt-1.20" = _E5gVovZL;
         "quilt-1.20.1" = _E5gVovZL;
         "quilt-1.20.2" = _E5gVovZL;
@@ -413,6 +449,10 @@ let
         "quilt-1.21.9" = _71z1FsnV;
         "quilt-1.21.10" = _71z1FsnV;
         "quilt-1.21.11" = _zDzHMRgl;
+        "quilt-26.2" = _WMTg6lFh;
+        "quilt-26.1" = _WY5NVK9n;
+        "quilt-26.1.1" = _WY5NVK9n;
+        "quilt-26.1.2" = _WY5NVK9n;
         "neoforge-1.20" = _E5gVovZL;
         "neoforge-1.20.1" = _E5gVovZL;
         "neoforge-1.20.2" = _E5gVovZL;
@@ -429,6 +469,10 @@ let
         "neoforge-1.21.9" = _71z1FsnV;
         "neoforge-1.21.10" = _71z1FsnV;
         "neoforge-1.21.11" = _zDzHMRgl;
+        "neoforge-26.2" = _WMTg6lFh;
+        "neoforge-26.1" = _WY5NVK9n;
+        "neoforge-26.1.1" = _WY5NVK9n;
+        "neoforge-26.1.2" = _WY5NVK9n;
         "pkg-2.0" = _2fCeGkag;
         "pkg-2.9" = _J1ClLI0H;
         "pkg-2.9+mod" = _ncT1umWT;
@@ -482,7 +526,9 @@ let
         "pkg-4.0.1-1.21.9-portal-fix+mod" = _71z1FsnV;
         "pkg-4.0.1-1.21.1-portal-fix" = _8mDlK4Ob;
         "pkg-4.0.1-1.21.1-portal-fix+mod" = _Up6NRa8M;
-        "default" = _Up6NRa8M;
+        "pkg-4.0.1" = _xAdky496;
+        "pkg-4.0.1+mod" = _WY5NVK9n;
+        "default" = _WY5NVK9n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "limbo-dimension-datapack";

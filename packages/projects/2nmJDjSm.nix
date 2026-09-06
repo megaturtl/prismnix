@@ -61,6 +61,16 @@ let
             "file" = "legendarymage-1.1.0.jar";
             "hash" = "sha512-zT1z7QY/jOAADxCFPF3i5lzPwLyI0CsIpSZGLeqpfQ9HVuHG1/ftJULSHmKDzVN0ShnY55grehQys+joegFkQA==";
         };
+        _fAXfdYTy = {
+            "id" = "fAXfdYTy";
+            "file" = "legendarymage-1.1.1.jar";
+            "hash" = "sha512-T6yGD9s27Zs3YX4WYsTnXdVzCVmBT0sqksa93b+A8wJWTokOnhvM8q9BGb0xYTEnD/2XFJfOdiYtJxlEs1YWHA==";
+        };
+        _dxIbCZfo = {
+            "id" = "dxIbCZfo";
+            "file" = "legendarymage-1.1.2.jar";
+            "hash" = "sha512-BBMC68WIaK9t8wk6+GJcgXjRRfOfcwNX+D9ph6xItvbPFGNWn1HhSJLpF/vXkFai/LAuxer7jtQ0JHzD5W3hwA==";
+        };
     in {
         "d1VKMDfF" = _d1VKMDfF;
         "gnvtl7Js" = _gnvtl7Js;
@@ -74,7 +84,9 @@ let
         "JYQy6GEj" = _JYQy6GEj;
         "1hXwWOl6" = _1hXwWOl6;
         "JbwGyKwl" = _JbwGyKwl;
-        "neoforge-1.21.1" = _JbwGyKwl;
+        "fAXfdYTy" = _fAXfdYTy;
+        "dxIbCZfo" = _dxIbCZfo;
+        "neoforge-1.21.1" = _dxIbCZfo;
         "pkg-1.0.0" = _d1VKMDfF;
         "pkg-1.0.1" = _gnvtl7Js;
         "pkg-1.0.2" = _i9rCtAHk;
@@ -87,7 +99,9 @@ let
         "pkg-1.0.8" = _JYQy6GEj;
         "pkg-1.0.9" = _1hXwWOl6;
         "pkg-1.1.0" = _JbwGyKwl;
-        "default" = _JbwGyKwl;
+        "pkg-1.1.1" = _fAXfdYTy;
+        "pkg-1.1.2" = _dxIbCZfo;
+        "default" = _dxIbCZfo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legendary-mage";

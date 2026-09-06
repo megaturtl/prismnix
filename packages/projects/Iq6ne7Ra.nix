@@ -656,6 +656,9 @@ let
         "fabric-26.3-snapshot-5" = _MsvxOWN1;
         "fabric-26.3-snapshot-6" = _MsvxOWN1;
         "fabric-26.3-snapshot-7" = _MsvxOWN1;
+        "fabric-26.3-snapshot-8" = _MsvxOWN1;
+        "fabric-26.3-snapshot-9" = _MsvxOWN1;
+        "fabric-26.3-snapshot-10" = _MsvxOWN1;
         "quilt-23w12a" = _p14mlwK3;
         "quilt-23w13a" = _p14mlwK3;
         "quilt-23w13a_or_b" = _p14mlwK3;
@@ -1136,6 +1139,9 @@ let
         "quilt-26.3-snapshot-5" = _MsvxOWN1;
         "quilt-26.3-snapshot-6" = _MsvxOWN1;
         "quilt-26.3-snapshot-7" = _MsvxOWN1;
+        "quilt-26.3-snapshot-8" = _MsvxOWN1;
+        "quilt-26.3-snapshot-9" = _MsvxOWN1;
+        "quilt-26.3-snapshot-10" = _MsvxOWN1;
         "forge-1.14.2" = _wbBYmPNd;
         "forge-1.14.3" = _wbBYmPNd;
         "forge-1.14.4" = _wbBYmPNd;

@@ -951,6 +951,16 @@ let
             "file" = "Neoforge 26.1.2 Crystalcraft Unlimited Void Angel Update.jar";
             "hash" = "sha512-XaFFB2zF8HxHYpxzyor/ZCpTHLW0qcDPYKAj5AAGsIBOCJUJNRzXkDriEbi5+W/XfW3OU9QzUJV9cyVGNPiUZA==";
         };
+        _XqajjT9C = {
+            "id" = "XqajjT9C";
+            "file" = "Crystalcraft Unlimited Fruity Pebbles Expansion 1.20.1 Forge.jar";
+            "hash" = "sha512-ejN4jhSjcR4WAuTd4FR2N8uf9XLHe/6ceBsTdHZYe8pvGnd6UNKY5yaz15Fw7MfuRmwTFgirllPmvGf760K7/w==";
+        };
+        _jIabXuXN = {
+            "id" = "jIabXuXN";
+            "file" = "Crystalcraft Unlimited Fruity Pebbles Expansion 1.21.1 NeoForge.jar";
+            "hash" = "sha512-s7hr1bBwqU5yvVUQnxc7GLRly4xRqs+5XMx+MqgJPf7wyu8oSt9gqFtsYg7tM+SBtLeKix2eemKt5k90dKDbVw==";
+        };
     in {
         "uN1umENg" = _uN1umENg;
         "1lvxw6uu" = _1lvxw6uu;
@@ -1142,23 +1152,26 @@ let
         "4yPQJYY3" = _4yPQJYY3;
         "2aHPz8ze" = _2aHPz8ze;
         "sA3OdQQr" = _sA3OdQQr;
-        "forge-1.20.1" = _gXbP8XFA;
+        "XqajjT9C" = _XqajjT9C;
+        "jIabXuXN" = _jIabXuXN;
+        "forge-1.20.1" = _XqajjT9C;
         "forge-1.19.2" = _KzJTAhYg;
         "forge-1.19.4" = _GHqac9X6;
         "forge-1.16.5" = _chOXbOPd;
         "forge-1.18.2" = _32duyigE;
         "neoforge-1.20.4" = _BmgRD6YF;
         "neoforge-1.20.6" = _G3d1B5h3;
-        "neoforge-1.21.1" = _4yPQJYY3;
+        "neoforge-1.21.1" = _jIabXuXN;
         "neoforge-1.21.4" = _v1oFoeis;
         "neoforge-1.21.5" = _HI1QuREa;
         "neoforge-1.21.8" = _YCxHtRtR;
         "neoforge-26.1.2" = _sA3OdQQr;
         "fabric-1.21.8" = _2aHPz8ze;
         "pkg-1.0.0" = _sA3OdQQr;
-        "pkg-1.21.1" = _4yPQJYY3;
+        "pkg-1.21.1" = _jIabXuXN;
         "pkg-1.21.8" = _2aHPz8ze;
-        "default" = _sA3OdQQr;
+        "pkg-1.20.1" = _XqajjT9C;
+        "default" = _jIabXuXN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crystalcraft-unlimited";

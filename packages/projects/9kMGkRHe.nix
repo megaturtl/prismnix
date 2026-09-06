@@ -101,6 +101,16 @@ let
             "file" = "undead_unleashed-2.0.5-hotfix-forge-1.20.1.jar";
             "hash" = "sha512-SWuBC2z17/P47MF9Adr3sZuIVimX0MKLzhyWcI2cPbAheoRHx+WORZHamf+weo9uoN9pB2uq2a1c4yiJxJDCZQ==";
         };
+        _j6jWAdPA = {
+            "id" = "j6jWAdPA";
+            "file" = "undead_unleashed-2.0.6-neoforge-1.21.1.jar";
+            "hash" = "sha512-gQN1LgPrTkP4KtTiJ68wG0U4Pioe+roEPwwKniDF/uM0r3OPnYWuYhAe4bnOtaKCWRSgxJMyHp0U8cjheMYjBw==";
+        };
+        _RKiilUGg = {
+            "id" = "RKiilUGg";
+            "file" = "undead_unleashed-2.0.6-forge-1.20.1.jar";
+            "hash" = "sha512-9GJZ1RWUKmL9ItLxwaEuuC444bhNBSdDAmk9SHVTZI83idpaX7F+5VJtK8++uUXw/sJu9QznR0tyEr2KkmvvPQ==";
+        };
     in {
         "i4W9gomb" = _i4W9gomb;
         "yy1BDSKr" = _yy1BDSKr;
@@ -122,9 +132,11 @@ let
         "Ru74P54t" = _Ru74P54t;
         "eB9dgixb" = _eB9dgixb;
         "o46ndLsS" = _o46ndLsS;
+        "j6jWAdPA" = _j6jWAdPA;
+        "RKiilUGg" = _RKiilUGg;
         "forge-1.19.2" = _yy1BDSKr;
-        "forge-1.20.1" = _o46ndLsS;
-        "neoforge-1.21.1" = _eB9dgixb;
+        "forge-1.20.1" = _RKiilUGg;
+        "neoforge-1.21.1" = _j6jWAdPA;
         "pkg-1.1.0" = _i4W9gomb;
         "pkg-1.1.1" = _yy1BDSKr;
         "pkg-1.2.0" = _3L0rwAhe;
@@ -137,7 +149,8 @@ let
         "pkg-2.0.4" = _unfAeIsz;
         "pkg-2.0.5" = _Ru74P54t;
         "pkg-2.0.5-hotfix" = _o46ndLsS;
-        "default" = _o46ndLsS;
+        "pkg-2.0.6" = _RKiilUGg;
+        "default" = _RKiilUGg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "undead-unleashed";

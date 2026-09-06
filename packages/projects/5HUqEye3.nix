@@ -196,6 +196,11 @@ let
             "file" = "vanillaIcecreamFix-1.0.3-forge-beta.jar";
             "hash" = "sha512-Dfeldy9pa1JR5cPWVQUDKiEWLCfo0IW3JUXWvDO42vuhT5bcb4JuBvUF8/xTk1Of5xcorJAIt5Ev8dQAh+vVww==";
         };
+        _Zgdhymc8 = {
+            "id" = "Zgdhymc8";
+            "file" = "VanillaIcecreamFix-1.1.11-beta.jar";
+            "hash" = "sha512-EjeP4Ca4ojwcKwLHNpvhwvaqOycenkR0ziMhvtT/yDpZuy9a+hND/74qoKtOaF8ttUYX973yRkN3sBJyhCdpOw==";
+        };
     in {
         "eGDd2x2V" = _eGDd2x2V;
         "ybGcVE4J" = _ybGcVE4J;
@@ -236,13 +241,14 @@ let
         "dLEjyhkA" = _dLEjyhkA;
         "7JbE5psV" = _7JbE5psV;
         "IQB6EE4C" = _IQB6EE4C;
+        "Zgdhymc8" = _Zgdhymc8;
         "fabric-1.19" = _810hFc6i;
         "fabric-1.19.1" = _810hFc6i;
         "fabric-1.19.2" = _810hFc6i;
         "fabric-1.19.3" = _x3iL8xuq;
         "fabric-1.19.4" = _nD7EKwcG;
-        "fabric-1.20" = _tJc1yy6B;
-        "fabric-1.20.1" = _tJc1yy6B;
+        "fabric-1.20" = _Zgdhymc8;
+        "fabric-1.20.1" = _Zgdhymc8;
         "fabric-1.20.2" = _zYbJEEW2;
         "fabric-1.20.4" = _B8RV5776;
         "fabric-1.21" = _JhvZD0MM;
@@ -253,8 +259,8 @@ let
         "quilt-1.19.2" = _810hFc6i;
         "quilt-1.19.3" = _x3iL8xuq;
         "quilt-1.19.4" = _nD7EKwcG;
-        "quilt-1.20" = _tJc1yy6B;
-        "quilt-1.20.1" = _tJc1yy6B;
+        "quilt-1.20" = _Zgdhymc8;
+        "quilt-1.20.1" = _Zgdhymc8;
         "quilt-1.20.2" = _zYbJEEW2;
         "quilt-1.20.4" = _B8RV5776;
         "quilt-1.21" = _JhvZD0MM;
@@ -294,7 +300,8 @@ let
         "pkg-1.2.4-beta" = _dLEjyhkA;
         "pkg-1.0.2-forge-beta" = _7JbE5psV;
         "pkg-1.0.3-forge-beta" = _IQB6EE4C;
-        "default" = _IQB6EE4C;
+        "pkg-1.1.11-beta" = _Zgdhymc8;
+        "default" = _Zgdhymc8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanillaicecreamfix";

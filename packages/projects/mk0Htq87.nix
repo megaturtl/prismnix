@@ -621,6 +621,16 @@ let
             "file" = "neoforge-runiclib-1.21.1-5.0.7.jar";
             "hash" = "sha512-xG0lq8bgNM1dK1/lPHzJ/iPxfVq8kf7nIyhyR27JvVANp1BM/GnKsxP/Ln9PpMXyqLS5MhEuuyhRuOXLDNfjZQ==";
         };
+        _gDvSLSzK = {
+            "id" = "gDvSLSzK";
+            "file" = "fabric-runiclib-1.20.1-4.3.11.jar";
+            "hash" = "sha512-U9c/agkAEtIuLYUvaOSHUKKM8yRohIk5HmCRhG+Om4rcQe/rCdyECRTr74eSU9/oTNlTpexN6oLJ8/WyoocW+Q==";
+        };
+        _DyyjKTPx = {
+            "id" = "DyyjKTPx";
+            "file" = "forge-runiclib-1.20.1-4.3.11.jar";
+            "hash" = "sha512-efJclarPLNza7tHOFzqt6/1toTM5+ddoac43yvB/nslXyEGrGyKBJ3vDtiZEe3W8FJmoLa3UTKEni3fRmSrDKQ==";
+        };
     in {
         "7EWkl0Bx" = _7EWkl0Bx;
         "iqPCaFIw" = _iqPCaFIw;
@@ -746,16 +756,18 @@ let
         "hWeplPMq" = _hWeplPMq;
         "vzNytDr7" = _vzNytDr7;
         "tk5EQpUG" = _tk5EQpUG;
-        "forge-1.20.1" = _hWeplPMq;
+        "gDvSLSzK" = _gDvSLSzK;
+        "DyyjKTPx" = _DyyjKTPx;
+        "forge-1.20.1" = _DyyjKTPx;
         "forge-1.20" = _cSOXIgzQ;
         "neoforge-1.20.1" = _7plxofRh;
         "neoforge-1.21" = _swV6ktBE;
         "neoforge-1.21.1" = _tk5EQpUG;
-        "fabric-1.20.1" = _xft10QgS;
+        "fabric-1.20.1" = _gDvSLSzK;
         "fabric-1.21" = _OsFpWPTq;
         "fabric-1.21.1" = _vzNytDr7;
         "fabric-1.20" = _T59YDbWf;
-        "quilt-1.20.1" = _xft10QgS;
+        "quilt-1.20.1" = _gDvSLSzK;
         "quilt-1.21" = _OsFpWPTq;
         "quilt-1.21.1" = _vzNytDr7;
         "quilt-1.20" = _T59YDbWf;
@@ -810,9 +822,9 @@ let
         "pkg-5.0.6" = _9g3a9I7l;
         "pkg-4.3.9.1" = _9Zzx1fHx;
         "pkg-4.3.10" = _7plxofRh;
-        "pkg-4.3.11" = _hWeplPMq;
+        "pkg-4.3.11" = _DyyjKTPx;
         "pkg-5.0.7" = _tk5EQpUG;
-        "default" = _tk5EQpUG;
+        "default" = _DyyjKTPx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "runiclib";

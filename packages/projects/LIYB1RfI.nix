@@ -91,6 +91,11 @@ let
             "file" = "firehud-1.4-1.21.11.jar";
             "hash" = "sha512-ag5JM/xYJJwl3DrhIymXZhP1cQNBTNJf/v4JSvU/1bHTinhbNhXWDyC2+dH6Sj5zDncFzEq8eIEtONjsJTIvZw==";
         };
+        _OVZH3JHP = {
+            "id" = "OVZH3JHP";
+            "file" = "firehud-1.4-26.2.jar";
+            "hash" = "sha512-8V9A938hoJ8ZOSiDMYYqfSk2jGWk2MwPAyUVLWTF5OCquHz+V++DjBcSknIJPuhzNGhi/YcITFKeYc4VTpV6Eg==";
+        };
     in {
         "FHW3obDQ" = _FHW3obDQ;
         "6dHJtZxL" = _6dHJtZxL;
@@ -110,6 +115,7 @@ let
         "vo7lZBBm" = _vo7lZBBm;
         "RJnvO4CG" = _RJnvO4CG;
         "l4ZvLpTF" = _l4ZvLpTF;
+        "OVZH3JHP" = _OVZH3JHP;
         "fabric-1.20.3" = _rJTEoHcm;
         "fabric-1.20.4" = _rJTEoHcm;
         "fabric-1.20.5" = _cu1uGmfZ;
@@ -126,6 +132,7 @@ let
         "fabric-1.21.9" = _RJnvO4CG;
         "fabric-1.21.10" = _RJnvO4CG;
         "fabric-1.21.11" = _l4ZvLpTF;
+        "fabric-26.2" = _OVZH3JHP;
         "pkg-1.0.0-1.20.3-4" = _FHW3obDQ;
         "pkg-1.0.0-1.20.5-6" = _6dHJtZxL;
         "pkg-1.1.0-1.20.3-4" = _DutLOCpL;
@@ -144,7 +151,8 @@ let
         "pkg-1.4-1.21.6" = _vo7lZBBm;
         "pkg-1.4-1.21.9" = _RJnvO4CG;
         "pkg-1.4-1.21.11" = _l4ZvLpTF;
-        "default" = _l4ZvLpTF;
+        "pkg-1.4-26.2" = _OVZH3JHP;
+        "default" = _OVZH3JHP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "firehud";

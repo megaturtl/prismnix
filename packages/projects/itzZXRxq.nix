@@ -181,6 +181,16 @@ let
             "file" = "vistas-2.13.0.jar";
             "hash" = "sha512-rxu8kVvdqjME6RWLc7Cq2cS7AF7df889jGxrhIg09w2MowqWkDY6V5HFwYveZ5fvSNQa3v3bzdQ3uF4txdmiMg==";
         };
+        _sRzL9s8c = {
+            "id" = "sRzL9s8c";
+            "file" = "vistas-3.0.0.jar";
+            "hash" = "sha512-IvM31+gQh67eHbJVdPOcmDgHrxiCR8RE2jyoSh4iumxPAv2AyUWXCSjdEr2Mt7wHZTIeAsdzzD/cgNLx+2OpMg==";
+        };
+        _SS4sFTf0 = {
+            "id" = "SS4sFTf0";
+            "file" = "vistas-3.1.0.jar";
+            "hash" = "sha512-sIE9MM/PT9G6wq5/ay8qQ76ou6ahF1Wt87cUnn3z2gIrS1XJ4KHX0NMMv/lE0CgJ2Mz6Izu4Ir5K/0aTnM/jXg==";
+        };
     in {
         "1pzT89LK" = _1pzT89LK;
         "U5HVNtnG" = _U5HVNtnG;
@@ -218,6 +228,8 @@ let
         "5vpAlekH" = _5vpAlekH;
         "dOskgNU7" = _dOskgNU7;
         "86NFRJF3" = _86NFRJF3;
+        "sRzL9s8c" = _sRzL9s8c;
+        "SS4sFTf0" = _SS4sFTf0;
         "fabric-1.16.5" = _BjvTI3eK;
         "fabric-1.17" = _E2wmFYWc;
         "fabric-1.17.1" = _E2wmFYWc;
@@ -252,6 +264,10 @@ let
         "fabric-1.21.9" = _dOskgNU7;
         "fabric-1.21.10" = _dOskgNU7;
         "fabric-1.21.11" = _86NFRJF3;
+        "fabric-26.1" = _sRzL9s8c;
+        "fabric-26.1.1" = _sRzL9s8c;
+        "fabric-26.1.2" = _sRzL9s8c;
+        "fabric-26.2" = _SS4sFTf0;
         "quilt-1.19.4" = _uaIoXGnr;
         "quilt-1.20" = _hF63O0j5;
         "quilt-1.20.1" = _hF63O0j5;
@@ -314,7 +330,9 @@ let
         "pkg-2.11.2" = _5vpAlekH;
         "pkg-2.12.0" = _dOskgNU7;
         "pkg-2.13.0" = _86NFRJF3;
-        "default" = _86NFRJF3;
+        "pkg-3.0.0" = _sRzL9s8c;
+        "pkg-3.1.0" = _SS4sFTf0;
+        "default" = _SS4sFTf0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vistas";

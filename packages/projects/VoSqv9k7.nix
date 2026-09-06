@@ -606,6 +606,81 @@ let
             "file" = "palamod-1.21.1.07-neoforge-1.21.1.jar";
             "hash" = "sha512-6kTsgTxVJO2iI1e3yPccrbTydz55E9r64kKawGORWCKj802Lzb8gyfKwVdUM1qFdB+OJPoDKaMaBDCBtELP9qA==";
         };
+        _K0AAuWzf = {
+            "id" = "K0AAuWzf";
+            "file" = "palamod-1.21.1.08-neoforge-1.21.1.jar";
+            "hash" = "sha512-TUj3cUzn1quFfZoJJtFly3JHniQc2pAEOpLUNnTOO9gYQ0319dzyS/TOgQehuSkrSkOpCC+4R//mutAhpa59ag==";
+        };
+        _R3sO9bjq = {
+            "id" = "R3sO9bjq";
+            "file" = "palamod-1.21.1.09-neoforge-1.21.1.jar";
+            "hash" = "sha512-zdCNhzpD3lkHsyj0faEdHHrUKZwO+skT1+gk0v3Ffz+xj1W62X0wIvNqC+R+Gxqk0aHWhuNfA5+5qS7voS915w==";
+        };
+        _aaG3puQT = {
+            "id" = "aaG3puQT";
+            "file" = "palamod-1.21.1.010-neoforge-1.21.1.jar";
+            "hash" = "sha512-01q7LOLdXA3C2IdIjOwTgFcu8FL/QXnGIOwKUB5DMeBkl1lR17v+9pLloD1kx/fvSzFAUyOZjaL5fauZNGN/MQ==";
+        };
+        _a9FFhgmb = {
+            "id" = "a9FFhgmb";
+            "file" = "palamod-1.21.1.011-neoforge-1.21.1.jar";
+            "hash" = "sha512-pggxPn73+8sDtSVJgw2Daw/XxB+6LakCenAKhgvHfOL07m/k4tIjM7skyJYYvJn7Q0DcpdorYi5YU6RNzjjDFQ==";
+        };
+        _I3EF7EtK = {
+            "id" = "I3EF7EtK";
+            "file" = "palamod-1.21.1.011a-neoforge-1.21.1.jar";
+            "hash" = "sha512-xDxFm/3oM14WKsuUOcDe5XJMagyobKY49HbZKzfiez/rM6iXnAHwQLsZY4DMocDoQrf8x/r5+H9GKs/4UyhThA==";
+        };
+        _JXiYBabI = {
+            "id" = "JXiYBabI";
+            "file" = "palamod-1.21.1.012-neoforge-1.21.1.jar";
+            "hash" = "sha512-+toDLUV5WPOStigK3twTIRXQzpGYq3gszQYwbNyn0KaV4Uvmita4Lk2y634D0CFC0B77obCIwSvKlEjGBN0J1g==";
+        };
+        _ojReexhv = {
+            "id" = "ojReexhv";
+            "file" = "palamod-1.21.1.013-neoforge-1.21.1.jar";
+            "hash" = "sha512-kt5xL3vsKA/FtNd0Qt/bwDeex6U+2wHjwQgEOdmbqI70fxEe1DwcmBelbN0aUTWTkDsvkpOUrqwyEGa1TsExWw==";
+        };
+        _XzN4RMEg = {
+            "id" = "XzN4RMEg";
+            "file" = "palamod-1.21.1.014-neoforge-1.21.1.jar";
+            "hash" = "sha512-BB7J+NnwfJoXXWtcr4cMQ5EqHSW0efs8YQrDGmwlMLKRrP2mD2+i5xgjSHnTuwvoGzzGeFuohXOd8DpZB0Rpyw==";
+        };
+        _U4QEY3P6 = {
+            "id" = "U4QEY3P6";
+            "file" = "palamod-1.21.1.015_alpha-neoforge-1.21.1.jar";
+            "hash" = "sha512-yLTa835eTIrPjVPKY/VETmTHn+O3tJKIeWadATjBoTO96RhobjjbXd743j3+8lPmTCyL6+46xjgizKwCG++MKg==";
+        };
+        _LuKjdhRU = {
+            "id" = "LuKjdhRU";
+            "file" = "palamod-1.21.1.015-neoforge-1.21.1.jar";
+            "hash" = "sha512-QUlBOohiZXzF5yHRF3o4H/+iMH8yI3X1D843Mc42MfnJ0wuHT3vLymQb+vcC6AaBhDmobCUIn9vybRoMJvrKBQ==";
+        };
+        _hZo6jBgi = {
+            "id" = "hZo6jBgi";
+            "file" = "palamod-1.21.1.015-forge-1.20.1.jar";
+            "hash" = "sha512-7mc2U1OsDIIGk1PxerEx3Zd1L6OxznEW6CL3piVElQO6UVLCurDCsbG3t6Vw38wLyXXUJHUcS1k2ISuEA3M1pg==";
+        };
+        _rwGcyzdD = {
+            "id" = "rwGcyzdD";
+            "file" = "palamod-1.21.1.016fix-forge-1.20.1.jar";
+            "hash" = "sha512-DDsttfy0GenerbgXkEfAVipt5L48wFqNwazOKCXNfJlTzCOgjLZNs0aX6qanMIgYuKJzb6oC7Gb56/PwPNL6qg==";
+        };
+        _9Nh039tt = {
+            "id" = "9Nh039tt";
+            "file" = "palamod-1.21.1.016-neoforge-1.21.1.jar";
+            "hash" = "sha512-NsHOdQymWcvtE7zjejolKO3qfhW8JFr7j+mRJ6t9mfTUG5uM6wRv/P7lEGq+3E11X8SEiE7ynhQ9YljkW0TYcg==";
+        };
+        _HQODArbB = {
+            "id" = "HQODArbB";
+            "file" = "palamod-1.21.1.018-neoforge-1.21.1.jar";
+            "hash" = "sha512-ejoHIXeNiAr2brryPglQz97gIjsu13HfkYrdlT5zg/MCrWR+0JGRF8Ue5Ih8Yf0z8rZz4Jkz5xP0dohdSV4L8A==";
+        };
+        _adx5x0OW = {
+            "id" = "adx5x0OW";
+            "file" = "palamod-1.21.1.019-neoforge-1.21.1.jar";
+            "hash" = "sha512-VnRoZmykg42y4yMSVcsqIQlFir7NgXv89pxBgY0qXv0XOCOW+MjO7fyIijP3KLFc/op/QtBKTAxX/t1ZG0zXaw==";
+        };
     in {
         "DhBm2mpb" = _DhBm2mpb;
         "pSq95HsW" = _pSq95HsW;
@@ -728,15 +803,30 @@ let
         "3qEGB0l8" = _3qEGB0l8;
         "OGxnUWyY" = _OGxnUWyY;
         "g6QgBWWw" = _g6QgBWWw;
+        "K0AAuWzf" = _K0AAuWzf;
+        "R3sO9bjq" = _R3sO9bjq;
+        "aaG3puQT" = _aaG3puQT;
+        "a9FFhgmb" = _a9FFhgmb;
+        "I3EF7EtK" = _I3EF7EtK;
+        "JXiYBabI" = _JXiYBabI;
+        "ojReexhv" = _ojReexhv;
+        "XzN4RMEg" = _XzN4RMEg;
+        "U4QEY3P6" = _U4QEY3P6;
+        "LuKjdhRU" = _LuKjdhRU;
+        "hZo6jBgi" = _hZo6jBgi;
+        "rwGcyzdD" = _rwGcyzdD;
+        "9Nh039tt" = _9Nh039tt;
+        "HQODArbB" = _HQODArbB;
+        "adx5x0OW" = _adx5x0OW;
         "forge-1.19.4" = _AvOQItjq;
         "forge-1.18.2" = _5qbf8xne;
         "forge-1.16.4" = _QDktXYtw;
         "forge-1.16.5" = _QDktXYtw;
         "forge-1.17" = _Qb9eScDh;
         "forge-1.17.1" = _Qb9eScDh;
-        "forge-1.20.1" = _7uVUeD6G;
+        "forge-1.20.1" = _rwGcyzdD;
         "neoforge-1.20.4" = _xNkbaa1k;
-        "neoforge-1.21.1" = _g6QgBWWw;
+        "neoforge-1.21.1" = _adx5x0OW;
         "neoforge-1.21.4" = _P7WMqLqw;
         "neoforge-1.21.8" = _3rC8ZmFH;
         "neoforge-26.1.2" = _CrnGEA2k;
@@ -851,7 +941,21 @@ let
         "pkg-1.21.1.05" = _3qEGB0l8;
         "pkg-1.21.1.06" = _OGxnUWyY;
         "pkg-1.21.1.07" = _g6QgBWWw;
-        "default" = _g6QgBWWw;
+        "pkg-1.21.1.08" = _K0AAuWzf;
+        "pkg-1.21.1.09" = _R3sO9bjq;
+        "pkg-1.21.1.010" = _aaG3puQT;
+        "pkg-1.21.1.011" = _a9FFhgmb;
+        "pkg-1.21.1.011a" = _I3EF7EtK;
+        "pkg-1.21.1.012" = _JXiYBabI;
+        "pkg-1.21.1.013" = _ojReexhv;
+        "pkg-1.21.1.014" = _XzN4RMEg;
+        "pkg-1.21.1.015a" = _U4QEY3P6;
+        "pkg-1.21.1.015" = _hZo6jBgi;
+        "pkg-1.21.1.016fix" = _rwGcyzdD;
+        "pkg-1.21.1.016" = _9Nh039tt;
+        "pkg-1.21.1.018" = _HQODArbB;
+        "pkg-1.21.1.019" = _adx5x0OW;
+        "default" = _adx5x0OW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "palamod-renew";

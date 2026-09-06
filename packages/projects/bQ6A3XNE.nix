@@ -21,20 +21,34 @@ let
             "file" = "enhancedsoundcontrol-0.1.1+26.1.2.jar";
             "hash" = "sha512-wdhnWn3BkJdIc6KRQdfxe6i749nTsZukln+3cJADvQdaWdwgVeRwzoiW9U3NYHfNV2ZXQOUfA6Qe6dKZzptjWQ==";
         };
+        _pDpwmqSI = {
+            "id" = "pDpwmqSI";
+            "file" = "enhancedsoundcontrol-0.2.0+26.1.2.jar";
+            "hash" = "sha512-Zyy00RIk30udyE1wnO9xfQY17CRNorLg+4M8HlvdAUOuN8iR3tLKi80tExZwc5nfE1PLwTfdpLB7w01SwiXqeA==";
+        };
+        _QosygeVF = {
+            "id" = "QosygeVF";
+            "file" = "enhancedsoundcontrol-0.2.0+26.2.jar";
+            "hash" = "sha512-I/bS5n4Jw74kLoUfF294b0aUWU8pbNzB+rR9MOGY32WhFRc55BdA2hy2j/EUA8Z7jAtTZ/WHGu/WMSIOH0bprQ==";
+        };
     in {
         "DVzFBzqq" = _DVzFBzqq;
         "Id5igYta" = _Id5igYta;
         "o1egS0bW" = _o1egS0bW;
         "3Ekj12Qa" = _3Ekj12Qa;
-        "fabric-26.1" = _3Ekj12Qa;
-        "fabric-26.1.1" = _3Ekj12Qa;
-        "fabric-26.1.2" = _3Ekj12Qa;
-        "fabric-26.2" = _o1egS0bW;
+        "pDpwmqSI" = _pDpwmqSI;
+        "QosygeVF" = _QosygeVF;
+        "fabric-26.1" = _pDpwmqSI;
+        "fabric-26.1.1" = _pDpwmqSI;
+        "fabric-26.1.2" = _pDpwmqSI;
+        "fabric-26.2" = _QosygeVF;
         "pkg-v0.1.0-mc26.1.2" = _DVzFBzqq;
         "pkg-v0.1.0-mc26.2" = _Id5igYta;
         "pkg-v0.1.1-mc26.2" = _o1egS0bW;
         "pkg-v0.1.1-mc26.1.2" = _3Ekj12Qa;
-        "default" = _3Ekj12Qa;
+        "pkg-v0.2.0-mc26.1.2" = _pDpwmqSI;
+        "pkg-v0.2.0-mc26.2" = _QosygeVF;
+        "default" = _QosygeVF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enhanced-sound-control";

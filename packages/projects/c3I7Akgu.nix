@@ -101,6 +101,11 @@ let
             "file" = "AppleCore-3.3.11.jar";
             "hash" = "sha512-cb248UYE0xi6kzExyHOyfwOBlQ/UdzXxmFDxUpNlpAb+9LsVgrnE0QhzlPwvr257cOeR7cB+TDmxZ62cJxHdpA==";
         };
+        _9Gjny8dk = {
+            "id" = "9Gjny8dk";
+            "file" = "AppleCore-3.3.12.jar";
+            "hash" = "sha512-57lzotgzaQIBCCvljZLb2591Va3Kxz778in1qTBIHfVKgS6lvQlmpfHZm+lwAE5MwMbV6Wo1vKhzkYMA81eaow==";
+        };
     in {
         "flhShUnH" = _flhShUnH;
         "Hu84BAVk" = _Hu84BAVk;
@@ -122,7 +127,8 @@ let
         "664gF63z" = _664gF63z;
         "8f17Xnsv" = _8f17Xnsv;
         "HmrFjVcm" = _HmrFjVcm;
-        "forge-1.7.10" = _HmrFjVcm;
+        "9Gjny8dk" = _9Gjny8dk;
+        "forge-1.7.10" = _9Gjny8dk;
         "pkg-3.2.3" = _flhShUnH;
         "pkg-3.2.4" = _Hu84BAVk;
         "pkg-3.2.5" = _uy9b6rok;
@@ -143,7 +149,8 @@ let
         "pkg-3.3.9" = _664gF63z;
         "pkg-3.3.10" = _8f17Xnsv;
         "pkg-3.3.11" = _HmrFjVcm;
-        "default" = _HmrFjVcm;
+        "pkg-3.3.12" = _9Gjny8dk;
+        "default" = _9Gjny8dk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "applecore-unofficial";

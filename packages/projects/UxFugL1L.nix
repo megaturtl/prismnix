@@ -61,6 +61,16 @@ let
             "file" = "levelhearts-1.21.1-2.4.0.jar";
             "hash" = "sha512-ld8tGgNMf7skrI4bmNnYNGOS7BxjRM3cI6NCgoYCXbzv1EQ+OLTajCNhYsbIGyEHYo2TxnSUVJuOWKuw2cEOwQ==";
         };
+        _EqzpsF1d = {
+            "id" = "EqzpsF1d";
+            "file" = "levelhearts-1.21.1-2.4.0+patch.1.jar";
+            "hash" = "sha512-CjemKo500JlGhF87Scz2UQJIbXHIvFWzUHd/W8TH0UVkTkQ9xRtPok8+vYVCUMb1sAz0+ld8ceDjHG5Al3ZtYA==";
+        };
+        _93VtOkQY = {
+            "id" = "93VtOkQY";
+            "file" = "levelhearts-1.21.1-2.4.0+patch.2.jar";
+            "hash" = "sha512-PQfsVZbV6vLlxN4hFon7ZDT4EHpVdxuiXxVF9k5sUCd6iv6jP3YLCrgulZ9htkY6vqJtCgT3tF7BJJKVPXAlew==";
+        };
     in {
         "DdUnegAQ" = _DdUnegAQ;
         "up3IIisb" = _up3IIisb;
@@ -74,6 +84,8 @@ let
         "7MSVEcFD" = _7MSVEcFD;
         "Clbo7jD0" = _Clbo7jD0;
         "aGUM02wM" = _aGUM02wM;
+        "EqzpsF1d" = _EqzpsF1d;
+        "93VtOkQY" = _93VtOkQY;
         "forge-1.12.2" = _DdUnegAQ;
         "forge-1.14.4" = _up3IIisb;
         "forge-1.15.2" = _ueReIDO0;
@@ -84,7 +96,7 @@ let
         "forge-1.19.4" = _Fuekk1VB;
         "forge-1.20.1" = _7MSVEcFD;
         "forge-1.21.1" = _Clbo7jD0;
-        "neoforge-1.21.1" = _aGUM02wM;
+        "neoforge-1.21.1" = _93VtOkQY;
         "pkg-1.12.2-2.4.0" = _DdUnegAQ;
         "pkg-1.14.4-2.4.0" = _up3IIisb;
         "pkg-1.15.2-2.4.0" = _ueReIDO0;
@@ -96,7 +108,9 @@ let
         "pkg-1.19.4-2.4.0" = _Fuekk1VB;
         "pkg-1.20.1-2.4.0" = _7MSVEcFD;
         "pkg-1.21.1-2.4.0" = _aGUM02wM;
-        "default" = _aGUM02wM;
+        "pkg-1.21.1-2.4.0+patch.1" = _EqzpsF1d;
+        "pkg-1.21.1-2.4.0+patch.2" = _93VtOkQY;
+        "default" = _93VtOkQY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "levelhearts";

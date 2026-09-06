@@ -41,6 +41,31 @@ let
             "file" = "SimplyTooltips-fabric-0.1.3.jar";
             "hash" = "sha512-om1M7bFYImXu16Ir0sXEYVWyDIJzXCXSI7lHOded9516SApaY6cFnNu4OVQp04z31njsWLr2meWjRNNl2kFZBg==";
         };
+        _JNwqmYnu = {
+            "id" = "JNwqmYnu";
+            "file" = "SimplyTooltips-fabric-0.1.5.jar";
+            "hash" = "sha512-d4Sio58N0jx6UHYa6SS9ZMSu3u1xSvk49r7qRq2lSWbYn7OCuLo3m7DoZy7CiLHgW/xMCX+TzzTW1tBei4dyNA==";
+        };
+        _Zb6dytvm = {
+            "id" = "Zb6dytvm";
+            "file" = "SimplyTooltips-neoforge-0.1.5.jar";
+            "hash" = "sha512-e+a+tfcsA7fJ9EVowRV38rpQrsjRavNNhgKUcYzSq1UGkajoJ1bZbG8L3RER4t6Kpo25cMV2K+ZZrUrsaZQOvQ==";
+        };
+        _MAwQRftH = {
+            "id" = "MAwQRftH";
+            "file" = "SimplyTooltips-fabric-0.1.5-1.20.1.jar";
+            "hash" = "sha512-aZvbPK9aAplzIewJKZp07GOkxZ2dwkYa7wemM9X/bS/ZGrzkpWfIcO6bPxxnjixCi4ZiwYSdK8utp9PrKpqySA==";
+        };
+        _s87jNabF = {
+            "id" = "s87jNabF";
+            "file" = "SimplyTooltips-forge-0.1.5-1.20.1.jar";
+            "hash" = "sha512-gCeQpjA0TeUcdPMOAqwaJFS228hFDn6gEBSVqRlqfTIK10a0pGKPpD9uYVtr8VrNlXR5HGnEzlyup1bnHfxYlQ==";
+        };
+        _qnfRfhak = {
+            "id" = "qnfRfhak";
+            "file" = "SimplyTooltips-neoforge-0.1.5-1.20.1.jar";
+            "hash" = "sha512-APhqfYz2DsrqdvSbN4QaI9t1XU9W4CAAvgFGYlD4vzEgym9vsQupJ32ZV6xjrkwHWhNZwyUvhshuQmqZFZGFdQ==";
+        };
     in {
         "5rJISnj8" = _5rJISnj8;
         "sqD0VTIY" = _sqD0VTIY;
@@ -50,14 +75,22 @@ let
         "jrFEfRpA" = _jrFEfRpA;
         "84h0ngfk" = _84h0ngfk;
         "3blOqCAH" = _3blOqCAH;
-        "fabric-1.21.1" = _jrFEfRpA;
-        "fabric-1.20.1" = _3blOqCAH;
-        "neoforge-1.21.1" = _Ic73EcJ6;
-        "forge-1.20.1" = _84h0ngfk;
+        "JNwqmYnu" = _JNwqmYnu;
+        "Zb6dytvm" = _Zb6dytvm;
+        "MAwQRftH" = _MAwQRftH;
+        "s87jNabF" = _s87jNabF;
+        "qnfRfhak" = _qnfRfhak;
+        "fabric-1.21.1" = _JNwqmYnu;
+        "fabric-1.20.1" = _MAwQRftH;
+        "neoforge-1.21.1" = _Zb6dytvm;
+        "neoforge-1.20.1" = _qnfRfhak;
+        "forge-1.20.1" = _s87jNabF;
         "pkg-0.1.1" = _sqD0VTIY;
         "pkg-0.1.2" = _XB8WfWbI;
         "pkg-0.1.3" = _3blOqCAH;
-        "default" = _3blOqCAH;
+        "pkg-0.1.5" = _Zb6dytvm;
+        "pkg-0.1.5-1.20.1" = _qnfRfhak;
+        "default" = _qnfRfhak;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simply-tooltips";

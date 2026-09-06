@@ -151,6 +151,16 @@ let
             "file" = "OpenComputers-MC1.12.2-1.8.9a+8ca336f.jar";
             "hash" = "sha512-siH9CfzpKvTYWJyjsq1+6DjeBa6Eh35tMiC4ZK8mE7Xyl5MVpOm2dxz5skiG5Ptvo129CQIkAjbC/amKTiL/iw==";
         };
+        _YY5V1Q9b = {
+            "id" = "YY5V1Q9b";
+            "file" = "OpenComputers-MC1.7.10-1.8.10+667626d-universal.jar";
+            "hash" = "sha512-gU9/OLtM+/0bJndEs43hGcoDyqfSDV0BYCdMmaOUxz8aw9B1itT5UU5PX7Trej7hd4i7MIRnK3GYc3+9cSEAvw==";
+        };
+        _J90kUiyR = {
+            "id" = "J90kUiyR";
+            "file" = "OpenComputers-MC1.12.2-1.8.10+258943363.jar";
+            "hash" = "sha512-7m6p/I90OGCKfKtcy9TbMJw/iQVySiwKfv8V12X0ztj0lBdFj3Mfj8cS1P4Icc9dfZnNvI0zDBBl4UY3XpdoIw==";
+        };
     in {
         "J41J9xHt" = _J41J9xHt;
         "cNyD5s4n" = _cNyD5s4n;
@@ -182,10 +192,12 @@ let
         "ajRnqqBn" = _ajRnqqBn;
         "z68Vb352" = _z68Vb352;
         "mipZmUf9" = _mipZmUf9;
-        "forge-1.12.2" = _mipZmUf9;
+        "YY5V1Q9b" = _YY5V1Q9b;
+        "J90kUiyR" = _J90kUiyR;
+        "forge-1.12.2" = _J90kUiyR;
         "forge-1.10.2" = _cNyD5s4n;
         "forge-1.11.2" = _8mk3U0a3;
-        "forge-1.7.10" = _z68Vb352;
+        "forge-1.7.10" = _YY5V1Q9b;
         "pkg-1.7.5.192" = _J41J9xHt;
         "pkg-1.7.5.245" = _cNyD5s4n;
         "pkg-1.7.5.170" = _8mk3U0a3;
@@ -204,7 +216,8 @@ let
         "pkg-1.8.8" = _Dw8IztAK;
         "pkg-1.8.9" = _ajRnqqBn;
         "pkg-1.8.9a" = _mipZmUf9;
-        "default" = _mipZmUf9;
+        "pkg-1.8.10" = _J90kUiyR;
+        "default" = _J90kUiyR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "opencomputers";

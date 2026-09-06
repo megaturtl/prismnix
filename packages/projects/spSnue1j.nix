@@ -31,6 +31,21 @@ let
             "file" = "Manhunt-1.2.5+1.21.5.jar";
             "hash" = "sha512-Lc9xWml3E1i4WTCVx+GHXZZgYjoHdtK82o8mpRzyC30WtijdiM/TS39iXe2t42P3P1mrh+T4GN12rmsPmT1giA==";
         };
+        _6TiYfsg9 = {
+            "id" = "6TiYfsg9";
+            "file" = "Manhunt-2.0.2+26.2.jar";
+            "hash" = "sha512-+ceRxu8Ghm6UhpHRd79F4Pl2TXwwxE0IScXXDXkted+1I1iw0IHdvP+qZ/QJHd99xOkTUeLcQ4ERXocbITWXjw==";
+        };
+        _hc1EQi5L = {
+            "id" = "hc1EQi5L";
+            "file" = "Manhunt-2.0.2+26.1.2.jar";
+            "hash" = "sha512-+s+SPsQ3lGtTBTXKr27IClUbdW9u2ec2wdZuq1OkwQMltfnd8YtxEykrczZ5B9GPLDPyBzGplSf/Y6hX+RSrPw==";
+        };
+        _cIykAghV = {
+            "id" = "cIykAghV";
+            "file" = "Manhunt-2.0.2+1.21.11.jar";
+            "hash" = "sha512-5RTRm779Dmhn12HApDFIJywqtunZldzkXcoiAtVGa2tezypWQG1OWnEBxUFNdJZ0uPthTt8fN7b6NPD8ymcC7g==";
+        };
     in {
         "2kgUfGPv" = _2kgUfGPv;
         "8TX5WYMA" = _8TX5WYMA;
@@ -38,6 +53,9 @@ let
         "VHtNQS9W" = _VHtNQS9W;
         "zLKFFwTO" = _zLKFFwTO;
         "mikNgv56" = _mikNgv56;
+        "6TiYfsg9" = _6TiYfsg9;
+        "hc1EQi5L" = _hc1EQi5L;
+        "cIykAghV" = _cIykAghV;
         "fabric-1.18" = _2kgUfGPv;
         "fabric-1.18.1" = _2kgUfGPv;
         "fabric-1.18.2" = _2kgUfGPv;
@@ -48,13 +66,19 @@ let
         "fabric-1.21" = _zLKFFwTO;
         "fabric-1.21.1" = _zLKFFwTO;
         "fabric-1.21.5" = _mikNgv56;
+        "fabric-26.2" = _6TiYfsg9;
+        "fabric-26.1.2" = _hc1EQi5L;
+        "fabric-1.21.11" = _cIykAghV;
         "pkg-1.2.5+1.18.x" = _2kgUfGPv;
         "pkg-1.2.5+1.19.2" = _8TX5WYMA;
         "pkg-1.2.5+1.20" = _NwtoYIoz;
         "pkg-1.2.5+1.20.6" = _VHtNQS9W;
         "pkg-1.2.5+1.21" = _zLKFFwTO;
         "pkg-1.2.5+1.21.5" = _mikNgv56;
-        "default" = _mikNgv56;
+        "pkg-2.0.2+26.2" = _6TiYfsg9;
+        "pkg-2.0.2+26.1.2" = _hc1EQi5L;
+        "pkg-2.0.2+1.21.11" = _cIykAghV;
+        "default" = _cIykAghV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "compass-manhunt";

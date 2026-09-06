@@ -48,6 +48,7 @@ let
         "fabric-26.1" = _WXp30SQo;
         "fabric-26.1.1" = _WXp30SQo;
         "fabric-26.1.2" = _WXp30SQo;
+        "fabric-26.2" = _WXp30SQo;
         "quilt-1.16.4" = _gyLsjEk8;
         "quilt-1.16.5" = _gyLsjEk8;
         "quilt-1.17" = _gyLsjEk8;

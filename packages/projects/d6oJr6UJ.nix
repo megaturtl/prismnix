@@ -381,6 +381,36 @@ let
             "file" = "White_World-26.3-snapshot-6.zip";
             "hash" = "sha512-Ae4KjpwKmKv+mAXePapytPrj9a5xPDA1KuhFiVxHgsz7kA1i/Bzm7Bunyh1NRD92WhusSiIkcQt6ba0ZFg7eCA==";
         };
+        _kpkMActP = {
+            "id" = "kpkMActP";
+            "file" = "White_World-26.3-snapshot-7.zip";
+            "hash" = "sha512-aPjoKiAOgzjMzDVPA7WzDeAPHNJDko2z2v4YacTubc6AgrIzilkWWKRii8YWwRz7vJnzpuFYvBK4BBmNZ6Vp5A==";
+        };
+        _IMEJy8wD = {
+            "id" = "IMEJy8wD";
+            "file" = "White_World-26.3-snapshot-8.zip";
+            "hash" = "sha512-SYFngw5wFeH6Pv9uTv/zLU+kVLUBrZ8gRJVCuybY36AL8nS0aiAssenFOVKKsOXYPnrUZJYzKtmA+rrDBBBBNg==";
+        };
+        _NMWl0N0h = {
+            "id" = "NMWl0N0h";
+            "file" = "White_World-26.3-snapshot-9.zip";
+            "hash" = "sha512-M6ncQydzxojJYyx7zsTXXIvKS4xCJggLwtv+KoiMTUObSVJTT6TFCeh4ZYLKxjN1c80R6vLkygzsKgBrpTrxkw==";
+        };
+        _aDzkzsLQ = {
+            "id" = "aDzkzsLQ";
+            "file" = "White_World-26.3-snapshot-10.zip";
+            "hash" = "sha512-F9L0QibKoD63Qq59vkDyfsuFJ7U3QgNcyw4huLkRoBgLXwUOQOxeDzb4Mpprz4EBrIV7KQDTAc809AWZPOAHiw==";
+        };
+        _WdU1zzAY = {
+            "id" = "WdU1zzAY";
+            "file" = "White_World-26.3-pre-1.zip";
+            "hash" = "sha512-qWIzrHTYavckmY5KUKnMeEgUreQTLrm3opyHiGrmsfgflUd9F/P2MFfUXYxLLkMLJaKz8FTlI1yGLr9lKxJtjg==";
+        };
+        _EUcyhUoH = {
+            "id" = "EUcyhUoH";
+            "file" = "White_World-26.3-pre-2.zip";
+            "hash" = "sha512-0mz38+XEa5dfmFGt94aPd/NGPNcUnd9+RoZ9sysOoYlQ1oKgyxrg4/I3qWykJScoEZagerHFnsqJ9nfdRI3AZg==";
+        };
     in {
         "v8ZKFZg4" = _v8ZKFZg4;
         "7fqGw8BV" = _7fqGw8BV;
@@ -458,6 +488,12 @@ let
         "8HPnPMcG" = _8HPnPMcG;
         "egfvCLB8" = _egfvCLB8;
         "KsXFw48v" = _KsXFw48v;
+        "kpkMActP" = _kpkMActP;
+        "IMEJy8wD" = _IMEJy8wD;
+        "NMWl0N0h" = _NMWl0N0h;
+        "aDzkzsLQ" = _aDzkzsLQ;
+        "WdU1zzAY" = _WdU1zzAY;
+        "EUcyhUoH" = _EUcyhUoH;
         "minecraft-1.21.1" = _NHkPdcU4;
         "minecraft-1.20" = _RaJoNvI0;
         "minecraft-1.20.1" = _RaJoNvI0;
@@ -516,11 +552,17 @@ let
         "minecraft-26.3-snapshot-4" = _8HPnPMcG;
         "minecraft-26.3-snapshot-5" = _egfvCLB8;
         "minecraft-26.3-snapshot-6" = _KsXFw48v;
+        "minecraft-26.3-snapshot-7" = _kpkMActP;
+        "minecraft-26.3-snapshot-8" = _IMEJy8wD;
+        "minecraft-26.3-snapshot-9" = _NMWl0N0h;
+        "minecraft-26.3-snapshot-10" = _aDzkzsLQ;
+        "minecraft-26.3-pre-1" = _WdU1zzAY;
+        "minecraft-26.3-pre-2" = _EUcyhUoH;
         "pkg-1.0" = _v8ZKFZg4;
         "pkg-1.1" = _jqDsVYnT;
         "pkg-1.2" = _ibfBR6VX;
-        "pkg-1.3" = _KsXFw48v;
-        "default" = _KsXFw48v;
+        "pkg-1.3" = _EUcyhUoH;
+        "default" = _EUcyhUoH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "white-world";

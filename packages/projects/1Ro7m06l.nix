@@ -326,6 +326,41 @@ let
             "file" = "titanium-26.1.2-4.0.2.jar";
             "hash" = "sha512-tB4rbrf9DC5uMzr3SxBpzst1H1nbvBKwhsWChyIBuePeM6k9tJz8l28SRq3kCOk59VCIwKBcle7gma7g66BOrA==";
         };
+        _aRwsqN9I = {
+            "id" = "aRwsqN9I";
+            "file" = "titanium-26.1.2-4.0.3.jar";
+            "hash" = "sha512-O+FNv0Q3A+t5xryeFsuhDNe0LDApxI9WXmtzZf1q4v5UsxjjyTfRlb7Aj0TeQWTcqwil6P2RgD0ylZZrGrEoug==";
+        };
+        _BNVfWU3I = {
+            "id" = "BNVfWU3I";
+            "file" = "titanium-26.1.2-4.0.5.jar";
+            "hash" = "sha512-09hmCXOug778k4YivO9S8eJo7nRKD0wmmO4uYzIkgqQDMJ/1wvKgFmvw/5XeN0xLopdY2LMe9G/Oxs8p/rOOxw==";
+        };
+        _o1RaOSv0 = {
+            "id" = "o1RaOSv0";
+            "file" = "titanium-26.1.2-4.0.6.jar";
+            "hash" = "sha512-TQNK3RMV2dMFAog4i2skn2ngrq2nK2a354AGQVGSwInmmerl211ZriPGLScqOYUaXNsCXzsnird+Kd1t8knaUA==";
+        };
+        _81dQePDV = {
+            "id" = "81dQePDV";
+            "file" = "titanium-26.1.2-4.0.7.jar";
+            "hash" = "sha512-ch8zPZg6g44BwnZrgOlHQttCFRXiTIBN1pNcCSkzIoBmrncZERznxVg0VwmsckRai0Zcp5aMPJ5y09Xq2Qd1Wg==";
+        };
+        _tZF13NYy = {
+            "id" = "tZF13NYy";
+            "file" = "titanium-26.1.2-4.0.8.jar";
+            "hash" = "sha512-FCaS0Q8bIk8xmnuaMoKlh3dzKcwZGUxCqr7OsRYq6JQPXbDcQae59Euv03uD/X3ISIU77XtD0a6xLRnpjHIB+Q==";
+        };
+        _Vo4g2PfW = {
+            "id" = "Vo4g2PfW";
+            "file" = "titanium-1.21-4.0.49.jar";
+            "hash" = "sha512-MEXF02K9sQRd6uhmMEhQdVp3SiYu/5uVEHrYPK26CZFlzdwUUiUStJK/urHFPiqczzgziKWjXcp8j3PBgcSjCA==";
+        };
+        _zCzYA9mW = {
+            "id" = "zCzYA9mW";
+            "file" = "titanium-1.21-4.0.50.jar";
+            "hash" = "sha512-hWnk0zMbqKI/Z79GsGl9aloyXe7WloI87eaNjU/vEZZp8QhnZwd692ATIRYX/vbAzt4xDFt9/Bs/mn83v4Q5CA==";
+        };
     in {
         "C671K5PG" = _C671K5PG;
         "f8zZ2kK5" = _f8zZ2kK5;
@@ -392,14 +427,21 @@ let
         "LMqbm4db" = _LMqbm4db;
         "982IDhtw" = _982IDhtw;
         "LE8KP4u2" = _LE8KP4u2;
+        "aRwsqN9I" = _aRwsqN9I;
+        "BNVfWU3I" = _BNVfWU3I;
+        "o1RaOSv0" = _o1RaOSv0;
+        "81dQePDV" = _81dQePDV;
+        "tZF13NYy" = _tZF13NYy;
+        "Vo4g2PfW" = _Vo4g2PfW;
+        "zCzYA9mW" = _zCzYA9mW;
         "forge-1.19.2" = _C671K5PG;
         "forge-1.18.2" = _f8zZ2kK5;
         "forge-1.14.4" = _pJxuKoTg;
         "forge-1.16.5" = _U2ihcjtm;
         "forge-1.20.1" = _LMqbm4db;
-        "neoforge-1.21" = _7AWtSmd7;
-        "neoforge-1.21.1" = _7AWtSmd7;
-        "neoforge-26.1.2" = _LE8KP4u2;
+        "neoforge-1.21" = _zCzYA9mW;
+        "neoforge-1.21.1" = _zCzYA9mW;
+        "neoforge-26.1.2" = _tZF13NYy;
         "pkg-3.7.3" = _C671K5PG;
         "pkg-3.5.9" = _f8zZ2kK5;
         "pkg-2.2.10" = _pJxuKoTg;
@@ -465,7 +507,14 @@ let
         "pkg-1.20.1-3.8.35" = _LMqbm4db;
         "pkg-26.1.2-4.0.1" = _982IDhtw;
         "pkg-26.1.2-4.0.2" = _LE8KP4u2;
-        "default" = _LE8KP4u2;
+        "pkg-26.1.2-4.0.3" = _aRwsqN9I;
+        "pkg-26.1.2-4.0.5" = _BNVfWU3I;
+        "pkg-26.1.2-4.0.6" = _o1RaOSv0;
+        "pkg-26.1.2-4.0.7" = _81dQePDV;
+        "pkg-26.1.2-4.0.8" = _tZF13NYy;
+        "pkg-1.21-4.0.49" = _Vo4g2PfW;
+        "pkg-1.21-4.0.50" = _zCzYA9mW;
+        "default" = _zCzYA9mW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "titanium";

@@ -78,6 +78,7 @@ let
         "bukkit-26.1" = _dGfCZHqk;
         "bukkit-26.1.1" = _dGfCZHqk;
         "bukkit-26.1.2" = _dGfCZHqk;
+        "bukkit-26.2" = _dGfCZHqk;
         "paper-1.17" = _QYObZ1PL;
         "paper-1.17.1" = _QYObZ1PL;
         "paper-1.18" = _QYObZ1PL;
@@ -110,6 +111,7 @@ let
         "paper-26.1" = _dGfCZHqk;
         "paper-26.1.1" = _dGfCZHqk;
         "paper-26.1.2" = _dGfCZHqk;
+        "paper-26.2" = _dGfCZHqk;
         "purpur-1.17" = _QYObZ1PL;
         "purpur-1.17.1" = _QYObZ1PL;
         "purpur-1.18" = _QYObZ1PL;
@@ -142,6 +144,7 @@ let
         "purpur-26.1" = _dGfCZHqk;
         "purpur-26.1.1" = _dGfCZHqk;
         "purpur-26.1.2" = _dGfCZHqk;
+        "purpur-26.2" = _dGfCZHqk;
         "spigot-1.17" = _QYObZ1PL;
         "spigot-1.17.1" = _QYObZ1PL;
         "spigot-1.18" = _QYObZ1PL;
@@ -174,6 +177,7 @@ let
         "spigot-26.1" = _dGfCZHqk;
         "spigot-26.1.1" = _dGfCZHqk;
         "spigot-26.1.2" = _dGfCZHqk;
+        "spigot-26.2" = _dGfCZHqk;
         "pkg-16.18.2" = _DulfD6iE;
         "pkg-16.18.2-beta2" = _QYObZ1PL;
         "pkg-16.18.3-beta1" = _S9WY4Kev;

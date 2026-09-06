@@ -26,19 +26,26 @@ let
             "file" = "synaxis-1.4.3.jar";
             "hash" = "sha512-XH40Ocdn6XbchrQXA14IA05Z86gz2SmwknhqQuVo1mkOaDUCYj5C78nqtEu9ApLwyshXZnotX8G7Zti7pwY2nw==";
         };
+        _RFBeUM47 = {
+            "id" = "RFBeUM47";
+            "file" = "synaxis-1.5.0.jar";
+            "hash" = "sha512-hRDbzWqU40icWXyvht4StxI2FFUOaHX8/QlO3egO65NcVhtsG6JJve5NVsVgaDCYgKUDkfGVZaO2otigCG2EyA==";
+        };
     in {
         "WGfszWj2" = _WGfszWj2;
         "69USAn7M" = _69USAn7M;
         "Th1GDsiT" = _Th1GDsiT;
         "KnVJhNRQ" = _KnVJhNRQ;
         "idBeMbm2" = _idBeMbm2;
-        "neoforge-1.21.1" = _idBeMbm2;
+        "RFBeUM47" = _RFBeUM47;
+        "neoforge-1.21.1" = _RFBeUM47;
         "pkg-1.0.4" = _WGfszWj2;
         "pkg-1.1.7" = _69USAn7M;
         "pkg-1.2.0" = _Th1GDsiT;
         "pkg-1.2.1" = _KnVJhNRQ;
         "pkg-1.4.3" = _idBeMbm2;
-        "default" = _idBeMbm2;
+        "pkg-1.5.0" = _RFBeUM47;
+        "default" = _RFBeUM47;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "synaxis";

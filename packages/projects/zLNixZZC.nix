@@ -11,13 +11,20 @@ let
             "file" = "artisanal-1.7.3.jar";
             "hash" = "sha512-44K5CqJR5Mq9kOusYamSySnPxBpIVq3kTIXEIYBKG7irggCWD0+uU1yYAcjgFBlz9fCrB7CvVE33ZHXrc5nhNg==";
         };
+        _fk7c0BTO = {
+            "id" = "fk7c0BTO";
+            "file" = "artisanal-1.7.5.jar";
+            "hash" = "sha512-l5kgxzRGlbFO0JpL1GIBaHdJ2GANhAbCVyZZW300R9sG/OjU5vUgEmj4f7gOwkxIBEzctiNUeWS1Gm7PL4cXdQ==";
+        };
     in {
         "t3Tp4XiB" = _t3Tp4XiB;
         "jW59KnJq" = _jW59KnJq;
-        "forge-1.20.1" = _jW59KnJq;
+        "fk7c0BTO" = _fk7c0BTO;
+        "forge-1.20.1" = _fk7c0BTO;
         "pkg-1.6.2" = _t3Tp4XiB;
         "pkg-1.7.3" = _jW59KnJq;
-        "default" = _jW59KnJq;
+        "pkg-1.7.5" = _fk7c0BTO;
+        "default" = _fk7c0BTO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tfc-artisanal";

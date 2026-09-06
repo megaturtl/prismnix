@@ -41,6 +41,11 @@ let
             "file" = "corecommands-2.0.3.jar";
             "hash" = "sha512-NFPk2jHmaxMMJLeojVGkiwLaSAq3C4MzbEWCo1RcVjHkaLXmNyWfhHQXfhT7D76dUvAzEzE6qgiRfeJQIgZ4OA==";
         };
+        _uYVbvl2a = {
+            "id" = "uYVbvl2a";
+            "file" = "corecommands-2.2.0.jar";
+            "hash" = "sha512-BrNq46ucPCujySxJ6lH8yomZnQkihcl5AOFUG+ncN2yMqq+kOFekPgo5g1ClHJp7LpYLSu8a66rc7Da1czkXCw==";
+        };
     in {
         "QDSXyZIZ" = _QDSXyZIZ;
         "NTNTbXeQ" = _NTNTbXeQ;
@@ -50,24 +55,29 @@ let
         "6LItGJdC" = _6LItGJdC;
         "vAWxA3xi" = _vAWxA3xi;
         "IMXNkY0i" = _IMXNkY0i;
+        "uYVbvl2a" = _uYVbvl2a;
         "forge-1.20.1" = _bukhH8Vp;
         "forge-1.20.2" = _bukhH8Vp;
         "forge-1.20.3" = _bukhH8Vp;
         "forge-1.20.4" = _bukhH8Vp;
         "forge-1.20.5" = _bukhH8Vp;
         "forge-1.20.6" = _bukhH8Vp;
-        "neoforge-1.21" = _IMXNkY0i;
-        "neoforge-1.21.1" = _IMXNkY0i;
-        "neoforge-1.21.2" = _IMXNkY0i;
-        "neoforge-1.21.3" = _IMXNkY0i;
-        "neoforge-1.21.4" = _IMXNkY0i;
-        "neoforge-1.21.5" = _IMXNkY0i;
-        "neoforge-1.21.6" = _IMXNkY0i;
-        "neoforge-1.21.7" = _IMXNkY0i;
-        "neoforge-1.21.8" = _IMXNkY0i;
-        "neoforge-1.21.9" = _IMXNkY0i;
-        "neoforge-1.21.10" = _IMXNkY0i;
-        "neoforge-1.21.11" = _IMXNkY0i;
+        "neoforge-1.21" = _uYVbvl2a;
+        "neoforge-1.21.1" = _uYVbvl2a;
+        "neoforge-1.21.2" = _uYVbvl2a;
+        "neoforge-1.21.3" = _uYVbvl2a;
+        "neoforge-1.21.4" = _uYVbvl2a;
+        "neoforge-1.21.5" = _uYVbvl2a;
+        "neoforge-1.21.6" = _uYVbvl2a;
+        "neoforge-1.21.7" = _uYVbvl2a;
+        "neoforge-1.21.8" = _uYVbvl2a;
+        "neoforge-1.21.9" = _uYVbvl2a;
+        "neoforge-1.21.10" = _uYVbvl2a;
+        "neoforge-1.21.11" = _uYVbvl2a;
+        "neoforge-26.1" = _uYVbvl2a;
+        "neoforge-26.1.1" = _uYVbvl2a;
+        "neoforge-26.1.2" = _uYVbvl2a;
+        "neoforge-26.2" = _uYVbvl2a;
         "pkg-1.0.0" = _QDSXyZIZ;
         "pkg-1.0.1" = _NTNTbXeQ;
         "pkg-1.0.2" = _ytVOciNn;
@@ -75,7 +85,8 @@ let
         "pkg-2.0.1" = _6LItGJdC;
         "pkg-2.0.2" = _vAWxA3xi;
         "pkg-2.0.3" = _IMXNkY0i;
-        "default" = _IMXNkY0i;
+        "pkg-2.2.0" = _uYVbvl2a;
+        "default" = _uYVbvl2a;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "corecommands";

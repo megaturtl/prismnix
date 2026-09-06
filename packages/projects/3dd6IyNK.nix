@@ -21,19 +21,26 @@ let
             "file" = "Failrun 1.1.jar";
             "hash" = "sha512-FPDGmIzFrKE5UzsezsoRkid0WhFf7qk2kCiWa6lJPn+cLWHXqmNFImIcqPIZmM+KhDMA/gNAU7graAatv2+yrg==";
         };
+        _IYwplfN4 = {
+            "id" = "IYwplfN4";
+            "file" = "Failrun 1.11.jar";
+            "hash" = "sha512-KNKR1sOpihtTT6w1CnnpQcIaUYaR9Sbw47a1AFhPcRUwnh2CUVdChB1SC7I4eYBLQVvLL1Odfpmk75bWdeYp0g==";
+        };
     in {
         "hMO0xY1E" = _hMO0xY1E;
         "MABxtCTR" = _MABxtCTR;
         "OWTdlvgQ" = _OWTdlvgQ;
         "PBTdyKFW" = _PBTdyKFW;
+        "IYwplfN4" = _IYwplfN4;
         "datapack-1.21.1" = _OWTdlvgQ;
-        "fabric-1.21.1" = _PBTdyKFW;
+        "fabric-1.21.1" = _IYwplfN4;
         "forge-1.21.1" = _PBTdyKFW;
-        "neoforge-1.21.1" = _PBTdyKFW;
+        "neoforge-1.21.1" = _IYwplfN4;
         "quilt-1.21.1" = _PBTdyKFW;
         "pkg-1.0" = _MABxtCTR;
         "pkg-1.1" = _PBTdyKFW;
-        "default" = _PBTdyKFW;
+        "pkg-1.11" = _IYwplfN4;
+        "default" = _IYwplfN4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "failrun";

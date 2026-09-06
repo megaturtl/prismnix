@@ -256,6 +256,11 @@ let
             "file" = "carpetgui-1.3.5-hotfix+26.1.jar";
             "hash" = "sha512-Kx/MX3Mko83bIA/msrOwxupHmH9NDD48bKpTZTjpfQOq9tlBM8FDkru2NNhOKQFjBr8sumFWfhNv2HRrHlttcA==";
         };
+        _rVOzAFF1 = {
+            "id" = "rVOzAFF1";
+            "file" = "carpetgui-1.3.6+26.2.jar";
+            "hash" = "sha512-E/YhuCy9ewbunzaUedcXLQ1RsuINNCfOPo7bhxYq4WqllTgNTGb2fHh/mH3uNZWIhBBEvtxdX7vLJGAOf7slWQ==";
+        };
     in {
         "1j3MdiZ5" = _1j3MdiZ5;
         "d6JqXKqI" = _d6JqXKqI;
@@ -308,6 +313,7 @@ let
         "zDTWxYKx" = _zDTWxYKx;
         "nB4YEfo1" = _nB4YEfo1;
         "EaDwgrAz" = _EaDwgrAz;
+        "rVOzAFF1" = _rVOzAFF1;
         "fabric-1.21.4" = _HtyNvrKP;
         "fabric-1.21.5" = _HtyNvrKP;
         "fabric-1.19" = _FiXdshmq;
@@ -335,13 +341,15 @@ let
         "fabric-26.1" = _EaDwgrAz;
         "fabric-26.1.1" = _EaDwgrAz;
         "fabric-26.1.2" = _EaDwgrAz;
+        "fabric-26.2" = _rVOzAFF1;
         "pkg-carpetgui-1.0.0+1.21.4" = _1j3MdiZ5;
         "pkg-1.3.1" = _uMyJbTvz;
         "pkg-1.3.2" = _KUVPMKMS;
         "pkg-1.3.3" = _7U1vJ4kM;
         "pkg-1.3.4" = _bzuGnbqx;
         "pkg-1.3.5-hotfix" = _EaDwgrAz;
-        "default" = _EaDwgrAz;
+        "pkg-1.3.6" = _rVOzAFF1;
+        "default" = _rVOzAFF1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "carpetgui";

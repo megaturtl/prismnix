@@ -161,6 +161,11 @@ let
             "file" = "ChunkyMcChunkFace-26.1.1-1.0.0.jar";
             "hash" = "sha512-tWS16BZiJ7HeaQQQW+iPVUJUihBpgJpyWw8/zc4z/5+Su8z1R19KZ07zcny6ibcboh7rJxHIXNlS8k8mq1IrUA==";
         };
+        _LCo2KwYo = {
+            "id" = "LCo2KwYo";
+            "file" = "ChunkyMcChunkFace-26.2-2.0.0.jar";
+            "hash" = "sha512-0NfL2XXxHlqOH0XtQjP7SruWKKyy3rM+zzt0jdf+cgpiNidxJjGAwQExGJyrIMmFg4sueQExcc79KjBPzbekQQ==";
+        };
     in {
         "bsH11oJY" = _bsH11oJY;
         "VsFAZQpb" = _VsFAZQpb;
@@ -194,6 +199,7 @@ let
         "DfLrIcd9" = _DfLrIcd9;
         "mqKOdBCK" = _mqKOdBCK;
         "5BNuoyDm" = _5BNuoyDm;
+        "LCo2KwYo" = _LCo2KwYo;
         "forge-1.18.2" = _8arGpinO;
         "forge-1.19.2" = _peZFyjw3;
         "forge-1.19.3" = _x6K7B3FX;
@@ -211,6 +217,7 @@ let
         "neoforge-1.21.10" = _DfLrIcd9;
         "neoforge-1.21.11" = _mqKOdBCK;
         "neoforge-26.1.1" = _5BNuoyDm;
+        "neoforge-26.2" = _LCo2KwYo;
         "pkg-0.3.0" = _bsH11oJY;
         "pkg-0.3.1" = _dT6EqLV0;
         "pkg-0.3.2" = _A7O8FrqO;
@@ -228,7 +235,8 @@ let
         "pkg-0.8.0" = _DfLrIcd9;
         "pkg-0.9.0" = _mqKOdBCK;
         "pkg-1.0.0" = _5BNuoyDm;
-        "default" = _5BNuoyDm;
+        "pkg-2.0.0" = _LCo2KwYo;
+        "default" = _LCo2KwYo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chunky-mcchunkface";

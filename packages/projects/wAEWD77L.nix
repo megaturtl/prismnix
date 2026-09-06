@@ -117,6 +117,13 @@ let
         "fabric-26.2-rc-1" = _xbOUO6Hm;
         "fabric-26.2-rc-2" = _xbOUO6Hm;
         "fabric-26.2" = _xbOUO6Hm;
+        "fabric-26.3-snapshot-1" = _xbOUO6Hm;
+        "fabric-26.3-snapshot-2" = _xbOUO6Hm;
+        "fabric-26.3-snapshot-3" = _xbOUO6Hm;
+        "fabric-26.3-snapshot-4" = _xbOUO6Hm;
+        "fabric-26.3-snapshot-5" = _xbOUO6Hm;
+        "fabric-26.3-snapshot-6" = _xbOUO6Hm;
+        "fabric-26.3-snapshot-7" = _xbOUO6Hm;
         "neoforge-26.1-snapshot-10" = _LDssp35E;
         "neoforge-26.1-snapshot-11" = _LDssp35E;
         "neoforge-26.1" = _I0mQFG6n;

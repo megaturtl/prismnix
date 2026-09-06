@@ -191,6 +191,16 @@ let
             "file" = "RallyHealth-neoforge-26.1.2-3.0.0.jar";
             "hash" = "sha512-Pd68+fz6ggbAKrlg1dSdZUUEyydC0MqE/bDEhuVwfbpnEnDjynCNspDaiIe1F7coOXJ/9SvghWFKO5MV1P9Jgw==";
         };
+        _UEsvQUgA = {
+            "id" = "UEsvQUgA";
+            "file" = "RallyHealth-fabric-26.1.2-3.0.1.jar";
+            "hash" = "sha512-POiy/0m1bcFDtKn5ooSiqOiB4yzhupPgbk7io211lwss94E1MnPpbzkfcuWP6rhyk5HpK9vWiLbqZgSJkzz8yA==";
+        };
+        _rzHUH6GS = {
+            "id" = "rzHUH6GS";
+            "file" = "RallyHealth-neoforge-26.1.2-3.0.1.jar";
+            "hash" = "sha512-9s1dhvzIJ19KFhfWDjKLiV1Xvsbpz1rpDj2qX4S92VFI9OpJsW8i7EX0ou0KpaW9hmSQkaQZaZCpJ5UGdzEP6Q==";
+        };
     in {
         "kfBhgTSO" = _kfBhgTSO;
         "Wn4UXlLq" = _Wn4UXlLq;
@@ -230,6 +240,8 @@ let
         "Ibh3jXQP" = _Ibh3jXQP;
         "C2DtG8LW" = _C2DtG8LW;
         "cOh1soaA" = _cOh1soaA;
+        "UEsvQUgA" = _UEsvQUgA;
+        "rzHUH6GS" = _rzHUH6GS;
         "forge-1.18" = _kfBhgTSO;
         "forge-1.18.1" = _kfBhgTSO;
         "forge-1.18.2" = _kfBhgTSO;
@@ -258,7 +270,7 @@ let
         "fabric-1.21.8" = _KkBBq4lZ;
         "fabric-1.21.10" = _w3RnEaqC;
         "fabric-1.21.11" = _Ibh3jXQP;
-        "fabric-26.1.2" = _C2DtG8LW;
+        "fabric-26.1.2" = _UEsvQUgA;
         "neoforge-1.20.2" = _D6xmn9p6;
         "neoforge-1.20.4" = _H3401BEr;
         "neoforge-1.20.5" = _xiIS5czD;
@@ -268,7 +280,7 @@ let
         "neoforge-1.21.8" = _zjfYTjVj;
         "neoforge-1.21.10" = _HiJey65n;
         "neoforge-1.21.11" = _XKGeqqwG;
-        "neoforge-26.1.2" = _cOh1soaA;
+        "neoforge-26.1.2" = _rzHUH6GS;
         "pkg-1.2.0.3" = _kfBhgTSO;
         "pkg-1.2.0.2" = _Wn4UXlLq;
         "pkg-1.2.0.1" = _Agxn5NbK;
@@ -289,7 +301,8 @@ let
         "pkg-2.4.1" = _w3RnEaqC;
         "pkg-2.5.1" = _Ibh3jXQP;
         "pkg-3.0.0" = _cOh1soaA;
-        "default" = _cOh1soaA;
+        "pkg-3.0.1" = _rzHUH6GS;
+        "default" = _rzHUH6GS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rally-health";

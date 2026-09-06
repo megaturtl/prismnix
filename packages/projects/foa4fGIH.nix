@@ -356,6 +356,21 @@ let
             "file" = "rusticdelight-fabric-26.2-1.7.0.jar";
             "hash" = "sha512-gkD3SwJ21vv7iqPg69MgqGaKfyl5GO8NvW3GuMQnJq7PHdgK1cDep9VLDLg2GS5Xx/YPuQOkFiIL58hMp+9OIw==";
         };
+        _z29Gd3ec = {
+            "id" = "z29Gd3ec";
+            "file" = "rusticdelight-forge-1.20.1-1.7.0.jar";
+            "hash" = "sha512-MR/Tvi8Jg6QY699eVIxIjCNXeOWBi2ZQWl51NjdkoYib+T7MMoySSdw+7D19GPgLcpXBVBHsbc2+rlLR39oHWQ==";
+        };
+        _AP5yBetM = {
+            "id" = "AP5yBetM";
+            "file" = "rusticdelight-fabric-1.20.1-1.6.0.jar";
+            "hash" = "sha512-GBYjHgWjxWAplXV6t5h9O9I75tgrKNToMRlHJhV4E2hffOG53G+elHVksE6ZnOkwAZeed/e4BBZUfF4il6s18Q==";
+        };
+        _LC6U8ozn = {
+            "id" = "LC6U8ozn";
+            "file" = "rusticdelight-fabric-1.20.1-1.7.0.jar";
+            "hash" = "sha512-sSmC6X5YcK25r7P/of667RJlA/mn93iOhKgj4qeG/xVzi+obAE9cRo2K/quvENn3pkxV8KS23VeKTQg48t90XQ==";
+        };
     in {
         "oEsfYQ6G" = _oEsfYQ6G;
         "l33R3zgm" = _l33R3zgm;
@@ -428,14 +443,17 @@ let
         "sAaG4pSA" = _sAaG4pSA;
         "kVLLFl6q" = _kVLLFl6q;
         "Ioo3Id1t" = _Ioo3Id1t;
+        "z29Gd3ec" = _z29Gd3ec;
+        "AP5yBetM" = _AP5yBetM;
+        "LC6U8ozn" = _LC6U8ozn;
         "neoforge-1.21" = _sAaG4pSA;
         "neoforge-1.21.1" = _sAaG4pSA;
         "neoforge-1.20.1" = _Q904t3Qn;
-        "forge-1.20.1" = _Q904t3Qn;
+        "forge-1.20.1" = _z29Gd3ec;
         "forge-1.19.2" = _w58d5SIH;
         "fabric-1.21.1" = _VAEiChba;
         "fabric-1.21" = _VAEiChba;
-        "fabric-1.20.1" = _z2oTqnXx;
+        "fabric-1.20.1" = _LC6U8ozn;
         "fabric-1.21.5" = _CMIlBfkr;
         "fabric-1.21.6" = _IpkRndBu;
         "fabric-1.21.7" = _HJGBYWpE;
@@ -466,12 +484,12 @@ let
         "pkg-1.5.2" = _LtCySLDC;
         "pkg-1.5.3" = _aVGeGNtu;
         "pkg-1.5.4" = _oXFAuLx3;
-        "pkg-1.6.0" = _VhNML2Cv;
+        "pkg-1.6.0" = _AP5yBetM;
         "pkg-1.6.1" = _WBO5jhQU;
-        "pkg-1.7.0" = _Ioo3Id1t;
+        "pkg-1.7.0" = _LC6U8ozn;
         "pkg-1.7.1" = _sAaG4pSA;
         "pkg-1.7.2" = _rodFprNy;
-        "default" = _Ioo3Id1t;
+        "default" = _LC6U8ozn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rustic-delight";

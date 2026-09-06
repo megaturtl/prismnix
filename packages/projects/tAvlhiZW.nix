@@ -301,6 +301,11 @@ let
             "file" = "fzmm-mc26.1.1-0.2.20.jar";
             "hash" = "sha512-jyxyXFxn/s6Vx614uO5eS2c39CwMg7SFV+H5CruVntutGVfUNAtM431up4CA+a7oaUr1y2wMo3oOiXNnZDCv/w==";
         };
+        _yvlxC2rF = {
+            "id" = "yvlxC2rF";
+            "file" = "fzmm-mc26.2-0.2.20.jar";
+            "hash" = "sha512-g9jkgeYRf8/uSuQSvmpxZm3RgHvonWt3vdh9m6eRrKdpDnmsWSEdgTzzTmBjBE7XE4KDB0817kC2WT0NErglOQ==";
+        };
     in {
         "REabq1FB" = _REabq1FB;
         "mOmLsbqA" = _mOmLsbqA;
@@ -362,6 +367,7 @@ let
         "iOjbWYq3" = _iOjbWYq3;
         "VvWW6W10" = _VvWW6W10;
         "9CN4Xrlj" = _9CN4Xrlj;
+        "yvlxC2rF" = _yvlxC2rF;
         "fabric-1.19.2" = _REabq1FB;
         "fabric-1.19.3" = _7qGYJkXk;
         "fabric-1.19.4" = _nCPyVEEv;
@@ -385,6 +391,7 @@ let
         "fabric-26.1" = _9CN4Xrlj;
         "fabric-26.1.1" = _9CN4Xrlj;
         "fabric-26.1.2" = _9CN4Xrlj;
+        "fabric-26.2" = _yvlxC2rF;
         "pkg-0.1.0-BETA-2" = _REabq1FB;
         "pkg-0.1.0-BETA-3" = _mOmLsbqA;
         "pkg-0.1" = _au6MmePW;
@@ -445,7 +452,8 @@ let
         "pkg-0.2.20-1.20.4" = _iOjbWYq3;
         "pkg-0.2.20-1.21.11" = _VvWW6W10;
         "pkg-0.2.20-26.1.1" = _9CN4Xrlj;
-        "default" = _9CN4Xrlj;
+        "pkg-0.2.20-26.2" = _yvlxC2rF;
+        "default" = _yvlxC2rF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fzmm";

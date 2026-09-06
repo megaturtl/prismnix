@@ -171,6 +171,11 @@ let
             "file" = "BlockHistory-26.1.2-3.0.0.jar";
             "hash" = "sha512-c0f3uEYtzD/FUiOsSUjLRK0AILbBdddkHe649wekV1vIyZx3WY3ENXhv1eDyj8/+AzAwBRmlvo6Pj1gQya8PHg==";
         };
+        _tRPTDZpv = {
+            "id" = "tRPTDZpv";
+            "file" = "BlockHistory-26.2-4.0.0.jar";
+            "hash" = "sha512-GA0I6l0j1/wEfntRGxkz+hMhNfK1S83RdsxKeC/BreVx0iXR3yeF6a/aUq7QrAO2q++bsbmZqbpE5fW19kpafw==";
+        };
     in {
         "r49RFfkk" = _r49RFfkk;
         "cGyLBvqM" = _cGyLBvqM;
@@ -206,6 +211,7 @@ let
         "SDVdTYro" = _SDVdTYro;
         "nmywxYdA" = _nmywxYdA;
         "aXKVXtIv" = _aXKVXtIv;
+        "tRPTDZpv" = _tRPTDZpv;
         "forge-1.18" = _r49RFfkk;
         "forge-1.18.1" = _r49RFfkk;
         "forge-1.18.2" = _pEirJslV;
@@ -230,6 +236,7 @@ let
         "neoforge-1.21.8" = _SDVdTYro;
         "neoforge-1.21.11" = _nmywxYdA;
         "neoforge-26.1.2" = _aXKVXtIv;
+        "neoforge-26.2" = _tRPTDZpv;
         "pkg-1.2.0.3" = _r49RFfkk;
         "pkg-1.2.0.2" = _cGyLBvqM;
         "pkg-1.2.0.1" = _EwvJS97t;
@@ -245,7 +252,8 @@ let
         "pkg-2.0.2" = _ACqjVf2i;
         "pkg-2.0.3" = _nmywxYdA;
         "pkg-3.0.0" = _aXKVXtIv;
-        "default" = _aXKVXtIv;
+        "pkg-4.0.0" = _tRPTDZpv;
+        "default" = _tRPTDZpv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "block-history";

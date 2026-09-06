@@ -1,48 +1,13 @@
 {lib, callPackage, ...}:
 let
     versions = (let
-        _gTO4MZTv = {
-            "id" = "gTO4MZTv";
-            "file" = "golden knight.zip";
-            "hash" = "sha512-LmN3LJLRLvl9g+YwsY+Lr0RUNmiD0Vn+SjOnXTpc25To8qB2ZL3BU4gmzshbAy6984/WABZsPLQLQbi7BQ/F/Q==";
-        };
-        _kCpWSlMq = {
-            "id" = "kCpWSlMq";
-            "file" = "golden knight.zip";
-            "hash" = "sha512-4hdqaHjSjsJCa6O3FtW9XCTBq1FscPC7tZtNAy1qTbYB3tCCcE+P5PEbuviIVVW9uYQk5zaTkfKFzgA+1viGJQ==";
-        };
         _rXH4dQBC = {
             "id" = "rXH4dQBC";
             "file" = "golden knight.zip";
             "hash" = "sha512-lEq9XtrC04dGsAUMOR3Ay6RYltZ8XjOkncyqnhig5L59nhjtbTqEi7FkvPmtFRyCDqiKAuBeEO2rUv6Etm5BJw==";
         };
     in {
-        "gTO4MZTv" = _gTO4MZTv;
-        "kCpWSlMq" = _kCpWSlMq;
         "rXH4dQBC" = _rXH4dQBC;
-        "minecraft-1.16.2" = _rXH4dQBC;
-        "minecraft-1.16.3" = _rXH4dQBC;
-        "minecraft-1.16.4" = _rXH4dQBC;
-        "minecraft-1.16.5" = _rXH4dQBC;
-        "minecraft-1.17" = _rXH4dQBC;
-        "minecraft-1.17.1" = _rXH4dQBC;
-        "minecraft-1.18" = _rXH4dQBC;
-        "minecraft-1.18.1" = _rXH4dQBC;
-        "minecraft-1.18.2" = _rXH4dQBC;
-        "minecraft-1.19" = _rXH4dQBC;
-        "minecraft-1.19.1" = _rXH4dQBC;
-        "minecraft-1.19.2" = _rXH4dQBC;
-        "minecraft-1.19.3" = _rXH4dQBC;
-        "minecraft-1.19.4" = _rXH4dQBC;
-        "minecraft-1.20" = _rXH4dQBC;
-        "minecraft-1.20.1" = _rXH4dQBC;
-        "minecraft-1.20.2" = _rXH4dQBC;
-        "minecraft-1.20.3" = _rXH4dQBC;
-        "minecraft-1.20.4" = _rXH4dQBC;
-        "minecraft-1.20.5" = _rXH4dQBC;
-        "minecraft-1.20.6" = _rXH4dQBC;
-        "minecraft-1.21" = _rXH4dQBC;
-        "minecraft-1.21.1" = _rXH4dQBC;
         "minecraft-1.6.1" = _rXH4dQBC;
         "minecraft-1.6.2" = _rXH4dQBC;
         "minecraft-1.6.4" = _rXH4dQBC;
@@ -92,22 +57,41 @@ let
         "minecraft-1.15.2" = _rXH4dQBC;
         "minecraft-1.16" = _rXH4dQBC;
         "minecraft-1.16.1" = _rXH4dQBC;
+        "minecraft-1.16.2" = _rXH4dQBC;
+        "minecraft-1.16.3" = _rXH4dQBC;
+        "minecraft-1.16.4" = _rXH4dQBC;
+        "minecraft-1.16.5" = _rXH4dQBC;
+        "minecraft-1.17" = _rXH4dQBC;
+        "minecraft-1.17.1" = _rXH4dQBC;
+        "minecraft-1.18" = _rXH4dQBC;
+        "minecraft-1.18.1" = _rXH4dQBC;
+        "minecraft-1.18.2" = _rXH4dQBC;
+        "minecraft-1.19" = _rXH4dQBC;
+        "minecraft-1.19.1" = _rXH4dQBC;
+        "minecraft-1.19.2" = _rXH4dQBC;
         "minecraft-22w42a" = _rXH4dQBC;
         "minecraft-22w43a" = _rXH4dQBC;
         "minecraft-22w44a" = _rXH4dQBC;
+        "minecraft-1.19.3" = _rXH4dQBC;
+        "minecraft-1.19.4" = _rXH4dQBC;
         "minecraft-23w14a" = _rXH4dQBC;
         "minecraft-23w16a" = _rXH4dQBC;
+        "minecraft-1.20" = _rXH4dQBC;
+        "minecraft-1.20.1" = _rXH4dQBC;
         "minecraft-23w31a" = _rXH4dQBC;
         "minecraft-23w32a" = _rXH4dQBC;
         "minecraft-23w33a" = _rXH4dQBC;
         "minecraft-23w35a" = _rXH4dQBC;
         "minecraft-1.20.2-pre1" = _rXH4dQBC;
+        "minecraft-1.20.2" = _rXH4dQBC;
         "minecraft-23w42a" = _rXH4dQBC;
         "minecraft-23w43a" = _rXH4dQBC;
         "minecraft-23w43b" = _rXH4dQBC;
         "minecraft-23w44a" = _rXH4dQBC;
         "minecraft-23w45a" = _rXH4dQBC;
         "minecraft-23w46a" = _rXH4dQBC;
+        "minecraft-1.20.3" = _rXH4dQBC;
+        "minecraft-1.20.4" = _rXH4dQBC;
         "minecraft-24w03a" = _rXH4dQBC;
         "minecraft-24w03b" = _rXH4dQBC;
         "minecraft-24w04a" = _rXH4dQBC;
@@ -125,10 +109,14 @@ let
         "minecraft-1.20.5-pre1" = _rXH4dQBC;
         "minecraft-1.20.5-pre2" = _rXH4dQBC;
         "minecraft-1.20.5-pre3" = _rXH4dQBC;
+        "minecraft-1.20.5" = _rXH4dQBC;
+        "minecraft-1.20.6" = _rXH4dQBC;
         "minecraft-24w18a" = _rXH4dQBC;
         "minecraft-24w19a" = _rXH4dQBC;
         "minecraft-24w19b" = _rXH4dQBC;
         "minecraft-24w20a" = _rXH4dQBC;
+        "minecraft-1.21" = _rXH4dQBC;
+        "minecraft-1.21.1" = _rXH4dQBC;
         "minecraft-1.21.2" = _rXH4dQBC;
         "minecraft-1.21.3" = _rXH4dQBC;
         "minecraft-1.21.4" = _rXH4dQBC;
@@ -139,8 +127,6 @@ let
         "minecraft-1.21.9" = _rXH4dQBC;
         "minecraft-1.21.10" = _rXH4dQBC;
         "minecraft-1.21.11" = _rXH4dQBC;
-        "pkg-1.0" = _gTO4MZTv;
-        "pkg-2.0" = _kCpWSlMq;
         "pkg-2.0.1" = _rXH4dQBC;
         "default" = _rXH4dQBC;
     });

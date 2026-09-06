@@ -96,6 +96,31 @@ let
             "file" = "flavor_immersed_daily-2026.7.16-neoforge-1.21.1.jar";
             "hash" = "sha512-82tYanBDmJdzwXk3CS03tE1kKtMRML2/3/dBM6YvVFLNxHXn662UfWZvn0Vx/VeHdvD3RWiytSUnroc983spTg==";
         };
+        _zfaY85SC = {
+            "id" = "zfaY85SC";
+            "file" = "flavor_immersed_daily-2026.8.9.jar";
+            "hash" = "sha512-XH8XuKe7x4NYUznI1yRgalE/ji9dmXESK8S/JuGhyR1WXYno5RXRxsEdPi4xp/xeHcb/OnoXMQWf3zKEsA2OEg==";
+        };
+        _f2a37MM8 = {
+            "id" = "f2a37MM8";
+            "file" = "flavor_immersed_daily-2026.8.10.jar";
+            "hash" = "sha512-OQH04GvMupzEuWJ+SYy90JJu2yF/TNXt7eCwhOnrIwnW2Mn6nkvfFxcJxkm0npxpKOjkur55PtxKWT7evzeHsQ==";
+        };
+        _r2JFp9ZH = {
+            "id" = "r2JFp9ZH";
+            "file" = "flavor_immersed_daily-2026.8.10.jar";
+            "hash" = "sha512-uG3qZwovMUvlNlEEpa1JCf9tf2w7ZDnpwe0HmGDamcoLm2UYaVsnW+xoSAqRPBLcSoBIZ6SUxmapB9qhfhpPhA==";
+        };
+        _QiqJua52 = {
+            "id" = "QiqJua52";
+            "file" = "flavor_immersed_daily-2026.8.16.jar";
+            "hash" = "sha512-BKZjg3xayzhpsyvWdONKS7KOGFUIEruTMkzKxVYxbfRDDUx0vbgBzxFc53Pv7VegZUGx2b2X4bo/2XSqHtraiQ==";
+        };
+        _xyCF29ay = {
+            "id" = "xyCF29ay";
+            "file" = "flavor_immersed_daily-2026.8.26.jar";
+            "hash" = "sha512-JUIv8nTrlz6BjKDLl/reTbH1CNI8IOrloJY1/PalAbnqS5xd+Qbv5VCVyx8NcZHtjVxNEZg7/9Jk4HAVLdYMMg==";
+        };
     in {
         "rAGJbJLU" = _rAGJbJLU;
         "zAVcBhuD" = _zAVcBhuD;
@@ -116,9 +141,14 @@ let
         "6sGF27t9" = _6sGF27t9;
         "owffr49Z" = _owffr49Z;
         "4Il121xc" = _4Il121xc;
+        "zfaY85SC" = _zfaY85SC;
+        "f2a37MM8" = _f2a37MM8;
+        "r2JFp9ZH" = _r2JFp9ZH;
+        "QiqJua52" = _QiqJua52;
+        "xyCF29ay" = _xyCF29ay;
         "forge-1.20.1" = _owffr49Z;
         "forge-1.21.1" = _GRR4zzkl;
-        "neoforge-1.21.1" = _4Il121xc;
+        "neoforge-1.21.1" = _xyCF29ay;
         "pkg-1.0.7.1" = _rAGJbJLU;
         "pkg-1.1.0" = _7xQCnBge;
         "pkg-1.1.0.1" = _nsh9w6XY;
@@ -131,7 +161,11 @@ let
         "pkg-2026.7.8" = _n5YKXFVU;
         "pkg-2026.7.12" = _6sGF27t9;
         "pkg-2026.7.16" = _4Il121xc;
-        "default" = _4Il121xc;
+        "pkg-2026.8.9" = _zfaY85SC;
+        "pkg-2026.8.10" = _r2JFp9ZH;
+        "pkg-2026.8.16" = _QiqJua52;
+        "pkg-2026.8.26" = _xyCF29ay;
+        "default" = _xyCF29ay;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flavorimmerseddaily";

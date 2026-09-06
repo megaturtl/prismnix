@@ -96,6 +96,21 @@ let
             "file" = "arcanum-26.1.2-10.1.1.2.jar";
             "hash" = "sha512-ffnxefHLKb69349fIlphLsBZfE4ZVUQQdvuBSqTUA1PgmE39WRWwLgrPCvCVozepK68bCp+gcv0UALGqAMgMpw==";
         };
+        _hbqklvWZ = {
+            "id" = "hbqklvWZ";
+            "file" = "arcanum-26.2-10.2.0.0.jar";
+            "hash" = "sha512-cwK5dRN7ChCjNbzf+VeDbnAnmHa5J6iV8ZdrhL+w/yvJEcnyn6lxv9xJegIf+Gc1SvT/RAeOZKl9VrGeAprKjw==";
+        };
+        _vvYSDkP2 = {
+            "id" = "vvYSDkP2";
+            "file" = "arcanum-26.2-fabric-26.2-10.2.1.0.jar";
+            "hash" = "sha512-16XIT0mx0/YKoMz25uMQHl2LXEgFLebkg4L6ks67Z+Iv3A7bo9HvxQncIYkM7bVkA8aqpDibGLr9sv7pSJmyKw==";
+        };
+        _NzJzYFNb = {
+            "id" = "NzJzYFNb";
+            "file" = "arcanum-26.2-neoforge-26.2-10.2.1.0.jar";
+            "hash" = "sha512-SY9SJX+6BaovWHwx9eSrWVt5SlyEr58d94hpb9sqT1sqA47B5c6Ag/yFddeTKetsU9OmecBICVql2TB2Beygtw==";
+        };
     in {
         "ttODSxaw" = _ttODSxaw;
         "9M5sorzm" = _9M5sorzm;
@@ -116,6 +131,9 @@ let
         "ak6vHYJB" = _ak6vHYJB;
         "8W8CYpXy" = _8W8CYpXy;
         "pC8VoB46" = _pC8VoB46;
+        "hbqklvWZ" = _hbqklvWZ;
+        "vvYSDkP2" = _vvYSDkP2;
+        "NzJzYFNb" = _NzJzYFNb;
         "forge-1.20.1" = _KltCFcSI;
         "forge-1.18.2" = _VIUsH5uZ;
         "forge-1.16.5" = _ZGPpEV1v;
@@ -125,6 +143,8 @@ let
         "neoforge-1.20.1" = _KltCFcSI;
         "neoforge-1.21.11" = _OoUDHBTy;
         "neoforge-26.1.2" = _pC8VoB46;
+        "neoforge-26.2" = _NzJzYFNb;
+        "fabric-26.2" = _vvYSDkP2;
         "pkg-1.20.1-8.0.0.0" = _ttODSxaw;
         "pkg-1.20.1-8.0.0.1" = _9M5sorzm;
         "pkg-1.18.2-7.0.1.0" = _VIUsH5uZ;
@@ -144,7 +164,9 @@ let
         "pkg-26.1.2-10.1.1.0" = _ak6vHYJB;
         "pkg-26.1.2-10.1.1.1" = _8W8CYpXy;
         "pkg-26.1.2-10.1.1.2" = _pC8VoB46;
-        "default" = _pC8VoB46;
+        "pkg-26.2-10.2.0.0" = _hbqklvWZ;
+        "pkg-26.2-10.2.1.0" = _NzJzYFNb;
+        "default" = _NzJzYFNb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "arcanum";

@@ -21,24 +21,36 @@ let
             "file" = "happy_ghasts_boost-merged-1.21.1-1.0.1.jar";
             "hash" = "sha512-MjzZIDfuzRRJQx1vKIE5iJeP8CTKyyUMcAl1fY/xA3dmUpVoez+ZRLoe3Ws+eXYps9aXI+cWYF4V7GZTnUfBEg==";
         };
+        _Iztc9QzR = {
+            "id" = "Iztc9QzR";
+            "file" = "happy_ghasts_boost-merged-26.1.2-1.0.0.jar";
+            "hash" = "sha512-v2WJZAJGC1X0nhR/XXtTfcNpxmptXSYRv2OVjLWiwEQuSzsAm0TJI3HoSc68tg/sbR6fW+L6JCFPQF0KGbAK/Q==";
+        };
     in {
         "lZRIyg01" = _lZRIyg01;
         "g6Z1O7Ru" = _g6Z1O7Ru;
         "E370xzHP" = _E370xzHP;
         "BBppKQR1" = _BBppKQR1;
+        "Iztc9QzR" = _Iztc9QzR;
         "fabric-1.20.1" = _lZRIyg01;
         "fabric-1.21" = _BBppKQR1;
         "fabric-1.21.1" = _BBppKQR1;
         "fabric-1.21.9" = _E370xzHP;
         "fabric-1.21.10" = _E370xzHP;
+        "fabric-26.1" = _Iztc9QzR;
+        "fabric-26.1.1" = _Iztc9QzR;
+        "fabric-26.1.2" = _Iztc9QzR;
         "forge-1.20.1" = _lZRIyg01;
         "neoforge-1.21" = _BBppKQR1;
         "neoforge-1.21.1" = _BBppKQR1;
         "neoforge-1.21.9" = _E370xzHP;
         "neoforge-1.21.10" = _E370xzHP;
-        "pkg-1.0.0" = _E370xzHP;
+        "neoforge-26.1" = _Iztc9QzR;
+        "neoforge-26.1.1" = _Iztc9QzR;
+        "neoforge-26.1.2" = _Iztc9QzR;
+        "pkg-1.0.0" = _Iztc9QzR;
         "pkg-1.0.1" = _BBppKQR1;
-        "default" = _BBppKQR1;
+        "default" = _Iztc9QzR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "happy-ghasts-boost";

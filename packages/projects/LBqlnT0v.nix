@@ -91,6 +91,11 @@ let
             "file" = "quickshare-1.0.5.jar";
             "hash" = "sha512-AodAULzL/eY7b/4+dclaOBP1ESNOQWgpAg/qSnAtViK8Xr8cxlP5erdyZVyMEjFPS5F1jB2hIdPonnGIKZc7ZA==";
         };
+        _qrVVjXrb = {
+            "id" = "qrVVjXrb";
+            "file" = "quickshare-1.0.6.jar";
+            "hash" = "sha512-BcvLdPZ6Fa6ZOQA3K3hOfVW4ZMa+WGMii/aOIcAidgPJOsjJfVL7uOhKS6MtT/dVhsMD8DUGu1MIE7B/TZoRAQ==";
+        };
     in {
         "vtFuCNLO" = _vtFuCNLO;
         "G6mrkL9q" = _G6mrkL9q;
@@ -110,6 +115,7 @@ let
         "1Bj1c448" = _1Bj1c448;
         "R7pDNfBc" = _R7pDNfBc;
         "qSGZJzDb" = _qSGZJzDb;
+        "qrVVjXrb" = _qrVVjXrb;
         "fabric-1.21.11" = _xZTHiiBw;
         "fabric-1.21.9" = _sLJ1sfGR;
         "fabric-1.21.10" = _sLJ1sfGR;
@@ -125,14 +131,15 @@ let
         "fabric-26.1" = _R7pDNfBc;
         "fabric-26.1.1" = _R7pDNfBc;
         "fabric-26.1.2" = _R7pDNfBc;
-        "fabric-26.2" = _qSGZJzDb;
+        "fabric-26.2" = _qrVVjXrb;
         "pkg-1.0.0" = _rQxtMc2R;
         "pkg-1.0.1" = _ylzh6xet;
         "pkg-1.0.2" = _xZTHiiBw;
         "pkg-1.0.3" = _1Bj1c448;
         "pkg-1.0.4" = _R7pDNfBc;
         "pkg-1.0.5" = _qSGZJzDb;
-        "default" = _qSGZJzDb;
+        "pkg-1.0.6" = _qrVVjXrb;
+        "default" = _qrVVjXrb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "llitematica-quick-share-addon";

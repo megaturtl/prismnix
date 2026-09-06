@@ -96,6 +96,16 @@ let
             "file" = "LightingWand-mc26.1-NeoForge-26.0.1.jar";
             "hash" = "sha512-ibXWJKzgs4822Lw8glUCRxkvy/fWBmN3064TU+zugwT3UW7iRGjoO+kh35BECBIsg5NDNHYZyv7TW2j9oBWcmw==";
         };
+        _DP3615OJ = {
+            "id" = "DP3615OJ";
+            "file" = "LightingWand-mc26.1-Fabric-26.0.2.jar";
+            "hash" = "sha512-uetL1WNYxWhvSHvsfAX2fzgBGAj+6wlvtA9iP6Hl82h1Rc46mI3k79lsp6c/FNScb0sYEMltkpgP1HlFAY1qig==";
+        };
+        _qkCokzSI = {
+            "id" = "qkCokzSI";
+            "file" = "LightingWand-mc26.1-NeoForge-26.0.2.jar";
+            "hash" = "sha512-zlANVZc58axGWkU1LTqr7RgEusZtLrJHwoK0AezakhZxPDFvGkSfukBurHnsmyGkxYrDjYvEtv3C0/6zUWO+HQ==";
+        };
     in {
         "kbrrnOUO" = _kbrrnOUO;
         "ksJ6do1b" = _ksJ6do1b;
@@ -116,6 +126,8 @@ let
         "t2gHgjYk" = _t2gHgjYk;
         "Hc8BMAFB" = _Hc8BMAFB;
         "GE5JO6rA" = _GE5JO6rA;
+        "DP3615OJ" = _DP3615OJ;
+        "qkCokzSI" = _qkCokzSI;
         "fabric-1.19" = _kbrrnOUO;
         "fabric-1.19.1" = _kbrrnOUO;
         "fabric-1.19.2" = _kbrrnOUO;
@@ -125,9 +137,9 @@ let
         "fabric-1.20.1" = _xLBkqCvs;
         "fabric-1.21" = _6oQGQHYa;
         "fabric-1.21.1" = _t2gHgjYk;
-        "fabric-26.1" = _Hc8BMAFB;
-        "fabric-26.1.1" = _Hc8BMAFB;
-        "fabric-26.1.2" = _Hc8BMAFB;
+        "fabric-26.1" = _DP3615OJ;
+        "fabric-26.1.1" = _DP3615OJ;
+        "fabric-26.1.2" = _DP3615OJ;
         "forge-1.19.2" = _q6SBNmDZ;
         "forge-1.18.2" = _WGl22qTw;
         "forge-1.19.3" = _tSxwjzvx;
@@ -137,15 +149,15 @@ let
         "quilt-1.20.1" = _xLBkqCvs;
         "quilt-1.21" = _6oQGQHYa;
         "quilt-1.21.1" = _t2gHgjYk;
-        "quilt-26.1" = _Hc8BMAFB;
-        "quilt-26.1.1" = _Hc8BMAFB;
-        "quilt-26.1.2" = _Hc8BMAFB;
+        "quilt-26.1" = _DP3615OJ;
+        "quilt-26.1.1" = _DP3615OJ;
+        "quilt-26.1.2" = _DP3615OJ;
         "neoforge-1.20" = _9IWkfX7V;
         "neoforge-1.20.1" = _9IWkfX7V;
         "neoforge-1.21.1" = _NSFmUuxQ;
-        "neoforge-26.1" = _GE5JO6rA;
-        "neoforge-26.1.1" = _GE5JO6rA;
-        "neoforge-26.1.2" = _GE5JO6rA;
+        "neoforge-26.1" = _qkCokzSI;
+        "neoforge-26.1.1" = _qkCokzSI;
+        "neoforge-26.1.2" = _qkCokzSI;
         "pkg-5.0.0" = _kbrrnOUO;
         "pkg-4.0.0" = _ksJ6do1b;
         "pkg-5.1.0" = _q6SBNmDZ;
@@ -163,7 +175,9 @@ let
         "pkg-9.0.3+fabric" = _t2gHgjYk;
         "pkg-26.0.1+fabric" = _Hc8BMAFB;
         "pkg-26.0.1+neoforge" = _GE5JO6rA;
-        "default" = _GE5JO6rA;
+        "pkg-26.0.2+fabric" = _DP3615OJ;
+        "pkg-26.0.2+neoforge" = _qkCokzSI;
+        "default" = _qkCokzSI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lighting-wand";

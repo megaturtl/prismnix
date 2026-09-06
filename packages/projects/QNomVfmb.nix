@@ -26,19 +26,26 @@ let
             "file" = "bf-2.5.0.jar";
             "hash" = "sha512-BQ5myeQLLsmkMv0qRZKzNfqb8MMYmRuLXbLlnTt6Zr/3glMYvkR5YH5BZbFK46FboAzwElW4gBQDgOgkdQvFHQ==";
         };
+        _G1rk854O = {
+            "id" = "G1rk854O";
+            "file" = "fo18-3.0.jar";
+            "hash" = "sha512-O/f4O8a+9syomFkDTDd+BDMwoACNM5bz1jiUtY9FkVhzjOLFouNTe1gGJv0xaeZ9Mxh/wRhBpNttpRS1eDSUcw==";
+        };
     in {
         "jbkSYQZO" = _jbkSYQZO;
         "lFaSg8xU" = _lFaSg8xU;
         "3j8VXSNO" = _3j8VXSNO;
         "Li3Wv12Q" = _Li3Wv12Q;
         "Bd3l8MXO" = _Bd3l8MXO;
-        "forge-1.20.1" = _Bd3l8MXO;
+        "G1rk854O" = _G1rk854O;
+        "forge-1.20.1" = _G1rk854O;
         "pkg-1.0" = _jbkSYQZO;
         "pkg-1.1" = _lFaSg8xU;
         "pkg-1.2" = _3j8VXSNO;
         "pkg-2.0.0" = _Li3Wv12Q;
         "pkg-2.5.0" = _Bd3l8MXO;
-        "default" = _Bd3l8MXO;
+        "pkg-3.0.0" = _G1rk854O;
+        "default" = _G1rk854O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fields-of-1918";

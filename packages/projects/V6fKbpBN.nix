@@ -201,6 +201,46 @@ let
             "file" = "integrated_api-1.7.3+1.21.1-fabric.jar";
             "hash" = "sha512-hbK3dSfjbInEVAcenf0lNQopuQ1XotGhZp1o/5kn9vUIgxJJ7/43u4Y4i3LNqOfr658ouKkaISJbrYxX/yipvg==";
         };
+        _WUdosYb7 = {
+            "id" = "WUdosYb7";
+            "file" = "integrated_api-forge-1.20.1-1.8.0.jar";
+            "hash" = "sha512-7YV83uczw9mkHTRhJg3pf2a/i49jjyxLFl65YVX5Kac8Xky3LAYMnwyJZ2moc1Ab4Nqx03/XZXwB8m8UHuLuug==";
+        };
+        _dofnJFeG = {
+            "id" = "dofnJFeG";
+            "file" = "integrated_api-fabric-1.20.1-1.8.0.jar";
+            "hash" = "sha512-4F/5+iVbVAzK468Pdjw8flmN1EiYjer0E7g3hKyvayLhbvNhCwELP7LLCPV8RYUFHp4zf+R/oDE5Dk+JDruELg==";
+        };
+        _QFz7Z17d = {
+            "id" = "QFz7Z17d";
+            "file" = "integrated_api-fabric-1.21.1-1.8.0.jar";
+            "hash" = "sha512-kdfaM9k2BSmLCrKMvyNb48ZHoEE/UmDCYFclD7qORGKhByQWJOJ6Iwgxd2LwSpTpsc/rLih4lh3cFQHaYIvdGw==";
+        };
+        _cKHoMnZX = {
+            "id" = "cKHoMnZX";
+            "file" = "integrated_api-neoforge-1.21.1-1.8.0.jar";
+            "hash" = "sha512-Aoz1vmZn3XYKcPmjAk3ePwXezwqUKlS5mivuJelUUyq+ni61frLF5id1mjeQIwm4vn4LEU+hYSzKtueHxS6p+A==";
+        };
+        _mYq8fJX1 = {
+            "id" = "mYq8fJX1";
+            "file" = "integrated_api-fabric-26.1-1.8.0.jar";
+            "hash" = "sha512-EQhLgZa/hB3jGfkVH3BTFWiH+QtDGYfM8FqHO6DL8/X6LC+r5eCz9bhzMNGd5KlnQ5a5VKb75frtpZh5hRI7OQ==";
+        };
+        _IRuumW4v = {
+            "id" = "IRuumW4v";
+            "file" = "integrated_api-fabric-26.2-1.8.0.jar";
+            "hash" = "sha512-WYkiNYpaUUo48p4x0PdWNECk4pfTICifAYtB26pW2PrjhtWy7GvDrpCsSyPUWn8s7DtE+zJhv8/kn29TvmC4ng==";
+        };
+        _7PI6yS2l = {
+            "id" = "7PI6yS2l";
+            "file" = "integrated_api-neoforge-26.2-1.8.0.jar";
+            "hash" = "sha512-pCL7xrA8wd+qv4peZXNOVKRLhWOEIK9Cr3V23nXNKCEtl/FpZnllumEpj+D3Uf4nFPDKn7IfoVhdr+x7UYpQeA==";
+        };
+        _sE8lyFe8 = {
+            "id" = "sE8lyFe8";
+            "file" = "integrated_api-neoforge-26.1-1.8.0.jar";
+            "hash" = "sha512-RmV6dUcDzaRkLDkuoZyozxfGS5F1PaB48XLWZK3h/DEfPyuDfkoBuJfKtEHw93aAYVLjaOzJ906l4xVcH+jpjg==";
+        };
     in {
         "5yc2hrVB" = _5yc2hrVB;
         "Lb2zpmc5" = _Lb2zpmc5;
@@ -242,14 +282,30 @@ let
         "xG1v7vOD" = _xG1v7vOD;
         "X16u6myK" = _X16u6myK;
         "DX29yQyz" = _DX29yQyz;
-        "forge-1.20.1" = _xG1v7vOD;
+        "WUdosYb7" = _WUdosYb7;
+        "dofnJFeG" = _dofnJFeG;
+        "QFz7Z17d" = _QFz7Z17d;
+        "cKHoMnZX" = _cKHoMnZX;
+        "mYq8fJX1" = _mYq8fJX1;
+        "IRuumW4v" = _IRuumW4v;
+        "7PI6yS2l" = _7PI6yS2l;
+        "sE8lyFe8" = _sE8lyFe8;
+        "forge-1.20.1" = _WUdosYb7;
         "forge-1.19.2" = _hI0NwMYj;
         "forge-1.18.2" = _YBzhebMF;
-        "fabric-1.20.1" = _8BrEhJJw;
+        "fabric-1.20.1" = _dofnJFeG;
         "fabric-1.19.2" = _RfARXm0a;
-        "fabric-1.21.1" = _DX29yQyz;
+        "fabric-1.21.1" = _QFz7Z17d;
+        "fabric-26.1" = _mYq8fJX1;
+        "fabric-26.1.1" = _mYq8fJX1;
+        "fabric-26.1.2" = _mYq8fJX1;
+        "fabric-26.2" = _IRuumW4v;
         "neoforge-1.20.1" = _56sc1bo2;
-        "neoforge-1.21.1" = _X16u6myK;
+        "neoforge-1.21.1" = _cKHoMnZX;
+        "neoforge-26.2" = _7PI6yS2l;
+        "neoforge-26.1" = _sE8lyFe8;
+        "neoforge-26.1.1" = _sE8lyFe8;
+        "neoforge-26.1.2" = _sE8lyFe8;
         "pkg-1.3.0+1.20.1-forge" = _5yc2hrVB;
         "pkg-1.3.0+1.20.1-fabric" = _Lb2zpmc5;
         "pkg-1.2.7" = _7SGUUzlW;
@@ -290,7 +346,8 @@ let
         "pkg-1.7.2+1.20.1-forge" = _xG1v7vOD;
         "pkg-1.7.3+1.21.1-neoforge" = _X16u6myK;
         "pkg-1.7.3+1.21.1-fabric" = _DX29yQyz;
-        "default" = _DX29yQyz;
+        "pkg-1.8.0" = _sE8lyFe8;
+        "default" = _sE8lyFe8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "integrated-api";
@@ -298,12 +355,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+            license = lib.getLicenseFromSpdxIdOr "AGPL-3.0-only" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "LicenseRef-All-Rights-Reserved";
-                shortName = "LicenseRef-All-Rights-Reserved";
+                fullName = "GNU Affero General Public License v3.0 only";
+                shortName = "AGPL-3.0-only";
                 url = null;
             };
         };

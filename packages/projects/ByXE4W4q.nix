@@ -51,15 +51,15 @@ let
             "file" = "SignFinder-1.3.1-1.21.11.jar";
             "hash" = "sha512-Ic+Ed64Pm0aqwWVdjYdKBLZW1pRXWsgxDKcKiRhOrzrfdk/Gh8IGHX8+KliW7VgwKExnnqtiZQMnbvRzAsJqjA==";
         };
-        _CFvDKDkf = {
-            "id" = "CFvDKDkf";
-            "file" = "SignFinder-1.3.1-26.1.2.jar";
-            "hash" = "sha512-fZCsYWwSbABgzHxC7W9Vuqk0hEcyvyhWXOgIzMXvZ35MQ6iS3TqoRjmJvuW1WkFtMme3eIa4qpXMvkrmVhLeTw==";
-        };
         _GLnn0Psm = {
             "id" = "GLnn0Psm";
             "file" = "SignFinder-1.3.1-26.1.2.jar";
             "hash" = "sha512-fZCsYWwSbABgzHxC7W9Vuqk0hEcyvyhWXOgIzMXvZ35MQ6iS3TqoRjmJvuW1WkFtMme3eIa4qpXMvkrmVhLeTw==";
+        };
+        _WWhyVXEH = {
+            "id" = "WWhyVXEH";
+            "file" = "SignFinder-1.3.2-26.2.jar";
+            "hash" = "sha512-D4xfSvc/dcWjzJO5l+iwJuneCw3FW3D+NmZVgHFhnaRbNG+HvdOTx/LIj8Od/OVLL2xEJ6wZfg17pj66K618aQ==";
         };
     in {
         "dtzYRkji" = _dtzYRkji;
@@ -72,8 +72,8 @@ let
         "8FKZKqBk" = _8FKZKqBk;
         "XgfZim2o" = _XgfZim2o;
         "wAOXzk1U" = _wAOXzk1U;
-        "CFvDKDkf" = _CFvDKDkf;
         "GLnn0Psm" = _GLnn0Psm;
+        "WWhyVXEH" = _WWhyVXEH;
         "fabric-1.21.6" = _ng1o1kDr;
         "fabric-1.21.7" = _ng1o1kDr;
         "fabric-1.21.8" = _ng1o1kDr;
@@ -85,10 +85,10 @@ let
         "fabric-1.21.1" = _8FKZKqBk;
         "fabric-1.21.9" = _XgfZim2o;
         "fabric-1.21.11" = _wAOXzk1U;
-        "fabric-26.2" = _CFvDKDkf;
         "fabric-26.1" = _GLnn0Psm;
         "fabric-26.1.1" = _GLnn0Psm;
         "fabric-26.1.2" = _GLnn0Psm;
+        "fabric-26.2" = _WWhyVXEH;
         "pkg-1.0.0-MC1.21.7-Fabric" = _dtzYRkji;
         "pkg-1.2.0-1.21.7" = _DL82GWGH;
         "pkg-1.3.1-1.21.4" = _HXqQkS5q;
@@ -100,7 +100,8 @@ let
         "pkg-1.3.1-1.21.9" = _XgfZim2o;
         "pkg-1.3.1-1.21.11" = _wAOXzk1U;
         "pkg-1.3.1-26.1.2" = _GLnn0Psm;
-        "default" = _GLnn0Psm;
+        "pkg-1.3.2-26.2" = _WWhyVXEH;
+        "default" = _WWhyVXEH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "signfinder";

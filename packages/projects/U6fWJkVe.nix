@@ -36,6 +36,16 @@ let
             "file" = "techguns-2.1.3.0.jar";
             "hash" = "sha512-ciHUI1tlICCnNT0989p8x4sVMWkE5/AUQYWBzxSGFf+LwC/UB4RrVZ295jgjshSrwkOM6ts5U9RgFbVJ5pjdNw==";
         };
+        _qMZiBrGl = {
+            "id" = "qMZiBrGl";
+            "file" = "techguns-2.2.0.0.jar";
+            "hash" = "sha512-dLrQ3V41KFKKxm+rBa9FXx6+nxC0x3wOLYDfaJxZV8czfRX1qlvIlh/B/lm65lAHLAs+C2FpJv66PvERgqK/sQ==";
+        };
+        _fbzBNaZi = {
+            "id" = "fbzBNaZi";
+            "file" = "techguns-2.2.0.1.jar";
+            "hash" = "sha512-26brbs6MycmzqDFtyubR7ALtDOXL0fEschDqL/tEeM/yloL59bv71zjbWYU1hvKC3oRFpeVp2xrRwGnUSZn79w==";
+        };
     in {
         "7WOhCPPC" = _7WOhCPPC;
         "6kW6aMHE" = _6kW6aMHE;
@@ -44,7 +54,9 @@ let
         "hAGDGLNc" = _hAGDGLNc;
         "cLEYWwOd" = _cLEYWwOd;
         "EyFtwytY" = _EyFtwytY;
-        "forge-1.12.2" = _EyFtwytY;
+        "qMZiBrGl" = _qMZiBrGl;
+        "fbzBNaZi" = _fbzBNaZi;
+        "forge-1.12.2" = _fbzBNaZi;
         "pkg-2.0.2.3" = _7WOhCPPC;
         "pkg-2.1.0.0" = _6kW6aMHE;
         "pkg-2.1.1.0" = _E0nJuNlK;
@@ -52,7 +64,9 @@ let
         "pkg-2.1.1.2" = _hAGDGLNc;
         "pkg-2.1.2.0" = _cLEYWwOd;
         "pkg-2.1.3.0" = _EyFtwytY;
-        "default" = _EyFtwytY;
+        "pkg-2.2.0.0" = _qMZiBrGl;
+        "pkg-2.2.0.1" = _fbzBNaZi;
+        "default" = _fbzBNaZi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "techguns";

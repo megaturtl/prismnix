@@ -31,7 +31,7 @@ let
         "default" = _gJyt4FwB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
-        name = "cultural-crators";
+        name = "cultural-creators";
         id = "dsR1i0P9";
         type = "mod";
         versions = versions;

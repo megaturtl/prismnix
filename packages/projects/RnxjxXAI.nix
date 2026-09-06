@@ -226,6 +226,16 @@ let
             "file" = "horsestatsmod-neoforge-26.2-3.5.2.jar";
             "hash" = "sha512-F4oBZ9aHbyV7C6MOZdq7wAwInYLt5w2LhdxHd/NjOrpbi7yicSb6g9B0z2mlJsqRoP069Gc/8WPCUH1bqfRgGw==";
         };
+        _vBaHKDDL = {
+            "id" = "vBaHKDDL";
+            "file" = "horsestatsmod-forge-26.2-3.5.2.jar";
+            "hash" = "sha512-Gs6Ff6+w+87oIhg8GH7Upd2jFauJA+ENNR4uF/keTx3XrZL8a2ZroFt34ZOQcM6bclVVA2gh5H5cINH3N98BlQ==";
+        };
+        _Hy4gZ7jn = {
+            "id" = "Hy4gZ7jn";
+            "file" = "horsestatsmod-neoforge-26.2-3.5.3.jar";
+            "hash" = "sha512-rllU5u2W68MuJoyx4sUOx3sU7A9pt1Hj6BOizI2ImwH4oLn6eN2ec/PGKKNAjIpqP7xCWlXmy7UfRd9OeRMm6g==";
+        };
     in {
         "X7iBGCY0" = _X7iBGCY0;
         "rMfYye8P" = _rMfYye8P;
@@ -272,6 +282,8 @@ let
         "b0x4kGdI" = _b0x4kGdI;
         "srBxHeQV" = _srBxHeQV;
         "gisWqZY4" = _gisWqZY4;
+        "vBaHKDDL" = _vBaHKDDL;
+        "Hy4gZ7jn" = _Hy4gZ7jn;
         "forge-1.19" = _X7iBGCY0;
         "forge-1.18" = _rMfYye8P;
         "forge-1.18.1" = _rMfYye8P;
@@ -291,6 +303,7 @@ let
         "forge-1.20.4" = _k7UNEHU1;
         "forge-1.21" = _2Togn5TD;
         "forge-1.21.1" = _2Togn5TD;
+        "forge-26.2" = _vBaHKDDL;
         "fabric-1.21.1" = _bh7SkQl4;
         "fabric-1.21.3" = _UsRc9TFQ;
         "fabric-1.21.4" = _mTrJpCHk;
@@ -316,7 +329,7 @@ let
         "neoforge-1.21.11" = _SWkBWngM;
         "neoforge-26.1.1" = _ZmJxtRJe;
         "neoforge-26.1.2" = _1GwBBBsr;
-        "neoforge-26.2" = _gisWqZY4;
+        "neoforge-26.2" = _Hy4gZ7jn;
         "pkg-1.4.4" = _X7iBGCY0;
         "pkg-1.4.3" = _rMfYye8P;
         "pkg-1.4.2" = _LQfKGXDG;
@@ -337,7 +350,9 @@ let
         "pkg-3.5.1-MC26.2-fabric" = _b0x4kGdI;
         "pkg-3.5.2-MC26.2-fabric" = _srBxHeQV;
         "pkg-3.5.2-MC26.2-neoforge" = _gisWqZY4;
-        "default" = _gisWqZY4;
+        "pkg-3.5.2-MC26.2-forge" = _vBaHKDDL;
+        "pkg-3.5.3-MC26.2-neoforge" = _Hy4gZ7jn;
+        "default" = _Hy4gZ7jn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "horse-statistics";

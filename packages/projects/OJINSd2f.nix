@@ -198,7 +198,7 @@ let
         "default" = _z7fPmBSB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
-        name = "simple-color_";
+        name = "simple-color-";
         id = "OJINSd2f";
         type = "resourcepack";
         versions = versions;

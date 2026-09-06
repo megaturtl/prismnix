@@ -876,6 +876,11 @@ let
             "file" = "[PGC]Primogem Craft-26w30a-1.21.1-NeoForge.jar";
             "hash" = "sha512-hNs+9XYP6kfZ3RYD5SZc4sWlL2yn6KhfM7nH2zPgcMQUzH9vjp6aiVga/fhlETpAxm6VYlH58G9wRJPFLgE9iw==";
         };
+        _bTCGYq3I = {
+            "id" = "bTCGYq3I";
+            "file" = "[PGC]Primogem Craft-26w35a-1.21.1-NeoForge.jar";
+            "hash" = "sha512-u8IZH6AMMReBf8UXkOY7qF9pik7+0JLm5O33ZbjFdE4LVHaNNtKLfcMhcVGwjAoEd77r6p9sfKXOM7hUmZeNoQ==";
+        };
     in {
         "xc0x9OEB" = _xc0x9OEB;
         "rvBXJf7O" = _rvBXJf7O;
@@ -1052,13 +1057,14 @@ let
         "y4dSl9wW" = _y4dSl9wW;
         "4lE3gWIO" = _4lE3gWIO;
         "ipkFhvzH" = _ipkFhvzH;
+        "bTCGYq3I" = _bTCGYq3I;
         "forge-1.16.5" = _noVp8AfN;
         "forge-1.18.2" = _oKlsE0mp;
         "forge-1.19.4" = _GG7X78An;
         "forge-1.19.2" = _2jp7b9Yu;
         "forge-1.20.1" = _3AhJY4En;
         "neoforge-1.20.6" = _xM1EcTMr;
-        "neoforge-1.21.1" = _ipkFhvzH;
+        "neoforge-1.21.1" = _bTCGYq3I;
         "pkg-0.1" = _xc0x9OEB;
         "pkg-1.04" = _rvBXJf7O;
         "pkg-1.05" = _6brnkVPH;
@@ -1205,7 +1211,8 @@ let
         "pkg-26w10a" = _y4dSl9wW;
         "pkg-2611" = _4lE3gWIO;
         "pkg-26w30a" = _ipkFhvzH;
-        "default" = _ipkFhvzH;
+        "pkg-2635" = _bTCGYq3I;
+        "default" = _bTCGYq3I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "2primogem-craft";

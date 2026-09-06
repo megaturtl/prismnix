@@ -306,6 +306,11 @@ let
             "file" = "LegendControl-Defender-3.5.0-1.16.5-Forge.jar";
             "hash" = "sha512-UsB4olO65BrulWD9OcU8zm2ZV3ms5q8o3RWZ81nyKYEgx8fmNBYYZxhcTuQzlrax/NVPhPjmx2oLVXTTk6S7Xg==";
         };
+        _T65JqeNL = {
+            "id" = "T65JqeNL";
+            "file" = "LegendControl-Defender-3.5.1-1.21.1-NeoForge.jar";
+            "hash" = "sha512-bzFxcLt59Tv5cYIZHIJJ+lg+IeJz2sy8i0ST4LVT3KWBK4i4FUF5BzdSkqq8Iq3zZWSEsH6Z+sn82cjfWRf1Og==";
+        };
     in {
         "N6hPycf2" = _N6hPycf2;
         "ItHCoNuZ" = _ItHCoNuZ;
@@ -368,9 +373,10 @@ let
         "6KikAbXF" = _6KikAbXF;
         "JnIhIqKa" = _JnIhIqKa;
         "qL7WxdCx" = _qL7WxdCx;
+        "T65JqeNL" = _T65JqeNL;
         "forge-1.16.5" = _qL7WxdCx;
         "forge-1.12.2" = _JnIhIqKa;
-        "neoforge-1.21.1" = _6KikAbXF;
+        "neoforge-1.21.1" = _T65JqeNL;
         "pkg-3.0.0" = _N6hPycf2;
         "pkg-3.0.1" = _ItHCoNuZ;
         "pkg-3.0.2" = _58UOsvrD;
@@ -403,7 +409,8 @@ let
         "pkg-3.4.1" = _1fgkjsL8;
         "pkg-3.4.2" = _rYRkUC30;
         "pkg-3.5.0" = _qL7WxdCx;
-        "default" = _qL7WxdCx;
+        "pkg-3.5.1" = _T65JqeNL;
+        "default" = _T65JqeNL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legendcontrol-defender";

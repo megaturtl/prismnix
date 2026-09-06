@@ -71,6 +71,16 @@ let
             "file" = "§aInvPet §6Fox §fWinter §7[v1.9.1]§0.zip";
             "hash" = "sha512-0zi7pqI/2xULXV3+TSMiMk7AemTs+CZ5WsZ0AaQWbbaZWb6m/+GyIBb7jsebq62/H+yBUOx0wD0Ipc7ExUoQtg==";
         };
+        _PV7ZQkDt = {
+            "id" = "PV7ZQkDt";
+            "file" = "§aInvPet §6Fox §7[v1.10]§0.zip";
+            "hash" = "sha512-TTu1CFZ1pH+tBuRr+6Fi2tSjAyskSQ7muW4KkLiAsyl5BXtj3WVfjZTziXi3uaPRItab0fRSbOhAHqOzd/NY8w==";
+        };
+        _3JNJ8Tej = {
+            "id" = "3JNJ8Tej";
+            "file" = "§aInvPet §6Fox §fWinter §7[v1.10.1]§0.zip";
+            "hash" = "sha512-U0bUfjA/+N9nRor9H1EuQhgtZG5OaKWmDAVyFBoDix6ieas9aTIaIt5S8Zs24/BdyJxK0kr1oATXu6TY5Jzmrg==";
+        };
     in {
         "so7l3t1E" = _so7l3t1E;
         "jBzGpFQ0" = _jBzGpFQ0;
@@ -86,6 +96,8 @@ let
         "fJDh1p05" = _fJDh1p05;
         "gr2DJg2X" = _gr2DJg2X;
         "IhCemB1V" = _IhCemB1V;
+        "PV7ZQkDt" = _PV7ZQkDt;
+        "3JNJ8Tej" = _3JNJ8Tej;
         "minecraft-1.20.6" = _IhCemB1V;
         "minecraft-1.21" = _IhCemB1V;
         "minecraft-1.20.5" = _IhCemB1V;
@@ -102,9 +114,13 @@ let
         "minecraft-1.21.6" = _IhCemB1V;
         "minecraft-1.21.7" = _IhCemB1V;
         "minecraft-1.21.8" = _IhCemB1V;
-        "minecraft-1.21.9" = _IhCemB1V;
-        "minecraft-1.21.10" = _IhCemB1V;
-        "minecraft-1.21.11" = _IhCemB1V;
+        "minecraft-1.21.9" = _3JNJ8Tej;
+        "minecraft-1.21.10" = _3JNJ8Tej;
+        "minecraft-1.21.11" = _3JNJ8Tej;
+        "minecraft-26.1" = _3JNJ8Tej;
+        "minecraft-26.1.1" = _3JNJ8Tej;
+        "minecraft-26.1.2" = _3JNJ8Tej;
+        "minecraft-26.2" = _3JNJ8Tej;
         "pkg-1.0" = _so7l3t1E;
         "pkg-1.1" = _jBzGpFQ0;
         "pkg-1.2" = _WxMkmEu3;
@@ -119,7 +135,9 @@ let
         "pkg-1.8" = _fJDh1p05;
         "pkg-1.9" = _gr2DJg2X;
         "pkg-1.9.1" = _IhCemB1V;
-        "default" = _IhCemB1V;
+        "pkg-1.10" = _PV7ZQkDt;
+        "pkg-1.10.1" = _3JNJ8Tej;
+        "default" = _3JNJ8Tej;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fox-pet-inventory";

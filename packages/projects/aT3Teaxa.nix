@@ -66,6 +66,11 @@ let
             "file" = "Middle-earth-1.0.1-1.21.8-beta.jar";
             "hash" = "sha512-ltm65qohGol8zWufrMsiuiRufqm5Gkt/BcF6QifEAWuuAX8dHFr/bbLZQNcRBHSVAtOkEX3gAE+7XyhXwfKHYw==";
         };
+        _lMHaDo84 = {
+            "id" = "lMHaDo84";
+            "file" = "Middle-earth-1.0.2-1.21.8-beta.jar";
+            "hash" = "sha512-I1rYFGgcSNg++B2kThJ4KLHaZrM94BLXRjGwfA2HpvDuFkR8p8YiGA0csMvQYc8b5qNaQqrVnyvH9HPHIjEkjg==";
+        };
     in {
         "C7LVKNyf" = _C7LVKNyf;
         "H2aYQVp7" = _H2aYQVp7;
@@ -80,10 +85,11 @@ let
         "LtHTW0iC" = _LtHTW0iC;
         "kNgMo82c" = _kNgMo82c;
         "IWiMJS7T" = _IWiMJS7T;
+        "lMHaDo84" = _lMHaDo84;
         "fabric-1.19.4" = _H2aYQVp7;
         "fabric-1.20.1" = _287BNQQ3;
         "fabric-1.21.1" = _LtHTW0iC;
-        "fabric-1.21.8" = _IWiMJS7T;
+        "fabric-1.21.8" = _lMHaDo84;
         "pkg-alpha-1.0.0-1.19.4" = _C7LVKNyf;
         "pkg-alpha-1.1.0-1.19.4" = _H2aYQVp7;
         "pkg-alpha-1.2.0-1.20.1" = _g0qYHRgj;
@@ -97,7 +103,8 @@ let
         "pkg-1.5.3-1.21.1-alpha" = _LtHTW0iC;
         "pkg-1.0.0-1.21.8-beta" = _kNgMo82c;
         "pkg-1.0.1-1.21.8-beta" = _IWiMJS7T;
-        "default" = _IWiMJS7T;
+        "pkg-1.0.2-1.21.8-beta" = _lMHaDo84;
+        "default" = _lMHaDo84;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "middle-earth";

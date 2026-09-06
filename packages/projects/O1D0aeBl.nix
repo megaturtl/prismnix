@@ -29,6 +29,13 @@ let
         "minecraft-1.21.6" = _kFlEAl1A;
         "minecraft-1.21.7" = _kFlEAl1A;
         "minecraft-1.21.8" = _kFlEAl1A;
+        "minecraft-1.21.9" = _kFlEAl1A;
+        "minecraft-1.21.10" = _kFlEAl1A;
+        "minecraft-1.21.11" = _kFlEAl1A;
+        "minecraft-26.1" = _kFlEAl1A;
+        "minecraft-26.1.1" = _kFlEAl1A;
+        "minecraft-26.1.2" = _kFlEAl1A;
+        "minecraft-26.2" = _kFlEAl1A;
         "pkg-1" = _kFlEAl1A;
         "default" = _kFlEAl1A;
     });

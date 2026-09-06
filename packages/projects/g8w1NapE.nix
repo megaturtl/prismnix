@@ -251,6 +251,11 @@ let
             "file" = "fabrictailor-2.9.1.jar";
             "hash" = "sha512-f7Soyllxch0AqB43nOHptoJs1Cyey2Cbg9F1fMr0iSg16HIcxMi7qWppgIypuWR+g/P01uCIXxiFRRLXfwWm6Q==";
         };
+        _5uXKmDJ0 = {
+            "id" = "5uXKmDJ0";
+            "file" = "fabrictailor-2.10.0.jar";
+            "hash" = "sha512-E910xknM2HCzrrXshegy+rS8KiQjeCJqyKuqm1U8GL+4NY3iVd/R8tZlRRBuxsmc+hQLbihJu8lMGWUSN+jvmA==";
+        };
     in {
         "IaqjvW8D" = _IaqjvW8D;
         "LDPoRX0l" = _LDPoRX0l;
@@ -302,6 +307,7 @@ let
         "kp3Bvut1" = _kp3Bvut1;
         "s8Xeepdr" = _s8Xeepdr;
         "7hgePJ8c" = _7hgePJ8c;
+        "5uXKmDJ0" = _5uXKmDJ0;
         "fabric-1.16.4" = _LDPoRX0l;
         "fabric-1.16.5" = _jcKM069V;
         "fabric-1.17" = _VQfemyPv;
@@ -335,6 +341,7 @@ let
         "fabric-1.21.8" = _86wiUAsQ;
         "fabric-1.21.10" = _kp3Bvut1;
         "fabric-26.1.1" = _7hgePJ8c;
+        "fabric-26.2" = _5uXKmDJ0;
         "quilt-1.19.4" = _wKNEOjWL;
         "quilt-1.20-pre7" = _igOCucg7;
         "quilt-1.20" = _MNgY2xFj;
@@ -356,6 +363,7 @@ let
         "quilt-1.21.8" = _86wiUAsQ;
         "quilt-1.21.10" = _kp3Bvut1;
         "quilt-26.1.1" = _7hgePJ8c;
+        "quilt-26.2" = _5uXKmDJ0;
         "pkg-1.3.3" = _IaqjvW8D;
         "pkg-1.4.0" = _LDPoRX0l;
         "pkg-1.5.0" = _jcKM069V;
@@ -405,7 +413,8 @@ let
         "pkg-2.8.1" = _kp3Bvut1;
         "pkg-2.9.0" = _s8Xeepdr;
         "pkg-2.9.1" = _7hgePJ8c;
-        "default" = _7hgePJ8c;
+        "pkg-2.10.0" = _5uXKmDJ0;
+        "default" = _5uXKmDJ0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fabrictailor";

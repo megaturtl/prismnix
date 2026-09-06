@@ -46,6 +46,16 @@ let
             "file" = "create_dimension-1.0.4.jar";
             "hash" = "sha512-y1K7SHOLbl7JGLfCi/wnw8b3TYmd2C6Vli87qCXv2vt+BKrgiClkBSNoUCMzqlbl3lxtocsYHQY65LJ2n9wtXQ==";
         };
+        _2UuXBVSU = {
+            "id" = "2UuXBVSU";
+            "file" = "create_dimension-neoforge-1.21.1-2.0.0+neoforge-1.21.1.jar";
+            "hash" = "sha512-QQ+VGH56LIPIv0L0wXS/mJvC08MGGJXnAAuIYbTolvB266zRHCZokzmvGmkrgEZT2rn1uzJCcCSZuVN577hs0w==";
+        };
+        _YXQ7628N = {
+            "id" = "YXQ7628N";
+            "file" = "create_dimension-forge-1.20.1-2.0.0+forge-1.20.1.jar";
+            "hash" = "sha512-RaCjA73tCSZ3SuOQ5eZ6e/2hu6daAwhPERvJBSlXxt3d1hQ6KxRjIeljErfsAM0YI3XxD6kJACn/mxtKlI8v7g==";
+        };
     in {
         "dWGmTYM5" = _dWGmTYM5;
         "q63B6M6j" = _q63B6M6j;
@@ -56,16 +66,19 @@ let
         "t8K0F6i2" = _t8K0F6i2;
         "iIE9Cat2" = _iIE9Cat2;
         "2LzO4V0s" = _2LzO4V0s;
-        "forge-1.20.1" = _iIE9Cat2;
+        "2UuXBVSU" = _2UuXBVSU;
+        "YXQ7628N" = _YXQ7628N;
+        "forge-1.20.1" = _YXQ7628N;
         "forge-1.21.1" = _PD2M46re;
-        "neoforge-1.21.1" = _2LzO4V0s;
+        "neoforge-1.21.1" = _2UuXBVSU;
         "neoforge-1.20.1" = _NGPrIeTr;
         "pkg-1.0.1" = _q63B6M6j;
         "pkg-1.0.1-fix-1" = _l92ZxJLe;
         "pkg-1.0.2" = _ixAjHLk8;
         "pkg-1.0.3" = _t8K0F6i2;
         "pkg-1.0.4" = _2LzO4V0s;
-        "default" = _2LzO4V0s;
+        "pkg-2.0.0" = _YXQ7628N;
+        "default" = _YXQ7628N;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-dimension,-steamworks-realm";

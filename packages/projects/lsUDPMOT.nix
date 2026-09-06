@@ -566,6 +566,21 @@ let
             "file" = "terrestria-8.0.0-alpha.1.jar";
             "hash" = "sha512-OO9ji8FD6hBohIgfG+AP4vNr1tcW/slakO4cqpIRHa87XlO9yxTIKlGoQIQeKXPDz6U2b2Oh9aM5s50gRojQ/g==";
         };
+        _aHg0M1Hm = {
+            "id" = "aHg0M1Hm";
+            "file" = "terrestria-8.0.0.jar";
+            "hash" = "sha512-uWq0MVytszMOVXRrTNGyN+vZr/c+vM1qVD7LPnQBJB/0oiltCwUGi77RqqnTBoz03YXS+ulmSGHS7NX505tRZw==";
+        };
+        _pScb8xmV = {
+            "id" = "pScb8xmV";
+            "file" = "terrestria-8.0.1.jar";
+            "hash" = "sha512-csIamt9A89pqyYD7ZNWBIsFH4y7AkV2HjYz4sTVMiO31Ez++fUXu7oqh2J+V5ZziMcKr/PmoX/aYwRg4CF0COA==";
+        };
+        _QcV0YfAP = {
+            "id" = "QcV0YfAP";
+            "file" = "terrestria-8.1.0-alpha.1.jar";
+            "hash" = "sha512-uNBum4mi94c6ipjvOCReSb+78hMlwtSDhReJ2dGpANdHi+ZDZF2Z9TX7juregKcSA7ZV3jbAnPbBMoldPV6bcQ==";
+        };
     in {
         "ZJTSqMN8" = _ZJTSqMN8;
         "wcrWk9Aw" = _wcrWk9Aw;
@@ -680,6 +695,9 @@ let
         "AZHI7iza" = _AZHI7iza;
         "8lLXFr2o" = _8lLXFr2o;
         "HqkksHnv" = _HqkksHnv;
+        "aHg0M1Hm" = _aHg0M1Hm;
+        "pScb8xmV" = _pScb8xmV;
+        "QcV0YfAP" = _QcV0YfAP;
         "fabric-1.16.5" = _PRtO7FA6;
         "fabric-1.17" = _3duqOSDX;
         "fabric-1.17.1" = _3duqOSDX;
@@ -747,9 +765,10 @@ let
         "fabric-1.21.10" = _FwsYF0ct;
         "fabric-25w45a" = _txjn73Q6;
         "fabric-1.21.11" = _8lLXFr2o;
-        "fabric-26.1" = _HqkksHnv;
-        "fabric-26.1.1" = _HqkksHnv;
-        "fabric-26.1.2" = _HqkksHnv;
+        "fabric-26.1" = _pScb8xmV;
+        "fabric-26.1.1" = _pScb8xmV;
+        "fabric-26.1.2" = _pScb8xmV;
+        "fabric-26.2" = _QcV0YfAP;
         "quilt-1.20-pre5" = _qspEdRNm;
         "quilt-1.20-pre6" = _qspEdRNm;
         "quilt-1.20-pre7" = _qspEdRNm;
@@ -800,9 +819,10 @@ let
         "quilt-1.21.10" = _FwsYF0ct;
         "quilt-25w45a" = _txjn73Q6;
         "quilt-1.21.11" = _8lLXFr2o;
-        "quilt-26.1" = _HqkksHnv;
-        "quilt-26.1.1" = _HqkksHnv;
-        "quilt-26.1.2" = _HqkksHnv;
+        "quilt-26.1" = _pScb8xmV;
+        "quilt-26.1.1" = _pScb8xmV;
+        "quilt-26.1.2" = _pScb8xmV;
+        "quilt-26.2" = _QcV0YfAP;
         "pkg-2.1.6" = _ZJTSqMN8;
         "pkg-2.1.7" = _wcrWk9Aw;
         "pkg-2.2.0" = _PRtO7FA6;
@@ -916,7 +936,10 @@ let
         "pkg-7.6.0-beta.2" = _AZHI7iza;
         "pkg-7.6.0" = _8lLXFr2o;
         "pkg-8.0.0-alpha.1" = _HqkksHnv;
-        "default" = _HqkksHnv;
+        "pkg-8.0.0" = _aHg0M1Hm;
+        "pkg-8.0.1" = _pScb8xmV;
+        "pkg-8.1.0-alpha.1" = _QcV0YfAP;
+        "default" = _QcV0YfAP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "terrestria";

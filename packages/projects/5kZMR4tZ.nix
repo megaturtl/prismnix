@@ -364,6 +364,8 @@ let
         "paper-26.3-snapshot-5" = _9aDqsDK3;
         "paper-26.3-snapshot-6" = _9aDqsDK3;
         "paper-26.3-snapshot-7" = _9aDqsDK3;
+        "paper-26.3-snapshot-8" = _9aDqsDK3;
+        "paper-26.3-snapshot-9" = _9aDqsDK3;
         "spigot-1.18" = _9aDqsDK3;
         "spigot-1.18.1" = _9aDqsDK3;
         "spigot-1.18.2" = _9aDqsDK3;
@@ -534,6 +536,8 @@ let
         "spigot-26.3-snapshot-5" = _9aDqsDK3;
         "spigot-26.3-snapshot-6" = _9aDqsDK3;
         "spigot-26.3-snapshot-7" = _9aDqsDK3;
+        "spigot-26.3-snapshot-8" = _9aDqsDK3;
+        "spigot-26.3-snapshot-9" = _9aDqsDK3;
         "bukkit-1.18" = _9aDqsDK3;
         "bukkit-1.18.1" = _9aDqsDK3;
         "bukkit-1.18.2" = _9aDqsDK3;
@@ -704,6 +708,8 @@ let
         "bukkit-26.3-snapshot-5" = _9aDqsDK3;
         "bukkit-26.3-snapshot-6" = _9aDqsDK3;
         "bukkit-26.3-snapshot-7" = _9aDqsDK3;
+        "bukkit-26.3-snapshot-8" = _9aDqsDK3;
+        "bukkit-26.3-snapshot-9" = _9aDqsDK3;
         "folia-1.18" = _9aDqsDK3;
         "folia-1.18.1" = _9aDqsDK3;
         "folia-1.18.2" = _9aDqsDK3;
@@ -874,6 +880,8 @@ let
         "folia-26.3-snapshot-5" = _9aDqsDK3;
         "folia-26.3-snapshot-6" = _9aDqsDK3;
         "folia-26.3-snapshot-7" = _9aDqsDK3;
+        "folia-26.3-snapshot-8" = _9aDqsDK3;
+        "folia-26.3-snapshot-9" = _9aDqsDK3;
         "fabric-1.18" = _n8hs0kJ0;
         "fabric-1.18.1" = _jUoXGsir;
         "fabric-1.18.2" = _vMVIXAhg;

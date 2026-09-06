@@ -166,6 +166,11 @@ let
             "file" = "soundcontroller-neoforge-1.4.0-mc26.2.jar";
             "hash" = "sha512-apTxn5KywIBcXjW0FKaOAgj1rQPWj3r23+eBEuowdspIU6/23kxOxrEqgjrM3+GZrHkU248yakkdtkGEnbQQ2Q==";
         };
+        _3TaQzJJO = {
+            "id" = "3TaQzJJO";
+            "file" = "soundcontroller-neoforge-1.4.0-mc1.21.1.jar";
+            "hash" = "sha512-in4Syu1zkhZqfXm3UltYZRI3ecOWUXX4WFP0xVnNJ51psTXI4AOSWORq6WnqkKR7ON6zes2wqrFkw4FyXzXkoA==";
+        };
     in {
         "nxI8wZmB" = _nxI8wZmB;
         "zY1VNCqT" = _zY1VNCqT;
@@ -200,6 +205,7 @@ let
         "OSGCokHa" = _OSGCokHa;
         "5YXU2rID" = _5YXU2rID;
         "AaqHN26X" = _AaqHN26X;
+        "3TaQzJJO" = _3TaQzJJO;
         "fabric-1.20" = _wmmrvZJq;
         "fabric-1.20.1" = _wmmrvZJq;
         "fabric-1.20.2" = _fV5OsvJG;
@@ -226,7 +232,34 @@ let
         "fabric-26.1.1" = _7ivrON6l;
         "fabric-26.1.2" = _7ivrON6l;
         "fabric-26.2" = _5YXU2rID;
+        "quilt-1.20" = _wmmrvZJq;
+        "quilt-1.20.1" = _wmmrvZJq;
+        "quilt-1.20.2" = _fV5OsvJG;
+        "quilt-1.20.3" = _mVGTqB2x;
+        "quilt-1.20.4" = _mVGTqB2x;
+        "quilt-1.20.5" = _Vej3tvcx;
+        "quilt-1.20.6" = _Vej3tvcx;
+        "quilt-1.21-pre4" = _mnsTFZxC;
+        "quilt-1.21" = _Vej3tvcx;
+        "quilt-1.21.1" = _Vej3tvcx;
+        "quilt-1.21.3" = _XwiNVNDR;
+        "quilt-1.21.4" = _4PtmVcQj;
+        "quilt-1.21.5-pre1" = _tcLXYMVB;
+        "quilt-1.21.5-pre2" = _tcLXYMVB;
+        "quilt-1.21.2" = _XwiNVNDR;
+        "quilt-1.21.5" = _4PtmVcQj;
+        "quilt-1.21.6" = _OhmMfRNt;
+        "quilt-1.21.7" = _OhmMfRNt;
+        "quilt-1.21.8" = _OhmMfRNt;
+        "quilt-1.21.9" = _4zjTv9R5;
+        "quilt-1.21.10" = _4zjTv9R5;
+        "quilt-1.21.11" = _pZASAGUw;
+        "quilt-26.1" = _7ivrON6l;
+        "quilt-26.1.1" = _7ivrON6l;
+        "quilt-26.1.2" = _7ivrON6l;
+        "quilt-26.2" = _5YXU2rID;
         "neoforge-26.2" = _AaqHN26X;
+        "neoforge-1.21.1" = _3TaQzJJO;
         "pkg-0.1.0" = _nxI8wZmB;
         "pkg-1.0.0" = _zY1VNCqT;
         "pkg-1.0.1" = _1xWy6rUB;
@@ -253,7 +286,8 @@ let
         "pkg-1.2.6-mc26.2" = _w9ZTTlnw;
         "pkg-1.3.0-mc26.2" = _OSGCokHa;
         "pkg-1.4.0-mc26.2" = _AaqHN26X;
-        "default" = _AaqHN26X;
+        "pkg-1.4.0-mc1.21.1" = _3TaQzJJO;
+        "default" = _3TaQzJJO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sound-controller";

@@ -186,6 +186,11 @@ let
             "file" = "portality-1.18.2-3.3.5.jar";
             "hash" = "sha512-B4Ae+CG+pAiiRcyz9LJAHRzqSnsMPfVaTd4azIS6lfO06XSDSYx5OTE2Gm5M1f+VUuIQ5YHpOc0tIrHPsJ+5Fw==";
         };
+        _8EkOvgu1 = {
+            "id" = "8EkOvgu1";
+            "file" = "portality-1.21.1-4.0.0.jar";
+            "hash" = "sha512-ea1Xbu17Lh93Zo6q6cEANZJ9OKuwOW2Q4bTwraeesvQ1K7fI47rOdeJ47pTS1DFDfyzkvvDAOi+E60rLQj5SuA==";
+        };
     in {
         "XA6l4ZZt" = _XA6l4ZZt;
         "Noy4xtV5" = _Noy4xtV5;
@@ -224,6 +229,7 @@ let
         "eToN4opU" = _eToN4opU;
         "Cs4lj836" = _Cs4lj836;
         "FzJJGWls" = _FzJJGWls;
+        "8EkOvgu1" = _8EkOvgu1;
         "forge-1.12" = _BOPiTdtB;
         "forge-1.12.1" = _BOPiTdtB;
         "forge-1.12.2" = _uypN7bO4;
@@ -237,6 +243,7 @@ let
         "forge-1.16.5" = _KoEKG6mk;
         "forge-1.18.1" = _eToN4opU;
         "forge-1.18.2" = _FzJJGWls;
+        "neoforge-1.21.1" = _8EkOvgu1;
         "pkg-portality-1.0" = _XA6l4ZZt;
         "pkg-1.0.1" = _Noy4xtV5;
         "pkg-1.12.2-1.0.2" = _OpxSMiis;
@@ -274,7 +281,8 @@ let
         "pkg-1.18.1-3.3.3" = _eToN4opU;
         "pkg-1.18.2-3.3.4" = _Cs4lj836;
         "pkg-1.18.2-3.3.5" = _FzJJGWls;
-        "default" = _FzJJGWls;
+        "pkg-4.0.0" = _8EkOvgu1;
+        "default" = _8EkOvgu1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "portality";

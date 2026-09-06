@@ -216,6 +216,56 @@ let
             "file" = "SpellChecker-fabric-26.1.2-14.0.0.jar";
             "hash" = "sha512-Mz0+HBixaxYCtAwhBqL+FuP+DwhSd41k6tZGLtCBkP0J6hB1uDVXWyrPfTNhH2YKM5rWHv+S6I4szB5ew8edng==";
         };
+        _BCGSketQ = {
+            "id" = "BCGSketQ";
+            "file" = "SpellChecker-fabric-26.1.2-14.1.0.jar";
+            "hash" = "sha512-pjJ0Q2D+Ct8IEG8engDUQ2kr+FlOsGpYfIEmjOzBd+gXB0ZfCCOK04ghfccb1jafGVo9nYCfOjBnMALiuuzUmQ==";
+        };
+        _g6jyCzfj = {
+            "id" = "g6jyCzfj";
+            "file" = "SpellChecker-neoforge-26.1.2-14.1.0.jar";
+            "hash" = "sha512-729EsCKDhcvCH6NM4bbvytj6U84WeCMVNrA0oFIO8XQSq2i/XkMNGsPVW6f4F417jhXEhMRGLuOBRJipxcsgdA==";
+        };
+        _2QN00aem = {
+            "id" = "2QN00aem";
+            "file" = "SpellChecker-fabric-26.2-15.0.0.jar";
+            "hash" = "sha512-pKEWIq22YUwvmirEkzRatDDQTJUEwXWZYEvUr+XqqSHI8ysclwE5oiMMvewUaDn/PWvlNc9karGlgDyp8NRkcg==";
+        };
+        _Fgt4Xreo = {
+            "id" = "Fgt4Xreo";
+            "file" = "SpellChecker-neoforge-26.2-15.0.0.jar";
+            "hash" = "sha512-zDSYYdKbow5tvJ0zfRk8ozzOuRUR+j2XnEM4R3i52eZxVSyf2rx0gWWsPrinu8OjKPSmOq/sXUEDjA71bGDprQ==";
+        };
+        _yDd3lugk = {
+            "id" = "yDd3lugk";
+            "file" = "SpellChecker-fabric-26.1.2-14.1.1.jar";
+            "hash" = "sha512-1vC7bBB6APIUJ3jqXZ+UFDK5Na7lzXBQ04Odn+mv2tt0yz2snWt4Y2tqRN2CKY9exuzUNqQ6aZyJ/v5OJ8USzg==";
+        };
+        _dxKoH3i7 = {
+            "id" = "dxKoH3i7";
+            "file" = "SpellChecker-fabric-26.2-15.0.1.jar";
+            "hash" = "sha512-E9WfB9ATFRRZs/XpPgY0B9sjOLlAk34LBEOeV2QgylNL/NTtK4BMWbktAoGkn1grMH1vrQau3AESF+5eKMgLLA==";
+        };
+        _w0jUV30w = {
+            "id" = "w0jUV30w";
+            "file" = "SpellChecker-neoforge-26.1.2-14.1.1.jar";
+            "hash" = "sha512-9e1RlLrT4a3f2T8TO7P8bx4T8X9h2h4rkJ3bw3Tp+YYJVML248xpCubCFgYf2Xx6UsYXVX0tE/UeuSO+jA0VqA==";
+        };
+        _qQaM0Aby = {
+            "id" = "qQaM0Aby";
+            "file" = "SpellChecker-neoforge-26.2-15.0.1.jar";
+            "hash" = "sha512-loUPI1QS5ZlOumKlBbBhozGd8WJiiqY6PS1nTFEei7NUB+dEcTy2+9FXtOPojZNQevhRlvsLWFgT71jbDWV+yg==";
+        };
+        _bpm7maNm = {
+            "id" = "bpm7maNm";
+            "file" = "SpellChecker-neoforge-1.21.1-7.0.1.jar";
+            "hash" = "sha512-ZMT/cmLM8G7Lf9jOlJZg6gHyM17Sk895Y2xYNk8pEDXbp3hERdauGLvx47aO7UsihBtqo4z4pG8WzsTHxK/vzg==";
+        };
+        _ZdyfGIGS = {
+            "id" = "ZdyfGIGS";
+            "file" = "SpellChecker-fabric-1.21.1-7.0.1.jar";
+            "hash" = "sha512-3w95dU52AP4BqjMx3hS9yVs4ZTSDw/goBvwVGwGl8wtYQpSzOaWyhad3hYp/Fwli78+BljRhVs01Lb0Ieuj9bw==";
+        };
     in {
         "H0GSq1S5" = _H0GSq1S5;
         "zGKnOTvX" = _zGKnOTvX;
@@ -260,6 +310,16 @@ let
         "WHfhB6iX" = _WHfhB6iX;
         "9pUFzYjn" = _9pUFzYjn;
         "GlGXiQQx" = _GlGXiQQx;
+        "BCGSketQ" = _BCGSketQ;
+        "g6jyCzfj" = _g6jyCzfj;
+        "2QN00aem" = _2QN00aem;
+        "Fgt4Xreo" = _Fgt4Xreo;
+        "yDd3lugk" = _yDd3lugk;
+        "dxKoH3i7" = _dxKoH3i7;
+        "w0jUV30w" = _w0jUV30w;
+        "qQaM0Aby" = _qQaM0Aby;
+        "bpm7maNm" = _bpm7maNm;
+        "ZdyfGIGS" = _ZdyfGIGS;
         "forge-1.12.2" = _H0GSq1S5;
         "forge-1.14.4" = _zGKnOTvX;
         "forge-1.15.2" = _BJHga01s;
@@ -292,7 +352,9 @@ let
         "fabric-1.21.3" = _MsHgGWw8;
         "fabric-1.21.10" = _gtfE2UIq;
         "fabric-1.21.11" = _WHfhB6iX;
-        "fabric-26.1.2" = _GlGXiQQx;
+        "fabric-26.1.2" = _yDd3lugk;
+        "fabric-26.2" = _dxKoH3i7;
+        "fabric-1.21.1" = _ZdyfGIGS;
         "neoforge-1.20.1" = _6NmuFLlg;
         "neoforge-1.20.2" = _HZoCDuXY;
         "neoforge-1.20.4" = _8uhpp8Ec;
@@ -306,7 +368,9 @@ let
         "neoforge-1.21.3" = _xAPjWn3h;
         "neoforge-1.21.10" = _XPhZN0UO;
         "neoforge-1.21.11" = _kVT2QYbR;
-        "neoforge-26.1.2" = _9pUFzYjn;
+        "neoforge-26.1.2" = _w0jUV30w;
+        "neoforge-26.2" = _qQaM0Aby;
+        "neoforge-1.21.1" = _bpm7maNm;
         "pkg-1.0.2.1" = _H0GSq1S5;
         "pkg-1.0.3.0" = _zGKnOTvX;
         "pkg-1.0.3.1" = _BJHga01s;
@@ -330,7 +394,12 @@ let
         "pkg-12.0.0" = _gtfE2UIq;
         "pkg-13.0.0" = _WHfhB6iX;
         "pkg-14.0.0" = _GlGXiQQx;
-        "default" = _GlGXiQQx;
+        "pkg-14.1.0" = _g6jyCzfj;
+        "pkg-15.0.0" = _Fgt4Xreo;
+        "pkg-14.1.1" = _w0jUV30w;
+        "pkg-15.0.1" = _qQaM0Aby;
+        "pkg-7.0.1" = _ZdyfGIGS;
+        "default" = _ZdyfGIGS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spell-checker";

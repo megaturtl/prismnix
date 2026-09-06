@@ -36,6 +36,26 @@ let
             "file" = "fancy-hitbox-practice-26.1.jar";
             "hash" = "sha512-utyPqTB5p0wgNAPUnEo4Z9y9p1OS62NI2OmYfsNn7SNLb+LykSvrb8pPmMWtyieA64embA4Npwkzc928bks3aw==";
         };
+        _rzR8jvOR = {
+            "id" = "rzR8jvOR";
+            "file" = "fancy-hitbox-practice-1.21.8.jar";
+            "hash" = "sha512-vuQeku4KezHHbTOfnsEpQFY0xXbs0T9qt+cMwyVCI1PR8zvLsbhXGexE9D6Mfi5OHdWJR20lfUNhoK7Vg6Wcog==";
+        };
+        _QwjZze01 = {
+            "id" = "QwjZze01";
+            "file" = "fancy-hitbox-practice-1.21.11.jar";
+            "hash" = "sha512-qijnqCR4YZuWwro3ZOl1W7Rri+zmFGo2JYHFjB+Alq4SKlMHbd0midZI6PepVqfbLYu6dfiqi3gf2jRO+vHUYA==";
+        };
+        _udaJtnkR = {
+            "id" = "udaJtnkR";
+            "file" = "fancy-hitbox-practice-26.1.X.jar";
+            "hash" = "sha512-EbEy07TBvBI+6yXt1AdmNutCNHQFR0i0qRPQPqv6+Q/ZJUZsOMHqhrUrvNdmLNXJSTWWE1DYHKA2w29OhjHjWw==";
+        };
+        _ismLV473 = {
+            "id" = "ismLV473";
+            "file" = "fancy-hitbox-practice-26.2-FINAL.jar";
+            "hash" = "sha512-DO2Czv+iox3cK+A3XD5hQxNhTC24GhapvJbwyuWXBEi4397z+hGgEAqguPSiJtGFEfwnkwLM5Hw0Atca/dvA4g==";
+        };
     in {
         "fIsAR5lF" = _fIsAR5lF;
         "PvinY0pk" = _PvinY0pk;
@@ -44,6 +64,10 @@ let
         "vB0eCeuz" = _vB0eCeuz;
         "CkT4p0e7" = _CkT4p0e7;
         "hWbknGhX" = _hWbknGhX;
+        "rzR8jvOR" = _rzR8jvOR;
+        "QwjZze01" = _QwjZze01;
+        "udaJtnkR" = _udaJtnkR;
+        "ismLV473" = _ismLV473;
         "fabric-1.20" = _fIsAR5lF;
         "fabric-1.20.1" = _fIsAR5lF;
         "fabric-1.20.4" = _PvinY0pk;
@@ -52,19 +76,22 @@ let
         "fabric-1.21.2" = _U9jpIsjs;
         "fabric-1.21.3" = _U9jpIsjs;
         "fabric-1.21.4" = _U9jpIsjs;
-        "fabric-1.21.8" = _vB0eCeuz;
-        "fabric-1.21.11" = _CkT4p0e7;
-        "fabric-26.1" = _hWbknGhX;
-        "fabric-26.1.1" = _hWbknGhX;
-        "fabric-26.1.2" = _hWbknGhX;
+        "fabric-1.21.8" = _rzR8jvOR;
+        "fabric-1.21.11" = _QwjZze01;
+        "fabric-26.1" = _udaJtnkR;
+        "fabric-26.1.1" = _udaJtnkR;
+        "fabric-26.1.2" = _udaJtnkR;
+        "fabric-26.2" = _ismLV473;
         "pkg-1.20" = _fIsAR5lF;
         "pkg-1.20.4" = _PvinY0pk;
         "pkg-1.21.1" = _xbV32m7e;
         "pkg-1.21.4" = _U9jpIsjs;
-        "pkg-1.21.8" = _vB0eCeuz;
-        "pkg-1.21.11" = _CkT4p0e7;
+        "pkg-1.21.8" = _rzR8jvOR;
+        "pkg-1.21.11" = _QwjZze01;
         "pkg-26.1" = _hWbknGhX;
-        "default" = _hWbknGhX;
+        "pkg-26.1.X" = _udaJtnkR;
+        "pkg-26.2" = _ismLV473;
+        "default" = _ismLV473;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fancy-hitbox-practice";

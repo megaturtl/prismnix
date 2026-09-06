@@ -171,6 +171,21 @@ let
             "file" = "magitech-2.0.0-alpha.3.jar";
             "hash" = "sha512-GxPVc+Cfp1YiHF7eOYmpNHrhBhx+F8ShCGvcmNUpIrlnP2rApjqHdAgBXqdGMGkRkueKJuQK12uTrxgcLrTa4g==";
         };
+        _ZeOiRkyX = {
+            "id" = "ZeOiRkyX";
+            "file" = "magitech-2.0.0.jar";
+            "hash" = "sha512-ZwTwBo1/yWywol2qcuxXHwgV+gt6DRCFbPy1vxdZ4GigA+u13KZKxV/6Sk7zbYsmS6CoZIRBf3Ti/HqiirH04A==";
+        };
+        _icCw3DNP = {
+            "id" = "icCw3DNP";
+            "file" = "magitech-2.0.1.jar";
+            "hash" = "sha512-ALkEOmu9CxPn7C1OzuaKvJOKFIIxKHSP7TFD2L+0C32s+r3S1Ix9WcYxmOT18Y84OSFW5oAufawaAxZQtWmdwQ==";
+        };
+        _O88RefQH = {
+            "id" = "O88RefQH";
+            "file" = "magitech-2.0.2.jar";
+            "hash" = "sha512-pzosq2vCdFP9Jhgm58+gx8Zb7I0j4eQNho1uCJMzx0nJOB74DrlDXHJ9gByTAW7g51f2QNjlK1Jsat4f2d02zg==";
+        };
     in {
         "xc8mH8ny" = _xc8mH8ny;
         "9z2APDAu" = _9z2APDAu;
@@ -206,7 +221,10 @@ let
         "uBE4Jwa8" = _uBE4Jwa8;
         "rpgkSjm0" = _rpgkSjm0;
         "FEKuWz1b" = _FEKuWz1b;
-        "neoforge-1.21.1" = _FEKuWz1b;
+        "ZeOiRkyX" = _ZeOiRkyX;
+        "icCw3DNP" = _icCw3DNP;
+        "O88RefQH" = _O88RefQH;
+        "neoforge-1.21.1" = _O88RefQH;
         "pkg-0.4.0" = _xc8mH8ny;
         "pkg-0.4.1" = _9z2APDAu;
         "pkg-0.5.1" = _NRUlaX7K;
@@ -241,7 +259,10 @@ let
         "pkg-1.1.2" = _uBE4Jwa8;
         "pkg-1.1.3" = _rpgkSjm0;
         "pkg-2.0.0-alpha.3" = _FEKuWz1b;
-        "default" = _FEKuWz1b;
+        "pkg-2.0.0" = _ZeOiRkyX;
+        "pkg-2.0.1" = _icCw3DNP;
+        "pkg-2.0.2" = _O88RefQH;
+        "default" = _O88RefQH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "magitech_mod";

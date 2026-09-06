@@ -331,6 +331,26 @@ let
             "file" = "portablestorage-2.3.0.jar";
             "hash" = "sha512-WzICBWCmdHKsAUE6xUMel2wD42/zn/G08pJl4PFUbknRVqOH3dO9nAp79pSykKbFHhyTCVugFM4WReVJnmnDIg==";
         };
+        _G5hI7WDP = {
+            "id" = "G5hI7WDP";
+            "file" = "portablestorage-2.3.1.jar";
+            "hash" = "sha512-5CkjWy79bvFQrWY1P3Wmm2vWAfSQWlvcocllaU9u8CsnK4nWyVAmHFY1C9iJMAvRgOhbL8jO1Jqs88s+UUvuyQ==";
+        };
+        _DZwMqNiZ = {
+            "id" = "DZwMqNiZ";
+            "file" = "portablestorage-2.3.2.jar";
+            "hash" = "sha512-gNAHBze9vcPUPOQHuTYrIBYVI9SZ+HqdGEud9DBL2rWFiCn9NXp+GAfm03wmPMecpyNryKgOHLgtlE7MsBlheg==";
+        };
+        _bAwTVe47 = {
+            "id" = "bAwTVe47";
+            "file" = "portablestorage-2.3.3.jar";
+            "hash" = "sha512-jIXBML0Gmtftrbkbji0G3G6x2ewgt/jmFDFoRn7c4DZeHpPsKO2/0egZ9a6CizyY8QahAaYD6dk18CrNZklxzQ==";
+        };
+        _ih5RPGi6 = {
+            "id" = "ih5RPGi6";
+            "file" = "portablestorage-2.3.4.jar";
+            "hash" = "sha512-IH0t76+jAX4S/Bb/s7vzbVC3+UjNDklEtnWQpVSbIO8TCdirOIF53iWVkasCZ7p0oBZ5RCE4bm7MbeQexc3N2w==";
+        };
     in {
         "bUlf9sfa" = _bUlf9sfa;
         "109FfzCR" = _109FfzCR;
@@ -398,13 +418,17 @@ let
         "MLEZEAIm" = _MLEZEAIm;
         "ElTgvC0z" = _ElTgvC0z;
         "8D7K0Cwj" = _8D7K0Cwj;
+        "G5hI7WDP" = _G5hI7WDP;
+        "DZwMqNiZ" = _DZwMqNiZ;
+        "bAwTVe47" = _bAwTVe47;
+        "ih5RPGi6" = _ih5RPGi6;
         "fabric-1.21" = _eCTsYnHP;
         "fabric-1.21.1" = _ettr6qP6;
         "fabric-1.20.1" = _OP4P7Igf;
         "fabric-1.21.11" = _MLEZEAIm;
         "fabric-26.1" = _ElTgvC0z;
-        "fabric-26.1.1" = _nSFh8tOc;
-        "fabric-26.2" = _8D7K0Cwj;
+        "fabric-26.1.1" = _ElTgvC0z;
+        "fabric-26.2" = _ih5RPGi6;
         "pkg-1.3.3" = _bUlf9sfa;
         "pkg-1.3.4" = _109FfzCR;
         "pkg-1.3.5" = _mLi1q1Fi;
@@ -461,7 +485,11 @@ let
         "pkg-2.2.0" = _1HIqZz9I;
         "pkg-2.2.1" = _ElTgvC0z;
         "pkg-2.3.0-beta" = _8D7K0Cwj;
-        "default" = _8D7K0Cwj;
+        "pkg-2.3.1-beta" = _G5hI7WDP;
+        "pkg-2.3.2" = _DZwMqNiZ;
+        "pkg-2.3.3" = _bAwTVe47;
+        "pkg-2.3.4" = _ih5RPGi6;
+        "default" = _ih5RPGi6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "portable-storage";

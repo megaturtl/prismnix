@@ -491,6 +491,31 @@ let
             "file" = "seedmapper-2.29.0.jar";
             "hash" = "sha512-Vn4z9uHQgZB3cn7gHfS2RolfGneW3bpFnBPamrdlANqFvk/AzKjRrh/2VaSf2c0sQYz/pLVLK15uejTDNl7pqw==";
         };
+        _8fOBKkPi = {
+            "id" = "8fOBKkPi";
+            "file" = "seedmapper-2.29.1.jar";
+            "hash" = "sha512-mA9PjOSG1sczDsG7DnQEqKonafl2RtSmi+pVsVfQJp7B/xTggn4iEvyRcIUVjgGhRWtU7By1xTmLwoMZdSzUIQ==";
+        };
+        _ytkxW0zK = {
+            "id" = "ytkxW0zK";
+            "file" = "seedmapper-2.30.0.jar";
+            "hash" = "sha512-yHL1RVsEDKKYiprheKdT1U5TJAx8QYz7dC4gkr2obwIA4SVdtGHBE3g8TwtZ60DBJokZmwz1VbeCcIQsjyYSoQ==";
+        };
+        _437aze64 = {
+            "id" = "437aze64";
+            "file" = "seedmapper-2.31.0.jar";
+            "hash" = "sha512-7rtVQuqc8bUx8a6nC/+sMQqdWQPzxhAwcp2x5c0AfzowmOij8G47H+9SXm5o1QUY2hvcGhtC01GWm+cK5ig4gw==";
+        };
+        _sD4KRQzq = {
+            "id" = "sD4KRQzq";
+            "file" = "seedmapper-2.31.1.jar";
+            "hash" = "sha512-APrJbpIQ9z6t/39d9mNcIJPvUYqWZcMXQxIQa1vcfODnmWdL8hDa7SrSa5xhxJR2l3jMstkOrHUVprcyBcv0lw==";
+        };
+        _qgoeAgIa = {
+            "id" = "qgoeAgIa";
+            "file" = "seedmapper-2.32.0.jar";
+            "hash" = "sha512-tUWJpCAUKMx/eHl4ll3T01jUf6CYbhzCsddWj+c7H9DfYJUToQOBT5cIBgXqzuUGVSYpuGbtHSjBoLUov0zSqw==";
+        };
     in {
         "GsumSdui" = _GsumSdui;
         "L6ZiHxuc" = _L6ZiHxuc;
@@ -590,6 +615,11 @@ let
         "R5QYhZIG" = _R5QYhZIG;
         "S5ALqWlf" = _S5ALqWlf;
         "mD9r3rZ3" = _mD9r3rZ3;
+        "8fOBKkPi" = _8fOBKkPi;
+        "ytkxW0zK" = _ytkxW0zK;
+        "437aze64" = _437aze64;
+        "sD4KRQzq" = _sD4KRQzq;
+        "qgoeAgIa" = _qgoeAgIa;
         "fabric-1.16.5" = _L6ZiHxuc;
         "fabric-1.17" = _twWBrkHB;
         "fabric-1.17.1" = _WImYLpxQ;
@@ -624,7 +654,7 @@ let
         "fabric-26.1" = _yWldA3a6;
         "fabric-26.1.1" = _yWldA3a6;
         "fabric-26.1.2" = _yWldA3a6;
-        "fabric-26.2" = _mD9r3rZ3;
+        "fabric-26.2" = _qgoeAgIa;
         "pkg-b1.0" = _GsumSdui;
         "pkg-b1.1" = _L6ZiHxuc;
         "pkg-b1.2" = _q0SjkGlJ;
@@ -723,7 +753,12 @@ let
         "pkg-2.27.0" = _R5QYhZIG;
         "pkg-2.28.0" = _S5ALqWlf;
         "pkg-2.29.0" = _mD9r3rZ3;
-        "default" = _mD9r3rZ3;
+        "pkg-2.29.1" = _8fOBKkPi;
+        "pkg-2.30.0" = _ytkxW0zK;
+        "pkg-2.31.0" = _437aze64;
+        "pkg-2.31.1" = _sD4KRQzq;
+        "pkg-2.32.0" = _qgoeAgIa;
+        "default" = _qgoeAgIa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "seedmapper";

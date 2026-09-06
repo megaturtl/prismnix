@@ -196,6 +196,16 @@ let
             "file" = "subtlyd-5.0-snapshot-4.jar";
             "hash" = "sha512-6jNpiqiOfTM2pEGWJSkhZjlzahOYauZxgK1qktZ2pnGsW8+YJQTtwDBF7BMCRNxNbz3J4VrnkiOqImCPM/DG2g==";
         };
+        _mE0XTvkH = {
+            "id" = "mE0XTvkH";
+            "file" = "subtlyd-5.0-snapshot-5.jar";
+            "hash" = "sha512-/VctXwVHwRP6FJxZVYviEZYPsEj1XvppZZPmjd7Ty/+eSUPW5BTn+W8pdP0Ar048FcLsTYYRX0l+JNwbSVNCyw==";
+        };
+        _qdD2JmIh = {
+            "id" = "qdD2JmIh";
+            "file" = "subtlyd-5.0-snapshot-6.jar";
+            "hash" = "sha512-XYoWN+ydk4ekTPhmrWaJswv1a9v625/s7sz7huBszrzDPChlyIOER8qkMawWkRiAlwoj5OE1q9hZjhbPSiSwzw==";
+        };
     in {
         "WkbjNQeZ" = _WkbjNQeZ;
         "xOLyHKCT" = _xOLyHKCT;
@@ -236,6 +246,8 @@ let
         "yecrTcCV" = _yecrTcCV;
         "V4mouQLl" = _V4mouQLl;
         "VL2vDwa4" = _VL2vDwa4;
+        "mE0XTvkH" = _mE0XTvkH;
+        "qdD2JmIh" = _qdD2JmIh;
         "fabric-25w41a" = _WkbjNQeZ;
         "fabric-1.21.10" = _URAMOjlh;
         "fabric-25w42a" = _MK65qKbz;
@@ -264,6 +276,8 @@ let
         "fabric-26.3-snapshot-2" = _PDYJW5Po;
         "fabric-26.3-snapshot-4" = _V4mouQLl;
         "fabric-26.3-snapshot-6" = _VL2vDwa4;
+        "fabric-26.3-snapshot-8" = _mE0XTvkH;
+        "fabric-26.3-pre-2" = _qdD2JmIh;
         "pkg-1.0.0-alpha.2" = _xOLyHKCT;
         "pkg-1.0.0-alpha.4" = _hsfQIOKF;
         "pkg-1.0.0+25w42a" = _MK65qKbz;
@@ -302,7 +316,9 @@ let
         "pkg-4.2" = _yecrTcCV;
         "pkg-5.0-snapshot-3" = _V4mouQLl;
         "pkg-5.0-snapshot-4" = _VL2vDwa4;
-        "default" = _VL2vDwa4;
+        "pkg-5.0-snapshot-5" = _mE0XTvkH;
+        "pkg-5.0-snapshot-6" = _qdD2JmIh;
+        "default" = _qdD2JmIh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "subtly-dungeons";

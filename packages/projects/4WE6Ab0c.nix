@@ -136,6 +136,71 @@ let
             "file" = "dealt_force_skills-1.8.66.jar";
             "hash" = "sha512-UG1ETkjRWIZOUPepu2s+auZ8UBERQR/z1Eo/qlJDJacVCDuLtYkFKEPzQ+x3FvRcdqc5XaqTAYQumCGN6Uhf1g==";
         };
+        _NjyGch3G = {
+            "id" = "NjyGch3G";
+            "file" = "dealt_force_skills-1.8.71.jar";
+            "hash" = "sha512-y+G1St7r6rPbVUcWnMp41/xNFgEg+Uqa0+uXifUBwXFZJd3k6naIHQarYR02H72zZFtPdxQtUX6M8on++PPoEA==";
+        };
+        _x4Jy9F52 = {
+            "id" = "x4Jy9F52";
+            "file" = "delta_force_skills-1.8.71.jar";
+            "hash" = "sha512-oOIK3l1oSwxsUncLyVe2ESMU8cyNOMp1eT2Mz0EcpBl/55xcujSmPwyMWLxUaNYmD4UnPMj0g+NAXMFHZ3eQpg==";
+        };
+        _jzDfo0Uw = {
+            "id" = "jzDfo0Uw";
+            "file" = "delta_force_skills-1.8.71.jar";
+            "hash" = "sha512-3Hba0EGbSIlehtxwjZl+cgQRhYDQrl0XuPgcA6eQxkoygr4jMecxjaUKIF7U4Zt4X6ZQADCM1mHn7odxlzYufQ==";
+        };
+        _pR4wgZih = {
+            "id" = "pR4wgZih";
+            "file" = "delta_force_skills-1.8.75.jar";
+            "hash" = "sha512-/YeDnYkgKynUj35x4VO2SF5d6aX921wmZo6CtmYH5MGE4qh11jNlFVEkQCdVJ6LwORZl8UGxMxU3/KTc3Xl+jw==";
+        };
+        _hGIPWhjE = {
+            "id" = "hGIPWhjE";
+            "file" = "delta_force_skills-1.8.75.jar";
+            "hash" = "sha512-4w3lQT5E/z0DpfBTag4m+Wtr3nIrH6pEs9roV9fu+IZ5R2MR5ddYKRnmhJrfjHAqmy0u0fw+mtCWOTzl4TkYPA==";
+        };
+        _QqcjWC4L = {
+            "id" = "QqcjWC4L";
+            "file" = "dealt_force_skills-1.8.75.jar";
+            "hash" = "sha512-zWHSVMANxLzTRxIvtMIUnyEb1e2L2R9UCb71Kzg03YxTNAXZZ+5GJx56PJ2JAHhTHpA2FAOd1lByFc4aV9kJ2g==";
+        };
+        _gpt3gWKU = {
+            "id" = "gpt3gWKU";
+            "file" = "dealt_force_skills-1.8.76.jar";
+            "hash" = "sha512-/iuG2c+9X+wZJeseQljenDy/rZg5uD2v864/6tzU0EFVFxw21ohk/67AcYbqZjR7ZeX9The+WFLeGi1Oj1FExg==";
+        };
+        _eXJ5ZbtR = {
+            "id" = "eXJ5ZbtR";
+            "file" = "delta_force_skills-1.8.76.jar";
+            "hash" = "sha512-Tovrq46zX4Us0d5GfcLvBXY9oloGriyeYNrAC6N37Prb1ulETvEJK8nX5H/SI+t/Rus9LKh4rFmDpLU5ueNgKQ==";
+        };
+        _4aMQKmyB = {
+            "id" = "4aMQKmyB";
+            "file" = "delta_force_skills-1.8.76.jar";
+            "hash" = "sha512-vqfXVkC9Lp6OUCw2aZfg8B4hdo37eIui417mjnYwyp6OEQ+FFGsymaTsMFOVRS/Wje512lWRLrPR5OgnSJB6Og==";
+        };
+        _HquFJIgL = {
+            "id" = "HquFJIgL";
+            "file" = "delta_force_skills-1.9.0.jar";
+            "hash" = "sha512-vAQSC5F2jBsIjURLm4p7bbFcuVsDiuN7JtSHJjvyRIJMUELH3MwsipbMO1W+R4Ic67IkOLEGj8rpeGISPEFAVA==";
+        };
+        _wFQYFTej = {
+            "id" = "wFQYFTej";
+            "file" = "delta_force_skills-1.9.0.jar";
+            "hash" = "sha512-YFfRiFFoRQ9FAAQyRD7FdEQPiw/87hYc4p85JlC94ISQEl+vYsP2rGlZv6fWSIG+KUbmNc5rfQcXV1P49WoKlw==";
+        };
+        _Q0EZClRw = {
+            "id" = "Q0EZClRw";
+            "file" = "delta_force_skills-1.9.0-hotfix.jar";
+            "hash" = "sha512-l6sh4JLiVosCQof03/vp+TGQMPRUkv9iPHa6Mt0P/IQtzcR3zw0RZGb7mD5YO3FC3jibGKT9Y0gV/wVUCPYRBQ==";
+        };
+        _OozIU2CX = {
+            "id" = "OozIU2CX";
+            "file" = "delta_force_skills-1.9.0-hotfix.jar";
+            "hash" = "sha512-hpSOsyzbB2svlGYs/I57iTKwRV+9kHBU+eUABXzs0OLMxaUymGZ1GfASUPQi0zVPnXUlaedmIV6CO6laOMtBvQ==";
+        };
     in {
         "Vr7fglsf" = _Vr7fglsf;
         "N1BdvURd" = _N1BdvURd;
@@ -164,9 +229,22 @@ let
         "gTlxQfq9" = _gTlxQfq9;
         "jzVgzeWD" = _jzVgzeWD;
         "wpLCOO0Y" = _wpLCOO0Y;
-        "forge-1.20.1" = _gTlxQfq9;
-        "forge-1.19.2" = _jzVgzeWD;
-        "neoforge-1.21.1" = _wpLCOO0Y;
+        "NjyGch3G" = _NjyGch3G;
+        "x4Jy9F52" = _x4Jy9F52;
+        "jzDfo0Uw" = _jzDfo0Uw;
+        "pR4wgZih" = _pR4wgZih;
+        "hGIPWhjE" = _hGIPWhjE;
+        "QqcjWC4L" = _QqcjWC4L;
+        "gpt3gWKU" = _gpt3gWKU;
+        "eXJ5ZbtR" = _eXJ5ZbtR;
+        "4aMQKmyB" = _4aMQKmyB;
+        "HquFJIgL" = _HquFJIgL;
+        "wFQYFTej" = _wFQYFTej;
+        "Q0EZClRw" = _Q0EZClRw;
+        "OozIU2CX" = _OozIU2CX;
+        "forge-1.20.1" = _OozIU2CX;
+        "forge-1.19.2" = _4aMQKmyB;
+        "neoforge-1.21.1" = _Q0EZClRw;
         "pkg-1.5.10" = _Vr7fglsf;
         "pkg-1.5.12" = _PyPm2CpE;
         "pkg-1.5.13" = _ocF7yPds;
@@ -179,7 +257,12 @@ let
         "pkg-1.8.0" = _gQI9WfsS;
         "pkg-1.8.1" = _bGVc4SkN;
         "pkg-1.8.66" = _wpLCOO0Y;
-        "default" = _wpLCOO0Y;
+        "pkg-1.8.71" = _jzDfo0Uw;
+        "pkg-1.8.75" = _QqcjWC4L;
+        "pkg-1.8.76" = _4aMQKmyB;
+        "pkg-1.9.0" = _wFQYFTej;
+        "pkg-1.9.0-hotfix" = _OozIU2CX;
+        "default" = _OozIU2CX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "delta_force_skills";

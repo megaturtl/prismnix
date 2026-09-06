@@ -976,6 +976,16 @@ let
             "file" = "cloud_tweaks+1.20.1-0.4.1-neoforge.jar";
             "hash" = "sha512-U4cdsjmA+7df0MVDLWAAMS4ixUQhpxKqsbcrL5y84d9eyttPp3wyPsOvRS83m6icbxYC0XX99CzepnIIdvYcaQ==";
         };
+        _Vw9mTEsb = {
+            "id" = "Vw9mTEsb";
+            "file" = "cloud_tweaks+26.2-0.5.0-alpha.1-fabric.experimental_main.r91.jar";
+            "hash" = "sha512-+YI0LGB3ts6lJot/OVpTNecjHDm6q/LAUQE3zAhScqzpnwSFtNd3a2T5lHZeV8WfdXsdiLnAd9EPp72hpXYfeA==";
+        };
+        _fuFUsfzh = {
+            "id" = "fuFUsfzh";
+            "file" = "cloud_tweaks+26.2-0.5.0-alpha.1-neoforge.experimental_main.r91.jar";
+            "hash" = "sha512-0hmgZZwrQlJJFkKE3EsIhU6EhzGkHQ+/jUnUTxzl5LT9SCikKxAjIuNLS0ATIfNZR+JptJCqSkD9Ci1xgMi5kA==";
+        };
     in {
         "Scwu5Idf" = _Scwu5Idf;
         "WNOCVPwp" = _WNOCVPwp;
@@ -1172,6 +1182,8 @@ let
         "pFquRp4X" = _pFquRp4X;
         "olYOgc8x" = _olYOgc8x;
         "IkSLVpvh" = _IkSLVpvh;
+        "Vw9mTEsb" = _Vw9mTEsb;
+        "fuFUsfzh" = _fuFUsfzh;
         "fabric-1.16" = _2ya0BixF;
         "fabric-1.16.1" = _2ya0BixF;
         "fabric-1.16.2" = _2ya0BixF;
@@ -1205,7 +1217,7 @@ let
         "fabric-26.1" = _D10joypI;
         "fabric-26.1.1" = _D10joypI;
         "fabric-26.1.2" = _D10joypI;
-        "fabric-26.2" = _5XvDRYP6;
+        "fabric-26.2" = _Vw9mTEsb;
         "forge-1.20" = _olYOgc8x;
         "forge-1.20.1" = _olYOgc8x;
         "forge-1.20.2" = _olYOgc8x;
@@ -1253,7 +1265,7 @@ let
         "neoforge-26.1.2" = _Ul4bXFkZ;
         "neoforge-1.20" = _olYOgc8x;
         "neoforge-1.20.1" = _olYOgc8x;
-        "neoforge-26.2" = _gz9gaEpa;
+        "neoforge-26.2" = _fuFUsfzh;
         "pkg-0.0.1" = _XVtVWY8X;
         "pkg-0.0.2" = _HtFCoaFT;
         "pkg-0.1.0" = _YIVQmZpp;
@@ -1304,7 +1316,8 @@ let
         "pkg-0.4.1+1.21.3" = _5wrzyYoX;
         "pkg-0.4.1+1.21" = _oLdRl6XY;
         "pkg-0.4.1+1.20.1" = _IkSLVpvh;
-        "default" = _IkSLVpvh;
+        "pkg-0.5.0-alpha.1+26.2" = _fuFUsfzh;
+        "default" = _fuFUsfzh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cloud_tweaks";

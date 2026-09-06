@@ -91,6 +91,16 @@ let
             "file" = "Paraglider-neoforge-26.1.0.jar";
             "hash" = "sha512-E4E9ZrCm2OKQuQHXyqlyMC31M6lG4IXSiTL/9anyOm8+5rIzGDnOfy6mKra83IfXAk2DBtr/Vb6QuHUT/3oeUw==";
         };
+        _YC2C5p2L = {
+            "id" = "YC2C5p2L";
+            "file" = "Paraglider-neoforge-26.2.0.jar";
+            "hash" = "sha512-aLh9zcc8Lt6DYwZTe76ZY7Gyt7uMtHc+wRMEn4SYoeI+x5zteY9eiczWhDX93yb0yzJPnYrDrCaapUY9TjqV4A==";
+        };
+        _7IUWYFKi = {
+            "id" = "7IUWYFKi";
+            "file" = "Paraglider-neoforge-26.1.1.jar";
+            "hash" = "sha512-WHCY6WAtTjRDcTVU/lu9GaRtaS50jrJ1DZ+EZRfybZzko5I2v4+Ll+8Vk0Qk32bsfSm8X4BocY5noGon8V2Smw==";
+        };
     in {
         "nudKlXXT" = _nudKlXXT;
         "iC6viT2p" = _iC6viT2p;
@@ -110,6 +120,8 @@ let
         "8hcLD174" = _8hcLD174;
         "2Qlp13Yt" = _2Qlp13Yt;
         "Ix3nj2fZ" = _Ix3nj2fZ;
+        "YC2C5p2L" = _YC2C5p2L;
+        "7IUWYFKi" = _7IUWYFKi;
         "forge-1.20.1" = _nudKlXXT;
         "fabric-1.20.1" = _6qmc3Nyl;
         "neoforge-1.21.5" = _7uC0Y3iY;
@@ -117,7 +129,8 @@ let
         "neoforge-1.21.11" = _L6hTL3QG;
         "neoforge-26.1" = _je3Gfre4;
         "neoforge-26.1.1" = _8hcLD174;
-        "neoforge-26.1.2" = _Ix3nj2fZ;
+        "neoforge-26.1.2" = _7IUWYFKi;
+        "neoforge-26.2" = _YC2C5p2L;
         "pkg-20.1.3" = _iC6viT2p;
         "pkg-21.5.1" = _z0jo94uJ;
         "pkg-21.1.2" = _wTGofLai;
@@ -135,7 +148,9 @@ let
         "pkg-26.1.0-beta.2" = _8hcLD174;
         "pkg-26.1.0-beta.3" = _2Qlp13Yt;
         "pkg-26.1.0" = _Ix3nj2fZ;
-        "default" = _Ix3nj2fZ;
+        "pkg-26.2.0" = _YC2C5p2L;
+        "pkg-26.1.1" = _7IUWYFKi;
+        "default" = _7IUWYFKi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "paragliders";

@@ -46,6 +46,11 @@ let
             "file" = "duch-orbitalstrike-cannon-fabric-mc1.21.10-2.0.0.jar";
             "hash" = "sha512-xTMsKgLNQrlCFSgwsqdQLE4HqcRdaDkDQg3GGOa5azvst7/G0JQ1Ltz85wyDEfXwQZ2Z5pIfGlgi3z5MdnbqzA==";
         };
+        _F0QrESfG = {
+            "id" = "F0QrESfG";
+            "file" = "duch-orbitalstrike-cannon-fabric-mc26.2-2.0.0.jar";
+            "hash" = "sha512-8tFl4WC75QvPy3oEkD8to881D6X8Q8hjjmMH2g4hAE+I/TEAHPzz9L2pVOYJQwaHlBPkSVbf2k2di6Xdc3qQSA==";
+        };
     in {
         "9OrCzKKJ" = _9OrCzKKJ;
         "KFxBt2K2" = _KFxBt2K2;
@@ -56,6 +61,7 @@ let
         "A0uC4qzO" = _A0uC4qzO;
         "MyZfvuYT" = _MyZfvuYT;
         "FESHz6xb" = _FESHz6xb;
+        "F0QrESfG" = _F0QrESfG;
         "bukkit-1.17" = _9OrCzKKJ;
         "bukkit-1.17.1" = _9OrCzKKJ;
         "bukkit-1.18" = _9OrCzKKJ;
@@ -191,9 +197,10 @@ let
         "fabric-1.21.6" = _A0uC4qzO;
         "fabric-1.21.8" = _MyZfvuYT;
         "fabric-1.21.10" = _FESHz6xb;
+        "fabric-26.2" = _F0QrESfG;
         "pkg-1.0.0" = _9OrCzKKJ;
-        "pkg-2.0.0" = _FESHz6xb;
-        "default" = _FESHz6xb;
+        "pkg-2.0.0" = _F0QrESfG;
+        "default" = _F0QrESfG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "duch-orbitalstrike-cannon";

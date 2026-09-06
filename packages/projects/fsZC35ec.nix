@@ -76,6 +76,11 @@ let
             "file" = "orevein-1.11.0-V26.2-universal.jar";
             "hash" = "sha512-ErcEEjHo/JvHtY1IjBOZjOnTHxa6xYBuD8WXypo6nIYH4fyT8HPHHwqJEYAd488SHk4Bh/je3/gO9kiZTpZgMQ==";
         };
+        _VZDoHK8U = {
+            "id" = "VZDoHK8U";
+            "file" = "orevein-1.11.1-V26.2-universal.jar";
+            "hash" = "sha512-hzHJDufYqEcSsnijgeyTfRyacob8x1H7OdBb9JpA3BUB81Y28Jp/doQAu4FxNq+n5761DvLDlbacO6n7sRVwjw==";
+        };
     in {
         "zvolAYdm" = _zvolAYdm;
         "ukZUH2Sq" = _ukZUH2Sq;
@@ -92,17 +97,18 @@ let
         "ddBJ7FLI" = _ddBJ7FLI;
         "3QZz6CIO" = _3QZz6CIO;
         "vhwwtBub" = _vhwwtBub;
+        "VZDoHK8U" = _VZDoHK8U;
         "fabric-1.21.11" = _HWHg7916;
         "fabric-26.1-snapshot-2" = _ukZUH2Sq;
         "fabric-26.1" = _3QZz6CIO;
         "fabric-26.1.1" = _3QZz6CIO;
         "fabric-26.1.2" = _3QZz6CIO;
-        "fabric-26.2" = _vhwwtBub;
+        "fabric-26.2" = _VZDoHK8U;
         "neoforge-1.21.11" = _MpjwPbk2;
         "neoforge-26.1.1" = _3QZz6CIO;
         "neoforge-26.1.2" = _3QZz6CIO;
         "neoforge-26.1" = _3QZz6CIO;
-        "neoforge-26.2" = _vhwwtBub;
+        "neoforge-26.2" = _VZDoHK8U;
         "pkg-1.5.0" = _zvolAYdm;
         "pkg-1.6.0" = _ukZUH2Sq;
         "pkg-1.7.1" = _MpjwPbk2;
@@ -113,7 +119,8 @@ let
         "pkg-1.9.6" = _ddBJ7FLI;
         "pkg-1.10.0" = _3QZz6CIO;
         "pkg-1.11.0" = _vhwwtBub;
-        "default" = _vhwwtBub;
+        "pkg-1.11.1" = _VZDoHK8U;
+        "default" = _VZDoHK8U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "orevein";

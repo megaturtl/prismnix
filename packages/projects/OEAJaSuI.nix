@@ -21,19 +21,27 @@ let
             "file" = "createestrogen-1.0.1+1.20.1-fabric.jar";
             "hash" = "sha512-0eQ/z5W+6x6Q/LhOUEHLm6l+p4ZC+AXfxMCOcx0ivY7PlGvLMvNFW8sz+xNI7OCd29W8+YVgpEmqU2NuN8m3BQ==";
         };
+        _jnnDc0Jg = {
+            "id" = "jnnDc0Jg";
+            "file" = "createestrogen-2.0.0+1.21.1.jar";
+            "hash" = "sha512-XbEh6DTHzs5z8h2ZJvrVWmLAMIy5XTMQojk+voAza1Bxe5GD50QlPppcPsTQgnapVRgwaMU/mJ1aTVSql4juww==";
+        };
     in {
         "v2ijIuGa" = _v2ijIuGa;
         "FUqVYinu" = _FUqVYinu;
         "WVx9xRxi" = _WVx9xRxi;
         "dfNdB0gV" = _dfNdB0gV;
+        "jnnDc0Jg" = _jnnDc0Jg;
         "fabric-1.20.1" = _dfNdB0gV;
         "quilt-1.20.1" = _dfNdB0gV;
         "forge-1.20.1" = _WVx9xRxi;
+        "neoforge-1.21.1" = _jnnDc0Jg;
         "pkg-1.0.0+1.20.1-fabric" = _v2ijIuGa;
         "pkg-1.0.0+1.20.1-forge" = _FUqVYinu;
         "pkg-1.0.1+1.20.1-forge" = _WVx9xRxi;
         "pkg-1.0.1+1.20.1-fabric" = _dfNdB0gV;
-        "default" = _dfNdB0gV;
+        "pkg-2.0.0+1.21.1-neoforge" = _jnnDc0Jg;
+        "default" = _jnnDc0Jg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-estrogen";

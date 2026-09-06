@@ -51,6 +51,11 @@ let
             "file" = "R.A.G.E 3.0_beta1_hotfix_1.16.5-26.1.jar";
             "hash" = "sha512-e5PADjFUGfkssV0tO8MKd6tADLkxV+fs75Yiz5C6pN0lKcrJ8TW+vxE7GsLPGaxi4kkWuNpJcQcJXmmRpnYhhA==";
         };
+        _8RnEiCxv = {
+            "id" = "8RnEiCxv";
+            "file" = "R.A.G.E 3.0_beta2_1.16.5-26.1.jar";
+            "hash" = "sha512-NiWTscqHIv1YxGVMrDyP7R4wEFBLHFo+qC9jg0KY5+sEdm/RtCPz1qRj+Rv8+mDKbgrQnPzK8ilW6R/AWllKzg==";
+        };
     in {
         "qveMqEAD" = _qveMqEAD;
         "Mzpcu8U7" = _Mzpcu8U7;
@@ -62,19 +67,20 @@ let
         "OeFDzqR2" = _OeFDzqR2;
         "Ayu7R0ZR" = _Ayu7R0ZR;
         "dAA2ZhVr" = _dAA2ZhVr;
-        "forge-1.16.5" = _dAA2ZhVr;
+        "8RnEiCxv" = _8RnEiCxv;
+        "forge-1.16.5" = _8RnEiCxv;
         "forge-1.12.2" = _svlm4jdD;
-        "forge-1.18.2" = _dAA2ZhVr;
-        "forge-1.19.2" = _dAA2ZhVr;
-        "forge-1.20.1" = _dAA2ZhVr;
-        "forge-1.21.1" = _dAA2ZhVr;
-        "forge-26.1" = _dAA2ZhVr;
-        "neoforge-1.16.5" = _dAA2ZhVr;
-        "neoforge-1.18.2" = _dAA2ZhVr;
-        "neoforge-1.19.2" = _dAA2ZhVr;
-        "neoforge-1.21.1" = _dAA2ZhVr;
-        "neoforge-26.1" = _dAA2ZhVr;
-        "neoforge-1.20.1" = _dAA2ZhVr;
+        "forge-1.18.2" = _8RnEiCxv;
+        "forge-1.19.2" = _8RnEiCxv;
+        "forge-1.20.1" = _8RnEiCxv;
+        "forge-1.21.1" = _8RnEiCxv;
+        "forge-26.1" = _8RnEiCxv;
+        "neoforge-1.16.5" = _8RnEiCxv;
+        "neoforge-1.18.2" = _8RnEiCxv;
+        "neoforge-1.19.2" = _8RnEiCxv;
+        "neoforge-1.21.1" = _8RnEiCxv;
+        "neoforge-26.1" = _8RnEiCxv;
+        "neoforge-1.20.1" = _8RnEiCxv;
         "pkg-2.0" = _Mzpcu8U7;
         "pkg-4" = _QZZxeAE8;
         "pkg-2.1" = _FHsg9VF8;
@@ -82,7 +88,8 @@ let
         "pkg-2.3" = _OeFDzqR2;
         "pkg-V3.0beta1" = _Ayu7R0ZR;
         "pkg-V3.0beta1fix" = _dAA2ZhVr;
-        "default" = _dAA2ZhVr;
+        "pkg-V3.0beta2" = _8RnEiCxv;
+        "default" = _8RnEiCxv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-vehicles-r.a.g.e";

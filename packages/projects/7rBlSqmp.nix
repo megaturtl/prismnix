@@ -156,6 +156,61 @@ let
             "file" = "SiliconeDolls-neoforge-1.21.8-1.0.0+build.54.jar";
             "hash" = "sha512-KGvi8A+encDIYds+LPPCM6JQy9lpbwjraqRfZlX9XlmRionHbmR0Iagec4EglIMOA+KLlezCGBMFy/ZWMMBqJQ==";
         };
+        _TcTHXODQ = {
+            "id" = "TcTHXODQ";
+            "file" = "SiliconeDolls-neoforge-1.21.10-1.0.0+build.58.jar";
+            "hash" = "sha512-qa6xVWV4ggp9sZDinn2bbZbYPuFyg42UYMXjVpl/r3hCA5PsjtGOWjWbFJjmnxXahbm8IF/UVujPzcUwJpTFQQ==";
+        };
+        _THna8n3K = {
+            "id" = "THna8n3K";
+            "file" = "SiliconeDolls-neoforge-26.1.2-1.0.0+build.61.jar";
+            "hash" = "sha512-1mTBmNFRgyVsT7FZP5waePDrRNOBUnSPJTLRXn92tMFrSaGanNXn53WAN4kZMBYwcaZ4MTHQONqKN8kNJpI8uw==";
+        };
+        _WjdRo152 = {
+            "id" = "WjdRo152";
+            "file" = "SiliconeDolls-neoforge-26.2-1.0.0+build.62.jar";
+            "hash" = "sha512-vDb4j+KhG0//g2buL+zDsD027YFXSdRYIsONYlE70gn2JGntifTBtDDyN1smH4KlwhGtf6oFvur0fhubKGT1lQ==";
+        };
+        _IGo7Szl4 = {
+            "id" = "IGo7Szl4";
+            "file" = "SiliconeDolls-neoforge-1.21.1-1.0.0+build.63.jar";
+            "hash" = "sha512-0YFdVgIWCoaDpOYnqO6jez32z0bCposbGUvyN+OTpfA0q8+ELvBaDrW3PJBEhmhOQYEB5KmWZft/SgqDkkcjrg==";
+        };
+        _7bsFyUFI = {
+            "id" = "7bsFyUFI";
+            "file" = "SiliconeDolls-neoforge-1.21.1-1.0.0+build.64.jar";
+            "hash" = "sha512-wdPnBOt70SC2OFoSSw+CxQgnYfd/XebfjT+Mq6NiQazMYRUf37pTTUtx85RROJCvKDrPE9pphII9VlL9a1EQXw==";
+        };
+        _ckHjo0eL = {
+            "id" = "ckHjo0eL";
+            "file" = "SiliconeDolls-neoforge-1.21.1-1.0.0+build.66.jar";
+            "hash" = "sha512-wlciXtVHZueW5cFOUhHZtP2YgrujO4tKpaTJGEcoSwmMtene5on7ORavv62GKTlJnNkb7szh8yGaj26aEnYyaQ==";
+        };
+        _Lif5JATe = {
+            "id" = "Lif5JATe";
+            "file" = "SiliconeDolls-neoforge-1.21.1-1.0.0+build.65.jar";
+            "hash" = "sha512-J2ic21FpJ8tNf/0V6VWSjVNYLHC8mpJxHF9t04yvqGWMs2EqUzTKa1EZ3LsTtejh3wYJTfSdC/WvK6c1kh730A==";
+        };
+        _7L9R7Utc = {
+            "id" = "7L9R7Utc";
+            "file" = "SiliconeDolls-neoforge-26.2-1.0.0+build.67.jar";
+            "hash" = "sha512-nzIDalUrl5dBPRT/8kroV4JTqjLLHFPz4rMKJRdsfqxcnk6uyJtty4/Y13eaGmR/Q5AwJVUSlXOR4KSpmtb3tg==";
+        };
+        _XRS7zU5d = {
+            "id" = "XRS7zU5d";
+            "file" = "SiliconeDolls-neoforge-26.1.2-1.0.0+build.68.jar";
+            "hash" = "sha512-AmYrirdD0KJ51Vt3vLlhnX0QvuwWXIA1xal+c5BYIQVDF/AhP2Gkoh0yqRdIGKgrquSaPN+AHAvgxspyB6ZKKA==";
+        };
+        _zlmAclQM = {
+            "id" = "zlmAclQM";
+            "file" = "SiliconeDolls-neoforge-1.21.10-1.0.0+build.69.jar";
+            "hash" = "sha512-d3/u+peUrNGvWNH2UXzIdUB90h/IeJvE+u5JXZYoYnfjYB2B0dqL/8+Ip62E9hMQPhcD5TmTUh+cUpf1VWed6A==";
+        };
+        _Q1OaLXSG = {
+            "id" = "Q1OaLXSG";
+            "file" = "SiliconeDolls-neoforge-1.21.8-1.0.0+build.70.jar";
+            "hash" = "sha512-QGRGX+LLV3ywsui8XGZlm/Ctckk7NvI371M4zI4uZ9Nsesm5zHGFgUXjk9rI/0uSeUuYxKPHzAGsrp28xh7wNg==";
+        };
     in {
         "OOcfyWCH" = _OOcfyWCH;
         "1HLoO8ND" = _1HLoO8ND;
@@ -188,8 +243,22 @@ let
         "M5M8apyO" = _M5M8apyO;
         "2SPnE0lo" = _2SPnE0lo;
         "PWnjdYzg" = _PWnjdYzg;
-        "neoforge-1.21.1" = _RVgca7dO;
-        "neoforge-1.21.8" = _PWnjdYzg;
+        "TcTHXODQ" = _TcTHXODQ;
+        "THna8n3K" = _THna8n3K;
+        "WjdRo152" = _WjdRo152;
+        "IGo7Szl4" = _IGo7Szl4;
+        "7bsFyUFI" = _7bsFyUFI;
+        "ckHjo0eL" = _ckHjo0eL;
+        "Lif5JATe" = _Lif5JATe;
+        "7L9R7Utc" = _7L9R7Utc;
+        "XRS7zU5d" = _XRS7zU5d;
+        "zlmAclQM" = _zlmAclQM;
+        "Q1OaLXSG" = _Q1OaLXSG;
+        "neoforge-1.21.1" = _Lif5JATe;
+        "neoforge-1.21.8" = _Q1OaLXSG;
+        "neoforge-1.21.10" = _zlmAclQM;
+        "neoforge-26.1.2" = _XRS7zU5d;
+        "neoforge-26.2" = _7L9R7Utc;
         "pkg-1.0.0+build.20" = _OOcfyWCH;
         "pkg-1.0.0+build.22" = _1HLoO8ND;
         "pkg-1.0.0+build.23" = _fGzTI2lg;
@@ -221,7 +290,18 @@ let
         "pkg-1.0.0+build.52" = _M5M8apyO;
         "pkg-1.0.0+build.53" = _2SPnE0lo;
         "pkg-1.0.0+build.54" = _PWnjdYzg;
-        "default" = _PWnjdYzg;
+        "pkg-1.0.0+build.58" = _TcTHXODQ;
+        "pkg-1.0.0+build.61" = _THna8n3K;
+        "pkg-1.0.0+build.62" = _WjdRo152;
+        "pkg-1.0.0+build.63" = _IGo7Szl4;
+        "pkg-1.0.0+build.64" = _7bsFyUFI;
+        "pkg-1.0.0+build.66" = _ckHjo0eL;
+        "pkg-1.0.0+build.65" = _Lif5JATe;
+        "pkg-1.0.0+build.67" = _7L9R7Utc;
+        "pkg-1.0.0+build.68" = _XRS7zU5d;
+        "pkg-1.0.0+build.69" = _zlmAclQM;
+        "pkg-1.0.0+build.70" = _Q1OaLXSG;
+        "default" = _Q1OaLXSG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "silicone-dolls";

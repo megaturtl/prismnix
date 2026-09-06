@@ -66,6 +66,16 @@ let
             "file" = "smoothjoin-fabric-26.2-1.3.1.jar";
             "hash" = "sha512-s4VuxT169beIaJqMz6YHKX2XNmTQgDQPWbH7sDFJDOHYXc5jvRWnWGZmOyd58u7+AFSHshjKkcv/f102giljIw==";
         };
+        _J4TjUD8v = {
+            "id" = "J4TjUD8v";
+            "file" = "SmoothJoin-NeoForge-1.3.1-neoforge.jar";
+            "hash" = "sha512-Hx9Zh/udiBm9gRtZe7g0tqDh9PwOwZWkDNc1SJKE9zauDOXza95vBwNWnhU7RpZLzZ6S/0CvJBTo9Hrr1kibdA==";
+        };
+        _dO1padLX = {
+            "id" = "dO1padLX";
+            "file" = "SmoothJoin-NeoForge-1.0.3-NeoForge.jar";
+            "hash" = "sha512-PIh+7pMBYfQ9nZQaMQ8YJSS7tXIxyFZnwMK0mXru6GEleA947tMarIizQkZGwBPi3b8OV1ug7BR8fVVXoXE9NQ==";
+        };
     in {
         "QhJD17Zo" = _QhJD17Zo;
         "pyFGUUfe" = _pyFGUUfe;
@@ -80,6 +90,8 @@ let
         "rI3hfMCy" = _rI3hfMCy;
         "DZ6O6DwS" = _DZ6O6DwS;
         "ctJzU3DC" = _ctJzU3DC;
+        "J4TjUD8v" = _J4TjUD8v;
+        "dO1padLX" = _dO1padLX;
         "fabric-1.21" = _cz33kCJ8;
         "fabric-1.21.1" = _cz33kCJ8;
         "fabric-1.21.2" = _cz33kCJ8;
@@ -108,6 +120,19 @@ let
         "fabric-26.1.1" = _H54DEYXt;
         "fabric-26.1.2" = _rI3hfMCy;
         "fabric-26.2" = _ctJzU3DC;
+        "neoforge-26.2" = _J4TjUD8v;
+        "neoforge-1.21" = _dO1padLX;
+        "neoforge-1.21.1" = _dO1padLX;
+        "neoforge-1.21.2" = _dO1padLX;
+        "neoforge-1.21.3" = _dO1padLX;
+        "neoforge-1.21.4" = _dO1padLX;
+        "neoforge-1.21.5" = _dO1padLX;
+        "neoforge-1.21.6" = _dO1padLX;
+        "neoforge-1.21.7" = _dO1padLX;
+        "neoforge-1.21.8" = _dO1padLX;
+        "neoforge-1.21.9" = _dO1padLX;
+        "neoforge-1.21.10" = _dO1padLX;
+        "neoforge-1.21.11" = _dO1padLX;
         "pkg-1.0.0" = _PI0XaVIw;
         "pkg-1.0.2" = _dNG28mQ2;
         "pkg-1.0.3" = _w8qxj8rw;
@@ -115,7 +140,9 @@ let
         "pkg-1.2.1" = _rI3hfMCy;
         "pkg-1.3.0" = _DZ6O6DwS;
         "pkg-1.3.1" = _ctJzU3DC;
-        "default" = _ctJzU3DC;
+        "pkg-1.3.1-NeoForge" = _J4TjUD8v;
+        "pkg-1.0.3-NeoForge" = _dO1padLX;
+        "default" = _dO1padLX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smooth-join";

@@ -1,0 +1,66 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _CtnaQ4ZF = {
+            "id" = "CtnaQ4ZF";
+            "file" = "playercorpse-1.0.0.jar";
+            "hash" = "sha512-/YoFocfwopYArhiHgUIfOP2746v6Vyj1XeskT+D4m+TimbmjuuGG+27R+4CGWsk+l+V24daJE53c1yqE7acWmQ==";
+        };
+        _M4ZgC5PP = {
+            "id" = "M4ZgC5PP";
+            "file" = "playercorpse-1.0.0.jar";
+            "hash" = "sha512-A8jyfUxBR6OqoikAPq+nHBk4WsMtntC6kbWanrVU/GgQLmZqGvI29P408zOXiRsP1OLfaVpwxbzzk12CqSyBYA==";
+        };
+        _3pY0ZU5y = {
+            "id" = "3pY0ZU5y";
+            "file" = "playercorpse-2.0.1.jar";
+            "hash" = "sha512-CfMOY/DyG3XCwSo0sg7krBwR/Cv+LO4aqzLm63cu/AS0u9udq/7KixTNdi2WIo1vlZYsgy2LQFa2jBDaga9QWw==";
+        };
+        _ZIyJSSGT = {
+            "id" = "ZIyJSSGT";
+            "file" = "playercorpse-2.0.2.jar";
+            "hash" = "sha512-cAHXGlrzqUTErSTcgz7M/kWIUkcrjrdfAuSlB4q1ZJwo1oujUXem5a4oc/cmUT2RMyAaMxi2ZvJAvZDGDL8hBA==";
+        };
+        _TM3TD28s = {
+            "id" = "TM3TD28s";
+            "file" = "playercorpse-2.0.2.jar";
+            "hash" = "sha512-gJ4knE0M9W+yPHl+wXSY/LyTUUoVWZc/0IpmT/leEAZdneuvXFrDcGvYCufq+ArLDSngQw5JnBvwmTLnl+sqOg==";
+        };
+        _NkDJXR9P = {
+            "id" = "NkDJXR9P";
+            "file" = "playercorpse-2.0.2.jar";
+            "hash" = "sha512-nijoxsxRn97WkASsywIzi9cn1zaUiv8RC3vAe2umgX6uKkH/CBswTcJ5hY+5b608B1Ch7rCEgPj5lCwsZ8ZsOQ==";
+        };
+    in {
+        "CtnaQ4ZF" = _CtnaQ4ZF;
+        "M4ZgC5PP" = _M4ZgC5PP;
+        "3pY0ZU5y" = _3pY0ZU5y;
+        "ZIyJSSGT" = _ZIyJSSGT;
+        "TM3TD28s" = _TM3TD28s;
+        "NkDJXR9P" = _NkDJXR9P;
+        "neoforge-1.21.1" = _NkDJXR9P;
+        "forge-1.19.2" = _ZIyJSSGT;
+        "forge-1.20.1" = _TM3TD28s;
+        "pkg-1.0.0" = _CtnaQ4ZF;
+        "pkg-2.0.0" = _M4ZgC5PP;
+        "pkg-2.0.1" = _3pY0ZU5y;
+        "pkg-2.0.2" = _NkDJXR9P;
+        "default" = _NkDJXR9P;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "corpse-refined";
+        id = "tCn6q8ix";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

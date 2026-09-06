@@ -71,6 +71,26 @@ let
             "file" = "the_stalker-1.5-forge-1.20.1.jar";
             "hash" = "sha512-gB/QIMaXj/W/HNF7DGLsl6t6lwv+dho6X8zadbZUUNOPG4tTzGrMsb2VTpAj45MCiD5o0cmd4bz9g6galvG7og==";
         };
+        _5ZX5yubE = {
+            "id" = "5ZX5yubE";
+            "file" = "the_stalker-1.9-forge-1.20.1.jar";
+            "hash" = "sha512-QdNbOmVk4LnDXAsRRBOwjunFvHxidESd5garr9y9LOzMSArt3C1BsrMM/mu11gTdej/wO3u1nDSn+7AIv3RbVg==";
+        };
+        _lNrHi6Gu = {
+            "id" = "lNrHi6Gu";
+            "file" = "the_stalker-2.0-forge-1.20.1.jar";
+            "hash" = "sha512-oiTdclQ0dH95/XdsNZc+/Qm9wkF39oM8GzlmCuJXjSQYgL7OCumhaOJ3SpTFIkFiiorkH84S8qj66Cyxr8JrDA==";
+        };
+        _BVN2HHLZ = {
+            "id" = "BVN2HHLZ";
+            "file" = "the_stalker-2.1-forge-1.20.1.jar";
+            "hash" = "sha512-WXLIqZZTQIhF3xqng4rwzhFlBI/ShXcNLKOlRTIGGP7tuLvc+lF1Q8VtgQsSn1vj9UCoH284FD578JC4+lqJyg==";
+        };
+        _kMAeyk4O = {
+            "id" = "kMAeyk4O";
+            "file" = "the_stalker-2.1-forge-1.20.1.jar";
+            "hash" = "sha512-WXLIqZZTQIhF3xqng4rwzhFlBI/ShXcNLKOlRTIGGP7tuLvc+lF1Q8VtgQsSn1vj9UCoH284FD578JC4+lqJyg==";
+        };
     in {
         "wbdAUlhk" = _wbdAUlhk;
         "Ik7EVQWs" = _Ik7EVQWs;
@@ -86,7 +106,11 @@ let
         "LKIHzRsF" = _LKIHzRsF;
         "LFAOenof" = _LFAOenof;
         "e3nI28JR" = _e3nI28JR;
-        "forge-1.20.1" = _e3nI28JR;
+        "5ZX5yubE" = _5ZX5yubE;
+        "lNrHi6Gu" = _lNrHi6Gu;
+        "BVN2HHLZ" = _BVN2HHLZ;
+        "kMAeyk4O" = _kMAeyk4O;
+        "forge-1.20.1" = _kMAeyk4O;
         "pkg-0.1" = _wbdAUlhk;
         "pkg-0.2" = _Ik7EVQWs;
         "pkg-0.3" = _WXN412Q6;
@@ -101,7 +125,10 @@ let
         "pkg-1.3" = _LKIHzRsF;
         "pkg-1.4" = _LFAOenof;
         "pkg-1.5" = _e3nI28JR;
-        "default" = _e3nI28JR;
+        "pkg-1.9" = _5ZX5yubE;
+        "pkg-2.0" = _lNrHi6Gu;
+        "pkg-2.1" = _kMAeyk4O;
+        "default" = _kMAeyk4O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-stalker.";

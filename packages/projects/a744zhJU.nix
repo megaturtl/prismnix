@@ -141,6 +141,26 @@ let
             "file" = "reliable_requiem-fabric-26.2-1.0.2.jar";
             "hash" = "sha512-rhD6DQzuaac3RaQMipCtmaMwRL3ChLaflK0p8QWq3KJvxSlUn9gcDe0F2kQ2cql3n4mXzvDG7wjOC+6iYfEFIA==";
         };
+        _BqOBl5PG = {
+            "id" = "BqOBl5PG";
+            "file" = "reliable_requiem-neoforge-1.21.1-1.2.0.jar";
+            "hash" = "sha512-zBvtpz6xLKrJ5vFm+BSpSdjwixNP4h0L1XLtgsvXksjECayiygsRUot55yS9TUbriOrfKp5YSa1tIHpoMWfEIQ==";
+        };
+        _ZW3i1fGD = {
+            "id" = "ZW3i1fGD";
+            "file" = "reliable_requiem-fabric-1.21.1-1.2.0.jar";
+            "hash" = "sha512-Cp15/jXUxK02bv77Ezac2J/EfomXtN5M0J2CKCxS0xYutiBgawfo0aqqyiANwZmxKwkFvkXNCxScaRsk8WXt2Q==";
+        };
+        _StVZMXHW = {
+            "id" = "StVZMXHW";
+            "file" = "reliable_requiem-neoforge-1.21.1-1.3.0.jar";
+            "hash" = "sha512-XBYkS8IDUMBora6hhrjLzhWJH+jZLkWKacIWhzMLLvwW5PM9rG57ub43DThfcA4ry/tz+Lz6d577/syO2jgV/Q==";
+        };
+        _wnoinq4z = {
+            "id" = "wnoinq4z";
+            "file" = "reliable_requiem-fabric-1.21.1-1.3.0.jar";
+            "hash" = "sha512-2Wjv057oC07lVwKsCvz2vv0yUdLj1ql3z0J5qxhbWYw1hPt6AzGPi9mySQ5OQfI1l3lpos04AwDiSR9lR2RkEA==";
+        };
     in {
         "Y4NusN0d" = _Y4NusN0d;
         "UMQH6b2W" = _UMQH6b2W;
@@ -170,15 +190,19 @@ let
         "JkwKcNPk" = _JkwKcNPk;
         "sjeNZ9G1" = _sjeNZ9G1;
         "DxSiuKQL" = _DxSiuKQL;
+        "BqOBl5PG" = _BqOBl5PG;
+        "ZW3i1fGD" = _ZW3i1fGD;
+        "StVZMXHW" = _StVZMXHW;
+        "wnoinq4z" = _wnoinq4z;
         "neoforge-26.1" = _ACKlGsLo;
         "neoforge-26.1.1" = _ACKlGsLo;
         "neoforge-26.1.2" = _ACKlGsLo;
-        "neoforge-1.21.1" = _3L4gYoxd;
+        "neoforge-1.21.1" = _StVZMXHW;
         "neoforge-26.2" = _sjeNZ9G1;
         "fabric-26.1" = _JkwKcNPk;
         "fabric-26.1.1" = _JkwKcNPk;
         "fabric-26.1.2" = _JkwKcNPk;
-        "fabric-1.21.1" = _xun5XE0t;
+        "fabric-1.21.1" = _wnoinq4z;
         "fabric-1.20.1" = _r07ra0AW;
         "fabric-26.2" = _DxSiuKQL;
         "forge-1.20.1" = _w1OUeepM;
@@ -208,7 +232,11 @@ let
         "pkg-1.0.2-26.1.2-fabric" = _JkwKcNPk;
         "pkg-1.0.2-26.2-neoforge" = _sjeNZ9G1;
         "pkg-1.0.2-26.2-fabric" = _DxSiuKQL;
-        "default" = _DxSiuKQL;
+        "pkg-1.2.0-1.21.1-neoforge" = _BqOBl5PG;
+        "pkg-1.2.0-1.21.1-fabric" = _ZW3i1fGD;
+        "pkg-1.3.0-1.21.1-neoforge" = _StVZMXHW;
+        "pkg-1.3.0-1.21.1-fabric" = _wnoinq4z;
+        "default" = _wnoinq4z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reliable-requiem";

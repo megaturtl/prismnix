@@ -386,6 +386,16 @@ let
             "file" = "Statues-26.1.2-0.4.22.jar";
             "hash" = "sha512-y73YkTHHYZrEGIcvW27o0IbBGf00pxJdG33U1eQ+TsOorqgHr93rCL8QWCn4haOHngPitzNgVr8htLDD5QlsqA==";
         };
+        _wHtv3wxB = {
+            "id" = "wHtv3wxB";
+            "file" = "Statues-1.21.1-0.4.18.jar";
+            "hash" = "sha512-XFzJ3P97B1KmaU7F3D4C8SSC8u/KiNd2fcZqUtCiqMCyIWeQ9CcyH993IvGnfo/tagefcAh/GmBmVQlcl2JtOQ==";
+        };
+        _NqbJxOiA = {
+            "id" = "NqbJxOiA";
+            "file" = "Statues-26.1.2-0.4.23.jar";
+            "hash" = "sha512-xutsoqS9UbeJPfb+unHrgOAfrAfXajqiANGY/vksqlxAyNshzbqOetZ2HcXDEmOMu7buXsm+KcnPjAsktSurZg==";
+        };
     in {
         "193TAy3o" = _193TAy3o;
         "2J2tIz3O" = _2J2tIz3O;
@@ -464,6 +474,8 @@ let
         "KWk3IuYd" = _KWk3IuYd;
         "WmAxtpt0" = _WmAxtpt0;
         "ekwrFMTH" = _ekwrFMTH;
+        "wHtv3wxB" = _wHtv3wxB;
+        "NqbJxOiA" = _NqbJxOiA;
         "forge-1.18.2" = _193TAy3o;
         "forge-1.18.1" = _2J2tIz3O;
         "forge-1.17.1" = _9zufRF62;
@@ -480,11 +492,11 @@ let
         "neoforge-1.20.4" = _YPnyCO5n;
         "neoforge-1.20.6" = _x4Ix3uG9;
         "neoforge-1.21" = _Hz2QCRqC;
-        "neoforge-1.21.1" = _i6V3o16a;
+        "neoforge-1.21.1" = _wHtv3wxB;
         "neoforge-1.21.8" = _P0u4SMVI;
         "neoforge-1.21.10" = _40dpqUKF;
         "neoforge-1.21.11" = _d8ghFZGs;
-        "neoforge-26.1.2" = _ekwrFMTH;
+        "neoforge-26.1.2" = _NqbJxOiA;
         "pkg-0.1.8.1" = _193TAy3o;
         "pkg-0.1.8.0" = _2J2tIz3O;
         "pkg-0.1.7.6" = _9zufRF62;
@@ -544,12 +556,13 @@ let
         "pkg-0.4.16" = _P0u4SMVI;
         "pkg-0.4.2" = _Se3ATlnA;
         "pkg-0.4.17" = _40dpqUKF;
-        "pkg-0.4.18" = _d8ghFZGs;
+        "pkg-0.4.18" = _wHtv3wxB;
         "pkg-0.4.19" = _qVoPUOle;
         "pkg-0.4.20" = _KWk3IuYd;
         "pkg-0.4.21" = _WmAxtpt0;
         "pkg-0.4.22" = _ekwrFMTH;
-        "default" = _ekwrFMTH;
+        "pkg-0.4.23" = _NqbJxOiA;
+        "default" = _NqbJxOiA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "statues";

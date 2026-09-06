@@ -136,6 +136,11 @@ let
             "file" = "pvp-tweaks-1.9.4-mc26.1.x.jar";
             "hash" = "sha512-0DpoKUTkktPbkXES6lxuhOsvvxR5CZN8jXekaA/ZX1nAwwVLr0XuCNedwv5oNc+7BxNMP3l8XPMRRvjZmjZMJQ==";
         };
+        _en8wVXhN = {
+            "id" = "en8wVXhN";
+            "file" = "pvp-tweaks-1.9.4-mc1.21.11.jar";
+            "hash" = "sha512-dhBMMrFlGxQydKBct2d7KVINZQMHF5pdtxHlk3lt+gatauatQflqfgtTcULETE5b8Ua4HUX0TqfYkftnB0ic9g==";
+        };
     in {
         "tTsodOqE" = _tTsodOqE;
         "8vxW7sbh" = _8vxW7sbh;
@@ -164,7 +169,8 @@ let
         "xJNxk9Cg" = _xJNxk9Cg;
         "dG80Rd6I" = _dG80Rd6I;
         "6kpIZGCP" = _6kpIZGCP;
-        "fabric-1.21.11" = _jcnz7vhI;
+        "en8wVXhN" = _en8wVXhN;
+        "fabric-1.21.11" = _en8wVXhN;
         "fabric-1.21.4" = _InHZB8Aw;
         "fabric-1.21.5" = _1FgI8q6I;
         "fabric-1.21.6" = _W6RWHKmz;
@@ -198,11 +204,12 @@ let
         "pkg-1.9.1-mc1.21.10" = _f7EmqeWK;
         "pkg-1.9.1-mc1.21.9" = _m1ejpLCt;
         "pkg-1.9.3-mc26.2" = _z1h6jk2q;
-        "pkg-1.9.3-mc1.21.11-beta" = _jcnz7vhI;
+        "pkg-1.9.3-mc1.21.11" = _jcnz7vhI;
         "pkg-1.9.3-mc26.1.x-beta" = _xJNxk9Cg;
         "pkg-1.9.4-mc26.2" = _dG80Rd6I;
         "pkg-1.9.4-mc26.1.x" = _6kpIZGCP;
-        "default" = _6kpIZGCP;
+        "pkg-1.9.4-mc1.21.11" = _en8wVXhN;
+        "default" = _en8wVXhN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pvptweak";

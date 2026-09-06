@@ -71,6 +71,41 @@ let
             "file" = "Scatha-Pro v2.1.4 - 26.1.x.jar";
             "hash" = "sha512-dtqcZfo8z2Fi0rAWdSy+Qxi0AY3s6OVENDqBagsKyzMps/rSfQ9wNHXUqIgY+7fgLa8X6ZrCsbOX7JHo5dTo2Q==";
         };
+        _ul4OMP9g = {
+            "id" = "ul4OMP9g";
+            "file" = "Scatha-Pro v2.1.5 - 26.1.x.jar";
+            "hash" = "sha512-eP34QUVKbj66vh3rv6BsrFAKyOfnZgHfa+1uyvrUO9p1SEw3MLk6p8SBVBpnE/kNpByblia/qYsmTCOCjVC3VA==";
+        };
+        _Fc7WrgIR = {
+            "id" = "Fc7WrgIR";
+            "file" = "Scatha-Pro v2.2 - 26.2+.jar";
+            "hash" = "sha512-Q7jwH8bddr9HSM12pM/ruj2IlI4H3S4PVs6tu6lC9obUxpmDCV4GBpaK7i/k3uaOpmjpJpDgXrMyLxrtDIHBQQ==";
+        };
+        _j1gvPNyT = {
+            "id" = "j1gvPNyT";
+            "file" = "Scatha-Pro v2.2.1 - 26.2+.jar";
+            "hash" = "sha512-zof9QvOUqhpC276uRSjkGG+mg+Jczu/RbGNOM+AKLO50MZgGnKB+6WOIqOy0rBBrCkJ7lHGfPoqclp0hb4fzUg==";
+        };
+        _CtN4sJFC = {
+            "id" = "CtN4sJFC";
+            "file" = "Scatha-Pro v2.2.2 - 26.2+.jar";
+            "hash" = "sha512-eRgxrXi1aNSgU3KcKY9NgCKY799dYyaGJ6LvrgSiUsqgp8KWt2GhPoj++ORUtk++Er3IpM3f9PGRKgdBLQ58YQ==";
+        };
+        _wbUVAOJE = {
+            "id" = "wbUVAOJE";
+            "file" = "Scatha-Pro v2.2.2 - 26.1.x.jar";
+            "hash" = "sha512-ATLPuZQcrkaT9rVLeLv2t+bV6gPFITG10SXW+nYgnFQHfeYy70gj9KkL04JrXOVQehVvBl0T0uZGKS2rPR1MgA==";
+        };
+        _M7e2Kzeg = {
+            "id" = "M7e2Kzeg";
+            "file" = "Scatha-Pro v2.3 - 26.2.jar";
+            "hash" = "sha512-j2m4uFHA0WjxS1cHf/MVNMkTpBUyaDYlGst1oacuDU6HTRw3KSjfUlS/ueBkfeHeuSGBbSGOKaLrmOlOnsesUQ==";
+        };
+        _vx2g4VHN = {
+            "id" = "vx2g4VHN";
+            "file" = "Scatha-Pro v2.3 - 26.1.x.jar";
+            "hash" = "sha512-kqGR499p7Wcm9MEQ8jz/G7RBqH8pEDW55/UiRnqA8UQ+U2Ww9IrKGNCbnjz+MD9tyu1KbplpBkfIuCSnM76Zbw==";
+        };
     in {
         "7Fsj9znk" = _7Fsj9znk;
         "avgfLoHB" = _avgfLoHB;
@@ -86,13 +121,21 @@ let
         "4SKwbUlj" = _4SKwbUlj;
         "LrADPtLZ" = _LrADPtLZ;
         "3npvC2HD" = _3npvC2HD;
+        "ul4OMP9g" = _ul4OMP9g;
+        "Fc7WrgIR" = _Fc7WrgIR;
+        "j1gvPNyT" = _j1gvPNyT;
+        "CtN4sJFC" = _CtN4sJFC;
+        "wbUVAOJE" = _wbUVAOJE;
+        "M7e2Kzeg" = _M7e2Kzeg;
+        "vx2g4VHN" = _vx2g4VHN;
         "forge-1.8.9" = _YCTI0zxf;
         "fabric-1.21.11" = _SU0LKCmG;
         "fabric-1.21.9" = _T7IBEiH1;
         "fabric-1.21.10" = _T7IBEiH1;
-        "fabric-26.1.1" = _3npvC2HD;
-        "fabric-26.1.2" = _3npvC2HD;
-        "fabric-26.1" = _3npvC2HD;
+        "fabric-26.1.1" = _vx2g4VHN;
+        "fabric-26.1.2" = _vx2g4VHN;
+        "fabric-26.1" = _vx2g4VHN;
+        "fabric-26.2" = _M7e2Kzeg;
         "pkg-1.2.3.1" = _7Fsj9znk;
         "pkg-1.3" = _avgfLoHB;
         "pkg-1.3.1" = _HrGCDh6y;
@@ -105,7 +148,12 @@ let
         "pkg-2.1.2" = _4SKwbUlj;
         "pkg-2.1.3" = _LrADPtLZ;
         "pkg-2.1.4" = _3npvC2HD;
-        "default" = _3npvC2HD;
+        "pkg-2.1.5" = _ul4OMP9g;
+        "pkg-2.2" = _Fc7WrgIR;
+        "pkg-2.2.1" = _j1gvPNyT;
+        "pkg-2.2.2" = _wbUVAOJE;
+        "pkg-2.3" = _vx2g4VHN;
+        "default" = _vx2g4VHN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scatha-pro";

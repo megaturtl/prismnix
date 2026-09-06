@@ -271,6 +271,86 @@ let
             "file" = "ChainVeinFabric-2.2.1-1.21.11.jar";
             "hash" = "sha512-iXGZMWfCTaJBnACbyOGWuLQIKAswoRCsGX3TyT1rjpRd2cJGjTTOdjJwJ5WE0N2sx9Y0m++05H+DKEQUUQ1r+g==";
         };
+        _FC5rXRyB = {
+            "id" = "FC5rXRyB";
+            "file" = "ChainVeinFabric-3.0.0-26.2.jar";
+            "hash" = "sha512-lqeWCLUTJQvMEaF812SppV/4iwp1oorn+PhYckFP5sVW2vfmQwgohkxPVSmxM/HuDj1cuqvBqVpAHF6cd/ebiw==";
+        };
+        _MkrSKhih = {
+            "id" = "MkrSKhih";
+            "file" = "ChainVeinFabric-3.0.0-26.1.jar";
+            "hash" = "sha512-bFzR/jT3V+AUjke6EX5Fs01WZ1CV6Ppqltfa59tHlDP3U4th/lcbyNvIFpBcYOCu37Ydls6MJEyAbyH6yhh8WA==";
+        };
+        _sL3Yk7bR = {
+            "id" = "sL3Yk7bR";
+            "file" = "ChainVeinFabric-3.1.0-26.2.jar";
+            "hash" = "sha512-7OYCWRqB2Xix5HcwxRLXaDjWkE9gAF/G6ruO+PgyZnfJ4dgz2QAIl1lFAEk1i4sENboM4Vh/JGoQoITu9KLCjA==";
+        };
+        _7voupsLf = {
+            "id" = "7voupsLf";
+            "file" = "ChainVeinFabric-3.1.0-26.1.jar";
+            "hash" = "sha512-rEtz8Ok8g/fkf60n7VmhaFKgFsx1GFF8yxAGQeFmbIEUdYG+/ehXNPuJz+6RLQNAnMsGRjYPBytaTseo9CYA1g==";
+        };
+        _gaEc2RtY = {
+            "id" = "gaEc2RtY";
+            "file" = "ChainVeinFabric-4.0.0+26.2.jar";
+            "hash" = "sha512-Yf7Glo5y3Y+OXo0vmNz36zprZ0rx7dPQK6mhjlDGajd2G8eOb1wI9wu1LuMtIpql9yxn+zh+z4YR9KzvqOMfsg==";
+        };
+        _7MnLWWjS = {
+            "id" = "7MnLWWjS";
+            "file" = "ChainVeinFabric-4.0.0+26.1.jar";
+            "hash" = "sha512-V34a+HPrIXZ9xLiwGOU0hg51kr88dRitkWxynLylqYyWTDmumH3nyuEZfbh7cUwEDDXoNQtGT/Xf4HsTubuMfA==";
+        };
+        _mbBI6jih = {
+            "id" = "mbBI6jih";
+            "file" = "ChainVeinFabric-4.0.1+26.1.jar";
+            "hash" = "sha512-voQLbp3HZm3U/fWjn9s/OWRu3d2ifGc2XmrqxjNNcy9XqqEuA9vISQfBzLIiWATRz4ooF+OpVbo59ozii0TttQ==";
+        };
+        _4tVCy2rm = {
+            "id" = "4tVCy2rm";
+            "file" = "ChainVeinFabric-4.0.1+26.2.jar";
+            "hash" = "sha512-3dFwozbYR+NhPxr4OY8CBNkNvORH22x+pZ7QRbAI33ePeFyE1VQMRuFa/nZbPV2zK1uG10eci+fpZ8rpCl4lNw==";
+        };
+        _IJnq3ued = {
+            "id" = "IJnq3ued";
+            "file" = "ChainVeinFabric-4.0.2+26.1.jar";
+            "hash" = "sha512-Rff+MNruKw48v+7jIhLGa63ABtt71ppydwb0h+WHv5Vd/th/VnSh8Rou2FlkdcYnJ0iD8TX3OzOTbju+rGSKyQ==";
+        };
+        _fKenfer6 = {
+            "id" = "fKenfer6";
+            "file" = "ChainVeinFabric-4.0.2+26.2.jar";
+            "hash" = "sha512-1b2T6Fa2+KMsiia9TnjOvO79pimFbbIZdnDrgp37BW0WB8T4z0SsocrS9brBYnR9gkrcqbqmCz9xyYDYtIdTCg==";
+        };
+        _jUh45cj3 = {
+            "id" = "jUh45cj3";
+            "file" = "ChainVeinFabric-4.1.0-alpha.2-26.2.jar";
+            "hash" = "sha512-hpkee+rWwj6duEPbUVLtyyLT5F2/Aeq/rm81sKIL3ugZYkbTI0Tlra0qbLrEKu8KQwQ45Nco9ESLHP/v6lkKDg==";
+        };
+        _LwmQS29n = {
+            "id" = "LwmQS29n";
+            "file" = "ChainVeinFabric-4.1.0-alpha.2-26.1.jar";
+            "hash" = "sha512-Jk/IZcsenBxu8bJEE/mHZTAG7YmkDLnXeBT6edVr3b8KqrdyLYm8tnX8/2E/GHA3cgdFw9yhn0oYxcrqK5UPYg==";
+        };
+        _z0pPrdCB = {
+            "id" = "z0pPrdCB";
+            "file" = "ChainVeinFabric-4.1.0-alpha.3-26.1.jar";
+            "hash" = "sha512-Hlqo4+g570yjoZ+kCbFpERzwk5Ex2Fj3NBp4JBYRsXnyeYtx6SvMg6rlVE/Edtlk+Rn9zcmjqIG8hwSnSll7kQ==";
+        };
+        _YQu385KE = {
+            "id" = "YQu385KE";
+            "file" = "ChainVeinFabric-4.1.0-alpha.3-26.2.jar";
+            "hash" = "sha512-cW719+kcXF6Km3r3YZmHdPphupuAt35wd0jUe55eUB1Jrgriz4Eu3tw4x9DNogLZXxlq0BvcT0JiCUl+i9Ii8A==";
+        };
+        _fKsCxFEi = {
+            "id" = "fKsCxFEi";
+            "file" = "ChainVeinFabric-4.1.0+26.2.jar";
+            "hash" = "sha512-yuiDIiOuWdat0r3HjxcqMSDQEftLk9JCbD96PBJroN1OxPhww/P7ATCGCUaMVpxnAYkFQpli79dU5/t4ylPViw==";
+        };
+        _AP3uU2Pj = {
+            "id" = "AP3uU2Pj";
+            "file" = "ChainVeinFabric-4.1.0+26.1.jar";
+            "hash" = "sha512-1+7fBcWcbkXWUOQIm6cX7724aFP4MgfTlgonMdUujlU/HYmsWHld82TMVe29uqvR/7L72xOSwuKLjmAr1lQReQ==";
+        };
     in {
         "g3OY7DKw" = _g3OY7DKw;
         "BvUsaW2w" = _BvUsaW2w;
@@ -326,10 +406,26 @@ let
         "38dKM1Lc" = _38dKM1Lc;
         "Zsb27w4d" = _Zsb27w4d;
         "Cjs1CVuK" = _Cjs1CVuK;
+        "FC5rXRyB" = _FC5rXRyB;
+        "MkrSKhih" = _MkrSKhih;
+        "sL3Yk7bR" = _sL3Yk7bR;
+        "7voupsLf" = _7voupsLf;
+        "gaEc2RtY" = _gaEc2RtY;
+        "7MnLWWjS" = _7MnLWWjS;
+        "mbBI6jih" = _mbBI6jih;
+        "4tVCy2rm" = _4tVCy2rm;
+        "IJnq3ued" = _IJnq3ued;
+        "fKenfer6" = _fKenfer6;
+        "jUh45cj3" = _jUh45cj3;
+        "LwmQS29n" = _LwmQS29n;
+        "z0pPrdCB" = _z0pPrdCB;
+        "YQu385KE" = _YQu385KE;
+        "fKsCxFEi" = _fKsCxFEi;
+        "AP3uU2Pj" = _AP3uU2Pj;
         "fabric-1.21.11" = _Cjs1CVuK;
-        "fabric-26.1" = _vIxUKVkG;
-        "fabric-26.1.1" = _vIxUKVkG;
-        "fabric-26.1.2" = _vIxUKVkG;
+        "fabric-26.1" = _AP3uU2Pj;
+        "fabric-26.1.1" = _AP3uU2Pj;
+        "fabric-26.1.2" = _AP3uU2Pj;
         "fabric-1.21.1" = _HoAWfI8A;
         "fabric-1.21.2" = _xwP8LPtn;
         "fabric-1.21.3" = _RTAwtn2v;
@@ -341,7 +437,7 @@ let
         "fabric-1.21.9" = _38dKM1Lc;
         "fabric-1.21.10" = _Zsb27w4d;
         "fabric-1.21" = _l6ep3VPl;
-        "fabric-26.2" = _yQTPYO1O;
+        "fabric-26.2" = _fKsCxFEi;
         "pkg-1.0" = _g3OY7DKw;
         "pkg-1.1" = _BvUsaW2w;
         "pkg-1.2" = _Tvbu7Oii;
@@ -396,7 +492,23 @@ let
         "pkg-2.2.1-1.21.9" = _38dKM1Lc;
         "pkg-2.2.1-1.21.10" = _Zsb27w4d;
         "pkg-2.2.1-1.21.11" = _Cjs1CVuK;
-        "default" = _Cjs1CVuK;
+        "pkg-3.0.0-26.2" = _FC5rXRyB;
+        "pkg-3.0.0-26.1" = _MkrSKhih;
+        "pkg-3.1.0-26.2" = _sL3Yk7bR;
+        "pkg-3.1.0-26.1" = _7voupsLf;
+        "pkg-4.0.0+26.2" = _gaEc2RtY;
+        "pkg-4.0.0+26.1" = _7MnLWWjS;
+        "pkg-4.0.1+26.1" = _mbBI6jih;
+        "pkg-4.0.1+26.2" = _4tVCy2rm;
+        "pkg-4.0.2+26.1" = _IJnq3ued;
+        "pkg-4.0.2+26.2" = _fKenfer6;
+        "pkg-4.1.0-alpha.2-26.2" = _jUh45cj3;
+        "pkg-4.1.0-alpha.2-26.1" = _LwmQS29n;
+        "pkg-4.1.0-alpha.3-26.1" = _z0pPrdCB;
+        "pkg-4.1.0-alpha.3-26.2" = _YQu385KE;
+        "pkg-4.1.0+26.2" = _fKsCxFEi;
+        "pkg-4.1.0+26.1" = _AP3uU2Pj;
+        "default" = _AP3uU2Pj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chainveinfabric";

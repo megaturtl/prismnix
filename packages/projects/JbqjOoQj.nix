@@ -116,6 +116,36 @@ let
             "file" = "carryonextend-architectury-fabric-1.5.1.jar";
             "hash" = "sha512-h5R1YsTcrN9rA06sWsDNgaZCyo7KHWDAwL9TTS7/kM6HWlvxw62yf0I5HfzZHJ/AyO1J8xXL4Pe8+E/7gySLrQ==";
         };
+        _SnFP2zsI = {
+            "id" = "SnFP2zsI";
+            "file" = "carryonextend-architectury-fabric-26.2-1.5.1.jar";
+            "hash" = "sha512-ve2mlw8FqfkviE//tcc2R1SXnIeolG7KR9MY56A1FLj7BToAVL/7ElbOVzBvnZ54eg9gpPiKdDvcOx8Le6hLyg==";
+        };
+        _b4wQPZNH = {
+            "id" = "b4wQPZNH";
+            "file" = "carryonextend-architectury-neoforge-26.2-1.5.1.jar";
+            "hash" = "sha512-MbIKMgMGusEhkakVmJFCtEMeNDVLAEWOyoGd42KxVFhuHTx4tbbPj7XAaEtiuGkOx5olGd3pD5aO5RjxGg6PTg==";
+        };
+        _OiknK7ez = {
+            "id" = "OiknK7ez";
+            "file" = "carryonextend-architectury-fabric-26.1.2-1.5.1.jar";
+            "hash" = "sha512-C6JtEk2JLnulYS/xxneSYLD0kySTvaAG+sTW4PJMhqVK1NPB/iDDtAujmAmLw863FR2UnEqpihn1KV/lNfsjIg==";
+        };
+        _WXIk48lg = {
+            "id" = "WXIk48lg";
+            "file" = "carryonextend-architectury-neoforge-26.1.2-1.5.1.jar";
+            "hash" = "sha512-lyzxdXFCCl7Xj5DxoHZa7z+7Fd0V4ptwpIrl7Tfga7OO+lMftJycdTQeQpBJfc1tv4wLTobhhKNVb7QUeLWn+w==";
+        };
+        _BcnjlQ7J = {
+            "id" = "BcnjlQ7J";
+            "file" = "CarryOnExtend-Architectury-fabric-1.5.2.jar";
+            "hash" = "sha512-+yz0dYqpM+aDvR3V8t8LxfAanL0pbvhjKVGS3vOCMuN66sTtpxNAD1lkwTyZeoq54Z87WGofIY5u73EXHqTyDA==";
+        };
+        _mlwItoGT = {
+            "id" = "mlwItoGT";
+            "file" = "CarryOnExtend-Architectury-neoforge-1.5.2.jar";
+            "hash" = "sha512-jvuPCCaiV/xEifQ7wXCGHM0NsRNa0QkIig63cPI9tU/EcidR65yRUBaCStOizQr+oHxwtKJ6zU2LxRLQoLYOUQ==";
+        };
     in {
         "howXU6ZH" = _howXU6ZH;
         "YvAVPc9s" = _YvAVPc9s;
@@ -140,13 +170,23 @@ let
         "tkMSQmqH" = _tkMSQmqH;
         "OdksqY6s" = _OdksqY6s;
         "zmZGgskS" = _zmZGgskS;
-        "neoforge-1.21.1" = _OdksqY6s;
+        "SnFP2zsI" = _SnFP2zsI;
+        "b4wQPZNH" = _b4wQPZNH;
+        "OiknK7ez" = _OiknK7ez;
+        "WXIk48lg" = _WXIk48lg;
+        "BcnjlQ7J" = _BcnjlQ7J;
+        "mlwItoGT" = _mlwItoGT;
+        "neoforge-1.21.1" = _mlwItoGT;
         "neoforge-1.21.3" = _6tUMhahU;
         "neoforge-1.21.4" = _9HqPXNgf;
         "neoforge-1.21.11" = _tkMSQmqH;
+        "neoforge-26.2" = _b4wQPZNH;
+        "neoforge-26.1.2" = _WXIk48lg;
         "forge-1.20.1" = _AZyMJCRF;
-        "fabric-1.21.1" = _zmZGgskS;
+        "fabric-1.21.1" = _BcnjlQ7J;
         "fabric-1.21.11" = _uT6qQh5L;
+        "fabric-26.2" = _SnFP2zsI;
+        "fabric-26.1.2" = _OiknK7ez;
         "pkg-1.0" = _howXU6ZH;
         "pkg-1.1" = _YvAVPc9s;
         "pkg-1.2" = _OO9yJptK;
@@ -158,8 +198,9 @@ let
         "pkg-1.4.1" = _Xh3sahbD;
         "pkg-1.4.2" = _AZyMJCRF;
         "pkg-1.5" = _2RnRw5bA;
-        "pkg-1.5.1" = _zmZGgskS;
-        "default" = _zmZGgskS;
+        "pkg-1.5.1" = _WXIk48lg;
+        "pkg-1.5.2" = _mlwItoGT;
+        "default" = _mlwItoGT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "carry-on-extend";

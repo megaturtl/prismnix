@@ -101,6 +101,26 @@ let
             "file" = "better-frost-walker-fabric-26.1-3.0.0+fabric+26.1.jar";
             "hash" = "sha512-piVN/Y3wd2I3bRxu1bV8+045LuE5+dMfXXiX0v16HX9H8OGBvL8dvJObeewinR+hNct+KWDKI/37u04cc+KqXg==";
         };
+        _fAIQsch1 = {
+            "id" = "fAIQsch1";
+            "file" = "better-frost-walker-neoforge-26.1-3.0.1+neoforge+26.1.jar";
+            "hash" = "sha512-EXX/igrfv4Vr5G3hKgyxjuS5+XilLnUL1tpzdt1Oq1uUaIqcXMrGAxbZdV6xp/uethVIx4wc3v3NghwlGFzLUg==";
+        };
+        _mm6A7vrK = {
+            "id" = "mm6A7vrK";
+            "file" = "better-frost-walker-fabric-26.1-3.0.1+fabric+26.1.jar";
+            "hash" = "sha512-SwWTH1w7sYelFA2PQlCHLwMccAxYMc4UAmfMaLLclI8nW47cAAFnoJfGnc7g26q017jEaTtmswXo7ZRX3QVwWw==";
+        };
+        _XgIq2lgt = {
+            "id" = "XgIq2lgt";
+            "file" = "better-frost-walker-neoforge-26.1-3.0.2+neoforge+26.1.jar";
+            "hash" = "sha512-iHAb58vnIEGvkQ0mNYggmcKLO/VZmz7vmBWW1VB0F4JGS1LA0yCgYCwAVUdhde1B6QDRkAetEXZ5y5/lysMKIA==";
+        };
+        _lQ8RzgGa = {
+            "id" = "lQ8RzgGa";
+            "file" = "better-frost-walker-fabric-26.1-3.0.2+fabric+26.1.jar";
+            "hash" = "sha512-R/dz/4tAtuwmsltRnnz+r8b1/cYVRCrLUGyLmP9LcsyjvBBMTRfFROa2DJjw9wBrD/c5hEb9SIJiy8ZYpzzmqQ==";
+        };
     in {
         "zzYayO2a" = _zzYayO2a;
         "PXeEDV50" = _PXeEDV50;
@@ -122,6 +142,10 @@ let
         "V08dQ6zj" = _V08dQ6zj;
         "mZS6x0Jr" = _mZS6x0Jr;
         "9IKvKKfx" = _9IKvKKfx;
+        "fAIQsch1" = _fAIQsch1;
+        "mm6A7vrK" = _mm6A7vrK;
+        "XgIq2lgt" = _XgIq2lgt;
+        "lQ8RzgGa" = _lQ8RzgGa;
         "fabric-1.19.3" = _nh6MSPNa;
         "fabric-1.19" = _AlbhlqQj;
         "fabric-1.19.1" = _AlbhlqQj;
@@ -164,15 +188,15 @@ let
         "fabric-1.21.8" = _5eQVVla3;
         "fabric-1.21.10" = _GUSswp0Y;
         "fabric-1.21.11" = _V08dQ6zj;
-        "fabric-26.1" = _9IKvKKfx;
-        "fabric-26.1.1" = _9IKvKKfx;
-        "fabric-26.1.2" = _9IKvKKfx;
-        "fabric-26.2" = _9IKvKKfx;
+        "fabric-26.1" = _lQ8RzgGa;
+        "fabric-26.1.1" = _lQ8RzgGa;
+        "fabric-26.1.2" = _lQ8RzgGa;
+        "fabric-26.2" = _lQ8RzgGa;
         "quilt-1.21.1" = _WwzNwCrk;
-        "neoforge-26.1" = _mZS6x0Jr;
-        "neoforge-26.1.1" = _mZS6x0Jr;
-        "neoforge-26.1.2" = _mZS6x0Jr;
-        "neoforge-26.2" = _mZS6x0Jr;
+        "neoforge-26.1" = _XgIq2lgt;
+        "neoforge-26.1.1" = _XgIq2lgt;
+        "neoforge-26.1.2" = _XgIq2lgt;
+        "neoforge-26.2" = _XgIq2lgt;
         "pkg-1.0.0" = _zzYayO2a;
         "pkg-1.1.0" = _PXeEDV50;
         "pkg-1.1.1+1.19.2" = _AlbhlqQj;
@@ -190,7 +214,11 @@ let
         "pkg-2.4.0" = _V08dQ6zj;
         "pkg-3.0.0+neoforge+26.1" = _mZS6x0Jr;
         "pkg-3.0.0+fabric+26.1" = _9IKvKKfx;
-        "default" = _9IKvKKfx;
+        "pkg-3.0.1+neoforge+26.1" = _fAIQsch1;
+        "pkg-3.0.1+fabric+26.1" = _mm6A7vrK;
+        "pkg-3.0.2+neoforge+26.1" = _XgIq2lgt;
+        "pkg-3.0.2+fabric+26.1" = _lQ8RzgGa;
+        "default" = _lQ8RzgGa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-frost-walker";

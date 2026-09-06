@@ -16,19 +16,33 @@ let
             "file" = "villager-lock-1.0.1+26.2.jar";
             "hash" = "sha512-3g2lq8J1XYzrcY6kyiAJJ11DN+3d20k2dBM0yLWcV9hAKQ+EiKuqAd02q22wEjXHfiMIbd4aWZOxiRi2TlrvSA==";
         };
+        _cq1UbVuy = {
+            "id" = "cq1UbVuy";
+            "file" = "villager-lock-neoforge-26.2-1.1.0.1.jar";
+            "hash" = "sha512-ncfokchZhcepIA3IeA7i6RVHBgb7alhdj7Qumvq5ePENWDgPAL2w9JgkHEZWUPVGP3z0T9oryYCR5UdGFom1aw==";
+        };
+        _orBmuASE = {
+            "id" = "orBmuASE";
+            "file" = "villager-lock-fabric-26.2-1.1.0.1.jar";
+            "hash" = "sha512-0mt2kcLSLFG0jzsKLAMUu+2wyJlJdZnYmT1kCFn7IcNx582bqWoF65WOXhqDeqppxwxug//ZGOG/DSi3jt4QBA==";
+        };
     in {
         "1ELXGteB" = _1ELXGteB;
         "RcMB78Dl" = _RcMB78Dl;
         "H4yc3TGB" = _H4yc3TGB;
+        "cq1UbVuy" = _cq1UbVuy;
+        "orBmuASE" = _orBmuASE;
         "fabric-1.21.11" = _1ELXGteB;
         "fabric-26.1" = _RcMB78Dl;
         "fabric-26.1.1" = _RcMB78Dl;
         "fabric-26.1.2" = _RcMB78Dl;
-        "fabric-26.2" = _H4yc3TGB;
+        "fabric-26.2" = _orBmuASE;
+        "neoforge-26.2" = _cq1UbVuy;
         "pkg-v1.0.0+1.21.11" = _1ELXGteB;
         "pkg-v1.0.1+26.1" = _RcMB78Dl;
         "pkg-v1.0.1+26.2" = _H4yc3TGB;
-        "default" = _H4yc3TGB;
+        "pkg-v1.1.0.1+26.2" = _orBmuASE;
+        "default" = _orBmuASE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villagerlock";

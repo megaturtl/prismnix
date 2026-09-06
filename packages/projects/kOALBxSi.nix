@@ -71,6 +71,11 @@ let
             "file" = "my-little-plushie-0.11.0+mc1.21.1+fabric.jar";
             "hash" = "sha512-jL4SJY36YhxyEeWUxdqA5uew3BTVzpXydeTlDE2/gv+9RrIEFltoQSrEWiWYgWBv1FdKkOIIGysVoDwvjn/sig==";
         };
+        _Ldf8D5Q2 = {
+            "id" = "Ldf8D5Q2";
+            "file" = "my-little-plushie-0.12.1+mc1.21.1+fabric.jar";
+            "hash" = "sha512-MrL1GbaRPQVZpe8MsglARxK/vmGErjYPJoAmDzMnsW3oEJhZLJ8La1vxXTfTqwO6QYCGz3RmCV/IdBqBVh91pw==";
+        };
     in {
         "giww8PIk" = _giww8PIk;
         "TFrdHgBi" = _TFrdHgBi;
@@ -86,7 +91,8 @@ let
         "och9SW6F" = _och9SW6F;
         "oXb0QPHO" = _oXb0QPHO;
         "Ov7ggEW4" = _Ov7ggEW4;
-        "fabric-1.21.1" = _Ov7ggEW4;
+        "Ldf8D5Q2" = _Ldf8D5Q2;
+        "fabric-1.21.1" = _Ldf8D5Q2;
         "pkg-0.1.0+mc1.21.1+fabric" = _giww8PIk;
         "pkg-0.2.0+mc1.21.1+fabric" = _TFrdHgBi;
         "pkg-0.3.0+mc1.21.1+fabric" = _minpqh7q;
@@ -101,7 +107,8 @@ let
         "pkg-0.10.0+mc1.21.1+fabric" = _och9SW6F;
         "pkg-0.10.1+mc1.21.1+fabric" = _oXb0QPHO;
         "pkg-0.11.0+mc1.21.1+fabric" = _Ov7ggEW4;
-        "default" = _Ov7ggEW4;
+        "pkg-0.12.1+mc1.21.1+fabric" = _Ldf8D5Q2;
+        "default" = _Ldf8D5Q2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "my-little-plushie";

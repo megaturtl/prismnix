@@ -61,6 +61,11 @@ let
             "file" = "originfur-1.0.11-maybeworks.jar";
             "hash" = "sha512-XmLCzcceghpDBCziYT3A0qEvLwpQ9RmSm+UcrRR0P13oxSBxH/OIsux5orZdp+k/cyuFxEfOnoZTDrgp0yb3PQ==";
         };
+        _17ZmHJPk = {
+            "id" = "17ZmHJPk";
+            "file" = "originfurs-1.1.1.jar";
+            "hash" = "sha512-Fj9LckacDng69QEse/PE7yRWEVXsWQ0P8KczPVKcAXhjbE8btrKZS6AsFJQSm2+ikeqGsN3Epal1WDeuHr+2dA==";
+        };
     in {
         "juyUit0F" = _juyUit0F;
         "BBkw90xY" = _BBkw90xY;
@@ -74,7 +79,8 @@ let
         "YsNh3WnN" = _YsNh3WnN;
         "FQ7z2Xzc" = _FQ7z2Xzc;
         "L6lVd5H8" = _L6lVd5H8;
-        "fabric-1.20.1" = _YsNh3WnN;
+        "17ZmHJPk" = _17ZmHJPk;
+        "fabric-1.20.1" = _17ZmHJPk;
         "fabric-1.20.2" = _YsNh3WnN;
         "fabric-1.20.3" = _YsNh3WnN;
         "fabric-1.20.4" = _FQ7z2Xzc;
@@ -93,7 +99,8 @@ let
         "pkg-1.0.10" = _YsNh3WnN;
         "pkg-1.0.10MaybeWorks" = _FQ7z2Xzc;
         "pkg-1.0.11-maybeworks" = _L6lVd5H8;
-        "default" = _L6lVd5H8;
+        "pkg-1.1.1" = _17ZmHJPk;
+        "default" = _17ZmHJPk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "origin-furs";

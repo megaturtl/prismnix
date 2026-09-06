@@ -206,6 +206,26 @@ let
             "file" = "mobsunscreen-neoforge-1.21.11-4.0.3.jar";
             "hash" = "sha512-NVWL/QrWGqLX3WdBCW37krfKJZlw0rQVaw1PQ9Kol4fVZuL8DE/hsC5ClA1VQjMLAoefqWNn/7/OcSkhrT32uw==";
         };
+        _IBPj5JLt = {
+            "id" = "IBPj5JLt";
+            "file" = "mobsunscreen-fabric-26.1.2-2.1.0.jar";
+            "hash" = "sha512-Xr4dNuC3SMy5rsi8ft+wQxmoxDt7ndcBGoGfu6yo55arhcKrYoScQUvwLoRdzS2/chUHdmjotu18j+APHsrpfw==";
+        };
+        _WxDNm9C1 = {
+            "id" = "WxDNm9C1";
+            "file" = "mobsunscreen-fabric-26.2-2.2.0.jar";
+            "hash" = "sha512-W99V7TPGGXAPF/FD8g357yfdGWR+dyj4LcBxuXDAXftF98D6upL7Fmw1i8ASGDG9xGk7cGDBAhIyVvPIExD86Q==";
+        };
+        _NdrsxkAx = {
+            "id" = "NdrsxkAx";
+            "file" = "mobsunscreen-neoforge-26.1.2-2.1.0.jar";
+            "hash" = "sha512-am8MskRogX2ZsSUGiARLmUaQngoaV4mpOwWH/xyGwSiE3rdzx5TpcfO9dEHel5C7x0p6j/0x8Z28hWQkWw+/SQ==";
+        };
+        _MZyiCzj2 = {
+            "id" = "MZyiCzj2";
+            "file" = "mobsunscreen-neoforge-26.2-2.2.0.jar";
+            "hash" = "sha512-4jmMOXeXrqP2tQui3vpZvElsRhQ6wKRc6gTiHZR9W9hSjjlT6E1oCtdB4feLdP1CiMNpTEt1EET/6FDT1mKirw==";
+        };
     in {
         "PUGiIry5" = _PUGiIry5;
         "LstECGTw" = _LstECGTw;
@@ -248,6 +268,10 @@ let
         "gWMVFe72" = _gWMVFe72;
         "rYnhrxip" = _rYnhrxip;
         "E4TgzKk1" = _E4TgzKk1;
+        "IBPj5JLt" = _IBPj5JLt;
+        "WxDNm9C1" = _WxDNm9C1;
+        "NdrsxkAx" = _NdrsxkAx;
+        "MZyiCzj2" = _MZyiCzj2;
         "fabric-1.18.1" = _qt4vTCPK;
         "fabric-1.18" = _qt4vTCPK;
         "fabric-1.18.2" = _qt4vTCPK;
@@ -263,6 +287,8 @@ let
         "fabric-1.21.5" = _4SCmIVrB;
         "fabric-1.21.10" = _gWMVFe72;
         "fabric-1.21.11" = _rYnhrxip;
+        "fabric-26.1.2" = _IBPj5JLt;
+        "fabric-26.2" = _WxDNm9C1;
         "forge-1.12.2" = _31hDeGI9;
         "forge-1.14.4" = _I7f22ffJ;
         "forge-1.15.2" = _Q1HT5qae;
@@ -281,6 +307,8 @@ let
         "neoforge-1.21.5" = _tZyksqp9;
         "neoforge-1.21.10" = _9dsz2GJL;
         "neoforge-1.21.11" = _E4TgzKk1;
+        "neoforge-26.1.2" = _NdrsxkAx;
+        "neoforge-26.2" = _MZyiCzj2;
         "pkg-3.0.5" = _PUGiIry5;
         "pkg-2.1.3" = _Q1HT5qae;
         "pkg-3.0.4" = _gUWWx6HU;
@@ -304,7 +332,9 @@ let
         "pkg-4.0.2" = _gWMVFe72;
         "pkg-4.0.1" = _ku1nvS8i;
         "pkg-4.0.3" = _E4TgzKk1;
-        "default" = _E4TgzKk1;
+        "pkg-2.1.0" = _NdrsxkAx;
+        "pkg-2.2.0" = _MZyiCzj2;
+        "default" = _MZyiCzj2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mob-sunscreen";

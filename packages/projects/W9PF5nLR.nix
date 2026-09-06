@@ -131,6 +131,11 @@ let
             "file" = "AngryMobs-26.1-9.0.0.jar";
             "hash" = "sha512-6GuO/fteB0cA02PpO3Ib1Mr5VG3DKharT/flkeiz/tXUo/VP4Wrg5BfZgU5B2Ld7TyEHycBzurv5N63+lYfluQ==";
         };
+        _AE7jSlyr = {
+            "id" = "AE7jSlyr";
+            "file" = "AngryMobs-26.2-10.0.0.jar";
+            "hash" = "sha512-AhEjaZw8qZGBdKGyL4J2FGrklSRTIgDYAn+2nVNQYs0mS/JanfE3qXhTmb9pufGfVl8C4DT3YAZMPSGop9LWWg==";
+        };
     in {
         "QYQwi2wR" = _QYQwi2wR;
         "oFZHjaaw" = _oFZHjaaw;
@@ -158,6 +163,7 @@ let
         "YVMXuYKJ" = _YVMXuYKJ;
         "PqRmRAJl" = _PqRmRAJl;
         "vAPGjWa0" = _vAPGjWa0;
+        "AE7jSlyr" = _AE7jSlyr;
         "forge-1.16.5" = _QYQwi2wR;
         "forge-1.18.2" = _oFZHjaaw;
         "forge-1.19.2" = _MaLZvAlc;
@@ -174,6 +180,7 @@ let
         "neoforge-1.21.8" = _U5OcpXSd;
         "neoforge-1.21.11" = _PqRmRAJl;
         "neoforge-26.1" = _vAPGjWa0;
+        "neoforge-26.2" = _AE7jSlyr;
         "pkg-1.1.0" = _QYQwi2wR;
         "pkg-1.2.0" = _oFZHjaaw;
         "pkg-2.0.0" = _MaLZvAlc;
@@ -199,7 +206,8 @@ let
         "pkg-7.1.2" = _YVMXuYKJ;
         "pkg-8.3.0" = _PqRmRAJl;
         "pkg-9.0.0" = _vAPGjWa0;
-        "default" = _vAPGjWa0;
+        "pkg-10.0.0" = _AE7jSlyr;
+        "default" = _AE7jSlyr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "angry-mobs";

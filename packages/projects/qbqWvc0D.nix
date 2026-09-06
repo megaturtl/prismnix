@@ -461,6 +461,46 @@ let
             "file" = "BagOfHolding-v26.2.0-mc26.2.x-Fabric.jar";
             "hash" = "sha512-FIA/y6QWhQ1HTB8bdjbhpCtjON0E7iSvPh7dMUCa3XkRlnlg+KNM8Zw2DL7P4jGu3UzBIliEaa8fV2220ZvyqQ==";
         };
+        _2GUhKJnx = {
+            "id" = "2GUhKJnx";
+            "file" = "BagOfHolding-v26.1.2-mc26.1.x-NeoForge.jar";
+            "hash" = "sha512-xEu8tqCgkVfYjiWXMChDXhVq1qWfEnWjiTh3B7JdNwueTNrivH+vpeedUdtzAaO2nmFNNjI26BEcm1d2tVyWsQ==";
+        };
+        _zAB84xpD = {
+            "id" = "zAB84xpD";
+            "file" = "BagOfHolding-v26.1.2-mc26.1.x-Fabric.jar";
+            "hash" = "sha512-qFnKue0jZzfmapIvMOXMs00fZWJMMz2JMxVXvK4I1+CTlpLbDDOMbSAkoTJ37Pb4loWwZfhCzjsxbzrbUzu5RQ==";
+        };
+        _ZmcWl5Oa = {
+            "id" = "ZmcWl5Oa";
+            "file" = "BagOfHolding-v26.2.1-mc26.2.x-NeoForge.jar";
+            "hash" = "sha512-ZTu3Q/j3I6MRfoRmh9VmDqXLQCvl/1g97hNqegoHJmxw92Psetqpfa6RjxxvK8Az9eAJpNvmtO7vokvRTv6Fkg==";
+        };
+        _7ENHwXVc = {
+            "id" = "7ENHwXVc";
+            "file" = "BagOfHolding-v26.2.1-mc26.2.x-Fabric.jar";
+            "hash" = "sha512-Bp5fYFxD8mV/J1htIQIPHJqsZsmaXlZHl9FGS6Os9v9tPs22QPBQeAjJcgti7cnoIuAiuESP/8EKv9DA9xJBGQ==";
+        };
+        _H7D9ArLx = {
+            "id" = "H7D9ArLx";
+            "file" = "BagOfHolding-v26.1.3-mc26.1.x-Fabric.jar";
+            "hash" = "sha512-3tUUvsmuhnex5LtwlX8PT3BzCGbaF6GFupl29fT7mVNhqc+gVkNlGXJAAlnZz3TasgVSnn1Sw1l8wHVxMfbGlg==";
+        };
+        _SHuucmNP = {
+            "id" = "SHuucmNP";
+            "file" = "BagOfHolding-v26.1.3-mc26.1.x-NeoForge.jar";
+            "hash" = "sha512-D6CrvyNS/NmSh4GkqbOIM3DZAXdfGF+nh0zuLW+I7/R9u3TheAAmB6cA5iX0XSCuylXIKX1YnZmO2CsymsSWiA==";
+        };
+        _G8YNiRBf = {
+            "id" = "G8YNiRBf";
+            "file" = "BagOfHolding-v26.2.2-mc26.2.x-Fabric.jar";
+            "hash" = "sha512-0LtUWa7V/TUkcAECKDElkP1n1J0S3/VS4o91b+HggknRgQd9zNmg3n9cw5l+wiUA0WxisD8YuMQ5ac/LOmKQtw==";
+        };
+        _otuDTR1S = {
+            "id" = "otuDTR1S";
+            "file" = "BagOfHolding-v26.2.2-mc26.2.x-NeoForge.jar";
+            "hash" = "sha512-MgjHCbmwUNHqPfEzJ3z50VCiarhes9R0DiwdWtFbDSOs/YDu9RL32IUgyENGeFklD5/hpBOvlXvr702IFxNKNg==";
+        };
     in {
         "xl0lMuke" = _xl0lMuke;
         "WwIKjIj7" = _WwIKjIj7;
@@ -554,6 +594,14 @@ let
         "TBf47hrW" = _TBf47hrW;
         "MlqRxxvT" = _MlqRxxvT;
         "YCXXOqJT" = _YCXXOqJT;
+        "2GUhKJnx" = _2GUhKJnx;
+        "zAB84xpD" = _zAB84xpD;
+        "ZmcWl5Oa" = _ZmcWl5Oa;
+        "7ENHwXVc" = _7ENHwXVc;
+        "H7D9ArLx" = _H7D9ArLx;
+        "SHuucmNP" = _SHuucmNP;
+        "G8YNiRBf" = _G8YNiRBf;
+        "otuDTR1S" = _otuDTR1S;
         "forge-1.19.1" = _nuXoo3FN;
         "forge-1.19.2" = _62b88Lva;
         "forge-1.19.3" = _hUaWHPca;
@@ -579,10 +627,10 @@ let
         "fabric-1.21.9" = _lVEzN46H;
         "fabric-1.21.10" = _GbG4T81Z;
         "fabric-1.21.11" = _PNcbFquh;
-        "fabric-26.1" = _fPMrXLwd;
-        "fabric-26.1.1" = _fPMrXLwd;
-        "fabric-26.1.2" = _fPMrXLwd;
-        "fabric-26.2" = _YCXXOqJT;
+        "fabric-26.1" = _H7D9ArLx;
+        "fabric-26.1.1" = _H7D9ArLx;
+        "fabric-26.1.2" = _H7D9ArLx;
+        "fabric-26.2" = _G8YNiRBf;
         "neoforge-1.20.4" = _yWsMewlt;
         "neoforge-1.21" = _MvC4ZZZU;
         "neoforge-1.21.1" = _4IIOAgTS;
@@ -595,10 +643,10 @@ let
         "neoforge-1.21.9" = _OGjd3e5M;
         "neoforge-1.21.10" = _HpMfHKGg;
         "neoforge-1.21.11" = _1w6qZsIL;
-        "neoforge-26.1" = _iXDCwLeq;
-        "neoforge-26.1.1" = _iXDCwLeq;
-        "neoforge-26.1.2" = _iXDCwLeq;
-        "neoforge-26.2" = _MlqRxxvT;
+        "neoforge-26.1" = _SHuucmNP;
+        "neoforge-26.1.1" = _SHuucmNP;
+        "neoforge-26.1.2" = _SHuucmNP;
+        "neoforge-26.2" = _otuDTR1S;
         "pkg-v4.0.0-1.19.1-Forge" = _xl0lMuke;
         "pkg-v4.0.0-1.19.1-Fabric" = _WwIKjIj7;
         "pkg-v4.1.0-1.19.2-Forge" = _nuXoo3FN;
@@ -683,7 +731,11 @@ let
         "pkg-26.1.0" = _VLVGpouN;
         "pkg-26.1.1" = _fPMrXLwd;
         "pkg-26.2.0" = _YCXXOqJT;
-        "default" = _YCXXOqJT;
+        "pkg-26.1.2" = _zAB84xpD;
+        "pkg-26.2.1" = _7ENHwXVc;
+        "pkg-26.1.3" = _SHuucmNP;
+        "pkg-26.2.2" = _otuDTR1S;
+        "default" = _otuDTR1S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bag-of-holding";

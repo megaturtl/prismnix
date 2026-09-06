@@ -206,6 +206,16 @@ let
             "file" = "Ad-Astra-Giselle-Addon-forge-1.20.1-6.20.jar";
             "hash" = "sha512-LfmpxZGpO1d0e2WARRIj+8tSxxjmc1EQ6Aj5/t4eDhe1fVWOUIJc32lnazP7e+aSfdFFqHiz3W9sY4kqsk18rQ==";
         };
+        _ACL2XPNJ = {
+            "id" = "ACL2XPNJ";
+            "file" = "Ad-Astra-Giselle-Addon-neoforge-1.21.1-8.1.jar";
+            "hash" = "sha512-+H23+vcAyLT47nCQBgyi+ZmbqzTsOEYA2NqkuA2GHV7V11CpajGK4YcqiJEiHNwiyZJl5uz27JH2JKWHlc7VmA==";
+        };
+        _8tCAwDom = {
+            "id" = "8tCAwDom";
+            "file" = "Ad-Astra-Giselle-Addon-fabric-1.21.1-8.2.jar";
+            "hash" = "sha512-esVhyuIVvJhPhIlS30N6cfLEv2ZRd/uZiQ5W8AkcK4JY8bhTCcyzxoIiTY7KFbHz4kdaDjEm/ymE29DsGgEJWQ==";
+        };
     in {
         "G61z7IoX" = _G61z7IoX;
         "U6Hb2juE" = _U6Hb2juE;
@@ -248,18 +258,22 @@ let
         "GN1gqTEK" = _GN1gqTEK;
         "Mi0r4Oot" = _Mi0r4Oot;
         "HwUr2yWY" = _HwUr2yWY;
+        "ACL2XPNJ" = _ACL2XPNJ;
+        "8tCAwDom" = _8tCAwDom;
         "fabric-1.19.2" = _yDQAl3pl;
         "fabric-1.19.3" = _PU5jo5o9;
         "fabric-1.19.4" = _EFneP8UJ;
         "fabric-1.20" = _RbQXE6gM;
         "fabric-1.20.1" = _GN1gqTEK;
         "fabric-1.20.4" = _7ZWQr3Qu;
+        "fabric-1.21.1" = _8tCAwDom;
         "forge-1.19.2" = _EgdtkULi;
         "forge-1.19.3" = _xAqhIjlt;
         "forge-1.19.4" = _OYLOvJUU;
         "forge-1.20.1" = _HwUr2yWY;
         "forge-1.20" = _YzaHSpNb;
         "neoforge-1.20.4" = _dytaWwCI;
+        "neoforge-1.21.1" = _ACL2XPNJ;
         "pkg-1.16" = _kqchjokd;
         "pkg-2.4" = _FZXviNVz;
         "pkg-3.3" = _WjDXxMff;
@@ -286,7 +300,9 @@ let
         "pkg-1.28" = _EgdtkULi;
         "pkg-6.19" = _Mi0r4Oot;
         "pkg-6.20" = _HwUr2yWY;
-        "default" = _HwUr2yWY;
+        "pkg-8.1" = _ACL2XPNJ;
+        "pkg-8.2" = _8tCAwDom;
+        "default" = _8tCAwDom;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ad-astra-giselle-addon";

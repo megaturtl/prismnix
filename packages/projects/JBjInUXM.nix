@@ -576,6 +576,16 @@ let
             "file" = "minelittlepony-4.15.5+1.21.11.jar";
             "hash" = "sha512-a34hHMKG2B6WkZypaX8OmHSTJYcBeYPDxP2hZZuHH2t+RR3xnJmG4iIacZdhA36Yu0sVhG0Hfrii2Nw3zpyaDA==";
         };
+        _yizrQNza = {
+            "id" = "yizrQNza";
+            "file" = "minelittlepony-4.16.2+26.1.jar";
+            "hash" = "sha512-1Mv8KJOC1vkE5sr+bFs/CZc6k34dgRu5+fXQB1xtH/GbuIsQ+M+IvHNJH4kOIOYYw67qsluf0AupJz2MLxSxEA==";
+        };
+        _3o1kfFFx = {
+            "id" = "3o1kfFFx";
+            "file" = "minelittlepony-4.16.2+26.2.jar";
+            "hash" = "sha512-sV85N6CEmnMxHESG87PkuPwipx0pNKWvVFq6OtBrQd55JwHgRQNXQ91MRugmxPcBAuZ5s8UyOGjHHrNvMhWMzw==";
+        };
     in {
         "tkn9m8J3" = _tkn9m8J3;
         "2dhmimCg" = _2dhmimCg;
@@ -692,6 +702,8 @@ let
         "XLJ4BTHQ" = _XLJ4BTHQ;
         "Hl6sPkrK" = _Hl6sPkrK;
         "UFN4141z" = _UFN4141z;
+        "yizrQNza" = _yizrQNza;
+        "3o1kfFFx" = _3o1kfFFx;
         "fabric-1.15.2" = _tkn9m8J3;
         "fabric-1.16" = _2dhmimCg;
         "fabric-1.16.1" = _2dhmimCg;
@@ -744,16 +756,17 @@ let
         "fabric-1.21.11-rc2" = _ycRF0hBe;
         "fabric-1.21.11-rc3" = _ycRF0hBe;
         "fabric-1.21.11" = _UFN4141z;
-        "fabric-26.1" = _Hl6sPkrK;
+        "fabric-26.1" = _yizrQNza;
         "fabric-26.1.1-rc-1" = _Hl6sPkrK;
-        "fabric-26.1.1" = _Hl6sPkrK;
+        "fabric-26.1.1" = _yizrQNza;
         "fabric-26w14a" = _Hl6sPkrK;
         "fabric-26.2-snapshot-1" = _Hl6sPkrK;
         "fabric-26.1.2-rc-1" = _Hl6sPkrK;
-        "fabric-26.1.2" = _Hl6sPkrK;
+        "fabric-26.1.2" = _yizrQNza;
         "fabric-26.2-snapshot-2" = _Hl6sPkrK;
         "fabric-26.2-snapshot-3" = _Hl6sPkrK;
         "fabric-26.2-snapshot-4" = _Hl6sPkrK;
+        "fabric-26.2" = _3o1kfFFx;
         "liteloader-1.12.2" = _X8zyU5Y4;
         "liteloader-1.5.1" = _xKH3jPnI;
         "liteloader-1.5.2" = _hnlLo95y;
@@ -801,16 +814,17 @@ let
         "quilt-1.21.11-rc2" = _ycRF0hBe;
         "quilt-1.21.11-rc3" = _ycRF0hBe;
         "quilt-1.21.11" = _UFN4141z;
-        "quilt-26.1" = _Hl6sPkrK;
+        "quilt-26.1" = _yizrQNza;
         "quilt-26.1.1-rc-1" = _Hl6sPkrK;
-        "quilt-26.1.1" = _Hl6sPkrK;
+        "quilt-26.1.1" = _yizrQNza;
         "quilt-26w14a" = _Hl6sPkrK;
         "quilt-26.2-snapshot-1" = _Hl6sPkrK;
         "quilt-26.1.2-rc-1" = _Hl6sPkrK;
-        "quilt-26.1.2" = _Hl6sPkrK;
+        "quilt-26.1.2" = _yizrQNza;
         "quilt-26.2-snapshot-2" = _Hl6sPkrK;
         "quilt-26.2-snapshot-3" = _Hl6sPkrK;
         "quilt-26.2-snapshot-4" = _Hl6sPkrK;
+        "quilt-26.2" = _3o1kfFFx;
         "modloader-b1.8.1" = _cFDp1czb;
         "modloader-1.1" = _rFEsjsLS;
         "modloader-1.2.1" = _BD3HaiKJ;
@@ -934,7 +948,9 @@ let
         "pkg-4.16.0+26.1" = _XLJ4BTHQ;
         "pkg-4.16.1+26.1" = _Hl6sPkrK;
         "pkg-4.15.5+1.21.11" = _UFN4141z;
-        "default" = _UFN4141z;
+        "pkg-4.16.2+26.1" = _yizrQNza;
+        "pkg-4.16.2+26.2" = _3o1kfFFx;
+        "default" = _3o1kfFFx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mine-little-pony";

@@ -56,6 +56,21 @@ let
             "file" = "datapack-injector-fabric-1.0.0+26.2.jar";
             "hash" = "sha512-9gfDh1iXmFQPsOVqkA1zsU5DZM8fRjrYwxLYJJEK+8Gcn2Q2322yDPhvjWiBjWr7QngzuHI38mr0cPQJZiRmPA==";
         };
+        _QH9B26HJ = {
+            "id" = "QH9B26HJ";
+            "file" = "datapack-injector-fabric-1.1.0+1.21.11.jar";
+            "hash" = "sha512-qR5+KtUPHVt0wEry4TPwBAN0uAfzA72NCltIETaoMDJMLGUbZLJnBK4JOhw+mqenWMXgSRDldSND1HyXIKHjKg==";
+        };
+        _Rw23VSff = {
+            "id" = "Rw23VSff";
+            "file" = "datapack-injector-fabric-1.1.0+26.1.2.jar";
+            "hash" = "sha512-+Mf00IlAdQlPe0qHlWAPwiUGadYNINIIUhxsxb6BDq3rmG4FW6VfbDVZ2IZCGrQmJG/nBk/BDqqHOCpIyAZ2CA==";
+        };
+        _syXpdYCp = {
+            "id" = "syXpdYCp";
+            "file" = "datapack-injector-fabric-1.1.0+26.2.jar";
+            "hash" = "sha512-rPnCe6Pk+y0aRzB3kcl8T1dzQiXVqHky59mVovIHn0Fswf7mXUnAr6bXKpBdL2TVi3bc7d5VW0G4GdMOQ8EU2A==";
+        };
     in {
         "K1EzInY1" = _K1EzInY1;
         "G44aJZ1W" = _G44aJZ1W;
@@ -68,6 +83,9 @@ let
         "76uXtZMf" = _76uXtZMf;
         "cRufputz" = _cRufputz;
         "Ogkidk3Q" = _Ogkidk3Q;
+        "QH9B26HJ" = _QH9B26HJ;
+        "Rw23VSff" = _Rw23VSff;
+        "syXpdYCp" = _syXpdYCp;
         "fabric-1.21.4" = _K1EzInY1;
         "fabric-1.21.5" = _G44aJZ1W;
         "fabric-1.21.6" = _w0ZOgy8J;
@@ -75,11 +93,11 @@ let
         "fabric-1.21.8" = _J8RDLaYp;
         "fabric-1.21.9" = _CeZQK2mE;
         "fabric-1.21.10" = _B2QFDF7r;
-        "fabric-1.21.11" = _YOktbaoF;
-        "fabric-26.1" = _cRufputz;
-        "fabric-26.1.1" = _cRufputz;
-        "fabric-26.1.2" = _cRufputz;
-        "fabric-26.2" = _Ogkidk3Q;
+        "fabric-1.21.11" = _QH9B26HJ;
+        "fabric-26.1" = _Rw23VSff;
+        "fabric-26.1.1" = _Rw23VSff;
+        "fabric-26.1.2" = _Rw23VSff;
+        "fabric-26.2" = _syXpdYCp;
         "quilt-1.21.4" = _K1EzInY1;
         "quilt-1.21.5" = _G44aJZ1W;
         "quilt-1.21.6" = _w0ZOgy8J;
@@ -87,11 +105,11 @@ let
         "quilt-1.21.8" = _J8RDLaYp;
         "quilt-1.21.9" = _CeZQK2mE;
         "quilt-1.21.10" = _B2QFDF7r;
-        "quilt-1.21.11" = _YOktbaoF;
-        "quilt-26.1" = _cRufputz;
-        "quilt-26.1.1" = _cRufputz;
-        "quilt-26.1.2" = _cRufputz;
-        "quilt-26.2" = _Ogkidk3Q;
+        "quilt-1.21.11" = _QH9B26HJ;
+        "quilt-26.1" = _Rw23VSff;
+        "quilt-26.1.1" = _Rw23VSff;
+        "quilt-26.1.2" = _Rw23VSff;
+        "quilt-26.2" = _syXpdYCp;
         "pkg-fabric-1.0.0+1.21.4" = _K1EzInY1;
         "pkg-fabric-1.0.0+1.21.5" = _G44aJZ1W;
         "pkg-fabric-1.0.0+1.21.6" = _w0ZOgy8J;
@@ -103,7 +121,10 @@ let
         "pkg-fabric-1.0.0+26.1" = _76uXtZMf;
         "pkg-fabric-1.0.0+26.1.2" = _cRufputz;
         "pkg-fabric-1.0.0+26.2" = _Ogkidk3Q;
-        "default" = _Ogkidk3Q;
+        "pkg-fabric-1.1.0+1.21.11" = _QH9B26HJ;
+        "pkg-fabric-1.1.0+26.1.2" = _Rw23VSff;
+        "pkg-fabric-1.1.0+26.2" = _syXpdYCp;
+        "default" = _syXpdYCp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "datapack-injector";

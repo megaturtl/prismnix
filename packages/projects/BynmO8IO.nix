@@ -451,6 +451,16 @@ let
             "file" = "NeoEnchant-5.15.1.jar";
             "hash" = "sha512-P3ELNPwNsUuWJ9+tjb3PoRlCu+XzhBsVvdO9uJIewUsV6r/kcLdgtXNMbxmL5lM9+F16TCZfas7JgClYp0jBww==";
         };
+        _hG24B7i5 = {
+            "id" = "hG24B7i5";
+            "file" = "NeoEnchant-5.16.0.zip";
+            "hash" = "sha512-ZQN6lTKAZw51YJ4E3sgSUgJJ/tzri+64amHsPl5T+4QCKuHEsK7tJXz4/hKojIa4XhbLWJ1S94T6boG6QQICNw==";
+        };
+        _kUjU0DqS = {
+            "id" = "kUjU0DqS";
+            "file" = "NeoEnchant-5.16.0.jar";
+            "hash" = "sha512-VgnbQnygLI0ipsB1qWcFWhstniXOqzsxRZRQkq6nxrCr8H8R2RNex5UWShZ9UOoWuVEdgrz0IStlsVva7Xd5/A==";
+        };
     in {
         "FbKARzMf" = _FbKARzMf;
         "3u5PhoxH" = _3u5PhoxH;
@@ -542,6 +552,8 @@ let
         "7pJcNlNB" = _7pJcNlNB;
         "8mqv0EVM" = _8mqv0EVM;
         "s9HzePgb" = _s9HzePgb;
+        "hG24B7i5" = _hG24B7i5;
+        "kUjU0DqS" = _kUjU0DqS;
         "datapack-24w18a" = _FbKARzMf;
         "datapack-24w19a" = _rmDaTfIE;
         "datapack-24w19b" = _rmDaTfIE;
@@ -561,6 +573,7 @@ let
         "datapack-1.21.10" = _rSFSHuub;
         "datapack-1.21.11" = _ip8ZC057;
         "datapack-26.1.2" = _8mqv0EVM;
+        "datapack-26.2" = _hG24B7i5;
         "fabric-24w19a" = _d0sPdAxI;
         "fabric-24w19b" = _d0sPdAxI;
         "fabric-1.21-pre4" = _EY6n9unN;
@@ -577,6 +590,7 @@ let
         "fabric-1.21.10" = _HXYK1Qwx;
         "fabric-1.21.11" = _R942LDop;
         "fabric-26.1.2" = _s9HzePgb;
+        "fabric-26.2" = _kUjU0DqS;
         "forge-24w19a" = _d0sPdAxI;
         "forge-24w19b" = _d0sPdAxI;
         "forge-1.21-pre4" = _EY6n9unN;
@@ -593,6 +607,7 @@ let
         "forge-1.21.10" = _HXYK1Qwx;
         "forge-1.21.11" = _R942LDop;
         "forge-26.1.2" = _s9HzePgb;
+        "forge-26.2" = _kUjU0DqS;
         "quilt-24w19a" = _d0sPdAxI;
         "quilt-24w19b" = _d0sPdAxI;
         "quilt-1.21-pre4" = _EY6n9unN;
@@ -609,6 +624,7 @@ let
         "quilt-1.21.10" = _HXYK1Qwx;
         "quilt-1.21.11" = _R942LDop;
         "quilt-26.1.2" = _s9HzePgb;
+        "quilt-26.2" = _kUjU0DqS;
         "neoforge-1.21" = _qmYh12Er;
         "neoforge-1.21.1" = _qmYh12Er;
         "neoforge-1.21.2" = _A52AhIvS;
@@ -622,6 +638,7 @@ let
         "neoforge-1.21.10" = _HXYK1Qwx;
         "neoforge-1.21.11" = _R942LDop;
         "neoforge-26.1.2" = _s9HzePgb;
+        "neoforge-26.2" = _kUjU0DqS;
         "pkg-5.0.0" = _FbKARzMf;
         "pkg-5.0.1" = _3u5PhoxH;
         "pkg-5.0.2" = _rmDaTfIE;
@@ -682,7 +699,9 @@ let
         "pkg-5.15.0+mod" = _7pJcNlNB;
         "pkg-5.15.1" = _8mqv0EVM;
         "pkg-5.15.1+mod" = _s9HzePgb;
-        "default" = _s9HzePgb;
+        "pkg-5.16.0" = _hG24B7i5;
+        "pkg-5.16.0+mod" = _kUjU0DqS;
+        "default" = _kUjU0DqS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "neoenchant";

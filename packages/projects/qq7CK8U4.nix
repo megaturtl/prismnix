@@ -96,6 +96,16 @@ let
             "file" = "AOneBlock-1.26.3.jar";
             "hash" = "sha512-TfjE+Y0PXM87yRbAJ4TT/mchzgS4pNd21q3KYSOpQD7Ed83lY9DE1Uc0RU02aLz5A8vhUY5193eFAQbwOyupvg==";
         };
+        _fyLY9b3M = {
+            "id" = "fyLY9b3M";
+            "file" = "AOneBlock-1.27.0.jar";
+            "hash" = "sha512-2IN2Pe8W/q7hRz5GZ59aReDHPPk8+IUUCiPzc8eJ6yQO3W1OhkQq88pgRjm/JJ6wGOwbv/LrDSS/CNatP/zLXw==";
+        };
+        _otcJ28wm = {
+            "id" = "otcJ28wm";
+            "file" = "AOneBlock-1.27.1.jar";
+            "hash" = "sha512-45b3xrkeTn1m4VIfv0sLgShyBYQgvjfvxKNjsEf5MYNLnxsYUv2whClS+HamETrhb2y2Eh5lVnDCF666U2rRSw==";
+        };
     in {
         "IO27pmSN" = _IO27pmSN;
         "EfIJQl9I" = _EfIJQl9I;
@@ -116,6 +126,8 @@ let
         "gzFHOc3M" = _gzFHOc3M;
         "SCmDhgv9" = _SCmDhgv9;
         "hXw4cKZJ" = _hXw4cKZJ;
+        "fyLY9b3M" = _fyLY9b3M;
+        "otcJ28wm" = _otcJ28wm;
         "paper-1.19" = _IO27pmSN;
         "paper-1.19.1" = _IO27pmSN;
         "paper-1.19.2" = _IO27pmSN;
@@ -125,16 +137,16 @@ let
         "paper-1.20.4" = _EfIJQl9I;
         "paper-1.21.3" = _wFWWEFPg;
         "paper-1.21.4" = _wFWWEFPg;
-        "paper-1.21.5" = _hXw4cKZJ;
-        "paper-1.21.6" = _hXw4cKZJ;
-        "paper-1.21.7" = _hXw4cKZJ;
-        "paper-1.21.8" = _hXw4cKZJ;
-        "paper-1.21.9" = _hXw4cKZJ;
-        "paper-1.21.10" = _hXw4cKZJ;
-        "paper-1.21.11" = _hXw4cKZJ;
-        "paper-26.1" = _hXw4cKZJ;
-        "paper-26.1.1" = _hXw4cKZJ;
-        "paper-26.1.2" = _hXw4cKZJ;
+        "paper-1.21.5" = _otcJ28wm;
+        "paper-1.21.6" = _otcJ28wm;
+        "paper-1.21.7" = _otcJ28wm;
+        "paper-1.21.8" = _otcJ28wm;
+        "paper-1.21.9" = _otcJ28wm;
+        "paper-1.21.10" = _otcJ28wm;
+        "paper-1.21.11" = _otcJ28wm;
+        "paper-26.1" = _otcJ28wm;
+        "paper-26.1.1" = _otcJ28wm;
+        "paper-26.1.2" = _otcJ28wm;
         "spigot-1.19" = _IO27pmSN;
         "spigot-1.19.1" = _IO27pmSN;
         "spigot-1.19.2" = _IO27pmSN;
@@ -146,16 +158,16 @@ let
         "spigot-1.21.4" = _U7Ez3cjS;
         "purpur-1.21.3" = _U7Ez3cjS;
         "purpur-1.21.4" = _U7Ez3cjS;
-        "purpur-1.21.5" = _hXw4cKZJ;
-        "purpur-1.21.6" = _hXw4cKZJ;
-        "purpur-1.21.7" = _hXw4cKZJ;
-        "purpur-1.21.8" = _hXw4cKZJ;
-        "purpur-1.21.9" = _hXw4cKZJ;
-        "purpur-1.21.10" = _hXw4cKZJ;
-        "purpur-1.21.11" = _hXw4cKZJ;
-        "purpur-26.1" = _hXw4cKZJ;
-        "purpur-26.1.1" = _hXw4cKZJ;
-        "purpur-26.1.2" = _hXw4cKZJ;
+        "purpur-1.21.5" = _otcJ28wm;
+        "purpur-1.21.6" = _otcJ28wm;
+        "purpur-1.21.7" = _otcJ28wm;
+        "purpur-1.21.8" = _otcJ28wm;
+        "purpur-1.21.9" = _otcJ28wm;
+        "purpur-1.21.10" = _otcJ28wm;
+        "purpur-1.21.11" = _otcJ28wm;
+        "purpur-26.1" = _otcJ28wm;
+        "purpur-26.1.1" = _otcJ28wm;
+        "purpur-26.1.2" = _otcJ28wm;
         "pkg-1.14.1" = _IO27pmSN;
         "pkg-1.15.0" = _EfIJQl9I;
         "pkg-1.18.0" = _6LGspEXt;
@@ -175,7 +187,9 @@ let
         "pkg-1.26.1" = _gzFHOc3M;
         "pkg-1.26.2" = _SCmDhgv9;
         "pkg-1.26.3" = _hXw4cKZJ;
-        "default" = _hXw4cKZJ;
+        "pkg-1.27.0" = _fyLY9b3M;
+        "pkg-1.27.1" = _otcJ28wm;
+        "default" = _otcJ28wm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aoneblock";

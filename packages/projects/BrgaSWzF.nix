@@ -166,11 +166,6 @@ let
             "file" = "StarrySkies-3.2.0+1.21.4+serverside.jar";
             "hash" = "sha512-TE+BQmMSKgtJ8xDa4TFKd+Y1QIO8UtRzCE+jpmgFdE8G6nS4j+NCIdWPS29hvUawuqEPt+XetnwSYnfVCFKeaw==";
         };
-        _O4w9Oy1D = {
-            "id" = "O4w9Oy1D";
-            "file" = "starry_overworld.zip";
-            "hash" = "sha512-somBug8Vb1Qr6jIpmYzk39ss1EW1WEDrlxYh5pxdo1jjXq/FiPBlp5aU2dGmr3DpxVh2uTq0Qz3nycAX2Zs1JA==";
-        };
         _kvl0w3Fz = {
             "id" = "kvl0w3Fz";
             "file" = "StarrySkies-3.3.0+1.21.5.jar";
@@ -200,6 +195,16 @@ let
             "id" = "3uSUbahR";
             "file" = "StarrySkies-5.0.0+26.1-neoforge.jar";
             "hash" = "sha512-SEtKENNB5yCihzSdgkfZR+nqZ3rdpwuDXUlW/UgtC5ezwoee3+utoH5bwM/tYVm1vsLkOC5O0+FdJ/QO4lbGGA==";
+        };
+        _9eiRzbWj = {
+            "id" = "9eiRzbWj";
+            "file" = "StarrySkies-5.1.0+26.2.jar";
+            "hash" = "sha512-kkGdgvyEIhVo1WJwmffuxbZJ2DB+zwhsbpnBMiG4X4SGnqrbqQTmLMbuW2sgGP/tad6nYQh5E0nVQiCU9Bo2lw==";
+        };
+        _KLIgVUSA = {
+            "id" = "KLIgVUSA";
+            "file" = "StarrySkies-5.1.0+26.2-neoforge.jar";
+            "hash" = "sha512-yJJwAoRilkNVoViCGOI8U6V6fUFmBArnrv8PWQ8CTGwll6/zNgE5DZyN9Je6MuTH17peDAUJfokJ3Np717WBEQ==";
         };
     in {
         "FWYnChqK" = _FWYnChqK;
@@ -235,13 +240,14 @@ let
         "fcP5OImI" = _fcP5OImI;
         "vQI6UaCN" = _vQI6UaCN;
         "Y9Xbszhe" = _Y9Xbszhe;
-        "O4w9Oy1D" = _O4w9Oy1D;
         "kvl0w3Fz" = _kvl0w3Fz;
         "fQEoAIoF" = _fQEoAIoF;
         "azw3DKCl" = _azw3DKCl;
         "QjSd9fjm" = _QjSd9fjm;
         "sI3LH6Uu" = _sI3LH6Uu;
         "3uSUbahR" = _3uSUbahR;
+        "9eiRzbWj" = _9eiRzbWj;
+        "KLIgVUSA" = _KLIgVUSA;
         "fabric-1.16.4" = _f1hEtrwG;
         "fabric-1.16.5-rc1" = _PjzFljhh;
         "fabric-1.16.5" = _f1hEtrwG;
@@ -261,14 +267,15 @@ let
         "fabric-26.1" = _sI3LH6Uu;
         "fabric-26.1.1" = _sI3LH6Uu;
         "fabric-26.1.2" = _sI3LH6Uu;
+        "fabric-26.2" = _9eiRzbWj;
         "quilt-1.20" = _qlDt4clF;
         "quilt-1.20.1" = _qlDt4clF;
         "quilt-1.20.2" = _lmpgqbgI;
         "quilt-1.19.2" = _IvW0ydS2;
-        "datapack-1.21.4" = _O4w9Oy1D;
         "neoforge-26.1" = _3uSUbahR;
         "neoforge-26.1.1" = _3uSUbahR;
         "neoforge-26.1.2" = _3uSUbahR;
+        "neoforge-26.2" = _KLIgVUSA;
         "pkg-1" = _FWYnChqK;
         "pkg-1.0.1" = _Lu6isOBr;
         "pkg-1.0.2" = _FJEbtb5Y;
@@ -298,14 +305,15 @@ let
         "pkg-3.2.0+1.21.1" = _fcP5OImI;
         "pkg-3.2.0+1.21.4" = _vQI6UaCN;
         "pkg-3.2.0+1.21.4+serverside" = _Y9Xbszhe;
-        "pkg-1.0" = _O4w9Oy1D;
         "pkg-3.3.0+1.21.5" = _kvl0w3Fz;
         "pkg-3.4.0+1.21.8" = _fQEoAIoF;
         "pkg-4.0.0+1.21.8" = _azw3DKCl;
         "pkg-4.1.0+1.21.8" = _QjSd9fjm;
         "pkg-4.2.0+26.1" = _sI3LH6Uu;
         "pkg-5.0.0+26.1-neoforge" = _3uSUbahR;
-        "default" = _3uSUbahR;
+        "pkg-5.1.0+26.2" = _9eiRzbWj;
+        "pkg-5.1.0+26.2-neoforge" = _KLIgVUSA;
+        "default" = _KLIgVUSA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "starryskies";

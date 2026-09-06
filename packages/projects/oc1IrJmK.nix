@@ -16,26 +16,33 @@ let
             "file" = "MaceEffect.jar";
             "hash" = "sha512-+0HK4/MII5OIRYIYsRn4Neevo0xlcfNALUdasNBw3rO+IBiZazjzDd1mlqt0n1LXdwjxF8t1LjDYw4eibL2OQg==";
         };
+        _1LUQUaeO = {
+            "id" = "1LUQUaeO";
+            "file" = "maceeffect-1.0.3.jar";
+            "hash" = "sha512-TzS5sb+HTDfPYB4BodaZmcK9BFKv0LW1sBsJfVjpaFiWF+pN/DqIXK10h/5hrVUHtm9T7b4Wpnut4I8UikfCuQ==";
+        };
     in {
         "80B6rC35" = _80B6rC35;
         "zJwMcpjW" = _zJwMcpjW;
         "gdXImrAa" = _gdXImrAa;
-        "fabric-1.21" = _gdXImrAa;
-        "fabric-1.21.1" = _gdXImrAa;
-        "fabric-1.21.2" = _gdXImrAa;
-        "fabric-1.21.3" = _gdXImrAa;
-        "fabric-1.21.4" = _gdXImrAa;
-        "fabric-1.21.5" = _gdXImrAa;
-        "fabric-1.21.6" = _gdXImrAa;
-        "fabric-1.21.7" = _gdXImrAa;
-        "fabric-1.21.8" = _gdXImrAa;
-        "fabric-1.21.9" = _gdXImrAa;
-        "fabric-1.21.10" = _gdXImrAa;
-        "fabric-1.21.11" = _gdXImrAa;
+        "1LUQUaeO" = _1LUQUaeO;
+        "fabric-1.21" = _1LUQUaeO;
+        "fabric-1.21.1" = _1LUQUaeO;
+        "fabric-1.21.2" = _1LUQUaeO;
+        "fabric-1.21.3" = _1LUQUaeO;
+        "fabric-1.21.4" = _1LUQUaeO;
+        "fabric-1.21.5" = _1LUQUaeO;
+        "fabric-1.21.6" = _1LUQUaeO;
+        "fabric-1.21.7" = _1LUQUaeO;
+        "fabric-1.21.8" = _1LUQUaeO;
+        "fabric-1.21.9" = _1LUQUaeO;
+        "fabric-1.21.10" = _1LUQUaeO;
+        "fabric-1.21.11" = _1LUQUaeO;
         "pkg-1.0.0" = _80B6rC35;
         "pkg-1.0.1" = _zJwMcpjW;
         "pkg-1.0.2" = _gdXImrAa;
-        "default" = _gdXImrAa;
+        "pkg-1.0.3" = _1LUQUaeO;
+        "default" = _1LUQUaeO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "maceeffect";

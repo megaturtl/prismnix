@@ -321,6 +321,46 @@ let
             "file" = "petrolpark-1.21.1-1.5.1.jar";
             "hash" = "sha512-pAIlahxR/hTFCppdZUpCJ1DG3tl8q+X54lI14whKLFecvgUb8D7Rlbd2D7cM78dDCNYbjNhDHR8ODRi5HWxkRw==";
         };
+        _hZz7hjfq = {
+            "id" = "hZz7hjfq";
+            "file" = "petrolpark-1.21.1-1.5.2.jar";
+            "hash" = "sha512-A9wiEVBiTKtAZSNhL7/C8vjEkWHqYGx5vP1Ltl+H6fPuT/2i0qWztOBPyASshLm2zwsqKF111/zYPnZMCrasrg==";
+        };
+        _VXsOeyBV = {
+            "id" = "VXsOeyBV";
+            "file" = "petrolpark-1.21.1-1.5.3.jar";
+            "hash" = "sha512-taayMtK0dqX2hZW4BQNHRkVu0oie3ywfs7PNscguQPTK7AxDZV8sJin8BnIp9fAdR6aB7WUGfeHqdk5KOy5DUw==";
+        };
+        _iqAS4ftl = {
+            "id" = "iqAS4ftl";
+            "file" = "petrolpark-1.21.1-1.5.4.jar";
+            "hash" = "sha512-LvQMho8H9uAz9O9GTpQhzhz20TXOBUogmRYXc9cTUUPHnXfUcaPgqvuPvuDj4XaMUY1Um4agc82oGga/AX/xTA==";
+        };
+        _26mdKrGY = {
+            "id" = "26mdKrGY";
+            "file" = "petrolpark-1.21.1-1.5.5.jar";
+            "hash" = "sha512-SwkAqfmTlp01vCs3cSZ49BY+UPO6FobrijVs3qMPOQZa1Qt0IGBVxiInO/4Ofc8gwk+875VCHTMH1p7N5dpRbQ==";
+        };
+        _OpfPig4I = {
+            "id" = "OpfPig4I";
+            "file" = "petrolpark-1.21.1-1.5.6.jar";
+            "hash" = "sha512-wp3anrJ7EVVJSrVO/Lra4L4RWMPjL37gcnid0fTSVc2cE54YAm/TDRtSuUkJTGpRHKVUDFoQsKevVWuzpfOxxg==";
+        };
+        _EDk15frk = {
+            "id" = "EDk15frk";
+            "file" = "petrolpark-1.21.1-1.5.7.jar";
+            "hash" = "sha512-XDqc46jYm0Xaq6nFgGN/14v/LMIqrbaC1jITTsOEdxbm5k1dAYH/ivqIMfAifboUYsFf70W028zhUCsjEPzf1A==";
+        };
+        _lmc5KaN3 = {
+            "id" = "lmc5KaN3";
+            "file" = "petrolpark-1.21.1-1.5.8.jar";
+            "hash" = "sha512-jAKXervhemGyeuQ9YnEkzoHyfw7v1cyLxkL3Ln0q+V1aNmpA0UO73rXAH3fAT1/TV26FOqGG58p6ZYL23c/zgQ==";
+        };
+        _8Ds17i85 = {
+            "id" = "8Ds17i85";
+            "file" = "petrolpark-1.21.1-1.5.9.jar";
+            "hash" = "sha512-DmlCUEjzo/6ytMUP1Yr3v85qlHwUCoH3PPfXzZ0tRS7r/k7MrP2Rc5qSSAqWSnsorxPgMqU/faieBvkKIwCTJw==";
+        };
     in {
         "m9awExs5" = _m9awExs5;
         "z0ut2cAG" = _z0ut2cAG;
@@ -386,9 +426,17 @@ let
         "4NOlw0J6" = _4NOlw0J6;
         "3A7Utwm4" = _3A7Utwm4;
         "i530pYZB" = _i530pYZB;
+        "hZz7hjfq" = _hZz7hjfq;
+        "VXsOeyBV" = _VXsOeyBV;
+        "iqAS4ftl" = _iqAS4ftl;
+        "26mdKrGY" = _26mdKrGY;
+        "OpfPig4I" = _OpfPig4I;
+        "EDk15frk" = _EDk15frk;
+        "lmc5KaN3" = _lmc5KaN3;
+        "8Ds17i85" = _8Ds17i85;
         "forge-1.20.1" = _IIDzUTjo;
         "neoforge-1.20.1" = _7FNMmjsv;
-        "neoforge-1.21.1" = _i530pYZB;
+        "neoforge-1.21.1" = _8Ds17i85;
         "pkg-1.20.1-1.0.0" = _m9awExs5;
         "pkg-1.20.1-1.0.1" = _z0ut2cAG;
         "pkg-1.20.1-1.0.3" = _GhnOVSwj;
@@ -453,7 +501,15 @@ let
         "pkg-1.21.1-1.4.36" = _4NOlw0J6;
         "pkg-1.21.1-1.5.0" = _3A7Utwm4;
         "pkg-1.21.1-1.5.1" = _i530pYZB;
-        "default" = _i530pYZB;
+        "pkg-1.21.1-1.5.2" = _hZz7hjfq;
+        "pkg-1.21.1-1.5.3" = _VXsOeyBV;
+        "pkg-1.21.1-1.5.4" = _iqAS4ftl;
+        "pkg-1.21.1-1.5.5" = _26mdKrGY;
+        "pkg-1.21.1-1.5.6" = _OpfPig4I;
+        "pkg-1.21.1-1.5.7" = _EDk15frk;
+        "pkg-1.21.1-1.5.8" = _lmc5KaN3;
+        "pkg-1.21.1-1.5.9" = _8Ds17i85;
+        "default" = _8Ds17i85;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "petrolpark";

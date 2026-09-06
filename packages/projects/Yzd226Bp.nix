@@ -171,6 +171,21 @@ let
             "file" = "survival_plus_plus-neoforge-1.21.1-0.0.1+build.38.jar";
             "hash" = "sha512-ZB2ZIzWjIBl/Pc9w2C7m1KuUb994vg1Cxg0IvEQVWRTAGoA0U28OcMHQVefVE4Yf6NwvWZLFHtGpe2gKq0lYeg==";
         };
+        _bkfnrPIo = {
+            "id" = "bkfnrPIo";
+            "file" = "survival_plus_plus-neoforge-1.21.10-0.0.1+build.41.jar";
+            "hash" = "sha512-geVPLCM/uOn/q8jnZYHXNTMF6hKgZfxXTkHtIxBXUHGLtUSaFhhUjA2LWkpquQbU1WbGYEyy9dr+nEk2C2I9Wg==";
+        };
+        _CewNhlcl = {
+            "id" = "CewNhlcl";
+            "file" = "survival_plus_plus-neoforge-26.1.2-0.0.1+build.42.jar";
+            "hash" = "sha512-7WaRvO5lgHDNsi7z+cn940TKepD1GIdOKq4i75HtOWdf9RmnaEWGHegjrpASML75meTum+n8GFKzRAeIH4p6Yg==";
+        };
+        _BZlJUh8o = {
+            "id" = "BZlJUh8o";
+            "file" = "survival_plus_plus-neoforge-26.2-0.0.1+build.46.jar";
+            "hash" = "sha512-NoKronI0khlyhnCrzNwOoZHiEXGdmuX4lu1Oeo3YbDV6XEkkbbC7b9gHbdp1Gs6J37mM89G75bc+l8yZYaYdAg==";
+        };
     in {
         "eGG99m2t" = _eGG99m2t;
         "38NtJCKn" = _38NtJCKn;
@@ -206,8 +221,14 @@ let
         "nr3sNizL" = _nr3sNizL;
         "tD1DS0CY" = _tD1DS0CY;
         "wnFdDb0P" = _wnFdDb0P;
+        "bkfnrPIo" = _bkfnrPIo;
+        "CewNhlcl" = _CewNhlcl;
+        "BZlJUh8o" = _BZlJUh8o;
         "neoforge-1.21.1" = _wnFdDb0P;
         "neoforge-1.21.8" = _tD1DS0CY;
+        "neoforge-1.21.10" = _bkfnrPIo;
+        "neoforge-26.1.2" = _CewNhlcl;
+        "neoforge-26.2" = _BZlJUh8o;
         "pkg-0.0.1+build.2" = _eGG99m2t;
         "pkg-0.0.1+build.3" = _38NtJCKn;
         "pkg-0.0.1+build.5" = _Rctz9yzv;
@@ -242,7 +263,10 @@ let
         "pkg-0.0.1+build.36" = _nr3sNizL;
         "pkg-0.0.1+build.37" = _tD1DS0CY;
         "pkg-0.0.1+build.38" = _wnFdDb0P;
-        "default" = _wnFdDb0P;
+        "pkg-0.0.1+build.41" = _bkfnrPIo;
+        "pkg-0.0.1+build.42" = _CewNhlcl;
+        "pkg-0.0.1+build.46" = _BZlJUh8o;
+        "default" = _BZlJUh8o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "survival-plus-plus";

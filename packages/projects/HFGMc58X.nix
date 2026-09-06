@@ -181,6 +181,21 @@ let
             "file" = "mineboxadditions-1.15.6+26.2.jar";
             "hash" = "sha512-ohU0rlRRz9ZdF0Lv3C6/eXhWMlvc1jWTPtCs5RAEcDk31JtNwo53pXJvVFb3SpNAlmoSD+Q0kd6y+BM/oUEinQ==";
         };
+        _XEytSpSE = {
+            "id" = "XEytSpSE";
+            "file" = "mineboxadditions-1.15.7+26.2.jar";
+            "hash" = "sha512-O3eg3Nq0P/bONqwmHTbIT365+Lx+P2x13wI2ooncAVcFGeZlIavQL6exZ/12KwpDb9N9cQl8ebYOAnIk5vknyA==";
+        };
+        _hm4MrXm9 = {
+            "id" = "hm4MrXm9";
+            "file" = "mineboxadditions-1.15.8+26.2.jar";
+            "hash" = "sha512-vf0eSmrQ0rU2/DDm6dXkqPFG8cLb8trraPkC3VRsbGak+XK4xsm9kHmab9UaJaFgojtbsgNtiV3GCq2moH7HUA==";
+        };
+        _kayKEdqL = {
+            "id" = "kayKEdqL";
+            "file" = "mineboxadditions-1.15.9+26.2.jar";
+            "hash" = "sha512-HysxdUiv6MxP2xZuSO6iesQGTCoDFcWIrG48ckLxUxXW/tOAqbe7aNxnrEI6ntLRoGDknF9ldc51aLIPFmZGjQ==";
+        };
     in {
         "SuQOTCTk" = _SuQOTCTk;
         "2uolXdws" = _2uolXdws;
@@ -218,6 +233,9 @@ let
         "TFKrxJc7" = _TFKrxJc7;
         "XhPzUzln" = _XhPzUzln;
         "xz0vlGUQ" = _xz0vlGUQ;
+        "XEytSpSE" = _XEytSpSE;
+        "hm4MrXm9" = _hm4MrXm9;
+        "kayKEdqL" = _kayKEdqL;
         "fabric-1.21.3" = _8nOHh5Ga;
         "fabric-1.21.4" = _8nOHh5Ga;
         "fabric-1.21.5" = _LUN4mpyL;
@@ -226,7 +244,7 @@ let
         "fabric-26.1" = _XhPzUzln;
         "fabric-26.1.1" = _XhPzUzln;
         "fabric-26.1.2" = _XhPzUzln;
-        "fabric-26.2" = _xz0vlGUQ;
+        "fabric-26.2" = _kayKEdqL;
         "pkg-1.0.4" = _SuQOTCTk;
         "pkg-1.0.5" = _2uolXdws;
         "pkg-1.0.6" = _jwktURJ1;
@@ -262,7 +280,10 @@ let
         "pkg-1.15.4" = _TFKrxJc7;
         "pkg-1.15.5" = _XhPzUzln;
         "pkg-1.15.6" = _xz0vlGUQ;
-        "default" = _xz0vlGUQ;
+        "pkg-1.15.7" = _XEytSpSE;
+        "pkg-1.15.8" = _hm4MrXm9;
+        "pkg-1.15.9" = _kayKEdqL;
+        "default" = _kayKEdqL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mineboxadditions";

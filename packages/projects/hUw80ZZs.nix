@@ -1606,6 +1606,76 @@ let
             "file" = "butterflies-7.10.0.jar";
             "hash" = "sha512-Rxuspf0tvsOS3UnpdQ73jC2B+0u3WSBgHLcmHdJfQiMDIWrMWif97WuitFoHGVUeCC/ljVErmrnc7i6/S2upYA==";
         };
+        _YUgQjBak = {
+            "id" = "YUgQjBak";
+            "file" = "butterflies-7.10.5.jar";
+            "hash" = "sha512-70/ypnsoYOltOWhTjf+7vZWPDxHJ7cgk8/6faak301Tt7qQaeRn066KZ8zCrKhWvg/h6mPl6rD0v31KrmObPQA==";
+        };
+        _62tCZQAI = {
+            "id" = "62tCZQAI";
+            "file" = "butterflies-7.10.5.jar";
+            "hash" = "sha512-Nw7XEz7JaQhzfQZoEG8uvHo56lqko/uTcxOxZ7U0QSXpMQ/DzyuUvnI60yC8FskgeonODR/hjkCDN38tHpMcPw==";
+        };
+        _x4alwrIS = {
+            "id" = "x4alwrIS";
+            "file" = "butterflies-7.10.5.jar";
+            "hash" = "sha512-4AogH78BrxlCLJI8ZQjtpW1aH1wR1DC8CwMXeqj/TBhlZk/LuV5Q20Xrty/qEs99+UhDfrRuIvqshxfoy3E1NQ==";
+        };
+        _DJXw5UXt = {
+            "id" = "DJXw5UXt";
+            "file" = "butterflies-7.10.5.jar";
+            "hash" = "sha512-xYyjJg8hnwGT1Kt4f/wLUq5sbWkh14lWz2o4vVhSA/yC0+olCX97iolAY2vmgNdjx62TOMQPCqhYs/fcLHPyNA==";
+        };
+        _EdQoUGBg = {
+            "id" = "EdQoUGBg";
+            "file" = "butterflies-7.10.5.jar";
+            "hash" = "sha512-zaHdznkTPjZfFFwI5Zl2kLi9vZ5sy0CgJSe/F5x/iAhFDmvrk/0Az0ihb6pr2wy8E4wd06lk05s9pVoIjOzv5w==";
+        };
+        _HtdIaOb0 = {
+            "id" = "HtdIaOb0";
+            "file" = "butterflies-7.10.5.jar";
+            "hash" = "sha512-6fmxG5HkAgqvuG3R5XPCHcKWohCNu0AkT4QhFAczRa9m4InqGCGowX/89lcr1Brxi3zFdB8CZry2P+nJE/tecw==";
+        };
+        _SSXiEjPl = {
+            "id" = "SSXiEjPl";
+            "file" = "butterflies-7.10.5.jar";
+            "hash" = "sha512-EzXplHuCbf5Uh+JglqCf65cQbsIXZWKZ8/qqWrK8FFxe7ak0x26/sVpAI3avIZwhdbIx/k7T/4FRUANmnbpsiw==";
+        };
+        _CioJyoHn = {
+            "id" = "CioJyoHn";
+            "file" = "butterflies-7.10.9.jar";
+            "hash" = "sha512-pvjhMQ/PdYKOsiGGUmN2+fvNkMNlNlMiIezZqiBCky7qq/mi0xE6SS7VbtjtnATXrM3bCHjGpSTbl9gKJK+JIQ==";
+        };
+        _uSCYihw8 = {
+            "id" = "uSCYihw8";
+            "file" = "butterflies-7.10.9.jar";
+            "hash" = "sha512-oIe5r3kf9QxgCQbMTJpVCmskkVYT4yY+tmPuOoftu6LsRWIu3J42fSFuQsjjeJQgGDcq2/99+hcttT9lnRoncQ==";
+        };
+        _vo8QNCqZ = {
+            "id" = "vo8QNCqZ";
+            "file" = "butterflies-7.10.9.jar";
+            "hash" = "sha512-o0kB70W1cyGmH3jYzT38/ps1snDpy4awmGmPLrQH9ncn+XtFJQ0tEOsQf0sdiei0FjzBLktD8uR3PSs8uORPow==";
+        };
+        _ZWn1Tta4 = {
+            "id" = "ZWn1Tta4";
+            "file" = "butterflies-7.10.9.jar";
+            "hash" = "sha512-v69umuHBE3kxJt7TLXN6kjuEYOxrNRas2t5ABjb9UuVMuk7/4d4KFkjnaLCudt7JV9yTDvH7xW3ciwq7K42fTA==";
+        };
+        _i8upzTkr = {
+            "id" = "i8upzTkr";
+            "file" = "butterflies-7.10.9.jar";
+            "hash" = "sha512-Mg3XP6rMpa/xHSS0urOCjR78wu0WVeewHltBLOPMaCDHJetOU3yXDDUlboi+kDkYjDHdk6ZzwTa5TGKdKp0EoA==";
+        };
+        _11RNbbGP = {
+            "id" = "11RNbbGP";
+            "file" = "butterflies-7.10.9.jar";
+            "hash" = "sha512-2AXnwUVe0zoxqHeXcGFt9JLUWqGVkdczFMKRBNPHuG4XdNMhSyxWvKRUfFsmRFBNYGqBDnJzavi6Tyi3F4/02g==";
+        };
+        _TcBqY1wL = {
+            "id" = "TcBqY1wL";
+            "file" = "butterflies-7.10.9.jar";
+            "hash" = "sha512-jBDvbajDl+ZZkyPldFLec1actAWkP6Rf6r9r4oasz0x5mRC6Udw6hdZvVvHtXS3iWnwBPhOobYRRXu3tFCkoBg==";
+        };
     in {
         "oFx4P6V0" = _oFx4P6V0;
         "eDMr0C7M" = _eDMr0C7M;
@@ -1928,14 +1998,28 @@ let
         "RqLKDYzi" = _RqLKDYzi;
         "9Wr9mfUr" = _9Wr9mfUr;
         "GvztH2Ao" = _GvztH2Ao;
-        "forge-1.20.1" = _UZx6M1dY;
-        "forge-1.20.2" = _U8OGJv6C;
-        "forge-1.19.2" = _F0AlYaBe;
+        "YUgQjBak" = _YUgQjBak;
+        "62tCZQAI" = _62tCZQAI;
+        "x4alwrIS" = _x4alwrIS;
+        "DJXw5UXt" = _DJXw5UXt;
+        "EdQoUGBg" = _EdQoUGBg;
+        "HtdIaOb0" = _HtdIaOb0;
+        "SSXiEjPl" = _SSXiEjPl;
+        "CioJyoHn" = _CioJyoHn;
+        "uSCYihw8" = _uSCYihw8;
+        "vo8QNCqZ" = _vo8QNCqZ;
+        "ZWn1Tta4" = _ZWn1Tta4;
+        "i8upzTkr" = _i8upzTkr;
+        "11RNbbGP" = _11RNbbGP;
+        "TcBqY1wL" = _TcBqY1wL;
+        "forge-1.20.1" = _uSCYihw8;
+        "forge-1.20.2" = _CioJyoHn;
+        "forge-1.19.2" = _vo8QNCqZ;
         "forge-1.20.4" = _HrYqIHrj;
-        "forge-1.18.2" = _lG6WxzBG;
-        "neoforge-1.20.4" = _RqLKDYzi;
-        "neoforge-1.21.1" = _9Wr9mfUr;
-        "neoforge-1.21.4" = _GvztH2Ao;
+        "forge-1.18.2" = _ZWn1Tta4;
+        "neoforge-1.20.4" = _i8upzTkr;
+        "neoforge-1.21.1" = _11RNbbGP;
+        "neoforge-1.21.4" = _TcBqY1wL;
         "pkg-1.0.1" = _oFx4P6V0;
         "pkg-1.0.2" = _eDMr0C7M;
         "pkg-1.0.3" = _WMGOZmf6;
@@ -2015,7 +2099,9 @@ let
         "pkg-7.9.2" = _vVpHLAwz;
         "pkg-7.9.3" = _7TTSBlWi;
         "pkg-7.10.0" = _GvztH2Ao;
-        "default" = _GvztH2Ao;
+        "pkg-7.10.5" = _SSXiEjPl;
+        "pkg-7.10.9" = _TcBqY1wL;
+        "default" = _TcBqY1wL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "boks-butterflies";

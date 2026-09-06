@@ -41,6 +41,21 @@ let
             "file" = "artistry-1.1.1+fabric.1.21.1.jar";
             "hash" = "sha512-bnYcwkFySHkbtmcHWikYZh3dGb4X0mQ11Zh9PgbC+CjNW6ULS3j+6nMUCtBVG2PC+tD4t7zCz5QTf3Hjm6Yt/A==";
         };
+        _YYdLcwBY = {
+            "id" = "YYdLcwBY";
+            "file" = "artistry-1.1.2+fabric.1.21.1.jar";
+            "hash" = "sha512-aHR1V+7Cq3ga5QeY7GGlZ+MzxEnNV3LsxIv+dMH/pSb1qEYOLzuOc+28QehwP4uc+LzbugpD8Pd1SHxtqG0acQ==";
+        };
+        _c999JHtg = {
+            "id" = "c999JHtg";
+            "file" = "artistry-1.1.2+neoforge.1.21.1.jar";
+            "hash" = "sha512-TjcU4kicV4p+H/ra3aa9mKeYI06JXRu4z1Z7Go0Gh017SErCU8n/GbKZUSZS66g81GEqgWkuFwBs+0Tk/rgF6A==";
+        };
+        _998MaH85 = {
+            "id" = "998MaH85";
+            "file" = "artistry-1.1.2+forge.1.20.1.jar";
+            "hash" = "sha512-edzBI8v/C2rE/S/4mbZ4mLy9VEbNGEliZikC/XDRKHtcXcd2FbkbjuKwjWr6ahvK8PcFda8l8EusUI2VWKtE6A==";
+        };
     in {
         "5vPfuHiY" = _5vPfuHiY;
         "vYdSNJav" = _vYdSNJav;
@@ -50,10 +65,13 @@ let
         "vADzCxVt" = _vADzCxVt;
         "hAsxdLk4" = _hAsxdLk4;
         "NISJ6gu7" = _NISJ6gu7;
+        "YYdLcwBY" = _YYdLcwBY;
+        "c999JHtg" = _c999JHtg;
+        "998MaH85" = _998MaH85;
         "fabric-1.21.11" = _yNvq9osz;
-        "fabric-1.21.1" = _NISJ6gu7;
-        "neoforge-1.21.1" = _hAsxdLk4;
-        "forge-1.20.1" = _vADzCxVt;
+        "fabric-1.21.1" = _YYdLcwBY;
+        "neoforge-1.21.1" = _c999JHtg;
+        "forge-1.20.1" = _998MaH85;
         "pkg-1.0" = _5vPfuHiY;
         "pkg-1.0.1" = _yNvq9osz;
         "pkg-1.1+fabric.1.21.1" = _rtMKozbi;
@@ -61,10 +79,13 @@ let
         "pkg-1.1.1+forge.1.20.1" = _vADzCxVt;
         "pkg-1.1.1+neoforge.1.21.1" = _hAsxdLk4;
         "pkg-1.1.1+fabric.1.21.1" = _NISJ6gu7;
-        "default" = _NISJ6gu7;
+        "pkg-1.1.2+fabric.1.21.1" = _YYdLcwBY;
+        "pkg-1.1.2+neoforge.1.21.1" = _c999JHtg;
+        "pkg-1.1.2+forge.1.20.1" = _998MaH85;
+        "default" = _998MaH85;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
-        name = "artistry-draw";
+        name = "artistry-live";
         id = "bGZucUcH";
         type = "mod";
         versions = versions;

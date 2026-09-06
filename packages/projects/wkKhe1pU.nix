@@ -316,6 +316,11 @@ let
             "file" = "solar-apocalypse-1.9.21.jar";
             "hash" = "sha512-pAbJ0bewrwPKRRQekmVZMOzHzbd6ds3pW89APn8g+WK5jWqFQnDuUkZX1ZEJUZuZwlbwIfY4r3ax215GJtIsLw==";
         };
+        _AJbLtAnd = {
+            "id" = "AJbLtAnd";
+            "file" = "solar-apocalypse-1.9.22.jar";
+            "hash" = "sha512-8/bYIskZ9uyCkpCbjMHL3Lzf49qefqkypARkgqJmhviVEdMkXSNAfUEfVewWgXl37jflKBEDxi8ufalo8cJkMA==";
+        };
     in {
         "X6MaHmfH" = _X6MaHmfH;
         "hV0ZLqoj" = _hV0ZLqoj;
@@ -380,6 +385,7 @@ let
         "OlxUsnbt" = _OlxUsnbt;
         "PyHkLhvP" = _PyHkLhvP;
         "H7Qxn4fK" = _H7Qxn4fK;
+        "AJbLtAnd" = _AJbLtAnd;
         "fabric-1.16.5" = _X6MaHmfH;
         "fabric-1.17" = _hV0ZLqoj;
         "fabric-1.17.1" = _hV0ZLqoj;
@@ -410,6 +416,7 @@ let
         "fabric-26.1" = _PyHkLhvP;
         "fabric-26.1.1" = _PyHkLhvP;
         "fabric-26.1.2" = _H7Qxn4fK;
+        "fabric-26.2" = _AJbLtAnd;
         "pkg-1.2.1" = _X6MaHmfH;
         "pkg-1.3.0" = _hV0ZLqoj;
         "pkg-1.3.1" = _qgxx63jr;
@@ -448,7 +455,8 @@ let
         "pkg-1.9.19" = _OlxUsnbt;
         "pkg-1.9.20" = _PyHkLhvP;
         "pkg-1.9.21" = _H7Qxn4fK;
-        "default" = _H7Qxn4fK;
+        "pkg-1.9.22" = _AJbLtAnd;
+        "default" = _AJbLtAnd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "solar-apocalypse";

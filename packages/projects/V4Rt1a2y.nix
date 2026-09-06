@@ -31,6 +31,16 @@ let
             "file" = "syals_delight-1.0.3.jar";
             "hash" = "sha512-TDKABVI+D5A41wkpPOTa+w9OfOHUgAxxNdyDSXtDRuwYiqnWPY9XaloZDrd/1Oap0ILZzNzKn4aNTntU0bbg9w==";
         };
+        _D33q7AKU = {
+            "id" = "D33q7AKU";
+            "file" = "syals_delight-1.21.1-1.0.4.jar";
+            "hash" = "sha512-LYf5DzluithDau/WygXh+4evUTGnZZaHCF25upW5aAy/Xww9YYo4os+EB0fRJqdWXqxcxHNQw/UnYnqEk6Rtxw==";
+        };
+        _eOxxVc67 = {
+            "id" = "eOxxVc67";
+            "file" = "syals_delight-1.20.1-1.0.2.jar";
+            "hash" = "sha512-v9uS+uY9h3ZBETJfSranpYq6VFbf/iUSzNboRFYbcMEkUbgKXiED2gZKqvauv1UjxiADDIjcTQxaL8/XNSPUsw==";
+        };
     in {
         "3p4f2SRR" = _3p4f2SRR;
         "MJeby0dW" = _MJeby0dW;
@@ -38,15 +48,19 @@ let
         "WYZ21Wmj" = _WYZ21Wmj;
         "VIPxKQHj" = _VIPxKQHj;
         "pXDqQV1F" = _pXDqQV1F;
-        "forge-1.20.1" = _MJeby0dW;
-        "neoforge-1.21.1" = _pXDqQV1F;
+        "D33q7AKU" = _D33q7AKU;
+        "eOxxVc67" = _eOxxVc67;
+        "forge-1.20.1" = _eOxxVc67;
+        "neoforge-1.21.1" = _D33q7AKU;
         "pkg-1.0.0" = _3p4f2SRR;
         "pkg-1.0.1" = _MJeby0dW;
         "pkg-1.21.1-1.0.0" = _ohqBxUyp;
         "pkg-1.21.1-1.0.1" = _WYZ21Wmj;
         "pkg-1.21.1-1.0.2" = _VIPxKQHj;
         "pkg-1.0.3" = _pXDqQV1F;
-        "default" = _pXDqQV1F;
+        "pkg-1.21.1-1.0.4" = _D33q7AKU;
+        "pkg-1.20.1-1.0.2" = _eOxxVc67;
+        "default" = _eOxxVc67;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "syals-delight";

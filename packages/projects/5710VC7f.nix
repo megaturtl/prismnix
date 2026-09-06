@@ -186,6 +186,11 @@ let
             "file" = "polydecorations-0.12.0+26.2.jar";
             "hash" = "sha512-OmH+rTWJGJmlctQ6cewq5pd1EjVaYmjM7Bgtwlg8sFFaD9+p4d9ZSOO8nFM9xKUo8+BWk6hCvuNvJDDX9ZvLZg==";
         };
+        _byp83CQs = {
+            "id" = "byp83CQs";
+            "file" = "polydecorations-0.12.1+26.2.jar";
+            "hash" = "sha512-udhuSwM0rkc3Rx3nLou+TrZhqwOHaul/k1Oy3SqYHxp8ynuUuBJ46lQ4ybFsMlMijXBWEeGVPaXUXqBK7PAFpQ==";
+        };
     in {
         "BqUtPSXA" = _BqUtPSXA;
         "WGpMN7te" = _WGpMN7te;
@@ -224,6 +229,7 @@ let
         "HznHHrk4" = _HznHHrk4;
         "FzBVd12G" = _FzBVd12G;
         "QX9DXrxR" = _QX9DXrxR;
+        "byp83CQs" = _byp83CQs;
         "fabric-1.20.4" = _4NbfooMH;
         "fabric-1.20.6" = _oBFtL4qd;
         "fabric-1.21" = _wDSyqj4f;
@@ -244,7 +250,7 @@ let
         "fabric-26.1" = _FzBVd12G;
         "fabric-26.1.1" = _FzBVd12G;
         "fabric-26.1.2" = _FzBVd12G;
-        "fabric-26.2" = _QX9DXrxR;
+        "fabric-26.2" = _byp83CQs;
         "quilt-1.20.4" = _4NbfooMH;
         "quilt-1.20.6" = _oBFtL4qd;
         "quilt-1.21" = _Wr6mrJ2n;
@@ -285,7 +291,8 @@ let
         "pkg-0.10.4+1.21.11" = _HznHHrk4;
         "pkg-0.11.0+26.1" = _FzBVd12G;
         "pkg-0.12.0+26.2" = _QX9DXrxR;
-        "default" = _QX9DXrxR;
+        "pkg-0.12.1+26.2" = _byp83CQs;
+        "default" = _byp83CQs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "polydecorations";

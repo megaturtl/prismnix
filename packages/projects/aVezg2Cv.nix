@@ -46,6 +46,11 @@ let
             "file" = "BossCraftRespawn 1.21.1 v2.3.jar";
             "hash" = "sha512-sIDV7wgsI2JcbDOBGRPiN5OtM+FmRUkoSdU+5wKCTxkZXDeMJCMvFguLBmJcYWYZku5vcYhIs/QjJUZFJ7Fiow==";
         };
+        _CW6uSDDO = {
+            "id" = "CW6uSDDO";
+            "file" = "BossCraftRespawn 1.20.1 v2.5.jar";
+            "hash" = "sha512-SVF/0RNqlZWJEaBVoZ5wQj74ywQapmKN3oWJbIvzAb4apdYWMj2chg54nnXBmdJjxpVw3ShXwKiaOqg/a3bk0w==";
+        };
     in {
         "91G9CSez" = _91G9CSez;
         "jbtor98o" = _jbtor98o;
@@ -56,7 +61,8 @@ let
         "QVeeGvtY" = _QVeeGvtY;
         "K5aLe4sy" = _K5aLe4sy;
         "eBAdVJH4" = _eBAdVJH4;
-        "forge-1.20.1" = _K5aLe4sy;
+        "CW6uSDDO" = _CW6uSDDO;
+        "forge-1.20.1" = _CW6uSDDO;
         "neoforge-1.21.1" = _eBAdVJH4;
         "pkg-1.0.0" = _91G9CSez;
         "pkg-1.1.0" = _jbtor98o;
@@ -65,7 +71,8 @@ let
         "pkg-2.1.0" = _zMNYi3Zd;
         "pkg-2.2.0" = _QVeeGvtY;
         "pkg-2.3.0" = _eBAdVJH4;
-        "default" = _eBAdVJH4;
+        "pkg-2.5.0" = _CW6uSDDO;
+        "default" = _CW6uSDDO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bosscraft-unofficial-port";

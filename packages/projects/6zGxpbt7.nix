@@ -1136,6 +1136,86 @@ let
             "file" = "beyonddimensions-1.20.1-forge-0.7.26.jar";
             "hash" = "sha512-lFMk3EOGRMow9ujKi7rY80UjNoHnKFIDn9k59NIVb2k4kWYWdREKavozF20ghaNOWPYWbrSkJVNjFnROJPyBWg==";
         };
+        _PeOr8Hwv = {
+            "id" = "PeOr8Hwv";
+            "file" = "beyonddimensions-26.2.0-neoforge-0.7.27.jar";
+            "hash" = "sha512-KfhKu2KT0vAvRHhoWPYdSZJFUIbYi20rNGTvXKFS7OUSANmSR/Ns/aQms94Gb3ywYomKfADZlhpH13lp5vw89A==";
+        };
+        _VsDtU3lr = {
+            "id" = "VsDtU3lr";
+            "file" = "beyonddimensions-26.1.2-neoforge-0.7.27.jar";
+            "hash" = "sha512-6cHStQO95H0G4inWemgVBJLOIAm+g8R7/G4EX0cq6gIOu2CmCHCPBG7DVkMJ/KgI34P36Sep6PqCtd22GcMHjg==";
+        };
+        _Sc2jn9qu = {
+            "id" = "Sc2jn9qu";
+            "file" = "beyonddimensions-1.21.1-neoforge-0.7.27.jar";
+            "hash" = "sha512-VDsFMoBvgvgJ235TKf27icTKqGVBJLCG9bb/Ikm2HZyh/yUXHzTRV77wmOr1hlVVcMgwKYhpL2tTZLjBLJNuKQ==";
+        };
+        _KvYyBsi3 = {
+            "id" = "KvYyBsi3";
+            "file" = "beyonddimensions-1.20.1-forge-0.7.27.jar";
+            "hash" = "sha512-/6Lkxqy8GH98z61MxfHZnLNoDgOI6iDesVOkTYXLmjKc1I/JNIdXx0qxg/OIicBdp9zWvJyqpIY92nsJQYEYdg==";
+        };
+        _bNFe908G = {
+            "id" = "bNFe908G";
+            "file" = "beyonddimensions-26.1.2-neoforge-0.7.28.jar";
+            "hash" = "sha512-1ruju0qZ6e73t3Vyl2PRhZDLd68g17HzsBiWh/yEZ2V7kp0X5E3FtCH7oL7eU+St1Pn4IJOAonqmhpsgQB/jgw==";
+        };
+        _H7VibOwi = {
+            "id" = "H7VibOwi";
+            "file" = "beyonddimensions-26.2.0-neoforge-0.7.28.jar";
+            "hash" = "sha512-ffTlmHVi7FTzlUGkyB9B5WLEExgDsUPq7HDFl3KEyF2130Sr9nAI93UrK+aDR4mziZpnrEO8Sf66opwhHLxDPA==";
+        };
+        _yf9xSTS4 = {
+            "id" = "yf9xSTS4";
+            "file" = "beyonddimensions-1.21.1-neoforge-0.7.28.jar";
+            "hash" = "sha512-i04D4BPY1AucNswMPDwoNF+8J1jN35MeSWWrhSADMfLDM6SPZFtKZBSBre2ngTCuJtUr1Sm6KK/BQbdEWglsvA==";
+        };
+        _hkKgBTqq = {
+            "id" = "hkKgBTqq";
+            "file" = "beyonddimensions-1.20.1-forge-0.7.28.jar";
+            "hash" = "sha512-oRXxdlnUDgmrtW+ILMNOvPhfWkr71vVb72YAtlESoPONKlgYC7ksEf2lrpvhr/oVpBAownxI9Bur9oyxzWqRGQ==";
+        };
+        _zvrbZs6V = {
+            "id" = "zvrbZs6V";
+            "file" = "beyonddimensions-1.21.1-neoforge-0.7.29.jar";
+            "hash" = "sha512-/tOQVwewJbbbydMLx/Iolw/Rxv4p5cFi8FNvFG0gO69orHXEk+DuW1n+J4eBrZqd2aoJAwvVmJpcwOBNNb/nNg==";
+        };
+        _o1Ssx4OB = {
+            "id" = "o1Ssx4OB";
+            "file" = "beyonddimensions-26.2.0-neoforge-0.7.29.jar";
+            "hash" = "sha512-BwGQi3Oq7fgaAtA434Bn6cvbNiE0+hqXQEy/ZYCmS7OoieLMHS6pG4bfUzt0//mmZWIlqNCieSG5RVbUxGUGnw==";
+        };
+        _qgOhjQYL = {
+            "id" = "qgOhjQYL";
+            "file" = "beyonddimensions-26.1.2-neoforge-0.7.29.jar";
+            "hash" = "sha512-poKmCPYvr4Ouxjm3Lmi2oS4NG0xWc6pfiA3gpaRG0npoeYKzJ1Akcc4o7AOqiIMpm8chwownKTRtO/gvWsguMg==";
+        };
+        _RL2XxhMI = {
+            "id" = "RL2XxhMI";
+            "file" = "beyonddimensions-1.20.1-forge-0.7.29.jar";
+            "hash" = "sha512-dR2x3byUB90WeF8iEoMhhGjuGnZQ8fjkhkOu8cN50ymMTBawSc/861tTTj4Wji7QPTYhPiOv3PX02NptrZSUFg==";
+        };
+        _RczZaExs = {
+            "id" = "RczZaExs";
+            "file" = "beyonddimensions-26.1.2-neoforge-0.7.30.jar";
+            "hash" = "sha512-u34lL+IkoSQMftM1+XW0DkenxVXoPszzbJBLxdkFC/LgpgXD3PHdgcMdOpSk1wBZdOTxBEM++FrV+YPSTqG1WA==";
+        };
+        _Ey0yqf7W = {
+            "id" = "Ey0yqf7W";
+            "file" = "beyonddimensions-26.2.0-neoforge-0.7.30.jar";
+            "hash" = "sha512-ZLq79G43Ha56iKnaZ9lrimL1rrzV8PlnTdTwBgdSe2saSKMdQLeL4dOLzd5gF0d/r4+cql2sL2mBT0Pw9fnVAA==";
+        };
+        _XXnCAMBQ = {
+            "id" = "XXnCAMBQ";
+            "file" = "beyonddimensions-1.20.1-forge-0.7.30.jar";
+            "hash" = "sha512-SCI+QBMTvAkHV1MOO2xWfvpFnyTQZbBNTtAKsiSkmO6gSZad894lxXmWUAbEKW/t2OIaPHOUI7S58nG5LXhwEQ==";
+        };
+        _FP6mjH0z = {
+            "id" = "FP6mjH0z";
+            "file" = "beyonddimensions-1.21.1-neoforge-0.7.30.jar";
+            "hash" = "sha512-CI3Ub91NsNb9rau0UHQzCLgkfrbEgfMD86ksXluUikIOyhZSPv9i78exFjmwFVuXELB3/wLyuwVucDkyqupjsA==";
+        };
     in {
         "f6SOOZWr" = _f6SOOZWr;
         "rB5NZOVe" = _rB5NZOVe;
@@ -1364,14 +1444,30 @@ let
         "tOXvsMS2" = _tOXvsMS2;
         "7iuD6CMF" = _7iuD6CMF;
         "eIjzXaX4" = _eIjzXaX4;
-        "neoforge-1.21.1" = _7iuD6CMF;
+        "PeOr8Hwv" = _PeOr8Hwv;
+        "VsDtU3lr" = _VsDtU3lr;
+        "Sc2jn9qu" = _Sc2jn9qu;
+        "KvYyBsi3" = _KvYyBsi3;
+        "bNFe908G" = _bNFe908G;
+        "H7VibOwi" = _H7VibOwi;
+        "yf9xSTS4" = _yf9xSTS4;
+        "hkKgBTqq" = _hkKgBTqq;
+        "zvrbZs6V" = _zvrbZs6V;
+        "o1Ssx4OB" = _o1Ssx4OB;
+        "qgOhjQYL" = _qgOhjQYL;
+        "RL2XxhMI" = _RL2XxhMI;
+        "RczZaExs" = _RczZaExs;
+        "Ey0yqf7W" = _Ey0yqf7W;
+        "XXnCAMBQ" = _XXnCAMBQ;
+        "FP6mjH0z" = _FP6mjH0z;
+        "neoforge-1.21.1" = _FP6mjH0z;
         "neoforge-1.20.1" = _Hy9s1QDF;
         "neoforge-1.21.11" = _oEoqQPgw;
         "neoforge-26.1-snapshot-6" = _26HxLexG;
         "neoforge-26.1" = _NXvvoAAl;
-        "neoforge-26.1.2" = _tOXvsMS2;
-        "neoforge-26.2" = _RFMaLHEj;
-        "forge-1.20.1" = _eIjzXaX4;
+        "neoforge-26.1.2" = _RczZaExs;
+        "neoforge-26.2" = _Ey0yqf7W;
+        "forge-1.20.1" = _XXnCAMBQ;
         "forge-1.12.2" = _IFDaYpPK;
         "pkg-0.1.0" = _f6SOOZWr;
         "pkg-0.1.1" = _rB5NZOVe;
@@ -1539,7 +1635,23 @@ let
         "pkg-0.7.25-26.1.2-neoforge" = _tOXvsMS2;
         "pkg-0.7.26-1.21.1-neoforge" = _7iuD6CMF;
         "pkg-0.7.26-1.20.1-forge" = _eIjzXaX4;
-        "default" = _eIjzXaX4;
+        "pkg-0.7.27-26.2.0-neoforge" = _PeOr8Hwv;
+        "pkg-0.7.27-26.1.2-neoforge" = _VsDtU3lr;
+        "pkg-0.7.27-1.21.1-neoforge" = _Sc2jn9qu;
+        "pkg-0.7.27-1.20.1-forge" = _KvYyBsi3;
+        "pkg-0.7.28-26.1.2-neoforge" = _bNFe908G;
+        "pkg-0.7.28-26.2.0-neoforge" = _H7VibOwi;
+        "pkg-0.7.28-1.21.1-neoforge" = _yf9xSTS4;
+        "pkg-0.7.28-1.20.1-forge" = _hkKgBTqq;
+        "pkg-0.7.29-1.21.1-neoforge" = _zvrbZs6V;
+        "pkg-0.7.29-26.2.0-neoforge" = _o1Ssx4OB;
+        "pkg-0.7.29-26.1.2-neoforge" = _qgOhjQYL;
+        "pkg-0.7.29-1.20.1-forge" = _RL2XxhMI;
+        "pkg-0.7.30-26.1.2-neoforge" = _RczZaExs;
+        "pkg-0.7.30-26.2.0-neoforge" = _Ey0yqf7W;
+        "pkg-0.7.30-1.20.1-forge" = _XXnCAMBQ;
+        "pkg-0.7.30-1.21.1-neoforge" = _FP6mjH0z;
+        "default" = _FP6mjH0z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "beyonddimensions";

@@ -236,6 +236,16 @@ let
             "file" = "cable_facades-1.20.1-Forge-2.1.3.jar";
             "hash" = "sha512-rgvYurdVaGytdzS0vwdm2ULeyyaxGcLg1qPdeXCM712h9S6bAEwfYQs/Zwm2nKHFimtZQH1HB46LmgUFUxbZTg==";
         };
+        _XWCAtdzJ = {
+            "id" = "XWCAtdzJ";
+            "file" = "cable_facades-1.21.1-NeoForge-2.1.4.jar";
+            "hash" = "sha512-x3U+fu63a1Xe4rZvtrMR01hojb0g8rQpd82TZruai+aQY1/8UkPUcDITZNax8EFnPyoCHkOzd5T0LG/MRWcfhg==";
+        };
+        _EVOX1NLg = {
+            "id" = "EVOX1NLg";
+            "file" = "cable_facades-26.1.2-NeoForge-2.1.4.jar";
+            "hash" = "sha512-w/i46vsLzmdO2h4zoMIijtPycK3egW9zx9Y4iS3wjtsAmcJGu9kHE9j+TYY5WRf3bl5xf8tKuLe0rrq9AZ2RGw==";
+        };
     in {
         "n0jbM9Ax" = _n0jbM9Ax;
         "vWhxiz3c" = _vWhxiz3c;
@@ -284,12 +294,14 @@ let
         "d1uqN7Pk" = _d1uqN7Pk;
         "AiukSRy5" = _AiukSRy5;
         "s08dS68U" = _s08dS68U;
+        "XWCAtdzJ" = _XWCAtdzJ;
+        "EVOX1NLg" = _EVOX1NLg;
         "forge-1.20.1" = _s08dS68U;
         "forge-1.19.2" = _l79EFAsG;
         "forge-1.18.2" = _AiukSRy5;
         "neoforge-1.20.1" = _ZsWfFJaF;
-        "neoforge-1.21.1" = _fhYja6UD;
-        "neoforge-26.1.2" = _d1uqN7Pk;
+        "neoforge-1.21.1" = _XWCAtdzJ;
+        "neoforge-26.1.2" = _EVOX1NLg;
         "pkg-1.0.2" = _n0jbM9Ax;
         "pkg-1.0.5" = _vWhxiz3c;
         "pkg-1.1.0" = _AQ2UW6Fs;
@@ -312,7 +324,8 @@ let
         "pkg-2.1.1" = _sEr1zbS8;
         "pkg-2.1.2" = _F6zJKtvl;
         "pkg-2.1.3" = _s08dS68U;
-        "default" = _s08dS68U;
+        "pkg-2.1.4" = _EVOX1NLg;
+        "default" = _EVOX1NLg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cable-facades";

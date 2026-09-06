@@ -56,6 +56,16 @@ let
             "file" = "naturalphilosophy-3.1.0.jar";
             "hash" = "sha512-slk4NxE2O9E821pzDV8mC20KsSCFPphahQXNe4UNMOp9N+Gmd5dhvdf/C+gQFM3jeNHPncjOoHow7TOZ1301HA==";
         };
+        _FFkwlhtT = {
+            "id" = "FFkwlhtT";
+            "file" = "naturalphilosophy-4.0.0.jar";
+            "hash" = "sha512-tWF7nG2blxghEAP4ge0gbN905xFjG2RED0+5S5UYVLdGHn1bMDjbAW984N9rlttA0ulz+0W1tEmm8gHv+Rj6rw==";
+        };
+        _Jq5be7ic = {
+            "id" = "Jq5be7ic";
+            "file" = "naturalphilosophy-4.1.0.jar";
+            "hash" = "sha512-46lPV+QBIGqIzeKZgXvc3YMxbz5rbu7CVDLGUdubfhXrMGG0poYqL2s34pTdGe7D1NViWzvVf8X6gDc32KOCBA==";
+        };
     in {
         "uBDKNoz2" = _uBDKNoz2;
         "rbZFUJeR" = _rbZFUJeR;
@@ -68,8 +78,10 @@ let
         "fNNCQDo1" = _fNNCQDo1;
         "6eNfSxJQ" = _6eNfSxJQ;
         "8Nj8XBox" = _8Nj8XBox;
+        "FFkwlhtT" = _FFkwlhtT;
+        "Jq5be7ic" = _Jq5be7ic;
         "neoforge-1.20.4" = _IiRWlAcp;
-        "neoforge-1.21.1" = _8Nj8XBox;
+        "neoforge-1.21.1" = _Jq5be7ic;
         "pkg-1.0.0" = _uBDKNoz2;
         "pkg-1.1.0" = _rbZFUJeR;
         "pkg-1.2.0" = _Luse5Mlf;
@@ -81,7 +93,9 @@ let
         "pkg-2.2.1" = _fNNCQDo1;
         "pkg-3.0.0" = _6eNfSxJQ;
         "pkg-3.1.0" = _8Nj8XBox;
-        "default" = _8Nj8XBox;
+        "pkg-4.0.0" = _FFkwlhtT;
+        "pkg-4.1.0" = _Jq5be7ic;
+        "default" = _Jq5be7ic;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "natural-philosophy";

@@ -31,6 +31,11 @@ let
             "file" = "CarianStyle-forge-1.20.1-2.0.4.jar";
             "hash" = "sha512-I86y18XfORl4XzrfJ1/R0Pzc8wNcpK3XxsBpmO/H748IvlpjEtgyn58dFVQPApQHY9wUx8/NDTUcOV5eMRzgSg==";
         };
+        _CHoOxAMX = {
+            "id" = "CHoOxAMX";
+            "file" = "CarianStyle-forge-1.20.1-2.1.0.jar";
+            "hash" = "sha512-/JkRrBxFIEhHX77pqkmvTox4WF5Awyiwa87thI1+/rDyVMFD+VxNhR4fhNEccDU46JLXYC2q3sgM5A+m8VqUNQ==";
+        };
     in {
         "itsGeFaW" = _itsGeFaW;
         "5stYyRxN" = _5stYyRxN;
@@ -38,13 +43,15 @@ let
         "ofyUShud" = _ofyUShud;
         "WDljLqg3" = _WDljLqg3;
         "W5cLAISC" = _W5cLAISC;
+        "CHoOxAMX" = _CHoOxAMX;
         "forge-1.12.2" = _WDljLqg3;
-        "forge-1.20.1" = _W5cLAISC;
+        "forge-1.20.1" = _CHoOxAMX;
         "pkg-2.0.0" = _5stYyRxN;
         "pkg-2.0.1" = _ofyUShud;
         "pkg-2.0.2" = _WDljLqg3;
         "pkg-2.0.4" = _W5cLAISC;
-        "default" = _W5cLAISC;
+        "pkg-2.1.0" = _CHoOxAMX;
+        "default" = _CHoOxAMX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "carianstyle";

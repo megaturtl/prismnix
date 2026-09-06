@@ -61,6 +61,21 @@ let
             "file" = "createbionics-2.0.8.jar";
             "hash" = "sha512-hPLuPBn6ylOMUhuOSCUkMXULzA34N3460zCN+IY6bTv5coZGK0bVwAYmnyduBOABT/goYsKyVHsyvl6lLZLSlw==";
         };
+        _C0TJ3xGH = {
+            "id" = "C0TJ3xGH";
+            "file" = "createbionics-2.0.9.jar";
+            "hash" = "sha512-ciQ6jhGqPrmNHL3obQvIMSUrQgrkzi+qtO8lGIfAIoPiuRgv54XzJmOx4fWEUkKlGiHHaN9O5FfF7SivgmuhGw==";
+        };
+        _fvjP8azR = {
+            "id" = "fvjP8azR";
+            "file" = "createbionics-2.1.0.jar";
+            "hash" = "sha512-DBRuAH0jZaf1Nyb9xzAyTvmYGqFB15Xe8+7/QJ0dNr1cOo9vluGFl+SythKMRdA8XKlTm02GlS+SUb8qggy56Q==";
+        };
+        _IB3jhYul = {
+            "id" = "IB3jhYul";
+            "file" = "createbionics-2.1.1.jar";
+            "hash" = "sha512-AmoQs8IgqvXXhKhH+RSssaLkt7l05MK45ppVVbv05wzgUXIUQ46dNiHcLIfr5XPxrp3TV6YAJzngZBYBvMCyjw==";
+        };
     in {
         "UvPwciIi" = _UvPwciIi;
         "u1ZtKMyp" = _u1ZtKMyp;
@@ -74,7 +89,10 @@ let
         "KicIiXYf" = _KicIiXYf;
         "kaPHIXfB" = _kaPHIXfB;
         "LPe6CFao" = _LPe6CFao;
-        "neoforge-1.21.1" = _LPe6CFao;
+        "C0TJ3xGH" = _C0TJ3xGH;
+        "fvjP8azR" = _fvjP8azR;
+        "IB3jhYul" = _IB3jhYul;
+        "neoforge-1.21.1" = _IB3jhYul;
         "pkg-1.0.0" = _UvPwciIi;
         "pkg-1.0.5" = _u1ZtKMyp;
         "pkg-1.0.5b" = _CQ4S177k;
@@ -87,7 +105,10 @@ let
         "pkg-2.0.6" = _KicIiXYf;
         "pkg-2.0.7" = _kaPHIXfB;
         "pkg-2.0.8" = _LPe6CFao;
-        "default" = _LPe6CFao;
+        "pkg-2.0.9" = _C0TJ3xGH;
+        "pkg-2.1.0" = _fvjP8azR;
+        "pkg-2.1.1" = _IB3jhYul;
+        "default" = _IB3jhYul;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-bionics";

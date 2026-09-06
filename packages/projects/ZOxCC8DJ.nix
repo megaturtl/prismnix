@@ -166,6 +166,21 @@ let
             "file" = "1.7.10-ASJCore-1.6.0.2.jar";
             "hash" = "sha512-QwCvqYvDoTE0JDyL+EmzeUfUXtPaaDoabpeuPsEYhFIKPG678WP+NDkoQxLgRvKx6F6iuhOZbHIisbtdakLgMQ==";
         };
+        _tLqfNib4 = {
+            "id" = "tLqfNib4";
+            "file" = "1.7.10-ASJCore-1.7.0.0.jar";
+            "hash" = "sha512-Xz2TujjoerauaPSw7UGlCV7swaYq5P0W4ajlarleY5SDQJw5UK6UohWpeLS858bIMDxNYtcWVPhRgyC0eC0n5A==";
+        };
+        _ACiLjqnE = {
+            "id" = "ACiLjqnE";
+            "file" = "1.7.10-ASJCore-1.7.0.1.jar";
+            "hash" = "sha512-F+e1+uzCJtX8KIm37R+bN3btVYnKNcphDZC9QqK6quaYVFxrMJQZijNwhwtY6dxoaih1L/BNRypg/11XaiKwng==";
+        };
+        _mZGajDza = {
+            "id" = "mZGajDza";
+            "file" = "1.7.10-ASJCore-1.7.0.2.jar";
+            "hash" = "sha512-WN6UI3gIDe3/hJQhb5ur2raoAJsvtkPS8C5hEBhswzs2d7+BN8cJFN1wXPxVoiLvdZwMO/n/z4qDrn0Z+k9R6g==";
+        };
     in {
         "58jEPB6p" = _58jEPB6p;
         "1imQH7i1" = _1imQH7i1;
@@ -200,7 +215,10 @@ let
         "XTJXIFqs" = _XTJXIFqs;
         "vesx4WUG" = _vesx4WUG;
         "agCeVJJr" = _agCeVJJr;
-        "forge-1.7.10" = _agCeVJJr;
+        "tLqfNib4" = _tLqfNib4;
+        "ACiLjqnE" = _ACiLjqnE;
+        "mZGajDza" = _mZGajDza;
+        "forge-1.7.10" = _mZGajDza;
         "pkg-1.2.4.0" = _58jEPB6p;
         "pkg-1.2.4.1" = _1imQH7i1;
         "pkg-1.2.4.2" = _TpZsywN5;
@@ -234,7 +252,10 @@ let
         "pkg-1.6.0.0" = _XTJXIFqs;
         "pkg-1.6.0.1" = _vesx4WUG;
         "pkg-1.6.0.2" = _agCeVJJr;
-        "default" = _agCeVJJr;
+        "pkg-1.7.0.0" = _tLqfNib4;
+        "pkg-1.7.0.1" = _ACiLjqnE;
+        "pkg-1.7.0.2" = _mZGajDza;
+        "default" = _mZGajDza;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "asjcore";

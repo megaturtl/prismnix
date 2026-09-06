@@ -66,6 +66,11 @@ let
             "file" = "EasyArmorStands-3.2.1.jar";
             "hash" = "sha512-aZZ0g9yjpP5q/pZX3L4eFg9/P7XjZj2XYr6V9tLEdvNV/lNyEkYs8qXcESQgpdmGKtHX1XKHksZLxSHPf4xA7w==";
         };
+        _CdGnJlay = {
+            "id" = "CdGnJlay";
+            "file" = "EasyArmorStands-3.3.0.jar";
+            "hash" = "sha512-4H5CqCR+Y5kg9/mL1licOcfaNHMoCT+zqrFWmr7TWAmTiX6dQhhpOhPVF02rKTRVKtiAhzP5HVCKpQVcTx68gQ==";
+        };
     in {
         "9kkloXf7" = _9kkloXf7;
         "ovA4Akws" = _ovA4Akws;
@@ -80,6 +85,7 @@ let
         "pekUZbDW" = _pekUZbDW;
         "J4ha30TK" = _J4ha30TK;
         "P14IOC9X" = _P14IOC9X;
+        "CdGnJlay" = _CdGnJlay;
         "bukkit-1.8.8" = _kIHdKh6e;
         "bukkit-1.8.9" = _kIHdKh6e;
         "bukkit-1.9" = _kIHdKh6e;
@@ -206,11 +212,11 @@ let
         "paper-1.21.8" = _kIHdKh6e;
         "paper-1.21.9" = _kIHdKh6e;
         "paper-1.21.10" = _kIHdKh6e;
-        "paper-1.21.11" = _P14IOC9X;
-        "paper-26.1" = _P14IOC9X;
-        "paper-26.1.1" = _P14IOC9X;
-        "paper-26.1.2" = _P14IOC9X;
-        "paper-26.2" = _P14IOC9X;
+        "paper-1.21.11" = _CdGnJlay;
+        "paper-26.1" = _CdGnJlay;
+        "paper-26.1.1" = _CdGnJlay;
+        "paper-26.1.2" = _CdGnJlay;
+        "paper-26.2" = _CdGnJlay;
         "spigot-1.8.8" = _kIHdKh6e;
         "spigot-1.8.9" = _kIHdKh6e;
         "spigot-1.9" = _kIHdKh6e;
@@ -289,7 +295,8 @@ let
         "pkg-3.1.0" = _pekUZbDW;
         "pkg-3.2.0" = _J4ha30TK;
         "pkg-3.2.1" = _P14IOC9X;
-        "default" = _P14IOC9X;
+        "pkg-3.3.0" = _CdGnJlay;
+        "default" = _CdGnJlay;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easyarmorstands";

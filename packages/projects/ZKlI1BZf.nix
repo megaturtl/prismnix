@@ -31,6 +31,16 @@ let
             "file" = "destroyer-zombies-1.2.jar";
             "hash" = "sha512-O2QpM9OWFLxYDr+qR/zSzIY9/TPFsHhHFa2PJEwGYRdS9Sv1DTeKH0MkHLHnsZ0fJ9pZiuu4lTbsU1/9dR5JZg==";
         };
+        _31YuKqA9 = {
+            "id" = "31YuKqA9";
+            "file" = "destroyerZombies.zip";
+            "hash" = "sha512-zdnBsRfdrhBqMQZBH2a7dMZRMLMkOHh6ZLRGJ1eu6WE52CDFi4xTNwxE1MfDzbyVPgufNgRvZBDitWKnYTkK8w==";
+        };
+        _TfSug9nZ = {
+            "id" = "TfSug9nZ";
+            "file" = "destroyer-zombies-1.3.jar";
+            "hash" = "sha512-v8jjQTxd0rotQCcxHezKRfQcui02IYkjrdKkU54r5CI48+u2cs01hnMUPVFpHa9qMoM4dM/vjX8I/n2/h7foSw==";
+        };
     in {
         "XYLrmpAj" = _XYLrmpAj;
         "Xz1hIj3M" = _Xz1hIj3M;
@@ -38,6 +48,8 @@ let
         "pzjOvmgt" = _pzjOvmgt;
         "f6hrgzjN" = _f6hrgzjN;
         "tTbPRSwy" = _tTbPRSwy;
+        "31YuKqA9" = _31YuKqA9;
+        "TfSug9nZ" = _TfSug9nZ;
         "datapack-1.20.5" = _XYLrmpAj;
         "datapack-1.20.6" = _XYLrmpAj;
         "datapack-1.21" = _f6hrgzjN;
@@ -49,8 +61,14 @@ let
         "datapack-1.21.6" = _f6hrgzjN;
         "datapack-1.21.7" = _f6hrgzjN;
         "datapack-1.21.8" = _f6hrgzjN;
-        "datapack-1.21.9" = _f6hrgzjN;
-        "datapack-1.21.10" = _f6hrgzjN;
+        "datapack-1.21.9" = _31YuKqA9;
+        "datapack-1.21.10" = _31YuKqA9;
+        "datapack-1.21.11" = _31YuKqA9;
+        "datapack-26.1" = _31YuKqA9;
+        "datapack-26.1.1" = _31YuKqA9;
+        "datapack-26.1.2" = _31YuKqA9;
+        "datapack-26.2" = _31YuKqA9;
+        "datapack-26.3-snapshot-8" = _31YuKqA9;
         "fabric-1.20.5" = _Xz1hIj3M;
         "fabric-1.20.6" = _Xz1hIj3M;
         "fabric-1.21" = _tTbPRSwy;
@@ -62,8 +80,14 @@ let
         "fabric-1.21.6" = _tTbPRSwy;
         "fabric-1.21.7" = _tTbPRSwy;
         "fabric-1.21.8" = _tTbPRSwy;
-        "fabric-1.21.9" = _tTbPRSwy;
-        "fabric-1.21.10" = _tTbPRSwy;
+        "fabric-1.21.9" = _TfSug9nZ;
+        "fabric-1.21.10" = _TfSug9nZ;
+        "fabric-1.21.11" = _TfSug9nZ;
+        "fabric-26.1" = _TfSug9nZ;
+        "fabric-26.1.1" = _TfSug9nZ;
+        "fabric-26.1.2" = _TfSug9nZ;
+        "fabric-26.2" = _TfSug9nZ;
+        "fabric-26.3-snapshot-8" = _TfSug9nZ;
         "forge-1.20.5" = _Xz1hIj3M;
         "forge-1.20.6" = _Xz1hIj3M;
         "forge-1.21" = _tTbPRSwy;
@@ -75,8 +99,14 @@ let
         "forge-1.21.6" = _tTbPRSwy;
         "forge-1.21.7" = _tTbPRSwy;
         "forge-1.21.8" = _tTbPRSwy;
-        "forge-1.21.9" = _tTbPRSwy;
-        "forge-1.21.10" = _tTbPRSwy;
+        "forge-1.21.9" = _TfSug9nZ;
+        "forge-1.21.10" = _TfSug9nZ;
+        "forge-1.21.11" = _TfSug9nZ;
+        "forge-26.1" = _TfSug9nZ;
+        "forge-26.1.1" = _TfSug9nZ;
+        "forge-26.1.2" = _TfSug9nZ;
+        "forge-26.2" = _TfSug9nZ;
+        "forge-26.3-snapshot-8" = _TfSug9nZ;
         "quilt-1.20.5" = _Xz1hIj3M;
         "quilt-1.20.6" = _Xz1hIj3M;
         "quilt-1.21" = _tTbPRSwy;
@@ -88,8 +118,14 @@ let
         "quilt-1.21.6" = _tTbPRSwy;
         "quilt-1.21.7" = _tTbPRSwy;
         "quilt-1.21.8" = _tTbPRSwy;
-        "quilt-1.21.9" = _tTbPRSwy;
-        "quilt-1.21.10" = _tTbPRSwy;
+        "quilt-1.21.9" = _TfSug9nZ;
+        "quilt-1.21.10" = _TfSug9nZ;
+        "quilt-1.21.11" = _TfSug9nZ;
+        "quilt-26.1" = _TfSug9nZ;
+        "quilt-26.1.1" = _TfSug9nZ;
+        "quilt-26.1.2" = _TfSug9nZ;
+        "quilt-26.2" = _TfSug9nZ;
+        "quilt-26.3-snapshot-8" = _TfSug9nZ;
         "neoforge-1.21" = _tTbPRSwy;
         "neoforge-1.21.1" = _tTbPRSwy;
         "neoforge-1.21.2" = _tTbPRSwy;
@@ -99,12 +135,20 @@ let
         "neoforge-1.21.6" = _tTbPRSwy;
         "neoforge-1.21.7" = _tTbPRSwy;
         "neoforge-1.21.8" = _tTbPRSwy;
-        "neoforge-1.21.9" = _tTbPRSwy;
-        "neoforge-1.21.10" = _tTbPRSwy;
+        "neoforge-1.21.9" = _TfSug9nZ;
+        "neoforge-1.21.10" = _TfSug9nZ;
+        "neoforge-1.21.11" = _TfSug9nZ;
+        "neoforge-26.1" = _TfSug9nZ;
+        "neoforge-26.1.1" = _TfSug9nZ;
+        "neoforge-26.1.2" = _TfSug9nZ;
+        "neoforge-26.2" = _TfSug9nZ;
+        "neoforge-26.3-snapshot-8" = _TfSug9nZ;
         "pkg-1.0" = _Xz1hIj3M;
         "pkg-1.1" = _pzjOvmgt;
         "pkg-1.2" = _tTbPRSwy;
-        "default" = _tTbPRSwy;
+        "pkg-1.3" = _31YuKqA9;
+        "pkg-1.3+mod" = _TfSug9nZ;
+        "default" = _TfSug9nZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "destroyer-zombies";

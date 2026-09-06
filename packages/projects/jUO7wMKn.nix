@@ -341,6 +341,16 @@ let
             "file" = "New Visual Keybing-1.20.1-fabric-0.6.16.jar";
             "hash" = "sha512-X+TfJ+5o6iVuJIVRF/FmJpp59t0TOXtQwk3Mzs7Z3pdEzvkhi1Hf74TaoBi9aLdvY36haPhwH8FRuihHZBHgNw==";
         };
+        _JxOiB9WV = {
+            "id" = "JxOiB9WV";
+            "file" = "New Visual Keybing-neoforge-1.21.1-0.9.4.jar";
+            "hash" = "sha512-CHGQtOenRPXMxjewaZ0OYM3VdLXC9F25dlZkLv7ZPOEnSte0bDUre+UH+LKj9rFBLe7VbXFD0EEHeje5GmHdug==";
+        };
+        _eGAfhUzW = {
+            "id" = "eGAfhUzW";
+            "file" = "New Visual Keybing-fabric-1.21.1-0.9.4.jar";
+            "hash" = "sha512-Os5zcrrcRCDMFZZEthQ3EoCeOJJV7p8lQfrSe4g3v8kHbbJXuXUORiQg6UMYWgJrzUVByK2wrwLEnEfMYKv3ZA==";
+        };
     in {
         "liftMUgd" = _liftMUgd;
         "DBLi6eNF" = _DBLi6eNF;
@@ -410,6 +420,8 @@ let
         "qNF9SWIb" = _qNF9SWIb;
         "tLkMNrwQ" = _tLkMNrwQ;
         "doeyqoPb" = _doeyqoPb;
+        "JxOiB9WV" = _JxOiB9WV;
+        "eGAfhUzW" = _eGAfhUzW;
         "forge-1.20.1" = _tLkMNrwQ;
         "forge-1.19.2" = _3oM2bfbR;
         "forge-1.19.3" = _3oM2bfbR;
@@ -425,9 +437,9 @@ let
         "forge-1.21.10" = _nYULyJln;
         "forge-1.21.11" = _ll15raP0;
         "neoforge-1.20.1" = _tLkMNrwQ;
-        "neoforge-1.21.1" = _flov02Sq;
-        "neoforge-1.21.2" = _flov02Sq;
-        "neoforge-1.21.3" = _flov02Sq;
+        "neoforge-1.21.1" = _JxOiB9WV;
+        "neoforge-1.21.2" = _JxOiB9WV;
+        "neoforge-1.21.3" = _JxOiB9WV;
         "neoforge-1.21.4" = _RWKsT6g6;
         "neoforge-1.21.5" = _RWKsT6g6;
         "neoforge-26.1" = _gSrdXsCX;
@@ -445,7 +457,7 @@ let
         "fabric-1.19.3" = _wzHSm6FU;
         "fabric-1.19.4" = _wzHSm6FU;
         "fabric-1.20.1" = _doeyqoPb;
-        "fabric-1.21.1" = _8gEcTZPK;
+        "fabric-1.21.1" = _eGAfhUzW;
         "fabric-1.21.4" = _shDX9Mzb;
         "fabric-26.1" = _sNLfq4Yn;
         "fabric-1.21.6" = _aDyJKV6v;
@@ -456,8 +468,8 @@ let
         "fabric-1.21.7" = _aDyJKV6v;
         "fabric-1.21.8" = _aDyJKV6v;
         "fabric-1.21.11" = _Z8AgjKMt;
-        "fabric-1.21.2" = _8gEcTZPK;
-        "fabric-1.21.3" = _8gEcTZPK;
+        "fabric-1.21.2" = _eGAfhUzW;
+        "fabric-1.21.3" = _eGAfhUzW;
         "fabric-26.2" = _qNF9SWIb;
         "quilt-1.19" = _wzHSm6FU;
         "quilt-1.19.1" = _wzHSm6FU;
@@ -492,7 +504,8 @@ let
         "pkg-0.6.01" = _vRYy53pO;
         "pkg-0.6.3" = _wzHSm6FU;
         "pkg-0.6.16" = _doeyqoPb;
-        "default" = _doeyqoPb;
+        "pkg-0.9.4" = _eGAfhUzW;
+        "default" = _eGAfhUzW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "new-visual-keybing";

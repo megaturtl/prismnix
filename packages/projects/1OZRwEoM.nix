@@ -151,6 +151,16 @@ let
             "file" = "anvil-crushing-recipes-2.5.0+MC1.21.11.jar";
             "hash" = "sha512-JoiOg1a01CxxXm1NCzId17bru4cCYaz8v5mYQLnqRXguxtVifcjq0dpbcJWa9kWjgfyJC99OCY4LFhCPFQML1g==";
         };
+        _36juTRfo = {
+            "id" = "36juTRfo";
+            "file" = "anvil_crushing_recipes-2.6.0+MC26.1-26.1.x.jar";
+            "hash" = "sha512-KSmbAWDTKfhLhH8mk8ozwmAQ62daVi7xaOcu+2mILbPDSJZDS9XDeNc+Unw4AnUkFCtFpfazx1BVf/1+4YIfJw==";
+        };
+        _twGpnKAn = {
+            "id" = "twGpnKAn";
+            "file" = "anvil_crushing_recipes-2.7.0+MC26.2-26.2.x.jar";
+            "hash" = "sha512-T8fkR6QBsLENaz01cwO9fD6rBDRsAUo6a09row1oAa8qvEliw2I54vtoZF2wfsAiu3+dLQB9NU6dhx2DfCyfaw==";
+        };
     in {
         "gJCDraRf" = _gJCDraRf;
         "3pK5iIfU" = _3pK5iIfU;
@@ -182,6 +192,8 @@ let
         "wk7OgGgI" = _wk7OgGgI;
         "m4ONDuDI" = _m4ONDuDI;
         "bMZsnQdH" = _bMZsnQdH;
+        "36juTRfo" = _36juTRfo;
+        "twGpnKAn" = _twGpnKAn;
         "fabric-1.17" = _U6ioEcAM;
         "fabric-1.17.1" = _U6ioEcAM;
         "fabric-1.18" = _CtpANkoI;
@@ -210,6 +222,8 @@ let
         "fabric-1.21.9" = _m4ONDuDI;
         "fabric-1.21.10" = _m4ONDuDI;
         "fabric-1.21.11" = _bMZsnQdH;
+        "fabric-26.1.2" = _36juTRfo;
+        "fabric-26.2" = _twGpnKAn;
         "quilt-1.19" = _mn1T8HJ7;
         "quilt-1.19.1" = _mn1T8HJ7;
         "quilt-1.19.2" = _mn1T8HJ7;
@@ -233,6 +247,8 @@ let
         "quilt-1.21.9" = _m4ONDuDI;
         "quilt-1.21.10" = _m4ONDuDI;
         "quilt-1.21.11" = _bMZsnQdH;
+        "quilt-26.1.2" = _36juTRfo;
+        "quilt-26.2" = _twGpnKAn;
         "pkg-1.1.1+MC1.17" = _gJCDraRf;
         "pkg-1.1.2+MC1.17-1.17.1" = _3pK5iIfU;
         "pkg-1.2+MC1.17-1.17.1" = _fNzemzE3;
@@ -263,7 +279,9 @@ let
         "pkg-2.3.1-b1+MC1.21.6-1.21.8" = _wk7OgGgI;
         "pkg-2.4.0+MC1.21.9-1.21.10" = _m4ONDuDI;
         "pkg-2.5.0+MC1.21.11" = _bMZsnQdH;
-        "default" = _bMZsnQdH;
+        "pkg-2.6.0+MC26.1-26.1.x" = _36juTRfo;
+        "pkg-2.7.0+MC26.2-26.2.x" = _twGpnKAn;
+        "default" = _twGpnKAn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "anvil-crushing-recipes";

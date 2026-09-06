@@ -16,10 +16,22 @@ let
             "file" = "showmeyourponies-1.1.0+1.21.7.jar";
             "hash" = "sha512-XQ9N5AmsIECsmuxq+g3slQyK9hKO/BICm+5ICYWVIZa7r6BjAOvinL7oLVV0m1lgTsvu5LW641t4vlpxVOra7A==";
         };
+        _bxlFENL0 = {
+            "id" = "bxlFENL0";
+            "file" = "showmeyourponies-1.2.0+1.21.11.jar";
+            "hash" = "sha512-CDvt/rOxXZ6eLqCArphnn5Uvv/z/OEuHVg15PRbWdWnE/8mgr6nLXDJwQX+J7OB1eofsU+WiYYPql5d/HPrcWg==";
+        };
+        _X3qq42k2 = {
+            "id" = "X3qq42k2";
+            "file" = "showmeyourponies-1.2.0+26.1.jar";
+            "hash" = "sha512-pdOWO0KFCD7kqitCMwCWqQHPrUqj2jqptmDg9NKV4OC18WasjcwreXzehaKZp/P/dWZ5x/SsknJFkFdS3hafCg==";
+        };
     in {
         "Sx0rXhVs" = _Sx0rXhVs;
         "pTfn8z4u" = _pTfn8z4u;
         "KT3HE48G" = _KT3HE48G;
+        "bxlFENL0" = _bxlFENL0;
+        "X3qq42k2" = _X3qq42k2;
         "fabric-1.20.5" = _Sx0rXhVs;
         "fabric-1.20.6" = _Sx0rXhVs;
         "fabric-1.21-pre1" = _Sx0rXhVs;
@@ -33,6 +45,10 @@ let
         "fabric-1.21.6" = _KT3HE48G;
         "fabric-1.21.7" = _KT3HE48G;
         "fabric-1.21.8" = _KT3HE48G;
+        "fabric-1.21.11" = _bxlFENL0;
+        "fabric-26.1" = _X3qq42k2;
+        "fabric-26.1.1" = _X3qq42k2;
+        "fabric-26.1.2" = _X3qq42k2;
         "quilt-1.20.5" = _Sx0rXhVs;
         "quilt-1.20.6" = _Sx0rXhVs;
         "quilt-1.21-pre1" = _Sx0rXhVs;
@@ -46,10 +62,16 @@ let
         "quilt-1.21.6" = _KT3HE48G;
         "quilt-1.21.7" = _KT3HE48G;
         "quilt-1.21.8" = _KT3HE48G;
+        "quilt-1.21.11" = _bxlFENL0;
+        "quilt-26.1" = _X3qq42k2;
+        "quilt-26.1.1" = _X3qq42k2;
+        "quilt-26.1.2" = _X3qq42k2;
         "pkg-1.0.0+1.20.5" = _Sx0rXhVs;
         "pkg-1.1.0+1.21.1" = _pTfn8z4u;
         "pkg-1.1.0+1.21.7" = _KT3HE48G;
-        "default" = _KT3HE48G;
+        "pkg-1.2.0+1.21.11" = _bxlFENL0;
+        "pkg-1.2.0+26.1" = _X3qq42k2;
+        "default" = _X3qq42k2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "show-me-your-ponies";

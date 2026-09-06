@@ -426,6 +426,46 @@ let
             "file" = "paladins-neoforge-3.0.5+1.21.1.jar";
             "hash" = "sha512-GN4xHDDyRhg77vMXXw00iRDR6E4yS2NNyY5ZbIVvBkWBuvMBFFkJaupFGgeCaD7W0b+pYIcaToLcV/31Gbi2pQ==";
         };
+        _7HrAIP5B = {
+            "id" = "7HrAIP5B";
+            "file" = "paladins-fabric-3.1.0+1.21.1.jar";
+            "hash" = "sha512-ecvv0GqSVl8PPKjs1uBMg1eEDkmYoKedfYT6623SSTpzDMPFirgfoY8qsErqblneM/bJV7bxGPyruCYXU3W5ZA==";
+        };
+        _z3MF6Q0o = {
+            "id" = "z3MF6Q0o";
+            "file" = "paladins-neoforge-3.1.0+1.21.1.jar";
+            "hash" = "sha512-H8K1TN7UfxJen/5uUKN/3jBbbqDCqnODZ52HP1MW/SQzb/EuYhNOQwPG80crh+2BQdOXIWHWlMyTe7dUKn5aQw==";
+        };
+        _AXerZMvH = {
+            "id" = "AXerZMvH";
+            "file" = "paladins-fabric-3.1.1+1.21.1.jar";
+            "hash" = "sha512-DqlpefftVoFDg+0Bi1QhPd7l+t8jChEqIkJqRbs944AG9STIdxe1om6rn24fYU47D04T21D5RCxWozul8ttJMg==";
+        };
+        _gO23y4tZ = {
+            "id" = "gO23y4tZ";
+            "file" = "paladins-neoforge-3.1.1+1.21.1.jar";
+            "hash" = "sha512-uRMZGMeWgMWPihBIS+A7ackhXmFPZ1YgzsOOgWhib0HhvoN9dMpyUMPW/as2LqfIFvyQ9QCjS8jlwlnwfTxZoQ==";
+        };
+        _LCbIZfpv = {
+            "id" = "LCbIZfpv";
+            "file" = "paladins-fabric-3.1.2+26.1.2.jar";
+            "hash" = "sha512-96pQ9zfS8QBKiE2LreBbzo0Iq8cAF5/F7nwuDBXSK+mBe+UBmimfwcrQ4qgDQiVKcd47GqQsn8U/Lor+PevXBg==";
+        };
+        _5O5CDI0l = {
+            "id" = "5O5CDI0l";
+            "file" = "paladins-neoforge-3.1.2+26.1.2.jar";
+            "hash" = "sha512-vh7uFWSH3Y2XdAAPfYT7WHuGQDdNNIVM0UAA1TLBAM2Wsh/cqhQw5IgW0jmKRLhWrhy9WfMXN+ejpg/y5cuLHA==";
+        };
+        _MpUtyenu = {
+            "id" = "MpUtyenu";
+            "file" = "paladins-fabric-3.1.2+26.2.jar";
+            "hash" = "sha512-gzexrcXmyFuSSifordsJNvFKBj0xgH+77KCQOrsinv49MP98lxhgpcHH3qvg7R/7spCZJ0A8RkkE7PwsFFx5qg==";
+        };
+        _SMtcnTEc = {
+            "id" = "SMtcnTEc";
+            "file" = "paladins-neoforge-3.1.2+26.2.jar";
+            "hash" = "sha512-1gDq9l+u8JpA0Wff/oo2g0SSiBXtrHSshMnodE7fyCZsO14jbo5zaV0uFs8f1EJNls8HfEMDPfXD2GadyeXRXg==";
+        };
     in {
         "LcbTxwgN" = _LcbTxwgN;
         "TkKUxGxG" = _TkKUxGxG;
@@ -512,12 +552,28 @@ let
         "5WFQGOnB" = _5WFQGOnB;
         "I8fuG8YJ" = _I8fuG8YJ;
         "SpQRKYSI" = _SpQRKYSI;
+        "7HrAIP5B" = _7HrAIP5B;
+        "z3MF6Q0o" = _z3MF6Q0o;
+        "AXerZMvH" = _AXerZMvH;
+        "gO23y4tZ" = _gO23y4tZ;
+        "LCbIZfpv" = _LCbIZfpv;
+        "5O5CDI0l" = _5O5CDI0l;
+        "MpUtyenu" = _MpUtyenu;
+        "SMtcnTEc" = _SMtcnTEc;
         "fabric-1.19.2" = _o1PnMrIN;
         "fabric-1.20.1" = _jdQ0FXvF;
-        "fabric-1.21.1" = _I8fuG8YJ;
-        "fabric-1.21" = _I8fuG8YJ;
-        "neoforge-1.21" = _SpQRKYSI;
-        "neoforge-1.21.1" = _SpQRKYSI;
+        "fabric-1.21.1" = _AXerZMvH;
+        "fabric-1.21" = _AXerZMvH;
+        "fabric-26.1" = _LCbIZfpv;
+        "fabric-26.1.1" = _LCbIZfpv;
+        "fabric-26.1.2" = _LCbIZfpv;
+        "fabric-26.2" = _MpUtyenu;
+        "neoforge-1.21" = _gO23y4tZ;
+        "neoforge-1.21.1" = _gO23y4tZ;
+        "neoforge-26.1" = _5O5CDI0l;
+        "neoforge-26.1.1" = _5O5CDI0l;
+        "neoforge-26.1.2" = _5O5CDI0l;
+        "neoforge-26.2" = _SMtcnTEc;
         "pkg-0.9.1+1.19.2-fabric" = _LcbTxwgN;
         "pkg-0.9.2+1.19.2-fabric" = _TkKUxGxG;
         "pkg-0.9.3+1.19.2-fabric" = _PWgaDlXk;
@@ -602,7 +658,15 @@ let
         "pkg-3.0.4+1.21.1-fabric" = _5WFQGOnB;
         "pkg-3.0.5+1.21.1-fabric" = _I8fuG8YJ;
         "pkg-3.0.5+1.21.1-neoforge" = _SpQRKYSI;
-        "default" = _SpQRKYSI;
+        "pkg-3.1.0+1.21.1-fabric" = _7HrAIP5B;
+        "pkg-3.1.0+1.21.1-neoforge" = _z3MF6Q0o;
+        "pkg-3.1.1+1.21.1-fabric" = _AXerZMvH;
+        "pkg-3.1.1+1.21.1-neoforge" = _gO23y4tZ;
+        "pkg-3.1.2+26.1.2-fabric" = _LCbIZfpv;
+        "pkg-3.1.2+26.1.2-neoforge" = _5O5CDI0l;
+        "pkg-3.1.2+26.2-fabric" = _MpUtyenu;
+        "pkg-3.1.2+26.2-neoforge" = _SMtcnTEc;
+        "default" = _SMtcnTEc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "paladins-and-priests";

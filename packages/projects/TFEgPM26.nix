@@ -46,6 +46,11 @@ let
             "file" = "create_configured-1.3.3.jar";
             "hash" = "sha512-qr8KCs6U8KUQsUhUMeAq35SGD0kCfIq4QadoOTZyMgxbURIf7o7XNoRcYrGpTfbP5+jmxzKgWLO1lpz/CDeXrQ==";
         };
+        _HaZGEnBD = {
+            "id" = "HaZGEnBD";
+            "file" = "create_configured-1.3.4.jar";
+            "hash" = "sha512-MXH4w4bb7bTnDeAcP5a1arJHQo//kwyJo85O835t9LcjZ7V2WWEhwmRxocjGSL2jaK/ctDvvkxrRvIAf2c848Q==";
+        };
     in {
         "GDrmARSW" = _GDrmARSW;
         "Ooc6HASV" = _Ooc6HASV;
@@ -56,7 +61,8 @@ let
         "6KafLTO8" = _6KafLTO8;
         "LxQ24guq" = _LxQ24guq;
         "TnA8mWSb" = _TnA8mWSb;
-        "neoforge-1.21.1" = _TnA8mWSb;
+        "HaZGEnBD" = _HaZGEnBD;
+        "neoforge-1.21.1" = _HaZGEnBD;
         "pkg-1.1.2" = _GDrmARSW;
         "pkg-1.2.0" = _Ooc6HASV;
         "pkg-1.2.1" = _lj2f6Uv6;
@@ -66,7 +72,8 @@ let
         "pkg-1.3.2" = _6KafLTO8;
         "pkg-1.3.2a" = _LxQ24guq;
         "pkg-1.3.3" = _TnA8mWSb;
-        "default" = _TnA8mWSb;
+        "pkg-1.3.4" = _HaZGEnBD;
+        "default" = _HaZGEnBD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-configured";

@@ -36,6 +36,11 @@ let
             "file" = "Capitalized Font 1.3.1.zip";
             "hash" = "sha512-2A5dtguIoJcn8QbN82fyfVpIhkclN0u9wgqP/a6lKYSgrXUPZ7+GiV4BQw5qsSjf0iZg1lZBONpw1a+/nIy7mg==";
         };
+        _7sSwRP3N = {
+            "id" = "7sSwRP3N";
+            "file" = "Capitalized Font 1.3.2.zip";
+            "hash" = "sha512-Xl2hQ4jduI4lOrK6uDAsdF5bs7NcotbhfAUyibyf7RU7W4yl4nanHQogeOOn51ZAVB/k1q+lUMqfB8gVTzpMhw==";
+        };
     in {
         "vBrZHnXT" = _vBrZHnXT;
         "pkZ1IpVP" = _pkZ1IpVP;
@@ -44,6 +49,7 @@ let
         "1tvjEKPR" = _1tvjEKPR;
         "iFp0DnLA" = _iFp0DnLA;
         "w7TZGnPh" = _w7TZGnPh;
+        "7sSwRP3N" = _7sSwRP3N;
         "minecraft-1.16" = _vBrZHnXT;
         "minecraft-1.16.1" = _vBrZHnXT;
         "minecraft-1.16.2" = _vBrZHnXT;
@@ -124,9 +130,10 @@ let
         "minecraft-1.21.9" = _w7TZGnPh;
         "minecraft-1.21.10" = _w7TZGnPh;
         "minecraft-1.21.11" = _w7TZGnPh;
-        "minecraft-26.1" = _w7TZGnPh;
-        "minecraft-26.1.1" = _w7TZGnPh;
-        "minecraft-26.1.2" = _w7TZGnPh;
+        "minecraft-26.1" = _7sSwRP3N;
+        "minecraft-26.1.1" = _7sSwRP3N;
+        "minecraft-26.1.2" = _7sSwRP3N;
+        "minecraft-26.2" = _7sSwRP3N;
         "pkg-0.1" = _vBrZHnXT;
         "pkg-1.0.1" = _pkZ1IpVP;
         "pkg-1.0.2" = _hwMkRTJY;
@@ -134,7 +141,8 @@ let
         "pkg-1.2.0" = _1tvjEKPR;
         "pkg-1.3.0" = _iFp0DnLA;
         "pkg-1.3.1" = _w7TZGnPh;
-        "default" = _w7TZGnPh;
+        "pkg-1.3.2" = _7sSwRP3N;
+        "default" = _7sSwRP3N;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "capitalized-font";

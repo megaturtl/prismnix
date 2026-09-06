@@ -145,6 +145,9 @@ let
         "minecraft-26.3-snapshot-4" = _EDPOEScN;
         "minecraft-26.3-snapshot-5" = _EDPOEScN;
         "minecraft-26.3-snapshot-6" = _EDPOEScN;
+        "minecraft-26.3-snapshot-7" = _EDPOEScN;
+        "minecraft-26.3-snapshot-8" = _EDPOEScN;
+        "minecraft-26.3-snapshot-9" = _EDPOEScN;
         "pkg-1.4" = _p8F97fRy;
         "pkg-v1.4" = _I9BUJ0ZB;
         "pkg-v1.5" = _1aNhL8d9;

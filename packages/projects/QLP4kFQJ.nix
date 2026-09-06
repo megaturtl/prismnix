@@ -11,9 +11,15 @@ let
             "file" = "Plus Enchant 1.21+.jar";
             "hash" = "sha512-8TpWZQcGLEn7D6oJyaBfG7VB1B5/t7ig+LdoYWCXECQqqh/Fago7R/MLrgmi2y2ODAWQcsSdhImTzYr7vA3Q/w==";
         };
+        _ftuVmIKH = {
+            "id" = "ftuVmIKH";
+            "file" = "Plus Enchantment.zip";
+            "hash" = "sha512-dsS62vZow2jxGZfRad89BvpnbhrQ5ccYBtsQHQ89MfTfEyQA15ScKcThyGD7T4PvwaFsu61iunFy/vf8PHq2CA==";
+        };
     in {
         "svvPwztJ" = _svvPwztJ;
         "4r3Os6Vd" = _4r3Os6Vd;
+        "ftuVmIKH" = _ftuVmIKH;
         "datapack-1.21" = _svvPwztJ;
         "datapack-1.21.1" = _svvPwztJ;
         "datapack-1.21.2" = _svvPwztJ;
@@ -23,12 +29,13 @@ let
         "datapack-1.21.6" = _svvPwztJ;
         "datapack-1.21.7" = _svvPwztJ;
         "datapack-1.21.8" = _svvPwztJ;
-        "datapack-1.21.9" = _svvPwztJ;
-        "datapack-1.21.10" = _svvPwztJ;
-        "datapack-1.21.11" = _svvPwztJ;
-        "datapack-26.1" = _svvPwztJ;
-        "datapack-26.1.1" = _svvPwztJ;
-        "datapack-26.1.2" = _svvPwztJ;
+        "datapack-1.21.9" = _ftuVmIKH;
+        "datapack-1.21.10" = _ftuVmIKH;
+        "datapack-1.21.11" = _ftuVmIKH;
+        "datapack-26.1" = _ftuVmIKH;
+        "datapack-26.1.1" = _ftuVmIKH;
+        "datapack-26.1.2" = _ftuVmIKH;
+        "datapack-26.2" = _ftuVmIKH;
         "fabric-1.21" = _4r3Os6Vd;
         "fabric-1.21.1" = _4r3Os6Vd;
         "fabric-1.21.2" = _4r3Os6Vd;
@@ -44,6 +51,7 @@ let
         "fabric-26.1" = _4r3Os6Vd;
         "fabric-26.1.1" = _4r3Os6Vd;
         "fabric-26.1.2" = _4r3Os6Vd;
+        "fabric-26.2" = _4r3Os6Vd;
         "forge-1.21" = _4r3Os6Vd;
         "forge-1.21.1" = _4r3Os6Vd;
         "forge-1.21.2" = _4r3Os6Vd;
@@ -59,6 +67,7 @@ let
         "forge-26.1" = _4r3Os6Vd;
         "forge-26.1.1" = _4r3Os6Vd;
         "forge-26.1.2" = _4r3Os6Vd;
+        "forge-26.2" = _4r3Os6Vd;
         "neoforge-1.21" = _4r3Os6Vd;
         "neoforge-1.21.1" = _4r3Os6Vd;
         "neoforge-1.21.2" = _4r3Os6Vd;
@@ -74,6 +83,7 @@ let
         "neoforge-26.1" = _4r3Os6Vd;
         "neoforge-26.1.1" = _4r3Os6Vd;
         "neoforge-26.1.2" = _4r3Os6Vd;
+        "neoforge-26.2" = _4r3Os6Vd;
         "quilt-1.21" = _4r3Os6Vd;
         "quilt-1.21.1" = _4r3Os6Vd;
         "quilt-1.21.2" = _4r3Os6Vd;
@@ -89,8 +99,10 @@ let
         "quilt-26.1" = _4r3Os6Vd;
         "quilt-26.1.1" = _4r3Os6Vd;
         "quilt-26.1.2" = _4r3Os6Vd;
+        "quilt-26.2" = _4r3Os6Vd;
         "pkg-1.0" = _4r3Os6Vd;
-        "default" = _4r3Os6Vd;
+        "pkg-1.1" = _ftuVmIKH;
+        "default" = _ftuVmIKH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "plus-enchantment";

@@ -91,6 +91,31 @@ let
             "file" = "SimpleSorter-fabric-mc1.21.11-1.4.1.jar";
             "hash" = "sha512-z0qwWoB42W89abD4uikBBlji/sXpjSqsyg08B3bxri9q68HHi0G8LomufY7TmxZuyCW4cMIus021T1zEtVMw1g==";
         };
+        _hHKvVplI = {
+            "id" = "hHKvVplI";
+            "file" = "SimpleSorter-neoforge-mc1.21.10-1.4.1.jar";
+            "hash" = "sha512-Chz5hIpsMsVpO0JEOkH6GUv592NaK95T+13yqK2NqonWUvSVsPYRre8dAuMttYfI71WjnRt7TSpdoeki/AoDKw==";
+        };
+        _i9nIZdHc = {
+            "id" = "i9nIZdHc";
+            "file" = "SimpleSorter-neoforge-mc26.1.2-1.4.1.jar";
+            "hash" = "sha512-BBl/+lgBwwU+VbE+I5dRAZU2h2J0PWjIFci5YN52nYgklpXoRLQfIyI0zdziM9YjGlgKX2ZtKdn7dY+1/NUQ5w==";
+        };
+        _kCj6C6uJ = {
+            "id" = "kCj6C6uJ";
+            "file" = "SimpleSorter-neoforge-mc26.2-1.4.1.jar";
+            "hash" = "sha512-Pl31iaf2gzsfkfjTJzpDrcVVtVED7pi5qOmwUU5PTleOt+TKeHrwpsBhRakMYoFGTxowibHmDB8dXuVqkA3PXA==";
+        };
+        _PhHtmCwb = {
+            "id" = "PhHtmCwb";
+            "file" = "SimpleSorter-fabric-mc26.1.2-1.4.1.jar";
+            "hash" = "sha512-lejjOJc9roiuLO5EpKUq+9bkLTtZFBgXyQaL2eY5m3fej8aOyfWJ6q6AtYlz23zLpv0a9xu7wWQbDSuSuH5fjw==";
+        };
+        _cXEeO2LW = {
+            "id" = "cXEeO2LW";
+            "file" = "SimpleSorter-fabric-mc26.2-1.4.1.jar";
+            "hash" = "sha512-vF288CI7rNEzZbaXVI/wjhM0EeRZpAlnrtd6BB5f+WWfDD4AHA/qjaSadQ/CJx3h8Iwi/ZTyt34ye6i6/OJeZQ==";
+        };
     in {
         "Km9zy0N3" = _Km9zy0N3;
         "5bbnSBBz" = _5bbnSBBz;
@@ -110,6 +135,11 @@ let
         "dbXmcof4" = _dbXmcof4;
         "TQ0Sm4aH" = _TQ0Sm4aH;
         "RtYHwkMO" = _RtYHwkMO;
+        "hHKvVplI" = _hHKvVplI;
+        "i9nIZdHc" = _i9nIZdHc;
+        "kCj6C6uJ" = _kCj6C6uJ;
+        "PhHtmCwb" = _PhHtmCwb;
+        "cXEeO2LW" = _cXEeO2LW;
         "neoforge-1.21.1" = _bT2PcnmL;
         "neoforge-1.21.2" = _Km9zy0N3;
         "neoforge-1.21.3" = _Km9zy0N3;
@@ -119,7 +149,12 @@ let
         "neoforge-1.21.7" = _TQ0Sm4aH;
         "neoforge-1.21.8" = _TQ0Sm4aH;
         "neoforge-1.21.11" = _jRorJRVn;
+        "neoforge-1.21.10" = _hHKvVplI;
+        "neoforge-26.1.2" = _i9nIZdHc;
+        "neoforge-26.2" = _kCj6C6uJ;
         "fabric-1.21.11" = _RtYHwkMO;
+        "fabric-26.1.2" = _PhHtmCwb;
+        "fabric-26.2" = _cXEeO2LW;
         "pkg-1.0.0" = _Km9zy0N3;
         "pkg-1.1.0" = _DoTTeo2C;
         "pkg-1.1.1" = _z74Ji87L;
@@ -128,8 +163,8 @@ let
         "pkg-1.3.1" = _jeTIldoT;
         "pkg-1.3.2" = _goYlBIs8;
         "pkg-1.4.0" = _dbXmcof4;
-        "pkg-1.4.1" = _RtYHwkMO;
-        "default" = _RtYHwkMO;
+        "pkg-1.4.1" = _cXEeO2LW;
+        "default" = _cXEeO2LW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simplesorter";

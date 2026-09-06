@@ -761,6 +761,16 @@ let
             "file" = "largefluidtank-fabric-26.12.0.jar";
             "hash" = "sha512-qW45p3L9FqEcY8AePGHjXZn3XMOWiPvWvPP3Pu/FMaIdA5o/gSdTXxQroqLSV0YvOey3uSA+VI+crPRQUmx84g==";
         };
+        _CJObir9h = {
+            "id" = "CJObir9h";
+            "file" = "largefluidtank-neoforge-26.20.1.jar";
+            "hash" = "sha512-a6kbIABnQdxZbcrl6AAWLu+k6pyjs9aUhAzqDYm0fJaKDmTRS7SA85MgwQBNlkAFCrTbctKwAXDJaJmhJ6u4Qg==";
+        };
+        _Hu4rTHHF = {
+            "id" = "Hu4rTHHF";
+            "file" = "largefluidtank-fabric-26.20.1.jar";
+            "hash" = "sha512-qg/DxBUc5fyh1Bc0L2EU+olpOHUSVNN6wwtcPkWXIEjLQKUmoa/hKh7z44ylomIhMMifcRdUh7QwaDugeXVVjw==";
+        };
     in {
         "jn4tQYL1" = _jn4tQYL1;
         "GYXkC4Kg" = _GYXkC4Kg;
@@ -914,6 +924,8 @@ let
         "EQrVf2L8" = _EQrVf2L8;
         "U1siSPCo" = _U1siSPCo;
         "1QamGc2g" = _1QamGc2g;
+        "CJObir9h" = _CJObir9h;
+        "Hu4rTHHF" = _Hu4rTHHF;
         "fabric-1.19.4" = _kF9zphxS;
         "fabric-1.20.1" = _ovwod0Uq;
         "fabric-1.20.2" = _Py47UbdF;
@@ -931,6 +943,7 @@ let
         "fabric-1.21.10" = _jIUHlgOk;
         "fabric-1.21.11" = _EQrVf2L8;
         "fabric-26.1.2" = _1QamGc2g;
+        "fabric-26.2" = _Hu4rTHHF;
         "forge-1.19.4" = _G9KwkQPB;
         "forge-1.20.1" = _RXUKseli;
         "forge-1.20.2" = _EPWczJbw;
@@ -956,6 +969,7 @@ let
         "neoforge-1.21.10" = _AJydioiU;
         "neoforge-1.21.11" = _G24aA8N0;
         "neoforge-26.1.2" = _U1siSPCo;
+        "neoforge-26.2" = _CJObir9h;
         "pkg-1.0.0" = _GYXkC4Kg;
         "pkg-1.0.1" = _G9KwkQPB;
         "pkg-20.1.0" = _MIObWun4;
@@ -1021,7 +1035,9 @@ let
         "pkg-21.11.2" = _EQrVf2L8;
         "pkg-26.12.0-neoforge" = _U1siSPCo;
         "pkg-26.12.0-fabric" = _1QamGc2g;
-        "default" = _1QamGc2g;
+        "pkg-26.20.1-neoforge" = _CJObir9h;
+        "pkg-26.20.1-fabric" = _Hu4rTHHF;
+        "default" = _Hu4rTHHF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "large-fluid-tank";

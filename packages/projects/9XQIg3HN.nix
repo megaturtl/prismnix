@@ -46,6 +46,36 @@ let
             "file" = "i-see-you-over-there-1.0.4+1.21.10.jar";
             "hash" = "sha512-gzx5YU2aQukl7B8/i0NzRY+3x1k5qVBOUrHZtA9cNI3Nj4T/QqnTeJmQcmEw9GyGh5rJAZK3oEo34ro0E3oTpg==";
         };
+        _nNRnUwOn = {
+            "id" = "nNRnUwOn";
+            "file" = "i-see-you-over-there-1.0.5+1.19.4.jar";
+            "hash" = "sha512-h3AI5lJOe3xsmIlJXj5fZZAzLj9TSWNoaaCjlyd2HM+SSo78v9dNd9J3YQdo1WyXbtumMTPjKZMA+aDf3kj5Ww==";
+        };
+        _ZTuPgqWq = {
+            "id" = "ZTuPgqWq";
+            "file" = "i-see-you-over-there-1.0.5+1.20.6.jar";
+            "hash" = "sha512-L9hFk4YFNOQfGCKrQYGOhVCbXSl3fCfl/DwaEdyHLGFT2ciXIFbQFVopBKkjz8ZJlDUdRyhiPnR9/xg9KKlybQ==";
+        };
+        _VSbA3NZl = {
+            "id" = "VSbA3NZl";
+            "file" = "i-see-you-over-there-1.0.5+1.21.jar";
+            "hash" = "sha512-hA+UOgmj3N+FQDG0zuLk7Z1z7A3LzsY3GvZAmimL6FeNrYiW5rfRo1mK0gA1uSpPq84e3xzslP439+YBdpPYjg==";
+        };
+        _izpZD61y = {
+            "id" = "izpZD61y";
+            "file" = "i-see-you-over-there-1.0.5+1.21.3.jar";
+            "hash" = "sha512-2OdlKK3ezAfR+V7cvg0EOGE+m2sisWW7v9pT+1xXw8tg3jDKrL9ZDspgbnabs/uxTHI98S8w7INXzv+poparBQ==";
+        };
+        _FvmnuLt1 = {
+            "id" = "FvmnuLt1";
+            "file" = "i-see-you-over-there-1.0.5+1.21.10.jar";
+            "hash" = "sha512-9/w9jswlO30S2O0O/gk/YZu4WMlN3ZGaAHwRemrGCz/4DR0z2v9Fqjz3YkqiypAZEj44Kl3qBBY/3xvte8QUtQ==";
+        };
+        _dQFdTplF = {
+            "id" = "dQFdTplF";
+            "file" = "i-see-you-over-there-1.0.5+26.1.2.jar";
+            "hash" = "sha512-3V1bPmujuMIAC+OWfk2AoKjyqmPM/G+YEEoGihoCqmiyweAc7F0aSn+hDHWcyBYvuVvrq23MrBZ3mkWDgisPug==";
+        };
     in {
         "iP9I99eu" = _iP9I99eu;
         "iSL4vxxf" = _iSL4vxxf;
@@ -56,25 +86,36 @@ let
         "nlOdlX6E" = _nlOdlX6E;
         "OYwblpCL" = _OYwblpCL;
         "CoDL3m1C" = _CoDL3m1C;
-        "fabric-1.19.4" = _iSL4vxxf;
-        "fabric-1.20" = _iSL4vxxf;
-        "fabric-1.20.1" = _iSL4vxxf;
-        "fabric-1.20.2" = _iSL4vxxf;
-        "fabric-1.20.3" = _iSL4vxxf;
-        "fabric-1.20.4" = _iSL4vxxf;
-        "fabric-1.20.5" = _AHXLzgdv;
-        "fabric-1.20.6" = _AHXLzgdv;
-        "fabric-1.21" = _HC0SZgJB;
-        "fabric-1.21.1" = _HC0SZgJB;
-        "fabric-1.21.2" = _OYwblpCL;
-        "fabric-1.21.3" = _OYwblpCL;
-        "fabric-1.21.4" = _OYwblpCL;
-        "fabric-1.21.5" = _OYwblpCL;
-        "fabric-1.21.6" = _OYwblpCL;
-        "fabric-1.21.7" = _OYwblpCL;
-        "fabric-1.21.8" = _OYwblpCL;
-        "fabric-1.21.9" = _CoDL3m1C;
-        "fabric-1.21.10" = _CoDL3m1C;
+        "nNRnUwOn" = _nNRnUwOn;
+        "ZTuPgqWq" = _ZTuPgqWq;
+        "VSbA3NZl" = _VSbA3NZl;
+        "izpZD61y" = _izpZD61y;
+        "FvmnuLt1" = _FvmnuLt1;
+        "dQFdTplF" = _dQFdTplF;
+        "fabric-1.19.4" = _nNRnUwOn;
+        "fabric-1.20" = _nNRnUwOn;
+        "fabric-1.20.1" = _nNRnUwOn;
+        "fabric-1.20.2" = _nNRnUwOn;
+        "fabric-1.20.3" = _nNRnUwOn;
+        "fabric-1.20.4" = _nNRnUwOn;
+        "fabric-1.20.5" = _ZTuPgqWq;
+        "fabric-1.20.6" = _ZTuPgqWq;
+        "fabric-1.21" = _VSbA3NZl;
+        "fabric-1.21.1" = _VSbA3NZl;
+        "fabric-1.21.2" = _izpZD61y;
+        "fabric-1.21.3" = _izpZD61y;
+        "fabric-1.21.4" = _izpZD61y;
+        "fabric-1.21.5" = _izpZD61y;
+        "fabric-1.21.6" = _izpZD61y;
+        "fabric-1.21.7" = _izpZD61y;
+        "fabric-1.21.8" = _izpZD61y;
+        "fabric-1.21.9" = _FvmnuLt1;
+        "fabric-1.21.10" = _FvmnuLt1;
+        "fabric-1.21.11" = _FvmnuLt1;
+        "fabric-26.1" = _dQFdTplF;
+        "fabric-26.1.1" = _dQFdTplF;
+        "fabric-26.1.2" = _dQFdTplF;
+        "fabric-26.2" = _dQFdTplF;
         "pkg-1.0.0+1.19.4" = _iP9I99eu;
         "pkg-1.0.1+1.19.4" = _iSL4vxxf;
         "pkg-1.0.1+1.20.6" = _8eM2SyTE;
@@ -84,7 +125,13 @@ let
         "pkg-1.0.3+1.21.3" = _nlOdlX6E;
         "pkg-1.0.4+1.21.3" = _OYwblpCL;
         "pkg-1.0.4+1.21.10" = _CoDL3m1C;
-        "default" = _CoDL3m1C;
+        "pkg-1.0.5+1.19.4" = _nNRnUwOn;
+        "pkg-1.0.5+1.20.6" = _ZTuPgqWq;
+        "pkg-1.0.5+1.21" = _VSbA3NZl;
+        "pkg-1.0.5+1.21.3" = _izpZD61y;
+        "pkg-1.0.5+1.21.10" = _FvmnuLt1;
+        "pkg-1.0.5+26.1.2" = _dQFdTplF;
+        "default" = _dQFdTplF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "i-see-you-over-there";

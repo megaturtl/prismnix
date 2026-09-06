@@ -101,6 +101,11 @@ let
             "file" = "stellarity-0.8.0.jar";
             "hash" = "sha512-5fCf6TNXdIzs4HYElfhrao0kiz/2OLoCtr6tcMvwu8DdKEazBT1Z7I8JCIPjfxtdooz4qNNFAKvzLEAtVkoCpg==";
         };
+        _qDSuVHrG = {
+            "id" = "qDSuVHrG";
+            "file" = "stellarity-0.9.0.jar";
+            "hash" = "sha512-JgZBUxn8kKlkPwQL7JGdwBu8Axk2Jlh6vyxzlzRBgx9y4/CfxszYyAfOdYdF5FwItsQxxgF5jfH4nB8Z4uIxuw==";
+        };
     in {
         "DpNc7QWJ" = _DpNc7QWJ;
         "NbCHPe1C" = _NbCHPe1C;
@@ -122,6 +127,7 @@ let
         "KnrZEoq4" = _KnrZEoq4;
         "EhwFFm3q" = _EhwFFm3q;
         "pRNKIxy3" = _pRNKIxy3;
+        "qDSuVHrG" = _qDSuVHrG;
         "fabric-1.21" = _S9J9Mfr3;
         "fabric-1.21.1" = _S9J9Mfr3;
         "fabric-1.20" = _ISdkF4lG;
@@ -132,7 +138,7 @@ let
         "fabric-26.1" = _qGLFJWeD;
         "fabric-26.1.1" = _qGLFJWeD;
         "fabric-26.1.2" = _qGLFJWeD;
-        "fabric-26.2" = _pRNKIxy3;
+        "fabric-26.2" = _qDSuVHrG;
         "pkg-0.1.0" = _Y9MUACgg;
         "pkg-0.2.0" = _kDPDWCz7;
         "pkg-0.3.0" = _uU0rBjMr;
@@ -143,7 +149,8 @@ let
         "pkg-0.7.0" = _KnrZEoq4;
         "pkg-0.7.1" = _EhwFFm3q;
         "pkg-0.8.0" = _pRNKIxy3;
-        "default" = _pRNKIxy3;
+        "pkg-0.9.0" = _qDSuVHrG;
+        "default" = _qDSuVHrG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stellarity-enlightened";

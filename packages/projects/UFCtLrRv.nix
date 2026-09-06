@@ -46,6 +46,11 @@ let
             "file" = "hotstuff-1.1.6.jar";
             "hash" = "sha512-F0lAMdChIEgIuKNHNrU0Tw8voePsd1FWCPb9nUZP57LkUfr8fdtAl/l0Fkvh63ISV4iQ0LmhkKkmYCmC8/CX6g==";
         };
+        _p1qiZ6zk = {
+            "id" = "p1qiZ6zk";
+            "file" = "hotstuff-1.1.7.jar";
+            "hash" = "sha512-m/qieiZAptGDRwzmG4y5MTAvxNo+ko2Bpx6rF1K2nrXkgD8slHe5YBNgLUShldNZ9kbDELRpLrC639o3GTOFbQ==";
+        };
     in {
         "G6k4eiM2" = _G6k4eiM2;
         "W9caSK7o" = _W9caSK7o;
@@ -56,7 +61,8 @@ let
         "bPamUYgs" = _bPamUYgs;
         "Cfbd908L" = _Cfbd908L;
         "eRu4UNsh" = _eRu4UNsh;
-        "neoforge-1.21.1" = _eRu4UNsh;
+        "p1qiZ6zk" = _p1qiZ6zk;
+        "neoforge-1.21.1" = _p1qiZ6zk;
         "pkg-1.0.0" = _G6k4eiM2;
         "pkg-1.0.1" = _W9caSK7o;
         "pkg-1.1.0" = _FzQSMMjS;
@@ -66,7 +72,8 @@ let
         "pkg-1.1.4" = _bPamUYgs;
         "pkg-1.1.5" = _Cfbd908L;
         "pkg-1.1.6" = _eRu4UNsh;
-        "default" = _eRu4UNsh;
+        "pkg-1.1.7" = _p1qiZ6zk;
+        "default" = _p1qiZ6zk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hots-aerostuff";

@@ -101,8 +101,7 @@ let
         "fabric-1.21.10" = _hyaO70k8;
         "fabric-26.1.2" = _AXawcwJk;
         "fabric-26.2" = _6i8Ff1WR;
-        "neoforge-1.21.9" = _lIQOlmML;
-        "neoforge-1.21.10" = _Q06jMO5J;
+        "neoforge-1.21.9" = _Q06jMO5J;
         "pkg-1.0.0" = _EEEgmN2r;
         "pkg-1.1.0" = _7IbMZatV;
         "pkg-1.1.1" = _laANJKWL;

@@ -91,6 +91,71 @@ let
             "file" = "simplymore-fabric-1.2.3.jar";
             "hash" = "sha512-uMmKL43zMfoq8ErfKE7iwt+jnmOX/g5/UePsaG7cwigAV5bJASxVVqBOhteBZfBQMTg0uBMm+Sx+36fc0agJIg==";
         };
+        _cIW3lLVS = {
+            "id" = "cIW3lLVS";
+            "file" = "simplymore-fabric-1.3.0_alpha.jar";
+            "hash" = "sha512-dybzJkg9yPcrP70IpESfKs+Xc9JfSroU5ljsSPss7u0sxKPhEXPNKjbu0A/w2MlJQhh+gfg7dvaGhD6HZ9b0eQ==";
+        };
+        _hyZV83Za = {
+            "id" = "hyZV83Za";
+            "file" = "simplymore-neoforge-1.3.0_alpha.jar";
+            "hash" = "sha512-BWCl0/UtTy48yVzO2WSwqFVCQvGASj2H7JVy2Pac/J3OLmSHeXs+LbqFrcpDYXqTA9QECHuqheCsnBJWNox1qA==";
+        };
+        _7ihwtLmH = {
+            "id" = "7ihwtLmH";
+            "file" = "simplymore-fabric-1.3.0_alpha2.jar";
+            "hash" = "sha512-Z3Qu7cnTCa8MSpVnl0+u5GzJZ33Nv79Ghvh3FF2XaOFtUCWH8A8xDb2Z9W9+GaqYDVJm5PFr/VjpQun4V3Y9+Q==";
+        };
+        _n9Ge6ziU = {
+            "id" = "n9Ge6ziU";
+            "file" = "simplymore-neoforge-1.3.0_alpha2.jar";
+            "hash" = "sha512-mZm88BDlW0FN3votlBXmHPHoezfS/lZ4EoZN8YkcX5rvcuYh0s7dPN1eA42PJP66dw5tS4VDXKWun8es2B1cjg==";
+        };
+        _Bs8LoZoH = {
+            "id" = "Bs8LoZoH";
+            "file" = "simplymore-neoforge-1.3.0_alpha3+1.21.1.jar";
+            "hash" = "sha512-p4gMnEAdDsedprDRKqkllcIPl31+Yp3ID8Mh/eMBjZfyfaieCwbvCPtPltvNMYNA5yF31N9u058yL97ofrPQ/A==";
+        };
+        _JmZkhKqi = {
+            "id" = "JmZkhKqi";
+            "file" = "simplymore-fabric-1.3.0_alpha3+1.21.1.jar";
+            "hash" = "sha512-vyyU9NmrhZ0yuciku1vodJO6jQnf7w9FKc02PFLJP8JH2W3v8d2rQ4guTtIoAhkELEcOP0jOoEHTWP2uMFKZEw==";
+        };
+        _zDfMmKkU = {
+            "id" = "zDfMmKkU";
+            "file" = "simplymore-fabric-1.3.0_alpha4+1.21.1.jar";
+            "hash" = "sha512-K1ALKjSYLj9BBguQKQ5jHv2Bpg2DbijKLIgIBMJ4o0DkrlEoxI6DgrJasJOo47EAWKibjFcdUdgL0XYGkVdgSg==";
+        };
+        _613qStwt = {
+            "id" = "613qStwt";
+            "file" = "simplymore-neoforge-1.3.0_alpha4+1.21.1.jar";
+            "hash" = "sha512-CSj31hANgBM9ElzBLA0JCdSfR5/FZ4p5NEr5NlOblIoSo6F5KQ0aJyFMoWBRRaJq4WOKqO6k0/mSUbHqrvfWUg==";
+        };
+        _u4dfPRHB = {
+            "id" = "u4dfPRHB";
+            "file" = "simplymore-forge-neoforge-1.1.4+1.20.1.jar";
+            "hash" = "sha512-ljsg4jQEcrksJSRDpZGk3P8XPe/KTgmcr6vKPdVJ91OIZ8NxYJQ1Ldxl2s6DutjdnIeX4dM8x69xZVTE4VKK7Q==";
+        };
+        _Gvm6a5mn = {
+            "id" = "Gvm6a5mn";
+            "file" = "simplymore-fabric-1.1.4+1.20.1.jar";
+            "hash" = "sha512-xbQDpcpwx27UbcHj5Mkd/eet71jHuMAMAVrX+fY7PVGCupXBeBvQ0+GLToBK94mEe5on/EvGDmadyhMFoiQJCw==";
+        };
+        _ZPX1C3yg = {
+            "id" = "ZPX1C3yg";
+            "file" = "simplymore-neoforge-1.3.0_alpha5+1.21.1.jar";
+            "hash" = "sha512-RaZhHAuIx+DGRzEh38gBrL18JkpjbJcoGjI7huLSpSkoOe39SFOE1c9yMds1hfIzH2Zs5hGq+Dl5GFrlDwVXyg==";
+        };
+        _I0wnEelE = {
+            "id" = "I0wnEelE";
+            "file" = "simplymore-fabric-1.3.0_alpha.jar";
+            "hash" = "sha512-CRXzOIRQ24nA3004Z274M7ml1s7zgzveOdKhEKg2AaBDGvrptbiKFPQvWfA374MV0IMchgX977Nyqo6y2KPo6w==";
+        };
+        _6xzex4RD = {
+            "id" = "6xzex4RD";
+            "file" = "simplymore-fabric-1.1.5+1.20.1.jar";
+            "hash" = "sha512-GEYx/2HpPmBsV7TsYfX3S3sg7KvpxYf8KJcMARHaKF96yy4SoY8VOqqTupTv6zW73stjoU5w6HgFyqTnwZAGzg==";
+        };
     in {
         "wloNB4uP" = _wloNB4uP;
         "aAEp12Fl" = _aAEp12Fl;
@@ -110,10 +175,24 @@ let
         "rXWGu4hP" = _rXWGu4hP;
         "bVBS14OK" = _bVBS14OK;
         "6aYZniVI" = _6aYZniVI;
-        "fabric-1.20.1" = _oxNX8OYm;
-        "fabric-1.21.1" = _6aYZniVI;
-        "forge-1.20.1" = _xevLkumX;
-        "neoforge-1.21.1" = _bVBS14OK;
+        "cIW3lLVS" = _cIW3lLVS;
+        "hyZV83Za" = _hyZV83Za;
+        "7ihwtLmH" = _7ihwtLmH;
+        "n9Ge6ziU" = _n9Ge6ziU;
+        "Bs8LoZoH" = _Bs8LoZoH;
+        "JmZkhKqi" = _JmZkhKqi;
+        "zDfMmKkU" = _zDfMmKkU;
+        "613qStwt" = _613qStwt;
+        "u4dfPRHB" = _u4dfPRHB;
+        "Gvm6a5mn" = _Gvm6a5mn;
+        "ZPX1C3yg" = _ZPX1C3yg;
+        "I0wnEelE" = _I0wnEelE;
+        "6xzex4RD" = _6xzex4RD;
+        "fabric-1.20.1" = _6xzex4RD;
+        "fabric-1.21.1" = _I0wnEelE;
+        "forge-1.20.1" = _u4dfPRHB;
+        "neoforge-1.21.1" = _ZPX1C3yg;
+        "neoforge-1.20.1" = _u4dfPRHB;
         "pkg-1.0.0+1.20.1" = _wloNB4uP;
         "pkg-1.0.1+1.20.1" = _aAEp12Fl;
         "pkg-1.0.2+1.20.1" = _8Ue4NbBQ;
@@ -126,7 +205,14 @@ let
         "pkg-1.2.1" = _FgYd58Df;
         "pkg-1.2.2" = _rXWGu4hP;
         "pkg-1.2.3+1.21.1" = _6aYZniVI;
-        "default" = _6aYZniVI;
+        "pkg-1.3.0_alpha" = _613qStwt;
+        "pkg-1.3.0_alpha2" = _n9Ge6ziU;
+        "pkg-1.3.0_alpha3" = _JmZkhKqi;
+        "pkg-1.3.0_alpha4" = _zDfMmKkU;
+        "pkg-1.1.4" = _Gvm6a5mn;
+        "pkg-1.3.0_alpha5" = _I0wnEelE;
+        "pkg-1.1.5" = _6xzex4RD;
+        "default" = _6xzex4RD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simplymore";

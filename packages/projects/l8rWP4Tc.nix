@@ -611,6 +611,16 @@ let
             "file" = "smart_particles-26.1.2.10.jar";
             "hash" = "sha512-7NVSzWzjK6Ng/4LQVgRR0xiQNe0u6t8qjyvKD3g6B8O6N3n+ZFQHniRbaqG6x8QK5MiaWn4LQMB3Vr96YBZLhQ==";
         };
+        _cdHNdSYY = {
+            "id" = "cdHNdSYY";
+            "file" = "Smart_Particles_Fabric_MC_26.2_1.15.0.jar";
+            "hash" = "sha512-t29CZntCJkguJTNpRYI/wkdREafbx0+E5Mj8laM/Et1rDb+eYDwMra8RVakOOnWjJ5vvxWUwXTt1qkUGbjjDFw==";
+        };
+        _szxG1SGr = {
+            "id" = "szxG1SGr";
+            "file" = "Smart_Particles_NeoForge_MC_26.2_26.2.11.jar";
+            "hash" = "sha512-evLfxJCM4GIMmzwlPeDs6q+IJdydZ65Dt5Dt0GwSLHH9z0WI2JS3xRUfUz4H55XxMmzW8OiVJ0Jn/nPMtYR6RQ==";
+        };
     in {
         "ilLmE6ZS" = _ilLmE6ZS;
         "47QY19b3" = _47QY19b3;
@@ -734,6 +744,8 @@ let
         "hgNu3ynp" = _hgNu3ynp;
         "ro5bVJoG" = _ro5bVJoG;
         "pbetCnKm" = _pbetCnKm;
+        "cdHNdSYY" = _cdHNdSYY;
+        "szxG1SGr" = _szxG1SGr;
         "fabric-1.21.1" = _p2inNior;
         "fabric-1.21.2" = _wZsHYpwy;
         "fabric-1.21.3" = _NTtcZ0Sx;
@@ -763,6 +775,7 @@ let
         "fabric-26.1" = _aHaI7jdS;
         "fabric-26.1.1" = _hgNu3ynp;
         "fabric-26.1.2" = _ro5bVJoG;
+        "fabric-26.2" = _cdHNdSYY;
         "forge-1.12.2" = _kMnBNl3r;
         "forge-1.7.10" = _lFGCabe8;
         "forge-1.20.1" = _HfH0hvfy;
@@ -785,6 +798,7 @@ let
         "neoforge-26.1" = _pbetCnKm;
         "neoforge-26.1.1" = _pbetCnKm;
         "neoforge-26.1.2" = _pbetCnKm;
+        "neoforge-26.2" = _szxG1SGr;
         "pkg-1.0.4" = _ilLmE6ZS;
         "pkg-1.0.5" = _47QY19b3;
         "pkg-1.0.6" = _bd26RNdz;
@@ -906,7 +920,9 @@ let
         "pkg-1.13.10" = _hgNu3ynp;
         "pkg-1.14.10" = _ro5bVJoG;
         "pkg-26.1.2.10" = _pbetCnKm;
-        "default" = _pbetCnKm;
+        "pkg-1.15.0" = _cdHNdSYY;
+        "pkg-26.2.11" = _szxG1SGr;
+        "default" = _szxG1SGr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smart-particles";

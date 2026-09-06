@@ -176,6 +176,16 @@ let
             "file" = "auroraslanterns-2.1.0+26.2.jar";
             "hash" = "sha512-AHk0K2TWgaLPKAmK5159QwI02C9Uo2iyLpAfpJR5BuCd/qlAQOMAH2FiI5gSPnQU9j6FtFQ2FKk8XYBTlATYqQ==";
         };
+        _tRtLAv7o = {
+            "id" = "tRtLAv7o";
+            "file" = "auroraslanterns-2.0.1+26.1.2.jar";
+            "hash" = "sha512-fcHaz3K13NonxMjvs/KE5xMy9H7+vJZJmEZv5edTa3oGzYzUYVFJ2+udt12ydpfzRX9XXHZnJ1sd4hoa/ES6Bg==";
+        };
+        _D1oCKZGV = {
+            "id" = "D1oCKZGV";
+            "file" = "auroraslanterns-2.1.1+26.2.jar";
+            "hash" = "sha512-lBDtLl0wvc8+2NdhqxaxkVZA6DrgrVkRC/zWUVNLwyUlF3q2Y235CWy6i8UPQRFNorGJAhep5Dtf2OnQjVmxuw==";
+        };
     in {
         "BF71bD1F" = _BF71bD1F;
         "YNPjpEEh" = _YNPjpEEh;
@@ -212,6 +222,8 @@ let
         "rxG8O63K" = _rxG8O63K;
         "BZnOxzXN" = _BZnOxzXN;
         "vlGXXgVd" = _vlGXXgVd;
+        "tRtLAv7o" = _tRtLAv7o;
+        "D1oCKZGV" = _D1oCKZGV;
         "fabric-1.20" = _C6OboeOa;
         "fabric-1.20.1" = _C6OboeOa;
         "fabric-1.21" = _qTUfKUYw;
@@ -224,10 +236,10 @@ let
         "fabric-1.21.9" = _YkacnwQU;
         "fabric-1.21.10" = _lfjgL4u5;
         "fabric-1.21.11" = _rxG8O63K;
-        "fabric-26.1" = _BZnOxzXN;
-        "fabric-26.1.1" = _BZnOxzXN;
-        "fabric-26.1.2" = _BZnOxzXN;
-        "fabric-26.2" = _vlGXXgVd;
+        "fabric-26.1" = _tRtLAv7o;
+        "fabric-26.1.1" = _tRtLAv7o;
+        "fabric-26.1.2" = _tRtLAv7o;
+        "fabric-26.2" = _D1oCKZGV;
         "quilt-1.20" = _C6OboeOa;
         "quilt-1.20.1" = _C6OboeOa;
         "quilt-1.21" = _qTUfKUYw;
@@ -240,10 +252,13 @@ let
         "quilt-1.21.9" = _YkacnwQU;
         "quilt-1.21.10" = _lfjgL4u5;
         "quilt-1.21.11" = _rxG8O63K;
-        "quilt-26.1" = _BZnOxzXN;
-        "quilt-26.1.1" = _BZnOxzXN;
-        "quilt-26.1.2" = _BZnOxzXN;
-        "quilt-26.2" = _vlGXXgVd;
+        "quilt-26.1" = _tRtLAv7o;
+        "quilt-26.1.1" = _tRtLAv7o;
+        "quilt-26.1.2" = _tRtLAv7o;
+        "quilt-26.2" = _D1oCKZGV;
+        "neoforge-26.1" = _tRtLAv7o;
+        "neoforge-26.1.1" = _tRtLAv7o;
+        "neoforge-26.1.2" = _tRtLAv7o;
         "pkg-1.0.0+1.20.1" = _BF71bD1F;
         "pkg-1.0.1+1.20.1" = _YNPjpEEh;
         "pkg-1.1.0+1.21.1" = _dmlN0zzl;
@@ -279,7 +294,9 @@ let
         "pkg-2.0.0+1.21.11" = _rxG8O63K;
         "pkg-2.0.0+26.1.1" = _BZnOxzXN;
         "pkg-2.1.0+26.2" = _vlGXXgVd;
-        "default" = _vlGXXgVd;
+        "pkg-2.0.1+26.1.2" = _tRtLAv7o;
+        "pkg-2.1.1+26.2" = _D1oCKZGV;
+        "default" = _D1oCKZGV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "auroraslanterns";

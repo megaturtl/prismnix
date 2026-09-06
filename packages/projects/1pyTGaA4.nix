@@ -261,6 +261,11 @@ let
             "file" = "UniTweaks-0.29.0.jar";
             "hash" = "sha512-H/HrIG8Ny9I3ahNPegayrx/aeDj6IH+4FeHj3O9qKJtIlLhL5HtMoDtEEBJg54mVII72PjqgFmezyDXzNGZVbQ==";
         };
+        _w5z3Y5kf = {
+            "id" = "w5z3Y5kf";
+            "file" = "UniTweaks-0.30.0.jar";
+            "hash" = "sha512-sm94puVQu+oQ3ISGmXrdfcc6ICAjyVmcuQi8MTl0THAOYFPH5tgTMwc9pMePkoZj20owz95SX5rEF7pBiacVAw==";
+        };
     in {
         "8tnJXeIY" = _8tnJXeIY;
         "A3yapAgo" = _A3yapAgo;
@@ -314,8 +319,9 @@ let
         "atnCHEj4" = _atnCHEj4;
         "NrkYqw9Y" = _NrkYqw9Y;
         "ovQaGPbb" = _ovQaGPbb;
-        "fabric-b1.7.3" = _ovQaGPbb;
-        "babric-b1.7.3" = _ovQaGPbb;
+        "w5z3Y5kf" = _w5z3Y5kf;
+        "fabric-b1.7.3" = _w5z3Y5kf;
+        "babric-b1.7.3" = _w5z3Y5kf;
         "pkg-0.1.0" = _8tnJXeIY;
         "pkg-0.2.0" = _A3yapAgo;
         "pkg-0.3.0" = _kLfvAI4N;
@@ -368,7 +374,8 @@ let
         "pkg-0.27.0" = _atnCHEj4;
         "pkg-0.28.0" = _NrkYqw9Y;
         "pkg-0.29.0" = _ovQaGPbb;
-        "default" = _ovQaGPbb;
+        "pkg-0.30.0" = _w5z3Y5kf;
+        "default" = _w5z3Y5kf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unitweaks";

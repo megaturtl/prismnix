@@ -406,6 +406,26 @@ let
             "file" = "cabletiers-fabric-1.21.1-0.6.13.jar";
             "hash" = "sha512-4JnMv+vvfJlS9fJwYcsi6DBxKyxjeOBh84MPmPG9vyHHzZjvswTsGxEJassOfo2q4sYymTLBRb6SYfqhaaWUZQ==";
         };
+        _8p6whakO = {
+            "id" = "8p6whakO";
+            "file" = "cabletiers-neoforge-1.21.1-0.6.14.jar";
+            "hash" = "sha512-WtzEI6e8mEKNnTd67JRU3zEmUJyNWCOqhAjuGfuME0fGUcZy1zIW4RUqxSeDnRRfmfjvLRk5EX0aGTnZOeMP4g==";
+        };
+        _wSPq15O3 = {
+            "id" = "wSPq15O3";
+            "file" = "cabletiers-fabric-1.21.1-0.6.14.jar";
+            "hash" = "sha512-fiGpPIhvY6P4Z3YsYovfv6Rr7jG8ZZ5S3z+pkIclFvG7kHKoztud++MSprlU98zBhllDg55EeuSSwFVBj42mvA==";
+        };
+        _ctWz8j6u = {
+            "id" = "ctWz8j6u";
+            "file" = "cabletiers-neoforge-26.1.2-1.0.2.jar";
+            "hash" = "sha512-h0FUxFZoo0lo7ARzNIhLRf5zywBF1Y2Gy0k3ST5WTj11nS8GtVoQu7mjPhVl9WtMr/Xp23iXEBMk4dSIp1TsSg==";
+        };
+        _l4TD93HV = {
+            "id" = "l4TD93HV";
+            "file" = "cabletiers-fabric-26.1.2-1.0.2.jar";
+            "hash" = "sha512-DXNLApiRGf10pmPDDqhNHVj17hHsyYL2zdlOONRlpRamfE9xxjOTFxu3od7ls7hwHa1993TWYQ0SgFJOtEr8TQ==";
+        };
     in {
         "KRPOTAx5" = _KRPOTAx5;
         "K5tRIf10" = _K5tRIf10;
@@ -488,16 +508,20 @@ let
         "Vvrmtz6D" = _Vvrmtz6D;
         "WJWODGV6" = _WJWODGV6;
         "wsiUWA1a" = _wsiUWA1a;
+        "8p6whakO" = _8p6whakO;
+        "wSPq15O3" = _wSPq15O3;
+        "ctWz8j6u" = _ctWz8j6u;
+        "l4TD93HV" = _l4TD93HV;
         "forge-1.16.5" = _KRPOTAx5;
         "forge-1.18.2" = _jBFKtv9y;
         "forge-1.19.2" = _O2LfoYmp;
         "forge-1.20.1" = _i99hKWi2;
         "fabric-1.21" = _FYqAOUyM;
-        "fabric-1.21.1" = _wsiUWA1a;
-        "fabric-26.1.2" = _Vvrmtz6D;
+        "fabric-1.21.1" = _wSPq15O3;
+        "fabric-26.1.2" = _l4TD93HV;
         "neoforge-1.21" = _20KaWcaP;
-        "neoforge-1.21.1" = _WJWODGV6;
-        "neoforge-26.1.2" = _vtEtulgH;
+        "neoforge-1.21.1" = _8p6whakO;
+        "neoforge-26.1.2" = _ctWz8j6u;
         "pkg-1.16.5-0.545" = _KRPOTAx5;
         "pkg-1.18.2-0.547" = _K5tRIf10;
         "pkg-1.19.2-0.6" = _O2LfoYmp;
@@ -542,8 +566,10 @@ let
         "pkg-26.1.2-1.0.0" = _PRa9uoar;
         "pkg-1.21.1-0.6.12" = _MGBGrAoC;
         "pkg-26.1.2-1.0.1" = _Vvrmtz6D;
-        "pkg-0.0.0" = _wsiUWA1a;
-        "default" = _wsiUWA1a;
+        "pkg-1.21.1-0.6.13" = _wsiUWA1a;
+        "pkg-1.21.1-0.6.14" = _wSPq15O3;
+        "pkg-26.1.2-1.0.2" = _l4TD93HV;
+        "default" = _l4TD93HV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cable-tiers";

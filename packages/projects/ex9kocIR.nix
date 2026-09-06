@@ -61,6 +61,21 @@ let
             "file" = "instant-shield-1.0.1+1.21.5-11.jar";
             "hash" = "sha512-zGR7CLrRFyLAouG0anD/Ti7UE/PbaVr87uUrblSw53vuxTCNMcY1D8DCVnnVtHQVEnwxjEAPtdUgxR3jzzYrcQ==";
         };
+        _KrMYWRzU = {
+            "id" = "KrMYWRzU";
+            "file" = "instant-shield-1.0.1+26.3-alpha.jar";
+            "hash" = "sha512-Ctq0cOBZ3dlAS0+ub5/Bcj/Ks2Pv5iV9vJX2F20mJLLAY/4UsnzFbMwvZdCMgBcyAlxYPQ09m+Gg8KYwd5Ld+A==";
+        };
+        _hCHhwjJ7 = {
+            "id" = "hCHhwjJ7";
+            "file" = "instant-shield-1.0.2+26.3-alpha.jar";
+            "hash" = "sha512-+GiC64PGMS4HibLXrNoXB0+46VjufFB2pitPrWXVIXyvzhiyPC7VgEwHtn4lfkpbuABo+duvmXeK3pYcWnSMBg==";
+        };
+        _GxxnRBE5 = {
+            "id" = "GxxnRBE5";
+            "file" = "instant-shield-1.0.3+26.3-alpha.jar";
+            "hash" = "sha512-39SLd+/1WU4Cxe7Ub0LMy9xLNhoEt58cemOSErOHqcQ/dyo1VNDNIw3QinfpVarZmEeoTWRBeB8dEQnxQ3QZRA==";
+        };
     in {
         "cXJzHGqK" = _cXJzHGqK;
         "Iiqvav0m" = _Iiqvav0m;
@@ -74,6 +89,9 @@ let
         "3y6GnJVc" = _3y6GnJVc;
         "YatsAuEm" = _YatsAuEm;
         "qKWEcPxV" = _qKWEcPxV;
+        "KrMYWRzU" = _KrMYWRzU;
+        "hCHhwjJ7" = _hCHhwjJ7;
+        "GxxnRBE5" = _GxxnRBE5;
         "fabric-1.21.5" = _qKWEcPxV;
         "fabric-1.21.6" = _qKWEcPxV;
         "fabric-1.21.7" = _qKWEcPxV;
@@ -93,6 +111,20 @@ let
         "fabric-1.21.9" = _qKWEcPxV;
         "fabric-1.21.10" = _qKWEcPxV;
         "fabric-1.21.11" = _qKWEcPxV;
+        "fabric-26.1" = _GxxnRBE5;
+        "fabric-26.1.1" = _GxxnRBE5;
+        "fabric-26.1.2" = _GxxnRBE5;
+        "fabric-26.2" = _GxxnRBE5;
+        "fabric-26.3-snapshot-1" = _GxxnRBE5;
+        "fabric-26.3-snapshot-2" = _GxxnRBE5;
+        "fabric-26.3-snapshot-3" = _GxxnRBE5;
+        "fabric-26.3-snapshot-4" = _GxxnRBE5;
+        "fabric-26.3-snapshot-5" = _GxxnRBE5;
+        "fabric-26.3-snapshot-6" = _GxxnRBE5;
+        "fabric-26.3-snapshot-7" = _GxxnRBE5;
+        "fabric-26.3-snapshot-8" = _GxxnRBE5;
+        "fabric-26.3-snapshot-9" = _GxxnRBE5;
+        "fabric-26.3-snapshot-10" = _GxxnRBE5;
         "pkg-1.0.0+1.21.5-7" = _cXJzHGqK;
         "pkg-1.0.0+1.21.2-4" = _Iiqvav0m;
         "pkg-1.0.0+1.21.0-1" = _ZISiXDpi;
@@ -105,7 +137,10 @@ let
         "pkg-1.0.1+1.21.5-8" = _3y6GnJVc;
         "pkg-1.0.1+1.21.2-4" = _YatsAuEm;
         "pkg-1.0.1+1.21.5-11" = _qKWEcPxV;
-        "default" = _qKWEcPxV;
+        "pkg-1.0.1+26.3-alpha" = _KrMYWRzU;
+        "pkg-1.0.2+26.3-alpha" = _hCHhwjJ7;
+        "pkg-1.0.3+26.3-alpha" = _GxxnRBE5;
+        "default" = _GxxnRBE5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "instant-shield";

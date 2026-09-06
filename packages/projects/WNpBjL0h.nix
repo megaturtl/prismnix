@@ -56,6 +56,11 @@ let
             "file" = "taczadditions-1.20.1-1.2.2.jar";
             "hash" = "sha512-FUCtiSyHLBy2114HaCKV2IE49n9ucejogDddMkgqxNJl5iZmPwSh1kEmmYq+t8x38/3082p1dvcxV7kaYl18vg==";
         };
+        _Kg1T5z1f = {
+            "id" = "Kg1T5z1f";
+            "file" = "taczadditions-1.20.1-1.3.0.jar";
+            "hash" = "sha512-C1D+c6D3rMIEWZKFDBFKzKDcU78Nbhb2iHyysd1IYQhODWWch0zoy3lwb+4jiJ2yfxqD4fcXUmiLZSSlAPwiNQ==";
+        };
     in {
         "5HS2TdaS" = _5HS2TdaS;
         "4Dyi4ic4" = _4Dyi4ic4;
@@ -68,7 +73,8 @@ let
         "bLSDDehm" = _bLSDDehm;
         "6flQhKzd" = _6flQhKzd;
         "eKIMSEpH" = _eKIMSEpH;
-        "forge-1.20.1" = _eKIMSEpH;
+        "Kg1T5z1f" = _Kg1T5z1f;
+        "forge-1.20.1" = _Kg1T5z1f;
         "pkg-0.9.0" = _5HS2TdaS;
         "pkg-1.0.0" = _4Dyi4ic4;
         "pkg-1.0.0-hotfix" = _5ZQv75Bf;
@@ -80,7 +86,8 @@ let
         "pkg-1.2.0" = _bLSDDehm;
         "pkg-1.2.1" = _6flQhKzd;
         "pkg-1.2.2" = _eKIMSEpH;
-        "default" = _eKIMSEpH;
+        "pkg-1.3.0" = _Kg1T5z1f;
+        "default" = _Kg1T5z1f;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz-additions";

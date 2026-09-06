@@ -121,6 +121,11 @@ let
             "file" = "expanded-weapon-enchanting-1.2.11.jar";
             "hash" = "sha512-IhY0YOvygs+gh/IqrdWteIahPekFhf5g7mbawzwrZGWpm6uDa1eJCG2WSZuTfdoYk84qg4jKv9P4SJOKRNWU0w==";
         };
+        _ZSgc26XZ = {
+            "id" = "ZSgc26XZ";
+            "file" = "expanded-weapon-enchanting-1.2.12.jar";
+            "hash" = "sha512-f378B/096kY9ocYyICseoS6oT7xcC6gZj49/fcNcIq1dRxmdR6rPBkusal9LPw89A/lAELzrMqLYeiKmtEqaFg==";
+        };
     in {
         "FjVnZuB6" = _FjVnZuB6;
         "xDfuxWiv" = _xDfuxWiv;
@@ -146,6 +151,7 @@ let
         "KINr69OR" = _KINr69OR;
         "CDYFjtZm" = _CDYFjtZm;
         "35tzvlfQ" = _35tzvlfQ;
+        "ZSgc26XZ" = _ZSgc26XZ;
         "fabric-1.16.5" = _FjVnZuB6;
         "fabric-1.17" = _xDfuxWiv;
         "fabric-1.17.1" = _xDfuxWiv;
@@ -170,6 +176,7 @@ let
         "fabric-26.1" = _35tzvlfQ;
         "fabric-26.1.1" = _35tzvlfQ;
         "fabric-26.1.2" = _35tzvlfQ;
+        "fabric-26.2" = _ZSgc26XZ;
         "pkg-1.0.0" = _FjVnZuB6;
         "pkg-1.0.1" = _xDfuxWiv;
         "pkg-1.0.2" = _3zntI0ci;
@@ -194,7 +201,8 @@ let
         "pkg-1.2.9" = _KINr69OR;
         "pkg-1.2.10" = _CDYFjtZm;
         "pkg-1.2.11" = _35tzvlfQ;
-        "default" = _35tzvlfQ;
+        "pkg-1.2.12" = _ZSgc26XZ;
+        "default" = _ZSgc26XZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "expanded-weapon-enchanting";

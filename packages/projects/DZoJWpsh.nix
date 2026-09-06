@@ -61,6 +61,11 @@ let
             "file" = "sneakysodium-1.3.0-mc26.2.jar";
             "hash" = "sha512-EjWq43oim3SVt5EtBsycMkBg+fm25oYmWIXzKhFLl6E2JDWpGXFJQ5h5+QqVHiSvSGvW7fiCMqOA4ac7CaUckQ==";
         };
+        _XuLFlCvK = {
+            "id" = "XuLFlCvK";
+            "file" = "sneakysodium-1.1.0+1.21.1-mc1.21.1.jar";
+            "hash" = "sha512-eQuYHpjIsv97UTL3rW57+QNrVATnqq5wcvnzeLcxuu2j+S1qmz2gViKtYbZemljabKq5TkQHsYq+a1sfldOJMw==";
+        };
     in {
         "r2AwGs0h" = _r2AwGs0h;
         "sLVbd9om" = _sLVbd9om;
@@ -74,8 +79,9 @@ let
         "A51Ui3mI" = _A51Ui3mI;
         "WBGJVfID" = _WBGJVfID;
         "T371yHnj" = _T371yHnj;
+        "XuLFlCvK" = _XuLFlCvK;
         "fabric-1.21" = _r2AwGs0h;
-        "fabric-1.21.1" = _r2AwGs0h;
+        "fabric-1.21.1" = _XuLFlCvK;
         "fabric-1.21.2" = _r2AwGs0h;
         "fabric-1.21.3" = _r2AwGs0h;
         "fabric-1.21.4" = _o9cHVeWw;
@@ -101,10 +107,10 @@ let
         "pkg-1.0.4" = _8tZe71Ri;
         "pkg-1.0.5" = _QGpf3f1M;
         "pkg-1.0.6" = _UEHY7CIt;
-        "pkg-1.1.0" = _UAim7V0d;
+        "pkg-1.1.0" = _XuLFlCvK;
         "pkg-1.2.0" = _A51Ui3mI;
         "pkg-1.3.0" = _T371yHnj;
-        "default" = _T371yHnj;
+        "default" = _XuLFlCvK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sneaky-sodium";

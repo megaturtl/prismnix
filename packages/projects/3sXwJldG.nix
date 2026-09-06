@@ -31,6 +31,11 @@ let
             "file" = "Nethpot Basics 26.1-26.1.2.zip";
             "hash" = "sha512-0wnJis7aEq46rv+Ymn27f08AfhvGHbE+o26wFHsK8JJccVh7tBPifqVLkjAXaZjXVHJVOBlNSMlZLNN8/EIdZg==";
         };
+        _jqery3mJ = {
+            "id" = "jqery3mJ";
+            "file" = "Nethpot Basics 26.2.zip";
+            "hash" = "sha512-RPIAdq1I5KnEtUPux81qMO7krK50y166mxNSDAwWR3h3iu2iF0jU94rQoTztKgaloObts9U+l5jMDE40bvDTaQ==";
+        };
     in {
         "PdocfGdu" = _PdocfGdu;
         "AZiwT5vt" = _AZiwT5vt;
@@ -38,6 +43,7 @@ let
         "sArUtRb7" = _sArUtRb7;
         "pxSp7fg9" = _pxSp7fg9;
         "sVnvX732" = _sVnvX732;
+        "jqery3mJ" = _jqery3mJ;
         "minecraft-1.21" = _PdocfGdu;
         "minecraft-1.21.1" = _PdocfGdu;
         "minecraft-1.21.2" = _PdocfGdu;
@@ -52,8 +58,10 @@ let
         "minecraft-26.1" = _sVnvX732;
         "minecraft-26.1.1" = _sVnvX732;
         "minecraft-26.1.2" = _sVnvX732;
+        "minecraft-26.2" = _jqery3mJ;
         "pkg-1.0" = _sVnvX732;
-        "default" = _sVnvX732;
+        "pkg-26.2" = _jqery3mJ;
+        "default" = _jqery3mJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "netheritepot-basics";

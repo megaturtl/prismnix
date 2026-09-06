@@ -131,6 +131,11 @@ let
             "file" = "tps-hud-1.9.0+1.21.9.jar";
             "hash" = "sha512-xNOy+1XihvA2qqLk4OD7IlfofobRCQX6lEeGR20NvbygE9YOXXV323z5oELWSeKwp6JsKd7h9JRokUOtj8KNiA==";
         };
+        _LzmGBWcf = {
+            "id" = "LzmGBWcf";
+            "file" = "tps-hud-2.0.0+26.2.jar";
+            "hash" = "sha512-q2roEhQGQR7LnPGiFT8xeCZTuZFJtUMyuxZ5OVTiYBUzfc650jUWMtbDRqreUFdTq1yeTo6GiaQzl2Q49OlN8A==";
+        };
     in {
         "W20Dnblk" = _W20Dnblk;
         "F78vfcLB" = _F78vfcLB;
@@ -158,6 +163,7 @@ let
         "WsWbXUCz" = _WsWbXUCz;
         "uJS6jRGq" = _uJS6jRGq;
         "l7IgDKmK" = _l7IgDKmK;
+        "LzmGBWcf" = _LzmGBWcf;
         "fabric-1.18.2" = _uH6oVil5;
         "fabric-1.19-pre1" = _WmM5tDwi;
         "fabric-1.19" = _UgicmtwW;
@@ -187,6 +193,10 @@ let
         "fabric-1.21.9" = _l7IgDKmK;
         "fabric-1.21.10" = _l7IgDKmK;
         "fabric-1.21.11" = _l7IgDKmK;
+        "fabric-26.1" = _LzmGBWcf;
+        "fabric-26.1.1" = _LzmGBWcf;
+        "fabric-26.1.2" = _LzmGBWcf;
+        "fabric-26.2" = _LzmGBWcf;
         "quilt-1.19" = _UgicmtwW;
         "quilt-22w24a" = _dzaKCTDt;
         "quilt-1.19.1-pre1" = _dzaKCTDt;
@@ -214,6 +224,10 @@ let
         "quilt-1.21.9" = _l7IgDKmK;
         "quilt-1.21.10" = _l7IgDKmK;
         "quilt-1.21.11" = _l7IgDKmK;
+        "quilt-26.1" = _LzmGBWcf;
+        "quilt-26.1.1" = _LzmGBWcf;
+        "quilt-26.1.2" = _LzmGBWcf;
+        "quilt-26.2" = _LzmGBWcf;
         "bukkit-1.19" = _UgicmtwW;
         "bukkit-1.19.1" = _UgicmtwW;
         "bukkit-1.19.2" = _TiRmdpuo;
@@ -237,6 +251,10 @@ let
         "bukkit-1.21.9" = _l7IgDKmK;
         "bukkit-1.21.10" = _l7IgDKmK;
         "bukkit-1.21.11" = _l7IgDKmK;
+        "bukkit-26.1" = _LzmGBWcf;
+        "bukkit-26.1.1" = _LzmGBWcf;
+        "bukkit-26.1.2" = _LzmGBWcf;
+        "bukkit-26.2" = _LzmGBWcf;
         "paper-1.19" = _UgicmtwW;
         "paper-1.19.1" = _UgicmtwW;
         "paper-1.19.2" = _TiRmdpuo;
@@ -260,6 +278,10 @@ let
         "paper-1.21.9" = _l7IgDKmK;
         "paper-1.21.10" = _l7IgDKmK;
         "paper-1.21.11" = _l7IgDKmK;
+        "paper-26.1" = _LzmGBWcf;
+        "paper-26.1.1" = _LzmGBWcf;
+        "paper-26.1.2" = _LzmGBWcf;
+        "paper-26.2" = _LzmGBWcf;
         "purpur-1.19" = _UgicmtwW;
         "purpur-1.19.1" = _UgicmtwW;
         "purpur-1.19.2" = _TiRmdpuo;
@@ -283,6 +305,10 @@ let
         "purpur-1.21.9" = _l7IgDKmK;
         "purpur-1.21.10" = _l7IgDKmK;
         "purpur-1.21.11" = _l7IgDKmK;
+        "purpur-26.1" = _LzmGBWcf;
+        "purpur-26.1.1" = _LzmGBWcf;
+        "purpur-26.1.2" = _LzmGBWcf;
+        "purpur-26.2" = _LzmGBWcf;
         "spigot-1.19" = _UgicmtwW;
         "spigot-1.19.1" = _UgicmtwW;
         "spigot-1.19.2" = _TiRmdpuo;
@@ -306,6 +332,10 @@ let
         "spigot-1.21.9" = _l7IgDKmK;
         "spigot-1.21.10" = _l7IgDKmK;
         "spigot-1.21.11" = _l7IgDKmK;
+        "spigot-26.1" = _LzmGBWcf;
+        "spigot-26.1.1" = _LzmGBWcf;
+        "spigot-26.1.2" = _LzmGBWcf;
+        "spigot-26.2" = _LzmGBWcf;
         "pkg-1.18.2+1.0" = _W20Dnblk;
         "pkg-1.18.2+1.1" = _F78vfcLB;
         "pkg-1.18.2+1.2" = _uH6oVil5;
@@ -332,7 +362,8 @@ let
         "pkg-1.9.0+1.20.1" = _WsWbXUCz;
         "pkg-1.9.0+1.21.8" = _uJS6jRGq;
         "pkg-1.9.0+1.21.9" = _l7IgDKmK;
-        "default" = _l7IgDKmK;
+        "pkg-2.0.0+26.2" = _LzmGBWcf;
+        "default" = _LzmGBWcf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tps-hud";

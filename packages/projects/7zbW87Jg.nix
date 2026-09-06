@@ -21,20 +21,28 @@ let
             "file" = "compatibleirisskyoverride-2.0.0-1.21.1.jar";
             "hash" = "sha512-FoD2c6uhTNjgol6Vb2sOVlW2ZHplZH6Ymc4by+tnOLmkNJvTOhu5/o4Rq0J1ME4dxEU75pUeeiSUZRHC9tFvYw==";
         };
+        _WAbTOyrE = {
+            "id" = "WAbTOyrE";
+            "file" = "compatibleirisskyoverride-2.1.0-1.21.11.jar";
+            "hash" = "sha512-JRuO5ZSxXloiZphsbu9rhIIAsbnivnvNjKUKTKioYNlVi0wvHU+BUsMK7cZMJCKNSQttqzI9JRMKUWDgvX7Lbg==";
+        };
     in {
         "nRqOQns1" = _nRqOQns1;
         "FRV1JFNm" = _FRV1JFNm;
         "oIXiEqSg" = _oIXiEqSg;
         "Au19Hnnb" = _Au19Hnnb;
+        "WAbTOyrE" = _WAbTOyrE;
         "fabric-1.21.4" = _oIXiEqSg;
         "fabric-1.21.5" = _nRqOQns1;
         "fabric-1.21" = _Au19Hnnb;
         "fabric-1.21.1" = _Au19Hnnb;
+        "fabric-1.21.11" = _WAbTOyrE;
         "pkg-1.0.0-1.21.4" = _nRqOQns1;
         "pkg-1.0.0-1.21.1" = _FRV1JFNm;
         "pkg-2.0.0-1.21.4" = _oIXiEqSg;
         "pkg-2.0.0-1.21.1" = _Au19Hnnb;
-        "default" = _Au19Hnnb;
+        "pkg-2.1.0-1.21.11" = _WAbTOyrE;
+        "default" = _WAbTOyrE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flashback-iris-skycoloroverridecompat";

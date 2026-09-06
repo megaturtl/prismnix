@@ -26,18 +26,25 @@ let
             "file" = "wandering_ribbit-3.0.0-neoforge-1.21.1.jar";
             "hash" = "sha512-ml88ixOkYTpah4nmQ6qm0HcPpTKoktsnBNZMllMplTxn46oymVB8tHjJYnM4MmvTjDfBqjL4qXTFZDJD6Jn+IQ==";
         };
+        _G0oeDzIe = {
+            "id" = "G0oeDzIe";
+            "file" = "wandering_ribbit-4.0-forge.jar";
+            "hash" = "sha512-rbLnxjeX1ji0qZyatDGlUttcYjbk7zsYSyaG/ZY/GIoPmcPQrqgbR+9gT+ch1MmMaGmc4ro3SyazUCkFnsCj5g==";
+        };
     in {
         "1mMT7g3P" = _1mMT7g3P;
         "cw2FEEXO" = _cw2FEEXO;
         "dSQyRy85" = _dSQyRy85;
         "TmuLuAFp" = _TmuLuAFp;
         "bApJTSYs" = _bApJTSYs;
+        "G0oeDzIe" = _G0oeDzIe;
         "neoforge-1.21.1" = _bApJTSYs;
-        "forge-1.20.1" = _TmuLuAFp;
+        "forge-1.20.1" = _G0oeDzIe;
         "pkg-1.0.0" = _1mMT7g3P;
         "pkg-2.0.0" = _dSQyRy85;
         "pkg-3.0.0" = _bApJTSYs;
-        "default" = _bApJTSYs;
+        "pkg-4.0" = _G0oeDzIe;
+        "default" = _G0oeDzIe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wandering-ribbit";

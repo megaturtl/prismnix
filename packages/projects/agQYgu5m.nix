@@ -91,6 +91,51 @@ let
             "file" = "detexturify-0.0.6+26.2.jar";
             "hash" = "sha512-0DmN1EHX30I3U9qpV1TcfhQMj6WwZnxXmGA9OEbe7c+x86RQWLgVXZxwurqmWWwzKWpdFIKsuP1h5VB9lc25Ug==";
         };
+        _3ssSBP0n = {
+            "id" = "3ssSBP0n";
+            "file" = "detexturify-0.0.7+1.21.11.jar";
+            "hash" = "sha512-2EkVV7FkcVkEXyRe6i5WAP+J2cK28oB6FNKax7CNyLpH3Q7J4moYfqQ6ldC1TEO7Dsf9Jxw7LRchJsAu5b8+Vw==";
+        };
+        _IGb70TZk = {
+            "id" = "IGb70TZk";
+            "file" = "detexturify-0.0.7+26.1.jar";
+            "hash" = "sha512-02ddJHAOzOVVVG/yxxt8JbwT3u91HIqUTZ/nqeLYv/e67CiT0hZC/ozGCZfzMpEO8KmuoxytwL7QLNXYqU3c9Q==";
+        };
+        _fsM3VvVV = {
+            "id" = "fsM3VvVV";
+            "file" = "detexturify-0.0.7+26.2.jar";
+            "hash" = "sha512-stWWOsrIoMIf6cTVh0JqEb0kN4pLCuk7Pn+E4pTWGs5cIiqhbWCfOGGWMMpMjS3Nj9xP7E1iUmya6FuPhbE3LQ==";
+        };
+        _MrBHOKio = {
+            "id" = "MrBHOKio";
+            "file" = "detexturify-0.0.8+26.1.jar";
+            "hash" = "sha512-gmsDcJVt/cQEVrummSHgDV5vEYvDcBljReBTfyk9jhSDeNtjbfVOmzE6dp1TRhHeEGkd0qyJVoCFcil0HyI1Gw==";
+        };
+        _zp5ZSO3w = {
+            "id" = "zp5ZSO3w";
+            "file" = "detexturify-0.0.8+26.2.jar";
+            "hash" = "sha512-/WmSqxX9BNKnuZyZLQne51EtXr3lcMaaawAvVEBj0n8VyOCRRatIeKDh/cqsIC8WDKRUepJcewaHs92t0zh5CQ==";
+        };
+        _ZcpwS9ic = {
+            "id" = "ZcpwS9ic";
+            "file" = "detexturify-0.0.9+26.1.jar";
+            "hash" = "sha512-ubsxYE1ZAIwOhxEAQ9P1SLHaHnj2FOBt+VxZMdThi3Ir1V5NcTZ45JMTVYkcaC79r3h64F0JJBNMOpSrAvzV2g==";
+        };
+        _DK2pk4te = {
+            "id" = "DK2pk4te";
+            "file" = "detexturify-0.0.9+26.2.jar";
+            "hash" = "sha512-ftKEH0IoxqroUclGXiLXtQs6EefG8tRtV8oVqojMAfkiAyqYCNX6du7xux9nzJ4sU5tagmfxrKrzo/YaIDuUyQ==";
+        };
+        _7U5FTBry = {
+            "id" = "7U5FTBry";
+            "file" = "detexturify-0.1.0+26.1.jar";
+            "hash" = "sha512-8m1r7GwQLB09QpH/zIAJF+FwoJkJv0IGFxdu047cROWS7Q7ilYRw6xYMPAlB+n8XzExb2DjSYxnuqzDp+PR9wg==";
+        };
+        _HjgPFENH = {
+            "id" = "HjgPFENH";
+            "file" = "detexturify-0.1.0+26.2.jar";
+            "hash" = "sha512-vIFFvBOgMOfMd65lhfctFfggtZuXmbkZ9ep4JOWdvgSByM5wGpFNML4qqG4fBc16GEoQPCVR7oQtjvmXbCHbSQ==";
+        };
     in {
         "eTnMbiNN" = _eTnMbiNN;
         "viENxcP8" = _viENxcP8;
@@ -110,18 +155,31 @@ let
         "XoH7nmCP" = _XoH7nmCP;
         "OKK8nt4v" = _OKK8nt4v;
         "OknLx7mM" = _OknLx7mM;
-        "fabric-1.21.11" = _XoH7nmCP;
-        "fabric-26.1" = _OKK8nt4v;
-        "fabric-26.1.1" = _OKK8nt4v;
-        "fabric-26.1.2" = _OKK8nt4v;
-        "fabric-26.2" = _OknLx7mM;
+        "3ssSBP0n" = _3ssSBP0n;
+        "IGb70TZk" = _IGb70TZk;
+        "fsM3VvVV" = _fsM3VvVV;
+        "MrBHOKio" = _MrBHOKio;
+        "zp5ZSO3w" = _zp5ZSO3w;
+        "ZcpwS9ic" = _ZcpwS9ic;
+        "DK2pk4te" = _DK2pk4te;
+        "7U5FTBry" = _7U5FTBry;
+        "HjgPFENH" = _HjgPFENH;
+        "fabric-1.21.11" = _3ssSBP0n;
+        "fabric-26.1" = _7U5FTBry;
+        "fabric-26.1.1" = _7U5FTBry;
+        "fabric-26.1.2" = _7U5FTBry;
+        "fabric-26.2" = _HjgPFENH;
         "pkg-0.0.1" = _nMJ0fcny;
         "pkg-0.0.2" = _VveoO8jC;
         "pkg-0.0.3" = _XGNx1lGw;
         "pkg-0.0.4" = _4K97pYlB;
         "pkg-0.0.5" = _8Ar1tTAo;
         "pkg-0.0.6" = _OknLx7mM;
-        "default" = _OknLx7mM;
+        "pkg-0.0.7" = _fsM3VvVV;
+        "pkg-0.0.8" = _zp5ZSO3w;
+        "pkg-0.0.9" = _DK2pk4te;
+        "pkg-0.1.0" = _HjgPFENH;
+        "default" = _HjgPFENH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "detexturify";

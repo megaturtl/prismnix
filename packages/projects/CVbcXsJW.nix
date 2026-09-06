@@ -111,6 +111,11 @@ let
             "file" = "blades-dungeons-1.2.1.jar";
             "hash" = "sha512-36nJqDHlcg/jkoMZaYKMISEEw+Kbo7FRtY0OctQ3Wv0M4MALtWdQYYlKIUlqExQ8Wi5j8WLJjOC3synojz76sg==";
         };
+        _FnPQ3Qy8 = {
+            "id" = "FnPQ3Qy8";
+            "file" = "bladesdungeons-2.0.0.jar";
+            "hash" = "sha512-Pi8slCVj7H9LKnOGtqYpCZv4VUxY2iogAaUzq/bc5NtLlCNUlLdAjnafMan/SSV2hAmLmqNm6djTISlJCiOZSw==";
+        };
     in {
         "5IzhCDPf" = _5IzhCDPf;
         "unO0sZpJ" = _unO0sZpJ;
@@ -134,6 +139,7 @@ let
         "QjTHtQ3T" = _QjTHtQ3T;
         "sMvmNOs9" = _sMvmNOs9;
         "DuhTR5b3" = _DuhTR5b3;
+        "FnPQ3Qy8" = _FnPQ3Qy8;
         "fabric-1.21.1" = _kqsU3eHZ;
         "fabric-1.21.2" = _Lg1d158n;
         "fabric-1.21.3" = _GbmcUkfw;
@@ -142,6 +148,7 @@ let
         "fabric-1.21.6" = _QjTHtQ3T;
         "fabric-1.21.9" = _sMvmNOs9;
         "fabric-1.21.10" = _DuhTR5b3;
+        "fabric-26.2" = _FnPQ3Qy8;
         "pkg-1.0.0" = _5IzhCDPf;
         "pkg-1.0.1" = _unO0sZpJ;
         "pkg-1.0.2" = _kqsU3eHZ;
@@ -164,7 +171,8 @@ let
         "pkg-1.1.9" = _QjTHtQ3T;
         "pkg-1.2.0" = _sMvmNOs9;
         "pkg-1.2.1" = _DuhTR5b3;
-        "default" = _DuhTR5b3;
+        "pkg-2.0.0" = _FnPQ3Qy8;
+        "default" = _FnPQ3Qy8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blades-dungeons";

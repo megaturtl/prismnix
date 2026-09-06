@@ -61,6 +61,26 @@ let
             "file" = "enderpearl-backport-1.21-1.1.5.jar";
             "hash" = "sha512-s6tzWYHtbflHGn3b4bL4WSJ9z0EgAFqJZw0RRfPaIecTJDR8HDDqzsfRUftKMFsIiYCx4ezomCuQVVP/EREm0w==";
         };
+        _J4g4LYrL = {
+            "id" = "J4g4LYrL";
+            "file" = "enderpearl-backport-1.20.5-1.21.1-2.0.0.jar";
+            "hash" = "sha512-GSxfSVNJEHTLMl/Mck3ijcHBrgo/rF96plPn3TlWSOA0NelQ5sK9tQX2JuWfdf+wklmjHnZsw9IJ3Nvvf/nZQA==";
+        };
+        _O1wpGPWG = {
+            "id" = "O1wpGPWG";
+            "file" = "enderpearl-backport-1.19.4-1.20.4-2.0.0.jar";
+            "hash" = "sha512-3TPy1l/ufhH2g0Uuo0i62VjD16DiUXSkmsiAz70hSmeNxIe47AtO48PGqkQpbhICNiP1UT5jGNsRqXUSCnfi4w==";
+        };
+        _8WuvYth2 = {
+            "id" = "8WuvYth2";
+            "file" = "enderpearl-backport-1.19.4-1.20.4-2.0.1.jar";
+            "hash" = "sha512-abko49fopKPsvu0C6F9HnJwsh6POWPQ2YD5S8a7pHbzzyO30Qth45rdD0WG+iPJN6s3Hr0YUglujY3yc0QBRBg==";
+        };
+        _PWGe5r6X = {
+            "id" = "PWGe5r6X";
+            "file" = "enderpearl-backport-1.20.5-1.21.1-2.0.1.jar";
+            "hash" = "sha512-coL5lw+EyFdNC1cs/MslZ2UayvwyNWWBJiPJk5Gp45sc1Y2dvYGcD+4GIbURvQXe/wMJuH1oIP4RUbeTqJODjw==";
+        };
     in {
         "XSdPWCo0" = _XSdPWCo0;
         "FYkfuZlB" = _FYkfuZlB;
@@ -74,17 +94,22 @@ let
         "yo23vh2M" = _yo23vh2M;
         "x4gDAOor" = _x4gDAOor;
         "iNDHgEJS" = _iNDHgEJS;
+        "J4g4LYrL" = _J4g4LYrL;
+        "O1wpGPWG" = _O1wpGPWG;
+        "8WuvYth2" = _8WuvYth2;
+        "PWGe5r6X" = _PWGe5r6X;
         "neoforge-1.21" = _FYkfuZlB;
         "neoforge-1.21.1" = _FYkfuZlB;
-        "fabric-1.21" = _iNDHgEJS;
-        "fabric-1.21.1" = _iNDHgEJS;
-        "fabric-1.20" = _x4gDAOor;
-        "fabric-1.20.1" = _x4gDAOor;
-        "fabric-1.20.2" = _x4gDAOor;
-        "fabric-1.20.3" = _x4gDAOor;
-        "fabric-1.20.4" = _x4gDAOor;
-        "fabric-1.20.5" = _x4gDAOor;
-        "fabric-1.20.6" = _x4gDAOor;
+        "fabric-1.21" = _PWGe5r6X;
+        "fabric-1.21.1" = _PWGe5r6X;
+        "fabric-1.20" = _8WuvYth2;
+        "fabric-1.20.1" = _8WuvYth2;
+        "fabric-1.20.2" = _8WuvYth2;
+        "fabric-1.20.3" = _8WuvYth2;
+        "fabric-1.20.4" = _8WuvYth2;
+        "fabric-1.20.5" = _PWGe5r6X;
+        "fabric-1.20.6" = _PWGe5r6X;
+        "fabric-1.19.4" = _8WuvYth2;
         "pkg-1.0.0" = _XSdPWCo0;
         "pkg-1.1" = _saim8B0N;
         "pkg-1.1.1" = _USGJocp5;
@@ -92,7 +117,9 @@ let
         "pkg-1.1.3" = _y3X6z96U;
         "pkg-1.1.4" = _yo23vh2M;
         "pkg-1.1.5" = _iNDHgEJS;
-        "default" = _iNDHgEJS;
+        "pkg-2.0.0" = _O1wpGPWG;
+        "pkg-2.0.1" = _PWGe5r6X;
+        "default" = _PWGe5r6X;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enderpearl-backport";

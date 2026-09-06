@@ -271,6 +271,36 @@ let
             "file" = "alivecombat-1.5.7-all.jar";
             "hash" = "sha512-iuxxrWvFlMMoNjpaQTBGlzDrQwbKH4Mszy56TaF59jMJdT9HQny8MeMlXcoD2uZNghWbCR+24TZI4XQw6UwXsA==";
         };
+        _2ODkbh3L = {
+            "id" = "2ODkbh3L";
+            "file" = "alivecombat-1.5.8-all.jar";
+            "hash" = "sha512-kDr1x28l0laP7GdV1nUsNSCx/TramJgmZWJgyOU3hMsyHCer7/gy048HO0NQN58O+F4LA4L7wf0vdyV3JM3U+A==";
+        };
+        _hvJkfBZg = {
+            "id" = "hvJkfBZg";
+            "file" = "alivecombat-1.5.8.jar";
+            "hash" = "sha512-lTNMrzN2D/vG+KVCF/J4yelv83+CC1H9b/bviGHBNjTafp60fLAipeM/2cGeNftskbeugSIYSDiClwBHfHYt9Q==";
+        };
+        _1M0i1SOZ = {
+            "id" = "1M0i1SOZ";
+            "file" = "alivecombat-1.5.9.jar";
+            "hash" = "sha512-HtsfbdVt2lzEmHPurqmd3T1eeXvJFnY2LoFaa7SE6gOEDOSvY06z6y4KQeWz9YvOy7JQ2TzCHoZAfv0gczRP1g==";
+        };
+        _bqgkouZE = {
+            "id" = "bqgkouZE";
+            "file" = "alivecombat-1.5.9.jar";
+            "hash" = "sha512-8v4DFdOU2YLDx6McEuC8PGtsl6jHAAvMl4/uPHZMvZSiKrhWCZgvIKssyYpLgN6ej0gd8qfd3Bs2nRij4CpCUg==";
+        };
+        _XAQRF009 = {
+            "id" = "XAQRF009";
+            "file" = "alivecombat-1.5.9-all.jar";
+            "hash" = "sha512-5IAioA09MR+1SRfd7SbHhnvn72U7fJo3V4qeNxDUGbi9ogbuVtEtqwKECAqyRyF+bSnsJ3FKPW2FQTEIsbKs6Q==";
+        };
+        _ImMNQhbS = {
+            "id" = "ImMNQhbS";
+            "file" = "alivecombat-1.5.9.jar";
+            "hash" = "sha512-kUmJf5mvEtRGfW7UfQeYHI2cTfZ6pX9p1WUa7hTB6ekPTiLAQufYmpwE/sSf6akH8CIz3irvH4G1EMlyihfNZA==";
+        };
     in {
         "Ar8CTtRS" = _Ar8CTtRS;
         "24121970" = _24121970;
@@ -326,15 +356,21 @@ let
         "xUMM670o" = _xUMM670o;
         "OcWC11D1" = _OcWC11D1;
         "flqMjCM7" = _flqMjCM7;
+        "2ODkbh3L" = _2ODkbh3L;
+        "hvJkfBZg" = _hvJkfBZg;
+        "1M0i1SOZ" = _1M0i1SOZ;
+        "bqgkouZE" = _bqgkouZE;
+        "XAQRF009" = _XAQRF009;
+        "ImMNQhbS" = _ImMNQhbS;
         "forge-1.19.3" = _Mvqlf3cx;
         "forge-1.19.2" = _Mvqlf3cx;
-        "forge-1.20.1" = _flqMjCM7;
+        "forge-1.20.1" = _XAQRF009;
         "neoforge-1.20.4" = _EMqCwufD;
-        "neoforge-1.21.1" = _EJnbqpMG;
-        "neoforge-1.20.6" = _OcWC11D1;
+        "neoforge-1.21.1" = _1M0i1SOZ;
+        "neoforge-1.20.6" = _ImMNQhbS;
         "neoforge-1.21.10" = _c9YWlegc;
-        "neoforge-1.21.11" = _Hzc9qUGK;
-        "neoforge-1.20.1" = _flqMjCM7;
+        "neoforge-1.21.11" = _bqgkouZE;
+        "neoforge-1.20.1" = _XAQRF009;
         "pkg-1.1" = _Ar8CTtRS;
         "pkg-1.2" = _q38h5tW4;
         "pkg-1.3" = _Mvqlf3cx;
@@ -360,7 +396,9 @@ let
         "pkg-1.5.5" = _IgTyaSLf;
         "pkg-1.5.6" = _OcWC11D1;
         "pkg-1.5.7" = _flqMjCM7;
-        "default" = _flqMjCM7;
+        "pkg-1.5.8" = _hvJkfBZg;
+        "pkg-1.5.9" = _ImMNQhbS;
+        "default" = _ImMNQhbS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "alivecombat";

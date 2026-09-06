@@ -376,6 +376,41 @@ let
             "file" = "cp_bop-3.5.5-neoforge-26.1.2.jar";
             "hash" = "sha512-6Gh0sHCRDDmdS71elcflWGaR6Mwh5Uy2k6duIQlCZoEXl6ST74R7GcXg9aYYPeQvbb7NfW4jt1yYf8onKd1P7A==";
         };
+        _SIMW0ems = {
+            "id" = "SIMW0ems";
+            "file" = "cp_bop-3.5.5-neoforge-1.20.6.jar";
+            "hash" = "sha512-bB24s/3yQO5fJTytOoL9Dd6PfvMYberPZckKB6G5CZ6xVxIGvsdAxL4QPp1wtL1ZdRAf1CZChHMmhZJL0TD0Ng==";
+        };
+        _AVR8hMZH = {
+            "id" = "AVR8hMZH";
+            "file" = "cp_bop-3.5.5-neoforge-1.20.1.jar";
+            "hash" = "sha512-GjPhtk6PywQhM52s01E9+1LBBry/hOFfkk+Y/FuI6UuWNgJr/HeA6Iwu+D8TnW6KuO0uX2V2wjmmBrP1zBOaBw==";
+        };
+        _PQbDwJEM = {
+            "id" = "PQbDwJEM";
+            "file" = "cp_bop-3.5.5-neoforge-1.20.4.jar";
+            "hash" = "sha512-dLdS+QbKNnEhsPqWSDngoNRLbUOBBofvaF9nbC7SFLzh4HY00siMEepwvZji7hSOyKUcdWRFbSQCaqvjUtAPvw==";
+        };
+        _v2MKD4fg = {
+            "id" = "v2MKD4fg";
+            "file" = "cp_bop-3.5.6-fabric-26.1.2.jar";
+            "hash" = "sha512-MS/VwYTF9B5zwU++g4wj+NzsJNSYPzWwcHfs8UPtjd4C42kg/6e5r6cp++//2/i9BVDsfEHbCU/LizUD0724hg==";
+        };
+        _168ZULnL = {
+            "id" = "168ZULnL";
+            "file" = "cp_bop-3.5.6-neoforge-26.1.2.jar";
+            "hash" = "sha512-0GYB2besWKulaZATVTwIsTwQdjR9FMSZbmLmHDANZ5GG1fFrMw/PLss+V6h/CdX2FimmvhQAON1uyY4wktoC+Q==";
+        };
+        _vmLQYnRx = {
+            "id" = "vmLQYnRx";
+            "file" = "cp_bop-3.5.6-neoforge-26.2.jar";
+            "hash" = "sha512-ZrV7bGp1IeaIGrf2FcoGr9s4CkV8mk6beillngwVof3ztyH2owbwKThyypA7Be2hBhfDX8z4jL6kxGlGpd5JhQ==";
+        };
+        _CjJjadKU = {
+            "id" = "CjJjadKU";
+            "file" = "cp_bop-3.5.6-fabric-26.2.jar";
+            "hash" = "sha512-vS984oacq0Ap5em3vpgTTwp3KQB7i3n+T4wdOB2Exe7DDPsC0K+xXxrsyXB32OO15bVHCVx67L3JliQ13NDbJA==";
+        };
     in {
         "CMd1h7U4" = _CMd1h7U4;
         "bfhzcylr" = _bfhzcylr;
@@ -452,14 +487,21 @@ let
         "sFJkiKSE" = _sFJkiKSE;
         "cV3dcSEH" = _cV3dcSEH;
         "LeLnK3p0" = _LeLnK3p0;
+        "SIMW0ems" = _SIMW0ems;
+        "AVR8hMZH" = _AVR8hMZH;
+        "PQbDwJEM" = _PQbDwJEM;
+        "v2MKD4fg" = _v2MKD4fg;
+        "168ZULnL" = _168ZULnL;
+        "vmLQYnRx" = _vmLQYnRx;
+        "CjJjadKU" = _CjJjadKU;
         "forge-1.20.1" = _RLe8HZIc;
         "forge-1.19.4" = _V6V61lt5;
         "forge-1.19.2" = _qt8AG6D1;
         "forge-1.18.2" = _G1fsTzDU;
         "forge-1.17.1" = _XdBvKD5l;
         "forge-1.16.5" = _zlNRMYYp;
-        "neoforge-1.20.6" = _7c5GXHdV;
-        "neoforge-1.20.4" = _RELmU7Z4;
+        "neoforge-1.20.6" = _SIMW0ems;
+        "neoforge-1.20.4" = _PQbDwJEM;
         "neoforge-1.21" = _4qKITiEI;
         "neoforge-1.21.1" = _28T8uWKg;
         "neoforge-1.21.4" = _sFJkiKSE;
@@ -469,22 +511,23 @@ let
         "neoforge-1.21.8" = _cV3dcSEH;
         "neoforge-26.1" = _LeLnK3p0;
         "neoforge-26.1.1" = _LeLnK3p0;
-        "neoforge-26.1.2" = _LeLnK3p0;
-        "neoforge-26.2" = _LeLnK3p0;
-        "fabric-26.1" = _2hoHiYMg;
-        "fabric-26.1.1" = _2hoHiYMg;
-        "fabric-26.1.2" = _2hoHiYMg;
+        "neoforge-26.1.2" = _168ZULnL;
+        "neoforge-26.2" = _vmLQYnRx;
+        "neoforge-1.20.1" = _AVR8hMZH;
+        "fabric-26.1" = _v2MKD4fg;
+        "fabric-26.1.1" = _v2MKD4fg;
+        "fabric-26.1.2" = _v2MKD4fg;
         "fabric-1.21.6" = _wvCwBzAC;
         "fabric-1.21.7" = _wvCwBzAC;
         "fabric-1.21.8" = _wvCwBzAC;
-        "fabric-26.2" = _2hoHiYMg;
+        "fabric-26.2" = _CjJjadKU;
         "quilt-1.21.6" = _wvCwBzAC;
         "quilt-1.21.7" = _wvCwBzAC;
         "quilt-1.21.8" = _wvCwBzAC;
-        "quilt-26.1" = _2hoHiYMg;
-        "quilt-26.1.1" = _2hoHiYMg;
-        "quilt-26.1.2" = _2hoHiYMg;
-        "quilt-26.2" = _2hoHiYMg;
+        "quilt-26.1" = _v2MKD4fg;
+        "quilt-26.1.1" = _v2MKD4fg;
+        "quilt-26.1.2" = _v2MKD4fg;
+        "quilt-26.2" = _CjJjadKU;
         "pkg-1.0.0" = _CMd1h7U4;
         "pkg-2.0.0" = _gk1KvudI;
         "pkg-3.0.0.23" = _EbZmAWNZ;
@@ -518,8 +561,9 @@ let
         "pkg-3.5.2-beta" = _itfFIPpD;
         "pkg-3.5.3-beta" = _JQkFId59;
         "pkg-3.5.4-beta" = _QUvY5sld;
-        "pkg-3.5.5" = _LeLnK3p0;
-        "default" = _LeLnK3p0;
+        "pkg-3.5.5" = _PQbDwJEM;
+        "pkg-3.5.6" = _CjJjadKU;
+        "default" = _CjJjadKU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bop-legacy-reborn-croparium";

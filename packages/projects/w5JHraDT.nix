@@ -51,6 +51,11 @@ let
             "file" = "Bel's Stylized.zip";
             "hash" = "sha512-ha9C9tQereDQmBhv5CRtBLCYyEne08eheoOSXb4CnOu7efv1cbn4RWDibUdK8cMF7AwRhQ9QALAwi6DXpjiHTg==";
         };
+        _URdj4hjD = {
+            "id" = "URdj4hjD";
+            "file" = "Bel's Stylized.zip";
+            "hash" = "sha512-oKjAsootfybvHQNI4TqZySs2YE15M2XuUDsSZpe+wX5gf4GVgZbzNF1vJentU70AxB9c+JuyrNv1/H8lt0u5AQ==";
+        };
     in {
         "tCUw0FfH" = _tCUw0FfH;
         "FlgpJyMK" = _FlgpJyMK;
@@ -62,6 +67,7 @@ let
         "NDd1DLEk" = _NDd1DLEk;
         "JK6iwItW" = _JK6iwItW;
         "3Cz5v1S1" = _3Cz5v1S1;
+        "URdj4hjD" = _URdj4hjD;
         "minecraft-1.21.5" = _tCUw0FfH;
         "minecraft-1.21.6" = _FlgpJyMK;
         "minecraft-1.21.7" = _u5QpOSuO;
@@ -70,7 +76,7 @@ let
         "minecraft-26.1" = _NDd1DLEk;
         "minecraft-26.1.1" = _NDd1DLEk;
         "minecraft-26.1.2" = _JK6iwItW;
-        "minecraft-26.2" = _3Cz5v1S1;
+        "minecraft-26.2" = _URdj4hjD;
         "pkg-1.31" = _tCUw0FfH;
         "pkg-1.32" = _FlgpJyMK;
         "pkg-1.32.5" = _u5QpOSuO;
@@ -81,7 +87,8 @@ let
         "pkg-1.37" = _NDd1DLEk;
         "pkg-1.37.5" = _JK6iwItW;
         "pkg-1.38" = _3Cz5v1S1;
-        "default" = _3Cz5v1S1;
+        "pkg-1.38.5" = _URdj4hjD;
+        "default" = _URdj4hjD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "belzephyrs-stylized-textures";

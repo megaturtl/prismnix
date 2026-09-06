@@ -81,6 +81,21 @@ let
             "file" = "SilkTouchPlus-1.0.5-a_1.21.11.jar";
             "hash" = "sha512-Ki3dCGQO8/u+MfdUWLkMf+bigOvbIamGw9wNwV8YSDROaV0LvWZAAjWncR2QBhPhOWnm946uEkOWe2dZOx8k6w==";
         };
+        _CckvR3zn = {
+            "id" = "CckvR3zn";
+            "file" = "SilkTouchPlus-1.2.0_1.21.9-1.21.10.jar";
+            "hash" = "sha512-ZhwG3JfoK/NZSj2Hd6RG5QLnSiS2bsgksAQ2k/REv61DAbucOtKVAJDk93mGOwo8aszaZZyVIcudwgbIOF5e+g==";
+        };
+        _8rlpnddb = {
+            "id" = "8rlpnddb";
+            "file" = "SilkTouchPlus-1.2.1_1.21.11.jar";
+            "hash" = "sha512-yDxbgumbIQ1gp5pD2gIt3/nXbo2qPbJsl8OR4ooh1yeieX/p29bGLYZ+1cvZAf0JplmOV63TrXPTleww5C1aSw==";
+        };
+        _gSmC4hIA = {
+            "id" = "gSmC4hIA";
+            "file" = "SilkTouchPlus-1.2.1_26.1-26.2.jar";
+            "hash" = "sha512-JK/N4JyOwTvNNG80bhJ3lp0ozec+aF9zwL8cUlzUsCsCZ0GzOQ/YAQtDf1Evx9poIRUTnMdEfemmTwF0l4dndg==";
+        };
     in {
         "OEPMid8R" = _OEPMid8R;
         "PXiGnL20" = _PXiGnL20;
@@ -98,6 +113,9 @@ let
         "BAKZnInB" = _BAKZnInB;
         "V9PyKBCl" = _V9PyKBCl;
         "h6bpbXql" = _h6bpbXql;
+        "CckvR3zn" = _CckvR3zn;
+        "8rlpnddb" = _8rlpnddb;
+        "gSmC4hIA" = _gSmC4hIA;
         "fabric-1.20.1" = _r5wypHMV;
         "fabric-1.20" = _r5wypHMV;
         "fabric-1.20.2" = _r5wypHMV;
@@ -114,7 +132,13 @@ let
         "fabric-1.21.6" = _V9PyKBCl;
         "fabric-1.21.7" = _V9PyKBCl;
         "fabric-1.21.8" = _V9PyKBCl;
-        "fabric-1.21.11" = _h6bpbXql;
+        "fabric-1.21.11" = _8rlpnddb;
+        "fabric-1.21.9" = _CckvR3zn;
+        "fabric-1.21.10" = _CckvR3zn;
+        "fabric-26.1" = _gSmC4hIA;
+        "fabric-26.1.1" = _gSmC4hIA;
+        "fabric-26.1.2" = _gSmC4hIA;
+        "fabric-26.2" = _gSmC4hIA;
         "pkg-0.4.2_1.20.1" = _OEPMid8R;
         "pkg-0.4.3_1.20.1" = _PXiGnL20;
         "pkg-0.4.4_1.20-1.20.4" = _r5wypHMV;
@@ -131,7 +155,10 @@ let
         "pkg-1.0.5_1.21.5-1.21.7" = _BAKZnInB;
         "pkg-1.0.5_1.21.5-1.21.8" = _V9PyKBCl;
         "pkg-1.0.5-a_1.21.11" = _h6bpbXql;
-        "default" = _h6bpbXql;
+        "pkg-1.2.0_1.21.9-1.21.10" = _CckvR3zn;
+        "pkg-1.2.1_1.21.11" = _8rlpnddb;
+        "pkg-1.2.1_26.1-26.2" = _gSmC4hIA;
+        "default" = _gSmC4hIA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "silktouch+";
@@ -139,12 +166,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "LicenseRef-All-Rights-Reserved";
-                shortName = "LicenseRef-All-Rights-Reserved";
+                fullName = "GNU General Public License v3.0 or later";
+                shortName = "GPL-3.0-or-later";
                 url = null;
             };
         };

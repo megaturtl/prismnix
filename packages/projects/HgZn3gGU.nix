@@ -61,6 +61,36 @@ let
             "file" = "forest_ruins-1.0.1-fabric-1.21.11.jar";
             "hash" = "sha512-1nbUQmArpbD0oH2/edXz5UL1lSEmNGUOwtNHG32/hWoKh4Mxjc2WL3OMOd4gNAlOa77iCfVvLDNSO/P3SenFjg==";
         };
+        _6DguRAji = {
+            "id" = "6DguRAji";
+            "file" = "forest_ruins-1.0.0 Fabric 1.21.1.jar";
+            "hash" = "sha512-r5m71pJ9hOHUxReCupap5YMxc7E39P8VpyUO9PrDu/3p/TF+ZIEILlM82VNS7FcjeXeKeAlUDRkmv8CwiqyPTg==";
+        };
+        _iSgTowGv = {
+            "id" = "iSgTowGv";
+            "file" = "forest_ruins-1.0.0 Neoforge 1.21.11.jar";
+            "hash" = "sha512-yWFe7BSrzuCOvDIQuNDbwRyjAequwUvqdGE3JNNJVWZ7Q+1cewKLjeOoi7KSHiRc9eMGLTy/3BVYU6s9WR3T3A==";
+        };
+        _EXCAi9Dv = {
+            "id" = "EXCAi9Dv";
+            "file" = "forest_ruins-1.0.0 Fabric 26.1.2.jar";
+            "hash" = "sha512-5sRXTUHl8msgptJPTaHgXiAm+1g5+rNsU0PgaKFiOs2Bp5ef0suzOBQae/fRnDEWCzXVenXqIBGYp/0j4PW+MQ==";
+        };
+        _xxBd2DfR = {
+            "id" = "xxBd2DfR";
+            "file" = "forest_ruins-1.0.0 Neoforge 26.1.2.jar";
+            "hash" = "sha512-4eYtvt8FGan2Ien3kQo3qoK5WtF6I0EHcdQTMCSoR5FzUVawtH79KnYD8+gAT7KHbCtyIg86UzvOodqvXgCErQ==";
+        };
+        _KHZhmeaL = {
+            "id" = "KHZhmeaL";
+            "file" = "forest_ruins-1.0.0 Fabric 26.2.jar";
+            "hash" = "sha512-MQHtNV090iVbRkxXvAzciS+Lshh41sI81VuaIx67wu7SRsrSfbnjqGrAQmBUieFtjfwHZ6YVgJ/U14oqVp8KkQ==";
+        };
+        _tqXTl03k = {
+            "id" = "tqXTl03k";
+            "file" = "forest_ruins-1.0.0 Neoforge 26.2.jar";
+            "hash" = "sha512-OJ4nyM5+v1OLkZhpBEgaRDWwl8KCon032l5dFhWeCm06+tIRPw+r76p+pGnHl5oFNjnSGdizLrIABQ42baJqiw==";
+        };
     in {
         "UOUrScTX" = _UOUrScTX;
         "HS3T8C8B" = _HS3T8C8B;
@@ -74,6 +104,12 @@ let
         "UrT79mCb" = _UrT79mCb;
         "Y7nJQeu9" = _Y7nJQeu9;
         "9ub2s1jj" = _9ub2s1jj;
+        "6DguRAji" = _6DguRAji;
+        "iSgTowGv" = _iSgTowGv;
+        "EXCAi9Dv" = _EXCAi9Dv;
+        "xxBd2DfR" = _xxBd2DfR;
+        "KHZhmeaL" = _KHZhmeaL;
+        "tqXTl03k" = _tqXTl03k;
         "forge-1.17.1" = _UOUrScTX;
         "forge-1.18.2" = _HS3T8C8B;
         "forge-1.19.2" = _vPnml0Aq;
@@ -82,12 +118,18 @@ let
         "fabric-1.21.8" = _UrT79mCb;
         "fabric-1.21.10" = _Y7nJQeu9;
         "fabric-1.21.11" = _9ub2s1jj;
+        "fabric-1.21.1" = _6DguRAji;
+        "fabric-26.1.2" = _EXCAi9Dv;
+        "fabric-26.2" = _KHZhmeaL;
         "neoforge-1.21.1" = _QmCe1Fcg;
         "neoforge-1.21.4" = _3V2ygsHA;
         "neoforge-1.21.8" = _YJ08D76c;
-        "pkg-1.0.0" = _9ub2s1jj;
+        "neoforge-1.21.11" = _iSgTowGv;
+        "neoforge-26.1.2" = _xxBd2DfR;
+        "neoforge-26.2" = _tqXTl03k;
+        "pkg-1.0.0" = _tqXTl03k;
         "pkg-1.0.1" = _UrT79mCb;
-        "default" = _9ub2s1jj;
+        "default" = _tqXTl03k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "forest-ruins";

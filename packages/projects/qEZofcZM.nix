@@ -191,6 +191,81 @@ let
             "file" = "viltrumitecore-forge-1.6.2.jar";
             "hash" = "sha512-y6XzXtthM4BfIAnulT6lOfJZ3mi7A4UELfCkK7ykaAe7wphH/AZIGpal7qJR2D5cbDzX02xkMgOYmw6XCvwyuw==";
         };
+        _wDkJHtJa = {
+            "id" = "wDkJHtJa";
+            "file" = "viltrumitecore-1.7.0.jar";
+            "hash" = "sha512-6/L5HfuDDjJJOMRmJpXUyYsZ8GZ7DMxBFIKHKB+IRzZeSNO848PpL9wnrhCAg0GchmaxBapS5JlapOkvMzw6sw==";
+        };
+        _tv4TAgUv = {
+            "id" = "tv4TAgUv";
+            "file" = "viltrumitecore-forge-1.7.0.jar";
+            "hash" = "sha512-APmKg9hR6n+/GSozoQpqV0J7oeN2ayGaoQsSY5E862Vv3FD5FM89PWskEaoUgd8/M8qgOkRTZHdHyi5Hv/xEkQ==";
+        };
+        _v750d3Ku = {
+            "id" = "v750d3Ku";
+            "file" = "viltrumitecore-forge-1.7.0.1.jar";
+            "hash" = "sha512-DmBbajO2dd98CgswEHFgNfZ+Mu6FGEW6i9nr88ZqOd9CfcaUp1LNQVEEhBQ2A0DPzAxw+0bFlg7/jTbK5GSDwQ==";
+        };
+        _amybzUcN = {
+            "id" = "amybzUcN";
+            "file" = "viltrumitecore-1.7.1.jar";
+            "hash" = "sha512-pgzGmMUJrcVogyRBhGtkHbOr41sD1vsu7fm0Uc81HiNoH7DKba1XMchJDGt1PoEZPVh8DkRRa8p10sk5s0wy9A==";
+        };
+        _dsnwCzV4 = {
+            "id" = "dsnwCzV4";
+            "file" = "viltrumitecore-forge-1.7.1.jar";
+            "hash" = "sha512-IAHehyADJNFQrMapmGFw0avOwL5iqVcCm4qqmgo52FavNp4l4Aefq2ZM4NVT3SjtSYgHeIhSLqMemPO8fNQAVQ==";
+        };
+        _9Vw8hR6W = {
+            "id" = "9Vw8hR6W";
+            "file" = "viltrumitecore-1.7.2.jar";
+            "hash" = "sha512-8Q1FNdg8ki9XKFFMoDe6OpMBvLWmhZJHh6JcuqUgyGBS0imBkQOE/lKQDUuO26bjN/0umTqZBC1YDjVW1jJE+Q==";
+        };
+        _JMrXFyu5 = {
+            "id" = "JMrXFyu5";
+            "file" = "viltrumitecore-forge-1.7.2.jar";
+            "hash" = "sha512-cIjC2XNknfHRJZjgDUewjuTCxlCdMcnK9CsZKpTyDYQlJvaGKsv/oaccAbPYYyQzmScZ2xeeNQ8nDvFrd87rUw==";
+        };
+        _SHVLhYAW = {
+            "id" = "SHVLhYAW";
+            "file" = "viltrumitecore-1.7.3.jar";
+            "hash" = "sha512-cJndwrYyLKkdw5YSJrNXDgizWpi1c1ODVGkRyGYbkZ0Z+pACrda5rLTI1E9Ee1YcnIU7ULz2Iua+nG6ezovpYg==";
+        };
+        _MIPWZJeA = {
+            "id" = "MIPWZJeA";
+            "file" = "viltrumitecore-forge-1.7.3.jar";
+            "hash" = "sha512-303voisssAI35pSwzrupkV343Wv+T5NmsIIcLbND6PUMXtAT51/yoMUb1LZZNJmJCFov9QHdZp9ELWmYjRFL2A==";
+        };
+        _ILV9hyPw = {
+            "id" = "ILV9hyPw";
+            "file" = "viltrumitecore-1.8.0.jar";
+            "hash" = "sha512-UDVw1xq7V7dqPt/LTD1PayvHjFiSLaa0NE/4ztsGYdpzF37OkEK0PwW/U/EFxGi/1jSxlr3vs/v1lKMzHYNhog==";
+        };
+        _9LNnTwKc = {
+            "id" = "9LNnTwKc";
+            "file" = "viltrumitecore-forge-1.8.0.jar";
+            "hash" = "sha512-sJiARRJWDS4KkXJKk5VINCYwi9eHLXoQukTNWCHWm2RgeJci/NDCP7V2aMDGtYCN7EaI4SJiOnoVTZILmHSskw==";
+        };
+        _Rs33JgZx = {
+            "id" = "Rs33JgZx";
+            "file" = "viltrumitecore-1.8.1.jar";
+            "hash" = "sha512-ufJeBP8C92SNxsEaLeFahsM6qJIoXfCGQNKM1+nqtUXEgWRfPmhNmnWzuxBJ5caTQIEvPJTm8E9GtBM+PwrqQw==";
+        };
+        _DHktBmiw = {
+            "id" = "DHktBmiw";
+            "file" = "viltrumitecore-forge-1.8.1.jar";
+            "hash" = "sha512-SNMiqF1B565JWNJ6al0FbnQx6QpkIuswcKc1WlNfIuZleyDOfEvtrzWJrM+zXA9bNddaMRAAbJIJmLKuWq9KIA==";
+        };
+        _ekqFYxgl = {
+            "id" = "ekqFYxgl";
+            "file" = "viltrumitecore-1.8.2.jar";
+            "hash" = "sha512-SBZvR/b7y+doWE8PpKa8rReOGJRUdEYZFd1PDqwB/4HGaL94uG17EvyeT09YCOguLpx3Rr5gHrVgTnjV17yhOA==";
+        };
+        _RNZxNyoT = {
+            "id" = "RNZxNyoT";
+            "file" = "viltrumitecore-forge-1.8.2.jar";
+            "hash" = "sha512-Iv7zRy65jzYLJlSXjzQ/VCg1kgEthebYVh0T6g1Qal/gAJrDbEL621yxq+ManBlo6z7OkFr2nw4DdTvO2ZYCtg==";
+        };
     in {
         "v3nGJWR3" = _v3nGJWR3;
         "4RoijOVZ" = _4RoijOVZ;
@@ -230,8 +305,23 @@ let
         "dXddyt85" = _dXddyt85;
         "GvT31u8z" = _GvT31u8z;
         "HidnPIDE" = _HidnPIDE;
-        "fabric-1.20.1" = _GvT31u8z;
-        "forge-1.20.1" = _HidnPIDE;
+        "wDkJHtJa" = _wDkJHtJa;
+        "tv4TAgUv" = _tv4TAgUv;
+        "v750d3Ku" = _v750d3Ku;
+        "amybzUcN" = _amybzUcN;
+        "dsnwCzV4" = _dsnwCzV4;
+        "9Vw8hR6W" = _9Vw8hR6W;
+        "JMrXFyu5" = _JMrXFyu5;
+        "SHVLhYAW" = _SHVLhYAW;
+        "MIPWZJeA" = _MIPWZJeA;
+        "ILV9hyPw" = _ILV9hyPw;
+        "9LNnTwKc" = _9LNnTwKc;
+        "Rs33JgZx" = _Rs33JgZx;
+        "DHktBmiw" = _DHktBmiw;
+        "ekqFYxgl" = _ekqFYxgl;
+        "RNZxNyoT" = _RNZxNyoT;
+        "fabric-1.20.1" = _ekqFYxgl;
+        "forge-1.20.1" = _RNZxNyoT;
         "pkg-1.0.0" = _v3nGJWR3;
         "pkg-1.0.1" = _4RoijOVZ;
         "pkg-1.0.2" = _xLpuGg8p;
@@ -258,7 +348,15 @@ let
         "pkg-1.6.0" = _f5sdqud5;
         "pkg-1.6.1" = _dXddyt85;
         "pkg-1.6.2" = _HidnPIDE;
-        "default" = _HidnPIDE;
+        "pkg-1.7.0" = _tv4TAgUv;
+        "pkg-1.7.0.1" = _v750d3Ku;
+        "pkg-1.7.1" = _dsnwCzV4;
+        "pkg-1.7.2" = _JMrXFyu5;
+        "pkg-1.7.3" = _MIPWZJeA;
+        "pkg-1.8.0" = _9LNnTwKc;
+        "pkg-1.8.1" = _DHktBmiw;
+        "pkg-1.8.2" = _RNZxNyoT;
+        "default" = _RNZxNyoT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "viltrumite";

@@ -81,6 +81,11 @@ let
             "file" = "gregtechmod-1.0.1.jar";
             "hash" = "sha512-fupynK9hMJUUrJgQOK3/0eACC7a5ITLfQ2x6tMtDo/Qgj927tLzoj9SLv/dsd+jAyR4rk94dSZHyADKmW6OjOA==";
         };
+        _MgIkJvS0 = {
+            "id" = "MgIkJvS0";
+            "file" = "gregtechmod-1.0.3.jar";
+            "hash" = "sha512-75avbCSouJuk1UfClfGhzEOsasQUGSxe6w0GkDoaG7wK3dkwamNbbK1KfBaZ0/UnCzPG+znebOQUIXa6DlokaQ==";
+        };
     in {
         "A53tFSfC" = _A53tFSfC;
         "FNiJ1QMy" = _FNiJ1QMy;
@@ -98,7 +103,8 @@ let
         "QC5mdOSU" = _QC5mdOSU;
         "ETJNdTGz" = _ETJNdTGz;
         "mmwiWJKN" = _mmwiWJKN;
-        "forge-1.12.2" = _mmwiWJKN;
+        "MgIkJvS0" = _MgIkJvS0;
+        "forge-1.12.2" = _MgIkJvS0;
         "pkg-0.9.30" = _A53tFSfC;
         "pkg-0.9.32" = _FNiJ1QMy;
         "pkg-0.9.34" = _7GdAkFV1;
@@ -115,7 +121,8 @@ let
         "pkg-0.9.45" = _QC5mdOSU;
         "pkg-1.0.0" = _ETJNdTGz;
         "pkg-1.0.1" = _mmwiWJKN;
-        "default" = _mmwiWJKN;
+        "pkg-1.0.3" = _MgIkJvS0;
+        "default" = _MgIkJvS0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gregtech-experimental";

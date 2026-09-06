@@ -26,19 +26,26 @@ let
             "file" = "rha-1.0.3a.jar";
             "hash" = "sha512-ykYurdWWujp3lCKLiXqWamHaai7+JZ7t3wzDhLa8GzJwOf6BrLq2H9sEXGthex7YtzT4fF83xkjiBFvF0Zx6aQ==";
         };
+        _WODSoRtT = {
+            "id" = "WODSoRtT";
+            "file" = "rha-1.0.3b.jar";
+            "hash" = "sha512-sVgBE/5f1Uh0bJdqec+Dz3DhIUtRRTYbefSlqZip6582rsU71LAucC9oj4M+C/ei85S7tQO+tqsp2ynYKQmRZw==";
+        };
     in {
         "PGW00AYT" = _PGW00AYT;
         "pbnitoUk" = _pbnitoUk;
         "CBZYal5h" = _CBZYal5h;
         "xEpTXgPb" = _xEpTXgPb;
         "QFMWmTt6" = _QFMWmTt6;
-        "neoforge-1.21.1" = _QFMWmTt6;
+        "WODSoRtT" = _WODSoRtT;
+        "neoforge-1.21.1" = _WODSoRtT;
         "pkg-1.0.0" = _PGW00AYT;
         "pkg-1.0.1" = _pbnitoUk;
         "pkg-1.0.2" = _CBZYal5h;
         "pkg-1.0.3" = _xEpTXgPb;
         "pkg-1.0.3a" = _QFMWmTt6;
-        "default" = _QFMWmTt6;
+        "pkg-1.0.3b" = _WODSoRtT;
+        "default" = _WODSoRtT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rolled-homongenous-forked";

@@ -11,10 +11,16 @@ let
             "file" = "somakespells-1.0.1.jar";
             "hash" = "sha512-PsiGPeK0q4wZoZ9Us/35le90JJWHh61WmFye1HfgQcX4/8+hrYWtdXSX+cTJUG5gGnJuNyixGSeYsVbCw19hGg==";
         };
+        _65ZxAgl8 = {
+            "id" = "65ZxAgl8";
+            "file" = "somakespells-1.0.8-1.21.1-fix.jar";
+            "hash" = "sha512-3NVqC7UDP5xIfT8k5FPQKqZ7208Xn90r48+fb7ZDgHn6iCryW26PS3UzJhKZZ2b9lbUFxPM+zaK/DtQVg5qSyQ==";
+        };
     in {
         "DkfA5ZQm" = _DkfA5ZQm;
         "RUK0ypfT" = _RUK0ypfT;
-        "neoforge-1.21.1" = _RUK0ypfT;
+        "65ZxAgl8" = _65ZxAgl8;
+        "neoforge-1.21.1" = _65ZxAgl8;
         "neoforge-1.21.2" = _RUK0ypfT;
         "neoforge-1.21.3" = _RUK0ypfT;
         "neoforge-1.21.4" = _RUK0ypfT;
@@ -27,7 +33,8 @@ let
         "neoforge-1.21.11" = _RUK0ypfT;
         "pkg-1.0.0" = _DkfA5ZQm;
         "pkg-1.0.1" = _RUK0ypfT;
-        "default" = _RUK0ypfT;
+        "pkg-1.0.8" = _65ZxAgl8;
+        "default" = _65ZxAgl8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "somake-spells-irons-spells-addon";

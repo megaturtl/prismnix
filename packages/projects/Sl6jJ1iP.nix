@@ -26,12 +26,18 @@ let
             "file" = "chickens-give-feathers-1.0.1+neoforge.1.21.4.jar";
             "hash" = "sha512-GAnAnA+txbxBdsATOrDe+ambBMoyWwV7O5cPKOO+7L2dWYXm402dQfDan/9HzxbCZbX16KTox1ULAljRbeEE3w==";
         };
+        _nf1WNpTL = {
+            "id" = "nf1WNpTL";
+            "file" = "chickens-give-feathers-fabric-1.0.1+26.1.jar";
+            "hash" = "sha512-NKibBjPax8t9soarDu0+6Rw3SCNmMXLP1FGZkfUedMCGxwUmi9BeQSwBXg3YHxugg2/cng17bbsJiBgmvxs3aA==";
+        };
     in {
         "TStAYf9g" = _TStAYf9g;
         "9dR4Wu4S" = _9dR4Wu4S;
         "WqT1qRjL" = _WqT1qRjL;
         "2MYUSlGd" = _2MYUSlGd;
         "qeWwoSzx" = _qeWwoSzx;
+        "nf1WNpTL" = _nf1WNpTL;
         "fabric-1.21.4" = _2MYUSlGd;
         "fabric-1.19" = _9dR4Wu4S;
         "fabric-1.19.1" = _9dR4Wu4S;
@@ -64,6 +70,10 @@ let
         "fabric-1.21.9" = _2MYUSlGd;
         "fabric-1.21.10" = _2MYUSlGd;
         "fabric-1.21.11" = _2MYUSlGd;
+        "fabric-26.1" = _nf1WNpTL;
+        "fabric-26.1.1" = _nf1WNpTL;
+        "fabric-26.1.2" = _nf1WNpTL;
+        "fabric-26.2" = _nf1WNpTL;
         "quilt-1.19" = _9dR4Wu4S;
         "quilt-1.19.1" = _9dR4Wu4S;
         "quilt-1.19.2" = _9dR4Wu4S;
@@ -94,7 +104,8 @@ let
         "pkg-1.0.1+neoforge.1.21" = _WqT1qRjL;
         "pkg-1.0.1+fabric.1.21.4" = _2MYUSlGd;
         "pkg-1.0.1+neoforge.1.21.4" = _qeWwoSzx;
-        "default" = _qeWwoSzx;
+        "pkg-1.0.1+26.1" = _nf1WNpTL;
+        "default" = _nf1WNpTL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chickens-give-feathers";

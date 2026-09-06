@@ -156,6 +156,21 @@ let
             "file" = "yunbeiuc-neoforge-1.0.0-26w29a.jar";
             "hash" = "sha512-KS40aYvNHlg/7HmvWM0oQWN93pMnDeLyoRNp+N9l59n1wixf7tOh9detXLSwtrLFLw99nqGigdp2u90py6xWbg==";
         };
+        _VB7LApAU = {
+            "id" = "VB7LApAU";
+            "file" = "yunbeiuc-fabric-1.0.0-26w32a.jar";
+            "hash" = "sha512-KVnLoyeIj5bgKZcnKlkD5MD2R71vwarMXo1Y+6bwVsEIMaF9fR3hSMugNHsYcUPC/Mh7XqSVrUdGy0bj+3Rhhg==";
+        };
+        _BQjfETyS = {
+            "id" = "BQjfETyS";
+            "file" = "yunbeiuc-fabric-1.0.0-26w32a-hotfix.jar";
+            "hash" = "sha512-ZcP26gk+j8gbTILNuegcOvPGra7C6fE8mzNyh95TP66TdlpcaCDj/OjCNNtlmFbc4wX3pg6jVeRUhT/D5ugaMg==";
+        };
+        _XCdACp8N = {
+            "id" = "XCdACp8N";
+            "file" = "yunbeiuc-forge-1.0.0-26w32a-hotfix.jar";
+            "hash" = "sha512-d3BU/pirSxWX6UQSJqzpoWBNAIgQG8f4C4AWVoSAW40W8nxodv2//aKlkumpuBK1NHkcf1DCopKZY0FOoxDa1w==";
+        };
     in {
         "OSCQeGF9" = _OSCQeGF9;
         "ZrqS0p1I" = _ZrqS0p1I;
@@ -188,9 +203,12 @@ let
         "DhrtA19Q" = _DhrtA19Q;
         "PpqjAMlV" = _PpqjAMlV;
         "VoLRqr7j" = _VoLRqr7j;
-        "fabric-1.20.1" = _AEcy3mcL;
+        "VB7LApAU" = _VB7LApAU;
+        "BQjfETyS" = _BQjfETyS;
+        "XCdACp8N" = _XCdACp8N;
+        "fabric-1.20.1" = _BQjfETyS;
         "fabric-1.21.1" = _PpqjAMlV;
-        "forge-1.20.1" = _DhrtA19Q;
+        "forge-1.20.1" = _XCdACp8N;
         "neoforge-1.21.1" = _VoLRqr7j;
         "pkg-1.0.0-25w39a" = _OSCQeGF9;
         "pkg-1.0.0-26w01a" = _ZrqS0p1I;
@@ -223,7 +241,10 @@ let
         "pkg-1.0.0-26w29a+1.20.1+forge" = _DhrtA19Q;
         "pkg-1.0.0-26w29a+1.21.1+fabric" = _PpqjAMlV;
         "pkg-1.0.0-26w29a+1.21.1+neoForge" = _VoLRqr7j;
-        "default" = _VoLRqr7j;
+        "pkg-1.0.0-26w32a+1.20.1+fabric" = _VB7LApAU;
+        "pkg-1.0.0-26w32b+1.20.1+fabric" = _BQjfETyS;
+        "pkg-1.0.0-26w32b+1.20.1+forge" = _XCdACp8N;
+        "default" = _XCdACp8N;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yunbeiuc";

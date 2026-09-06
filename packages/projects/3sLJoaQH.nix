@@ -21,17 +21,24 @@ let
             "file" = "Radical Gyms & Structures - RGS.jar";
             "hash" = "sha512-JSDwxCflQqee0GZJlEpJT8dJselMEHuqi7mWdTB/6V/BxUnipsUl7ABnAVFd9SzjSw/g77PtfSCS6e5PoofWvg==";
         };
+        _TWiuaa3o = {
+            "id" = "TWiuaa3o";
+            "file" = "Radical Gyms  Structures - RGS.jar";
+            "hash" = "sha512-Iyyaq4A+9W7m2ZfAoQX9lsTssKVcffQ+pQn797jELl8xprniAZLQyR+W+2US1QIkmZ9uJvnWZQ9VsdQEKC9q3g==";
+        };
     in {
         "dHCCzL0f" = _dHCCzL0f;
         "Yco13gMV" = _Yco13gMV;
         "Y7vYDjhk" = _Y7vYDjhk;
         "mk1teRxf" = _mk1teRxf;
+        "TWiuaa3o" = _TWiuaa3o;
         "datapack-1.21.1" = _Y7vYDjhk;
-        "fabric-1.21.1" = _mk1teRxf;
-        "neoforge-1.21.1" = _mk1teRxf;
+        "fabric-1.21.1" = _TWiuaa3o;
+        "neoforge-1.21.1" = _TWiuaa3o;
         "pkg-0.5" = _Yco13gMV;
         "pkg-0.6" = _mk1teRxf;
-        "default" = _mk1teRxf;
+        "pkg-0.7" = _TWiuaa3o;
+        "default" = _TWiuaa3o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "radical-gyms-cobblemon";

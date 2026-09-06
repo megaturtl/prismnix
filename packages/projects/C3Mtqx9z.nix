@@ -176,6 +176,21 @@ let
             "file" = "Programmed Circuit Card-1.20.1-1.3.1.jar";
             "hash" = "sha512-vuvCJtg2XqItxTEMmSTaldb8WpUF7krHgugR/sI/nuOssR5Qa2lkEyQ65PToucxxS8U/GNdVh5LvyAQ34Crd0Q==";
         };
+        _PIkfp6q9 = {
+            "id" = "PIkfp6q9";
+            "file" = "Programmed Circuit Card-1.20.1-1.3.2.jar";
+            "hash" = "sha512-vjjwb3yjMc7UOEagLHL3tTbv4PxIgi/qphKCPzc4FDtq7eb0wJYXwmdDg7g7+0tozOyfSMgFlg3I5Q5atBBJ2g==";
+        };
+        _uy7QtFUX = {
+            "id" = "uy7QtFUX";
+            "file" = "Programmed Circuit Card-1.20.1-1.4.0.jar";
+            "hash" = "sha512-ioGiZZadrUik8TMeqgDNL9sfGq2ZjuVSfjHzCZr/OvXTehgmGZpjoXUZiizXtsG1XEgxdTG8r/lSAXpq43OJPg==";
+        };
+        _dMgr0QTi = {
+            "id" = "dMgr0QTi";
+            "file" = "Programmed Circuit Card-1.20.1-1.4.1.jar";
+            "hash" = "sha512-3k2ijqcEKTIMWUj6Ad02wj/nF4dvZoRwt5UQ0JaeQmybsgP78tDyOHFEGsz+8ZFRoy0qkWYuaDxcd/KXOeW74w==";
+        };
     in {
         "NMzjeyL3" = _NMzjeyL3;
         "DWw5oc4E" = _DWw5oc4E;
@@ -212,8 +227,11 @@ let
         "hNbIOlgC" = _hNbIOlgC;
         "fQmvjxCQ" = _fQmvjxCQ;
         "ZMO1PPxN" = _ZMO1PPxN;
-        "forge-1.20.1" = _ZMO1PPxN;
-        "neoforge-1.20.1" = _ZMO1PPxN;
+        "PIkfp6q9" = _PIkfp6q9;
+        "uy7QtFUX" = _uy7QtFUX;
+        "dMgr0QTi" = _dMgr0QTi;
+        "forge-1.20.1" = _dMgr0QTi;
+        "neoforge-1.20.1" = _dMgr0QTi;
         "pkg-1.0.0" = _NMzjeyL3;
         "pkg-1.0.1" = _DWw5oc4E;
         "pkg-1.20.1-1.0.2" = _tK4Kv79c;
@@ -248,7 +266,10 @@ let
         "pkg-1.2.11" = _hNbIOlgC;
         "pkg-1.3.0" = _fQmvjxCQ;
         "pkg-1.3.1" = _ZMO1PPxN;
-        "default" = _ZMO1PPxN;
+        "pkg-1.3.2" = _PIkfp6q9;
+        "pkg-1.4.0" = _uy7QtFUX;
+        "pkg-1.4.1" = _dMgr0QTi;
+        "default" = _dMgr0QTi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "programmed-circuit-card";

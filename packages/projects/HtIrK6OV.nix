@@ -40,6 +40,9 @@ let
         "minecraft-1.21.9" = _A1jRGYHY;
         "minecraft-1.21.10" = _A1jRGYHY;
         "minecraft-1.21.11" = _A1jRGYHY;
+        "minecraft-26.1" = _A1jRGYHY;
+        "minecraft-26.1.1" = _A1jRGYHY;
+        "minecraft-26.1.2" = _A1jRGYHY;
         "minecraft-1.21.7-rc1" = _A1jRGYHY;
         "minecraft-1.21.7-rc2" = _A1jRGYHY;
         "minecraft-1.21.8-rc1" = _A1jRGYHY;
@@ -57,9 +60,6 @@ let
         "minecraft-1.21.11-rc1" = _A1jRGYHY;
         "minecraft-1.21.11-rc2" = _A1jRGYHY;
         "minecraft-1.21.11-rc3" = _A1jRGYHY;
-        "minecraft-26.1" = _A1jRGYHY;
-        "minecraft-26.1.1" = _A1jRGYHY;
-        "minecraft-26.1.2" = _A1jRGYHY;
         "minecraft-26.2" = _rGsRLRpm;
         "minecraft-26.3-snapshot-1" = _rGsRLRpm;
         "minecraft-26.3-snapshot-2" = _rGsRLRpm;
@@ -67,6 +67,12 @@ let
         "minecraft-26.3-snapshot-4" = _rGsRLRpm;
         "minecraft-26.3-snapshot-5" = _rGsRLRpm;
         "minecraft-26.3-snapshot-6" = _rGsRLRpm;
+        "minecraft-26.3-snapshot-7" = _rGsRLRpm;
+        "minecraft-26.3-snapshot-8" = _rGsRLRpm;
+        "minecraft-26.3-snapshot-9" = _rGsRLRpm;
+        "minecraft-26.3-snapshot-10" = _rGsRLRpm;
+        "minecraft-26.3-pre-1" = _rGsRLRpm;
+        "minecraft-26.3-pre-2" = _rGsRLRpm;
         "pkg-v0.5_(1.21.4-1.21.5)" = _Wki7kGHM;
         "pkg-v1_(red_only)" = _Re5LQCTx;
         "pkg-v1" = _Po1Q2Pe5;

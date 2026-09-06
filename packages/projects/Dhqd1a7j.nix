@@ -130,6 +130,9 @@ let
         "velocity-1.21.10" = _dz6uFVKV;
         "velocity-1.21.11" = _dz6uFVKV;
         "velocity-26.1" = _dz6uFVKV;
+        "velocity-26.1.1" = _dz6uFVKV;
+        "velocity-26.1.2" = _dz6uFVKV;
+        "velocity-26.2" = _dz6uFVKV;
         "pkg-3.0.0-BETA" = _F7NVXrFT;
         "pkg-3.0.0" = _1Dhjk1Ea;
         "pkg-3.1.0" = _III6WHOO;

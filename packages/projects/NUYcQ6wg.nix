@@ -131,6 +131,11 @@ let
             "file" = "xyzbook-mc26.1+1.1.1.jar";
             "hash" = "sha512-dHstVCz9QCB+0Q1qgEg2rMF3MwaPr1TI5R83Jcn08XwmvPORIfzP1qVwLq3RXxRLoAmmGmB/chxAvoO5TrAbxg==";
         };
+        _BRtghs9d = {
+            "id" = "BRtghs9d";
+            "file" = "xyzbook-mc26.2+1.1.1.jar";
+            "hash" = "sha512-reXM11dd2oE/E/32aZSUKrsgPyvsrUGSm+b5NI3ROpCUCRfVpGjF3ReztZsxsuSGkdLr3abu6jHzc3y1msHp0g==";
+        };
     in {
         "BkPwDZPz" = _BkPwDZPz;
         "u9hYVdxY" = _u9hYVdxY;
@@ -158,6 +163,7 @@ let
         "jazD2pPj" = _jazD2pPj;
         "SuklvsV8" = _SuklvsV8;
         "fPD6TDR8" = _fPD6TDR8;
+        "BRtghs9d" = _BRtghs9d;
         "fabric-1.20.4" = _ncoTg7WF;
         "fabric-1.20.5" = _Vnbw5aeM;
         "fabric-1.20.6" = _Vnbw5aeM;
@@ -200,10 +206,11 @@ let
         "fabric-26.1" = _fPD6TDR8;
         "fabric-26.1.1" = _fPD6TDR8;
         "fabric-26.1.2" = _fPD6TDR8;
+        "fabric-26.2" = _BRtghs9d;
         "pkg-1.0" = _BkPwDZPz;
         "pkg-1.1" = _GWluzyc6;
-        "pkg-1.1.1" = _fPD6TDR8;
-        "default" = _fPD6TDR8;
+        "pkg-1.1.1" = _BRtghs9d;
+        "default" = _BRtghs9d;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xyzbook";

@@ -31,6 +31,11 @@ let
             "file" = "RGB 26.1.zip";
             "hash" = "sha512-PsiQU6pcToBYRmqLLtsNKWT8WZuGFbIynlexHTDTztxhuEf1+NgOBVOuUDqjgDbIiJ7QKJ7afU4m2BGPwYEk5Q==";
         };
+        _6J78yRsT = {
+            "id" = "6J78yRsT";
+            "file" = "RGB PvP 26.2.zip";
+            "hash" = "sha512-Hh+HE3dSJqkvSei4elc14mTERmSsXJ3pEwkEUh6sBcxyPWKDBMN5YCZmvv9Ua2mhb0b0kcRpvXcGngwCsS/Tlw==";
+        };
     in {
         "gVbXa1p7" = _gVbXa1p7;
         "6Iidd7iX" = _6Iidd7iX;
@@ -38,6 +43,7 @@ let
         "6TzDBgVp" = _6TzDBgVp;
         "HdGYyuxL" = _HdGYyuxL;
         "6ZDclb6k" = _6ZDclb6k;
+        "6J78yRsT" = _6J78yRsT;
         "minecraft-1.20" = _gVbXa1p7;
         "minecraft-1.20.1" = _gVbXa1p7;
         "minecraft-1.21" = _6Iidd7iX;
@@ -54,8 +60,10 @@ let
         "minecraft-26.1" = _6ZDclb6k;
         "minecraft-26.1.1" = _6ZDclb6k;
         "minecraft-26.1.2" = _6ZDclb6k;
+        "minecraft-26.2" = _6J78yRsT;
         "pkg-1.0" = _6ZDclb6k;
-        "default" = _6ZDclb6k;
+        "pkg-26.2" = _6J78yRsT;
+        "default" = _6J78yRsT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rgb-pvp";

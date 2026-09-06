@@ -121,6 +121,11 @@ let
             "file" = "createnuclear-1.4.1-fabric.jar";
             "hash" = "sha512-A31CAR4Zudp/cC8PzFjV7nU0G1aT1W09kNy7mk85x3RoHNq8QYv/eV6RynJ4ouDYEl/oKvu04pJv+1K0mjfwAA==";
         };
+        _PQ5wzs3F = {
+            "id" = "PQ5wzs3F";
+            "file" = "createnuclear-1.20.1-2.0.0-forge.jar";
+            "hash" = "sha512-2rdVCzc+ubMWpgPTAAnNTZvMCuF2mjOsyYBU0pJ5Z6EIGB/lWwEEsg2bJQkOsO4y40q15QWbgDOzwAQ6JTNhgQ==";
+        };
     in {
         "WDEL0qsl" = _WDEL0qsl;
         "lr7D4F6V" = _lr7D4F6V;
@@ -146,8 +151,9 @@ let
         "waO2BSHO" = _waO2BSHO;
         "FMrNquFh" = _FMrNquFh;
         "KArjaK66" = _KArjaK66;
+        "PQ5wzs3F" = _PQ5wzs3F;
         "fabric-1.20.1" = _KArjaK66;
-        "forge-1.20.1" = _L3PbtqgG;
+        "forge-1.20.1" = _PQ5wzs3F;
         "neoforge-1.21.1" = _waO2BSHO;
         "neoforge-1.21" = _xtU5Fcuw;
         "pkg-1.0.0-rc01" = _WDEL0qsl;
@@ -166,8 +172,10 @@ let
         "pkg-1.3.2" = _6zju5eiA;
         "pkg-1.3.2-beta.2" = _xtU5Fcuw;
         "pkg-1.3.2-beta.3" = _waO2BSHO;
-        "pkg-1.20.1" = _KArjaK66;
-        "default" = _KArjaK66;
+        "pkg-1.4.0" = _FMrNquFh;
+        "pkg-1.4.1" = _KArjaK66;
+        "pkg-2.0.0" = _PQ5wzs3F;
+        "default" = _PQ5wzs3F;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "createnuclear";
@@ -175,12 +183,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "MIT" {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "MIT License";
-                shortName = "MIT";
+                fullName = "GNU Lesser General Public License v3.0 only";
+                shortName = "LGPL-3.0-only";
                 url = null;
             };
         };

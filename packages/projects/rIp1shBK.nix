@@ -146,6 +146,11 @@ let
             "file" = "anomaly_rephased-2.0.0b30.1-forge-1.19.2.jar";
             "hash" = "sha512-jV+iNDy/4jG1jJDUUhTSSdxegwzvY3lpb7GwpM+lqlhcUYO6v1cGv3ni1ONz40FuhN+BBneZfxTjCScS8/s2AQ==";
         };
+        _3eCe1lTt = {
+            "id" = "3eCe1lTt";
+            "file" = "anomaly_rephased-2.0.0b32-forge-1.20.1.jar";
+            "hash" = "sha512-Nhqp5Y7QSWA50QiH2LuOmxKc/zqIVpY40QjSTtH1T15/xgKJL4kRDBXRsSTJE3j4cmU5GVMB1R7j84Ocgr1+aw==";
+        };
     in {
         "DDI7HGbI" = _DDI7HGbI;
         "WbMddAdx" = _WbMddAdx;
@@ -176,7 +181,8 @@ let
         "LhL3OeW9" = _LhL3OeW9;
         "Z9DmKIYG" = _Z9DmKIYG;
         "wrCU1Nf8" = _wrCU1Nf8;
-        "forge-1.20.1" = _Z9DmKIYG;
+        "3eCe1lTt" = _3eCe1lTt;
+        "forge-1.20.1" = _3eCe1lTt;
         "forge-1.19.2" = _wrCU1Nf8;
         "forge-1.19.4" = _PvTPs5y8;
         "pkg-1.1.5" = _PvTPs5y8;
@@ -204,7 +210,8 @@ let
         "pkg-2.0.0b30" = _LhL3OeW9;
         "pkg-2.0.0b31" = _Z9DmKIYG;
         "pkg-2.0.0b30.1" = _wrCU1Nf8;
-        "default" = _wrCU1Nf8;
+        "pkg-2.0.0b32" = _3eCe1lTt;
+        "default" = _3eCe1lTt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-anomaly-rephased";

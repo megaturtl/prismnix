@@ -16,10 +16,22 @@ let
             "file" = "uncraftable-mace-1.1.jar";
             "hash" = "sha512-CuVmzLKe9oH6fNyfXpDPKQ73OfCcS9nfbcXTw7+LGig89wsBBXQcZR95IxyZIj4qsrcdz/oV6cBtverxYxBJEQ==";
         };
+        _xGkd0xX7 = {
+            "id" = "xGkd0xX7";
+            "file" = "Uncraftable_Mace.zip";
+            "hash" = "sha512-tQ9P5xUBiotXadFFE8YfKu/zda0MfApeC9Fd/X3MnoLOTgpY95J5nJyDJ96tiBL6c9xJbjbG0Wno4PWN9CapQA==";
+        };
+        _7sP4bYqW = {
+            "id" = "7sP4bYqW";
+            "file" = "uncraftable-mace-1.1.jar";
+            "hash" = "sha512-DG4EKMVMyqJkqGHziKrB4ECdvx38Y1fbeGCqi4MiHMBNPiuaPc/YSNvACIzsrRF2jn94t+jSa2J3+KyfMo5Q4Q==";
+        };
     in {
         "uZvW4hQ3" = _uZvW4hQ3;
         "qZ7f5rwR" = _qZ7f5rwR;
         "WEyVCLRu" = _WEyVCLRu;
+        "xGkd0xX7" = _xGkd0xX7;
+        "7sP4bYqW" = _7sP4bYqW;
         "datapack-1.21" = _qZ7f5rwR;
         "datapack-1.21.1" = _qZ7f5rwR;
         "datapack-1.21.2" = _qZ7f5rwR;
@@ -35,6 +47,7 @@ let
         "datapack-26.1" = _qZ7f5rwR;
         "datapack-26.1.1" = _qZ7f5rwR;
         "datapack-26.1.2" = _qZ7f5rwR;
+        "datapack-26.2" = _xGkd0xX7;
         "fabric-1.21" = _WEyVCLRu;
         "fabric-1.21.1" = _WEyVCLRu;
         "fabric-1.21.2" = _WEyVCLRu;
@@ -50,6 +63,7 @@ let
         "fabric-26.1" = _WEyVCLRu;
         "fabric-26.1.1" = _WEyVCLRu;
         "fabric-26.1.2" = _WEyVCLRu;
+        "fabric-26.2" = _7sP4bYqW;
         "forge-1.21" = _WEyVCLRu;
         "forge-1.21.1" = _WEyVCLRu;
         "forge-1.21.2" = _WEyVCLRu;
@@ -65,6 +79,7 @@ let
         "forge-26.1" = _WEyVCLRu;
         "forge-26.1.1" = _WEyVCLRu;
         "forge-26.1.2" = _WEyVCLRu;
+        "forge-26.2" = _7sP4bYqW;
         "neoforge-1.21" = _WEyVCLRu;
         "neoforge-1.21.1" = _WEyVCLRu;
         "neoforge-1.21.2" = _WEyVCLRu;
@@ -80,6 +95,7 @@ let
         "neoforge-26.1" = _WEyVCLRu;
         "neoforge-26.1.1" = _WEyVCLRu;
         "neoforge-26.1.2" = _WEyVCLRu;
+        "neoforge-26.2" = _7sP4bYqW;
         "quilt-1.21" = _WEyVCLRu;
         "quilt-1.21.1" = _WEyVCLRu;
         "quilt-1.21.2" = _WEyVCLRu;
@@ -95,10 +111,11 @@ let
         "quilt-26.1" = _WEyVCLRu;
         "quilt-26.1.1" = _WEyVCLRu;
         "quilt-26.1.2" = _WEyVCLRu;
+        "quilt-26.2" = _7sP4bYqW;
         "pkg-1.0" = _uZvW4hQ3;
-        "pkg-1.1" = _qZ7f5rwR;
-        "pkg-1.1+mod" = _WEyVCLRu;
-        "default" = _WEyVCLRu;
+        "pkg-1.1" = _xGkd0xX7;
+        "pkg-1.1+mod" = _7sP4bYqW;
+        "default" = _7sP4bYqW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "uncraftable-mace";

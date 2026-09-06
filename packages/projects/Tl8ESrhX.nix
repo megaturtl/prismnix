@@ -336,6 +336,26 @@ let
             "file" = "torchmaster-neoforge-1.21.9-21.9.3-alpha.jar";
             "hash" = "sha512-meBe9piOaNvZFBNktA+gHwoTHyrQ0TVtzos2vY4nPD/Ng0G7kFKu2a3wOdpUTO0p8LbBzHFp10TwFVZqTSHUFg==";
         };
+        _RMyrlwVC = {
+            "id" = "RMyrlwVC";
+            "file" = "torchmaster-fabric-1.21.1-21.1.10.jar";
+            "hash" = "sha512-/ozOZ2Fnzi4+SsdxBAZ9kl28NdBvmmWz3RLNtKmcSdar43DMzWVB1g3OLMUdg2sunmRnM5X45tOYfEc7n/BNfA==";
+        };
+        _5hCihTOd = {
+            "id" = "5hCihTOd";
+            "file" = "torchmaster-neoforge-1.21.1-21.1.10.jar";
+            "hash" = "sha512-lVG2hWNiGwpky4Q0B8t8IsHXmD3/c3pGxhxjy+1Zh+fVZO2u0MG6NI6p+0EgHemEfLJ3gFXTub4tgGYHDlVLvg==";
+        };
+        _bhibJMYz = {
+            "id" = "bhibJMYz";
+            "file" = "torchmaster-fabric-1.21.1-21.1.11.jar";
+            "hash" = "sha512-Xna5vk4fXUFrtejGWCnexDdfQ1RhisQ/GxXVEik+mQEwdWbmg8LgmjoaXjelc6+JlwDRoByK6hBF5xjsZlu0gg==";
+        };
+        _1WtG1xOA = {
+            "id" = "1WtG1xOA";
+            "file" = "torchmaster-neoforge-1.21.1-21.1.11.jar";
+            "hash" = "sha512-Z9LwLyFGBJ3Wjp7mmo3zFJta8e1D9ExhEbwD3kOaPYoh7uKMwp8fOcCV7fEjRlzm0Y1R9l8wE5MdPvrlcm/TgQ==";
+        };
     in {
         "D26cBYtG" = _D26cBYtG;
         "WgbbnI3t" = _WgbbnI3t;
@@ -404,6 +424,10 @@ let
         "1snsIVzh" = _1snsIVzh;
         "WolwXFTN" = _WolwXFTN;
         "nDYbysiB" = _nDYbysiB;
+        "RMyrlwVC" = _RMyrlwVC;
+        "5hCihTOd" = _5hCihTOd;
+        "bhibJMYz" = _bhibJMYz;
+        "1WtG1xOA" = _1WtG1xOA;
         "forge-1.18.2" = _4qWPsNk1;
         "forge-1.16.5" = _WgbbnI3t;
         "forge-1.19" = _Rfk2bNWH;
@@ -412,7 +436,7 @@ let
         "forge-1.20.1" = _OTbqpyC8;
         "neoforge-1.20.1" = _OTbqpyC8;
         "neoforge-1.21" = _1QmeQ2Zl;
-        "neoforge-1.21.1" = _PhWXajPC;
+        "neoforge-1.21.1" = _1WtG1xOA;
         "neoforge-1.21.3" = _qe6rMMNE;
         "neoforge-1.21.4" = _AmageOJ6;
         "neoforge-1.21.5" = _S0bnGqpo;
@@ -420,7 +444,7 @@ let
         "neoforge-1.21.10" = _nDYbysiB;
         "neoforge-1.21.8" = _1snsIVzh;
         "fabric-1.21" = _tGbVq2io;
-        "fabric-1.21.1" = _zHm4qOmP;
+        "fabric-1.21.1" = _bhibJMYz;
         "fabric-1.21.3" = _VjVLPNd2;
         "fabric-1.21.4" = _rj6kik9u;
         "fabric-1.21.5" = _crJ8yGx8;
@@ -477,7 +501,9 @@ let
         "pkg-21.5.6-beta" = _S0bnGqpo;
         "pkg-21.8.2-alpha" = _1snsIVzh;
         "pkg-21.9.3-alpha" = _nDYbysiB;
-        "default" = _nDYbysiB;
+        "pkg-21.1.10-release" = _5hCihTOd;
+        "pkg-21.1.11-release" = _1WtG1xOA;
+        "default" = _1WtG1xOA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "torchmaster";

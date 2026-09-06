@@ -111,6 +111,56 @@ let
             "file" = "endless_backrooms-0.3.6-fixed.jar";
             "hash" = "sha512-QekQ8WPDXJW6C6GWRrTrvUaXycr5aEzu41fWP5qU0pFnuDW0dgpeloBr0ywITzMIVI9J07Jc2hVtPzJPQcngeg==";
         };
+        _6skyVHcZ = {
+            "id" = "6skyVHcZ";
+            "file" = "endless_backrooms-0.3.7.jar";
+            "hash" = "sha512-JNMekpqcPgX9D5Uo+5UqA8VaWxeJZMV81abZsr731I2MXeuHmGEZ2egP3cXA/Zdq3BlcESVL21a7sQPUfoLajQ==";
+        };
+        _BlHTonc4 = {
+            "id" = "BlHTonc4";
+            "file" = "endless_backrooms-0.3.8.jar";
+            "hash" = "sha512-ugUb3UPJWu+vhhXDUhOMy1xC7HLYLRmqsArYkzzk7kOCKpHixD66h1IKzOrGZDS5DTNXiEpIyd8zHqVA/FCkqQ==";
+        };
+        _DJRCYkJZ = {
+            "id" = "DJRCYkJZ";
+            "file" = "endless_backrooms-0.3.8-fixed.jar";
+            "hash" = "sha512-zvs6GdEHtRY4p82HCEwtqjQRokIh0DhWr+GLTDw3E7uRcSAzKk34majRVjzAYn7Zz/qQKAIyLzHXIRKux48WtQ==";
+        };
+        _toE21xuY = {
+            "id" = "toE21xuY";
+            "file" = "endless_backrooms-0.3.9.jar";
+            "hash" = "sha512-E/B7a7EwElxdikoa0u7YrM/l7QmyT6RcUi4UaU8SWih/F0C8WFzS0HV/7eZZOLVbpgyD572jjGg3BuEIiNtlew==";
+        };
+        _7KNFHcMH = {
+            "id" = "7KNFHcMH";
+            "file" = "endless_backrooms-0.3.10.jar";
+            "hash" = "sha512-94HCB1gIyo604GjAlhMr1OyzskDsJRe+u1j7LQaavdBKjhZyhaDWzl6KbY6qXZQcvZ6dx4qrfgadiQInyn5DVA==";
+        };
+        _X6oBNBYn = {
+            "id" = "X6oBNBYn";
+            "file" = "endless_backrooms-0.3.10-fixed.jar";
+            "hash" = "sha512-xXsLi2BKYxM8samzw/bXxqVC7LVTPKzy6TtBRs3/pypHl6NCX58BDW0/96Nze0cT2BpQnTlpydYx3mhZ/X7KJw==";
+        };
+        _3GuYfYBB = {
+            "id" = "3GuYfYBB";
+            "file" = "endless_backrooms-0.4.0.jar";
+            "hash" = "sha512-demb30jvcfwXXVjGDw23Vz0iyQrnUtx9Od1fCz+31pBnA0TBAPCscZLXfmz1gszBZp2aLFenRmRG7lvnPkyhdA==";
+        };
+        _Dd7vHMVy = {
+            "id" = "Dd7vHMVy";
+            "file" = "endless_backrooms-0.4.0-fixed.jar";
+            "hash" = "sha512-xsqaeB6aTXdjaQBRoWvHQkjX7LEWZjNL/TDENk0mjg26TmSIXB5tS+N4wwu4SmYMPqI6vaXy+CdBs0eNTbbA5Q==";
+        };
+        _P6Mwnd51 = {
+            "id" = "P6Mwnd51";
+            "file" = "endless_backrooms-0.4.1.jar";
+            "hash" = "sha512-ZROWgLMoD/Vjprv/Cqsr+ux5JitaP1sLeWZ7ens5Z3gk+OkiWlKuO92gITVuw7vKvzsrSjA4OHAQVjygL1FLfw==";
+        };
+        _D8dxocEw = {
+            "id" = "D8dxocEw";
+            "file" = "endless_backrooms-0.4.2.jar";
+            "hash" = "sha512-tms5CMQoAekDbSjRts52pKLkmgtVR9Vl1764jBhdv88V6sTw9wdShG9D/zVrmNaY1oUxmub+/Cd+Rd9NVeDeJA==";
+        };
     in {
         "wyEWVu6d" = _wyEWVu6d;
         "3tVw7glx" = _3tVw7glx;
@@ -134,10 +184,20 @@ let
         "xdvPV6nd" = _xdvPV6nd;
         "SqBJO1GK" = _SqBJO1GK;
         "w5Uj7ZCV" = _w5Uj7ZCV;
-        "fabric-1.20" = _w5Uj7ZCV;
-        "fabric-1.20.1" = _w5Uj7ZCV;
-        "quilt-1.20" = _w5Uj7ZCV;
-        "quilt-1.20.1" = _w5Uj7ZCV;
+        "6skyVHcZ" = _6skyVHcZ;
+        "BlHTonc4" = _BlHTonc4;
+        "DJRCYkJZ" = _DJRCYkJZ;
+        "toE21xuY" = _toE21xuY;
+        "7KNFHcMH" = _7KNFHcMH;
+        "X6oBNBYn" = _X6oBNBYn;
+        "3GuYfYBB" = _3GuYfYBB;
+        "Dd7vHMVy" = _Dd7vHMVy;
+        "P6Mwnd51" = _P6Mwnd51;
+        "D8dxocEw" = _D8dxocEw;
+        "fabric-1.20" = _D8dxocEw;
+        "fabric-1.20.1" = _D8dxocEw;
+        "quilt-1.20" = _D8dxocEw;
+        "quilt-1.20.1" = _D8dxocEw;
         "pkg-0.1.0" = _wyEWVu6d;
         "pkg-0.1.1" = _3tVw7glx;
         "pkg-0.1.2" = _1vqqwpmQ;
@@ -160,7 +220,17 @@ let
         "pkg-0.3.5" = _xdvPV6nd;
         "pkg-0.3.6" = _SqBJO1GK;
         "pkg-0.3.6-fixed" = _w5Uj7ZCV;
-        "default" = _w5Uj7ZCV;
+        "pkg-0.3.7" = _6skyVHcZ;
+        "pkg-0.3.8" = _BlHTonc4;
+        "pkg-0.3.8-fixed" = _DJRCYkJZ;
+        "pkg-0.3.9" = _toE21xuY;
+        "pkg-0.3.10" = _7KNFHcMH;
+        "pkg-0.3.10-fixed" = _X6oBNBYn;
+        "pkg-0.4.0" = _3GuYfYBB;
+        "pkg-0.4.0-fixed" = _Dd7vHMVy;
+        "pkg-0.4.1" = _P6Mwnd51;
+        "pkg-0.4.2" = _D8dxocEw;
+        "default" = _D8dxocEw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "endless_backrooms";

@@ -331,6 +331,11 @@ let
             "file" = "wyrmsofnyrus-0.9.2.jar";
             "hash" = "sha512-K+3J5trXj1qauMTc/znutXExt2VZIJ4E8Lfa1FgTTg69T59IP+4Nk2TLhtwc7cUC4958+O54q8nqTkdhWAHnnQ==";
         };
+        _cI23cicr = {
+            "id" = "cI23cicr";
+            "file" = "wyrmsofnyrus-0.9.3.jar";
+            "hash" = "sha512-2DcScFzg8gug0tBtIj3yz7NAbv1F2u5NdEIsA+1Hzx3HDWv8xtBkmatx+L5bUNVO2KmxEWWwzb3LITZd+vmqpw==";
+        };
     in {
         "UHi02uuj" = _UHi02uuj;
         "ibASerWl" = _ibASerWl;
@@ -398,7 +403,8 @@ let
         "D08Ei7hW" = _D08Ei7hW;
         "1tXY7xKm" = _1tXY7xKm;
         "rqDYZlyv" = _rqDYZlyv;
-        "forge-1.12.2" = _rqDYZlyv;
+        "cI23cicr" = _cI23cicr;
+        "forge-1.12.2" = _cI23cicr;
         "pkg-0.1.3" = _UHi02uuj;
         "pkg-0.1.35" = _ibASerWl;
         "pkg-0.1.36" = _ULwlFupr;
@@ -465,7 +471,8 @@ let
         "pkg-0.9.0" = _D08Ei7hW;
         "pkg-0.9.1" = _1tXY7xKm;
         "pkg-0.9.2" = _rqDYZlyv;
-        "default" = _rqDYZlyv;
+        "pkg-0.9.3" = _cI23cicr;
+        "default" = _cI23cicr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wyrms";

@@ -186,6 +186,21 @@ let
             "file" = "Enhanced_Discoveries_Language_Pack.zip";
             "hash" = "sha512-xh5fSidYUYBRgUBpFl0UdBtazA7hTkl2fN9PoUTyiAZtj0zQPbG9rFlbLQvaP/ByYpbyomNmANvj4wFHCt7Lug==";
         };
+        _gyS1AmAi = {
+            "id" = "gyS1AmAi";
+            "file" = "Enhanced_Discoveries_Language_Pack.zip";
+            "hash" = "sha512-xdUk3OHijZXZA26a0kGuRDmBGxc7Z1N08ngfPigZkSGf/hUV6kc++6zzW9kW4fKpPVoHJnj+DZMMcilRxwoY8w==";
+        };
+        _aYLuxFXH = {
+            "id" = "aYLuxFXH";
+            "file" = "Enhanced_Discoveries_Language_Pack.zip";
+            "hash" = "sha512-LM4TkJNymSxu81M6uYFM76W2Rus4FOQ8DE0cL6CtkrzIbBvHgoht6MUMoNnNKnUbDRCKBL+pzg9fxi0XHcx1Mw==";
+        };
+        _BItBGCl9 = {
+            "id" = "BItBGCl9";
+            "file" = "Enhanced_Discoveries_Language_Pack.zip";
+            "hash" = "sha512-8RH6WCeRp3dDaQKr++BF2xrgVwLAOGzfGCs/sLeTtDkuT9s229ELQiFBpuCko41aBkRwPcRifwJ6TftZh5twLA==";
+        };
     in {
         "mz6ZrhrF" = _mz6ZrhrF;
         "JpDft9Fj" = _JpDft9Fj;
@@ -224,6 +239,9 @@ let
         "Pyt4IPpC" = _Pyt4IPpC;
         "1Kx4893J" = _1Kx4893J;
         "k90XvfBK" = _k90XvfBK;
+        "gyS1AmAi" = _gyS1AmAi;
+        "aYLuxFXH" = _aYLuxFXH;
+        "BItBGCl9" = _BItBGCl9;
         "minecraft-1.20.4" = _2MC0yO1x;
         "minecraft-1.20.5" = _2MC0yO1x;
         "minecraft-1.20.6" = _2MC0yO1x;
@@ -240,7 +258,7 @@ let
         "minecraft-26.1" = _axFZEgwK;
         "minecraft-26.1.1" = _axFZEgwK;
         "minecraft-26.1.2" = _axFZEgwK;
-        "minecraft-26.2" = _k90XvfBK;
+        "minecraft-26.2" = _BItBGCl9;
         "pkg-1.0" = _mz6ZrhrF;
         "pkg-1.1" = _JpDft9Fj;
         "pkg-1.2" = _iGNuUijV;
@@ -278,7 +296,10 @@ let
         "pkg-2.8.4" = _Pyt4IPpC;
         "pkg-2.8.5" = _1Kx4893J;
         "pkg-2.8.6" = _k90XvfBK;
-        "default" = _k90XvfBK;
+        "pkg-2.9" = _gyS1AmAi;
+        "pkg-2.9.1" = _aYLuxFXH;
+        "pkg-2.9.2" = _BItBGCl9;
+        "default" = _BItBGCl9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bacaped-language-pack";

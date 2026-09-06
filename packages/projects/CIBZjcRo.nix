@@ -141,6 +141,36 @@ let
             "file" = "botanical-pots-2.3.jar";
             "hash" = "sha512-BSyS0Lk0Z3Hkr+/XpN5Px8s0qONDpoL6k5qy5IErGRHLuCWOObtS/B+UZt9dHe5ys7iutYv9TCFBMCcSEAhVKg==";
         };
+        _RgyK79MO = {
+            "id" = "RgyK79MO";
+            "file" = "Botanical Pots 3.0.0.zip";
+            "hash" = "sha512-4IFOt0DV7HKd42JAyKGdGFq05aTO1iuFmfo8c/Uimdhzeb1+ddEv5RZPxAtHq3vjUhiTAX9bB4WEf9KexHnfjQ==";
+        };
+        _bKg78b6D = {
+            "id" = "bKg78b6D";
+            "file" = "botanical-pots-3.0.0.jar";
+            "hash" = "sha512-nRg4qmmpA6H7XhXjaRCTG8o4Nncp8MsTN/ZkFAkz69cZZrZ+PKPMEWSX7Kf8RkE4+n2NEEa3flS08pko6HPJ+A==";
+        };
+        _bRh3MWnk = {
+            "id" = "bRh3MWnk";
+            "file" = "Botanical Pots 3.0.1.zip";
+            "hash" = "sha512-o6nrvmfdf230yId3dycbAxHESvgNGny2Zf6i+kW2KKWsNwiSvUORfcILle/ST2E+Cu4+b77GAYajWIygrkJ5+w==";
+        };
+        _4i3In5qZ = {
+            "id" = "4i3In5qZ";
+            "file" = "botanical-pots-3.0.1.jar";
+            "hash" = "sha512-Kl8Joh5fScNHeXSgLGbQshqTgI6L1nrb6EZsbTfNQF7KIdILizlr1e65HojzCZ0IqTVwm8ip/RrfSUjceNLFUA==";
+        };
+        _WeEXFjqk = {
+            "id" = "WeEXFjqk";
+            "file" = "Botanical Pots 3.0.2.zip";
+            "hash" = "sha512-YURdnQe/j9WISyvKvJ8PtwDPsE8WrI6UtE8aLQ/8zTwRdyl5lxazs58oQS7dhBq9tmoBIwJzaYSZQFHfrqVA/w==";
+        };
+        _K5Bdu8RU = {
+            "id" = "K5Bdu8RU";
+            "file" = "botanical-pots-3.0.2.jar";
+            "hash" = "sha512-T8VFj1kzFhb7wNKQapnaCjN4blIgbhmOBJ3/jkz8IffAnq1xe6emJTj3V2o5Ak3YttcvN3b8856v7n2YEyVirw==";
+        };
     in {
         "jRfjiMyb" = _jRfjiMyb;
         "LLyecsJc" = _LLyecsJc;
@@ -170,6 +200,12 @@ let
         "qYqo8vCl" = _qYqo8vCl;
         "i85hV9ca" = _i85hV9ca;
         "k1WqriUs" = _k1WqriUs;
+        "RgyK79MO" = _RgyK79MO;
+        "bKg78b6D" = _bKg78b6D;
+        "bRh3MWnk" = _bRh3MWnk;
+        "4i3In5qZ" = _4i3In5qZ;
+        "WeEXFjqk" = _WeEXFjqk;
+        "K5Bdu8RU" = _K5Bdu8RU;
         "datapack-1.21" = _OT6KLzPd;
         "datapack-1.21.1" = _OT6KLzPd;
         "datapack-1.21.2" = _aLLrAKD4;
@@ -178,6 +214,7 @@ let
         "datapack-1.21.5" = _i85hV9ca;
         "datapack-1.21.6" = _i85hV9ca;
         "datapack-1.21.7" = _i85hV9ca;
+        "datapack-26.2" = _WeEXFjqk;
         "fabric-1.21" = _aRG2pBSR;
         "fabric-1.21.1" = _aRG2pBSR;
         "fabric-1.21.2" = _sbCKR2Io;
@@ -186,6 +223,7 @@ let
         "fabric-1.21.5" = _k1WqriUs;
         "fabric-1.21.6" = _k1WqriUs;
         "fabric-1.21.7" = _k1WqriUs;
+        "fabric-26.2" = _K5Bdu8RU;
         "forge-1.21" = _aRG2pBSR;
         "forge-1.21.1" = _aRG2pBSR;
         "forge-1.21.2" = _sbCKR2Io;
@@ -194,6 +232,7 @@ let
         "forge-1.21.5" = _k1WqriUs;
         "forge-1.21.6" = _k1WqriUs;
         "forge-1.21.7" = _k1WqriUs;
+        "forge-26.2" = _K5Bdu8RU;
         "neoforge-1.21" = _aRG2pBSR;
         "neoforge-1.21.1" = _aRG2pBSR;
         "neoforge-1.21.2" = _sbCKR2Io;
@@ -202,6 +241,7 @@ let
         "neoforge-1.21.5" = _k1WqriUs;
         "neoforge-1.21.6" = _k1WqriUs;
         "neoforge-1.21.7" = _k1WqriUs;
+        "neoforge-26.2" = _K5Bdu8RU;
         "quilt-1.21" = _aRG2pBSR;
         "quilt-1.21.1" = _aRG2pBSR;
         "quilt-1.21.2" = _sbCKR2Io;
@@ -210,6 +250,7 @@ let
         "quilt-1.21.5" = _k1WqriUs;
         "quilt-1.21.6" = _k1WqriUs;
         "quilt-1.21.7" = _k1WqriUs;
+        "quilt-26.2" = _K5Bdu8RU;
         "pkg-1.0" = _jRfjiMyb;
         "pkg-1.0+mod" = _LLyecsJc;
         "pkg-1.1" = _PWAv1Xr2;
@@ -238,7 +279,13 @@ let
         "pkg-2.1+mod" = _qYqo8vCl;
         "pkg-2.3" = _i85hV9ca;
         "pkg-2.3+mod" = _k1WqriUs;
-        "default" = _k1WqriUs;
+        "pkg-3.0.0" = _RgyK79MO;
+        "pkg-3.0.0+mod" = _bKg78b6D;
+        "pkg-3.0.1" = _bRh3MWnk;
+        "pkg-3.0.1+mod" = _4i3In5qZ;
+        "pkg-3.0.2" = _WeEXFjqk;
+        "pkg-3.0.2+mod" = _K5Bdu8RU;
+        "default" = _K5Bdu8RU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "botanical-pots";

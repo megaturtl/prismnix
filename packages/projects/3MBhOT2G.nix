@@ -21,11 +21,17 @@ let
             "file" = "glow_trims-1.0.jar";
             "hash" = "sha512-iHA8sEn1rv4v3OF/G8PmMJniDH45icVGX3QGZcLEk71u6dSNyC6dcghdlvm1lc9S7wmdx2Ehf9oQUzE1h4y5dA==";
         };
+        _Ml6uEkew = {
+            "id" = "Ml6uEkew";
+            "file" = "glow_trims-1.0.jar";
+            "hash" = "sha512-OU8HgwoDxuWm36AuiLR91IazqEcZApj0Rj4bnn5VvKZkt7slUnewYMNL/q8onCI18PzpvCmxXG+cHmRSPemPfw==";
+        };
     in {
         "3nvc6Q0C" = _3nvc6Q0C;
         "kV1EZGG1" = _kV1EZGG1;
         "3UT9Lhc7" = _3UT9Lhc7;
         "i9P7dLCU" = _i9P7dLCU;
+        "Ml6uEkew" = _Ml6uEkew;
         "fabric-1.21.6" = _3nvc6Q0C;
         "fabric-1.21.7" = _3nvc6Q0C;
         "fabric-1.21.8" = _3nvc6Q0C;
@@ -37,8 +43,9 @@ let
         "fabric-26.1.1" = _i9P7dLCU;
         "fabric-26.1.2" = _i9P7dLCU;
         "fabric-26.2" = _i9P7dLCU;
-        "pkg-1.0" = _i9P7dLCU;
-        "default" = _i9P7dLCU;
+        "fabric-26.3-pre-2" = _Ml6uEkew;
+        "pkg-1.0" = _Ml6uEkew;
+        "default" = _Ml6uEkew;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glow-trims";

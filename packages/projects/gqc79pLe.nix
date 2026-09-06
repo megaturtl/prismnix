@@ -41,6 +41,11 @@ let
             "file" = "The_Sculk_Sword-1.0.1-Fabric-1.21.8.jar";
             "hash" = "sha512-mGEvvesLwmrbm1q5xsH8JozC2QhGaaBTK3MmRaNEjZ4OAr6cAK36TzVoQvhMKI1g6LGzOut4v8/QcbZoJukT3A==";
         };
+        _OffKKL15 = {
+            "id" = "OffKKL15";
+            "file" = "The_Sculk_Sword-1.0.1-Neoforge-26.1.2.jar";
+            "hash" = "sha512-hV7AyxDiQO+7JAm23DvuR59VEQnezVZXdUy3JUR8i9tV69E8s2wtUNKNEn9cqKap4PgKoHHCVRpmMjx3awCOzg==";
+        };
     in {
         "Eic79nQj" = _Eic79nQj;
         "dLXfOwFL" = _dLXfOwFL;
@@ -50,15 +55,17 @@ let
         "uYWEBocK" = _uYWEBocK;
         "33sRnlnW" = _33sRnlnW;
         "nJopc87h" = _nJopc87h;
+        "OffKKL15" = _OffKKL15;
         "forge-1.20.1" = _6NQ18AVk;
         "neoforge-1.20.4" = _dLXfOwFL;
         "neoforge-1.20.6" = _p8CnVtFh;
         "neoforge-1.21.1" = _uYWEBocK;
         "neoforge-1.21.8" = _33sRnlnW;
+        "neoforge-26.1.2" = _OffKKL15;
         "fabric-1.21.8" = _nJopc87h;
         "pkg-1.0.0" = _MGbP3dfk;
-        "pkg-1.0.1" = _nJopc87h;
-        "default" = _nJopc87h;
+        "pkg-1.0.1" = _OffKKL15;
+        "default" = _OffKKL15;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thesculksword";

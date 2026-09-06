@@ -171,6 +171,16 @@ let
             "file" = "enderitemod-neoforge-26.2-1.9.0.jar";
             "hash" = "sha512-DKz+h1k55DqW5T+q8MWjd6MUPMWp06x/dhEzILlB1eGMhnkr2COS9LyREI6WrgRLn5JHFCLJUlZJO7YlQD0Mkw==";
         };
+        _vJAJXXxF = {
+            "id" = "vJAJXXxF";
+            "file" = "enderitemod-fabric-26.2-1.9.1.jar";
+            "hash" = "sha512-YbrwZBZtrx4i9xJqQwQamxujlABy1zpmiXWU+I959F5oqtTrrQP7XSUzCnqFmaAulG+KLybgXWTjkx8iTpLoAA==";
+        };
+        _ztz5xOet = {
+            "id" = "ztz5xOet";
+            "file" = "enderitemod-neoforge-26.2-1.9.1.jar";
+            "hash" = "sha512-al/Rt1Wt1+tTZCfZfsI1gjzO8TzVik3q4RnRqyEXtmkgJeE5sVqEW5J2Q76AltYJ/hVrJnLyWfObMHkcAEZ3lA==";
+        };
     in {
         "NOaW2pbm" = _NOaW2pbm;
         "yYNHgH3S" = _yYNHgH3S;
@@ -206,6 +216,8 @@ let
         "77dMkc9l" = _77dMkc9l;
         "J78fly94" = _J78fly94;
         "zym6Bm6y" = _zym6Bm6y;
+        "vJAJXXxF" = _vJAJXXxF;
+        "ztz5xOet" = _ztz5xOet;
         "fabric-1.20" = _nY9n0Vnn;
         "fabric-1.20.1" = _nY9n0Vnn;
         "fabric-1.20.2" = _J6dswXPe;
@@ -222,7 +234,7 @@ let
         "fabric-1.21.10" = _OXZq690v;
         "fabric-1.21.11" = _VJqLE3Ux;
         "fabric-26.1.2" = _Fh7UkpCU;
-        "fabric-26.2" = _J78fly94;
+        "fabric-26.2" = _vJAJXXxF;
         "forge-1.20" = _X2YeGX9Q;
         "forge-1.20.1" = _X2YeGX9Q;
         "forge-1.20.2" = _yxqdgcS6;
@@ -239,7 +251,7 @@ let
         "neoforge-1.21.10" = _WLtCGpB0;
         "neoforge-1.21.11" = _A3pwBf8d;
         "neoforge-26.1.2" = _77dMkc9l;
-        "neoforge-26.2" = _zym6Bm6y;
+        "neoforge-26.2" = _ztz5xOet;
         "pkg-1.5.0" = _d6OpzkvZ;
         "pkg-1.5.1" = _nY9n0Vnn;
         "pkg-1.6.1" = _fHC9FcGW;
@@ -254,7 +266,8 @@ let
         "pkg-1.8.2" = _A3pwBf8d;
         "pkg-1.8.3" = _77dMkc9l;
         "pkg-1.9.0" = _zym6Bm6y;
-        "default" = _zym6Bm6y;
+        "pkg-1.9.1" = _ztz5xOet;
+        "default" = _ztz5xOet;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enderite-mod";

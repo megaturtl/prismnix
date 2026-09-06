@@ -421,6 +421,21 @@ let
             "file" = "S.O.M.zip";
             "hash" = "sha512-/SuWv7QmDnJSOGKfkWqcU0Pn5apMFUqMrv/xzTMGWMk/Bqk+t+p9TwoKsxLF2UyVNjysH+aoeVaFblrQkkOD3g==";
         };
+        _Qmn0jYSu = {
+            "id" = "Qmn0jYSu";
+            "file" = "S.O.M.zip";
+            "hash" = "sha512-5DfOwqfc0IILNIxjCZMQ94TTG8pdSD5D/lr1ey/Y+i2g1By5Tj1m636o4l653lPiqM4u/75YUUTIuBJOsU72lQ==";
+        };
+        _s9bsxzJP = {
+            "id" = "s9bsxzJP";
+            "file" = "S.O.M.zip";
+            "hash" = "sha512-+ffA2R1ddx/4wttUFmrGiptWjorvObpNAdDOsWGHfwuQvFAqTGlc0hxGYF30aLpnTABSJcMY0orMW8FFm+XhLQ==";
+        };
+        _NdDxMz8K = {
+            "id" = "NdDxMz8K";
+            "file" = "S.O.M.zip";
+            "hash" = "sha512-rQYKuehT8XMlAnDngZAMIosSgZyK6vEbUAdGHHBMHCpZjUyy+xsINacRJvY2KKfmmZ2fkmJUWe5W75H2FGzl2w==";
+        };
     in {
         "TNk4VC6b" = _TNk4VC6b;
         "ugF5QB2V" = _ugF5QB2V;
@@ -506,6 +521,9 @@ let
         "VMJIpkK4" = _VMJIpkK4;
         "yLNr9alA" = _yLNr9alA;
         "Y2hpBUeD" = _Y2hpBUeD;
+        "Qmn0jYSu" = _Qmn0jYSu;
+        "s9bsxzJP" = _s9bsxzJP;
+        "NdDxMz8K" = _NdDxMz8K;
         "minecraft-1.21" = _rADvSOWL;
         "minecraft-1.21.1" = _mFO01tLK;
         "minecraft-1.21.2" = _rADvSOWL;
@@ -538,9 +556,9 @@ let
         "minecraft-26.1-pre-2" = _dTCixuH3;
         "minecraft-26.1-pre-3" = _dTCixuH3;
         "minecraft-26.1-rc-3" = _Rp0RyqZr;
-        "minecraft-26.1" = _Y2hpBUeD;
-        "minecraft-26.1.1" = _Y2hpBUeD;
-        "minecraft-26.1.2" = _Y2hpBUeD;
+        "minecraft-26.1" = _NdDxMz8K;
+        "minecraft-26.1.1" = _NdDxMz8K;
+        "minecraft-26.1.2" = _NdDxMz8K;
         "minecraft-26.2-snapshot-2" = _v5FrYjAf;
         "minecraft-26.2-snapshot-3" = _v5FrYjAf;
         "minecraft-26.2-snapshot-4" = _v5FrYjAf;
@@ -553,7 +571,7 @@ let
         "minecraft-26.2-pre-6" = _Rd3pgy1M;
         "minecraft-26.2-rc-1" = _Rd3pgy1M;
         "minecraft-26.2-rc-2" = _Rd3pgy1M;
-        "minecraft-26.2" = _Y2hpBUeD;
+        "minecraft-26.2" = _NdDxMz8K;
         "minecraft-26.3-snapshot-1" = _Y2hpBUeD;
         "minecraft-26.3-snapshot-2" = _Y2hpBUeD;
         "minecraft-26.3-snapshot-3" = _Y2hpBUeD;
@@ -643,7 +661,10 @@ let
         "pkg-26.2.1" = _VMJIpkK4;
         "pkg-26.3-BETA" = _yLNr9alA;
         "pkg-26.2.2" = _Y2hpBUeD;
-        "default" = _Y2hpBUeD;
+        "pkg-26.2.3" = _Qmn0jYSu;
+        "pkg-26.2.4" = _s9bsxzJP;
+        "pkg-26.2.5" = _NdDxMz8K;
+        "default" = _NdDxMz8K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "story-of-minecraft";

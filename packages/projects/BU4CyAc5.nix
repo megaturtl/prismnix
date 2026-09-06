@@ -61,6 +61,26 @@ let
             "file" = "autosprint-1.0.0.jar";
             "hash" = "sha512-T3OCA/oxag0MNeyXPb6/zOEmZS+cyBiUTXDCYMC8/yjdT2KOxmgQtY9waec0goxsOiGtUf3fkmkKbS4+iYPH1A==";
         };
+        _7oy4EAMI = {
+            "id" = "7oy4EAMI";
+            "file" = "autosprint-1.1-26.1.jar";
+            "hash" = "sha512-gG1GX3bwNTl1jPqub8Vjv4lb0V5W7fqPV8Tyb5zeDA6fHDwZqq5UmlFWtywadKF0Eh3Vxgsrk8/EsaGq2GWkDA==";
+        };
+        _mGU4ji12 = {
+            "id" = "mGU4ji12";
+            "file" = "autosprint-1.0.0.jar";
+            "hash" = "sha512-lGDcO6SCLCGS2sHFFH9JjzpyXbqFF0rNXhTOVgv1FlvNFuM44jT3V6zTgspwOpTb5oenwih8RK02WwHEAUcBRw==";
+        };
+        _Po2U5HHB = {
+            "id" = "Po2U5HHB";
+            "file" = "autosprint-1.2.jar";
+            "hash" = "sha512-SwN/QmckTmn5wYP1AAiSsvkVBAeCbnDIb5y4YITbJ9pxLQ5OLLFiizRflvB09r4CdC3iC2tbl1ODbqt5MA9X+Q==";
+        };
+        _VUZqXi9D = {
+            "id" = "VUZqXi9D";
+            "file" = "autosprint-1.2.jar";
+            "hash" = "sha512-LbYaGt7ZAofqtKO318pq/2z00xB4D1ZQUvg1zfffMV7gTlU6T+Ybl86H5lQGrYvgy0pz6KWxzirtFid406SpQw==";
+        };
     in {
         "EHX0nwTC" = _EHX0nwTC;
         "wJsFoEwi" = _wJsFoEwi;
@@ -74,6 +94,10 @@ let
         "WQL4aABc" = _WQL4aABc;
         "cE9k2ec3" = _cE9k2ec3;
         "1yfn1kiQ" = _1yfn1kiQ;
+        "7oy4EAMI" = _7oy4EAMI;
+        "mGU4ji12" = _mGU4ji12;
+        "Po2U5HHB" = _Po2U5HHB;
+        "VUZqXi9D" = _VUZqXi9D;
         "fabric-1.21.11" = _EHX0nwTC;
         "fabric-1.21.10" = _wJsFoEwi;
         "fabric-1.21.9" = _tLVaVs4o;
@@ -86,6 +110,10 @@ let
         "fabric-1.21.2" = _WQL4aABc;
         "fabric-1.21.1" = _cE9k2ec3;
         "fabric-1.21" = _1yfn1kiQ;
+        "fabric-26.1" = _VUZqXi9D;
+        "fabric-26.1.1" = _VUZqXi9D;
+        "fabric-26.1.2" = _VUZqXi9D;
+        "fabric-26.2" = _Po2U5HHB;
         "pkg-autosprint-1.21.11-1.0" = _EHX0nwTC;
         "pkg-autosprint-1.21.10-1.0" = _wJsFoEwi;
         "pkg-autosprint-1.0-1.21.9" = _tLVaVs4o;
@@ -98,7 +126,11 @@ let
         "pkg-autosprint-1.0-1.21.2" = _WQL4aABc;
         "pkg-autosprint-1.0-1.21.1" = _cE9k2ec3;
         "pkg-autosprint-1.0-1.21" = _1yfn1kiQ;
-        "default" = _1yfn1kiQ;
+        "pkg-autosprint-1.1-26.1-26.1.2" = _7oy4EAMI;
+        "pkg-autosprint-1.1-26.2" = _mGU4ji12;
+        "pkg-autosprint-1.2-26.2" = _Po2U5HHB;
+        "pkg-autosprint-1.2-26.1-26.1.2" = _VUZqXi9D;
+        "default" = _VUZqXi9D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simpleautosprint";

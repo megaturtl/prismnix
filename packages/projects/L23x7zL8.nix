@@ -171,6 +171,56 @@ let
             "file" = "tis3d-MC1.20.4-fabric-1.7.7+5b86d63.jar";
             "hash" = "sha512-I8/D2dtVuCwTvt+3VgYzzQ7mcxzFnswvRkfHOD7MCY7NTxfELOtKAM1bSWFrMvNiCSqFmZpCVZalWsdjtz78hw==";
         };
+        _M69vOmxq = {
+            "id" = "M69vOmxq";
+            "file" = "tis3d-MC1.21.1-fabric-1.7.7+58cd1ea.jar";
+            "hash" = "sha512-g+pag5HnRJlpp+HNQ27BtvVi5OZZNtp6ljVbd9PqDCifbf70eeyLyh1KIN4Jo1vhXFXRza4LdFOzF4/Fxt6mTg==";
+        };
+        _cCNnqZKV = {
+            "id" = "cCNnqZKV";
+            "file" = "tis3d-MC1.21.1-neoforge-1.7.7+58cd1ea.jar";
+            "hash" = "sha512-2erK1yBR0c0ATTAPY4wBtdgkQva/VRtwH27M4jOS0QVIAD9t6QnFe5VnNw9NtyeVnID+uH5R83q+izCoKCT3aA==";
+        };
+        _7dlDtYcc = {
+            "id" = "7dlDtYcc";
+            "file" = "tis3d-MC1.21.11-neoforge-1.7.7+a012fef.jar";
+            "hash" = "sha512-OYJ7ID0UfDtvZggfU0pupNZSK5WnWSohhH+hNWBjce7MBktmYWo5oP4aQt6Q9kUZlvKc/pIc74PabC+hecqFXA==";
+        };
+        _lHchSlOy = {
+            "id" = "lHchSlOy";
+            "file" = "tis3d-MC1.21.11-fabric-1.7.7+a012fef.jar";
+            "hash" = "sha512-dF3s2CzENXGoKNMmq7xl2r7OtuxcF1bw9Op40/OztGTYcFbXEvGaO2z6SEozTOlu80BFJ6r1w+iJpDZk8Ez7SA==";
+        };
+        _NOkGxRXD = {
+            "id" = "NOkGxRXD";
+            "file" = "tis3d-MC1.21.11-fabric-1.7.8+668c868.jar";
+            "hash" = "sha512-XnkQ4rdS4y22S0PkskSC/ed271lCqwCD8qLF1TkHR0ako151iPdvV6trTw9D7ZerTk3PAfa1PGMpHHNtzMX52A==";
+        };
+        _o8iXFwbD = {
+            "id" = "o8iXFwbD";
+            "file" = "tis3d-MC1.21.11-neoforge-1.7.8+668c868.jar";
+            "hash" = "sha512-PSAFIfF2W80am3eK6xuxetvcIdyPZgX7k4QQU0cNZHRVtpVMApj/Oo4h6QAW+rgg8cmYRtFt1/l0IHAwMjW4Ew==";
+        };
+        _L0NWQPLl = {
+            "id" = "L0NWQPLl";
+            "file" = "tis3d-MC1.21.1-fabric-2.0.0+fff58fd.jar";
+            "hash" = "sha512-Pfym8gDm0X9FpIBHss6GcvZtrojvyK5AmouubMhy2sdWXiOUeIBJ3kO08+LVyYzPX+N1kbMMRF6d4lcs6vcbrQ==";
+        };
+        _NpsuTsrm = {
+            "id" = "NpsuTsrm";
+            "file" = "tis3d-MC1.21.1-neoforge-2.0.0+fff58fd.jar";
+            "hash" = "sha512-pUwAiUUxlb20nST8DBj/UQo/sB2KnkEWIfg8TzrUllEtD7NKJRQjYhyKvwQFH+f8bEkVYNDlNakQZcA4qWrCNw==";
+        };
+        _Axl5P4mw = {
+            "id" = "Axl5P4mw";
+            "file" = "tis3d-MC1.21.11-neoforge-2.0.0+013d6ef.jar";
+            "hash" = "sha512-WRjetio69cyPtq+scXkgD+uKaBIzS4PXFzMe3AO7oGv4ZS3IRiwSjg5QlQUqPAGh34zvw0BA4Dt/WFVLE6Hf3A==";
+        };
+        _QN9krKM2 = {
+            "id" = "QN9krKM2";
+            "file" = "tis3d-MC1.21.11-fabric-2.0.0+013d6ef.jar";
+            "hash" = "sha512-9/+SuHaahIwY4IhPWD4ozZQs6FfZkfKGrLtEpB4jbsoVfAnznIw9aDRBWlE16CiFS/06UUiiG44v6MD+boiX2A==";
+        };
     in {
         "Ds3ppxDZ" = _Ds3ppxDZ;
         "FQ8Dlir7" = _FQ8Dlir7;
@@ -206,6 +256,16 @@ let
         "Jb9b6VKY" = _Jb9b6VKY;
         "HapvlXuW" = _HapvlXuW;
         "nzBF5HZI" = _nzBF5HZI;
+        "M69vOmxq" = _M69vOmxq;
+        "cCNnqZKV" = _cCNnqZKV;
+        "7dlDtYcc" = _7dlDtYcc;
+        "lHchSlOy" = _lHchSlOy;
+        "NOkGxRXD" = _NOkGxRXD;
+        "o8iXFwbD" = _o8iXFwbD;
+        "L0NWQPLl" = _L0NWQPLl;
+        "NpsuTsrm" = _NpsuTsrm;
+        "Axl5P4mw" = _Axl5P4mw;
+        "QN9krKM2" = _QN9krKM2;
         "forge-1.18.2" = _Ds3ppxDZ;
         "forge-1.19" = _Rq0zfA3C;
         "forge-1.19.2" = _4hrnNuxP;
@@ -216,7 +276,11 @@ let
         "fabric-1.19.3" = _TwBXkifS;
         "fabric-1.20.1" = _CLM8Bo4w;
         "fabric-1.20.4" = _nzBF5HZI;
+        "fabric-1.21.1" = _L0NWQPLl;
+        "fabric-1.21.11" = _QN9krKM2;
         "neoforge-1.20.4" = _Jb9b6VKY;
+        "neoforge-1.21.1" = _NpsuTsrm;
+        "neoforge-1.21.11" = _Axl5P4mw;
         "pkg-MC1.18.2-forge-1.6.8" = _Ds3ppxDZ;
         "pkg-MC1.19-forge-1.6.8" = _FQ8Dlir7;
         "pkg-MC1.19-forge-1.6.9" = _Rq0zfA3C;
@@ -251,7 +315,17 @@ let
         "pkg-MC1.20.4-neoforge-1.7.7" = _Jb9b6VKY;
         "pkg-MC1.20.4-forge-1.7.7" = _HapvlXuW;
         "pkg-MC1.20.4-fabric-1.7.7" = _nzBF5HZI;
-        "default" = _nzBF5HZI;
+        "pkg-MC1.21.1-fabric-1.7.7" = _M69vOmxq;
+        "pkg-MC1.21.1-neoforge-1.7.7" = _cCNnqZKV;
+        "pkg-MC1.21.11-neoforge-1.7.7" = _7dlDtYcc;
+        "pkg-MC1.21.11-fabric-1.7.7" = _lHchSlOy;
+        "pkg-MC1.21.11-fabric-1.7.8" = _NOkGxRXD;
+        "pkg-MC1.21.11-neoforge-1.7.8" = _o8iXFwbD;
+        "pkg-MC1.21.1-fabric-2.0.0" = _L0NWQPLl;
+        "pkg-MC1.21.1-neoforge-2.0.0" = _NpsuTsrm;
+        "pkg-MC1.21.11-neoforge-2.0.0" = _Axl5P4mw;
+        "pkg-MC1.21.11-fabric-2.0.0" = _QN9krKM2;
+        "default" = _QN9krKM2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tis3d";

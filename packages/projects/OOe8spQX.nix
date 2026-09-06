@@ -31,6 +31,16 @@ let
             "file" = "better_falling-2.2.0-neoforge-1.21.8.jar";
             "hash" = "sha512-u2Yz5ltrFPPWxTtu70gUB44E1xFErUbUo5hJ5nhR6J1h+rSfCDOrrahVAqxYt4nY/CMpmq0zMA+ueoWUjYHUJw==";
         };
+        _7K8yY8qJ = {
+            "id" = "7K8yY8qJ";
+            "file" = "better_falling-3.0.0-forge-1.20.1.jar";
+            "hash" = "sha512-NXRd6zMtn86d763OBAZ3UduKBJunJV76KnBULIi4V9Z0IGIzRQ04EiycqrIp9ffYc0qZuM4+f07F5DzWA91Ufw==";
+        };
+        _AR98Gbnl = {
+            "id" = "AR98Gbnl";
+            "file" = "better_falling-3.0.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-7aP0UiPEyVjd1teK3KblfJK8nGeB/85KlmEqK9KJ7F7ZDO21RNQ8YdgBRJLTC29O4toQoUZoFIVtrl0MtWJ4xQ==";
+        };
     in {
         "S5b9EEbG" = _S5b9EEbG;
         "dEDMtr5J" = _dEDMtr5J;
@@ -38,15 +48,18 @@ let
         "l0P8mm1D" = _l0P8mm1D;
         "5mqzZwNh" = _5mqzZwNh;
         "zuObJSrP" = _zuObJSrP;
+        "7K8yY8qJ" = _7K8yY8qJ;
+        "AR98Gbnl" = _AR98Gbnl;
         "forge-1.19.2" = _S5b9EEbG;
         "forge-1.19.4" = _dEDMtr5J;
         "forge-1.18.2" = _PPZ2iP1m;
-        "forge-1.20.1" = _l0P8mm1D;
-        "neoforge-1.21.1" = _5mqzZwNh;
+        "forge-1.20.1" = _7K8yY8qJ;
+        "neoforge-1.21.1" = _AR98Gbnl;
         "neoforge-1.21.8" = _zuObJSrP;
         "pkg-1.2.0" = _l0P8mm1D;
         "pkg-2.2.0" = _zuObJSrP;
-        "default" = _zuObJSrP;
+        "pkg-3.0.0" = _AR98Gbnl;
+        "default" = _AR98Gbnl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-falling";

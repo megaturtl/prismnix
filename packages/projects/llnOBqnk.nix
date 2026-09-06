@@ -76,6 +76,11 @@ let
             "file" = "Pearl-Trajectories 2.1.1.jar";
             "hash" = "sha512-OLTwGGKu3rADb5KpQbQl6ivJMlBfE+3Ff5HSzCh4NriIDI7GwinJLb6VDc+gC+gDtSk/K6Nu/w2v1zwDNj1y9Q==";
         };
+        _jce0Mzsa = {
+            "id" = "jce0Mzsa";
+            "file" = "Pearl-Trajectories-2.1.1.jar";
+            "hash" = "sha512-5wtJK1s2PQCvB5+FBq8IYIwo5hjNkgGt4UyvxF8TwxO3J60F8OAsPhwiWEDNnuJ0d10/zpAwYG7ZZaAQqyvbyQ==";
+        };
     in {
         "GRQP7jYT" = _GRQP7jYT;
         "vA10DZh0" = _vA10DZh0;
@@ -92,6 +97,7 @@ let
         "Yvoyi04G" = _Yvoyi04G;
         "m56skOY2" = _m56skOY2;
         "CciucUeC" = _CciucUeC;
+        "jce0Mzsa" = _jce0Mzsa;
         "fabric-1.21.4" = _8EPIch8N;
         "fabric-1.21.3" = _Ewm4kHiO;
         "fabric-1.21.1" = _3Vika2hV;
@@ -103,11 +109,12 @@ let
         "fabric-1.21.11" = _m56skOY2;
         "fabric-26.1.1" = _CciucUeC;
         "fabric-26.1.2" = _CciucUeC;
+        "fabric-1.21.5" = _jce0Mzsa;
         "pkg-1.0-SNAPSHOT" = _FJ46tPd7;
         "pkg-2.0" = _s0JjGnGc;
         "pkg-2.0.1" = _bVerqoPy;
-        "pkg-2.1.1" = _CciucUeC;
-        "default" = _CciucUeC;
+        "pkg-2.1.1" = _jce0Mzsa;
+        "default" = _jce0Mzsa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pearl-trajectories";

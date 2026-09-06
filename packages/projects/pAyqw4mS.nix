@@ -81,6 +81,16 @@ let
             "file" = "cobblemongrassspawn-fabric-1.0.7.jar";
             "hash" = "sha512-NyIGWcIC59JAKuz3DR1m97qTlBGfL8KXpxRnBMfCo1ssu5oYudsdxsgv4IoeZF3RB7j0FxAZXVZh+9S4Zk3usA==";
         };
+        _Fwx0tZPS = {
+            "id" = "Fwx0tZPS";
+            "file" = "cobblemongrassspawn-neoforge-2.0.0.jar";
+            "hash" = "sha512-/oKOw5xe5qRlolHBfzhuEoDe9m9J2voGaZp0VzNJRskYEEgV2WLdOy87zAdDfYNdm1DtndkyXLiVvH1BENq6rQ==";
+        };
+        _RGPT4zb7 = {
+            "id" = "RGPT4zb7";
+            "file" = "cobblemongrassspawn-fabric-2.0.0.jar";
+            "hash" = "sha512-/d3gsItzENz0WnMEaOCITjFibmED1emDREq/3Ru8T0jDEDKZyMAnRDli0YEPAVIcd40JW59rliYGLmglBJ4cyQ==";
+        };
     in {
         "xea5VkpI" = _xea5VkpI;
         "GkUwPa2u" = _GkUwPa2u;
@@ -98,8 +108,10 @@ let
         "4yJ1HWDk" = _4yJ1HWDk;
         "dR1GIqos" = _dR1GIqos;
         "76unD6Jr" = _76unD6Jr;
-        "neoforge-1.21.1" = _dR1GIqos;
-        "fabric-1.21.1" = _76unD6Jr;
+        "Fwx0tZPS" = _Fwx0tZPS;
+        "RGPT4zb7" = _RGPT4zb7;
+        "neoforge-1.21.1" = _Fwx0tZPS;
+        "fabric-1.21.1" = _RGPT4zb7;
         "pkg-1.0.0" = _GkUwPa2u;
         "pkg-1.0.1" = _Yl0FaU6I;
         "pkg-1.0.2" = _vweg5DeR;
@@ -108,7 +120,8 @@ let
         "pkg-1.0.5" = _qDZ8sDcj;
         "pkg-1.0.6" = _4yJ1HWDk;
         "pkg-1.0.7" = _76unD6Jr;
-        "default" = _76unD6Jr;
+        "pkg-2.0.0" = _RGPT4zb7;
+        "default" = _RGPT4zb7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-wild-spawn";

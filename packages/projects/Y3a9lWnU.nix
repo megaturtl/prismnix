@@ -51,6 +51,26 @@ let
             "file" = "AdLods-1.20.1-8.1.12.0-build.2294.jar";
             "hash" = "sha512-AaBiV/eC0F2hS3jVotzU4xTlkADHx8wVO1UasNLEehJeAVmNLGAcyuP5ZLIH8LMLygK0tLtY5odQq38DFgKaIg==";
         };
+        _GivDumYJ = {
+            "id" = "GivDumYJ";
+            "file" = "AdLods-1.21.1-9.1.7.0-NeoForge-build.1080.jar";
+            "hash" = "sha512-FShnXEp0mCHtzjMc4l6pwElTSZA0NLgTlfQUuHGqPwImIP8s+J4JcnaZ1ZQp8Ty2lwNnmEVobYd+VCoxfCFVNg==";
+        };
+        _sVvMPF4Z = {
+            "id" = "sVvMPF4Z";
+            "file" = "adlods-26.2.0.2-fabric-build.0134.jar";
+            "hash" = "sha512-nWxc/ntjjs/XczrAuaqKT0zNODAlC5Bzu8jDg0eV/QPnxgfcHEcELiAqVRDkCLb1qgV+ncWrrp0spYqO7J4R/Q==";
+        };
+        _I3IKQVEu = {
+            "id" = "I3IKQVEu";
+            "file" = "adlods-26.2.0.2-forge-build.0134.jar";
+            "hash" = "sha512-v+yRvIgdwfe2FcZzxvRFKzYIM8KQdIuUYh85c3NOeOnpGRNCGS+YtAsHHVgCqGhYxqz5lkym87CYTJhbGW0a6Q==";
+        };
+        _DdGAevGx = {
+            "id" = "DdGAevGx";
+            "file" = "adlods-26.2.0.2-neoforge-build.0134.jar";
+            "hash" = "sha512-qnBah0o2U/4k/JdD592tUK9Sw9FmniIhJrtuW42VwnDKDDxl9dsrSo0/CpY6rC7AOe7wIARn75AR3tXN/vMUVA==";
+        };
     in {
         "emX9Y0Y0" = _emX9Y0Y0;
         "cUYRXb3F" = _cUYRXb3F;
@@ -62,10 +82,14 @@ let
         "n4PsZvzI" = _n4PsZvzI;
         "EvMRiPIu" = _EvMRiPIu;
         "DeFz1p58" = _DeFz1p58;
-        "fabric-26.2" = _fl3fYO8V;
-        "neoforge-26.2" = _AXnoGecM;
-        "neoforge-1.21.1" = _n4PsZvzI;
-        "forge-26.2" = _13tmgARP;
+        "GivDumYJ" = _GivDumYJ;
+        "sVvMPF4Z" = _sVvMPF4Z;
+        "I3IKQVEu" = _I3IKQVEu;
+        "DdGAevGx" = _DdGAevGx;
+        "fabric-26.2" = _sVvMPF4Z;
+        "neoforge-26.2" = _DdGAevGx;
+        "neoforge-1.21.1" = _GivDumYJ;
+        "forge-26.2" = _I3IKQVEu;
         "forge-1.20.1" = _DeFz1p58;
         "pkg-26.2.0.0" = _j8QyLNQo;
         "pkg-9.1.5.0" = _Ar1bvUTQ;
@@ -73,7 +97,9 @@ let
         "pkg-9.1.6.0" = _n4PsZvzI;
         "pkg-8.1.11.0" = _EvMRiPIu;
         "pkg-8.1.12.0" = _DeFz1p58;
-        "default" = _DeFz1p58;
+        "pkg-9.1.7.0" = _GivDumYJ;
+        "pkg-26.2.0.2" = _DdGAevGx;
+        "default" = _DdGAevGx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "large-ore-deposits";

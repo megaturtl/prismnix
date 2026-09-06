@@ -51,6 +51,21 @@ let
             "file" = "dogsaddlebag-1.0.0.jar";
             "hash" = "sha512-pDR1+rkk3Q3Tz6mmamWyAYfimlGGEjMJCNu1qDjT0xl2sCRksAlyftpgy6W8SgfpODOI/lrV4+8NugibyHpe2Q==";
         };
+        _Q8GiAY63 = {
+            "id" = "Q8GiAY63";
+            "file" = "dogsaddlebag-1.0.0.jar";
+            "hash" = "sha512-u9uxWqi/NuJLTChu+mTSTHqiHQjJ+1d1x/5rQHalgvGuMVhEig+e76SglY4EwNTzIghuE7aWdm5L/xssJpQrjQ==";
+        };
+        _cRad30JL = {
+            "id" = "cRad30JL";
+            "file" = "wolfSaddle-bag-26.2-NeoForge-1.0.0.jar";
+            "hash" = "sha512-KTxtCOzwfeW1NaXAVY+1ifsMp+nbiQbG+Xo31CXX9kdbVRKUeSJRlmBK6ynU6k/TdOaivriMFXCYLYihOpMAvw==";
+        };
+        _kvlem8F0 = {
+            "id" = "kvlem8F0";
+            "file" = "wolfSaddle-bag-26.2-Forge-1.0.0.jar";
+            "hash" = "sha512-NaoRUXEluXzLIs6XBxgQdMs3fLDW4HuoKrLFpcWyoz0TM4lRrFCmHoFm1GWDzqPcm2FB3v610XHoTV1eP5qTgg==";
+        };
     in {
         "EMIT1WDh" = _EMIT1WDh;
         "tLJDbQ6N" = _tLJDbQ6N;
@@ -62,6 +77,9 @@ let
         "XEI1j4Ea" = _XEI1j4Ea;
         "8stDmSVP" = _8stDmSVP;
         "5jDE0KsG" = _5jDE0KsG;
+        "Q8GiAY63" = _Q8GiAY63;
+        "cRad30JL" = _cRad30JL;
+        "kvlem8F0" = _kvlem8F0;
         "fabric-1.21" = _EMIT1WDh;
         "fabric-1.21.1" = _EMIT1WDh;
         "fabric-1.21.2" = _EMIT1WDh;
@@ -77,13 +95,16 @@ let
         "fabric-26.1" = _5jDE0KsG;
         "fabric-26.1.1" = _8stDmSVP;
         "fabric-26.1.2" = _8stDmSVP;
+        "fabric-26.2" = _Q8GiAY63;
         "forge-26.1" = _WgkMBRXI;
         "forge-26.1.1" = _XEI1j4Ea;
         "forge-26.1.2" = _XEI1j4Ea;
+        "forge-26.2" = _kvlem8F0;
         "neoforge-26.1" = _2IRa4ijE;
         "neoforge-26.1.1" = _2IRa4ijE;
-        "pkg-1.0.0" = _5jDE0KsG;
-        "default" = _5jDE0KsG;
+        "neoforge-26.2" = _cRad30JL;
+        "pkg-1.0.0" = _kvlem8F0;
+        "default" = _kvlem8F0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saddlebag";

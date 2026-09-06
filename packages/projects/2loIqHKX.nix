@@ -206,6 +206,66 @@ let
             "file" = "26.2-macrokeybinds-fabric-1.3.1.jar";
             "hash" = "sha512-b7nrS2+ugyidpcTW/+IyLQAheRF9L1SUT5fzNfG99mvSqkhUc9TxGGI/TH2jqZkG/GUHxuW+LQILOimI/Eftig==";
         };
+        _auKp1YSg = {
+            "id" = "auKp1YSg";
+            "file" = "1.20.1-macrokeybinds-fabric-2.0.0.jar";
+            "hash" = "sha512-lwGuD6njsgBJibd9dXpToQXttaajtexNV+BuQ4uN51KFn61x9s2dbX5AHFgpUNYJCps2Uk7stq0Xl7cTJVtYKA==";
+        };
+        _aOhsYVSH = {
+            "id" = "aOhsYVSH";
+            "file" = "1.20.1-macrokeybinds-forge-2.0.0.jar";
+            "hash" = "sha512-/BDiSpGgiGfuLolHZd7zkX7HWNP7NNPulExTzU7un5BY5haZY98GXQ2VFtWZfWRDmwCr39cc9LO3MpKwxR8cVQ==";
+        };
+        _rSFGcwbm = {
+            "id" = "rSFGcwbm";
+            "file" = "1.20.6-macrokeybinds-fabric-2.0.0.jar";
+            "hash" = "sha512-Q+ugfJLIJhXaEGUY9CPT9hHnGdJkgdJDtgBYRqkHa/GDG6ii6nbSrYGOvZD/9oXmRnKJ/r/KYxx8gsccl4C+aA==";
+        };
+        _Xb2lFFNe = {
+            "id" = "Xb2lFFNe";
+            "file" = "1.20.6-macrokeybinds-neoforge-2.0.0.jar";
+            "hash" = "sha512-P34B50hcpUEIS6Qdb2266wQ3mKBv4wTeXGhRAPE6+KpO/3d/Kp0qzgJK0wDlTvVI+WRODYskOejnneHE9amsWw==";
+        };
+        _mtA7IgQK = {
+            "id" = "mtA7IgQK";
+            "file" = "1.21.1-macrokeybinds-fabric-2.0.0.jar";
+            "hash" = "sha512-MYaePApDgQUIUI6TXlGL/OmyAxaG9c9Ka2cOaoxsAGKFQmLLc0zXI8AsNazC/e3NZq2E5dQmB6mvqiVMtEyb4g==";
+        };
+        _t1Q6wGXu = {
+            "id" = "t1Q6wGXu";
+            "file" = "1.21.1-macrokeybinds-neoforge-2.0.0.jar";
+            "hash" = "sha512-PbRAQNxRNXjLDdhVJg4M0RLfynT99KnYJMLvnulJgFt31UtiSHX967GaCaksvtM5Phh7Qh2zhUZUnr7JAckd2w==";
+        };
+        _w9uvQPmu = {
+            "id" = "w9uvQPmu";
+            "file" = "1.21.11-macrokeybinds-fabric-2.0.0.jar";
+            "hash" = "sha512-pbsPBcUPDRD79D7ME4FXA8hMNRecu3V4PiUFskD/eWs6gD9MaHd+N4oEHvwgm5/HRpBBcIzy9xxIo82QclGzuw==";
+        };
+        _mZnpGbRE = {
+            "id" = "mZnpGbRE";
+            "file" = "1.21.11-macrokeybinds-neoforge-2.0.0.jar";
+            "hash" = "sha512-6u+1T5lYIxU3uNwZazGTxBy6tAtNLqyD+az/3Xq2korsRxd4OVdhEkrKu/xL7VHZYr1mgSxZz2vllGtm4YdO2g==";
+        };
+        _VQhiJmqq = {
+            "id" = "VQhiJmqq";
+            "file" = "26.1.2-macrokeybinds-fabric-2.0.0.jar";
+            "hash" = "sha512-br44ueFLL6wZKNNdccgeUGvrewCOW9SnM2CaIDQZ8/q1Z4ZTeiPP1COorEk822A3oipMC92odd8xTL4rzfZNGQ==";
+        };
+        _qJcHyGAq = {
+            "id" = "qJcHyGAq";
+            "file" = "26.1.2-macrokeybinds-neoforge-2.0.0.jar";
+            "hash" = "sha512-dzttAEyYcBeJXCSVXCscmFhTdjRIVbL6ucoIQB89u0jYqseDDB3E58Wfq0ILREvquLnqzAxOQTunXxkbi9zy/g==";
+        };
+        _nvTgImXz = {
+            "id" = "nvTgImXz";
+            "file" = "26.2-macrokeybinds-fabric-2.0.0.jar";
+            "hash" = "sha512-ZGmzhRlnPMtxPaDIhhz9C9MyGySUzIF0WyoT3Rqmxd1KSQj5s77xuAo3hMWa6ikhGrDr50LoavsDe6XIQQDZMw==";
+        };
+        _YkWGq35K = {
+            "id" = "YkWGq35K";
+            "file" = "26.2-macrokeybinds-neoforge-2.0.0.jar";
+            "hash" = "sha512-DKvUj97RGH6PpZivh7HVPlaxlqcOu4g9QqF663xexUcclGY4nCPY+NwsyA7dgCXlQSB74Hi0FFmztA8WHlEgCQ==";
+        };
     in {
         "mbfVMig0" = _mbfVMig0;
         "pA4B7Elr" = _pA4B7Elr;
@@ -248,6 +308,18 @@ let
         "DHMeAHRr" = _DHMeAHRr;
         "LnB1sSJ4" = _LnB1sSJ4;
         "yMuYXrwV" = _yMuYXrwV;
+        "auKp1YSg" = _auKp1YSg;
+        "aOhsYVSH" = _aOhsYVSH;
+        "rSFGcwbm" = _rSFGcwbm;
+        "Xb2lFFNe" = _Xb2lFFNe;
+        "mtA7IgQK" = _mtA7IgQK;
+        "t1Q6wGXu" = _t1Q6wGXu;
+        "w9uvQPmu" = _w9uvQPmu;
+        "mZnpGbRE" = _mZnpGbRE;
+        "VQhiJmqq" = _VQhiJmqq;
+        "qJcHyGAq" = _qJcHyGAq;
+        "nvTgImXz" = _nvTgImXz;
+        "YkWGq35K" = _YkWGq35K;
         "forge-1.16.5" = _mbfVMig0;
         "forge-1.17.1" = _fadsBMY5;
         "forge-1.18" = _uMtUPowH;
@@ -255,7 +327,7 @@ let
         "forge-1.18.2" = _uMtUPowH;
         "forge-1.19.4" = _XPAGA5yG;
         "forge-1.20" = _vLUFa5Hj;
-        "forge-1.20.1" = _vLUFa5Hj;
+        "forge-1.20.1" = _aOhsYVSH;
         "forge-1.20.2" = _yg0M10eE;
         "forge-1.20.3" = _K7KN93hW;
         "forge-1.20.4" = _E9mLTxN1;
@@ -267,11 +339,11 @@ let
         "fabric-1.20.3" = _BwVbbOQs;
         "fabric-1.20.4" = _BwVbbOQs;
         "fabric-1.20" = _JY2ASBas;
-        "fabric-1.20.1" = _JY2ASBas;
+        "fabric-1.20.1" = _auKp1YSg;
         "fabric-1.20.5" = _EC4cG4ep;
-        "fabric-1.20.6" = _EC4cG4ep;
+        "fabric-1.20.6" = _rSFGcwbm;
         "fabric-1.21" = _jrkg0cH2;
-        "fabric-1.21.1" = _hGZ5qIHC;
+        "fabric-1.21.1" = _mtA7IgQK;
         "fabric-1.21.2" = _JxlKW2Uu;
         "fabric-1.21.3" = _JxlKW2Uu;
         "fabric-1.21.4" = _5gpmXSgD;
@@ -281,17 +353,22 @@ let
         "fabric-1.21.8" = _4lY2fn8s;
         "fabric-1.21.9" = _TiSl70Nu;
         "fabric-1.21.10" = _TiSl70Nu;
-        "fabric-1.21.11" = _DHMeAHRr;
-        "fabric-26.1.2" = _LnB1sSJ4;
-        "fabric-26.2" = _yMuYXrwV;
+        "fabric-1.21.11" = _w9uvQPmu;
+        "fabric-26.1.2" = _VQhiJmqq;
+        "fabric-26.2" = _nvTgImXz;
         "neoforge-1.20.2" = _nCNVcwNz;
         "neoforge-1.20.3" = _FxGN2GIW;
         "neoforge-1.20.4" = _FxGN2GIW;
         "neoforge-1.21" = _Rlt8FvvF;
-        "neoforge-1.21.1" = _Rlt8FvvF;
+        "neoforge-1.21.1" = _t1Q6wGXu;
+        "neoforge-1.20.6" = _Xb2lFFNe;
+        "neoforge-1.21.11" = _mZnpGbRE;
+        "neoforge-26.1.2" = _qJcHyGAq;
+        "neoforge-26.2" = _YkWGq35K;
         "pkg-1.3.0" = _1ADYzH47;
         "pkg-1.3.1" = _yMuYXrwV;
-        "default" = _yMuYXrwV;
+        "pkg-2.0.0" = _YkWGq35K;
+        "default" = _YkWGq35K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "macrokeybinds";

@@ -41,6 +41,11 @@ let
             "file" = "Seasons-1.4.0.jar";
             "hash" = "sha512-Sn5SRqQR1leJn3X22COwWOGfQNW8y2ImdKMBg2fVZI3CCi4//aVg/8DPRVoxhEtGz4pI6zKgzNz16G0IpiEeNQ==";
         };
+        _kEs0PtDo = {
+            "id" = "kEs0PtDo";
+            "file" = "Seasons-1.4.1.jar";
+            "hash" = "sha512-lNh95vs3Q4faJWLIfnKo0cJC1UkK5kkSxXk1vbL1HJA/Vids4ODBd1FJEY6dR1Obk/jjNSiVQtMwiW14NwGcfQ==";
+        };
     in {
         "DtjsHKoY" = _DtjsHKoY;
         "wFd3UD4o" = _wFd3UD4o;
@@ -50,24 +55,28 @@ let
         "yqK41rDz" = _yqK41rDz;
         "zEDskQ5K" = _zEDskQ5K;
         "pqEabjm8" = _pqEabjm8;
+        "kEs0PtDo" = _kEs0PtDo;
         "paper-1.21.4" = _XT6SNxA1;
         "paper-1.21.3" = _XT6SNxA1;
         "paper-1.21.5" = _XT6SNxA1;
         "paper-1.21.10" = _yqK41rDz;
         "paper-1.21.11" = _zEDskQ5K;
         "paper-26.1.2" = _pqEabjm8;
+        "paper-26.2" = _kEs0PtDo;
         "purpur-1.21.4" = _XT6SNxA1;
         "purpur-1.21.3" = _XT6SNxA1;
         "purpur-1.21.5" = _XT6SNxA1;
         "purpur-1.21.10" = _yqK41rDz;
         "purpur-1.21.11" = _zEDskQ5K;
         "purpur-26.1.2" = _pqEabjm8;
+        "purpur-26.2" = _kEs0PtDo;
         "spigot-1.21.4" = _XT6SNxA1;
         "spigot-1.21.3" = _XT6SNxA1;
         "spigot-1.21.5" = _XT6SNxA1;
         "spigot-1.21.10" = _yqK41rDz;
         "spigot-1.21.11" = _zEDskQ5K;
         "spigot-26.1.2" = _pqEabjm8;
+        "spigot-26.2" = _kEs0PtDo;
         "pkg-1.0.3" = _DtjsHKoY;
         "pkg-1.0.4" = _wFd3UD4o;
         "pkg-1.0.5" = _htxIVY41;
@@ -76,7 +85,8 @@ let
         "pkg-1.2.1" = _yqK41rDz;
         "pkg-1.3.0" = _zEDskQ5K;
         "pkg-1.4.0" = _pqEabjm8;
-        "default" = _pqEabjm8;
+        "pkg-1.4.1" = _kEs0PtDo;
+        "default" = _kEs0PtDo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "seasonsplus";

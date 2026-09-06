@@ -36,6 +36,16 @@ let
             "file" = "MWE-4.5.jar";
             "hash" = "sha512-ygARiS5SJO0x7O1wIlAJacHtXCmhbSSb3o/2exkHJvf3YYtwMAJOT/yQ192AfaUqDKuXhmyzYpNIbPPFhfJpPQ==";
         };
+        _lUtOdalC = {
+            "id" = "lUtOdalC";
+            "file" = "MWE-4.6.jar";
+            "hash" = "sha512-hIUyEhZ/+nkMxIcaU11SLU3yy2he7se8X2XDxq+ONvC1fPMZHRU+hghzHIHLESwddU13HizMx25J6OH+8yJ2GA==";
+        };
+        _Pq2GXlgg = {
+            "id" = "Pq2GXlgg";
+            "file" = "MWE-4.7.jar";
+            "hash" = "sha512-km/v84pgFsaME5A5p8B2whox8kgrNmWi1BHVyl2wNWPuFnMKktCudAzOEdYdwLJ3gUxkEJyImzKmLVaJll1suw==";
+        };
     in {
         "6XOsJ6hY" = _6XOsJ6hY;
         "YtBbGhst" = _YtBbGhst;
@@ -44,7 +54,9 @@ let
         "MFQLmydu" = _MFQLmydu;
         "oCKhu6gF" = _oCKhu6gF;
         "K4FE9CkW" = _K4FE9CkW;
-        "forge-1.8.9" = _K4FE9CkW;
+        "lUtOdalC" = _lUtOdalC;
+        "Pq2GXlgg" = _Pq2GXlgg;
+        "forge-1.8.9" = _Pq2GXlgg;
         "pkg-4.0" = _6XOsJ6hY;
         "pkg-4.1" = _YtBbGhst;
         "pkg-4.2" = _l2RpWJ01;
@@ -52,7 +64,9 @@ let
         "pkg-4.4" = _MFQLmydu;
         "pkg-4.4.1" = _oCKhu6gF;
         "pkg-4.5" = _K4FE9CkW;
-        "default" = _K4FE9CkW;
+        "pkg-4.6" = _lUtOdalC;
+        "pkg-4.7" = _Pq2GXlgg;
+        "default" = _Pq2GXlgg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mwe";

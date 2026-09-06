@@ -276,6 +276,26 @@ let
             "file" = "The-Hordes-1.21.1-1.6.3d.jar";
             "hash" = "sha512-tlJE5kAJgeio9LDFsbF6bRMnM2qxSz7up3/l5pVQqVuMgLd14Fufr+oj1Os8OGCH/3XRSTwwnqOuZN69TpPU4g==";
         };
+        _Img4oNDF = {
+            "id" = "Img4oNDF";
+            "file" = "The-Hordes-1.12.2-1.6.3b.jar";
+            "hash" = "sha512-9/8WuVCp2EbUc2+y9geyeH6miF5I8sMikrk2+qVPvv8/lNJHk48aWAg7TKJ1DVGVtF5ni4ntvpZNYjNuzpZIPA==";
+        };
+        _ub3i6wio = {
+            "id" = "ub3i6wio";
+            "file" = "The-Hordes-1.20.1-1.6.3h-all.jar";
+            "hash" = "sha512-qxTs+fPk01lzCRDDnxEiK8j4EuLjwKy2El1tmZBTqR+sLkQPm4ucuVPM3OW/Rkam9EEV9hxIw3tQsk6P3xZ3rw==";
+        };
+        _737YNCxt = {
+            "id" = "737YNCxt";
+            "file" = "The-Hordes-1.12.2-1.6.3d.jar";
+            "hash" = "sha512-nwoainMrJfSBuvX8Dh3lumMiVDXH9lo/VQ7o1SSAZ9yTmskFHQ0aqjLapTmcSDLNlDdm4nhx/3fatKQkI/XBMQ==";
+        };
+        _MHrhsxDD = {
+            "id" = "MHrhsxDD";
+            "file" = "The-Hordes-1.21.1-1.6.3e.jar";
+            "hash" = "sha512-7FYW9E7L+xvTYfNpvDXRZmCkrcIAY02irEIyHLNa4kKn2ecFSY3IcY/ftZwzcZmusZIB4nybQS+80C7qYk3JqA==";
+        };
     in {
         "AgiwtzPU" = _AgiwtzPU;
         "t6mUHsW0" = _t6mUHsW0;
@@ -332,7 +352,11 @@ let
         "I9yazwYL" = _I9yazwYL;
         "B6Dvd71P" = _B6Dvd71P;
         "DdgxRTYb" = _DdgxRTYb;
-        "forge-1.12.2" = _B6Dvd71P;
+        "Img4oNDF" = _Img4oNDF;
+        "ub3i6wio" = _ub3i6wio;
+        "737YNCxt" = _737YNCxt;
+        "MHrhsxDD" = _MHrhsxDD;
+        "forge-1.12.2" = _737YNCxt;
         "forge-1.16.5" = _t6mUHsW0;
         "forge-1.18.2" = _pqQoFurC;
         "forge-1.19.2" = _PuNfSH42;
@@ -340,12 +364,12 @@ let
         "forge-1.19.4" = _BOwEyY2u;
         "forge-1.18" = _d8hyWj6z;
         "forge-1.20" = _kMUMzeKQ;
-        "forge-1.20.1" = _I9yazwYL;
+        "forge-1.20.1" = _ub3i6wio;
         "forge-1.19.1" = _PuNfSH42;
         "neoforge-1.20" = _kMUMzeKQ;
-        "neoforge-1.20.1" = _I9yazwYL;
+        "neoforge-1.20.1" = _ub3i6wio;
         "neoforge-1.21" = _df1yBAui;
-        "neoforge-1.21.1" = _DdgxRTYb;
+        "neoforge-1.21.1" = _MHrhsxDD;
         "pkg-1.12.2-1.1.5a" = _AgiwtzPU;
         "pkg-1.16.5-1.1.5c" = _t6mUHsW0;
         "pkg-1.18.2-1.1.5e" = _XWCd0YXV;
@@ -393,10 +417,13 @@ let
         "pkg-1.20.1-1.6.3f" = _Y9ER59oU;
         "pkg-1.21.1-1.6.3c" = _VMzDavrc;
         "pkg-1.12.2-1.6.3" = _f0ZpMdXQ;
-        "pkg-1.20.1-1.6.3g" = _I9yazwYL;
+        "pkg-1.20.1-1.6.3g" = _ub3i6wio;
         "pkg-1.12.2-1.6.3a" = _B6Dvd71P;
         "pkg-1.21.1-1.6.3d" = _DdgxRTYb;
-        "default" = _DdgxRTYb;
+        "pkg-1.12.2-1.6.3b" = _Img4oNDF;
+        "pkg-1.12.2-1.6.3d" = _737YNCxt;
+        "pkg-1.21.1-1.6.3e" = _MHrhsxDD;
+        "default" = _MHrhsxDD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-hordes";

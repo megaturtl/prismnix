@@ -41,6 +41,21 @@ let
             "file" = "applied_extended_crafting-1.1.2.jar";
             "hash" = "sha512-WvDC2rxZMaFmJGTpptOiJLgtMv1QieJUxTEPReCNKyXs+glhsXdH60IqaK2viLoSJbaMYW0OvuW6W0MArNu8lQ==";
         };
+        _EENWJykl = {
+            "id" = "EENWJykl";
+            "file" = "applied_extended_crafting-1.2.0.jar";
+            "hash" = "sha512-TJahrL/vpwXCDnrdXXsUOyVpMxzUYOMUEy7OAIag8KmdkBhGbsSRFkeJrF5XFGqrtOY+/++LXCKtk0GOgOfqcw==";
+        };
+        _KZVgzjkn = {
+            "id" = "KZVgzjkn";
+            "file" = "applied_extended_crafting-1.2.0.jar";
+            "hash" = "sha512-YQRs1oPbbn4rvz9g6xSkw8AngqVTOqNm4VWDQ/xE5ZU3zJ8PujI/0xIyFkAFUmb4Jm1chYE83ERK6ubnQBrImA==";
+        };
+        _ht8TPGAM = {
+            "id" = "ht8TPGAM";
+            "file" = "applied_extended_crafting-1.2.0.jar";
+            "hash" = "sha512-Fqcy/YWq16CM3qYi/XG8rXT4+bp6zaQ1XJihb8JNZks3IM/sgCpnUp+4wJeEobw4yZah6DGw7Krp2z5XkFnwkw==";
+        };
     in {
         "yKwNJlU7" = _yKwNJlU7;
         "wohMGwLy" = _wohMGwLy;
@@ -50,13 +65,18 @@ let
         "KBgHEw4p" = _KBgHEw4p;
         "u74BawQ2" = _u74BawQ2;
         "1Q6BFbno" = _1Q6BFbno;
-        "neoforge-1.21.1" = _u74BawQ2;
-        "forge-1.20.1" = _1Q6BFbno;
+        "EENWJykl" = _EENWJykl;
+        "KZVgzjkn" = _KZVgzjkn;
+        "ht8TPGAM" = _ht8TPGAM;
+        "neoforge-1.21.1" = _KZVgzjkn;
+        "neoforge-26.1.2" = _ht8TPGAM;
+        "forge-1.20.1" = _EENWJykl;
         "pkg-1.0.0" = _wohMGwLy;
         "pkg-1.1.0" = _5QSNEyZT;
         "pkg-1.1.1" = _KBgHEw4p;
         "pkg-1.1.2" = _1Q6BFbno;
-        "default" = _1Q6BFbno;
+        "pkg-1.2.0" = _ht8TPGAM;
+        "default" = _ht8TPGAM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "applied-extended-crafting";

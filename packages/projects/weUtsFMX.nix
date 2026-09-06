@@ -8,18 +8,7 @@ let
         };
     in {
         "rK90FxmX" = _rK90FxmX;
-        "fabric-1.21" = _rK90FxmX;
         "fabric-1.21.1" = _rK90FxmX;
-        "fabric-1.21.2" = _rK90FxmX;
-        "fabric-1.21.3" = _rK90FxmX;
-        "fabric-1.21.4" = _rK90FxmX;
-        "fabric-1.21.5" = _rK90FxmX;
-        "fabric-1.21.6" = _rK90FxmX;
-        "fabric-1.21.7" = _rK90FxmX;
-        "fabric-1.21.8" = _rK90FxmX;
-        "fabric-1.21.9" = _rK90FxmX;
-        "fabric-1.21.10" = _rK90FxmX;
-        "fabric-1.21.11" = _rK90FxmX;
         "pkg-1.21.1" = _rK90FxmX;
         "default" = _rK90FxmX;
     });

@@ -241,6 +241,11 @@ let
             "file" = "oredetector-1.4.1+neo+mc26.2.jar";
             "hash" = "sha512-gmI0VHlG8ME94CREe4ZidIzNvpNPdBH/IK8yznZhmMEsHh/pd3AxRA23tLMi4oUZ12dKTPA+BB5E3Dzj9TBBBA==";
         };
+        _2lLUmbu0 = {
+            "id" = "2lLUmbu0";
+            "file" = "oredetector-1.4.2+fabric+mc26.2.jar";
+            "hash" = "sha512-LPys1f9fBTu3uLqNJdqtupgwn+Gzk8Ba3IN0GVKUu9o04WXXFZHJ1GOkubaRRxBnWBCgWn5IKo9epLj7h+a3ng==";
+        };
     in {
         "lmry6cVW" = _lmry6cVW;
         "EiMTR5Jg" = _EiMTR5Jg;
@@ -290,6 +295,7 @@ let
         "Nmvumagd" = _Nmvumagd;
         "96W3CJ1Q" = _96W3CJ1Q;
         "7nBpY8iB" = _7nBpY8iB;
+        "2lLUmbu0" = _2lLUmbu0;
         "fabric-1.20.4" = _F5ptEUWa;
         "fabric-1.20.3" = _JvVXGNf5;
         "fabric-1.20.2" = _Vsneyxp3;
@@ -308,7 +314,7 @@ let
         "fabric-1.21.11" = _TeKpBZaA;
         "fabric-26.1.1" = _T8V3WL3P;
         "fabric-26.1.2" = _qWTi4y6D;
-        "fabric-26.2" = _96W3CJ1Q;
+        "fabric-26.2" = _2lLUmbu0;
         "neoforge-1.21.5" = _2temLXP2;
         "neoforge-1.21.6" = _Nl2C5T4U;
         "neoforge-1.21.7" = _OWKJllW5;
@@ -367,7 +373,8 @@ let
         "pkg-1.4.0+neo+mc26.2" = _Nmvumagd;
         "pkg-1.4.1+fabric+mc26.2" = _96W3CJ1Q;
         "pkg-1.4.1+neo+mc26.2" = _7nBpY8iB;
-        "default" = _7nBpY8iB;
+        "pkg-1.4.2+fabric+mc26.2" = _2lLUmbu0;
+        "default" = _2lLUmbu0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "oredetector";

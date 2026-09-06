@@ -41,6 +41,16 @@ let
             "file" = "dUCK TOTEM CRAFTMIN.zip";
             "hash" = "sha512-roxefyRChjxfHpI6+s/SUWfL3zj2H6mmPbIVz9l5sBHFRD5j1ltfudWFkOpVLKsVvxGJvLRYvoSFkxsX5MuWlg==";
         };
+        _WKFxrGh9 = {
+            "id" = "WKFxrGh9";
+            "file" = "Duck Totem v2.0 26.1.zip";
+            "hash" = "sha512-APV+PzxMJD9KOnzrsrrXiHaieKLoLEgC/QUEAhfmVk5j3Q7M6UzusF1SJ6aa9UOH3b4aSLsk/WRyiXObGguHIA==";
+        };
+        _EGUPYVjq = {
+            "id" = "EGUPYVjq";
+            "file" = "Duck Totem v3.0 26.2.zip";
+            "hash" = "sha512-TF2m4QigrJ4FX6pLCMwyMImymnqf2T+In/3o3RxIZNar2IZ18kYj14L/24B9tUefg6v/6Gig/iqSjCy61Iso7w==";
+        };
     in {
         "eDTNHJfz" = _eDTNHJfz;
         "1nze2qPw" = _1nze2qPw;
@@ -50,6 +60,8 @@ let
         "uQPEQRMD" = _uQPEQRMD;
         "4t33OtQW" = _4t33OtQW;
         "4n2N9Ktu" = _4n2N9Ktu;
+        "WKFxrGh9" = _WKFxrGh9;
+        "EGUPYVjq" = _EGUPYVjq;
         "minecraft-1.20" = _1nze2qPw;
         "minecraft-1.20.1" = _1nze2qPw;
         "minecraft-1.20.2" = _1nze2qPw;
@@ -70,16 +82,17 @@ let
         "minecraft-1.21.9" = _4t33OtQW;
         "minecraft-1.21.10" = _4t33OtQW;
         "minecraft-1.21.11" = _4t33OtQW;
-        "minecraft-26.1" = _4t33OtQW;
-        "minecraft-26.1.1" = _4t33OtQW;
-        "minecraft-26.1.2" = _4t33OtQW;
-        "minecraft-26.2" = _4t33OtQW;
         "minecraft-25w14craftmine" = _4n2N9Ktu;
+        "minecraft-26.1" = _WKFxrGh9;
+        "minecraft-26.1.1" = _WKFxrGh9;
+        "minecraft-26.1.2" = _WKFxrGh9;
+        "minecraft-26.2" = _EGUPYVjq;
         "pkg-1.0" = _eDTNHJfz;
-        "pkg-2.0" = _4t33OtQW;
+        "pkg-2.0" = _WKFxrGh9;
         "pkg-2.potato" = _AlWy6S4v;
         "pkg-2.craftmine" = _4n2N9Ktu;
-        "default" = _4n2N9Ktu;
+        "pkg-3.0" = _EGUPYVjq;
+        "default" = _EGUPYVjq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "duck-totem";
@@ -87,12 +100,12 @@ let
         type = "resourcepack";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "Apache License 2.0";
-                shortName = "Apache-2.0";
+                fullName = "MIT License";
+                shortName = "MIT";
                 url = null;
             };
         };

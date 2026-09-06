@@ -546,6 +546,16 @@ let
             "file" = "CloudSettings-1.21.11-2.0.0.11-neoforge.jar";
             "hash" = "sha512-SfPDsKFMmo7X5tY3hJKxEXfZ6/2uLh0z6kCLwph5nLJFcGhzWTfjjrHlYC4gDcOeHSSxZh7mii1DAGwQzx0r1w==";
         };
+        _BGyuBZaa = {
+            "id" = "BGyuBZaa";
+            "file" = "CloudSettings-26.1.2-2.0.0.12-fabric.jar";
+            "hash" = "sha512-xasj1Jl9s/1rZPOg/imAtRPHGxYE1/MJyxckrELs+Pu3oDGXB33R8lEQcCQytOp7Wdqm88Raaae28GqTf6o6PA==";
+        };
+        _D1BGeyL2 = {
+            "id" = "D1BGeyL2";
+            "file" = "CloudSettings-26.1.2-2.0.0.12-neoforge.jar";
+            "hash" = "sha512-tm42vA12cgVikJ1Fl/Nil77r8WJ6A4c7AEqG/fiTdIPTXjjsZR0mSKbvqfvX9k717DCtNdT3GjiQzDB5bgKuMA==";
+        };
     in {
         "JWL1XpUy" = _JWL1XpUy;
         "pLDWWy1c" = _pLDWWy1c;
@@ -656,6 +666,8 @@ let
         "OnvhuPjB" = _OnvhuPjB;
         "r2rx49IK" = _r2rx49IK;
         "Ew9L3imm" = _Ew9L3imm;
+        "BGyuBZaa" = _BGyuBZaa;
+        "D1BGeyL2" = _D1BGeyL2;
         "fabric-1.16.5" = _Gbi1wc2O;
         "fabric-1.19.2" = _AMGOLYRD;
         "fabric-1.19.1" = _AMGOLYRD;
@@ -685,6 +697,8 @@ let
         "fabric-1.21.9" = _Gvx8aW98;
         "fabric-1.21.10" = _Gvx8aW98;
         "fabric-1.21.11" = _r2rx49IK;
+        "fabric-26.1.2" = _BGyuBZaa;
+        "fabric-26.2" = _BGyuBZaa;
         "forge-1.16.5" = _WJxATnNH;
         "forge-1.19.2" = _9KX0PB7n;
         "forge-1.19.1" = _9KX0PB7n;
@@ -729,6 +743,8 @@ let
         "quilt-1.21.9" = _Gvx8aW98;
         "quilt-1.21.10" = _Gvx8aW98;
         "quilt-1.21.11" = _r2rx49IK;
+        "quilt-26.1.2" = _BGyuBZaa;
+        "quilt-26.2" = _BGyuBZaa;
         "neoforge-1.20" = _l4I2AdC2;
         "neoforge-1.20.1" = _l4I2AdC2;
         "neoforge-1.20.2" = _Q0W9USq4;
@@ -748,6 +764,8 @@ let
         "neoforge-1.21.9" = _OnvhuPjB;
         "neoforge-1.21.10" = _OnvhuPjB;
         "neoforge-1.21.11" = _Ew9L3imm;
+        "neoforge-26.1.2" = _D1BGeyL2;
+        "neoforge-26.2" = _D1BGeyL2;
         "pkg-1.16.5-1.0.0.0-Fabric" = _uJOTIKnL;
         "pkg-1.16.5-1.0.0.0-Forge" = _uLOUSkv4;
         "pkg-1.19.2-1.0.0.0-Forge" = _zQgzZtd6;
@@ -783,7 +801,8 @@ let
         "pkg-2.0.0.9" = _mPRioUoX;
         "pkg-2.0.0.10" = _OnvhuPjB;
         "pkg-2.0.0.11" = _Ew9L3imm;
-        "default" = _Ew9L3imm;
+        "pkg-2.0.0.12" = _D1BGeyL2;
+        "default" = _D1BGeyL2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cloudsettings";

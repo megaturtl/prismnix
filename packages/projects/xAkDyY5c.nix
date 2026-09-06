@@ -106,6 +106,11 @@ let
             "file" = "Aspid 1.1.4.zip";
             "hash" = "sha512-wsoCQYHaBKI0FjucGD+7GgUaSp9LeUG6N6glNVyDpVwWgInB7fhS4JCiybGWnUXPEXpzCRJLz9gxi0Ydw2xjVA==";
         };
+        _48WsC4Ob = {
+            "id" = "48WsC4Ob";
+            "file" = "Aspid 1.1.5.jar";
+            "hash" = "sha512-pG0Vtsu/L6F62wZgpHt0l+D/6Gn1tTVbi+khlZ+zvS2OF4PUXgmRD0G7z+Oqx4DkjIy15Rb1BTobpmMCblAxEQ==";
+        };
     in {
         "GbeDjYJg" = _GbeDjYJg;
         "36iiIIK6" = _36iiIIK6;
@@ -128,10 +133,11 @@ let
         "eBgO4lPV" = _eBgO4lPV;
         "g9C57eGI" = _g9C57eGI;
         "d98Fz06T" = _d98Fz06T;
-        "fabric-1.20.1" = _g9C57eGI;
-        "fabric-1.20" = _g9C57eGI;
-        "forge-1.20.1" = _g9C57eGI;
-        "forge-1.20" = _g9C57eGI;
+        "48WsC4Ob" = _48WsC4Ob;
+        "fabric-1.20.1" = _48WsC4Ob;
+        "fabric-1.20" = _48WsC4Ob;
+        "forge-1.20.1" = _48WsC4Ob;
+        "forge-1.20" = _48WsC4Ob;
         "datapack-1.20.1" = _d98Fz06T;
         "datapack-1.20" = _d98Fz06T;
         "pkg-1.0.1" = _GbeDjYJg;
@@ -144,7 +150,8 @@ let
         "pkg-1.1.3" = _UDuXeZQr;
         "pkg-1.1.4" = _d98Fz06T;
         "pkg-1.1.2" = _eBgO4lPV;
-        "default" = _d98Fz06T;
+        "pkg-1.1.5" = _48WsC4Ob;
+        "default" = _48WsC4Ob;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aspids-origins";

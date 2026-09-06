@@ -866,6 +866,11 @@ let
             "file" = "bettervillage-forge-1.21.10-3.3.1-all.jar";
             "hash" = "sha512-rtkBWvuAlTlbOfHciy1UOuLKYtNbCLSCcKTH3gEwgYioUKvZqZdXHG2oLdjEREIzBp27juPgtIqZ9ejZVHaKTQ==";
         };
+        _Pv5QcxqP = {
+            "id" = "Pv5QcxqP";
+            "file" = "bettervillage-forge-1.21.11-3.3.1.jar";
+            "hash" = "sha512-cIy17lx8MPlgQL0FFqNbiyHbRtKlpG15oBstZwIKEwxoWtNK/8xJ+NeAo7q8nbwFK9pgjptK2Y87zd9OSkezzA==";
+        };
     in {
         "GlzZBXIu" = _GlzZBXIu;
         "N1YRKURD" = _N1YRKURD;
@@ -1040,6 +1045,7 @@ let
         "60ypXHaS" = _60ypXHaS;
         "UkfkgJMN" = _UkfkgJMN;
         "8y70lGj1" = _8y70lGj1;
+        "Pv5QcxqP" = _Pv5QcxqP;
         "fabric-1.16.5" = _bLzUMyTQ;
         "fabric-1.19.2" = _P5PlD3yz;
         "fabric-1.19.4" = _3QDDWYx4;
@@ -1093,6 +1099,7 @@ let
         "forge-1.21.8" = _lzaAU87S;
         "forge-1.21.9" = _nTJXap0n;
         "forge-1.21.10" = _8y70lGj1;
+        "forge-1.21.11" = _Pv5QcxqP;
         "neoforge-1.20.2" = _sepJgDSC;
         "neoforge-1.20.3" = _Aa5fHEJm;
         "neoforge-1.20.6" = _yjMdCNVq;
@@ -1111,8 +1118,8 @@ let
         "pkg-3.2.0" = _yuVSPRKg;
         "pkg-3.2.1" = _BMVhqxyC;
         "pkg-3.3.0" = _EAk4MIJF;
-        "pkg-3.3.1" = _8y70lGj1;
-        "default" = _8y70lGj1;
+        "pkg-3.3.1" = _Pv5QcxqP;
+        "default" = _Pv5QcxqP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-village";

@@ -221,6 +221,36 @@ let
             "file" = "realevents-fabric-1.21.11-1.5.8.jar";
             "hash" = "sha512-YQs6hxgG+t+/cpNIUwRBvBwUv0U4iRtQxSeRbknCl/wj+N8dXE2DFhUOOHUvbTift1Zg3rJnyI/EEJ0siiVWMw==";
         };
+        _P2yGosUo = {
+            "id" = "P2yGosUo";
+            "file" = "realevents-neoforge-1.21.1-1.5.9.jar";
+            "hash" = "sha512-uitpxd1/6+ThmKxQxmovy/xynonavq54zG0N2aKPCRk5UEb2YCGullo5rDeAAscp5MWdOPMSS+lQo/+8/9+Gqg==";
+        };
+        _27dwvC2t = {
+            "id" = "27dwvC2t";
+            "file" = "realevents-fabric-1.21.1-1.5.9.jar";
+            "hash" = "sha512-jt7bVEfhiGy9gd2GODdhz7Zl0QZxws4Af8aIqsdFAyFFjhGxDbHwrPbI6nP/aJC5dPg9iJ5yMXR/vBdc/YRUrQ==";
+        };
+        _PBkRvZwL = {
+            "id" = "PBkRvZwL";
+            "file" = "realevents-fabric-1.21.4-1.5.9.jar";
+            "hash" = "sha512-8hqzcdcQnihW/8li9+K07R83QCrsH3U7ft44yTSCtAwKOS6ZP3lR2mxOaIZSL1a6mtIpUcmd1t2kA3wkUcxTrQ==";
+        };
+        _UUqgod4z = {
+            "id" = "UUqgod4z";
+            "file" = "realevents-fabric-1.21.8-1.5.9.jar";
+            "hash" = "sha512-owMbVdTPxEOfpUKYVoa2xeVoXOZpad6ehZrbMFQDulL1dEN4dfhKOkFT6/5lI0CQ3j2UGOUKb7GdWs/uZ85y6g==";
+        };
+        _VL9RxtFj = {
+            "id" = "VL9RxtFj";
+            "file" = "realevents-fabric-1.21.10-1.5.9.jar";
+            "hash" = "sha512-gkgPDhutjMhc4J1IjQsgvMd4IsJMWQaz+IZkKWeDYo8ZnlMb4Dju23qM8f+TEb/6LB0a9u1/TEXI8lCSLVWXnQ==";
+        };
+        _bJ1XRsOD = {
+            "id" = "bJ1XRsOD";
+            "file" = "realevents-fabric-1.21.11-1.5.9.jar";
+            "hash" = "sha512-BHR8yeiOgAadFhkof2YwQiXy+ziUnvroINc7j/1mhnnmzo7OG1Ny45LJn7TsfQVp38XxTa05k4hOTnPrkkPS5w==";
+        };
     in {
         "pyW6hSy3" = _pyW6hSy3;
         "zl3e1VpU" = _zl3e1VpU;
@@ -266,26 +296,32 @@ let
         "4HepK2OL" = _4HepK2OL;
         "6nHbQ7e2" = _6nHbQ7e2;
         "UJgcsIub" = _UJgcsIub;
-        "fabric-1.21" = _kHWPTKIO;
-        "fabric-1.21.1" = _kHWPTKIO;
-        "fabric-1.21.4" = _rL58UOHg;
-        "fabric-1.21.6" = _4HepK2OL;
-        "fabric-1.21.7" = _4HepK2OL;
-        "fabric-1.21.8" = _4HepK2OL;
-        "fabric-1.21.9" = _6nHbQ7e2;
-        "fabric-1.21.10" = _6nHbQ7e2;
-        "fabric-1.21.11" = _UJgcsIub;
-        "neoforge-1.21" = _gnnvGd0V;
-        "neoforge-1.21.1" = _gnnvGd0V;
-        "quilt-1.21" = _kHWPTKIO;
-        "quilt-1.21.1" = _kHWPTKIO;
-        "quilt-1.21.4" = _rL58UOHg;
-        "quilt-1.21.6" = _4HepK2OL;
-        "quilt-1.21.7" = _4HepK2OL;
-        "quilt-1.21.8" = _4HepK2OL;
-        "quilt-1.21.9" = _6nHbQ7e2;
-        "quilt-1.21.10" = _6nHbQ7e2;
-        "quilt-1.21.11" = _UJgcsIub;
+        "P2yGosUo" = _P2yGosUo;
+        "27dwvC2t" = _27dwvC2t;
+        "PBkRvZwL" = _PBkRvZwL;
+        "UUqgod4z" = _UUqgod4z;
+        "VL9RxtFj" = _VL9RxtFj;
+        "bJ1XRsOD" = _bJ1XRsOD;
+        "fabric-1.21" = _27dwvC2t;
+        "fabric-1.21.1" = _27dwvC2t;
+        "fabric-1.21.4" = _PBkRvZwL;
+        "fabric-1.21.6" = _UUqgod4z;
+        "fabric-1.21.7" = _UUqgod4z;
+        "fabric-1.21.8" = _UUqgod4z;
+        "fabric-1.21.9" = _VL9RxtFj;
+        "fabric-1.21.10" = _VL9RxtFj;
+        "fabric-1.21.11" = _bJ1XRsOD;
+        "neoforge-1.21" = _P2yGosUo;
+        "neoforge-1.21.1" = _P2yGosUo;
+        "quilt-1.21" = _27dwvC2t;
+        "quilt-1.21.1" = _27dwvC2t;
+        "quilt-1.21.4" = _PBkRvZwL;
+        "quilt-1.21.6" = _UUqgod4z;
+        "quilt-1.21.7" = _UUqgod4z;
+        "quilt-1.21.8" = _UUqgod4z;
+        "quilt-1.21.9" = _VL9RxtFj;
+        "quilt-1.21.10" = _VL9RxtFj;
+        "quilt-1.21.11" = _bJ1XRsOD;
         "pkg-1.0.0" = _pyW6hSy3;
         "pkg-1.0.1" = _zl3e1VpU;
         "pkg-1.0.2" = _aROxD8uX;
@@ -330,7 +366,13 @@ let
         "pkg-1.5.8-fabric-1.21.8" = _4HepK2OL;
         "pkg-1.5.8-fabric-1.21.10" = _6nHbQ7e2;
         "pkg-1.5.8-fabric-1.21.11" = _UJgcsIub;
-        "default" = _UJgcsIub;
+        "pkg-1.5.9-neoforge-1.21.1" = _P2yGosUo;
+        "pkg-1.5.9-fabric-1.21.1" = _27dwvC2t;
+        "pkg-1.5.9-fabric-1.21.4" = _PBkRvZwL;
+        "pkg-1.5.9-fabric-1.21.8" = _UUqgod4z;
+        "pkg-1.5.9-fabric-1.21.10" = _VL9RxtFj;
+        "pkg-1.5.9-fabric-1.21.11" = _bJ1XRsOD;
+        "default" = _bJ1XRsOD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "real-events";
@@ -338,13 +380,13 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LicenseRef-XDs-MC-License" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-XDs-Open-MC-License-v3" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "LicenseRef-XDs-MC-License";
-                shortName = "LicenseRef-XDs-MC-License";
-                url = "https://xdpxi.vercel.app/license/mc";
+                fullName = "LicenseRef-XDs-Open-MC-License-v3";
+                shortName = "LicenseRef-XDs-Open-MC-License-v3";
+                url = "https://www.xdpxi.dev/legal/open-mc-v3";
             };
         };
     };

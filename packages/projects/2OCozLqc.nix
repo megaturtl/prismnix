@@ -31,6 +31,26 @@ let
             "file" = "Custom Nether Portals - Fabric - MC 1.20.1- 2.0.0.jar";
             "hash" = "sha512-ra6cyLGxXrIcjCrwca6anpiaRs0I+EN+kgVhOT+FGvGFTiOjiAagaOTj02SwQh8M+oqDSsJc6ANCsF1Wzu4ZrQ==";
         };
+        _guRKkzYz = {
+            "id" = "guRKkzYz";
+            "file" = "Custom Nether Portals - Neoforge - MC 1.21.1- 2.0.0.jar";
+            "hash" = "sha512-GgMZnwWW6OwzGlRBVL5Ipgg2Ces7QJhKCfjcPm359lQyhvqKPMHWfhovFR0afwv5SgCVxQVfGoRZkRAxJaewGA==";
+        };
+        _5WfrCPVM = {
+            "id" = "5WfrCPVM";
+            "file" = "Custom Nether Portals - Fabric - MC 1.21.1- 2.0.0.jar";
+            "hash" = "sha512-vCcWlaMxXhOv4xNq5LPep0nLu5lG4cx5Lmr/ytS7x4rWyqFBJbbkMcWKZiqaKaQHZCqhY5Io11jzXBAgo1omQw==";
+        };
+        _jPCVSCnc = {
+            "id" = "jPCVSCnc";
+            "file" = "Custom Nether Portals - Neoforge - MC 26.1.2- 2.0.0.jar";
+            "hash" = "sha512-1eLKr+SKEGnt+ZbPdyc4CLNWz0zIJeJ3Eq5ZBS6cBnbyk3HSb6I/i1Gfwu6TA5UaO1ftetlpgtQP3gSrcjcDrQ==";
+        };
+        _s87gX7kD = {
+            "id" = "s87gX7kD";
+            "file" = "Custom Nether Portals - Fabric - MC 26.1.2- 2.0.0.jar";
+            "hash" = "sha512-1rbXcvsy6diLRiuVDRdn4gsNv8egNnv/jQ/riCV1s2T4VGp4d3LgDibqe20yCjf97sZIQBVYyvnRXUH1y4UU4Q==";
+        };
     in {
         "R3YcrrZ5" = _R3YcrrZ5;
         "HqesAUHS" = _HqesAUHS;
@@ -38,13 +58,19 @@ let
         "I68NwlOb" = _I68NwlOb;
         "AxtORjGD" = _AxtORjGD;
         "NTeqQ7xa" = _NTeqQ7xa;
+        "guRKkzYz" = _guRKkzYz;
+        "5WfrCPVM" = _5WfrCPVM;
+        "jPCVSCnc" = _jPCVSCnc;
+        "s87gX7kD" = _s87gX7kD;
         "fabric-1.20.1" = _NTeqQ7xa;
-        "fabric-1.21.1" = _lSUovNR0;
+        "fabric-1.21.1" = _5WfrCPVM;
+        "fabric-26.1.2" = _s87gX7kD;
         "forge-1.20.1" = _AxtORjGD;
-        "neoforge-1.21.1" = _I68NwlOb;
+        "neoforge-1.21.1" = _guRKkzYz;
+        "neoforge-26.1.2" = _jPCVSCnc;
         "pkg-1.0.0" = _I68NwlOb;
-        "pkg-2.0.0" = _NTeqQ7xa;
-        "default" = _NTeqQ7xa;
+        "pkg-2.0.0" = _s87gX7kD;
+        "default" = _s87gX7kD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-nether-portal";

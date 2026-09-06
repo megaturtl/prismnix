@@ -6,11 +6,18 @@ let
             "file" = "DaylightChangerStruggle-1.0.1.jar";
             "hash" = "sha512-M9X8hDVa9BIJVZ0CtbK0rZp4Hmtxql17KM2vSpibfPE+qNrMdKHeWXvXKJG1RyNKUVaUC7K4FI9nxLctIYk+yw==";
         };
+        _PzVRdtZV = {
+            "id" = "PzVRdtZV";
+            "file" = "DaylightChangerStruggle-1.0.2.jar";
+            "hash" = "sha512-NkkhuOwzoF9f2XtQjvxsUbk2KBr6vi++jXgJ4AaJy0qzvw3pGIS/0Dwxh6k/dfMo09lGaqCyuqX10KAY17T0gA==";
+        };
     in {
         "bJLUKRKI" = _bJLUKRKI;
-        "fabric-1.20.1" = _bJLUKRKI;
+        "PzVRdtZV" = _PzVRdtZV;
+        "fabric-1.20.1" = _PzVRdtZV;
         "pkg-1.0.1" = _bJLUKRKI;
-        "default" = _bJLUKRKI;
+        "pkg-1.0.2" = _PzVRdtZV;
+        "default" = _PzVRdtZV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "daylightchangerstruggle-ardacraft-edition";

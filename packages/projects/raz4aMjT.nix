@@ -456,6 +456,11 @@ let
             "file" = "craftable-chainmail-armor-by-sumbaii999-1.4.jar";
             "hash" = "sha512-B4IAEaTGzuSJOFBvP6RttMJImRIjS7R96KTYXan7SvpeReBzRHbL2uhcPlnN/EbfxByWiwXuLQ/1RPzwP/Umlw==";
         };
+        _l9ITu7v0 = {
+            "id" = "l9ITu7v0";
+            "file" = "craftable-chainmail-armor-1.20.5-1.21.1-v1.4.jar";
+            "hash" = "sha512-Z4yn7B+yh2GaYQfT7g2YH+3Nt+krtS4DqqWLPPEXtOsnqqclerMk5IB8ld6woc9eYHa3hbVyYJbt0rZsDQiUjA==";
+        };
     in {
         "V4yJLGts" = _V4yJLGts;
         "Zt6vsn81" = _Zt6vsn81;
@@ -548,6 +553,7 @@ let
         "rMzi5zwx" = _rMzi5zwx;
         "3BhI4Z0r" = _3BhI4Z0r;
         "AnTbO1ng" = _AnTbO1ng;
+        "l9ITu7v0" = _l9ITu7v0;
         "forge-1.16.1" = _Awb1ZfI1;
         "forge-1.16.2" = _812eCZNG;
         "forge-1.16.3" = _812eCZNG;
@@ -569,10 +575,10 @@ let
         "forge-1.20.3" = _kkmcg3dr;
         "forge-1.20.4" = _kkmcg3dr;
         "forge-1.16" = _Awb1ZfI1;
-        "forge-1.20.5" = _MrijkUt1;
-        "forge-1.20.6" = _MrijkUt1;
-        "forge-1.21" = _MrijkUt1;
-        "forge-1.21.1" = _MrijkUt1;
+        "forge-1.20.5" = _l9ITu7v0;
+        "forge-1.20.6" = _l9ITu7v0;
+        "forge-1.21" = _l9ITu7v0;
+        "forge-1.21.1" = _l9ITu7v0;
         "forge-1.21.2" = _TpJTlAOZ;
         "forge-1.21.3" = _TpJTlAOZ;
         "forge-1.21.4" = _TpJTlAOZ;
@@ -608,10 +614,10 @@ let
         "fabric-1.20.2" = _kkmcg3dr;
         "fabric-1.20.3" = _kkmcg3dr;
         "fabric-1.20.4" = _kkmcg3dr;
-        "fabric-1.20.5" = _MrijkUt1;
-        "fabric-1.20.6" = _MrijkUt1;
-        "fabric-1.21" = _MrijkUt1;
-        "fabric-1.21.1" = _MrijkUt1;
+        "fabric-1.20.5" = _l9ITu7v0;
+        "fabric-1.20.6" = _l9ITu7v0;
+        "fabric-1.21" = _l9ITu7v0;
+        "fabric-1.21.1" = _l9ITu7v0;
         "fabric-1.21.2" = _TpJTlAOZ;
         "fabric-1.21.3" = _TpJTlAOZ;
         "fabric-1.21.4" = _TpJTlAOZ;
@@ -647,10 +653,10 @@ let
         "quilt-1.20.2" = _kkmcg3dr;
         "quilt-1.20.3" = _kkmcg3dr;
         "quilt-1.20.4" = _kkmcg3dr;
-        "quilt-1.20.5" = _MrijkUt1;
-        "quilt-1.20.6" = _MrijkUt1;
-        "quilt-1.21" = _MrijkUt1;
-        "quilt-1.21.1" = _MrijkUt1;
+        "quilt-1.20.5" = _l9ITu7v0;
+        "quilt-1.20.6" = _l9ITu7v0;
+        "quilt-1.21" = _l9ITu7v0;
+        "quilt-1.21.1" = _l9ITu7v0;
         "quilt-1.21.2" = _TpJTlAOZ;
         "quilt-1.21.3" = _TpJTlAOZ;
         "quilt-1.21.4" = _TpJTlAOZ;
@@ -709,10 +715,10 @@ let
         "neoforge-1.20.2" = _kkmcg3dr;
         "neoforge-1.20.3" = _kkmcg3dr;
         "neoforge-1.20.4" = _kkmcg3dr;
-        "neoforge-1.20.5" = _MrijkUt1;
-        "neoforge-1.20.6" = _MrijkUt1;
-        "neoforge-1.21" = _MrijkUt1;
-        "neoforge-1.21.1" = _MrijkUt1;
+        "neoforge-1.20.5" = _l9ITu7v0;
+        "neoforge-1.20.6" = _l9ITu7v0;
+        "neoforge-1.21" = _l9ITu7v0;
+        "neoforge-1.21.1" = _l9ITu7v0;
         "neoforge-1.21.2" = _TpJTlAOZ;
         "neoforge-1.21.3" = _TpJTlAOZ;
         "neoforge-1.21.4" = _TpJTlAOZ;
@@ -738,7 +744,8 @@ let
         "pkg-1.4-datapack" = _rMzi5zwx;
         "pkg-v1.4-mod" = _3BhI4Z0r;
         "pkg-1.4+mod" = _AnTbO1ng;
-        "default" = _AnTbO1ng;
+        "pkg-1.4-mod" = _l9ITu7v0;
+        "default" = _l9ITu7v0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craftable-chainmail-armor-by-sumbaii999";

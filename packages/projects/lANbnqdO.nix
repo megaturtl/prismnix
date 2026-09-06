@@ -101,6 +101,16 @@ let
             "file" = "barched-neoforge-0.0.12.jar";
             "hash" = "sha512-FrTQiYzqKbZD+jQJjIjH5TH3YDQXI67RydqEGIps2TKsIkBgK7e8NE6EEL/cR2C39F3aS5OEnZU42f11FVyuqA==";
         };
+        _ZwqNDCow = {
+            "id" = "ZwqNDCow";
+            "file" = "barched-fabric-0.0.13-beta.jar";
+            "hash" = "sha512-Hetu2DUBz3tke3bWxFEpTwCgpjbMZPy1s50IKXLJElQXKQY1Qn2wu3EPC0JKrADpknpBIJiZadzh/TNnEia0fQ==";
+        };
+        _xgTbbQw8 = {
+            "id" = "xgTbbQw8";
+            "file" = "barched-neoforge-0.0.13-beta.jar";
+            "hash" = "sha512-nQBKpuVfKyVzbAEfJb4upyJ9D5vgsLsH4EIPRur3jF/RJNTC9geU5No1/AmX5GeS+vjdPYqdLQK1jvuZcTse/Q==";
+        };
     in {
         "DMws7Kft" = _DMws7Kft;
         "bgrshQA2" = _bgrshQA2;
@@ -122,8 +132,10 @@ let
         "p3oC9HwS" = _p3oC9HwS;
         "lqwQ50qc" = _lqwQ50qc;
         "SrRpGi9n" = _SrRpGi9n;
-        "fabric-1.21.1" = _lqwQ50qc;
-        "neoforge-1.21.1" = _SrRpGi9n;
+        "ZwqNDCow" = _ZwqNDCow;
+        "xgTbbQw8" = _xgTbbQw8;
+        "fabric-1.21.1" = _ZwqNDCow;
+        "neoforge-1.21.1" = _xgTbbQw8;
         "pkg-0.0.1" = _DMws7Kft;
         "pkg-0.0.2" = _bgrshQA2;
         "pkg-0.0.3" = _ym2KwNWO;
@@ -136,7 +148,8 @@ let
         "pkg-0.0.10" = _pSMSiPBx;
         "pkg-0.0.11" = _p3oC9HwS;
         "pkg-0.0.12" = _SrRpGi9n;
-        "default" = _SrRpGi9n;
+        "pkg-0.0.13-beta" = _xgTbbQw8;
+        "default" = _xgTbbQw8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "barched";

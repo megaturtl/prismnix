@@ -126,6 +126,11 @@ let
             "file" = "Fullbright TXP.zip";
             "hash" = "sha512-euLZXdTYlc/rEjpIeYHehvoqOULOgpBSoeRUR+d6eNF2tVN1ci1qVAZSKoBsJykt9nfhMlWcpyMdLoTrBdzqOg==";
         };
+        _7jznHy78 = {
+            "id" = "7jznHy78";
+            "file" = "Fullbright TXP (1).zip";
+            "hash" = "sha512-euLZXdTYlc/rEjpIeYHehvoqOULOgpBSoeRUR+d6eNF2tVN1ci1qVAZSKoBsJykt9nfhMlWcpyMdLoTrBdzqOg==";
+        };
     in {
         "pJHlb8Nq" = _pJHlb8Nq;
         "zIvWYiWy" = _zIvWYiWy;
@@ -152,6 +157,7 @@ let
         "Ibmafbqt" = _Ibmafbqt;
         "yR21r71I" = _yR21r71I;
         "1gqiv5pk" = _1gqiv5pk;
+        "7jznHy78" = _7jznHy78;
         "minecraft-1.21.9" = _Ibmafbqt;
         "minecraft-1.21.2" = _5r4mQSn0;
         "minecraft-1.21.3" = _5r4mQSn0;
@@ -180,9 +186,10 @@ let
         "minecraft-1.20.4" = _dcdXsxEG;
         "minecraft-1.20.2" = _5HpR7jcO;
         "minecraft-1.21.11" = _yR21r71I;
-        "minecraft-26.1" = _1gqiv5pk;
-        "minecraft-26.1.1" = _1gqiv5pk;
-        "minecraft-26.1.2" = _1gqiv5pk;
+        "minecraft-26.1" = _7jznHy78;
+        "minecraft-26.1.1" = _7jznHy78;
+        "minecraft-26.1.2" = _7jznHy78;
+        "minecraft-26.2" = _7jznHy78;
         "pkg-1.0" = _pJHlb8Nq;
         "pkg-1.1" = _zIvWYiWy;
         "pkg-1.2" = _6yA6Tpmm;
@@ -197,7 +204,8 @@ let
         "pkg-2.1" = _Ibmafbqt;
         "pkg-2.2" = _yR21r71I;
         "pkg-2.3" = _1gqiv5pk;
-        "default" = _1gqiv5pk;
+        "pkg-2.4" = _7jznHy78;
+        "default" = _7jznHy78;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fullbright-txp";

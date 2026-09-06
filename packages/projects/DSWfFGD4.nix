@@ -291,6 +291,111 @@ let
             "file" = "martinis-treasure-and-farming-26.3-Snapshot-6.jar";
             "hash" = "sha512-ycq0b2iomCKq5GOq4KQ06lbQvoUbhOu32mJkyqkY4tZjqnKBCZKtKHWVwxGt0fNanRcuNB9l+2gujWFgyNA8ow==";
         };
+        _RK3i6MIA = {
+            "id" = "RK3i6MIA";
+            "file" = "Martini's_Treasure_and_Farming_26.3_Dev.zip";
+            "hash" = "sha512-vOSQQU44/MMrUHML5D6gdNH87LECgxiTiMcP9BEHKcz9LQCuC4mGxlzwGmnwMVt5hC/OaAlgZrd07/hD1d6PUA==";
+        };
+        _YorNyut9 = {
+            "id" = "YorNyut9";
+            "file" = "martinis-treasure-and-farming-26.3-Snapshot-7.jar";
+            "hash" = "sha512-KfKoeIH+X3vIX0KYNkxGAg+76xGGCYUwlvfhTlvTZYdqK0lo3palBcixi2bsGJVrcEy3G8VXSvqK1Qa8klSSJg==";
+        };
+        _8glp9NSI = {
+            "id" = "8glp9NSI";
+            "file" = "Martini's_Treasure_and_Farming_26.3_Dev.zip";
+            "hash" = "sha512-SD1BSgP07kjijMjJWeu34ZV7r2C+yILE41IegjV0rjHGvYXhubolMCPfiwDUSISTphJAKYqTLPeOF/Q4/rJwcw==";
+        };
+        _ypcGWMMc = {
+            "id" = "ypcGWMMc";
+            "file" = "martinis-treasure-and-farming-26.3-Snapshot-8.jar";
+            "hash" = "sha512-KpL9I/hHpueUFm6hmeCv43cDOlOvvlSC9c73wg1bT4NMFn2aYfjZx1zON7MnTt0qLSTCu45QmQlTtiij6JPQSA==";
+        };
+        _rcfWqevw = {
+            "id" = "rcfWqevw";
+            "file" = "Martini's_Treasure_and_Farming_26.3_Dev.zip";
+            "hash" = "sha512-POSLSzckRELikA4PFr+84FPBaCCtglPxXbaxVwvYq34HmftKQ+rQefA/tJGVP+Tqw9ggtpeVbvLUvhwGnB50ow==";
+        };
+        _wlFRajGN = {
+            "id" = "wlFRajGN";
+            "file" = "martinis-treasure-and-farming-26.3-Snapshot-9.jar";
+            "hash" = "sha512-kEI+V9In8x/3/7zraLDly5VXLTQLsHivUJPKTh3l1kHppSTkTxR9GETbS5SbZmy6M/XdYpopBkY4Qu2sR6CANw==";
+        };
+        _b1QOjb3G = {
+            "id" = "b1QOjb3G";
+            "file" = "Martini's_Treasure_and_Farming_26.3_Dev.zip";
+            "hash" = "sha512-ZwD6iiWc/aSyiA+aHiBfRIHOTwTx0IXFDgAf+Nsg8v+c/wrQC0N7fdxlRq7hHHMjYbGTwI9g8Tw5fU0M4qiFWA==";
+        };
+        _xtkuPcy1 = {
+            "id" = "xtkuPcy1";
+            "file" = "martinis-treasure-and-farming-26.3-Snapshot-9.jar";
+            "hash" = "sha512-/v38wgGDFP1p3NhUSmAcfY/AJYj4sydMMLHXLXzMC0bJqIfNyKY58lQzDTe1l4NR4xp+5VQAEBIk646k8SC+ow==";
+        };
+        _6vSOW9gW = {
+            "id" = "6vSOW9gW";
+            "file" = "Martini's_Treasure_and_Farming_26.3_Dev.zip";
+            "hash" = "sha512-UsQvk2sIGX0uSBi9vpMAP37UcjcIzBQODUGkE595W3oOlp9buPZJh2k2qgmUQzEJ6oW9afkQ0JVHMBYD253vmA==";
+        };
+        _b7pD6hcY = {
+            "id" = "b7pD6hcY";
+            "file" = "martinis-treasure-and-farming-26.3-Snapshot-9.jar";
+            "hash" = "sha512-lIdAf3jiJ3FSnT1MLVzFIg97zVtst+dgNQobGYc8k2UZyyNXCidb3CtNMHMdpGKILWaDsmUoYOOB41G0nGgzAA==";
+        };
+        _z7ZyrNiL = {
+            "id" = "z7ZyrNiL";
+            "file" = "Martini's_Treasure_and_Farming_26.3_Dev.zip";
+            "hash" = "sha512-Xz0R65fOVqGt9woF50zDmittpre81HI5/AoYYStbIeQp0vb5I7aJy4EQ3Pa16jld0d7ttaCUZOZktmF23zaK3Q==";
+        };
+        _WpBYGWM6 = {
+            "id" = "WpBYGWM6";
+            "file" = "martinis-treasure-and-farming-26.3-Snapshot-10.jar";
+            "hash" = "sha512-pmGnbhn5QskoDJQgr+Zf9hiDwNoBj4g/iT3YfyME/f1TjwBk2QymUMbNG19jhFxNb0SnadGJ1uOSwa3g2mNO9w==";
+        };
+        _6sIPJIam = {
+            "id" = "6sIPJIam";
+            "file" = "martinis-treasure-and-farming-26.3-Snapshot-10.jar";
+            "hash" = "sha512-txON1IFv0207512pZgDvsl43iLKVkTUL1HOFuOHzJDsW0/bkt93Pd962eSb/61/v5cp6vNmyP/yrBmaS4BCd4w==";
+        };
+        _8ixWOIwP = {
+            "id" = "8ixWOIwP";
+            "file" = "Martini's_Treasure_and_Farming_26.3_Dev.zip";
+            "hash" = "sha512-gEQnhZZIwnQN/dyGxH0sqgQuZePGJW8dvZptpFFAYFuUfR3ZXv9frYxIcnusiyh7Griwp8EkVWM6m2SQtvw5iA==";
+        };
+        _OXlL7IUt = {
+            "id" = "OXlL7IUt";
+            "file" = "martinis-treasure-and-farming-26.3-Snapshot-10.jar";
+            "hash" = "sha512-T/l3RGzI0cvtVwtTX8oIGzFwfW7wwmjWJr7Tyqu1JaXxlNE885wUrU6vXcb57u1c/PO0ByNEUP+fvwphK96s+Q==";
+        };
+        _Mm0KH9n3 = {
+            "id" = "Mm0KH9n3";
+            "file" = "Martini's_Treasure_and_Farming_26.3_Dev.zip";
+            "hash" = "sha512-iLYeuYbri5r93z14cLf7ObGAzOUsm6Kzq406nohF1nmbieVBzTiHpAOVilfgu0QZmWT+erAGz/G0tL/NgkqzXA==";
+        };
+        _ThMtWpSm = {
+            "id" = "ThMtWpSm";
+            "file" = "martinis-treasure-and-farming-26.3-Snapshot-10.jar";
+            "hash" = "sha512-aTAqkW8unR+rrnNiJ0GSUaWr3pkI3Q8dcoLEipXA7lwT/CmwmMTOUufeyVupCh46mUWqvFRbRuhEdN/jaGeWlA==";
+        };
+        _5w7uSeEm = {
+            "id" = "5w7uSeEm";
+            "file" = "Martini's_Treasure_and_Farming_26.3_Dev.zip";
+            "hash" = "sha512-Ip3PEVIq8o5gl+b5n+4Shs1wI5wqWbTR6Wfh5AVW+D7njhBi6qjL6uzJJISeHDpk5LX5ZihzrN9Opn6mqfklUw==";
+        };
+        _jwVYcEN9 = {
+            "id" = "jwVYcEN9";
+            "file" = "martinis-treasure-and-farming-26.3-pre-1.jar";
+            "hash" = "sha512-Ks8d77m6b6yFjWsquG7j68cMdIydDAUNzK13y4nYrD7CjlvamqG79Qt529AnlUu2Boa5/xMx/6wKN3UkUExcyQ==";
+        };
+        _BWV9SCAM = {
+            "id" = "BWV9SCAM";
+            "file" = "Martini's_Treasure_and_Farming_26.3_Dev.zip";
+            "hash" = "sha512-Dc2RAXhFH4ZM2vn9i7HrTNV2SsHiZ4T8tzBxZ14o3hHfyAEZzHOX1a9wsv5yPyA1e8NUvkdPCdxf86P6hzV/Cw==";
+        };
+        _idNNb3Xf = {
+            "id" = "idNNb3Xf";
+            "file" = "martinis-treasure-and-farming-26.3-pre-release-2.jar";
+            "hash" = "sha512-S0wERyG66qXOY22JL/riogBvqQ/jb9cRtdiAfsv68uVcfwMjbNuIOWo1JlalUVKhFTj5Xy/NZ7SLzazUTltOyg==";
+        };
     in {
         "kvt1MfFi" = _kvt1MfFi;
         "AtqkeTck" = _AtqkeTck;
@@ -350,6 +455,27 @@ let
         "E9UFXtf5" = _E9UFXtf5;
         "pycE3xs4" = _pycE3xs4;
         "FEiuTaW6" = _FEiuTaW6;
+        "RK3i6MIA" = _RK3i6MIA;
+        "YorNyut9" = _YorNyut9;
+        "8glp9NSI" = _8glp9NSI;
+        "ypcGWMMc" = _ypcGWMMc;
+        "rcfWqevw" = _rcfWqevw;
+        "wlFRajGN" = _wlFRajGN;
+        "b1QOjb3G" = _b1QOjb3G;
+        "xtkuPcy1" = _xtkuPcy1;
+        "6vSOW9gW" = _6vSOW9gW;
+        "b7pD6hcY" = _b7pD6hcY;
+        "z7ZyrNiL" = _z7ZyrNiL;
+        "WpBYGWM6" = _WpBYGWM6;
+        "6sIPJIam" = _6sIPJIam;
+        "8ixWOIwP" = _8ixWOIwP;
+        "OXlL7IUt" = _OXlL7IUt;
+        "Mm0KH9n3" = _Mm0KH9n3;
+        "ThMtWpSm" = _ThMtWpSm;
+        "5w7uSeEm" = _5w7uSeEm;
+        "jwVYcEN9" = _jwVYcEN9;
+        "BWV9SCAM" = _BWV9SCAM;
+        "idNNb3Xf" = _idNNb3Xf;
         "datapack-24w44a" = _RhDi0tIm;
         "datapack-24w45a" = _RhDi0tIm;
         "datapack-24w46a" = _RhDi0tIm;
@@ -463,7 +589,13 @@ let
         "datapack-26.3-snapshot-3" = _CCwHqoir;
         "datapack-26.3-snapshot-4" = _flZnpEyj;
         "datapack-26.3-snapshot-5" = _pycE3xs4;
-        "datapack-26.3-snapshot-6" = _pycE3xs4;
+        "datapack-26.3-snapshot-6" = _BWV9SCAM;
+        "datapack-26.3-snapshot-7" = _BWV9SCAM;
+        "datapack-26.3-snapshot-8" = _BWV9SCAM;
+        "datapack-26.3-snapshot-9" = _BWV9SCAM;
+        "datapack-26.3-snapshot-10" = _BWV9SCAM;
+        "datapack-26.3-pre-1" = _BWV9SCAM;
+        "datapack-26.3-pre-2" = _BWV9SCAM;
         "fabric-24w44a" = _HoPZMhwt;
         "fabric-24w45a" = _HoPZMhwt;
         "fabric-24w46a" = _HoPZMhwt;
@@ -585,7 +717,13 @@ let
         "fabric-26.3-snapshot-3" = _ZkiqLGul;
         "fabric-26.3-snapshot-4" = _E9UFXtf5;
         "fabric-26.3-snapshot-5" = _FEiuTaW6;
-        "fabric-26.3-snapshot-6" = _FEiuTaW6;
+        "fabric-26.3-snapshot-6" = _idNNb3Xf;
+        "fabric-26.3-snapshot-7" = _idNNb3Xf;
+        "fabric-26.3-snapshot-8" = _idNNb3Xf;
+        "fabric-26.3-snapshot-9" = _idNNb3Xf;
+        "fabric-26.3-snapshot-10" = _idNNb3Xf;
+        "fabric-26.3-pre-1" = _idNNb3Xf;
+        "fabric-26.3-pre-2" = _idNNb3Xf;
         "quilt-24w44a" = _HoPZMhwt;
         "quilt-24w45a" = _HoPZMhwt;
         "quilt-24w46a" = _HoPZMhwt;
@@ -707,7 +845,13 @@ let
         "quilt-26.3-snapshot-3" = _ZkiqLGul;
         "quilt-26.3-snapshot-4" = _E9UFXtf5;
         "quilt-26.3-snapshot-5" = _FEiuTaW6;
-        "quilt-26.3-snapshot-6" = _FEiuTaW6;
+        "quilt-26.3-snapshot-6" = _idNNb3Xf;
+        "quilt-26.3-snapshot-7" = _idNNb3Xf;
+        "quilt-26.3-snapshot-8" = _idNNb3Xf;
+        "quilt-26.3-snapshot-9" = _idNNb3Xf;
+        "quilt-26.3-snapshot-10" = _idNNb3Xf;
+        "quilt-26.3-pre-1" = _idNNb3Xf;
+        "quilt-26.3-pre-2" = _idNNb3Xf;
         "neoforge-1.21.3" = _HoPZMhwt;
         "neoforge-24w44a" = _HoPZMhwt;
         "neoforge-24w45a" = _HoPZMhwt;
@@ -829,7 +973,13 @@ let
         "neoforge-26.3-snapshot-3" = _ZkiqLGul;
         "neoforge-26.3-snapshot-4" = _E9UFXtf5;
         "neoforge-26.3-snapshot-5" = _FEiuTaW6;
-        "neoforge-26.3-snapshot-6" = _FEiuTaW6;
+        "neoforge-26.3-snapshot-6" = _idNNb3Xf;
+        "neoforge-26.3-snapshot-7" = _idNNb3Xf;
+        "neoforge-26.3-snapshot-8" = _idNNb3Xf;
+        "neoforge-26.3-snapshot-9" = _idNNb3Xf;
+        "neoforge-26.3-snapshot-10" = _idNNb3Xf;
+        "neoforge-26.3-pre-1" = _idNNb3Xf;
+        "neoforge-26.3-pre-2" = _idNNb3Xf;
         "forge-1.21.5" = _6W4z0J1n;
         "forge-25w15a" = _6W4z0J1n;
         "forge-25w16a" = _6W4z0J1n;
@@ -925,7 +1075,13 @@ let
         "forge-26.3-snapshot-3" = _ZkiqLGul;
         "forge-26.3-snapshot-4" = _E9UFXtf5;
         "forge-26.3-snapshot-5" = _FEiuTaW6;
-        "forge-26.3-snapshot-6" = _FEiuTaW6;
+        "forge-26.3-snapshot-6" = _idNNb3Xf;
+        "forge-26.3-snapshot-7" = _idNNb3Xf;
+        "forge-26.3-snapshot-8" = _idNNb3Xf;
+        "forge-26.3-snapshot-9" = _idNNb3Xf;
+        "forge-26.3-snapshot-10" = _idNNb3Xf;
+        "forge-26.3-pre-1" = _idNNb3Xf;
+        "forge-26.3-pre-2" = _idNNb3Xf;
         "pkg-0.0.1a" = _AtqkeTck;
         "pkg-0.0.2a" = _Gl1wvRnU;
         "pkg-0.0.2a+mod" = _Wyu0TigP;
@@ -983,7 +1139,19 @@ let
         "pkg-26.3-Snapshot-4+mod" = _E9UFXtf5;
         "pkg-26.3-Snapshot-6" = _pycE3xs4;
         "pkg-26.3-Snapshot-6+mod" = _FEiuTaW6;
-        "default" = _FEiuTaW6;
+        "pkg-26.3-Snapshot-7" = _RK3i6MIA;
+        "pkg-26.3-Snapshot-7+mod" = _YorNyut9;
+        "pkg-26.3-Snapshot-8" = _8glp9NSI;
+        "pkg-26.3-Snapshot-8+mod" = _ypcGWMMc;
+        "pkg-26.3-Snapshot-9" = _6vSOW9gW;
+        "pkg-26.3-Snapshot-9+mod" = _b7pD6hcY;
+        "pkg-26.3-Snapshot-10" = _Mm0KH9n3;
+        "pkg-26.3-Snapshot-10+mod" = _ThMtWpSm;
+        "pkg-26.3-pre-1" = _5w7uSeEm;
+        "pkg-26.3-pre-1+mod" = _jwVYcEN9;
+        "pkg-26.3-pre-release-2" = _BWV9SCAM;
+        "pkg-26.3-pre-release-2+mod" = _idNNb3Xf;
+        "default" = _idNNb3Xf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "martinis-treasure-and-farming";

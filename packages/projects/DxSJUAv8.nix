@@ -251,6 +251,56 @@ let
             "file" = "nemos-enchantments-neoForge-26.2-1.7.3.jar";
             "hash" = "sha512-JcFwzgIbe+813G1puVe1kcGVeRf0Z6dtLPZxhRoEo5v/IU5dmDxn3/19LYug6lMOjXiDs6WKhZxfQwYVSl27mA==";
         };
+        _B758H1Nj = {
+            "id" = "B758H1Nj";
+            "file" = "nemos-enchantments-neoForge-26.2-1.8.jar";
+            "hash" = "sha512-Xfg/EZGXvC+DymsMzgksSRsC54wPOVSGlPSujK/Of05m8wfJmDnoGx7ZQ/Uk6pSy5PUcCog+RuhGDgV4LOfm8g==";
+        };
+        _dlcBPKaZ = {
+            "id" = "dlcBPKaZ";
+            "file" = "nemos-enchantments-fabric-26.2-1.8.jar";
+            "hash" = "sha512-reE8qOCWlulZHeamPpGRJIzmCL+vXdl45vcK8zpr7YmqY7qHqANHlC4YA6LXbuSHThx87man0A5YgfHJ0D3pAA==";
+        };
+        _3djIPCN6 = {
+            "id" = "3djIPCN6";
+            "file" = "nemos-enchantments-neoForge-26.2-1.8.jar";
+            "hash" = "sha512-MtcVNUPuIiGlYGg5BdJQQ5cqQ2NjM7l1MCIf7nCNfhfJXJgCzFkJYzCe3AG0bE3tS+E70/YLAyWcH0+LRWVIzQ==";
+        };
+        _XMFpgID4 = {
+            "id" = "XMFpgID4";
+            "file" = "nemos-enchantments-fabric-26.2-1.8.jar";
+            "hash" = "sha512-cTt4zlOK1X0Dy9iZ39n+yTTS4ZcK9vktLeG1mrzamGwmqXQQLnrknYo3Vk3ieFgZ248xHambMLhjGQXTimoLRQ==";
+        };
+        _WVPDyZhw = {
+            "id" = "WVPDyZhw";
+            "file" = "nemos-enchantments-neoForge-26.2-1.9.jar";
+            "hash" = "sha512-z6vmkcD9h514Nqbym1V+Vb2rbJavNZjELU3emXLnVFhQ8UBPHyR0KORQnFebuHeaNsYKIvM9pbyOxe5qVcjfYg==";
+        };
+        _NqSl3NDf = {
+            "id" = "NqSl3NDf";
+            "file" = "nemos-enchantments-fabric-26.2-1.9.jar";
+            "hash" = "sha512-grAjsyVFjRiub1BUMijwbl1oUguxP8+yPkmWc0NU1StflRB5JDBBVPXUnRxSnYg0s5AQ9xZ7zDRbya/2x/xRHQ==";
+        };
+        _YlTcgo9x = {
+            "id" = "YlTcgo9x";
+            "file" = "nemos-enchantments-neoForge-26.2-1.10.jar";
+            "hash" = "sha512-mbCqNgs//bv2Cd2O0gbZ+fcSaqQdp4vaAmWNf5doakOxuLvXfuHksntoXeP3pAFTDZGcfTdYVyOlpsVXwxdpHA==";
+        };
+        _FXJnOMLR = {
+            "id" = "FXJnOMLR";
+            "file" = "nemos-enchantments-fabric-26.2-1.10.jar";
+            "hash" = "sha512-7O56s5GggJ23W6r2KgDkC8BsJBY/VJ2tmA1cO4XYP4lB3YlG40TTwrCz8ov6wa/3ElIozNLmeKaiqIP5LZebrg==";
+        };
+        _aEJILLEE = {
+            "id" = "aEJILLEE";
+            "file" = "nemos_enchantments-1.11.jar";
+            "hash" = "sha512-f31r8N7Q7Z+yNxPE3TBXaT0SfImRZoXwWULrzN0gjxDYKePw6OgjA+4gvqAnUzJLE9JO17kvEBcOZ2pv48Wz/A==";
+        };
+        _SJIEDH0J = {
+            "id" = "SJIEDH0J";
+            "file" = "nemos_enchantments-26.2-1.12.jar";
+            "hash" = "sha512-ymtVZCbrv2V23UmXy3bg64h0jqBu6xJex4OTCO+q9VABPuMh5IVxNqtkQE9yxs9DjeKFPyxu1CkJQrq5kMFZFw==";
+        };
     in {
         "LoNnEKFK" = _LoNnEKFK;
         "1Mv6Xx0W" = _1Mv6Xx0W;
@@ -302,6 +352,16 @@ let
         "ZIp7K71h" = _ZIp7K71h;
         "lPFh81EH" = _lPFh81EH;
         "SyLUm4WO" = _SyLUm4WO;
+        "B758H1Nj" = _B758H1Nj;
+        "dlcBPKaZ" = _dlcBPKaZ;
+        "3djIPCN6" = _3djIPCN6;
+        "XMFpgID4" = _XMFpgID4;
+        "WVPDyZhw" = _WVPDyZhw;
+        "NqSl3NDf" = _NqSl3NDf;
+        "YlTcgo9x" = _YlTcgo9x;
+        "FXJnOMLR" = _FXJnOMLR;
+        "aEJILLEE" = _aEJILLEE;
+        "SJIEDH0J" = _SJIEDH0J;
         "fabric-1.21" = _3mPjBGgz;
         "fabric-1.21.1" = _3mPjBGgz;
         "fabric-1.21.2" = _sohgk9d4;
@@ -313,7 +373,7 @@ let
         "fabric-1.21.10" = _AooEUSEI;
         "fabric-1.21.11" = _1mbDsz9A;
         "fabric-26.1.2" = _aNSgplUG;
-        "fabric-26.2" = _lPFh81EH;
+        "fabric-26.2" = _SJIEDH0J;
         "forge-1.21.5" = _IzlMPfhg;
         "forge-1.21.7" = _kVKYoMbB;
         "forge-1.21.8" = _OGfJoZno;
@@ -325,7 +385,7 @@ let
         "neoforge-1.21.10" = _si4Cr96l;
         "neoforge-1.21.11" = _52hpjQaK;
         "neoforge-26.1.2" = _ZIp7K71h;
-        "neoforge-26.2" = _SyLUm4WO;
+        "neoforge-26.2" = _YlTcgo9x;
         "pkg-1.0.0-1.21" = _LoNnEKFK;
         "pkg-1.0.0-1.21.1" = _1Mv6Xx0W;
         "pkg-1.0-1.21.2" = _B7XYjsyW;
@@ -352,7 +412,12 @@ let
         "pkg-1.21.11-1.7.3" = _gCZdcbeM;
         "pkg-26.1.2-1.7.3" = _ZIp7K71h;
         "pkg-26.2-1.7.3" = _SyLUm4WO;
-        "default" = _SyLUm4WO;
+        "pkg-26.2-1.8" = _XMFpgID4;
+        "pkg-26.2-1.9" = _NqSl3NDf;
+        "pkg-26.2-1.10" = _FXJnOMLR;
+        "pkg-26.2-1.11" = _aEJILLEE;
+        "pkg-26.2-1.12" = _SJIEDH0J;
+        "default" = _SJIEDH0J;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nemos-enchantments";
@@ -360,12 +425,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "MIT" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "MIT License";
-                shortName = "MIT";
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
                 url = null;
             };
         };

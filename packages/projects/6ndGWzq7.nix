@@ -121,6 +121,21 @@ let
             "file" = "Mc122477Fix-fabric-1.1.9+mc26.1*.jar";
             "hash" = "sha512-GG/XAjCKv40gERt30fiUEem6NdK4XVPksrlJVmcwCeshGY38eDWP8YYSUEeChsn5HIu3TxZy/1lRqtB62QaCcA==";
         };
+        _BPOo7aAh = {
+            "id" = "BPOo7aAh";
+            "file" = "Mc122477Fix-fabric-1.1.9+mc26.2.jar";
+            "hash" = "sha512-AhIY3wWszf0p0Fh204sbv5Cm8uEqqzNsZDjrd+Kx6ZozdEZZUROFkPGiIsts4Bme+xjpj1tBs2cQbEHmEtDVwA==";
+        };
+        _Rv6HlBB9 = {
+            "id" = "Rv6HlBB9";
+            "file" = "Mc122477Fix-fabric-1.1.10-testing-1+mc26.2.jar";
+            "hash" = "sha512-VKDk6jJGffvlr4D+XFTmQok0OynuITVaFDmo0Nl9AEtjFj5dwf1AUpyN3n42mh0k5W5yn7+jjadraxMcwrq9ew==";
+        };
+        _kKjreCIr = {
+            "id" = "kKjreCIr";
+            "file" = "Mc122477Fix-fabric-1.1.10-testing-2+mc26.2.jar";
+            "hash" = "sha512-uvFQICgWF3cVjjIwwKV1cR3PYjcYII0FIufJtjIxcLMtergH2z5Y7hTed8l1vZC9qGlnfNHiXCvmcgvib09vLA==";
+        };
     in {
         "rJtsCxF8" = _rJtsCxF8;
         "I9gEMg4h" = _I9gEMg4h;
@@ -146,6 +161,9 @@ let
         "8Eq0NNtJ" = _8Eq0NNtJ;
         "pzVBEgai" = _pzVBEgai;
         "vm1nilpH" = _vm1nilpH;
+        "BPOo7aAh" = _BPOo7aAh;
+        "Rv6HlBB9" = _Rv6HlBB9;
+        "kKjreCIr" = _kKjreCIr;
         "fabric-1.15" = _neyd1HlT;
         "fabric-1.15.1" = _neyd1HlT;
         "fabric-1.15.2" = _neyd1HlT;
@@ -186,6 +204,7 @@ let
         "fabric-26.1" = _vm1nilpH;
         "fabric-26.1.1" = _vm1nilpH;
         "fabric-26.1.2" = _vm1nilpH;
+        "fabric-26.2" = _kKjreCIr;
         "pkg-1.1.0+mc1.15" = _neyd1HlT;
         "pkg-1.1.0+mc1.16" = _JyZGWvL3;
         "pkg-1.1.0+mc1.17" = _AQzhjldv;
@@ -203,7 +222,10 @@ let
         "pkg-1.1.8+mc1.21.10-1.21.11" = _8Eq0NNtJ;
         "pkg-1.1.9+mc26.1" = _pzVBEgai;
         "pkg-1.1.9.1+mc26.1" = _vm1nilpH;
-        "default" = _vm1nilpH;
+        "pkg-1.1.9.2+mc26.2" = _BPOo7aAh;
+        "pkg-1.1.10-testing-1+mc26.2" = _Rv6HlBB9;
+        "pkg-1.1.10-testing-2+mc26.2" = _kKjreCIr;
+        "default" = _kKjreCIr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mc122477fix-re-updated";

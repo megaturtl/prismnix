@@ -51,6 +51,26 @@ let
             "file" = "rxey_bd-1.3.1a-neoforge-1.21.1.jar";
             "hash" = "sha512-vtBGdx7LvF8IoH1ro1WFgLKDKsCaTtyRPHDGeDTPnEqpTWSQs5mAQD5wx5mIslGyWZOzgPuikx0zs5uPH3uwsg==";
         };
+        _gMlgQLiS = {
+            "id" = "gMlgQLiS";
+            "file" = "rxey_bd-1.3.2-neoforge-1.21.1.jar";
+            "hash" = "sha512-K6bpHt2GCoVLES05NCxWjNhgFk7LgsUyiODi7MRQI5RMtY6SKbtjZTJJGs3XMOZWepRfdiNb/TVEaBLd0ch4bg==";
+        };
+        _3nQE614S = {
+            "id" = "3nQE614S";
+            "file" = "rxey_bd-1.3.3-neoforge-1.21.1.jar";
+            "hash" = "sha512-138nPjJpQq51bTcF4Vb/lnZchbVYCKaO5WKSizxnlmiLzEfP6/Gi98edy3vkSpQKpenF7mWL9GFY9FzK+alJAw==";
+        };
+        _yTtXPAaz = {
+            "id" = "yTtXPAaz";
+            "file" = "rxey_bd-1.3.4-neoforge-1.21.1.jar";
+            "hash" = "sha512-6IhfwomTjVyiBCK1lbBeUwxK8pjhQC1kreyXV/Fg8DW0Il+KCnk4SKUeldwAQTt2pFRBbHIkz8VxlAtrMDUVcQ==";
+        };
+        _vyb4YkFm = {
+            "id" = "vyb4YkFm";
+            "file" = "rxey_bd-1.3.5-neoforge-1.21.1.jar";
+            "hash" = "sha512-F9B2OzHZRcM9/NvJhvFnDsF2htHBJR8Z2o0O7tFZdj/K99C70WQig1FN3M68jE7LmHOYCPUcQX9f5gWxCbCIvw==";
+        };
     in {
         "l2CJJBQq" = _l2CJJBQq;
         "cSqPiu5o" = _cSqPiu5o;
@@ -62,10 +82,14 @@ let
         "VjcaSrsx" = _VjcaSrsx;
         "rbijc2je" = _rbijc2je;
         "wDjk9HwB" = _wDjk9HwB;
+        "gMlgQLiS" = _gMlgQLiS;
+        "3nQE614S" = _3nQE614S;
+        "yTtXPAaz" = _yTtXPAaz;
+        "vyb4YkFm" = _vyb4YkFm;
         "forge-1.20.1" = _rbijc2je;
         "neoforge-1.20.1" = _j5Jw1R8U;
         "neoforge-1.20.4" = _eha0Y3Re;
-        "neoforge-1.21.1" = _wDjk9HwB;
+        "neoforge-1.21.1" = _vyb4YkFm;
         "neoforge-1.21.8" = _VjcaSrsx;
         "pkg-1.0.0" = _l2CJJBQq;
         "pkg-1.1.0" = _cSqPiu5o;
@@ -73,7 +97,11 @@ let
         "pkg-1.2.1" = _W2tju01J;
         "pkg-1.3.0" = _rbijc2je;
         "pkg-1.3.1a" = _wDjk9HwB;
-        "default" = _wDjk9HwB;
+        "pkg-1.3.2" = _gMlgQLiS;
+        "pkg-1.3.3" = _3nQE614S;
+        "pkg-1.3.4" = _yTtXPAaz;
+        "pkg-1.3.5" = _vyb4YkFm;
+        "default" = _vyb4YkFm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "voxelprints-desert";

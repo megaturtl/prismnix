@@ -61,6 +61,16 @@ let
             "file" = "vanilladelight-1.20.1-1.0.5a.jar";
             "hash" = "sha512-dzH2piIWnfUTkH9ypcKR1FJLtNGGmzocdD5Hj/wKxci7WKhBr9h8FWG3mc4ZpvC2/2Pr0pMc3TwJrFs7QlgmJw==";
         };
+        _G3oV9s8q = {
+            "id" = "G3oV9s8q";
+            "file" = "vanilladelight-1.20.1-1.0.6.jar";
+            "hash" = "sha512-tj1DzOr1Hbnem6OG6E2vw0I/pABJxFQJPuHMaCXLPr4UvZQ5uwjybGojdCW+3JgtQO88uJ9n1SMVlOFYrCVJmg==";
+        };
+        _mAL8Jckh = {
+            "id" = "mAL8Jckh";
+            "file" = "vanilladelight-1.21.1-1.0.6.jar";
+            "hash" = "sha512-Tt3SQWlOmOsCvjq10GUL9Tl1HYv1Rt5/1IiYnMx+vYWZkArzApfbO6PIRYPJsjNolVxQ/+lu4jHDK6sv90pKwg==";
+        };
     in {
         "JFoWVaYX" = _JFoWVaYX;
         "R5cE8W9f" = _R5cE8W9f;
@@ -74,8 +84,10 @@ let
         "nzE6uHnF" = _nzE6uHnF;
         "vPmDHzOx" = _vPmDHzOx;
         "N3khLY5X" = _N3khLY5X;
-        "forge-1.20.1" = _N3khLY5X;
-        "neoforge-1.21.1" = _vPmDHzOx;
+        "G3oV9s8q" = _G3oV9s8q;
+        "mAL8Jckh" = _mAL8Jckh;
+        "forge-1.20.1" = _G3oV9s8q;
+        "neoforge-1.21.1" = _mAL8Jckh;
         "pkg-1.0.0-1.20.1" = _JFoWVaYX;
         "pkg-1.0.0-1.21.1" = _R5cE8W9f;
         "pkg-1.0.2-1.20.1" = _SaOzGEl1;
@@ -88,7 +100,9 @@ let
         "pkg-1.21.1-1.0.5" = _nzE6uHnF;
         "pkg-1.21.1-1.0.5a" = _vPmDHzOx;
         "pkg-1.20.1-1.0.5a" = _N3khLY5X;
-        "default" = _N3khLY5X;
+        "pkg-1.20.1-1.0.6" = _G3oV9s8q;
+        "pkg-1.21.1-1.0.6" = _mAL8Jckh;
+        "default" = _mAL8Jckh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-delights";

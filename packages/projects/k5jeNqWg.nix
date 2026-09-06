@@ -31,6 +31,36 @@ let
             "file" = "Nyctophobia_1.9_(FABRIC)_for_1.20+.jar";
             "hash" = "sha512-FKYromhIYve04l6kNFc49iXbCR3Wcm2i7zTfYB4y0sXUrwSbeaFB2Fx0KTHqCgq0tzN5VC+oNmXVpui5q9i3yQ==";
         };
+        _c179pWfN = {
+            "id" = "c179pWfN";
+            "file" = "nyctophobia-fabric-mc1.20.1-2.0.0.jar";
+            "hash" = "sha512-+0wBtPgnDA4u9yDBUcUF/VtwqLdyhdab0b6bR/uv++B4UPfbMBa0clvi261+guYMDrfCsRR8zaIeX7eu5myjWg==";
+        };
+        _IMx2xz8h = {
+            "id" = "IMx2xz8h";
+            "file" = "nyctophobia-forge-mc1.20.1-2.0.0.jar";
+            "hash" = "sha512-J6lyTQGsChzsApppldfz5MHF1PbAN8jEPRs2HISUGsbsCIvoL9uvV96PfNNjJtsfBPh2ATuM06R7vRGbgQjsQA==";
+        };
+        _HfnagIJp = {
+            "id" = "HfnagIJp";
+            "file" = "nyctophobia-fabric-mc1.21.1-2.0.0.jar";
+            "hash" = "sha512-XmZ0AAUsWuAuRaWb3xYv0+8TCrCzzPzBwggHg+A7ZKxIp7pOHmZU5rMuoYSOKNcbZGWr9St296y4eHq93fDcWw==";
+        };
+        _JCC0cnaN = {
+            "id" = "JCC0cnaN";
+            "file" = "nyctophobia-neoforge-mc1.21.1-2.0.0.jar";
+            "hash" = "sha512-bnH0z8RYBRz+ZvORaPtEy+QH3+QuyvAo+UrLfj1v4EKfJyys317NateDMT0He8CHIp8vnUufq9ldvmVBGC7rgw==";
+        };
+        _7qbsvQ6H = {
+            "id" = "7qbsvQ6H";
+            "file" = "nyctophobia-fabric-mc1.21.8-2.0.0.jar";
+            "hash" = "sha512-a9klGQpI5aV94hhp5XUZ9P5ShKdRiZMFWzplOaTvy27i8zJodQ1UnQuceupc6i4Y8fyGuhAJfLOT8X39JD5MUw==";
+        };
+        _3RdJKITo = {
+            "id" = "3RdJKITo";
+            "file" = "nyctophobia-neoforge-mc1.21.8-2.0.0.jar";
+            "hash" = "sha512-3Rm45FlEi0fg+5vLd26p5CfYUgJnjxH0051u+bEsbu7PDWBq8Yvz0Oj3Vm6DWyZUJlaBM28jVUveHgdX0TYekw==";
+        };
     in {
         "3xEAkD4L" = _3xEAkD4L;
         "BBrfyFgj" = _BBrfyFgj;
@@ -38,20 +68,34 @@ let
         "eEfODkZe" = _eEfODkZe;
         "mq21a1qZ" = _mq21a1qZ;
         "gF2Deboo" = _gF2Deboo;
+        "c179pWfN" = _c179pWfN;
+        "IMx2xz8h" = _IMx2xz8h;
+        "HfnagIJp" = _HfnagIJp;
+        "JCC0cnaN" = _JCC0cnaN;
+        "7qbsvQ6H" = _7qbsvQ6H;
+        "3RdJKITo" = _3RdJKITo;
         "fabric-1.19.2" = _3xEAkD4L;
         "fabric-1.19.3" = _eEfODkZe;
         "fabric-1.20" = _gF2Deboo;
-        "fabric-1.20.1" = _gF2Deboo;
+        "fabric-1.20.1" = _c179pWfN;
+        "fabric-1.21.1" = _HfnagIJp;
+        "fabric-1.21.8" = _7qbsvQ6H;
         "forge-1.19.2" = _BBrfyFgj;
         "forge-1.19.3" = _kzknT6lo;
         "forge-1.20" = _mq21a1qZ;
-        "forge-1.20.1" = _mq21a1qZ;
+        "forge-1.20.1" = _IMx2xz8h;
+        "neoforge-1.20.1" = _IMx2xz8h;
+        "neoforge-1.21.1" = _JCC0cnaN;
+        "neoforge-1.21.8" = _3RdJKITo;
         "pkg-1.5" = _3xEAkD4L;
         "pkg-1.2" = _BBrfyFgj;
         "pkg-1.3" = _kzknT6lo;
         "pkg-1.6" = _mq21a1qZ;
         "pkg-1.9" = _gF2Deboo;
-        "default" = _gF2Deboo;
+        "pkg-2.0.0+mc1.20.1" = _IMx2xz8h;
+        "pkg-2.0.0+mc1.21.1" = _JCC0cnaN;
+        "pkg-2.0.0+mc1.21.8" = _3RdJKITo;
+        "default" = _3RdJKITo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nyctophobia";
@@ -59,12 +103,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "GNU General Public License v3.0 only";
-                shortName = "GPL-3.0-only";
+                fullName = "GNU Lesser General Public License v3.0 only";
+                shortName = "LGPL-3.0-only";
                 url = null;
             };
         };

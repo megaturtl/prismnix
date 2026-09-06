@@ -41,6 +41,11 @@ let
             "file" = "vertical-slabs-2.1.3-26.1.jar";
             "hash" = "sha512-WXpnhXuaqp734Y/Laucy2cOln2679dx0NsM9W8cB5cD+cE7ruuEpMRnd+lA8YCiv+WPhFFLBq7CacE8QYlFmtg==";
         };
+        _YCaMleZT = {
+            "id" = "YCaMleZT";
+            "file" = "vertical-slabs-2.1.4-26.2.jar";
+            "hash" = "sha512-/t5oPD9hGSlm2qR6rWJ0tzlGbEWyFtdH7xH8j+eh8RaEiyvZelUyqSaTxdL68lxedlKpdGumd1Jybgk6drdMsw==";
+        };
     in {
         "CEXbd31d" = _CEXbd31d;
         "cJKGJr7E" = _cJKGJr7E;
@@ -50,6 +55,7 @@ let
         "AU9KUm4I" = _AU9KUm4I;
         "3IDlKhOD" = _3IDlKhOD;
         "vHcuKQs8" = _vHcuKQs8;
+        "YCaMleZT" = _YCaMleZT;
         "fabric-1.20.5" = _CEXbd31d;
         "fabric-1.20.6" = _CEXbd31d;
         "fabric-1.21" = _g8Snw529;
@@ -64,6 +70,7 @@ let
         "fabric-1.21.10" = _AU9KUm4I;
         "fabric-1.21.11" = _3IDlKhOD;
         "fabric-26.1" = _vHcuKQs8;
+        "fabric-26.2" = _YCaMleZT;
         "pkg-2.0.4" = _CEXbd31d;
         "pkg-2.0.5" = _cJKGJr7E;
         "pkg-2.1.0" = _keFzS0I9;
@@ -72,7 +79,8 @@ let
         "pkg-2.1.3-1.21.5" = _AU9KUm4I;
         "pkg-2.1.3-1.21.11" = _3IDlKhOD;
         "pkg-2.1.3-26.1" = _vHcuKQs8;
-        "default" = _vHcuKQs8;
+        "pkg-2.1.4-26.2" = _YCaMleZT;
+        "default" = _YCaMleZT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hearthian-vertical-slabs";

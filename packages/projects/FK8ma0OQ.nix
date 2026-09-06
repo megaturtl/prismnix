@@ -1696,6 +1696,71 @@ let
             "file" = "omni-1.2-OVERHAUL+1.9.4-legacyfabric.jar";
             "hash" = "sha512-gfaeQ8IMPhTYX4335OIeHMj79Ih2K0/kjSUbRY5ptrqmRyU1JHlbNHqpQTnTk2ARagXRe6o54FkCG3HDq56dJA==";
         };
+        _pnQNwyqj = {
+            "id" = "pnQNwyqj";
+            "file" = "omni-1.2-OVERHAUL+1.10-liteloader.litemod";
+            "hash" = "sha512-khtfJZtXJU55izSqvF6MRlQhrwCkZc96CYSvnwYWYPKHqw944+NvkdIsuLHYmMbcaLRjugFQEqYxjhML9m7fKg==";
+        };
+        _Q6oUHMnw = {
+            "id" = "Q6oUHMnw";
+            "file" = "omni-1.2-OVERHAUL+1.10.2-liteloader.litemod";
+            "hash" = "sha512-7oR44ud24yTvA3t7xlzVGG2qsk0mULIUyPQMZmkqQMXVm4jjYWztEXgo+eI7DNnBEIrm4lgW7M1sTM/MrmQI2A==";
+        };
+        _ZxdQmwt0 = {
+            "id" = "ZxdQmwt0";
+            "file" = "omni-1.2-OVERHAUL+1.11-liteloader.litemod";
+            "hash" = "sha512-ApEslQ1JeQLERx74DMRvOcuS6rwGiaVixioaBvhKoJ78GmAr3VeFGY8j/pkO7Sw7VGvbI7xcrOXdtUV+Q0Ad+g==";
+        };
+        _p9iO8LCc = {
+            "id" = "p9iO8LCc";
+            "file" = "omni-1.2-OVERHAUL+1.11.2-liteloader.litemod";
+            "hash" = "sha512-k6UCntCn4rgZUm4H2XQ5zL5lwoiZMBIjD1SZEGI20lEOqiNuKQnOodvBN2EEfd0tYw2UVue2TZXrJUsUvAkNdQ==";
+        };
+        _iDhYPgvt = {
+            "id" = "iDhYPgvt";
+            "file" = "omni-1.2-OVERHAUL+1.12-liteloader.litemod";
+            "hash" = "sha512-XE3q0mgWKzFzyD2jqDnRRUseFOUi10gjQN5+Pl0ZAddzf/kdxWbOKuqszPNRwL+jrMNGgKPNCSOKPsCN6f5bXg==";
+        };
+        _fKDFOIHZ = {
+            "id" = "fKDFOIHZ";
+            "file" = "omni-1.2-OVERHAUL+1.12.1-liteloader.litemod";
+            "hash" = "sha512-r2CdvzvbLcCk4jE0gdP6s1y/JwBlPj0hii7mb1UaaUdfas+NJXBliqFk1OfH7/wO6yGtg5jg1Bb8QvVlTfLpRQ==";
+        };
+        _uDxcTbrx = {
+            "id" = "uDxcTbrx";
+            "file" = "omni-1.2-OVERHAUL+1.6.4-liteloader.litemod";
+            "hash" = "sha512-scOv4eos6wiZvOPHPrsPhX3DptzQ+yGtEQM0mlHtFSA3iV5UDp2cBjh/5lX0OrSgde6ysLXyIKaLsZiCcRIuVQ==";
+        };
+        _xTfrLud6 = {
+            "id" = "xTfrLud6";
+            "file" = "omni-1.2-OVERHAUL+1.7.10-liteloader.litemod";
+            "hash" = "sha512-MFhyuJgvpYejqFrfsgmx1g0sm/onVFEs0QBeGj+IqzOGb8IDfyZpWZOPRDQHT0LMtpmQPSRrc9hFwDUHoWF9tg==";
+        };
+        _iwk24Ybb = {
+            "id" = "iwk24Ybb";
+            "file" = "omni-1.2-OVERHAUL+1.7.2-liteloader.litemod";
+            "hash" = "sha512-0EY+Xo2q66+ETgK6PpgxYYGy6cOEl1DpCTirpL+GWzO9at/wFo581kmngOJNM0XjBDroi9RNun3vOS9iDVX08w==";
+        };
+        _x7CuQiy8 = {
+            "id" = "x7CuQiy8";
+            "file" = "omni-1.2-OVERHAUL+1.8-liteloader.litemod";
+            "hash" = "sha512-3W9zBnaHWlqFYJDx/NtZk1IpAvmWEfXTUhKal3VuGmBlof1KZABdlPYeEyg71OV8fbQvMFSRhVlB0TFP7YleLw==";
+        };
+        _ENzoTnPT = {
+            "id" = "ENzoTnPT";
+            "file" = "omni-1.2-OVERHAUL+1.8.9-liteloader.litemod";
+            "hash" = "sha512-/o5+uu4YsHS+7ldBE8N/hneN+S2pjO63zETAZEv6CfgqYDtkiBMqWpxGrYEhxtF9yhdkRbRJNzxNOu/HYUEJKA==";
+        };
+        _Gwvy4Ltk = {
+            "id" = "Gwvy4Ltk";
+            "file" = "omni-1.2-OVERHAUL+1.9-liteloader.litemod";
+            "hash" = "sha512-uOyCmcJ/SnziQZaU6VaxN0PdSnEUJ2DmcC+xEZQ0cCNw6cT2oLu3e8aXBhy2YaJhaax2Z7SOJWO8QF/1a4OlSw==";
+        };
+        _rMzPLt3K = {
+            "id" = "rMzPLt3K";
+            "file" = "omni-1.2-OVERHAUL+1.9.4-liteloader.litemod";
+            "hash" = "sha512-Ibps9YAce45YrhWZF/huZH/cmIiAltrdhjpR8VYiJKm2kIeqc25Pty5L99aKDuAE0KFxY5SfDZwkl6xN6SpEtA==";
+        };
     in {
         "XvG3Pt1T" = _XvG3Pt1T;
         "lN1rM6fU" = _lN1rM6fU;
@@ -2036,6 +2101,19 @@ let
         "OgueAfT7" = _OgueAfT7;
         "437LOvVg" = _437LOvVg;
         "q4JRMzyY" = _q4JRMzyY;
+        "pnQNwyqj" = _pnQNwyqj;
+        "Q6oUHMnw" = _Q6oUHMnw;
+        "ZxdQmwt0" = _ZxdQmwt0;
+        "p9iO8LCc" = _p9iO8LCc;
+        "iDhYPgvt" = _iDhYPgvt;
+        "fKDFOIHZ" = _fKDFOIHZ;
+        "uDxcTbrx" = _uDxcTbrx;
+        "xTfrLud6" = _xTfrLud6;
+        "iwk24Ybb" = _iwk24Ybb;
+        "x7CuQiy8" = _x7CuQiy8;
+        "ENzoTnPT" = _ENzoTnPT;
+        "Gwvy4Ltk" = _Gwvy4Ltk;
+        "rMzPLt3K" = _rMzPLt3K;
         "forge-1.21" = _EFo86YBa;
         "forge-1.20.6" = _6Uc5lixQ;
         "forge-1.20.1" = _Rcsq7AEu;
@@ -2164,6 +2242,19 @@ let
         "quilt-26.2" = _ANXUbGAR;
         "quilt-26.1" = _lmDh6x3F;
         "liteloader-1.12.2" = _rDCKd9zl;
+        "liteloader-1.10" = _pnQNwyqj;
+        "liteloader-1.10.2" = _Q6oUHMnw;
+        "liteloader-1.11" = _ZxdQmwt0;
+        "liteloader-1.11.2" = _p9iO8LCc;
+        "liteloader-1.12" = _iDhYPgvt;
+        "liteloader-1.12.1" = _fKDFOIHZ;
+        "liteloader-1.6.4" = _uDxcTbrx;
+        "liteloader-1.7.10" = _xTfrLud6;
+        "liteloader-1.7.2" = _iwk24Ybb;
+        "liteloader-1.8" = _x7CuQiy8;
+        "liteloader-1.8.9" = _ENzoTnPT;
+        "liteloader-1.9" = _Gwvy4Ltk;
+        "liteloader-1.9.4" = _rMzPLt3K;
         "legacy-fabric-1.4.7" = _ERVpdZIj;
         "legacy-fabric-1.3.2" = _mqFHrMcF;
         "legacy-fabric-1.8.9" = _qfKvxuW0;
@@ -2470,7 +2561,20 @@ let
         "pkg-1.2-OVERHAUL+1.8.7-legacyfabric" = _OgueAfT7;
         "pkg-1.2-OVERHAUL+1.8.8-legacyfabric" = _437LOvVg;
         "pkg-1.2-OVERHAUL+1.9.4-legacyfabric" = _q4JRMzyY;
-        "default" = _q4JRMzyY;
+        "pkg-1.2-OVERHAUL+1.10-liteloader" = _pnQNwyqj;
+        "pkg-1.2-OVERHAUL+1.10.2-liteloader" = _Q6oUHMnw;
+        "pkg-1.2-OVERHAUL+1.11-liteloader" = _ZxdQmwt0;
+        "pkg-1.2-OVERHAUL+1.11.2-liteloader" = _p9iO8LCc;
+        "pkg-1.2-OVERHAUL+1.12-liteloader" = _iDhYPgvt;
+        "pkg-1.2-OVERHAUL+1.12.1-liteloader" = _fKDFOIHZ;
+        "pkg-1.2-OVERHAUL+1.6.4-liteloader" = _uDxcTbrx;
+        "pkg-1.2-OVERHAUL+1.7.10-liteloader" = _xTfrLud6;
+        "pkg-1.2-OVERHAUL+1.7.2-liteloader" = _iwk24Ybb;
+        "pkg-1.2-OVERHAUL+1.8-liteloader" = _x7CuQiy8;
+        "pkg-1.2-OVERHAUL+1.8.9-liteloader" = _ENzoTnPT;
+        "pkg-1.2-OVERHAUL+1.9-liteloader" = _Gwvy4Ltk;
+        "pkg-1.2-OVERHAUL+1.9.4-liteloader" = _rMzPLt3K;
+        "default" = _rMzPLt3K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "omnidirectional-movement";

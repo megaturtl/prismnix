@@ -71,6 +71,21 @@ let
             "file" = "create_aeronautics_automated_logistics-0.5.2.jar";
             "hash" = "sha512-cRTclh/x+yDxk1hyHjIYTu4gparYEjohmRUiBHRWiLyuq9/PBaugFr+ETKupCGCtesIsLE5Opx6d4/gOLTp0Fg==";
         };
+        _b9UZAqAR = {
+            "id" = "b9UZAqAR";
+            "file" = "create_aeronautics_automated_logistics-0.6.0.jar";
+            "hash" = "sha512-4IQsVECTMB+YyoobmEiObZ4dc+m34+K0D+4AxRuWJKQhqQU7eMAr7Eg5Fbjr/uxmBLxTfBd1sdCSgf/j4q7G3g==";
+        };
+        _OwMoQnML = {
+            "id" = "OwMoQnML";
+            "file" = "create_aeronautics_automated_logistics-0.6.1.jar";
+            "hash" = "sha512-kXzZdSGC1gfpO6gAtlTFn4u9kbxcORO6u6j3Izi+suvmKP0SQ9vZ6pAlxidyAdqCJw3TOX1WYKW2kD+/IATgCQ==";
+        };
+        _EgPi4wq9 = {
+            "id" = "EgPi4wq9";
+            "file" = "create_aeronautics_automated_logistics-0.6.2.jar";
+            "hash" = "sha512-FT8Zu2qNHn94++Kp+8glowk1xmqw8LFb2oNQcewDx/ax9F2C7f915DGzcY9ncS5FVcCvdQV/yhJt/nr8hIBymQ==";
+        };
     in {
         "EvhgHyVq" = _EvhgHyVq;
         "3Fnw1I57" = _3Fnw1I57;
@@ -86,7 +101,10 @@ let
         "DTSkhHT5" = _DTSkhHT5;
         "2EE3fjFn" = _2EE3fjFn;
         "mu6DXA7H" = _mu6DXA7H;
-        "neoforge-1.21.1" = _mu6DXA7H;
+        "b9UZAqAR" = _b9UZAqAR;
+        "OwMoQnML" = _OwMoQnML;
+        "EgPi4wq9" = _EgPi4wq9;
+        "neoforge-1.21.1" = _EgPi4wq9;
         "pkg-0.1.0" = _EvhgHyVq;
         "pkg-0.1.1" = _3Fnw1I57;
         "pkg-0.1.2" = _kRgEnabX;
@@ -101,7 +119,10 @@ let
         "pkg-0.5.0" = _DTSkhHT5;
         "pkg-0.5.1" = _2EE3fjFn;
         "pkg-0.5.2" = _mu6DXA7H;
-        "default" = _mu6DXA7H;
+        "pkg-0.6.0" = _b9UZAqAR;
+        "pkg-0.6.1" = _OwMoQnML;
+        "pkg-0.6.2" = _EgPi4wq9;
+        "default" = _EgPi4wq9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-aeronautics-automated-logistics";

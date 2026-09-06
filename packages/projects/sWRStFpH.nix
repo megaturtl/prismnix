@@ -51,6 +51,16 @@ let
             "file" = "mikasrevs_phone-1.3.3.jar";
             "hash" = "sha512-ta2qmyWvK+lHGotZj5IuzB+PCFLaIwHmiABEfA+A2NBo9b1UMlBbBT16CeWnw5xBt9k2ffcmada/Lg0xsGx00A==";
         };
+        _OGQGvmLy = {
+            "id" = "OGQGvmLy";
+            "file" = "mikasrevs_phone-1.3.11.jar";
+            "hash" = "sha512-R67SKU8EJ/YMCx1PJAxXty1mxGDUETj9ShVuB4qGMznYlbTUIRsoHdQLHIJk/W63oGIhp1zma3wNq4Ha8BVPPw==";
+        };
+        _dJNuOIvA = {
+            "id" = "dJNuOIvA";
+            "file" = "mattupolisphone112.jar";
+            "hash" = "sha512-uUkGgHyyIcWPvuRcHEVaQcVoB9zm7xI3CkGNriUGEzeMwXuCr6cLb+2Bk3CLe07XVzW4etP73A8vu6b27wTRag==";
+        };
     in {
         "y1UIQoLq" = _y1UIQoLq;
         "eveVWnE7" = _eveVWnE7;
@@ -62,10 +72,12 @@ let
         "D8iQ2YL3" = _D8iQ2YL3;
         "K968B8Yf" = _K968B8Yf;
         "wkbn3EtY" = _wkbn3EtY;
+        "OGQGvmLy" = _OGQGvmLy;
+        "dJNuOIvA" = _dJNuOIvA;
         "forge-1.19.2" = _OQVBgQB1;
-        "forge-1.20.1" = _wkbn3EtY;
+        "forge-1.20.1" = _OGQGvmLy;
         "neoforge-26.1.2" = _3ElNJwpR;
-        "neoforge-1.21.1" = _K968B8Yf;
+        "neoforge-1.21.1" = _dJNuOIvA;
         "fabric-26.1.2" = _D8iQ2YL3;
         "pkg-1.0.9-1.19.2" = _y1UIQoLq;
         "pkg-1.0.9" = _eveVWnE7;
@@ -77,7 +89,9 @@ let
         "pkg-1.1.2-Fabric" = _D8iQ2YL3;
         "pkg-1.1.3-1.21.1" = _K968B8Yf;
         "pkg-1.1.3-1.20.1" = _wkbn3EtY;
-        "default" = _wkbn3EtY;
+        "pkg-1.1.4-1.20.1" = _OGQGvmLy;
+        "pkg-1.1.4-1.21.1" = _dJNuOIvA;
+        "default" = _dJNuOIvA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mikasrevs-phone";

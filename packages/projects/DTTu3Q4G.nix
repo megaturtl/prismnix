@@ -52,7 +52,7 @@ let
         "pkg-0.1.3" = _qsi08qLq;
         "pkg-0.1.4" = _QccKoSZi;
         "pkg-0.1.5" = _RmilWyLk;
-        "pkg-ATDAM" = _VYwTxvDk;
+        "pkg-ATD-Legacy-(OLD-version)" = _VYwTxvDk;
         "default" = _VYwTxvDk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {

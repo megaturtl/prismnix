@@ -261,6 +261,21 @@ let
             "file" = "Firmalife-NeoForge-1.21.1-3.0.11.jar";
             "hash" = "sha512-ZlNhTCBuWPxmSi3iavaSx2W0D94fiN1Z0keyb3uMw8M8bmXYN2KhrlErWpexJtCkd/0OW3MQnlbA5BOQOtoeag==";
         };
+        _6h3U7jYf = {
+            "id" = "6h3U7jYf";
+            "file" = "Firmalife-NeoForge-1.21.1-3.0.12.jar";
+            "hash" = "sha512-Ku0yUQDMQKsrOggTVR+40mOWHaDYIM/zvPK2nfIHPByvbeJbmSofu60cYbPdEyXunBPP0AwYndODPFdBe7O8xQ==";
+        };
+        _CIfMw1HZ = {
+            "id" = "CIfMw1HZ";
+            "file" = "Firmalife-NeoForge-1.21.1-3.0.13.jar";
+            "hash" = "sha512-rYGUTilujLS99lGUQDeqBsxWGiUN/mpPfV6VKiNPM1xf4W0vw/0c6rF35CnJ5GTI7JjUmyCnEUXaXfUaV+2VSQ==";
+        };
+        _Mg5NuXg7 = {
+            "id" = "Mg5NuXg7";
+            "file" = "Firmalife-NeoForge-1.21.1-3.0.14.jar";
+            "hash" = "sha512-2fK7qZZWAwk2r3ml6nSUb1X+3fZwkdi45Q9qkFS7vT/3+U31GpcJjkl6FlN8gYKvV0DA9Y5GDF7b3oimYkSAqg==";
+        };
     in {
         "fZ6g9trN" = _fZ6g9trN;
         "4XRne6gD" = _4XRne6gD;
@@ -314,12 +329,15 @@ let
         "nHZ3Yx0U" = _nHZ3Yx0U;
         "eVFkBSwz" = _eVFkBSwz;
         "ECcBkncu" = _ECcBkncu;
+        "6h3U7jYf" = _6h3U7jYf;
+        "CIfMw1HZ" = _CIfMw1HZ;
+        "Mg5NuXg7" = _Mg5NuXg7;
         "forge-1.12.2" = _fZ6g9trN;
         "forge-1.18.2" = _4XRne6gD;
         "forge-1.20.1" = _eVFkBSwz;
         "forge-1.21.1" = _eAqHiCOo;
         "neoforge-1.20.1" = _eVFkBSwz;
-        "neoforge-1.21.1" = _ECcBkncu;
+        "neoforge-1.21.1" = _Mg5NuXg7;
         "pkg-0.5.1" = _fZ6g9trN;
         "pkg-1.2.18" = _4XRne6gD;
         "pkg-2.0.0-beta" = _hkCFRPBS;
@@ -372,7 +390,10 @@ let
         "pkg-3.0.10" = _nHZ3Yx0U;
         "pkg-2.1.28" = _eVFkBSwz;
         "pkg-3.0.11" = _ECcBkncu;
-        "default" = _ECcBkncu;
+        "pkg-3.0.12" = _6h3U7jYf;
+        "pkg-3.0.13" = _CIfMw1HZ;
+        "pkg-3.0.14" = _Mg5NuXg7;
+        "default" = _Mg5NuXg7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "firmalife";

@@ -142,6 +142,10 @@ let
         "datapack-26.3-snapshot-1" = _xAaI82Jq;
         "datapack-26.3-snapshot-2" = _xAaI82Jq;
         "datapack-26.3-snapshot-6" = _xAaI82Jq;
+        "datapack-26.3-snapshot-8" = _xAaI82Jq;
+        "datapack-26.3-snapshot-9" = _xAaI82Jq;
+        "datapack-26.3-pre-1" = _xAaI82Jq;
+        "datapack-26.3-pre-2" = _xAaI82Jq;
         "fabric-1.18.2" = _2iqmiGlx;
         "fabric-1.19" = _2iqmiGlx;
         "fabric-1.19.1" = _2iqmiGlx;
@@ -216,6 +220,10 @@ let
         "fabric-26.3-snapshot-1" = _2iqmiGlx;
         "fabric-26.3-snapshot-2" = _2iqmiGlx;
         "fabric-26.3-snapshot-6" = _2iqmiGlx;
+        "fabric-26.3-snapshot-8" = _2iqmiGlx;
+        "fabric-26.3-snapshot-9" = _2iqmiGlx;
+        "fabric-26.3-pre-1" = _2iqmiGlx;
+        "fabric-26.3-pre-2" = _2iqmiGlx;
         "forge-1.18.2" = _2iqmiGlx;
         "forge-1.19" = _2iqmiGlx;
         "forge-1.19.1" = _2iqmiGlx;
@@ -290,6 +298,10 @@ let
         "forge-26.3-snapshot-1" = _2iqmiGlx;
         "forge-26.3-snapshot-2" = _2iqmiGlx;
         "forge-26.3-snapshot-6" = _2iqmiGlx;
+        "forge-26.3-snapshot-8" = _2iqmiGlx;
+        "forge-26.3-snapshot-9" = _2iqmiGlx;
+        "forge-26.3-pre-1" = _2iqmiGlx;
+        "forge-26.3-pre-2" = _2iqmiGlx;
         "neoforge-1.18.2" = _2iqmiGlx;
         "neoforge-1.19" = _2iqmiGlx;
         "neoforge-1.19.1" = _2iqmiGlx;
@@ -364,6 +376,10 @@ let
         "neoforge-26.3-snapshot-1" = _2iqmiGlx;
         "neoforge-26.3-snapshot-2" = _2iqmiGlx;
         "neoforge-26.3-snapshot-6" = _2iqmiGlx;
+        "neoforge-26.3-snapshot-8" = _2iqmiGlx;
+        "neoforge-26.3-snapshot-9" = _2iqmiGlx;
+        "neoforge-26.3-pre-1" = _2iqmiGlx;
+        "neoforge-26.3-pre-2" = _2iqmiGlx;
         "quilt-1.18.2" = _2iqmiGlx;
         "quilt-1.19" = _2iqmiGlx;
         "quilt-1.19.1" = _2iqmiGlx;
@@ -438,6 +454,10 @@ let
         "quilt-26.3-snapshot-1" = _2iqmiGlx;
         "quilt-26.3-snapshot-2" = _2iqmiGlx;
         "quilt-26.3-snapshot-6" = _2iqmiGlx;
+        "quilt-26.3-snapshot-8" = _2iqmiGlx;
+        "quilt-26.3-snapshot-9" = _2iqmiGlx;
+        "quilt-26.3-pre-1" = _2iqmiGlx;
+        "quilt-26.3-pre-2" = _2iqmiGlx;
         "pkg-1.0" = _DmJEMBhU;
         "pkg-1.0+mod" = _Yv9hchRT;
         "pkg-1.1" = _4uFMeoMt;

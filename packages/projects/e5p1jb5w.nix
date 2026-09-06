@@ -46,6 +46,21 @@ let
             "file" = "ChenDianMetroWayV0.5.1R.zip";
             "hash" = "sha512-aJvk/6i5ovlH1DoQCokuMJ60oidTaMi8TyXk72zlAFx6SpmtrfMV+bxZyYXN73JObgJz4QDN428B7d07axUUAw==";
         };
+        _98YkC9Rn = {
+            "id" = "98YkC9Rn";
+            "file" = "ChenDianMetroWayV0.5.2Alpha.zip";
+            "hash" = "sha512-AfMVCEsiazahoNAJ6dU7LnAY0gQvrxURScxsBQ30DiyrEp7iZcOPykSxDBlLGOJx+MWlvSn3bDrDE/Gj3blGPA==";
+        };
+        _7S2UBcbV = {
+            "id" = "7S2UBcbV";
+            "file" = "ChenDianMetrolWayV0.5.2Beta.zip";
+            "hash" = "sha512-RqPHJBJDNyPpBS9ekdb8RHPlOuwOeCC74SHjhtdvkdkewMYga2qKnQH0ohE6Dfcot2oLx4o6jbbmTe1SjiJT5Q==";
+        };
+        _FkByDJcu = {
+            "id" = "FkByDJcu";
+            "file" = "ChenDianMetrolWayV0.5.2Beta-Hotfix1.zip";
+            "hash" = "sha512-6q/r/YUxI2t10q0xTZr+R/Zq4ae3wb0MlqvqYBeBfQ+6GqRs9D/DPz0j4pR/bQBhza1oMPrb/PNSP7BGlOF1vw==";
+        };
     in {
         "sTaSmNND" = _sTaSmNND;
         "Sn6QvocV" = _Sn6QvocV;
@@ -56,13 +71,16 @@ let
         "z9jIvqG3" = _z9jIvqG3;
         "JHD267j2" = _JHD267j2;
         "6gX92i8T" = _6gX92i8T;
-        "minecraft-1.16.5" = _6gX92i8T;
-        "minecraft-1.17.1" = _6gX92i8T;
-        "minecraft-1.18.2" = _6gX92i8T;
-        "minecraft-1.19.2" = _6gX92i8T;
-        "minecraft-1.19.4" = _6gX92i8T;
-        "minecraft-1.20.1" = _6gX92i8T;
-        "minecraft-1.20.4" = _6gX92i8T;
+        "98YkC9Rn" = _98YkC9Rn;
+        "7S2UBcbV" = _7S2UBcbV;
+        "FkByDJcu" = _FkByDJcu;
+        "minecraft-1.16.5" = _FkByDJcu;
+        "minecraft-1.17.1" = _FkByDJcu;
+        "minecraft-1.18.2" = _FkByDJcu;
+        "minecraft-1.19.2" = _FkByDJcu;
+        "minecraft-1.19.4" = _FkByDJcu;
+        "minecraft-1.20.1" = _FkByDJcu;
+        "minecraft-1.20.4" = _FkByDJcu;
         "pkg-0.2" = _sTaSmNND;
         "pkg-0.3" = _Sn6QvocV;
         "pkg-0.3.1" = _ULpPuICR;
@@ -71,7 +89,10 @@ let
         "pkg-0.4.1" = _65qc1uFG;
         "pkg-0.5.0" = _JHD267j2;
         "pkg-0.5.1" = _6gX92i8T;
-        "default" = _6gX92i8T;
+        "pkg-0.5.2a" = _98YkC9Rn;
+        "pkg-0.5.2B" = _7S2UBcbV;
+        "pkg-0.5.2B-Hotfix1" = _FkByDJcu;
+        "default" = _FkByDJcu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chendianmetroway";

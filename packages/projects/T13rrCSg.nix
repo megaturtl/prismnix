@@ -46,6 +46,21 @@ let
             "file" = "blocky-outline-1.0.8.jar";
             "hash" = "sha512-YIX9N2bnImlNHx0ElX/GvLinD2QeobsLKsdLUusqe2xGkYL4i43q+gnc4qGllvbN5vcIXBbuH+Ps2GgJeuqxfw==";
         };
+        _OJ4ooHLe = {
+            "id" = "OJ4ooHLe";
+            "file" = "blocky-outline-1.0.9.jar";
+            "hash" = "sha512-GJvuKymQ4aaI+tXQwOKHjYi/1VDhEsUsVrljRqP2qWoZOzBwkT99ZULBIzQywZQZ++u/H4BS9EyeojPoLiZiLg==";
+        };
+        _veb7LZZH = {
+            "id" = "veb7LZZH";
+            "file" = "blocky-outline-1.1.0.jar";
+            "hash" = "sha512-BPOGI6SyjMvCDtgWGQ6HuetVwlSElsPlm8xi6y2WRVbLU+A+f52KIARrVDZfu64m3ChpuEWdtZFcVTXVW0q7AQ==";
+        };
+        _3NkJDqLK = {
+            "id" = "3NkJDqLK";
+            "file" = "blocky-outline-v1.1.1.jar";
+            "hash" = "sha512-oY6j6ChtFuWJoP3zxVOSbacc6KsnWtkHMBFI3TSTnI9NRShopE/qQk69kYhkbV7XCtDXUrCT5TZ2HomwgKSQCA==";
+        };
     in {
         "4Pydq01j" = _4Pydq01j;
         "CYFLzhCc" = _CYFLzhCc;
@@ -56,7 +71,10 @@ let
         "ii1gAdCh" = _ii1gAdCh;
         "31wo6TDx" = _31wo6TDx;
         "8NxnaMx7" = _8NxnaMx7;
-        "fabric-1.21.11" = _4Pydq01j;
+        "OJ4ooHLe" = _OJ4ooHLe;
+        "veb7LZZH" = _veb7LZZH;
+        "3NkJDqLK" = _3NkJDqLK;
+        "fabric-1.21.11" = _3NkJDqLK;
         "fabric-1.21.2" = _CYFLzhCc;
         "fabric-1.21.3" = _CYFLzhCc;
         "fabric-1.21.4" = _CYFLzhCc;
@@ -81,7 +99,7 @@ let
         "fabric-1.19" = _ii1gAdCh;
         "fabric-1.19.1" = _ii1gAdCh;
         "fabric-1.19.2" = _ii1gAdCh;
-        "fabric-26.2" = _31wo6TDx;
+        "fabric-26.2" = _veb7LZZH;
         "forge-1.21.11" = _8NxnaMx7;
         "pkg-1.0.0" = _4Pydq01j;
         "pkg-1.0.2" = _CYFLzhCc;
@@ -92,7 +110,10 @@ let
         "pkg-1.0.6" = _ii1gAdCh;
         "pkg-1.0.7" = _31wo6TDx;
         "pkg-1.0.8" = _8NxnaMx7;
-        "default" = _8NxnaMx7;
+        "pkg-1.0.9" = _OJ4ooHLe;
+        "pkg-1.1.0" = _veb7LZZH;
+        "pkg-1.1.1" = _3NkJDqLK;
+        "default" = _3NkJDqLK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blocky-outline";

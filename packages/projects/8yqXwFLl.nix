@@ -391,6 +391,16 @@ let
             "file" = "SkyBlockPv-1.8.8-26.2.jar";
             "hash" = "sha512-mWO4L1NfLaeIXcu8OWqwBoCWBWReAT8wMoJzjtb1zqwdRh0aOn6W5Po9eOXxHQxFYuFAy5a5lmN7gXkFSP8QNQ==";
         };
+        _iVpdy3W0 = {
+            "id" = "iVpdy3W0";
+            "file" = "SkyBlockPv-1.8.9-26.1.jar";
+            "hash" = "sha512-L1zVaoZTfWPa/sC+4fWZEKI4gfJ3jxP1F3OsLKXX7Eude2Hv+19noM6qB8lCniTDqxAfftSsU91GoheMGj9Ywg==";
+        };
+        _2n5LJtoe = {
+            "id" = "2n5LJtoe";
+            "file" = "SkyBlockPv-1.8.9-26.2.jar";
+            "hash" = "sha512-9fsvWeIz0iHsQ50YH0xTeNwEuzcx2KtsssAlQvZ3zzGozw3Hu6otFIlVi01lkcukQSBctitd8mPJ4TSYcfBPpg==";
+        };
     in {
         "mcLvgz6P" = _mcLvgz6P;
         "MAL522kR" = _MAL522kR;
@@ -470,6 +480,8 @@ let
         "AhvruG4U" = _AhvruG4U;
         "DR5Vyetm" = _DR5Vyetm;
         "DY2OqraJ" = _DY2OqraJ;
+        "iVpdy3W0" = _iVpdy3W0;
+        "2n5LJtoe" = _2n5LJtoe;
         "fabric-1.21.5" = _Yjrel9Dg;
         "fabric-1.21.6" = _qCi480bM;
         "fabric-1.21.7" = _qCi480bM;
@@ -477,10 +489,10 @@ let
         "fabric-1.21.9" = _ssMlZYEp;
         "fabric-1.21.10" = _ssMlZYEp;
         "fabric-1.21.11" = _ImO7bYDb;
-        "fabric-26.1" = _DR5Vyetm;
-        "fabric-26.1.1" = _DR5Vyetm;
-        "fabric-26.1.2" = _DR5Vyetm;
-        "fabric-26.2" = _DY2OqraJ;
+        "fabric-26.1" = _iVpdy3W0;
+        "fabric-26.1.1" = _iVpdy3W0;
+        "fabric-26.1.2" = _iVpdy3W0;
+        "fabric-26.2" = _2n5LJtoe;
         "pkg-1.0.0" = _mcLvgz6P;
         "pkg-1.1.0" = _MAL522kR;
         "pkg-1.1.1" = _CTFxplwB;
@@ -550,7 +562,8 @@ let
         "pkg-1.8.6" = _dcPJ6Nzw;
         "pkg-1.8.7" = _AhvruG4U;
         "pkg-1.8.8" = _DY2OqraJ;
-        "default" = _DY2OqraJ;
+        "pkg-1.8.9" = _2n5LJtoe;
+        "default" = _2n5LJtoe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skyblock-profile-viewer";

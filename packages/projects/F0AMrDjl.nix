@@ -351,6 +351,36 @@ let
             "file" = "classicperipherals-neoforge-1.21.1-0.6.0.jar";
             "hash" = "sha512-HzboWA9MzxCTefz5CoPmksQX5sT4RZjrILhUuW4kzh1HNEpWrky7naxUwLwp+pAAR5y059ZBZlPuWheeFDBZqw==";
         };
+        _kwgG1Vcv = {
+            "id" = "kwgG1Vcv";
+            "file" = "classicperipherals-fabric-1.21.1-0.6.1.jar";
+            "hash" = "sha512-/5X1mFLAvyZUazVn5twkJ0GOFes1bCDBNbQdi5WjOUOuUOdDVQohKSLDlAVY0RTEGpqP/nQ0HzY1uVf3ZXBONw==";
+        };
+        _x5vHnZtl = {
+            "id" = "x5vHnZtl";
+            "file" = "classicperipherals-neoforge-1.21.1-0.6.1.jar";
+            "hash" = "sha512-9zRcX1ZWFYsrd43wwDdo8k9vfVq3P3T0eNIiOsVmtnnOW+a4ycDELiMJ9YS0RdAIkNxy3QRX0s7IxG/uiQEb6w==";
+        };
+        _exGQW1HN = {
+            "id" = "exGQW1HN";
+            "file" = "classicperipherals-fabric-1.21.1-0.6.2.jar";
+            "hash" = "sha512-+fIJd6hnWjaBEwo5ifuoSqeTIo6qVZA2UmPCmt+4ZPlAzxA9MkDajw0/Q8IF1FIAMrFNvS3zxD0R1A5YBgeyEA==";
+        };
+        _cRm4HxZE = {
+            "id" = "cRm4HxZE";
+            "file" = "classicperipherals-neoforge-1.21.1-0.6.2.jar";
+            "hash" = "sha512-YUeWEIbkE/J4Y4gL11ou43EFlq1xgI/2norm0Xta5SVph1Fo+AxWi7M5eNiuU4y0bGNyis+8lcffUVDoJRWVWA==";
+        };
+        _sa4OROSQ = {
+            "id" = "sa4OROSQ";
+            "file" = "classicperipherals-fabric-1.21.1-0.6.3.jar";
+            "hash" = "sha512-XYabNaaKJtX1fRp1lTAnmEh0g5f06cVos8cGCOJCAYcYAFYIBBbnZaN8Km1sTZCqD+C+CwCe1MvOITRa0fAadw==";
+        };
+        _MCYePQRG = {
+            "id" = "MCYePQRG";
+            "file" = "classicperipherals-neoforge-1.21.1-0.6.3.jar";
+            "hash" = "sha512-+gBrwMqY/qarvjflLDs8qMRHTfssfkiRxeB+dtqrDDDvlm1GdG0b6vZEmO0ylFy1LR94V7nvMdtHRDrXf4QC2w==";
+        };
     in {
         "WyQhbyX5" = _WyQhbyX5;
         "rODQkmkB" = _rODQkmkB;
@@ -422,9 +452,15 @@ let
         "JqCBpCls" = _JqCBpCls;
         "bcPlGjai" = _bcPlGjai;
         "KOOyj1wu" = _KOOyj1wu;
+        "kwgG1Vcv" = _kwgG1Vcv;
+        "x5vHnZtl" = _x5vHnZtl;
+        "exGQW1HN" = _exGQW1HN;
+        "cRm4HxZE" = _cRm4HxZE;
+        "sa4OROSQ" = _sa4OROSQ;
+        "MCYePQRG" = _MCYePQRG;
         "fabric-1.20.1" = _EThgIMBg;
-        "fabric-1.21.1" = _bcPlGjai;
-        "neoforge-1.21.1" = _KOOyj1wu;
+        "fabric-1.21.1" = _sa4OROSQ;
+        "neoforge-1.21.1" = _MCYePQRG;
         "forge-1.20.1" = _1F83I46I;
         "pkg-0.1.0" = _jxJnfrsK;
         "pkg-0.2.0" = _DbXIrtaD;
@@ -451,7 +487,10 @@ let
         "pkg-0.5.1" = _K7PSpKUD;
         "pkg-0.5.2" = _JqCBpCls;
         "pkg-0.6.0" = _KOOyj1wu;
-        "default" = _KOOyj1wu;
+        "pkg-0.6.1" = _x5vHnZtl;
+        "pkg-0.6.2" = _cRm4HxZE;
+        "pkg-0.6.3" = _MCYePQRG;
+        "default" = _MCYePQRG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "classicperipherals";

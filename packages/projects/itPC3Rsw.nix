@@ -26,6 +26,8 @@ let
         "datapack-1.20.4" = _cKoKPWEI;
         "datapack-1.20.5" = _cKoKPWEI;
         "datapack-1.20.6" = _cKoKPWEI;
+        "datapack-1.21" = _cKoKPWEI;
+        "datapack-1.21.1" = _cKoKPWEI;
         "fabric-1.19" = _tsVk5HaK;
         "fabric-1.19.1" = _tsVk5HaK;
         "fabric-1.19.2" = _tsVk5HaK;
@@ -38,6 +40,8 @@ let
         "fabric-1.20.4" = _tsVk5HaK;
         "fabric-1.20.5" = _tsVk5HaK;
         "fabric-1.20.6" = _tsVk5HaK;
+        "fabric-1.21" = _tsVk5HaK;
+        "fabric-1.21.1" = _tsVk5HaK;
         "forge-1.19" = _tsVk5HaK;
         "forge-1.19.1" = _tsVk5HaK;
         "forge-1.19.2" = _tsVk5HaK;
@@ -50,6 +54,8 @@ let
         "forge-1.20.4" = _tsVk5HaK;
         "forge-1.20.5" = _tsVk5HaK;
         "forge-1.20.6" = _tsVk5HaK;
+        "forge-1.21" = _tsVk5HaK;
+        "forge-1.21.1" = _tsVk5HaK;
         "quilt-1.19" = _tsVk5HaK;
         "quilt-1.19.1" = _tsVk5HaK;
         "quilt-1.19.2" = _tsVk5HaK;
@@ -62,6 +68,8 @@ let
         "quilt-1.20.4" = _tsVk5HaK;
         "quilt-1.20.5" = _tsVk5HaK;
         "quilt-1.20.6" = _tsVk5HaK;
+        "quilt-1.21" = _tsVk5HaK;
+        "quilt-1.21.1" = _tsVk5HaK;
         "pkg-2.0.1" = _tsVk5HaK;
         "default" = _tsVk5HaK;
     });

@@ -81,6 +81,21 @@ let
             "file" = "PvPHitSound-1.0.15.jar";
             "hash" = "sha512-FDbol3uq7AwebauYI97AvcBHsp65ZyWYMZxGX9JT23dZH+gjmaOhsFA8ta+8dMZGvXz66gF0PrPqL8tcuojh3Q==";
         };
+        _UvgkHRwF = {
+            "id" = "UvgkHRwF";
+            "file" = "pvphitsound-1.0.16.jar";
+            "hash" = "sha512-v+cJJiugzEiOemDNJFMtICY+moBH939Oin1rd+6wGP0dDda2ts1qMuo2yw27JqF/SIk18LyMB48tTsSEb9DILA==";
+        };
+        _8g82b38e = {
+            "id" = "8g82b38e";
+            "file" = "PvPHitSound-1.0.17.jar";
+            "hash" = "sha512-Nq17F3li6JQ13mYY2xyPjTgVMjVL/+hiahK47bVqk2nRFhwzlgmlC194VRtf8vAOf3mStDVPPZpEYhTepjENwg==";
+        };
+        _u3AhFgCv = {
+            "id" = "u3AhFgCv";
+            "file" = "PvPHitSound-1.0.18.jar";
+            "hash" = "sha512-hjse0MgIWScuCVRCoJGKCnlY1gWIQB4a/S1tTLc1YSIg3FRb/mIVcLYDXY9X+FD+RvCYOxC8qn8wLSobu+ct1Q==";
+        };
     in {
         "D3ltZE80" = _D3ltZE80;
         "F6d1T2ot" = _F6d1T2ot;
@@ -98,22 +113,25 @@ let
         "PLRDBev6" = _PLRDBev6;
         "pWItGfq0" = _pWItGfq0;
         "nhZd6mkz" = _nhZd6mkz;
+        "UvgkHRwF" = _UvgkHRwF;
+        "8g82b38e" = _8g82b38e;
+        "u3AhFgCv" = _u3AhFgCv;
         "fabric-1.21.10" = _D3ltZE80;
-        "fabric-1.21.11" = _PLRDBev6;
+        "fabric-1.21.11" = _UvgkHRwF;
         "fabric-1.21.1" = _mthtyDKu;
         "fabric-1.21.2" = _JPebRYZi;
         "fabric-1.21.3" = _vdBNCIV1;
         "fabric-1.21.4" = _aRQlCDwg;
         "fabric-1.21" = _YNQBXXIN;
-        "fabric-26.1" = _pWItGfq0;
-        "fabric-26.1.1" = _pWItGfq0;
-        "fabric-26.1.2" = _pWItGfq0;
+        "fabric-26.1" = _8g82b38e;
+        "fabric-26.1.1" = _8g82b38e;
+        "fabric-26.1.2" = _8g82b38e;
         "fabric-1.21.9" = _euYowx9Y;
         "fabric-1.21.8" = _AWz4yLvf;
         "fabric-1.21.7" = _87CQbshI;
         "fabric-1.21.6" = _W94QwRM6;
         "fabric-1.21.5" = _3f9e0QVT;
-        "fabric-26.2" = _nhZd6mkz;
+        "fabric-26.2" = _u3AhFgCv;
         "pkg-1.0.0" = _D3ltZE80;
         "pkg-1.0.1" = _F6d1T2ot;
         "pkg-1.0.2" = _mthtyDKu;
@@ -130,7 +148,10 @@ let
         "pkg-1.0.13" = _PLRDBev6;
         "pkg-1.0.14" = _pWItGfq0;
         "pkg-1.0.15" = _nhZd6mkz;
-        "default" = _nhZd6mkz;
+        "pkg-1.0.16" = _UvgkHRwF;
+        "pkg-1.0.17" = _8g82b38e;
+        "pkg-1.0.18" = _u3AhFgCv;
+        "default" = _u3AhFgCv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pvphitsound";

@@ -41,6 +41,11 @@ let
             "file" = "Classic_Musical_Discs-Forge-1.20.1-1.5.2.jar";
             "hash" = "sha512-1+QkEvRUcETQyKTXauMU2b03wNRK+GIWUZf3q43Wyj0xI6WZPHwwzfUN5WiGhU2NKOXoUK2IC6eEw8/yqr2qzA==";
         };
+        _zvwH60Dc = {
+            "id" = "zvwH60Dc";
+            "file" = "classic_musical_discs-neoforge-1.21.1-1.5.3.jar";
+            "hash" = "sha512-MUwB6zKnEhta1aSqTtNnaBmxf0pKr8IChzatzjFYDnoSuReFSsRAC+KAZ1f3eJN5ViJW32vSpq9Gvg4LAfdsnQ==";
+        };
     in {
         "RJTf7AtT" = _RJTf7AtT;
         "D1idCxYJ" = _D1idCxYJ;
@@ -50,7 +55,9 @@ let
         "z5qJVrla" = _z5qJVrla;
         "IKNpjZdC" = _IKNpjZdC;
         "sdywXtAZ" = _sdywXtAZ;
+        "zvwH60Dc" = _zvwH60Dc;
         "forge-1.20.1" = _sdywXtAZ;
+        "neoforge-1.21.1" = _zvwH60Dc;
         "pkg-1.0.0" = _RJTf7AtT;
         "pkg-1.1" = _D1idCxYJ;
         "pkg-1.2" = _3auKXU01;
@@ -59,7 +66,8 @@ let
         "pkg-1.5" = _z5qJVrla;
         "pkg-1.5.1" = _IKNpjZdC;
         "pkg-1.5.2" = _sdywXtAZ;
-        "default" = _sdywXtAZ;
+        "pkg-1.5.3" = _zvwH60Dc;
+        "default" = _zvwH60Dc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "classic-musical-discs";

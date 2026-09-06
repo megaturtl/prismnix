@@ -81,6 +81,11 @@ let
             "file" = "[CS] FNaF-1.8.0-1.21.1.jar";
             "hash" = "sha512-86rXHj6xkITmbGtfcQi69vwHnfa6tZ1QN6xrfF6GUsYsDRA7WH7bXc5L/y0acl4BnXiRfMwDMe7MzdpVOr0xmA==";
         };
+        _mWFxM6g5 = {
+            "id" = "mWFxM6g5";
+            "file" = "[CS] FNaF-1.8.1-1.21.1.jar";
+            "hash" = "sha512-YHFUiINocU4+oUbnepfuFgLjtYM1Pk5T1sJjNU1La8qxuKs9M+DKoo9CKma07IjVeq3suAzj/wi8RwQImyUMGQ==";
+        };
     in {
         "RnGjQHPP" = _RnGjQHPP;
         "L2OXj5jF" = _L2OXj5jF;
@@ -98,10 +103,11 @@ let
         "uuihNFFn" = _uuihNFFn;
         "57Z2v2Gr" = _57Z2v2Gr;
         "M62anbwr" = _M62anbwr;
+        "mWFxM6g5" = _mWFxM6g5;
         "forge-1.20.1" = _57Z2v2Gr;
         "forge-1.19.2" = _XNM00hwk;
         "neoforge-1.20.1" = _57Z2v2Gr;
-        "neoforge-1.21.1" = _M62anbwr;
+        "neoforge-1.21.1" = _mWFxM6g5;
         "pkg-1.4.5-1.20.1" = _RnGjQHPP;
         "pkg-1.4.6-1.20.1" = _L2OXj5jF;
         "pkg-1.5.2-1.20.1" = _rYAQN0MQ;
@@ -118,7 +124,8 @@ let
         "pkg-1.7.2-1.20.1" = _uuihNFFn;
         "pkg-1.7.3-1.20.1" = _57Z2v2Gr;
         "pkg-1.8.0-1.21.1" = _M62anbwr;
-        "default" = _M62anbwr;
+        "pkg-1.8.1-1.21.1" = _mWFxM6g5;
+        "default" = _mWFxM6g5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "csfnaf";

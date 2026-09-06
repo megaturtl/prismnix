@@ -276,6 +276,26 @@ let
             "file" = "librarians-balance-3.9.jar";
             "hash" = "sha512-pGxi7GkXR7DaPzMgVuO/j3nN8rt2prMTr04n/BlE2jwlzLEqY2Mh9O1IdoprIpoNt6sa0oTyFozpBb3HISsIdQ==";
         };
+        _4IgWYvyO = {
+            "id" = "4IgWYvyO";
+            "file" = "Librarian's Balance - v3.10.zip";
+            "hash" = "sha512-MvSZLrBNsESMwI1FeNfy3OgUT0WlTFIZ+lIH4B0hwRIdU/URayUET29GVB2H9TBiRPBAjTRMyXxm1C1YaSPHOQ==";
+        };
+        _krqyIbNe = {
+            "id" = "krqyIbNe";
+            "file" = "librarians-balance-3.10.jar";
+            "hash" = "sha512-Cb1WWE8sItI8z6xm/0JE0oDAMfXMYOOYL5o8H2QFSQiJo8Mzgs/8JF+yksghaKK3+0F5sWf7y313P2mxIlTl6w==";
+        };
+        _3Gw0Bkzi = {
+            "id" = "3Gw0Bkzi";
+            "file" = "Librarian's Balance - v3.11.zip";
+            "hash" = "sha512-K4yZrH/FJ7E9iWL8FgG8AHe71yYIFFRGuhfo+mKYHZDlgLVx0jTk6FKcRMvTnvtajoh8dJs7gEQKh0QywvcDBQ==";
+        };
+        _BHFx3MtW = {
+            "id" = "BHFx3MtW";
+            "file" = "librarians-balance-3.11.jar";
+            "hash" = "sha512-4/rTHwf7BjNLrK3gZqQc0bIsHsMK0zYzYqUQtbu6+iiMYgMh9pxWHLGlLBbXJf5n22abEoKjOS8u/JI7/3AFuA==";
+        };
     in {
         "opKB3cF7" = _opKB3cF7;
         "SwTnpGtE" = _SwTnpGtE;
@@ -332,6 +352,10 @@ let
         "sD0cK3so" = _sD0cK3so;
         "1N99ZCr3" = _1N99ZCr3;
         "vLCRLQQ0" = _vLCRLQQ0;
+        "4IgWYvyO" = _4IgWYvyO;
+        "krqyIbNe" = _krqyIbNe;
+        "3Gw0Bkzi" = _3Gw0Bkzi;
+        "BHFx3MtW" = _BHFx3MtW;
         "datapack-1.17" = _Z4bVbrxv;
         "datapack-1.17.1" = _Z4bVbrxv;
         "datapack-1.18" = _Z4bVbrxv;
@@ -364,6 +388,7 @@ let
         "datapack-26.1" = _1N99ZCr3;
         "datapack-26.1.1" = _1N99ZCr3;
         "datapack-26.1.2" = _1N99ZCr3;
+        "datapack-26.2" = _3Gw0Bkzi;
         "fabric-1.17" = _p4uPMhmE;
         "fabric-1.17.1" = _p4uPMhmE;
         "fabric-1.18" = _p4uPMhmE;
@@ -396,6 +421,7 @@ let
         "fabric-26.1" = _vLCRLQQ0;
         "fabric-26.1.1" = _vLCRLQQ0;
         "fabric-26.1.2" = _vLCRLQQ0;
+        "fabric-26.2" = _BHFx3MtW;
         "forge-1.17" = _p4uPMhmE;
         "forge-1.17.1" = _p4uPMhmE;
         "forge-1.18" = _p4uPMhmE;
@@ -428,6 +454,7 @@ let
         "forge-26.1" = _vLCRLQQ0;
         "forge-26.1.1" = _vLCRLQQ0;
         "forge-26.1.2" = _vLCRLQQ0;
+        "forge-26.2" = _BHFx3MtW;
         "quilt-1.17" = _p4uPMhmE;
         "quilt-1.17.1" = _p4uPMhmE;
         "quilt-1.18" = _p4uPMhmE;
@@ -460,6 +487,7 @@ let
         "quilt-26.1" = _vLCRLQQ0;
         "quilt-26.1.1" = _vLCRLQQ0;
         "quilt-26.1.2" = _vLCRLQQ0;
+        "quilt-26.2" = _BHFx3MtW;
         "neoforge-1.21" = _w9FAXasb;
         "neoforge-1.21.1" = _w9FAXasb;
         "neoforge-1.20" = _SM9vqAY7;
@@ -480,6 +508,7 @@ let
         "neoforge-26.1" = _vLCRLQQ0;
         "neoforge-26.1.1" = _vLCRLQQ0;
         "neoforge-26.1.2" = _vLCRLQQ0;
+        "neoforge-26.2" = _BHFx3MtW;
         "pkg-1.0" = _opKB3cF7;
         "pkg-1.0+mod" = _SwTnpGtE;
         "pkg-1.1" = _3ZVIZVYL;
@@ -532,7 +561,11 @@ let
         "pkg-3.8b+mod" = _sD0cK3so;
         "pkg-3.9" = _1N99ZCr3;
         "pkg-3.9+mod" = _vLCRLQQ0;
-        "default" = _vLCRLQQ0;
+        "pkg-3.10" = _4IgWYvyO;
+        "pkg-3.10+mod" = _krqyIbNe;
+        "pkg-3.11" = _3Gw0Bkzi;
+        "pkg-3.11+mod" = _BHFx3MtW;
+        "default" = _BHFx3MtW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "librarians-balance";

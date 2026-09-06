@@ -251,6 +251,16 @@ let
             "file" = "paper-0.4.0.0+26.2-paper-all.jar";
             "hash" = "sha512-6OHaUbWYTeVlff4XPJNYbJR3I4PYQr8xX8MRmwAFwRtSuEwqNKUZzHCd3lZ/kq3XUMO0l7SCtHyAqV0EekrJww==";
         };
+        _oxZLx3yz = {
+            "id" = "oxZLx3yz";
+            "file" = "otterlib-0.4.0.1+26.2-paper.jar";
+            "hash" = "sha512-28tI7kMyOtHWW0raIuu9psxa7tb7QdtMGSQOg9NZk0Xuyy06S6wNSer6AEyXypG/PxnzMpjL0VEXcTP2NRolyw==";
+        };
+        _syzBi0rF = {
+            "id" = "syzBi0rF";
+            "file" = "otterlib-0.4.0.1+26.2-spigot.jar";
+            "hash" = "sha512-VpMVzmI4RMjHtHEtRNnzINgufJdmiSjfFXLeCcdeC1RhoJrLhSYmIZz5z7ML3WX5/UzbWJ3sP7d/vS2D5/OEHw==";
+        };
     in {
         "sFNnKAZw" = _sFNnKAZw;
         "XyqkvzmI" = _XyqkvzmI;
@@ -302,6 +312,8 @@ let
         "TSzkTFkO" = _TSzkTFkO;
         "4mikhSKr" = _4mikhSKr;
         "3UwHuXqT" = _3UwHuXqT;
+        "oxZLx3yz" = _oxZLx3yz;
+        "syzBi0rF" = _syzBi0rF;
         "fabric-1.21.5" = _ay2JBPGs;
         "fabric-1.21.4" = _jypR5qeR;
         "fabric-1.21" = _lMOoBAw6;
@@ -353,17 +365,17 @@ let
         "spigot-1.21.5" = _FXcbzdv8;
         "spigot-1.21.6" = _FXcbzdv8;
         "spigot-1.21.7" = _FXcbzdv8;
-        "spigot-26.1" = _4mikhSKr;
-        "spigot-26.2" = _4mikhSKr;
+        "spigot-26.1" = _syzBi0rF;
+        "spigot-26.2" = _syzBi0rF;
         "folia-1.21.6" = _aeDApaPv;
         "folia-1.21.7" = _HvUT4DIF;
-        "folia-26.2" = _3UwHuXqT;
+        "folia-26.2" = _oxZLx3yz;
         "paper-1.21.6" = _aeDApaPv;
         "paper-1.21.7" = _HvUT4DIF;
-        "paper-26.2" = _3UwHuXqT;
+        "paper-26.2" = _oxZLx3yz;
         "purpur-1.21.6" = _aeDApaPv;
         "purpur-1.21.7" = _HvUT4DIF;
-        "purpur-26.2" = _3UwHuXqT;
+        "purpur-26.2" = _oxZLx3yz;
         "pkg-0.1.0.0+1.21.5" = _sFNnKAZw;
         "pkg-0.1.0.1+1.21.5" = _XyqkvzmI;
         "pkg-0.1.1.0+1.21.5" = _QnFtg28F;
@@ -408,7 +420,8 @@ let
         "pkg-0.3.0.1+26.1" = _VrPGp6VK;
         "pkg-0.3.0.1+26.2" = _7thwoNTE;
         "pkg-0.4.0.0+26.2" = _3UwHuXqT;
-        "default" = _3UwHuXqT;
+        "pkg-0.4.0.1+26.2" = _syzBi0rF;
+        "default" = _syzBi0rF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "otterlib";

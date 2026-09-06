@@ -232,6 +232,9 @@ let
         "velocity-1.21.10" = _aeiqPeqP;
         "velocity-1.21.11" = _aeiqPeqP;
         "velocity-26.1" = _aeiqPeqP;
+        "velocity-26.1.1" = _aeiqPeqP;
+        "velocity-26.1.2" = _aeiqPeqP;
+        "velocity-26.2" = _aeiqPeqP;
         "bukkit-1.8.8" = _YzmFaTED;
         "bukkit-1.8.9" = _YzmFaTED;
         "bukkit-1.9" = _YzmFaTED;
@@ -358,6 +361,9 @@ let
         "paper-1.21.10" = _j41xN2WK;
         "paper-1.21.11" = _j41xN2WK;
         "paper-26.1" = _j41xN2WK;
+        "paper-26.1.1" = _j41xN2WK;
+        "paper-26.1.2" = _j41xN2WK;
+        "paper-26.2" = _j41xN2WK;
         "purpur-1.8.8" = _YzmFaTED;
         "purpur-1.8.9" = _YzmFaTED;
         "purpur-1.9" = _YzmFaTED;
@@ -430,6 +436,9 @@ let
         "purpur-1.21.10" = _j41xN2WK;
         "purpur-1.21.11" = _j41xN2WK;
         "purpur-26.1" = _j41xN2WK;
+        "purpur-26.1.1" = _j41xN2WK;
+        "purpur-26.1.2" = _j41xN2WK;
+        "purpur-26.2" = _j41xN2WK;
         "spigot-1.8.8" = _YzmFaTED;
         "spigot-1.8.9" = _YzmFaTED;
         "spigot-1.9" = _YzmFaTED;
@@ -547,6 +556,9 @@ let
         "sponge-1.21.10" = _EdlkqD3d;
         "sponge-1.21.11" = _EdlkqD3d;
         "sponge-26.1" = _EdlkqD3d;
+        "sponge-26.1.1" = _EdlkqD3d;
+        "sponge-26.1.2" = _EdlkqD3d;
+        "sponge-26.2" = _EdlkqD3d;
         "bungeecord-1.7.10" = _tRmNoHfw;
         "bungeecord-1.8" = _DD0SZMfW;
         "bungeecord-1.8.1" = _DD0SZMfW;
@@ -670,6 +682,9 @@ let
         "folia-1.21.10" = _j41xN2WK;
         "folia-1.21.11" = _j41xN2WK;
         "folia-26.1" = _j41xN2WK;
+        "folia-26.1.1" = _j41xN2WK;
+        "folia-26.1.2" = _j41xN2WK;
+        "folia-26.2" = _j41xN2WK;
         "pkg-2.0.0" = _42K5wSe9;
         "pkg-3.0.0" = _cmtmetUk;
         "pkg-3.0.1" = _Z4RtoVgp;

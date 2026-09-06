@@ -91,6 +91,16 @@ let
             "file" = "StationAPI-2.0.0-alpha.6.2.jar";
             "hash" = "sha512-EM7eHjDRNsD93mODCFSdgeCoeX41jCAO4ycfbAdbQ2I+XwBY3Owbx3QeOd7Zdwijj8rdjfTS46PoC/0TjD22Ig==";
         };
+        _Zlkgsw41 = {
+            "id" = "Zlkgsw41";
+            "file" = "StationAPI-2.0.0-alpha.6.3.jar";
+            "hash" = "sha512-2WFacvjWSgfRENzgnT3lNVev/1X5BzOnatYP6FeB09D2f7fZ3E4MFuf+rtfS93Il5n07PawllRZNTsQ/EzddFQ==";
+        };
+        _VJqorUPj = {
+            "id" = "VJqorUPj";
+            "file" = "StationAPI-2.0.0-alpha.6.4.jar";
+            "hash" = "sha512-D7zpjjDioPxTta/mT8uhw7sLpfhQJYT+GxMiJrKMVFs4+YJzGocJS65Log7SLG8HhxOkJbQUvcS29wXAqOaSaQ==";
+        };
     in {
         "zZYwzGqM" = _zZYwzGqM;
         "vVp9vR53" = _vVp9vR53;
@@ -110,8 +120,10 @@ let
         "aatB4eaI" = _aatB4eaI;
         "1V3VgB3e" = _1V3VgB3e;
         "lpvJITem" = _lpvJITem;
-        "babric-b1.7.3" = _lpvJITem;
-        "fabric-b1.7.3" = _lpvJITem;
+        "Zlkgsw41" = _Zlkgsw41;
+        "VJqorUPj" = _VJqorUPj;
+        "babric-b1.7.3" = _VJqorUPj;
+        "fabric-b1.7.3" = _VJqorUPj;
         "pkg-2.0-alpha.1" = _zZYwzGqM;
         "pkg-2.0-alpha.1.1" = _vVp9vR53;
         "pkg-2.0-alpha.2" = _ZiVDNbPV;
@@ -130,7 +142,9 @@ let
         "pkg-2.0.0-alpha.6" = _aatB4eaI;
         "pkg-2.0.0-alpha.6.1" = _1V3VgB3e;
         "pkg-2.0.0-alpha.6.2" = _lpvJITem;
-        "default" = _lpvJITem;
+        "pkg-2.0.0-alpha.6.3" = _Zlkgsw41;
+        "pkg-2.0.0-alpha.6.4" = _VJqorUPj;
+        "default" = _VJqorUPj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stationapi";

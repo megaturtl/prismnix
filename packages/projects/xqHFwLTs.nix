@@ -36,6 +36,16 @@ let
             "file" = "maces-are-better-26.2.jar";
             "hash" = "sha512-+95JDei4bMY3Jb4v0KmulOy9hmEbwfXcSN4AY/QpDCTmkGickG5Wtw0SO7pbVrckjnw5w80v1cMiVId40ajhJA==";
         };
+        _8OQPWW4N = {
+            "id" = "8OQPWW4N";
+            "file" = "maces-are-better-1.21.1-2-fabric.jar";
+            "hash" = "sha512-dht4oWcsP5D7yxrRLlhdSyUfH9ZJE19axt/e8HQCj2zBUZwg31czmM0gbgnfhV/Z+QjuidfGendiUzjhS8X2kQ==";
+        };
+        _yCqvGvVj = {
+            "id" = "yCqvGvVj";
+            "file" = "maces-are-better-26.1.x_4.jar";
+            "hash" = "sha512-MwYZYn9aA7O0kK/D5HIrGs6Z1x3DWubYE0ecnJ/B14GE1effnTVK4HvVMlFajdshqpL7yOWV+udNqHqwvNvl+g==";
+        };
     in {
         "ywR1RlMf" = _ywR1RlMf;
         "jaq8T3ZP" = _jaq8T3ZP;
@@ -44,11 +54,14 @@ let
         "6TFsjEnh" = _6TFsjEnh;
         "CMNjEGZI" = _CMNjEGZI;
         "1kw09juZ" = _1kw09juZ;
+        "8OQPWW4N" = _8OQPWW4N;
+        "yCqvGvVj" = _yCqvGvVj;
         "fabric-1.21.11" = _6TFsjEnh;
-        "fabric-26.1" = _CMNjEGZI;
-        "fabric-26.1.1" = _CMNjEGZI;
-        "fabric-26.1.2" = _CMNjEGZI;
+        "fabric-26.1" = _yCqvGvVj;
+        "fabric-26.1.1" = _yCqvGvVj;
+        "fabric-26.1.2" = _yCqvGvVj;
         "fabric-26.2" = _1kw09juZ;
+        "fabric-1.21.1" = _8OQPWW4N;
         "pkg-1.21.11_fabric" = _ywR1RlMf;
         "pkg-26.1.x_fabric_old" = _jaq8T3ZP;
         "pkg-1.21.11_2_fabric" = _mFDyJNZL;
@@ -56,7 +69,9 @@ let
         "pkg-1.21.11_3_fabric" = _6TFsjEnh;
         "pkg-26.1.x_3_fabric" = _CMNjEGZI;
         "pkg-26.2_fabric" = _1kw09juZ;
-        "default" = _1kw09juZ;
+        "pkg-1.21.1_fabric_2" = _8OQPWW4N;
+        "pkg-26.1.x-fabric-4" = _yCqvGvVj;
+        "default" = _yCqvGvVj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "maces-are-better";

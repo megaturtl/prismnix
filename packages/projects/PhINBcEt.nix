@@ -81,6 +81,16 @@ let
             "file" = "wallet-2.6.jar";
             "hash" = "sha512-/IYRyMvc/LVe/Hrd2MqbrECW29IjUiyYUAcAVzqBk1/2fU0mdHLbtf+ZKoou70e7d8yvrapTgDI6w7zsFuBqNw==";
         };
+        _NfosTcNo = {
+            "id" = "NfosTcNo";
+            "file" = "Walletfabric3.0.026.2.jar";
+            "hash" = "sha512-5AN51dE5PxpPBVsplRAo8JJ7unFoSFfrEbBN6W1avsyVogQLlvlg7q4sRes892VauSrnSjcnhMWo7r09jGfdJA==";
+        };
+        _52cbRcOe = {
+            "id" = "52cbRcOe";
+            "file" = "Walletneoforge3.0.026.2.jar";
+            "hash" = "sha512-vxjIwRoS1TTyT0DHlGC/tHBcSnAGSipvb9PMdZ3e40vu8RwEh0jwoNrB0oCakTHKrJcm9dDCcOia5TwObMjzfA==";
+        };
     in {
         "z0s1o9Af" = _z0s1o9Af;
         "IsmY2fVS" = _IsmY2fVS;
@@ -98,6 +108,8 @@ let
         "2tQhLyRs" = _2tQhLyRs;
         "eyDc7Q7m" = _eyDc7Q7m;
         "5WwshLC2" = _5WwshLC2;
+        "NfosTcNo" = _NfosTcNo;
+        "52cbRcOe" = _52cbRcOe;
         "datapack-1.20" = _z0s1o9Af;
         "datapack-1.20.1" = _z0s1o9Af;
         "datapack-1.20.2" = _z0s1o9Af;
@@ -126,6 +138,7 @@ let
         "fabric-1.21.3" = _6dsuJhhW;
         "fabric-1.21.5" = _2tQhLyRs;
         "fabric-1.21.6" = _5WwshLC2;
+        "fabric-26.2" = _NfosTcNo;
         "forge-1.20" = _IsmY2fVS;
         "forge-1.20.1" = _IsmY2fVS;
         "forge-1.20.2" = _IsmY2fVS;
@@ -163,6 +176,7 @@ let
         "neoforge-1.21.3" = _6dsuJhhW;
         "neoforge-1.21.5" = _2tQhLyRs;
         "neoforge-1.21.6" = _5WwshLC2;
+        "neoforge-26.2" = _52cbRcOe;
         "pkg-1.2" = _z0s1o9Af;
         "pkg-1.2+mod" = _IsmY2fVS;
         "pkg-2.1" = _1lShZr0F;
@@ -179,7 +193,8 @@ let
         "pkg-2.5+mod" = _2tQhLyRs;
         "pkg-2.6" = _eyDc7Q7m;
         "pkg-2.6+mod" = _5WwshLC2;
-        "default" = _5WwshLC2;
+        "pkg-3.0.0+26.2" = _52cbRcOe;
+        "default" = _52cbRcOe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wallet";

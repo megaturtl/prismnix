@@ -54,6 +54,7 @@ let
         "minecraft-1.21.11" = _jchgtgyA;
         "minecraft-26.1" = _jchgtgyA;
         "minecraft-26.1.1" = _jchgtgyA;
+        "minecraft-26.2-snapshot-1" = _jchgtgyA;
         "minecraft-26.1.2" = _jchgtgyA;
         "minecraft-26.2-snapshot-2" = _jchgtgyA;
         "minecraft-26.2-snapshot-3" = _jchgtgyA;
@@ -65,6 +66,16 @@ let
         "minecraft-26.2-pre-1" = _jchgtgyA;
         "minecraft-26.2-pre-2" = _jchgtgyA;
         "minecraft-26.2" = _jchgtgyA;
+        "minecraft-26.3-snapshot-1" = _jchgtgyA;
+        "minecraft-26.3-snapshot-2" = _jchgtgyA;
+        "minecraft-26.3-snapshot-3" = _jchgtgyA;
+        "minecraft-26.3-snapshot-4" = _jchgtgyA;
+        "minecraft-26.3-snapshot-5" = _jchgtgyA;
+        "minecraft-26.3-snapshot-6" = _jchgtgyA;
+        "minecraft-26.3-snapshot-7" = _jchgtgyA;
+        "minecraft-26.3-snapshot-8" = _jchgtgyA;
+        "minecraft-26.3-snapshot-9" = _jchgtgyA;
+        "minecraft-26.3-snapshot-10" = _jchgtgyA;
         "pkg-1.0" = _14YDdGv8;
         "pkg-1.1" = _jchgtgyA;
         "default" = _jchgtgyA;

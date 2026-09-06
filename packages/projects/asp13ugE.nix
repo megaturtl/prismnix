@@ -126,6 +126,21 @@ let
             "file" = "QSFindItemAddOn-2.0.8.1-SNAPSHOT-260517.jar";
             "hash" = "sha512-G2pdA9wETTG4MO/eXYrZZmuEEI5dmpnE78lrqlue4J66x4t3GbMLIftk96GzaEogcm5dZO/UMztfDH+/4Zg9sA==";
         };
+        _EiNlgCK7 = {
+            "id" = "EiNlgCK7";
+            "file" = "QSFindItemAddOn-2.0.8.1-SNAPSHOT-28.jar";
+            "hash" = "sha512-cX09n1w/bj7uL7bUnM0Ie0R5KMA9cta29yooYWa1APcoA5nsHMdy+dE4aGIzUcShU6XxfVmfBwoA7l2zDw9gSg==";
+        };
+        _4QCmO4jt = {
+            "id" = "4QCmO4jt";
+            "file" = "QSFindItemAddOn-2.0.8.1-SNAPSHOT-31.jar";
+            "hash" = "sha512-OLjd+c0bhChld3ukR7BHs593Y9rIM3/GE5q8FM7pYRqUFne/Pyi2n1tPNGHRfKb5YAnRXzl/rZS2XQI64DGgqg==";
+        };
+        _WJpBCeQf = {
+            "id" = "WJpBCeQf";
+            "file" = "QSFindItemAddOn-2.0.8.2-SNAPSHOT-32.jar";
+            "hash" = "sha512-0xHZKZzkuGbbv+z0JZrE7PqyeaZCbYK8DNyEooTJ5rHC7o1nVgv0uM7XMJ9GudAx9R0/O02RWf4F247QwSWJqg==";
+        };
     in {
         "am0Cu9Bz" = _am0Cu9Bz;
         "LExDctrm" = _LExDctrm;
@@ -152,6 +167,9 @@ let
         "FDbwsmnY" = _FDbwsmnY;
         "ogNbST3w" = _ogNbST3w;
         "UDaB9XW4" = _UDaB9XW4;
+        "EiNlgCK7" = _EiNlgCK7;
+        "4QCmO4jt" = _4QCmO4jt;
+        "WJpBCeQf" = _WJpBCeQf;
         "paper-1.16.5" = _yGC3NgUp;
         "paper-1.17.1" = _yGC3NgUp;
         "paper-1.18.2" = _yGC3NgUp;
@@ -178,7 +196,8 @@ let
         "paper-1.21.11" = _ogNbST3w;
         "paper-26.1" = _UDaB9XW4;
         "paper-26.1.1" = _UDaB9XW4;
-        "paper-26.1.2" = _UDaB9XW4;
+        "paper-26.1.2" = _EiNlgCK7;
+        "paper-26.2" = _WJpBCeQf;
         "purpur-1.16.5" = _yGC3NgUp;
         "purpur-1.17.1" = _yGC3NgUp;
         "purpur-1.18.2" = _yGC3NgUp;
@@ -205,7 +224,8 @@ let
         "purpur-1.21.11" = _ogNbST3w;
         "purpur-26.1" = _UDaB9XW4;
         "purpur-26.1.1" = _UDaB9XW4;
-        "purpur-26.1.2" = _UDaB9XW4;
+        "purpur-26.1.2" = _EiNlgCK7;
+        "purpur-26.2" = _WJpBCeQf;
         "spigot-1.16.5" = _yGC3NgUp;
         "spigot-1.17.1" = _yGC3NgUp;
         "spigot-1.18.2" = _yGC3NgUp;
@@ -254,7 +274,8 @@ let
         "folia-1.21.11" = _ogNbST3w;
         "folia-26.1" = _UDaB9XW4;
         "folia-26.1.1" = _UDaB9XW4;
-        "folia-26.1.2" = _UDaB9XW4;
+        "folia-26.1.2" = _EiNlgCK7;
+        "folia-26.2" = _WJpBCeQf;
         "pkg-2.0.5.4-RELEASE" = _am0Cu9Bz;
         "pkg-2.0.5.5-RELEASE" = _LExDctrm;
         "pkg-2.0.5.6-RELEASE" = _tvsPd3qh;
@@ -277,7 +298,10 @@ let
         "pkg-2.0.8.0-SNAPSHOT" = _FDbwsmnY;
         "pkg-2.0.8.0-RELEASE" = _ogNbST3w;
         "pkg-2.0.8.1-SNAPSHOT" = _UDaB9XW4;
-        "default" = _UDaB9XW4;
+        "pkg-2.0.8.1-SNAPSHOT-28" = _EiNlgCK7;
+        "pkg-2.0.8.1-SNAPSHOT-31" = _4QCmO4jt;
+        "pkg-2.0.8.2-SNAPSHOT-32" = _WJpBCeQf;
+        "default" = _WJpBCeQf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shop-search";

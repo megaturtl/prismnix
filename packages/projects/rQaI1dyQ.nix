@@ -51,6 +51,56 @@ let
             "file" = "philipps_alarm_mod-1.3.6-neoforge-1.21.1.jar";
             "hash" = "sha512-TOU4+eGCud1bvmKwYIAFNcfOLhMI35xbZPAdYq9pJ+as3J65kVHc39/bmE20MQyk2fL2y6XLmigcrSJKDrbHQA==";
         };
+        _15kZHz0h = {
+            "id" = "15kZHz0h";
+            "file" = "philipps_alarm_mod-2.0.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-OST3qTWHz49eFBUIFQgSYtuSfqvNOjqUPCotuAD3iU2LQUfW2ZLqtngOV4xypLzV6MzEIpzUbeNqla+CpLXeiA==";
+        };
+        _8JJD6qQ4 = {
+            "id" = "8JJD6qQ4";
+            "file" = "philipps_alarm_mod-2.0.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-K5BsdViVG/HuGVU7Pv25XCL6z9GDkDQQb4xhMgBUQHi2J8BmV5ncqW3JbOF3aGEJ3kKH5+JpgAfiLX8+Zh2Uiw==";
+        };
+        _6CAtBGlL = {
+            "id" = "6CAtBGlL";
+            "file" = "philipps_alarm_mod-2.0.2-neoforge-1.21.1.jar";
+            "hash" = "sha512-BwsUv794/A7vahIRC9TUbpPD1+kXNQm8ygfDQNzm1IoThgTaP1vrg3sRER1JcFIb3jSFmyicWtBCS6HDi4KsBA==";
+        };
+        _tfmeBKxJ = {
+            "id" = "tfmeBKxJ";
+            "file" = "philipps_alarm_mod-2.0.2-forge-1.20.1.jar";
+            "hash" = "sha512-91rUqE1BrAQpI+XCVeWF1YZ8TMcYCtPTWy5WydnYywHjxerco17U9dGVZOtwCndp13qh28jQdyZEXx1SwvA/og==";
+        };
+        _Y24IreMv = {
+            "id" = "Y24IreMv";
+            "file" = "philipps_alarm_mod-2.0.3-forge-1.20.1.jar";
+            "hash" = "sha512-+dwzzRRDU7atuv54+2uZVOCGXJwgczX2MaIirRqN2wxNvRY+DIN7HnhsEW8kPRskGRbyuZ4QfEWaDTvUkRT0nQ==";
+        };
+        _lhpkEeM1 = {
+            "id" = "lhpkEeM1";
+            "file" = "philipps_alarm_mod-2.0.3-neoforge-1.21.1.jar";
+            "hash" = "sha512-vb4QrZV3Avq6lqs8WQSXT07BVvavTQNNwdrZ2braWukUgjTazW/PFNsCl1nREhoqTLUNFPXw4BmSuETkQPhWig==";
+        };
+        _o00Xz5QN = {
+            "id" = "o00Xz5QN";
+            "file" = "philipps_alarm_mod-2.0.4-neoforge-1.21.1.jar";
+            "hash" = "sha512-F+qqpeDbwEfOTisaOPXr4249MHozf0A6PRMD2RrsQg7xtG2xiI9TxA6EuwJmIOaoil5eNmigLjxYFMesyNfR1w==";
+        };
+        _Bo9HH6N8 = {
+            "id" = "Bo9HH6N8";
+            "file" = "philipps_alarm_mod-2.0.4-forge-1.20.1.jar";
+            "hash" = "sha512-dkEAjDVOTF/86VxmqKu2bUf4vwSLxx/wboBH/AKNR5LOrNOAdpe7dluaARiRMgxO5suob5jUKdiW3jvIFK7RrA==";
+        };
+        _LV5ck5oj = {
+            "id" = "LV5ck5oj";
+            "file" = "philipps_alarm_mod-2.1.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-AxvA2eBjygra4044ALbJdMD3gp8bG6fr3JtaagG/NaegZrjmZv7Q/Z6Ap/42dE7Oe6kID6IHrWLkrEJpmMkbJg==";
+        };
+        _ycBP11FA = {
+            "id" = "ycBP11FA";
+            "file" = "philipps_alarm_mod-2.1.0-forge-1.20.1.jar";
+            "hash" = "sha512-HzY7gx7hzAXepQ8klCcptLtWi85XtA30vS2FdzPScNYS8Hbg3THx0ZjicvUEwGdqAva2wt24WRBNyELPBhYqew==";
+        };
     in {
         "u0vIsTCV" = _u0vIsTCV;
         "Z6rrD5JN" = _Z6rrD5JN;
@@ -62,15 +112,31 @@ let
         "Q28GezP1" = _Q28GezP1;
         "BJg65Fic" = _BJg65Fic;
         "OuptJUap" = _OuptJUap;
-        "forge-1.20.1" = _BJg65Fic;
-        "neoforge-1.21.1" = _OuptJUap;
+        "15kZHz0h" = _15kZHz0h;
+        "8JJD6qQ4" = _8JJD6qQ4;
+        "6CAtBGlL" = _6CAtBGlL;
+        "tfmeBKxJ" = _tfmeBKxJ;
+        "Y24IreMv" = _Y24IreMv;
+        "lhpkEeM1" = _lhpkEeM1;
+        "o00Xz5QN" = _o00Xz5QN;
+        "Bo9HH6N8" = _Bo9HH6N8;
+        "LV5ck5oj" = _LV5ck5oj;
+        "ycBP11FA" = _ycBP11FA;
+        "forge-1.20.1" = _ycBP11FA;
+        "neoforge-1.21.1" = _LV5ck5oj;
         "pkg-1.0.0" = _u0vIsTCV;
         "pkg-1.1.2" = _Z6rrD5JN;
         "pkg-1.2.0" = _WI7L1uT1;
         "pkg-1.3.1" = _RsM3ym57;
         "pkg-1.3.5" = _Q28GezP1;
         "pkg-1.3.6" = _OuptJUap;
-        "default" = _OuptJUap;
+        "pkg-2.0.0" = _15kZHz0h;
+        "pkg-2.0.1" = _8JJD6qQ4;
+        "pkg-2.0.2" = _tfmeBKxJ;
+        "pkg-2.0.3" = _lhpkEeM1;
+        "pkg-2.0.4" = _Bo9HH6N8;
+        "pkg-2.1.0" = _ycBP11FA;
+        "default" = _ycBP11FA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "philipps-alarm-mod";
@@ -78,12 +144,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "MIT" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "MIT License";
-                shortName = "MIT";
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
                 url = null;
             };
         };

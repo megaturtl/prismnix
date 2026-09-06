@@ -31,6 +31,11 @@ let
             "file" = "warium_extras-1.1.0f-forge-1.20.1.jar";
             "hash" = "sha512-pO4CLZdOL7WTGC0Em0Z7hdedqkUpT8JcWpL3aPBPgerPEg3kRYxdkFiQmSqiWYDsrQtRvU4rPp6TZGKhLV2N3Q==";
         };
+        _u1rMGeta = {
+            "id" = "u1rMGeta";
+            "file" = "warium_extras-1.1.1.jar";
+            "hash" = "sha512-/NMlNR0BOUibQT2427zS3khafr7IaT+9/UZvENN40vi9W82uxZwG/Ew2zbSSkqEnXEDLGv32eavRp4qNAENAXw==";
+        };
     in {
         "p0OotKZE" = _p0OotKZE;
         "oqLowKEO" = _oqLowKEO;
@@ -38,13 +43,15 @@ let
         "7udfVC5v" = _7udfVC5v;
         "Zm171FAw" = _Zm171FAw;
         "ss7QTE0F" = _ss7QTE0F;
-        "forge-1.20.1" = _ss7QTE0F;
+        "u1rMGeta" = _u1rMGeta;
+        "forge-1.20.1" = _u1rMGeta;
         "pkg-1.0.7f" = _p0OotKZE;
         "pkg-1.0.8" = _oqLowKEO;
         "pkg-1.0.9" = _SHHTDwXH;
         "pkg-1.0.9fix" = _7udfVC5v;
         "pkg-1.1.0" = _ss7QTE0F;
-        "default" = _ss7QTE0F;
+        "pkg-1.1.1" = _u1rMGeta;
+        "default" = _u1rMGeta;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "warium-extras";

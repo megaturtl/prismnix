@@ -29,6 +29,13 @@ let
         "minecraft-1.21.6" = _flk0t2YN;
         "minecraft-1.21.7" = _flk0t2YN;
         "minecraft-1.21.8" = _flk0t2YN;
+        "minecraft-1.21.9" = _flk0t2YN;
+        "minecraft-1.21.10" = _flk0t2YN;
+        "minecraft-1.21.11" = _flk0t2YN;
+        "minecraft-26.1" = _flk0t2YN;
+        "minecraft-26.1.1" = _flk0t2YN;
+        "minecraft-26.1.2" = _flk0t2YN;
+        "minecraft-26.2" = _flk0t2YN;
         "pkg-1" = _flk0t2YN;
         "default" = _flk0t2YN;
     });

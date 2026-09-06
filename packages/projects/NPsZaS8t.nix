@@ -101,6 +101,26 @@ let
             "file" = "TriggerSit-1.0.19.jar";
             "hash" = "sha512-7vt6DwGN3D3uT+lA5zuyRf3ljgBmbFonX9TziGD3OrcFkocvA8KS61n4NcFAfnmnlNceLTcgbweB8+SmpFZoXg==";
         };
+        _TJKlokVr = {
+            "id" = "TJKlokVr";
+            "file" = "TriggerSit-1.0.20.jar";
+            "hash" = "sha512-Naln6Dt3w4GTzLJpwq7EcEffEOrMMK4gpmAZfe4wH3XOlQuCPNTCB+VT+TJbgpHc7wLZc4IJxmrHcDsKKoAoxQ==";
+        };
+        _sgKaztiR = {
+            "id" = "sgKaztiR";
+            "file" = "TriggerSit-1.0.21.jar";
+            "hash" = "sha512-z9AGdZPbVstL92WHXt2wXBAxOuoV09CJD2+dmLUM9PByHONbYIGIRlckUJ8itIHxqwWUxdkripBOrSO1WpJfhQ==";
+        };
+        _ksAeJjM8 = {
+            "id" = "ksAeJjM8";
+            "file" = "TriggerSit-1.0.22.jar";
+            "hash" = "sha512-uUsUXHPLGMdKdL4Z5eZ3ErIggKNGaYj5smzVU5j9UvX1dGHQM580HP0+vEdkDr97RxHo9q2+cNJ2GkDwxnbY3w==";
+        };
+        _QN74tAwQ = {
+            "id" = "QN74tAwQ";
+            "file" = "TriggerSit-1.0.23.jar";
+            "hash" = "sha512-AXZ+v8MckTu21KXF4aJ+sDfzN0vsfw+uFJMtIRmkon4FHenuZ4L2MLSWPm9Bc1eFsIDY92WZcOaDBEU+tB3UzQ==";
+        };
     in {
         "Qv2OHruT" = _Qv2OHruT;
         "aXfr0fuV" = _aXfr0fuV;
@@ -122,11 +142,15 @@ let
         "AhZXOUL9" = _AhZXOUL9;
         "j1ADDDqo" = _j1ADDDqo;
         "BUpiUUlK" = _BUpiUUlK;
+        "TJKlokVr" = _TJKlokVr;
+        "sgKaztiR" = _sgKaztiR;
+        "ksAeJjM8" = _ksAeJjM8;
+        "QN74tAwQ" = _QN74tAwQ;
         "fabric-1.21.10" = _KfNspZHU;
         "fabric-1.21.11" = _rYHNnYEu;
-        "fabric-26.1" = _tPXyQRUs;
-        "fabric-26.1.1" = _d7NVyLh9;
-        "fabric-26.1.2" = _PLX7yUzr;
+        "fabric-26.1" = _TJKlokVr;
+        "fabric-26.1.1" = _sgKaztiR;
+        "fabric-26.1.2" = _ksAeJjM8;
         "fabric-1.21" = _xd5Hkbci;
         "fabric-1.21.1" = _vjto63Gy;
         "fabric-1.21.2" = _9cHigwmE;
@@ -137,7 +161,7 @@ let
         "fabric-1.21.7" = _Nc6IuXfG;
         "fabric-1.21.8" = _AhZXOUL9;
         "fabric-1.21.9" = _j1ADDDqo;
-        "fabric-26.2" = _BUpiUUlK;
+        "fabric-26.2" = _QN74tAwQ;
         "pkg-1.0.0" = _Qv2OHruT;
         "pkg-1.0.1" = _aXfr0fuV;
         "pkg-1.0.2" = _KfNspZHU;
@@ -158,7 +182,11 @@ let
         "pkg-1.0.17" = _AhZXOUL9;
         "pkg-1.0.18" = _j1ADDDqo;
         "pkg-1.0.19" = _BUpiUUlK;
-        "default" = _BUpiUUlK;
+        "pkg-1.0.20" = _TJKlokVr;
+        "pkg-1.0.21" = _sgKaztiR;
+        "pkg-1.0.22" = _ksAeJjM8;
+        "pkg-1.0.23" = _QN74tAwQ;
+        "default" = _QN74tAwQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trigger-sit";

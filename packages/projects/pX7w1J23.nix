@@ -231,6 +231,16 @@ let
             "file" = "AtlasViewer-neoforge-17.0.0.jar";
             "hash" = "sha512-WaqRPg2BIjWxswaBOKMz8j3UnpGDxJZfluPwQnCWLxZGIjz/FI7rdk+MlSPjYTZUEFxPL+KBYvgRj33CA2dSMw==";
         };
+        _O4EC2Ezi = {
+            "id" = "O4EC2Ezi";
+            "file" = "AtlasViewer-fabric-17.1.0.jar";
+            "hash" = "sha512-bxBZUk8g1NwmefcVViR4+lfKJ5zxiLWpSow8gsiqu/WXlJmFo5MuzLhNhv49DTgye+P2A9f7bwdj9SGImMPXSA==";
+        };
+        _yGQmRrml = {
+            "id" = "yGQmRrml";
+            "file" = "AtlasViewer-neoforge-17.1.0.jar";
+            "hash" = "sha512-Q+LqHo7FVjC3INbqSR3m3bnvP8otJCA4g0NZgw323E3x2fWGaicMW3DvAwkOWeeDU9roeEBW5lZ47EoKBwqhcQ==";
+        };
     in {
         "9TswhQsf" = _9TswhQsf;
         "tcit7ld4" = _tcit7ld4;
@@ -278,6 +288,8 @@ let
         "MhjPTlQx" = _MhjPTlQx;
         "TKbfsGbe" = _TKbfsGbe;
         "9s8qSbZO" = _9s8qSbZO;
+        "O4EC2Ezi" = _O4EC2Ezi;
+        "yGQmRrml" = _yGQmRrml;
         "forge-1.18.2" = _9TswhQsf;
         "forge-1.19.2" = _tcit7ld4;
         "forge-1.19.3" = _rVQDYOIF;
@@ -300,7 +312,7 @@ let
         "neoforge-26.1" = _MhjPTlQx;
         "neoforge-26.1.1" = _MhjPTlQx;
         "neoforge-26.1.2" = _MhjPTlQx;
-        "neoforge-26.2" = _9s8qSbZO;
+        "neoforge-26.2" = _yGQmRrml;
         "fabric-1.20.2" = _YFVHuUQw;
         "fabric-1.20.4" = _h99Hdxqz;
         "fabric-1.20.6" = _BZvD4FZ5;
@@ -317,7 +329,7 @@ let
         "fabric-26.1" = _TknP9X0X;
         "fabric-26.1.1" = _TknP9X0X;
         "fabric-26.1.2" = _TknP9X0X;
-        "fabric-26.2" = _TKbfsGbe;
+        "fabric-26.2" = _O4EC2Ezi;
         "pkg-1.1.0" = _9TswhQsf;
         "pkg-2.3.0" = _tcit7ld4;
         "pkg-3.2.0" = _rVQDYOIF;
@@ -344,7 +356,8 @@ let
         "pkg-16.0.1" = _sCzi2ag7;
         "pkg-16.0.2" = _MhjPTlQx;
         "pkg-17.0.0" = _9s8qSbZO;
-        "default" = _9s8qSbZO;
+        "pkg-17.1.0" = _yGQmRrml;
+        "default" = _yGQmRrml;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "atlasviewer";

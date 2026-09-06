@@ -71,6 +71,7 @@ let
         "fabric-26.1" = _qivsVhtp;
         "fabric-26.1.1" = _qivsVhtp;
         "fabric-26.1.2" = _qivsVhtp;
+        "fabric-26.2" = _qivsVhtp;
         "pkg-1.0.0+1.21" = _IcdItphA;
         "pkg-1.1.0+1.21" = _c8LnpU1E;
         "pkg-1.2.0+1.21" = _TfGPapfT;

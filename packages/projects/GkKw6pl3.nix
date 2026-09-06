@@ -181,6 +181,21 @@ let
             "file" = "MoreAvaritiaMc1.20.1-2.2fix.jar";
             "hash" = "sha512-Q4u7tETzcm3FJzc59h1dLcG4QzzE06yJ8tsuwJI813TZOHPHhYbMW6llHmTUnoejRnSoXuyGkNWplPBHj/eXaA==";
         };
+        _45waRStG = {
+            "id" = "45waRStG";
+            "file" = "MoreAvaritiaMc1.20.1-2.2fix2.jar";
+            "hash" = "sha512-vQ372/69RG4drgf5Io5tDAwMKoSfQvQWuUvL7owZN5fMQBAgLcarwGKqVDbYXPcfvcGYXy+zBZjrKOUPEWRYtw==";
+        };
+        _HNurS0c6 = {
+            "id" = "HNurS0c6";
+            "file" = "MoreAvaritiaMc1.20.1-2.3.jar";
+            "hash" = "sha512-tg3DkMtQpCe+fjze6kAiLiIs16qYlKjH1CAtoX963XwtCkxbYOCMSC+PWtkhwWKb1ijXxunDUsj0KFxgqg5nnA==";
+        };
+        _z5dQANdc = {
+            "id" = "z5dQANdc";
+            "file" = "MoreAvaritiaMc1.20.1-2.3fix.jar";
+            "hash" = "sha512-Xp7itylZeMSXZynaVOkAopqVphm33u+h/FkZ13OjuZHND3hNfk3lVE2lLDl1W5kZC/lTc3BSHipIulLsOx1P2Q==";
+        };
     in {
         "uhmvzgXN" = _uhmvzgXN;
         "3rEy5o54" = _3rEy5o54;
@@ -218,10 +233,13 @@ let
         "8nyAAcQP" = _8nyAAcQP;
         "65BKf17c" = _65BKf17c;
         "Fi6jdMRW" = _Fi6jdMRW;
+        "45waRStG" = _45waRStG;
+        "HNurS0c6" = _HNurS0c6;
+        "z5dQANdc" = _z5dQANdc;
         "forge-1.12.2" = _VEMhWzFh;
         "forge-1.7.10" = _BtARPHoj;
         "forge-1.18.2" = _2uk7MOTv;
-        "forge-1.20.1" = _Fi6jdMRW;
+        "forge-1.20.1" = _z5dQANdc;
         "neoforge-1.21" = _QrnQqiHE;
         "neoforge-1.21.1" = _8nyAAcQP;
         "pkg-0.1" = _BtARPHoj;
@@ -253,7 +271,10 @@ let
         "pkg-1.0fix2" = _8nyAAcQP;
         "pkg-2.2" = _65BKf17c;
         "pkg-2.2fix" = _Fi6jdMRW;
-        "default" = _Fi6jdMRW;
+        "pkg-2.2fix2" = _45waRStG;
+        "pkg-2.3" = _HNurS0c6;
+        "pkg-2.3fix" = _z5dQANdc;
+        "default" = _z5dQANdc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more_avaritia";

@@ -606,6 +606,341 @@ let
             "file" = "All-in-One-VeinMiner-TreeFeller-1.1.6.jar";
             "hash" = "sha512-xomit+2nRbSRAclPnmbOJUIKZJTdAms9LEete+BqeWvECEIlJEqPHMwYXv6aoGjLZ5s6/vjbNzohMuxrHFDD3w==";
         };
+        _qdo6jbiq = {
+            "id" = "qdo6jbiq";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-jAvaPGrB/F5chJb4vx0uGbqMWa2HkQGPahjbnVqyW6fOMzrbXDetm+iTx8mfCOQgYqXsh9tB/p4Bh2l7dS51dg==";
+        };
+        _RNroGBo0 = {
+            "id" = "RNroGBo0";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-rRuXEhTcWRZcX/xDu93W0Xk9VORTWkYE4Ga4n/VblG2PDLXhaWrCoR+eXOoXEnXh3Q+2laLqsTP3a8w+gAFU4w==";
+        };
+        _iVJhbaFI = {
+            "id" = "iVJhbaFI";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-cbS7c//cMrWEwOh7byqGTaE4ttXwipWOhoUwuTcVxw72cMAW0IEF6SqHAsmK0T9eAC/SLxoMMKV31Uw8QzXeIA==";
+        };
+        _D6UARV2z = {
+            "id" = "D6UARV2z";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-r0igFpTtvpjmrS8CGNS2tQ4dKipMb8WOsn9uSpOJ9IS8P59J5yDCrUjTVNM08cJVbOfFQf/8iq+J5EZJIBITtw==";
+        };
+        _SrIv6Mog = {
+            "id" = "SrIv6Mog";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-kH5DDk/RQJmrG3RlXw2Gptb0HhOPhuyE1h6cKvDjq3N1lNiHBhIaeBVfuwnyzMLQhnSUMGby0OR1gdt/lE1pPQ==";
+        };
+        _k7aNofwu = {
+            "id" = "k7aNofwu";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-LgyT5dCPc16RPLKxZSsaQ3SWiwugOeLdYs4YTRU3oFPdPnnVoEL83GpFShhYRlHMbF1URpH+ACt+HU8VBxUXgQ==";
+        };
+        _gG1hr1mt = {
+            "id" = "gG1hr1mt";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-4aofhI0QObx7gebx3QcMgJq1vFasikFAztf61ujYZQqLqCzEnRQeKf7Oc9fjMAn0VLnFgFEBQk4rdYN1OrcDvw==";
+        };
+        _avtN12xB = {
+            "id" = "avtN12xB";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-x/U3ahWCn91U7y28Y+WCJxOduacu72+DYXrRnSRgdJPHdJDbweETgDFtt7jdfZrmlt+XKwMXJMl67WQsI9L03w==";
+        };
+        _UCFKjFgb = {
+            "id" = "UCFKjFgb";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-o68NAGtdtVGf0JCEQ3p5qqXdky6i958W82u+GIKLIB0ObL+s+nwwgphvLDWj/6taunSo82NBwUFLqS05DA3/Ig==";
+        };
+        _tHiRR3CL = {
+            "id" = "tHiRR3CL";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-bWoXdODE4ltGpcz+ykJvZHEYw3Xu1GmyNT0SJILBuTzutTXhEq4CHS+yAQmLnKKYRrEPY2RHavNXLwO/8TWeqA==";
+        };
+        _EBhpAwCQ = {
+            "id" = "EBhpAwCQ";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-a1NWBhLmtnPI1TTnKQuooNPORuLxjQTlEgwpC/RRDJpVnQg/0eeCpBuQpQec+4w4EgwwjCDPB4kRFcG5TzmAcg==";
+        };
+        _q5lz8Syy = {
+            "id" = "q5lz8Syy";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-Y7OXzunhbY5lQhzc2b2INpsrlqwssGlOz7ceQrv+TvRMcbJdwwQSODo9H8r+zV6d5C569Egdl6dz7i6e+9z33w==";
+        };
+        _wZZdMKiv = {
+            "id" = "wZZdMKiv";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-f0lCwcFmmkFoeIN2f/liGrn9+7fOIFa61MF15DgGhIPNUJ1LHW3GQ11mBQ/d598k+pneykK/CJKYbgoy/jWNAA==";
+        };
+        _XvJx8bXs = {
+            "id" = "XvJx8bXs";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-0JOUHFiKhQPRk3024aQ+dtbK2E/Tl8bdoTW1gMLLlZtlxEE2uXoeXNpt0W/A40UGCuAyn990S7CKgMjcV4R8/A==";
+        };
+        _WVYw1krL = {
+            "id" = "WVYw1krL";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-QrdEpQvIlxgkjvHfC2YELxjLZ758kElwGgVToIEMCO8q3wg2m/rQZ7c3n/fU0RQmF/myDkb7W/j+v77RGizHoQ==";
+        };
+        _skGR4Pps = {
+            "id" = "skGR4Pps";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-peLfWgA0GdmZHDAOszPsmr0F7Umal9ggF3pOzxN1cjpnS+ndkrK921qSQix8NOZNm2DD/hxjMv16o90jIjaNmA==";
+        };
+        _QquphvFh = {
+            "id" = "QquphvFh";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-lfTgRj8V9txNJDqp0zzkJRBfDhmLn6lqPUyh0JH1GFcO8Oak/VYjxks3etaLiPKZHNoP/GCzlmgxXTWRZjKZiw==";
+        };
+        _q9JBLp1D = {
+            "id" = "q9JBLp1D";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-PP8qjLACAliP+cs3t2hn23SSzQD71sBNGLeL1GqEiD/4WE28ymxlDYW/q4I92o4xaSVsQOYylBRWwAIYzZW4bg==";
+        };
+        _upjj2jz2 = {
+            "id" = "upjj2jz2";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-B/70YowdM2xmftbJuVvhvZK/FAB045IT1eY3OZ/0JAIkkV4e1dp4VJ0IC4u1KJqtn9nUeBo0+/sfNfZWX6mVUg==";
+        };
+        _Exb8JIY2 = {
+            "id" = "Exb8JIY2";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-Ew6JR4f+1IkI+6vMYzyv+Wf9vyql50xhHaoFfPLOJDqFaa/7TalsG3eaRoORxt9xFtkDCSorcpEh8M5/C8Zb7A==";
+        };
+        _5JfPbs6z = {
+            "id" = "5JfPbs6z";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-SSUmT2QY78GtW+RH1osZd4YXeGHVxoyKBFO6vVq9STO1rjQkzknqko53vTzNj/NXkjv381VE2baDR/nIMbIePg==";
+        };
+        _z7VyZeLx = {
+            "id" = "z7VyZeLx";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-tgJgdDnqZBd00B/Y9w6rpPpK/Joq+UIp7wqAo8O1k3/USbmRZf9V8klCWue5u4w7RyXYCQ6Fgwm3ggeHw9i41A==";
+        };
+        _g92jV8eQ = {
+            "id" = "g92jV8eQ";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-6rkI/yK2yRRefJZCskCs1IQDC/TZc7qjAzz/78v84+wGcgb9Da3XKe+pxQ/BPBx/AdKDd3kuD2PNmJMjWCZDQg==";
+        };
+        _YEkWOgvE = {
+            "id" = "YEkWOgvE";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-WYdXLEvBOFZlpB9cfuMEw0qebgKuUhynrMyuczF05zJLMws+b/IAd3RlcH1LNdNTROl0AwS85U4Oxn2RAnkYvg==";
+        };
+        _P5H9pdwn = {
+            "id" = "P5H9pdwn";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-QMShB9Uwp6Cx5FGDzv+mGEfgh7AQqXMM7In0E/npTCNC1V69P0F+h9oVni2eSFIrwo6qiYbpU5vT1VkQvvbRqw==";
+        };
+        _roDDRP4M = {
+            "id" = "roDDRP4M";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-RHjo139Sb5jfOYbRVVYzIG2yhBhlNjdP9iYMbgIV3CjbCKPR5pbMjuJJmAuxYxo3RHQof5TBEhh4FYVB1ZON/Q==";
+        };
+        _8JPRCeKr = {
+            "id" = "8JPRCeKr";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-cuz4sXi7zNsO/e/vVcpsqYNvpvvvWdEONy66TuyYlxcL6yq+CRjnveE7kIy995rTYGOX1QFd6dZpz3YhtuE8Uw==";
+        };
+        _ldKn1hZ5 = {
+            "id" = "ldKn1hZ5";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-RxIcHthHkcsj5ZKJ6h+8xFQY1B56KiLtikziTkrXNcgPY+gwnammZwUa+BlTgjOtxfBH83jJij8pPZuRtRf0lg==";
+        };
+        _m5zw3n9m = {
+            "id" = "m5zw3n9m";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-KgBUg6PyKsM1aHnecQX+6dZGvUJ4cr02wxpdv8V8tZ+EP/bdaPMjwbX7DFbaTA8bS9UvPAutuv+BHeBEPda4LQ==";
+        };
+        _E26TNfjy = {
+            "id" = "E26TNfjy";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-xrbhM5cJMVjYLa3aKVwzukiwRo+ePDV7OtTqcsacGbobNT5AuFt6tpw/ydXyUx6+TKEdx7J0tm71kZKb8m1LZQ==";
+        };
+        _1SQumDDf = {
+            "id" = "1SQumDDf";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-x48/h7oiY/NA0uocBPxwNx2qV3tSlhRYYRp+SBbIlO36KdShH/5kTfqFlcNsJavMXQNFUR0DbOUc86lO0lVSPQ==";
+        };
+        _t5f4JBWP = {
+            "id" = "t5f4JBWP";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-wCRkJxq7Q7rYTYo3lIpYEshLCF6oSpMnI3Ee8b5bAgpMN7Qv5S9Rvd6suUHjJJYW3S9T3mTv6CaQmexkeuj/mQ==";
+        };
+        _yOHmAHZF = {
+            "id" = "yOHmAHZF";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-crLPAAv6ffrM5Xpwz2HID2ejBJO5oX5bwTV5rI0WJaj55dY8JISlQ34U018VdNdvuTIPNGvS0LaEiD8BKNUagg==";
+        };
+        _lSThWVy2 = {
+            "id" = "lSThWVy2";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-0rEoEObl5KU4X+uxggsXIsx5Mkm2jutZCtf3LirG8otLlJJhJtw0RoB8Ci1xkYQAYL8aXPlsz5p5zWs6/K8QWQ==";
+        };
+        _WG9mJYHL = {
+            "id" = "WG9mJYHL";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-E9TCe/DG3tJhVSiPiA06wM/96iSl8/1uHb9/0F36+RCSOKKRAhmjapwo+qco+RF1jt/Y+KylAFq/LSn3e5gLXg==";
+        };
+        _7XKXyl86 = {
+            "id" = "7XKXyl86";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-YaV9Wk/uQgLO/GEQLB0aMDIVfjEBeC7q9JjvbwSMtznAFHhhDV6EZUkEdxqYrDb7DmEYU3a3OAxSHuGG9Yw1yw==";
+        };
+        _OxhjsD5e = {
+            "id" = "OxhjsD5e";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-xKTtgm47DlD5ZgmzIf/AwM05MNl/9RWxlhY3lMCw7zPxp1rCeAtddHaAUFcUxZ/2/Vfe+3SjB9xot5BDipPCeQ==";
+        };
+        _TgZ8i9wg = {
+            "id" = "TgZ8i9wg";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-3V+xhN8MbTdoAuGYn5bxuSyHRyqW43qAnN0ouZUGHUIi37w8RXr5N0uBqkxsrWJ6i9nGScMa1bNh4nYxPVLf1Q==";
+        };
+        _mCV4Rtot = {
+            "id" = "mCV4Rtot";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-JA1V0VJ3TaqonblcHonVBu01nDz17nFzf+ZV/yiocituekAGuklKQIwehmE+CjT34aQk1AYS19R8zSiBJ/BUWQ==";
+        };
+        _ATecL5H3 = {
+            "id" = "ATecL5H3";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-K/s3MThAPedqHuy/0jL81gihfNhMeC1YKztgOYNzYCOiiVnT1dO+QBO6K1NTxBhfVBQo5VjSnei8WhsV8jSIGQ==";
+        };
+        _yBgOvkZB = {
+            "id" = "yBgOvkZB";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-zpYpzeGj+ZanH7orsyQvhZLkM1eKz7eqRGAeokcIlHzyzgVzwmjY1LzlQx4ZWVDprdtdcvRzw51MOoNNANnCYQ==";
+        };
+        _mbCkbKU9 = {
+            "id" = "mbCkbKU9";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-O3t/tb23RZZ6066gVyUQDpjRR+M0cK2Nwg9HaMwnKWDqtChnyvsMHGpAB/LiXLEoxtJ3fRGQOqQCwObYIwE6Nw==";
+        };
+        _TiNdj1ci = {
+            "id" = "TiNdj1ci";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-nAaCO3chTBRKhWhGIWVnbiLl0mjSLmE0KsWuXv/h8E4MV6O01EPlg0zjUn/xeVfbdO/oA1pR7IE55MAS3dFP3w==";
+        };
+        _kxxRxBhJ = {
+            "id" = "kxxRxBhJ";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-ySxgdZss8VYV3k0GRiNXrqBSNt/IXrkOEwYHwGXeGMPgk/Ts59BO18ECi8NGOFlknc8S6e0meAkxvE4Xr8ckRg==";
+        };
+        _GEkJU40z = {
+            "id" = "GEkJU40z";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-/i8gal77kTol4SBnoYlhwzF6NZksSp9Z1IBlvWqBKmz5xpoABzjJkd7jAT8CwnD4ErVycuZrb4CqfAQ5kZMbcw==";
+        };
+        _WTDxuju1 = {
+            "id" = "WTDxuju1";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-VV8OAuzxlCoqnerJMZ4m1p7GI7VbfX3bdNadWyNY8+bJuFRIz2w+B8UDtIrY9S1dOL0X73cC90UIO7v80r2Nsg==";
+        };
+        _BEUvLC1S = {
+            "id" = "BEUvLC1S";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-im0crNQrq0LArm3GwQUeNlg5aHHrki8LoFCI9yci7WVj/oxNwsQgEidYDaSppFocMsY8wM3G6wWQnCITBSLODA==";
+        };
+        _uEIJgBcE = {
+            "id" = "uEIJgBcE";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-IKiobjmwUOKYhMfXcequnzg2vgij/GXh7wO9H1QNrQD5x1ZTi3viOAZ2ByOhzR4jEbrks88oJCiC1EZEsiqm2Q==";
+        };
+        _pxxTfDr6 = {
+            "id" = "pxxTfDr6";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-yz+ZYAIzndUK0q6smd2Hd5aDjIwF9txDLZXI88i4GnJtpB6yBbcCvUdJoeSWvPJwzYTaCcHSg7gB4EzikyAEjQ==";
+        };
+        _bxK3UC8O = {
+            "id" = "bxK3UC8O";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-wbuZo+VaWEyHqrzR++VezYAxGr1HW+/gqFV0HD4ypZfMch98MUdT6PfCQFUWT59fqBlmApLP7st/WXOsuMIBow==";
+        };
+        _PhDrpg6y = {
+            "id" = "PhDrpg6y";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-CYAmKHm7FtySZdIc/oSOtmAMag7VuEx9ZMxOAfZNxVLLXIdvIxvx/0Jtfa1de9OBp5GD2GsKjLIcoJUy6dFzZw==";
+        };
+        _Rx6GygGs = {
+            "id" = "Rx6GygGs";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-edN9rup5CZNT7D6rIxgeDaIY14o6b8hsfiMvvKXGCm8Qk590rDoMRgdSUDVc9q69XVKSPFeb+PNRFRBZcNWEbw==";
+        };
+        _MEDpLCNy = {
+            "id" = "MEDpLCNy";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-4v2p0ZGRGy2b8zXHykvmRS5IaJvJbOFu7qORo3jIEGazcvcU+XbrDluBLiVcZcTKDprriT40u6hnDGXTzugltw==";
+        };
+        _R3zFw9aR = {
+            "id" = "R3zFw9aR";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-AsGdRgUyF4f7jHqDJ0KPz8E3r+VfhwcFmzyqCqsc9Nhcmfq4yLFB8hFe55TvN0SEaI9qMpCumz0ZkFyAhp8WTg==";
+        };
+        _dTsurmW9 = {
+            "id" = "dTsurmW9";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-6RYqt4Xm2nbHRqOR8SlEmXsXsVmROrHztxvk55PVR02ETDONXkBqDDR80RfZ/HBG7gHBLAPMmRj+CvuPdPnWlQ==";
+        };
+        _b2z6puqD = {
+            "id" = "b2z6puqD";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-5rH2gpu1csjIQgfVN8laYN4rUtIqBI3EiAVc3FaKegwjiheMEVFyFOUN1q6ziYRb0aBTFAYxDUhPnCw2aDvVzg==";
+        };
+        _hbl08bZR = {
+            "id" = "hbl08bZR";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-UwJZABZ432+A9pmn9aFaLgcVpYVnh34a/bGEFRm+gyHPPJ5OMsynNIGGqZcjX3qoy+oRn3Dw1aKCo85IiE7GRA==";
+        };
+        _dUUEmw5n = {
+            "id" = "dUUEmw5n";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-6c9R8y3dLn4ZemiAnwQTkzB7WuGw96NrWqn9ZHdnWJVE6X3+2c3+QNBOUiq5Tec0/I9TTFhtAgEyr4P9AnO0UQ==";
+        };
+        _OVj1ChY2 = {
+            "id" = "OVj1ChY2";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-O2ZbMMF9NQwlPilo4xOg4MCyA7v0APJ6yXyrEYN4Si3UyOQ2+dpjqjwrpz6TuMHrewUT8jLrp9mvS9RjY/YmgQ==";
+        };
+        _BJGcJm8f = {
+            "id" = "BJGcJm8f";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-o/lyUElph6CQrxdzLKk8ozQKptn/s6I0NHS0gaCKtX04ZmmIp+bIvMoRL3zViMsi/SA6fxlF5Uzx2jtgIEhWPA==";
+        };
+        _s9VJnrSe = {
+            "id" = "s9VJnrSe";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-D48urZ2jX075/S00mKi/CZcW4W4Ck7SS7m6nIC03jB/RA8G6L0G0713kueqRxbglVIlaytgBRnbRSoJFblgjRg==";
+        };
+        _3IE13FmA = {
+            "id" = "3IE13FmA";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-RYFFziglj8iO5LkFkHpXjygH6FeFrhyACJGKzqHpzPrlcafW7NLEvzaDyPsZV+kZRRvFf3T5qM1Jf0TvwR/Gow==";
+        };
+        _FpFUeGTC = {
+            "id" = "FpFUeGTC";
+            "file" = "All-in-One-VeinMiner-TreeFelle-1.1.7.jar";
+            "hash" = "sha512-SXc6pqPeW9vSZsqG5dyPcEVUAgI4OjG5wCTcwJMp1WRJLtPYsAd0idSPz3ogfRs+qErJir8Fqgo1KgXY/5EBgw==";
+        };
+        _m1XcN5uN = {
+            "id" = "m1XcN5uN";
+            "file" = "all-in-one-veinminer-treefeller.zip";
+            "hash" = "sha512-w76nbZQEVE4I3GFRrBuQI2yoF88eJRkhuvuh8wZoR/ujAFLor7pZFES6kkQlyWkkfI91Zyh8gt8IPfY3LtkZEA==";
+        };
+        _if8yOaac = {
+            "id" = "if8yOaac";
+            "file" = "all-in-one-veinminer-treefeller.zip";
+            "hash" = "sha512-iUyJzrPLdZKBOQOvoZ+WzPdRszCzIbBIEUm3tqAwQK3QkwohheDvzrka+nu2ZggUtUVlFHVKubGHB3shl6GG8g==";
+        };
+        _uZYPrJw8 = {
+            "id" = "uZYPrJw8";
+            "file" = "all-in-one-veinminer-treefeller.zip";
+            "hash" = "sha512-rvtqqQpJHKNjTJMIPqcmyo0Jviv7ys4EuMD52MEr+NiVNFs5rrdGZwIzYi1re69yoYXGUjUMubzjglKSs1q1Fw==";
+        };
+        _lNj2Kgfl = {
+            "id" = "lNj2Kgfl";
+            "file" = "all-in-one-veinminer-treefeller.zip";
+            "hash" = "sha512-uameAdHJ2SkpsZZIhulXkp61ZxXbnr8ZARJpgZJ518b5JGKJNxyM2b6Xb/uraGq1GN0N1/BrXt8AxqdTuwdqAg==";
+        };
     in {
         "FRmZT7lN" = _FRmZT7lN;
         "P17qcn18" = _P17qcn18;
@@ -728,53 +1063,136 @@ let
         "rseTb7xI" = _rseTb7xI;
         "g26fBPuW" = _g26fBPuW;
         "VT17Rdug" = _VT17Rdug;
-        "fabric-1.21" = _cs3fwxM0;
-        "fabric-1.21.1" = _CTt6mDp5;
-        "fabric-1.21.2" = _g9MxC7ne;
-        "fabric-1.21.3" = _WMrRisyM;
-        "fabric-1.21.4" = _E2GNzQan;
-        "fabric-1.21.5" = _kFUZPaGx;
-        "fabric-1.21.6" = _90Ir0Kn6;
-        "fabric-1.21.7" = _5y9EhXkB;
-        "fabric-1.21.8" = _necfMDxo;
-        "fabric-1.21.9" = _dBp60nUf;
-        "fabric-1.21.10" = _ZqbsntDT;
-        "fabric-1.21.11" = _2oGzSBPn;
-        "fabric-26.1" = _57tNh4yp;
-        "fabric-26.1.1" = _zAmOvzDb;
-        "fabric-26.1.2" = _4X6h6oBa;
-        "fabric-26.2" = _g26fBPuW;
-        "neoforge-1.21.9" = _BjnGOK8v;
-        "neoforge-1.21.10" = _WdSlnEnn;
-        "neoforge-1.21.11" = _TRhOiM5S;
-        "neoforge-26.1" = _GVQn9oc6;
-        "neoforge-26.1.1" = _OeTMaTYS;
-        "neoforge-26.1.2" = _zAmxvJ0x;
-        "neoforge-1.21" = _jMIRDN7X;
-        "neoforge-1.21.1" = _zNvj3fau;
-        "neoforge-1.21.2" = _pFbRRby5;
-        "neoforge-1.21.3" = _PUiKy3OP;
-        "neoforge-1.21.4" = _4h4tKlGt;
-        "neoforge-1.21.5" = _mv9izHAz;
-        "neoforge-1.21.6" = _i8pWULRJ;
-        "neoforge-1.21.7" = _7UXPQ9nX;
-        "neoforge-1.21.8" = _4pnCD7BC;
-        "neoforge-26.2" = _9zfCtfen;
-        "forge-1.21.9" = _iUdVFMad;
-        "forge-1.21.10" = _bmOcaTW3;
-        "forge-1.21.11" = _9nWyHSxv;
-        "forge-26.1" = _mY9p1nZF;
-        "forge-26.1.1" = _qtjbRymg;
-        "forge-26.1.2" = _dlI05w1g;
-        "forge-1.21" = _kD87I9k7;
-        "forge-1.21.1" = _IHhUQIOp;
-        "forge-1.21.3" = _kKCtWhdV;
-        "forge-1.21.4" = _sUNziJR6;
-        "forge-1.21.5" = _TdOnSlHa;
-        "forge-1.21.6" = _1OOBXD3S;
-        "forge-1.21.7" = _6qnffsTU;
-        "forge-1.21.8" = _hquqbgm8;
-        "forge-26.2" = _rseTb7xI;
+        "qdo6jbiq" = _qdo6jbiq;
+        "RNroGBo0" = _RNroGBo0;
+        "iVJhbaFI" = _iVJhbaFI;
+        "D6UARV2z" = _D6UARV2z;
+        "SrIv6Mog" = _SrIv6Mog;
+        "k7aNofwu" = _k7aNofwu;
+        "gG1hr1mt" = _gG1hr1mt;
+        "avtN12xB" = _avtN12xB;
+        "UCFKjFgb" = _UCFKjFgb;
+        "tHiRR3CL" = _tHiRR3CL;
+        "EBhpAwCQ" = _EBhpAwCQ;
+        "q5lz8Syy" = _q5lz8Syy;
+        "wZZdMKiv" = _wZZdMKiv;
+        "XvJx8bXs" = _XvJx8bXs;
+        "WVYw1krL" = _WVYw1krL;
+        "skGR4Pps" = _skGR4Pps;
+        "QquphvFh" = _QquphvFh;
+        "q9JBLp1D" = _q9JBLp1D;
+        "upjj2jz2" = _upjj2jz2;
+        "Exb8JIY2" = _Exb8JIY2;
+        "5JfPbs6z" = _5JfPbs6z;
+        "z7VyZeLx" = _z7VyZeLx;
+        "g92jV8eQ" = _g92jV8eQ;
+        "YEkWOgvE" = _YEkWOgvE;
+        "P5H9pdwn" = _P5H9pdwn;
+        "roDDRP4M" = _roDDRP4M;
+        "8JPRCeKr" = _8JPRCeKr;
+        "ldKn1hZ5" = _ldKn1hZ5;
+        "m5zw3n9m" = _m5zw3n9m;
+        "E26TNfjy" = _E26TNfjy;
+        "1SQumDDf" = _1SQumDDf;
+        "t5f4JBWP" = _t5f4JBWP;
+        "yOHmAHZF" = _yOHmAHZF;
+        "lSThWVy2" = _lSThWVy2;
+        "WG9mJYHL" = _WG9mJYHL;
+        "7XKXyl86" = _7XKXyl86;
+        "OxhjsD5e" = _OxhjsD5e;
+        "TgZ8i9wg" = _TgZ8i9wg;
+        "mCV4Rtot" = _mCV4Rtot;
+        "ATecL5H3" = _ATecL5H3;
+        "yBgOvkZB" = _yBgOvkZB;
+        "mbCkbKU9" = _mbCkbKU9;
+        "TiNdj1ci" = _TiNdj1ci;
+        "kxxRxBhJ" = _kxxRxBhJ;
+        "GEkJU40z" = _GEkJU40z;
+        "WTDxuju1" = _WTDxuju1;
+        "BEUvLC1S" = _BEUvLC1S;
+        "uEIJgBcE" = _uEIJgBcE;
+        "pxxTfDr6" = _pxxTfDr6;
+        "bxK3UC8O" = _bxK3UC8O;
+        "PhDrpg6y" = _PhDrpg6y;
+        "Rx6GygGs" = _Rx6GygGs;
+        "MEDpLCNy" = _MEDpLCNy;
+        "R3zFw9aR" = _R3zFw9aR;
+        "dTsurmW9" = _dTsurmW9;
+        "b2z6puqD" = _b2z6puqD;
+        "hbl08bZR" = _hbl08bZR;
+        "dUUEmw5n" = _dUUEmw5n;
+        "OVj1ChY2" = _OVj1ChY2;
+        "BJGcJm8f" = _BJGcJm8f;
+        "s9VJnrSe" = _s9VJnrSe;
+        "3IE13FmA" = _3IE13FmA;
+        "FpFUeGTC" = _FpFUeGTC;
+        "m1XcN5uN" = _m1XcN5uN;
+        "if8yOaac" = _if8yOaac;
+        "uZYPrJw8" = _uZYPrJw8;
+        "lNj2Kgfl" = _lNj2Kgfl;
+        "fabric-1.21" = _ATecL5H3;
+        "fabric-1.21.1" = _yBgOvkZB;
+        "fabric-1.21.2" = _mbCkbKU9;
+        "fabric-1.21.3" = _TiNdj1ci;
+        "fabric-1.21.4" = _kxxRxBhJ;
+        "fabric-1.21.5" = _GEkJU40z;
+        "fabric-1.21.6" = _WTDxuju1;
+        "fabric-1.21.7" = _BEUvLC1S;
+        "fabric-1.21.8" = _uEIJgBcE;
+        "fabric-1.21.9" = _pxxTfDr6;
+        "fabric-1.21.10" = _bxK3UC8O;
+        "fabric-1.21.11" = _PhDrpg6y;
+        "fabric-26.1" = _BJGcJm8f;
+        "fabric-26.1.1" = _s9VJnrSe;
+        "fabric-26.1.2" = _3IE13FmA;
+        "fabric-26.2" = _FpFUeGTC;
+        "fabric-1.20" = _tHiRR3CL;
+        "fabric-1.20.1" = _EBhpAwCQ;
+        "fabric-1.20.2" = _q5lz8Syy;
+        "fabric-1.20.3" = _wZZdMKiv;
+        "fabric-1.20.4" = _XvJx8bXs;
+        "fabric-1.20.5" = _WVYw1krL;
+        "fabric-1.20.6" = _skGR4Pps;
+        "neoforge-1.21.9" = _roDDRP4M;
+        "neoforge-1.21.10" = _8JPRCeKr;
+        "neoforge-1.21.11" = _ldKn1hZ5;
+        "neoforge-26.1" = _Rx6GygGs;
+        "neoforge-26.1.1" = _MEDpLCNy;
+        "neoforge-26.1.2" = _R3zFw9aR;
+        "neoforge-1.21" = _QquphvFh;
+        "neoforge-1.21.1" = _q9JBLp1D;
+        "neoforge-1.21.2" = _upjj2jz2;
+        "neoforge-1.21.3" = _Exb8JIY2;
+        "neoforge-1.21.4" = _5JfPbs6z;
+        "neoforge-1.21.5" = _z7VyZeLx;
+        "neoforge-1.21.6" = _g92jV8eQ;
+        "neoforge-1.21.7" = _YEkWOgvE;
+        "neoforge-1.21.8" = _P5H9pdwn;
+        "neoforge-26.2" = _dTsurmW9;
+        "neoforge-1.20.4" = _qdo6jbiq;
+        "neoforge-1.20.5" = _RNroGBo0;
+        "neoforge-1.20.6" = _iVJhbaFI;
+        "forge-1.21.9" = _OxhjsD5e;
+        "forge-1.21.10" = _TgZ8i9wg;
+        "forge-1.21.11" = _mCV4Rtot;
+        "forge-26.1" = _b2z6puqD;
+        "forge-26.1.1" = _hbl08bZR;
+        "forge-26.1.2" = _dUUEmw5n;
+        "forge-1.21" = _m5zw3n9m;
+        "forge-1.21.1" = _E26TNfjy;
+        "forge-1.21.3" = _1SQumDDf;
+        "forge-1.21.4" = _t5f4JBWP;
+        "forge-1.21.5" = _yOHmAHZF;
+        "forge-1.21.6" = _lSThWVy2;
+        "forge-1.21.7" = _WG9mJYHL;
+        "forge-1.21.8" = _7XKXyl86;
+        "forge-26.2" = _OVj1ChY2;
+        "forge-1.20" = _D6UARV2z;
+        "forge-1.20.1" = _SrIv6Mog;
+        "forge-1.20.2" = _k7aNofwu;
+        "forge-1.20.3" = _gG1hr1mt;
+        "forge-1.20.4" = _avtN12xB;
+        "forge-1.20.6" = _UCFKjFgb;
         "quilt-1.21.9" = _lWWDnhoC;
         "quilt-1.21.10" = _lWWDnhoC;
         "quilt-1.21.11" = _lWWDnhoC;
@@ -937,6 +1355,10 @@ let
         "spigot-1.17" = _VT17Rdug;
         "spigot-1.17.1" = _VT17Rdug;
         "spigot-26.2" = _VT17Rdug;
+        "datapack-26.1" = _m1XcN5uN;
+        "datapack-26.1.1" = _if8yOaac;
+        "datapack-26.1.2" = _uZYPrJw8;
+        "datapack-26.2" = _lNj2Kgfl;
         "pkg-1.1.0" = _FRmZT7lN;
         "pkg-1.1.1" = _P17qcn18;
         "pkg-1.1.2" = _CMX8QRd2;
@@ -945,7 +1367,8 @@ let
         "pkg-1.1.4.1" = _Z2wpfime;
         "pkg-1.1.5" = _KcNRsqah;
         "pkg-1.1.6" = _VT17Rdug;
-        "default" = _VT17Rdug;
+        "pkg-1.1.7" = _lNj2Kgfl;
+        "default" = _lNj2Kgfl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "all-in-one-veinminer";

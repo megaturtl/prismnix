@@ -170,6 +170,8 @@ let
         "minecraft-26.1.2" = _luGwbvPM;
         "minecraft-26.2-snapshot-2" = _luGwbvPM;
         "minecraft-26.2-snapshot-3" = _luGwbvPM;
+        "minecraft-26.2" = _luGwbvPM;
+        "minecraft-26.3-snapshot-7" = _luGwbvPM;
         "pkg-1.0.0" = _luGwbvPM;
         "default" = _luGwbvPM;
     });

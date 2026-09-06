@@ -56,6 +56,16 @@ let
             "file" = "tinyredstone-26.2-8.0.0.jar";
             "hash" = "sha512-TZVb/bCWVl2MTCNRDi3p8ejRo+ntGbmllKkUwTCaof5s3ftqGPKxfEN6HtVSwNl0rpV9RANRkLQyuwhrArLNpA==";
         };
+        _WMiFY8q7 = {
+            "id" = "WMiFY8q7";
+            "file" = "tinyredstone-1.21.1-6.1.6.jar";
+            "hash" = "sha512-WiTOkIRmdGM2AqWt7LtPcFhn0GDpiHpcb/1Gz3wXVJtrPoo20MhBTmQka/YcHhBc1aTNH+ILVXLWguqgFHDGjg==";
+        };
+        _ckAeMHpD = {
+            "id" = "ckAeMHpD";
+            "file" = "tinyredstone-26.2-8.0.1.jar";
+            "hash" = "sha512-fGkCL0+s90YKvl9D3Ia/zgL0AJ2+BQYc7kP+rhOUtxBjBEjGK7fVXCeJIHRPFmTlzwcoKWdsm2e2HZ7ReOST4g==";
+        };
     in {
         "JLDUXwai" = _JLDUXwai;
         "imdueWC9" = _imdueWC9;
@@ -68,11 +78,13 @@ let
         "xksLRXvG" = _xksLRXvG;
         "O6mbzNsD" = _O6mbzNsD;
         "IEW4bAms" = _IEW4bAms;
-        "neoforge-1.21.1" = _xksLRXvG;
+        "WMiFY8q7" = _WMiFY8q7;
+        "ckAeMHpD" = _ckAeMHpD;
+        "neoforge-1.21.1" = _WMiFY8q7;
         "neoforge-26.1" = _O6mbzNsD;
         "neoforge-26.1.1" = _O6mbzNsD;
         "neoforge-26.1.2" = _O6mbzNsD;
-        "neoforge-26.2" = _IEW4bAms;
+        "neoforge-26.2" = _ckAeMHpD;
         "forge-1.20" = _imdueWC9;
         "forge-1.20.1" = _imdueWC9;
         "pkg-1.21.1-6.1.0" = _JLDUXwai;
@@ -86,7 +98,9 @@ let
         "pkg-1.21.1-6.1.5" = _xksLRXvG;
         "pkg-26.1-7.0.5" = _O6mbzNsD;
         "pkg-26.2-8.0.0" = _IEW4bAms;
-        "default" = _IEW4bAms;
+        "pkg-1.21.1-6.1.6" = _WMiFY8q7;
+        "pkg-26.2-8.0.1" = _ckAeMHpD;
+        "default" = _ckAeMHpD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tiny-redstone";

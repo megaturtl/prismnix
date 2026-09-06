@@ -67,6 +67,9 @@ let
         "fabric-26.3-snapshot-5" = _5Q7K0RtC;
         "fabric-26.3-snapshot-6" = _5Q7K0RtC;
         "fabric-26.3-snapshot-7" = _5Q7K0RtC;
+        "fabric-26.3-snapshot-8" = _5Q7K0RtC;
+        "fabric-26.3-snapshot-9" = _5Q7K0RtC;
+        "fabric-26.3-snapshot-10" = _5Q7K0RtC;
         "fabric-26.1.2-rc-1" = _5Q7K0RtC;
         "fabric-26.1.2" = _5Q7K0RtC;
         "fabric-26.2-pre-1" = _5Q7K0RtC;
@@ -78,6 +81,8 @@ let
         "fabric-26.2-rc-1" = _5Q7K0RtC;
         "fabric-26.2-rc-2" = _5Q7K0RtC;
         "fabric-26.2" = _5Q7K0RtC;
+        "fabric-26.3-pre-1" = _5Q7K0RtC;
+        "fabric-26.3-pre-2" = _5Q7K0RtC;
         "pkg-1.0.0" = _LiyFdOSl;
         "pkg-1.0.1" = _p3Qcvsef;
         "pkg-1.0.2" = _3WhdgUCF;

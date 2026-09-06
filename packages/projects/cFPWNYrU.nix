@@ -131,6 +131,11 @@ let
             "file" = "chroma-3.5.0-26.2+.jar";
             "hash" = "sha512-4pOzHTTRjeDjYIuuaEfel/Fe54jfJA9V+ABg8gL7vk62zA6Na3Qhe8omx1LCihOWja4kx2nu560pbTVCFFWuTw==";
         };
+        _JXzwxSy4 = {
+            "id" = "JXzwxSy4";
+            "file" = "chroma-3.6.0-26.2+.jar";
+            "hash" = "sha512-0V9knPhTX6d1MzeLyJazTmces06l/5PG0ADKsLxrrj7qavUQDQ/+bHDiW4NRDOePML6jOfmZkri6qH4nQCBuMw==";
+        };
     in {
         "vhnE1Mre" = _vhnE1Mre;
         "rGSzw3DS" = _rGSzw3DS;
@@ -158,6 +163,7 @@ let
         "X2Pcp0Fc" = _X2Pcp0Fc;
         "7eCy5kOs" = _7eCy5kOs;
         "eyvHmrhd" = _eyvHmrhd;
+        "JXzwxSy4" = _JXzwxSy4;
         "fabric-1.21.4" = _vhnE1Mre;
         "fabric-1.21.5" = _89PVAehV;
         "fabric-1.21.6" = _qNM2ahPE;
@@ -169,7 +175,7 @@ let
         "fabric-26.1" = _X2Pcp0Fc;
         "fabric-26.1.1" = _X2Pcp0Fc;
         "fabric-26.1.2" = _X2Pcp0Fc;
-        "fabric-26.2" = _eyvHmrhd;
+        "fabric-26.2" = _JXzwxSy4;
         "neoforge-26.1" = _EJSQcc4q;
         "neoforge-26.1.1" = _EJSQcc4q;
         "neoforge-26.1.2" = _EJSQcc4q;
@@ -198,7 +204,8 @@ let
         "pkg-3.4.0" = _X2Pcp0Fc;
         "pkg-3.4.1" = _7eCy5kOs;
         "pkg-3.5.0" = _eyvHmrhd;
-        "default" = _eyvHmrhd;
+        "pkg-3.6.0" = _JXzwxSy4;
+        "default" = _JXzwxSy4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chromamod";

@@ -26,22 +26,29 @@ let
             "file" = "Mandalas GUI - Dark Mode KOTS Compat 3.0.zip";
             "hash" = "sha512-IYG/KZb8gPxKtoszAVPq497J7p8GzuYeZd+COgWKwRHRI9HJxaHKkol3p8I81DeVHEsc4vZkLK0rrF+m4KTCSg==";
         };
+        _AKgIoAYR = {
+            "id" = "AKgIoAYR";
+            "file" = "Mandalas GUI - Dark Mode KOTS Compat 3.2.zip";
+            "hash" = "sha512-jK/yCQq9vqrm91DQGtnT+JYMuOQ4Qgyf9Lqz8HYyq9qHbKkf8J0E3MfPX0+ROa6W2itMKetJQZeubF78lnvSEw==";
+        };
     in {
         "8XN92UOB" = _8XN92UOB;
         "rQkYrpeZ" = _rQkYrpeZ;
         "3H2ZKtXu" = _3H2ZKtXu;
         "t4L6BkzC" = _t4L6BkzC;
         "pdGhlaHg" = _pdGhlaHg;
+        "AKgIoAYR" = _AKgIoAYR;
         "minecraft-1.20" = _pdGhlaHg;
-        "minecraft-1.20.1" = _pdGhlaHg;
-        "minecraft-1.21.1" = _pdGhlaHg;
-        "minecraft-26.1.2" = _pdGhlaHg;
+        "minecraft-1.20.1" = _AKgIoAYR;
+        "minecraft-1.21.1" = _AKgIoAYR;
+        "minecraft-26.1.2" = _AKgIoAYR;
         "pkg-2.3" = _8XN92UOB;
         "pkg-2.4" = _rQkYrpeZ;
         "pkg-2.6" = _3H2ZKtXu;
         "pkg-2.7" = _t4L6BkzC;
         "pkg-3.0" = _pdGhlaHg;
-        "default" = _pdGhlaHg;
+        "pkg-3.2" = _AKgIoAYR;
+        "default" = _AKgIoAYR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mandalas-gui-kots-compat";

@@ -109,6 +109,7 @@ let
         "fabric-26.1" = _KWnnWxE1;
         "fabric-26.1.1" = _KWnnWxE1;
         "fabric-26.1.2" = _KWnnWxE1;
+        "fabric-26.2" = _KWnnWxE1;
         "forge-1.15" = _WVEHqjv5;
         "forge-1.15.1" = _WVEHqjv5;
         "forge-1.15.2" = _WVEHqjv5;
@@ -167,6 +168,7 @@ let
         "neoforge-26.1" = _US8jq9a8;
         "neoforge-26.1.1" = _US8jq9a8;
         "neoforge-26.1.2" = _US8jq9a8;
+        "neoforge-26.2" = _US8jq9a8;
         "pkg-1.0.0-fabric" = _M2FdQK5W;
         "pkg-1.0.0-forge" = _Sj1Yunua;
         "pkg-1.0.0-neoforge" = _k0LfDkXz;

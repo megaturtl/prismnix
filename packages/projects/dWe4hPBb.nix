@@ -336,6 +336,21 @@ let
             "file" = "gd656killicon-1.1.8-1.20.1-forge.jar";
             "hash" = "sha512-EhkLXxoB/UamW38KOusAi6gwZcvZLu8bVqxVlyr0laUt3ozf1ja3j1aUmUAQAUQ9fmTSW6eWLkZ+3hfTGGQ4wA==";
         };
+        _wLPRWtbO = {
+            "id" = "wLPRWtbO";
+            "file" = "gd656killicon-1.2.0-1.20.1-forge.jar";
+            "hash" = "sha512-RJ0ihoGfkxd7947GiArVDqxHZlMG4d+NC2v6nuHgSXV8VguDEkTMMdSsclr3pxTOzkDnR03P5GLBsDy00fDfww==";
+        };
+        _V8ycqXTQ = {
+            "id" = "V8ycqXTQ";
+            "file" = "gd656killicon-1.3.1-1.20.1-forge.jar";
+            "hash" = "sha512-ffCvxdLvCcc8TC5RgnSaZSl0M8ENLDc8jqdaRRgWhMsjMis/9W8r5FVieJODPaLzXgBqX20CZu3RS+dZ+aDYnA==";
+        };
+        _zSQIkgKo = {
+            "id" = "zSQIkgKo";
+            "file" = "gd656killicon-1.3.2-1.20.1-forge.jar";
+            "hash" = "sha512-sA3JRFB8msDy2B7qnJkQ1jzRLpoP1ceh0tG+jrNAoZCh5uB1itBAAaPs2l4NtJKgNlibuzfnLg6aZqDEwBBXnw==";
+        };
     in {
         "IMA9F4i1" = _IMA9F4i1;
         "M7fiVtEJ" = _M7fiVtEJ;
@@ -404,7 +419,10 @@ let
         "KLP8CGIA" = _KLP8CGIA;
         "bllatScw" = _bllatScw;
         "AKrgc5yr" = _AKrgc5yr;
-        "forge-1.20.1" = _AKrgc5yr;
+        "wLPRWtbO" = _wLPRWtbO;
+        "V8ycqXTQ" = _V8ycqXTQ;
+        "zSQIkgKo" = _zSQIkgKo;
+        "forge-1.20.1" = _zSQIkgKo;
         "forge-1.18.2" = _tBdD9eV4;
         "forge-1.19.2" = _WvzxpPm1;
         "forge-1.20.2" = _rGiJ4jKj;
@@ -483,7 +501,10 @@ let
         "pkg-1.1.2-1.20.1-forge" = _KLP8CGIA;
         "pkg-1.1.6-1.20.1-forge" = _bllatScw;
         "pkg-1.1.8-1.20.1-forge" = _AKrgc5yr;
-        "default" = _AKrgc5yr;
+        "pkg-1.2.0-1.20.1-forge" = _wLPRWtbO;
+        "pkg-1.3.1-1.20.1-forge" = _V8ycqXTQ;
+        "pkg-1.3.2-1.20.1-forge" = _zSQIkgKo;
+        "default" = _zSQIkgKo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gd656killicon";

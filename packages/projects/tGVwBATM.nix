@@ -21,11 +21,17 @@ let
             "file" = "aeroscapes-1.1.0.jar";
             "hash" = "sha512-wD4uDE455iHd2HZS6RQJjGtLDqcuIBy/UDZkTGJJPGnC9AQh70jffEH+K3XyhfwJv9SmJnTtyteJZjA2eK72cg==";
         };
+        _bzJ2edxy = {
+            "id" = "bzJ2edxy";
+            "file" = "aeroscapes-1.1.1.jar";
+            "hash" = "sha512-bO2biFYqPxTz/Cy8i0llV6ex5ZCLJ/WBO8V4SpJGvXVg+DtgRfhUVaqLk7VKwmE9PPADKlMimhozZzL5sD61pQ==";
+        };
     in {
         "YIDhE8id" = _YIDhE8id;
         "Wew7ul8T" = _Wew7ul8T;
         "vISkAIxu" = _vISkAIxu;
         "Mhc3yUIl" = _Mhc3yUIl;
+        "bzJ2edxy" = _bzJ2edxy;
         "fabric-1.21.1" = _vISkAIxu;
         "fabric-1.21.2" = _vISkAIxu;
         "fabric-1.21.3" = _vISkAIxu;
@@ -37,7 +43,7 @@ let
         "fabric-1.21.9" = _vISkAIxu;
         "fabric-1.21.10" = _vISkAIxu;
         "fabric-1.21.11" = _vISkAIxu;
-        "neoforge-1.21.1" = _Mhc3yUIl;
+        "neoforge-1.21.1" = _bzJ2edxy;
         "neoforge-1.21.2" = _vISkAIxu;
         "neoforge-1.21.3" = _vISkAIxu;
         "neoforge-1.21.4" = _vISkAIxu;
@@ -52,7 +58,8 @@ let
         "pkg-1.0.7" = _Wew7ul8T;
         "pkg-1.0.9" = _vISkAIxu;
         "pkg-1.1.0" = _Mhc3yUIl;
-        "default" = _Mhc3yUIl;
+        "pkg-1.1.1" = _bzJ2edxy;
+        "default" = _bzJ2edxy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aeroscapes-islands";

@@ -331,6 +331,56 @@ let
             "file" = "travelers-0.7.4-neoforge-1.21.1.jar";
             "hash" = "sha512-gFpKk59DhCp8AEG5kzcRWP/6zq55/KE/H1sWO0RVwBkQmgoZRLCcG0vrJQUoC0V6NLBOZ5rw+NxxM7oZk2Mggw==";
         };
+        _zP8YHzP8 = {
+            "id" = "zP8YHzP8";
+            "file" = "travelers-0.8.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-hb4ww9ecQcQLsLMBTDiS1OZVdq/hlfM8bBFx1nfihUkPsim5nPhEY+hitSeAC0b0uu4znrSq6irTRs7rIJ/nQA==";
+        };
+        _yP29Axae = {
+            "id" = "yP29Axae";
+            "file" = "travelers-0.8.0-forge-1.20.1.jar";
+            "hash" = "sha512-K2+Agxyq3LBUiVtNltxLV1StGWSObQaT5Rp/TjsvowWTG+Q6r2W8OdzUVII31uFw1+qguRQZbz84ckq3Tp8l0Q==";
+        };
+        _QmPQFygU = {
+            "id" = "QmPQFygU";
+            "file" = "travelers-0.8.0-neoforge-26.2.jar";
+            "hash" = "sha512-yxMf/kbhVo211LPhoB1xNr78Lrrm2AZoFtkhxgbmZ0be+J72aa3CYjMgrH9x/b+pYZGBfS1TaO58E2Gcl5MlwA==";
+        };
+        _54Ry2FEU = {
+            "id" = "54Ry2FEU";
+            "file" = "travelers-0.8.2-neoforge-26.2.jar";
+            "hash" = "sha512-jreonRHWEgZ5AoaV0lnEp559+drYUj7IaHYWO/RCwjUwLFSpZvIx6wa4PeV3UlTtrRjCo216P3/bxrarknj7tw==";
+        };
+        _TY3ybSrc = {
+            "id" = "TY3ybSrc";
+            "file" = "travelers-0.8.2.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-KrLA/tpBv3Jmk7qPHoceNcZf/e0B96yPhOYU8OqdfT3AN3s7bMsBHOvWTxP8D7+CSp9XxVrvC4ej3ZM8JbyPEw==";
+        };
+        _Rlgyh0yo = {
+            "id" = "Rlgyh0yo";
+            "file" = "travelers-0.8.2.1-neoforge-26.2.jar";
+            "hash" = "sha512-5Lc/H07fSY4e3rsROJnUJpWDAXQsGSUgxaa3+tqlljSF0vEsXfw1yx6XTuqPbuK4fa5hI/wZKhQv8A6hhhc0qg==";
+        };
+        _UAil686T = {
+            "id" = "UAil686T";
+            "file" = "travelers-0.8.2.1-forge-1.20.1.jar";
+            "hash" = "sha512-SbyNHNJ68ntoJQeTomDpmtyca9WRptWVhmaS/aDnmAGNvpnOxTCYTi1DWHmM2024sXN9a9R2p8cK9v7j3bbkGw==";
+        };
+        _n97JLZnO = {
+            "id" = "n97JLZnO";
+            "file" = "travelers-0.8.2.2-neoforge-26.2.jar";
+            "hash" = "sha512-WeAuaYx2J+qwYq2ivQf2t+HB1qa57AY+p0uQNRlrOz3+Io/4E96WUxYoZlnIIEVvvjalne5lMWAUoGlpW1MkSg==";
+        };
+        _Aadzy3jP = {
+            "id" = "Aadzy3jP";
+            "file" = "travelers-0.8.2.2-neoforge-1.21.1.jar";
+            "hash" = "sha512-jdkS31RCdonHMCOkLfozL8JsiCaHpFvgxwZDUk9AtB15AO1hOortzgE+3FmLvZoY+7Q3QI2nYDgBsm3hp8TBeA==";
+        };
+        _vX3PrKuD = {
+            "id" = "vX3PrKuD";
+            "file" = "travelers-0.8.2.2-forge-1.20.1.jar";
+            "hash" = "sha512-wKTHldo7UB7j7KgxAA4Zq+SZv3vGQd3tc/hXiprZF+p89cZqw+Pd9+cQezSi0+lc2kCZZu6tAqNUcuGJZo+1AA==";
+        };
     in {
         "tWqfKK2J" = _tWqfKK2J;
         "awP8xmug" = _awP8xmug;
@@ -398,11 +448,22 @@ let
         "b3lFbWfr" = _b3lFbWfr;
         "6kW2y6Nw" = _6kW2y6Nw;
         "AKUBrioq" = _AKUBrioq;
-        "neoforge-1.21.1" = _AKUBrioq;
+        "zP8YHzP8" = _zP8YHzP8;
+        "yP29Axae" = _yP29Axae;
+        "QmPQFygU" = _QmPQFygU;
+        "54Ry2FEU" = _54Ry2FEU;
+        "TY3ybSrc" = _TY3ybSrc;
+        "Rlgyh0yo" = _Rlgyh0yo;
+        "UAil686T" = _UAil686T;
+        "n97JLZnO" = _n97JLZnO;
+        "Aadzy3jP" = _Aadzy3jP;
+        "vX3PrKuD" = _vX3PrKuD;
+        "neoforge-1.21.1" = _Aadzy3jP;
         "neoforge-1.20.1" = _QqXWmdc1;
+        "neoforge-26.2" = _n97JLZnO;
         "fabric-1.21.1" = _SKMCaTQf;
         "fabric-1.20.1" = _PTaaW9nN;
-        "forge-1.20.1" = _6kW2y6Nw;
+        "forge-1.20.1" = _vX3PrKuD;
         "pkg-0.0.1" = _awP8xmug;
         "pkg-0.0.2" = _fltyuAOr;
         "pkg-0.0.3" = _L62d4xX5;
@@ -432,7 +493,11 @@ let
         "pkg-0.7.1" = _2UYDJEKy;
         "pkg-0.7.2" = _b3lFbWfr;
         "pkg-0.7.4" = _AKUBrioq;
-        "default" = _AKUBrioq;
+        "pkg-0.8.0" = _QmPQFygU;
+        "pkg-0.8.2" = _54Ry2FEU;
+        "pkg-0.8.2.1" = _UAil686T;
+        "pkg-0.8.2.2" = _vX3PrKuD;
+        "default" = _vX3PrKuD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "travelers-lib";

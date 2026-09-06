@@ -581,6 +581,66 @@ let
             "file" = "skyboxify-3.2+26.2-fabric.jar";
             "hash" = "sha512-LSauljWe3MiMNdM5D4gEEwQqeCNDTUkjjHvQ0CbT9jofR9MVfz+cisu6cb83T91PPdUzzIAxKxrC8j9fHn5/QQ==";
         };
+        _Y2TLe5c1 = {
+            "id" = "Y2TLe5c1";
+            "file" = "skyboxify-3.3+26.1.2-fabric.jar";
+            "hash" = "sha512-D55k8GkCCZ1+T2coTAsONDErmDjXl7Tn6Qh+KfrynorHMsXiZmkJo/auSIwDCviW5EHgqb/E0o4XnGyv6G/CHw==";
+        };
+        _uuSEC4Xw = {
+            "id" = "uuSEC4Xw";
+            "file" = "skyboxify-3.3+1.21.4-fabric.jar";
+            "hash" = "sha512-2MICbKgTNojgfPVBzDlX6yKWYkDMwACogWjxBDqqsE6UBdpiyDmzEkctzOlJPPyIwBJW1LHV7COkfCmFE3eO7A==";
+        };
+        _WyRDrdBN = {
+            "id" = "WyRDrdBN";
+            "file" = "skyboxify-3.3+1.21.8-fabric.jar";
+            "hash" = "sha512-Nq//QYT0XFQz2SpFGDeG5Noy8YPe06//yOcUpFORNqVoO6c/yMhriVdgnFLL9gMeofWEDf4jpURzdziLFYxMpw==";
+        };
+        _olJPEGN3 = {
+            "id" = "olJPEGN3";
+            "file" = "skyboxify-3.3+1.21.10-fabric.jar";
+            "hash" = "sha512-f22dsGZm16NixqCAkU71ybiqoiCKJ8se0XCzfp9NniL1gGih5vgmeYuClf71gjh3CeH3i2l5QkaeNo4zk+ojrQ==";
+        };
+        _1g1wNVXa = {
+            "id" = "1g1wNVXa";
+            "file" = "skyboxify-3.3+1.21.11-fabric.jar";
+            "hash" = "sha512-Bs/3j5SnOcaujuhtpjssMPbNH0zAkzwv6iRQRttJ14A72RNn0OlCuNhzOmHEQqJ/4+QOp6pHRNLIcBu2BGRoSQ==";
+        };
+        _OdY2kzJ1 = {
+            "id" = "OdY2kzJ1";
+            "file" = "skyboxify-3.3+26.2-fabric.jar";
+            "hash" = "sha512-kP7zohZQP1ipVaIgVS0aKe3C36tT0FgxUGOzwEs1k5xcs7jcphw12tLlM9gMeI9smigkhQqui2QGEbf8g7vK4A==";
+        };
+        _g1KRYky5 = {
+            "id" = "g1KRYky5";
+            "file" = "skyboxify-3.3.1+26.1.2-fabric.jar";
+            "hash" = "sha512-6Z2H/fEuE8F1T6H7l7ZuXh4XmsoRDjcSbk4y/tuS9l7xWddH4LPN9QqlRHdp6NRuus1BEzlH4bnF+SO6EzDtkg==";
+        };
+        _rChaTdfe = {
+            "id" = "rChaTdfe";
+            "file" = "skyboxify-3.3.1+26.2-fabric.jar";
+            "hash" = "sha512-LP08srHm3O+lBAvlkH0hHIBvsQTursM4GRQ7mV/bZAY7jb3LKe4ZHHpWE0/zaFLgAyhVpBwC0iirVMCHrqKKFQ==";
+        };
+        _Mq2pjWgI = {
+            "id" = "Mq2pjWgI";
+            "file" = "skyboxify-3.3.1+1.21.10-fabric.jar";
+            "hash" = "sha512-kJaqGXlEIjtKFFJN5b4FwzXREMIrgrwz4ez+yyxViLXqpnPwsueZNpeNFYjrn2/Nsiiwfb6Vh2qeEeo9UdePug==";
+        };
+        _LD1veliv = {
+            "id" = "LD1veliv";
+            "file" = "skyboxify-3.3.1+1.21.11-fabric.jar";
+            "hash" = "sha512-SukMg/R9Z8hw4DxivEn0HrqAU587Mo6OIVukMA0Knrj/GvjSsA2QoH0admC21BRenSO8cNH2j9f9ODTMdQ2OBw==";
+        };
+        _d43zLFHg = {
+            "id" = "d43zLFHg";
+            "file" = "skyboxify-3.3.1+1.21.8-fabric.jar";
+            "hash" = "sha512-oXJPY7F3B1mMRY4bTODvpXdQDr5QivcOo0j8JtcmT3fMj3XF+G+1y2u7xd1fGCt3VBOX/Vtx/nV1Vonz9AtHEA==";
+        };
+        _Ufeaikdt = {
+            "id" = "Ufeaikdt";
+            "file" = "skyboxify-3.3.1+1.21.4-fabric.jar";
+            "hash" = "sha512-vZ3p/saYFGLxHjuaoQwQQZ1YAX+0EfOmDKRrSyv3pJCGrJDai2fXUHVlj1JvptVIfq/PuZQlzLqfMowh8yYzGA==";
+        };
     in {
         "RTbTfBFK" = _RTbTfBFK;
         "QFeZrZ7R" = _QFeZrZ7R;
@@ -698,24 +758,36 @@ let
         "GyKxbiLO" = _GyKxbiLO;
         "YvutzX3D" = _YvutzX3D;
         "bGytTuDO" = _bGytTuDO;
+        "Y2TLe5c1" = _Y2TLe5c1;
+        "uuSEC4Xw" = _uuSEC4Xw;
+        "WyRDrdBN" = _WyRDrdBN;
+        "olJPEGN3" = _olJPEGN3;
+        "1g1wNVXa" = _1g1wNVXa;
+        "OdY2kzJ1" = _OdY2kzJ1;
+        "g1KRYky5" = _g1KRYky5;
+        "rChaTdfe" = _rChaTdfe;
+        "Mq2pjWgI" = _Mq2pjWgI;
+        "LD1veliv" = _LD1veliv;
+        "d43zLFHg" = _d43zLFHg;
+        "Ufeaikdt" = _Ufeaikdt;
         "fabric-1.21" = _ipMSJF5L;
         "fabric-1.21.1" = _ipMSJF5L;
         "fabric-1.21.2" = _1M8Olh52;
         "fabric-1.21.3" = _1M8Olh52;
-        "fabric-1.21.4" = _LelG4BLL;
+        "fabric-1.21.4" = _Ufeaikdt;
         "fabric-1.21.5" = _ltkjV0Fd;
         "fabric-1.21.6" = _4tMdj2u4;
-        "fabric-1.21.7" = _GyKxbiLO;
-        "fabric-1.21.8" = _GyKxbiLO;
+        "fabric-1.21.7" = _d43zLFHg;
+        "fabric-1.21.8" = _d43zLFHg;
         "fabric-25w31a" = _xPNk6ibZ;
         "fabric-25w32a" = _xPNk6ibZ;
-        "fabric-1.21.9" = _YvutzX3D;
-        "fabric-1.21.10" = _YvutzX3D;
-        "fabric-1.21.11" = _cFlOxVHf;
-        "fabric-26.1" = _dMeAAaEB;
-        "fabric-26.1.1" = _dMeAAaEB;
-        "fabric-26.1.2" = _dMeAAaEB;
-        "fabric-26.2" = _bGytTuDO;
+        "fabric-1.21.9" = _Mq2pjWgI;
+        "fabric-1.21.10" = _Mq2pjWgI;
+        "fabric-1.21.11" = _LD1veliv;
+        "fabric-26.1" = _g1KRYky5;
+        "fabric-26.1.1" = _g1KRYky5;
+        "fabric-26.1.2" = _g1KRYky5;
+        "fabric-26.2" = _rChaTdfe;
         "pkg-1.0" = _sEIFtubQ;
         "pkg-1.1" = _cORUSxDj;
         "pkg-1.2" = _qyE4RAh4;
@@ -736,7 +808,9 @@ let
         "pkg-3.0" = _dpMMsXD7;
         "pkg-3.1" = _D42TqRVw;
         "pkg-3.2" = _bGytTuDO;
-        "default" = _bGytTuDO;
+        "pkg-3.3" = _OdY2kzJ1;
+        "pkg-3.3.1" = _Ufeaikdt;
+        "default" = _Ufeaikdt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skyboxify";

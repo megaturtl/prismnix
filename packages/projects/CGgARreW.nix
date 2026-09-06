@@ -46,6 +46,26 @@ let
             "file" = "tacz_tactical_breaching-neoforge-1.21.1-1.0.3.jar";
             "hash" = "sha512-dt9i6KvCWpahlrQMWCNTMJsE7nMCRl+BzXRrDKJczZPnvoMZ1gRifrMd/jhbzjbr8Ko6/+9hdi5QHmzwsgp2TA==";
         };
+        _m66WkXk9 = {
+            "id" = "m66WkXk9";
+            "file" = "tacz_tactical_breaching-forge-1.20.1-1.0.4.jar";
+            "hash" = "sha512-xSfcVGKgzESESF/562IIqs8DbTV6XT7UClAxWKeycwprAasKQaiFlClpaWWwmk+YV/lL23TeUvGr6rxtX0UTTQ==";
+        };
+        _GAQgrHb0 = {
+            "id" = "GAQgrHb0";
+            "file" = "tacz_tactical_breaching-neoforge-1.21.1-1.0.4.jar";
+            "hash" = "sha512-zRnJFS0I7owl9n2dhr1Nx1AsIBtC42kVn8YdFHZuUTWJu0OxdwEqzAOMmdCIwr5q97yoJXQkV55rrxetv00InQ==";
+        };
+        _cvSOVRCE = {
+            "id" = "cvSOVRCE";
+            "file" = "tacz_tactical_breaching-forge-1.20.1-1.0.5.jar";
+            "hash" = "sha512-TIxqmcW00c+d2PE7gQncPnshoH8b6olzjNO0xA7vVogwUFTEBdxpMEOFhyTl3ZaPjafApGUnHCC5f3i0Om0P/w==";
+        };
+        _4usjzhJ2 = {
+            "id" = "4usjzhJ2";
+            "file" = "tacz_tactical_breaching-neoforge-1.21.1-1.0.5.jar";
+            "hash" = "sha512-Bm9qIjjqgRns6N/9tsuNfYY8NsD4bYHIXkoerIWyMMQ2jrnQJa9SzI10L48SWcDEl2BJNheJcgrMagkrw8p4DQ==";
+        };
     in {
         "wEw2ozqe" = _wEw2ozqe;
         "oF9gHbr2" = _oF9gHbr2;
@@ -56,8 +76,13 @@ let
         "jHgnEp78" = _jHgnEp78;
         "qHgq7w7o" = _qHgq7w7o;
         "Ina7tQLo" = _Ina7tQLo;
-        "forge-1.20.1" = _qHgq7w7o;
-        "neoforge-1.21.1" = _Ina7tQLo;
+        "m66WkXk9" = _m66WkXk9;
+        "GAQgrHb0" = _GAQgrHb0;
+        "cvSOVRCE" = _cvSOVRCE;
+        "4usjzhJ2" = _4usjzhJ2;
+        "forge-1.20.1" = _cvSOVRCE;
+        "neoforge-1.21.1" = _4usjzhJ2;
+        "neoforge-1.20.1" = _cvSOVRCE;
         "pkg-1.0.0" = _wEw2ozqe;
         "pkg-1.0.0-neoforge-1.21.1" = _oF9gHbr2;
         "pkg-1.0.1" = _sfNXyyrg;
@@ -65,7 +90,9 @@ let
         "pkg-1.0.2+" = _kFZyqjMs;
         "pkg-1.0.2-Hotfix" = _jHgnEp78;
         "pkg-1.0.3" = _Ina7tQLo;
-        "default" = _Ina7tQLo;
+        "pkg-1.0.4" = _GAQgrHb0;
+        "pkg-1.0.5" = _4usjzhJ2;
+        "default" = _4usjzhJ2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz-tactical-breaching";

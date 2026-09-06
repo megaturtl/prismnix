@@ -91,6 +91,21 @@ let
             "file" = "createtransmission-1.2.1+fabric-create6-1.20.1.jar";
             "hash" = "sha512-fCQIuKYc/2GtNJmB2uJEtHHanEa7tAG2y/jdYkstKLFLsabcWtpU+YKZO/q/uzuykRn8GmNXtkUAIh/m/JwTMw==";
         };
+        _3QRubjX4 = {
+            "id" = "3QRubjX4";
+            "file" = "createtransmission-1.2.2+fabric-create6-1.20.1.jar";
+            "hash" = "sha512-jofLSgVb95wcOfl6inDkrw6L7pbKaWhOO5+CKbsA57Pj+PjdG5wkWBvnNuNL8nbaHumEIrZXQDYixbfVM1SGHA==";
+        };
+        _wBPYjsJ6 = {
+            "id" = "wBPYjsJ6";
+            "file" = "createtransmission-1.2.2+forge-create6-1.20.1.jar";
+            "hash" = "sha512-nMjzorEHMvDJIeOxPkTRvTH+a/yFibbKNqUFvdrS4MP3MtvJrzsd3ORExgabrDB7uWvHLNFkSOdJXdNihO6P4Q==";
+        };
+        _dOsq88jX = {
+            "id" = "dOsq88jX";
+            "file" = "createtransmission-1.2.2+neoforge-create6-1.21.1.jar";
+            "hash" = "sha512-7ZDBn24mWjhiosltlemyBMs7O+i3gdg2TQoq6k1wh39f5mBWNU2g/tLrNf3iLG5MKAGwzzHY1xV+STPx2JEyMw==";
+        };
     in {
         "xm8egqNP" = _xm8egqNP;
         "TZ90p7W5" = _TZ90p7W5;
@@ -110,9 +125,12 @@ let
         "PFxFCqZI" = _PFxFCqZI;
         "mLEu54kE" = _mLEu54kE;
         "avB9AMPx" = _avB9AMPx;
-        "forge-1.20.1" = _PFxFCqZI;
-        "fabric-1.20.1" = _avB9AMPx;
-        "neoforge-1.21.1" = _mLEu54kE;
+        "3QRubjX4" = _3QRubjX4;
+        "wBPYjsJ6" = _wBPYjsJ6;
+        "dOsq88jX" = _dOsq88jX;
+        "forge-1.20.1" = _wBPYjsJ6;
+        "fabric-1.20.1" = _3QRubjX4;
+        "neoforge-1.21.1" = _dOsq88jX;
         "pkg-1.0.4+forge-create5-1.20.1" = _xm8egqNP;
         "pkg-1.0.4+fabric-create5-1.20.1" = _TZ90p7W5;
         "pkg-1.0.4+forge-create6-1.20.1" = _ewdVIWAu;
@@ -131,7 +149,10 @@ let
         "pkg-1.2.1+forge-create6-1.20.1" = _PFxFCqZI;
         "pkg-1.2.1+neoforge-create6-1.21.1" = _mLEu54kE;
         "pkg-1.2.1+fabric-create6-1.20.1" = _avB9AMPx;
-        "default" = _avB9AMPx;
+        "pkg-1.2.2+fabric-create6-1.20.1" = _3QRubjX4;
+        "pkg-1.2.2+forge-create6-1.20.1" = _wBPYjsJ6;
+        "pkg-1.2.2+neoforge-create6-1.21.1" = _dOsq88jX;
+        "default" = _dOsq88jX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-transmission!";

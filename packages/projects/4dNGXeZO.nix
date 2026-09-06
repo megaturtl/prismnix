@@ -76,6 +76,86 @@ let
             "file" = "HyMod-1.1.3-26.2+_fabric.jar";
             "hash" = "sha512-9HEP94d1WHnCxpXA8hQ6Wg+nsrA6slTP7HFWhobumTZEp0AF3gctnPcacZCxQCX5Isc5rdZ0cmxSKjE/34gtKg==";
         };
+        _u27hGDdx = {
+            "id" = "u27hGDdx";
+            "file" = "HyMod-1.2.0-1.8.9_forge.jar";
+            "hash" = "sha512-idpdVGPkB1a41nVk1A7JVak7/RwiwjndnPwEghciLyZ3UgCQmwm2cIIqjeguoB+IznCaTiVvgb2tR3MSLwPwEQ==";
+        };
+        _N1hMaYZJ = {
+            "id" = "N1hMaYZJ";
+            "file" = "HyMod-1.2.0-1.21.11_fabric.jar";
+            "hash" = "sha512-wRepyTdBfxn6vxgyE1rzTwNBy9xssnNciUrsZQFfySEggRxUOegsPERFVoG5hUX/fTJASSxMzmAscL6f409gig==";
+        };
+        _5LEe5WvE = {
+            "id" = "5LEe5WvE";
+            "file" = "HyMod-1.2.0-26.1+_fabric.jar";
+            "hash" = "sha512-UUVuMucLw6fw5L1/8od7xTSd6wHBUkyouJKoQB8moiJO+8acnur9g4xVpWewQh5DIYiMAgWuK6BUvNaaUukneg==";
+        };
+        _r6zwkZAX = {
+            "id" = "r6zwkZAX";
+            "file" = "HyMod-1.2.0-26.2+_fabric.jar";
+            "hash" = "sha512-YvKSILTNSKB4+S5hPVTpOtkCHWj1e7LLXH3c9LRSizPju5/A7/3sJGweABmJsx/ql6N0kK0Klg/ONRY4KbvB7w==";
+        };
+        _8goTj3hw = {
+            "id" = "8goTj3hw";
+            "file" = "HyMod-1.3.0-1.8.9_forge.jar";
+            "hash" = "sha512-o90yHXoskrK0D0ZU2wlR3CCj1OPRkJEPAfSIu2eVUV8Q0w5trgFLbldwU1vIYOovxSwWo5DC+2GUO3OQEcVPCg==";
+        };
+        _qnnYw3SO = {
+            "id" = "qnnYw3SO";
+            "file" = "HyMod-1.3.0-1.21.11_fabric.jar";
+            "hash" = "sha512-r6+CFG1RDC/x92cq73xQlpjEVeBa1Zi7nPlsKeiZOyCty7g/fSd8d8h/CLRtWLiRiYSSRzUzXDludBfQncUXrg==";
+        };
+        _6rTLaHCJ = {
+            "id" = "6rTLaHCJ";
+            "file" = "HyMod-1.3.0-26.1+_fabric.jar";
+            "hash" = "sha512-/W+h/p3rxnXA3NcLkgkd4oKLvFDGj1bM77uECB38kHviBfzU0XUQioqVB1oMnfT4TY0O36fA3sFpKIKWM+Rd1A==";
+        };
+        _RdZiXlp3 = {
+            "id" = "RdZiXlp3";
+            "file" = "HyMod-1.3.0-26.2+_fabric.jar";
+            "hash" = "sha512-piV6wqZzfbPw9fqNTo5VBSfOebRLY2UOiIYMzZBz4OR881m8coQbZAjykFYLiCYmdwA5rSYvGvMfzjI7hhPLoA==";
+        };
+        _9EXfbYj5 = {
+            "id" = "9EXfbYj5";
+            "file" = "HyMod-2.0.0-1.8.9_forge.jar";
+            "hash" = "sha512-tQd3XKnwMLlei2OSg20SMwc3cztpRgSAzFxONRAuvTwf5Y2Aun/d9MKfGCDz9+6nBunEznakzLUW0FrHOpyPPQ==";
+        };
+        _fzllDOjG = {
+            "id" = "fzllDOjG";
+            "file" = "HyMod-2.0.0-1.21.11_fabric.jar";
+            "hash" = "sha512-FgOJmAxNwOYmkyyE0fPyMz5wzWOUqKVN4HeLYWjeBHrwxm9sdO5nJDuukS7S1s58qaQ3MCtl3+eJIXtimQj9Yg==";
+        };
+        _65I7oXR7 = {
+            "id" = "65I7oXR7";
+            "file" = "HyMod-2.0.0-26.1+_fabric.jar";
+            "hash" = "sha512-NBNHo05VI+BqTtfHGxamK5b545SH00JSJVA9X+9JB1ywknBeRXq5DtWMlg/ID3ULcd41mG8lDFU2pmfw2IQVUg==";
+        };
+        _NMb58VZv = {
+            "id" = "NMb58VZv";
+            "file" = "HyMod-2.0.0-26.2+_fabric.jar";
+            "hash" = "sha512-scP/oGU6Lg/xdKGM8M/UNjFgydU2Spr0QcXqC8x3VH8o18nm1tJYUTdcwWBkMRtGTOIUmyh2VjDL5yAbFbDDyQ==";
+        };
+        _ohBCTpIk = {
+            "id" = "ohBCTpIk";
+            "file" = "HyMod-2.0.1-1.8.9_forge.jar";
+            "hash" = "sha512-W7wPNAGuOfRNzCfkPkMfaOh7defLm2LxTh6n7URhRhb9/aox622jcdFV6NCeFs0imNwIFENmY7jwhuVVV49/VQ==";
+        };
+        _CuBKKmEk = {
+            "id" = "CuBKKmEk";
+            "file" = "HyMod-2.0.1-1.21.11_fabric.jar";
+            "hash" = "sha512-zNipXzTDIk6KrSnV7W5QLFmmLIcVCfpt+3O0cOgFOYxrOFbpNiQnBoS9BIURMUKIoJOWtX5MCfw/oFB9//WX8A==";
+        };
+        _EXxnlrol = {
+            "id" = "EXxnlrol";
+            "file" = "HyMod-2.0.1-26.1+_fabric.jar";
+            "hash" = "sha512-ed3u23Nqt2z+7Sqj3RKJzy5UV98KnAx8zbo/dfeiJs8CTaaZo+WzObpPU5jUeQbm14sl28idhbV9tMEs39KdJg==";
+        };
+        _U9otonXh = {
+            "id" = "U9otonXh";
+            "file" = "HyMod-2.0.1-26.2+_fabric.jar";
+            "hash" = "sha512-8a+HSC056V1w04fWBvKq2Lxy6ivGxFVPjENzV9yt1+HIy6bkcLxT7WsGuamTBe1yOPxt+7CXseSYJH6KMImOTg==";
+        };
     in {
         "XURNFfTd" = _XURNFfTd;
         "69x46XJZ" = _69x46XJZ;
@@ -92,11 +172,28 @@ let
         "yOCBmurR" = _yOCBmurR;
         "Cm4dnkWN" = _Cm4dnkWN;
         "bEezVUK1" = _bEezVUK1;
-        "forge-1.8.9" = _JV2z6uwu;
-        "fabric-26.1" = _Cm4dnkWN;
-        "fabric-26.1.1" = _Cm4dnkWN;
-        "fabric-26.1.2" = _Cm4dnkWN;
-        "fabric-26.2" = _bEezVUK1;
+        "u27hGDdx" = _u27hGDdx;
+        "N1hMaYZJ" = _N1hMaYZJ;
+        "5LEe5WvE" = _5LEe5WvE;
+        "r6zwkZAX" = _r6zwkZAX;
+        "8goTj3hw" = _8goTj3hw;
+        "qnnYw3SO" = _qnnYw3SO;
+        "6rTLaHCJ" = _6rTLaHCJ;
+        "RdZiXlp3" = _RdZiXlp3;
+        "9EXfbYj5" = _9EXfbYj5;
+        "fzllDOjG" = _fzllDOjG;
+        "65I7oXR7" = _65I7oXR7;
+        "NMb58VZv" = _NMb58VZv;
+        "ohBCTpIk" = _ohBCTpIk;
+        "CuBKKmEk" = _CuBKKmEk;
+        "EXxnlrol" = _EXxnlrol;
+        "U9otonXh" = _U9otonXh;
+        "forge-1.8.9" = _ohBCTpIk;
+        "fabric-26.1" = _EXxnlrol;
+        "fabric-26.1.1" = _EXxnlrol;
+        "fabric-26.1.2" = _EXxnlrol;
+        "fabric-26.2" = _U9otonXh;
+        "fabric-1.21.11" = _CuBKKmEk;
         "pkg-1.0.0-1.8.9" = _XURNFfTd;
         "pkg-1.0.0-26.1+" = _69x46XJZ;
         "pkg-1.0.0-26.2+" = _sdqwfaxf;
@@ -112,7 +209,23 @@ let
         "pkg-1.1.2-26.2+" = _yOCBmurR;
         "pkg-1.1.3-26.1+" = _Cm4dnkWN;
         "pkg-1.1.3-26.2+" = _bEezVUK1;
-        "default" = _bEezVUK1;
+        "pkg-1.2.0-1.8.9" = _u27hGDdx;
+        "pkg-1.2.0-1.21.11" = _N1hMaYZJ;
+        "pkg-1.2.0-26.1+" = _5LEe5WvE;
+        "pkg-1.2.0-26.2+" = _r6zwkZAX;
+        "pkg-1.3.0-1.8.9" = _8goTj3hw;
+        "pkg-1.3.0-1.21.11" = _qnnYw3SO;
+        "pkg-1.3.0-26.1+" = _6rTLaHCJ;
+        "pkg-1.3.0-26.2+" = _RdZiXlp3;
+        "pkg-2.0.0-1.8.9_forge" = _9EXfbYj5;
+        "pkg-2.0.0-1.21.11_fabric" = _fzllDOjG;
+        "pkg-2.0.0-26.1+_fabric" = _65I7oXR7;
+        "pkg-2.0.0-26.2+_fabric" = _NMb58VZv;
+        "pkg-2.0.1-1.8.9_forge" = _ohBCTpIk;
+        "pkg-2.0.1-1.21.11_fabric" = _CuBKKmEk;
+        "pkg-2.0.1-26.1+_fabric" = _EXxnlrol;
+        "pkg-2.0.1-26.2+_fabric" = _U9otonXh;
+        "default" = _U9otonXh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hymod";

@@ -136,6 +136,26 @@ let
             "file" = "ApolloClient-v1.3.b19-2026-07-08.jar";
             "hash" = "sha512-vof/QnFit+tAPNS244gbY+xybltA1TifPvTz2sgZkmCpqZoW8PKPTItNrCq2u3hlo/ibOdch+45dxitEKwpcYg==";
         };
+        _vtoZlMdn = {
+            "id" = "vtoZlMdn";
+            "file" = "ApolloClient-v1.3.1.b17-2026-08-23.jar";
+            "hash" = "sha512-19qfKbDFzcSY4uNKJQPVtiGmvSTqwZHj9W5QheZnaINbzxE6X2RfQ2sGWqJ9mWS6x4A52FQt1PNqaySxw/7EbQ==";
+        };
+        _pphZUGt0 = {
+            "id" = "pphZUGt0";
+            "file" = "ApolloClient-v1.3.1.b18-2026-08-24.jar";
+            "hash" = "sha512-qeLylTxrLe9N3E8wUFhoYKXQGBBT48cSyuymRcKuEj7O9FRE236NHWYL/hCGqAq+e+2NX7n2VenYcEezssy4Ww==";
+        };
+        _fPUY6T0Z = {
+            "id" = "fPUY6T0Z";
+            "file" = "ApolloClient-v1.3.1.b18-2026-08-26.jar";
+            "hash" = "sha512-suvaftvzcz9eiDbERFVMlRtP8zt2i2undY8jwCoL5LnoXm7m5MEvq+rOEiF2tSxNR+0OWOucVWwnWTTU2+nMzw==";
+        };
+        _8ueao5Sj = {
+            "id" = "8ueao5Sj";
+            "file" = "ApolloClient-v1.3.1.b19-2026-09-02.jar";
+            "hash" = "sha512-ONBnaYJZjUPOGtg8QUdKwfjeLavRDtDJnz2VvZqHk5T9MYdcAd1GKAOs6mdfFyWFmRlF4q9aZDS2ieP9zs9OGQ==";
+        };
     in {
         "Cd2ejTv3" = _Cd2ejTv3;
         "ER9K54qq" = _ER9K54qq;
@@ -164,7 +184,11 @@ let
         "8nV9xMHK" = _8nV9xMHK;
         "U2MljoD8" = _U2MljoD8;
         "9kX6Cbxe" = _9kX6Cbxe;
-        "forge-1.7.10" = _9kX6Cbxe;
+        "vtoZlMdn" = _vtoZlMdn;
+        "pphZUGt0" = _pphZUGt0;
+        "fPUY6T0Z" = _fPUY6T0Z;
+        "8ueao5Sj" = _8ueao5Sj;
+        "forge-1.7.10" = _8ueao5Sj;
         "pkg-1.2.6b" = _H6hhSjqx;
         "pkg-1.2.7.b50" = _zKctGPxF;
         "pkg-1.2.7.b51" = _6hxbL5Or;
@@ -183,7 +207,10 @@ let
         "pkg-1.3.b17" = _fOgroi5q;
         "pkg-1.3.b18" = _8nV9xMHK;
         "pkg-1.3.b19" = _9kX6Cbxe;
-        "default" = _9kX6Cbxe;
+        "pkg-1.3.1" = _vtoZlMdn;
+        "pkg-1.3.1.b18" = _fPUY6T0Z;
+        "pkg-1.3.1.b19" = _8ueao5Sj;
+        "default" = _8ueao5Sj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "db-apollo-client";

@@ -56,6 +56,11 @@ let
             "file" = "farmers-delight-polymer-patch-3.6.7.0+26.2.jar";
             "hash" = "sha512-ngT1xo5CCb0OHekyhY6/QnPDabmUPjjLzoZlMR1/99P9/iBJPnh2nZuSBHZ43/mV4tXZmPmXirc4ljIe0SXgnQ==";
         };
+        _FoUwhH95 = {
+            "id" = "FoUwhH95";
+            "file" = "farmers-delight-polymer-patch-3.6.20.0+26.2.jar";
+            "hash" = "sha512-NvXEr4+ppyZCUU9ytQnHTa3YYLYNqOhs7H0YuFpf7s5uf/9jkjoyJvSOCbjS/5mqwabTNPebRuAYNG681g8pJQ==";
+        };
     in {
         "6jkdYwlg" = _6jkdYwlg;
         "S79IKY4l" = _S79IKY4l;
@@ -68,6 +73,7 @@ let
         "58CouKnE" = _58CouKnE;
         "c6ZToloZ" = _c6ZToloZ;
         "11AvsXE3" = _11AvsXE3;
+        "FoUwhH95" = _FoUwhH95;
         "fabric-1.21.6" = _6jkdYwlg;
         "fabric-1.21.7" = _6jkdYwlg;
         "fabric-1.21.8" = _I3Zb1ukB;
@@ -76,7 +82,7 @@ let
         "fabric-26.1" = _Nl9TaEUY;
         "fabric-26.1.1" = _Nl9TaEUY;
         "fabric-26.1.2" = _58CouKnE;
-        "fabric-26.2" = _11AvsXE3;
+        "fabric-26.2" = _FoUwhH95;
         "pkg-3.2.3.0+1.21.6" = _6jkdYwlg;
         "pkg-3.2.5.0+1.21.8" = _S79IKY4l;
         "pkg-3.3.0.0+1.21.8" = _I3Zb1ukB;
@@ -88,7 +94,8 @@ let
         "pkg-3.6.5.0+26.1.2" = _58CouKnE;
         "pkg-3.6.6.0+26.2" = _c6ZToloZ;
         "pkg-3.6.7.0+26.2" = _11AvsXE3;
-        "default" = _11AvsXE3;
+        "pkg-3.6.20.0+26.2" = _FoUwhH95;
+        "default" = _FoUwhH95;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "farmers-delight-polymer";

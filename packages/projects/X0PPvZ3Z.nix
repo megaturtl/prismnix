@@ -21,18 +21,25 @@ let
             "file" = "overzenith-neoforge-2.0.1.jar";
             "hash" = "sha512-9vyFW9J3cPkWDcwwFXEZNBmLfjgGN7M6XAmEZbdTD5+gzj/zzAcLpnDdXsHTuD8o++4pS4poP7KZZ8s7QZH1FQ==";
         };
+        _uTXuQLn8 = {
+            "id" = "uTXuQLn8";
+            "file" = "overzenith-neoforge-2.0.2.jar";
+            "hash" = "sha512-2AAkqfwxAaYp0PKYb+IR9WwVh006bgUhem3peywFBcV4S0thpHhqOeDp5+Q0XKF46LGpbxTxcYsfj89uJ1b8KA==";
+        };
     in {
         "Dr7EpQ0q" = _Dr7EpQ0q;
         "dLu62n9p" = _dLu62n9p;
         "SeDzAxPC" = _SeDzAxPC;
         "3nsJSNKn" = _3nsJSNKn;
+        "uTXuQLn8" = _uTXuQLn8;
         "fabric-1.20.1" = _Dr7EpQ0q;
         "fabric-1.21.1" = _dLu62n9p;
-        "neoforge-1.21.1" = _3nsJSNKn;
+        "neoforge-1.21.1" = _uTXuQLn8;
         "pkg-1.0.0" = _Dr7EpQ0q;
         "pkg-2.0.0" = _SeDzAxPC;
         "pkg-2.0.1" = _3nsJSNKn;
-        "default" = _3nsJSNKn;
+        "pkg-2.0.2" = _uTXuQLn8;
+        "default" = _uTXuQLn8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "overzenith";

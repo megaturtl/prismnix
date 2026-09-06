@@ -236,6 +236,11 @@ let
             "file" = "Arcanus-Fabric-0.112.11.jar";
             "hash" = "sha512-Qro6b0F7AjN6rHhJOJST6CMZmLXdgeAv1659n2Eju1a/KDdasecYRp8363Etw1bWKVhPS/P9xz0kfUuYCjvvqA==";
         };
+        _c4dEultA = {
+            "id" = "c4dEultA";
+            "file" = "Arcanus-Fabric-0.112.12.jar";
+            "hash" = "sha512-8CYNwBZWt/suTtnxHxy/H7VzzAtP3WItHMwZNuybeBE1WfkQIG0exs3kEs0gdHk+Sre2a/PsT+So0ycAbHJNXQ==";
+        };
     in {
         "kiPUlm0i" = _kiPUlm0i;
         "Q5qSbN2J" = _Q5qSbN2J;
@@ -284,10 +289,11 @@ let
         "2SVTqkvF" = _2SVTqkvF;
         "JoxpCtqE" = _JoxpCtqE;
         "KGpQrzkl" = _KGpQrzkl;
+        "c4dEultA" = _c4dEultA;
         "quilt-1.19.4" = _eXkHdPzF;
         "quilt-1.19.2" = _wCFSLKXi;
-        "quilt-1.20.1" = _KGpQrzkl;
-        "fabric-1.20.1" = _KGpQrzkl;
+        "quilt-1.20.1" = _c4dEultA;
+        "fabric-1.20.1" = _c4dEultA;
         "pkg-0.1" = _kiPUlm0i;
         "pkg-0.2.0" = _Q5qSbN2J;
         "pkg-0.1.0-alpha.7" = _wCFSLKXi;
@@ -335,7 +341,8 @@ let
         "pkg-0.112.9+Fabric" = _2SVTqkvF;
         "pkg-0.112.10+Fabric" = _JoxpCtqE;
         "pkg-0.112.11+Fabric" = _KGpQrzkl;
-        "default" = _KGpQrzkl;
+        "pkg-0.112.12+Fabric" = _c4dEultA;
+        "default" = _c4dEultA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "arcanus";

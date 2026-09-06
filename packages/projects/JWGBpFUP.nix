@@ -656,6 +656,191 @@ let
             "file" = "create-enchantment-industry-2.5.0.jar";
             "hash" = "sha512-lP4+MAaZBq7HweYsUOMi/t7K5SCd+OaX8QrJhAm5Bq6nm0x3ge+wwXMyMHg65PlNRoWg+M/uqq6b5Ext36vadQ==";
         };
+        _caLmFTZ1 = {
+            "id" = "caLmFTZ1";
+            "file" = "create_enchantment_industry-1.4.1-for-create-6.0.8.jar";
+            "hash" = "sha512-3xMHDK17R32eqyT97pr0/d+LcYOhA+WwDvx97wEHrQdRWavxylUeQnByQZcHD3jxG9baO7YwqENB+chdzAIHsw==";
+        };
+        _rYvEK00i = {
+            "id" = "rYvEK00i";
+            "file" = "create-enchantment-industry-2.5.0-pre.1.jar";
+            "hash" = "sha512-bZWHZddBnwZL3Z0EFtYc84fw0nY2vumfQmkmaLKfGn5JRdAh2yB0RhZ493lCfoEKFrW+zr3BSOdg6QhbXh07AQ==";
+        };
+        _ujvmFZ6V = {
+            "id" = "ujvmFZ6V";
+            "file" = "create-enchantment-industry-fabric-1.20.1-2.5.0-pre.1.jar";
+            "hash" = "sha512-LftwV51duXTR62Kjrq9kOEcU/X01ALG26hjyJ1WjKvUF/i2u1CkT2yV2zMLmUk+QcgD9ZDDczDju8Z8HUR1Zmw==";
+        };
+        _QBu15h30 = {
+            "id" = "QBu15h30";
+            "file" = "create-enchantment-industry-2.5.0-p.2.jar";
+            "hash" = "sha512-45UG07G3WIu838beTlHbk6+id3dIFCFAf9r9FA88E15S80hQsHgb2H7jFqw7AnMiyeaZv3UX8Zlq1ydMyBfBog==";
+        };
+        _FBBRa9Pr = {
+            "id" = "FBBRa9Pr";
+            "file" = "create-enchantment-industry-2.5.1.jar";
+            "hash" = "sha512-8yr7WC33cBBvvM55k7L7Blbu425ct6ogfxGz2N7QGKNXKSWC7RRAGhEzfvZd+s6y2M9n+IOsFpS2/hvMbmnw5Q==";
+        };
+        _1EkmOz33 = {
+            "id" = "1EkmOz33";
+            "file" = "create-enchantment-industry-fly-1.21.11-2.5.1-p.1.jar";
+            "hash" = "sha512-c1DZeK1e42JP/KAFjZRJGw4cvsGjKwwbpdTZyOmvduVyoc3Tc26cRsYzdsbeRa1zoP8qmB+3KB1+fhJncA36tg==";
+        };
+        _ZlxMBwU0 = {
+            "id" = "ZlxMBwU0";
+            "file" = "create-enchantment-industry-2.5.0-p.3.jar";
+            "hash" = "sha512-wrkMWinnwSr/jFNp3MNuni9hCu2ib2gzdZDZllUxvX/GGQXPqYPvB30IONCx818VQCdfeem47F7a8W796aOLCQ==";
+        };
+        _lQZXQdeN = {
+            "id" = "lQZXQdeN";
+            "file" = "create-enchantment-industry-2.5.0-p.4.jar";
+            "hash" = "sha512-zlvvs3pieXEF49uJofoCKKovRLFWDhfnplIJnuYZtBQiHFrh4qoVn0mdahadZEf4hUAzO+8Kds+bon3KzwIJmg==";
+        };
+        _dRigQPGk = {
+            "id" = "dRigQPGk";
+            "file" = "create-enchantment-industry-2.5.0.jar";
+            "hash" = "sha512-Gbq1JhfkHi40Fpcpw0mFRPGRIFD86lBeP82n3B0HAOPX7G/QLoHw94500hAwPBPU6q/gZV3m8Gy8HcuOTrK+1w==";
+        };
+        _rUmv4Tkd = {
+            "id" = "rUmv4Tkd";
+            "file" = "create-enchantment-industry-2.5.0b.jar";
+            "hash" = "sha512-ZD81CAFSZeqEyHMRmq0VGU9tbHBFWWvGmGS0JYmxzgGGsZG2EhPOIIQ05hgsk/lNhgFJgJBBc6w/PvLqWtq+/Q==";
+        };
+        _2ISJXy8z = {
+            "id" = "2ISJXy8z";
+            "file" = "create-enchantment-industry-2.5.0c.jar";
+            "hash" = "sha512-hzy0bAr4T/XGYmcAqAH+22Bbn7FmBR+2/mw30kulNmDQNIdbs9ZTvd9mUDVO7457ZHV/rGbTmHEtua9+WUasfw==";
+        };
+        _wYGhrJPO = {
+            "id" = "wYGhrJPO";
+            "file" = "create-enchantment-industry-2.5.1b.jar";
+            "hash" = "sha512-AQQxSXzieYmtor53O7usHciA2wsG+CyJD+zyts4pHMb+amWweQ55cED003tX2uvuUKLErn3D4qqkY6xR1CLM6Q==";
+        };
+        _LagyPE77 = {
+            "id" = "LagyPE77";
+            "file" = "create-enchantment-industry-2.5.1.jar";
+            "hash" = "sha512-tMfKFIPGu5d06zeeogZNgQtZ2ZoxCYSVtiT6XMnIK2HLukez6tAKfEiPqJQH64+kh0sS17pX3vKKUlgSwgNqVg==";
+        };
+        _elPMyGv3 = {
+            "id" = "elPMyGv3";
+            "file" = "create-enchantment-industry-2.5.1b.jar";
+            "hash" = "sha512-EClgZQzhluGZ3BZ+fOqgNTtccKHvBQVsTNw4mWppaxoad5Wupc+kMjSUKTaw3MXVm1vRKqWOnIt+oNKWIoETHA==";
+        };
+        _8ZBRQkzN = {
+            "id" = "8ZBRQkzN";
+            "file" = "create-enchantment-industry-fabric-1.20.1-2.5.1-c.jar";
+            "hash" = "sha512-SE/UH7k4J1Fhnm+gmkfJu/rrrEjewHTqGjgLdxt+Vrw7gZ506Z8jSmhxL52auQEFoLrdkCWzhVQBZs0C0WMaIw==";
+        };
+        _FZcZjotp = {
+            "id" = "FZcZjotp";
+            "file" = "create-enchantment-industry-2.5.1c.jar";
+            "hash" = "sha512-JL/gIOHbZN6Y9c5ZUVuSOSdQYGMhnvoqlmCv4lT4xFA6npqUppN4OvNp89kxAOwOYGuaps8Tvpo2WUiPHhIxlw==";
+        };
+        _oB8QRJBY = {
+            "id" = "oB8QRJBY";
+            "file" = "create-enchantment-industry-fabric-1.20.1-2.5.1-d.jar";
+            "hash" = "sha512-UUUMzkXfaoeyo3C0P7RNin8NsImJIZ1XE47nWdDeXY54ZA/JWbtA9FAyv5yWL/Igz8gwQoaEr1UUoqKTNJJ96Q==";
+        };
+        _vsQkQNWo = {
+            "id" = "vsQkQNWo";
+            "file" = "create-enchantment-industry-fabric-1.20.1-2.5.1-e.jar";
+            "hash" = "sha512-oWkN0tDa0of37+zlMKCTvxkdFHtJl7x7Mxb5aCIgm+jNY9w0EnV6bb2ecND3y8LQfV6iqxtRN7QotTNfun8pSw==";
+        };
+        _15vwpsoR = {
+            "id" = "15vwpsoR";
+            "file" = "create-enchantment-industry-fabric-1.20.1-2.5.1-f.jar";
+            "hash" = "sha512-J7vfT5NYEiC69f6xX7ANBVLIf+EgPO+mrouedJFO6G6OizqPhayKEvEGp1YlQT3kFwT0QtNIEbT1kUwXAasrSg==";
+        };
+        _LOammszO = {
+            "id" = "LOammszO";
+            "file" = "create-enchantment-industry-2.5.2.jar";
+            "hash" = "sha512-5cBJvwb+Ix1E83okJ6laMn1jJ7HSVH0/CGoiNCoDo8YYyd+cJtP9BL5bApsgdk7uM0Jat71SPouWplx9dpMHBQ==";
+        };
+        _COdTkg6I = {
+            "id" = "COdTkg6I";
+            "file" = "create-enchantment-industry-fabric-1.20.1-2.5.2.jar";
+            "hash" = "sha512-djEiyVqvLjHnx/cqHOLZPxOzxfexPB4HOkRHAWzNAYQxXDHd5WAAQNaed7P5rDPsQ7a06mds71iFlpKdfUGZUA==";
+        };
+        _lELIyDyi = {
+            "id" = "lELIyDyi";
+            "file" = "create-enchantment-industry-2.5.2.jar";
+            "hash" = "sha512-atzG6LB/EGFPfNkWNSO3GGmCtfDemN00MexYyPa8dY/jYku1rB6sdHrJwIP5GmQHVF4s0wGFDbu+ywQ1Y5Pmbg==";
+        };
+        _dlQLhrs7 = {
+            "id" = "dlQLhrs7";
+            "file" = "create-enchantment-industry-fly-26.1.2-2.5.1.jar";
+            "hash" = "sha512-WwfkD8LuNvIgvvjUrvJPO5CL0bW4mbFfKkw72e+dKcV/ED6E8eJrFWp+2qOC1b2x3wZiM7h1xgpcwkbB4nCjzA==";
+        };
+        _1T1Bbfgu = {
+            "id" = "1T1Bbfgu";
+            "file" = "create-enchantment-industry-fly-1.21.11-2.5.1.jar";
+            "hash" = "sha512-ULTERX3suey5iClqRaRk7Vl2qc97aVwHmP+LEOvBj/aoMxNfPq7iVuuG2j+pLVy7L0yadX8yI92/EidM9Wm9FA==";
+        };
+        _LrT8siNu = {
+            "id" = "LrT8siNu";
+            "file" = "create-enchantment-industry-fabric-1.20.1-2.5.2-b.jar";
+            "hash" = "sha512-PwXXeODR/kFi6gv4BwP8dsDcF9TmOGNyGABekJepx7k0JuzTzlcEeLCowBONdzMkr3r9NITFiEDOpFvTnuymuw==";
+        };
+        _wXuP67lg = {
+            "id" = "wXuP67lg";
+            "file" = "create-enchantment-industry-fabric-1.20.1-2.5.2-c.jar";
+            "hash" = "sha512-z1qED27sQpD3vzr2NfE+Vlezbsesg8i3UR1os0DKQeLbdgV9I42KqIQN1ScjvNkP3EusK5k17MfUedeDquGGrQ==";
+        };
+        _jJ3Necmv = {
+            "id" = "jJ3Necmv";
+            "file" = "create-enchantment-industry-fabric-1.20.1-2.5.2-e.jar";
+            "hash" = "sha512-BYhXu6AX7AeMAfBDvLcIpXS6EJuPhCTaDqMv0M5hTabe1ACOKd1J+iLSn4onkIcG5LEnmfT8dW9c5AMhkDRWeQ==";
+        };
+        _Wm28d9oL = {
+            "id" = "Wm28d9oL";
+            "file" = "create-enchantment-industry-fly-1.21.11-2.5.2.jar";
+            "hash" = "sha512-qepBOAK5xb/oWHM0oxX3yPvEX+9WY8XskZl3iN+eiuNzxuy1u3C3ilw4raaitH2QKgSbLD5/X3tZHmYE/zYD8g==";
+        };
+        _KKeoTDRM = {
+            "id" = "KKeoTDRM";
+            "file" = "create-enchantment-industry-fly-26.1.2-2.5.2.jar";
+            "hash" = "sha512-BFv0dmut+2gu8vEt1lSwFwPQtu3lSyG+RRcwsqtOOS4endVC2buXMy07YOjpDzcz4FnrWAo10rkKfc3DD5GC8Q==";
+        };
+        _giwgY5b9 = {
+            "id" = "giwgY5b9";
+            "file" = "create-enchantment-industry-fly-26.1.2-2.5.2-b.jar";
+            "hash" = "sha512-2Ov+ZOxyi2f/bwCapDSM/JhP9hvJmJqAxMr1mcAja+LI3u6oGRlDULfWc42ynv1UC0210MxrHqXEs7yRwROFPQ==";
+        };
+        _yecWg7I6 = {
+            "id" = "yecWg7I6";
+            "file" = "create-enchantment-industry-fly-1.21.11-2.5.2-b.jar";
+            "hash" = "sha512-0zv2gpxJ+K88HZjDG2oo9F52dSgm0P2qc4MTD9YMWOYgKxwhz10zb6ta7w/cMnzLxlQi5LpiNUFYngAjFCob1w==";
+        };
+        _na3558i9 = {
+            "id" = "na3558i9";
+            "file" = "create-enchantment-industry-fly-26.1.2-2.5.2-c.jar";
+            "hash" = "sha512-P0daRLuZBxSQyYPH0pDoGwl3RpB/ibxU1jARqZTawH1lt1zNR0q9Lele7YB12/tSZW18T0eyIXjd4YiK9WH8ew==";
+        };
+        _QXhX9xZw = {
+            "id" = "QXhX9xZw";
+            "file" = "create-enchantment-industry-fly-1.21.11-2.5.2-c.jar";
+            "hash" = "sha512-6/2lkDx/SPSPpvYXx5E8sYfRRAxgEIb1V4BKdsHLednKQtAL+kGaz2aMxO/7ZQkOS8WRC4vsZWqJW9ABuwD0Nw==";
+        };
+        _Y6ZGWuZr = {
+            "id" = "Y6ZGWuZr";
+            "file" = "create-enchantment-industry-2.5.3.jar";
+            "hash" = "sha512-akKUWzKmIx5qYjddROXP3KIUVjATYsEco8xleE3SsjisRoa1kZLF2h8C58FrTG5cBPRsRctFBYcSx61XBsOFTQ==";
+        };
+        _cDJ7EbT5 = {
+            "id" = "cDJ7EbT5";
+            "file" = "create-enchantment-industry-fabric-1.20.1-2.5.2-f.jar";
+            "hash" = "sha512-D/FmIGPx+JcJ6pOcJkf92NavbVpQ1HvMxBiY9SBqmQw4h+KvVcYsbDMtRQkz6Tb9BG3ln1aK9Sl6rO8XfVckeg==";
+        };
+        _Or9rfT7c = {
+            "id" = "Or9rfT7c";
+            "file" = "create-enchantment-industry-fabric-1.20.1-2.5.2-g.jar";
+            "hash" = "sha512-od0FIBpxJERboYqFrHIXbeiFyJp1InzxcrQR/IIddwXeB201wSv4+9SMqCqnfP84T0+BWJiNQ6HeFJWyK9xmCw==";
+        };
+        _ASyjJTVL = {
+            "id" = "ASyjJTVL";
+            "file" = "create-enchantment-industry-2.5.3b.jar";
+            "hash" = "sha512-eQuAkRYQJ5r2oYnRfkn31MMNRkYRf0II8jCxWlhDKHN2fmma+wKk5s3t+xBCUuPHKfcZH/fydI/eQF0PdlN0PA==";
+        };
     in {
         "zewHKrfA" = _zewHKrfA;
         "WKK6qhS3" = _WKK6qhS3;
@@ -788,11 +973,51 @@ let
         "qUpvzZ83" = _qUpvzZ83;
         "8XedJhwv" = _8XedJhwv;
         "FE6xtrC7" = _FE6xtrC7;
+        "caLmFTZ1" = _caLmFTZ1;
+        "rYvEK00i" = _rYvEK00i;
+        "ujvmFZ6V" = _ujvmFZ6V;
+        "QBu15h30" = _QBu15h30;
+        "FBBRa9Pr" = _FBBRa9Pr;
+        "1EkmOz33" = _1EkmOz33;
+        "ZlxMBwU0" = _ZlxMBwU0;
+        "lQZXQdeN" = _lQZXQdeN;
+        "dRigQPGk" = _dRigQPGk;
+        "rUmv4Tkd" = _rUmv4Tkd;
+        "2ISJXy8z" = _2ISJXy8z;
+        "wYGhrJPO" = _wYGhrJPO;
+        "LagyPE77" = _LagyPE77;
+        "elPMyGv3" = _elPMyGv3;
+        "8ZBRQkzN" = _8ZBRQkzN;
+        "FZcZjotp" = _FZcZjotp;
+        "oB8QRJBY" = _oB8QRJBY;
+        "vsQkQNWo" = _vsQkQNWo;
+        "15vwpsoR" = _15vwpsoR;
+        "LOammszO" = _LOammszO;
+        "COdTkg6I" = _COdTkg6I;
+        "lELIyDyi" = _lELIyDyi;
+        "dlQLhrs7" = _dlQLhrs7;
+        "1T1Bbfgu" = _1T1Bbfgu;
+        "LrT8siNu" = _LrT8siNu;
+        "wXuP67lg" = _wXuP67lg;
+        "jJ3Necmv" = _jJ3Necmv;
+        "Wm28d9oL" = _Wm28d9oL;
+        "KKeoTDRM" = _KKeoTDRM;
+        "giwgY5b9" = _giwgY5b9;
+        "yecWg7I6" = _yecWg7I6;
+        "na3558i9" = _na3558i9;
+        "QXhX9xZw" = _QXhX9xZw;
+        "Y6ZGWuZr" = _Y6ZGWuZr;
+        "cDJ7EbT5" = _cDJ7EbT5;
+        "Or9rfT7c" = _Or9rfT7c;
+        "ASyjJTVL" = _ASyjJTVL;
         "forge-1.18.2" = _tEKYosCi;
         "forge-1.19.2" = _KA5Gf4rg;
-        "forge-1.20.1" = _fBncZZdn;
-        "neoforge-1.20.1" = _fBncZZdn;
-        "neoforge-1.21.1" = _FE6xtrC7;
+        "forge-1.20.1" = _lELIyDyi;
+        "neoforge-1.20.1" = _rYvEK00i;
+        "neoforge-1.21.1" = _ASyjJTVL;
+        "fabric-1.20.1" = _Or9rfT7c;
+        "fabric-1.21.11" = _QXhX9xZw;
+        "fabric-26.1.2" = _na3558i9;
         "pkg-1.1.5" = _zewHKrfA;
         "pkg-1.1.6" = _SqkvvhyC;
         "pkg-1.1.7" = _BVtCcRQK;
@@ -879,8 +1104,31 @@ let
         "pkg-1.4.0" = _fBncZZdn;
         "pkg-2.4.2" = _qUpvzZ83;
         "pkg-2.5.0-preview-alpha1" = _8XedJhwv;
-        "pkg-2.5.0" = _FE6xtrC7;
-        "default" = _FE6xtrC7;
+        "pkg-2.5.0" = _dRigQPGk;
+        "pkg-1.4.1" = _caLmFTZ1;
+        "pkg-2.5.0-pre.1" = _ujvmFZ6V;
+        "pkg-2.5.0-p.2" = _QBu15h30;
+        "pkg-2.5.1" = _1T1Bbfgu;
+        "pkg-2.5.1-p.1" = _1EkmOz33;
+        "pkg-2.5.0-p.3" = _ZlxMBwU0;
+        "pkg-2.5.0-p.4" = _lQZXQdeN;
+        "pkg-2.5.0b" = _rUmv4Tkd;
+        "pkg-2.5.0c" = _2ISJXy8z;
+        "pkg-2.5.1b" = _elPMyGv3;
+        "pkg-2.5.1-c" = _8ZBRQkzN;
+        "pkg-2.5.1c" = _FZcZjotp;
+        "pkg-2.5.1-d" = _oB8QRJBY;
+        "pkg-2.5.1-e" = _vsQkQNWo;
+        "pkg-2.5.1-f" = _15vwpsoR;
+        "pkg-2.5.2" = _KKeoTDRM;
+        "pkg-2.5.2-b" = _yecWg7I6;
+        "pkg-2.5.2-c" = _QXhX9xZw;
+        "pkg-2.5.2-e" = _jJ3Necmv;
+        "pkg-2.5.3" = _Y6ZGWuZr;
+        "pkg-2.5.2-f" = _cDJ7EbT5;
+        "pkg-2.5.2-g" = _Or9rfT7c;
+        "pkg-2.5.3b" = _ASyjJTVL;
+        "default" = _ASyjJTVL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-enchantment-industry";

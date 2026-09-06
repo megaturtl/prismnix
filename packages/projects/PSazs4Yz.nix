@@ -31,6 +31,26 @@ let
             "file" = "Antimations-1.8.9-2.2.1.jar";
             "hash" = "sha512-NW2H9KQ+vyrT0Y+FiI43IJzFORF6YskYq9Q1g8ZG2q3PLba/f9XG/KPlMymdy50aE4Xy5s14M75V3vqu5fbTxg==";
         };
+        _rm85wdJQ = {
+            "id" = "rm85wdJQ";
+            "file" = "Antimations-3.0.0.jar";
+            "hash" = "sha512-dGtWIk73alV3cbn6UQxmEPvEexvUIfOJ4683Q74dWO2RhjWkIYtvCFTZww7ANTD6N1qXACmwAjpNaBRnrAFcUw==";
+        };
+        _fPrXYJNh = {
+            "id" = "fPrXYJNh";
+            "file" = "Antimations-3.0.1.jar";
+            "hash" = "sha512-PICU/8bpA+8EZRwW5YC8ocEC0ArpDPBkfux6cGZBwgU5HFsN8wRvvcwKlLLRPpRT1eZJdqoSjuzG1/EnZye3LA==";
+        };
+        _B8pp1Ygy = {
+            "id" = "B8pp1Ygy";
+            "file" = "Antimations-4.0.0-beta.1+1.8.9-forge.jar";
+            "hash" = "sha512-YTrhZekNVWe9YHOIGKRAMLcN7+BP3nrj+MAP3CK/QKFMDdrGcFGGwxb2T8TJ01BV9URDwQ4WX9eZyRY4dYaOUg==";
+        };
+        _yXQSthhO = {
+            "id" = "yXQSthhO";
+            "file" = "Antimations-4.0.0-beta.1+1.8.9-ornithe.jar";
+            "hash" = "sha512-dxBytwYtU6eytSiPudnd5suX1WLD3Wn+Pc/AezPTEE6saVUssSLMRK1vyKuKq7Ff+ymE3w4UMPyVgtpCICNA2A==";
+        };
     in {
         "nasHT9gB" = _nasHT9gB;
         "qTCfmG4Q" = _qTCfmG4Q;
@@ -38,14 +58,23 @@ let
         "bH9Tejfd" = _bH9Tejfd;
         "i6gRKWby" = _i6gRKWby;
         "E2XLOTvU" = _E2XLOTvU;
-        "forge-1.8.9" = _E2XLOTvU;
+        "rm85wdJQ" = _rm85wdJQ;
+        "fPrXYJNh" = _fPrXYJNh;
+        "B8pp1Ygy" = _B8pp1Ygy;
+        "yXQSthhO" = _yXQSthhO;
+        "forge-1.8.9" = _B8pp1Ygy;
+        "legacy-fabric-1.8.9" = _yXQSthhO;
+        "ornithe-1.8.9" = _yXQSthhO;
         "pkg-2.0.0" = _nasHT9gB;
         "pkg-2.0.1" = _qTCfmG4Q;
         "pkg-2.0.2" = _bHPZyv6J;
         "pkg-2.1.0" = _bH9Tejfd;
         "pkg-2.2.0" = _i6gRKWby;
         "pkg-2.2.1" = _E2XLOTvU;
-        "default" = _E2XLOTvU;
+        "pkg-3.0.0" = _rm85wdJQ;
+        "pkg-3.0.1" = _fPrXYJNh;
+        "pkg-4.0.0-beta.1" = _yXQSthhO;
+        "default" = _yXQSthhO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "antimations";
@@ -53,12 +82,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "LicenseRef-All-Rights-Reserved";
-                shortName = "LicenseRef-All-Rights-Reserved";
+                fullName = "GNU Lesser General Public License v3.0 only";
+                shortName = "LGPL-3.0-only";
                 url = null;
             };
         };

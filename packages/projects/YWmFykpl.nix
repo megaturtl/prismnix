@@ -51,6 +51,21 @@ let
             "file" = "better_health_indicator-forge-1.21.1-1.0.0+mc1.21.1.jar";
             "hash" = "sha512-zZyeXciY3BQXxl2nT/Ty71Nj8qzHETp9wPvVU1cCBJnzcrtjg5H4BUU45tE58rvb1ooEDXqVerD82jj/chuCXA==";
         };
+        _qu5A7oWd = {
+            "id" = "qu5A7oWd";
+            "file" = "better_health_indicator-fabric-1.20.1-1.0.0+mc1.20.1.jar";
+            "hash" = "sha512-av3OuHqegRRqkMAsgQLwgz2oGb0pWl2a2oqyt87ijOKHPww27F1xFs8DzmV6gZJHkSKxB8ZzwyrnQSg+uRDU/Q==";
+        };
+        _2avNtfkv = {
+            "id" = "2avNtfkv";
+            "file" = "better_health_indicator-forge-1.20.1-1.0.0+mc1.20.1.jar";
+            "hash" = "sha512-odQNzF4fwtnM28dVOQYHXJ/TCplp9buGnjHW1DpkQ3jJ4w/v3H5iZ/SEnIN9O4f2zk+tX1MKDQJPjrOAtQVv6Q==";
+        };
+        _r5ZzCx1c = {
+            "id" = "r5ZzCx1c";
+            "file" = "better_health_indicator-neoforge-1.20.1-1.0.0+mc1.20.1.jar";
+            "hash" = "sha512-OdYoMNEa3l1FyN8xjY2J+FN/w0IzTgUcpWuW16+pvL5yBk0FsPklfEB04V0nQWTlfQv7pYzX1WLsLAdeFtLYSA==";
+        };
     in {
         "lyH9irDo" = _lyH9irDo;
         "XWVkCoPi" = _XWVkCoPi;
@@ -62,20 +77,27 @@ let
         "u3qvCuIK" = _u3qvCuIK;
         "mX1G9NIc" = _mX1G9NIc;
         "O2PE9y8w" = _O2PE9y8w;
+        "qu5A7oWd" = _qu5A7oWd;
+        "2avNtfkv" = _2avNtfkv;
+        "r5ZzCx1c" = _r5ZzCx1c;
         "fabric-26.1" = _lyH9irDo;
         "fabric-26.1.1" = _lyH9irDo;
         "fabric-26.1.2" = _lyH9irDo;
         "fabric-26.2" = _XWVkCoPi;
         "fabric-1.21.11" = _NVo13gOi;
-        "fabric-1.20.4" = _sRm56j9o;
-        "fabric-1.20.5" = _sRm56j9o;
-        "fabric-1.20.6" = _sRm56j9o;
+        "fabric-1.20.4" = _qu5A7oWd;
+        "fabric-1.20.5" = _qu5A7oWd;
+        "fabric-1.20.6" = _qu5A7oWd;
         "fabric-1.16.5" = _yg2CWztw;
         "fabric-1.14.4" = _VldYZunu;
+        "fabric-1.20.1" = _qu5A7oWd;
+        "fabric-1.20.2" = _qu5A7oWd;
+        "fabric-1.20.3" = _qu5A7oWd;
         "neoforge-1.21.1" = _2iA1DDxa;
         "neoforge-1.21.11" = _u3qvCuIK;
         "neoforge-26.1.2" = _mX1G9NIc;
         "forge-1.21.1" = _O2PE9y8w;
+        "forge-1.20.1" = _r5ZzCx1c;
         "pkg-1.0.0+mc26.1.x" = _lyH9irDo;
         "pkg-1.0.0+mc26.2" = _XWVkCoPi;
         "pkg-1.0.0+mc1.21.11" = _u3qvCuIK;
@@ -84,7 +106,8 @@ let
         "pkg-1.0.0+mc1.14.4" = _VldYZunu;
         "pkg-1.0.0+mc1.21.1" = _O2PE9y8w;
         "pkg-1.0.0+mc26.1.2" = _mX1G9NIc;
-        "default" = _O2PE9y8w;
+        "pkg-1.0.0+mc1.20.1" = _r5ZzCx1c;
+        "default" = _r5ZzCx1c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-health-indicator";

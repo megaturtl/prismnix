@@ -14,6 +14,10 @@ let
         "minecraft-1.21.9" = _m2AHcTrv;
         "minecraft-1.21.10" = _m2AHcTrv;
         "minecraft-1.21.11" = _m2AHcTrv;
+        "minecraft-26.1" = _m2AHcTrv;
+        "minecraft-26.1.1" = _m2AHcTrv;
+        "minecraft-26.1.2" = _m2AHcTrv;
+        "minecraft-26.2" = _m2AHcTrv;
         "pkg-1.0" = _m2AHcTrv;
         "default" = _m2AHcTrv;
     });

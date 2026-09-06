@@ -1,0 +1,94 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _NXXwOrKG = {
+            "id" = "NXXwOrKG";
+            "file" = "TangLanFansIdea-1.0.0-26.2-neoforge-26.2.0.7-beta[玻璃钻-订书机].jar";
+            "hash" = "sha512-F6uhr0jDI/AMqkaX3GdaWgZiIIMUFuGfN5QuQaNtDUDSB+Vra7s/ZichlAQ4p4632WEPnqSCWTmXpMkyx6fvFg==";
+        };
+        _LUswLJ0a = {
+            "id" = "LUswLJ0a";
+            "file" = "tanglanfansidea-1.1.0.jar";
+            "hash" = "sha512-FNfgCz+5hbUYebVqk+raOKDh9NXhPfufbMqRGAg2fWdYRtOCV7neJKSEzml8//n0Aby4Q313UUf/mJty9FD6eQ==";
+        };
+        _aksplXl9 = {
+            "id" = "aksplXl9";
+            "file" = "TangLanFansIdea-1.2.0-26.2-neoforge-26.2.0.7-beta[椅子腿-胶水-特殊攻击-苦影怕].jar";
+            "hash" = "sha512-F1eO2pcTdFTzTprIFzogJeRb28XYFK6C3Ol53WM/X76y02N1P4jv1ywUof/55lznDmfNNzGBoBQlVPlSPF72xw==";
+        };
+        _nD7wamQo = {
+            "id" = "nD7wamQo";
+            "file" = "TangLanFansIdea-1.3.0-26.2-neoforge-26.2.0.7-beta[乐高-椅子腿2-粘鼠板-末影TNT-土豆服务器].jar.jar";
+            "hash" = "sha512-PZ5qmnNaHiQ6+FnhInwA/T+3FsR8SmsjzfO01YuDM9WfzIfLMoWgGNjhGVzQ9H6p9TXrdDwlHYV60MBgy/BusA==";
+        };
+        _K8E4decI = {
+            "id" = "K8E4decI";
+            "file" = "TangLanFansIdea-1.4.0-26.2-neoforge-26.2.0.7-beta[大蒜-手机-攻击打到自己-水陷阱-哭泣的TNT].jar";
+            "hash" = "sha512-Zm80iWi2uVoU7+G6UQd4chrYXovzkSM78jphF+ujhVh31cGm3GjV6JHPCJsEihRe7Xui+0lxYHNdMsvpDwxqQQ==";
+        };
+        _7vCy1Lga = {
+            "id" = "7vCy1Lga";
+            "file" = "TangLanFansIdea-1.5.0-26.2-neoforge-26.2.0.35-beta[椅子腿3-吃饭喝水-TNT蛋糕-碎屑采集-法棍-高流速箭].jar";
+            "hash" = "sha512-cyt52MFzQKUCvV85E4PfV78lAa98nzNIoNuiMsXyAmoi4IUW8qNeWZj1tHQvL2juZjQXEqMaq8+ACkm50ErY2g==";
+        };
+        _Ty2t47il = {
+            "id" = "Ty2t47il";
+            "file" = "TangLanFansIdea-1.6.5-26.2-neoforge-26.2.0.35-beta[铁山靠-翻下床-羽毛球拍-末影船-风扇].jar";
+            "hash" = "sha512-L/axvaJM34ryKGG/5dJWecWmL0JBeXGYNRqiiVFhRUNBN3WONFev/uEHWpP3VVU64QFkg6H2MclyjxKIfE7ABQ==";
+        };
+        _judhX9J3 = {
+            "id" = "judhX9J3";
+            "file" = "TangLanFansIdea-1.7.5-26.2-neoforge-26.2.0.35-beta[UNO-ping果-飞踢-打气筒-指令TNT].jar";
+            "hash" = "sha512-Oe9miS7mSCyK4xBM1q2Erwl8SvwDvaJwpeEJBq2uH5sFe1u3LStQPo0fdvr3bRkeIlYqn98eah0RFRSRsfi+JA==";
+        };
+        _NxhfCppV = {
+            "id" = "NxhfCppV";
+            "file" = "TangLanFansIdea-1.8.2-26.2-neoforge-26.2.0.35-beta[鞭炮-引线-泡泡].jar";
+            "hash" = "sha512-6jFly80kRVKFUXH9aUx4JVpUOkKKNY8mUZ+ox+7eaObZv3xxn0v31iDByO8BLWnCFnZ8w+F6kb1QzzS2zZFmiA==";
+        };
+        _By0T6eIo = {
+            "id" = "By0T6eIo";
+            "file" = "TangLanFansIdea-1.9.3-26.2-neoforge-26.2.0.57[装配船-一分为二船-易翻船-颠倒船-金属船].jar";
+            "hash" = "sha512-kJI/bWrLLAvAJKrbQrhbpiS2c9/2x9AouMU9NeEEHlFzZWXqei1LGxUSvQvyG4pDMGFjf4GIojn2MfhaWfIQnw==";
+        };
+    in {
+        "NXXwOrKG" = _NXXwOrKG;
+        "LUswLJ0a" = _LUswLJ0a;
+        "aksplXl9" = _aksplXl9;
+        "nD7wamQo" = _nD7wamQo;
+        "K8E4decI" = _K8E4decI;
+        "7vCy1Lga" = _7vCy1Lga;
+        "Ty2t47il" = _Ty2t47il;
+        "judhX9J3" = _judhX9J3;
+        "NxhfCppV" = _NxhfCppV;
+        "By0T6eIo" = _By0T6eIo;
+        "neoforge-26.2" = _By0T6eIo;
+        "pkg-1.0.0" = _NXXwOrKG;
+        "pkg-1.1.0" = _LUswLJ0a;
+        "pkg-1.2.0" = _aksplXl9;
+        "pkg-1.3.0" = _nD7wamQo;
+        "pkg-1.4.0" = _K8E4decI;
+        "pkg-1.5.0" = _7vCy1Lga;
+        "pkg-1.6.5" = _Ty2t47il;
+        "pkg-1.7.5" = _judhX9J3;
+        "pkg-1.8.2" = _NxhfCppV;
+        "pkg-1.9.3" = _By0T6eIo;
+        "default" = _By0T6eIo;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "tanglanfansidea";
+        id = "rrVZM24u";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "LicenseRef-All-Rights-Reserved";
+                shortName = "LicenseRef-All-Rights-Reserved";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

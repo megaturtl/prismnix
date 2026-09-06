@@ -26,16 +26,28 @@ let
             "file" = "create-confectionery1.21.1_v1.1.2.jar";
             "hash" = "sha512-Lqf54BFMWiLwwXlbGm/dhB5LHX+qr1eV+SOz/PfS3gwIQf36N63nEaaOHNfO2xV20pETvxSwEpKeOspvM2v+yQ==";
         };
+        _ndnETBEN = {
+            "id" = "ndnETBEN";
+            "file" = "create-confectionery1.21.1_v1.1.3b.jar";
+            "hash" = "sha512-7imeCz/BLtxQb3OFpE7vIH/NwwumoNMCSGFO7TSG94xmHZoXbLcV66BErBpCVeOKpSK91LP8F3gEliUQjhFOgg==";
+        };
+        _3AaYpdLZ = {
+            "id" = "3AaYpdLZ";
+            "file" = "create-confectionery1.20.1_v1.1.3.jar";
+            "hash" = "sha512-wWHeSPqpRy2K4N1tJB75PAhU/15O9pZKnIeQ3JQ3WXzonh5aSpBZTb2pdPtJ0qg3IMx6B0xZKajfAFfkML5ZbA==";
+        };
     in {
         "rMCmTwR8" = _rMCmTwR8;
         "rLTtWIfx" = _rLTtWIfx;
         "uZ6EYiBk" = _uZ6EYiBk;
         "Ah20eoBQ" = _Ah20eoBQ;
         "m9KI739R" = _m9KI739R;
-        "forge-1.20.1" = _rMCmTwR8;
+        "ndnETBEN" = _ndnETBEN;
+        "3AaYpdLZ" = _3AaYpdLZ;
+        "forge-1.20.1" = _3AaYpdLZ;
         "forge-1.19.2" = _rLTtWIfx;
         "forge-1.18.2" = _uZ6EYiBk;
-        "neoforge-1.21.1" = _m9KI739R;
+        "neoforge-1.21.1" = _ndnETBEN;
         "neoforge-1.21.2" = _m9KI739R;
         "neoforge-1.21.3" = _m9KI739R;
         "neoforge-1.21.4" = _m9KI739R;
@@ -43,7 +55,9 @@ let
         "pkg-1.1.0" = _Ah20eoBQ;
         "pkg-1.0.9" = _uZ6EYiBk;
         "pkg-1.1.2" = _m9KI739R;
-        "default" = _m9KI739R;
+        "pkg-1.1.3.b" = _ndnETBEN;
+        "pkg-1.1.3" = _3AaYpdLZ;
+        "default" = _3AaYpdLZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-confectionery";

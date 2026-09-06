@@ -31,6 +31,11 @@ let
             "file" = "Obvious_Ores_1.20.2_v4.zip";
             "hash" = "sha512-AyNDl1MElYpF+j2Hay3BD/6ClixPF9G165r9Nj0Vx+j9ADzB0AmPmS1tLfyJjgiM8yP1o2BDsJukN++LObvVeA==";
         };
+        _KpRYwAF2 = {
+            "id" = "KpRYwAF2";
+            "file" = "Obvious_Ores_26.x_v4.zip";
+            "hash" = "sha512-CDDqzR+tsJHm/31YNr9uKXtWdkJOkJDpySec+PT9Gph7SnliPEG8ksUuHb7Ix0h0Apd59YI2dSjAK0Qoi2IrYw==";
+        };
     in {
         "Rtd2BaGN" = _Rtd2BaGN;
         "rNAcnazI" = _rNAcnazI;
@@ -38,20 +43,33 @@ let
         "gaRPVzvg" = _gaRPVzvg;
         "KCOkuwg1" = _KCOkuwg1;
         "zNk7LeN7" = _zNk7LeN7;
+        "KpRYwAF2" = _KpRYwAF2;
         "minecraft-1.20" = _IvmnDdKt;
         "minecraft-1.20.1" = _IvmnDdKt;
         "minecraft-1.20.3" = _gaRPVzvg;
         "minecraft-1.20.4" = _gaRPVzvg;
         "minecraft-1.20.2" = _KCOkuwg1;
-        "minecraft-1.21" = _zNk7LeN7;
-        "minecraft-1.21.1" = _zNk7LeN7;
-        "minecraft-1.21.2" = _zNk7LeN7;
-        "minecraft-1.21.3" = _zNk7LeN7;
-        "minecraft-1.21.4" = _zNk7LeN7;
+        "minecraft-1.21" = _KpRYwAF2;
+        "minecraft-1.21.1" = _KpRYwAF2;
+        "minecraft-1.21.2" = _KpRYwAF2;
+        "minecraft-1.21.3" = _KpRYwAF2;
+        "minecraft-1.21.4" = _KpRYwAF2;
+        "minecraft-1.21.5" = _KpRYwAF2;
+        "minecraft-1.21.6" = _KpRYwAF2;
+        "minecraft-1.21.7" = _KpRYwAF2;
+        "minecraft-1.21.8" = _KpRYwAF2;
+        "minecraft-1.21.9" = _KpRYwAF2;
+        "minecraft-1.21.10" = _KpRYwAF2;
+        "minecraft-1.21.11" = _KpRYwAF2;
+        "minecraft-26.1" = _KpRYwAF2;
+        "minecraft-26.1.1" = _KpRYwAF2;
+        "minecraft-26.1.2" = _KpRYwAF2;
+        "minecraft-26.2" = _KpRYwAF2;
         "pkg-1" = _Rtd2BaGN;
         "pkg-2" = _rNAcnazI;
         "pkg-3" = _zNk7LeN7;
-        "default" = _zNk7LeN7;
+        "pkg-4" = _KpRYwAF2;
+        "default" = _KpRYwAF2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "obvious-ores";

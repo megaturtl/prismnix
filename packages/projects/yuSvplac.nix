@@ -256,6 +256,16 @@ let
             "file" = "VRJesterAPI-fabric-2.0.0-dev-shadow.jar";
             "hash" = "sha512-mUg7IYWwmWcIUwTL7MdBSRLy8NZNMitqulQvW9mwD9mf0C582Dbr4NcqO1yO3tjvRTimShdqyUNKp+yPIyOr2A==";
         };
+        _wkd1cl6Y = {
+            "id" = "wkd1cl6Y";
+            "file" = "VRJesterAPI-1.21.1-2.0.1-neoforge.jar";
+            "hash" = "sha512-DJ/oU2SoMusY8Z1hU4P30+B0+E9eY6CBZNzEJk3mAKO7ZYQ9p+VVPAzV5fOJ4n9kWpNU6AVxxgESaGifMrTG6g==";
+        };
+        _EWrSpczo = {
+            "id" = "EWrSpczo";
+            "file" = "VRJesterAPI-1.21.1-2.0.1-fabric.jar";
+            "hash" = "sha512-3hdwqd2Trokk+mAFBtzR4sgHNIysCrD0An4qwcSkzcbs+IC1f9UfSdBWt/wpxyrXm2CK5Cg1R0ULkF4bVAi2XQ==";
+        };
     in {
         "bSRdXafS" = _bSRdXafS;
         "is3ep1Cb" = _is3ep1Cb;
@@ -308,6 +318,8 @@ let
         "7KOSlc6H" = _7KOSlc6H;
         "FZcMiCFl" = _FZcMiCFl;
         "cgo1aczU" = _cgo1aczU;
+        "wkd1cl6Y" = _wkd1cl6Y;
+        "EWrSpczo" = _EWrSpczo;
         "forge-1.16.5" = _7KOSlc6H;
         "forge-1.18.2" = _UQwjiIo6;
         "forge-1.19.2" = _ZznkHP5E;
@@ -327,8 +339,8 @@ let
         "fabric-1.19.4" = _VOaZ2tFr;
         "fabric-1.20.1" = _pfys8pTF;
         "fabric-1.20.2" = _hTjNqyqw;
-        "fabric-1.21.1" = _cgo1aczU;
-        "neoforge-1.21.1" = _FZcMiCFl;
+        "fabric-1.21.1" = _EWrSpczo;
+        "neoforge-1.21.1" = _wkd1cl6Y;
         "pkg-1.16.5-1.0.0" = _bSRdXafS;
         "pkg-1.18.2-1.0.0-quilt" = _is3ep1Cb;
         "pkg-1.18.2-1.0.0-fabric" = _d4qCQYxQ;
@@ -368,7 +380,9 @@ let
         "pkg-1.1.1" = _uERVExsX;
         "pkg-1.1.2" = _7KOSlc6H;
         "pkg-2.0.0" = _cgo1aczU;
-        "default" = _cgo1aczU;
+        "pkg-1.21.1-2.0.1-neoforge" = _wkd1cl6Y;
+        "pkg-1.21.1-2.0.1-fabric" = _EWrSpczo;
+        "default" = _EWrSpczo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vrjesterapi";

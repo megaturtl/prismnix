@@ -96,6 +96,26 @@ let
             "file" = "jcraft-additions-forge-1.2.0-hotfix-2.jar";
             "hash" = "sha512-EPSDmoxUaeE5fCORWUt1bGcakSDsoPv6lkkqC1iw2U9Vkhy2Fiil9qYvezjT9zY9RNhe94cbW7zQw2ZXANFiXQ==";
         };
+        _PrPgqLkB = {
+            "id" = "PrPgqLkB";
+            "file" = "jcraft-additions-forge-1.2.1.jar";
+            "hash" = "sha512-AVX543IjOsNPhpoZyWE94Y97n8wMhrNgLV/JqatvfhDuSiCFx2oVtMJhZ3qUUxnmJYneCHQPzFAhYm6/Kus+FQ==";
+        };
+        _ll8Ot2R2 = {
+            "id" = "ll8Ot2R2";
+            "file" = "jcraft-additions-fabric-1.2.1.jar";
+            "hash" = "sha512-0ENbJdYvmdfjCxLvLFBaZJVcQ+RkT/4bCrbPjzEcBTOmEi5ItThj9wATmVM8kPdv0Rn4JdRdUWe8WICQPxZ59Q==";
+        };
+        _C6UyGAsa = {
+            "id" = "C6UyGAsa";
+            "file" = "jcraft-additions-fabric-1.2.2.jar";
+            "hash" = "sha512-5KJJfLuDyYQsHMS+BRjcRZFVtf5HwwNyNB5TWDb8jKqjfv2bApCgPvVgGP1CDmE+UqWKhuovOBshOn/rkXIpIA==";
+        };
+        _scJ7h9FF = {
+            "id" = "scJ7h9FF";
+            "file" = "jcraft-additions-forge-1.2.2.jar";
+            "hash" = "sha512-9phUJ68oSn7ZmFRjyq3vn02q00hluki+3BYC9Qi0KTofswtJ22kG38QB0/GECXtCznHK3PupeeK1z6yzq/Ev4g==";
+        };
     in {
         "uwcq8FSt" = _uwcq8FSt;
         "hT2sL3nd" = _hT2sL3nd;
@@ -116,8 +136,12 @@ let
         "o6iC1qMp" = _o6iC1qMp;
         "MVlBGUt0" = _MVlBGUt0;
         "o22yNAPS" = _o22yNAPS;
-        "forge-1.20.1" = _o22yNAPS;
-        "fabric-1.20.1" = _o6iC1qMp;
+        "PrPgqLkB" = _PrPgqLkB;
+        "ll8Ot2R2" = _ll8Ot2R2;
+        "C6UyGAsa" = _C6UyGAsa;
+        "scJ7h9FF" = _scJ7h9FF;
+        "forge-1.20.1" = _scJ7h9FF;
+        "fabric-1.20.1" = _C6UyGAsa;
         "pkg-1.0.0" = _hT2sL3nd;
         "pkg-1.0.1" = _bIZIZt5S;
         "pkg-1.0.2" = _VwWOjEOH;
@@ -129,7 +153,9 @@ let
         "pkg-1.2.0" = _o6iC1qMp;
         "pkg-1.2.0-hotfix" = _MVlBGUt0;
         "pkg-1.2.0-hotfix-2" = _o22yNAPS;
-        "default" = _o22yNAPS;
+        "pkg-1.2.1" = _ll8Ot2R2;
+        "pkg-1.2.2" = _scJ7h9FF;
+        "default" = _scJ7h9FF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jcraft-additions";

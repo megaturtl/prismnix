@@ -61,6 +61,11 @@ let
             "file" = "spearcore-1.21.1-neo-2.0.6.jar";
             "hash" = "sha512-vVq9hcmHYKStrzmUtWJXUxbx0App4Kf/m2B5hY0apl+HRfbNj5bKj7+iQ6cQGroMIsbLuLwLbBZ3oCVGLwjgIA==";
         };
+        _Y1KWrXQc = {
+            "id" = "Y1KWrXQc";
+            "file" = "spearcore-1.21.1-neo-2.0.7.jar";
+            "hash" = "sha512-whyTPXusgSfwSCI1mnR8biPSylhHxODHTMiWCrj1wt83S1LvL/g+b7nz62lqyNuIPs7EtzsSp03GKJ9thEuV8g==";
+        };
     in {
         "XKgNFzEv" = _XKgNFzEv;
         "Nk8Aj7TN" = _Nk8Aj7TN;
@@ -74,7 +79,8 @@ let
         "igfMMLce" = _igfMMLce;
         "EIoWtnfa" = _EIoWtnfa;
         "tkc4M5tY" = _tkc4M5tY;
-        "neoforge-1.21.1" = _tkc4M5tY;
+        "Y1KWrXQc" = _Y1KWrXQc;
+        "neoforge-1.21.1" = _Y1KWrXQc;
         "pkg-1.0.0" = _XKgNFzEv;
         "pkg-1.1.0" = _Nk8Aj7TN;
         "pkg-1.2.0" = _9hMYuK9b;
@@ -87,7 +93,8 @@ let
         "pkg-2.0.4" = _igfMMLce;
         "pkg-2.0.5" = _EIoWtnfa;
         "pkg-2.0.6" = _tkc4M5tY;
-        "default" = _tkc4M5tY;
+        "pkg-2.0.7" = _Y1KWrXQc;
+        "default" = _Y1KWrXQc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spear-core";

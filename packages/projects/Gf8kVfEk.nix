@@ -26,19 +26,27 @@ let
             "file" = "sarosskinchanger-1.3-1.20.1-Forge.jar";
             "hash" = "sha512-aCM8b1jq23Fg6Clh2/FNjGZ02SCxWuUs80j2cxtwQDxM5mNtHpM9aY/J56hOM+X1mKLjpKO0bKxJta448v2bVA==";
         };
+        _5ezT3gaG = {
+            "id" = "5ezT3gaG";
+            "file" = "Saros-Skin-Changer-Forge-1.20.1-1.3.1.jar";
+            "hash" = "sha512-d+MDvUnEEj/7PvvWM4K5y20f57DxEIyEusAbVKtIvGFelVxO8QbAr+V7qHnhFCK5wP85t71OdfFHILouVub93g==";
+        };
     in {
         "3kuHZqP6" = _3kuHZqP6;
         "JlrJFfiw" = _JlrJFfiw;
         "ncjMeXEO" = _ncjMeXEO;
         "NftZe5Mw" = _NftZe5Mw;
         "1AxYjyCx" = _1AxYjyCx;
+        "5ezT3gaG" = _5ezT3gaG;
         "forge-1.12.2" = _ncjMeXEO;
-        "forge-1.20.1" = _1AxYjyCx;
+        "forge-1.20.1" = _5ezT3gaG;
+        "neoforge-1.20.1" = _5ezT3gaG;
         "pkg-1.0" = _3kuHZqP6;
         "pkg-1.1" = _JlrJFfiw;
         "pkg-1.2" = _NftZe5Mw;
         "pkg-1.3" = _1AxYjyCx;
-        "default" = _1AxYjyCx;
+        "pkg-1.3.1" = _5ezT3gaG;
+        "default" = _5ezT3gaG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saros-skin-changer";

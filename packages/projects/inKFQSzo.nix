@@ -56,6 +56,31 @@ let
             "file" = "create_stats-1.1.31SJ.jar";
             "hash" = "sha512-zZLoH5N2UcKkXe3bJ5MhM7ogApVAahah2HUySaodnxtJQaERe95j20FKRPaNEB1PbVG0Fc9rpx/YKFykOmhunA==";
         };
+        _Fp78AyZd = {
+            "id" = "Fp78AyZd";
+            "file" = "create_stats-1.1.33SJ.jar";
+            "hash" = "sha512-11WfZeUFQhCauzEHTuNhfAEvnjPZTAoR2mv2etWn0zB7Diz56qMR6iWr8e7MgHCRi3rDpXk9PmFukGdbaswAyw==";
+        };
+        _8Pgc3B5L = {
+            "id" = "8Pgc3B5L";
+            "file" = "create_stats-1.2.80.jar";
+            "hash" = "sha512-vHcY+FjBFBMBiRbP6atwTerA5q6FnAD8hMGX5ZHtaEQws2vYW2EN6lqxidjICZRtRUR8h3uAHkSlTTdDW0j7dw==";
+        };
+        _4RwgUE5P = {
+            "id" = "4RwgUE5P";
+            "file" = "create_stats-1.2.81.jar";
+            "hash" = "sha512-EXbH44k24lsY2C3VHS58UtLVHtK07ZJ3ea+PoxAG/RDwwCa5vSZ6HUZXLQVoMlatLu5Hn8HcM10fKDqK6NXIHA==";
+        };
+        _cM0zZQSN = {
+            "id" = "cM0zZQSN";
+            "file" = "create_stats-1.4.1.jar";
+            "hash" = "sha512-dcZeEW/BWXRaPefiaUdpqrPeRIAXUHeClCHggSsG8enwtDojJEEaNykk/6k8pPaXkHRKRHhgSmvCzr8ZZxmBvw==";
+        };
+        _pFmjFOtq = {
+            "id" = "pFmjFOtq";
+            "file" = "create_stats-1.5.1.jar";
+            "hash" = "sha512-geyeWof/zOtu54mBv8eNs5M1ka0ohNe1TxsidlotuX+Vt0qux0KVZQhZMYDzDjL5upF0v0oVDRwEyCCVwin/SA==";
+        };
     in {
         "oXROLBPQ" = _oXROLBPQ;
         "g4SfFu71" = _g4SfFu71;
@@ -68,13 +93,18 @@ let
         "mSw3Y52z" = _mSw3Y52z;
         "lzJVSbfX" = _lzJVSbfX;
         "cn9oDEBD" = _cn9oDEBD;
+        "Fp78AyZd" = _Fp78AyZd;
+        "8Pgc3B5L" = _8Pgc3B5L;
+        "4RwgUE5P" = _4RwgUE5P;
+        "cM0zZQSN" = _cM0zZQSN;
+        "pFmjFOtq" = _pFmjFOtq;
         "forge-1.20.1" = _dltl0unZ;
         "forge-1.20.2" = _dltl0unZ;
         "forge-1.20.3" = _dltl0unZ;
         "forge-1.20.4" = _dltl0unZ;
         "forge-1.20.5" = _dltl0unZ;
         "forge-1.20.6" = _dltl0unZ;
-        "neoforge-1.21.1" = _cn9oDEBD;
+        "neoforge-1.21.1" = _pFmjFOtq;
         "pkg-0.1.3.A" = _oXROLBPQ;
         "pkg-0.3.0" = _g4SfFu71;
         "pkg-0.9.90_a" = _z6StBVgL;
@@ -86,10 +116,15 @@ let
         "pkg-1.0.69A" = _mSw3Y52z;
         "pkg-1.0.69B" = _lzJVSbfX;
         "pkg-1.1.31SJ" = _cn9oDEBD;
-        "default" = _cn9oDEBD;
+        "pkg-1.1.33SJ_A" = _Fp78AyZd;
+        "pkg-1.2.80" = _8Pgc3B5L;
+        "pkg-1.2.81" = _4RwgUE5P;
+        "pkg-1.4.1" = _cM0zZQSN;
+        "pkg-1.5.1" = _pFmjFOtq;
+        "default" = _pFmjFOtq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
-        name = "create-graphs-stats";
+        name = "create-graphs-power";
         id = "inKFQSzo";
         type = "mod";
         versions = versions;

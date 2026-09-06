@@ -86,6 +86,11 @@ let
             "file" = "UltimateDonutSmp-1.4.jar";
             "hash" = "sha512-3eSKRv37s8W3lgHfDXGRY2Dlifky6x4xreJzdE8sJ/d52P+vMZrQwdwbvD2J+8aOCBb83/RstRnUSzLQEhiNGA==";
         };
+        _SzVLth8R = {
+            "id" = "SzVLth8R";
+            "file" = "UltimateDonutSmp-1.4.1.jar";
+            "hash" = "sha512-b11ftTudb9zNjlH0bz9s34QPFukAEiuQE7mRGm5OjdVZoiluRY8jWiUAVWx8n4kgkWUKrEcVYJQtWO5nGpo3uw==";
+        };
     in {
         "Q8nbJoBe" = _Q8nbJoBe;
         "FzopPgjC" = _FzopPgjC;
@@ -104,6 +109,7 @@ let
         "8p1ogijI" = _8p1ogijI;
         "kQ1Wod6o" = _kQ1Wod6o;
         "rNCwcykJ" = _rNCwcykJ;
+        "SzVLth8R" = _SzVLth8R;
         "bukkit-1.20" = _NAl5wUOn;
         "bukkit-1.20.1" = _NAl5wUOn;
         "bukkit-1.20.2" = _NAl5wUOn;
@@ -121,12 +127,12 @@ let
         "bukkit-1.21.7" = _5QHPDUO1;
         "bukkit-1.21.8" = _5QHPDUO1;
         "bukkit-1.21.9" = _5QHPDUO1;
-        "bukkit-1.21.10" = _rNCwcykJ;
-        "bukkit-1.21.11" = _rNCwcykJ;
-        "bukkit-26.1" = _rNCwcykJ;
-        "bukkit-26.1.1" = _rNCwcykJ;
-        "bukkit-26.1.2" = _rNCwcykJ;
-        "bukkit-26.2" = _rNCwcykJ;
+        "bukkit-1.21.10" = _SzVLth8R;
+        "bukkit-1.21.11" = _SzVLth8R;
+        "bukkit-26.1" = _SzVLth8R;
+        "bukkit-26.1.1" = _SzVLth8R;
+        "bukkit-26.1.2" = _SzVLth8R;
+        "bukkit-26.2" = _SzVLth8R;
         "paper-1.20" = _JcvoExz0;
         "paper-1.20.1" = _JcvoExz0;
         "paper-1.20.2" = _JcvoExz0;
@@ -144,12 +150,12 @@ let
         "paper-1.21.7" = _5QHPDUO1;
         "paper-1.21.8" = _5QHPDUO1;
         "paper-1.21.9" = _5QHPDUO1;
-        "paper-1.21.10" = _rNCwcykJ;
-        "paper-1.21.11" = _rNCwcykJ;
-        "paper-26.1" = _rNCwcykJ;
-        "paper-26.1.1" = _rNCwcykJ;
-        "paper-26.1.2" = _rNCwcykJ;
-        "paper-26.2" = _rNCwcykJ;
+        "paper-1.21.10" = _SzVLth8R;
+        "paper-1.21.11" = _SzVLth8R;
+        "paper-26.1" = _SzVLth8R;
+        "paper-26.1.1" = _SzVLth8R;
+        "paper-26.1.2" = _SzVLth8R;
+        "paper-26.2" = _SzVLth8R;
         "folia-1.20" = _JcvoExz0;
         "folia-1.20.1" = _JcvoExz0;
         "folia-1.20.2" = _JcvoExz0;
@@ -167,12 +173,12 @@ let
         "folia-1.21.7" = _vDkpBDQy;
         "folia-1.21.8" = _vDkpBDQy;
         "folia-1.21.9" = _vDkpBDQy;
-        "folia-1.21.10" = _rNCwcykJ;
-        "folia-1.21.11" = _rNCwcykJ;
-        "folia-26.1" = _rNCwcykJ;
-        "folia-26.1.1" = _rNCwcykJ;
-        "folia-26.1.2" = _rNCwcykJ;
-        "folia-26.2" = _rNCwcykJ;
+        "folia-1.21.10" = _SzVLth8R;
+        "folia-1.21.11" = _SzVLth8R;
+        "folia-26.1" = _SzVLth8R;
+        "folia-26.1.1" = _SzVLth8R;
+        "folia-26.1.2" = _SzVLth8R;
+        "folia-26.2" = _SzVLth8R;
         "spigot-1.20" = _NAl5wUOn;
         "spigot-1.20.1" = _NAl5wUOn;
         "spigot-1.20.2" = _NAl5wUOn;
@@ -190,12 +196,12 @@ let
         "spigot-1.21.7" = _5QHPDUO1;
         "spigot-1.21.8" = _5QHPDUO1;
         "spigot-1.21.9" = _5QHPDUO1;
-        "spigot-1.21.10" = _rNCwcykJ;
-        "spigot-1.21.11" = _rNCwcykJ;
-        "spigot-26.1" = _rNCwcykJ;
-        "spigot-26.1.1" = _rNCwcykJ;
-        "spigot-26.1.2" = _rNCwcykJ;
-        "spigot-26.2" = _rNCwcykJ;
+        "spigot-1.21.10" = _SzVLth8R;
+        "spigot-1.21.11" = _SzVLth8R;
+        "spigot-26.1" = _SzVLth8R;
+        "spigot-26.1.1" = _SzVLth8R;
+        "spigot-26.1.2" = _SzVLth8R;
+        "spigot-26.2" = _SzVLth8R;
         "pkg-1.0" = _Q8nbJoBe;
         "pkg-1.1" = _FzopPgjC;
         "pkg-1.1-folia" = _JcvoExz0;
@@ -213,7 +219,8 @@ let
         "pkg-1.3" = _8p1ogijI;
         "pkg-1.3-folia" = _kQ1Wod6o;
         "pkg-1.4" = _rNCwcykJ;
-        "default" = _rNCwcykJ;
+        "pkg-1.4.1" = _SzVLth8R;
+        "default" = _SzVLth8R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ultimatedonutsmp";
@@ -221,12 +228,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "Apache License 2.0";
-                shortName = "Apache-2.0";
+                fullName = "MIT License";
+                shortName = "MIT";
                 url = null;
             };
         };

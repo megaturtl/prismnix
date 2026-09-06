@@ -66,6 +66,26 @@ let
             "file" = "toucanlib-neoforge-1.21.1-0.3.1.jar";
             "hash" = "sha512-MpHzOt+VQaJyJMLG0sXUqEkOx9Sbmn3yG+qvBxQOfAKUIfYi3QA0sX/4o6YDARIEvaQdWo5tu0Hv2hara2duQA==";
         };
+        _P94uBT4o = {
+            "id" = "P94uBT4o";
+            "file" = "toucanlib-neoforge-1.21.1-0.4.0.jar";
+            "hash" = "sha512-qNDHLMsJrA7O2og3DEEK4SfRAJLTL1SDEaa1ldJ8DGyG5qlTRO4t2waHm+plEX346x9tBWDFx+sbS00ybiwPDg==";
+        };
+        _B5Z96bXx = {
+            "id" = "B5Z96bXx";
+            "file" = "toucanlib-fabric-1.21.1-0.4.0.jar";
+            "hash" = "sha512-7vMViYwS+D/ueZ+bZGZoDA4V3pQItoMikLIk1uPRie783i3TRsNuK26yVfYvjQoWw4q+k3r4oP2qcK1RTrnbsQ==";
+        };
+        _jW4mP1dI = {
+            "id" = "jW4mP1dI";
+            "file" = "toucanlib-neoforge-1.21.1-0.5.0.jar";
+            "hash" = "sha512-SA31xeIb4Jx4DT20hkZZ09RRNkTGFd329QRL/HBzeC7mIxbCyFExOrX+dvHEE36nVFk/rCAZ4g6prx7B1xUbhw==";
+        };
+        _6xP0lwMi = {
+            "id" = "6xP0lwMi";
+            "file" = "toucanlib-fabric-1.21.1-0.5.0.jar";
+            "hash" = "sha512-OT/gDGGY2Yh9c+bcKAR39uhu3/N3V1uNZEcuaB9gC9a8/9Kqgx/5PMN95NYw81ja3b8SGTMxUOQFRPDFtHDvIQ==";
+        };
     in {
         "jnlGDvVa" = _jnlGDvVa;
         "l92i6lzK" = _l92i6lzK;
@@ -80,8 +100,12 @@ let
         "kJYLdTKh" = _kJYLdTKh;
         "JqJeLNJd" = _JqJeLNJd;
         "npKBCMkt" = _npKBCMkt;
-        "neoforge-1.21.1" = _npKBCMkt;
-        "fabric-1.21.1" = _JqJeLNJd;
+        "P94uBT4o" = _P94uBT4o;
+        "B5Z96bXx" = _B5Z96bXx;
+        "jW4mP1dI" = _jW4mP1dI;
+        "6xP0lwMi" = _6xP0lwMi;
+        "neoforge-1.21.1" = _jW4mP1dI;
+        "fabric-1.21.1" = _6xP0lwMi;
         "pkg-0.1.0" = _l92i6lzK;
         "pkg-0.1.2" = _I2EVpfWU;
         "pkg-0.1.4" = _EnEJQaCl;
@@ -89,7 +113,9 @@ let
         "pkg-0.2.0" = _PNdixO6Y;
         "pkg-0.3.0" = _kJYLdTKh;
         "pkg-0.3.1" = _npKBCMkt;
-        "default" = _npKBCMkt;
+        "pkg-0.4.0" = _B5Z96bXx;
+        "pkg-0.5.0" = _6xP0lwMi;
+        "default" = _6xP0lwMi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "toucan";

@@ -36,6 +36,21 @@ let
             "file" = "darkloot-neoforge-26.1-1.3.2.jar";
             "hash" = "sha512-7f2IAp4iHMUZAa8EM2TebD9g+bsufYUgAznQCsmHhzmS93Dx61trQuqlvLe1lzMstm9K05ZLIS53Lbr5LXlGNw==";
         };
+        _Dli9lbu6 = {
+            "id" = "Dli9lbu6";
+            "file" = "darkloot-fabric-26.2-1.3.2a.jar";
+            "hash" = "sha512-dmdBrjAw1cNeTrPVzo8W1hcEimrbpWZ7GLFDEpePTA9yEedMqc+CU4KzYUlwF6LeJW5HRH0XTb1C5d03CL7j1Q==";
+        };
+        _H5NSeO9e = {
+            "id" = "H5NSeO9e";
+            "file" = "darkloot-forge-26.2-1.3.2a.jar";
+            "hash" = "sha512-Yz17GrkvtR9hWNvz2jwmjuMzDgGRDFmvO4aQ+cWjMQ56R7od6VyWlOC3FSIl0Sm7XP0cIgMMG3PcllCOcOe86A==";
+        };
+        _etOMLFpX = {
+            "id" = "etOMLFpX";
+            "file" = "darkloot-neoforge-26.2-1.3.2a.jar";
+            "hash" = "sha512-Y8kRhYKVxrCV3IA/UdigxdEU0/f+GVT3tvcLYOtJrb0g/CuyC/cXlfqNvnUX7JWLwFGKo0M99BmtTy/81ra5Aw==";
+        };
     in {
         "4eGwJXNO" = _4eGwJXNO;
         "W9rin8qA" = _W9rin8qA;
@@ -44,11 +59,15 @@ let
         "cmCaqjUo" = _cmCaqjUo;
         "q04NmTFh" = _q04NmTFh;
         "Rp4Iz4hc" = _Rp4Iz4hc;
+        "Dli9lbu6" = _Dli9lbu6;
+        "H5NSeO9e" = _H5NSeO9e;
+        "etOMLFpX" = _etOMLFpX;
         "forge-1.20.1" = _4eGwJXNO;
         "forge-1.20.4" = _bAU46JwH;
         "forge-26.1" = _q04NmTFh;
         "forge-26.1.1" = _q04NmTFh;
         "forge-26.1.2" = _q04NmTFh;
+        "forge-26.2" = _H5NSeO9e;
         "fabric-1.20.1" = _W9rin8qA;
         "fabric-1.20.2" = _vGt3Jfug;
         "fabric-1.20.3" = _vGt3Jfug;
@@ -56,16 +75,18 @@ let
         "fabric-26.1" = _cmCaqjUo;
         "fabric-26.1.1" = _cmCaqjUo;
         "fabric-26.1.2" = _cmCaqjUo;
+        "fabric-26.2" = _Dli9lbu6;
         "quilt-1.20.1" = _W9rin8qA;
         "neoforge-26.1" = _Rp4Iz4hc;
         "neoforge-26.1.1" = _Rp4Iz4hc;
         "neoforge-26.1.2" = _Rp4Iz4hc;
+        "neoforge-26.2" = _etOMLFpX;
         "pkg-1.1.9" = _4eGwJXNO;
         "pkg-1.2.0" = _W9rin8qA;
         "pkg-1.2.1" = _vGt3Jfug;
         "pkg-1.2.2" = _bAU46JwH;
-        "pkg-1.3.2" = _Rp4Iz4hc;
-        "default" = _Rp4Iz4hc;
+        "pkg-1.3.2" = _etOMLFpX;
+        "default" = _etOMLFpX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "darkloot";

@@ -226,6 +226,11 @@ let
             "file" = "LittleFrames_NEOFORGE_v1.4.7_mc1.21.1.jar";
             "hash" = "sha512-YYYzi/COiOKFF6sEOy1IKRZTUYntUiMhfXLEKwoQ66vcMwX1u92qvYGlENMllxmE1+GIq1v85/k/FtJGVjiALA==";
         };
+        _I8ZQS6iJ = {
+            "id" = "I8ZQS6iJ";
+            "file" = "LittleFrames_NEOFORGE_v1.4.8_mc1.21.1.jar";
+            "hash" = "sha512-bfNuhiBVI9jL0/qhbOYpd1Bn5jrKE/SeSn1stQ9LzkDt5emLM+fEF+W3OGLlpxsZLwSxt5JbrjSBWaD+cJKbEQ==";
+        };
     in {
         "s1CM9Dt2" = _s1CM9Dt2;
         "KbqwsEgg" = _KbqwsEgg;
@@ -272,6 +277,7 @@ let
         "ln80VuVR" = _ln80VuVR;
         "iR6cfWCv" = _iR6cfWCv;
         "Un8C1jJN" = _Un8C1jJN;
+        "I8ZQS6iJ" = _I8ZQS6iJ;
         "forge-1.19.2" = _lrCWfNqn;
         "forge-1.19.3" = _LM0nwSOb;
         "forge-1.19.4" = _kfvL6OCJ;
@@ -282,7 +288,7 @@ let
         "neoforge-1.20.1" = _OWv4KS3N;
         "neoforge-1.19.2" = _lrCWfNqn;
         "neoforge-1.21" = _oad8wToQ;
-        "neoforge-1.21.1" = _Un8C1jJN;
+        "neoforge-1.21.1" = _I8ZQS6iJ;
         "pkg-1.1.9" = _KbqwsEgg;
         "pkg-1.1.10" = _oiEkqsue;
         "pkg-1.1.11" = _nuaScjxq;
@@ -315,7 +321,8 @@ let
         "pkg-1.4.5" = _ln80VuVR;
         "pkg-1.4.6" = _iR6cfWCv;
         "pkg-1.4.7" = _Un8C1jJN;
-        "default" = _Un8C1jJN;
+        "pkg-1.4.8" = _I8ZQS6iJ;
+        "default" = _I8ZQS6iJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "littlepictureframes";

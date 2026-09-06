@@ -176,6 +176,146 @@ let
             "file" = "netherportalcoordinatescale-forge-1.20.1-1.0.1.jar";
             "hash" = "sha512-G/EsTEf/ZtjuQ45HyXODRdNztk/xqtRvBmMMHWGA9bXJauHkcLBXaz2Zz69X3XOGZ4tmykBCoKnRLT5Zar+54A==";
         };
+        _rSjvuTNt = {
+            "id" = "rSjvuTNt";
+            "file" = "netherportalcoordinatescale-fabric-26.1.2-1.0.1.jar";
+            "hash" = "sha512-2gx6IlEMrqxOLqXPtnct60+dDee5794mdf8xNhy0zDZlY3B7CNCHAL5tGdaCcnBJOd55yhSv6/wm+c+JSgPSjw==";
+        };
+        _Q1FaBfD5 = {
+            "id" = "Q1FaBfD5";
+            "file" = "netherportalcoordinatescale-neoforge-26.1.2-1.0.1.jar";
+            "hash" = "sha512-Nx1Wk8Cese2+tgHyNVj+hASF6bpt3e4fAYZbaiZGsiVZzmFDDIOyhWqtCZKjRvVnaloFLYKmnvZ4asdohj+WdA==";
+        };
+        _UEeGwvGB = {
+            "id" = "UEeGwvGB";
+            "file" = "netherportalcoordinatescale-fabric-26.2-1.0.1.jar";
+            "hash" = "sha512-8ZG28ADtyXgJQws2bEODly1s4TtQ+/NNY6zO/CbFplKioPkhaLKBcNK8FV15UnXZEZLevL+Yr+YScU66uKmw6A==";
+        };
+        _bkrqfNhJ = {
+            "id" = "bkrqfNhJ";
+            "file" = "netherportalcoordinatescale-neoforge-26.2-1.0.1.jar";
+            "hash" = "sha512-ts7KjJBe2J3DgW/BCAQflmKzySEHpIni836JUWFFiDvNjKn/Mv2ZSmfW58dJFIBQhy+heVyXasxs/lVyHelUHw==";
+        };
+        _LMNeYzwl = {
+            "id" = "LMNeYzwl";
+            "file" = "netherportalcoordinatescale-fabric-1.21.11-1.0.2.jar";
+            "hash" = "sha512-RSjE/0cDqpK79s4fXRM1Wa8blo1Q/eayO9iWVrF1R22dK+uW7UDVIwXkqKe0zMLUpTjAAfJyfYBSC7+8XwiDgQ==";
+        };
+        _3CtiQWYs = {
+            "id" = "3CtiQWYs";
+            "file" = "netherportalcoordinatescale-neoforge-1.21.11-1.0.2.jar";
+            "hash" = "sha512-1NwuRLxoRmcTclV58iuGvLsXl2G0cw9yPZUQukzCm5mxH4BBtOq9nzp56I2alQ7kjtsfLra0sLtlDuyvyGxkyA==";
+        };
+        _DDrEpkfM = {
+            "id" = "DDrEpkfM";
+            "file" = "netherportalcoordinatescale-fabric-1.21.10-1.0.2.jar";
+            "hash" = "sha512-mklofERdMjAdjb+He4n7hz6VdeKorCFVYJMVJ//3P8QCKh0le+6GKqUT6YFyfkCbOy4IGxRkGhNvi8te7q5pcQ==";
+        };
+        _e1IfYyzM = {
+            "id" = "e1IfYyzM";
+            "file" = "netherportalcoordinatescale-neoforge-1.21.10-1.0.2.jar";
+            "hash" = "sha512-YcVe9Sdgy2ZOHhArCMYGx8z5/oIGmJp5oVm7EsEa+5GL5MASoSYLTI3riI9eBHOEInmS6bKhZvQYa2KfMdsynQ==";
+        };
+        _QIW1jaMj = {
+            "id" = "QIW1jaMj";
+            "file" = "netherportalcoordinatescale-fabric-1.21.9-1.0.2.jar";
+            "hash" = "sha512-Ep1dQk6GFj0vQai6AA+X7msdBV3NmXU8wbQvZttrAOYOd2gKn2WBdJDXFgUVthAD1FSITizpzVnpmIDFcAPJjA==";
+        };
+        _XgC18wJ8 = {
+            "id" = "XgC18wJ8";
+            "file" = "netherportalcoordinatescale-neoforge-1.21.9-1.0.2.jar";
+            "hash" = "sha512-oUQ7ocImhX7cCuAqKe1URmuPPts8KmVk87zPzOfNgVurvEZgMre43bjN58RBY5UxmxPUV3Jxmdzw0u7HWr16rQ==";
+        };
+        _7C9oxREv = {
+            "id" = "7C9oxREv";
+            "file" = "netherportalcoordinatescale-fabric-1.21.8-1.0.2.jar";
+            "hash" = "sha512-B5A7qn0jUiHDH3TMDLHtP1ekJmOjllbqOJk2pyGr6kY39ubTOa5iO/EHg8jooi/sMOtIBTlF5SXWjDX0Pe5+qA==";
+        };
+        _wFCwVAOZ = {
+            "id" = "wFCwVAOZ";
+            "file" = "netherportalcoordinatescale-neoforge-1.21.8-1.0.2.jar";
+            "hash" = "sha512-ynyXla/Itms2NlitNJxrHafnrU05j8OzFO9OQiIQ8a3G3UzRmY/BDGbzghAav+mHTHWZTXMX5JBXb7X2V+UMxA==";
+        };
+        _b6EPm220 = {
+            "id" = "b6EPm220";
+            "file" = "netherportalcoordinatescale-fabric-1.21.7-1.0.2.jar";
+            "hash" = "sha512-J8QBynzCiS9ITFGKnn1PXLNI91IJhLef2p6e/LMCkc/5umSGIJ069iNV4GiigW4F0JRZBLSuV0SjEeAfoHXEEA==";
+        };
+        _FUUXkA5x = {
+            "id" = "FUUXkA5x";
+            "file" = "netherportalcoordinatescale-neoforge-1.21.7-1.0.2.jar";
+            "hash" = "sha512-PGiHTSnwVpabmvs7l5FvlD3wj+Ng8jxwEf491CKr69cNgVH0y9PB2tgwTVDojDZBny5b4XPxZOHXnDcJAT4SbA==";
+        };
+        _853u9C3U = {
+            "id" = "853u9C3U";
+            "file" = "netherportalcoordinatescale-fabric-1.21.6-1.0.2.jar";
+            "hash" = "sha512-Vb1jIaAfOofBirtPyJOP3Ru2/M8e/lv9Yk8n5Qfqy2TlxOog0wqbFgS/JEVyazMYf+WMAuDQ59SYFhR5P0YONA==";
+        };
+        _YEyhkoFM = {
+            "id" = "YEyhkoFM";
+            "file" = "netherportalcoordinatescale-neoforge-1.21.6-1.0.2.jar";
+            "hash" = "sha512-Y4bPysQd6Tg5UWOW7dKmRvgkHeg2vt74hrJ3Xs/a68Jt4ZGbTMO/J3uDwqlJJpycSltBKD5VfmQ+MdXNiPbbTg==";
+        };
+        _p28QBXkX = {
+            "id" = "p28QBXkX";
+            "file" = "netherportalcoordinatescale-fabric-1.21.5-1.0.2.jar";
+            "hash" = "sha512-/og94uuzjZgDFEq0qOXqAgb0f0A+1+/uTVvm8SaKWpiwfz4fODzJ+QFO6NyqwULa/7RWhwyf57ZDMWzf08uK9g==";
+        };
+        _Tf8lPPV2 = {
+            "id" = "Tf8lPPV2";
+            "file" = "netherportalcoordinatescale-neoforge-1.21.5-1.0.2.jar";
+            "hash" = "sha512-xQlwwn5OInekQ1wgVS8Z+bslhHSgDrEx/n+l2NZ/aVPaHsB1CN41Dbuqog6E9n482pa6xEpje1BIg0C2cbktQQ==";
+        };
+        _9Xr7ySfn = {
+            "id" = "9Xr7ySfn";
+            "file" = "netherportalcoordinatescale-fabric-1.21.4-1.0.2.jar";
+            "hash" = "sha512-ptcV4UudZx+21rbsz0CRkjSWCAF3fPRqdLPugRtzr3dDPxNxOY5gHC2ouPBp0EVEoE8dfWVno3kPq+1aUu+dZw==";
+        };
+        _s5QXlqBz = {
+            "id" = "s5QXlqBz";
+            "file" = "netherportalcoordinatescale-neoforge-1.21.4-1.0.2.jar";
+            "hash" = "sha512-WpNHAWGC4kQyoPjf8h7EJURTxsBnoVDWmWy7oO3hvViADjo+0YkM9/QhhkHgkcwvR9iUCQ8mP66X0j1ksrCHzw==";
+        };
+        _pEFBPRYH = {
+            "id" = "pEFBPRYH";
+            "file" = "netherportalcoordinatescale-fabric-1.21.3-1.0.2.jar";
+            "hash" = "sha512-FbQX77A6ptfZmihbtcSJxcpJkVxdrnYHJgB18Ifxz5odu9p4mOlU68E/XbqEJhYL6uRipPw8ONXwv6n0ySYdhA==";
+        };
+        _CmWS0QqE = {
+            "id" = "CmWS0QqE";
+            "file" = "netherportalcoordinatescale-neoforge-1.21.3-1.0.2.jar";
+            "hash" = "sha512-Rqw6j51CjNbZY+fWuvl2BL6mooF8/Ar+RY43ULrlIwUWpOoVC6ZA0WCCBTAoUOQs9iyvluS0uD2DNxXFr6jkcA==";
+        };
+        _QTBVz62p = {
+            "id" = "QTBVz62p";
+            "file" = "netherportalcoordinatescale-fabric-1.21.2-1.0.2.jar";
+            "hash" = "sha512-vpbfexBwinYdq01MOgoZm00JOcy7kz3XB89cfZL+y/41R7iUDEDE24Pjoq+P995KmFlQ8rvmExOUmbgx4LV1eQ==";
+        };
+        _KOtUf8WK = {
+            "id" = "KOtUf8WK";
+            "file" = "netherportalcoordinatescale-neoforge-1.21.2-1.0.2.jar";
+            "hash" = "sha512-kDySRi5Laoq28M6ZZrwyvCStWxEUaxMuzzIS+fgIZmbiGnl9hO3H/jLFdl+89XAA8rOSFzYQhy5jYV2qEcpO9Q==";
+        };
+        _UupLU9Cg = {
+            "id" = "UupLU9Cg";
+            "file" = "netherportalcoordinatescale-fabric-1.21.1-1.0.2.jar";
+            "hash" = "sha512-KA36+CuViPjW1VqTgNoMZW4qz88Rgx+iey4IcQclfNmUExAYIEV7svgI2CL2GQ/nREEoD5/ebuRn2HuDyzRWew==";
+        };
+        _a30jHdAZ = {
+            "id" = "a30jHdAZ";
+            "file" = "netherportalcoordinatescale-neoforge-1.21.1-1.0.2.jar";
+            "hash" = "sha512-AWbW5tixmN9gXo4dLReHFnYJB2MnbOMwjeXTNEHaYtKr2RGvZ6BPuZmUhVBhIEiCahWbTzOCsskXQU+Pt1cRlw==";
+        };
+        _cx8jqO1d = {
+            "id" = "cx8jqO1d";
+            "file" = "netherportalcoordinatescale-fabric-1.20.1-1.0.2.jar";
+            "hash" = "sha512-I/OB/Q11URH22IkuyhEeDepXsS1VIiErogHmgIDJ6bHOzkBEa++qOzRnua/QNOSWBfAMWi92qn6vBfxiIXyIJQ==";
+        };
+        _OW4Bi3ZL = {
+            "id" = "OW4Bi3ZL";
+            "file" = "netherportalcoordinatescale-forge-1.20.1-1.0.2.jar";
+            "hash" = "sha512-oeD+6zNw13MzvL4xbUPW4PBcEj/ggu0jCgpNNHDvkYWMqMyqUnj5/98KBMau6RMU1cOZGFQ/wmQmPoWfqLvvcg==";
+        };
     in {
         "7WhYcpdz" = _7WhYcpdz;
         "vzWqsXOr" = _vzWqsXOr;
@@ -212,29 +352,63 @@ let
         "coRYB9qb" = _coRYB9qb;
         "a561ZGrB" = _a561ZGrB;
         "YKDo34rO" = _YKDo34rO;
-        "fabric-1.21.1" = _kfpXIk0C;
-        "fabric-1.21.2" = _wsYehDy8;
-        "fabric-1.21.3" = _W1OW9tu5;
-        "fabric-1.21.4" = _SGqMCjyZ;
-        "fabric-1.21.5" = _mAFc7KZN;
-        "fabric-1.20.1" = _bEMRnJYz;
-        "fabric-1.21.7" = _5ljs8sSq;
-        "fabric-1.21.6" = _xtddIlfl;
-        "fabric-1.21.11" = _WeSpMWhD;
-        "fabric-1.21.9" = _10oWxQb2;
-        "fabric-1.21.10" = _n0SxCZGu;
-        "neoforge-1.21.1" = _qWFIrBQU;
-        "neoforge-1.21.2" = _NxhePkt3;
-        "neoforge-1.21.3" = _BtCXZP3f;
-        "neoforge-1.21.4" = _ZyXxgUHQ;
-        "neoforge-1.21.5" = _rCaDLnfg;
+        "rSjvuTNt" = _rSjvuTNt;
+        "Q1FaBfD5" = _Q1FaBfD5;
+        "UEeGwvGB" = _UEeGwvGB;
+        "bkrqfNhJ" = _bkrqfNhJ;
+        "LMNeYzwl" = _LMNeYzwl;
+        "3CtiQWYs" = _3CtiQWYs;
+        "DDrEpkfM" = _DDrEpkfM;
+        "e1IfYyzM" = _e1IfYyzM;
+        "QIW1jaMj" = _QIW1jaMj;
+        "XgC18wJ8" = _XgC18wJ8;
+        "7C9oxREv" = _7C9oxREv;
+        "wFCwVAOZ" = _wFCwVAOZ;
+        "b6EPm220" = _b6EPm220;
+        "FUUXkA5x" = _FUUXkA5x;
+        "853u9C3U" = _853u9C3U;
+        "YEyhkoFM" = _YEyhkoFM;
+        "p28QBXkX" = _p28QBXkX;
+        "Tf8lPPV2" = _Tf8lPPV2;
+        "9Xr7ySfn" = _9Xr7ySfn;
+        "s5QXlqBz" = _s5QXlqBz;
+        "pEFBPRYH" = _pEFBPRYH;
+        "CmWS0QqE" = _CmWS0QqE;
+        "QTBVz62p" = _QTBVz62p;
+        "KOtUf8WK" = _KOtUf8WK;
+        "UupLU9Cg" = _UupLU9Cg;
+        "a30jHdAZ" = _a30jHdAZ;
+        "cx8jqO1d" = _cx8jqO1d;
+        "OW4Bi3ZL" = _OW4Bi3ZL;
+        "fabric-1.21.1" = _UupLU9Cg;
+        "fabric-1.21.2" = _QTBVz62p;
+        "fabric-1.21.3" = _pEFBPRYH;
+        "fabric-1.21.4" = _9Xr7ySfn;
+        "fabric-1.21.5" = _p28QBXkX;
+        "fabric-1.20.1" = _cx8jqO1d;
+        "fabric-1.21.7" = _b6EPm220;
+        "fabric-1.21.6" = _853u9C3U;
+        "fabric-1.21.11" = _LMNeYzwl;
+        "fabric-1.21.9" = _QIW1jaMj;
+        "fabric-1.21.10" = _DDrEpkfM;
+        "fabric-26.1.2" = _rSjvuTNt;
+        "fabric-26.2" = _UEeGwvGB;
+        "fabric-1.21.8" = _7C9oxREv;
+        "neoforge-1.21.1" = _a30jHdAZ;
+        "neoforge-1.21.2" = _KOtUf8WK;
+        "neoforge-1.21.3" = _CmWS0QqE;
+        "neoforge-1.21.4" = _s5QXlqBz;
+        "neoforge-1.21.5" = _Tf8lPPV2;
         "neoforge-1.20.1" = _aFYNtMaF;
-        "neoforge-1.21.7" = _yfyIzPJc;
-        "neoforge-1.21.6" = _zPYlZfE9;
-        "neoforge-1.21.11" = _WeJ5JR3t;
-        "neoforge-1.21.9" = _coRYB9qb;
-        "neoforge-1.21.10" = _a561ZGrB;
-        "forge-1.20.1" = _YKDo34rO;
+        "neoforge-1.21.7" = _FUUXkA5x;
+        "neoforge-1.21.6" = _YEyhkoFM;
+        "neoforge-1.21.11" = _3CtiQWYs;
+        "neoforge-1.21.9" = _XgC18wJ8;
+        "neoforge-1.21.10" = _e1IfYyzM;
+        "neoforge-26.1.2" = _Q1FaBfD5;
+        "neoforge-26.2" = _bkrqfNhJ;
+        "neoforge-1.21.8" = _wFCwVAOZ;
+        "forge-1.20.1" = _OW4Bi3ZL;
         "forge-1.21.1" = _eyiv2akw;
         "pkg-1.0.0" = _aFYNtMaF;
         "pkg-1.0.1-fabric" = _mAFc7KZN;
@@ -259,7 +433,35 @@ let
         "pkg-1.0.1-1.21.9-neoforge" = _coRYB9qb;
         "pkg-1.0.1-1.21.10-neoforge" = _a561ZGrB;
         "pkg-1.0.1-1.20.1-forge" = _YKDo34rO;
-        "default" = _YKDo34rO;
+        "pkg-1.0.1-26.1.2-fabric" = _rSjvuTNt;
+        "pkg-1.0.1-26.1.2-neoforge" = _Q1FaBfD5;
+        "pkg-1.0.1-26.2-fabric" = _UEeGwvGB;
+        "pkg-1.0.1-26.2-neoforge" = _bkrqfNhJ;
+        "pkg-1.0.2-1.21.11-fabric" = _LMNeYzwl;
+        "pkg-1.0.2-1.21.11-neoforge" = _3CtiQWYs;
+        "pkg-1.0.2-1.21.10-fabric" = _DDrEpkfM;
+        "pkg-1.0.2-1.21.10-neoforge" = _e1IfYyzM;
+        "pkg-1.0.2-1.21.9-fabric" = _QIW1jaMj;
+        "pkg-1.0.2-1.21.9-neoforge" = _XgC18wJ8;
+        "pkg-1.0.2-1.21.8-fabric" = _7C9oxREv;
+        "pkg-1.0.2-1.21.8-neoforge" = _wFCwVAOZ;
+        "pkg-1.0.2-1.21.7-fabric" = _b6EPm220;
+        "pkg-1.0.2-1.21.7-neoforge" = _FUUXkA5x;
+        "pkg-1.0.2-1.21.6-fabric" = _853u9C3U;
+        "pkg-1.0.2-1.21.6-neoforge" = _YEyhkoFM;
+        "pkg-1.0.2-1.21.5-fabric" = _p28QBXkX;
+        "pkg-1.0.2-1.21.5-neoforge" = _Tf8lPPV2;
+        "pkg-1.0.2-1.21.4-fabric" = _9Xr7ySfn;
+        "pkg-1.0.2-1.21.4-neoforge" = _s5QXlqBz;
+        "pkg-1.0.2-1.21.3-fabric" = _pEFBPRYH;
+        "pkg-1.0.2-1.21.3-neoforge" = _CmWS0QqE;
+        "pkg-1.0.2-1.21.2-fabric" = _QTBVz62p;
+        "pkg-1.0.2-1.21.2-neoforge" = _KOtUf8WK;
+        "pkg-1.0.2-1.21.1-fabric" = _UupLU9Cg;
+        "pkg-1.0.2-1.21.1-neoforge" = _a30jHdAZ;
+        "pkg-1.0.2-1.20.1-fabric" = _cx8jqO1d;
+        "pkg-1.0.2-1.20.1-forge" = _OW4Bi3ZL;
+        "default" = _OW4Bi3ZL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nether-portal-coordinate-scale";

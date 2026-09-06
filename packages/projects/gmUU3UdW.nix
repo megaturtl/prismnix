@@ -302,12 +302,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LicenseRef-Dual-License" {
+            license = lib.getLicenseFromSpdxIdOr "MPL-2.0" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "LicenseRef-Dual-License";
-                shortName = "LicenseRef-Dual-License";
+                fullName = "Mozilla Public License 2.0";
+                shortName = "MPL-2.0";
                 url = "https://tangled.org/lesbian.skin/ibo#licensing";
             };
         };

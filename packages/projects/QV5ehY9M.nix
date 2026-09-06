@@ -16,18 +16,25 @@ let
             "file" = "precisionprospecting-1.21.1-2.0.jar";
             "hash" = "sha512-s0HUZU2gUiZxuEDqyB4d91VhLLsawpojdCZ9gCnvw9OKoPaKaM4eV0ozNzcKSyhSFmd5Ncd0dnNproWLjjxgMg==";
         };
+        _6byVqPH3 = {
+            "id" = "6byVqPH3";
+            "file" = "precisionprospecting-1.21.1-2.1.jar";
+            "hash" = "sha512-/VzkBnZArKm//znmKMSNbGR9CA+3XdeV8z262spX8XDZBjBKf0YlZlU/t6ZB9maNb1nzKB/iXIh2wfGXlZF1CQ==";
+        };
     in {
         "R0tVNfig" = _R0tVNfig;
         "AIQoA8gj" = _AIQoA8gj;
         "B4SfTaV6" = _B4SfTaV6;
+        "6byVqPH3" = _6byVqPH3;
         "forge-1.18.2" = _R0tVNfig;
         "forge-1.20.1" = _AIQoA8gj;
         "neoforge-1.20.1" = _AIQoA8gj;
-        "neoforge-1.21.1" = _B4SfTaV6;
+        "neoforge-1.21.1" = _6byVqPH3;
         "pkg-1.18.2-0.5.4" = _R0tVNfig;
         "pkg-1.20.1-1.0.0" = _AIQoA8gj;
         "pkg-2.0" = _B4SfTaV6;
-        "default" = _B4SfTaV6;
+        "pkg-2.1" = _6byVqPH3;
+        "default" = _6byVqPH3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "precision-prospecting";

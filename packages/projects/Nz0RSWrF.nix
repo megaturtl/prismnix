@@ -151,6 +151,7 @@ let
         "fabric-1.21.8" = _dSqw5J7H;
         "fabric-1.21.9" = _IDCC6VWl;
         "fabric-1.21.10" = _IDCC6VWl;
+        "fabric-1.21.11" = _IDCC6VWl;
         "fabric-26.1" = _EUxUPqV2;
         "fabric-26.1.1" = _EUxUPqV2;
         "fabric-26.1.2" = _EUxUPqV2;

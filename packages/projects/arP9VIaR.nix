@@ -266,6 +266,31 @@ let
             "file" = "potionenchant-1.20.1-forge-1.8.7-delta.jar";
             "hash" = "sha512-wi/EhUaJgy8gd20nGt6Ep5U6l4k3TVhj3kOjEX096SOh9kY6e99Wf2vqlRxB+U5Y8uSF0pjdLjiGRt8VAifOaw==";
         };
+        _LizMRLFb = {
+            "id" = "LizMRLFb";
+            "file" = "potionenchant-1.20.1-forge-1.8.7.jar";
+            "hash" = "sha512-s0SwdeMkJcQ9L/831rWZuCIvWWSUTnkzrEwWvdpdv2u0/s8j1GXPbBJ6Yq82juIErBD2K+CHk8Zig+K9ndj0aA==";
+        };
+        _DCfZYW1g = {
+            "id" = "DCfZYW1g";
+            "file" = "potionenchant-1.20.1-forge-1.8.8.jar";
+            "hash" = "sha512-wEpoVN+XgQ6EEf0lVbgKRwGxmFtvTWXJNKOlLLhkoUPsYuDGid7+KcANiIOUUTeyJmvVroBgA8s9Md4MkVqT0A==";
+        };
+        _yaHuETu3 = {
+            "id" = "yaHuETu3";
+            "file" = "potionenchant-1.20.1-forge-1.8.8-fix.jar";
+            "hash" = "sha512-VIwwqqUDJOpD+4nr+MudXrZEHqnzNpoAUXb52qll9tmaex/IKKb+Vt9noIn0Q4QaK/WxyEhSN5dZeORlgk7Zng==";
+        };
+        _DA6zwEMK = {
+            "id" = "DA6zwEMK";
+            "file" = "potionenchant-1.20.1-forge-1.8.8-fix2.jar";
+            "hash" = "sha512-TJyOExggZmBTlf6GEuyEGEaQMpcGsQgg1V59noVhy5WKui9Y8YJNU38098V5Y7yN5tISTJdrbsGYGku+IgIjkg==";
+        };
+        _zPuJ8EbL = {
+            "id" = "zPuJ8EbL";
+            "file" = "potionenchant-1.20.1-forge-1.8.8-fix3.jar";
+            "hash" = "sha512-aRtiD1j+TInUDBsJhoZICxZy+Mvs+MA0QWcG77m4/bYqNDNughat0MR1GPA7HLwlObYHOakM26D0iEHgXzfsmw==";
+        };
     in {
         "DdaNpQNu" = _DdaNpQNu;
         "4UUPBCZa" = _4UUPBCZa;
@@ -320,7 +345,12 @@ let
         "Pm7PFNAB" = _Pm7PFNAB;
         "UluPmfm1" = _UluPmfm1;
         "4P6E3Icn" = _4P6E3Icn;
-        "forge-1.20.1" = _4P6E3Icn;
+        "LizMRLFb" = _LizMRLFb;
+        "DCfZYW1g" = _DCfZYW1g;
+        "yaHuETu3" = _yaHuETu3;
+        "DA6zwEMK" = _DA6zwEMK;
+        "zPuJ8EbL" = _zPuJ8EbL;
+        "forge-1.20.1" = _zPuJ8EbL;
         "forge-1.19.2" = _T23uG5YO;
         "forge-1.18.2" = _u6Ufs3Wp;
         "neoforge-1.21" = _cWMN8yHM;
@@ -388,7 +418,12 @@ let
         "pkg-1.21.1-neoforge-1.8.7-alpha" = _Pm7PFNAB;
         "pkg-1.20.1-forge-1.8.7-beta" = _UluPmfm1;
         "pkg-1.20.1-forge-1.8.7-delta" = _4P6E3Icn;
-        "default" = _4P6E3Icn;
+        "pkg-1.20.1-forge-1.8.7" = _LizMRLFb;
+        "pkg-1.20.1-forge-1.8.8" = _DCfZYW1g;
+        "pkg-1.20.1-forge-1.8.8-fix" = _yaHuETu3;
+        "pkg-1.20.1-forge-1.8.8-fix2" = _DA6zwEMK;
+        "pkg-1.20.1-forge-1.8.8-fix3" = _zPuJ8EbL;
+        "default" = _zPuJ8EbL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "potionenchant";

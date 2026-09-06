@@ -36,6 +36,11 @@ let
             "file" = "aero_cam_sync-1.3.6.jar";
             "hash" = "sha512-mIfIkj2Qg4A1uasSB002nh0kNIfvK+5sCC1IiOqn7P1a9rlbIXIVubVTyZ0jsDAb60JIZ+UaDL602jClSk5gfw==";
         };
+        _UbgVQ0qd = {
+            "id" = "UbgVQ0qd";
+            "file" = "aero_cam_sync-1.4.0.jar";
+            "hash" = "sha512-CvN9zy2QwmKFjQeGEkPAgAoqpyJUoY6s8JPemgfNqlpR+c/Zyl8yp+/M+aCTbPzaDun7uyUrADd9sho69t/7Sw==";
+        };
     in {
         "7ZEUKytl" = _7ZEUKytl;
         "5nKRWzgk" = _5nKRWzgk;
@@ -44,7 +49,8 @@ let
         "hq6ftJOH" = _hq6ftJOH;
         "8S7YZ52O" = _8S7YZ52O;
         "Q9Le9WV6" = _Q9Le9WV6;
-        "neoforge-1.21.1" = _Q9Le9WV6;
+        "UbgVQ0qd" = _UbgVQ0qd;
+        "neoforge-1.21.1" = _UbgVQ0qd;
         "pkg-1.0.0" = _7ZEUKytl;
         "pkg-1.1.0" = _5nKRWzgk;
         "pkg-1.2.0" = _vGsj4a2D;
@@ -52,7 +58,8 @@ let
         "pkg-1.3.1" = _hq6ftJOH;
         "pkg-1.3.5" = _8S7YZ52O;
         "pkg-1.3.6" = _Q9Le9WV6;
-        "default" = _Q9Le9WV6;
+        "pkg-1.4.0" = _UbgVQ0qd;
+        "default" = _UbgVQ0qd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aero_cam_sync";

@@ -26,12 +26,24 @@ let
             "file" = "Phantom-1.1.0.jar";
             "hash" = "sha512-PyQLEA+GCOQLRIVmF3wVQsgU+LvmztpnzLTqyx6QdAAjVnrYubMLyEb5v70OFqb9blX+Cp+hnX25SMO1wYR4BQ==";
         };
+        _fzhtH3RH = {
+            "id" = "fzhtH3RH";
+            "file" = "Phantom-1.1.1.jar";
+            "hash" = "sha512-jtDRDRXaCHb9Svg+t8p1udbK/CHGPUf+C1hQ2/IpyhnlrYARbOJiTDc5m54DoRw2pxo6W0U8jmuN3K3xZH3L/Q==";
+        };
+        _PmiuoJUJ = {
+            "id" = "PmiuoJUJ";
+            "file" = "Phantom-1.2.0.jar";
+            "hash" = "sha512-SddFPjd4/Jd5lDJJsMgtc54ex56+eIkxQUd3bEUn0+R8ApCR7b6Kt4zRqXquY/0d6UQXPgYLv4OtIsLAd1snmA==";
+        };
     in {
         "N9QpkkQe" = _N9QpkkQe;
         "PjAvPkON" = _PjAvPkON;
         "o9hfHFzf" = _o9hfHFzf;
         "eFemIC8k" = _eFemIC8k;
         "eMshQkN5" = _eMshQkN5;
+        "fzhtH3RH" = _fzhtH3RH;
+        "PmiuoJUJ" = _PmiuoJUJ;
         "paper-1.21" = _eMshQkN5;
         "paper-1.21.1" = _eMshQkN5;
         "paper-1.21.2" = _eMshQkN5;
@@ -43,19 +55,21 @@ let
         "paper-1.21.8" = _eMshQkN5;
         "paper-1.21.9" = _eMshQkN5;
         "paper-1.21.10" = _eMshQkN5;
-        "paper-1.21.11" = _eMshQkN5;
-        "purpur-1.21" = _eFemIC8k;
-        "purpur-1.21.1" = _eFemIC8k;
-        "purpur-1.21.2" = _eFemIC8k;
-        "purpur-1.21.3" = _eFemIC8k;
-        "purpur-1.21.4" = _eFemIC8k;
-        "purpur-1.21.5" = _eFemIC8k;
-        "purpur-1.21.6" = _eFemIC8k;
-        "purpur-1.21.7" = _eFemIC8k;
-        "purpur-1.21.8" = _eFemIC8k;
-        "purpur-1.21.9" = _eFemIC8k;
-        "purpur-1.21.10" = _eFemIC8k;
-        "purpur-1.21.11" = _eFemIC8k;
+        "paper-1.21.11" = _PmiuoJUJ;
+        "paper-26.2" = _PmiuoJUJ;
+        "purpur-1.21" = _eMshQkN5;
+        "purpur-1.21.1" = _eMshQkN5;
+        "purpur-1.21.2" = _eMshQkN5;
+        "purpur-1.21.3" = _eMshQkN5;
+        "purpur-1.21.4" = _eMshQkN5;
+        "purpur-1.21.5" = _eMshQkN5;
+        "purpur-1.21.6" = _eMshQkN5;
+        "purpur-1.21.7" = _eMshQkN5;
+        "purpur-1.21.8" = _eMshQkN5;
+        "purpur-1.21.9" = _eMshQkN5;
+        "purpur-1.21.10" = _eMshQkN5;
+        "purpur-1.21.11" = _PmiuoJUJ;
+        "purpur-26.2" = _PmiuoJUJ;
         "folia-1.21" = _eMshQkN5;
         "folia-1.21.1" = _eMshQkN5;
         "folia-1.21.2" = _eMshQkN5;
@@ -67,13 +81,16 @@ let
         "folia-1.21.8" = _eMshQkN5;
         "folia-1.21.9" = _eMshQkN5;
         "folia-1.21.10" = _eMshQkN5;
-        "folia-1.21.11" = _eMshQkN5;
+        "folia-1.21.11" = _PmiuoJUJ;
+        "folia-26.2" = _PmiuoJUJ;
         "pkg-1.0.0" = _N9QpkkQe;
         "pkg-1.0.1" = _PjAvPkON;
         "pkg-1.0.2" = _o9hfHFzf;
         "pkg-1.0.5" = _eFemIC8k;
         "pkg-1.1.0" = _eMshQkN5;
-        "default" = _eMshQkN5;
+        "pkg-1.1.1" = _fzhtH3RH;
+        "pkg-1.2.0" = _PmiuoJUJ;
+        "default" = _PmiuoJUJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "phantom-antixray";

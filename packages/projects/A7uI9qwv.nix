@@ -61,6 +61,11 @@ let
             "file" = "nether-water-1.0.11.jar";
             "hash" = "sha512-7Np0256X+qht1ernZCwUUXtOUxewyfbnBoazh/T/y78Go28cSpyqzSuZYjywFq84TzKRgdYtQ2adK4QGv9bv9A==";
         };
+        _b96CyHlF = {
+            "id" = "b96CyHlF";
+            "file" = "nether-water-1.0.12.jar";
+            "hash" = "sha512-aoiUiERTE+qNZAIuL5qUEgqjRF24CVoojSLVQN+UwEzSeZgm6LIegeyRsDCiZH0pKvzCNICOWKJp7jMYBXNAnA==";
+        };
     in {
         "whctFpAb" = _whctFpAb;
         "DVlPhyyz" = _DVlPhyyz;
@@ -74,6 +79,7 @@ let
         "sW7Zymrh" = _sW7Zymrh;
         "A2lQODcC" = _A2lQODcC;
         "LYTx6E7G" = _LYTx6E7G;
+        "b96CyHlF" = _b96CyHlF;
         "fabric-1.21.3" = _DVlPhyyz;
         "fabric-1.21.4" = _F1oTfTJm;
         "fabric-1.21.5" = _aTz5UVZU;
@@ -86,6 +92,7 @@ let
         "fabric-26.1" = _LYTx6E7G;
         "fabric-26.1.1" = _LYTx6E7G;
         "fabric-26.1.2" = _LYTx6E7G;
+        "fabric-26.2" = _b96CyHlF;
         "pkg-1.0.0" = _whctFpAb;
         "pkg-1.0.1" = _DVlPhyyz;
         "pkg-1.0.2" = _F1oTfTJm;
@@ -98,7 +105,8 @@ let
         "pkg-1.0.9" = _sW7Zymrh;
         "pkg-1.0.10" = _A2lQODcC;
         "pkg-1.0.11" = _LYTx6E7G;
-        "default" = _LYTx6E7G;
+        "pkg-1.0.12" = _b96CyHlF;
+        "default" = _b96CyHlF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "real-nether-water";

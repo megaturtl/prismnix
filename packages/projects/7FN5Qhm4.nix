@@ -91,6 +91,9 @@ let
         "bukkit-1.21.10" = _dgwmlp5B;
         "bukkit-1.21.11" = _dgwmlp5B;
         "bukkit-26.1" = _dgwmlp5B;
+        "bukkit-26.1.1" = _dgwmlp5B;
+        "bukkit-26.1.2" = _dgwmlp5B;
+        "bukkit-26.2" = _dgwmlp5B;
         "paper-1.8" = _dgwmlp5B;
         "paper-1.8.1" = _dgwmlp5B;
         "paper-1.8.2" = _dgwmlp5B;
@@ -162,6 +165,9 @@ let
         "paper-1.21.10" = _dgwmlp5B;
         "paper-1.21.11" = _dgwmlp5B;
         "paper-26.1" = _dgwmlp5B;
+        "paper-26.1.1" = _dgwmlp5B;
+        "paper-26.1.2" = _dgwmlp5B;
+        "paper-26.2" = _dgwmlp5B;
         "purpur-1.8" = _dgwmlp5B;
         "purpur-1.8.1" = _dgwmlp5B;
         "purpur-1.8.2" = _dgwmlp5B;
@@ -233,6 +239,9 @@ let
         "purpur-1.21.10" = _dgwmlp5B;
         "purpur-1.21.11" = _dgwmlp5B;
         "purpur-26.1" = _dgwmlp5B;
+        "purpur-26.1.1" = _dgwmlp5B;
+        "purpur-26.1.2" = _dgwmlp5B;
+        "purpur-26.2" = _dgwmlp5B;
         "spigot-1.8" = _dgwmlp5B;
         "spigot-1.8.1" = _dgwmlp5B;
         "spigot-1.8.2" = _dgwmlp5B;
@@ -304,6 +313,9 @@ let
         "spigot-1.21.10" = _dgwmlp5B;
         "spigot-1.21.11" = _dgwmlp5B;
         "spigot-26.1" = _dgwmlp5B;
+        "spigot-26.1.1" = _dgwmlp5B;
+        "spigot-26.1.2" = _dgwmlp5B;
+        "spigot-26.2" = _dgwmlp5B;
         "pkg-1.6.2" = _j3SJnura;
         "pkg-1.6.3" = _vVAht7lK;
         "pkg-1.7.0" = _dgwmlp5B;

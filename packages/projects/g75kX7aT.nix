@@ -106,6 +106,11 @@ let
             "file" = "moderndelight-forge-0.6.6-1.20.1.jar";
             "hash" = "sha512-Est/mCEp2fwJnrd1hEHvoff3Ef4wgIx4QxMRTDfabGZlUG6CQCTv4mxrXPCEIWL0nYag1wdYtSIxbK5BG+qM6A==";
         };
+        _RRUIkF35 = {
+            "id" = "RRUIkF35";
+            "file" = "moderndelight-forge-0.6.7-1.20.1.jar";
+            "hash" = "sha512-TuXJI9z92OwYTvWvuW87mfLM6Q10jdxRUMOrfxpogWMI0tyZN2JUExHKAdkYlOF4Y+JUKWGFXSQDjhT1XTVoUg==";
+        };
     in {
         "xQ9UClFC" = _xQ9UClFC;
         "NBcdI00i" = _NBcdI00i;
@@ -128,10 +133,11 @@ let
         "2hlrWnry" = _2hlrWnry;
         "pQVD20to" = _pQVD20to;
         "YKBtxH1o" = _YKBtxH1o;
+        "RRUIkF35" = _RRUIkF35;
         "fabric-1.20" = _NBcdI00i;
         "fabric-1.20.1" = _2hlrWnry;
         "fabric-1.21.1" = _pQVD20to;
-        "forge-1.20.1" = _YKBtxH1o;
+        "forge-1.20.1" = _RRUIkF35;
         "pkg-0.1.0-1.20.1" = _xQ9UClFC;
         "pkg-0.2.0+1.20.1" = _NBcdI00i;
         "pkg-0.2.1+1.20.1" = _gSJTLPIw;
@@ -152,8 +158,9 @@ let
         "pkg-0.6.5+1.20.1" = _vzdJNeux;
         "pkg-0.6.6+1.20.1" = _2hlrWnry;
         "pkg-0.6.6+1.21.1" = _pQVD20to;
-        "pkg-0.6.6-1.20.1-Forge" = _YKBtxH1o;
-        "default" = _YKBtxH1o;
+        "pkg-forge-0.6.6-1.20.1" = _YKBtxH1o;
+        "pkg-forge-0.6.7-1.20.1" = _RRUIkF35;
+        "default" = _RRUIkF35;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modern-delight";

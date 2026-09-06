@@ -81,6 +81,16 @@ let
             "file" = "cobblemon-rlm-1.5.7.zip";
             "hash" = "sha512-IuSWNVS+9y95xlTMOPmwcqXu+cRwaVNzi+4RbtJHyKupA5v3MvgdeMiIk3LKE0k0TFTVE6fv4K84TTXZ8CPZEA==";
         };
+        _DHqSswrl = {
+            "id" = "DHqSswrl";
+            "file" = "cobblemon-rlm-1.6.0.jar";
+            "hash" = "sha512-+xs8gidPgzPNF2DBumdC3d1nji0glJotsZPSqC7GaR1Jsk/BvIJwn7hEHsza9kujm56M5TL+lvJx2+LJpT6DeQ==";
+        };
+        _szH370Rg = {
+            "id" = "szH370Rg";
+            "file" = "cobblemon-rlm-1.6.0.zip";
+            "hash" = "sha512-/vcPNFzSH0ZPkwLV0MDD/WQkU4pqijNBJLZePvWEbHcAnt+ye2u1QWZV9TxcZgRf5ddE9rJUeCjYqtETymIgXA==";
+        };
     in {
         "23PmOSl4" = _23PmOSl4;
         "io2fknZT" = _io2fknZT;
@@ -98,9 +108,11 @@ let
         "2rlsxRjF" = _2rlsxRjF;
         "8u6gho7t" = _8u6gho7t;
         "kn37TQtr" = _kn37TQtr;
-        "datapack-1.21.1" = _kn37TQtr;
-        "fabric-1.21.1" = _8u6gho7t;
-        "neoforge-1.21.1" = _8u6gho7t;
+        "DHqSswrl" = _DHqSswrl;
+        "szH370Rg" = _szH370Rg;
+        "datapack-1.21.1" = _szH370Rg;
+        "fabric-1.21.1" = _DHqSswrl;
+        "neoforge-1.21.1" = _DHqSswrl;
         "forge-1.21.1" = _io2fknZT;
         "pkg-1.0.0" = _23PmOSl4;
         "pkg-1.1.1" = _io2fknZT;
@@ -118,7 +130,9 @@ let
         "pkg-1.5.6-datapack" = _2rlsxRjF;
         "pkg-1.5.7-mod" = _8u6gho7t;
         "pkg-1.5.7-datapack" = _kn37TQtr;
-        "default" = _kn37TQtr;
+        "pkg-1.6.0-mod" = _DHqSswrl;
+        "pkg-1.6.0-datapack" = _szH370Rg;
+        "default" = _szH370Rg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-rlm";

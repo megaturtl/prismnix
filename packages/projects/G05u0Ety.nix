@@ -226,6 +226,16 @@ let
             "file" = "hauntfurnace-fabric-0.5.8-1.21.5.jar";
             "hash" = "sha512-slOLFpS3vN/cHDTwWSDenMPfijD2TuW/ceXy5Q3MHE54sV2od4hU9J8Mz18w/psukkuuHEt1QXt83VpllpKUwQ==";
         };
+        _eoCbeQ3W = {
+            "id" = "eoCbeQ3W";
+            "file" = "hauntfurnace-neoforge-0.5.9-1.21.1.jar";
+            "hash" = "sha512-QLNjbdOIU9bJ4Fd8WTXavSBPjC3WkXRgCKTF2CFGWLhS+WrXkiz1BmsZME+kN5gb934PFR1XjJiUOG5Uo/bQNQ==";
+        };
+        _gWIpeamM = {
+            "id" = "gWIpeamM";
+            "file" = "hauntfurnace-fabric-0.5.9-1.21.1.jar";
+            "hash" = "sha512-EVVNhxlokRDb+umCLXN+u6Hc9fjhUdZRsJBay1Hx61hxu61+eH3nIdTzC+CYT8dkLloyXwfPlfUOrCC8M272uA==";
+        };
     in {
         "7Ld7KzxW" = _7Ld7KzxW;
         "ViSkkdZP" = _ViSkkdZP;
@@ -272,6 +282,8 @@ let
         "HSGOm8Ta" = _HSGOm8Ta;
         "IlORLyrY" = _IlORLyrY;
         "budwEo3G" = _budwEo3G;
+        "eoCbeQ3W" = _eoCbeQ3W;
+        "gWIpeamM" = _gWIpeamM;
         "fabric-1.20" = _1ll2Ek0w;
         "fabric-1.20.1" = _Gbu3Yyci;
         "fabric-1.21" = _59k2YRts;
@@ -280,7 +292,7 @@ let
         "fabric-1.19.2" = _JkkaXqml;
         "fabric-1.19.3" = _JkkaXqml;
         "fabric-1.19.4" = _JkkaXqml;
-        "fabric-1.21.1" = _W2vW6EN6;
+        "fabric-1.21.1" = _gWIpeamM;
         "fabric-1.21.5" = _budwEo3G;
         "forge-1.20.1" = _dZcveDh4;
         "forge-1.19.2" = _62aqLdlP;
@@ -292,7 +304,7 @@ let
         "forge-1.20.5" = _dZcveDh4;
         "forge-1.20.6" = _dZcveDh4;
         "neoforge-1.21" = _7hvSfrVo;
-        "neoforge-1.21.1" = _HSGOm8Ta;
+        "neoforge-1.21.1" = _eoCbeQ3W;
         "neoforge-1.21.5" = _IlORLyrY;
         "pkg-0.1-1.20" = _7Ld7KzxW;
         "pkg-0.1-1.20.1" = _ViSkkdZP;
@@ -316,7 +328,8 @@ let
         "pkg-0.5.7-1.21.5" = _I0nRp5vE;
         "pkg-0.5.8-1.21.1" = _HSGOm8Ta;
         "pkg-0.5.8-1.21.5" = _budwEo3G;
-        "default" = _budwEo3G;
+        "pkg-0.5.9-1.21.1" = _gWIpeamM;
+        "default" = _gWIpeamM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "haunt-furnace";

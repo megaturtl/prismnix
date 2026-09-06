@@ -531,6 +531,681 @@ let
             "file" = "saros_road_signs_mod-4.14.3.jar";
             "hash" = "sha512-k2RQKMjTg0v/4YnUnM0tXoI/cUjp/McQjHw7p2zS8bpyCdADMcdZHnyUHQX3ODAZq7f1yfu2o+dub2NunjsjXw==";
         };
+        _zPH2yPEo = {
+            "id" = "zPH2yPEo";
+            "file" = "saros_road_signs_mod-4.17.jar";
+            "hash" = "sha512-QTdH7Y4+J2/NeCtWUqLG61Bs1PxNkgq+PV4zOw4o8mgaW3Y1JKp+MotuJmvoqLk3JpeJTfbuFyZW1Xr8K9IsXQ==";
+        };
+        _xL5XjZEn = {
+            "id" = "xL5XjZEn";
+            "file" = "Saros-Road-Signs-Fabric-26.1.2-4.12.jar";
+            "hash" = "sha512-unaO4L8CdVVX9880FthfCZqYNBULpdrlO+HosCuxyXr6ltfGDTfKY9W22rF0ncI7IK4Wv4FEE/KUX1vUKIo2sg==";
+        };
+        _IUr73hGN = {
+            "id" = "IUr73hGN";
+            "file" = "Saros-Road-Signs-Fabric-26.1-4.10.jar";
+            "hash" = "sha512-4K4pNv3DlU/f3uEZPAkZIcm76xr/Q5h1biBRNH7SjzjMMiVs+pYNIlXm+zihNZRh1WL3Df4kfIwL3pYyzGkHOQ==";
+        };
+        _7AnfJCh4 = {
+            "id" = "7AnfJCh4";
+            "file" = "Saros-Road-Signs-Fabric-26.1.1-4.10.jar";
+            "hash" = "sha512-ZB6+vO+NbiOPrbl/1khDZVU7ppSVWG5ppjyQkzVuG3g8svWnR75etJXkIE2aUhOtdHTU1594kNcL/+QSNAgqjg==";
+        };
+        _jJ9UDjOV = {
+            "id" = "jJ9UDjOV";
+            "file" = "Saros-Road-Signs-Fabric-26.2-4.15.jar";
+            "hash" = "sha512-Ysby1odZDohG9AJnTL0G9xAgKQhNHhDDjCSGnLJBBLOtO+1ZskIAJhdIhuVkmAQ4wgmMnz/6qv4n3ElhD2cieQ==";
+        };
+        _zrZnzOJ7 = {
+            "id" = "zrZnzOJ7";
+            "file" = "Saros-Road-Signs-Fabric-1.21.11-4.18.jar";
+            "hash" = "sha512-adOg7qWdr3H7s9OJVw3713/E2XMFH6+PBwWHXaiKKQkk1C/3XjfddqJavdQAYZhvJCPQ0LVpQI+PwK1OLGdFbg==";
+        };
+        _gNrkilmp = {
+            "id" = "gNrkilmp";
+            "file" = "Saros-Road-Signs-Fabric-1.20.1-4.10.jar";
+            "hash" = "sha512-H5GR3copycXnCfEFw97nn1Lmlvj3rTsEh8CN+rjI8j46mhIFiObe91Ef6vMVZ4SFLxWLdjOyOsM2fih0rw1V6A==";
+        };
+        _gMVUQmI8 = {
+            "id" = "gMVUQmI8";
+            "file" = "Saros-Road-Signs-NeoForge-26.1.2-4.7.3.jar";
+            "hash" = "sha512-4dkBJnFCZi2dgVPz51lwxdnq6deC3Z4DiVO3Xc1o2a67dfeyc1QZLLmknQCA8MlGUQt8stJ0kBMlIPkrZ4DFxg==";
+        };
+        _b8BMSnlr = {
+            "id" = "b8BMSnlr";
+            "file" = "Saros-Road-Signs-NeoForge-26.1-4.8.jar";
+            "hash" = "sha512-bdonEEdr2Xr963426EEREWD2j5VJIyUamKKrGt+7bJDWZThLt84+rvs/Lc4Pm9DYJHg/o875qE8vso+7m7IJWQ==";
+        };
+        _VdM6foOx = {
+            "id" = "VdM6foOx";
+            "file" = "Saros-Road-Signs-NeoForge-26.1.1-4.7.3.jar";
+            "hash" = "sha512-YBFUZ/NM1EetwGwzVAXJCTNeov9HPwj27DfbWR4/B5ClxmR2uewCbd3yHeu1hySJ8CAa+T9endviH+FcYJQuZw==";
+        };
+        _cRXpWPXG = {
+            "id" = "cRXpWPXG";
+            "file" = "Saros-Road-Signs-NeoForge-26.2-4.8.4.jar";
+            "hash" = "sha512-lRq0C4OnLZjZ6yvGQMUp7A94BkxhwLMoQMVE1JasBqGddeqNVkGqBHzrCCrCex2BhPmj0FoaARwtrqIEAPaJDA==";
+        };
+        _QBMIMWxt = {
+            "id" = "QBMIMWxt";
+            "file" = "Saros-Road-Signs-NeoForge-1.21.1-4.13.5.jar";
+            "hash" = "sha512-fxFSN7Pjb7+Q749GBv/1sefauMNRay0ty37qa1JFQfuwqgh59XiJ4HPrwYe0GAhJtPyiRIZ550xMAikJx8v3WQ==";
+        };
+        _Hxx9KjIX = {
+            "id" = "Hxx9KjIX";
+            "file" = "Saros-Road-Signs-Forge-26.1.2-4.6.5.jar";
+            "hash" = "sha512-U9wJVVEh413Sv65fmM/JLNmuo82Qm0sRvDO0rJGjWvj9ZLIt+NelzYqDT/FxLYbmnaI+obf2J+a6HNlKW8DvSg==";
+        };
+        _JJL7s3vX = {
+            "id" = "JJL7s3vX";
+            "file" = "Saros-Road-Signs-Forge-26.1-4.6.5.jar";
+            "hash" = "sha512-U9wJVVEh413Sv65fmM/JLNmuo82Qm0sRvDO0rJGjWvj9ZLIt+NelzYqDT/FxLYbmnaI+obf2J+a6HNlKW8DvSg==";
+        };
+        _M1zd4nWe = {
+            "id" = "M1zd4nWe";
+            "file" = "Saros-Road-Signs-Forge-26.1.1-4.6.5.jar";
+            "hash" = "sha512-U9wJVVEh413Sv65fmM/JLNmuo82Qm0sRvDO0rJGjWvj9ZLIt+NelzYqDT/FxLYbmnaI+obf2J+a6HNlKW8DvSg==";
+        };
+        _C5OAwH9B = {
+            "id" = "C5OAwH9B";
+            "file" = "Saros-Road-Signs-Forge-26.2-4.6.6.jar";
+            "hash" = "sha512-XRorrzqJrYzP3oH23tPnyrVqx7i2iXlI79Auh/CiuAEyxJb8wg1X9LP0PqsT7SC0/E9JQtnBbxKmObKiATct3A==";
+        };
+        _dOz08bWX = {
+            "id" = "dOz08bWX";
+            "file" = "Saros-Road-Signs-Forge-1.21.11-4.9.jar";
+            "hash" = "sha512-L4nHqjw6dCNMq6T+J1G2ZG9FUJkhKCd4dfhKQkNdWiOehCRDxL0L/6275Uk/87J3th//Kmz31aZCGSGWIMZlcg==";
+        };
+        _CVCGnZzq = {
+            "id" = "CVCGnZzq";
+            "file" = "Saros-Road-Signs-Forge-1.21.10-4.10.jar";
+            "hash" = "sha512-EJMqS0rTZKY/NtPlIoj+7+faBrkQIE1vug/XFHpgNG2w6pYcEc292sCnfc2wXADFWCaQXwq5b5T0XJ3qi3htDg==";
+        };
+        _Hpj8dN00 = {
+            "id" = "Hpj8dN00";
+            "file" = "Saros-Road-Signs-Forge-1.21.9-4.9.jar";
+            "hash" = "sha512-1VSopu05zmZphc+i2bVer+o3Mu58bCtWhFNBU/Cnd5SnxPfaf2weadmjXyh8NlYtnLvM3JNhAyouXjA+830unw==";
+        };
+        _pr5cewO5 = {
+            "id" = "pr5cewO5";
+            "file" = "Saros-Road-Signs-Forge-1.21.8-4.7.jar";
+            "hash" = "sha512-5kws0j4kfVeAXevg6/0R+rH5oCTngVCmCUqwugu/k1uKgCNxSeTwBHjDW+L/ffJAiybbwR3gXfJwt87PAbnoVA==";
+        };
+        _nZczopRr = {
+            "id" = "nZczopRr";
+            "file" = "Saros-Road-Signs-Forge-1.21.7-4.7.jar";
+            "hash" = "sha512-2su/nyojCYg6UZR/1dXs1+LPiqq/bxBkROnto8Vm8XzMN9nNPK6PQrznkIYaVyR9tuCpyR0nIZ64Eh8Qh3h61A==";
+        };
+        _ewNVvHLU = {
+            "id" = "ewNVvHLU";
+            "file" = "Saros-Road-Signs-Forge-1.21.6-4.7.jar";
+            "hash" = "sha512-ntZI/yZU41bilfjErE2jaanXgqKMYd0ZlpeQPbVzGR3tYzKBFZL+ApEOuVT2+qX6aQA9VOXmKWxMC96xl7fz7w==";
+        };
+        _yVnkTMKC = {
+            "id" = "yVnkTMKC";
+            "file" = "Saros-Road-Signs-Forge-1.21.5-4.7.jar";
+            "hash" = "sha512-KmYCpaJNPcr9+I+tPAfnyX7npwFFYXa1VU5O/IANbtTSJjbQxkzH+nOD0KyeaMmqvpX72aXTqdCovbiJpM6A0g==";
+        };
+        _uxdzerqF = {
+            "id" = "uxdzerqF";
+            "file" = "Saros-Road-Signs-Forge-1.21.3-4.7.jar";
+            "hash" = "sha512-M4lgVIbBDwsrNHuDZoYaGcns5mdfyJsS+41A2Q6axTBcP7BuGKHHR8ywyjDd0R1tiI7cZ9c8Gy3RLn008/p2EA==";
+        };
+        _hMb85xZd = {
+            "id" = "hMb85xZd";
+            "file" = "Saros-Road-Signs-Forge-1.20.6-4.8.jar";
+            "hash" = "sha512-PsrjyahdvWJF4tfDmrx3Dfwdtg+sPiggHsuc+F2vO4t2CX4fDi7qMUyWQG8ofzihvH+BuUTgojSNK5aKveC8JA==";
+        };
+        _kLoIj6I6 = {
+            "id" = "kLoIj6I6";
+            "file" = "Saros-Road-Signs-Forge-1.20.4-4.8.jar";
+            "hash" = "sha512-0+Z36mjhaqFcrNS7pdtSTcU0uQTR5rAuS2VqdUBQO5xIYhgQnHaqbRW6AP20SVIMBLdmTpTYl1I+rWIzw9m1Gg==";
+        };
+        _uRRO44rH = {
+            "id" = "uRRO44rH";
+            "file" = "Saros-Road-Signs-Forge-1.20.1-4.10.jar";
+            "hash" = "sha512-x4rmLrSaM83icEYDHj0sTiQUhCeJQY2EWlLi1JrB2gsfdiu3O1oXl7A/bzGRqViRROOI8DxjlnflGz3ZEm868A==";
+        };
+        _wdC1V2Ho = {
+            "id" = "wdC1V2Ho";
+            "file" = "Saros-Road-Signs-Forge-26.2-4.6.6.jar";
+            "hash" = "sha512-XRorrzqJrYzP3oH23tPnyrVqx7i2iXlI79Auh/CiuAEyxJb8wg1X9LP0PqsT7SC0/E9JQtnBbxKmObKiATct3A==";
+        };
+        _tMsXJ99X = {
+            "id" = "tMsXJ99X";
+            "file" = "Saros-Road-Signs-Forge-26.1.1-4.6.5.jar";
+            "hash" = "sha512-U9wJVVEh413Sv65fmM/JLNmuo82Qm0sRvDO0rJGjWvj9ZLIt+NelzYqDT/FxLYbmnaI+obf2J+a6HNlKW8DvSg==";
+        };
+        _x7FqtD9a = {
+            "id" = "x7FqtD9a";
+            "file" = "Saros-Road-Signs-Forge-1.20.6-4.8.jar";
+            "hash" = "sha512-PsrjyahdvWJF4tfDmrx3Dfwdtg+sPiggHsuc+F2vO4t2CX4fDi7qMUyWQG8ofzihvH+BuUTgojSNK5aKveC8JA==";
+        };
+        _CztFEfbL = {
+            "id" = "CztFEfbL";
+            "file" = "Saros-Road-Signs-Fabric-26.1.2-4.12.jar";
+            "hash" = "sha512-unaO4L8CdVVX9880FthfCZqYNBULpdrlO+HosCuxyXr6ltfGDTfKY9W22rF0ncI7IK4Wv4FEE/KUX1vUKIo2sg==";
+        };
+        _7WA70N53 = {
+            "id" = "7WA70N53";
+            "file" = "Saros-Road-Signs-Forge-1.20.1-4.12.jar";
+            "hash" = "sha512-cXYDBsHoTwxjaIUXn4yxWUDPIwWUJZ0C72OaCEh42FbLSkc1eeYjPepNzOQ+1xCCbRChWTyJqQS5p0HYArmLMQ==";
+        };
+        _iMnoJt4I = {
+            "id" = "iMnoJt4I";
+            "file" = "Saros-Road-Signs-Fabric-1.20.1-4.11.jar";
+            "hash" = "sha512-LJe00XVO/w/qcXh6VS8D8QFPjCkAKt4FmI00WmEeXqCuDTxCe4DxIck8+pL2YHtM0ZHykKlpXDMpKS4y2PW28w==";
+        };
+        _LNLlHRRY = {
+            "id" = "LNLlHRRY";
+            "file" = "Saros-Road-Signs-Forge-1.20.4-4.9.jar";
+            "hash" = "sha512-BD6zbhsFm/D8biYn/oSDNYIWiYDErtEv8TY6fcHh+nlQDOJXNhCKj14gZkEKca0xRPYeyZJ744GeCJzZ6qJkcw==";
+        };
+        _wgkGOPm5 = {
+            "id" = "wgkGOPm5";
+            "file" = "Saros-Road-Signs-Forge-1.20.6-4.9.jar";
+            "hash" = "sha512-eff3zqIirO+99Ayi4L7qmIWGMtWmYc3O06unQS4TSD4eY9y2RFWt1RY/UxpY7CeZbPgctWrjNxjxZm5l5f9wVw==";
+        };
+        _RmiuazDk = {
+            "id" = "RmiuazDk";
+            "file" = "Saros-Road-Signs-NeoForge-1.21.1-4.14.6.jar";
+            "hash" = "sha512-tu3J9ijs7X+lWalDy4pSeoc6qhKuxvqlfcHzw6jaadSlrrgEEh1z7MlCj6XuUCIQuQ4xZzGS2tSh1r58ohJr6Q==";
+        };
+        _1gU8b7al = {
+            "id" = "1gU8b7al";
+            "file" = "Saros-Road-Signs-Forge-1.21.3-4.8.jar";
+            "hash" = "sha512-6ydphqYxKLEG5vK/ISO+cTGxqOq+tnEkuOqZTXvig/8z3IuuS6uEwBZrmZg3OvYyOyADsf/rNxO3YEeNs3Y7sg==";
+        };
+        _3urvVLfI = {
+            "id" = "3urvVLfI";
+            "file" = "Saros-Road-Signs-Forge-1.21.5-4.8.jar";
+            "hash" = "sha512-vcgRdafLRac0xmvqgGpa6LKgC8C6gcEAjX0yUMDR6xcsRU2IG7kKK6PqjAaw651CyNy42Xlteu+K8Txzdq5JBA==";
+        };
+        _RQPfiidu = {
+            "id" = "RQPfiidu";
+            "file" = "Saros-Road-Signs-Forge-1.21.6-4.8.jar";
+            "hash" = "sha512-l4SxGEm8IU66/iWh2yIQEcYzZj39rn/68S45VK2kHrkHAkXWdRg8FkiFToOj4wKejiGdXM5KqBIUfkxElseKlg==";
+        };
+        _UsxblrTa = {
+            "id" = "UsxblrTa";
+            "file" = "Saros-Road-Signs-Forge-1.21.7-4.8.jar";
+            "hash" = "sha512-Yqj8D5RamRbrFMd6c8LtpiybhZAWUbfPlylYBJ3JBby5Y+WChiyd+nP7qUERCZ4lEDt+0xfOB34EOxVs/sLJfQ==";
+        };
+        _SuIbEPh0 = {
+            "id" = "SuIbEPh0";
+            "file" = "Saros-Road-Signs-Forge-1.21.8-4.8.jar";
+            "hash" = "sha512-IJvaTYxLKNu1ZumizHIqm2gOx/DMNt5QfYnN6rF7Ke4RmyQOhQkisbK8o4denzBgM+fyDOMQ3a9QNARN5alkRA==";
+        };
+        _Gi6SceKc = {
+            "id" = "Gi6SceKc";
+            "file" = "Saros-Road-Signs-Forge-1.21.9-4.10.jar";
+            "hash" = "sha512-EXj2U0iex5uKTCw2Xgl9bxuLNYB3pCpT3VHpioOO/MeqWgJER6OXxF3uyD2+vBG1TjzOOI+n5vC1k/1OnGYttg==";
+        };
+        _38oRxtEO = {
+            "id" = "38oRxtEO";
+            "file" = "Saros-Road-Signs-Forge-1.21.10-4.11.jar";
+            "hash" = "sha512-/ChrJTkoBIfSO7kYMK4EHgk2X+87Wd1AtjEs9dvqS7S3S6V9EVl9KdnP0LbzCxg0N8T/r8F9/YpOn1F9hfOK3A==";
+        };
+        _Q8dYt5SQ = {
+            "id" = "Q8dYt5SQ";
+            "file" = "Saros-Road-Signs-Forge-1.21.11-4.10.jar";
+            "hash" = "sha512-WT6SuPtQ+P85rpAavj8twizW6Hc4RtIqUpSrr9gNR7Z50tWJjeZHCyqQDRiO1cmOdFY9KPCzUMYoWsvi+b4OKA==";
+        };
+        _F3CSHuLF = {
+            "id" = "F3CSHuLF";
+            "file" = "Saros-Road-Signs-Fabric-1.21.11-4.19.jar";
+            "hash" = "sha512-LK7hnpKVXS2/wt5EV631Q+Ezainzk8gkNZ8pdKCIDYUZ7HSApVNlomAwLOuDG2SAD65txkH8SqG5HjMiuldSxA==";
+        };
+        _Dy20t0qu = {
+            "id" = "Dy20t0qu";
+            "file" = "Saros-Road-Signs-Forge-26.1-4.6.6.jar";
+            "hash" = "sha512-sf0IBYZIfFaWYHqjFWbJUxdZNvTLZptxRgcdEI6IS9qkfwP1BHi3A7jEOhinXUZzNTcJyFDXca7FmXpRNrEYTw==";
+        };
+        _tXTiPCqq = {
+            "id" = "tXTiPCqq";
+            "file" = "Saros-Road-Signs-NeoForge-26.1-4.9.jar";
+            "hash" = "sha512-LYY4GYZzJ71Ruv2lH8M7P3I2oXnOdXfjAqMtDBIx5c+mxuogQri6A5Hg8CL+iKoo5sbOyfytOPlzaGoHnULpbQ==";
+        };
+        _ZT4MQGr9 = {
+            "id" = "ZT4MQGr9";
+            "file" = "Saros-Road-Signs-Fabric-26.1-4.11.jar";
+            "hash" = "sha512-Ww3Og8SXcH2S0O6BfqhMEVnHk486BVwp90XHbyEGulOAXMeLeapqF4qMUBOuIn0l4wxA7kkiP0EnK+pNbbm4ww==";
+        };
+        _T8F5lo3v = {
+            "id" = "T8F5lo3v";
+            "file" = "Saros-Road-Signs-Forge-26.1.1-4.6.6.jar";
+            "hash" = "sha512-sf0IBYZIfFaWYHqjFWbJUxdZNvTLZptxRgcdEI6IS9qkfwP1BHi3A7jEOhinXUZzNTcJyFDXca7FmXpRNrEYTw==";
+        };
+        _F046BjhO = {
+            "id" = "F046BjhO";
+            "file" = "Saros-Road-Signs-NeoForge-26.1.1-4.7.4.jar";
+            "hash" = "sha512-pVoGrTipIuKw+NDQCiq0evr99HC9qLRdSs+tHeqO4sVE4N69IWQwwqYLoBrC9O8aM9b49DJrhDqOy6etRrkOJg==";
+        };
+        _QW3fO0p5 = {
+            "id" = "QW3fO0p5";
+            "file" = "Saros-Road-Signs-Fabric-26.1.1-4.11.jar";
+            "hash" = "sha512-k8cBScK0w5z3NjzV+9XS9m2fmaECRIUDxieBpPCJZA+sx8r777ijWIrIAp+dN9+zDm9L40wIA0PABn2omGBbIg==";
+        };
+        _SXxZgjJs = {
+            "id" = "SXxZgjJs";
+            "file" = "Saros-Road-Signs-Forge-26.1.2-4.6.6.jar";
+            "hash" = "sha512-sf0IBYZIfFaWYHqjFWbJUxdZNvTLZptxRgcdEI6IS9qkfwP1BHi3A7jEOhinXUZzNTcJyFDXca7FmXpRNrEYTw==";
+        };
+        _h1dDOsgv = {
+            "id" = "h1dDOsgv";
+            "file" = "Saros-Road-Signs-NeoForge-26.1.2-4.7.4.jar";
+            "hash" = "sha512-iX9piVLbChoH0OUldxOS4Xv7AcIyoLseNO7gqE6JCXmwvpZzU/FaGWGUjNNpInaXgryL+VUlRJvm3L7AIY0Kfg==";
+        };
+        _tywlA3HW = {
+            "id" = "tywlA3HW";
+            "file" = "Saros-Road-Signs-Fabric-26.1.2-4.13.jar";
+            "hash" = "sha512-H8dtm4Rd2euO9CQtGyNXTH2MyN+X31/AUv2V9wksCRwp3rni1gqc/VEk/ScfM5/IMybu2wnqouLrYg97azVT/A==";
+        };
+        _rnLeZqZE = {
+            "id" = "rnLeZqZE";
+            "file" = "Saros-Road-Signs-Forge-26.2-4.6.7.jar";
+            "hash" = "sha512-Ib84+0f4Pxp9dkQiB3n2LyTFcvSUd0ekkSds8VktLGDLfAl9tyGr8V1PTOs7NvAdw+svj+NuIKJt6wajePSbXg==";
+        };
+        _idzjN4DF = {
+            "id" = "idzjN4DF";
+            "file" = "Saros-Road-Signs-NeoForge-26.2-4.8.5.jar";
+            "hash" = "sha512-3/QQhE0xWd0iCCVBa5rGc2Ed3fmfGk2YtCj561gw4Tzn6pfApDrVgtR/R9lBcFpIZt91RpDRH9SlAdK97mwa7A==";
+        };
+        _BifM7mrs = {
+            "id" = "BifM7mrs";
+            "file" = "Saros-Road-Signs-Fabric-26.2-4.16.jar";
+            "hash" = "sha512-UgzKIV0Ue0U9xSzRlWyQ6FxAYR1UaclU7j0G8iRaOmHsrukwILAktEITvbcejPMZxO+BQyZfIBznfkjs5iMxHg==";
+        };
+        _wE9RrH2E = {
+            "id" = "wE9RrH2E";
+            "file" = "Saros-Road-Signs-Forge-1.21.1-4.13.6.jar";
+            "hash" = "sha512-KbFLLfzHhEbIrr+F5/OyA2pOlqX4vQoAkKlP+d/jBQp4SkXsEaP6BGmMitg/gursu/4dRdf38mTjzW3OOVm9ZA==";
+        };
+        _U7ZVFtgP = {
+            "id" = "U7ZVFtgP";
+            "file" = "Saros-Road-Signs-Fabric-1.21.10-4.9.jar";
+            "hash" = "sha512-KARE5LNvug5Ztc73Ix5tnuEXQjcbtmKD5w0SY7kr7YbbfFyWnA7sGPYhxmB5sDPKthURKljfcayo+XGRpAAKeQ==";
+        };
+        _qeMTaqMM = {
+            "id" = "qeMTaqMM";
+            "file" = "Saros-Road-Signs-NeoForge-26.2-4.8.6.jar";
+            "hash" = "sha512-7vfwkAV8syT2UrbZk1ewqwuUzzpCKzrKP2twFUqadHDpSEJ3Hs+wy/T7ysoMZm0s9pp0Iee0vbK5M9Qhkb9pOQ==";
+        };
+        _eO4iKzKr = {
+            "id" = "eO4iKzKr";
+            "file" = "Saros-Road-Signs-Forge-26.2-4.6.8.jar";
+            "hash" = "sha512-vBlNoZyIZUMQ/WEuf1TECp0ZqVNKvnKtQ+FKRv/g3QdYfQNUhK+zD0wszSMkgoNJdQYtVoucjWj06gajp8+uQw==";
+        };
+        _AP9UCHgv = {
+            "id" = "AP9UCHgv";
+            "file" = "Saros-Road-Signs-Fabric-26.2-4.17.jar";
+            "hash" = "sha512-vwxEUlhfpCA2lwSgR8fT34ankmHCwZi25+hI3HTbyfzl7j9j8e8qrr/kH1HGFtPnZinToXo8coln2p7ZJJiDhg==";
+        };
+        _pv8rXYb8 = {
+            "id" = "pv8rXYb8";
+            "file" = "Saros-Road-Signs-Forge-1.20.1-4.13.jar";
+            "hash" = "sha512-fu9okYXpvF6clMTBLzV9Wi0sRpWTXcJYaAg27pY8E5S7V1nJs02shK5xJRvv0xNJmqr8TWjy/O0ePPLLXZd+aQ==";
+        };
+        _FyXOHOuh = {
+            "id" = "FyXOHOuh";
+            "file" = "Saros-Road-Signs-Fabric-1.20.1-4.12.jar";
+            "hash" = "sha512-kgrazI1DbJkPxwpI/MY+meSJuPwYU/xKkNjZP86cQ7WGdJR0TlhOQHszH8wGwIikp/11srF8whIPNZknBLZ9hw==";
+        };
+        _gPEmXXjG = {
+            "id" = "gPEmXXjG";
+            "file" = "Saros-Road-Signs-Forge-1.20.4-4.10.jar";
+            "hash" = "sha512-JgGwha/RKZhhIvRnE8J2N4w6bOjj1M51aA5grLOTx3e7jwhR+uCRikedYNy19wXuPeXjr7Sb3E1Vj68uTtRZuQ==";
+        };
+        _u4ffSiu0 = {
+            "id" = "u4ffSiu0";
+            "file" = "Saros-Road-Signs-Forge-1.20.6-4.10.jar";
+            "hash" = "sha512-Y7vPKQgQWW6gV8I39o3U3D+JjqTNdP+rujKdmE+z/XBB0NCd6r+b2axH0q8cpFJbCYpOCSeSfeBQBqHYQ7Osnw==";
+        };
+        _8KYhMJw5 = {
+            "id" = "8KYhMJw5";
+            "file" = "Saros-Road-Signs-Forge-1.21.1-4.13.7.jar";
+            "hash" = "sha512-98hKzMxXHHaAdcH1pdhlHgt55lGGdF42Ekz2igQtEwS3GbYJ4Ah+w5sjbzjTUkVdpBnd/Xy7NmytIAzN4/K/YA==";
+        };
+        _ujO6OAYY = {
+            "id" = "ujO6OAYY";
+            "file" = "Saros-Road-Signs-NeoForge-1.21.1-4.14.7.jar";
+            "hash" = "sha512-7Z1ByrZUS9zrex5nlLtvfvL+W+lt/OwsfKyR/DJIXSnYx6GBrE4KN+13+UpRZmxUyYtVpT+5sg2H1ku6SDYGCQ==";
+        };
+        _wXdFUEMv = {
+            "id" = "wXdFUEMv";
+            "file" = "Saros-Road-Signs-Forge-1.21.3-4.9.jar";
+            "hash" = "sha512-AIwLLMWLhnLWR8bfA/sKnKLh6amkhDJJVKGpBTqqwYdqvZhEaOHumNv9bk77lUHGrdJlRXyM+iuCKvFEZfs0IA==";
+        };
+        _gUh9O2Dv = {
+            "id" = "gUh9O2Dv";
+            "file" = "Saros-Road-Signs-Forge-1.21.5-4.9.jar";
+            "hash" = "sha512-kkRLfha5xnnv/SN9CAY51S3LPzehv2GptXIs81bGv84mlDG4xEcqgvB6SVPKEvJK7oBM22E+nAbWcXAnEW5WKw==";
+        };
+        _uNIhJ9W6 = {
+            "id" = "uNIhJ9W6";
+            "file" = "Saros-Road-Signs-Forge-1.21.6-4.9.jar";
+            "hash" = "sha512-a0ZTJ/Os9/U75A8x1DaIzi5F6YqwpQb0e5PtTqNxH3DQsfVnE/ORSHZOJ64d6J8s/SjkgzQu1L1UfqKRhtWIuA==";
+        };
+        _e2kcJNw2 = {
+            "id" = "e2kcJNw2";
+            "file" = "Saros-Road-Signs-Forge-1.21.7-4.9.jar";
+            "hash" = "sha512-9DS7uWHcM3Gbcf1QyWN38X5/UXwEeQ8nu4fzN5AJK8GZN4JmC3UAGw6NMLRhzVStzns+TgO4PuygB4KKhqL3TQ==";
+        };
+        _5mOXpTmN = {
+            "id" = "5mOXpTmN";
+            "file" = "Saros-Road-Signs-Forge-1.21.8-4.9.jar";
+            "hash" = "sha512-47jMzhMDRD0rIx4SMAsJjnh0ogqgW6q17NsHW3J83kP8g94TNd8I/dnun9p+ZruwSpkUD2CcaIJa8sa0WqFplg==";
+        };
+        _9HFDx5Xk = {
+            "id" = "9HFDx5Xk";
+            "file" = "Saros-Road-Signs-Forge-1.21.9-4.11.jar";
+            "hash" = "sha512-KgVis5W6q076Mj5aWVAg132ePXeu/3GzfEvnQU4E5ww85vmdJsVpqPSfnkKVoORoA+9WWq8lNZW24eUUw9BhUg==";
+        };
+        _luNmxvXY = {
+            "id" = "luNmxvXY";
+            "file" = "Saros-Road-Signs-Forge-1.21.10-4.12.jar";
+            "hash" = "sha512-BKH0CD8N/ZxxcNUEQOiYL6LUZJ7MrxZd97HN9/Ll50N1/b0DhB27E6/2lhtSHe/OwUxu8vzeQF1RIxlsIvbvwA==";
+        };
+        _1QndFznO = {
+            "id" = "1QndFznO";
+            "file" = "Saros-Road-Signs-Fabric-1.21.10-4.10.jar";
+            "hash" = "sha512-69PyNGv0+uKepQY8HyNBZstqddsKnVQDCmOhuSqT/g/3iUEBpIVAYf6+fwT75Cnmql6Ji3T1u4FrO0/Dsbm7eQ==";
+        };
+        _6l77oqQ0 = {
+            "id" = "6l77oqQ0";
+            "file" = "Saros-Road-Signs-Forge-1.21.11-4.11.jar";
+            "hash" = "sha512-ABgyWXYboAjOq0rsPPJMTrW5pISpzu2LVs0LsmvuY0Ip+2+qr9W33y8D2lwGR7tNIal6t5vy6b7Vai4FrDnD2Q==";
+        };
+        _sYLeXP97 = {
+            "id" = "sYLeXP97";
+            "file" = "Saros-Road-Signs-Fabric-1.21.11-4.20.jar";
+            "hash" = "sha512-Ooi3L7+uASzFqlWQa7jNcxwGNA5SyId29G2L6E6zHpP8dT+Cbb4VU8SKDxEc58bgW9Z+Gs4knkdfG9drgr9bYw==";
+        };
+        _84FgXDcb = {
+            "id" = "84FgXDcb";
+            "file" = "Saros-Road-Signs-Forge-26.1-4.6.7.jar";
+            "hash" = "sha512-ryN5Z/qJGrsd72V3A2HNHBOR8Mss4oBDXrbFX9767UCa4Raydw7hDAIBx+NxgGyggljOy/p4ZFjCa1Zf7CesUw==";
+        };
+        _MbG56NnL = {
+            "id" = "MbG56NnL";
+            "file" = "Saros-Road-Signs-NeoForge-26.1-4.10.jar";
+            "hash" = "sha512-STQJ/exihp5wDA52DbdxY0Tbfx1JoyQ/f+i8o57GYz+ZymflrsPRCVLatb7t8mdWGHRjFod2Vy/yXU9lz8r3zQ==";
+        };
+        _zJm0rpyv = {
+            "id" = "zJm0rpyv";
+            "file" = "Saros-Road-Signs-Fabric-26.1-4.12.jar";
+            "hash" = "sha512-Z1Uty6ANAlT61ZaomtRqvoFB/wnlo6/EPQT9FNre2aKRBlvfhwUwKa+3bLqnKamZ3KvSMgOyLcv93/M/ropGQg==";
+        };
+        _ednCqa9B = {
+            "id" = "ednCqa9B";
+            "file" = "Saros-Road-Signs-Forge-26.1.1-4.6.7.jar";
+            "hash" = "sha512-ryN5Z/qJGrsd72V3A2HNHBOR8Mss4oBDXrbFX9767UCa4Raydw7hDAIBx+NxgGyggljOy/p4ZFjCa1Zf7CesUw==";
+        };
+        _HShQiw8P = {
+            "id" = "HShQiw8P";
+            "file" = "Saros-Road-Signs-NeoForge-26.1.1-4.7.5.jar";
+            "hash" = "sha512-cHY3LivZ3oaPj1Kg6mSkjZa4l9Cx+l4DWzFTLiC7Lmr3alQ0O82x441LlxmtWjvuYs0Jj+vPPMtFL7kh5G0Cxw==";
+        };
+        _rs7o3zYd = {
+            "id" = "rs7o3zYd";
+            "file" = "Saros-Road-Signs-Fabric-26.1.1-4.12.jar";
+            "hash" = "sha512-LgjXtrq16N1cqzMi2y6N/nwrzCnMHw6kEnGCgCoO6ntRQqnWGDGzTi9f4mRXyIk6cgL5ASlcfHNA9DR3mjbn9g==";
+        };
+        _UevR3mOI = {
+            "id" = "UevR3mOI";
+            "file" = "Saros-Road-Signs-Forge-26.1.2-4.6.7.jar";
+            "hash" = "sha512-ryN5Z/qJGrsd72V3A2HNHBOR8Mss4oBDXrbFX9767UCa4Raydw7hDAIBx+NxgGyggljOy/p4ZFjCa1Zf7CesUw==";
+        };
+        _XIzawV5E = {
+            "id" = "XIzawV5E";
+            "file" = "Saros-Road-Signs-NeoForge-26.1.2-4.7.5.jar";
+            "hash" = "sha512-1oivaQhjdJzX1WPQ1GIaWtUAKGO+FFucoZWvMSkLcphIepZawgGTVtlPcHYxwFQ+uL4mgGcS3ZKC+5ISEdif4w==";
+        };
+        _DzmrzSzw = {
+            "id" = "DzmrzSzw";
+            "file" = "Saros-Road-Signs-Fabric-26.1.2-4.14.jar";
+            "hash" = "sha512-7b5nZdZEj3UNr6sa+ghywJdC8C36Sg9kEMjdThLrp6SbKwc5wkDJX8epAaKH5xH350b2FFynFT28rW+3TZarlA==";
+        };
+        _CpALhMq0 = {
+            "id" = "CpALhMq0";
+            "file" = "Saros-Road-Signs-Fabric-1.20.1-4.13.jar";
+            "hash" = "sha512-uL9tkqcpuJUAL5+5jGUXnANvK9zZSfx7vSVw1H39FK+4c4dP/FwV/tZHnEIDLUM4Ie6I8z88d0kgv9WZ0IW3kw==";
+        };
+        _j6XGoJex = {
+            "id" = "j6XGoJex";
+            "file" = "Saros-Road-Signs-Fabric-26.1-4.13.jar";
+            "hash" = "sha512-owPcNrRI0L2KW6Ca7DPdWbiY01G51MVrOkYmyBvYVtbLK6qnCcMUbATEgWJVdL8qUal/SpBvVliEYk2nFdrpNw==";
+        };
+        _LXVkH701 = {
+            "id" = "LXVkH701";
+            "file" = "Saros-Road-Signs-Fabric-1.21.10-4.11.jar";
+            "hash" = "sha512-xFak+9Ksxws/+q7XwJBJdmpEZH5G/E05BaVgZ534LwUv2f5mg3/nRq4dsYeSBPwQz3z9t0tWD/AuLhcKwUhTOg==";
+        };
+        _lVdmt3pX = {
+            "id" = "lVdmt3pX";
+            "file" = "Saros-Road-Signs-Fabric-1.21.11-4.21.jar";
+            "hash" = "sha512-1hTOJ2fSc+apb8kEvpUdyhvNOcfxBeQ4s6RgnWtsuBMrl5nA/80aPyyQj5Z9vw5Olkl5Synu0KIqg8BlW1gw9w==";
+        };
+        _Hts06XP1 = {
+            "id" = "Hts06XP1";
+            "file" = "Saros-Road-Signs-Fabric-26.1.1-4.13.jar";
+            "hash" = "sha512-5O6eebOqXLTHspHQWFM6Ynyc2ItQKom9gfTrFHIs3ag7bd2WHRhKqRqYLQYSc2UFu5z8ygllyGCImOCdFNNx9w==";
+        };
+        _OGAqeSFS = {
+            "id" = "OGAqeSFS";
+            "file" = "Saros-Road-Signs-Fabric-26.1.2-4.15.jar";
+            "hash" = "sha512-1Fsljh3Mh8vwiPrr6Q4X6rOMW+2s5YkGfLQwykBWS1wOkl6oORRVMAxbV8HE3HtKGvqgXyRgc+hlYOyDl2p+1Q==";
+        };
+        _TjRF7Eun = {
+            "id" = "TjRF7Eun";
+            "file" = "Saros-Road-Signs-Fabric-26.2-4.18.jar";
+            "hash" = "sha512-f/PXkFPJzJ4hkqAVQ6GdmsT5UeNf9IOctpZk/lwbpqoEjfna88fkfuZg6bDjYmZcCm2tCiAFcxVCKPZzOtlO8Q==";
+        };
+        _gD7T9d21 = {
+            "id" = "gD7T9d21";
+            "file" = "Saros-Road-Signs-Forge-1.20.1-4.14.jar";
+            "hash" = "sha512-7hZ4MYvISroQ+Z24oyPQ3B9gN0CQOhO7l8TPCn5z79ym/0ZVq8CJbuyyIHz3jLpdeUMRmrxl1lcyy/V85XJmyw==";
+        };
+        _bESREfJ1 = {
+            "id" = "bESREfJ1";
+            "file" = "Saros-Road-Signs-Forge-1.20.4-4.11.jar";
+            "hash" = "sha512-T2FSYXrJMhT0MDfXA9+qM5vW63Ca5/UI3B41A+CjkZ9iQ0jS72zS1OR/f13Ak6sm5UCPoL+tHtftlYkZiW0ygA==";
+        };
+        _n9tdJWT7 = {
+            "id" = "n9tdJWT7";
+            "file" = "Saros-Road-Signs-Forge-1.20.6-4.11.jar";
+            "hash" = "sha512-sj5gzbprwDMEY54YNprloaXyThTBLelfEFTpyNtHvX9/mfN2EussP1/hz5+y2/ySXPvZPeW8qcfZ1p1VQKq7fw==";
+        };
+        _Uai1h8Gt = {
+            "id" = "Uai1h8Gt";
+            "file" = "Saros-Road-Signs-Forge-1.21.1-4.13.8.jar";
+            "hash" = "sha512-vLFmcXZ6YZ07IrP1z1M/D9TvQKIv9MBlboRBYFqICwyaSgW1GQV4Sgz4/VE/RuIYJsolUvhbTHioT64iaHP0jg==";
+        };
+        _T6PVdTGo = {
+            "id" = "T6PVdTGo";
+            "file" = "Saros-Road-Signs-Forge-1.21.3-4.10.jar";
+            "hash" = "sha512-zRu2hUR4pPmx/55wLX6UGq5KBVVvAuC5cWSwqn5w9iJvgCeCj1zxHzRRmEbxNPCoOnaG861j8Req5T8KCmc06A==";
+        };
+        _V3GyzNzp = {
+            "id" = "V3GyzNzp";
+            "file" = "Saros-Road-Signs-Forge-1.21.5-4.10.jar";
+            "hash" = "sha512-W/jbdTxAm4nPrw3p+n3WOdLRbQJRepxvqZdYNiRg4m8PRKt8X22+dpTqAXZ0oDHSPiMbNGmSF71c9xiyK7sYQw==";
+        };
+        _YvkO5LEC = {
+            "id" = "YvkO5LEC";
+            "file" = "Saros-Road-Signs-Forge-1.21.6-4.10.jar";
+            "hash" = "sha512-kkfYvffgVUZc4tYB6CScSFFENd/Q/WoSODRl4+R6YoiZ8iDW3xsRRs58bsxqmGzNLynFQDS9b1MlowVHUb9HLA==";
+        };
+        _AY57iUwV = {
+            "id" = "AY57iUwV";
+            "file" = "Saros-Road-Signs-Forge-1.21.7-4.10.jar";
+            "hash" = "sha512-y0lR4yZ8u9Go3Qu41BkVUUQtOghRH5ISwVD87ksUpOnbgnwMWC04rHAXAeQILBFl4aCtBhG7OT/3740uYmENDQ==";
+        };
+        _hifQNabQ = {
+            "id" = "hifQNabQ";
+            "file" = "Saros-Road-Signs-Forge-1.21.8-4.10.jar";
+            "hash" = "sha512-DuUERJu2+hKRUQUajHqxhads1fw4q+uatil9i5oPRwf+Tzo0ZOtj1mh3KCKFB8N+LxTy8/Gww5goRYeepkKmVA==";
+        };
+        _Aj0EMc5W = {
+            "id" = "Aj0EMc5W";
+            "file" = "Saros-Road-Signs-Forge-1.21.9-4.12.jar";
+            "hash" = "sha512-lNWSD8cUngbA0AeoPfM9cOqL5X1048atI3gfRBg4DEIyxYZE/hotu5ZpKA7P8CQiusIq44l1OeaNjrh0vniAYA==";
+        };
+        _4vRSI6pu = {
+            "id" = "4vRSI6pu";
+            "file" = "Saros-Road-Signs-Forge-1.21.10-4.13.jar";
+            "hash" = "sha512-dFEA87DHVtsuyQoNM3PMpNTooXw/CgJiill68hGImoUyBlJWyK1CM4W3hoq2j7bVlpgeR5FOx144IonUOobM0g==";
+        };
+        _qpAA3Q6D = {
+            "id" = "qpAA3Q6D";
+            "file" = "Saros-Road-Signs-Forge-1.21.11-4.12.jar";
+            "hash" = "sha512-10L0gALXXj0iSaZfxynM2hhCtsi6SSr4kQ2WZ6ksLIm+4d3883bE4jHpF6DQc0cKxBwiJPLz97lhJ2YHppRxkQ==";
+        };
+        _trEghnN9 = {
+            "id" = "trEghnN9";
+            "file" = "Saros-Road-Signs-Forge-26.1-4.6.8.jar";
+            "hash" = "sha512-+e9H+mGHReJg3p+4J9aVlQ0jWcn+Bi7EJ7Ks1q2clZNIDmDYWtJne9uG7fa4OVIj39lUSINhA08YJrJwsGtPPQ==";
+        };
+        _KXTEz9IE = {
+            "id" = "KXTEz9IE";
+            "file" = "Saros-Road-Signs-Forge-26.1.1-4.6.8.jar";
+            "hash" = "sha512-+e9H+mGHReJg3p+4J9aVlQ0jWcn+Bi7EJ7Ks1q2clZNIDmDYWtJne9uG7fa4OVIj39lUSINhA08YJrJwsGtPPQ==";
+        };
+        _a6NVJvL3 = {
+            "id" = "a6NVJvL3";
+            "file" = "Saros-Road-Signs-Forge-26.1.2-4.6.8.jar";
+            "hash" = "sha512-+e9H+mGHReJg3p+4J9aVlQ0jWcn+Bi7EJ7Ks1q2clZNIDmDYWtJne9uG7fa4OVIj39lUSINhA08YJrJwsGtPPQ==";
+        };
+        _nSwqE14W = {
+            "id" = "nSwqE14W";
+            "file" = "Saros-Road-Signs-Forge-26.2-4.6.9.jar";
+            "hash" = "sha512-VlJYria75+dQcuOP8NL0xrjPms/tziix64+qBIWzs7nt5B3fIxIWkR5/FsnBwqc0ag+B5o6q6/C98tRfFOvlRQ==";
+        };
+        _wlrZ1arz = {
+            "id" = "wlrZ1arz";
+            "file" = "Saros-Road-Signs-NeoForge-1.21.1-4.14.8.jar";
+            "hash" = "sha512-LR08tWJgfgATGAYGKruPd9PlnmawcOLzXKWRo2O0TazgZ4Pgl6oY5oqoykEldIXyc0gsYk0Z2ngdP1DzpZVPjQ==";
+        };
+        _ebyjjB0m = {
+            "id" = "ebyjjB0m";
+            "file" = "Saros-Road-Signs-NeoForge-26.1-4.11.jar";
+            "hash" = "sha512-GWNtCGnSygBkkfj+Kscj8jeDLd5IxcX5CpsoJJRINrSRiSHUSOYz+dtKX0yp+8RtCxFUGTjd4tiXOZKUJpmT/Q==";
+        };
+        _3TVB1Xfv = {
+            "id" = "3TVB1Xfv";
+            "file" = "Saros-Road-Signs-NeoForge-26.1.1-4.7.6.jar";
+            "hash" = "sha512-5QkLhnQTB6ryz9ZFbpD96G5884egn4DbWRrwrxhg8YUC/hsV7pL4jDHl7G/unL+XgRwYsnZ8L/8CZD3bPWC/Rg==";
+        };
+        _UgFPuGPY = {
+            "id" = "UgFPuGPY";
+            "file" = "Saros-Road-Signs-NeoForge-26.1.2-4.7.6.jar";
+            "hash" = "sha512-KFpa4XRkiVGDWLjgW2lLwT02kQtr+RwDqatzE64yJnhRu2NewNAUd1CDKXLyt2oly3u96eRYhq/FEbTlBiDc6A==";
+        };
+        _8JczdEsL = {
+            "id" = "8JczdEsL";
+            "file" = "Saros-Road-Signs-NeoForge-26.2-4.8.7.jar";
+            "hash" = "sha512-/6Okx+6RY3PvoDEuKqB9V1EFL48IC2RMJSPZeyk/D2EGigtDdHCpx81vEdV1P+Jpw8Ncz9gCZM5wTpaULecPsQ==";
+        };
+        _q5agiTlF = {
+            "id" = "q5agiTlF";
+            "file" = "saros_road_signs_mod-4.12.jar";
+            "hash" = "sha512-QbnRAy2pwI9fVibnE0HW1rWjold4rFXjZvX6Kxl4KXyNFdA17Ag3+WWqpJTTvmLhEuh3qjumaPA3Q7I2/qubeQ==";
+        };
+        _PSbCvqMZ = {
+            "id" = "PSbCvqMZ";
+            "file" = "saros_road_signs_mod-4.14.9.jar";
+            "hash" = "sha512-xeslaPlhiDtriJJCNoLddXoEdTyZlhAUjCFrRFrE1AMjifJ1AcY2nT+HsgsuPkFXNXPB5mVobaQa05DxEBvqPQ==";
+        };
+        _z2YXP2ME = {
+            "id" = "z2YXP2ME";
+            "file" = "Saros-Road-Signs-Fabric-1.21.1-4.20.jar";
+            "hash" = "sha512-lyh7h7Dehq8gwd51j18APxtquWRFKzsyuKfU9g9ptQj6XhmIu7xjUAcBdREJL3VUYlETu4S9EKueQspX1WlBig==";
+        };
+        _sk5nCwid = {
+            "id" = "sk5nCwid";
+            "file" = "Saros-Road-Signs-Fabric-1.21.10-4.13.jar";
+            "hash" = "sha512-t3Q1da68vWoZiuS8ue3bFqizU11LfLa3Gyu/ZklkwaRhQHnU9lwulXi9wtis7qTFlS9m8/qZB6Old150qLqR6Q==";
+        };
+        _niePJ6pg = {
+            "id" = "niePJ6pg";
+            "file" = "Saros-Road-Signs-Fabric-1.21.11-4.22.jar";
+            "hash" = "sha512-TxtbleApbOvQZV0D+GxXVK4GosUxmHFdhy5SoOE4Tsm0HNqMCQYkTupQNBbaF67DiSQqdH9aQbV5n30yM6nHiQ==";
+        };
+        _hDtHlATx = {
+            "id" = "hDtHlATx";
+            "file" = "Saros-Road-Signs-Forge-1.21.1-4.13.9.jar";
+            "hash" = "sha512-H1e+koaXFJC9RIYM1p3rwty8xaZx988M5TEJ6XjrQJFon+QWe2CJt4udgN1ETtgERP/wuG9GFjsiZyoHCzvivg==";
+        };
+        _7biD5X82 = {
+            "id" = "7biD5X82";
+            "file" = "Saros-Road-Signs-Forge-1.21.3-4.11.jar";
+            "hash" = "sha512-HrLnXu+vrd+ieq214HT+Kh/68LgoeIYWnYPxdIRrSzV1nUmt09ot5rHuH/IGvLw5NC2I9mWwqu43cfHGbBzwCw==";
+        };
+        _fIpTXhhC = {
+            "id" = "fIpTXhhC";
+            "file" = "Saros-Road-Signs-Forge-1.21.5-4.11.jar";
+            "hash" = "sha512-NTpEpC2FxhzL8yM89b+D5ttEJMi5gzjyBSv+i0B4momlUYqQbHdCo8dgkEwznaxST9mu713VvDdybPthyW4hqQ==";
+        };
+        _MdSmv1iP = {
+            "id" = "MdSmv1iP";
+            "file" = "Saros-Road-Signs-Forge-1.21.6-4.11.jar";
+            "hash" = "sha512-zeWKyZ299rIqVcE4NK3rlp0lKvclhb3OAMFK/UdaDFM2iEZ7R+RIacmECNkkQ+6F0t78Zx/l1wB6c6rTlafU8g==";
+        };
+        _UORwpVLc = {
+            "id" = "UORwpVLc";
+            "file" = "Saros-Road-Signs-Forge-1.21.7-4.11.jar";
+            "hash" = "sha512-MExfGvBYo14CtG8yxJ3VyYYWZ14Zkp3MTyznOgnkOynszSOvMpo5H03yOR+jjiFmPuGlJcJcj9yhUG8Y2rIclg==";
+        };
+        _is3EaqhW = {
+            "id" = "is3EaqhW";
+            "file" = "Saros-Road-Signs-Forge-1.21.8-4.11.jar";
+            "hash" = "sha512-KYp8m3LGUAy3A9yar2cyLNpTfSvwW7x+bluaHq0wemoKdnppG8FC1dUdjJnrHazKD1o54a0D2tWGEbFwy0GFhw==";
+        };
+        _tr3F6OQp = {
+            "id" = "tr3F6OQp";
+            "file" = "Saros-Road-Signs-Forge-1.21.9-4.13.jar";
+            "hash" = "sha512-L+kVqTW69KmyyF6wh1HmNL6FLHh7/irnwUzI9jXNOECTJ68kpdqbt1mHvjgQO1JCBxO66LLu1/m5Nqd/UQqGFA==";
+        };
+        _TjOoASKc = {
+            "id" = "TjOoASKc";
+            "file" = "Saros-Road-Signs-NeoForge-1.21.1-4.14.10.jar";
+            "hash" = "sha512-zr1jKCZfN7/Ics0frFGaFQYGT9KN1kNTKpcVWcx029oe8rhHnPLdMG0JKDPEpo6t89uDgw7k4i/Nc/rUQhh+yQ==";
+        };
+        _ahNBwIC4 = {
+            "id" = "ahNBwIC4";
+            "file" = "Saros-Road-Signs-NeoForge-26.1-4.12.jar";
+            "hash" = "sha512-vSBd41/ESqDIC5TOQ1Irt1ftCH8lOuTqPqdRr88086WideD2NljeyaZeh1XLWZGfRkuIq/2QF7/D2ooZj7FCgg==";
+        };
+        _Kh2zjLUp = {
+            "id" = "Kh2zjLUp";
+            "file" = "Saros-Road-Signs-NeoForge-26.1.1-4.7.7.jar";
+            "hash" = "sha512-NO8Uk0hlFKeVKMslM18Z14vslUTtOulHtPbodNznu4Revt7S3eN9Kvh3HAeqnq7PMEqJFjEgJLyDrdyb3Nhv4Q==";
+        };
+        _TMhup784 = {
+            "id" = "TMhup784";
+            "file" = "Saros-Road-Signs-NeoForge-26.1.2-4.7.7.jar";
+            "hash" = "sha512-LPWvXv/1X9fpaq7oZGmfORL+SCsk+s3SxhpwRHw6rZdkkklFi+23LDaWlFpON21dbPmoDWxK41z0MvLg2jo9pQ==";
+        };
+        _V3YMmFhR = {
+            "id" = "V3YMmFhR";
+            "file" = "Saros-Road-Signs-NeoForge-26.2-4.8.8.jar";
+            "hash" = "sha512-RsFsirscmc5LHR9GbtoM/y6vlIcRNL67qIa7dNDVPtcv6YlNp+QTyV5kjc3yhUTwKqDaikqoGlksK1Y9abA2HA==";
+        };
+        _pJOaNQNC = {
+            "id" = "pJOaNQNC";
+            "file" = "Saros-Road-Signs-Forge-1.21.9-4.14.jar";
+            "hash" = "sha512-jjVAeS8cOO0/9b+hOVHctHfYjj8Hr5GyFRNjWQqY9xx16meDg0HsIm5zdFxYHRGNKcsWF2zq25w8GAZU0pD7ww==";
+        };
+        _Rw4BXqY8 = {
+            "id" = "Rw4BXqY8";
+            "file" = "Saros-Road-Signs-Forge-1.21.3-4.12.jar";
+            "hash" = "sha512-anBrl7ssTb/nQ4Vevx8X2ksZkaT32iKvTQhKcJMdkV2NaNAKaszcHqs+d5Zivpfe8zN+R8AGeu/D4X973ciXtw==";
+        };
+        _S5DKyqfZ = {
+            "id" = "S5DKyqfZ";
+            "file" = "Saros-Road-Signs-Fabric-1.21.1-4.21.jar";
+            "hash" = "sha512-o8/WKCiFkStmQa/cVtk1IhwRCt9HqN/OUBjHK0VjU+XMQXeAEydHNfaJ1HrOPRM0/IfpQvMdzEh/ZxOkYsLJ+g==";
+        };
     in {
         "ZvFGXld5" = _ZvFGXld5;
         "1nd6NRlc" = _1nd6NRlc;
@@ -638,43 +1313,179 @@ let
         "qIEL3Up2" = _qIEL3Up2;
         "SRA6JG3W" = _SRA6JG3W;
         "iB1jLJTN" = _iB1jLJTN;
+        "zPH2yPEo" = _zPH2yPEo;
+        "xL5XjZEn" = _xL5XjZEn;
+        "IUr73hGN" = _IUr73hGN;
+        "7AnfJCh4" = _7AnfJCh4;
+        "jJ9UDjOV" = _jJ9UDjOV;
+        "zrZnzOJ7" = _zrZnzOJ7;
+        "gNrkilmp" = _gNrkilmp;
+        "gMVUQmI8" = _gMVUQmI8;
+        "b8BMSnlr" = _b8BMSnlr;
+        "VdM6foOx" = _VdM6foOx;
+        "cRXpWPXG" = _cRXpWPXG;
+        "QBMIMWxt" = _QBMIMWxt;
+        "Hxx9KjIX" = _Hxx9KjIX;
+        "JJL7s3vX" = _JJL7s3vX;
+        "M1zd4nWe" = _M1zd4nWe;
+        "C5OAwH9B" = _C5OAwH9B;
+        "dOz08bWX" = _dOz08bWX;
+        "CVCGnZzq" = _CVCGnZzq;
+        "Hpj8dN00" = _Hpj8dN00;
+        "pr5cewO5" = _pr5cewO5;
+        "nZczopRr" = _nZczopRr;
+        "ewNVvHLU" = _ewNVvHLU;
+        "yVnkTMKC" = _yVnkTMKC;
+        "uxdzerqF" = _uxdzerqF;
+        "hMb85xZd" = _hMb85xZd;
+        "kLoIj6I6" = _kLoIj6I6;
+        "uRRO44rH" = _uRRO44rH;
+        "wdC1V2Ho" = _wdC1V2Ho;
+        "tMsXJ99X" = _tMsXJ99X;
+        "x7FqtD9a" = _x7FqtD9a;
+        "CztFEfbL" = _CztFEfbL;
+        "7WA70N53" = _7WA70N53;
+        "iMnoJt4I" = _iMnoJt4I;
+        "LNLlHRRY" = _LNLlHRRY;
+        "wgkGOPm5" = _wgkGOPm5;
+        "RmiuazDk" = _RmiuazDk;
+        "1gU8b7al" = _1gU8b7al;
+        "3urvVLfI" = _3urvVLfI;
+        "RQPfiidu" = _RQPfiidu;
+        "UsxblrTa" = _UsxblrTa;
+        "SuIbEPh0" = _SuIbEPh0;
+        "Gi6SceKc" = _Gi6SceKc;
+        "38oRxtEO" = _38oRxtEO;
+        "Q8dYt5SQ" = _Q8dYt5SQ;
+        "F3CSHuLF" = _F3CSHuLF;
+        "Dy20t0qu" = _Dy20t0qu;
+        "tXTiPCqq" = _tXTiPCqq;
+        "ZT4MQGr9" = _ZT4MQGr9;
+        "T8F5lo3v" = _T8F5lo3v;
+        "F046BjhO" = _F046BjhO;
+        "QW3fO0p5" = _QW3fO0p5;
+        "SXxZgjJs" = _SXxZgjJs;
+        "h1dDOsgv" = _h1dDOsgv;
+        "tywlA3HW" = _tywlA3HW;
+        "rnLeZqZE" = _rnLeZqZE;
+        "idzjN4DF" = _idzjN4DF;
+        "BifM7mrs" = _BifM7mrs;
+        "wE9RrH2E" = _wE9RrH2E;
+        "U7ZVFtgP" = _U7ZVFtgP;
+        "qeMTaqMM" = _qeMTaqMM;
+        "eO4iKzKr" = _eO4iKzKr;
+        "AP9UCHgv" = _AP9UCHgv;
+        "pv8rXYb8" = _pv8rXYb8;
+        "FyXOHOuh" = _FyXOHOuh;
+        "gPEmXXjG" = _gPEmXXjG;
+        "u4ffSiu0" = _u4ffSiu0;
+        "8KYhMJw5" = _8KYhMJw5;
+        "ujO6OAYY" = _ujO6OAYY;
+        "wXdFUEMv" = _wXdFUEMv;
+        "gUh9O2Dv" = _gUh9O2Dv;
+        "uNIhJ9W6" = _uNIhJ9W6;
+        "e2kcJNw2" = _e2kcJNw2;
+        "5mOXpTmN" = _5mOXpTmN;
+        "9HFDx5Xk" = _9HFDx5Xk;
+        "luNmxvXY" = _luNmxvXY;
+        "1QndFznO" = _1QndFznO;
+        "6l77oqQ0" = _6l77oqQ0;
+        "sYLeXP97" = _sYLeXP97;
+        "84FgXDcb" = _84FgXDcb;
+        "MbG56NnL" = _MbG56NnL;
+        "zJm0rpyv" = _zJm0rpyv;
+        "ednCqa9B" = _ednCqa9B;
+        "HShQiw8P" = _HShQiw8P;
+        "rs7o3zYd" = _rs7o3zYd;
+        "UevR3mOI" = _UevR3mOI;
+        "XIzawV5E" = _XIzawV5E;
+        "DzmrzSzw" = _DzmrzSzw;
+        "CpALhMq0" = _CpALhMq0;
+        "j6XGoJex" = _j6XGoJex;
+        "LXVkH701" = _LXVkH701;
+        "lVdmt3pX" = _lVdmt3pX;
+        "Hts06XP1" = _Hts06XP1;
+        "OGAqeSFS" = _OGAqeSFS;
+        "TjRF7Eun" = _TjRF7Eun;
+        "gD7T9d21" = _gD7T9d21;
+        "bESREfJ1" = _bESREfJ1;
+        "n9tdJWT7" = _n9tdJWT7;
+        "Uai1h8Gt" = _Uai1h8Gt;
+        "T6PVdTGo" = _T6PVdTGo;
+        "V3GyzNzp" = _V3GyzNzp;
+        "YvkO5LEC" = _YvkO5LEC;
+        "AY57iUwV" = _AY57iUwV;
+        "hifQNabQ" = _hifQNabQ;
+        "Aj0EMc5W" = _Aj0EMc5W;
+        "4vRSI6pu" = _4vRSI6pu;
+        "qpAA3Q6D" = _qpAA3Q6D;
+        "trEghnN9" = _trEghnN9;
+        "KXTEz9IE" = _KXTEz9IE;
+        "a6NVJvL3" = _a6NVJvL3;
+        "nSwqE14W" = _nSwqE14W;
+        "wlrZ1arz" = _wlrZ1arz;
+        "ebyjjB0m" = _ebyjjB0m;
+        "3TVB1Xfv" = _3TVB1Xfv;
+        "UgFPuGPY" = _UgFPuGPY;
+        "8JczdEsL" = _8JczdEsL;
+        "q5agiTlF" = _q5agiTlF;
+        "PSbCvqMZ" = _PSbCvqMZ;
+        "z2YXP2ME" = _z2YXP2ME;
+        "sk5nCwid" = _sk5nCwid;
+        "niePJ6pg" = _niePJ6pg;
+        "hDtHlATx" = _hDtHlATx;
+        "7biD5X82" = _7biD5X82;
+        "fIpTXhhC" = _fIpTXhhC;
+        "MdSmv1iP" = _MdSmv1iP;
+        "UORwpVLc" = _UORwpVLc;
+        "is3EaqhW" = _is3EaqhW;
+        "tr3F6OQp" = _tr3F6OQp;
+        "TjOoASKc" = _TjOoASKc;
+        "ahNBwIC4" = _ahNBwIC4;
+        "Kh2zjLUp" = _Kh2zjLUp;
+        "TMhup784" = _TMhup784;
+        "V3YMmFhR" = _V3YMmFhR;
+        "pJOaNQNC" = _pJOaNQNC;
+        "Rw4BXqY8" = _Rw4BXqY8;
+        "S5DKyqfZ" = _S5DKyqfZ;
         "forge-1.16.5" = _ZvFGXld5;
         "forge-1.18.2" = _1nd6NRlc;
         "forge-1.19.2" = _MxG0HgRX;
         "forge-1.19.4" = _SvhydcWS;
-        "forge-1.20.1" = _PnQGNVR8;
-        "forge-1.20.4" = _FIr4bkIo;
-        "forge-1.20.6" = _3ea5mkTG;
+        "forge-1.20.1" = _gD7T9d21;
+        "forge-1.20.4" = _bESREfJ1;
+        "forge-1.20.6" = _n9tdJWT7;
         "forge-1.21" = _ncYpNP8S;
-        "forge-1.21.1" = _SRA6JG3W;
-        "forge-1.21.3" = _znhHZMOl;
-        "forge-1.21.5" = _uEGNY4gv;
-        "forge-1.21.6" = _Va9p6pSi;
-        "forge-1.21.7" = _feTGrjhm;
-        "forge-1.21.8" = _9A6130La;
-        "forge-1.21.9" = _fBTMydv7;
-        "forge-1.21.10" = _mLqvEwK9;
-        "forge-1.21.11" = _TMjNLEXt;
-        "forge-26.1" = _XPCYszq7;
-        "forge-26.1.1" = _cdcyuVv1;
-        "forge-26.1.2" = _IbEtbZ2G;
-        "forge-26.2" = _9mlAvc6E;
+        "forge-1.21.1" = _hDtHlATx;
+        "forge-1.21.3" = _Rw4BXqY8;
+        "forge-1.21.5" = _fIpTXhhC;
+        "forge-1.21.6" = _MdSmv1iP;
+        "forge-1.21.7" = _UORwpVLc;
+        "forge-1.21.8" = _is3EaqhW;
+        "forge-1.21.9" = _pJOaNQNC;
+        "forge-1.21.10" = _4vRSI6pu;
+        "forge-1.21.11" = _qpAA3Q6D;
+        "forge-26.1" = _trEghnN9;
+        "forge-26.1.1" = _KXTEz9IE;
+        "forge-26.1.2" = _a6NVJvL3;
+        "forge-26.2" = _nSwqE14W;
         "fabric-1.19.2" = _HgsryM7a;
-        "fabric-1.20.1" = _nRNz1Tt4;
-        "fabric-1.21.1" = _LkmCdJ86;
-        "fabric-26.1" = _c6iWPWTW;
-        "fabric-26.1.1" = _VrNJnP6V;
-        "fabric-26.1.2" = _zDPitc1R;
-        "fabric-1.21.11" = _PNInv5cN;
-        "fabric-26.2" = _bZrEK8rX;
+        "fabric-1.20.1" = _CpALhMq0;
+        "fabric-1.21.1" = _S5DKyqfZ;
+        "fabric-26.1" = _j6XGoJex;
+        "fabric-26.1.1" = _Hts06XP1;
+        "fabric-26.1.2" = _OGAqeSFS;
+        "fabric-1.21.11" = _niePJ6pg;
+        "fabric-26.2" = _TjRF7Eun;
+        "fabric-1.21.10" = _sk5nCwid;
         "quilt-1.19.2" = _HgsryM7a;
         "quilt-1.20.1" = _MD6ahJhg;
-        "neoforge-1.21.1" = _iB1jLJTN;
-        "neoforge-26.1" = _vHMSpYZO;
-        "neoforge-1.20.1" = _FC62mffx;
-        "neoforge-26.1.1" = _Zn92thO9;
-        "neoforge-26.1.2" = _lZtKGlg6;
-        "neoforge-26.2" = _qIEL3Up2;
+        "neoforge-1.21.1" = _TjOoASKc;
+        "neoforge-26.1" = _ahNBwIC4;
+        "neoforge-1.20.1" = _gD7T9d21;
+        "neoforge-26.1.1" = _Kh2zjLUp;
+        "neoforge-26.1.2" = _TMhup784;
+        "neoforge-26.2" = _V3YMmFhR;
         "pkg-3.2" = _kWtdogzQ;
         "pkg-1.4" = _HgsryM7a;
         "pkg-1.3" = _MD6ahJhg;
@@ -689,20 +1500,20 @@ let
         "pkg-4.4" = _5hd8LzAi;
         "pkg-4.5" = _D4slQJKW;
         "pkg-4.6" = _3ea5mkTG;
-        "pkg-4.7" = _z0wybe9p;
-        "pkg-4.8" = _mLqvEwK9;
+        "pkg-4.7" = _uxdzerqF;
+        "pkg-4.8" = _SuIbEPh0;
         "pkg-4.9-fabric-1.21.11" = _X0HScegi;
         "pkg-4.8-neoforge-1.21.1" = _3bXqfQ0O;
-        "pkg-4.10" = _zDPitc1R;
+        "pkg-4.10" = _hifQNabQ;
         "pkg-4.9-neoforge" = _TMKUrXw3;
-        "pkg-4.12" = _1tMwpRit;
-        "pkg-4.11" = _FWcK2E72;
+        "pkg-4.12" = _Rw4BXqY8;
+        "pkg-4.11" = _is3EaqhW;
         "pkg-4.6.1" = _peg8rd4E;
         "pkg-4.6.2" = _Ey4RI5FQ;
-        "pkg-4.9" = _F1ukhaP0;
-        "pkg-4.13" = _bZrEK8rX;
+        "pkg-4.9" = _5mOXpTmN;
+        "pkg-4.13" = _tr3F6OQp;
         "pkg-4.6.3" = _4yBQfjHm;
-        "pkg-4.16" = _PNInv5cN;
+        "pkg-4.16" = _BifM7mrs;
         "pkg-4.6.4" = _9mlAvc6E;
         "pkg-4.14.1" = _TamvVquo;
         "pkg-4.8.1" = _ULdwpf9U;
@@ -717,7 +1528,40 @@ let
         "pkg-4.8.2" = _qIEL3Up2;
         "pkg-4.13.3" = _SRA6JG3W;
         "pkg-4.14.3" = _iB1jLJTN;
-        "default" = _iB1jLJTN;
+        "pkg-4.17" = _AP9UCHgv;
+        "pkg-4.15" = _OGAqeSFS;
+        "pkg-4.18" = _TjRF7Eun;
+        "pkg-4.7.3" = _VdM6foOx;
+        "pkg-4.8.4" = _cRXpWPXG;
+        "pkg-4.13.5" = _QBMIMWxt;
+        "pkg-4.6.5" = _tMsXJ99X;
+        "pkg-4.6.6" = _SXxZgjJs;
+        "pkg-4.14.6" = _RmiuazDk;
+        "pkg-4.19" = _F3CSHuLF;
+        "pkg-4.7.4" = _h1dDOsgv;
+        "pkg-4.6.7" = _UevR3mOI;
+        "pkg-4.8.5" = _idzjN4DF;
+        "pkg-4.13.6" = _wE9RrH2E;
+        "pkg-4.8.6" = _qeMTaqMM;
+        "pkg-4.6.8" = _a6NVJvL3;
+        "pkg-4.13.7" = _8KYhMJw5;
+        "pkg-4.14.7" = _ujO6OAYY;
+        "pkg-4.20" = _z2YXP2ME;
+        "pkg-4.7.5" = _XIzawV5E;
+        "pkg-4.14" = _pJOaNQNC;
+        "pkg-4.21" = _S5DKyqfZ;
+        "pkg-4.13.8" = _Uai1h8Gt;
+        "pkg-4.6.9" = _nSwqE14W;
+        "pkg-4.14.8" = _wlrZ1arz;
+        "pkg-4.7.6" = _UgFPuGPY;
+        "pkg-4.8.7" = _8JczdEsL;
+        "pkg-4.14.9" = _PSbCvqMZ;
+        "pkg-4.22" = _niePJ6pg;
+        "pkg-4.13.9" = _hDtHlATx;
+        "pkg-4.14.10" = _TjOoASKc;
+        "pkg-4.7.7" = _TMhup784;
+        "pkg-4.8.8" = _V3YMmFhR;
+        "default" = _S5DKyqfZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saros-road-signs";

@@ -91,6 +91,11 @@ let
             "file" = "spawneggs-1.12.1.jar";
             "hash" = "sha512-cHWSKXAYqJ5sR4CwM2zMncOWqn2yBRe1xto1FRH2yN8T82+BzES9Pv+2F0gK5vzFU6U8UhP3jtLX9KynFCBD+Q==";
         };
+        _H4DNrOdq = {
+            "id" = "H4DNrOdq";
+            "file" = "spawneggs-1.12.2.jar";
+            "hash" = "sha512-irfvPG2SoiE35uNnrhdtZDN5UyP4Onc2WoB/i/N100/eNjeKDk/aVM3afe6/aWC7h4+7aTGa0mqTcpGBVkvs8g==";
+        };
     in {
         "opLgxZo4" = _opLgxZo4;
         "6cZiaF0g" = _6cZiaF0g;
@@ -110,9 +115,10 @@ let
         "b7PR6a4n" = _b7PR6a4n;
         "TRFMPXtn" = _TRFMPXtn;
         "3w2pLFt4" = _3w2pLFt4;
+        "H4DNrOdq" = _H4DNrOdq;
         "modloader-b1.7.3" = _GPJe1ljT;
-        "fabric-b1.7.3" = _3w2pLFt4;
-        "babric-b1.7.3" = _3w2pLFt4;
+        "fabric-b1.7.3" = _H4DNrOdq;
+        "babric-b1.7.3" = _H4DNrOdq;
         "pkg-1.1.0" = _opLgxZo4;
         "pkg-1.2.0" = _OvrmKnm0;
         "pkg-1.3.0" = _b8ziL9DP;
@@ -127,7 +133,8 @@ let
         "pkg-1.11.0" = _b7PR6a4n;
         "pkg-1.12.0" = _TRFMPXtn;
         "pkg-1.12.1" = _3w2pLFt4;
-        "default" = _3w2pLFt4;
+        "pkg-1.12.2" = _H4DNrOdq;
+        "default" = _H4DNrOdq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spawn-eggs";

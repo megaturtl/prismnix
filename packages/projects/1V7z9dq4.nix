@@ -86,6 +86,11 @@ let
             "file" = "wbshop-2.0.8+1.21.1.jar";
             "hash" = "sha512-5FG3DwKu4sMz5XeonF6C2i8iF9Bmbcpb7ZhV8m7L+ID214qsZzMdRjNg+jARnMKozhoSK/JOvX9Z7k/43M2Fww==";
         };
+        _xAU7JQwW = {
+            "id" = "xAU7JQwW";
+            "file" = "wbshop-3.0.0+26.2.jar";
+            "hash" = "sha512-Gf90jnRAXG/9GTpLv9Xr9+lNUa5NiIhfyR53VGOozfy8/IQEQQEmbPwiLu+sqgVdwqGn8t0p0OEa8Jm+ECKCwg==";
+        };
     in {
         "26u7ooku" = _26u7ooku;
         "52dEsUf9" = _52dEsUf9;
@@ -104,6 +109,7 @@ let
         "ecYPmjoN" = _ecYPmjoN;
         "zWiDMYft" = _zWiDMYft;
         "YZAOsCoq" = _YZAOsCoq;
+        "xAU7JQwW" = _xAU7JQwW;
         "fabric-1.19" = _52dEsUf9;
         "fabric-1.19.1" = _52dEsUf9;
         "fabric-1.19.2" = _52dEsUf9;
@@ -117,6 +123,7 @@ let
         "fabric-1.20.6" = _ecYPmjoN;
         "fabric-1.20.4" = _zWiDMYft;
         "fabric-1.21.1" = _YZAOsCoq;
+        "fabric-26.2" = _xAU7JQwW;
         "pkg-1.3.1+build-0" = _26u7ooku;
         "pkg-1.3.1+build-1" = _52dEsUf9;
         "pkg-1.3.1+build-2" = _YhuKILIN;
@@ -134,7 +141,8 @@ let
         "pkg-2.0.8+1.20.6" = _ecYPmjoN;
         "pkg-2.0.8+1.20.4" = _zWiDMYft;
         "pkg-2.0.8+1.21.1" = _YZAOsCoq;
-        "default" = _YZAOsCoq;
+        "pkg-3.0.0+26.2" = _xAU7JQwW;
+        "default" = _xAU7JQwW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wbshop";

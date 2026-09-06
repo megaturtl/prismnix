@@ -91,6 +91,66 @@ let
             "file" = "copyblock-1.0.0-mc26.2-fabric.jar";
             "hash" = "sha512-YpA1uo+sC7RZvsawNlabeimuvOldrBWDWv9a881X6Y0dB2MaAlERexmolqKKifkAQQMlcEAb0G9sNZO3rw5TEQ==";
         };
+        _N5UEdwSy = {
+            "id" = "N5UEdwSy";
+            "file" = "copyblock-1.20.5.jar";
+            "hash" = "sha512-Gs7dFBe86UHWSvCa22BsSNKtRrjygz6K6N7/l625UkHom+rC0DpvslzEVnL0W+JqkDNs+Ms6DEslIjPVOHYqAA==";
+        };
+        _AABB0V7t = {
+            "id" = "AABB0V7t";
+            "file" = "copyblock-1.20.6.jar";
+            "hash" = "sha512-G5An79V51a1VG05Epk1QJHJGP2IyODRn8aBQzDNW54kX6AOetETw2bTYeXomu2yTMpABlC7I0QYggqHGk+/6Tg==";
+        };
+        _bhgd9WGJ = {
+            "id" = "bhgd9WGJ";
+            "file" = "copyblock-1.19.jar";
+            "hash" = "sha512-YbwYC50YEkdPVWSxGvsHqMac6jh3NgsJl+/hrhPYHiDSzhew+DhTPTBCYfkB0Du8iYhdPBUXe2c5AoYbNuWaiQ==";
+        };
+        _S01hcaow = {
+            "id" = "S01hcaow";
+            "file" = "copyblock-1.19.1.jar";
+            "hash" = "sha512-O0b0EtSUQGxw6awW/+Yz4bdzsExNNxfQYjkD9GsJC+ehCj0E+LUoeJrexWwsmHZSTU2+54VMoeWMLI/LgKQ1/A==";
+        };
+        _IJFZPqHt = {
+            "id" = "IJFZPqHt";
+            "file" = "copyblock-1.19.2.jar";
+            "hash" = "sha512-C1lXwSA6oMq+HoLouLa6Kj7V1OXmicbTvx9VLLXufAHbHM9J1kS2mdoGcEPNPy4mPatNiFsw1TAdI4KXAxaRhA==";
+        };
+        _wtMljHg1 = {
+            "id" = "wtMljHg1";
+            "file" = "copyblock-1.19.3.jar";
+            "hash" = "sha512-YCg4iouc5ye/th62ODV8UHg1AcTYlb/psBTFXzzc5MKq+sBl0DBXYhwpc3RuNEmDJIewNF5A7wTvHTlp/XM9WQ==";
+        };
+        _AJhRHIa0 = {
+            "id" = "AJhRHIa0";
+            "file" = "copyblock-1.19.4.jar";
+            "hash" = "sha512-deJRqqNknyUhgXo35a/zvo0xDXQouiA2ECwVeTNgm3q6tlelgFMGOyjzhEnt8A3cIABaPhnEAahyp1pC89ai3Q==";
+        };
+        _fVbrtuNn = {
+            "id" = "fVbrtuNn";
+            "file" = "copyblock-1.18.jar";
+            "hash" = "sha512-cWws30uZOEmHdVEKBV8enWLkbjZlNI0hHbm1Cm7vMDQ21GmsUY3htDcz6a/RfnYkzkG4rBSbSeYLi5UW8qFEpg==";
+        };
+        _znI6c6JD = {
+            "id" = "znI6c6JD";
+            "file" = "copyblock-1.17.jar";
+            "hash" = "sha512-WDA7PuRVOH+IdarRDbOg29OMcR+FHgpwzyWoSzm/VLPF0sSJXHMlA3877XTa0JlMU2b9b/F8iUIq1nTNCq4GTg==";
+        };
+        _RqF3r8mH = {
+            "id" = "RqF3r8mH";
+            "file" = "copyblock-fabric-1.2+mc1.21.1.jar";
+            "hash" = "sha512-GYncUldGJDkVKZIcHCZF1hjc1fWUgV1Ty/x7l1MXsRWtQebKS5Z9TmGjSkRZd3MfOeelEtv6t59twZMLw+ve+Q==";
+        };
+        _3A87Tkrg = {
+            "id" = "3A87Tkrg";
+            "file" = "copyblock-fabric-1.0.0+mc1.16.4-5.jar";
+            "hash" = "sha512-ru2sYQGIZr28lV6gja2cdVXs1gSn7HBGLsDCtxOiJ3gFA4GLH0Aekbvazf1LEJTzE3R0/fwIRBI8yA46iSG7Bg==";
+        };
+        _jPBKEgtF = {
+            "id" = "jPBKEgtF";
+            "file" = "copyblock-fabric-1.0.0+mc1.12.2.jar";
+            "hash" = "sha512-o0d8avmZJwytCeOcwUQuuLeohR5ZQJB50Ojs4SRzL8EDOCJodMC/aucYrm2FBVXViUoX4EdWGoXkhZc0EsXqjQ==";
+        };
     in {
         "PL0IXHfI" = _PL0IXHfI;
         "xtVPD6JD" = _xtVPD6JD;
@@ -110,11 +170,23 @@ let
         "CX9lOIgi" = _CX9lOIgi;
         "4xjSML6f" = _4xjSML6f;
         "8jueZU9w" = _8jueZU9w;
+        "N5UEdwSy" = _N5UEdwSy;
+        "AABB0V7t" = _AABB0V7t;
+        "bhgd9WGJ" = _bhgd9WGJ;
+        "S01hcaow" = _S01hcaow;
+        "IJFZPqHt" = _IJFZPqHt;
+        "wtMljHg1" = _wtMljHg1;
+        "AJhRHIa0" = _AJhRHIa0;
+        "fVbrtuNn" = _fVbrtuNn;
+        "znI6c6JD" = _znI6c6JD;
+        "RqF3r8mH" = _RqF3r8mH;
+        "3A87Tkrg" = _3A87Tkrg;
+        "jPBKEgtF" = _jPBKEgtF;
         "fabric-1.20.1" = _GV4aGjZj;
         "fabric-1.20.2" = _GV4aGjZj;
         "fabric-1.20.3" = _GV4aGjZj;
         "fabric-1.20.4" = _GV4aGjZj;
-        "fabric-1.21.1" = _u27kUjul;
+        "fabric-1.21.1" = _RqF3r8mH;
         "fabric-1.21.11" = _qglzymjT;
         "fabric-1.21.2" = _jVn3eKyu;
         "fabric-1.21.3" = _DWwRiM6a;
@@ -129,9 +201,24 @@ let
         "fabric-26.1.1" = _CX9lOIgi;
         "fabric-26.1.2" = _4xjSML6f;
         "fabric-26.2" = _8jueZU9w;
+        "fabric-1.20.5" = _N5UEdwSy;
+        "fabric-1.20.6" = _AABB0V7t;
+        "fabric-1.19" = _bhgd9WGJ;
+        "fabric-1.19.1" = _S01hcaow;
+        "fabric-1.19.2" = _IJFZPqHt;
+        "fabric-1.19.3" = _wtMljHg1;
+        "fabric-1.19.4" = _AJhRHIa0;
+        "fabric-1.18" = _fVbrtuNn;
+        "fabric-1.18.1" = _fVbrtuNn;
+        "fabric-1.18.2" = _fVbrtuNn;
+        "fabric-1.17" = _znI6c6JD;
+        "fabric-1.17.1" = _znI6c6JD;
+        "fabric-1.16.4" = _3A87Tkrg;
+        "fabric-1.16.5" = _3A87Tkrg;
         "forge-1.21.1" = _xtVPD6JD;
         "forge-1.21.3" = _2DLv9XaV;
         "forge-1.20.1" = _YUJZ8Etk;
+        "forge-1.12.2" = _jPBKEgtF;
         "quilt-1.21.1" = _BNGpe1Rg;
         "pkg-fabric-1.0.0+mc1.20.1-4" = _PL0IXHfI;
         "pkg-forge-1.0.0+mc1.21.1" = _xtVPD6JD;
@@ -151,7 +238,19 @@ let
         "pkg-fabric-1.0.0+mc26.1.1" = _CX9lOIgi;
         "pkg-fabric-1.0.0+mc26.1.2" = _4xjSML6f;
         "pkg-fabric-1.0.0+mc26.2" = _8jueZU9w;
-        "default" = _8jueZU9w;
+        "pkg-fabric-1.0.0+mc1.20.5" = _N5UEdwSy;
+        "pkg-fabric-1.0.0+mc1.20.6" = _AABB0V7t;
+        "pkg-fabric-1.0.0+mc1.19" = _bhgd9WGJ;
+        "pkg-fabric-1.0.0+mc1.19.1" = _S01hcaow;
+        "pkg-fabric-1.0.0+mc1.19.2" = _IJFZPqHt;
+        "pkg-fabric-1.0.0+mc1.19.3" = _wtMljHg1;
+        "pkg-fabric-1.0.0+mc1.19.4" = _AJhRHIa0;
+        "pkg-fabric-1.0.0+mc1.18-3" = _fVbrtuNn;
+        "pkg-fabric-1.0.0+mc1.17" = _znI6c6JD;
+        "pkg-fabric-1.2+mc1.21.1" = _RqF3r8mH;
+        "pkg-fabric-1.0.0+mc1.16.4-5" = _3A87Tkrg;
+        "pkg-fabric-1.0.0+mc1.12.2" = _jPBKEgtF;
+        "default" = _jPBKEgtF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "copyblock";
@@ -159,13 +258,13 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "LicenseRef-All-Rights-Reserved";
-                shortName = "LicenseRef-All-Rights-Reserved";
-                url = "https://github.com/wangchen-2023/Copy-block/edit/main/LICENSE";
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = null;
             };
         };
     };

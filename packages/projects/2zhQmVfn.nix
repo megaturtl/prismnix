@@ -86,6 +86,11 @@ let
             "file" = "mrqxs_Slashblade_Core-1.21.1-1.4.3.jar";
             "hash" = "sha512-rLaBOQDO9hREkFZHl1d6MchM9R0evCzrgFMMwmvHAqVd0gkebMRvUWSAGojKdIaBVR1Qo2Kgq/8Wtf5ZVWDgxw==";
         };
+        _FFF4S7wN = {
+            "id" = "FFF4S7wN";
+            "file" = "mrqxs_Slashblade_Core-1.21.1-1.4.4.jar";
+            "hash" = "sha512-taBStbZbDbKrJdeZEfkuzeXR0lkTGqQCWaODE1ijH9BjExFwpxZXD1F6uSOgjlZLYis+7V6+FpccXL3IkMI4ZA==";
+        };
     in {
         "qx0JLlQO" = _qx0JLlQO;
         "1FKfO086" = _1FKfO086;
@@ -104,8 +109,9 @@ let
         "i6mRO6Pu" = _i6mRO6Pu;
         "St7UwySc" = _St7UwySc;
         "9noPKqkF" = _9noPKqkF;
+        "FFF4S7wN" = _FFF4S7wN;
         "forge-1.20.1" = _dPmiLWGP;
-        "neoforge-1.21.1" = _9noPKqkF;
+        "neoforge-1.21.1" = _FFF4S7wN;
         "pkg-1.0.0" = _qx0JLlQO;
         "pkg-1.1.0" = _1FKfO086;
         "pkg-1.2.0" = _dvCGSHM5;
@@ -122,7 +128,8 @@ let
         "pkg-1.4.1" = _i6mRO6Pu;
         "pkg-1.4.2" = _St7UwySc;
         "pkg-1.4.3" = _9noPKqkF;
-        "default" = _9noPKqkF;
+        "pkg-1.4.4" = _FFF4S7wN;
+        "default" = _FFF4S7wN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mrqx`s-slashblade-core";
@@ -130,13 +137,13 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "GNU General Public License v3.0 or later";
-                shortName = "GPL-3.0-or-later";
-                url = "https://github.com/mrqx0195/mrqx-s-Slashblade-Core/blob/main/LICENSE";
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/mrqx0195/mrqx-s-Slashblade-Core/blob/1.20.1-Forge/LICENSE";
             };
         };
     };

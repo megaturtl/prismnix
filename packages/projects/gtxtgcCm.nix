@@ -16,15 +16,22 @@ let
             "file" = "pvpbot-formations-v0.0.13A-0.0.3.jar";
             "hash" = "sha512-uEdqJa96r9bgPHlo5yCG9nVYdksp1zaCOzb/AIDuf6mp92p48XYW+bUXCjb9Vlf/XW40iany91N8pM0posOaKQ==";
         };
+        _paqEOLHY = {
+            "id" = "paqEOLHY";
+            "file" = "pvpbot-formations-v0.0.15-0.0.6.jar";
+            "hash" = "sha512-7MZcVGGgDFr7J/4O2MDuXo6+NDEayYOI7KW3BIw3t16h/c5hsqK3O+rGCbLh7zWjobRRrGbQ2PpKmBcgWJLejA==";
+        };
     in {
         "QiZOTPkC" = _QiZOTPkC;
         "ZVDMYkzV" = _ZVDMYkzV;
         "fJSip6xR" = _fJSip6xR;
-        "fabric-1.21.11" = _fJSip6xR;
+        "paqEOLHY" = _paqEOLHY;
+        "fabric-1.21.11" = _paqEOLHY;
         "pkg-0.0.1" = _QiZOTPkC;
         "pkg-0.0.2" = _ZVDMYkzV;
         "pkg-0.0.3" = _fJSip6xR;
-        "default" = _fJSip6xR;
+        "pkg-0.0.6" = _paqEOLHY;
+        "default" = _paqEOLHY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pvpbots-formation-addon";

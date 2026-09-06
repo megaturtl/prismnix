@@ -561,6 +561,41 @@ let
             "file" = "BetterUnpackables_v5.0.0-beta.3_mc26.3snap4-6.zip";
             "hash" = "sha512-6LLWZs6QoJ1eBJ6B6jyuaQ3tUGQKXjBuTVb8HQnnZGtoqI7TSQMNONB9EvZHPGNhr5YSWa3PFJDawYXgLhciBw==";
         };
+        _4U28nsHv = {
+            "id" = "4U28nsHv";
+            "file" = "BetterUnpackables_v5.0.0-pre.1_mc26.3snap4-7.zip";
+            "hash" = "sha512-PqlVgvxMVWXPRYGr9zVvgNOaOEFP+xL0APD2s87Sxm3VaTuPnlexONRqfXAXRZwe2ppiF79vPizTn6XNMpn2zw==";
+        };
+        _uVOvaJL6 = {
+            "id" = "uVOvaJL6";
+            "file" = "BetterUnpackables_v5.0.0-beta4_mc26.3snap7.zip";
+            "hash" = "sha512-4CqQhD/WySYkucwQdYZQh5LUwBin0Ny0m/AL1MngaMZpjrFtpGpzDCFs9vM1xYdXCZ9+eTNljp135cwBQhIm4w==";
+        };
+        _y2m9xQfs = {
+            "id" = "y2m9xQfs";
+            "file" = "BetterUnpackables_v5.0.0-pre.2_mc26.3snap7-8.zip";
+            "hash" = "sha512-R/zE0sKW0ZTgztEOtztGMldbLfvu7QHExOLkEMLfMOjLg+A77xH2LEkEbmVU2GrpyJzRF53BPRZ1KbRadNSAYA==";
+        };
+        _Rw9NWA2J = {
+            "id" = "Rw9NWA2J";
+            "file" = "BetterUnpackables_v5.0.0-pre.3_mc26.3snap7-9.zip";
+            "hash" = "sha512-6Ai/nlPDPKiiEIL4eRVUH4/MOtPDfOgNk85CLmuoeo2yNI3RUa8Qge++WYd/hLkbnUgP6aANgVQEavgOi+TsRw==";
+        };
+        _Jkbose01 = {
+            "id" = "Jkbose01";
+            "file" = "BetterUnpackables_v5.0.0-pre.4_mc26.3snap7-10.zip";
+            "hash" = "sha512-5ocnPOyRCyzsBm0YTotvotvCRXdwNWPEjxPiuXv2dlCnqlTXk1ZhAHwQVqydozNudtgMVm06N/A421eIYAD1zQ==";
+        };
+        _feZJZba1 = {
+            "id" = "feZJZba1";
+            "file" = "BetterUnpackables_v5.0.0-pre.5_mc26.3pre1.zip";
+            "hash" = "sha512-2XzOtl37RrRSOwgH5u2EjnEIEkKiRW2WMxEGuxbfPVZy44XvfqWPhZ0AxHTyvQCVKiMqi9Nuc9+z/tLZMm3LzA==";
+        };
+        _2YBfR3q4 = {
+            "id" = "2YBfR3q4";
+            "file" = "BetterUnpackables_v5.0.0-pre.6_mc26.3pre1-2.zip";
+            "hash" = "sha512-PjSKGsjsJKRw1EDfHAi6WCkRutAdY/JuaOHFSFm1uUIVnAPoFcEPiN2TpXpXc7Zv7hjgfq8pjyyRHX0tt4+d8w==";
+        };
     in {
         "niaxbXcl" = _niaxbXcl;
         "2N9ex882" = _2N9ex882;
@@ -674,6 +709,13 @@ let
         "ycw79uE8" = _ycw79uE8;
         "kCtag9J4" = _kCtag9J4;
         "ay5CiIvA" = _ay5CiIvA;
+        "4U28nsHv" = _4U28nsHv;
+        "uVOvaJL6" = _uVOvaJL6;
+        "y2m9xQfs" = _y2m9xQfs;
+        "Rw9NWA2J" = _Rw9NWA2J;
+        "Jkbose01" = _Jkbose01;
+        "feZJZba1" = _feZJZba1;
+        "2YBfR3q4" = _2YBfR3q4;
         "datapack-1.21.2-pre1" = _niaxbXcl;
         "datapack-1.21.2-pre2" = _niaxbXcl;
         "datapack-1.21.2-pre3" = _niaxbXcl;
@@ -798,9 +840,15 @@ let
         "datapack-26.3-snapshot-1" = _NGFqhxpY;
         "datapack-26.3-snapshot-2" = _NGFqhxpY;
         "datapack-26.3-snapshot-3" = _NGFqhxpY;
-        "datapack-26.3-snapshot-4" = _ay5CiIvA;
-        "datapack-26.3-snapshot-5" = _ay5CiIvA;
-        "datapack-26.3-snapshot-6" = _ay5CiIvA;
+        "datapack-26.3-snapshot-4" = _4U28nsHv;
+        "datapack-26.3-snapshot-5" = _4U28nsHv;
+        "datapack-26.3-snapshot-6" = _4U28nsHv;
+        "datapack-26.3-snapshot-7" = _Jkbose01;
+        "datapack-26.3-snapshot-8" = _Jkbose01;
+        "datapack-26.3-snapshot-9" = _Jkbose01;
+        "datapack-26.3-snapshot-10" = _Jkbose01;
+        "datapack-26.3-pre-1" = _2YBfR3q4;
+        "datapack-26.3-pre-2" = _2YBfR3q4;
         "fabric-1.21.2-pre1" = _2N9ex882;
         "fabric-1.21.2-pre2" = _2N9ex882;
         "fabric-1.21.2-pre3" = _2N9ex882;
@@ -970,7 +1018,14 @@ let
         "pkg-v5.0.0-beta.1" = _ycw79uE8;
         "pkg-v5.0.0-beta.2" = _kCtag9J4;
         "pkg-v5.0.0-beta.3" = _ay5CiIvA;
-        "default" = _ay5CiIvA;
+        "pkg-v5.0.0-pre.1" = _4U28nsHv;
+        "pkg-v5.0.0-beta.4" = _uVOvaJL6;
+        "pkg-v5.0.0-pre.2" = _y2m9xQfs;
+        "pkg-v5.0.0-pre.3" = _Rw9NWA2J;
+        "pkg-v5.0.0-pre.4" = _Jkbose01;
+        "pkg-v5.0.0-pre.5" = _feZJZba1;
+        "pkg-v5.0.0-pre.6" = _2YBfR3q4;
+        "default" = _2YBfR3q4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-unpackables";

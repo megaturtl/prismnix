@@ -61,6 +61,16 @@ let
             "file" = "create_bb-1.0.7-1.21.1-Neoforge.jar";
             "hash" = "sha512-d3QfK3dCa7JGByIeqY5UQoCoG6dMrbdzNMPQkR+P+/Y9PT8mjUNcHB4OV5TPwz9/u1/A5DunqJCYtKl6pDlphw==";
         };
+        _XpIqX2t0 = {
+            "id" = "XpIqX2t0";
+            "file" = "create_bb-1.0.8-1.20.1.jar";
+            "hash" = "sha512-Q+wGJsWYOTQ4wxAKOyT1aPSn4Jle8ViF82Cn6U5JF56zFe2DDZxoy4OcItp8XFu7SfK2rvoVIhuWqiFGBjWO1w==";
+        };
+        _nC19ZMKK = {
+            "id" = "nC19ZMKK";
+            "file" = "create_bb-1.0.8-1.21.1.jar";
+            "hash" = "sha512-n0C4wT86ytZcR5rnY8nLHSft+MORdGcZQJty8Bsdc5ag0525B/t+XD2XtXskontrXi8WzEVMPXPodN0w7FSOGw==";
+        };
     in {
         "KoDuEqLR" = _KoDuEqLR;
         "xzMQYNlI" = _xzMQYNlI;
@@ -74,8 +84,10 @@ let
         "C0qZx4Oz" = _C0qZx4Oz;
         "C46Wg1Q0" = _C46Wg1Q0;
         "rUu97B0K" = _rUu97B0K;
-        "neoforge-1.21.1" = _rUu97B0K;
-        "forge-1.20.1" = _C46Wg1Q0;
+        "XpIqX2t0" = _XpIqX2t0;
+        "nC19ZMKK" = _nC19ZMKK;
+        "neoforge-1.21.1" = _nC19ZMKK;
+        "forge-1.20.1" = _XpIqX2t0;
         "pkg-1.0.0" = _KoDuEqLR;
         "pkg-1.0.1" = _xzMQYNlI;
         "pkg-1.0.2" = _GXnZH6K8;
@@ -88,7 +100,9 @@ let
         "pkg-1.0.6-1.20.1" = _C0qZx4Oz;
         "pkg-1.0.7-1.20.1" = _C46Wg1Q0;
         "pkg-1.0.7-1.21.1" = _rUu97B0K;
-        "default" = _rUu97B0K;
+        "pkg-1.0.8-1.20.1" = _XpIqX2t0;
+        "pkg-1.0.8-1.21.1" = _nC19ZMKK;
+        "default" = _nC19ZMKK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blocks-bogies";
@@ -96,12 +110,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "MIT" {
+            license = lib.getLicenseFromSpdxIdOr "LGPL-3.0-only" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "MIT License";
-                shortName = "MIT";
+                fullName = "GNU Lesser General Public License v3.0 only";
+                shortName = "LGPL-3.0-only";
                 url = null;
             };
         };

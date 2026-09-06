@@ -111,6 +111,21 @@ let
             "file" = "structure_gel-1.21.4-2.20.0.jar";
             "hash" = "sha512-G7NFNprHS646oi0L693imgaR66SsovJpRcVJbna7XD1orwYQguKhT9Bq/RyNMokUmFVhHCAMAPKRzKjEspoWKQ==";
         };
+        _5vgvno0V = {
+            "id" = "5vgvno0V";
+            "file" = "structure_gel-26.1.2-2.21.0.jar";
+            "hash" = "sha512-SJqO4xsCJ5Rm+qAr9mjUfQkA9KilM+3jV4kxxgn0ZsOOPKkwlYNcxDSjzk+KG9FEHYstAjGLF33oKGRfDzmiFg==";
+        };
+        _vWyC0Age = {
+            "id" = "vWyC0Age";
+            "file" = "structure_gel-26.1.2-2.21.1.jar";
+            "hash" = "sha512-GehwtiYBSD592P1JghPSpK9h+jTiFpBO3nAcFXTyIfqRkuTS23ohgp6ycFjfpmzZvtaIECO7TZrbhdrtJBkBfw==";
+        };
+        _yYoa839u = {
+            "id" = "yYoa839u";
+            "file" = "structure_gel-26.1.2-2.21.2.jar";
+            "hash" = "sha512-DmwuPEC2h+SoNNu0MKkfIKqf6RgviBZzaes7z3zL4rUIZhwWTRK+XuwvPPNTFZGon299EAMn2F5ku7r24ZKOAA==";
+        };
     in {
         "rrIuQG5f" = _rrIuQG5f;
         "YtlOh5ib" = _YtlOh5ib;
@@ -134,6 +149,9 @@ let
         "tdOzdRbb" = _tdOzdRbb;
         "RJ3sF1SB" = _RJ3sF1SB;
         "z06Zdn5q" = _z06Zdn5q;
+        "5vgvno0V" = _5vgvno0V;
+        "vWyC0Age" = _vWyC0Age;
+        "yYoa839u" = _yYoa839u;
         "forge-1.16.5" = _rrIuQG5f;
         "forge-1.18.2" = _pCNl93Ka;
         "forge-1.19.2" = _bsBVjIWk;
@@ -142,6 +160,7 @@ let
         "neoforge-1.20.1" = _xavY0MZc;
         "neoforge-1.20.4" = _RJ3sF1SB;
         "neoforge-1.21.4" = _z06Zdn5q;
+        "neoforge-26.1.2" = _yYoa839u;
         "pkg-1.7.8" = _rrIuQG5f;
         "pkg-2.4.7" = _YtlOh5ib;
         "pkg-2.7.2" = _n7xrHFAI;
@@ -164,7 +183,10 @@ let
         "pkg-2.19.0" = _tdOzdRbb;
         "pkg-2.19.1" = _RJ3sF1SB;
         "pkg-2.20.0" = _z06Zdn5q;
-        "default" = _z06Zdn5q;
+        "pkg-2.21.0" = _5vgvno0V;
+        "pkg-2.21.1" = _vWyC0Age;
+        "pkg-2.21.2" = _yYoa839u;
+        "default" = _yYoa839u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "structure-gel-api";

@@ -41,6 +41,11 @@ let
             "file" = "Tomtaru's Cobblemon & Immersive Engineering Tweaks - 1.21.1 - R.2.5.jar";
             "hash" = "sha512-H+03sdIZfWo/bjfonbkuIFXBIiYrBm25vlY800W7nkX317ax/2NkklD2AD7jw9Y7KK90D4Q+Nrv1QEmHDbn2Hg==";
         };
+        _8Qbe6RH2 = {
+            "id" = "8Qbe6RH2";
+            "file" = "TMTCEIC 1.21.1 NF-3.0.0.jar";
+            "hash" = "sha512-XhbY9Pkdmad3PtkjgqP1+Jp2Xq9q2c5QklM7g98BFtZuFn+7LaNjU2sIkz6l2IbdTygtzFKHY5YMo6trr2GNjg==";
+        };
     in {
         "u0d4NyH5" = _u0d4NyH5;
         "CAiDcGVV" = _CAiDcGVV;
@@ -50,8 +55,9 @@ let
         "5kv6WwCA" = _5kv6WwCA;
         "5NwYENfy" = _5NwYENfy;
         "FreAUpd3" = _FreAUpd3;
+        "8Qbe6RH2" = _8Qbe6RH2;
         "forge-1.19.2" = _Qdj1hKyn;
-        "neoforge-1.21.1" = _FreAUpd3;
+        "neoforge-1.21.1" = _8Qbe6RH2;
         "neoforge-1.21.2" = _uG3Ol2z3;
         "neoforge-1.21.3" = _uG3Ol2z3;
         "neoforge-1.21.4" = _uG3Ol2z3;
@@ -63,7 +69,8 @@ let
         "pkg-R.2.2" = _5kv6WwCA;
         "pkg-R.2.3" = _5NwYENfy;
         "pkg-R.2.5" = _FreAUpd3;
-        "default" = _FreAUpd3;
+        "pkg-3.0.0" = _8Qbe6RH2;
+        "default" = _8Qbe6RH2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tomtarus-cobblemon-immersive-engineering-tweaks";

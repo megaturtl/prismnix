@@ -1961,6 +1961,16 @@ let
             "file" = "justenoughbreeding-neoforge-1.21.1-3.2.1.jar";
             "hash" = "sha512-0emXD2FdegmG8DAlnX0WzEuoy9ibuB0aH79totOpx6A3aVfhtBi82CyeRdy9tusF/eLiDMP1Il2zPQQ2dZuu5g==";
         };
+        _Uckli8jo = {
+            "id" = "Uckli8jo";
+            "file" = "justenoughbreeding-fabric-1.21.11-3.3.0.jar";
+            "hash" = "sha512-o2wL52ZShjO1G9m0Nf2ePawo66uS0Plur0vHzB+kWgowt+475LGuoVkKIqsPQoYpzMaTy2v3HLOBTOQruRlalw==";
+        };
+        _imKQLywQ = {
+            "id" = "imKQLywQ";
+            "file" = "justenoughbreeding-neoforge-1.21.11-3.3.0.jar";
+            "hash" = "sha512-IsbhYPi7aFvVLzGV8OWEd87S6dCqq6cJTL9JkJVNyodFHsx1Opl9irsUYLQmRfawn1u+anzW8K3b+e9WOfIkaQ==";
+        };
     in {
         "mUSa06Zh" = _mUSa06Zh;
         "xaznbIaj" = _xaznbIaj;
@@ -2354,6 +2364,8 @@ let
         "Gz9h5Mk7" = _Gz9h5Mk7;
         "PrEdL35V" = _PrEdL35V;
         "lVl2kVwh" = _lVl2kVwh;
+        "Uckli8jo" = _Uckli8jo;
+        "imKQLywQ" = _imKQLywQ;
         "forge-1.19.2" = _y4fIeriy;
         "forge-1.19.3" = _MPrTM4J1;
         "forge-1.19.4" = _NVWmWl8A;
@@ -2390,7 +2402,7 @@ let
         "neoforge-1.21.9" = _4KvOGfpe;
         "neoforge-1.21.10" = _4KvOGfpe;
         "neoforge-1.20" = _mBVCwM8n;
-        "neoforge-1.21.11" = _APRIyWc4;
+        "neoforge-1.21.11" = _imKQLywQ;
         "fabric-1.19" = _gjKqlN6c;
         "fabric-1.19.1" = _gjKqlN6c;
         "fabric-1.19.2" = _gjKqlN6c;
@@ -2416,7 +2428,7 @@ let
         "fabric-1.20.3" = _bOIXHxU7;
         "fabric-1.21.9" = _JIjIKRW9;
         "fabric-1.21.10" = _JIjIKRW9;
-        "fabric-1.21.11" = _FW0WEEL0;
+        "fabric-1.21.11" = _Uckli8jo;
         "quilt-1.20" = _1I1OFj0Z;
         "quilt-1.20.1" = _NaT5F7p7;
         "quilt-1.19" = _Z4abAkga;
@@ -2478,7 +2490,8 @@ let
         "pkg-3.1.0" = _SMcvKJOF;
         "pkg-3.2.0" = _Gz9h5Mk7;
         "pkg-3.2.1" = _lVl2kVwh;
-        "default" = _lVl2kVwh;
+        "pkg-3.3.0" = _imKQLywQ;
+        "default" = _imKQLywQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "justenoughbreeding";

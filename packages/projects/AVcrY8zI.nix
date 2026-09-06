@@ -101,6 +101,41 @@ let
             "file" = "brick_variety_v1.1.1_1.21.5_NEOFORGE.jar";
             "hash" = "sha512-AfYLi4JSpqaM5Di3nHdFFTh3HFElYhs6lHe4NiqETE4tkCToh52e2v3XH+73eOiDuS9sp/zAg2J922L5/ADZ5w==";
         };
+        _YV0h71lG = {
+            "id" = "YV0h71lG";
+            "file" = "brickvariety_v1.1.1-fabric-1.21.8.jar";
+            "hash" = "sha512-BQ+ZbcHeqyP/GCJobw/R9s4uH5Eu70CMZZNubtKYvCIA3DAiJBognRgsQT9phMUsga2e7JcULokziYinp/C/SQ==";
+        };
+        _qsP7Auwz = {
+            "id" = "qsP7Auwz";
+            "file" = "brick_variety_v1.1.1_1.21.8_NEOFORGE.jar";
+            "hash" = "sha512-L4CG74OW4ZI/O45Nvc7yN0qbguTSpk4iNZCbWGQ+mmizW6Ml7L3tsbTG0WD6cBZtx6qLkamEyDwMNM76PHJ+qQ==";
+        };
+        _cfqscVyJ = {
+            "id" = "cfqscVyJ";
+            "file" = "brickvariety-1.1.1-neoforge-26.1.2.jar";
+            "hash" = "sha512-MJTb5Th5/dMNdn4sswlhPepVbUO5A4RB40s2RvtslOA6lOkn5FxXncyuJMHArg22K6lw0bRzn3HKXsIXtTBkPQ==";
+        };
+        _LnOeOH0d = {
+            "id" = "LnOeOH0d";
+            "file" = "brickvariety-1.1.1-fabric-26.1.2.jar";
+            "hash" = "sha512-ovxatVbHZLu1XgbaXlvil8g/vEaOiKUkggYxID0RYDfAhHjfYgFjX4qfhAnNySrcFk2UJtI7cIGvDDEq4wmKdA==";
+        };
+        _34cVDJLi = {
+            "id" = "34cVDJLi";
+            "file" = "brickvariety-1.1.1-fabric-26.2.jar";
+            "hash" = "sha512-9hjfIi3W5tCx+URG3zySHqLhl58sNkijJKEI6AhXg7uJzoKTNXoSFAId9vGn/Xe00/QgqjkAUpqaq2p0oZ6vdg==";
+        };
+        _FgsonNxJ = {
+            "id" = "FgsonNxJ";
+            "file" = "brickvariety-1.1.1-neoforge-26.2.jar";
+            "hash" = "sha512-mVXSpjj0bRHxfXmseoabx9DFu2M2IZKJk3EC65n8zaaXqM5R6xrYiBr3YdMfqR68mm/b7sS43H7Ucwp6TXkivg==";
+        };
+        _tqY9b8cM = {
+            "id" = "tqY9b8cM";
+            "file" = "brickvariety-1.1.1-fabric-1.21.11.jar";
+            "hash" = "sha512-YLzNzdsjdGNW5ABu0+/+Z+Ay/39LD4NAuIO7F9aFsloWV/Fgy8gE7s0uOHZ52MbKNBuK1EJ9OlKiIX9xAjAvyA==";
+        };
     in {
         "J033Fkai" = _J033Fkai;
         "PSSZ6fZh" = _PSSZ6fZh;
@@ -122,6 +157,13 @@ let
         "REnUAWeV" = _REnUAWeV;
         "kYD6kLBI" = _kYD6kLBI;
         "5pfue9Uf" = _5pfue9Uf;
+        "YV0h71lG" = _YV0h71lG;
+        "qsP7Auwz" = _qsP7Auwz;
+        "cfqscVyJ" = _cfqscVyJ;
+        "LnOeOH0d" = _LnOeOH0d;
+        "34cVDJLi" = _34cVDJLi;
+        "FgsonNxJ" = _FgsonNxJ;
+        "tqY9b8cM" = _tqY9b8cM;
         "forge-1.16.5" = _ELYLRqVE;
         "forge-1.18.2" = _PSSZ6fZh;
         "forge-1.19.2" = _fxaxVBtx;
@@ -129,16 +171,23 @@ let
         "forge-1.20.1" = _VtsTzst4;
         "fabric-1.19.2" = _MgXWtOKP;
         "fabric-1.20.1" = _DZloZHxA;
+        "fabric-1.21.8" = _YV0h71lG;
+        "fabric-26.1.2" = _LnOeOH0d;
+        "fabric-26.2" = _34cVDJLi;
+        "fabric-1.21.11" = _tqY9b8cM;
         "neoforge-1.20.6" = _Ug29ZRGl;
         "neoforge-1.21.1" = _REnUAWeV;
         "neoforge-1.21.4" = _kYD6kLBI;
         "neoforge-1.21.5" = _5pfue9Uf;
+        "neoforge-1.21.8" = _qsP7Auwz;
+        "neoforge-26.1.2" = _cfqscVyJ;
+        "neoforge-26.2" = _FgsonNxJ;
         "pkg-1.0.0" = _AOe4ZfQU;
         "pkg-1.0.1" = _CIm9va3P;
         "pkg-1.1.0" = _IcvOhYpC;
-        "pkg-1.1.1" = _5pfue9Uf;
+        "pkg-1.1.1" = _tqY9b8cM;
         "pkg-1.1.2" = _DZloZHxA;
-        "default" = _5pfue9Uf;
+        "default" = _tqY9b8cM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "brick-variety";

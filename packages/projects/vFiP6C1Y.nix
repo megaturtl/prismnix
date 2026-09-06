@@ -31,6 +31,11 @@ let
             "file" = "villagertools-1.21.1-1.0.4.jar";
             "hash" = "sha512-N9KwpFCJLcRGFTCB3/NYoVLtlxz2yNdOAxIr1Q406m+gBqK4UnolwkZcmW90ydnIUyNuratSCMWL8aNGxFQFGg==";
         };
+        _7QrHchy6 = {
+            "id" = "7QrHchy6";
+            "file" = "villagertools-26.1.2-1.0.4.jar";
+            "hash" = "sha512-ltWjor0fbvFeAeCG5MzkJdPMcB+p7s0LBBag8y1AXozkWYzba+XzFX0m/4CP8YapTnOw//3/kZR1DQ8EEBLBQg==";
+        };
     in {
         "ltyKh5hw" = _ltyKh5hw;
         "GPGKthDi" = _GPGKthDi;
@@ -38,6 +43,7 @@ let
         "FU9tUljR" = _FU9tUljR;
         "RtyUGcvx" = _RtyUGcvx;
         "15Ltwics" = _15Ltwics;
+        "7QrHchy6" = _7QrHchy6;
         "forge-1.18.2" = _ltyKh5hw;
         "forge-1.19" = _GPGKthDi;
         "forge-1.16.5" = _CY1TNKY5;
@@ -45,13 +51,15 @@ let
         "forge-1.20.1" = _RtyUGcvx;
         "neoforge-1.20.1" = _RtyUGcvx;
         "neoforge-1.21.1" = _15Ltwics;
+        "neoforge-26.1.2" = _7QrHchy6;
         "pkg-1.18-1.0.2" = _ltyKh5hw;
         "pkg-1.19-1.0.2" = _GPGKthDi;
         "pkg-1.16.5-1.0.2" = _CY1TNKY5;
         "pkg-1.19.4-1.0.3" = _FU9tUljR;
         "pkg-1.0.3" = _RtyUGcvx;
         "pkg-1.21.1-1.0.4" = _15Ltwics;
-        "default" = _15Ltwics;
+        "pkg-26.1.2-1.0.4" = _7QrHchy6;
+        "default" = _7QrHchy6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villager-tools";

@@ -121,6 +121,16 @@ let
             "file" = "True_POWER-1.21.1-1.2.1-hotfix1.jar";
             "hash" = "sha512-pxFdelyqPWnWOGuhyEWN8qGE5FazKbHiXETKv1R/WxBZzjGFEPrq7yI4ZYJW1f71y+WQ3PlqgSkOmyrZxnKkdQ==";
         };
+        _WOwB3514 = {
+            "id" = "WOwB3514";
+            "file" = "True_POWER-1.21.1-1.3.0.jar";
+            "hash" = "sha512-0QhkU7riAfjHbiT9CVAiyVMSpcX+Azt94Hualb9cwnDoV9wBtU1UsYzWboM6MJ0vUr/NtL5Nh/rJkkHRL/fuhg==";
+        };
+        _lyR7j4LT = {
+            "id" = "lyR7j4LT";
+            "file" = "True_POWER-1.21.1-1.3.1.jar";
+            "hash" = "sha512-cykmAc9Qj8igYC6hgFwKYadQDBQI9R4nDVRd09AT+CTT0BEmTWo9m1IcAgB5h+JmOzWavlG7Uik7sU6OaFQC6g==";
+        };
     in {
         "QqZxDnX4" = _QqZxDnX4;
         "m7amr342" = _m7amr342;
@@ -146,8 +156,10 @@ let
         "x2Zwx7Rx" = _x2Zwx7Rx;
         "AnXcYTm6" = _AnXcYTm6;
         "TYtnsCqQ" = _TYtnsCqQ;
+        "WOwB3514" = _WOwB3514;
+        "lyR7j4LT" = _lyR7j4LT;
         "forge-1.20.1" = _AnXcYTm6;
-        "neoforge-1.21.1" = _TYtnsCqQ;
+        "neoforge-1.21.1" = _lyR7j4LT;
         "pkg-1.0.0" = _QqZxDnX4;
         "pkg-1.0.1" = _m7amr342;
         "pkg-1.0.2" = _chWm9CiX;
@@ -167,7 +179,9 @@ let
         "pkg-1.2.0-hotfix2" = _fcq5NdqV;
         "pkg-1.2.1" = _x2Zwx7Rx;
         "pkg-1.2.1-hotfix1" = _TYtnsCqQ;
-        "default" = _TYtnsCqQ;
+        "pkg-1.3.0" = _WOwB3514;
+        "pkg-1.3.1" = _lyR7j4LT;
+        "default" = _lyR7j4LT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "true-power";
@@ -175,13 +189,13 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "GNU General Public License v3.0 or later";
-                shortName = "GPL-3.0-or-later";
-                url = "https://github.com/mrqx0195/true-power/blob/main/LICENSE";
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = "https://github.com/mrqx0195/true-power/blob/1.20.1-Forge/LICENSE";
             };
         };
     };

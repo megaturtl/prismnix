@@ -241,6 +241,16 @@ let
             "file" = "wynnmod-2.3.4.jar";
             "hash" = "sha512-EmJU0I3uAIPIof3x2giMHKgpvhz0T+l428ZW4PDRGmnUfOUuO7KGiQn0jEmeAGElWZzdRmqOcfdNNHCfo23ZvQ==";
         };
+        _ppKsfQLD = {
+            "id" = "ppKsfQLD";
+            "file" = "wynnmod-2.3.5.jar";
+            "hash" = "sha512-hCdhZkE7N/zv6R48xirakA+ydf9KI8NvBYVjlnGK25cPBJ3mhEf9Fqfk5epNmByHJO8Z5v2KGuvNvkaNoI8t+A==";
+        };
+        _FqBjmaRA = {
+            "id" = "FqBjmaRA";
+            "file" = "wynnmod-2.3.6.jar";
+            "hash" = "sha512-6moY5cnpDuq5ZoToYG3liGR9EiXay4GO6oI+7VJQc/KNUsNlJllrfwFjkyoJJfpxPc6CfBR+x3mRCmHki/TWEA==";
+        };
     in {
         "46nJZImG" = _46nJZImG;
         "gG8RhUhw" = _gG8RhUhw;
@@ -290,8 +300,10 @@ let
         "kuL1gbFN" = _kuL1gbFN;
         "5LxZEaOF" = _5LxZEaOF;
         "40zWME8h" = _40zWME8h;
+        "ppKsfQLD" = _ppKsfQLD;
+        "FqBjmaRA" = _FqBjmaRA;
         "fabric-1.21.4" = _RWKXYtFk;
-        "fabric-1.21.11" = _40zWME8h;
+        "fabric-1.21.11" = _FqBjmaRA;
         "pkg-1.13.0" = _46nJZImG;
         "pkg-1.13.1" = _gG8RhUhw;
         "pkg-1.13.2" = _dXRlgcSD;
@@ -340,7 +352,9 @@ let
         "pkg-2.3.2" = _kuL1gbFN;
         "pkg-2.3.3" = _5LxZEaOF;
         "pkg-2.3.4" = _40zWME8h;
-        "default" = _40zWME8h;
+        "pkg-2.3.5" = _ppKsfQLD;
+        "pkg-2.3.6" = _FqBjmaRA;
+        "default" = _FqBjmaRA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wynnmod";

@@ -191,6 +191,21 @@ let
             "file" = "Valoria-1.20.1-1.0.3.2.jar";
             "hash" = "sha512-FGDgCSNnVK7Fkx6+nBro2jbWFHgnS7VLM0csEtiqjQFVvfeAUBHjRpAkdOp13KBcScqsQd3MBRZFtQVRBNi7fA==";
         };
+        _cpQpbt3S = {
+            "id" = "cpQpbt3S";
+            "file" = "Valoria-1.20.1-1.0.4.jar";
+            "hash" = "sha512-cOu9qpfKQ3CqgMMiGtTzxl6yJ9VOxty+MvlDMvg72Sga+c/3OIYfIroxZ996dU5PE+xN+urOwI5YXgUD92zImQ==";
+        };
+        _KdG143Fs = {
+            "id" = "KdG143Fs";
+            "file" = "Valoria-1.20.1-1.0.4.1.jar";
+            "hash" = "sha512-pvkdQdX0VHXWoRicL3dDKfEEetKYlw5lN22MGdGnUbfIGlFKrQU+U35xmOE4REzSRVdHt+DMZJA6DbgoOcrCfw==";
+        };
+        _QU7A3bOJ = {
+            "id" = "QU7A3bOJ";
+            "file" = "Valoria-1.20.1-1.0.4.2.jar";
+            "hash" = "sha512-hDWQuhprsv1PU3Qxe0p0sy4dTdSEDbwovJt+fMZhGKRBhkKUC9XmnQXhk+HuZkYvoRhaa2T5P9QwqbPyjBBTVA==";
+        };
     in {
         "u6jTU6lR" = _u6jTU6lR;
         "UcGAO5D7" = _UcGAO5D7;
@@ -230,7 +245,10 @@ let
         "StraTM7C" = _StraTM7C;
         "nWrHlHau" = _nWrHlHau;
         "Qib9cHok" = _Qib9cHok;
-        "forge-1.20.1" = _Qib9cHok;
+        "cpQpbt3S" = _cpQpbt3S;
+        "KdG143Fs" = _KdG143Fs;
+        "QU7A3bOJ" = _QU7A3bOJ;
+        "forge-1.20.1" = _QU7A3bOJ;
         "forge-1.20" = _34vtTYLH;
         "forge-1.20.2" = _WSyzDBbV;
         "forge-1.20.3" = _WSyzDBbV;
@@ -281,7 +299,10 @@ let
         "pkg-1.0.3" = _StraTM7C;
         "pkg-1.20.1-1.0.3.1" = _nWrHlHau;
         "pkg-1.0.3.2" = _Qib9cHok;
-        "default" = _Qib9cHok;
+        "pkg-1.0.4" = _cpQpbt3S;
+        "pkg-1.0.4.1" = _KdG143Fs;
+        "pkg-1.0.4.2" = _QU7A3bOJ;
+        "default" = _QU7A3bOJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "valoria";

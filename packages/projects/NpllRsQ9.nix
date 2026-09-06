@@ -11,9 +11,21 @@ let
             "file" = "DarkModeSkyblock 1.1.zip";
             "hash" = "sha512-ZcuV2d7J/YPC1AQiH+4kU2EkoHyzm6P5LdI1DZTy/F6h/nDDyMG4etbFPSfxmk/0H+2ngCAbh1RCzMX3bBGgEQ==";
         };
+        _gD7XiiaH = {
+            "id" = "gD7XiiaH";
+            "file" = "DarkModeSkyblock 1.1.0 v26.x.zip";
+            "hash" = "sha512-AojGc+3IuyMlyguDtOI4CzWNcGCLBj7p5/4EVqoY/qi+6OcYi3sG8esRXrUqH1nfKhdeL1ZpwJmprkaGkZHkCQ==";
+        };
+        _QixTOPu6 = {
+            "id" = "QixTOPu6";
+            "file" = "DarkModeSkyblock 1.2.0 v26.X.zip";
+            "hash" = "sha512-9j/W1vVBwFBmc+ss7lEE83EzQGmYdMKFotE4k7vdEhP++XRzhDaOujrzwJUca//NGov0/W5DGfu0raGgoGsW+w==";
+        };
     in {
         "bMBwTH0d" = _bMBwTH0d;
         "qs1mBSCs" = _qs1mBSCs;
+        "gD7XiiaH" = _gD7XiiaH;
+        "QixTOPu6" = _QixTOPu6;
         "minecraft-1.21" = _qs1mBSCs;
         "minecraft-1.21.1" = _qs1mBSCs;
         "minecraft-24w33a" = _qs1mBSCs;
@@ -39,9 +51,15 @@ let
         "minecraft-1.21.9" = _qs1mBSCs;
         "minecraft-1.21.10" = _qs1mBSCs;
         "minecraft-1.21.11" = _qs1mBSCs;
+        "minecraft-26.1" = _QixTOPu6;
+        "minecraft-26.1.1" = _QixTOPu6;
+        "minecraft-26.1.2" = _QixTOPu6;
+        "minecraft-26.2" = _QixTOPu6;
         "pkg-1.0.0" = _bMBwTH0d;
         "pkg-1.1.0" = _qs1mBSCs;
-        "default" = _qs1mBSCs;
+        "pkg-1.1.0-26.X" = _gD7XiiaH;
+        "pkg-1.2.0-26.X" = _QixTOPu6;
+        "default" = _QixTOPu6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "darkmodeskyblock";

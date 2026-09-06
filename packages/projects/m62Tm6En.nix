@@ -41,6 +41,21 @@ let
             "file" = "perch-2.0.0-neoforge.jar";
             "hash" = "sha512-kYmwYgLHllWHNxx+dWUZ/73I65xQXUTd6bsSs70tGwp5JvL7rBc6ZIq60EwdHD6O08ORZ2PqXaLPwidBjxYiEg==";
         };
+        _PdFvQjXo = {
+            "id" = "PdFvQjXo";
+            "file" = "perch-2.0.1-neoforge.jar";
+            "hash" = "sha512-qUb8YHr/8ebk1SMETYOwSuUmsmEq2T7UHeRHfgUbGOOY6G3QxARWKQWfkMGid9znkcg5eDuyPD9kGPSFUKVopw==";
+        };
+        _iYgpMb12 = {
+            "id" = "iYgpMb12";
+            "file" = "perch-2.0.1-fabric-1.21.1.jar";
+            "hash" = "sha512-pL2MzUc/w1aLECa4MMwRZjfw/dFbJSrhHZGBJroXrDPBBy9XWuacwJ5VCr9lPPiExZdiSh5xKlQ6xMvkN3hKLw==";
+        };
+        _43AWMYJu = {
+            "id" = "43AWMYJu";
+            "file" = "perch-2.0.1-fabric-26.2.jar";
+            "hash" = "sha512-v0UDHqUUmVXq+EV8lMZ4faBKE23CE7pEXJ336URF5yNH1Kn9Mzp0V/+SyqQBlR2v66G3Fkksk08A2LaXoYCdTQ==";
+        };
     in {
         "NdRyNgjX" = _NdRyNgjX;
         "f70rVZBK" = _f70rVZBK;
@@ -50,14 +65,18 @@ let
         "u13kqk5q" = _u13kqk5q;
         "OmUekzOc" = _OmUekzOc;
         "QjzEGEpJ" = _QjzEGEpJ;
+        "PdFvQjXo" = _PdFvQjXo;
+        "iYgpMb12" = _iYgpMb12;
+        "43AWMYJu" = _43AWMYJu;
         "fabric-1.19.4" = _NdRyNgjX;
         "fabric-1.19.2" = _f70rVZBK;
         "fabric-1.20" = _EaSMZdDR;
         "fabric-1.20.2" = _vdFHQpeN;
         "fabric-1.20.1" = _8AUKNjEs;
         "fabric-1.20.4" = _u13kqk5q;
-        "fabric-1.21.1" = _OmUekzOc;
-        "neoforge-1.21.1" = _QjzEGEpJ;
+        "fabric-1.21.1" = _iYgpMb12;
+        "fabric-26.2" = _43AWMYJu;
+        "neoforge-1.21.1" = _PdFvQjXo;
         "pkg-1.0.0" = _NdRyNgjX;
         "pkg-1.0.0-1.19.2" = _f70rVZBK;
         "pkg-1.0.1-1.20" = _EaSMZdDR;
@@ -65,7 +84,8 @@ let
         "pkg-1.0.0-1.20.1" = _8AUKNjEs;
         "pkg-1.0.0-1.20.4" = _u13kqk5q;
         "pkg-2.0.0" = _QjzEGEpJ;
-        "default" = _QjzEGEpJ;
+        "pkg-2.0.1" = _43AWMYJu;
+        "default" = _43AWMYJu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "perch";

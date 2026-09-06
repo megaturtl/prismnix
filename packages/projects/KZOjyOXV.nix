@@ -151,6 +151,16 @@ let
             "file" = "timeclock-4.6.0-forge-1.20.1.jar";
             "hash" = "sha512-o8eYGCffyf6xgPkpNn48AMlE6WhvjbURgs02wyiw9wL5vleVR75JvSBrgessZq9QmHr8qutMJfqiq3lq0ciPyQ==";
         };
+        _SdOBGyk3 = {
+            "id" = "SdOBGyk3";
+            "file" = "timeclock-4.7.0-fabric-1.21.1.jar";
+            "hash" = "sha512-I3Wvu95pVS1j5lM+C/Xecp0G62UK/fO9mzAGjkyhzydWcTv1DndbhG+EmjzZ/1JTRNb1aFG5xfr/Q3S121arxg==";
+        };
+        _YPUMGIbu = {
+            "id" = "YPUMGIbu";
+            "file" = "timeclock-4.7.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-FYruaDrxEIr71e/TozFtvlHsweHHSrb9PhM50x/EcENv2vC33gajl8amTxQKHG2ugMOvw9AzqNe9q3hmRVAnZg==";
+        };
     in {
         "mT5DbCHu" = _mT5DbCHu;
         "uRn9TBfK" = _uRn9TBfK;
@@ -182,14 +192,16 @@ let
         "aTrGf0l0" = _aTrGf0l0;
         "bsIFx6dN" = _bsIFx6dN;
         "vJpXKjSw" = _vJpXKjSw;
+        "SdOBGyk3" = _SdOBGyk3;
+        "YPUMGIbu" = _YPUMGIbu;
         "fabric-1.20" = _f18wex8d;
         "fabric-1.20.1" = _bsIFx6dN;
-        "fabric-1.21.1" = _Ej69TIwf;
+        "fabric-1.21.1" = _SdOBGyk3;
         "forge-1.20" = _FtU3XyfB;
         "forge-1.20.1" = _vJpXKjSw;
         "neoforge-1.20" = _FtU3XyfB;
         "neoforge-1.20.1" = _MWsD6Sjw;
-        "neoforge-1.21.1" = _uf7Iyx0q;
+        "neoforge-1.21.1" = _YPUMGIbu;
         "pkg-1.0.0" = _uRn9TBfK;
         "pkg-1.1.0" = _f18wex8d;
         "pkg-2.0.0" = _SEgYza6t;
@@ -210,7 +222,9 @@ let
         "pkg-4.5.0-hotfix+forge" = _aTrGf0l0;
         "pkg-4.6.0+fabric" = _bsIFx6dN;
         "pkg-4.6.0+forge" = _vJpXKjSw;
-        "default" = _vJpXKjSw;
+        "pkg-4.7.0+fabric" = _SdOBGyk3;
+        "pkg-4.7.0+neoforge" = _YPUMGIbu;
+        "default" = _YPUMGIbu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "time-stop-clock-mod";

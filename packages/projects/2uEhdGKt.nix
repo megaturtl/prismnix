@@ -71,6 +71,11 @@ let
             "file" = "endersdelight-1.1.4.jar";
             "hash" = "sha512-VUp0+ds7RJb7uYvuP0Vklc7N2elHHR+KDeAx3/+SjzkD4Kdtnjy7x4WzFYM/I7+Fk0GdESB+sILIoZXo/mWtkA==";
         };
+        _5S67w5gs = {
+            "id" = "5S67w5gs";
+            "file" = "endersdelight-1.3.1.jar";
+            "hash" = "sha512-053kgs1BU39ke22WzB+yIBKVGY94NXn2w14MntkboK44alyozfahxu0CuuTxkBud1oluGJiT0V7KG6q4dmYBSg==";
+        };
     in {
         "v00QeNvF" = _v00QeNvF;
         "pgFdau8b" = _pgFdau8b;
@@ -86,6 +91,7 @@ let
         "62u9jbn9" = _62u9jbn9;
         "DG541UlP" = _DG541UlP;
         "Jaf9wxnO" = _Jaf9wxnO;
+        "5S67w5gs" = _5S67w5gs;
         "forge-1.18.2" = _v00QeNvF;
         "forge-1.19" = _pgFdau8b;
         "forge-1.19.1" = _pgFdau8b;
@@ -95,7 +101,7 @@ let
         "forge-1.20" = _1yJCBCX9;
         "forge-1.20.1" = _Jaf9wxnO;
         "neoforge-1.21" = _aev5sQTh;
-        "neoforge-1.21.1" = _DG541UlP;
+        "neoforge-1.21.1" = _5S67w5gs;
         "fabric-1.20.1" = _gWaVevpz;
         "pkg-1.18.2-1.2.1" = _v00QeNvF;
         "pkg-1.19-1.2.2" = _pgFdau8b;
@@ -110,7 +116,8 @@ let
         "pkg-1.2.0" = _62u9jbn9;
         "pkg-1.3.0" = _DG541UlP;
         "pkg-1.1.4" = _Jaf9wxnO;
-        "default" = _Jaf9wxnO;
+        "pkg-1.3.1" = _5S67w5gs;
+        "default" = _5S67w5gs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enders-delight";

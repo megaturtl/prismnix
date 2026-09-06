@@ -1601,6 +1601,56 @@ let
             "file" = "malilib-fabric-26.2-0.29.3.jar";
             "hash" = "sha512-9Mz/SxN5H442dxwQ2vwMuYKJZnO4xePhorNNo4KSd8ekt8ygPAHys5tSyuzTmzwtcMLveth6KKyXXdQTY5ZkCw==";
         };
+        _UyTEhWxl = {
+            "id" = "UyTEhWxl";
+            "file" = "malilib-fabric-1.21.11-0.27.17.jar";
+            "hash" = "sha512-Hjddn2oSAmgWtO0va5z8nK6+H1mchZfNHqVhrPhQsYF7JQsLiIlt37t91WCFUq3Zm85Z/gtSY4vxWHQOCrU1KA==";
+        };
+        _won0w3AD = {
+            "id" = "won0w3AD";
+            "file" = "malilib-fabric-26.1.2-0.28.10.jar";
+            "hash" = "sha512-oo3LLgviYznbIFwvtDa7NUUlzmoVs7uAcHhUAl/k8Ysji5WOHbr7iXpAWjBYqZkDDyEByz31gGAKZgIrPcAj5Q==";
+        };
+        _ZCq1iE1J = {
+            "id" = "ZCq1iE1J";
+            "file" = "malilib-fabric-26.2-0.29.4.jar";
+            "hash" = "sha512-1F0I7+U8rH19nK5NFbCWASZr209HqNaCida8c9GxI1ofIdI+wPRWyDqQPVPAiVFENbHL+/y5Pur21t2jbAQcMg==";
+        };
+        _F023wiL7 = {
+            "id" = "F023wiL7";
+            "file" = "malilib-fabric-1.21.11-0.27.18.jar";
+            "hash" = "sha512-dPRVMloy4zDpv6DPBGcah2yHgb/zfDGiaJ0FHSY/B8Aj5f8W0Er2vFz2i9TUuSNDseWgjRZtIv9lFD0MObnlvA==";
+        };
+        _lSZtYs2h = {
+            "id" = "lSZtYs2h";
+            "file" = "malilib-fabric-1.21.11-0.27.19.jar";
+            "hash" = "sha512-UHU7hiM4eyhcJ1Rjt6ullLA8LhNzZ2a7gOD7ACTJh0SSBdOnm+Zv614W9Uxz9wauKDv3znjEmFpkK7BUAmMAfA==";
+        };
+        _4qVbVLIv = {
+            "id" = "4qVbVLIv";
+            "file" = "malilib-fabric-26.1.2-0.28.11.jar";
+            "hash" = "sha512-nhrz9xlFS0qnH7fTrFbLGHTpKG6YncPPcATmKAxvz7uSza4YVKndjTyvxePrvK3sO7BFrlhYtiWrxUDVCfUYOQ==";
+        };
+        _74gmDXEM = {
+            "id" = "74gmDXEM";
+            "file" = "malilib-fabric-26.2-0.29.5.jar";
+            "hash" = "sha512-RNje0wV0+ZEFFzs20vTlr27TTQt28QEV9hGOXJR2nDMEW6zEMmJjRXikPNfYBCup0wlIKVs2HNBibmsVukYU1Q==";
+        };
+        _loabWpyU = {
+            "id" = "loabWpyU";
+            "file" = "malilib-fabric-1.21.11-0.27.20.jar";
+            "hash" = "sha512-xqDLxAeWK0MxblKxXZKKohN++oaWPNzqKWmfQ++mRCUZIGvb+sI+TGw2I3kxAG7NErnGRQpO/RqaIGieULViKg==";
+        };
+        _FItuNokS = {
+            "id" = "FItuNokS";
+            "file" = "malilib-fabric-26.1.2-0.28.12.jar";
+            "hash" = "sha512-4e8EUEmR85XjAmbyywBqF+xWV6ALbYTfTTJ+SGrDWUQ0bhe8thDSTJi36oKMrG9cgJaOCUFtc4R1QN/uhDZGag==";
+        };
+        _KvjmGjAV = {
+            "id" = "KvjmGjAV";
+            "file" = "malilib-fabric-26.2-0.29.6.jar";
+            "hash" = "sha512-D6s5j4NdnEc22sZVEPcHx3pgvm5gUb/QCCJcIKX/E+FGKW2iWL7lUdOfooECuIVNd/olsuy2sPifs8h0usVj2w==";
+        };
     in {
         "xpR792B4" = _xpR792B4;
         "JOreljE2" = _JOreljE2;
@@ -1922,6 +1972,16 @@ let
         "oaU4Ys3J" = _oaU4Ys3J;
         "xGyGn0t9" = _xGyGn0t9;
         "xKxhjDJ2" = _xKxhjDJ2;
+        "UyTEhWxl" = _UyTEhWxl;
+        "won0w3AD" = _won0w3AD;
+        "ZCq1iE1J" = _ZCq1iE1J;
+        "F023wiL7" = _F023wiL7;
+        "lSZtYs2h" = _lSZtYs2h;
+        "4qVbVLIv" = _4qVbVLIv;
+        "74gmDXEM" = _74gmDXEM;
+        "loabWpyU" = _loabWpyU;
+        "FItuNokS" = _FItuNokS;
+        "KvjmGjAV" = _KvjmGjAV;
         "liteloader-1.12" = _BU2oeYjc;
         "liteloader-1.12.2" = _3zGlToR7;
         "liteloader-1.12.1" = _SjGToM73;
@@ -2008,11 +2068,11 @@ let
         "fabric-1.21.8" = _2kC79eY3;
         "fabric-1.21.9" = _VwmyInJJ;
         "fabric-1.21.10" = _VwmyInJJ;
-        "fabric-1.21.11" = _oaU4Ys3J;
-        "fabric-26.1" = _xGyGn0t9;
-        "fabric-26.1.1" = _xGyGn0t9;
-        "fabric-26.1.2" = _xGyGn0t9;
-        "fabric-26.2" = _xKxhjDJ2;
+        "fabric-1.21.11" = _loabWpyU;
+        "fabric-26.1" = _FItuNokS;
+        "fabric-26.1.1" = _FItuNokS;
+        "fabric-26.1.2" = _FItuNokS;
+        "fabric-26.2" = _KvjmGjAV;
         "forge-1.12.2" = _6PDV12GO;
         "forge-1.14.4" = _nVIcj6u9;
         "forge-1.15.2" = _AXxe1CWD;
@@ -2228,7 +2288,17 @@ let
         "pkg-0.27.16" = _oaU4Ys3J;
         "pkg-0.28.9" = _xGyGn0t9;
         "pkg-0.29.3" = _xKxhjDJ2;
-        "default" = _xKxhjDJ2;
+        "pkg-0.27.17" = _UyTEhWxl;
+        "pkg-0.28.10" = _won0w3AD;
+        "pkg-0.29.4" = _ZCq1iE1J;
+        "pkg-0.27.18" = _F023wiL7;
+        "pkg-0.27.19" = _lSZtYs2h;
+        "pkg-0.28.11" = _4qVbVLIv;
+        "pkg-0.29.5" = _74gmDXEM;
+        "pkg-0.27.20" = _loabWpyU;
+        "pkg-0.28.12" = _FItuNokS;
+        "pkg-0.29.6" = _KvjmGjAV;
+        "default" = _KvjmGjAV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "malilib";

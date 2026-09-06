@@ -21,17 +21,24 @@ let
             "file" = "GenesisForms-1.2.5-1.7.2.jar";
             "hash" = "sha512-1mr/peaBdahcs8Q98R57H8kOiV7jCSaQS4GwGxsYrYiclUD83AwCgUIQIUMX5IVe0YdGKCWfLQ3Q7bboA5X0RQ==";
         };
+        _yFCwHhnx = {
+            "id" = "yFCwHhnx";
+            "file" = "GenesisForms-1.2.7-1.7.3.jar";
+            "hash" = "sha512-jQMU2dSoiD0xJBq0ii0q9IG8c+Q2VXtzGeMCCndOvJcRBrrRM5inGS+7cSihuxSNXWQYlDZVEhKXU89hXkCqTw==";
+        };
     in {
         "owEIJB8x" = _owEIJB8x;
         "kz3BwGMn" = _kz3BwGMn;
         "1L5PlK93" = _1L5PlK93;
         "C0GWFIoM" = _C0GWFIoM;
-        "fabric-1.21.1" = _C0GWFIoM;
+        "yFCwHhnx" = _yFCwHhnx;
+        "fabric-1.21.1" = _yFCwHhnx;
         "pkg-1.0-1.6.1" = _owEIJB8x;
         "pkg-1.1-1.6.1" = _kz3BwGMn;
         "pkg-1.2.1-1.6.1" = _1L5PlK93;
         "pkg-1.2.5-1.7.2" = _C0GWFIoM;
-        "default" = _C0GWFIoM;
+        "pkg-1.2.7-1.7.3" = _yFCwHhnx;
+        "default" = _yFCwHhnx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-genesis-forms";

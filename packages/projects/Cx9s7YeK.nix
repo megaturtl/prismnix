@@ -66,6 +66,21 @@ let
             "file" = "mebahel-creatures-dwarven-1.0.7-fabric-1.20.1.jar";
             "hash" = "sha512-hjwvk/U3V2+VTYMbbKgbRCaCpRmIyd+aWgzSrFHpun/ZUR6xXAgf5nRkZXx9GZvpBUKrr5N0LMmRn3rKj8R9cA==";
         };
+        _KwUrWfxt = {
+            "id" = "KwUrWfxt";
+            "file" = "mebahel-creatures-dwarven-1.1.0-fabric-1.21.1.jar";
+            "hash" = "sha512-AvdyICttHREUdN4G/m9sV3V2UJZ8AltOT7ti0L79uuQwV0FSOhMHVa30eu9tqlujm68boRdGHI77OnNUwPfPSA==";
+        };
+        _J5G8pYvo = {
+            "id" = "J5G8pYvo";
+            "file" = "mebahel-creatures-dwarven-1.1.1-fabric-1.21.1.jar";
+            "hash" = "sha512-HRP59RaqlciM97T3SPhyhraOMXuiE4Ee2h3sHZcjfeBpMjwR1L06lgw5sp9b2fm/wK7IPuaQrZy72ITIFOj+Dg==";
+        };
+        _gSuFeWTP = {
+            "id" = "gSuFeWTP";
+            "file" = "mebahel-creatures-dwarven-1.1.1-fabric-1.20.1.jar";
+            "hash" = "sha512-Axn9zE0OD3lMbKWZ4XyWdlMjBn4JzMHPnghgLfA31BxE0uNc8oAvecGGh7IZMI6b6zcmCZnkP8ojW5RS+inEnQ==";
+        };
     in {
         "FidXpiGY" = _FidXpiGY;
         "qizIFGzn" = _qizIFGzn;
@@ -80,22 +95,25 @@ let
         "EUYYu2DR" = _EUYYu2DR;
         "YkzwwEnF" = _YkzwwEnF;
         "ubpSuJWZ" = _ubpSuJWZ;
-        "fabric-1.20" = _ubpSuJWZ;
-        "fabric-1.20.1" = _ubpSuJWZ;
-        "fabric-1.21" = _YkzwwEnF;
-        "fabric-1.21.1" = _YkzwwEnF;
-        "forge-1.20" = _ubpSuJWZ;
-        "forge-1.20.1" = _ubpSuJWZ;
-        "forge-1.21" = _YkzwwEnF;
-        "forge-1.21.1" = _YkzwwEnF;
-        "neoforge-1.20" = _ubpSuJWZ;
-        "neoforge-1.20.1" = _ubpSuJWZ;
-        "neoforge-1.21" = _YkzwwEnF;
-        "neoforge-1.21.1" = _YkzwwEnF;
-        "quilt-1.20" = _ubpSuJWZ;
-        "quilt-1.20.1" = _ubpSuJWZ;
-        "quilt-1.21" = _YkzwwEnF;
-        "quilt-1.21.1" = _YkzwwEnF;
+        "KwUrWfxt" = _KwUrWfxt;
+        "J5G8pYvo" = _J5G8pYvo;
+        "gSuFeWTP" = _gSuFeWTP;
+        "fabric-1.20" = _gSuFeWTP;
+        "fabric-1.20.1" = _gSuFeWTP;
+        "fabric-1.21" = _J5G8pYvo;
+        "fabric-1.21.1" = _J5G8pYvo;
+        "forge-1.20" = _gSuFeWTP;
+        "forge-1.20.1" = _gSuFeWTP;
+        "forge-1.21" = _J5G8pYvo;
+        "forge-1.21.1" = _J5G8pYvo;
+        "neoforge-1.20" = _gSuFeWTP;
+        "neoforge-1.20.1" = _gSuFeWTP;
+        "neoforge-1.21" = _J5G8pYvo;
+        "neoforge-1.21.1" = _J5G8pYvo;
+        "quilt-1.20" = _gSuFeWTP;
+        "quilt-1.20.1" = _gSuFeWTP;
+        "quilt-1.21" = _J5G8pYvo;
+        "quilt-1.21.1" = _J5G8pYvo;
         "pkg-1.0.3-fabric-1.20.1" = _FidXpiGY;
         "pkg-1.0.2-fabric-1.21.1" = _qizIFGzn;
         "pkg-1.0.3-fabric-1.21.1" = _47wA8z3m;
@@ -109,7 +127,10 @@ let
         "pkg-1.0.6b-fabric-1.21.1" = _EUYYu2DR;
         "pkg-1.0.7-fabric-1.21.1" = _YkzwwEnF;
         "pkg-1.0.7-fabric-1.20.1" = _ubpSuJWZ;
-        "default" = _ubpSuJWZ;
+        "pkg-1.1.0-fabric-1.21.1" = _KwUrWfxt;
+        "pkg-1.1.1-fabric-1.21.1" = _J5G8pYvo;
+        "pkg-1.1.1-fabric-1.20.1" = _gSuFeWTP;
+        "default" = _gSuFeWTP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mebahels-creatures-dwarven-automatons";

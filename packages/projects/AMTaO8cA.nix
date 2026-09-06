@@ -31,6 +31,16 @@ let
             "file" = "elytraslot-fabric-26.2-2.0.0.jar";
             "hash" = "sha512-hZbuupSmmOat4L6Np3TOpulpAvRScELTyyzHT3QvqO0YBr4VktBcWVGECpNtomtzPB4N4fEOmXr9kfDHOBnphg==";
         };
+        _fWibUqDz = {
+            "id" = "fWibUqDz";
+            "file" = "elytraslot-neoforge-26.2-3.0.0.jar";
+            "hash" = "sha512-Lq3Gcd2pHxoDedLDHQf39koe92z/dxRYS3uQ/0QIuPZUk/d3f30XjVMZ8Ov8K3EicpCVF1+GjCrE8Funmv6uSQ==";
+        };
+        _GtfCezN7 = {
+            "id" = "GtfCezN7";
+            "file" = "elytraslot-fabric-26.2-3.0.0.jar";
+            "hash" = "sha512-19Fb8p5ZfWtNFtF3LGnnhmpaywzXkTJ8Lllv3H0cChLCgIdVBv2CHZOqP2/3rb/c3bOImeGcwdAXhTqR0d1Nxw==";
+        };
     in {
         "GZLmjmOX" = _GZLmjmOX;
         "Mkn9hfz3" = _Mkn9hfz3;
@@ -38,16 +48,18 @@ let
         "T4jenmAG" = _T4jenmAG;
         "mfv2oJnr" = _mfv2oJnr;
         "Zija2axF" = _Zija2axF;
+        "fWibUqDz" = _fWibUqDz;
+        "GtfCezN7" = _GtfCezN7;
         "fabric-26.1" = _hewHR3k7;
         "fabric-26.1.1" = _hewHR3k7;
         "fabric-26.1.2" = _hewHR3k7;
-        "fabric-26.2" = _Zija2axF;
+        "fabric-26.2" = _GtfCezN7;
         "neoforge-26.1.2" = _T4jenmAG;
-        "neoforge-26.2" = _mfv2oJnr;
+        "neoforge-26.2" = _fWibUqDz;
         "pkg-2.0.0" = _Mkn9hfz3;
-        "pkg-3.0.0" = _T4jenmAG;
+        "pkg-3.0.0" = _GtfCezN7;
         "pkg-4.0.0" = _Zija2axF;
-        "default" = _Zija2axF;
+        "default" = _GtfCezN7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytra-slot!";

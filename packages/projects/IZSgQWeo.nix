@@ -29,6 +29,8 @@ let
         "minecraft-1.21.9" = _TMvRjL8O;
         "minecraft-1.21.10" = _TMvRjL8O;
         "minecraft-1.21.11" = _TMvRjL8O;
+        "minecraft-26.1" = _TMvRjL8O;
+        "minecraft-26.2" = _TMvRjL8O;
         "minecraft-1.20.5" = _WYGcWenQ;
         "minecraft-1.20.6" = _WYGcWenQ;
         "minecraft-1.21" = _WYGcWenQ;

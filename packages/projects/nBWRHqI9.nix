@@ -156,6 +156,16 @@ let
             "file" = "ping-offset-miner-3.0.7.beta.jar";
             "hash" = "sha512-3GkaMfme07Acu24xOsxZdL6QE//3aiFJNbM7PxfdwVCGZhG5UkffTgIU9sNvgqWIVhrO5wJsMAvpXE7GWx7WLw==";
         };
+        _LJ2JSv14 = {
+            "id" = "LJ2JSv14";
+            "file" = "ping-offset-miner-3.0.8.beta+26.2.jar";
+            "hash" = "sha512-q9U6QzoqfkJVfGDxQLuCyYopqZHSUC0VotmPzcBvISHUxSYBozHkCXLRYlZ2PKjTtQOfbc5jfGWh9XfPNmZqcg==";
+        };
+        _ud4brhtb = {
+            "id" = "ud4brhtb";
+            "file" = "ping-offset-miner-3.0.8.beta+26.1.2.jar";
+            "hash" = "sha512-L+EE1YTYEVJyKCjNv86LAw4UcAo3jOARJgI9H/hppc+oIzf03ZNcTgaVeMI/bqfM70jM5UqcS+cqfGbhyXrBew==";
+        };
     in {
         "WinYzyBf" = _WinYzyBf;
         "uZU3fGGC" = _uZU3fGGC;
@@ -188,11 +198,14 @@ let
         "afKPGhGR" = _afKPGhGR;
         "7FY0yhFK" = _7FY0yhFK;
         "Kp7MY6dA" = _Kp7MY6dA;
+        "LJ2JSv14" = _LJ2JSv14;
+        "ud4brhtb" = _ud4brhtb;
         "fabric-1.21.10" = _ssagin4P;
         "fabric-1.21.11" = _NZ1ATwY6;
         "fabric-26.1" = _Kp7MY6dA;
         "fabric-26.1.1" = _Kp7MY6dA;
-        "fabric-26.1.2" = _Kp7MY6dA;
+        "fabric-26.1.2" = _ud4brhtb;
+        "fabric-26.2" = _LJ2JSv14;
         "pkg-1.1" = _WinYzyBf;
         "pkg-1.1.1beta" = _uZU3fGGC;
         "pkg-1.1.2beta" = _pxa0us3i;
@@ -224,7 +237,9 @@ let
         "pkg-3.0.5.beta" = _afKPGhGR;
         "pkg-3.0.6.beta" = _7FY0yhFK;
         "pkg-3.0.7.beta" = _Kp7MY6dA;
-        "default" = _Kp7MY6dA;
+        "pkg-3.0.8.beta+26.2" = _LJ2JSv14;
+        "pkg-3.0.8.beta+26.1.2" = _ud4brhtb;
+        "default" = _ud4brhtb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ping-offset-miner";

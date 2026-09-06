@@ -186,6 +186,16 @@ let
             "file" = "SIRIUS Ui [NeoForge 1.21.1] v-0.4.86-Dev.64.jar";
             "hash" = "sha512-BmLp35WcktHu4gzCztOC2uxe1QDcZ7qT9uKxwNDunLVAGy1eh7JYUYcZrfVFSDB1QgqcZWOoXX5pg1THGyclwQ==";
         };
+        _1eEGqXmQ = {
+            "id" = "1eEGqXmQ";
+            "file" = "SIRIUS Ui 0.4.87[Forge 1.20.1].jar";
+            "hash" = "sha512-evGc1apKJ6CuKlwsbeujHUrOU0rlY3980KdhkI9GXJyz7UXO7sJfwlT99Z8sGUmlZ9MANoA5OD+3oYBPVnAdWA==";
+        };
+        _vONdelOv = {
+            "id" = "vONdelOv";
+            "file" = "SIRIUS Ui 0.4.87[Neo 1.21.1].jar";
+            "hash" = "sha512-FBn0cVyZiNBgcHz//mHj7r2wVMklC2uDe5G1VMSbX+SnaUh1jieVg23Hm5qvPAC36muTlBN1tGt1kd6x6+Ou0Q==";
+        };
     in {
         "1Dflig6n" = _1Dflig6n;
         "lbG5Uaoo" = _lbG5Uaoo;
@@ -224,6 +234,8 @@ let
         "BEptM1Hm" = _BEptM1Hm;
         "JxJwQiWX" = _JxJwQiWX;
         "YpB04GBI" = _YpB04GBI;
+        "1eEGqXmQ" = _1eEGqXmQ;
+        "vONdelOv" = _vONdelOv;
         "fabric-1.21.7" = _LwEAe9AQ;
         "fabric-1.21.8" = _LwEAe9AQ;
         "fabric-1.21.6" = _LwEAe9AQ;
@@ -235,8 +247,8 @@ let
         "fabric-26.1.2" = _2IXpuNZE;
         "fabric-1.21.4" = _LGrroJOE;
         "fabric-1.21.5" = _LGrroJOE;
-        "forge-1.20.1" = _EVPBBlNq;
-        "neoforge-1.21.1" = _YpB04GBI;
+        "forge-1.20.1" = _1eEGqXmQ;
+        "neoforge-1.21.1" = _vONdelOv;
         "neoforge-26.1.2" = _Yypt7Nnu;
         "pkg-0.0.2" = _1Dflig6n;
         "pkg-0.0.3" = _lbG5Uaoo;
@@ -264,7 +276,8 @@ let
         "pkg-0.3.7" = _Yypt7Nnu;
         "pkg-0.3.8" = _JxJwQiWX;
         "pkg-0.4.86-Dev.64" = _YpB04GBI;
-        "default" = _YpB04GBI;
+        "pkg-0.4.87-Dev.65" = _vONdelOv;
+        "default" = _vONdelOv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "alan-unified-ui";

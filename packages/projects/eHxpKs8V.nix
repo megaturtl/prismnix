@@ -391,6 +391,26 @@ let
             "file" = "banksystem-fabric-1.21.1-2.0.7.jar";
             "hash" = "sha512-DufK269XIHYMbbaX7xJ41OAIe0cwkVygFFc/lMK1to48Poe9o+ytQ+Bq364wjNgqg7avdUtJjtqo47SRMON8Zg==";
         };
+        _Wx9kx2im = {
+            "id" = "Wx9kx2im";
+            "file" = "banksystem-fabric-1.21.1-2.1.0.jar";
+            "hash" = "sha512-98O7CvMbiYsOQ+IWt61pguY4sgnfWYQf1Gb7jzlczhHuRd7CJloYrGG2lrcQYtml7bSz5OS8Fwzi/ebLl+mmvA==";
+        };
+        _dbOLmllL = {
+            "id" = "dbOLmllL";
+            "file" = "banksystem-neoforge-1.21.1-2.1.0.jar";
+            "hash" = "sha512-aizrqO58oTObp20TDKgcbI3/utkmMX+LJqGSpKGoaMXpXlyNBHQBPs/4X/DOionCafgTTRkLLv/tZmyoZZFumA==";
+        };
+        _r2y3YMLo = {
+            "id" = "r2y3YMLo";
+            "file" = "banksystem-fabric-1.21.1-2.1.1.jar";
+            "hash" = "sha512-LjXKywCEOIN4TyVNqaKwcwUAtzTo72UOJebqe4QVCWWXFwkRLPILAeo0jbOiz+jkMY1mar2/57DDXjNGhsDEeQ==";
+        };
+        _vBLWIVVu = {
+            "id" = "vBLWIVVu";
+            "file" = "banksystem-neoforge-1.21.1-2.1.1.jar";
+            "hash" = "sha512-VHQMHlB3rtbJQnR+lIXsNVZNh/4vSkbtg5y4IkoekSoBmnpJ36uBuRRYFeZmaoBMiRRVbEzBkQ5JdjkgxHiq2Q==";
+        };
     in {
         "QKinB2KF" = _QKinB2KF;
         "pW6nATuB" = _pW6nATuB;
@@ -470,6 +490,10 @@ let
         "ncYlgSye" = _ncYlgSye;
         "O7hJwroF" = _O7hJwroF;
         "Bb3PiJae" = _Bb3PiJae;
+        "Wx9kx2im" = _Wx9kx2im;
+        "dbOLmllL" = _dbOLmllL;
+        "r2y3YMLo" = _r2y3YMLo;
+        "vBLWIVVu" = _vBLWIVVu;
         "quilt-1.20.1" = _XsQ1d0pz;
         "quilt-1.19.2" = _v9a2U0U2;
         "quilt-1.19.3" = _QIeBZZwE;
@@ -483,7 +507,7 @@ let
         "fabric-1.20.4" = _XFM0L9EL;
         "fabric-1.20.6" = _IZNxW2dT;
         "fabric-1.21" = _eBVyJ77K;
-        "fabric-1.21.1" = _Bb3PiJae;
+        "fabric-1.21.1" = _r2y3YMLo;
         "forge-1.20.1" = _IwJYh17e;
         "forge-1.19.2" = _CRO0vBrU;
         "forge-1.19.3" = _4o7e9Jph;
@@ -492,7 +516,7 @@ let
         "forge-1.20.4" = _9sskeq0O;
         "neoforge-1.20.6" = _5xdfbgFx;
         "neoforge-1.21" = _n03UPTjs;
-        "neoforge-1.21.1" = _O7hJwroF;
+        "neoforge-1.21.1" = _vBLWIVVu;
         "pkg-1.3.1" = _NuYy3Hwd;
         "pkg-1.3.4" = _1TQPYxA3;
         "pkg-1.4.0" = _Kdz7yeuN;
@@ -500,7 +524,9 @@ let
         "pkg-1.21.1-2.0.5" = _1v5i0xdk;
         "pkg-1.21.1-2.0.6" = _ncYlgSye;
         "pkg-1.21.1-2.0.7" = _Bb3PiJae;
-        "default" = _Bb3PiJae;
+        "pkg-1.21.1-2.1.0" = _dbOLmllL;
+        "pkg-1.21.1-2.1.1" = _vBLWIVVu;
+        "default" = _vBLWIVVu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kroia_banksystem";

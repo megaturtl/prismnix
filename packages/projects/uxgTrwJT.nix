@@ -31,6 +31,11 @@ let
             "file" = "nest_egg-1.21.1-2.0.1.jar";
             "hash" = "sha512-+bCHLuJfGrdJfH+EXKLbIEOVKLR//k6LX+54U+WSYLKCW74iA0RCqRrnvvkHS58nxkOzblnKvSgvEynHARE4rg==";
         };
+        _13jTxWND = {
+            "id" = "13jTxWND";
+            "file" = "nest_egg-1.21.1-2.0.2.jar";
+            "hash" = "sha512-CCK7Z/ACcW43l8pOIVOJ/oWlq7iCSgyU7eLTy7h1cD0cDG39C2JQYU//OnFFW2BBMttvcW9c1hrrBpH+8WUGcg==";
+        };
     in {
         "XUptduOX" = _XUptduOX;
         "FlY5aYNV" = _FlY5aYNV;
@@ -38,16 +43,18 @@ let
         "xzR9E5id" = _xzR9E5id;
         "ez6qFgH5" = _ez6qFgH5;
         "6EVW3eIm" = _6EVW3eIm;
+        "13jTxWND" = _13jTxWND;
         "forge-1.20.1" = _xzR9E5id;
         "neoforge-1.20.1" = _xzR9E5id;
-        "neoforge-1.21.1" = _6EVW3eIm;
+        "neoforge-1.21.1" = _13jTxWND;
         "pkg-1.0.0" = _XUptduOX;
         "pkg-1.0.1" = _FlY5aYNV;
         "pkg-1.0.2" = _Llja71zn;
         "pkg-1.0.3" = _xzR9E5id;
         "pkg-2.0.0" = _ez6qFgH5;
         "pkg-2.0.1" = _6EVW3eIm;
-        "default" = _6EVW3eIm;
+        "pkg-2.0.2" = _13jTxWND;
+        "default" = _13jTxWND;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nest-egg";

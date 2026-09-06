@@ -86,6 +86,16 @@ let
             "file" = "goodblock-1.2.3-Beta.jar";
             "hash" = "sha512-39ddfvbypjlLj33abXadZWeBY9ftS0oTs6SZc1HpisWq400+UbIHDh7Zd+IFpdHzHPQWaA1W13T2X4Pvr7MTRg==";
         };
+        _sZurK3qE = {
+            "id" = "sZurK3qE";
+            "file" = "changed_creatures-1.3.jar";
+            "hash" = "sha512-+dEhFuQm/nmVCi/Pod8Zz6Sl99Jk6WA/Lbb7TeqUfOtjze0mQSiDncE0tfzFEaDJ+Ls3hAyEuLeXVzf2bgg1FQ==";
+        };
+        _txg83zYB = {
+            "id" = "txg83zYB";
+            "file" = "changed_creatures-1.3.1-Dev.jar";
+            "hash" = "sha512-QnBa5+bKkzzpalb8QhNqfezXs5r5oFW3znwU4Q/XnyV0BbCveqNuCYeS/JFP5H8jrg/yXdZwh7bkw/fJn1Nfwg==";
+        };
     in {
         "ONOH1Xn0" = _ONOH1Xn0;
         "zEBgGtO9" = _zEBgGtO9;
@@ -104,8 +114,10 @@ let
         "lDtbh0x5" = _lDtbh0x5;
         "UasRegSz" = _UasRegSz;
         "77ux4Lal" = _77ux4Lal;
+        "sZurK3qE" = _sZurK3qE;
+        "txg83zYB" = _txg83zYB;
         "forge-1.18.2" = _S3qnLY64;
-        "forge-1.20.1" = _77ux4Lal;
+        "forge-1.20.1" = _txg83zYB;
         "pkg-0.5.2" = _ONOH1Xn0;
         "pkg-0.6.3" = _zEBgGtO9;
         "pkg-0.6.4" = _27oB2iUR;
@@ -120,10 +132,12 @@ let
         "pkg-1.1.1" = _lDtbh0x5;
         "pkg-1.2-alpha" = _UasRegSz;
         "pkg-1.2.3-Beta" = _77ux4Lal;
-        "default" = _77ux4Lal;
+        "pkg-1.3" = _sZurK3qE;
+        "pkg-1.3.1-Dev823" = _txg83zYB;
+        "default" = _txg83zYB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
-        name = "goodblock";
+        name = "changed_more_creatures";
         id = "ENYMytfs";
         type = "mod";
         versions = versions;

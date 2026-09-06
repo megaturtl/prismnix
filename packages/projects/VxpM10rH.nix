@@ -21,11 +21,17 @@ let
             "file" = "S3EED'S Paintings V2.zip";
             "hash" = "sha512-V4DwYgy14lUGMxs7CXZIjpX40gZLlrqLz7VQ3/9OO9ZvMI+RJSDGO8XFn6KkAqEi5abq8ET6aCHuT1MKx6UPDQ==";
         };
+        _WqpLEoW8 = {
+            "id" = "WqpLEoW8";
+            "file" = "S3EED'S Paintings.zip";
+            "hash" = "sha512-3rtYjYdyzMcAXBLN46siAQPpP+nC4C3YjSmVehJqL1HsWrXzE0WzLja+lsdF3I2EsfoJS6Yd0IZD3BVfYpknVQ==";
+        };
     in {
         "KbWkBHb6" = _KbWkBHb6;
         "JYF4EUdh" = _JYF4EUdh;
         "zLwJxOFR" = _zLwJxOFR;
         "NECh2RJQ" = _NECh2RJQ;
+        "WqpLEoW8" = _WqpLEoW8;
         "minecraft-1.21" = _zLwJxOFR;
         "minecraft-1.21.1" = _zLwJxOFR;
         "minecraft-1.21.2" = _zLwJxOFR;
@@ -38,11 +44,16 @@ let
         "minecraft-1.21.9" = _NECh2RJQ;
         "minecraft-1.21.10" = _NECh2RJQ;
         "minecraft-1.21.11" = _NECh2RJQ;
+        "minecraft-26.1" = _WqpLEoW8;
+        "minecraft-26.1.1" = _WqpLEoW8;
+        "minecraft-26.1.2" = _WqpLEoW8;
+        "minecraft-26.2" = _WqpLEoW8;
         "pkg-1.0" = _KbWkBHb6;
         "pkg-1.1" = _JYF4EUdh;
         "pkg-1.2" = _zLwJxOFR;
-        "pkg-V2" = _NECh2RJQ;
-        "default" = _NECh2RJQ;
+        "pkg-v2" = _NECh2RJQ;
+        "pkg-v3" = _WqpLEoW8;
+        "default" = _WqpLEoW8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "s3eedxx-paintings";

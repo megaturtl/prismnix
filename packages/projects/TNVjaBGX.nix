@@ -83,6 +83,10 @@ let
         "fabric-26.3-snapshot-2" = _sL8bAD4m;
         "fabric-26.3-snapshot-3" = _sL8bAD4m;
         "fabric-26.3-snapshot-4" = _sL8bAD4m;
+        "fabric-26.3-snapshot-5" = _sL8bAD4m;
+        "fabric-26.3-snapshot-6" = _sL8bAD4m;
+        "fabric-26.3-snapshot-7" = _sL8bAD4m;
+        "fabric-26.3-snapshot-8" = _sL8bAD4m;
         "pkg-1.0" = _osTBhDUN;
         "pkg-1.0.1" = _pTgjJRFC;
         "pkg-1.0.2" = _XdH6W6b5;

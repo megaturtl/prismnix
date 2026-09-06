@@ -217,6 +217,11 @@ let
         "fabric-26.3-snapshot-5" = _F6erjD5b;
         "fabric-26.3-snapshot-6" = _F6erjD5b;
         "fabric-26.3-snapshot-7" = _F6erjD5b;
+        "fabric-26.3-snapshot-8" = _F6erjD5b;
+        "fabric-26.3-snapshot-9" = _F6erjD5b;
+        "fabric-26.3-snapshot-10" = _F6erjD5b;
+        "fabric-26.3-pre-1" = _F6erjD5b;
+        "fabric-26.3-pre-2" = _F6erjD5b;
         "quilt-1.21.2" = _JKl5b3k1;
         "quilt-1.21.3" = _JKl5b3k1;
         "quilt-1.21.4" = _JKl5b3k1;

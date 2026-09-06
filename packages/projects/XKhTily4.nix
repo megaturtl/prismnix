@@ -266,6 +266,16 @@ let
             "file" = "betterhealthbar-v4.2.0.jar";
             "hash" = "sha512-jU2Yxdyp/zVPBH+URNJ43h5Hy5q8yleJVs2UMGtG415zXenLMJ5kKbqtulTxmJVYRhl+IcpPCMFxHlMtYUPylw==";
         };
+        _AMZ4ncy9 = {
+            "id" = "AMZ4ncy9";
+            "file" = "Better Healthbar v4.2.0 - 26.2.zip";
+            "hash" = "sha512-OLOfiSfRTUYgqnXgf7UXIuegix3rPifw3mjrvk6JrYaHkQrTTUpPMl+u+IqdNvU/lVB2jd6KdT86fKNXxqr9zA==";
+        };
+        _cQnWB5TU = {
+            "id" = "cQnWB5TU";
+            "file" = "betterhealthbar-v4.2.0.jar";
+            "hash" = "sha512-fIrflHICSI/EBZc5yVkOiQzYL3m3WebjxE/kzWRubgp6A2NkR0KUqQ+hb1ypx2U2+Kux3lSMlxZkojAwNsUXQA==";
+        };
     in {
         "nS9PUSad" = _nS9PUSad;
         "4y9k3htm" = _4y9k3htm;
@@ -320,6 +330,8 @@ let
         "Pp9PWgBB" = _Pp9PWgBB;
         "Ax6z56Rl" = _Ax6z56Rl;
         "zqiOniT7" = _zqiOniT7;
+        "AMZ4ncy9" = _AMZ4ncy9;
+        "cQnWB5TU" = _cQnWB5TU;
         "datapack-1.20.2" = _u7yeqybC;
         "datapack-1.20.3" = _u7yeqybC;
         "datapack-1.20.4" = _u7yeqybC;
@@ -338,7 +350,7 @@ let
         "datapack-1.21.11" = _7uiBFYCu;
         "datapack-26.1" = _kI5eWxeM;
         "datapack-26.1.1" = _kI5eWxeM;
-        "datapack-26.2" = _Ax6z56Rl;
+        "datapack-26.2" = _AMZ4ncy9;
         "fabric-1.20.5" = _u7QGz8AT;
         "fabric-1.20.6" = _u7QGz8AT;
         "fabric-1.21" = _p91lgQNx;
@@ -355,7 +367,7 @@ let
         "fabric-26.1" = _7fAorXeO;
         "fabric-26.1.1" = _7fAorXeO;
         "fabric-26.1.2" = _7fAorXeO;
-        "fabric-26.2" = _zqiOniT7;
+        "fabric-26.2" = _cQnWB5TU;
         "forge-1.20.5" = _u7QGz8AT;
         "forge-1.20.6" = _u7QGz8AT;
         "forge-1.21" = _p91lgQNx;
@@ -372,7 +384,7 @@ let
         "forge-26.1" = _7fAorXeO;
         "forge-26.1.1" = _7fAorXeO;
         "forge-26.1.2" = _7fAorXeO;
-        "forge-26.2" = _zqiOniT7;
+        "forge-26.2" = _cQnWB5TU;
         "quilt-1.20.5" = _u7QGz8AT;
         "quilt-1.20.6" = _u7QGz8AT;
         "quilt-1.21" = _p91lgQNx;
@@ -389,7 +401,7 @@ let
         "quilt-26.1" = _7fAorXeO;
         "quilt-26.1.1" = _7fAorXeO;
         "quilt-26.1.2" = _7fAorXeO;
-        "quilt-26.2" = _zqiOniT7;
+        "quilt-26.2" = _cQnWB5TU;
         "neoforge-1.21.2" = _YOCE6EZY;
         "neoforge-1.21.3" = _YOCE6EZY;
         "neoforge-1.21.4" = _YOCE6EZY;
@@ -403,7 +415,7 @@ let
         "neoforge-26.1" = _7fAorXeO;
         "neoforge-26.1.1" = _7fAorXeO;
         "neoforge-26.1.2" = _7fAorXeO;
-        "neoforge-26.2" = _zqiOniT7;
+        "neoforge-26.2" = _cQnWB5TU;
         "pkg-1.0.1" = _nS9PUSad;
         "pkg-v2.1.0" = _4y9k3htm;
         "pkg-v2.1.1" = _kcVLuPrn;
@@ -440,9 +452,9 @@ let
         "pkg-v4.1.0+mod" = _nUMcf25Z;
         "pkg-v4.1.1" = _GOq1iCPD;
         "pkg-v4.1.1+mod" = _Pp9PWgBB;
-        "pkg-v4.2.0" = _Ax6z56Rl;
-        "pkg-v4.2.0+mod" = _zqiOniT7;
-        "default" = _zqiOniT7;
+        "pkg-v4.2.0" = _AMZ4ncy9;
+        "pkg-v4.2.0+mod" = _cQnWB5TU;
+        "default" = _cQnWB5TU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betterhealthbar";

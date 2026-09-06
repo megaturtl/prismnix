@@ -46,6 +46,11 @@ let
             "file" = "petsys 2.0.0.7 1.21.11.jar";
             "hash" = "sha512-vtyu0pYGsZ8gPLPkcKzzBNImVU20daKN2AUIe2FSGRwuP2TSXGPkIN83tj8pcQNU1Mf88kthXrfrR+tp9c6aZQ==";
         };
+        _psBkPwSU = {
+            "id" = "psBkPwSU";
+            "file" = "PetSys 2.0.0.8.jar";
+            "hash" = "sha512-vtyu0pYGsZ8gPLPkcKzzBNImVU20daKN2AUIe2FSGRwuP2TSXGPkIN83tj8pcQNU1Mf88kthXrfrR+tp9c6aZQ==";
+        };
     in {
         "Fayox39X" = _Fayox39X;
         "jcT47uq7" = _jcT47uq7;
@@ -56,6 +61,7 @@ let
         "qqM7hzHV" = _qqM7hzHV;
         "xgApJa2Z" = _xgApJa2Z;
         "n4ZdnUIw" = _n4ZdnUIw;
+        "psBkPwSU" = _psBkPwSU;
         "fabric-1.20.6" = _Fayox39X;
         "fabric-1.21" = _jcT47uq7;
         "fabric-1.21.3" = _CEJ3DPBt;
@@ -65,6 +71,7 @@ let
         "fabric-1.21.9" = _qqM7hzHV;
         "fabric-1.21.10" = _xgApJa2Z;
         "fabric-1.21.11" = _n4ZdnUIw;
+        "fabric-26.2" = _psBkPwSU;
         "pkg-v1.0" = _Fayox39X;
         "pkg-v2.0" = _jcT47uq7;
         "pkg-2.0.0" = _CEJ3DPBt;
@@ -74,7 +81,8 @@ let
         "pkg-2.0.0.5" = _qqM7hzHV;
         "pkg-2.0.0.6" = _xgApJa2Z;
         "pkg-2.0.0.7" = _n4ZdnUIw;
-        "default" = _n4ZdnUIw;
+        "pkg-2.0.0.8" = _psBkPwSU;
+        "default" = _psBkPwSU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "petsys";

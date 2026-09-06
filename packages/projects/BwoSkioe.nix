@@ -31,6 +31,16 @@ let
             "file" = "vietnams_delight_reborn-neoforge-1.21.1-1.1.0.jar";
             "hash" = "sha512-Y/JgP23NoS6DR1/7ZkLL0hphSkfIMqfJCOgSzmOLpSlIn/8EVWoX/waTJRMP7SH9fRPE/YrYQ3LC7+VAbhy1nw==";
         };
+        _zUgfE7vU = {
+            "id" = "zUgfE7vU";
+            "file" = "vietnams_delight_reborn-fabric-1.21.1-2.0.0.jar";
+            "hash" = "sha512-CjZxZTCt2mmY48sbWx3TWc0RAYdWyPWEG6iGulb6aYEmZPKKkunf7UUEfgiPIkGpK5lrk2/rOpzhZB1wgHtVCg==";
+        };
+        _4A50T0k4 = {
+            "id" = "4A50T0k4";
+            "file" = "vietnams_delight_reborn-neoforge-1.21.1-2.0.0.jar";
+            "hash" = "sha512-78FvabQJK/UMsQfKYgzhgVEdJbf/an8cQ8jHERFr2QdlVjl1IunOtkLI0LUygzAwS70ez7i25QW+gUDr4poBBQ==";
+        };
     in {
         "WApvytO1" = _WApvytO1;
         "ENEK8M0J" = _ENEK8M0J;
@@ -38,18 +48,22 @@ let
         "xhteKzdi" = _xhteKzdi;
         "Jk2X610D" = _Jk2X610D;
         "twD4xHIX" = _twD4xHIX;
+        "zUgfE7vU" = _zUgfE7vU;
+        "4A50T0k4" = _4A50T0k4;
         "fabric-1.21" = _WApvytO1;
-        "fabric-1.21.1" = _Jk2X610D;
+        "fabric-1.21.1" = _zUgfE7vU;
         "quilt-1.21" = _WApvytO1;
-        "quilt-1.21.1" = _Jk2X610D;
-        "neoforge-1.21.1" = _twD4xHIX;
+        "quilt-1.21.1" = _zUgfE7vU;
+        "neoforge-1.21.1" = _4A50T0k4;
         "pkg-1.0.0-fabric" = _WApvytO1;
         "pkg-1.0.0-neoforge" = _ENEK8M0J;
         "pkg-1.0.1-fabric" = _Hf21srgT;
         "pkg-1.0.1-neoforge" = _xhteKzdi;
         "pkg-1.1.0-1.21.1+fabric" = _Jk2X610D;
         "pkg-1.1.0-neoforge" = _twD4xHIX;
-        "default" = _twD4xHIX;
+        "pkg-2.0.0-1.21.1+fabric" = _zUgfE7vU;
+        "pkg-2.0.0-1.21.1+neoforge" = _4A50T0k4;
+        "default" = _4A50T0k4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vietnams-delight-reborn";

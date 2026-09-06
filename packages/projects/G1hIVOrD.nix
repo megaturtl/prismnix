@@ -1166,6 +1166,16 @@ let
             "file" = "ResourcefulLib-fabric-1.21.11-3.11.1.jar";
             "hash" = "sha512-7kdZT0rIrsMpKquaMfkkhxj4g5L2HbRtkjQPNnUCEPOuH/PGCKDNBoGqC/CJpvYqfRbFQY+EXUEmmeW4iCh+lw==";
         };
+        _clkeiC1C = {
+            "id" = "clkeiC1C";
+            "file" = "ResourcefulLib-5.0.4.jar";
+            "hash" = "sha512-U6p33Zh1sKmkLYyEKT7rC5Fp95QKrf9FceqMMCIkOGn8meeAvUyUzQyC7NwhAFPFoQKoC9B0+7kSWhBoyDBH3A==";
+        };
+        _4BbCbnE6 = {
+            "id" = "4BbCbnE6";
+            "file" = "ResourcefulLib-5.0.4.jar";
+            "hash" = "sha512-b3I0TvROsYWudtTlyj+taF63r2bxK13/CZXEFBV7WXDpi4t3l5m02KB3d92QDOnbqGk3ptnISm+ey6wN3/TE7w==";
+        };
     in {
         "G3lV8OVP" = _G3lV8OVP;
         "jLKGuA57" = _jLKGuA57;
@@ -1400,6 +1410,8 @@ let
         "SmfwDCLg" = _SmfwDCLg;
         "9cBmrQUc" = _9cBmrQUc;
         "NzjejPQX" = _NzjejPQX;
+        "clkeiC1C" = _clkeiC1C;
+        "4BbCbnE6" = _4BbCbnE6;
         "fabric-1.19.2" = _mxiPijSw;
         "fabric-1.19.3" = _9bpCfetJ;
         "fabric-1.19.4" = _7wv4Al4f;
@@ -1424,7 +1436,7 @@ let
         "fabric-26.1" = _sOEhLVuw;
         "fabric-26.1.1" = _sOEhLVuw;
         "fabric-26.1.2" = _sOEhLVuw;
-        "fabric-26.2" = _SmfwDCLg;
+        "fabric-26.2" = _4BbCbnE6;
         "forge-1.19.2" = _VdgtVVWP;
         "forge-1.19.3" = _l33ODpNh;
         "forge-1.19.4" = _tNPUniqQ;
@@ -1451,7 +1463,7 @@ let
         "neoforge-26.1" = _B94F6bCN;
         "neoforge-26.1.1" = _B94F6bCN;
         "neoforge-26.1.2" = _B94F6bCN;
-        "neoforge-26.2" = _j6D6ibzH;
+        "neoforge-26.2" = _clkeiC1C;
         "pkg-1.1.15" = _jLKGuA57;
         "pkg-1.1.16" = _3NarDN4b;
         "pkg-1.1.17" = _Dg7CZBnx;
@@ -1563,7 +1575,8 @@ let
         "pkg-5.0.2" = _JhRhVTsi;
         "pkg-5.0.3" = _SmfwDCLg;
         "pkg-3.11.1" = _NzjejPQX;
-        "default" = _NzjejPQX;
+        "pkg-5.0.4" = _4BbCbnE6;
+        "default" = _4BbCbnE6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "resourceful-lib";

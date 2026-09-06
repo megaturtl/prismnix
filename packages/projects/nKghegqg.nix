@@ -46,6 +46,11 @@ let
             "file" = "bettergtae-1.2.2.jar";
             "hash" = "sha512-JTJ7Pz4l9Cl1BtQTfMMkTREKzCeizCHIrpnutYrh/4ELCjkxWPyHPBNPKvI7UsqnpKcZ3+MLCUqqe4KcIijoqg==";
         };
+        _mOwqnW9O = {
+            "id" = "mOwqnW9O";
+            "file" = "bettergtae-1.2.3.jar";
+            "hash" = "sha512-SJUoHn07iyK6EUtfAW4CCDrHMweBmUYBG3ZlIvAVr3PeKBkY8sWIPLMk43sCctjPdiL1wxNT8LCj14zV7JNlNg==";
+        };
     in {
         "k29WtlQp" = _k29WtlQp;
         "vbj5ZpWH" = _vbj5ZpWH;
@@ -56,7 +61,8 @@ let
         "NVVI3unm" = _NVVI3unm;
         "PxlgTlzh" = _PxlgTlzh;
         "S74ZUZKc" = _S74ZUZKc;
-        "forge-1.20.1" = _S74ZUZKc;
+        "mOwqnW9O" = _mOwqnW9O;
+        "forge-1.20.1" = _mOwqnW9O;
         "pkg-1.0.7" = _k29WtlQp;
         "pkg-1.0.8" = _vbj5ZpWH;
         "pkg-1.0.9" = _YksWZZMc;
@@ -66,7 +72,8 @@ let
         "pkg-1.2.0" = _NVVI3unm;
         "pkg-1.2.1" = _PxlgTlzh;
         "pkg-1.2.2" = _S74ZUZKc;
-        "default" = _S74ZUZKc;
+        "pkg-1.2.3" = _mOwqnW9O;
+        "default" = _mOwqnW9O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-gregtech-and-applied-energistics";

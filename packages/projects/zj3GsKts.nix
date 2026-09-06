@@ -151,6 +151,26 @@ let
             "file" = "cobblesafari-neoforge-1.21.1-0.3.2.jar";
             "hash" = "sha512-4+eYloMuPDc5QI0pF+86u4P4RX1Q2vcOphNsRQxgEoa8A+MOCZ48EO6eioN9ZWlKoSKPVptZTqh4+L7IlUitLw==";
         };
+        _hSSdXBPj = {
+            "id" = "hSSdXBPj";
+            "file" = "cobblesafari-fabric-1.21.1-0.3.3.jar";
+            "hash" = "sha512-cO4GoPjWGhNTKKym9YI2vzREOBmeD44d4SlmJvG1Yul0r1TXHE5uN+WoU5Ir/hSaMbwhrcbNpXmE9TVthv7mrA==";
+        };
+        _Y1uChWQ5 = {
+            "id" = "Y1uChWQ5";
+            "file" = "cobblesafari-neoforge-1.21.1-0.3.3.jar";
+            "hash" = "sha512-QGQVW/kEadZbUR6DRvTxaPlw4Zr2ZpuTtKnQ1OggxAVTlV4RG2w+QDXg4OAVB5aIjTqkaYSaWN+UZybirm2Bwg==";
+        };
+        _arokHZmv = {
+            "id" = "arokHZmv";
+            "file" = "cobblesafari-fabric-1.21.1-0.3.4.jar";
+            "hash" = "sha512-592B82GYW5CV62YlSmOERBmzlmENq3xvCGzY55mtZeJy0C4lb93dZX0YtabS7Q/LYctaHMT5y51e2xeLUL3uSg==";
+        };
+        _OAkZzmYS = {
+            "id" = "OAkZzmYS";
+            "file" = "cobblesafari-neoforge-1.21.1-0.3.4.jar";
+            "hash" = "sha512-zo3HFmR1sp0q+lqpujzWpyFTMP0XUVQPlsduL8gp+hzk/B+90aIPWrj1m/y6vtNOFQvTJLVXYfspp787SQO8KA==";
+        };
     in {
         "PcVQUCjL" = _PcVQUCjL;
         "okv21NBN" = _okv21NBN;
@@ -182,8 +202,12 @@ let
         "Z4rkCr3x" = _Z4rkCr3x;
         "ayF1mExE" = _ayF1mExE;
         "1UgKFdEa" = _1UgKFdEa;
-        "fabric-1.21.1" = _ayF1mExE;
-        "neoforge-1.21.1" = _1UgKFdEa;
+        "hSSdXBPj" = _hSSdXBPj;
+        "Y1uChWQ5" = _Y1uChWQ5;
+        "arokHZmv" = _arokHZmv;
+        "OAkZzmYS" = _OAkZzmYS;
+        "fabric-1.21.1" = _arokHZmv;
+        "neoforge-1.21.1" = _OAkZzmYS;
         "pkg-0.0.2-beta" = _PcVQUCjL;
         "pkg-0.0.2" = _okv21NBN;
         "pkg-0.1.0-beta" = _J87393Sn;
@@ -200,7 +224,9 @@ let
         "pkg-0.3.0" = _CplLe8wy;
         "pkg-0.3.1" = _Z4rkCr3x;
         "pkg-0.3.2" = _1UgKFdEa;
-        "default" = _1UgKFdEa;
+        "pkg-0.3.3" = _Y1uChWQ5;
+        "pkg-0.3.4" = _OAkZzmYS;
+        "default" = _OAkZzmYS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblesafari";

@@ -16,11 +16,17 @@ let
             "file" = "wathe_go-2.1.0.jar";
             "hash" = "sha512-bGZmyn3GGkqE+ugqYW1NeuQeOpElnrjPGam3KAUUFWg23t5O61JoLdFT1tF2D0PdBiGREkczn+hc62HqXMOr2A==";
         };
+        _9TMJE77Q = {
+            "id" = "9TMJE77Q";
+            "file" = "wathe_go-2.3.0.jar";
+            "hash" = "sha512-RCgRAVTr7fDtkr0jlN3USa/j9EViQVsBkWDyawFzSLZgZwsYI83XvBqTfRzt5/d0o48GnHgjJY6AGxXwJK/cRw==";
+        };
     in {
         "Inv0PgOW" = _Inv0PgOW;
         "dW6m7kXM" = _dW6m7kXM;
         "JPCGsA3B" = _JPCGsA3B;
-        "fabric-1.21.1" = _JPCGsA3B;
+        "9TMJE77Q" = _9TMJE77Q;
+        "fabric-1.21.1" = _9TMJE77Q;
         "fabric-1.21" = _JPCGsA3B;
         "fabric-1.21.2" = _JPCGsA3B;
         "fabric-1.21.3" = _JPCGsA3B;
@@ -35,7 +41,8 @@ let
         "pkg-1.0.0" = _Inv0PgOW;
         "pkg-2.0.0" = _dW6m7kXM;
         "pkg-2.1.0" = _JPCGsA3B;
-        "default" = _JPCGsA3B;
+        "pkg-2.3.0" = _9TMJE77Q;
+        "default" = _9TMJE77Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wathego";

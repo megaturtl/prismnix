@@ -306,6 +306,16 @@ let
             "file" = "EnhancedCats-26.2-1.1.jar";
             "hash" = "sha512-D7r7WbHJGCPbdhcpS6uPK8326/QzSs6OBJijU1/sNISeY0ItsuBb+bB5Qskx+J7kVD4ziU6E+HX6YZ+SNXO75w==";
         };
+        _EwcvXNpd = {
+            "id" = "EwcvXNpd";
+            "file" = "EnhancedCats-1.21.10-1.1.jar";
+            "hash" = "sha512-AFA2iKBB49iHZJBVpN8iqF29uZsB6uFu22G7aNlB5PPi52tJiL9vbEF6968k1A7veqL3+4NfGfiaugmZZqnoLw==";
+        };
+        _XBhQSnpL = {
+            "id" = "XBhQSnpL";
+            "file" = "EnhancedCats-1.21.11-1.1.jar";
+            "hash" = "sha512-kjs0bMqhir9+nZ0/rGhaasZvBjakV6xCzAKrCcLo2BXbcceFJX1JQXlWY7JxY1h3mB0fmxbTSX1Qo2Og6u5opw==";
+        };
     in {
         "ilGYyij3" = _ilGYyij3;
         "PDYhYUzT" = _PDYhYUzT;
@@ -368,6 +378,8 @@ let
         "WJ0IFN2D" = _WJ0IFN2D;
         "JyxUCB5G" = _JyxUCB5G;
         "p4Rptuq9" = _p4Rptuq9;
+        "EwcvXNpd" = _EwcvXNpd;
+        "XBhQSnpL" = _XBhQSnpL;
         "fabric-1.20.1" = _QUOZp87B;
         "fabric-1.20.4" = _Tt8zCZrY;
         "fabric-1.20.6" = _Tt8zCZrY;
@@ -383,8 +395,8 @@ let
         "fabric-1.21.6" = _nrLmrCJe;
         "fabric-1.21.7" = _nrLmrCJe;
         "fabric-1.21.8" = _nrLmrCJe;
-        "fabric-1.21.11" = _6EffT5zp;
-        "fabric-1.21.10" = _J1fClcGa;
+        "fabric-1.21.11" = _XBhQSnpL;
+        "fabric-1.21.10" = _EwcvXNpd;
         "fabric-26.1" = _JyxUCB5G;
         "fabric-26.1.1" = _JyxUCB5G;
         "fabric-26.1.2" = _JyxUCB5G;
@@ -404,8 +416,8 @@ let
         "quilt-1.21.6" = _nrLmrCJe;
         "quilt-1.21.7" = _nrLmrCJe;
         "quilt-1.21.8" = _nrLmrCJe;
-        "quilt-1.21.11" = _6EffT5zp;
-        "quilt-1.21.10" = _J1fClcGa;
+        "quilt-1.21.11" = _XBhQSnpL;
+        "quilt-1.21.10" = _EwcvXNpd;
         "quilt-26.2" = _p4Rptuq9;
         "quilt-26.1" = _JyxUCB5G;
         "quilt-26.1.1" = _JyxUCB5G;
@@ -432,8 +444,8 @@ let
         "pkg-0.9.2" = _IN7OwRTe;
         "pkg-1.0" = _V9WvJ9Ei;
         "pkg-1.0.1" = _WJ0IFN2D;
-        "pkg-1.1" = _p4Rptuq9;
-        "default" = _p4Rptuq9;
+        "pkg-1.1" = _XBhQSnpL;
+        "default" = _XBhQSnpL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enhanced-cats";

@@ -42,6 +42,7 @@ let
         "minecraft-26.1" = _JwsDJ7w6;
         "minecraft-26.1.1" = _JwsDJ7w6;
         "minecraft-26.1.2" = _JwsDJ7w6;
+        "minecraft-26.2" = _JwsDJ7w6;
         "pkg-Release" = _QnXQFzYN;
         "pkg-RodsFixed" = _s2hF0UDh;
         "pkg-Release-1.2" = _iZcGLUco;

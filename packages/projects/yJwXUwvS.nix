@@ -166,6 +166,36 @@ let
             "file" = "logisticsnetworks-26.1.2-1.9.0.jar";
             "hash" = "sha512-qKlvpn/l+WVXZpPpfE7GHWShvadmGQEAV6KxAf/HIzaeaAg39sP3lLPAxLw1LuFHt4/0IP1iMTAqZNu3RdudEQ==";
         };
+        _waX2Pj6j = {
+            "id" = "waX2Pj6j";
+            "file" = "logisticsnetworks-1.21.1-1.11.0.jar";
+            "hash" = "sha512-PbxUAXNEupUVNT1sPNrofA1pCQ7J20s9hcR8ZigQFe1kKjiKyVlfUtdoYJXIqCtYhGQZ/1gFdjXvUnx3nHwThg==";
+        };
+        _iXb03TIJ = {
+            "id" = "iXb03TIJ";
+            "file" = "logisticsnetworks-1.21.1-1.12.0.jar";
+            "hash" = "sha512-RfYGugPFYtHLolth3RiAyLO1RGn5OiLQKFaNSy/Q473xPNILSRaQ3h7vVLkvDGzEulMnzZ5tMRcHTWVIFyINzQ==";
+        };
+        _VB2r6Q6e = {
+            "id" = "VB2r6Q6e";
+            "file" = "logisticsnetworks-1.21.1-1.13.0.jar";
+            "hash" = "sha512-y5r5LAIBdmldm63BswdLad2t1UUzJ3iwwZESbiCXB0WFKBDRW92hLmk2IxbT9XvNO/YkdVRRyXpQ0tCOREJHxA==";
+        };
+        _sbx3XxMl = {
+            "id" = "sbx3XxMl";
+            "file" = "logisticsnetworks-1.21.1-1.14.0.jar";
+            "hash" = "sha512-4l7MLTBZKHSVZHiGXtoE58/4TxDSsOkHWSZQxhHEmb114MO+NJcwOPRjpPgR3yBoa1XRRPvkafIBYLKdRVwfJA==";
+        };
+        _GwhHzYwv = {
+            "id" = "GwhHzYwv";
+            "file" = "logisticsnetworks-1.21.1-1.14.1.jar";
+            "hash" = "sha512-xHEB58ZVbE1pVnGTozasSkYYwisoegF5yp0JoAmSZZmcaq8aJ9h6hcTIy9XpTVnBu7iVeTn8YeqYLw1dfF6kSA==";
+        };
+        _fnaiU3El = {
+            "id" = "fnaiU3El";
+            "file" = "logisticsnetworks-1.21.1-1.14.2.jar";
+            "hash" = "sha512-Bok/g4sfH4uI/G1Jm7N5Djbwp3yuB3SqCTq4PIpRX0EeDVulNHOpHyfF0yz4cKIomug1bFrkpFiouR3ElgHukg==";
+        };
     in {
         "fWBkN6A8" = _fWBkN6A8;
         "v5Pf5aBw" = _v5Pf5aBw;
@@ -200,7 +230,13 @@ let
         "3m1JbtlM" = _3m1JbtlM;
         "ShwkhjwX" = _ShwkhjwX;
         "88CNYadw" = _88CNYadw;
-        "neoforge-1.21.1" = _ShwkhjwX;
+        "waX2Pj6j" = _waX2Pj6j;
+        "iXb03TIJ" = _iXb03TIJ;
+        "VB2r6Q6e" = _VB2r6Q6e;
+        "sbx3XxMl" = _sbx3XxMl;
+        "GwhHzYwv" = _GwhHzYwv;
+        "fnaiU3El" = _fnaiU3El;
+        "neoforge-1.21.1" = _fnaiU3El;
         "neoforge-26.1" = _v5Pf5aBw;
         "neoforge-26.1.2" = _88CNYadw;
         "forge-1.20.1" = _4TWTjT4G;
@@ -234,7 +270,13 @@ let
         "pkg-26.1.2-1.8.4" = _3m1JbtlM;
         "pkg-1.21.1-1.10.1" = _ShwkhjwX;
         "pkg-26.1.2-1.9.0" = _88CNYadw;
-        "default" = _88CNYadw;
+        "pkg-1.21.1-1.11.0" = _waX2Pj6j;
+        "pkg-1.21.1-1.12.0" = _iXb03TIJ;
+        "pkg-1.21.1-1.13.0" = _VB2r6Q6e;
+        "pkg-1.21.1-1.14.0" = _sbx3XxMl;
+        "pkg-1.21.1-1.14.1" = _GwhHzYwv;
+        "pkg-1.21.1-1.14.2" = _fnaiU3El;
+        "default" = _fnaiU3El;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "logisticsnetwork";

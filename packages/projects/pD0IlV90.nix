@@ -56,6 +56,11 @@ let
             "file" = "saturated-eating-1.0.10.jar";
             "hash" = "sha512-7M9z2O9cHZZw6m5EmJPay7Ibhn1eC51ksMDvVBU3CeGU7cCQRIc3SrsxuULcmDwChb0Nf2w+aDmEM+dJ3m+3Yw==";
         };
+        _4jBJkTbW = {
+            "id" = "4jBJkTbW";
+            "file" = "saturated-eating-1.0.11.jar";
+            "hash" = "sha512-Ts7+7fyAPWprs3GOV6NAcRCbAnBH/1msxbqq/k8qlWFE97C58fUcCJKY+g8BzFpOnB8qAsy0coOqqdeePWhuoQ==";
+        };
     in {
         "Ui0iPXvB" = _Ui0iPXvB;
         "Yg3pht3a" = _Yg3pht3a;
@@ -68,6 +73,7 @@ let
         "DpbVhpNJ" = _DpbVhpNJ;
         "wgokNF1r" = _wgokNF1r;
         "kwpHR9SU" = _kwpHR9SU;
+        "4jBJkTbW" = _4jBJkTbW;
         "fabric-1.21.3" = _Ui0iPXvB;
         "fabric-1.21.4" = _Yg3pht3a;
         "fabric-1.21.5" = _m6KfnJg4;
@@ -80,6 +86,7 @@ let
         "fabric-26.1" = _kwpHR9SU;
         "fabric-26.1.1" = _kwpHR9SU;
         "fabric-26.1.2" = _kwpHR9SU;
+        "fabric-26.2" = _4jBJkTbW;
         "pkg-1.0.0" = _Ui0iPXvB;
         "pkg-1.0.1" = _Yg3pht3a;
         "pkg-1.0.2" = _m6KfnJg4;
@@ -91,7 +98,8 @@ let
         "pkg-1.0.8" = _DpbVhpNJ;
         "pkg-1.0.9" = _wgokNF1r;
         "pkg-1.0.10" = _kwpHR9SU;
-        "default" = _kwpHR9SU;
+        "pkg-1.0.11" = _4jBJkTbW;
+        "default" = _4jBJkTbW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saturated-eating";

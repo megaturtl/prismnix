@@ -356,6 +356,26 @@ let
             "file" = "recipe_generator-fabric-1.21.1-2.1.0-beta.jar";
             "hash" = "sha512-AThtm0aAMpg95CNLoESskv5GN6m2J2H20hqRvREoaXkCCsMafuBmMmQsHXTU+L6/hygSbcD7KjnAhp7lUNYsQw==";
         };
+        _u9vnPcck = {
+            "id" = "u9vnPcck";
+            "file" = "recipe_generator-neoforge-1.21.1-2.2.0-beta.jar";
+            "hash" = "sha512-lnfEL0nJpdDefAzU2LTeF933kaqGx+yiRIgCHp2Li6YeZULGO6GHKjt6yQ00KtuJDINlz/7Pjn/lELVoPnxjYA==";
+        };
+        _AiWQfpIF = {
+            "id" = "AiWQfpIF";
+            "file" = "recipe_generator-fabric-1.21.1-2.2.0-beta.jar";
+            "hash" = "sha512-loou5qq2+NgUJ6ckcVOUSVXqxpyILbHV16syXQvs4ELxS5vpjLt/OYo18oMWHFqKq0fvzOiBM146mInsF9QxdA==";
+        };
+        _qCeCR78z = {
+            "id" = "qCeCR78z";
+            "file" = "recipe_generator-neoforge-1.21.1-2.3.0-beta.jar";
+            "hash" = "sha512-dpDwiUJ+o33dIKkjkQTRuTHmzQaU/nilp2GbZD0nGN7U0Nkvf7+qu29CNEMCUFpW9BvQuhYMsDHN2Q6KxHfuYQ==";
+        };
+        _kpLS2msF = {
+            "id" = "kpLS2msF";
+            "file" = "recipe_generator-fabric-1.21.1-2.3.0-beta.jar";
+            "hash" = "sha512-zliqPKmdhPKcnOnPmWSd8myNJMVR1cYiLo8LInfJb5EiuBGVSIlZ15EHQwAgOOc4Hwar8ndU/hr9HczBU2IdVA==";
+        };
     in {
         "o2pkBLeG" = _o2pkBLeG;
         "A3Xj51rm" = _A3Xj51rm;
@@ -428,6 +448,10 @@ let
         "DLwU8w87" = _DLwU8w87;
         "KvmbrdMV" = _KvmbrdMV;
         "99JgzLrW" = _99JgzLrW;
+        "u9vnPcck" = _u9vnPcck;
+        "AiWQfpIF" = _AiWQfpIF;
+        "qCeCR78z" = _qCeCR78z;
+        "kpLS2msF" = _kpLS2msF;
         "forge-1.19.2" = _XqFrWydL;
         "forge-1.19.4" = _RjZO8MA3;
         "forge-1.20.1" = _nvTbf2k1;
@@ -437,10 +461,10 @@ let
         "neoforge-1.20.1" = _yy2nAUjp;
         "neoforge-1.20.4" = _j1W9ngOy;
         "neoforge-1.20.6" = _WEIvj86O;
-        "neoforge-1.21.1" = _KvmbrdMV;
+        "neoforge-1.21.1" = _qCeCR78z;
         "neoforge-1.21.4" = _9F1eQoL5;
         "fabric-1.20.1" = _iZzKWfUC;
-        "fabric-1.21.1" = _99JgzLrW;
+        "fabric-1.21.1" = _kpLS2msF;
         "quilt-1.20.1" = _6zvJFxUv;
         "pkg-0.0.1_1" = _A3Xj51rm;
         "pkg-0.0.2_2" = _THV6VxLQ;
@@ -494,7 +518,11 @@ let
         "pkg-2.0.0-beta+mc1.21.1" = _DLwU8w87;
         "pkg-2.1.0-beta+neoforge" = _KvmbrdMV;
         "pkg-2.1.0-beta+fabric" = _99JgzLrW;
-        "default" = _99JgzLrW;
+        "pkg-2.2.0-beta+neoforge" = _u9vnPcck;
+        "pkg-2.2.0-beta+fabric" = _AiWQfpIF;
+        "pkg-2.3.0-beta+neoforge" = _qCeCR78z;
+        "pkg-2.3.0-beta+fabric" = _kpLS2msF;
+        "default" = _kpLS2msF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "recipe-generator";

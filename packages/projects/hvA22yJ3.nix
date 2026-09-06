@@ -21,21 +21,36 @@ let
             "file" = "PvP Essential Utilities.zip";
             "hash" = "sha512-XjjbpDU9zyXz15NZ23mg1AsBbHl5pPpEmNsXLZBZ2MqA+1PmmuEVF+7ZErbNpUr7WrlgOly2Dd5/eFrQho0ZNg==";
         };
+        _26qnYRwS = {
+            "id" = "26qnYRwS";
+            "file" = "PvP Essential Utilities.zip";
+            "hash" = "sha512-POE4IomNbx3u/YPN7GwV7nWhPVQvx1TENrats4Z9i2fek9s/psLjldyW8sziVTf1s4MyAe2GcRSX3eORCkbvgA==";
+        };
+        _yTSq26d4 = {
+            "id" = "yTSq26d4";
+            "file" = "PvP-Essential-Utilities-26.2-latest.zip";
+            "hash" = "sha512-VaTvyAzChk0ettbsHuWAPx+GjL0GEXFqqpSHPrZRYnZ0HgUOA6Q/ro6k8/8CSg/cNUyhEYRBrM6EhRKzi2U/Eg==";
+        };
     in {
         "chJBUyNq" = _chJBUyNq;
         "rl4eBt6O" = _rl4eBt6O;
         "hfccaIta" = _hfccaIta;
         "m7B9wX21" = _m7B9wX21;
+        "26qnYRwS" = _26qnYRwS;
+        "yTSq26d4" = _yTSq26d4;
         "minecraft-1.21.4" = _hfccaIta;
         "minecraft-1.21.8" = _m7B9wX21;
         "minecraft-1.21.9" = _m7B9wX21;
         "minecraft-1.21.10" = _m7B9wX21;
         "minecraft-1.21.11" = _m7B9wX21;
+        "minecraft-26.2" = _yTSq26d4;
         "pkg-1.00" = _chJBUyNq;
         "pkg-1.10" = _rl4eBt6O;
         "pkg-1.11" = _hfccaIta;
         "pkg-1.0.0" = _m7B9wX21;
-        "default" = _m7B9wX21;
+        "pkg-1.0.1" = _26qnYRwS;
+        "pkg-1.0.1.1" = _yTSq26d4;
+        "default" = _yTSq26d4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pvp-essential-utilities";

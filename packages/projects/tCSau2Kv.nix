@@ -40,6 +40,7 @@ let
         "minecraft-26.1" = _TfStM3Tm;
         "minecraft-26.1.1" = _TfStM3Tm;
         "minecraft-26.1.2" = _TfStM3Tm;
+        "minecraft-26.2" = _TfStM3Tm;
         "pkg-1.0" = _fRhbO1Gm;
         "pkg-1.1" = _Ou1ZRA8G;
         "pkg-1.3" = _h6hSyxCE;

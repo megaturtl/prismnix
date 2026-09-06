@@ -181,6 +181,21 @@ let
             "file" = "resource_gamma_util-fabric-26.2-1.6.0.jar";
             "hash" = "sha512-H0q8zZ/rNRQN799mxB4JUH+9FwffwjyURvmw7IaJjZe0v7Vtk1aGvtl5lMUAxYHQtrKNXf0APlL0Gtplu1qA9w==";
         };
+        _yJUfRp6r = {
+            "id" = "yJUfRp6r";
+            "file" = "resource_gamma_util-forge-26.2-2.0.0.jar";
+            "hash" = "sha512-zdZk/Ihak5/XjZeE4m397eXgMM9a81T0oPd8rBbnh/4IDwcX5S+ZCd+AT750coTW4bdND1ecKVDKPWk0yu7HMw==";
+        };
+        _qFLYSiK9 = {
+            "id" = "qFLYSiK9";
+            "file" = "resource_gamma_util-fabric-26.2-2.0.0.jar";
+            "hash" = "sha512-bsV/52ikyIJc5p+/M2duyMnjg5mM4nEMilgLAlGLwmJbaD7E6ZI4k2ANXF+e0im+N0Djn7aBKViMHOiwe4fVVQ==";
+        };
+        _6rsL4N1g = {
+            "id" = "6rsL4N1g";
+            "file" = "resource_gamma_util-neoforge-26.2-2.0.0.jar";
+            "hash" = "sha512-idrjMFSBKuA9iCIOZUCJrGxa1iPt3tNLvoUdCBOg6PnhGOkk94CVo3kENWpdF/hrTRbQxxHgJBhGTIrwSCKOOw==";
+        };
     in {
         "DBneXV4s" = _DBneXV4s;
         "PFp9wmQe" = _PFp9wmQe;
@@ -218,6 +233,9 @@ let
         "AGSRa1Jt" = _AGSRa1Jt;
         "s2WIeAll" = _s2WIeAll;
         "HO0rXQPr" = _HO0rXQPr;
+        "yJUfRp6r" = _yJUfRp6r;
+        "qFLYSiK9" = _qFLYSiK9;
+        "6rsL4N1g" = _6rsL4N1g;
         "neoforge-1.21" = _wn9s0A6p;
         "neoforge-1.21.1" = _Nx6kXJFH;
         "neoforge-1.21.2" = _wn9s0A6p;
@@ -233,7 +251,7 @@ let
         "neoforge-26.1" = _XsHy6XxD;
         "neoforge-26.1.1" = _XsHy6XxD;
         "neoforge-26.1.2" = _hsKmB6Dk;
-        "neoforge-26.2" = _s2WIeAll;
+        "neoforge-26.2" = _6rsL4N1g;
         "forge-1.21" = _jokar2SA;
         "forge-1.21.1" = _4bOdr041;
         "forge-1.21.2" = _jokar2SA;
@@ -247,7 +265,7 @@ let
         "forge-1.21.10" = _X63KSqBr;
         "forge-1.21.11" = _ujUSuR3B;
         "forge-26.1.2" = _OJS3R0NR;
-        "forge-26.2" = _AGSRa1Jt;
+        "forge-26.2" = _yJUfRp6r;
         "fabric-1.21" = _GeO1yoEr;
         "fabric-1.21.1" = _aGP9SLVq;
         "fabric-1.21.2" = _GeO1yoEr;
@@ -263,7 +281,7 @@ let
         "fabric-26.1" = _qphty57Y;
         "fabric-26.1.1" = _qphty57Y;
         "fabric-26.1.2" = _qmSXn5s1;
-        "fabric-26.2" = _HO0rXQPr;
+        "fabric-26.2" = _qFLYSiK9;
         "quilt-1.21" = _GeO1yoEr;
         "quilt-1.21.1" = _aGP9SLVq;
         "quilt-1.21.2" = _GeO1yoEr;
@@ -293,7 +311,8 @@ let
         "pkg-26.1.2-1.5.2" = _qphty57Y;
         "pkg-26.1.2-1.6.0" = _OJS3R0NR;
         "pkg-26.2-1.6.0" = _HO0rXQPr;
-        "default" = _HO0rXQPr;
+        "pkg-2.0.0" = _6rsL4N1g;
+        "default" = _6rsL4N1g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "resource-gamma-utils";

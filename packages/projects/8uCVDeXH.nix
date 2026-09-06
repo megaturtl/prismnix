@@ -126,6 +126,11 @@ let
             "file" = "WynnEdits - Dark Theme v3.4.zip";
             "hash" = "sha512-QZmr2ud514rZSztv7+d8sD7lLZhJFgkrqGVeOxQPvZaPN3fPgP5FAxBJ8fdaS0yxTqAjQMak4kHfNICX3eNrDQ==";
         };
+        _VEQGGwnt = {
+            "id" = "VEQGGwnt";
+            "file" = "WynnEdits - Dark Theme v3.5.zip";
+            "hash" = "sha512-9K/fIa7iy0e9Je+geRJ7ECAnS9RyuJQEADPd/DYmvKPgHhrLRgWTRm8PcGTsr9si0+MN98taUCn2SSY8Kjhi7Q==";
+        };
     in {
         "2fgesvqp" = _2fgesvqp;
         "1GrI0C21" = _1GrI0C21;
@@ -152,9 +157,10 @@ let
         "gCDVwAYj" = _gCDVwAYj;
         "5LQEF3s3" = _5LQEF3s3;
         "UXRShs17" = _UXRShs17;
+        "VEQGGwnt" = _VEQGGwnt;
         "minecraft-1.21" = _iLPE6k9F;
         "minecraft-1.21.1" = _iLPE6k9F;
-        "minecraft-1.21.4" = _UXRShs17;
+        "minecraft-1.21.4" = _VEQGGwnt;
         "minecraft-1.20.5" = _iLPE6k9F;
         "minecraft-1.20.6" = _iLPE6k9F;
         "minecraft-24w18a" = _iLPE6k9F;
@@ -176,13 +182,13 @@ let
         "minecraft-24w44a" = _iLPE6k9F;
         "minecraft-24w45a" = _iLPE6k9F;
         "minecraft-24w46a" = _iLPE6k9F;
-        "minecraft-1.21.5" = _UXRShs17;
-        "minecraft-1.21.6" = _UXRShs17;
-        "minecraft-1.21.7" = _UXRShs17;
-        "minecraft-1.21.8" = _UXRShs17;
-        "minecraft-1.21.9" = _UXRShs17;
-        "minecraft-1.21.10" = _UXRShs17;
-        "minecraft-1.21.11" = _UXRShs17;
+        "minecraft-1.21.5" = _VEQGGwnt;
+        "minecraft-1.21.6" = _VEQGGwnt;
+        "minecraft-1.21.7" = _VEQGGwnt;
+        "minecraft-1.21.8" = _VEQGGwnt;
+        "minecraft-1.21.9" = _VEQGGwnt;
+        "minecraft-1.21.10" = _VEQGGwnt;
+        "minecraft-1.21.11" = _VEQGGwnt;
         "pkg-1.0" = _2fgesvqp;
         "pkg-1.1" = _1GrI0C21;
         "pkg-1.2" = _tBPFpJ9N;
@@ -208,7 +214,8 @@ let
         "pkg-3.2" = _gCDVwAYj;
         "pkg-3.3" = _5LQEF3s3;
         "pkg-3.4" = _UXRShs17;
-        "default" = _UXRShs17;
+        "pkg-3.5" = _VEQGGwnt;
+        "default" = _VEQGGwnt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wynnedits-dark-theme";

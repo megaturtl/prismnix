@@ -181,6 +181,21 @@ let
             "file" = "+Fugue-0.23.7.jar";
             "hash" = "sha512-WIHBHlJfjAKm4TZcjrHSKMmkXek94Fajwmf02MAytaa63WoirJbHIUFT8kBqooJpc3Xgvzlxuy+njRLef+jcsQ==";
         };
+        _GCfYQKM1 = {
+            "id" = "GCfYQKM1";
+            "file" = "fugue-0.24.1.jar";
+            "hash" = "sha512-yRbuqmV9BHTQ7pDl+7sI9YqeOjZbr53Sb683T0UqsMI7UPPukHWP4vUggZxA22NFmLOZ+V0FavVHWzb4jCO54Q==";
+        };
+        _xaB49OW2 = {
+            "id" = "xaB49OW2";
+            "file" = "+Fugue-0.24.2.jar";
+            "hash" = "sha512-fWEVqFlPW17nPyZB42DNKP+oYsmAhgLflWfZTxR2pp8tSBW7yUBZdHRezmD6WLsgrG9bV1XgU1QjkKuDiQWOlg==";
+        };
+        _jViSfJQF = {
+            "id" = "jViSfJQF";
+            "file" = "+Fugue-0.24.3.jar";
+            "hash" = "sha512-p2c7sHU8nBX7F4lWMLlpQGN+/Ik0dS6/D4Lrz+1MuthlYD5jJZyANJm3B6kAGAdelVDZkdyYFmiUj+V4L7n8xg==";
+        };
     in {
         "k8WAROqM" = _k8WAROqM;
         "nQMVvjYb" = _nQMVvjYb;
@@ -218,7 +233,10 @@ let
         "aMk9Nonw" = _aMk9Nonw;
         "9T43RGc3" = _9T43RGc3;
         "BoeDHUKw" = _BoeDHUKw;
-        "forge-1.12.2" = _BoeDHUKw;
+        "GCfYQKM1" = _GCfYQKM1;
+        "xaB49OW2" = _xaB49OW2;
+        "jViSfJQF" = _jViSfJQF;
+        "forge-1.12.2" = _jViSfJQF;
         "pkg-0.18.6" = _k8WAROqM;
         "pkg-0.19.0" = _nQMVvjYb;
         "pkg-0.19.2" = _nJv7zquc;
@@ -254,7 +272,10 @@ let
         "pkg-0.23.4" = _aMk9Nonw;
         "pkg-0.23.6" = _9T43RGc3;
         "pkg-0.23.7" = _BoeDHUKw;
-        "default" = _BoeDHUKw;
+        "pkg-0.24.1" = _GCfYQKM1;
+        "pkg-0.24.2" = _xaB49OW2;
+        "pkg-0.24.3" = _jViSfJQF;
+        "default" = _jViSfJQF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fugue";

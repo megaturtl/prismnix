@@ -441,6 +441,46 @@ let
             "file" = "Survive-1.21.1-10.1.11-NeoForge.jar";
             "hash" = "sha512-bTOLk56R3H2wxOCy+Pnws0HFy201VWkXya7Y42TtCnys1zppV8xIwzfvwsDWxSrFn/CcXMfOWRX5YLFZl+8bwA==";
         };
+        _w6zPLss7 = {
+            "id" = "w6zPLss7";
+            "file" = "Survive-1.20.1-10.2.0-Forge.jar";
+            "hash" = "sha512-9z7OO0MH0PRO6E5j2mUuGtrhH3nT3yqTzZl7hxql9VK4L/qSVLw0LM1MX160DQ/KqscxdqDQChAQLhz5a3yduA==";
+        };
+        _oGlzVpfO = {
+            "id" = "oGlzVpfO";
+            "file" = "Survive-1.20.1-10.2.0-Forge.jar";
+            "hash" = "sha512-M/mng7BxDgGrgDgMlbF6v+f3GbRww6MiylQ1GjesxywvMQIjAodqvsuoYaYQkw20v27dFQ6oecbfgZdqcbtU7g==";
+        };
+        _nKLqDdCr = {
+            "id" = "nKLqDdCr";
+            "file" = "Survive-1.21.1-10.2.0-beta-Fabric.jar";
+            "hash" = "sha512-BWrIU23VNTdgYdMcAZRFpmH/etOHRnWpqZYpip4yGLjcCYQtSgiHy3rZQ6JENQS86tXsl3d81FlKPF2mfuBdUA==";
+        };
+        _z6saQkAI = {
+            "id" = "z6saQkAI";
+            "file" = "Survive-1.21.1-10.2.0-Forge.jar";
+            "hash" = "sha512-+wsVsd+uVTuqeQbs8Fv5oxFVlITvwKvA7CMjN86DtWk8MhUoeqv9pFG2V2f4842MT3JcBW1+vgj8PIYoYV6+hg==";
+        };
+        _QdUq0GTi = {
+            "id" = "QdUq0GTi";
+            "file" = "Survive-1.21.1-10.2.0-NeoForge.jar";
+            "hash" = "sha512-lzONKcxcKcq4BX+rOhVivoxc42o2dhq0LdZKEJf6UjR/Pva7OGCtObsgalVar3qxKvkhymfsU/nvbyxSAe9TEQ==";
+        };
+        _275jDt9f = {
+            "id" = "275jDt9f";
+            "file" = "Survive-26.2-10.2.0-beta-Fabric.jar";
+            "hash" = "sha512-LfcDs9pCsUGtHt49mh10DlVG4tLO6QKm7tkua8nZ/meCW2ayN4nEdiaFmdkxu5aVCqENikNzMYFEV/TOHXwJJA==";
+        };
+        _ZpdgpE2E = {
+            "id" = "ZpdgpE2E";
+            "file" = "Survive-26.2-10.2.0-Forge.jar";
+            "hash" = "sha512-XBuQAm+oX2L4ymtb9qyx2vVnvC/hIOyMLMtvu2TSOdWia9Mm81nx3RPvp2wmrLBLvBXMTI/Hi1Ss4awu+J0Ycw==";
+        };
+        _woC4ILKw = {
+            "id" = "woC4ILKw";
+            "file" = "Survive-26.2-10.2.0-NeoForge.jar";
+            "hash" = "sha512-iH27SdU7F6uOADCYzZJU0p1AYJIQkAPmiABe3+KbHv6TgKk2mgVLg8vKqpNtbhbRjaChfnCr8flfXqzSN4qCEg==";
+        };
     in {
         "FKAbqJ7j" = _FKAbqJ7j;
         "NZ0IPMco" = _NZ0IPMco;
@@ -530,21 +570,33 @@ let
         "JLjmWDYI" = _JLjmWDYI;
         "ITlVxK7V" = _ITlVxK7V;
         "NSov1IzN" = _NSov1IzN;
+        "w6zPLss7" = _w6zPLss7;
+        "oGlzVpfO" = _oGlzVpfO;
+        "nKLqDdCr" = _nKLqDdCr;
+        "z6saQkAI" = _z6saQkAI;
+        "QdUq0GTi" = _QdUq0GTi;
+        "275jDt9f" = _275jDt9f;
+        "ZpdgpE2E" = _ZpdgpE2E;
+        "woC4ILKw" = _woC4ILKw;
         "forge-1.19.3" = _OOtQAXbR;
         "forge-1.19.2" = _o70Hb3mR;
         "forge-1.20" = _i9u0IW8x;
-        "forge-1.20.1" = _xoZJe9Qq;
+        "forge-1.20.1" = _oGlzVpfO;
         "forge-1.18.2" = _6WgHGszy;
         "forge-1.20.6" = _sWm5lvi2;
-        "forge-1.21" = _JLjmWDYI;
-        "forge-1.21.1" = _JLjmWDYI;
-        "neoforge-1.21" = _NSov1IzN;
-        "neoforge-1.21.1" = _NSov1IzN;
-        "neoforge-1.20.1" = _xoZJe9Qq;
-        "fabric-1.21" = _6Mp47YxR;
-        "fabric-1.21.1" = _6Mp47YxR;
-        "quilt-1.21" = _6Mp47YxR;
-        "quilt-1.21.1" = _6Mp47YxR;
+        "forge-1.21" = _z6saQkAI;
+        "forge-1.21.1" = _z6saQkAI;
+        "forge-26.2" = _ZpdgpE2E;
+        "neoforge-1.21" = _QdUq0GTi;
+        "neoforge-1.21.1" = _QdUq0GTi;
+        "neoforge-1.20.1" = _oGlzVpfO;
+        "neoforge-26.2" = _woC4ILKw;
+        "fabric-1.21" = _nKLqDdCr;
+        "fabric-1.21.1" = _nKLqDdCr;
+        "fabric-26.2" = _275jDt9f;
+        "quilt-1.21" = _nKLqDdCr;
+        "quilt-1.21.1" = _nKLqDdCr;
+        "quilt-26.2" = _275jDt9f;
         "pkg-1.19.3-8.0.0" = _FKAbqJ7j;
         "pkg-1.19.3-8.0.1" = _NZ0IPMco;
         "pkg-1.19.3-8.0.2" = _1PPvm3Y3;
@@ -629,7 +681,14 @@ let
         "pkg-1.21.1-10.1.11-beta-Fabric" = _6Mp47YxR;
         "pkg-1.21.1-10.1.11-Forge" = _JLjmWDYI;
         "pkg-1.21.1-10.1.11-NeoForge" = _NSov1IzN;
-        "default" = _NSov1IzN;
+        "pkg-1.20.1-10.2.0-Forge" = _oGlzVpfO;
+        "pkg-1.21.1-10.2.0-beta-Fabric" = _nKLqDdCr;
+        "pkg-1.21.1-10.2.0-Forge" = _z6saQkAI;
+        "pkg-1.21.1-10.2.0-NeoForge" = _QdUq0GTi;
+        "pkg-26.2-10.2.0-beta-Fabric" = _275jDt9f;
+        "pkg-26.2-10.2.0-Forge" = _ZpdgpE2E;
+        "pkg-26.2-10.2.0-NeoForge" = _woC4ILKw;
+        "default" = _woC4ILKw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "survive";

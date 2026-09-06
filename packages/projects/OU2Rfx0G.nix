@@ -126,6 +126,16 @@ let
             "file" = "pillagers_gun-3.3.5 NeoForge 26.2.jar";
             "hash" = "sha512-9qWipoQermEHVaxpru48Pyplw78F9eBmWEYsZEVw0dhdsbCihB0q/3RnBm8Rbsum81JfTj5Qj77psCeoAhnaWQ==";
         };
+        _mZjg7oJl = {
+            "id" = "mZjg7oJl";
+            "file" = "pillagers_gun-3.3.6 26.2.jar";
+            "hash" = "sha512-nJFOdDWyrkaCXhH4tsra8t8Mrs/arE5UtnfW74EHcBUR2OQDpuVtzuTW6og9dXr2/8nh7d0GIYvtSWWvEyRP9g==";
+        };
+        _FmVWjYz4 = {
+            "id" = "FmVWjYz4";
+            "file" = "pillagers_gun-fabric-1.20.1-3.3.7.jar";
+            "hash" = "sha512-Y3uX6kpH4xCccoOc/+ONh32nY3SxRHW1MeVeoU5V9z+BCNnlRvbnCjlHrSIASKT80roPjnhYMrrsF7pvMB7P+A==";
+        };
     in {
         "gQhpzxgq" = _gQhpzxgq;
         "LhQ13PZo" = _LhQ13PZo;
@@ -152,7 +162,9 @@ let
         "PP4WIKdr" = _PP4WIKdr;
         "XBk9WiPD" = _XBk9WiPD;
         "Hz9WIP3R" = _Hz9WIP3R;
-        "fabric-1.20.1" = _gQhpzxgq;
+        "mZjg7oJl" = _mZjg7oJl;
+        "FmVWjYz4" = _FmVWjYz4;
+        "fabric-1.20.1" = _FmVWjYz4;
         "fabric-1.21.1" = _LhQ13PZo;
         "fabric-1.21.4" = _hewblJjX;
         "fabric-1.21.5" = _cYhNZS25;
@@ -174,13 +186,15 @@ let
         "neoforge-26.1" = _oiF4wwfC;
         "neoforge-26.1.1" = _ZgdAcZd0;
         "neoforge-26.1.2" = _wXOyc1dO;
-        "neoforge-26.2" = _Hz9WIP3R;
+        "neoforge-26.2" = _mZjg7oJl;
         "pkg-3.2.1" = _oiF4wwfC;
         "pkg-3.2.2" = _xHh4da1v;
         "pkg-3.3.3" = _MOUKuyKN;
         "pkg-3.3.4" = _PP4WIKdr;
         "pkg-3.3.5" = _Hz9WIP3R;
-        "default" = _Hz9WIP3R;
+        "pkg-3.3.6" = _mZjg7oJl;
+        "pkg-3.3.7" = _FmVWjYz4;
+        "default" = _FmVWjYz4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pillagers-gun-(unofficial-port)";

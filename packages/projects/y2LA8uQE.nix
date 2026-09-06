@@ -91,6 +91,21 @@ let
             "file" = "directgpu-1.0.21-neoforge-1.21.1.jar";
             "hash" = "sha512-kuaufPWeKE9bVxpk/MhimaaknV76nKHjRJxUbB84wqw0oUZNxMpd99+CK885G7lGCCJhIEbZ/z251qTq8r/xNQ==";
         };
+        _4gJ9V5D4 = {
+            "id" = "4gJ9V5D4";
+            "file" = "directgpu-1.0.22-neoforge-1.21.1.jar";
+            "hash" = "sha512-74Di9rwaB+2cA7czHUpIP6BxG1D32X8uZ1x8G7Mq6ss9756iNUSQU2FVCt3FZLbKd1E0ugN6JJCwIdFS76NWLg==";
+        };
+        _zsBkPErG = {
+            "id" = "zsBkPErG";
+            "file" = "directgpu-1.0.23-neoforge-1.21.1.jar";
+            "hash" = "sha512-Wu76b/FqD+Wbd62HQ6nH9mlxw92w2wc0xcFjktJZLoyl5ej6dRtRyhFPpSdnZqsWhdJRd11Jb/QbG7Rj1tY8pw==";
+        };
+        _kxl9oeha = {
+            "id" = "kxl9oeha";
+            "file" = "directgpu-1.0.24-neoforge-1.21.1.jar";
+            "hash" = "sha512-PMiLVTFbp4VMw/jfsWzdUUhkgMH+VYpGU6X/VYHgRyLAl7qJq64h4klkhG3nkz1i8LUBqG9iI89gW0wXGalQdw==";
+        };
     in {
         "wZYD0QBF" = _wZYD0QBF;
         "Ttd9dHFa" = _Ttd9dHFa;
@@ -110,9 +125,12 @@ let
         "QixUSztf" = _QixUSztf;
         "nrfopLml" = _nrfopLml;
         "7srm4L34" = _7srm4L34;
+        "4gJ9V5D4" = _4gJ9V5D4;
+        "zsBkPErG" = _zsBkPErG;
+        "kxl9oeha" = _kxl9oeha;
         "forge-1.20.1" = _QixUSztf;
         "fabric-1.20.1" = _nP03XJdx;
-        "neoforge-1.21.1" = _7srm4L34;
+        "neoforge-1.21.1" = _kxl9oeha;
         "pkg-1.0.0" = _wZYD0QBF;
         "pkg-1.0.1" = _Ttd9dHFa;
         "pkg-1.0.2" = _jHkzZTs5;
@@ -131,7 +149,10 @@ let
         "pkg-1.0.19" = _QixUSztf;
         "pkg-1.0.20-neoforge-1.21.1" = _nrfopLml;
         "pkg-1.0.21-neoforge-1.21.1" = _7srm4L34;
-        "default" = _7srm4L34;
+        "pkg-1.0.22-neoforge-1.21.1" = _4gJ9V5D4;
+        "pkg-1.0.23-neoforge-1.21.1" = _zsBkPErG;
+        "pkg-1.0.24-neoforge-1.21.1" = _kxl9oeha;
+        "default" = _kxl9oeha;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ccdirectgpu-mod";

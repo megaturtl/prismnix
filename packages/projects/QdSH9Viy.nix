@@ -66,6 +66,16 @@ let
             "file" = "SimpleAFK-1.7.1.jar";
             "hash" = "sha512-HNHBVvtTR7vafNWlCu5QY971E0JQ1Bnq8NL66ughCk44sfPQBR4fnSbf1CEDeRTy89QIhi5O0nAq2hlGS7+TPA==";
         };
+        _W6lWOF5o = {
+            "id" = "W6lWOF5o";
+            "file" = "SimpleAFK-1.7.2.jar";
+            "hash" = "sha512-sn4PxkQKKw3DRifPLLa4EjcB87eSSESYqXzMmr0qE2VLrYhpd8tfMeLpXPxRDYn0QDqgGIjHRNbaBeV0wRFOtQ==";
+        };
+        _RZRzB1Ht = {
+            "id" = "RZRzB1Ht";
+            "file" = "SimpleAFK-1.7.2.jar";
+            "hash" = "sha512-hQ2EoFVMjI0+hzExHEUOVYJhs+i/FOpdvBXpoHUmsJq1TmTHg58Kh9Qi4+AJHHOQYmZrYHQgajfLqfQNDZSgVw==";
+        };
     in {
         "3k7plyJj" = _3k7plyJj;
         "A2arnLkD" = _A2arnLkD;
@@ -80,6 +90,8 @@ let
         "CYsv6OaR" = _CYsv6OaR;
         "LhXdGRhF" = _LhXdGRhF;
         "dr1iaOUB" = _dr1iaOUB;
+        "W6lWOF5o" = _W6lWOF5o;
+        "RZRzB1Ht" = _RZRzB1Ht;
         "bukkit-1.17" = _K4ilc4py;
         "bukkit-1.17.1" = _K4ilc4py;
         "bukkit-1.18" = _K4ilc4py;
@@ -109,10 +121,10 @@ let
         "bukkit-1.21.9" = _K4ilc4py;
         "bukkit-1.21.10" = _K4ilc4py;
         "bukkit-1.21.11" = _K4ilc4py;
-        "bukkit-26.1" = _LhXdGRhF;
-        "bukkit-26.1.1" = _LhXdGRhF;
-        "bukkit-26.1.2" = _LhXdGRhF;
-        "bukkit-26.2" = _dr1iaOUB;
+        "bukkit-26.1" = _RZRzB1Ht;
+        "bukkit-26.1.1" = _RZRzB1Ht;
+        "bukkit-26.1.2" = _RZRzB1Ht;
+        "bukkit-26.2" = _W6lWOF5o;
         "folia-1.17" = _K4ilc4py;
         "folia-1.17.1" = _K4ilc4py;
         "folia-1.18" = _K4ilc4py;
@@ -175,10 +187,10 @@ let
         "paper-1.21.9" = _K4ilc4py;
         "paper-1.21.10" = _K4ilc4py;
         "paper-1.21.11" = _K4ilc4py;
-        "paper-26.1" = _LhXdGRhF;
-        "paper-26.1.1" = _LhXdGRhF;
-        "paper-26.1.2" = _LhXdGRhF;
-        "paper-26.2" = _dr1iaOUB;
+        "paper-26.1" = _RZRzB1Ht;
+        "paper-26.1.1" = _RZRzB1Ht;
+        "paper-26.1.2" = _RZRzB1Ht;
+        "paper-26.2" = _W6lWOF5o;
         "purpur-1.17" = _K4ilc4py;
         "purpur-1.17.1" = _K4ilc4py;
         "purpur-1.18" = _K4ilc4py;
@@ -208,10 +220,10 @@ let
         "purpur-1.21.9" = _K4ilc4py;
         "purpur-1.21.10" = _K4ilc4py;
         "purpur-1.21.11" = _K4ilc4py;
-        "purpur-26.1" = _LhXdGRhF;
-        "purpur-26.1.1" = _LhXdGRhF;
-        "purpur-26.1.2" = _LhXdGRhF;
-        "purpur-26.2" = _dr1iaOUB;
+        "purpur-26.1" = _RZRzB1Ht;
+        "purpur-26.1.1" = _RZRzB1Ht;
+        "purpur-26.1.2" = _RZRzB1Ht;
+        "purpur-26.2" = _W6lWOF5o;
         "spigot-1.17" = _K4ilc4py;
         "spigot-1.17.1" = _K4ilc4py;
         "spigot-1.18" = _K4ilc4py;
@@ -241,10 +253,10 @@ let
         "spigot-1.21.9" = _K4ilc4py;
         "spigot-1.21.10" = _K4ilc4py;
         "spigot-1.21.11" = _K4ilc4py;
-        "spigot-26.1" = _LhXdGRhF;
-        "spigot-26.1.1" = _LhXdGRhF;
-        "spigot-26.1.2" = _LhXdGRhF;
-        "spigot-26.2" = _dr1iaOUB;
+        "spigot-26.1" = _RZRzB1Ht;
+        "spigot-26.1.1" = _RZRzB1Ht;
+        "spigot-26.1.2" = _RZRzB1Ht;
+        "spigot-26.2" = _W6lWOF5o;
         "pkg-1.0" = _3k7plyJj;
         "pkg-1.1" = _A2arnLkD;
         "pkg-1.2" = _Re8GpCwn;
@@ -256,7 +268,8 @@ let
         "pkg-1.6.2" = _K4ilc4py;
         "pkg-1.7.0" = _CYsv6OaR;
         "pkg-1.7.1" = _dr1iaOUB;
-        "default" = _dr1iaOUB;
+        "pkg-1.7.2" = _RZRzB1Ht;
+        "default" = _RZRzB1Ht;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-afk";

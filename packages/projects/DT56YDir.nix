@@ -531,6 +531,16 @@ let
             "file" = "UniversalEnchants-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-1Yvt5ABSYBnHDsi3mA43I/u5bpQ/7yYUQwVNi3CyNyjroKIwCHFc5W2d+vg2UGcmhAINvxGNyUzGG0UoRoaCRw==";
         };
+        _axwHD2Nw = {
+            "id" = "axwHD2Nw";
+            "file" = "UniversalEnchants-v21.1.7-1.21.1-Fabric.jar";
+            "hash" = "sha512-DmbtELQoSeG386y9VVyJRxK2I82/AtbOZeLNdv1Q+F/pGiVHFlpAXLieMF5yhDoQMor6QXQFn2ZJ204bz/3e0w==";
+        };
+        _wdcaa1jb = {
+            "id" = "wdcaa1jb";
+            "file" = "UniversalEnchants-v21.1.7-1.21.1-NeoForge.jar";
+            "hash" = "sha512-Y4+Iv/XEttgIHXHRcU386VbroHBMUHkchHAzp9GOxEIDnwIZ8ysDoshSkFNwTTTYLd0gbKUrEtrEEBFC4GX9YQ==";
+        };
     in {
         "Psenknkv" = _Psenknkv;
         "jW5bYxcp" = _jW5bYxcp;
@@ -638,6 +648,8 @@ let
         "qZozR07D" = _qZozR07D;
         "wxTX3R8G" = _wxTX3R8G;
         "661qCqBz" = _661qCqBz;
+        "axwHD2Nw" = _axwHD2Nw;
+        "wdcaa1jb" = _wdcaa1jb;
         "forge-1.19.1" = _26Tz7Yq6;
         "forge-1.19.2" = _N4CkR58u;
         "forge-1.19.3" = _X8afYDno;
@@ -652,7 +664,7 @@ let
         "fabric-1.20" = _uUI9TiSJ;
         "fabric-1.20.1" = _zJHxVFXO;
         "fabric-1.18.2" = _9KMATEbM;
-        "fabric-1.21.1" = _Kke2ZSg0;
+        "fabric-1.21.1" = _axwHD2Nw;
         "fabric-1.21.3" = _OD5w0tUG;
         "fabric-1.21.4" = _EYYu8HEY;
         "fabric-1.21.5" = _mdxjvzLy;
@@ -666,7 +678,7 @@ let
         "fabric-26.1.1" = _qZozR07D;
         "fabric-26.1.2" = _qZozR07D;
         "fabric-26.2" = _wxTX3R8G;
-        "neoforge-1.21.1" = _pllSFipO;
+        "neoforge-1.21.1" = _wdcaa1jb;
         "neoforge-1.21.3" = _JbsZFdg7;
         "neoforge-1.21.4" = _NJ4eET3Q;
         "neoforge-1.21.5" = _Ow9d4VqO;
@@ -775,7 +787,8 @@ let
         "pkg-26.1.0" = _y1ObkaKC;
         "pkg-26.1.1" = _qZozR07D;
         "pkg-26.2.0" = _661qCqBz;
-        "default" = _661qCqBz;
+        "pkg-21.1.7" = _wdcaa1jb;
+        "default" = _wdcaa1jb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "universal-enchants";

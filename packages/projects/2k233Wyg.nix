@@ -56,6 +56,21 @@ let
             "file" = "voxy-hypixel-addon-1.2.4+mc26.x-voxy18.jar";
             "hash" = "sha512-OiMZ0rzB+8gWypRYyYXs4aAdRlWQw1TkDAgmTU3xF7gHLHYCNyhZaNKrt6F8iwTwzovWgsXYhaW9mJh1W++5qg==";
         };
+        _41rhUVS2 = {
+            "id" = "41rhUVS2";
+            "file" = "voxy-hypixel-addon-1.3.0+mc26.x-voxy18.jar";
+            "hash" = "sha512-VLcmdnwpmfE7H5i1qzrZTbouWeAqyAQiTZqhlmM/eoacvpJOBw9gSRuYHrzeYlC+oPH6+BmS39UguyT4STnjLw==";
+        };
+        _jNs0qpwT = {
+            "id" = "jNs0qpwT";
+            "file" = "voxy-hypixel-addon-1.3.1+mc26.1.2-voxy18.jar";
+            "hash" = "sha512-S2fZ7hdeUppgyMFahGcAqVkvno8LISAlCr2LKMdV6CgatVAgEvlRJcHJwT9uJd2NdQMB4gvFwz7X8gI8txwM3A==";
+        };
+        _J9zNhZht = {
+            "id" = "J9zNhZht";
+            "file" = "voxy-hypixel-addon-1.3.1+mc26.2-voxy18.jar";
+            "hash" = "sha512-9F5FLHuAUOHmNQTSnOU8UZh+ar8J3d/uNCZ2aE81oxyepE3eVIOpYeaxcd4XqOyRDr8kalYoNupvtrjSxQDVvA==";
+        };
     in {
         "RydSblZa" = _RydSblZa;
         "yG7AYdxl" = _yG7AYdxl;
@@ -68,6 +83,9 @@ let
         "uB5CRcyM" = _uB5CRcyM;
         "hUiCB4CS" = _hUiCB4CS;
         "LwZlk1KY" = _LwZlk1KY;
+        "41rhUVS2" = _41rhUVS2;
+        "jNs0qpwT" = _jNs0qpwT;
+        "J9zNhZht" = _J9zNhZht;
         "fabric-1.21.1" = _hGCR1Ac7;
         "fabric-1.21.2" = _hGCR1Ac7;
         "fabric-1.21.3" = _hGCR1Ac7;
@@ -79,10 +97,10 @@ let
         "fabric-1.21.9" = _hGCR1Ac7;
         "fabric-1.21.10" = _hGCR1Ac7;
         "fabric-1.21.11" = _hGCR1Ac7;
-        "fabric-26.1" = _LwZlk1KY;
-        "fabric-26.1.1" = _LwZlk1KY;
-        "fabric-26.1.2" = _LwZlk1KY;
-        "fabric-26.2" = _LwZlk1KY;
+        "fabric-26.1" = _41rhUVS2;
+        "fabric-26.1.1" = _41rhUVS2;
+        "fabric-26.1.2" = _jNs0qpwT;
+        "fabric-26.2" = _J9zNhZht;
         "pkg-1.0.0" = _RydSblZa;
         "pkg-1.0.1" = _yG7AYdxl;
         "pkg-1.1.0" = _zLInphPw;
@@ -92,7 +110,10 @@ let
         "pkg-1.2.2" = _uB5CRcyM;
         "pkg-1.2.3+mc26.2-voxy18" = _hUiCB4CS;
         "pkg-1.2.4+mc26.x-voxy18" = _LwZlk1KY;
-        "default" = _LwZlk1KY;
+        "pkg-1.3.0+mc26.x-voxy18" = _41rhUVS2;
+        "pkg-1.3.1+mc26.1.2-voxy18" = _jNs0qpwT;
+        "pkg-1.3.1+mc26.2-voxy18" = _J9zNhZht;
+        "default" = _J9zNhZht;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "voxy-hypixel-addon";

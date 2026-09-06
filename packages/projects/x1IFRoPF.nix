@@ -221,6 +221,16 @@ let
             "file" = "player-revive-v3.0-mc1.21.10.jar";
             "hash" = "sha512-5fs2Go31haGvRWPQhBO6YIvGtgRMNqnRxru4fgBw7x4kfgAg7pJD+MxomQbV7/m4zPXIarIeshkb5oHkxV+6cA==";
         };
+        _tuF42Mm6 = {
+            "id" = "tuF42Mm6";
+            "file" = "Simple Revive v3.0 mc1.21.1.zip";
+            "hash" = "sha512-OVO+cy8ALlOqmh5EUTr4FTI3mNHgj0Z8zT7KHPgBcKxffI/7J+xItjC0Q/MUuY/LxKg4pLpv5ZlKBBH8MyRhnw==";
+        };
+        _XhfNkAiO = {
+            "id" = "XhfNkAiO";
+            "file" = "player-revive-v3.0-mc1.21.1.jar";
+            "hash" = "sha512-dOAAM5QcHbaire8bi0qNe+7ohLoPwsbfvVODBCkNlt1Va34euTEdMefXoSp1m51iFrDiCoSF+4kBBpTL8LlDGw==";
+        };
     in {
         "HBU1UDmP" = _HBU1UDmP;
         "L3TksMz4" = _L3TksMz4;
@@ -266,12 +276,14 @@ let
         "AT9pH7Nd" = _AT9pH7Nd;
         "FuxdC1eD" = _FuxdC1eD;
         "38lJry46" = _38lJry46;
+        "tuF42Mm6" = _tuF42Mm6;
+        "XhfNkAiO" = _XhfNkAiO;
         "datapack-1.21.5" = _bZKodP2t;
         "datapack-1.21.6" = _bZKodP2t;
         "datapack-1.21.7" = _bZKodP2t;
         "datapack-1.21.8" = _bZKodP2t;
-        "datapack-1.21" = _vdIAhFdI;
-        "datapack-1.21.1" = _vdIAhFdI;
+        "datapack-1.21" = _tuF42Mm6;
+        "datapack-1.21.1" = _tuF42Mm6;
         "datapack-1.21.2" = _s7senkOF;
         "datapack-1.21.3" = _s7senkOF;
         "datapack-1.21.4" = _s7senkOF;
@@ -286,8 +298,8 @@ let
         "fabric-1.21.6" = _kbRIBQ5r;
         "fabric-1.21.7" = _kbRIBQ5r;
         "fabric-1.21.8" = _kbRIBQ5r;
-        "fabric-1.21" = _8RPlhT02;
-        "fabric-1.21.1" = _8RPlhT02;
+        "fabric-1.21" = _XhfNkAiO;
+        "fabric-1.21.1" = _XhfNkAiO;
         "fabric-1.21.2" = _eYf7wo6k;
         "fabric-1.21.3" = _eYf7wo6k;
         "fabric-1.21.4" = _eYf7wo6k;
@@ -302,8 +314,8 @@ let
         "forge-1.21.6" = _kbRIBQ5r;
         "forge-1.21.7" = _kbRIBQ5r;
         "forge-1.21.8" = _kbRIBQ5r;
-        "forge-1.21" = _8RPlhT02;
-        "forge-1.21.1" = _8RPlhT02;
+        "forge-1.21" = _XhfNkAiO;
+        "forge-1.21.1" = _XhfNkAiO;
         "forge-1.21.2" = _eYf7wo6k;
         "forge-1.21.3" = _eYf7wo6k;
         "forge-1.21.4" = _eYf7wo6k;
@@ -318,8 +330,8 @@ let
         "neoforge-1.21.6" = _kbRIBQ5r;
         "neoforge-1.21.7" = _kbRIBQ5r;
         "neoforge-1.21.8" = _kbRIBQ5r;
-        "neoforge-1.21" = _8RPlhT02;
-        "neoforge-1.21.1" = _8RPlhT02;
+        "neoforge-1.21" = _XhfNkAiO;
+        "neoforge-1.21.1" = _XhfNkAiO;
         "neoforge-1.21.2" = _eYf7wo6k;
         "neoforge-1.21.3" = _eYf7wo6k;
         "neoforge-1.21.4" = _eYf7wo6k;
@@ -334,8 +346,8 @@ let
         "quilt-1.21.6" = _kbRIBQ5r;
         "quilt-1.21.7" = _kbRIBQ5r;
         "quilt-1.21.8" = _kbRIBQ5r;
-        "quilt-1.21" = _8RPlhT02;
-        "quilt-1.21.1" = _8RPlhT02;
+        "quilt-1.21" = _XhfNkAiO;
+        "quilt-1.21.1" = _XhfNkAiO;
         "quilt-1.21.2" = _eYf7wo6k;
         "quilt-1.21.3" = _eYf7wo6k;
         "quilt-1.21.4" = _eYf7wo6k;
@@ -390,7 +402,9 @@ let
         "pkg-v3.0-mc26.1.x-mod" = _AT9pH7Nd;
         "pkg-v3.0-mc1.21.10-datapack" = _FuxdC1eD;
         "pkg-v3.0-mc1.21.10-mod" = _38lJry46;
-        "default" = _38lJry46;
+        "pkg-v3.0-mc1.21.1-datapack" = _tuF42Mm6;
+        "pkg-v3.0-mc1.21.1-mod" = _XhfNkAiO;
+        "default" = _XhfNkAiO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "player-revive";

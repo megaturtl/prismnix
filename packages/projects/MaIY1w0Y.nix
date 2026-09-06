@@ -51,6 +51,11 @@ let
             "file" = "unlock-the-end-1.4.jar";
             "hash" = "sha512-usWTYKIK5RVyYvzyqREL7GacDDKfk8W1tOlCxnRaytW+8kiF925NyHZFY+Me3aAzOxJli+/TnXFFjwqN9yy/7w==";
         };
+        _2CRgGTAW = {
+            "id" = "2CRgGTAW";
+            "file" = "unlocktheendbackport-1.0.jar";
+            "hash" = "sha512-Ai5TGs4xZCFXhnkFv2aiGmYiemll0+3aR/W0lF0CGOMsSjYUL7tbS5mTuBxycSQNOlqN1ot144+jVtaJKZuVIQ==";
+        };
     in {
         "5G8CdsRI" = _5G8CdsRI;
         "Z7XBWVbE" = _Z7XBWVbE;
@@ -62,6 +67,7 @@ let
         "cC84IjZe" = _cC84IjZe;
         "MCqTPPPY" = _MCqTPPPY;
         "75vMz3Mb" = _75vMz3Mb;
+        "2CRgGTAW" = _2CRgGTAW;
         "datapack-1.21.5" = _MCqTPPPY;
         "datapack-1.21.6" = _MCqTPPPY;
         "datapack-1.21.7" = _MCqTPPPY;
@@ -90,6 +96,7 @@ let
         "neoforge-1.21.9" = _75vMz3Mb;
         "neoforge-1.21.10" = _75vMz3Mb;
         "neoforge-1.21.11" = _75vMz3Mb;
+        "neoforge-1.21.1" = _2CRgGTAW;
         "quilt-1.21.5" = _75vMz3Mb;
         "quilt-1.21.6" = _75vMz3Mb;
         "quilt-1.21.7" = _75vMz3Mb;
@@ -97,7 +104,7 @@ let
         "quilt-1.21.9" = _75vMz3Mb;
         "quilt-1.21.10" = _75vMz3Mb;
         "quilt-1.21.11" = _75vMz3Mb;
-        "pkg-1.0" = _5G8CdsRI;
+        "pkg-1.0" = _2CRgGTAW;
         "pkg-1.0+mod" = _Z7XBWVbE;
         "pkg-1.1" = _jGDaWQzA;
         "pkg-1.1+mod" = _yw2aDUdh;
@@ -107,7 +114,7 @@ let
         "pkg-1.3+mod" = _cC84IjZe;
         "pkg-1.4" = _MCqTPPPY;
         "pkg-1.4+mod" = _75vMz3Mb;
-        "default" = _75vMz3Mb;
+        "default" = _2CRgGTAW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unlock-the-end";

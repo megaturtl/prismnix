@@ -21,11 +21,17 @@ let
             "file" = "§2Crops§0-§8V§r§7§n1.21.x§r§r§8-§r§7§n26.2§r§r.zip";
             "hash" = "sha512-claUrK2kMAQ01tz8Q/+4XGvZZSvtmF440/FtxbfAxFWCvnhyQSvT/G6VRFzxtdrZcB2/l9vv2f/x312yyRRT2Q==";
         };
+        _fNTHfFKA = {
+            "id" = "fNTHfFKA";
+            "file" = "§2Crops§0-§8V§r§7§n26.x.x§r§r§8-§r§7§n26.2§r§r.zip";
+            "hash" = "sha512-Uy2OtrftvAxY5oV1PUFFEtlu6uEe74ZhWIlm96nXUAB9cZq7g4IlWlehfu46inz7TzsNkmxq3QGeUleeYClZIg==";
+        };
     in {
         "e4o0FXzA" = _e4o0FXzA;
         "MWlOGrf8" = _MWlOGrf8;
         "BSldxVQV" = _BSldxVQV;
         "CL2BNv6G" = _CL2BNv6G;
+        "fNTHfFKA" = _fNTHfFKA;
         "minecraft-1.21.6" = _CL2BNv6G;
         "minecraft-1.21.7" = _CL2BNv6G;
         "minecraft-1.21.8" = _CL2BNv6G;
@@ -60,14 +66,16 @@ let
         "minecraft-1.21.11-rc1" = _MWlOGrf8;
         "minecraft-1.21.11-rc2" = _MWlOGrf8;
         "minecraft-1.21.11" = _CL2BNv6G;
-        "minecraft-26.1" = _BSldxVQV;
-        "minecraft-26.1.1" = _BSldxVQV;
-        "minecraft-26.1.2" = _BSldxVQV;
+        "minecraft-26.1" = _fNTHfFKA;
+        "minecraft-26.1.1" = _fNTHfFKA;
+        "minecraft-26.1.2" = _fNTHfFKA;
+        "minecraft-26.2" = _fNTHfFKA;
         "pkg-V1.0-MCV1.21.6-1.21.10" = _e4o0FXzA;
         "pkg-1.1" = _MWlOGrf8;
         "pkg-2.0" = _BSldxVQV;
         "pkg-1.21" = _CL2BNv6G;
-        "default" = _CL2BNv6G;
+        "pkg-26.2" = _fNTHfFKA;
+        "default" = _fNTHfFKA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crops";
@@ -75,13 +83,13 @@ let
         type = "resourcepack";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "LicenseRef-All-Rights-Reserved" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-ProjectMichi" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "LicenseRef-All-Rights-Reserved";
-                shortName = "LicenseRef-All-Rights-Reserved";
-                url = "https://github.com/michi3160/License/wiki/License1.0";
+                fullName = "LicenseRef-ProjectMichi";
+                shortName = "LicenseRef-ProjectMichi";
+                url = "https://pjmichi.jp/license";
             };
         };
     };

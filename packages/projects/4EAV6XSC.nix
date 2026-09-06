@@ -81,6 +81,16 @@ let
             "file" = "tamablefairy-1.2.0-beta.4-neoforge+mc1.21.1.jar";
             "hash" = "sha512-nEmBPw0fJ3KvF2LjR7iQlV76tEuN6my5GY1LbhW1ryF8wfDfUkguUJNsmDssqKF5EUsKiLaHpoC7XbHNT25Zuw==";
         };
+        _8a49VMBa = {
+            "id" = "8a49VMBa";
+            "file" = "tamablefairy-1.2.0-beta.5-forge+mc1.20.1.jar";
+            "hash" = "sha512-71mptZcTi3MH6FxKDES3F5jQZFCki4pGOAMTPRHN4O1bUo+9l80RvEcss2tYkL3RCFZRB+plKGLMs4TW9/ABnA==";
+        };
+        _P5p8zLjC = {
+            "id" = "P5p8zLjC";
+            "file" = "tamablefairy-1.2.0-beta.5-neoforge+mc1.21.1.jar";
+            "hash" = "sha512-KdEmOEk6+BqEf5/x4FBk4fFrNI2dHU7V5HsW1+Jj+bEFD3MMarTWUEQVbQpdO+8nj98SfRHL+54omwwkZfLWhQ==";
+        };
     in {
         "XaqCCbDD" = _XaqCCbDD;
         "XG7IOpgk" = _XG7IOpgk;
@@ -98,8 +108,10 @@ let
         "BdehT3lg" = _BdehT3lg;
         "fwRAMTvP" = _fwRAMTvP;
         "NKftF6EE" = _NKftF6EE;
-        "neoforge-1.21.1" = _NKftF6EE;
-        "forge-1.20.1" = _fwRAMTvP;
+        "8a49VMBa" = _8a49VMBa;
+        "P5p8zLjC" = _P5p8zLjC;
+        "neoforge-1.21.1" = _P5p8zLjC;
+        "forge-1.20.1" = _8a49VMBa;
         "pkg-1.0-SNAPSHOT" = _XaqCCbDD;
         "pkg-1.1.0-neoforge+mc1.21.1" = _XG7IOpgk;
         "pkg-1.1.0-forge+mc1.20.1" = _11MnuRGw;
@@ -116,7 +128,9 @@ let
         "pkg-1.2.0-beta.3-neoforge+mc1.21.1" = _BdehT3lg;
         "pkg-1.2.0-beta.4-forge+mc1.20.1" = _fwRAMTvP;
         "pkg-1.2.0-beta.4-neoforge+mc1.21.1" = _NKftF6EE;
-        "default" = _NKftF6EE;
+        "pkg-1.2.0-beta.5-forge+mc1.20.1" = _8a49VMBa;
+        "pkg-1.2.0-beta.5-neoforge+mc1.21.1" = _P5p8zLjC;
+        "default" = _P5p8zLjC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tamablefairy";

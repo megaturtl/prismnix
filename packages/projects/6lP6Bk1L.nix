@@ -41,6 +41,16 @@ let
             "file" = "sharpless pvp [1.21.2-8] v1.1.zip";
             "hash" = "sha512-iPGi0vnI6QCuUgUptz+IHnfFBKeG37/XVajcvUeYNwU8v36oXfEhffLB7W/rI0omriONEZsLIfudJUayHSksWg==";
         };
+        _BnKLMMWa = {
+            "id" = "BnKLMMWa";
+            "file" = "sharpless pvp [1.21.9-11] v1.1.1.zip";
+            "hash" = "sha512-0/MvXUsxADiFUp+r7HTqB41QYrGCn5uFDF1dvchOeiU1rYJT16LcQ/yEBfYy6C3MKU0VQ/u5OrN+tQIqSA3DfA==";
+        };
+        _80X7XA3a = {
+            "id" = "80X7XA3a";
+            "file" = "sharpless pvp [26.1] v1.1.2.zip";
+            "hash" = "sha512-cS/EZBhM+1SoNIaRiJvmXQ0GAFapFZXUNUn5Vr4XhI1OxBJhuZgSVU6OipeW3Ro/EG3h9eruNtrgsNQHD3Rx3g==";
+        };
     in {
         "g1kwjD83" = _g1kwjD83;
         "fkgk61VB" = _fkgk61VB;
@@ -50,6 +60,8 @@ let
         "CTqBu0fW" = _CTqBu0fW;
         "nGwtMqQH" = _nGwtMqQH;
         "MfpOjKHP" = _MfpOjKHP;
+        "BnKLMMWa" = _BnKLMMWa;
+        "80X7XA3a" = _80X7XA3a;
         "minecraft-1.8" = _9yo5r1lz;
         "minecraft-1.8.1" = _9yo5r1lz;
         "minecraft-1.8.2" = _9yo5r1lz;
@@ -81,10 +93,18 @@ let
         "minecraft-1.21.6" = _MfpOjKHP;
         "minecraft-1.21.7" = _MfpOjKHP;
         "minecraft-1.21.8" = _MfpOjKHP;
+        "minecraft-1.21.9" = _BnKLMMWa;
+        "minecraft-1.21.10" = _BnKLMMWa;
+        "minecraft-1.21.11" = _BnKLMMWa;
+        "minecraft-26.1" = _80X7XA3a;
+        "minecraft-26.1.1" = _80X7XA3a;
+        "minecraft-26.1.2" = _80X7XA3a;
         "pkg-1.0" = _2IHiy1FE;
         "pkg-1.0.1" = _nGwtMqQH;
         "pkg-1.1" = _MfpOjKHP;
-        "default" = _MfpOjKHP;
+        "pkg-1.1.1" = _BnKLMMWa;
+        "pkg-1.1.2" = _80X7XA3a;
+        "default" = _80X7XA3a;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sharpless-pvp";

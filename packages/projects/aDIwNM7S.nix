@@ -106,6 +106,41 @@ let
             "file" = "CleanView-1.0.5-hotfix-26.2.jar";
             "hash" = "sha512-niESYz8C/HRvZvGAA9UjhD5sYuU8ECgWRnDhrgOLbSNnm0njsW+HkfRTaLFKfL67M0XzFbu2+s1Z8XCAYweSUg==";
         };
+        _YP5Q1M1l = {
+            "id" = "YP5Q1M1l";
+            "file" = "CleanView-1.0.6+1.20.6.jar";
+            "hash" = "sha512-RXA2FguxBHVtST8ocE92FsXNZMXCCa98mRgC+7VbAtz5mSOdEjyxOaCcB3c8m0RsbFlYnknbI0i3JNII2hdtPw==";
+        };
+        _mevmwnsO = {
+            "id" = "mevmwnsO";
+            "file" = "CleanView-1.0.6+1.21.4.jar";
+            "hash" = "sha512-8YXNoyqkBGFfinKWqf7fb8WXEP549tXlMUD4dzZoV+oeTG/GUfKl8vfeO8iJYVqt3LO7d2IYcy99Q0VHa1AX9g==";
+        };
+        _mugeYQkd = {
+            "id" = "mugeYQkd";
+            "file" = "CleanView-1.0.6+1.21.5.jar";
+            "hash" = "sha512-eKrSU25qESLbSvjEC5yngffdHzInhKUJQCL604iOZa8z6zIUKIShEbKGm7K4vPhE2Sc0UIepDEor64mfnzjYlQ==";
+        };
+        _3vVAQNyQ = {
+            "id" = "3vVAQNyQ";
+            "file" = "CleanView-1.0.6+1.21.8.jar";
+            "hash" = "sha512-byk1OqFlqQ3mQpq3KwGaZGbTQJnwdTRCYPDbyOxxrn/Nvrf62RJpDd/oX3NG5F3jsRRste4hFzjeoMZ217W8uw==";
+        };
+        _WGf6dAW3 = {
+            "id" = "WGf6dAW3";
+            "file" = "CleanView-1.0.6+1.21.11.jar";
+            "hash" = "sha512-x+zL/v56D161MdEGKBwAbLAdY8EAj9a15SkiiSUlAxSC50E7TKPYn0hjgjE2t3rgSmYmemWYQ64xvg0X+JtA1A==";
+        };
+        _goEtlFof = {
+            "id" = "goEtlFof";
+            "file" = "CleanView-1.0.6.jar";
+            "hash" = "sha512-4DtlvmWFRrjabj1YY05MiuaogDkQOgEascrjRwRGIWoo+2M0egiwYYZ4kwDVa5wimQPIP8NkIpuFSipHzbFThg==";
+        };
+        _HsKYeZli = {
+            "id" = "HsKYeZli";
+            "file" = "CleanView-1.0.6-26.2.jar";
+            "hash" = "sha512-r5c+7yawlhzGxRbjYW6Dg3ODsFa/46L3EbRJGvJcf0zCtQeMPIimbWGe5GZ241LlRYNlL7gZI7DgLRc2UVvuTA==";
+        };
     in {
         "aLu3LhTP" = _aLu3LhTP;
         "a7EzICao" = _a7EzICao;
@@ -128,24 +163,31 @@ let
         "x9ALaCUO" = _x9ALaCUO;
         "thV68ld8" = _thV68ld8;
         "zOYUeCSR" = _zOYUeCSR;
-        "fabric-1.21" = _OBZglxEB;
-        "fabric-1.21.1" = _OBZglxEB;
-        "fabric-1.21.2" = _OBZglxEB;
-        "fabric-1.21.3" = _OBZglxEB;
-        "fabric-1.21.4" = _OBZglxEB;
-        "fabric-1.21.5" = _x9ALaCUO;
-        "fabric-1.21.6" = _TjFuvoGM;
-        "fabric-1.21.7" = _TjFuvoGM;
-        "fabric-1.21.8" = _TjFuvoGM;
-        "fabric-1.21.9" = _s6PRqQ8o;
-        "fabric-1.20.5" = _tqJnS4uj;
-        "fabric-1.20.6" = _tqJnS4uj;
-        "fabric-1.21.10" = _s6PRqQ8o;
-        "fabric-1.21.11" = _s6PRqQ8o;
-        "fabric-26.1" = _thV68ld8;
-        "fabric-26.1.1" = _thV68ld8;
-        "fabric-26.1.2" = _thV68ld8;
-        "fabric-26.2" = _zOYUeCSR;
+        "YP5Q1M1l" = _YP5Q1M1l;
+        "mevmwnsO" = _mevmwnsO;
+        "mugeYQkd" = _mugeYQkd;
+        "3vVAQNyQ" = _3vVAQNyQ;
+        "WGf6dAW3" = _WGf6dAW3;
+        "goEtlFof" = _goEtlFof;
+        "HsKYeZli" = _HsKYeZli;
+        "fabric-1.21" = _mevmwnsO;
+        "fabric-1.21.1" = _mevmwnsO;
+        "fabric-1.21.2" = _mevmwnsO;
+        "fabric-1.21.3" = _mevmwnsO;
+        "fabric-1.21.4" = _mevmwnsO;
+        "fabric-1.21.5" = _3vVAQNyQ;
+        "fabric-1.21.6" = _3vVAQNyQ;
+        "fabric-1.21.7" = _3vVAQNyQ;
+        "fabric-1.21.8" = _3vVAQNyQ;
+        "fabric-1.21.9" = _WGf6dAW3;
+        "fabric-1.20.5" = _YP5Q1M1l;
+        "fabric-1.20.6" = _YP5Q1M1l;
+        "fabric-1.21.10" = _WGf6dAW3;
+        "fabric-1.21.11" = _WGf6dAW3;
+        "fabric-26.1" = _goEtlFof;
+        "fabric-26.1.1" = _goEtlFof;
+        "fabric-26.1.2" = _goEtlFof;
+        "fabric-26.2" = _HsKYeZli;
         "pkg-1.0.0" = _aLu3LhTP;
         "pkg-1.0.1" = _a7EzICao;
         "pkg-1.0.2" = _4Fp4sv9y;
@@ -167,7 +209,14 @@ let
         "pkg-1.0.5-hotfix+1.21.5" = _x9ALaCUO;
         "pkg-1.0.5-hotfix-26.1.2" = _thV68ld8;
         "pkg-1.0.5-hotfix-26.2" = _zOYUeCSR;
-        "default" = _zOYUeCSR;
+        "pkg-1.0.6+1.20.6" = _YP5Q1M1l;
+        "pkg-1.0.6+1.21.4" = _mevmwnsO;
+        "pkg-1.0.6+1.21.5" = _mugeYQkd;
+        "pkg-1.0.6+1.21.8" = _3vVAQNyQ;
+        "pkg-1.0.6+1.21.11" = _WGf6dAW3;
+        "pkg-1.0.6" = _goEtlFof;
+        "pkg-1.0.6-26.2" = _HsKYeZli;
+        "default" = _HsKYeZli;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cleanview-particles";

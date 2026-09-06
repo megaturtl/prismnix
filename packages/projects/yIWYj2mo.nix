@@ -201,6 +201,66 @@ let
             "file" = "discord_chat_mod-neoforge-1.21.11-2.7.0.jar";
             "hash" = "sha512-JC2+A3EoQaV/lhztJnqjECnyQa1kRuJSAiCZ1OEWJdr9+myGxrlsDczqIx2qHSct0JCgyFdeeY3EjbRZAbearQ==";
         };
+        _6gYvhomx = {
+            "id" = "6gYvhomx";
+            "file" = "discord_chat_mod-fabric-quilt-1.20.1-2.8.0.jar";
+            "hash" = "sha512-NK/0cjr0XrV4TgfznAUWG4DOS43XYI2cB6qyNm2AkYFGIS2/yDy6KnYnuxH50MOtoIceDd1lQbltUfK0kQdfWw==";
+        };
+        _tUjVkFzV = {
+            "id" = "tUjVkFzV";
+            "file" = "discord_chat_mod-forge-1.20.1-2.8.0.jar";
+            "hash" = "sha512-TkN4khhRSVdG/Bg37hcIju4tLAoBqsvEUCd2zq86hGVqqOd/U1WqhVev/mld8SpSxFyj2/20GSS7VwA8azxYXw==";
+        };
+        _dkZgM88q = {
+            "id" = "dkZgM88q";
+            "file" = "discord_chat_mod-fabric-quilt-1.21.1-2.8.0.jar";
+            "hash" = "sha512-fpRGx3oxweoVPfZVPgwelpqe+OWCQn9o13RNyFxjSZKJIryDxAVHdpLdZfCVRjmr47hYThawLfTeCNw7koHJyw==";
+        };
+        _Vex9GS2V = {
+            "id" = "Vex9GS2V";
+            "file" = "discord_chat_mod-neoforge-1.21.1-2.8.0.jar";
+            "hash" = "sha512-IhEw+Vmo941AYAaj043RojB1yb0Fx+YAJarYtId1y3vzzHS1d7uh1lwHjHqM1u4EVvMWBN2f/DrLvGmORI7Lag==";
+        };
+        _1dWS2wvh = {
+            "id" = "1dWS2wvh";
+            "file" = "discord_chat_mod-fabric-quilt-1.21.8-2.8.0.jar";
+            "hash" = "sha512-KqAnxoOlCcQmioV//Zs/UyqqO0W1U+jmLQW/A9IqAt5zkEY7dw2EU3uoG7+PWkWLQeGa8eaazaCFO1Bmc/DjSA==";
+        };
+        _W3h2zpzv = {
+            "id" = "W3h2zpzv";
+            "file" = "discord_chat_mod-neoforge-1.21.8-2.8.0.jar";
+            "hash" = "sha512-Xo6XzwV8WRDtW+NgnDaIIpfGWZ0OE5kYPydKGH8LrvvFx+ZOkSqNYlobEYgpzm1osMKygovAggWz6CA4O4oOgw==";
+        };
+        _lBXL5z93 = {
+            "id" = "lBXL5z93";
+            "file" = "discord_chat_mod-fabric-quilt-1.21.9-2.8.0.jar";
+            "hash" = "sha512-LiW6LUxU/n7yVWqlmHToEF8h//4FeV+8ZuQV1ckdypWoFrdZ89qMW/RGgyusDUCnVKUrqrAsqdZ4R7U7FV2GXw==";
+        };
+        _Hfbq23ZR = {
+            "id" = "Hfbq23ZR";
+            "file" = "discord_chat_mod-neoforge-1.21.9-2.8.0.jar";
+            "hash" = "sha512-UzIGpTWC6C/1VIyjWTbD53Su3OfOXb6E3EoLJhhJ8AJoXxfd/0mA32aX6x6b+5VX19YTyIQkaFqMn0gEQRz1vQ==";
+        };
+        _gEPZx6Ag = {
+            "id" = "gEPZx6Ag";
+            "file" = "discord_chat_mod-fabric-quilt-1.21.10-2.8.0.jar";
+            "hash" = "sha512-3Fu8RoMjdi65DaeSqTHTV1TiWW+fVcdaGEiFiw51Tz3u09in2/k2Oil3LX2j1IT+5ZNhPf4Q/NRi9YmoC/o6sA==";
+        };
+        _oImtsSCR = {
+            "id" = "oImtsSCR";
+            "file" = "discord_chat_mod-neoforge-1.21.10-2.8.0.jar";
+            "hash" = "sha512-SAttwJDSukMms4IBqakId4k3+3sBCQsDVpQbWOBjgPsPp0NHK9qFRDPrYCIxViJuHtdjYZbi1gpNpJ7NjaYYsA==";
+        };
+        _Y04NpQS6 = {
+            "id" = "Y04NpQS6";
+            "file" = "discord_chat_mod-fabric-quilt-1.21.11-2.8.0.jar";
+            "hash" = "sha512-4AjkJvHoPq0IJZiswTCGOyihjj7ePOW7id8f0h16vmaPGU1jTyjAhesVINTozWLgfvBpC8gbbsm2lSoH8xIYSA==";
+        };
+        _D0Oqoo6S = {
+            "id" = "D0Oqoo6S";
+            "file" = "discord_chat_mod-neoforge-1.21.11-2.8.0.jar";
+            "hash" = "sha512-3/OOOYGJnls3WaihlPBPjbKG7hp6PeaYR7gh1M1idyfjgSspwNpD1j8wOps9NQHTGY0JMDJSwsW800fpGwLLpw==";
+        };
     in {
         "N2Uu10K0" = _N2Uu10K0;
         "yJpXuKBm" = _yJpXuKBm;
@@ -242,25 +302,37 @@ let
         "zPbR8tzu" = _zPbR8tzu;
         "GmIjL5Dt" = _GmIjL5Dt;
         "DjqFJolb" = _DjqFJolb;
-        "forge-1.20.1" = _8xOSfyfX;
+        "6gYvhomx" = _6gYvhomx;
+        "tUjVkFzV" = _tUjVkFzV;
+        "dkZgM88q" = _dkZgM88q;
+        "Vex9GS2V" = _Vex9GS2V;
+        "1dWS2wvh" = _1dWS2wvh;
+        "W3h2zpzv" = _W3h2zpzv;
+        "lBXL5z93" = _lBXL5z93;
+        "Hfbq23ZR" = _Hfbq23ZR;
+        "gEPZx6Ag" = _gEPZx6Ag;
+        "oImtsSCR" = _oImtsSCR;
+        "Y04NpQS6" = _Y04NpQS6;
+        "D0Oqoo6S" = _D0Oqoo6S;
+        "forge-1.20.1" = _tUjVkFzV;
         "forge-1.21.1" = _GDUu2xpi;
-        "neoforge-1.21.1" = _omOPn9In;
-        "neoforge-1.21.9" = _LCmV5v9p;
-        "neoforge-1.21.10" = _zPbR8tzu;
-        "neoforge-1.21.8" = _p7N7LGCB;
-        "neoforge-1.21.11" = _DjqFJolb;
-        "fabric-1.20.1" = _SKnMwX5V;
-        "fabric-1.21.1" = _FAqYm63m;
-        "fabric-1.21.9" = _7bNMNHWH;
-        "fabric-1.21.10" = _WCi5VkAw;
-        "fabric-1.21.8" = _rHu3e4LZ;
-        "fabric-1.21.11" = _GmIjL5Dt;
-        "quilt-1.20.1" = _SKnMwX5V;
-        "quilt-1.21.1" = _FAqYm63m;
-        "quilt-1.21.9" = _7bNMNHWH;
-        "quilt-1.21.10" = _WCi5VkAw;
-        "quilt-1.21.8" = _rHu3e4LZ;
-        "quilt-1.21.11" = _GmIjL5Dt;
+        "neoforge-1.21.1" = _Vex9GS2V;
+        "neoforge-1.21.9" = _Hfbq23ZR;
+        "neoforge-1.21.10" = _oImtsSCR;
+        "neoforge-1.21.8" = _W3h2zpzv;
+        "neoforge-1.21.11" = _D0Oqoo6S;
+        "fabric-1.20.1" = _6gYvhomx;
+        "fabric-1.21.1" = _dkZgM88q;
+        "fabric-1.21.9" = _lBXL5z93;
+        "fabric-1.21.10" = _gEPZx6Ag;
+        "fabric-1.21.8" = _1dWS2wvh;
+        "fabric-1.21.11" = _Y04NpQS6;
+        "quilt-1.20.1" = _6gYvhomx;
+        "quilt-1.21.1" = _dkZgM88q;
+        "quilt-1.21.9" = _lBXL5z93;
+        "quilt-1.21.10" = _gEPZx6Ag;
+        "quilt-1.21.8" = _1dWS2wvh;
+        "quilt-1.21.11" = _Y04NpQS6;
         "pkg-2.5.3" = _yJpXuKBm;
         "pkg-2.5.4" = _cVthLZIR;
         "pkg-2.5.5" = _KjkPrX2n;
@@ -269,7 +341,8 @@ let
         "pkg-2.6.1" = _7HZJs9QD;
         "pkg-2.6.2" = _t5mcbeQE;
         "pkg-2.7.0" = _DjqFJolb;
-        "default" = _DjqFJolb;
+        "pkg-2.8.0" = _D0Oqoo6S;
+        "default" = _D0Oqoo6S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "discord-chat-connect";

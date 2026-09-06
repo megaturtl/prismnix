@@ -66,6 +66,11 @@ let
             "file" = "enderite-mod-1.21.10-v1.13.jar";
             "hash" = "sha512-3MgMrs69cDLwGSOaoSSi/vD8Ame5waq79VgyzFTLTnFEddWYnTtf1ztCPxOVkk5nlwmPACHHxSh7LGyFpXLeJA==";
         };
+        _mOHbZHST = {
+            "id" = "mOHbZHST";
+            "file" = "enderite-mod-1.21.1-v1.5.1.jar";
+            "hash" = "sha512-IPZikRKA389J6xemdebLrNtPxAd0LCbByflyXzX170hO7VoeSwSLeF51ZN+UmfwW2ddimUqrROCUkNqsCFNebg==";
+        };
     in {
         "cWse6DWU" = _cWse6DWU;
         "i2BRb3Qn" = _i2BRb3Qn;
@@ -80,6 +85,7 @@ let
         "ZuNEMSig" = _ZuNEMSig;
         "ghoSN8sT" = _ghoSN8sT;
         "We21W0O3" = _We21W0O3;
+        "mOHbZHST" = _mOHbZHST;
         "fabric-1.18" = _cWse6DWU;
         "fabric-1.18.1" = _cWse6DWU;
         "fabric-1.18.2" = _cWse6DWU;
@@ -89,8 +95,8 @@ let
         "fabric-1.20.3" = _foLY6K8t;
         "fabric-1.20.4" = _foLY6K8t;
         "fabric-1.20.6" = _w9mYiEXv;
-        "fabric-1.21" = _oMYoYpKX;
-        "fabric-1.21.1" = _oMYoYpKX;
+        "fabric-1.21" = _mOHbZHST;
+        "fabric-1.21.1" = _mOHbZHST;
         "fabric-1.21.6" = _ZuNEMSig;
         "fabric-1.21.7" = _ZuNEMSig;
         "fabric-1.21.8" = _ZuNEMSig;
@@ -105,8 +111,8 @@ let
         "quilt-1.20.3" = _foLY6K8t;
         "quilt-1.20.4" = _foLY6K8t;
         "quilt-1.20.6" = _w9mYiEXv;
-        "quilt-1.21" = _oMYoYpKX;
-        "quilt-1.21.1" = _oMYoYpKX;
+        "quilt-1.21" = _mOHbZHST;
+        "quilt-1.21.1" = _mOHbZHST;
         "quilt-1.21.6" = _ZuNEMSig;
         "quilt-1.21.7" = _ZuNEMSig;
         "quilt-1.21.8" = _ZuNEMSig;
@@ -125,7 +131,8 @@ let
         "pkg-1.21.8-v1.11" = _ZuNEMSig;
         "pkg-1.21.10-v1.12" = _ghoSN8sT;
         "pkg-1.21.10-v1.13" = _We21W0O3;
-        "default" = _We21W0O3;
+        "pkg-1.21.1-v1.5.1" = _mOHbZHST;
+        "default" = _mOHbZHST;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yeleefffs-enderite";

@@ -71,6 +71,16 @@ let
             "file" = "drops-into-shulker-1.5.jar";
             "hash" = "sha512-RpDR8w8ufaK4AbZPKdovXjSl3pXt0WE89HpRNguA6oGMUxN6M8RFvXl9v60/Cin/dpraH/Y6YGIT9vYj+6jNBw==";
         };
+        _tr4iTPA4 = {
+            "id" = "tr4iTPA4";
+            "file" = "drops-into-shulker-1.6.jar";
+            "hash" = "sha512-mShQJDm0/bRQ/yLcKrHSuvcjnEs1dRNlZK+qL1Dn55k/dsoU5DRBrFlWw3+pAstzSACxmvOhsEIs+IhJ7isDYg==";
+        };
+        _9zBjUpy0 = {
+            "id" = "9zBjUpy0";
+            "file" = "drops-into-shulker-1.7.jar";
+            "hash" = "sha512-rxgDNhovZgCGchqI/DE2vDkIMfuTCzpOLabX3ZhPURsLvBW6Bdcuqp+sSFmozlN2meJZGyTboBSU8Upj0ND0Kw==";
+        };
     in {
         "dNge5DF4" = _dNge5DF4;
         "4xxlQHEX" = _4xxlQHEX;
@@ -86,6 +96,8 @@ let
         "12RyJlN2" = _12RyJlN2;
         "OnOdFUA5" = _OnOdFUA5;
         "sBBOQTUo" = _sBBOQTUo;
+        "tr4iTPA4" = _tr4iTPA4;
+        "9zBjUpy0" = _9zBjUpy0;
         "fabric-1.19" = _J6x2nt3D;
         "fabric-1.19.1" = _J6x2nt3D;
         "fabric-1.19.2" = _J6x2nt3D;
@@ -106,6 +118,8 @@ let
         "fabric-1.21.8" = _sBBOQTUo;
         "fabric-1.21.10" = _OnOdFUA5;
         "fabric-1.21.11" = _OnOdFUA5;
+        "fabric-26.1.2" = _tr4iTPA4;
+        "fabric-26.2" = _9zBjUpy0;
         "pkg-1.0.0" = _dNge5DF4;
         "pkg-1.0.1" = _4xxlQHEX;
         "pkg-1.0.2" = _HZoNRO6O;
@@ -117,7 +131,9 @@ let
         "pkg-1.3.3" = _iqzm8Y4z;
         "pkg-1.4" = _OnOdFUA5;
         "pkg-1.5" = _sBBOQTUo;
-        "default" = _sBBOQTUo;
+        "pkg-1.6" = _tr4iTPA4;
+        "pkg-1.7" = _9zBjUpy0;
+        "default" = _9zBjUpy0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "drops-into-shulker";
@@ -125,12 +141,12 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+            license = lib.getLicenseFromSpdxIdOr "CC0-1.0" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "GNU General Public License v3.0 only";
-                shortName = "GPL-3.0-only";
+                fullName = "Creative Commons Zero v1.0 Universal";
+                shortName = "CC0-1.0";
                 url = null;
             };
         };

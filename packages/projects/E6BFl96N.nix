@@ -221,6 +221,21 @@ let
             "file" = "merequester-forge-1.20.1-1.2.1.jar";
             "hash" = "sha512-Go7VlazBobuMPQyRhUD6bKHKtpvCPYBHY3TX26bE/r0OoNTl8NPVKw0iCEtunXOtNMOyhv8JyvHyJ77kai+JaQ==";
         };
+        _hLs5MFnR = {
+            "id" = "hLs5MFnR";
+            "file" = "merequester-neoforge-1.21.1-1.5.0.jar";
+            "hash" = "sha512-Wd821K9iSKORRjhH8kBiy1GXg331PrU+m6Y18eHRBFMByQEQPQ0zbEFtusTQ9a/DlnnmeHVthcrnth38+Yyqzg==";
+        };
+        _fJMPX9I9 = {
+            "id" = "fJMPX9I9";
+            "file" = "merequester-neoforge-26.1.2-1.5.0.jar";
+            "hash" = "sha512-2br/uLcHreF3cFqpY7K3RQTZlbdkE1AYnNG6V9QVdvVSsArcslhCNmlIPMmmEibpOQLeicHw2QxqFcqqtF4VTQ==";
+        };
+        _asqYZIpt = {
+            "id" = "asqYZIpt";
+            "file" = "merequester-neoforge-26.1.2-1.5.1.jar";
+            "hash" = "sha512-wltIjQLMxdB8XVfPnHwgUy0CzNyUgcvdivieBSr/AskOodthBEtff4y33K9qhUblb898gUjH87KKDJvOSPDpAg==";
+        };
     in {
         "LTjh3jCo" = _LTjh3jCo;
         "8aPEeRK1" = _8aPEeRK1;
@@ -266,6 +281,9 @@ let
         "ol7Pze8B" = _ol7Pze8B;
         "Zf5HhnF1" = _Zf5HhnF1;
         "69N8Y7WD" = _69N8Y7WD;
+        "hLs5MFnR" = _hLs5MFnR;
+        "fJMPX9I9" = _fJMPX9I9;
+        "asqYZIpt" = _asqYZIpt;
         "fabric-1.19.2" = _GogaQgNr;
         "fabric-1.18.2" = _lZ70idk9;
         "fabric-1.20.1" = _NmhR6jIY;
@@ -275,7 +293,8 @@ let
         "neoforge-1.20.1" = _69N8Y7WD;
         "neoforge-1.19.2" = _N0ZIW5Y9;
         "neoforge-1.20.4" = _cj9FGAyI;
-        "neoforge-1.21.1" = _Zf5HhnF1;
+        "neoforge-1.21.1" = _hLs5MFnR;
+        "neoforge-26.1.2" = _asqYZIpt;
         "pkg-1.19.2-1.0.0+fabric" = _LTjh3jCo;
         "pkg-1.19.2-1.0.0+forge" = _8aPEeRK1;
         "pkg-1.19.2-1.0.1+forge" = _2g5yXXfo;
@@ -320,7 +339,10 @@ let
         "pkg-1.20.1-1.2.0+forge" = _ol7Pze8B;
         "pkg-1.21.1-1.4.3+neoforge" = _Zf5HhnF1;
         "pkg-1.20.1-1.2.1+forge" = _69N8Y7WD;
-        "default" = _69N8Y7WD;
+        "pkg-1.21.1-1.5.0+neoforge" = _hLs5MFnR;
+        "pkg-26.1.2-1.5.0+neoforge" = _fJMPX9I9;
+        "pkg-26.1.2-1.5.1+neoforge" = _asqYZIpt;
+        "default" = _asqYZIpt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "merequester";

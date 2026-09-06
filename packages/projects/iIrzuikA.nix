@@ -156,6 +156,26 @@ let
             "file" = "Legendary Armory 1.4.13.jar";
             "hash" = "sha512-6aBqiXjOSxCr6JLigmtax1k/W+n7pkO3Ld369julqvvCRzYb5YJE4EFtA80vejb3t5s4nq4055BKfCP94CItEw==";
         };
+        _z9iZdc7y = {
+            "id" = "z9iZdc7y";
+            "file" = "Legendary Armory 1.5.0.jar";
+            "hash" = "sha512-WtAo/EmdH/nw37IG2/d3oudid9ljz2Km++PMjXqvAMaVvZvMFzifodKUpWwNFJXVj66SvupNuTBuqauG7IqDMg==";
+        };
+        _lRidcpIG = {
+            "id" = "lRidcpIG";
+            "file" = "Legendary Armory 1.5.1.jar";
+            "hash" = "sha512-PsnOeenFSu3NcwH/pjmYwOLnQvDpzds1mnjmUuK5uq9oisWOxklPPepxRcdG0iKZ1pU9f80s9lWqIVj1Ktnj/g==";
+        };
+        _gSjrudSW = {
+            "id" = "gSjrudSW";
+            "file" = "Legendary Armory 1.5.2.jar";
+            "hash" = "sha512-kUZf+MeLinBxvc6Y2WfWXwLBQzRlDg9eQQEJ2vxmWA8S9N6GW6i1/xS+xaTIHaSxbOjItlVbRuPVuZ7OLfQJrQ==";
+        };
+        _Sda4Ws41 = {
+            "id" = "Sda4Ws41";
+            "file" = "Legendary Armory 1.5.3.jar";
+            "hash" = "sha512-9Y4oc4AjtiFbbujhn4o5GKXXSPTSU7MjNiSuoYLS3wFnNXHi4TKWZpwtvmWJI7nNP/CCRNLawANU6bSZNsmsVw==";
+        };
     in {
         "XLcfcubJ" = _XLcfcubJ;
         "xXDYppDh" = _xXDYppDh;
@@ -188,7 +208,11 @@ let
         "H9hsowHd" = _H9hsowHd;
         "TMJoV3Lg" = _TMJoV3Lg;
         "xB2ufoFF" = _xB2ufoFF;
-        "forge-1.20.1" = _xB2ufoFF;
+        "z9iZdc7y" = _z9iZdc7y;
+        "lRidcpIG" = _lRidcpIG;
+        "gSjrudSW" = _gSjrudSW;
+        "Sda4Ws41" = _Sda4Ws41;
+        "forge-1.20.1" = _Sda4Ws41;
         "pkg-1.0.0" = _XLcfcubJ;
         "pkg-1.0.4" = _xXDYppDh;
         "pkg-1.0.5" = _66NTstMW;
@@ -220,7 +244,11 @@ let
         "pkg-1.4.11" = _H9hsowHd;
         "pkg-1.4.12" = _TMJoV3Lg;
         "pkg-1.4.13" = _xB2ufoFF;
-        "default" = _xB2ufoFF;
+        "pkg-1.5.0" = _z9iZdc7y;
+        "pkg-1.5.1" = _lRidcpIG;
+        "pkg-1.5.2" = _gSjrudSW;
+        "pkg-1.5.3" = _Sda4Ws41;
+        "default" = _Sda4Ws41;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legendary-armory";

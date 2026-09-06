@@ -56,6 +56,11 @@ let
             "file" = "WynnIris-1.1.1+1.21.11-fabric.jar";
             "hash" = "sha512-oHosrupDA5IQ2AjG+qtCAgBStbPuR1xBHuiszDeUgU3mb7+5faK3UqOHboplgkFXpEF+cHi/G6dtLAfDMVU1DA==";
         };
+        _HsScmPju = {
+            "id" = "HsScmPju";
+            "file" = "WynnIris-1.2.0+1.21.11-fabric.jar";
+            "hash" = "sha512-ZtIhIqxbGfYGP8RLG6s3xDMe3TgYkd4iDXgD7uzKriUaUtqU55jDaLMwdKGrxhBpdsIfrZFapX9aLpD+luo+nQ==";
+        };
     in {
         "eyksGYsc" = _eyksGYsc;
         "zBPPZQL8" = _zBPPZQL8;
@@ -68,7 +73,8 @@ let
         "otpv7e9R" = _otpv7e9R;
         "LFPRBLFR" = _LFPRBLFR;
         "ECtiLNsb" = _ECtiLNsb;
-        "fabric-1.21.11" = _ECtiLNsb;
+        "HsScmPju" = _HsScmPju;
+        "fabric-1.21.11" = _HsScmPju;
         "pkg-1.0.0+1.21.11-fabric" = _eyksGYsc;
         "pkg-1.0.1+1.21.11-fabric" = _zBPPZQL8;
         "pkg-1.0.2+1.21.11-fabric" = _rsk34Jw2;
@@ -80,7 +86,8 @@ let
         "pkg-1.0.8+1.21.11-fabric" = _otpv7e9R;
         "pkg-1.1.0+1.21.11-fabric" = _LFPRBLFR;
         "pkg-1.1.1+1.21.11-fabric" = _ECtiLNsb;
-        "default" = _ECtiLNsb;
+        "pkg-1.2.0+1.21.11-fabric" = _HsScmPju;
+        "default" = _HsScmPju;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wynniris";

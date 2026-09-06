@@ -206,6 +206,11 @@ let
             "file" = "wooden_tools_are_dumb--mc26.2--neoforge--1.07.0.jar";
             "hash" = "sha512-o5HylbYxDJSkmoq5O1hMHr1J8bxu5ZP2DgYR0J+J79e+yc7Oso6jpp/feYQeAtpllDoF4OaHoK2ahCTNbl68nQ==";
         };
+        _RzyHFahn = {
+            "id" = "RzyHFahn";
+            "file" = "wooden_tools_are_dumb--mc26.2--neoforge--1.07.1.jar";
+            "hash" = "sha512-zxPZWs5UuUPkVoCHOl+0KHAn2YFm8/5OFG8ECIQbRDOBKxezsVcShjXpMRvUTdJ7SgmRhNd5xz2dH3VoKyZ7Pg==";
+        };
     in {
         "bncR5G1X" = _bncR5G1X;
         "leJdbab3" = _leJdbab3;
@@ -248,6 +253,7 @@ let
         "NZbFKUeD" = _NZbFKUeD;
         "bbqffdWn" = _bbqffdWn;
         "p1JdDDHP" = _p1JdDDHP;
+        "RzyHFahn" = _RzyHFahn;
         "forge-1.18.2" = _6Wqdf14z;
         "forge-1.19.3" = _Nz0rEUUw;
         "forge-1.20.1" = _VpZG5KwZ;
@@ -259,7 +265,7 @@ let
         "neoforge-1.21" = _NZbFKUeD;
         "neoforge-1.21.1" = _NZbFKUeD;
         "neoforge-26.1.2" = _bbqffdWn;
-        "neoforge-26.2" = _p1JdDDHP;
+        "neoforge-26.2" = _RzyHFahn;
         "pkg-1.00" = _Z5IVSXvB;
         "pkg-1.01" = _leJdbab3;
         "pkg-1.02" = _XINQnC6Z;
@@ -271,7 +277,7 @@ let
         "pkg-1.06.2" = _KYNZ9ZyZ;
         "pkg-1.06.3" = _GiULHdXo;
         "pkg-1.07" = _j6S3aoua;
-        "pkg-1.07.1" = _IFiwGAYK;
+        "pkg-1.07.1" = _RzyHFahn;
         "pkg-1.06.7" = _wSlHzy7x;
         "pkg-1.06.8" = _51BCLxVU;
         "pkg-1.06.9" = _6P4TXDcP;
@@ -283,7 +289,7 @@ let
         "pkg-1.07.5" = _VpZG5KwZ;
         "pkg-1.06.11" = _NZbFKUeD;
         "pkg-1.07.0" = _p1JdDDHP;
-        "default" = _p1JdDDHP;
+        "default" = _RzyHFahn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wooden-tools-are-dumb";

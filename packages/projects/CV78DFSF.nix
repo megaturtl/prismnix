@@ -36,6 +36,11 @@ let
             "file" = "chat-utils-1.11.0+26.2.jar";
             "hash" = "sha512-52BiCmAMKaiMaPuBXkdoxgvRn2yMbU0jc3spNxcfDmnGrg6ijDg7m8Gl0LC6h8TjK5ptoLOIY5r9Bq2g4z/cug==";
         };
+        _uyv1ZOQd = {
+            "id" = "uyv1ZOQd";
+            "file" = "chat-utils-1.12.0+26.2.jar";
+            "hash" = "sha512-ptTS0frP/c3pexlvcea5jc7v5PCm8fSi/yjKvr7exNuwL9V/XFBKN6iH07LRpqCA2ofZd6A0yx+0JDfAJzoAQQ==";
+        };
     in {
         "WGr6ZVI9" = _WGr6ZVI9;
         "iTo9u9XA" = _iTo9u9XA;
@@ -44,12 +49,13 @@ let
         "35iyYm3J" = _35iyYm3J;
         "L18A7IUQ" = _L18A7IUQ;
         "wGSV2CO0" = _wGSV2CO0;
+        "uyv1ZOQd" = _uyv1ZOQd;
         "fabric-1.19.4" = _WGr6ZVI9;
         "fabric-1.20.1" = _4UIQVVMs;
         "fabric-1.20" = _RFRI9sLR;
         "fabric-1.20.2" = _35iyYm3J;
         "fabric-1.20.4" = _L18A7IUQ;
-        "fabric-26.2" = _wGSV2CO0;
+        "fabric-26.2" = _uyv1ZOQd;
         "quilt-1.20.1" = _4UIQVVMs;
         "quilt-1.20.2" = _35iyYm3J;
         "quilt-1.20.4" = _L18A7IUQ;
@@ -60,7 +66,8 @@ let
         "pkg-1.10.2+1.20.2" = _35iyYm3J;
         "pkg-1.10.3+1.20.4" = _L18A7IUQ;
         "pkg-1.11.0+26.2" = _wGSV2CO0;
-        "default" = _wGSV2CO0;
+        "pkg-1.12.0+26.2" = _uyv1ZOQd;
+        "default" = _uyv1ZOQd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chatutils";

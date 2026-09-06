@@ -46,6 +46,11 @@ let
             "file" = "efprogressivediff-1.2.1-neoforge-1.21.1.jar";
             "hash" = "sha512-RCHiDqJuayZRzzar0VOJFFXbojiY398l2sJP1eVB11wEGaZtFiUfbtiq15Bl3fiC/84nepyasEeivgLkArlB1g==";
         };
+        _cNTfOspF = {
+            "id" = "cNTfOspF";
+            "file" = "efprogressivediff-1.2.2.jar";
+            "hash" = "sha512-cbkSx5Gb6An5DpYfgoTaaYnNdaXgBrxgyR8mZ92I5u2PzkgFVIaLaJHmICDHjmpQGl8GQXd6lJUpc2G+GJHn0Q==";
+        };
     in {
         "rb0410Ts" = _rb0410Ts;
         "enQD36oh" = _enQD36oh;
@@ -56,14 +61,16 @@ let
         "uD1rGoXp" = _uD1rGoXp;
         "AewNhbkY" = _AewNhbkY;
         "8riRPldS" = _8riRPldS;
+        "cNTfOspF" = _cNTfOspF;
         "forge-1.20.1" = _AewNhbkY;
-        "neoforge-1.21.1" = _8riRPldS;
+        "neoforge-1.21.1" = _cNTfOspF;
         "pkg-1.0.0" = _enQD36oh;
         "pkg-1.1.0" = _1tIWnCgL;
         "pkg-1.1.1" = _HG7XfmaJ;
         "pkg-1.2.0" = _uD1rGoXp;
         "pkg-1.2.1" = _8riRPldS;
-        "default" = _8riRPldS;
+        "pkg-1.2.2" = _cNTfOspF;
+        "default" = _cNTfOspF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "epic-fight-progressive-difficulty";

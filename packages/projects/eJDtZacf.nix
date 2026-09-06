@@ -26,12 +26,24 @@ let
             "file" = "dhmi-1.0.2.jar";
             "hash" = "sha512-02nnxzA3aA+TMuTbO7EMKnseD5J2dGpmDUzScxGpFXNYHVno0/u/cUIZDpjgPNawyMshApUkS8N4QZIRF+7Eiw==";
         };
+        _yekJHEBs = {
+            "id" = "yekJHEBs";
+            "file" = "dhmi-1.1.0.jar";
+            "hash" = "sha512-dPi7r9z6hH+5/ePO06cRU++en9wvdfP3v6baaEdRqK3mK9OUYEWpcJzUSk3XTg9gDMpR13G/QAo2ZvyAlNVfZQ==";
+        };
+        _AjND3QeK = {
+            "id" = "AjND3QeK";
+            "file" = "dhmi-1.1.0.jar";
+            "hash" = "sha512-m+ff3S2RGjyDSX2KTdidWE6dTOSSfNymkzgATHvt0ZPBtK7O04/6sloRIxiyU3WAn77KD/arkAUXl2W+3h9Ebw==";
+        };
     in {
         "9bHVj7xN" = _9bHVj7xN;
         "TjWJ3hUv" = _TjWJ3hUv;
         "TdWIIR0R" = _TdWIIR0R;
         "F7InDbTp" = _F7InDbTp;
         "Dr3Szswz" = _Dr3Szswz;
+        "yekJHEBs" = _yekJHEBs;
+        "AjND3QeK" = _AjND3QeK;
         "fabric-1.21.2" = _9bHVj7xN;
         "fabric-1.21.3" = _9bHVj7xN;
         "fabric-1.21.4" = _TjWJ3hUv;
@@ -42,14 +54,17 @@ let
         "fabric-1.21.9" = _TdWIIR0R;
         "fabric-1.21.10" = _TdWIIR0R;
         "fabric-1.21.11" = _TdWIIR0R;
-        "fabric-26.1" = _F7InDbTp;
-        "fabric-26.1.1" = _F7InDbTp;
-        "fabric-26.1.2" = _F7InDbTp;
-        "fabric-26.2" = _Dr3Szswz;
+        "fabric-26.1" = _yekJHEBs;
+        "fabric-26.1.1" = _yekJHEBs;
+        "fabric-26.1.2" = _yekJHEBs;
+        "fabric-26.2" = _yekJHEBs;
+        "fabric-26.3-pre-2" = _AjND3QeK;
         "pkg-1.0.0" = _9bHVj7xN;
         "pkg-1.0.1" = _TjWJ3hUv;
-        "pkg-1.0.2" = _Dr3Szswz;
-        "default" = _Dr3Szswz;
+        "pkg-1.0.2" = _F7InDbTp;
+        "pkg-1.0.3" = _Dr3Szswz;
+        "pkg-1.1.0" = _AjND3QeK;
+        "default" = _AjND3QeK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dont-hide-my-items";

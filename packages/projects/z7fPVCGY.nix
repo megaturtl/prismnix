@@ -16,22 +16,28 @@ let
             "file" = "roguelike_tower-1.20.1-1.20.6-1.1.jar";
             "hash" = "sha512-Pcz6SU6bQGdFBb/F8l2gkK7ayoJNEhQ4lT5w1bAzmV7w8GulHp+p/j2T8iOO9Ng059fY9dIhdcfOTt89ECxlng==";
         };
+        _NJD5i1b4 = {
+            "id" = "NJD5i1b4";
+            "file" = "roguelike_tower-1.20.1-1.20.6-1.2.jar";
+            "hash" = "sha512-nWS47cvsVVUN8ffbJzIN67nxLeB4blraCHClFAgwFzjYQDrgUFb5gpo8aVALutwOih6DDnMKyaG3QZKVOYUZCA==";
+        };
     in {
         "HuRbqP3G" = _HuRbqP3G;
         "W5zyz7On" = _W5zyz7On;
         "XdefyWQg" = _XdefyWQg;
-        "fabric-1.20.1" = _XdefyWQg;
-        "fabric-1.20.2" = _XdefyWQg;
-        "fabric-1.20.3" = _XdefyWQg;
-        "fabric-1.20.4" = _XdefyWQg;
-        "fabric-1.20.5" = _XdefyWQg;
-        "fabric-1.20.6" = _XdefyWQg;
-        "forge-1.20.1" = _XdefyWQg;
-        "forge-1.20.2" = _XdefyWQg;
-        "forge-1.20.3" = _XdefyWQg;
-        "forge-1.20.4" = _XdefyWQg;
-        "forge-1.20.5" = _XdefyWQg;
-        "forge-1.20.6" = _XdefyWQg;
+        "NJD5i1b4" = _NJD5i1b4;
+        "fabric-1.20.1" = _NJD5i1b4;
+        "fabric-1.20.2" = _NJD5i1b4;
+        "fabric-1.20.3" = _NJD5i1b4;
+        "fabric-1.20.4" = _NJD5i1b4;
+        "fabric-1.20.5" = _NJD5i1b4;
+        "fabric-1.20.6" = _NJD5i1b4;
+        "forge-1.20.1" = _NJD5i1b4;
+        "forge-1.20.2" = _NJD5i1b4;
+        "forge-1.20.3" = _NJD5i1b4;
+        "forge-1.20.4" = _NJD5i1b4;
+        "forge-1.20.5" = _NJD5i1b4;
+        "forge-1.20.6" = _NJD5i1b4;
         "datapack-1.20.1" = _W5zyz7On;
         "datapack-1.20.2" = _W5zyz7On;
         "datapack-1.20.3" = _W5zyz7On;
@@ -40,7 +46,8 @@ let
         "datapack-1.20.6" = _W5zyz7On;
         "pkg-1.0" = _W5zyz7On;
         "pkg-1.1" = _XdefyWQg;
-        "default" = _XdefyWQg;
+        "pkg-1.2" = _NJD5i1b4;
+        "default" = _NJD5i1b4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "roguelike-tower";

@@ -26,20 +26,27 @@ let
             "file" = "pmmo_farmers_compat-2.0.0.jar";
             "hash" = "sha512-qx3CGhWwSUiMoibrdqOH2X2qlfdNehljwwSUi8Mrh4XTwO7gKHdUjkzSMU1JGko0flpRlhdwQ7VKG3CoJmAc4Q==";
         };
+        _Id8AyFOC = {
+            "id" = "Id8AyFOC";
+            "file" = "pmmo_farmers_compat-2.1.0.jar";
+            "hash" = "sha512-IEoimYIstCdP1SlecxWUeLpSHeCSwY9CikgP42TecFk1BviG6xGRrADEHMKcXlzZpsSbm4kydio0EGDSuyDUIg==";
+        };
     in {
         "LMafxzHk" = _LMafxzHk;
         "RhxAkMRl" = _RhxAkMRl;
         "8woFltJp" = _8woFltJp;
         "HLlN8Wiz" = _HLlN8Wiz;
         "O5XP7boT" = _O5XP7boT;
-        "forge-1.20.1" = _O5XP7boT;
+        "Id8AyFOC" = _Id8AyFOC;
+        "forge-1.20.1" = _Id8AyFOC;
         "neoforge-1.21.1" = _HLlN8Wiz;
         "pkg-1.20.1-1.0.4" = _LMafxzHk;
         "pkg-1.21.1-1.0.1" = _RhxAkMRl;
         "pkg-1.21.1-1.1.1" = _8woFltJp;
         "pkg-1.21.1-1.2.2" = _HLlN8Wiz;
         "pkg-1.20.1-2.0.0" = _O5XP7boT;
-        "default" = _O5XP7boT;
+        "pkg-1.20.1-2.1.0" = _Id8AyFOC;
+        "default" = _Id8AyFOC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "project-mmo-farmers-delight";

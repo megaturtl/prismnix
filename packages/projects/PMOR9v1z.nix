@@ -66,6 +66,46 @@ let
             "file" = "ragdollified-1.20.1-0.7.0-BETA.jar";
             "hash" = "sha512-bpASdR2TRLK63LGp9Rm4cnvcH/oMfuwyKHl3VftYVOezMbA7ReTJzSLjxu3UoDYjDeWvdgk/449bxjwVPbZoIA==";
         };
+        _8y3YTbYJ = {
+            "id" = "8y3YTbYJ";
+            "file" = "ragdollified-1.20.1-0.8.0-BETA.jar";
+            "hash" = "sha512-88A7L6HfyaIjlxA58zt5AJomTt/jZF3GCDgaOtKgGy8smSFrEHAiuyWZnErm1U93wnkF0Ot79rcSMhLuTEm+hQ==";
+        };
+        _lYH0tSUe = {
+            "id" = "lYH0tSUe";
+            "file" = "ragdollified-1.20.1-0.9.0-BETA.jar";
+            "hash" = "sha512-0tPnLj+yuejbwHFg6R5zey7LttGWHvdf0uliHsPt0IrGqMpnDezui78s/64ayjJ2h+xFUa7qv0LtNnMqxkBUQw==";
+        };
+        _VsZg6guo = {
+            "id" = "VsZg6guo";
+            "file" = "ragdollified-1.20.1-0.9.1-BETA.jar";
+            "hash" = "sha512-PYCGGif6OXBB6s1C8SMIvxuRjbLGoygf1Gr5wGMHyVIxyK9AmPlfSm4j8SXoY8p3RZOBQ/qOdErK431yDgC6+Q==";
+        };
+        _o3yihBcQ = {
+            "id" = "o3yihBcQ";
+            "file" = "ragdollified-1.20.1-1.0.0-RELEASE.jar";
+            "hash" = "sha512-T0zzZGpqJwZdSJH71UagO7ZWDaFiUTGXugCezCIII1U8Q8Y0RTjhkDmlA2+bSB/RWq5uqFP7g+z1DgdY6h0qqQ==";
+        };
+        _3TvWF05P = {
+            "id" = "3TvWF05P";
+            "file" = "ragdollified-1.20.1-1.0.1-RELEASE.jar";
+            "hash" = "sha512-4FaZvrIXdscUNkJ11W6gtdIKKsdNQc7xP/1iGmw7NXbvN/jLbevEi4GAOYZs1wUSHR3NHLL1SwdnUuh9tER/FQ==";
+        };
+        _ciNze7sN = {
+            "id" = "ciNze7sN";
+            "file" = "ragdollified-1.21.1-1.0.0-RELEASE.jar";
+            "hash" = "sha512-gbMuvyvM8so9fyFwCcmPD+WRgxgZ3CiK2hoXPQOMCQ9MA3ZHBR4JISKkq/HsXs6p75dH7884pdjYNzcO1FgN3Q==";
+        };
+        _h0IUEVtX = {
+            "id" = "h0IUEVtX";
+            "file" = "ragdollified-26.2-1.0.0-RELEASE.jar";
+            "hash" = "sha512-j+Dz05GTduJbMJWjpN7jGriSbMDSktowUzf8HHHUG4cEQU6mQ1lrlpvhbTnqGy1FLHXR1y+bjeWuiQY/YlbsIQ==";
+        };
+        _x7on81Hz = {
+            "id" = "x7on81Hz";
+            "file" = "ragdollified-26.2-1.0.1-RELEASE.jar";
+            "hash" = "sha512-OFmvqCBeBtBfxgFU+XalCcfjyCRSrhIEWezevs327/mH05uSwHzJGL9g4XwPX4EkADYN5w0fGySgDaTssadojA==";
+        };
     in {
         "Jg0EVoP0" = _Jg0EVoP0;
         "nm2swmZ2" = _nm2swmZ2;
@@ -80,7 +120,17 @@ let
         "UNdidC9T" = _UNdidC9T;
         "QuMATiiq" = _QuMATiiq;
         "pxf1373R" = _pxf1373R;
-        "forge-1.20.1" = _pxf1373R;
+        "8y3YTbYJ" = _8y3YTbYJ;
+        "lYH0tSUe" = _lYH0tSUe;
+        "VsZg6guo" = _VsZg6guo;
+        "o3yihBcQ" = _o3yihBcQ;
+        "3TvWF05P" = _3TvWF05P;
+        "ciNze7sN" = _ciNze7sN;
+        "h0IUEVtX" = _h0IUEVtX;
+        "x7on81Hz" = _x7on81Hz;
+        "forge-1.20.1" = _3TvWF05P;
+        "neoforge-1.21.1" = _ciNze7sN;
+        "neoforge-26.2" = _x7on81Hz;
         "pkg-0.1.1-BETA" = _Jg0EVoP0;
         "pkg-0.1.2-BETA" = _nm2swmZ2;
         "pkg-0.1.3-BETA" = _nQjs5BSI;
@@ -94,7 +144,12 @@ let
         "pkg-0.5.5-BETA" = _UNdidC9T;
         "pkg-0.6.0-BETA" = _QuMATiiq;
         "pkg-0.7.0-BETA" = _pxf1373R;
-        "default" = _pxf1373R;
+        "pkg-0.8.0-BETA" = _8y3YTbYJ;
+        "pkg-0.9.0-BETA" = _lYH0tSUe;
+        "pkg-0.9.1-BETA" = _VsZg6guo;
+        "pkg-1.0.0-RELEASE" = _h0IUEVtX;
+        "pkg-1.0.1-RELEASE" = _x7on81Hz;
+        "default" = _x7on81Hz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ragdollified";

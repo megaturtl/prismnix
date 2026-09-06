@@ -111,6 +111,16 @@ let
             "file" = "SecretRoutes-1.0.0-beta4+26.1.2.jar";
             "hash" = "sha512-K1iSt0spA+xjLtAHUMr3yUaHCfkD/KEiKspnBnU4au33IDCkN9pb9o94B0j3bA7NtwwwqVeCSfVhsikpDDQEJw==";
         };
+        _w1CZYTnl = {
+            "id" = "w1CZYTnl";
+            "file" = "SecretRoutes-1.0.0+26.1.2.jar";
+            "hash" = "sha512-Gzff+cNjsfLkaXD7beqwoSQY8qse92/UfpZGLyy15Yq4Kq+d3WFMP91yyHhHhpGUCCPLbTRd4HB/IosDUzgR5A==";
+        };
+        _dhYl9Bh4 = {
+            "id" = "dhYl9Bh4";
+            "file" = "SecretRoutes-1.0.0+26.2.jar";
+            "hash" = "sha512-q3Bh0q9hZ7gWz9BHWNMvx5S5pRUyuJk5ZYeRUqAYIjl6alhg6CYczmBrUTa+mWerwVo2hDWCAuG98wfBu8+Wdg==";
+        };
     in {
         "UpsUbiIv" = _UpsUbiIv;
         "eXyn3XdW" = _eXyn3XdW;
@@ -134,12 +144,15 @@ let
         "X5e1w7o8" = _X5e1w7o8;
         "hCjidLfs" = _hCjidLfs;
         "aYCJTjte" = _aYCJTjte;
+        "w1CZYTnl" = _w1CZYTnl;
+        "dhYl9Bh4" = _dhYl9Bh4;
         "forge-1.8.9" = _lLIGFeUd;
         "fabric-1.21.10" = _QqQATUjO;
         "fabric-1.21.11" = _hCjidLfs;
         "fabric-26.1" = _aYCJTjte;
         "fabric-26.1.1" = _aYCJTjte;
-        "fabric-26.1.2" = _aYCJTjte;
+        "fabric-26.1.2" = _w1CZYTnl;
+        "fabric-26.2" = _dhYl9Bh4;
         "pkg-0.4.3" = _UpsUbiIv;
         "pkg-0.4.4" = _eXyn3XdW;
         "pkg-0.4.5" = _QinfsbC3;
@@ -160,7 +173,9 @@ let
         "pkg-1.0.0-beta2-1.21.11" = _X5e1w7o8;
         "pkg-1.0.0-beta3-1.21.11" = _hCjidLfs;
         "pkg-1.0.0-beta4+26.1.x" = _aYCJTjte;
-        "default" = _aYCJTjte;
+        "pkg-1.0.0+26.1.2" = _w1CZYTnl;
+        "pkg-1.0.0+26.2" = _dhYl9Bh4;
+        "default" = _dhYl9Bh4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "secret-routes-mod";

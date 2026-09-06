@@ -36,6 +36,11 @@ let
             "file" = "ungrateful-villagers-1.0.1+26.1-neoforge.jar";
             "hash" = "sha512-BGGNOjgQGRzp6DpCLsaDanMd9ota9bpWfe//ctD8qtpQdflpJL7gcVR4+cqdY0v4A33BUqq2Egw2SP0s3ht2+w==";
         };
+        _7FUXeje5 = {
+            "id" = "7FUXeje5";
+            "file" = "ungrateful-villagers-1.0.1+26.2-neoforge.jar";
+            "hash" = "sha512-BGGNOjgQGRzp6DpCLsaDanMd9ota9bpWfe//ctD8qtpQdflpJL7gcVR4+cqdY0v4A33BUqq2Egw2SP0s3ht2+w==";
+        };
     in {
         "YQ7VUG0B" = _YQ7VUG0B;
         "o9oA5wrc" = _o9oA5wrc;
@@ -44,6 +49,7 @@ let
         "kKEm2sJi" = _kKEm2sJi;
         "bGoZfEKJ" = _bGoZfEKJ;
         "cRKrlE0M" = _cRKrlE0M;
+        "7FUXeje5" = _7FUXeje5;
         "fabric-1.21" = _pa4zfqiA;
         "fabric-1.21.1" = _pa4zfqiA;
         "fabric-1.21.2" = _pa4zfqiA;
@@ -68,6 +74,7 @@ let
         "neoforge-26.1" = _cRKrlE0M;
         "neoforge-26.1.1" = _cRKrlE0M;
         "neoforge-26.1.2" = _cRKrlE0M;
+        "neoforge-26.2" = _7FUXeje5;
         "pkg-1.0.0+1.21.10" = _YQ7VUG0B;
         "pkg-1.0.0+1.20.6" = _o9oA5wrc;
         "pkg-1.0.1+1.21.10" = _DFqObyKO;
@@ -75,7 +82,8 @@ let
         "pkg-1.0.1+26.1" = _kKEm2sJi;
         "pkg-1.0.1+26.2" = _bGoZfEKJ;
         "pkg-1.0.1+26.1-neoforge" = _cRKrlE0M;
-        "default" = _cRKrlE0M;
+        "pkg-1.0.1+26.2-neoforge" = _7FUXeje5;
+        "default" = _7FUXeje5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ungrateful-villagers";

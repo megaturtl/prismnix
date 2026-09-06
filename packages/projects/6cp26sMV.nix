@@ -367,6 +367,7 @@ let
         "fabric-26.1" = _cwOS82g1;
         "fabric-26.1.1" = _cwOS82g1;
         "fabric-26.1.2" = _cwOS82g1;
+        "fabric-26.2" = _cwOS82g1;
         "neoforge-1.21" = _OlwOJLJc;
         "neoforge-1.21.1" = _rHgch8XW;
         "neoforge-1.21.2" = _OlwOJLJc;

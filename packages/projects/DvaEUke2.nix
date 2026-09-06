@@ -121,6 +121,31 @@ let
             "file" = "MCT-ImmersiveTechnology-1.20.1-2.1.0-b7105-release.jar";
             "hash" = "sha512-2/JLSX2DCnPArGp8ppU1xEbQaAa0KGMe3Y/fa7/HJqe5EK1NAWBJ0YAni7wTj2SyYVsl9+6BnVidzRi/XHk/aA==";
         };
+        _sw14AaWo = {
+            "id" = "sw14AaWo";
+            "file" = "MCT-ImmersiveTechnology-1.12.2-1.10.204-release.jar";
+            "hash" = "sha512-FEbvl78JkLyNWYEOWuA3TaonTXUqh2oAirTdrvNcI+cQBnJc7MDgChS0Gpx/2UyYMWC+qV8vYEx6GcV90wRERw==";
+        };
+        _dSqrc8ul = {
+            "id" = "dSqrc8ul";
+            "file" = "MCT-ImmersiveTechnology-1.20.1-2.1.0-b7110-release.jar";
+            "hash" = "sha512-vVxNd6e2gl2Xrp1lUdFCDYAMahtfuTYGA7Q6M4aj8QUeTl/CQXcOcgQFwRMkau2aYPETSBe6TelPF+rp2z/BTw==";
+        };
+        _X7hI47ZG = {
+            "id" = "X7hI47ZG";
+            "file" = "MCT-ImmersiveTechnology-1.12.2-1.10.206-release.jar";
+            "hash" = "sha512-w066sOtQ77BJqTuoOxBNvuqd8ALTSVrpCFvrt53LTLbsmDI6u9gyHpUBK6w7aIjHb4CyNEp+/lWF6X10+TjtOw==";
+        };
+        _46Lr3mbu = {
+            "id" = "46Lr3mbu";
+            "file" = "MCT-ImmersiveTechnology-1.20.1-2.1.0-b7356-release.jar";
+            "hash" = "sha512-qok8Xv+2zAnin81FIRmpCe7u3xNld7dTRu5kTWs2U4eOkFBje2eX74AAPuaCxFkeuTRcOF1umnxVof5ZJxv0cg==";
+        };
+        _M9BkHYol = {
+            "id" = "M9BkHYol";
+            "file" = "MCT-ImmersiveTechnology-1.12.2-1.11.209-release.jar";
+            "hash" = "sha512-DBAT48QYAacKhE0LCMjHQDlKbT0SEIQ+FGm9BlgnoGKne4JGVQSz2AuYKRKiYwLYmwl3Ud4n4upvhQQRoqzMdg==";
+        };
     in {
         "tXe5H98I" = _tXe5H98I;
         "kgarTyrA" = _kgarTyrA;
@@ -146,8 +171,13 @@ let
         "WcgR2aGX" = _WcgR2aGX;
         "t9m2MNC6" = _t9m2MNC6;
         "XBVVCrnE" = _XBVVCrnE;
-        "forge-1.12.2" = _t9m2MNC6;
-        "forge-1.20.1" = _XBVVCrnE;
+        "sw14AaWo" = _sw14AaWo;
+        "dSqrc8ul" = _dSqrc8ul;
+        "X7hI47ZG" = _X7hI47ZG;
+        "46Lr3mbu" = _46Lr3mbu;
+        "M9BkHYol" = _M9BkHYol;
+        "forge-1.12.2" = _M9BkHYol;
+        "forge-1.20.1" = _46Lr3mbu;
         "pkg-1.8.94-release" = _tXe5H98I;
         "pkg-1.9.102-release" = _kgarTyrA;
         "pkg-2.0.1-b3911-beta" = _gOHmYHjA;
@@ -172,7 +202,12 @@ let
         "pkg-1.10.201-release" = _WcgR2aGX;
         "pkg-1.10.203-release" = _t9m2MNC6;
         "pkg-2.1.0-b7105-release" = _XBVVCrnE;
-        "default" = _XBVVCrnE;
+        "pkg-1.10.204-release" = _sw14AaWo;
+        "pkg-2.1.0-b7110-release" = _dSqrc8ul;
+        "pkg-1.10.206-release" = _X7hI47ZG;
+        "pkg-2.1.0-b7356-release" = _46Lr3mbu;
+        "pkg-1.11.209-release" = _M9BkHYol;
+        "default" = _M9BkHYol;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mct-immersive-technology";

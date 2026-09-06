@@ -156,6 +156,11 @@ let
             "file" = "oneenoughitem-neoforge-1.21.1-1.0.8.jar";
             "hash" = "sha512-z7RZskrWVkaywav9PtI9kuFMabwblzzRZNMcy8KGFhEiCzI75N+v0UMI5Eju19wloHA+CmeToDMlAy7oAvUqgA==";
         };
+        _LZ2tVtl5 = {
+            "id" = "LZ2tVtl5";
+            "file" = "OneEnoughItem-neoforge-26.1.2-1.0.0.jar";
+            "hash" = "sha512-NoUxhxPa0U4kMEG+aXDXpqyho2rnMGYPZFKApZe8nZ17Nz+jc7k0AbgKB1mZPyp+xZkswHtVapokM4O+RO27ag==";
+        };
     in {
         "zY8Tw7ov" = _zY8Tw7ov;
         "S2M9mHf1" = _S2M9mHf1;
@@ -188,6 +193,7 @@ let
         "AoiB5dwp" = _AoiB5dwp;
         "Jg3hMe9A" = _Jg3hMe9A;
         "1gXNmHrU" = _1gXNmHrU;
+        "LZ2tVtl5" = _LZ2tVtl5;
         "forge-1.20" = _i1LvRfq4;
         "forge-1.20.1" = _Jg3hMe9A;
         "forge-1.20.2" = _i1LvRfq4;
@@ -215,6 +221,7 @@ let
         "fabric-1.21.1" = _bkMWoCI4;
         "fabric-1.21" = _bkMWoCI4;
         "neoforge-1.21.1" = _1gXNmHrU;
+        "neoforge-26.1.2" = _LZ2tVtl5;
         "pkg-1.0.1" = _WOz4BhDT;
         "pkg-1.0.2" = _bkMWoCI4;
         "pkg-1.0.3" = _w7CQaETr;
@@ -233,7 +240,8 @@ let
         "pkg-1.0.7" = _aNyweIud;
         "pkg-1.0.7-hotfix" = _AoiB5dwp;
         "pkg-1.0.8" = _1gXNmHrU;
-        "default" = _1gXNmHrU;
+        "pkg-1.0.0" = _LZ2tVtl5;
+        "default" = _LZ2tVtl5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "one-enough-item";

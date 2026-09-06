@@ -111,6 +111,11 @@ let
             "file" = "heroes_of_envell-1.5.1 Beta-neoforge-1.21.8.jar";
             "hash" = "sha512-Vmzf/gp4RsWtYFuxrvD3Q6SMOKTXWXhIUGAbmf6xI/F5dfW5ldOsP05TbnB8Zupw5zyiCNUamxGPQIlilPZzew==";
         };
+        _hjSc5tfK = {
+            "id" = "hjSc5tfK";
+            "file" = "heroes_of_envell-1.6 Beta-neoforge-1.21.8.jar";
+            "hash" = "sha512-ngpBfoCKXUzbgPjkd9dpKlEPBFhIwXRyRfuQzXsGZXIXr8sBpe4zS5sMoqrWYMajLxvZCXBMl1MgKdTEUqH/jg==";
+        };
     in {
         "r9ww6Mgp" = _r9ww6Mgp;
         "C2AZw2ru" = _C2AZw2ru;
@@ -134,10 +139,11 @@ let
         "L7MrLa85" = _L7MrLa85;
         "L5q6Sjia" = _L5q6Sjia;
         "EB1fF3Ss" = _EB1fF3Ss;
+        "hjSc5tfK" = _hjSc5tfK;
         "forge-1.20.1" = _8d3Zt51N;
-        "neoforge-1.21.8" = _EB1fF3Ss;
+        "neoforge-1.21.8" = _hjSc5tfK;
         "pkg-1.5" = _L5q6Sjia;
-        "pkg-1.6" = _C2AZw2ru;
+        "pkg-1.6" = _hjSc5tfK;
         "pkg-1.6.1" = _rdk71gfC;
         "pkg-1.7" = _nj0ZjSlp;
         "pkg-1.7.1" = _wTUvtKzD;
@@ -157,7 +163,7 @@ let
         "pkg-1.3" = _BHAR4sof;
         "pkg-1.4.2" = _L7MrLa85;
         "pkg-1.5.1" = _EB1fF3Ss;
-        "default" = _EB1fF3Ss;
+        "default" = _hjSc5tfK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "heroes-of-envell";

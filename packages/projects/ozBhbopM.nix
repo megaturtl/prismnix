@@ -41,6 +41,11 @@ let
             "file" = "theemporium-FossilSetCompletion-forge-1.20.1.jar";
             "hash" = "sha512-KqKHMJvNHA87ILts8KdL7k/UEhPMhzcn2xptoxHv192sSHQRO5uxwaymssvdLzwNz4Buy55wghsNETta1TKHCA==";
         };
+        _pI4Oqujm = {
+            "id" = "pI4Oqujm";
+            "file" = "theemporium-lunarobservatoryset-forge-1.20.1.jar";
+            "hash" = "sha512-3/++f5c82qkFag3OA1kwQ+SVpxctMlFlPuXI4SwUnQfMwss5ZoU9BApyrTGvD0B29EUea818eBehGXMiJGy73Q==";
+        };
     in {
         "KfLLkaWJ" = _KfLLkaWJ;
         "8N3uwggm" = _8N3uwggm;
@@ -50,9 +55,10 @@ let
         "usraV6N8" = _usraV6N8;
         "iSHBkXfM" = _iSHBkXfM;
         "tkJpFley" = _tkJpFley;
+        "pI4Oqujm" = _pI4Oqujm;
         "forge-1.16.5" = _KfLLkaWJ;
         "forge-1.18.2" = _8N3uwggm;
-        "forge-1.20.1" = _tkJpFley;
+        "forge-1.20.1" = _pI4Oqujm;
         "pkg-1.0.0" = _8N3uwggm;
         "pkg-2" = _jwHZCtYI;
         "pkg-2.5" = _RT7XuiNt;
@@ -60,7 +66,8 @@ let
         "pkg-2.7" = _usraV6N8;
         "pkg-2.8" = _iSHBkXfM;
         "pkg-2.9" = _tkJpFley;
-        "default" = _tkJpFley;
+        "pkg-3.0" = _pI4Oqujm;
+        "default" = _pI4Oqujm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "theemporium";

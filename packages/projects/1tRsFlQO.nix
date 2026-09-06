@@ -206,6 +206,21 @@ let
             "file" = "modernbetaforge-1.12.2-1.9.5.1.jar";
             "hash" = "sha512-64sBCvtBl5S3hUaH3l5sejg9xYF76cwIKOIyYfTZ4Rl69bJBdS0rRQmTYFSpx9T7VJQvzDQLnlWUuyQyxa6N1Q==";
         };
+        _1KVJhhZC = {
+            "id" = "1KVJhhZC";
+            "file" = "modernbetaforge-1.12.2-1.9.6.0.jar";
+            "hash" = "sha512-ZHBSQiY9diyErxe5NDoHVO0hXbjawicXxm/eocVKyBAcukw2lEqmSUXCSh+lGmT6ftQ4o8VX9qCjluDvbw6yTQ==";
+        };
+        _n11JZwk5 = {
+            "id" = "n11JZwk5";
+            "file" = "modernbetaforge-1.12.2-1.9.7.0.jar";
+            "hash" = "sha512-Ce0KLg2XBTIkp0qTi1YL9KljceU/RRGtVm2VSeKZR/fqRBLB6bZaCGOo4vrEQFUAQB1OSk7qiobpR6Bycxnsuw==";
+        };
+        _jWxnCyqb = {
+            "id" = "jWxnCyqb";
+            "file" = "modernbetaforge-1.12.2-1.9.7.1.jar";
+            "hash" = "sha512-bMpI4atUw1noIgmDfPPwxC0YZ7f0HJ8nUDYag0DlW3AEMhnwbhgm4mu/uq1AVV9cwCpnESBm734stMNWkG+YdQ==";
+        };
     in {
         "s6A5reOM" = _s6A5reOM;
         "vMadCkWe" = _vMadCkWe;
@@ -248,7 +263,10 @@ let
         "GfGgDVSW" = _GfGgDVSW;
         "hxfsmUU5" = _hxfsmUU5;
         "6Zy8EkoX" = _6Zy8EkoX;
-        "forge-1.12.2" = _6Zy8EkoX;
+        "1KVJhhZC" = _1KVJhhZC;
+        "n11JZwk5" = _n11JZwk5;
+        "jWxnCyqb" = _jWxnCyqb;
+        "forge-1.12.2" = _jWxnCyqb;
         "pkg-1.12.2-1.3.2.0" = _s6A5reOM;
         "pkg-1.12.2-1.3.3.0" = _vMadCkWe;
         "pkg-1.12.2-1.4.0.0" = _4zEASrbW;
@@ -290,7 +308,10 @@ let
         "pkg-1.12.2-1.9.4.0" = _GfGgDVSW;
         "pkg-1.12.2-1.9.5.0" = _hxfsmUU5;
         "pkg-1.12.2-1.9.5.1" = _6Zy8EkoX;
-        "default" = _6Zy8EkoX;
+        "pkg-1.12.2-1.9.6.0" = _1KVJhhZC;
+        "pkg-1.12.2-1.9.7.0" = _n11JZwk5;
+        "pkg-1.12.2-1.9.7.1" = _jWxnCyqb;
+        "default" = _jWxnCyqb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modern-beta-forge";

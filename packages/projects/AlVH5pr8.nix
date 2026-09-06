@@ -86,6 +86,16 @@ let
             "file" = "treephysics-fabric-1.21.1-2.3.jar";
             "hash" = "sha512-bTVJVLQ9fNHgqeP9EWX04qRrynEe1x897y6fXl5QIejWmVT7nff/1s5HlSfho8dwHvhUkfdtIpcy1JQ0ALH0Rw==";
         };
+        _nRQrvQIW = {
+            "id" = "nRQrvQIW";
+            "file" = "treephysics-neoforge-1.21.1-2.4.jar";
+            "hash" = "sha512-Wv79o8yRDwKwmbMjYLx0LxLvOBbBTiZGccgHe/ZxWcUjn2awqt8snlO5FjkKm4uveRqnZmjOQWUTJX9QqaQ0eQ==";
+        };
+        _Syw7tuLN = {
+            "id" = "Syw7tuLN";
+            "file" = "treephysics-fabric-1.21.1-2.4.jar";
+            "hash" = "sha512-8W+2NJbOPBOmXVgHxbBRyXFTJMdnvwcKR5SRZyMCTnj2F9mx0fSFuKK9k6PK+ptg4aMERNdbz/WTUW+pvfP6bA==";
+        };
     in {
         "EWFnytON" = _EWFnytON;
         "j1Yxs7Ml" = _j1Yxs7Ml;
@@ -104,8 +114,10 @@ let
         "dbuv7qxG" = _dbuv7qxG;
         "A8FaAOyK" = _A8FaAOyK;
         "WhWysF6Y" = _WhWysF6Y;
-        "neoforge-1.21.1" = _A8FaAOyK;
-        "fabric-1.21.1" = _WhWysF6Y;
+        "nRQrvQIW" = _nRQrvQIW;
+        "Syw7tuLN" = _Syw7tuLN;
+        "neoforge-1.21.1" = _nRQrvQIW;
+        "fabric-1.21.1" = _Syw7tuLN;
         "pkg-1.0.0" = _EWFnytON;
         "pkg-1.1" = _j1Yxs7Ml;
         "pkg-1.2" = _l66RglR4;
@@ -123,7 +135,9 @@ let
         "pkg-fabric-2.2" = _dbuv7qxG;
         "pkg-neoforge-2.3" = _A8FaAOyK;
         "pkg-fabric-2.3" = _WhWysF6Y;
-        "default" = _WhWysF6Y;
+        "pkg-neoforge-2.4" = _nRQrvQIW;
+        "pkg-fabric-2.4" = _Syw7tuLN;
+        "default" = _Syw7tuLN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tree-physics";

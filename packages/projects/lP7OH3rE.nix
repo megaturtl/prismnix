@@ -11,9 +11,15 @@ let
             "file" = "Aimz - Sniper Crosshair.zip";
             "hash" = "sha512-FGzJrTU8cB4NZ4G04xHV3J0AckuyqGaqXtQSB8teJshd+irMZF3tx2z7D9Mec9kStSbw3PXdznfPfSN55BdS8A==";
         };
+        _dFP2JrCX = {
+            "id" = "dFP2JrCX";
+            "file" = "Aimz - Sniper Crosshair.zip";
+            "hash" = "sha512-2DiRpsA1bLTiTwSwOew12TXoj9EEZZcwFkLlAGGCcLHUEpI4wwRe+EKF/7My4ObN9KnROEbm5ok/ToHFl0ExQw==";
+        };
     in {
         "CH9DyuAv" = _CH9DyuAv;
         "rnSsB35p" = _rnSsB35p;
+        "dFP2JrCX" = _dFP2JrCX;
         "minecraft-1.16.5" = _CH9DyuAv;
         "minecraft-1.17" = _CH9DyuAv;
         "minecraft-1.17.1" = _CH9DyuAv;
@@ -31,9 +37,14 @@ let
         "minecraft-1.20.3" = _rnSsB35p;
         "minecraft-1.20.4" = _rnSsB35p;
         "minecraft-1.20.5" = _rnSsB35p;
+        "minecraft-26.1" = _dFP2JrCX;
+        "minecraft-26.1.1" = _dFP2JrCX;
+        "minecraft-26.1.2" = _dFP2JrCX;
+        "minecraft-26.2" = _dFP2JrCX;
         "pkg-1.0.0" = _CH9DyuAv;
         "pkg-1.0.1" = _rnSsB35p;
-        "default" = _rnSsB35p;
+        "pkg-1.0.2" = _dFP2JrCX;
+        "default" = _dFP2JrCX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aimz-sniper-crosshair";

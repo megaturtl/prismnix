@@ -191,6 +191,21 @@ let
             "file" = "grind-enchantments-4.1.0+26.1.2.jar";
             "hash" = "sha512-2zyFHIunwt+0lS9CvHM/0qLpscJfMdNrY6ci8oTe/0OFgu6DnwyfokfK+xyU2Ta+LK2bqtFTgxyh8s45nzpnbw==";
         };
+        _NfFZ7wG2 = {
+            "id" = "NfFZ7wG2";
+            "file" = "grind-enchantments-4.2.0+26.1.2.jar";
+            "hash" = "sha512-xK1z89IMUGdWNgWsxDyeIcFHwjh46ezq2vafAk173ombXij3RIW+AH0r2GxTIRwYy5Qw0Fqh+4FCHKrHvIgpVg==";
+        };
+        _nGR6wt9K = {
+            "id" = "nGR6wt9K";
+            "file" = "grind-enchantments-4.2.0+26.2.jar";
+            "hash" = "sha512-amSd3Xfa9Q1A1/vKnRZDscSuUDgsbl11j0X01qlZEyywlAJNNmXcoh+2M6BfU0ZJ1XzP+p2V1h1UhuywAt50ag==";
+        };
+        _Iu0pZ1CO = {
+            "id" = "Iu0pZ1CO";
+            "file" = "grind-enchantments-4.2.1+26.1.2.jar";
+            "hash" = "sha512-6cNSdopEhzIBj+dpqiNXsX1nbetRfB99KOJgNFSa/VUPEX+JHPb8vlm4kVHvcgSmAUoM8bAQMx+pdjlejXvRGg==";
+        };
     in {
         "lIovN1Qp" = _lIovN1Qp;
         "z4FBfPGx" = _z4FBfPGx;
@@ -230,6 +245,9 @@ let
         "eEsnc86t" = _eEsnc86t;
         "XX0LqtxX" = _XX0LqtxX;
         "mf3SB5iV" = _mf3SB5iV;
+        "NfFZ7wG2" = _NfFZ7wG2;
+        "nGR6wt9K" = _nGR6wt9K;
+        "Iu0pZ1CO" = _Iu0pZ1CO;
         "fabric-1.16.3" = _lIovN1Qp;
         "fabric-1.17" = _TzX5htHC;
         "fabric-1.17.1" = _eDOIGDH2;
@@ -288,8 +306,8 @@ let
         "fabric-1.21.11" = _XX0LqtxX;
         "fabric-26.1" = _mf3SB5iV;
         "fabric-26.1.1" = _mf3SB5iV;
-        "fabric-26.1.2" = _mf3SB5iV;
-        "fabric-26.2" = _mf3SB5iV;
+        "fabric-26.1.2" = _Iu0pZ1CO;
+        "fabric-26.2" = _Iu0pZ1CO;
         "neoforge-1.21.1" = _jUOOQMmy;
         "pkg-v1.1.3" = _lIovN1Qp;
         "pkg-1.2.1+1.17" = _z4FBfPGx;
@@ -329,7 +347,10 @@ let
         "pkg-4.1.0+1.21.10" = _eEsnc86t;
         "pkg-4.1.0+1.21.11-pre2" = _XX0LqtxX;
         "pkg-4.1.0+26.1.2" = _mf3SB5iV;
-        "default" = _mf3SB5iV;
+        "pkg-4.2.0+26.1.2" = _NfFZ7wG2;
+        "pkg-4.2.0+26.2" = _nGR6wt9K;
+        "pkg-4.2.1+26.1.2" = _Iu0pZ1CO;
+        "default" = _Iu0pZ1CO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "grind-enchantments";

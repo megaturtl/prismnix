@@ -146,6 +146,16 @@ let
             "file" = "rbrctai-fabric-1.21.1-0.15.3-beta.jar";
             "hash" = "sha512-n7AiK7HijW2jxR24FQg0UuriC7Y/Ezz6HVWaVA5SNV7u4zpXCoOcMwww+0Ff0gm+lNYw+tjiBotkAkC0/4bD1g==";
         };
+        _JbopGqXw = {
+            "id" = "JbopGqXw";
+            "file" = "rbrctai-neoforge-1.21.1-0.15.4-beta.jar";
+            "hash" = "sha512-F7x6iS4ouResNO1lVGIn2PwcHv0fco9CsjId3cADzJwT0SPfTXk9ennCA0/bOeKtkI9G33/c7Jal3KxF0CggEw==";
+        };
+        _ezprWvW7 = {
+            "id" = "ezprWvW7";
+            "file" = "rbrctai-fabric-1.21.1-0.15.4-beta.jar";
+            "hash" = "sha512-otjLRo/YBHGWBTCtmehXJyPt3OhAn35DskU3XiFqrWe7h1eXANdTtdlblYMYSq/s9i3gz8Ljm0qDU3NbCPQ0Nw==";
+        };
     in {
         "qR4xvHez" = _qR4xvHez;
         "XojEx8GM" = _XojEx8GM;
@@ -176,8 +186,10 @@ let
         "dQoJoxfM" = _dQoJoxfM;
         "D5b4Ml5S" = _D5b4Ml5S;
         "75X3BE96" = _75X3BE96;
-        "fabric-1.21.1" = _75X3BE96;
-        "neoforge-1.21.1" = _D5b4Ml5S;
+        "JbopGqXw" = _JbopGqXw;
+        "ezprWvW7" = _ezprWvW7;
+        "fabric-1.21.1" = _ezprWvW7;
+        "neoforge-1.21.1" = _JbopGqXw;
         "pkg-0.13.8-beta" = _gG4OPI9i;
         "pkg-0.13.9-beta" = _cwfI02Jw;
         "pkg-0.14.1-beta" = _1JZqSp18;
@@ -192,7 +204,8 @@ let
         "pkg-0.15.1-beta" = _s4mEp0xu;
         "pkg-0.15.2-beta" = _dQoJoxfM;
         "pkg-0.15.3-beta" = _75X3BE96;
-        "default" = _75X3BE96;
+        "pkg-0.15.4-beta" = _ezprWvW7;
+        "default" = _ezprWvW7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-recobbled-(advanced-trainer-ai)";

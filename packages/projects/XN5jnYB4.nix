@@ -861,6 +861,61 @@ let
             "file" = "angelica-2.1.59.jar";
             "hash" = "sha512-RZ3QgksZmWYtXC2Dm+Gh2NMBRz9xFASKy5PptI8PXcTHC9rCAp6XYuH0kxvuvjqmD0yoD486uP/0HqqzQ/7p3Q==";
         };
+        _QtAbAtG4 = {
+            "id" = "QtAbAtG4";
+            "file" = "angelica-2.1.60.jar";
+            "hash" = "sha512-tnaN+J2MZCoiEigv/LEB9AqFSVtBp0rLazUtY5orGy/gqyTEmspsmM9B7Pp9SbO4wIRTsHlWJPdIxtTc1uNaCA==";
+        };
+        _ewRJhAON = {
+            "id" = "ewRJhAON";
+            "file" = "angelica-2.1.61.jar";
+            "hash" = "sha512-dpDGFQFS6vm9D/nj/70IfiYFltKj+8RjkTK5neP0UU7EkzOyeYri98UTgK80ZmO9jpxrHX3Q2FqmLUl2gG06ig==";
+        };
+        _dxpODrlC = {
+            "id" = "dxpODrlC";
+            "file" = "angelica-2.2.3.jar";
+            "hash" = "sha512-5kCRQ2+RWls8zsBvJruGz5JG9Dc2UrQnZOZj4VYuOyv42WlEbDNaml/b1WVRbhCFZXBNRnt6KKm5CmdvKiknuw==";
+        };
+        _rhrbWUp1 = {
+            "id" = "rhrbWUp1";
+            "file" = "angelica-2.2.4.jar";
+            "hash" = "sha512-HsebVvis+dZUuw3+ZczlZ+DOHpdgp5FRMyjrE6tOjPny/kjBF8TPTWOC+8eRE5LaPcLEk8re+PzM27H8lga8Uw==";
+        };
+        _mvQZH8eZ = {
+            "id" = "mvQZH8eZ";
+            "file" = "angelica-2.2.5.jar";
+            "hash" = "sha512-IvXiE94MJWN5rkVktoPLuB5NKZNWfoZ6o6IkFwRoD0O2pC6/6nO2hqCa2oSW8m8LjeJorGHbvh1ROJf2mH9PrA==";
+        };
+        _QLnXSZrk = {
+            "id" = "QLnXSZrk";
+            "file" = "angelica-2.2.6.jar";
+            "hash" = "sha512-Q0XSxxLbHWg7lMzm/fcesRKJJ7wS6dbJdyAjJsKJy51x+EEb+Yb9xWUnZamcHNwiQk5zOXSCv6k1tMz7ANNmQQ==";
+        };
+        _EJy02C9o = {
+            "id" = "EJy02C9o";
+            "file" = "angelica-2.2.7.jar";
+            "hash" = "sha512-IkWHYYiK8uPZp/K2JcQfIC5l6Gk6CrCdkCd1r93OHLz/YrDDc/DggEmBqiYSG10rB+6bvi/l/jv9dls5E0TO1A==";
+        };
+        _hHwYZwek = {
+            "id" = "hHwYZwek";
+            "file" = "angelica-2.2.8.jar";
+            "hash" = "sha512-lYGTM8Vx69GD8ZjpDYRUa/N3XFQsYPja6wkyHcpCkFzOHtP4An2JW000NzBQ7VnDMBjrAYvQRqgBQIaNYGcBAA==";
+        };
+        _HzRC7Tyb = {
+            "id" = "HzRC7Tyb";
+            "file" = "angelica-2.2.9.jar";
+            "hash" = "sha512-uyO6HMe2iSFu5RvX9cCd3oClh4C//ONDbVce5HIKanDvoK4CSlggFdsR9ZICI4UOO58J2F2vcRm5xrj9DYhNOA==";
+        };
+        _RIO1ftzB = {
+            "id" = "RIO1ftzB";
+            "file" = "angelica-2.2.10.jar";
+            "hash" = "sha512-BB4wx0IozNVwQqqIQbB5Zst34WDZl0GPWIWPRzZ4X6SOx4fbntbsnZCsbAqoMGqfMy+0wwSLi9gSuX3rWc2Qmg==";
+        };
+        _ee2f9ekw = {
+            "id" = "ee2f9ekw";
+            "file" = "angelica-2.2.11.jar";
+            "hash" = "sha512-LivGBOx/bOeHNwG7bzxHiP1+2HEJwJ+YogYE0CL24dnsD4wD+J98RIT2WTF7eibEO6jV48ZIsn4UWMeHZApafw==";
+        };
     in {
         "GRmV423v" = _GRmV423v;
         "YkDiZW8D" = _YkDiZW8D;
@@ -1034,7 +1089,18 @@ let
         "SUjMLWk7" = _SUjMLWk7;
         "J4WM1py5" = _J4WM1py5;
         "LHI6Re9n" = _LHI6Re9n;
-        "forge-1.7.10" = _LHI6Re9n;
+        "QtAbAtG4" = _QtAbAtG4;
+        "ewRJhAON" = _ewRJhAON;
+        "dxpODrlC" = _dxpODrlC;
+        "rhrbWUp1" = _rhrbWUp1;
+        "mvQZH8eZ" = _mvQZH8eZ;
+        "QLnXSZrk" = _QLnXSZrk;
+        "EJy02C9o" = _EJy02C9o;
+        "hHwYZwek" = _hHwYZwek;
+        "HzRC7Tyb" = _HzRC7Tyb;
+        "RIO1ftzB" = _RIO1ftzB;
+        "ee2f9ekw" = _ee2f9ekw;
+        "forge-1.7.10" = _ee2f9ekw;
         "pkg-1.0.0-alpha35" = _GRmV423v;
         "pkg-1.0.0-alpha36a" = _YkDiZW8D;
         "pkg-1.0.0-alpha37" = _jsoYE0Si;
@@ -1207,7 +1273,18 @@ let
         "pkg-2.1.57" = _SUjMLWk7;
         "pkg-2.1.58" = _J4WM1py5;
         "pkg-2.1.59" = _LHI6Re9n;
-        "default" = _LHI6Re9n;
+        "pkg-2.1.60" = _QtAbAtG4;
+        "pkg-2.1.61" = _ewRJhAON;
+        "pkg-2.2.3" = _dxpODrlC;
+        "pkg-2.2.4" = _rhrbWUp1;
+        "pkg-2.2.5" = _mvQZH8eZ;
+        "pkg-2.2.6" = _QLnXSZrk;
+        "pkg-2.2.7" = _EJy02C9o;
+        "pkg-2.2.8" = _hHwYZwek;
+        "pkg-2.2.9" = _HzRC7Tyb;
+        "pkg-2.2.10" = _RIO1ftzB;
+        "pkg-2.2.11" = _ee2f9ekw;
+        "default" = _ee2f9ekw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "angelica";

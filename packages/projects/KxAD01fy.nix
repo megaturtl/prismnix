@@ -141,6 +141,76 @@ let
             "file" = "Mega eeveelution and fusion1.7.3.zip";
             "hash" = "sha512-UH2LVqbKkOOm+td7jV0GeJ81PiiQGVOjclP3RWyfFt0D+Rt1ynCNllds7LRFatTfTMUvmnYpCrn/7dYNPD8bKQ==";
         };
+        _gSKpneBU = {
+            "id" = "gSKpneBU";
+            "file" = "Mega eeveelution and fusion(1.7.3).jar";
+            "hash" = "sha512-+7k/aI7UI5Z4lIel+/TWWU/0mfZFRGAaMoc3nIpHMTIJiUASsV5sKBKX/YlJ0u2Ej9xpqDkt9mErd9OLq4+OEA==";
+        };
+        _XiCDrmSh = {
+            "id" = "XiCDrmSh";
+            "file" = "Mega eeveelution and fusion1.7.3.zip";
+            "hash" = "sha512-F8TBuTO3HTiU91PWBpBMFDjLIJNd/dAfkldGMcwEW21UepPN5Vr9h1u063dfIFHsmxgUTnqz0euQGxyRxPnf/w==";
+        };
+        _7Uc8opTL = {
+            "id" = "7Uc8opTL";
+            "file" = "Mega eeveelution and fusion(1.7.3).jar";
+            "hash" = "sha512-9YfZVv+NiAQcjcTzhCSOi3cxf4XXHRS2dJyDOTUy765OszfE7Ju5QY/Rj98Jq6u8j8GZyKKE0OnJjtfVic6WEg==";
+        };
+        _Vydf5PAX = {
+            "id" = "Vydf5PAX";
+            "file" = "Mega eeveelution and fusion1.7.3.zip";
+            "hash" = "sha512-56RUITYXTPcapRJAO4UMgOPQAGAbDsiAyPHruHlj7nZ+GTw5hfQZYHM/of8FL9e5M1Sk9kXfjssat2w8qM2SiA==";
+        };
+        _lWecvK7L = {
+            "id" = "lWecvK7L";
+            "file" = "Mega eeveelution and fusion(1.7.3).jar";
+            "hash" = "sha512-pDHRKVEiZngZlPQSDwSfA6OALwkjkydtpjqO+2N0uJxn8ThyF3TmiPj+pwIuzWTRW5F7QMADscgMl78ZsGza7A==";
+        };
+        _gQMllf3J = {
+            "id" = "gQMllf3J";
+            "file" = "Mega eeveelution and fusion1.7.3.zip";
+            "hash" = "sha512-UCHsxK2beE9gFutVpo+ovBd49DPf7iD03uno6pUsmR82p9HCf7ivLwwhiWm6jd7I7gU0IRHv8wOcjUnqQXU3JQ==";
+        };
+        _oYcEverU = {
+            "id" = "oYcEverU";
+            "file" = "Mega eeveelution and fusion(1.7.3).jar";
+            "hash" = "sha512-p+dyn0fElMGu6DdGRRQjDAgQTYOfrjl0qVq/MfWVTRBjHEjVcMF6nHsXSbYcBfV7fzOALfNa0A+wEBO6guBi1w==";
+        };
+        _rDALpg7I = {
+            "id" = "rDALpg7I";
+            "file" = "Mega eeveelution and fusion1.7.3.zip";
+            "hash" = "sha512-W6mUCwzHiH9Q6NZL2IUSoTi0MgxaAcKGZErRhe96SRB8u8ktWmIx+aQ6N0DtJZfiu9y9/G/jWYrpudsBJ146wA==";
+        };
+        _4xueSwJi = {
+            "id" = "4xueSwJi";
+            "file" = "Mega eeveelution and fusion(1.7.3).jar";
+            "hash" = "sha512-M0pqqsTkfueKwFscCKFlnKmYemdzyTF6yA+YTZljlFWCyy9TdB3bDUtpS9i3UO+0EbVWLdZgFNJdO3E7yyxSTw==";
+        };
+        _XIHXAuf2 = {
+            "id" = "XIHXAuf2";
+            "file" = "Mega eeveelution and fusion1.7.3.zip";
+            "hash" = "sha512-sOdVaCdejWVqgQDU0YMlSjZ73EJXwMEywk4pknxveFHzWCvOnzeq6tBvCBDm0U/wpBbC/sB14VSr4/15Nz5oUA==";
+        };
+        _dr1cWab4 = {
+            "id" = "dr1cWab4";
+            "file" = "Mega eeveelution and fusion(1.7.3).jar";
+            "hash" = "sha512-Rk76O+LG7JG51J4DXyLKQd8t9N5LljkJFnUySWh8PyoBS7CwwVBUFaDGPFZ5Pt4NSEXC24L6SrsLhiWz+iPIWg==";
+        };
+        _pvhUp6fG = {
+            "id" = "pvhUp6fG";
+            "file" = "Mega eeveelution and fusion1.7.3.zip";
+            "hash" = "sha512-vTBKBjhRPY9Z9baXSYzei1y5Z80Mrba7TK132meaLoCIkiQvKymBGMrsAVwfO0h8sIAMKKBOcFOWhmhYPC1vvA==";
+        };
+        _1s85XMUL = {
+            "id" = "1s85XMUL";
+            "file" = "Mega eeveelution and fusion(1.8).jar";
+            "hash" = "sha512-sZfhm1PaOKN2WnYhPZxp3+EZkz8XMXwVVBNR3kvbIT6Q5aXfsb1qYpzkUnO0rPOFa+Bl9LUs0SIdFfTLaCLofQ==";
+        };
+        _KezBf9jW = {
+            "id" = "KezBf9jW";
+            "file" = "Mega eeveelution and fusion 1.8.zip";
+            "hash" = "sha512-deay4NKp35HdN3ZUYuJao+rAXktMq8tvAreMKgMiC125fIVbCMFjjgkIND5+0KsnSn1pjEkQvv/6rox4moCXnQ==";
+        };
     in {
         "z9TKsPqB" = _z9TKsPqB;
         "IqFJ0p7R" = _IqFJ0p7R;
@@ -170,10 +240,24 @@ let
         "hNymVGCc" = _hNymVGCc;
         "44zCyJwe" = _44zCyJwe;
         "TLcMcrbl" = _TLcMcrbl;
-        "minecraft-1.21.1" = _TLcMcrbl;
-        "datapack-1.21.1" = _TLcMcrbl;
-        "fabric-1.21.1" = _44zCyJwe;
-        "neoforge-1.21.1" = _44zCyJwe;
+        "gSKpneBU" = _gSKpneBU;
+        "XiCDrmSh" = _XiCDrmSh;
+        "7Uc8opTL" = _7Uc8opTL;
+        "Vydf5PAX" = _Vydf5PAX;
+        "lWecvK7L" = _lWecvK7L;
+        "gQMllf3J" = _gQMllf3J;
+        "oYcEverU" = _oYcEverU;
+        "rDALpg7I" = _rDALpg7I;
+        "4xueSwJi" = _4xueSwJi;
+        "XIHXAuf2" = _XIHXAuf2;
+        "dr1cWab4" = _dr1cWab4;
+        "pvhUp6fG" = _pvhUp6fG;
+        "1s85XMUL" = _1s85XMUL;
+        "KezBf9jW" = _KezBf9jW;
+        "minecraft-1.21.1" = _KezBf9jW;
+        "datapack-1.21.1" = _KezBf9jW;
+        "fabric-1.21.1" = _1s85XMUL;
+        "neoforge-1.21.1" = _1s85XMUL;
         "pkg-1" = _z9TKsPqB;
         "pkg-1.2" = _IqFJ0p7R;
         "pkg-1.3" = _kHrroyeB;
@@ -199,7 +283,14 @@ let
         "pkg-2.0.6" = _N7LZqnCz;
         "pkg-2.0.7" = _hNymVGCc;
         "pkg-2.0.8" = _TLcMcrbl;
-        "default" = _TLcMcrbl;
+        "pkg-2.0.9" = _XiCDrmSh;
+        "pkg-2.1.0" = _Vydf5PAX;
+        "pkg-2.1.1" = _gQMllf3J;
+        "pkg-2.1.2" = _rDALpg7I;
+        "pkg-2.1.2.1" = _XIHXAuf2;
+        "pkg-2.1.2.2" = _pvhUp6fG;
+        "pkg-2.2" = _KezBf9jW;
+        "default" = _KezBf9jW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mega-eeveelution";

@@ -641,6 +641,11 @@ let
             "file" = "sculkhorde-1.20.1-0.12.6.jar";
             "hash" = "sha512-ycjX7PGfuO6gxy/vEqLxOEZAfsrmv3oGi6wZbS9ZrkdgYrX1VGzrU4QxPX4dD/F/WnrjgFgeueHT966F3weoLQ==";
         };
+        _C2sIsEEd = {
+            "id" = "C2sIsEEd";
+            "file" = "sculkhorde-1.20.1-0.12.7.jar";
+            "hash" = "sha512-4wiZXxZ+yOd8wwm1B0VxZ2L/mU6yQ7fuTQ1WqjNfh2S7AUk1vBN4NxUsoy+4fVzfj15UAeB8akkxFDulKtHoAQ==";
+        };
     in {
         "BpXghhio" = _BpXghhio;
         "FZPA3k21" = _FZPA3k21;
@@ -770,9 +775,10 @@ let
         "NJYPUXac" = _NJYPUXac;
         "iZxIaxU5" = _iZxIaxU5;
         "OP66572A" = _OP66572A;
+        "C2sIsEEd" = _C2sIsEEd;
         "forge-1.16.5" = _BpXghhio;
         "forge-1.19.4" = _WpRU4vN2;
-        "forge-1.20.1" = _OP66572A;
+        "forge-1.20.1" = _C2sIsEEd;
         "forge-1.19" = _xp9MRFBv;
         "forge-1.19.2" = _vc4P1Eia;
         "forge-1.20" = _YTE9lu8n;
@@ -909,7 +915,8 @@ let
         "pkg-1.20.1-0.12.4" = _NJYPUXac;
         "pkg-1.20.1-0.12.5" = _iZxIaxU5;
         "pkg-1.20.1-0.12.6" = _OP66572A;
-        "default" = _OP66572A;
+        "pkg-1.20.1-0.12.7" = _C2sIsEEd;
+        "default" = _C2sIsEEd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sculk-horde";

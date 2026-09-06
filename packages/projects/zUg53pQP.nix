@@ -116,6 +116,11 @@ let
             "file" = "golden_foods-merged-1.21.9-2.4.0.jar";
             "hash" = "sha512-8f6Q8otMyvYwDnMZ/x9BgcITSYIjDEw3uD7AUEAe6E+X9AQMZNzF6hNgc0Nzo6rcYWLHqcwXGIxhd3BV75WSvw==";
         };
+        _l58V0aH1 = {
+            "id" = "l58V0aH1";
+            "file" = "golden_foods-merged-26.1.2-2.4.0.jar";
+            "hash" = "sha512-bR58jvfMsV4oQyQLtOIow1u9AoBzgvGoIw0Tr69hiN6T6ezl5EqvxPayP6LoEdwe4OU27UHbpmYhgF5mQzSw5A==";
+        };
     in {
         "IfwUA7E1" = _IfwUA7E1;
         "1dqbhxZp" = _1dqbhxZp;
@@ -140,6 +145,7 @@ let
         "SCMcPX7v" = _SCMcPX7v;
         "jtIomjJd" = _jtIomjJd;
         "j3Ch36sA" = _j3Ch36sA;
+        "l58V0aH1" = _l58V0aH1;
         "forge-1.18.2" = _IfwUA7E1;
         "forge-1.19.2" = _1dqbhxZp;
         "forge-1.20.1" = _DF47J74X;
@@ -155,6 +161,9 @@ let
         "neoforge-1.21.1" = _jtIomjJd;
         "neoforge-1.21.9" = _j3Ch36sA;
         "neoforge-1.21.10" = _j3Ch36sA;
+        "neoforge-26.1" = _l58V0aH1;
+        "neoforge-26.1.1" = _l58V0aH1;
+        "neoforge-26.1.2" = _l58V0aH1;
         "fabric-1.20.4" = _1VcPWCaV;
         "fabric-1.20" = _pdNFSL1k;
         "fabric-1.20.1" = _DF47J74X;
@@ -163,6 +172,9 @@ let
         "fabric-1.21.1" = _jtIomjJd;
         "fabric-1.21.9" = _j3Ch36sA;
         "fabric-1.21.10" = _j3Ch36sA;
+        "fabric-26.1" = _l58V0aH1;
+        "fabric-26.1.1" = _l58V0aH1;
+        "fabric-26.1.2" = _l58V0aH1;
         "pkg-1.18.2-2.0.0" = _IfwUA7E1;
         "pkg-1.19.2-2.0.0" = _1dqbhxZp;
         "pkg-2.0.0" = _oWrK1tqH;
@@ -171,8 +183,8 @@ let
         "pkg-2.0.1" = _xVutHt9T;
         "pkg-2.2.0" = _NyEmsuEO;
         "pkg-2.3.0" = _dEpikgf2;
-        "pkg-2.4.0" = _j3Ch36sA;
-        "default" = _j3Ch36sA;
+        "pkg-2.4.0" = _l58V0aH1;
+        "default" = _l58V0aH1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "golden-foods";

@@ -36,6 +36,21 @@ let
             "file" = "cropsneedsky-1.20.1-1.2.0.jar";
             "hash" = "sha512-Z9G7dBKbr+46rQJLSEmeoMsZXd4rx6Zxdxsik7woLHa4wXkKxE5Y2SQnQfDfCz67k9IqGm0PDNPWmY9CUbxoBA==";
         };
+        _OfMJI3j9 = {
+            "id" = "OfMJI3j9";
+            "file" = "cropsneedsky-1.20.1-1.3.0.jar";
+            "hash" = "sha512-WQYVhFh1POxwMbY/qVDlnGv7m+dxMnXWR5gvV7qerN9kPhX8mPJjnpbH4L8ZS+C4nS8uEbjXAmq3Hjj5MF3vEA==";
+        };
+        _TUEA9Ux0 = {
+            "id" = "TUEA9Ux0";
+            "file" = "cropsneedsky-1.20.1-1.3.0.jar";
+            "hash" = "sha512-1gdzPypWC4pxnf0B+bNEkggHVL5BGuFaTZdHriX/ijvnhF01dISlfAO22J0Fbf1Ru/W8zd91ZL/9uCaAV0ORPw==";
+        };
+        _pV40AeWr = {
+            "id" = "pV40AeWr";
+            "file" = "cropsneedsky-1.21-1.3.0.jar";
+            "hash" = "sha512-PIYkxO6RA5WAbea/xkfcCnurhSflsqCyRMfh8/mOj1q4ZhxGueE60HiFMdH+fxqNUFm4381jbQYfdYjS+aFBeA==";
+        };
     in {
         "rZZkd1vP" = _rZZkd1vP;
         "Jm2JfOPN" = _Jm2JfOPN;
@@ -44,16 +59,41 @@ let
         "VmSXP8zQ" = _VmSXP8zQ;
         "MhJnpRAU" = _MhJnpRAU;
         "9ROuxt3c" = _9ROuxt3c;
-        "fabric-1.20.1" = _VmSXP8zQ;
+        "OfMJI3j9" = _OfMJI3j9;
+        "TUEA9Ux0" = _TUEA9Ux0;
+        "pV40AeWr" = _pV40AeWr;
+        "fabric-1.20.1" = _TUEA9Ux0;
         "fabric-1.19.2" = _Jm2JfOPN;
-        "fabric-1.20.2" = _tkLxbuec;
-        "fabric-1.21" = _wf05YiA6;
-        "forge-1.20.1" = _9ROuxt3c;
+        "fabric-1.20.2" = _TUEA9Ux0;
+        "fabric-1.21" = _pV40AeWr;
+        "fabric-1.20.3" = _TUEA9Ux0;
+        "fabric-1.20.4" = _TUEA9Ux0;
+        "fabric-1.20.5" = _TUEA9Ux0;
+        "fabric-1.20.6" = _TUEA9Ux0;
+        "fabric-1.21.1" = _pV40AeWr;
+        "fabric-1.21.2" = _pV40AeWr;
+        "fabric-1.21.3" = _pV40AeWr;
+        "fabric-1.21.4" = _pV40AeWr;
+        "fabric-1.21.5" = _pV40AeWr;
+        "fabric-1.21.6" = _pV40AeWr;
+        "fabric-1.21.7" = _pV40AeWr;
+        "fabric-1.21.8" = _pV40AeWr;
+        "fabric-1.21.9" = _pV40AeWr;
+        "fabric-1.21.10" = _pV40AeWr;
+        "fabric-1.21.11" = _pV40AeWr;
+        "forge-1.20.1" = _OfMJI3j9;
+        "forge-1.20.2" = _OfMJI3j9;
+        "forge-1.20.3" = _OfMJI3j9;
+        "forge-1.20.4" = _OfMJI3j9;
+        "forge-1.20.5" = _OfMJI3j9;
+        "forge-1.20.6" = _OfMJI3j9;
         "pkg-1.0.0" = _tkLxbuec;
         "pkg-1.1.0" = _VmSXP8zQ;
         "pkg-1.1.1" = _MhJnpRAU;
         "pkg-1.2.0" = _9ROuxt3c;
-        "default" = _9ROuxt3c;
+        "pkg-1.20.1-1.3.0" = _TUEA9Ux0;
+        "pkg-1.21-1.3.0" = _pV40AeWr;
+        "default" = _pV40AeWr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crops-need-sky";

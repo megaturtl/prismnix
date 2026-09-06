@@ -361,6 +361,16 @@ let
             "file" = "helpfulcommands-neoforge-26.2-4.2.1.jar";
             "hash" = "sha512-rE7U35zLIKUkQQxH2fgp7wJX/Jk0ka2W1y86wlBbM/diTwP3LhUHjUprKkCoPU1MsGZHFpC0BKl6bwIrlo1a4g==";
         };
+        _ZxD89XgK = {
+            "id" = "ZxD89XgK";
+            "file" = "helpfulcommands-fabric-26.2-4.2.2.jar";
+            "hash" = "sha512-sE/72qjN1kGNZ7ZslUG3PRB63gIgAGeea7/GDNzqCbBOSFMUeteatflRHwfd+OYb/RvJEaNIZmneKs/7elgRew==";
+        };
+        _5WmefKaI = {
+            "id" = "5WmefKaI";
+            "file" = "helpfulcommands-neoforge-26.2-4.2.2.jar";
+            "hash" = "sha512-ROG2hjXrFBWZ6aw5IshHZZMrG19lOzc6m4KfkCPyRcrCLHl1lz5tHt3FE2rvuoZ2iWHg8cLFwbuv3Dz1HvbTvg==";
+        };
     in {
         "B2R77LSh" = _B2R77LSh;
         "qZg8FBhV" = _qZg8FBhV;
@@ -434,6 +444,8 @@ let
         "c2YY1NRi" = _c2YY1NRi;
         "lJCJ5z97" = _lJCJ5z97;
         "Gu3eoMzu" = _Gu3eoMzu;
+        "ZxD89XgK" = _ZxD89XgK;
+        "5WmefKaI" = _5WmefKaI;
         "fabric-1.20.1" = _bmMVPaNV;
         "fabric-1.19.4" = _qZg8FBhV;
         "fabric-1.19.2" = _GJhF3nOi;
@@ -459,7 +471,7 @@ let
         "fabric-26.1" = _alc0k6Yk;
         "fabric-26.1.1" = _alc0k6Yk;
         "fabric-26.1.2" = _alc0k6Yk;
-        "fabric-26.2" = _lJCJ5z97;
+        "fabric-26.2" = _ZxD89XgK;
         "neoforge-1.21.10" = _FnGGGpsB;
         "neoforge-1.21.11" = _fXrBf8EB;
         "neoforge-1.21.9" = _FnGGGpsB;
@@ -474,7 +486,7 @@ let
         "neoforge-26.1" = _jFMN2sG3;
         "neoforge-26.1.1" = _jFMN2sG3;
         "neoforge-26.1.2" = _jFMN2sG3;
-        "neoforge-26.2" = _Gu3eoMzu;
+        "neoforge-26.2" = _5WmefKaI;
         "pkg-2.0.0" = _SLwQmXtp;
         "pkg-2.0.1" = _rQC1VXW7;
         "pkg-2.0.2" = _T5PriSXi;
@@ -505,7 +517,8 @@ let
         "pkg-4.2.0-beta.2" = _n1BiRbOT;
         "pkg-4.2.0" = _c2YY1NRi;
         "pkg-4.2.1" = _Gu3eoMzu;
-        "default" = _Gu3eoMzu;
+        "pkg-4.2.2" = _5WmefKaI;
+        "default" = _5WmefKaI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "helpful-commands";

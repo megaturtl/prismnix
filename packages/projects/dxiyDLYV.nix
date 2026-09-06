@@ -81,6 +81,16 @@ let
             "file" = "vanilla-fireflies-4.0.1.jar";
             "hash" = "sha512-dPMEa6+h5zeermVbid0Qi0XPQEIV3g9RNmS273nopT/ukqVEdRiTUa6WnjQoWiXPRxAw95K/eM2lWXdwHyZcGA==";
         };
+        _GIUDa8TR = {
+            "id" = "GIUDa8TR";
+            "file" = "Vanilla Fireflies.zip";
+            "hash" = "sha512-9ILCwjeUztVVUq9H4DPdYVrT8cDeMNb6PzAT1SRNm+50+jNnFVPlwyeLDudaUs6mZa9Yx8JUKfYNHMz8PicI0w==";
+        };
+        _34zcHVAX = {
+            "id" = "34zcHVAX";
+            "file" = "vanilla-fireflies-5.0.jar";
+            "hash" = "sha512-9crNI8kpFYigBFFy6jdMJS8WyezlTNxuj9zRAl58La/ijKSfBqhdveQKpnB08dxBEcMpsZZCrcZQnWX9qmwrCw==";
+        };
     in {
         "FNjUgOrs" = _FNjUgOrs;
         "dMjeajkd" = _dMjeajkd;
@@ -98,6 +108,8 @@ let
         "hvzyZbL4" = _hvzyZbL4;
         "icHfTnyx" = _icHfTnyx;
         "1ruBBmYy" = _1ruBBmYy;
+        "GIUDa8TR" = _GIUDa8TR;
+        "34zcHVAX" = _34zcHVAX;
         "datapack-1.20.6" = _FNjUgOrs;
         "datapack-1.21" = _1VK9PGZr;
         "datapack-1.21.1" = _1VK9PGZr;
@@ -114,6 +126,7 @@ let
         "datapack-1.21.5-pre2" = _oY3BMprT;
         "datapack-1.21.5" = _icHfTnyx;
         "datapack-1.21.6" = _icHfTnyx;
+        "datapack-26.2" = _GIUDa8TR;
         "fabric-1.20.6" = _dMjeajkd;
         "fabric-1.21" = _5qSXJH5D;
         "fabric-1.21.1" = _5qSXJH5D;
@@ -131,6 +144,7 @@ let
         "fabric-1.21.5-pre3" = _hvzyZbL4;
         "fabric-1.21.5" = _1ruBBmYy;
         "fabric-1.21.6" = _1ruBBmYy;
+        "fabric-26.2" = _34zcHVAX;
         "quilt-1.20.6" = _dMjeajkd;
         "quilt-1.21" = _5qSXJH5D;
         "quilt-1.21.1" = _5qSXJH5D;
@@ -148,6 +162,7 @@ let
         "quilt-1.21.5-pre3" = _hvzyZbL4;
         "quilt-1.21.5" = _1ruBBmYy;
         "quilt-1.21.6" = _1ruBBmYy;
+        "quilt-26.2" = _34zcHVAX;
         "forge-1.21" = _5qSXJH5D;
         "forge-1.21.1" = _5qSXJH5D;
         "forge-1.21.2" = _5qSXJH5D;
@@ -164,6 +179,7 @@ let
         "forge-1.21.5-pre3" = _hvzyZbL4;
         "forge-1.21.5" = _1ruBBmYy;
         "forge-1.21.6" = _1ruBBmYy;
+        "forge-26.2" = _34zcHVAX;
         "neoforge-1.21" = _5qSXJH5D;
         "neoforge-1.21.1" = _5qSXJH5D;
         "neoforge-1.21.2" = _5qSXJH5D;
@@ -180,6 +196,7 @@ let
         "neoforge-1.21.5-pre3" = _hvzyZbL4;
         "neoforge-1.21.5" = _1ruBBmYy;
         "neoforge-1.21.6" = _1ruBBmYy;
+        "neoforge-26.2" = _34zcHVAX;
         "pkg-1.0" = _FNjUgOrs;
         "pkg-1.0+mod" = _dMjeajkd;
         "pkg-1.0.1" = _X6BtKB9x;
@@ -196,7 +213,9 @@ let
         "pkg-4.0+mod" = _hvzyZbL4;
         "pkg-4.0.1" = _icHfTnyx;
         "pkg-4.0.1+mod" = _1ruBBmYy;
-        "default" = _1ruBBmYy;
+        "pkg-5.0" = _GIUDa8TR;
+        "pkg-5.0+mod" = _34zcHVAX;
+        "default" = _34zcHVAX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-fireflies";

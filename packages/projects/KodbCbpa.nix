@@ -176,6 +176,21 @@ let
             "file" = "invariable-paintings-4.0.3+1.21.10.jar";
             "hash" = "sha512-bt5Kd5M5NYGQF1/OFgfRjVZHIEGgmfKpAMd8RkyNsr4QZUD2/vz2dmwj6k1FLdxSFUjMh7fmOPtyUHZnVNtCbg==";
         };
+        _1kxtADod = {
+            "id" = "1kxtADod";
+            "file" = "invariable-paintings-4.0.4+1.21.10.jar";
+            "hash" = "sha512-IJxYl1dSDwk5S9nvqf/pOZZBz3vdUyXQqsiSocG3lx2qrgdxeRcEWFlN8BRWTmhYsM0WRc2uVyEkwvf4zsaTPw==";
+        };
+        _QR6AgX5a = {
+            "id" = "QR6AgX5a";
+            "file" = "invariable-paintings-4.0.4+1.21.11.jar";
+            "hash" = "sha512-i3OQZylKb9A4t0RBH3rUphTdC7LGNAQ812wLd6phAIvUKCTsWbsd0aXlpw6i3kHkAvosYjkgowZkhBNI4xDnKg==";
+        };
+        _ufgYp6Pp = {
+            "id" = "ufgYp6Pp";
+            "file" = "invariable-paintings-4.0.4+26.1.2.jar";
+            "hash" = "sha512-1OdSaeo+nF+B5/F+P8kpdUKAXNlMrlNOcwSS7pCHUZHCK+JhHUUNafJHuTZtMDbx8O9bjhTBALaGS7DxS8EESQ==";
+        };
     in {
         "8tcOhImo" = _8tcOhImo;
         "VH7XpWcP" = _VH7XpWcP;
@@ -212,6 +227,9 @@ let
         "cBbShDaS" = _cBbShDaS;
         "eB6Fm62z" = _eB6Fm62z;
         "vl8v4Ko5" = _vl8v4Ko5;
+        "1kxtADod" = _1kxtADod;
+        "QR6AgX5a" = _QR6AgX5a;
+        "ufgYp6Pp" = _ufgYp6Pp;
         "fabric-1.19.4" = _ol6M02Ry;
         "fabric-1.20" = _qFrCQ8E8;
         "fabric-1.20.1" = _qFrCQ8E8;
@@ -229,8 +247,13 @@ let
         "fabric-1.21.6" = _eB6Fm62z;
         "fabric-1.21.7" = _eB6Fm62z;
         "fabric-1.21.8" = _eB6Fm62z;
-        "fabric-1.21.9" = _vl8v4Ko5;
-        "fabric-1.21.10" = _vl8v4Ko5;
+        "fabric-1.21.9" = _1kxtADod;
+        "fabric-1.21.10" = _1kxtADod;
+        "fabric-1.21.11" = _QR6AgX5a;
+        "fabric-26.1" = _ufgYp6Pp;
+        "fabric-26.1.1" = _ufgYp6Pp;
+        "fabric-26.1.2" = _ufgYp6Pp;
+        "fabric-26.2" = _ufgYp6Pp;
         "pkg-1.0.0+1.19.4" = _8tcOhImo;
         "pkg-1.0.0+1.20.1" = _VH7XpWcP;
         "pkg-1.1.0+1.19.4" = _LAO6pZv7;
@@ -266,7 +289,10 @@ let
         "pkg-4.0.2+1.21.7" = _cBbShDaS;
         "pkg-4.0.3+1.21.7" = _eB6Fm62z;
         "pkg-4.0.3+1.21.10" = _vl8v4Ko5;
-        "default" = _vl8v4Ko5;
+        "pkg-4.0.4+1.21.10" = _1kxtADod;
+        "pkg-4.0.4+1.21.11" = _QR6AgX5a;
+        "pkg-4.0.4+26.1.2" = _ufgYp6Pp;
+        "default" = _ufgYp6Pp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "invariable-paintings";

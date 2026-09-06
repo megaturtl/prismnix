@@ -186,6 +186,16 @@ let
             "file" = "noixmodapi-1.4.1.jar";
             "hash" = "sha512-xXS0TQLW++uhJS0N9cpfD/fLiv8MnQO5xcGDc8sItysznpB7KFG93g7NZn/2O54HhEBVgKkXzm4u0IF/vOb4AA==";
         };
+        _W2SZKUR8 = {
+            "id" = "W2SZKUR8";
+            "file" = "noixmodapi-1.4.4-preview.jar";
+            "hash" = "sha512-bVcrqT9FuddIPXyjuSVmJf9ZzDJlJ05vEkrNNH6QeLG3dzCn9IGGfa7PuDGgtv6OsKLElcMl6U3PeEIifJX94A==";
+        };
+        _Y1QB9rft = {
+            "id" = "Y1QB9rft";
+            "file" = "noixmodapi-1.4.4.jar";
+            "hash" = "sha512-uq260m9rj+nBUfWIarSHGaU07dy2sWKYctNQRisa8KKX5pmEIv0oc4NVHrvCi5I3ZkDZDL9AD3VNaXgQAnKbig==";
+        };
     in {
         "w7wUtwbB" = _w7wUtwbB;
         "oljXHoTF" = _oljXHoTF;
@@ -224,8 +234,10 @@ let
         "bPzKQGgz" = _bPzKQGgz;
         "TlFxdfTe" = _TlFxdfTe;
         "pabcmOwc" = _pabcmOwc;
-        "forge-1.20.1" = _pabcmOwc;
-        "neoforge-1.20.1" = _pabcmOwc;
+        "W2SZKUR8" = _W2SZKUR8;
+        "Y1QB9rft" = _Y1QB9rft;
+        "forge-1.20.1" = _Y1QB9rft;
+        "neoforge-1.20.1" = _Y1QB9rft;
         "pkg-1.2.1-8" = _w7wUtwbB;
         "pkg-1.2.5" = _oljXHoTF;
         "pkg-1.2.6-1" = _Tvz2VClz;
@@ -263,7 +275,9 @@ let
         "pkg-1.3.908-pre1" = _bPzKQGgz;
         "pkg-1.4.0" = _TlFxdfTe;
         "pkg-1.4.1" = _pabcmOwc;
-        "default" = _pabcmOwc;
+        "pkg-1.4.4-preview" = _W2SZKUR8;
+        "pkg-1.4.4" = _Y1QB9rft;
+        "default" = _Y1QB9rft;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no.ixmodapi";

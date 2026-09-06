@@ -26,19 +26,26 @@ let
             "file" = "maxstuff-1.8.2_ammofix.jar";
             "hash" = "sha512-AfvR3NSTfDfuTVS2KrisMckbR51eMJcxkUnZZsziKtDIPhwcYeUkap4ntwHQ09SjjtbaDpjbYYKNCP7sA0Pcig==";
         };
+        _gcj2HDH2 = {
+            "id" = "gcj2HDH2";
+            "file" = "maxstuff-legacy-1.8.3_hotfix.jar";
+            "hash" = "sha512-5L8DQl/mR4eLnHOtu+txyXI32sArht1OqEn6yIYF9KVIb4HB+tLX2/EBmTyjR7/brhttL/IErkf2jMWuWNRTcA==";
+        };
     in {
         "nNpHmBjI" = _nNpHmBjI;
         "56mJFQBs" = _56mJFQBs;
         "dhJZf3eS" = _dhJZf3eS;
         "Q6HaYTxl" = _Q6HaYTxl;
         "RarH3Y3P" = _RarH3Y3P;
-        "forge-1.20.1" = _RarH3Y3P;
+        "gcj2HDH2" = _gcj2HDH2;
+        "forge-1.20.1" = _gcj2HDH2;
         "pkg-1.7" = _nNpHmBjI;
         "pkg-1.7.1" = _56mJFQBs;
         "pkg-1.8" = _dhJZf3eS;
         "pkg-1.8.1" = _Q6HaYTxl;
         "pkg-1.8.2" = _RarH3Y3P;
-        "default" = _RarH3Y3P;
+        "pkg-1.8.3" = _gcj2HDH2;
+        "default" = _gcj2HDH2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "maxstuff";
@@ -46,13 +53,13 @@ let
         type = "mod";
         versions = versions;
         meta = {
-            license = lib.getLicenseFromSpdxIdOr "CC-BY-4.0" {
+            license = lib.getLicenseFromSpdxIdOr "LicenseRef-maxstuff-legacy-custom-license" {
                 free = false;
                 deprecated = false;
                 redistributable = false;
-                fullName = "Creative Commons Attribution 4.0 International";
-                shortName = "CC-BY-4.0";
-                url = null;
+                fullName = "LicenseRef-maxstuff-legacy-custom-license";
+                shortName = "LicenseRef-maxstuff-legacy-custom-license";
+                url = "https://www.curseforge.com/minecraft/mc-mods/maxstuff#license";
             };
         };
     };

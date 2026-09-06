@@ -121,6 +121,16 @@ let
             "file" = "epicfight-skilltree-forge-20.2.8-1.20.1.jar";
             "hash" = "sha512-TlItck4Q3utOE8F4if3JfksT7eODp04N38bhbuz/G0dBOxLTKDpBxvlR1WvfU/KDvpc8rUe77qfsq5O5dqukpQ==";
         };
+        _Ji7Lg5t7 = {
+            "id" = "Ji7Lg5t7";
+            "file" = "epicfight-skilltree-forge-20.2.9-1.20.1.jar";
+            "hash" = "sha512-BXFNVbEvaNnJF7cJJxPB1nSIshoMSmwWix3IX9uFRgNWAInxzUCzGMwmg50hFs8ZAbvPTjWtYvVqWjzsdkCGsw==";
+        };
+        _lh9qFKC6 = {
+            "id" = "lh9qFKC6";
+            "file" = "epicfight-skilltree-forge-20.2.9-1.20.1.jar";
+            "hash" = "sha512-H02mJBQDch+1evj/W63Ut0trokHZE0dBSejVUsE8HR1qZi/c0h7+IqdZ/M0L4ZPcEhigXvHnjgmQQh22yVS9Og==";
+        };
     in {
         "672dPOFR" = _672dPOFR;
         "14Sj5lZg" = _14Sj5lZg;
@@ -146,7 +156,9 @@ let
         "vRiZzytU" = _vRiZzytU;
         "JMg5fI2B" = _JMg5fI2B;
         "KrfJwSNx" = _KrfJwSNx;
-        "forge-1.20.1" = _KrfJwSNx;
+        "Ji7Lg5t7" = _Ji7Lg5t7;
+        "lh9qFKC6" = _lh9qFKC6;
+        "forge-1.20.1" = _lh9qFKC6;
         "neoforge-1.21.1" = _JMg5fI2B;
         "pkg-20.1.1" = _672dPOFR;
         "pkg-21.1.1" = _14Sj5lZg;
@@ -172,7 +184,8 @@ let
         "pkg-20.2.7-1.20.1" = _vRiZzytU;
         "pkg-21.3.3-1.21.1" = _JMg5fI2B;
         "pkg-20.2.8-1.20.1" = _KrfJwSNx;
-        "default" = _KrfJwSNx;
+        "pkg-20.2.9-1.20.1" = _lh9qFKC6;
+        "default" = _lh9qFKC6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "epic-fight-skill-tree";

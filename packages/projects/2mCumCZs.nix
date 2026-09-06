@@ -131,6 +131,11 @@ let
             "file" = "swansong-mc1.7.10-1.3.5.jar";
             "hash" = "sha512-nAYkDuHVdpgquZr7Q6c0e+eqRESuq4qTIAyhKbVtMSD94jq7iRcNSbrVHRN6P8KjORDMXEs17+iQPRLvPJXKEQ==";
         };
+        _cCnkCHjp = {
+            "id" = "cCnkCHjp";
+            "file" = "swansong-mc1.7.10-1.3.6.jar";
+            "hash" = "sha512-KN3TCINqrPbDlwNFO3r4UcpKLAEvMdKvdMqaSt/kpuJxykSN8m/Cp4nkpo94+Rzf/jZA5D5k5NrR7VP6hfnE5A==";
+        };
     in {
         "NckHfUmf" = _NckHfUmf;
         "EYqFlgFM" = _EYqFlgFM;
@@ -158,7 +163,8 @@ let
         "BMXwlYsx" = _BMXwlYsx;
         "owTfIGAv" = _owTfIGAv;
         "eaoiycoZ" = _eaoiycoZ;
-        "forge-1.7.10" = _eaoiycoZ;
+        "cCnkCHjp" = _cCnkCHjp;
+        "forge-1.7.10" = _cCnkCHjp;
         "pkg-1.0.0" = _NckHfUmf;
         "pkg-1.0.1" = _EYqFlgFM;
         "pkg-1.0.2" = _vv2XHGAu;
@@ -185,7 +191,8 @@ let
         "pkg-1.3.3" = _BMXwlYsx;
         "pkg-1.3.4" = _owTfIGAv;
         "pkg-1.3.5" = _eaoiycoZ;
-        "default" = _eaoiycoZ;
+        "pkg-1.3.6" = _cCnkCHjp;
+        "default" = _cCnkCHjp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "swansong";

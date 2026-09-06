@@ -151,6 +151,21 @@ let
             "file" = "camouflage_blocks-1.0-beta2-1.21.1-neoforge.jar";
             "hash" = "sha512-Q+IwjnEdkR+M7/laFJ0z8w0W2SLPOIMZpk1bUmof/bjjKAo/EdHrBIo1jotRhdCXZ9F4F33GRAsZw9xPpDs7fg==";
         };
+        _OdoYRMVY = {
+            "id" = "OdoYRMVY";
+            "file" = "camouflage_blocks-1.0-beta-1+26.2-neoforge.jar";
+            "hash" = "sha512-1lPkc5e+DYipPmWvwpHs19jgb7xBdrMhZUsGFQ8jJZ9JTdSvPOMrLC2dSsP3Oi85Km0BQk0WLDY7RQKSi7spkw==";
+        };
+        _uvZUK8Rg = {
+            "id" = "uvZUK8Rg";
+            "file" = "camouflage_blocks-1.0-beta-1+26.2-fabric.jar";
+            "hash" = "sha512-xRvMCEvij2V6NCdgPMVk8/qhFdr886D9GZq6lYCesJnpT8Y+8U2zRPbCW3meoaWviqnm0WmfnbMo0bp87UV2xg==";
+        };
+        _3mFLdRcZ = {
+            "id" = "3mFLdRcZ";
+            "file" = "camouflage_blocks-1.0-beta-1+1.21.11-fabric.jar";
+            "hash" = "sha512-xRvMCEvij2V6NCdgPMVk8/qhFdr886D9GZq6lYCesJnpT8Y+8U2zRPbCW3meoaWviqnm0WmfnbMo0bp87UV2xg==";
+        };
     in {
         "zDo829yf" = _zDo829yf;
         "G9Nomkqt" = _G9Nomkqt;
@@ -182,13 +197,19 @@ let
         "WzRtrZi9" = _WzRtrZi9;
         "sump397l" = _sump397l;
         "pJOrr5O2" = _pJOrr5O2;
+        "OdoYRMVY" = _OdoYRMVY;
+        "uvZUK8Rg" = _uvZUK8Rg;
+        "3mFLdRcZ" = _3mFLdRcZ;
         "neoforge-1.21.1" = _pJOrr5O2;
         "neoforge-1.21.4" = _wFFWrGVa;
         "neoforge-1.21.5" = _PAsIg4ik;
         "neoforge-1.21.7" = _Wk90N6M9;
         "neoforge-26.1.2" = _WzRtrZi9;
+        "neoforge-26.2" = _OdoYRMVY;
         "forge-1.20.1" = _KuLJ0vty;
         "fabric-26.1.2" = _sump397l;
+        "fabric-26.2" = _uvZUK8Rg;
+        "fabric-1.21.11" = _3mFLdRcZ;
         "pkg-0.0.1" = _zDo829yf;
         "pkg-0.0.2" = _G9Nomkqt;
         "pkg-0.0.3" = _N2BP8xHd;
@@ -204,9 +225,9 @@ let
         "pkg-1.4.0" = _M3ysZbaY;
         "pkg-1.4.0-alpha" = _Frb2a393;
         "pkg-1.5.0-alpha" = _Wk90N6M9;
-        "pkg-1.0-beta-1" = _sump397l;
+        "pkg-1.0-beta-1" = _3mFLdRcZ;
         "pkg-1.0-beta-2" = _pJOrr5O2;
-        "default" = _pJOrr5O2;
+        "default" = _3mFLdRcZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "camouflage-blocks";

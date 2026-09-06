@@ -96,6 +96,41 @@ let
             "file" = "invarpaint-stockbook-1.1.6+1.21.10.jar";
             "hash" = "sha512-32jxwpcXLsFbDXOb6aZg2pVDvXKdfboP3yA1mGk4mjTs/zsihf/3iscOfzCx5k+6grXlC1Z+AyCICQ0ubsB/IA==";
         };
+        _kwIZZSap = {
+            "id" = "kwIZZSap";
+            "file" = "invarpaint-stockbook-1.1.7+1.21.1.jar";
+            "hash" = "sha512-ScAg+JFjVK2L+5Yws4si4k6M8TSubmfsDMrULFXCyOeavEqsWv9yjDySp0Tez65ExEny2mAfxHmo//oaLvKjWg==";
+        };
+        _zNZlFR1t = {
+            "id" = "zNZlFR1t";
+            "file" = "invarpaint-stockbook-1.1.7+1.21.3.jar";
+            "hash" = "sha512-MV45GNiXLz6GOLvqg8EFvLnZP2m/JOPKFQEKmYmKUybXcAxl2kg0x1VRGmh0FAcRwbK1wdmG6sMx1DwNRA4+bw==";
+        };
+        _e3yvCFlH = {
+            "id" = "e3yvCFlH";
+            "file" = "invarpaint-stockbook-1.1.7+1.21.5.jar";
+            "hash" = "sha512-vW02Tm+LimhSwVo0vbiCvk3OAWHLcTAZvEy27J4znqX7kB4aVj7Q/UlPxUa9i+AzajjMQsolwqIl7DPj+9rfsw==";
+        };
+        _4OVazRMF = {
+            "id" = "4OVazRMF";
+            "file" = "invarpaint-stockbook-1.1.7+1.21.6.jar";
+            "hash" = "sha512-Lu39o16PMLVskjym8Hydq8ESvequ9cU0SU0s/25PL0SCKNjkHlQEzi6m3VjkemOK3HEQFAkG5xJHCJjK1X8nnQ==";
+        };
+        _l1h0lSmZ = {
+            "id" = "l1h0lSmZ";
+            "file" = "invarpaint-stockbook-1.1.7+1.21.10.jar";
+            "hash" = "sha512-tm0ocey5viuK/8DxMvlSqQSxofcHT2XEaBRLXHojYegvZlcvMvoM+fybzsL7SnAuaqKO4kLirowCYkzp0kHqTA==";
+        };
+        _jB4W0Sgy = {
+            "id" = "jB4W0Sgy";
+            "file" = "invarpaint-stockbook-1.1.7+1.21.11.jar";
+            "hash" = "sha512-mGoo0bC6U4qRXUKN/iJF6htdEz5fNSgFNV7R0ND2n6j0lcpw0eQe5jaji4lKIEeEKqzwNSUmuiapSiYSgMAMng==";
+        };
+        _HQ7PiND5 = {
+            "id" = "HQ7PiND5";
+            "file" = "invarpaint-stockbook-1.1.7+26.1.2.jar";
+            "hash" = "sha512-JQ5eUwVz38f43OmMEEycts6IOv0MLTcqDxySezBU8BVjQWCfLFoCIB/En0and668XR3yTNk4Dla46jkwtpes9g==";
+        };
     in {
         "VpHvgCE2" = _VpHvgCE2;
         "Q8DthmqY" = _Q8DthmqY;
@@ -116,20 +151,32 @@ let
         "CCZiamJk" = _CCZiamJk;
         "Hf62P0d0" = _Hf62P0d0;
         "VVsNK5yW" = _VVsNK5yW;
+        "kwIZZSap" = _kwIZZSap;
+        "zNZlFR1t" = _zNZlFR1t;
+        "e3yvCFlH" = _e3yvCFlH;
+        "4OVazRMF" = _4OVazRMF;
+        "l1h0lSmZ" = _l1h0lSmZ;
+        "jB4W0Sgy" = _jB4W0Sgy;
+        "HQ7PiND5" = _HQ7PiND5;
         "fabric-1.19.4" = _9EvHFLyu;
         "fabric-1.20.5" = _n9XTVx5L;
         "fabric-1.20.6" = _n9XTVx5L;
-        "fabric-1.21" = _pYUsVDD3;
-        "fabric-1.21.1" = _pYUsVDD3;
-        "fabric-1.21.2" = _TQUkFIkU;
-        "fabric-1.21.3" = _TQUkFIkU;
-        "fabric-1.21.4" = _TQUkFIkU;
-        "fabric-1.21.5" = _JWcvbo4z;
-        "fabric-1.21.6" = _Hf62P0d0;
-        "fabric-1.21.7" = _Hf62P0d0;
-        "fabric-1.21.8" = _Hf62P0d0;
-        "fabric-1.21.9" = _VVsNK5yW;
-        "fabric-1.21.10" = _VVsNK5yW;
+        "fabric-1.21" = _kwIZZSap;
+        "fabric-1.21.1" = _kwIZZSap;
+        "fabric-1.21.2" = _zNZlFR1t;
+        "fabric-1.21.3" = _zNZlFR1t;
+        "fabric-1.21.4" = _zNZlFR1t;
+        "fabric-1.21.5" = _e3yvCFlH;
+        "fabric-1.21.6" = _4OVazRMF;
+        "fabric-1.21.7" = _4OVazRMF;
+        "fabric-1.21.8" = _4OVazRMF;
+        "fabric-1.21.9" = _l1h0lSmZ;
+        "fabric-1.21.10" = _l1h0lSmZ;
+        "fabric-1.21.11" = _jB4W0Sgy;
+        "fabric-26.1" = _HQ7PiND5;
+        "fabric-26.1.1" = _HQ7PiND5;
+        "fabric-26.1.2" = _HQ7PiND5;
+        "fabric-26.2" = _HQ7PiND5;
         "pkg-1.0.0+1.19.4" = _VpHvgCE2;
         "pkg-1.0.0+1.20.6" = _Q8DthmqY;
         "pkg-1.0.1+1.19.4" = _9EvHFLyu;
@@ -149,7 +196,14 @@ let
         "pkg-1.1.5+1.21.6" = _CCZiamJk;
         "pkg-1.1.6+1.21.6" = _Hf62P0d0;
         "pkg-1.1.6+1.21.10" = _VVsNK5yW;
-        "default" = _VVsNK5yW;
+        "pkg-1.1.7+1.21.1" = _kwIZZSap;
+        "pkg-1.1.7+1.21.3" = _zNZlFR1t;
+        "pkg-1.1.7+1.21.5" = _e3yvCFlH;
+        "pkg-1.1.7+1.21.6" = _4OVazRMF;
+        "pkg-1.1.7+1.21.10" = _l1h0lSmZ;
+        "pkg-1.1.7+1.21.11" = _jB4W0Sgy;
+        "pkg-1.1.7+26.1.2" = _HQ7PiND5;
+        "default" = _HQ7PiND5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "invarpaint-stockbook";

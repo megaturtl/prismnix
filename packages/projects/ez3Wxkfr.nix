@@ -151,6 +151,16 @@ let
             "file" = "tpc-fabric-26.1.2-2.4.jar";
             "hash" = "sha512-pcarjjNaCcsD4MkY+ViKP6uNUfTbeCAv4DeN0Qcp2/M5rzKAcWlPuhA0nyWsWXle/Q9AVUGrfGBC7NNnK7oEXA==";
         };
+        _6xAZLjby = {
+            "id" = "6xAZLjby";
+            "file" = "tpc-2.4.1+core-mc26.1.2-fabric.jar";
+            "hash" = "sha512-BhE4dJHDO9aZtTxiv2KrFOR+v7qObteWOhhS5tNgp7cum7kFSUDuISHMCAvU7C1aipgrGsP74XUZcLHU7X6WGg==";
+        };
+        _5Yw3OOkF = {
+            "id" = "5Yw3OOkF";
+            "file" = "tpc-2.4.1-mc26.1.2-fabric.jar";
+            "hash" = "sha512-C8eV/8ve/6bM5nq3PlYzpi/DGINYVRkA9Tv4Dm774PJfYXfC/Ej0n35wWehm56+bncjAb/baoeLJfA9zS4I5XA==";
+        };
     in {
         "YRYF8k7P" = _YRYF8k7P;
         "xpNP5qXl" = _xpNP5qXl;
@@ -182,24 +192,26 @@ let
         "LVxuzBfw" = _LVxuzBfw;
         "tn0ftSdR" = _tn0ftSdR;
         "xAbJPigg" = _xAbJPigg;
+        "6xAZLjby" = _6xAZLjby;
+        "5Yw3OOkF" = _5Yw3OOkF;
         "fabric-1.21.9" = _YRYF8k7P;
         "fabric-1.21.10" = _YRYF8k7P;
         "fabric-1.21.7" = _xpNP5qXl;
         "fabric-1.21.8" = _xpNP5qXl;
         "fabric-1.21.11" = _Z7WyfG6Z;
-        "fabric-26.1" = _xAbJPigg;
-        "fabric-26.1.1" = _xAbJPigg;
-        "fabric-26.1.2" = _xAbJPigg;
-        "fabric-26.2" = _xAbJPigg;
+        "fabric-26.1" = _5Yw3OOkF;
+        "fabric-26.1.1" = _5Yw3OOkF;
+        "fabric-26.1.2" = _5Yw3OOkF;
+        "fabric-26.2" = _5Yw3OOkF;
         "quilt-1.21.9" = _YRYF8k7P;
         "quilt-1.21.10" = _YRYF8k7P;
         "quilt-1.21.7" = _xpNP5qXl;
         "quilt-1.21.8" = _xpNP5qXl;
         "quilt-1.21.11" = _Z7WyfG6Z;
-        "quilt-26.1" = _xAbJPigg;
-        "quilt-26.1.1" = _xAbJPigg;
-        "quilt-26.1.2" = _xAbJPigg;
-        "quilt-26.2" = _xAbJPigg;
+        "quilt-26.1" = _5Yw3OOkF;
+        "quilt-26.1.1" = _5Yw3OOkF;
+        "quilt-26.1.2" = _5Yw3OOkF;
+        "quilt-26.2" = _5Yw3OOkF;
         "pkg-1.2" = _xpNP5qXl;
         "pkg-1.2.1" = _uqK3z5yd;
         "pkg-1.3" = _zuGktyJM;
@@ -229,7 +241,9 @@ let
         "pkg-2.4-snapshot-2" = _LVxuzBfw;
         "pkg-2.4-core" = _tn0ftSdR;
         "pkg-2.4" = _xAbJPigg;
-        "default" = _xAbJPigg;
+        "pkg-2.4.1-core" = _6xAZLjby;
+        "pkg-2.4.1" = _5Yw3OOkF;
+        "default" = _5Yw3OOkF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "teleportcommandsfabric";

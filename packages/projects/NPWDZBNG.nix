@@ -61,6 +61,21 @@ let
             "file" = "incendium_translation_fix_1.19.x_1.0.5.1.jar";
             "hash" = "sha512-mvfT13jW0wqJphkTjzSoia6mqGJEb2dw94ip9nNnlmidZg/0GmbyO/TPonekjaJPYHMrsq+sBMquzCpVY8cRfg==";
         };
+        _2KdD3Igc = {
+            "id" = "2KdD3Igc";
+            "file" = "incendium_translation_fix_26.2_1.0.6.jar";
+            "hash" = "sha512-pZCzJD8er56lzc/MqfL40F7WNsQYyElvq5/IS0DqybHIvr2MjJ8L32Tljjj8zpXRWJj9TS0FkLHQKQ6FbEcjmw==";
+        };
+        _4ADq4Wba = {
+            "id" = "4ADq4Wba";
+            "file" = "incendium_translation_fix_1.21.11_1.0.6.1.jar";
+            "hash" = "sha512-2xY/1rRwF2xq4kqoA7pIongArgFIfqwRUPE+F0gdhKGFFfYQzh7uiMQ+ZP4FA0IF0CVjAXZXADN21ZnHtCwwVw==";
+        };
+        _HV2eZrFN = {
+            "id" = "HV2eZrFN";
+            "file" = "incendium_translation_fix_26.1.x_1.0.6.1.jar";
+            "hash" = "sha512-05lceF9qU+HMaKynNy+AVx+JP+Qxld2W19fsPq2Bo70VoQEBv7nITueokObc3PJ55FXH3N8MtCMYtJYhRQiyog==";
+        };
     in {
         "TKNu62cf" = _TKNu62cf;
         "iMouDH4x" = _iMouDH4x;
@@ -74,6 +89,9 @@ let
         "2UP4EaNw" = _2UP4EaNw;
         "FY2vXCXc" = _FY2vXCXc;
         "XkRED2K4" = _XkRED2K4;
+        "2KdD3Igc" = _2KdD3Igc;
+        "4ADq4Wba" = _4ADq4Wba;
+        "HV2eZrFN" = _HV2eZrFN;
         "neoforge-1.21" = _bBIKLq5h;
         "neoforge-1.21.1" = _bBIKLq5h;
         "neoforge-1.21.2" = _bBIKLq5h;
@@ -85,7 +103,7 @@ let
         "neoforge-1.21.8" = _bBIKLq5h;
         "neoforge-1.21.9" = _bBIKLq5h;
         "neoforge-1.21.10" = _bBIKLq5h;
-        "neoforge-1.21.11" = _IA5BmSoC;
+        "neoforge-1.21.11" = _4ADq4Wba;
         "neoforge-1.20" = _FY2vXCXc;
         "neoforge-1.20.1" = _FY2vXCXc;
         "neoforge-1.20.2" = _FY2vXCXc;
@@ -98,7 +116,11 @@ let
         "neoforge-1.19.2" = _XkRED2K4;
         "neoforge-1.19.3" = _XkRED2K4;
         "neoforge-1.19.4" = _XkRED2K4;
-        "fabric-1.21.11" = _IA5BmSoC;
+        "neoforge-26.2" = _2KdD3Igc;
+        "neoforge-26.1" = _HV2eZrFN;
+        "neoforge-26.1.1" = _HV2eZrFN;
+        "neoforge-26.1.2" = _HV2eZrFN;
+        "fabric-1.21.11" = _4ADq4Wba;
         "fabric-1.21" = _bBIKLq5h;
         "fabric-1.21.1" = _bBIKLq5h;
         "fabric-1.21.2" = _bBIKLq5h;
@@ -122,7 +144,11 @@ let
         "fabric-1.19.2" = _XkRED2K4;
         "fabric-1.19.3" = _XkRED2K4;
         "fabric-1.19.4" = _XkRED2K4;
-        "forge-1.21.11" = _IA5BmSoC;
+        "fabric-26.2" = _2KdD3Igc;
+        "fabric-26.1" = _HV2eZrFN;
+        "fabric-26.1.1" = _HV2eZrFN;
+        "fabric-26.1.2" = _HV2eZrFN;
+        "forge-1.21.11" = _4ADq4Wba;
         "forge-1.21" = _bBIKLq5h;
         "forge-1.21.1" = _bBIKLq5h;
         "forge-1.21.2" = _bBIKLq5h;
@@ -146,7 +172,11 @@ let
         "forge-1.19.2" = _XkRED2K4;
         "forge-1.19.3" = _XkRED2K4;
         "forge-1.19.4" = _XkRED2K4;
-        "quilt-1.21.11" = _IA5BmSoC;
+        "forge-26.2" = _2KdD3Igc;
+        "forge-26.1" = _HV2eZrFN;
+        "forge-26.1.1" = _HV2eZrFN;
+        "forge-26.1.2" = _HV2eZrFN;
+        "quilt-1.21.11" = _4ADq4Wba;
         "quilt-1.21" = _bBIKLq5h;
         "quilt-1.21.1" = _bBIKLq5h;
         "quilt-1.21.2" = _bBIKLq5h;
@@ -170,13 +200,19 @@ let
         "quilt-1.19.2" = _XkRED2K4;
         "quilt-1.19.3" = _XkRED2K4;
         "quilt-1.19.4" = _XkRED2K4;
+        "quilt-26.2" = _2KdD3Igc;
+        "quilt-26.1" = _HV2eZrFN;
+        "quilt-26.1.1" = _HV2eZrFN;
+        "quilt-26.1.2" = _HV2eZrFN;
         "pkg-1.0.1" = _TKNu62cf;
         "pkg-1.0.2" = _ON15stUF;
         "pkg-1.0.3" = _ZUXZM70F;
         "pkg-1.0.4" = _Bn34yfh2;
         "pkg-1.0.5" = _XkRED2K4;
         "pkg-1.0.5.1" = _FY2vXCXc;
-        "default" = _XkRED2K4;
+        "pkg-1.0.6" = _2KdD3Igc;
+        "pkg-1.0.6.1" = _HV2eZrFN;
+        "default" = _HV2eZrFN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "incendium-translation-fix";
