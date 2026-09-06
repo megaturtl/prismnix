@@ -1,1 +1,0 @@
-{minecraft="1.16_combat-3";fabric=null;quilt=null;forge=null;neoforge=null;liteloader=null;}

@@ -1,1 +1,0 @@
-{minecraft="19w04b";fabric=null;quilt=null;forge=null;neoforge=null;liteloader=null;}

@@ -47,11 +47,16 @@ def latest_version(packages):
             items.append(vers)
     return max(items, key=Version)
 
-def str_pair(versions: dict[str, str | None]) -> str:
+def str_pair_nix(versions: dict[str, dict[str | None]]) -> str:
     res = "{"
-    for name, str in versions.items():
-        j = json.dumps(str)
-        res += f'{name}={j};'
+    for k1, v1 in versions.items():
+        jk = json.dumps(k1)
+        res += f'{jk}={{'
+        for k2, v2 in v1.items():
+            jk = json.dumps(k2)
+            jv = json.dumps(v2)
+            res += f'{jk}={jv};'
+        res += f'}};'
     return res + "}"
 
 def create_version(mc, pkgs):
@@ -63,14 +68,14 @@ def create_version(mc, pkgs):
     fabric       = latest_version(pkgs["net.fabricmc.fabric-loader"])
     quilt        = latest_version(pkgs["org.quiltmc.quilt-loader"])
 
-    return str_pair({
+    return {
         "minecraft" : minecraft,
         "fabric"    : fabric if intermediary != None else None,
         "quilt"     : quilt  if intermediary != None else None,
         "forge"     : forge,
         "neoforge"  : neoforge,
         "liteloader": liteloader
-    })
+    }
 
 def write(path: Path, str):
     path.parent.mkdir(
@@ -92,21 +97,13 @@ def main():
         "com.mumfrey.liteloader",
     ])
 
-    files = {};
-    imports = "";
-    i = 0
+    result = {};
     for pkg in packages["net.minecraft"]:
         version = pkg["version"]
-        files[i] = create_version(version, packages)
-        imports += f'  "{version}" = import ./{i}.nix;\n';
-        i += 1
-    imports = '{\n' + imports + '}';
-
-    for idx, file in files.items():
-        path = output.joinpath(f"{idx}.nix")
-        write(path, file)
-    path = output.joinpath(f"default.nix")
-    write(path, imports)
+        versdict = create_version(version, packages)
+        result[version] = versdict
+    resultstr = str_pair_nix(result)
+    write(output, resultstr)
 
 if __name__ == "__main__":
     main()

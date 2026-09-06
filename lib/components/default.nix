@@ -1,4 +1,4 @@
-{lib, ...}: let loaders = import ./loaders; in rec
+{lib, ...}: let loaders = import ./loaders.nix; in rec
 {
     /**
         Return the component versions for the modloader components

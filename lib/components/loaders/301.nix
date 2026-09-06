@@ -1,1 +1,0 @@
-{minecraft="1.19_deep_dark_experimental_snapshot-1";fabric=null;quilt=null;forge=null;neoforge=null;liteloader=null;}

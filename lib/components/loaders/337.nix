@@ -1,1 +1,0 @@
-{minecraft="1.18_experimental-snapshot-2";fabric=null;quilt=null;forge=null;neoforge=null;liteloader=null;}

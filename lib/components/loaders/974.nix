@@ -1,1 +1,0 @@
-{minecraft="b1.0.2";fabric=null;quilt=null;forge=null;neoforge=null;liteloader=null;}
