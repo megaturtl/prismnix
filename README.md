@@ -39,7 +39,7 @@ Please refer to the [docs](./docs/configuration/configuration.md).
 - [x] PrismGen generate modrinth packages.
 - [x] PrismGen better missing version error message.
 - [x] HomeManager Module
+- [x] PrismGen update generated modrinth packages.
+- [x] PrismGen CLI
 - [ ] NixOS Module
-- [ ] PrismGen update generated modrinth packages.
-- [ ] PrismGen CLI
 - [ ] More options for installing instances.
