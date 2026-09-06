@@ -65,6 +65,9 @@ class SearchBuilder:
     limit: int
     offset: int
     facets: list[FacetOperation]
+    max: int
+    max_strict: bool
+    additional: list[str]
 
     @staticmethod
     def new(session: Session) -> "SearchBuilder":
@@ -74,7 +77,42 @@ class SearchBuilder:
             limit = 10,
             offset = 0,
             facets = [],
+            max = -1,
+            max_strict = False,
+            additional = [],
         )
+
+    @staticmethod
+    def from_data(d: dict, session: Session) -> "SearchBuilder":
+        facets = []
+
+        if "facets" in d:
+            for facet_group in d["facets"]:
+                op = FacetJoinOp.And
+                for facet in facet_group:
+                    facets.append(FacetOperation(
+                        op = op,
+                        facet = facet,
+                    ))
+                    op = FacetJoinOp.Or
+
+        return SearchBuilder(
+            session = session,
+            query = d.get("query", None),
+            limit = d.get("limit", 10),
+            offset = d.get("offset", 0),
+            facets = facets,
+            max = d.get("max", -1),
+            max_strict = d.get("max-strict", False),
+            additional = d.get("additional", []),
+        )
+
+    def with_max_results(self, max: int) -> "SearchBuilder":
+        self.max = max
+        return self
+    def with_max_strict(self, strict: bool = True) -> "SearchBuilder":
+        self.max_strict = strict
+        return self
 
     def with_limit(self, limit: int) -> "SearchBuilder":
         self.limit = limit;
@@ -84,6 +122,12 @@ class SearchBuilder:
         return self
     def with_query(self, query: str) -> "SearchBuilder":
         self.query = query;
+        return self
+
+    def with_additional(self, ids: list[str]) -> "SearchBuilder":
+        self.additional.extend(
+            ids
+        )
         return self
 
     def with_facet(self, op: FacetJoinOp, facet: str) -> "SearchBuilder":
@@ -109,6 +153,10 @@ class SearchBuilder:
         url = url.with_facets(self.facets)
         url = url.with_query(self.query)
 
+        max = self.max - len(self.additional)
+        if self.max == -1:
+            max = -1
+
         result = []
         offset = self.offset
 
@@ -128,4 +176,12 @@ class SearchBuilder:
                 id = hit["project_id"]
                 result.append(id)
             offset += len(hits)
+
+            if max != -1:
+                if offset >= max:
+                    done = True
+
+        if self.max_strict and max != -1:
+            del result[max:]
+        result.extend(self.additional)
         return result

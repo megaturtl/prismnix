@@ -259,12 +259,25 @@ class Database:
         session: Session,
         ids: list[str],
         batchsize: int = 500,
+        extend: bool = False,
     ):
         version_ids = []
 
         while ids:
             items = ids[:batchsize]
             del ids[:batchsize]
+
+            if extend == True:
+                i = len(items)
+                while i > 0:
+                    i -= 1
+                    id = items[i]
+                    if id in self.projects:
+                        items[i] = items[-1]
+                        items.pop()
+                if not items:
+                    continue
+
             resp = session.get("https://api.modrinth.com/v2/projects", params={
                 "ids": json.dumps(items),
             }).json()
@@ -285,8 +298,6 @@ class Database:
         session: Session,
         batchsize: int = 500
     ):
-        self.versions = {}
-
         while ids:
             items = ids[:batchsize]
             del ids[:batchsize]
@@ -308,17 +319,42 @@ class Database:
                     print(resp)
                     print(version)
                     print(e)
+
     def refetch_versions(
         self,
         session: Session,
-        batchsize: int = 500
+        batchsize: int = 500,
     ):
-        ids = []
-        for id, _ in self.versions.items():
-            ids.append(
-                id
-            )
-        self.fetch_versions(ids, session, batchsize)
+        version_ids = list(self.versions.keys())
+        self.fetch_versions(
+            version_ids,
+            session,
+            batchsize = batchsize,
+        )
+
+    def fetch_new_versions(
+        self,
+        session: Session,
+        batchsize: int = 500,
+    ):
+        ids = list(self.projects.keys())
+        version_ids = []
+
+        while ids:
+            items = ids[:batchsize]
+            del ids[:batchsize]
+
+            resp = session.get("https://api.modrinth.com/v2/projects", params={
+                "ids": json.dumps(items),
+            }).json()
+
+            for project in resp:
+                for version in project["versions"]:
+                    if version not in self.versions:
+                        version_ids.append(
+                            version
+                        )
+        self.fetch_versions(version_ids, session, batchsize)
 
     def get_path(self) -> str:
         return self._path

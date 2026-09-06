@@ -3,27 +3,6 @@ from database import VersionData, Collection
 import jinja2
 import nix
 
-_default = """{lib, callPackage, ...}:
-let
-    versions = {{versions | indent(4, first=false)}};
-    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
-        name = {{slug}};
-        id = {{id}};
-        type = {{type}};
-        versions = versions;
-        meta = {
-            license = lib.getLicenseFromSpdxIdOr {{licenseid}} {
-                free = false;
-                deprecated = false;
-                redistributable = false;
-                fullName = {{licensename}};
-                shortName = {{licenseid}};
-                url = {{licenseurl}};
-            };
-        };
-    };
-in callPackage fn {}"""
-
 @dataclass
 class PkgTemplateParams:
     versions   : VersionData
@@ -52,10 +31,10 @@ class PkgTemplateParams:
 class PkgTemplate:
     env: jinja2.Environment
 
-    def __init__(self):
+    def __init__(self, template: str):
         self.env = jinja2.Environment(
             loader = jinja2.DictLoader({
-                "default": _default
+                "default": template
             })
         )
 

@@ -66,6 +66,8 @@
 					python3Packages.requests-ratelimiter
 					python3Packages.typer
 					python3Packages.jinja2
+
+                    pyright
 				];
 			};
 		}
