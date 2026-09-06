@@ -68,6 +68,7 @@ let cfg = config.programs.prismnix; in
                                 };
                             target = v.instance.path;
                             recursive = true;
+                            force = v.instance.force;
                         };
                     };
                     filter = v.enable;

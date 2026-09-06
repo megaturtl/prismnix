@@ -59,6 +59,12 @@
                             default = {};
                             description = "Activations to run";
                         };
+
+                        force = lib.mkOption {
+                            type = lib.types.bool;
+                            default = false;
+                            description = "Whether to force the generation of the files";
+                        };
                     };
                 };
             })
