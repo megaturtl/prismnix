@@ -88,7 +88,7 @@ in
         ) link);
 
         activation = lib.mkIf (copy != []) {
-            "prismnix.${name}.file" = lib.prismnix.dag.entry name (
+            "prismnix.${name}.file" = lib.prismnix.dag.entry (
                 lib.concatMapStringsSep "\n" ({source, target}:
                     let
                         path = config.instance.path;
@@ -96,9 +96,9 @@ in
                         dst = lib.escapeShellArg "${path}/minecraft/${target}";
                     in
                     ''
-                        run mkdir -p "$(dirname ${dst})"
-                        run cp -rfL ${src} ${dst}
-                        run chmod -R u+w ${dst}
+                        $RUN mkdir -p "$(dirname ${dst})"
+                        $RUN cp -rfL ${src} ${dst}
+                        $RUN chmod -R u+w ${dst}
                     ''
                 ) copy
             );
