@@ -1,0 +1,90 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _BPXxVF71 = {
+            "id" = "BPXxVF71";
+            "file" = "ViScriptRecipe-neoforge-1.21.1-1.0.0 beta.jar";
+            "hash" = "sha512-7sdtnFrmmvb97AuSOs/mqY2G+lWSSdlkowvzeCes+wyKRLhiNzE64wQALK+rX0eB0t62nxLanJM03TaWNhzXCg==";
+        };
+        _pEHk7ayb = {
+            "id" = "pEHk7ayb";
+            "file" = "ViScriptRecipe-neoforge-1.21.1-1.0.1 beta.jar";
+            "hash" = "sha512-2whTmujkKi6L30/sTxMs97KtbTR+bi17bL+aTZYdomP1PmVqx6aMS1FHzzp2HlnAre5oaO+kCWFkIrj9xH0OjA==";
+        };
+        _wdrfMFnK = {
+            "id" = "wdrfMFnK";
+            "file" = "ViScriptRecipe-neoforge-1.21.1-1.0.2 beta.jar";
+            "hash" = "sha512-X1r9daMWeCpkUBvnBNySmSjIsM/hkYOpAV39VUVAC+4ArkHQ2id30b4cIbUDOQcA4f9RVPSxOUohfjYHsUaQmg==";
+        };
+        _DiRgIExZ = {
+            "id" = "DiRgIExZ";
+            "file" = "ViScriptRecipe-neoforge-1.21.1-1.0.3 beta.jar";
+            "hash" = "sha512-j2A8pMnG2n5MSmChtK+5tTpxo2zR+5WFxmrnOaJOWfzNvejTLHbbHDl8T3gQPj2TlYVFFKvUnlw+wADDDs1xNQ==";
+        };
+        _Qp78hhfn = {
+            "id" = "Qp78hhfn";
+            "file" = "ViScriptRecipe-neoforge-1.21.1-1.0.6 beta.jar";
+            "hash" = "sha512-eS8gKuGQI2eGYHm0Q1O+BG9aWUPfHBBALWTPzrmQIHnY+VoOBJAjVgFBaaOsEeMwjiWX2+6hfHSsnPK525kV4A==";
+        };
+        _EgB4N450 = {
+            "id" = "EgB4N450";
+            "file" = "ViScriptRecipe-neoforge-1.21.1-1.0.7 beta.jar";
+            "hash" = "sha512-LSCMJvTmcfslC7+rRGKpL2wWk02LXs1I4MrP9p/0SZeIPdZnUnmuz0CZMkrcoj9j+savYcnNSqQgFankno+tMw==";
+        };
+        _PoU7cAaf = {
+            "id" = "PoU7cAaf";
+            "file" = "ViScriptRecipe-neoforge-1.21.1-1.0.8 beta.jar";
+            "hash" = "sha512-ha08CtsJlecq0mCh6hAAbAGWECd9VyDbB59XXIReBiNuyBwRlzdgTk4IAlzLbi52Cv9c2+tB1PBhRO1bBCgzRA==";
+        };
+        _YPRk1Y39 = {
+            "id" = "YPRk1Y39";
+            "file" = "ViScriptRecipe-neoforge-1.21.1-1.0.9 beta.jar";
+            "hash" = "sha512-AEe/dsXfdCC2XicDcj064jpd4gndEWbB8GZR0cP6Ijq9unggAB5E6eG6xRbOcGrG4zLWEQGAHUHVTYmC0HXA3w==";
+        };
+    in {
+        "BPXxVF71" = _BPXxVF71;
+        "pEHk7ayb" = _pEHk7ayb;
+        "wdrfMFnK" = _wdrfMFnK;
+        "DiRgIExZ" = _DiRgIExZ;
+        "Qp78hhfn" = _Qp78hhfn;
+        "EgB4N450" = _EgB4N450;
+        "PoU7cAaf" = _PoU7cAaf;
+        "YPRk1Y39" = _YPRk1Y39;
+        "neoforge-1.21.1" = _YPRk1Y39;
+        "neoforge-1.21.2" = _Qp78hhfn;
+        "neoforge-1.21.3" = _Qp78hhfn;
+        "neoforge-1.21.4" = _Qp78hhfn;
+        "neoforge-1.21.5" = _Qp78hhfn;
+        "neoforge-1.21.6" = _Qp78hhfn;
+        "neoforge-1.21.7" = _Qp78hhfn;
+        "neoforge-1.21.8" = _Qp78hhfn;
+        "neoforge-1.21.9" = _Qp78hhfn;
+        "neoforge-1.21.10" = _Qp78hhfn;
+        "neoforge-1.21.11" = _Qp78hhfn;
+        "pkg-1.0.0beta" = _BPXxVF71;
+        "pkg-1.0.1beta" = _pEHk7ayb;
+        "pkg-1.0.2beta" = _wdrfMFnK;
+        "pkg-1.0.3beta" = _DiRgIExZ;
+        "pkg-1.0.6beta" = _Qp78hhfn;
+        "pkg-1.0.7beta" = _EgB4N450;
+        "pkg-1.0.8beta" = _PoU7cAaf;
+        "pkg-1.0.9beta" = _YPRk1Y39;
+        "default" = _YPRk1Y39;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "viscriptrecipe";
+        id = "xBdVKHp1";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-or-later" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v3.0 or later";
+                shortName = "GPL-3.0-or-later";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

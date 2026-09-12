@@ -1,0 +1,202 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _gV389uqt = {
+            "id" = "gV389uqt";
+            "file" = "SpawnerSystem.jar";
+            "hash" = "sha512-ZM6tCPg73VdU8vE1z6O0Nn+OoOANkpwgNEbgF9yPFTRYvbqIlRWrD0ZXScTGZSyIMwahH1VKJ+BOQPf/DT2X6Q==";
+        };
+        _FuwwuxtV = {
+            "id" = "FuwwuxtV";
+            "file" = "SpawnerSystem-1.4.jar";
+            "hash" = "sha512-wUHQzvgrNSTpMidGo/4ytWIwyJd1mRzik//OXtlPTVhFHys0bsGN8zztjhTP7n5CGgIT9gjddVhCp2IGdE7I2Q==";
+        };
+        _xNMjsZtZ = {
+            "id" = "xNMjsZtZ";
+            "file" = "SpawnerSystem-1.5.jar";
+            "hash" = "sha512-Dphj0XyaudMLb+1RjLN7+EIatf9W7f6pcVIFxeH0aq86MN0+WEHZe8sg+CX0SMA/rdXPZajyYiqTfOTmCzrZcQ==";
+        };
+        _EzmDguh4 = {
+            "id" = "EzmDguh4";
+            "file" = "SpawnerSystem-1.6.jar";
+            "hash" = "sha512-W1ehfeWGgY9jeMG7j/gCBxbtDhgLCWDrD53l74ohbzTAjL4cr4SfhkoI+AdQQSllmWEv9y+zPrllN220L3Zfrw==";
+        };
+        _D5pu0FVw = {
+            "id" = "D5pu0FVw";
+            "file" = "SpawnerSystem-1.7.jar";
+            "hash" = "sha512-wqF6/rqz3juq+7QvlkWLH4NOSHk08gnWFpbTeyapFBdYG7ZjbGfKAxHnHA5Z/iEGIUK2+CATPvvGjcpJpBi5Xw==";
+        };
+        _UQyS913G = {
+            "id" = "UQyS913G";
+            "file" = "SpawnerSystem-1.7.1.jar";
+            "hash" = "sha512-PrKp+K9eTMhcgqHeZytzKd4iWSvxzr1Slban1Sq6u2VXf7sJ7poeCS8KdkxD/WpFJjy62Fto/o9lk0sshKWILQ==";
+        };
+        _bpDg1mfi = {
+            "id" = "bpDg1mfi";
+            "file" = "SpawnerSystem-1.7.2.jar";
+            "hash" = "sha512-qls8j9g9wG+0V9aJZJ8dO5TQ34BAjUoBeJ1kKRwndztbcaTUdjzyemfwSV+GXokmV2tKjzxDeT9+M7sm1PKeag==";
+        };
+        _5fPXCI3A = {
+            "id" = "5fPXCI3A";
+            "file" = "SpawnerSystem-1.8.jar";
+            "hash" = "sha512-7+pPonPfTNUA9V4f6VOWr9dT0Gf3F/d6W+dsIs09iMTqRkPgRVAtGiBpaaeQ6JtZfgaVx61rtX2wf7Sdz/7PWw==";
+        };
+        _EHz5SEIq = {
+            "id" = "EHz5SEIq";
+            "file" = "SpawnerSystem-1.9.jar";
+            "hash" = "sha512-c63KP4xHYky+YvQN61PgDD95voBlyDSnaOVmEIIT/olLa5adJ4epzAuVWwe5MbdkGRwiC0g0JzDsCZLaKRstbw==";
+        };
+        _djq0xk9v = {
+            "id" = "djq0xk9v";
+            "file" = "SpawnerSystem-1.9.1.jar";
+            "hash" = "sha512-NTJMX0FaP0j4jq0MxtpsifxCPAoNCYmBDQBk5tYeaGQSE0tNYvplOr0rehrELyw7+yLHhphObqCA3vslYIimxg==";
+        };
+        _GqANljJi = {
+            "id" = "GqANljJi";
+            "file" = "SpawnerSystem-1.9.2.jar";
+            "hash" = "sha512-Y2sZMjAbnteFR1b2yogqy052BUev9V+ZcAwc50QjCG+mslSs8U8+mpvo9hIdXKVv9XrCZd9BD7KSy6oU55VTZg==";
+        };
+        _CvVdmeH7 = {
+            "id" = "CvVdmeH7";
+            "file" = "SpawnerSystem-1.9.3.jar";
+            "hash" = "sha512-qKk9geBS2cAy4tGCikps/A+aLx6QwjLuxsMbMoVsGQTRPx7aOK5sQKbyuykQM5LZb09qeR2oaxDC8UAWYxuNcQ==";
+        };
+    in {
+        "gV389uqt" = _gV389uqt;
+        "FuwwuxtV" = _FuwwuxtV;
+        "xNMjsZtZ" = _xNMjsZtZ;
+        "EzmDguh4" = _EzmDguh4;
+        "D5pu0FVw" = _D5pu0FVw;
+        "UQyS913G" = _UQyS913G;
+        "bpDg1mfi" = _bpDg1mfi;
+        "5fPXCI3A" = _5fPXCI3A;
+        "EHz5SEIq" = _EHz5SEIq;
+        "djq0xk9v" = _djq0xk9v;
+        "GqANljJi" = _GqANljJi;
+        "CvVdmeH7" = _CvVdmeH7;
+        "folia-1.20.4" = _CvVdmeH7;
+        "folia-1.20.5" = _CvVdmeH7;
+        "folia-1.20.6" = _CvVdmeH7;
+        "folia-1.21" = _CvVdmeH7;
+        "folia-1.21.1" = _CvVdmeH7;
+        "folia-1.21.2" = _CvVdmeH7;
+        "folia-1.21.3" = _CvVdmeH7;
+        "folia-1.21.4" = _CvVdmeH7;
+        "folia-1.21.5" = _CvVdmeH7;
+        "folia-1.21.6" = _CvVdmeH7;
+        "folia-1.21.7" = _CvVdmeH7;
+        "folia-1.21.8" = _CvVdmeH7;
+        "folia-1.21.9" = _CvVdmeH7;
+        "folia-1.21.10" = _CvVdmeH7;
+        "folia-1.21.11" = _CvVdmeH7;
+        "folia-26.1" = _CvVdmeH7;
+        "folia-26.1.1" = _CvVdmeH7;
+        "folia-26.1.2" = _CvVdmeH7;
+        "folia-26.2" = _CvVdmeH7;
+        "paper-1.20.4" = _CvVdmeH7;
+        "paper-1.20.5" = _CvVdmeH7;
+        "paper-1.20.6" = _CvVdmeH7;
+        "paper-1.21" = _CvVdmeH7;
+        "paper-1.21.1" = _CvVdmeH7;
+        "paper-1.21.2" = _CvVdmeH7;
+        "paper-1.21.3" = _CvVdmeH7;
+        "paper-1.21.4" = _CvVdmeH7;
+        "paper-1.21.5" = _CvVdmeH7;
+        "paper-1.21.6" = _CvVdmeH7;
+        "paper-1.21.7" = _CvVdmeH7;
+        "paper-1.21.8" = _CvVdmeH7;
+        "paper-1.21.9" = _CvVdmeH7;
+        "paper-1.21.10" = _CvVdmeH7;
+        "paper-1.21.11" = _CvVdmeH7;
+        "paper-26.1" = _CvVdmeH7;
+        "paper-26.1.1" = _CvVdmeH7;
+        "paper-26.1.2" = _CvVdmeH7;
+        "paper-26.2" = _CvVdmeH7;
+        "purpur-1.20.4" = _CvVdmeH7;
+        "purpur-1.20.5" = _CvVdmeH7;
+        "purpur-1.20.6" = _CvVdmeH7;
+        "purpur-1.21" = _CvVdmeH7;
+        "purpur-1.21.1" = _CvVdmeH7;
+        "purpur-1.21.2" = _CvVdmeH7;
+        "purpur-1.21.3" = _CvVdmeH7;
+        "purpur-1.21.4" = _CvVdmeH7;
+        "purpur-1.21.5" = _CvVdmeH7;
+        "purpur-1.21.6" = _CvVdmeH7;
+        "purpur-1.21.7" = _CvVdmeH7;
+        "purpur-1.21.8" = _CvVdmeH7;
+        "purpur-1.21.9" = _CvVdmeH7;
+        "purpur-1.21.10" = _CvVdmeH7;
+        "purpur-1.21.11" = _CvVdmeH7;
+        "purpur-26.1" = _CvVdmeH7;
+        "purpur-26.1.1" = _CvVdmeH7;
+        "purpur-26.1.2" = _CvVdmeH7;
+        "purpur-26.2" = _CvVdmeH7;
+        "spigot-1.20.4" = _CvVdmeH7;
+        "spigot-1.20.5" = _CvVdmeH7;
+        "spigot-1.20.6" = _CvVdmeH7;
+        "spigot-1.21" = _CvVdmeH7;
+        "spigot-1.21.1" = _CvVdmeH7;
+        "spigot-1.21.2" = _CvVdmeH7;
+        "spigot-1.21.3" = _CvVdmeH7;
+        "spigot-1.21.4" = _CvVdmeH7;
+        "spigot-1.21.5" = _CvVdmeH7;
+        "spigot-1.21.6" = _CvVdmeH7;
+        "spigot-1.21.7" = _CvVdmeH7;
+        "spigot-1.21.8" = _CvVdmeH7;
+        "spigot-1.21.9" = _CvVdmeH7;
+        "spigot-1.21.10" = _CvVdmeH7;
+        "spigot-1.21.11" = _CvVdmeH7;
+        "spigot-26.1" = _CvVdmeH7;
+        "spigot-26.1.1" = _CvVdmeH7;
+        "spigot-26.1.2" = _CvVdmeH7;
+        "spigot-26.2" = _CvVdmeH7;
+        "bukkit-1.20.4" = _CvVdmeH7;
+        "bukkit-1.20.5" = _CvVdmeH7;
+        "bukkit-1.20.6" = _CvVdmeH7;
+        "bukkit-1.21" = _CvVdmeH7;
+        "bukkit-1.21.1" = _CvVdmeH7;
+        "bukkit-1.21.2" = _CvVdmeH7;
+        "bukkit-1.21.3" = _CvVdmeH7;
+        "bukkit-1.21.4" = _CvVdmeH7;
+        "bukkit-1.21.5" = _CvVdmeH7;
+        "bukkit-1.21.6" = _CvVdmeH7;
+        "bukkit-1.21.7" = _CvVdmeH7;
+        "bukkit-1.21.8" = _CvVdmeH7;
+        "bukkit-1.21.9" = _CvVdmeH7;
+        "bukkit-1.21.10" = _CvVdmeH7;
+        "bukkit-1.21.11" = _CvVdmeH7;
+        "bukkit-26.1" = _CvVdmeH7;
+        "bukkit-26.1.1" = _CvVdmeH7;
+        "bukkit-26.1.2" = _CvVdmeH7;
+        "bukkit-26.2" = _CvVdmeH7;
+        "pkg-1.3" = _gV389uqt;
+        "pkg-1.4" = _FuwwuxtV;
+        "pkg-1.5" = _xNMjsZtZ;
+        "pkg-1.6" = _EzmDguh4;
+        "pkg-1.7" = _D5pu0FVw;
+        "pkg-1.7.1" = _UQyS913G;
+        "pkg-1.7.2" = _bpDg1mfi;
+        "pkg-1.8" = _5fPXCI3A;
+        "pkg-1.9" = _EHz5SEIq;
+        "pkg-1.9.1" = _djq0xk9v;
+        "pkg-1.9.2" = _GqANljJi;
+        "pkg-1.9.3" = _CvVdmeH7;
+        "default" = _CvVdmeH7;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "spawnersystem";
+        id = "4jPGg2yd";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "GPL-3.0-only" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "GNU General Public License v3.0 only";
+                shortName = "GPL-3.0-only";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}
