@@ -27,6 +27,7 @@
                 } // args)
             );
             prismnix = prismnixWith {};
+            default = prismnix;
         };
         lib.prismnix = import ./lib {inherit lib;};
 
