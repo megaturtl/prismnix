@@ -2,10 +2,6 @@
     description = "Flake to install PrismLauncher for Minecraft and create your instances declaratively";
 
     inputs = {
-        prismlauncher = {
-            url = "github:PrismLauncher/PrismLauncher";
-            inputs.nixpkgs.follows = "nixpkgs";
-        };
         home-manager =  {
             url = "github:nix-community/home-manager";
             inputs.nixpkgs.follows = "nixpkgs";
@@ -17,9 +13,9 @@
         nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
         flake-utils.url = "github:numtide/flake-utils";
     };
-    outputs = {self, nixpkgs, prismlauncher, flake-utils, ...}@inputs:
+    outputs = {self, nixpkgs, flake-utils, ...}@inputs:
     let
-        systems = builtins.attrNames (prismlauncher.packages);
+        systems = nixpkgs.lib.systems.flakeExposed;
         lib = nixpkgs.lib // self.lib;
     in
     {
