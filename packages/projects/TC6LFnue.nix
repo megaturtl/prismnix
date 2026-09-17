@@ -1291,6 +1291,21 @@ let
             "file" = "energeticsheep-26.2-neoforge-1.2.0-261.jar";
             "hash" = "sha512-T1zak7fSXpNOPkpFOiYZ+XzgLZrHP3q5TeFvqT924NcXkt9yMh6x2VHgf5vzv6N9yE5coxv+O50EkefZ5RDE6g==";
         };
+        _fDsNNZ7j = {
+            "id" = "fDsNNZ7j";
+            "file" = "energeticsheep-26.1.2-fabric-1.2.0-262.jar";
+            "hash" = "sha512-zC75YsELCPoOCbB0vrTb9FVr0dSM7uBfoetyQk8ETYy5V1nwMRZ5QyN7v6w6iSQyrrGicBfKECPqal8Tcu3x9g==";
+        };
+        _Qf3sZyhU = {
+            "id" = "Qf3sZyhU";
+            "file" = "energeticsheep-26.1.2-forge-1.2.0-262.jar";
+            "hash" = "sha512-1jCwsDE2yZDEgW/v4UNXFdbFwkALhbO+tKuSmhJu9eBXLHNQu+FDG+Vre6vPNaFXhcNzUTLl9Ur55p3enPwMWQ==";
+        };
+        _tMOlzO34 = {
+            "id" = "tMOlzO34";
+            "file" = "energeticsheep-26.1.2-neoforge-1.2.0-262.jar";
+            "hash" = "sha512-EboQAL6M3BQGsFPbOwBRnLLqYW//K+1BuRmYcJwKONamZrPNJ512GJtnR4gdaiHgyLValaVj7ULdC/mtmf/3vw==";
+        };
     in {
         "zPPom6H2" = _zPPom6H2;
         "HHEXwaJB" = _HHEXwaJB;
@@ -1550,6 +1565,9 @@ let
         "ncd2mHmd" = _ncd2mHmd;
         "WmFP0qTB" = _WmFP0qTB;
         "N0fu2Ydm" = _N0fu2Ydm;
+        "fDsNNZ7j" = _fDsNNZ7j;
+        "Qf3sZyhU" = _Qf3sZyhU;
+        "tMOlzO34" = _tMOlzO34;
         "forge-1.18.2" = _VWmlOiw9;
         "forge-1.19" = _BIoZbAIS;
         "forge-1.19.2" = _fgVphD0J;
@@ -1563,7 +1581,7 @@ let
         "forge-1.21.10" = _YhCzG7KV;
         "forge-1.21.11" = _KCzhGFB8;
         "forge-26.1.1" = _JETIJsqV;
-        "forge-26.1.2" = _OnS1zTk4;
+        "forge-26.1.2" = _Qf3sZyhU;
         "forge-26.2" = _ncd2mHmd;
         "neoforge-1.20.4" = _jxpOxnol;
         "neoforge-1.21" = _kaxcbZlz;
@@ -1574,7 +1592,7 @@ let
         "neoforge-1.21.10" = _y7d6xEl1;
         "neoforge-1.21.11" = _fqWCGqwB;
         "neoforge-26.1.1" = _1ZnEh2gW;
-        "neoforge-26.1.2" = _h8en4nY2;
+        "neoforge-26.1.2" = _tMOlzO34;
         "neoforge-26.2" = _N0fu2Ydm;
         "fabric-1.21.1" = _5n7wVVRp;
         "fabric-1.21.4" = _9rE2cuZw;
@@ -1583,7 +1601,7 @@ let
         "fabric-1.21.10" = _uS0lOYbf;
         "fabric-1.21.11" = _U4NehrJF;
         "fabric-26.1.1" = _P4LjA1Ip;
-        "fabric-26.1.2" = _SWOjfMVF;
+        "fabric-26.1.2" = _fDsNNZ7j;
         "fabric-26.2" = _WmFP0qTB;
         "quilt-1.21.1" = _5n7wVVRp;
         "quilt-1.21.4" = _9rE2cuZw;
@@ -1592,7 +1610,7 @@ let
         "quilt-1.21.10" = _uS0lOYbf;
         "quilt-1.21.11" = _U4NehrJF;
         "quilt-26.1.1" = _P4LjA1Ip;
-        "quilt-26.1.2" = _SWOjfMVF;
+        "quilt-26.1.2" = _fDsNNZ7j;
         "quilt-26.2" = _WmFP0qTB;
         "pkg-1.1.8" = _zPPom6H2;
         "pkg-1.19-1.1.8" = _HHEXwaJB;
@@ -1694,7 +1712,8 @@ let
         "pkg-1.21.1-1.1.18-259" = _5n7wVVRp;
         "pkg-26.1.2-1.2.0-260" = _h8en4nY2;
         "pkg-26.2-1.2.0-261" = _N0fu2Ydm;
-        "default" = _N0fu2Ydm;
+        "pkg-26.1.2-1.2.0-262" = _tMOlzO34;
+        "default" = _tMOlzO34;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "energetic-sheep";

@@ -271,6 +271,16 @@ let
             "file" = "DeathFinder-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-+p8M6RPOs6zvTABDlvgCMgGhXYMmD3fToMTuYXBt+mr633raqHZnylr8sAz7Kbs0UKQYX1ukyx8Pu8U+U4C4OQ==";
         };
+        _CpT6ZFRr = {
+            "id" = "CpT6ZFRr";
+            "file" = "DeathFinder-v21.1.2-mc1.21.1-Fabric.jar";
+            "hash" = "sha512-bGOdTet+DsLiYpuFkONKUdzSSG12P44Bjq6iA5S3frcdUd4SRsfiYfLenZ8TWC1m0nwXf068egSNFMO5GdLnyQ==";
+        };
+        _5GzZQzoI = {
+            "id" = "5GzZQzoI";
+            "file" = "DeathFinder-v21.1.2-mc1.21.1-NeoForge.jar";
+            "hash" = "sha512-e+4f71ri9ktRLr+5vBA6TG4ai2TFuhn+ojXejWvYCP2tNLb8ubQND/AluwPoFliatk7eQ5sueV0ibCBztKaOFQ==";
+        };
     in {
         "U2IgpWHC" = _U2IgpWHC;
         "dsYg97xu" = _dsYg97xu;
@@ -326,6 +336,8 @@ let
         "Fa4J4cUk" = _Fa4J4cUk;
         "VFvoONj1" = _VFvoONj1;
         "coLZY2yK" = _coLZY2yK;
+        "CpT6ZFRr" = _CpT6ZFRr;
+        "5GzZQzoI" = _5GzZQzoI;
         "fabric-1.19.1" = _xOSPnZoF;
         "fabric-1.19.2" = _DrNpSo6o;
         "fabric-1.19.3" = _N2QoLPCC;
@@ -334,7 +346,7 @@ let
         "fabric-1.20.1" = _mqkYUele;
         "fabric-1.18.2" = _3JaM0Uad;
         "fabric-1.20.4" = _zhsKvyvK;
-        "fabric-1.21.1" = _KIvvXyhQ;
+        "fabric-1.21.1" = _CpT6ZFRr;
         "fabric-1.21.3" = _FU5kd8zu;
         "fabric-1.21.4" = _Lqz1CiTd;
         "fabric-1.21.5" = _hq4T4i54;
@@ -356,7 +368,7 @@ let
         "forge-1.18.2" = _qV6f8Bvr;
         "forge-1.20.4" = _AWfYSe4a;
         "neoforge-1.20.4" = _4ACjokaw;
-        "neoforge-1.21.1" = _xhSQ9L1I;
+        "neoforge-1.21.1" = _5GzZQzoI;
         "neoforge-1.21.3" = _Rdt6PRVw;
         "neoforge-1.21.4" = _Gro2SwhF;
         "neoforge-1.21.5" = _NiOM5hmU;
@@ -416,7 +428,8 @@ let
         "pkg-26.1.1" = _YuvOD6me;
         "pkg-21.11.1" = _Fa4J4cUk;
         "pkg-26.2.0" = _coLZY2yK;
-        "default" = _coLZY2yK;
+        "pkg-21.1.2" = _5GzZQzoI;
+        "default" = _5GzZQzoI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "death-finder";

@@ -2931,6 +2931,76 @@ let
             "file" = "integrateddynamics-1.21.1-neoforge-1.36.0-2045.jar";
             "hash" = "sha512-FMvvhZ90K90MYaJs9SGJWRxxuuPj4DXlvwTlZroPWGmZmW3GgsxsP1Easf6Glz1DervMs345/owbP0KCpfW3kg==";
         };
+        _e0eYLWER = {
+            "id" = "e0eYLWER";
+            "file" = "integrateddynamics-26.1.2-neoforge-1.34.1-2057.jar";
+            "hash" = "sha512-c0mQY7HVbueYsejkNdanogs+QBPW/ifgO9NXrLd5KeRysa8FqmhujkoLT4Py8fgZbbhYJSybAGxLQ2OzsxcbYw==";
+        };
+        _CFyRn96X = {
+            "id" = "CFyRn96X";
+            "file" = "integrateddynamics-1.21.1-neoforge-1.36.0-2066.jar";
+            "hash" = "sha512-Fs11F++q+orN08onLH3ybHkNtgm1pvjAys4nHnzA1o/DNWgOfJhjkOmsdCJ9HaYuG/FjNqatV+DHwaaUYjDQYg==";
+        };
+        _SDsG86IF = {
+            "id" = "SDsG86IF";
+            "file" = "integrateddynamics-1.21.1-neoforge-1.36.0-2069.jar";
+            "hash" = "sha512-p7kKGpyucsxiFIpU3yyhvz8B7xnImsToF6fS+zNmmRLRkR6LDe/O7wgUuVD5maTWlKQBgDFh7n1sS7BHk4R9pA==";
+        };
+        _30gKU3D6 = {
+            "id" = "30gKU3D6";
+            "file" = "integrateddynamics-26.1.2-neoforge-1.34.1-2077.jar";
+            "hash" = "sha512-ogBSo4OQU5EzBPam8eOrlMiMcLKevhwsphbfU0ofxsOGD+mBFZ5WLLlid0APBdHTZiPTm9K/g9SWaYjCL55VyQ==";
+        };
+        _vwi3rWbk = {
+            "id" = "vwi3rWbk";
+            "file" = "integrateddynamics-1.21.1-neoforge-1.36.0-2086.jar";
+            "hash" = "sha512-Om5er4R6Eo28/6NUuHH7qceIFElWtYU5QAP8yeJjMna5WBPLT65VcSxCY1L/tw75+b7zXepuHzYQ0bv9F8TpFQ==";
+        };
+        _3XgPGrIU = {
+            "id" = "3XgPGrIU";
+            "file" = "integrateddynamics-1.21.1-neoforge-1.36.0-2089.jar";
+            "hash" = "sha512-vkzNL+Cs7hiKY4hU9zAxEmOOE4gIGc3q/6Xl3cjqIUnXI4kiVULFsRFPnLUk4dw3IVHxFCGbi9LPrQ7EWUIFPA==";
+        };
+        _sBcvnDGS = {
+            "id" = "sBcvnDGS";
+            "file" = "integrateddynamics-1.21.1-neoforge-1.36.0-2116.jar";
+            "hash" = "sha512-TZQE2HF2Ik+vMJIAn11vgQOKsK3zkfvt6jIV6zS1TZRjqoENVlr+v38SKzLb5HOSZcaxfLwM7jZzDFowO5dhBA==";
+        };
+        _S0j4LrvJ = {
+            "id" = "S0j4LrvJ";
+            "file" = "IntegratedDynamics-1.20.1-1.31.2.jar";
+            "hash" = "sha512-aASThywmc8qI++XhYV1o+m+LnVldM3kpCYCZe4BEef+T8Lvo1OLhVCCcJi1k0CaUx5G4t4o0VCCQHQlzpW51BQ==";
+        };
+        _JK4qvMtw = {
+            "id" = "JK4qvMtw";
+            "file" = "integrateddynamics-1.21.1-neoforge-1.37.0.jar";
+            "hash" = "sha512-FkQF0oz5Nig/xzRIwYlt+sDec0gYkbYMZpiFezP5N73+wi1waQarDENNbp1t+atA+aJopc72040stEPE3ABnCA==";
+        };
+        _zdTmAhPR = {
+            "id" = "zdTmAhPR";
+            "file" = "integrateddynamics-26.1.2-neoforge-1.35.0.jar";
+            "hash" = "sha512-FC8si4HLwraQnNSvn9Rsc3E9z2mlv8NrjqDaxwFmtnlxO44aODHrEWEQNO/p+jZhAwT9kHVX7SV2Yv5WSLlWTA==";
+        };
+        _Y0wo89au = {
+            "id" = "Y0wo89au";
+            "file" = "integrateddynamics-26.2-neoforge-1.33.4-2125.jar";
+            "hash" = "sha512-7F9uCBVss8RE6+XK4k6kpZWsYBx1lNW63PfcOrAgjI5iEkhR81F/YLWqZTfgVQTRt6PJHum4WQiE6g5qklA5LA==";
+        };
+        _K6fbSoc8 = {
+            "id" = "K6fbSoc8";
+            "file" = "integrateddynamics-1.21.1-neoforge-1.37.1.jar";
+            "hash" = "sha512-5CKWb0RAYTvQeHHsdlRRtUXt1edVTguB+v4J+lTfYAL9McteHacjKah7jRY0E0NFfLOmO9iRrJ3KfZuYUwuJKw==";
+        };
+        _MzqMCwC8 = {
+            "id" = "MzqMCwC8";
+            "file" = "integrateddynamics-26.2-neoforge-1.33.4-2130.jar";
+            "hash" = "sha512-IlS9O2vcUtFzRoY6LHIwyPKFKe7A55UrD3jt/Qw5OIpB8TiMV7GXAYxBFJo6/BlIb2GioO26ugH5dKNB8iz8oQ==";
+        };
+        _kffaKzWx = {
+            "id" = "kffaKzWx";
+            "file" = "integrateddynamics-26.1.2-neoforge-1.35.0-2131.jar";
+            "hash" = "sha512-4jMG2xY4g3oGpIiVqbx6N1CtKMJfn50Q39klhCFrynHyqdVJ9HVOzSbFc0GnXUXSjt7rSD5uZLk1gbcyk5cl2g==";
+        };
     in {
         "uoNGqKEf" = _uoNGqKEf;
         "RkIdm3Q5" = _RkIdm3Q5;
@@ -3518,23 +3588,37 @@ let
         "unGXznBa" = _unGXznBa;
         "VSHMDrv8" = _VSHMDrv8;
         "QkZaFzOp" = _QkZaFzOp;
+        "e0eYLWER" = _e0eYLWER;
+        "CFyRn96X" = _CFyRn96X;
+        "SDsG86IF" = _SDsG86IF;
+        "30gKU3D6" = _30gKU3D6;
+        "vwi3rWbk" = _vwi3rWbk;
+        "3XgPGrIU" = _3XgPGrIU;
+        "sBcvnDGS" = _sBcvnDGS;
+        "S0j4LrvJ" = _S0j4LrvJ;
+        "JK4qvMtw" = _JK4qvMtw;
+        "zdTmAhPR" = _zdTmAhPR;
+        "Y0wo89au" = _Y0wo89au;
+        "K6fbSoc8" = _K6fbSoc8;
+        "MzqMCwC8" = _MzqMCwC8;
+        "kffaKzWx" = _kffaKzWx;
         "forge-1.18.2" = _orW9jQa8;
         "forge-1.19" = _kRsde6xp;
         "forge-1.19.2" = _a7CDzUAl;
         "forge-1.19.3" = _F4sQvL3T;
         "forge-1.19.4" = _6ostx9TW;
-        "forge-1.20.1" = _wQyJ6mg7;
+        "forge-1.20.1" = _S0j4LrvJ;
         "neoforge-1.20.4" = _6VcBjsah;
         "neoforge-1.21" = _b8YCMqOp;
-        "neoforge-1.21.1" = _QkZaFzOp;
+        "neoforge-1.21.1" = _K6fbSoc8;
         "neoforge-1.21.4" = _aKovvXY3;
         "neoforge-1.21.7" = _2928lRsl;
         "neoforge-1.21.8" = _JjQKiD4L;
         "neoforge-1.21.10" = _u8eWUUQc;
         "neoforge-1.21.11" = _LyoRdjuN;
         "neoforge-26.1.1" = _l1XSkKsv;
-        "neoforge-26.1.2" = _unGXznBa;
-        "neoforge-26.2" = _VSHMDrv8;
+        "neoforge-26.1.2" = _kffaKzWx;
+        "neoforge-26.2" = _MzqMCwC8;
         "pkg-1.11.0" = _uoNGqKEf;
         "pkg-1.11.1" = _RkIdm3Q5;
         "pkg-1.18.2-1.11.2" = _N1O6AOgI;
@@ -4120,7 +4204,21 @@ let
         "pkg-26.1.2-1.34.1" = _unGXznBa;
         "pkg-26.2-1.33.4-2022" = _VSHMDrv8;
         "pkg-1.21.1-1.36.0-2045" = _QkZaFzOp;
-        "default" = _QkZaFzOp;
+        "pkg-26.1.2-1.34.1-2057" = _e0eYLWER;
+        "pkg-1.21.1-1.36.0-2066" = _CFyRn96X;
+        "pkg-1.21.1-1.36.0-2069" = _SDsG86IF;
+        "pkg-26.1.2-1.34.1-2077" = _30gKU3D6;
+        "pkg-1.21.1-1.36.0-2086" = _vwi3rWbk;
+        "pkg-1.21.1-1.36.0-2089" = _3XgPGrIU;
+        "pkg-1.21.1-1.36.0-2116" = _sBcvnDGS;
+        "pkg-1.20.1-1.31.2" = _S0j4LrvJ;
+        "pkg-1.21.1-1.37.0" = _JK4qvMtw;
+        "pkg-26.1.2-1.35.0" = _zdTmAhPR;
+        "pkg-26.2-1.33.4-2125" = _Y0wo89au;
+        "pkg-1.21.1-1.37.1" = _K6fbSoc8;
+        "pkg-26.2-1.33.4-2130" = _MzqMCwC8;
+        "pkg-26.1.2-1.35.0-2131" = _kffaKzWx;
+        "default" = _kffaKzWx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "integrated-dynamics";

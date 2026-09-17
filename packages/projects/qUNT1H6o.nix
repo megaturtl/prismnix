@@ -421,6 +421,11 @@ let
             "file" = "bkupsV3-neoforge-mod-26.2.jar";
             "hash" = "sha512-P2+jbwTmNyscQfzEUfS+51g0AghfDbqcpxaZrqkQjLZ05QP6J47FVU3hURuh18jNV4NDqHjxc0PJ75lNHzVxCQ==";
         };
+        _TvTbicvE = {
+            "id" = "TvTbicvE";
+            "file" = "bkupsV3-fabric-mod-26.3.jar";
+            "hash" = "sha512-Nv+IlIq0AY2Ur/4JJzCXWe4lti/T695rBvaP1stIksuuw2zvaG1DW1VNxbA8nvnQFt5GkUpnwW1wit1QJKQOrw==";
+        };
     in {
         "3o01obV6" = _3o01obV6;
         "nWo2vblU" = _nWo2vblU;
@@ -506,6 +511,7 @@ let
         "aHG5FCwi" = _aHG5FCwi;
         "WM2x6Ch0" = _WM2x6Ch0;
         "3zDbxwJZ" = _3zDbxwJZ;
+        "TvTbicvE" = _TvTbicvE;
         "fabric-1.20.1" = _1mE2Yl6F;
         "fabric-1.20.2" = _T6YdqCfR;
         "fabric-1.20.3" = _1GVHYBCk;
@@ -528,6 +534,7 @@ let
         "fabric-26.1.1" = _zIENpy2D;
         "fabric-26.1.2" = _zIENpy2D;
         "fabric-26.2" = _aHG5FCwi;
+        "fabric-26.3" = _TvTbicvE;
         "forge-1.20.4" = _R6jPA8Uq;
         "forge-1.20.6" = _wvnsdeA6;
         "forge-1.21" = _OPmaJB5b;
@@ -645,7 +652,8 @@ let
         "pkg-26.2-Fabric-V3" = _aHG5FCwi;
         "pkg-26.2-Forge-V3" = _WM2x6Ch0;
         "pkg-26.2-NeoForge-V3" = _3zDbxwJZ;
-        "default" = _3zDbxwJZ;
+        "pkg-26.3-Fabric-V3" = _TvTbicvE;
+        "default" = _TvTbicvE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bkups";

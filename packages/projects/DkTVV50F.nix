@@ -161,6 +161,16 @@ let
             "file" = "goety-fabric-0.6.1-forge2.5.57.2+mc1.20.1.jar";
             "hash" = "sha512-r6LhnxjdcH7RM9BK6lv5vKLLPDAF22NKUduQEO0qnV8koOATq1cTrDw5ZHvRX2WpMzoJ8lwJiozpQcmFO5qMSA==";
         };
+        _9Ol29p94 = {
+            "id" = "9Ol29p94";
+            "file" = "goety-fabric-0.6.2-forge2.5.57.3+mc1.20.1.jar";
+            "hash" = "sha512-Q/lZ10K82vuISQExouUe+fn9GpxzOOvTF3bxhyrupqgcgFuQTKODLsgttn+GETf03WVu6bhCURsgmKk31qo9pQ==";
+        };
+        _KuwvSQhj = {
+            "id" = "KuwvSQhj";
+            "file" = "goety-fabric-0.7.0-forge2.5.58.2+mc1.20.1.jar";
+            "hash" = "sha512-ZbJeBNJpwB11S80L6GgH5PsDeKMTIVQgc75uP8nAqyeJqEtOtq2Hf/D/HV6OswOo5n9zRGdlrXT5UbbQmktiJQ==";
+        };
     in {
         "WCUdyMx9" = _WCUdyMx9;
         "3y1G74uT" = _3y1G74uT;
@@ -194,7 +204,9 @@ let
         "hUiMkp9E" = _hUiMkp9E;
         "6NPd0OWf" = _6NPd0OWf;
         "A5U8BYd7" = _A5U8BYd7;
-        "fabric-1.20.1" = _A5U8BYd7;
+        "9Ol29p94" = _9Ol29p94;
+        "KuwvSQhj" = _KuwvSQhj;
+        "fabric-1.20.1" = _KuwvSQhj;
         "pkg-0.0.1-forge2.5.50.2+mc1.20.1" = _WCUdyMx9;
         "pkg-0.0.2-forge2.5.51.0+mc1.20.1" = _3y1G74uT;
         "pkg-0.0.3-forge2.5.51.0+mc1.20.1" = _41d2cl1S;
@@ -227,7 +239,9 @@ let
         "pkg-0.5.4-forge2.5.56.5+mc1.20.1" = _hUiMkp9E;
         "pkg-0.6.0-forge2.5.57.0+mc1.20.1" = _6NPd0OWf;
         "pkg-0.6.1-forge2.5.57.2+mc1.20.1" = _A5U8BYd7;
-        "default" = _A5U8BYd7;
+        "pkg-0.6.2-forge2.5.57.3+mc1.20.1" = _9Ol29p94;
+        "pkg-0.7.0-forge2.5.58.2+mc1.20.1" = _KuwvSQhj;
+        "default" = _KuwvSQhj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "goety-fabric";

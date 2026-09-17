@@ -31,6 +31,11 @@ let
             "file" = "Wynnilla UI 1.0.2.zip";
             "hash" = "sha512-z+7KTibnBFY7hZvWZlTvIfUdJcyz7U/L7uBzMgfRMn0IATerPN7s4Fg51krpTeRKbG8PGibv2OtgWuc0ooqkXg==";
         };
+        _HoAyBiDf = {
+            "id" = "HoAyBiDf";
+            "file" = "Wynnilla UI 1.1.0.zip";
+            "hash" = "sha512-JOYbolIhnKDX1kPXn3+3IYBOv87v1+lGtPtiexXyhFbyZOf5iAU4vq68Rlo6X+ZT5Im+5IdWCsIG9oc266hd4w==";
+        };
     in {
         "L7d1m0Mn" = _L7d1m0Mn;
         "cuU4cXTd" = _cuU4cXTd;
@@ -38,14 +43,16 @@ let
         "lnpmiY4S" = _lnpmiY4S;
         "TQoXksMf" = _TQoXksMf;
         "JkcwoeHd" = _JkcwoeHd;
-        "minecraft-1.21.11" = _JkcwoeHd;
+        "HoAyBiDf" = _HoAyBiDf;
+        "minecraft-1.21.11" = _HoAyBiDf;
         "pkg-0.9.9" = _L7d1m0Mn;
         "pkg-1.0.0_WynnEdits" = _cuU4cXTd;
         "pkg-1.0.0" = _QwE2pFRi;
         "pkg-1.0.1" = _lnpmiY4S;
         "pkg-1.0.2_WynnEdits" = _TQoXksMf;
         "pkg-1.0.2" = _JkcwoeHd;
-        "default" = _JkcwoeHd;
+        "pkg-1.1.0" = _HoAyBiDf;
+        "default" = _HoAyBiDf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wynnilla";

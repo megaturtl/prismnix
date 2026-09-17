@@ -26,18 +26,31 @@ let
             "file" = "betterchunkborders-1.0.2.jar";
             "hash" = "sha512-+qv8tMMIm7xvKL4GcPH7wMVkpSQvyUqd8q/LyrYtddSNoXLqb+ljwkjWJJTKTheGD703QSH06yyHgb1pheHr0g==";
         };
+        _35XXMjpj = {
+            "id" = "35XXMjpj";
+            "file" = "betterchunkborders-1.0.2.jar";
+            "hash" = "sha512-YwDiTwUo0nY7TTtdEHPbo4dJnOmB2COM6u4WNs0HP2Pm+cvXiG8tukcLIIn5wr+1qjSYy/BPCOaYjIKFITlG/Q==";
+        };
+        _w5WxbSmW = {
+            "id" = "w5WxbSmW";
+            "file" = "betterchunkborders-1.0.2.jar";
+            "hash" = "sha512-0VFkuwU72z23yC+3kLyyPkydJ5pMdqpQSSUjy1iRs2Z6qgVGduFfP+bgctOznMfh8KtY3vTSihqpYQQYEeLuSg==";
+        };
     in {
         "3zTMRGKv" = _3zTMRGKv;
         "iK89D0vR" = _iK89D0vR;
         "fMotqS5t" = _fMotqS5t;
         "3PFaXaxX" = _3PFaXaxX;
         "V0J5AzSr" = _V0J5AzSr;
+        "35XXMjpj" = _35XXMjpj;
+        "w5WxbSmW" = _w5WxbSmW;
         "fabric-1.21.11" = _fMotqS5t;
         "fabric-26.1.2" = _3PFaXaxX;
         "fabric-26.2" = _V0J5AzSr;
+        "fabric-26.3" = _w5WxbSmW;
         "pkg-1.0.1" = _iK89D0vR;
-        "pkg-1.0.2" = _V0J5AzSr;
-        "default" = _V0J5AzSr;
+        "pkg-1.0.2" = _w5WxbSmW;
+        "default" = _w5WxbSmW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-chunk-borders";

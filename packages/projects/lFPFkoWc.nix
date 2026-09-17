@@ -131,6 +131,11 @@ let
             "file" = "chattingenthusiast-1.4.7.jar";
             "hash" = "sha512-PMRS4DeVi5gVrJQ2eM6np3vmCKdAAnuwmi4pqe3oIqYIUt7tuJDhAIIHdmU9GKW77coun7ftV8cj0ub/q7Z4Sw==";
         };
+        _84GcLZtx = {
+            "id" = "84GcLZtx";
+            "file" = "chattingenthusiast-1.4.8.jar";
+            "hash" = "sha512-w4RhpeLOEeQP+GDFF0A96hVSZoWa+pNHvxOaHEpV0pb0Fc69NX+s2qUTmsx5T4ZXYSB9yBdlJ5Tsu+0EYzcEiw==";
+        };
     in {
         "Kh3xUGQ7" = _Kh3xUGQ7;
         "HlvLSWwS" = _HlvLSWwS;
@@ -158,6 +163,7 @@ let
         "hDEsY3wN" = _hDEsY3wN;
         "i95zCXon" = _i95zCXon;
         "kOBSxl2E" = _kOBSxl2E;
+        "84GcLZtx" = _84GcLZtx;
         "fabric-1.21.11" = _KVJhRIit;
         "fabric-1.21.9" = _JSKv6X2j;
         "fabric-1.21.10" = _JSKv6X2j;
@@ -165,6 +171,7 @@ let
         "fabric-26.1.1" = _i95zCXon;
         "fabric-26.1.2" = _i95zCXon;
         "fabric-26.2" = _kOBSxl2E;
+        "fabric-26.3" = _84GcLZtx;
         "pkg-1.0.0" = _Kh3xUGQ7;
         "pkg-1.1.0" = _HlvLSWwS;
         "pkg-1.1.1" = _tJIRRsEL;
@@ -181,7 +188,8 @@ let
         "pkg-1.4.5" = _KVJhRIit;
         "pkg-1.4.6" = _hDEsY3wN;
         "pkg-1.4.7" = _kOBSxl2E;
-        "default" = _kOBSxl2E;
+        "pkg-1.4.8" = _84GcLZtx;
+        "default" = _84GcLZtx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chattingenthusiast";

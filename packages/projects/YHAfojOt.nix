@@ -71,6 +71,11 @@ let
             "file" = "Simple Structures Pale Garden 26.2.jar";
             "hash" = "sha512-k+QaHWzYUcnYkBkuouShO19vEcoDtggutMl3D86RNBppTOEHv9H1JpH50ux+VjnS36uhnfwe25bkwqA9pWiMlw==";
         };
+        _TTrw2CMZ = {
+            "id" = "TTrw2CMZ";
+            "file" = "Simple Structures Pale Garden 26.3.jar";
+            "hash" = "sha512-/8Wow5NKqAgAjrsimBtJyXomycBeFBbZgTHpQu5gwpDpwQ+4iOVXJ+gZXNnVcl0KhbJM5u9IkUexoKmySdl66g==";
+        };
     in {
         "5AcJYo9c" = _5AcJYo9c;
         "Rmlksy45" = _Rmlksy45;
@@ -86,6 +91,7 @@ let
         "CIVthnEz" = _CIVthnEz;
         "wwm5SlAm" = _wwm5SlAm;
         "F7kQZTCP" = _F7kQZTCP;
+        "TTrw2CMZ" = _TTrw2CMZ;
         "fabric-1.21.11" = _CIVthnEz;
         "fabric-26.1" = _wwm5SlAm;
         "fabric-26.1.1" = _wwm5SlAm;
@@ -99,6 +105,7 @@ let
         "fabric-1.20.1" = _FJLmgIZ1;
         "fabric-1.21.1" = _PUBEIhgp;
         "fabric-1.21.10" = _CIVthnEz;
+        "fabric-26.3" = _TTrw2CMZ;
         "forge-1.21.11" = _CIVthnEz;
         "forge-26.1" = _wwm5SlAm;
         "forge-26.1.1" = _wwm5SlAm;
@@ -111,6 +118,7 @@ let
         "forge-26.2" = _F7kQZTCP;
         "forge-1.20.1" = _FJLmgIZ1;
         "forge-1.21.10" = _CIVthnEz;
+        "forge-26.3" = _TTrw2CMZ;
         "neoforge-1.21.11" = _CIVthnEz;
         "neoforge-26.1" = _wwm5SlAm;
         "neoforge-26.1.1" = _wwm5SlAm;
@@ -123,6 +131,7 @@ let
         "neoforge-26.2" = _F7kQZTCP;
         "neoforge-1.21.1" = _PUBEIhgp;
         "neoforge-1.21.10" = _CIVthnEz;
+        "neoforge-26.3" = _TTrw2CMZ;
         "datapack-1.21.11" = _Rmlksy45;
         "datapack-26.1-pre-2" = _lcFJd6iW;
         "datapack-26.1-pre-3" = _a6437LgI;
@@ -131,7 +140,8 @@ let
         "datapack-26.1.1" = _iuoDFfbz;
         "pkg-1.0" = _T8H8zzC3;
         "pkg-1.1" = _F7kQZTCP;
-        "default" = _F7kQZTCP;
+        "pkg-1.1.1" = _TTrw2CMZ;
+        "default" = _TTrw2CMZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-structure-pale-garden";

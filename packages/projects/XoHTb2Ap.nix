@@ -226,6 +226,11 @@ let
             "file" = "calcmod-1.5.2+paper.26.2.jar";
             "hash" = "sha512-48JTVdJ2nzN+FAN/pModaJTCkEA8S9tHI4v+90bgM7QSDkdyY6TqKXIP6ydciMt1nTcJdBfGbd6CwYuy5CUKyw==";
         };
+        _9BJsVSBw = {
+            "id" = "9BJsVSBw";
+            "file" = "calcmod-1.6.0+fabric.26.3.jar";
+            "hash" = "sha512-T9oTSQBISE3QBTenTxAxVR7WVfiICT/ZrKN1TAohH0NjZeWUOLpHVQVGeq5Ii1useHViiZjya4dKZ7jtZ4l5vw==";
+        };
     in {
         "wJfKN9v0" = _wJfKN9v0;
         "tNIJLQ0s" = _tNIJLQ0s;
@@ -272,6 +277,7 @@ let
         "PGgsZUpY" = _PGgsZUpY;
         "T4TaL1x7" = _T4TaL1x7;
         "WPlXiQuA" = _WPlXiQuA;
+        "9BJsVSBw" = _9BJsVSBw;
         "fabric-1.19" = _GnWu5MBX;
         "fabric-1.19.1" = _GnWu5MBX;
         "fabric-1.19.2" = _GnWu5MBX;
@@ -319,6 +325,7 @@ let
         "fabric-26.1.1" = _Su5eRdRq;
         "fabric-26.1.2" = _Su5eRdRq;
         "fabric-26.2" = _qyk9ZGgC;
+        "fabric-26.3" = _9BJsVSBw;
         "quilt-1.20" = _Ma4inj0t;
         "quilt-1.20.1" = _Ma4inj0t;
         "quilt-1.19" = _hr8mBtxW;
@@ -346,6 +353,7 @@ let
         "quilt-26.1.1" = _Su5eRdRq;
         "quilt-26.1.2" = _Su5eRdRq;
         "quilt-26.2" = _qyk9ZGgC;
+        "quilt-26.3" = _9BJsVSBw;
         "forge-1.20" = _9YJSPPRw;
         "forge-1.20.1" = _9YJSPPRw;
         "forge-1.20.2" = _9YJSPPRw;
@@ -433,7 +441,8 @@ let
         "pkg-1.5.2+forge.26.2" = _PGgsZUpY;
         "pkg-1.5.2+neoforge.26.2" = _T4TaL1x7;
         "pkg-1.5.2+paper.26.2" = _WPlXiQuA;
-        "default" = _WPlXiQuA;
+        "pkg-1.6.0+fabric.26.3" = _9BJsVSBw;
+        "default" = _9BJsVSBw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "calcmod";

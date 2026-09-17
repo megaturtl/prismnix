@@ -321,6 +321,26 @@ let
             "file" = "aquamirae-neoforge-1.21.1-7.2.4.jar";
             "hash" = "sha512-wkCAsPXz9T9WzOq3YX/wO0gMqTGCenhtjnxcdqg2D9MQQ2oc3Ni2bCOMrwmjFpJb9vrMb9MvKjUHubo3fSmT+Q==";
         };
+        _pMB0C9PZ = {
+            "id" = "pMB0C9PZ";
+            "file" = "aquamirae-fabric-1.21.1-7.2.6.jar";
+            "hash" = "sha512-rM/cQi1XKKBP5wgJv9NRBFjsS+zyjBCnfgJ28cZEkWqd1UMKoqW7y/e8NG77IKDD+VG3+CQeW/ZUpvMsHkkyyQ==";
+        };
+        _y5kem0Ur = {
+            "id" = "y5kem0Ur";
+            "file" = "aquamirae-neoforge-1.21.1-7.2.6.jar";
+            "hash" = "sha512-1r424Eh4B4rcxECk2SXs+7ux7I2fiFK9pRZ0L8PMXUPhG4PfY1koM87WELlpNwb1ReoTNxTwL9CyX6IBP2DXrQ==";
+        };
+        _qXbpNCTw = {
+            "id" = "qXbpNCTw";
+            "file" = "aquamirae-fabric-1.21.1-7.2.7.jar";
+            "hash" = "sha512-Cf36zF+VWNK0J+RpATzvhf+z3z0pxuQ/JTUbBU1ixzOLIcRFeqmNgBBI+l4LRK1ihzQMlFzO/wa49ZwopZKTdg==";
+        };
+        _muWVnCSg = {
+            "id" = "muWVnCSg";
+            "file" = "aquamirae-neoforge-1.21.1-7.2.7.jar";
+            "hash" = "sha512-dAi6zqmv5HIdAwyqvFGVrMxHIUGSLBSvpPybfVrBIyH1wrCIKq4OgJk+A0EndvBmnwbQWSn8PuoP3AJHXiPu0Q==";
+        };
     in {
         "kXsNZuKf" = _kXsNZuKf;
         "CAaXvTip" = _CAaXvTip;
@@ -386,15 +406,19 @@ let
         "9KJNVKV6" = _9KJNVKV6;
         "YBBSntev" = _YBBSntev;
         "pkkHhFpg" = _pkkHhFpg;
+        "pMB0C9PZ" = _pMB0C9PZ;
+        "y5kem0Ur" = _y5kem0Ur;
+        "qXbpNCTw" = _qXbpNCTw;
+        "muWVnCSg" = _muWVnCSg;
         "forge-1.16.5" = _kXsNZuKf;
         "forge-1.18.2" = _CAaXvTip;
         "forge-1.19.2" = _Wc9ngskb;
         "forge-1.20.1" = _72GwOBcB;
         "fabric-1.20.1" = _JR13a3vr;
-        "fabric-1.21.1" = _YBBSntev;
+        "fabric-1.21.1" = _qXbpNCTw;
         "quilt-1.20.1" = _JR13a3vr;
-        "quilt-1.21.1" = _YBBSntev;
-        "neoforge-1.21.1" = _pkkHhFpg;
+        "quilt-1.21.1" = _qXbpNCTw;
+        "neoforge-1.21.1" = _muWVnCSg;
         "pkg-5.4.0" = _kXsNZuKf;
         "pkg-5.0.0" = _CAaXvTip;
         "pkg-5.6.0" = _v2QyW19e;
@@ -434,7 +458,9 @@ let
         "pkg-7.2.2" = _DICsBLVx;
         "pkg-7.2.3" = _9KJNVKV6;
         "pkg-7.2.4" = _pkkHhFpg;
-        "default" = _pkkHhFpg;
+        "pkg-7.2.6" = _y5kem0Ur;
+        "pkg-7.2.7" = _muWVnCSg;
+        "default" = _muWVnCSg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aquamirae";

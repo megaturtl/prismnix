@@ -21,20 +21,28 @@ let
             "file" = "nofirstpersonpotions-1.2.0-26.2.jar";
             "hash" = "sha512-Yn1LMq4mxeb8lWP3pVoKIwJMhQ4xojZ+8KkNBBCb2+Y5BO/vmXnfhFyJ3aR5v4E+u866ru/GZuxTKrKHmXzhKQ==";
         };
+        _jrLEE09u = {
+            "id" = "jrLEE09u";
+            "file" = "nofirstpersonpotions-1.2.0-26.3.jar";
+            "hash" = "sha512-pf5VvD6kFeRzVGIWZ/R+hiLRp+M+VzapfaMD2HzZID26gRlgFeRCz5/PSdLVIBu01L6iYrCalf4L0eZI7tCDTA==";
+        };
     in {
         "4A88Qiqq" = _4A88Qiqq;
         "uj4eDOmq" = _uj4eDOmq;
         "Herx3up0" = _Herx3up0;
         "7NpbiYL9" = _7NpbiYL9;
+        "jrLEE09u" = _jrLEE09u;
         "fabric-1.21.11" = _uj4eDOmq;
         "fabric-26.1" = _Herx3up0;
         "fabric-26.1.1" = _Herx3up0;
         "fabric-26.2" = _7NpbiYL9;
+        "fabric-26.3" = _jrLEE09u;
         "pkg-1.0.0" = _4A88Qiqq;
         "pkg-1.1.0" = _uj4eDOmq;
         "pkg-1.2.0" = _Herx3up0;
         "pkg-1.2.0-26.2" = _7NpbiYL9;
-        "default" = _7NpbiYL9;
+        "pkg-1.2.0-26.3" = _jrLEE09u;
+        "default" = _jrLEE09u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-first-person-potion-particles";

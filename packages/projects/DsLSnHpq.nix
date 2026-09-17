@@ -141,6 +141,21 @@ let
             "file" = "colorfulanvils-2.6.0+26.2.jar";
             "hash" = "sha512-lyrjKLDwCYutotjwhxr/lLnHBuSzL3SYUk/EXaAzX0ByK7Wk0MLdf90L/vR2ySzWpMBojpTVpEffL35wMj7DPA==";
         };
+        _UEp41ug8 = {
+            "id" = "UEp41ug8";
+            "file" = "colorfulanvils-2.7.0+1.21.8-1.21.11.jar";
+            "hash" = "sha512-5GOGYXFtDCng9OnoigUW07oShY1EOazcRQA65pj4O5yAa0Xx6PtvtK3HacLakGtLVnvZeCaaSsbJeJuMBpRRBg==";
+        };
+        _W7w2tlrM = {
+            "id" = "W7w2tlrM";
+            "file" = "colorfulanvils-2.7.0+26.1-26.1.2.jar";
+            "hash" = "sha512-+B7uy32//+N75R8WfFJSicEts7qZsuWNP97v8XiWaKzg7kiirtryePrRV9m3JCFsWFQpWgBd2SOJyBomir7PBQ==";
+        };
+        _BWTkQhwq = {
+            "id" = "BWTkQhwq";
+            "file" = "colorfulanvils-2.7.0+26.2.jar";
+            "hash" = "sha512-6ntkOhyhVgoOef2ldPr4bOzg9hRZUwvcLoeS5uu7x2xNze+RA3c1SL/J1W7YI3fjWDpoQRh1R7IguSPFds4d5g==";
+        };
     in {
         "Xfp0pxLh" = _Xfp0pxLh;
         "r7FwGNgq" = _r7FwGNgq;
@@ -170,14 +185,17 @@ let
         "5ADBAIhm" = _5ADBAIhm;
         "brT4EXXs" = _brT4EXXs;
         "gT8stpL7" = _gT8stpL7;
-        "fabric-1.21.8" = _5ADBAIhm;
-        "fabric-1.21.9" = _5ADBAIhm;
-        "fabric-1.21.10" = _5ADBAIhm;
-        "fabric-1.21.11" = _5ADBAIhm;
-        "fabric-26.1" = _brT4EXXs;
-        "fabric-26.1.1" = _brT4EXXs;
-        "fabric-26.1.2" = _brT4EXXs;
-        "fabric-26.2" = _gT8stpL7;
+        "UEp41ug8" = _UEp41ug8;
+        "W7w2tlrM" = _W7w2tlrM;
+        "BWTkQhwq" = _BWTkQhwq;
+        "fabric-1.21.8" = _UEp41ug8;
+        "fabric-1.21.9" = _UEp41ug8;
+        "fabric-1.21.10" = _UEp41ug8;
+        "fabric-1.21.11" = _UEp41ug8;
+        "fabric-26.1" = _W7w2tlrM;
+        "fabric-26.1.1" = _W7w2tlrM;
+        "fabric-26.1.2" = _W7w2tlrM;
+        "fabric-26.2" = _BWTkQhwq;
         "pkg-1.3.0+1.21.8" = _Xfp0pxLh;
         "pkg-1.4.0+1.21.8-1.21.11" = _r7FwGNgq;
         "pkg-1.5.0+1.21.8-1.21.11" = _mlWN02uM;
@@ -206,7 +224,10 @@ let
         "pkg-2.6.0+1.21.8-1.21.11" = _5ADBAIhm;
         "pkg-2.6.0+26.1-26.1.2" = _brT4EXXs;
         "pkg-2.6.0+26.2" = _gT8stpL7;
-        "default" = _gT8stpL7;
+        "pkg-2.7.0+1.21.8-1.21.11" = _UEp41ug8;
+        "pkg-2.7.0+26.1-26.1.2" = _W7w2tlrM;
+        "pkg-2.7.0+26.2" = _BWTkQhwq;
+        "default" = _BWTkQhwq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "colorful-anvils-unoffical-port";

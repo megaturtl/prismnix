@@ -101,6 +101,16 @@ let
             "file" = "HealthBars-v26.1.1-mc26.1.x-Fabric.jar";
             "hash" = "sha512-LTq1Yuv/81h0JIWVe2ulAD7PNLLNxDh/Uys6TQrrIq0q+71taM5FWbqt27QGvasAhfA+7W1Lse14fXOVtz+TVg==";
         };
+        _3bPUnX3Z = {
+            "id" = "3bPUnX3Z";
+            "file" = "HealthBars-v26.2.1-mc26.2.x-Fabric.jar";
+            "hash" = "sha512-VItHRo9wpm/eukvpFzAiwnY2q6BvujA93DdP7brAf+WNuisijrSMxNX4XUtXhKP6p4wvvvj4H+DJ7Wnx4Cmz+Q==";
+        };
+        _CMJrBhs1 = {
+            "id" = "CMJrBhs1";
+            "file" = "HealthBars-v26.2.1-mc26.2.x-NeoForge.jar";
+            "hash" = "sha512-+QWrHvn8D7EwOIeu/jEMpjHR5hIzie3QEDRiQ2jpWe9gMCaF7SVQeoaVcD8jQjLyVjEYHcuXMIfOcVfIFO8emQ==";
+        };
     in {
         "nqmM2pGZ" = _nqmM2pGZ;
         "VXPztNYG" = _VXPztNYG;
@@ -122,6 +132,8 @@ let
         "pstJUD2O" = _pstJUD2O;
         "9xmL0eyM" = _9xmL0eyM;
         "DeCFQBIa" = _DeCFQBIa;
+        "3bPUnX3Z" = _3bPUnX3Z;
+        "CMJrBhs1" = _CMJrBhs1;
         "fabric-1.21.10" = _nqmM2pGZ;
         "fabric-1.21.1" = _GCCpR8oa;
         "fabric-1.21.3" = _djz5JFCM;
@@ -132,7 +144,7 @@ let
         "fabric-26.1" = _DeCFQBIa;
         "fabric-26.1.1" = _DeCFQBIa;
         "fabric-26.1.2" = _DeCFQBIa;
-        "fabric-26.2" = _p5lEQmGO;
+        "fabric-26.2" = _3bPUnX3Z;
         "neoforge-1.21.10" = _VXPztNYG;
         "neoforge-1.21.1" = _jbGgWqfc;
         "neoforge-1.21.3" = _t0NTEhYY;
@@ -143,7 +155,7 @@ let
         "neoforge-26.1" = _9xmL0eyM;
         "neoforge-26.1.1" = _9xmL0eyM;
         "neoforge-26.1.2" = _9xmL0eyM;
-        "neoforge-26.2" = _pstJUD2O;
+        "neoforge-26.2" = _CMJrBhs1;
         "pkg-21.10.0" = _VXPztNYG;
         "pkg-v21.1.0-1.21.1-Fabric" = _GCCpR8oa;
         "pkg-v21.1.0-1.21.1-NeoForge" = _jbGgWqfc;
@@ -159,7 +171,8 @@ let
         "pkg-26.1.0" = _uc0pnprB;
         "pkg-26.2.0" = _pstJUD2O;
         "pkg-26.1.1" = _DeCFQBIa;
-        "default" = _DeCFQBIa;
+        "pkg-26.2.1" = _CMJrBhs1;
+        "default" = _CMJrBhs1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "new-health-bars";

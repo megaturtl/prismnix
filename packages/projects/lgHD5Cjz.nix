@@ -111,6 +111,26 @@ let
             "file" = "ruins-and-towers-0.3.1.jar";
             "hash" = "sha512-x6Nwza9QRNPWiGmPM+yUOEHLm6cU18jN4NdXzFgr7S3hu2qyJF7TjfzC06Om8TZxToL0XPWYrFYLV4ZC/qLEmQ==";
         };
+        _HPMcSpZs = {
+            "id" = "HPMcSpZs";
+            "file" = "ruins_n_towers_0.3.2_26.2.zip";
+            "hash" = "sha512-40PowNOSGZTvIfYZXUDPD58qAaLOFDDOdpTrkQ+0FetXE08kWKMRUQytdv/J5zCbQ+HlNkhsBL0goyPBRTvq5w==";
+        };
+        _JDK1wtTo = {
+            "id" = "JDK1wtTo";
+            "file" = "ruins-and-towers-0.3.2.jar";
+            "hash" = "sha512-EpgBIhBQLqzsxMuwkFW/jBN1tTHc5egqkBgr2+CvEGFaQlk5myfOS87gcT2WFwg0aj00bghC5Q42iwcl6lOldQ==";
+        };
+        _OUgB4igV = {
+            "id" = "OUgB4igV";
+            "file" = "ruins_n_towers_0.3.3_26.3.zip";
+            "hash" = "sha512-TCc4hsG9O3ca9WjwTLPXMcZH4jV3ZEvdorpiHwhCrO1KPPRvLt/EC+ZsO5mxRRiniSkXLkCYv5Zx8TnSbkwOBw==";
+        };
+        _WUNVOmDr = {
+            "id" = "WUNVOmDr";
+            "file" = "ruins-and-towers-0.3.3.jar";
+            "hash" = "sha512-reEOG7m2EM9WkG2+Lr0aPIYit0ysK8s+BN+v4r0rsbUCvsZD8i+QDCD2RXu5OUb7PWMKBKuTPf8gsWtdf3PFPQ==";
+        };
     in {
         "uJp6Hm3m" = _uJp6Hm3m;
         "2M5cxzP9" = _2M5cxzP9;
@@ -134,6 +154,10 @@ let
         "l9IjgeQo" = _l9IjgeQo;
         "NPQocUzO" = _NPQocUzO;
         "nVxn8zEt" = _nVxn8zEt;
+        "HPMcSpZs" = _HPMcSpZs;
+        "JDK1wtTo" = _JDK1wtTo;
+        "OUgB4igV" = _OUgB4igV;
+        "WUNVOmDr" = _WUNVOmDr;
         "datapack-1.21.6" = _oG0sW6s8;
         "datapack-1.21.7" = _oG0sW6s8;
         "datapack-1.21.8" = _oG0sW6s8;
@@ -143,7 +167,8 @@ let
         "datapack-26.1" = _XtCyT40d;
         "datapack-26.1.1" = _XtCyT40d;
         "datapack-26.1.2" = _XtCyT40d;
-        "datapack-26.2" = _NPQocUzO;
+        "datapack-26.2" = _HPMcSpZs;
+        "datapack-26.3" = _OUgB4igV;
         "fabric-1.21.6" = _l9IjgeQo;
         "fabric-1.21.7" = _l9IjgeQo;
         "fabric-1.21.8" = _l9IjgeQo;
@@ -153,7 +178,8 @@ let
         "fabric-26.1" = _yhtj83mv;
         "fabric-26.1.1" = _yhtj83mv;
         "fabric-26.1.2" = _yhtj83mv;
-        "fabric-26.2" = _nVxn8zEt;
+        "fabric-26.2" = _JDK1wtTo;
+        "fabric-26.3" = _WUNVOmDr;
         "forge-1.21.6" = _l9IjgeQo;
         "forge-1.21.7" = _l9IjgeQo;
         "forge-1.21.8" = _l9IjgeQo;
@@ -163,7 +189,8 @@ let
         "forge-26.1" = _yhtj83mv;
         "forge-26.1.1" = _yhtj83mv;
         "forge-26.1.2" = _yhtj83mv;
-        "forge-26.2" = _nVxn8zEt;
+        "forge-26.2" = _JDK1wtTo;
+        "forge-26.3" = _WUNVOmDr;
         "neoforge-1.21.6" = _l9IjgeQo;
         "neoforge-1.21.7" = _l9IjgeQo;
         "neoforge-1.21.8" = _l9IjgeQo;
@@ -173,7 +200,8 @@ let
         "neoforge-26.1" = _yhtj83mv;
         "neoforge-26.1.1" = _yhtj83mv;
         "neoforge-26.1.2" = _yhtj83mv;
-        "neoforge-26.2" = _nVxn8zEt;
+        "neoforge-26.2" = _JDK1wtTo;
+        "neoforge-26.3" = _WUNVOmDr;
         "quilt-1.21.6" = _l9IjgeQo;
         "quilt-1.21.7" = _l9IjgeQo;
         "quilt-1.21.8" = _l9IjgeQo;
@@ -183,7 +211,8 @@ let
         "quilt-26.1" = _yhtj83mv;
         "quilt-26.1.1" = _yhtj83mv;
         "quilt-26.1.2" = _yhtj83mv;
-        "quilt-26.2" = _nVxn8zEt;
+        "quilt-26.2" = _JDK1wtTo;
+        "quilt-26.3" = _WUNVOmDr;
         "pkg-0.1" = _L2QzTzCE;
         "pkg-0.1+mod" = _y7RxOAuy;
         "pkg-0.1.1" = _n4vTou4q;
@@ -200,7 +229,11 @@ let
         "pkg-0.3+mod" = _l9IjgeQo;
         "pkg-0.3.1" = _NPQocUzO;
         "pkg-0.3.1+mod" = _nVxn8zEt;
-        "default" = _nVxn8zEt;
+        "pkg-0.3.2" = _HPMcSpZs;
+        "pkg-0.3.2+mod" = _JDK1wtTo;
+        "pkg-0.3.3" = _OUgB4igV;
+        "pkg-0.3.3+mod" = _WUNVOmDr;
+        "default" = _WUNVOmDr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ruins-and-towers";

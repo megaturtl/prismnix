@@ -96,6 +96,11 @@ let
             "file" = "Faithful 64x - Release 14.zip";
             "hash" = "sha512-Y6+ymWu7ojb1LTFZtOHfbB8XardLcoAI7tG8PXqPHaUT2zlNgAMoo2K0OcQ2PKNdCeVS7ehI9aWyGCjYsLUx4A==";
         };
+        _6QfM0mZq = {
+            "id" = "6QfM0mZq";
+            "file" = "Faithful 64x - Release 15.zip";
+            "hash" = "sha512-vFNN+w5xWGy0mhhTOymUDQIk4Dq6Ut1lspEnR3RH6VrfvOt8zyVGjstl2wW/8M0b7UWkcIBCV5zS/Eqa4B+f2A==";
+        };
     in {
         "MLHY0Lhu" = _MLHY0Lhu;
         "jt6UA0WN" = _jt6UA0WN;
@@ -116,6 +121,7 @@ let
         "vyty9ijM" = _vyty9ijM;
         "yjAqtxxY" = _yjAqtxxY;
         "AOqbBNcY" = _AOqbBNcY;
+        "6QfM0mZq" = _6QfM0mZq;
         "minecraft-1.19" = _MLHY0Lhu;
         "minecraft-1.19.1" = _MLHY0Lhu;
         "minecraft-1.19.2" = _MLHY0Lhu;
@@ -139,6 +145,7 @@ let
         "minecraft-1.21.11" = _vyty9ijM;
         "minecraft-26.1" = _yjAqtxxY;
         "minecraft-26.2" = _AOqbBNcY;
+        "minecraft-26.3" = _6QfM0mZq;
         "pkg-beta-5.1" = _MLHY0Lhu;
         "pkg-B7" = _jt6UA0WN;
         "pkg-8" = _4zMfnpJN;
@@ -157,7 +164,8 @@ let
         "pkg-Release-12" = _vyty9ijM;
         "pkg-Release-13" = _yjAqtxxY;
         "pkg-Release-14-Chaos-Cubed" = _AOqbBNcY;
-        "default" = _AOqbBNcY;
+        "pkg-Release-15-Wilderness-Bound-Drop" = _6QfM0mZq;
+        "default" = _6QfM0mZq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "faithful-64x";

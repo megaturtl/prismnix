@@ -161,6 +161,61 @@ let
             "file" = "useless_mod-1.21.1-2.3.4.jar";
             "hash" = "sha512-+JJA/KtIIYXnMy6XCDn2pl74W1jvNIlb5sUcqLpz0ArFkpPRnFLRH6NaEy9N+AB1A+8BZbLEG1sVou8I5Liw9A==";
         };
+        _5X39LRZu = {
+            "id" = "5X39LRZu";
+            "file" = "useless_mod-1.21.1-2.3.5.jar";
+            "hash" = "sha512-KgF/a5us4BKs7mQ76oiCD+630MwT0D6ehcOGsmu2gvMAgUfd5e5r2nD/27V+gAPAVPj4hAVdAk93dYecOf66ZA==";
+        };
+        _cLFumKge = {
+            "id" = "cLFumKge";
+            "file" = "useless_mod-1.21.1-2.3.5.1.jar";
+            "hash" = "sha512-xy1eG8zJQ8r5PPzJqQ7a/gPbF+9VFORUAjmrHhts3ICJMe0tPcmVWwiGjzQ3evazvZ9TTGS4v52rmbyAWEiHYA==";
+        };
+        _XPNYcEOZ = {
+            "id" = "XPNYcEOZ";
+            "file" = "useless_mod-1.21.1-2.3.5.2.jar";
+            "hash" = "sha512-KYQwwME2SFN0kGmWRjfj5hvhZIU8+SLtBtWSzuItowTiPby1WoCoDY0Nt4iwS8j4yEWLLs7pb4KLkhp5PbRrBA==";
+        };
+        _K4D1EJyo = {
+            "id" = "K4D1EJyo";
+            "file" = "useless_mod-1.21.1-2.3.6.jar";
+            "hash" = "sha512-jur/i6lb403jOY4xIPnUQy6y2Wuo6UEJoX30zAQWcU6ATQHaRmP8TelAmRLtD0UHGICq/6hYbXIcjcyIT66n4Q==";
+        };
+        _3R06Mtr3 = {
+            "id" = "3R06Mtr3";
+            "file" = "useless_mod-1.21.1-2.3.6.1.jar";
+            "hash" = "sha512-WyUtRA73dO8jrX0eZJFAEnM22/duUo1fHI0xAT2DezyFp3xXy7aqXcp6eeeUgdCHv8DpDxod7hPfIthflyfv3w==";
+        };
+        _pOTAc4G7 = {
+            "id" = "pOTAc4G7";
+            "file" = "useless_mod-1.21.1-2.3.6.2.jar";
+            "hash" = "sha512-A11esDpAc83ibrzpDN7Cj06UaKMI5aGRVVfhXC6p93hoyhnASGmZ+cBWRBwZR39iwY5Ym67qIscIvagYj1VasQ==";
+        };
+        _oBcp7o5Q = {
+            "id" = "oBcp7o5Q";
+            "file" = "useless_mod-1.21.1-2.3.6.3.jar";
+            "hash" = "sha512-pKIJc6wZ123ZpT7pGTknvtYWRPiDRlUMy8eMR6YnJ340w+uCcaJifH6ZXY5HyFWAcp+VOTfvZKgjVjFtMSm6MQ==";
+        };
+        _1BQlEHae = {
+            "id" = "1BQlEHae";
+            "file" = "useless_mod-1.21.1-2.3.6.4.jar";
+            "hash" = "sha512-AgQd/k6je3R/U4W/efbjGm9JMCkFu7d13sFTC/BR2Bk0x5+Lclv1YmXuUe0RxuA7gkTM1+0z5EX3Ge2lpgLJvg==";
+        };
+        _jrHXIVea = {
+            "id" = "jrHXIVea";
+            "file" = "useless_mod-1.21.1-2.3.7.jar";
+            "hash" = "sha512-TtqR9efS5crX0/0g9JiFtNVwaWnwDOsh/jJsLFiUKUNJEfiSnrPbeZNGs8P52EMV3I8mB5eAoSdwH1bDoYwyOg==";
+        };
+        _3mtnRUj8 = {
+            "id" = "3mtnRUj8";
+            "file" = "useless_mod-1.21.1-2.3.7.1.jar";
+            "hash" = "sha512-z4RLuw/8DSDeku8YE874l5MyxbPAclgWzgrs3XXmn3XpL6gUE4vz6tGsWEmudxkngSkB5OxYaJ7UY0Xpmqr01Q==";
+        };
+        _vH7wVDpi = {
+            "id" = "vH7wVDpi";
+            "file" = "useless_mod-1.21.1-2.3.7.2.jar";
+            "hash" = "sha512-tAPG4/ZKwFDSOGLLPJyxAXPzUDtb6T8oAduMbZ3BQXs43ljI3gxWn1uqjTI4bAgKCDd8tQxRbSZ3v6HdrxWbCw==";
+        };
     in {
         "KiAGlwvT" = _KiAGlwvT;
         "6zBwFMYS" = _6zBwFMYS;
@@ -194,8 +249,19 @@ let
         "uxzlTSwe" = _uxzlTSwe;
         "f0Re4hkZ" = _f0Re4hkZ;
         "g6crCRbB" = _g6crCRbB;
+        "5X39LRZu" = _5X39LRZu;
+        "cLFumKge" = _cLFumKge;
+        "XPNYcEOZ" = _XPNYcEOZ;
+        "K4D1EJyo" = _K4D1EJyo;
+        "3R06Mtr3" = _3R06Mtr3;
+        "pOTAc4G7" = _pOTAc4G7;
+        "oBcp7o5Q" = _oBcp7o5Q;
+        "1BQlEHae" = _1BQlEHae;
+        "jrHXIVea" = _jrHXIVea;
+        "3mtnRUj8" = _3mtnRUj8;
+        "vH7wVDpi" = _vH7wVDpi;
         "forge-1.20.1" = _qFsGpG9l;
-        "neoforge-1.21.1" = _g6crCRbB;
+        "neoforge-1.21.1" = _vH7wVDpi;
         "pkg-1.2.2-Forge1.20.1" = _KiAGlwvT;
         "pkg-25.12.25.3-Forge1.20.1" = _6zBwFMYS;
         "pkg-25.12.30.1-Forge1.20.1" = _iuy9FDU3;
@@ -228,7 +294,18 @@ let
         "pkg-1.21.1-2.3.3-hotfix1" = _uxzlTSwe;
         "pkg-1.21.1-2.3.3-hotfix2" = _f0Re4hkZ;
         "pkg-1.21.1-2.3.4" = _g6crCRbB;
-        "default" = _g6crCRbB;
+        "pkg-1.21.1-2.3.5" = _5X39LRZu;
+        "pkg-1.21.1-2.3.5.1" = _cLFumKge;
+        "pkg-1.21.1-2.3.5.2" = _XPNYcEOZ;
+        "pkg-1.21.1-2.3.6" = _K4D1EJyo;
+        "pkg-1.21.1-2.3.6.1" = _3R06Mtr3;
+        "pkg-1.21.1-2.3.6.2" = _pOTAc4G7;
+        "pkg-1.21.1-2.3.6.3" = _oBcp7o5Q;
+        "pkg-1.21.1-2.3.6.4" = _1BQlEHae;
+        "pkg-1.21.1-2.3.7" = _jrHXIVea;
+        "pkg-1.21.1-2.3.7.1" = _3mtnRUj8;
+        "pkg-1.21.1-2.3.7.2" = _vH7wVDpi;
+        "default" = _vH7wVDpi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "a-useless-mod";

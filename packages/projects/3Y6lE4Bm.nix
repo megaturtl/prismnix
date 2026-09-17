@@ -266,6 +266,11 @@ let
             "file" = "hearts_orange-1.1.0-mc26.1.2.zip";
             "hash" = "sha512-lCE/fxxjVhDD9dCmJA/ZkvMt4ENIz76RIFlbznvJNgrWF/OtjT8+ejnWj/ezrC7+yihuKHHfzLTFA2K0Hr4V7w==";
         };
+        _Vgxo0gMD = {
+            "id" = "Vgxo0gMD";
+            "file" = "hearts_orange-1.1.0-mc26.3.zip";
+            "hash" = "sha512-d74dcYxzmTIGIcEOABEeRRJIgMoR6qKcxlpnJHJDiqyUg3+cjzgOJyrrfYoDME6Bjeiw8qP7ckULz4ouappRQQ==";
+        };
     in {
         "3m9LhcFw" = _3m9LhcFw;
         "KyKt11r0" = _KyKt11r0;
@@ -320,6 +325,7 @@ let
         "QwWrNJFI" = _QwWrNJFI;
         "fJ6ABjPh" = _fJ6ABjPh;
         "jsx77aav" = _jsx77aav;
+        "Vgxo0gMD" = _Vgxo0gMD;
         "minecraft-1.20.2" = _eoJQIq3G;
         "minecraft-1.20.3" = _5GPm0BW5;
         "minecraft-1.20.4" = _lcPjVfMt;
@@ -341,10 +347,11 @@ let
         "minecraft-26.2" = _QwWrNJFI;
         "minecraft-26.1.1" = _fJ6ABjPh;
         "minecraft-26.1.2" = _jsx77aav;
+        "minecraft-26.3" = _Vgxo0gMD;
         "pkg-1.0.0" = _B4fiL1b1;
         "pkg-1.0.1" = _HgQWM35e;
-        "pkg-1.1.0" = _jsx77aav;
-        "default" = _jsx77aav;
+        "pkg-1.1.0" = _Vgxo0gMD;
+        "default" = _Vgxo0gMD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-collective-orange-hearts";

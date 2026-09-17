@@ -81,6 +81,26 @@ let
             "file" = "assortedtools-fabric-1.20.1-10.0.3.jar";
             "hash" = "sha512-FPZnxuKTUYO/BoVywcbqnXgh/b0dnpHGJDNzQxzaRdUn9lXL/JDSmIJasXSwKVqOA02uy6yn/JrbEEWtZxsVUQ==";
         };
+        _qw3roJYh = {
+            "id" = "qw3roJYh";
+            "file" = "assortedtools-neoforge-26.2-11.0.0.jar";
+            "hash" = "sha512-sODdMd7i97enHDlmmYWBXo4zbXz/ztsuG8sqpKIMW2I7mQLXIfW33xNIQgRFHOMtsMmWFi7GuGbRlXi2sa26VA==";
+        };
+        _BAQsoDwq = {
+            "id" = "BAQsoDwq";
+            "file" = "assortedtools-fabric-26.2-11.0.0.jar";
+            "hash" = "sha512-IhbJWFLMVovZrF2BtXFyzEUK5dmd1LS3vlsJHDZe7qIXWfNgqBScwZv2Avi4AYLrwvE84QBVuagVMnaD0ydUIw==";
+        };
+        _jRihDrsL = {
+            "id" = "jRihDrsL";
+            "file" = "assortedtools-neoforge-26.2-11.0.1.jar";
+            "hash" = "sha512-kRQ50t1ApSfYujQddDE9oFW9eVipiWVFxKJy0iCCag69zgWHD/5E1/2vBHGERZ2ied8mPYrx5eW+QHNX4QDbnA==";
+        };
+        _F9oY5MDR = {
+            "id" = "F9oY5MDR";
+            "file" = "assortedtools-fabric-26.2-11.0.1.jar";
+            "hash" = "sha512-X8NwJkNTorVMdswtF1Q/nQsgTJtxOm+XXik0D7+Niq1jk0REe6NxxLweBGaOk4+8WJlWqj5Csep9noH71aZhtw==";
+        };
     in {
         "tLA1QuMn" = _tLA1QuMn;
         "UZwy3lqe" = _UZwy3lqe;
@@ -98,6 +118,10 @@ let
         "edqpJ9Rm" = _edqpJ9Rm;
         "aHcAutGb" = _aHcAutGb;
         "wTNURk0b" = _wTNURk0b;
+        "qw3roJYh" = _qw3roJYh;
+        "BAQsoDwq" = _BAQsoDwq;
+        "jRihDrsL" = _jRihDrsL;
+        "F9oY5MDR" = _F9oY5MDR;
         "forge-1.18.2" = _tLA1QuMn;
         "forge-1.19.2" = _UZwy3lqe;
         "forge-1.19.3" = _Q0TQ1LOS;
@@ -106,6 +130,8 @@ let
         "fabric-1.19.3" = _p8L2FKbJ;
         "fabric-1.19.4" = _zNXe5C65;
         "fabric-1.20.1" = _wTNURk0b;
+        "fabric-26.2" = _F9oY5MDR;
+        "neoforge-26.2" = _jRihDrsL;
         "pkg-1.18.2-5.2.3" = _tLA1QuMn;
         "pkg-assortedtools-1.19.2-6.1.2" = _UZwy3lqe;
         "pkg-1.19.3-7.0.1" = _qQg5Keq8;
@@ -116,7 +142,11 @@ let
         "pkg-10.0.1" = _N3LeEsbz;
         "pkg-10.0.2" = _edqpJ9Rm;
         "pkg-10.0.3" = _wTNURk0b;
-        "default" = _wTNURk0b;
+        "pkg-11.0.0+neoforge" = _qw3roJYh;
+        "pkg-11.0.0+fabric" = _BAQsoDwq;
+        "pkg-11.0.1+neoforge" = _jRihDrsL;
+        "pkg-11.0.1+fabric" = _F9oY5MDR;
+        "default" = _F9oY5MDR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "assorted-tools";

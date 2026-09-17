@@ -21,20 +21,28 @@ let
             "file" = "accelerating-happy-ghasts-0.0.1-26.2.jar";
             "hash" = "sha512-wj2I4TPxNIjw/WbL1Xf4U1qZRtrfsVfHAiBx7hyqrseF7KVWWiSo4Ku+lVL0K3ewJwC7RdCWgVzxVUD5q07LZQ==";
         };
+        _XsRD0ij4 = {
+            "id" = "XsRD0ij4";
+            "file" = "accelerating-happy-ghasts-0.0.1-26.3.jar";
+            "hash" = "sha512-DJV5HrGRO+CbJeVyi/XReV0gnX8DP8EpV6H5wiextVeSjoi2B6t/sK6/Jwjwg1GBxGYN50fjZVACWDdZjJcAYQ==";
+        };
     in {
         "I6GjIi6T" = _I6GjIi6T;
         "5pXLUzkJ" = _5pXLUzkJ;
         "NZD7tvPa" = _NZD7tvPa;
         "nRRNbjew" = _nRRNbjew;
+        "XsRD0ij4" = _XsRD0ij4;
         "fabric-1.21.10" = _I6GjIi6T;
         "fabric-1.21.11" = _5pXLUzkJ;
         "fabric-26.1" = _NZD7tvPa;
         "fabric-26.2" = _nRRNbjew;
+        "fabric-26.3" = _XsRD0ij4;
         "pkg-0.0.1-1.21.10" = _I6GjIi6T;
         "pkg-0.0.1-1.21.11" = _5pXLUzkJ;
         "pkg-0.0.1-26.1" = _NZD7tvPa;
         "pkg-0.0.1-26.2" = _nRRNbjew;
-        "default" = _nRRNbjew;
+        "pkg-0.0.1-26.3" = _XsRD0ij4;
+        "default" = _XsRD0ij4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "accelerating-happy-ghasts";

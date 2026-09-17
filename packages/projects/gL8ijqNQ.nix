@@ -181,6 +181,11 @@ let
             "file" = "ars_controle-1.21.1-1.6.15.jar";
             "hash" = "sha512-0eDYpY0jqxJ88fyAS4TcCIFn0nrNbQ7tIkpA+dS1YnNE9PHfj7ON1wZtwKVlK3Fyfc//Iy/+t4oPfmJ+v6xLyw==";
         };
+        _r7YxZN9m = {
+            "id" = "r7YxZN9m";
+            "file" = "ars_controle-1.21.1-1.6.16.jar";
+            "hash" = "sha512-RYxah4oUGP/ORtHdEJ9K4jvL4QvXFT7cr/jRq0mrMDLzeXdIju587NtVDNmWcvVg6dhRgY1nddXX4iJjIoXRpg==";
+        };
     in {
         "iehv9eSx" = _iehv9eSx;
         "Row37kKz" = _Row37kKz;
@@ -218,9 +223,10 @@ let
         "wvMlX85B" = _wvMlX85B;
         "YYVGzaZu" = _YYVGzaZu;
         "VoAKOuBm" = _VoAKOuBm;
+        "r7YxZN9m" = _r7YxZN9m;
         "forge-1.20.1" = _wkiTxzam;
-        "neoforge-1.21" = _VoAKOuBm;
-        "neoforge-1.21.1" = _VoAKOuBm;
+        "neoforge-1.21" = _r7YxZN9m;
+        "neoforge-1.21.1" = _r7YxZN9m;
         "pkg-1.0.0" = _iehv9eSx;
         "pkg-1.1.0" = _Row37kKz;
         "pkg-1.1.1" = _wkiTxzam;
@@ -257,7 +263,8 @@ let
         "pkg-1.6.13" = _wvMlX85B;
         "pkg-1.6.14" = _YYVGzaZu;
         "pkg-1.6.15" = _VoAKOuBm;
-        "default" = _VoAKOuBm;
+        "pkg-1.6.16" = _r7YxZN9m;
+        "default" = _r7YxZN9m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ars-controle";

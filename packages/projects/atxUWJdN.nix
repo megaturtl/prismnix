@@ -111,6 +111,21 @@ let
             "file" = "auroral-1.21.1-1.1.1.jar";
             "hash" = "sha512-sVO+iHTnQZS/ObT/9jVlZhABcXD7sDrViFlSmhowgK8tHeJAh7XCExAo/YkGGD69KwFRVJQBSuLSdeZovkTbTQ==";
         };
+        _zInPxLdB = {
+            "id" = "zInPxLdB";
+            "file" = "auroral-26.1.2-1.5.5.jar";
+            "hash" = "sha512-SE9yCarqBjlFeGoHdnx6/In4A2Q7/a/jGO7WCHm0lOy0KEJ2RTG/mtE2e0gfRkn68Bm6lqug6ah3LAixPzU8bQ==";
+        };
+        _sBVyg5qc = {
+            "id" = "sBVyg5qc";
+            "file" = "auroral-26.1.2-1.5.6.jar";
+            "hash" = "sha512-fdruNi+/UUf61unHz0aShwukQrqNchf0/RgkRoy1XACg4jLONuR+72IpF+ubHB4e0qcAexD4jlon7Nc6PXH6tA==";
+        };
+        _Koe0JQVH = {
+            "id" = "Koe0JQVH";
+            "file" = "auroral-1.21.1-1.1.2.jar";
+            "hash" = "sha512-OSDCN+9hbPHDuaRxsynnxt15IJarbUwxdrNICpPJecPW3syDKOzGaH2uwBvrn3f/DfaZjQp19LQhUqXnaxXJOg==";
+        };
     in {
         "G5h0KbON" = _G5h0KbON;
         "km4r1TOl" = _km4r1TOl;
@@ -134,10 +149,13 @@ let
         "Oq2m2cBK" = _Oq2m2cBK;
         "FGp1xSOv" = _FGp1xSOv;
         "CgRv9HAN" = _CgRv9HAN;
+        "zInPxLdB" = _zInPxLdB;
+        "sBVyg5qc" = _sBVyg5qc;
+        "Koe0JQVH" = _Koe0JQVH;
         "neoforge-1.21.11" = _VWSfa2HW;
-        "neoforge-1.21.1" = _CgRv9HAN;
+        "neoforge-1.21.1" = _Koe0JQVH;
         "neoforge-26.1.1" = _hxn2CUjP;
-        "neoforge-26.1.2" = _Oq2m2cBK;
+        "neoforge-26.1.2" = _sBVyg5qc;
         "pkg-1.21.11-1.0.2" = _G5h0KbON;
         "pkg-1.21.11-1.0.3" = _km4r1TOl;
         "pkg-1.0.4" = _VWSfa2HW;
@@ -160,7 +178,10 @@ let
         "pkg-26.1.2-1.5.4" = _Oq2m2cBK;
         "pkg-1.21.1-1.1.0" = _FGp1xSOv;
         "pkg-1.21.1-1.1.1" = _CgRv9HAN;
-        "default" = _CgRv9HAN;
+        "pkg-26.1.2-1.5.5" = _zInPxLdB;
+        "pkg-26.1.2-1.5.6" = _sBVyg5qc;
+        "pkg-1.21.1-1.1.2" = _Koe0JQVH;
+        "default" = _Koe0JQVH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "auroral";

@@ -26,19 +26,25 @@ let
             "file" = "Matcha Vanilla Flavoured 1-12.zip";
             "hash" = "sha512-dnH2ki3bYc7vpjVfv7FWd/eqdO6TUy4DXyOOy5ux67zUAtafJLBQBJSyDzYLQSv91AxBVfUzIRoD/lTEgdGsKQ==";
         };
+        _grZe984H = {
+            "id" = "grZe984H";
+            "file" = "Matcha Vanilla Flavoured 1-12.zip";
+            "hash" = "sha512-XuuOKYt6+hRfnPlCQdwTnoF2jgDjUA9DEJmnhEOX8myT+tjLfMpide8/0k/PrW09jsNJn4GMiXtFQDusNkkqWw==";
+        };
     in {
         "ZSbhOFZB" = _ZSbhOFZB;
         "SUv01O2b" = _SUv01O2b;
         "rMAZHYqV" = _rMAZHYqV;
         "uyDlDl12" = _uyDlDl12;
         "WnBGtaOx" = _WnBGtaOx;
-        "minecraft-26.2" = _WnBGtaOx;
+        "grZe984H" = _grZe984H;
+        "minecraft-26.2" = _grZe984H;
         "pkg-1.01" = _ZSbhOFZB;
         "pkg-1.02" = _SUv01O2b;
         "pkg-1.03" = _rMAZHYqV;
         "pkg-1.11" = _uyDlDl12;
-        "pkg-1.12" = _WnBGtaOx;
-        "default" = _WnBGtaOx;
+        "pkg-1.12" = _grZe984H;
+        "default" = _grZe984H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "matcha-vanilla-flavoured";

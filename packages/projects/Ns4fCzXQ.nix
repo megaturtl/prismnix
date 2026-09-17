@@ -1086,6 +1086,26 @@ let
             "file" = "curvy_pipes-1.20.1-1.15.8.jar";
             "hash" = "sha512-+SGUxob5AvHjr1i4qW/VXs3M8H/DwK87v1ZJNK2zwJ1930VWvnjv2fk6qrpx7GDN+Bp+zWQrpA3YqdDg8VCnvA==";
         };
+        _hScQC4Rt = {
+            "id" = "hScQC4Rt";
+            "file" = "curvy_pipes-1.21.1-1.15.8.jar";
+            "hash" = "sha512-ZtemVXb9aiXJiHKGBd2mDFFnNQWeyk9UsnAZlOf0cVUkJt1P2DXvJ7YGGfhSDRyTwqnT1DpqNr90p7Wz4LweWA==";
+        };
+        _Z8bTQfsF = {
+            "id" = "Z8bTQfsF";
+            "file" = "curvy_pipes-1.12.2-1.15.8.jar";
+            "hash" = "sha512-+DSgvSKl+L2dQppdXzX91B4kC7Dv1lFnnmcV1JOeUsTJCL+sGR7eBz7jrDkJtPPnn5Dbsf1Img8YoL4MNTvoqQ==";
+        };
+        _6M77CWON = {
+            "id" = "6M77CWON";
+            "file" = "curvy_pipes-1.7.10-1.15.9.jar";
+            "hash" = "sha512-aBSuYG2x09rH0X7HlKiXY6pgsMUqKhYHGVw7tWoY8BmBlo6Sfdt/EUZ6naCmmqx+dQ5w2bqsprq5aHAOnMdu9A==";
+        };
+        _GHB9bBEt = {
+            "id" = "GHB9bBEt";
+            "file" = "curvy_pipes-1.21.1-1.15.10.jar";
+            "hash" = "sha512-JvDhf/m15xYzl7UNtBJaBhnK+d/uQ0PrP0FfooV72HMfEUJSyBmWsVY9eGk94ffdJ4evb09tRSlba+cN1G1JZg==";
+        };
     in {
         "HwgwNJ5P" = _HwgwNJ5P;
         "pdwfqVod" = _pdwfqVod;
@@ -1304,14 +1324,18 @@ let
         "KKUG8D5D" = _KKUG8D5D;
         "AAeQp8xS" = _AAeQp8xS;
         "xQBSjPxB" = _xQBSjPxB;
+        "hScQC4Rt" = _hScQC4Rt;
+        "Z8bTQfsF" = _Z8bTQfsF;
+        "6M77CWON" = _6M77CWON;
+        "GHB9bBEt" = _GHB9bBEt;
         "forge-1.20.1" = _xQBSjPxB;
-        "forge-1.12.2" = _2LV5BOPg;
-        "forge-1.7.10" = _ziPaLCVw;
+        "forge-1.12.2" = _Z8bTQfsF;
+        "forge-1.7.10" = _6M77CWON;
         "forge-1.16.5" = _AAeQp8xS;
         "forge-1.18.2" = _KKUG8D5D;
         "neoforge-1.20.1" = _xQBSjPxB;
-        "neoforge-1.21" = _aBwOEYVu;
-        "neoforge-1.21.1" = _aBwOEYVu;
+        "neoforge-1.21" = _GHB9bBEt;
+        "neoforge-1.21.1" = _GHB9bBEt;
         "neoforge-26.1.2" = _U0ILVFvi;
         "pkg-1.20.1-1.0.0" = _HwgwNJ5P;
         "pkg-1.20.1-1.0.1" = _pdwfqVod;
@@ -1530,7 +1554,11 @@ let
         "pkg-1.18.2-1.15.6" = _KKUG8D5D;
         "pkg-1.16.5-1.15.7" = _AAeQp8xS;
         "pkg-1.20.1-1.15.8" = _xQBSjPxB;
-        "default" = _xQBSjPxB;
+        "pkg-1.21.1-1.15.8" = _hScQC4Rt;
+        "pkg-1.12.2-1.15.8" = _Z8bTQfsF;
+        "pkg-1.7.10-1.15.9" = _6M77CWON;
+        "pkg-1.21.1-1.15.10" = _GHB9bBEt;
+        "default" = _GHB9bBEt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "curvy-pipes";

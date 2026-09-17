@@ -41,6 +41,11 @@ let
             "file" = "Emissive Office Cape v1.7.zip";
             "hash" = "sha512-SdH3SE3OTCwXvDSU3fm5JA7uRSFw5NJOJLzcEZyO4qQLMri7u39cz4A4+gsGh1nM++O+WqxoEr/V6wta2LV4Ew==";
         };
+        _Ws2PcXmE = {
+            "id" = "Ws2PcXmE";
+            "file" = "Emissive Office Cape v1.8.zip";
+            "hash" = "sha512-XRz/04oaMDtQwDJ2OVMaqv023AhViTqNZaX80g3q4iOrtpHJMn7KtEp8Kx8nYb6WpYgPOSixziUelHJ5QgBfgw==";
+        };
     in {
         "x3P5aFJZ" = _x3P5aFJZ;
         "B9eHUYGp" = _B9eHUYGp;
@@ -50,6 +55,7 @@ let
         "EL5yAf8L" = _EL5yAf8L;
         "e6DrC3zn" = _e6DrC3zn;
         "zllbkmWX" = _zllbkmWX;
+        "Ws2PcXmE" = _Ws2PcXmE;
         "minecraft-1.20" = _vHkMfuL7;
         "minecraft-1.20.1" = _vHkMfuL7;
         "minecraft-1.20.2" = _vHkMfuL7;
@@ -69,10 +75,11 @@ let
         "minecraft-1.21.9" = _EL5yAf8L;
         "minecraft-1.21.10" = _e6DrC3zn;
         "minecraft-1.21.11" = _e6DrC3zn;
-        "minecraft-26.1" = _zllbkmWX;
-        "minecraft-26.1.1" = _zllbkmWX;
-        "minecraft-26.1.2" = _zllbkmWX;
-        "minecraft-26.2" = _zllbkmWX;
+        "minecraft-26.1" = _Ws2PcXmE;
+        "minecraft-26.1.1" = _Ws2PcXmE;
+        "minecraft-26.1.2" = _Ws2PcXmE;
+        "minecraft-26.2" = _Ws2PcXmE;
+        "minecraft-26.3" = _Ws2PcXmE;
         "vanilla-1.20" = _x3P5aFJZ;
         "vanilla-1.20.1" = _x3P5aFJZ;
         "vanilla-1.20.2" = _x3P5aFJZ;
@@ -93,7 +100,8 @@ let
         "pkg-1.5" = _EL5yAf8L;
         "pkg-1.6" = _e6DrC3zn;
         "pkg-1.7" = _zllbkmWX;
-        "default" = _zllbkmWX;
+        "pkg-1.8" = _Ws2PcXmE;
+        "default" = _Ws2PcXmE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "emissive-office-cape";

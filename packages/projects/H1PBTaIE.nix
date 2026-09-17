@@ -211,6 +211,16 @@ let
             "file" = "useless_upgrade_template-neoforge-26.2-1.0.1.jar";
             "hash" = "sha512-TAwdfnBDMiRVKisWTnuDlodWLDg2+4nAhzDkWbjYmbPmBgtT2p909/6SmW8OcyPtmmUb1uS/ML57XWNt9gNrLw==";
         };
+        _PCEACYEx = {
+            "id" = "PCEACYEx";
+            "file" = "useless_upgrade_template-fabric-26.3-1.0.3.jar";
+            "hash" = "sha512-/DPHRmctMMTumTkBDXPAOOxekLAufYL1/Q8RIgyQyYpGoIVJsP80lUXRN3DpjhJxTQin80qaMu5oGoqaSvhd1A==";
+        };
+        _nzJ3Atjn = {
+            "id" = "nzJ3Atjn";
+            "file" = "useless_upgrade_template-neoforge-26.3-1.0.3.jar";
+            "hash" = "sha512-qpQSGXhAtKAsICWyI9c80I3LRtF1WeNZn1/JcasliRIKjJdkTpuzWYwZZIoA5F6Wdk6eVCDxOj+/K3RBTC/neA==";
+        };
     in {
         "Aum9nuda" = _Aum9nuda;
         "NtBm6qkH" = _NtBm6qkH;
@@ -254,6 +264,8 @@ let
         "pf8ANOwf" = _pf8ANOwf;
         "YsCC2r2S" = _YsCC2r2S;
         "QK30o2oh" = _QK30o2oh;
+        "PCEACYEx" = _PCEACYEx;
+        "nzJ3Atjn" = _nzJ3Atjn;
         "forge-1.20.1" = _Aum9nuda;
         "forge-1.21.11" = _GXYemvtO;
         "forge-26.1" = _bNIzuSc9;
@@ -272,6 +284,7 @@ let
         "neoforge-26.1.1" = _jT7FofbZ;
         "neoforge-26.1.2" = _jT7FofbZ;
         "neoforge-26.2" = _QK30o2oh;
+        "neoforge-26.3" = _nzJ3Atjn;
         "fabric-1.21.8" = _a46cZ5CS;
         "fabric-1.20.1" = _KVqf9D9v;
         "fabric-1.21.1" = _CLvSpTON;
@@ -329,6 +342,7 @@ let
         "fabric-26.3-snapshot-10" = _YsCC2r2S;
         "fabric-26.3-pre-1" = _YsCC2r2S;
         "fabric-26.3-pre-2" = _YsCC2r2S;
+        "fabric-26.3" = _PCEACYEx;
         "quilt-1.21.8" = _a46cZ5CS;
         "quilt-1.21.1" = _CLvSpTON;
         "quilt-1.21.10" = _ylbd4GQW;
@@ -558,7 +572,9 @@ let
         "pkg-1.0.2-fix-bukkit-1" = _pf8ANOwf;
         "pkg-1.0.1-mc26.2-fabric" = _YsCC2r2S;
         "pkg-1.0.1-mc26.2-neoforge" = _QK30o2oh;
-        "default" = _QK30o2oh;
+        "pkg-1.0.3-fabric" = _PCEACYEx;
+        "pkg-1.0.3-neoforge" = _nzJ3Atjn;
+        "default" = _nzJ3Atjn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "uselessupgradetemplate";

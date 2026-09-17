@@ -96,6 +96,36 @@ let
             "file" = "friendmod-26.2-1.0.8.jar";
             "hash" = "sha512-sP9Fofk89CTcItv0IqBPhOBs+gFfJ4ZmUXBA/4Pgda1s9W2bCS9nytuR4skwffACaln8Kk2XIscAi1oYgY+OAg==";
         };
+        _pXwSsB1W = {
+            "id" = "pXwSsB1W";
+            "file" = "friendmod-1.21.8-1.0.9.jar";
+            "hash" = "sha512-J4igTeKCz5Qmda3q7ILk1GqbN7ZUj2J6cI3BcYB6BMqL+HGpJg+my5xaxb8jw4n1e1sitnqU9C3RegZQ/4zFOA==";
+        };
+        _8GE4ZBv0 = {
+            "id" = "8GE4ZBv0";
+            "file" = "friendmod-1.21.9-1.0.9.jar";
+            "hash" = "sha512-GbCfCCZhpuyMk78SdTQEceneiIUD5NNXsxdhQRM4EseFnf+pHKWnk2BXHq1aMsZNcVbON3HOqyGUmBs+nhWBpQ==";
+        };
+        _RTJIyt3H = {
+            "id" = "RTJIyt3H";
+            "file" = "friendmod-1.21.10-1.0.9.jar";
+            "hash" = "sha512-wC5SRmS6kLhdmWTJiUuZ0i7k3rIIRROWEcFbNCUjtbtEBa5/JsQ4UBT/gJzQTIgQQDqabu3adazNzG+eotMnUQ==";
+        };
+        _ZxCfQLSg = {
+            "id" = "ZxCfQLSg";
+            "file" = "friendmod-26.1-1.0.9.jar";
+            "hash" = "sha512-nVyzKEnG8fkiji+VNio0P/VWcONb8rZEv20ednGyTTickzhvkbmmQzyHrhZO/ph+jU2ZzLW8UCaUcFSEMy5hcw==";
+        };
+        _cwiJ6fnv = {
+            "id" = "cwiJ6fnv";
+            "file" = "friendmod-26.2-1.0.9.jar";
+            "hash" = "sha512-SJt1k6vYYwVwNySkUxCy5eRp2qyNbh1hMQ+F+t490UIIVTn/zhWzDlqA+ky6uturnGNvNjT/idoLCrpUQPFBWQ==";
+        };
+        _g51vThET = {
+            "id" = "g51vThET";
+            "file" = "friendmod-1.21.11-1.0.9.jar";
+            "hash" = "sha512-oMccBWI9Nx+Eqt8s7Bkt5kQb5vXQJr1aerLxo+nUJPPrqyMS0dnclKd05NZlL915xrm2MRRiS7jBA0PqC9KiHA==";
+        };
     in {
         "WMvrVv6H" = _WMvrVv6H;
         "TTBlLyP0" = _TTBlLyP0;
@@ -116,14 +146,20 @@ let
         "THiuTEM8" = _THiuTEM8;
         "S2av6SnR" = _S2av6SnR;
         "Rd4efmqe" = _Rd4efmqe;
-        "fabric-1.21.11" = _THiuTEM8;
-        "fabric-26.1" = _S2av6SnR;
-        "fabric-26.1.1" = _S2av6SnR;
-        "fabric-26.2" = _Rd4efmqe;
-        "fabric-26.1.2" = _S2av6SnR;
-        "fabric-1.21.8" = _AhPVvesh;
-        "fabric-1.21.9" = _4GMV92Fp;
-        "fabric-1.21.10" = _4cIbR0Bw;
+        "pXwSsB1W" = _pXwSsB1W;
+        "8GE4ZBv0" = _8GE4ZBv0;
+        "RTJIyt3H" = _RTJIyt3H;
+        "ZxCfQLSg" = _ZxCfQLSg;
+        "cwiJ6fnv" = _cwiJ6fnv;
+        "g51vThET" = _g51vThET;
+        "fabric-1.21.11" = _g51vThET;
+        "fabric-26.1" = _ZxCfQLSg;
+        "fabric-26.1.1" = _ZxCfQLSg;
+        "fabric-26.2" = _cwiJ6fnv;
+        "fabric-26.1.2" = _ZxCfQLSg;
+        "fabric-1.21.8" = _pXwSsB1W;
+        "fabric-1.21.9" = _8GE4ZBv0;
+        "fabric-1.21.10" = _RTJIyt3H;
         "pkg-1.0.0" = _WMvrVv6H;
         "pkg-1.0.1" = _TTBlLyP0;
         "pkg-1.0.2" = _mLmaVIT6;
@@ -133,7 +169,8 @@ let
         "pkg-1.0.6" = _PObACPkC;
         "pkg-1.0.7" = _cRJF07S7;
         "pkg-1.0.8" = _Rd4efmqe;
-        "default" = _Rd4efmqe;
+        "pkg-1.0.9" = _g51vThET;
+        "default" = _g51vThET;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "friendmod";

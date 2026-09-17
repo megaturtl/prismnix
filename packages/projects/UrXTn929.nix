@@ -46,6 +46,11 @@ let
             "file" = "betterclipboard-1.0.4.jar";
             "hash" = "sha512-gYuJ538JYm7xmYL/F7gnLNgmPXn1ClCqTip+JET6GKwVOwfTmtwwtyo6afiCMQifJigBWQYUBZPFjJU6lPUyxA==";
         };
+        _rNEu0tSQ = {
+            "id" = "rNEu0tSQ";
+            "file" = "betterclipboard-fabric-26.3-1.0.4.jar";
+            "hash" = "sha512-d3u7/QpHv512kV13x1SOOVNAlIXqNBQj8EEq9QMCJQvcwJSDkxljMFaqoqH5zMaG/4tuvZuxeMZsyGfGQIcO0Q==";
+        };
     in {
         "84PqHeG6" = _84PqHeG6;
         "B0BAeZvF" = _B0BAeZvF;
@@ -56,6 +61,7 @@ let
         "kjear0Kb" = _kjear0Kb;
         "GZ3aCQ2C" = _GZ3aCQ2C;
         "x6oZyGyv" = _x6oZyGyv;
+        "rNEu0tSQ" = _rNEu0tSQ;
         "fabric-1.20.2" = _84PqHeG6;
         "fabric-1.20.3" = _84PqHeG6;
         "fabric-1.20.4" = _84PqHeG6;
@@ -74,12 +80,13 @@ let
         "fabric-26.1.1" = _x6oZyGyv;
         "fabric-26.1.2" = _x6oZyGyv;
         "fabric-26.2" = _x6oZyGyv;
+        "fabric-26.3" = _rNEu0tSQ;
         "pkg-1.0.0" = _B0BAeZvF;
         "pkg-1.0.1" = _OQq0EXR8;
         "pkg-1.0.2" = _AQgJelpC;
         "pkg-1.0.3" = _GZ3aCQ2C;
-        "pkg-1.0.4" = _x6oZyGyv;
-        "default" = _x6oZyGyv;
+        "pkg-1.0.4" = _rNEu0tSQ;
+        "default" = _rNEu0tSQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-clipboard";

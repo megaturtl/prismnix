@@ -16,15 +16,22 @@ let
             "file" = "dmzautotrainer-1.2.0.jar";
             "hash" = "sha512-+Jq/PNwvpKvheX1zoym1l6CL+eerFbOGPFIFRLuTsMN0QV3PiPznw6aAYWLqUGsSYKOstazKJJy4Efs4dC9liw==";
         };
+        _J1MIyMlp = {
+            "id" = "J1MIyMlp";
+            "file" = "dmzautotrainer-1.2.1.jar";
+            "hash" = "sha512-tTfNy4/WdE81wUw8K2shcVevZt/2BfVtsIwRn8jjHXHRgLv4xCwGQVxsZl7HGYLRdmRK5H06scgIJijen/860g==";
+        };
     in {
         "WLCDuukP" = _WLCDuukP;
         "4AqakZ2Z" = _4AqakZ2Z;
         "Eev5O2Ln" = _Eev5O2Ln;
-        "forge-1.20.1" = _Eev5O2Ln;
+        "J1MIyMlp" = _J1MIyMlp;
+        "forge-1.20.1" = _J1MIyMlp;
         "pkg-1.1.0" = _WLCDuukP;
         "pkg-1.1.1" = _4AqakZ2Z;
         "pkg-1.2.0" = _Eev5O2Ln;
-        "default" = _Eev5O2Ln;
+        "pkg-1.2.1" = _J1MIyMlp;
+        "default" = _J1MIyMlp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dragonminez-auto-trainer";

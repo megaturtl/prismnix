@@ -451,6 +451,106 @@ let
             "file" = "crystal-tweaks-26.2-2.2.7.jar";
             "hash" = "sha512-59mtYcR2r6DIzU0w47uUvLxhmx6XXF/kstH8vvaZJU6DaEf3psLgbcZN5iWsk8MJqD8VuDXIbvr1pREEG3wBQQ==";
         };
+        _eTRPKFXS = {
+            "id" = "eTRPKFXS";
+            "file" = "crystal-tweaks-1.21.11-2.2.8.jar";
+            "hash" = "sha512-EsdnzkfLl699udxNtMf0KalwnBJ7nt9s7V1kL+XwLcT2A0g//c/lF9DZhuiDm9Tjd+tLl4yEB+R6bv35mngnmQ==";
+        };
+        _xXqrgWKE = {
+            "id" = "xXqrgWKE";
+            "file" = "crystal-tweaks-26.1-2.2.8.jar";
+            "hash" = "sha512-A5140WA5FDMBlAS6SQkbJH12JyNtS/my+Cl3be9QLlrO9TcBNtF3u0GhCwzTg1oQn4fjQrCYek9bEuxl50gHsA==";
+        };
+        _E0NJBCg9 = {
+            "id" = "E0NJBCg9";
+            "file" = "crystal-tweaks-26.1.1-2.2.8.jar";
+            "hash" = "sha512-aUwCq/VHkHKth7wQ9EN+zuFPR8nuzh/LlpDbysClHYpWM6nbJwmq0ofC8L4SNX+EzoT6Iq0StO6X2BUczGfmlw==";
+        };
+        _yhP8jXy1 = {
+            "id" = "yhP8jXy1";
+            "file" = "crystal-tweaks-26.1.2-2.2.8.jar";
+            "hash" = "sha512-d8m5H8AwjtEFiA8ZGYiPXaNd3FLFA7HnSz+NeYgJanERaWWzXBH8Drhr5h0kiYwMLHG/yW12ezE91upDdVOm0A==";
+        };
+        _Kz4WFFi1 = {
+            "id" = "Kz4WFFi1";
+            "file" = "crystal-tweaks-26.2-2.2.8.jar";
+            "hash" = "sha512-+OmQtI5qmgzFg61wiqi1TrmhfAK2wEqgG6j0FbEjLZKoqD0LsCPkzi2i3hJ0XUsKRrJVOTQFU0ECQMo/vUg1KQ==";
+        };
+        _lUxpqAdN = {
+            "id" = "lUxpqAdN";
+            "file" = "crystal-tweaks-1.21.11-2.2.9.jar";
+            "hash" = "sha512-zJyYOm+sooqEUoq63TSCn2+yEr7hZDigeeqXPXZtu1NpC0hxtLUbr4QLtvMjBE0COui9mfyqv8ugUDIRltBM/A==";
+        };
+        _RITTtL30 = {
+            "id" = "RITTtL30";
+            "file" = "crystal-tweaks-26.1.1-2.2.9.jar";
+            "hash" = "sha512-dd/7eA8u9E7+5l/2S8O14acgSWC3URI5HoR8gmTm6N50kXgSqy4MuA2JXcaktSVVuDrbWMX8UpiafHffIX1Nqw==";
+        };
+        _oWLPGafY = {
+            "id" = "oWLPGafY";
+            "file" = "crystal-tweaks-26.1.2-2.2.9.jar";
+            "hash" = "sha512-k0Iomc2XWYIhpMdXaWchycfqrRCcuCTwzv5mu4NZsgVO5DXYqrINAbJFRuOSWManzDVUdGjmQ39Jva5xBiYVKA==";
+        };
+        _AQvw42hX = {
+            "id" = "AQvw42hX";
+            "file" = "crystal-tweaks-26.1-2.2.9.jar";
+            "hash" = "sha512-+38XBRSCtyzM1nGIAdj97/gv9zXXzKK/mwTflM8zefXNx9w6YCi9dVeYBWD9CKMh6iZAk5f73RX5duF66IJ2UA==";
+        };
+        _G27HMPVv = {
+            "id" = "G27HMPVv";
+            "file" = "crystal-tweaks-26.2-2.2.9.jar";
+            "hash" = "sha512-m+6ZVkJ9mhcO0M3TTZHJyyH0YrWk5mho6/6UZymwgGIg2T9hSmhNQJikqe/GaIcIGBN+CRbxrW77WEov9IR1GA==";
+        };
+        _JJLbjUXP = {
+            "id" = "JJLbjUXP";
+            "file" = "crystal-tweaks-1.21.11-2.2.10.jar";
+            "hash" = "sha512-9XQFNTx1e1Jdvhu7yR+/vtbFAmhh7OHwHtyfHgA/vanvXDvxzoaCxU18KX/PLcEKtM6mYK0l4OlEodDLXUYxeg==";
+        };
+        _f2pCtPRZ = {
+            "id" = "f2pCtPRZ";
+            "file" = "crystal-tweaks-26.1-2.2.10.jar";
+            "hash" = "sha512-EUrCpJOgaG3qbcOVz+LH6qHgPBs+MUK5sVTzq7UezhoTTssJiBcPomNfQQbU8uNRxTdLOFrHyLz87jEdRWE25Q==";
+        };
+        _AefTIADi = {
+            "id" = "AefTIADi";
+            "file" = "crystal-tweaks-26.1.1-2.2.10.jar";
+            "hash" = "sha512-hjITrnMbkif0iFQHb9ucA9jtcacf9a1hoCmChV4KpI2AnP1mc+dO0Q0kdrfrTNpe6TVtLNYVG/s9IuKt1JvOLA==";
+        };
+        _qEiFXaQk = {
+            "id" = "qEiFXaQk";
+            "file" = "crystal-tweaks-26.1.2-2.2.10.jar";
+            "hash" = "sha512-WsLqUC+rFvMOo/FOo4Qy9CzJY5p67z0Dd2eZb8NdEETuoYToW2NcVWsc9C3YZilFzjtEye404pok/8eAV9+DKQ==";
+        };
+        _cAWWKdU1 = {
+            "id" = "cAWWKdU1";
+            "file" = "crystal-tweaks-26.2-2.2.10.jar";
+            "hash" = "sha512-JH24tw7hIxzVUHYEdkGFkLmcYO2e1xIZhy9SscmBjbn1ZJuzBpLCAMvBvtM2BGEsf/wlb3rSgDrVzdMNC8wehw==";
+        };
+        _ctkuCwhK = {
+            "id" = "ctkuCwhK";
+            "file" = "crystal-tweaks-1.21.11-2.2.11.jar";
+            "hash" = "sha512-hc1ZlK00a+7dOED2AQsLlUqxDiGQbPAsRIQwiRXe/grFKuz3eSdVmQK0mh965hi0WVzISui1Gen+sHQhWo2oFQ==";
+        };
+        _i3Cnbth9 = {
+            "id" = "i3Cnbth9";
+            "file" = "crystal-tweaks-26.1-2.2.11.jar";
+            "hash" = "sha512-LL/S6qrgmPaCgK6LS61Mmo8II4DwmCfYwYSVwo8ltLntmAN3vnS8hV32GTUGAEY7nppoWfipvtFoOxQ1wHd8Kw==";
+        };
+        _uEBKl4o3 = {
+            "id" = "uEBKl4o3";
+            "file" = "crystal-tweaks-26.1.1-2.2.11.jar";
+            "hash" = "sha512-oBPIUJyL+mWjqawILo+Q/S6s2g6fOdOV11lx/TKPzNv28zbvsy1r3asPfFKd8yhcAjtI356Z7EAqsXkYuBwqoA==";
+        };
+        _dmU3ZboG = {
+            "id" = "dmU3ZboG";
+            "file" = "crystal-tweaks-26.1.2-2.2.11.jar";
+            "hash" = "sha512-Yr9Rwc14J2uyV49xx3+IrgHVs2s5Wip7/UibSIXz3MXXGTwrg5wOHrvJAwVBB6moIpGuNWZ5IHbkx5flpQh2JA==";
+        };
+        _FgABmyjL = {
+            "id" = "FgABmyjL";
+            "file" = "crystal-tweaks-26.2-2.2.11.jar";
+            "hash" = "sha512-nbQCHc05Q4EVZUQGeP4SMlsIOG2gkSQETM4eYubmJkuqwC+K/5yTrJTJK7FQhNKc86s2mbCcmi8yj5XbCFK5LQ==";
+        };
     in {
         "WabIuHmG" = _WabIuHmG;
         "JipwuMDv" = _JipwuMDv;
@@ -542,8 +642,28 @@ let
         "Gp8Dr9bM" = _Gp8Dr9bM;
         "ZIL7PyQI" = _ZIL7PyQI;
         "gaf2JVYS" = _gaf2JVYS;
+        "eTRPKFXS" = _eTRPKFXS;
+        "xXqrgWKE" = _xXqrgWKE;
+        "E0NJBCg9" = _E0NJBCg9;
+        "yhP8jXy1" = _yhP8jXy1;
+        "Kz4WFFi1" = _Kz4WFFi1;
+        "lUxpqAdN" = _lUxpqAdN;
+        "RITTtL30" = _RITTtL30;
+        "oWLPGafY" = _oWLPGafY;
+        "AQvw42hX" = _AQvw42hX;
+        "G27HMPVv" = _G27HMPVv;
+        "JJLbjUXP" = _JJLbjUXP;
+        "f2pCtPRZ" = _f2pCtPRZ;
+        "AefTIADi" = _AefTIADi;
+        "qEiFXaQk" = _qEiFXaQk;
+        "cAWWKdU1" = _cAWWKdU1;
+        "ctkuCwhK" = _ctkuCwhK;
+        "i3Cnbth9" = _i3Cnbth9;
+        "uEBKl4o3" = _uEBKl4o3;
+        "dmU3ZboG" = _dmU3ZboG;
+        "FgABmyjL" = _FgABmyjL;
         "fabric-1.21.10" = _2mfwvenp;
-        "fabric-1.21.11" = _WsQT1xAm;
+        "fabric-1.21.11" = _ctkuCwhK;
         "fabric-1.21" = _8sgLs7bi;
         "fabric-1.21.1" = _Rg4CB0Wo;
         "fabric-1.21.2" = _x9ZccLv9;
@@ -554,10 +674,10 @@ let
         "fabric-1.21.7" = _eToTQlBw;
         "fabric-1.21.8" = _wkGFEyQC;
         "fabric-1.21.9" = _LZH8wS3Y;
-        "fabric-26.1.2" = _ZIL7PyQI;
-        "fabric-26.1" = _g4dI9dIz;
-        "fabric-26.1.1" = _Gp8Dr9bM;
-        "fabric-26.2" = _gaf2JVYS;
+        "fabric-26.1.2" = _dmU3ZboG;
+        "fabric-26.1" = _i3Cnbth9;
+        "fabric-26.1.1" = _uEBKl4o3;
+        "fabric-26.2" = _FgABmyjL;
         "pkg-1.0.0" = _WabIuHmG;
         "pkg-1.0.0+mc1.21" = _JipwuMDv;
         "pkg-1.0.0+mc1.21.2" = _MqY2MXNb;
@@ -633,7 +753,11 @@ let
         "pkg-2.2.6+mc26.1.2" = _VXdl4NeA;
         "pkg-2.2.6+mc26.2" = _hybBYVyb;
         "pkg-2.2.7" = _gaf2JVYS;
-        "default" = _gaf2JVYS;
+        "pkg-2.2.8" = _Kz4WFFi1;
+        "pkg-2.2.9" = _G27HMPVv;
+        "pkg-2.2.10" = _cAWWKdU1;
+        "pkg-2.2.11" = _FgABmyjL;
+        "default" = _FgABmyjL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kohs-crystal-tweaks";

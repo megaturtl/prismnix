@@ -441,6 +441,26 @@ let
             "file" = "rctapi-fabric-1.21.1-0.15.2-beta.jar";
             "hash" = "sha512-8OdA/tYQUeLko1NF6JANDc9Zxuad5ZrlyPGojgbI9KpxHnwkgMfYbZWx4DoblGYDHQktnuobyz0jYsjbdGxBUA==";
         };
+        _18Pq4MHt = {
+            "id" = "18Pq4MHt";
+            "file" = "rctapi-neoforge-1.21.1-0.16.0-beta.jar";
+            "hash" = "sha512-NfmtfqxFxBaJHrplqOtP0mjUwTeRPuN4tkIjZR8YE4PdJrCo11VSwPxS237ndRaA+TDemKLOD/oYEFcpGVpqIg==";
+        };
+        _poXTxoNY = {
+            "id" = "poXTxoNY";
+            "file" = "rctapi-fabric-1.21.1-0.16.0-beta.jar";
+            "hash" = "sha512-cdwsruo51bdoieNcq4gqALW+SbmMy6OtbwnrYwjphRtJF8EYug5SZYMfiRR43DPnd+zuPbVgDBtuzzkjvm6Uug==";
+        };
+        _ADsoWJz6 = {
+            "id" = "ADsoWJz6";
+            "file" = "rctapi-neoforge-1.21.1-0.16.1-beta.jar";
+            "hash" = "sha512-4rO67v1n0N4QOLY7pbBP57MRPjcjjXt3TlIw44nHwR+ed4ymgyl41aqo69/X9F5hpjYMLLBM66fhbFZrHuXREA==";
+        };
+        _bgmxNN26 = {
+            "id" = "bgmxNN26";
+            "file" = "rctapi-fabric-1.21.1-0.16.1-beta.jar";
+            "hash" = "sha512-p05rBwsxDjd+N3XypIT96+Kzvd7mMUbx4vjUfzoiYf1pik/ctayPH5XphZuKS9Tup9NaSP5epEllQ9ChahE7UA==";
+        };
     in {
         "2e3jkIbf" = _2e3jkIbf;
         "FB6G6rSl" = _FB6G6rSl;
@@ -530,8 +550,12 @@ let
         "7cUZXy2w" = _7cUZXy2w;
         "zpphgptV" = _zpphgptV;
         "9OZx0coL" = _9OZx0coL;
-        "neoforge-1.21.1" = _zpphgptV;
-        "fabric-1.21.1" = _9OZx0coL;
+        "18Pq4MHt" = _18Pq4MHt;
+        "poXTxoNY" = _poXTxoNY;
+        "ADsoWJz6" = _ADsoWJz6;
+        "bgmxNN26" = _bgmxNN26;
+        "neoforge-1.21.1" = _ADsoWJz6;
+        "fabric-1.21.1" = _bgmxNN26;
         "pkg-0.9.0-beta" = _FB6G6rSl;
         "pkg-0.9.1-beta" = _77mJesVV;
         "pkg-0.10.0-beta" = _Dg7Pp4Qd;
@@ -576,7 +600,9 @@ let
         "pkg-0.15.0-beta" = _kwYWScnz;
         "pkg-0.15.1-beta" = _7cUZXy2w;
         "pkg-0.15.2-beta" = _9OZx0coL;
-        "default" = _9OZx0coL;
+        "pkg-0.16.0-beta" = _poXTxoNY;
+        "pkg-0.16.1-beta" = _bgmxNN26;
+        "default" = _bgmxNN26;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rctapi";

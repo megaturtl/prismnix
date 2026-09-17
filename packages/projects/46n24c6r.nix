@@ -121,6 +121,11 @@ let
             "file" = "nofog-fabric-26.2.jar";
             "hash" = "sha512-caSyISa43dfBQpJDDPXneBTNqDl5J37WJMH6huMMr4oBT2Hx/T45FntOZh3UyXMX3/DAfy+oe7OwwxEcOpyZ7A==";
         };
+        _C8eOUsdr = {
+            "id" = "C8eOUsdr";
+            "file" = "nofog-fabric-26.3.jar";
+            "hash" = "sha512-O90OucABdgoXM5+6cZK7j2MFfrq2TjCaf5B93Z3vDcxJfovCfIu+B+SRsBxis9oZc1mC1w0yDJnF4yhAxuxGVw==";
+        };
     in {
         "YUZI61qX" = _YUZI61qX;
         "TzIwjLHe" = _TzIwjLHe;
@@ -146,6 +151,7 @@ let
         "VZLPzUG7" = _VZLPzUG7;
         "9YdlX4T7" = _9YdlX4T7;
         "GZ2Uiwgv" = _GZ2Uiwgv;
+        "C8eOUsdr" = _C8eOUsdr;
         "fabric-1.21.2" = _YUZI61qX;
         "fabric-1.21.3" = _YUZI61qX;
         "fabric-1.21.4" = _YUZI61qX;
@@ -174,6 +180,7 @@ let
         "fabric-26.1.1" = _VZLPzUG7;
         "fabric-26.1.2" = _9YdlX4T7;
         "fabric-26.2" = _GZ2Uiwgv;
+        "fabric-26.3" = _C8eOUsdr;
         "forge-1.21.8" = _yTwCnqAE;
         "forge-1.21.7" = _qzp34X5o;
         "forge-1.21.6" = _uPsjxakY;
@@ -215,7 +222,8 @@ let
         "pkg-26.1.1_Fabric" = _VZLPzUG7;
         "pkg-26.1.2_Fabric" = _9YdlX4T7;
         "pkg-26.2_Fabric" = _GZ2Uiwgv;
-        "default" = _GZ2Uiwgv;
+        "pkg-26.3_Fabric" = _C8eOUsdr;
+        "default" = _C8eOUsdr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "clear-fog";

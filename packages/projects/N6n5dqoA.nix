@@ -1191,6 +1191,11 @@ let
             "file" = "Axiom-6.0.5-for-MC26.2.jar";
             "hash" = "sha512-t5g2F2aac3OeohSG2OojKYDhC2aSsCkRqHPWSrN8tP+wpYwn41oxpo9liDxomnh/X1ewyy0p0yXtfPyDUaDjvA==";
         };
+        _agNVjngI = {
+            "id" = "agNVjngI";
+            "file" = "Axiom-6.1.1-for-MC26.3.jar";
+            "hash" = "sha512-oWLF4A0/RNtTCxv7UooBHInxJNrOYHsq2vxLW7sjGAsrfsWQ8Alh6b65DogoaUDUTp2+1NM6mLp0BUjhH9MMbQ==";
+        };
     in {
         "MmM7vlcE" = _MmM7vlcE;
         "urm6fIfj" = _urm6fIfj;
@@ -1430,6 +1435,7 @@ let
         "SAOZ8jry" = _SAOZ8jry;
         "aZ3IOnv2" = _aZ3IOnv2;
         "o59cWLPI" = _o59cWLPI;
+        "agNVjngI" = _agNVjngI;
         "fabric-1.20" = _ciQg9GUl;
         "fabric-1.20.1" = _ciQg9GUl;
         "fabric-1.20.2" = _YxrulSJy;
@@ -1453,6 +1459,7 @@ let
         "fabric-26.1.1" = _aZ3IOnv2;
         "fabric-26.1.2" = _aZ3IOnv2;
         "fabric-26.2" = _o59cWLPI;
+        "fabric-26.3" = _agNVjngI;
         "pkg-1.2.4" = _MmM7vlcE;
         "pkg-1.3.0" = _urm6fIfj;
         "pkg-1.3.2" = _Ky4AtMTv;
@@ -1506,7 +1513,8 @@ let
         "pkg-6.0.2" = _qiKAHEAL;
         "pkg-6.0.3" = _SkHtNK2i;
         "pkg-6.0.5" = _o59cWLPI;
-        "default" = _o59cWLPI;
+        "pkg-6.1.1" = _agNVjngI;
+        "default" = _agNVjngI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "axiom";

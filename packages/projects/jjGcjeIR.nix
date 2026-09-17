@@ -256,6 +256,31 @@ let
             "file" = "TheBackrooms-v1.7.1-26.2.zip";
             "hash" = "sha512-hhEzYgWxRQSMkzUFZiYyDvfYzlyrxYEqxLJPtyQ6Q6KK/OzS0WdqZpE09KXBHvpPS99txVSo2beKpREC8PXh2A==";
         };
+        _NU7LdYvE = {
+            "id" = "NU7LdYvE";
+            "file" = "TheBackrooms-v1.8.0-1.20.1.zip";
+            "hash" = "sha512-fX5DQgMO5uoPTSpgIeh/FewLSkZyv0vZk8v++OBRY5zmzohl0I1riM/wZiWRo0mTjKe+FzhYqjFWIXMG5s3xTg==";
+        };
+        _8daPnMZA = {
+            "id" = "8daPnMZA";
+            "file" = "TheBackrooms-v1.8.0-1.21.11.zip";
+            "hash" = "sha512-OfrS6mMXg4b1g8RvG+iD1NlPQCQJpuWZW0VN2aUHhSHeox89x1cZLulps7EUx+3G7GpG1apcBTE+bbmUBM/oyA==";
+        };
+        _MANA1hr5 = {
+            "id" = "MANA1hr5";
+            "file" = "TheBackrooms-v1.8.0-26.1-.2.zip";
+            "hash" = "sha512-EqIh85CzW51WD8oHA6q2FTADCe3Hqv/2nLbm6GAvVQkTZoMRug+XJCGFWUrf39Gc2J5fqXlR1V3UXrmg3tom2A==";
+        };
+        _yyjJW5Iz = {
+            "id" = "yyjJW5Iz";
+            "file" = "TheBackrooms-v1.8.0-26.2.zip";
+            "hash" = "sha512-fhYOiHs9weMHwCZ1RmxEhaeOnyOJYfXUQnv+ZVnS0t/CZYcFEDoD1xUwf5LA9F/l/Y6uhygw5TtDihw/RnAcmw==";
+        };
+        _oGu5ZeU6 = {
+            "id" = "oGu5ZeU6";
+            "file" = "TheBackrooms-v1.8.1-26.3.zip";
+            "hash" = "sha512-zMHQf1wsBU7bhX+nfU4IJPrmrq/B+VYl4FOgNjbrDQWZl9HQg/z2WeRq5fL/KKiuCDsSargVUT4aWQ5vjx/oeA==";
+        };
     in {
         "SfQ0GDLd" = _SfQ0GDLd;
         "GManxAup" = _GManxAup;
@@ -308,6 +333,11 @@ let
         "jfaNFfwa" = _jfaNFfwa;
         "6sAJnEWd" = _6sAJnEWd;
         "xOjt7ez1" = _xOjt7ez1;
+        "NU7LdYvE" = _NU7LdYvE;
+        "8daPnMZA" = _8daPnMZA;
+        "MANA1hr5" = _MANA1hr5;
+        "yyjJW5Iz" = _yyjJW5Iz;
+        "oGu5ZeU6" = _oGu5ZeU6;
         "minecraft-1.8" = _3HA3wcXE;
         "minecraft-1.8.1" = _3HA3wcXE;
         "minecraft-1.8.2" = _3HA3wcXE;
@@ -318,8 +348,8 @@ let
         "minecraft-1.8.7" = _3HA3wcXE;
         "minecraft-1.8.8" = _3HA3wcXE;
         "minecraft-1.8.9" = _3HA3wcXE;
-        "minecraft-1.20" = _o9BRq1As;
-        "minecraft-1.20.1" = _o9BRq1As;
+        "minecraft-1.20" = _NU7LdYvE;
+        "minecraft-1.20.1" = _NU7LdYvE;
         "minecraft-1.20.2" = _Et2sxvte;
         "minecraft-1.20.3" = _2j7PkwGk;
         "minecraft-1.20.4" = _2j7PkwGk;
@@ -336,11 +366,12 @@ let
         "minecraft-1.21.8" = _9DEwGosd;
         "minecraft-1.21.9" = _a2EkusPk;
         "minecraft-1.21.10" = _a2EkusPk;
-        "minecraft-1.21.11" = _vLep1ko2;
-        "minecraft-26.1" = _jfaNFfwa;
-        "minecraft-26.1.1" = _jfaNFfwa;
-        "minecraft-26.1.2" = _jfaNFfwa;
-        "minecraft-26.2" = _xOjt7ez1;
+        "minecraft-1.21.11" = _8daPnMZA;
+        "minecraft-26.1" = _MANA1hr5;
+        "minecraft-26.1.1" = _MANA1hr5;
+        "minecraft-26.1.2" = _MANA1hr5;
+        "minecraft-26.2" = _yyjJW5Iz;
+        "minecraft-26.3" = _oGu5ZeU6;
         "pkg-1.1" = _GManxAup;
         "pkg-1.2" = _H33RkA9U;
         "pkg-1.3" = _R3jgnm9U;
@@ -353,7 +384,9 @@ let
         "pkg-1.6.1" = _96YedaXV;
         "pkg-1.7.0" = _6sAJnEWd;
         "pkg-1.7.1" = _xOjt7ez1;
-        "default" = _xOjt7ez1;
+        "pkg-1.8.0" = _yyjJW5Iz;
+        "pkg-1.8.1" = _oGu5ZeU6;
+        "default" = _oGu5ZeU6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "char1ies-backrooms";

@@ -116,6 +116,16 @@ let
             "file" = "bettershields-neoforge-1.11.0+mc26.2.jar";
             "hash" = "sha512-SDWu1VCMDwQ+I1Rs/8QPhi228NDPCG5hLrlz6xtJa0aDkiTePROQFIk1p5XxlEEv1aiUt5bM03QPOfZ1n5dfHw==";
         };
+        _t1ZFREOG = {
+            "id" = "t1ZFREOG";
+            "file" = "bettershields-fabric-1.12.0+mc26.3.jar";
+            "hash" = "sha512-Tn7lN8COw8cjBIjZxUHj3xHtTe5nSIWxByUlonv7ATiru6Z+hfBnW+KY2mnGFCDRwHhR8106yRDjCmNb8Rc5XA==";
+        };
+        _DRkiOHuW = {
+            "id" = "DRkiOHuW";
+            "file" = "bettershields-neoforge-1.12.0+mc26.3.jar";
+            "hash" = "sha512-Z4AxhCfxzRRteGt6lO4FY+mRUSIW2azkOa+jSh/YoZX2RMcXQQcnxlF636EkykP9FnMVxVtr89a4QNbHW9XJ+w==";
+        };
     in {
         "kexuin2q" = _kexuin2q;
         "gQpEvOre" = _gQpEvOre;
@@ -140,6 +150,8 @@ let
         "O7iaUbuU" = _O7iaUbuU;
         "IMDzjo09" = _IMDzjo09;
         "8hTM6az1" = _8hTM6az1;
+        "t1ZFREOG" = _t1ZFREOG;
+        "DRkiOHuW" = _DRkiOHuW;
         "fabric-1.18.2" = _kexuin2q;
         "fabric-1.19.4" = _gQpEvOre;
         "fabric-1.20" = _gQpEvOre;
@@ -165,6 +177,7 @@ let
         "fabric-26.1.1" = _O7iaUbuU;
         "fabric-26.1.2" = _O7iaUbuU;
         "fabric-26.2" = _IMDzjo09;
+        "fabric-26.3" = _t1ZFREOG;
         "quilt-1.18.2" = _kexuin2q;
         "quilt-1.19.4" = _gQpEvOre;
         "quilt-1.20" = _gQpEvOre;
@@ -190,10 +203,12 @@ let
         "quilt-26.1.1" = _O7iaUbuU;
         "quilt-26.1.2" = _O7iaUbuU;
         "quilt-26.2" = _IMDzjo09;
+        "quilt-26.3" = _t1ZFREOG;
         "neoforge-26.1" = _J5OmkGUb;
         "neoforge-26.1.1" = _J5OmkGUb;
         "neoforge-26.1.2" = _J5OmkGUb;
         "neoforge-26.2" = _8hTM6az1;
+        "neoforge-26.3" = _DRkiOHuW;
         "pkg-1.0.0+mc1.18.2" = _kexuin2q;
         "pkg-1.0.0+mc1.19.4" = _gQpEvOre;
         "pkg-1.0.1+mc1.20.2" = _O3WpPsPp;
@@ -217,7 +232,9 @@ let
         "pkg-1.10.0+mc26.1-fabric" = _O7iaUbuU;
         "pkg-1.11.0+mc26.2-fabric" = _IMDzjo09;
         "pkg-1.11.0+mc26.2-neoforge" = _8hTM6az1;
-        "default" = _8hTM6az1;
+        "pkg-1.12.0+mc26.3-fabric" = _t1ZFREOG;
+        "pkg-1.12.0+mc26.3-neoforge" = _DRkiOHuW;
+        "default" = _DRkiOHuW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bettershields";

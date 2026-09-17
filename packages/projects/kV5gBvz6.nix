@@ -91,6 +91,11 @@ let
             "file" = "MoogsVoyagerStructures-datapack-1.20-5.1.1.zip";
             "hash" = "sha512-Fvy1xgBqA6hABaw7Z4Z9nTRZy77zLlgA50fRWYL/U7Yo7MrGY8OD7rTikB29RYC8BxmMDGyyHranc1C5K60bFQ==";
         };
+        _9NfpOLYJ = {
+            "id" = "9NfpOLYJ";
+            "file" = "MoogsVoyagerStructures-datapack-1.21-5.1.2.zip";
+            "hash" = "sha512-spzjbQvRCxAZqko1yI8ulaHUl4bVStV/CKe3Uy4JJ2zY259sTvzqrsMclROcg/zey3IUQpdkRAZx1aHYP/4jjQ==";
+        };
     in {
         "UATBPqnz" = _UATBPqnz;
         "pDSqHv82" = _pDSqHv82;
@@ -110,6 +115,7 @@ let
         "Ylf6iXcF" = _Ylf6iXcF;
         "dVytzRl7" = _dVytzRl7;
         "V8nWw8E5" = _V8nWw8E5;
+        "9NfpOLYJ" = _9NfpOLYJ;
         "datapack-1.18.2" = _UATBPqnz;
         "datapack-1.19" = _TF4zIaTS;
         "datapack-1.19.1" = _TF4zIaTS;
@@ -123,22 +129,23 @@ let
         "datapack-1.20.4" = _V8nWw8E5;
         "datapack-1.20.5" = _V8nWw8E5;
         "datapack-1.20.6" = _V8nWw8E5;
-        "datapack-1.21" = _dVytzRl7;
-        "datapack-1.21.1" = _dVytzRl7;
-        "datapack-1.21.2" = _dVytzRl7;
-        "datapack-1.21.3" = _dVytzRl7;
-        "datapack-1.21.4" = _dVytzRl7;
-        "datapack-1.21.5" = _dVytzRl7;
-        "datapack-1.21.6" = _dVytzRl7;
-        "datapack-1.21.7" = _dVytzRl7;
-        "datapack-1.21.8" = _dVytzRl7;
-        "datapack-1.21.9" = _dVytzRl7;
-        "datapack-1.21.10" = _dVytzRl7;
-        "datapack-1.21.11" = _dVytzRl7;
-        "datapack-26.1" = _dVytzRl7;
-        "datapack-26.1.1" = _dVytzRl7;
-        "datapack-26.1.2" = _dVytzRl7;
-        "datapack-26.2" = _dVytzRl7;
+        "datapack-1.21" = _9NfpOLYJ;
+        "datapack-1.21.1" = _9NfpOLYJ;
+        "datapack-1.21.2" = _9NfpOLYJ;
+        "datapack-1.21.3" = _9NfpOLYJ;
+        "datapack-1.21.4" = _9NfpOLYJ;
+        "datapack-1.21.5" = _9NfpOLYJ;
+        "datapack-1.21.6" = _9NfpOLYJ;
+        "datapack-1.21.7" = _9NfpOLYJ;
+        "datapack-1.21.8" = _9NfpOLYJ;
+        "datapack-1.21.9" = _9NfpOLYJ;
+        "datapack-1.21.10" = _9NfpOLYJ;
+        "datapack-1.21.11" = _9NfpOLYJ;
+        "datapack-26.1" = _9NfpOLYJ;
+        "datapack-26.1.1" = _9NfpOLYJ;
+        "datapack-26.1.2" = _9NfpOLYJ;
+        "datapack-26.2" = _9NfpOLYJ;
+        "datapack-26.3" = _9NfpOLYJ;
         "fabric-1.19" = _nTHVa4Gg;
         "fabric-1.19.1" = _nTHVa4Gg;
         "fabric-1.19.2" = _nTHVa4Gg;
@@ -156,7 +163,8 @@ let
         "pkg-5.0.8" = _MArx6L0W;
         "pkg-5.1.0" = _Ylf6iXcF;
         "pkg-5.1.1" = _V8nWw8E5;
-        "default" = _V8nWw8E5;
+        "pkg-5.1.2" = _9NfpOLYJ;
+        "default" = _9NfpOLYJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mvs-moogs-voyager-structure-config-pack";

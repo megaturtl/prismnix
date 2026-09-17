@@ -16,20 +16,28 @@ let
             "file" = "Scrolling Textures.zip";
             "hash" = "sha512-ni3i9lkV7pqCX8YEK+pNwqWtcgz5rZMwcb+zudVrr3VabEz1IZEh/7l6Uf0zHVGFCBmZuPuKr1B9WQ0VQFARsw==";
         };
+        _5xeryzFN = {
+            "id" = "5xeryzFN";
+            "file" = "Scrolling Textures.zip";
+            "hash" = "sha512-O1ktAAsrTjZD8sLgi2dw1JCNB1berbsvs1q+Y2U+05usjL6qYFoEZQaCOtQXcITGJhaeGKcuao7bBkE9Fz+SdQ==";
+        };
     in {
         "qE7s1Uq6" = _qE7s1Uq6;
         "qGZn1oRH" = _qGZn1oRH;
         "Mptmigvf" = _Mptmigvf;
+        "5xeryzFN" = _5xeryzFN;
         "minecraft-1.16.2" = _qE7s1Uq6;
         "minecraft-1.16.3" = _qE7s1Uq6;
         "minecraft-1.16.4" = _qE7s1Uq6;
         "minecraft-1.16.5" = _qE7s1Uq6;
         "minecraft-1.20.2" = _qGZn1oRH;
         "minecraft-1.21.8" = _Mptmigvf;
+        "minecraft-26.3" = _5xeryzFN;
         "pkg-1.0.0" = _qE7s1Uq6;
         "pkg-1.1.0" = _qGZn1oRH;
         "pkg-1.3.0" = _Mptmigvf;
-        "default" = _Mptmigvf;
+        "pkg-2.0.0" = _5xeryzFN;
+        "default" = _5xeryzFN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scrolling-textures";

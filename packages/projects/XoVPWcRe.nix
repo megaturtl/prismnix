@@ -66,6 +66,11 @@ let
             "file" = "roads-n-vehicles-0.1.1+26.2.X.jar";
             "hash" = "sha512-hgS6WJyexRQLTOTqGEuXIwjIGi30PywwetQ66JHqz8im9sFNGV/ZePQRZmxpQx0h077mJKBu64cAe16nVxdR2g==";
         };
+        _gIi9HUjC = {
+            "id" = "gIi9HUjC";
+            "file" = "roads-n-vehicles-0.1.1+26.3.X.jar";
+            "hash" = "sha512-/OHvsfRS5AxDhJXf3H9xx08ol5cSvGWeV0fxL6eRyQ2cqdGsIDOejG7bPVsjvNIrk9Bt9j/0zbLP0rxi7bLRtw==";
+        };
     in {
         "PphTV3tm" = _PphTV3tm;
         "EGl2OpxK" = _EGl2OpxK;
@@ -80,6 +85,7 @@ let
         "p29I76uG" = _p29I76uG;
         "47rnevLr" = _47rnevLr;
         "LpyVQi3a" = _LpyVQi3a;
+        "gIi9HUjC" = _gIi9HUjC;
         "fabric-1.20.1" = _4Qx6KDVl;
         "fabric-1.21.1" = _vayqSFZa;
         "fabric-1.21.10" = _p29I76uG;
@@ -88,6 +94,7 @@ let
         "fabric-26.1.1" = _47rnevLr;
         "fabric-26.1.2" = _47rnevLr;
         "fabric-26.2" = _LpyVQi3a;
+        "fabric-26.3" = _gIi9HUjC;
         "forge-1.20.1" = _4Qx6KDVl;
         "forge-1.21.1" = _vayqSFZa;
         "forge-26.1" = _47rnevLr;
@@ -106,6 +113,7 @@ let
         "quilt-26.1.1" = _47rnevLr;
         "quilt-26.1.2" = _47rnevLr;
         "quilt-26.2" = _LpyVQi3a;
+        "quilt-26.3" = _gIi9HUjC;
         "pkg-0.0.1" = _PphTV3tm;
         "pkg-0.0.2" = _EGl2OpxK;
         "pkg-0.0.3" = _QBsm1adI;
@@ -119,7 +127,8 @@ let
         "pkg-0.1.1+1.21.1X" = _p29I76uG;
         "pkg-0.1.1+26.1.X" = _47rnevLr;
         "pkg-0.1.1+26.2.X" = _LpyVQi3a;
-        "default" = _LpyVQi3a;
+        "pkg-0.1.1+26.3.X" = _gIi9HUjC;
+        "default" = _gIi9HUjC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "roads-n-vehicles";

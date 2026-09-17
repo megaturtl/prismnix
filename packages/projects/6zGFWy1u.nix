@@ -36,6 +36,11 @@ let
             "file" = "2D Tridents 26.2.zip";
             "hash" = "sha512-TsWF168m9Yc/ted1zlnDLpmNUG3rs5z6tGrbuXRwI+MUufuzglM0T+RPV8hXH2DraUGIr0Ld7CP1TZ+vLc8mXg==";
         };
+        _YGmHXF1u = {
+            "id" = "YGmHXF1u";
+            "file" = "2D Tridents 26.3.zip";
+            "hash" = "sha512-6nA9sSWC0ijR1qeWG8HanWMO+tcvlIhNpSJu/OgfHEn/NPIp5oUdJOgxYxsDbWTB8AZccOnIZwek/4Er8PZhBA==";
+        };
     in {
         "k3gvUzmb" = _k3gvUzmb;
         "5bwhUxhc" = _5bwhUxhc;
@@ -44,6 +49,7 @@ let
         "JeHluDcg" = _JeHluDcg;
         "89vF8yDM" = _89vF8yDM;
         "befRQNzT" = _befRQNzT;
+        "YGmHXF1u" = _YGmHXF1u;
         "minecraft-1.21.4" = _JeHluDcg;
         "minecraft-1.21.1" = _JeHluDcg;
         "minecraft-1.21.5" = _JeHluDcg;
@@ -53,6 +59,7 @@ let
         "minecraft-26.1" = _89vF8yDM;
         "minecraft-26.1.1" = _89vF8yDM;
         "minecraft-26.2" = _befRQNzT;
+        "minecraft-26.3" = _YGmHXF1u;
         "pkg-1.0-custom-old" = _k3gvUzmb;
         "pkg-1.0-vanilla-old" = _5bwhUxhc;
         "pkg-1.0-custom-1.21.1-old" = _NLHZ755e;
@@ -60,7 +67,8 @@ let
         "pkg-2d-tridents" = _JeHluDcg;
         "pkg-2d-tridents-26.1" = _89vF8yDM;
         "pkg-26.2" = _befRQNzT;
-        "default" = _befRQNzT;
+        "pkg-26.3" = _YGmHXF1u;
+        "default" = _YGmHXF1u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "combat-amenities-2d-tridents";

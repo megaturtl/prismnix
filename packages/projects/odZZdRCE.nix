@@ -206,6 +206,11 @@ let
             "file" = "ATM x MSD [v3.7.0].zip";
             "hash" = "sha512-Le1BhaPX+5iNMxXvG52MsYm42VLzTgq+UYBm1jLZLhQEVo/gn5jAeqdZBhI+lkQOP7YwLmFLkQe7Ze9hIEjZww==";
         };
+        _2JPClXSG = {
+            "id" = "2JPClXSG";
+            "file" = "ATM x MSD [v4.0].zip";
+            "hash" = "sha512-luS0XlfFGD/1nL4tetK3Q7Q4SsOT9O2cagLmNq87fB8k2P3NmayKh2nBcS+RetqTb3qSoNkd9Hs7Dd9JhjL2gg==";
+        };
     in {
         "52SLtydY" = _52SLtydY;
         "BZ7ftiz2" = _BZ7ftiz2;
@@ -248,8 +253,9 @@ let
         "18wVDpH3" = _18wVDpH3;
         "VhwUZj8K" = _VhwUZj8K;
         "3kfULKvo" = _3kfULKvo;
-        "datapack-1.21.1" = _3kfULKvo;
-        "minecraft-1.21.1" = _3kfULKvo;
+        "2JPClXSG" = _2JPClXSG;
+        "datapack-1.21.1" = _2JPClXSG;
+        "minecraft-1.21.1" = _2JPClXSG;
         "pkg-v1.0" = _52SLtydY;
         "pkg-v1.1" = _BZ7ftiz2;
         "pkg-v1.2" = _nIGKbQrl;
@@ -291,7 +297,8 @@ let
         "pkg-v3.6.0" = _18wVDpH3;
         "pkg-v3.6.1" = _VhwUZj8K;
         "pkg-v3.7.0" = _3kfULKvo;
-        "default" = _3kfULKvo;
+        "pkg-v4.0" = _2JPClXSG;
+        "default" = _2JPClXSG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "allthemons-x-mega-showdown-legacy";

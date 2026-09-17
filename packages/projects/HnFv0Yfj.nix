@@ -626,6 +626,11 @@ let
             "file" = "circular_destroy-1.0.1-mc26.1.2.zip";
             "hash" = "sha512-1Rys4z11t+pVj9F57aFvEvqD6B/zpGUxyhEhOPU+yk1xDKt2HVeHQWzW2af+FJr3it9yLEUwK6pqcuswNcwNcg==";
         };
+        _kyKbVaKG = {
+            "id" = "kyKbVaKG";
+            "file" = "circular_destroy-1.0.1-mc26.3.zip";
+            "hash" = "sha512-Hf5hwcpyC/XntuRRtQPtmbERmGPSSfRpwQkL1Nn6EhGjILmktoGLhidELP6yRdt2K1XPuCE40ZgxBn4UqObNjw==";
+        };
     in {
         "f5epXUH3" = _f5epXUH3;
         "S8ngpLJQ" = _S8ngpLJQ;
@@ -752,6 +757,7 @@ let
         "fl4gEW4K" = _fl4gEW4K;
         "kZWkM94i" = _kZWkM94i;
         "6ZlJS4vV" = _6ZlJS4vV;
+        "kyKbVaKG" = _kyKbVaKG;
         "minecraft-1.8.9" = _KQv8Mr8G;
         "minecraft-1.9" = _8sd769eg;
         "minecraft-1.9.1" = _1iK8KdLy;
@@ -817,9 +823,10 @@ let
         "minecraft-26.2" = _fl4gEW4K;
         "minecraft-26.1.1" = _kZWkM94i;
         "minecraft-26.1.2" = _6ZlJS4vV;
+        "minecraft-26.3" = _kyKbVaKG;
         "pkg-1.0.0" = _pLzLHhNJ;
-        "pkg-1.0.1" = _6ZlJS4vV;
-        "default" = _6ZlJS4vV;
+        "pkg-1.0.1" = _kyKbVaKG;
+        "default" = _kyKbVaKG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-collective-circular-block-destroy-animation";

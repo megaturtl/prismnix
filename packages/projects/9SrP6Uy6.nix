@@ -96,6 +96,11 @@ let
             "file" = "Simple Structures Desert 26.2.jar";
             "hash" = "sha512-FkyuNsSKJ5fv9Xy8gp9J87tU80C4jsVdATiCf0ZNeT9H6R8YBvC7Fca4t9jy1juZov5D35rVMj774AWCtquc3g==";
         };
+        _dTRWUcCo = {
+            "id" = "dTRWUcCo";
+            "file" = "Simple Structures Desert 26.3.jar";
+            "hash" = "sha512-oGjebR4QhY1ab80YBjOFUIhNmul96qb30Ityxc3wXW+yrHqKpINLdkhpvRo9PfNmiDfbGu4phXx5ngDptSDAfQ==";
+        };
     in {
         "zJIImsIy" = _zJIImsIy;
         "GlJ7rnBU" = _GlJ7rnBU;
@@ -116,6 +121,7 @@ let
         "SRE5EYzX" = _SRE5EYzX;
         "kVDrpB1y" = _kVDrpB1y;
         "MF5esj5t" = _MF5esj5t;
+        "dTRWUcCo" = _dTRWUcCo;
         "datapack-1.20" = _zJIImsIy;
         "datapack-1.20.1" = _zJIImsIy;
         "datapack-1.21.10" = _xnpyQvTr;
@@ -140,6 +146,7 @@ let
         "fabric-26.2-snapshot-5" = _SnfDsbLI;
         "fabric-26.2-snapshot-6" = _SnfDsbLI;
         "fabric-26.2" = _MF5esj5t;
+        "fabric-26.3" = _dTRWUcCo;
         "forge-1.21" = _Wxs59jwH;
         "forge-1.21.1" = _Wxs59jwH;
         "forge-1.20" = _iige2l6d;
@@ -155,6 +162,7 @@ let
         "forge-26.2-snapshot-5" = _SnfDsbLI;
         "forge-26.2-snapshot-6" = _SnfDsbLI;
         "forge-26.2" = _MF5esj5t;
+        "forge-26.3" = _dTRWUcCo;
         "neoforge-1.20" = _iige2l6d;
         "neoforge-1.20.1" = _ZZ1SMKZS;
         "neoforge-1.21.10" = _SRE5EYzX;
@@ -168,13 +176,15 @@ let
         "neoforge-26.2-snapshot-5" = _SnfDsbLI;
         "neoforge-26.2-snapshot-6" = _SnfDsbLI;
         "neoforge-26.2" = _MF5esj5t;
+        "neoforge-26.3" = _dTRWUcCo;
         "quilt-1.20" = _iige2l6d;
         "quilt-1.20.1" = _ZZ1SMKZS;
         "pkg-1.0" = _TXl8k4ho;
         "pkg-1.1" = _4YNYmfme;
         "pkg-1.2" = _KlQoz3O3;
         "pkg-1.3" = _MF5esj5t;
-        "default" = _MF5esj5t;
+        "pkg-1.3.1" = _dTRWUcCo;
+        "default" = _dTRWUcCo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-structuretest-by-pv";

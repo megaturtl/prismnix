@@ -61,6 +61,11 @@ let
             "file" = "SimpleAutoAttack-1.4.jar";
             "hash" = "sha512-jGtKyPKcb7g2i3Ne1DA4z4GEzEvS8JeAkLcR3LwNsEVBXftz6zVYpUVjT+hkXwNzSOlKRaaAvVWX2/r8Z/jawg==";
         };
+        _SiFlqK4u = {
+            "id" = "SiFlqK4u";
+            "file" = "SimpleAutoAttack-1.4.jar";
+            "hash" = "sha512-5pFqD7Zzi6qjXAQDXNTKIMgNfKqg5hGW8LOHvAqA1j8QORzhxrRKpdQqquzl9/Ksn+fn37krduLTvCstUC2q1g==";
+        };
     in {
         "tPUZXgkV" = _tPUZXgkV;
         "nn88Viey" = _nn88Viey;
@@ -74,6 +79,7 @@ let
         "6vTEWZiL" = _6vTEWZiL;
         "jT4sxz5d" = _jT4sxz5d;
         "9QYspmaz" = _9QYspmaz;
+        "SiFlqK4u" = _SiFlqK4u;
         "fabric-1.21.4" = _cDbTQ9ey;
         "fabric-1.21.1" = _cDbTQ9ey;
         "fabric-1.21.2" = _cDbTQ9ey;
@@ -88,12 +94,13 @@ let
         "fabric-26.1" = _9QYspmaz;
         "fabric-26.1.1" = _9QYspmaz;
         "fabric-26.1.2" = _9QYspmaz;
+        "fabric-26.2" = _SiFlqK4u;
         "pkg-1.0" = _tPUZXgkV;
         "pkg-1.1" = _nn88Viey;
         "pkg-1.2" = _wC76EWV0;
         "pkg-1.3" = _6EnEg2vz;
-        "pkg-1.4" = _9QYspmaz;
-        "default" = _9QYspmaz;
+        "pkg-1.4" = _SiFlqK4u;
+        "default" = _SiFlqK4u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-auto-attack";

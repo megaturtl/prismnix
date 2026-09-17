@@ -66,6 +66,11 @@ let
             "file" = "bugtorch-1.2.14.jar";
             "hash" = "sha512-sLL6mhXJDqLFnzwDeXKk0PXZ42nJm+rkhZM05gFuuSx+zTxQww8jMvYC4h6pG4Q8XUfA2BjreXoWPsLfvTbTWA==";
         };
+        _A2m3mnBQ = {
+            "id" = "A2m3mnBQ";
+            "file" = "bugtorch-1.3.1.jar";
+            "hash" = "sha512-8DV0kHees6/k3lXKqBQc/NZSo682Fn/qxndoK604EAnIhNJRUtZi8hT/f1SkCgecaNt0yOhsgMRxOvp82DRlZg==";
+        };
     in {
         "gPZXvCPi" = _gPZXvCPi;
         "8EcGtguP" = _8EcGtguP;
@@ -80,7 +85,8 @@ let
         "V8NqviBX" = _V8NqviBX;
         "6HgNiu8e" = _6HgNiu8e;
         "lKTW0So5" = _lKTW0So5;
-        "forge-1.7.10" = _lKTW0So5;
+        "A2m3mnBQ" = _A2m3mnBQ;
+        "forge-1.7.10" = _A2m3mnBQ;
         "pkg-1.1.8" = _gPZXvCPi;
         "pkg-1.2.0" = _8EcGtguP;
         "pkg-1.2.1" = _3XW17HKK;
@@ -94,7 +100,8 @@ let
         "pkg-1.2.11" = _V8NqviBX;
         "pkg-1.2.13" = _6HgNiu8e;
         "pkg-1.2.14" = _lKTW0So5;
-        "default" = _lKTW0So5;
+        "pkg-1.3.1" = _A2m3mnBQ;
+        "default" = _A2m3mnBQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bugtorch";

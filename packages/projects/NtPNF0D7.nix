@@ -156,6 +156,16 @@ let
             "file" = "jukeboxcustomdiscfix-neoforge-0.2.0-26.2.jar";
             "hash" = "sha512-LG+9iA/Gvj4pkA4BJ/gIB1p7ctCUddsTW4AVKBaBXjvRebjKGGoEQSsuq5VAy9LpE1FGlzPP2SMsmGFG36dRpg==";
         };
+        _qbE8QV59 = {
+            "id" = "qbE8QV59";
+            "file" = "jukeboxcustomdiscfix-neoforge-0.2.0-26.3.jar";
+            "hash" = "sha512-Uvb9fnJZgwE1vIixE4uH0AU4mGg+YE+OB/WKrFtLdD0q9swmbUxcwbZ1qGNze1Mi8olUc6AG6M4a18j/cEkbtw==";
+        };
+        _cicm6ccp = {
+            "id" = "cicm6ccp";
+            "file" = "jukeboxcustomdiscfix-fabric-0.2.0-26.3.jar";
+            "hash" = "sha512-c+BLtw4RJnKerDFXWJZ/qAmWvgb/wZT09dSwyO7IAu2Cxk5wCg9mJ680mNFgNRkhxbBbEabQslIKMzdiHLuXMA==";
+        };
     in {
         "UmzRQ99I" = _UmzRQ99I;
         "azTkseSg" = _azTkseSg;
@@ -188,6 +198,8 @@ let
         "z05w7wQc" = _z05w7wQc;
         "6mQ8b05j" = _6mQ8b05j;
         "t5Nk903d" = _t5Nk903d;
+        "qbE8QV59" = _qbE8QV59;
+        "cicm6ccp" = _cicm6ccp;
         "fabric-1.20.4" = _94zA8ULs;
         "fabric-1.20.1" = _3QSemlLd;
         "fabric-1.20.5" = _Mq2XxXB4;
@@ -210,6 +222,7 @@ let
         "fabric-26.1.1" = _z05w7wQc;
         "fabric-26.1.2" = _z05w7wQc;
         "fabric-26.2" = _6mQ8b05j;
+        "fabric-26.3" = _cicm6ccp;
         "quilt-1.20.4" = _94zA8ULs;
         "quilt-1.20.5" = _Mq2XxXB4;
         "quilt-1.20.6" = _Mq2XxXB4;
@@ -221,6 +234,7 @@ let
         "neoforge-26.1.1" = _epK9rrM6;
         "neoforge-26.1.2" = _epK9rrM6;
         "neoforge-26.2" = _t5Nk903d;
+        "neoforge-26.3" = _qbE8QV59;
         "forge-1.20.1" = _qQVsKpiZ;
         "pkg-0.1.0-1.20.4" = _UmzRQ99I;
         "pkg-0.1.1-1.20.4" = _azTkseSg;
@@ -247,7 +261,8 @@ let
         "pkg-0.2.0-26.1" = _caBKAwCr;
         "pkg-0.2.0-26.1.1" = _z05w7wQc;
         "pkg-0.2.0-26.2" = _t5Nk903d;
-        "default" = _t5Nk903d;
+        "pkg-0.2.0-26.3" = _cicm6ccp;
+        "default" = _cicm6ccp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jukebox-custom-disc-fix";

@@ -256,6 +256,16 @@ let
             "file" = "enhancedgroups-fabric-1.7.1+26.2.jar";
             "hash" = "sha512-mWACkm1Yzi6fNJtl0+jAuF+rJNzWnHGyq5t55/qBARX9/sRWh56cfaRXujzCVFJ8fL9j06r47CLVYJ42RaYZ/Q==";
         };
+        _Zyj7PlwY = {
+            "id" = "Zyj7PlwY";
+            "file" = "enhancedgroups-fabric-1.8.0+26.2.jar";
+            "hash" = "sha512-L0Xhcb1yJ3qFpejORPqX/k9ZZ62E7/I3R0FCxUuQmJRjDVMH3f11QGsMhd9uiR27u4qkdxbVbhpYs3qgrT5pDA==";
+        };
+        _bxfWYs0a = {
+            "id" = "bxfWYs0a";
+            "file" = "enhancedgroups-fabric-1.8.0+26.3.jar";
+            "hash" = "sha512-YIACbv+X/2wPSfCle2mBfTEA5+qbHvZ/QdWIHqoGrKQu8GpOdTGlZvXFeeB8OC/UJkK+sz/gQnDpMD2LM3IOpQ==";
+        };
     in {
         "7Ood1zDg" = _7Ood1zDg;
         "QjK3ziJM" = _QjK3ziJM;
@@ -308,6 +318,8 @@ let
         "4XfnT1XZ" = _4XfnT1XZ;
         "vLMugawx" = _vLMugawx;
         "BG2QdQmW" = _BG2QdQmW;
+        "Zyj7PlwY" = _Zyj7PlwY;
+        "bxfWYs0a" = _bxfWYs0a;
         "fabric-1.19.4" = _8Oi2Fhft;
         "fabric-1.20" = _3zWBpbk3;
         "fabric-1.20.1" = _IqLUhXjv;
@@ -332,7 +344,8 @@ let
         "fabric-26.1" = _vLMugawx;
         "fabric-26.1.1" = _vLMugawx;
         "fabric-26.1.2" = _vLMugawx;
-        "fabric-26.2" = _BG2QdQmW;
+        "fabric-26.2" = _Zyj7PlwY;
+        "fabric-26.3" = _bxfWYs0a;
         "quilt-1.19.2" = _uDCbm52C;
         "quilt-1.20.1" = _IqLUhXjv;
         "quilt-1.20.2" = _e7tfNpCX;
@@ -354,7 +367,8 @@ let
         "quilt-26.1" = _vLMugawx;
         "quilt-26.1.1" = _vLMugawx;
         "quilt-26.1.2" = _vLMugawx;
-        "quilt-26.2" = _BG2QdQmW;
+        "quilt-26.2" = _Zyj7PlwY;
+        "quilt-26.3" = _bxfWYs0a;
         "pkg-fabric-1.19.4-1.0.2" = _7Ood1zDg;
         "pkg-fabric-1.19.4-1.1.0" = _QjK3ziJM;
         "pkg-fabric-1.19.4-1.2.0" = _eBoiLMqR;
@@ -406,7 +420,9 @@ let
         "pkg-fabric-1.7.1+26.1.1" = _4XfnT1XZ;
         "pkg-fabric-1.7.1+26.1.2" = _vLMugawx;
         "pkg-fabric-1.7.1+26.2" = _BG2QdQmW;
-        "default" = _BG2QdQmW;
+        "pkg-fabric-1.8.0+26.2" = _Zyj7PlwY;
+        "pkg-fabric-1.8.0+26.3" = _bxfWYs0a;
+        "default" = _bxfWYs0a;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enhanced-groups";

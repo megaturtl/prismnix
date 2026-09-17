@@ -91,6 +91,16 @@ let
             "file" = "blurserveraddress-fabric-1.3.0+mc26.1.jar";
             "hash" = "sha512-MmilV0gco8hjdUASgiy4jrZ6E8EF6uENGbXT8X180fDucKDpTDuYq7uiXCIa9A8Odgr7KmK5unTTqgBItjxfWg==";
         };
+        _dxMVl3tu = {
+            "id" = "dxMVl3tu";
+            "file" = "blurserveraddress-fabric-1.4.0+mc26.3.jar";
+            "hash" = "sha512-LnQZSn0m5y0MZzr5K0zABtEABiILGe2I9kAc58ed5NTpXTuAJV03BY44o6/BXjuBsgDYX8toprrQSqbVBIwaGA==";
+        };
+        _z7xgtH04 = {
+            "id" = "z7xgtH04";
+            "file" = "blurserveraddress-neoforge-1.4.0+mc26.3.jar";
+            "hash" = "sha512-xy7+Pqj28M0EP5RbIzlifBFn31oDQeQ5/8AvoLZh0yjuOI+4IWAGgmfPt+Vp5sx24p7xLsN2/UB07soYQ5O6BA==";
+        };
     in {
         "qlLGFTPz" = _qlLGFTPz;
         "jz6NFbfq" = _jz6NFbfq;
@@ -110,6 +120,8 @@ let
         "Mfqqc15A" = _Mfqqc15A;
         "BlaRNWIT" = _BlaRNWIT;
         "OatL6QyG" = _OatL6QyG;
+        "dxMVl3tu" = _dxMVl3tu;
+        "z7xgtH04" = _z7xgtH04;
         "fabric-1.20.1" = _qlLGFTPz;
         "fabric-1.20.2" = _jz6NFbfq;
         "fabric-1.20.4" = _xGHTTGzw;
@@ -131,6 +143,7 @@ let
         "fabric-26.1.1" = _OatL6QyG;
         "fabric-26.1.2" = _OatL6QyG;
         "fabric-26.2" = _OatL6QyG;
+        "fabric-26.3" = _dxMVl3tu;
         "quilt-1.20.1" = _qlLGFTPz;
         "quilt-1.20.2" = _jz6NFbfq;
         "quilt-1.20.4" = _xGHTTGzw;
@@ -152,6 +165,7 @@ let
         "quilt-26.1.1" = _OatL6QyG;
         "quilt-26.1.2" = _OatL6QyG;
         "quilt-26.2" = _OatL6QyG;
+        "quilt-26.3" = _dxMVl3tu;
         "neoforge-1.21.1" = _gWzhxym9;
         "neoforge-1.21.2" = _6j1wGyeI;
         "neoforge-1.21.3" = _6j1wGyeI;
@@ -167,6 +181,7 @@ let
         "neoforge-26.1.1" = _BlaRNWIT;
         "neoforge-26.1.2" = _BlaRNWIT;
         "neoforge-26.2" = _BlaRNWIT;
+        "neoforge-26.3" = _z7xgtH04;
         "pkg-mc1.20.1-1.0.0" = _qlLGFTPz;
         "pkg-mc1.20.2-1.0.0" = _jz6NFbfq;
         "pkg-mc1.20.4-1.0.0" = _5engCm4O;
@@ -185,7 +200,9 @@ let
         "pkg-mc1.21.11-1.2.1-fabric" = _Mfqqc15A;
         "pkg-mc26.1-1.3.0-neoforge" = _BlaRNWIT;
         "pkg-mc26.1-1.3.0-fabric" = _OatL6QyG;
-        "default" = _OatL6QyG;
+        "pkg-mc26.3-1.4.0-fabric" = _dxMVl3tu;
+        "pkg-mc26.3-1.4.0-neoforge" = _z7xgtH04;
+        "default" = _z7xgtH04;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blur-server-address";

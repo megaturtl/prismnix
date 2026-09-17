@@ -1916,6 +1916,56 @@ let
             "file" = "architectury-fabric-21.0.7.jar";
             "hash" = "sha512-3v/K1zuPc9YR2OQ92tOzgOeJa6U+S082YKuHe5xLogVh5JiIixdFayuIGfuQLiBwdgYTzm/snh8QgpkAFOkt1A==";
         };
+        _M6dXGbTC = {
+            "id" = "M6dXGbTC";
+            "file" = "architectury-fabric-20.1.13.jar";
+            "hash" = "sha512-v5z2417232ZAsraew8ouFEqORRFgEmsORpfv9uFVx4jGyZA637HdneqmR78PNu9AmyCQPHsyCNIGWOVgz20Wpg==";
+        };
+        _DfIq2aeZ = {
+            "id" = "DfIq2aeZ";
+            "file" = "architectury-neoforge-20.1.13.jar";
+            "hash" = "sha512-usfF3vvehSBHqFzk2lHIgmGHu0kYk0yF7NFumG6YyVg+AiB94FeXXqaSL7aHVv/UQEvsiCMzFUahRnBycR74kw==";
+        };
+        _3iJSN9Sa = {
+            "id" = "3iJSN9Sa";
+            "file" = "architectury-fabric-21.1.8.jar";
+            "hash" = "sha512-QL4h8zvhOduJSvj0V4R6qtNAq4vCD50L/clekWCjb3/ncaBc0pNo4Q796fUsA6ye7upsIf+oH/yoArqUkjm55w==";
+        };
+        _a9FZvbkE = {
+            "id" = "a9FZvbkE";
+            "file" = "architectury-neoforge-21.1.8.jar";
+            "hash" = "sha512-zxpthxThqqakjSTEsSOHbFAOAfjRCBIFft3jJWyrJFBxNSTET5DRhb3/NNpBMwP7eBJgu5Rws9RrR6Oe5LDCjA==";
+        };
+        _2PBzDQgH = {
+            "id" = "2PBzDQgH";
+            "file" = "architectury-neoforge-20.1.14.jar";
+            "hash" = "sha512-CnwD+eOJVw1u6OqW9atMHr3z3NL5drQEfvgOZ/c0g+VUHJBlgeWm+4QSDSZUKqarng9tjeKj7AkvQsSlS0+yLg==";
+        };
+        _k9DCEQ4B = {
+            "id" = "k9DCEQ4B";
+            "file" = "architectury-fabric-20.1.14.jar";
+            "hash" = "sha512-Df5y1L+Y2wm3L+992dLNDH2Bd4EBW/M5B1orri05UMzkw1tUM8HtoKx/cT7sqGm9hQ617vQxMOk8VdpxLjzBmg==";
+        };
+        _Jmfixwxe = {
+            "id" = "Jmfixwxe";
+            "file" = "architectury-fabric-21.1.9.jar";
+            "hash" = "sha512-V36BAs8QJuV1yEUoFV+aSlQmkvu+93Zsouvf0OeFMSZT93qJP1ktA2zPs6h9bYmYiGKBTtPI+LjEnJXODss3Ww==";
+        };
+        _t6H9g0ug = {
+            "id" = "t6H9g0ug";
+            "file" = "architectury-neoforge-21.1.9.jar";
+            "hash" = "sha512-cV8rk0OQ74JC9bzvHyBF64ZdCTLImi02zqCkvQNxfsiqzlkNIRsvra3VBo4RT7a2oKurf/Fq4lyQ1l2NDS48RA==";
+        };
+        _3Cv08YHj = {
+            "id" = "3Cv08YHj";
+            "file" = "architectury-neoforge-22.0.1.jar";
+            "hash" = "sha512-YiRPAxsdQaR+ykiCR4ptaIgWyorZTgHqErbGRD0m+a1s7GpFbBcD2IE7dnLnNXlQ3IsAPYeJRQjPcrVvggTKMw==";
+        };
+        _q66myQEq = {
+            "id" = "q66myQEq";
+            "file" = "architectury-fabric-22.0.1.jar";
+            "hash" = "sha512-m3bnbOKpGcVdJquwYFT1uX6rp14lsG6TSfk5dPd9OOG28Adwa7QyNlRSOSTA5aBmNa7RID7VytXBvQx6xYpYlg==";
+        };
     in {
         "37aObfvM" = _37aObfvM;
         "gyNUAhlG" = _gyNUAhlG;
@@ -2300,6 +2350,16 @@ let
         "hNxqF6r7" = _hNxqF6r7;
         "9D1cNuR2" = _9D1cNuR2;
         "1yQC4VvP" = _1yQC4VvP;
+        "M6dXGbTC" = _M6dXGbTC;
+        "DfIq2aeZ" = _DfIq2aeZ;
+        "3iJSN9Sa" = _3iJSN9Sa;
+        "a9FZvbkE" = _a9FZvbkE;
+        "2PBzDQgH" = _2PBzDQgH;
+        "k9DCEQ4B" = _k9DCEQ4B;
+        "Jmfixwxe" = _Jmfixwxe;
+        "t6H9g0ug" = _t6H9g0ug;
+        "3Cv08YHj" = _3Cv08YHj;
+        "q66myQEq" = _q66myQEq;
         "fabric-1.18.2" = _ql0OowZw;
         "fabric-1.16.5" = _ScYnvqdx;
         "fabric-1.18" = _468H7PSo;
@@ -2360,8 +2420,9 @@ let
         "fabric-1.21.11" = _uNdfrcQ8;
         "fabric-26.1" = _TZJ7aDWD;
         "fabric-26.1.1" = _TZJ7aDWD;
-        "fabric-26.1.2" = _hNxqF6r7;
-        "fabric-26.2" = _1yQC4VvP;
+        "fabric-26.1.2" = _k9DCEQ4B;
+        "fabric-26.2" = _Jmfixwxe;
+        "fabric-26.3" = _q66myQEq;
         "quilt-1.18.2" = _ql0OowZw;
         "quilt-1.19-pre1" = _RRYxZ2Ss;
         "quilt-1.19" = _cysqWrDN;
@@ -2426,8 +2487,9 @@ let
         "neoforge-1.21.11" = _EvL9NK2R;
         "neoforge-26.1" = _HupR52cO;
         "neoforge-26.1.1" = _HupR52cO;
-        "neoforge-26.1.2" = _uNG0WqnM;
-        "neoforge-26.2" = _9D1cNuR2;
+        "neoforge-26.1.2" = _2PBzDQgH;
+        "neoforge-26.2" = _t6H9g0ug;
+        "neoforge-26.3" = _3Cv08YHj;
         "pkg-4.4.61+fabric" = _37aObfvM;
         "pkg-4.4.61+forge" = _gyNUAhlG;
         "pkg-1.32.63+fabric" = _7mmmFMxV;
@@ -2810,7 +2872,17 @@ let
         "pkg-20.0.12+fabric" = _hNxqF6r7;
         "pkg-21.0.7+neoforge" = _9D1cNuR2;
         "pkg-21.0.7+fabric" = _1yQC4VvP;
-        "default" = _1yQC4VvP;
+        "pkg-20.1.13+fabric" = _M6dXGbTC;
+        "pkg-20.1.13+neoforge" = _DfIq2aeZ;
+        "pkg-21.1.8+fabric" = _3iJSN9Sa;
+        "pkg-21.1.8+neoforge" = _a9FZvbkE;
+        "pkg-20.1.14+neoforge" = _2PBzDQgH;
+        "pkg-20.1.14+fabric" = _k9DCEQ4B;
+        "pkg-21.1.9+fabric" = _Jmfixwxe;
+        "pkg-21.1.9+neoforge" = _t6H9g0ug;
+        "pkg-22.0.1+neoforge" = _3Cv08YHj;
+        "pkg-22.0.1+fabric" = _q66myQEq;
+        "default" = _q66myQEq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "architectury-api";

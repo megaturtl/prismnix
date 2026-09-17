@@ -666,6 +666,21 @@ let
             "file" = "trashcans-1.1.0a-fabric-mc1.20.4.jar";
             "hash" = "sha512-FiLQCN4KenXnVneNH1YArTZF2hlUjSVj8y33+Mpt2iAEs8mRRRQPSt3M3GzMQTv1jb15tZ5d7PS+78fGJauYmw==";
         };
+        _kRL1k13M = {
+            "id" = "kRL1k13M";
+            "file" = "trashcans-1.1.0a-neoforge-mc26.2.jar";
+            "hash" = "sha512-fVYVC/P33Ghf4c8w4HnlMqvB35NpdvQLHqwC2qA3ZaoTJuujGCQfDcys3f536FEaGW3vopjEykM7FhjPUB9l8g==";
+        };
+        _4HHhLEti = {
+            "id" = "4HHhLEti";
+            "file" = "trashcans-1.1.0-fabric-mc26.3.jar";
+            "hash" = "sha512-qVKhG+aCKC4FUsk4mNYasQvv1Im2xzEaxo5ACUAg8dPVO86bDLxq8ZKIwS3DdaQOImlkSXmXMSC7XL5NNKVjjQ==";
+        };
+        _TxhCKx1P = {
+            "id" = "TxhCKx1P";
+            "file" = "trashcans-1.1.0-neoforge-mc26.3.jar";
+            "hash" = "sha512-zhZlAPwE2+yrMSwAwjrT7UGOR+/QEt5Jy009B1Wuv9MgaQo03llLWoyRz+1JC8NkPaTolQAWqUqYtyfOXTrAqw==";
+        };
     in {
         "PUD2DMNz" = _PUD2DMNz;
         "hcpzisaN" = _hcpzisaN;
@@ -800,6 +815,9 @@ let
         "MNdasMUg" = _MNdasMUg;
         "iiNJsz5q" = _iiNJsz5q;
         "4AC8jSSK" = _4AC8jSSK;
+        "kRL1k13M" = _kRL1k13M;
+        "4HHhLEti" = _4HHhLEti;
+        "TxhCKx1P" = _TxhCKx1P;
         "forge-1.12" = _agBhzXVA;
         "forge-1.12.1" = _agBhzXVA;
         "forge-1.12.2" = _agBhzXVA;
@@ -878,6 +896,7 @@ let
         "fabric-26.1.1" = _82CNOPW0;
         "fabric-26.1.2" = _82CNOPW0;
         "fabric-26.2" = _4H9FHFWY;
+        "fabric-26.3" = _4HHhLEti;
         "neoforge-1.12" = _YsRc8QuP;
         "neoforge-1.12.1" = _YsRc8QuP;
         "neoforge-1.12.2" = _YsRc8QuP;
@@ -925,7 +944,8 @@ let
         "neoforge-26.1" = _IRiPQ9RG;
         "neoforge-26.1.1" = _IRiPQ9RG;
         "neoforge-26.1.2" = _IRiPQ9RG;
-        "neoforge-26.2" = _MNdasMUg;
+        "neoforge-26.2" = _kRL1k13M;
+        "neoforge-26.3" = _TxhCKx1P;
         "quilt-1.18" = _7TNax5fw;
         "quilt-1.18.1" = _7TNax5fw;
         "quilt-1.18.2" = _7TNax5fw;
@@ -954,6 +974,7 @@ let
         "quilt-26.1.1" = _82CNOPW0;
         "quilt-26.1.2" = _82CNOPW0;
         "quilt-26.2" = _4H9FHFWY;
+        "quilt-26.3" = _4HHhLEti;
         "pkg-1.0.15-forge-mc1.12" = _PUD2DMNz;
         "pkg-1.0.15-forge-mc1.14" = _hcpzisaN;
         "pkg-1.0.15-forge-mc1.15" = _eC5uJSLr;
@@ -1087,7 +1108,10 @@ let
         "pkg-1.1.0-neoforge-mc26.2" = _MNdasMUg;
         "pkg-1.1.0a-forge-mc1.20.4" = _iiNJsz5q;
         "pkg-1.1.0a-fabric-mc1.20.4" = _4AC8jSSK;
-        "default" = _4AC8jSSK;
+        "pkg-1.1.0a-neoforge-mc26.2" = _kRL1k13M;
+        "pkg-1.1.0-fabric-mc26.3" = _4HHhLEti;
+        "pkg-1.1.0-neoforge-mc26.3" = _TxhCKx1P;
+        "default" = _TxhCKx1P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trash-cans";

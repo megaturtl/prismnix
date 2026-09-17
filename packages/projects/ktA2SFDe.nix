@@ -31,6 +31,11 @@ let
             "file" = "smoothtexturefix-1.0.0+26.2.jar";
             "hash" = "sha512-HYQMvZT/6oOBCfiig1XjXNd+d3QKj+XzThB+9ypiN337KQmYP2bziteQE75bTVSqJR2Jhdcx8Bzn9kFTqyR+1w==";
         };
+        _Fc5xQ6BL = {
+            "id" = "Fc5xQ6BL";
+            "file" = "smoothtexturefix-1.0.0+26.3.jar";
+            "hash" = "sha512-WnUqBXxNHLAkaLQ+ju+qzf5Dtebrxmem3rX57ccLQmIKdiXAaieZTwFlTZI6EXE2U3endNOEGFOP4OEgEqT+8A==";
+        };
     in {
         "9sb3kH0T" = _9sb3kH0T;
         "GG7lTRsM" = _GG7lTRsM;
@@ -38,6 +43,7 @@ let
         "RLXCkMjb" = _RLXCkMjb;
         "zPaVKQWj" = _zPaVKQWj;
         "4upW3GXg" = _4upW3GXg;
+        "Fc5xQ6BL" = _Fc5xQ6BL;
         "fabric-1.21.11-pre1" = _9sb3kH0T;
         "fabric-1.21.11-pre2" = _9sb3kH0T;
         "fabric-1.21.11-pre3" = _9sb3kH0T;
@@ -48,13 +54,15 @@ let
         "fabric-26.1.1" = _zPaVKQWj;
         "fabric-26.1.2" = _zPaVKQWj;
         "fabric-26.2" = _4upW3GXg;
+        "fabric-26.3" = _Fc5xQ6BL;
         "pkg-1.0.0+1.21.11-pre1" = _9sb3kH0T;
         "pkg-1.0.0+1.21.11-rc1" = _GG7lTRsM;
         "pkg-1.0.0+1.21.11" = _yf4WJXFF;
         "pkg-1.0.0+26.1" = _RLXCkMjb;
         "pkg-1.0.0+26.1.1" = _zPaVKQWj;
         "pkg-1.0.0+26.2" = _4upW3GXg;
-        "default" = _4upW3GXg;
+        "pkg-1.0.0+26.3" = _Fc5xQ6BL;
+        "default" = _Fc5xQ6BL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smoothtexturefix";

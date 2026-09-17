@@ -131,6 +131,16 @@ let
             "file" = "easy-install-neoforge-1.1.11.jar";
             "hash" = "sha512-NNSAxfoSrluUM7nkENBioGev9jZdpC+T7jLkgM2vknWY8mT46KBnZZDlY4B7KvIFMAqxZKG/1bVdq2/XIW+0Tg==";
         };
+        _d6fhHkqQ = {
+            "id" = "d6fhHkqQ";
+            "file" = "easy-install-fabric-1.1.12.jar";
+            "hash" = "sha512-n+BCYnl/QBNYjJi9ca+/IamrsZgilZXCPOuI9y9L6urciWyGCg5QvDUnK/LJBDJjsIMKj50X1vOC5gktpm4LdQ==";
+        };
+        _vkqjvITD = {
+            "id" = "vkqjvITD";
+            "file" = "easy-install-neoforge-1.1.12.jar";
+            "hash" = "sha512-DSqgcp+CoOUj8kjbGD+82IGQBQ0AO2Hmm0gf/YwUtor4Rd8fDkreAa2C0ZeAfMk+CHNXYZLA3NvXxjDihVF/jQ==";
+        };
     in {
         "kiJpFJJJ" = _kiJpFJJJ;
         "AwV7h7Fi" = _AwV7h7Fi;
@@ -158,6 +168,8 @@ let
         "Pek28zSe" = _Pek28zSe;
         "cHgDcPCZ" = _cHgDcPCZ;
         "3GRvBt6u" = _3GRvBt6u;
+        "d6fhHkqQ" = _d6fhHkqQ;
+        "vkqjvITD" = _vkqjvITD;
         "fabric-1.21.2" = _kiJpFJJJ;
         "fabric-1.21.3" = _kiJpFJJJ;
         "fabric-1.21.4" = _CYru1lLl;
@@ -173,6 +185,7 @@ let
         "fabric-26.1.1" = _Eol9KO24;
         "fabric-26.1.2" = _Eol9KO24;
         "fabric-26.2" = _cHgDcPCZ;
+        "fabric-26.3" = _d6fhHkqQ;
         "quilt-1.21.2" = _kiJpFJJJ;
         "quilt-1.21.3" = _kiJpFJJJ;
         "quilt-1.21.4" = _CYru1lLl;
@@ -188,6 +201,7 @@ let
         "quilt-26.1.1" = _Eol9KO24;
         "quilt-26.1.2" = _Eol9KO24;
         "quilt-26.2" = _cHgDcPCZ;
+        "quilt-26.3" = _d6fhHkqQ;
         "neoforge-1.21.4" = _IDYiLMNS;
         "neoforge-1.21.5" = _jSTXMA0E;
         "neoforge-1.21.6" = _mdBtuNRi;
@@ -200,6 +214,7 @@ let
         "neoforge-26.1.1" = _Pek28zSe;
         "neoforge-26.1.2" = _Pek28zSe;
         "neoforge-26.2" = _3GRvBt6u;
+        "neoforge-26.3" = _vkqjvITD;
         "pkg-1.0.0" = _kiJpFJJJ;
         "pkg-1.0.1" = _AwV7h7Fi;
         "pkg-1.1.0" = _9tp53OfR;
@@ -214,7 +229,8 @@ let
         "pkg-1.1.9" = _IVxyEHLm;
         "pkg-1.1.10" = _Pek28zSe;
         "pkg-1.1.11" = _3GRvBt6u;
-        "default" = _3GRvBt6u;
+        "pkg-1.1.12" = _vkqjvITD;
+        "default" = _vkqjvITD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easy-install";

@@ -31,6 +31,11 @@ let
             "file" = "createtuff-forge-1.20.1-2.5.0.jar";
             "hash" = "sha512-09qT8hbht5L66CYuxdtruGpdGuKmrUBlnVdAHU5K2IPH9+JxiZT8GneN+3LXgelMgaZmpqapYSguYL2h2elyzA==";
         };
+        _ssE8KkX0 = {
+            "id" = "ssE8KkX0";
+            "file" = "createtuff-2.6.7-neoforge-1.21.1.jar";
+            "hash" = "sha512-YHXnQTo0k54DAyFDqVoLdLNq9rQqGlA3odPqrKs8bxQC1MLOS6uc/In00v5yhAk/EgSCZZm77kCntKq5VyuinQ==";
+        };
     in {
         "6DUNgtln" = _6DUNgtln;
         "IPqt9pTy" = _IPqt9pTy;
@@ -38,15 +43,17 @@ let
         "hIQcIwKj" = _hIQcIwKj;
         "fRJo1kRK" = _fRJo1kRK;
         "8N1kzE3d" = _8N1kzE3d;
+        "ssE8KkX0" = _ssE8KkX0;
         "forge-1.20.1" = _8N1kzE3d;
-        "neoforge-1.21.1" = _fRJo1kRK;
+        "neoforge-1.21.1" = _ssE8KkX0;
         "pkg-v1.0.0_Forge_1.20.1" = _6DUNgtln;
         "pkg-v1.5.0_Forge_1.20.1" = _IPqt9pTy;
         "pkg-v2.0.0" = _4Wcr8zKz;
         "pkg-v2.0.0_Forge_1.20.1" = _hIQcIwKj;
         "pkg-V2.5.0_NeoForge_1.21.1" = _fRJo1kRK;
         "pkg-V2.5.0_Forge_1.20.1" = _8N1kzE3d;
-        "default" = _8N1kzE3d;
+        "pkg-V2.6.7_NeoForge_1.21.1" = _ssE8KkX0;
+        "default" = _ssE8KkX0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "createtuff";

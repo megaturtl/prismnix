@@ -66,6 +66,16 @@ let
             "file" = "xaerolib-forge-1.16.5-1.7.1.jar";
             "hash" = "sha512-snznM57LjeQregW3Kiuxr7WXn/Rjnv7+bJUKnAdeNvDc+xbmq0T5c4y41wSW8gn9cCHMTL9syovnRq2Mz702Gw==";
         };
+        _Y5dHdJLq = {
+            "id" = "Y5dHdJLq";
+            "file" = "xaerolib-forge-1.12.2-1.7.3.jar";
+            "hash" = "sha512-PdO7sC7odaH5cjQiEooSrAjTxCry9Ku/+1KD1BjDv9EQFIkoIUXLq05ZkvAkBMTwOFsv7dp6qwEjcPl950d4uA==";
+        };
+        _EzhXlKLk = {
+            "id" = "EzhXlKLk";
+            "file" = "xaerolib-forge-1.16.5-1.7.3.jar";
+            "hash" = "sha512-bcSAnA3+xtFqQgWN83zs20Wedw5m77TarKZgHfi4isBGkSUJXET8h7vbCa/tQaiz9Mam/9G9K6V/uw+0aGifCw==";
+        };
     in {
         "90r8iTFi" = _90r8iTFi;
         "vuOQLoaw" = _vuOQLoaw;
@@ -80,8 +90,10 @@ let
         "WjMCsigo" = _WjMCsigo;
         "7o62InvK" = _7o62InvK;
         "snCPknin" = _snCPknin;
-        "forge-1.12.2" = _7o62InvK;
-        "forge-1.16.5" = _snCPknin;
+        "Y5dHdJLq" = _Y5dHdJLq;
+        "EzhXlKLk" = _EzhXlKLk;
+        "forge-1.12.2" = _Y5dHdJLq;
+        "forge-1.16.5" = _EzhXlKLk;
         "pkg-forge-1.12-1.0.44" = _90r8iTFi;
         "pkg-forge-1.16.5-1.0.44" = _vuOQLoaw;
         "pkg-forge-1.12.2-1.1.0" = _2EkudBDY;
@@ -95,7 +107,9 @@ let
         "pkg-forge-1.16.5-1.7.0" = _WjMCsigo;
         "pkg-forge-1.12.2-1.7.1" = _7o62InvK;
         "pkg-forge-1.16.5-1.7.1" = _snCPknin;
-        "default" = _snCPknin;
+        "pkg-forge-1.12.2-1.7.3" = _Y5dHdJLq;
+        "pkg-forge-1.16.5-1.7.3" = _EzhXlKLk;
+        "default" = _EzhXlKLk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xaerolib";

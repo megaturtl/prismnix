@@ -61,6 +61,11 @@ let
             "file" = "TexturesPlusMod-0.8.0.jar";
             "hash" = "sha512-y7mTZqWWEAGeoea/x2EsI2JPXfhBu3AFAdDyL7RMyjVWU1n1DWDSemoQ6A+KY2Y6mAztLwZEyF+tGLCF2/bWUg==";
         };
+        _F1Ttyt2I = {
+            "id" = "F1Ttyt2I";
+            "file" = "TexturesPlusMod-0.8.2.jar";
+            "hash" = "sha512-u06+35bMvWJZ+yDBpCpprkfludZrkZnqmPw8QLVs1GfUqurphPU//5OXbIv6uZgv+n7B8FGIJdeYfUBqXdOEvQ==";
+        };
     in {
         "r2GN8nGv" = _r2GN8nGv;
         "aOnbKrr9" = _aOnbKrr9;
@@ -74,6 +79,7 @@ let
         "kawrkiSO" = _kawrkiSO;
         "935E8WVP" = _935E8WVP;
         "866uckDf" = _866uckDf;
+        "F1Ttyt2I" = _F1Ttyt2I;
         "fabric-1.20.1" = _r2GN8nGv;
         "fabric-1.20.2" = _aOnbKrr9;
         "fabric-1.20.3" = _aOnbKrr9;
@@ -91,6 +97,7 @@ let
         "fabric-1.21.10" = _bkeBe9xe;
         "fabric-1.21.11" = _935E8WVP;
         "fabric-26.2" = _866uckDf;
+        "fabric-26.3" = _F1Ttyt2I;
         "pkg-Beta0.1.3" = _r2GN8nGv;
         "pkg-Beta0.1.4" = _aOnbKrr9;
         "pkg-b0.1.5" = _G2wMEcQC;
@@ -103,7 +110,8 @@ let
         "pkg-0.6.3" = _kawrkiSO;
         "pkg-0.7.0" = _935E8WVP;
         "pkg-0.8.0" = _866uckDf;
-        "default" = _866uckDf;
+        "pkg-0.8.2" = _F1Ttyt2I;
+        "default" = _F1Ttyt2I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "textures-plus-mod";

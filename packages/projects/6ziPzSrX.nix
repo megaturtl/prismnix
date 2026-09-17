@@ -116,6 +116,26 @@ let
             "file" = "tokorotenslime-neoforge-mc26.2-1.4.0.jar";
             "hash" = "sha512-helhDoxv4aSk1LWrVK1WQVK76iqIPWyaaaBdi3/J+VVWR0bXRC+4pnPgCXiBjwpZUhD1pUwQer8QJGaHUzG0zw==";
         };
+        _x8pedLhT = {
+            "id" = "x8pedLhT";
+            "file" = "tokorotenslime-fabric-mc1.21.1-1.4.0.jar";
+            "hash" = "sha512-kZXZRbaRJwvAwfC8sHoFts6QFepaeaQZIWDq7tUwyOxqSwvciUQOlX+7fPidmVoizqxJ5GWfAwwVub96nbu61Q==";
+        };
+        _l4hcZ9iM = {
+            "id" = "l4hcZ9iM";
+            "file" = "tokorotenslime-neoforge-mc1.21.1-1.4.0.jar";
+            "hash" = "sha512-QMJoWsnm6IakLzeobOfQOpCiuJz6tWuxYoiMJKwNgQuQ48W643eyZe/C+hYNozZ7PhiWbXgwa6d4jsQ67FjwgQ==";
+        };
+        _BSK7r6T8 = {
+            "id" = "BSK7r6T8";
+            "file" = "tokorotenslime-fabric-mc26.3-1.4.0.jar";
+            "hash" = "sha512-FMuFWbQSWnzD3Vt8gI4apJeOs5Xq3YGhCiumsEw9h5SNJ5CpUmQ/ZQXtQvdp4qcMIZ7wrV1qkrHKuL58nzLZog==";
+        };
+        _zMCvPgoA = {
+            "id" = "zMCvPgoA";
+            "file" = "tokorotenslime-neoforge-mc26.3-1.4.0.jar";
+            "hash" = "sha512-RG7XFWrhOjGXgMtVUTQUm6yE38AGI73Lpq2fKor2wV/yXt2JMtKDlja384Y/kpHMygJmjCfFoM0P2irdtX5U4A==";
+        };
     in {
         "iw0Xcuuk" = _iw0Xcuuk;
         "uOcBtlaA" = _uOcBtlaA;
@@ -140,6 +160,10 @@ let
         "9TtnWWK9" = _9TtnWWK9;
         "vp6BeJ30" = _vp6BeJ30;
         "zgPOEPEe" = _zgPOEPEe;
+        "x8pedLhT" = _x8pedLhT;
+        "l4hcZ9iM" = _l4hcZ9iM;
+        "BSK7r6T8" = _BSK7r6T8;
+        "zMCvPgoA" = _zMCvPgoA;
         "fabric-1.21.8" = _v8ewcgdY;
         "fabric-1.21.9" = _YNJV3GYB;
         "fabric-1.21.10" = _YNJV3GYB;
@@ -149,10 +173,14 @@ let
         "fabric-26.1.2" = _fJSi3J1K;
         "fabric-26.2" = _vp6BeJ30;
         "fabric-1.20.1" = _qsm1NXOZ;
+        "fabric-1.21.1" = _x8pedLhT;
+        "fabric-26.3" = _BSK7r6T8;
         "neoforge-26.1" = _9TtnWWK9;
         "neoforge-26.1.1" = _9TtnWWK9;
         "neoforge-26.1.2" = _9TtnWWK9;
         "neoforge-26.2" = _zgPOEPEe;
+        "neoforge-1.21.1" = _l4hcZ9iM;
+        "neoforge-26.3" = _zMCvPgoA;
         "forge-1.20.1" = _Fv2aLepH;
         "pkg-1.0.0+mc1.21.8" = _iw0Xcuuk;
         "pkg-1.0.0+mc1.21.9-11" = _uOcBtlaA;
@@ -177,7 +205,11 @@ let
         "pkg-1.4.0+26.1-neoforge" = _9TtnWWK9;
         "pkg-1.4.0+26.2-fabric" = _vp6BeJ30;
         "pkg-1.4.0+26.2-neoforge" = _zgPOEPEe;
-        "default" = _zgPOEPEe;
+        "pkg-1.4.0+1.21.1-fabric" = _x8pedLhT;
+        "pkg-1.4.0+1.21.1-neoforge" = _l4hcZ9iM;
+        "pkg-1.4.0+26.3-fabric" = _BSK7r6T8;
+        "pkg-1.4.0+26.3-neoforge" = _zMCvPgoA;
+        "default" = _zMCvPgoA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tokorotenslime";

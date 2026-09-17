@@ -81,6 +81,11 @@ let
             "file" = "endernexus-2.1.1+26.2.jar";
             "hash" = "sha512-SUcWyc3U17nYAcmuqW6MH8tR9jZOOYNI6nRCPUPoGl8LQI+lY/VRcsdy2nsP/re26upqQb0Pw3VUJ90ws/3Vuw==";
         };
+        _AGMGJjF3 = {
+            "id" = "AGMGJjF3";
+            "file" = "endernexus-2.1.1+26.3.jar";
+            "hash" = "sha512-FuRNiomNRtIcczjB2xnBeALzcjeQWnW6yLNf2OgvYuyx/ZoO18XXCKWk7WWwR+rFQ1lDje87rihVnWtrmFlwag==";
+        };
     in {
         "9zMzHGXk" = _9zMzHGXk;
         "HovAIEba" = _HovAIEba;
@@ -98,6 +103,7 @@ let
         "wZMzw43V" = _wZMzw43V;
         "Zy7MvINV" = _Zy7MvINV;
         "xXdBIGfO" = _xXdBIGfO;
+        "AGMGJjF3" = _AGMGJjF3;
         "fabric-1.21" = _HovAIEba;
         "fabric-1.21.1" = _Gi0Dj5kW;
         "fabric-1.21.4" = _tn8kmx72;
@@ -107,6 +113,7 @@ let
         "fabric-1.21.11" = _lXPYIM3t;
         "fabric-26.1" = _wZMzw43V;
         "fabric-26.2" = _xXdBIGfO;
+        "fabric-26.3" = _AGMGJjF3;
         "pkg-1.1.2+1.21" = _9zMzHGXk;
         "pkg-1.2.0+1.21.1" = _HovAIEba;
         "pkg-1.3.0+1.21.1" = _Gi0Dj5kW;
@@ -123,7 +130,8 @@ let
         "pkg-2.1.0+26.1" = _wZMzw43V;
         "pkg-2.1.0+26.2" = _Zy7MvINV;
         "pkg-2.1.1+26.2" = _xXdBIGfO;
-        "default" = _xXdBIGfO;
+        "pkg-2.1.1+26.3" = _AGMGJjF3;
+        "default" = _AGMGJjF3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ender-nexus";

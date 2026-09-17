@@ -56,6 +56,16 @@ let
             "file" = "create_stressbound-1.2.9.jar";
             "hash" = "sha512-fCbDtYBCKW29C3i2C0y8tmsFyRegShJnkpjQk6K4yvvU1fTnxKGwOv1pe0R2F/7uxGHy/WbCtev4Fh4WXIEfRw==";
         };
+        _LuscPSUA = {
+            "id" = "LuscPSUA";
+            "file" = "create_stressbound-1.2.10-dev.jar";
+            "hash" = "sha512-43cyHbIGjXLGSoKhauXGmnxqxXI/0c3dZ7pPwmMObheLxKu/xm/UxVQTVmh+AchCgLuno4pquUZ2b6EfYEnQ9w==";
+        };
+        _OSTDA4hH = {
+            "id" = "OSTDA4hH";
+            "file" = "create_stressbound-1.2.11.jar";
+            "hash" = "sha512-ocZpuLqJhCsB0aI3ePmYGsaOz0mRYddQkggUHAXIuGX8BGYz36afEOvWrBFrEvbyw2IB5DZ5OSdhisJJr/+KbA==";
+        };
     in {
         "RLXsxRVV" = _RLXsxRVV;
         "p8vrbp6m" = _p8vrbp6m;
@@ -68,7 +78,9 @@ let
         "u6mnihLs" = _u6mnihLs;
         "UTpeaMeb" = _UTpeaMeb;
         "Q7BCueab" = _Q7BCueab;
-        "neoforge-1.21.1" = _Q7BCueab;
+        "LuscPSUA" = _LuscPSUA;
+        "OSTDA4hH" = _OSTDA4hH;
+        "neoforge-1.21.1" = _OSTDA4hH;
         "pkg-1.0-SNAPSHOT" = _RLXsxRVV;
         "pkg-1.1" = _p8vrbp6m;
         "pkg-1.2" = _k6rq1VU7;
@@ -80,7 +92,9 @@ let
         "pkg-1.2.7" = _u6mnihLs;
         "pkg-1.2.8" = _UTpeaMeb;
         "pkg-1.2.9" = _Q7BCueab;
-        "default" = _Q7BCueab;
+        "pkg-1.2.10-dev" = _LuscPSUA;
+        "pkg-1.2.11" = _OSTDA4hH;
+        "default" = _OSTDA4hH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-stressbound";

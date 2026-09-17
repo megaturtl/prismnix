@@ -191,6 +191,21 @@ let
             "file" = "inworldrecipes-26.1.2-2.5.1.jar";
             "hash" = "sha512-BNEZw2SU+to3Zx2mJ5eWOCIZxvuXegUm9wBpcg30AgzWXDNAlFUfXP1PlBLdKVExWfJxwpIoNaCLBXIi7kmiBw==";
         };
+        _onrv86de = {
+            "id" = "onrv86de";
+            "file" = "inworldrecipes-26.1.2-2.5.1.jar";
+            "hash" = "sha512-kmcrjiEV+ncsIr6izCm1WF+9FA/0XEC4+tY4iows0w9+F5y8wAs6Z5jkMzNacHr1Gg40pQ1QzrotV4sb7GRojQ==";
+        };
+        _O6hznu2q = {
+            "id" = "O6hznu2q";
+            "file" = "inworldrecipes-26.1.2-2.6.0.jar";
+            "hash" = "sha512-RA9C1Hj6jJVAkdlYeGPACH28w+WxPd02/DhdZop+f/WITM6JJGuouVtkAi3LPOIKX6DnFpMHHBf+Wivx8CQqSw==";
+        };
+        _EnZ7J5TZ = {
+            "id" = "EnZ7J5TZ";
+            "file" = "inworldrecipes-26.1.2-2.6.1.jar";
+            "hash" = "sha512-qNELnsmfa3IhBEjRLiDffoXaiXk3MrmyRocQQMapV1UKITfRHpUAIKbHavI0SHmjKjRHc5m91uauqRzUw/mjqQ==";
+        };
     in {
         "bcOqsMJI" = _bcOqsMJI;
         "j81GMSRZ" = _j81GMSRZ;
@@ -230,11 +245,14 @@ let
         "2d2NTvxR" = _2d2NTvxR;
         "b3GKirrB" = _b3GKirrB;
         "JW0Ap1ZZ" = _JW0Ap1ZZ;
+        "onrv86de" = _onrv86de;
+        "O6hznu2q" = _O6hznu2q;
+        "EnZ7J5TZ" = _EnZ7J5TZ;
         "neoforge-1.21" = _HM3pY941;
         "neoforge-1.21.1" = _HM3pY941;
         "neoforge-26.1" = _2d2NTvxR;
         "neoforge-26.1.1" = _2d2NTvxR;
-        "neoforge-26.1.2" = _JW0Ap1ZZ;
+        "neoforge-26.1.2" = _EnZ7J5TZ;
         "pkg-1.0.0" = _bcOqsMJI;
         "pkg-1.21-1.0.0" = _j81GMSRZ;
         "pkg-1.21-1.0.1" = _b2C1wPgt;
@@ -268,8 +286,10 @@ let
         "pkg-26.1.2-2.4.3" = _SkiypoV4;
         "pkg-26.1.2-2.4.4" = _2d2NTvxR;
         "pkg-26.1.2-2.5.0" = _b3GKirrB;
-        "pkg-26.1.2-2.5.1" = _JW0Ap1ZZ;
-        "default" = _JW0Ap1ZZ;
+        "pkg-26.1.2-2.5.1" = _onrv86de;
+        "pkg-26.1.2-2.6.0" = _O6hznu2q;
+        "pkg-26.1.2-2.6.1" = _EnZ7J5TZ;
+        "default" = _EnZ7J5TZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "in-world-recipes";

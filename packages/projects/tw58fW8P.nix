@@ -271,6 +271,11 @@ let
             "file" = "pokeloader-2.0.0+26.3-snapshot.1.jar";
             "hash" = "sha512-swAnCvTICdiGn3Qt3plTk4amLiq3Q3CCl7dz0Vt1Roef91VviSSg3WzYiwlEdo6Uuqp0QV0+ActAe90jd15Vyw==";
         };
+        _V5Eyw11q = {
+            "id" = "V5Eyw11q";
+            "file" = "pokeloader-2.0.0+26.3-fabric.jar";
+            "hash" = "sha512-f3ZtSpuLn52rSNCLy0vmCI5qsKcvWxkGha9qM/LWRCUEIwC3AZvvtj1DoZbHIaC6bWvSgh4V2IOlqjX84FaF3Q==";
+        };
     in {
         "TEO4FOfo" = _TEO4FOfo;
         "p0txoFn9" = _p0txoFn9;
@@ -326,6 +331,7 @@ let
         "SJoyFr1C" = _SJoyFr1C;
         "tGxYIZF2" = _tGxYIZF2;
         "QsA5aCey" = _QsA5aCey;
+        "V5Eyw11q" = _V5Eyw11q;
         "fabric-1.21.1" = _lReWyvwE;
         "fabric-1.20.1" = _ZW5VBpvG;
         "fabric-1.20" = _PnoD8E7Q;
@@ -360,6 +366,7 @@ let
         "fabric-1.16.3" = _jeKljV2U;
         "fabric-26.2" = _tGxYIZF2;
         "fabric-26.3-snapshot-1" = _QsA5aCey;
+        "fabric-26.3" = _V5Eyw11q;
         "pkg-1.0.0" = _TEO4FOfo;
         "pkg-1.0.1" = _p0txoFn9;
         "pkg-1.0.2" = _S2rt1Jx7;
@@ -414,7 +421,8 @@ let
         "pkg-2.0.0+26.1-fabric" = _SJoyFr1C;
         "pkg-2.0.0+26.2-fabric" = _tGxYIZF2;
         "pkg-2.0.0+26.3-snapshot.1" = _QsA5aCey;
-        "default" = _QsA5aCey;
+        "pkg-2.0.0+26.3-fabric" = _V5Eyw11q;
+        "default" = _V5Eyw11q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pokeloader";

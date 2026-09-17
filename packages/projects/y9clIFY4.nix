@@ -51,6 +51,16 @@ let
             "file" = "shield_api-neoforge-2.2.0.jar";
             "hash" = "sha512-jE5a3nU5vIsnvEVrWgBYFHK3/yVafg7IKNMv2aoK3cQkXHj3U3Vl+FF4Ur8AtHeDew+7GVPokHXlkG6ccdwi8g==";
         };
+        _olD4crvG = {
+            "id" = "olD4crvG";
+            "file" = "shield_api-fabric-2.2.0+1.20.1.jar";
+            "hash" = "sha512-iMnFtVzldEiHFMC5vab14KfuDzrC4f0jyc7/dCM7QWS1CHxmuu7AWXgJErrrcxa7inUEzsa9sPTVIX3xp1XQ+g==";
+        };
+        _ryaMETSE = {
+            "id" = "ryaMETSE";
+            "file" = "shield_api-forge-2.2.0+1.20.1.jar";
+            "hash" = "sha512-F7HPLO2RF4b5VTweSZ0GLlLiGBU3IIFfHj4a6kBLha75uI3sU4fuy/s6ne0VKt52OUSfW5TyJz7hpEQ8KayW6A==";
+        };
     in {
         "80QhsYdL" = _80QhsYdL;
         "sLbfVkc1" = _sLbfVkc1;
@@ -62,12 +72,16 @@ let
         "rIjPPn4Y" = _rIjPPn4Y;
         "rdcTHSZH" = _rdcTHSZH;
         "fgK2cNYi" = _fgK2cNYi;
-        "fabric-1.20.1" = _sLbfVkc1;
+        "olD4crvG" = _olD4crvG;
+        "ryaMETSE" = _ryaMETSE;
+        "fabric-1.20.1" = _olD4crvG;
         "fabric-1.21.1" = _rdcTHSZH;
         "fabric-1.21" = _rdcTHSZH;
         "fabric-1.21.4" = _fllnpOlz;
         "neoforge-1.21" = _fgK2cNYi;
         "neoforge-1.21.1" = _fgK2cNYi;
+        "neoforge-1.20.1" = _ryaMETSE;
+        "forge-1.20.1" = _ryaMETSE;
         "pkg-1.0.0+1.20.1-fabric" = _80QhsYdL;
         "pkg-1.0.1+1.20.1" = _sLbfVkc1;
         "pkg-2.0.0+1.21.1" = _YEBNEbz2;
@@ -78,7 +92,9 @@ let
         "pkg-2.1.0-neoforge" = _rIjPPn4Y;
         "pkg-2.2.0-fabric" = _rdcTHSZH;
         "pkg-2.2.0-neoforge" = _fgK2cNYi;
-        "default" = _fgK2cNYi;
+        "pkg-2.2.0+1.20.1-fabric" = _olD4crvG;
+        "pkg-2.2.0+1.20.1-forge" = _ryaMETSE;
+        "default" = _ryaMETSE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shield-api";

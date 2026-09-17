@@ -116,6 +116,11 @@ let
             "file" = "SimpleHud-2.1.jar";
             "hash" = "sha512-xcvD1W1+1xjrMVCWHE9azcastW2wduIemm+KdRLZ9++Y07wotLB7m02lUOxajgZutGCSJeUzLdiGycjtf01/PQ==";
         };
+        _7YIGrQyr = {
+            "id" = "7YIGrQyr";
+            "file" = "SimpleHud-2.2.jar";
+            "hash" = "sha512-MCkxYkOUo4SNEe3qU2AMMthwEaPC6FPnByOepVz6fMfNEYsO5ivsGZQuE3AT5jJn8j2HzbL4Of3ezl5QOl8Ojw==";
+        };
     in {
         "bGUXqtFb" = _bGUXqtFb;
         "Zw47CcEZ" = _Zw47CcEZ;
@@ -140,6 +145,7 @@ let
         "1fAr4caa" = _1fAr4caa;
         "zyXG85DC" = _zyXG85DC;
         "Nmh3ntJE" = _Nmh3ntJE;
+        "7YIGrQyr" = _7YIGrQyr;
         "fabric-1.21.1" = _SnYgSZaI;
         "fabric-1.21.2" = _SnYgSZaI;
         "fabric-1.21.3" = _SnYgSZaI;
@@ -163,6 +169,7 @@ let
         "fabric-26.1.1" = _zyXG85DC;
         "fabric-26.1.2" = _zyXG85DC;
         "fabric-26.2" = _Nmh3ntJE;
+        "fabric-26.3" = _7YIGrQyr;
         "pkg-1.0.0" = _wyjrEL01;
         "pkg-1.0.1" = _SLDIs2uA;
         "pkg-1.1" = _NFk0XE9e;
@@ -174,7 +181,8 @@ let
         "pkg-1.5" = _Lsdo5F5n;
         "pkg-2.0" = _zyXG85DC;
         "pkg-2.1" = _Nmh3ntJE;
-        "default" = _Nmh3ntJE;
+        "pkg-2.2" = _7YIGrQyr;
+        "default" = _7YIGrQyr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simplehud";

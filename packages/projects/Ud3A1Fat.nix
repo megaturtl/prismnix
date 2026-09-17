@@ -61,6 +61,11 @@ let
             "file" = "dense-flowers-0.3.0+mc26.2.jar";
             "hash" = "sha512-TYBwQTQnmKkDKTjr/NK7OkuOqIES5N0Nvvfg1L1c0k2oSOf1qZRaybiT57KP8M20iUHj9yVXE5GLTX98A3jvCw==";
         };
+        _hAZimeFe = {
+            "id" = "hAZimeFe";
+            "file" = "dense-flowers-0.3.1+mc26.2.jar";
+            "hash" = "sha512-LvAYEVaeFu6aDdmVIDvoeAQD4j7KN9bSuJ30Y6ubAztiCjmDd5rAEYbN8Bv3QdICq+1Hot126ficQWr6HDnSOw==";
+        };
     in {
         "Uqvnn2cz" = _Uqvnn2cz;
         "nrDPMPqi" = _nrDPMPqi;
@@ -74,6 +79,7 @@ let
         "EcDPyU5I" = _EcDPyU5I;
         "WzlNDeNj" = _WzlNDeNj;
         "cp04JPSY" = _cp04JPSY;
+        "hAZimeFe" = _hAZimeFe;
         "fabric-1.21" = _X3hByxU6;
         "fabric-1.21.1" = _X3hByxU6;
         "fabric-1.20.1" = _DQGkzqEw;
@@ -90,7 +96,8 @@ let
         "fabric-26.1" = _WzlNDeNj;
         "fabric-26.1.1" = _WzlNDeNj;
         "fabric-26.1.2" = _WzlNDeNj;
-        "fabric-26.2" = _cp04JPSY;
+        "fabric-26.2" = _hAZimeFe;
+        "fabric-26.3" = _hAZimeFe;
         "pkg-0.1.0+mc1.21.0" = _Uqvnn2cz;
         "pkg-0.1.1+mc1.21.0" = _nrDPMPqi;
         "pkg-0.2.0+mc1.21.0" = _uzWfeb3e;
@@ -103,7 +110,8 @@ let
         "pkg-0.3.0+mc1.21.11" = _EcDPyU5I;
         "pkg-0.3.0+mc26.1" = _WzlNDeNj;
         "pkg-0.3.0+mc26.2" = _cp04JPSY;
-        "default" = _cp04JPSY;
+        "pkg-0.3.1+mc26.2" = _hAZimeFe;
+        "default" = _hAZimeFe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dense-flowers";

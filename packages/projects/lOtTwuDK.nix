@@ -161,6 +161,11 @@ let
             "file" = "advanced-mouse-sensitivity-mc26.2-1.0.1.jar";
             "hash" = "sha512-lOuGKRKFkexePmdDsGEMDXSkV28BIFKj0GYsoqkkyx8wMMEIQXPs9+A3frIFwr3anMcV1+W4Y0gmJBLYmxcKLA==";
         };
+        _sYggPA8Q = {
+            "id" = "sYggPA8Q";
+            "file" = "advanced-mouse-sensitivity-mc26.3-1.0.1.jar";
+            "hash" = "sha512-KxLjp10YS76WiM30FwFDdvjUHhIFhDKlPgonSNEHLLR4SVE4QZb3e2C1t6Vb9qfzpN9UsgCdiqc0Aa+DHGvozA==";
+        };
     in {
         "HCtIrTMz" = _HCtIrTMz;
         "vjnYbzYT" = _vjnYbzYT;
@@ -194,6 +199,7 @@ let
         "f8YHpRlt" = _f8YHpRlt;
         "mi6Sru3G" = _mi6Sru3G;
         "r95Vw82I" = _r95Vw82I;
+        "sYggPA8Q" = _sYggPA8Q;
         "fabric-1.20" = _56jz5lf0;
         "fabric-1.20.1" = _56jz5lf0;
         "fabric-1.20.2" = _56jz5lf0;
@@ -232,11 +238,12 @@ let
         "fabric-26.1" = _mi6Sru3G;
         "fabric-26.1.1" = _mi6Sru3G;
         "fabric-26.1.2" = _mi6Sru3G;
-        "fabric-26.2" = _r95Vw82I;
+        "fabric-26.2" = _sYggPA8Q;
+        "fabric-26.3" = _sYggPA8Q;
         "pkg-1.0.0" = _66SrrJRm;
-        "pkg-1.0.1" = _r95Vw82I;
+        "pkg-1.0.1" = _sYggPA8Q;
         "pkg-1.0.2" = _aRjshIJr;
-        "default" = _r95Vw82I;
+        "default" = _sYggPA8Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "advanced-mouse-sensitivity";

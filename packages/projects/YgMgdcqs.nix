@@ -96,6 +96,21 @@ let
             "file" = "creative_crafting_menus-0.1.2+26.2.jar";
             "hash" = "sha512-y5im0H7cgCpxFjfPqXFPupAXIB1McE7HI4QtCc6AIrpSystipgI4gBfv8b0ber5UibYpp9ffp/amLL5Pd/5dqA==";
         };
+        _7978jwyV = {
+            "id" = "7978jwyV";
+            "file" = "creative_crafting_menus-0.1.3+26.1.2.jar";
+            "hash" = "sha512-9PwDsG8FHnuwFjx6fbntwFLNmurQgetFfEybEUVLeiN8VTDVnMJCUtdZ95LVrsFfNVDB3IfLIfXwCZUNzMFgOw==";
+        };
+        _R2f6636X = {
+            "id" = "R2f6636X";
+            "file" = "creative_crafting_menus-0.1.3+26.2.jar";
+            "hash" = "sha512-g/YjzyQAGvU3VoZPv/cWnyUqOptIRl0wJ/oQG8LE6CxFlSTud7scKopHVn7C7BTN4u+dzf8FZhEgBRuktxpfnA==";
+        };
+        _oJvDJW52 = {
+            "id" = "oJvDJW52";
+            "file" = "creative_crafting_menus-0.1.3+26.3.jar";
+            "hash" = "sha512-5RYrmISL5dx14ywm7SyohlDB2ci4v5bL4edWwvl60MjyaUA+0/mbMJLYul9wvSdaPUJs3/NfKF6SZK6xFBu84A==";
+        };
     in {
         "Zqunhe4B" = _Zqunhe4B;
         "R3U4ed7H" = _R3U4ed7H;
@@ -116,6 +131,9 @@ let
         "bCiVEZqc" = _bCiVEZqc;
         "e4FQLeXq" = _e4FQLeXq;
         "weC9QU1H" = _weC9QU1H;
+        "7978jwyV" = _7978jwyV;
+        "R2f6636X" = _R2f6636X;
+        "oJvDJW52" = _oJvDJW52;
         "fabric-1.21.11" = _bCiVEZqc;
         "fabric-1.21.9" = _lgtuTOsq;
         "fabric-1.21.10" = _lgtuTOsq;
@@ -124,10 +142,11 @@ let
         "fabric-1.21.6" = _McZBakL4;
         "fabric-1.21.7" = _McZBakL4;
         "fabric-1.21.8" = _McZBakL4;
-        "fabric-26.1" = _e4FQLeXq;
-        "fabric-26.1.1" = _e4FQLeXq;
-        "fabric-26.1.2" = _e4FQLeXq;
-        "fabric-26.2" = _weC9QU1H;
+        "fabric-26.1" = _7978jwyV;
+        "fabric-26.1.1" = _7978jwyV;
+        "fabric-26.1.2" = _7978jwyV;
+        "fabric-26.2" = _R2f6636X;
+        "fabric-26.3" = _oJvDJW52;
         "pkg-0.1.0+1.21.11" = _Zqunhe4B;
         "pkg-0.1.0+1.21.10" = _R3U4ed7H;
         "pkg-0.1.0+1.21.4" = _l4eladC9;
@@ -147,7 +166,10 @@ let
         "pkg-0.1.2+1.21.11" = _bCiVEZqc;
         "pkg-0.1.2+26.1.2" = _e4FQLeXq;
         "pkg-0.1.2+26.2" = _weC9QU1H;
-        "default" = _weC9QU1H;
+        "pkg-0.1.3+26.1.2" = _7978jwyV;
+        "pkg-0.1.3+26.2" = _R2f6636X;
+        "pkg-0.1.3+26.3" = _oJvDJW52;
+        "default" = _oJvDJW52;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "creativecraftingmenus";

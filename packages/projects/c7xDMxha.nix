@@ -171,6 +171,21 @@ let
             "file" = "signtweaks-fabric-2.103.0+26.2.jar";
             "hash" = "sha512-BuQPfpSRimJTibibow0SRZfGOrTEFfQ2vbUx/bsiugy8Q8dRzB1VmmnunnbI+M5CPJYDrrCr0qB3MjUdvWLTlA==";
         };
+        _v1tGiNkm = {
+            "id" = "v1tGiNkm";
+            "file" = "signtweaks-fabric-2.104.0-beta.1+26.3-rc-2.jar";
+            "hash" = "sha512-QQJtCnqRmSZ6kwtT2LNNwlV/4Qf6EGkhNMElyHFzkIyPXtfg5xoprlnqWEqC9a1wV39LEc0R9I7sQuiCqPhP/w==";
+        };
+        _9DgK2FBd = {
+            "id" = "9DgK2FBd";
+            "file" = "signtweaks-neoforge-2.104.0+26.3.jar";
+            "hash" = "sha512-AF9y3X0Ep8/d7s+yLI7+faJ94e6bM29srQJ+1KfCgSSubyQ5GSXu52UqpJuMzm62bXUO+Mvqx6qld/4WWT53fg==";
+        };
+        _bqVjibae = {
+            "id" = "bqVjibae";
+            "file" = "signtweaks-fabric-2.104.0+26.3.jar";
+            "hash" = "sha512-qR69pyInseU6pY5I8142d+7rfNDFmEzzF/RneD4DCEl2W6WE/4TqRzVDhNhR2mDu8V3msh/74s51XXM9z0XgoQ==";
+        };
     in {
         "DlxVUaGH" = _DlxVUaGH;
         "JnSppuf1" = _JnSppuf1;
@@ -206,6 +221,9 @@ let
         "Yg5iTASM" = _Yg5iTASM;
         "WwnWO6BS" = _WwnWO6BS;
         "piBkp75o" = _piBkp75o;
+        "v1tGiNkm" = _v1tGiNkm;
+        "9DgK2FBd" = _9DgK2FBd;
+        "bqVjibae" = _bqVjibae;
         "fabric-1.21" = _ZClvvFja;
         "fabric-1.21.1" = _ZClvvFja;
         "fabric-1.21.2" = _PGstqEJ3;
@@ -228,6 +246,9 @@ let
         "fabric-26.2-rc-1" = _WSygVWuI;
         "fabric-26.2-rc-2" = _EZ9tdUPG;
         "fabric-26.2" = _piBkp75o;
+        "fabric-26.3-rc-2" = _v1tGiNkm;
+        "fabric-26.3-rc-3" = _v1tGiNkm;
+        "fabric-26.3" = _bqVjibae;
         "neoforge-1.21" = _JnSppuf1;
         "neoforge-1.21.1" = _69aMFzA6;
         "neoforge-1.21.2" = _oOvI80Tl;
@@ -243,6 +264,7 @@ let
         "neoforge-26.1.1" = _Yg5iTASM;
         "neoforge-26.1.2" = _Yg5iTASM;
         "neoforge-26.2" = _WwnWO6BS;
+        "neoforge-26.3" = _9DgK2FBd;
         "pkg-0.1.1+1.21.1" = _JnSppuf1;
         "pkg-0.1.1+1.21.3" = _oOvI80Tl;
         "pkg-0.1.1+1.21.4" = _xFdHn2OC;
@@ -262,7 +284,9 @@ let
         "pkg-2.3.0-beta.1+26.2-rc-2" = _EZ9tdUPG;
         "pkg-2.102.1+26.1.2" = _Yg5iTASM;
         "pkg-2.103.0+26.2" = _piBkp75o;
-        "default" = _piBkp75o;
+        "pkg-2.104.0-beta.1+26.3-rc-2" = _v1tGiNkm;
+        "pkg-2.104.0+26.3" = _bqVjibae;
+        "default" = _bqVjibae;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "signtweaks";

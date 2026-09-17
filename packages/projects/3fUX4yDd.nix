@@ -456,6 +456,16 @@ let
             "file" = "palegardenfx-1.3.2-fabric+26.2.jar";
             "hash" = "sha512-uK8QiuG4toOBW2UeU6GYAr/3wZa4022NjEIMkW+GJg4rrC62SlIqfgyvklsltJ/TB/Ot/GOzBiWVJwT8XidgoQ==";
         };
+        _bgmJObtO = {
+            "id" = "bgmJObtO";
+            "file" = "palegardenfx-1.3.3-neoforge+26.3.jar";
+            "hash" = "sha512-ndQ7PfloWgU5yH7sVB7t9p8+VIRwLodylN58suAix01bPVQFz9ZbOHa1lZqf7dyY95JgAfLfnpx8MZ6E3acXCA==";
+        };
+        _WTXUWzuj = {
+            "id" = "WTXUWzuj";
+            "file" = "palegardenfx-1.3.3-fabric+26.3.jar";
+            "hash" = "sha512-wyQCjut1OZD70MsShi91kvbCVy7ZUcAFgK83P35+H9A95YBTEhLeGSMTQObF4t8zBem8TKUQw5z9FWajAsC98w==";
+        };
     in {
         "k4LYUbjG" = _k4LYUbjG;
         "YsClNifc" = _YsClNifc;
@@ -548,6 +558,8 @@ let
         "AmOk7Xui" = _AmOk7Xui;
         "sR1IqBOQ" = _sR1IqBOQ;
         "kDQZt7zA" = _kDQZt7zA;
+        "bgmJObtO" = _bgmJObtO;
+        "WTXUWzuj" = _WTXUWzuj;
         "fabric-1.21.4" = _tqiAjppp;
         "fabric-1.21.5" = _gGmpbYuw;
         "fabric-25w14craftmine" = _irTOt8ht;
@@ -561,6 +573,7 @@ let
         "fabric-26.1.1" = _AmOk7Xui;
         "fabric-26.1.2" = _AmOk7Xui;
         "fabric-26.2" = _kDQZt7zA;
+        "fabric-26.3" = _WTXUWzuj;
         "quilt-1.21.4" = _HzeFOzDR;
         "quilt-1.21.5" = _gGmpbYuw;
         "quilt-25w14craftmine" = _irTOt8ht;
@@ -581,6 +594,7 @@ let
         "neoforge-26.1.1" = _Alo11gdV;
         "neoforge-26.1.2" = _Alo11gdV;
         "neoforge-26.2" = _sR1IqBOQ;
+        "neoforge-26.3" = _bgmJObtO;
         "pkg-1.0.0" = _k4LYUbjG;
         "pkg-1.0.1" = _YsClNifc;
         "pkg-1.1.0" = _CfphOSPY;
@@ -670,7 +684,9 @@ let
         "pkg-1.3.2-fabric+26.1.2" = _AmOk7Xui;
         "pkg-1.3.2-neoforge+26.2" = _sR1IqBOQ;
         "pkg-1.3.2-fabric+26.2" = _kDQZt7zA;
-        "default" = _kDQZt7zA;
+        "pkg-1.3.3-neoforge+26.3" = _bgmJObtO;
+        "pkg-1.3.3-fabric+26.3" = _WTXUWzuj;
+        "default" = _WTXUWzuj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "palegardenfx";

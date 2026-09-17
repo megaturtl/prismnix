@@ -196,6 +196,16 @@ let
             "file" = "YungsBetterOceanMonuments-26.1.2-NeoForge-5.1.0.jar";
             "hash" = "sha512-LhVPPjNrfyLxYErZ3/G3Ife7oxGImwHKq9botsraZdqAQ/M4pz3f6zYt941PdTPlLiYn2RAUdIVkFvvhQqXElQ==";
         };
+        _8ZhDJBgB = {
+            "id" = "8ZhDJBgB";
+            "file" = "YungsBetterOceanMonuments-26.1.2-Fabric-5.1.1.jar";
+            "hash" = "sha512-eEm6bi1pbOH7HbqnyXn2QXEsat72b2foQ8K1Y5YsdgGHaJtslU34VZ/o9Z94JVYCsgQqxabDsO4pNRbdnjjyjA==";
+        };
+        _HwZo1wRg = {
+            "id" = "HwZo1wRg";
+            "file" = "YungsBetterOceanMonuments-26.1.2-NeoForge-5.1.1.jar";
+            "hash" = "sha512-rtQEwZ4e3Q6Lbl25UBLRWyDUVr/EO6ufc0hOGR9jj15H66dx0IqRPAcD1jCINUTv0TH2LMbHQTuDBdFzdI6sww==";
+        };
     in {
         "xAjnizbV" = _xAjnizbV;
         "sLd6wlQB" = _sLd6wlQB;
@@ -236,6 +246,8 @@ let
         "GArxaRHI" = _GArxaRHI;
         "ByPaZepE" = _ByPaZepE;
         "ovS6Blc2" = _ovS6Blc2;
+        "8ZhDJBgB" = _8ZhDJBgB;
+        "HwZo1wRg" = _HwZo1wRg;
         "forge-1.19.2" = _Uehc7tGO;
         "forge-1.19.3" = _EeHu6MGe;
         "forge-1.19.4" = _4E8sbZ6U;
@@ -253,14 +265,14 @@ let
         "fabric-1.21.1" = _TGK6gpeO;
         "fabric-1.21" = _TGK6gpeO;
         "fabric-1.21.4" = _GArxaRHI;
-        "fabric-26.1.1" = _ByPaZepE;
-        "fabric-26.1.2" = _ByPaZepE;
+        "fabric-26.1.1" = _8ZhDJBgB;
+        "fabric-26.1.2" = _8ZhDJBgB;
         "neoforge-1.20.4" = _M17dqdUp;
         "neoforge-1.21.1" = _yFjEcj2g;
         "neoforge-1.21" = _yFjEcj2g;
         "neoforge-1.21.4" = _MrBSbUVj;
-        "neoforge-26.1.1" = _ovS6Blc2;
-        "neoforge-26.1.2" = _ovS6Blc2;
+        "neoforge-26.1.1" = _HwZo1wRg;
+        "neoforge-26.1.2" = _HwZo1wRg;
         "pkg-1.19.2-Forge-2.1.0" = _xAjnizbV;
         "pkg-1.19.2-Fabric-2.1.0" = _sLd6wlQB;
         "pkg-1.19.3-Forge-2.2.0" = _EeHu6MGe;
@@ -300,7 +312,9 @@ let
         "pkg-1.21.4-Fabric-4.4.0" = _GArxaRHI;
         "pkg-26.1.2-Fabric-5.1.0" = _ByPaZepE;
         "pkg-26.1.2-NeoForge-5.1.0" = _ovS6Blc2;
-        "default" = _ovS6Blc2;
+        "pkg-26.1.2-Fabric-5.1.1" = _8ZhDJBgB;
+        "pkg-26.1.2-NeoForge-5.1.1" = _HwZo1wRg;
+        "default" = _HwZo1wRg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yungs-better-ocean-monuments";

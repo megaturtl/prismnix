@@ -131,6 +131,41 @@ let
             "file" = "LocatorColors-26.1.2-1.1.0-fabric.jar";
             "hash" = "sha512-szMrjhuetNH97ZV09EDoN+Bem+hsVFUwV8MnyHLfOn508v+IkxmPN9FGD/MXoKogpriGGwWj2ok6pnxLcFq6OQ==";
         };
+        _HJKzXBPk = {
+            "id" = "HJKzXBPk";
+            "file" = "LocatorColors-26.1.2-1.1.1-neoforge.jar";
+            "hash" = "sha512-th98pTMt9s7dy90QhaMkPystmar6p/UFmO/gM4Xr4MumRaYcY7XqIVvZPMafVt9aGqdpoS2tNj8LYTX1Gi9E9g==";
+        };
+        _uNIAKox1 = {
+            "id" = "uNIAKox1";
+            "file" = "LocatorColors-26.2-1.1.1-fabric.jar";
+            "hash" = "sha512-/HCAvgt4bm3r98DMy9+FnqMPwu0Cu1B/fVKUWKUDHsZvxXtcT/RTpRz+/GOcksEiX23AJK10DVKFAJBj4y1Hlg==";
+        };
+        _rFBUf2Dg = {
+            "id" = "rFBUf2Dg";
+            "file" = "LocatorColors-26.1.2-1.1.1-fabric.jar";
+            "hash" = "sha512-avGfH0DqYQRS784FBUnfrS81f1xmFL6TYcs8mq16m/W800M8ck/G3XCxYHGBBEmYJ2H1R1T3jCHnxAlFgLb9/g==";
+        };
+        _D0GWVtIY = {
+            "id" = "D0GWVtIY";
+            "file" = "LocatorColors-26.3-1.1.1-fabric.jar";
+            "hash" = "sha512-LTh7mazt4gNp9Op14oyl54a2S3OouqI2azGqJ2sbjdmiQg/IU2sB55B4PjVu0GNxZ+UuDXmOkXXJqGjmDDcQ/A==";
+        };
+        _vxVVut1z = {
+            "id" = "vxVVut1z";
+            "file" = "LocatorColors-1.21.11-1.1.1-neoforge.jar";
+            "hash" = "sha512-A+dj7lAhOzhBAeSKMrLU7y2R+6Os068foJLvmWLoli2mumXbMJDrWt34hALNSx+PaECuEjCfuoKv5JczfcYQcQ==";
+        };
+        _IogbBu13 = {
+            "id" = "IogbBu13";
+            "file" = "LocatorColors-26.2-1.1.1-neoforge.jar";
+            "hash" = "sha512-4e+kQuCTGAqOqiBeL294V4H3JGwyg4HsS9BuluMYa6I9ndvWuIRu7nvO4aFUW2CjvwbKZtB+3BSU8U1k677gMw==";
+        };
+        _eVMLNzwY = {
+            "id" = "eVMLNzwY";
+            "file" = "LocatorColors-1.21.11-1.1.1-fabric.jar";
+            "hash" = "sha512-HvVhrdl0mRqHQT3hO7UsZRLIXRpWjoG8ChGhl2aCXXAjhNzAJgWw33m0UVyU+BkupP6lAXx/6aExPSYYHm1HCQ==";
+        };
     in {
         "v5qlTbeh" = _v5qlTbeh;
         "n1qNI8XQ" = _n1qNI8XQ;
@@ -158,21 +193,30 @@ let
         "IvE836v1" = _IvE836v1;
         "kqPZdvEj" = _kqPZdvEj;
         "PppRbZZs" = _PppRbZZs;
-        "neoforge-1.21.11" = _cIvnmTA4;
-        "neoforge-26.1" = _N1qCgsWw;
-        "neoforge-26.1.1" = _N1qCgsWw;
+        "HJKzXBPk" = _HJKzXBPk;
+        "uNIAKox1" = _uNIAKox1;
+        "rFBUf2Dg" = _rFBUf2Dg;
+        "D0GWVtIY" = _D0GWVtIY;
+        "vxVVut1z" = _vxVVut1z;
+        "IogbBu13" = _IogbBu13;
+        "eVMLNzwY" = _eVMLNzwY;
+        "neoforge-1.21.11" = _vxVVut1z;
+        "neoforge-26.1" = _HJKzXBPk;
+        "neoforge-26.1.1" = _HJKzXBPk;
         "neoforge-26.1.2" = _TIR2OTCC;
-        "neoforge-26.2" = _pjaUcELc;
-        "fabric-26.1" = _PppRbZZs;
-        "fabric-1.21.11" = _IvE836v1;
-        "fabric-26.1.1" = _PppRbZZs;
+        "neoforge-26.2" = _IogbBu13;
+        "fabric-26.1" = _rFBUf2Dg;
+        "fabric-1.21.11" = _eVMLNzwY;
+        "fabric-26.1.1" = _rFBUf2Dg;
         "fabric-26.1.2" = _vXqNoIZ5;
-        "fabric-26.2" = _kqPZdvEj;
-        "quilt-26.1" = _PppRbZZs;
-        "quilt-1.21.11" = _IvE836v1;
-        "quilt-26.1.1" = _PppRbZZs;
+        "fabric-26.2" = _uNIAKox1;
+        "fabric-26.3" = _D0GWVtIY;
+        "quilt-26.1" = _rFBUf2Dg;
+        "quilt-1.21.11" = _eVMLNzwY;
+        "quilt-26.1.1" = _rFBUf2Dg;
         "quilt-26.1.2" = _vXqNoIZ5;
-        "quilt-26.2" = _kqPZdvEj;
+        "quilt-26.2" = _uNIAKox1;
+        "quilt-26.3" = _D0GWVtIY;
         "pkg-1.21.11-1.0.0+neoforge" = _v5qlTbeh;
         "pkg-26.1-1.0.0+neoforge" = _n1qNI8XQ;
         "pkg-26.1-1.0.1+neoforge" = _7i2k3wYs;
@@ -197,7 +241,14 @@ let
         "pkg-1.21.11-1.1.0+fabric" = _IvE836v1;
         "pkg-26.2-1.1.0+fabric" = _kqPZdvEj;
         "pkg-26.1.2-1.1.0+fabric" = _PppRbZZs;
-        "default" = _PppRbZZs;
+        "pkg-26.1.2-1.1.1+neoforge" = _HJKzXBPk;
+        "pkg-26.2-1.1.1+fabric" = _uNIAKox1;
+        "pkg-26.1.2-1.1.1+fabric" = _rFBUf2Dg;
+        "pkg-26.3-1.1.1+fabric" = _D0GWVtIY;
+        "pkg-1.21.11-1.1.1+neoforge" = _vxVVut1z;
+        "pkg-26.2-1.1.1+neoforge" = _IogbBu13;
+        "pkg-1.21.11-1.1.1+fabric" = _eVMLNzwY;
+        "default" = _eVMLNzwY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "locator-colors";

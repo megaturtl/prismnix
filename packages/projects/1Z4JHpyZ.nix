@@ -31,6 +31,16 @@ let
             "file" = "ad_astra_more_structures-1.18.2-fabric.jar";
             "hash" = "sha512-hxX0fJonxjOQfwAsP6MCMlJz0yWvRgKOAh+MMMfbxDQaepdSGCpHYzbjR+8buYfDxgnO+z+Er9lo/gm1EbKF9A==";
         };
+        _WqWSCvfG = {
+            "id" = "WqWSCvfG";
+            "file" = "ad_astra_more_structures-1.20.1-forge.jar";
+            "hash" = "sha512-+4FmjtZ+iS4ur+voYmCRDbIlzcBh9yFVQUe65eLo81VdKSck0FqQXOVCtirvt/VaXmx0UCUTjx69LDnN2HRu/Q==";
+        };
+        _vlaouoTu = {
+            "id" = "vlaouoTu";
+            "file" = "ad_astra_more_structures-1.21.1-neoforge.jar";
+            "hash" = "sha512-yWsZHJX2j+tUcvIAAkmCEWt4KE7tho6WPX06k/UpajFRwawQshA8sNRFiDVQIshu1d9k7bYpfgLT2at6NNX6QA==";
+        };
     in {
         "qZGw4bNN" = _qZGw4bNN;
         "v36hNqzD" = _v36hNqzD;
@@ -38,19 +48,24 @@ let
         "1GzSwKHG" = _1GzSwKHG;
         "NLY4emS8" = _NLY4emS8;
         "3Ex5E6lY" = _3Ex5E6lY;
-        "forge-1.20.1" = _v36hNqzD;
-        "forge-1.20.2" = _qZGw4bNN;
-        "forge-1.20.3" = _qZGw4bNN;
-        "forge-1.20.4" = _v36hNqzD;
-        "forge-1.20.5" = _qZGw4bNN;
-        "forge-1.20.6" = _qZGw4bNN;
+        "WqWSCvfG" = _WqWSCvfG;
+        "vlaouoTu" = _vlaouoTu;
+        "forge-1.20.1" = _WqWSCvfG;
+        "forge-1.20.2" = _WqWSCvfG;
+        "forge-1.20.3" = _WqWSCvfG;
+        "forge-1.20.4" = _WqWSCvfG;
+        "forge-1.20.5" = _WqWSCvfG;
+        "forge-1.20.6" = _WqWSCvfG;
         "forge-1.19.2" = _1GzSwKHG;
         "fabric-1.20.1" = _wvTGDIAW;
         "fabric-1.19.2" = _NLY4emS8;
         "fabric-1.18.2" = _3Ex5E6lY;
+        "neoforge-1.21" = _vlaouoTu;
+        "neoforge-1.21.1" = _vlaouoTu;
         "pkg-1.0.0" = _qZGw4bNN;
         "pkg-1.0.1" = _3Ex5E6lY;
-        "default" = _3Ex5E6lY;
+        "pkg-1.0.2" = _vlaouoTu;
+        "default" = _vlaouoTu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ad-astra-more-structures";

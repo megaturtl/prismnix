@@ -31,6 +31,16 @@ let
             "file" = "elytra-lunge-1.1.1.jar";
             "hash" = "sha512-cOqjMvd0ApLvPAoOyUfUiTsG35RsZfhK7+jOkLD91QGdb2BJHM5ohRx7m1QnQ7C6KfYVNY4kUd4edw7RUf+VjA==";
         };
+        _35QrMBR0 = {
+            "id" = "35QrMBR0";
+            "file" = "elytra-lunge-1.2.0.zip";
+            "hash" = "sha512-70VMI8f68yNWxrbfOLiCOm0x0OBeI9FWl2fHMNOzjuW8XjTg1TUBYPx1pjjepvtKykcyJ+pI7E8xflqiEBnpDg==";
+        };
+        _QHF9ZBdL = {
+            "id" = "QHF9ZBdL";
+            "file" = "elytra-lunge-1.2.0.jar";
+            "hash" = "sha512-ow4QTqOICyvu4fEMI98Tx70L/M7nImNbBWfH21NZxZEKUJgOHlk24AhvdNRLVJEie4a8amhzvVG19S84EUDjDA==";
+        };
     in {
         "VhKLkdU4" = _VhKLkdU4;
         "VRCYou7s" = _VRCYou7s;
@@ -38,38 +48,47 @@ let
         "belca1Fi" = _belca1Fi;
         "UmILRZV7" = _UmILRZV7;
         "ZhXnOUjH" = _ZhXnOUjH;
+        "35QrMBR0" = _35QrMBR0;
+        "QHF9ZBdL" = _QHF9ZBdL;
         "datapack-1.21.11" = _VhKLkdU4;
         "datapack-26.1" = _Baizcw5Z;
         "datapack-26.1.1" = _Baizcw5Z;
         "datapack-26.1.2" = _Baizcw5Z;
         "datapack-26.2" = _UmILRZV7;
+        "datapack-26.3" = _35QrMBR0;
         "fabric-1.21.11" = _VRCYou7s;
         "fabric-26.1" = _belca1Fi;
         "fabric-26.1.1" = _belca1Fi;
         "fabric-26.1.2" = _belca1Fi;
         "fabric-26.2" = _ZhXnOUjH;
+        "fabric-26.3" = _QHF9ZBdL;
         "forge-1.21.11" = _VRCYou7s;
         "forge-26.1" = _belca1Fi;
         "forge-26.1.1" = _belca1Fi;
         "forge-26.1.2" = _belca1Fi;
         "forge-26.2" = _ZhXnOUjH;
+        "forge-26.3" = _QHF9ZBdL;
         "neoforge-1.21.11" = _VRCYou7s;
         "neoforge-26.1" = _belca1Fi;
         "neoforge-26.1.1" = _belca1Fi;
         "neoforge-26.1.2" = _belca1Fi;
         "neoforge-26.2" = _ZhXnOUjH;
+        "neoforge-26.3" = _QHF9ZBdL;
         "quilt-1.21.11" = _VRCYou7s;
         "quilt-26.1" = _belca1Fi;
         "quilt-26.1.1" = _belca1Fi;
         "quilt-26.1.2" = _belca1Fi;
         "quilt-26.2" = _ZhXnOUjH;
+        "quilt-26.3" = _QHF9ZBdL;
         "pkg-1.0" = _VhKLkdU4;
         "pkg-1.0+mod" = _VRCYou7s;
         "pkg-1.1.0" = _Baizcw5Z;
         "pkg-1.1.0+mod" = _belca1Fi;
         "pkg-1.1.1" = _UmILRZV7;
         "pkg-1.1.1+mod" = _ZhXnOUjH;
-        "default" = _ZhXnOUjH;
+        "pkg-1.2.0" = _35QrMBR0;
+        "pkg-1.2.0+mod" = _QHF9ZBdL;
+        "default" = _QHF9ZBdL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytra-lunge";

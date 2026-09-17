@@ -81,6 +81,21 @@ let
             "file" = "framevoid-1.0.15.jar";
             "hash" = "sha512-7VLKHh3ikqNTP9NX8fgAM3t+TLHby80ck4OEwnw8w+peHHZ7iDmutt3/McHsud4Q+mfp24Eva4zPtGiHaD66xw==";
         };
+        _PriljVnN = {
+            "id" = "PriljVnN";
+            "file" = "xtremeutilities-1.0.0.jar";
+            "hash" = "sha512-D/mNmqOhNPeGDugZdOuQPEJAJfk3S+Hw/ejuMg8tfbrSrGHQ5+jWhBHe0nJdOZJGN/eYZmP3XWHbQH9RQdEUeA==";
+        };
+        _9SFL2YNR = {
+            "id" = "9SFL2YNR";
+            "file" = "xtremeutilities-1.0.1.jar";
+            "hash" = "sha512-M62ki7MvHo2qZRyER/OG0ajavgHMhMqyDRNgwFD1MmjgTypTV8azyRc/u/47dQrcKghGHGHV81OHN0m1P3oHrw==";
+        };
+        _hu7vsMaJ = {
+            "id" = "hu7vsMaJ";
+            "file" = "xtremeutilities-1.0.2.jar";
+            "hash" = "sha512-z9TsQVsZ7dpZFtPyIqkqnj9s1rxO91R7Y1K5dXN6c1VsxZXovsKhBHMRRR1TxfZSXZD2qEqCR63lpz1iAPNGZA==";
+        };
     in {
         "vuJJYXMN" = _vuJJYXMN;
         "wvJ389zC" = _wvJ389zC;
@@ -98,15 +113,19 @@ let
         "eLVjENIE" = _eLVjENIE;
         "AFv4Q0Gw" = _AFv4Q0Gw;
         "iDRdyRAy" = _iDRdyRAy;
+        "PriljVnN" = _PriljVnN;
+        "9SFL2YNR" = _9SFL2YNR;
+        "hu7vsMaJ" = _hu7vsMaJ;
         "fabric-26.1-pre-1" = _xalNWacs;
         "fabric-26.1-rc-2" = _PWED5ZJV;
         "fabric-26.1-rc-3" = _FF1PN9bO;
         "fabric-26.1" = _7dIlxx8j;
         "fabric-26.1.1" = _AFv4Q0Gw;
         "fabric-26.1.2" = _iDRdyRAy;
-        "pkg-1.0.0" = _vuJJYXMN;
-        "pkg-1.0.1" = _wvJ389zC;
-        "pkg-1.0.2" = _xalNWacs;
+        "fabric-26.3" = _hu7vsMaJ;
+        "pkg-1.0.0" = _PriljVnN;
+        "pkg-1.0.1" = _9SFL2YNR;
+        "pkg-1.0.2" = _hu7vsMaJ;
         "pkg-1.0.3" = _PWED5ZJV;
         "pkg-1.0.4" = _FF1PN9bO;
         "pkg-1.0.5" = _VfFQz9K9;
@@ -120,7 +139,7 @@ let
         "pkg-1.0.13" = _eLVjENIE;
         "pkg-1.0.14" = _AFv4Q0Gw;
         "pkg-1.0.15" = _iDRdyRAy;
-        "default" = _iDRdyRAy;
+        "default" = _hu7vsMaJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "framevoid";

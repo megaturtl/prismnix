@@ -41,6 +41,26 @@ let
             "file" = "HubExtend-1.2.26.jar";
             "hash" = "sha512-BfjNJIlfN0b0KIprPdPBw81/b/L6eZgYXXic/cKtmy1UzScS8BPSSK/dCdsJGeGjkUi3vAsEokp4UuCCEV1oZg==";
         };
+        _yfivRZ0o = {
+            "id" = "yfivRZ0o";
+            "file" = "HubExtend-1.2.27.jar";
+            "hash" = "sha512-a5ed4f3CfZA+cKfZ+iLVXy+is/fldVAZ99AkQBGZpfYPwBj0YwV75/vRXdXNhVrUUOD253SdpLLxGzAsuEvAsQ==";
+        };
+        _jqvRWVCH = {
+            "id" = "jqvRWVCH";
+            "file" = "HubExtend-1.2.29.jar";
+            "hash" = "sha512-r5n4DchpW3e6f5fiN+dArm31DBB/pPYyQoUS+CryfN6rtjKFgNqZP5y04S+I2eQi/ulY7a5Pview3uYDl49VOg==";
+        };
+        _XykqcWTc = {
+            "id" = "XykqcWTc";
+            "file" = "HubExtend-1.2.32.jar";
+            "hash" = "sha512-/cBgzntfMqrimqem9mecom+55/pTGBrf4u3CgWOBq55kA+xHX1p9u8iAmtNqTjb4TosmI9Cz20BAstxs2dpvjw==";
+        };
+        _9NQjoRSb = {
+            "id" = "9NQjoRSb";
+            "file" = "HubExtend-1.2.33.jar";
+            "hash" = "sha512-TTEnzEo/HuaOoTVqRa+CBZjbdio8Qvt4L38wfXlze4wTiEoamPvfEc9bT/zVI/GEiJdFP4+JHNI/kYwQsskeHA==";
+        };
     in {
         "R2sX9SpV" = _R2sX9SpV;
         "fzLs5HUa" = _fzLs5HUa;
@@ -50,14 +70,21 @@ let
         "weXIeX8l" = _weXIeX8l;
         "NouZtA8P" = _NouZtA8P;
         "oyHhMLac" = _oyHhMLac;
-        "fabric-1.21.1" = _oyHhMLac;
+        "yfivRZ0o" = _yfivRZ0o;
+        "jqvRWVCH" = _jqvRWVCH;
+        "XykqcWTc" = _XykqcWTc;
+        "9NQjoRSb" = _9NQjoRSb;
+        "fabric-1.21.1" = _9NQjoRSb;
         "pkg-1.0-SNAPSHOT" = _weXIeX8l;
         "pkg-1.16" = _fzLs5HUa;
         "pkg-1.1.92" = _JagFV9l7;
         "pkg-1.1.97" = _odGmce4V;
         "pkg-1.25" = _NouZtA8P;
         "pkg-1.26" = _oyHhMLac;
-        "default" = _oyHhMLac;
+        "pkg-1.1.27" = _yfivRZ0o;
+        "pkg-1.2.29" = _jqvRWVCH;
+        "pkg-1.1.32" = _9NQjoRSb;
+        "default" = _9NQjoRSb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hubextended";

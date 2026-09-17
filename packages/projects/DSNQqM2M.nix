@@ -96,6 +96,11 @@ let
             "file" = "Unshaded Blocks.zip";
             "hash" = "sha512-Jmkkdev6iC7e1H8xVUe0Vda59fdg88cIBcM+uxpPI6mGrAFZ52/NyQ5M5Rxqvk2q2K5MmBxnz34UWgWeRypkmg==";
         };
+        _XocqXWDQ = {
+            "id" = "XocqXWDQ";
+            "file" = "Unshaded Blocks.zip";
+            "hash" = "sha512-hurRsI+r/zRZ42y6zDW6bA0AtJYt+Q9GXA4x8Pbk2ab70xqK/uW8aUXln/ceJ219Trz8/r6s2BMQdq61att+Iw==";
+        };
     in {
         "Lr18a7hj" = _Lr18a7hj;
         "XERzr2FD" = _XERzr2FD;
@@ -116,6 +121,7 @@ let
         "iblN0fN9" = _iblN0fN9;
         "DncI2DaD" = _DncI2DaD;
         "k814JI8s" = _k814JI8s;
+        "XocqXWDQ" = _XocqXWDQ;
         "minecraft-1.16" = _Td5C3Q7l;
         "minecraft-1.16.1" = _Td5C3Q7l;
         "minecraft-1.16.2" = _Td5C3Q7l;
@@ -189,6 +195,7 @@ let
         "minecraft-26.3-snapshot-3" = _k814JI8s;
         "minecraft-26.3-snapshot-4" = _k814JI8s;
         "minecraft-26.3-snapshot-5" = _k814JI8s;
+        "minecraft-26.3" = _XocqXWDQ;
         "pkg-1" = _Lr18a7hj;
         "pkg-2" = _XERzr2FD;
         "pkg-2.1" = _Td5C3Q7l;
@@ -208,7 +215,8 @@ let
         "pkg-2.9" = _iblN0fN9;
         "pkg-26.2" = _DncI2DaD;
         "pkg-26.3" = _k814JI8s;
-        "default" = _k814JI8s;
+        "pkg-26.3-v2" = _XocqXWDQ;
+        "default" = _XocqXWDQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unshaded-blocks";

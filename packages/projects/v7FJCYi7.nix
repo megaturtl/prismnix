@@ -201,6 +201,46 @@ let
             "file" = "CulinaryCraft 0.0.5 NeoForge (1.21-1.21.1).jar";
             "hash" = "sha512-AIyFlhf2r7gCWTvGWqWkPSVysmoyO7f5j5CAN8/eueOBtrV4/MBvC+8cdA4J4GttPKJtUmGlOYFd7stfTRL6Uw==";
         };
+        _yYzzbn39 = {
+            "id" = "yYzzbn39";
+            "file" = "CulinaryCraft 0.0.6 (1.12.2).jar";
+            "hash" = "sha512-pwd/V6J+ZxpMmeCvqHD8scJ3G4Km1ArfoCU4MaWxFzNYMUVFWO5Uzr6cjzajT1SWl9jS4EX73gAfYGDGl+aFqQ==";
+        };
+        _EPaYnPqw = {
+            "id" = "EPaYnPqw";
+            "file" = "CulinaryCraft 0.0.6 (1.16.5).jar";
+            "hash" = "sha512-mkGpdskkE4cnpvxY4eVYTOYGVmhiyocd38OdAAcqOnlbZucZAiIZ2sNu8KNhkTKahyQ/3inqMbWDDjzqqvyUeQ==";
+        };
+        _VG2MDgrA = {
+            "id" = "VG2MDgrA";
+            "file" = "CulinaryCraft 0.0.6 (1.18.2).jar";
+            "hash" = "sha512-5Axd+WHWVwtSB16wvDIputFeIFduYfkvtjVRz/LlWvW2xeHKc2CFzvCOg3d6PW5E/dFuzuWgd8RJeYBKY7uPZA==";
+        };
+        _QMFUWcMi = {
+            "id" = "QMFUWcMi";
+            "file" = "CulinaryCraft 0.0.6 (1.19.2).jar";
+            "hash" = "sha512-oqfTOf3fKRHy/hjl//um20OqpNGsUBNAxVltDTYaNMmj9IE6MyDmXMphTa790m7UGCnF2DLfimIZF+vkMZI3dg==";
+        };
+        _J8BEoW7L = {
+            "id" = "J8BEoW7L";
+            "file" = "CulinaryCraft 0.0.6 (1.20.1).jar";
+            "hash" = "sha512-R6zMZjFNMO97VZcDNuEbXlQ+fE/RKRfSKnzKLkJ0d8EZnXoLT9J2LsH1vvVOBAuWOyeRfa/Vq4KRzeKjhI2Juw==";
+        };
+        _ZKUDC7oe = {
+            "id" = "ZKUDC7oe";
+            "file" = "CulinaryCraft 0.0.6 (1.21.1).jar";
+            "hash" = "sha512-xa1WVPRFzAWzZglRWexLAxEj8W2OGubY83IEIrLVSRDAYPT5ENvkFyPPZZ4UZEPt0SIr0aKs0CUFsoxlCfoafA==";
+        };
+        _U41G0gCj = {
+            "id" = "U41G0gCj";
+            "file" = "CulinaryCraft 0.0.6 Fabric (1.21.1).jar";
+            "hash" = "sha512-6nl4c+bYC+h53keTfTVesp5EHilY+1zn52jmeGQJHjIKEnP4NZVCGFrfrjvRoEU+7KqUtbMGQEXXph89Fe8I1A==";
+        };
+        _g8QSbJRZ = {
+            "id" = "g8QSbJRZ";
+            "file" = "CulinaryCraft 0.0.6 NeoForge (1.21.1).jar";
+            "hash" = "sha512-HPV7aBjeFhRc32Y+jzsL2Dylew5ZDa3RD9Qedcq/Y/dBcxkkhd3O1nV99hKHFRWy8FCjVmybj4B3QnyGYvajlQ==";
+        };
     in {
         "qWQK80KN" = _qWQK80KN;
         "9uoRA1IK" = _9uoRA1IK;
@@ -242,24 +282,33 @@ let
         "Q7RpfQ5p" = _Q7RpfQ5p;
         "7sfBdYob" = _7sfBdYob;
         "GM3RJBoe" = _GM3RJBoe;
-        "forge-1.12.2" = _VaURCcGE;
-        "forge-1.16.5" = _I2noT5GN;
-        "forge-1.18.2" = _qpw7wiFR;
-        "forge-1.19.2" = _mHirTCIz;
+        "yYzzbn39" = _yYzzbn39;
+        "EPaYnPqw" = _EPaYnPqw;
+        "VG2MDgrA" = _VG2MDgrA;
+        "QMFUWcMi" = _QMFUWcMi;
+        "J8BEoW7L" = _J8BEoW7L;
+        "ZKUDC7oe" = _ZKUDC7oe;
+        "U41G0gCj" = _U41G0gCj;
+        "g8QSbJRZ" = _g8QSbJRZ;
+        "forge-1.12.2" = _yYzzbn39;
+        "forge-1.16.5" = _EPaYnPqw;
+        "forge-1.18.2" = _VG2MDgrA;
+        "forge-1.19.2" = _QMFUWcMi;
         "forge-1.20" = _f6F1qAT1;
-        "forge-1.20.1" = _f6F1qAT1;
+        "forge-1.20.1" = _J8BEoW7L;
         "forge-1.21" = _Q7RpfQ5p;
-        "forge-1.21.1" = _Q7RpfQ5p;
+        "forge-1.21.1" = _ZKUDC7oe;
         "fabric-1.21" = _7sfBdYob;
-        "fabric-1.21.1" = _7sfBdYob;
+        "fabric-1.21.1" = _U41G0gCj;
         "neoforge-1.21" = _GM3RJBoe;
-        "neoforge-1.21.1" = _GM3RJBoe;
+        "neoforge-1.21.1" = _g8QSbJRZ;
         "pkg-0.0.1" = _MME9uhMI;
         "pkg-0.0.2" = _70NuGqgg;
         "pkg-0.0.3" = _Iw7gisLz;
         "pkg-0.0.4" = _YjIIdY1T;
         "pkg-0.0.5" = _GM3RJBoe;
-        "default" = _GM3RJBoe;
+        "pkg-0.0.6" = _g8QSbJRZ;
+        "default" = _g8QSbJRZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "culinarycraft-a-better-food-experience";

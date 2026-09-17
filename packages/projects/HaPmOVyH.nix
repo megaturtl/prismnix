@@ -16,26 +16,35 @@ let
             "file" = "Shield-Indicator-1.1-26.2.jar";
             "hash" = "sha512-vYvzTCHSDzk0Ldah3Rq/DbLUAZWAkaR/MkVLhqlb+1+qjbeMdKgQT1AQUC+333niPXc1dJhGU1A9gV5l1zTt4w==";
         };
+        _nUh62386 = {
+            "id" = "nUh62386";
+            "file" = "Shield-Indicator-1.1-26.3.jar";
+            "hash" = "sha512-EQxzHvwM0iQMaNLzvkYC4QjZoG9KCuDhR2Dy90KgoNi9KWZH67bGRt41+DByFyjgZvoNtAZYZ2HBA8u+/nbjGA==";
+        };
     in {
         "bueaiEAw" = _bueaiEAw;
         "FiBwszHI" = _FiBwszHI;
         "CEmyUj3z" = _CEmyUj3z;
+        "nUh62386" = _nUh62386;
         "fabric-1.21.10" = _bueaiEAw;
         "fabric-1.21.11" = _bueaiEAw;
         "fabric-26.1" = _FiBwszHI;
         "fabric-26.1.1" = _FiBwszHI;
         "fabric-26.1.2" = _FiBwszHI;
         "fabric-26.2" = _CEmyUj3z;
+        "fabric-26.3" = _nUh62386;
         "quilt-1.21.10" = _bueaiEAw;
         "quilt-1.21.11" = _bueaiEAw;
         "quilt-26.1" = _FiBwszHI;
         "quilt-26.1.1" = _FiBwszHI;
         "quilt-26.1.2" = _FiBwszHI;
         "quilt-26.2" = _CEmyUj3z;
+        "quilt-26.3" = _nUh62386;
         "pkg-1.0" = _bueaiEAw;
         "pkg-1.1" = _FiBwszHI;
         "pkg-1.1+26.2" = _CEmyUj3z;
-        "default" = _CEmyUj3z;
+        "pkg-1.1+26.3" = _nUh62386;
+        "default" = _nUh62386;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shield-crosshair-indicator";

@@ -26,19 +26,26 @@ let
             "file" = "create_blahaj_factory-1.0.5-neoforge-1.21.1.jar";
             "hash" = "sha512-eiCWKulXvlrUH7VCyGEfg+TEWeuq2C2QmnzsG5dBH2dd076/P1CE48bvcgTGJIgyQYICBX9mGh36rN3MOQKCmA==";
         };
+        _ptFyKiF3 = {
+            "id" = "ptFyKiF3";
+            "file" = "create_blahaj_factory-1.0.7-neoforge-1.21.1.jar";
+            "hash" = "sha512-EETiZ62UXzFadvQseLI3FTX23ftqbSC8Ts2CWSrHzE59nlB3DVD0XRZ7WQM52Pmfri7dAjbZijvj20390bvPTA==";
+        };
     in {
         "wp4HgWv3" = _wp4HgWv3;
         "Boar7av1" = _Boar7av1;
         "VZz2fs7q" = _VZz2fs7q;
         "e7MtYf08" = _e7MtYf08;
         "CY4eh7yF" = _CY4eh7yF;
-        "neoforge-1.21.1" = _CY4eh7yF;
+        "ptFyKiF3" = _ptFyKiF3;
+        "neoforge-1.21.1" = _ptFyKiF3;
         "pkg-1.0.0" = _wp4HgWv3;
         "pkg-1.0.1" = _Boar7av1;
         "pkg-1.0.3" = _VZz2fs7q;
         "pkg-1.0.4" = _e7MtYf08;
         "pkg-1.0.5" = _CY4eh7yF;
-        "default" = _CY4eh7yF;
+        "pkg-1.0.7" = _ptFyKiF3;
+        "default" = _ptFyKiF3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-blahaj-factory";

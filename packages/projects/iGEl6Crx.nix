@@ -1671,6 +1671,36 @@ let
             "file" = "biolith-neoforge-3.6.0.jar";
             "hash" = "sha512-Lma+BN9QhCOTDB4uLx3CxWZc90b5kqDXCeQTq1qfxsLNz6EZ1QKlkCS9shaBYN4pdvz4SWi20obvEP8NURUzcA==";
         };
+        _qSLRk6dS = {
+            "id" = "qSLRk6dS";
+            "file" = "biolith-fabric-3.7.0-beta.1.jar";
+            "hash" = "sha512-U+Lj1F3SVmxdSk0C2oXAlpKfjaJ93H2F66CRj3ex/NqS7OuXRBi0MGruam2zezmrbQId7l2HPeBO4HLheolMHw==";
+        };
+        _nmzso5wa = {
+            "id" = "nmzso5wa";
+            "file" = "biolith-forge-3.7.0-beta.1.jar";
+            "hash" = "sha512-zfgoAzjT9SPE6Mmdg0qIX37pFBw7V0xoabb97rvLsXWHARe4w7n0oL1DQLBDKE/WlnK9YvGHbQmmhb8qAXFeKQ==";
+        };
+        _NRUCkqSp = {
+            "id" = "NRUCkqSp";
+            "file" = "biolith-neoforge-3.7.0-beta.1.jar";
+            "hash" = "sha512-aLpTOWbsl+ObK3BtPuIIciSzKc0fteuB8avARIfEwOUVK/LoSeSs8vpAYLleEAYFthiQYf8cZ4e3ZS5ExRWTzg==";
+        };
+        _O8ICsbgV = {
+            "id" = "O8ICsbgV";
+            "file" = "biolith-fabric-3.8.0-alpha.1.jar";
+            "hash" = "sha512-lVwkuxvl6S2qk7XC2XfP7apZG6MX0B0Kp4tNAnoNPwOmk8jNKdRlPrGnW5GQ1qYkgleIEZwF+cAnvNje0HF98Q==";
+        };
+        _UsRN2eFj = {
+            "id" = "UsRN2eFj";
+            "file" = "biolith-fabric-3.8.0-alpha.2.jar";
+            "hash" = "sha512-bFKD44vLJtyTUd6OthZMTSNo1eC8jwLpTk1GSmOqIDMOL9UjKwtL4Dit70FM7/n0jbZjb/vmulbyF3bP5MffOw==";
+        };
+        _1B9gQ2cQ = {
+            "id" = "1B9gQ2cQ";
+            "file" = "biolith-neoforge-3.8.0-alpha.2.jar";
+            "hash" = "sha512-o7J1MOBG7F2eYYHadDCrL6XYzs06wo4nninhOnRknpaAjG3S32c9Z90JxstTc8K0RLWjFXWOe3/4c0p66UU8Xg==";
+        };
     in {
         "DgbD2J3k" = _DgbD2J3k;
         "zSFydtUE" = _zSFydtUE;
@@ -2006,6 +2036,12 @@ let
         "xRtx6rPH" = _xRtx6rPH;
         "yfion3fe" = _yfion3fe;
         "whieXuL5" = _whieXuL5;
+        "qSLRk6dS" = _qSLRk6dS;
+        "nmzso5wa" = _nmzso5wa;
+        "NRUCkqSp" = _NRUCkqSp;
+        "O8ICsbgV" = _O8ICsbgV;
+        "UsRN2eFj" = _UsRN2eFj;
+        "1B9gQ2cQ" = _1B9gQ2cQ;
         "fabric-1.19.4" = _gUa9RrR8;
         "fabric-23w14a" = _zSFydtUE;
         "fabric-23w16a" = _zSFydtUE;
@@ -2105,7 +2141,9 @@ let
         "fabric-26.1.1" = _xRtx6rPH;
         "fabric-26.1.2" = _xRtx6rPH;
         "fabric-26.2-rc-2" = _WfZkZS3g;
-        "fabric-26.2" = _6aikmCOR;
+        "fabric-26.2" = _qSLRk6dS;
+        "fabric-26.3-rc-3" = _O8ICsbgV;
+        "fabric-26.3" = _UsRN2eFj;
         "quilt-1.20-pre2" = _K4N5tZT1;
         "quilt-1.20-pre3" = _K4N5tZT1;
         "quilt-1.20-pre4" = _K4N5tZT1;
@@ -2198,7 +2236,9 @@ let
         "quilt-26.1.1" = _xRtx6rPH;
         "quilt-26.1.2" = _xRtx6rPH;
         "quilt-26.2-rc-2" = _WfZkZS3g;
-        "quilt-26.2" = _6aikmCOR;
+        "quilt-26.2" = _qSLRk6dS;
+        "quilt-26.3-rc-3" = _O8ICsbgV;
+        "quilt-26.3" = _UsRN2eFj;
         "forge-1.20.4" = _ddWqE2bc;
         "forge-23w51a" = _Jt522J2O;
         "forge-23w51b" = _Jt522J2O;
@@ -2226,7 +2266,7 @@ let
         "forge-26.1.1" = _yfion3fe;
         "forge-26.1.2" = _yfion3fe;
         "forge-26.2-rc-2" = _9MFjpHYr;
-        "forge-26.2" = _jfhzRAJW;
+        "forge-26.2" = _nmzso5wa;
         "neoforge-1.20.4" = _GnG2pJ5N;
         "neoforge-23w51a" = _dK5nJ6SO;
         "neoforge-23w51b" = _dK5nJ6SO;
@@ -2255,7 +2295,8 @@ let
         "neoforge-26.1.1" = _whieXuL5;
         "neoforge-26.1.2" = _whieXuL5;
         "neoforge-26.2-rc-2" = _Vgu9J3fJ;
-        "neoforge-26.2" = _RQGwhvJ3;
+        "neoforge-26.2" = _NRUCkqSp;
+        "neoforge-26.3" = _1B9gQ2cQ;
         "pkg-0.0.1-alpha.7" = _DgbD2J3k;
         "pkg-0.0.1-alpha.8" = _zSFydtUE;
         "pkg-0.0.1-beta.1" = _QYyj5ICb;
@@ -2404,7 +2445,10 @@ let
         "pkg-3.7.0-alpha.1" = _EK6OnpOR;
         "pkg-3.7.0-alpha.2" = _RQGwhvJ3;
         "pkg-3.6.0" = _whieXuL5;
-        "default" = _whieXuL5;
+        "pkg-3.7.0-beta.1" = _NRUCkqSp;
+        "pkg-3.8.0-alpha.1" = _O8ICsbgV;
+        "pkg-3.8.0-alpha.2" = _1B9gQ2cQ;
+        "default" = _1B9gQ2cQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "biolith";

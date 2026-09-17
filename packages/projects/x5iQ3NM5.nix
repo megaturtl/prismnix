@@ -666,6 +666,16 @@ let
             "file" = "toms_trading_network-fabric-26.2-0.3.14.jar";
             "hash" = "sha512-g76qlXOk0cuuWGhDGNsfLTBaB6qApC0h6iOJZXnVT2k6WkM/G4M7RQIywDqI0NgRSO2kHfrCAqB0IKvzsrqRkg==";
         };
+        _HTtWEy14 = {
+            "id" = "HTtWEy14";
+            "file" = "toms_trading_network-26.3-0.3.17.jar";
+            "hash" = "sha512-Ptb6s4iA8Fig+hF+extCbWVeTPEqoz7d5q84IeTzgrjEWJFg7lRgbfI1IvP0oBGPw10nO9TYZHTsQ4LCL9HzuA==";
+        };
+        _mZ7ZXCkZ = {
+            "id" = "mZ7ZXCkZ";
+            "file" = "toms_trading_network-fabric-26.3-0.3.15.jar";
+            "hash" = "sha512-A90gFESWT2yBkZ5CQHiqjqHNyszqotcyDTNbljOQ9EhqkpkfSrarhjXHKHHEtRxkeVYA24kb/yhC/Y/AIrLe0Q==";
+        };
     in {
         "D474LYev" = _D474LYev;
         "UDUJZZVY" = _UDUJZZVY;
@@ -800,6 +810,8 @@ let
         "paxb6Gk1" = _paxb6Gk1;
         "VmzqBnL4" = _VmzqBnL4;
         "GjVJAj6b" = _GjVJAj6b;
+        "HTtWEy14" = _HTtWEy14;
+        "mZ7ZXCkZ" = _mZ7ZXCkZ;
         "forge-1.19" = _lm8cMzAs;
         "forge-1.19.1" = _lm8cMzAs;
         "forge-1.19.2" = _lm8cMzAs;
@@ -844,6 +856,7 @@ let
         "fabric-26.1.1" = _paxb6Gk1;
         "fabric-26.1.2" = _paxb6Gk1;
         "fabric-26.2" = _GjVJAj6b;
+        "fabric-26.3" = _mZ7ZXCkZ;
         "neoforge-1.20.2" = _VHYe0njk;
         "neoforge-1.20.4" = _MQ7xStoO;
         "neoforge-1.20.5" = _pB7V1XtB;
@@ -863,6 +876,7 @@ let
         "neoforge-26.1.1" = _1qyCsyNO;
         "neoforge-26.1.2" = _1qyCsyNO;
         "neoforge-26.2" = _VmzqBnL4;
+        "neoforge-26.3" = _HTtWEy14;
         "pkg-1.19-0.1.0" = _D474LYev;
         "pkg-1.19.4-0.1.0" = _UDUJZZVY;
         "pkg-1.19-0.1.0-fabric" = _ksl4CZPC;
@@ -988,7 +1002,9 @@ let
         "pkg-26.1-0.3.13-fabric" = _paxb6Gk1;
         "pkg-26.2-0.3.16" = _VmzqBnL4;
         "pkg-26.2-0.3.14-fabric" = _GjVJAj6b;
-        "default" = _GjVJAj6b;
+        "pkg-26.3-0.3.17" = _HTtWEy14;
+        "pkg-26.3-0.3.15-fabric" = _mZ7ZXCkZ;
+        "default" = _mZ7ZXCkZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "toms-trading-network";

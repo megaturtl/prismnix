@@ -1181,6 +1181,11 @@ let
             "file" = "FallingTree-26.2-25.jar";
             "hash" = "sha512-tHqTxv7Uv8nacIgdbupd93HHmmefwkc7DJh5NXNqPIWxpcerGiWA0IM0E93GygKqXVmW6eiL17A4ej/3TwSRMA==";
         };
+        _t8SGwbWX = {
+            "id" = "t8SGwbWX";
+            "file" = "FallingTree-26.3-25.jar";
+            "hash" = "sha512-8XkHFwz5y0xvkYVz6Bu3a5idljH2LBC+rjYr+u+2b6jnfu0c8e/r4oUwQ5QcVfaH7fPfMurbqemYxU2scPqf8w==";
+        };
     in {
         "ClS5aGDu" = _ClS5aGDu;
         "by7f3jqu" = _by7f3jqu;
@@ -1418,6 +1423,7 @@ let
         "QeKcsTSe" = _QeKcsTSe;
         "nNFPkkaX" = _nNFPkkaX;
         "sOoH5kkd" = _sOoH5kkd;
+        "t8SGwbWX" = _t8SGwbWX;
         "fabric-1.16.5" = _rK4GkUX6;
         "fabric-1.17" = _nDc9P6UR;
         "fabric-1.17.1" = _59SG26Fv;
@@ -1466,6 +1472,7 @@ let
         "fabric-26.1.1" = _1t5y4V0E;
         "fabric-26.1.2" = _YpsBfAWL;
         "fabric-26.2" = _sOoH5kkd;
+        "fabric-26.3" = _t8SGwbWX;
         "forge-1.16.5" = _rK4GkUX6;
         "forge-1.17.1" = _59SG26Fv;
         "forge-1.18" = _jHljfMeN;
@@ -1514,6 +1521,7 @@ let
         "neoforge-26.1.1" = _1t5y4V0E;
         "neoforge-26.1.2" = _YpsBfAWL;
         "neoforge-26.2" = _sOoH5kkd;
+        "neoforge-26.3" = _t8SGwbWX;
         "pkg-1.16.5-2.10.0-Fabric" = _ClS5aGDu;
         "pkg-1.16.5-2.10.0-Forge" = _by7f3jqu;
         "pkg-1.16.5-2.10.1-Forge" = _wYPHBZnq;
@@ -1750,7 +1758,8 @@ let
         "pkg-26.2-26.2.0.1" = _QeKcsTSe;
         "pkg-26.2-26.2.0.2" = _nNFPkkaX;
         "pkg-26.2-26.2.0.3" = _sOoH5kkd;
-        "default" = _sOoH5kkd;
+        "pkg-26.3-26.3.0.1" = _t8SGwbWX;
+        "default" = _t8SGwbWX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fallingtree";

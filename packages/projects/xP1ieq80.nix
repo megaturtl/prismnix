@@ -106,6 +106,21 @@ let
             "file" = "fabpose-1.1.0+26.1.jar";
             "hash" = "sha512-LxWPrG4r4mNg4k3VDHTNpJmp4oAuEH5Yuy7yMMKdadjYA/YIPq3R4N2QHLKFQpFOYq1grKqwzTqTAQTHsHYJ3g==";
         };
+        _I5OLJMGb = {
+            "id" = "I5OLJMGb";
+            "file" = "fabpose-1.2.0+1.21.11.jar";
+            "hash" = "sha512-4qHaWa/fRvub8ouJLa6q4Vgyxn3SZ2ny3/QyF96aJF/I1xjlF2gt8Nn2bN3CwIkUyMXa1ffjFxlpIE2Hv/saSA==";
+        };
+        _8nNGv2ns = {
+            "id" = "8nNGv2ns";
+            "file" = "fabpose-1.2.0+26.1.jar";
+            "hash" = "sha512-A4cDvdPgcPAGV1Cz/EAGQKT6ye49r7YixEnz+WFA3dYpewRJstglJogR7meI0fz4jKEzPUTbKA29dMXt/xVIqA==";
+        };
+        _6UaQjCcn = {
+            "id" = "6UaQjCcn";
+            "file" = "fabpose-1.2.0+26.2.jar";
+            "hash" = "sha512-LkZ/LPRIRRLythFY/kobIKGJnIt+QsUGktp8aw7shQX0IJvTCh/4uHwE9vJuDfdnp5glY2yrJHomkkCRjgwnxg==";
+        };
     in {
         "D1suJVwN" = _D1suJVwN;
         "TgKIDPLG" = _TgKIDPLG;
@@ -128,6 +143,9 @@ let
         "7iLalcLL" = _7iLalcLL;
         "tMnJdDrF" = _tMnJdDrF;
         "6i6tMiie" = _6i6tMiie;
+        "I5OLJMGb" = _I5OLJMGb;
+        "8nNGv2ns" = _8nNGv2ns;
+        "6UaQjCcn" = _6UaQjCcn;
         "fabric-1.20.2" = _D1suJVwN;
         "fabric-1.20.4" = _aQHGRxFQ;
         "fabric-1.20.6" = _J6EebzDP;
@@ -137,8 +155,9 @@ let
         "fabric-1.21.4" = _WfaWfz4C;
         "fabric-1.21.7" = _xrWdV9JO;
         "fabric-1.21.10" = _7iLalcLL;
-        "fabric-1.21.11" = _tMnJdDrF;
-        "fabric-26.1" = _6i6tMiie;
+        "fabric-1.21.11" = _I5OLJMGb;
+        "fabric-26.1" = _8nNGv2ns;
+        "fabric-26.2" = _6UaQjCcn;
         "pkg-1.0.0" = _sLarDfrG;
         "pkg-1.0.1" = _7iLalcLL;
         "pkg-1.0.2" = _7ZlU0PTN;
@@ -146,7 +165,10 @@ let
         "pkg-1.0.4" = _BeS0rI4U;
         "pkg-1.1.0+1.21.11" = _tMnJdDrF;
         "pkg-1.1.0+26.1" = _6i6tMiie;
-        "default" = _6i6tMiie;
+        "pkg-1.2.0+1.21.11" = _I5OLJMGb;
+        "pkg-1.2.0+26.1" = _8nNGv2ns;
+        "pkg-1.2.0+26.2" = _6UaQjCcn;
+        "default" = _6UaQjCcn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fabpose";

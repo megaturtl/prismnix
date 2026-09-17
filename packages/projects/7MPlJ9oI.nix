@@ -151,6 +151,26 @@ let
             "file" = "[26.2] Only Jugs [1.5.0].jar";
             "hash" = "sha512-WyTR4+2bNqbmfct3pSBg4nf8NnpULS8ak3kCT8KcuNPhEVPx0ork/C1FbSaSzZGMpLqAhS+bMEKsPEnpIY38zw==";
         };
+        _qQiFhQYV = {
+            "id" = "qQiFhQYV";
+            "file" = "[26.1] Only Jugs [1.6.0].jar";
+            "hash" = "sha512-qkFGmt6qQaE9r2g9B1JVufIiXqNv7B1ojYqT7YZV3IcSqadAWhOhwke/0Su3ZFZnlQ3RngVJGsjLKKJvkk1uFw==";
+        };
+        _C5fvUaGk = {
+            "id" = "C5fvUaGk";
+            "file" = "[26.1.1] Only Jugs [1.6.0].jar";
+            "hash" = "sha512-Nz155rkZZeJ34/kNrVdUO9YBek7QNiXjfOwOHyAL2z+d0b/UIdvTYS+m1o7yDYy6rTBXPdCJaKDj29e4L+WpnQ==";
+        };
+        _dwydt9u8 = {
+            "id" = "dwydt9u8";
+            "file" = "[26.1.2] Only Jugs [1.6.0].jar";
+            "hash" = "sha512-kSzA2RHE+GD77JhP5n0nK0SiUs5bOlV2GWmjl/RdE0A/eW0UKOx4p3/DPCwSzMMKpbW6QzzSAeAXEdqi6NIWpA==";
+        };
+        _XBknuW5w = {
+            "id" = "XBknuW5w";
+            "file" = "[26.2] Only Jugs [1.6.0].jar";
+            "hash" = "sha512-ELdtZCYdQd2c898lwHfxqTgH4Qab0v5bovt9g56IFj3lGqOSgdfU2w3ijE7+9Let0MTHCrqspi8AbfafczxrQA==";
+        };
     in {
         "kS7xV3pp" = _kS7xV3pp;
         "x0t14JVT" = _x0t14JVT;
@@ -182,14 +202,18 @@ let
         "tRk4Wa9y" = _tRk4Wa9y;
         "V0rtJYEX" = _V0rtJYEX;
         "lEVJdUrZ" = _lEVJdUrZ;
-        "fabric-26.1" = _pLgRw788;
-        "fabric-26.1.1" = _tRk4Wa9y;
-        "fabric-26.1.2" = _V0rtJYEX;
-        "fabric-26.2" = _lEVJdUrZ;
-        "neoforge-26.1" = _pLgRw788;
-        "neoforge-26.1.1" = _tRk4Wa9y;
-        "neoforge-26.1.2" = _V0rtJYEX;
-        "neoforge-26.2" = _lEVJdUrZ;
+        "qQiFhQYV" = _qQiFhQYV;
+        "C5fvUaGk" = _C5fvUaGk;
+        "dwydt9u8" = _dwydt9u8;
+        "XBknuW5w" = _XBknuW5w;
+        "fabric-26.1" = _qQiFhQYV;
+        "fabric-26.1.1" = _C5fvUaGk;
+        "fabric-26.1.2" = _dwydt9u8;
+        "fabric-26.2" = _XBknuW5w;
+        "neoforge-26.1" = _qQiFhQYV;
+        "neoforge-26.1.1" = _C5fvUaGk;
+        "neoforge-26.1.2" = _dwydt9u8;
+        "neoforge-26.2" = _XBknuW5w;
         "pkg-1.0.0" = _x0t14JVT;
         "pkg-1.1.0" = _nYw5V7XE;
         "pkg-1.2.0" = _Gz0rHcGI;
@@ -200,7 +224,8 @@ let
         "pkg-1.3.1" = _kDpo0NHe;
         "pkg-1.4.0" = _fdy6deI2;
         "pkg-1.5.0" = _lEVJdUrZ;
-        "default" = _lEVJdUrZ;
+        "pkg-1.6.0" = _XBknuW5w;
+        "default" = _XBknuW5w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "onlyjugs";

@@ -86,6 +86,11 @@ let
             "file" = "mobignoreme-1.2.jar";
             "hash" = "sha512-Rr05Tti22KmEOKWy0JDB0yomniCrZ5vbtIwOaXZRmih9Z53kbuc5WJuaKdiTbSYLS+2NI2Lqwa7p42p5lAgCmg==";
         };
+        _K9F2nbmB = {
+            "id" = "K9F2nbmB";
+            "file" = "mobignoreme-1.2.jar";
+            "hash" = "sha512-9PwpNjGe+zy+bsiaXJ05yHZ+IrgiTN4rYvriDm+JdX+VvTE9yYTPg4DXJmJfQaMHpNpBCWrADIROEuw3Y8iUIQ==";
+        };
     in {
         "o8EHZjLi" = _o8EHZjLi;
         "UDOUoFop" = _UDOUoFop;
@@ -104,6 +109,7 @@ let
         "NfsjIluZ" = _NfsjIluZ;
         "sL3DkTw0" = _sL3DkTw0;
         "BtD5YEpa" = _BtD5YEpa;
+        "K9F2nbmB" = _K9F2nbmB;
         "fabric-1.21.5" = _BIQViFHr;
         "fabric-1.21.6" = _BIQViFHr;
         "fabric-1.21.7" = _BIQViFHr;
@@ -120,11 +126,12 @@ let
         "fabric-26.1.1" = _sL3DkTw0;
         "fabric-26.1.2" = _sL3DkTw0;
         "fabric-26.2" = _BtD5YEpa;
+        "fabric-26.3" = _K9F2nbmB;
         "pkg-1.0" = _r87YutBQ;
         "pkg-1.1" = _ERsMtM3B;
         "pkg-1.2" = _VTchdtbo;
-        "pkg-1.0.0" = _BtD5YEpa;
-        "default" = _BtD5YEpa;
+        "pkg-1.0.0" = _K9F2nbmB;
+        "default" = _K9F2nbmB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mob-ignore-me";

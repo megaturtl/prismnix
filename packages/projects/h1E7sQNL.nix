@@ -6931,6 +6931,16 @@ let
             "file" = "CustomPlayerModels-Fabric-26.3-0.6.27c.jar";
             "hash" = "sha512-wEOfvg2cgn7T17zqpXn2gbDGMpefTk7AjC1iQJ0PnVtL/eYjWkUCdFJZmnKKcv2MJWfDh/Rtx9bcfVtdUAfhPA==";
         };
+        _AmQDozJj = {
+            "id" = "AmQDozJj";
+            "file" = "CustomPlayerModels-26.3-0.6.27a.jar";
+            "hash" = "sha512-VEKO/8OFLNJe3OGR/rcJu9GyQyJiZFyzp4xdj4gncV6e0PD8azU5gs+8GjJI6VPKwJMNHwwBaXj02PgITP5wUA==";
+        };
+        _PlpYva18 = {
+            "id" = "PlpYva18";
+            "file" = "CustomPlayerModels-Fabric-26.3-0.6.27d.jar";
+            "hash" = "sha512-c7VHsTNLzGgoR7cX1ulG2FUp0PFbv1UQrZ5OLppDtdUC9IuBlPvgdfgzgoIBTdXOXb57aVGIa58aB3348uEEQw==";
+        };
     in {
         "LDgeoshL" = _LDgeoshL;
         "m0d8zTzm" = _m0d8zTzm;
@@ -8318,6 +8328,8 @@ let
         "Gkd7AhxP" = _Gkd7AhxP;
         "klnLackF" = _klnLackF;
         "tnRp2CPp" = _tnRp2CPp;
+        "AmQDozJj" = _AmQDozJj;
+        "PlpYva18" = _PlpYva18;
         "forge-1.18" = _hE4XOIae;
         "forge-1.18.1" = _hE4XOIae;
         "forge-1.18.2" = _4bkbA2gc;
@@ -8443,6 +8455,7 @@ let
         "fabric-26.3-snapshot-2" = _FBz4Ftol;
         "fabric-26.3-snapshot-5" = _P7qEIiqV;
         "fabric-26.3-pre-1" = _tnRp2CPp;
+        "fabric-26.3" = _PlpYva18;
         "bukkit-1.8" = _QeHHlE26;
         "bukkit-1.9" = _QeHHlE26;
         "bukkit-1.10" = _QeHHlE26;
@@ -8675,6 +8688,7 @@ let
         "neoforge-26.1.1" = _fFHN1j51;
         "neoforge-26.1.2" = _fFHN1j51;
         "neoforge-26.2" = _boNjhV6Y;
+        "neoforge-26.3" = _AmQDozJj;
         "babric-b1.7.3" = _Lam1mD8D;
         "java-agent-1.2.5" = _kFFl5RRA;
         "bta-babric-b1.7.3" = _VUlMbtwy;
@@ -10078,7 +10092,9 @@ let
         "pkg-26.2v0.6.27c-forge" = _Gkd7AhxP;
         "pkg-26.2v0.6.27c-fabric" = _klnLackF;
         "pkg-26.3v0.6.27c-fabric" = _tnRp2CPp;
-        "default" = _tnRp2CPp;
+        "pkg-26.3v0.6.27a-neoforge" = _AmQDozJj;
+        "pkg-26.3v0.6.27d-fabric" = _PlpYva18;
+        "default" = _PlpYva18;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-player-models";

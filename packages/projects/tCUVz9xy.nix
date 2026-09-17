@@ -111,6 +111,11 @@ let
             "file" = "Potatoptimize-2.2.1.jar";
             "hash" = "sha512-fLy2PG3k8CsedG4njYcbDUlP74SlIyonSgEti+ZnLuDvnzZ+Zw77tSch+L3dnuehnVX3xu62TYnTmv8xbIIsaA==";
         };
+        _TTLkgTGW = {
+            "id" = "TTLkgTGW";
+            "file" = "Potatoptimize-2.2.2.jar";
+            "hash" = "sha512-Q5EyS0Bbeo0h4jdhn2WMUVQMlQiw06fasGa+66MuP7SC4s0GBpE49I9fqabMDDqZNc3N+OX7QpHtw5/2rtHm5A==";
+        };
     in {
         "yNwpRsZy" = _yNwpRsZy;
         "eax5cFj8" = _eax5cFj8;
@@ -134,6 +139,7 @@ let
         "NWYLoOww" = _NWYLoOww;
         "YIUmYXS2" = _YIUmYXS2;
         "J9Jufn7Z" = _J9Jufn7Z;
+        "TTLkgTGW" = _TTLkgTGW;
         "fabric-1.20.3" = _eax5cFj8;
         "fabric-1.20.4" = _eax5cFj8;
         "fabric-1.20.5" = _vdjZDB4S;
@@ -149,7 +155,7 @@ let
         "fabric-26.1" = _NWYLoOww;
         "fabric-26.1.1" = _NWYLoOww;
         "fabric-26.1.2" = _NWYLoOww;
-        "fabric-26.2" = _J9Jufn7Z;
+        "fabric-26.2" = _TTLkgTGW;
         "quilt-1.20.3" = _eax5cFj8;
         "quilt-1.20.4" = _eax5cFj8;
         "quilt-1.20.5" = _vdjZDB4S;
@@ -165,22 +171,22 @@ let
         "quilt-26.1" = _NWYLoOww;
         "quilt-26.1.1" = _NWYLoOww;
         "quilt-26.1.2" = _NWYLoOww;
-        "quilt-26.2" = _J9Jufn7Z;
+        "quilt-26.2" = _TTLkgTGW;
         "forge-1.21.11" = _pKRW1Grv;
         "forge-26.1" = _NWYLoOww;
         "forge-26.1.1" = _NWYLoOww;
         "forge-26.1.2" = _NWYLoOww;
-        "forge-26.2" = _J9Jufn7Z;
+        "forge-26.2" = _TTLkgTGW;
         "neoforge-1.21.11" = _pKRW1Grv;
         "neoforge-26.1" = _NWYLoOww;
         "neoforge-26.1.1" = _NWYLoOww;
         "neoforge-26.1.2" = _NWYLoOww;
-        "neoforge-26.2" = _J9Jufn7Z;
+        "neoforge-26.2" = _TTLkgTGW;
         "sponge-1.21.11" = _pKRW1Grv;
         "sponge-26.1" = _NWYLoOww;
         "sponge-26.1.1" = _NWYLoOww;
         "sponge-26.1.2" = _NWYLoOww;
-        "sponge-26.2" = _J9Jufn7Z;
+        "sponge-26.2" = _TTLkgTGW;
         "pkg-0.0.1-dev.1" = _yNwpRsZy;
         "pkg-0.0.1-dev2" = _dD77tepQ;
         "pkg-0.0.1-dev3" = _9VX15rHp;
@@ -200,7 +206,8 @@ let
         "pkg-mc26.1-2.1.1" = _NWYLoOww;
         "pkg-mc26.2-2.2.0" = _YIUmYXS2;
         "pkg-mc26.2-2.2.1" = _J9Jufn7Z;
-        "default" = _J9Jufn7Z;
+        "pkg-mc26.2-2.2.2" = _TTLkgTGW;
+        "default" = _TTLkgTGW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "potatoptimize";

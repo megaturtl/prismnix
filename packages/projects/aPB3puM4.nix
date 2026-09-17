@@ -126,6 +126,16 @@ let
             "file" = "goeticlegacy-0.5.0-early-release.jar";
             "hash" = "sha512-UTkhJiO+kSXSc0a2cuqJqRSigFpsm52FHPKUV4kI2fyieCwXauhY19ickFDUAPTRvXyL80s4npmmbFjRokYTkA==";
         };
+        _6foX8GKR = {
+            "id" = "6foX8GKR";
+            "file" = "goeticlegacy-0.5.1-early-release.jar";
+            "hash" = "sha512-JLM26vGGAi3ws+YJwFgr5lxBgrSXxsi51covTiOgR2D1VoXGCcPBP7yzKh+D0zcXpTQhmseR7AEmXs+hLE+ixQ==";
+        };
+        _Gjn861jQ = {
+            "id" = "Gjn861jQ";
+            "file" = "goeticlegacy-0.5.1-fix1-early-release-all.jar";
+            "hash" = "sha512-BnV1QHulncseQzaFp4eYF57aLlyxa2Q4JBQPSfSbpULOVf3y7C3Fima+gFa/N/7oNaixfH0HclvGWybRA6PvZw==";
+        };
     in {
         "6NsrAqsg" = _6NsrAqsg;
         "SUiHNgBZ" = _SUiHNgBZ;
@@ -152,7 +162,9 @@ let
         "zcM12wkf" = _zcM12wkf;
         "5KqxMP3T" = _5KqxMP3T;
         "jX2u6Cys" = _jX2u6Cys;
-        "forge-1.20.1" = _jX2u6Cys;
+        "6foX8GKR" = _6foX8GKR;
+        "Gjn861jQ" = _Gjn861jQ;
+        "forge-1.20.1" = _Gjn861jQ;
         "pkg-0.1.0-alpha" = _6NsrAqsg;
         "pkg-0.1.1-early-release" = _SUiHNgBZ;
         "pkg-0.1.2-early-release" = _AEoJfEKZ;
@@ -178,7 +190,9 @@ let
         "pkg-0.4.3-fix1-early-release" = _zcM12wkf;
         "pkg-0.4.4-early-release" = _5KqxMP3T;
         "pkg-0.5.0-early-release" = _jX2u6Cys;
-        "default" = _jX2u6Cys;
+        "pkg-0.5.1-early-release" = _6foX8GKR;
+        "pkg-0.5.1-fix1-early-release" = _Gjn861jQ;
+        "default" = _Gjn861jQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "goetic-legacy";

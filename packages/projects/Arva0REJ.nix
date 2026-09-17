@@ -46,6 +46,11 @@ let
             "file" = "fresh-blocks-animation-1.3.0.jar";
             "hash" = "sha512-em2QHwhsQtzSRYWE8c6Acot4BLWae4IAUA/K1mUq8ER0tEqznI43ZSdzsBdh+Qn+0mXz4wcKP0lt1+2JI5lh3A==";
         };
+        _zPbenc1m = {
+            "id" = "zPbenc1m";
+            "file" = "fresh-blocks-animation-1.3.1+mc26.3-fabric.jar";
+            "hash" = "sha512-FyuOEaYKNnCFfDSHimtypiuB9UbwWaJra6yRdQZDKZt+p4hJNsm18Vhx/b45tWodQwnezTtOuWe+SpTwfmJOqA==";
+        };
     in {
         "X2x8qTyr" = _X2x8qTyr;
         "6XLyuOLI" = _6XLyuOLI;
@@ -56,8 +61,10 @@ let
         "5YNCZoz8" = _5YNCZoz8;
         "HAiN6xyU" = _HAiN6xyU;
         "yJuGeQy6" = _yJuGeQy6;
+        "zPbenc1m" = _zPbenc1m;
         "fabric-26.1.2" = _puRezmjQ;
         "fabric-26.2" = _yJuGeQy6;
+        "fabric-26.3" = _zPbenc1m;
         "pkg-1.0" = _X2x8qTyr;
         "pkg-1.0.1" = _6XLyuOLI;
         "pkg-1.1" = _fLiA6JDK;
@@ -67,7 +74,8 @@ let
         "pkg-1.2.15" = _5YNCZoz8;
         "pkg-1.2.2" = _HAiN6xyU;
         "pkg-1.3.0" = _yJuGeQy6;
-        "default" = _yJuGeQy6;
+        "pkg-1.3.1" = _zPbenc1m;
+        "default" = _zPbenc1m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fresh-block-animations";

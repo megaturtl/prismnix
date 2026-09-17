@@ -56,6 +56,11 @@ let
             "file" = "tfmgjs-1.21.1-1.0.2.jar";
             "hash" = "sha512-eLNDUxMsbhqracLnoJaSfFh0WssA8Ouck75Gkin/X6nHfIhwskOfghOMnKzMdySVHJ1SQ6ZT95RIBv9BsrxlCQ==";
         };
+        _NvxQ92IL = {
+            "id" = "NvxQ92IL";
+            "file" = "tfmgjs-1.21.1-1.1.0.jar";
+            "hash" = "sha512-SeVyxJHVRqPpCxlGF2tZx4izt+58Xecl8GXAOX/25BwgO9jm7DhmyPhNE/8t9M3a+yIwZMxZCy2ZektS+erx0g==";
+        };
     in {
         "sR6Nf7sr" = _sR6Nf7sr;
         "AGgipSoz" = _AGgipSoz;
@@ -68,9 +73,10 @@ let
         "oPmz5s4U" = _oPmz5s4U;
         "fJuJuW8Z" = _fJuJuW8Z;
         "WAHr68Ee" = _WAHr68Ee;
+        "NvxQ92IL" = _NvxQ92IL;
         "forge-1.20.1" = _eydRRf0X;
         "forge-1.19.2" = _pYlvgYl4;
-        "neoforge-1.21.1" = _WAHr68Ee;
+        "neoforge-1.21.1" = _NvxQ92IL;
         "pkg-1.20.1-1.0.0" = _sR6Nf7sr;
         "pkg-1.20.1-1.0.1" = _AGgipSoz;
         "pkg-1.20.1-1.0.2" = _1lNEba7c;
@@ -82,7 +88,8 @@ let
         "pkg-1.21.1-1.0.0" = _oPmz5s4U;
         "pkg-1.21.1-1.0.1" = _fJuJuW8Z;
         "pkg-1.21.1-1.0.2" = _WAHr68Ee;
-        "default" = _WAHr68Ee;
+        "pkg-1.21.1-1.1.0" = _NvxQ92IL;
+        "default" = _NvxQ92IL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kubejs-tfmg";

@@ -626,6 +626,21 @@ let
             "file" = "transmog-fabric-1.8.0+26.2.jar";
             "hash" = "sha512-BzFd5HDv2Xt6zQ+gc3OcnOgn8QwjCOOWCwr9IuUrMeXOd/ffpqRtli9o2AeJvdZ2TGL819ufxpkSG+dYRtzdEQ==";
         };
+        _fbOlDHaz = {
+            "id" = "fbOlDHaz";
+            "file" = "transmog-forge-1.8.1+26.2.jar";
+            "hash" = "sha512-08ql6iM9CYrwCf0+HsalL20YinokYGEVQp1mCmTrSerFVL88e9w+/oVHvy7F8bPUt822oz49pHIDOh7CI2OMzA==";
+        };
+        _JPRhSVqy = {
+            "id" = "JPRhSVqy";
+            "file" = "transmog-neoforge-1.8.1+26.2.jar";
+            "hash" = "sha512-/OsWnESWhcdoljNH63O2Tjf1BxMiY2wFzBsFK2fAAzDBy9L1ORRJ9MJNIZoDayzKTnKxbjAhLo1KIybSBTQqRA==";
+        };
+        _tkCBxHGW = {
+            "id" = "tkCBxHGW";
+            "file" = "transmog-fabric-1.8.1+26.2.jar";
+            "hash" = "sha512-SsicpnWbYkqZqUt205SUwX45A1qLVh5+0h/qTvsq81J64mgQ9l6RA5uahffXTdDThGOp4/h9ZyjQqcJov4rpSQ==";
+        };
     in {
         "yKCc365L" = _yKCc365L;
         "aF78R4o9" = _aF78R4o9;
@@ -752,6 +767,9 @@ let
         "hk6j1RQq" = _hk6j1RQq;
         "CAv4K5id" = _CAv4K5id;
         "Nu7rT2G2" = _Nu7rT2G2;
+        "fbOlDHaz" = _fbOlDHaz;
+        "JPRhSVqy" = _JPRhSVqy;
+        "tkCBxHGW" = _tkCBxHGW;
         "fabric-1.19.4" = _9d0w47Mi;
         "fabric-1.19.2" = _aKA5yNds;
         "fabric-1.18.2" = _XUMb4DWn;
@@ -771,7 +789,7 @@ let
         "fabric-26.1" = _y7lIJ1rw;
         "fabric-26.1.1" = _y7lIJ1rw;
         "fabric-26.1.2" = _y7lIJ1rw;
-        "fabric-26.2" = _Nu7rT2G2;
+        "fabric-26.2" = _tkCBxHGW;
         "forge-1.19.4" = _5Tvw1FI7;
         "forge-1.19.2" = _kEVK2G9s;
         "forge-1.18.2" = _zzpyOwF7;
@@ -791,7 +809,7 @@ let
         "forge-26.1" = _kLrnIrmr;
         "forge-26.1.1" = _kLrnIrmr;
         "forge-26.1.2" = _kLrnIrmr;
-        "forge-26.2" = _hk6j1RQq;
+        "forge-26.2" = _fbOlDHaz;
         "quilt-1.19.4" = _eUXCBRmg;
         "quilt-1.19.2" = _wOYVrUXx;
         "quilt-1.18.2" = _vKMrsPwr;
@@ -811,7 +829,7 @@ let
         "neoforge-26.1" = _XARWL6p2;
         "neoforge-26.1.1" = _XARWL6p2;
         "neoforge-26.1.2" = _XARWL6p2;
-        "neoforge-26.2" = _CAv4K5id;
+        "neoforge-26.2" = _JPRhSVqy;
         "pkg-fabric-1.0.0+1.19.4" = _yKCc365L;
         "pkg-forge-1.0.0+1.19.4" = _aF78R4o9;
         "pkg-quilt-1.0.0+1.19.4" = _ifgFMpIb;
@@ -931,7 +949,10 @@ let
         "pkg-forge-1.8.0+26.2" = _hk6j1RQq;
         "pkg-neoforge-1.8.0+26.2" = _CAv4K5id;
         "pkg-fabric-1.8.0+26.2" = _Nu7rT2G2;
-        "default" = _Nu7rT2G2;
+        "pkg-forge-1.8.1+26.2" = _fbOlDHaz;
+        "pkg-neoforge-1.8.1+26.2" = _JPRhSVqy;
+        "pkg-fabric-1.8.1+26.2" = _tkCBxHGW;
+        "default" = _tkCBxHGW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "transmog";

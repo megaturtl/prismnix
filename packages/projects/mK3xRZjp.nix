@@ -11,9 +11,15 @@ let
             "file" = "Katters Structures Resource Pack v2.5.zip";
             "hash" = "sha512-Ih5pL+jRSjb3XAgr4hjHEt0RbCTij1S4BmqMtVnC9KhvL7tlqb2rBGtdJImO2qC2UWj9hSbKKNl+A6L9PCQd9g==";
         };
+        _yDcxq3ep = {
+            "id" = "yDcxq3ep";
+            "file" = "Katters Structures Resource Pack v2.6.zip";
+            "hash" = "sha512-HU1aHwD/vi9HMAel6eqRU1Ykin5a+vGiFtcw4K9UtfV2bxpkrllySKFHavZaEAgWvxq4OemNFlMNpb4KBJyllg==";
+        };
     in {
         "p2TQyRG4" = _p2TQyRG4;
         "azsDcZXD" = _azsDcZXD;
+        "yDcxq3ep" = _yDcxq3ep;
         "minecraft-1.21.4" = _p2TQyRG4;
         "minecraft-1.21.5" = _p2TQyRG4;
         "minecraft-1.21.6" = _p2TQyRG4;
@@ -26,9 +32,11 @@ let
         "minecraft-26.1.1" = _p2TQyRG4;
         "minecraft-26.1.2" = _p2TQyRG4;
         "minecraft-26.2" = _azsDcZXD;
+        "minecraft-26.3" = _yDcxq3ep;
         "pkg-1.0" = _p2TQyRG4;
         "pkg-2.5" = _azsDcZXD;
-        "default" = _azsDcZXD;
+        "pkg-2.6" = _yDcxq3ep;
+        "default" = _yDcxq3ep;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "katters-structures-resource-pack";

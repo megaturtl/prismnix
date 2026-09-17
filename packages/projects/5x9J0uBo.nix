@@ -56,6 +56,11 @@ let
             "file" = "26.2etsansbetterhotbar.zip";
             "hash" = "sha512-tCZ11BRlM/wMuBclvX5XjWn4R+WZjsdPEZMlSyijIiukKcbuqVKM/DQ3r6lcYxzSem6TUyUxRdRuKXUax7PpmQ==";
         };
+        _FGdVh2gX = {
+            "id" = "FGdVh2gX";
+            "file" = "26.3etsansbetterhotbar.zip";
+            "hash" = "sha512-1ktnIiextFL/W4zck70TSNN9sIM5Gq6cW9p6SWboyeI/5aexpl8vaOhkVwh5+OZCXesJ0gYq90u8si4E40Eaaw==";
+        };
     in {
         "Yr5KNbBH" = _Yr5KNbBH;
         "LTcIbo2L" = _LTcIbo2L;
@@ -68,22 +73,24 @@ let
         "dwMeKB9T" = _dwMeKB9T;
         "AeG9i7md" = _AeG9i7md;
         "w4zmg0jb" = _w4zmg0jb;
+        "FGdVh2gX" = _FGdVh2gX;
         "minecraft-1.21" = _w4zmg0jb;
-        "minecraft-1.21.1" = _w4zmg0jb;
+        "minecraft-1.21.1" = _FGdVh2gX;
         "minecraft-1.21.4" = _w4zmg0jb;
         "minecraft-1.21.5" = _w4zmg0jb;
         "minecraft-1.21.6" = _w4zmg0jb;
         "minecraft-1.21.7" = _w4zmg0jb;
-        "minecraft-1.21.9" = _w4zmg0jb;
-        "minecraft-1.21.11" = _w4zmg0jb;
+        "minecraft-1.21.9" = _FGdVh2gX;
+        "minecraft-1.21.11" = _FGdVh2gX;
         "minecraft-1.21.2" = _w4zmg0jb;
         "minecraft-1.21.3" = _w4zmg0jb;
         "minecraft-1.21.8" = _w4zmg0jb;
-        "minecraft-1.21.10" = _w4zmg0jb;
-        "minecraft-26.1" = _w4zmg0jb;
-        "minecraft-26.1.1" = _w4zmg0jb;
-        "minecraft-26.1.2" = _w4zmg0jb;
-        "minecraft-26.2" = _w4zmg0jb;
+        "minecraft-1.21.10" = _FGdVh2gX;
+        "minecraft-26.1" = _FGdVh2gX;
+        "minecraft-26.1.1" = _FGdVh2gX;
+        "minecraft-26.1.2" = _FGdVh2gX;
+        "minecraft-26.2" = _FGdVh2gX;
+        "minecraft-26.3" = _FGdVh2gX;
         "pkg-V1.13" = _Yr5KNbBH;
         "pkg-V1.14" = _LTcIbo2L;
         "pkg-V1.15" = _QopK69nI;
@@ -95,7 +102,8 @@ let
         "pkg-V1.21" = _dwMeKB9T;
         "pkg-26.1" = _AeG9i7md;
         "pkg-26.2" = _w4zmg0jb;
-        "default" = _w4zmg0jb;
+        "pkg-26.3" = _FGdVh2gX;
+        "default" = _FGdVh2gX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "etsans-better-hotbar";

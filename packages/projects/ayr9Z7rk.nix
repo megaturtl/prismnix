@@ -71,6 +71,16 @@ let
             "file" = "ominous-mansions-1.6.jar";
             "hash" = "sha512-FLuCjhjThMBP1cnkXp4IXAOY4CyjpKAxDQVpkhrJydbW5uQvNwiMQkHhx+B0rL9tUdYbwpAeTPdlKjVZzVCiIA==";
         };
+        _6fD7I21N = {
+            "id" = "6fD7I21N";
+            "file" = "ominous-mansions-v1.7-by-kanokarob.zip";
+            "hash" = "sha512-rERuifGVhEzb8cYpfsOBekR88duDmVg8E3e6zKFgrdwRoa9oGQBnEnLHMC3VICbc2Zpyr3FZeOAXFqKwm5B7fw==";
+        };
+        _6kyTwJnk = {
+            "id" = "6kyTwJnk";
+            "file" = "ominous-mansions-1.7.jar";
+            "hash" = "sha512-7n6Mb23zbA0vLsO5crdpt/dddl1p0DtmOF0jZTwj/cLPOuxzJy7HzIonoFQeIvpkOBY2QKZ7s1Jp0/f/Km9dfQ==";
+        };
     in {
         "od71IS9h" = _od71IS9h;
         "dToe7h6x" = _dToe7h6x;
@@ -86,6 +96,8 @@ let
         "gzDGSg4a" = _gzDGSg4a;
         "yAX2BuQ8" = _yAX2BuQ8;
         "UvvSKYnq" = _UvvSKYnq;
+        "6fD7I21N" = _6fD7I21N;
+        "6kyTwJnk" = _6kyTwJnk;
         "datapack-1.21.6" = _izKtbxZP;
         "datapack-1.21.7" = _ix4c6k0n;
         "datapack-1.21.8" = _ix4c6k0n;
@@ -95,6 +107,7 @@ let
         "datapack-26.1" = _ix4c6k0n;
         "datapack-26.1.1" = _ix4c6k0n;
         "datapack-26.2" = _yAX2BuQ8;
+        "datapack-26.3" = _6fD7I21N;
         "fabric-1.21.6" = _hBnM2utb;
         "fabric-1.21.7" = _gzDGSg4a;
         "fabric-1.21.8" = _gzDGSg4a;
@@ -104,6 +117,7 @@ let
         "fabric-26.1" = _gzDGSg4a;
         "fabric-26.1.1" = _gzDGSg4a;
         "fabric-26.2" = _UvvSKYnq;
+        "fabric-26.3" = _6kyTwJnk;
         "forge-1.21.6" = _hBnM2utb;
         "forge-1.21.7" = _gzDGSg4a;
         "forge-1.21.8" = _gzDGSg4a;
@@ -113,6 +127,7 @@ let
         "forge-26.1" = _gzDGSg4a;
         "forge-26.1.1" = _gzDGSg4a;
         "forge-26.2" = _UvvSKYnq;
+        "forge-26.3" = _6kyTwJnk;
         "neoforge-1.21.6" = _hBnM2utb;
         "neoforge-1.21.7" = _gzDGSg4a;
         "neoforge-1.21.8" = _gzDGSg4a;
@@ -122,6 +137,7 @@ let
         "neoforge-26.1" = _gzDGSg4a;
         "neoforge-26.1.1" = _gzDGSg4a;
         "neoforge-26.2" = _UvvSKYnq;
+        "neoforge-26.3" = _6kyTwJnk;
         "quilt-1.21.6" = _hBnM2utb;
         "quilt-1.21.7" = _gzDGSg4a;
         "quilt-1.21.8" = _gzDGSg4a;
@@ -131,6 +147,7 @@ let
         "quilt-26.1" = _gzDGSg4a;
         "quilt-26.1.1" = _gzDGSg4a;
         "quilt-26.2" = _UvvSKYnq;
+        "quilt-26.3" = _6kyTwJnk;
         "pkg-1.1" = _od71IS9h;
         "pkg-1.1+mod" = _dToe7h6x;
         "pkg-1.1.1" = _GOxGdJUR;
@@ -145,7 +162,9 @@ let
         "pkg-1.5+mod" = _gzDGSg4a;
         "pkg-1.6" = _yAX2BuQ8;
         "pkg-1.6+mod" = _UvvSKYnq;
-        "default" = _UvvSKYnq;
+        "pkg-1.7" = _6fD7I21N;
+        "pkg-1.7+mod" = _6kyTwJnk;
+        "default" = _6kyTwJnk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ominous-mansions";

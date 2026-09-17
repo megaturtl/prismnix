@@ -46,6 +46,11 @@ let
             "file" = "survival-spectator-26.2-1.1.4.jar";
             "hash" = "sha512-Wi7UZL65DKBWz4j02DCYxZI8dTgdQEeRgToohCL0BUqAX43vuD1+wlYkLq7l9VcaReDnfzZ9cdnvTw7GEAoMtg==";
         };
+        _zgvfNKJk = {
+            "id" = "zgvfNKJk";
+            "file" = "survival-spectator-1.1.5-26.3.jar";
+            "hash" = "sha512-U+O4QgC7sj9fWGfQHCEpycMHRnC3MOwv2scYR3JAj+w7Xb9p5HUWOaKJrOTCl5SXK+WpDoWcnA5zN7kLnCRigw==";
+        };
     in {
         "17EtPK9G" = _17EtPK9G;
         "f5vvLbqi" = _f5vvLbqi;
@@ -56,6 +61,7 @@ let
         "GHOZ0uT9" = _GHOZ0uT9;
         "AkTxb1nv" = _AkTxb1nv;
         "iKbCXMGz" = _iKbCXMGz;
+        "zgvfNKJk" = _zgvfNKJk;
         "fabric-1.21" = _UZQVL5mC;
         "fabric-1.21.5" = _UZQVL5mC;
         "fabric-1.21.6" = _UZQVL5mC;
@@ -71,6 +77,7 @@ let
         "fabric-26.1.1" = _AkTxb1nv;
         "fabric-26.1.2" = _AkTxb1nv;
         "fabric-26.2" = _iKbCXMGz;
+        "fabric-26.3" = _zgvfNKJk;
         "pkg-1.0.0" = _17EtPK9G;
         "pkg-1.0.1" = _f5vvLbqi;
         "pkg-1.0.2" = _QqnDmAdV;
@@ -80,7 +87,8 @@ let
         "pkg-1.1.2" = _GHOZ0uT9;
         "pkg-1.1.3" = _AkTxb1nv;
         "pkg-1.1.4" = _iKbCXMGz;
-        "default" = _iKbCXMGz;
+        "pkg-1.1.5" = _zgvfNKJk;
+        "default" = _zgvfNKJk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "survival-friendly-spectator";

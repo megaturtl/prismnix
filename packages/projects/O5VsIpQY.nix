@@ -101,6 +101,16 @@ let
             "file" = "adventure-platform-fabric-7.1.1.jar";
             "hash" = "sha512-lZsl1dqrjoJBlK7l76Vw7mfZ+3yLAB3PygCTosd8s6X3nw6R5vFRxjzMtOYHL95bXmVmwt1yp+aoDas3ESsErw==";
         };
+        _GJJzMDHS = {
+            "id" = "GJJzMDHS";
+            "file" = "adventure-platform-fabric-7.2.0.jar";
+            "hash" = "sha512-lg94z6PwLPcUYJCayqP6chy+1qL1X/zJyGWrb8OmMmqfiHAL2R7n6pwQXc99k3cKo5FTkEyEfg8NrNAa0oQ1TA==";
+        };
+        _y3tfTyCT = {
+            "id" = "y3tfTyCT";
+            "file" = "adventure-platform-neoforge-7.2.0.jar";
+            "hash" = "sha512-xMb8WmS4vRrUPhW7IwdXKNTubYa7ByYW/fQt4LzipPjytk/83xkFUH6n/d7f50CYRrNvi9kFmPOSbmaRrjuIbQ==";
+        };
     in {
         "eRGzixu2" = _eRGzixu2;
         "WK5uvEGl" = _WK5uvEGl;
@@ -122,6 +132,8 @@ let
         "teN1MXsR" = _teN1MXsR;
         "wKkHy10m" = _wKkHy10m;
         "IACaEVKO" = _IACaEVKO;
+        "GJJzMDHS" = _GJJzMDHS;
+        "y3tfTyCT" = _y3tfTyCT;
         "fabric-1.21.9" = _eRGzixu2;
         "fabric-1.21.10" = _eRGzixu2;
         "fabric-1.21.6" = _9RlnLzxU;
@@ -138,6 +150,7 @@ let
         "fabric-26.1.1" = _Rvd03EvD;
         "fabric-26.1.2" = _Rvd03EvD;
         "fabric-26.2" = _IACaEVKO;
+        "fabric-26.3" = _GJJzMDHS;
         "neoforge-1.21.9" = _WK5uvEGl;
         "neoforge-1.21.10" = _WK5uvEGl;
         "neoforge-1.21.6" = _9YTKxBYS;
@@ -154,6 +167,7 @@ let
         "neoforge-26.1.1" = _MlvIVAQU;
         "neoforge-26.1.2" = _MlvIVAQU;
         "neoforge-26.2" = _wKkHy10m;
+        "neoforge-26.3" = _y3tfTyCT;
         "pkg-6.7.0" = _WK5uvEGl;
         "pkg-6.6.0" = _9RlnLzxU;
         "pkg-6.4.0" = _ZFY6ilb1;
@@ -165,7 +179,8 @@ let
         "pkg-7.0.0" = _YGS8zlsS;
         "pkg-7.1.0" = _teN1MXsR;
         "pkg-7.1.1" = _IACaEVKO;
-        "default" = _IACaEVKO;
+        "pkg-7.2.0" = _y3tfTyCT;
+        "default" = _y3tfTyCT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "adventure-platform-mod";

@@ -111,6 +111,26 @@ let
             "file" = "omnicrossbow-1.1.1+mc26.2.jar";
             "hash" = "sha512-yeiF233JTab3U2rO34bjfFpf0scbaC4xsd9V5RNx/iCpw0W8gMx18qur3G9TFDtiEhXd58+s+qz4UWUuE0Ql5A==";
         };
+        _V8vaowS0 = {
+            "id" = "V8vaowS0";
+            "file" = "omnicrossbow-1.1.2+mc26.3.jar";
+            "hash" = "sha512-KdxYfeKL04Fop/4YG6RuTdPyqKimZsLNRvNNtx4r73mpYPHAgPMEb+dZmL5pfFkyhUcfhvrTUCdO914Sb8svXQ==";
+        };
+        _Z8A31j65 = {
+            "id" = "Z8A31j65";
+            "file" = "omnicrossbow-1.1.2+mc26.2.jar";
+            "hash" = "sha512-8pd40PIBhdXHKeNr5phjw1fH0pzNLvPM6KKSUQ+Hf5BoLWc8e5vAoATh086r4hu9JIN49B1LxXfV4On6yBy+3A==";
+        };
+        _dhnKKWnH = {
+            "id" = "dhnKKWnH";
+            "file" = "omnicrossbow-1.1.2+mc26.1.2.jar";
+            "hash" = "sha512-TSRTatAWOVaqMkz3EQ9s8lfocPhHR5p/O9xAlUFdYQwXr/298cBRrP17j92FfIVi/Bf7wHs4zebv15QAOnufQw==";
+        };
+        _vznCPWDZ = {
+            "id" = "vznCPWDZ";
+            "file" = "omnicrossbow-1.1.1+mc26.2.jar";
+            "hash" = "sha512-zXYyt/j5282oiHTtdQFSXUR941m9H7dbUUmteV5k3wKNB9etw2YvpWsTVfzT7ftAu7YubuK/2qiAyN/nwQZkdg==";
+        };
     in {
         "k1AGeoKO" = _k1AGeoKO;
         "hbovbMPv" = _hbovbMPv;
@@ -134,15 +154,22 @@ let
         "eKxMb4zs" = _eKxMb4zs;
         "YieF3M0h" = _YieF3M0h;
         "1tRtCfPt" = _1tRtCfPt;
+        "V8vaowS0" = _V8vaowS0;
+        "Z8A31j65" = _Z8A31j65;
+        "dhnKKWnH" = _dhnKKWnH;
+        "vznCPWDZ" = _vznCPWDZ;
         "fabric-1.20.1" = _kXtvdxTS;
         "fabric-1.21" = _eKxMb4zs;
         "fabric-1.21.1" = _eKxMb4zs;
-        "fabric-26.1" = _YieF3M0h;
-        "fabric-26.1.1" = _YieF3M0h;
-        "fabric-26.1.2" = _YieF3M0h;
+        "fabric-26.1" = _dhnKKWnH;
+        "fabric-26.1.1" = _dhnKKWnH;
+        "fabric-26.1.2" = _dhnKKWnH;
         "fabric-26.2-rc-1" = _1tRtCfPt;
         "fabric-26.2-rc-2" = _1tRtCfPt;
-        "fabric-26.2" = _1tRtCfPt;
+        "fabric-26.2" = _Z8A31j65;
+        "fabric-26.3-rc-2" = _V8vaowS0;
+        "fabric-26.3-rc-3" = _vznCPWDZ;
+        "fabric-26.3" = _vznCPWDZ;
         "quilt-1.20.1" = _kXtvdxTS;
         "quilt-1.21" = _ploY5Ene;
         "quilt-1.21.1" = _ploY5Ene;
@@ -168,7 +195,11 @@ let
         "pkg-0.5.4+mc1.21.1" = _eKxMb4zs;
         "pkg-1.1.0+mc26.1.2" = _YieF3M0h;
         "pkg-1.1.1+mc26.2" = _1tRtCfPt;
-        "default" = _1tRtCfPt;
+        "pkg-1.1.2+mc26.3" = _V8vaowS0;
+        "pkg-1.1.2+mc26.2" = _Z8A31j65;
+        "pkg-1.1.2+mc26.1.2" = _dhnKKWnH;
+        "pkg-1.1.3+mc26.3" = _vznCPWDZ;
+        "default" = _vznCPWDZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "omnicrossbow";

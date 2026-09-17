@@ -51,6 +51,11 @@ let
             "file" = "Better Crosshair Enhanced.zip";
             "hash" = "sha512-vdhfxxIrpozZS8izsGFdqlqNbpUp4BMbOjxaopKIaEyZbcTtaC0Yl9cCiptVY4g2rP1mjGh50bDWGIMgyCjCwA==";
         };
+        _6pb9FMBv = {
+            "id" = "6pb9FMBv";
+            "file" = "Better Crosshair Enhanced.zip";
+            "hash" = "sha512-fUq6X/IlhH75cxOkRnoOWTpF5R7h1vVHcYx+tptpIWXTfPQK18iCuA8fssEjniP6GcZPZZr9uduEFgmUVQ5ooA==";
+        };
     in {
         "aLMEyz2q" = _aLMEyz2q;
         "KGstZKCW" = _KGstZKCW;
@@ -62,6 +67,7 @@ let
         "2irYjmsF" = _2irYjmsF;
         "1uZwtLje" = _1uZwtLje;
         "einE3e8Z" = _einE3e8Z;
+        "6pb9FMBv" = _6pb9FMBv;
         "minecraft-1.21.4" = _aLMEyz2q;
         "minecraft-1.21.5" = _KGstZKCW;
         "minecraft-1.21.6" = _5PZePNR0;
@@ -74,6 +80,7 @@ let
         "minecraft-26.1.1" = _1uZwtLje;
         "minecraft-26.1.2" = _1uZwtLje;
         "minecraft-26.2" = _einE3e8Z;
+        "minecraft-26.3" = _6pb9FMBv;
         "pkg-1.0.0" = _aLMEyz2q;
         "pkg-2.0.0" = _KGstZKCW;
         "pkg-3.0.0" = _5PZePNR0;
@@ -84,7 +91,8 @@ let
         "pkg-8.0.0" = _2irYjmsF;
         "pkg-9.0.0" = _1uZwtLje;
         "pkg-10.0.0" = _einE3e8Z;
-        "default" = _einE3e8Z;
+        "pkg-11.0.0" = _6pb9FMBv;
+        "default" = _6pb9FMBv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "relaxpack-better-crosshair";

@@ -121,6 +121,11 @@ let
             "file" = "Limbo-2026.0.2-ALPHA-26.2.jar";
             "hash" = "sha512-sr5x5+Mi/UduuOh6E2NgKWUgdqvqAhkO2y7LyzL/1chwnYBWmu/f6BdN+bzbhy33HyajGQYrvFXy5mIy1kb8cw==";
         };
+        _t4FmKS67 = {
+            "id" = "t4FmKS67";
+            "file" = "Limbo-2026.0.3-ALPHA-26.3.jar";
+            "hash" = "sha512-u7o52K5p0zZSoR0OukvXCCqE+h6i8hHtgi8kjuoXyvLpHUZkkNMJyUFPp5s2ZrfACY1Q8RmrFPMF+w8iX1dk3w==";
+        };
     in {
         "lccJKW8N" = _lccJKW8N;
         "CyeeodFn" = _CyeeodFn;
@@ -146,6 +151,7 @@ let
         "MAURM1cR" = _MAURM1cR;
         "ax9WHV6q" = _ax9WHV6q;
         "W9yOc4GR" = _W9yOc4GR;
+        "t4FmKS67" = _t4FmKS67;
         "java-agent-1.17.1" = _lccJKW8N;
         "java-agent-1.18" = _CyeeodFn;
         "java-agent-1.18.1" = _CyeeodFn;
@@ -178,6 +184,7 @@ let
         "java-agent-26.1.1" = _ax9WHV6q;
         "java-agent-26.1.2" = _ax9WHV6q;
         "java-agent-26.2" = _W9yOc4GR;
+        "java-agent-26.3" = _t4FmKS67;
         "pkg-0.6.4-ALPHA" = _lccJKW8N;
         "pkg-0.6.11-ALPHA" = _CyeeodFn;
         "pkg-0.6.15-ALPHA" = _PnlxPsWA;
@@ -199,7 +206,8 @@ let
         "pkg-0.7.18-ALPHA" = _caXAgh06;
         "pkg-2026.0.1-ALPHA" = _ax9WHV6q;
         "pkg-2026.0.2-ALPHA" = _W9yOc4GR;
-        "default" = _W9yOc4GR;
+        "pkg-2026.0.3-ALPHA" = _t4FmKS67;
+        "default" = _t4FmKS67;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "limbo-server";

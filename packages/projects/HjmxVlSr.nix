@@ -166,6 +166,16 @@ let
             "file" = "YungsBetterMineshafts-26.1.2-NeoForge-6.1.0.jar";
             "hash" = "sha512-ury6v7BB8ozWRlDfxXlnH8fTFLIl+NupZywhyEIHNf2Zyf/TVNmKZlLrw+J9ctaDDyOYW4jA75gxFsfrMR0u2Q==";
         };
+        _PCdPUNQs = {
+            "id" = "PCdPUNQs";
+            "file" = "YungsBetterMineshafts-26.1.2-Fabric-6.1.1.jar";
+            "hash" = "sha512-/5EecQ+2DMU0qkybNqleOEeXPZxN5dipOTwsJ39nf2nIQjpZMga4wjR8jiQ6l8rtizQFrAemBqFJO0+K3MGQfw==";
+        };
+        _MXPxqNif = {
+            "id" = "MXPxqNif";
+            "file" = "YungsBetterMineshafts-26.1.2-NeoForge-6.1.1.jar";
+            "hash" = "sha512-Lplyts6oGP5YGMZNqA5co89k8mfvHdKchp5Nf/B0hH+j6FTORFshORaMgN01IUE1uu9vDTgs0XYEXmsTeezMvQ==";
+        };
     in {
         "iUlejQ4i" = _iUlejQ4i;
         "g2waVAZy" = _g2waVAZy;
@@ -200,6 +210,8 @@ let
         "dBjAqiH9" = _dBjAqiH9;
         "xzDVFsx7" = _xzDVFsx7;
         "8MMBHdSy" = _8MMBHdSy;
+        "PCdPUNQs" = _PCdPUNQs;
+        "MXPxqNif" = _MXPxqNif;
         "forge-1.19.2" = _K4G8SGWy;
         "forge-1.19.3" = _5abzcYs5;
         "forge-1.19.4" = _BcX4CMtc;
@@ -217,14 +229,14 @@ let
         "fabric-1.21.1" = _4ybDuGhA;
         "fabric-1.21" = _4ybDuGhA;
         "fabric-1.21.4" = _ezSBs4dx;
-        "fabric-26.1.1" = _xzDVFsx7;
-        "fabric-26.1.2" = _xzDVFsx7;
+        "fabric-26.1.1" = _PCdPUNQs;
+        "fabric-26.1.2" = _PCdPUNQs;
         "neoforge-1.20.4" = _buSrqoIV;
         "neoforge-1.21.1" = _Go3nbneL;
         "neoforge-1.21" = _Go3nbneL;
         "neoforge-1.21.4" = _dBjAqiH9;
-        "neoforge-26.1.1" = _8MMBHdSy;
-        "neoforge-26.1.2" = _8MMBHdSy;
+        "neoforge-26.1.1" = _MXPxqNif;
+        "neoforge-26.1.2" = _MXPxqNif;
         "pkg-1.19.2-Forge-3.2.0" = _iUlejQ4i;
         "pkg-1.19.2-Fabric-3.2.0" = _g2waVAZy;
         "pkg-1.19.3-Forge-3.3.0" = _5abzcYs5;
@@ -258,7 +270,9 @@ let
         "pkg-1.21.4-NeoForge-5.4.0" = _dBjAqiH9;
         "pkg-26.1.2-Fabric-6.1.0" = _xzDVFsx7;
         "pkg-26.1.2-NeoForge-6.1.0" = _8MMBHdSy;
-        "default" = _8MMBHdSy;
+        "pkg-26.1.2-Fabric-6.1.1" = _PCdPUNQs;
+        "pkg-26.1.2-NeoForge-6.1.1" = _MXPxqNif;
+        "default" = _MXPxqNif;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yungs-better-mineshafts";

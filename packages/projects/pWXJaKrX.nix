@@ -926,6 +926,51 @@ let
             "file" = "vanillahud-3.4.9+26.2.jar";
             "hash" = "sha512-MMo1QQgHbx307LyiCTwauhXuqXPtfvodS1/DoO9m5MePXxNKhocQRjX327MpiNADW94cKs8JF9O61vP3dn9fcw==";
         };
+        _hbWv0Zp2 = {
+            "id" = "hbWv0Zp2";
+            "file" = "vanillahud-3.5.0+1.21.1.jar";
+            "hash" = "sha512-bydjVbZrD9DIl9h08XB1PskkNrtGKkagw250LKwGsCCAZ9s4vG1l07oTj0LA9I9BH3QVlm8FyLqqZ/9Aut20pw==";
+        };
+        _tU6T1mwV = {
+            "id" = "tU6T1mwV";
+            "file" = "vanillahud-3.5.0+1.21.4.jar";
+            "hash" = "sha512-fYwNoyYPFYc6kgOJkwsC3yYRsarQiI1UJow4tpyW/+InaFj3QvP5uxfg5uq3rt2+6s8bD61OknJKPs/VK1F18A==";
+        };
+        _Jzl9PG3U = {
+            "id" = "Jzl9PG3U";
+            "file" = "vanillahud-3.5.0+1.21.5.jar";
+            "hash" = "sha512-0KxDuA+CnKqpB0ZnJ0sRD5s0S70dEd9tDz3uCPYDmWWR6LzlxDsnQS/sAF+xFBhAZjL4o4IlPGJ7HhLgv42J7w==";
+        };
+        _RqCvzLFB = {
+            "id" = "RqCvzLFB";
+            "file" = "vanillahud-3.5.0+1.21.8.jar";
+            "hash" = "sha512-MRhfMIG/wh/VrszeA2V8d9H7Vcdu2G+/+mWoEIlzyKLyERb49pG6Qvvrhm6VghFzpyElbYjR3LbfYEDbKaQ2Gw==";
+        };
+        _GeIELpGe = {
+            "id" = "GeIELpGe";
+            "file" = "vanillahud-3.5.0+1.21.10.jar";
+            "hash" = "sha512-PNwr8Nt9tKjXB0rtjZ6NAxbqWyrAGV23DDjmm+qC6YaODoxOJ0KtE/QbSIEmlXYUxFUrR4lteyuJwsgJtxMvaA==";
+        };
+        _5vfogyGm = {
+            "id" = "5vfogyGm";
+            "file" = "vanillahud-3.5.0+1.21.11.jar";
+            "hash" = "sha512-ZsbchdJck00sI6XkdTnvRZcBHrKWm0RN8cpKmB6d15QSwhCbJedk1WiyXmwuO+VI+cvTT1EDvU3Nrop5uxVQfQ==";
+        };
+        _BAin2DiX = {
+            "id" = "BAin2DiX";
+            "file" = "vanillahud-3.5.0+26.1.jar";
+            "hash" = "sha512-j1bp2//uemQSkUVJZO64AgCjbVvqlfzpwoj3DkmEK7iorTS/4qqAlcivJjKcYHgBqG0zuOspUvqfbqY2fk0v3Q==";
+        };
+        _GXDY6yps = {
+            "id" = "GXDY6yps";
+            "file" = "vanillahud-3.5.0+26.2.jar";
+            "hash" = "sha512-B3rUN9Eh953owZvQohcO/65gFqjCdPcH/3cr3HVxIA6BCgKiEGKArMnArOBcydPkZ3BpALpO02NKHhl58eSZPw==";
+        };
+        _86X1jKuV = {
+            "id" = "86X1jKuV";
+            "file" = "vanillahud-3.5.0+26.3.jar";
+            "hash" = "sha512-mps5K+fS3W6TtwPjsEW4vjcATplS8tcHZQnjwTmjjPrHpeLWJCRKRyVFa848Bx0JVhh/E8V7owGCheUj72VE3w==";
+        };
     in {
         "wlW58CxG" = _wlW58CxG;
         "WhtJvMer" = _WhtJvMer;
@@ -1112,17 +1157,27 @@ let
         "a39L7oIU" = _a39L7oIU;
         "zBFA22q3" = _zBFA22q3;
         "VSCnTDMx" = _VSCnTDMx;
+        "hbWv0Zp2" = _hbWv0Zp2;
+        "tU6T1mwV" = _tU6T1mwV;
+        "Jzl9PG3U" = _Jzl9PG3U;
+        "RqCvzLFB" = _RqCvzLFB;
+        "GeIELpGe" = _GeIELpGe;
+        "5vfogyGm" = _5vfogyGm;
+        "BAin2DiX" = _BAin2DiX;
+        "GXDY6yps" = _GXDY6yps;
+        "86X1jKuV" = _86X1jKuV;
         "forge-1.8.9" = _hvJoY3aU;
-        "fabric-1.21.1" = _sPUNSADS;
-        "fabric-1.21.4" = _4vtAMfIX;
-        "fabric-1.21.5" = _EdPSuOZ0;
-        "fabric-1.21.8" = _8sDkSn5L;
-        "fabric-1.21.10" = _1Es9AtPi;
-        "fabric-1.21.11" = _a39L7oIU;
-        "fabric-26.1" = _zBFA22q3;
-        "fabric-26.1.1" = _zBFA22q3;
-        "fabric-26.1.2" = _zBFA22q3;
-        "fabric-26.2" = _VSCnTDMx;
+        "fabric-1.21.1" = _hbWv0Zp2;
+        "fabric-1.21.4" = _tU6T1mwV;
+        "fabric-1.21.5" = _Jzl9PG3U;
+        "fabric-1.21.8" = _RqCvzLFB;
+        "fabric-1.21.10" = _GeIELpGe;
+        "fabric-1.21.11" = _5vfogyGm;
+        "fabric-26.1" = _BAin2DiX;
+        "fabric-26.1.1" = _BAin2DiX;
+        "fabric-26.1.2" = _BAin2DiX;
+        "fabric-26.2" = _GXDY6yps;
+        "fabric-26.3" = _86X1jKuV;
         "pkg-v2.0.0" = _wlW58CxG;
         "pkg-v2.0.1" = _WhtJvMer;
         "pkg-v2.1.0" = _S7WcxHtB;
@@ -1272,7 +1327,8 @@ let
         "pkg-v3.4.7" = _vP7RHWKc;
         "pkg-v3.4.8" = _DJLLg5KN;
         "pkg-v3.4.9" = _VSCnTDMx;
-        "default" = _VSCnTDMx;
+        "pkg-v3.5.0" = _86X1jKuV;
+        "default" = _86X1jKuV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanillahud";

@@ -286,6 +286,11 @@ let
             "file" = "recipesofthelost-5.0.1-fabric.jar";
             "hash" = "sha512-KuCYMTtFZ3ibF5NhWR3nMa+MaGe66aoPehyrIUTXG7C1+wQFOkYdlJeIvaBlqsYKB8v6Bz6zdG4AUKg0UFnl1g==";
         };
+        _Wr9vdny0 = {
+            "id" = "Wr9vdny0";
+            "file" = "recipesofthelost-5.1-1.21.1-neoforge.jar";
+            "hash" = "sha512-GXiB444yhT5rnxnErwMRzKqYbUjD360wnqBhjjKp1tHeiVWTD13k0KLlMNFQqfg7lyYOp0tNGnY0mWSkc/kxng==";
+        };
     in {
         "IcxvB4Sv" = _IcxvB4Sv;
         "Avjp7z4E" = _Avjp7z4E;
@@ -344,6 +349,7 @@ let
         "geLPCksG" = _geLPCksG;
         "d7rC82tC" = _d7rC82tC;
         "gabESg31" = _gabESg31;
+        "Wr9vdny0" = _Wr9vdny0;
         "forge-1.19.2" = _k86H1zfV;
         "forge-1.18.2" = _r3Mbh6wu;
         "forge-1.19.3" = _PaUKMS6g;
@@ -360,7 +366,7 @@ let
         "neoforge-1.21" = _wCHFJn3R;
         "neoforge-1.21.3" = _1gTyW8md;
         "neoforge-1.21.4" = _bWrCrPkW;
-        "neoforge-1.21.1" = _d7rC82tC;
+        "neoforge-1.21.1" = _Wr9vdny0;
         "pkg-2.2" = _IcxvB4Sv;
         "pkg-2.3" = _6auY3eba;
         "pkg-3.0" = _dDWpj1K6;
@@ -386,7 +392,8 @@ let
         "pkg-4.16" = _bWrCrPkW;
         "pkg-5.0" = _geLPCksG;
         "pkg-5.0.1" = _gabESg31;
-        "default" = _gabESg31;
+        "pkg-5.1" = _Wr9vdny0;
+        "default" = _Wr9vdny0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "recipes-of-the-lost";

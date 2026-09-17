@@ -66,6 +66,16 @@ let
             "file" = "ywzj_vehicle-1.21.1-0.5.9.jar";
             "hash" = "sha512-ocNwD0tM9cdAz1KRgNzXGqyav0tWtp2oNf3NB6lLnb6DeEzR2Xr/jIzRsntdBwkTyLKC3CRI0tArPYB4TA6PrA==";
         };
+        _rLOyAYo0 = {
+            "id" = "rLOyAYo0";
+            "file" = "ywzj_vehicle-1.20.1-0.5.10.jar";
+            "hash" = "sha512-MFwyvZfSWVFhvAr7nKhWYWQAMdkYFY/YCR3bcss7nWqIhoCxtounHm1ZmNGr1XlCSpDi3C9suoVo6Bq2Z//VDQ==";
+        };
+        _PESqiw2y = {
+            "id" = "PESqiw2y";
+            "file" = "ywzj_vehicle-1.21.1-0.5.10.jar";
+            "hash" = "sha512-YQM1zZ1Oci6NDNWrcVcpDVGQEef+mGx4rhhW+aUqPeQiuGmbl0k+3XYtO5foWUSw3IgYFV5tsotbH050wXh5YQ==";
+        };
     in {
         "UqkSQz4X" = _UqkSQz4X;
         "gxdSZcZF" = _gxdSZcZF;
@@ -80,8 +90,10 @@ let
         "KQtWaSrF" = _KQtWaSrF;
         "H1gA5em3" = _H1gA5em3;
         "twzkTrBX" = _twzkTrBX;
-        "forge-1.20.1" = _H1gA5em3;
-        "neoforge-1.21.1" = _twzkTrBX;
+        "rLOyAYo0" = _rLOyAYo0;
+        "PESqiw2y" = _PESqiw2y;
+        "forge-1.20.1" = _rLOyAYo0;
+        "neoforge-1.21.1" = _PESqiw2y;
         "pkg-0.5.3" = _UqkSQz4X;
         "pkg-0.5.4" = _cPq0b2xJ;
         "pkg-0.5.4.2" = _DuuzXggw;
@@ -89,7 +101,8 @@ let
         "pkg-0.5.7" = _Um5jiyH8;
         "pkg-0.5.8" = _KQtWaSrF;
         "pkg-0.5.9" = _twzkTrBX;
-        "default" = _twzkTrBX;
+        "pkg-0.5.10" = _PESqiw2y;
+        "default" = _PESqiw2y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "limitless-vehicle";

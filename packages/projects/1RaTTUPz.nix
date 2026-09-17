@@ -641,6 +641,21 @@ let
             "file" = "scarecrowsterritory-1.1.11-neoforge-mc26.2.jar";
             "hash" = "sha512-EEXPc32oSaVWaUKZQGvMzFZo+k6rAyModsbv/Blu10JFcvmubrMkMV8F9wC5hqeu7YqcSThOmTqWkWJUBVwoIw==";
         };
+        _Av25Aoaz = {
+            "id" = "Av25Aoaz";
+            "file" = "scarecrowsterritory-1.1.11a-neoforge-mc26.2.jar";
+            "hash" = "sha512-n0n/5mzU+OCo/NG3+6QcfRez9xLCY/8xsVaCBZ1J4ZZ1AcusvKW1VbdtgDNKzeuNReNvuBQXyPLc7yAzmGDnkw==";
+        };
+        _4BEJMjhm = {
+            "id" = "4BEJMjhm";
+            "file" = "scarecrowsterritory-1.1.11-fabric-mc26.3.jar";
+            "hash" = "sha512-12Of3jyQgHaR+ySw1anLwkaBrjRSiyMigckfxwKeJrYi1HKkPrZX+pLKxd/YpW++jYzhN9sZJAZcIVJZX6eAJA==";
+        };
+        _CwNex6Kv = {
+            "id" = "CwNex6Kv";
+            "file" = "scarecrowsterritory-1.1.11-neoforge-mc26.3.jar";
+            "hash" = "sha512-YNmWnehAyIksP8cpiXQ5E8NXYE4L43a8P7n6O7wGaAYcxbTMDOiq13jaRkYWxh+xekqzPpy/heFDfujF2jMJqw==";
+        };
     in {
         "Z5DNRkzf" = _Z5DNRkzf;
         "IcYFC1FW" = _IcYFC1FW;
@@ -770,6 +785,9 @@ let
         "MGCfsfER" = _MGCfsfER;
         "tlseJQlP" = _tlseJQlP;
         "pkhw41ni" = _pkhw41ni;
+        "Av25Aoaz" = _Av25Aoaz;
+        "4BEJMjhm" = _4BEJMjhm;
+        "CwNex6Kv" = _CwNex6Kv;
         "forge-1.12" = _oBJ1Pf1y;
         "forge-1.12.1" = _oBJ1Pf1y;
         "forge-1.12.2" = _oBJ1Pf1y;
@@ -848,6 +866,7 @@ let
         "fabric-26.1.1" = _kMEDUq9z;
         "fabric-26.1.2" = _kMEDUq9z;
         "fabric-26.2" = _tlseJQlP;
+        "fabric-26.3" = _4BEJMjhm;
         "neoforge-1.12" = _oBJ1Pf1y;
         "neoforge-1.12.1" = _oBJ1Pf1y;
         "neoforge-1.12.2" = _oBJ1Pf1y;
@@ -897,7 +916,8 @@ let
         "neoforge-26.1" = _LgTegER7;
         "neoforge-26.1.1" = _LgTegER7;
         "neoforge-26.1.2" = _LgTegER7;
-        "neoforge-26.2" = _pkhw41ni;
+        "neoforge-26.2" = _Av25Aoaz;
+        "neoforge-26.3" = _CwNex6Kv;
         "quilt-1.18" = _TvetsbI9;
         "quilt-1.18.1" = _TvetsbI9;
         "quilt-1.18.2" = _TvetsbI9;
@@ -926,6 +946,7 @@ let
         "quilt-26.1.1" = _kMEDUq9z;
         "quilt-26.1.2" = _kMEDUq9z;
         "quilt-26.2" = _tlseJQlP;
+        "quilt-26.3" = _4BEJMjhm;
         "pkg-1.1.5a-forge-mc1.12" = _Z5DNRkzf;
         "pkg-1.1.5-forge-mc1.14" = _IcYFC1FW;
         "pkg-1.1.5-forge-mc1.15" = _lKkSypfT;
@@ -1053,7 +1074,10 @@ let
         "pkg-1.1.11-forge-mc26.2" = _MGCfsfER;
         "pkg-1.1.11-fabric-mc26.2" = _tlseJQlP;
         "pkg-1.1.11-neoforge-mc26.2" = _pkhw41ni;
-        "default" = _pkhw41ni;
+        "pkg-1.1.11a-neoforge-mc26.2" = _Av25Aoaz;
+        "pkg-1.1.11-fabric-mc26.3" = _4BEJMjhm;
+        "pkg-1.1.11-neoforge-mc26.3" = _CwNex6Kv;
+        "default" = _CwNex6Kv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scarecrows-territory";

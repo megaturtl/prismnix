@@ -266,6 +266,16 @@ let
             "file" = "powergrid-mc1.21.1-0.6.1.jar";
             "hash" = "sha512-1dcHWxl3tEnxlkaJY83ySRCESCPqDGfXo2mKxHAuOZl4M3s4qvYLbPfrsIn3EsuLLcDCkg5r85JzuuYI3lwTxA==";
         };
+        _CBWW1upo = {
+            "id" = "CBWW1upo";
+            "file" = "powergrid-mc1.20.1-0.6.2.jar";
+            "hash" = "sha512-34qcxAXVmhAEqq/PePzEhNoChx41jxOCJm9VftM2N++hf3MbQugI6eIttJ9/E1w34CaBhIpadaWWgzcy5pqLAA==";
+        };
+        _jCkPHjmP = {
+            "id" = "jCkPHjmP";
+            "file" = "powergrid-mc1.21.1-0.6.2.jar";
+            "hash" = "sha512-YDB+I6J1JtIr91PTh+3vWi8qBjoEpHtp6Yt/cbutMv3xfgX5g4AI5HpZmaYOXnepHwaVIV0KtXaU8ANP3phzyg==";
+        };
     in {
         "exw4HBeB" = _exw4HBeB;
         "StnIY0Zm" = _StnIY0Zm;
@@ -320,9 +330,11 @@ let
         "IhWvpljS" = _IhWvpljS;
         "ziG4IQ4x" = _ziG4IQ4x;
         "ip4gJrgx" = _ip4gJrgx;
-        "forge-1.20.1" = _ziG4IQ4x;
+        "CBWW1upo" = _CBWW1upo;
+        "jCkPHjmP" = _jCkPHjmP;
+        "forge-1.20.1" = _CBWW1upo;
         "fabric-1.20.1" = _5RXy8PFp;
-        "neoforge-1.21.1" = _ip4gJrgx;
+        "neoforge-1.21.1" = _jCkPHjmP;
         "pkg-0.1.0" = _exw4HBeB;
         "pkg-0.1.1" = _StnIY0Zm;
         "pkg-0.1.2" = _9Z2R2JJi;
@@ -359,7 +371,8 @@ let
         "pkg-0.6.0" = _An59qZES;
         "pkg-0.6.0.1" = _IhWvpljS;
         "pkg-0.6.1" = _ip4gJrgx;
-        "default" = _ip4gJrgx;
+        "pkg-0.6.2" = _jCkPHjmP;
+        "default" = _jCkPHjmP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "power-grid";

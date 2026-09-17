@@ -66,6 +66,16 @@ let
             "file" = "create-schematic-compute-1.2.4.1.jar";
             "hash" = "sha512-GrM5gLkIjbU4A84zOGMRVqYaYx7nYaOkGwKyt6ojVpS9qmzMQhoNEoUPk0ZqfpziYJXX4zDJGgS7/AwqBPKt7Q==";
         };
+        _rGAuZkoO = {
+            "id" = "rGAuZkoO";
+            "file" = "create-schematic-compute-1.2.5.jar";
+            "hash" = "sha512-okX2leJmGcW8IVMMDZxZ5dfkqHSuKtGcJyvyrbKq+eRP3jp+yIglfYwMC06X+TZhc2uLQmoawM5+ShrNZjj4ug==";
+        };
+        _QdJhBxdb = {
+            "id" = "QdJhBxdb";
+            "file" = "create-schematic-compute-1.2.5.1.jar";
+            "hash" = "sha512-+c5tSQyRSgNQfzFz+NF25Mlprk6khqemR9H2IBe5Y9M0/xJCCyXuHSM202RXIJEaLGR/gRIJw0jnRbhjVPMEbw==";
+        };
     in {
         "drdeygqO" = _drdeygqO;
         "eEWYkwCg" = _eEWYkwCg;
@@ -80,7 +90,9 @@ let
         "MhyOAyO4" = _MhyOAyO4;
         "46E2jV1F" = _46E2jV1F;
         "bkewNScb" = _bkewNScb;
-        "neoforge-1.21.1" = _bkewNScb;
+        "rGAuZkoO" = _rGAuZkoO;
+        "QdJhBxdb" = _QdJhBxdb;
+        "neoforge-1.21.1" = _QdJhBxdb;
         "pkg-1.0.0" = _drdeygqO;
         "pkg-1.1.0" = _eEWYkwCg;
         "pkg-1.1.1" = _5D4OP41E;
@@ -94,7 +106,9 @@ let
         "pkg-1.2.3" = _MhyOAyO4;
         "pkg-1.2.4" = _46E2jV1F;
         "pkg-1.2.4.1" = _bkewNScb;
-        "default" = _bkewNScb;
+        "pkg-1.2.5" = _rGAuZkoO;
+        "pkg-1.2.5.1" = _QdJhBxdb;
+        "default" = _QdJhBxdb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-schematic-compute";

@@ -116,6 +116,11 @@ let
             "file" = "HIDYKs REALM.zip";
             "hash" = "sha512-54YtZKHE7yOm3REHZk/oI/h51ITRXzCVd7pzA9O9cDKu/zBHC6WhOPpRxqEwjXbpmFP8+7C87ULVDPrHIZ4NjA==";
         };
+        _lK8AkDky = {
+            "id" = "lK8AkDky";
+            "file" = "HIDYKs REALM.zip";
+            "hash" = "sha512-68ZVlo0wK8sdv7kYZ8sG0+Q+AlCJDo7benZf2Z8WhF+8h0MmJ17T/7XWjfIFXIwpez/7UlLd8Xq6D/MIW6F91w==";
+        };
     in {
         "Ewrm7KkR" = _Ewrm7KkR;
         "ZaFm9WJT" = _ZaFm9WJT;
@@ -140,6 +145,7 @@ let
         "aEOaa8sD" = _aEOaa8sD;
         "6LTXrLnR" = _6LTXrLnR;
         "5KXURV9D" = _5KXURV9D;
+        "lK8AkDky" = _lK8AkDky;
         "minecraft-1.16" = _gBsLOYWP;
         "minecraft-1.16.1" = _gBsLOYWP;
         "minecraft-1.16.2" = _gBsLOYWP;
@@ -156,25 +162,29 @@ let
         "minecraft-1.19.2" = _gBsLOYWP;
         "minecraft-22w42a" = _jrd9iJic;
         "minecraft-22w43a" = _jrd9iJic;
-        "minecraft-1.21" = _5KXURV9D;
-        "minecraft-1.21.1" = _5KXURV9D;
-        "minecraft-1.21.2" = _5KXURV9D;
-        "minecraft-1.21.3" = _5KXURV9D;
-        "minecraft-1.21.4" = _5KXURV9D;
-        "minecraft-1.21.5" = _5KXURV9D;
-        "minecraft-1.21.6" = _5KXURV9D;
-        "minecraft-1.21.7" = _5KXURV9D;
-        "minecraft-1.20" = _5KXURV9D;
-        "minecraft-1.20.1" = _5KXURV9D;
-        "minecraft-1.20.2" = _5KXURV9D;
-        "minecraft-1.20.3" = _5KXURV9D;
-        "minecraft-1.20.4" = _5KXURV9D;
-        "minecraft-1.20.5" = _5KXURV9D;
-        "minecraft-1.20.6" = _5KXURV9D;
-        "minecraft-1.21.8" = _5KXURV9D;
-        "minecraft-1.21.9" = _5KXURV9D;
-        "minecraft-1.21.10" = _5KXURV9D;
-        "minecraft-1.21.11" = _5KXURV9D;
+        "minecraft-1.21" = _lK8AkDky;
+        "minecraft-1.21.1" = _lK8AkDky;
+        "minecraft-1.21.2" = _lK8AkDky;
+        "minecraft-1.21.3" = _lK8AkDky;
+        "minecraft-1.21.4" = _lK8AkDky;
+        "minecraft-1.21.5" = _lK8AkDky;
+        "minecraft-1.21.6" = _lK8AkDky;
+        "minecraft-1.21.7" = _lK8AkDky;
+        "minecraft-1.20" = _lK8AkDky;
+        "minecraft-1.20.1" = _lK8AkDky;
+        "minecraft-1.20.2" = _lK8AkDky;
+        "minecraft-1.20.3" = _lK8AkDky;
+        "minecraft-1.20.4" = _lK8AkDky;
+        "minecraft-1.20.5" = _lK8AkDky;
+        "minecraft-1.20.6" = _lK8AkDky;
+        "minecraft-1.21.8" = _lK8AkDky;
+        "minecraft-1.21.9" = _lK8AkDky;
+        "minecraft-1.21.10" = _lK8AkDky;
+        "minecraft-1.21.11" = _lK8AkDky;
+        "minecraft-26.1" = _lK8AkDky;
+        "minecraft-26.1.1" = _lK8AkDky;
+        "minecraft-26.1.2" = _lK8AkDky;
+        "minecraft-26.2" = _lK8AkDky;
         "pkg-2.13" = _Ewrm7KkR;
         "pkg-2.13.1" = _ZaFm9WJT;
         "pkg-2.13.2" = _kedLcc4f;
@@ -196,7 +206,8 @@ let
         "pkg-2.15.2" = _aEOaa8sD;
         "pkg-2.15.3" = _6LTXrLnR;
         "pkg-2.15.3.1" = _5KXURV9D;
-        "default" = _5KXURV9D;
+        "pkg-2.15.4" = _lK8AkDky;
+        "default" = _lK8AkDky;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hidyksrealm";

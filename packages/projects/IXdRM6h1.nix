@@ -106,6 +106,11 @@ let
             "file" = "chat-transform-26.2.0.jar";
             "hash" = "sha512-EfZBdfxdJxwhtxOBHrrzGcRjxXsm7L+BHLUm0gh9MI0SvrPS+fye2sffCJFi42BmWY137GWNDtoW0lgu7PXkmQ==";
         };
+        _ekxWci4K = {
+            "id" = "ekxWci4K";
+            "file" = "chat-transform-26.3.0.jar";
+            "hash" = "sha512-fMwOIoDciIBdpS6IlNK7NaugludG2EWq2mO0qk3W+jNpuu1M7TeQrawczoh+yoQAsorm+DziPUnU7OKYcULbyg==";
+        };
     in {
         "7DIYLtlM" = _7DIYLtlM;
         "QnUzyOYc" = _QnUzyOYc;
@@ -128,6 +133,7 @@ let
         "ar4WBpiG" = _ar4WBpiG;
         "TJjAXe34" = _TJjAXe34;
         "TDchjMNK" = _TDchjMNK;
+        "ekxWci4K" = _ekxWci4K;
         "fabric-1.19.4" = _BVxqwZF6;
         "fabric-1.20" = _6IMSA8mK;
         "fabric-1.20.1" = _6IMSA8mK;
@@ -152,6 +158,7 @@ let
         "fabric-26.1.1" = _TJjAXe34;
         "fabric-26.1.2" = _TJjAXe34;
         "fabric-26.2" = _TDchjMNK;
+        "fabric-26.3" = _ekxWci4K;
         "pkg-1.0.0" = _7DIYLtlM;
         "pkg-1.1.0" = _QnUzyOYc;
         "pkg-1.1.1" = _BVxqwZF6;
@@ -173,7 +180,8 @@ let
         "pkg-1.4.9" = _ar4WBpiG;
         "pkg-26.1.0" = _TJjAXe34;
         "pkg-26.2.0" = _TDchjMNK;
-        "default" = _TDchjMNK;
+        "pkg-26.3.0" = _ekxWci4K;
+        "default" = _ekxWci4K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chat-transform";

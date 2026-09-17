@@ -891,6 +891,16 @@ let
             "file" = "craftingtweaks-neoforge-1.21.1-21.1.11.jar";
             "hash" = "sha512-4YaSEcLgN72q2+m59ZLUzPt6uU17poA2KdZSWUXtwF25c9tr11aPKvRVCuRhaubLuDLhaEQSukOdN/UjtWTZpw==";
         };
+        _EYGdRTcA = {
+            "id" = "EYGdRTcA";
+            "file" = "craftingtweaks-fabric-26.3-26.3.0.1.jar";
+            "hash" = "sha512-6YAWLnpcDoLwIuC2o56iicq05ufEu69yZZfpQvO2UhlIIUdZrI9dNDAr1nln9ry3UnH8A9bsmYHWbxZKkwpnjw==";
+        };
+        _5HTDaRcn = {
+            "id" = "5HTDaRcn";
+            "file" = "craftingtweaks-neoforge-26.3-26.3.0.1.jar";
+            "hash" = "sha512-tjfcsezX7ZzdLGq0RqIo6dzPJ6bPU49iISKzGhkO/3xF+6J8KnC1Lx8SmHEmQ4N3yQ/nLIVcDIRE4JbEC/CD+A==";
+        };
     in {
         "dXRb2LFV" = _dXRb2LFV;
         "lcifm82J" = _lcifm82J;
@@ -1070,6 +1080,8 @@ let
         "mrEoXwnt" = _mrEoXwnt;
         "U9eZqQPe" = _U9eZqQPe;
         "IhkQpEve" = _IhkQpEve;
+        "EYGdRTcA" = _EYGdRTcA;
+        "5HTDaRcn" = _5HTDaRcn;
         "fabric-1.19" = _tKBYt2oi;
         "fabric-1.19.1" = _tKBYt2oi;
         "fabric-1.19.2" = _tKBYt2oi;
@@ -1099,6 +1111,7 @@ let
         "fabric-26.1.1" = _ZlYheOfe;
         "fabric-26.1.2" = _VgmeQYbj;
         "fabric-26.2" = _BLJvsCpH;
+        "fabric-26.3" = _EYGdRTcA;
         "forge-1.19" = _c6e4xjFu;
         "forge-1.19.1" = _c6e4xjFu;
         "forge-1.19.2" = _c6e4xjFu;
@@ -1141,6 +1154,7 @@ let
         "neoforge-26.1.1" = _Lnhol0EM;
         "neoforge-26.1.2" = _1c8Vvgy1;
         "neoforge-26.2" = _OGz3mqlf;
+        "neoforge-26.3" = _5HTDaRcn;
         "pkg-15.0.0+fabric-1.19" = _dXRb2LFV;
         "pkg-15.0.0+forge-1.19" = _lcifm82J;
         "pkg-15.0.1+fabric-1.19" = _XXSRJlH1;
@@ -1319,7 +1333,9 @@ let
         "pkg-21.1.11+forge-1.21.1" = _mrEoXwnt;
         "pkg-21.1.11+fabric-1.21.1" = _U9eZqQPe;
         "pkg-21.1.11+neoforge-1.21.1" = _IhkQpEve;
-        "default" = _IhkQpEve;
+        "pkg-26.3.0.1+fabric-26.3" = _EYGdRTcA;
+        "pkg-26.3.0.1+neoforge-26.3" = _5HTDaRcn;
+        "default" = _5HTDaRcn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crafting-tweaks";

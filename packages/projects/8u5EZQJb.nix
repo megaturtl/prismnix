@@ -26,22 +26,29 @@ let
             "file" = "DynamicTreesTFC-1.21.1-3.0.0-beta5.jar";
             "hash" = "sha512-rkNZhXE+X/FfJZmYqgiSAOrak1uUoY/1CS4zQouaiqeDiLSAq/xaXh2ajGVS500S4kiURqjgm6LqKYQjd1WcOA==";
         };
+        _HArABhLK = {
+            "id" = "HArABhLK";
+            "file" = "DynamicTreesTFC-1.21.1-3.0.1.jar";
+            "hash" = "sha512-dPatRKvrWUiAiQu0v2f4F/HmjTCcjio0M+5cqsuGI/kzyksMNpxVnBms+1s+ClNBp87Mgj3cXAoxdYKRpvVVPQ==";
+        };
     in {
         "wP1VanLe" = _wP1VanLe;
         "yoPVH59T" = _yoPVH59T;
         "AwDbcgnI" = _AwDbcgnI;
         "w4NtkPUN" = _w4NtkPUN;
         "iF7HMtId" = _iF7HMtId;
+        "HArABhLK" = _HArABhLK;
         "forge-1.20.1" = _w4NtkPUN;
         "forge-1.18.2" = _yoPVH59T;
         "forge-1.12.2" = _AwDbcgnI;
-        "neoforge-1.21.1" = _iF7HMtId;
+        "neoforge-1.21.1" = _HArABhLK;
         "pkg-2.0.1" = _wP1VanLe;
         "pkg-1.18.2-1.0.1" = _yoPVH59T;
         "pkg-0.9.17" = _AwDbcgnI;
         "pkg-2.0.2" = _w4NtkPUN;
         "pkg-3.0.0-beta5" = _iF7HMtId;
-        "default" = _iF7HMtId;
+        "pkg-3.0.1" = _HArABhLK;
+        "default" = _HArABhLK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dynamictreestfc";

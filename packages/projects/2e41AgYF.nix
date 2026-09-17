@@ -201,6 +201,26 @@ let
             "file" = "grafted_creaking-neoforge-1.0.4-26.2.jar";
             "hash" = "sha512-gtWmNLri4J0whcZY/Q8iQe8TxtWNr8u4RveVDA4R8xh3LpJUr4uVtmK0qgWDhRFJd3jub06E9mCjA+BltCuCRQ==";
         };
+        _3bsU74z4 = {
+            "id" = "3bsU74z4";
+            "file" = "grafted_creaking_texture-fabric-1.0.4-26.3.jar";
+            "hash" = "sha512-6sgMn1nWy4VYFd1EmVxNLJ820OlxdiWWFsABgJVm+HgPHdq2jbYD3xIj9CZSvmegPYmZ8FBkpoVjS6JVF0y35w==";
+        };
+        _RX1XS4B6 = {
+            "id" = "RX1XS4B6";
+            "file" = "grafted_creaking_texture-neoforge-1.0.4-26.3.jar";
+            "hash" = "sha512-yBZURdq15Td2fcVZ/WqACxP+HO9mMAKzPRIBJG77JJ/PyvhdTBe/RajYSOQAA/TdTnzRiwt9CMgV/L8Wkj9TYg==";
+        };
+        _YBYDQbEb = {
+            "id" = "YBYDQbEb";
+            "file" = "grafted_creaking-fabric-1.0.4-26.3.jar";
+            "hash" = "sha512-orrVRKSJCZh9WsgZ1pBTqv+iDaMCaiY4llTVarEsgS5pqbwajf80gieMFPgRggztKRBL1LTyRnv1MAvBDaRb4A==";
+        };
+        _XWVLCg1v = {
+            "id" = "XWVLCg1v";
+            "file" = "grafted_creaking-neoforge-1.0.4-26.3.jar";
+            "hash" = "sha512-7xlYRZvyOhtmYss+CzxxQxFUdT86VEoqJZVn2wNLI7nA15+B+EU6cKnXKGH4IO7GuJ35cdUF/ZKArQ4tvksvEw==";
+        };
     in {
         "EGbnPZj4" = _EGbnPZj4;
         "pwB6S6J7" = _pwB6S6J7;
@@ -242,6 +262,10 @@ let
         "y4LKzjKh" = _y4LKzjKh;
         "4VkZEVa0" = _4VkZEVa0;
         "nofj8CQd" = _nofj8CQd;
+        "3bsU74z4" = _3bsU74z4;
+        "RX1XS4B6" = _RX1XS4B6;
+        "YBYDQbEb" = _YBYDQbEb;
+        "XWVLCg1v" = _XWVLCg1v;
         "fabric-24w46a" = _EGbnPZj4;
         "fabric-1.21.4-pre1" = _EGbnPZj4;
         "fabric-1.21.4-pre2" = _EGbnPZj4;
@@ -261,6 +285,7 @@ let
         "fabric-26.1.1" = _IECn1AaS;
         "fabric-26.1.2" = _IECn1AaS;
         "fabric-26.2" = _4VkZEVa0;
+        "fabric-26.3" = _YBYDQbEb;
         "neoforge-1.21.4" = _f8NyyPfJ;
         "neoforge-1.21.5" = _5ayZ69IJ;
         "neoforge-1.21.6" = _zrouRv0O;
@@ -273,6 +298,7 @@ let
         "neoforge-26.1.1" = _91wLYFxV;
         "neoforge-26.1.2" = _91wLYFxV;
         "neoforge-26.2" = _nofj8CQd;
+        "neoforge-26.3" = _XWVLCg1v;
         "pkg-1.0.0" = _pwB6S6J7;
         "pkg-texture-1.0.0" = _qi8F8ijQ;
         "pkg-1.0.1" = _H5BBB5Fa;
@@ -288,7 +314,8 @@ let
         "pkg-1.0.4-1.21.11" = _ZhMYStuc;
         "pkg-1.0.4-26.1" = _91wLYFxV;
         "pkg-1.0.4-26.2" = _nofj8CQd;
-        "default" = _nofj8CQd;
+        "pkg-1.0.4-26.3" = _XWVLCg1v;
+        "default" = _XWVLCg1v;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "grafted-creaking";

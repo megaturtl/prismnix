@@ -186,6 +186,16 @@ let
             "file" = "cjs-balanced-woodcutter-4.3.jar";
             "hash" = "sha512-Xohss2CzH8bk9UkH0gQRr4bCoGdxyh4uLUW81cnEBKtWcdVglHyDY++PTqMiMbgv9wjIJ5vBzKC27NsWmQ3KZw==";
         };
+        _dsWoguFK = {
+            "id" = "dsWoguFK";
+            "file" = "BWC_5-0.zip";
+            "hash" = "sha512-KqsTBU2X0NF2XsS1yGvwuOBrIzhQlrGXAP4UaUrv31etbmSDwlS3nb8OzIG+KNWYo2dCc/1nHUMMrTqv3IgUmA==";
+        };
+        _5gVCQafy = {
+            "id" = "5gVCQafy";
+            "file" = "cjs-balanced-woodcutter-5.0.jar";
+            "hash" = "sha512-XNS/1vNNr5kp2S2kc4AxJk08Qsd6tWUBdPgKU2eZvVPo/bGSB+pPblgdXGkRRJ6jNyodUxfyn/1HrzoIPQBUVw==";
+        };
     in {
         "e9aOi9U3" = _e9aOi9U3;
         "orYGg93F" = _orYGg93F;
@@ -224,6 +234,8 @@ let
         "RCra9tpn" = _RCra9tpn;
         "USIeLK34" = _USIeLK34;
         "42miEJPR" = _42miEJPR;
+        "dsWoguFK" = _dsWoguFK;
+        "5gVCQafy" = _5gVCQafy;
         "datapack-1.20.3" = _e9aOi9U3;
         "datapack-1.20.4" = _e9aOi9U3;
         "datapack-1.20.5" = _ijYI7DSe;
@@ -248,6 +260,7 @@ let
         "datapack-26.1.1" = _USIeLK34;
         "datapack-26.1.2" = _USIeLK34;
         "datapack-26.2" = _USIeLK34;
+        "datapack-26.3" = _dsWoguFK;
         "fabric-1.20.3" = _orYGg93F;
         "fabric-1.20.4" = _orYGg93F;
         "fabric-1.20.5" = _3PJfQEtj;
@@ -268,6 +281,7 @@ let
         "fabric-26.1.1" = _42miEJPR;
         "fabric-26.1.2" = _42miEJPR;
         "fabric-26.2" = _42miEJPR;
+        "fabric-26.3" = _5gVCQafy;
         "forge-1.20.5" = _3PJfQEtj;
         "forge-1.20.6" = _3PJfQEtj;
         "forge-1.21" = _LIyMEUeX;
@@ -286,6 +300,7 @@ let
         "forge-26.1.1" = _42miEJPR;
         "forge-26.1.2" = _42miEJPR;
         "forge-26.2" = _42miEJPR;
+        "forge-26.3" = _5gVCQafy;
         "quilt-1.20.5" = _3PJfQEtj;
         "quilt-1.20.6" = _3PJfQEtj;
         "quilt-1.21" = _LIyMEUeX;
@@ -304,6 +319,7 @@ let
         "quilt-26.1.1" = _42miEJPR;
         "quilt-26.1.2" = _42miEJPR;
         "quilt-26.2" = _42miEJPR;
+        "quilt-26.3" = _5gVCQafy;
         "neoforge-1.21" = _LIyMEUeX;
         "neoforge-1.21.1" = _LIyMEUeX;
         "neoforge-1.21.2" = _nn0pjsij;
@@ -320,6 +336,7 @@ let
         "neoforge-26.1.1" = _42miEJPR;
         "neoforge-26.1.2" = _42miEJPR;
         "neoforge-26.2" = _42miEJPR;
+        "neoforge-26.3" = _5gVCQafy;
         "pkg-1.0" = _e9aOi9U3;
         "pkg-1.0+fabric" = _orYGg93F;
         "pkg-2.0" = _ijYI7DSe;
@@ -357,7 +374,9 @@ let
         "pkg-4.2+mod" = _RCra9tpn;
         "pkg-4.3" = _USIeLK34;
         "pkg-4.3+mod" = _42miEJPR;
-        "default" = _42miEJPR;
+        "pkg-5.0" = _dsWoguFK;
+        "pkg-5.0+mod" = _5gVCQafy;
+        "default" = _5gVCQafy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cjs-balanced-woodcutter";

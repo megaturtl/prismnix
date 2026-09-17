@@ -61,6 +61,26 @@ let
             "file" = "cobblemoncharms-1.3.0-fabric.jar";
             "hash" = "sha512-CM1ULA4KdOB+VddE39nefjphueCatffSw3XDBz4sbDXPkT4QfRqbSzs/pkMQJKdIeflh52UC+oOXa+7yyQ44fQ==";
         };
+        _WvKr8Cop = {
+            "id" = "WvKr8Cop";
+            "file" = "cobblemoncharms-1.4.0-neoforge.jar";
+            "hash" = "sha512-Rl7tHgSR4qerM8U8Ru5VPWsECbwWEwPoaZAy3JlQvu5fQRfyKsyao3R9JisWZoKrgNynLFho6wkJWOBhKopNUg==";
+        };
+        _2hfrwu9H = {
+            "id" = "2hfrwu9H";
+            "file" = "cobblemoncharms-1.4.0-fabric.jar";
+            "hash" = "sha512-rWrJnn/FjlgwBLAC1Oj2XJHVHKwg3jewexSIGuqij0PKYwd+YEM9usmIWOLeglAnGCypdnYsgp1uApFA21K3lQ==";
+        };
+        _F5jiz7CB = {
+            "id" = "F5jiz7CB";
+            "file" = "cobblemoncharms-1.5.0-neoforge.jar";
+            "hash" = "sha512-lcBpoe79WQ44XJfcK9C/oqIUHkcopPrXmdISfL0ULGVgqaOkzvWEvB9SlNza5yKAypFt2frnJ87zusP7+ksX+w==";
+        };
+        _ND5TRzAv = {
+            "id" = "ND5TRzAv";
+            "file" = "cobblemoncharms-1.5.0-fabric.jar";
+            "hash" = "sha512-P2Lx0WqCF+33PaepdyhCIv2E4IuYbIPx9ITJ2FGaTobjOQ7wIOv8sRvzBN1Nnyys1AvNNHFCHvM6VjlIffWLCA==";
+        };
     in {
         "DYYKLOFh" = _DYYKLOFh;
         "6B3R9PVg" = _6B3R9PVg;
@@ -74,8 +94,12 @@ let
         "O8MTmhES" = _O8MTmhES;
         "IjvdxrVr" = _IjvdxrVr;
         "GOPW5TH4" = _GOPW5TH4;
-        "neoforge-1.21.1" = _IjvdxrVr;
-        "fabric-1.21.1" = _GOPW5TH4;
+        "WvKr8Cop" = _WvKr8Cop;
+        "2hfrwu9H" = _2hfrwu9H;
+        "F5jiz7CB" = _F5jiz7CB;
+        "ND5TRzAv" = _ND5TRzAv;
+        "neoforge-1.21.1" = _F5jiz7CB;
+        "fabric-1.21.1" = _ND5TRzAv;
         "pkg-1.0.0" = _DYYKLOFh;
         "pkg-1.1.0" = _6B3R9PVg;
         "pkg-1.1.0-fabric" = _I3yBYlSq;
@@ -88,7 +112,11 @@ let
         "pkg-1.2.0-fabric" = _O8MTmhES;
         "pkg-1.3.0-neoforge" = _IjvdxrVr;
         "pkg-1.3.0-fabric" = _GOPW5TH4;
-        "default" = _GOPW5TH4;
+        "pkg-1.4.0-neoforge" = _WvKr8Cop;
+        "pkg-1.4.0-fabric" = _2hfrwu9H;
+        "pkg-1.5.0-neoforge" = _F5jiz7CB;
+        "pkg-1.5.0-fabric" = _ND5TRzAv;
+        "default" = _ND5TRzAv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-charms";

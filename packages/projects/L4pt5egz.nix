@@ -101,6 +101,11 @@ let
             "file" = "locator-heads-2.4.2.jar";
             "hash" = "sha512-OIydgCebDtA80PbariFKakcGK0HU3jlbjccvAl1wNglBi1BnSeMJsekcXRs0qB9K7kUq7YSbuALGGOW3AwN3FA==";
         };
+        _RetMeX2l = {
+            "id" = "RetMeX2l";
+            "file" = "locator-heads-2.5.0.jar";
+            "hash" = "sha512-o57HLtw4jEk5h8ndnmx35nlqe48kzf+/2b2sNMbAQdbsevjQeQT30KVjKd2ufZu5lnQ9OqrEIZesqPK8Y1YgJg==";
+        };
     in {
         "w1R8fvmn" = _w1R8fvmn;
         "XMAu2hIq" = _XMAu2hIq;
@@ -122,6 +127,7 @@ let
         "PL4stWP7" = _PL4stWP7;
         "Ti3iZri6" = _Ti3iZri6;
         "OPUaj8dP" = _OPUaj8dP;
+        "RetMeX2l" = _RetMeX2l;
         "fabric-1.21.7" = _L0iec01a;
         "fabric-1.21.8" = _L0iec01a;
         "fabric-1.21.9" = _NtqTU4Oo;
@@ -131,6 +137,7 @@ let
         "fabric-26.1.1" = _iIlqYXPt;
         "fabric-26.1.2" = _iIlqYXPt;
         "fabric-26.2" = _OPUaj8dP;
+        "fabric-26.3" = _RetMeX2l;
         "pkg-1.0.0" = _w1R8fvmn;
         "pkg-1.1.0" = _XMAu2hIq;
         "pkg-1.2.0" = _L0iec01a;
@@ -151,7 +158,8 @@ let
         "pkg-2.4.0" = _PL4stWP7;
         "pkg-2.4.1" = _Ti3iZri6;
         "pkg-2.4.2" = _OPUaj8dP;
-        "default" = _OPUaj8dP;
+        "pkg-2.5.0" = _RetMeX2l;
+        "default" = _RetMeX2l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "locator-heads";

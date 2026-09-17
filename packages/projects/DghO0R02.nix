@@ -1091,6 +1091,21 @@ let
             "file" = "connectedglass-1.1.14-neoforge-mc26.2.jar";
             "hash" = "sha512-1b7lzMjAwoJLsRcjeDsIqMgnp0RBJWJ0mPLh6qQMERbN9F9DDNVNj8WNkSaNqWLl2oJLoMTo4tBHVAHlXDqlyw==";
         };
+        _inqXx1Ea = {
+            "id" = "inqXx1Ea";
+            "file" = "connectedglass-1.1.14a-neoforge-mc26.2.jar";
+            "hash" = "sha512-14XftIE6jj3rPs+oK68CAT5WYZ7dbaCifBAb1ZxACGqhSQqbyVH436X8MNotT8vKPC9ctFY0Fiwih+B24cs3iw==";
+        };
+        _IUpMvVcJ = {
+            "id" = "IUpMvVcJ";
+            "file" = "connectedglass-1.1.14-fabric-mc26.3.jar";
+            "hash" = "sha512-HOoumJGhkoOjoWOmox34EPm2kP5dWOFen44XEQp1K4dx3gu/O1Vc9hcAOKPKFaQDhWIn1h6Jd33GpuWFJFAAjA==";
+        };
+        _JdomGZFW = {
+            "id" = "JdomGZFW";
+            "file" = "connectedglass-1.1.14-neoforge-mc26.3.jar";
+            "hash" = "sha512-WXn4JtwZh3eoltwzl+WOLz8wQpJYNNNNFzhQr8Fk0y5K3rjar4Uw0Rc++ip7em713Vp4h7B9qvyqXOjD1kGaKg==";
+        };
     in {
         "SQk7B6aT" = _SQk7B6aT;
         "LP0JgZ2W" = _LP0JgZ2W;
@@ -1310,6 +1325,9 @@ let
         "HPcZIGfr" = _HPcZIGfr;
         "fHGQZw8c" = _fHGQZw8c;
         "M4IAMIFo" = _M4IAMIFo;
+        "inqXx1Ea" = _inqXx1Ea;
+        "IUpMvVcJ" = _IUpMvVcJ;
+        "JdomGZFW" = _JdomGZFW;
         "forge-1.12" = _WrqzgdUP;
         "forge-1.12.1" = _WrqzgdUP;
         "forge-1.12.2" = _WrqzgdUP;
@@ -1388,6 +1406,7 @@ let
         "fabric-26.1.1" = _5jrI1NuL;
         "fabric-26.1.2" = _5jrI1NuL;
         "fabric-26.2" = _fHGQZw8c;
+        "fabric-26.3" = _IUpMvVcJ;
         "neoforge-1.12" = _maYOFF5s;
         "neoforge-1.12.1" = _maYOFF5s;
         "neoforge-1.12.2" = _maYOFF5s;
@@ -1435,7 +1454,8 @@ let
         "neoforge-26.1" = _TVXgEaL7;
         "neoforge-26.1.1" = _TVXgEaL7;
         "neoforge-26.1.2" = _TVXgEaL7;
-        "neoforge-26.2" = _M4IAMIFo;
+        "neoforge-26.2" = _inqXx1Ea;
+        "neoforge-26.3" = _JdomGZFW;
         "quilt-1.18" = _t3prliqo;
         "quilt-1.18.1" = _t3prliqo;
         "quilt-1.18.2" = _t3prliqo;
@@ -1464,6 +1484,7 @@ let
         "quilt-26.1.1" = _5jrI1NuL;
         "quilt-26.1.2" = _5jrI1NuL;
         "quilt-26.2" = _fHGQZw8c;
+        "quilt-26.3" = _IUpMvVcJ;
         "pkg-1.1.4-forge-mc1.12" = _SQk7B6aT;
         "pkg-1.1.4-forge-mc1.14" = _LP0JgZ2W;
         "pkg-1.1.4-forge-mc1.15" = _p3ZfaadV;
@@ -1682,7 +1703,10 @@ let
         "pkg-1.1.14-forge-mc26.2" = _HPcZIGfr;
         "pkg-1.1.14-fabric-mc26.2" = _fHGQZw8c;
         "pkg-1.1.14-neoforge-mc26.2" = _M4IAMIFo;
-        "default" = _M4IAMIFo;
+        "pkg-1.1.14a-neoforge-mc26.2" = _inqXx1Ea;
+        "pkg-1.1.14-fabric-mc26.3" = _IUpMvVcJ;
+        "pkg-1.1.14-neoforge-mc26.3" = _JdomGZFW;
+        "default" = _JdomGZFW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "connected-glass";

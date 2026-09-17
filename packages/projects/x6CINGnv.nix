@@ -211,6 +211,16 @@ let
             "file" = "simple-apple-trees-2.0.jar";
             "hash" = "sha512-BURnr2thO+M22zX3L8+P+NFJmUzrDUw3vcJg8OYwkYfVqDw7vLd/xudJgHx4WDjyxrqMlOfLqTkacx4Y+gBXCw==";
         };
+        _DBw4fkhZ = {
+            "id" = "DBw4fkhZ";
+            "file" = "Simple Apple Trees DPv2.0.1 (26.3).zip";
+            "hash" = "sha512-vC2La7JgnpVKgvZ0dtO9R6bSL+oOA4JKMeQk21s39h0aMpWL4gusPXEhjyZk7Lzi3RzXSMuaU0ICPqEWOaYNKg==";
+        };
+        _aIg159HR = {
+            "id" = "aIg159HR";
+            "file" = "simple-apple-trees-2.0.1.jar";
+            "hash" = "sha512-FlQVqNe6fUoqtxXc1cCrIzwJQjxD1qdStqniOTZZWfLE6g79LX3T8BOLuzYWX47KLcDX6AmEtIV4cC4A6WvLyA==";
+        };
     in {
         "2gH2Aq66" = _2gH2Aq66;
         "ZCGEyMkk" = _ZCGEyMkk;
@@ -254,6 +264,8 @@ let
         "FHca2TaM" = _FHca2TaM;
         "Z6rzgRx6" = _Z6rzgRx6;
         "ykF3ZtMr" = _ykF3ZtMr;
+        "DBw4fkhZ" = _DBw4fkhZ;
+        "aIg159HR" = _aIg159HR;
         "datapack-1.20.2" = _xBIw3to6;
         "datapack-1.20.3" = _xBIw3to6;
         "datapack-1.20.4" = _xBIw3to6;
@@ -275,6 +287,7 @@ let
         "datapack-26.1.1" = _Z6rzgRx6;
         "datapack-26.1.2" = _Z6rzgRx6;
         "datapack-26.2" = _Z6rzgRx6;
+        "datapack-26.3" = _DBw4fkhZ;
         "fabric-1.21.5" = _FHca2TaM;
         "fabric-1.21.6" = _FHca2TaM;
         "fabric-1.21.7" = _FHca2TaM;
@@ -296,6 +309,7 @@ let
         "fabric-26.1.1" = _ykF3ZtMr;
         "fabric-26.1.2" = _ykF3ZtMr;
         "fabric-26.2" = _ykF3ZtMr;
+        "fabric-26.3" = _aIg159HR;
         "forge-1.21.5" = _FHca2TaM;
         "forge-1.21.6" = _FHca2TaM;
         "forge-1.21.7" = _FHca2TaM;
@@ -317,6 +331,7 @@ let
         "forge-26.1.1" = _ykF3ZtMr;
         "forge-26.1.2" = _ykF3ZtMr;
         "forge-26.2" = _ykF3ZtMr;
+        "forge-26.3" = _aIg159HR;
         "neoforge-1.21.5" = _FHca2TaM;
         "neoforge-1.21.6" = _FHca2TaM;
         "neoforge-1.21.7" = _FHca2TaM;
@@ -338,6 +353,7 @@ let
         "neoforge-26.1.1" = _ykF3ZtMr;
         "neoforge-26.1.2" = _ykF3ZtMr;
         "neoforge-26.2" = _ykF3ZtMr;
+        "neoforge-26.3" = _aIg159HR;
         "quilt-1.21.5" = _FHca2TaM;
         "quilt-1.21.6" = _FHca2TaM;
         "quilt-1.21.7" = _FHca2TaM;
@@ -359,6 +375,7 @@ let
         "quilt-26.1.1" = _ykF3ZtMr;
         "quilt-26.1.2" = _ykF3ZtMr;
         "quilt-26.2" = _ykF3ZtMr;
+        "quilt-26.3" = _aIg159HR;
         "pkg-1.0" = _iG1ZmcYg;
         "pkg-1.1" = _Lsbk0ON8;
         "pkg-1.11" = _zhR4thy9;
@@ -377,7 +394,9 @@ let
         "pkg-1.2.2+mod" = _yUNsNbfa;
         "pkg-2.0" = _Z6rzgRx6;
         "pkg-2.0+mod" = _ykF3ZtMr;
-        "default" = _ykF3ZtMr;
+        "pkg-2.0.1" = _DBw4fkhZ;
+        "pkg-2.0.1+mod" = _aIg159HR;
+        "default" = _aIg159HR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-apple-trees";

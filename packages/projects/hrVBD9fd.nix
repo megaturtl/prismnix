@@ -221,6 +221,11 @@ let
             "file" = "BLAST-fabric-1.14-26.2.jar";
             "hash" = "sha512-/kmycyn5xVX42PsPFcA6lq57LKzuozs7fLPT/Taf79fylIyOgBlqsXvd4lqq095gWapnncsPnZ1934/ijbcBfQ==";
         };
+        _dPNIO9HH = {
+            "id" = "dPNIO9HH";
+            "file" = "BLAST-fabric-1.14-26.3.jar";
+            "hash" = "sha512-N0rKrwWTFxtzoeIm3GFvnNuNjSpkHNmT+ga10nrDfvS0QAQkkWY6nE0xqk05AbVa+fS6AUh/eBgn4ydY46MTWA==";
+        };
     in {
         "4vi59LgI" = _4vi59LgI;
         "pSmVu2ni" = _pSmVu2ni;
@@ -266,6 +271,7 @@ let
         "qf3ut26E" = _qf3ut26E;
         "33toGYmb" = _33toGYmb;
         "mlLn4vSd" = _mlLn4vSd;
+        "dPNIO9HH" = _dPNIO9HH;
         "fabric-1.20.1" = _ojB3W9Gs;
         "fabric-1.14.4" = _j8wupN18;
         "fabric-1.15.1" = _r0xueyn0;
@@ -295,6 +301,7 @@ let
         "fabric-26.1" = _qf3ut26E;
         "fabric-26.1.2" = _qf3ut26E;
         "fabric-26.2" = _mlLn4vSd;
+        "fabric-26.3" = _dPNIO9HH;
         "quilt-1.20.1" = _ojB3W9Gs;
         "quilt-1.19.2" = _vRxBeYJI;
         "quilt-1.21.1" = _EAEEXEF7;
@@ -355,7 +362,8 @@ let
         "pkg-1.13.9-26.2" = _YeCXpbYS;
         "pkg-1.14-26.1" = _33toGYmb;
         "pkg-1.14-26.2" = _mlLn4vSd;
-        "default" = _mlLn4vSd;
+        "pkg-1.14-26.3" = _dPNIO9HH;
+        "default" = _dPNIO9HH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blast";

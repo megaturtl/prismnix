@@ -161,6 +161,61 @@ let
             "file" = "wavify-1.1.2.jar";
             "hash" = "sha512-Kv/GZfw5uv7ZJRfNIIgDD6AeqSm7ElUbvb7OJtjMbfYwIvwvv7Wp2xx6zkGq+sW6WbmRk7W7GVG+AingfdNO+w==";
         };
+        _WrPlja91 = {
+            "id" = "WrPlja91";
+            "file" = "wavify-1.2.0-1.20.1-forge.jar";
+            "hash" = "sha512-3Sx6/rwfFi+mLEM/bpUAwqyjtzmkyGXyoV78t58awSIvR3MoQySnv9ceP3/u/370skatnbZkpMNm0zXtEP/QRQ==";
+        };
+        _3gQszhhC = {
+            "id" = "3gQszhhC";
+            "file" = "wavify-1.2.0-1.20.1-fab.jar";
+            "hash" = "sha512-vmvd3Hp1ZPa6sO3V2mEBEoGbD1GMcmfVJSeExpCtRct2mBvc4x3aZ0ASI5YxuImCsdZyuu2TXx4dVYnyomi+3Q==";
+        };
+        _3WqYSM0O = {
+            "id" = "3WqYSM0O";
+            "file" = "wavify-1.2.0-1.21.1-neo.jar";
+            "hash" = "sha512-9pLXbqYFALl+PUt66WSv37lOn09/8LjRij7VM2R5zh/k5jJlLCQWWAVrXF8K49vHum3vLQbQEBBksNEQyOEMEw==";
+        };
+        _BQs39cWI = {
+            "id" = "BQs39cWI";
+            "file" = "wavify-1.2.0-1.21.1-fab.jar";
+            "hash" = "sha512-JE2QAtRkNElOtTGTkaOrcBev961t/8SSPShXETdEsN0ddK/7SjVBXnQBGnYRq92nh9CjvCHXjVVd+9GfJdok2w==";
+        };
+        _XJi7XLfl = {
+            "id" = "XJi7XLfl";
+            "file" = "wavify-1.2.0-1.21.11-fab.jar";
+            "hash" = "sha512-7QPullsRNdTjOu1t0/xpsq63G1mZvFMmsbmK37q/N0xH2tfF2pgEpfzque6lh07fehArrACfya07NZeRn5sN0Q==";
+        };
+        _VyyhtVff = {
+            "id" = "VyyhtVff";
+            "file" = "wavify-1.2.0-1.21.11-neo.jar";
+            "hash" = "sha512-e3Hxz6bRwIVNjtyN6kZKy+VvdnZKHGz27429z094J8EZLll661N68+D169M0RSPqHmB8z8Xm8VaXRX/NWR5DDw==";
+        };
+        _xcnCae7h = {
+            "id" = "xcnCae7h";
+            "file" = "wavify-1.2.1-26.1.2-fab.jar";
+            "hash" = "sha512-+kWSpS758uvdzlAjEokAKhSj05flba5wSZU96ZlwloPidCa1wVVP3HMymtcsXwlMSrXjihJIsQM8OlJ7+P052w==";
+        };
+        _mM4irAlF = {
+            "id" = "mM4irAlF";
+            "file" = "wavify-1.2.0-26.1.2-neo.jar";
+            "hash" = "sha512-jEjfg0OaNr3uvQaOCwpyO4/f3Gn4WtV+Nf5jqlTcnR6fnVJaCKW20ucuC8hcB4HF89rVykyOvb+slthhn9v7pw==";
+        };
+        _KlLDVMRB = {
+            "id" = "KlLDVMRB";
+            "file" = "wavify-1.2.0-26.2-neo.jar";
+            "hash" = "sha512-Jv4V9CUW5hc6cY0wX1BLgt7lEfBON/jlB07mwM46d+eABfYxKJXn1NHgWPoa9OHU/aqKmkxdx/bZHK/GYiYirw==";
+        };
+        _Qm46P5WS = {
+            "id" = "Qm46P5WS";
+            "file" = "wavify-1.2.0-26.2-fab.jar";
+            "hash" = "sha512-BzbqaM4KqQ23gVXarKwDnDT1zC/p1nRe7PKywAPN3o6Pfw80e0rDtCeXNH4ypeDGRGCBNEL9/0+bw9O1p7KOlg==";
+        };
+        _NykbcMGw = {
+            "id" = "NykbcMGw";
+            "file" = "wavify-1.2.0-26.3-fab.jar";
+            "hash" = "sha512-b09Q4gby9dpFy8YminjxCVX9N4F3qqUNoCpyQN4th9mrju6gotWt4KA5SljocIdavVWJG2p/oyLi3TulsXlO7g==";
+        };
     in {
         "4buaGnEn" = _4buaGnEn;
         "NoYzQQPU" = _NoYzQQPU;
@@ -194,16 +249,28 @@ let
         "bH0LMe4O" = _bH0LMe4O;
         "z0db7IcT" = _z0db7IcT;
         "ZHdG0pD6" = _ZHdG0pD6;
-        "fabric-26.1.2" = _AGGFHXwm;
-        "fabric-1.21.11" = _XHOlw1eo;
-        "fabric-1.21.1" = _eUIzzVIG;
-        "fabric-26.2" = _uMUQm8uh;
-        "fabric-1.20.1" = _ZHdG0pD6;
-        "neoforge-26.1.2" = _qii7suP9;
-        "neoforge-1.21.11" = _59uPt4pc;
-        "neoforge-1.21.1" = _OMoO25VK;
-        "neoforge-26.2" = _bH0LMe4O;
-        "forge-1.20.1" = _z0db7IcT;
+        "WrPlja91" = _WrPlja91;
+        "3gQszhhC" = _3gQszhhC;
+        "3WqYSM0O" = _3WqYSM0O;
+        "BQs39cWI" = _BQs39cWI;
+        "XJi7XLfl" = _XJi7XLfl;
+        "VyyhtVff" = _VyyhtVff;
+        "xcnCae7h" = _xcnCae7h;
+        "mM4irAlF" = _mM4irAlF;
+        "KlLDVMRB" = _KlLDVMRB;
+        "Qm46P5WS" = _Qm46P5WS;
+        "NykbcMGw" = _NykbcMGw;
+        "fabric-26.1.2" = _xcnCae7h;
+        "fabric-1.21.11" = _XJi7XLfl;
+        "fabric-1.21.1" = _BQs39cWI;
+        "fabric-26.2" = _Qm46P5WS;
+        "fabric-1.20.1" = _3gQszhhC;
+        "fabric-26.3" = _NykbcMGw;
+        "neoforge-26.1.2" = _mM4irAlF;
+        "neoforge-1.21.11" = _VyyhtVff;
+        "neoforge-1.21.1" = _3WqYSM0O;
+        "neoforge-26.2" = _KlLDVMRB;
+        "forge-1.20.1" = _WrPlja91;
         "pkg-1.0.0" = _4buaGnEn;
         "pkg-1.0.1" = _NoYzQQPU;
         "pkg-1.0.2" = _Dnt29iLs;
@@ -211,7 +278,9 @@ let
         "pkg-1.1.0" = _WHHBG272;
         "pkg-1.1.1" = _uMUQm8uh;
         "pkg-1.1.2" = _ZHdG0pD6;
-        "default" = _ZHdG0pD6;
+        "pkg-1.2.0" = _NykbcMGw;
+        "pkg-1.2.1" = _xcnCae7h;
+        "default" = _NykbcMGw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wavify";

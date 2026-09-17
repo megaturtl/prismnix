@@ -26,12 +26,18 @@ let
             "file" = "faster-copper-golem-1.0.2.jar";
             "hash" = "sha512-Ou2aMM2Fp3HPzJ0DkvsAoJiLePZ5qah9voSe6435UoeqcN3K0vJjY5AjupSEgJHaRvRJQXXFDeSnIWwUbBm3mw==";
         };
+        _2h0Bbh71 = {
+            "id" = "2h0Bbh71";
+            "file" = "faster-copper-golem-1.0.2.jar";
+            "hash" = "sha512-gLhSkqJp37ZC49IlNkwomRUws8yjr3yNEuWXOMt/2e3kFnYDD91R96s4D+RdlAdv31/oR831LCFuX/nFwO5pgw==";
+        };
     in {
         "sG3Z9Ikw" = _sG3Z9Ikw;
         "lKIJgQsD" = _lKIJgQsD;
         "dcsJmuGN" = _dcsJmuGN;
         "3kXfM63m" = _3kXfM63m;
         "Fe7Onxuh" = _Fe7Onxuh;
+        "2h0Bbh71" = _2h0Bbh71;
         "fabric-1.21.9" = _dcsJmuGN;
         "fabric-1.21.10" = _dcsJmuGN;
         "fabric-1.21.11" = _dcsJmuGN;
@@ -39,10 +45,11 @@ let
         "fabric-26.1.1" = _3kXfM63m;
         "fabric-26.1.2" = _3kXfM63m;
         "fabric-26.2" = _Fe7Onxuh;
+        "fabric-26.3" = _2h0Bbh71;
         "pkg-1.0.0" = _sG3Z9Ikw;
         "pkg-1.0.1" = _lKIJgQsD;
-        "pkg-1.0.2" = _Fe7Onxuh;
-        "default" = _Fe7Onxuh;
+        "pkg-1.0.2" = _2h0Bbh71;
+        "default" = _2h0Bbh71;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "faster-copper-golem";

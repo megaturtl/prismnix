@@ -156,6 +156,11 @@ let
             "file" = "make_bubbles_pop-0.4.0-beta.2-neoforge-mc26.2.jar";
             "hash" = "sha512-8ePzylKi8bryi2pfbbxqjFDNBNHGkL65irHxQl1DrU/yDf/pKdgIyVPLCxT4t42sGFWEplFxmQtp+CijJmh9yQ==";
         };
+        _GqAK9Bmd = {
+            "id" = "GqAK9Bmd";
+            "file" = "make_bubbles_pop-0.4.0-beta.3-neoforge-mc26.2+.jar";
+            "hash" = "sha512-pFbjCM4aGfqKxZ36JrhadYrNvtXS9LJKDhI/kTfyeXRAnAFM35H3gusQfP82ULhMbtWHBA3SMkEJXhoq14ykWQ==";
+        };
     in {
         "9w2TMjsI" = _9w2TMjsI;
         "Lx3YYG6X" = _Lx3YYG6X;
@@ -188,6 +193,7 @@ let
         "y4KP9YPn" = _y4KP9YPn;
         "6RAYmfM6" = _6RAYmfM6;
         "o4aupTp0" = _o4aupTp0;
+        "GqAK9Bmd" = _GqAK9Bmd;
         "fabric-1.18" = _VIu5oLuy;
         "fabric-1.18.1" = _VIu5oLuy;
         "fabric-1.18.2" = _VIu5oLuy;
@@ -283,7 +289,8 @@ let
         "neoforge-26.1" = _6RAYmfM6;
         "neoforge-26.1.1" = _6RAYmfM6;
         "neoforge-26.1.2" = _6RAYmfM6;
-        "neoforge-26.2" = _o4aupTp0;
+        "neoforge-26.2" = _GqAK9Bmd;
+        "neoforge-26.3" = _GqAK9Bmd;
         "pkg-0.0.1" = _9w2TMjsI;
         "pkg-0.0.2" = _Lx3YYG6X;
         "pkg-0.1.0-fabric" = _JHZtMWHD;
@@ -302,7 +309,8 @@ let
         "pkg-0.4.0-beta.1-neoforge" = _qHvQZt4g;
         "pkg-0.3.4-fabric" = _CAFPNCYd;
         "pkg-0.4.0-beta.2" = _o4aupTp0;
-        "default" = _o4aupTp0;
+        "pkg-0.4.0-beta.3" = _GqAK9Bmd;
+        "default" = _GqAK9Bmd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "make_bubbles_pop";

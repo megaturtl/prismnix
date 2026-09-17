@@ -256,6 +256,26 @@ let
             "file" = "shieldexp-neoforge-1.21.1-1.4.1.jar";
             "hash" = "sha512-jvLF5qzZYy95HQkF3METD7q3Wompja4z0hix2jFEBKNgFRsEsmo9iKxZs9YZ+Yqvb0s7bXHoMEoIC/0kp5RNXw==";
         };
+        _YTcKrI2V = {
+            "id" = "YTcKrI2V";
+            "file" = "shieldexp-fabric-1.21.1-1.4.2.jar";
+            "hash" = "sha512-vbAZeH0AFWkZ/BOzEn2uZpkDwsvJgw0FWShbFHjsjysM29jgYgzYFPdxcuDx/H4MOGkSBODXtJ7ZT4NCBS1zgQ==";
+        };
+        _1kdqjBIh = {
+            "id" = "1kdqjBIh";
+            "file" = "shieldexp-neoforge-1.21.1-1.4.2.jar";
+            "hash" = "sha512-Lv1708MlNYvipampRzltuO4RRJSQblQoAVeRZsNGa0sMUeCeGdYItkwjO3GN613NJQ5lAB/KM6XeRyzrQSdPfQ==";
+        };
+        _UC512VgT = {
+            "id" = "UC512VgT";
+            "file" = "shieldexp-neoforge-1.21.1-1.4.3.jar";
+            "hash" = "sha512-MScU5mUoVHetvZjkISJ7Fcl8vlDrW8FWUlsyPImidrVNdgaoSCGf3HE9smAhU9wCv5yvEdOJpJxLjlltUIdWuw==";
+        };
+        _qDyf2kOI = {
+            "id" = "qDyf2kOI";
+            "file" = "shieldexp-fabric-1.21.1-1.4.3.jar";
+            "hash" = "sha512-sTuqxcjBqiE22+0o09EYE7KsP+GDV33zeD3p4OHnauAgdM5lthyoJub19Sl71xZrdBgWM6BkKXxPqhkqMHzt7g==";
+        };
     in {
         "NUzBqV0j" = _NUzBqV0j;
         "OGI7qkWx" = _OGI7qkWx;
@@ -308,6 +328,10 @@ let
         "Ng7oaRxX" = _Ng7oaRxX;
         "XfcwSRkp" = _XfcwSRkp;
         "eDHhr3j9" = _eDHhr3j9;
+        "YTcKrI2V" = _YTcKrI2V;
+        "1kdqjBIh" = _1kdqjBIh;
+        "UC512VgT" = _UC512VgT;
+        "qDyf2kOI" = _qDyf2kOI;
         "forge-1.16.3" = _rGxCClGm;
         "forge-1.16.4" = _rGxCClGm;
         "forge-1.16.5" = _rGxCClGm;
@@ -320,9 +344,9 @@ let
         "forge-1.19.4" = _ftUv70i3;
         "forge-1.20.1" = _oDx7Tmoh;
         "neoforge-1.20.1" = _gV2H6vzy;
-        "neoforge-1.21.1" = _eDHhr3j9;
+        "neoforge-1.21.1" = _UC512VgT;
         "fabric-1.20.1" = _uYsK77Fw;
-        "fabric-1.21.1" = _XfcwSRkp;
+        "fabric-1.21.1" = _qDyf2kOI;
         "pkg-0.1" = _NUzBqV0j;
         "pkg-1.1.4" = _OGI7qkWx;
         "pkg-1.1.6" = _rGxCClGm;
@@ -341,7 +365,9 @@ let
         "pkg-1.3.7" = _oDx7Tmoh;
         "pkg-1.4.0" = _Ng7oaRxX;
         "pkg-1.4.1" = _eDHhr3j9;
-        "default" = _eDHhr3j9;
+        "pkg-1.4.2" = _1kdqjBIh;
+        "pkg-1.4.3" = _qDyf2kOI;
+        "default" = _qDyf2kOI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shield-expansion";

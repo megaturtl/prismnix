@@ -166,6 +166,16 @@ let
             "file" = "litematica-material-hud-0.0.18+1.21.11.jar";
             "hash" = "sha512-jHZZfipeZM8W6xBYkmZ6USn2JrJfhmgRRPe2OL1Q1y9Tr8zbnIS6BS+h9tZhvDYAoLyRUtkmwxbbykrLI7dEZw==";
         };
+        _P0Xr20yz = {
+            "id" = "P0Xr20yz";
+            "file" = "litematica-material-hud-0.0.19+26.2.jar";
+            "hash" = "sha512-fXBkzuwWuGkuspFmnsVBV8cvwNSiFkzvW+GvwOWjCg16QAv3IxvgjmT2vICf29EgwBmRiIjRbXbXvX9QvEMscQ==";
+        };
+        _cmsUVHJS = {
+            "id" = "cmsUVHJS";
+            "file" = "litematica-material-hud-0.0.20+26.2.jar";
+            "hash" = "sha512-W8odO5QnBlkVIgqfUDCZj+ChBGqAPH4hchDWFZTVic0uNQ0/oQv7biDQtx5JXGzQ/wsZwxW6CkSVxGJCVqJFRA==";
+        };
     in {
         "z2IZqkAA" = _z2IZqkAA;
         "WtOCkLpA" = _WtOCkLpA;
@@ -200,7 +210,9 @@ let
         "ZX2ucNXY" = _ZX2ucNXY;
         "8wVTpizB" = _8wVTpizB;
         "SihcLoJv" = _SihcLoJv;
-        "fabric-26.2" = _ZX2ucNXY;
+        "P0Xr20yz" = _P0Xr20yz;
+        "cmsUVHJS" = _cmsUVHJS;
+        "fabric-26.2" = _cmsUVHJS;
         "fabric-1.21.11" = _SihcLoJv;
         "fabric-26.1" = _8wVTpizB;
         "fabric-26.1.1" = _8wVTpizB;
@@ -238,7 +250,9 @@ let
         "pkg-0.0.18+26.2" = _ZX2ucNXY;
         "pkg-0.0.18+26.1.2" = _8wVTpizB;
         "pkg-0.0.18+1.21.11" = _SihcLoJv;
-        "default" = _SihcLoJv;
+        "pkg-0.0.19+26.2" = _P0Xr20yz;
+        "pkg-0.0.20+26.2" = _cmsUVHJS;
+        "default" = _cmsUVHJS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "material-hud";

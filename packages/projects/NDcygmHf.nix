@@ -61,6 +61,16 @@ let
             "file" = "worldplaytimereborn-1.2.6+26.2-neoforge.jar";
             "hash" = "sha512-KjRcOIfequMPtfSSywZwS3EraVUpRG+B3gDPo6IpWFFJuoyejqz9lJHOcTka3yE7Sthu+Js68NtRwOkEjwmOoQ==";
         };
+        _XfhYCqgX = {
+            "id" = "XfhYCqgX";
+            "file" = "worldplaytimereborn-1.2.6+26.3-fabric.jar";
+            "hash" = "sha512-x73QFFDrw5jJpjALNZMPsHUtAfngtVAARcJsVA02vCf3LV4AKRO8cOpCk034hqFHJorkSg78mzyVGyxTkDvlXQ==";
+        };
+        _xtrnx9Pb = {
+            "id" = "xtrnx9Pb";
+            "file" = "worldplaytimereborn-1.2.6+26.3-neoforge.jar";
+            "hash" = "sha512-ANPlqTUo45of5K5XzViP7uuzyjjjHJ1wHYD2+05koZBeB5Y7OJy9y97LX/rrIcuymcrF+YJwa4bH2qZvjz4zWw==";
+        };
     in {
         "z8j0pIKF" = _z8j0pIKF;
         "tzdJcRUh" = _tzdJcRUh;
@@ -74,18 +84,23 @@ let
         "tQW0zeLb" = _tQW0zeLb;
         "HWpqpkOX" = _HWpqpkOX;
         "GKRvltX2" = _GKRvltX2;
+        "XfhYCqgX" = _XfhYCqgX;
+        "xtrnx9Pb" = _xtrnx9Pb;
         "fabric-1.21.11" = _g91HCVP5;
         "fabric-26.1.2" = _BPPFCFdk;
         "fabric-26.2" = _HWpqpkOX;
+        "fabric-26.3" = _XfhYCqgX;
         "quilt-1.21.11" = _g91HCVP5;
         "quilt-26.1.2" = _BPPFCFdk;
         "quilt-26.2" = _HWpqpkOX;
+        "quilt-26.3" = _XfhYCqgX;
         "neoforge-1.21.11" = _pCCWv0uY;
         "neoforge-26.1.2" = _tQW0zeLb;
         "neoforge-26.2" = _GKRvltX2;
+        "neoforge-26.3" = _xtrnx9Pb;
         "pkg-1.2.5" = _ZbaiBOYU;
-        "pkg-1.2.6" = _GKRvltX2;
-        "default" = _GKRvltX2;
+        "pkg-1.2.6" = _xtrnx9Pb;
+        "default" = _xtrnx9Pb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "world-play-time-reborn";

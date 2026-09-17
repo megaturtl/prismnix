@@ -121,6 +121,11 @@ let
             "file" = "documents-2.0.4.jar";
             "hash" = "sha512-jjnpm6AwjetV6xA4rR/iwYtftcgjrtpDlETMEFJ3JLd8pbhvVf9ZEa3S99XmIvMeE8wU1/Bli7AXdqK3BTLJRg==";
         };
+        _32JBhUMF = {
+            "id" = "32JBhUMF";
+            "file" = "documents-2.0.4b.jar";
+            "hash" = "sha512-/wTozk2xt12QRxErWNe+8hONXyY0KK1QnVcTlPpk9Yh4K4XjES5tH2vXeqrjuN1xGt5838Gq5xuZAuY343RQWQ==";
+        };
     in {
         "8S2eFbrL" = _8S2eFbrL;
         "H7Xjwu8P" = _H7Xjwu8P;
@@ -146,9 +151,10 @@ let
         "ZRGe9Uwd" = _ZRGe9Uwd;
         "ikeYUa0R" = _ikeYUa0R;
         "apARmD8E" = _apARmD8E;
+        "32JBhUMF" = _32JBhUMF;
         "forge-1.12.2" = _nPul0J2f;
         "forge-1.16.5" = _TkkMENUS;
-        "forge-1.20.1" = _ZRGe9Uwd;
+        "forge-1.20.1" = _32JBhUMF;
         "neoforge-1.20.4" = _zxIHUkis;
         "fabric-1.21.4" = _ZrGUppCy;
         "fabric-1.21.8" = _ikeYUa0R;
@@ -168,7 +174,8 @@ let
         "pkg-2.0.2" = _g2zBrZkc;
         "pkg-2.0.3" = _ZrGUppCy;
         "pkg-2.0.4" = _apARmD8E;
-        "default" = _apARmD8E;
+        "pkg-2.0.4b" = _32JBhUMF;
+        "default" = _32JBhUMF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "documents";

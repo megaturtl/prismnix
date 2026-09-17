@@ -31,6 +31,51 @@ let
             "file" = "enderchestpersistence-neoforge-0.2.0.jar";
             "hash" = "sha512-aGAi0ZxMK9aAZTEnoiH/K9WVQZV44ZEPK8IuXhsFbrm9plIh+UJsFF3IH0v1lIMR0yiqpeiyPaLpbkBL/9X3Xw==";
         };
+        _hPvFMdsC = {
+            "id" = "hPvFMdsC";
+            "file" = "enderchestpersistence-fabric-0.3.0.jar";
+            "hash" = "sha512-IJOYtlMmCS23dmt448L81uwEnDvUM+NOm1yufP3uJ90YJO2GYLe1O4/jdfrD7LMNuu7aWIC5IKzL8K348oKhRg==";
+        };
+        _N2MNssqe = {
+            "id" = "N2MNssqe";
+            "file" = "enderchestpersistence-forge-0.3.0.jar";
+            "hash" = "sha512-RRPW0I0t0KVlKyR2YE3vjKYlE2feb4PKyTDJWKn9F/rDM1B8S5PBCDFZg+3Mt31DNjBPZU+La1WIsObEXa9jxg==";
+        };
+        _sBMG0JOR = {
+            "id" = "sBMG0JOR";
+            "file" = "enderchestpersistence-neoforge-0.3.0.jar";
+            "hash" = "sha512-72qaBzFbNCEQOKakx2YJ482HAL+u26VyiqQXqB+iDg2Y7gcZ3KmRGmiG0Zxlme7l5NQseniO7AZr2cMO2irXbA==";
+        };
+        _YklnbvXo = {
+            "id" = "YklnbvXo";
+            "file" = "enderchestpersistence-fabric-0.4.0.jar";
+            "hash" = "sha512-jCirNlPbTXIXb3B9XOF6kPsEE7FpcTEgyQ90U4gc+yADMGWer1pZGbfbwinWlPczdVFhX3+NCTX12++HboOrUg==";
+        };
+        _e6aTzXhv = {
+            "id" = "e6aTzXhv";
+            "file" = "enderchestpersistence-forge-0.4.0.jar";
+            "hash" = "sha512-Y642H4L/qcyBekS8sGXj1/0jNd9kEIT233eGENIHvGYTiHudYI7G5kvKN0OeAyTw7AR7PIIYEsub1qMISHbLhw==";
+        };
+        _bDMmDe6O = {
+            "id" = "bDMmDe6O";
+            "file" = "enderchestpersistence-neoforge-0.4.0.jar";
+            "hash" = "sha512-m7LE1z/tFRIgthDoNGWSoYEzRCBzgojd/1E7rkypb5NI0MBcDp9sEYJ1LHHiuju0OYXcUxUTig2HK04W8iJV9g==";
+        };
+        _X2TC03ur = {
+            "id" = "X2TC03ur";
+            "file" = "enderchestpersistence-fabric-0.5.0.jar";
+            "hash" = "sha512-MwxdVKd4k4Asq0kUlWSjX70Vgv5UoqNfQ+wbP2kk9U6gS+7fp4wGpHJCBYEcFGFepOcH+NCc5DLdcHg0/u+OzA==";
+        };
+        _ObbHCBq1 = {
+            "id" = "ObbHCBq1";
+            "file" = "enderchestpersistence-forge-0.5.0.jar";
+            "hash" = "sha512-+TuuRHEXPndaGt9lKU9DW7/GdyJ+MbtR5K4AYb21BFEveSIuqQWDwODmRpvoOZbwjjdLI6s/80dM1iqDhG/c1A==";
+        };
+        _jQdBzB9o = {
+            "id" = "jQdBzB9o";
+            "file" = "enderchestpersistence-neoforge-0.5.0.jar";
+            "hash" = "sha512-wmn1xHcMJp3t5oRQH3Z8Ud/MihEYYDbF95Z3jWnbBTTFHm/tpvbrf66/SmHoOwqinsp2MFHAlWoaYHcjD0mUmQ==";
+        };
     in {
         "WNzaYQw7" = _WNzaYQw7;
         "pJolu63O" = _pJolu63O;
@@ -38,16 +83,34 @@ let
         "noYX84om" = _noYX84om;
         "Vymf9sWE" = _Vymf9sWE;
         "2I1HdVBa" = _2I1HdVBa;
-        "fabric-1.21.1" = _noYX84om;
-        "forge-1.21.1" = _Vymf9sWE;
-        "neoforge-1.21.1" = _2I1HdVBa;
+        "hPvFMdsC" = _hPvFMdsC;
+        "N2MNssqe" = _N2MNssqe;
+        "sBMG0JOR" = _sBMG0JOR;
+        "YklnbvXo" = _YklnbvXo;
+        "e6aTzXhv" = _e6aTzXhv;
+        "bDMmDe6O" = _bDMmDe6O;
+        "X2TC03ur" = _X2TC03ur;
+        "ObbHCBq1" = _ObbHCBq1;
+        "jQdBzB9o" = _jQdBzB9o;
+        "fabric-1.21.1" = _X2TC03ur;
+        "forge-1.21.1" = _ObbHCBq1;
+        "neoforge-1.21.1" = _jQdBzB9o;
         "pkg-v0.1.0+fabric" = _WNzaYQw7;
         "pkg-v0.1.0+forge" = _pJolu63O;
         "pkg-v0.1.0+neoforge" = _W7YjtZg1;
         "pkg-v0.2.0+fabric" = _noYX84om;
         "pkg-v0.2.0+forge" = _Vymf9sWE;
         "pkg-v0.2.0+neoforge" = _2I1HdVBa;
-        "default" = _2I1HdVBa;
+        "pkg-v0.3.0+fabric" = _hPvFMdsC;
+        "pkg-v0.3.0+forge" = _N2MNssqe;
+        "pkg-v0.3.0+neoforge" = _sBMG0JOR;
+        "pkg-v0.4.0+fabric" = _YklnbvXo;
+        "pkg-v0.4.0+forge" = _e6aTzXhv;
+        "pkg-v0.4.0+neoforge" = _bDMmDe6O;
+        "pkg-v0.5.0+fabric" = _X2TC03ur;
+        "pkg-v0.5.0+forge" = _ObbHCBq1;
+        "pkg-v0.5.0+neoforge" = _jQdBzB9o;
+        "default" = _jQdBzB9o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ender-chest-persistence";

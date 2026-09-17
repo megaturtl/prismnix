@@ -201,6 +201,21 @@ let
             "file" = "village_mod-1.4.4.jar";
             "hash" = "sha512-uSVqazQ+vCf65RpFAgJIFDhjSCzU1v5KF40GaC1YX5oMLbrtK0VhUCGymA7+HtZXo8rcQymEdLUA0xV1vyh/sw==";
         };
+        _jULRDgre = {
+            "id" = "jULRDgre";
+            "file" = "village_mod-1.4.4-fix.jar";
+            "hash" = "sha512-UCgTe3ffkQz1Y7+66PKOHwZndXApIbsUgVwh1q64dK8NeADieymtai0MhhBBKZhDuueJuf8vxMgE2OXEYtZzaw==";
+        };
+        _DbZqE3Wr = {
+            "id" = "DbZqE3Wr";
+            "file" = "village_mod-1.4.5-beta.jar";
+            "hash" = "sha512-0qjGXxXb06T22YZGaE/GNPZOjSYHTieP2HjcWJ/F7X4buMjYmXw3PGoGreWP1nb7AoNFQZyPWT8lgHE6lChy1g==";
+        };
+        _v8zmi09g = {
+            "id" = "v8zmi09g";
+            "file" = "village_mod-1.4.5.jar";
+            "hash" = "sha512-ovdHf4LrpQ/cbnSiE2HhnHuYfNosfkEaasdmjVjBRCHCTeOdnWiO4f0LcWgkho116ZWCH8ARWL9VUelaru5wBA==";
+        };
     in {
         "logoK6Wc" = _logoK6Wc;
         "Q7KZg86P" = _Q7KZg86P;
@@ -242,7 +257,10 @@ let
         "dP3uOAeb" = _dP3uOAeb;
         "hrTglqFL" = _hrTglqFL;
         "ltDT5Sai" = _ltDT5Sai;
-        "forge-1.20.1" = _ltDT5Sai;
+        "jULRDgre" = _jULRDgre;
+        "DbZqE3Wr" = _DbZqE3Wr;
+        "v8zmi09g" = _v8zmi09g;
+        "forge-1.20.1" = _v8zmi09g;
         "pkg-1.0.4-fix" = _logoK6Wc;
         "pkg-1.0.9" = _Q7KZg86P;
         "pkg-1.1.1" = _2ynTZ7rc;
@@ -283,7 +301,10 @@ let
         "pkg-1.4.3-fix" = _dP3uOAeb;
         "pkg-1.4.4-beta" = _hrTglqFL;
         "pkg-1.4.4" = _ltDT5Sai;
-        "default" = _ltDT5Sai;
+        "pkg-1.4.4-fix" = _jULRDgre;
+        "pkg-1.4.5-beta" = _DbZqE3Wr;
+        "pkg-1.4.5" = _v8zmi09g;
+        "default" = _v8zmi09g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "village_revolution";

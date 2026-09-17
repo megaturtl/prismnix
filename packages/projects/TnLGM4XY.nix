@@ -86,6 +86,21 @@ let
             "file" = "keegsweapons-0.7.1-1.21.11.jar";
             "hash" = "sha512-KmhYiOKXoPBmwnD+qLCMb3ogANVF0AOkVUuNiP1ScgC0Pg3bWKf/xyuMPm+76hRYfBzyL6zgv9wOyCYHSYMbIw==";
         };
+        _PU98CuV2 = {
+            "id" = "PU98CuV2";
+            "file" = "keegsweapons-0.7.2-1.21.11.jar";
+            "hash" = "sha512-cnoJQ9OV/GBbym0y8IcdG+l7B6fPcMLqrR1E9jj+pZ0eKDG8SJwhDHbqNg707QPgKwjjAcFXp/0Oguq1uasXFQ==";
+        };
+        _2URNUmii = {
+            "id" = "2URNUmii";
+            "file" = "keegsweapons-0.7.2-26.1.jar";
+            "hash" = "sha512-yPcXuOfdbrzWn5VlbKqH1YPSj3SpCB2uG8eFxLUM66CgLVqk5NINzcHm0+eFCpMhTclpF6I5+S+spoxa0FRfWQ==";
+        };
+        _BjCDGo9f = {
+            "id" = "BjCDGo9f";
+            "file" = "keegsweapons-0.7.2-26.2.jar";
+            "hash" = "sha512-k8RmkzTLkjbMxxj26JS0P3nXyLvAvOb5GlnTcqVR5U2Qq+5rhIaV8uJtqdpqYcKPUl32Gb0pSlLVQMoAaM1aog==";
+        };
     in {
         "8DwSvTSc" = _8DwSvTSc;
         "MbrmYN4U" = _MbrmYN4U;
@@ -104,12 +119,15 @@ let
         "TITeSGM1" = _TITeSGM1;
         "3Rg26M36" = _3Rg26M36;
         "5RrzYoBy" = _5RrzYoBy;
+        "PU98CuV2" = _PU98CuV2;
+        "2URNUmii" = _2URNUmii;
+        "BjCDGo9f" = _BjCDGo9f;
         "forge-1.20.1" = _JAnNvUmV;
-        "fabric-1.21.11" = _5RrzYoBy;
-        "fabric-26.1" = _TITeSGM1;
-        "fabric-26.1.1" = _TITeSGM1;
-        "fabric-26.1.2" = _TITeSGM1;
-        "fabric-26.2" = _3Rg26M36;
+        "fabric-1.21.11" = _PU98CuV2;
+        "fabric-26.1" = _2URNUmii;
+        "fabric-26.1.1" = _2URNUmii;
+        "fabric-26.1.2" = _2URNUmii;
+        "fabric-26.2" = _BjCDGo9f;
         "pkg-0.2.0" = _8DwSvTSc;
         "pkg-0.2.2" = _MbrmYN4U;
         "pkg-0.4.0" = _5OFLMXfG;
@@ -127,7 +145,10 @@ let
         "pkg-0.7.1-26.1" = _TITeSGM1;
         "pkg-0.7.1-26.2" = _3Rg26M36;
         "pkg-0.7.1-1.21.11" = _5RrzYoBy;
-        "default" = _5RrzYoBy;
+        "pkg-0.7.2-1.21.11" = _PU98CuV2;
+        "pkg-0.7.2-26.1" = _2URNUmii;
+        "pkg-0.7.2-26.2" = _BjCDGo9f;
+        "default" = _BjCDGo9f;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "keegs-weapon-mod";

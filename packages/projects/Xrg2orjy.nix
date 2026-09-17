@@ -61,6 +61,16 @@ let
             "file" = "tbirds-structures-1.1.2.jar";
             "hash" = "sha512-yozianRrhIifC+m3AGvy30X1jDktUkGZMKeWom0nSntWBuMdwXVvlOyEci0os/WOhnCtjY9GC2YOFvANCmGowg==";
         };
+        _SxSnBnuH = {
+            "id" = "SxSnBnuH";
+            "file" = "[26.3]tbirds_structures.zip";
+            "hash" = "sha512-UX9AZA1IRQ9XzvErP/E86sHpLSkp7P0iZPyQxIZoWPi0Qpn+jUVUtg/yzKXBx+bHS8LlGudL/5ko0uwWKXE43g==";
+        };
+        _AgrPw8FY = {
+            "id" = "AgrPw8FY";
+            "file" = "tbirds-structures-1.2.jar";
+            "hash" = "sha512-Pvvruc0DtpQm7XmD65dZQKfIAZkkzTrPv8iOcaPlXPGDKczFm7HS+41pkwF4jdeuoDvS0a1LU3kDs4Bo9JQQ7g==";
+        };
     in {
         "sdNagXM6" = _sdNagXM6;
         "JPoMsOEB" = _JPoMsOEB;
@@ -74,6 +84,8 @@ let
         "6gEeUXEX" = _6gEeUXEX;
         "ASoLYw7P" = _ASoLYw7P;
         "3g26ed3n" = _3g26ed3n;
+        "SxSnBnuH" = _SxSnBnuH;
+        "AgrPw8FY" = _AgrPw8FY;
         "datapack-1.20.5" = _sdNagXM6;
         "datapack-1.20.6" = _sdNagXM6;
         "datapack-1.21" = _ychQXAKy;
@@ -92,6 +104,7 @@ let
         "datapack-26.1.1" = _ASoLYw7P;
         "datapack-26.1.2" = _ASoLYw7P;
         "datapack-26.2" = _ASoLYw7P;
+        "datapack-26.3" = _SxSnBnuH;
         "fabric-1.20.5" = _JPoMsOEB;
         "fabric-1.20.6" = _JPoMsOEB;
         "fabric-1.21" = _qxA9cXuF;
@@ -110,6 +123,7 @@ let
         "fabric-26.1.1" = _3g26ed3n;
         "fabric-26.1.2" = _3g26ed3n;
         "fabric-26.2" = _3g26ed3n;
+        "fabric-26.3" = _AgrPw8FY;
         "forge-1.20.5" = _JPoMsOEB;
         "forge-1.20.6" = _JPoMsOEB;
         "forge-1.21" = _qxA9cXuF;
@@ -128,6 +142,7 @@ let
         "forge-26.1.1" = _3g26ed3n;
         "forge-26.1.2" = _3g26ed3n;
         "forge-26.2" = _3g26ed3n;
+        "forge-26.3" = _AgrPw8FY;
         "neoforge-1.20.5" = _JPoMsOEB;
         "neoforge-1.20.6" = _JPoMsOEB;
         "neoforge-1.21" = _qxA9cXuF;
@@ -146,6 +161,7 @@ let
         "neoforge-26.1.1" = _3g26ed3n;
         "neoforge-26.1.2" = _3g26ed3n;
         "neoforge-26.2" = _3g26ed3n;
+        "neoforge-26.3" = _AgrPw8FY;
         "quilt-1.20.5" = _JPoMsOEB;
         "quilt-1.20.6" = _JPoMsOEB;
         "quilt-1.21" = _qxA9cXuF;
@@ -164,6 +180,7 @@ let
         "quilt-26.1.1" = _3g26ed3n;
         "quilt-26.1.2" = _3g26ed3n;
         "quilt-26.2" = _3g26ed3n;
+        "quilt-26.3" = _AgrPw8FY;
         "pkg-1.0.0" = _sdNagXM6;
         "pkg-1.0.0+mod" = _JPoMsOEB;
         "pkg-1.0.1" = _ychQXAKy;
@@ -176,7 +193,9 @@ let
         "pkg-1.1.1+mod" = _6gEeUXEX;
         "pkg-1.1.2" = _ASoLYw7P;
         "pkg-1.1.2+mod" = _3g26ed3n;
-        "default" = _3g26ed3n;
+        "pkg-1.2" = _SxSnBnuH;
+        "pkg-1.2+mod" = _AgrPw8FY;
+        "default" = _AgrPw8FY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tbirds-structures";

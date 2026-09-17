@@ -271,6 +271,46 @@ let
             "file" = "fix-mc-stats-fabric-26.2-2.4.2.jar";
             "hash" = "sha512-SERMptdu+RANeVQBbG6jtkHHNUSlpgav+UgQQIm91JDVPf7TgXCvZXSFFCTry1GdyKGRYzSfMPmq509ftFQazA==";
         };
+        _DNl5t9YH = {
+            "id" = "DNl5t9YH";
+            "file" = "fix-mc-stats-neoforge-26.2-2.4.3.jar";
+            "hash" = "sha512-xok6UV03ZPlxIqUDk9xks3CiQWEGYRjKG6lfE026vjBz/EinyIlxOO435I5gNGZq2eqN9NeXY4p6uiF91EAi+w==";
+        };
+        _KYYQqEh0 = {
+            "id" = "KYYQqEh0";
+            "file" = "fix-mc-stats-fabric-26.2-2.4.3.jar";
+            "hash" = "sha512-kIuml5VEM6Lwuuh/DDcGwLYRXnm+x50IRQtJX1SS1XfYxEU6p7G7+83UCZ68RG12ZOJjJb2WbuD2X/lpcnyAvQ==";
+        };
+        _TbG7sUyV = {
+            "id" = "TbG7sUyV";
+            "file" = "fix-mc-stats-neoforge-1.21.11-2.4.3.jar";
+            "hash" = "sha512-SFOqMxPxTkavrtQU1gcu+xJeZ0iuJS3XN9HpsgFem/NDHT1nYJmXBfke9H9PM3rDt98Q7ElbfTbftLfs148lsg==";
+        };
+        _ipIfV3jK = {
+            "id" = "ipIfV3jK";
+            "file" = "fix-mc-stats-fabric-1.21.11-2.4.3.jar";
+            "hash" = "sha512-E7dGmDgHouw9+63HPHEWCvBXW9Rdm1YYxngOLMQ+KleS28CaEl1mFz2GCyv898ZkWxqpzpdPNEJOrNzNF1T0nw==";
+        };
+        _HaniL23I = {
+            "id" = "HaniL23I";
+            "file" = "fix-mc-stats-neoforge-26.1-2.4.3.jar";
+            "hash" = "sha512-aGLO6f8KObOKA9dgOTmCWQ1qK+pB+5Q10u8g+1alPPheP8vZjTSsNcJ2VHYJIUkxFnQcR7yjaPRXzKXLb9JS5g==";
+        };
+        _851focDx = {
+            "id" = "851focDx";
+            "file" = "fix-mc-stats-fabric-26.1-2.4.3.jar";
+            "hash" = "sha512-nsAnWnzgxQFqM3dKP6XTP1PgB2ejybUQwCubdEJNOtl3/gAiNj+zRSsvITYZ+014HYUaQ6kwyzE4QZRB5Pn/Ew==";
+        };
+        _AgSzpALs = {
+            "id" = "AgSzpALs";
+            "file" = "fix-mc-stats-neoforge-26.3-2.5.0-SNAPSHOT.jar";
+            "hash" = "sha512-nmQ555QIo05KwTbElFxoODSBxOtitNZx9FHhILIRxA0qaNfo4OJFBUeqry+JqXqtaUhjChoBhvaWLp+rrRU+vA==";
+        };
+        _KiACqU67 = {
+            "id" = "KiACqU67";
+            "file" = "fix-mc-stats-fabric-26.3-2.5.0.jar";
+            "hash" = "sha512-M2kCWxUyTQsUYl5fimD99e1TAOrSAAFJfW8Le6ZFY+osLMIEf17X4wIrCgjREHLMbVaKbHPhTvrzR6UuAHtYqA==";
+        };
     in {
         "pdNcFMrl" = _pdNcFMrl;
         "oEIhJOYC" = _oEIhJOYC;
@@ -326,6 +366,14 @@ let
         "5f3T1FYM" = _5f3T1FYM;
         "DrPkek1i" = _DrPkek1i;
         "TQlr7aHc" = _TQlr7aHc;
+        "DNl5t9YH" = _DNl5t9YH;
+        "KYYQqEh0" = _KYYQqEh0;
+        "TbG7sUyV" = _TbG7sUyV;
+        "ipIfV3jK" = _ipIfV3jK;
+        "HaniL23I" = _HaniL23I;
+        "851focDx" = _851focDx;
+        "AgSzpALs" = _AgSzpALs;
+        "KiACqU67" = _KiACqU67;
         "fabric-1.20.4" = _cbxj3mC1;
         "fabric-1.20.5" = _GJ4P0QDq;
         "fabric-1.20.6" = _GJ4P0QDq;
@@ -340,13 +388,14 @@ let
         "fabric-1.21.8" = _XziUtBSr;
         "fabric-1.21.9" = _nzp5EPh8;
         "fabric-1.21.10" = _nzp5EPh8;
-        "fabric-1.21.11" = _yFrzHN4Z;
-        "fabric-26.1" = _5f3T1FYM;
+        "fabric-1.21.11" = _ipIfV3jK;
+        "fabric-26.1" = _851focDx;
         "fabric-26.1.1-rc-1" = _HjYPJTTL;
-        "fabric-26.1.1" = _5f3T1FYM;
+        "fabric-26.1.1" = _851focDx;
         "fabric-26.1.2-rc-1" = _HjYPJTTL;
-        "fabric-26.1.2" = _5f3T1FYM;
-        "fabric-26.2" = _TQlr7aHc;
+        "fabric-26.1.2" = _851focDx;
+        "fabric-26.2" = _KYYQqEh0;
+        "fabric-26.3" = _KiACqU67;
         "quilt-1.20.4" = _cbxj3mC1;
         "quilt-1.20.5" = _GJ4P0QDq;
         "quilt-1.20.6" = _GJ4P0QDq;
@@ -361,21 +410,23 @@ let
         "quilt-1.21.8" = _XziUtBSr;
         "quilt-1.21.9" = _nzp5EPh8;
         "quilt-1.21.10" = _nzp5EPh8;
-        "quilt-1.21.11" = _yFrzHN4Z;
-        "quilt-26.1" = _5f3T1FYM;
+        "quilt-1.21.11" = _ipIfV3jK;
+        "quilt-26.1" = _851focDx;
         "quilt-26.1.1-rc-1" = _HjYPJTTL;
-        "quilt-26.1.1" = _5f3T1FYM;
+        "quilt-26.1.1" = _851focDx;
         "quilt-26.1.2-rc-1" = _HjYPJTTL;
-        "quilt-26.1.2" = _5f3T1FYM;
-        "quilt-26.2" = _TQlr7aHc;
-        "neoforge-1.21.11" = _3nSfwZfU;
+        "quilt-26.1.2" = _851focDx;
+        "quilt-26.2" = _KYYQqEh0;
+        "quilt-26.3" = _KiACqU67;
+        "neoforge-1.21.11" = _TbG7sUyV;
         "neoforge-1.21" = _39MxXWdh;
         "neoforge-1.21.1" = _39MxXWdh;
-        "neoforge-26.1" = _HipRgzhW;
+        "neoforge-26.1" = _HaniL23I;
         "neoforge-26.1.1-rc-1" = _zVVQGLxD;
-        "neoforge-26.1.1" = _HipRgzhW;
-        "neoforge-26.1.2" = _HipRgzhW;
-        "neoforge-26.2" = _DrPkek1i;
+        "neoforge-26.1.1" = _HaniL23I;
+        "neoforge-26.1.2" = _HaniL23I;
+        "neoforge-26.2" = _DNl5t9YH;
+        "neoforge-26.3" = _AgSzpALs;
         "pkg-1.0.0-SNAPSHOT" = _VzAydmfq;
         "pkg-1.0.0" = _cbxj3mC1;
         "pkg-1.0.1" = _BH6v5Q5G;
@@ -428,7 +479,15 @@ let
         "pkg-fabric-2.4.2+26.1.2" = _5f3T1FYM;
         "pkg-neoforge-2.4.2" = _DrPkek1i;
         "pkg-fabric-2.4.2" = _TQlr7aHc;
-        "default" = _TQlr7aHc;
+        "pkg-neoforge-2.4.3" = _DNl5t9YH;
+        "pkg-fabric-2.4.3" = _KYYQqEh0;
+        "pkg-neoforge-2.4.3+1.21.11" = _TbG7sUyV;
+        "pkg-fabric-2.4.3+1.21.11" = _ipIfV3jK;
+        "pkg-neoforge-2.4.3+26.1.2" = _HaniL23I;
+        "pkg-fabric-2.4.3+26.1.2" = _851focDx;
+        "pkg-neoforge-2.5.0-SNAPSHOT-1" = _AgSzpALs;
+        "pkg-fabric-2.5.0" = _KiACqU67;
+        "default" = _KiACqU67;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fixmcstats";

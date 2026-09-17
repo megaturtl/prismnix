@@ -11,14 +11,21 @@ let
             "file" = "Female-Aliens.jar";
             "hash" = "sha512-g+GaxGjTneH9lr5tO+sm3RSMp7tnrvbcFH6fhy/1Gljbq5cKaFrkRflBdgYwrEv77/rw0A6U3wP3Ix1OivLZ5Q==";
         };
+        _Yxxy8eue = {
+            "id" = "Yxxy8eue";
+            "file" = "Female-Aliens.jar";
+            "hash" = "sha512-G1CmZ7IS6g6SuWCRYq0xy8Yc9XYRUV0tLRmB9bq6mxkgut26ghubC1wWwJWN9yHv20xIO/QI+7yO0VYbGztWfg==";
+        };
     in {
         "BrlqeODT" = _BrlqeODT;
         "FzUr4nsv" = _FzUr4nsv;
-        "fabric-1.20.1" = _FzUr4nsv;
-        "forge-1.20.1" = _FzUr4nsv;
+        "Yxxy8eue" = _Yxxy8eue;
+        "fabric-1.20.1" = _Yxxy8eue;
+        "forge-1.20.1" = _Yxxy8eue;
         "pkg-1.0.0" = _BrlqeODT;
         "pkg-V4" = _FzUr4nsv;
-        "default" = _FzUr4nsv;
+        "pkg-v7" = _Yxxy8eue;
+        "default" = _Yxxy8eue;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "alien-evo-addon-female-aliens";

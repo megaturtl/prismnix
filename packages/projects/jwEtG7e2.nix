@@ -46,6 +46,16 @@ let
             "file" = "Custom Elytra DP (v1.2) [1.21.9 - 26.2].zip";
             "hash" = "sha512-vxIaQ018+oFR/CuaE9QP0ogHbu37bKqsPGKS4IVGnvuKLoqWBgiUA4mNwUcbRRJsmqBxz9UQg1UZ2HmhSxGeiw==";
         };
+        _QJZnK47d = {
+            "id" = "QJZnK47d";
+            "file" = "Custom Elytra DP (v1.3) [1.21.9 - 26.2].zip";
+            "hash" = "sha512-jM9OVXcZP6XzeLsHy9422y1lYkWWPUO9PnycotfEMja0fUFxaTRYhttoEEOV757YAzJPZex6Bod4JzxGLTv+fw==";
+        };
+        _2fESzsSN = {
+            "id" = "2fESzsSN";
+            "file" = "Custom Elytra DP (v1.3) [26.3].zip";
+            "hash" = "sha512-+71VScMYG2CKWDHsGmCM3D3LQspgiJSWoPMQTEkH0ZQH+rmCgZA6ZMCNFktj7ci4J32mfRPmTm5wLQ8b7c0c9g==";
+        };
     in {
         "Yl05OEnN" = _Yl05OEnN;
         "4QolOqwD" = _4QolOqwD;
@@ -56,17 +66,20 @@ let
         "c0bIhTNu" = _c0bIhTNu;
         "uDqxAokG" = _uDqxAokG;
         "P2C8Z0Fj" = _P2C8Z0Fj;
+        "QJZnK47d" = _QJZnK47d;
+        "2fESzsSN" = _2fESzsSN;
         "datapack-1.21.5" = _Yl05OEnN;
         "datapack-1.21.6" = _Yl05OEnN;
         "datapack-1.21.7" = _Yl05OEnN;
         "datapack-1.21.8" = _Yl05OEnN;
-        "datapack-1.21.9" = _P2C8Z0Fj;
-        "datapack-1.21.10" = _P2C8Z0Fj;
-        "datapack-1.21.11" = _P2C8Z0Fj;
-        "datapack-26.1" = _P2C8Z0Fj;
-        "datapack-26.1.1" = _P2C8Z0Fj;
-        "datapack-26.1.2" = _P2C8Z0Fj;
-        "datapack-26.2" = _P2C8Z0Fj;
+        "datapack-1.21.9" = _QJZnK47d;
+        "datapack-1.21.10" = _QJZnK47d;
+        "datapack-1.21.11" = _QJZnK47d;
+        "datapack-26.1" = _QJZnK47d;
+        "datapack-26.1.1" = _QJZnK47d;
+        "datapack-26.1.2" = _QJZnK47d;
+        "datapack-26.2" = _QJZnK47d;
+        "datapack-26.3" = _2fESzsSN;
         "fabric-1.21.9" = _uDqxAokG;
         "fabric-1.21.10" = _uDqxAokG;
         "fabric-1.21.11" = _uDqxAokG;
@@ -84,7 +97,8 @@ let
         "pkg-1.1" = _c0bIhTNu;
         "pkg-1.1+mod" = _uDqxAokG;
         "pkg-1.2" = _P2C8Z0Fj;
-        "default" = _P2C8Z0Fj;
+        "pkg-1.3" = _2fESzsSN;
+        "default" = _2fESzsSN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-elytra-dp";

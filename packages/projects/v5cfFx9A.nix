@@ -181,6 +181,11 @@ let
             "file" = "omakasemobu-26.2-1.2.1.jar";
             "hash" = "sha512-GIwKO6vfSYBLSVvBs0cflJcTFvFoZcmvMlt2NAZTqpreW2ND2uR+6c+ere2BKzeXvFLsqrY4PYVqlxfvRHtuOQ==";
         };
+        _4Ak6Kl3b = {
+            "id" = "4Ak6Kl3b";
+            "file" = "omakasemobu-26.3-1.2.1.jar";
+            "hash" = "sha512-P3saIzPOUnP1Z/4p1Rh9A0Z6PSQOjP0SRcmPDR/OqmS0Q6FpHSLO5YEDAMXSv+rk4gSVT1/h1Nshj3R/HCMAMA==";
+        };
     in {
         "qovzkPT6" = _qovzkPT6;
         "HrAt9Pvh" = _HrAt9Pvh;
@@ -218,6 +223,7 @@ let
         "iapjoDxt" = _iapjoDxt;
         "xthy3GXc" = _xthy3GXc;
         "kqypRxth" = _kqypRxth;
+        "4Ak6Kl3b" = _4Ak6Kl3b;
         "fabric-1.21.4" = _ymNpoh3H;
         "fabric-1.21.3" = _pWxAfUku;
         "fabric-1.21.1" = _AeAJ9Gdu;
@@ -233,14 +239,15 @@ let
         "fabric-26.1.1" = _iapjoDxt;
         "fabric-26.1.2" = _xthy3GXc;
         "fabric-26.2" = _kqypRxth;
+        "fabric-26.3" = _4Ak6Kl3b;
         "pkg-1.0.0" = _qovzkPT6;
         "pkg-1.1.0" = _F00WxC18;
         "pkg-1.1.1" = _QJPJWc1j;
         "pkg-1.1.2" = _VZrZJm63;
         "pkg-1.1.2-rc1" = _VO5oVfgr;
         "pkg-1.2.0" = _zt4ftZva;
-        "pkg-1.2.1" = _kqypRxth;
-        "default" = _kqypRxth;
+        "pkg-1.2.1" = _4Ak6Kl3b;
+        "default" = _4Ak6Kl3b;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mobrandomizer";

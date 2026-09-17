@@ -71,6 +71,11 @@ let
             "file" = "createultimine-1.20.1-forge-1.3.1.jar";
             "hash" = "sha512-oVEX5v90ZhMlqqYR5zhUNLZzdv7wZj7dJJ8e+1axNC37rJfNNptLy2vpjpJZbf2PgZTVP3BLvBNhXisJqZvOcg==";
         };
+        _tpYldd7D = {
+            "id" = "tpYldd7D";
+            "file" = "createultimine-1.21.1-neoforge-1.3.3.jar";
+            "hash" = "sha512-FWV6/hQ3O9AtJj1LTlra36ZJ3ArcaT3y2bd3nFMpbRjMXo8UFgjauNi0UHIh5OxQ00xo2YGaANxbvPvUlKDfbg==";
+        };
     in {
         "cmtzyXop" = _cmtzyXop;
         "I115UR2F" = _I115UR2F;
@@ -86,7 +91,8 @@ let
         "r78Cmbf9" = _r78Cmbf9;
         "C7MwM0Vd" = _C7MwM0Vd;
         "v1WWGazc" = _v1WWGazc;
-        "neoforge-1.21.1" = _C7MwM0Vd;
+        "tpYldd7D" = _tpYldd7D;
+        "neoforge-1.21.1" = _tpYldd7D;
         "forge-1.20.1" = _v1WWGazc;
         "pkg-1.0.0" = _cmtzyXop;
         "pkg-1.21.1-neoforge-1.1.0" = _I115UR2F;
@@ -102,7 +108,8 @@ let
         "pkg-1.12.1-neoforge-1.3.1" = _r78Cmbf9;
         "pkg-1.21.1-neoforge-1.3.2" = _C7MwM0Vd;
         "pkg-1.20.1-forge-1.3.1" = _v1WWGazc;
-        "default" = _v1WWGazc;
+        "pkg-1.21.1-neoforge-1.3.3" = _tpYldd7D;
+        "default" = _tpYldd7D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-ultimine";

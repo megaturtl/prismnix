@@ -86,6 +86,26 @@ let
             "file" = "craftingstationjei-26.1.1-NeoForge-2.1.2.jar";
             "hash" = "sha512-CIV7etJp7Sdp+z6ZesFzOwnWgSei/MvbDTUf1DkPhGXSEMBrzFDp3GJUQv83EUC2cjMQc8NiEEV8tbczUz5Ypg==";
         };
+        _2H4YQKBa = {
+            "id" = "2H4YQKBa";
+            "file" = "craftingstationjei-1.19.2-Forge-2.2.0.jar";
+            "hash" = "sha512-dEXk6SkFjoFQdWpevT+sCGmmsoxtIctwZpWkXYFP4EcnR/pnJxRErJjkYgSd3ASalUCOFxY94TnP/DcDWuNB4g==";
+        };
+        _eyiVr1Bg = {
+            "id" = "eyiVr1Bg";
+            "file" = "craftingstationjei-1.20.1-Forge-2.2.0.jar";
+            "hash" = "sha512-X/n/mDBFcez0o3Ji52L0RubZoKjj86iZ9NCvyg3iF/4FYFa/PzNDjlHCcS9knqkP1rpChQh+bQKo6UxRVhLO5g==";
+        };
+        _6lXMuXkE = {
+            "id" = "6lXMuXkE";
+            "file" = "craftingstationjei-1.21.1-NeoForge-2.2.0.jar";
+            "hash" = "sha512-kojd+928ntX47EmUxH0oKmFFG7TicFigGcHrsujyOktD0hrDdI28afFmmPb56CQZGVm/pXh9+9lEYuK/vjBulA==";
+        };
+        _JgexdMjN = {
+            "id" = "JgexdMjN";
+            "file" = "craftingstationjei-26.1.1-NeoForge-2.2.0.jar";
+            "hash" = "sha512-lFIDzaHCVKmG/xISxN3UvwIUxqMo4Qqrm8XkIJluCqjyxoiQTYs+k6Hr5g5PbHq6IRRD6zy0YWw/LoedTLhY7A==";
+        };
     in {
         "5SywrpuC" = _5SywrpuC;
         "zZMySQtk" = _zZMySQtk;
@@ -104,12 +124,17 @@ let
         "XBqcaip5" = _XBqcaip5;
         "sy85bMx1" = _sy85bMx1;
         "30Ubdr81" = _30Ubdr81;
-        "neoforge-1.21.1" = _XBqcaip5;
-        "neoforge-26.1.1" = _30Ubdr81;
-        "neoforge-26.1" = _30Ubdr81;
-        "neoforge-26.1.2" = _30Ubdr81;
+        "2H4YQKBa" = _2H4YQKBa;
+        "eyiVr1Bg" = _eyiVr1Bg;
+        "6lXMuXkE" = _6lXMuXkE;
+        "JgexdMjN" = _JgexdMjN;
+        "neoforge-1.21.1" = _6lXMuXkE;
+        "neoforge-26.1.1" = _JgexdMjN;
+        "neoforge-26.1" = _JgexdMjN;
+        "neoforge-26.1.2" = _JgexdMjN;
         "fabric-1.21.1" = _zZMySQtk;
-        "forge-1.20.1" = _x9Vci089;
+        "forge-1.20.1" = _eyiVr1Bg;
+        "forge-1.19.2" = _2H4YQKBa;
         "pkg-1.6.5" = _5SywrpuC;
         "pkg-1.6.4" = _zZMySQtk;
         "pkg-1.6.6" = _aGr8MCiC;
@@ -117,7 +142,8 @@ let
         "pkg-2.1.0" = _kRqRuwPz;
         "pkg-2.1.1" = _sy85bMx1;
         "pkg-2.1.2" = _30Ubdr81;
-        "default" = _30Ubdr81;
+        "pkg-2.2.0" = _JgexdMjN;
+        "default" = _JgexdMjN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crafting-station-jei-edition-updated";

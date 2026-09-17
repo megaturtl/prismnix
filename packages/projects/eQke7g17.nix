@@ -216,6 +216,26 @@ let
             "file" = "wWaypoints 0.7.3 26.2.jar";
             "hash" = "sha512-hrD62LcVgYtwZsm1MSYxaXgNcCLEL6O4L3sFlJ4Zvxd9EEGf+RJwmpcuz3gD41H287Y6PkH7a34A91Z6fF/mAg==";
         };
+        _8hPTY1SS = {
+            "id" = "8hPTY1SS";
+            "file" = "wWaypoints 0.8.0 Fabric 1.21.11.jar";
+            "hash" = "sha512-8YrWSDQ0w0u3NXPetRGhYoNCa1K0qR7R2YYZRWvdEC+pT0xr6tIJEBNIhN2FSshWIbc5npVcOFPY5M3xz3c9IQ==";
+        };
+        _pX4mxVAv = {
+            "id" = "pX4mxVAv";
+            "file" = "wWaypoints 0.8.0 Fabric 26.1-26.1.2.jar";
+            "hash" = "sha512-aNZcqY8+1djmut5DUtE9CGXTkMiv2WwtWV2YVilbXIhk6sLpM6kPerLLmkX+xM89x3AEVZxcC1rKe/JUIY2q1w==";
+        };
+        _vudKzlxH = {
+            "id" = "vudKzlxH";
+            "file" = "wWaypoints 0.8.0 Fabric 26.2.jar";
+            "hash" = "sha512-d7aXLWHNhbw+NhcvHkjh1pCXK4SJQy2ODktXBDiThqf202StrZmSO35BcuHnVTcESmOCsmJyrXNMzZFZswMElA==";
+        };
+        _mgo409Pu = {
+            "id" = "mgo409Pu";
+            "file" = "wWaypoints 0.8.0 Fabric 26.3.jar";
+            "hash" = "sha512-pj4/xGsfv6TTjGAsZfhBqmOnoBHHVEy5AL1ian5ngTo/KKAy7sq12edsjh9qTrdpzJiXkGvNykXaeimsS/K/aA==";
+        };
     in {
         "Z0M1dfYK" = _Z0M1dfYK;
         "26TNbCp1" = _26TNbCp1;
@@ -260,7 +280,11 @@ let
         "kCkt5CMP" = _kCkt5CMP;
         "1xYTx7MD" = _1xYTx7MD;
         "2ycXzqU3" = _2ycXzqU3;
-        "fabric-1.21.11" = _kCkt5CMP;
+        "8hPTY1SS" = _8hPTY1SS;
+        "pX4mxVAv" = _pX4mxVAv;
+        "vudKzlxH" = _vudKzlxH;
+        "mgo409Pu" = _mgo409Pu;
+        "fabric-1.21.11" = _8hPTY1SS;
         "fabric-1.21.8" = _mgR38OPc;
         "fabric-1.21.6" = _mgR38OPc;
         "fabric-1.21.7" = _mgR38OPc;
@@ -272,15 +296,17 @@ let
         "fabric-1.21.3" = _PRQ8k8Af;
         "fabric-1.21" = _Vl8UDsvK;
         "fabric-1.21.1" = _Vl8UDsvK;
-        "fabric-26.1" = _1xYTx7MD;
-        "fabric-26.1.1" = _1xYTx7MD;
-        "fabric-26.1.2" = _1xYTx7MD;
-        "fabric-26.2" = _2ycXzqU3;
-        "quilt-1.21.11" = _kCkt5CMP;
-        "quilt-26.2" = _2ycXzqU3;
-        "quilt-26.1" = _1xYTx7MD;
-        "quilt-26.1.1" = _1xYTx7MD;
-        "quilt-26.1.2" = _1xYTx7MD;
+        "fabric-26.1" = _pX4mxVAv;
+        "fabric-26.1.1" = _pX4mxVAv;
+        "fabric-26.1.2" = _pX4mxVAv;
+        "fabric-26.2" = _vudKzlxH;
+        "fabric-26.3" = _mgo409Pu;
+        "quilt-1.21.11" = _8hPTY1SS;
+        "quilt-26.2" = _vudKzlxH;
+        "quilt-26.1" = _pX4mxVAv;
+        "quilt-26.1.1" = _pX4mxVAv;
+        "quilt-26.1.2" = _pX4mxVAv;
+        "quilt-26.3" = _mgo409Pu;
         "pkg-0.1.0" = _26TNbCp1;
         "pkg-0.2.0" = _Vl8UDsvK;
         "pkg-0.3.0" = _bVIrMVp4;
@@ -299,7 +325,8 @@ let
         "pkg-0.7.1" = _IebvBtfV;
         "pkg-0.7.2" = _reAALVfG;
         "pkg-0.7.3" = _2ycXzqU3;
-        "default" = _2ycXzqU3;
+        "pkg-0.8.0" = _mgo409Pu;
+        "default" = _mgo409Pu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wwaypoints";

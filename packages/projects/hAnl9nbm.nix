@@ -301,6 +301,56 @@ let
             "file" = "knightlib-fabric-1.20.1-1.6.1.jar";
             "hash" = "sha512-tduOOqHVQMwDkKvj6uvThDwG5bIXgNgVxIT/sPJ2DhdnBuQhLN4jcEVldHIK8bvGtilzitm7gxFXzFry5HAbqg==";
         };
+        _HTwELoXu = {
+            "id" = "HTwELoXu";
+            "file" = "knightlib-forge-1.20.1-2.0.0.jar";
+            "hash" = "sha512-X3qzb7aO6yoYPvV5r7JwBByOt2mkJ+c6dbA7cKMbwyMnZSG5qWSU7p9UXTEKlSGIuCQ1mB/c2Wm4rpbGTjL/rg==";
+        };
+        _HgGJqdM0 = {
+            "id" = "HgGJqdM0";
+            "file" = "knightlib-fabric-1.20.1-2.0.0.jar";
+            "hash" = "sha512-nCD5ZN69wxMCLzNYhRheAd3GKgxkTwXWRpAwQbbUvJTjJgJsnxNHSGe3dQypwjPWmbyShd1SCGjwFIZ3c1z3bw==";
+        };
+        _QXiGozAh = {
+            "id" = "QXiGozAh";
+            "file" = "knightlib-forge-1.20.1-2.0.1.jar";
+            "hash" = "sha512-MvYqTwcl5c/DIcP8oFBvSvPvajIXgrlkeZyiIFvVZZ69wT++weNgocRDWoaHy35B88cx0wVW0iEn7XLMRmINkg==";
+        };
+        _uzoRjcMo = {
+            "id" = "uzoRjcMo";
+            "file" = "knightlib-fabric-1.20.1-2.0.1.jar";
+            "hash" = "sha512-ixu6qXmgvc1dVefmdY2SzM91UEsS/vGaW78twVYZhnaFuE7MnzUeFnAi0WLfAIaQySs4RJKdba4lxiCnY8M91Q==";
+        };
+        _r0nWCl0F = {
+            "id" = "r0nWCl0F";
+            "file" = "knightlib-fabric-1.21.1-1.6.2.jar";
+            "hash" = "sha512-O7LfznFkH16zpBWEJ+SL6+EjdHwZBksvwKmFUARao50VqXo8igm2QXOGJwTOEGnvE7A7nqsRrSPZAJbhurBDww==";
+        };
+        _d3WdASFl = {
+            "id" = "d3WdASFl";
+            "file" = "knightlib-neoforge-1.21.1-1.6.2.jar";
+            "hash" = "sha512-3ZL4fAPbBxFf3bekKxWT+B+7TH3Os0ByiFZJhVhNz6ZIvGW5ZuQE8xuBtphZvtSbop6/kVaQ9Qq3HD/I2RuhMg==";
+        };
+        _LY7pLQPN = {
+            "id" = "LY7pLQPN";
+            "file" = "knightlib-fabric-1.21.1-2.0.0.jar";
+            "hash" = "sha512-b/EZww/Fjg2d7hr2TYPtV6IYwTXhVFWMUOK36GHHdn5o1cHjJud+ARN2oxoHinS0UKegAP0OPXYjLYR/QOyVOQ==";
+        };
+        _VxeMTcwd = {
+            "id" = "VxeMTcwd";
+            "file" = "knightlib-neoforge-1.21.1-2.0.0.jar";
+            "hash" = "sha512-UhbbtCD32GRacc9TFnhwmVwg20KR7pMsb10pUCQsqOh6zTFdPaSdBhT42uz4r4P2K6nIQbphDQGdVrHnqeWXbQ==";
+        };
+        _8Xn9eU9J = {
+            "id" = "8Xn9eU9J";
+            "file" = "knightlib-fabric-1.21.1-2.0.1.jar";
+            "hash" = "sha512-c+28bh6U+AYilMDREH3DeqFNGQc6AmyyB5VrJoIjBhej7y1UJ+4BQ3+lfhkx8CugBfos+1ECTv3yRJcgEr6OAg==";
+        };
+        _tuFsIxae = {
+            "id" = "tuFsIxae";
+            "file" = "knightlib-neoforge-1.21.1-2.0.1.jar";
+            "hash" = "sha512-Jy+uLYNXImBhrYq08fJj5+iN6xV40417tWFqXW/6LBGzx+VIbE8l7ob29EW4kgJbu0D7LsBk8m0CzGXozfCMog==";
+        };
     in {
         "W8bHDng7" = _W8bHDng7;
         "YVT7MSxL" = _YVT7MSxL;
@@ -362,19 +412,29 @@ let
         "YSOT3roi" = _YSOT3roi;
         "i40G3sRw" = _i40G3sRw;
         "irHGBbDU" = _irHGBbDU;
-        "forge-1.20" = _i40G3sRw;
-        "forge-1.20.1" = _i40G3sRw;
+        "HTwELoXu" = _HTwELoXu;
+        "HgGJqdM0" = _HgGJqdM0;
+        "QXiGozAh" = _QXiGozAh;
+        "uzoRjcMo" = _uzoRjcMo;
+        "r0nWCl0F" = _r0nWCl0F;
+        "d3WdASFl" = _d3WdASFl;
+        "LY7pLQPN" = _LY7pLQPN;
+        "VxeMTcwd" = _VxeMTcwd;
+        "8Xn9eU9J" = _8Xn9eU9J;
+        "tuFsIxae" = _tuFsIxae;
+        "forge-1.20" = _QXiGozAh;
+        "forge-1.20.1" = _QXiGozAh;
         "forge-1.19" = _2JLYb0nV;
         "forge-1.19.1" = _2JLYb0nV;
         "forge-1.19.2" = _2JLYb0nV;
         "forge-1.21" = _sRUlGLjn;
         "forge-1.21.1" = _sRUlGLjn;
-        "fabric-1.20" = _irHGBbDU;
-        "fabric-1.20.1" = _irHGBbDU;
-        "fabric-1.21" = _kUzMnJqX;
-        "fabric-1.21.1" = _kUzMnJqX;
-        "neoforge-1.21" = _YSOT3roi;
-        "neoforge-1.21.1" = _YSOT3roi;
+        "fabric-1.20" = _uzoRjcMo;
+        "fabric-1.20.1" = _uzoRjcMo;
+        "fabric-1.21" = _8Xn9eU9J;
+        "fabric-1.21.1" = _8Xn9eU9J;
+        "neoforge-1.21" = _tuFsIxae;
+        "neoforge-1.21.1" = _tuFsIxae;
         "pkg-1.0.0" = _Bubqizz2;
         "pkg-1.0.2" = _GJsGVNDo;
         "pkg-1.0.1" = _4fls1iwl;
@@ -395,7 +455,10 @@ let
         "pkg-1.5.5" = _B1os99Rw;
         "pkg-1.6.0" = _Hx1eJxnU;
         "pkg-1.6.1" = _irHGBbDU;
-        "default" = _irHGBbDU;
+        "pkg-2.0.0" = _VxeMTcwd;
+        "pkg-2.0.1" = _tuFsIxae;
+        "pkg-1.6.2" = _d3WdASFl;
+        "default" = _tuFsIxae;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "knight-lib";

@@ -436,6 +436,11 @@ let
             "file" = "movement-in-gui-v1.1.1-mc26.2+build.18.jar";
             "hash" = "sha512-0r2S5XVZsQFDZH1qf4lUGRGruxCQNNsuNbrPJZyfo2wVkYxFDsLOoyTrW/DlcRlw/AZtHhYPBxbXrI3sHBabPA==";
         };
+        _1gzAZp5N = {
+            "id" = "1gzAZp5N";
+            "file" = "movement-in-gui-v1.1.1-mc26.3+build.19.jar";
+            "hash" = "sha512-RSMVIi08aaNF+vgmKJL4r1cxvenP3UQcLVTfq+UWVrXt47WjZwwLWhiY+afZYkJqlZ5MSI1keKqp5nHj2qEFCw==";
+        };
     in {
         "liJwwekp" = _liJwwekp;
         "B6Tsj1iU" = _B6Tsj1iU;
@@ -524,6 +529,7 @@ let
         "c7QMabAi" = _c7QMabAi;
         "JdoNaQDJ" = _JdoNaQDJ;
         "gIaEtd5n" = _gIaEtd5n;
+        "1gzAZp5N" = _1gzAZp5N;
         "fabric-1.14" = _Z64weMij;
         "fabric-1.14.1" = _Z64weMij;
         "fabric-1.14.2" = _Z64weMij;
@@ -571,6 +577,7 @@ let
         "fabric-26.1.1" = _JdoNaQDJ;
         "fabric-26.1.2" = _JdoNaQDJ;
         "fabric-26.2" = _gIaEtd5n;
+        "fabric-26.3" = _1gzAZp5N;
         "pkg-1.0.0" = _QvvViqeJ;
         "pkg-1.0.1" = _oZ6omky5;
         "pkg-1.0.2" = _tEtC59iZ;
@@ -586,7 +593,8 @@ let
         "pkg-1.1.0+build.14" = _99TYBpMY;
         "pkg-1.1.1+build.16" = _JdoNaQDJ;
         "pkg-1.1.1+build.18" = _gIaEtd5n;
-        "default" = _gIaEtd5n;
+        "pkg-1.1.1+build.19" = _1gzAZp5N;
+        "default" = _1gzAZp5N;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "movement-in-gui";

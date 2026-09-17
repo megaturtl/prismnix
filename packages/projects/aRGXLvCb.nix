@@ -121,6 +121,16 @@ let
             "file" = "TripWireDuper-1.0.0.jar";
             "hash" = "sha512-Sx0iB3S4Uh25C2bmGtCp1ZCrgg4bB1TZs0PuldCwXMyWomz50+xHXIFiJCMEt63BzvjlaXiA8Y5s5en20e7pBA==";
         };
+        _c3hncJzG = {
+            "id" = "c3hncJzG";
+            "file" = "TripWireDuper-1.0.3.jar";
+            "hash" = "sha512-V6FCaEyFm1GWOyp8Ctz/VNid1bXuOUgY7Qx8YF+2q4/UhEzoa67MsmdqSADlebGBueg5VHvQ55pbIeCqapvO4w==";
+        };
+        _vBVE6Rzm = {
+            "id" = "vBVE6Rzm";
+            "file" = "TripWireDuper-1.0.3.jar";
+            "hash" = "sha512-l5GM9CMh785NIKwmXTWmWSUPKDH3KIJG7F2VWvHze7M8LzJm6+y5XTpG9hcWmCaeb1PK7dgNjmnShh0cI/XHWQ==";
+        };
     in {
         "4k575jUi" = _4k575jUi;
         "f4lw7hBZ" = _f4lw7hBZ;
@@ -146,6 +156,8 @@ let
         "nItImt2O" = _nItImt2O;
         "OXPwONlj" = _OXPwONlj;
         "7d6hvZAa" = _7d6hvZAa;
+        "c3hncJzG" = _c3hncJzG;
+        "vBVE6Rzm" = _vBVE6Rzm;
         "forge-1.21.11" = _i1bOIVg8;
         "forge-26.1" = _DKl7kMGG;
         "forge-26.1.1" = _DKl7kMGG;
@@ -178,6 +190,7 @@ let
         "paper-26.1.1" = _OXPwONlj;
         "paper-26.1.2" = _OXPwONlj;
         "paper-26.2" = _nItImt2O;
+        "paper-26.3" = _vBVE6Rzm;
         "bukkit-1.21" = _enp0EFec;
         "bukkit-1.21.1" = _enp0EFec;
         "bukkit-1.21.2" = _enp0EFec;
@@ -218,6 +231,7 @@ let
         "fabric-1.21.8" = _RBaYGdmP;
         "fabric-1.21.9" = _RBaYGdmP;
         "fabric-1.21.10" = _RBaYGdmP;
+        "fabric-26.3" = _c3hncJzG;
         "purpur-26.1" = _OXPwONlj;
         "purpur-26.1.1" = _OXPwONlj;
         "purpur-26.1.2" = _OXPwONlj;
@@ -234,10 +248,12 @@ let
         "purpur-1.21.9" = _7d6hvZAa;
         "purpur-1.21.10" = _7d6hvZAa;
         "purpur-1.21.11" = _7d6hvZAa;
+        "purpur-26.3" = _vBVE6Rzm;
         "pkg-1.0.0" = _7d6hvZAa;
         "pkg-1.0.1" = _OXPwONlj;
         "pkg-1.0.2" = _nItImt2O;
-        "default" = _7d6hvZAa;
+        "pkg-1.0.3" = _vBVE6Rzm;
+        "default" = _vBVE6Rzm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tripwire-duper";

@@ -16,10 +16,34 @@ let
             "file" = "blissgems-fabric-1.21.4.jar";
             "hash" = "sha512-IyPDhxZplfJdi8KNI9zA0nXCraaAhnnfei6DMN3IbTrEJ5MOZeJ85Z9P+SoVV1FHve+NERx6pmb5ifnFmB80Cg==";
         };
+        _4F2Dl32G = {
+            "id" = "4F2Dl32G";
+            "file" = "blissgems-fabric-1.0.0-26.1.2.jar";
+            "hash" = "sha512-OPN8FOV/pMVa9Xgl+I0fCg7wb3GU0v79RJVasFJEXV9Kl69pO04K/Ix7wSsgBPXbvSOwRrMQZoYg9gaW87xl8A==";
+        };
+        _rem2iRSz = {
+            "id" = "rem2iRSz";
+            "file" = "blissgems-fabric-1.0.0-26.1.jar";
+            "hash" = "sha512-jsIXZd9h6CH4E7lkLpV/ZpJQISlKwlcn4lZlsOYvR6H/171SAj0uZ/w+kyElbELer3fkjGPNlO4uaBpCa8etkA==";
+        };
+        _wPEYJQet = {
+            "id" = "wPEYJQet";
+            "file" = "blissgems-fabric-1.0.0-26.2.jar";
+            "hash" = "sha512-NcakP8jT5sCKWF6QsnAoQm1DumGBBr9hK7nXhmgqbOvkdvbFp9Izy/khbnaH7ecsCCY6ZjinJzxhNDD1pTWiJg==";
+        };
+        _cPE3CNNA = {
+            "id" = "cPE3CNNA";
+            "file" = "blissgems-fabric-1.0.0-26.x.jar";
+            "hash" = "sha512-PyI9FaZRxYPowgmS4N4bw9OMaQvsnUfHAXxRAaU7PP1MRVbU1eOPiAw+09Y82PvuOOl8iTh3M7SEaBmpga7NXg==";
+        };
     in {
         "rCpYoqLW" = _rCpYoqLW;
         "jMbjMjID" = _jMbjMjID;
         "f0UknuEN" = _f0UknuEN;
+        "4F2Dl32G" = _4F2Dl32G;
+        "rem2iRSz" = _rem2iRSz;
+        "wPEYJQet" = _wPEYJQet;
+        "cPE3CNNA" = _cPE3CNNA;
         "fabric-1.21.1" = _jMbjMjID;
         "fabric-1.21.2" = _rCpYoqLW;
         "fabric-1.21.3" = _rCpYoqLW;
@@ -31,9 +55,14 @@ let
         "fabric-1.21.9" = _rCpYoqLW;
         "fabric-1.21.10" = _rCpYoqLW;
         "fabric-1.21.11" = _rCpYoqLW;
+        "fabric-26.1.2" = _cPE3CNNA;
+        "fabric-26.1" = _cPE3CNNA;
+        "fabric-26.1.1" = _cPE3CNNA;
+        "fabric-26.2" = _cPE3CNNA;
         "pkg-V1" = _rCpYoqLW;
         "pkg-1.0.1" = _f0UknuEN;
-        "default" = _f0UknuEN;
+        "pkg-1.0.0" = _cPE3CNNA;
+        "default" = _cPE3CNNA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blisskeybinds";

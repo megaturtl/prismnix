@@ -61,6 +61,16 @@ let
             "file" = "better-stonecutter-2.3.jar";
             "hash" = "sha512-3HBmPh23c8hoinM9g1ysG3Tk3DUCFess9hFrzo3IfmZRMMgzoFW1IyjjPh6eurjPDJyn/aQqwrHWnS8/5eD3uA==";
         };
+        _f183h7HY = {
+            "id" = "f183h7HY";
+            "file" = "better_stonecutter_v2.4-balanced.zip";
+            "hash" = "sha512-tRalPklGL7zuZAQp4J3jDOBOjcvcZ/igfJ525hfm2Xxv0JpXKJeEsjm6hJPvZmxJKqYU9BfNtUeXQ7BJWYbDUA==";
+        };
+        _LEFgkuqb = {
+            "id" = "LEFgkuqb";
+            "file" = "better-stonecutter-2.4.jar";
+            "hash" = "sha512-Ton5qJnuH1F97iAf5S0/CQB7xtn22VQ+RjARLeOd4DU6ifta4Y8zCur17SQQuFcx4CO+JHDNCyijcmDhcT4xNw==";
+        };
     in {
         "KZ9Tedu2" = _KZ9Tedu2;
         "qzPwPaoE" = _qzPwPaoE;
@@ -74,6 +84,8 @@ let
         "c4EYLniA" = _c4EYLniA;
         "9Qzl4RxA" = _9Qzl4RxA;
         "ddhmDnmX" = _ddhmDnmX;
+        "f183h7HY" = _f183h7HY;
+        "LEFgkuqb" = _LEFgkuqb;
         "datapack-1.21" = _KZ9Tedu2;
         "datapack-1.21.1" = _KZ9Tedu2;
         "datapack-1.21.2" = _qzPwPaoE;
@@ -90,6 +102,7 @@ let
         "datapack-26.1.1" = _9Qzl4RxA;
         "datapack-26.1.2" = _9Qzl4RxA;
         "datapack-26.2" = _9Qzl4RxA;
+        "datapack-26.3" = _f183h7HY;
         "fabric-1.21" = _1X0KUVwX;
         "fabric-1.21.1" = _1X0KUVwX;
         "fabric-1.21.2" = _biAOpTZ1;
@@ -106,6 +119,7 @@ let
         "fabric-26.1.1" = _ddhmDnmX;
         "fabric-26.1.2" = _ddhmDnmX;
         "fabric-26.2" = _ddhmDnmX;
+        "fabric-26.3" = _LEFgkuqb;
         "forge-1.21" = _1X0KUVwX;
         "forge-1.21.1" = _1X0KUVwX;
         "forge-1.21.2" = _biAOpTZ1;
@@ -122,6 +136,7 @@ let
         "forge-26.1.1" = _ddhmDnmX;
         "forge-26.1.2" = _ddhmDnmX;
         "forge-26.2" = _ddhmDnmX;
+        "forge-26.3" = _LEFgkuqb;
         "neoforge-1.21" = _1X0KUVwX;
         "neoforge-1.21.1" = _1X0KUVwX;
         "neoforge-1.21.2" = _biAOpTZ1;
@@ -138,6 +153,7 @@ let
         "neoforge-26.1.1" = _ddhmDnmX;
         "neoforge-26.1.2" = _ddhmDnmX;
         "neoforge-26.2" = _ddhmDnmX;
+        "neoforge-26.3" = _LEFgkuqb;
         "quilt-1.21" = _1X0KUVwX;
         "quilt-1.21.1" = _1X0KUVwX;
         "quilt-1.21.2" = _biAOpTZ1;
@@ -154,6 +170,7 @@ let
         "quilt-26.1.1" = _ddhmDnmX;
         "quilt-26.1.2" = _ddhmDnmX;
         "quilt-26.2" = _ddhmDnmX;
+        "quilt-26.3" = _LEFgkuqb;
         "pkg-2.0.1" = _KZ9Tedu2;
         "pkg-2.0.2" = _qzPwPaoE;
         "pkg-2.1.0" = _V7yi2seI;
@@ -166,7 +183,9 @@ let
         "pkg-2.2.0+mod" = _c4EYLniA;
         "pkg-2.3" = _9Qzl4RxA;
         "pkg-2.3+mod" = _ddhmDnmX;
-        "default" = _ddhmDnmX;
+        "pkg-2.4" = _f183h7HY;
+        "pkg-2.4+mod" = _LEFgkuqb;
+        "default" = _LEFgkuqb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-stonecutter";

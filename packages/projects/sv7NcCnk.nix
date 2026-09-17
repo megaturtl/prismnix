@@ -281,6 +281,21 @@ let
             "file" = "tarkovcraft_core-neoforge-2.10.2+1.21.1.jar";
             "hash" = "sha512-ll60671cxn65G7q5kViuiLa3XIkJxd/XiIHvfR055a6eeZeDRDsv2zE2fby2NQra/wTiQ1w7e28cx851C0wDzw==";
         };
+        _PsW0zWn4 = {
+            "id" = "PsW0zWn4";
+            "file" = "tarkovcraft_core-neoforge-2.11.0+26.2.jar";
+            "hash" = "sha512-QHXhOJZkrePI6nVgLHKQl2RqFa7GLI5jFnxVtbTw9CkgKRJtwE0briyWXVKqkeSF5rY4fkS4ggK7o2yldPx4RA==";
+        };
+        _9Jxx7ujr = {
+            "id" = "9Jxx7ujr";
+            "file" = "tarkovcraft_core-neoforge-2.11.0+26.3.jar";
+            "hash" = "sha512-JBvovG1ISb/oE8RomshX5rKtSg1igas56WX4cGYJsn3MfI9kNQnA2jN8oZDhDT6ibUO8QTJWAjAKsu7i+UdjQA==";
+        };
+        _aJo35pdG = {
+            "id" = "aJo35pdG";
+            "file" = "tarkovcraft_core-neoforge-2.11.1+26.3.jar";
+            "hash" = "sha512-3xvrJuorJmdW6rczQF5w0d4gLg3T5YiDsknVTKPquLTfa+/v2wCHL4zR7mwMdSDczKBHEBbcSZ3VRxufSJgRHA==";
+        };
     in {
         "90rWZYyH" = _90rWZYyH;
         "ZsyL1lRV" = _ZsyL1lRV;
@@ -338,6 +353,9 @@ let
         "wYPjpgLP" = _wYPjpgLP;
         "wjHy1Nn8" = _wjHy1Nn8;
         "bTkG27LT" = _bTkG27LT;
+        "PsW0zWn4" = _PsW0zWn4;
+        "9Jxx7ujr" = _9Jxx7ujr;
+        "aJo35pdG" = _aJo35pdG;
         "neoforge-1.21.5" = _ZsyL1lRV;
         "neoforge-1.21.6" = _55NYtdp8;
         "neoforge-1.21.7" = _9QrVxKtX;
@@ -349,7 +367,8 @@ let
         "neoforge-26.1" = _DYwGaFsl;
         "neoforge-26.1.1" = _DYwGaFsl;
         "neoforge-26.1.2" = _wjHy1Nn8;
-        "neoforge-26.2" = _wYPjpgLP;
+        "neoforge-26.2" = _PsW0zWn4;
+        "neoforge-26.3" = _aJo35pdG;
         "pkg-1.0" = _90rWZYyH;
         "pkg-1.1.0" = _p6aInkts;
         "pkg-1.1.1" = _5RcAr2WC;
@@ -398,7 +417,10 @@ let
         "pkg-2.10.2+26.2" = _wYPjpgLP;
         "pkg-2.10.2+26.1.2" = _wjHy1Nn8;
         "pkg-2.10.2+1.21.1" = _bTkG27LT;
-        "default" = _bTkG27LT;
+        "pkg-2.11.0+26.2" = _PsW0zWn4;
+        "pkg-2.11.0+26.3" = _9Jxx7ujr;
+        "pkg-2.11.1+26.3" = _aJo35pdG;
+        "default" = _aJo35pdG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tarkovcraft-core";

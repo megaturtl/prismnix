@@ -26,23 +26,31 @@ let
             "file" = "piechart-1.1+26.2.jar";
             "hash" = "sha512-jMrBL46ToOfInTDi9B/zV/xRYrn3Rsu3AEbnQ4VpEgqRKmh/0CvpRJVz5yUb6SWMK3F0Qz5W2BeRyx6PoBdGpw==";
         };
+        _qe279UHu = {
+            "id" = "qe279UHu";
+            "file" = "piechart-1.1+26.3.jar";
+            "hash" = "sha512-YwAm14OWxorWEYQSLBOJ+BD/Q7PPU3X4BVKcEEksHSVs5HrjtrOXV3EQMx3KExiYsOq9HQQyCOX+xzHaKHqrbw==";
+        };
     in {
         "4VruRLiL" = _4VruRLiL;
         "IWtqs2zs" = _IWtqs2zs;
         "UI36XYW0" = _UI36XYW0;
         "71z4J07K" = _71z4J07K;
         "oIdvrFmd" = _oIdvrFmd;
+        "qe279UHu" = _qe279UHu;
         "fabric-1.21.11" = _4VruRLiL;
         "fabric-26.1" = _IWtqs2zs;
         "fabric-26.1.1" = _UI36XYW0;
         "fabric-26.1.2" = _71z4J07K;
         "fabric-26.2" = _oIdvrFmd;
+        "fabric-26.3" = _qe279UHu;
         "pkg-1.1+1.21.11" = _4VruRLiL;
         "pkg-1.1+26.1" = _IWtqs2zs;
         "pkg-1.1+26.1.1" = _UI36XYW0;
         "pkg-1.1+26.1.2" = _71z4J07K;
         "pkg-1.1+26.2" = _oIdvrFmd;
-        "default" = _oIdvrFmd;
+        "pkg-1.1+26.3" = _qe279UHu;
+        "default" = _qe279UHu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "piechart";

@@ -166,6 +166,16 @@ let
             "file" = "astages-2.5.2-1.21.1.jar";
             "hash" = "sha512-X6BnJjBzESFWRrUHvROFFibWeZ2DdwMAPslv3Y2szTPuLIz1l3b5qHBiA+joCJsX7APsS8pX8kbfhnixcu99Pw==";
         };
+        _oLPT8b39 = {
+            "id" = "oLPT8b39";
+            "file" = "astages-2.5.3-1.20.1.jar";
+            "hash" = "sha512-50u49wjfP6E0CXlu+w9mMfvNfqUOIJ6Ph0IZX79EJbLfbh//hV/35AO8ehWxjon8jCGpnAHxd0vyn5y1n0foJA==";
+        };
+        _ZkTlq92y = {
+            "id" = "ZkTlq92y";
+            "file" = "astages-2.5.3-1.21.1.jar";
+            "hash" = "sha512-dpOChk8ZsTue/IYeWRHr2ddWKfXEde4GYPhSM5hD0yXoOtmWuvBjOvvEC2Y3UlpDA9i4mITJ2oeL+pd2uVDGHw==";
+        };
     in {
         "I1tHZpop" = _I1tHZpop;
         "QQna37kV" = _QQna37kV;
@@ -200,8 +210,10 @@ let
         "PbF4n6CF" = _PbF4n6CF;
         "KGBPINpA" = _KGBPINpA;
         "chHxj2J2" = _chHxj2J2;
-        "forge-1.20.1" = _KGBPINpA;
-        "neoforge-1.21.1" = _chHxj2J2;
+        "oLPT8b39" = _oLPT8b39;
+        "ZkTlq92y" = _ZkTlq92y;
+        "forge-1.20.1" = _oLPT8b39;
+        "neoforge-1.21.1" = _ZkTlq92y;
         "pkg-2.0.0-alpha.2-1.20.1" = _I1tHZpop;
         "pkg-2.0.0-alpha.3-1.20.1" = _QQna37kV;
         "pkg-2.0.0-alpha.4-1.20.1" = _jyfwG5TR;
@@ -235,7 +247,9 @@ let
         "pkg-2.5.1-1.21.1" = _PbF4n6CF;
         "pkg-2.5.2-1.20.1" = _KGBPINpA;
         "pkg-2.5.2-1.21.1" = _chHxj2J2;
-        "default" = _chHxj2J2;
+        "pkg-2.5.3-1.20.1" = _oLPT8b39;
+        "pkg-2.5.3-1.21.1" = _ZkTlq92y;
+        "default" = _ZkTlq92y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "astages";

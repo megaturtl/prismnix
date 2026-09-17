@@ -111,6 +111,16 @@ let
             "file" = "betterf1-neoforge-26.2-1.3.jar";
             "hash" = "sha512-X8bVfu3fcqvUqMc1B8mzdQ0utoALAN04K2gx8BFQOkIqWKYGgDRJj0nQdSR9sr2bzx9jNG2bRaK55vHOQ3tfwQ==";
         };
+        _e2QgfKVe = {
+            "id" = "e2QgfKVe";
+            "file" = "betterf1-fabric-26.3-1.3.jar";
+            "hash" = "sha512-78dTtfDmITlkMe7Bh69UkSJ6zD8oCyYujUZKVv97tOCv7UKwas7e8El6LNYNOLrhw9ko/w4SQ/RepXQ/ISwZnA==";
+        };
+        _gj3AdFNa = {
+            "id" = "gj3AdFNa";
+            "file" = "betterf1-neoforge-26.3-1.3.jar";
+            "hash" = "sha512-U0xCcm+oIOtl47C/2z6gRVDbSPaO49vENiKZhfYXWe61ycg17YN4r5F+4VePQIzrd1b1/fJBAU5Ah38EH4g6uQ==";
+        };
     in {
         "NTeDylz9" = _NTeDylz9;
         "mRBaxhRB" = _mRBaxhRB;
@@ -134,6 +144,8 @@ let
         "GL6alebh" = _GL6alebh;
         "L6lGKT1G" = _L6lGKT1G;
         "EsDo6UOB" = _EsDo6UOB;
+        "e2QgfKVe" = _e2QgfKVe;
+        "gj3AdFNa" = _gj3AdFNa;
         "fabric-1.17" = _NTeDylz9;
         "fabric-1.17.1" = _NTeDylz9;
         "fabric-1.18" = _NTeDylz9;
@@ -171,6 +183,7 @@ let
         "fabric-26.1.1" = _HAr5y7tQ;
         "fabric-26.1.2" = _HAr5y7tQ;
         "fabric-26.2" = _L6lGKT1G;
+        "fabric-26.3" = _e2QgfKVe;
         "neoforge-1.20.6" = _SiXjPWiF;
         "neoforge-1.21" = _PwZNo317;
         "neoforge-1.21.1" = _PwZNo317;
@@ -188,12 +201,13 @@ let
         "neoforge-26.1.1" = _GL6alebh;
         "neoforge-26.1.2" = _GL6alebh;
         "neoforge-26.2" = _EsDo6UOB;
+        "neoforge-26.3" = _gj3AdFNa;
         "pkg-1.0" = _tDecbwEr;
         "pkg-1.0.0" = _mRBaxhRB;
         "pkg-1.1" = _DRLPFRXX;
         "pkg-1.2" = _e52Luw7k;
-        "pkg-1.3" = _EsDo6UOB;
-        "default" = _EsDo6UOB;
+        "pkg-1.3" = _gj3AdFNa;
+        "default" = _gj3AdFNa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-f1-reborn";

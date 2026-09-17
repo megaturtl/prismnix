@@ -1096,6 +1096,16 @@ let
             "file" = "LittleTiles_BETA_v1.6.0-pre226_mc1.21.1.jar";
             "hash" = "sha512-ViL6LIanScvu7x62A6J75/uTOs/LVjlPHqIQp5ay2LFyVaCwTcBhOxnfHAAPTSaBOxtAVzpnhUM/KsKmugM37g==";
         };
+        _9EeMuRgt = {
+            "id" = "9EeMuRgt";
+            "file" = "LittleTiles_BETA_v1.6.0-pre227_mc1.21.1.jar";
+            "hash" = "sha512-BpZj0tXrolZdS+iecjoNdzLux+FulCmMCVxWhoBQjPCfzoDJLyagGsgpDhsT+g5+blUm1eVpmC6BbyNBCQddLA==";
+        };
+        _GAeVlVcY = {
+            "id" = "GAeVlVcY";
+            "file" = "LittleTiles_BETA_v1.6.0-pre228_mc1.21.1.jar";
+            "hash" = "sha512-mWsRYvWhAqqszU9q5W3Nph/ZxrtIHwx1HEdX/VbWSkqroalUi1j6L/l/8ETkJ2cwWDSN6gTD8hv7Y4Yp7Pn59Q==";
+        };
     in {
         "Q7mkn1Ve" = _Q7mkn1Ve;
         "UK4jzCE1" = _UK4jzCE1;
@@ -1316,13 +1326,15 @@ let
         "20CYkAfR" = _20CYkAfR;
         "SAKkGkSf" = _SAKkGkSf;
         "VTccaod0" = _VTccaod0;
+        "9EeMuRgt" = _9EeMuRgt;
+        "GAeVlVcY" = _GAeVlVcY;
         "forge-1.19.4" = _gqY8Rcr3;
         "forge-1.20" = _Q1z1uCgw;
         "forge-1.20.1" = _sBbUjEhq;
         "forge-1.20.2" = _Wg2btKS3;
         "neoforge-1.20" = _Q1z1uCgw;
         "neoforge-1.20.1" = _sBbUjEhq;
-        "neoforge-1.21.1" = _VTccaod0;
+        "neoforge-1.21.1" = _GAeVlVcY;
         "pkg-1.6.0-pre039" = _Q7mkn1Ve;
         "pkg-1.6.0-pre040" = _UK4jzCE1;
         "pkg-1.6.0-pre041" = _gqY8Rcr3;
@@ -1505,7 +1517,9 @@ let
         "pkg-1.6.0-pre224" = _20CYkAfR;
         "pkg-1.6.0-pre225" = _SAKkGkSf;
         "pkg-1.6.0-pre226" = _VTccaod0;
-        "default" = _VTccaod0;
+        "pkg-1.6.0-pre227" = _9EeMuRgt;
+        "pkg-1.6.0-pre228" = _GAeVlVcY;
+        "default" = _GAeVlVcY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "littletiles";

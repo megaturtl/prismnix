@@ -116,6 +116,16 @@ let
             "file" = "craft-enchanted-golden-apples-107.1.jar";
             "hash" = "sha512-Nm6TpL0D9+mqICqelfJD8vTGGiKzAJnfiKxzRzZHL51jwjV0A9101de7nX1OCcIfshzPkMsE0MDMkBADo9iemA==";
         };
+        _Oggk6eJW = {
+            "id" = "Oggk6eJW";
+            "file" = "craftable-enchanted-golden-apples-1.1.0-mc26.3.zip";
+            "hash" = "sha512-VEKHIRaGsk5bcM5ZySquo9VE7CHEf3+YWxlGiDBOl+bZnW8Pqo/1wopItq3g9dLp/vNRtz6bXGCLtggrrV37xg==";
+        };
+        _l4IWGxwV = {
+            "id" = "l4IWGxwV";
+            "file" = "craft-enchanted-golden-apples-1.1.0.jar";
+            "hash" = "sha512-nmKnvNkzHSb9faYjmvBztPkr0p06TFlUmXPWVxYDbid4GeV7QiQy2rJPvFutgRV/9yx7tvjAWElHq7tPh+lRNw==";
+        };
     in {
         "Bfsx5141" = _Bfsx5141;
         "yl3Z6uxV" = _yl3Z6uxV;
@@ -140,6 +150,8 @@ let
         "yKbXTyRl" = _yKbXTyRl;
         "CgvEI711" = _CgvEI711;
         "BsA7sUEL" = _BsA7sUEL;
+        "Oggk6eJW" = _Oggk6eJW;
+        "l4IWGxwV" = _l4IWGxwV;
         "datapack-1.20.5" = _Bfsx5141;
         "datapack-1.20.6" = _Bfsx5141;
         "datapack-1.21" = _hri8WBMB;
@@ -158,6 +170,7 @@ let
         "datapack-26.1.1" = _QNR52y3I;
         "datapack-26.1.2" = _QNR52y3I;
         "datapack-26.2" = _CgvEI711;
+        "datapack-26.3" = _Oggk6eJW;
         "fabric-1.20.5" = _yl3Z6uxV;
         "fabric-1.20.6" = _yl3Z6uxV;
         "fabric-1.21" = _5MqF1DnY;
@@ -176,6 +189,7 @@ let
         "fabric-26.1.1" = _yKbXTyRl;
         "fabric-26.1.2" = _yKbXTyRl;
         "fabric-26.2" = _BsA7sUEL;
+        "fabric-26.3" = _l4IWGxwV;
         "forge-1.20.5" = _yl3Z6uxV;
         "forge-1.20.6" = _yl3Z6uxV;
         "forge-1.21" = _5MqF1DnY;
@@ -194,6 +208,7 @@ let
         "forge-26.1.1" = _yKbXTyRl;
         "forge-26.1.2" = _yKbXTyRl;
         "forge-26.2" = _BsA7sUEL;
+        "forge-26.3" = _l4IWGxwV;
         "quilt-1.20.5" = _yl3Z6uxV;
         "quilt-1.20.6" = _yl3Z6uxV;
         "quilt-1.21" = _5MqF1DnY;
@@ -212,6 +227,7 @@ let
         "quilt-26.1.1" = _yKbXTyRl;
         "quilt-26.1.2" = _yKbXTyRl;
         "quilt-26.2" = _BsA7sUEL;
+        "quilt-26.3" = _l4IWGxwV;
         "neoforge-1.21.2" = _OD7AARXL;
         "neoforge-1.21.3" = _OD7AARXL;
         "neoforge-1.21.4" = _Jhhg2lsm;
@@ -226,6 +242,7 @@ let
         "neoforge-26.1.1" = _yKbXTyRl;
         "neoforge-26.1.2" = _yKbXTyRl;
         "neoforge-26.2" = _BsA7sUEL;
+        "neoforge-26.3" = _l4IWGxwV;
         "pkg-41.1" = _Bfsx5141;
         "pkg-41.1+mod" = _yl3Z6uxV;
         "pkg-48.1" = _hri8WBMB;
@@ -248,7 +265,9 @@ let
         "pkg-101.1+mod" = _yKbXTyRl;
         "pkg-107.1" = _CgvEI711;
         "pkg-107.1+mod" = _BsA7sUEL;
-        "default" = _BsA7sUEL;
+        "pkg-1.1.0" = _Oggk6eJW;
+        "pkg-1.1.0+mod" = _l4IWGxwV;
+        "default" = _l4IWGxwV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craft-enchanted-golden-apples";

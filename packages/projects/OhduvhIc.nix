@@ -696,6 +696,21 @@ let
             "file" = "veinminer-neoforge-2.12.1.jar";
             "hash" = "sha512-60U+2LRORQsmPcMF6KZrRgT8W54t3evjXZjM3OmtYm7JvgbAtuPmGHtdX7yUBryDZmndH7kqqvtSpPmwe9bMHg==";
         };
+        _O6IYCV7p = {
+            "id" = "O6IYCV7p";
+            "file" = "veinminer-paper-2.12.1.jar";
+            "hash" = "sha512-qEzucXfcnF6EVCJJH/8Uo9saZs/TBa4w4rqYA6NEfmFxmNNhqEDidcJ04W/HNYoGG7gcuhSN/sJOyDn34PRPdw==";
+        };
+        _ILeKHqoi = {
+            "id" = "ILeKHqoi";
+            "file" = "veinminer-fabric-2.12.1.jar";
+            "hash" = "sha512-fUfHLPRtundGX5msedrZhB0WQJF1cgawttSay4zEhIFOXPMe99f0r/NnFvUtfpomyKxbC1MXwDZh2ne48urCLw==";
+        };
+        _KQX8aoQ0 = {
+            "id" = "KQX8aoQ0";
+            "file" = "veinminer-neoforge-2.12.1.jar";
+            "hash" = "sha512-vQZ9KGPwIUpxynyqdUv3W/hy84LclffvpWThOABlxtM98RAXLhErIrswgESdawwsNDIBKxM7G2IGSg1RfBL80w==";
+        };
     in {
         "v1Jzhmu1" = _v1Jzhmu1;
         "1Lck8EFo" = _1Lck8EFo;
@@ -836,6 +851,9 @@ let
         "qztdh63o" = _qztdh63o;
         "InpIvPQ1" = _InpIvPQ1;
         "bOPIAGfo" = _bOPIAGfo;
+        "O6IYCV7p" = _O6IYCV7p;
+        "ILeKHqoi" = _ILeKHqoi;
+        "KQX8aoQ0" = _KQX8aoQ0;
         "datapack-1.17" = _1Lck8EFo;
         "datapack-1.17.1" = _1Lck8EFo;
         "datapack-1.18" = _1Lck8EFo;
@@ -900,6 +918,7 @@ let
         "fabric-26.1.1" = _h4Z7xAL0;
         "fabric-26.1.2" = _h4Z7xAL0;
         "fabric-26.2" = _InpIvPQ1;
+        "fabric-26.3" = _ILeKHqoi;
         "forge-1.17" = _XmveddzV;
         "forge-1.17.1" = _XmveddzV;
         "forge-1.18" = _XmveddzV;
@@ -948,6 +967,7 @@ let
         "quilt-26.1.1" = _h4Z7xAL0;
         "quilt-26.1.2" = _h4Z7xAL0;
         "quilt-26.2" = _InpIvPQ1;
+        "quilt-26.3" = _ILeKHqoi;
         "bukkit-1.20.2" = _KpfjqRyd;
         "paper-1.20.2" = _1GsfXkQh;
         "paper-1.17" = _1GsfXkQh;
@@ -978,10 +998,11 @@ let
         "paper-1.21.9" = _xyKcAltm;
         "paper-1.21.10" = _xyKcAltm;
         "paper-1.21.11" = _kR2Qk3QZ;
-        "paper-26.1" = _qztdh63o;
-        "paper-26.1.1" = _qztdh63o;
-        "paper-26.1.2" = _qztdh63o;
-        "paper-26.2" = _qztdh63o;
+        "paper-26.1" = _O6IYCV7p;
+        "paper-26.1.1" = _O6IYCV7p;
+        "paper-26.1.2" = _O6IYCV7p;
+        "paper-26.2" = _O6IYCV7p;
+        "paper-26.3" = _O6IYCV7p;
         "purpur-1.20.2" = _1GsfXkQh;
         "purpur-1.17" = _1GsfXkQh;
         "purpur-1.17.1" = _1GsfXkQh;
@@ -1011,10 +1032,11 @@ let
         "purpur-1.21.9" = _xyKcAltm;
         "purpur-1.21.10" = _xyKcAltm;
         "purpur-1.21.11" = _kR2Qk3QZ;
-        "purpur-26.1" = _qztdh63o;
-        "purpur-26.1.1" = _qztdh63o;
-        "purpur-26.1.2" = _qztdh63o;
-        "purpur-26.2" = _qztdh63o;
+        "purpur-26.1" = _O6IYCV7p;
+        "purpur-26.1.1" = _O6IYCV7p;
+        "purpur-26.1.2" = _O6IYCV7p;
+        "purpur-26.2" = _O6IYCV7p;
+        "purpur-26.3" = _O6IYCV7p;
         "spigot-1.20.2" = _KpfjqRyd;
         "folia-1.17" = _1GsfXkQh;
         "folia-1.17.1" = _1GsfXkQh;
@@ -1045,16 +1067,18 @@ let
         "folia-1.21.9" = _xyKcAltm;
         "folia-1.21.10" = _xyKcAltm;
         "folia-1.21.11" = _kR2Qk3QZ;
-        "folia-26.1" = _qztdh63o;
-        "folia-26.1.1" = _qztdh63o;
-        "folia-26.1.2" = _qztdh63o;
-        "folia-26.2" = _qztdh63o;
+        "folia-26.1" = _O6IYCV7p;
+        "folia-26.1.1" = _O6IYCV7p;
+        "folia-26.1.2" = _O6IYCV7p;
+        "folia-26.2" = _O6IYCV7p;
+        "folia-26.3" = _O6IYCV7p;
         "neoforge-26.1" = _7GhgEsTA;
         "neoforge-26.1.1" = _7GhgEsTA;
         "neoforge-26.1.2" = _7GhgEsTA;
         "neoforge-1.21.11" = _BY3LQfSE;
         "neoforge-1.21.1" = _syKekkIm;
         "neoforge-26.2" = _bOPIAGfo;
+        "neoforge-26.3" = _KQX8aoQ0;
         "pkg-1.0.0" = _v1Jzhmu1;
         "pkg-1.1.0" = _1Lck8EFo;
         "pkg-1.1.0+mod" = _XmveddzV;
@@ -1133,8 +1157,8 @@ let
         "pkg-2.11.1" = _n6eLxGdD;
         "pkg-2.11.2" = _syKekkIm;
         "pkg-2.12.0" = _TdoBHcyB;
-        "pkg-2.12.1" = _bOPIAGfo;
-        "default" = _bOPIAGfo;
+        "pkg-2.12.1" = _KQX8aoQ0;
+        "default" = _KQX8aoQ0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "veinminer";

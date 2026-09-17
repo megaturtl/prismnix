@@ -51,6 +51,11 @@ let
             "file" = "createfactorycontroller-1.2.1-neoforge-1.21.1.jar";
             "hash" = "sha512-KVNAAMEXR2FO+V4txO6i7Xp/pNr+qsXN8OS/SaRUaPeXF2P8Qji0aDngjrghP2MmVFoWeXQoNWme3VGpNpKiXQ==";
         };
+        _Dn7Fjt3A = {
+            "id" = "Dn7Fjt3A";
+            "file" = "createfactorycontroller-1.2.1-forge-1.20.1.jar";
+            "hash" = "sha512-3kizP2igTnjwo3uqCAprvbzVZo3Rngz2GzmRXFC3pkZ8M96TfvTy7fO9VIc1aJIX5TYSq/EqGHuHctsmeWar5A==";
+        };
     in {
         "Gp7bTx3h" = _Gp7bTx3h;
         "4FIlusov" = _4FIlusov;
@@ -62,8 +67,9 @@ let
         "uOmr9MkB" = _uOmr9MkB;
         "mKqe5R0t" = _mKqe5R0t;
         "CBUpgyAH" = _CBUpgyAH;
+        "Dn7Fjt3A" = _Dn7Fjt3A;
         "neoforge-1.21.1" = _CBUpgyAH;
-        "forge-1.20.1" = _uOmr9MkB;
+        "forge-1.20.1" = _Dn7Fjt3A;
         "pkg-0.1.1-alpha" = _Gp7bTx3h;
         "pkg-0.2.1-beta" = _4FIlusov;
         "pkg-1.0.0" = _coEiniTx;
@@ -74,7 +80,8 @@ let
         "pkg-1.1.1-forge-1.20.1" = _uOmr9MkB;
         "pkg-1.2.0-neoforge-1.21.1" = _mKqe5R0t;
         "pkg-1.2.1-neoforge-1.21.1" = _CBUpgyAH;
-        "default" = _CBUpgyAH;
+        "pkg-1.2.1-forge-1.20.1" = _Dn7Fjt3A;
+        "default" = _Dn7Fjt3A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-factory-controller";

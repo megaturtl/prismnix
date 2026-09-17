@@ -186,6 +186,51 @@ let
             "file" = "animusnv-1.21.1-5.2.9.jar";
             "hash" = "sha512-VLoFKE/pl/mK4Cs0xyEPOjp9uzNXIeQKnWm0xj5wynq7Ze6SZNN3MhuBeh7MiRchqjS6cVMwjsX0plRXYRo3Fg==";
         };
+        _LendaJu2 = {
+            "id" = "LendaJu2";
+            "file" = "animus-1.20.1-3.0.33.jar";
+            "hash" = "sha512-bYzY4YuApuYMGmqrjc7YfAganT3vWadcam5eBTyOs6+SLkvyj40btCB/Me5fykGj1tvIKaH//K8mEw5bKZT2Mg==";
+        };
+        _z6ZULDhm = {
+            "id" = "z6ZULDhm";
+            "file" = "animusnv-1.21.1-5.2.10.jar";
+            "hash" = "sha512-S77L53cY7COvfgvGCjhO93xJtd+OwMzfUifiXI3Ch3lN8LmX8UbLzQhBto7RoTX2nyaoGvqlgATE7AlRn3/WWg==";
+        };
+        _ceirSatf = {
+            "id" = "ceirSatf";
+            "file" = "animus-1.20.1-3.0.34.jar";
+            "hash" = "sha512-DhrR50a1Ul30WsqFWVhDtKcXwom+XwrLXpdSdlst43AH3Z2iA6s9TH0/1oOi19YF3kEWRYYircZHNtG+f6Ahdw==";
+        };
+        _hb3etsOY = {
+            "id" = "hb3etsOY";
+            "file" = "animusnv-1.21.1-5.2.11.jar";
+            "hash" = "sha512-VOVmuUwR6VCeDMTapND5eYI0yibj9KDa8iwR48EVKNZx/l+6nEY/YC4xYz4d2RDl7EUytIyNxah3bw2nF0ZyEw==";
+        };
+        _Pk2j8HfB = {
+            "id" = "Pk2j8HfB";
+            "file" = "animusnv-26.1.2-5.2.11.jar";
+            "hash" = "sha512-Mr8rsd/MmlHmX30JsyH9iGBqr379pnyAmP6nViLQhu7C/rJAPMvRbT1OPlN/neRjuqIs6P5aN3PjurrdjkrGaA==";
+        };
+        _wDhmZtx5 = {
+            "id" = "wDhmZtx5";
+            "file" = "animusnv-26.1.2-5.2.12.jar";
+            "hash" = "sha512-4ntJ4j6zkdJZlkkgm5UblDbSAnnYrHTZyYk5P7SXRQ158Vpd2ogsBVmS/C8jCfQVO2VxWPGscxtM/8AQH661Qg==";
+        };
+        _eJjztiDz = {
+            "id" = "eJjztiDz";
+            "file" = "animusnv-1.21.1-5.2.12.jar";
+            "hash" = "sha512-NKVe5N2x8IfAPnevS/XUUddPKb4ePqj5/92UI2WKS8YCwCeGwFY2QpyvfmstA0Vkf4Vulsuf8RKwyCWsWpWTww==";
+        };
+        _yXJs5QfR = {
+            "id" = "yXJs5QfR";
+            "file" = "animusnv-1.21.1-5.2.13.jar";
+            "hash" = "sha512-qknvYGcSJoczUDB44N4yi4KyzyVwzykgV4LepizIOKD0pX8n9X4EBJunLSVkyu0WLruXiLQFAHKqrMixPSDtmQ==";
+        };
+        _ga9mWei4 = {
+            "id" = "ga9mWei4";
+            "file" = "animus-1.20.1-3.0.35.jar";
+            "hash" = "sha512-yjtq7vURfqAnHpoeR4gkTjHTnloFYMatu9d4xWPFY8YDUXxAx9hBm0WuiQVRGXX31N86StCvZL1cb3yWGu3QHQ==";
+        };
     in {
         "3q9kBo5j" = _3q9kBo5j;
         "FDGO9z5Z" = _FDGO9z5Z;
@@ -224,9 +269,18 @@ let
         "7fzVo046" = _7fzVo046;
         "JeRz0E29" = _JeRz0E29;
         "mfbB8mSn" = _mfbB8mSn;
-        "forge-1.20.1" = _tgwJ9NBR;
-        "neoforge-26.1.2" = _JeRz0E29;
-        "neoforge-1.21.1" = _mfbB8mSn;
+        "LendaJu2" = _LendaJu2;
+        "z6ZULDhm" = _z6ZULDhm;
+        "ceirSatf" = _ceirSatf;
+        "hb3etsOY" = _hb3etsOY;
+        "Pk2j8HfB" = _Pk2j8HfB;
+        "wDhmZtx5" = _wDhmZtx5;
+        "eJjztiDz" = _eJjztiDz;
+        "yXJs5QfR" = _yXJs5QfR;
+        "ga9mWei4" = _ga9mWei4;
+        "forge-1.20.1" = _ga9mWei4;
+        "neoforge-26.1.2" = _wDhmZtx5;
+        "neoforge-1.21.1" = _yXJs5QfR;
         "pkg-3.0.8" = _3q9kBo5j;
         "pkg-3.0.9" = _FDGO9z5Z;
         "pkg-3.0.10" = _PZABnCbY;
@@ -263,7 +317,16 @@ let
         "pkg-1.21.1-5.2.8" = _7fzVo046;
         "pkg-26.1.2-5.2.8" = _JeRz0E29;
         "pkg-1.21.1-5.2.9" = _mfbB8mSn;
-        "default" = _mfbB8mSn;
+        "pkg-1.20.1-3.0.33" = _LendaJu2;
+        "pkg-1.21.1-5.2.10" = _z6ZULDhm;
+        "pkg-1.20.1-3.0.34" = _ceirSatf;
+        "pkg-1.21.1-5.2.11" = _hb3etsOY;
+        "pkg-26.1.2-5.2.11" = _Pk2j8HfB;
+        "pkg-26.1.2-5.2.12" = _wDhmZtx5;
+        "pkg-1.21.1-5.2.12" = _eJjztiDz;
+        "pkg-1.21.1-5.2.13" = _yXJs5QfR;
+        "pkg-1.20.1-3.0.35" = _ga9mWei4;
+        "default" = _ga9mWei4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animus";

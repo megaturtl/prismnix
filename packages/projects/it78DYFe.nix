@@ -241,6 +241,26 @@ let
             "file" = "journal-forge-1.4.2.jar";
             "hash" = "sha512-e9lGv/EuIHERuc/n2frlfl7eKj7Pm7JX1rLRlAKTXJTYoOhsSXZKR1LIgapDmxsseUyliEWV0r/mrx8XATnFmw==";
         };
+        _IrSeyEwf = {
+            "id" = "IrSeyEwf";
+            "file" = "journal-neoforge-1.4.3.jar";
+            "hash" = "sha512-3qEcL+uaT8arDB4/hk9gZ1+yFqzaAZqkkmwoI1RLmDLxdTB5xe7ee+3IiKrB0/6NIpRCqhWI7CbkBIIgKCtU6w==";
+        };
+        _VtuIAqUY = {
+            "id" = "VtuIAqUY";
+            "file" = "journal-fabric-1.4.3.jar";
+            "hash" = "sha512-/ntsduR7UR3vQ13WqF+nCnTgrWxIQxKXLrVTiduWsfnG8bck+Lqj6h0CNkmf/5APPqpCM60Dyw8Swe0OwJutvw==";
+        };
+        _IQYh0DlM = {
+            "id" = "IQYh0DlM";
+            "file" = "journal-fabric-1.4.3.jar";
+            "hash" = "sha512-yPFy+BYtAB9kQzy10YzzTiXRw1/qwCIq1cEgDf+3I/01clj88OhgwBIH6DiHzv0VxMon/IitS3lKtbTcUie40Q==";
+        };
+        _aB4JwP4d = {
+            "id" = "aB4JwP4d";
+            "file" = "journal-forge-1.4.3.jar";
+            "hash" = "sha512-Eig5MCrSQMRZcvf3X/0RO2wGsRFcYu8IUXV9Dg7TgE+y6iCRxTIBofIrHNWG0uLqLAj65x7Q+EkING6eSw5Ffw==";
+        };
     in {
         "AE38VSg2" = _AE38VSg2;
         "EtpcLywc" = _EtpcLywc;
@@ -290,10 +310,14 @@ let
         "MTJuaANy" = _MTJuaANy;
         "pseAqrsc" = _pseAqrsc;
         "cx0KXHI0" = _cx0KXHI0;
-        "fabric-1.21.1" = _tOAZ96T3;
-        "fabric-1.20.1" = _pseAqrsc;
-        "neoforge-1.21.1" = _MTJuaANy;
-        "forge-1.20.1" = _cx0KXHI0;
+        "IrSeyEwf" = _IrSeyEwf;
+        "VtuIAqUY" = _VtuIAqUY;
+        "IQYh0DlM" = _IQYh0DlM;
+        "aB4JwP4d" = _aB4JwP4d;
+        "fabric-1.21.1" = _VtuIAqUY;
+        "fabric-1.20.1" = _IQYh0DlM;
+        "neoforge-1.21.1" = _IrSeyEwf;
+        "forge-1.20.1" = _aB4JwP4d;
         "pkg-1.0.0" = _AE38VSg2;
         "pkg-1.0.5" = _EtpcLywc;
         "pkg-1.0.6" = _1GMUhJWv;
@@ -335,7 +359,8 @@ let
         "pkg-1.4.0" = _dfH5hvOl;
         "pkg-1.4.1" = _lKzINKej;
         "pkg-1.4.2" = _cx0KXHI0;
-        "default" = _cx0KXHI0;
+        "pkg-1.4.3" = _aB4JwP4d;
+        "default" = _aB4JwP4d;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mob-journal";

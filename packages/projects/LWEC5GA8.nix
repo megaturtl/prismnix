@@ -436,6 +436,126 @@ let
             "file" = "waypoints-plus-mc26.2-fabric-1.0.10.jar";
             "hash" = "sha512-aGK6Z3kfavJCFQmpnlp2Wolc39UV0wmYLFMfUQi4PZNlXbT+hyYoqP+LjonmAkV5PVJcjtlEE4NIG7Q0eTyURA==";
         };
+        _FfoxaDYQ = {
+            "id" = "FfoxaDYQ";
+            "file" = "waypoints-plus-mc1.19.2-fabric-1.0.11.jar";
+            "hash" = "sha512-ogXoHPyCdW0JJ8dHOj4WeGHLqkUbUuxZXUbgZt6T5y5jnYtbjqo/hi55AYq91YT4uOn/FZ9VkyPulMP6+6Ge4g==";
+        };
+        _5XJAgZ8w = {
+            "id" = "5XJAgZ8w";
+            "file" = "waypoints-plus-mc1.20.1-fabric-1.0.11.jar";
+            "hash" = "sha512-ul4drUfcPe5PWRfRi4DrTjjpS5Op9R68da/aDbYKSuMEJoHRuiLGezIAZV7OwDGLYeGTZHga3MPCROLtQwt15g==";
+        };
+        _MXeIaWUC = {
+            "id" = "MXeIaWUC";
+            "file" = "waypoints-plus-mc1.20.6-fabric-1.0.11.jar";
+            "hash" = "sha512-yoepDSOnr2tXsHnWWMFj749kogTR6gnDOaGcfypnyG2yL6USTbPv1nZIKq9IkndGzcNWXDcJstslQL/i8p/YvA==";
+        };
+        _qcdu10Fi = {
+            "id" = "qcdu10Fi";
+            "file" = "waypoints-plus-mc1.21.1-fabric-1.0.11.jar";
+            "hash" = "sha512-x6wcXj15BRZ6+VqEHzi8ZPRdFPzK1CM4xBXjuFjPeFUnnZt7PPHgSj38kSkq0nm+BhG/r9y+krsLyrGkiERaPA==";
+        };
+        _7Of6PdKA = {
+            "id" = "7Of6PdKA";
+            "file" = "waypoints-plus-mc1.21.2-1.21.4-fabric-1.0.11.jar";
+            "hash" = "sha512-qZZxJvYqN1E0gQ85XdqShE0mhOd+kDWwMphpF0vzqiA19Tzk9VzPXsCt1NBsTJzYBSPAhMNZeOampnNRwGuPXw==";
+        };
+        _WGvIyYXP = {
+            "id" = "WGvIyYXP";
+            "file" = "waypoints-plus-mc1.21.5-fabric-1.0.11.jar";
+            "hash" = "sha512-07QCHZFnZ3BpJH1DF6ossP6Pi95ij+rr/NWPCBBB+CAcfpUtlQNQvkVdH6J/ew1VOaZaDWCiqdN5yCz14X/D6w==";
+        };
+        _Um2NE3S1 = {
+            "id" = "Um2NE3S1";
+            "file" = "waypoints-plus-mc1.21.6-fabric-1.0.11.jar";
+            "hash" = "sha512-gE0taCuANi+yc8szraAIo33f2FcTKIvTsggkxuT+5mz+4Lf8htPwlb9iaAIoGeOSlwgJBqZOSR47b9UBc+DARQ==";
+        };
+        _KTpKUFfh = {
+            "id" = "KTpKUFfh";
+            "file" = "waypoints-plus-mc1.21.8-fabric-1.0.11.jar";
+            "hash" = "sha512-pNjANsNPCL2pb+CezL8Ap3OgjhNqRW0OwObrvTpBHtvm6qVKuP9usttRP3lHQhmUJuxgMmR0xtT8GldwXNuZFQ==";
+        };
+        _Gzv0FIPx = {
+            "id" = "Gzv0FIPx";
+            "file" = "waypoints-plus-mc1.21.10-fabric-1.0.11.jar";
+            "hash" = "sha512-6t2u+dtp3Ke996wQx/pXCOx3RF79UaOY3Hnh1TAGV6JfcAEraX5ZB0C1SSwLnmL4mLalgJFi4DHoeF5X3fbscg==";
+        };
+        _c7g3WItD = {
+            "id" = "c7g3WItD";
+            "file" = "waypoints-plus-mc1.21.11-fabric-1.0.11.jar";
+            "hash" = "sha512-nJPBvSekxtG6NXViNSsJ1liiiyl6vCtC5fh8YqsAFStULOVkMtEXJi5w40mzygHd57WsY8p70VRf/OYmaeTUtg==";
+        };
+        _9ufnW6nh = {
+            "id" = "9ufnW6nh";
+            "file" = "waypoints-plus-mc26.1.2-fabric-1.0.11.jar";
+            "hash" = "sha512-YiEFrBlmDR9bv+2SrP7Kup/8h8zM9XpAq5/sJqc/OB7baDrMZ7J0x/RL2iZb/9CHnHTTP/oQ+XRunPpb8m34gQ==";
+        };
+        _G2QFEKr6 = {
+            "id" = "G2QFEKr6";
+            "file" = "waypoints-plus-mc26.2-fabric-1.0.11.jar";
+            "hash" = "sha512-kCLb0L9wUa7WOMCvaZ/zvFX/YTV6JNuVtieHViCYCKoy3Ojgr5rS4IWjP6d3XH63oiZiPf+NkzM1Fs0uDSHo3g==";
+        };
+        _MxafRGxD = {
+            "id" = "MxafRGxD";
+            "file" = "waypoints-plus-mc1.19.2-fabric-1.0.12.jar";
+            "hash" = "sha512-juLHLWYMpThGL4p8DBlDrnAtAUmmLn0q0MkcqAal4MHaR1cKiaH6xOpJZoNG7fSrV2BmA/IWbfSmhz4oD9AMBw==";
+        };
+        _dHPKIBOG = {
+            "id" = "dHPKIBOG";
+            "file" = "waypoints-plus-mc1.20.1-fabric-1.0.12.jar";
+            "hash" = "sha512-yiGmnCjbPRWBIKtr6DS88Io7xGymu44RpA2/e09UIKhyOxhNO+jh2p2Ove4hpemJOHlFuBEc7qbLoYOfwkhYPw==";
+        };
+        _7MZehngr = {
+            "id" = "7MZehngr";
+            "file" = "waypoints-plus-mc1.20.6-fabric-1.0.12.jar";
+            "hash" = "sha512-gjtikAZL/BHoxixierBtCmQ6XuQ6dr52JiL7cM6udmsQFJOCRwM6wUFWqfGHlcykvngmeEN8BkP1ISBKQ7Um9Q==";
+        };
+        _50Ke8C0V = {
+            "id" = "50Ke8C0V";
+            "file" = "waypoints-plus-mc1.21.1-fabric-1.0.12.jar";
+            "hash" = "sha512-Jy2yC40O5A2nhExR231ugHFGHgek6DMKn++eH7NcLJz/qSQWXctzZnbW639MnwRZtBylgbRO6SxpTyAPvOQvcA==";
+        };
+        _2kDUZUr5 = {
+            "id" = "2kDUZUr5";
+            "file" = "waypoints-plus-mc1.21.2-1.21.4-fabric-1.0.12.jar";
+            "hash" = "sha512-9FfTa3vQWcWlZcjnbQuCAexdMOBNcF2nwCAo36JslBFvEW2pPRL0vi6QgJnkbmMFNq7TSSrIZUTB61jfP0nvVg==";
+        };
+        _OAOZihzs = {
+            "id" = "OAOZihzs";
+            "file" = "waypoints-plus-mc1.21.5-fabric-1.0.12.jar";
+            "hash" = "sha512-0fglL1G4YhYVs1PN2GweNXX6BbddGm4CpbBkdWqNHD7IhuFuemWcBQJ57h46zE0iiP82yHj9CegTmUkESZHBhA==";
+        };
+        _pcMwB4OF = {
+            "id" = "pcMwB4OF";
+            "file" = "waypoints-plus-mc1.21.6-fabric-1.0.12.jar";
+            "hash" = "sha512-6+j7il1GKHkFvCuHu2fzfrlY3QdBrUyd2Q2sf067EYWUPl0nPGcD3g1qtwSxmpG7Ymf3qymuBnEhW5WhLXeVfg==";
+        };
+        _kdHjwc0h = {
+            "id" = "kdHjwc0h";
+            "file" = "waypoints-plus-mc1.21.8-fabric-1.0.12.jar";
+            "hash" = "sha512-CLKOedgYwh4uJKyfZDqtH+XCWhY86HyA5Y4jw2Lrmx8uP7deJGV1Mb1I9EqeeUAxdYsmaRSOrOUarTKb4WI7aw==";
+        };
+        _LbPyJLeS = {
+            "id" = "LbPyJLeS";
+            "file" = "waypoints-plus-mc1.21.10-fabric-1.0.12.jar";
+            "hash" = "sha512-aeH2uayxk1w0OzrGuLaCKscj1SAfuCWOoXmFKyMApRBXjKqL7mtTfEc45jCTDXvevtzpDRWNZuQhv7i1you6Rg==";
+        };
+        _fsYNuyHY = {
+            "id" = "fsYNuyHY";
+            "file" = "waypoints-plus-mc1.21.11-fabric-1.0.12.jar";
+            "hash" = "sha512-JWy6to5WG/kIYmZK5ZlUcYcCOla7w6cRnopjzr8ojhHCvSUvUYAtfzflgRWleXXFpd2uK8M6zJhuBVyaeEt+HQ==";
+        };
+        _5voT251H = {
+            "id" = "5voT251H";
+            "file" = "waypoints-plus-mc26.1.2-fabric-1.0.12.jar";
+            "hash" = "sha512-yk5tNGSe8zeYffNTknvZ++Fdcw7QEaAPU6GoVCBpGRwd7jJjBVj8m/Wit/7ejusNjIojNcBM8evkoCky/vUxRA==";
+        };
+        _jVZIztt1 = {
+            "id" = "jVZIztt1";
+            "file" = "waypoints-plus-mc26.2-fabric-1.0.12.jar";
+            "hash" = "sha512-opj22+YGo+tQC1/44jlVoUIjhNKHuF6t1OjQFSo/RbZrqafDfhaxSJhhN4z1HSU8xKpZEG1dEcZ5WGEDowIr4w==";
+        };
     in {
         "WvFL41X7" = _WvFL41X7;
         "ReFGtAyk" = _ReFGtAyk;
@@ -524,20 +644,44 @@ let
         "RCTdm1Vm" = _RCTdm1Vm;
         "DQlbwpJZ" = _DQlbwpJZ;
         "asUKYIUM" = _asUKYIUM;
-        "fabric-1.21.2" = _xwnzT5y9;
-        "fabric-1.21.3" = _xwnzT5y9;
-        "fabric-1.21.4" = _xwnzT5y9;
-        "fabric-26.1.2" = _DQlbwpJZ;
-        "fabric-1.21.8" = _KZr1WmJM;
-        "fabric-1.19.2" = _QqAsvp23;
-        "fabric-1.21.11" = _RCTdm1Vm;
-        "fabric-1.21.10" = _MrVCu6pz;
-        "fabric-1.21.6" = _ZMkHcrdx;
-        "fabric-1.21.5" = _RGl20VrW;
-        "fabric-1.21.1" = _YCrQxrBC;
-        "fabric-1.20.6" = _LwrwCwDr;
-        "fabric-1.20.1" = _FSKOQwNO;
-        "fabric-26.2" = _asUKYIUM;
+        "FfoxaDYQ" = _FfoxaDYQ;
+        "5XJAgZ8w" = _5XJAgZ8w;
+        "MXeIaWUC" = _MXeIaWUC;
+        "qcdu10Fi" = _qcdu10Fi;
+        "7Of6PdKA" = _7Of6PdKA;
+        "WGvIyYXP" = _WGvIyYXP;
+        "Um2NE3S1" = _Um2NE3S1;
+        "KTpKUFfh" = _KTpKUFfh;
+        "Gzv0FIPx" = _Gzv0FIPx;
+        "c7g3WItD" = _c7g3WItD;
+        "9ufnW6nh" = _9ufnW6nh;
+        "G2QFEKr6" = _G2QFEKr6;
+        "MxafRGxD" = _MxafRGxD;
+        "dHPKIBOG" = _dHPKIBOG;
+        "7MZehngr" = _7MZehngr;
+        "50Ke8C0V" = _50Ke8C0V;
+        "2kDUZUr5" = _2kDUZUr5;
+        "OAOZihzs" = _OAOZihzs;
+        "pcMwB4OF" = _pcMwB4OF;
+        "kdHjwc0h" = _kdHjwc0h;
+        "LbPyJLeS" = _LbPyJLeS;
+        "fsYNuyHY" = _fsYNuyHY;
+        "5voT251H" = _5voT251H;
+        "jVZIztt1" = _jVZIztt1;
+        "fabric-1.21.2" = _2kDUZUr5;
+        "fabric-1.21.3" = _2kDUZUr5;
+        "fabric-1.21.4" = _2kDUZUr5;
+        "fabric-26.1.2" = _5voT251H;
+        "fabric-1.21.8" = _kdHjwc0h;
+        "fabric-1.19.2" = _MxafRGxD;
+        "fabric-1.21.11" = _fsYNuyHY;
+        "fabric-1.21.10" = _LbPyJLeS;
+        "fabric-1.21.6" = _pcMwB4OF;
+        "fabric-1.21.5" = _OAOZihzs;
+        "fabric-1.21.1" = _50Ke8C0V;
+        "fabric-1.20.6" = _7MZehngr;
+        "fabric-1.20.1" = _dHPKIBOG;
+        "fabric-26.2" = _jVZIztt1;
         "pkg-1.0.0" = _N99jGHVl;
         "pkg-1.0.3" = _NArFQ5cw;
         "pkg-1.0.4" = _Frb949Nj;
@@ -546,7 +690,9 @@ let
         "pkg-1.0.8" = _5XjlgkvC;
         "pkg-1.0.9" = _iYqmeLoV;
         "pkg-1.0.10" = _asUKYIUM;
-        "default" = _asUKYIUM;
+        "pkg-1.0.11" = _G2QFEKr6;
+        "pkg-1.0.12" = _jVZIztt1;
+        "default" = _jVZIztt1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "waypoints-plus";

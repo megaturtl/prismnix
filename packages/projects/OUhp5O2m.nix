@@ -1331,6 +1331,21 @@ let
             "file" = "tesseract-1.0.38b-neoforge-mc26.2.jar";
             "hash" = "sha512-/fS6C8RUDahtywAn5ylWLVPQ/nIDo+6SxO1XWMukBIoyNfT28dWPe8oZc5gEEyJaLVMmrrXpiDmalT7nyMbJcw==";
         };
+        _m6yyRmtK = {
+            "id" = "m6yyRmtK";
+            "file" = "tesseract-1.0.38c-neoforge-mc26.2.jar";
+            "hash" = "sha512-WN4tfMVHxoKVee2mdpP1z7d8OSO6B4zbObUdkmx1/RBWd+f+e54nbihkQ8veGt/qoJGRha/a+PTi6sOhTBR9Fw==";
+        };
+        _oYtj8gL1 = {
+            "id" = "oYtj8gL1";
+            "file" = "tesseract-1.0.38-fabric-mc26.3.jar";
+            "hash" = "sha512-ikmBiTBhil+448B4OfEC4y5sWBZD1u1cA+ukvsCzFtarI8ONIjKbS2mdSnrMEeR+4zDFytjN9md2biIjA7cGug==";
+        };
+        _pZVqk1pV = {
+            "id" = "pZVqk1pV";
+            "file" = "tesseract-1.0.38-neoforge-mc26.3.jar";
+            "hash" = "sha512-qNZEaU1q23agZfYM2R2IE1RkOJ/F803IoqqHe1UThwHlAvrF6Hk6RLDIzxtUjCQO20BnO+PFSilfuP5KEhQ8mg==";
+        };
     in {
         "4Nhq4XxR" = _4Nhq4XxR;
         "YHpPwQ79" = _YHpPwQ79;
@@ -1598,6 +1613,9 @@ let
         "5f31UWGn" = _5f31UWGn;
         "UaV8c6UL" = _UaV8c6UL;
         "jUEdiQsY" = _jUEdiQsY;
+        "m6yyRmtK" = _m6yyRmtK;
+        "oYtj8gL1" = _oYtj8gL1;
+        "pZVqk1pV" = _pZVqk1pV;
         "forge-1.12" = _tREw0o95;
         "forge-1.12.1" = _tREw0o95;
         "forge-1.12.2" = _tREw0o95;
@@ -1676,6 +1694,7 @@ let
         "fabric-26.1.1" = _bvRz8tbU;
         "fabric-26.1.2" = _bvRz8tbU;
         "fabric-26.2" = _AETPj8j4;
+        "fabric-26.3" = _oYtj8gL1;
         "neoforge-1.12" = _51G2h9Bo;
         "neoforge-1.12.1" = _51G2h9Bo;
         "neoforge-1.12.2" = _51G2h9Bo;
@@ -1725,7 +1744,8 @@ let
         "neoforge-26.1" = _UaV8c6UL;
         "neoforge-26.1.1" = _UaV8c6UL;
         "neoforge-26.1.2" = _UaV8c6UL;
-        "neoforge-26.2" = _jUEdiQsY;
+        "neoforge-26.2" = _m6yyRmtK;
+        "neoforge-26.3" = _pZVqk1pV;
         "quilt-1.18" = _MMqqznXJ;
         "quilt-1.18.1" = _MMqqznXJ;
         "quilt-1.18.2" = _MMqqznXJ;
@@ -1754,6 +1774,7 @@ let
         "quilt-26.1.1" = _bvRz8tbU;
         "quilt-26.1.2" = _bvRz8tbU;
         "quilt-26.2" = _AETPj8j4;
+        "quilt-26.3" = _oYtj8gL1;
         "pkg-1.0.27-forge-mc1.12" = _4Nhq4XxR;
         "pkg-1.0.27-forge-mc1.14" = _YHpPwQ79;
         "pkg-1.0.27-forge-mc1.15" = _GkBY1sUf;
@@ -2020,7 +2041,10 @@ let
         "pkg-1.0.38a-neoforge-mc26.2" = _5f31UWGn;
         "pkg-1.0.38b-neoforge-mc26.1" = _UaV8c6UL;
         "pkg-1.0.38b-neoforge-mc26.2" = _jUEdiQsY;
-        "default" = _jUEdiQsY;
+        "pkg-1.0.38c-neoforge-mc26.2" = _m6yyRmtK;
+        "pkg-1.0.38-fabric-mc26.3" = _oYtj8gL1;
+        "pkg-1.0.38-neoforge-mc26.3" = _pZVqk1pV;
+        "default" = _pZVqk1pV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tesseract";

@@ -421,6 +421,56 @@ let
             "file" = "spotify_controller-4.4+mc26.2.jar";
             "hash" = "sha512-2hk15hrQ5FVb2od6ZitRVsfvrjv8/eaWGQEetk8gPJacksq05N5qmisFIkon0H+bLgFAVvIr3RKnP5e89q14Tw==";
         };
+        _VHCFTU4y = {
+            "id" = "VHCFTU4y";
+            "file" = "spotify_controller-4.5+mc1.21-1.21.1.jar";
+            "hash" = "sha512-T47Ju2/pGchMiHGb0UVRwtEdLlEHzGdOUlMoFSx104EjqcMf8kPa0Mb/3SCgxDTSvY2ItPJ3ipkqnTpWmLIVsw==";
+        };
+        _oW6yYiRQ = {
+            "id" = "oW6yYiRQ";
+            "file" = "spotify_controller-4.5+mc1.21.11.jar";
+            "hash" = "sha512-2WTM94FfPnVJNnk+U+pwknsQpjwuFuAXE4wHST6zPp90eNa/VjsOEOIaY2Y23Xnvii60kwTcO0v5HcQKCzdhIA==";
+        };
+        _HaQlKVv8 = {
+            "id" = "HaQlKVv8";
+            "file" = "spotify_controller-4.5+mc1.21.2-1.21.3.jar";
+            "hash" = "sha512-JUP8suCDgxYtQSinoEHdmFnl8/ZHu9zvBLjPFaOADOGEUFApJXyhUx8VFBztbC8PFmhMAh7N7lLM6GVAWUVxwg==";
+        };
+        _QPSBCFF7 = {
+            "id" = "QPSBCFF7";
+            "file" = "spotify_controller-4.5+mc1.21.4.jar";
+            "hash" = "sha512-fxxHXPIDDqhOioG3TSkXnNfn5m5ESDx4qMf3j8SJbZDFr/9i4WOZ7peiFyA4dgOObynVXnyrSofMoTPaUcx23A==";
+        };
+        _1w009lMx = {
+            "id" = "1w009lMx";
+            "file" = "spotify_controller-4.5+mc1.21.5.jar";
+            "hash" = "sha512-zXSPmMKz/8a0F/G6Ka/Fv5uYwB/FMy4oI3VDCRB50ZgR42oSom5mnuPzbb9szhMjrXo6A2zN2Gqz0JsVZgLUEg==";
+        };
+        _DeEnIfk0 = {
+            "id" = "DeEnIfk0";
+            "file" = "spotify_controller-4.5+mc1.21.6-1.21.8.jar";
+            "hash" = "sha512-MNcyxSntsyUOD2Bfvnm63mLWSY9LzXayAvOfgHdZjGn0OqX6wIr4FA/ox31xNAlzyGBGYNtiLPI4Dgiw8XhCLw==";
+        };
+        _Oz4UkfCz = {
+            "id" = "Oz4UkfCz";
+            "file" = "spotify_controller-4.5+mc1.21.9-1.21.10.jar";
+            "hash" = "sha512-imsgxOcxGsfBwwmm4Pw8UpTfIJato81+C1aUaXPM596L7qD5ROXdMQRayGQO63nTweu6Q7ZN4Y6KZYD72/8hlA==";
+        };
+        _gv74MBlF = {
+            "id" = "gv74MBlF";
+            "file" = "spotify_controller-4.5+mc26.1-26.1.2.jar";
+            "hash" = "sha512-INI2jBQflqLqkEz2xOPmiH1OMHx13vtJHkOZHqa0VxoBavnUy+HziKl1GrGMheUR4JeMM0KvXzaV2JAXbEbGYQ==";
+        };
+        _fonkatqM = {
+            "id" = "fonkatqM";
+            "file" = "spotify_controller-4.5+mc26.2.jar";
+            "hash" = "sha512-h0zt3tsUZ/VFo/gxsEfJH72R4/X48WaT5M7M3UAVwOT+/lf5hVNSMNXOATNVkdHKtgd/JPT010y9Wlo7Wfvaiw==";
+        };
+        _hAZBE2nZ = {
+            "id" = "hAZBE2nZ";
+            "file" = "spotify_controller-4.5+mc26.3.jar";
+            "hash" = "sha512-bnve2mfFGSnepp+lBdoDDTny9uQs+sKf242j8CHRm0lBBeHw4VwQ+rYj23zxD2hTKgwL9R2xS9ofueV6wUt1ng==";
+        };
     in {
         "7uz30HYv" = _7uz30HYv;
         "pZ9w3j6G" = _pZ9w3j6G;
@@ -506,22 +556,33 @@ let
         "5J27dHU1" = _5J27dHU1;
         "4Feinhn3" = _4Feinhn3;
         "ZmlqNv9q" = _ZmlqNv9q;
-        "fabric-1.21.1" = _rMjz506t;
-        "fabric-1.21.2" = _l9t21Pjv;
-        "fabric-1.21.3" = _l9t21Pjv;
-        "fabric-1.21.4" = _UuLOpHmi;
-        "fabric-1.21.5" = _T6Jyyx2i;
-        "fabric-1.21" = _rMjz506t;
-        "fabric-1.21.6" = _itkVDa6D;
-        "fabric-1.21.7" = _itkVDa6D;
-        "fabric-1.21.8" = _itkVDa6D;
-        "fabric-1.21.9" = _5J27dHU1;
-        "fabric-1.21.10" = _5J27dHU1;
-        "fabric-1.21.11" = _LKhvwWwu;
-        "fabric-26.1" = _4Feinhn3;
-        "fabric-26.1.1" = _4Feinhn3;
-        "fabric-26.1.2" = _4Feinhn3;
-        "fabric-26.2" = _ZmlqNv9q;
+        "VHCFTU4y" = _VHCFTU4y;
+        "oW6yYiRQ" = _oW6yYiRQ;
+        "HaQlKVv8" = _HaQlKVv8;
+        "QPSBCFF7" = _QPSBCFF7;
+        "1w009lMx" = _1w009lMx;
+        "DeEnIfk0" = _DeEnIfk0;
+        "Oz4UkfCz" = _Oz4UkfCz;
+        "gv74MBlF" = _gv74MBlF;
+        "fonkatqM" = _fonkatqM;
+        "hAZBE2nZ" = _hAZBE2nZ;
+        "fabric-1.21.1" = _VHCFTU4y;
+        "fabric-1.21.2" = _HaQlKVv8;
+        "fabric-1.21.3" = _HaQlKVv8;
+        "fabric-1.21.4" = _QPSBCFF7;
+        "fabric-1.21.5" = _1w009lMx;
+        "fabric-1.21" = _VHCFTU4y;
+        "fabric-1.21.6" = _DeEnIfk0;
+        "fabric-1.21.7" = _DeEnIfk0;
+        "fabric-1.21.8" = _DeEnIfk0;
+        "fabric-1.21.9" = _Oz4UkfCz;
+        "fabric-1.21.10" = _Oz4UkfCz;
+        "fabric-1.21.11" = _oW6yYiRQ;
+        "fabric-26.1" = _gv74MBlF;
+        "fabric-26.1.1" = _gv74MBlF;
+        "fabric-26.1.2" = _gv74MBlF;
+        "fabric-26.2" = _fonkatqM;
+        "fabric-26.3" = _hAZBE2nZ;
         "pkg-1.0" = _7uz30HYv;
         "pkg-2.0" = _pZ9w3j6G;
         "pkg-2.1" = _VwdOu9ov;
@@ -539,7 +600,8 @@ let
         "pkg-4.3" = _XYB7pEYY;
         "pkg-4.3.1" = _FEP85Sce;
         "pkg-4.4" = _ZmlqNv9q;
-        "default" = _ZmlqNv9q;
+        "pkg-4.5" = _hAZBE2nZ;
+        "default" = _hAZBE2nZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spotify-controller";

@@ -71,6 +71,11 @@ let
             "file" = "drinkingflask-4.0.5+mc26.2.jar";
             "hash" = "sha512-v1cOrIHjjGdZ1TBpaehiaI09TkUSz4PmrpxDaqBHzFf3LKmtQDMdPip+nmhjPKDAbRS7wyl6UPN56Ty6pIeWmA==";
         };
+        _KiJ9nnOx = {
+            "id" = "KiJ9nnOx";
+            "file" = "drinkingflask-4.0.5+mc26.3.jar";
+            "hash" = "sha512-uFQm7LXdxR0K+NALg5EtCqwo+s59UPTC7WttTrIUZ4VVhbzCc1T6Xba3eT7qINkITlYKfCW1B9bVvTnbUNuwZw==";
+        };
     in {
         "VP61l4BL" = _VP61l4BL;
         "UpbdpZmh" = _UpbdpZmh;
@@ -86,6 +91,7 @@ let
         "T0f6rc2C" = _T0f6rc2C;
         "6zwdjp0m" = _6zwdjp0m;
         "1utvEsn3" = _1utvEsn3;
+        "KiJ9nnOx" = _KiJ9nnOx;
         "fabric-1.20.1" = _9e0fxjiR;
         "fabric-1.20.2" = _9e0fxjiR;
         "fabric-1.20.3" = _9e0fxjiR;
@@ -104,6 +110,8 @@ let
         "fabric-26.2-rc-1" = _1utvEsn3;
         "fabric-26.2-rc-2" = _1utvEsn3;
         "fabric-26.2" = _1utvEsn3;
+        "fabric-26.3-rc-3" = _KiJ9nnOx;
+        "fabric-26.3" = _KiJ9nnOx;
         "quilt-1.20.1" = _9e0fxjiR;
         "quilt-1.20.2" = _9e0fxjiR;
         "quilt-1.20.3" = _9e0fxjiR;
@@ -122,7 +130,8 @@ let
         "pkg-4.0.4+mc26.1" = _T0f6rc2C;
         "pkg-4.0.5+mc26.1" = _6zwdjp0m;
         "pkg-4.0.5+mc26.2" = _1utvEsn3;
-        "default" = _1utvEsn3;
+        "pkg-4.0.5+mc26.3" = _KiJ9nnOx;
+        "default" = _KiJ9nnOx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "drinking-flask";

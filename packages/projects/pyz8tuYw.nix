@@ -56,6 +56,11 @@ let
             "file" = "The Skinwalker Hunt [v6.0] [NeoForge 1.21.1].jar";
             "hash" = "sha512-js7eXChzl0peEBwgUjFIUNxTAepdchEEB6FprjVcTn+OG37yNggtviMJf/e9nUwD/v1wKwhMrmjscZENK/SDmQ==";
         };
+        _hcRRMCfo = {
+            "id" = "hcRRMCfo";
+            "file" = "The Skinwalker Hunt [v7.0] [Forge 1.20.1].jar";
+            "hash" = "sha512-6yhWW95rwAruMftcL+QyJ3oDfFFDdBJJcOHky8Jw4/S5+MIXbO7nRaf6jffUJyVzby64kwlibg4HSAsDzd3cHQ==";
+        };
     in {
         "RD5q2kld" = _RD5q2kld;
         "Rz9F0mb4" = _Rz9F0mb4;
@@ -68,7 +73,8 @@ let
         "ucG0F08y" = _ucG0F08y;
         "BAnV7xz6" = _BAnV7xz6;
         "Tsfx4ht4" = _Tsfx4ht4;
-        "forge-1.20.1" = _BAnV7xz6;
+        "hcRRMCfo" = _hcRRMCfo;
+        "forge-1.20.1" = _hcRRMCfo;
         "neoforge-1.21.1" = _Tsfx4ht4;
         "pkg-1.0" = _RD5q2kld;
         "pkg-1.1" = _Rz9F0mb4;
@@ -81,7 +87,8 @@ let
         "pkg-4.0" = _ucG0F08y;
         "pkg-5.0" = _BAnV7xz6;
         "pkg-6.0" = _Tsfx4ht4;
-        "default" = _Tsfx4ht4;
+        "pkg-7.0" = _hcRRMCfo;
+        "default" = _hcRRMCfo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-skinwalker-hunt";

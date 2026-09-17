@@ -66,6 +66,21 @@ let
             "file" = "chest-on-ghast-1.0.4-quilt.jar";
             "hash" = "sha512-9dlT/CfZ9csoxyKnR6eVFy4lZEv6/t0v1BHDsGje/P7aIaGK75H81OaXYg1OWXPqp10x/aDyhznGuqcMjFuyGg==";
         };
+        _Zl1MXHrV = {
+            "id" = "Zl1MXHrV";
+            "file" = "chest-on-ghast-fabric-1.0.4.jar";
+            "hash" = "sha512-+RSuf01nieLOoAOmoCI+406yLSmhOC3kNsLJJ7Cz6fxwqAOiaRdxjy2SevKGb9WeHVRISA/Qnx1wLO5bgmKfNQ==";
+        };
+        _Zkls9YeH = {
+            "id" = "Zkls9YeH";
+            "file" = "chest-on-ghast-neoforge-1.0.4.jar";
+            "hash" = "sha512-+ltxEW8tZpYKYOA2QtVwzlwLtBspH45icm+zQYFGutcH30yLeEilJHsktoLfQHkZhXOPjAZNTItTH/WtqTXFew==";
+        };
+        _tcwXcx97 = {
+            "id" = "tcwXcx97";
+            "file" = "chest-on-ghast-quilt-1.0.4.jar";
+            "hash" = "sha512-MtpNQSMrmMJUPlCHo+d61L3WEyw2RPULUmuLIe3rMv66rRyCUp/JOIvM3QhjkGCochDrp6f6VPUcLzNMDv1B9A==";
+        };
     in {
         "7KAaFjO4" = _7KAaFjO4;
         "Zf10gEFt" = _Zf10gEFt;
@@ -80,6 +95,9 @@ let
         "m913llr4" = _m913llr4;
         "qPOgdye7" = _qPOgdye7;
         "OQ6DPu32" = _OQ6DPu32;
+        "Zl1MXHrV" = _Zl1MXHrV;
+        "Zkls9YeH" = _Zkls9YeH;
+        "tcwXcx97" = _tcwXcx97;
         "fabric-1.21.6" = _QjYAykZf;
         "fabric-1.21.7" = _QjYAykZf;
         "fabric-1.21.8" = _QjYAykZf;
@@ -90,6 +108,7 @@ let
         "fabric-26.1.1" = _pdCCn7nA;
         "fabric-26.1.2" = _pdCCn7nA;
         "fabric-26.2" = _m913llr4;
+        "fabric-26.3" = _Zl1MXHrV;
         "quilt-1.21.6" = _QjYAykZf;
         "quilt-1.21.7" = _QjYAykZf;
         "quilt-1.21.8" = _QjYAykZf;
@@ -100,16 +119,18 @@ let
         "quilt-26.1.1" = _gpbKASH5;
         "quilt-26.1.2" = _gpbKASH5;
         "quilt-26.2" = _OQ6DPu32;
+        "quilt-26.3" = _tcwXcx97;
         "neoforge-26.1" = _hd7T6Pqz;
         "neoforge-26.1.1" = _hd7T6Pqz;
         "neoforge-26.1.2" = _hd7T6Pqz;
         "neoforge-26.2" = _qPOgdye7;
+        "neoforge-26.3" = _Zkls9YeH;
         "pkg-1.0.0" = _7KAaFjO4;
         "pkg-1.0.1" = _Zf10gEFt;
         "pkg-1.0.2" = _QjYAykZf;
         "pkg-1.0.3" = _Ed8jgpi9;
-        "pkg-1.0.4" = _OQ6DPu32;
-        "default" = _OQ6DPu32;
+        "pkg-1.0.4" = _tcwXcx97;
+        "default" = _tcwXcx97;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chest-on-a-ghast";

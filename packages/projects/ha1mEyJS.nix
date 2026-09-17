@@ -456,6 +456,11 @@ let
             "file" = "PlayerAnimationLibMerged-1.2.6+mc.26.2.jar";
             "hash" = "sha512-ikl+bxaIN8Zg+I2dgTTO6ila1shirjo0KWODvLmmjmsXO2naWP9uXrgFlCCAZLQfDuDwKq7v3e9Tonqy5x6ijw==";
         };
+        _kemJXVHZ = {
+            "id" = "kemJXVHZ";
+            "file" = "PlayerAnimationLibMerged-1.2.7+mc.26.3.jar";
+            "hash" = "sha512-Zz3VgYbkPEGhj0SqJPo7s4bPEel5wotWY6MteAL0PAmQjHr9fgUIPV3QEpFRFSMp0DqMSjUJXVPUt446axMe/A==";
+        };
     in {
         "fGS0ECPY" = _fGS0ECPY;
         "9bojLvzT" = _9bojLvzT;
@@ -548,6 +553,7 @@ let
         "tDcfU8FO" = _tDcfU8FO;
         "yjxtkvnD" = _yjxtkvnD;
         "Hq1CwB9w" = _Hq1CwB9w;
+        "kemJXVHZ" = _kemJXVHZ;
         "fabric-1.21.7" = _mwkEvRa1;
         "fabric-1.21.8" = _dIf3Q9r1;
         "fabric-1.21.1" = _tDcfU8FO;
@@ -558,6 +564,7 @@ let
         "fabric-26.1.1" = _GiRAXABH;
         "fabric-26.1.2" = _GiRAXABH;
         "fabric-26.2" = _Hq1CwB9w;
+        "fabric-26.3" = _kemJXVHZ;
         "neoforge-1.21.7" = _74vWa88e;
         "neoforge-1.21.8" = _QTilrphh;
         "neoforge-1.21.1" = _yjxtkvnD;
@@ -568,6 +575,7 @@ let
         "neoforge-26.1.1" = _GiRAXABH;
         "neoforge-26.1.2" = _GiRAXABH;
         "neoforge-26.2" = _Hq1CwB9w;
+        "neoforge-26.3" = _kemJXVHZ;
         "pkg-1.0.0" = _9bojLvzT;
         "pkg-1.0.1" = _bupKatjE;
         "pkg-1.0.4" = _KWs8YKn0;
@@ -602,7 +610,8 @@ let
         "pkg-1.1.9" = _iYqqVMj8;
         "pkg-1.2.6" = _Hq1CwB9w;
         "pkg-1.1.10" = _X39o2UJS;
-        "default" = _Hq1CwB9w;
+        "pkg-1.2.7" = _kemJXVHZ;
+        "default" = _kemJXVHZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "player-animation-library";

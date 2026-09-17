@@ -61,6 +61,11 @@ let
             "file" = "Icons Fix.zip";
             "hash" = "sha512-K8XHF1MlbKMlO+FyL5OMbqoiVqAa6uW5XNNksUfROw0y3P9Bf6QLM4BMYddSKn+YuoJ1ZjmT2iwt1VC2io1e4g==";
         };
+        _ANR3npHV = {
+            "id" = "ANR3npHV";
+            "file" = "Icons Fix.zip";
+            "hash" = "sha512-29SMfhsqua+CK5W04Jmfe2+NpwG/HTr7JvoKc0LmhfWUB6zmbgAWaOBL67xDy6PfHpcfDdxKO8YolrMzGjVgaw==";
+        };
     in {
         "HHsy9gIL" = _HHsy9gIL;
         "ksf13CQs" = _ksf13CQs;
@@ -74,6 +79,7 @@ let
         "N3UPto18" = _N3UPto18;
         "TPcwzEQV" = _TPcwzEQV;
         "i9YrRn0r" = _i9YrRn0r;
+        "ANR3npHV" = _ANR3npHV;
         "minecraft-1.21.6" = _ksf13CQs;
         "minecraft-1.21.7" = _ksf13CQs;
         "minecraft-1.21.8" = _ksf13CQs;
@@ -86,6 +92,7 @@ let
         "minecraft-26.1.1" = _N3UPto18;
         "minecraft-26.1.2" = _N3UPto18;
         "minecraft-26.2" = _i9YrRn0r;
+        "minecraft-26.3" = _ANR3npHV;
         "pkg-v1+(1.21.6-1.21.8)" = _HHsy9gIL;
         "pkg-v2+(1.21.6-1.21.8)" = _ksf13CQs;
         "pkg-v1+(1.20-1.20.1)" = _RHD0xwq8;
@@ -98,7 +105,8 @@ let
         "pkg-v2+(26.1-26.1.2)" = _N3UPto18;
         "pkg-v2+(26.2)" = _TPcwzEQV;
         "pkg-v3+(26.2)" = _i9YrRn0r;
-        "default" = _i9YrRn0r;
+        "pkg-v1+(26.3)" = _ANR3npHV;
+        "default" = _ANR3npHV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "icons-fix";

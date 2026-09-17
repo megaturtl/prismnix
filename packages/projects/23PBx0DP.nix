@@ -76,6 +76,11 @@ let
             "file" = "Telepistons-1.1.4-26.2.jar";
             "hash" = "sha512-o233w6fN9nEqhNrlDgWd7ceZlnEWSu5WLjKxfoFKP51cXEoNr17SEr1hMIosGH50Rl3h503uLcfI/yx5vjkOSg==";
         };
+        _geiPkx5u = {
+            "id" = "geiPkx5u";
+            "file" = "Telepistons-1.1.4-26.3.jar";
+            "hash" = "sha512-g8IfVRjHf2Y/boMvSf0f5vQpGHcZNfU/3I2t4Ik9xlpu6iBgd+2lzZo47r26spj7cK/fLs4f/JyAX4DwxxFv5g==";
+        };
     in {
         "31TESHi3" = _31TESHi3;
         "2rdSBDCC" = _2rdSBDCC;
@@ -92,6 +97,7 @@ let
         "tSNsb21B" = _tSNsb21B;
         "gXlyzdey" = _gXlyzdey;
         "AYvL23oe" = _AYvL23oe;
+        "geiPkx5u" = _geiPkx5u;
         "fabric-1.19" = _97Zwh3tk;
         "fabric-1.16.5" = _3TgPwNmV;
         "fabric-1.18.2" = _NpMbk6xN;
@@ -117,6 +123,7 @@ let
         "fabric-26.1" = _gXlyzdey;
         "fabric-26.1.1" = _gXlyzdey;
         "fabric-26.2" = _AYvL23oe;
+        "fabric-26.3" = _geiPkx5u;
         "quilt-1.20" = _BCFnogYR;
         "quilt-1.20.1" = _BCFnogYR;
         "quilt-1.20.2" = _BCFnogYR;
@@ -135,12 +142,13 @@ let
         "quilt-26.1" = _gXlyzdey;
         "quilt-26.1.1" = _gXlyzdey;
         "quilt-26.2" = _AYvL23oe;
+        "quilt-26.3" = _geiPkx5u;
         "pkg-1.1.1" = _31TESHi3;
         "pkg-1.1.1a" = _2rdSBDCC;
         "pkg-1.1.2" = _97Zwh3tk;
         "pkg-1.1.3" = _tSNsb21B;
-        "pkg-1.1.4" = _AYvL23oe;
-        "default" = _AYvL23oe;
+        "pkg-1.1.4" = _geiPkx5u;
+        "default" = _geiPkx5u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "telepistons";

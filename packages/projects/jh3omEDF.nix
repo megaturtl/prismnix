@@ -76,6 +76,11 @@ let
             "file" = "CloseRecipeBook-1.1+26.2.jar";
             "hash" = "sha512-oOhuKit9giomg3etzFPxKrrw6YqMnp64L/4NqkF8IaC+eLg5S7JLHy8qKsuV+ygWenno9F9eLIn9d4d/YzB/AQ==";
         };
+        _mDqZCSSd = {
+            "id" = "mDqZCSSd";
+            "file" = "CloseRecipeBook-1.1+26.3.jar";
+            "hash" = "sha512-I504dmohwAkMxnwWso0jHAFgOv+swcLjUbGjbAcnkXQ8ykH60VBVB6YDcHWaEvwV2l9zFoByv7j3N1vM4IGrbg==";
+        };
     in {
         "O6WmwmxX" = _O6WmwmxX;
         "ysLZLFrp" = _ysLZLFrp;
@@ -92,6 +97,7 @@ let
         "UzgbYbxO" = _UzgbYbxO;
         "Tv3diP8B" = _Tv3diP8B;
         "rz5jysrj" = _rz5jysrj;
+        "mDqZCSSd" = _mDqZCSSd;
         "fabric-1.20.6" = _ysLZLFrp;
         "fabric-1.21" = _ysLZLFrp;
         "fabric-1.21.1" = _ysLZLFrp;
@@ -119,6 +125,7 @@ let
         "fabric-26.1-pre-1" = _UzgbYbxO;
         "fabric-26.1" = _Tv3diP8B;
         "fabric-26.2" = _rz5jysrj;
+        "fabric-26.3" = _mDqZCSSd;
         "pkg-1.0+1.20.6" = _O6WmwmxX;
         "pkg-1.1+1.20.6" = _ysLZLFrp;
         "pkg-1.1+1.21.2-SNAPSHOT.1" = _dWyc8rW3;
@@ -133,7 +140,8 @@ let
         "pkg-1.1+26.1" = _Tv3diP8B;
         "pkg-1.1+26.1-pre.1" = _UzgbYbxO;
         "pkg-1.1+26.2" = _rz5jysrj;
-        "default" = _rz5jysrj;
+        "pkg-1.1+26.3" = _mDqZCSSd;
+        "default" = _mDqZCSSd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "closes-recipe-book";

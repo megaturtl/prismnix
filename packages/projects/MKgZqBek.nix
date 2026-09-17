@@ -56,6 +56,11 @@ let
             "file" = "OreUI_Recreation_v2.3.zip";
             "hash" = "sha512-XVAcbFd5emNucX0unYZEwkPSO+6YLwkZOuRldCJz/rFKOoKg7z14LVq8jzGunBlC89YFeRs+sKICtjsaGfBk8w==";
         };
+        _rXjoSQDO = {
+            "id" = "rXjoSQDO";
+            "file" = "OreUI_Recreation_v2.4.zip";
+            "hash" = "sha512-wG8U1I5h0HtTlELjNRWEpHeyh/VRbf7F93nO31p3y29tRCBA13a16iTtc6j6D+M6w36Q0VbxHH0ZFKfz1I35dw==";
+        };
     in {
         "JR8OtQpb" = _JR8OtQpb;
         "Jo88XYOb" = _Jo88XYOb;
@@ -68,20 +73,22 @@ let
         "i8p7hzRp" = _i8p7hzRp;
         "ySFpzenj" = _ySFpzenj;
         "1r3ZxoW1" = _1r3ZxoW1;
-        "minecraft-1.21.4" = _1r3ZxoW1;
-        "minecraft-1.21.5" = _1r3ZxoW1;
+        "rXjoSQDO" = _rXjoSQDO;
+        "minecraft-1.21.4" = _rXjoSQDO;
+        "minecraft-1.21.5" = _rXjoSQDO;
         "minecraft-1.20" = _yfyJhQWc;
         "minecraft-1.20.1" = _yfyJhQWc;
-        "minecraft-1.21.6" = _1r3ZxoW1;
-        "minecraft-1.21.7" = _1r3ZxoW1;
-        "minecraft-1.21.8" = _1r3ZxoW1;
-        "minecraft-1.21.9" = _1r3ZxoW1;
-        "minecraft-1.21.10" = _1r3ZxoW1;
-        "minecraft-1.21.11" = _1r3ZxoW1;
-        "minecraft-26.1" = _1r3ZxoW1;
-        "minecraft-26.1.1" = _1r3ZxoW1;
-        "minecraft-26.1.2" = _1r3ZxoW1;
-        "minecraft-26.2" = _1r3ZxoW1;
+        "minecraft-1.21.6" = _rXjoSQDO;
+        "minecraft-1.21.7" = _rXjoSQDO;
+        "minecraft-1.21.8" = _rXjoSQDO;
+        "minecraft-1.21.9" = _rXjoSQDO;
+        "minecraft-1.21.10" = _rXjoSQDO;
+        "minecraft-1.21.11" = _rXjoSQDO;
+        "minecraft-26.1" = _rXjoSQDO;
+        "minecraft-26.1.1" = _rXjoSQDO;
+        "minecraft-26.1.2" = _rXjoSQDO;
+        "minecraft-26.2" = _rXjoSQDO;
+        "minecraft-26.3" = _rXjoSQDO;
         "pkg-0.1" = _JR8OtQpb;
         "pkg-1.0" = _Jo88XYOb;
         "pkg-1.1" = _pNkjW2Ft;
@@ -91,7 +98,8 @@ let
         "pkg-2.1" = _i8p7hzRp;
         "pkg-2.2" = _ySFpzenj;
         "pkg-2.3" = _1r3ZxoW1;
-        "default" = _1r3ZxoW1;
+        "pkg-2.4" = _rXjoSQDO;
+        "default" = _rXjoSQDO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "oreui-recreation";

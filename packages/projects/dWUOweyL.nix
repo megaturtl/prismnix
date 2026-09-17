@@ -396,6 +396,11 @@ let
             "file" = "animatedmojanglogo-2.3.jar";
             "hash" = "sha512-j7Sen9b67IoPiPbk68StG0M3C/PQIzNAWGl5h4ukuxSzVDhHmOgoTnE9lfQIrkI7ychKMbAftxn825u5vCFO9w==";
         };
+        _KXuzrsu5 = {
+            "id" = "KXuzrsu5";
+            "file" = "animated-mojang-logo-2.3.jar";
+            "hash" = "sha512-huTbNf4FBp3b8MJmgYtZMm6ebRWoFuuB6KayK5h4gttGRPJLefkeeR1ALqcG4AgVrX1Yimh2maCzhIEqj/yhgg==";
+        };
     in {
         "2IetHEi9" = _2IetHEi9;
         "hnGfvokl" = _hnGfvokl;
@@ -476,6 +481,7 @@ let
         "K6ZsOS1b" = _K6ZsOS1b;
         "whfVBhMP" = _whfVBhMP;
         "21MHdYGQ" = _21MHdYGQ;
+        "KXuzrsu5" = _KXuzrsu5;
         "fabric-1.21.2" = _4ip3ajTG;
         "fabric-1.21.3" = _4ip3ajTG;
         "fabric-1.21.4" = _4ip3ajTG;
@@ -504,6 +510,7 @@ let
         "fabric-26.1.1" = _yDwL7dl0;
         "fabric-26.1.2" = _yDwL7dl0;
         "fabric-26.2" = _yYQx7dAh;
+        "fabric-26.3" = _KXuzrsu5;
         "neoforge-1.21" = _mR8Li4jC;
         "neoforge-1.21.1" = _mR8Li4jC;
         "neoforge-1.21.4" = _kFbTz58x;
@@ -523,8 +530,8 @@ let
         "pkg-2.1.1" = _zxdwjhvI;
         "pkg-2.1.2" = _ckMmPhyg;
         "pkg-2.2" = _AcqjS8GU;
-        "pkg-2.3" = _21MHdYGQ;
-        "default" = _21MHdYGQ;
+        "pkg-2.3" = _KXuzrsu5;
+        "default" = _KXuzrsu5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animated-mojang-logo";

@@ -66,6 +66,16 @@ let
             "file" = "cookscollection-0.5.6.jar";
             "hash" = "sha512-ZuaA7agU/zpsZmmR8CkH6vtr9IXbKFQW63dn5ZALG1oveP2fOtSqaHa7DES5JKMVR1FsKowMP8RF5fkDaaHV2A==";
         };
+        _d3i2AwRr = {
+            "id" = "d3i2AwRr";
+            "file" = "cookscollection-0.5.7.jar";
+            "hash" = "sha512-2Z01+w98nTYvH41EOXNmXN2fQUf+0bfoxjx0bGwBLJKszJ4ixahnjFaxXvL86tStKgnkOcIjSTqEyBHcnRw9RQ==";
+        };
+        _k7HHJVEQ = {
+            "id" = "k7HHJVEQ";
+            "file" = "cookscollection-0.5.8.jar";
+            "hash" = "sha512-rji0uIhdleS9zhOjm22Xw35EIl0ee1nwbUhRGE7ZmQDLWGCBTKBlJx9+q6ukM1npftHuGHEU8y9sDOgt9dZEDA==";
+        };
     in {
         "2s3VWmPI" = _2s3VWmPI;
         "InVO6Vbw" = _InVO6Vbw;
@@ -80,9 +90,11 @@ let
         "9UztJCf2" = _9UztJCf2;
         "EUnk5KbU" = _EUnk5KbU;
         "hH87KN4v" = _hH87KN4v;
+        "d3i2AwRr" = _d3i2AwRr;
+        "k7HHJVEQ" = _k7HHJVEQ;
         "forge-1.19.2" = _dDcAEuVH;
         "forge-1.20.1" = _9UztJCf2;
-        "neoforge-1.21.1" = _hH87KN4v;
+        "neoforge-1.21.1" = _k7HHJVEQ;
         "pkg-0.4.5" = _2s3VWmPI;
         "pkg-0.5.1" = _InVO6Vbw;
         "pkg-0.5.3" = _DJZIWY0m;
@@ -96,7 +108,9 @@ let
         "pkg-0.6.1" = _9UztJCf2;
         "pkg-0.5.5" = _EUnk5KbU;
         "pkg-0.5.6" = _hH87KN4v;
-        "default" = _hH87KN4v;
+        "pkg-0.5.7-1.21.1" = _d3i2AwRr;
+        "pkg-0.5.8-1.21.1" = _k7HHJVEQ;
+        "default" = _k7HHJVEQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cooks-collection";

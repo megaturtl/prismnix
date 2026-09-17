@@ -1096,6 +1096,16 @@ let
             "file" = "Clumps-neoforge-26.2-26.2.1.jar";
             "hash" = "sha512-UknUfLaozHYMYqtDWqBq4kNIhd8k15IaY6kaUJcFOWx2Zsj/dzmt4eYfDTiu0rTXUO/4VJsL2HK0PSeVk2Oe3w==";
         };
+        _J4I1wxJZ = {
+            "id" = "J4I1wxJZ";
+            "file" = "Clumps-fabric-26.3-26.3.2.jar";
+            "hash" = "sha512-jBZq6X4ZmdDyE9Chgdbvh7mWSAFsksmqFBTSwuJDZLElSVac1+JHo9Z133A65qioj8F10/UngYxxBXhAhQjIqw==";
+        };
+        _kV095inH = {
+            "id" = "kV095inH";
+            "file" = "Clumps-neoforge-26.3-26.3.2.jar";
+            "hash" = "sha512-cQrB8qyPL205tqT1ansBWaMrtk0/+DN+IPyp65kbMt9U04x8DB40h6fCIL3oCYje+FYpJfvF3F4slBNCRPQbSg==";
+        };
     in {
         "9hlctcDE" = _9hlctcDE;
         "2PT9pbRj" = _2PT9pbRj;
@@ -1316,6 +1326,8 @@ let
         "RXNrUIjA" = _RXNrUIjA;
         "dEMopoOJ" = _dEMopoOJ;
         "FPYWjnnE" = _FPYWjnnE;
+        "J4I1wxJZ" = _J4I1wxJZ;
+        "kV095inH" = _kV095inH;
         "forge-1.10.2" = _k8jlVbEc;
         "forge-1.11.2" = _gGoDFlua;
         "forge-1.12" = _WUfSMmN9;
@@ -1390,6 +1402,7 @@ let
         "fabric-26.1.1" = _r5kiHYrj;
         "fabric-26.1.2" = _RXNrUIjA;
         "fabric-26.2" = _dEMopoOJ;
+        "fabric-26.3" = _J4I1wxJZ;
         "neoforge-1.20.2" = _FrcMJxfb;
         "neoforge-1.20.3" = _QMBYfAuO;
         "neoforge-1.20.4" = _MWDyKE94;
@@ -1411,6 +1424,7 @@ let
         "neoforge-26.1.1" = _D3EzyzGd;
         "neoforge-26.1.2" = _MYKeTBJr;
         "neoforge-26.2" = _FPYWjnnE;
+        "neoforge-26.3" = _kV095inH;
         "pkg-1.0.0" = _2PT9pbRj;
         "pkg-1.0.2" = _HWb4PbLd;
         "pkg-1.0.4" = _YlKKvqsg;
@@ -1534,7 +1548,8 @@ let
         "pkg-26.1.1.1" = _r5kiHYrj;
         "pkg-26.1.2.1" = _RXNrUIjA;
         "pkg-26.2.1" = _FPYWjnnE;
-        "default" = _FPYWjnnE;
+        "pkg-26.3.2" = _kV095inH;
+        "default" = _kV095inH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "clumps";

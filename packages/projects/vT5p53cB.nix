@@ -356,6 +356,31 @@ let
             "file" = "catalyst-all-3.0.3.jar";
             "hash" = "sha512-LXhdy7L8cbGcFMOIPzz+j894NHnCesYLa5lmeGCk9RQYDthqq+/OE2hTcPOI1w962+BoZl1CRDx1cqZUU2lMvA==";
         };
+        _kCJnBDMv = {
+            "id" = "kCJnBDMv";
+            "file" = "catalyst-all-3.1.0.jar";
+            "hash" = "sha512-sbRbWi2PpKQwU7019wS3R8Ixaf4TvsmD4rADtJKCDwzofDTpwTB3BsVq0cAa/iZoUu/BkHkc7isyQo5PDap6eQ==";
+        };
+        _wVUWHMkT = {
+            "id" = "wVUWHMkT";
+            "file" = "catalyst-all-3.1.1.jar";
+            "hash" = "sha512-9cG1iu80Nk1ZNeWvTS2H0YUMcICTjAMXnS3mKc0gkz6u7tYuC1jk+Yc4ocYUrPLP8gGsV+fVLolbtlfE1mf5Gw==";
+        };
+        _eQAroOzz = {
+            "id" = "eQAroOzz";
+            "file" = "catalyst-all-3.1.2.jar";
+            "hash" = "sha512-JnUwwf7rWr+QqW6kevxLY7b/zgxtB0Jz0ITyp29qm31BZJaNCyzUnsmgaOS+TgJEP7aetzhQZIPzlVnJixl+9A==";
+        };
+        _Z7IusZPl = {
+            "id" = "Z7IusZPl";
+            "file" = "catalyst-all-3.1.3.jar";
+            "hash" = "sha512-Xk37kSACtS8aI8XHUJW4o2ABAUtdPobh4ftA8Ol/MPMZH/HYIZYrgwH8g7InGdQBOMpvQ4nFHF6mRhI85gaNAg==";
+        };
+        _wV516yBr = {
+            "id" = "wV516yBr";
+            "file" = "catalyst-all-3.1.4.jar";
+            "hash" = "sha512-EbySZBPZzJ9dT3kmw9I1ltM1xPKXPLdG5EJGO07gDM5cLARxMbjF8w+6QqaOyZB45wKPmiEcuMLiFwQ/rYE19g==";
+        };
     in {
         "1ZYagGZM" = _1ZYagGZM;
         "mTpsxVtL" = _mTpsxVtL;
@@ -428,7 +453,12 @@ let
         "4Ni4R8zX" = _4Ni4R8zX;
         "PO5PCbGK" = _PO5PCbGK;
         "pFS8KN1l" = _pFS8KN1l;
-        "bta-babric-b1.7.3" = _pFS8KN1l;
+        "kCJnBDMv" = _kCJnBDMv;
+        "wVUWHMkT" = _wVUWHMkT;
+        "eQAroOzz" = _eQAroOzz;
+        "Z7IusZPl" = _Z7IusZPl;
+        "wV516yBr" = _wV516yBr;
+        "bta-babric-b1.7.3" = _wV516yBr;
         "babric-b1.7.3" = _4dKMkJpd;
         "fabric-b1.7.3" = _4dKMkJpd;
         "pkg-1.3.6" = _1ZYagGZM;
@@ -502,7 +532,12 @@ let
         "pkg-3.0.1" = _4Ni4R8zX;
         "pkg-3.0.2" = _PO5PCbGK;
         "pkg-3.0.3" = _pFS8KN1l;
-        "default" = _pFS8KN1l;
+        "pkg-3.1.0" = _kCJnBDMv;
+        "pkg-3.1.1" = _wVUWHMkT;
+        "pkg-3.1.2" = _eQAroOzz;
+        "pkg-3.1.3" = _Z7IusZPl;
+        "pkg-3.1.4" = _wV516yBr;
+        "default" = _wV516yBr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "catalyst";

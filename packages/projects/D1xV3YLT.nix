@@ -41,6 +41,11 @@ let
             "file" = "redder-redstone-torches-v1-1-0-mc-26-2.zip";
             "hash" = "sha512-OswGiRxUA798wZUQWpGHDIE4TRzxtVh4bb+Yrh9CEdTtgAJ4Gav+m032D39cwTYRKpCDWYxLlJOdReZ0V4zo4w==";
         };
+        _uJamMZaR = {
+            "id" = "uJamMZaR";
+            "file" = "redder-redstone-torches-v1-1-0-mc-26-3.zip";
+            "hash" = "sha512-Rqg8KvXJydhGHKEOBHl5Y88EDSI6/6wuHiCHRCcTwUjpwLr67hPAE4qvwo1Hf0T4TgCaKfNpgKN765ou+wJh5A==";
+        };
     in {
         "XNhuK4tX" = _XNhuK4tX;
         "sJqsMdU3" = _sJqsMdU3;
@@ -50,6 +55,7 @@ let
         "Id7oTlxI" = _Id7oTlxI;
         "sqUCn1i1" = _sqUCn1i1;
         "skzkZscK" = _skzkZscK;
+        "uJamMZaR" = _uJamMZaR;
         "minecraft-1.14" = _XNhuK4tX;
         "minecraft-1.14.1" = _XNhuK4tX;
         "minecraft-1.14.2" = _XNhuK4tX;
@@ -90,13 +96,14 @@ let
         "minecraft-1.21.6" = _aQwGuaAe;
         "minecraft-1.21.7" = _aQwGuaAe;
         "minecraft-1.21.8" = _aQwGuaAe;
-        "minecraft-1.21.9" = _skzkZscK;
-        "minecraft-1.21.10" = _skzkZscK;
-        "minecraft-1.21.11" = _skzkZscK;
-        "minecraft-26.1" = _skzkZscK;
-        "minecraft-26.1.1" = _skzkZscK;
-        "minecraft-26.1.2" = _skzkZscK;
-        "minecraft-26.2" = _skzkZscK;
+        "minecraft-1.21.9" = _uJamMZaR;
+        "minecraft-1.21.10" = _uJamMZaR;
+        "minecraft-1.21.11" = _uJamMZaR;
+        "minecraft-26.1" = _uJamMZaR;
+        "minecraft-26.1.1" = _uJamMZaR;
+        "minecraft-26.1.2" = _uJamMZaR;
+        "minecraft-26.2" = _uJamMZaR;
+        "minecraft-26.3" = _uJamMZaR;
         "pkg-v1.0.0-mc-1.21.4" = _XNhuK4tX;
         "pkg-v1.1.0-mc-1.21.5" = _sJqsMdU3;
         "pkg-v1.1.0-mc-1.21.6" = _GDd9hLat;
@@ -105,7 +112,8 @@ let
         "pkg-v1.1.0-mc-1.21.11" = _Id7oTlxI;
         "pkg-v1.1.0-mc-26.1" = _sqUCn1i1;
         "pkg-v1.1.0-mc-26.2" = _skzkZscK;
-        "default" = _skzkZscK;
+        "pkg-v1.1.0-mc-26.3" = _uJamMZaR;
+        "default" = _uJamMZaR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "redder-redstone-torches";

@@ -11,13 +11,20 @@ let
             "file" = "sable-weighted_createdeco-1.0.2.jar";
             "hash" = "sha512-30IVoUv8Bb0Jog17NTyRnLDEFJlXzj/JQzfdvTULJgooU7R/686H9vKxzHTXQbSWL43JaItFwLUpQG24HCGW2Q==";
         };
+        _dplYym5G = {
+            "id" = "dplYym5G";
+            "file" = "sable_weighted_create_deco-1.21.1-1.0.1-d.jar";
+            "hash" = "sha512-zqtYAEmy+32Vp8Q7Juk0L8tP+ziHo2bGYlnmaIUHtR++834RWFv+0zNS5zdIzu0mYdWHhFDOmNDcfJTBCiVFIA==";
+        };
     in {
         "nNUrjW70" = _nNUrjW70;
         "VvftnDNF" = _VvftnDNF;
-        "neoforge-1.21.1" = _VvftnDNF;
+        "dplYym5G" = _dplYym5G;
+        "neoforge-1.21.1" = _dplYym5G;
         "pkg-1.0.1" = _nNUrjW70;
         "pkg-1.0.2" = _VvftnDNF;
-        "default" = _VvftnDNF;
+        "pkg-1.0.1-d" = _dplYym5G;
+        "default" = _dplYym5G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sable-weighted-create-deco";

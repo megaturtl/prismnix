@@ -3806,6 +3806,16 @@ let
             "file" = "energizedpower-3.0.0+26.2.x-neoforge.jar";
             "hash" = "sha512-oTh7xFzMhCZdMazx8Lv9OpvLpNopRekq3QgBK8WUyEthUKKrJSW52VH7jkyOeOfGJLvGm3ZIFNq45wwtNP7SrQ==";
         };
+        _t6Brbubr = {
+            "id" = "t6Brbubr";
+            "file" = "energizedpower-3.0.0+26.3.x-fabric.jar";
+            "hash" = "sha512-Vznz5twAnw/SCeXhbe9oSMta12QfFKBlYK8KxgwHmIvgycmTlkFSbnntVgeA83b4UD4YC4S1BpPk1ekRtKmmYA==";
+        };
+        _YOvUcaD1 = {
+            "id" = "YOvUcaD1";
+            "file" = "energizedpower-3.0.0+26.3.x-neoforge.jar";
+            "hash" = "sha512-ShxzoaoUy+imYchsribDGox/IIc4ka3uf0ETHCy8ZBHotyvCieUw++NAwiOQuCTDH7Ri+ZZ3qlfEaQ96f2HRzw==";
+        };
     in {
         "ufl1t7pM" = _ufl1t7pM;
         "ZmElEEUE" = _ZmElEEUE;
@@ -4568,6 +4578,8 @@ let
         "yQjy8TSv" = _yQjy8TSv;
         "dYpiA7T7" = _dYpiA7T7;
         "gU8ikHHX" = _gU8ikHHX;
+        "t6Brbubr" = _t6Brbubr;
+        "YOvUcaD1" = _YOvUcaD1;
         "forge-1.19.3" = _T7MPIuso;
         "forge-1.19.2" = _cTh0wOtn;
         "forge-1.18.2" = _ZD5n22WT;
@@ -4606,6 +4618,7 @@ let
         "fabric-26.1.1" = _GPLG3Lpx;
         "fabric-26.1.2" = _GPLG3Lpx;
         "fabric-26.2" = _wwQ1xdyL;
+        "fabric-26.3" = _t6Brbubr;
         "neoforge-1.20.1" = _S09bQ0v6;
         "neoforge-1.20.2" = _gqsCf7IB;
         "neoforge-1.20.3" = _YLeIHIfA;
@@ -4628,6 +4641,7 @@ let
         "neoforge-26.1.1" = _dYpiA7T7;
         "neoforge-26.1.2" = _dYpiA7T7;
         "neoforge-26.2" = _gU8ikHHX;
+        "neoforge-26.3" = _YOvUcaD1;
         "pkg-1.19.3-1.0-alpha" = _ufl1t7pM;
         "pkg-1.19.3-1.0.1-alpha" = _ZmElEEUE;
         "pkg-1.19.3-1.0.2-alpha" = _3PKBJnSJ;
@@ -5388,7 +5402,9 @@ let
         "pkg-3.0.0+1.21.1-neoforge" = _yQjy8TSv;
         "pkg-3.0.0+26.1.x-neoforge" = _dYpiA7T7;
         "pkg-3.0.0+26.2.x-neoforge" = _gU8ikHHX;
-        "default" = _gU8ikHHX;
+        "pkg-3.0.0+26.3.x-fabric" = _t6Brbubr;
+        "pkg-3.0.0+26.3.x-neoforge" = _YOvUcaD1;
+        "default" = _YOvUcaD1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "energized-power";

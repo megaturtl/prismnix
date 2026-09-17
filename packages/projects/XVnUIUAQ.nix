@@ -291,6 +291,11 @@ let
             "file" = "SnowUnderTrees-2.7.6+26.1.jar";
             "hash" = "sha512-642H4DNZwxSSbZZ0VRwjgwM8AyKjIXxD/IpmNO3uvnBrDxAXdtzmaLztr/aNir4Wg/cp3bQjrUw8NGN/n3AyHg==";
         };
+        _5TpdjAcV = {
+            "id" = "5TpdjAcV";
+            "file" = "SnowUnderTrees-2.7.7+26.3.jar";
+            "hash" = "sha512-etWyx4GfEaOZ6eHRyLlNSD2V1ejijVxRTabgjoPodUsVb6MZ0Ya0r6R8GQelWse7hr0jVuoOxvrSzkjwN6P13Q==";
+        };
     in {
         "OZ3jA9SN" = _OZ3jA9SN;
         "VyauBw6t" = _VyauBw6t;
@@ -350,6 +355,7 @@ let
         "xIjtPWZo" = _xIjtPWZo;
         "W1W0V2UC" = _W1W0V2UC;
         "Z8lQvzF4" = _Z8lQvzF4;
+        "5TpdjAcV" = _5TpdjAcV;
         "fabric-1.18" = _OZ3jA9SN;
         "fabric-1.18.1" = _OZ3jA9SN;
         "fabric-1.18.2" = _OZ3jA9SN;
@@ -384,6 +390,7 @@ let
         "fabric-26.2-rc-1" = _Z8lQvzF4;
         "fabric-26.2-rc-2" = _Z8lQvzF4;
         "fabric-26.2" = _Z8lQvzF4;
+        "fabric-26.3" = _5TpdjAcV;
         "pkg-1.0.0+1.18.2" = _OZ3jA9SN;
         "pkg-1.0.0+1.19.2" = _VyauBw6t;
         "pkg-1.0.0+1.19.3" = _WNdhHm3J;
@@ -442,7 +449,8 @@ let
         "pkg-v2.7.4+1.21.1" = _xIjtPWZo;
         "pkg-v2.7.5+1.21.11" = _W1W0V2UC;
         "pkg-2.7.6+26.1" = _Z8lQvzF4;
-        "default" = _Z8lQvzF4;
+        "pkg-2.7.6+26.3" = _5TpdjAcV;
+        "default" = _5TpdjAcV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "snow-under-trees-remastered";

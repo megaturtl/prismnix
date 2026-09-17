@@ -41,6 +41,11 @@ let
             "file" = "fullbright-26.2-1.0.0+26.2.jar";
             "hash" = "sha512-z2LYijJlmM888uLK9fZ4iLiLz2fjk8MRzEcrkiod5MpyrNcRlIQ2cjNwx40rm2N4Z8zgvovgnKN+UtZqsL6xkQ==";
         };
+        _5muF7wIf = {
+            "id" = "5muF7wIf";
+            "file" = "fullbright-26.3-1.0.0+26.3.jar";
+            "hash" = "sha512-T5kc2nwq+241gYNHGdvMVjyi9iybf36+VcnOpImYlI1dSmRc797QeB6xzhrLXZ03yf81gcD/URP7T+il+hOXJA==";
+        };
     in {
         "R4AkWN3i" = _R4AkWN3i;
         "zZ35nbfr" = _zZ35nbfr;
@@ -50,6 +55,7 @@ let
         "T3ZfKiHz" = _T3ZfKiHz;
         "VYzKlRxC" = _VYzKlRxC;
         "Pj8QAw17" = _Pj8QAw17;
+        "5muF7wIf" = _5muF7wIf;
         "fabric-1.21.1" = _R4AkWN3i;
         "fabric-1.21.4" = _zZ35nbfr;
         "fabric-1.21.6" = _fpmnsd3Q;
@@ -59,6 +65,7 @@ let
         "fabric-26.1.2" = _T3ZfKiHz;
         "fabric-1.21" = _VYzKlRxC;
         "fabric-26.2" = _Pj8QAw17;
+        "fabric-26.3" = _5muF7wIf;
         "pkg-1.0.0+1.21.1" = _R4AkWN3i;
         "pkg-1.0.0+1.21.4" = _zZ35nbfr;
         "pkg-1.0.0+1.21.6" = _fpmnsd3Q;
@@ -67,7 +74,8 @@ let
         "pkg-1.0.0+26.1.2" = _T3ZfKiHz;
         "pkg-1.0.0+1.21" = _VYzKlRxC;
         "pkg-1.0.0+26.2" = _Pj8QAw17;
-        "default" = _Pj8QAw17;
+        "pkg-1.0.0+26.3" = _5muF7wIf;
+        "default" = _5muF7wIf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fullbright-+";

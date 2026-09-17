@@ -626,6 +626,11 @@ let
             "file" = "snow_lower-1.0.1-mc26.1.2.zip";
             "hash" = "sha512-w6JToDMbzGS5yMxUWND2yeGqjKf6lH1vFCZiLo4NBQH/XGh3IPmmfZLaOGyRMtPgGyTW7CgDOwnMRCox/vTU+w==";
         };
+        _2jqdD1c5 = {
+            "id" = "2jqdD1c5";
+            "file" = "snow_lower-1.0.1-mc26.3.zip";
+            "hash" = "sha512-ZZuYVabEjrw05bFapX+xaV6j/HUo7VZ4AepVFBns7bliV/bz2MyyHRU93iBz1xa7QQjSGAwuZXmdaWRYkOGiDg==";
+        };
     in {
         "I9Nd8F1v" = _I9Nd8F1v;
         "r9A6vqVa" = _r9A6vqVa;
@@ -752,6 +757,7 @@ let
         "cozngsY5" = _cozngsY5;
         "HFEgvCwh" = _HFEgvCwh;
         "JCOPTFx6" = _JCOPTFx6;
+        "2jqdD1c5" = _2jqdD1c5;
         "minecraft-1.8.9" = _N6Puszm5;
         "minecraft-1.9" = _HfAFEU1I;
         "minecraft-1.9.1" = _y141nEMA;
@@ -817,9 +823,10 @@ let
         "minecraft-26.2" = _cozngsY5;
         "minecraft-26.1.1" = _HFEgvCwh;
         "minecraft-26.1.2" = _JCOPTFx6;
+        "minecraft-26.3" = _2jqdD1c5;
         "pkg-1.0.0" = _HW9ATKG6;
-        "pkg-1.0.1" = _JCOPTFx6;
-        "default" = _JCOPTFx6;
+        "pkg-1.0.1" = _2jqdD1c5;
+        "default" = _2jqdD1c5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-collective-lower-snow";

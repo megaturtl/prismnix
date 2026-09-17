@@ -546,6 +546,16 @@ let
             "file" = "weaponsexpanded_26.2_1.9.3.2_neoforge.jar";
             "hash" = "sha512-lRd40UG+g2lk2x+f8bFlBedN9dB0AKmH7wkXlP7Il4zBQGnNNv/Oa8Ud+21/NHL22G4xLksJWqTZ7OVppou+qQ==";
         };
+        _mzSWwcbQ = {
+            "id" = "mzSWwcbQ";
+            "file" = "weaponsexpanded_26.2_2.0_fabric.jar";
+            "hash" = "sha512-nf5UlcBJIn6fxYvhOFVub1JWgKFl6TIboFU1N/QrUhcIgtI/rCcp4yRE9Zd06yMd4RQ2cS4GUR6kTao7HSvszA==";
+        };
+        _bRW2TBuX = {
+            "id" = "bRW2TBuX";
+            "file" = "weaponsexpanded_26.3_2.0_fabric.jar";
+            "hash" = "sha512-ANLcIijknm4E0sqxt1+UANMf/NTY5wrR7zypzkQAj42akQwUcf5TPdxZI38/7pOGxp6075jwdnGtT6+TvLDzTA==";
+        };
     in {
         "cAr6T7RL" = _cAr6T7RL;
         "UoYuxe5K" = _UoYuxe5K;
@@ -656,6 +666,8 @@ let
         "XBSEtcv8" = _XBSEtcv8;
         "clp3xN0e" = _clp3xN0e;
         "gmlq9w1L" = _gmlq9w1L;
+        "mzSWwcbQ" = _mzSWwcbQ;
+        "bRW2TBuX" = _bRW2TBuX;
         "fabric-1.20.1" = _v0JAcGtw;
         "fabric-1.21.4" = _loC4JZ4Z;
         "fabric-1.21.5" = _VspbQQSu;
@@ -672,10 +684,11 @@ let
         "fabric-26.1" = _MVCR2k0R;
         "fabric-26.1.1" = _MVCR2k0R;
         "fabric-26.1.2" = _MVCR2k0R;
-        "fabric-26.2" = _clp3xN0e;
+        "fabric-26.2" = _mzSWwcbQ;
         "fabric-1.20.2" = _v0JAcGtw;
         "fabric-1.20.3" = _v0JAcGtw;
         "fabric-1.20.4" = _v0JAcGtw;
+        "fabric-26.3" = _bRW2TBuX;
         "forge-1.20.1" = _PKsmwcip;
         "forge-26.1" = _jRwGwsfT;
         "forge-26.1.1" = _jRwGwsfT;
@@ -685,7 +698,7 @@ let
         "quilt-26.1" = _MVCR2k0R;
         "quilt-26.1.1" = _MVCR2k0R;
         "quilt-26.1.2" = _MVCR2k0R;
-        "quilt-26.2" = _clp3xN0e;
+        "quilt-26.2" = _mzSWwcbQ;
         "quilt-1.21" = _w7nZRlgc;
         "quilt-1.21.1" = _w7nZRlgc;
         "quilt-1.21.2" = _lKXMCXol;
@@ -697,6 +710,7 @@ let
         "quilt-1.21.8" = _DGZBYnr3;
         "quilt-1.21.9" = _5dOEEyfL;
         "quilt-1.21.10" = _5dOEEyfL;
+        "quilt-26.3" = _bRW2TBuX;
         "neoforge-26.1" = _trbLsOMv;
         "neoforge-26.1.1" = _trbLsOMv;
         "neoforge-26.1.2" = _trbLsOMv;
@@ -747,7 +761,8 @@ let
         "pkg-1.9.3.1" = _trbLsOMv;
         "pkg-1.9.3.2" = _ZTAkN0iN;
         "pkg-1.9.4" = _gmlq9w1L;
-        "default" = _gmlq9w1L;
+        "pkg-2.0" = _bRW2TBuX;
+        "default" = _bRW2TBuX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "weaponsexpanded";

@@ -21,17 +21,24 @@ let
             "file" = "simpleenemymod-1.20.1-0.1.6-beta.jar";
             "hash" = "sha512-vEmNH5ZmEDSDFmhhA8U2esWioMSNPoAhU/i0XMThISAfidxyq6I97IZzKz9OTmh8wOBCy2IqR8G14frwD75EbA==";
         };
+        _HiPRtUNb = {
+            "id" = "HiPRtUNb";
+            "file" = "simpleenemymod-1.20.1-0.1.6-beta-hotfix.jar";
+            "hash" = "sha512-eFJGwWQBzq28/1Jll+Guhw/yhth4A4hZf2jrVV8nxUrMxsuaaBUvR3dUpiSThDaagkg/5NZ8b8sNHPvTYKdwXw==";
+        };
     in {
         "gd9T6JWy" = _gd9T6JWy;
         "N38uvFFh" = _N38uvFFh;
         "WVyjB83N" = _WVyjB83N;
         "9055f0y2" = _9055f0y2;
-        "forge-1.20.1" = _9055f0y2;
+        "HiPRtUNb" = _HiPRtUNb;
+        "forge-1.20.1" = _HiPRtUNb;
         "pkg-1.20.1-0.1.3-beta" = _gd9T6JWy;
         "pkg-1.20.1-0.1.4-beta" = _N38uvFFh;
         "pkg-1.20.1-0.1.5-beta" = _WVyjB83N;
         "pkg-1.20.1-0.1.6-beta" = _9055f0y2;
-        "default" = _9055f0y2;
+        "pkg-1.20.1-0.1.6-beta-hotfix" = _HiPRtUNb;
+        "default" = _HiPRtUNb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-enemy";

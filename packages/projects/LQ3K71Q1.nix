@@ -4066,6 +4066,16 @@ let
             "file" = "dynamic-fps-3.11.9+minecraft-26.2.0-neoforge.jar";
             "hash" = "sha512-sMUafLG/OWdsBPcYm6sbj6BQ59h5MxlhfwI5qWcxCJQW39TjqrkzPu0YA+U6Dp+9fpxOKLat3Y8Qr2HKCCStng==";
         };
+        _Jwq069rR = {
+            "id" = "Jwq069rR";
+            "file" = "dynamic-fps-3.11.10+minecraft-26.3.0-fabric.jar";
+            "hash" = "sha512-eXbRFBG6v6OsDDiJjybuYZLyKk9ZW2N+6uPMUYXzJsDkuf19ALPX6NAg3YYSlfDfUvmp18Z+iJRtC6n/9Kn4lA==";
+        };
+        _KGWebRrW = {
+            "id" = "KGWebRrW";
+            "file" = "dynamic-fps-3.11.10+minecraft-26.3.0-neoforge.jar";
+            "hash" = "sha512-it0jFua0FAVTWhQR2vQOnnAMcAkZY7qsUwonafEi7jpwYI71HpWoIdWq6A4Xs4TZgi0qi049/zjf1+ctcnvSgg==";
+        };
     in {
         "kurPEwi6" = _kurPEwi6;
         "gVvtLF6M" = _gVvtLF6M;
@@ -4880,6 +4890,8 @@ let
         "tDptM9tq" = _tDptM9tq;
         "pC2JjFw1" = _pC2JjFw1;
         "NIDCSqrK" = _NIDCSqrK;
+        "Jwq069rR" = _Jwq069rR;
+        "KGWebRrW" = _KGWebRrW;
         "fabric-1.16.2-pre1" = _kurPEwi6;
         "fabric-1.16.2-pre2" = _kurPEwi6;
         "fabric-1.16.2-pre3" = _kurPEwi6;
@@ -5069,6 +5081,7 @@ let
         "fabric-26w14a" = _zGhSzRSB;
         "fabric-26.1.2" = _HV67Kt1R;
         "fabric-26.2" = _pC2JjFw1;
+        "fabric-26.3" = _Jwq069rR;
         "quilt-1.16.2-pre1" = _kurPEwi6;
         "quilt-1.16.2-pre2" = _kurPEwi6;
         "quilt-1.16.2-pre3" = _kurPEwi6;
@@ -5221,6 +5234,7 @@ let
         "quilt-26w14a" = _zGhSzRSB;
         "quilt-26.1.2" = _HV67Kt1R;
         "quilt-26.2" = _pC2JjFw1;
+        "quilt-26.3" = _Jwq069rR;
         "forge-1.16.5" = _5VqjJ4M6;
         "forge-1.17" = _5U2bHbH6;
         "forge-1.17.1" = _5U2bHbH6;
@@ -5269,6 +5283,7 @@ let
         "neoforge-26.1.1" = _V6JHyPSD;
         "neoforge-26.1.2" = _V6JHyPSD;
         "neoforge-26.2" = _NIDCSqrK;
+        "neoforge-26.3" = _KGWebRrW;
         "pkg-1.2.1" = _kurPEwi6;
         "pkg-2.0.0" = _gVvtLF6M;
         "pkg-2.0.1" = _XlBOTUIQ;
@@ -5335,7 +5350,8 @@ let
         "pkg-3.11.7" = _V6JHyPSD;
         "pkg-3.11.8" = _tDptM9tq;
         "pkg-3.11.9" = _NIDCSqrK;
-        "default" = _NIDCSqrK;
+        "pkg-3.11.10" = _KGWebRrW;
+        "default" = _KGWebRrW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dynamic-fps";

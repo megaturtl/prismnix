@@ -21,17 +21,24 @@ let
             "file" = "thermalconstruct-1.20.1-0.0.4.jar";
             "hash" = "sha512-IXv6osh22q0AzjBGoPUn1SloeQqjhSj7OoB+YwLmgnJDMHADQK905EqoRCW542D4QB7IED7CEz8PUAH31sJyng==";
         };
+        _1270WzQS = {
+            "id" = "1270WzQS";
+            "file" = "thermalconstruct-1.20.1-0.0.5.jar";
+            "hash" = "sha512-jRIjv1tizFIYTtpIge4TyR6jQGn5x6mWQBit91XuivNbGr673Aj/VUcimJBHE7VTz8UPMXGscwiby1BppNsVNw==";
+        };
     in {
         "JuWydD6G" = _JuWydD6G;
         "oqH8XEeA" = _oqH8XEeA;
         "pte2EYEV" = _pte2EYEV;
         "ZsIoKYnO" = _ZsIoKYnO;
-        "forge-1.20.1" = _ZsIoKYnO;
+        "1270WzQS" = _1270WzQS;
+        "forge-1.20.1" = _1270WzQS;
         "pkg-1.20.1-0.0.1" = _JuWydD6G;
         "pkg-1.20.1-0.0.2" = _oqH8XEeA;
         "pkg-1.20.1-0.0.3" = _pte2EYEV;
         "pkg-1.20.1-0.0.4" = _ZsIoKYnO;
-        "default" = _ZsIoKYnO;
+        "pkg-1.20.1-0.0.5" = _1270WzQS;
+        "default" = _1270WzQS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thermal-construct";

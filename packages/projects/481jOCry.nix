@@ -66,6 +66,11 @@ let
             "file" = "Rail-Fix-1.4-26.2.zip";
             "hash" = "sha512-xZIAtapTt1vu9hBdNjXTRjofjeJoh/guXlff8Vv7eLzvo9scIZO39WQ+Bs2uqJiHtWWsx5TJOLCYfDmQKH/LHg==";
         };
+        _uCx4jjaE = {
+            "id" = "uCx4jjaE";
+            "file" = "Rail-Fix-1.4-26.3.zip";
+            "hash" = "sha512-PYAfGzQlAsu5lsFoEIEIYsZi1uXDIz+Xp0UejrWahBC/uIPVXEFbC3kpqhGnqN4Zb3q3mn4oXCm8RuTBgTeIVg==";
+        };
     in {
         "629CaERE" = _629CaERE;
         "DLXJPCLo" = _DLXJPCLo;
@@ -80,6 +85,7 @@ let
         "hsHwcORh" = _hsHwcORh;
         "5XVVtb1i" = _5XVVtb1i;
         "mzdM16b3" = _mzdM16b3;
+        "uCx4jjaE" = _uCx4jjaE;
         "minecraft-1.20.6" = _Qg48Nwjx;
         "minecraft-1.21" = _Qg48Nwjx;
         "minecraft-1.21.1" = _Qg48Nwjx;
@@ -90,17 +96,18 @@ let
         "minecraft-1.21.6" = _2QwHdtyY;
         "minecraft-1.21.7" = _sBQRYXoB;
         "minecraft-1.21.8" = _sBQRYXoB;
-        "minecraft-1.21.9" = _mzdM16b3;
-        "minecraft-1.21.10" = _mzdM16b3;
-        "minecraft-1.21.11" = _mzdM16b3;
-        "minecraft-26.1" = _mzdM16b3;
-        "minecraft-26.1.1" = _mzdM16b3;
-        "minecraft-26.1.2" = _mzdM16b3;
-        "minecraft-26.2" = _mzdM16b3;
+        "minecraft-1.21.9" = _uCx4jjaE;
+        "minecraft-1.21.10" = _uCx4jjaE;
+        "minecraft-1.21.11" = _uCx4jjaE;
+        "minecraft-26.1" = _uCx4jjaE;
+        "minecraft-26.1.1" = _uCx4jjaE;
+        "minecraft-26.1.2" = _uCx4jjaE;
+        "minecraft-26.2" = _uCx4jjaE;
+        "minecraft-26.3" = _uCx4jjaE;
         "pkg-1.2" = _aXdvmNgW;
         "pkg-1.3" = _75jzGvQ8;
-        "pkg-1.4" = _mzdM16b3;
-        "default" = _mzdM16b3;
+        "pkg-1.4" = _uCx4jjaE;
+        "default" = _uCx4jjaE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rail-fix";

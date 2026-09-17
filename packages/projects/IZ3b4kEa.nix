@@ -66,6 +66,16 @@ let
             "file" = "more_relics-neoforge-1.3.0+1.21.1.jar";
             "hash" = "sha512-kksx0pwiHwHUWNMn4x6XxQufTMgLTPsS/61zUpWL+XisRLkMsyui5MKjxjPCtP/nB+MJrHXqpEBzrTpUlc6xOg==";
         };
+        _nlhF1DyU = {
+            "id" = "nlhF1DyU";
+            "file" = "more_relics-fabric-1.3.1+1.21.1.jar";
+            "hash" = "sha512-31jq53B//asXfQlO3adoTRC6FeGFQenjIhhg/cuquVV5+YWH9vBdKFkTO7fgt33++oEtvBbgClY9GOqS9eAq9g==";
+        };
+        _eYDetZyP = {
+            "id" = "eYDetZyP";
+            "file" = "more_relics-neoforge-1.3.1+1.21.1.jar";
+            "hash" = "sha512-B1Veyrbz7obwYq6WRFMkAjNVGkiCh8DeFJzOAILnJvTKl+bWw0ZXQee8DQIty7RY1DCiRffZB3zsqRjlH8gEuw==";
+        };
     in {
         "hVI9nIH5" = _hVI9nIH5;
         "MAMNq35b" = _MAMNq35b;
@@ -80,10 +90,12 @@ let
         "VCGBpRuq" = _VCGBpRuq;
         "eCLsJDp7" = _eCLsJDp7;
         "RZ1eRsKT" = _RZ1eRsKT;
+        "nlhF1DyU" = _nlhF1DyU;
+        "eYDetZyP" = _eYDetZyP;
         "fabric-1.21" = _MAMNq35b;
-        "fabric-1.21.1" = _eCLsJDp7;
+        "fabric-1.21.1" = _nlhF1DyU;
         "fabric-1.21.2" = _FYME7h0U;
-        "neoforge-1.21.1" = _RZ1eRsKT;
+        "neoforge-1.21.1" = _eYDetZyP;
         "pkg-1.0.0" = _hVI9nIH5;
         "pkg-1.0.1-1.21.1" = _MAMNq35b;
         "pkg-1.0.2-1.21.1" = _FYME7h0U;
@@ -97,7 +109,9 @@ let
         "pkg-1.2.1+1.21.1-neoforge" = _VCGBpRuq;
         "pkg-1.3.0+1.21.1-fabric" = _eCLsJDp7;
         "pkg-1.3.0+1.21.1-neoforge" = _RZ1eRsKT;
-        "default" = _RZ1eRsKT;
+        "pkg-1.3.1+1.21.1-fabric" = _nlhF1DyU;
+        "pkg-1.3.1+1.21.1-neoforge" = _eYDetZyP;
+        "default" = _eYDetZyP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-relics-rpg";

@@ -791,6 +791,26 @@ let
             "file" = "arc-fabric-21.2.7.jar";
             "hash" = "sha512-J3iw8eSeEle14s6suuDHR2kTXWwZXU3keJS6BaMmP//495lGsrdIsDOCMP+LRy4XWaaxBpkwD68xTL3n4ty1NQ==";
         };
+        _eVb15P28 = {
+            "id" = "eVb15P28";
+            "file" = "arc-19.1.2-dev.jar";
+            "hash" = "sha512-KfV/CE16OJt7WDDSbkSnmxSdH+5u8C5Y5kFljs5Aj5aT5BYJnQkoADF+fe6SH+rQfppASsvlB1M0eK9RB+UN2Q==";
+        };
+        _dwmesVK7 = {
+            "id" = "dwmesVK7";
+            "file" = "arc-19.1.2-dev.jar";
+            "hash" = "sha512-81Su0f0BW7entKTUVisGnds/WJGB1aBGCfZ/RdtTnDawJTHiSfT80SaKhmbP7BSM3b6dClc9bv4NofG/yrHihQ==";
+        };
+        _LicbuOid = {
+            "id" = "LicbuOid";
+            "file" = "arc-19.1.3-neoforge.jar";
+            "hash" = "sha512-4cSZoWypwO06C9Qp28AXq3T8X4TRFYwj9FrslY5oj73sd3aWs7o5AIPk2h+hI69/8CIBLOQ/QW1Jya5q8HOM6Q==";
+        };
+        _WOj4A7Ly = {
+            "id" = "WOj4A7Ly";
+            "file" = "arc-19.1.3-fabric.jar";
+            "hash" = "sha512-Fx0wMpPuwyMccENwjewe12EaLlMwkqIs18yyR5PP9TgHW5vx2c5cyBE9ATFuTL7/w1R5S61pMkyGADuVELzeAA==";
+        };
     in {
         "1CcWeACN" = _1CcWeACN;
         "D19wmC2N" = _D19wmC2N;
@@ -950,6 +970,10 @@ let
         "Zg1uHcQt" = _Zg1uHcQt;
         "YXISX2ui" = _YXISX2ui;
         "B8yqYJvD" = _B8yqYJvD;
+        "eVb15P28" = _eVb15P28;
+        "dwmesVK7" = _dwmesVK7;
+        "LicbuOid" = _LicbuOid;
+        "WOj4A7Ly" = _WOj4A7Ly;
         "forge-1.19.2" = _8i3L2pYj;
         "forge-1.20.1" = _oLANnkRd;
         "fabric-1.19.2" = _K9ggEfk3;
@@ -961,7 +985,7 @@ let
         "fabric-1.21.7" = _AMF5Fb3D;
         "fabric-1.21.8" = _AMF5Fb3D;
         "fabric-1.21.9" = _2sxmF6he;
-        "fabric-1.21.11" = _4xFAUSvG;
+        "fabric-1.21.11" = _WOj4A7Ly;
         "fabric-26.1" = _UCkcdHmZ;
         "fabric-26.1.1" = _UCkcdHmZ;
         "fabric-26.1.2" = _Zg1uHcQt;
@@ -973,7 +997,7 @@ let
         "neoforge-1.21.7" = _kMCPKBny;
         "neoforge-1.21.8" = _kMCPKBny;
         "neoforge-1.21.9" = _K3v4eZS6;
-        "neoforge-1.21.11" = _e9S4onNT;
+        "neoforge-1.21.11" = _LicbuOid;
         "neoforge-26.1" = _A0zBldvA;
         "neoforge-26.1.1" = _A0zBldvA;
         "neoforge-26.1.2" = _7FGXfZwc;
@@ -1057,7 +1081,9 @@ let
         "pkg-21.2.6" = _jMdsSR7U;
         "pkg-20.2.10" = _Zg1uHcQt;
         "pkg-21.2.7" = _B8yqYJvD;
-        "default" = _B8yqYJvD;
+        "pkg-19.1.2" = _dwmesVK7;
+        "pkg-19.1.3" = _WOj4A7Ly;
+        "default" = _WOj4A7Ly;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "arc";

@@ -111,6 +111,11 @@ let
             "file" = "harpymodloader-1.2.4-h1.3.jar";
             "hash" = "sha512-wBKKWR/h8UDalTuZDYOD6dhG9byubEoAljw+AEU90m3TgAT3caNm1bbAX9ybSXE7AumrENLsOJPySAxDVbKcSw==";
         };
+        _VYPPTEgq = {
+            "id" = "VYPPTEgq";
+            "file" = "harpymodloader-1.2.5-h1.4.jar";
+            "hash" = "sha512-lakP5GptoeuBHVa/H/WarUXNhvugjHO/QM92hxvrG8XXgjNd148FxrDmmGMAAThRtYl5gnJOzEd4QR4gL36syQ==";
+        };
     in {
         "K7olnXUS" = _K7olnXUS;
         "3P2PBTet" = _3P2PBTet;
@@ -134,7 +139,8 @@ let
         "v9FAbLJE" = _v9FAbLJE;
         "A3jEB1lw" = _A3jEB1lw;
         "nMW4YJds" = _nMW4YJds;
-        "fabric-1.21.1" = _nMW4YJds;
+        "VYPPTEgq" = _VYPPTEgq;
+        "fabric-1.21.1" = _VYPPTEgq;
         "pkg-1.0.1-h1.2.1" = _K7olnXUS;
         "pkg-1.0.2-h1.2.1" = _3P2PBTet;
         "pkg-1.0.3-h1.2.1" = _5w9ysSlK;
@@ -157,7 +163,8 @@ let
         "pkg-1.2.2-h1.3" = _v9FAbLJE;
         "pkg-1.2.3-h1.3" = _A3jEB1lw;
         "pkg-1.2.4-h1.3" = _nMW4YJds;
-        "default" = _nMW4YJds;
+        "pkg-1.2.5-h1.4" = _VYPPTEgq;
+        "default" = _VYPPTEgq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "harpymodloader";

@@ -56,6 +56,11 @@ let
             "file" = "BuildersUtilities-1.10.0.jar";
             "hash" = "sha512-Mxp6OT1+SOEMoUA5AsrAAZPzcPUT2ZFgUdF7+6vzBHvcuDu9+GxwR0blcVUt173rtFRfIuWhkd0TlsxG3gN+9w==";
         };
+        _KzzjGMOB = {
+            "id" = "KzzjGMOB";
+            "file" = "BuildersUtilities-1.10.1.jar";
+            "hash" = "sha512-h8zGg8LiBOgRFLmFN3sGXRT5tfpor3/NCJM2BjT1Sc5tdF+yEdp3IlicUcVLvGo7LBx6Xs0raJn+6p1eDwxfHQ==";
+        };
     in {
         "1fLM8CJO" = _1fLM8CJO;
         "b1uTNS1Z" = _b1uTNS1Z;
@@ -68,6 +73,7 @@ let
         "MutNmR1i" = _MutNmR1i;
         "eqxlPPvN" = _eqxlPPvN;
         "RL7ZJN4Q" = _RL7ZJN4Q;
+        "KzzjGMOB" = _KzzjGMOB;
         "paper-1.19.2" = _1fLM8CJO;
         "paper-1.19.3" = _b1uTNS1Z;
         "paper-1.19.4" = _usc9dcSx;
@@ -78,6 +84,7 @@ let
         "paper-1.21.1" = _Dm2Mu4vC;
         "paper-26.1.2" = _eqxlPPvN;
         "paper-26.2" = _RL7ZJN4Q;
+        "paper-26.3" = _KzzjGMOB;
         "pkg-1.6.1" = _1fLM8CJO;
         "pkg-1.6.2" = _b1uTNS1Z;
         "pkg-1.7.0" = _usc9dcSx;
@@ -89,7 +96,8 @@ let
         "pkg-1.9.0" = _MutNmR1i;
         "pkg-1.9.1" = _eqxlPPvN;
         "pkg-1.10.0" = _RL7ZJN4Q;
-        "default" = _RL7ZJN4Q;
+        "pkg-1.10.1" = _KzzjGMOB;
+        "default" = _KzzjGMOB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "buildersutilities";

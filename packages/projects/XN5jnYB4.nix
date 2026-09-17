@@ -916,6 +916,26 @@ let
             "file" = "angelica-2.2.11.jar";
             "hash" = "sha512-LivGBOx/bOeHNwG7bzxHiP1+2HEJwJ+YogYE0CL24dnsD4wD+J98RIT2WTF7eibEO6jV48ZIsn4UWMeHZApafw==";
         };
+        _yTMmq7m9 = {
+            "id" = "yTMmq7m9";
+            "file" = "angelica-2.2.12.jar";
+            "hash" = "sha512-M8G46A1/U/QS1RIuUpPCSznZ2nw8LB8LXdv+VmGUisiqElNfUSL09eUSw1eu6Izkq+IMq+u/obP49Z1In0Ohkg==";
+        };
+        _XzPTN9zq = {
+            "id" = "XzPTN9zq";
+            "file" = "angelica-2.2.13.jar";
+            "hash" = "sha512-3zns8q2Qeq0fR6a9vWu2YX8pcPx9IKuq2wSwQysyRi/WcA5b1m1m1tunc+RS7ei+tibyHFepCA0TlNhDCNEMRA==";
+        };
+        _9C2Uci26 = {
+            "id" = "9C2Uci26";
+            "file" = "angelica-2.2.14.jar";
+            "hash" = "sha512-NHFskdLm4i7yJrT7Bh10L4WwvzFD1V6xWAaf1hKOSZ/9+aRBVhTr4k4a8nz9ZyBWkNFNY0Yevu8ViwmDJU3wdQ==";
+        };
+        _Cf6bsjsR = {
+            "id" = "Cf6bsjsR";
+            "file" = "angelica-2.2.15.jar";
+            "hash" = "sha512-QGCj1vKU9t4Mh2lrvla3CjD/soEqt6yPXdB3HvCGIJ9oKNhZ/fCaREGAMGkukeiB033umgh+h+W1NTCxFDOLMw==";
+        };
     in {
         "GRmV423v" = _GRmV423v;
         "YkDiZW8D" = _YkDiZW8D;
@@ -1100,7 +1120,11 @@ let
         "HzRC7Tyb" = _HzRC7Tyb;
         "RIO1ftzB" = _RIO1ftzB;
         "ee2f9ekw" = _ee2f9ekw;
-        "forge-1.7.10" = _ee2f9ekw;
+        "yTMmq7m9" = _yTMmq7m9;
+        "XzPTN9zq" = _XzPTN9zq;
+        "9C2Uci26" = _9C2Uci26;
+        "Cf6bsjsR" = _Cf6bsjsR;
+        "forge-1.7.10" = _Cf6bsjsR;
         "pkg-1.0.0-alpha35" = _GRmV423v;
         "pkg-1.0.0-alpha36a" = _YkDiZW8D;
         "pkg-1.0.0-alpha37" = _jsoYE0Si;
@@ -1284,7 +1308,11 @@ let
         "pkg-2.2.9" = _HzRC7Tyb;
         "pkg-2.2.10" = _RIO1ftzB;
         "pkg-2.2.11" = _ee2f9ekw;
-        "default" = _ee2f9ekw;
+        "pkg-2.2.12" = _yTMmq7m9;
+        "pkg-2.2.13" = _XzPTN9zq;
+        "pkg-2.2.14" = _9C2Uci26;
+        "pkg-2.2.15" = _Cf6bsjsR;
+        "default" = _Cf6bsjsR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "angelica";

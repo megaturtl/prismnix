@@ -151,6 +151,36 @@ let
             "file" = "oracle_index-neoforge-2.0.0-exp1.jar";
             "hash" = "sha512-JikFZslJZsSwPD4zj9GeVtXBHGGezfPE/8EuGdNwXIUodvfsb4l0Lfvs4D9AUtrzJRgcEE1sHtHs9gomEnr1VA==";
         };
+        _p1E4ZY1d = {
+            "id" = "p1E4ZY1d";
+            "file" = "oracle_index-fabric-2.0.0.jar";
+            "hash" = "sha512-OxiclHUugWtmzzyRwv7xkz3aEFDnOlqet53DtcwyglqqFAsfd3JlRWp2b7ZxSrrPAa9/ds86GX2e0nWfNfE54Q==";
+        };
+        _z4LDmExp = {
+            "id" = "z4LDmExp";
+            "file" = "oracle_index-neoforge-2.0.0.jar";
+            "hash" = "sha512-YbdNtwVc9UozAWwIsYaRTX789c9bYEmZqe59XkoxuSh7lCo1u5UeMc94YaIQvk67nvvm3WMb3Qh6ZoC7RU9nBA==";
+        };
+        _rEjNrObq = {
+            "id" = "rEjNrObq";
+            "file" = "oracle_index-neoforge-1.3.1.jar";
+            "hash" = "sha512-P9ZuEEfSEYf3W4/PxIwdPnQaxBp7l08X6quujxQ36hdL7+AHnJ7t0SIfCxqgemFTY8oheBG67vpQX7Z3gKWSLQ==";
+        };
+        _HePYuaTO = {
+            "id" = "HePYuaTO";
+            "file" = "oracle_index-fabric-1.3.1.jar";
+            "hash" = "sha512-b0cd++OanNHL0XDt5Mc3NXZROJEEFm7Y/Qw0DvBB2m2XCxzfOhlEpwmhumSpMHfCEa2L3wr1qTZhTV7mzFQG0Q==";
+        };
+        _sAdBVBeD = {
+            "id" = "sAdBVBeD";
+            "file" = "oracle_index-fabric-1.4.0.jar";
+            "hash" = "sha512-zMVmFP/XkPeN2UO/MoWxrzyChCsng8TsqnhdjUzJSR93YP4aO1wVda9p5k+fZX1gBU9OLWml+p10dvIhlVf7+Q==";
+        };
+        _7OqGasX2 = {
+            "id" = "7OqGasX2";
+            "file" = "oracle_index-neoforge-1.4.0.jar";
+            "hash" = "sha512-OTf+UI56B3dp2BNmK/PhPc0Wh01jrJGkM4ENfuOKUm4jygJY9YEMXqZdN83/LK18tAZ89Dy5pIdDFjELGQ4qhw==";
+        };
     in {
         "GbpnMw2w" = _GbpnMw2w;
         "wQ1RIGQY" = _wQ1RIGQY;
@@ -182,12 +212,18 @@ let
         "O85YXNvr" = _O85YXNvr;
         "g2482XHc" = _g2482XHc;
         "jNWL0rAJ" = _jNWL0rAJ;
+        "p1E4ZY1d" = _p1E4ZY1d;
+        "z4LDmExp" = _z4LDmExp;
+        "rEjNrObq" = _rEjNrObq;
+        "HePYuaTO" = _HePYuaTO;
+        "sAdBVBeD" = _sAdBVBeD;
+        "7OqGasX2" = _7OqGasX2;
         "fabric-1.21" = _bToVO0Np;
-        "fabric-1.21.1" = _URQFre1K;
-        "fabric-26.1.2" = _g2482XHc;
+        "fabric-1.21.1" = _sAdBVBeD;
+        "fabric-26.1.2" = _p1E4ZY1d;
         "neoforge-1.21" = _n4MB9Ww0;
-        "neoforge-1.21.1" = _O85YXNvr;
-        "neoforge-26.1.2" = _jNWL0rAJ;
+        "neoforge-1.21.1" = _7OqGasX2;
+        "neoforge-26.1.2" = _z4LDmExp;
         "pkg-0.1.0" = _wQ1RIGQY;
         "pkg-0.1.1" = _n4MB9Ww0;
         "pkg-0.2.0" = _NYDkyUpK;
@@ -201,9 +237,11 @@ let
         "pkg-1.1.1" = _UDU2F9VH;
         "pkg-1.2.0" = _F4sqyw2E;
         "pkg-1.3.0" = _eMzN62lw;
-        "pkg-1.3.1" = _O85YXNvr;
+        "pkg-1.3.1" = _HePYuaTO;
         "pkg-2.0.0-exp1" = _jNWL0rAJ;
-        "default" = _jNWL0rAJ;
+        "pkg-2.0.0" = _z4LDmExp;
+        "pkg-1.4.0" = _7OqGasX2;
+        "default" = _7OqGasX2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "oracle-index";

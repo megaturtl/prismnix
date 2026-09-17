@@ -266,6 +266,11 @@ let
             "file" = "fallingleaves-2.0.7+26.1.jar";
             "hash" = "sha512-Wb4Fm7Chw7YOwkQ2i9TAktiHf/rrnq8grxuX6k+FGdM6rq6OXGuq8Zq5LTt12Di4Zc4knq1D5GrCnem/ammLaQ==";
         };
+        _5i0SxXxj = {
+            "id" = "5i0SxXxj";
+            "file" = "fallingleaves-2.0.8+26.3.jar";
+            "hash" = "sha512-Q+U2saeg9kLhsPBw2C70Vyo5C1QwmK8300fqs7bAQIwf94qADK/CEbsFaOlHZGjWB/V/CKjEXqNJVVrqROBbfw==";
+        };
     in {
         "Lz5UGUqe" = _Lz5UGUqe;
         "qBn758ZA" = _qBn758ZA;
@@ -320,6 +325,7 @@ let
         "utvU33Po" = _utvU33Po;
         "GQZblC1k" = _GQZblC1k;
         "JYRSvzQW" = _JYRSvzQW;
+        "5i0SxXxj" = _5i0SxXxj;
         "fabric-1.16" = _Lz5UGUqe;
         "fabric-1.16.2" = _qBn758ZA;
         "fabric-1.16.3" = _qBn758ZA;
@@ -359,6 +365,7 @@ let
         "fabric-26.1.1" = _JYRSvzQW;
         "fabric-26.1.2" = _JYRSvzQW;
         "fabric-26.2" = _JYRSvzQW;
+        "fabric-26.3" = _5i0SxXxj;
         "pkg-1.5.0" = _Lz5UGUqe;
         "pkg-1.6.0" = _qBn758ZA;
         "pkg-1.7.0" = _xQRdGvDT;
@@ -412,7 +419,8 @@ let
         "pkg-2.0.5+26.1" = _utvU33Po;
         "pkg-2.0.6+26.1" = _GQZblC1k;
         "pkg-2.0.7+26.1" = _JYRSvzQW;
-        "default" = _JYRSvzQW;
+        "pkg-2.0.8+26.3" = _5i0SxXxj;
+        "default" = _5i0SxXxj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fallingleaves";

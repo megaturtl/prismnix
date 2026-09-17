@@ -51,6 +51,11 @@ let
             "file" = "Easy-freecam-2.0+26.2.jar";
             "hash" = "sha512-GHJJVBr8KqI/j+cPtXZdTxs1DpXh8ISQkP4OcXQLXRqIurwIAvDKPruqkZoiZF979jp/1GBKVLp1JzxVoo74CQ==";
         };
+        _sc7peL0n = {
+            "id" = "sc7peL0n";
+            "file" = "Easy-freecam-2.0+26.3.jar";
+            "hash" = "sha512-IFXjfCPgM7hwCMHlE1Of8rs9z3j0wOXXu4NbVqD1P03FNIh1a4kuNCu6yAV5jmxohNy+ssGQLDwSYqBcdJPuww==";
+        };
     in {
         "eN8EcQ5Z" = _eN8EcQ5Z;
         "9MHNXpAl" = _9MHNXpAl;
@@ -62,11 +67,13 @@ let
         "OBXdzWyk" = _OBXdzWyk;
         "nmwsbhhz" = _nmwsbhhz;
         "gG6J64nB" = _gG6J64nB;
+        "sc7peL0n" = _sc7peL0n;
         "fabric-1.21.11" = _eN8EcQ5Z;
         "fabric-26.1" = _wvf1NPOF;
         "fabric-26.1.1" = _wWX2zEUB;
         "fabric-26.1.2" = _nmwsbhhz;
         "fabric-26.2" = _gG6J64nB;
+        "fabric-26.3" = _sc7peL0n;
         "pkg-1.1+1.21.11" = _eN8EcQ5Z;
         "pkg-1.1+26.1" = _wvf1NPOF;
         "pkg-1.1+26.1.1" = _wWX2zEUB;
@@ -74,7 +81,8 @@ let
         "pkg-1.1+26.2" = _OBXdzWyk;
         "pkg-2.0+26.1.2" = _nmwsbhhz;
         "pkg-2.0+26.2" = _gG6J64nB;
-        "default" = _gG6J64nB;
+        "pkg-2.0+26.3" = _sc7peL0n;
+        "default" = _sc7peL0n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easy-freecam";

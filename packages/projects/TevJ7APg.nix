@@ -581,6 +581,16 @@ let
             "file" = "Golden_Apple_Tree-1.2.6-26.2-Fabric.jar";
             "hash" = "sha512-mTzyjYlfrK/9Zk2cQWYeWssat+RBpi+FrNxah8qGlN0Qlgme7yKP0ZuG+kyDZuxX00K6hfsQwQgwT+FkHhYKKQ==";
         };
+        _kzZH4tTe = {
+            "id" = "kzZH4tTe";
+            "file" = "GoldenAppleTree-1.2.6-26.3-Fabric.jar";
+            "hash" = "sha512-g+XAtrs+kTc/iTSF/NKzf5tbVfY2lFuOWz/HdU/XTj8YIArm2NCiFfQa/iu9bhoWfkSsx9sc/VS9ISmgERiaHA==";
+        };
+        _BTyJQD9U = {
+            "id" = "BTyJQD9U";
+            "file" = "GoldenAppleTree-1.2.6-26.3-NeoForge.jar";
+            "hash" = "sha512-sWPWSF3Ou3UisZ9ImfBqGKKyGbpgFYNj3WD8IVXGzUM78UbyPgbEstcT9bBZQ7zAWx6Pxg58luLUlJmNK+197Q==";
+        };
     in {
         "7FjibIio" = _7FjibIio;
         "85ypE3FE" = _85ypE3FE;
@@ -698,6 +708,8 @@ let
         "TKV6xzD1" = _TKV6xzD1;
         "z23hOObr" = _z23hOObr;
         "Cbq6UXrG" = _Cbq6UXrG;
+        "kzZH4tTe" = _kzZH4tTe;
+        "BTyJQD9U" = _BTyJQD9U;
         "neoforge-1.21" = _cLX0mexo;
         "neoforge-1.21.1" = _UxLS6VLq;
         "neoforge-1.21.2" = _rxbOkg7Y;
@@ -714,6 +726,7 @@ let
         "neoforge-26.1.1" = _Z3w6moMG;
         "neoforge-26.1.2" = _DPkOECVT;
         "neoforge-26.2" = _z23hOObr;
+        "neoforge-26.3" = _BTyJQD9U;
         "fabric-1.20" = _dDuRO8cf;
         "fabric-1.20.1" = _PZqjkB2E;
         "fabric-1.21" = _RGMkklXi;
@@ -732,6 +745,7 @@ let
         "fabric-26.1.1" = _hVe4z3aY;
         "fabric-26.1.2" = _hVe4z3aY;
         "fabric-26.2" = _Cbq6UXrG;
+        "fabric-26.3" = _kzZH4tTe;
         "forge-1.20" = _mFWlzEaW;
         "forge-1.20.1" = _WqM79CmQ;
         "forge-1.21.2" = _1IhnCfCD;
@@ -865,7 +879,9 @@ let
         "pkg-1.2.6-26.2-Forge" = _TKV6xzD1;
         "pkg-1.2.6-26.2-NeoForge" = _z23hOObr;
         "pkg-1.2.6-26.2-Fabric" = _Cbq6UXrG;
-        "default" = _Cbq6UXrG;
+        "pkg-1.2.6-26.3-Fabric" = _kzZH4tTe;
+        "pkg-1.2.6-26.3-NeoForge" = _BTyJQD9U;
+        "default" = _BTyJQD9U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "golden-apple-tree";

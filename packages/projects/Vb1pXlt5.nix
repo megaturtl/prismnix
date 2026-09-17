@@ -116,6 +116,16 @@ let
             "file" = "cobblemon-leaderboards-fabric-2.2.jar";
             "hash" = "sha512-90Ll2h0CjIH4GOXFcR3aliA7GKmLloHOrDT/4t+iAwslW1HOX99ZlpVJLNvrKXqc4M7s+7mwwl7uSr1VHo6YpQ==";
         };
+        _pMKn1cO1 = {
+            "id" = "pMKn1cO1";
+            "file" = "cobblemon-leaderboards-neoforge-3.0.jar";
+            "hash" = "sha512-4iNcgnuo7wpi1i/GCrmBEpz2J0tFkW01uPjT5YB5EPzJ7Y9bfzAAHplHkZAXnOmtyz+ya7Zr8DW7l0mKLUcQpA==";
+        };
+        _bHEAkQl5 = {
+            "id" = "bHEAkQl5";
+            "file" = "cobblemon-leaderboards-fabric-3.0.jar";
+            "hash" = "sha512-ATPcmpa5VpZJMgVG8AIFho908g7xd9cZCwW68JgTxrod3Yu6l/L3K/aNpWRxA0AnSgHuw7/J3qV4ydZ7MCE1yg==";
+        };
     in {
         "tsK8cgoK" = _tsK8cgoK;
         "5NFHjf5w" = _5NFHjf5w;
@@ -140,8 +150,10 @@ let
         "3gZDgofF" = _3gZDgofF;
         "WZz7WWI7" = _WZz7WWI7;
         "DgxwroTl" = _DgxwroTl;
-        "neoforge-1.21.1" = _WZz7WWI7;
-        "fabric-1.21.1" = _DgxwroTl;
+        "pMKn1cO1" = _pMKn1cO1;
+        "bHEAkQl5" = _bHEAkQl5;
+        "neoforge-1.21.1" = _pMKn1cO1;
+        "fabric-1.21.1" = _bHEAkQl5;
         "pkg-1.0" = _5NFHjf5w;
         "pkg-1.1" = _g5OcScCu;
         "pkg-1.2" = _4hI30SOC;
@@ -154,7 +166,8 @@ let
         "pkg-2.1" = _tcODls0M;
         "pkg-2.1hf" = _3gZDgofF;
         "pkg-2.2" = _DgxwroTl;
-        "default" = _DgxwroTl;
+        "pkg-3.0" = _bHEAkQl5;
+        "default" = _bHEAkQl5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-leaderboards";

@@ -231,6 +231,16 @@ let
             "file" = "player-revive-v3.0-mc1.21.1.jar";
             "hash" = "sha512-dOAAM5QcHbaire8bi0qNe+7ohLoPwsbfvVODBCkNlt1Va34euTEdMefXoSp1m51iFrDiCoSF+4kBBpTL8LlDGw==";
         };
+        _7zQ11pMW = {
+            "id" = "7zQ11pMW";
+            "file" = "Simple Revive 3.0.zip";
+            "hash" = "sha512-01IO+dlvVjw92nHo/FPLVcUEEaRuxFarTSaNdjJhaze0/z69UNSIThJ6yJ+7ncf2khMnHMoS+D3v4DJAQhHlAg==";
+        };
+        _FschLOMH = {
+            "id" = "FschLOMH";
+            "file" = "player-revive-v3.0-mc26.3.jar";
+            "hash" = "sha512-CzNcB05piPyH7FPEXVsig9CJYKnrP8tAH5O217yOieV8pah6rXtPpMWBX2opC6wnb402YGhTwzRbcrIKep2hxg==";
+        };
     in {
         "HBU1UDmP" = _HBU1UDmP;
         "L3TksMz4" = _L3TksMz4;
@@ -278,6 +288,8 @@ let
         "38lJry46" = _38lJry46;
         "tuF42Mm6" = _tuF42Mm6;
         "XhfNkAiO" = _XhfNkAiO;
+        "7zQ11pMW" = _7zQ11pMW;
+        "FschLOMH" = _FschLOMH;
         "datapack-1.21.5" = _bZKodP2t;
         "datapack-1.21.6" = _bZKodP2t;
         "datapack-1.21.7" = _bZKodP2t;
@@ -294,6 +306,7 @@ let
         "datapack-26.1.1" = _NmaonTfQ;
         "datapack-26.1.2" = _NmaonTfQ;
         "datapack-26.2" = _eGiT5q5A;
+        "datapack-26.3" = _7zQ11pMW;
         "fabric-1.21.5" = _kbRIBQ5r;
         "fabric-1.21.6" = _kbRIBQ5r;
         "fabric-1.21.7" = _kbRIBQ5r;
@@ -310,6 +323,7 @@ let
         "fabric-26.1.1" = _AT9pH7Nd;
         "fabric-26.1.2" = _AT9pH7Nd;
         "fabric-26.2" = _3GCpHKto;
+        "fabric-26.3" = _FschLOMH;
         "forge-1.21.5" = _kbRIBQ5r;
         "forge-1.21.6" = _kbRIBQ5r;
         "forge-1.21.7" = _kbRIBQ5r;
@@ -326,6 +340,7 @@ let
         "forge-26.1.1" = _AT9pH7Nd;
         "forge-26.1.2" = _AT9pH7Nd;
         "forge-26.2" = _3GCpHKto;
+        "forge-26.3" = _FschLOMH;
         "neoforge-1.21.5" = _kbRIBQ5r;
         "neoforge-1.21.6" = _kbRIBQ5r;
         "neoforge-1.21.7" = _kbRIBQ5r;
@@ -342,6 +357,7 @@ let
         "neoforge-26.1.1" = _AT9pH7Nd;
         "neoforge-26.1.2" = _AT9pH7Nd;
         "neoforge-26.2" = _3GCpHKto;
+        "neoforge-26.3" = _FschLOMH;
         "quilt-1.21.5" = _kbRIBQ5r;
         "quilt-1.21.6" = _kbRIBQ5r;
         "quilt-1.21.7" = _kbRIBQ5r;
@@ -358,6 +374,7 @@ let
         "quilt-26.1.1" = _AT9pH7Nd;
         "quilt-26.1.2" = _AT9pH7Nd;
         "quilt-26.2" = _3GCpHKto;
+        "quilt-26.3" = _FschLOMH;
         "pkg-1.0+Datapack" = _HBU1UDmP;
         "pkg-1.0+Mod" = _L3TksMz4;
         "pkg-1.1+Datapack" = _7Oy4q8bX;
@@ -404,7 +421,9 @@ let
         "pkg-v3.0-mc1.21.10-mod" = _38lJry46;
         "pkg-v3.0-mc1.21.1-datapack" = _tuF42Mm6;
         "pkg-v3.0-mc1.21.1-mod" = _XhfNkAiO;
-        "default" = _XhfNkAiO;
+        "pkg-v3.0-mc26.3-datapack" = _7zQ11pMW;
+        "pkg-v3.0-mc26.3-mod" = _FschLOMH;
+        "default" = _FschLOMH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "player-revive";

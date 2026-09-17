@@ -76,6 +76,11 @@ let
             "file" = "Slightly Brightly.zip";
             "hash" = "sha512-yXpEHTKt4CDz3jl71QeVySQ7Pjt1ddeULLuYpYYwPQChZGOt9N7CyBX1fBSJ7pR5Bj94UUZ+iW7mw0QOtUjZ/w==";
         };
+        _Ym1GkUS5 = {
+            "id" = "Ym1GkUS5";
+            "file" = "Slightly Brightly.zip";
+            "hash" = "sha512-4M/6KxAZ+ExfUJAPgb1AMtBXhM9GP14WBgx1bIj+ehi3GE+n+170OJP2sXno9YXqb6CfIWtblpWMhvpei5pl+Q==";
+        };
     in {
         "qeDeC9nn" = _qeDeC9nn;
         "wrrxRv94" = _wrrxRv94;
@@ -92,6 +97,7 @@ let
         "2y2KMXwF" = _2y2KMXwF;
         "ddycGDnt" = _ddycGDnt;
         "2vsk0Rxr" = _2vsk0Rxr;
+        "Ym1GkUS5" = _Ym1GkUS5;
         "minecraft-24w33a" = _wrrxRv94;
         "minecraft-24w34a" = _wrrxRv94;
         "minecraft-24w35a" = _wrrxRv94;
@@ -139,6 +145,7 @@ let
         "minecraft-26.1.1" = _ddycGDnt;
         "minecraft-26.1.2" = _ddycGDnt;
         "minecraft-26.2" = _2vsk0Rxr;
+        "minecraft-26.3" = _Ym1GkUS5;
         "pkg-1" = _qeDeC9nn;
         "pkg-1.2" = _wrrxRv94;
         "pkg-1.3" = _o7Aoo6HJ;
@@ -154,7 +161,8 @@ let
         "pkg-1.7" = _2y2KMXwF;
         "pkg-1.8" = _ddycGDnt;
         "pkg-26.2" = _2vsk0Rxr;
-        "default" = _2vsk0Rxr;
+        "pkg-26.3" = _Ym1GkUS5;
+        "default" = _Ym1GkUS5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "slightly-brightly";

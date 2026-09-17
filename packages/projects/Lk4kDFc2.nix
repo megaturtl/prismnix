@@ -46,6 +46,16 @@ let
             "file" = "cleanerf3-1.4+26.2-fabric.jar";
             "hash" = "sha512-QiOR/YfC1ZzFCzbOnwd9kESRqQBItMi3dpMV5eT+veO81araKH88gdrnSHukYv6oFqy4ywxyuicLeE6fTVPicw==";
         };
+        _vrqfxa0U = {
+            "id" = "vrqfxa0U";
+            "file" = "cleanerf3-1.4+26.3-fabric.jar";
+            "hash" = "sha512-oomBnbc92/oIXT3xCHGZKgkNP6O+FZvdnJCC9Bl4ciooPFrpBJB2/PrERJoBww/y5WAhG4kmdOY+ObdMXiYfqw==";
+        };
+        _RmMTPfiz = {
+            "id" = "RmMTPfiz";
+            "file" = "cleanerf3-1.4+26.3-neoforge.jar";
+            "hash" = "sha512-4BZ+l7tjvFFwnliGOW7w8Xt5ayK58E63VgaDmThoY8p5RBBGK7shXTzm1MXdH9j9LMMsQITMD1EQEN6fytY+9A==";
+        };
     in {
         "iNDY52pf" = _iNDY52pf;
         "yyHVSXmt" = _yyHVSXmt;
@@ -56,6 +66,8 @@ let
         "GlZxILaF" = _GlZxILaF;
         "yGpi9Qbg" = _yGpi9Qbg;
         "3Wt3s32O" = _3Wt3s32O;
+        "vrqfxa0U" = _vrqfxa0U;
+        "RmMTPfiz" = _RmMTPfiz;
         "fabric-1.21.10" = _W8bgRESy;
         "fabric-1.21.11" = _W8bgRESy;
         "fabric-26.1" = _yGpi9Qbg;
@@ -63,6 +75,7 @@ let
         "fabric-26.1.2" = _yGpi9Qbg;
         "fabric-1.21.9" = _W8bgRESy;
         "fabric-26.2" = _3Wt3s32O;
+        "fabric-26.3" = _vrqfxa0U;
         "quilt-26.1" = _yGpi9Qbg;
         "quilt-26.1.1" = _yGpi9Qbg;
         "quilt-26.1.2" = _yGpi9Qbg;
@@ -70,10 +83,12 @@ let
         "quilt-1.21.10" = _W8bgRESy;
         "quilt-1.21.11" = _W8bgRESy;
         "quilt-26.2" = _3Wt3s32O;
+        "quilt-26.3" = _vrqfxa0U;
         "neoforge-26.1" = _JguhLc5t;
         "neoforge-26.1.1" = _JguhLc5t;
         "neoforge-26.1.2" = _JguhLc5t;
         "neoforge-26.2" = _GlZxILaF;
+        "neoforge-26.3" = _RmMTPfiz;
         "pkg-1.0+mc1.21.10" = _iNDY52pf;
         "pkg-1.1+mc1.21.11" = _yyHVSXmt;
         "pkg-1.2+mc26.1" = _rXzitjZX;
@@ -83,7 +98,9 @@ let
         "pkg-1.4+26.2-neoforge" = _GlZxILaF;
         "pkg-1.4+26.1-fabric" = _yGpi9Qbg;
         "pkg-1.4+26.2-fabric" = _3Wt3s32O;
-        "default" = _3Wt3s32O;
+        "pkg-1.4+26.3-fabric" = _vrqfxa0U;
+        "pkg-1.4+26.3-neoforge" = _RmMTPfiz;
+        "default" = _RmMTPfiz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cleanerf3";

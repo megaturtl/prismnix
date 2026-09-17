@@ -116,6 +116,11 @@ let
             "file" = "elytrakey-fabric-mc26.2-1.2.4.jar";
             "hash" = "sha512-X5XwiBIRoegEKcB+eMZDIwaurzIKgqDuibqkMxNgtcz6J9IXsOuWTosCzIadKldCgDa9070PQrsKJw3UI5dvPg==";
         };
+        _UyQgC6TH = {
+            "id" = "UyQgC6TH";
+            "file" = "elytrakey-fabric-mc26.3-1.2.4.jar";
+            "hash" = "sha512-QHjxvDVXXmUZmhZCtPdbIpupNu4FXSAOIhp/AUaXESHk7cYoy+VqooiQJhvvpGyz3xFxykq3uSY0/q+0IRzzoQ==";
+        };
     in {
         "yATW2msi" = _yATW2msi;
         "k1HHXCJw" = _k1HHXCJw;
@@ -140,6 +145,7 @@ let
         "N52jmdNF" = _N52jmdNF;
         "PBj4yHpC" = _PBj4yHpC;
         "c2v7xd7w" = _c2v7xd7w;
+        "UyQgC6TH" = _UyQgC6TH;
         "fabric-1.20" = _yATW2msi;
         "fabric-1.20.1" = _yATW2msi;
         "fabric-1.19.4" = _k1HHXCJw;
@@ -164,6 +170,7 @@ let
         "fabric-26.1.1" = _PBj4yHpC;
         "fabric-26.1.2" = _PBj4yHpC;
         "fabric-26.2" = _c2v7xd7w;
+        "fabric-26.3" = _UyQgC6TH;
         "pkg-1.1.2" = _wPCfgg8y;
         "pkg-1.1.3" = _efKZ96JM;
         "pkg-1.1.4" = _tnBJYpJt;
@@ -176,7 +183,8 @@ let
         "pkg-1.2.2" = _fgPpx3u4;
         "pkg-1.2.3" = _UhMoObuT;
         "pkg-1.2.4" = _c2v7xd7w;
-        "default" = _c2v7xd7w;
+        "pkg-1.2.4-mc26.3" = _UyQgC6TH;
+        "default" = _UyQgC6TH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytrakey";

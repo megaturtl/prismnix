@@ -1271,6 +1271,21 @@ let
             "file" = "flopper-26.2-neoforge-1.1.9-243.jar";
             "hash" = "sha512-rJZfTfTVdYpuqTbxcfHvmNFtYPYe2KbVwSgKh9Nl8PBTB+U+ILlgUUT9w9fDXShZoiU07JfSkW13UpB2ODEmDg==";
         };
+        _gT0coBJc = {
+            "id" = "gT0coBJc";
+            "file" = "flopper-26.1.2-fabric-1.1.9-244.jar";
+            "hash" = "sha512-shXUfQcNdi7EMuuJznUjwoq6HiViWAS3L/+LccibA+dZaIDBjrxlwJLwN7VpurSWL3Lq3ZThp+acqKBuI935mg==";
+        };
+        _4BPtpKsS = {
+            "id" = "4BPtpKsS";
+            "file" = "flopper-26.1.2-forge-1.1.9-244.jar";
+            "hash" = "sha512-VQAL4otOTg+kY7OakZl6xrR8B9WaXXPaDLTKXLGXmq6PlUJpxjv79FlmSpOpnmvcTRlw7Mnbaa7BZBB5dJml2g==";
+        };
+        _w2rVeXH5 = {
+            "id" = "w2rVeXH5";
+            "file" = "flopper-26.1.2-neoforge-1.1.9-244.jar";
+            "hash" = "sha512-r8C7zrgTU9H69f3bY8lEwKDse++5a7kUB2VoiB3L1syGnt7OAVkEOYuvrHQQO5GMXddc+Tuj+hx1uQzo33VXbw==";
+        };
     in {
         "aQbSoSP5" = _aQbSoSP5;
         "LflQRz6v" = _LflQRz6v;
@@ -1526,6 +1541,9 @@ let
         "vCohOisq" = _vCohOisq;
         "T8MMp2iQ" = _T8MMp2iQ;
         "3e4saqMX" = _3e4saqMX;
+        "gT0coBJc" = _gT0coBJc;
+        "4BPtpKsS" = _4BPtpKsS;
+        "w2rVeXH5" = _w2rVeXH5;
         "forge-1.18.2" = _aQbSoSP5;
         "forge-1.19" = _Gmu3Df2s;
         "forge-1.19.2" = _3j5oNzc2;
@@ -1540,7 +1558,7 @@ let
         "forge-1.21.10" = _XAaltWzy;
         "forge-1.21.11" = _GfNVAi2x;
         "forge-26.1.1" = _IeyLqF3h;
-        "forge-26.1.2" = _PyfvlSMa;
+        "forge-26.1.2" = _4BPtpKsS;
         "forge-26.2" = _T8MMp2iQ;
         "neoforge-1.20.4" = _HE75NFpy;
         "neoforge-1.21" = _lgTOuBf4;
@@ -1552,7 +1570,7 @@ let
         "neoforge-1.21.10" = _7emgxDEK;
         "neoforge-1.21.11" = _65lLF65e;
         "neoforge-26.1.1" = _V7B1tZOu;
-        "neoforge-26.1.2" = _Cl1NkL2B;
+        "neoforge-26.1.2" = _w2rVeXH5;
         "neoforge-26.2" = _3e4saqMX;
         "fabric-1.21.1" = _7yJtq6fq;
         "fabric-1.21.4" = _YmDNkGcb;
@@ -1562,7 +1580,7 @@ let
         "fabric-1.21.10" = _IXIazFMK;
         "fabric-1.21.11" = _aJd4WqVt;
         "fabric-26.1.1" = _T7u5RF20;
-        "fabric-26.1.2" = _1QNFiA1u;
+        "fabric-26.1.2" = _gT0coBJc;
         "fabric-26.2" = _vCohOisq;
         "quilt-1.21.1" = _7yJtq6fq;
         "quilt-1.21.4" = _YmDNkGcb;
@@ -1572,7 +1590,7 @@ let
         "quilt-1.21.10" = _IXIazFMK;
         "quilt-1.21.11" = _aJd4WqVt;
         "quilt-26.1.1" = _T7u5RF20;
-        "quilt-26.1.2" = _1QNFiA1u;
+        "quilt-26.1.2" = _gT0coBJc;
         "quilt-26.2" = _vCohOisq;
         "pkg-1.1.2" = _aQbSoSP5;
         "pkg-1.19-1.1.2" = _LflQRz6v;
@@ -1660,7 +1678,8 @@ let
         "pkg-1.21.1-1.1.8-241" = _7ft61fMi;
         "pkg-26.1.2-1.1.9-242" = _Cl1NkL2B;
         "pkg-26.2-1.1.9-243" = _3e4saqMX;
-        "default" = _3e4saqMX;
+        "pkg-26.1.2-1.1.9-244" = _w2rVeXH5;
+        "default" = _w2rVeXH5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flopper";

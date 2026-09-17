@@ -16,17 +16,25 @@ let
             "file" = "Lunge Improvement 26.2.jar";
             "hash" = "sha512-etcki8xjDsLuhehSdid0wZLf3c1vFqsfy9g3TbsfQuXYqVTsMf2JeLSbUlcob0+l0hhhSF2iZPycbcUO2miHdQ==";
         };
+        _U0PKClGq = {
+            "id" = "U0PKClGq";
+            "file" = "Lunge Improvement 26.3.jar";
+            "hash" = "sha512-jaW2UdJXL3eCdUcTsK/g9cXXMhnZU+aec2OF8JufdO+MncQKE0rtOeNFHXi+UCmQx4A26RhNHRv/czGFZmqTEQ==";
+        };
     in {
         "1I9WQu76" = _1I9WQu76;
         "7xONBWDR" = _7xONBWDR;
         "7BMEgMZl" = _7BMEgMZl;
+        "U0PKClGq" = _U0PKClGq;
         "fabric-1.21.11" = _1I9WQu76;
         "fabric-26.1.2" = _7xONBWDR;
         "fabric-26.2" = _7BMEgMZl;
+        "fabric-26.3" = _U0PKClGq;
         "pkg-1.0.0" = _1I9WQu76;
         "pkg-1.2" = _7xONBWDR;
         "pkg-26.2" = _7BMEgMZl;
-        "default" = _7BMEgMZl;
+        "pkg-26.3" = _U0PKClGq;
+        "default" = _U0PKClGq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lunge-enchantment-improvement";

@@ -61,6 +61,16 @@ let
             "file" = "greenlight-fabric-0.1.0+mc1.21.10.jar";
             "hash" = "sha512-UzgVICWzmLOvVE8aC7tsBBaHoDcUR6xfidR5D5+gaL/S6PpcAAlHg1RzPTfE7hfFUAvF3D2vEBo2vg1eEJNy5A==";
         };
+        _cIghOZBw = {
+            "id" = "cIghOZBw";
+            "file" = "greenlight-neoforge-0.1.0+mc26.3.jar";
+            "hash" = "sha512-klCpqnS9nqwkpDp6P8dUZIo8ekIc2AX3icy3pvYJ7r4edScka8DGj5IQl31EF4MEs2AHyk4mfNQ1bRsiUOPcqA==";
+        };
+        _FgrtRgxd = {
+            "id" = "FgrtRgxd";
+            "file" = "greenlight-fabric-0.1.0+mc26.3.jar";
+            "hash" = "sha512-W2SleJO84F1ASUAI9NX/aiT/AgYxR4mpSzE6oZLWru3ahq7WPo007WZB+22lgZZjqs8zsT1paflb8QynG7SEcg==";
+        };
     in {
         "37ZquQeH" = _37ZquQeH;
         "X4NpAXAm" = _X4NpAXAm;
@@ -74,6 +84,8 @@ let
         "fMyTYVhH" = _fMyTYVhH;
         "Y2fdJGUp" = _Y2fdJGUp;
         "kzD1gN83" = _kzD1gN83;
+        "cIghOZBw" = _cIghOZBw;
+        "FgrtRgxd" = _FgrtRgxd;
         "neoforge-26.1" = _37ZquQeH;
         "neoforge-26.1.1" = _37ZquQeH;
         "neoforge-26.1.2" = _37ZquQeH;
@@ -95,6 +107,7 @@ let
         "neoforge-1.21.8" = _Y2fdJGUp;
         "neoforge-1.21.9" = _Y2fdJGUp;
         "neoforge-1.21.10" = _Y2fdJGUp;
+        "neoforge-26.3" = _cIghOZBw;
         "fabric-26.1" = _X4NpAXAm;
         "fabric-26.1.1" = _X4NpAXAm;
         "fabric-26.1.2" = _X4NpAXAm;
@@ -126,6 +139,7 @@ let
         "fabric-1.21.8" = _kzD1gN83;
         "fabric-1.21.9" = _kzD1gN83;
         "fabric-1.21.10" = _kzD1gN83;
+        "fabric-26.3" = _FgrtRgxd;
         "pkg-mc26.2-0.1.0+neoforge" = _37ZquQeH;
         "pkg-mc26.2-0.1.0+fabric" = _X4NpAXAm;
         "pkg-mc1.17.1-0.1.0+fabric" = _1UJATPiS;
@@ -138,7 +152,9 @@ let
         "pkg-mc1.21.11-0.1.0+fabric" = _fMyTYVhH;
         "pkg-mc1.21.10-0.1.0+neoforge" = _Y2fdJGUp;
         "pkg-mc1.21.10-0.1.0+fabric" = _kzD1gN83;
-        "default" = _kzD1gN83;
+        "pkg-mc26.3-0.1.0+neoforge" = _cIghOZBw;
+        "pkg-mc26.3-0.1.0+fabric" = _FgrtRgxd;
+        "default" = _FgrtRgxd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "greenlight";

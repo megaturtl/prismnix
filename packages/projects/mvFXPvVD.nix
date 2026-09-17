@@ -26,12 +26,18 @@ let
             "file" = "WardenSlayer-26.2-1.0.jar";
             "hash" = "sha512-p6AQKqvWkSzWjN1Auo0xhLwkC9Qtr9mSAtCEqlOA2ij7fs9Pdz2Kw1sB+d+MjMwqKFuPO/bQrgDf0p9u89PEMw==";
         };
+        _T9xpqvwg = {
+            "id" = "T9xpqvwg";
+            "file" = "WardenSlayer-26.3-1.0.jar";
+            "hash" = "sha512-V+B4QB8vl2SfwcFEtq82NdB3MUecPbGT3ZO2N5j3ayKvp/yA4OShFEI90h78UkW70fkndixnflzxbsf++c+vyQ==";
+        };
     in {
         "Ru7jf5iT" = _Ru7jf5iT;
         "c5kazCGk" = _c5kazCGk;
         "t8QLfCfU" = _t8QLfCfU;
         "Xl8lklpx" = _Xl8lklpx;
         "xb0MMJin" = _xb0MMJin;
+        "T9xpqvwg" = _T9xpqvwg;
         "fabric-1.21.2" = _Ru7jf5iT;
         "fabric-1.21.3" = _Ru7jf5iT;
         "fabric-1.21.4" = _Ru7jf5iT;
@@ -48,6 +54,7 @@ let
         "fabric-26.1.1" = _Xl8lklpx;
         "fabric-26.1.2" = _Xl8lklpx;
         "fabric-26.2" = _xb0MMJin;
+        "fabric-26.3" = _T9xpqvwg;
         "forge-1.21.2" = _Ru7jf5iT;
         "forge-1.21.3" = _Ru7jf5iT;
         "forge-1.21.4" = _Ru7jf5iT;
@@ -64,6 +71,7 @@ let
         "forge-26.1.1" = _Xl8lklpx;
         "forge-26.1.2" = _Xl8lklpx;
         "forge-26.2" = _xb0MMJin;
+        "forge-26.3" = _T9xpqvwg;
         "neoforge-1.21.2" = _Ru7jf5iT;
         "neoforge-1.21.3" = _Ru7jf5iT;
         "neoforge-1.21.4" = _Ru7jf5iT;
@@ -80,12 +88,14 @@ let
         "neoforge-26.1.1" = _Xl8lklpx;
         "neoforge-26.1.2" = _Xl8lklpx;
         "neoforge-26.2" = _xb0MMJin;
+        "neoforge-26.3" = _T9xpqvwg;
         "pkg-1.21.2-1.21.4-1.0" = _Ru7jf5iT;
         "pkg-1.21-1.21.1-1.2" = _c5kazCGk;
         "pkg-1.21.5-1.0" = _t8QLfCfU;
         "pkg-1.21.11-1.0" = _Xl8lklpx;
         "pkg-26.2-1.0" = _xb0MMJin;
-        "default" = _xb0MMJin;
+        "pkg-26.3-1.0" = _T9xpqvwg;
+        "default" = _T9xpqvwg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wardenslayerenchantment";

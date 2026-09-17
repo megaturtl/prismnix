@@ -101,6 +101,16 @@ let
             "file" = "skyblock-sand-island-2.0.4.jar";
             "hash" = "sha512-lviTyjh3QClZfa1VUmg0h+KBQVC/vKBmR+EZuXoyZ5AiSpxyfFRkUoA4zXZviALHR3qKmuFH55LQMCbaXdF7WQ==";
         };
+        _2FEA3DUH = {
+            "id" = "2FEA3DUH";
+            "file" = "skyvoid_sand_island_v2_0_5-MC_26_2.zip";
+            "hash" = "sha512-TKzE2Uv6V3mFI0OoSCR1E3hU+kQ18E8qE5b7sTPMz1w+MXjb42GCJSSXlUkNXjUiw14M7zH7Dylb/DVp4itwqQ==";
+        };
+        _fZ7JdbIt = {
+            "id" = "fZ7JdbIt";
+            "file" = "skyblock-sand-island-2.0.5.jar";
+            "hash" = "sha512-YP1TV5umdMKlKrdIp/tifZj7MCYmgCSZJvOslTA+o9F2KkXb/U91XuLBDoqIXg91RslV+deVYQwGh96HK2BNFg==";
+        };
     in {
         "o06a9R4m" = _o06a9R4m;
         "igxHdZXa" = _igxHdZXa;
@@ -122,6 +132,8 @@ let
         "exDZXoVf" = _exDZXoVf;
         "w6d0plZD" = _w6d0plZD;
         "weQJAvWC" = _weQJAvWC;
+        "2FEA3DUH" = _2FEA3DUH;
+        "fZ7JdbIt" = _fZ7JdbIt;
         "datapack-1.19.4" = _o06a9R4m;
         "datapack-1.20" = _TJe3QbGl;
         "datapack-1.20.1" = _TJe3QbGl;
@@ -145,6 +157,7 @@ let
         "datapack-26.1" = _w6d0plZD;
         "datapack-26.1.1" = _w6d0plZD;
         "datapack-26.1.2" = _w6d0plZD;
+        "datapack-26.2" = _2FEA3DUH;
         "fabric-1.19.4" = _igxHdZXa;
         "fabric-1.20" = _XjbO8sDr;
         "fabric-1.20.1" = _XjbO8sDr;
@@ -168,6 +181,7 @@ let
         "fabric-26.1" = _weQJAvWC;
         "fabric-26.1.1" = _weQJAvWC;
         "fabric-26.1.2" = _weQJAvWC;
+        "fabric-26.2" = _fZ7JdbIt;
         "forge-1.19.4" = _igxHdZXa;
         "forge-1.20" = _XjbO8sDr;
         "forge-1.20.1" = _XjbO8sDr;
@@ -191,6 +205,7 @@ let
         "forge-26.1" = _weQJAvWC;
         "forge-26.1.1" = _weQJAvWC;
         "forge-26.1.2" = _weQJAvWC;
+        "forge-26.2" = _fZ7JdbIt;
         "quilt-1.19.4" = _igxHdZXa;
         "quilt-1.20" = _XjbO8sDr;
         "quilt-1.20.1" = _XjbO8sDr;
@@ -214,6 +229,7 @@ let
         "quilt-26.1" = _weQJAvWC;
         "quilt-26.1.1" = _weQJAvWC;
         "quilt-26.1.2" = _weQJAvWC;
+        "quilt-26.2" = _fZ7JdbIt;
         "neoforge-1.21" = _k846bbDz;
         "neoforge-1.21.1" = _k846bbDz;
         "neoforge-1.21.2" = _k846bbDz;
@@ -229,6 +245,7 @@ let
         "neoforge-26.1" = _weQJAvWC;
         "neoforge-26.1.1" = _weQJAvWC;
         "neoforge-26.1.2" = _weQJAvWC;
+        "neoforge-26.2" = _fZ7JdbIt;
         "pkg-1.0.0" = _o06a9R4m;
         "pkg-1.0.0+mod" = _igxHdZXa;
         "pkg-1.0.1" = _TJe3QbGl;
@@ -249,7 +266,9 @@ let
         "pkg-2.0.3+mod" = _exDZXoVf;
         "pkg-2.0.4" = _w6d0plZD;
         "pkg-2.0.4+mod" = _weQJAvWC;
-        "default" = _weQJAvWC;
+        "pkg-2.0.5" = _2FEA3DUH;
+        "pkg-2.0.5+mod" = _fZ7JdbIt;
+        "default" = _fZ7JdbIt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skyblock-sand-island";

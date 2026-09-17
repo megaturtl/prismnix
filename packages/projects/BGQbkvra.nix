@@ -81,6 +81,16 @@ let
             "file" = "betterdoors-1.0.7-neoforge.jar";
             "hash" = "sha512-16YbOKlVe/Oh0NUeXYFMY/By1bOATeked5NbyZa0KKB789V1Yt6toszwWYQzyk9iV9JI6/z+4bd2MhQJGDyiog==";
         };
+        _Ls33rOkN = {
+            "id" = "Ls33rOkN";
+            "file" = "betterdoors-fabric-1.0.7.jar";
+            "hash" = "sha512-q0TAQN2jIb0oPcGisjk6S6IIQ5LOI4mPrI5pXVYZlcesZjW9JG2+Z4Rvl8s5Crdq2cX+icGhvnxuwEHD8qTjUQ==";
+        };
+        _2LfbhFGa = {
+            "id" = "2LfbhFGa";
+            "file" = "betterdoors-neoforge-1.0.7.jar";
+            "hash" = "sha512-W67gSk1DwP752aZHFa7EaOaKu/vC/zJ+VAeE41NEKfH1NZ3ZIUFQi2qbRT5MjhV+p6l39gKVHYd21WRykU/zxA==";
+        };
     in {
         "FJatRGU0" = _FJatRGU0;
         "pblnUClU" = _pblnUClU;
@@ -98,6 +108,8 @@ let
         "aTfbalEa" = _aTfbalEa;
         "25KpouHN" = _25KpouHN;
         "F9o25ieL" = _F9o25ieL;
+        "Ls33rOkN" = _Ls33rOkN;
+        "2LfbhFGa" = _2LfbhFGa;
         "fabric-1.21" = _rrwoRf8o;
         "fabric-1.21.1" = _rrwoRf8o;
         "fabric-1.21.2" = _rrwoRf8o;
@@ -114,6 +126,7 @@ let
         "fabric-26.1.1" = _38DmmV7k;
         "fabric-26.1.2" = _38DmmV7k;
         "fabric-26.2" = _25KpouHN;
+        "fabric-26.3" = _Ls33rOkN;
         "quilt-1.21" = _rrwoRf8o;
         "quilt-1.21.1" = _rrwoRf8o;
         "quilt-1.21.2" = _rrwoRf8o;
@@ -130,10 +143,12 @@ let
         "quilt-26.1.1" = _mJbdbNaf;
         "quilt-26.1.2" = _mJbdbNaf;
         "quilt-26.2" = _25KpouHN;
+        "quilt-26.3" = _Ls33rOkN;
         "neoforge-26.1" = _cJYPTlgc;
         "neoforge-26.1.1" = _cJYPTlgc;
         "neoforge-26.1.2" = _cJYPTlgc;
         "neoforge-26.2" = _F9o25ieL;
+        "neoforge-26.3" = _2LfbhFGa;
         "pkg-1.0.0" = _FJatRGU0;
         "pkg-1.0.1" = _pblnUClU;
         "pkg-1.0.2" = _rrwoRf8o;
@@ -141,8 +156,8 @@ let
         "pkg-1.0.4" = _tNdZxM7u;
         "pkg-1.0.5" = _38DmmV7k;
         "pkg-1.0.6" = _aTfbalEa;
-        "pkg-1.0.7" = _F9o25ieL;
-        "default" = _F9o25ieL;
+        "pkg-1.0.7" = _2LfbhFGa;
+        "default" = _2LfbhFGa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betterdoors";

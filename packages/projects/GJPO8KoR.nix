@@ -66,6 +66,11 @@ let
             "file" = "classicfarlands-1.2.3+mc26.1.jar";
             "hash" = "sha512-l6bnwg8tQhobIEE0A6iPJhIb98qTaW7+WcP/tHWvuRUYJKOWA5InFwVqC+TMCh5VkKfsnauQj88k7Ylze22DJQ==";
         };
+        _eEnEwUr8 = {
+            "id" = "eEnEwUr8";
+            "file" = "classicfarlands-1.3.0+mc26.3.jar";
+            "hash" = "sha512-+dyU3/aGegUMaTDRjwwZk0zl1PzcPdpQ5P74KLWr+AtvDRXUeS/sMY34MZMxnZxYrP5xSPDPy2ryAsUT6UTqMQ==";
+        };
     in {
         "ghz4mj2S" = _ghz4mj2S;
         "RBo6CsRF" = _RBo6CsRF;
@@ -80,6 +85,7 @@ let
         "z2e94iM7" = _z2e94iM7;
         "Avq5WMgK" = _Avq5WMgK;
         "VYAGatlU" = _VYAGatlU;
+        "eEnEwUr8" = _eEnEwUr8;
         "fabric-1.21" = _Avq5WMgK;
         "fabric-1.21.1" = _Avq5WMgK;
         "fabric-1.21.2" = _Avq5WMgK;
@@ -96,6 +102,9 @@ let
         "fabric-26.1.1" = _VYAGatlU;
         "fabric-26.1.2" = _VYAGatlU;
         "fabric-26.2" = _VYAGatlU;
+        "fabric-26.3-rc-1" = _eEnEwUr8;
+        "fabric-26.3-rc-2" = _eEnEwUr8;
+        "fabric-26.3" = _eEnEwUr8;
         "pkg-1.0.0+mc1.21.1" = _ghz4mj2S;
         "pkg-1.0.0+mc1.21.10" = _RBo6CsRF;
         "pkg-1.1.0+mc1.21.1" = _pJBIHTXR;
@@ -109,7 +118,8 @@ let
         "pkg-1.2.2+mc1.21.1" = _z2e94iM7;
         "pkg-1.2.3+mc1.21.1" = _Avq5WMgK;
         "pkg-1.2.3+mc26.1" = _VYAGatlU;
-        "default" = _VYAGatlU;
+        "pkg-1.3.0+mc26.3" = _eEnEwUr8;
+        "default" = _eEnEwUr8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "classic-farlands";

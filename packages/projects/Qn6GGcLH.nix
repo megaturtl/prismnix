@@ -151,6 +151,16 @@ let
             "file" = "rosetta-0.1.1+26.2-neoforge.jar";
             "hash" = "sha512-mYjX200FWIzyw08ZHx7TOhTcdu5ymcR9cLPfMHteJPIPGL2gXf7QD18y9up5Y2cahHrW47zJOnowAhC0QiRbQQ==";
         };
+        _IGqhLKyF = {
+            "id" = "IGqhLKyF";
+            "file" = "rosetta-0.1.1+26.3-fabric.jar";
+            "hash" = "sha512-9Iak2pQYYKWeoGvowZoAS/WqO0aLjemIDfUWmsgcFrAbzG8k8IkKyudy54TDK9Eio7xuUSg2xOd15i/k75cijA==";
+        };
+        _GTBZMdYA = {
+            "id" = "GTBZMdYA";
+            "file" = "rosetta-0.1.1+26.3-neoforge.jar";
+            "hash" = "sha512-wGT9sqthCeQsZM6Ywk9EOG7paP9KHPpNFhytW0+HdvhwOKzDFJgaj7RdtnsrALW1xJiFP9N9MCsNKitUd567Ew==";
+        };
     in {
         "gGV0OJ3G" = _gGV0OJ3G;
         "uXahz4wO" = _uXahz4wO;
@@ -182,6 +192,8 @@ let
         "J2BGwxkz" = _J2BGwxkz;
         "BUXtUwWl" = _BUXtUwWl;
         "T1au56Ec" = _T1au56Ec;
+        "IGqhLKyF" = _IGqhLKyF;
+        "GTBZMdYA" = _GTBZMdYA;
         "fabric-1.21.1" = _gGV0OJ3G;
         "fabric-1.21.2" = _uXahz4wO;
         "fabric-1.21.3" = _RyYsGY1x;
@@ -197,6 +209,7 @@ let
         "fabric-26.1.1" = _X3kjx6i2;
         "fabric-26.1.2" = _mdJTamKh;
         "fabric-26.2" = _BUXtUwWl;
+        "fabric-26.3" = _IGqhLKyF;
         "neoforge-1.21.1" = _HVpSDt2r;
         "neoforge-1.21.2" = _Jz2OBREn;
         "neoforge-1.21.3" = _jouMf41d;
@@ -212,6 +225,7 @@ let
         "neoforge-26.1.1" = _DO0NJ0lf;
         "neoforge-26.1.2" = _J2BGwxkz;
         "neoforge-26.2" = _T1au56Ec;
+        "neoforge-26.3" = _GTBZMdYA;
         "pkg-v0.1.1-fabric-1.21.1" = _gGV0OJ3G;
         "pkg-v0.1.1-fabric-1.21.2" = _uXahz4wO;
         "pkg-v0.1.1-fabric-1.21.3" = _RyYsGY1x;
@@ -242,7 +256,9 @@ let
         "pkg-v0.1.1-neoforge-26.1.2" = _J2BGwxkz;
         "pkg-v0.1.1-fabric-26.2" = _BUXtUwWl;
         "pkg-v0.1.1-neoforge-26.2" = _T1au56Ec;
-        "default" = _T1au56Ec;
+        "pkg-v0.1.1-fabric-26.3" = _IGqhLKyF;
+        "pkg-v0.1.1-neoforge-26.3" = _GTBZMdYA;
+        "default" = _GTBZMdYA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rosetta-lib";

@@ -16,21 +16,28 @@ let
             "file" = "bobo_lib-1.1-1.21.1-neoforge.jar";
             "hash" = "sha512-mJv9ZYAEJ220aYZCrywqh8lQUoDNNuBXy2WNC/ihjGn4vomHoWHa5YDkQKj13s3ToQidYjBMob6++2Dg6M/meg==";
         };
+        _jprQ3eeg = {
+            "id" = "jprQ3eeg";
+            "file" = "bobo_lib-1.2.1-1.21.1-neoforge.jar";
+            "hash" = "sha512-DLICLYM4pQGlssEqgMDtQmMFHVaA8kTGMRMfIsc+Ndl3XU5L2eUtA12bf0XwzTBxmNhk70Y/LbTdA9LNlXnhvw==";
+        };
     in {
         "F4svFIUc" = _F4svFIUc;
         "G9ZoSaOd" = _G9ZoSaOd;
         "rLITzt4V" = _rLITzt4V;
+        "jprQ3eeg" = _jprQ3eeg;
         "forge-1.20" = _G9ZoSaOd;
         "forge-1.20.1" = _G9ZoSaOd;
         "forge-1.20.2" = _G9ZoSaOd;
         "forge-1.20.3" = _G9ZoSaOd;
         "forge-1.20.4" = _G9ZoSaOd;
         "forge-1.20.6" = _G9ZoSaOd;
-        "neoforge-1.21.1" = _rLITzt4V;
+        "neoforge-1.21.1" = _jprQ3eeg;
         "pkg-1.0-1.20.1" = _F4svFIUc;
         "pkg-1.1-1.20.1" = _G9ZoSaOd;
         "pkg-1.1-1.21.1" = _rLITzt4V;
-        "default" = _rLITzt4V;
+        "pkg-1.2.1-1.21.1" = _jprQ3eeg;
+        "default" = _jprQ3eeg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bobo-lib";

@@ -121,6 +121,11 @@ let
             "file" = "advancements_fullscreen-2.0.1+fabric-mc26.2.jar";
             "hash" = "sha512-dbtIL2+7CNvAl59b1LymWf9/Rbr0/mmOxSKKvD6cHRPA0FNCciblygpbpjFCpirA4XPxK1hVl8dnmep+SC5JeQ==";
         };
+        _c9u0nVfv = {
+            "id" = "c9u0nVfv";
+            "file" = "advancements_fullscreen-2.0.1+fabric-mc26.3.jar";
+            "hash" = "sha512-0u3sBPFqC75PhOet3wR7jMgPB2pT+PMyHqPfe0LbNWJugF+TSZexBnkoMBDmqzKAvgeao0hmu5SVR3ZMqjiXSQ==";
+        };
     in {
         "zLfNjpTi" = _zLfNjpTi;
         "uKgi1aRO" = _uKgi1aRO;
@@ -146,6 +151,7 @@ let
         "mQUBC18c" = _mQUBC18c;
         "QnDleZ7G" = _QnDleZ7G;
         "CzA0RGY5" = _CzA0RGY5;
+        "c9u0nVfv" = _c9u0nVfv;
         "fabric-1.20.5" = _zLfNjpTi;
         "fabric-1.20.6" = _zLfNjpTi;
         "fabric-1.21" = _zLfNjpTi;
@@ -189,6 +195,7 @@ let
         "fabric-26.1.2" = _E3IEWpM0;
         "fabric-1.14.4" = _mQUBC18c;
         "fabric-26.2" = _CzA0RGY5;
+        "fabric-26.3" = _c9u0nVfv;
         "neoforge-1.21.11" = _6zLBqWbD;
         "forge-1.21.11" = _oZxLJCmh;
         "quilt-1.21.11" = _NIU1Aklu;
@@ -199,8 +206,8 @@ let
         "pkg-1.2" = _KvXNC78Z;
         "pkg-1.3" = _6qS08ZxA;
         "pkg-2.0.0" = _QnDleZ7G;
-        "pkg-2.0.1" = _CzA0RGY5;
-        "default" = _CzA0RGY5;
+        "pkg-2.0.1" = _c9u0nVfv;
+        "default" = _c9u0nVfv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "advancements-fullscreen";

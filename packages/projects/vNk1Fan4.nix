@@ -171,6 +171,11 @@ let
             "file" = "legendarytitles-forge-2.1.0.jar";
             "hash" = "sha512-vQ2duu/fTJgnAchn5PKB/GdbEN2LWQe3TOqzCYQo9hgKiOvVg2pjz3tSXCRZWMvBzgPajnsNa4IR9JNSn2knqg==";
         };
+        _zDBbGPeH = {
+            "id" = "zDBbGPeH";
+            "file" = "legendarytitles-forge-2.1.1.jar";
+            "hash" = "sha512-UNQx+3xy3GJ1yT6tZzE1r1NuorfP5hjK6DfyOspJ3EfEcMLkn1x/H1D4fk5bL+8Vr8lwBUEN8S25GuHXFPl4Iw==";
+        };
     in {
         "nFM824k4" = _nFM824k4;
         "cQQ2qS74" = _cQQ2qS74;
@@ -206,7 +211,8 @@ let
         "G6kxF9ZZ" = _G6kxF9ZZ;
         "J4qmY2JZ" = _J4qmY2JZ;
         "45zYAQh2" = _45zYAQh2;
-        "forge-1.20.1" = _45zYAQh2;
+        "zDBbGPeH" = _zDBbGPeH;
+        "forge-1.20.1" = _zDBbGPeH;
         "neoforge-1.21.1" = _J4qmY2JZ;
         "pkg-1.0.0" = _dkWbbzSB;
         "pkg-1.0.1" = _fuwVscev;
@@ -230,7 +236,8 @@ let
         "pkg-2.0.8" = _xx9r0n9S;
         "pkg-2.0.9" = _G6kxF9ZZ;
         "pkg-2.1.0" = _45zYAQh2;
-        "default" = _45zYAQh2;
+        "pkg-2.1.1" = _zDBbGPeH;
+        "default" = _zDBbGPeH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legendary-titles";

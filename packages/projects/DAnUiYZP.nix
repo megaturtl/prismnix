@@ -51,6 +51,11 @@ let
             "file" = "hogwartscraftbymichelle-neoforge-26.1.2-1.0.1.jar";
             "hash" = "sha512-bgFzWjtLjWNVT8lkXHtmpKLbgrSDO8h0OnT5JB+IyCdI8b6xgoYAHGIZE4TuC0iN8Cma31iYznhhvWyD19mYiA==";
         };
+        _QlpLJK0Y = {
+            "id" = "QlpLJK0Y";
+            "file" = "hogwartscraftbymichelle-neoforge-26.2-1.0.1.jar";
+            "hash" = "sha512-uukLZd9OA1TMfXl2w3Uew274YpAK39JZ3pZmpDp/e15TJ6F7Rr0VHS4iSBgc0cFnsSjBHZDovG/vyD19gZ2kCA==";
+        };
     in {
         "SaFH2LzY" = _SaFH2LzY;
         "YzLJlxx1" = _YzLJlxx1;
@@ -62,17 +67,19 @@ let
         "QIHvsKcS" = _QIHvsKcS;
         "xPlcvCuK" = _xPlcvCuK;
         "PiBoOgkj" = _PiBoOgkj;
+        "QlpLJK0Y" = _QlpLJK0Y;
         "forge-1.21" = _QIHvsKcS;
         "forge-1.21.1" = _QIHvsKcS;
         "neoforge-1.21" = _xPlcvCuK;
         "neoforge-1.21.1" = _xPlcvCuK;
         "neoforge-26.1.2" = _PiBoOgkj;
-        "pkg-1.0.1" = _PiBoOgkj;
+        "neoforge-26.2" = _QlpLJK0Y;
+        "pkg-1.0.1" = _QlpLJK0Y;
         "pkg-1.0.2" = _RYqvpoNM;
         "pkg-1.0.3" = _Z1WV0y5J;
         "pkg-1.0.4" = _p1WqDTen;
         "pkg-1.1.0" = _xPlcvCuK;
-        "default" = _PiBoOgkj;
+        "default" = _QlpLJK0Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hogwartscraftbymichelle";

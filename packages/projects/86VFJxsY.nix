@@ -31,6 +31,11 @@ let
             "file" = "Autumn Leaves.zip";
             "hash" = "sha512-klyIz/ZM6eEA+2IsVWZAxXYp6x5yYKm2ERuS7HRSn3GxVWl+aUnaSHNv0tLSa86vgDk7d0PvThoZAUAZu71TLg==";
         };
+        _SF0eflBy = {
+            "id" = "SF0eflBy";
+            "file" = "Autumn Leaves.zip";
+            "hash" = "sha512-+Jr0tgLdbzcysFKeGCpfGUVJLhqXkoHhzOMZMAmLq71ZMF/z7BObJuXpr9Jos7/PwhSMBaZGqX854CixPEsQMQ==";
+        };
     in {
         "p8mTPzyJ" = _p8mTPzyJ;
         "HZA09qMl" = _HZA09qMl;
@@ -38,6 +43,7 @@ let
         "2v7KTsKu" = _2v7KTsKu;
         "ANvLVGFu" = _ANvLVGFu;
         "MSXbHYXd" = _MSXbHYXd;
+        "SF0eflBy" = _SF0eflBy;
         "minecraft-1.20" = _HZA09qMl;
         "minecraft-1.20.1" = _HZA09qMl;
         "minecraft-1.20.2" = _HZA09qMl;
@@ -48,24 +54,26 @@ let
         "minecraft-1.21" = _HZA09qMl;
         "minecraft-1.21.1" = _HZA09qMl;
         "minecraft-1.21.2" = _HZA09qMl;
-        "minecraft-1.21.5" = _MSXbHYXd;
-        "minecraft-1.21.6" = _MSXbHYXd;
-        "minecraft-1.21.7" = _MSXbHYXd;
-        "minecraft-1.21.8" = _MSXbHYXd;
-        "minecraft-1.21.9" = _MSXbHYXd;
-        "minecraft-1.21.10" = _MSXbHYXd;
-        "minecraft-1.21.11" = _MSXbHYXd;
-        "minecraft-26.1" = _MSXbHYXd;
-        "minecraft-26.1.1" = _MSXbHYXd;
-        "minecraft-26.1.2" = _MSXbHYXd;
-        "minecraft-26.2" = _MSXbHYXd;
+        "minecraft-1.21.5" = _SF0eflBy;
+        "minecraft-1.21.6" = _SF0eflBy;
+        "minecraft-1.21.7" = _SF0eflBy;
+        "minecraft-1.21.8" = _SF0eflBy;
+        "minecraft-1.21.9" = _SF0eflBy;
+        "minecraft-1.21.10" = _SF0eflBy;
+        "minecraft-1.21.11" = _SF0eflBy;
+        "minecraft-26.1" = _SF0eflBy;
+        "minecraft-26.1.1" = _SF0eflBy;
+        "minecraft-26.1.2" = _SF0eflBy;
+        "minecraft-26.2" = _SF0eflBy;
+        "minecraft-26.3" = _SF0eflBy;
         "pkg-1.0" = _p8mTPzyJ;
         "pkg-1.1" = _HZA09qMl;
         "pkg-1.2" = _Pj3v1mfC;
         "pkg-1.3" = _2v7KTsKu;
         "pkg-1.4" = _ANvLVGFu;
         "pkg-1.5" = _MSXbHYXd;
-        "default" = _MSXbHYXd;
+        "pkg-1.6" = _SF0eflBy;
+        "default" = _SF0eflBy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autumn-leaves";

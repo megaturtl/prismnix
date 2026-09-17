@@ -496,6 +496,11 @@ let
             "file" = "mc-armor-hud-8.1.1.3-26.2.jar";
             "hash" = "sha512-Y4h2LUk+iGxBEiiNIT7KWH5xKv3vYHBuXBw35XmEeQ4JJMBqHtAQ0eNE9oSoFVWyodm1tLW2+l9RbmcoUEg1KA==";
         };
+        _nZDz55aU = {
+            "id" = "nZDz55aU";
+            "file" = "mc-armor-hud-8.1.1.3-26.2-neoforge.jar";
+            "hash" = "sha512-8hsTnthnucINpwTpCxGxWoa1gHztnk9UaypDhL912yxXjTCddyeqQSfGCIsu5NGJkE5qtNU1CW8+8LcqpJfj/g==";
+        };
     in {
         "U7PcJnO6" = _U7PcJnO6;
         "hxXfnm3h" = _hxXfnm3h;
@@ -596,6 +601,7 @@ let
         "5r9jfzU8" = _5r9jfzU8;
         "DkA48wiR" = _DkA48wiR;
         "TI5wqPxm" = _TI5wqPxm;
+        "nZDz55aU" = _nZDz55aU;
         "fabric-1.21" = _1AaxpR2e;
         "fabric-1.21.1" = _blk59lGk;
         "fabric-1.21.2" = _yANMZFm2;
@@ -625,6 +631,7 @@ let
         "neoforge-26.1" = _zY729mp3;
         "neoforge-26.1.2" = _g3QQS6eK;
         "neoforge-26.1.1" = _5r9jfzU8;
+        "neoforge-26.2" = _nZDz55aU;
         "forge-1.21" = _GbiAUJGv;
         "forge-1.21.1" = _qweApe1F;
         "forge-1.21.2" = _ODVdIXHL;
@@ -657,8 +664,8 @@ let
         "pkg-4.1.0.0" = _D6KXuxFd;
         "pkg-8.1.0.0" = _od943rV6;
         "pkg-8.1.1.2" = _fYN5KHUf;
-        "pkg-8.1.1.3" = _TI5wqPxm;
-        "default" = _TI5wqPxm;
+        "pkg-8.1.1.3" = _nZDz55aU;
+        "default" = _nZDz55aU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armor-durability-hud";

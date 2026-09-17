@@ -96,6 +96,16 @@ let
             "file" = "EnhancedAnvils-fabric-26.1.2-0.5.2.jar";
             "hash" = "sha512-ksvFcFTAK1nbQ3atctYCBo2kactCwHcGYLViPKz/HNG6NxKtI2gTlHrEM2vXkDPGESdB0fP9Nbld+wvzccjnHQ==";
         };
+        _3PEbYFOh = {
+            "id" = "3PEbYFOh";
+            "file" = "EnhancedAnvils-fabric-26.2-0.6.0.jar";
+            "hash" = "sha512-XS3QxNZ/qOttWHv5XaENPOHcD6CJVi/15GLvx+PXD2SYdMjyfl5qpLdxMh6w0znWPEGy/sOGH73wRGCzwPM24g==";
+        };
+        _7oq2w2jK = {
+            "id" = "7oq2w2jK";
+            "file" = "EnhancedAnvils-neoforge-26.2-0.6.0.jar";
+            "hash" = "sha512-arKqYBo3JbjvwoworwIoiV4Dr5aoeclH5UPvszk5Num8j9dIsEGlAOHnWJtDcEqPwy0W4DxQ0mRciLFXdHezXw==";
+        };
     in {
         "DmvxV3iP" = _DmvxV3iP;
         "YDRRa4Xt" = _YDRRa4Xt;
@@ -116,16 +126,20 @@ let
         "f2QRqjdW" = _f2QRqjdW;
         "ovqvnnQK" = _ovqvnnQK;
         "ntXsOCsF" = _ntXsOCsF;
+        "3PEbYFOh" = _3PEbYFOh;
+        "7oq2w2jK" = _7oq2w2jK;
         "neoforge-1.21.1" = _Sti6UJj5;
         "neoforge-1.21.8" = _y4pQXani;
         "neoforge-1.21.10" = _BGmOZckl;
         "neoforge-1.21.11" = _Z38xHgqN;
         "neoforge-26.1.2" = _ovqvnnQK;
+        "neoforge-26.2" = _7oq2w2jK;
         "fabric-1.21.1" = _UBWY4sax;
         "fabric-1.21.8" = _i4zGrBPa;
         "fabric-1.21.10" = _MJb0rA9o;
         "fabric-1.21.11" = _f5mUd9qy;
         "fabric-26.1.2" = _ntXsOCsF;
+        "fabric-26.2" = _3PEbYFOh;
         "pkg-0.1.0" = _DmvxV3iP;
         "pkg-0.1.1" = _HoP3ZEQU;
         "pkg-0.2.0" = _i4zGrBPa;
@@ -136,7 +150,8 @@ let
         "pkg-0.5.0" = _FrG6X2Lw;
         "pkg-0.5.1" = _f2QRqjdW;
         "pkg-0.5.2" = _ntXsOCsF;
-        "default" = _ntXsOCsF;
+        "pkg-0.6.0" = _7oq2w2jK;
+        "default" = _7oq2w2jK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enhanced-anvils";

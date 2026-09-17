@@ -91,6 +91,16 @@ let
             "file" = "jeitrades-neoforge-26.2-1.2.2.jar";
             "hash" = "sha512-M0WoYsrxipXsaw74SNlVXcvOo0ggxRT9zdprnweFwm5Mto+UWT38grRH3GRAtRUwhEiccdFEvL7c7fJsZS2+6Q==";
         };
+        _o30O1xiy = {
+            "id" = "o30O1xiy";
+            "file" = "jeitrades-fabric-26.3-1.2.2.jar";
+            "hash" = "sha512-wojtcs7y7OnGKNmj2EFrAOLCFHTIlgjukUOY5/rrjmAAkNF8nf/Q+SIntgAlvpGKsHGl10Bx9uTHt/AEbixQVw==";
+        };
+        _MU2HyuMA = {
+            "id" = "MU2HyuMA";
+            "file" = "jeitrades-neoforge-26.3-1.2.2.jar";
+            "hash" = "sha512-6WG/V1pi1Iab97iT/JvVND6iqLgEd6sk+CwZLeCt7hhu0LFbSpJIpj0utoyKJUY4SYfjO2tXE0BdUSFx4RebQw==";
+        };
     in {
         "9I9GcBof" = _9I9GcBof;
         "Txl8WGCz" = _Txl8WGCz;
@@ -110,14 +120,18 @@ let
         "Mes8Uqj1" = _Mes8Uqj1;
         "pYei51hX" = _pYei51hX;
         "y2ThX5Vk" = _y2ThX5Vk;
+        "o30O1xiy" = _o30O1xiy;
+        "MU2HyuMA" = _MU2HyuMA;
         "fabric-26.1" = _XLs5Hsue;
         "fabric-26.1.1" = _XLs5Hsue;
         "fabric-26.1.2" = _XLs5Hsue;
         "fabric-26.2" = _pYei51hX;
+        "fabric-26.3" = _o30O1xiy;
         "neoforge-26.1" = _Mes8Uqj1;
         "neoforge-26.1.1" = _Mes8Uqj1;
         "neoforge-26.1.2" = _Mes8Uqj1;
         "neoforge-26.2" = _y2ThX5Vk;
+        "neoforge-26.3" = _MU2HyuMA;
         "pkg-1.0.0+fabric-26.1" = _9I9GcBof;
         "pkg-1.0.0+neoforge-26.1" = _Txl8WGCz;
         "pkg-1.1.0+fabric-26.1" = _5fKDUAc6;
@@ -136,7 +150,9 @@ let
         "pkg-1.2.2+neoforge-26.1" = _Mes8Uqj1;
         "pkg-1.2.2+fabric-26.2" = _pYei51hX;
         "pkg-1.2.2+neoforge-26.2" = _y2ThX5Vk;
-        "default" = _y2ThX5Vk;
+        "pkg-1.2.2+fabric-26.3" = _o30O1xiy;
+        "pkg-1.2.2+neoforge-26.3" = _MU2HyuMA;
+        "default" = _MU2HyuMA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jei-trades";

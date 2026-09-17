@@ -86,6 +86,26 @@ let
             "file" = "springlotus-fabric-1.2.1+26.2.jar";
             "hash" = "sha512-sH+w7/V2KHUP8eSeymOti1h+0eImB8wBcrhLoM/tuHcvJWWJ+SYYoukW3yXen67EH/DrdhM4efXY1NR2tIrWMg==";
         };
+        _hg3vfHx7 = {
+            "id" = "hg3vfHx7";
+            "file" = "springlotus-neoforge-1.2.2+26.2.jar";
+            "hash" = "sha512-T/cCZLlaCIYMJsz7/bkDPN3lg9MkKuOIJ6p7FChp2NrV/0flfRR1HWc8Ys9Sb8tOEORS/JcLyU2C1mj+HcbfTw==";
+        };
+        _eP3xw6Tj = {
+            "id" = "eP3xw6Tj";
+            "file" = "springlotus-neoforge-1.2.2+26.1.2.jar";
+            "hash" = "sha512-6wk4idx3GVWAacwF+0B7F97Kx3Hom5DcQ/XCvvMYECL1znL0ME5wirmikoHbt4OuWZe8z+F00QpqajXvDTxVfA==";
+        };
+        _iFkBb3eq = {
+            "id" = "iFkBb3eq";
+            "file" = "springlotus-fabric-1.2.2+26.1.2.jar";
+            "hash" = "sha512-3yLCghRpangtIxocAx1pm3EhhXyjj2mNOelGuoq6w0UoXrSz5rbfaPf0hsqpg088PnfyzTbWjCeV0ysm5ZBI9w==";
+        };
+        _jKsvd49y = {
+            "id" = "jKsvd49y";
+            "file" = "springlotus-fabric-1.2.2+26.2.jar";
+            "hash" = "sha512-6Bi8iQKwr8JjfEUPd0R1vPIxHPvTDdxcUNb/npBlzgYE3tYhuijR+mdIiUUqahSS0mcjV2qzEzN1ptOL23KSGA==";
+        };
     in {
         "J6EnzUcc" = _J6EnzUcc;
         "p9IobK0e" = _p9IobK0e;
@@ -104,10 +124,14 @@ let
         "iMBSqhef" = _iMBSqhef;
         "RKk1c6nQ" = _RKk1c6nQ;
         "dtZ0Q60B" = _dtZ0Q60B;
-        "neoforge-26.1.2" = _iMBSqhef;
-        "neoforge-26.2" = _RKk1c6nQ;
-        "fabric-26.1.2" = _NAM8jAa0;
-        "fabric-26.2" = _dtZ0Q60B;
+        "hg3vfHx7" = _hg3vfHx7;
+        "eP3xw6Tj" = _eP3xw6Tj;
+        "iFkBb3eq" = _iFkBb3eq;
+        "jKsvd49y" = _jKsvd49y;
+        "neoforge-26.1.2" = _eP3xw6Tj;
+        "neoforge-26.2" = _hg3vfHx7;
+        "fabric-26.1.2" = _iFkBb3eq;
+        "fabric-26.2" = _jKsvd49y;
         "quilt-26.1.2" = _LBlqwRFA;
         "pkg-1.0.0" = _J6EnzUcc;
         "pkg-1.0.1" = _Vb4wj9Wz;
@@ -118,7 +142,9 @@ let
         "pkg-1.2.0+26.1.2" = _LBlqwRFA;
         "pkg-1.2.1+26.1.2" = _iMBSqhef;
         "pkg-1.2.1+26.2" = _dtZ0Q60B;
-        "default" = _dtZ0Q60B;
+        "pkg-1.2.2+26.2" = _jKsvd49y;
+        "pkg-1.2.2+26.1.2" = _iFkBb3eq;
+        "default" = _jKsvd49y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "springlotus";

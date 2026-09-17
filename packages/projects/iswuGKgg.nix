@@ -271,6 +271,11 @@ let
             "file" = "one-click-crafting-2.3.1+26.2.jar";
             "hash" = "sha512-84tuSmcJUv/+rZH/6L0YVAeNfO1GK+EM4WR+ivB1gJA21+ccoOqL3SgrWdffcNzM+b/cLFvIXQW/WZ+cM5ssww==";
         };
+        _56ynYCTg = {
+            "id" = "56ynYCTg";
+            "file" = "one-click-crafting-2.3.1+26.3.jar";
+            "hash" = "sha512-I+LiqsrjDpTufCPY+JDY/GW3mFK1HDaPFONfZtmyZGkd9eBUC74NLffM7tT0HksweT8hxxgVWxV+bTdhJszPhA==";
+        };
     in {
         "QvXSgi3Q" = _QvXSgi3Q;
         "XvkWtRvF" = _XvkWtRvF;
@@ -326,6 +331,7 @@ let
         "ESN198yi" = _ESN198yi;
         "2qLnDLts" = _2qLnDLts;
         "1teT3gEA" = _1teT3gEA;
+        "56ynYCTg" = _56ynYCTg;
         "fabric-1.17.1" = _ccb2J7Bf;
         "fabric-1.18.2" = _Rca6D9mT;
         "fabric-1.19.3" = _5Ffjd8ZN;
@@ -349,6 +355,7 @@ let
         "fabric-26.1.1" = _2qLnDLts;
         "fabric-26.1.2" = _2qLnDLts;
         "fabric-26.2" = _1teT3gEA;
+        "fabric-26.3" = _56ynYCTg;
         "pkg-1.0" = _QvXSgi3Q;
         "pkg-1.1" = _XvkWtRvF;
         "pkg-1.2" = _KyVwp1MJ;
@@ -403,7 +410,8 @@ let
         "pkg-2.3.1+1.21.11" = _ESN198yi;
         "pkg-2.3.1+26.1" = _2qLnDLts;
         "pkg-2.3.1+26.2" = _1teT3gEA;
-        "default" = _1teT3gEA;
+        "pkg-2.3.1+26.3" = _56ynYCTg;
+        "default" = _56ynYCTg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "oneclickcrafting";

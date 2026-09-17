@@ -66,6 +66,11 @@ let
             "file" = "daycounterplus-1.3.2-mc26.2.jar";
             "hash" = "sha512-ILEtr093wbyCibbvIyEK1NF3K1L7u+ttqivFY/A4oQVowCaNkM6ykJ8RTJhK3BphNBFmRtFoFMIRSrg+WrJ1WA==";
         };
+        _AJz2nLxd = {
+            "id" = "AJz2nLxd";
+            "file" = "daycounterplus-1.3.2-mc26.3.jar";
+            "hash" = "sha512-qUHBeob3yipoKpAxBy/YD5MaArBA9fs2C7VcRwXHRT3DvYV9ka1IYi2MzTsYaavDFIblmu5591YRgE7X2w7iSw==";
+        };
     in {
         "2msefEwM" = _2msefEwM;
         "z4Ep2xGB" = _z4Ep2xGB;
@@ -80,6 +85,7 @@ let
         "JUFQYJ6g" = _JUFQYJ6g;
         "pXiT18c3" = _pXiT18c3;
         "fr1MoM3S" = _fr1MoM3S;
+        "AJz2nLxd" = _AJz2nLxd;
         "fabric-1.21.8" = _WyEgqpKX;
         "fabric-1.21.9" = _pPMIey50;
         "fabric-1.21.10" = _MxKnoh7Q;
@@ -88,6 +94,7 @@ let
         "fabric-26.1.1" = _JUFQYJ6g;
         "fabric-26.1.2" = _JUFQYJ6g;
         "fabric-26.2" = _fr1MoM3S;
+        "fabric-26.3" = _AJz2nLxd;
         "pkg-1.0.0" = _2msefEwM;
         "pkg-1.1.0" = _z4Ep2xGB;
         "pkg-1.1.1" = _ElD3PtIa;
@@ -96,8 +103,8 @@ let
         "pkg-1.2.1" = _ObMjECp6;
         "pkg-1.3.0" = _vhAq3CJh;
         "pkg-1.3.1" = _pXiT18c3;
-        "pkg-1.3.2" = _fr1MoM3S;
-        "default" = _fr1MoM3S;
+        "pkg-1.3.2" = _AJz2nLxd;
+        "default" = _AJz2nLxd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dcp";

@@ -26,12 +26,18 @@ let
             "file" = "Don't leak your base! v1.2.2.zip";
             "hash" = "sha512-bWowhdjOWq6GXOS5kWjeFkHIaLV54riNga8E4GCXk4dS0sHHtq1WgSUst8d91Wozznq/9+EcxF27M+YVxnyZOw==";
         };
+        _4dmpSadS = {
+            "id" = "4dmpSadS";
+            "file" = "Don't leak your base! v1.2.2 26.2.zip";
+            "hash" = "sha512-iioYkFQZ3TP8ezkkGj+8Q1XCirQ5tuMsouavc7CDr0l7tTTGeA9Q8mKiMZK0xR2uazyxznZINeEKQFOwNzcMhA==";
+        };
     in {
         "cby21LUc" = _cby21LUc;
         "djmL7gLk" = _djmL7gLk;
         "NISh6DQC" = _NISh6DQC;
         "h1EBavac" = _h1EBavac;
         "cbxOrb9E" = _cbxOrb9E;
+        "4dmpSadS" = _4dmpSadS;
         "minecraft-1.14" = _cbxOrb9E;
         "minecraft-1.14.1" = _cbxOrb9E;
         "minecraft-1.14.2" = _cbxOrb9E;
@@ -120,12 +126,13 @@ let
         "minecraft-24w44a" = _cbxOrb9E;
         "minecraft-24w45a" = _cbxOrb9E;
         "minecraft-24w46a" = _cbxOrb9E;
+        "minecraft-26.2" = _4dmpSadS;
         "pkg-1.0" = _cby21LUc;
         "pkg-1.1" = _djmL7gLk;
         "pkg-1.2" = _NISh6DQC;
         "pkg-1.2.1" = _h1EBavac;
-        "pkg-1.2.2" = _cbxOrb9E;
-        "default" = _cbxOrb9E;
+        "pkg-1.2.2" = _4dmpSadS;
+        "default" = _4dmpSadS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dont-leak-your-base!";

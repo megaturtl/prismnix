@@ -131,6 +131,11 @@ let
             "file" = "shadowhunter22s-config-library-12.0.0-beta+26.3.jar";
             "hash" = "sha512-5umhLzZRmuqU7KhQxjvXzlogAILzwffnP2gIC4bI4WPBpEBRn+IBoHuYXWvaBfZQpOzQUNmv8kDeEaKm8ZxwhQ==";
         };
+        _a27lDQjI = {
+            "id" = "a27lDQjI";
+            "file" = "shadowhunter22s-config-library-12.0.0+26.3.jar";
+            "hash" = "sha512-6S0OXLUkXB4iFIEHQwjxR6a7PuPdg4kbYVwePx1v3RgRn/g0iCxHfMruVZ1Kg+5o9kfqvWMal4b+pQlcyrfQVA==";
+        };
     in {
         "zopy33XV" = _zopy33XV;
         "WhOrG0CN" = _WhOrG0CN;
@@ -158,6 +163,7 @@ let
         "uZ2u95qd" = _uZ2u95qd;
         "XkFTV4mM" = _XkFTV4mM;
         "3TInI82U" = _3TInI82U;
+        "a27lDQjI" = _a27lDQjI;
         "fabric-1.20" = _vZrkijOf;
         "fabric-1.20.1" = _vZrkijOf;
         "fabric-1.20.2" = _SdSp2avA;
@@ -183,6 +189,7 @@ let
         "fabric-26.2-rc-2" = _uZ2u95qd;
         "fabric-26.2" = _XkFTV4mM;
         "fabric-26.3-snapshot-7" = _3TInI82U;
+        "fabric-26.3" = _a27lDQjI;
         "pkg-0.1.0-beta+1.20" = _zopy33XV;
         "pkg-0.1.1-beta+1.20" = _WhOrG0CN;
         "pkg-0.1.2-beta+1.20" = _QbAGijOu;
@@ -209,7 +216,8 @@ let
         "pkg-11.0.0-beta+26.2" = _uZ2u95qd;
         "pkg-11.0.0+26.2" = _XkFTV4mM;
         "pkg-12.0.0-beta+26.3" = _3TInI82U;
-        "default" = _3TInI82U;
+        "pkg-12.0.0+26.3" = _a27lDQjI;
+        "default" = _a27lDQjI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shadowhunter22s-config-library";

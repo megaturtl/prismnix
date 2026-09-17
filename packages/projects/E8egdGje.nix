@@ -101,6 +101,16 @@ let
             "file" = "revault-1.3.2.jar";
             "hash" = "sha512-Jq89sXUvbDZPxb2eqOmVE9cRCTmJIVqkqCG0vr25z952LDl3s/Z5bb/EKQW7HQrOqCDXuG/XQCICnplxBab47w==";
         };
+        _waoKnTyx = {
+            "id" = "waoKnTyx";
+            "file" = "Revault 1.3.3.zip";
+            "hash" = "sha512-/1dJkVFT+28TmI9cgTNITBixFy6weifbLr+bhUdVCJnnT7y00q7uWRA2q7fHriobhItbEjyKugZo4LJwPydQtA==";
+        };
+        _7e1OHeUv = {
+            "id" = "7e1OHeUv";
+            "file" = "revault-1.3.3.jar";
+            "hash" = "sha512-6hXEIc5axvaSGz2pYQKL3F33pWpKpfG2tccfWQjHeEDwa2B4nmnO6AuhvWBiWVoC/iKgHGQN2kNle+r62aADkg==";
+        };
     in {
         "kxIbJMLQ" = _kxIbJMLQ;
         "rV2srnkH" = _rV2srnkH;
@@ -122,6 +132,8 @@ let
         "BuQfmPUf" = _BuQfmPUf;
         "Lu2ChvgI" = _Lu2ChvgI;
         "dA5Xdeot" = _dA5Xdeot;
+        "waoKnTyx" = _waoKnTyx;
+        "7e1OHeUv" = _7e1OHeUv;
         "datapack-1.21" = _7pZmzEoM;
         "datapack-1.21.1" = _7pZmzEoM;
         "datapack-1.21.2" = _7pZmzEoM;
@@ -138,6 +150,7 @@ let
         "datapack-26.1.1" = _Lu2ChvgI;
         "datapack-26.1.2" = _Lu2ChvgI;
         "datapack-26.2" = _Lu2ChvgI;
+        "datapack-26.3" = _waoKnTyx;
         "fabric-1.21" = _VZGAfSUb;
         "fabric-1.21.1" = _VZGAfSUb;
         "fabric-1.21.2" = _VZGAfSUb;
@@ -154,6 +167,7 @@ let
         "fabric-26.1.1" = _dA5Xdeot;
         "fabric-26.1.2" = _dA5Xdeot;
         "fabric-26.2" = _dA5Xdeot;
+        "fabric-26.3" = _7e1OHeUv;
         "forge-1.21" = _VZGAfSUb;
         "forge-1.21.1" = _VZGAfSUb;
         "forge-1.21.2" = _VZGAfSUb;
@@ -170,6 +184,7 @@ let
         "forge-26.1.1" = _dA5Xdeot;
         "forge-26.1.2" = _dA5Xdeot;
         "forge-26.2" = _dA5Xdeot;
+        "forge-26.3" = _7e1OHeUv;
         "quilt-1.21" = _VZGAfSUb;
         "quilt-1.21.1" = _VZGAfSUb;
         "quilt-1.21.2" = _VZGAfSUb;
@@ -186,6 +201,7 @@ let
         "quilt-26.1.1" = _dA5Xdeot;
         "quilt-26.1.2" = _dA5Xdeot;
         "quilt-26.2" = _dA5Xdeot;
+        "quilt-26.3" = _7e1OHeUv;
         "neoforge-1.21" = _VZGAfSUb;
         "neoforge-1.21.1" = _VZGAfSUb;
         "neoforge-1.21.2" = _VZGAfSUb;
@@ -202,6 +218,7 @@ let
         "neoforge-26.1.1" = _dA5Xdeot;
         "neoforge-26.1.2" = _dA5Xdeot;
         "neoforge-26.2" = _dA5Xdeot;
+        "neoforge-26.3" = _7e1OHeUv;
         "pkg-1.0.0" = _kxIbJMLQ;
         "pkg-1.0.0+mod" = _rV2srnkH;
         "pkg-1.0.1" = _o1vv7Bn9;
@@ -222,7 +239,9 @@ let
         "pkg-1.3.1+mod" = _BuQfmPUf;
         "pkg-1.3.2" = _Lu2ChvgI;
         "pkg-1.3.2+mod" = _dA5Xdeot;
-        "default" = _dA5Xdeot;
+        "pkg-1.3.3" = _waoKnTyx;
+        "pkg-1.3.3+mod" = _7e1OHeUv;
+        "default" = _7e1OHeUv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "revault";

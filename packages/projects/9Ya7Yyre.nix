@@ -226,6 +226,26 @@ let
             "file" = "strawberrylib-neoforge-26.1-r10.jar";
             "hash" = "sha512-FuLOxZUeYHSFl0K8sALrvN+NdXZrXUDhlGKajseZ4WWqtRm1+CiRBGC0Afpt+ZHUvTfftowOw7s5w3lyE0RxDA==";
         };
+        _taWe52SL = {
+            "id" = "taWe52SL";
+            "file" = "strawberrylib-fabric-26.2-r5.jar";
+            "hash" = "sha512-WQfMMjeYbnLm+VKslX/pm3IDedOgeukTPV/aoa7VJLhxKYh75V4HvnB4VZoXvDXLt5mkLHthxingc+8j9B2k6Q==";
+        };
+        _Ir202gxM = {
+            "id" = "Ir202gxM";
+            "file" = "strawberrylib-fabric-26.1-r11.jar";
+            "hash" = "sha512-awZNNy6vU0XEPIuw+IoHvluSvEJnFVSctmOpHid0CHAXZ7W28Aurza1BLlBZU5M7WBewRNBTcehTtoCiL2C7HQ==";
+        };
+        _9cn8abyl = {
+            "id" = "9cn8abyl";
+            "file" = "strawberrylib-neoforge-26.1-r11.jar";
+            "hash" = "sha512-CswL0g1hHUDQ1YXrNdkJFzSoGBsZAWnWTCOtv7N/XEWrHuHXFP+ztNmr3qHQUO0UAkOqERmqRmUsR5Jbs7Mung==";
+        };
+        _OoMuF3O2 = {
+            "id" = "OoMuF3O2";
+            "file" = "strawberrylib-fabric-26.3-r1.jar";
+            "hash" = "sha512-VEyNIsCHgxYmBZjzBCwhWSKLvUN24tDrElH1859umHFcWbSvEzkdTK6+8Tk0/3JEjT76tczkOmP0bYRbO1sWgg==";
+        };
     in {
         "gft6zi8K" = _gft6zi8K;
         "5cOl5T6B" = _5cOl5T6B;
@@ -272,6 +292,10 @@ let
         "4Sk34qMJ" = _4Sk34qMJ;
         "VDB7q0mn" = _VDB7q0mn;
         "WQ04e6J3" = _WQ04e6J3;
+        "taWe52SL" = _taWe52SL;
+        "Ir202gxM" = _Ir202gxM;
+        "9cn8abyl" = _9cn8abyl;
+        "OoMuF3O2" = _OoMuF3O2;
         "fabric-1.21.5" = _bxhsoJlz;
         "fabric-1.21.6" = _JK612l1x;
         "fabric-1.21.7" = _KL2Fd7qF;
@@ -279,10 +303,11 @@ let
         "fabric-1.21.9" = _qeBcn1Lh;
         "fabric-1.21.10" = _fer3zSkB;
         "fabric-1.21.11" = _5XnDlrHT;
-        "fabric-26.1" = _VDB7q0mn;
-        "fabric-26.1.1" = _VDB7q0mn;
-        "fabric-26.1.2" = _VDB7q0mn;
-        "fabric-26.2" = _4Sk34qMJ;
+        "fabric-26.1" = _Ir202gxM;
+        "fabric-26.1.1" = _Ir202gxM;
+        "fabric-26.1.2" = _Ir202gxM;
+        "fabric-26.2" = _taWe52SL;
+        "fabric-26.3" = _OoMuF3O2;
         "quilt-1.21.5" = _bxhsoJlz;
         "quilt-1.21.6" = _JK612l1x;
         "quilt-1.21.7" = _KL2Fd7qF;
@@ -294,9 +319,9 @@ let
         "quilt-26.1.1" = _Y97mHCxs;
         "quilt-26.1.2" = _Y97mHCxs;
         "quilt-26.2" = _l1fA3CPa;
-        "neoforge-26.1" = _WQ04e6J3;
-        "neoforge-26.1.1" = _WQ04e6J3;
-        "neoforge-26.1.2" = _WQ04e6J3;
+        "neoforge-26.1" = _9cn8abyl;
+        "neoforge-26.1.1" = _9cn8abyl;
+        "neoforge-26.1.2" = _9cn8abyl;
         "pkg-1.21.5-r1" = _gft6zi8K;
         "pkg-1.21.5-r2" = _5cOl5T6B;
         "pkg-1.21.5-r3" = _WbVHOfNs;
@@ -340,7 +365,10 @@ let
         "pkg-26.2-r3" = _diPR3J7B;
         "pkg-26.2-r4" = _4Sk34qMJ;
         "pkg-26.1-r10" = _WQ04e6J3;
-        "default" = _WQ04e6J3;
+        "pkg-26.2-r5" = _taWe52SL;
+        "pkg-26.1-r11" = _9cn8abyl;
+        "pkg-26.3-r1" = _OoMuF3O2;
+        "default" = _OoMuF3O2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "strawberrylib";

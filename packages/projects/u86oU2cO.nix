@@ -386,6 +386,16 @@ let
             "file" = "Excavar-21.7.6.jar";
             "hash" = "sha512-sNnuPhsuo3EfF1qq5X1Ye2JxhjXCSyF3y7rBYTXiBG/ffgqvyVJQqw3uzGctl9R+0tPi7SigQW8+P8ieopW1pQ==";
         };
+        _PV5RLun5 = {
+            "id" = "PV5RLun5";
+            "file" = "Excavar-26.3.0.jar";
+            "hash" = "sha512-h0WhJsZabsI0SOT3/m6+OmV579pl5DGEmA/xq3ALvwGpA5IzBYFpeunnABsWcMRu43IIBklnIObQheOeMthMFg==";
+        };
+        _ykpL8uLf = {
+            "id" = "ykpL8uLf";
+            "file" = "Excavar-26.2.2.jar";
+            "hash" = "sha512-0OtbjTBqHeemzLSV0M6rN/HSRDVad2WVSxJp4XLIXSmratBtuvu32C/yYlP7t1PIKhc0wfrhoCwJK+IieRGiHg==";
+        };
     in {
         "Tb189S7R" = _Tb189S7R;
         "CD8B3TjX" = _CD8B3TjX;
@@ -464,6 +474,8 @@ let
         "Zu710MLW" = _Zu710MLW;
         "JHxrVMMI" = _JHxrVMMI;
         "J7T1sa9T" = _J7T1sa9T;
+        "PV5RLun5" = _PV5RLun5;
+        "ykpL8uLf" = _ykpL8uLf;
         "forge-1.18.1" = _c8ttTE7X;
         "forge-1.16.5" = _PuBJ084Y;
         "forge-1.17.1" = _zwpzy5Hm;
@@ -488,7 +500,8 @@ let
         "neoforge-26.1" = _bwxdStru;
         "neoforge-26.1.1" = _bwxdStru;
         "neoforge-26.1.2" = _nYuxt8ho;
-        "neoforge-26.2" = _aWv4Fv7d;
+        "neoforge-26.2" = _ykpL8uLf;
+        "neoforge-26.3" = _PV5RLun5;
         "pkg-1.18.1-1.0.0" = _Tb189S7R;
         "pkg-1.18.1-1.0.1" = _CD8B3TjX;
         "pkg-1.18.1-1.0.2" = _BKoIJRmV;
@@ -566,7 +579,9 @@ let
         "pkg-1.21.3-4.1.8" = _Zu710MLW;
         "pkg-1.20.1-3.1.7" = _JHxrVMMI;
         "pkg-21.7.6" = _J7T1sa9T;
-        "default" = _J7T1sa9T;
+        "pkg-26.3.0" = _PV5RLun5;
+        "pkg-26.2.2" = _ykpL8uLf;
+        "default" = _ykpL8uLf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "excavar";

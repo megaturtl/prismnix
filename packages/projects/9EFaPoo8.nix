@@ -336,6 +336,16 @@ let
             "file" = "amethyst-nether-v4.3.2.jar";
             "hash" = "sha512-NX3detqMd2eNwyblIfjmsxP9Kl+SXF0N7v4yP9KDmGtyaMiU4QznMAVZjljgVsWJqPH1hm+/xu3wtCAhg4e+LQ==";
         };
+        _yzdPVOtl = {
+            "id" = "yzdPVOtl";
+            "file" = "amethyst-nether-v4.4.zip";
+            "hash" = "sha512-/Epyf6FiSkQu/ZHuMnmb9F0fVHjVWOGKc9VuxLjqkn+4fVgCnQ3CMW+nOqNvbvrD3qYU91Ej1hfvVDMWoLmMLQ==";
+        };
+        _XnqamJjB = {
+            "id" = "XnqamJjB";
+            "file" = "amethyst-nether-v4.4.jar";
+            "hash" = "sha512-9gEn9pPLBnzDOrpF+1sRsgt9GULDK5XTSqGNLUglAaSvApx5VCmqhe7UOZzygH2596byh6Efe0XCzfJUF3Ovpw==";
+        };
     in {
         "nJjwGEtJ" = _nJjwGEtJ;
         "qpJ2KEMa" = _qpJ2KEMa;
@@ -404,6 +414,8 @@ let
         "YePlpGI1" = _YePlpGI1;
         "OLUUzQ70" = _OLUUzQ70;
         "ItSnSx09" = _ItSnSx09;
+        "yzdPVOtl" = _yzdPVOtl;
+        "XnqamJjB" = _XnqamJjB;
         "datapack-1.21.4" = _hgIYXjWS;
         "datapack-1.21.5" = _xgd0mTvq;
         "datapack-1.21.6" = _xgd0mTvq;
@@ -416,6 +428,7 @@ let
         "datapack-26.1.1" = _hFFCjTJ6;
         "datapack-26.1.2" = _hFFCjTJ6;
         "datapack-26.2" = _OLUUzQ70;
+        "datapack-26.3" = _yzdPVOtl;
         "fabric-1.21.5" = _37ZAyLF5;
         "fabric-1.21.6" = _37ZAyLF5;
         "fabric-1.21.7" = _37ZAyLF5;
@@ -427,6 +440,7 @@ let
         "fabric-26.1.1" = _89DRvyVw;
         "fabric-26.1.2" = _89DRvyVw;
         "fabric-26.2" = _ItSnSx09;
+        "fabric-26.3" = _XnqamJjB;
         "forge-1.21.5" = _37ZAyLF5;
         "forge-1.21.6" = _37ZAyLF5;
         "forge-1.21.7" = _37ZAyLF5;
@@ -438,16 +452,19 @@ let
         "forge-26.1.1" = _89DRvyVw;
         "forge-26.1.2" = _89DRvyVw;
         "forge-26.2" = _ItSnSx09;
+        "forge-26.3" = _XnqamJjB;
         "neoforge-1.21.11" = _89DRvyVw;
         "neoforge-26.1" = _89DRvyVw;
         "neoforge-26.1.1" = _89DRvyVw;
         "neoforge-26.1.2" = _89DRvyVw;
         "neoforge-26.2" = _ItSnSx09;
+        "neoforge-26.3" = _XnqamJjB;
         "quilt-1.21.11" = _89DRvyVw;
         "quilt-26.1" = _89DRvyVw;
         "quilt-26.1.1" = _89DRvyVw;
         "quilt-26.1.2" = _89DRvyVw;
         "quilt-26.2" = _ItSnSx09;
+        "quilt-26.3" = _XnqamJjB;
         "pkg-v1.0" = _oVJYrmZt;
         "pkg-v1.1" = _qpJ2KEMa;
         "pkg-v1.2" = _XKYsvr5O;
@@ -514,7 +531,9 @@ let
         "pkg-v4.3.1+mod" = _YePlpGI1;
         "pkg-v4.3.2" = _OLUUzQ70;
         "pkg-v4.3.2+mod" = _ItSnSx09;
-        "default" = _ItSnSx09;
+        "pkg-v4.4" = _yzdPVOtl;
+        "pkg-v4.4+mod" = _XnqamJjB;
+        "default" = _XnqamJjB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "amethyst-nether";

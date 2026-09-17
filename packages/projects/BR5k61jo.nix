@@ -166,6 +166,11 @@ let
             "file" = "cookiejar-0.2.6+26.2.jar";
             "hash" = "sha512-p68N5xSa8N2FI6/Bw+XmsRxZmbC3e48jCk5wfTEK5W1VYpi24/HfF/J9h/l/DymvqW23kiI0AcIqknEHfZoAJw==";
         };
+        _W1mQN1db = {
+            "id" = "W1mQN1db";
+            "file" = "cookiejar-0.2.7+26.3.jar";
+            "hash" = "sha512-bK2lLZSKWdvjLExpn1YuSpf48wESfzy3BoICfbj25JOjeqMh4NnMre1z2RMtWaHXQbHlzibzXLrKzGzfzS0/2g==";
+        };
     in {
         "ZrzHv9Jk" = _ZrzHv9Jk;
         "t7QAU5gs" = _t7QAU5gs;
@@ -200,6 +205,7 @@ let
         "AY7Mohfz" = _AY7Mohfz;
         "NkrtmIAI" = _NkrtmIAI;
         "jITfSU2v" = _jITfSU2v;
+        "W1mQN1db" = _W1mQN1db;
         "fabric-24w05b" = _ZrzHv9Jk;
         "fabric-1.20.5" = _NkXsCRSE;
         "fabric-1.20.6" = _NkXsCRSE;
@@ -219,6 +225,7 @@ let
         "fabric-26.1.1" = _NkrtmIAI;
         "fabric-26.1.2" = _NkrtmIAI;
         "fabric-26.2" = _jITfSU2v;
+        "fabric-26.3" = _W1mQN1db;
         "pkg-0.1.0" = _ZrzHv9Jk;
         "pkg-0.1.1" = _t7QAU5gs;
         "pkg-0.1.2" = _ZG5mUwcM;
@@ -232,7 +239,8 @@ let
         "pkg-0.2.4" = _hQ4PufEP;
         "pkg-0.2.5" = _aV6cafRJ;
         "pkg-0.2.6" = _jITfSU2v;
-        "default" = _jITfSU2v;
+        "pkg-0.2.7" = _W1mQN1db;
+        "default" = _W1mQN1db;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cookiejar";

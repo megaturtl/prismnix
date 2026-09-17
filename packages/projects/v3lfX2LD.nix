@@ -156,6 +156,11 @@ let
             "file" = "dynres-26.2.0.jar";
             "hash" = "sha512-QezWHcSoxIfHeeyyCkv9Gf6qvCdDcG20hAULYm4jmihC5iJorBE9EdHtkNCpxWHTnw30i/HV1YaULzVx/0h+Fw==";
         };
+        _gxwIW0Rk = {
+            "id" = "gxwIW0Rk";
+            "file" = "dynres-26.3.0.jar";
+            "hash" = "sha512-nHgjGAos/V0xcHXed4LaN1Tgq7Pnj/zmgIGjdTUoKqd5qFrlxIfPgiWKuEvYt6c+CpUVO0EWQpeDAiwurDCoPg==";
+        };
     in {
         "9NEgxlEs" = _9NEgxlEs;
         "pnv55e5T" = _pnv55e5T;
@@ -188,6 +193,7 @@ let
         "flQdhQW3" = _flQdhQW3;
         "UCFHi7pd" = _UCFHi7pd;
         "dyGuaIjM" = _dyGuaIjM;
+        "gxwIW0Rk" = _gxwIW0Rk;
         "fabric-1.16.4" = _9NEgxlEs;
         "fabric-1.16.5" = _pnv55e5T;
         "fabric-1.17" = _thzbZBrR;
@@ -222,6 +228,7 @@ let
         "fabric-26.1.1" = _UCFHi7pd;
         "fabric-26.1.2" = _UCFHi7pd;
         "fabric-26.2" = _dyGuaIjM;
+        "fabric-26.3" = _gxwIW0Rk;
         "pkg-1.1" = _9NEgxlEs;
         "pkg-1.1.1" = _pnv55e5T;
         "pkg-1.1.2" = _thzbZBrR;
@@ -253,7 +260,8 @@ let
         "pkg-1.3.6" = _flQdhQW3;
         "pkg-26.1.0" = _UCFHi7pd;
         "pkg-26.2.0" = _dyGuaIjM;
-        "default" = _dyGuaIjM;
+        "pkg-26.3.0" = _gxwIW0Rk;
+        "default" = _gxwIW0Rk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dynres";

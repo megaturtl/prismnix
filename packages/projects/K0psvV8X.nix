@@ -26,12 +26,18 @@ let
             "file" = "Emissive Cape Portals v1.4.zip";
             "hash" = "sha512-kJeH7nopZDTahFzEznJM2mwh6LzlU+ChUG8AKe3sYEzavNLksrWDY/4+0M5oXNJJeK4OUvrmj3Qp+XCLN5ee1Q==";
         };
+        _uhfsi2gf = {
+            "id" = "uhfsi2gf";
+            "file" = "Emissive Cape Portals v1.5.zip";
+            "hash" = "sha512-ostQz9VAEkd7ztRz4SOkvcRAiltgxHHG+ufO6a4JPFJ0zR646gHwIEbyt+p3DE29UZBeGPbbRV+LkKgsvKE8iA==";
+        };
     in {
         "H2C6ELgr" = _H2C6ELgr;
         "dpMwn3jD" = _dpMwn3jD;
         "fIIao3wH" = _fIIao3wH;
         "u2byJ7jY" = _u2byJ7jY;
         "Fr605ZQZ" = _Fr605ZQZ;
+        "uhfsi2gf" = _uhfsi2gf;
         "minecraft-1.20" = _H2C6ELgr;
         "minecraft-1.20.1" = _H2C6ELgr;
         "minecraft-1.20.2" = _H2C6ELgr;
@@ -51,10 +57,11 @@ let
         "minecraft-1.21.9" = _fIIao3wH;
         "minecraft-1.21.10" = _u2byJ7jY;
         "minecraft-1.21.11" = _u2byJ7jY;
-        "minecraft-26.1" = _Fr605ZQZ;
-        "minecraft-26.1.1" = _Fr605ZQZ;
-        "minecraft-26.1.2" = _Fr605ZQZ;
-        "minecraft-26.2" = _Fr605ZQZ;
+        "minecraft-26.1" = _uhfsi2gf;
+        "minecraft-26.1.1" = _uhfsi2gf;
+        "minecraft-26.1.2" = _uhfsi2gf;
+        "minecraft-26.2" = _uhfsi2gf;
+        "minecraft-26.3" = _uhfsi2gf;
         "vanilla-1.20" = _H2C6ELgr;
         "vanilla-1.20.1" = _H2C6ELgr;
         "vanilla-1.20.2" = _H2C6ELgr;
@@ -76,7 +83,8 @@ let
         "pkg-1.2" = _fIIao3wH;
         "pkg-1.3" = _u2byJ7jY;
         "pkg-1.4" = _Fr605ZQZ;
-        "default" = _Fr605ZQZ;
+        "pkg-1.5" = _uhfsi2gf;
+        "default" = _uhfsi2gf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "emissive-cape-portals";

@@ -171,6 +171,16 @@ let
             "file" = "handful-26.2+1.1.0-fabric.jar";
             "hash" = "sha512-cU2yjdecb2s98Neyjp9ASH7qO5fJsPc7lW5c+L7MfsEPS/h2qadebRC9x53GoVZzb7gqW6keQlObFelx6rojPw==";
         };
+        _9yjQUCKH = {
+            "id" = "9yjQUCKH";
+            "file" = "handful-26.3+1.1.0-neoforge.jar";
+            "hash" = "sha512-QdvQ1qpBEdnJkWnqsXS75XigDORAXOSyJ71vHp8wNpPj/YmeHU6pwMenA2E1NVldcnuYNNUrfCcIowxIRPdftg==";
+        };
+        _jJSR3X0W = {
+            "id" = "jJSR3X0W";
+            "file" = "handful-26.3+1.1.0-fabric.jar";
+            "hash" = "sha512-o39knfFPmoOawxLtbbZiDA7tqzRuQVfuvyabAhsZ2JMyocVl37o92nwpXMIAKHR0iI4WZsvRhy/1PV00mmH6vQ==";
+        };
     in {
         "Mpi3Ic3X" = _Mpi3Ic3X;
         "f5KqIhSX" = _f5KqIhSX;
@@ -206,6 +216,8 @@ let
         "b6EIckaJ" = _b6EIckaJ;
         "9jMVVLwa" = _9jMVVLwa;
         "FSVwKUSv" = _FSVwKUSv;
+        "9yjQUCKH" = _9yjQUCKH;
+        "jJSR3X0W" = _jJSR3X0W;
         "neoforge-1.21" = _Mpi3Ic3X;
         "neoforge-1.21.1" = _qMyDrOmP;
         "neoforge-1.21.2" = _oBBi95bd;
@@ -224,6 +236,7 @@ let
         "neoforge-26.1.1" = _g0w3UIu3;
         "neoforge-26.1.2" = _g0w3UIu3;
         "neoforge-26.2" = _9jMVVLwa;
+        "neoforge-26.3" = _9yjQUCKH;
         "fabric-1.21" = _f5KqIhSX;
         "fabric-1.21.1" = _RVZnm7Fz;
         "fabric-1.21.2" = _I10LOOLn;
@@ -271,6 +284,7 @@ let
         "fabric-26.2-rc-1" = _b6EIckaJ;
         "fabric-26.2-rc-2" = _b6EIckaJ;
         "fabric-26.2" = _FSVwKUSv;
+        "fabric-26.3" = _jJSR3X0W;
         "quilt-1.21" = _f5KqIhSX;
         "quilt-1.21.1" = _RVZnm7Fz;
         "quilt-1.21.2" = _I10LOOLn;
@@ -319,7 +333,9 @@ let
         "pkg-mc26.2-snapshot-8-fabric" = _b6EIckaJ;
         "pkg-26.2+1.1.0-neoforge" = _9jMVVLwa;
         "pkg-26.2+1.1.0-fabric" = _FSVwKUSv;
-        "default" = _FSVwKUSv;
+        "pkg-26.3+1.1.0-neoforge" = _9yjQUCKH;
+        "pkg-26.3+1.1.0-fabric" = _jJSR3X0W;
+        "default" = _jJSR3X0W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "handful";

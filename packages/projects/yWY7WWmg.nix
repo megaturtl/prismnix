@@ -356,6 +356,11 @@ let
             "file" = "simplytents-1.0-1.19.2.forge.jar";
             "hash" = "sha512-GwwFbYXUEtinBsfela/EkMIcTzecB1Gb005Uo8TisGYFIa2eSyrVIcJk3Z6FIuW2Hqi4w+Y6DUMu7w4Nc7kNyQ==";
         };
+        _N0G2HeTa = {
+            "id" = "N0G2HeTa";
+            "file" = "simplytents-5.0-1.21.1.neo.jar";
+            "hash" = "sha512-jRLde8/0y2NGbq76qnrTvg9uQdPZrZ5Hq7inE9NdoajBsV6tOSzNqVqhzRZX9OX84ynuTmKuLRr1nCclzWwj8A==";
+        };
     in {
         "rlFUZYDA" = _rlFUZYDA;
         "ExawBw7J" = _ExawBw7J;
@@ -428,10 +433,11 @@ let
         "HHyZSwoQ" = _HHyZSwoQ;
         "9rKI7COm" = _9rKI7COm;
         "CQXqOg3A" = _CQXqOg3A;
+        "N0G2HeTa" = _N0G2HeTa;
         "forge-1.20.1" = _EQ9w7v27;
         "forge-1.18.2" = _HHyZSwoQ;
         "forge-1.19.2" = _CQXqOg3A;
-        "neoforge-1.21.1" = _4yp4PXpj;
+        "neoforge-1.21.1" = _N0G2HeTa;
         "neoforge-1.21.11" = _cYACx99f;
         "neoforge-26.1.2" = _vftwdq7I;
         "fabric-1.21.1" = _Vxj81yjW;
@@ -491,7 +497,8 @@ let
         "pkg-1.0-1.18.2.forge" = _HHyZSwoQ;
         "pkg-3.5-1.21.11.fabric" = _9rKI7COm;
         "pkg-1.0-1.19.2.forge" = _CQXqOg3A;
-        "default" = _CQXqOg3A;
+        "pkg-5.0-1.21.1.neo" = _N0G2HeTa;
+        "default" = _N0G2HeTa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simply-tents";

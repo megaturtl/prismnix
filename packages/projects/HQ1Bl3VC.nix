@@ -191,6 +191,26 @@ let
             "file" = "catskinc-neoforge-3.1.0.jar";
             "hash" = "sha512-FVGDg+zUuEpkYw4QTTivbwRBrUsK1s/ibcmyLueF8zJuOq2LDAllSK5BOkJNPEAamYLHV5KfwOSbs23nek1Ptw==";
         };
+        _Fkblp8sZ = {
+            "id" = "Fkblp8sZ";
+            "file" = "catskinc-fabric_1.20.1-4.0.0.jar";
+            "hash" = "sha512-/oODLrp/vEJ1JSqDhWtARl2rPNO8GFHU70NhQlEsVhqR00xksa5h4Y4JojQh8kT0yPBMDgUiZLNYEwYI6GbrAw==";
+        };
+        _Zfbmnq5x = {
+            "id" = "Zfbmnq5x";
+            "file" = "catskinc-forge_1.20.1-4.0.0.jar";
+            "hash" = "sha512-FA4ou6VsJwSxEWfJ/Pk93PouIHgdJacrDraOkryhO5xjMts4ZIKrZxIX6nF0kHiA5UDuB3RQFDUs1AM9hMzInw==";
+        };
+        _bF6MYHGK = {
+            "id" = "bF6MYHGK";
+            "file" = "catskinc-fabric_1.21.1-4.0.0.jar";
+            "hash" = "sha512-Zyws7kn4pnHZErt904pS/1ItkiKMuTV+rnXXwuV9BZw+on5kZLfiKfgSY/1EEIkBEmuu6bNvfkKD4PQ2UlRQlA==";
+        };
+        _DwlRj4Tv = {
+            "id" = "DwlRj4Tv";
+            "file" = "catskinc-neoforge_1.21.1-4.0.0.jar";
+            "hash" = "sha512-qWdwlkkf81Jd4qomKHKH1dLUFIrA+ZM5y9286x9FTasV18JSJEUIBIlcKqDtDOJh3LowhQyGmz9xYRgAq+WCww==";
+        };
     in {
         "XoMyMowV" = _XoMyMowV;
         "vpHCS4f5" = _vpHCS4f5;
@@ -230,11 +250,15 @@ let
         "9p0azdlP" = _9p0azdlP;
         "DClWSVzc" = _DClWSVzc;
         "CqeUGlzJ" = _CqeUGlzJ;
-        "fabric-1.20.1" = _vWMHJWlW;
-        "fabric-1.21.1" = _81m5Jj31;
+        "Fkblp8sZ" = _Fkblp8sZ;
+        "Zfbmnq5x" = _Zfbmnq5x;
+        "bF6MYHGK" = _bF6MYHGK;
+        "DwlRj4Tv" = _DwlRj4Tv;
+        "fabric-1.20.1" = _Fkblp8sZ;
+        "fabric-1.21.1" = _bF6MYHGK;
         "fabric-26.1.2" = _DClWSVzc;
-        "forge-1.20.1" = _6Cqp1dBi;
-        "neoforge-1.21.1" = _9p0azdlP;
+        "forge-1.20.1" = _Zfbmnq5x;
+        "neoforge-1.21.1" = _DwlRj4Tv;
         "neoforge-1.20.1" = _6Cqp1dBi;
         "neoforge-26.1.2" = _CqeUGlzJ;
         "pkg-1.0.3-FB" = _XoMyMowV;
@@ -249,7 +273,10 @@ let
         "pkg-3.0.3" = _hJlXzrUz;
         "pkg-3.0.3-HF" = _l6TUO9Fa;
         "pkg-3.1.0" = _CqeUGlzJ;
-        "default" = _CqeUGlzJ;
+        "pkg-4.0.0+fabric" = _bF6MYHGK;
+        "pkg-4.0.0+forge" = _Zfbmnq5x;
+        "pkg-4.0.0+neoforge" = _DwlRj4Tv;
+        "default" = _DwlRj4Tv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "catskinc";

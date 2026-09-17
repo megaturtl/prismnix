@@ -581,6 +581,11 @@ let
             "file" = "project-omnipotence-1.5.4-26.2.jar";
             "hash" = "sha512-C7NKn5Yh9QAnYRRAnKfuEHcwScVTokNRuciZ2tzkb9vs7H/PWPf9H/m35fvRkC7hokJZnYgakTvKi7p0xZmYeQ==";
         };
+        _HVbnFU8x = {
+            "id" = "HVbnFU8x";
+            "file" = "project-omnipotence-1.5.4-26.3.jar";
+            "hash" = "sha512-nme548uMxK4L+9U0LMYd2HVWcWnAWqNwJWKi19IO+llX96VZIFrJQUhindlwgXftVtDlCDzZ6iazU9q6fZN8wg==";
+        };
     in {
         "OxEw8XSK" = _OxEw8XSK;
         "NHEWtQ7n" = _NHEWtQ7n;
@@ -698,6 +703,7 @@ let
         "Yqbsixmq" = _Yqbsixmq;
         "hBsBTCMD" = _hBsBTCMD;
         "a0HoSNEC" = _a0HoSNEC;
+        "HVbnFU8x" = _HVbnFU8x;
         "fabric-1.20" = _VxZArIYT;
         "fabric-1.20.1" = _VxZArIYT;
         "fabric-1.20.2" = _LiyA2XGR;
@@ -717,6 +723,7 @@ let
         "fabric-1.21.11" = _Yqbsixmq;
         "fabric-26.1" = _hBsBTCMD;
         "fabric-26.2" = _a0HoSNEC;
+        "fabric-26.3" = _HVbnFU8x;
         "forge-1.20" = _ECa58e4B;
         "forge-1.20.1" = _ECa58e4B;
         "forge-1.20.2" = _bUUu829c;
@@ -837,7 +844,8 @@ let
         "pkg-1.5.4-1.21.11" = _Yqbsixmq;
         "pkg-1.5.4-26.1" = _hBsBTCMD;
         "pkg-1.5.4-26.2" = _a0HoSNEC;
-        "default" = _a0HoSNEC;
+        "pkg-1.5.4-26.3" = _HVbnFU8x;
+        "default" = _HVbnFU8x;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "project-omnipotence";

@@ -361,6 +361,16 @@ let
             "file" = "more_quest_types-neoforge-1.3.7.jar";
             "hash" = "sha512-VB6xBAn2lw2VC7ItjfdQ1FXwvRxeEq0ag2LN8JwM/AKnHAjBECvBKV9FtOOjXRXiX0PxRiBvBi/tuQU6XchBYw==";
         };
+        _g1Lq99bT = {
+            "id" = "g1Lq99bT";
+            "file" = "more_quest_types-fabric-1.3.8.jar";
+            "hash" = "sha512-a6CFSsXTldYdkBwJaZadeT63SEUU7SFjkDSxgMKM4ktUFfBQapeOFoWLkko8VMeEtWGC2LibBbg/wxRfIwUZxA==";
+        };
+        _wONsUC5U = {
+            "id" = "wONsUC5U";
+            "file" = "more_quest_types-neoforge-1.3.8.jar";
+            "hash" = "sha512-QCzOa+NKgkVDT0lOb523LFxd8HRneZT1f6Lw/RFaMhL+nzG3ePz4iyp9WoQf+LisnMzLy4A37GNYiMZtP04GvQ==";
+        };
     in {
         "lR6i7DM4" = _lR6i7DM4;
         "Ggjyfxft" = _Ggjyfxft;
@@ -434,8 +444,10 @@ let
         "amU3p2VB" = _amU3p2VB;
         "CVw7c4QL" = _CVw7c4QL;
         "qNQ9XGKx" = _qNQ9XGKx;
-        "fabric-1.21.1" = _CVw7c4QL;
-        "neoforge-1.21.1" = _qNQ9XGKx;
+        "g1Lq99bT" = _g1Lq99bT;
+        "wONsUC5U" = _wONsUC5U;
+        "fabric-1.21.1" = _g1Lq99bT;
+        "neoforge-1.21.1" = _wONsUC5U;
         "pkg-1.0.4" = _Ggjyfxft;
         "pkg-1.0.4.2" = _jto74Q2q;
         "pkg-1.0.5" = _o1zgTCcW;
@@ -472,7 +484,8 @@ let
         "pkg-1.3.5" = _CtVC8V6N;
         "pkg-1.3.6" = _amU3p2VB;
         "pkg-1.3.7" = _qNQ9XGKx;
-        "default" = _qNQ9XGKx;
+        "pkg-1.3.8" = _wONsUC5U;
+        "default" = _wONsUC5U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-quest-types";

@@ -271,6 +271,16 @@ let
             "file" = "sundries-1.8.8-forge-1.20.1.jar";
             "hash" = "sha512-xPHenOy0DRauHkcl2UqTGXWiz6/sF7lwNZP4pKGXmzids8N9eOIYLJlR7Z2fZfK64G+Jskh6eD6DoStrNGks8g==";
         };
+        _bAGB3h6S = {
+            "id" = "bAGB3h6S";
+            "file" = "sundries-1.9-neoforge-1.21.1.jar";
+            "hash" = "sha512-lRPfLHLIsl6zUIC7QkzYXU7G7LuNUai8ZpgQDG71J74jEMphCHwhGQmfo8VrFnUPkfpWh1Z7On6cPxRsN0XbrQ==";
+        };
+        _cumynGWb = {
+            "id" = "cumynGWb";
+            "file" = "sundries-1.9-forge-1.20.1.jar";
+            "hash" = "sha512-sqf/2RXgpNYM2S21Syj1UHTCTUJX36OpTqDCZtyBukccI7S0WykAwnhkdq48wtBbu/PSZ88MhKRf9mlTkbavnA==";
+        };
     in {
         "HwBkp5UY" = _HwBkp5UY;
         "VqeNDHBx" = _VqeNDHBx;
@@ -326,8 +336,10 @@ let
         "fgrCboTz" = _fgrCboTz;
         "kXqdTchA" = _kXqdTchA;
         "xcRDLTnI" = _xcRDLTnI;
-        "forge-1.20.1" = _xcRDLTnI;
-        "neoforge-1.21.1" = _kXqdTchA;
+        "bAGB3h6S" = _bAGB3h6S;
+        "cumynGWb" = _cumynGWb;
+        "forge-1.20.1" = _cumynGWb;
+        "neoforge-1.21.1" = _bAGB3h6S;
         "pkg-1.1.2" = _HwBkp5UY;
         "pkg-1.1.3" = _VqeNDHBx;
         "pkg-1.1.4" = _6frtleKD;
@@ -365,7 +377,8 @@ let
         "pkg-1.8.6" = _VzIbV9jL;
         "pkg-1.8.7" = _fgrCboTz;
         "pkg-1.8.8" = _xcRDLTnI;
-        "default" = _xcRDLTnI;
+        "pkg-1.9" = _cumynGWb;
+        "default" = _cumynGWb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sundriesanddecor";

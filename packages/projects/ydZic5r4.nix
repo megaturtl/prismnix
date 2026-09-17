@@ -361,6 +361,16 @@ let
             "file" = "smoothswapping-0.9.10-26.2-neoforge.jar";
             "hash" = "sha512-HvQQywH19hzjylE8HTuPH/kNN3PEwTvnNDdndayFqY2nJXvcfwIUtgCProL1VNsyKgNoZHK0fleUhfa+aivIQA==";
         };
+        _TYYQn5Mn = {
+            "id" = "TYYQn5Mn";
+            "file" = "smoothswapping-0.9.11-26.3-fabric.jar";
+            "hash" = "sha512-u/+c14wcVmkHtP+pfTfUPVbrlsbVjcVmo5VJmKkaDPcI4BS9Y17toU45VunD/rnONLvKFkOkaqHX++TIjj6A7g==";
+        };
+        _fHyuH8rx = {
+            "id" = "fHyuH8rx";
+            "file" = "smoothswapping-0.9.11-26.3-neoforge.jar";
+            "hash" = "sha512-G3ML4pEzfcK/JpsSr9DFMZfXQOIeoT1ZrkIl13Lpc85U7O7IVK7PxSa5SeOTFUC5v9sGa5rjo+zaPH2lYIvuWA==";
+        };
     in {
         "sI2YrUOk" = _sI2YrUOk;
         "pRIVfZgA" = _pRIVfZgA;
@@ -434,6 +444,8 @@ let
         "KBzNTaYy" = _KBzNTaYy;
         "aUhMczfZ" = _aUhMczfZ;
         "f5zVA77Z" = _f5zVA77Z;
+        "TYYQn5Mn" = _TYYQn5Mn;
+        "fHyuH8rx" = _fHyuH8rx;
         "fabric-1.17.1" = _cNp1r70h;
         "fabric-1.18" = _B8o4J3RE;
         "fabric-1.18.1" = _B8o4J3RE;
@@ -460,6 +472,7 @@ let
         "fabric-26.1.1" = _7rMg1I1I;
         "fabric-26.1.2" = _7rMg1I1I;
         "fabric-26.2" = _aUhMczfZ;
+        "fabric-26.3" = _TYYQn5Mn;
         "forge-1.19.4" = _ftQjdt19;
         "forge-1.19.2" = _dF51bLry;
         "forge-1.18.2" = _6yRsXUdm;
@@ -490,6 +503,7 @@ let
         "quilt-26.1.1" = _7rMg1I1I;
         "quilt-26.1.2" = _7rMg1I1I;
         "quilt-26.2" = _aUhMczfZ;
+        "quilt-26.3" = _TYYQn5Mn;
         "neoforge-1.21.2" = _VYiuSLN8;
         "neoforge-1.21.3" = _VYiuSLN8;
         "neoforge-1.21" = _tnvwgXE6;
@@ -506,6 +520,7 @@ let
         "neoforge-26.1.1" = _KBzNTaYy;
         "neoforge-26.1.2" = _KBzNTaYy;
         "neoforge-26.2" = _f5zVA77Z;
+        "neoforge-26.3" = _fHyuH8rx;
         "pkg-mc1.17.1-v0.3" = _sI2YrUOk;
         "pkg-mc1.17.1-v0.4" = _pRIVfZgA;
         "pkg-mc1.17.1-v0.4.2" = _2uekzH1M;
@@ -550,7 +565,8 @@ let
         "pkg-0.9.1.1-1.18.2" = _6yRsXUdm;
         "pkg-0.9.9-26.1" = _KBzNTaYy;
         "pkg-0.9.10-26.2" = _f5zVA77Z;
-        "default" = _f5zVA77Z;
+        "pkg-0.9.11-26.3" = _fHyuH8rx;
+        "default" = _fHyuH8rx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smooth-swapping";

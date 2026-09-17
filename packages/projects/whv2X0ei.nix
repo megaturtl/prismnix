@@ -86,6 +86,11 @@ let
             "file" = "jobsaddon-1.2.5.jar";
             "hash" = "sha512-MAhAl6FRW/BdTCijTpCvw8/pO+42+pV6K0lmpNQvYT9jnggePyqXQkvjvuAcjwIWyr0s224LrQJIRAA6RjcXgw==";
         };
+        _vPj8314J = {
+            "id" = "vPj8314J";
+            "file" = "jobsaddon-1.2.6.jar";
+            "hash" = "sha512-aX1nwyouUhUQdiD/oqIEruvMftqbOeu8NHLHFqTAhlykvauv+59O0PromoMWLePo46fzQvt6SBDyPmQScAxRZw==";
+        };
     in {
         "trHESDJr" = _trHESDJr;
         "EGKGcrGq" = _EGKGcrGq;
@@ -104,10 +109,11 @@ let
         "BK3YVJcC" = _BK3YVJcC;
         "5MwR6Gua" = _5MwR6Gua;
         "eXKSBIB3" = _eXKSBIB3;
+        "vPj8314J" = _vPj8314J;
         "fabric-1.19.2" = _DnrXjk5J;
         "fabric-1.20" = _GtgJEjVy;
         "fabric-1.20.1" = _PDVZqlFW;
-        "fabric-1.21.1" = _eXKSBIB3;
+        "fabric-1.21.1" = _vPj8314J;
         "pkg-1.0.11" = _trHESDJr;
         "pkg-1.0.12+1.19.2" = _EGKGcrGq;
         "pkg-1.1.0+1.19.2" = _vyl6EmTi;
@@ -125,7 +131,8 @@ let
         "pkg-1.2.3+1.21.1" = _BK3YVJcC;
         "pkg-1.2.4+1.21.1" = _5MwR6Gua;
         "pkg-1.2.5+1.21.1" = _eXKSBIB3;
-        "default" = _eXKSBIB3;
+        "pkg-1.2.6+1.21.1" = _vPj8314J;
+        "default" = _vPj8314J;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jobsaddon";

@@ -101,6 +101,11 @@ let
             "file" = "VillagerTradeEdit-2.2.2.jar";
             "hash" = "sha512-6n42TvKHhPQCMpZVID2h9t+Xv7k0KS4M34RsgSJcHLuGmngpOBRARU06KmRpNw/mn1LuetNtFFeLao9dv/TXtQ==";
         };
+        _tjUPMacx = {
+            "id" = "tjUPMacx";
+            "file" = "VillagerTradeEdit-2.2.3.jar";
+            "hash" = "sha512-q5AuXJneorYvOfqsv3O1cDZ+rtNvG+1cALdCrpBwaEx2TcUdBd8ADf7Txmxef08eu0MK6GFNHYrY+gLE4qVcng==";
+        };
     in {
         "hCdt7GGz" = _hCdt7GGz;
         "oGsPrXvc" = _oGsPrXvc;
@@ -122,6 +127,7 @@ let
         "CSbHAlnJ" = _CSbHAlnJ;
         "fiTkMdXs" = _fiTkMdXs;
         "U1GDjRN9" = _U1GDjRN9;
+        "tjUPMacx" = _tjUPMacx;
         "folia-1.20" = _hCdt7GGz;
         "folia-1.20.1" = _hCdt7GGz;
         "folia-1.20.2" = _hCdt7GGz;
@@ -141,10 +147,10 @@ let
         "folia-1.21.9" = _LUmKH6tG;
         "folia-1.21.10" = _LUmKH6tG;
         "folia-1.21.11" = _LUmKH6tG;
-        "folia-26.1" = _U1GDjRN9;
-        "folia-26.1.1" = _U1GDjRN9;
-        "folia-26.1.2" = _U1GDjRN9;
-        "folia-26.2" = _U1GDjRN9;
+        "folia-26.1" = _tjUPMacx;
+        "folia-26.1.1" = _tjUPMacx;
+        "folia-26.1.2" = _tjUPMacx;
+        "folia-26.2" = _tjUPMacx;
         "paper-1.21" = _LUmKH6tG;
         "paper-1.21.1" = _LUmKH6tG;
         "paper-1.21.2" = _LUmKH6tG;
@@ -157,10 +163,10 @@ let
         "paper-1.21.9" = _LUmKH6tG;
         "paper-1.21.10" = _LUmKH6tG;
         "paper-1.21.11" = _LUmKH6tG;
-        "paper-26.1" = _U1GDjRN9;
-        "paper-26.1.1" = _U1GDjRN9;
-        "paper-26.1.2" = _U1GDjRN9;
-        "paper-26.2" = _U1GDjRN9;
+        "paper-26.1" = _tjUPMacx;
+        "paper-26.1.1" = _tjUPMacx;
+        "paper-26.1.2" = _tjUPMacx;
+        "paper-26.2" = _tjUPMacx;
         "purpur-1.21" = _LUmKH6tG;
         "purpur-1.21.1" = _LUmKH6tG;
         "purpur-1.21.2" = _LUmKH6tG;
@@ -173,10 +179,10 @@ let
         "purpur-1.21.9" = _LUmKH6tG;
         "purpur-1.21.10" = _LUmKH6tG;
         "purpur-1.21.11" = _LUmKH6tG;
-        "purpur-26.1" = _U1GDjRN9;
-        "purpur-26.1.1" = _U1GDjRN9;
-        "purpur-26.1.2" = _U1GDjRN9;
-        "purpur-26.2" = _U1GDjRN9;
+        "purpur-26.1" = _tjUPMacx;
+        "purpur-26.1.1" = _tjUPMacx;
+        "purpur-26.1.2" = _tjUPMacx;
+        "purpur-26.2" = _tjUPMacx;
         "pkg-1.1" = _hCdt7GGz;
         "pkg-1.2" = _oGsPrXvc;
         "pkg-1.3" = _LR5g16yW;
@@ -197,7 +203,8 @@ let
         "pkg-2.2.0" = _CSbHAlnJ;
         "pkg-2.2.1" = _fiTkMdXs;
         "pkg-2.2.2" = _U1GDjRN9;
-        "default" = _U1GDjRN9;
+        "pkg-2.2.3" = _tjUPMacx;
+        "default" = _tjUPMacx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villagertradeedit";

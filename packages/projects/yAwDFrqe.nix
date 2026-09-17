@@ -56,6 +56,11 @@ let
             "file" = "Scary Spider 1.20.2+.zip";
             "hash" = "sha512-T2B4RonPg9ClvzAvPHnUHqIQZyHq/D7IB+AQoBTVcchAL16S4wsFVHpiTDKeYwKN+BAca7GCnmmINkVX1eQsew==";
         };
+        _va0vG8d4 = {
+            "id" = "va0vG8d4";
+            "file" = "Scary Spider 1.20.2+ v2.zip";
+            "hash" = "sha512-0kHbM0RUeg8vmfZceO18ugcGfu8VUnN/P+HahkweqTulrx4jSBxY2Y1dujtAy2lzVWcCeuob5nkvKAY/c5cbrg==";
+        };
     in {
         "XyoG3l2q" = _XyoG3l2q;
         "hQVMZP0h" = _hQVMZP0h;
@@ -68,6 +73,7 @@ let
         "CqKFPkff" = _CqKFPkff;
         "Ylzk4MEz" = _Ylzk4MEz;
         "p54uoJxL" = _p54uoJxL;
+        "va0vG8d4" = _va0vG8d4;
         "minecraft-1.11" = _XyoG3l2q;
         "minecraft-1.11.1" = _XyoG3l2q;
         "minecraft-1.11.2" = _XyoG3l2q;
@@ -103,22 +109,29 @@ let
         "minecraft-1.19.4" = _CqKFPkff;
         "minecraft-1.20" = _Ylzk4MEz;
         "minecraft-1.20.1" = _Ylzk4MEz;
-        "minecraft-1.20.2" = _p54uoJxL;
-        "minecraft-1.20.3" = _p54uoJxL;
-        "minecraft-1.20.4" = _p54uoJxL;
-        "minecraft-1.20.5" = _p54uoJxL;
-        "minecraft-1.20.6" = _p54uoJxL;
-        "minecraft-1.21" = _p54uoJxL;
-        "minecraft-1.21.1" = _p54uoJxL;
-        "minecraft-1.21.2" = _p54uoJxL;
-        "minecraft-1.21.3" = _p54uoJxL;
-        "minecraft-1.21.4" = _p54uoJxL;
-        "minecraft-1.21.5" = _p54uoJxL;
-        "minecraft-1.21.6" = _p54uoJxL;
-        "minecraft-1.21.7" = _p54uoJxL;
-        "minecraft-1.21.8" = _p54uoJxL;
-        "pkg-1.0" = _p54uoJxL;
-        "default" = _p54uoJxL;
+        "minecraft-1.20.2" = _va0vG8d4;
+        "minecraft-1.20.3" = _va0vG8d4;
+        "minecraft-1.20.4" = _va0vG8d4;
+        "minecraft-1.20.5" = _va0vG8d4;
+        "minecraft-1.20.6" = _va0vG8d4;
+        "minecraft-1.21" = _va0vG8d4;
+        "minecraft-1.21.1" = _va0vG8d4;
+        "minecraft-1.21.2" = _va0vG8d4;
+        "minecraft-1.21.3" = _va0vG8d4;
+        "minecraft-1.21.4" = _va0vG8d4;
+        "minecraft-1.21.5" = _va0vG8d4;
+        "minecraft-1.21.6" = _va0vG8d4;
+        "minecraft-1.21.7" = _va0vG8d4;
+        "minecraft-1.21.8" = _va0vG8d4;
+        "minecraft-1.21.9" = _va0vG8d4;
+        "minecraft-1.21.10" = _va0vG8d4;
+        "minecraft-1.21.11" = _va0vG8d4;
+        "minecraft-26.1" = _va0vG8d4;
+        "minecraft-26.1.1" = _va0vG8d4;
+        "minecraft-26.1.2" = _va0vG8d4;
+        "minecraft-26.2" = _va0vG8d4;
+        "pkg-1.0" = _va0vG8d4;
+        "default" = _va0vG8d4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scary-spider";

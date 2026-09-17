@@ -46,6 +46,11 @@ let
             "file" = "jackpot-1.0.8.jar";
             "hash" = "sha512-jHDI2ZGw52N3DVEteWXBgiGObPXWIhA2LReSWqJGOBh50voY1yt3ccKkmPTFGzs1vG6jlU4QelijYxkzO/MJdg==";
         };
+        _cvD3b8ff = {
+            "id" = "cvD3b8ff";
+            "file" = "jackpot-1.0.9.jar";
+            "hash" = "sha512-0m5eEnyz0PCAn/L/lPy8Ke6Kz3Aie9F1+HlvjLZ+pPgqpOdcGMWHQCGZZll8iv7XORKcf18ru0b7MoqPkDP5RQ==";
+        };
     in {
         "Hpj1CY0P" = _Hpj1CY0P;
         "XjP9rEKg" = _XjP9rEKg;
@@ -56,7 +61,8 @@ let
         "DQCTwp3t" = _DQCTwp3t;
         "nZhNbEke" = _nZhNbEke;
         "b2xbHnUi" = _b2xbHnUi;
-        "neoforge-1.21.1" = _b2xbHnUi;
+        "cvD3b8ff" = _cvD3b8ff;
+        "neoforge-1.21.1" = _cvD3b8ff;
         "pkg-1.0.0" = _Hpj1CY0P;
         "pkg-1.0.1" = _XjP9rEKg;
         "pkg-1.0.2" = _ONTrjZtL;
@@ -66,7 +72,8 @@ let
         "pkg-1.0.6" = _DQCTwp3t;
         "pkg-1.0.7" = _nZhNbEke;
         "pkg-1.0.8" = _b2xbHnUi;
-        "default" = _b2xbHnUi;
+        "pkg-1.0.9" = _cvD3b8ff;
+        "default" = _cvD3b8ff;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jackpot";

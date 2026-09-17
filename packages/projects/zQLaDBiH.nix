@@ -86,6 +86,26 @@ let
             "file" = "Realms of Redemption 1.21.1 v1.2.1.jar";
             "hash" = "sha512-1wKeATbMT+5prGrgpgWoO+MjOQU8KUl9TRwYL1hzq0WgjmHneo9RuolyxOQhdHVB9Svkk1ZsMmL7Qv/PLRCovA==";
         };
+        _XIJYb9hS = {
+            "id" = "XIJYb9hS";
+            "file" = "Realms of Redemption 1.1.9.jar";
+            "hash" = "sha512-jTowMnCJOqjEj0Ipux15UebyA3RuO+OEYIfpzM8GM6zNNFobRktrrelwzeouxBCn6oGjO5a7zUOuBFsZ/Px8yw==";
+        };
+        _2SF1DVlM = {
+            "id" = "2SF1DVlM";
+            "file" = "Realms of Redemption 1.21.1 v1.2.2.jar";
+            "hash" = "sha512-j/lqvzNafJ0kRjngbLfPLjWJ01wUSQJjWmkKxwdjRI5JNVtuqvawOT2GmGxWXwfmgsMB1UmJOgQeTaZkPP9hVg==";
+        };
+        _5mm33xaT = {
+            "id" = "5mm33xaT";
+            "file" = "Realms of Redemption 1.1.9.1.jar";
+            "hash" = "sha512-ECFt2ZJpvYW+x3/uJnOgeuznITvTbM2Nh+huldoMnir/dMb3JlWjzeYg3RqSyo33O1A9hx/LzxZy6YyzsW8s4A==";
+        };
+        _3dO8GjwB = {
+            "id" = "3dO8GjwB";
+            "file" = "Realms of Redemption 1.21.1 v1.2.2.1.jar";
+            "hash" = "sha512-Rk1V6cnvvYIfLGECMK1bXsC1/Xe0ybYgVG0ygWahUzuGxlNC0CElQKVBFO/iY/atB5/6AtE3f4ztbb5Hin5Kig==";
+        };
     in {
         "r4tWZGub" = _r4tWZGub;
         "XLJ47fom" = _XLJ47fom;
@@ -104,9 +124,13 @@ let
         "cRfhGEjD" = _cRfhGEjD;
         "IT51eDbT" = _IT51eDbT;
         "E2IoSGIT" = _E2IoSGIT;
-        "forge-1.20.1" = _IT51eDbT;
-        "neoforge-1.20.1" = _IT51eDbT;
-        "neoforge-1.21.1" = _E2IoSGIT;
+        "XIJYb9hS" = _XIJYb9hS;
+        "2SF1DVlM" = _2SF1DVlM;
+        "5mm33xaT" = _5mm33xaT;
+        "3dO8GjwB" = _3dO8GjwB;
+        "forge-1.20.1" = _5mm33xaT;
+        "neoforge-1.20.1" = _5mm33xaT;
+        "neoforge-1.21.1" = _3dO8GjwB;
         "pkg-1.0.0" = _r4tWZGub;
         "pkg-1.0.1" = _XLJ47fom;
         "pkg-1.0.2" = _RjPATRFh;
@@ -124,7 +148,11 @@ let
         "pkg-1.2" = _cRfhGEjD;
         "pkg-1.1.8" = _IT51eDbT;
         "pkg-1.2.1" = _E2IoSGIT;
-        "default" = _E2IoSGIT;
+        "pkg-1.1.9" = _XIJYb9hS;
+        "pkg-1.2.2" = _2SF1DVlM;
+        "pkg-1.1.9.1" = _5mm33xaT;
+        "pkg-1.2.2.1" = _3dO8GjwB;
+        "default" = _3dO8GjwB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "realms-of-redemption";

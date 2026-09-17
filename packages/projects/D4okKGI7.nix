@@ -31,6 +31,11 @@ let
             "file" = "LocatorTriangulation-1.4.0+mc26.2-fabric.jar";
             "hash" = "sha512-/qEf9ocjGqlwImUO8qCGXat0pS44cxg7Yy5pWsBO1TahuXokN8//GTSEOX8ts9bDCp3XyPw3IzN34yDJpZR2dg==";
         };
+        _9CbR48aA = {
+            "id" = "9CbR48aA";
+            "file" = "LocatorTriangulation-1.5.0+mc26.3-fabric.jar";
+            "hash" = "sha512-wF8aKJ97zPCZu0k7eZpfkqZp3E+YHLVqs3RNlEMvSks20X7hGMKrU92VUPVU8Ow2EEh9NnY6RWrLlZPwvGkgWQ==";
+        };
     in {
         "e8Zejd0C" = _e8Zejd0C;
         "7p9z4jL5" = _7p9z4jL5;
@@ -38,6 +43,7 @@ let
         "8gfFHAF8" = _8gfFHAF8;
         "9AFEGKqS" = _9AFEGKqS;
         "scEVrfEV" = _scEVrfEV;
+        "9CbR48aA" = _9CbR48aA;
         "fabric-1.21.8" = _7p9z4jL5;
         "fabric-1.21.10" = _RHCobTaQ;
         "fabric-1.21.11" = _8gfFHAF8;
@@ -45,13 +51,15 @@ let
         "fabric-26.1.1" = _9AFEGKqS;
         "fabric-26.1.2" = _9AFEGKqS;
         "fabric-26.2" = _scEVrfEV;
+        "fabric-26.3" = _9CbR48aA;
         "pkg-1.0.0" = _e8Zejd0C;
         "pkg-1.1.0+mc1.21.8-fabric" = _7p9z4jL5;
         "pkg-1.1.0+mc1.21.10-fabric" = _RHCobTaQ;
         "pkg-1.2.0+mc1.21.11-fabric" = _8gfFHAF8;
         "pkg-1.3.0+mc26.1-fabric" = _9AFEGKqS;
         "pkg-1.4.0+mc26.2-fabric" = _scEVrfEV;
-        "default" = _scEVrfEV;
+        "pkg-1.5.0+mc26.3-fabric" = _9CbR48aA;
+        "default" = _9CbR48aA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "locator-triangulation";

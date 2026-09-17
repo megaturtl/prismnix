@@ -56,6 +56,11 @@ let
             "file" = "physics_toys-0.10.0+26.2.jar";
             "hash" = "sha512-w0Pq7HoN3JSSPX3oOXFZHzg4xhAs2lyxEgdY47pPotoEMsH+B4Ne9C2dCFeLjHy1uOuMNP/ZoObIv0PmnKEwUQ==";
         };
+        _LQ9sln67 = {
+            "id" = "LQ9sln67";
+            "file" = "physics_toys-0.11.0+26.3-rc-1.jar";
+            "hash" = "sha512-r9aRQJj9ouMdAqS2asrPKDPDeal+JoTJGjvzD4GJo5E0/uYETbAhOhsvsuIyMH6Gpa4NqKtD7WYEV0fcjaCDUw==";
+        };
     in {
         "ZttfFf2n" = _ZttfFf2n;
         "d2Z0m8nL" = _d2Z0m8nL;
@@ -68,6 +73,7 @@ let
         "zu0OJw3U" = _zu0OJw3U;
         "Vcn7RJoQ" = _Vcn7RJoQ;
         "i3NDmDDf" = _i3NDmDDf;
+        "LQ9sln67" = _LQ9sln67;
         "fabric-1.19.4" = _ZttfFf2n;
         "fabric-1.21" = _d2Z0m8nL;
         "fabric-1.21.1" = _d2Z0m8nL;
@@ -86,6 +92,8 @@ let
         "fabric-26.1.1" = _Vcn7RJoQ;
         "fabric-26.1.2" = _Vcn7RJoQ;
         "fabric-26.2" = _i3NDmDDf;
+        "fabric-26.3-rc-1" = _LQ9sln67;
+        "fabric-26.3" = _LQ9sln67;
         "quilt-1.19.4" = _ZttfFf2n;
         "quilt-1.21" = _d2Z0m8nL;
         "quilt-1.21.1" = _d2Z0m8nL;
@@ -111,7 +119,8 @@ let
         "pkg-0.8.0+1.21.11" = _zu0OJw3U;
         "pkg-0.9.0+26.1" = _Vcn7RJoQ;
         "pkg-0.10.0+26.2" = _i3NDmDDf;
-        "default" = _i3NDmDDf;
+        "pkg-0.11.0+26.3-rc-1" = _LQ9sln67;
+        "default" = _LQ9sln67;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "physics-toys";

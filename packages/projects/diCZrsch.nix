@@ -136,6 +136,11 @@ let
             "file" = "slyde-26.2.0.jar";
             "hash" = "sha512-5iEw03gTDTBXJuWM3CSwQRx3BA6SAGPkZPpQToW/rR8EoR8YpbpCVrrwjQior5RQbrLKzv6X7PlIg1xlbnLSPg==";
         };
+        _VeaRix7J = {
+            "id" = "VeaRix7J";
+            "file" = "slyde-26.3.0.jar";
+            "hash" = "sha512-WIqOqSTl9xzzhEV0EF5dpFgO05q9n5OsgUeUKrqWtJ4rint6XrlHsahC8p1S/6yDciSxhwoJcc5KO/9ZkX9/pg==";
+        };
     in {
         "xHOUZVOB" = _xHOUZVOB;
         "OmddWiRu" = _OmddWiRu;
@@ -164,6 +169,7 @@ let
         "QOG0gmZM" = _QOG0gmZM;
         "aGHbahro" = _aGHbahro;
         "apaMK4Xp" = _apaMK4Xp;
+        "VeaRix7J" = _VeaRix7J;
         "fabric-1.16.4" = _xHOUZVOB;
         "fabric-1.16.5" = _OmddWiRu;
         "fabric-1.17" = _hq3copkk;
@@ -199,6 +205,7 @@ let
         "fabric-26.1.1" = _aGHbahro;
         "fabric-26.1.2" = _aGHbahro;
         "fabric-26.2" = _apaMK4Xp;
+        "fabric-26.3" = _VeaRix7J;
         "pkg-1.2" = _xHOUZVOB;
         "pkg-1.3.0" = _OmddWiRu;
         "pkg-1.4.1" = _hq3copkk;
@@ -226,7 +233,8 @@ let
         "pkg-1.7.15" = _QOG0gmZM;
         "pkg-26.1.0" = _aGHbahro;
         "pkg-26.2.0" = _apaMK4Xp;
-        "default" = _apaMK4Xp;
+        "pkg-26.3.0" = _VeaRix7J;
+        "default" = _VeaRix7J;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "slyde";

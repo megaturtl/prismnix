@@ -21,17 +21,24 @@ let
             "file" = "cave_dweller-1.3b.jar";
             "hash" = "sha512-TVlXVjbJ7ZmcHNzpDZuXeE/JD3PBw+IrHGHxSM7ygbYRrxmakvUB8aOEnoVq8idQkSy1gM0St7NLkHv2WMrnCg==";
         };
+        _bdzL1Nsp = {
+            "id" = "bdzL1Nsp";
+            "file" = "cave_dweller-1.4-rc2.jar";
+            "hash" = "sha512-A+syEz3gbatZUyD8D/sQmoFBwXPby9s7Sxe2HPYDutpxYscETZuqKCQiQBr6fL8czENzwzmWUzbm8f/Ol+bcvw==";
+        };
     in {
         "pE3ipWCS" = _pE3ipWCS;
         "Jdd6D05b" = _Jdd6D05b;
         "IFsCH8fQ" = _IFsCH8fQ;
         "3cKL2M1m" = _3cKL2M1m;
-        "neoforge-1.21.1" = _3cKL2M1m;
+        "bdzL1Nsp" = _bdzL1Nsp;
+        "neoforge-1.21.1" = _bdzL1Nsp;
         "pkg-1.0b" = _pE3ipWCS;
         "pkg-1.1b-hotfix-1" = _Jdd6D05b;
         "pkg-1.2b" = _IFsCH8fQ;
         "pkg-1.3b" = _3cKL2M1m;
-        "default" = _3cKL2M1m;
+        "pkg-1.4-rc2" = _bdzL1Nsp;
+        "default" = _bdzL1Nsp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cave-dweller-reevolved";

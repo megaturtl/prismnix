@@ -606,6 +606,26 @@ let
             "file" = "chest_item-1.1.2.5.jar";
             "hash" = "sha512-n7hU0xr3FimHu4rkt0d7ZGxO6dY0LKvFi8XizyKvcRsnd0q4AhWc2xa6Pl7Oqagg80td7zWt2jKVaE1xJbC/Pw==";
         };
+        _jb6kY6Vj = {
+            "id" = "jb6kY6Vj";
+            "file" = "chest_item-1.1.3.0.jar";
+            "hash" = "sha512-dMLBzm68ebw7VEPb2WQyaRumjUG5bEOc+e1ZMt9cLc9f8D4DP/G5RuFKanOZBc9x+IbB07mIQQ3GLh9+sKQIvg==";
+        };
+        _rceZddz7 = {
+            "id" = "rceZddz7";
+            "file" = "chest_item-1.1.3.8.jar";
+            "hash" = "sha512-eiFfYyHeaauFi9UWCV8W/oLXct1ggj7d0mrBtS17kAqgcauFc4TEuyjOeMGS1NwC3P2LY8HXCVBtHZtliUYsSw==";
+        };
+        _HOYdOurL = {
+            "id" = "HOYdOurL";
+            "file" = "chest_item-26.3-1.1.4.0.jar";
+            "hash" = "sha512-cV/R3bxLrC2sursaSdql8QF9nBq2/waj5R29C7zr5yZ4sybFrccufwB8n0EZ1iPf64g963nVtDoBkpGq7qS1MA==";
+        };
+        _Y1Bn0JSH = {
+            "id" = "Y1Bn0JSH";
+            "file" = "chest_item-26.3-1.1.4.2.jar";
+            "hash" = "sha512-DrOqqh30twWSAiV4HaZCT8r9M6cvS1jM7dcrnfJZAmWr719Am+bVS0fSfb1LkPXKWK9jH1w8s1SD/uzYkOyDaA==";
+        };
     in {
         "LIsW1Mc1" = _LIsW1Mc1;
         "urkySUfB" = _urkySUfB;
@@ -728,6 +748,10 @@ let
         "BTvVdswl" = _BTvVdswl;
         "lJrqAHlN" = _lJrqAHlN;
         "QysNCnPz" = _QysNCnPz;
+        "jb6kY6Vj" = _jb6kY6Vj;
+        "rceZddz7" = _rceZddz7;
+        "HOYdOurL" = _HOYdOurL;
+        "Y1Bn0JSH" = _Y1Bn0JSH;
         "neoforge-1.21.8" = _3zhHkAg7;
         "neoforge-1.21.9" = _FBzlt86P;
         "neoforge-1.21.10" = _FBzlt86P;
@@ -738,7 +762,8 @@ let
         "neoforge-26.1" = _Z5Tvt1FH;
         "neoforge-26.1.1" = _Z5Tvt1FH;
         "neoforge-26.1.2" = _adIqegwd;
-        "neoforge-26.2" = _QysNCnPz;
+        "neoforge-26.2" = _rceZddz7;
+        "neoforge-26.3" = _Y1Bn0JSH;
         "pkg-1.0.0.0" = _LIsW1Mc1;
         "pkg-1.0.0.3" = _urkySUfB;
         "pkg-1.0.0.8" = _TeWPzUr2;
@@ -858,7 +883,11 @@ let
         "pkg-1.21.1-1.2.8.3" = _BTvVdswl;
         "pkg-1.21.1-1.2.8.5" = _lJrqAHlN;
         "pkg-1.1.2.5" = _QysNCnPz;
-        "default" = _QysNCnPz;
+        "pkg-1.1.3.0" = _jb6kY6Vj;
+        "pkg-1.1.3.8" = _rceZddz7;
+        "pkg-26.3-1.1.4.0" = _HOYdOurL;
+        "pkg-26.3-1.1.4.2" = _Y1Bn0JSH;
+        "default" = _Y1Bn0JSH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chest-curio-items";

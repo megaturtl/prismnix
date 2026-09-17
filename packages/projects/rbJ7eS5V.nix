@@ -806,6 +806,16 @@ let
             "file" = "dcintegration-neoforge-MC26.2-3.2.0.jar";
             "hash" = "sha512-bWT9TxJknlUqCFJT/LMJavEZv9gv+otjDIA8uQBiEPXlPL8xzOVqRdSz2rTpInN+rfIxuyNximHBCigNYbbQhA==";
         };
+        _AzljeO7W = {
+            "id" = "AzljeO7W";
+            "file" = "dcintegration-fabric-MC26.2-3.2.1.jar";
+            "hash" = "sha512-oS+shzEg1e/4jAFlFhOakQibNtiLf6tU6SJhX04IP2Ou4ArXo1UQhbOP/JuERb2Uqke0ZU245GFtJnxzQTbx+Q==";
+        };
+        _4VhZjF6g = {
+            "id" = "4VhZjF6g";
+            "file" = "dcintegration-neoforge-MC26.2-3.2.1.jar";
+            "hash" = "sha512-C5mZ7M9RwJQ1iZ9tbY4Qnhy3/a831fTUkWhpbQYXwKa2/eNqAaPx+1DcqGsY5ib6WvUX4ttNeUUox6OpyOim5Q==";
+        };
     in {
         "bBrdm3Ha" = _bBrdm3Ha;
         "G1GaN6tZ" = _G1GaN6tZ;
@@ -968,6 +978,8 @@ let
         "gGnqUQG4" = _gGnqUQG4;
         "ZZwadcBm" = _ZZwadcBm;
         "XhLVNNyK" = _XhLVNNyK;
+        "AzljeO7W" = _AzljeO7W;
+        "4VhZjF6g" = _4VhZjF6g;
         "forge-1.16.4" = _bBrdm3Ha;
         "forge-1.16.5" = _ZNd0vTyv;
         "forge-1.12.2" = _xLuSqQki;
@@ -1009,7 +1021,7 @@ let
         "fabric-1.21.11" = _uokig5NB;
         "fabric-26.1.1" = _gGnqUQG4;
         "fabric-26.1.2" = _gGnqUQG4;
-        "fabric-26.2" = _ZZwadcBm;
+        "fabric-26.2" = _AzljeO7W;
         "paper-1.19.2" = _6IYYE6z9;
         "paper-1.19.3" = _ZrZ1nJXz;
         "paper-1.18.2" = _YjBjd4DI;
@@ -1037,7 +1049,7 @@ let
         "neoforge-1.21.11" = _cPnlVs9k;
         "neoforge-26.1.1" = _HPVODRyv;
         "neoforge-26.1.2" = _HPVODRyv;
-        "neoforge-26.2" = _XhLVNNyK;
+        "neoforge-26.2" = _4VhZjF6g;
         "pkg-2.1.0" = _bBrdm3Ha;
         "pkg-2.1.1" = _G1GaN6tZ;
         "pkg-2.2.0" = _rV7JyaFM;
@@ -1162,7 +1174,8 @@ let
         "pkg-3.2.0-1.21.11" = _cPnlVs9k;
         "pkg-3.2.0-26.1.2" = _gGnqUQG4;
         "pkg-3.2.0-26.2" = _XhLVNNyK;
-        "default" = _XhLVNNyK;
+        "pkg-3.2.1-26.2" = _4VhZjF6g;
+        "default" = _4VhZjF6g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dcintegration";

@@ -111,6 +111,16 @@ let
             "file" = "StringDuper-1.0.2.jar";
             "hash" = "sha512-qyLWFjej7tpcJA82Vj6qw6T4tjNfDrnjLEFMtkp2xpTT5t9ka9eMi2BmPrQ2AaqA2KEMocOM1VxSf4abaEMtxw==";
         };
+        _2FIKIC86 = {
+            "id" = "2FIKIC86";
+            "file" = "StringDuper-1.0.3.jar";
+            "hash" = "sha512-kRzYlS0+9vUC07wRGvBHQgGUEMeIBkYNgQI1haqIfayt6NsukfOxQoXs5LJgm5kOwPC4Dd8VWY+X2toweE351w==";
+        };
+        _3GCIQ6Ht = {
+            "id" = "3GCIQ6Ht";
+            "file" = "StringDuper-1.0.3.jar";
+            "hash" = "sha512-Wt/7XCx1qeuYKujMjN1g2CTl48TDCYQePbjimuBgT1dU4tO8njjddi22C1+Prd7aRDuyE2q3xA+CaXH1Lg39Sw==";
+        };
     in {
         "wDsrHLRy" = _wDsrHLRy;
         "ltLv6wvc" = _ltLv6wvc;
@@ -134,6 +144,8 @@ let
         "xcuIVr53" = _xcuIVr53;
         "MRNYwt2y" = _MRNYwt2y;
         "6lvaFLaY" = _6lvaFLaY;
+        "2FIKIC86" = _2FIKIC86;
+        "3GCIQ6Ht" = _3GCIQ6Ht;
         "forge-1.21.11" = _ylA36jqx;
         "forge-26.1" = _Q7zNy8Jj;
         "forge-26.1.1" = _Q7zNy8Jj;
@@ -166,6 +178,7 @@ let
         "fabric-1.21.8" = _X5N1eIui;
         "fabric-1.21.9" = _X5N1eIui;
         "fabric-1.21.10" = _X5N1eIui;
+        "fabric-26.3" = _2FIKIC86;
         "paper-1.21" = _xcuIVr53;
         "paper-1.21.1" = _xcuIVr53;
         "paper-1.21.2" = _xcuIVr53;
@@ -182,6 +195,7 @@ let
         "paper-26.1.1" = _MRNYwt2y;
         "paper-26.1.2" = _MRNYwt2y;
         "paper-26.2" = _6lvaFLaY;
+        "paper-26.3" = _3GCIQ6Ht;
         "purpur-1.21" = _xcuIVr53;
         "purpur-1.21.1" = _xcuIVr53;
         "purpur-1.21.2" = _xcuIVr53;
@@ -198,6 +212,7 @@ let
         "purpur-26.1.1" = _MRNYwt2y;
         "purpur-26.1.2" = _MRNYwt2y;
         "purpur-26.2" = _6lvaFLaY;
+        "purpur-26.3" = _3GCIQ6Ht;
         "spigot-1.21" = _ZH5Yo9LN;
         "spigot-1.21.1" = _ZH5Yo9LN;
         "spigot-1.21.2" = _ZH5Yo9LN;
@@ -213,7 +228,8 @@ let
         "pkg-1.0.0" = _xcuIVr53;
         "pkg-1.0.1" = _MRNYwt2y;
         "pkg-1.0.2" = _6lvaFLaY;
-        "default" = _6lvaFLaY;
+        "pkg-1.0.3" = _3GCIQ6Ht;
+        "default" = _3GCIQ6Ht;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "string-dupe";

@@ -41,6 +41,11 @@ let
             "file" = "yippee-silverfish-mc-26-2.zip";
             "hash" = "sha512-eQaYUlCYSnyeSWLenDlxKy5MN/Siwlpa8NRr5UyoeupznWlIiM1HJbhij4fG9gk/zsFx2+b1zvvRxGoRhDK6zg==";
         };
+        _VAmwTFRx = {
+            "id" = "VAmwTFRx";
+            "file" = "yippee-silverfish-v1-0-0-mc-26-3.zip";
+            "hash" = "sha512-iM6fYCS8FTR43vATZDblB0odY+8yx6tIlxzsAhWwVHtNY3O33w5DQq0XsQItHUgsLSnrmvpzGl2lFDETWWic3Q==";
+        };
     in {
         "Qa8g998l" = _Qa8g998l;
         "KnmWs6Fe" = _KnmWs6Fe;
@@ -50,6 +55,7 @@ let
         "iq7sekCe" = _iq7sekCe;
         "KikmUyiQ" = _KikmUyiQ;
         "X2rG60cs" = _X2rG60cs;
+        "VAmwTFRx" = _VAmwTFRx;
         "minecraft-1.7.2" = _sI9Y01mA;
         "minecraft-1.7.3" = _sI9Y01mA;
         "minecraft-1.7.4" = _sI9Y01mA;
@@ -126,13 +132,14 @@ let
         "minecraft-1.21.6" = _sI9Y01mA;
         "minecraft-1.21.7" = _sI9Y01mA;
         "minecraft-1.21.8" = _sI9Y01mA;
-        "minecraft-1.21.9" = _X2rG60cs;
-        "minecraft-1.21.10" = _X2rG60cs;
-        "minecraft-1.21.11" = _X2rG60cs;
-        "minecraft-26.1" = _X2rG60cs;
-        "minecraft-26.1.1" = _X2rG60cs;
-        "minecraft-26.1.2" = _X2rG60cs;
-        "minecraft-26.2" = _X2rG60cs;
+        "minecraft-1.21.9" = _VAmwTFRx;
+        "minecraft-1.21.10" = _VAmwTFRx;
+        "minecraft-1.21.11" = _VAmwTFRx;
+        "minecraft-26.1" = _VAmwTFRx;
+        "minecraft-26.1.1" = _VAmwTFRx;
+        "minecraft-26.1.2" = _VAmwTFRx;
+        "minecraft-26.2" = _VAmwTFRx;
+        "minecraft-26.3" = _VAmwTFRx;
         "pkg-v1.0.0-mc-1.21.4" = _Qa8g998l;
         "pkg-v1.0.0-mc-1.21.5" = _KnmWs6Fe;
         "pkg-v1.0.0-mc-1.21.6" = _UsBp0WbP;
@@ -141,7 +148,8 @@ let
         "pkg-v1.0.0-mc-1.21.11" = _iq7sekCe;
         "pkg-v1.0.0-mc-26.1" = _KikmUyiQ;
         "pkg-v1.0.0-mc-26.2" = _X2rG60cs;
-        "default" = _X2rG60cs;
+        "pkg-v1.0.0-mc-26.3" = _VAmwTFRx;
+        "default" = _VAmwTFRx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yippee-silverfish";

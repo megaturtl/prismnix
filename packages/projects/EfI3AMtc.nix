@@ -61,6 +61,16 @@ let
             "file" = "dont-destroy-suspicious-blocks-mcmeta-95_26.1.jar";
             "hash" = "sha512-JQlzIlx+0gswlDPHUYNwwWNSj5iNWGx53TBOQvmb+cI9DoAns8lsw7pv4ZigMqdhUg3gTJgQTC3GBTkcFUW9wQ==";
         };
+        _Q5MaaYoS = {
+            "id" = "Q5MaaYoS";
+            "file" = "Don't destroy Suspicious blocks-26.1-26.3.zip";
+            "hash" = "sha512-JSS0OnaSZ7lfuvh0ir1UOPmFWlCCXqXQFCTWpm294pVQsUZKeGezR4e1Ac89+Tw48mfL2nx5ighp1MHX8pq5Mg==";
+        };
+        _WWNfjEok = {
+            "id" = "WWNfjEok";
+            "file" = "dont-destroy-suspicious-blocks-26.1-26.3.jar";
+            "hash" = "sha512-M8hRkl1napLbkLONb0SgynAo3Uxb4E+i9EBsK1xYyZa1S2UeT4GxZScXUfE7bnDtrm33/mi7zObnBLPGyHiOVg==";
+        };
     in {
         "zCtgslui" = _zCtgslui;
         "3AGMb9Sm" = _3AGMb9Sm;
@@ -74,6 +84,8 @@ let
         "a2slcg07" = _a2slcg07;
         "XTBJZGBb" = _XTBJZGBb;
         "owUMSOJR" = _owUMSOJR;
+        "Q5MaaYoS" = _Q5MaaYoS;
+        "WWNfjEok" = _WWNfjEok;
         "datapack-1.19.4" = _rCNioMEv;
         "datapack-1.20" = _rCNioMEv;
         "datapack-1.20.1" = _rCNioMEv;
@@ -94,10 +106,11 @@ let
         "datapack-1.21.9" = _5xpqDOdZ;
         "datapack-1.21.10" = _5xpqDOdZ;
         "datapack-1.21.11" = _5xpqDOdZ;
-        "datapack-26.1" = _XTBJZGBb;
-        "datapack-26.1.1" = _XTBJZGBb;
-        "datapack-26.1.2" = _XTBJZGBb;
-        "datapack-26.2" = _XTBJZGBb;
+        "datapack-26.1" = _Q5MaaYoS;
+        "datapack-26.1.1" = _Q5MaaYoS;
+        "datapack-26.1.2" = _Q5MaaYoS;
+        "datapack-26.2" = _Q5MaaYoS;
+        "datapack-26.3" = _Q5MaaYoS;
         "fabric-1.19.4" = _XBdnjA2k;
         "fabric-1.20" = _XBdnjA2k;
         "fabric-1.20.1" = _XBdnjA2k;
@@ -118,10 +131,11 @@ let
         "fabric-1.21.9" = _a2slcg07;
         "fabric-1.21.10" = _a2slcg07;
         "fabric-1.21.11" = _a2slcg07;
-        "fabric-26.1" = _owUMSOJR;
-        "fabric-26.1.1" = _owUMSOJR;
-        "fabric-26.1.2" = _owUMSOJR;
-        "fabric-26.2" = _owUMSOJR;
+        "fabric-26.1" = _WWNfjEok;
+        "fabric-26.1.1" = _WWNfjEok;
+        "fabric-26.1.2" = _WWNfjEok;
+        "fabric-26.2" = _WWNfjEok;
+        "fabric-26.3" = _WWNfjEok;
         "forge-1.19.4" = _XBdnjA2k;
         "forge-1.20" = _XBdnjA2k;
         "forge-1.20.1" = _XBdnjA2k;
@@ -142,10 +156,11 @@ let
         "forge-1.21.9" = _a2slcg07;
         "forge-1.21.10" = _a2slcg07;
         "forge-1.21.11" = _a2slcg07;
-        "forge-26.1" = _owUMSOJR;
-        "forge-26.1.1" = _owUMSOJR;
-        "forge-26.1.2" = _owUMSOJR;
-        "forge-26.2" = _owUMSOJR;
+        "forge-26.1" = _WWNfjEok;
+        "forge-26.1.1" = _WWNfjEok;
+        "forge-26.1.2" = _WWNfjEok;
+        "forge-26.2" = _WWNfjEok;
+        "forge-26.3" = _WWNfjEok;
         "quilt-1.19.4" = _XBdnjA2k;
         "quilt-1.20" = _XBdnjA2k;
         "quilt-1.20.1" = _XBdnjA2k;
@@ -166,10 +181,11 @@ let
         "quilt-1.21.9" = _a2slcg07;
         "quilt-1.21.10" = _a2slcg07;
         "quilt-1.21.11" = _a2slcg07;
-        "quilt-26.1" = _owUMSOJR;
-        "quilt-26.1.1" = _owUMSOJR;
-        "quilt-26.1.2" = _owUMSOJR;
-        "quilt-26.2" = _owUMSOJR;
+        "quilt-26.1" = _WWNfjEok;
+        "quilt-26.1.1" = _WWNfjEok;
+        "quilt-26.1.2" = _WWNfjEok;
+        "quilt-26.2" = _WWNfjEok;
+        "quilt-26.3" = _WWNfjEok;
         "neoforge-1.21" = _KMbb9Jy1;
         "neoforge-1.21.1" = _KMbb9Jy1;
         "neoforge-1.21.2" = _KMbb9Jy1;
@@ -182,10 +198,11 @@ let
         "neoforge-1.21.9" = _a2slcg07;
         "neoforge-1.21.10" = _a2slcg07;
         "neoforge-1.21.11" = _a2slcg07;
-        "neoforge-26.1" = _owUMSOJR;
-        "neoforge-26.1.1" = _owUMSOJR;
-        "neoforge-26.1.2" = _owUMSOJR;
-        "neoforge-26.2" = _owUMSOJR;
+        "neoforge-26.1" = _WWNfjEok;
+        "neoforge-26.1.1" = _WWNfjEok;
+        "neoforge-26.1.2" = _WWNfjEok;
+        "neoforge-26.2" = _WWNfjEok;
+        "neoforge-26.3" = _WWNfjEok;
         "pkg-mcmeta-12-26_1.19.4-1.20.4" = _3AGMb9Sm;
         "pkg-mcmeta-12-41_1.19.4-1.20.6" = _rCNioMEv;
         "pkg-mcmeta-12-41_1.19.4-1.20.6+mod" = _XBdnjA2k;
@@ -197,7 +214,9 @@ let
         "pkg-mcmeta-88_1.21.9+mod" = _a2slcg07;
         "pkg-mcmeta-95_26.1" = _XTBJZGBb;
         "pkg-mcmeta-95_26.1+mod" = _owUMSOJR;
-        "default" = _owUMSOJR;
+        "pkg-26.1-26.3" = _Q5MaaYoS;
+        "pkg-26.1-26.3+mod" = _WWNfjEok;
+        "default" = _WWNfjEok;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dont-destroy-suspicious-blocks";

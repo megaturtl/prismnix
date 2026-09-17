@@ -51,6 +51,11 @@ let
             "file" = "creeperconfetti-1.2.1+26.1-neoforge.jar";
             "hash" = "sha512-dMmxcBkY3B2LztbQg7WBBFXwl3vwTikKU4mLFNM12xaC2uXWOiRU+sHfGoefqa0+4UH92gMZSh+pGXV+HyORBQ==";
         };
+        _AtTiApfF = {
+            "id" = "AtTiApfF";
+            "file" = "creeperconfetti-1.2.1+26.3-rc-1-fabric.jar";
+            "hash" = "sha512-mLr9tki3BOC17d2NojRHA3gi1A7I3VrYxf99I/j+qV0eJwV09o19d36zo04rk77cDdNZTVJ5uNUfT44TTBP9RQ==";
+        };
     in {
         "xTfwCTH4" = _xTfwCTH4;
         "JKxGxydJ" = _JKxGxydJ;
@@ -62,6 +67,7 @@ let
         "w6Xy7apc" = _w6Xy7apc;
         "jNtM9McN" = _jNtM9McN;
         "v4OhRgG1" = _v4OhRgG1;
+        "AtTiApfF" = _AtTiApfF;
         "fabric-1.21" = _xTfwCTH4;
         "fabric-1.21.1" = _xTfwCTH4;
         "fabric-1.21.2" = _JKxGxydJ;
@@ -117,6 +123,10 @@ let
         "fabric-26.2-rc-1" = _jNtM9McN;
         "fabric-26.2-rc-2" = _jNtM9McN;
         "fabric-26.2" = _jNtM9McN;
+        "fabric-26.3-rc-1" = _AtTiApfF;
+        "fabric-26.3-rc-2" = _AtTiApfF;
+        "fabric-26.3-rc-3" = _AtTiApfF;
+        "fabric-26.3" = _AtTiApfF;
         "neoforge-1.21" = _xTfwCTH4;
         "neoforge-1.21.1" = _xTfwCTH4;
         "neoforge-1.21.2" = _JKxGxydJ;
@@ -159,7 +169,8 @@ let
         "pkg-1.1.0+1.21.11" = _tM03JNxm;
         "pkg-1.2.1+26.1-fabric" = _jNtM9McN;
         "pkg-1.2.1+26.1-neoforge" = _v4OhRgG1;
-        "default" = _v4OhRgG1;
+        "pkg-1.2.1+26.3-rc-1-fabric" = _AtTiApfF;
+        "default" = _AtTiApfF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "creeperconfetti+";

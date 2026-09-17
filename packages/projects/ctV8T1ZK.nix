@@ -116,6 +116,21 @@ let
             "file" = "justenoughbackups-1.2.0.4+26.2.jar";
             "hash" = "sha512-mWQ0iwiFKgcHqaSZUiRF0r4RY9ZUnGVNFWJWfhHPwr7DuIw5KxDpDkDNDdzgZ52vhN+4viGvDuID2JnD5VR1Fg==";
         };
+        _OUhwrBpP = {
+            "id" = "OUhwrBpP";
+            "file" = "justenoughbackups-1.2.0.5+26.1.jar";
+            "hash" = "sha512-Izp6jY+xshgBOFbv4EcDW1ZRUIBCRlzlXMH+55P5jaTp9Hwz/WMfCwh0TpnK8kqJ6OoQyoC2HB0yLwU+z1ZqlQ==";
+        };
+        _n1Jc09sK = {
+            "id" = "n1Jc09sK";
+            "file" = "justenoughbackups-1.2.0.6+26.2.jar";
+            "hash" = "sha512-kpNehg3Fu19HIp/PuWuAjyLy4ue+Mw4it6WAIoTMqCveva/GRaF/pQvY1wwFnydswbdfrM+yheyuVxTmB+rnDw==";
+        };
+        _gVN4FMOX = {
+            "id" = "gVN4FMOX";
+            "file" = "justenoughbackups-1.2.0.7+26.3.jar";
+            "hash" = "sha512-rT0OMutXKzS+Pl6qmBkHgfk0PxagJI4XvHbm6CBvXHXxSiJWY953KzlUuFKSHtunG1g4ZubJbNBLnR8+4qFkmg==";
+        };
     in {
         "1J6KQmG8" = _1J6KQmG8;
         "sgOUGPSD" = _sgOUGPSD;
@@ -140,22 +155,26 @@ let
         "RlgFwMqY" = _RlgFwMqY;
         "K4R3P11T" = _K4R3P11T;
         "HSn1pOY7" = _HSn1pOY7;
+        "OUhwrBpP" = _OUhwrBpP;
+        "n1Jc09sK" = _n1Jc09sK;
+        "gVN4FMOX" = _gVN4FMOX;
         "fabric-1.21" = _1J6KQmG8;
         "fabric-1.21.1" = _2Kdl4TIp;
         "fabric-1.21.2" = _e8mAOB50;
         "fabric-1.21.3" = _WNmqdisb;
         "fabric-1.21.4" = _uRhqhvQD;
         "fabric-1.21.5" = _3wU7GM0h;
-        "fabric-26.1" = _wiqjTyN5;
-        "fabric-26.1.1" = _wiqjTyN5;
-        "fabric-26.1.2" = _wiqjTyN5;
+        "fabric-26.1" = _OUhwrBpP;
+        "fabric-26.1.1" = _OUhwrBpP;
+        "fabric-26.1.2" = _OUhwrBpP;
         "fabric-1.21.6" = _eG8TRe7G;
         "fabric-1.21.7" = _4mk9oT4z;
         "fabric-1.21.8" = _sry5UzwL;
         "fabric-1.21.9" = _ehbk5awe;
         "fabric-1.21.10" = _W4gmJwrM;
         "fabric-1.21.11" = _WWeNmZWI;
-        "fabric-26.2" = _HSn1pOY7;
+        "fabric-26.2" = _n1Jc09sK;
+        "fabric-26.3" = _gVN4FMOX;
         "pkg-1.0.0+1.21" = _1J6KQmG8;
         "pkg-1.0.1+1.21.1" = _sgOUGPSD;
         "pkg-1.0.1.1+1.21.1" = _2Kdl4TIp;
@@ -179,7 +198,10 @@ let
         "pkg-1.2.0.2+26.2" = _RlgFwMqY;
         "pkg-1.2.0.3+26.2" = _K4R3P11T;
         "pkg-1.2.0.4+26.2" = _HSn1pOY7;
-        "default" = _HSn1pOY7;
+        "pkg-1.2.0.5+26.1" = _OUhwrBpP;
+        "pkg-1.2.0.6+26.2" = _n1Jc09sK;
+        "pkg-1.2.0.7+26.3" = _gVN4FMOX;
+        "default" = _gVN4FMOX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "justenoughbackups-jeb";

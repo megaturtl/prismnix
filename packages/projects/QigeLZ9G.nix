@@ -186,6 +186,16 @@ let
             "file" = "nofishinghook-1.0+26.2-fabric.jar";
             "hash" = "sha512-jq7wNdpuhhGozlFu22jbHn8T5X+7Gx302ZXk5vTucDZCbrxXCq9vHZAodXjqTvDT5UeBb2QwxrnqMj9jYf66NA==";
         };
+        _Wub0FXye = {
+            "id" = "Wub0FXye";
+            "file" = "nofishinghook-1.0+26.3-fabric.jar";
+            "hash" = "sha512-q1dUvOtEo+Egotnzo9BewTXjCc5gwJCVARJTECXZWMv5bpLRIguahhrzB2xBC0jq0f6rdqRWojZNJeDTSBY7pQ==";
+        };
+        _jUgDWdz5 = {
+            "id" = "jUgDWdz5";
+            "file" = "nofishinghook-1.0+26.3-neoforge.jar";
+            "hash" = "sha512-xqsybw81Ub86lWy9P3AvxnzvNd55X1ijf7RpJ0/9dmea8gXCd1KPDIm3s4xZOayrJ11TDt8daovryDMMeH0EAA==";
+        };
     in {
         "eVmo5Ui6" = _eVmo5Ui6;
         "lRghGpTE" = _lRghGpTE;
@@ -224,6 +234,8 @@ let
         "AYe1jfIx" = _AYe1jfIx;
         "GYAvVbkJ" = _GYAvVbkJ;
         "Cvf04TC8" = _Cvf04TC8;
+        "Wub0FXye" = _Wub0FXye;
+        "jUgDWdz5" = _jUgDWdz5;
         "forge-1.19" = _eVmo5Ui6;
         "forge-1.19.1" = _eVmo5Ui6;
         "forge-1.19.2" = _eVmo5Ui6;
@@ -270,6 +282,7 @@ let
         "neoforge-26.1.1" = _1ASlJNY7;
         "neoforge-26.1.2" = _1ASlJNY7;
         "neoforge-26.2" = _GYAvVbkJ;
+        "neoforge-26.3" = _jUgDWdz5;
         "fabric-1.18" = _Dqz4gR4f;
         "fabric-1.18.1" = _Dqz4gR4f;
         "fabric-1.18.2" = _Dqz4gR4f;
@@ -301,6 +314,7 @@ let
         "fabric-26.1.1" = _AYe1jfIx;
         "fabric-26.1.2" = _AYe1jfIx;
         "fabric-26.2" = _Cvf04TC8;
+        "fabric-26.3" = _Wub0FXye;
         "quilt-1.18" = _Dqz4gR4f;
         "quilt-1.18.1" = _Dqz4gR4f;
         "quilt-1.18.2" = _Dqz4gR4f;
@@ -332,6 +346,7 @@ let
         "quilt-26.1.1" = _AYe1jfIx;
         "quilt-26.1.2" = _AYe1jfIx;
         "quilt-26.2" = _Cvf04TC8;
+        "quilt-26.3" = _Wub0FXye;
         "pkg-1.0+1.19-forge" = _eVmo5Ui6;
         "pkg-1.0+1.20-forge" = _lRghGpTE;
         "pkg-1.0+1.20.5-forge" = _qnSBTi0C;
@@ -369,7 +384,9 @@ let
         "pkg-1.0+26.1-fabric" = _AYe1jfIx;
         "pkg-1.0+26.2-neoforge" = _GYAvVbkJ;
         "pkg-1.0+26.2-fabric" = _Cvf04TC8;
-        "default" = _Cvf04TC8;
+        "pkg-1.0+26.3-fabric" = _Wub0FXye;
+        "pkg-1.0+26.3-neoforge" = _jUgDWdz5;
+        "default" = _jUgDWdz5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nofishinghook";

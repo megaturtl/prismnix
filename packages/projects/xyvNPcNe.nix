@@ -101,6 +101,11 @@ let
             "file" = "christmas-chests-all-year-26.2-88.0.zip";
             "hash" = "sha512-RARkDKopreSLak0mMEc9LOXsnFfmvp964ZedO1eUPMY/We9Gp8cBwZoAPtFB9F0X2qarNun+fv+EgAHFpACf9g==";
         };
+        _RoTFTdxl = {
+            "id" = "RoTFTdxl";
+            "file" = "christmas-chests-all-year-1.1.2-mc26.3.zip";
+            "hash" = "sha512-E1dFVQoCJLYmacJVDihSQk6f9vDgzWMZNX7I3qXnvY3oqUPAEtpowS9ljQ8mC7ZhovretIqzUVimClNnVzpefw==";
+        };
     in {
         "nJEGqPIm" = _nJEGqPIm;
         "SCVTI6iY" = _SCVTI6iY;
@@ -122,6 +127,7 @@ let
         "5zZ9v0by" = _5zZ9v0by;
         "JLy5TVKh" = _JLy5TVKh;
         "l1GKXrLq" = _l1GKXrLq;
+        "RoTFTdxl" = _RoTFTdxl;
         "minecraft-1.19" = _nJEGqPIm;
         "minecraft-1.19.1" = _nJEGqPIm;
         "minecraft-1.19.2" = _nJEGqPIm;
@@ -156,6 +162,7 @@ let
         "minecraft-26.1.1" = _JLy5TVKh;
         "minecraft-26.1.2" = _JLy5TVKh;
         "minecraft-26.2" = _l1GKXrLq;
+        "minecraft-26.3" = _RoTFTdxl;
         "pkg-9" = _nJEGqPIm;
         "pkg-12" = _SCVTI6iY;
         "pkg-11" = _br2lgWNv;
@@ -176,7 +183,8 @@ let
         "pkg-75.0-alpha-29.12.25" = _5zZ9v0by;
         "pkg-84.0-alpha-25.03.26" = _JLy5TVKh;
         "pkg-88.0-alpha-18.06.26" = _l1GKXrLq;
-        "default" = _l1GKXrLq;
+        "pkg-1.1.2" = _RoTFTdxl;
+        "default" = _RoTFTdxl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "christmas-chests-all-year";

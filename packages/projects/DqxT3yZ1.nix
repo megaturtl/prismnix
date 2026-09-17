@@ -91,6 +91,16 @@ let
             "file" = "create_labor-1.5.2-forge-1.20.1.jar";
             "hash" = "sha512-GoKueIeIbiMGQ2uRf2NfhgLJFU2g7gChEqCco+NRPIASFGJmpl1tjozOifyr7aMak2Wf9kMopf6rN1eOhoLqqA==";
         };
+        _9uoR4NYS = {
+            "id" = "9uoR4NYS";
+            "file" = "create_labor-1.5.2.1-forge-1.20.1.jar";
+            "hash" = "sha512-9KpHj6MZ35wglTzyeY0vttxDcHL6IzWUHLrMMOjETEY7lFcZ0BLk4ViLEtTqA5koiDVZVz8qB6ppCfGIQ/YY7w==";
+        };
+        _NXsoS5Ud = {
+            "id" = "NXsoS5Ud";
+            "file" = "create_labor-1.5.2.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-/3yJ07y3RIpRBsYwolYV5Ldql68vDlTOkSbhSfsIhQOZfqngwAmDaaaxNvUNIS7LbAc+dIX3NFj815SuyYSi9w==";
+        };
     in {
         "gB4WKJw9" = _gB4WKJw9;
         "PwRsQwPj" = _PwRsQwPj;
@@ -110,8 +120,10 @@ let
         "Xsf6CfPy" = _Xsf6CfPy;
         "GptRguFh" = _GptRguFh;
         "G8qRizDj" = _G8qRizDj;
-        "neoforge-1.21.1" = _GptRguFh;
-        "forge-1.20.1" = _G8qRizDj;
+        "9uoR4NYS" = _9uoR4NYS;
+        "NXsoS5Ud" = _NXsoS5Ud;
+        "neoforge-1.21.1" = _NXsoS5Ud;
+        "forge-1.20.1" = _9uoR4NYS;
         "pkg-1.0.0" = _gB4WKJw9;
         "pkg-1.1.0" = _PwRsQwPj;
         "pkg-1.2.0" = _zYv8YT9L;
@@ -129,7 +141,9 @@ let
         "pkg-1.5.0.1-neoforge-1.21.1" = _Xsf6CfPy;
         "pkg-1.5.2-neoforge-1.21.1" = _GptRguFh;
         "pkg-1.5.2-forge-1.20.1" = _G8qRizDj;
-        "default" = _G8qRizDj;
+        "pkg-1.5.2.1-forge-1.20.1" = _9uoR4NYS;
+        "pkg-1.5.2.1-neoforge-1.21.1" = _NXsoS5Ud;
+        "default" = _NXsoS5Ud;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-villager-labor";

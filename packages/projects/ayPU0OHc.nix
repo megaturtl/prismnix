@@ -436,6 +436,16 @@ let
             "file" = "structure_layout_optimizer-1.1.5+1.21.9-neoforge.jar";
             "hash" = "sha512-lqHHqGadH68999+erVFQfgu0gmU7ovSV8gOE7eJYx8udenPKpvNRJfTiAcZqjHsjmS6GoKqH6WsLMbtP+HpX1g==";
         };
+        _N47yt6NT = {
+            "id" = "N47yt6NT";
+            "file" = "structure_layout_optimizer-1.1.4+26.3-neoforge.jar";
+            "hash" = "sha512-ARB7XGL3NeX3V4Vo9j/GBeRW12QjoRGtVb0jpEuARl4BX2wGc/Byh1OGYq9ggbE3juESKI78t8K9CrtH0GfWww==";
+        };
+        _crWm7jXS = {
+            "id" = "crWm7jXS";
+            "file" = "structure_layout_optimizer-1.1.4+26.3-fabric.jar";
+            "hash" = "sha512-QSlHJid8md1rJ/4E7HftNgNJZS0TkLbvoAzyVfgjDibBMKbil7LyNGTPS9S+mhTXAyoxf62hi650FGlV1Kycqg==";
+        };
     in {
         "i3mYjHXc" = _i3mYjHXc;
         "tyiHVUXJ" = _tyiHVUXJ;
@@ -524,6 +534,8 @@ let
         "JwbecFqq" = _JwbecFqq;
         "KghJNqLx" = _KghJNqLx;
         "vsCIQgHe" = _vsCIQgHe;
+        "N47yt6NT" = _N47yt6NT;
+        "crWm7jXS" = _crWm7jXS;
         "neoforge-1.21.1" = _eTz03Gfd;
         "neoforge-1.21" = _tyiHVUXJ;
         "neoforge-1.21.4" = _eDF0meWQ;
@@ -538,6 +550,7 @@ let
         "neoforge-26.1.1" = _KghJNqLx;
         "neoforge-26.1.2" = _KghJNqLx;
         "neoforge-26.2" = _KghJNqLx;
+        "neoforge-26.3" = _N47yt6NT;
         "forge-1.16.5" = _HVJnzbjE;
         "forge-1.18.2" = _nJBJCXI6;
         "forge-1.19.2" = _wpAWKJ20;
@@ -561,6 +574,7 @@ let
         "fabric-26.1.1" = _JwbecFqq;
         "fabric-26.1.2" = _JwbecFqq;
         "fabric-26.2" = _JwbecFqq;
+        "fabric-26.3" = _crWm7jXS;
         "pkg-1.0.0+1.21.1" = _i3mYjHXc;
         "pkg-1.0.1+1.21.1" = _tyiHVUXJ;
         "pkg-1.0.2+1.21.1" = _TBa2YcZi;
@@ -639,7 +653,9 @@ let
         "pkg-1.1.4+26.1-fabric" = _JwbecFqq;
         "pkg-1.1.4+26.1-neoforge" = _KghJNqLx;
         "pkg-1.1.5+1.21.9-neoforge" = _vsCIQgHe;
-        "default" = _vsCIQgHe;
+        "pkg-1.1.4+26.3-neoforge" = _N47yt6NT;
+        "pkg-1.1.4+26.3-fabric" = _crWm7jXS;
+        "default" = _crWm7jXS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "structure-layout-optimizer";

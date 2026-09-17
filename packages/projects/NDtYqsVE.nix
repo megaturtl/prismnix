@@ -61,6 +61,11 @@ let
             "file" = "foodstats-3.0.0.jar";
             "hash" = "sha512-Y1SNU+6Eu1b4utp3OlywOrUhkMU1HWkFw27zxTDvpDj0cHUuZNHfNO60ohCYSTO6S3mzDGbmSJHSMTTynBSNVw==";
         };
+        _RMEBInRi = {
+            "id" = "RMEBInRi";
+            "file" = "foodstats-3.0.1.jar";
+            "hash" = "sha512-FqX05aZBpMqRfpCWsEhxDyz+lcgpa2AyiGFfz6gf35Bh70vxKWzAVt2wyJXsMeCpTXFFGj+FQUPFzjIF68jAhw==";
+        };
     in {
         "wgz1TCm3" = _wgz1TCm3;
         "7HA6RlIU" = _7HA6RlIU;
@@ -74,7 +79,8 @@ let
         "bZ59WC83" = _bZ59WC83;
         "63Z76OZN" = _63Z76OZN;
         "qI0W284d" = _qI0W284d;
-        "forge-1.20.1" = _qI0W284d;
+        "RMEBInRi" = _RMEBInRi;
+        "forge-1.20.1" = _RMEBInRi;
         "neoforge-1.21.1" = _63Z76OZN;
         "pkg-2.0.0" = _wgz1TCm3;
         "pkg-2.1.0" = _7HA6RlIU;
@@ -87,7 +93,8 @@ let
         "pkg-3.0.3" = _bZ59WC83;
         "pkg-3.0.4" = _63Z76OZN;
         "pkg-forge-3.0.0" = _qI0W284d;
-        "default" = _qI0W284d;
+        "pkg-forge-3.0.1" = _RMEBInRi;
+        "default" = _RMEBInRi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "foodstats";

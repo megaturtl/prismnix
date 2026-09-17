@@ -346,6 +346,41 @@ let
             "file" = "effecttimerplus-neoforge-3.103.0+26.2.jar";
             "hash" = "sha512-PdncUSjSY6ciT3rxzBTfXlQGleh3lx2bO+I3EkK9/8DhDYI6cqvrAqI/E6eK2603FBJEEr/CtGFoCCOFWefcKA==";
         };
+        _j6d7PfWN = {
+            "id" = "j6d7PfWN";
+            "file" = "effecttimerplus-neoforge-3.102.2+26.1.2.jar";
+            "hash" = "sha512-JeYn58W0sxh6wuZstO67iU2I22bxziWBmoPilMj7It3Hm9OJb2tByUsbykULY7gRvkItGrOrsFe3WFWmN70Saw==";
+        };
+        _poU5FAeC = {
+            "id" = "poU5FAeC";
+            "file" = "effecttimerplus-fabric-3.102.2+26.1.2.jar";
+            "hash" = "sha512-CHdkQs2ks89Jr19HWoZ3EAuRR9R2idq2xTAoe8O3bLUTPUJQwn12X1Nyq6cNAAkXPBEXjDbKx92tWuzJyRrq5A==";
+        };
+        _dzDYpI9d = {
+            "id" = "dzDYpI9d";
+            "file" = "effecttimerplus-neoforge-3.103.1+26.2.jar";
+            "hash" = "sha512-d9P/3N4PBr5Xn6vjIwYjaF6OdONvaQT5Z47SpykBn8bsZaEtzQ7VrM8zF02UBpGcyLlUTiE/IGxpOQPZ2AKfHQ==";
+        };
+        _4B6aXjsh = {
+            "id" = "4B6aXjsh";
+            "file" = "effecttimerplus-fabric-3.103.1+26.2.jar";
+            "hash" = "sha512-qX3tHLogo8XcbMHRJa+7uI3LkpsvpMlGoU+oXZfy6E6eDii0ys+a5OuxpQ1h8n5dxXO0XlxzyJ+4RLhzzAGcTQ==";
+        };
+        _uIdK3DSk = {
+            "id" = "uIdK3DSk";
+            "file" = "effecttimerplus-fabric-3.104.0-beta.1+26.3-rc-2.jar";
+            "hash" = "sha512-CcrirDRQ2XAaCiJ1Htj4Z8cCQ4XpZAFI3p2v5N2dZgPJdaiMuEPlqOt+R0rMIeMwFs6eYUpE4oN0Baifbxsx3g==";
+        };
+        _erie7izD = {
+            "id" = "erie7izD";
+            "file" = "effecttimerplus-neoforge-3.104.0+26.3.jar";
+            "hash" = "sha512-eyofeKuqLVzt/X7ApkLMNpMHHFrJ9VJfRwLcCyOjzExRVSMFN7POCxaGKSdyq/cBDGKyPOXqrADCD7qvPbg7CA==";
+        };
+        _ai7zllYU = {
+            "id" = "ai7zllYU";
+            "file" = "effecttimerplus-fabric-3.104.0+26.3.jar";
+            "hash" = "sha512-gUIKM5OwVwfOU6vK0PGcBDjksSBZGG8zWl8ACGyXfHyxvKZ6NEz0l3d3Ildm3sebeRu2wsJPKN4q14sP8SInNw==";
+        };
     in {
         "NeKdb8AO" = _NeKdb8AO;
         "PWEAt413" = _PWEAt413;
@@ -416,6 +451,13 @@ let
         "PVp3DbT5" = _PVp3DbT5;
         "MBD0nPV7" = _MBD0nPV7;
         "CmWd8qb2" = _CmWd8qb2;
+        "j6d7PfWN" = _j6d7PfWN;
+        "poU5FAeC" = _poU5FAeC;
+        "dzDYpI9d" = _dzDYpI9d;
+        "4B6aXjsh" = _4B6aXjsh;
+        "uIdK3DSk" = _uIdK3DSk;
+        "erie7izD" = _erie7izD;
+        "ai7zllYU" = _ai7zllYU;
         "forge-1.20" = _vEMXhS91;
         "forge-1.20.1" = _vEMXhS91;
         "forge-1.20.2" = _wLsM1u0r;
@@ -438,10 +480,11 @@ let
         "neoforge-1.21.9" = _r6y9GfQE;
         "neoforge-1.21.10" = _r6y9GfQE;
         "neoforge-1.21.11" = _j5rkBUQe;
-        "neoforge-26.1" = _PVp3DbT5;
-        "neoforge-26.1.1" = _PVp3DbT5;
-        "neoforge-26.1.2" = _PVp3DbT5;
-        "neoforge-26.2" = _CmWd8qb2;
+        "neoforge-26.1" = _j6d7PfWN;
+        "neoforge-26.1.1" = _j6d7PfWN;
+        "neoforge-26.1.2" = _j6d7PfWN;
+        "neoforge-26.2" = _dzDYpI9d;
+        "neoforge-26.3" = _erie7izD;
         "fabric-1.20" = _gdKGYas3;
         "fabric-1.20.1" = _gdKGYas3;
         "fabric-1.20.2" = _HwmxBV6e;
@@ -461,16 +504,19 @@ let
         "fabric-1.21.9" = _Xsz431bs;
         "fabric-1.21.10" = _Xsz431bs;
         "fabric-1.21.11" = _5mBLMYSY;
-        "fabric-26.1" = _iy6kjMCR;
-        "fabric-26.1.1" = _iy6kjMCR;
-        "fabric-26.1.2" = _iy6kjMCR;
+        "fabric-26.1" = _poU5FAeC;
+        "fabric-26.1.1" = _poU5FAeC;
+        "fabric-26.1.2" = _poU5FAeC;
         "fabric-26.2-pre-2" = _8qZ9wAve;
         "fabric-26.2-pre-3" = _8qZ9wAve;
         "fabric-26.2-pre-4" = _8qZ9wAve;
         "fabric-26.2-pre-5" = _8qZ9wAve;
         "fabric-26.2-rc-1" = _8qZ9wAve;
         "fabric-26.2-rc-2" = _8qZ9wAve;
-        "fabric-26.2" = _MBD0nPV7;
+        "fabric-26.2" = _4B6aXjsh;
+        "fabric-26.3-rc-2" = _uIdK3DSk;
+        "fabric-26.3-rc-3" = _uIdK3DSk;
+        "fabric-26.3" = _ai7zllYU;
         "quilt-1.20" = _gdKGYas3;
         "quilt-1.20.1" = _gdKGYas3;
         "quilt-1.20.2" = _HwmxBV6e;
@@ -508,7 +554,11 @@ let
         "pkg-3.3.0-beta.1+26.2-pre-2" = _8qZ9wAve;
         "pkg-3.102.1+26.1.2" = _PVp3DbT5;
         "pkg-3.103.0+26.2" = _CmWd8qb2;
-        "default" = _CmWd8qb2;
+        "pkg-3.102.2+26.1.2" = _poU5FAeC;
+        "pkg-3.103.1+26.2" = _4B6aXjsh;
+        "pkg-3.104.0-beta.1+26.3-rc-2" = _uIdK3DSk;
+        "pkg-3.104.0+26.3" = _ai7zllYU;
+        "default" = _ai7zllYU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "effecttimerplus";

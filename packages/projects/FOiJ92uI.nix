@@ -291,6 +291,16 @@ let
             "file" = "Too_Many_Bows-fabric-1.0.0-26.2.jar";
             "hash" = "sha512-Fy5WlwvXeP+ykw0IEYjmWTEoWd5yjnr3Wvlvvu/dwnwPbGwbeLmOCnYNLCfYvqmINz9BDPvw/Eod/dOJPTnPHg==";
         };
+        _TxzN5XdB = {
+            "id" = "TxzN5XdB";
+            "file" = "Too_Many_Bows-neoforge-1.0.1-26.2.jar";
+            "hash" = "sha512-CZWS6BGrpgQk1y47maY1NL8YIwdh2zKqUVoG/rk4rPAzKHLNbfV0x85AVEeAIm3pZz46Kms2TwDV94pU3pQ0tw==";
+        };
+        _zMwXfBYb = {
+            "id" = "zMwXfBYb";
+            "file" = "Too_Many_Bows-fabric-1.0.1-26.2.jar";
+            "hash" = "sha512-eGGOBbMya8FkXqiVWjwMZlMgBX7ORCjTNcHNpOWRmtUL07dyg2i8UqIlaeRAmUQTCPed8pJy2Dpc1nGe3NXBFw==";
+        };
     in {
         "77vijU0K" = _77vijU0K;
         "2a4Bxsz5" = _2a4Bxsz5;
@@ -350,6 +360,8 @@ let
         "GIfvkNxL" = _GIfvkNxL;
         "DiyH3JeP" = _DiyH3JeP;
         "UGdmK4xA" = _UGdmK4xA;
+        "TxzN5XdB" = _TxzN5XdB;
+        "zMwXfBYb" = _zMwXfBYb;
         "forge-1.20.1" = _Fm3GZCtB;
         "neoforge-1.20.1" = _hOaD9tdO;
         "neoforge-1.21.1" = _jkgwiMjB;
@@ -357,7 +369,7 @@ let
         "neoforge-1.21" = _pSPpjheZ;
         "neoforge-1.21.11" = _xw5hv2ks;
         "neoforge-26.1.2" = _zlAtiwYG;
-        "neoforge-26.2" = _DiyH3JeP;
+        "neoforge-26.2" = _TxzN5XdB;
         "fabric-1.20.1" = _Q6W16EM2;
         "fabric-1.20.2" = _2a4Bxsz5;
         "fabric-1.21.1" = _zKubAYDp;
@@ -365,7 +377,7 @@ let
         "fabric-1.21" = _jvjSKvWK;
         "fabric-1.21.11" = _nd0WUgDb;
         "fabric-26.1.2" = _GIfvkNxL;
-        "fabric-26.2" = _UGdmK4xA;
+        "fabric-26.2" = _zMwXfBYb;
         "pkg-1.2.4" = _2a4Bxsz5;
         "pkg-1.3.0" = _ygMvHwB9;
         "pkg-2.1.1" = _4H3VzPil;
@@ -396,7 +408,8 @@ let
         "pkg-1.0.0-26.1.2" = _zlAtiwYG;
         "pkg-1.1.0-26.1.2" = _GIfvkNxL;
         "pkg-1.0.0-26.2" = _UGdmK4xA;
-        "default" = _UGdmK4xA;
+        "pkg-1.0.1-26.2" = _zMwXfBYb;
+        "default" = _zMwXfBYb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "too-many-bows";

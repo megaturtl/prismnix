@@ -566,6 +566,16 @@ let
             "file" = "trashslot-fabric-26.2-26.2.0.2.jar";
             "hash" = "sha512-0/TVYOTFFaEqLXnm6TsdSJ7VaD67297HRHlR0iuUxqCHqzbSmEyD/NHhefMK/c+G50iP55J1HWgOtMZ1WQrlgA==";
         };
+        _aq0EjIas = {
+            "id" = "aq0EjIas";
+            "file" = "trashslot-fabric-26.3-26.3.0.1.jar";
+            "hash" = "sha512-zMPtvsEesVv23xtziLMxMomZpBmiBocT1wSGWxcTH2kRN1WT4vg1qbJ42ME+z4wAfq6DRJVcJnamafWY+5AQ0g==";
+        };
+        _kcXEzhpd = {
+            "id" = "kcXEzhpd";
+            "file" = "trashslot-neoforge-26.3-26.3.0.1.jar";
+            "hash" = "sha512-ehTlZwBlJcWTEmCVCumcM6p5fo25Cp8H6Ir+w89FzcqlBEFOOSl80rdusOVqVpTDBIf9fPmPAZYlYR6FpoXdxA==";
+        };
     in {
         "kWWhhAlI" = _kWWhhAlI;
         "6OzQ7Sk1" = _6OzQ7Sk1;
@@ -680,6 +690,8 @@ let
         "lZYf8oM4" = _lZYf8oM4;
         "ieRJa1yh" = _ieRJa1yh;
         "aQr4Byw3" = _aQr4Byw3;
+        "aq0EjIas" = _aq0EjIas;
+        "kcXEzhpd" = _kcXEzhpd;
         "fabric-1.19" = _ILfR8sIf;
         "fabric-1.19.1" = _ILfR8sIf;
         "fabric-1.19.2" = _ILfR8sIf;
@@ -709,6 +721,7 @@ let
         "fabric-26.1.1" = _AhKl6yxJ;
         "fabric-26.1.2" = _YfIzpe6s;
         "fabric-26.2" = _aQr4Byw3;
+        "fabric-26.3" = _aq0EjIas;
         "forge-1.19" = _VLnMeNCk;
         "forge-1.19.1" = _VLnMeNCk;
         "forge-1.19.2" = _VLnMeNCk;
@@ -750,6 +763,7 @@ let
         "neoforge-26.1.1" = _8qYqcrpb;
         "neoforge-26.1.2" = _lZYf8oM4;
         "neoforge-26.2" = _ieRJa1yh;
+        "neoforge-26.3" = _kcXEzhpd;
         "pkg-12.0.0+fabric-1.19" = _kWWhhAlI;
         "pkg-12.0.0+forge-1.19" = _6OzQ7Sk1;
         "pkg-12.0.1+fabric-1.19" = _T9n9aAI8;
@@ -861,7 +875,9 @@ let
         "pkg-26.1.2.4+neoforge-26.1.2" = _lZYf8oM4;
         "pkg-26.2.0.2+neoforge-26.2" = _ieRJa1yh;
         "pkg-26.2.0.2+fabric-26.2" = _aQr4Byw3;
-        "default" = _aQr4Byw3;
+        "pkg-26.3.0.1+fabric-26.3" = _aq0EjIas;
+        "pkg-26.3.0.1+neoforge-26.3" = _kcXEzhpd;
+        "default" = _kcXEzhpd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trashslot";

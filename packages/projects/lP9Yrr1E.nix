@@ -191,6 +191,16 @@ let
             "file" = "runes-neoforge-1.3.2+26.2.jar";
             "hash" = "sha512-RjRIITWLycqOH5kkmlI2W2EkHuG7KWuTEr9ZBBApR2g9krAZlthbFIkIOXucL8HL2UnKeg1PEa6aA8BEXl+niA==";
         };
+        _ecztHKcB = {
+            "id" = "ecztHKcB";
+            "file" = "runes-fabric-1.3.2+1.20.1.jar";
+            "hash" = "sha512-k51EFTkJHoXHAncBs8Bvg+750ZjKMqdlOvbGFb1iETbjB2aorjEsNrViVFClOxvDIG3415EAf7qz7tSlq3AAmQ==";
+        };
+        _tvDVzY2Y = {
+            "id" = "tvDVzY2Y";
+            "file" = "runes-forge-1.3.2+1.20.1.jar";
+            "hash" = "sha512-5KT98lC7Un5NGUKwudCvpD8PPwWkRKLvWjAplBKD8YyBRJWcbDQ0EYVWqkuPtLWBk/Pk1M6uT1dtWkTuId0/Mg==";
+        };
     in {
         "GccABJXw" = _GccABJXw;
         "wuTjM8Bj" = _wuTjM8Bj;
@@ -230,10 +240,12 @@ let
         "aVRpTnQZ" = _aVRpTnQZ;
         "rrNHR0aU" = _rrNHR0aU;
         "8VuD1vlH" = _8VuD1vlH;
+        "ecztHKcB" = _ecztHKcB;
+        "tvDVzY2Y" = _tvDVzY2Y;
         "fabric-1.19" = _VDec3KMz;
         "fabric-1.19.1" = _VDec3KMz;
         "fabric-1.19.2" = _VDec3KMz;
-        "fabric-1.20.1" = _Z915LCkR;
+        "fabric-1.20.1" = _ecztHKcB;
         "fabric-1.21" = _MUfjgRc2;
         "fabric-1.21.1" = _MUfjgRc2;
         "fabric-26.1" = _49w4X0AF;
@@ -246,6 +258,8 @@ let
         "neoforge-26.1.1" = _aVRpTnQZ;
         "neoforge-26.1.2" = _aVRpTnQZ;
         "neoforge-26.2" = _8VuD1vlH;
+        "neoforge-1.20.1" = _tvDVzY2Y;
+        "forge-1.20.1" = _tvDVzY2Y;
         "pkg-0.9.0+1.19-fabric" = _GccABJXw;
         "pkg-0.9.3+1.19-fabric" = _wuTjM8Bj;
         "pkg-0.9.4+1.19-fabric" = _E3Kis28m;
@@ -282,7 +296,9 @@ let
         "pkg-1.3.2+26.1.2-neoforge" = _aVRpTnQZ;
         "pkg-1.3.2+26.2-fabric" = _rrNHR0aU;
         "pkg-1.3.2+26.2-neoforge" = _8VuD1vlH;
-        "default" = _8VuD1vlH;
+        "pkg-1.3.2+1.20.1-fabric" = _ecztHKcB;
+        "pkg-1.3.2+1.20.1-forge" = _tvDVzY2Y;
+        "default" = _tvDVzY2Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "runes";

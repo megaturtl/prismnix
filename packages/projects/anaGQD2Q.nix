@@ -591,6 +591,11 @@ let
             "file" = "crazyae2addons-3.2.4-all.jar";
             "hash" = "sha512-X26aaXXDZAmzTQPmOSNUe09kNIaJNSN90xj6JzHtUtkXm1WmHbt/NcxZETQHa9YdwcQsIAa4YGjzSRoyHpZgOw==";
         };
+        _DdUx8yRT = {
+            "id" = "DdUx8yRT";
+            "file" = "crazyae2addons-3.2.5-all.jar";
+            "hash" = "sha512-hCnilgjAI+iw/3UBPebM/IieyEpCsd2zMSOA9RWbyqZ18M0PKYGqgGkN0Zf+pjsxldbtqoA9a9lVucbn1QumZQ==";
+        };
     in {
         "tUNw9d73" = _tUNw9d73;
         "Qh5wi7gN" = _Qh5wi7gN;
@@ -710,12 +715,13 @@ let
         "nkYHY36D" = _nkYHY36D;
         "aEKMqqDu" = _aEKMqqDu;
         "KwFCuLdA" = _KwFCuLdA;
-        "forge-1.20.1" = _KwFCuLdA;
-        "forge-1.20.2" = _KwFCuLdA;
-        "forge-1.20.3" = _KwFCuLdA;
-        "forge-1.20.4" = _KwFCuLdA;
-        "forge-1.20.5" = _KwFCuLdA;
-        "forge-1.20.6" = _KwFCuLdA;
+        "DdUx8yRT" = _DdUx8yRT;
+        "forge-1.20.1" = _DdUx8yRT;
+        "forge-1.20.2" = _DdUx8yRT;
+        "forge-1.20.3" = _DdUx8yRT;
+        "forge-1.20.4" = _DdUx8yRT;
+        "forge-1.20.5" = _DdUx8yRT;
+        "forge-1.20.6" = _DdUx8yRT;
         "pkg-0.1.0" = _tUNw9d73;
         "pkg-0.1.1" = _Qh5wi7gN;
         "pkg-0.1.2" = _lUjeRlbj;
@@ -834,7 +840,8 @@ let
         "pkg-3.2.2" = _nkYHY36D;
         "pkg-3.2.3" = _aEKMqqDu;
         "pkg-3.2.4" = _KwFCuLdA;
-        "default" = _KwFCuLdA;
+        "pkg-3.2.5" = _DdUx8yRT;
+        "default" = _DdUx8yRT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crazy-ae2-addons";

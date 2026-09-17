@@ -226,6 +226,11 @@ let
             "file" = "moreladders-neoforge-26.2-3.0.0.jar";
             "hash" = "sha512-BKHp7MWXAPb49gUU2IsMg+S6ME54uJRkNCttNPlPl7cARdwMFLRVx/GldXeMB3KNmnKxbw/NNNj5A7odqJoZtQ==";
         };
+        _SeEiTlHq = {
+            "id" = "SeEiTlHq";
+            "file" = "moreladders-fabric-26.3-3.0.0.jar";
+            "hash" = "sha512-zmWQICbx/Xkny93YEpgkDg70eWXs5fEJa9iyTPyuH7rWs6yUIQdrB0v6NVnry372CrcuC3ER+pU14Rls9lt2GA==";
+        };
     in {
         "pNWaCU3E" = _pNWaCU3E;
         "oWdf8Gwx" = _oWdf8Gwx;
@@ -272,6 +277,7 @@ let
         "jkdqYkZb" = _jkdqYkZb;
         "ngdyl8H7" = _ngdyl8H7;
         "DpAsW0id" = _DpAsW0id;
+        "SeEiTlHq" = _SeEiTlHq;
         "fabric-1.20" = _tqIxNPeL;
         "fabric-1.20.1" = _tqIxNPeL;
         "fabric-1.20.2" = _tqIxNPeL;
@@ -288,6 +294,7 @@ let
         "fabric-1.21.6" = _AV6MFr4e;
         "fabric-26.1.2" = _jkdqYkZb;
         "fabric-26.2" = _ngdyl8H7;
+        "fabric-26.3" = _SeEiTlHq;
         "quilt-1.20" = _tqIxNPeL;
         "quilt-1.20.1" = _tqIxNPeL;
         "quilt-1.20.2" = _tqIxNPeL;
@@ -346,8 +353,8 @@ let
         "pkg-2.1.0" = _MXx1pwiZ;
         "pkg-2.1.1" = _AV6MFr4e;
         "pkg-2.2.0" = _CLZtDzjI;
-        "pkg-3.0.0" = _DpAsW0id;
-        "default" = _DpAsW0id;
+        "pkg-3.0.0" = _SeEiTlHq;
+        "default" = _SeEiTlHq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "moreladders";

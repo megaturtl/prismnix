@@ -111,6 +111,31 @@ let
             "file" = "Os' Colorful Grasses (Short and Fluffy).zip";
             "hash" = "sha512-4uZ1+gazMHTcepIFAaLQ8EgKlamV/DEESIFS3UIb5K9AcHb5rKqlmIfAIVeEuuqjtbAeH48ShTI+4xqg6FPHiA==";
         };
+        _AvGsMM1H = {
+            "id" = "AvGsMM1H";
+            "file" = "Os' Colorful Grasses (MojangX).zip";
+            "hash" = "sha512-jEGqStkejyKeQg1HNIMV1OTgADG2OCNqoIXjVc79wIXvNxLGNUtOGmJA0hDLfrCB1f9MxSEmU9uV5V3xaZFpig==";
+        };
+        _N7bNnzLc = {
+            "id" = "N7bNnzLc";
+            "file" = "Os' Colorful Grasses (Mix).zip";
+            "hash" = "sha512-UeXMSCBgYIijCZnS/x1oG2LadBZTQxw0yyEHr90/nLVxR6esIZ0aZLP1rm3a6/Z8w0wouwSPar4xRH0VjbgaNw==";
+        };
+        _7wx8gx2m = {
+            "id" = "7wx8gx2m";
+            "file" = "Os' Colorful Grasses (Short).zip";
+            "hash" = "sha512-GfF1WxR7c9uyyf/CbMqzXZ51nttct0GpsEd+ekzjnWaVVXTj/S7sZ3RiKVFrDgE25vQaqdj7JbQG+a2T3i2SRw==";
+        };
+        _cvPClsvH = {
+            "id" = "cvPClsvH";
+            "file" = "Os' Colorful Grasses (Tall).zip";
+            "hash" = "sha512-IF2MkUxC4juqc1ED46I6LE1oN42amFND0IcMz3Zvchgpm2ijApHVAVDwhXokPwsTIPrnn0au6Dga3m/3HP3Xww==";
+        };
+        _iq9TDzWh = {
+            "id" = "iq9TDzWh";
+            "file" = "Os' Colorful Grasses (Mix).zip";
+            "hash" = "sha512-gmrhllAAhBXUyGKEiHQjt4Z77BWguFV1s1fVffvNl06Zp6cK161/B0IsT8JUDt86CFam/LNOHVcEKuURXVWSjw==";
+        };
     in {
         "ttoVEDKt" = _ttoVEDKt;
         "quX8mvAM" = _quX8mvAM;
@@ -134,24 +159,31 @@ let
         "SuKgU0qQ" = _SuKgU0qQ;
         "BpTDmCMY" = _BpTDmCMY;
         "6y5oHV7t" = _6y5oHV7t;
+        "AvGsMM1H" = _AvGsMM1H;
+        "N7bNnzLc" = _N7bNnzLc;
+        "7wx8gx2m" = _7wx8gx2m;
+        "cvPClsvH" = _cvPClsvH;
+        "iq9TDzWh" = _iq9TDzWh;
         "minecraft-1.20" = _95OWW5dJ;
         "minecraft-1.20.1" = _95OWW5dJ;
         "minecraft-1.20.4" = _m6hkEorp;
-        "minecraft-1.21" = _6y5oHV7t;
-        "minecraft-1.21.1" = _6y5oHV7t;
-        "minecraft-1.21.2" = _6y5oHV7t;
-        "minecraft-1.21.3" = _6y5oHV7t;
-        "minecraft-1.21.4" = _6y5oHV7t;
-        "minecraft-1.21.5" = _6y5oHV7t;
-        "minecraft-1.21.6" = _6y5oHV7t;
-        "minecraft-1.21.7" = _6y5oHV7t;
-        "minecraft-1.21.8" = _6y5oHV7t;
-        "minecraft-1.21.9" = _6y5oHV7t;
-        "minecraft-1.21.10" = _6y5oHV7t;
-        "minecraft-1.21.11" = _sluWV30f;
-        "minecraft-26.1" = _sluWV30f;
-        "minecraft-26.1.1" = _sluWV30f;
-        "minecraft-26.1.2" = _sluWV30f;
+        "minecraft-1.21" = _iq9TDzWh;
+        "minecraft-1.21.1" = _iq9TDzWh;
+        "minecraft-1.21.2" = _iq9TDzWh;
+        "minecraft-1.21.3" = _iq9TDzWh;
+        "minecraft-1.21.4" = _iq9TDzWh;
+        "minecraft-1.21.5" = _iq9TDzWh;
+        "minecraft-1.21.6" = _iq9TDzWh;
+        "minecraft-1.21.7" = _iq9TDzWh;
+        "minecraft-1.21.8" = _iq9TDzWh;
+        "minecraft-1.21.9" = _iq9TDzWh;
+        "minecraft-1.21.10" = _iq9TDzWh;
+        "minecraft-1.21.11" = _iq9TDzWh;
+        "minecraft-26.1" = _iq9TDzWh;
+        "minecraft-26.1.1" = _iq9TDzWh;
+        "minecraft-26.1.2" = _iq9TDzWh;
+        "minecraft-26.2" = _iq9TDzWh;
+        "minecraft-26.3" = _iq9TDzWh;
         "pkg-F1" = _ttoVEDKt;
         "pkg-S1" = _quX8mvAM;
         "pkg-F2" = _py7n5qju;
@@ -173,7 +205,11 @@ let
         "pkg-MojangStyle(Fixed)" = _SuKgU0qQ;
         "pkg-FullFluffy(Fixed)" = _BpTDmCMY;
         "pkg-ShortFluffy(Fixed)" = _6y5oHV7t;
-        "default" = _6y5oHV7t;
+        "pkg-MojangX-26.3" = _AvGsMM1H;
+        "pkg-Mix-26.3" = _iq9TDzWh;
+        "pkg-Short-26.3" = _7wx8gx2m;
+        "pkg-Tall-26.3" = _cvPClsvH;
+        "default" = _iq9TDzWh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "os-colorful-grasses";

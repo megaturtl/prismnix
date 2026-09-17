@@ -51,6 +51,11 @@ let
             "file" = "partial_id_autocomplete-1.2.2+26.2.jar";
             "hash" = "sha512-zOHusdY8Rv2p+fyGrbMp5rn/6YnKflcljmQWxYDKze8IPFS+lUReExeIXGANAaNRcyBDt7zPR3lKUpAq3oc+2g==";
         };
+        _Ux3ndoVi = {
+            "id" = "Ux3ndoVi";
+            "file" = "partial_id_autocomplete-1.2.2+26.3.jar";
+            "hash" = "sha512-3yb5i25cTdhCgAeeAHCuRuaZ4aIDqwlLkvyJUzjBtAr6+fYGP39qxsV8fc/RgktcpJIcqJS3FnSgkf3MQD25Ug==";
+        };
     in {
         "ZDr6aSEN" = _ZDr6aSEN;
         "kimVIzYg" = _kimVIzYg;
@@ -62,6 +67,7 @@ let
         "uxGni73B" = _uxGni73B;
         "3HbTvqYB" = _3HbTvqYB;
         "7qsBR2VV" = _7qsBR2VV;
+        "Ux3ndoVi" = _Ux3ndoVi;
         "fabric-1.21" = _AunSB75b;
         "fabric-1.21.1" = _AunSB75b;
         "fabric-1.21.2" = _vqiLucXH;
@@ -78,6 +84,7 @@ let
         "fabric-26.1.1" = _3HbTvqYB;
         "fabric-26.1.2" = _3HbTvqYB;
         "fabric-26.2" = _7qsBR2VV;
+        "fabric-26.3" = _Ux3ndoVi;
         "pkg-0.1.0" = _ZDr6aSEN;
         "pkg-1.0.0" = _kimVIzYg;
         "pkg-1.0.1" = _Dtwo2oen;
@@ -88,7 +95,8 @@ let
         "pkg-1.2.1" = _uxGni73B;
         "pkg-1.2.2+26.1" = _3HbTvqYB;
         "pkg-1.2.2+26.2" = _7qsBR2VV;
-        "default" = _7qsBR2VV;
+        "pkg-1.2.2+26.3" = _Ux3ndoVi;
+        "default" = _Ux3ndoVi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "partialidautocomplete";

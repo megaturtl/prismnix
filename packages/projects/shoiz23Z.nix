@@ -121,6 +121,11 @@ let
             "file" = "ServerUtilities-2.4.9.jar";
             "hash" = "sha512-WBTvmljQUlFzPHXWdCfqHTkns/Fv2rnTyn/44zwLMVKLTl70rYaQ/N1kL+H1orTQE5rDXSYMNqEI2cp8fs3wWg==";
         };
+        _qRztpGQW = {
+            "id" = "qRztpGQW";
+            "file" = "ServerUtilities-2.4.10.jar";
+            "hash" = "sha512-bqkcQmu/VBeV4wr1sOhnZizqA7/UXEpcrVnUFVArk049P+VCS0ITUyWauXM0YdfIwhfyl756tL0hAIz7gB4uNg==";
+        };
     in {
         "l8iw7Nnn" = _l8iw7Nnn;
         "w9kPQAcH" = _w9kPQAcH;
@@ -146,7 +151,8 @@ let
         "7MN1HE5a" = _7MN1HE5a;
         "B9rAsnex" = _B9rAsnex;
         "uXluLpn0" = _uXluLpn0;
-        "forge-1.7.10" = _uXluLpn0;
+        "qRztpGQW" = _qRztpGQW;
+        "forge-1.7.10" = _qRztpGQW;
         "pkg-2.2.29" = _l8iw7Nnn;
         "pkg-2.2.31" = _w9kPQAcH;
         "pkg-2.2.32" = _8EtlWKvx;
@@ -171,7 +177,8 @@ let
         "pkg-2.4.7" = _7MN1HE5a;
         "pkg-2.4.8" = _B9rAsnex;
         "pkg-2.4.9" = _uXluLpn0;
-        "default" = _uXluLpn0;
+        "pkg-2.4.10" = _qRztpGQW;
+        "default" = _qRztpGQW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "serverutilities-gtnh";

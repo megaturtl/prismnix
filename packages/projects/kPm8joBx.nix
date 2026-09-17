@@ -51,6 +51,11 @@ let
             "file" = "spotifier-11.0.0.jar";
             "hash" = "sha512-+PgE5eGvu8iaaEQPj45I7vxG9VScwlCYSgUGkyxxVsXoGxYUEYI8yfv7JD0/SfFHUwfcdqpln3c1PNGG8eXzfA==";
         };
+        _D9J9YCbR = {
+            "id" = "D9J9YCbR";
+            "file" = "spotifier-11.0.0.jar";
+            "hash" = "sha512-6iTdD7F5GhEeb2SU9j/BThMTzwLHOlUD9vLCGS6bs7u5j5tqmyoPC7CS47cc0J5yTN/NR06X36PeJ4+9/llrHQ==";
+        };
     in {
         "t3NvEPwA" = _t3NvEPwA;
         "b671QQmi" = _b671QQmi;
@@ -62,6 +67,7 @@ let
         "gtwD9HMx" = _gtwD9HMx;
         "KkcG8uol" = _KkcG8uol;
         "yO8CA4No" = _yO8CA4No;
+        "D9J9YCbR" = _D9J9YCbR;
         "fabric-1.21.9" = _jhPXX1qW;
         "fabric-1.21.10" = _jhPXX1qW;
         "fabric-1.21.11" = _LsdcKU8W;
@@ -84,6 +90,7 @@ let
         "fabric-26.2-rc-1" = _gtwD9HMx;
         "fabric-26.2-rc-2" = _gtwD9HMx;
         "fabric-26.2" = _yO8CA4No;
+        "fabric-26.3" = _D9J9YCbR;
         "pkg-9.0.0-rc1" = _t3NvEPwA;
         "pkg-9.0.0-rc2" = _b671QQmi;
         "pkg-9.0.0-1.21.9" = _jhPXX1qW;
@@ -94,7 +101,8 @@ let
         "pkg-10.0.0-26.2" = _gtwD9HMx;
         "pkg-10.0.1-26.2" = _KkcG8uol;
         "pkg-11.0.0-26.2" = _yO8CA4No;
-        "default" = _yO8CA4No;
+        "pkg-11.0.0-26.3" = _D9J9YCbR;
+        "default" = _D9J9YCbR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spotifier";

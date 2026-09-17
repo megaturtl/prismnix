@@ -151,6 +151,16 @@ let
             "file" = "sillyautototem-fabric-1.21.11-2.3.6.jar";
             "hash" = "sha512-mnNomRHQmbMs/4Gu67DHqErvx+fgNao+5NnJ18MdJC2D58iFbJoTWpwmKQYsfYugQUkj2EanNs3pB86rKJFhJg==";
         };
+        _Ss2QdivI = {
+            "id" = "Ss2QdivI";
+            "file" = "sillyautototem-fabric-26.3-2.3.6.jar";
+            "hash" = "sha512-RA/yR/1XAH1dy9ds6/uxjgjgxu6tlvjihVLjRZKU0z2VjU3KB7QYuIzBn1EYbP/bBolL+NUD3ampLb1yqtGMHg==";
+        };
+        _xLp8sKAx = {
+            "id" = "xLp8sKAx";
+            "file" = "sillyautototem-neoforge-26.3-2.3.6.jar";
+            "hash" = "sha512-4HgVd+tn0MAwRDAM+1bJwa38aI/agYCBFEhU9sCN8SOLCXuHjb5xAUM1aARdUHugfe4j++iRz53g/wCjsEpBsg==";
+        };
     in {
         "tEB6Ls6O" = _tEB6Ls6O;
         "t6StO4M7" = _t6StO4M7;
@@ -182,6 +192,8 @@ let
         "mAsoTEGK" = _mAsoTEGK;
         "LBBXEBAd" = _LBBXEBAd;
         "E8PREyNC" = _E8PREyNC;
+        "Ss2QdivI" = _Ss2QdivI;
+        "xLp8sKAx" = _xLp8sKAx;
         "fabric-1.21.5" = _h2rowr5W;
         "fabric-1.21.6" = _Osyf8RCh;
         "fabric-1.21.7" = _68tsiBxz;
@@ -205,16 +217,18 @@ let
         "fabric-26.1.1" = _YBTKIHGq;
         "fabric-26.1.2" = _GGnibCwv;
         "fabric-26.2" = _5KX5b8FY;
+        "fabric-26.3" = _Ss2QdivI;
         "neoforge-26.2" = _QqE5Iu7R;
         "neoforge-26.1.2" = _mAsoTEGK;
         "neoforge-1.21.11" = _LBBXEBAd;
+        "neoforge-26.3" = _xLp8sKAx;
         "pkg-1.0.1" = _tEB6Ls6O;
         "pkg-1.0.2" = _J4l59Tn7;
         "pkg-1.2.3" = _RWHYYlxM;
         "pkg-1.2.4" = _YBTKIHGq;
         "pkg-1.3.5" = _5gv6eJ6t;
-        "pkg-2.3.6" = _E8PREyNC;
-        "default" = _E8PREyNC;
+        "pkg-2.3.6" = _xLp8sKAx;
+        "default" = _xLp8sKAx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sillys-auto-totem";

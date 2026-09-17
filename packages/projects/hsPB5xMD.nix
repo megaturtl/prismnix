@@ -311,6 +311,61 @@ let
             "file" = "immersivehotbar-1.2.1-neoforge-1.21-1.21.1.jar";
             "hash" = "sha512-WNl0PRwV6EEKQAV80haEEU/x6YkY/pttFYqmdWCtTriHfhfcJrUCpjna9M1rlDaaw/Ydx2S3SONLLClnt651MQ==";
         };
+        _6GuPFBfw = {
+            "id" = "6GuPFBfw";
+            "file" = "immersive-hotbar-1.2.2-1.21-1.21.1.jar";
+            "hash" = "sha512-8CtVzpFuBNO5xmbrhN8kOdnedEzNQYNd/gtkTO/gzxs1+i3Bp1nDC5Fxgu+w+1xZ5o4r0bbEtCHKmivahRfZeg==";
+        };
+        _5kKUZlye = {
+            "id" = "5kKUZlye";
+            "file" = "immersive-hotbar-1.2.2-1.21.5.jar";
+            "hash" = "sha512-m7ADGSnPlSZEImdt9GJ9x6bithl/MlSmKibUQaUBjFPSlvA2tqD+8biD3CbRjSptveFBmPI5H7VqW58PSCwsQA==";
+        };
+        _gQlkg1cE = {
+            "id" = "gQlkg1cE";
+            "file" = "immersive-hotbar-1.2.2-1.20-1.20.4.jar";
+            "hash" = "sha512-5GdljQp22iJ9TQQ52F1sdnuOa5ofczPMA8ilpDra4q7k6br7rEwZEmU4dRCu2aEU8FBNYbu9tSHQp32c+cYfjA==";
+        };
+        _8UpNopEK = {
+            "id" = "8UpNopEK";
+            "file" = "immersive-hotbar-1.2.2-1.21.6-1.21.7.jar";
+            "hash" = "sha512-01vg2gKyFU60b4+pG1Cb2WR8U0DWfneBunsFlwuq595BOzHTLyl82W4ygtPCnT1EqajPNq/BXrH1fBF4I3oj4Q==";
+        };
+        _vSH3zm1L = {
+            "id" = "vSH3zm1L";
+            "file" = "immersive-hotbar-1.2.2-1.21.9-1.21.11.jar";
+            "hash" = "sha512-5ocB96I2y+Ql3rJhgCiOvaWqMkHUnOQT3/K5mmS+rvA8Q/5YnVsPsfAEJ+DjsfW46y1JZW1/0SohN1ar73+n3A==";
+        };
+        _tUSmbhf9 = {
+            "id" = "tUSmbhf9";
+            "file" = "immersive-hotbar-1.2.2-1.21.2-1.21.4.jar";
+            "hash" = "sha512-eLObRsY7zIHigOdMdmk2u8OnSPqsvwKw2Q+lVZ/wnfAsA3PgL7d8BRAABJWsNZaVfiGhLA+ZcfKeh26adPK3Qw==";
+        };
+        _TYfk2o8E = {
+            "id" = "TYfk2o8E";
+            "file" = "immersivehotbar-1.2.2-neoforge-1.21-1.21.1.jar";
+            "hash" = "sha512-ktzh7yN+CzQt36X33u8ctTn2GNCK4RRLcr8EUUhCsqNXP3dXcV+r+HNiRNq4pFLwBjAKoRaPLwIa5F197Mx9fA==";
+        };
+        _X6YQoiLq = {
+            "id" = "X6YQoiLq";
+            "file" = "immersive-hotbar-1.2.2-26.1.jar";
+            "hash" = "sha512-692kugnxwfj1i/RjQncrw6qyP0XElEzWlF1GzlWWmEPGpEEirlkIHZLSlUyzLRlUKf5nNbLYF03asbf4Bm1ZFw==";
+        };
+        _hAT45lLg = {
+            "id" = "hAT45lLg";
+            "file" = "immersive-hotbar-1.2.2-26.2.jar";
+            "hash" = "sha512-mBkJarEmaqbljsAF29eiy6Z7zEUSWTr20zFIiMJFOLXr85q2vuInbAa07xgMkcULjWOUJwE3amnxHwde0MOoew==";
+        };
+        _NPZ6EegM = {
+            "id" = "NPZ6EegM";
+            "file" = "immersivehotbar-1.2.2-forge-1.20.1-all.jar";
+            "hash" = "sha512-Rciy8DvZs/vFsGGLmgb3D36K+zCsQavnlvm2uY4lIHO7vgDaeTEWQzTRjYTE6UV5cqQjgetlW4D/kZUmbx5v5A==";
+        };
+        _5p5svVAS = {
+            "id" = "5p5svVAS";
+            "file" = "immersive-hotbar-1.2.2-26.3.jar";
+            "hash" = "sha512-Mw0jJoYWFRDN0Z7idsSUo4Q4haRCFsUTVp+ORyJkl7527skQkQqnsFHSyyH8/iCoFlFxOD8lUSvoCoZOM3CWvg==";
+        };
     in {
         "tR5V3ad8" = _tR5V3ad8;
         "Ju847al0" = _Ju847al0;
@@ -374,35 +429,47 @@ let
         "xI1ibah8" = _xI1ibah8;
         "bPO3Cnpc" = _bPO3Cnpc;
         "mmBy8PSp" = _mmBy8PSp;
-        "fabric-1.21" = _Ep2nW768;
-        "fabric-1.21.1" = _Ep2nW768;
-        "fabric-1.21.2" = _ym6PuhNy;
-        "fabric-1.21.3" = _ym6PuhNy;
-        "fabric-1.21.4" = _ym6PuhNy;
-        "fabric-1.21.5" = _c3fnFcEb;
-        "fabric-1.20" = _vNMzfEpF;
-        "fabric-1.20.1" = _vNMzfEpF;
-        "fabric-1.20.2" = _vNMzfEpF;
-        "fabric-1.20.3" = _vNMzfEpF;
-        "fabric-1.20.4" = _vNMzfEpF;
-        "fabric-1.21.6" = _nh4eJ9I2;
-        "fabric-1.21.7" = _nh4eJ9I2;
+        "6GuPFBfw" = _6GuPFBfw;
+        "5kKUZlye" = _5kKUZlye;
+        "gQlkg1cE" = _gQlkg1cE;
+        "8UpNopEK" = _8UpNopEK;
+        "vSH3zm1L" = _vSH3zm1L;
+        "tUSmbhf9" = _tUSmbhf9;
+        "TYfk2o8E" = _TYfk2o8E;
+        "X6YQoiLq" = _X6YQoiLq;
+        "hAT45lLg" = _hAT45lLg;
+        "NPZ6EegM" = _NPZ6EegM;
+        "5p5svVAS" = _5p5svVAS;
+        "fabric-1.21" = _6GuPFBfw;
+        "fabric-1.21.1" = _6GuPFBfw;
+        "fabric-1.21.2" = _tUSmbhf9;
+        "fabric-1.21.3" = _tUSmbhf9;
+        "fabric-1.21.4" = _tUSmbhf9;
+        "fabric-1.21.5" = _5kKUZlye;
+        "fabric-1.20" = _gQlkg1cE;
+        "fabric-1.20.1" = _gQlkg1cE;
+        "fabric-1.20.2" = _gQlkg1cE;
+        "fabric-1.20.3" = _gQlkg1cE;
+        "fabric-1.20.4" = _gQlkg1cE;
+        "fabric-1.21.6" = _8UpNopEK;
+        "fabric-1.21.7" = _8UpNopEK;
         "fabric-1.21.8" = _nh4eJ9I2;
-        "fabric-1.21.9" = _T1E51vuL;
-        "fabric-1.21.10" = _T1E51vuL;
-        "fabric-1.21.11" = _T1E51vuL;
+        "fabric-1.21.9" = _vSH3zm1L;
+        "fabric-1.21.10" = _vSH3zm1L;
+        "fabric-1.21.11" = _vSH3zm1L;
         "fabric-26.1-rc-1" = _oUDDTYRW;
         "fabric-26.1-rc-2" = _oUDDTYRW;
         "fabric-26.1-rc-3" = _oUDDTYRW;
-        "fabric-26.1" = _xI1ibah8;
-        "fabric-26.1.1" = _xI1ibah8;
-        "fabric-26.1.2" = _xI1ibah8;
-        "fabric-26.2" = _bPO3Cnpc;
+        "fabric-26.1" = _X6YQoiLq;
+        "fabric-26.1.1" = _X6YQoiLq;
+        "fabric-26.1.2" = _X6YQoiLq;
+        "fabric-26.2" = _hAT45lLg;
+        "fabric-26.3" = _5p5svVAS;
         "neoforge-1.21.9" = _mVxdfvoR;
         "neoforge-1.21.10" = _mVxdfvoR;
         "neoforge-1.21.11" = _mVxdfvoR;
-        "neoforge-1.21" = _mmBy8PSp;
-        "neoforge-1.21.1" = _mmBy8PSp;
+        "neoforge-1.21" = _TYfk2o8E;
+        "neoforge-1.21.1" = _TYfk2o8E;
         "neoforge-1.21.2" = _qJHPvUyX;
         "neoforge-1.21.3" = _qJHPvUyX;
         "neoforge-1.21.4" = _qJHPvUyX;
@@ -410,7 +477,7 @@ let
         "neoforge-1.21.6" = _qJHPvUyX;
         "neoforge-1.21.7" = _qJHPvUyX;
         "neoforge-1.21.8" = _qJHPvUyX;
-        "forge-1.20.1" = _5S1xcw5c;
+        "forge-1.20.1" = _NPZ6EegM;
         "pkg-1.0.0-1.21-1.21.1" = _tR5V3ad8;
         "pkg-1.0.0-1.21.2-1.21.4" = _Ju847al0;
         "pkg-1.0.0-1.21.5" = _mLNUdaDh;
@@ -473,7 +540,18 @@ let
         "pkg-1.2.1-26.1" = _xI1ibah8;
         "pkg-1.2.1-26.2" = _bPO3Cnpc;
         "pkg-1.2.1-neoforge-1.21.1" = _mmBy8PSp;
-        "default" = _mmBy8PSp;
+        "pkg-1.2.2-1.21-1.21.1" = _6GuPFBfw;
+        "pkg-1.2.2-1.21.5" = _5kKUZlye;
+        "pkg-1.2.2-1.20-1.20.4" = _gQlkg1cE;
+        "pkg-1.2.2-1.21.6-1.21.7" = _8UpNopEK;
+        "pkg-1.2.2-1.21.9-1.21.11" = _vSH3zm1L;
+        "pkg-1.2.2-1.21.2-1.21.4" = _tUSmbhf9;
+        "pkg-1.2.2-neoforge-1.21.1" = _TYfk2o8E;
+        "pkg-1.2.2-26.1" = _X6YQoiLq;
+        "pkg-1.2.2-26.2" = _hAT45lLg;
+        "pkg-1.2.2-forge-1.20.1" = _NPZ6EegM;
+        "pkg-1.2.2-26.3" = _5p5svVAS;
+        "default" = _5p5svVAS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-hotbar";

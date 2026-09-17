@@ -866,6 +866,21 @@ let
             "file" = "common-networking-forge-1.0.6-1.16.5.jar";
             "hash" = "sha512-kcOwSf9qCuV5skJzJXYA5/gOriiAtRelkHhhHMIO6PfG89mib+UgboSYCetLKrzQPJPXbHhWemCy5nswRe7krg==";
         };
+        _VBPhclDX = {
+            "id" = "VBPhclDX";
+            "file" = "common-networking-fabric-26.3-1.1.0.jar";
+            "hash" = "sha512-o2yNEvLEuuF0V3gOmDxRiaJlHZ1Oh77tCW4Yc37u4HYK/pdhCWvH5ptuA8sIaU1PBC+dA4fY7VFvhJOoZL/ijA==";
+        };
+        _2f6sDuk0 = {
+            "id" = "2f6sDuk0";
+            "file" = "common-networking-neoforge-26.3-1.1.0.jar";
+            "hash" = "sha512-zkKCqraJjT03aqDZcyM/V3c7AHt1vR5dpjkct/BYmt2WpwlBG5PeVdd2HJ1luS3epk3jVPcKsbi9SJ1ZmnQ15g==";
+        };
+        _sSAsJLqv = {
+            "id" = "sSAsJLqv";
+            "file" = "common-networking-paper-26.3-1.1.0.jar";
+            "hash" = "sha512-acQwhEN+effxZjXXyJSB3OS3TJBUrZxXt2ppIy+hn1r7fhRvGIB/RCmSrA9HyRpVMAmylgFUscFwA1MFdexKhA==";
+        };
     in {
         "sD0BW8o0" = _sD0BW8o0;
         "UKVvPK38" = _UKVvPK38;
@@ -1040,6 +1055,9 @@ let
         "TkOARDQh" = _TkOARDQh;
         "QzMKW7Zu" = _QzMKW7Zu;
         "iZCOIvcn" = _iZCOIvcn;
+        "VBPhclDX" = _VBPhclDX;
+        "2f6sDuk0" = _2f6sDuk0;
+        "sSAsJLqv" = _sSAsJLqv;
         "fabric-1.19.3" = _sD0BW8o0;
         "fabric-1.19.4" = _HoyENIva;
         "fabric-1.20" = _AlRsvRjn;
@@ -1066,6 +1084,7 @@ let
         "fabric-26.1.2" = _jmVEXYBo;
         "fabric-26.2" = _iXO2jgbi;
         "fabric-1.16.5" = _QzMKW7Zu;
+        "fabric-26.3" = _VBPhclDX;
         "quilt-1.19.3" = _sD0BW8o0;
         "quilt-1.19.4" = _HoyENIva;
         "quilt-1.20" = _AlRsvRjn;
@@ -1092,6 +1111,7 @@ let
         "quilt-26.1.2" = _jmVEXYBo;
         "quilt-26.2" = _iXO2jgbi;
         "quilt-1.16.5" = _QzMKW7Zu;
+        "quilt-26.3" = _VBPhclDX;
         "forge-1.19.3" = _UKVvPK38;
         "forge-1.19.4" = _xg9EfKwp;
         "forge-1.20" = _1LpEdRZd;
@@ -1134,8 +1154,11 @@ let
         "neoforge-26.1.1" = _En3topYr;
         "neoforge-26.1.2" = _UWApvdSs;
         "neoforge-26.2" = _zpaBdsEf;
+        "neoforge-26.3" = _2f6sDuk0;
         "bukkit-26.1.2" = _7o0SC43b;
+        "bukkit-26.3" = _sSAsJLqv;
         "paper-26.1.2" = _7o0SC43b;
+        "paper-26.3" = _sSAsJLqv;
         "pkg-1.0.0+1.19.3-fabric" = _sD0BW8o0;
         "pkg-1.0.0+1.19.3-forge" = _UKVvPK38;
         "pkg-1.0.0+1.19.4-fabric" = _HoyENIva;
@@ -1201,7 +1224,8 @@ let
         "pkg-26.2-1.1.0" = _zpaBdsEf;
         "pkg-1.0.6-1.20.1" = _TkOARDQh;
         "pkg-1.0.6-1.16.5" = _iZCOIvcn;
-        "default" = _iZCOIvcn;
+        "pkg-26.3-1.1.0" = _sSAsJLqv;
+        "default" = _sSAsJLqv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "common-network";

@@ -56,6 +56,16 @@ let
             "file" = "ketkets-displaycases-0.4.jar";
             "hash" = "sha512-3XzoMJcqRopmbntyerIq4RBywRLpYGAufGoYpKapiP8TqlaPLOWC840N0O4suuNCI+7B+tW+kPoPWI6nd2xCuA==";
         };
+        _QUiPebBk = {
+            "id" = "QUiPebBk";
+            "file" = "displaycases-v0.5.zip";
+            "hash" = "sha512-9giWYuVnwJ5QKNC4k+S/LLOyhoVsGZ7PhZDXU7Rqe2Ob8cbFZ1YeX1a7RZpP38ilHzbqghEd+IMm6UUn9fM5BQ==";
+        };
+        _C7QFfxqI = {
+            "id" = "C7QFfxqI";
+            "file" = "ketkets-displaycases-0.5.jar";
+            "hash" = "sha512-8Y4Is7uGtlD1L9RPRWfk0mOE1zwIV7+L2wWSllzFQLhX7tFwzIwql0CEPwxFwk4F2615lrEM/ssI9a+hJXfV5g==";
+        };
     in {
         "tXMOHepo" = _tXMOHepo;
         "6fbTJbpp" = _6fbTJbpp;
@@ -68,6 +78,8 @@ let
         "tApAjE3W" = _tApAjE3W;
         "Daccq9zD" = _Daccq9zD;
         "O92BD7Uq" = _O92BD7Uq;
+        "QUiPebBk" = _QUiPebBk;
+        "C7QFfxqI" = _C7QFfxqI;
         "datapack-1.19.4" = _4NbciAZ8;
         "datapack-1.20" = _4NbciAZ8;
         "datapack-1.20.1" = _4NbciAZ8;
@@ -81,6 +93,7 @@ let
         "datapack-26.1.1" = _Daccq9zD;
         "datapack-26.1.2" = _Daccq9zD;
         "datapack-26.2" = _Daccq9zD;
+        "datapack-26.3" = _QUiPebBk;
         "fabric-1.21.9" = _OGZXfymh;
         "fabric-1.21.10" = _OGZXfymh;
         "fabric-1.21.11" = _OGZXfymh;
@@ -88,6 +101,7 @@ let
         "fabric-26.1.1" = _O92BD7Uq;
         "fabric-26.1.2" = _O92BD7Uq;
         "fabric-26.2" = _O92BD7Uq;
+        "fabric-26.3" = _C7QFfxqI;
         "forge-1.21.9" = _OGZXfymh;
         "forge-1.21.10" = _OGZXfymh;
         "forge-1.21.11" = _OGZXfymh;
@@ -95,6 +109,7 @@ let
         "forge-26.1.1" = _O92BD7Uq;
         "forge-26.1.2" = _O92BD7Uq;
         "forge-26.2" = _O92BD7Uq;
+        "forge-26.3" = _C7QFfxqI;
         "neoforge-1.21.9" = _OGZXfymh;
         "neoforge-1.21.10" = _OGZXfymh;
         "neoforge-1.21.11" = _OGZXfymh;
@@ -102,6 +117,7 @@ let
         "neoforge-26.1.1" = _O92BD7Uq;
         "neoforge-26.1.2" = _O92BD7Uq;
         "neoforge-26.2" = _O92BD7Uq;
+        "neoforge-26.3" = _C7QFfxqI;
         "quilt-1.21.9" = _OGZXfymh;
         "quilt-1.21.10" = _OGZXfymh;
         "quilt-1.21.11" = _OGZXfymh;
@@ -109,6 +125,7 @@ let
         "quilt-26.1.1" = _O92BD7Uq;
         "quilt-26.1.2" = _O92BD7Uq;
         "quilt-26.2" = _O92BD7Uq;
+        "quilt-26.3" = _C7QFfxqI;
         "pkg-0.7" = _tXMOHepo;
         "pkg-1" = _6fbTJbpp;
         "pkg-1.2" = _4NbciAZ8;
@@ -120,7 +137,9 @@ let
         "pkg-0.3+mod" = _tApAjE3W;
         "pkg-0.4" = _Daccq9zD;
         "pkg-0.4+mod" = _O92BD7Uq;
-        "default" = _O92BD7Uq;
+        "pkg-0.5" = _QUiPebBk;
+        "pkg-0.5+mod" = _C7QFfxqI;
+        "default" = _C7QFfxqI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ketkets-displaycases";

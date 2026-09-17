@@ -366,6 +366,56 @@ let
             "file" = "kaleidoscope_tavern-1.2.0.5-fabric+mc26.2.jar";
             "hash" = "sha512-e5KI36j+Pa62PT9nOyl0Pe9JZyEMvL96am5sthJ4s+v9J3hJdnpZPWsoAhnNuEUXC6yar/3ulpGO+sIMdKetkQ==";
         };
+        _dSeQF1oP = {
+            "id" = "dSeQF1oP";
+            "file" = "kaleidoscope_tavern-1.2.0.6-fabric+mc1.20.1.jar";
+            "hash" = "sha512-EdB1AKZkCPDnEPybFqEQK7Z6qwLLTqJFwIHjK9hex07yKyYbKUy2Sm8LxUQCYME7xmXE2mXXm0dunRwmz8pUpQ==";
+        };
+        _oDCuDTik = {
+            "id" = "oDCuDTik";
+            "file" = "kaleidoscope_tavern-1.2.0.6-fabric+mc1.21.1.jar";
+            "hash" = "sha512-BKNEwsvj3lEoceJBL581iivmfDmD2nnPu2Y+qhOaAGehiV6gxAwwD+heMoXuvzMqLKxzRy3qneKeyWTXkQvbqQ==";
+        };
+        _veRudxLZ = {
+            "id" = "veRudxLZ";
+            "file" = "kaleidoscope_tavern-1.2.0.6-fabric+mc26.1.2.jar";
+            "hash" = "sha512-vZ3V2r9hV/lK1nL3bezlWkSJQcsnayLDSS4BaVAKCPK9JxiETLXAMON06rokIkJEBdgaYLRRvt2fTJXC6bQ+lw==";
+        };
+        _EKY63xnK = {
+            "id" = "EKY63xnK";
+            "file" = "kaleidoscope_tavern-1.2.0.6-fabric+mc26.2.jar";
+            "hash" = "sha512-O00oLHZNAufjYWX/YuiU3bE+qdeR7Dr7126ZLlGks9z/7hXDFkHJqKQ/jnEH3Y9yUjWPwb7Q2s9WzkG+KQtqNA==";
+        };
+        _IZsURkMw = {
+            "id" = "IZsURkMw";
+            "file" = "kaleidoscope_tavern-1.2.0.7-fabric+mc1.20.1.jar";
+            "hash" = "sha512-saf+qt0jnOgV/qSyWJQAId0tdXc1efE90UdOgA9vW/9EkW2KIPzS8erY8x/kFMMnSKnRdCIF3rgyrRAFBhRMVw==";
+        };
+        _cwnkyWw9 = {
+            "id" = "cwnkyWw9";
+            "file" = "kaleidoscope_tavern-1.2.0.7-fabric+mc1.21.1.jar";
+            "hash" = "sha512-NizywAR+t0Oz69UXkp2NkVqeBUlr3gQQdlNvQqWWLhOaYNIDgfq/IT2aQYMem4Bb6OGV1nuzbaQL9VEODdiTIg==";
+        };
+        _EcyhVN1Y = {
+            "id" = "EcyhVN1Y";
+            "file" = "kaleidoscope_tavern-1.2.0.7-fabric+mc26.1.2.jar";
+            "hash" = "sha512-JKTTd8Gf9H0pzLLpk3QJVBMMbmx7gke+vUn+kTArMpck7OF7l5ppHG1ITw8FDlg9Zj5/khwg++WNBxOoNDQ4Jg==";
+        };
+        _ncDTtWuA = {
+            "id" = "ncDTtWuA";
+            "file" = "kaleidoscope_tavern-1.2.0.7-fabric+mc26.2.jar";
+            "hash" = "sha512-07z8yRTKyavr2bxPkoLLAtz2OFoKwTTDD29trbnh3tE33TRI8W0U1tbRgAR2yrQ4hsdoKlzrKUDydVPGJNoHpQ==";
+        };
+        _8Xmi6Xkv = {
+            "id" = "8Xmi6Xkv";
+            "file" = "kaleidoscope_tavern-1.2.0.7-fabric+mc26.3.jar";
+            "hash" = "sha512-5xw3y/FecF6/1igeshRU1KxHsDpnmximnimwqDkgJkpQTjwEtxNrlqP1OmiIQMJCcMUFmkBLL1eWpxs2UnyMXQ==";
+        };
+        _EoG76otN = {
+            "id" = "EoG76otN";
+            "file" = "kaleidoscope_tavern-1.2.0.8-fabric+mc26.3.jar";
+            "hash" = "sha512-Z4zEcV+nSOeE6ACnITINXQR9J9C2JrPAMQiaCSnbMKSxDlQhte78j5d+WrkgF93ASGCxJHwt+m5H9zFZllDxUw==";
+        };
     in {
         "bJ1AWGPd" = _bJ1AWGPd;
         "lIjAnD4c" = _lIjAnD4c;
@@ -440,13 +490,24 @@ let
         "NFDoo84x" = _NFDoo84x;
         "fyxniw3Y" = _fyxniw3Y;
         "45LyocLn" = _45LyocLn;
-        "fabric-1.20.1" = _s6lTLBbj;
-        "fabric-1.21.1" = _NFDoo84x;
+        "dSeQF1oP" = _dSeQF1oP;
+        "oDCuDTik" = _oDCuDTik;
+        "veRudxLZ" = _veRudxLZ;
+        "EKY63xnK" = _EKY63xnK;
+        "IZsURkMw" = _IZsURkMw;
+        "cwnkyWw9" = _cwnkyWw9;
+        "EcyhVN1Y" = _EcyhVN1Y;
+        "ncDTtWuA" = _ncDTtWuA;
+        "8Xmi6Xkv" = _8Xmi6Xkv;
+        "EoG76otN" = _EoG76otN;
+        "fabric-1.20.1" = _IZsURkMw;
+        "fabric-1.21.1" = _cwnkyWw9;
         "fabric-1.21.11" = _fecCIVum;
-        "fabric-26.1" = _fyxniw3Y;
-        "fabric-26.1.1" = _fyxniw3Y;
-        "fabric-26.1.2" = _fyxniw3Y;
-        "fabric-26.2" = _45LyocLn;
+        "fabric-26.1" = _EcyhVN1Y;
+        "fabric-26.1.1" = _EcyhVN1Y;
+        "fabric-26.1.2" = _EcyhVN1Y;
+        "fabric-26.2" = _ncDTtWuA;
+        "fabric-26.3" = _EoG76otN;
         "pkg-1.0.0-fabric+mc1.20.1" = _bJ1AWGPd;
         "pkg-1.0.0b-fabric+mc1.20.1" = _lIjAnD4c;
         "pkg-1.0.0b-fabric+mc1.21.1" = _K9N98FAw;
@@ -520,7 +581,17 @@ let
         "pkg-1.2.0.5-fabric+mc1.21.1" = _NFDoo84x;
         "pkg-1.2.0.5-fabric+mc26.1.2" = _fyxniw3Y;
         "pkg-1.2.0.5-fabric+mc26.2" = _45LyocLn;
-        "default" = _45LyocLn;
+        "pkg-1.2.0.6-fabric+mc1.20.1" = _dSeQF1oP;
+        "pkg-1.2.0.6-fabric+mc1.21.1" = _oDCuDTik;
+        "pkg-1.2.0.6-fabric+mc26.1.2" = _veRudxLZ;
+        "pkg-1.2.0.6-fabric+mc26.2" = _EKY63xnK;
+        "pkg-1.2.0.7-fabric+mc1.20.1" = _IZsURkMw;
+        "pkg-1.2.0.7-fabric+mc1.21.1" = _cwnkyWw9;
+        "pkg-1.2.0.7-fabric+mc26.1.2" = _EcyhVN1Y;
+        "pkg-1.2.0.7-fabric+mc26.2" = _ncDTtWuA;
+        "pkg-1.2.0.7-fabric+mc26.3" = _8Xmi6Xkv;
+        "pkg-1.2.0.8-fabric+mc26.3" = _EoG76otN;
+        "default" = _EoG76otN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kaleidoscope-tavern-refabricated";

@@ -296,6 +296,31 @@ let
             "file" = "embellish-chat-3.8.0.jar";
             "hash" = "sha512-890kIQi6w6k+xx7YnFZfObCBPFd6XHaUmH2FBX7AX7UGpbTLvVTkX4PJvk1F6+ahx+05ee0p1as+TijlgjHdMw==";
         };
+        _9xRErNbQ = {
+            "id" = "9xRErNbQ";
+            "file" = "embellish-chat-3.8.0+1.21.0.jar";
+            "hash" = "sha512-0CXnUjUB9tyORuSQlMu3lpaZmSx8xZvrDpzLwiL5bscQsyEHor6eOgB4T30ZC2no1iCXo1z/0NN2/sei7Ez1vw==";
+        };
+        _DCjMUBNf = {
+            "id" = "DCjMUBNf";
+            "file" = "embellish-chat-3.8.0+1.21.11.jar";
+            "hash" = "sha512-oUKjUYPcW5STLZhXiW8/ePe080PCNSLLjO/4cUD5532XfKgiuarK9jK5h9k4BHldiuzaKI6o5ETRyRUNk6RJ4A==";
+        };
+        _ReUJ6Zi7 = {
+            "id" = "ReUJ6Zi7";
+            "file" = "embellish-chat-3.8.0+26.1.jar";
+            "hash" = "sha512-ZP5ylcSlUOCKrx09/L3id2dWg4h0cgRS/2Y7YASt4Sd2yKPf0+iHcRHuBWTUK+fOxhCYOLdGY+dB5ziGe6HqBw==";
+        };
+        _oiwZb3SW = {
+            "id" = "oiwZb3SW";
+            "file" = "embellish-chat-3.8.0+26.2.jar";
+            "hash" = "sha512-aqybFSSjaFxH/+wF13dcD6ztF2sk+r/127ApeN5BZP0jvXmUcUx6FS9hC+p7zf14LKQTKZZQgTzu2VDq+0JUXA==";
+        };
+        _mgN0qLcl = {
+            "id" = "mgN0qLcl";
+            "file" = "embellish-chat-3.8.0+26.3.jar";
+            "hash" = "sha512-jLDKz608EIZlI6ymXYZsRdVuadBKtzSl2AaAik+N+1rpZAhHkKuT+xgj0ErRJKrUjByJBgOqcxeqLJE/3au+GQ==";
+        };
     in {
         "CilDuD2z" = _CilDuD2z;
         "7GRF96iI" = _7GRF96iI;
@@ -356,7 +381,12 @@ let
         "30yDWwQ2" = _30yDWwQ2;
         "fcDEsNpa" = _fcDEsNpa;
         "OVutlU7M" = _OVutlU7M;
-        "fabric-1.21.11" = _In6ON3ka;
+        "9xRErNbQ" = _9xRErNbQ;
+        "DCjMUBNf" = _DCjMUBNf;
+        "ReUJ6Zi7" = _ReUJ6Zi7;
+        "oiwZb3SW" = _oiwZb3SW;
+        "mgN0qLcl" = _mgN0qLcl;
+        "fabric-1.21.11" = _DCjMUBNf;
         "fabric-1.21.9" = _JZG3dahz;
         "fabric-1.21.10" = _JZG3dahz;
         "fabric-1.21.6" = _i3V2uYNW;
@@ -366,15 +396,15 @@ let
         "fabric-1.21.2" = _ZLU7MMOx;
         "fabric-1.21.3" = _ZLU7MMOx;
         "fabric-1.21.4" = _ZLU7MMOx;
-        "fabric-1.21" = _uhkodBjM;
-        "fabric-1.21.1" = _uhkodBjM;
+        "fabric-1.21" = _9xRErNbQ;
+        "fabric-1.21.1" = _9xRErNbQ;
         "fabric-26.1-pre-3" = _lgwGxxzD;
         "fabric-26.1-rc-1" = _lgwGxxzD;
         "fabric-26.1-rc-2" = _lgwGxxzD;
         "fabric-26.1-rc-3" = _lgwGxxzD;
-        "fabric-26.1" = _qs5QrRi6;
-        "fabric-26.1.1" = _qs5QrRi6;
-        "fabric-26.1.2" = _qs5QrRi6;
+        "fabric-26.1" = _ReUJ6Zi7;
+        "fabric-26.1.1" = _ReUJ6Zi7;
+        "fabric-26.1.2" = _ReUJ6Zi7;
         "fabric-26.2-snapshot-3" = _pNe3Amgv;
         "fabric-26.2-snapshot-4" = _pNe3Amgv;
         "fabric-26.2-snapshot-5" = _yGIvRjVd;
@@ -389,7 +419,7 @@ let
         "fabric-26.2-pre-6" = _duZOYxUN;
         "fabric-26.2-rc-1" = _qlfj2Rmq;
         "fabric-26.2-rc-2" = _qlfj2Rmq;
-        "fabric-26.2" = _OVutlU7M;
+        "fabric-26.2" = _oiwZb3SW;
         "fabric-26.3-snapshot-1" = _OVutlU7M;
         "fabric-26.3-snapshot-2" = _OVutlU7M;
         "fabric-26.3-snapshot-3" = _OVutlU7M;
@@ -402,6 +432,7 @@ let
         "fabric-26.3-snapshot-10" = _OVutlU7M;
         "fabric-26.3-pre-1" = _OVutlU7M;
         "fabric-26.3-pre-2" = _OVutlU7M;
+        "fabric-26.3" = _mgN0qLcl;
         "pkg-3.0.0" = _7GRF96iI;
         "pkg-3.0.1" = _79CshTPe;
         "pkg-3.1.0" = _Ih87SNo1;
@@ -448,7 +479,12 @@ let
         "pkg-3.7.0+26.2" = _30yDWwQ2;
         "pkg-3.8.0+26.2-beta1" = _fcDEsNpa;
         "pkg-3.8.0+26.2-beta2" = _OVutlU7M;
-        "default" = _OVutlU7M;
+        "pkg-3.8.0+1.21" = _9xRErNbQ;
+        "pkg-3.8.0+1.21.11" = _DCjMUBNf;
+        "pkg-3.8.0+26.1" = _ReUJ6Zi7;
+        "pkg-3.8.0+26.2" = _oiwZb3SW;
+        "pkg-3.8.0+26.3" = _mgN0qLcl;
+        "default" = _mgN0qLcl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "embellish-chat";

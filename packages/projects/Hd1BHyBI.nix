@@ -446,6 +446,11 @@ let
             "file" = "ImageOverlay-26.2-1.1.3.jar";
             "hash" = "sha512-Mr2sQiXK+1GgFpvAoxqWCOmHvsN8NEzJwGoeb9v/ylC/JmMZAsizW9I3nnoovmy2UH/ylN8qyuOzjQ99lbfUeg==";
         };
+        _w2DtVGdT = {
+            "id" = "w2DtVGdT";
+            "file" = "ImageOverlay-26.3-1.1.3.jar";
+            "hash" = "sha512-VoPdr70vkjvR+MRZxHYNhuBG0gNiKtp5gISoFsGa1m4of7pvK+UWvxXdaQnW8JyGl07dCbY2qFkcjJk5riJt6Q==";
+        };
     in {
         "57hQB69I" = _57hQB69I;
         "r6vczKWq" = _r6vczKWq;
@@ -536,6 +541,7 @@ let
         "eiInsIGU" = _eiInsIGU;
         "YGqseMyP" = _YGqseMyP;
         "I7Xk9Ias" = _I7Xk9Ias;
+        "w2DtVGdT" = _w2DtVGdT;
         "fabric-1.21.4" = _rDBM5JUi;
         "fabric-1.21.5" = _Nf1ZjwVd;
         "fabric-1.21.3" = _37pMHajR;
@@ -553,6 +559,7 @@ let
         "fabric-26.1.1" = _eiInsIGU;
         "fabric-26.1.2" = _YGqseMyP;
         "fabric-26.2" = _I7Xk9Ias;
+        "fabric-26.3" = _w2DtVGdT;
         "pkg-1.0" = _57hQB69I;
         "pkg-1.0.2" = _r6vczKWq;
         "pkg-1.0.3" = _42iFUDPc;
@@ -635,7 +642,8 @@ let
         "pkg-26.1.1-1.1.3" = _eiInsIGU;
         "pkg-26.1.2-1.1.3" = _YGqseMyP;
         "pkg-26.2-1.1.3" = _I7Xk9Ias;
-        "default" = _I7Xk9Ias;
+        "pkg-26.3-1.1.3" = _w2DtVGdT;
+        "default" = _w2DtVGdT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "imageoverlay";

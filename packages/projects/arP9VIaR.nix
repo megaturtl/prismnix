@@ -291,6 +291,11 @@ let
             "file" = "potionenchant-1.20.1-forge-1.8.8-fix3.jar";
             "hash" = "sha512-aRtiD1j+TInUDBsJhoZICxZy+Mvs+MA0QWcG77m4/bYqNDNughat0MR1GPA7HLwlObYHOakM26D0iEHgXzfsmw==";
         };
+        _CERm4BDr = {
+            "id" = "CERm4BDr";
+            "file" = "potionenchant-1.20.1-forge-1.8.8-fix4.jar";
+            "hash" = "sha512-EeuMg1fKsAlS0l+To1XmhRZpdUbJaw0KBD11EKxrx9BGuRVfDQ1RwlwrDXF5vKdjYo8eVuF2g6iMITAmvAc+ag==";
+        };
     in {
         "DdaNpQNu" = _DdaNpQNu;
         "4UUPBCZa" = _4UUPBCZa;
@@ -350,7 +355,8 @@ let
         "yaHuETu3" = _yaHuETu3;
         "DA6zwEMK" = _DA6zwEMK;
         "zPuJ8EbL" = _zPuJ8EbL;
-        "forge-1.20.1" = _zPuJ8EbL;
+        "CERm4BDr" = _CERm4BDr;
+        "forge-1.20.1" = _CERm4BDr;
         "forge-1.19.2" = _T23uG5YO;
         "forge-1.18.2" = _u6Ufs3Wp;
         "neoforge-1.21" = _cWMN8yHM;
@@ -423,7 +429,8 @@ let
         "pkg-1.20.1-forge-1.8.8-fix" = _yaHuETu3;
         "pkg-1.20.1-forge-1.8.8-fix2" = _DA6zwEMK;
         "pkg-1.20.1-forge-1.8.8-fix3" = _zPuJ8EbL;
-        "default" = _zPuJ8EbL;
+        "pkg-1.20.1-forge-1.8.8-fix4" = _CERm4BDr;
+        "default" = _CERm4BDr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "potionenchant";

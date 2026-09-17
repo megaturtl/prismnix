@@ -46,6 +46,11 @@ let
             "file" = "ClientCommands-0.7.5+26.1.2.jar";
             "hash" = "sha512-LJ343Pnhu8hpMaqWypOZw2r0MVO3M8zwHVzKMhigUyZ9xXCgU/NtIAlcp9UWNV7tZp0BPQcMliBUGMopaf3veQ==";
         };
+        _nnLc6fW0 = {
+            "id" = "nnLc6fW0";
+            "file" = "ClientCommands-0.7.5+26.2.jar";
+            "hash" = "sha512-qwG08u6iMjI87PJU8DLgoocu86MgckYAVbN5bBUGpoUf2wBUyxkh3GKgHPEOj2OWnVwRGyizh0Gm6RGeDhRxnA==";
+        };
     in {
         "WrlGfl6l" = _WrlGfl6l;
         "tF8O5u1Z" = _tF8O5u1Z;
@@ -56,6 +61,7 @@ let
         "Y87oVNg7" = _Y87oVNg7;
         "NyGTvj7D" = _NyGTvj7D;
         "Y4uQOt38" = _Y4uQOt38;
+        "nnLc6fW0" = _nnLc6fW0;
         "fabric-1.20" = _WrlGfl6l;
         "fabric-1.20.1" = _WrlGfl6l;
         "fabric-1.20.2" = _WrlGfl6l;
@@ -69,6 +75,7 @@ let
         "fabric-1.21.10" = _NyGTvj7D;
         "fabric-1.21.11" = _NyGTvj7D;
         "fabric-26.1.2" = _Y4uQOt38;
+        "fabric-26.2" = _nnLc6fW0;
         "pkg-0.4.0" = _WrlGfl6l;
         "pkg-0.6.0" = _tF8O5u1Z;
         "pkg-0.6.2" = _WrPy50tQ;
@@ -78,7 +85,8 @@ let
         "pkg-0.7.4+1.21.8" = _Y87oVNg7;
         "pkg-0.7.5+1.21.10" = _NyGTvj7D;
         "pkg-0.7.5+26.1.2" = _Y4uQOt38;
-        "default" = _Y4uQOt38;
+        "pkg-0.7.5+26.2" = _nnLc6fW0;
+        "default" = _nnLc6fW0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "clientcommands";

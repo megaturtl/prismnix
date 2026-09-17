@@ -56,6 +56,16 @@ let
             "file" = "Geographicraft-1.12.2-0.9.8.5.jar";
             "hash" = "sha512-c/rawL5/kEBNz6dlcy56Sf/vWgAWnKsvbd0xgDuil0NrUIX9II9VjwMx643IsR/0KN/qpiu8V2wp0M6Qjs6mKQ==";
         };
+        _QYKEFTDj = {
+            "id" = "QYKEFTDj";
+            "file" = "Geographicraft-1.12.2-0.9.9.jar";
+            "hash" = "sha512-rA6Z1p9NuwzcZ4ZxvtTEoPbEymkW657U1eiHaM8J0RSV9KCK2OMypwLaQ5OZ0YLU1Gxpq9b60Abpf7wlL8bcMA==";
+        };
+        _i89y01qa = {
+            "id" = "i89y01qa";
+            "file" = "Geographicraft-1.12.2-0.9.9.1.jar";
+            "hash" = "sha512-rukbIBKvhPxfmlQLRF1C/UvCxOEKRMK+9wwWMS8p9LwUYKsT6HGaR8ziVbIBuMH9YnwDhoewzL+JpNh6AoKs6g==";
+        };
     in {
         "soNGPySr" = _soNGPySr;
         "4DzwtZGg" = _4DzwtZGg;
@@ -68,9 +78,11 @@ let
         "DRWkuAlZ" = _DRWkuAlZ;
         "YXOetowG" = _YXOetowG;
         "3ni0Ak5c" = _3ni0Ak5c;
-        "forge-1.12" = _BmRQoIly;
-        "forge-1.12.1" = _BmRQoIly;
-        "forge-1.12.2" = _3ni0Ak5c;
+        "QYKEFTDj" = _QYKEFTDj;
+        "i89y01qa" = _i89y01qa;
+        "forge-1.12" = _i89y01qa;
+        "forge-1.12.1" = _i89y01qa;
+        "forge-1.12.2" = _i89y01qa;
         "pkg-0.9.3.1" = _soNGPySr;
         "pkg-0.9.4" = _4DzwtZGg;
         "pkg-0.9.5" = _5zyHWVdV;
@@ -82,7 +94,9 @@ let
         "pkg-0.9.8.2" = _DRWkuAlZ;
         "pkg-0.9.8.3" = _YXOetowG;
         "pkg-0.9.8.5" = _3ni0Ak5c;
-        "default" = _3ni0Ak5c;
+        "pkg-0.9.9" = _QYKEFTDj;
+        "pkg-0.9.9.1" = _i89y01qa;
+        "default" = _i89y01qa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "geographicraft";

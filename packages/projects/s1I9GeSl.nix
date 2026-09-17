@@ -21,17 +21,31 @@ let
             "file" = "colorful_depot-1.3-neoforge.jar";
             "hash" = "sha512-aZ+YA1xQ0YhhWrVkMhfhhrNvghSv5h9Yo0s1FBO87JE44l9jJv6GfEH8B4lzKGbeKImL4t5ahE04Q/0Fpm8yFA==";
         };
+        _gDKFQHNJ = {
+            "id" = "gDKFQHNJ";
+            "file" = "colorful_depot-1.4-neoforge.jar";
+            "hash" = "sha512-yKGtwulpT2APEE85lrneTVmkOlvhlfM/1Ka8nWgOe27K2ZiJP+pklJzXavrAy+XOrcC7O42zzwEv6OrT3lLDKw==";
+        };
+        _vqkf94nw = {
+            "id" = "vqkf94nw";
+            "file" = "colorful_depot-1.4.1-neoforge.jar";
+            "hash" = "sha512-AqkKSF0OhpN/+vwB3TmYbMONElFHPLB6n7SqpzmsFujfpKVApHhXkJgXfffOuPuQWVvcyDYsfrQZ5nH+5377fw==";
+        };
     in {
         "v9YHg0Yo" = _v9YHg0Yo;
         "iZphCo1v" = _iZphCo1v;
         "IBOIpNJq" = _IBOIpNJq;
         "rwUkYHBw" = _rwUkYHBw;
-        "neoforge-1.21.1" = _rwUkYHBw;
+        "gDKFQHNJ" = _gDKFQHNJ;
+        "vqkf94nw" = _vqkf94nw;
+        "neoforge-1.21.1" = _vqkf94nw;
         "pkg-1.0" = _v9YHg0Yo;
         "pkg-1.1" = _iZphCo1v;
         "pkg-1.2" = _IBOIpNJq;
         "pkg-1.3" = _rwUkYHBw;
-        "default" = _rwUkYHBw;
+        "pkg-1.4" = _gDKFQHNJ;
+        "pkg-1.4.1" = _vqkf94nw;
+        "default" = _vqkf94nw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "colorful-depot";

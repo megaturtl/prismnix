@@ -16,10 +16,16 @@ let
             "file" = "Seedy Saplings.zip";
             "hash" = "sha512-jzzvVnA3zlFzYGl36CfOklBY1HKTpyDnGxsiKn1eAzbqF2BLQDFcBTe/Pl6yVU0hgWsXZK26QWNbOk6QdML7+w==";
         };
+        _gAA9e4YY = {
+            "id" = "gAA9e4YY";
+            "file" = "Seedy Saplings.zip";
+            "hash" = "sha512-7fZGyOmgrNL7Vgi5exyNZjpHd8MbKwL8O/O7MNwe1afT+RiCEcizKqhQwK0JdlREGicBlaVuis3fIZmYG8ekZg==";
+        };
     in {
         "jjCsO4Ix" = _jjCsO4Ix;
         "KV4TEiMq" = _KV4TEiMq;
         "D6SXlfmd" = _D6SXlfmd;
+        "gAA9e4YY" = _gAA9e4YY;
         "minecraft-1.20" = _D6SXlfmd;
         "minecraft-1.20.1" = _D6SXlfmd;
         "minecraft-1.20.2" = _D6SXlfmd;
@@ -38,10 +44,22 @@ let
         "minecraft-1.21.1" = _D6SXlfmd;
         "minecraft-1.21.4" = _D6SXlfmd;
         "minecraft-1.21.5" = _D6SXlfmd;
+        "minecraft-1.21.6" = _gAA9e4YY;
+        "minecraft-1.21.7" = _gAA9e4YY;
+        "minecraft-1.21.8" = _gAA9e4YY;
+        "minecraft-1.21.9" = _gAA9e4YY;
+        "minecraft-1.21.10" = _gAA9e4YY;
+        "minecraft-1.21.11" = _gAA9e4YY;
+        "minecraft-26.1" = _gAA9e4YY;
+        "minecraft-26.1.1" = _gAA9e4YY;
+        "minecraft-26.1.2" = _gAA9e4YY;
+        "minecraft-26.2" = _gAA9e4YY;
+        "minecraft-26.3" = _gAA9e4YY;
         "pkg-1.0" = _jjCsO4Ix;
         "pkg-1.1" = _KV4TEiMq;
         "pkg-2.0" = _D6SXlfmd;
-        "default" = _D6SXlfmd;
+        "pkg-2.1" = _gAA9e4YY;
+        "default" = _gAA9e4YY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "seedy-saplings";

@@ -831,6 +831,11 @@ let
             "file" = "indypets-1.5.5-26.2.jar";
             "hash" = "sha512-IJUqFMpY7tjKMqyYWjdGgzr6jSk8Q+mE7zF7oYF5vDO6vAhH+fy9nMkGiSqBCcA+rMbBbpO5HaH1DxXIDkCmvQ==";
         };
+        _FCrpV1uD = {
+            "id" = "FCrpV1uD";
+            "file" = "indypets-1.5.6-26.3.jar";
+            "hash" = "sha512-V27LfjdKAgigiXULUaQLYisbTF/7r6PZ0/ndAzHKWz0W0zxTzBbUQLCrjt2PS3D8wn9FEZL5OL3pm6fFLE5Aug==";
+        };
     in {
         "TOrWO44t" = _TOrWO44t;
         "PfBcUbEZ" = _PfBcUbEZ;
@@ -998,6 +1003,7 @@ let
         "nQEqRnlb" = _nQEqRnlb;
         "13bAElSv" = _13bAElSv;
         "sGyN2R3Z" = _sGyN2R3Z;
+        "FCrpV1uD" = _FCrpV1uD;
         "fabric-1.16" = _w24Diizi;
         "fabric-1.16.1" = _w24Diizi;
         "fabric-1.16.2" = _w24Diizi;
@@ -1037,6 +1043,7 @@ let
         "fabric-26.1.1" = _13bAElSv;
         "fabric-26.1.2" = _13bAElSv;
         "fabric-26.2" = _sGyN2R3Z;
+        "fabric-26.3" = _FCrpV1uD;
         "pkg-0.5.0" = _TOrWO44t;
         "pkg-0.5.1" = _PfBcUbEZ;
         "pkg-0.5.2" = _RLT7yMjw;
@@ -1200,7 +1207,8 @@ let
         "pkg-1.5.5-1.21.9" = _nQEqRnlb;
         "pkg-1.5.5-26.1.1" = _13bAElSv;
         "pkg-1.5.5-26.2" = _sGyN2R3Z;
-        "default" = _sGyN2R3Z;
+        "pkg-1.5.6-26.3" = _FCrpV1uD;
+        "default" = _FCrpV1uD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "indypets";

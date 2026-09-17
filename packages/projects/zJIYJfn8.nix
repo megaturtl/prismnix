@@ -86,6 +86,16 @@ let
             "file" = "catenary-0.6.1.jar";
             "hash" = "sha512-PseQlT0tbx/d6okk7rvhqzqnx0H2iweCQgxvacI5AGGqb9zCzx/zTmSPOJSTi/G7NZN4dr3jl5dSqSsRD1QCEQ==";
         };
+        _fnSoFY9M = {
+            "id" = "fnSoFY9M";
+            "file" = "catenary_v0.7.0_data_pack.zip";
+            "hash" = "sha512-SW8FSiiPr9e5GP8pORQXf99H5HCCj51sn4+n6JbfePrIP6rpiPWZXsf2sfSHcq1aRNFjErS+1bgHK+zSbH6ThQ==";
+        };
+        _CpY6ZNtU = {
+            "id" = "CpY6ZNtU";
+            "file" = "catenary-0.7.0.jar";
+            "hash" = "sha512-dQRCvow+Dde1hcP+HN4Eu99Osi0m7l29IF6jRPc9QTE/GJLScGWbQjnRrW/dQYjg/focbpN3ageAnvtJwMiCug==";
+        };
     in {
         "MqY4D3nm" = _MqY4D3nm;
         "QyZao8xn" = _QyZao8xn;
@@ -104,6 +114,8 @@ let
         "y46IB6dO" = _y46IB6dO;
         "Ws3KPmI2" = _Ws3KPmI2;
         "mn4xkIOJ" = _mn4xkIOJ;
+        "fnSoFY9M" = _fnSoFY9M;
+        "CpY6ZNtU" = _CpY6ZNtU;
         "datapack-1.20" = _MqY4D3nm;
         "datapack-1.20.1" = _MqY4D3nm;
         "datapack-1.20.2" = _MqY4D3nm;
@@ -118,6 +130,7 @@ let
         "datapack-1.21.9" = _y46IB6dO;
         "datapack-1.21.10" = _y46IB6dO;
         "datapack-1.21.11" = _Ws3KPmI2;
+        "datapack-26.2" = _fnSoFY9M;
         "fabric-1.21" = _vKCND7bB;
         "fabric-1.21.1" = _vKCND7bB;
         "fabric-1.21.4" = _Dx83KNes;
@@ -130,6 +143,7 @@ let
         "fabric-1.21.9" = _FQuSLZeQ;
         "fabric-1.21.10" = _FQuSLZeQ;
         "fabric-1.21.11" = _mn4xkIOJ;
+        "fabric-26.2" = _CpY6ZNtU;
         "forge-1.21" = _vKCND7bB;
         "forge-1.21.1" = _vKCND7bB;
         "forge-1.21.4" = _Dx83KNes;
@@ -142,6 +156,7 @@ let
         "forge-1.21.9" = _FQuSLZeQ;
         "forge-1.21.10" = _FQuSLZeQ;
         "forge-1.21.11" = _mn4xkIOJ;
+        "forge-26.2" = _CpY6ZNtU;
         "quilt-1.21" = _vKCND7bB;
         "quilt-1.21.1" = _vKCND7bB;
         "quilt-1.21.4" = _Dx83KNes;
@@ -154,6 +169,7 @@ let
         "quilt-1.21.9" = _FQuSLZeQ;
         "quilt-1.21.10" = _FQuSLZeQ;
         "quilt-1.21.11" = _mn4xkIOJ;
+        "quilt-26.2" = _CpY6ZNtU;
         "neoforge-1.21.4" = _Dx83KNes;
         "neoforge-1.21.6" = _cJItfUyK;
         "neoforge-1.21.7" = _cJItfUyK;
@@ -164,6 +180,7 @@ let
         "neoforge-1.21.9" = _FQuSLZeQ;
         "neoforge-1.21.10" = _FQuSLZeQ;
         "neoforge-1.21.11" = _mn4xkIOJ;
+        "neoforge-26.2" = _CpY6ZNtU;
         "pkg-0.1.3" = _MqY4D3nm;
         "pkg-0.2.0" = _QyZao8xn;
         "pkg-0.2.1" = _tldtP9iS;
@@ -181,7 +198,9 @@ let
         "pkg-0.6.0" = _y46IB6dO;
         "pkg-0.6.1" = _Ws3KPmI2;
         "pkg-0.6.1+mod" = _mn4xkIOJ;
-        "default" = _mn4xkIOJ;
+        "pkg-0.7.0" = _fnSoFY9M;
+        "pkg-0.7.0+mod" = _CpY6ZNtU;
+        "default" = _CpY6ZNtU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "catenary";

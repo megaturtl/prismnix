@@ -16,16 +16,22 @@ let
             "file" = "densefuel-1.0.0.jar";
             "hash" = "sha512-idxDy8w1Z0EC6Xt3+VEvyHUsfXK+Vx9aSfGPj3dmjyQaQZD5sHa9BWznqrCpGgCIh2trZSxAHDSIN4mNqQvkGg==";
         };
+        _hvSKJ5np = {
+            "id" = "hvSKJ5np";
+            "file" = "densefuel-1.0.0.jar";
+            "hash" = "sha512-s61FF4HIT7bEAOf8ONOeKtzF6fYPmhVevrHq+ZfG3y99unQP+vDRPKdmoUsYlzv7NjAKr9HisJJqYbTcBLEoHQ==";
+        };
     in {
         "Ssz6gZQp" = _Ssz6gZQp;
         "oAbVq0o4" = _oAbVq0o4;
         "jw94k00n" = _jw94k00n;
+        "hvSKJ5np" = _hvSKJ5np;
         "forge-1.20.1" = _jw94k00n;
-        "neoforge-1.21.1" = _oAbVq0o4;
+        "neoforge-1.21.1" = _hvSKJ5np;
         "pkg-1.0.0" = _Ssz6gZQp;
         "pkg-1.0.0-1.21.1" = _oAbVq0o4;
-        "pkg-1.0.0-1" = _jw94k00n;
-        "default" = _jw94k00n;
+        "pkg-1.0.0-1" = _hvSKJ5np;
+        "default" = _hvSKJ5np;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "densefuel";

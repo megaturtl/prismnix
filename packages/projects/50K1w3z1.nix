@@ -191,6 +191,11 @@ let
             "file" = "QuickAdditions-2.11.1.jar";
             "hash" = "sha512-prXzGgeVw6gVzBYdEZcWGY4h18bQhcauyvhPTHXiTTmcqKUX1aA3WpgQqVAPdVNx4ACwYkyC3iql+3lo/cj1kg==";
         };
+        _5UrLYjkJ = {
+            "id" = "5UrLYjkJ";
+            "file" = "QuickAdditions-2.12.0.jar";
+            "hash" = "sha512-VQy63hDVbQL8ZzEZNL7v1M+sy7vCyvB1iNGwpGQkueLImrFa7bhTHbJlGDsJAn2697+0jTLHlpFghs6FdP7ImA==";
+        };
     in {
         "jhJdkRLB" = _jhJdkRLB;
         "lBNqwGwl" = _lBNqwGwl;
@@ -230,8 +235,9 @@ let
         "D3E7aojc" = _D3E7aojc;
         "I7okFW2c" = _I7okFW2c;
         "VadQBGNY" = _VadQBGNY;
-        "babric-b1.7.3" = _VadQBGNY;
-        "fabric-b1.7.3" = _VadQBGNY;
+        "5UrLYjkJ" = _5UrLYjkJ;
+        "babric-b1.7.3" = _5UrLYjkJ;
+        "fabric-b1.7.3" = _5UrLYjkJ;
         "pkg-1.2.1" = _jhJdkRLB;
         "pkg-1.3.0" = _lBNqwGwl;
         "pkg-1.4.0" = _DRZ6mrif;
@@ -270,7 +276,8 @@ let
         "pkg-2.10.0" = _D3E7aojc;
         "pkg-2.11.0" = _I7okFW2c;
         "pkg-2.11.1" = _VadQBGNY;
-        "default" = _VadQBGNY;
+        "pkg-2.12.0" = _5UrLYjkJ;
+        "default" = _5UrLYjkJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "quickadditions-stationapi";

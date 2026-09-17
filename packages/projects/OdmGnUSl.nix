@@ -111,6 +111,66 @@ let
             "file" = "the_zenith_sword-1.0.0-26.2.jar";
             "hash" = "sha512-eGJwH/KEhhkHsvmCY8dLgl9pp813MQR3kpBs4AWnDlrOk+CJnwgReDtmgzkPfZSdf6Zdxb3J4INp7KwJlSSPUQ==";
         };
+        _CPwu6atl = {
+            "id" = "CPwu6atl";
+            "file" = "the_zenith_sword-1.7.0-1.20.1-all.jar";
+            "hash" = "sha512-EMddUMG9KQMXlYL10h9UDVT/Bx2vt+LMjoWwIXc31tp2VNa9zNRpTaHQ7z2h9jT8FrlrSN9Lua4flYce3liyCA==";
+        };
+        _uT5lyr0G = {
+            "id" = "uT5lyr0G";
+            "file" = "the_zenith_sword-1.7.0-1.21.1.jar";
+            "hash" = "sha512-bX9rIJ4RSBZfUYj2IISrnNxT4peB5fIOdcMejdIRKrdG5K6fj4/rXF2hD2YMQYpzmkEqC4aEsKVmvjbZdca+3Q==";
+        };
+        _TDHzuAwA = {
+            "id" = "TDHzuAwA";
+            "file" = "the_zenith_sword-1.7.1-1.20.1-all.jar";
+            "hash" = "sha512-5smdxPN9Md/jKOF8Pgg/3AhxkPA/a1fu2RxAGz9YCtpGXg3kAqzHHSzrOQvApNvaIqZU7W452N3Qy/YrzDiITg==";
+        };
+        _FiMASbWy = {
+            "id" = "FiMASbWy";
+            "file" = "the_zenith_sword-1.7.1-1.21.1.jar";
+            "hash" = "sha512-ELCN69ZxxMI26yQyq95taDbMIFQq2dhoB9qfEk/8jzyaqX6ZbY5wRIX8QJoHWTNSJJ2C1rQC+c6a9diOhoNplg==";
+        };
+        _bcavafvi = {
+            "id" = "bcavafvi";
+            "file" = "the_zenith_sword-1.7.2-26.2.jar";
+            "hash" = "sha512-k0xzKlIIm+DBwVdwerp2gaCvayobxl5Q5+StvqlZx08zEzZVQjnIG8teoSX7vbRxU4s+kmtZarvOFfcuDQYm6Q==";
+        };
+        _fHSg2EGe = {
+            "id" = "fHSg2EGe";
+            "file" = "the_zenith_sword-1.7.2-26.1.2.jar";
+            "hash" = "sha512-/GOw2hoqHZZl6mD2iyTXQzVpQgfvg8U9VaaqCzufVQPCfPWMVqKd1J4crzuer/TlotxDzXD+6bh9LtaobT/huQ==";
+        };
+        _Kjzb8sJ1 = {
+            "id" = "Kjzb8sJ1";
+            "file" = "the_zenith_sword-1.7.2-1.21.1.jar";
+            "hash" = "sha512-QgFn/Q2ks8BvRAhn+vlEATvBwn09Ngez2VXTB0COLhTMJgQx1/uTmH/7VKBldQgEPxHijsqDGjTBhXmOOPiaJw==";
+        };
+        _g474V4Y1 = {
+            "id" = "g474V4Y1";
+            "file" = "the_zenith_sword-1.7.2-1.20.1-all.jar";
+            "hash" = "sha512-ESsUfzk3wrH/vigL2BuwLOv+lLmw0axCRkwCIZasS2K3GubAOGf99wgKOwtJP2UKq3qMWmnKZ8qZ7v9hCdS9jQ==";
+        };
+        _xFSQ0Egs = {
+            "id" = "xFSQ0Egs";
+            "file" = "the_zenith_sword-1.7.3-1.20.1-all.jar";
+            "hash" = "sha512-CVg/YGwFxOUc1nbVuql8c6T0kH+z3gnSG2w6ZARNIkWFykShfH5hTHM1uFIfbknXXgMaLiuAeqpaYm6n7eTNwA==";
+        };
+        _IPSlH1dR = {
+            "id" = "IPSlH1dR";
+            "file" = "the_zenith_sword-1.7.3-1.21.1.jar";
+            "hash" = "sha512-GQRn0G64OVszjrPfrP/OuSs6LRL74BZ8IfTWHtI99K0v+cEIkmG374omH4LzQ9CA5pXpG0/hEHiT/mCbBL4vLQ==";
+        };
+        _LiAC3RWb = {
+            "id" = "LiAC3RWb";
+            "file" = "the_zenith_sword-1.7.3-26.1.2.jar";
+            "hash" = "sha512-167vG9G+5KaOHbLzY4etxzxtW/QLs9QCWZeqR8gtF8qPBEG6gtuC39ncouEfvSfZX+noIf65COr3AqXjsX/GtA==";
+        };
+        _nRywHK7A = {
+            "id" = "nRywHK7A";
+            "file" = "the_zenith_sword-1.7.3-26.2.jar";
+            "hash" = "sha512-IKzhUs09OfNzlyLo6Zo4XwaZZhzDNlWRASAExlfIDTI+DLIjM19To+lSfoQW3GgGDmeGr3VhaicqAwqtdznviQ==";
+        };
     in {
         "WQ7UIK99" = _WQ7UIK99;
         "xybG0KhH" = _xybG0KhH;
@@ -134,12 +194,24 @@ let
         "3gmFzxve" = _3gmFzxve;
         "zz6YyLBP" = _zz6YyLBP;
         "kDv7ODeS" = _kDv7ODeS;
-        "neoforge-1.21.1" = _bxMXchqe;
+        "CPwu6atl" = _CPwu6atl;
+        "uT5lyr0G" = _uT5lyr0G;
+        "TDHzuAwA" = _TDHzuAwA;
+        "FiMASbWy" = _FiMASbWy;
+        "bcavafvi" = _bcavafvi;
+        "fHSg2EGe" = _fHSg2EGe;
+        "Kjzb8sJ1" = _Kjzb8sJ1;
+        "g474V4Y1" = _g474V4Y1;
+        "xFSQ0Egs" = _xFSQ0Egs;
+        "IPSlH1dR" = _IPSlH1dR;
+        "LiAC3RWb" = _LiAC3RWb;
+        "nRywHK7A" = _nRywHK7A;
+        "neoforge-1.21.1" = _IPSlH1dR;
         "neoforge-26.1" = _f0uq6pyh;
         "neoforge-26.1.1" = _3gmFzxve;
-        "neoforge-26.1.2" = _zz6YyLBP;
-        "neoforge-26.2" = _kDv7ODeS;
-        "forge-1.20.1" = _rfopmWdZ;
+        "neoforge-26.1.2" = _LiAC3RWb;
+        "neoforge-26.2" = _nRywHK7A;
+        "forge-1.20.1" = _xFSQ0Egs;
         "pkg-1.1.0" = _WQ7UIK99;
         "pkg-1.2.0" = _xybG0KhH;
         "pkg-1.3.0" = _B8GDqwHV;
@@ -162,7 +234,19 @@ let
         "pkg-1.0.3-26.1.1" = _3gmFzxve;
         "pkg-1.0.0-26.1.2" = _zz6YyLBP;
         "pkg-1.0.0-26.2" = _kDv7ODeS;
-        "default" = _kDv7ODeS;
+        "pkg-1.7.0-1.20.1" = _CPwu6atl;
+        "pkg-1.7.0-1.21.1" = _uT5lyr0G;
+        "pkg-1.7.1-1.20.1" = _TDHzuAwA;
+        "pkg-1.7.1-1.21.1" = _FiMASbWy;
+        "pkg-1.7.2-26.2" = _bcavafvi;
+        "pkg-1.7.2-26.1.2" = _fHSg2EGe;
+        "pkg-1.7.2-1.21.1" = _Kjzb8sJ1;
+        "pkg-1.7.2-1.20.1" = _g474V4Y1;
+        "pkg-1.7.3-1.20.1" = _xFSQ0Egs;
+        "pkg-1.7.3-1.21.1" = _IPSlH1dR;
+        "pkg-1.7.3-26.1.2" = _LiAC3RWb;
+        "pkg-1.7.3-26.2" = _nRywHK7A;
+        "default" = _nRywHK7A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thezenithsword";

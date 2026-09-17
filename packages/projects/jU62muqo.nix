@@ -66,6 +66,11 @@ let
             "file" = "Magic Items 2.3.1 [Resource Pack].zip";
             "hash" = "sha512-NNprCkCGxI/dIqdlZpbJFXjGszvjln5U6AJhwqW59JIB/m8F244iMT6wYIBYPNrscDtJo7YQ5JGdOJ9vMOEmYA==";
         };
+        _8yhguBi8 = {
+            "id" = "8yhguBi8";
+            "file" = "Magic Items 2.4 [Resource Pack].zip";
+            "hash" = "sha512-bE0G/LGKelUG8s7j0Qe+mqthu88v/eZDjjJV39cKvFxH5mgAZNzwtpBqo7inVhHtzB3cx9Q6n5zbttlQ6nRxgg==";
+        };
     in {
         "EN33XfGc" = _EN33XfGc;
         "StdN7fYb" = _StdN7fYb;
@@ -80,6 +85,7 @@ let
         "fTfmgSeA" = _fTfmgSeA;
         "ISF9Z7Ew" = _ISF9Z7Ew;
         "8aiNErP6" = _8aiNErP6;
+        "8yhguBi8" = _8yhguBi8;
         "minecraft-1.21.5" = _EN33XfGc;
         "minecraft-1.21.6" = _StdN7fYb;
         "minecraft-1.21.7" = _vi7Tk3dP;
@@ -87,10 +93,11 @@ let
         "minecraft-1.21.9" = _3z6ipM0t;
         "minecraft-1.21.10" = _3z6ipM0t;
         "minecraft-1.21.11" = _ISF9Z7Ew;
-        "minecraft-26.1" = _8aiNErP6;
-        "minecraft-26.1.1" = _8aiNErP6;
-        "minecraft-26.1.2" = _8aiNErP6;
-        "minecraft-26.2" = _8aiNErP6;
+        "minecraft-26.1" = _8yhguBi8;
+        "minecraft-26.1.1" = _8yhguBi8;
+        "minecraft-26.1.2" = _8yhguBi8;
+        "minecraft-26.2" = _8yhguBi8;
+        "minecraft-26.3" = _8yhguBi8;
         "pkg-1.0" = _EN33XfGc;
         "pkg-1.1" = _StdN7fYb;
         "pkg-1.2" = _lI1ZCYnG;
@@ -104,7 +111,8 @@ let
         "pkg-2.2" = _fTfmgSeA;
         "pkg-2.3" = _ISF9Z7Ew;
         "pkg-2.3.1" = _8aiNErP6;
-        "default" = _8aiNErP6;
+        "pkg-2.4" = _8yhguBi8;
+        "default" = _8yhguBi8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rp-magicitems";

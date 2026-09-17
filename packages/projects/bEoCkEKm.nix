@@ -156,6 +156,11 @@ let
             "file" = "corrupted-aspects-1.4.0-26.2+.jar";
             "hash" = "sha512-XGQFpw59puyY5n0C75B8jAVf8mHAXwDWZ4MGSqPxgYXQNo2rkkr5H4xzYzDYjg+7Y11wSeOuY7NqvxEvqaEPnQ==";
         };
+        _l8EBpHRf = {
+            "id" = "l8EBpHRf";
+            "file" = "aspects_datapack_v1.4.1.zip";
+            "hash" = "sha512-JYOr/E9HL4eG9GmVyniQsX8sHQlZwfIjdJ8ZDUS57JBQkigOx1Fs1Z0iXffOYac5ckzKxm23iu4MM4xomueNGg==";
+        };
     in {
         "h3ybP0uS" = _h3ybP0uS;
         "n9cRt7ub" = _n9cRt7ub;
@@ -188,24 +193,26 @@ let
         "z1jBmOUK" = _z1jBmOUK;
         "aLEBZ06H" = _aLEBZ06H;
         "o3ydqCXx" = _o3ydqCXx;
+        "l8EBpHRf" = _l8EBpHRf;
         "datapack-1.21.5" = _MQSXr668;
-        "datapack-1.21.6" = _TjYYQUJu;
-        "datapack-1.21.7" = _TjYYQUJu;
-        "datapack-1.21.8" = _TjYYQUJu;
-        "datapack-1.21.9" = _TjYYQUJu;
-        "datapack-1.21.10" = _TjYYQUJu;
+        "datapack-1.21.6" = _l8EBpHRf;
+        "datapack-1.21.7" = _l8EBpHRf;
+        "datapack-1.21.8" = _l8EBpHRf;
+        "datapack-1.21.9" = _l8EBpHRf;
+        "datapack-1.21.10" = _l8EBpHRf;
         "datapack-25w42a" = _fEWgfWfT;
-        "datapack-1.21.11" = _TjYYQUJu;
+        "datapack-1.21.11" = _l8EBpHRf;
         "datapack-26.1-snapshot-5" = _pR6pTZHf;
         "datapack-26.1-snapshot-6" = _pR6pTZHf;
         "datapack-26.1-snapshot-7" = _pR6pTZHf;
         "datapack-26.1-snapshot-8" = _pR6pTZHf;
         "datapack-26.1-snapshot-9" = _pR6pTZHf;
         "datapack-26.1-snapshot-10" = _pR6pTZHf;
-        "datapack-26.1" = _TjYYQUJu;
-        "datapack-26.1.1" = _TjYYQUJu;
-        "datapack-26.1.2" = _TjYYQUJu;
-        "datapack-26.2" = _TjYYQUJu;
+        "datapack-26.1" = _l8EBpHRf;
+        "datapack-26.1.1" = _l8EBpHRf;
+        "datapack-26.1.2" = _l8EBpHRf;
+        "datapack-26.2" = _l8EBpHRf;
+        "datapack-26.3" = _l8EBpHRf;
         "fabric-1.21.5" = _TWkHgiDW;
         "fabric-1.21.6" = _F8Ejc510;
         "fabric-1.21.7" = _F8Ejc510;
@@ -270,7 +277,8 @@ let
         "pkg-1.3.2+mod" = _88dYM1n8;
         "pkg-1.4.0" = _TjYYQUJu;
         "pkg-1.4.0+mod" = _o3ydqCXx;
-        "default" = _o3ydqCXx;
+        "pkg-1.4.1" = _l8EBpHRf;
+        "default" = _l8EBpHRf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "corrupted-aspects";

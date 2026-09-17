@@ -76,6 +76,16 @@ let
             "file" = "craft-budding-amethyst-107.1.jar";
             "hash" = "sha512-yFYtEyLF7TKZPulGukYTbbVBLcDmMOBBm5vX8gf8L8aPMEZoz8WJ82yzmLCO+NbqXwU4L4+jgZvaNpgpny+ZWw==";
         };
+        _dXK3AjU7 = {
+            "id" = "dXK3AjU7";
+            "file" = "craftable-budding-amethyst-1.0.0-mc26.3.zip";
+            "hash" = "sha512-vgXYOENAoyVWUx7OA5lW81/i4EBVYjXPKL6K7hImx/JqPcP+Uu1BuaCx/UqiFsZdGMRz4rghI7yG9cfmuLvShw==";
+        };
+        _6KwcrBDf = {
+            "id" = "6KwcrBDf";
+            "file" = "craft-budding-amethyst-1.0.0.jar";
+            "hash" = "sha512-2vY787Ym6dVpF2wgYOa+OaJxAiyjju2q8anFIgaV6O3Ok1z24KhaDfd76zNnMq2FuiSfzFvWuFqZlfQ3wHpJHA==";
+        };
     in {
         "7lxr1GEo" = _7lxr1GEo;
         "7WvcQWq4" = _7WvcQWq4;
@@ -92,6 +102,8 @@ let
         "6FWcSOEY" = _6FWcSOEY;
         "o8WY62GJ" = _o8WY62GJ;
         "kWcUJrlP" = _kWcUJrlP;
+        "dXK3AjU7" = _dXK3AjU7;
+        "6KwcrBDf" = _6KwcrBDf;
         "datapack-1.21.5" = _7lxr1GEo;
         "datapack-1.21.6" = _qUcjkOZm;
         "datapack-1.21.7" = _ZTJ7EuH0;
@@ -103,6 +115,7 @@ let
         "datapack-26.1.1" = _Ac5DEZWV;
         "datapack-26.1.2" = _Ac5DEZWV;
         "datapack-26.2" = _o8WY62GJ;
+        "datapack-26.3" = _dXK3AjU7;
         "fabric-1.21.5" = _7WvcQWq4;
         "fabric-1.21.6" = _jAoVq9fG;
         "fabric-1.21.7" = _xSJMXtJt;
@@ -114,6 +127,7 @@ let
         "fabric-26.1.1" = _6FWcSOEY;
         "fabric-26.1.2" = _6FWcSOEY;
         "fabric-26.2" = _kWcUJrlP;
+        "fabric-26.3" = _6KwcrBDf;
         "forge-1.21.5" = _7WvcQWq4;
         "forge-1.21.6" = _jAoVq9fG;
         "forge-1.21.7" = _xSJMXtJt;
@@ -125,6 +139,7 @@ let
         "forge-26.1.1" = _6FWcSOEY;
         "forge-26.1.2" = _6FWcSOEY;
         "forge-26.2" = _kWcUJrlP;
+        "forge-26.3" = _6KwcrBDf;
         "neoforge-1.21.5" = _7WvcQWq4;
         "neoforge-1.21.6" = _jAoVq9fG;
         "neoforge-1.21.7" = _xSJMXtJt;
@@ -136,6 +151,7 @@ let
         "neoforge-26.1.1" = _6FWcSOEY;
         "neoforge-26.1.2" = _6FWcSOEY;
         "neoforge-26.2" = _kWcUJrlP;
+        "neoforge-26.3" = _6KwcrBDf;
         "quilt-1.21.5" = _7WvcQWq4;
         "quilt-1.21.6" = _jAoVq9fG;
         "quilt-1.21.7" = _xSJMXtJt;
@@ -147,6 +163,7 @@ let
         "quilt-26.1.1" = _6FWcSOEY;
         "quilt-26.1.2" = _6FWcSOEY;
         "quilt-26.2" = _kWcUJrlP;
+        "quilt-26.3" = _6KwcrBDf;
         "pkg-71.1" = _7lxr1GEo;
         "pkg-71.1+mod" = _7WvcQWq4;
         "pkg-80" = _qUcjkOZm;
@@ -161,7 +178,9 @@ let
         "pkg-101.1+mod" = _6FWcSOEY;
         "pkg-107.1" = _o8WY62GJ;
         "pkg-107.1+mod" = _kWcUJrlP;
-        "default" = _kWcUJrlP;
+        "pkg-1.0.0" = _dXK3AjU7;
+        "pkg-1.0.0+mod" = _6KwcrBDf;
+        "default" = _6KwcrBDf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craft-budding-amethyst";

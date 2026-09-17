@@ -56,6 +56,11 @@ let
             "file" = "startup_time-1.1.2-mc26.1.2.jar";
             "hash" = "sha512-VvxkE2wlYLvXnh9/fISdVeHGl8QSSIR2OPe9rKvgSMw+G8FrBE0VVoGRBCdR2+oeG20+I5/utp0IrpZpLTnFhA==";
         };
+        _UokC338X = {
+            "id" = "UokC338X";
+            "file" = "startup_time-1.1.2-mc26.2.jar";
+            "hash" = "sha512-UgHiz5Ncee3f/OovLz5xfe04/cvghT8utLyy8/bMgh7931+sk/Ertrbh2o6Bw/dR+wou2QOkZcgh3Bj54gcgtQ==";
+        };
     in {
         "oOwb44Ps" = _oOwb44Ps;
         "7QthCx8G" = _7QthCx8G;
@@ -68,6 +73,7 @@ let
         "v0Uuwcbz" = _v0Uuwcbz;
         "12J27Lqu" = _12J27Lqu;
         "TLgb6wrw" = _TLgb6wrw;
+        "UokC338X" = _UokC338X;
         "fabric-1.19.2" = _55Q9NnaK;
         "fabric-1.19.3" = _55Q9NnaK;
         "fabric-1.19.4" = _55Q9NnaK;
@@ -88,6 +94,7 @@ let
         "fabric-26.1" = _TLgb6wrw;
         "fabric-26.1.1" = _TLgb6wrw;
         "fabric-26.1.2" = _TLgb6wrw;
+        "fabric-26.2" = _UokC338X;
         "neoforge-1.21" = _Yf8idZm8;
         "neoforge-1.21.1" = _Yf8idZm8;
         "pkg-1.0.0" = _Yf8idZm8;
@@ -97,7 +104,8 @@ let
         "pkg-1.1.2-mc1.21.8" = _v0Uuwcbz;
         "pkg-1.1.2-mc1.21.11" = _12J27Lqu;
         "pkg-1.1.2-mc26.1.2" = _TLgb6wrw;
-        "default" = _TLgb6wrw;
+        "pkg-1.1.2-mc26.2" = _UokC338X;
+        "default" = _UokC338X;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "startup-time";

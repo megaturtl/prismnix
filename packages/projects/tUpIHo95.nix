@@ -131,6 +131,16 @@ let
             "file" = "illagerwarship-1.0.0 Neoforge 26.2.jar";
             "hash" = "sha512-FjBjW6XKvuhTMmXf7iKIgDuiDAd5xKviJwLWAsqkXqulJsIkTnuq2F0Zf4hvvJBto6a1rUaKnOK3QWRH0Ht5Cw==";
         };
+        _GAQK9mjn = {
+            "id" = "GAQK9mjn";
+            "file" = "illagerwarship-1.0.0 Fabric 26.3.jar";
+            "hash" = "sha512-4EEeLcOco1D/7tooI1PY50N7VcO4eHlMmsGXIL/GLrs1HLmGvMIl1lVXVz2xuhs8gsFlaOkm+HOrnUDFTnqoDA==";
+        };
+        _DH1XZN8g = {
+            "id" = "DH1XZN8g";
+            "file" = "illagerwarship-1.0.0 Neoforge 26.3.jar";
+            "hash" = "sha512-5NEGeKCdx0nCTLcpQjy0s3hDqyGyPP3syaR3Xs39iFVDwRJ8Vegg6UvkkAKor8QmrZ5mDcoTx8DXPWiT8BmpPw==";
+        };
     in {
         "DV2vAUUp" = _DV2vAUUp;
         "OS8tIX09" = _OS8tIX09;
@@ -158,6 +168,8 @@ let
         "VmyiPcfZ" = _VmyiPcfZ;
         "XHS8rYwV" = _XHS8rYwV;
         "c71hDZvX" = _c71hDZvX;
+        "GAQK9mjn" = _GAQK9mjn;
+        "DH1XZN8g" = _DH1XZN8g;
         "fabric-1.19.2" = _DV2vAUUp;
         "fabric-1.20.1" = _OS8tIX09;
         "fabric-1.21.8" = _dZHF8ru0;
@@ -168,6 +180,7 @@ let
         "fabric-26.1.1" = _LE7iAjuI;
         "fabric-26.1.2" = _LE7iAjuI;
         "fabric-26.2" = _XHS8rYwV;
+        "fabric-26.3" = _GAQK9mjn;
         "forge-1.19.2" = _qPFiclI0;
         "forge-1.19.4" = _oAgalzcB;
         "forge-1.20.1" = _st9shaM3;
@@ -182,10 +195,11 @@ let
         "neoforge-26.1.1" = _AkmTx5MF;
         "neoforge-26.1.2" = _VmyiPcfZ;
         "neoforge-26.2" = _c71hDZvX;
-        "pkg-1.0.0" = _c71hDZvX;
+        "neoforge-26.3" = _DH1XZN8g;
+        "pkg-1.0.0" = _DH1XZN8g;
         "pkg-1.0.1" = _X03ms5sB;
         "pkg-1.0.2" = _QXzcwOni;
-        "default" = _c71hDZvX;
+        "default" = _DH1XZN8g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "illager-warship";

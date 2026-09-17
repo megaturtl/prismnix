@@ -26,23 +26,31 @@ let
             "file" = "nemos-upgrade-templates-26.2-1.2.jar";
             "hash" = "sha512-GUgs5NQGVk5drivO7sDnaycwFlchtD+tUIF5xn+ewazrGiECqMfVyMeuDJUJnHpQHwlpYX8ty9fmM3jEs6HyZQ==";
         };
+        _H3DpNTah = {
+            "id" = "H3DpNTah";
+            "file" = "nemos-upgrade-templates-26.3-1.2.jar";
+            "hash" = "sha512-Bt9Vyk5kbWFP0F75dXGMcstCL1neIaSjdBn52sWajMyy1MK77nRaHTqU+i7bZMC8G1R4MOY8UUmdQKtUY+/kwQ==";
+        };
     in {
         "H3BwJkuR" = _H3BwJkuR;
         "EKemDmlg" = _EKemDmlg;
         "v9k5Wxgh" = _v9k5Wxgh;
         "gAXYdu5u" = _gAXYdu5u;
         "zqcZPncn" = _zqcZPncn;
+        "H3DpNTah" = _H3DpNTah;
         "fabric-1.21.11" = _H3BwJkuR;
         "fabric-26.1" = _gAXYdu5u;
         "fabric-26.1.1" = _v9k5Wxgh;
         "fabric-26.1.2" = _v9k5Wxgh;
         "fabric-26.2" = _zqcZPncn;
+        "fabric-26.3" = _H3DpNTah;
         "pkg-1.0" = _H3BwJkuR;
         "pkg-26.1-1.0" = _EKemDmlg;
         "pkg-26.1-1.0.1" = _v9k5Wxgh;
         "pkg-26.1-1.1" = _gAXYdu5u;
         "pkg-26.2-1.2" = _zqcZPncn;
-        "default" = _zqcZPncn;
+        "pkg-26.3-1.2" = _H3DpNTah;
+        "default" = _H3DpNTah;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nemos-upgrade-templates";

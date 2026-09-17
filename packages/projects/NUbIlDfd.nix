@@ -61,6 +61,11 @@ let
             "file" = "eclipse-core-client-2.13.0+1.8.jar";
             "hash" = "sha512-+85MYx0bUKKhmNp0lrx61I0n8hTu79uJkE/l2TmOukIlmopADM62NocAlfqaYo8F8KCGDiTDeQPyXD0r0lhRDA==";
         };
+        _7W7zFbMq = {
+            "id" = "7W7zFbMq";
+            "file" = "eclipse-core-client-2.13.1+1.8.jar";
+            "hash" = "sha512-RoW+4Tgq8TsypGnrwjfmMDNUcaf5frzkwrqzhYcmR281WblmH8i3TBVmsjh/WTv/hQ1eQEiwY+Htlmssf/qJpA==";
+        };
     in {
         "AuTg7BcI" = _AuTg7BcI;
         "9vAFHTce" = _9vAFHTce;
@@ -74,7 +79,8 @@ let
         "XAa1airR" = _XAa1airR;
         "jrP0Tmyo" = _jrP0Tmyo;
         "CakCm7fG" = _CakCm7fG;
-        "fabric-1.21.1" = _CakCm7fG;
+        "7W7zFbMq" = _7W7zFbMq;
+        "fabric-1.21.1" = _7W7zFbMq;
         "pkg-1.6.2" = _AuTg7BcI;
         "pkg-1.6.5" = _9vAFHTce;
         "pkg-1.8.3" = _WFIz6Fix;
@@ -87,7 +93,8 @@ let
         "pkg-2.12.1" = _XAa1airR;
         "pkg-2.12.1+1.8" = _jrP0Tmyo;
         "pkg-2.13.0+1.8" = _CakCm7fG;
-        "default" = _CakCm7fG;
+        "pkg-2.13.1+1.8" = _7W7zFbMq;
+        "default" = _7W7zFbMq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eclipse-core-client";

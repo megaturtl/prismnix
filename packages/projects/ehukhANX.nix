@@ -86,6 +86,11 @@ let
             "file" = "scalable-fabric-1.0.5-26.2.jar";
             "hash" = "sha512-fA+gf8FbqLipYN3oRnt/y3PvtXsUwv81Po/9q0wp9e1qyFbRbZKRuNg2B4y705uZXsOlYA/Meu3Ywb9sGqN77A==";
         };
+        _8hwAaSDN = {
+            "id" = "8hwAaSDN";
+            "file" = "scalable-neoforge-1.0.5-26.3.jar";
+            "hash" = "sha512-4d/p5qljrBdZAT1xYtQdC0ro3uD02MneTDheTM3mK6917RB3voQIVwgHMwhajSx64JvfelrzeJlnfmGqlHWOng==";
+        };
     in {
         "3cexvoXq" = _3cexvoXq;
         "ksAlZ9SD" = _ksAlZ9SD;
@@ -104,6 +109,7 @@ let
         "iwgOjTgr" = _iwgOjTgr;
         "GL9WROmJ" = _GL9WROmJ;
         "qXU9yaiF" = _qXU9yaiF;
+        "8hwAaSDN" = _8hwAaSDN;
         "fabric-26.1" = _iwgOjTgr;
         "fabric-26.1.1" = _iwgOjTgr;
         "fabric-26.1.2" = _iwgOjTgr;
@@ -113,7 +119,8 @@ let
         "neoforge-26.1.1" = _WylF9IMa;
         "neoforge-26.1.2" = _WylF9IMa;
         "neoforge-1.21.11" = _s5nKzeiH;
-        "neoforge-26.2" = _GL9WROmJ;
+        "neoforge-26.2" = _8hwAaSDN;
+        "neoforge-26.3" = _8hwAaSDN;
         "quilt-26.1" = _iwgOjTgr;
         "quilt-26.1.1" = _iwgOjTgr;
         "quilt-26.1.2" = _iwgOjTgr;
@@ -128,7 +135,8 @@ let
         "pkg-1.0.4-26.2" = _OmBtrJ2I;
         "pkg-1.0.5-26.1" = _iwgOjTgr;
         "pkg-1.0.5-26.2" = _qXU9yaiF;
-        "default" = _qXU9yaiF;
+        "pkg-1.0.5-26.3" = _8hwAaSDN;
+        "default" = _8hwAaSDN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "downloadableduck-scalable";

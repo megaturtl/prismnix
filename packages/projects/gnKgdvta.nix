@@ -11,9 +11,15 @@ let
             "file" = "Golden Apple Seed.zip";
             "hash" = "sha512-GCXdRvAHAAGfnYYhGcxwvCpFlo1wyUtuRNALjKdYsOHkxzB9KzRiBwVT0LE6qNZ4IJwWuVFMsCOjti2FTRFPKA==";
         };
+        _M32VpWgP = {
+            "id" = "M32VpWgP";
+            "file" = "Golden Apple Seed.zip";
+            "hash" = "sha512-GCXdRvAHAAGfnYYhGcxwvCpFlo1wyUtuRNALjKdYsOHkxzB9KzRiBwVT0LE6qNZ4IJwWuVFMsCOjti2FTRFPKA==";
+        };
     in {
         "C55jz8Sw" = _C55jz8Sw;
         "mIdf2Vu6" = _mIdf2Vu6;
+        "M32VpWgP" = _M32VpWgP;
         "minecraft-1.20.3" = _C55jz8Sw;
         "minecraft-1.20.4" = _C55jz8Sw;
         "minecraft-1.20.5" = _C55jz8Sw;
@@ -30,9 +36,13 @@ let
         "minecraft-1.21.9" = _mIdf2Vu6;
         "minecraft-1.21.10" = _mIdf2Vu6;
         "minecraft-1.21.11" = _mIdf2Vu6;
+        "minecraft-26.1" = _M32VpWgP;
+        "minecraft-26.1.1" = _M32VpWgP;
+        "minecraft-26.1.2" = _M32VpWgP;
+        "minecraft-26.2" = _M32VpWgP;
         "pkg-1.0" = _C55jz8Sw;
-        "pkg-1.1" = _mIdf2Vu6;
-        "default" = _mIdf2Vu6;
+        "pkg-1.1" = _M32VpWgP;
+        "default" = _M32VpWgP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "golden-apple-seeds";

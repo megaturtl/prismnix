@@ -306,6 +306,16 @@ let
             "file" = "moremousetweaks-neoforge-2.103.0+26.2.jar";
             "hash" = "sha512-AoiitMLDaJM1aeuN/mGxBwORgwbuNajtLpKlWwkRV5ruW2SBgpd1rHVHbcPqpgA7rjoBk2NyjH9sS7DRA1exlA==";
         };
+        _fGZBuU6H = {
+            "id" = "fGZBuU6H";
+            "file" = "moremousetweaks-neoforge-2.104.0+26.3.jar";
+            "hash" = "sha512-VZp2jekD8OpN90tW+N00W6XG9uVjVSwMpmi1vdHLCE9vOKUGWwxyi+nEnKNone1uJChudk0tvoQSzTUNnXKbtA==";
+        };
+        _tZxue3S6 = {
+            "id" = "tZxue3S6";
+            "file" = "moremousetweaks-fabric-2.104.0+26.3.jar";
+            "hash" = "sha512-z4vCRgklSSfAb94h7IKp3HKi8BoZSWnwjGjl4swtHRd6WaX8kxaVXrntApoIwMSB4JWNzQPMKImzc2ZWfp9Igw==";
+        };
     in {
         "1Z996W5e" = _1Z996W5e;
         "uIfcuJ05" = _uIfcuJ05;
@@ -368,6 +378,8 @@ let
         "qR74o9uC" = _qR74o9uC;
         "GawIMNrg" = _GawIMNrg;
         "zoLnx65I" = _zoLnx65I;
+        "fGZBuU6H" = _fGZBuU6H;
+        "tZxue3S6" = _tZxue3S6;
         "fabric-1.21" = _sw6cZo0y;
         "fabric-1.21.1" = _sw6cZo0y;
         "fabric-1.21.2" = _DsITxjLS;
@@ -384,6 +396,7 @@ let
         "fabric-26.1.1" = _qR74o9uC;
         "fabric-26.1.2" = _qR74o9uC;
         "fabric-26.2" = _GawIMNrg;
+        "fabric-26.3" = _tZxue3S6;
         "neoforge-1.21" = _hQkVkdnb;
         "neoforge-1.21.1" = _vsHdE5kj;
         "neoforge-1.21.2" = _L1sJ2zLp;
@@ -400,6 +413,7 @@ let
         "neoforge-26.1.1" = _q7FUNClN;
         "neoforge-26.1.2" = _q7FUNClN;
         "neoforge-26.2" = _zoLnx65I;
+        "neoforge-26.3" = _fGZBuU6H;
         "pkg-1.0.0+1.21-alpha.1a" = _1Z996W5e;
         "pkg-1.0.0+1.21-beta.1" = _tw9G1eQc;
         "pkg-1.0.0+1.21-beta.2" = _T5Nqy6Bn;
@@ -431,7 +445,8 @@ let
         "pkg-2.2.1+26.1.2" = _E6GWYuC9;
         "pkg-2.102.2+26.1.2" = _qR74o9uC;
         "pkg-2.103.0+26.2" = _zoLnx65I;
-        "default" = _zoLnx65I;
+        "pkg-2.104.0+26.3" = _tZxue3S6;
+        "default" = _tZxue3S6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "moremousetweaks";

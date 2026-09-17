@@ -136,6 +136,16 @@ let
             "file" = "champions-fabric-21.1.1.7.jar";
             "hash" = "sha512-1/3XlZCfEFfNvHiQe8Zps6+swXOrQIEhKjwXmXKPoh3hI8X8t9PjKdOFLiy/09orF5aBvNXya7pLuIQoZO1a7Q==";
         };
+        _SuPtR2r8 = {
+            "id" = "SuPtR2r8";
+            "file" = "champions-fabric-20.1.1.6.jar";
+            "hash" = "sha512-BZPHFW2p5ruFxFs82/bIJkI1lZxl0NVVmbBttS4lCqU3xw/S/JK/MbYc45KKKhaRC6oIdOA/C4gH1ZJx5rpAwA==";
+        };
+        _GwhzlxlG = {
+            "id" = "GwhzlxlG";
+            "file" = "champions-forge-20.1.1.6.jar";
+            "hash" = "sha512-htZWQJa9tIyCFhcY1kQtZs/hP8CKCw9+Wg8ciBPYuWPz35VGo8kGvGrbqw2bW+zrs8jg30yBVIXaQBaSri/zug==";
+        };
     in {
         "UyPhGRzh" = _UyPhGRzh;
         "LMZ3udyO" = _LMZ3udyO;
@@ -164,15 +174,17 @@ let
         "xd2hn9Wf" = _xd2hn9Wf;
         "OQnVOM7w" = _OQnVOM7w;
         "XbBXHoHl" = _XbBXHoHl;
+        "SuPtR2r8" = _SuPtR2r8;
+        "GwhzlxlG" = _GwhzlxlG;
         "forge-1.19.2" = _FNLpGjnR;
-        "forge-1.20.1" = _8WxyixlZ;
+        "forge-1.20.1" = _GwhzlxlG;
         "neoforge-1.20.4" = _LMZ3udyO;
         "neoforge-1.21" = _wUefb7jz;
         "neoforge-1.21.1" = _OQnVOM7w;
         "neoforge-1.21.3" = _qs9k7hOI;
         "neoforge-1.21.5" = _N9LD74YF;
         "fabric-1.21.1" = _XbBXHoHl;
-        "fabric-1.20.1" = _xd2hn9Wf;
+        "fabric-1.20.1" = _SuPtR2r8;
         "pkg-1.19.2-2.1.6.7-release" = _UyPhGRzh;
         "pkg-1.20.4-2.1.7.0-release" = _LMZ3udyO;
         "pkg-1.21-2.1.8.0-beta" = _wW4tfqWg;
@@ -200,7 +212,9 @@ let
         "pkg-20.1.1.5-fabric" = _xd2hn9Wf;
         "pkg-21.1.1.7-neoforge" = _OQnVOM7w;
         "pkg-21.1.1.7-fabric" = _XbBXHoHl;
-        "default" = _XbBXHoHl;
+        "pkg-20.1.1.6-fabric" = _SuPtR2r8;
+        "pkg-20.1.1.6-forge" = _GwhzlxlG;
+        "default" = _GwhzlxlG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "champions-unofficial";

@@ -66,6 +66,11 @@ let
             "file" = "iden_decor-neoforge-1.21.1-2.2.4.jar";
             "hash" = "sha512-QB7bQ7W9p2A0b40qyVyiB5F5W097tVqUEB+KErP1ut5LnwgwUw/AWLGZnYzlhv9r0OhztHsl19JkwZLrkptJsQ==";
         };
+        _1rC5CqUf = {
+            "id" = "1rC5CqUf";
+            "file" = "iden_decor-beta1-3.0.0.jar";
+            "hash" = "sha512-xe4dEuQBf3aBA92RsLxvnST7KVmDOaFI/Ti9VxXio+p5nRAwXwGzYwLaJOu7LL1Bp72JN+FEpnChytKW7Y/isw==";
+        };
     in {
         "eTFfia8V" = _eTFfia8V;
         "4CF8dR4B" = _4CF8dR4B;
@@ -80,7 +85,8 @@ let
         "SMT5unh8" = _SMT5unh8;
         "VXFkSfhJ" = _VXFkSfhJ;
         "m84BvYXp" = _m84BvYXp;
-        "neoforge-1.21.1" = _m84BvYXp;
+        "1rC5CqUf" = _1rC5CqUf;
+        "neoforge-1.21.1" = _1rC5CqUf;
         "pkg-1.0.3" = _eTFfia8V;
         "pkg-1.1.0" = _4CF8dR4B;
         "pkg-1.1.1" = _ev6xHoWq;
@@ -94,7 +100,8 @@ let
         "pkg-2.2.2" = _SMT5unh8;
         "pkg-2.2.3" = _VXFkSfhJ;
         "pkg-2.2.4" = _m84BvYXp;
-        "default" = _m84BvYXp;
+        "pkg-3.0.0" = _1rC5CqUf;
+        "default" = _1rC5CqUf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "idens-decor";

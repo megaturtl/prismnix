@@ -41,6 +41,11 @@ let
             "file" = "§eStrings & Things 1.21.5-26.2.zip";
             "hash" = "sha512-EOy/mflDIa9xnaSqcMcjpvcbTyWc+71b0wb/tDFuX9a6jvvz5bM9Sl560WjeuOVOhU8Jt64Ukpr2QSUKJ0Z6/A==";
         };
+        _6h02WkHw = {
+            "id" = "6h02WkHw";
+            "file" = "§eStrings & Things 1.21.5-26.3.zip";
+            "hash" = "sha512-IR6KEFTW4wcEyEKcGklkjqyOu6ipdmrAnTC5nEw7DV9O6q5YmRf/iBAachLOFBjb2L1gtSFtbPxdx1vZEVBTJQ==";
+        };
     in {
         "XFJJdwjq" = _XFJJdwjq;
         "PjQaaDQK" = _PjQaaDQK;
@@ -50,18 +55,20 @@ let
         "qfHhVyI1" = _qfHhVyI1;
         "ho8MOiq7" = _ho8MOiq7;
         "wiMOG7sD" = _wiMOG7sD;
-        "minecraft-1.21.5" = _wiMOG7sD;
-        "minecraft-1.21.6" = _wiMOG7sD;
-        "minecraft-1.21.7" = _wiMOG7sD;
-        "minecraft-1.21.8" = _wiMOG7sD;
-        "minecraft-1.21.9" = _wiMOG7sD;
-        "minecraft-1.21.10" = _wiMOG7sD;
-        "minecraft-1.21.11" = _wiMOG7sD;
+        "6h02WkHw" = _6h02WkHw;
+        "minecraft-1.21.5" = _6h02WkHw;
+        "minecraft-1.21.6" = _6h02WkHw;
+        "minecraft-1.21.7" = _6h02WkHw;
+        "minecraft-1.21.8" = _6h02WkHw;
+        "minecraft-1.21.9" = _6h02WkHw;
+        "minecraft-1.21.10" = _6h02WkHw;
+        "minecraft-1.21.11" = _6h02WkHw;
         "minecraft-26.1-snapshot-1" = _qfHhVyI1;
-        "minecraft-26.1" = _wiMOG7sD;
-        "minecraft-26.1.1" = _wiMOG7sD;
-        "minecraft-26.1.2" = _wiMOG7sD;
-        "minecraft-26.2" = _wiMOG7sD;
+        "minecraft-26.1" = _6h02WkHw;
+        "minecraft-26.1.1" = _6h02WkHw;
+        "minecraft-26.1.2" = _6h02WkHw;
+        "minecraft-26.2" = _6h02WkHw;
+        "minecraft-26.3" = _6h02WkHw;
         "pkg-1a" = _XFJJdwjq;
         "pkg-2a" = _PjQaaDQK;
         "pkg-2b" = _N8XOfzkA;
@@ -70,7 +77,8 @@ let
         "pkg-5a" = _qfHhVyI1;
         "pkg-6a" = _ho8MOiq7;
         "pkg-6b" = _wiMOG7sD;
-        "default" = _wiMOG7sD;
+        "pkg-7a" = _6h02WkHw;
+        "default" = _6h02WkHw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "strings-and-things";

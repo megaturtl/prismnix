@@ -76,6 +76,11 @@ let
             "file" = "stonks-fabric-2.2.1+26.2.jar";
             "hash" = "sha512-bBB/bZ+Gjsq3GDOKDyl45GESuUJRUjSmUSS9rigbvf6JkSWV3B6rChX4q3k+Sq1eV/2adXjmvRjRWGonwyXOAw==";
         };
+        _h5HIx0av = {
+            "id" = "h5HIx0av";
+            "file" = "stonks-fabric-2.2.2+26.3.jar";
+            "hash" = "sha512-etElMbnO7ihBMWm2DA65ywH4O2WMTBzqbRYNk2HMMH0OzVoY1zpwWyI/7hxtx9OQVwT3tMDOG3UBwiA632QLAw==";
+        };
     in {
         "ztzczaci" = _ztzczaci;
         "y2TklOKk" = _y2TklOKk;
@@ -92,6 +97,7 @@ let
         "pBqSM1jQ" = _pBqSM1jQ;
         "hwuuLx1P" = _hwuuLx1P;
         "Z6OS2YeA" = _Z6OS2YeA;
+        "h5HIx0av" = _h5HIx0av;
         "fabric-1.20.1" = _y2TklOKk;
         "fabric-1.20.2" = _PFxAKqzJ;
         "fabric-1.20.3" = _ZgYuwMRx;
@@ -115,6 +121,7 @@ let
         "fabric-26.1.1" = _hwuuLx1P;
         "fabric-26.1.2" = _hwuuLx1P;
         "fabric-26.2" = _Z6OS2YeA;
+        "fabric-26.3" = _h5HIx0av;
         "pkg-2.0.1+1.20.1" = _ztzczaci;
         "pkg-2.0.2+1.20.1" = _y2TklOKk;
         "pkg-2.0.3+1.20.2" = _PFxAKqzJ;
@@ -130,7 +137,8 @@ let
         "pkg-2.1.6+1.21.11" = _pBqSM1jQ;
         "pkg-2.2.0+26.1" = _hwuuLx1P;
         "pkg-2.2.1+26.2" = _Z6OS2YeA;
-        "default" = _Z6OS2YeA;
+        "pkg-2.2.2+26.3" = _h5HIx0av;
+        "default" = _h5HIx0av;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nahkd-stonks";

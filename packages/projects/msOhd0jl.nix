@@ -46,6 +46,11 @@ let
             "file" = "simply-slingshot-0.5.0+26.2.jar";
             "hash" = "sha512-kS9yRxESKGfzHVl8fOGcRAovtOgKyq1YTv4lksfa50JcL+0A7rr3beXEg3Cbey2JJ2NfgRnQjri/EF7vWKaRmg==";
         };
+        _qenvTLZC = {
+            "id" = "qenvTLZC";
+            "file" = "simply-slingshot-0.6.0+26.3-rc-1.jar";
+            "hash" = "sha512-9t8mYuRNLXHayz6vjUP4PWBk3UP69Jeqx0lBaWN4FP7xjK5GeROhQJ+Rsze291RZfnaxacPFku3/S65+CoveUA==";
+        };
     in {
         "VX15xtUz" = _VX15xtUz;
         "KdG4aAEL" = _KdG4aAEL;
@@ -56,6 +61,7 @@ let
         "4jPhlmKj" = _4jPhlmKj;
         "nyXVWDx4" = _nyXVWDx4;
         "dCmD3Pu4" = _dCmD3Pu4;
+        "qenvTLZC" = _qenvTLZC;
         "fabric-1.21.8" = _US3lUsXS;
         "fabric-1.21.9-rc1" = _67e4NarA;
         "fabric-1.21.9" = _67e4NarA;
@@ -65,6 +71,8 @@ let
         "fabric-26.1.1" = _nyXVWDx4;
         "fabric-26.1.2" = _nyXVWDx4;
         "fabric-26.2" = _dCmD3Pu4;
+        "fabric-26.3-rc-1" = _qenvTLZC;
+        "fabric-26.3" = _qenvTLZC;
         "pkg-0.1.0+1.21.8" = _VX15xtUz;
         "pkg-0.1.1+1.21.8" = _KdG4aAEL;
         "pkg-0.1.2+1.21.8" = _BwW0oaf8;
@@ -74,7 +82,8 @@ let
         "pkg-0.3.0+1.21.11" = _4jPhlmKj;
         "pkg-0.4.0+26.1" = _nyXVWDx4;
         "pkg-0.5.0+26.2" = _dCmD3Pu4;
-        "default" = _dCmD3Pu4;
+        "pkg-0.6.0+26.3-rc-1" = _qenvTLZC;
+        "default" = _qenvTLZC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simply-slingshot";

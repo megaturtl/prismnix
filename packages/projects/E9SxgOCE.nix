@@ -111,6 +111,11 @@ let
             "file" = "autosprintfix-1.0.0.jar";
             "hash" = "sha512-r6xr1MUWD9DGnSr+VnpkGLBquPiRxxX9b0xmk+UCGWhhDqqOg18n7feamF4c2p7/ldGqZJjt+c85ZAf+Nl5xqQ==";
         };
+        _neZXVADm = {
+            "id" = "neZXVADm";
+            "file" = "autosprintfix-1.0.0.jar";
+            "hash" = "sha512-jrkp/JmCXbQ27KjAZojQGQAPmGKkonyT5o5X2FrjEYA/H4rxNRNuEZeNEjUw2OiKCEzulg4ydKuuoOxuSx8T/w==";
+        };
     in {
         "DxaQIFm1" = _DxaQIFm1;
         "y5xd5gXV" = _y5xd5gXV;
@@ -134,6 +139,7 @@ let
         "xBe1Rf5N" = _xBe1Rf5N;
         "Axc5dN9r" = _Axc5dN9r;
         "t3bHgR08" = _t3bHgR08;
+        "neZXVADm" = _neZXVADm;
         "fabric-1.20.1" = _DxaQIFm1;
         "fabric-1.20.2" = _y5xd5gXV;
         "fabric-1.20.3" = _KvRWJhQm;
@@ -157,8 +163,9 @@ let
         "fabric-26.1.1" = _xBe1Rf5N;
         "fabric-26.1.2" = _Axc5dN9r;
         "fabric-26.2" = _t3bHgR08;
-        "pkg-1.0.0" = _t3bHgR08;
-        "default" = _t3bHgR08;
+        "fabric-26.3" = _neZXVADm;
+        "pkg-1.0.0" = _neZXVADm;
+        "default" = _neZXVADm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "auto-sprint-fix";

@@ -651,6 +651,31 @@ let
             "file" = "H1-Hidename(New) (1.21.7).jar";
             "hash" = "sha512-csioxWqFd/c2PpwfziO1AkUoeY7GZuDrubZkHkEUMuNwDux8h7EmIDgGSP3S6q1PPGwYkfavIJa0SkZrbNDlCw==";
         };
+        _IPoGRtVz = {
+            "id" = "IPoGRtVz";
+            "file" = "H1-Hidename(New) (1.21.6).jar";
+            "hash" = "sha512-tVH/t/CC6RQKTiY89lyP/YCixV01+XYjCFUv29fO2sC9q0ecv/It+VzxipZ2fl1j4Eb2KwXrVvx76pYNHuZkfg==";
+        };
+        _NVHnXVwA = {
+            "id" = "NVHnXVwA";
+            "file" = "H1-Hidename(New) (1.21.5).jar";
+            "hash" = "sha512-KeGX3AtGY3MWUlmDcawyj9UaOoWniB+15/g+r5wN9bzHMJiQN/vcK3A/8ujQagqs9ObER/4+XsuqV7n2x15yAw==";
+        };
+        _itT1Exr6 = {
+            "id" = "itT1Exr6";
+            "file" = "H1-Hidename(New) (1.21.4).jar";
+            "hash" = "sha512-VTtxcTLiP6zOZ/6XvIHvXlInAFwWz6Fqrf4aFm0tw8XZyOTrUzvvOpewFJBYd+uW548H7QMs58EFVUX6mTY75w==";
+        };
+        _8vVCnHhU = {
+            "id" = "8vVCnHhU";
+            "file" = "H1-Hidename(New) (1.21.3).jar";
+            "hash" = "sha512-XNF/pgFqNt336bPLmKnkIpPiVfKR5Riwp2QdoQUS6HLT18aWXFYLbEdPqp3DBmtU5Dl7KV69kpnQbb2pHEeiwQ==";
+        };
+        _Ur04v8a4 = {
+            "id" = "Ur04v8a4";
+            "file" = "H1-Hidename(New) (1.21-1.21.1).jar";
+            "hash" = "sha512-YS5/vj2j4mu/vV34fUzXl8Cb+JZxbvJgiY4BNFS28qWLagmSAZpr8CIuSJPrb3f0RR1Oodp4dfHqduwG+K2Vdw==";
+        };
     in {
         "yv9bdozo" = _yv9bdozo;
         "gHI2zu2w" = _gHI2zu2w;
@@ -782,7 +807,12 @@ let
         "Dr4FT8R8" = _Dr4FT8R8;
         "dSvN4Jbd" = _dSvN4Jbd;
         "ZXblh24y" = _ZXblh24y;
-        "forge-1.21.5" = _pqjqS4St;
+        "IPoGRtVz" = _IPoGRtVz;
+        "NVHnXVwA" = _NVHnXVwA;
+        "itT1Exr6" = _itT1Exr6;
+        "8vVCnHhU" = _8vVCnHhU;
+        "Ur04v8a4" = _Ur04v8a4;
+        "forge-1.21.5" = _NVHnXVwA;
         "forge-1.19.2" = _K6llwosg;
         "forge-1.20" = _OzOH7Kwu;
         "forge-1.20.1" = _kub7VC2r;
@@ -793,19 +823,19 @@ let
         "forge-1.20.6" = _oucIDgkx;
         "forge-1.16.5" = _g7k9Bi9b;
         "forge-1.18.2" = _g4UC70bz;
-        "forge-1.21.4" = _jkArG8TI;
+        "forge-1.21.4" = _itT1Exr6;
         "forge-1.19.1" = _gBNMlwYV;
         "forge-1.19" = _4ZafloOL;
         "forge-1.19.4" = _7DuTvpbm;
-        "forge-1.21.3" = _LDvzHHPD;
+        "forge-1.21.3" = _8vVCnHhU;
         "forge-1.10" = _9pXQc3kO;
         "forge-1.19.3" = _Kfua7fNz;
         "forge-1.17.1" = _gZ2hurg4;
         "forge-1.18.1" = _5yJUTkWk;
         "forge-1.18" = _ybJFJo43;
-        "forge-1.21.1" = _UVIkhjMe;
-        "forge-1.21" = _BSYjB9w8;
-        "forge-1.21.6" = _v313rIn9;
+        "forge-1.21.1" = _Ur04v8a4;
+        "forge-1.21" = _Ur04v8a4;
+        "forge-1.21.6" = _IPoGRtVz;
         "forge-1.21.7" = _ZXblh24y;
         "forge-1.21.8" = _dSvN4Jbd;
         "forge-26.1" = _13RQq9g5;
@@ -937,7 +967,12 @@ let
         "pkg-H1-Hidename(New)(1.21.9)" = _Dr4FT8R8;
         "pkg-H1-Hidename(New)(1.21.8)" = _dSvN4Jbd;
         "pkg-H1-Hidename(New)(1.21.7)" = _ZXblh24y;
-        "default" = _ZXblh24y;
+        "pkg-H1-Hidename(New)(1.21.6)" = _IPoGRtVz;
+        "pkg-H1-Hidename(New)(1.21.5)" = _NVHnXVwA;
+        "pkg-H1-Hidename(New)(1.21.4)" = _itT1Exr6;
+        "pkg-H1-Hidename(New)(1.21.3)" = _8vVCnHhU;
+        "pkg-H1-Hidename(New)(1.21-1.21.1)" = _Ur04v8a4;
+        "default" = _Ur04v8a4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hidename";

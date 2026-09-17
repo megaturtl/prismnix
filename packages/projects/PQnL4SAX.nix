@@ -356,6 +356,11 @@ let
             "file" = "ClassicsDiscTweaks_v3.4.0-pre.1_mc1.21.9-26.3pre1.zip";
             "hash" = "sha512-+6LC0AGz724h4gcL/a0Y55d9bIk7N7Xha5oV8rYXMSyb6v1igIpenZD/SbEVj2LBT2jksZyCzGTDSk+EsgWLgQ==";
         };
+        _gVeWfkpG = {
+            "id" = "gVeWfkpG";
+            "file" = "ClassicsDiscTweaks_v3.4.0_mc1.21.9-26.3.zip";
+            "hash" = "sha512-6ipNyMe4E/7rnHoXDlxA7QxcpqotcMJwxeOJd5jWrOllcP4sKUIuHp6mtnRNLnKWeYcC6ljvuFT/Aq49LPwY+w==";
+        };
     in {
         "bjg2MLQo" = _bjg2MLQo;
         "6vx740UH" = _6vx740UH;
@@ -428,6 +433,7 @@ let
         "SASI94uj" = _SASI94uj;
         "E4CnLFey" = _E4CnLFey;
         "cFr7lwUy" = _cFr7lwUy;
+        "gVeWfkpG" = _gVeWfkpG;
         "minecraft-1.16.2" = _bjg2MLQo;
         "minecraft-1.16.3" = _bjg2MLQo;
         "minecraft-1.16.4" = _bjg2MLQo;
@@ -526,8 +532,8 @@ let
         "minecraft-1.21.9-pre3" = _FtKL9nHM;
         "minecraft-1.21.9-pre4" = _FtKL9nHM;
         "minecraft-1.21.9-rc1" = _FtKL9nHM;
-        "minecraft-1.21.9" = _cFr7lwUy;
-        "minecraft-1.21.10" = _cFr7lwUy;
+        "minecraft-1.21.9" = _gVeWfkpG;
+        "minecraft-1.21.10" = _gVeWfkpG;
         "minecraft-25w41a" = _27r7tXuP;
         "minecraft-25w42a" = _27r7tXuP;
         "minecraft-25w43a" = _27r7tXuP;
@@ -542,7 +548,7 @@ let
         "minecraft-1.21.11-rc1" = _27r7tXuP;
         "minecraft-1.21.11-rc2" = _27r7tXuP;
         "minecraft-1.21.11-rc3" = _27r7tXuP;
-        "minecraft-1.21.11" = _cFr7lwUy;
+        "minecraft-1.21.11" = _gVeWfkpG;
         "minecraft-26.1-snapshot-1" = _ThueuTh1;
         "minecraft-26.1-snapshot-2" = _ThueuTh1;
         "minecraft-26.1-snapshot-3" = _ThueuTh1;
@@ -560,9 +566,9 @@ let
         "minecraft-26.1-rc-1" = _ThueuTh1;
         "minecraft-26.1-rc-2" = _ThueuTh1;
         "minecraft-26.1-rc-3" = _ThueuTh1;
-        "minecraft-26.1" = _cFr7lwUy;
-        "minecraft-26.1.1" = _cFr7lwUy;
-        "minecraft-26.1.2" = _cFr7lwUy;
+        "minecraft-26.1" = _gVeWfkpG;
+        "minecraft-26.1.1" = _gVeWfkpG;
+        "minecraft-26.1.2" = _gVeWfkpG;
         "minecraft-26.2-snapshot-1" = _SASI94uj;
         "minecraft-26.2-snapshot-2" = _SASI94uj;
         "minecraft-26.2-snapshot-3" = _SASI94uj;
@@ -579,7 +585,7 @@ let
         "minecraft-26.2-pre-6" = _SASI94uj;
         "minecraft-26.2-rc-1" = _SASI94uj;
         "minecraft-26.2-rc-2" = _SASI94uj;
-        "minecraft-26.2" = _cFr7lwUy;
+        "minecraft-26.2" = _gVeWfkpG;
         "minecraft-26.3-snapshot-1" = _cFr7lwUy;
         "minecraft-26.3-snapshot-2" = _cFr7lwUy;
         "minecraft-26.3-snapshot-3" = _cFr7lwUy;
@@ -591,6 +597,7 @@ let
         "minecraft-26.3-snapshot-9" = _cFr7lwUy;
         "minecraft-26.3-snapshot-10" = _cFr7lwUy;
         "minecraft-26.3-pre-1" = _cFr7lwUy;
+        "minecraft-26.3" = _gVeWfkpG;
         "pkg-v0.1.0" = _bjg2MLQo;
         "pkg-v0.2.0" = _6vx740UH;
         "pkg-v0.4.0" = _mAR84XB8;
@@ -662,7 +669,8 @@ let
         "pkg-v3.3.0-pre.1" = _SASI94uj;
         "pkg-v3.3.0" = _E4CnLFey;
         "pkg-v3.4.0-pre.1" = _cFr7lwUy;
-        "default" = _cFr7lwUy;
+        "pkg-v3.4.0" = _gVeWfkpG;
+        "default" = _gVeWfkpG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "classics-disc-tweaks";

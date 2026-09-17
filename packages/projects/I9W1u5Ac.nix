@@ -1216,6 +1216,11 @@ let
             "file" = "mcsrranked-5.8.21.jar";
             "hash" = "sha512-EsKOPsIPBsQFOTf4oa3pz6TLk9FVmiZ6qCTJexvXBIz2kf10pcNCF36rjsMYtWH7XL4SwgDzE7+Jrq6hC9HqJg==";
         };
+        _1eBHzFLw = {
+            "id" = "1eBHzFLw";
+            "file" = "mcsrranked-5.8.22.jar";
+            "hash" = "sha512-3RRlwwVXdYHuKyzfNu5j+Kh2q6YyGMvCnbEVQhjKvZMmo1ji3JI183lfOsYttKp+bleO6r+yOPwAubVG/kMYEg==";
+        };
     in {
         "r17vLIlI" = _r17vLIlI;
         "Pr8911G1" = _Pr8911G1;
@@ -1460,7 +1465,8 @@ let
         "HDnsgGOI" = _HDnsgGOI;
         "vLgFb3QA" = _vLgFb3QA;
         "exWE7zve" = _exWE7zve;
-        "fabric-1.16.1" = _exWE7zve;
+        "1eBHzFLw" = _1eBHzFLw;
+        "fabric-1.16.1" = _1eBHzFLw;
         "pkg-1.1.8" = _r17vLIlI;
         "pkg-1.1.9" = _Pr8911G1;
         "pkg-1.1.10" = _XZVqLLbz;
@@ -1704,7 +1710,8 @@ let
         "pkg-5.8.19" = _HDnsgGOI;
         "pkg-5.8.20" = _vLgFb3QA;
         "pkg-5.8.21" = _exWE7zve;
-        "default" = _exWE7zve;
+        "pkg-5.8.22" = _1eBHzFLw;
+        "default" = _1eBHzFLw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcsr-ranked";

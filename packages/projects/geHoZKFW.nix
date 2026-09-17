@@ -396,6 +396,11 @@ let
             "file" = "JMs Fixes.zip";
             "hash" = "sha512-HqylYp1Q9JUTVG+CPDFJQE1A1t5cHHl7vfX9hiTjZZ+5Dp8OdrDGecpENPdJzkHedqlb0hRkvNYC7smA5OqdDg==";
         };
+        _u6iXtHjS = {
+            "id" = "u6iXtHjS";
+            "file" = "JMs Fixes.zip";
+            "hash" = "sha512-d8oO4rRwGoCjqWlFqMnvULMFBZovuDcsDBjEcWlrKGCrT3e5HoVTOlPcv62Mt2X64IXo+Z1KVR8ivXugw4nP2w==";
+        };
     in {
         "nxas8eWT" = _nxas8eWT;
         "S0tYlUA5" = _S0tYlUA5;
@@ -476,6 +481,7 @@ let
         "3DnxKJ2e" = _3DnxKJ2e;
         "dDos0tpK" = _dDos0tpK;
         "ryJouxlr" = _ryJouxlr;
+        "u6iXtHjS" = _u6iXtHjS;
         "minecraft-1.20.2" = _1w7AoNW1;
         "minecraft-23w45a" = _1w7AoNW1;
         "minecraft-1.20.4" = _uHOB7cNo;
@@ -519,9 +525,10 @@ let
         "minecraft-26.2-snapshot-4" = _Q9Fm8bjm;
         "minecraft-26.2-pre-1" = _6nCwxOyY;
         "minecraft-26.2-rc-2" = _3DnxKJ2e;
-        "minecraft-26.2" = _ryJouxlr;
+        "minecraft-26.2" = _u6iXtHjS;
         "minecraft-26.3-snapshot-6" = _dDos0tpK;
         "minecraft-26.3-snapshot-7" = _ryJouxlr;
+        "minecraft-26.3-pre-2" = _u6iXtHjS;
         "pkg-0.01" = _nxas8eWT;
         "pkg-0.02" = _S0tYlUA5;
         "pkg-0.03" = _1w7AoNW1;
@@ -601,7 +608,8 @@ let
         "pkg-1.59" = _3DnxKJ2e;
         "pkg-1.60" = _dDos0tpK;
         "pkg-1.61" = _ryJouxlr;
-        "default" = _ryJouxlr;
+        "pkg-1.62" = _u6iXtHjS;
+        "default" = _u6iXtHjS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jms-fixes";

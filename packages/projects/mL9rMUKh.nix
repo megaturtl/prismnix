@@ -31,6 +31,16 @@ let
             "file" = "lava-chicken-1.0.2.jar";
             "hash" = "sha512-fMDG5VBFxo+dxauyXReudlvt9aRhxmCgKWkchDPXc65ozehsKWDo2iNrJKpFFkyj34KcuR0gUS1MmbxP7E1SvQ==";
         };
+        _yzv1ro7g = {
+            "id" = "yzv1ro7g";
+            "file" = "lava-chicken-1.0.3.zip";
+            "hash" = "sha512-BUq8aut0gMElxIS7YVNdjBdUvPec78d4nCQbS7QPBmevNv2c4VEtasRkcedxfLOsdW1JwrIS8otfivSsYKrl8Q==";
+        };
+        _pTmTFhgH = {
+            "id" = "pTmTFhgH";
+            "file" = "lava-chicken-1.0.3.jar";
+            "hash" = "sha512-3N0oWbh/QjEcKN7SylFmzGtR2VJwXOzyOPjupUFaWT77M01TMJFm7P4wAQZwt/LxFrVu/XzmT1UzWKK9Zw9LMQ==";
+        };
     in {
         "4Ztzf7yz" = _4Ztzf7yz;
         "C47L0hqC" = _C47L0hqC;
@@ -38,6 +48,8 @@ let
         "9lHvTQiq" = _9lHvTQiq;
         "8ljiqEfh" = _8ljiqEfh;
         "lLhGh623" = _lLhGh623;
+        "yzv1ro7g" = _yzv1ro7g;
+        "pTmTFhgH" = _pTmTFhgH;
         "datapack-1.21.5" = _8ljiqEfh;
         "datapack-1.21.6" = _8ljiqEfh;
         "datapack-1.21.7" = _8ljiqEfh;
@@ -49,6 +61,7 @@ let
         "datapack-26.1.1" = _8ljiqEfh;
         "datapack-26.1.2" = _8ljiqEfh;
         "datapack-26.2" = _8ljiqEfh;
+        "datapack-26.3" = _yzv1ro7g;
         "fabric-1.21.5" = _lLhGh623;
         "fabric-1.21.6" = _lLhGh623;
         "fabric-1.21.7" = _lLhGh623;
@@ -60,6 +73,7 @@ let
         "fabric-26.1.1" = _lLhGh623;
         "fabric-26.1.2" = _lLhGh623;
         "fabric-26.2" = _lLhGh623;
+        "fabric-26.3" = _pTmTFhgH;
         "forge-1.21.5" = _lLhGh623;
         "forge-1.21.6" = _lLhGh623;
         "forge-1.21.7" = _lLhGh623;
@@ -71,6 +85,7 @@ let
         "forge-26.1.1" = _lLhGh623;
         "forge-26.1.2" = _lLhGh623;
         "forge-26.2" = _lLhGh623;
+        "forge-26.3" = _pTmTFhgH;
         "neoforge-1.21.5" = _lLhGh623;
         "neoforge-1.21.6" = _lLhGh623;
         "neoforge-1.21.7" = _lLhGh623;
@@ -82,6 +97,7 @@ let
         "neoforge-26.1.1" = _lLhGh623;
         "neoforge-26.1.2" = _lLhGh623;
         "neoforge-26.2" = _lLhGh623;
+        "neoforge-26.3" = _pTmTFhgH;
         "quilt-1.21.5" = _lLhGh623;
         "quilt-1.21.6" = _lLhGh623;
         "quilt-1.21.7" = _lLhGh623;
@@ -93,13 +109,16 @@ let
         "quilt-26.1.1" = _lLhGh623;
         "quilt-26.1.2" = _lLhGh623;
         "quilt-26.2" = _lLhGh623;
+        "quilt-26.3" = _pTmTFhgH;
         "pkg-1.0.0" = _4Ztzf7yz;
         "pkg-1.0.0+mod" = _C47L0hqC;
         "pkg-1.0.1" = _CrRsp6qK;
         "pkg-1.0.1+mod" = _9lHvTQiq;
         "pkg-1.0.2" = _8ljiqEfh;
         "pkg-1.0.2+mod" = _lLhGh623;
-        "default" = _lLhGh623;
+        "pkg-1.0.3" = _yzv1ro7g;
+        "pkg-1.0.3+mod" = _pTmTFhgH;
+        "default" = _pTmTFhgH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lava-chicken";

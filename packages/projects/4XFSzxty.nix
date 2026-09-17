@@ -31,6 +31,11 @@ let
             "file" = "nojumpdelay-1.4.1.jar";
             "hash" = "sha512-7LEsV5JUEmHMaXocK/2iJux5MBMf6uqVzoJ4cJlJwdLPmvXdwzGQYnnBJGo+KRljE8AG9nNz18pXvSDjogMSug==";
         };
+        _faOPJhSr = {
+            "id" = "faOPJhSr";
+            "file" = "nojumpdelay-1.4.2.jar";
+            "hash" = "sha512-gpAW2rn+YRvkYyTCM9tpU0lrl9SdjQRoDajDQJvzcUTZVFitbog7QpH7HsqQMH3gdJUO4lyqM1/6AoiWlDcf9w==";
+        };
     in {
         "p14vhn9P" = _p14vhn9P;
         "F8chhgLj" = _F8chhgLj;
@@ -38,6 +43,7 @@ let
         "Xiq7n1bX" = _Xiq7n1bX;
         "5kf9whqF" = _5kf9whqF;
         "Hj1nkQKH" = _Hj1nkQKH;
+        "faOPJhSr" = _faOPJhSr;
         "fabric-1.20.4" = _p14vhn9P;
         "fabric-1.20.5" = _Xiq7n1bX;
         "fabric-1.20.6" = _Xiq7n1bX;
@@ -57,13 +63,15 @@ let
         "fabric-26.1.1" = _Hj1nkQKH;
         "fabric-26.1.2" = _Hj1nkQKH;
         "fabric-26.2" = _Hj1nkQKH;
+        "fabric-26.3" = _faOPJhSr;
         "pkg-1.2.0+mc1.20.4" = _p14vhn9P;
         "pkg-1.2.0" = _F8chhgLj;
         "pkg-1.2.1" = _BuXA7tjB;
         "pkg-1.3.0" = _Xiq7n1bX;
         "pkg-1.4.0" = _5kf9whqF;
         "pkg-1.4.1" = _Hj1nkQKH;
-        "default" = _Hj1nkQKH;
+        "pkg-1.4.2" = _faOPJhSr;
+        "default" = _faOPJhSr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nojumpdelay-enhanced";

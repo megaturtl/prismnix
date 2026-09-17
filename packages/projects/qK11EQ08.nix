@@ -16,24 +16,40 @@ let
             "file" = "Potatotem-0.3.1.zip";
             "hash" = "sha512-xBZ9UIVSXDofyulZl+xRIu/AEGdhlWKHijB8OTlVeHLm68VpO0ngqllihf+dc+6KxSUcBSZo2Db13eqgcpKloQ==";
         };
+        _PAucOyYD = {
+            "id" = "PAucOyYD";
+            "file" = "Potatotem 0.4.zip";
+            "hash" = "sha512-edIDByaURV02hanShBIKEVj7BwTkiZRJ2/y8yYC79hLS5gjT3EiTrMjffZUaenLR+9RKUCpJLoPPjPDY/a9F8Q==";
+        };
+        _VRTqKCSA = {
+            "id" = "VRTqKCSA";
+            "file" = "Potatotem 0.5.zip";
+            "hash" = "sha512-Aca+JqgVGKPmKRtpcDnweFHbqewFNcxewla7qGX9wyqha7mxjzzscoF9G82NtVyoZ+0h2tjncePjScBJOEL2JA==";
+        };
     in {
         "okHOPbZC" = _okHOPbZC;
         "Yzvr99zG" = _Yzvr99zG;
         "3J61PgVQ" = _3J61PgVQ;
-        "minecraft-1.21.5" = _3J61PgVQ;
-        "minecraft-1.21.6" = _3J61PgVQ;
-        "minecraft-1.21.7" = _3J61PgVQ;
-        "minecraft-1.21.8" = _3J61PgVQ;
-        "minecraft-1.21.9" = _3J61PgVQ;
-        "minecraft-1.21.10" = _3J61PgVQ;
-        "minecraft-1.21.11" = _3J61PgVQ;
-        "minecraft-26.1" = _3J61PgVQ;
-        "minecraft-26.1.1" = _3J61PgVQ;
-        "minecraft-26.1.2" = _3J61PgVQ;
+        "PAucOyYD" = _PAucOyYD;
+        "VRTqKCSA" = _VRTqKCSA;
+        "minecraft-1.21.5" = _VRTqKCSA;
+        "minecraft-1.21.6" = _VRTqKCSA;
+        "minecraft-1.21.7" = _VRTqKCSA;
+        "minecraft-1.21.8" = _VRTqKCSA;
+        "minecraft-1.21.9" = _VRTqKCSA;
+        "minecraft-1.21.10" = _VRTqKCSA;
+        "minecraft-1.21.11" = _VRTqKCSA;
+        "minecraft-26.1" = _VRTqKCSA;
+        "minecraft-26.1.1" = _VRTqKCSA;
+        "minecraft-26.1.2" = _VRTqKCSA;
+        "minecraft-26.2" = _VRTqKCSA;
+        "minecraft-26.3" = _VRTqKCSA;
         "pkg-0.1" = _okHOPbZC;
         "pkg-0.2" = _Yzvr99zG;
         "pkg-0.3.1" = _3J61PgVQ;
-        "default" = _3J61PgVQ;
+        "pkg-0.4" = _PAucOyYD;
+        "pkg-0.5" = _VRTqKCSA;
+        "default" = _VRTqKCSA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "potatotem";

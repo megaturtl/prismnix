@@ -21,17 +21,24 @@ let
             "file" = "drivebywire-typewriter-1.1.0-beta.2.jar";
             "hash" = "sha512-vi40+EwsMSc75SgtNYLyn/FqTVPDjq8Zf35JmY5R5aAera0pYqHrdeJ4CEJRNztDO3RimUMxhDiq42Ng1nOE5w==";
         };
+        _Zu7emlh1 = {
+            "id" = "Zu7emlh1";
+            "file" = "drivebywire-typewriter-1.2.0.jar";
+            "hash" = "sha512-Zj7I3F23oYAzWS1kecyw1d9ErBQ51b4HyH2m7PLDULe2Ftv45jpFia1Z7u+tjJFttVRvptFgS/Pl7lPKW2NovA==";
+        };
     in {
         "I7aL73ff" = _I7aL73ff;
         "px0T1v29" = _px0T1v29;
         "VBil0Xf3" = _VBil0Xf3;
         "cPM0cfwo" = _cPM0cfwo;
-        "neoforge-1.21.1" = _cPM0cfwo;
+        "Zu7emlh1" = _Zu7emlh1;
+        "neoforge-1.21.1" = _Zu7emlh1;
         "pkg-1.0.1" = _I7aL73ff;
         "pkg-1.0.2" = _px0T1v29;
         "pkg-1.1.0-beta.1" = _VBil0Xf3;
         "pkg-1.1.0-beta.2" = _cPM0cfwo;
-        "default" = _cPM0cfwo;
+        "pkg-1.2.0" = _Zu7emlh1;
+        "default" = _Zu7emlh1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "drive-by-wiretypewriter";

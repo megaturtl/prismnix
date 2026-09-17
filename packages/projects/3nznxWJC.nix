@@ -101,6 +101,11 @@ let
             "file" = "chromakey-26.2-88.0.zip";
             "hash" = "sha512-BHlWqlOP+J4bq1S5cW+oMnFs6rVB5ZO6aEnAXBUeo69lMkucwKYoxaaVfkTfwg5Ik4yA8OcposLNHenf+0YncQ==";
         };
+        _PUuKa3Bv = {
+            "id" = "PUuKa3Bv";
+            "file" = "chromakey-1.0.0-mc26.3.zip";
+            "hash" = "sha512-1yMjofUjPxmSPg1wiwU8CKyEtMc1lYrllzjWCFlnX9DvnAlyeiVA+w/BEQGrjIt1yekRpDmY9vhX+pkWDchDmw==";
+        };
     in {
         "USB8tiss" = _USB8tiss;
         "rjeiphwU" = _rjeiphwU;
@@ -122,6 +127,7 @@ let
         "IFJWqxiF" = _IFJWqxiF;
         "9TniveXW" = _9TniveXW;
         "7DTYPtRo" = _7DTYPtRo;
+        "PUuKa3Bv" = _PUuKa3Bv;
         "minecraft-1.20" = _UPsTQ7tS;
         "minecraft-1.20.1" = _UPsTQ7tS;
         "minecraft-1.20.2" = _WC5jrjQI;
@@ -145,6 +151,7 @@ let
         "minecraft-26.1.1" = _9TniveXW;
         "minecraft-26.1.2" = _9TniveXW;
         "minecraft-26.2" = _7DTYPtRo;
+        "minecraft-26.3" = _PUuKa3Bv;
         "pkg-15.1" = _IezcwJ0A;
         "pkg-18.1" = _V18iPUz8;
         "pkg-15.2" = _UPsTQ7tS;
@@ -161,7 +168,8 @@ let
         "pkg-75.0" = _IFJWqxiF;
         "pkg-84.0" = _9TniveXW;
         "pkg-88.0" = _7DTYPtRo;
-        "default" = _7DTYPtRo;
+        "pkg-1.0.0" = _PUuKa3Bv;
+        "default" = _PUuKa3Bv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chromakey";

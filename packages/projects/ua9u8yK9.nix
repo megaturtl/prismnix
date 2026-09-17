@@ -116,6 +116,16 @@ let
             "file" = "craft-horse-armor-107.1.jar";
             "hash" = "sha512-dlidjwiL/Kgij1Hh24DSbMOZEg/7sW0IyGntAp82jvf/sUd33BCWAMgOIYvpH1tJ3CyRtmfYcDRFKvH79xIB1Q==";
         };
+        _ulhqil34 = {
+            "id" = "ulhqil34";
+            "file" = "craftable-horse-armor-1.1.0-mc26.3.zip";
+            "hash" = "sha512-HNwWHy8spRLdE5zocl8LG2g3tN0nfxnZOBiO+1ajHkqsXawdlmsXNc1faL97Df9fDw3cf4PwCQXEq7llFU/6EA==";
+        };
+        _AJkpa6SJ = {
+            "id" = "AJkpa6SJ";
+            "file" = "craft-horse-armor-1.1.0.jar";
+            "hash" = "sha512-Y2Tou3OoG1eNGfxXtK1pGZsU+LH7PEwCtpIwqnD9SFo0FbK/hU+nOiydhgpRTnMYjIeoeBknHLYXRfQReXFbrQ==";
+        };
     in {
         "zcrU6Pqw" = _zcrU6Pqw;
         "ytpNWZel" = _ytpNWZel;
@@ -140,6 +150,8 @@ let
         "5enCg1UN" = _5enCg1UN;
         "8jD0vu55" = _8jD0vu55;
         "7uLjZxxr" = _7uLjZxxr;
+        "ulhqil34" = _ulhqil34;
+        "AJkpa6SJ" = _AJkpa6SJ;
         "datapack-1.20.5" = _zcrU6Pqw;
         "datapack-1.20.6" = _zcrU6Pqw;
         "datapack-1.21" = _1Y7WadWt;
@@ -158,6 +170,7 @@ let
         "datapack-26.1.1" = _NCcdRv7s;
         "datapack-26.1.2" = _NCcdRv7s;
         "datapack-26.2" = _8jD0vu55;
+        "datapack-26.3" = _ulhqil34;
         "fabric-1.20.5" = _ytpNWZel;
         "fabric-1.20.6" = _ytpNWZel;
         "fabric-1.21" = _3QCxeXDG;
@@ -176,6 +189,7 @@ let
         "fabric-26.1.1" = _5enCg1UN;
         "fabric-26.1.2" = _5enCg1UN;
         "fabric-26.2" = _7uLjZxxr;
+        "fabric-26.3" = _AJkpa6SJ;
         "forge-1.20.5" = _ytpNWZel;
         "forge-1.20.6" = _ytpNWZel;
         "forge-1.21" = _3QCxeXDG;
@@ -194,6 +208,7 @@ let
         "forge-26.1.1" = _5enCg1UN;
         "forge-26.1.2" = _5enCg1UN;
         "forge-26.2" = _7uLjZxxr;
+        "forge-26.3" = _AJkpa6SJ;
         "quilt-1.20.5" = _ytpNWZel;
         "quilt-1.20.6" = _ytpNWZel;
         "quilt-1.21" = _3QCxeXDG;
@@ -212,6 +227,7 @@ let
         "quilt-26.1.1" = _5enCg1UN;
         "quilt-26.1.2" = _5enCg1UN;
         "quilt-26.2" = _7uLjZxxr;
+        "quilt-26.3" = _AJkpa6SJ;
         "neoforge-1.21.2" = _qxoWQtng;
         "neoforge-1.21.3" = _qxoWQtng;
         "neoforge-1.21.4" = _qHUUEoXJ;
@@ -226,6 +242,7 @@ let
         "neoforge-26.1.1" = _5enCg1UN;
         "neoforge-26.1.2" = _5enCg1UN;
         "neoforge-26.2" = _7uLjZxxr;
+        "neoforge-26.3" = _AJkpa6SJ;
         "pkg-41.1" = _zcrU6Pqw;
         "pkg-41.1+mod" = _ytpNWZel;
         "pkg-48.1" = _1Y7WadWt;
@@ -248,7 +265,9 @@ let
         "pkg-101.1+mod" = _5enCg1UN;
         "pkg-107.1" = _8jD0vu55;
         "pkg-107.1+mod" = _7uLjZxxr;
-        "default" = _7uLjZxxr;
+        "pkg-1.1.0" = _ulhqil34;
+        "pkg-1.1.0+mod" = _AJkpa6SJ;
+        "default" = _AJkpa6SJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craft-horse-armor";

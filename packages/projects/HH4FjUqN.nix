@@ -471,6 +471,46 @@ let
             "file" = "[1.21.1-Neoforge] Hybrid Aquatic 1.6.9.jar";
             "hash" = "sha512-IKy5/o6Y2gpqsz3HLQQ7RGPP5TRAX5WkGeqB+gdbXG3Fn+v/xMJZDrNISnuL6IjzchOomdSnjnaHwy6ZxpCugg==";
         };
+        _LfJf5vHP = {
+            "id" = "LfJf5vHP";
+            "file" = "hybrid_aquatic-fabric-1.20.1-1.7.0.jar";
+            "hash" = "sha512-FEhmHQcGv4OuqDm1mZQrEFFO+ka7Qne0ufL+ae6JeJmughotSqLRfKAcJNSQJGxtH5N9KiuSrJu7xKvjHVyW0g==";
+        };
+        _4WmLvGEA = {
+            "id" = "4WmLvGEA";
+            "file" = "hybrid_aquatic-forge-1.20.1-1.7.0.jar";
+            "hash" = "sha512-fh2r07kY4y8cMqEBqSYTB9QpNgjtzE7jIynyaG20QfhcYLnvoHoRJU3b10ZrCDrpmF7sZGyAaIwjh/5ToKMAeA==";
+        };
+        _WVxhJJqr = {
+            "id" = "WVxhJJqr";
+            "file" = "hybrid_aquatic-fabric-1.21.1-1.7.0.jar";
+            "hash" = "sha512-7Rhj9ymlgidgUm/RB4EZ3r1naWukxM/3fcZNqtrxikRGUfBV7UUe9bFwNs28HiycfhcTa6SBxxvwR/jicDC8RQ==";
+        };
+        _7DUMeGLM = {
+            "id" = "7DUMeGLM";
+            "file" = "hybrid_aquatic-neoforge-1.21.1-1.7.0.jar";
+            "hash" = "sha512-rXK5jNgRbHcnJf3QJVtiFaDlrmjgzhce5CLKX2v611nvWoKA3sA8B/MXkC92trtLWsh5I6ZO867FT2ZYaDNoOA==";
+        };
+        _PgAiinc1 = {
+            "id" = "PgAiinc1";
+            "file" = "hybrid_aquatic-neoforge-1.21.1-1.7.2.jar";
+            "hash" = "sha512-qbqupBr0Mp1M12YnMQ2D+rBsAQyc7Ql4Fihoq0YSigKER9UXcxWteHwMCIUoGailzbJ8QY7D9om2E0PyQrtPMw==";
+        };
+        _rymElPnM = {
+            "id" = "rymElPnM";
+            "file" = "hybrid_aquatic-fabric-1.21.1-1.7.2.jar";
+            "hash" = "sha512-RktZKhQ2coX0W0VXplkZOYR4dBTplol2GrhEjhuQqoy7TZ9j1JiuyTsYDXyQv+DRkensaDig8JKnSCP0AeDJTw==";
+        };
+        _XPbuz6ie = {
+            "id" = "XPbuz6ie";
+            "file" = "hybrid_aquatic-fabric-1.20.1-1.7.2.jar";
+            "hash" = "sha512-jWtGrVInmgO188l4qO6TZn+/FZywTZb2p06eaSEqazS3oX9jr6kkiyzh51gtqW7w72VgYo+hnukMNzjSvSJFRg==";
+        };
+        _zzFD1Emj = {
+            "id" = "zzFD1Emj";
+            "file" = "hybrid_aquatic-forge-1.20.1-1.7.2.jar";
+            "hash" = "sha512-c9AZcEA+fHsRkE8Kt2GP5kvGTMvuzWgxBWCx+UfBcL4PVElmVMZ5LCnoVluuXtBc3uc/X+HgzrJir9o949+02A==";
+        };
     in {
         "4U8sQSGL" = _4U8sQSGL;
         "6c5zj7yx" = _6c5zj7yx;
@@ -566,16 +606,24 @@ let
         "Uz0jRbE8" = _Uz0jRbE8;
         "F5POkJG0" = _F5POkJG0;
         "nSHix8lr" = _nSHix8lr;
+        "LfJf5vHP" = _LfJf5vHP;
+        "4WmLvGEA" = _4WmLvGEA;
+        "WVxhJJqr" = _WVxhJJqr;
+        "7DUMeGLM" = _7DUMeGLM;
+        "PgAiinc1" = _PgAiinc1;
+        "rymElPnM" = _rymElPnM;
+        "XPbuz6ie" = _XPbuz6ie;
+        "zzFD1Emj" = _zzFD1Emj;
         "fabric-1.19.2" = _3ey2KNYL;
-        "fabric-1.20.1" = _JbcSaVfO;
+        "fabric-1.20.1" = _XPbuz6ie;
         "fabric-1.19.4" = _4yo5BU5p;
         "fabric-1.20.2" = _zmK4VFsK;
         "fabric-1.20.4" = _IbBqf6AS;
-        "fabric-1.21.1" = _F5POkJG0;
-        "forge-1.20.1" = _Uz0jRbE8;
+        "fabric-1.21.1" = _rymElPnM;
+        "forge-1.20.1" = _zzFD1Emj;
         "forge-1.20.2" = _9w6fg47O;
         "forge-1.20.4" = _I4rbfevS;
-        "neoforge-1.21.1" = _nSHix8lr;
+        "neoforge-1.21.1" = _PgAiinc1;
         "pkg-1.0.1-1.19.2" = _4U8sQSGL;
         "pkg-1.0.1-1.20.1" = _6c5zj7yx;
         "pkg-1.0.1-1.19.4" = _v1vDo62a;
@@ -642,7 +690,15 @@ let
         "pkg-1.6.9-fabric" = _F5POkJG0;
         "pkg-1.6.9-forge" = _Uz0jRbE8;
         "pkg-1.6.9-neoforge" = _nSHix8lr;
-        "default" = _nSHix8lr;
+        "pkg-mc1.20.1-1.7.0-fabric" = _LfJf5vHP;
+        "pkg-mc1.20.1-1.7.0-forge" = _4WmLvGEA;
+        "pkg-mc1.21.1-1.7.0-fabric" = _WVxhJJqr;
+        "pkg-mc1.21.1-1.7.0-neoforge" = _7DUMeGLM;
+        "pkg-mc1.21.1-1.7.2-neoforge" = _PgAiinc1;
+        "pkg-mc1.21.1-1.7.2-fabric" = _rymElPnM;
+        "pkg-mc1.20.1-1.7.2-fabric" = _XPbuz6ie;
+        "pkg-mc1.20.1-1.7.2-forge" = _zzFD1Emj;
+        "default" = _zzFD1Emj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hybrid-aquatic";

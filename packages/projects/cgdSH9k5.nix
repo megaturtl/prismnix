@@ -41,6 +41,11 @@ let
             "file" = "Slimemike's Stackable items 1.21.9.zip";
             "hash" = "sha512-WkshoqAlOcaKt3Tm44UDrXtraIILEhxruQbyOA0bKLrxdcf7/8gV4pVn2oFS35MQxzig+kpFofV+3sLdC4+7WQ==";
         };
+        _j7477nb0 = {
+            "id" = "j7477nb0";
+            "file" = "Slimemike's Stackable items 26.3.zip";
+            "hash" = "sha512-mpkLlarEG0bAqttPVrS0ZeNjSE4voTJ+GVFP63UFO26mU156+6HhhNg+hrDD/63r+EctS81xilwxi4wzxtkqmA==";
+        };
     in {
         "SZ8THsdT" = _SZ8THsdT;
         "bxyHiqiC" = _bxyHiqiC;
@@ -50,6 +55,7 @@ let
         "4KjtFwyP" = _4KjtFwyP;
         "4Qe56cCt" = _4Qe56cCt;
         "XCmGJ6W6" = _XCmGJ6W6;
+        "j7477nb0" = _j7477nb0;
         "minecraft-1.20.6" = _SZ8THsdT;
         "minecraft-1.15" = _bxyHiqiC;
         "minecraft-1.21" = _xmsornWC;
@@ -62,6 +68,7 @@ let
         "minecraft-1.21.9" = _XCmGJ6W6;
         "minecraft-1.21.10" = _XCmGJ6W6;
         "minecraft-1.21.11" = _XCmGJ6W6;
+        "minecraft-26.3" = _j7477nb0;
         "pkg-1.20" = _SZ8THsdT;
         "pkg-1.1" = _bxyHiqiC;
         "pkg-1.21" = _sO2mitAK;
@@ -70,7 +77,8 @@ let
         "pkg-1.21.5" = _4KjtFwyP;
         "pkg-1.21.5.1" = _4Qe56cCt;
         "pkg-1.21.9" = _XCmGJ6W6;
-        "default" = _XCmGJ6W6;
+        "pkg-26.3" = _j7477nb0;
+        "default" = _j7477nb0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "slimemikes-stackable-items";

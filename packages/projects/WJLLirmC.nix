@@ -381,6 +381,21 @@ let
             "file" = "travelerscompass-neoforge-1.21.1-4.0.06.jar";
             "hash" = "sha512-rbNLOWT8K+HCsE3by94v20IkR1UCUOjk/8DpYx0Q1ynty6Vk6uVT+Q0cPDLVrHLrfzcVtfBewEKcOtUIXuoN8A==";
         };
+        _hl8NOnUY = {
+            "id" = "hl8NOnUY";
+            "file" = "travelerscompass-fabric-26.3-4.3.05.jar";
+            "hash" = "sha512-yqpfg57Ad3GjPciKhskizF4cq6nfO2F44CvOmH0ClmRQWDK5xWZ6alr8b2jVZE7Pja0oLEo09F+IC0aazE6tdg==";
+        };
+        _Lc5hQpOd = {
+            "id" = "Lc5hQpOd";
+            "file" = "travelerscompass-neoforge-26.3-4.3.05.jar";
+            "hash" = "sha512-6+EL0KaeJ+dalNusPTK9sC1iEJg2JqYONXSvlJG7IuR9TuTR1ImWr5pvQ99mKNI0jP3fMpHl5uPUTPLFiyBk/Q==";
+        };
+        _g8hfbf3c = {
+            "id" = "g8hfbf3c";
+            "file" = "travelerscompass-neoforge-26.3-4.3.06.jar";
+            "hash" = "sha512-f0vs+KkL3EVSszDtOKadlC2bFpET74zwz6ONJgtD8mnfP5K6Xcn9iONbCIt/VSRb5B4KmAIuyT/KFNweaR26hA==";
+        };
     in {
         "RNqWecTB" = _RNqWecTB;
         "P8TtA2WU" = _P8TtA2WU;
@@ -458,6 +473,9 @@ let
         "DUowrZsN" = _DUowrZsN;
         "xxS4xMWE" = _xxS4xMWE;
         "WNOQCxNt" = _WNOQCxNt;
+        "hl8NOnUY" = _hl8NOnUY;
+        "Lc5hQpOd" = _Lc5hQpOd;
+        "g8hfbf3c" = _g8hfbf3c;
         "forge-1.20.1" = _5ouBXjgf;
         "forge-1.20.4" = _GsACtxPE;
         "forge-1.19.2" = _rrzK4dvq;
@@ -481,6 +499,7 @@ let
         "fabric-26.1.1" = _uT56Xzs5;
         "fabric-26.1.2" = _nGviCIxA;
         "fabric-26.2" = _weOObm0E;
+        "fabric-26.3" = _hl8NOnUY;
         "neoforge-1.20.4" = _GsACtxPE;
         "neoforge-1.20.1" = _5ouBXjgf;
         "neoforge-1.21" = _iEwELpQ7;
@@ -495,6 +514,7 @@ let
         "neoforge-26.1.1" = _C0N0Y6zN;
         "neoforge-26.1.2" = _Xgeq0PbE;
         "neoforge-26.2" = _DUowrZsN;
+        "neoforge-26.3" = _g8hfbf3c;
         "pkg-1.2.01" = _OaHLqQeC;
         "pkg-1.2.0" = _zdhQy8E1;
         "pkg-1.5.10" = _iU62uemv;
@@ -524,7 +544,9 @@ let
         "pkg-4.3.02" = _Xgeq0PbE;
         "pkg-4.0.06" = _WNOQCxNt;
         "pkg-4.3.03" = _DUowrZsN;
-        "default" = _WNOQCxNt;
+        "pkg-4.3.05" = _Lc5hQpOd;
+        "pkg-4.3.06" = _g8hfbf3c;
+        "default" = _g8hfbf3c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "travelers-compass";

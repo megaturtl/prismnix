@@ -46,6 +46,16 @@ let
             "file" = "fortress-of-war-1.2.jar";
             "hash" = "sha512-BHGG1bQe1OVr0JE0jQGVbkX2Kdufas/xb5lYvYNMP8MHR4dmZzLn6ZkR9KOw1k5GUZoNDcGOUaguRKuOAJD/Gg==";
         };
+        _yhwEFM2b = {
+            "id" = "yhwEFM2b";
+            "file" = "fortress-of-war-v1.3-by-kanokarob.zip";
+            "hash" = "sha512-spKCJIkrxWaM9q58v4w6Rkuf/7IVEfk5/E/l3WuKkqG9Z0KiPB1ST05Yuk1GjvCPpeB4xQovdTZ5SQRmy0Mpzg==";
+        };
+        _4C6B8ZaS = {
+            "id" = "4C6B8ZaS";
+            "file" = "fortress-of-war-1.3.jar";
+            "hash" = "sha512-woTw3hk2BYheFXTnB3GP9TweCyjTfthkxmaz76IfK3n426k1hpXRWrF54USe0st2Rf3LQbK3NdX5JtNVoMGrLw==";
+        };
     in {
         "UWeS54MX" = _UWeS54MX;
         "4nMTCzkk" = _4nMTCzkk;
@@ -56,6 +66,8 @@ let
         "YFoZacQd" = _YFoZacQd;
         "uDcFMqZw" = _uDcFMqZw;
         "X5KrK5bz" = _X5KrK5bz;
+        "yhwEFM2b" = _yhwEFM2b;
+        "4C6B8ZaS" = _4C6B8ZaS;
         "datapack-1.21.7" = _er7MnCYE;
         "datapack-1.21.8" = _er7MnCYE;
         "datapack-1.21.9" = _er7MnCYE;
@@ -65,6 +77,7 @@ let
         "datapack-26.1.1" = _er7MnCYE;
         "datapack-26.1.2" = _er7MnCYE;
         "datapack-26.2" = _uDcFMqZw;
+        "datapack-26.3" = _yhwEFM2b;
         "fabric-1.21.7" = _YFoZacQd;
         "fabric-1.21.8" = _YFoZacQd;
         "fabric-1.21.9" = _YFoZacQd;
@@ -74,6 +87,7 @@ let
         "fabric-26.1.1" = _YFoZacQd;
         "fabric-26.1.2" = _YFoZacQd;
         "fabric-26.2" = _X5KrK5bz;
+        "fabric-26.3" = _4C6B8ZaS;
         "forge-1.21.7" = _YFoZacQd;
         "forge-1.21.8" = _YFoZacQd;
         "forge-1.21.9" = _YFoZacQd;
@@ -83,6 +97,7 @@ let
         "forge-26.1.1" = _YFoZacQd;
         "forge-26.1.2" = _YFoZacQd;
         "forge-26.2" = _X5KrK5bz;
+        "forge-26.3" = _4C6B8ZaS;
         "neoforge-1.21.7" = _YFoZacQd;
         "neoforge-1.21.8" = _YFoZacQd;
         "neoforge-1.21.9" = _YFoZacQd;
@@ -92,6 +107,7 @@ let
         "neoforge-26.1.1" = _YFoZacQd;
         "neoforge-26.1.2" = _YFoZacQd;
         "neoforge-26.2" = _X5KrK5bz;
+        "neoforge-26.3" = _4C6B8ZaS;
         "quilt-1.21.7" = _YFoZacQd;
         "quilt-1.21.8" = _YFoZacQd;
         "quilt-1.21.9" = _YFoZacQd;
@@ -101,6 +117,7 @@ let
         "quilt-26.1.1" = _YFoZacQd;
         "quilt-26.1.2" = _YFoZacQd;
         "quilt-26.2" = _X5KrK5bz;
+        "quilt-26.3" = _4C6B8ZaS;
         "pkg-1.0" = _UWeS54MX;
         "pkg-1.0.1" = _4nMTCzkk;
         "pkg-1.0.1+mod" = _ZsAFRavj;
@@ -110,7 +127,9 @@ let
         "pkg-1.1.1+mod" = _YFoZacQd;
         "pkg-1.2" = _uDcFMqZw;
         "pkg-1.2+mod" = _X5KrK5bz;
-        "default" = _X5KrK5bz;
+        "pkg-1.3" = _yhwEFM2b;
+        "pkg-1.3+mod" = _4C6B8ZaS;
+        "default" = _4C6B8ZaS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fortress-of-war";

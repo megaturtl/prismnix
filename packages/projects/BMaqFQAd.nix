@@ -876,6 +876,21 @@ let
             "file" = "autowhitelist-2.0.0-alpha.1+26.1.jar";
             "hash" = "sha512-wLCHiyGPXb1AqBdzJkfwXhCy4gfIOBXBMvHe++h1nVk4HHRtYgrPRX/Zg9aGvTpU5D8VVyTdsDcJYSiWz71SCg==";
         };
+        _JCGrUq0V = {
+            "id" = "JCGrUq0V";
+            "file" = "autowhitelist-2.0.0-alpha.2+26.3-rc-1.jar";
+            "hash" = "sha512-UvWD/xS7vPHRFueO10N1S721+9Zf/vbhlz2ltY7YiqbOHum/JMwkNHEP2X1jx9bhsyizkzoQTAc60PcxFs1ypA==";
+        };
+        _My6DAxFH = {
+            "id" = "My6DAxFH";
+            "file" = "autowhitelist-2.0.0-alpha.2+26.2.jar";
+            "hash" = "sha512-C10Z/C22ScVD6n0EPxnQ1g9mtztdLRbQgO4q30Soqv1OOAepNmyF++eNER2SFqYZvAaHVDEpgFelcFIUg0c2+w==";
+        };
+        _sTGfDkhu = {
+            "id" = "sTGfDkhu";
+            "file" = "autowhitelist-2.0.0-alpha.2+26.1.jar";
+            "hash" = "sha512-JHsIDNijrg6a0x0aFZUmL9F90TMK9vWYWO2wBE+4eiK7QALi3Wrx63uK9Bf0bc9u7vkDXa8cIdMxnr92FaWL4w==";
+        };
     in {
         "xL0g3kVl" = _xL0g3kVl;
         "R1WajOUo" = _R1WajOUo;
@@ -1052,6 +1067,9 @@ let
         "HFoJjLnw" = _HFoJjLnw;
         "2OO0EmqA" = _2OO0EmqA;
         "KFqX2dTS" = _KFqX2dTS;
+        "JCGrUq0V" = _JCGrUq0V;
+        "My6DAxFH" = _My6DAxFH;
+        "sTGfDkhu" = _sTGfDkhu;
         "fabric-1.19.4" = _v1nkAKvF;
         "fabric-1.20" = _NV3WzqCp;
         "fabric-1.20.1" = _NV3WzqCp;
@@ -1079,9 +1097,11 @@ let
         "fabric-1.21.9" = _2OO0EmqA;
         "fabric-1.21.10" = _2OO0EmqA;
         "fabric-1.21.11" = _4Qc4Z6Wi;
-        "fabric-26.1" = _KFqX2dTS;
-        "fabric-26.1.1" = _KFqX2dTS;
-        "fabric-26.1.2" = _KFqX2dTS;
+        "fabric-26.1" = _sTGfDkhu;
+        "fabric-26.1.1" = _sTGfDkhu;
+        "fabric-26.1.2" = _sTGfDkhu;
+        "fabric-26.3-rc-1" = _JCGrUq0V;
+        "fabric-26.2" = _My6DAxFH;
         "pkg-1.0.0-alpha.1" = _xL0g3kVl;
         "pkg-1.0.0-alpha.2" = _R1WajOUo;
         "pkg-1.0.0-alpha.3" = _BcaXC4xr;
@@ -1257,7 +1277,10 @@ let
         "pkg-1.3.3+1.21.6" = _HFoJjLnw;
         "pkg-1.3.3+1.21.9" = _2OO0EmqA;
         "pkg-2.0.0-alpha.1+26.1" = _KFqX2dTS;
-        "default" = _KFqX2dTS;
+        "pkg-2.0.0-alpha.2+26.3-rc-1" = _JCGrUq0V;
+        "pkg-2.0.0-alpha.2+26.2" = _My6DAxFH;
+        "pkg-2.0.0-alpha.2+26.1" = _sTGfDkhu;
+        "default" = _sTGfDkhu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autowhitelist";

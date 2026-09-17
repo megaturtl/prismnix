@@ -111,6 +111,11 @@ let
             "file" = "lag_protection-1.2.0.jar";
             "hash" = "sha512-Oq867L0Y66yWvfI9kcWv6nfCyCF656Bh3UChmVoNckF7amqID4TCoRuFjNwkETS4ARBmumohKX0LYqlIyGNjXA==";
         };
+        _LK8koheh = {
+            "id" = "LK8koheh";
+            "file" = "lag_protection-1.2.jar";
+            "hash" = "sha512-qgXU5SgHxZ96zvLejcojkoEMVREC0KmJ3/Xuv89zRczEuuDiGcUDB+mFm61tW8FQAaA2cDINDop+8tvopaYm0g==";
+        };
     in {
         "Wb7ZO5Zs" = _Wb7ZO5Zs;
         "FeUNzYtj" = _FeUNzYtj;
@@ -134,6 +139,7 @@ let
         "jLl9niim" = _jLl9niim;
         "WtJRenO9" = _WtJRenO9;
         "sugifXfJ" = _sugifXfJ;
+        "LK8koheh" = _LK8koheh;
         "bukkit-1.21" = _vsSKT9X7;
         "bukkit-1.21.1" = _vsSKT9X7;
         "bukkit-1.21.2" = _vsSKT9X7;
@@ -175,6 +181,7 @@ let
         "bukkit-26.1" = _jLl9niim;
         "bukkit-26.1.1" = _jLl9niim;
         "bukkit-26.1.2" = _jLl9niim;
+        "bukkit-26.2" = _LK8koheh;
         "folia-1.21" = _vsSKT9X7;
         "folia-1.21.1" = _vsSKT9X7;
         "folia-1.21.2" = _vsSKT9X7;
@@ -213,6 +220,7 @@ let
         "folia-1.21.9" = _vsSKT9X7;
         "folia-1.21.10" = _vsSKT9X7;
         "folia-1.21.11" = _vsSKT9X7;
+        "folia-26.2" = _LK8koheh;
         "paper-1.21" = _vsSKT9X7;
         "paper-1.21.1" = _vsSKT9X7;
         "paper-1.21.2" = _vsSKT9X7;
@@ -254,6 +262,7 @@ let
         "paper-26.1" = _jLl9niim;
         "paper-26.1.1" = _jLl9niim;
         "paper-26.1.2" = _jLl9niim;
+        "paper-26.2" = _LK8koheh;
         "purpur-1.21" = _vsSKT9X7;
         "purpur-1.21.1" = _vsSKT9X7;
         "purpur-1.21.2" = _vsSKT9X7;
@@ -295,6 +304,7 @@ let
         "purpur-26.1" = _jLl9niim;
         "purpur-26.1.1" = _jLl9niim;
         "purpur-26.1.2" = _jLl9niim;
+        "purpur-26.2" = _LK8koheh;
         "spigot-1.21" = _vsSKT9X7;
         "spigot-1.21.1" = _vsSKT9X7;
         "spigot-1.21.2" = _vsSKT9X7;
@@ -336,6 +346,7 @@ let
         "spigot-26.1" = _jLl9niim;
         "spigot-26.1.1" = _jLl9niim;
         "spigot-26.1.2" = _jLl9niim;
+        "spigot-26.2" = _LK8koheh;
         "velocity-1.21" = _Wb7ZO5Zs;
         "velocity-1.21.1" = _Wb7ZO5Zs;
         "velocity-1.21.2" = _Wb7ZO5Zs;
@@ -382,8 +393,8 @@ let
         "bungeecord-1.21.5" = _IoAlsHLe;
         "pkg-1.0.0" = _FeUNzYtj;
         "pkg-1.1.0" = _5YD2LNHv;
-        "pkg-1.2.0" = _sugifXfJ;
-        "default" = _sugifXfJ;
+        "pkg-1.2.0" = _LK8koheh;
+        "default" = _LK8koheh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lag-protection";

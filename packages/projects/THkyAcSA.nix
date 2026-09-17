@@ -46,6 +46,31 @@ let
             "file" = "Cobblemon-mount-mastery-0.3.0.jar";
             "hash" = "sha512-6ocErpzeX/IgVDLrG/RIWmvhk+eZ0YGZOKSCLkJaIwWhTy13AF0sLn5wybBWia+asS2AQzxkr7xlIAMLumdp5w==";
         };
+        _clYXuHwz = {
+            "id" = "clYXuHwz";
+            "file" = "Cobblemon-mount-mastery-0.4.0.jar";
+            "hash" = "sha512-0bMHRygRDxmz3XMwg6DkmmMuMW2+K1v6R5U6Y7DJZJNv4AEYUYEG5Kzgel3YKU8bddKBbaM9i1DogS6QTBpilw==";
+        };
+        _2U3HZdjK = {
+            "id" = "2U3HZdjK";
+            "file" = "Cobblemon-mount-mastery-0.4.1.jar";
+            "hash" = "sha512-Rk/mOt1Z1c9Vt0beca3XTYAejyB32UcPsa850S6cpHw81ivS/VN4GHt1bZS5iNCIbx1C4bBNf9TZ00K2W8jDLg==";
+        };
+        _gNiqCzya = {
+            "id" = "gNiqCzya";
+            "file" = "Cobblemon-mount-mastery-neoforge-0.4.1.1.jar";
+            "hash" = "sha512-qakhCDeav740T1GkTpytPDljP6NKEwO6PccTfIq+RF/7tLOrF+OmXlF0YtuXz7vZ70TDHh/yn0R2kLhOiKjucg==";
+        };
+        _CRcklDLL = {
+            "id" = "CRcklDLL";
+            "file" = "Cobblemon-mount-mastery-neoforge-0.4.2.jar";
+            "hash" = "sha512-5c83hoDyRHkka3uSRH4GddBix0XORyN5kILM0oEGzb5bF2Pb7mKe1Ji5YVloKUDnmPOugW/KNKs6XsediChuJg==";
+        };
+        _eDfBTRvH = {
+            "id" = "eDfBTRvH";
+            "file" = "Cobblemon-mount-mastery-0.4.2.jar";
+            "hash" = "sha512-7ySFzxUNunzIqED767GzytuhFXiMrdin3Hjjs0mINuMD8GyRZfnOfcTDfg1u8Q1Py7j2KWCUqooHyB/apHSYWQ==";
+        };
     in {
         "mLHJhLXs" = _mLHJhLXs;
         "7tJ6r3kb" = _7tJ6r3kb;
@@ -56,7 +81,13 @@ let
         "igfq954t" = _igfq954t;
         "8bm4FxVu" = _8bm4FxVu;
         "kmi2BJjQ" = _kmi2BJjQ;
-        "fabric-1.21.1" = _kmi2BJjQ;
+        "clYXuHwz" = _clYXuHwz;
+        "2U3HZdjK" = _2U3HZdjK;
+        "gNiqCzya" = _gNiqCzya;
+        "CRcklDLL" = _CRcklDLL;
+        "eDfBTRvH" = _eDfBTRvH;
+        "fabric-1.21.1" = _eDfBTRvH;
+        "neoforge-1.21.1" = _CRcklDLL;
         "pkg-0.1.0" = _mLHJhLXs;
         "pkg-0.1.1" = _7tJ6r3kb;
         "pkg-0.1.2" = _WaViR0pd;
@@ -66,7 +97,11 @@ let
         "pkg-0.2.1.1" = _igfq954t;
         "pkg-0.2.2" = _8bm4FxVu;
         "pkg-0.3.0" = _kmi2BJjQ;
-        "default" = _kmi2BJjQ;
+        "pkg-0.4.0" = _clYXuHwz;
+        "pkg-0.4.1" = _2U3HZdjK;
+        "pkg-0.4.1.1" = _gNiqCzya;
+        "pkg-0.4.2" = _eDfBTRvH;
+        "default" = _eDfBTRvH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-mount-mastery";

@@ -16,10 +16,16 @@ let
             "file" = "SwapHelper.jar";
             "hash" = "sha512-PQMx7qdMBVFVaOulSFby3zs6HqjUFV48ONB2FAmWiV5gGNqLcgtQrgpliMnDPAGv1C2akL8xwu568zAdbLdlLA==";
         };
+        _jcc3YHsJ = {
+            "id" = "jcc3YHsJ";
+            "file" = "SwapHelper.jar";
+            "hash" = "sha512-s/EaWOgj783zfbpNM+4OwC7dCYC4tMAIDWlXNgdY2zcFF2Qfd38Y0kcye8SWLpvNTMH8nYSbIMZX5shR+OAbKA==";
+        };
     in {
         "N47frwHO" = _N47frwHO;
         "TfJzLmko" = _TfJzLmko;
         "QyGXgx4K" = _QyGXgx4K;
+        "jcc3YHsJ" = _jcc3YHsJ;
         "fabric-1.21" = _N47frwHO;
         "fabric-1.21.1" = _QyGXgx4K;
         "fabric-1.21.2" = _N47frwHO;
@@ -31,10 +37,10 @@ let
         "fabric-1.21.8" = _N47frwHO;
         "fabric-1.21.9" = _TfJzLmko;
         "fabric-1.21.10" = _TfJzLmko;
-        "fabric-1.21.11" = _TfJzLmko;
-        "pkg-1.0.0" = _QyGXgx4K;
+        "fabric-1.21.11" = _jcc3YHsJ;
+        "pkg-1.0.0" = _jcc3YHsJ;
         "pkg-1.0.0+mc1.21.9-1.21.11" = _TfJzLmko;
-        "default" = _QyGXgx4K;
+        "default" = _jcc3YHsJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "swap-helper";

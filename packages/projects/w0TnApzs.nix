@@ -1641,6 +1641,11 @@ let
             "file" = "Faithful 32x - 26.2.zip";
             "hash" = "sha512-5rvZ+IH2seRAcPHytsksFTs4VZTM8Oale8OF6cwfr9PPZuQ68oxGjtulc4glWQTDW/w4uCxq6gTCurGlOEOpGQ==";
         };
+        _lDYpMiqk = {
+            "id" = "lDYpMiqk";
+            "file" = "Faithful 32x - 26.3.zip";
+            "hash" = "sha512-6Q7GOvfyOdu5mqIMmLI9gw52iY9l0+MbfwtTuzbbEtzYw41pMMdDI3ycPbe/cIQj+h0bL9SX3WwoHb4ha3eduQ==";
+        };
     in {
         "ARNa62jf" = _ARNa62jf;
         "TGvvgsCN" = _TGvvgsCN;
@@ -1970,6 +1975,7 @@ let
         "WpkfQiw9" = _WpkfQiw9;
         "Fj5GKJnf" = _Fj5GKJnf;
         "jtTqgLTy" = _jtTqgLTy;
+        "lDYpMiqk" = _lDYpMiqk;
         "minecraft-b1.7.3" = _QiFVD4oL;
         "minecraft-1.4.6" = _Nam71rBo;
         "minecraft-1.6.4" = _M6oLfxtD;
@@ -2079,6 +2085,7 @@ let
         "minecraft-26.1.1" = _Fj5GKJnf;
         "minecraft-26.1.2" = _Fj5GKJnf;
         "minecraft-26.2" = _jtTqgLTy;
+        "minecraft-26.3" = _lDYpMiqk;
         "pkg-b1.7.3-august-2022" = _ARNa62jf;
         "pkg-1.4.6-august-2022" = _TGvvgsCN;
         "pkg-1.6.4-august-2022" = _7sREUzZm;
@@ -2406,7 +2413,8 @@ let
         "pkg-1.21.11-june-2026" = _WpkfQiw9;
         "pkg-26.1-june-2026" = _Fj5GKJnf;
         "pkg-26.2-june-2026" = _jtTqgLTy;
-        "default" = _jtTqgLTy;
+        "pkg-26.3-september-2026" = _lDYpMiqk;
+        "default" = _lDYpMiqk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "faithful-32x";

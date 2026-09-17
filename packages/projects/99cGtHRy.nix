@@ -71,6 +71,16 @@ let
             "file" = "EclipseUI-fabric-1.0.5-fabric-26.3-snapshot-8.jar";
             "hash" = "sha512-B1gAE1HQLabqvKE/pJ6/yatlSxFxgYYC8dKPIXgW66oGbgl5dq3ywNuH72jgHr5hnRmZKJPQRbLv1b3qAFBYjA==";
         };
+        _OzaItfKs = {
+            "id" = "OzaItfKs";
+            "file" = "EclipseUI-fabric-1.0.5-fabric-26.3.jar";
+            "hash" = "sha512-jvUl/E07ZShn2rIhjgvEMcUGzYaqsD2vc66ioZA0DUdFjAU9HoHjXkuIX/JVRDAn1cMhOBYG2XTShaXK2ttZwA==";
+        };
+        _RtDdeIM5 = {
+            "id" = "RtDdeIM5";
+            "file" = "EclipseUI-neoforge-1.0.5-neoforge-26.3.jar";
+            "hash" = "sha512-941jxjk7uh3f9Q1glZAYYfu4MF7tMO71RTDw4BJNpfVAbEdPetb0vCh26Bo5DxSLqVfLxxtp+TNSIRbsvLdU7A==";
+        };
     in {
         "KUUodpwz" = _KUUodpwz;
         "TxmPArZV" = _TxmPArZV;
@@ -86,6 +96,8 @@ let
         "qXA4HN0X" = _qXA4HN0X;
         "UknupNrO" = _UknupNrO;
         "qMqhOSML" = _qMqhOSML;
+        "OzaItfKs" = _OzaItfKs;
+        "RtDdeIM5" = _RtDdeIM5;
         "fabric-1.21.11" = _KUUodpwz;
         "fabric-26.1" = _gh05XE4Y;
         "fabric-26.1.1" = _gh05XE4Y;
@@ -101,12 +113,14 @@ let
         "fabric-26.3-snapshot-1" = _UknupNrO;
         "fabric-26.3-snapshot-2" = _UknupNrO;
         "fabric-26.3-snapshot-8" = _qMqhOSML;
+        "fabric-26.3" = _OzaItfKs;
         "neoforge-1.21.11" = _TxmPArZV;
         "neoforge-26.1" = _BnyvBfTX;
         "neoforge-26.1.1" = _BnyvBfTX;
         "neoforge-26.1.2" = _BnyvBfTX;
         "neoforge-26.2-rc-2" = _qXA4HN0X;
         "neoforge-26.2" = _qXA4HN0X;
+        "neoforge-26.3" = _RtDdeIM5;
         "pkg-1.0.0+mc1.21.11" = _TxmPArZV;
         "pkg-1.0.2+mc26.1" = _bkG3agjr;
         "pkg-1.0.3+mc26.1" = _70DOl5Fa;
@@ -116,7 +130,9 @@ let
         "pkg-1.0.5+mc26.2-rc-2" = _qXA4HN0X;
         "pkg-1.0.5+mc26.3-snapshot-1-fabric" = _UknupNrO;
         "pkg-1.0.5+mc26.3-snapshot-8-fabric" = _qMqhOSML;
-        "default" = _qMqhOSML;
+        "pkg-1.0.5+mc26.3-fabric" = _OzaItfKs;
+        "pkg-1.0.5+mc26.3-neoforge" = _RtDdeIM5;
+        "default" = _RtDdeIM5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eclipseui";

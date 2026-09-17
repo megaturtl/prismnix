@@ -21,11 +21,17 @@ let
             "file" = "client-side-give-1.0.2.jar";
             "hash" = "sha512-v3Q0btOrz9NUBhRIjBTSk3VHVUpcfYyuBk5AVTdVXaVGZMThRnHvw/sf9NPqs37s2dZKLbjj92OAtXgvmV9gLw==";
         };
+        _QSvYJc38 = {
+            "id" = "QSvYJc38";
+            "file" = "client-side-give-1.0.3.jar";
+            "hash" = "sha512-nfuz721XiFRnZKxTx8O6HV2QReuLTJipCpUCVt6JMCpGUjykGi9gX8X+EoNZaa8c21rFeXeK78Bc7oG0ll2FfA==";
+        };
     in {
         "eEmGFP2f" = _eEmGFP2f;
         "ElNogMMl" = _ElNogMMl;
         "VP6QA7eM" = _VP6QA7eM;
         "TLseNMGd" = _TLseNMGd;
+        "QSvYJc38" = _QSvYJc38;
         "fabric-1.21.4" = _eEmGFP2f;
         "fabric-1.21.5" = _VP6QA7eM;
         "fabric-1.21.6" = _VP6QA7eM;
@@ -38,10 +44,12 @@ let
         "fabric-26.1.1" = _TLseNMGd;
         "fabric-26.1.2" = _TLseNMGd;
         "fabric-26.2" = _TLseNMGd;
+        "fabric-26.3" = _QSvYJc38;
         "pkg-1.0.0" = _ElNogMMl;
         "pkg-1.0.1" = _VP6QA7eM;
         "pkg-1.0.2" = _TLseNMGd;
-        "default" = _TLseNMGd;
+        "pkg-1.0.3" = _QSvYJc38;
+        "default" = _QSvYJc38;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "client-side-give";

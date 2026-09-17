@@ -346,6 +346,16 @@ let
             "file" = "Veinmine-fabric-26.3-snapshot-9-1.4.2-beta.1.jar";
             "hash" = "sha512-bdE01pGjdzlNOz8m+iYItjcvXz3gb958a9K5nOWmvvPBpvf+lnRggrUa0kODwrrARwgZAnzBLtUrLpBwfzm6Pw==";
         };
+        _wvI1Ettg = {
+            "id" = "wvI1Ettg";
+            "file" = "Veinmine-fabric-26.3-1.4.2.jar";
+            "hash" = "sha512-aflJdLLVDuHKKFso7WcyPwtK48gWCENKpeeZ1iSlI4YQb9WDfppZyVLZ3kjMvlDg2zuEqaf0/mJuWFcCulXXrA==";
+        };
+        _WUovpiKP = {
+            "id" = "WUovpiKP";
+            "file" = "Veinmine-neoforge-26.3-1.4.2.jar";
+            "hash" = "sha512-oEu/JmOB91PvWtzfxovTgyMGdsX9emgquiz9OL7eozZuX6h9Irp8XgabNeeI5pYlO2DNG0G77uFpMHeBBalidw==";
+        };
     in {
         "2tvryleG" = _2tvryleG;
         "xz192nbO" = _xz192nbO;
@@ -416,6 +426,8 @@ let
         "KDtEuq8g" = _KDtEuq8g;
         "JHZ1ry2q" = _JHZ1ry2q;
         "VGKKRWnA" = _VGKKRWnA;
+        "wvI1Ettg" = _wvI1Ettg;
+        "WUovpiKP" = _WUovpiKP;
         "fabric-1.21.4" = _mzEL5YZ0;
         "fabric-1.21.5" = _kVLh0GKg;
         "fabric-1.21.6" = _gGW7eTCp;
@@ -440,6 +452,7 @@ let
         "fabric-26.2-rc-2" = _2rin0usl;
         "fabric-26.2" = _JHZ1ry2q;
         "fabric-26.3-snapshot-9" = _VGKKRWnA;
+        "fabric-26.3" = _wvI1Ettg;
         "neoforge-26.1-snapshot-2" = _9EvBfX23;
         "neoforge-26.1-snapshot-6" = _s1R2jVEw;
         "neoforge-26.1-snapshot-11" = _7NnzbCZs;
@@ -449,6 +462,7 @@ let
         "neoforge-26.1.1" = _tBJGZKwE;
         "neoforge-26.1.2" = _6twXW931;
         "neoforge-26.2" = _JHZ1ry2q;
+        "neoforge-26.3" = _WUovpiKP;
         "pkg-1.0.2" = _2tvryleG;
         "pkg-1.0.3" = _xz192nbO;
         "pkg-1.1.0-beta" = _TVjQlM6W;
@@ -490,7 +504,8 @@ let
         "pkg-1.4.1" = _KDtEuq8g;
         "pkg-1.4.1-universal" = _JHZ1ry2q;
         "pkg-1.4.2-beta.1" = _VGKKRWnA;
-        "default" = _VGKKRWnA;
+        "pkg-1.4.2" = _WUovpiKP;
+        "default" = _WUovpiKP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "veinmine";

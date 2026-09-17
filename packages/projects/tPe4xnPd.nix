@@ -451,6 +451,21 @@ let
             "file" = "formations-1.0.4-neoforge-mc26.2.jar";
             "hash" = "sha512-3+b+QOUSTb36YkIzjV0QlF86NksrdLznc+Fkv4xsibv5WaaPK8g+OtHHrvVNtHXydsE6zZwbnVw0tjBgVAj3Xw==";
         };
+        _A7R4W42g = {
+            "id" = "A7R4W42g";
+            "file" = "formations-1.0.4a-neoforge-mc26.2.jar";
+            "hash" = "sha512-pW+X+Ny8TLvkatg74eF9oiiSF8HBaCSTdjRhRVqiyJftKre6yzvE6OFI+Qsx5aX7R3ttOomNu1fuQnwDD1LalQ==";
+        };
+        _Ci7Ii1nY = {
+            "id" = "Ci7Ii1nY";
+            "file" = "formations-1.0.4-fabric-mc26.3.jar";
+            "hash" = "sha512-lnXa6zYXSyAQQ1nrzFEz6K/lMSaWFzGCBadaOAnlt3D3Yp/TdYyfXoe0w29tfvPcw9Io0bMtfK4s5z5NWes4lg==";
+        };
+        _WVoUF8Uf = {
+            "id" = "WVoUF8Uf";
+            "file" = "formations-1.0.4-neoforge-mc26.3.jar";
+            "hash" = "sha512-T6BqnvUHlSgKSFYiWrMtgzY1ZSma8fCJw3IGmPEjDXXVzjzG9uHHTF5mqjFmkf10J2KytEsEfSUoFZsBaBKBpw==";
+        };
     in {
         "OU8EgFIL" = _OU8EgFIL;
         "rtujuEvM" = _rtujuEvM;
@@ -542,6 +557,9 @@ let
         "J2pVaK4x" = _J2pVaK4x;
         "BvfBi9ek" = _BvfBi9ek;
         "wWYmU9HP" = _wWYmU9HP;
+        "A7R4W42g" = _A7R4W42g;
+        "Ci7Ii1nY" = _Ci7Ii1nY;
+        "WVoUF8Uf" = _WVoUF8Uf;
         "fabric-1.20" = _FbtyN8OC;
         "fabric-1.20.1" = _FbtyN8OC;
         "fabric-1.20.2" = _FbtyN8OC;
@@ -567,6 +585,7 @@ let
         "fabric-26.1.1" = _Pix8JGot;
         "fabric-26.1.2" = _Pix8JGot;
         "fabric-26.2" = _BvfBi9ek;
+        "fabric-26.3" = _Ci7Ii1nY;
         "quilt-1.20" = _FbtyN8OC;
         "quilt-1.20.1" = _FbtyN8OC;
         "quilt-1.20.2" = _FbtyN8OC;
@@ -592,6 +611,7 @@ let
         "quilt-26.1.1" = _Pix8JGot;
         "quilt-26.1.2" = _Pix8JGot;
         "quilt-26.2" = _BvfBi9ek;
+        "quilt-26.3" = _Ci7Ii1nY;
         "forge-1.20" = _5zgQmLP4;
         "forge-1.20.1" = _5zgQmLP4;
         "forge-1.20.2" = _5zgQmLP4;
@@ -641,7 +661,8 @@ let
         "neoforge-26.1" = _YPZjwtsk;
         "neoforge-26.1.1" = _YPZjwtsk;
         "neoforge-26.1.2" = _YPZjwtsk;
-        "neoforge-26.2" = _wWYmU9HP;
+        "neoforge-26.2" = _A7R4W42g;
+        "neoforge-26.3" = _WVoUF8Uf;
         "pkg-1.0.0-fabric-mc1.20" = _OU8EgFIL;
         "pkg-1.0.0-forge-mc1.20" = _rtujuEvM;
         "pkg-1.0.0a-fabric-mc1.20" = _Ea5TnA6Z;
@@ -732,7 +753,10 @@ let
         "pkg-1.0.4-forge-mc26.2" = _J2pVaK4x;
         "pkg-1.0.4-fabric-mc26.2" = _BvfBi9ek;
         "pkg-1.0.4-neoforge-mc26.2" = _wWYmU9HP;
-        "default" = _wWYmU9HP;
+        "pkg-1.0.4a-neoforge-mc26.2" = _A7R4W42g;
+        "pkg-1.0.4-fabric-mc26.3" = _Ci7Ii1nY;
+        "pkg-1.0.4-neoforge-mc26.3" = _WVoUF8Uf;
+        "default" = _WVoUF8Uf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "formations";

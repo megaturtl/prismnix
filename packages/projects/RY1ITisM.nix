@@ -181,6 +181,16 @@ let
             "file" = "elementalenchantments-2.8.0.jar";
             "hash" = "sha512-WC2I2LE513uRad5UVYFq5wvEcir95PpTMOEvF+IIYIi16ZxW6ILqodcU44UTHp8PWZB3g/FllemN1P+vpqJBbw==";
         };
+        _3dgRjt1s = {
+            "id" = "3dgRjt1s";
+            "file" = "elementalenchantments-2.8.1.jar";
+            "hash" = "sha512-kFB1zJhnXpe3A8PJaTpdcYHFXSbVW6zQ4irkqQvc7PqiZiAyPYXIwBrzjx9jSNPPs9dX957hkpEhzYbKhfI+Fw==";
+        };
+        _53NCD4A4 = {
+            "id" = "53NCD4A4";
+            "file" = "elementalenchantments-2.9.0.jar";
+            "hash" = "sha512-S84LqghrLduOBMbSjV5szslz8Bxr7M5YLvfaLd/djfZZAkzALfG3+8Gb1W4hvX5A32BY9Tt8pcn7KqIo/oLhUw==";
+        };
     in {
         "7IoBYIrp" = _7IoBYIrp;
         "qSO8XSlq" = _qSO8XSlq;
@@ -218,6 +228,8 @@ let
         "1oN2pA9X" = _1oN2pA9X;
         "fgIJPBy0" = _fgIJPBy0;
         "jgCISrKr" = _jgCISrKr;
+        "3dgRjt1s" = _3dgRjt1s;
+        "53NCD4A4" = _53NCD4A4;
         "fabric-1.18" = _7IoBYIrp;
         "fabric-1.18.1" = _7IoBYIrp;
         "fabric-1.18.2" = _7IoBYIrp;
@@ -243,10 +255,11 @@ let
         "fabric-1.21.9" = _b69QIPOS;
         "fabric-1.21.10" = _fgIJPBy0;
         "fabric-1.21.11" = _fgIJPBy0;
-        "fabric-26.1" = _jgCISrKr;
-        "fabric-26.1.1" = _jgCISrKr;
-        "fabric-26.1.2" = _jgCISrKr;
-        "fabric-26.2" = _jgCISrKr;
+        "fabric-26.1" = _3dgRjt1s;
+        "fabric-26.1.1" = _3dgRjt1s;
+        "fabric-26.1.2" = _3dgRjt1s;
+        "fabric-26.2" = _3dgRjt1s;
+        "fabric-26.3" = _53NCD4A4;
         "quilt-1.18" = _7IoBYIrp;
         "quilt-1.18.1" = _7IoBYIrp;
         "quilt-1.18.2" = _7IoBYIrp;
@@ -272,10 +285,11 @@ let
         "quilt-1.21.9" = _b69QIPOS;
         "quilt-1.21.10" = _fgIJPBy0;
         "quilt-1.21.11" = _fgIJPBy0;
-        "quilt-26.1" = _jgCISrKr;
-        "quilt-26.1.1" = _jgCISrKr;
-        "quilt-26.1.2" = _jgCISrKr;
-        "quilt-26.2" = _jgCISrKr;
+        "quilt-26.1" = _3dgRjt1s;
+        "quilt-26.1.1" = _3dgRjt1s;
+        "quilt-26.1.2" = _3dgRjt1s;
+        "quilt-26.2" = _3dgRjt1s;
+        "quilt-26.3" = _53NCD4A4;
         "pkg-1.18+1.0" = _7IoBYIrp;
         "pkg-1.19+1.0" = _qSO8XSlq;
         "pkg-1.20+1.0" = _N8he3DUd;
@@ -312,7 +326,9 @@ let
         "pkg-1.21.5+2.6.0" = _1oN2pA9X;
         "pkg-1.21.10+2.7.0" = _fgIJPBy0;
         "pkg-26.1+2.8.0" = _jgCISrKr;
-        "default" = _jgCISrKr;
+        "pkg-26.1+2.8.1" = _3dgRjt1s;
+        "pkg-26.3+2.9.0" = _53NCD4A4;
+        "default" = _53NCD4A4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elemental-enchantments";

@@ -181,6 +181,21 @@ let
             "file" = "mobflowutilities-3.1.10.7-mc-1.21.1.jar";
             "hash" = "sha512-jFeQQ7wZyO7JqhaQ7U2zhUox0Fo7Ik2pfTRZXcbRJyYdu6yCluMjmSk3/eU+6G6rRIyq4WeKTqLhYJkuEPn+4Q==";
         };
+        _NqB5mseT = {
+            "id" = "NqB5mseT";
+            "file" = "mobflowutilities-3.1.10.8-mc-1.21.1.jar";
+            "hash" = "sha512-3WFIQS9YUqW19ygCcsT+9sovLioRQG92rUgeZbkDbuBua20NdBAketpRdG8sSrLmuHeFKMFZDthd5pXZPoGv0g==";
+        };
+        _H01gWEkg = {
+            "id" = "H01gWEkg";
+            "file" = "mobflowutilities-3.2.1.8-mc-26.1.2.jar";
+            "hash" = "sha512-0HWwcik0R6yK447AUZr8I24aH5OnCOfsGleVKnCuQjeI9Z2iyuXVnKVgUpVYPGzUwQkEdJYVqgzfdbyaYY6SPA==";
+        };
+        _MmxAQDo0 = {
+            "id" = "MmxAQDo0";
+            "file" = "mobflowutilities-3.3.0.4-mc-26.2.jar";
+            "hash" = "sha512-lYCRIHQVlVWc0ghvqN3IdkYzOG+jeer6apYdKUlPkH0vjeGb0O3XaOmJ8gb7bZOigVCL8peNzgO6saC+XoRI4w==";
+        };
     in {
         "gIByql8f" = _gIByql8f;
         "jlESWTHY" = _jlESWTHY;
@@ -218,9 +233,12 @@ let
         "1Hx8xzn0" = _1Hx8xzn0;
         "vBoGcbNK" = _vBoGcbNK;
         "70UxWEW0" = _70UxWEW0;
-        "neoforge-1.21.1" = _70UxWEW0;
-        "neoforge-26.1.2" = _1Hx8xzn0;
-        "neoforge-26.2" = _vBoGcbNK;
+        "NqB5mseT" = _NqB5mseT;
+        "H01gWEkg" = _H01gWEkg;
+        "MmxAQDo0" = _MmxAQDo0;
+        "neoforge-1.21.1" = _NqB5mseT;
+        "neoforge-26.1.2" = _H01gWEkg;
+        "neoforge-26.2" = _MmxAQDo0;
         "pkg-1.0.0" = _gIByql8f;
         "pkg-1.0.1" = _jlESWTHY;
         "pkg-1.0.2" = _8bpkRd27;
@@ -257,7 +275,10 @@ let
         "pkg-3.2.1.6-mc-26.1.2" = _1Hx8xzn0;
         "pkg-3.3.0.2-mc-26.2" = _vBoGcbNK;
         "pkg-3.1.10.7-mc-1.21.1" = _70UxWEW0;
-        "default" = _70UxWEW0;
+        "pkg-3.1.10.8-mc-1.21.1" = _NqB5mseT;
+        "pkg-3.2.1.8-mc-26.1.2" = _H01gWEkg;
+        "pkg-3.3.0.4-mc-26.2" = _MmxAQDo0;
+        "default" = _MmxAQDo0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mob-flow-utilities";

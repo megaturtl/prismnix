@@ -81,6 +81,11 @@ let
             "file" = "§eClassic Ores 26.2.zip";
             "hash" = "sha512-5tftiEczK65eVf15FmxeFhehqcqTrZELFp/D/Ste1DKXfz3OnsZUpK5SrOgJRBzqACFNChVxtDbDhauVaMH7aw==";
         };
+        _rGJiSAg4 = {
+            "id" = "rGJiSAg4";
+            "file" = "§eClassic Ores 26.3.zip";
+            "hash" = "sha512-RYiphT0r4m2P7wusp0SztFksAQRHJbB7pSXQGTUFTwe+qNE85odyOURInI4PpHLlUJngjBaTVozG8nZwwIl0Vw==";
+        };
     in {
         "uxK42S8d" = _uxK42S8d;
         "Qrsul7Q6" = _Qrsul7Q6;
@@ -98,6 +103,7 @@ let
         "D3JTIub8" = _D3JTIub8;
         "g2eusgC6" = _g2eusgC6;
         "bQxzam3Y" = _bQxzam3Y;
+        "rGJiSAg4" = _rGJiSAg4;
         "minecraft-1.17" = _uxK42S8d;
         "minecraft-1.17.1" = _uxK42S8d;
         "minecraft-1.18" = _Qrsul7Q6;
@@ -126,6 +132,7 @@ let
         "minecraft-26.1.1" = _g2eusgC6;
         "minecraft-26.1.2" = _g2eusgC6;
         "minecraft-26.2" = _bQxzam3Y;
+        "minecraft-26.3" = _rGJiSAg4;
         "pkg-1.17" = _uxK42S8d;
         "pkg-1.18" = _Qrsul7Q6;
         "pkg-1.19" = _C4Tm50oZ;
@@ -142,7 +149,8 @@ let
         "pkg-1.21.11" = _D3JTIub8;
         "pkg-26.1" = _g2eusgC6;
         "pkg-26.2" = _bQxzam3Y;
-        "default" = _bQxzam3Y;
+        "pkg-26.3" = _rGJiSAg4;
+        "default" = _rGJiSAg4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "classic-ores";

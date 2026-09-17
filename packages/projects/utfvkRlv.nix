@@ -271,6 +271,21 @@ let
             "file" = "ArmoredArms-v1.5.3-1.12.2-release.jar";
             "hash" = "sha512-Q5YV/b/eTeghC1ilIw2LntTYS/FnJk8Vc0wYr9enWxb0InfuyYe0EnqtgpwKM2I1sR/cFwJt5D7bqYkJHgoWXg==";
         };
+        _8VYH9ww6 = {
+            "id" = "8VYH9ww6";
+            "file" = "ArmoredArms-v1.5.4-1.12.2-release.jar";
+            "hash" = "sha512-t2uA17OT9AahW/mSkSMcyEdtEStXRUwRp7bQmQs9bdI0IZK0RbQ/K1TGoUF9FJ8U9YKTHbXHDd9B8LfFZEa4LA==";
+        };
+        _C5vY6pFe = {
+            "id" = "C5vY6pFe";
+            "file" = "ArmoredArms-v1.3.9-1.7.10-release.jar";
+            "hash" = "sha512-SNq6QRRknaxtAuFpv0LN+iFYqnFu19vAKFqndHHpFDC9dDYBnaSgbR08cJ+pymXvKs1RAkjJQ9/ZZE1Tm+QIRg==";
+        };
+        _MGDmPUcZ = {
+            "id" = "MGDmPUcZ";
+            "file" = "ArmoredArms-v1.2.2-1.20.1-f+neof-release.jar";
+            "hash" = "sha512-05jPH3m8Pbsm78fcbNTuhbEesPNSmu/u/9sZs13hnN+8UTPbwXy7pDEwoDcnFmBRmlhWEqi0EpzrXLeqPalb2A==";
+        };
     in {
         "IVHlEvti" = _IVHlEvti;
         "lLtPAKy3" = _lLtPAKy3;
@@ -326,10 +341,13 @@ let
         "hyuQM2Um" = _hyuQM2Um;
         "adMBpJp7" = _adMBpJp7;
         "3udK1vPb" = _3udK1vPb;
-        "forge-1.12.2" = _3udK1vPb;
-        "forge-1.7.10" = _hyuQM2Um;
-        "forge-1.20.1" = _UVmBeXwB;
-        "neoforge-1.20.1" = _UVmBeXwB;
+        "8VYH9ww6" = _8VYH9ww6;
+        "C5vY6pFe" = _C5vY6pFe;
+        "MGDmPUcZ" = _MGDmPUcZ;
+        "forge-1.12.2" = _8VYH9ww6;
+        "forge-1.7.10" = _C5vY6pFe;
+        "forge-1.20.1" = _MGDmPUcZ;
+        "neoforge-1.20.1" = _MGDmPUcZ;
         "pkg-v1.2.0-release" = _IVHlEvti;
         "pkg-v1.2.1-release" = _lLtPAKy3;
         "pkg-v1.2.2-release" = _vEHSJNda;
@@ -384,7 +402,10 @@ let
         "pkg-v1.3.8-1.7.10-release" = _hyuQM2Um;
         "pkg-v1.5.2-1.12.2-release" = _adMBpJp7;
         "pkg-v1.5.3-1.12.2-release" = _3udK1vPb;
-        "default" = _3udK1vPb;
+        "pkg-v1.5.4-1.12.2-release" = _8VYH9ww6;
+        "pkg-v1.3.9-1.7.10-release" = _C5vY6pFe;
+        "pkg-v1.2.2-1.20.1-f+neof-release" = _MGDmPUcZ;
+        "default" = _MGDmPUcZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armored-arms";

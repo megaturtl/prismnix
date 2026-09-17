@@ -1101,6 +1101,21 @@ let
             "file" = "commandkeys-neoforge-3.103.1+26.2.jar";
             "hash" = "sha512-nrqUo4wQKNti7bZWwR2KJ+7UUWoiZjggcPZQRmY8uj8MGRIwHo6BsPXY3dGFs5tGdyjjFPPU/9Bj8F8njlgZaA==";
         };
+        _avXFKdmr = {
+            "id" = "avXFKdmr";
+            "file" = "commandkeys-fabric-3.104.0-beta.1+26.3-rc-2.jar";
+            "hash" = "sha512-N5u4mcxs8+SC3jX/LrioAud7UiJ6/Wttu0Ab61q/OOPcc8ME4qRCtN/6l5PnzSH3TUULl7DPz5g8LeoRvZJ7OQ==";
+        };
+        _Z2Y1lVPy = {
+            "id" = "Z2Y1lVPy";
+            "file" = "commandkeys-neoforge-3.104.0+26.3.jar";
+            "hash" = "sha512-QMuOQo7yPIrcW+OzQdpK59ndyQgZK0i1aXF3dtIBXJ0CLQsJC0h9CMv4WT06iKYvVbmxzdUqG+2W8emjaBfjGA==";
+        };
+        _D2aoVoRh = {
+            "id" = "D2aoVoRh";
+            "file" = "commandkeys-fabric-3.104.0+26.3.jar";
+            "hash" = "sha512-OYX9N0WLZCjnaSXwCc8THVD6JhnNvK4o0pjKa/Zxst7H+uw8kqh+G+bkP68wvrmpVTauLmZAJ1mrzStsSTx2oQ==";
+        };
     in {
         "ZP8TffDN" = _ZP8TffDN;
         "jcAyUJzB" = _jcAyUJzB;
@@ -1322,6 +1337,9 @@ let
         "FZA80Lan" = _FZA80Lan;
         "XU8p8uSk" = _XU8p8uSk;
         "h80de0Sd" = _h80de0Sd;
+        "avXFKdmr" = _avXFKdmr;
+        "Z2Y1lVPy" = _Z2Y1lVPy;
+        "D2aoVoRh" = _D2aoVoRh;
         "fabric-1.19.3" = _ZP8TffDN;
         "fabric-1.19.4" = _jcAyUJzB;
         "fabric-1.20" = _Stbv4d97;
@@ -1354,6 +1372,9 @@ let
         "fabric-26.2-rc-1" = _DKeAmMOa;
         "fabric-26.2-rc-2" = _DKeAmMOa;
         "fabric-26.2" = _XU8p8uSk;
+        "fabric-26.3-rc-2" = _avXFKdmr;
+        "fabric-26.3-rc-3" = _avXFKdmr;
+        "fabric-26.3" = _D2aoVoRh;
         "quilt-1.20" = _XtEGQ7pY;
         "quilt-1.20.1" = _XtEGQ7pY;
         "quilt-1.20.2" = _hzJeIlSk;
@@ -1389,6 +1410,7 @@ let
         "neoforge-26.1.1" = _HR188b4M;
         "neoforge-26.1.2" = _HR188b4M;
         "neoforge-26.2" = _h80de0Sd;
+        "neoforge-26.3" = _Z2Y1lVPy;
         "pkg-1.0.1+mc1.19.3" = _ZP8TffDN;
         "pkg-1.0.1+mc1.19.4" = _jcAyUJzB;
         "pkg-1.1.0-beta.01" = _EYFLcITi;
@@ -1482,7 +1504,9 @@ let
         "pkg-3.103.0+26.2" = _RDzh5vcz;
         "pkg-3.102.4+26.1.2" = _FZA80Lan;
         "pkg-3.103.1+26.2" = _h80de0Sd;
-        "default" = _h80de0Sd;
+        "pkg-3.104.0-beta.1+26.3-rc-2" = _avXFKdmr;
+        "pkg-3.104.0+26.3" = _D2aoVoRh;
+        "default" = _D2aoVoRh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "commandkeys";

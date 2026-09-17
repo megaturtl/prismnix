@@ -11,9 +11,15 @@ let
             "file" = "Anti Nightvision v2.zip";
             "hash" = "sha512-JmOmiJ3FqlRG4qtbW74pSQN72zC9SVseT58p5yQTf05TZS//z7xJE4yeQzOvBkJu85KU54K2UCpYacTf2mXxJQ==";
         };
+        _zsYlfdFi = {
+            "id" = "zsYlfdFi";
+            "file" = "Anti NightVision UPDATE.zip";
+            "hash" = "sha512-BkiP31UpMqhVfWq/EeJtsIq3KbbQPdmSEnTED5PJPPQDtFBmNseyPG7ESr3OCNT1rJLDtswCpp+SktGZPsdvQg==";
+        };
     in {
         "3rMPVks7" = _3rMPVks7;
         "LBbioKme" = _LBbioKme;
+        "zsYlfdFi" = _zsYlfdFi;
         "minecraft-1.17.1" = _LBbioKme;
         "minecraft-1.18" = _LBbioKme;
         "minecraft-1.18.1" = _LBbioKme;
@@ -33,9 +39,14 @@ let
         "minecraft-1.20.6" = _LBbioKme;
         "minecraft-1.21" = _LBbioKme;
         "minecraft-1.21.1" = _LBbioKme;
+        "minecraft-26.1" = _zsYlfdFi;
+        "minecraft-26.1.1" = _zsYlfdFi;
+        "minecraft-26.1.2" = _zsYlfdFi;
+        "minecraft-26.2" = _zsYlfdFi;
         "pkg-V1" = _3rMPVks7;
         "pkg-V2" = _LBbioKme;
-        "default" = _LBbioKme;
+        "pkg-2.0a" = _zsYlfdFi;
+        "default" = _zsYlfdFi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "anti-nightvision";

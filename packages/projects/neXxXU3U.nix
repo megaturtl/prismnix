@@ -1781,6 +1781,76 @@ let
             "file" = "HigherHeightsUltimate4064_26.2.jar";
             "hash" = "sha512-X5yTHlYfliQTg7Wo3xDdu3Ba8GraYZth4TRtG22NgC0G4bL5WzNCU5JQRhUp2bDj0lK54T2hvke/+hr1jVmvsw==";
         };
+        _LcRqIy2s = {
+            "id" = "LcRqIy2s";
+            "file" = "HigherHeightsUltimate512_26.3.zip";
+            "hash" = "sha512-DXxlI1R2cOyh7fCIXhUqSzeu3pAOCYhdH7D6PHp/jCjrpjLPS9GdsbzSD0F2JE3lqhKQlZjVwic33tgoEWh2/Q==";
+        };
+        _wifJ95vy = {
+            "id" = "wifJ95vy";
+            "file" = "HigherHeightsUltimate512+_26.3.zip";
+            "hash" = "sha512-VN1VqnL1oYAf2W3SaIP07H1FvQnSIbwwE0RZqCB5ZOKPMsORCIci5DwUHF89eUqVpiNe8WFdi4sI+BsjiJ48vA==";
+        };
+        _jXg1JShg = {
+            "id" = "jXg1JShg";
+            "file" = "HigherHeightsUltimate1024_26.3.zip";
+            "hash" = "sha512-P3++SzhKChv5MKP1KDKe4kZ9Ul/de1IT6mHVyGX4nNXBTYh0YWLew6aippx8me9SdP/0J542Ofmx9uOrvNvCPg==";
+        };
+        _9JKPNqS7 = {
+            "id" = "9JKPNqS7";
+            "file" = "HigherHeightsUltimate1024+_26.3.zip";
+            "hash" = "sha512-50riBlnQAcCSYGkEHR+UnS90s8ygWgi/2o0TtVYHA+3+Z90+RXcpZHbdkKkLEImqD3wn9s/gXlycE0aLhRmmWA==";
+        };
+        _fFF5mFnO = {
+            "id" = "fFF5mFnO";
+            "file" = "HigherHeightsUltimate2032_26.3.zip";
+            "hash" = "sha512-frzHtq6z0ahBEQG2P5RVScBuBLqxEBqLHb5i9Kd6w3bnQ8Gy+DbWglxhLB9dEp6acU85Y3bH00pWu6c8/yANmw==";
+        };
+        _2hL16TQM = {
+            "id" = "2hL16TQM";
+            "file" = "HigherHeightsUltimate2032+_26.3.zip";
+            "hash" = "sha512-VdJXKs9ZtT0DawHMBQxRnHFUfAzna1WJhefXNYoaSDOoivg7YiAf879UpwuiZ4GKIUbGp1XZX6R7chOh4h30iQ==";
+        };
+        _b4hOE2mV = {
+            "id" = "b4hOE2mV";
+            "file" = "HigherHeightsUltimate4064_26.3.zip";
+            "hash" = "sha512-K6V2gMe84pCmeYSFDQfE12NfPgXZ+Hc+sUFbZ9XItxa7FKE2nqHE/96Ojp+W8R6lweqJVnX8X9bmD73XtJZjqg==";
+        };
+        _fhEOlSsB = {
+            "id" = "fhEOlSsB";
+            "file" = "HigherHeightsUltimate512_26.3.jar";
+            "hash" = "sha512-8Mb0n7WpH4zMkXtmBME6j9NgnqThCfLcvEATBhIVJXFnZLg78i0Os7N4zWiHTvDd36j/CQnF919AFrLVyqoLFw==";
+        };
+        _rKtTgbRM = {
+            "id" = "rKtTgbRM";
+            "file" = "HigherHeightsUltimate512+_26.3.jar";
+            "hash" = "sha512-yzeSnh2IRpY0rP/6SbelhUdk3YtM+isFoSpUmRYV6s0YJyDh0oGNaFMz4lk6OE9HQmQOED/pcsdzJHUcwoh/Zg==";
+        };
+        _M9FGjEvn = {
+            "id" = "M9FGjEvn";
+            "file" = "HigherHeightsUltimate1024_26.3.jar";
+            "hash" = "sha512-bUobHC70FIpSmVKONdLCLrgUMvO21m7Z42DRuU/D9/9lYcR81fku2ydaIj1BJOT3sLnFy6kJtIt0ZzPy9AnRIQ==";
+        };
+        _KBpOIycO = {
+            "id" = "KBpOIycO";
+            "file" = "HigherHeightsUltimate1024+_26.3.jar";
+            "hash" = "sha512-vQO96soMdF9ipoxJ03YH1KgmKfj7+A/RlbPwp0Ge/RcwD2ZPkDoX6u/ZNix1242nM093TjYU8xSmAykj+hSr/A==";
+        };
+        _2Q344mkl = {
+            "id" = "2Q344mkl";
+            "file" = "HigherHeightsUltimate2032_26.3.jar";
+            "hash" = "sha512-Br4YuSdLa8gG78q/4lkth1lpeJekc/4SHKnHw9iyex4im0ZX4QRQhL3V1vJMeJqh7LrH9PbXf2CwF9756j9Xkw==";
+        };
+        _a9hNyMdi = {
+            "id" = "a9hNyMdi";
+            "file" = "HigherHeightsUltimate2032+_26.3.jar";
+            "hash" = "sha512-WlljF1d75raUfhF3fiSM1SFZq9ApqhM+EfT0uCq/ybfw6ODZju3O3r7D2MKgQLRfFbZDBp0BBVCYWVM50/77wA==";
+        };
+        _MQrdwH2o = {
+            "id" = "MQrdwH2o";
+            "file" = "HigherHeightsUltimate4064_26.3.jar";
+            "hash" = "sha512-/M7jW92yxieILWIZ+AnZ0FqQ1L7UW/ZXarW22dYjm4DJ7b7OnpSnf4LiSEAuhCOsPQjgkXLbYEhN2oIZyXBErQ==";
+        };
     in {
         "XeXWcRva" = _XeXWcRva;
         "GUzY1DwC" = _GUzY1DwC;
@@ -2138,6 +2208,20 @@ let
         "EMoAh7Qh" = _EMoAh7Qh;
         "mfhzSbWW" = _mfhzSbWW;
         "5BAr9VrL" = _5BAr9VrL;
+        "LcRqIy2s" = _LcRqIy2s;
+        "wifJ95vy" = _wifJ95vy;
+        "jXg1JShg" = _jXg1JShg;
+        "9JKPNqS7" = _9JKPNqS7;
+        "fFF5mFnO" = _fFF5mFnO;
+        "2hL16TQM" = _2hL16TQM;
+        "b4hOE2mV" = _b4hOE2mV;
+        "fhEOlSsB" = _fhEOlSsB;
+        "rKtTgbRM" = _rKtTgbRM;
+        "M9FGjEvn" = _M9FGjEvn;
+        "KBpOIycO" = _KBpOIycO;
+        "2Q344mkl" = _2Q344mkl;
+        "a9hNyMdi" = _a9hNyMdi;
+        "MQrdwH2o" = _MQrdwH2o;
         "datapack-1.18.2" = _wHlX8Tcq;
         "datapack-1.19" = _MI4XntCH;
         "datapack-1.19.1" = _MI4XntCH;
@@ -2171,6 +2255,7 @@ let
         "datapack-26.1.1" = _alKLotY8;
         "datapack-26.1.2" = _alKLotY8;
         "datapack-26.2" = _DFqjp0oA;
+        "datapack-26.3" = _b4hOE2mV;
         "fabric-1.17" = _qKBGucxS;
         "fabric-1.17.1" = _qKBGucxS;
         "fabric-1.18" = _g5cXq6oN;
@@ -2204,6 +2289,7 @@ let
         "fabric-26.1.1" = _1Dj5SGf1;
         "fabric-26.1.2" = _1Dj5SGf1;
         "fabric-26.2" = _5BAr9VrL;
+        "fabric-26.3" = _MQrdwH2o;
         "forge-1.17" = _qKBGucxS;
         "forge-1.17.1" = _qKBGucxS;
         "forge-1.18" = _g5cXq6oN;
@@ -2237,6 +2323,7 @@ let
         "forge-26.1.1" = _1Dj5SGf1;
         "forge-26.1.2" = _1Dj5SGf1;
         "forge-26.2" = _5BAr9VrL;
+        "forge-26.3" = _MQrdwH2o;
         "neoforge-1.17" = _qKBGucxS;
         "neoforge-1.17.1" = _qKBGucxS;
         "neoforge-1.18" = _g5cXq6oN;
@@ -2270,6 +2357,7 @@ let
         "neoforge-26.1.1" = _1Dj5SGf1;
         "neoforge-26.1.2" = _1Dj5SGf1;
         "neoforge-26.2" = _5BAr9VrL;
+        "neoforge-26.3" = _MQrdwH2o;
         "quilt-1.17" = _qKBGucxS;
         "quilt-1.17.1" = _qKBGucxS;
         "quilt-1.18" = _g5cXq6oN;
@@ -2303,6 +2391,7 @@ let
         "quilt-26.1.1" = _1Dj5SGf1;
         "quilt-26.1.2" = _1Dj5SGf1;
         "quilt-26.2" = _5BAr9VrL;
+        "quilt-26.3" = _MQrdwH2o;
         "pkg-4-4064" = _XeXWcRva;
         "pkg-4-2032" = _GUzY1DwC;
         "pkg-4-1024" = _ApEKmUKN;
@@ -2659,7 +2748,21 @@ let
         "pkg-Mod_U_2032_26.2" = _EMoAh7Qh;
         "pkg-Mod_U_2032+_26.2" = _mfhzSbWW;
         "pkg-Mod_U_4064_26.2" = _5BAr9VrL;
-        "default" = _5BAr9VrL;
+        "pkg-U_512_26.3" = _LcRqIy2s;
+        "pkg-U_512+_26.3" = _wifJ95vy;
+        "pkg-U_1024_26.3" = _jXg1JShg;
+        "pkg-U_1024+_26.3" = _9JKPNqS7;
+        "pkg-U_2032_26.3" = _fFF5mFnO;
+        "pkg-U_2032+_26.3" = _2hL16TQM;
+        "pkg-U_4064_26.3" = _b4hOE2mV;
+        "pkg-Mod_U_512_26.3" = _fhEOlSsB;
+        "pkg-Mod_U_512+_26.3" = _rKtTgbRM;
+        "pkg-Mod_U_1024_26.3" = _M9FGjEvn;
+        "pkg-Mod_U_1024+_26.3" = _KBpOIycO;
+        "pkg-Mod_U_2032_26.3" = _2Q344mkl;
+        "pkg-Mod_U_2032+_26.3" = _a9hNyMdi;
+        "pkg-Mod_U_4064_26.3" = _MQrdwH2o;
+        "default" = _MQrdwH2o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "higher-heights-datapack";

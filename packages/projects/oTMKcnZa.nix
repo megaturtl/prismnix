@@ -71,6 +71,11 @@ let
             "file" = "HalfLifeMenu3-mc1.20.1-3.2.1-backport2.jar";
             "hash" = "sha512-8v8QCaTAxW9AouYIEKRGNn6mOi383pwvNLBP9FiU2LdTQe66FTzBWcuWVS41nklx6U4XAaVZI6c8EbX7085LhA==";
         };
+        _LFGRevRa = {
+            "id" = "LFGRevRa";
+            "file" = "HalfLifeMenu3-mc26.3-3.3.0.jar";
+            "hash" = "sha512-+IR3MgjdwO9g8UuED5RF10MNXfp8UJnHz4c+iGbBpCQiEMX2/cKtXF+xxDfS6eE1bvCFOr6X4N+kLPZIWQlECA==";
+        };
     in {
         "aRYpkqtO" = _aRYpkqtO;
         "WQsHXUQi" = _WQsHXUQi;
@@ -86,6 +91,7 @@ let
         "fNMcQfcf" = _fNMcQfcf;
         "FEBfqBEE" = _FEBfqBEE;
         "Sie43twe" = _Sie43twe;
+        "LFGRevRa" = _LFGRevRa;
         "fabric-1.21" = _WQsHXUQi;
         "fabric-1.21.11" = _ZG9vyDAE;
         "fabric-26.1-snapshot-1" = _lLfd7LWj;
@@ -96,6 +102,7 @@ let
         "fabric-26.2" = _fNMcQfcf;
         "fabric-1.21.1" = _FEBfqBEE;
         "fabric-1.20.1" = _Sie43twe;
+        "fabric-26.3" = _LFGRevRa;
         "quilt-1.21.11" = _ZG9vyDAE;
         "quilt-26.1-snapshot-1" = _lLfd7LWj;
         "quilt-26.1" = _dH2qPvE0;
@@ -105,12 +112,14 @@ let
         "quilt-26.2" = _fNMcQfcf;
         "quilt-1.21.1" = _FEBfqBEE;
         "quilt-1.20.1" = _Sie43twe;
+        "quilt-26.3" = _LFGRevRa;
         "neoforge-26.1-snapshot-1" = _lLfd7LWj;
         "neoforge-26.1" = _dH2qPvE0;
         "neoforge-26.1.1" = _aOotcHGo;
         "neoforge-26w14a" = _AgB1sG3F;
         "neoforge-26.1.2" = _hYmPUvgE;
         "neoforge-26.2" = _fNMcQfcf;
+        "neoforge-26.3" = _LFGRevRa;
         "java-agent-1.21.1" = _VS6Uw4XD;
         "nilloader-1.21.1" = _VS6Uw4XD;
         "pkg-1.0" = _aRYpkqtO;
@@ -127,7 +136,8 @@ let
         "pkg-3.2.1" = _fNMcQfcf;
         "pkg-3.2.1-backport1" = _FEBfqBEE;
         "pkg-3.2.1-backport2" = _Sie43twe;
-        "default" = _Sie43twe;
+        "pkg-3.3.0" = _LFGRevRa;
+        "default" = _LFGRevRa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "halflifemenu";

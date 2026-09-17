@@ -46,6 +46,21 @@ let
             "file" = "invrestore-0.1.9.jar";
             "hash" = "sha512-PSKzbaTTr+KIxAY5OW1GKI1weIhoBURlpAEv4XaTm3pxKvGuhFYUvG83wOaoRwByGSFx7CxFhWCEbGkskrzrXw==";
         };
+        _kba5tq0V = {
+            "id" = "kba5tq0V";
+            "file" = "invrestore-0.2.0.jar";
+            "hash" = "sha512-GUw1SxoiJwqRS99kf73Gah1a79RutfuN9yhABb+qWuGdpvQfVq3WL5NX4OItNBM/zH1ARTBx2yxZiyZZbTayow==";
+        };
+        _LOJRW5m4 = {
+            "id" = "LOJRW5m4";
+            "file" = "invrestore-0.2.1.jar";
+            "hash" = "sha512-NJHQczKc9Y2F6eU8Un3O4JkBBKvvNG9HaxzCkmc8rKO2KwXDBnql4roj5vbiLtjIi3jFD5v97DQ/wsnGdr5TdA==";
+        };
+        _3JkGC72G = {
+            "id" = "3JkGC72G";
+            "file" = "invrestore-0.2.2.jar";
+            "hash" = "sha512-FDDdi0Ef28SAIt4OC0TbWdHIkA4lQlTxkS8VW1PbQL1A5kvfJX7AFWuxKOfBSMEjKtPKhvhxNDCW4/nCfre1FA==";
+        };
     in {
         "gFWcpPP7" = _gFWcpPP7;
         "ZiUuFH5f" = _ZiUuFH5f;
@@ -56,6 +71,9 @@ let
         "eYaSFBch" = _eYaSFBch;
         "BRYPx4OF" = _BRYPx4OF;
         "wUi3Z8fP" = _wUi3Z8fP;
+        "kba5tq0V" = _kba5tq0V;
+        "LOJRW5m4" = _LOJRW5m4;
+        "3JkGC72G" = _3JkGC72G;
         "fabric-1.21.3" = _ZiUuFH5f;
         "fabric-1.21.4" = _6DlOVzuY;
         "fabric-1.21.5" = _E1od7pej;
@@ -65,9 +83,11 @@ let
         "fabric-1.21.9" = _uv9vpIZo;
         "fabric-1.21.10" = _uv9vpIZo;
         "fabric-1.21.11" = _BRYPx4OF;
-        "fabric-26.1" = _wUi3Z8fP;
-        "fabric-26.1.1" = _wUi3Z8fP;
-        "fabric-26.1.2" = _wUi3Z8fP;
+        "fabric-26.1" = _kba5tq0V;
+        "fabric-26.1.1" = _kba5tq0V;
+        "fabric-26.1.2" = _kba5tq0V;
+        "fabric-26.2" = _LOJRW5m4;
+        "fabric-26.3" = _3JkGC72G;
         "pkg-0.1.0" = _gFWcpPP7;
         "pkg-0.1.1" = _ZiUuFH5f;
         "pkg-0.1.2" = _6DlOVzuY;
@@ -77,7 +97,10 @@ let
         "pkg-0.1.7" = _eYaSFBch;
         "pkg-0.1.8" = _BRYPx4OF;
         "pkg-0.1.9" = _wUi3Z8fP;
-        "default" = _wUi3Z8fP;
+        "pkg-0.2.0" = _kba5tq0V;
+        "pkg-0.2.1" = _LOJRW5m4;
+        "pkg-0.2.2" = _3JkGC72G;
+        "default" = _3JkGC72G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "inv-restore";

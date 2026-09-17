@@ -2201,6 +2201,16 @@ let
             "file" = "uncrafteverything-fabric-26.2-26.2.0.1.jar";
             "hash" = "sha512-y9RQ8Z6/a7oDbXJky3u7hxACBaN4lprhy+5NXABDIMDGhArCZn3v9KhzUaG2OWCvUGFyheXQfXgKy/HaDDbBWw==";
         };
+        _ONkPl017 = {
+            "id" = "ONkPl017";
+            "file" = "uncrafteverything-neoforge-26.3-26.3.0.0.jar";
+            "hash" = "sha512-qcVqY6qoB1SGkWOgaNLZgwH6PJQuwwNK31eEcsoDE2h2WbMFKx2KGg+qewBN2Jk3byNOtIpHWx6AfYgQezUwXQ==";
+        };
+        _qNfOqv5f = {
+            "id" = "qNfOqv5f";
+            "file" = "uncrafteverything-fabric-26.3-26.3.0.0.jar";
+            "hash" = "sha512-huM1HoCcJQMZyRMyNj4AXsu3dHDNoxc3aNrK2tCS58KK0rvkiioWXj5YvdEFTuu4HDrvBSGuvCVCqf8qRL4b+g==";
+        };
     in {
         "tkRHfMw9" = _tkRHfMw9;
         "pZZaAZvN" = _pZZaAZvN;
@@ -2642,6 +2652,8 @@ let
         "6UGVeVzc" = _6UGVeVzc;
         "Pwvqmd3k" = _Pwvqmd3k;
         "meU5eVSF" = _meU5eVSF;
+        "ONkPl017" = _ONkPl017;
+        "qNfOqv5f" = _qNfOqv5f;
         "fabric-1.21.4" = _AXOoe5KZ;
         "fabric-1.21.5" = _YmecWLIu;
         "fabric-1.21.1" = _nqWuHabu;
@@ -2671,6 +2683,7 @@ let
         "fabric-26.2-snapshot-6" = _aOORKR0j;
         "fabric-26.2-snapshot-7" = _aOORKR0j;
         "fabric-26.2" = _meU5eVSF;
+        "fabric-26.3" = _qNfOqv5f;
         "neoforge-1.21.4" = _oQbMelyc;
         "neoforge-1.21.5" = _oKp2yZlr;
         "neoforge-1.21.1" = _KPfLwspn;
@@ -2689,6 +2702,7 @@ let
         "neoforge-26.1.1" = _qEORArCh;
         "neoforge-26.1.2" = _Y7qD5f1A;
         "neoforge-26.2" = _Pwvqmd3k;
+        "neoforge-26.3" = _ONkPl017;
         "forge-1.20.1" = _91Cm6squ;
         "forge-1.21.5" = _1xEBXjwC;
         "forge-1.16.5" = _XrVgTMPC;
@@ -3127,7 +3141,8 @@ let
         "pkg-26.1.2.9" = _YTvz1BkS;
         "pkg-26.1.2.10" = _6UGVeVzc;
         "pkg-26.2.0.1" = _meU5eVSF;
-        "default" = _meU5eVSF;
+        "pkg-26.3.0.0" = _qNfOqv5f;
+        "default" = _qNfOqv5f;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "uncraft-everything";

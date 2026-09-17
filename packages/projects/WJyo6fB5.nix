@@ -81,6 +81,16 @@ let
             "file" = "combat-control-1.13.0+26.2.jar";
             "hash" = "sha512-SZit+IJ5mgZTiZomQegfxHqA2RwKglbgA+v4T6pMxilerD6wJqofDUQ89/onRkRq0vHsVOa3GEzX41A5MJaXzg==";
         };
+        _2A6ZAwa3 = {
+            "id" = "2A6ZAwa3";
+            "file" = "combat-control-1.14.0+26.2.jar";
+            "hash" = "sha512-XNkAWAw+i44fm4MCnDlXXCpOqZQNyAuc2NjFTbKUch6O5S+uBF2GlNqQhyaOfjKzPCK6uNSnhxIpFrHWZHM3xg==";
+        };
+        _AmZf4AcI = {
+            "id" = "AmZf4AcI";
+            "file" = "combat-control-1.14.0+26.3.jar";
+            "hash" = "sha512-ho1rzBBiXfweN+NI9mGd5f/u0aJC5OD44tIbr23F7nfFWeIH/rC4+GfJGZCaNF1+oM1t0XG1UyxIQTSEZ9waeg==";
+        };
     in {
         "riWbkUzx" = _riWbkUzx;
         "JP1qksHo" = _JP1qksHo;
@@ -98,6 +108,8 @@ let
         "i90pKLX6" = _i90pKLX6;
         "6IrTN8Ie" = _6IrTN8Ie;
         "CW7iG159" = _CW7iG159;
+        "2A6ZAwa3" = _2A6ZAwa3;
+        "AmZf4AcI" = _AmZf4AcI;
         "fabric-1.21.4" = _JP1qksHo;
         "fabric-1.21.5" = _8Xattd3J;
         "fabric-1.21.6" = _3w5CaIp6;
@@ -109,7 +121,8 @@ let
         "fabric-26.1" = _pMO3Jzy4;
         "fabric-26.1.1" = _pMO3Jzy4;
         "fabric-26.1.2" = _i90pKLX6;
-        "fabric-26.2" = _CW7iG159;
+        "fabric-26.2" = _2A6ZAwa3;
+        "fabric-26.3" = _AmZf4AcI;
         "pkg-1.8.0+1.21.4" = _riWbkUzx;
         "pkg-1.9.0+1.21.4" = _JP1qksHo;
         "pkg-1.9.0+1.21.5" = _zx1EZv2F;
@@ -126,7 +139,9 @@ let
         "pkg-1.12.0+26.1.2" = _i90pKLX6;
         "pkg-1.12.0+26.2" = _6IrTN8Ie;
         "pkg-1.13.0+26.2" = _CW7iG159;
-        "default" = _CW7iG159;
+        "pkg-1.14.0+26.2" = _2A6ZAwa3;
+        "pkg-1.14.0+26.3" = _AmZf4AcI;
+        "default" = _AmZf4AcI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "combat-control";

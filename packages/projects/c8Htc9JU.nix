@@ -91,6 +91,16 @@ let
             "file" = "chathighlighter-neoforge-1.8.0+mc26.1.jar";
             "hash" = "sha512-dsAlCbMxdOfSBjnS9RE64RWzPtydEIbY3L3NH+bw9cp4WpP48SdKLV4A0Cnjq/o+aYT8uFfCKpzz/no50YOOWg==";
         };
+        _8xlpVoAD = {
+            "id" = "8xlpVoAD";
+            "file" = "chathighlighter-fabric-1.8.1+mc26.3.jar";
+            "hash" = "sha512-vFAwVcxTIUm4fZzHnUjWjvl2dEEsjj7DxAvmRgIRRNezGOt7bfNA4dNlstpUR49zV8W2ffvIyOELKEbLFKcrAg==";
+        };
+        _288zTN5Y = {
+            "id" = "288zTN5Y";
+            "file" = "chathighlighter-neoforge-1.8.1+mc26.3.jar";
+            "hash" = "sha512-adsa0cdEmUzkPM4tHUVpngbVE8jptxAmxSEs9mGzPjPM27+iv6UsbzDrTrhYUEgVgnZBH/Clcl0wGO2Ne5KbRw==";
+        };
     in {
         "T0SIOQQi" = _T0SIOQQi;
         "b0Iq53yD" = _b0Iq53yD;
@@ -110,6 +120,8 @@ let
         "eOtbopzH" = _eOtbopzH;
         "eeJhKcXG" = _eeJhKcXG;
         "1saXVtUZ" = _1saXVtUZ;
+        "8xlpVoAD" = _8xlpVoAD;
+        "288zTN5Y" = _288zTN5Y;
         "fabric-1.18.2" = _jTc2D4Qb;
         "fabric-1.19.2" = _jQ8FgP1r;
         "fabric-1.19.3" = _1NpXc0sZ;
@@ -137,6 +149,7 @@ let
         "fabric-26.1.1" = _eeJhKcXG;
         "fabric-26.1.2" = _eeJhKcXG;
         "fabric-26.2" = _eeJhKcXG;
+        "fabric-26.3" = _8xlpVoAD;
         "quilt-1.18.2" = _jTc2D4Qb;
         "quilt-1.19.2" = _jQ8FgP1r;
         "quilt-1.19.3" = _1NpXc0sZ;
@@ -164,10 +177,12 @@ let
         "quilt-26.1.1" = _eeJhKcXG;
         "quilt-26.1.2" = _eeJhKcXG;
         "quilt-26.2" = _eeJhKcXG;
+        "quilt-26.3" = _8xlpVoAD;
         "neoforge-26.1" = _1saXVtUZ;
         "neoforge-26.1.1" = _1saXVtUZ;
         "neoforge-26.1.2" = _1saXVtUZ;
         "neoforge-26.2" = _1saXVtUZ;
+        "neoforge-26.3" = _288zTN5Y;
         "pkg-1.0.0+mc1.18.2" = _T0SIOQQi;
         "pkg-1.0.0+mc1.19.2" = _b0Iq53yD;
         "pkg-1.0.0+mc1.19.3" = _by7KCQOc;
@@ -186,7 +201,9 @@ let
         "pkg-1.7.0+mc1.21.11" = _eOtbopzH;
         "pkg-1.8.0+mc26.1-fabric" = _eeJhKcXG;
         "pkg-1.8.0+mc26.1-neoforge" = _1saXVtUZ;
-        "default" = _1saXVtUZ;
+        "pkg-1.8.1+mc26.3-fabric" = _8xlpVoAD;
+        "pkg-1.8.1+mc26.3-neoforge" = _288zTN5Y;
+        "default" = _288zTN5Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chathighlighter";

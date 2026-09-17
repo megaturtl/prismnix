@@ -121,6 +121,11 @@ let
             "file" = "notica-2.1.0+26.2.jar";
             "hash" = "sha512-hLGEMjqgyAOJ6k4Q5Y8L/adUydVIkch2KrkknWq5RFx55b4D+OmbQzeXeeHRjADZVIP9WIln3OhLDf4yoaESIg==";
         };
+        _75BM8hvR = {
+            "id" = "75BM8hvR";
+            "file" = "notica-2.1.0+26.3.jar";
+            "hash" = "sha512-lymVYG9u4Y7FfA7vISsN5L1UrsvxOSR/+UiSYtakJDP4O3lSRVTvFl3NxF/vVM2cLKw0f/bDP4pUfsGz3WhafA==";
+        };
     in {
         "e2Yj5Qhq" = _e2Yj5Qhq;
         "N5NTwwUY" = _N5NTwwUY;
@@ -146,6 +151,7 @@ let
         "66LIcF9w" = _66LIcF9w;
         "k7nGFizR" = _k7nGFizR;
         "ge1mkvpW" = _ge1mkvpW;
+        "75BM8hvR" = _75BM8hvR;
         "fabric-1.20.4" = _N5NTwwUY;
         "fabric-1.20.5" = _V7mT29yz;
         "fabric-1.20.6" = _V7mT29yz;
@@ -164,6 +170,7 @@ let
         "fabric-26.1.1" = _66LIcF9w;
         "fabric-26.1.2" = _k7nGFizR;
         "fabric-26.2" = _ge1mkvpW;
+        "fabric-26.3" = _75BM8hvR;
         "pkg-1.1.0+1.20.4" = _e2Yj5Qhq;
         "pkg-1.1.3+1.20.4" = _N5NTwwUY;
         "pkg-1.1.3+1.20.6" = _V7mT29yz;
@@ -188,7 +195,8 @@ let
         "pkg-2.0.0+26.1.2" = _66LIcF9w;
         "pkg-2.1.0+26.1.2" = _k7nGFizR;
         "pkg-2.1.0+26.2" = _ge1mkvpW;
-        "default" = _ge1mkvpW;
+        "pkg-2.1.0+26.3" = _75BM8hvR;
+        "default" = _75BM8hvR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "notica";

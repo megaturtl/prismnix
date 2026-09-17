@@ -201,6 +201,11 @@ let
             "file" = "nemos-backpacks-26.2-2.1.jar";
             "hash" = "sha512-Jwh+qWD5RdrPR6+zXBDicqzOXyffApXNWLAYDe2t+BT11bA6uI4Vtl+7RBWeq2g2a01r+HFP0x6hWJVIBZm5SQ==";
         };
+        _KszXVtcy = {
+            "id" = "KszXVtcy";
+            "file" = "nemos-backpacks-26.3-2.1.jar";
+            "hash" = "sha512-e4rL/rl73ZuRBgFWrtilvMbp2oeP9FEpHHjNV7XbbzDt74ZxuVPSaGuKHqln6WA5J673V9n2PAHp5vDvj5MR2Q==";
+        };
     in {
         "CCsyvy5B" = _CCsyvy5B;
         "6mCx5Kwm" = _6mCx5Kwm;
@@ -242,6 +247,7 @@ let
         "W6NGGenT" = _W6NGGenT;
         "kbJsZocv" = _kbJsZocv;
         "VY2vRPgu" = _VY2vRPgu;
+        "KszXVtcy" = _KszXVtcy;
         "fabric-1.21.8" = _C9f8hwTt;
         "fabric-1.21.4" = _PI4nRVJc;
         "fabric-1.21.5" = _tauthtvE;
@@ -252,6 +258,7 @@ let
         "fabric-26.1.1" = _W6NGGenT;
         "fabric-26.1.2" = _W6NGGenT;
         "fabric-26.2" = _VY2vRPgu;
+        "fabric-26.3" = _KszXVtcy;
         "neoforge-1.21.10" = _Lfx1ATA9;
         "neoforge-1.21.5" = _FQy52Kt5;
         "neoforge-1.21.11" = _mXQgxVAB;
@@ -285,7 +292,8 @@ let
         "pkg-26.1-2.0" = _W6NGGenT;
         "pkg-26.2-2.0" = _kbJsZocv;
         "pkg-26.2-2.1" = _VY2vRPgu;
-        "default" = _VY2vRPgu;
+        "pkg-26.3-2.1" = _KszXVtcy;
+        "default" = _KszXVtcy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nemos-backpacks";

@@ -21,11 +21,17 @@ let
             "file" = "norecipebook-fabric-26.1-1.0.2.jar";
             "hash" = "sha512-xpZIqnoZoWhYNdWobEU2ckr64fjvDy9OGWLQckOB4HuPWzJlUvbytJOeO0s1c1iwWOTxXMxgYZkChAYwuNHrXQ==";
         };
+        _8ZtORSFl = {
+            "id" = "8ZtORSFl";
+            "file" = "norecipebook-fabric-mc26.3-1.1.0.jar";
+            "hash" = "sha512-9bmzr4fh1AOPox3A/wmU6Zcxei5VQ1C+/yVuj8HnrleiiGT1s/hG1r9s+90kk2AuXZSX7sJXQQEsSU8JEDt9OQ==";
+        };
     in {
         "BijRgkSc" = _BijRgkSc;
         "qT0QhNHZ" = _qT0QhNHZ;
         "Z9aH4fKd" = _Z9aH4fKd;
         "JIgizuW0" = _JIgizuW0;
+        "8ZtORSFl" = _8ZtORSFl;
         "fabric-1.18" = _BijRgkSc;
         "fabric-1.18.1" = _BijRgkSc;
         "fabric-1.18.2" = _BijRgkSc;
@@ -53,13 +59,15 @@ let
         "fabric-1.21.9" = _Z9aH4fKd;
         "fabric-1.21.10" = _Z9aH4fKd;
         "fabric-1.21.11" = _Z9aH4fKd;
-        "fabric-26.1" = _JIgizuW0;
-        "fabric-26.1.1" = _JIgizuW0;
-        "fabric-26.1.2" = _JIgizuW0;
-        "fabric-26.2" = _JIgizuW0;
+        "fabric-26.1" = _8ZtORSFl;
+        "fabric-26.1.1" = _8ZtORSFl;
+        "fabric-26.1.2" = _8ZtORSFl;
+        "fabric-26.2" = _8ZtORSFl;
+        "fabric-26.3" = _8ZtORSFl;
         "pkg-1.0.1" = _qT0QhNHZ;
         "pkg-1.0.2" = _JIgizuW0;
-        "default" = _JIgizuW0;
+        "pkg-1.1.0" = _8ZtORSFl;
+        "default" = _8ZtORSFl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-recipe-book";

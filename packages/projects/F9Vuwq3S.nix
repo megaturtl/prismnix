@@ -3131,6 +3131,221 @@ let
             "file" = "immersiveores-1.21.3-1.2.1.jar";
             "hash" = "sha512-g/WgtZWqZA1MjxyXr9W28GWbAQZMVGObWN6eyXxRtCAEBjZCd9MNHibMrBmlnXz84bSAOKbQMSKjSZFjXcyYUA==";
         };
+        _mtpkkge8 = {
+            "id" = "mtpkkge8";
+            "file" = "immersiveores-1.20.1-1.0.2.jar";
+            "hash" = "sha512-N+ra7IyjvJ3DPyhlBFm3LpThbE760N28zQI1KMiUXalJCdBC+DQ0yHxj1oGAgO8zyIVClii1dFuZUnUIJyZdwg==";
+        };
+        _kVIgxuqN = {
+            "id" = "kVIgxuqN";
+            "file" = "ImmersiveOres-1.20.1-1.0.0.jar";
+            "hash" = "sha512-t3U/QEtT2v54rlQSfKSQDZdQOHrr0OUfeBaRZ+4VGey+MI+PMnfc4aLyiJuovelELjQ+9AoU6/+1VKfya4/nBQ==";
+        };
+        _7FlSj1Bs = {
+            "id" = "7FlSj1Bs";
+            "file" = "immersiveores-1.21-1.2.1.jar";
+            "hash" = "sha512-m2NU0HWQdxVylSwNgVburSdphaii+Rv7su1YMVHIkfRqXSqbD/qvTsIJFuydHpxcDX3orzb6p6wyqhfWBTISgw==";
+        };
+        _dM3DNYIV = {
+            "id" = "dM3DNYIV";
+            "file" = "ImmersiveOres-1.21-1.1.9.jar";
+            "hash" = "sha512-FJYY4WkyqRNtryrxvKojN8n/qQdMJzVEAmASvsw4RhdDivptijix6pvuaQBentjmehB0vhNfkjOfPJ8YKuXNjA==";
+        };
+        _xYnZ7KbB = {
+            "id" = "xYnZ7KbB";
+            "file" = "immersiveores-1.21.1-1.2.1.jar";
+            "hash" = "sha512-Ts6p6g1FA/KNrqvT1mQLP1d2vLyFB2dmBwNm4FiOocJe6GyLtG3uZYKhFPVCsBSav0nFlr8zyVwmeoI+hrCulw==";
+        };
+        _CHnSjcN6 = {
+            "id" = "CHnSjcN6";
+            "file" = "ImmersiveOres-1.21.1-1.1.9.jar";
+            "hash" = "sha512-YGRkxCNqHbTI43Vu4JOq9BPS6Dim9k9vAywZd46J7PvCmja8ZovwFkC1kU2Lh61SFjlE/TcXkXx+A8X/2dkC3A==";
+        };
+        _F0ZrYxGM = {
+            "id" = "F0ZrYxGM";
+            "file" = "immersiveores-1.21.3-1.2.2.jar";
+            "hash" = "sha512-ZtSjTNkTdZ6Ns79UuSPRulLMTBhbjYaEet4vBIXVemvWHLRP43VgNHDGsHPi7pmP/ME6n1AgoIo/PYnxriFJSg==";
+        };
+        _FYR4MXae = {
+            "id" = "FYR4MXae";
+            "file" = "ImmersiveOres-1.21.3-1.1.8.jar";
+            "hash" = "sha512-GvFBLP7ziq1rNyRikvGmtkzO/YhOvNVDpPDg0AFAs83RofwANPwxj5xtgghNl5H0I7kps0SGizxmSmRB8wG4og==";
+        };
+        _upTzXiFu = {
+            "id" = "upTzXiFu";
+            "file" = "immersiveores-1.21.4-1.2.0.jar";
+            "hash" = "sha512-hsG4l8HprUeuGNMngpx0rsxN8rJpFtfJojp/dIiXWPIZgVJiiQpq0U6jkS8g/LVZSZoItUnXVQ3a3XrmY0RezA==";
+        };
+        _5jAao405 = {
+            "id" = "5jAao405";
+            "file" = "ImmersiveOres-1.21.4-1.2.0.jar";
+            "hash" = "sha512-w2OKJ6420TGJHAknwil5G+HsbuqwhUROf3/RZZ13OFyABEkWF0Mxbptj+t6jODe+R09T+Lj3BXWXCFFxutiwjw==";
+        };
+        _XO2NWP7i = {
+            "id" = "XO2NWP7i";
+            "file" = "ImmersiveOres-1.21.5-1.1.3.jar";
+            "hash" = "sha512-t6U3GYdSgQSPRPkFaTWJvtfKyVvftkFGwZRMMYSyqNHtX6QDs2LHBOQtu/M3JAmaccZTHRKHkoHEiNtKl6Rs1g==";
+        };
+        _bpYCsmQM = {
+            "id" = "bpYCsmQM";
+            "file" = "immersiveores-1.21.5-1.1.1.jar";
+            "hash" = "sha512-5ZUKPtoONVEQpJ4b4Oyv65QDgafuyrSlo7VzvzLCpkkqQ+VMV810e0YedIGeDEa6MtZVoV69aj2NXV4AKOfo2w==";
+        };
+        _GhJP8ReU = {
+            "id" = "GhJP8ReU";
+            "file" = "immersiveores-1.21.6-1.0.3.jar";
+            "hash" = "sha512-NQeESjd7yXwuoe9ExOm+hRbBagUzWnxD42AYN4pGayTAdm8DsYAGXQVLRYufg3l18ZE1ZlaoIpBU7yqtSYAyqQ==";
+        };
+        _HuLmCqer = {
+            "id" = "HuLmCqer";
+            "file" = "ImmersiveOres-1.21.6-1.0.3.jar";
+            "hash" = "sha512-VVrRooam6Nq/rJAuKZ2bfNMYglbbDlOeyf4QWCh6ZRq9WhEbgcg5+FjxWqdt6UI6Pi8iLWgTFsfh155O91BbvQ==";
+        };
+        _lMkT5R1T = {
+            "id" = "lMkT5R1T";
+            "file" = "ImmersiveOres-1.21.7-1.0.4.jar";
+            "hash" = "sha512-6jIAuhC/EZnIr0P/Sbp03dcZ00WAD53k1wEWjzaPAGHyp+zxnnssvQdasy8sDYTV/01W/n4A3oaABa55WjG90w==";
+        };
+        _PHSehQ00 = {
+            "id" = "PHSehQ00";
+            "file" = "immersiveores-1.21.7-1.0.3.jar";
+            "hash" = "sha512-pyjRmSNf1wa37MzFq6hDVQRz/76Yzaq3Wy9844l+3Grgoa8yDDRpE/i0cArWUhdb7Mlg37yW4dF6ja+p8bgFXA==";
+        };
+        _arDo3TZV = {
+            "id" = "arDo3TZV";
+            "file" = "immersiveores-1.21.8-1.0.0.jar";
+            "hash" = "sha512-cUgCq6AvjOONDX9N070TMcLBfNiVC/ZmRxGP5opYdLP7e131Cr11Lokj4ZElik4250gVk+gopWWrjMx8ZJnyMQ==";
+        };
+        _TT3o7gO9 = {
+            "id" = "TT3o7gO9";
+            "file" = "ImmersiveOres-1.21.8-1.0.1.jar";
+            "hash" = "sha512-1T4eKF0S5gawpND3Au54pcJxig0VmZtN27/yauHo3/BuxzsYSCkylnG6+TQXTDHGhIY5YRBGDZc+dJqGVTaQAA==";
+        };
+        _5WB4LQto = {
+            "id" = "5WB4LQto";
+            "file" = "ImmersiveOres-1.21.9-0.5.jar";
+            "hash" = "sha512-WRNkbXS6BtZeWJJLc4SqtCHNnhBPxcyp90FONVlaSOBic5umw99QkBqD2CFMFcDoMX5EbBD4Z15ZQIouQNgv9g==";
+        };
+        _dR8fDT8m = {
+            "id" = "dR8fDT8m";
+            "file" = "immersiveores-1.21.9-0.5.jar";
+            "hash" = "sha512-kUgbt3cPcclRcJWu08RpfxoRuzrbbZNRr4VFusjR4mRCHXoGym9N2x01Ms7vkwcez+o+JmljNdYu6FNtGRXlKA==";
+        };
+        _lg0sQcN8 = {
+            "id" = "lg0sQcN8";
+            "file" = "ImmersiveOres-1.21.10-0.5.jar";
+            "hash" = "sha512-quCdox50HHiwT92J/Z1JED2pAmuqqSThM1cmuRK/z6iNMjhMTtRIbI4uIacTXvNhx2YAjFD1aEhzBNop5c2bKQ==";
+        };
+        _quDVy9Y4 = {
+            "id" = "quDVy9Y4";
+            "file" = "immersiveores-1.21.10-0.5.jar";
+            "hash" = "sha512-gVNgz2OK/YkkjpFrSvmg+HDJyuwlbl+Fliqh1FRNEZZfcM1I+2FsMvmeuD5MB7yb+9w+frZNkdL4BLtuuTANIA==";
+        };
+        _U6rb4p1w = {
+            "id" = "U6rb4p1w";
+            "file" = "ImmersiveOres-1.21.11-0.3.jar";
+            "hash" = "sha512-1PNGQ+x07kXxWSTkC2pRUAYaLchySLu7p6lU0u8BZ+V8JcvqQYhzDYSGmfNEWvS5QJYbxYWPHaOAS/g+ZvLLaw==";
+        };
+        _gowxczxn = {
+            "id" = "gowxczxn";
+            "file" = "immersiveores-1.21.11-0.3.jar";
+            "hash" = "sha512-k9+gCsTi0WMCsnxYlpfiVtEd/wjwXQ0rSTnU1ezT9fWQP8mnRIW1o8beQH99V43dO/INAkGdJIU/SGGGaIsRkw==";
+        };
+        _nMAU6evZ = {
+            "id" = "nMAU6evZ";
+            "file" = "ImmersiveOres-26.1-0.4.jar";
+            "hash" = "sha512-AamARfI8pq3gSpbph7G7ifQKsYcPyuYC0Y+lYw84MXO/LqcXeihj0eWcv4lE/UfTdo1XR8miZ+MW1R6TXcfrug==";
+        };
+        _u4RXFxHJ = {
+            "id" = "u4RXFxHJ";
+            "file" = "ImmersiveOres-26.1.1-0.4.jar";
+            "hash" = "sha512-f9wcGG51lFTtyJUyRu73JsyarHuj1KBiD/jskf5A+7UF6nc7lXrmhLQM+n3PC3A8Iv4Q5xx7dp8SjOhC0AF6vA==";
+        };
+        _Onp19zCl = {
+            "id" = "Onp19zCl";
+            "file" = "immersiveores-1.21-1.2.0.jar";
+            "hash" = "sha512-RzWOIdZRiKZA03pJQo0pxhpGGHP/uvbSDlwahR1xkvAzlxR2oVQe3zrmc6QhiXSuvXn1L9ctlZOvXQ/OfcTMBA==";
+        };
+        _yDgANQc1 = {
+            "id" = "yDgANQc1";
+            "file" = "ImmersiveOres-26.1.2-0.4.jar";
+            "hash" = "sha512-e6c/dtPgcZuYS9KH7ckjPzzFQHZ+gH5hDpS9Q699H/Iwv1lBTehFmX9bAZSDkg7F2MATXrqHYU2Ip0PhPQxwQg==";
+        };
+        _ads983oF = {
+            "id" = "ads983oF";
+            "file" = "ImmersiveOres-26.2-0.2.jar";
+            "hash" = "sha512-tzIRXbndgBzSz3iRt2q7qOOTgLQjMh7s+mELJAW8SxbIgX/MlQKWV3ukNE+iBV/gr23nFDCDNVMje3p6+ua57g==";
+        };
+        _UEgTewlP = {
+            "id" = "UEgTewlP";
+            "file" = "immersiveores-1.21.1-1.2.0.jar";
+            "hash" = "sha512-etxfp0/OcdAcJeVMRfEA4l2bSxisCvaQ6astCYPaRFiPoBAyKYUhKc+163umSBBDNV0JibDHtMYjIfWwI1PTmg==";
+        };
+        _Ubx54MQV = {
+            "id" = "Ubx54MQV";
+            "file" = "immersiveores-1.21.3-1.2.0.jar";
+            "hash" = "sha512-i47kES6kcr7AJvFcKt8Kg267UzgthRB2vmfDvDXZ10Wnt0cy7hmcaFoy3QNbVMl+6qkJ8hXAGKTC7j1ugN16hg==";
+        };
+        _mtmoVMnL = {
+            "id" = "mtmoVMnL";
+            "file" = "immersiveores-1.21.4-1.1.9.jar";
+            "hash" = "sha512-FeYiSx8ty+6356gyqBWCpOcBAWIKToSHqx4UE6xlcLER5gsFpcTeyZpi5K0FWLZGU1GzvFY8SPQ0BFcIFVJMYg==";
+        };
+        _8tWpPSNM = {
+            "id" = "8tWpPSNM";
+            "file" = "immersiveores-1.21.5-1.1.2.jar";
+            "hash" = "sha512-u8CjOVPRhYdLy/QMVc07hf3bh78C2Beo9WcbE2CxgTNOQen3eTIXZ49IFzgsb2gv96UkXEIwYSszgFNfmR2DOA==";
+        };
+        _3E6aa4od = {
+            "id" = "3E6aa4od";
+            "file" = "immersiveores-1.21.6-1.0.3.jar";
+            "hash" = "sha512-gpF1b57esfr9fRX74ut5rniqA596KuUUHAMhlABnzr8yDdZHiJ5i83UFS2vSZI4BIl67f3RSgnL1VvCPl2ZPpA==";
+        };
+        _FNdFAIzt = {
+            "id" = "FNdFAIzt";
+            "file" = "immersiveores-1.21.7-1.0.3.jar";
+            "hash" = "sha512-qoRhhpFP0gHqv1AdWV3FE8wdmQYyVxinuHE/ng9+Zqd1uovWBSktqAe+tdAtZkmvXHGnmnUX1iOXcvzIkcAoYQ==";
+        };
+        _edSLXNNU = {
+            "id" = "edSLXNNU";
+            "file" = "immersiveores-1.21.8-1.0.0.jar";
+            "hash" = "sha512-CF6KyEVXWAfQ3oIl0sdK80qhbJPvaEtD7UYwPzlw1wK8vJmEyGEeZXRrrgx+ft1hsebmQO8pNyms0HEZm417rw==";
+        };
+        _Gxll6fVk = {
+            "id" = "Gxll6fVk";
+            "file" = "immersiveores-1.21.9-0.5.jar";
+            "hash" = "sha512-gGskv0n+Jd+t8NcGSk5m4ZRTM0OFuWosdHt9VF0phvBgFeMELldKfa6TWKU01d1QEdRkcjst2Fwu7JZ+yqr72w==";
+        };
+        _73NIUnOG = {
+            "id" = "73NIUnOG";
+            "file" = "immersiveores-1.21.10-0.5.jar";
+            "hash" = "sha512-1Fe8OBP7oYJNKdOBHpgM31aIZwSUJjDZ9YmX7yKG0U1fKLEFIERMwMUlT9sGYTcvNSH+c2nirdvZrrh5WTsSPg==";
+        };
+        _cp9Y44lq = {
+            "id" = "cp9Y44lq";
+            "file" = "immersiveores-1.21.11-0.3.jar";
+            "hash" = "sha512-CRKBk9y4Srl2QUS3WRra4wQPiBdHjIZK90sTQgzAbT+0AqtaXgY/PktUSvaoeinW1ml6WwlN1BCmxiHYgYBPCw==";
+        };
+        _gzqV8vlT = {
+            "id" = "gzqV8vlT";
+            "file" = "immersiveores-26.1-0.4.jar";
+            "hash" = "sha512-3YbmonFf2nVFBMF/hcOny9h+gNbpevFwcBwQz8NbvpUugFHBzIdc3fVYaIjIEyK0t3bTyljCyxCqEloFz6ck8w==";
+        };
+        _GEi3Qo8T = {
+            "id" = "GEi3Qo8T";
+            "file" = "immersiveores-26.1.1-0.4.jar";
+            "hash" = "sha512-pGZHpWJl4d946nD0rs/BW9ukd8nwiKHVY6yF0nbx8e7+zUNLpPp7LvXoe/QIuEkKzy6+JRgOBGQ+Rc93x8c6WA==";
+        };
+        _7uohRcqh = {
+            "id" = "7uohRcqh";
+            "file" = "immersiveores-26.1.2-0.4.jar";
+            "hash" = "sha512-Yd6XCp40gOkllNlgS/0xKPaEuhE/demo84K9qsRYr17qWamG72sZojRJIy//np0huzlBmZolsLsixtuyT9M8Uw==";
+        };
+        _BY53Ptvi = {
+            "id" = "BY53Ptvi";
+            "file" = "immersiveores-26.2-0.2.jar";
+            "hash" = "sha512-oso6vOSQyI8EMzwbbdZstA7/8za2P9Ks6XA/H32N4MXCehKnN5NDBMBTmqVZSVYHfioECOyqPKmLDT04sRvZvA==";
+        };
     in {
         "7ZPaV1GV" = _7ZPaV1GV;
         "RGXounRe" = _RGXounRe;
@@ -3758,63 +3973,106 @@ let
         "BjFlGZx7" = _BjFlGZx7;
         "U0yQjltb" = _U0yQjltb;
         "lbOAg6Ia" = _lbOAg6Ia;
+        "mtpkkge8" = _mtpkkge8;
+        "kVIgxuqN" = _kVIgxuqN;
+        "7FlSj1Bs" = _7FlSj1Bs;
+        "dM3DNYIV" = _dM3DNYIV;
+        "xYnZ7KbB" = _xYnZ7KbB;
+        "CHnSjcN6" = _CHnSjcN6;
+        "F0ZrYxGM" = _F0ZrYxGM;
+        "FYR4MXae" = _FYR4MXae;
+        "upTzXiFu" = _upTzXiFu;
+        "5jAao405" = _5jAao405;
+        "XO2NWP7i" = _XO2NWP7i;
+        "bpYCsmQM" = _bpYCsmQM;
+        "GhJP8ReU" = _GhJP8ReU;
+        "HuLmCqer" = _HuLmCqer;
+        "lMkT5R1T" = _lMkT5R1T;
+        "PHSehQ00" = _PHSehQ00;
+        "arDo3TZV" = _arDo3TZV;
+        "TT3o7gO9" = _TT3o7gO9;
+        "5WB4LQto" = _5WB4LQto;
+        "dR8fDT8m" = _dR8fDT8m;
+        "lg0sQcN8" = _lg0sQcN8;
+        "quDVy9Y4" = _quDVy9Y4;
+        "U6rb4p1w" = _U6rb4p1w;
+        "gowxczxn" = _gowxczxn;
+        "nMAU6evZ" = _nMAU6evZ;
+        "u4RXFxHJ" = _u4RXFxHJ;
+        "Onp19zCl" = _Onp19zCl;
+        "yDgANQc1" = _yDgANQc1;
+        "ads983oF" = _ads983oF;
+        "UEgTewlP" = _UEgTewlP;
+        "Ubx54MQV" = _Ubx54MQV;
+        "mtmoVMnL" = _mtmoVMnL;
+        "8tWpPSNM" = _8tWpPSNM;
+        "3E6aa4od" = _3E6aa4od;
+        "FNdFAIzt" = _FNdFAIzt;
+        "edSLXNNU" = _edSLXNNU;
+        "Gxll6fVk" = _Gxll6fVk;
+        "73NIUnOG" = _73NIUnOG;
+        "cp9Y44lq" = _cp9Y44lq;
+        "gzqV8vlT" = _gzqV8vlT;
+        "GEi3Qo8T" = _GEi3Qo8T;
+        "7uohRcqh" = _7uohRcqh;
+        "BY53Ptvi" = _BY53Ptvi;
         "forge-1.19" = _En8TPmMM;
         "forge-1.19.1" = _lI7jIcqh;
         "forge-1.19.2" = _3EnmhQri;
         "forge-1.19.3" = _vs7GP411;
         "forge-1.19.4" = _P3dwj2Df;
         "forge-1.20" = _Z0HNWlF1;
-        "forge-1.20.1" = _BjFlGZx7;
+        "forge-1.20.1" = _mtpkkge8;
         "forge-1.20.2" = _kYUq8j2m;
-        "forge-1.21" = _wDveNc11;
-        "forge-1.21.1" = _U0yQjltb;
-        "forge-1.21.3" = _lbOAg6Ia;
-        "forge-1.21.4" = _z62ZA49i;
-        "forge-1.21.5" = _k5f08unY;
-        "forge-1.21.7" = _gjUs2PVt;
-        "forge-1.21.6" = _tbGYL5lS;
-        "forge-1.21.8" = _Pr9kwLrs;
-        "forge-1.21.9" = _53bM9UoG;
-        "forge-1.21.10" = _So0iQdt3;
-        "forge-1.21.11" = _bdbqbIT0;
+        "forge-1.21" = _7FlSj1Bs;
+        "forge-1.21.1" = _xYnZ7KbB;
+        "forge-1.21.3" = _F0ZrYxGM;
+        "forge-1.21.4" = _upTzXiFu;
+        "forge-1.21.5" = _bpYCsmQM;
+        "forge-1.21.7" = _PHSehQ00;
+        "forge-1.21.6" = _GhJP8ReU;
+        "forge-1.21.8" = _arDo3TZV;
+        "forge-1.21.9" = _dR8fDT8m;
+        "forge-1.21.10" = _quDVy9Y4;
+        "forge-1.21.11" = _gowxczxn;
         "fabric-1.19" = _48BHEiL3;
         "fabric-1.19.1" = _fVLyrVse;
         "fabric-1.19.2" = _QC0MsgKP;
         "fabric-1.19.3" = _kbHN75ZO;
         "fabric-1.19.4" = _e4TpBHg0;
         "fabric-1.20" = _DEXxlXNl;
-        "fabric-1.20.1" = _GJZFA2wK;
+        "fabric-1.20.1" = _kVIgxuqN;
         "fabric-1.20.2" = _9tu7N8Jb;
-        "fabric-1.21" = _9EadISL1;
-        "fabric-1.21.1" = _vtdNNJ1Q;
-        "fabric-1.21.3" = _sOqsuuqX;
-        "fabric-1.21.4" = _p6tHLfY0;
-        "fabric-1.21.5" = _DV01Oay6;
-        "fabric-1.21.7" = _rARhl3sP;
-        "fabric-1.21.6" = _DJCv7HFd;
-        "fabric-1.21.8" = _cwowckFP;
-        "fabric-1.21.9" = _5oRjjeoG;
-        "fabric-1.21.10" = _XhFSjjNh;
-        "fabric-1.21.11" = _W4s0zv6W;
-        "fabric-26.1.2" = _LrguFmMn;
-        "fabric-26.1.1" = _OBJmgxBl;
-        "fabric-26.1" = _yI5nPqId;
-        "fabric-26.2" = _XJ60gTn2;
-        "neoforge-1.21" = _taT1vlsu;
-        "neoforge-1.21.1" = _M35HMjJG;
-        "neoforge-1.21.3" = _YBpSpXQU;
-        "neoforge-1.21.4" = _6ZbNZaqF;
-        "neoforge-1.21.5" = _1o6qLxKZ;
-        "neoforge-1.21.7" = _WmunI7kA;
-        "neoforge-1.21.6" = _7qMkol1N;
-        "neoforge-1.21.8" = _qg6BWh3z;
-        "neoforge-1.21.9" = _zsdcrTcr;
-        "neoforge-1.21.10" = _QzHobeAP;
-        "neoforge-1.21.11" = _pHroF7Rc;
-        "neoforge-26.1" = _zTvf5RZl;
-        "neoforge-26.1.1" = _SzHihOad;
-        "neoforge-26.1.2" = _a32cPOFi;
-        "neoforge-26.2" = _T2aKObsC;
+        "fabric-1.21" = _dM3DNYIV;
+        "fabric-1.21.1" = _CHnSjcN6;
+        "fabric-1.21.3" = _FYR4MXae;
+        "fabric-1.21.4" = _5jAao405;
+        "fabric-1.21.5" = _XO2NWP7i;
+        "fabric-1.21.7" = _lMkT5R1T;
+        "fabric-1.21.6" = _HuLmCqer;
+        "fabric-1.21.8" = _TT3o7gO9;
+        "fabric-1.21.9" = _5WB4LQto;
+        "fabric-1.21.10" = _lg0sQcN8;
+        "fabric-1.21.11" = _U6rb4p1w;
+        "fabric-26.1.2" = _yDgANQc1;
+        "fabric-26.1.1" = _u4RXFxHJ;
+        "fabric-26.1" = _nMAU6evZ;
+        "fabric-26.2" = _ads983oF;
+        "neoforge-1.21" = _Onp19zCl;
+        "neoforge-1.21.1" = _UEgTewlP;
+        "neoforge-1.21.3" = _Ubx54MQV;
+        "neoforge-1.21.4" = _mtmoVMnL;
+        "neoforge-1.21.5" = _8tWpPSNM;
+        "neoforge-1.21.7" = _FNdFAIzt;
+        "neoforge-1.21.6" = _3E6aa4od;
+        "neoforge-1.21.8" = _edSLXNNU;
+        "neoforge-1.21.9" = _Gxll6fVk;
+        "neoforge-1.21.10" = _73NIUnOG;
+        "neoforge-1.21.11" = _cp9Y44lq;
+        "neoforge-26.1" = _gzqV8vlT;
+        "neoforge-26.1.1" = _GEi3Qo8T;
+        "neoforge-26.1.2" = _7uohRcqh;
+        "neoforge-26.2" = _BY53Ptvi;
         "pkg-1.19-0.6" = _7ZPaV1GV;
         "pkg-1.19.1-0.6" = _RGXounRe;
         "pkg-1.19.2-0.6" = _uURq1L3x;
@@ -4019,10 +4277,10 @@ let
         "pkg-1.21.10-0.2" = _taFT7af7;
         "pkg-1.21-1.1.7" = _AK3k3qFI;
         "pkg-1.21.1-1.1.7" = _eVprZZOF;
-        "pkg-1.21.3-1.1.8" = _x3KECliY;
+        "pkg-1.21.3-1.1.8" = _FYR4MXae;
         "pkg-1.20.1-0.8" = _CPqgXQbQ;
         "pkg-1.21.4-1.1.8" = _6ZbNZaqF;
-        "pkg-1.21.5-1.1.1" = _1o6qLxKZ;
+        "pkg-1.21.5-1.1.1" = _bpYCsmQM;
         "pkg-1.21.6-1.0.2" = _7qMkol1N;
         "pkg-1.21.7-1.0.2" = _WmunI7kA;
         "pkg-1.21.8-0.9" = _qg6BWh3z;
@@ -4039,16 +4297,16 @@ let
         "pkg-26.1-0.2" = _x0ZxDIac;
         "pkg-26.1.1-0.2" = _3RJgN9yr;
         "pkg-26.1.2-0.2" = _iEppeKCl;
-        "pkg-1.21.4-1.1.9" = _z62ZA49i;
-        "pkg-1.21.5-1.1.2" = _DV01Oay6;
-        "pkg-1.21.6-1.0.3" = _DJCv7HFd;
-        "pkg-1.21.7-1.0.3" = _rARhl3sP;
-        "pkg-1.20.1-1.0.0" = _PH0H5vYW;
-        "pkg-1.21.8-1.0.0" = _cwowckFP;
-        "pkg-1.21-1.1.9" = _taT1vlsu;
+        "pkg-1.21.4-1.1.9" = _mtmoVMnL;
+        "pkg-1.21.5-1.1.2" = _8tWpPSNM;
+        "pkg-1.21.6-1.0.3" = _3E6aa4od;
+        "pkg-1.21.7-1.0.3" = _FNdFAIzt;
+        "pkg-1.20.1-1.0.0" = _kVIgxuqN;
+        "pkg-1.21.8-1.0.0" = _edSLXNNU;
+        "pkg-1.21-1.1.9" = _dM3DNYIV;
         "pkg-1.21.9-0.4" = _zsdcrTcr;
-        "pkg-1.21.1-1.1.9" = _M35HMjJG;
-        "pkg-1.21.3-1.2.0" = _zU8qX5Fc;
+        "pkg-1.21.1-1.1.9" = _CHnSjcN6;
+        "pkg-1.21.3-1.2.0" = _Ubx54MQV;
         "pkg-1.21.10-0.4" = _QzHobeAP;
         "pkg-1.21.11-0.2" = _pHroF7Rc;
         "pkg-1.21.6-1.0." = _tbGYL5lS;
@@ -4056,11 +4314,26 @@ let
         "pkg-26.1.1-0.3" = _SzHihOad;
         "pkg-26.1.2-0.3" = _a32cPOFi;
         "pkg-26.2-0.1" = _XJ60gTn2;
-        "pkg-1.21-1.2.0" = _wDveNc11;
+        "pkg-1.21-1.2.0" = _Onp19zCl;
         "pkg-1.20.1-1.0.1" = _BjFlGZx7;
-        "pkg-1.21.1-1.2.0" = _U0yQjltb;
+        "pkg-1.21.1-1.2.0" = _UEgTewlP;
         "pkg-1.21.3-1.2.1" = _lbOAg6Ia;
-        "default" = _lbOAg6Ia;
+        "pkg-1.20.1-1.0.2" = _mtpkkge8;
+        "pkg-1.21-1.2.1" = _7FlSj1Bs;
+        "pkg-1.21.1-1.2.1" = _xYnZ7KbB;
+        "pkg-1.21.3-1.2.2" = _F0ZrYxGM;
+        "pkg-1.21.4-1.2.0" = _5jAao405;
+        "pkg-1.21.5-1.1.3" = _XO2NWP7i;
+        "pkg-1.21.7-1.0.4" = _lMkT5R1T;
+        "pkg-1.21.8-1.0.1" = _TT3o7gO9;
+        "pkg-1.21.9-0.5" = _Gxll6fVk;
+        "pkg-1.21.10-0.5" = _73NIUnOG;
+        "pkg-1.21.11-0.3" = _cp9Y44lq;
+        "pkg-26.1-0.4" = _gzqV8vlT;
+        "pkg-26.1.1-0.4" = _GEi3Qo8T;
+        "pkg-26.1.2-0.4" = _7uohRcqh;
+        "pkg-26.2-0.2" = _BY53Ptvi;
+        "default" = _BY53Ptvi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-ores";

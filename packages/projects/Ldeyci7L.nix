@@ -61,6 +61,11 @@ let
             "file" = "1.26.2-Quadral v.6.6.zip";
             "hash" = "sha512-XHwdOZsdTzjiidukaspJPmGUEIX/c+zY0J4b7PgNqQmyGd5cwH9totYE97qXMXrxJxH/+FfCMM+WjcfoALd0Dg==";
         };
+        _gGYKYXpG = {
+            "id" = "gGYKYXpG";
+            "file" = "1.26.3-Quadral v.6.6.1.zip";
+            "hash" = "sha512-pPtS8YwcjwcSnLiFE3gDe+EY/3R8v2pwoPEdhNjz9oKwxewcxg3eswTS75CM78nEi8XJ+nnSicpw7koMhlZ7Jw==";
+        };
     in {
         "S843Uo1j" = _S843Uo1j;
         "N4lU972C" = _N4lU972C;
@@ -74,6 +79,7 @@ let
         "mOBaDzcU" = _mOBaDzcU;
         "YjMJ1CPz" = _YjMJ1CPz;
         "V7rrT5sO" = _V7rrT5sO;
+        "gGYKYXpG" = _gGYKYXpG;
         "minecraft-1.20.1" = _S843Uo1j;
         "minecraft-1.20.2" = _N4lU972C;
         "minecraft-1.20.4" = _OP7KW59H;
@@ -86,7 +92,7 @@ let
         "minecraft-1.21.11" = _mOBaDzcU;
         "minecraft-26.1.1" = _YjMJ1CPz;
         "minecraft-26.1.2" = _YjMJ1CPz;
-        "minecraft-26.2" = _V7rrT5sO;
+        "minecraft-26.2" = _gGYKYXpG;
         "pkg-1.20.1" = _S843Uo1j;
         "pkg-1.20.2" = _N4lU972C;
         "pkg-1.20.4" = _OP7KW59H;
@@ -98,7 +104,8 @@ let
         "pkg-1.21.11" = _mOBaDzcU;
         "pkg-1.26.1" = _YjMJ1CPz;
         "pkg-1.26.2" = _V7rrT5sO;
-        "default" = _V7rrT5sO;
+        "pkg-1.26.3" = _gGYKYXpG;
+        "default" = _gGYKYXpG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "quadral";

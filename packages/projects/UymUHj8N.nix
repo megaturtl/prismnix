@@ -371,6 +371,26 @@ let
             "file" = "blockshot-forge-1.12.2-1.5.0.jar";
             "hash" = "sha512-FczgRujl/qXME64jGxu3qVUDUv5Kjy7obzUguu9S1140zsod06/KJ/yx9Yr3q7ccMBJFg5BJH4yujIrTeAc8rQ==";
         };
+        _Jmhf3jij = {
+            "id" = "Jmhf3jij";
+            "file" = "blockshot-fabric-26.3-1.5.1.jar";
+            "hash" = "sha512-M+IBp3juc/qi9Nl8n1fSX1C6I0Zz0lmn2HFGEYkWeRGNvrnTReCkawvnGmUE1mhua1l+0zLtKfMmq7V9vfTnEw==";
+        };
+        _c5pbfpT3 = {
+            "id" = "c5pbfpT3";
+            "file" = "blockshot-neoforge-26.3-1.5.1.jar";
+            "hash" = "sha512-6Fvg/dGiOunKDFH1uyV+PIX03eTWv28GF7Xx4bKv1ioavUFRtBUiWPzwPAjeH8T1F37KtU4LaYjVlc9aV2pwzw==";
+        };
+        _Z1oT49gQ = {
+            "id" = "Z1oT49gQ";
+            "file" = "blockshot-neoforge-26.3-1.5.1.jar";
+            "hash" = "sha512-6Fvg/dGiOunKDFH1uyV+PIX03eTWv28GF7Xx4bKv1ioavUFRtBUiWPzwPAjeH8T1F37KtU4LaYjVlc9aV2pwzw==";
+        };
+        _MTohakzc = {
+            "id" = "MTohakzc";
+            "file" = "blockshot-fabric-26.3-1.5.1.jar";
+            "hash" = "sha512-M+IBp3juc/qi9Nl8n1fSX1C6I0Zz0lmn2HFGEYkWeRGNvrnTReCkawvnGmUE1mhua1l+0zLtKfMmq7V9vfTnEw==";
+        };
     in {
         "y4wX0FDI" = _y4wX0FDI;
         "DVRBKSy1" = _DVRBKSy1;
@@ -446,6 +466,10 @@ let
         "UR6J19sg" = _UR6J19sg;
         "tP0MYXcp" = _tP0MYXcp;
         "4xLPmUSq" = _4xLPmUSq;
+        "Jmhf3jij" = _Jmhf3jij;
+        "c5pbfpT3" = _c5pbfpT3;
+        "Z1oT49gQ" = _Z1oT49gQ;
+        "MTohakzc" = _MTohakzc;
         "forge-1.16.5" = _nkjBCjyb;
         "forge-1.18" = _C4io18sp;
         "forge-1.18.1" = _C4io18sp;
@@ -478,6 +502,7 @@ let
         "fabric-1.21.7" = _SADl0fXm;
         "fabric-1.21.11" = _jFTZrV5k;
         "fabric-26.1.2" = _UR6J19sg;
+        "fabric-26.3" = _MTohakzc;
         "neoforge-1.20" = _bI1tNJev;
         "neoforge-1.20.1" = _bI1tNJev;
         "neoforge-1.20.2" = _R3FhoyfD;
@@ -491,6 +516,7 @@ let
         "neoforge-1.21.7" = _dODwnxAb;
         "neoforge-1.21.11" = _o7pRMOK2;
         "neoforge-26.1.2" = _tP0MYXcp;
+        "neoforge-26.3" = _Z1oT49gQ;
         "pkg-1.2.5" = _Hj4U1bQJ;
         "pkg-1" = _DVRBKSy1;
         "pkg-3" = _G62vwiP5;
@@ -501,7 +527,8 @@ let
         "pkg-1.4.0" = _vJ6X2DOQ;
         "pkg-1.4.1" = _Z2SXzWIo;
         "pkg-1.5.0" = _4xLPmUSq;
-        "default" = _4xLPmUSq;
+        "pkg-26.3-1.5.1" = _MTohakzc;
+        "default" = _MTohakzc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blockshot";

@@ -101,6 +101,11 @@ let
             "file" = "CopperGratesBubbleThru-2.2+26.2.jar";
             "hash" = "sha512-ZteGa0b5PWJYYyb2t5p7HoAIrrPSd8GqeTYlq4scpCXWBgmp1IfTD5d6Q+WypGGQWYTChwWxxyePUsOyYF4I1g==";
         };
+        _FGV4LfK7 = {
+            "id" = "FGV4LfK7";
+            "file" = "CopperGratesBubbleThru-2.2+26.3.jar";
+            "hash" = "sha512-IEH+UOEuxlf/y0tcsFwTcEuIZx+l4iB+L7LrNAjLnDDCQslgI32k8PYGfCfVIeqmQc7GFwh80I4veKanEN7R2g==";
+        };
     in {
         "s78fp8VU" = _s78fp8VU;
         "NNdtOIRW" = _NNdtOIRW;
@@ -122,6 +127,7 @@ let
         "wFaiiYfV" = _wFaiiYfV;
         "5tCD9qXN" = _5tCD9qXN;
         "wo0o5HZH" = _wo0o5HZH;
+        "FGV4LfK7" = _FGV4LfK7;
         "fabric-1.21" = _qLbFr6jS;
         "fabric-1.21.1" = _ikr1f0fE;
         "fabric-1.21.2" = _ETHj9kEo;
@@ -140,6 +146,7 @@ let
         "fabric-26.1" = _wFaiiYfV;
         "fabric-26.1.2" = _5tCD9qXN;
         "fabric-26.2" = _wo0o5HZH;
+        "fabric-26.3" = _FGV4LfK7;
         "pkg-1.0+1.21" = _s78fp8VU;
         "pkg-1.1+1.21" = _NNdtOIRW;
         "pkg-1.1+1.21.2" = _ETHj9kEo;
@@ -160,7 +167,8 @@ let
         "pkg-2.1+26.1" = _wFaiiYfV;
         "pkg-2.2+26.1.2" = _5tCD9qXN;
         "pkg-2.2+26.2" = _wo0o5HZH;
-        "default" = _wo0o5HZH;
+        "pkg-2.2+26.3" = _FGV4LfK7;
+        "default" = _FGV4LfK7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "copper-grates-bubble";

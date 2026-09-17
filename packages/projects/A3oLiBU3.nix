@@ -21,17 +21,24 @@ let
             "file" = "ec_an_plugin-1.21.1-1.1.1.jar";
             "hash" = "sha512-/fxwruvFKwIrpoB9BjZP2LTyyzR4XRp9yeqcxoX+TWYFJsHiPMo5rr3GxUCxpuJwvNiGwRci1cpG6qDqMvumfQ==";
         };
+        _f0qfi7NS = {
+            "id" = "f0qfi7NS";
+            "file" = "ec_an_plugin-1.21.1-1.1.2.jar";
+            "hash" = "sha512-TnKSGoiE6xXJwcGnpZEu3PkOSYiF9CAeAGmED4gPsTTzOLucV8s7qwP8OwmC7XXR0IlYNoN3QOn6DEBhy30pYw==";
+        };
     in {
         "pSRJ6hqC" = _pSRJ6hqC;
         "Dvv7YabQ" = _Dvv7YabQ;
         "W3Rx2ZBx" = _W3Rx2ZBx;
         "fKvQJvXL" = _fKvQJvXL;
+        "f0qfi7NS" = _f0qfi7NS;
         "forge-1.20.1" = _W3Rx2ZBx;
-        "neoforge-1.21.1" = _fKvQJvXL;
+        "neoforge-1.21.1" = _f0qfi7NS;
         "pkg-1.0.0" = _pSRJ6hqC;
         "pkg-1.1.0" = _Dvv7YabQ;
         "pkg-1.1.1" = _fKvQJvXL;
-        "default" = _fKvQJvXL;
+        "pkg-1.1.2" = _f0qfi7NS;
+        "default" = _f0qfi7NS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ec-an-compat";

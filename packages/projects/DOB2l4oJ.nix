@@ -376,6 +376,21 @@ let
             "file" = "libraryferret-forge-1.21.11-4.0.0.jar";
             "hash" = "sha512-bQZTSFFwoXKSOpZupGIr4KQR4xHLOXHXdeGfZOAk1UVcXh+Ql5nBbaMrBr2VahYVZ+l2WXlKFt6e0ny8K5LZWA==";
         };
+        _cPdrzpei = {
+            "id" = "cPdrzpei";
+            "file" = "libraryferret-forge-26.2-5.0.0.jar";
+            "hash" = "sha512-p3HsRf8bKQJmH+oDGEa+JNWXe0ntB/czMT0vVcqFvfpIl8tgNvRXuNmBYXi9nO4dkWBkCu2b36kltzguJB2beg==";
+        };
+        _AIIk4we2 = {
+            "id" = "AIIk4we2";
+            "file" = "libraryferret-fabric-26.2-5.0.0.jar";
+            "hash" = "sha512-vq3X1hUXPsloD3HPgWepHV2FhzXJHB/rhTfo2NNWRZQyYlHVQXi7WzFF0AYDRwuoba9taMhsV9beioyZyfsmxw==";
+        };
+        _ZLm54U5k = {
+            "id" = "ZLm54U5k";
+            "file" = "libraryferret-neoforge-26.2-5.0.0.jar";
+            "hash" = "sha512-bSOIulvpOL2sPyNSvUEn7wtGcvpEyzvtJsRnISJVgsnCMWDVEsKCjndbeD3j25OqpcWM71C0byDJPMcptqlXLQ==";
+        };
     in {
         "4vBB6GCj" = _4vBB6GCj;
         "E1ahHWwg" = _E1ahHWwg;
@@ -452,6 +467,9 @@ let
         "vJV6LmwS" = _vJV6LmwS;
         "nAYan9Ev" = _nAYan9Ev;
         "OQlVgAwf" = _OQlVgAwf;
+        "cPdrzpei" = _cPdrzpei;
+        "AIIk4we2" = _AIIk4we2;
+        "ZLm54U5k" = _ZLm54U5k;
         "fabric-1.20.1" = _edE8fBJQ;
         "fabric-1.19.4" = _md0mIzkZ;
         "fabric-1.16.5" = _LSolFu31;
@@ -480,6 +498,7 @@ let
         "fabric-1.21.9" = _Qeg6h3l7;
         "fabric-1.21.10" = _Xy08rumm;
         "fabric-1.21.11" = _vJV6LmwS;
+        "fabric-26.2" = _AIIk4we2;
         "forge-1.20.1" = _wl68oCTb;
         "forge-1.19.2" = _yJvEoGQD;
         "forge-1.19.4" = _MFar6IMD;
@@ -506,6 +525,7 @@ let
         "forge-1.21.9" = _QBSsE3Tb;
         "forge-1.21.10" = _nAYan9Ev;
         "forge-1.21.11" = _OQlVgAwf;
+        "forge-26.2" = _cPdrzpei;
         "neoforge-1.20.2" = _XnAFXEjk;
         "neoforge-1.20.3" = _vXVzDWoz;
         "neoforge-1.20.4" = _Isikruux;
@@ -519,8 +539,10 @@ let
         "neoforge-1.21.7" = _8O6IJ5sr;
         "neoforge-1.21.8" = _2K7YjltZ;
         "neoforge-1.21.9" = _3qiE5cQm;
+        "neoforge-26.2" = _ZLm54U5k;
         "pkg-4.0.0" = _OQlVgAwf;
-        "default" = _OQlVgAwf;
+        "pkg-5.0.0" = _ZLm54U5k;
+        "default" = _ZLm54U5k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "library-ferret";

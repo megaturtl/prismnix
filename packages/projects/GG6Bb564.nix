@@ -31,6 +31,11 @@ let
             "file" = "smoothcamera-1.16+.jar";
             "hash" = "sha512-8o8vdpkn7FvZ09CBdRGMtbWeOT7fwcITe6E1j1g8mnUVTYcfbrxMWR5Yzbj2q7xyDOHipI/lNITZ1n3zq5uX4w==";
         };
+        _7Un73u6U = {
+            "id" = "7Un73u6U";
+            "file" = "smoothcamera-1.1.0.jar";
+            "hash" = "sha512-LtXUmCBSm5VYMDLgyHJPw4NLLWq4X2A7K32vYMI8SAZ6xu0ntVCDEBVQvx9J+F7QzJV5cEjWKvaTp+TOj12+4Q==";
+        };
     in {
         "YpEI37Wo" = _YpEI37Wo;
         "CQY4VaFa" = _CQY4VaFa;
@@ -38,6 +43,7 @@ let
         "5IY7Tw98" = _5IY7Tw98;
         "LoLoOJBH" = _LoLoOJBH;
         "zeVpJPaB" = _zeVpJPaB;
+        "7Un73u6U" = _7Un73u6U;
         "fabric-1.21.11" = _FRDOIWWZ;
         "fabric-26.1" = _CQY4VaFa;
         "fabric-26.1.1" = _CQY4VaFa;
@@ -70,8 +76,10 @@ let
         "fabric-1.16.3" = _zeVpJPaB;
         "fabric-1.16.4" = _zeVpJPaB;
         "fabric-1.16.5" = _zeVpJPaB;
+        "fabric-26.3" = _7Un73u6U;
         "pkg-1.0.0" = _zeVpJPaB;
-        "default" = _zeVpJPaB;
+        "pkg-1.1.0" = _7Un73u6U;
+        "default" = _7Un73u6U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smoothcamera";

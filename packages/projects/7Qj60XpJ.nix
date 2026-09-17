@@ -136,6 +136,11 @@ let
             "file" = "corrupted-aspects-filchers-limbo-1.3.0-26.1+.jar";
             "hash" = "sha512-JKcv1BQFMBmG1oyVdCODSZ6cPzD4L4aSibPSn2E1g3NH+fUdXZ7zSWKRwvjppznPrMWz8pBktiBB5J7G1rJB+Q==";
         };
+        _XogPGkRU = {
+            "id" = "XogPGkRU";
+            "file" = "filched_datapack_v1.3.1.zip";
+            "hash" = "sha512-SIz9iJbe2XxwbOjNXCH7KJKh9F1PUrSD2oY2AcGovjrM3sOg1+fNDWim2aRTnPAnvJp5/vfWSdbqDs1i/lQUIw==";
+        };
     in {
         "v6qCZWhD" = _v6qCZWhD;
         "G5adFMtQ" = _G5adFMtQ;
@@ -164,25 +169,27 @@ let
         "uIFWHKl7" = _uIFWHKl7;
         "de19hKwA" = _de19hKwA;
         "XNl8y0Vh" = _XNl8y0Vh;
+        "XogPGkRU" = _XogPGkRU;
         "datapack-1.21.5" = _whlTJh0i;
-        "datapack-1.21.6" = _iRzUEMPg;
-        "datapack-1.21.7" = _iRzUEMPg;
-        "datapack-1.21.8" = _iRzUEMPg;
+        "datapack-1.21.6" = _XogPGkRU;
+        "datapack-1.21.7" = _XogPGkRU;
+        "datapack-1.21.8" = _XogPGkRU;
         "datapack-1.21.9-rc1" = _v6qCZWhD;
-        "datapack-1.21.9" = _iRzUEMPg;
-        "datapack-1.21.10" = _iRzUEMPg;
+        "datapack-1.21.9" = _XogPGkRU;
+        "datapack-1.21.10" = _XogPGkRU;
         "datapack-25w42a" = _crHM8ubq;
-        "datapack-1.21.11" = _iRzUEMPg;
+        "datapack-1.21.11" = _XogPGkRU;
         "datapack-26.1-snapshot-5" = _5WdI64au;
         "datapack-26.1-snapshot-6" = _5WdI64au;
         "datapack-26.1-snapshot-7" = _5WdI64au;
         "datapack-26.1-snapshot-8" = _5WdI64au;
         "datapack-26.1-snapshot-9" = _5WdI64au;
         "datapack-26.1-snapshot-10" = _5WdI64au;
-        "datapack-26.1" = _iRzUEMPg;
-        "datapack-26.1.1" = _iRzUEMPg;
-        "datapack-26.1.2" = _iRzUEMPg;
-        "datapack-26.2" = _iRzUEMPg;
+        "datapack-26.1" = _XogPGkRU;
+        "datapack-26.1.1" = _XogPGkRU;
+        "datapack-26.1.2" = _XogPGkRU;
+        "datapack-26.2" = _XogPGkRU;
+        "datapack-26.3" = _XogPGkRU;
         "fabric-1.21.5" = _qQYfcuaw;
         "fabric-1.21.6" = _J8z93RC0;
         "fabric-1.21.7" = _J8z93RC0;
@@ -245,7 +252,8 @@ let
         "pkg-1.2.2+mod" = _lCqXqLP0;
         "pkg-1.3.0" = _iRzUEMPg;
         "pkg-1.3.0+mod" = _XNl8y0Vh;
-        "default" = _XNl8y0Vh;
+        "pkg-1.3.1" = _XogPGkRU;
+        "default" = _XogPGkRU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "corrupted-aspects-filchers-limbo";

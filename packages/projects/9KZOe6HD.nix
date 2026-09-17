@@ -2076,6 +2076,21 @@ let
             "file" = "movingelevators-1.4.12a-neoforge-mc26.2.jar";
             "hash" = "sha512-yzdPnXFEpChq1cDgmhefj17+Cvwrwr47lUY7KD6lCX1YWP+cALPot/oqxn0DULZkHyWk+Pf1jI0tHSH9c8zJ7A==";
         };
+        _9VKxOZvh = {
+            "id" = "9VKxOZvh";
+            "file" = "movingelevators-1.4.12b-neoforge-mc26.2.jar";
+            "hash" = "sha512-HpImuEqJ+g+zd2Lx2ovOAs2H5eotbfoRXccPBMvH/DY9AxEo8RoAgNpxQwLfbt5ip3jFLgnLFlvQ8L4NZpFPVg==";
+        };
+        _tiiCEDHz = {
+            "id" = "tiiCEDHz";
+            "file" = "movingelevators-1.4.12-fabric-mc26.3.jar";
+            "hash" = "sha512-N/JvhN9MvqUWDnGgyv0TtcUx0iNHYnTDyTR0w+x0TYZSHH3shzsQz6SshWxXZzC+/iASFvIgk0UxFlneBxKwWg==";
+        };
+        _E8ZsYHRX = {
+            "id" = "E8ZsYHRX";
+            "file" = "movingelevators-1.4.12-neoforge-mc26.3.jar";
+            "hash" = "sha512-k1tlDSJBcAQdieTuKVHLeFkZnp6Q0ehrAt93K8t67oymDlCATIeWQhyCREzeBLbnf3AyGqA5U8t7w1WpMfMGRQ==";
+        };
     in {
         "VXWwBiXr" = _VXWwBiXr;
         "mSBnbC3K" = _mSBnbC3K;
@@ -2492,6 +2507,9 @@ let
         "e3uLDCXE" = _e3uLDCXE;
         "utomELkF" = _utomELkF;
         "oMt2uhIh" = _oMt2uhIh;
+        "9VKxOZvh" = _9VKxOZvh;
+        "tiiCEDHz" = _tiiCEDHz;
+        "E8ZsYHRX" = _E8ZsYHRX;
         "forge-1.12" = _eSCQSnUy;
         "forge-1.12.1" = _eSCQSnUy;
         "forge-1.12.2" = _eSCQSnUy;
@@ -2570,6 +2588,7 @@ let
         "fabric-26.1.1" = _YdrA6dUw;
         "fabric-26.1.2" = _YdrA6dUw;
         "fabric-26.2" = _utomELkF;
+        "fabric-26.3" = _tiiCEDHz;
         "neoforge-1.12" = _YDfniue0;
         "neoforge-1.12.1" = _YDfniue0;
         "neoforge-1.12.2" = _YDfniue0;
@@ -2619,7 +2638,8 @@ let
         "neoforge-26.1" = _lI5Wde1k;
         "neoforge-26.1.1" = _lI5Wde1k;
         "neoforge-26.1.2" = _lI5Wde1k;
-        "neoforge-26.2" = _oMt2uhIh;
+        "neoforge-26.2" = _9VKxOZvh;
+        "neoforge-26.3" = _E8ZsYHRX;
         "quilt-1.18" = _qlvEaOwW;
         "quilt-1.18.1" = _qlvEaOwW;
         "quilt-1.18.2" = _qlvEaOwW;
@@ -2648,6 +2668,7 @@ let
         "quilt-26.1.1" = _YdrA6dUw;
         "quilt-26.1.2" = _YdrA6dUw;
         "quilt-26.2" = _utomELkF;
+        "quilt-26.3" = _tiiCEDHz;
         "pkg-1.3.8-forge-mc1.12" = _VXWwBiXr;
         "pkg-1.3.8-forge-mc1.14" = _mSBnbC3K;
         "pkg-1.3.8-forge-mc1.15" = _4bTD97dD;
@@ -3059,7 +3080,10 @@ let
         "pkg-1.4.12a-forge-mc26.2" = _e3uLDCXE;
         "pkg-1.4.12a-fabric-mc26.2" = _utomELkF;
         "pkg-1.4.12a-neoforge-mc26.2" = _oMt2uhIh;
-        "default" = _oMt2uhIh;
+        "pkg-1.4.12b-neoforge-mc26.2" = _9VKxOZvh;
+        "pkg-1.4.12-fabric-mc26.3" = _tiiCEDHz;
+        "pkg-1.4.12-neoforge-mc26.3" = _E8ZsYHRX;
+        "default" = _E8ZsYHRX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "moving-elevators";

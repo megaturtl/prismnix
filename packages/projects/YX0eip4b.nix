@@ -711,6 +711,16 @@ let
             "file" = "lifesteal-fabric-10.0.7-26.1.jar";
             "hash" = "sha512-YAN4/+7kKPt0OnmZv9C4bMVymtzVTdIvtGAfw5S/yVPBMtzVHV87oSmMmY9JLgg2xgOJZ7m+uKkAj1+zYuSeoA==";
         };
+        _fk4ZiddA = {
+            "id" = "fk4ZiddA";
+            "file" = "lifesteal-neoforge-10.0.7-26.2.jar";
+            "hash" = "sha512-BS2OLOr//0319XXx1ZcI8kbMru8cbE4x2IB6pY9EJaDuBZoiRsPvZCcAJrxMW/acykiBVwzz/eEjb3FSjabp+g==";
+        };
+        _lUxZorbb = {
+            "id" = "lUxZorbb";
+            "file" = "lifesteal-fabric-10.0.7-26.2.jar";
+            "hash" = "sha512-TWeQKz2RtmBVJ2v/ARk3pHlc3l9Itksrg53Yx4Km77eEytI86HZLBR2/PRak1OGok7P0KST9YQHqfW9x/+/JOA==";
+        };
     in {
         "6EQCEtue" = _6EQCEtue;
         "6mqGkzFj" = _6mqGkzFj;
@@ -854,6 +864,8 @@ let
         "Qra2AeXc" = _Qra2AeXc;
         "iG4THDJF" = _iG4THDJF;
         "sGl0TfdR" = _sGl0TfdR;
+        "fk4ZiddA" = _fk4ZiddA;
+        "lUxZorbb" = _lUxZorbb;
         "forge-1.19" = _D2MmQdrr;
         "forge-1.17.1" = _sHEnZFml;
         "forge-1.18.2" = _WnmNgt22;
@@ -894,6 +906,7 @@ let
         "fabric-26.1" = _sGl0TfdR;
         "fabric-26.1.1" = _sGl0TfdR;
         "fabric-26.1.2" = _sGl0TfdR;
+        "fabric-26.2" = _lUxZorbb;
         "neoforge-1.20.1" = _UwnsYFu6;
         "neoforge-1.20.4" = _aztC4rxB;
         "neoforge-1.21" = _qTUvNbi7;
@@ -907,6 +920,7 @@ let
         "neoforge-26.1" = _iG4THDJF;
         "neoforge-26.1.1" = _iG4THDJF;
         "neoforge-26.1.2" = _iG4THDJF;
+        "neoforge-26.2" = _fk4ZiddA;
         "pkg-2.6.0" = _6EQCEtue;
         "pkg-2.6.1" = _6mqGkzFj;
         "pkg-2.6.2" = _WIC27kBs;
@@ -1005,7 +1019,9 @@ let
         "pkg-forge-10.0.7-26.1" = _Qra2AeXc;
         "pkg-neoforge-10.0.7-26.1" = _iG4THDJF;
         "pkg-fabric-10.0.7-26.1" = _sGl0TfdR;
-        "default" = _sGl0TfdR;
+        "pkg-neoforge-10.0.7-26.2" = _fk4ZiddA;
+        "pkg-fabric-10.0.7-26.2" = _lUxZorbb;
+        "default" = _lUxZorbb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lifesteal-mian";

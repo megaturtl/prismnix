@@ -41,6 +41,11 @@ let
             "file" = "GUIUnipolarity V1.3.zip";
             "hash" = "sha512-theLKpbeeM43SE4oYae7E7Ro2O8pYELrRWoqBXpTTNxkr/QW4UjLWEUAiYpbj4JghP55+Sus8WfFTorb5qmb/Q==";
         };
+        _tHLbz92o = {
+            "id" = "tHLbz92o";
+            "file" = "GUIUnipolarity V1.3 26.2.zip";
+            "hash" = "sha512-haQE84PsR7qxs4nj5N5vzxmfDSMxjElwN8KPw9BB/g3Q3gPMBfr0IuBE/RbD2abWiccw0P6T9GeBC+1FNmTS4w==";
+        };
     in {
         "XjpRmeyC" = _XjpRmeyC;
         "FbbbImmH" = _FbbbImmH;
@@ -50,6 +55,7 @@ let
         "Hp88oV5s" = _Hp88oV5s;
         "rRAGbD6t" = _rRAGbD6t;
         "mmoTqzN5" = _mmoTqzN5;
+        "tHLbz92o" = _tHLbz92o;
         "minecraft-1.20" = _XjpRmeyC;
         "minecraft-1.20.1" = _XjpRmeyC;
         "minecraft-1.20.2" = _XjpRmeyC;
@@ -87,11 +93,12 @@ let
         "minecraft-1.16.3" = _mmoTqzN5;
         "minecraft-1.16.4" = _mmoTqzN5;
         "minecraft-1.16.5" = _mmoTqzN5;
+        "minecraft-26.2" = _tHLbz92o;
         "pkg-1.0" = _XjpRmeyC;
         "pkg-1.1" = _FbbbImmH;
         "pkg-1.2" = _n9A3XSD5;
-        "pkg-1.3" = _mmoTqzN5;
-        "default" = _mmoTqzN5;
+        "pkg-1.3" = _tHLbz92o;
+        "default" = _tHLbz92o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gui-unipolarity";

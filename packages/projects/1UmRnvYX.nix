@@ -246,6 +246,26 @@ let
             "file" = "more-than-apples-26.2-1.3.0.jar";
             "hash" = "sha512-k+IosQ/6X6l4lQgReATW+EARcm6EB9eTSvkGarj3VZrYbZs5NDzTZG7HgmfsqxzlvOyHEaV5hX635W5XyVpzxQ==";
         };
+        _AfwlZECu = {
+            "id" = "AfwlZECu";
+            "file" = "more-than-apples-26.1.2-1.3.1.jar";
+            "hash" = "sha512-DO9izFWbjSPtlMbU+K5P1f0IAofn/2M0Y3Wl2zlU6p/GgGF1GQJ/F4zxlLjdti18nkhn9kr3erm20diGWCKx5A==";
+        };
+        _zfz2tLBh = {
+            "id" = "zfz2tLBh";
+            "file" = "more-than-apples-26.2-1.3.1.jar";
+            "hash" = "sha512-/lVK/prR4vUmRWeBlONEevQFgR0cL2Q/TUyhmTWF1mD1EPFXJkef781PDpuqg+9CBj7SmuW2IXJfXCuumL5zgg==";
+        };
+        _jzVGeGaS = {
+            "id" = "jzVGeGaS";
+            "file" = "more-than-apples-26.1.2-1.3.2.jar";
+            "hash" = "sha512-QH/m6+/ruWpsW5up7H/OWXQd+dnNB99pTkbYw8KPtqSycHavBk3RD6RnHfHhVIhALCUyU9un9xEpeOtDQ3ysjQ==";
+        };
+        _RieGsmpj = {
+            "id" = "RieGsmpj";
+            "file" = "more-than-apples-26.2-1.3.2.jar";
+            "hash" = "sha512-lhXR8a/d0wHejIyIm+KxCJq4u1GFBY2pTSp9ysVd1O0n3oaK3HaO57xwibStuJrDaKDrg8HdLvklbnblGiJFuA==";
+        };
     in {
         "grrnKNwV" = _grrnKNwV;
         "8toxkfgk" = _8toxkfgk;
@@ -296,6 +316,10 @@ let
         "Q5kFzJd1" = _Q5kFzJd1;
         "H95L9KVc" = _H95L9KVc;
         "gJRcyOaV" = _gJRcyOaV;
+        "AfwlZECu" = _AfwlZECu;
+        "zfz2tLBh" = _zfz2tLBh;
+        "jzVGeGaS" = _jzVGeGaS;
+        "RieGsmpj" = _RieGsmpj;
         "fabric-1.21.1" = _uQBeaQ5t;
         "fabric-1.21.2" = _fVDDvMK3;
         "fabric-1.21.3" = _yvTuryqt;
@@ -309,8 +333,8 @@ let
         "fabric-1.21.11" = _SvHo8Fpe;
         "fabric-26.1" = _K9WWRfSz;
         "fabric-26.1.1" = _L7WlSk4o;
-        "fabric-26.1.2" = _H95L9KVc;
-        "fabric-26.2" = _gJRcyOaV;
+        "fabric-26.1.2" = _jzVGeGaS;
+        "fabric-26.2" = _RieGsmpj;
         "pkg-mta1.0.0" = _grrnKNwV;
         "pkg-mta1.0.1" = _8toxkfgk;
         "pkg-mta1.0.2" = _ZdwcuJLy;
@@ -321,7 +345,9 @@ let
         "pkg-mta-1.2.0" = _bFaA4uht;
         "pkg-mta-1.2.1" = _Q5kFzJd1;
         "pkg-mta-1.3.0" = _gJRcyOaV;
-        "default" = _gJRcyOaV;
+        "pkg-mta-1.3.1" = _zfz2tLBh;
+        "pkg-mta-1.3.2" = _RieGsmpj;
+        "default" = _RieGsmpj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-than-apples";

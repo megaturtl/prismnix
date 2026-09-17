@@ -356,6 +356,26 @@ let
             "file" = "bits_n_bobs-2.3.0.jar";
             "hash" = "sha512-Oy8WtS7d+1/u79AhNSWCuK9lXOW6zeLCUGnM2JDme4aA/rL+Ir51urlTyWenAYJiAgAmMaPnDA0SdSGdijibpA==";
         };
+        _eqN5R6vl = {
+            "id" = "eqN5R6vl";
+            "file" = "bits_n_bobs-2.3.1.jar";
+            "hash" = "sha512-YLNawhA1YncLzSbzeIeU6LQerI+XEO795yXKsNA6pEogXG507qEAjGDi77YPm8e3wQzZ8FsPoiWSAEgoOEfxtQ==";
+        };
+        _4myEhNeB = {
+            "id" = "4myEhNeB";
+            "file" = "bits_n_bobs-2.3.2.jar";
+            "hash" = "sha512-FVeBSQ8axRp9vO0e+8Im196xSlc0wW1kb51pZCS352HpyWIwQmNKoExmHhmXMZIiDoDmK1do61Lqq7nLwLHl4A==";
+        };
+        _DRKQse4Z = {
+            "id" = "DRKQse4Z";
+            "file" = "bits_n_bobs-2.3.4.jar";
+            "hash" = "sha512-7cdIfaPybSHvQ953o3eb+MhXkAUmgrGmRQRqsLVvF9j4b6dWHfxG8dcPhqYVb66RaaGUrk8LrM+J5QihBOWtSw==";
+        };
+        _g9Lmjjc5 = {
+            "id" = "g9Lmjjc5";
+            "file" = "bits_n_bobs-2.3.5.jar";
+            "hash" = "sha512-M6qoNfGxd0orLxTtYBXv30els4J+cCgUxlHM3gjvX9p1cvZzTDsPE2eVtFlyoVPI3+Mw33CLZIfljhiinGicuA==";
+        };
     in {
         "zAejhGzd" = _zAejhGzd;
         "QLjmud4k" = _QLjmud4k;
@@ -428,7 +448,11 @@ let
         "TBMo5Aah" = _TBMo5Aah;
         "wkaZQqvJ" = _wkaZQqvJ;
         "FDhmsc9R" = _FDhmsc9R;
-        "neoforge-1.21.1" = _FDhmsc9R;
+        "eqN5R6vl" = _eqN5R6vl;
+        "4myEhNeB" = _4myEhNeB;
+        "DRKQse4Z" = _DRKQse4Z;
+        "g9Lmjjc5" = _g9Lmjjc5;
+        "neoforge-1.21.1" = _g9Lmjjc5;
         "forge-1.20.1" = _KhetYQ7p;
         "pkg-0.0.8" = _zAejhGzd;
         "pkg-0.0.9" = _QLjmud4k;
@@ -490,7 +514,11 @@ let
         "pkg-2.2.8" = _TBMo5Aah;
         "pkg-2.2.9" = _wkaZQqvJ;
         "pkg-2.3.0" = _FDhmsc9R;
-        "default" = _FDhmsc9R;
+        "pkg-2.3.1" = _eqN5R6vl;
+        "pkg-2.3.2" = _4myEhNeB;
+        "pkg-2.3.4" = _DRKQse4Z;
+        "pkg-2.3.5" = _g9Lmjjc5;
+        "default" = _g9Lmjjc5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-bits-n-bobs";

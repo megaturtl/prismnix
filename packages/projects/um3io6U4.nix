@@ -31,6 +31,11 @@ let
             "file" = "chrissi-nightvision-0.6.jar";
             "hash" = "sha512-bplaNhgW93FMWN/mnR0q7HUgbP3InrBZVyg9oeG6VXzqH7Qw04KPbK0uFlc4hGTzJsziYtSpt0iJzIRYUa0n4A==";
         };
+        _GHwfuqOD = {
+            "id" = "GHwfuqOD";
+            "file" = "chrissi-nightvision-0.7.jar";
+            "hash" = "sha512-69jhBTT6Ks9p0L1NGqkor75BMMiOtBecAGYeDTSfeZXLFSSwqOKwIK0xSm3sJMb4zTusEoDNR3dviTWHKeBwEQ==";
+        };
     in {
         "gJC7LUds" = _gJC7LUds;
         "alEDSUWP" = _alEDSUWP;
@@ -38,6 +43,7 @@ let
         "qLKgiwH3" = _qLKgiwH3;
         "FST2YUCw" = _FST2YUCw;
         "nicrDUMu" = _nicrDUMu;
+        "GHwfuqOD" = _GHwfuqOD;
         "fabric-1.21.10" = _1H2BARvw;
         "fabric-1.21.9" = _1H2BARvw;
         "fabric-1.21.11" = _1H2BARvw;
@@ -45,13 +51,15 @@ let
         "fabric-26.1.1" = _qLKgiwH3;
         "fabric-26.1.2" = _qLKgiwH3;
         "fabric-26.2" = _nicrDUMu;
+        "fabric-26.3" = _GHwfuqOD;
         "pkg-0.1" = _gJC7LUds;
         "pkg-0.2" = _alEDSUWP;
         "pkg-0.3" = _1H2BARvw;
         "pkg-0.4" = _qLKgiwH3;
         "pkg-0.5" = _FST2YUCw;
         "pkg-0.6" = _nicrDUMu;
-        "default" = _nicrDUMu;
+        "pkg-0.7" = _GHwfuqOD;
+        "default" = _GHwfuqOD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chrissi-nightvision";

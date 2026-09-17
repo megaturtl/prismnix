@@ -191,6 +191,26 @@ let
             "file" = "axis-0.5.0.jar";
             "hash" = "sha512-RBEzMTBTwHeqifzLIKavc+MsoChhjyk03EygPre5TWdZ3CXMXt+CJKGsO6/WlMqDe9FTNZ9/RQKQYij7dEUZ2g==";
         };
+        _HUloygOM = {
+            "id" = "HUloygOM";
+            "file" = "Axis Datapack.zip";
+            "hash" = "sha512-k4Yu9M86rKyhavfYZafFEXkgcjkWA+LSDCeXs9a6cHNKdJCTDVhMHdqJr1b6L1A30gJGHWBw+qBmzHLOf5xwQA==";
+        };
+        _8COAjnlI = {
+            "id" = "8COAjnlI";
+            "file" = "axis-0.5.1-datapack.jar";
+            "hash" = "sha512-xEszMuPB9b9GEYHeV4t2/SCX0q5PFS/YybBHTpp8VaMdI0t8uMozCGH9Ot6XXUUU+/M8LqVZZP82OtH/3/n/4A==";
+        };
+        _Zz8JCp7c = {
+            "id" = "Zz8JCp7c";
+            "file" = "Axis Datapack.zip";
+            "hash" = "sha512-IEpduBNFmdfStYl9lUHxT4lgKGoTVGLWGv5y9WLtZJcB/zcWJcBXaUwzYCY5fNnrv5oNQJ5CgUSKW7FGd4zzzA==";
+        };
+        _NNXFIoQ0 = {
+            "id" = "NNXFIoQ0";
+            "file" = "axis-0.5.2.jar";
+            "hash" = "sha512-/uoNbjnHp0DuALEBXFuqmbjwI6WmRNTu/w4TEhRy8rCJ2xNCL2l1cBzN57bbgdhSYODHpG3CCzU9p3uV/+2p4A==";
+        };
     in {
         "Ox3RW18C" = _Ox3RW18C;
         "uxv2ip6w" = _uxv2ip6w;
@@ -230,6 +250,10 @@ let
         "D8ls3Hxb" = _D8ls3Hxb;
         "V9SxXmPe" = _V9SxXmPe;
         "nga3m4vp" = _nga3m4vp;
+        "HUloygOM" = _HUloygOM;
+        "8COAjnlI" = _8COAjnlI;
+        "Zz8JCp7c" = _Zz8JCp7c;
+        "NNXFIoQ0" = _NNXFIoQ0;
         "datapack-1.21.3" = _W8P4bU6C;
         "datapack-1.21.4" = _7D5w5YRg;
         "datapack-1.21.5" = _OOKCJBHf;
@@ -260,6 +284,11 @@ let
         "datapack-26.3-snapshot-1" = _83TlrUhe;
         "datapack-26.3-snapshot-2" = _83TlrUhe;
         "datapack-26.3-snapshot-3" = _83TlrUhe;
+        "datapack-26.3-pre-3" = _Zz8JCp7c;
+        "datapack-26.3-rc-1" = _Zz8JCp7c;
+        "datapack-26.3-rc-2" = _Zz8JCp7c;
+        "datapack-26.3-rc-3" = _Zz8JCp7c;
+        "datapack-26.3" = _Zz8JCp7c;
         "fabric-1.21.5" = _azXX2zny;
         "fabric-1.21.6" = _iyCqgeyu;
         "fabric-1.21.7" = _iyCqgeyu;
@@ -288,6 +317,11 @@ let
         "fabric-26.3-snapshot-1" = _AV4i3qQi;
         "fabric-26.3-snapshot-2" = _AV4i3qQi;
         "fabric-26.3-snapshot-3" = _AV4i3qQi;
+        "fabric-26.3-pre-3" = _NNXFIoQ0;
+        "fabric-26.3-rc-1" = _NNXFIoQ0;
+        "fabric-26.3-rc-2" = _NNXFIoQ0;
+        "fabric-26.3-rc-3" = _NNXFIoQ0;
+        "fabric-26.3" = _NNXFIoQ0;
         "forge-1.21.5" = _azXX2zny;
         "forge-1.21.6" = _iyCqgeyu;
         "forge-1.21.7" = _iyCqgeyu;
@@ -316,6 +350,11 @@ let
         "forge-26.3-snapshot-1" = _AV4i3qQi;
         "forge-26.3-snapshot-2" = _AV4i3qQi;
         "forge-26.3-snapshot-3" = _AV4i3qQi;
+        "forge-26.3-pre-3" = _NNXFIoQ0;
+        "forge-26.3-rc-1" = _NNXFIoQ0;
+        "forge-26.3-rc-2" = _NNXFIoQ0;
+        "forge-26.3-rc-3" = _NNXFIoQ0;
+        "forge-26.3" = _NNXFIoQ0;
         "neoforge-1.21.5" = _azXX2zny;
         "neoforge-1.21.6" = _iyCqgeyu;
         "neoforge-1.21.7" = _iyCqgeyu;
@@ -344,6 +383,11 @@ let
         "neoforge-26.3-snapshot-1" = _AV4i3qQi;
         "neoforge-26.3-snapshot-2" = _AV4i3qQi;
         "neoforge-26.3-snapshot-3" = _AV4i3qQi;
+        "neoforge-26.3-pre-3" = _NNXFIoQ0;
+        "neoforge-26.3-rc-1" = _NNXFIoQ0;
+        "neoforge-26.3-rc-2" = _NNXFIoQ0;
+        "neoforge-26.3-rc-3" = _NNXFIoQ0;
+        "neoforge-26.3" = _NNXFIoQ0;
         "quilt-1.21.5" = _azXX2zny;
         "quilt-1.21.6" = _iyCqgeyu;
         "quilt-1.21.7" = _iyCqgeyu;
@@ -372,6 +416,11 @@ let
         "quilt-26.3-snapshot-1" = _AV4i3qQi;
         "quilt-26.3-snapshot-2" = _AV4i3qQi;
         "quilt-26.3-snapshot-3" = _AV4i3qQi;
+        "quilt-26.3-pre-3" = _NNXFIoQ0;
+        "quilt-26.3-rc-1" = _NNXFIoQ0;
+        "quilt-26.3-rc-2" = _NNXFIoQ0;
+        "quilt-26.3-rc-3" = _NNXFIoQ0;
+        "quilt-26.3" = _NNXFIoQ0;
         "pkg-0.0.1-datapack" = _Ox3RW18C;
         "pkg-0.0.2-datapack" = _uxv2ip6w;
         "pkg-0.0.3-datapack" = _W8P4bU6C;
@@ -410,7 +459,11 @@ let
         "pkg-0.4.0-mod" = _D8ls3Hxb;
         "pkg-0.5.0-datapack" = _V9SxXmPe;
         "pkg-0.5.0-mod" = _nga3m4vp;
-        "default" = _nga3m4vp;
+        "pkg-0.5.1-datapack" = _HUloygOM;
+        "pkg-0.5.1-mod" = _8COAjnlI;
+        "pkg-0.5.2-datapack" = _Zz8JCp7c;
+        "pkg-0.5.2-mod" = _NNXFIoQ0;
+        "default" = _NNXFIoQ0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "axis";

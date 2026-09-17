@@ -21,17 +21,32 @@ let
             "file" = "ambient_creatures-0.2.0-beta-26.2.jar";
             "hash" = "sha512-B+DMrQGBGciEAURF0E/HHuA2aRfLxYWB4hJzUWFBG6frWs7sQtf42m48WuwgFL76Boa5sbChvhQSSTcP6HYrpQ==";
         };
+        _hW6kgEjj = {
+            "id" = "hW6kgEjj";
+            "file" = "ambient_creatures-0.3.0-beta-26.2.jar";
+            "hash" = "sha512-+/dk/pTZlkCNps4g32NQJqOED9F3oCndmFuATYaP0SCcEpHsYczLAqcJ5bwELBkA979V3NOPnYG3pkRCrcwGbA==";
+        };
+        _sJb88U80 = {
+            "id" = "sJb88U80";
+            "file" = "ambient_creatures-0.3.0-beta-26.3.jar";
+            "hash" = "sha512-NHRNd5wxihSPokEZ1D/qJVw1oOuBPGhyP93wddflVcmaVLa9vnSbXgsJV6R1X3xlndJmZiY+G1kbYBHbqJCIsg==";
+        };
     in {
         "3EiOnPfb" = _3EiOnPfb;
         "TvfSYZe5" = _TvfSYZe5;
         "FthG5U92" = _FthG5U92;
         "6RD6wSds" = _6RD6wSds;
-        "fabric-26.2" = _6RD6wSds;
+        "hW6kgEjj" = _hW6kgEjj;
+        "sJb88U80" = _sJb88U80;
+        "fabric-26.2" = _hW6kgEjj;
+        "fabric-26.3" = _sJb88U80;
         "pkg-0.1.0-beta" = _3EiOnPfb;
         "pkg-0.1.1-beta" = _TvfSYZe5;
         "pkg-0.1.2-beta" = _FthG5U92;
         "pkg-0.2.0-beta" = _6RD6wSds;
-        "default" = _6RD6wSds;
+        "pkg-0.3.0-beta-26.2" = _hW6kgEjj;
+        "pkg-0.3.0-beta-26.3" = _sJb88U80;
+        "default" = _sJb88U80;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ambient-creatures";

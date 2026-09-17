@@ -181,6 +181,21 @@ let
             "file" = "vt-downloader-2.4.1+1.21.11.jar";
             "hash" = "sha512-9qwPI76xsz8XQPqB7uqLH7D1qzPzX6SwKJjW8h6HNnNcgHyAnRlqEDVA7xufFRGRUsomIf9TQ5C/pp5xfBHSpA==";
         };
+        _vKDX7tfh = {
+            "id" = "vKDX7tfh";
+            "file" = "vt-downloader-2.4.2+1.21.11.jar";
+            "hash" = "sha512-P27Ne4MVDatTUoWJ+Izlzu7BAbAtcUPZ0FE+eK1Mf1xHMZFJ1q4mOBrY4ol4vrYetg+QsRm1wcnZ84vglz7x+w==";
+        };
+        _R1s5FXS1 = {
+            "id" = "R1s5FXS1";
+            "file" = "vt-downloader-2.5.0+26.1.jar";
+            "hash" = "sha512-sFKiVCMx1xBIBLZqY5krpisBEA4wIiHJbQ6Bd1boJ3S9xnq4UWejrLYcAZI+QOlOyCh38z3cufY69x/YyFMcvQ==";
+        };
+        _gcytCNFG = {
+            "id" = "gcytCNFG";
+            "file" = "vt-downloader-2.6.0+26.2.jar";
+            "hash" = "sha512-5FXcsP549tW0rKBXqREmb5QnKiRNVY/RIAZ1bi3iIF0G/Clrv0J4kPCQVNekDWHScTBeTHHLWDBwfhXHhahpiA==";
+        };
     in {
         "PEXtqqFS" = _PEXtqqFS;
         "TnzxG4A0" = _TnzxG4A0;
@@ -218,6 +233,9 @@ let
         "19KmJhG7" = _19KmJhG7;
         "9d2Et9zt" = _9d2Et9zt;
         "5VMFCwkP" = _5VMFCwkP;
+        "vKDX7tfh" = _vKDX7tfh;
+        "R1s5FXS1" = _R1s5FXS1;
+        "gcytCNFG" = _gcytCNFG;
         "fabric-1.16" = _5EC3IUpM;
         "fabric-1.16.1" = _5EC3IUpM;
         "fabric-1.16.2" = _5EC3IUpM;
@@ -250,7 +268,9 @@ let
         "fabric-1.21.7" = _oBhv3GLA;
         "fabric-1.21.8" = _19KmJhG7;
         "fabric-1.21.10" = _9d2Et9zt;
-        "fabric-1.21.11" = _5VMFCwkP;
+        "fabric-1.21.11" = _vKDX7tfh;
+        "fabric-26.1" = _R1s5FXS1;
+        "fabric-26.2" = _gcytCNFG;
         "quilt-1.19-pre3" = _cET3AVsB;
         "quilt-1.19" = _iYto6AS3;
         "quilt-1.19.1-rc1" = _iYto6AS3;
@@ -272,7 +292,9 @@ let
         "quilt-1.21.7" = _oBhv3GLA;
         "quilt-1.21.8" = _19KmJhG7;
         "quilt-1.21.10" = _9d2Et9zt;
-        "quilt-1.21.11" = _5VMFCwkP;
+        "quilt-1.21.11" = _vKDX7tfh;
+        "quilt-26.1" = _R1s5FXS1;
+        "quilt-26.2" = _gcytCNFG;
         "pkg-1.0.0" = _PEXtqqFS;
         "pkg-1.0.1" = _TnzxG4A0;
         "pkg-1.0.2" = _PM3cphnL;
@@ -309,7 +331,10 @@ let
         "pkg-2.3.10+1.21.8" = _19KmJhG7;
         "pkg-2.4.0+1.21.10" = _9d2Et9zt;
         "pkg-2.4.1+1.21.11" = _5VMFCwkP;
-        "default" = _5VMFCwkP;
+        "pkg-2.4.2+1.21.11" = _vKDX7tfh;
+        "pkg-2.5.0+26.1" = _R1s5FXS1;
+        "pkg-2.6.0+26.2" = _gcytCNFG;
+        "default" = _gcytCNFG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vtdownloader";

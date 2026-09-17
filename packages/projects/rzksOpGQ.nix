@@ -71,6 +71,21 @@ let
             "file" = "ticket-of-eternal-keep-1.3.6-26.2.jar";
             "hash" = "sha512-/1KBbZRVUvHJKKbYUPdAlFrJ8wNDrIhyMzYImDjzr12m7tq6aP2LtsvREDOlptzsZ/ekleRW/TLP4Xo2iWnzsg==";
         };
+        _QVDt0hgn = {
+            "id" = "QVDt0hgn";
+            "file" = "ticket-of-eternal-keep-1.3.7-26.2.jar";
+            "hash" = "sha512-b2NKqRWPCzSFLgmfqW6MmFDrzpelbFz4jAEcmEuX3gbktNbMP2LVwBMq3IYwtogNEtZbwBU3QaOOVr2NmJO8JA==";
+        };
+        _IyzIaT2S = {
+            "id" = "IyzIaT2S";
+            "file" = "ticket-of-eternal-keep-1.3.7-26.3.jar";
+            "hash" = "sha512-HYX6y3ZWgSDjrkws2ZIajdElmJjsLNmRcC308VIP56ntMQKaFtjbrSPvrp9fHBbDRG8T1rA0FQcGZmL6fwPLbA==";
+        };
+        _slvT4h4s = {
+            "id" = "slvT4h4s";
+            "file" = "ticket-of-eternal-keep-1.3.7-26.3.jar";
+            "hash" = "sha512-HYX6y3ZWgSDjrkws2ZIajdElmJjsLNmRcC308VIP56ntMQKaFtjbrSPvrp9fHBbDRG8T1rA0FQcGZmL6fwPLbA==";
+        };
     in {
         "lfnLE41q" = _lfnLE41q;
         "Rj4q6wXD" = _Rj4q6wXD;
@@ -86,6 +101,9 @@ let
         "1oGgbCCo" = _1oGgbCCo;
         "YZiG6aox" = _YZiG6aox;
         "Q5klma0o" = _Q5klma0o;
+        "QVDt0hgn" = _QVDt0hgn;
+        "IyzIaT2S" = _IyzIaT2S;
+        "slvT4h4s" = _slvT4h4s;
         "fabric-1.20.4" = _Rj4q6wXD;
         "fabric-1.20.1" = _wGhy4wCl;
         "fabric-1.21" = _abJ34j45;
@@ -103,7 +121,8 @@ let
         "fabric-26.1" = _M3CKJBco;
         "fabric-26.1.1" = _1oGgbCCo;
         "fabric-26.1.2" = _YZiG6aox;
-        "fabric-26.2" = _Q5klma0o;
+        "fabric-26.2" = _QVDt0hgn;
+        "fabric-26.3" = _slvT4h4s;
         "pkg-1.1.0" = _lfnLE41q;
         "pkg-1.2.0" = _Rj4q6wXD;
         "pkg-1.2.1-1.20.1" = _wGhy4wCl;
@@ -118,7 +137,9 @@ let
         "pkg-1.3.6-26.1.1" = _1oGgbCCo;
         "pkg-1.3.6-26.1.2" = _YZiG6aox;
         "pkg-1.3.6-26.2" = _Q5klma0o;
-        "default" = _Q5klma0o;
+        "pkg-1.3.7-26.2" = _QVDt0hgn;
+        "pkg-1.3.7-26.3" = _slvT4h4s;
+        "default" = _slvT4h4s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ticket-of-eternal-keep";

@@ -561,6 +561,21 @@ let
             "file" = "scholar-1.20.1-1.2.5.1-fabric.jar";
             "hash" = "sha512-QsLpZAsWqxFceAYV7p4tXtpdDOwGiNaHpFFpkt+8GMzXNn33yCUMiFgvm8Awq+orMYUhCTYwehP62iyFSNFYFQ==";
         };
+        _CCOhtz1H = {
+            "id" = "CCOhtz1H";
+            "file" = "scholar-neoforge-1.21.1-1.2.6.jar";
+            "hash" = "sha512-M0Nq1J7PSV+T3lwHzaCarj3oyrj9aPdGN/N1twipKWyi1cvZtz+fhKGQB+3IbTE0IEjtbxagXKBHg7HotW7Z8g==";
+        };
+        _bj2q4mPa = {
+            "id" = "bj2q4mPa";
+            "file" = "scholar-fabric-1.21.1-1.2.6.jar";
+            "hash" = "sha512-mhDCSP06zdXcuRJBEVE5O1jKSaB3BEayZcNiy1HcBt0i440wGEnJZ2yJVyneeysO3F+d5rWfSY5Oau3FpzWJFg==";
+        };
+        _acPcWK9p = {
+            "id" = "acPcWK9p";
+            "file" = "scholar-fabric-1.21.1-1.2.7.jar";
+            "hash" = "sha512-WQhWOHayvreQvnmJA6qnVOqiaW/cZ1SrQtIiBXplsR1bGIO+1VPQ7gH3t4/Xf90hqmk+ci+cXubDmM/QZIMC4Q==";
+        };
     in {
         "s6nWdY8b" = _s6nWdY8b;
         "2QGwG4ex" = _2QGwG4ex;
@@ -674,8 +689,11 @@ let
         "Heqwkz9Z" = _Heqwkz9Z;
         "DxJo8Kc6" = _DxJo8Kc6;
         "uQ5zL0sd" = _uQ5zL0sd;
+        "CCOhtz1H" = _CCOhtz1H;
+        "bj2q4mPa" = _bj2q4mPa;
+        "acPcWK9p" = _acPcWK9p;
         "fabric-1.20.1" = _uQ5zL0sd;
-        "fabric-1.21.1" = _WkusEnsi;
+        "fabric-1.21.1" = _acPcWK9p;
         "fabric-1.21.4" = _tW0kBxLl;
         "fabric-1.21.5" = _1J97i9pU;
         "fabric-1.21.8" = _WgPzovE8;
@@ -689,7 +707,7 @@ let
         "quilt-1.20.1" = _uQ5zL0sd;
         "forge-1.20.1" = _DxJo8Kc6;
         "neoforge-1.20.1" = _2QGwG4ex;
-        "neoforge-1.21.1" = _K54Fcd9w;
+        "neoforge-1.21.1" = _CCOhtz1H;
         "neoforge-1.21.4" = _cbycZMLZ;
         "neoforge-1.21.5" = _2a2rFrvt;
         "neoforge-1.21.8" = _pE7EBalP;
@@ -728,7 +746,9 @@ let
         "pkg-1.2.4" = _sR1aXDHJ;
         "pkg-1.2.5" = _Heqwkz9Z;
         "pkg-1.2.5.1" = _uQ5zL0sd;
-        "default" = _uQ5zL0sd;
+        "pkg-1.2.6" = _bj2q4mPa;
+        "pkg-1.2.7" = _acPcWK9p;
+        "default" = _acPcWK9p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scholar";

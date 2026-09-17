@@ -156,6 +156,16 @@ let
             "file" = "vintagefix-0.7.0.jar";
             "hash" = "sha512-+QDuSYpXQgn0cZE1xBoG0cFImdCQXJxNvWMrtOeKAQJiWPeBCxmIVzfme4GjNtSSY4mk7pcysy136DUD6G1Dhw==";
         };
+        _I7Wki0yF = {
+            "id" = "I7Wki0yF";
+            "file" = "vintagefix-0.7.1.jar";
+            "hash" = "sha512-SolVjiHwbCgQnUyVEkh4oSgrhiSrgQ2am3A/gpt0SPMFaL3geyuRlw96ZgMWHH0a3GrQyS9MVjhaIgw/cEDVIg==";
+        };
+        _rdPtgrFV = {
+            "id" = "rdPtgrFV";
+            "file" = "vintagefix-0.7.1.jar";
+            "hash" = "sha512-SolVjiHwbCgQnUyVEkh4oSgrhiSrgQ2am3A/gpt0SPMFaL3geyuRlw96ZgMWHH0a3GrQyS9MVjhaIgw/cEDVIg==";
+        };
     in {
         "zKDRugju" = _zKDRugju;
         "ysg7pQcK" = _ysg7pQcK;
@@ -188,7 +198,9 @@ let
         "P4ev05PN" = _P4ev05PN;
         "sxxcjjGY" = _sxxcjjGY;
         "6MuNBnRe" = _6MuNBnRe;
-        "forge-1.12.2" = _6MuNBnRe;
+        "I7Wki0yF" = _I7Wki0yF;
+        "rdPtgrFV" = _rdPtgrFV;
+        "forge-1.12.2" = _rdPtgrFV;
         "pkg-0.1.0" = _zKDRugju;
         "pkg-0.2.0" = _ysg7pQcK;
         "pkg-0.2.1" = _1nmygwXz;
@@ -220,7 +232,8 @@ let
         "pkg-0.6.1" = _P4ev05PN;
         "pkg-0.6.2" = _sxxcjjGY;
         "pkg-0.7.0" = _6MuNBnRe;
-        "default" = _6MuNBnRe;
+        "pkg-0.7.1" = _rdPtgrFV;
+        "default" = _rdPtgrFV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vintagefix";

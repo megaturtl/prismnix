@@ -156,6 +156,26 @@ let
             "file" = "icys-better-horses-1.2.0.jar";
             "hash" = "sha512-dHFp6B7hT5OPbL3rpw52IqSi66/JSXyp3Xsm6l7U66/IW5Cddibc1lrdgIrP6rjgs1KUz0MCCnMKcZ6Zwg/e9A==";
         };
+        _eoOejzog = {
+            "id" = "eoOejzog";
+            "file" = "icys-better-horses-2.0.0-26.2-fab.jar";
+            "hash" = "sha512-ohZuXKRInZ8HZMlcYrFOVqoJxF63YBDoiD38o/BVm9Uzmu027S7dNyw/DB5wSE6UWaOsUaUZ8bGRxvLelbASHw==";
+        };
+        _NFiQDjWv = {
+            "id" = "NFiQDjWv";
+            "file" = "icys-better-horses-2.0.0-26.1.2-fab.jar";
+            "hash" = "sha512-1bdro+YGxGNwkQcdAd5lZyKggzwT+3f2XO1ylPNjSAjHXpz6a8I6DF6LuPLV2oBboco+PhP2CLx6loJXfEf0kA==";
+        };
+        _GWa40lJu = {
+            "id" = "GWa40lJu";
+            "file" = "icys-better-horses-2.0.0-1.21.1-neo.jar";
+            "hash" = "sha512-RAiF7U1PIsTYPgn7O0Sn5cSUPEhcAEyktA7u/82f/grBK83/vSQKvwiKF9kXLbpPyubD2nBp/MV3EYbZM9A5uw==";
+        };
+        _MwAFSUSV = {
+            "id" = "MwAFSUSV";
+            "file" = "icys-better-horses-2.0.0-26.1.2-neo.jar";
+            "hash" = "sha512-W7qd7oKn/6ASoPaZ0RpJM2i17UpdgDK+/GekpwgqGLJbRTwc1Wb6jG8RWMvAhatuYj/7nnC5xS2ICtTMiPuwoA==";
+        };
     in {
         "fgywe0KQ" = _fgywe0KQ;
         "6ynhZvdE" = _6ynhZvdE;
@@ -188,16 +208,20 @@ let
         "3BESpZIu" = _3BESpZIu;
         "GaphBStt" = _GaphBStt;
         "41Q9OmbL" = _41Q9OmbL;
+        "eoOejzog" = _eoOejzog;
+        "NFiQDjWv" = _NFiQDjWv;
+        "GWa40lJu" = _GWa40lJu;
+        "MwAFSUSV" = _MwAFSUSV;
         "fabric-1.21.10" = _pyrQi29C;
         "fabric-1.21" = _6ynhZvdE;
         "fabric-1.21.1" = _E9dGZ51h;
         "fabric-1.21.11" = _1AGqcr0y;
-        "fabric-26.1.2" = _Ybknaw3J;
-        "fabric-26.2" = _41Q9OmbL;
-        "neoforge-26.1.2" = _gxcGBxsK;
+        "fabric-26.1.2" = _NFiQDjWv;
+        "fabric-26.2" = _eoOejzog;
+        "neoforge-26.1.2" = _MwAFSUSV;
         "neoforge-1.21.11" = _Fp15vrbF;
         "neoforge-1.21.10" = _8yAqEUaF;
-        "neoforge-1.21.1" = _LxLexnee;
+        "neoforge-1.21.1" = _GWa40lJu;
         "forge-1.20.1" = _M2ySgx5C;
         "pkg-1.0.1" = _nV4geiEa;
         "pkg-1.0.2" = _5zxOG5oF;
@@ -208,7 +232,8 @@ let
         "pkg-1.1.6" = _3BESpZIu;
         "pkg-1.1.7" = _GaphBStt;
         "pkg-1.2.0" = _41Q9OmbL;
-        "default" = _41Q9OmbL;
+        "pkg-2.0.0" = _MwAFSUSV;
+        "default" = _MwAFSUSV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "icys-better-horses";

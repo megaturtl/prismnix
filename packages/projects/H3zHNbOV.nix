@@ -41,6 +41,21 @@ let
             "file" = "ProtectedAreaServer-1.0.4-server.jar";
             "hash" = "sha512-JhC+bVKkr0sIzHMS3d1sDfoYGQm2X5W+Oa7Yqrh+fHB51H4cAIybdsdVFZNJscaLbof7CL5YFLJrh7ynSKONCw==";
         };
+        _qFdFXKQF = {
+            "id" = "qFdFXKQF";
+            "file" = "ProtectedAreaServer-1.0.7-server.jar";
+            "hash" = "sha512-HUkNXDv1bMm/HqL5qXZ/TVQkR06twq+OqA76VQ7y+ttlm+I54SbTaFY4MAIqGoRo184sFiTtF6ma1tAbOm7eTg==";
+        };
+        _bE72TOj0 = {
+            "id" = "bE72TOj0";
+            "file" = "ProtectedAreaClient-1.0.7-client.jar";
+            "hash" = "sha512-gWVIrgqoSjO1qRtJLTd7r/vpM3r0ly/GQY61EulowHkMdkGdxP2TtJTu48t7+9HtLsC65dANr2Mr/R7JtejSog==";
+        };
+        _K8YCdRod = {
+            "id" = "K8YCdRod";
+            "file" = "ProtectedArea-1.0.8.jar";
+            "hash" = "sha512-LttG46XiejfCPC/ELJL4q++GwTAfi0N4MNnT3ghmuxpmlPUWYv6uSilUCGcRC2bBAdFz8PzDagrINdeeicW06g==";
+        };
     in {
         "xTe75d4w" = _xTe75d4w;
         "gaiS56uE" = _gaiS56uE;
@@ -50,8 +65,11 @@ let
         "MgROcG1I" = _MgROcG1I;
         "zGyXKrmC" = _zGyXKrmC;
         "LtsSFFiI" = _LtsSFFiI;
-        "fabric-1.21" = _LtsSFFiI;
-        "fabric-1.21.1" = _LtsSFFiI;
+        "qFdFXKQF" = _qFdFXKQF;
+        "bE72TOj0" = _bE72TOj0;
+        "K8YCdRod" = _K8YCdRod;
+        "fabric-1.21" = _K8YCdRod;
+        "fabric-1.21.1" = _K8YCdRod;
         "fabric-1.21.2" = _xTe75d4w;
         "fabric-1.21.3" = _xTe75d4w;
         "fabric-1.21.4" = _xTe75d4w;
@@ -66,7 +84,10 @@ let
         "pkg-1.0.2" = _c9uhqXvO;
         "pkg-1.0.3" = _MgROcG1I;
         "pkg-1.0.4" = _LtsSFFiI;
-        "default" = _LtsSFFiI;
+        "pkg-1.0.7-server" = _qFdFXKQF;
+        "pkg-1.0.7-client" = _bE72TOj0;
+        "pkg-1.0.8" = _K8YCdRod;
+        "default" = _K8YCdRod;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "protectedarea";

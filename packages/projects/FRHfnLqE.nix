@@ -31,6 +31,21 @@ let
             "file" = "3D Items-Vanillaism-26.2.zip";
             "hash" = "sha512-ScHruLjprL5BstHpWz/eDWQ3w0i1EOpdcenUvb8W5wBffvC4Ku1PlL86kGX4yOeul27yVpFhFtET2OpSbzl/mA==";
         };
+        _v1nnlOgz = {
+            "id" = "v1nnlOgz";
+            "file" = "3D Items-Vanillaism-26.1.2.zip";
+            "hash" = "sha512-8Z1dCYtahnsl0t4tOWcAM9GQGpEJZpI3UIstBY1ayudcqr4rFGCqk76F2HukB3cZqBoQPnHF07Z/k7sGFCjnJA==";
+        };
+        _Z2sYPHzA = {
+            "id" = "Z2sYPHzA";
+            "file" = "3D Items-Vanillaism-26.2.zip";
+            "hash" = "sha512-ow/uj/iIfguFuQ29mEy/t/MocSlDZ/KeZ/i/uBw7s8hO6QApvv9mNVaJdlU6SX8iY5uVPJhKhcWhR3IgfPsd1Q==";
+        };
+        _GrbZN9Wn = {
+            "id" = "GrbZN9Wn";
+            "file" = "3D Items-Vanillaism-26.3.zip";
+            "hash" = "sha512-V/ZLEh0RrKlDKpDKt7ZqcuZGqN3QEm5GMsDlnyLgB2iGxyMn8sNnBU2TDv6joRphkjLlK5/XEo10olwDEsL4Dg==";
+        };
     in {
         "zoYpjKt9" = _zoYpjKt9;
         "CgApAVym" = _CgApAVym;
@@ -38,19 +53,24 @@ let
         "B3yVKCzL" = _B3yVKCzL;
         "k9CjgAah" = _k9CjgAah;
         "QNLuGy3a" = _QNLuGy3a;
+        "v1nnlOgz" = _v1nnlOgz;
+        "Z2sYPHzA" = _Z2sYPHzA;
+        "GrbZN9Wn" = _GrbZN9Wn;
         "minecraft-1.16.5" = _zoYpjKt9;
         "minecraft-1.18.2" = _CgApAVym;
         "minecraft-1.20.1" = _LwA6QqIV;
         "minecraft-1.21.1" = _B3yVKCzL;
-        "minecraft-26.1.2" = _k9CjgAah;
-        "minecraft-26.2" = _QNLuGy3a;
+        "minecraft-26.1.2" = _v1nnlOgz;
+        "minecraft-26.2" = _Z2sYPHzA;
+        "minecraft-26.3" = _GrbZN9Wn;
         "pkg-1.16.5" = _zoYpjKt9;
         "pkg-1.18.2" = _CgApAVym;
         "pkg-1.20.1" = _LwA6QqIV;
         "pkg-1.21.1" = _B3yVKCzL;
-        "pkg-26.1.2" = _k9CjgAah;
-        "pkg-26.2" = _QNLuGy3a;
-        "default" = _QNLuGy3a;
+        "pkg-26.1.2" = _v1nnlOgz;
+        "pkg-26.2" = _Z2sYPHzA;
+        "pkg-26.3" = _GrbZN9Wn;
+        "default" = _GrbZN9Wn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "3d-items-vanillaism";

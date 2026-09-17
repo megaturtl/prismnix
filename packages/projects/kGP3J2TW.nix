@@ -61,6 +61,26 @@ let
             "file" = "immersive_machinery-0.2.0+1.21.1-neoforge.jar";
             "hash" = "sha512-xWeAIYmt/ABN/Kn/hRnnb+mQm09v6n0O4Hc8LkIyBhbNphNYoh6ZFjSVGmoTnazEPAm3F79GBq1p24I5txbN8Q==";
         };
+        _MZgtiDpV = {
+            "id" = "MZgtiDpV";
+            "file" = "immersive_machinery-0.2.1+1.20.1-fabric.jar";
+            "hash" = "sha512-MHao0NsFjrqzi1GI+Q3h6hdJ4RvZly7nlBk8jBn9zt1ZiIHhwUNLf627VezH4R6Z9xq4rTs1wSDCD2RdX367yQ==";
+        };
+        _cIgbyhGj = {
+            "id" = "cIgbyhGj";
+            "file" = "immersive_machinery-0.2.1+1.20.1-forge.jar";
+            "hash" = "sha512-NaR+LHsEuvkQthFxqr7KLwfvJRKbCg2/wNk33WMLHupgadDzAl8FRLj1Se0wXdNXo4RyQwX+oX5XxB2l0gcS7Q==";
+        };
+        _CEp6DgOD = {
+            "id" = "CEp6DgOD";
+            "file" = "immersive_machinery-0.2.1+1.21.1-fabric.jar";
+            "hash" = "sha512-rURksZ507MdetpPCrA9IICX0VYoqJHnR+uzbkF4Z2+ljx9S7Bxav9T17hiSZnRAC3Y+C95U0NrJEWErRzUoUpw==";
+        };
+        _gspOPbgM = {
+            "id" = "gspOPbgM";
+            "file" = "immersive_machinery-0.2.1+1.21.1-neoforge.jar";
+            "hash" = "sha512-5pAfCztcOydx8ur4ZEfCwfaw0xNaj9YYaeES/CnOG6R9ckFmmBbG+tKMAEjQYPXOPsRzHMqq3wrFecGamo9svw==";
+        };
     in {
         "pJ4tFcE8" = _pJ4tFcE8;
         "C82KfQD4" = _C82KfQD4;
@@ -74,17 +94,23 @@ let
         "sgXhNamJ" = _sgXhNamJ;
         "xWfKx36d" = _xWfKx36d;
         "I0rFojKK" = _I0rFojKK;
-        "fabric-1.20.1" = _uZYwyfB5;
-        "fabric-1.21.1" = _xWfKx36d;
-        "forge-1.20.1" = _sgXhNamJ;
-        "neoforge-1.21.1" = _I0rFojKK;
+        "MZgtiDpV" = _MZgtiDpV;
+        "cIgbyhGj" = _cIgbyhGj;
+        "CEp6DgOD" = _CEp6DgOD;
+        "gspOPbgM" = _gspOPbgM;
+        "fabric-1.20.1" = _MZgtiDpV;
+        "fabric-1.21.1" = _CEp6DgOD;
+        "forge-1.20.1" = _cIgbyhGj;
+        "neoforge-1.21.1" = _gspOPbgM;
         "pkg-0.0.1+1.20.1" = _C82KfQD4;
         "pkg-0.0.2+1.20.1" = _xOsgDpjY;
         "pkg-0.1.0+1.20.1" = _iXeaUSj9;
         "pkg-0.1.1+1.20.1" = _ix7dxCMH;
         "pkg-0.2.0+1.20.1" = _sgXhNamJ;
         "pkg-0.2.0+1.21.1" = _I0rFojKK;
-        "default" = _I0rFojKK;
+        "pkg-0.2.1+1.20.1" = _cIgbyhGj;
+        "pkg-0.2.1+1.21.1" = _gspOPbgM;
+        "default" = _gspOPbgM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-machinery";

@@ -21,11 +21,17 @@ let
             "file" = "Better Chests v1.3.0.zip";
             "hash" = "sha512-AqvYQB/BP3/7gp38+zHi4FWhQeiKD/fxijPYAz0lvTQ5P439QmthE7IRMyyqYN8MZ5i4fe80axOiGTY8WUS5Hg==";
         };
+        _Se4Wo2SG = {
+            "id" = "Se4Wo2SG";
+            "file" = "Better Chests 1.4.0.zip";
+            "hash" = "sha512-5sEYUNCGhk1fA4JTim5tWUOX+lBYeZjE3CNhwpbgvNaJcXY2E9IEL4ZINy0wPhw8OELFxoPIvVyNsBzSFF+9tg==";
+        };
     in {
         "Z7E7Crmp" = _Z7E7Crmp;
         "9TjdXLEM" = _9TjdXLEM;
         "YxK3w3ll" = _YxK3w3ll;
         "Ct3LuEB2" = _Ct3LuEB2;
+        "Se4Wo2SG" = _Se4Wo2SG;
         "minecraft-1.21" = _Z7E7Crmp;
         "minecraft-1.21.1" = _Z7E7Crmp;
         "minecraft-1.21.2" = _Z7E7Crmp;
@@ -38,15 +44,17 @@ let
         "minecraft-1.21.9" = _YxK3w3ll;
         "minecraft-1.21.10" = _YxK3w3ll;
         "minecraft-1.21.11" = _YxK3w3ll;
-        "minecraft-26.1" = _Ct3LuEB2;
-        "minecraft-26.1.1" = _Ct3LuEB2;
-        "minecraft-26.1.2" = _Ct3LuEB2;
-        "minecraft-26.2" = _Ct3LuEB2;
+        "minecraft-26.1" = _Se4Wo2SG;
+        "minecraft-26.1.1" = _Se4Wo2SG;
+        "minecraft-26.1.2" = _Se4Wo2SG;
+        "minecraft-26.2" = _Se4Wo2SG;
+        "minecraft-26.3" = _Se4Wo2SG;
         "pkg-1.0.0" = _Z7E7Crmp;
         "pkg-1.1.0" = _9TjdXLEM;
         "pkg-1.2.0" = _YxK3w3ll;
         "pkg-1.3.0" = _Ct3LuEB2;
-        "default" = _Ct3LuEB2;
+        "pkg-1.4.0" = _Se4Wo2SG;
+        "default" = _Se4Wo2SG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betterchests";

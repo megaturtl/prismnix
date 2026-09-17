@@ -141,6 +141,16 @@ let
             "file" = "unlock-all-recipes-107.1.jar";
             "hash" = "sha512-u+lRHpuGPsCFz18LcJT/0ohoehowz7nA4a/tMI/yW6oFqsEb47qqgaL3ngYanRwIbwi4B33ZG3dxL7aU+dxe9Q==";
         };
+        _GqBLBy7x = {
+            "id" = "GqBLBy7x";
+            "file" = "unlock-all-recipes-1.0.0-mc26.3.zip";
+            "hash" = "sha512-rJ2czakBjk6JOssBWYATA+w0CT0xI0bvQArg43Gd7cPabIWAKghLrUiln8wa87WElrfYx6cA4I+XBbEmb+Xudg==";
+        };
+        _xhyOnRmb = {
+            "id" = "xhyOnRmb";
+            "file" = "unlock-all-recipes-1.0.0.jar";
+            "hash" = "sha512-6fPRhWsAb34L4ovbZCQbbUKw4slM4U4hTO0lR2ZDn5ehKdtaWyabADX8nZGDOcT5WRBbHU8esx0buqI15ZpRMg==";
+        };
     in {
         "JfNvHxxb" = _JfNvHxxb;
         "OXaU27GS" = _OXaU27GS;
@@ -170,6 +180,8 @@ let
         "aA1hdaRV" = _aA1hdaRV;
         "JF5PBGD2" = _JF5PBGD2;
         "xFDSn2Qy" = _xFDSn2Qy;
+        "GqBLBy7x" = _GqBLBy7x;
+        "xhyOnRmb" = _xhyOnRmb;
         "datapack-1.20.3" = _JfNvHxxb;
         "datapack-1.20.4" = _JfNvHxxb;
         "datapack-1.20.5" = _X0rhWFpW;
@@ -190,6 +202,7 @@ let
         "datapack-26.1.1" = _rKwPOeZM;
         "datapack-26.1.2" = _rKwPOeZM;
         "datapack-26.2" = _JF5PBGD2;
+        "datapack-26.3" = _GqBLBy7x;
         "fabric-1.20.3" = _OXaU27GS;
         "fabric-1.20.4" = _OXaU27GS;
         "fabric-1.20.5" = _bQMOTwqb;
@@ -210,6 +223,7 @@ let
         "fabric-26.1.1" = _aA1hdaRV;
         "fabric-26.1.2" = _aA1hdaRV;
         "fabric-26.2" = _xFDSn2Qy;
+        "fabric-26.3" = _xhyOnRmb;
         "forge-1.20.3" = _OXaU27GS;
         "forge-1.20.4" = _OXaU27GS;
         "forge-1.20.5" = _bQMOTwqb;
@@ -230,6 +244,7 @@ let
         "forge-26.1.1" = _aA1hdaRV;
         "forge-26.1.2" = _aA1hdaRV;
         "forge-26.2" = _xFDSn2Qy;
+        "forge-26.3" = _xhyOnRmb;
         "quilt-1.20.3" = _OXaU27GS;
         "quilt-1.20.4" = _OXaU27GS;
         "quilt-1.20.5" = _bQMOTwqb;
@@ -250,6 +265,7 @@ let
         "quilt-26.1.1" = _aA1hdaRV;
         "quilt-26.1.2" = _aA1hdaRV;
         "quilt-26.2" = _xFDSn2Qy;
+        "quilt-26.3" = _xhyOnRmb;
         "neoforge-1.21.2" = _wJRLHmDL;
         "neoforge-1.21.3" = _wJRLHmDL;
         "neoforge-1.21.4" = _ImfA4s3G;
@@ -264,6 +280,7 @@ let
         "neoforge-26.1.1" = _aA1hdaRV;
         "neoforge-26.1.2" = _aA1hdaRV;
         "neoforge-26.2" = _xFDSn2Qy;
+        "neoforge-26.3" = _xhyOnRmb;
         "pkg-26.1" = _JfNvHxxb;
         "pkg-26.1+mod" = _OXaU27GS;
         "pkg-41.1" = _X0rhWFpW;
@@ -291,7 +308,9 @@ let
         "pkg-101.1+mod" = _aA1hdaRV;
         "pkg-107.1" = _JF5PBGD2;
         "pkg-107.1+mod" = _xFDSn2Qy;
-        "default" = _xFDSn2Qy;
+        "pkg-1.0.0" = _GqBLBy7x;
+        "pkg-1.0.0+mod" = _xhyOnRmb;
+        "default" = _xhyOnRmb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unlock-all-recipes";

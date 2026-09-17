@@ -661,6 +661,26 @@ let
             "file" = "SillyEatables_v5.0.0-pre.7_mc26.3pre1-2.zip";
             "hash" = "sha512-8vAZCV3OLILuy2+83ZA6YLVB8xoSos3bbpfLfYUep1Yk6Dec2T7XbLdjWDGj+xiMsgtrYkP8ARirA8Q6qoKQvg==";
         };
+        _hEKTfeA2 = {
+            "id" = "hEKTfeA2";
+            "file" = "SillyEatables_v5.0.0-pre.8_mc26.3pre1-3.zip";
+            "hash" = "sha512-am5i5ifFzPhvAwAcPPhRB+kkwYoDGp0h8PoBWVkmUmbrY6/6+EaSUVcTWhKtZjDffHAI1EK2dKkUAQBGWJWTlQ==";
+        };
+        _YwsbXsN1 = {
+            "id" = "YwsbXsN1";
+            "file" = "SillyEatables_v5.0.0-rc.1_mc26.3pre3-rc1.zip";
+            "hash" = "sha512-b1DXZWeXRsMWlvhvgMo66p8db6tgvjn8Nluxzpsqe1NWqEYzQpdAGrjnK2tjGs+xgv8jOiFPiuI4QmeaEcf2kg==";
+        };
+        _z6rgjE3Z = {
+            "id" = "z6rgjE3Z";
+            "file" = "SillyEatables_v5.0.0_mc26.3.zip";
+            "hash" = "sha512-mFkHahG3Z8GstFF631JmKFmSiYtjxNnw1EMW/XqbM8Rlz18SZwa48eGLjOJrJj7bgA9akpf1bEzN0lZx/IgXEg==";
+        };
+        _VAqWXLot = {
+            "id" = "VAqWXLot";
+            "file" = "SillyEatables_v5.0.0+mod_mc26.3.jar";
+            "hash" = "sha512-wb4X3VIUOTy/jB5VrBaQmQbn0V4xAh848eyYQsJ/aaXV7GTIthAHFgXYb5VsMoVEcGMWpKOYZ/Vobt0gljlmkw==";
+        };
     in {
         "rHohm5Zt" = _rHohm5Zt;
         "aC37Awjc" = _aC37Awjc;
@@ -794,6 +814,10 @@ let
         "WxOKnEsM" = _WxOKnEsM;
         "GMTfin1W" = _GMTfin1W;
         "5QoJOKa5" = _5QoJOKa5;
+        "hEKTfeA2" = _hEKTfeA2;
+        "YwsbXsN1" = _YwsbXsN1;
+        "z6rgjE3Z" = _z6rgjE3Z;
+        "VAqWXLot" = _VAqWXLot;
         "datapack-24w13a" = _aC37Awjc;
         "datapack-24w14a" = _aC37Awjc;
         "datapack-1.20.5-pre1" = _wB9zYdFT;
@@ -956,8 +980,13 @@ let
         "datapack-26.3-snapshot-8" = _k7uVQXT0;
         "datapack-26.3-snapshot-9" = _k7uVQXT0;
         "datapack-26.3-snapshot-10" = _k7uVQXT0;
-        "datapack-26.3-pre-1" = _5QoJOKa5;
-        "datapack-26.3-pre-2" = _5QoJOKa5;
+        "datapack-26.3-pre-1" = _hEKTfeA2;
+        "datapack-26.3-pre-2" = _hEKTfeA2;
+        "datapack-26.3-pre-3" = _YwsbXsN1;
+        "datapack-26.3-rc-1" = _YwsbXsN1;
+        "datapack-26.3-rc-2" = _YwsbXsN1;
+        "datapack-26.3-rc-3" = _YwsbXsN1;
+        "datapack-26.3" = _z6rgjE3Z;
         "fabric-1.20.5" = _dUNUGIMw;
         "fabric-1.20.6-rc1" = _tjF7Nvw5;
         "fabric-1.20.6" = _dUNUGIMw;
@@ -977,6 +1006,7 @@ let
         "fabric-26.1.1" = _oVpaJYK7;
         "fabric-26.1.2" = _oVpaJYK7;
         "fabric-26.2" = _oVpaJYK7;
+        "fabric-26.3" = _VAqWXLot;
         "quilt-1.20.5" = _dUNUGIMw;
         "quilt-1.20.6-rc1" = _tjF7Nvw5;
         "quilt-1.20.6" = _dUNUGIMw;
@@ -996,6 +1026,7 @@ let
         "quilt-26.1.1" = _oVpaJYK7;
         "quilt-26.1.2" = _oVpaJYK7;
         "quilt-26.2" = _oVpaJYK7;
+        "quilt-26.3" = _VAqWXLot;
         "forge-1.21.5" = _G883XuBc;
         "forge-1.21.6" = _G883XuBc;
         "forge-1.21.7" = _G883XuBc;
@@ -1007,6 +1038,7 @@ let
         "forge-26.1.1" = _oVpaJYK7;
         "forge-26.1.2" = _oVpaJYK7;
         "forge-26.2" = _oVpaJYK7;
+        "forge-26.3" = _VAqWXLot;
         "neoforge-1.21.5" = _G883XuBc;
         "neoforge-1.21.6" = _G883XuBc;
         "neoforge-1.21.7" = _G883XuBc;
@@ -1018,6 +1050,7 @@ let
         "neoforge-26.1.1" = _oVpaJYK7;
         "neoforge-26.1.2" = _oVpaJYK7;
         "neoforge-26.2" = _oVpaJYK7;
+        "neoforge-26.3" = _VAqWXLot;
         "pkg-v1.0.0-beta1" = _rHohm5Zt;
         "pkg-v1.0.0-beta2" = _aC37Awjc;
         "pkg-v1.0.0-beta3" = _PC79mssO;
@@ -1150,7 +1183,11 @@ let
         "pkg-v5.0.0-pre.5" = _WxOKnEsM;
         "pkg-v5.0.0-pre.6" = _GMTfin1W;
         "pkg-v5.0.0-pre.7" = _5QoJOKa5;
-        "default" = _5QoJOKa5;
+        "pkg-v5.0.0-pre.8" = _hEKTfeA2;
+        "pkg-v5.0.0-rc.1" = _YwsbXsN1;
+        "pkg-v5.0.0" = _z6rgjE3Z;
+        "pkg-v5.0.0+mod" = _VAqWXLot;
+        "default" = _VAqWXLot;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "silly-eatables";

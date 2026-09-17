@@ -46,6 +46,16 @@ let
             "file" = "boykisser-1.1.0-alpha.jar";
             "hash" = "sha512-IMI1p6FY6pF2ayAsBEAsDYgzfUGCAFIMgq5FzjL6SGr+fOQuJF3QwrlglrIiSDsEJv8VJP9jrvgXG2Duh1diEg==";
         };
+        _aUYbJgVC = {
+            "id" = "aUYbJgVC";
+            "file" = "boykisser-1.2.0-alpha.jar";
+            "hash" = "sha512-aCk41Rz9za/uH8Y+GR46BYFljPbM9PY/EQhnh1UdrKmL7Kpky+X9N8w+tTazRB8EyB+vTXn05wCTMk/5GwNMjQ==";
+        };
+        _QYKZ9DQS = {
+            "id" = "QYKZ9DQS";
+            "file" = "boykisser-1.2.0-alpha.jar";
+            "hash" = "sha512-dnfomZpEWvBhLpe/sjafjsOvqU46cznHc4nEv/el2anZS/7RsxOq1NFW+I1BwsmRpxlkhpsPUAtBx35k1y6Qgw==";
+        };
     in {
         "3muuw4ME" = _3muuw4ME;
         "d5BYh1md" = _d5BYh1md;
@@ -56,7 +66,9 @@ let
         "aC51ehET" = _aC51ehET;
         "QPqoU7H9" = _QPqoU7H9;
         "vx6Mb0PS" = _vx6Mb0PS;
-        "neoforge-1.21.1" = _vx6Mb0PS;
+        "aUYbJgVC" = _aUYbJgVC;
+        "QYKZ9DQS" = _QYKZ9DQS;
+        "neoforge-1.21.1" = _QYKZ9DQS;
         "forge-1.21.1" = _QPqoU7H9;
         "pkg-0.0.1" = _3muuw4ME;
         "pkg-0.0.2" = _d5BYh1md;
@@ -67,7 +79,8 @@ let
         "pkg-1.0.0" = _aC51ehET;
         "pkg-1.0.2" = _QPqoU7H9;
         "pkg-1.1.0-Alpha" = _vx6Mb0PS;
-        "default" = _vx6Mb0PS;
+        "pkg-1.2.0-alpha" = _QYKZ9DQS;
+        "default" = _QYKZ9DQS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "boykisser";

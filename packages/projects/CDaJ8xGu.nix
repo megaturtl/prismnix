@@ -376,6 +376,26 @@ let
             "file" = "DistantFriends-neoforge-26.1.2-0.15.2.jar";
             "hash" = "sha512-YSkrUNNf8J0R/0Qo+KEPNyJ/7nLdJ4UFblYtozxZN9VFjpS8qM0fdQp6EpgmBd3nDkFVoW9Y8IJ+RYiFjsXugg==";
         };
+        _AKoXaIn1 = {
+            "id" = "AKoXaIn1";
+            "file" = "DistantFriends-fabric-26.1.2-0.15.3.jar";
+            "hash" = "sha512-rGhVvfIYhNm5Efx3l+Mf04jIGHfGiQ2sfehly4LObRS2Js7/Aq7zFE2t4fKbXDPKor40M8qKJf/nparnFtOV0A==";
+        };
+        _3wBUIdRs = {
+            "id" = "3wBUIdRs";
+            "file" = "DistantFriends-neoforge-26.1.2-0.15.3.jar";
+            "hash" = "sha512-7aLX+djR7Cgb9Ssd8xhcl4/zeAc/KJA76o5LAujhpJaXGeLWXKK5X8fjhmhDMhXo0rFL3WSJnuUPnKVnasYpGg==";
+        };
+        _FEFExVDb = {
+            "id" = "FEFExVDb";
+            "file" = "DistantFriends-fabric-26.2-0.16.2.jar";
+            "hash" = "sha512-4Z5bWtS5vowSggwWSSUlnNdJX36TVQfZqUsKNAGTuSfddlhqKbUBstoYJoBwPjBU8i16TUN9huYBEhLRKcA8Hw==";
+        };
+        _ehEm0n6V = {
+            "id" = "ehEm0n6V";
+            "file" = "DistantFriends-neoforge-26.2-0.16.2.jar";
+            "hash" = "sha512-FZay7N6gV7cyNj9g0cZuH1X2nDWkvXyyZReOQw6HPoiM2/1nST9wFpGqrOMcN3DGT9FdV8LkE7ySeHjhl8cjZQ==";
+        };
     in {
         "VTbKZPTm" = _VTbKZPTm;
         "P3amfbE2" = _P3amfbE2;
@@ -452,6 +472,10 @@ let
         "4tzDOQCk" = _4tzDOQCk;
         "XmM5pExf" = _XmM5pExf;
         "vQRixJAw" = _vQRixJAw;
+        "AKoXaIn1" = _AKoXaIn1;
+        "3wBUIdRs" = _3wBUIdRs;
+        "FEFExVDb" = _FEFExVDb;
+        "ehEm0n6V" = _ehEm0n6V;
         "forge-1.18.2" = _QORmFhzO;
         "forge-1.19.2" = _FlCbM5pD;
         "forge-1.19.3" = _cj3SQE9A;
@@ -468,8 +492,8 @@ let
         "neoforge-1.21.8" = _rEVEbP33;
         "neoforge-1.21.10" = _qZK5USXd;
         "neoforge-1.21.11" = _PcXYVRRn;
-        "neoforge-26.1.2" = _vQRixJAw;
-        "neoforge-26.2" = _4tzDOQCk;
+        "neoforge-26.1.2" = _3wBUIdRs;
+        "neoforge-26.2" = _ehEm0n6V;
         "fabric-1.20.1" = _ObKMM98j;
         "fabric-1.20.2" = _p1uPdfmM;
         "fabric-1.20.4" = _dULFVuUY;
@@ -481,8 +505,8 @@ let
         "fabric-1.21.8" = _OUW0VdpO;
         "fabric-1.21.10" = _hMiAqcMu;
         "fabric-1.21.11" = _oQfiBDig;
-        "fabric-26.1.2" = _XmM5pExf;
-        "fabric-26.2" = _su8TVUlv;
+        "fabric-26.1.2" = _AKoXaIn1;
+        "fabric-26.2" = _FEFExVDb;
         "pkg-0.1.0" = _VTbKZPTm;
         "pkg-0.1.1" = _P3amfbE2;
         "pkg-0.1.2" = _WhUR0g09;
@@ -532,7 +556,9 @@ let
         "pkg-0.5.6" = _ObKMM98j;
         "pkg-0.16.1" = _4tzDOQCk;
         "pkg-0.15.2" = _vQRixJAw;
-        "default" = _vQRixJAw;
+        "pkg-0.15.3" = _3wBUIdRs;
+        "pkg-0.16.2" = _ehEm0n6V;
+        "default" = _ehEm0n6V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "distant-friends";

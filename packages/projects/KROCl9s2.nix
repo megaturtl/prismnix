@@ -236,6 +236,11 @@ let
             "file" = "trial-spawner-timer-fabric-1.1.2+mc26.2.jar";
             "hash" = "sha512-SwZCLpKd2FlZix3fDJTOf7b6nHjvj1GN0gQnrw61AHFrva5YQcYkHK7TEDrlI1oBdufa0Ody/stcWUL5IUW8eQ==";
         };
+        _GbvUH2bm = {
+            "id" = "GbvUH2bm";
+            "file" = "trial-spawner-timer-fabric-1.1.2+mc26.3.jar";
+            "hash" = "sha512-OjoQ2T8v3nP39AK8VN8kyIE0K8nY0+0YlInt5huutVOXrlu7LYCGKYj+u6hNzZAIRMKHIO2+ZMr/l6EZCa5gaQ==";
+        };
     in {
         "armRvDju" = _armRvDju;
         "mpEexqkp" = _mpEexqkp;
@@ -284,6 +289,7 @@ let
         "770vyODD" = _770vyODD;
         "9IAod6r9" = _9IAod6r9;
         "G4CaYFdE" = _G4CaYFdE;
+        "GbvUH2bm" = _GbvUH2bm;
         "fabric-1.21" = _yw4cOoYo;
         "fabric-1.21.1" = _jUKZqvhP;
         "fabric-1.21.3" = _Ydtu34l0;
@@ -300,6 +306,7 @@ let
         "fabric-26.1.1" = _770vyODD;
         "fabric-26.1.2" = _9IAod6r9;
         "fabric-26.2" = _G4CaYFdE;
+        "fabric-26.3" = _GbvUH2bm;
         "pkg-1.0" = _armRvDju;
         "pkg-1.0.1" = _mpEexqkp;
         "pkg-1.0.2" = _diPmLYsr;
@@ -347,7 +354,8 @@ let
         "pkg-fabric-1.1.2+mc26.1.1" = _770vyODD;
         "pkg-fabric-1.1.2+mc26.1.2" = _9IAod6r9;
         "pkg-fabric-1.1.2+mc26.2" = _G4CaYFdE;
-        "default" = _G4CaYFdE;
+        "pkg-fabric-1.1.2+mc26.3" = _GbvUH2bm;
+        "default" = _GbvUH2bm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trial-spawner-timer";

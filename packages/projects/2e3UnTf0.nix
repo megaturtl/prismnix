@@ -71,6 +71,11 @@ let
             "file" = "multiscoreboard-1.5.1+26.2.jar";
             "hash" = "sha512-PyhHCMH3CdcJAEPGudXXhcrz4wpibKFPodXr/mDaEKDP+ZonH8WU8Gc68Js5ufgkc2prGWsYGZyq40w3RSbUbw==";
         };
+        _vqWppfdO = {
+            "id" = "vqWppfdO";
+            "file" = "multiscoreboard-1.6.0+26.3.jar";
+            "hash" = "sha512-wQMbegBk4ZaflnZGM/FJn2nM+vJpYlx3jHhrOm5Z1DZlNXtzC6GCak4/Joubr/Xz8pg5Fc8phKDh26rxuladDA==";
+        };
     in {
         "3huCztug" = _3huCztug;
         "1BuJqiEW" = _1BuJqiEW;
@@ -86,6 +91,7 @@ let
         "oZ6LS1vu" = _oZ6LS1vu;
         "ftHatslN" = _ftHatslN;
         "1aCcIq43" = _1aCcIq43;
+        "vqWppfdO" = _vqWppfdO;
         "fabric-1.20.4" = _1BuJqiEW;
         "fabric-1.20.5" = _1NauhvvX;
         "fabric-1.20.6" = _1NauhvvX;
@@ -105,6 +111,7 @@ let
         "fabric-26.1.1" = _ftHatslN;
         "fabric-26.1.2" = _ftHatslN;
         "fabric-26.2" = _1aCcIq43;
+        "fabric-26.3" = _vqWppfdO;
         "pkg-1.0.0" = _3huCztug;
         "pkg-1.1.0" = _1BuJqiEW;
         "pkg-1.2.0" = _qMGGMATE;
@@ -117,7 +124,8 @@ let
         "pkg-1.5.0+1.21.11" = _oZ6LS1vu;
         "pkg-1.5.1+26.1" = _ftHatslN;
         "pkg-1.5.1+26.2" = _1aCcIq43;
-        "default" = _1aCcIq43;
+        "pkg-1.6.0+26.3" = _vqWppfdO;
+        "default" = _vqWppfdO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "multiscoreboard";

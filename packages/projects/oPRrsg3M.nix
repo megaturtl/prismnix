@@ -131,6 +131,11 @@ let
             "file" = "combit-26.2.0.jar";
             "hash" = "sha512-8GRluTsck59QkzA2xyTn3/zN3dGcQFQDWDLUY5f3p1BjOwyi02xxLD1CqCZHs3K4PTFVg4YKbbQJb7kD6aDFIw==";
         };
+        _gt9oepmZ = {
+            "id" = "gt9oepmZ";
+            "file" = "combit-26.3.0.jar";
+            "hash" = "sha512-eD2vEpX44rfJr7ZekE4PYRk39inPMZQkR+iKJ6v20mMD9EpqTi2r+jgAp/mcaTm75n50W58NM2FL8QHkWffjcw==";
+        };
     in {
         "YdaXlVA8" = _YdaXlVA8;
         "qJ19Q68x" = _qJ19Q68x;
@@ -158,6 +163,7 @@ let
         "9K1PrCUJ" = _9K1PrCUJ;
         "Zf2lqEy9" = _Zf2lqEy9;
         "F1R78lS9" = _F1R78lS9;
+        "gt9oepmZ" = _gt9oepmZ;
         "fabric-1.18.1" = _1HnFjdvf;
         "fabric-1.18" = _1HnFjdvf;
         "fabric-1.18.2" = _sbsxps8B;
@@ -189,6 +195,7 @@ let
         "fabric-26.1.1" = _Zf2lqEy9;
         "fabric-26.1.2" = _Zf2lqEy9;
         "fabric-26.2" = _F1R78lS9;
+        "fabric-26.3" = _gt9oepmZ;
         "pkg-1.0.0" = _YdaXlVA8;
         "pkg-1.0.1" = _qJ19Q68x;
         "pkg-1.1.0" = _1HnFjdvf;
@@ -215,7 +222,8 @@ let
         "pkg-1.4.21" = _9K1PrCUJ;
         "pkg-26.1.0" = _Zf2lqEy9;
         "pkg-26.2.0" = _F1R78lS9;
-        "default" = _F1R78lS9;
+        "pkg-26.3.0" = _gt9oepmZ;
+        "default" = _gt9oepmZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "combit";

@@ -36,6 +36,11 @@ let
             "file" = "liubai-1.0.0-1.21.11.jar";
             "hash" = "sha512-gfXksPM/OA1LEA0LxSxnRgrzqmoIBnptA/PMnphzPsnewwjbqRQMTGqGJA15UJYXnKm5vtzPQzvTx5c0GPjfog==";
         };
+        _FDG4sX6v = {
+            "id" = "FDG4sX6v";
+            "file" = "liubai-fabric-1.20.1-1.0.0.jar";
+            "hash" = "sha512-LEJKCJ8Ewnkv15ejDy0U3Xi+gLz5Z1Kae8Uy1gDaUMvqNzEjwCDo17jLOakX6qIzSetYpZAfhGYkrRVx6MSjEg==";
+        };
     in {
         "59sKmdNA" = _59sKmdNA;
         "w9ofTwc1" = _w9ofTwc1;
@@ -44,18 +49,20 @@ let
         "bnvINXor" = _bnvINXor;
         "INRgbJwP" = _INRgbJwP;
         "8iCvfVSs" = _8iCvfVSs;
+        "FDG4sX6v" = _FDG4sX6v;
         "neoforge-1.21.1" = _Ab4hNFF0;
         "forge-1.20.1" = _bnvINXor;
         "fabric-1.21.1" = _INRgbJwP;
         "fabric-1.21.11" = _8iCvfVSs;
+        "fabric-1.20.1" = _FDG4sX6v;
         "pkg-1.21.1-1.0.0" = _59sKmdNA;
-        "pkg-1.0.0-1.20.1" = _w9ofTwc1;
+        "pkg-1.0.0-1.20.1" = _FDG4sX6v;
         "pkg-1.0.1-1.20.1" = _TfZFocWb;
         "pkg-1.0.1-1.21.1" = _Ab4hNFF0;
         "pkg-1.0.2-1.20.1" = _bnvINXor;
         "pkg-1.0.0-1.21.1" = _INRgbJwP;
         "pkg-1.0.0-1.21.11" = _8iCvfVSs;
-        "default" = _8iCvfVSs;
+        "default" = _FDG4sX6v;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "liubai";

@@ -146,6 +146,11 @@ let
             "file" = "farts-2.0.2.0.jar";
             "hash" = "sha512-IG1MJuJi9H/d4UOWosAxs/wn1K/gs8DBJ6HFph8zHhbaFWQBOXbHtAx8Ii2MxAeFdUxF6CAz2pjg2AT8UuWv4g==";
         };
+        _dZAwcsqy = {
+            "id" = "dZAwcsqy";
+            "file" = "farts-2.0.2.1.jar";
+            "hash" = "sha512-TsZNI6h6DbLgcQ1VkTsALVwto0zPeCBKxmbke3U4qj1nW9L6QKCZKF9T+4/2izCr+vQFJBJn4M/c4MTB2WxpnA==";
+        };
     in {
         "JqyuxXm0" = _JqyuxXm0;
         "G5wYlMad" = _G5wYlMad;
@@ -176,6 +181,7 @@ let
         "sayNceC3" = _sayNceC3;
         "ETYSIDSg" = _ETYSIDSg;
         "8YYBOP48" = _8YYBOP48;
+        "dZAwcsqy" = _dZAwcsqy;
         "forge-1.19.4" = _JqyuxXm0;
         "forge-1.19.3" = _kOsYtzRz;
         "forge-1.19.1" = _gQtyoVwq;
@@ -210,7 +216,7 @@ let
         "neoforge-26.1" = _8YYBOP48;
         "neoforge-26.1.1" = _8YYBOP48;
         "neoforge-26.1.2" = _8YYBOP48;
-        "neoforge-26.2" = _8YYBOP48;
+        "neoforge-26.2" = _dZAwcsqy;
         "pkg-1.19.4.0" = _JqyuxXm0;
         "pkg-1.19.3.1" = _G5wYlMad;
         "pkg-1.19.3.0" = _kOsYtzRz;
@@ -236,11 +242,11 @@ let
         "pkg-2.0.0" = _XLOkhHPN;
         "pkg-2.0.1" = _mcVbAoId;
         "pkg-2.0.2" = _1pm9Wf9Z;
-        "pkg-2.0.2.1" = _UmOGhvAk;
+        "pkg-2.0.2.1" = _dZAwcsqy;
         "pkg-2.0.2.2" = _sayNceC3;
         "pkg-2.0.1.1" = _ETYSIDSg;
         "pkg-2.0.2.0" = _8YYBOP48;
-        "default" = _8YYBOP48;
+        "default" = _dZAwcsqy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "farts";

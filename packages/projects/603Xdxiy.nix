@@ -56,6 +56,11 @@ let
             "file" = "3D End Crystal 1.0.9.zip";
             "hash" = "sha512-dx9M2Emri2uA+kteZbrf/eXcgDYpkQle1v/6O/8trJHRpptFJbgcb7RY8xKEPyFcD9oY/BJHiDkA65ihiLdBAA==";
         };
+        _Yr0Xkjaq = {
+            "id" = "Yr0Xkjaq";
+            "file" = "3D End Crystal 1.0.10.zip";
+            "hash" = "sha512-ieBhhRugFMZx9UvreDlONbmP/rZUZ6qGVO7qXuYEbC368LZGMQvDbEgNIgekuc+Up4hYnx45gEtZ5UwlMj0bkQ==";
+        };
     in {
         "YkBRAqV6" = _YkBRAqV6;
         "toGlRXR6" = _toGlRXR6;
@@ -68,6 +73,7 @@ let
         "MOJYZn1u" = _MOJYZn1u;
         "2crzolZE" = _2crzolZE;
         "4cHnnKz8" = _4cHnnKz8;
+        "Yr0Xkjaq" = _Yr0Xkjaq;
         "minecraft-1.21.4" = _R7ZoxaAW;
         "minecraft-1.21.5" = _R7ZoxaAW;
         "minecraft-1.21" = _toGlRXR6;
@@ -77,13 +83,14 @@ let
         "minecraft-1.21.6" = _R7ZoxaAW;
         "minecraft-1.21.7" = _R7ZoxaAW;
         "minecraft-1.21.8" = _R7ZoxaAW;
-        "minecraft-1.21.9" = _4cHnnKz8;
-        "minecraft-1.21.10" = _4cHnnKz8;
-        "minecraft-1.21.11" = _4cHnnKz8;
-        "minecraft-26.1" = _4cHnnKz8;
-        "minecraft-26.1.1" = _4cHnnKz8;
-        "minecraft-26.1.2" = _4cHnnKz8;
-        "minecraft-26.2" = _4cHnnKz8;
+        "minecraft-1.21.9" = _Yr0Xkjaq;
+        "minecraft-1.21.10" = _Yr0Xkjaq;
+        "minecraft-1.21.11" = _Yr0Xkjaq;
+        "minecraft-26.1" = _Yr0Xkjaq;
+        "minecraft-26.1.1" = _Yr0Xkjaq;
+        "minecraft-26.1.2" = _Yr0Xkjaq;
+        "minecraft-26.2" = _Yr0Xkjaq;
+        "minecraft-26.3" = _Yr0Xkjaq;
         "pkg-1.0.0" = _toGlRXR6;
         "pkg-1.0.1" = _oF3Ml1pd;
         "pkg-1.0.2" = _C67YjkpT;
@@ -94,7 +101,8 @@ let
         "pkg-1.0.7" = _MOJYZn1u;
         "pkg-1.0.8" = _2crzolZE;
         "pkg-1.0.9" = _4cHnnKz8;
-        "default" = _4cHnnKz8;
+        "pkg-1.0.10" = _Yr0Xkjaq;
+        "default" = _Yr0Xkjaq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "3dendcrystal";

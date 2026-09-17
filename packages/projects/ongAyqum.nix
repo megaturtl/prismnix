@@ -391,6 +391,16 @@ let
             "file" = "Better_Snowball-1.2.3-26.2-NeoForge.jar";
             "hash" = "sha512-dC7pCmhW4bjvDGu1/4wZn8rGXPwsqLTw2cXweCPpqLqjsKonY4uLl1/8JwFp54JEawlOmtni4R3vVUWw0pYPsA==";
         };
+        _DHZLFP0O = {
+            "id" = "DHZLFP0O";
+            "file" = "BetterSnowball-1.2.3-26.3-Fabric.jar";
+            "hash" = "sha512-eDwNfDd3ZQ0gKT/cL2hBCGLSfE7rVImPJDxkYj8sUTJRh0PQdYlyB2tpytqC/Ie9zSEET4ZN+osBRsD3nv/K8Q==";
+        };
+        _a8IIqk0L = {
+            "id" = "a8IIqk0L";
+            "file" = "BetterSnowball-1.2.3-26.3-NeoForge.jar";
+            "hash" = "sha512-+9rducom65wJCTRFDDeKFn6xZyJ170zU7Z+xKaD6OO78IuZdl5dEvt516vZniNNgnevGbYcjUnNHrkRgV19khw==";
+        };
     in {
         "KWFc59Nk" = _KWFc59Nk;
         "aVd8N5iv" = _aVd8N5iv;
@@ -470,6 +480,8 @@ let
         "COpFlEwU" = _COpFlEwU;
         "UMWMBiRA" = _UMWMBiRA;
         "PTtFpUw8" = _PTtFpUw8;
+        "DHZLFP0O" = _DHZLFP0O;
+        "a8IIqk0L" = _a8IIqk0L;
         "fabric-1.20" = _m6dGga6c;
         "fabric-1.20.1" = _fAuCF4X3;
         "fabric-1.20.2" = _x9G74r2W;
@@ -491,6 +503,7 @@ let
         "fabric-26.1.1" = _cHgEENI7;
         "fabric-26.1.2" = _cHgEENI7;
         "fabric-26.2" = _COpFlEwU;
+        "fabric-26.3" = _DHZLFP0O;
         "forge-1.20" = _JIgGnzTg;
         "forge-1.20.1" = _9VJlaIiU;
         "forge-1.20.2" = _pHHO14xc;
@@ -530,6 +543,7 @@ let
         "neoforge-26.1.1" = _EEgxW8yr;
         "neoforge-26.1.2" = _EEgxW8yr;
         "neoforge-26.2" = _PTtFpUw8;
+        "neoforge-26.3" = _a8IIqk0L;
         "pkg-1.20.1-1.0.0-Fabric" = _KWFc59Nk;
         "pkg-1.0.0-1.20.1-Forge" = _VBwVHvYC;
         "pkg-1.20.2-1.0.1-Fabric" = _x9G74r2W;
@@ -601,7 +615,9 @@ let
         "pkg-1.2.3-26.2-Fabric" = _COpFlEwU;
         "pkg-1.2.3-26.2-Forge" = _UMWMBiRA;
         "pkg-1.2.3-26.2-NeoForge" = _PTtFpUw8;
-        "default" = _PTtFpUw8;
+        "pkg-1.2.3-26.3-Fabric" = _DHZLFP0O;
+        "pkg-1.2.3-26.3-NeoForge" = _a8IIqk0L;
+        "default" = _a8IIqk0L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-snowball";

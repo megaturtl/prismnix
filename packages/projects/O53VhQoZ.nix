@@ -151,6 +151,11 @@ let
             "file" = "MyNethersDelight-1.20.1-1.10.4-backport.1.jar";
             "hash" = "sha512-5KFB+CeQ4ItnviCRzUFQJaMewpe4ujbTRxCP8QnZLIvs1gKYzQT/rATmEo77idYzryHozi7gOr97qxwznqH3RA==";
         };
+        _SGFJBL5q = {
+            "id" = "SGFJBL5q";
+            "file" = "MyNethersDelight-1.21.1-1.10.4.1.jar";
+            "hash" = "sha512-Nt8UaXTXD+X3ySxK7vYT0eAZLvu1UPqojvqoFwISwH+fxZOJYdG42kiTVVeZEOlf6izVrnFLYUzhfxuONS8Lvw==";
+        };
     in {
         "kgHvIUs2" = _kgHvIUs2;
         "TowaIAkd" = _TowaIAkd;
@@ -182,6 +187,7 @@ let
         "OdH19ieD" = _OdH19ieD;
         "DKcTbOE3" = _DKcTbOE3;
         "pOBasFQT" = _pOBasFQT;
+        "SGFJBL5q" = _SGFJBL5q;
         "forge-1.19" = _u8pJaV2E;
         "forge-1.19.1" = _u8pJaV2E;
         "forge-1.19.2" = _u8pJaV2E;
@@ -195,7 +201,7 @@ let
         "forge-1.20.5" = _yIOVSvSr;
         "forge-1.20.6" = _yIOVSvSr;
         "neoforge-1.21" = _G2jsuoAA;
-        "neoforge-1.21.1" = _OdH19ieD;
+        "neoforge-1.21.1" = _SGFJBL5q;
         "pkg-1.19-1.0" = _kgHvIUs2;
         "pkg-1.20.1-1.0" = _TowaIAkd;
         "pkg-1.20.1-1.1" = _LgjRrOZr;
@@ -222,7 +228,8 @@ let
         "pkg-1.10.4" = _OdH19ieD;
         "pkg-1.20.1-1.10.4" = _DKcTbOE3;
         "pkg-1.20.1-1.10.4-backport.1" = _pOBasFQT;
-        "default" = _pOBasFQT;
+        "pkg-1.10.4.1" = _SGFJBL5q;
+        "default" = _SGFJBL5q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "my-nethers-delight";

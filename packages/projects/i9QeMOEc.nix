@@ -616,6 +616,11 @@ let
             "file" = "elytra_green_dragon-1.0.1-mc26.1.2.zip";
             "hash" = "sha512-FmN0WhwsulUnxvBnCJLH+P2MC2oaLOny2g/n85/atTz4kJLlRQUwGmUuF7+bEoETLQ98hzO11YvLgI/RCQT2Ug==";
         };
+        _yI1MMA97 = {
+            "id" = "yI1MMA97";
+            "file" = "elytra_green_dragon-1.0.1-mc26.3.zip";
+            "hash" = "sha512-G+EBYsOMhjG4jGvWYwwE1GAGtP0+IljW7JzJ9V3OEAAlCsEZcm4+S6+45PlS1cHrGo3sB2TQA/GaNrcDRi2Puw==";
+        };
     in {
         "wWZNzXeu" = _wWZNzXeu;
         "ZJA9ti7B" = _ZJA9ti7B;
@@ -740,6 +745,7 @@ let
         "1G8kcTjl" = _1G8kcTjl;
         "6Ki8yKaY" = _6Ki8yKaY;
         "4IIjypUb" = _4IIjypUb;
+        "yI1MMA97" = _yI1MMA97;
         "minecraft-1.9" = _ca9Choh0;
         "minecraft-1.9.1" = _GdNRn8UT;
         "minecraft-1.9.2" = _q6emskaw;
@@ -804,9 +810,10 @@ let
         "minecraft-26.2" = _1G8kcTjl;
         "minecraft-26.1.1" = _6Ki8yKaY;
         "minecraft-26.1.2" = _4IIjypUb;
+        "minecraft-26.3" = _yI1MMA97;
         "pkg-1.0.0" = _3KNnIrYh;
-        "pkg-1.0.1" = _4IIjypUb;
-        "default" = _4IIjypUb;
+        "pkg-1.0.1" = _yI1MMA97;
+        "default" = _yI1MMA97;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-collective-green-dragon-elytra";

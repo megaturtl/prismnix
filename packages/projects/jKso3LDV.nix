@@ -246,6 +246,31 @@ let
             "file" = "apocalypse_ends-3.2.5.jar";
             "hash" = "sha512-4Nr1PnbfxTom6CN9HjRS/jekghEysy6SeWyXIHXk212a36falmZnzFNb6Z1h78XN7woMEDasIb/itaj7aEl52w==";
         };
+        _VBKIq1Ga = {
+            "id" = "VBKIq1Ga";
+            "file" = "apocalypse_ends-4.0.0.jar";
+            "hash" = "sha512-4+auRNuOr0w9hamMjANK3bt55EBsRr56Os0xEZSmLjw/IPY1DvDBuyr6Al1dPMsqGu4/ULQNqRzmqIapU4se5g==";
+        };
+        _wWdyNQHG = {
+            "id" = "wWdyNQHG";
+            "file" = "apocalypse_ends-4.0.0.1.jar";
+            "hash" = "sha512-jQypFzEa8F6K7blEk9YW67x1ET26ju6LpkHZ8MDlV7dvLwaCM9df1sqFA++jAELS2gOFZtlwoYcDHFwktW4dXw==";
+        };
+        _aIuCQ0fH = {
+            "id" = "aIuCQ0fH";
+            "file" = "apocalypse_ends-4.0.0.2.jar";
+            "hash" = "sha512-yem8kFZanVEnSpaKvmxJMyj5+tU5vfq1JqNRspPqi8IvYku3452g9x51vzqMc01hYY50HrpYLC+UtM+0TZBLaQ==";
+        };
+        _ZecwQynF = {
+            "id" = "ZecwQynF";
+            "file" = "apocalypse_ends-4.0.0.3.jar";
+            "hash" = "sha512-xV1LF0Mwe1WL+8cK3zj1DHYEcy6tB59tvv/ppIFn/wL2v6+vrU1xnML24qirmUX1IXlLzzeTye0kHIKlDMP2Cw==";
+        };
+        _WrWn6ZXw = {
+            "id" = "WrWn6ZXw";
+            "file" = "apocalypse_ends-4.0.0.4.jar";
+            "hash" = "sha512-UJlOt7in/BA+dQ3D31qDmoYthpwOHKTNW4yNysFHgoo6wRAbN9gB2qbTAl2jw766TfCdeVVpBatuVDEY1uExwQ==";
+        };
     in {
         "dWuJ0jGJ" = _dWuJ0jGJ;
         "aKUCe1Rh" = _aKUCe1Rh;
@@ -296,7 +321,12 @@ let
         "ZNGBfZI0" = _ZNGBfZI0;
         "sSflEC1b" = _sSflEC1b;
         "h0pGhuBX" = _h0pGhuBX;
-        "forge-1.20.1" = _h0pGhuBX;
+        "VBKIq1Ga" = _VBKIq1Ga;
+        "wWdyNQHG" = _wWdyNQHG;
+        "aIuCQ0fH" = _aIuCQ0fH;
+        "ZecwQynF" = _ZecwQynF;
+        "WrWn6ZXw" = _WrWn6ZXw;
+        "forge-1.20.1" = _WrWn6ZXw;
         "neoforge-1.21.1" = _2s568kbx;
         "neoforge-1.21.2" = _2s568kbx;
         "neoforge-1.21.3" = _2s568kbx;
@@ -356,7 +386,12 @@ let
         "pkg-3.2.3" = _ZNGBfZI0;
         "pkg-3.2.4" = _sSflEC1b;
         "pkg-3.2.5" = _h0pGhuBX;
-        "default" = _h0pGhuBX;
+        "pkg-4.0.0" = _VBKIq1Ga;
+        "pkg-4.0.0.1" = _wWdyNQHG;
+        "pkg-4.0.0.2" = _aIuCQ0fH;
+        "pkg-4.0.0.3" = _ZecwQynF;
+        "pkg-4.0.0.4" = _WrWn6ZXw;
+        "default" = _WrWn6ZXw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "apocalypse_end";

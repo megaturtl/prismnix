@@ -21,17 +21,45 @@ let
             "file" = "starcatcher_delight-3.0.1-NEOFORGE-1.21.1.jar";
             "hash" = "sha512-fYWD/r39RAZDETjJHPVV6bPBk6ujdjCmV1567SJ4aSw9GnSos0J0bDUPBBSj3E8dbInk3CYVy141pttBKIFgyQ==";
         };
+        _5peo5upT = {
+            "id" = "5peo5upT";
+            "file" = "starcatcher_delight-3.1-FORGE-1.20.1.jar";
+            "hash" = "sha512-eGpV2Zb0fyy+iLbkBAi0aY1Z32X+Nk88hx9rgyqqnOYjIUbYrUHRJnapttoCdmt/CtOP73Tl9+2OUx4obXlD2Q==";
+        };
+        _xPr0G0XR = {
+            "id" = "xPr0G0XR";
+            "file" = "starcatcher_delight-3.2-NEOFORGE-1.21.1.jar";
+            "hash" = "sha512-ljIdMaXlB+B/SMI4S7shTkW3HrdYSmWdK475Zmna+dbMHGpt+Rt0PHG4ucwjMnTPmBHOZ+mufuhCmiDTkkPDnQ==";
+        };
+        _gCPc5sE6 = {
+            "id" = "gCPc5sE6";
+            "file" = "starcatcher_delight-3.1-FORGE-1.20.1.jar";
+            "hash" = "sha512-pqzNjqKAWCiLOIAB2xeNo37Akh+bT6N2NApKlLEdeHVEb6TFPX20/vzyVmi6u93gfNo3pMJ074FEpEbwWer2eg==";
+        };
+        _6CDHvPQk = {
+            "id" = "6CDHvPQk";
+            "file" = "starcatcher_delight-3.2.1-FORGE-1.20.1.jar";
+            "hash" = "sha512-G5PPM4y2gNSnR8OCaNeL11L5rdHpTWB82wo2RMtk3WIikUM4bLAijIqRlFPkBwfvCXffBs/E8IY409gHPEY9OA==";
+        };
     in {
         "6WZlE9V5" = _6WZlE9V5;
         "5YrVcqCB" = _5YrVcqCB;
         "t8uAm8E2" = _t8uAm8E2;
         "Yh9v3OLC" = _Yh9v3OLC;
-        "neoforge-1.21.1" = _Yh9v3OLC;
+        "5peo5upT" = _5peo5upT;
+        "xPr0G0XR" = _xPr0G0XR;
+        "gCPc5sE6" = _gCPc5sE6;
+        "6CDHvPQk" = _6CDHvPQk;
+        "neoforge-1.21.1" = _xPr0G0XR;
+        "forge-1.20.1" = _6CDHvPQk;
         "pkg-0.1-ALPHA-NEOFORGE-1.21.1" = _6WZlE9V5;
         "pkg-0.2-ALPHA-NEOFORGE-1.21.1" = _5YrVcqCB;
         "pkg-3.0-NEOFORGE-1.21.1" = _t8uAm8E2;
         "pkg-3.0.1-NEOFORGE-1.21.1" = _Yh9v3OLC;
-        "default" = _Yh9v3OLC;
+        "pkg-3.1-FORGE-1.20.1" = _gCPc5sE6;
+        "pkg-3.2-NEOFORGE-1.21.1" = _xPr0G0XR;
+        "pkg-3.2.1-FORGE-1.20.1" = _6CDHvPQk;
+        "default" = _6CDHvPQk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "starcatchers-delight";

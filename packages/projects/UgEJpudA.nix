@@ -71,6 +71,16 @@ let
             "file" = "GatheringChunks-NeoForge-1.21.1-2.2.5-Beta.4-Hotfix.1-Build.5.jar";
             "hash" = "sha512-5VBrzuDSK2sPI7FGoH6+cCbfEJMiXjFw5qCu7jBLb7SAgCe8pKGaQTKh1d1Um8Y2BIdfyVyh2aBKScJzO6/hvg==";
         };
+        _Ed2DIir2 = {
+            "id" = "Ed2DIir2";
+            "file" = "GatheringChunks-Fabric-1.21.1-2.2.5-Beta.5-Hotfix.1-Build.9.jar";
+            "hash" = "sha512-ZMkfGg8z/NV5qkMQrkXV6QRPDnqy8qTZzkD3VAN68qtgkqKfotJ+kguSkpGzamZ26l1kfQSGVJ8F5RMpVfFWeA==";
+        };
+        _Fg7ZbZ9r = {
+            "id" = "Fg7ZbZ9r";
+            "file" = "GatheringChunks-NeoForge-1.21.1-2.2.5-Beta.5-Hotfix.1-Build.9.jar";
+            "hash" = "sha512-WGrszbCJxNvGyYO9dOpncXeTiAb7krHeKCn+1LD9Wi4gRK0URhWCEXJNogyNVpp2bIwZ9++Elt/A3S1vlpseow==";
+        };
     in {
         "SNfMsHeA" = _SNfMsHeA;
         "u4CTQKJi" = _u4CTQKJi;
@@ -86,8 +96,10 @@ let
         "XzWJ3vD7" = _XzWJ3vD7;
         "GqYFrTpl" = _GqYFrTpl;
         "h2cEfp4R" = _h2cEfp4R;
-        "fabric-1.21.1" = _GqYFrTpl;
-        "neoforge-1.21.1" = _h2cEfp4R;
+        "Ed2DIir2" = _Ed2DIir2;
+        "Fg7ZbZ9r" = _Fg7ZbZ9r;
+        "fabric-1.21.1" = _Ed2DIir2;
+        "neoforge-1.21.1" = _Fg7ZbZ9r;
         "pkg-2.2.4" = _SNfMsHeA;
         "pkg-2.2.4-HOTFIX" = _u4CTQKJi;
         "pkg-Fabric-2.2.5-B3.2" = _aoNmPcj0;
@@ -102,7 +114,9 @@ let
         "pkg-N-2.2.5-Beta.4" = _XzWJ3vD7;
         "pkg-F-2.2.5-Beta.4-Hotfix.1" = _GqYFrTpl;
         "pkg-N-2.2.5-Beta.4-Hotfix.1" = _h2cEfp4R;
-        "default" = _h2cEfp4R;
+        "pkg-F-2.2.5-Beta.5-Dev.1" = _Ed2DIir2;
+        "pkg-N-2.2.5-Beta.5-Dev.1" = _Fg7ZbZ9r;
+        "default" = _Fg7ZbZ9r;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gathering-chunks";

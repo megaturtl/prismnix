@@ -56,6 +56,16 @@ let
             "file" = "ketkets-mannequins-1.3.jar";
             "hash" = "sha512-w22yvjVip3GuTn4vSIQEpY6fF6QolRpjXIfnz+eQrZY9AxzXChvCrDBhXzIT+5IsrLrG0HjPRzwH8FV9n42dqA==";
         };
+        _woAETeSd = {
+            "id" = "woAETeSd";
+            "file" = "mannequins-v1.4.zip";
+            "hash" = "sha512-lQnxsZRILOB8rMDEfoRCVUAI+ixOk3UEDuAS2ktlqK9GknqDXd8Y9YAZjfWSt6TLt74BL25w+yQzIgDZB4vICg==";
+        };
+        _rYczLccK = {
+            "id" = "rYczLccK";
+            "file" = "mannequins-v1.4+mod.jar";
+            "hash" = "sha512-qYi729ZZ3kG67BxpTRNVSo5YI0fhnrESTu/RhV6swnE7+XRDnsD7eqW1KVGys5fuKZ9VfILq0WRW0oaGCO8oTQ==";
+        };
     in {
         "U3AVxfmD" = _U3AVxfmD;
         "5GhQP2zZ" = _5GhQP2zZ;
@@ -68,36 +78,43 @@ let
         "qHdBidzs" = _qHdBidzs;
         "7SWLkNX5" = _7SWLkNX5;
         "d3sDOCSq" = _d3sDOCSq;
+        "woAETeSd" = _woAETeSd;
+        "rYczLccK" = _rYczLccK;
         "datapack-1.21.10" = _U3AVxfmD;
         "datapack-1.21.11" = _7SWLkNX5;
         "datapack-26.1" = _7SWLkNX5;
         "datapack-26.1.1" = _7SWLkNX5;
         "datapack-26.1.2" = _7SWLkNX5;
         "datapack-26.2" = _7SWLkNX5;
+        "datapack-26.3" = _woAETeSd;
         "fabric-1.21.10" = _5GhQP2zZ;
         "fabric-1.21.11" = _d3sDOCSq;
         "fabric-26.1" = _d3sDOCSq;
         "fabric-26.1.1" = _d3sDOCSq;
         "fabric-26.1.2" = _d3sDOCSq;
         "fabric-26.2" = _d3sDOCSq;
+        "fabric-26.3" = _rYczLccK;
         "forge-1.21.10" = _5GhQP2zZ;
         "forge-1.21.11" = _d3sDOCSq;
         "forge-26.1" = _d3sDOCSq;
         "forge-26.1.1" = _d3sDOCSq;
         "forge-26.1.2" = _d3sDOCSq;
         "forge-26.2" = _d3sDOCSq;
+        "forge-26.3" = _rYczLccK;
         "neoforge-1.21.10" = _5GhQP2zZ;
         "neoforge-1.21.11" = _d3sDOCSq;
         "neoforge-26.1" = _d3sDOCSq;
         "neoforge-26.1.1" = _d3sDOCSq;
         "neoforge-26.1.2" = _d3sDOCSq;
         "neoforge-26.2" = _d3sDOCSq;
+        "neoforge-26.3" = _rYczLccK;
         "quilt-1.21.10" = _5GhQP2zZ;
         "quilt-1.21.11" = _d3sDOCSq;
         "quilt-26.1" = _d3sDOCSq;
         "quilt-26.1.1" = _d3sDOCSq;
         "quilt-26.1.2" = _d3sDOCSq;
         "quilt-26.2" = _d3sDOCSq;
+        "quilt-26.3" = _rYczLccK;
         "pkg-0.1" = _U3AVxfmD;
         "pkg-0.1+mod" = _5GhQP2zZ;
         "pkg-1.0" = _DqFBE6QT;
@@ -108,7 +125,9 @@ let
         "pkg-1.2+mod" = _qHdBidzs;
         "pkg-1.3" = _7SWLkNX5;
         "pkg-1.3+mod" = _d3sDOCSq;
-        "default" = _d3sDOCSq;
+        "pkg-1.4" = _woAETeSd;
+        "pkg-1.4+mod" = _rYczLccK;
+        "default" = _rYczLccK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ketkets-mannequins";

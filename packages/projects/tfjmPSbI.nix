@@ -46,6 +46,11 @@ let
             "file" = "caverns_and_chasms-1.21.1-3.0.0.jar";
             "hash" = "sha512-02DXgj+KC7KDtn0JE48psXmBC4qsXXY6bSxA6nmE3lXjgd1Kg3bLgfjXlhI/EnzsOyA4tVBFkTJqEw5GbhJK6A==";
         };
+        _bVK4SxKp = {
+            "id" = "bVK4SxKp";
+            "file" = "caverns_and_chasms-1.21.1-3.0.1.jar";
+            "hash" = "sha512-sH+RyfVenMZRZpSRZ4UyjN9R+MeiSLWaaCHMeLdq5DN0EHIxxCkgj2KLxf5qfhIECx8EbprcB4tu2CFRunV5jA==";
+        };
     in {
         "gicKsEZp" = _gicKsEZp;
         "4XzNGtqd" = _4XzNGtqd;
@@ -56,10 +61,11 @@ let
         "SPBwMRZ0" = _SPBwMRZ0;
         "TWaOFuHm" = _TWaOFuHm;
         "xDwRcEoZ" = _xDwRcEoZ;
+        "bVK4SxKp" = _bVK4SxKp;
         "forge-1.19.2" = _TuFWVSZM;
         "forge-1.20.1" = _TWaOFuHm;
         "neoforge-1.20.1" = _TWaOFuHm;
-        "neoforge-1.21.1" = _xDwRcEoZ;
+        "neoforge-1.21.1" = _bVK4SxKp;
         "pkg-1.0.0" = _gicKsEZp;
         "pkg-1.0.1" = _4XzNGtqd;
         "pkg-1.0.2" = _TuFWVSZM;
@@ -69,7 +75,8 @@ let
         "pkg-2.1.2" = _SPBwMRZ0;
         "pkg-2.1.3" = _TWaOFuHm;
         "pkg-3.0.0" = _xDwRcEoZ;
-        "default" = _xDwRcEoZ;
+        "pkg-3.0.1" = _bVK4SxKp;
+        "default" = _bVK4SxKp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "caverns-and-chasms";

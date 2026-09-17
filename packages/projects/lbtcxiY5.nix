@@ -3686,6 +3686,56 @@ let
             "file" = "All-White Textures! (Hard) 638.0.zip";
             "hash" = "sha512-h3Me2bDHPd0tSY0Vdr2w4lXdvJ/yEOvCdnli+3yqUAKJ2e7LCG6FpMpjhoQL3uYJaQscnPyN5wh6DcJX/E7xOw==";
         };
+        _XqJnIMwy = {
+            "id" = "XqJnIMwy";
+            "file" = "All-White Textures! (Hard) 639.0.zip";
+            "hash" = "sha512-zQsTLCcYuTT8ht+jamXjDvSaGpDpsEd1fQYwPX/xdB9t3my6zb0VhjsMLi8I2M0FHq/fnUwbc6q/GfFh7i9Ejw==";
+        };
+        _vyXx0tsj = {
+            "id" = "vyXx0tsj";
+            "file" = "All-White Textures! (Hard) 640.0.zip";
+            "hash" = "sha512-0c0YDegxUf781M3/v0zXmd+x+O5jv/SZOShhLOxgkf3x52S8ELxJIdrkpSJBCIiAY/ZLxVIo0DUwRzLbYXRcnQ==";
+        };
+        _IOuIy7GT = {
+            "id" = "IOuIy7GT";
+            "file" = "All-White Textures! (Hard) 641.0.zip";
+            "hash" = "sha512-kBuRZyFVGfz2No+MO9BJ+Sf+QrY/zVEni+QjJ1kIPM4BBDWEfJyMlWQ7Do6TCIIWZTXkaCvXo/npYYnme+H5qw==";
+        };
+        _bD9B17wR = {
+            "id" = "bD9B17wR";
+            "file" = "All-White Textures! (Hard) 642.0.zip";
+            "hash" = "sha512-kwH5PCoNZmQ90Ja6hbKHKZvAD81skUD4AcSWyO5TXwt1QbVecGO4hDqmWMJnKoOoHco2N9Rg+dfKP2A+PojKmQ==";
+        };
+        _QvKyRkXg = {
+            "id" = "QvKyRkXg";
+            "file" = "All-White Textures! (Hard) 643.0.zip";
+            "hash" = "sha512-ZCALZfGAq9V4b56DK0t3J6kXWk4iXEyBo080gujBHYNBn8fx31RlNpIR/J17fcWoVgok3/lkV2sWEyXdk0gKOQ==";
+        };
+        _TkeCxctb = {
+            "id" = "TkeCxctb";
+            "file" = "All-White Textures! (Hard) 644.0.zip";
+            "hash" = "sha512-kpusPQ/K6DugCS8JEV00nQ1hGqhJswKbVw0IDko9947/z7JYlWjNyb1JCkZ5afJZTyGlBNe8W1vaEVZSgiOJ4w==";
+        };
+        _Q0kQS0HT = {
+            "id" = "Q0kQS0HT";
+            "file" = "All-White Textures! (Hard) 645.0.zip";
+            "hash" = "sha512-NcnYFClwdLsvWq4x7Rt3lnYNoTaaiLsg1JAADsT5odcF1NKz9yi1V1slFrVqUboI7PqT20yBnvi99+eeLDU0Ng==";
+        };
+        _S940Ib2n = {
+            "id" = "S940Ib2n";
+            "file" = "All-White Textures! (Hard) 646.0.zip";
+            "hash" = "sha512-Ni5EXjS6xvi+dSqn2RKa/Lz7B2uEzOpjXtud1H4i6+gpcomIhJVAgmPoi2GXyXzRKyPbhkGlWFzqcxKChR6qeg==";
+        };
+        _h9ASPIrO = {
+            "id" = "h9ASPIrO";
+            "file" = "All-White Textures! (Hard) 647.0.zip";
+            "hash" = "sha512-kSfCpJsz5FtM9+sybcrCEXG0S35JnQ0wdHGqBIiVf7XOjVGCZnX8H+aya9sZLIMFU+9Yj0CR7Ibhltap5I7arw==";
+        };
+        _i5CYSM2D = {
+            "id" = "i5CYSM2D";
+            "file" = "All-White Textures! (Hard) 648.0.zip";
+            "hash" = "sha512-6WcrI5us71rJyV7vGJWAuWrpZ+Cp/DdXlp7VO++USwWe6mLJsUfQvAfYRsPnOvXJbVQE7fY1IEWDg4E8Od1S7Q==";
+        };
     in {
         "jQpL1Qgg" = _jQpL1Qgg;
         "9viZjyaZ" = _9viZjyaZ;
@@ -4424,6 +4474,16 @@ let
         "IRKuOhby" = _IRKuOhby;
         "qrSLJdqX" = _qrSLJdqX;
         "NsgcwkKc" = _NsgcwkKc;
+        "XqJnIMwy" = _XqJnIMwy;
+        "vyXx0tsj" = _vyXx0tsj;
+        "IOuIy7GT" = _IOuIy7GT;
+        "bD9B17wR" = _bD9B17wR;
+        "QvKyRkXg" = _QvKyRkXg;
+        "TkeCxctb" = _TkeCxctb;
+        "Q0kQS0HT" = _Q0kQS0HT;
+        "S940Ib2n" = _S940Ib2n;
+        "h9ASPIrO" = _h9ASPIrO;
+        "i5CYSM2D" = _i5CYSM2D;
         "minecraft-rd-132211" = _jQpL1Qgg;
         "minecraft-rd-132328" = _9viZjyaZ;
         "minecraft-rd-160052" = _r3NJ4IaK;
@@ -5323,6 +5383,22 @@ let
         "minecraft-26.2-rc-2" = _qrSLJdqX;
         "minecraft-26.2" = _qrSLJdqX;
         "minecraft-26.3-snapshot-1" = _NsgcwkKc;
+        "minecraft-26.3-snapshot-2" = _XqJnIMwy;
+        "minecraft-26.3-snapshot-3" = _vyXx0tsj;
+        "minecraft-26.3-snapshot-4" = _IOuIy7GT;
+        "minecraft-26.3-snapshot-5" = _bD9B17wR;
+        "minecraft-26.3-snapshot-6" = _QvKyRkXg;
+        "minecraft-26.3-snapshot-7" = _TkeCxctb;
+        "minecraft-26.3-snapshot-8" = _Q0kQS0HT;
+        "minecraft-26.3-snapshot-9" = _S940Ib2n;
+        "minecraft-26.3-snapshot-10" = _h9ASPIrO;
+        "minecraft-26.3-pre-1" = _i5CYSM2D;
+        "minecraft-26.3-pre-2" = _i5CYSM2D;
+        "minecraft-26.3-pre-3" = _i5CYSM2D;
+        "minecraft-26.3-rc-1" = _i5CYSM2D;
+        "minecraft-26.3-rc-2" = _i5CYSM2D;
+        "minecraft-26.3-rc-3" = _i5CYSM2D;
+        "minecraft-26.3" = _i5CYSM2D;
         "pkg-v0.1.0_hard" = _jQpL1Qgg;
         "pkg-v0.2.0_hard" = _9viZjyaZ;
         "pkg-v0.3.0_hard" = _r3NJ4IaK;
@@ -6060,7 +6136,17 @@ let
         "pkg-v636.0_hard" = _IRKuOhby;
         "pkg-v637.0_hard" = _qrSLJdqX;
         "pkg-v638.0_hard" = _NsgcwkKc;
-        "default" = _NsgcwkKc;
+        "pkg-v639.0_hard" = _XqJnIMwy;
+        "pkg-v640.0_hard" = _vyXx0tsj;
+        "pkg-v641.0_hard" = _IOuIy7GT;
+        "pkg-v642.0_hard" = _bD9B17wR;
+        "pkg-v643.0_hard" = _QvKyRkXg;
+        "pkg-v644.0_hard" = _TkeCxctb;
+        "pkg-v645.0_hard" = _Q0kQS0HT;
+        "pkg-v646.0_hard" = _S940Ib2n;
+        "pkg-v647.0_hard" = _h9ASPIrO;
+        "pkg-v648.0_hard" = _i5CYSM2D;
+        "default" = _i5CYSM2D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "all-white-2022-joel-challenge-pack-hard";

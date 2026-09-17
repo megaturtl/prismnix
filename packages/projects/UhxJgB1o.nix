@@ -476,6 +476,16 @@ let
             "file" = "softimprints-forge-1.20.1-2.8.0.jar";
             "hash" = "sha512-faoAfBZ2CylOTjHUiH0ZwLMUrkgB9tPpE9M4otz+htFU7ot+q2TYTQYiJpl5/CFWMO313rpv/Ht4eezF9peJEw==";
         };
+        _vVPbnY0q = {
+            "id" = "vVPbnY0q";
+            "file" = "softimprints-fabric-26.3-2.8.01.jar";
+            "hash" = "sha512-G70AZVUdo3YHs6T9xBEXQHW+kLBfu+rwKr03Um06JoA/k7ehnzTVDe5xR7I8rW/wrsdZ/NoFjbPaRV8Ots+TBQ==";
+        };
+        _cfMQdJvk = {
+            "id" = "cfMQdJvk";
+            "file" = "softimprints-neoforge-26.3-2.8.01.jar";
+            "hash" = "sha512-F7LI6JhV1n2dPkarjBMWYKBD8VsEswOusYjWpAvxj02mnpUOzOcXgLQ3cUCW/7Teo0CyttxDCTUOVHwGondQ5g==";
+        };
     in {
         "1BOUMoZG" = _1BOUMoZG;
         "U5R2Lfxs" = _U5R2Lfxs;
@@ -572,6 +582,8 @@ let
         "z2PtGMFc" = _z2PtGMFc;
         "B7CiJtrU" = _B7CiJtrU;
         "q01crbt4" = _q01crbt4;
+        "vVPbnY0q" = _vVPbnY0q;
+        "cfMQdJvk" = _cfMQdJvk;
         "fabric-1.20.1" = _B7CiJtrU;
         "fabric-1.21.1" = _7GYB3K8f;
         "fabric-1.21.11" = _vXIQwOe4;
@@ -585,6 +597,7 @@ let
         "fabric-26.2-rc-2" = _o1rdljUe;
         "fabric-26.2" = _z2PtGMFc;
         "fabric-26.3-snapshot-1" = _S9jhqG7u;
+        "fabric-26.3" = _vVPbnY0q;
         "forge-1.21.11" = _LArcBYfg;
         "forge-1.21.1" = _vVjYkauW;
         "forge-1.20.1" = _q01crbt4;
@@ -596,6 +609,7 @@ let
         "neoforge-1.20.1" = _QbGnFH1J;
         "neoforge-1.21.10" = _q65a879E;
         "neoforge-26.2" = _HuuTiHyx;
+        "neoforge-26.3" = _cfMQdJvk;
         "pkg-0.0.1" = _1BOUMoZG;
         "pkg-0.0.2" = _uGm6ntPP;
         "pkg-1.0.0" = _cZrl9mTN;
@@ -621,7 +635,8 @@ let
         "pkg-2.6.08" = _fDIdiA6K;
         "pkg-2.5.18" = _nYf4An0L;
         "pkg-2.8.0" = _q01crbt4;
-        "default" = _q01crbt4;
+        "pkg-2.8.01" = _cfMQdJvk;
+        "default" = _cfMQdJvk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "snow-imprints";

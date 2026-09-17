@@ -86,6 +86,16 @@ let
             "file" = "LongerChatHistory-neoforge-1.8.jar";
             "hash" = "sha512-qLb0Ep4y+LxAUeN8V7DZld8yRUjjxHy5jhmDMItRU0QRZ5gYQosm0Be22YnB//DYg9mVs8RmKP8sGcgbzjSARw==";
         };
+        _2P1UQ6nC = {
+            "id" = "2P1UQ6nC";
+            "file" = "LongerChatHistory-fabric-1.9.jar";
+            "hash" = "sha512-JG3j7t6AydJ2/13TmUDGVcq3WKLUdnIm2NZwvkFKyS8bMps98LlC4fQuW5CzzmlEzhnnCgFhqYJCN2kZnOS8zg==";
+        };
+        _Vjxp3Q16 = {
+            "id" = "Vjxp3Q16";
+            "file" = "LongerChatHistory-neoforge-1.9.jar";
+            "hash" = "sha512-ALYmGzoDlSSOq/OfVBIUdTuj+jza93iV/qA7CLudz9CPAOaXeoOemNGqOGuo8B4M4oBRUF2u2mfGJnEYzYIDLg==";
+        };
     in {
         "rWrA7tNI" = _rWrA7tNI;
         "TksuM9Wd" = _TksuM9Wd;
@@ -104,6 +114,8 @@ let
         "8ZILQQ32" = _8ZILQQ32;
         "GWx0jeOA" = _GWx0jeOA;
         "6jmaJjNk" = _6jmaJjNk;
+        "2P1UQ6nC" = _2P1UQ6nC;
+        "Vjxp3Q16" = _Vjxp3Q16;
         "forge-1.19.1" = _u3861OxW;
         "forge-1.19.2" = _u3861OxW;
         "forge-1.19.3" = _u3861OxW;
@@ -136,6 +148,7 @@ let
         "neoforge-26.1.1" = _6jmaJjNk;
         "neoforge-26.1.2" = _6jmaJjNk;
         "neoforge-26.2" = _6jmaJjNk;
+        "neoforge-26.3" = _Vjxp3Q16;
         "fabric-1.19.1" = _WTBAHwTb;
         "fabric-1.19.2" = _WTBAHwTb;
         "fabric-1.19.3" = _WTBAHwTb;
@@ -163,6 +176,7 @@ let
         "fabric-26.1.1" = _GWx0jeOA;
         "fabric-26.1.2" = _GWx0jeOA;
         "fabric-26.2" = _GWx0jeOA;
+        "fabric-26.3" = _2P1UQ6nC;
         "quilt-1.19.1" = _WTBAHwTb;
         "quilt-1.19.2" = _WTBAHwTb;
         "quilt-1.19.3" = _WTBAHwTb;
@@ -185,7 +199,8 @@ let
         "pkg-1.6" = _LOLyPaBQ;
         "pkg-1.7" = _8ZILQQ32;
         "pkg-1.8" = _6jmaJjNk;
-        "default" = _6jmaJjNk;
+        "pkg-1.9" = _Vjxp3Q16;
+        "default" = _Vjxp3Q16;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "longer-chat-history";

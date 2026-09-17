@@ -236,6 +236,31 @@ let
             "file" = "trains_tweaks-fabric-1.21.1-1.0.2.jar";
             "hash" = "sha512-b8/UbcfDasNEIjpdctwaKYx8fjXpriYgHCKfYSuOAEZTqH/c0UJ5n4HffnMKMV+jqbUaqvynvPG23CUVp84dVg==";
         };
+        _j5JMUdr1 = {
+            "id" = "j5JMUdr1";
+            "file" = "trains_tweaks-neoforge-1.21.1-1.2.0.jar";
+            "hash" = "sha512-UDAwGFVnQ2rvbsTaQMhTJXZur4j46FkrT4NYg06ERWvY6MWE55Dnf6KeGipV72wgaeXaM0Dp+7IipjdIvCggTQ==";
+        };
+        _HEwqD3DD = {
+            "id" = "HEwqD3DD";
+            "file" = "trains_tweaks-fabric-1.21.1-1.2.0.jar";
+            "hash" = "sha512-QQUaaIi0552KQrFtErl+hfaweqkIjNhnJlHGn4QTeh6veK0xtJ2jSC2Qry1KUUNdqI0g9EToNEuVqrzeEc1hxg==";
+        };
+        _RI1BM8Yj = {
+            "id" = "RI1BM8Yj";
+            "file" = "trains_tweaks-fabric-1.21.1-1.2.1.jar";
+            "hash" = "sha512-DFk745xvdhM9ogomlh5ng735BEiZtqYzoGdclO4meO4g8lqiWRnlibgf/wJI9lsNXbBS1PWP0hd6JP8rcIqG0g==";
+        };
+        _NID67ktw = {
+            "id" = "NID67ktw";
+            "file" = "trains_tweaks-neoforge-1.21.1-1.2.1.jar";
+            "hash" = "sha512-89sGU4ByPKvh78nbFQUX9lFMWKH98SDTSRdP+3+jYSGrESGsWUzim+j+jz0FmQVvf9bSYiNjXjwgv+GmE5fS/g==";
+        };
+        _cHrhGmzB = {
+            "id" = "cHrhGmzB";
+            "file" = "trains_tweaks-neoforge-1.21.1-1.2.2.jar";
+            "hash" = "sha512-xsSRFATDJhb6Vl/zPpYKh6aaPTOqqP9N6G0Lld2TTFQMryrIni3SV71h6s2gdH8eJw7P5WEwiH/LiaW0PYQ2vQ==";
+        };
     in {
         "RL2QVJ22" = _RL2QVJ22;
         "qqpB06Ew" = _qqpB06Ew;
@@ -284,8 +309,13 @@ let
         "lmsutcqJ" = _lmsutcqJ;
         "PKMqsVkp" = _PKMqsVkp;
         "he9fDal8" = _he9fDal8;
-        "neoforge-1.21.1" = _PKMqsVkp;
-        "fabric-1.21.1" = _he9fDal8;
+        "j5JMUdr1" = _j5JMUdr1;
+        "HEwqD3DD" = _HEwqD3DD;
+        "RI1BM8Yj" = _RI1BM8Yj;
+        "NID67ktw" = _NID67ktw;
+        "cHrhGmzB" = _cHrhGmzB;
+        "neoforge-1.21.1" = _cHrhGmzB;
+        "fabric-1.21.1" = _RI1BM8Yj;
         "quilt-1.21.1" = _uAvhYL74;
         "pkg-0.9.0" = _qqpB06Ew;
         "pkg-0.9.1" = _Q9pCo1wu;
@@ -312,7 +342,10 @@ let
         "pkg-0.9.30" = _wEVRFcvj;
         "pkg-1.0.1" = _lmsutcqJ;
         "pkg-1.0.2" = _he9fDal8;
-        "default" = _he9fDal8;
+        "pkg-1.2.0" = _HEwqD3DD;
+        "pkg-1.2.1" = _NID67ktw;
+        "pkg-1.2.2" = _cHrhGmzB;
+        "default" = _cHrhGmzB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trains_tweaks";

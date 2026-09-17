@@ -81,6 +81,31 @@ let
             "file" = "item-clumps-1.0.5+26.1.2.jar";
             "hash" = "sha512-v0nChLlntuqKo4m1Qwkkr7NPgCuryFuJAp8/ZqoyA4MpIhpOAxFb8u5v9uB24JPebS9NQRXPaGwv6wVtUQZoYQ==";
         };
+        _cskaunkV = {
+            "id" = "cskaunkV";
+            "file" = "item-clumps-1.0.6+26.1.2.jar";
+            "hash" = "sha512-ipIJ3CL+O7S9rhaWuhTJzkRwVWIiCi1Wtowl/xvhbdOGsWwSokUw2la6Sq+caZ9RjrxALW8oqdg3iOS9hkQfHw==";
+        };
+        _4wpViDoW = {
+            "id" = "4wpViDoW";
+            "file" = "item-clumps-1.0.24+26.2.jar";
+            "hash" = "sha512-h0VyUH1I2k2kxEJ+6CVg1MX13KA78t51tpW4KS+K5eKvcofYwqPKjCMlkdpBJpRzO92xYfoz09d+6yS0x/sReA==";
+        };
+        _d3Hdmx4X = {
+            "id" = "d3Hdmx4X";
+            "file" = "item-clumps-1.0.7+26.1.2.jar";
+            "hash" = "sha512-CZBcXuvUzyL1oQiwDqkMtgBkW57i1/Dn+qGAkhfnSeOOGnfs9t2YmZssSFAYJskmu5U20ICxS5IJcdTmYXW8cA==";
+        };
+        _6HrMmpfA = {
+            "id" = "6HrMmpfA";
+            "file" = "item-clumps-1.0.25+26.2.jar";
+            "hash" = "sha512-8KS24M3l3VH7d18qxKSJTnUEdnYEGi22DxP8PL8dHiJi49iVqfRtYMxflyZ8EWBOHwgaOtWY57iC6CTtFrG9jg==";
+        };
+        _VX7jvXvt = {
+            "id" = "VX7jvXvt";
+            "file" = "item-clumps-1.0.26+26.2.jar";
+            "hash" = "sha512-pF9/6bvsB6hlVuWPtssG/gxkITL8lAfvQtHVTwYF3cXt9kLO4SKynP2XejYFtuPMHekrVF5WoFafjXr3U7NzPA==";
+        };
     in {
         "DJRh4JeG" = _DJRh4JeG;
         "HRXYGGxu" = _HRXYGGxu;
@@ -98,7 +123,12 @@ let
         "PvXFjeLL" = _PvXFjeLL;
         "cIdgsJuj" = _cIdgsJuj;
         "AzQn6z5X" = _AzQn6z5X;
-        "fabric-26.1.2" = _AzQn6z5X;
+        "cskaunkV" = _cskaunkV;
+        "4wpViDoW" = _4wpViDoW;
+        "d3Hdmx4X" = _d3Hdmx4X;
+        "6HrMmpfA" = _6HrMmpfA;
+        "VX7jvXvt" = _VX7jvXvt;
+        "fabric-26.1.2" = _d3Hdmx4X;
         "fabric-26.2-snapshot-8" = _HRXYGGxu;
         "fabric-26.2-pre-2" = _84kUzkJW;
         "fabric-26.2-pre-1" = _84kUzkJW;
@@ -108,7 +138,7 @@ let
         "fabric-26.2-pre-6" = _84kUzkJW;
         "fabric-26.2-rc-1" = _84kUzkJW;
         "fabric-26.2-rc-2" = _84kUzkJW;
-        "fabric-26.2" = _PvXFjeLL;
+        "fabric-26.2" = _VX7jvXvt;
         "pkg-1.0.0+build.9" = _DJRh4JeG;
         "pkg-1.0.0+build.10" = _HRXYGGxu;
         "pkg-1.0.5+A-26.1.2" = _iJoEwe8K;
@@ -125,7 +155,12 @@ let
         "pkg-1.0.23+26.2" = _PvXFjeLL;
         "pkg-1.0.4+26.1.2" = _cIdgsJuj;
         "pkg-1.0.5+26.1.2" = _AzQn6z5X;
-        "default" = _AzQn6z5X;
+        "pkg-1.0.6+26.1.2" = _cskaunkV;
+        "pkg-1.0.24+26.2" = _4wpViDoW;
+        "pkg-1.0.7+26.1.2" = _d3Hdmx4X;
+        "pkg-1.0.25+26.2" = _6HrMmpfA;
+        "pkg-1.0.26+26.2" = _VX7jvXvt;
+        "default" = _VX7jvXvt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ig-item-clumps";

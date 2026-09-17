@@ -161,6 +161,16 @@ let
             "file" = "battle-towers-1.3.0.jar";
             "hash" = "sha512-dcpKA0ThN/HWCL7BUtoUsvfENiXUy+HU7MFTYtueFZL6nxQi3KY+1+Epdz70dwH5n+mdmzS85+Bl8XN7GKMo+g==";
         };
+        _gUGlJvJz = {
+            "id" = "gUGlJvJz";
+            "file" = "battle_towers-1.3.0-26.2.zip";
+            "hash" = "sha512-Wj6cGBv3cnVMHocmSMby35/l9j84D+Ghx3oLDoBUJyHSnmOS5t5QwVvaYKYgUaYuZkDgNdYQlkmWIiqxhgFL+w==";
+        };
+        _M4gF5Jc8 = {
+            "id" = "M4gF5Jc8";
+            "file" = "battle-towers-1.3.0.jar";
+            "hash" = "sha512-DNzw7HvIdFqTuc7tjmKRX6Qx81fKtfvStl/Zv8dwUSY5RBeidsimXWQGAYyXCDcbKsFl6AI2rrKxxMm5nulEDA==";
+        };
     in {
         "U480ANOZ" = _U480ANOZ;
         "JSd40S0t" = _JSd40S0t;
@@ -194,6 +204,8 @@ let
         "hkmVCq5o" = _hkmVCq5o;
         "A7t6N2Ud" = _A7t6N2Ud;
         "iSloujTc" = _iSloujTc;
+        "gUGlJvJz" = _gUGlJvJz;
+        "M4gF5Jc8" = _M4gF5Jc8;
         "datapack-1.20" = _TUaUsyLL;
         "datapack-1.20.1" = _TUaUsyLL;
         "datapack-1.20.2" = _TUaUsyLL;
@@ -216,6 +228,7 @@ let
         "datapack-26.1" = _uQWFYoAg;
         "datapack-26.1.1" = _uQWFYoAg;
         "datapack-26.1.2" = _uQWFYoAg;
+        "datapack-26.2" = _gUGlJvJz;
         "fabric-1.20" = _nqpjAzQv;
         "fabric-1.20.1" = _nqpjAzQv;
         "fabric-1.20.2" = _nqpjAzQv;
@@ -238,6 +251,7 @@ let
         "fabric-26.1" = _A7t6N2Ud;
         "fabric-26.1.1" = _A7t6N2Ud;
         "fabric-26.1.2" = _A7t6N2Ud;
+        "fabric-26.2" = _M4gF5Jc8;
         "forge-1.20" = _EI9Z4kse;
         "forge-1.20.1" = _EI9Z4kse;
         "forge-1.20.2" = _EI9Z4kse;
@@ -282,6 +296,7 @@ let
         "quilt-26.1" = _A7t6N2Ud;
         "quilt-26.1.1" = _A7t6N2Ud;
         "quilt-26.1.2" = _A7t6N2Ud;
+        "quilt-26.2" = _M4gF5Jc8;
         "neoforge-1.20" = _nqpjAzQv;
         "neoforge-1.20.1" = _nqpjAzQv;
         "neoforge-1.20.2" = _nqpjAzQv;
@@ -304,6 +319,7 @@ let
         "neoforge-26.1" = _A7t6N2Ud;
         "neoforge-26.1.1" = _A7t6N2Ud;
         "neoforge-26.1.2" = _A7t6N2Ud;
+        "neoforge-26.2" = _M4gF5Jc8;
         "pkg-1.0.0" = _U480ANOZ;
         "pkg-1.0.0+mod" = _JSd40S0t;
         "pkg-1.1.0" = _ovhVDYSN;
@@ -312,9 +328,9 @@ let
         "pkg-1.1.1+mod" = _gIEMUwLG;
         "pkg-1.2.0" = _KJSXSAGe;
         "pkg-1.2.0+mod" = _CZofTz4j;
-        "pkg-1.3.0" = _uQWFYoAg;
-        "pkg-1.3.0+mod" = _iSloujTc;
-        "default" = _iSloujTc;
+        "pkg-1.3.0" = _gUGlJvJz;
+        "pkg-1.3.0+mod" = _M4gF5Jc8;
+        "default" = _M4gF5Jc8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "battle-towers";

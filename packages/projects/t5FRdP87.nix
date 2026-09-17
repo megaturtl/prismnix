@@ -161,6 +161,16 @@ let
             "file" = "YungsBetterWitchHuts-26.1.2-NeoForge-5.1.0.jar";
             "hash" = "sha512-PCnTp40Q/ZvmV9iIyj2ThHv5P7YawhN0uj7Ux6f7hWBZQQKIoSR5AnbPhtZvbUdSLnFxlBMpE++jZjSkXUa8dA==";
         };
+        _HEnkLCGz = {
+            "id" = "HEnkLCGz";
+            "file" = "YungsBetterWitchHuts-26.1.2-Fabric-5.1.1.jar";
+            "hash" = "sha512-FhT2PmxQ/XGLc+6gcAjQT1tHPDh2GqirvuNPTwUvKALLWC2IXrMhjXlsmV2LlSc8wAUwBT4BIsSplkpGXJWP5Q==";
+        };
+        _FuqDSl5q = {
+            "id" = "FuqDSl5q";
+            "file" = "YungsBetterWitchHuts-26.1.2-NeoForge-5.1.1.jar";
+            "hash" = "sha512-0BjJsveYfXjxOwuqchYMoGkzyCCz7rUIWzQj5Lb2GhY+M6+CD9KigzAtuEXOEBkiSfgtiPtOOL7GOAdtAYVeAw==";
+        };
     in {
         "rAwSL8Wn" = _rAwSL8Wn;
         "aGIYJrqz" = _aGIYJrqz;
@@ -194,6 +204,8 @@ let
         "VyLJ3l0e" = _VyLJ3l0e;
         "9Qa0oCG4" = _9Qa0oCG4;
         "9ZLhxr84" = _9ZLhxr84;
+        "HEnkLCGz" = _HEnkLCGz;
+        "FuqDSl5q" = _FuqDSl5q;
         "forge-1.19.2" = _rAwSL8Wn;
         "forge-1.19.3" = _4F6etNVF;
         "forge-1.19.4" = _zbAesA1b;
@@ -211,14 +223,14 @@ let
         "fabric-1.21.1" = _bdpPtvTn;
         "fabric-1.21" = _bdpPtvTn;
         "fabric-1.21.4" = _VyLJ3l0e;
-        "fabric-26.1.1" = _9Qa0oCG4;
-        "fabric-26.1.2" = _9Qa0oCG4;
+        "fabric-26.1.1" = _HEnkLCGz;
+        "fabric-26.1.2" = _HEnkLCGz;
         "neoforge-1.20.4" = _ApxfQWlS;
         "neoforge-1.21.1" = _AvedwcIe;
         "neoforge-1.21" = _AvedwcIe;
         "neoforge-1.21.4" = _O4kCyQUo;
-        "neoforge-26.1.1" = _9ZLhxr84;
-        "neoforge-26.1.2" = _9ZLhxr84;
+        "neoforge-26.1.1" = _FuqDSl5q;
+        "neoforge-26.1.2" = _FuqDSl5q;
         "pkg-1.19.2-Forge-2.1.0" = _rAwSL8Wn;
         "pkg-1.19.2-Fabric-2.1.0" = _aGIYJrqz;
         "pkg-1.19.3-Forge-2.2.0" = _4F6etNVF;
@@ -251,7 +263,9 @@ let
         "pkg-1.21.4-Fabric-4.4.0" = _VyLJ3l0e;
         "pkg-26.1.2-Fabric-5.1.0" = _9Qa0oCG4;
         "pkg-26.1.2-NeoForge-5.1.0" = _9ZLhxr84;
-        "default" = _9ZLhxr84;
+        "pkg-26.1.2-Fabric-5.1.1" = _HEnkLCGz;
+        "pkg-26.1.2-NeoForge-5.1.1" = _FuqDSl5q;
+        "default" = _FuqDSl5q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yungs-better-witch-huts";

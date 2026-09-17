@@ -51,6 +51,16 @@ let
             "file" = "tnt-timer-3.0.jar";
             "hash" = "sha512-R4bn+Pz3xLTqQ7K+Mj/pCJt0TVZb/P/BKe94CPCZINle43jg43HR+AiGSSZHRv27/rWMMkfL4Tr7pcxqiIFCJw==";
         };
+        _9MX9LcLc = {
+            "id" = "9MX9LcLc";
+            "file" = "TNT timer v3.1 MC-26.3.zip";
+            "hash" = "sha512-A7fi87hStVQhOfQ5k/B/3OUsG4F0Lfehqi2+qXM4pMHYo1ESZCv2w2i0pu1ueluL6cKOGpX2YJoApYFxwwIblA==";
+        };
+        _H2aYginU = {
+            "id" = "H2aYginU";
+            "file" = "tnt-timer-3.1.jar";
+            "hash" = "sha512-ecqlY07MhLZrbBYD181CrBRgYA7YNsFIe6sb/XvSwzldCI2okySxqYoRNpdHMVi8pjFn0Pq164PwJqY1eJqRiw==";
+        };
     in {
         "DxBcmq71" = _DxBcmq71;
         "3lCKDxrt" = _3lCKDxrt;
@@ -62,6 +72,8 @@ let
         "UDbUHtAP" = _UDbUHtAP;
         "fi7DlmYs" = _fi7DlmYs;
         "7siVZRjL" = _7siVZRjL;
+        "9MX9LcLc" = _9MX9LcLc;
+        "H2aYginU" = _H2aYginU;
         "datapack-1.20" = _oACN1CCK;
         "datapack-1.20.1" = _oACN1CCK;
         "datapack-1.20.2" = _Vw1a6WIB;
@@ -85,6 +97,7 @@ let
         "datapack-26.1.1" = _fi7DlmYs;
         "datapack-26.1.2" = _fi7DlmYs;
         "datapack-26.2" = _fi7DlmYs;
+        "datapack-26.3" = _9MX9LcLc;
         "fabric-1.20" = _UDbUHtAP;
         "fabric-1.20.1" = _UDbUHtAP;
         "fabric-1.20.2" = _7RsqNDCx;
@@ -108,6 +121,7 @@ let
         "fabric-26.1.1" = _7siVZRjL;
         "fabric-26.1.2" = _7siVZRjL;
         "fabric-26.2" = _7siVZRjL;
+        "fabric-26.3" = _H2aYginU;
         "forge-1.20" = _UDbUHtAP;
         "forge-1.20.1" = _UDbUHtAP;
         "forge-1.20.2" = _7RsqNDCx;
@@ -131,6 +145,7 @@ let
         "forge-26.1.1" = _7siVZRjL;
         "forge-26.1.2" = _7siVZRjL;
         "forge-26.2" = _7siVZRjL;
+        "forge-26.3" = _H2aYginU;
         "quilt-1.20" = _UDbUHtAP;
         "quilt-1.20.1" = _UDbUHtAP;
         "quilt-1.20.2" = _7RsqNDCx;
@@ -154,6 +169,7 @@ let
         "quilt-26.1.1" = _7siVZRjL;
         "quilt-26.1.2" = _7siVZRjL;
         "quilt-26.2" = _7siVZRjL;
+        "quilt-26.3" = _H2aYginU;
         "neoforge-1.20.2" = _7RsqNDCx;
         "neoforge-1.20.3" = _7RsqNDCx;
         "neoforge-1.20.4" = _7RsqNDCx;
@@ -177,13 +193,16 @@ let
         "neoforge-26.1.1" = _7siVZRjL;
         "neoforge-26.1.2" = _7siVZRjL;
         "neoforge-26.2" = _7siVZRjL;
+        "neoforge-26.3" = _H2aYginU;
         "pkg-1" = _DxBcmq71;
         "pkg-1+mod" = _3lCKDxrt;
         "pkg-2" = _UPcQGz9y;
         "pkg-2+mod" = _T7B4hUVa;
         "pkg-3.0" = _fi7DlmYs;
         "pkg-3.0+mod" = _7siVZRjL;
-        "default" = _7siVZRjL;
+        "pkg-3.1" = _9MX9LcLc;
+        "pkg-3.1+mod" = _H2aYginU;
+        "default" = _H2aYginU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tnt-timer";

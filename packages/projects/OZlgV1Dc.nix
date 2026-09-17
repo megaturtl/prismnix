@@ -416,6 +416,16 @@ let
             "file" = "craftingslots-neoforge-26.2-26.2.0.1.jar";
             "hash" = "sha512-BrBxZu8fnyqvNbsl5NTKqSBwlL8nazltfN1IRZ7omaajHxSXIUscYaQs2BI55Cmv7rosEevh+GsMGc6DVwuILw==";
         };
+        _8pC9TE93 = {
+            "id" = "8pC9TE93";
+            "file" = "craftingslots-fabric-26.3-26.3.0.1.jar";
+            "hash" = "sha512-NP7Tzbx5aKaxEcIdxqU+4QYTzpcq3GoH4K9n4loydEKEvzK6MNDRnK+WQ5pTJTESgHmA9kiEoqermW9OSqPuLw==";
+        };
+        _ZNOuUGxC = {
+            "id" = "ZNOuUGxC";
+            "file" = "craftingslots-neoforge-26.3-26.3.0.1.jar";
+            "hash" = "sha512-vmdjPHTuk3WyIS/GiEbv2CmD+rPIxBH7OuwpjF/MZYL9njpjKuqURq3RN//+xLj9dl54FOlp4QcDhKmJvKYjjg==";
+        };
     in {
         "cik9um0Q" = _cik9um0Q;
         "HanG1Ytb" = _HanG1Ytb;
@@ -500,6 +510,8 @@ let
         "okiYmdRT" = _okiYmdRT;
         "eyZb8qfS" = _eyZb8qfS;
         "SvKkRkiY" = _SvKkRkiY;
+        "8pC9TE93" = _8pC9TE93;
+        "ZNOuUGxC" = _ZNOuUGxC;
         "forge-1.19" = _cik9um0Q;
         "forge-1.19.1" = _cik9um0Q;
         "forge-1.19.2" = _cik9um0Q;
@@ -551,6 +563,7 @@ let
         "fabric-26.1.1" = _1FZKfHNk;
         "fabric-26.1.2" = _1XuiNwYY;
         "fabric-26.2" = _eyZb8qfS;
+        "fabric-26.3" = _8pC9TE93;
         "neoforge-1.20.2" = _aSddIHdl;
         "neoforge-1.20.4" = _5xlSypHN;
         "neoforge-1.20.6" = _IP141LDj;
@@ -570,6 +583,7 @@ let
         "neoforge-26.1.1" = _OG01B0Oh;
         "neoforge-26.1.2" = _okiYmdRT;
         "neoforge-26.2" = _SvKkRkiY;
+        "neoforge-26.3" = _ZNOuUGxC;
         "pkg-13.0.0+forge-1.19" = _cik9um0Q;
         "pkg-13.0.0+fabric-1.19" = _HanG1Ytb;
         "pkg-14.0.0+forge-1.19.3" = _51hfLqgl;
@@ -653,7 +667,9 @@ let
         "pkg-26.1.2.2+neoforge-26.1.2" = _okiYmdRT;
         "pkg-26.2.0.1+fabric-26.2" = _eyZb8qfS;
         "pkg-26.2.0.1+neoforge-26.2" = _SvKkRkiY;
-        "default" = _SvKkRkiY;
+        "pkg-26.3.0.1+fabric-26.3" = _8pC9TE93;
+        "pkg-26.3.0.1+neoforge-26.3" = _ZNOuUGxC;
+        "default" = _ZNOuUGxC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "porta-crafty";

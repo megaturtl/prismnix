@@ -516,6 +516,16 @@ let
             "file" = "minecart-trains-fork-2.5.0-beta.1+26.2.jar";
             "hash" = "sha512-C8sXt2w2deLTXIFELt+/gk+2/o+Qet8IfGzt/iDo4q/sLdRXo2ekGBPr9++g9GEboDdSwyxHVVUfVGoLhwFujg==";
         };
+        _g3qLKPVC = {
+            "id" = "g3qLKPVC";
+            "file" = "minecart-trains-fork-2.5.0-beta.2+26.2.jar";
+            "hash" = "sha512-AdTCFSgMwMJ8iFAUDScGthmpK7HdINwoZdZ2LwGKvVKUHeT+Wi8uIKljg968a5R3/gGoj3MViqzm/5O0ci4NBw==";
+        };
+        _ob4Ns9kd = {
+            "id" = "ob4Ns9kd";
+            "file" = "minecart-trains-fork-2.5.0+26.2.jar";
+            "hash" = "sha512-xvSj/CfJlIB+AitZeOzeuNJplILAgYWBp2Wdx4om+eoTe5llqferwrL9iKavVIj6rLA/3ZJYudQN2GCri2/k0g==";
+        };
     in {
         "UR3nUJIF" = _UR3nUJIF;
         "yoKrRrE9" = _yoKrRrE9;
@@ -620,6 +630,8 @@ let
         "qaPiTACF" = _qaPiTACF;
         "X4NCzWPP" = _X4NCzWPP;
         "RWBxVgQS" = _RWBxVgQS;
+        "g3qLKPVC" = _g3qLKPVC;
+        "ob4Ns9kd" = _ob4Ns9kd;
         "fabric-1.21.9" = _w8Yq8yvH;
         "fabric-1.21.10" = _w8Yq8yvH;
         "fabric-1.21.6" = _k71tUBQb;
@@ -652,7 +664,7 @@ let
         "fabric-26.1" = _hgfjdGDB;
         "fabric-26.1.1" = _hgfjdGDB;
         "fabric-26.1.2" = _hgfjdGDB;
-        "fabric-26.2" = _RWBxVgQS;
+        "fabric-26.2" = _ob4Ns9kd;
         "neoforge-26.1" = _3VE9R1PJ;
         "neoforge-26.1.1" = _3VE9R1PJ;
         "neoforge-26.1.2" = _3VE9R1PJ;
@@ -764,7 +776,9 @@ let
         "pkg-2.5.0-alpha.3+26.2" = _qaPiTACF;
         "pkg-2.5.0-alpha.4+26.2" = _X4NCzWPP;
         "pkg-2.5.0-beta.1+26.2" = _RWBxVgQS;
-        "default" = _RWBxVgQS;
+        "pkg-2.5.0-beta.2+26.2" = _g3qLKPVC;
+        "pkg-2.5.0+26.2" = _ob4Ns9kd;
+        "default" = _ob4Ns9kd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minecart-trains-fork";

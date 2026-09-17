@@ -331,6 +331,26 @@ let
             "file" = "zamega-neoforge-1.7.7+1.8.jar";
             "hash" = "sha512-+zkEoC3+fKWQ7Vc84jmKVz8/aeoV5WSfSIxhvigYr+8nPAAJsCWDfS7t06oU3Cd/O1ZGhNdUcr+3XGBIj1oZlQ==";
         };
+        _vCuxIeMI = {
+            "id" = "vCuxIeMI";
+            "file" = "zamega-fabric-1.8.0+1.8.jar";
+            "hash" = "sha512-W5jpXLhDwuNmjGfSMkABXiP33DfHFTO845dzjXNY66TCeiY1exYOTkHL2e0HvTKmiCLY5j/VR49nPhsHkqcPOg==";
+        };
+        _rLxNIykC = {
+            "id" = "rLxNIykC";
+            "file" = "zamega-neoforge-1.8.0+1.8.jar";
+            "hash" = "sha512-TyqL9qFjJuCGelz61uPPhPstWurebvxjU5QVfVJxBbjyHBNyLOb1lLbqfIgCE6mlnCEGBFEkbh+vQ7+WNf02VA==";
+        };
+        _vXsHwaru = {
+            "id" = "vXsHwaru";
+            "file" = "zamega-neoforge-1.8.1+1.8.jar";
+            "hash" = "sha512-cQU5BGFIFd7y8xqFqgCeKxnpLDi0NyeGLnplxt3y3dVSazeFmOUIoMyhd7Vw/TKcvg7ECc/zURrUy5w1nRHidg==";
+        };
+        _AkUZt99V = {
+            "id" = "AkUZt99V";
+            "file" = "zamega-fabric-1.8.1+1.8.jar";
+            "hash" = "sha512-RPCmvLnO/R9L/vcusqx0gBkoVK9ysQqP3WU+xO8DpLpNM3FxsUUHWwngcYOA7F3n/V8H3GTINcrR13gcZIdD7Q==";
+        };
     in {
         "PWnNshnB" = _PWnNshnB;
         "67GxfNuL" = _67GxfNuL;
@@ -398,9 +418,13 @@ let
         "IAfKpgL8" = _IAfKpgL8;
         "jlpvkxRM" = _jlpvkxRM;
         "lmM1mzoE" = _lmM1mzoE;
+        "vCuxIeMI" = _vCuxIeMI;
+        "rLxNIykC" = _rLxNIykC;
+        "vXsHwaru" = _vXsHwaru;
+        "AkUZt99V" = _AkUZt99V;
         "datapack-1.21.1" = _r9p6V7hl;
-        "fabric-1.21.1" = _jlpvkxRM;
-        "neoforge-1.21.1" = _lmM1mzoE;
+        "fabric-1.21.1" = _AkUZt99V;
+        "neoforge-1.21.1" = _vXsHwaru;
         "pkg-0.9.0" = _PWnNshnB;
         "pkg-0.9.1" = _67GxfNuL;
         "pkg-1.0" = _NsIrA0dG;
@@ -439,7 +463,9 @@ let
         "pkg-1.7.6" = _I2TIMyf4;
         "pkg-1.7.6+1.8" = _IAfKpgL8;
         "pkg-1.7.7+1.8" = _lmM1mzoE;
-        "default" = _lmM1mzoE;
+        "pkg-1.8.0+1.8" = _rLxNIykC;
+        "pkg-1.8.1+1.8" = _AkUZt99V;
+        "default" = _AkUZt99V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "navas-zamega";

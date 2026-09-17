@@ -16,10 +16,16 @@ let
             "file" = "Bushy Leaves V88 MC26.2.zip";
             "hash" = "sha512-J9cgfUWiuY9kqg/Nkf9ie8hj1JBlx6jYh5VuYVx+DiHtm5YlyyrXfE2au5efaXdTLimJC9RoLasYs7yCsa6RKg==";
         };
+        _m4xLCdn3 = {
+            "id" = "m4xLCdn3";
+            "file" = "Bushy Leaves V97 MC26.3.zip";
+            "hash" = "sha512-ivKKA+XTtTpxOXFhdBeXYXmPDJglSGoDl2FzEdd4ZOBeJzSE0UTU/d+S4LcrIiuoSgkeOq0iQW2qBQ1afU1K9A==";
+        };
     in {
         "pk0eNwEP" = _pk0eNwEP;
         "vTSYTMcz" = _vTSYTMcz;
         "ONUhyc7w" = _ONUhyc7w;
+        "m4xLCdn3" = _m4xLCdn3;
         "minecraft-1.20" = _pk0eNwEP;
         "minecraft-1.20.1" = _pk0eNwEP;
         "minecraft-1.20.2" = _pk0eNwEP;
@@ -39,14 +45,16 @@ let
         "minecraft-1.21.9" = _pk0eNwEP;
         "minecraft-1.21.10" = _pk0eNwEP;
         "minecraft-1.21.11" = _pk0eNwEP;
-        "minecraft-26.1" = _ONUhyc7w;
-        "minecraft-26.1.1" = _ONUhyc7w;
-        "minecraft-26.1.2" = _ONUhyc7w;
-        "minecraft-26.2" = _ONUhyc7w;
+        "minecraft-26.1" = _m4xLCdn3;
+        "minecraft-26.1.1" = _m4xLCdn3;
+        "minecraft-26.1.2" = _m4xLCdn3;
+        "minecraft-26.2" = _m4xLCdn3;
+        "minecraft-26.3" = _m4xLCdn3;
         "pkg-75" = _pk0eNwEP;
         "pkg-84.1" = _vTSYTMcz;
         "pkg-88" = _ONUhyc7w;
-        "default" = _ONUhyc7w;
+        "pkg-97" = _m4xLCdn3;
+        "default" = _m4xLCdn3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bushy-leaves-textures";

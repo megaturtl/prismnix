@@ -41,6 +41,16 @@ let
             "file" = "lock-end-1.6.0.jar";
             "hash" = "sha512-xQPMuJwsnII8ohYOKRsB15Z/w2kascNwzKAPn1LRzj9rLLE1ljuWbyNa2EHmZkr4U+/h2D9FCE737n39HFHYbw==";
         };
+        _J132mAO8 = {
+            "id" = "J132mAO8";
+            "file" = "lock-end-2.0.0.jar";
+            "hash" = "sha512-u6OjiVymRh0JKXMkvusA3Wo08Kv8X6YtBb8CYA9kP7P8yg8ui+Q2dyq0m7xiUnUSi4JsQDOKtU6YlVEqE1UZbA==";
+        };
+        _qxwC1tAW = {
+            "id" = "qxwC1tAW";
+            "file" = "lock-end-2.0.1.jar";
+            "hash" = "sha512-v2tSgxP2StVBUWQhYrTkLWiOfjIHi79qW0HHpGHh70TEKNCEmyrKXOmQX2YwV1iBd+IwOVt1qS+C6s8gOBrLoA==";
+        };
     in {
         "icsb9Zlf" = _icsb9Zlf;
         "WyE5swss" = _WyE5swss;
@@ -50,6 +60,8 @@ let
         "2epWi8bB" = _2epWi8bB;
         "LwHnS6dM" = _LwHnS6dM;
         "yA1aDxEp" = _yA1aDxEp;
+        "J132mAO8" = _J132mAO8;
+        "qxwC1tAW" = _qxwC1tAW;
         "bukkit-1.20" = _icsb9Zlf;
         "bukkit-1.20.1" = _icsb9Zlf;
         "bukkit-1.20.2" = _icsb9Zlf;
@@ -72,7 +84,7 @@ let
         "bukkit-26.1.1" = _2epWi8bB;
         "bukkit-26.1.2" = _2epWi8bB;
         "bukkit-26.2-rc-2" = _WyE5swss;
-        "bukkit-26.2" = _yA1aDxEp;
+        "bukkit-26.2" = _J132mAO8;
         "paper-1.20" = _icsb9Zlf;
         "paper-1.20.1" = _icsb9Zlf;
         "paper-1.20.2" = _icsb9Zlf;
@@ -95,7 +107,8 @@ let
         "paper-26.1.1" = _2epWi8bB;
         "paper-26.1.2" = _2epWi8bB;
         "paper-26.2-rc-2" = _WyE5swss;
-        "paper-26.2" = _yA1aDxEp;
+        "paper-26.2" = _J132mAO8;
+        "paper-26.3" = _qxwC1tAW;
         "purpur-1.20" = _icsb9Zlf;
         "purpur-1.20.1" = _icsb9Zlf;
         "purpur-1.20.2" = _icsb9Zlf;
@@ -118,7 +131,8 @@ let
         "purpur-26.1.1" = _2epWi8bB;
         "purpur-26.1.2" = _2epWi8bB;
         "purpur-26.2-rc-2" = _WyE5swss;
-        "purpur-26.2" = _yA1aDxEp;
+        "purpur-26.2" = _J132mAO8;
+        "purpur-26.3" = _qxwC1tAW;
         "spigot-1.20" = _icsb9Zlf;
         "spigot-1.20.1" = _icsb9Zlf;
         "spigot-1.20.2" = _icsb9Zlf;
@@ -137,7 +151,7 @@ let
         "spigot-1.21.8" = _icsb9Zlf;
         "spigot-1.21.9" = _icsb9Zlf;
         "spigot-1.21.10" = _icsb9Zlf;
-        "spigot-26.2" = _yA1aDxEp;
+        "spigot-26.2" = _J132mAO8;
         "spigot-26.1" = _2epWi8bB;
         "spigot-26.1.1" = _2epWi8bB;
         "spigot-26.1.2" = _2epWi8bB;
@@ -146,6 +160,7 @@ let
         "folia-26.1.2" = _2epWi8bB;
         "folia-26.2-rc-2" = _WyE5swss;
         "folia-26.2" = _yA1aDxEp;
+        "folia-26.3" = _qxwC1tAW;
         "pkg-1.0.0" = _icsb9Zlf;
         "pkg-1.1.0" = _WyE5swss;
         "pkg-1.2" = _kHKBs3qa;
@@ -154,7 +169,9 @@ let
         "pkg-1.4.1" = _2epWi8bB;
         "pkg-1.5.0" = _LwHnS6dM;
         "pkg-1.6.0" = _yA1aDxEp;
-        "default" = _yA1aDxEp;
+        "pkg-2.0.0" = _J132mAO8;
+        "pkg-2.0.1" = _qxwC1tAW;
+        "default" = _qxwC1tAW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lock-end";

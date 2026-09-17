@@ -111,6 +111,11 @@ let
             "file" = "reconfigure-0.3.2.jar";
             "hash" = "sha512-7591G47L9DXnVdlkzez8umTXe+wpFnVPUnGtr75wkVghIGbFsBfJenCAOK/PlxWo8vIOfKb4g+qy/1BdxAnmQg==";
         };
+        _t77BCJaY = {
+            "id" = "t77BCJaY";
+            "file" = "reconfigure-0.3.3.jar";
+            "hash" = "sha512-blkO9fqgTKMbaUmVyruiTFXKRsE1EK80a4I+huuTU4DkJig8li48SCLK4OLYySEqYk2HJzoPQ1YbH2mDDtteog==";
+        };
     in {
         "O29qfwse" = _O29qfwse;
         "j2J2tu0y" = _j2J2tu0y;
@@ -134,6 +139,7 @@ let
         "HrAfacbj" = _HrAfacbj;
         "amkO1Bx8" = _amkO1Bx8;
         "Qkjahz7v" = _Qkjahz7v;
+        "t77BCJaY" = _t77BCJaY;
         "fabric-1.21.4" = _fIQW1hHv;
         "fabric-1.21.5" = _b55lcNEK;
         "fabric-1.21.6" = _9APNlvIW;
@@ -146,6 +152,7 @@ let
         "fabric-26.1.1" = _amkO1Bx8;
         "fabric-26.1.2" = _amkO1Bx8;
         "fabric-26.2" = _Qkjahz7v;
+        "fabric-26.3" = _t77BCJaY;
         "pkg-0.1.0" = _O29qfwse;
         "pkg-0.1.1" = _j2J2tu0y;
         "pkg-0.1.2" = _HeRMivHt;
@@ -168,7 +175,8 @@ let
         "pkg-0.3.0" = _HrAfacbj;
         "pkg-0.3.1" = _amkO1Bx8;
         "pkg-0.3.2" = _Qkjahz7v;
-        "default" = _Qkjahz7v;
+        "pkg-0.3.3" = _t77BCJaY;
+        "default" = _t77BCJaY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reconfigure";

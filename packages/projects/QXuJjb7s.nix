@@ -321,6 +321,26 @@ let
             "file" = "Herobrine Companion-0.34-1.21.1-neoforge.jar";
             "hash" = "sha512-g0qjdAPjbgr0XKyQ8Ky0Sw4qKan/GFj1gw1AXUPJIp6GiVmENEGjeFjUl+fBlQToVPh8DYEVdpADJX7npNJDLQ==";
         };
+        _mlwKyKoU = {
+            "id" = "mlwKyKoU";
+            "file" = "Herobrine Companion-1.20.1-forge-0.4.jar";
+            "hash" = "sha512-NUhOa7IMbBK2a9S1YQZEL1pl80RoQrN36cxzp8kHaodBHuzMQAQ/vZRzGl6CiwYoX9RqsWRvzrRxbTYJfP40yg==";
+        };
+        _cRzPpEnw = {
+            "id" = "cRzPpEnw";
+            "file" = "Herobrine Companion-0.4-1.21.1-neoforge.jar";
+            "hash" = "sha512-uP4VWaF/USmARY6TAR0+kCIwBDTYnYyMl3eLxn53tyMzED1llhgY4CyVeE6o0diPm8GJYtfV1Em+guwb5jLlMQ==";
+        };
+        _6SVO4pRg = {
+            "id" = "6SVO4pRg";
+            "file" = "Herobrine Companion-1.20.1-forge-0.41.jar";
+            "hash" = "sha512-K/RQAYPcHKrczUY3WDCg5Rqwtv061zdyhyskEhERoI5diQW20kzkNJLe9nKsGzJJO93in0PQvClFQskz4iKrNg==";
+        };
+        _lEDs76Ys = {
+            "id" = "lEDs76Ys";
+            "file" = "Herobrine Companion-0.41-1.21.1-neoforge.jar";
+            "hash" = "sha512-wofOpuBVsP5OT5CCFGpAxQo6iqn+EXjrHIqUBrlk9BlN68UJkSgfBaMcGyyd1g+pWFn9HpaZp+korYuaZtQcvA==";
+        };
     in {
         "Yj0Z2aOU" = _Yj0Z2aOU;
         "wnDTa9yN" = _wnDTa9yN;
@@ -386,8 +406,12 @@ let
         "zCVlqe6y" = _zCVlqe6y;
         "cjotOHrm" = _cjotOHrm;
         "2XldpG2t" = _2XldpG2t;
-        "forge-1.20.1" = _cjotOHrm;
-        "neoforge-1.21.1" = _2XldpG2t;
+        "mlwKyKoU" = _mlwKyKoU;
+        "cRzPpEnw" = _cRzPpEnw;
+        "6SVO4pRg" = _6SVO4pRg;
+        "lEDs76Ys" = _lEDs76Ys;
+        "forge-1.20.1" = _6SVO4pRg;
+        "neoforge-1.21.1" = _lEDs76Ys;
         "pkg-0.11" = _wnDTa9yN;
         "pkg-0.111" = _Q6HINZqQ;
         "pkg-0.12" = _aUH6jjdq;
@@ -423,7 +447,9 @@ let
         "pkg-0.3" = _pTjmSX2u;
         "pkg-0.32" = _zCVlqe6y;
         "pkg-0.34" = _2XldpG2t;
-        "default" = _2XldpG2t;
+        "pkg-0.4" = _cRzPpEnw;
+        "pkg-0.41" = _lEDs76Ys;
+        "default" = _lEDs76Ys;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "herobrine_companion";

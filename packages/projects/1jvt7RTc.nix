@@ -626,6 +626,16 @@ let
             "file" = "AxesAreWeapons-1.10.2-fabric-1.20.2.jar";
             "hash" = "sha512-MFB5kpupcxKiNKXlGmzVJf8MvDAeQ/Ipsx4tinOVgg3yvCO+c1lDwgJZqRYrEugCS1qROQreWftBr74aJrKpBQ==";
         };
+        _mxMF9lqb = {
+            "id" = "mxMF9lqb";
+            "file" = "AxesAreWeapons-1.11.0-neoforge-26.3.jar";
+            "hash" = "sha512-rmOvbmd1gKR5MonMgqW1+V79/HTfOARug0zrkqLaFB1BKg+dpOH7y//oe89zUi9GAm4updoAzgjwvUd5EOTPMw==";
+        };
+        _F7wV92p3 = {
+            "id" = "F7wV92p3";
+            "file" = "AxesAreWeapons-1.11.0-fabric-26.3.jar";
+            "hash" = "sha512-mNvRx+ejG7Ywsd/6+YsxqkJWv7B3Ypx7Nzd69jInTKWk4t7laV0WeYcQBbnKedo44tolsQHRUGVfAuckoIH5cA==";
+        };
     in {
         "ArFYjmeM" = _ArFYjmeM;
         "OhfDXHIe" = _OhfDXHIe;
@@ -752,6 +762,8 @@ let
         "fqABgPjL" = _fqABgPjL;
         "xpC1ToZ9" = _xpC1ToZ9;
         "fBm0nBm4" = _fBm0nBm4;
+        "mxMF9lqb" = _mxMF9lqb;
+        "F7wV92p3" = _F7wV92p3;
         "fabric-1.16.2" = _NQp8TSMr;
         "fabric-1.16.3" = _NQp8TSMr;
         "fabric-1.16.4" = _NQp8TSMr;
@@ -791,6 +803,7 @@ let
         "fabric-26.1.1" = _oBhr7V5c;
         "fabric-26.1.2" = _oBhr7V5c;
         "fabric-26.2" = _oBhr7V5c;
+        "fabric-26.3" = _F7wV92p3;
         "forge-1.16.5" = _d0wnbYoo;
         "forge-1.16.4" = _d0wnbYoo;
         "forge-1.17.1" = _vzvxDe3Q;
@@ -838,6 +851,7 @@ let
         "neoforge-26.1.1" = _DPTvEd2q;
         "neoforge-26.1.2" = _DPTvEd2q;
         "neoforge-26.2" = _DPTvEd2q;
+        "neoforge-26.3" = _mxMF9lqb;
         "pkg-1.0" = _ArFYjmeM;
         "pkg-1.1" = _OhfDXHIe;
         "pkg-1.2" = _rXsdADxQ;
@@ -962,7 +976,9 @@ let
         "pkg-1.10.2-forge-1.20.2" = _fqABgPjL;
         "pkg-1.10.2-neoforge-1.20.2" = _xpC1ToZ9;
         "pkg-1.10.2-fabric-1.20.2" = _fBm0nBm4;
-        "default" = _fBm0nBm4;
+        "pkg-1.11.0-neoforge-26.3" = _mxMF9lqb;
+        "pkg-1.11.0-fabric-26.3" = _F7wV92p3;
+        "default" = _F7wV92p3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "axes-are-weapons";

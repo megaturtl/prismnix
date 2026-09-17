@@ -16,15 +16,22 @@ let
             "file" = "attributeswap-1.21.11-v1.0.0 2.jar";
             "hash" = "sha512-+9RJJHKyc6jPcACgY6xwZY+V3AniAXJ42CAcVNQNoWqd9RtTpurMttik+HAx5e83oqiY20dxRwThl/t+9Y/FYA==";
         };
+        _RWScN6YW = {
+            "id" = "RWScN6YW";
+            "file" = "attributeswap-26.3-v1.0.0.jar";
+            "hash" = "sha512-vyL0MclqMWRUsh1SAgtguevKDl+6BciNa/pSf7Brkuj2KfZR4dtjWcJVldIQo1kkbDjxgTo7/25aMqi1CXPcVA==";
+        };
     in {
         "QHpUoPeo" = _QHpUoPeo;
         "6qyl9BSi" = _6qyl9BSi;
         "zoqcH2k4" = _zoqcH2k4;
+        "RWScN6YW" = _RWScN6YW;
         "fabric-26.2" = _QHpUoPeo;
         "fabric-1.21.6" = _6qyl9BSi;
         "fabric-1.21.11" = _zoqcH2k4;
-        "pkg-1.0.0" = _zoqcH2k4;
-        "default" = _zoqcH2k4;
+        "fabric-26.3" = _RWScN6YW;
+        "pkg-1.0.0" = _RWScN6YW;
+        "default" = _RWScN6YW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autoattributeswap";

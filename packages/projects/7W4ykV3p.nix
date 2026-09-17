@@ -116,6 +116,11 @@ let
             "file" = "XenDrops-1.0.4-a.jar";
             "hash" = "sha512-uuqh1OWlNjsT5XAF1M2Zlma/sME7aQvmcl6PdCre4rh3WzsV6CudjauWNkCdT+vy6f0DTqI9M31uWvB/Y8aZRA==";
         };
+        _VJFIueBF = {
+            "id" = "VJFIueBF";
+            "file" = "XenDrops-1.0.5-a.jar";
+            "hash" = "sha512-ObnSqkNz9Oa5XQIPJgEwRh1EeB6WXkpmJjv8ZbgtpZtQm9t/24kVhE3kr5GuODm9zAQEFO0IlWrb8HiL0cROlQ==";
+        };
     in {
         "1lMvD6yy" = _1lMvD6yy;
         "wrRJx4bd" = _wrRJx4bd;
@@ -140,6 +145,7 @@ let
         "4wmJJ4Wm" = _4wmJJ4Wm;
         "roAAzDUa" = _roAAzDUa;
         "WrckOvlG" = _WrckOvlG;
+        "VJFIueBF" = _VJFIueBF;
         "bukkit-1.14" = _tiCcsRlq;
         "bukkit-1.14.1" = _tiCcsRlq;
         "bukkit-1.14.2" = _tiCcsRlq;
@@ -197,7 +203,9 @@ let
         "bukkit-1.20.5" = _tiCcsRlq;
         "bukkit-1.20.6" = _tiCcsRlq;
         "bukkit-1.21" = _tiCcsRlq;
-        "bukkit-1.21.11" = _WrckOvlG;
+        "bukkit-1.21.11" = _VJFIueBF;
+        "bukkit-26.1.2" = _VJFIueBF;
+        "bukkit-26.2" = _VJFIueBF;
         "paper-1.14" = _tiCcsRlq;
         "paper-1.14.1" = _tiCcsRlq;
         "paper-1.14.2" = _tiCcsRlq;
@@ -255,7 +263,9 @@ let
         "paper-1.20.5" = _tiCcsRlq;
         "paper-1.20.6" = _tiCcsRlq;
         "paper-1.21" = _tiCcsRlq;
-        "paper-1.21.11" = _WrckOvlG;
+        "paper-1.21.11" = _VJFIueBF;
+        "paper-26.1.2" = _VJFIueBF;
+        "paper-26.2" = _VJFIueBF;
         "purpur-1.14" = _tiCcsRlq;
         "purpur-1.14.1" = _tiCcsRlq;
         "purpur-1.14.2" = _tiCcsRlq;
@@ -370,7 +380,9 @@ let
         "spigot-1.20.5" = _tiCcsRlq;
         "spigot-1.20.6" = _tiCcsRlq;
         "spigot-1.21" = _tiCcsRlq;
-        "spigot-1.21.11" = _WrckOvlG;
+        "spigot-1.21.11" = _VJFIueBF;
+        "spigot-26.1.2" = _VJFIueBF;
+        "spigot-26.2" = _VJFIueBF;
         "pkg-1.0.0-BETA" = _1lMvD6yy;
         "pkg-1.1.0-BETA" = _wrRJx4bd;
         "pkg-1.2.5-BETA" = _TqnzaS9v;
@@ -390,7 +402,8 @@ let
         "pkg-1.0.2-ALPHA" = _4wmJJ4Wm;
         "pkg-1.0.3-ALPHA" = _roAAzDUa;
         "pkg-1.0.4-ALPHA" = _WrckOvlG;
-        "default" = _WrckOvlG;
+        "pkg-1.0.5-a" = _VJFIueBF;
+        "default" = _VJFIueBF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "customdrops";

@@ -51,6 +51,11 @@ let
             "file" = "artistry-1.8.jar";
             "hash" = "sha512-Jf1z6qY8ojDdg/jIpsUmVMOWYMb1WEf/nC+kF2tfoRcxWEUvk+RFrBBLrfTMCxpv7OT9K2zJtmnUZhEcPvoHGA==";
         };
+        _Ikyvk2S4 = {
+            "id" = "Ikyvk2S4";
+            "file" = "artistry-1.9.jar";
+            "hash" = "sha512-p9y66yEd6DvTWpRlrHnsPThmo7xwzTCj7CSCidoYg3LsV3KSnD35cXIVYdLBmj/CEBZI0ZFQcnqu6T2YMdvK/w==";
+        };
     in {
         "9MRZ4C51" = _9MRZ4C51;
         "ogIttyVF" = _ogIttyVF;
@@ -62,7 +67,8 @@ let
         "SZsN71Y6" = _SZsN71Y6;
         "OrPixeSh" = _OrPixeSh;
         "HoNfZeUr" = _HoNfZeUr;
-        "neoforge-1.21.1" = _HoNfZeUr;
+        "Ikyvk2S4" = _Ikyvk2S4;
+        "neoforge-1.21.1" = _Ikyvk2S4;
         "pkg-0.1.0" = _9MRZ4C51;
         "pkg-0.1.2" = _ogIttyVF;
         "pkg-0.1.3" = _UaHuSVOx;
@@ -73,7 +79,8 @@ let
         "pkg-1.7.1" = _SZsN71Y6;
         "pkg-1.7.2" = _OrPixeSh;
         "pkg-1.8" = _HoNfZeUr;
-        "default" = _HoNfZeUr;
+        "pkg-1.9" = _Ikyvk2S4;
+        "default" = _Ikyvk2S4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "artistry-feliscape";

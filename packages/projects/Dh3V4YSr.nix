@@ -16,18 +16,33 @@ let
             "file" = "Dandelion X 26.2.zip";
             "hash" = "sha512-XnD/3a2Ior5hmjdSo9tOK6I8bFpnELhKA3aBAMd8ILZ2hfQL6UL6ozkoHATujwXkH/TG5xM7J9NT+S5uOhOI+w==";
         };
+        _VRysc2GY = {
+            "id" = "VRysc2GY";
+            "file" = "Dandelion X 26.3.zip";
+            "hash" = "sha512-yPNMXMGtGK4XfEakmGeb5dAgSAvzdfNwWJlueixSa1Pvm+H5VZqwQsNLWKa3e/ztuCv58OSgCfKzdsojpqjjag==";
+        };
     in {
         "xEwPmKmf" = _xEwPmKmf;
         "fPJEuKsG" = _fPJEuKsG;
         "nBLlBjME" = _nBLlBjME;
+        "VRysc2GY" = _VRysc2GY;
         "minecraft-26.1" = _nBLlBjME;
         "minecraft-26.1.1" = _nBLlBjME;
         "minecraft-26.1.2" = _nBLlBjME;
         "minecraft-26.2" = _nBLlBjME;
+        "minecraft-1.21.4" = _VRysc2GY;
+        "minecraft-1.21.5" = _VRysc2GY;
+        "minecraft-1.21.6" = _VRysc2GY;
+        "minecraft-1.21.7" = _VRysc2GY;
+        "minecraft-1.21.8" = _VRysc2GY;
+        "minecraft-1.21.9" = _VRysc2GY;
+        "minecraft-1.21.10" = _VRysc2GY;
+        "minecraft-1.21.11" = _VRysc2GY;
         "pkg-26.1" = _xEwPmKmf;
         "pkg-26.1b" = _fPJEuKsG;
         "pkg-26.2" = _nBLlBjME;
-        "default" = _nBLlBjME;
+        "pkg-26.3" = _VRysc2GY;
+        "default" = _VRysc2GY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dandelion-x";

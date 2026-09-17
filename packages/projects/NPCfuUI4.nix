@@ -151,6 +151,26 @@ let
             "file" = "cobblemonintegrations-fabric-1.21.1-1.1.6.jar";
             "hash" = "sha512-DfJd9t1B/eNO6cimxwjTmdSikMER5NXYUKERApFQOU48iFA0AjR5Y6KodxKGKAxJpgZDgYPsXOAmvXEq/I6feg==";
         };
+        _3VSQf4rY = {
+            "id" = "3VSQf4rY";
+            "file" = "cobblemonintegrations-neoforge-1.21.1-1.1.7.jar";
+            "hash" = "sha512-L444lpIMtkLcpRTjQz8v+Qqxo3sTt7pQalb2jSye/zLQJwqP/0CckRcz+0F85zAVRN4JfXqv8XEI0JlKLNhtNw==";
+        };
+        _L8dQu2Nv = {
+            "id" = "L8dQu2Nv";
+            "file" = "cobblemonintegrations-fabric-1.21.1-1.1.7.jar";
+            "hash" = "sha512-q3xVJLxk8CXusfN5ui1T8igIxrCZeL+y3ZQj5QKX/LM1J2FtfrDRwBVO3fzqRI63z6A+gN3XbRxhAf93isszwA==";
+        };
+        _E4CZjM14 = {
+            "id" = "E4CZjM14";
+            "file" = "cobblemonintegrations-neoforge-1.21.1-1.1.8.jar";
+            "hash" = "sha512-rOwRnBiLTE9NfibSYnHtegXL2Xc2bAgl/cFc+d1Fo3m18mYhKyQ1DQd4U08Im/gVaEl07l4pSFeRlnYMOxck2g==";
+        };
+        _gy1AJCQB = {
+            "id" = "gy1AJCQB";
+            "file" = "cobblemonintegrations-fabric-1.21.1-1.1.8.jar";
+            "hash" = "sha512-qP6qZaBWPTG8KMQZQUG1dIYQQzZy2TtwbLjNvT6mPP2pt05V8uDWWtdwqS5QgCXgZVOmL02kxAakRlysmBG/Qg==";
+        };
     in {
         "PQFf4tNU" = _PQFf4tNU;
         "cPcBeAFx" = _cPcBeAFx;
@@ -182,10 +202,14 @@ let
         "aAMX15bV" = _aAMX15bV;
         "NEiILQCx" = _NEiILQCx;
         "ze3sTR1C" = _ze3sTR1C;
+        "3VSQf4rY" = _3VSQf4rY;
+        "L8dQu2Nv" = _L8dQu2Nv;
+        "E4CZjM14" = _E4CZjM14;
+        "gy1AJCQB" = _gy1AJCQB;
         "forge-1.20.1" = _NGn11l6k;
         "fabric-1.20.1" = _6jS7wiG8;
-        "fabric-1.21.1" = _ze3sTR1C;
-        "neoforge-1.21.1" = _NEiILQCx;
+        "fabric-1.21.1" = _gy1AJCQB;
+        "neoforge-1.21.1" = _E4CZjM14;
         "pkg-1.0.0" = _cPcBeAFx;
         "pkg-1.0.1" = _geBcaEtS;
         "pkg-1.0.2" = _voNyafpC;
@@ -201,7 +225,9 @@ let
         "pkg-1.1.4" = _KbQNsnO9;
         "pkg-1.1.5" = _aAMX15bV;
         "pkg-1.1.6" = _ze3sTR1C;
-        "default" = _ze3sTR1C;
+        "pkg-1.1.7" = _L8dQu2Nv;
+        "pkg-1.1.8" = _gy1AJCQB;
+        "default" = _gy1AJCQB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-integrations";

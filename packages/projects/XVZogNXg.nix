@@ -66,6 +66,16 @@ let
             "file" = "alltuttasneeds-3.2.0.jar";
             "hash" = "sha512-6dPsaXNr2ILpLQ1AP1gl9J2MUOUmBKk9uix2yv4K7Xz83EUFC2rakYJuYwoLmDJbVaUGbAOvhQn6tJQra3pacw==";
         };
+        _3rjR8LXR = {
+            "id" = "3rjR8LXR";
+            "file" = "alltuttasneeds-3.3.0.jar";
+            "hash" = "sha512-gVaGrBmOb3euuOPx9YJ0KXkfTPDg/p4haPLMmgkDYUiLzB5zxO+g9gmZRawupsJmKjTQZDLdcXks5rJvUzJFCA==";
+        };
+        _5saCAf6o = {
+            "id" = "5saCAf6o";
+            "file" = "alltuttasneeds-3.4.0.jar";
+            "hash" = "sha512-U6jf1VopZsWkLI/1MRiM+wklOCBD2ajJ48oztBf/P8GJRxAPZdHVi3ZlG2ciUt7QTQFdfB/Aqp0QZm0GAUpriQ==";
+        };
     in {
         "zeEuBEt4" = _zeEuBEt4;
         "lfguve0q" = _lfguve0q;
@@ -80,7 +90,9 @@ let
         "OICWB00W" = _OICWB00W;
         "PD9kiKx6" = _PD9kiKx6;
         "pfFcB8h0" = _pfFcB8h0;
-        "neoforge-1.21.1" = _pfFcB8h0;
+        "3rjR8LXR" = _3rjR8LXR;
+        "5saCAf6o" = _5saCAf6o;
+        "neoforge-1.21.1" = _5saCAf6o;
         "pkg-1.0.0" = _zeEuBEt4;
         "pkg-1.5" = _lfguve0q;
         "pkg-1.5.1" = _CA7fG43F;
@@ -94,7 +106,9 @@ let
         "pkg-3.1.0" = _OICWB00W;
         "pkg-3.1.1" = _PD9kiKx6;
         "pkg-3.2.0" = _pfFcB8h0;
-        "default" = _pfFcB8h0;
+        "pkg-3.3.0" = _3rjR8LXR;
+        "pkg-3.4.0" = _5saCAf6o;
+        "default" = _5saCAf6o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "alltuttasneeds";

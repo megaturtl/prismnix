@@ -181,6 +181,16 @@ let
             "file" = "genetics-resequenced-26.1.2-1.14.0-build.2.jar";
             "hash" = "sha512-VHzOxTZwGp851kEKYwZVAiwoQoFARSQfW4iQSbH2wATVICjG3GMIhJ30gfTK7EAPIvlCfN5S6RBTeQilaaszWQ==";
         };
+        _JBohHbkf = {
+            "id" = "JBohHbkf";
+            "file" = "geneticsresequenced-1.21.1-1.14.1-build.38.jar";
+            "hash" = "sha512-Pd61VbWwq4JyJmk3YtZw4caUPOl2Y74qg0LfzKJNqIek2jLT37N2EJMKKNCH/ubIKKRKQtTW8OT/C58gK/BTbg==";
+        };
+        _tGPNg2fk = {
+            "id" = "tGPNg2fk";
+            "file" = "genetics-resequenced-26.1.2-1.14.2-build.6.jar";
+            "hash" = "sha512-3rQgH1/A3mIDKvXgHxOIOFW+5TVcFLWPJwGW5IKxPN5UTtvZ/4F9QwKB/Nk/2nTlmPYY/9De2UYoSZu8VVkB+w==";
+        };
     in {
         "oTUE5WnG" = _oTUE5WnG;
         "nPo6Qv0B" = _nPo6Qv0B;
@@ -218,12 +228,14 @@ let
         "5KRVnrNR" = _5KRVnrNR;
         "xkrRDXhr" = _xkrRDXhr;
         "uzpUI0LU" = _uzpUI0LU;
+        "JBohHbkf" = _JBohHbkf;
+        "tGPNg2fk" = _tGPNg2fk;
         "forge-1.19" = _NBXiJwsb;
         "forge-1.19.2" = _NBXiJwsb;
         "forge-1.20.1" = _d10qqvU9;
         "neoforge-1.21" = _gpEHMmLK;
-        "neoforge-1.21.1" = _xkrRDXhr;
-        "neoforge-26.1.2" = _uzpUI0LU;
+        "neoforge-1.21.1" = _JBohHbkf;
+        "neoforge-26.1.2" = _tGPNg2fk;
         "pkg-1.19.2-1.0.0" = _oTUE5WnG;
         "pkg-1.21-1.1.0" = _nPo6Qv0B;
         "pkg-1.19.2-1.0.1" = _NBXiJwsb;
@@ -260,7 +272,9 @@ let
         "pkg-1.13.1-build.268" = _5KRVnrNR;
         "pkg-1.14.0-build.34" = _xkrRDXhr;
         "pkg-1.14.0-build.2" = _uzpUI0LU;
-        "default" = _uzpUI0LU;
+        "pkg-1.14.1-build.38" = _JBohHbkf;
+        "pkg-1.14.2-build.6" = _tGPNg2fk;
+        "default" = _tGPNg2fk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "genetics-resequenced";

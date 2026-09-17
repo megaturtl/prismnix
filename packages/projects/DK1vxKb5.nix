@@ -21,17 +21,24 @@ let
             "file" = "cloak.1.3.jar";
             "hash" = "sha512-eApc0qo6h3pPOkAfD/vhdPbXSG2XspiVH6S4fFeUhqmi+mkveCZSESqF1MqzwbzXGaVusFho3b4Zdt//qfn9cQ==";
         };
+        _PrMtZnsf = {
+            "id" = "PrMtZnsf";
+            "file" = "cloak.1.4.jar";
+            "hash" = "sha512-K6f/71bJU5EnSzmc6H7Y7ILY6Avtt+7LsqtawGyumLXZi91tkFdU0Hdf1ifoUuQSR2VsJo1AWBp5CLiHTNdkyg==";
+        };
     in {
         "AKn1bpHf" = _AKn1bpHf;
         "BORlCROJ" = _BORlCROJ;
         "C4luofdA" = _C4luofdA;
         "KGLrDJUy" = _KGLrDJUy;
-        "forge-1.16.5" = _KGLrDJUy;
+        "PrMtZnsf" = _PrMtZnsf;
+        "forge-1.16.5" = _PrMtZnsf;
         "pkg-1.0" = _AKn1bpHf;
         "pkg-1.1" = _BORlCROJ;
         "pkg-1.2" = _C4luofdA;
         "pkg-1.3" = _KGLrDJUy;
-        "default" = _KGLrDJUy;
+        "pkg-1.4" = _PrMtZnsf;
+        "default" = _PrMtZnsf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cloak";

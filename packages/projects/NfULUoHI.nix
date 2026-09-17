@@ -381,6 +381,11 @@ let
             "file" = "mineconf-26.2-1.1.3.jar";
             "hash" = "sha512-09vugSZSd15c9ZhX6sdHH6Df9v1hFwo3TqGaAvlS9y2RDgHuUQ72+MDdFPIPtIJQQUXrr+waAVixtRgt1jMAaw==";
         };
+        _4iWIVR9y = {
+            "id" = "4iWIVR9y";
+            "file" = "mineconf-26.3-1.1.3.jar";
+            "hash" = "sha512-FDMDm/kX7T8nCIlzm1hbjvMfAS6vaVQzYDdxMxtHc3yAbJOpsfZhUKC/jYhy4qm5tM7dZmF146gRR4RZGIF0ag==";
+        };
     in {
         "2aTg5JSP" = _2aTg5JSP;
         "n66bgpoy" = _n66bgpoy;
@@ -458,6 +463,7 @@ let
         "bnc8DQkC" = _bnc8DQkC;
         "bNM14OcN" = _bNM14OcN;
         "xFRiQhdv" = _xFRiQhdv;
+        "4iWIVR9y" = _4iWIVR9y;
         "fabric-1.16.5" = _BQLCgken;
         "fabric-1.17.1" = _miFoUx5P;
         "fabric-1.19.4" = _oPh3MzLU;
@@ -474,6 +480,7 @@ let
         "fabric-1.10.2" = _I3M6VjmX;
         "fabric-1.18.2" = _JDCh2qK8;
         "fabric-26.2" = _xFRiQhdv;
+        "fabric-26.3" = _4iWIVR9y;
         "pkg-1.16.5-1.0.0" = _2aTg5JSP;
         "pkg-1.17.1-1.0.0" = _n66bgpoy;
         "pkg-1.19.4-1.0.0" = _UxLvkXwv;
@@ -550,7 +557,8 @@ let
         "pkg-1.9.4-1.1.3" = _bnc8DQkC;
         "pkg-1.8.9-1.1.3" = _bNM14OcN;
         "pkg-26.2-1.1.3" = _xFRiQhdv;
-        "default" = _xFRiQhdv;
+        "pkg-26.3-1.1.3" = _4iWIVR9y;
+        "default" = _4iWIVR9y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mineconf";

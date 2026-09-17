@@ -326,6 +326,26 @@ let
             "file" = "toil_and_trouble-1.6.1+1.21.1-neoforge.jar";
             "hash" = "sha512-+cYAQPe9p9fhF+n3ru63xZfPq+BSjZ6ji3GfD9zS1oCe+wl9gFwW9NBvr9xmLVgMsrvzcuFcCOPvVT90lG4cEA==";
         };
+        _7vSbgTO1 = {
+            "id" = "7vSbgTO1";
+            "file" = "toil_and_trouble-1.6.2+26.1.2-fabric.jar";
+            "hash" = "sha512-VK88xq5DF1qGyM6Dv8FRdiA1nSlaehEz+hnkqWXQM4D0VUoa08MSIcH33ZYRHkfhh8pPGatEeA22myfpT710fQ==";
+        };
+        _q9cO6zty = {
+            "id" = "q9cO6zty";
+            "file" = "toil_and_trouble-1.6.2+26.1.2-neoforge.jar";
+            "hash" = "sha512-9656ukA1CEPYKISLNp4e2LWdzdVGeDM614a4pIERLyq4nq6uIucBXJvBGRqyYy2Aca3UraTiNbGBvUrWRrYLrQ==";
+        };
+        _Ny7o4qtk = {
+            "id" = "Ny7o4qtk";
+            "file" = "toil_and_trouble-1.6.2+26.2-fabric.jar";
+            "hash" = "sha512-4pekp9RFczkfriMt62b1g9qsJLgiC20NDWmRwCedlmx0X1GkOkgfMJDSMK9fky1pFTIb7O274r8ScJOefTZfHA==";
+        };
+        _2DPYeH8f = {
+            "id" = "2DPYeH8f";
+            "file" = "toil_and_trouble-1.6.2+26.3-fabric.jar";
+            "hash" = "sha512-ESuv07Q6j6itmQT6PorYNcK7Pm/TrTPovBLy15CLbslaPEZYU4U3kaPuZg7E2jZjwQSDpMpd0AQmJ/6A+XZk3Q==";
+        };
     in {
         "QkZUUdDu" = _QkZUUdDu;
         "okNx1zHz" = _okNx1zHz;
@@ -392,6 +412,10 @@ let
         "OdZoCJOk" = _OdZoCJOk;
         "JG4UQnjY" = _JG4UQnjY;
         "TAoMbdSb" = _TAoMbdSb;
+        "7vSbgTO1" = _7vSbgTO1;
+        "q9cO6zty" = _q9cO6zty;
+        "Ny7o4qtk" = _Ny7o4qtk;
+        "2DPYeH8f" = _2DPYeH8f;
         "fabric-1.21.1" = _JG4UQnjY;
         "fabric-1.21.6" = _EDfWzpLR;
         "fabric-1.21.7" = _EDfWzpLR;
@@ -423,13 +447,14 @@ let
         "fabric-26.1-snapshot-7" = _xhUCvfuw;
         "fabric-26.1" = _vFVuF1aA;
         "fabric-26.1.1" = _vFVuF1aA;
-        "fabric-26.1.2" = _YUV7jfuu;
-        "fabric-26.2" = _qw7bYGgP;
+        "fabric-26.1.2" = _7vSbgTO1;
+        "fabric-26.2" = _Ny7o4qtk;
         "fabric-26.3-pre-2" = _OdZoCJOk;
+        "fabric-26.3" = _2DPYeH8f;
         "neoforge-1.21.1" = _TAoMbdSb;
         "neoforge-1.21.8" = _4idpX7lW;
         "neoforge-1.21" = _aFdsTvVH;
-        "neoforge-26.1" = _Uj0D5xhY;
+        "neoforge-26.1" = _q9cO6zty;
         "neoforge-26.1.1" = _AMFaTae3;
         "neoforge-26.1.2" = _AMFaTae3;
         "pkg-1.0.0+1.21.1" = _okNx1zHz;
@@ -486,7 +511,11 @@ let
         "pkg-1.6.1+26.3-pre-2-fabric" = _OdZoCJOk;
         "pkg-1.6.1+1.21.1-fabric" = _JG4UQnjY;
         "pkg-1.6.1+1.21.1-neoforge" = _TAoMbdSb;
-        "default" = _TAoMbdSb;
+        "pkg-1.6.2+26.1.2-fabric" = _7vSbgTO1;
+        "pkg-1.6.2+26.1.2-neoforge" = _q9cO6zty;
+        "pkg-1.6.2+26.2-fabric" = _Ny7o4qtk;
+        "pkg-1.6.2+26.3-fabric" = _2DPYeH8f;
+        "default" = _2DPYeH8f;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "toil-and-trouble";

@@ -706,6 +706,21 @@ let
             "file" = "SkyblockAddons-2.4.6+1161-for-MC-26.2.jar";
             "hash" = "sha512-gYB8fvOJ5Xte1K8nBxfK6z4FDAjeVkRBWA42eapsi9kVILqVKrdQxqpHEAav1ESDZrtYHwr+6HZK+cQbfNSlGA==";
         };
+        _zlDdI2O7 = {
+            "id" = "zlDdI2O7";
+            "file" = "SkyblockAddons-2.3.14+1181-for-MC-26.1.jar";
+            "hash" = "sha512-MEzxLjm4ZcMPssS6S2CtrvwWRoHeBZrioAyh7zXe1B3Rq2SrlJC4l6a4kBFGeyo28Sz1Qv/UvhfiPRKdd7sLhg==";
+        };
+        _fFxgJFhI = {
+            "id" = "fFxgJFhI";
+            "file" = "SkyblockAddons-2.4.7+1180-for-MC-26.2.jar";
+            "hash" = "sha512-CTag2JO0K4uEeRMJK3HNz5kzigiy9AxxQ/7BUFMloZc9GJgkB+feuUYN3TOTWZd/2IyxcXFjEg9h0AtgUomJEw==";
+        };
+        _kET8YWZt = {
+            "id" = "kET8YWZt";
+            "file" = "SkyblockAddons-2.5.0+1177-for-MC-26.3.jar";
+            "hash" = "sha512-X91uiKEs2BnfVWSQBIWO6KkfTn2fmTHVKpX1vnJoeX4bng16f61U6W10e7CzzigaDvU4tfALVdeY+enWzCDOfA==";
+        };
     in {
         "OuV8b6gu" = _OuV8b6gu;
         "NK435Jaj" = _NK435Jaj;
@@ -848,14 +863,18 @@ let
         "c6rw4dNx" = _c6rw4dNx;
         "YLZvitXV" = _YLZvitXV;
         "WqIMO7sQ" = _WqIMO7sQ;
+        "zlDdI2O7" = _zlDdI2O7;
+        "fFxgJFhI" = _fFxgJFhI;
+        "kET8YWZt" = _kET8YWZt;
         "forge-1.8.9" = _Twjx8gVs;
         "fabric-1.21.5" = _mfO2XVMg;
         "fabric-1.21.10" = _jY732hES;
         "fabric-1.21.11" = _Ux8axTz0;
-        "fabric-26.1" = _YLZvitXV;
-        "fabric-26.1.1" = _YLZvitXV;
-        "fabric-26.1.2" = _YLZvitXV;
-        "fabric-26.2" = _WqIMO7sQ;
+        "fabric-26.1" = _zlDdI2O7;
+        "fabric-26.1.1" = _zlDdI2O7;
+        "fabric-26.1.2" = _zlDdI2O7;
+        "fabric-26.2" = _fFxgJFhI;
+        "fabric-26.3" = _kET8YWZt;
         "pkg-1.8.5" = _gbyFE9d8;
         "pkg-1.8.6" = _UX0F79M2;
         "pkg-1.8.7" = _YDsJGBCQ;
@@ -992,7 +1011,10 @@ let
         "pkg-2.4.5" = _c6rw4dNx;
         "pkg-2.3.13" = _YLZvitXV;
         "pkg-2.4.6" = _WqIMO7sQ;
-        "default" = _WqIMO7sQ;
+        "pkg-2.3.14" = _zlDdI2O7;
+        "pkg-2.4.7" = _fFxgJFhI;
+        "pkg-2.5.0" = _kET8YWZt;
+        "default" = _kET8YWZt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skyblockaddons-unofficial";

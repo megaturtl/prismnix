@@ -131,6 +131,21 @@ let
             "file" = "slashblade-finale-blade-sanctum-2.9.1-1.20.1-forge.jar";
             "hash" = "sha512-5dyd9Ejn8Uy2I6g/mf/CiZG83tIB2/ZsDsc+JX+iYOZMOOm0RtgKU3GN+5OfY/URZjgK5pByHAPy3fDxZeO7Ow==";
         };
+        _WAIkrpf0 = {
+            "id" = "WAIkrpf0";
+            "file" = "slashblade：finale-blade-sanctum-2.9.2-1.21.1-neoforge.jar";
+            "hash" = "sha512-K3MIBQlzO6m+5qtRe8v3EZqXskG8W/I6eEe38oQ9aPIoyxTem8IrHx2PAl+e26mNzXF+twzlttWryUEzCk4vcQ==";
+        };
+        _h0Mxzs0C = {
+            "id" = "h0Mxzs0C";
+            "file" = "slashblade：finale-blade-sanctum-2.9.2-1.20.1-forge.jar";
+            "hash" = "sha512-S9rPjnmY3XiHw1GWmu3gmKtaUJX2BxhF1dMHThw5oDmB1N9zRnpJdNyfVpdZ4ZaDcLSIR/jhFKKcsulVn68CCg==";
+        };
+        _MuWupfeY = {
+            "id" = "MuWupfeY";
+            "file" = "slashblade-finale-blade-sanctum-2.9.3-hotfix1-1.21.1-neoforge.jar";
+            "hash" = "sha512-Yu0EhSMFzQ34Jg0G/Du+lT6CLbKv1BHCeMM4vFyF493AkEYLUMYcQO9+YtS0N1SbWRB5IBZt/VnbMkVOP81hIQ==";
+        };
     in {
         "iuHpLWqf" = _iuHpLWqf;
         "ReMWKtvV" = _ReMWKtvV;
@@ -158,8 +173,11 @@ let
         "4q55S0sY" = _4q55S0sY;
         "1qyKAwqJ" = _1qyKAwqJ;
         "d1rWC4v4" = _d1rWC4v4;
-        "forge-1.20.1" = _d1rWC4v4;
-        "neoforge-1.21.1" = _4q55S0sY;
+        "WAIkrpf0" = _WAIkrpf0;
+        "h0Mxzs0C" = _h0Mxzs0C;
+        "MuWupfeY" = _MuWupfeY;
+        "forge-1.20.1" = _h0Mxzs0C;
+        "neoforge-1.21.1" = _MuWupfeY;
         "pkg-2.0.1-hotfix" = _iuHpLWqf;
         "pkg-2.1.1" = _ReMWKtvV;
         "pkg-2.2.5" = _FGjJ5yh3;
@@ -186,7 +204,10 @@ let
         "pkg-2.9.0-1.21.1-neoforge" = _4q55S0sY;
         "pkg-2.9.0-1.20.1-forge" = _1qyKAwqJ;
         "pkg-2.9.1-1.20.1-forge" = _d1rWC4v4;
-        "default" = _d1rWC4v4;
+        "pkg-2.9.2-1.21.1-neoforge" = _WAIkrpf0;
+        "pkg-2.9.2-1.20.1-forge" = _h0Mxzs0C;
+        "pkg-2.9.3-hotfix1-1.21.1-neoforge" = _MuWupfeY;
+        "default" = _MuWupfeY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "annihilationbladeex";

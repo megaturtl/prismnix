@@ -371,6 +371,21 @@ let
             "file" = "landmines-1.0.7-neoforge-mc26.2.jar";
             "hash" = "sha512-4wpjNzC+4N7WPMnyNeyA0ePMZGxPphUn5qzqyzOYpD4Nr3VpMSbKuSDcdvIr6snLtadGPgZ7YjqyWQ6MHyuNcQ==";
         };
+        _Eso3x6lU = {
+            "id" = "Eso3x6lU";
+            "file" = "landmines-1.0.7a-neoforge-mc26.2.jar";
+            "hash" = "sha512-xKXsE1ESFXKEy+UhjlC5LyqERuZ+84pT0DCs5HmPg16ddus+Ra58wuEaERs9049yrCSSD77cvGF49+9znDXf7w==";
+        };
+        _bmVce8Bz = {
+            "id" = "bmVce8Bz";
+            "file" = "landmines-1.0.7-fabric-mc26.3.jar";
+            "hash" = "sha512-zuqUjBqIRE7KK6vodqvxDbd/v3wIdnQ4RNLl+fFnIRfVZlDelqrYZAsCvttJ1wyfyhdr79GoJeyYho795v9EGg==";
+        };
+        _2nTu9EZM = {
+            "id" = "2nTu9EZM";
+            "file" = "landmines-1.0.7-neoforge-mc26.3.jar";
+            "hash" = "sha512-AawhqBbMhHqByQgLQj7PCXNOrNMgNFyisv0ItDGMlTSSPGFu5rEdLJ6RzKYF2Nu3LCWNmb/qQt2WwCOIOJSN7A==";
+        };
     in {
         "XMxnSLMg" = _XMxnSLMg;
         "8gEdJEYY" = _8gEdJEYY;
@@ -446,6 +461,9 @@ let
         "iYRZxkHA" = _iYRZxkHA;
         "g3JWPYfl" = _g3JWPYfl;
         "gxHbEFE0" = _gxHbEFE0;
+        "Eso3x6lU" = _Eso3x6lU;
+        "bmVce8Bz" = _bmVce8Bz;
+        "2nTu9EZM" = _2nTu9EZM;
         "forge-1.12" = _W6O5hPvz;
         "forge-1.12.1" = _W6O5hPvz;
         "forge-1.12.2" = _W6O5hPvz;
@@ -545,7 +563,8 @@ let
         "neoforge-26.1" = _3PdcIftf;
         "neoforge-26.1.1" = _3PdcIftf;
         "neoforge-26.1.2" = _3PdcIftf;
-        "neoforge-26.2" = _gxHbEFE0;
+        "neoforge-26.2" = _Eso3x6lU;
+        "neoforge-26.3" = _2nTu9EZM;
         "fabric-1.18" = _rhWzhtFv;
         "fabric-1.18.1" = _rhWzhtFv;
         "fabric-1.18.2" = _rhWzhtFv;
@@ -574,6 +593,7 @@ let
         "fabric-26.1.1" = _IXoq0EHx;
         "fabric-26.1.2" = _IXoq0EHx;
         "fabric-26.2" = _g3JWPYfl;
+        "fabric-26.3" = _bmVce8Bz;
         "quilt-1.18" = _rhWzhtFv;
         "quilt-1.18.1" = _rhWzhtFv;
         "quilt-1.18.2" = _rhWzhtFv;
@@ -602,6 +622,7 @@ let
         "quilt-26.1.1" = _IXoq0EHx;
         "quilt-26.1.2" = _IXoq0EHx;
         "quilt-26.2" = _g3JWPYfl;
+        "quilt-26.3" = _bmVce8Bz;
         "pkg-1.0.4-forge-mc1.12" = _XMxnSLMg;
         "pkg-1.0.4-forge-mc1.14" = _8gEdJEYY;
         "pkg-1.0.4-forge-mc1.15" = _kvhuVgWB;
@@ -676,7 +697,10 @@ let
         "pkg-1.0.7-forge-mc26.2" = _iYRZxkHA;
         "pkg-1.0.7-fabric-mc26.2" = _g3JWPYfl;
         "pkg-1.0.7-neoforge-mc26.2" = _gxHbEFE0;
-        "default" = _gxHbEFE0;
+        "pkg-1.0.7a-neoforge-mc26.2" = _Eso3x6lU;
+        "pkg-1.0.7-fabric-mc26.3" = _bmVce8Bz;
+        "pkg-1.0.7-neoforge-mc26.3" = _2nTu9EZM;
+        "default" = _2nTu9EZM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "landmines";

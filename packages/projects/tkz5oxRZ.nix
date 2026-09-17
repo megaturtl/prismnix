@@ -141,6 +141,56 @@ let
             "file" = "elytra-tuning-0.3.1+26.1-neoforge.jar";
             "hash" = "sha512-H3atAszBVfpJk0URwCQ/NNTvUfxlm8NPLbHKB4tvwXzeGHTLy3yxF2Gx9/4h0mDS23Meck6Dc9syd1KJd40ZRA==";
         };
+        _QqkVMIyR = {
+            "id" = "QqkVMIyR";
+            "file" = "elytra-tuning-0.3.2+1.21-fabric.jar";
+            "hash" = "sha512-mcXJcYtrDpNmkiXIPxE2gRY4Tf49U8gJhID4gEI0M/AxJPrj4tVBbpS2wAM0DqYGmemlp76xFk8QBA+igyqj+w==";
+        };
+        _nCFpIf7E = {
+            "id" = "nCFpIf7E";
+            "file" = "elytra-tuning-0.3.2+1.21-neoforge.jar";
+            "hash" = "sha512-2NnaFqTWwvoL3+L66FkGWjWnemoMHg17j3FpPU1eU5sPfeVp/3ToDBd2vQKz35v6QU1ZkejIKI9lf4R8Pstueg==";
+        };
+        _Xzl5a7f6 = {
+            "id" = "Xzl5a7f6";
+            "file" = "elytra-tuning-0.3.2+1.21.9-fabric.jar";
+            "hash" = "sha512-KUFi80OPAHBBVkyHVtHwOSZdLNwNiEsmDCHpRqI4SLSzEHwWjh6aosoht+7dV+ezBaZSfgBLER3Aft7F5sg2AA==";
+        };
+        _6oGZDABU = {
+            "id" = "6oGZDABU";
+            "file" = "elytra-tuning-0.3.2+1.21.9-neoforge.jar";
+            "hash" = "sha512-588dNdzh9vLgJ+II0LkFA71sfN9UXC5WEIKIEfI/zpm/jEB8RdJUdc9V/mX0GYbv3gdUBJAL+DKrzcl+AYFrjA==";
+        };
+        _uE4Fb1DG = {
+            "id" = "uE4Fb1DG";
+            "file" = "elytra-tuning-0.3.2+1.21.11-fabric.jar";
+            "hash" = "sha512-Te3Z0Lrn/sgiI6nE0lS0gKl7sbWb2Lp4aRvtt04tCzevgH/9Bw3hHEP7NyidOFCBDlEMljfJYntaluLQvGxnzA==";
+        };
+        _gjj3EjMU = {
+            "id" = "gjj3EjMU";
+            "file" = "elytra-tuning-0.3.2+1.21.11-neoforge.jar";
+            "hash" = "sha512-w3tkXzG8HhG8pcvlwKvbQ3wB2FwOifsu5qf5yLcOJjk2Xvmfry774VSy+ddwOFo1o+aL4wxJ3lxlVwj/4Oh+ig==";
+        };
+        _b7kbvEIu = {
+            "id" = "b7kbvEIu";
+            "file" = "elytra-tuning-0.3.2+26.1-fabric.jar";
+            "hash" = "sha512-Ombn+Fq7Bw6RH+Vmdy2lFD54A+d5jNLznEYaKW45LVhIDQpZw+fMYIHhIaUhvqsHzH+nAaWp82XCL1tMPXU8xw==";
+        };
+        _aZ9grUbn = {
+            "id" = "aZ9grUbn";
+            "file" = "elytra-tuning-0.3.2+26.1-neoforge.jar";
+            "hash" = "sha512-Ob48Ev/k0FynCLgEzt8ubECIUBqWtUWSs35qtbFKG+pWf8x6FQ7zIUTl7l6r+uTk8GceiLTNEtn5Meyab/KRMQ==";
+        };
+        _jP6DW64G = {
+            "id" = "jP6DW64G";
+            "file" = "elytra-tuning-0.3.2+26.3-fabric.jar";
+            "hash" = "sha512-MIVq4nidZWM62BqJ2uIw7RaKSRiIs/Fn50M+cED2Ra2b5vk/CvjUZHMLt9lv6T8AIueddLcTx4gmtZGGJWE2UQ==";
+        };
+        _6Gz7jOvm = {
+            "id" = "6Gz7jOvm";
+            "file" = "elytra-tuning-0.3.2+26.3-neoforge.jar";
+            "hash" = "sha512-0t7BZXsClD8LxUwkjd0zZHJ8KG5+7J/Bm8/O8/84S3LK2TIqhRzIBNFzDK/dDuTMH92RFc8PHO9etuyy/rwuFQ==";
+        };
     in {
         "vJs1BgvH" = _vJs1BgvH;
         "RQWvv9Es" = _RQWvv9Es;
@@ -170,30 +220,46 @@ let
         "QXbwVEj8" = _QXbwVEj8;
         "BywniGJf" = _BywniGJf;
         "XZwLLSI5" = _XZwLLSI5;
-        "fabric-1.21.9" = _34IcwcRL;
-        "fabric-1.21.10" = _34IcwcRL;
-        "fabric-1.21.11" = _1joJ8qvb;
-        "fabric-1.21.1" = _oMnLT2cf;
-        "fabric-26.1" = _BywniGJf;
-        "fabric-26.1.1" = _BywniGJf;
-        "fabric-26.1.2" = _BywniGJf;
-        "fabric-26.2" = _BywniGJf;
-        "quilt-1.21.9" = _34IcwcRL;
-        "quilt-1.21.10" = _34IcwcRL;
-        "quilt-1.21.11" = _1joJ8qvb;
-        "quilt-1.21.1" = _oMnLT2cf;
-        "quilt-26.1" = _BywniGJf;
-        "quilt-26.1.1" = _BywniGJf;
-        "quilt-26.1.2" = _BywniGJf;
-        "quilt-26.2" = _BywniGJf;
-        "neoforge-1.21.1" = _fEcorkbR;
-        "neoforge-1.21.9" = _OHtdXSMc;
-        "neoforge-1.21.10" = _OHtdXSMc;
-        "neoforge-1.21.11" = _QXbwVEj8;
-        "neoforge-26.1" = _XZwLLSI5;
-        "neoforge-26.1.1" = _XZwLLSI5;
-        "neoforge-26.1.2" = _XZwLLSI5;
-        "neoforge-26.2" = _XZwLLSI5;
+        "QqkVMIyR" = _QqkVMIyR;
+        "nCFpIf7E" = _nCFpIf7E;
+        "Xzl5a7f6" = _Xzl5a7f6;
+        "6oGZDABU" = _6oGZDABU;
+        "uE4Fb1DG" = _uE4Fb1DG;
+        "gjj3EjMU" = _gjj3EjMU;
+        "b7kbvEIu" = _b7kbvEIu;
+        "aZ9grUbn" = _aZ9grUbn;
+        "jP6DW64G" = _jP6DW64G;
+        "6Gz7jOvm" = _6Gz7jOvm;
+        "fabric-1.21.9" = _Xzl5a7f6;
+        "fabric-1.21.10" = _Xzl5a7f6;
+        "fabric-1.21.11" = _uE4Fb1DG;
+        "fabric-1.21.1" = _QqkVMIyR;
+        "fabric-26.1" = _b7kbvEIu;
+        "fabric-26.1.1" = _b7kbvEIu;
+        "fabric-26.1.2" = _b7kbvEIu;
+        "fabric-26.2" = _b7kbvEIu;
+        "fabric-1.21" = _QqkVMIyR;
+        "fabric-26.3" = _jP6DW64G;
+        "quilt-1.21.9" = _Xzl5a7f6;
+        "quilt-1.21.10" = _Xzl5a7f6;
+        "quilt-1.21.11" = _uE4Fb1DG;
+        "quilt-1.21.1" = _QqkVMIyR;
+        "quilt-26.1" = _b7kbvEIu;
+        "quilt-26.1.1" = _b7kbvEIu;
+        "quilt-26.1.2" = _b7kbvEIu;
+        "quilt-26.2" = _b7kbvEIu;
+        "quilt-1.21" = _QqkVMIyR;
+        "quilt-26.3" = _jP6DW64G;
+        "neoforge-1.21.1" = _nCFpIf7E;
+        "neoforge-1.21.9" = _6oGZDABU;
+        "neoforge-1.21.10" = _6oGZDABU;
+        "neoforge-1.21.11" = _gjj3EjMU;
+        "neoforge-26.1" = _aZ9grUbn;
+        "neoforge-26.1.1" = _aZ9grUbn;
+        "neoforge-26.1.2" = _aZ9grUbn;
+        "neoforge-26.2" = _aZ9grUbn;
+        "neoforge-1.21" = _nCFpIf7E;
+        "neoforge-26.3" = _6Gz7jOvm;
         "pkg-0.1.0+1.21.10" = _vJs1BgvH;
         "pkg-0.1.1+1.21.10" = _RQWvv9Es;
         "pkg-0.1.2+1.21.10" = _PTj8cyuq;
@@ -222,7 +288,17 @@ let
         "pkg-0.3.1+1.21.11-neoforge" = _QXbwVEj8;
         "pkg-0.3.1+26.1-fabric" = _BywniGJf;
         "pkg-0.3.1+26.1-neoforge" = _XZwLLSI5;
-        "default" = _XZwLLSI5;
+        "pkg-0.3.2+1.21-fabric" = _QqkVMIyR;
+        "pkg-0.3.2+1.21-neoforge" = _nCFpIf7E;
+        "pkg-0.3.2+1.21.9-fabric" = _Xzl5a7f6;
+        "pkg-0.3.2+1.21.9-neoforge" = _6oGZDABU;
+        "pkg-0.3.2+1.21.11-fabric" = _uE4Fb1DG;
+        "pkg-0.3.2+1.21.11-neoforge" = _gjj3EjMU;
+        "pkg-0.3.2+26.1-fabric" = _b7kbvEIu;
+        "pkg-0.3.2+26.1-neoforge" = _aZ9grUbn;
+        "pkg-0.3.2+26.3-fabric" = _jP6DW64G;
+        "pkg-0.3.2+26.3-neoforge" = _6Gz7jOvm;
+        "default" = _6Gz7jOvm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytra-tuning";

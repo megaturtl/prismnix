@@ -351,6 +351,11 @@ let
             "file" = "citymod-26.1.x-26.2-neoforge-2.2.0.jar";
             "hash" = "sha512-Jz9Np6a1+bjSghhCtufnfQx+aQpS3aFl9sXcFXZ46DEcZnWGqop99t3vRyO7lKks3o5NzbYTlsmTMtn15sXQmg==";
         };
+        _hrMFVEny = {
+            "id" = "hrMFVEny";
+            "file" = "citymod-1.20.1-forge-2.2.6.jar";
+            "hash" = "sha512-cbg8Azm1Elwweiy9j5hSNEwo0frhwTIX+8pM3JgfECILWu4p9tvMjZFnubzp7AT2DKWKGC1Xbx/MLzmhAlJ2CQ==";
+        };
     in {
         "2mJDpseG" = _2mJDpseG;
         "tAAiupfk" = _tAAiupfk;
@@ -422,7 +427,8 @@ let
         "3HCcEeQ8" = _3HCcEeQ8;
         "Lh5vizH6" = _Lh5vizH6;
         "WCq49Uoh" = _WCq49Uoh;
-        "forge-1.20.1" = _bhKdUIQ4;
+        "hrMFVEny" = _hrMFVEny;
+        "forge-1.20.1" = _hrMFVEny;
         "forge-1.19.2" = _BPnC9KbH;
         "forge-1.18.2" = _6kJaav5o;
         "fabric-1.20.1" = _AIbLRxQf;
@@ -470,7 +476,8 @@ let
         "pkg-2.0.1" = _IgQAKaKM;
         "pkg-2.1.0" = _GMYGnjoi;
         "pkg-2.2.0" = _WCq49Uoh;
-        "default" = _WCq49Uoh;
+        "pkg-2.2.6" = _hrMFVEny;
+        "default" = _hrMFVEny;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "citymod";

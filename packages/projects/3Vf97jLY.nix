@@ -151,6 +151,11 @@ let
             "file" = "cursorcenteredfix-1.4.0-fabric+26.1-26.2.jar";
             "hash" = "sha512-FuiYfDKZRyuN23F5h8XKr7fI2T9l5YASkqfXDZGRHuR3rmbM8Cim8BAHQV+FvF3QG4TyM2+sC+G2WPfox87pvg==";
         };
+        _vJVihvTv = {
+            "id" = "vJVihvTv";
+            "file" = "cursorcenteredfix-1.4.0-forge+1.16.5.jar";
+            "hash" = "sha512-4InnsWaNNE60SOCWWo2atPomh6cLKwZAVUfj68sFUcyEELBdW1m6OykvZkReE1m6N4GQhk7GiIvR9laARi0nQA==";
+        };
     in {
         "BplFKrxW" = _BplFKrxW;
         "77kglfqS" = _77kglfqS;
@@ -182,7 +187,8 @@ let
         "gfqadAOx" = _gfqadAOx;
         "jc4NAqWi" = _jc4NAqWi;
         "C1yT02Ny" = _C1yT02Ny;
-        "forge-1.16.5" = _6likz5kB;
+        "vJVihvTv" = _vJVihvTv;
+        "forge-1.16.5" = _vJVihvTv;
         "forge-1.19" = _gfqadAOx;
         "forge-1.19.1" = _gfqadAOx;
         "forge-1.19.2" = _gfqadAOx;
@@ -275,8 +281,8 @@ let
         "pkg-1.2.1" = _nerXsh55;
         "pkg-1.2.2" = _JoMq0O9s;
         "pkg-1.3.0" = _rIev9Ab0;
-        "pkg-1.4.0" = _C1yT02Ny;
-        "default" = _C1yT02Ny;
+        "pkg-1.4.0" = _vJVihvTv;
+        "default" = _vJVihvTv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cursorcentered-fix";

@@ -376,6 +376,26 @@ let
             "file" = "journeymap-webmap-neoforge-1.21.4-1.0.11.jar";
             "hash" = "sha512-42Y2F7nyYWZjve8EvcuTlbXd9DdrIYu889j5OpWlfPHHu9vPUlRcdr4cOHWUDVURB7pYb054poZkWN870ttvNw==";
         };
+        _BB72rVbh = {
+            "id" = "BB72rVbh";
+            "file" = "journeymap-webmap-fabric-1.20.1-1.0.12.jar";
+            "hash" = "sha512-88RvrU11qJZ3W6449MEzkFYechp5xcIRWeNIRXbDYI5k5xC4FT3tIHyoQ33MA/dcQlZ2yZdesWCbtXQ9wH5MWA==";
+        };
+        _YXujf8pF = {
+            "id" = "YXujf8pF";
+            "file" = "journeymap-webmap-forge-1.20.1-1.0.12.jar";
+            "hash" = "sha512-ZmdeJg3W8X2F4yGb0DybXMMRM4IKX6X93/5T1dqz7Q3TrJdU/AGxRQ6b6zhvdhHxIJQ1Nz2b4tjlluf3QVVsnw==";
+        };
+        _uhRlebMt = {
+            "id" = "uhRlebMt";
+            "file" = "journeymap-webmap-fabric-1.20.1-1.0.12.jar";
+            "hash" = "sha512-5M4IS/eHyksCpt37/kKKw5bqrPX9uHXNAoGT+1m8nt9W2bKo+M32WRrOYA5fnmjlbec2KkqsRvEXgw9KibIcGw==";
+        };
+        _5bpJ7X1S = {
+            "id" = "5bpJ7X1S";
+            "file" = "journeymap-webmap-forge-1.20.1-1.0.12.jar";
+            "hash" = "sha512-7+Bm5IWtfSPafUSx3GCbIsOiXowzOQ2J9RQx9TJ2l3KNZFDkR+HepZZu8Nj0ZZKpaSHc4fqt2rnC2NbvxSL9AQ==";
+        };
     in {
         "tgV1GJ97" = _tgV1GJ97;
         "a0FlATkj" = _a0FlATkj;
@@ -452,6 +472,10 @@ let
         "vf5VmlQP" = _vf5VmlQP;
         "BMz3MZAu" = _BMz3MZAu;
         "Z3sPsjp0" = _Z3sPsjp0;
+        "BB72rVbh" = _BB72rVbh;
+        "YXujf8pF" = _YXujf8pF;
+        "uhRlebMt" = _uhRlebMt;
+        "5bpJ7X1S" = _5bpJ7X1S;
         "forge-1.21" = _Y8OzsgXm;
         "forge-1.21.1" = _BMz3MZAu;
         "forge-1.21.3" = _EsAGrT7H;
@@ -465,7 +489,7 @@ let
         "forge-26.1" = _bZWpSsO4;
         "forge-26.1.2" = _y8IkoA5v;
         "forge-26.2" = _W9us4eEH;
-        "forge-1.20.1" = _JBHFbKu2;
+        "forge-1.20.1" = _5bpJ7X1S;
         "forge-1.16.5" = _YQCI506Z;
         "forge-1.12.2" = _Hy16S40u;
         "forge-1.7.10" = _qERw0tAQ;
@@ -482,7 +506,7 @@ let
         "fabric-26.1" = _t0fW9chZ;
         "fabric-26.1.2" = _L3h4eTTW;
         "fabric-26.2" = _mnuK4oU1;
-        "fabric-1.20.1" = _NRdzebh3;
+        "fabric-1.20.1" = _uhRlebMt;
         "fabric-1.16.5" = _RWTEEB8b;
         "quilt-1.21" = _MYvc79jb;
         "quilt-1.21.1" = _vf5VmlQP;
@@ -497,7 +521,7 @@ let
         "quilt-26.1" = _t0fW9chZ;
         "quilt-26.1.2" = _L3h4eTTW;
         "quilt-26.2" = _mnuK4oU1;
-        "quilt-1.20.1" = _NRdzebh3;
+        "quilt-1.20.1" = _uhRlebMt;
         "quilt-1.16.5" = _RWTEEB8b;
         "neoforge-1.21" = _E6zYwzqL;
         "neoforge-1.21.1" = _Z3sPsjp0;
@@ -578,7 +602,9 @@ let
         "pkg-1.21.4-1.0.11+fabric" = _vf5VmlQP;
         "pkg-1.21.4-1.0.11-forge" = _BMz3MZAu;
         "pkg-1.21.4-1.0.11-neoforge" = _Z3sPsjp0;
-        "default" = _Z3sPsjp0;
+        "pkg-1.20.1-1.0.12+fabric" = _uhRlebMt;
+        "pkg-1.20.1-1.0.12-forge" = _5bpJ7X1S;
+        "default" = _5bpJ7X1S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "journeymap-web-map";

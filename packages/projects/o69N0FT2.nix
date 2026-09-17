@@ -291,6 +291,11 @@ let
             "file" = "fabric-essentials-1.4.11+26.2.jar";
             "hash" = "sha512-OpWgGearWalcfh8hUVrTo8Z+U/SZ+ZAfBSRmZkUU4PloAe8fnC8NsaRKRmQHDtq+UTy+LvMS2RvH8BTKlZ0tfg==";
         };
+        _YYpq01xk = {
+            "id" = "YYpq01xk";
+            "file" = "fabric-essentials-1.4.11+26.3.jar";
+            "hash" = "sha512-CTF41xt5xDJVzdjDEp82miMZ9Jh9K/akMdcpqpfRrYSx/qhAdHAUDk3x+B3/J9Sicz6uuIoPJBwKC9oxA4pbLg==";
+        };
     in {
         "tZLWvTuX" = _tZLWvTuX;
         "y4NOWEDX" = _y4NOWEDX;
@@ -350,6 +355,7 @@ let
         "srZElVG8" = _srZElVG8;
         "dRQhbixA" = _dRQhbixA;
         "qZebXUZm" = _qZebXUZm;
+        "YYpq01xk" = _YYpq01xk;
         "fabric-1.21" = _KVW2AIIf;
         "fabric-1.21.1" = _KVW2AIIf;
         "fabric-1.21.2-rc2" = _VUp9aVl4;
@@ -371,6 +377,7 @@ let
         "fabric-26.1.1" = _dRQhbixA;
         "fabric-26.1.2" = _dRQhbixA;
         "fabric-26.2" = _qZebXUZm;
+        "fabric-26.3" = _YYpq01xk;
         "quilt-1.21" = _KVW2AIIf;
         "quilt-1.21.1" = _KVW2AIIf;
         "quilt-1.21.2-rc2" = _VUp9aVl4;
@@ -392,6 +399,7 @@ let
         "quilt-26.1.1" = _dRQhbixA;
         "quilt-26.1.2" = _dRQhbixA;
         "quilt-26.2" = _qZebXUZm;
+        "quilt-26.3" = _YYpq01xk;
         "pkg-1.2.0+1.21.1" = _tZLWvTuX;
         "pkg-1.2.1+1.21.1" = _y4NOWEDX;
         "pkg-1.2.1+1.21.2-rc2" = _VUp9aVl4;
@@ -450,7 +458,8 @@ let
         "pkg-1.4.10+26.2" = _srZElVG8;
         "pkg-1.4.11+26.1.2" = _dRQhbixA;
         "pkg-1.4.11+26.2" = _qZebXUZm;
-        "default" = _qZebXUZm;
+        "pkg-1.4.11+26.3" = _YYpq01xk;
+        "default" = _YYpq01xk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "melius-essentials";

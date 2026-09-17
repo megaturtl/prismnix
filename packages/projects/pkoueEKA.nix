@@ -81,6 +81,11 @@ let
             "file" = "quickexp-neoforge-mc26.1-1.0.0.jar";
             "hash" = "sha512-9LJeBEWmaRCkzceaXTt+5qsTEC3NESm/usecCFeDUnyo0fPWWr5Pya2E6wHQxc9ib4ZNPBCV3gHlrd+97PDLWA==";
         };
+        _EKGFkmuC = {
+            "id" = "EKGFkmuC";
+            "file" = "quickexp-neoforge-mc26.2-1.0.0.jar";
+            "hash" = "sha512-OmTjOxlOLi4DipykONtU1UX/M7TiyZwzXLmeahEs2XiiE6KgpNvYwZAIV9vV+BIcS1qWasxk/C7o3dWIE6/KRg==";
+        };
     in {
         "qrZpwI9T" = _qrZpwI9T;
         "waBeE5mz" = _waBeE5mz;
@@ -98,6 +103,7 @@ let
         "ANrXEga5" = _ANrXEga5;
         "5r01V9wX" = _5r01V9wX;
         "1ekSEWGy" = _1ekSEWGy;
+        "EKGFkmuC" = _EKGFkmuC;
         "fabric-1.21.8" = _ANrXEga5;
         "fabric-1.21.9" = _ANrXEga5;
         "fabric-1.21.10" = _ANrXEga5;
@@ -141,10 +147,11 @@ let
         "neoforge-26.1" = _1ekSEWGy;
         "neoforge-26.1.1" = _1ekSEWGy;
         "neoforge-26.1.2" = _1ekSEWGy;
-        "pkg-1.0.0" = _1ekSEWGy;
+        "neoforge-26.2" = _EKGFkmuC;
+        "pkg-1.0.0" = _EKGFkmuC;
         "pkg-1.1.0" = _Nh2Ek2Qr;
         "pkg-1.2.0" = _5r01V9wX;
-        "default" = _1ekSEWGy;
+        "default" = _EKGFkmuC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "quick-exp";

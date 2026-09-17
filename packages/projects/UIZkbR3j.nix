@@ -101,6 +101,11 @@ let
             "file" = "superb-steeds-fabric-26.2-r2.jar";
             "hash" = "sha512-ilAiP15eU8h+LlkmbYA/I/e8b6yw/Fq8IkORcafhODzBrFux1D73F1WshTGsWmOLQVb88R8IrarF1g8ljupo4Q==";
         };
+        _P4XKy0He = {
+            "id" = "P4XKy0He";
+            "file" = "superb-steeds-fabric-26.3-r1.jar";
+            "hash" = "sha512-xhH9wLbBBSy4AX3+1EyIRrxFxO8eRnwpOZ7jp8XJaBz6Kaj7zCKvYHtA1xLHqCxwCYZ+VJQFtiXj87uVjgDLQg==";
+        };
     in {
         "jvLe6y4v" = _jvLe6y4v;
         "aMYcnhjO" = _aMYcnhjO;
@@ -122,6 +127,7 @@ let
         "bKGXydR8" = _bKGXydR8;
         "lk5CqsVG" = _lk5CqsVG;
         "9GLebK9m" = _9GLebK9m;
+        "P4XKy0He" = _P4XKy0He;
         "fabric-1.20.1" = _Lac9HjXE;
         "fabric-1.20.6" = _Ghzp8nCP;
         "fabric-1.21" = _8EFsDd8Y;
@@ -140,6 +146,7 @@ let
         "fabric-26.1.1" = _bKGXydR8;
         "fabric-26.1.2" = _bKGXydR8;
         "fabric-26.2" = _9GLebK9m;
+        "fabric-26.3" = _P4XKy0He;
         "quilt-1.20.1" = _Lac9HjXE;
         "quilt-1.20.6" = _Ghzp8nCP;
         "quilt-1.21" = _8EFsDd8Y;
@@ -180,7 +187,8 @@ let
         "pkg-26.2-r1" = _2DnzkVTH;
         "pkg-26.1-r2" = _lk5CqsVG;
         "pkg-26.2-r2" = _9GLebK9m;
-        "default" = _9GLebK9m;
+        "pkg-26.3-r1" = _P4XKy0He;
+        "default" = _P4XKy0He;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "superb-steeds";

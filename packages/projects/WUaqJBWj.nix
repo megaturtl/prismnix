@@ -11,13 +11,20 @@ let
             "file" = "hexcasting-media-display-1.2.0.jar";
             "hash" = "sha512-OV4ungsT5YeJCcuNwIzj/P9PjzqfuZbX4k1b4z8+Poukppf6rYK6Hta1jPx1gULQ8cSYRWkbgmAOiTjfK8ka9w==";
         };
+        _hC4KLCXE = {
+            "id" = "hC4KLCXE";
+            "file" = "hexcasting-media-display-2.0.0.jar";
+            "hash" = "sha512-Ksj6+I1OUa5+3K09+F7fbIlPQXaYhEYqhL9tenpGZcrXf5+CxGVmmg0ODUirDGt5gprkW0e2gD5ntoeee8tPMQ==";
+        };
     in {
         "QBePaU0F" = _QBePaU0F;
         "glMCyexX" = _glMCyexX;
-        "fabric-1.20.1" = _glMCyexX;
+        "hC4KLCXE" = _hC4KLCXE;
+        "fabric-1.20.1" = _hC4KLCXE;
         "pkg-1.1.1" = _QBePaU0F;
         "pkg-1.2.0" = _glMCyexX;
-        "default" = _glMCyexX;
+        "pkg-2.0.0" = _hC4KLCXE;
+        "default" = _hC4KLCXE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hex-casting-media-display";

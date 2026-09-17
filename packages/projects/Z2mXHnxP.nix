@@ -321,6 +321,16 @@ let
             "file" = "YungsBetterNetherFortresses-26.1.2-NeoForge-4.1.0.jar";
             "hash" = "sha512-3BZ6daiosy7eFC0zqorUWE1DYdduIcNQroe1vib+p33p314YXUko+sqz++PDs2jncv4Wz1Sa9mXtoJ5RA+b0nQ==";
         };
+        _itXNeE2A = {
+            "id" = "itXNeE2A";
+            "file" = "YungsBetterNetherFortresses-26.1.2-Fabric-4.1.1.jar";
+            "hash" = "sha512-DHfP3oZ7WAm/cBZafA5V19PY3jB7BDlcmwJjX4OM7a41tvShNisfuZvOUB/tcXVCUNxkB90HF4kyYq7ByN9c2w==";
+        };
+        _CXSmjEju = {
+            "id" = "CXSmjEju";
+            "file" = "YungsBetterNetherFortresses-26.1.2-NeoForge-4.1.1.jar";
+            "hash" = "sha512-8h4squorSdQzdntVyPBBONVnIufzvzCH4nhO8yHw61K0enTQWnhrJ2feyaAbWSFfVCiguOpAV5fLED0gUrLyoA==";
+        };
     in {
         "Ge5jWFMt" = _Ge5jWFMt;
         "LC6CBpn9" = _LC6CBpn9;
@@ -386,6 +396,8 @@ let
         "gxBGYcIL" = _gxBGYcIL;
         "DwMJ0W1D" = _DwMJ0W1D;
         "XJWhXWgn" = _XJWhXWgn;
+        "itXNeE2A" = _itXNeE2A;
+        "CXSmjEju" = _CXSmjEju;
         "forge-1.19.2" = _9iPMgrMe;
         "forge-1.19.3" = _CthwWOrc;
         "forge-1.18.2" = _XzRYWtHN;
@@ -405,14 +417,14 @@ let
         "fabric-1.21.1" = _gxBGYcIL;
         "fabric-1.21" = _gxBGYcIL;
         "fabric-1.21.4" = _eUEnv9r3;
-        "fabric-26.1.1" = _DwMJ0W1D;
-        "fabric-26.1.2" = _DwMJ0W1D;
+        "fabric-26.1.1" = _itXNeE2A;
+        "fabric-26.1.2" = _itXNeE2A;
         "neoforge-1.20.4" = _98DJ9gap;
         "neoforge-1.21.1" = _iopJiJQp;
         "neoforge-1.21" = _iopJiJQp;
         "neoforge-1.21.4" = _VGGj4FAD;
-        "neoforge-26.1.1" = _XJWhXWgn;
-        "neoforge-26.1.2" = _XJWhXWgn;
+        "neoforge-26.1.1" = _CXSmjEju;
+        "neoforge-26.1.2" = _CXSmjEju;
         "pkg-1.19.2-Forge-1.0.2" = _Ge5jWFMt;
         "pkg-1.19.2-Fabric-1.0.2" = _LC6CBpn9;
         "pkg-1.19.2-Fabric-1.0.3" = _deDT156J;
@@ -477,7 +489,9 @@ let
         "pkg-1.21.1-Fabric-3.1.5" = _gxBGYcIL;
         "pkg-26.1.2-Fabric-4.1.0" = _DwMJ0W1D;
         "pkg-26.1.2-NeoForge-4.1.0" = _XJWhXWgn;
-        "default" = _XJWhXWgn;
+        "pkg-26.1.2-Fabric-4.1.1" = _itXNeE2A;
+        "pkg-26.1.2-NeoForge-4.1.1" = _CXSmjEju;
+        "default" = _CXSmjEju;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yungs-better-nether-fortresses";

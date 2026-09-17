@@ -206,6 +206,11 @@ let
             "file" = "google-chat-26.2.0.jar";
             "hash" = "sha512-o+VLF7F/i6hUMwV+U7VQJmv7HuniQ7YOSHAQdkM46PgdnC70gf7EpSMXIP7khXfUb79/Yrao4/wCbwNHVPBlBQ==";
         };
+        _g3IOrubQ = {
+            "id" = "g3IOrubQ";
+            "file" = "google-chat-26.3.0.jar";
+            "hash" = "sha512-qYqkd/P3eZydZNQzIsDPZIOjThgpW7FqvZ1mU/K61lin7b2I2qhkrrAfKf3ZNtQdTBKW8lNu+tnu7PLrkjT8GQ==";
+        };
     in {
         "rHZv4aol" = _rHZv4aol;
         "fWHgJrtQ" = _fWHgJrtQ;
@@ -248,6 +253,7 @@ let
         "1knTtucZ" = _1knTtucZ;
         "vl31VDpU" = _vl31VDpU;
         "mp9vtFNS" = _mp9vtFNS;
+        "g3IOrubQ" = _g3IOrubQ;
         "fabric-1.18.1" = _rHZv4aol;
         "fabric-1.18.2" = _TZqBOUAH;
         "fabric-1.19" = _lJSLGfYa;
@@ -278,6 +284,7 @@ let
         "fabric-26.1.1" = _vl31VDpU;
         "fabric-26.1.2" = _vl31VDpU;
         "fabric-26.2" = _mp9vtFNS;
+        "fabric-26.3" = _g3IOrubQ;
         "pkg-0.1.0" = _rHZv4aol;
         "pkg-0.1.1" = _fWHgJrtQ;
         "pkg-0.1.2" = _2BHAWLUK;
@@ -319,7 +326,8 @@ let
         "pkg-0.10.7" = _1knTtucZ;
         "pkg-26.1.0" = _vl31VDpU;
         "pkg-26.2.0" = _mp9vtFNS;
-        "default" = _mp9vtFNS;
+        "pkg-26.3.0" = _g3IOrubQ;
+        "default" = _g3IOrubQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "google-chat";

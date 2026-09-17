@@ -351,6 +351,16 @@ let
             "file" = "structure_void_toggle-Neoforge-4.5.6+26.2.jar";
             "hash" = "sha512-eybN3WqR9Y4B01lh68PanDgAyp8ObNwbGgFEh9mWkd+qg/MFxcFHdeOi8YzapffW6VC2u4tgZSxaQqmbU55lMQ==";
         };
+        _VE4RDQyR = {
+            "id" = "VE4RDQyR";
+            "file" = "structure_void_toggle-Fabric-4.5.6+26.3.jar";
+            "hash" = "sha512-H7DA5bsnnAgy3VZ3m4icMXDZdYXfqqy944o+TOcvqzmdaO0HjOOZ3NNV9spz49v/nTKsB9u44bSDTE/NVZoN9g==";
+        };
+        _51pcHCd9 = {
+            "id" = "51pcHCd9";
+            "file" = "structure_void_toggle-Neoforge-4.5.6+26.3.jar";
+            "hash" = "sha512-fZPr6ykK0wT+EpyTXt0Y8aMqsgvMFPKZOApNJgweipDAydsUqTByjMGNQRsEZ24MTIcainV6y1IuckyAfrTOOQ==";
+        };
     in {
         "rRrypXqR" = _rRrypXqR;
         "DqPxwqDf" = _DqPxwqDf;
@@ -422,6 +432,8 @@ let
         "LBJUzLrl" = _LBJUzLrl;
         "jepiqj4l" = _jepiqj4l;
         "T98t2YJL" = _T98t2YJL;
+        "VE4RDQyR" = _VE4RDQyR;
+        "51pcHCd9" = _51pcHCd9;
         "fabric-1.17.1" = _rRrypXqR;
         "fabric-1.18" = _rRrypXqR;
         "fabric-1.18.1" = _rRrypXqR;
@@ -449,6 +461,7 @@ let
         "fabric-26.1.1" = _lZGmCkJG;
         "fabric-26.1.2" = _lZGmCkJG;
         "fabric-26.2" = _jepiqj4l;
+        "fabric-26.3" = _VE4RDQyR;
         "forge-1.18.1" = _DqPxwqDf;
         "forge-1.18.2" = _DqPxwqDf;
         "forge-1.19" = _mOabuenB;
@@ -478,6 +491,7 @@ let
         "neoforge-26.1.1" = _ytMzvib4;
         "neoforge-26.1.2" = _ytMzvib4;
         "neoforge-26.2" = _T98t2YJL;
+        "neoforge-26.3" = _51pcHCd9;
         "pkg-3.1.0+1.17.1" = _rRrypXqR;
         "pkg-3.0.0+1.18.1" = _DqPxwqDf;
         "pkg-3.1.0+1.18.2" = _1TzR5Nnh;
@@ -538,7 +552,8 @@ let
         "pkg-4.5.4+26.1" = _ytMzvib4;
         "pkg-4.5.5+26.2" = _LBJUzLrl;
         "pkg-4.5.6+26.2" = _T98t2YJL;
-        "default" = _T98t2YJL;
+        "pkg-4.5.6+26.3" = _51pcHCd9;
+        "default" = _51pcHCd9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "structure-void-toggle";

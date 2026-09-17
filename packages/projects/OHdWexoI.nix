@@ -36,6 +36,16 @@ let
             "file" = "MCT-RS-Mixin-1.20.1-1.1.0-b431-release.jar";
             "hash" = "sha512-Eg6xIIm9Zvi2gClI64F+KLnVoC4muqL8OsA0KLmBEeDeN51gIGmfnd7yGGFkzpfq1TsAwAvKDp/VjbQec6pTYg==";
         };
+        _LtXKVgNP = {
+            "id" = "LtXKVgNP";
+            "file" = "MCT-RS-Mixin-1.12.2-1.0.24-release.jar";
+            "hash" = "sha512-ptU5aSGD+dJQXqzNqlYHy4XUHm8dLPTckdOa8OpTQNxZ2YvgmOaDPNoLMLspl54hjBokmVPCSvr1ioAWEY4wtw==";
+        };
+        _fTHEsNdu = {
+            "id" = "fTHEsNdu";
+            "file" = "MCT-RS-Mixin-1.20.1-1.1.0-b451-release.jar";
+            "hash" = "sha512-T6/fmeFfm7VLm2Ua/oP5J6avt7i1bjEzIowDRewsLhYg8nwdB7U4DaWEwJK4mgWs2M6yA/9BvyM3j0WnIXHNsA==";
+        };
     in {
         "34zUr1lG" = _34zUr1lG;
         "nyvHBlza" = _nyvHBlza;
@@ -44,8 +54,10 @@ let
         "Ora4lxcp" = _Ora4lxcp;
         "ggwiyoHu" = _ggwiyoHu;
         "vgKRe3UA" = _vgKRe3UA;
-        "forge-1.20.1" = _vgKRe3UA;
-        "forge-1.12.2" = _ggwiyoHu;
+        "LtXKVgNP" = _LtXKVgNP;
+        "fTHEsNdu" = _fTHEsNdu;
+        "forge-1.20.1" = _fTHEsNdu;
+        "forge-1.12.2" = _LtXKVgNP;
         "pkg-1.0.0-b400-release" = _34zUr1lG;
         "pkg-1.1.0-b412-release" = _nyvHBlza;
         "pkg-1.0.17-release" = _Dc3OEs8T;
@@ -53,7 +65,9 @@ let
         "pkg-1.1.0-b420-release" = _Ora4lxcp;
         "pkg-1.0.23-release" = _ggwiyoHu;
         "pkg-1.1.0-b431-release" = _vgKRe3UA;
-        "default" = _vgKRe3UA;
+        "pkg-1.0.24-release" = _LtXKVgNP;
+        "pkg-1.1.0-b451-release" = _fTHEsNdu;
+        "default" = _fTHEsNdu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mct-refined-storage-mixin";

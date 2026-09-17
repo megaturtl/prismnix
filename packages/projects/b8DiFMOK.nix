@@ -581,6 +581,16 @@ let
             "file" = "Satsu_iron_man_addon-3.5.2.jar";
             "hash" = "sha512-8gYMAlNr/0RlHSXiGQpzoDE23GyYw/q0ayf19RDGJLKkPYoe99TQyKPwQIUNbzJ9mMbOJoPdyvLUlSXyMnY6wg==";
         };
+        _diOK3FZx = {
+            "id" = "diOK3FZx";
+            "file" = "Satsu_iron_man_addon-3.5.3.jar";
+            "hash" = "sha512-ClkCrJ1OePI3a/JEwsnAXklF9WH+DkBZcnnxi8lrYQbc6IwWI97mO/0qSW4f0ZdBVcNJz009RYbu/ooLjUtU9A==";
+        };
+        _OLpAGHFd = {
+            "id" = "OLpAGHFd";
+            "file" = "Satsu_iron_man_addon-.3.6.0.jar";
+            "hash" = "sha512-dzDbW8/rClBTRM6s9NO3/dJBNXAkI9j3oL0KMGhz6X2daxLZ5Te/UXC7gd0wgx6B7vNIfd3bF9dMjLXOKrmUtw==";
+        };
     in {
         "x4Pwhgad" = _x4Pwhgad;
         "iWS5WdPk" = _iWS5WdPk;
@@ -698,8 +708,10 @@ let
         "kYmoIRQy" = _kYmoIRQy;
         "fA9lXmTS" = _fA9lXmTS;
         "gCmBVX7W" = _gCmBVX7W;
+        "diOK3FZx" = _diOK3FZx;
+        "OLpAGHFd" = _OLpAGHFd;
         "fabric-1.20.1" = _6PqTi057;
-        "forge-1.20.1" = _gCmBVX7W;
+        "forge-1.20.1" = _OLpAGHFd;
         "pkg-2.0.0" = _x4Pwhgad;
         "pkg-2.2.3" = _iWS5WdPk;
         "pkg-2.2.4" = _gS9d08ps;
@@ -777,7 +789,9 @@ let
         "pkg-3.3.0" = _4g6p3J2i;
         "pkg-3.4.2" = _kYmoIRQy;
         "pkg-3.5.2" = _gCmBVX7W;
-        "default" = _gCmBVX7W;
+        "pkg-3.5.3" = _diOK3FZx;
+        "pkg-3.6.0" = _OLpAGHFd;
+        "default" = _OLpAGHFd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "satsu-iron-man-addon";

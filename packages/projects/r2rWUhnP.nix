@@ -76,6 +76,31 @@ let
             "file" = "AdChimneys-1.20.1-10.1.33.0-build.2358.jar";
             "hash" = "sha512-ey1NT4Jwc2bIh6b6YP9qYFjILHv1Ew5ae7ZIS41/yd6zdwzs4Ub4ZGNJO6M3GF/5/PzZSLF1LXGM9WMK2VEA2Q==";
         };
+        _8yQlbwVK = {
+            "id" = "8yQlbwVK";
+            "file" = "AdChimneys-1.21.1-11.1.10.0-NeoForge-build.1121.jar";
+            "hash" = "sha512-+M13rG1yssIsqs6FAbk2nNwjG/3TtarjDKyGGImKrlrTlUCl7Bxwuc+6LjanuAAc1W7xTffkikfbKKcEh8703Q==";
+        };
+        _Sm8550M2 = {
+            "id" = "Sm8550M2";
+            "file" = "adchimneys-26.2.0.2-fabric-build.0155.jar";
+            "hash" = "sha512-4wn1V66CpEE4coiHyd7ss/zYxlAulaJXnP8rXpU3lBPUtIlLvHCr6sacdLcxdNjqHw37f+2q1g8dQgxHS4qkew==";
+        };
+        _U1Fhw8p7 = {
+            "id" = "U1Fhw8p7";
+            "file" = "adchimneys-26.2.0.2-fabric-build.0168.jar";
+            "hash" = "sha512-4wn1V66CpEE4coiHyd7ss/zYxlAulaJXnP8rXpU3lBPUtIlLvHCr6sacdLcxdNjqHw37f+2q1g8dQgxHS4qkew==";
+        };
+        _sXMhnOhX = {
+            "id" = "sXMhnOhX";
+            "file" = "adchimneys-26.2.0.2-forge-build.0168.jar";
+            "hash" = "sha512-/DbbDwf1AR46p/Xgvxv48uz99fRsDvG8vEQuXsbIfdCTAE/FQxJL8ZtLPFSsQMDT6yIvtKbZ6T/IrvwMwNbaKA==";
+        };
+        _yEsfjBEA = {
+            "id" = "yEsfjBEA";
+            "file" = "adchimneys-26.2.0.2-neoforge-build.0168.jar";
+            "hash" = "sha512-A0ghpobYFTBrNssgQ6JEerfaF9yofmF1S9Zhmky/yNoGujU5NDhmqDVt3yZAR+moDGHyuWXbWPJHSuQMRXA9xg==";
+        };
     in {
         "jvhEHBRv" = _jvhEHBRv;
         "DKAG5gSO" = _DKAG5gSO;
@@ -92,11 +117,16 @@ let
         "HPt9ZOR3" = _HPt9ZOR3;
         "LhxPCN96" = _LhxPCN96;
         "E4CaagJy" = _E4CaagJy;
-        "fabric-26.2" = _BOw1UsxK;
-        "forge-26.2" = _ygJXR1Xe;
+        "8yQlbwVK" = _8yQlbwVK;
+        "Sm8550M2" = _Sm8550M2;
+        "U1Fhw8p7" = _U1Fhw8p7;
+        "sXMhnOhX" = _sXMhnOhX;
+        "yEsfjBEA" = _yEsfjBEA;
+        "fabric-26.2" = _U1Fhw8p7;
+        "forge-26.2" = _sXMhnOhX;
         "forge-1.20.1" = _E4CaagJy;
-        "neoforge-26.2" = _kwp4fmom;
-        "neoforge-1.21.1" = _LhxPCN96;
+        "neoforge-26.2" = _yEsfjBEA;
+        "neoforge-1.21.1" = _8yQlbwVK;
         "pkg-26.2.0.0" = _cz7HgmoT;
         "pkg-11.1.6.1" = _NRr3OsWd;
         "pkg-11.1.7.0" = _saHm3vYW;
@@ -108,7 +138,9 @@ let
         "pkg-10.1.32.0" = _HPt9ZOR3;
         "pkg-11.1.9.1" = _LhxPCN96;
         "pkg-10.1.33.0" = _E4CaagJy;
-        "default" = _E4CaagJy;
+        "pkg-11.1.10.0" = _8yQlbwVK;
+        "pkg-26.2.0.2" = _yEsfjBEA;
+        "default" = _yEsfjBEA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "advanced-chimneys";

@@ -106,6 +106,31 @@ let
             "file" = "toggle-toggle-sprint-1.4.1+1.21.10.jar";
             "hash" = "sha512-XBWgj6x4kEqLHOi9gj6D/rKx3LOPT+6N/yw+WZ2gcq+oIqalKUpjXU1LQU3yrKk7agiBs5hbf9Dhp2TKbJwYzg==";
         };
+        _5ywMdD0G = {
+            "id" = "5ywMdD0G";
+            "file" = "toggle-toggle-sprint-1.4.2+1.20.1.jar";
+            "hash" = "sha512-1MSvHR55f3Bn1QNZ7LPVmsRzi84PecvWucNy3C9xbcCI41bHspdU8GwC4Lfm9K/rfMurgRHy+UaqDVznubPkKw==";
+        };
+        _Pz9mo3Il = {
+            "id" = "Pz9mo3Il";
+            "file" = "toggle-toggle-sprint-1.4.2+1.21.10.jar";
+            "hash" = "sha512-10qJOQmbVJnQdbySebYFRZHrkSIgLJ8fiPfqoUofweb+xURfP/SWxcmvguhiMqEYGjbX3VzAGTZeep2PJQ2/yg==";
+        };
+        _tM0IvGII = {
+            "id" = "tM0IvGII";
+            "file" = "toggle-toggle-sprint-1.4.2+26.1.jar";
+            "hash" = "sha512-tZ7eSQXFQLAYZAANNduKVu8c+0h808Y+eWeupTWnvjw+4qI0rUcCPlqzyDqdth9Zcv+0MGvDoSMXiNFMMfUqKQ==";
+        };
+        _uT3Cav2S = {
+            "id" = "uT3Cav2S";
+            "file" = "toggle-toggle-sprint-1.4.2+26.2.jar";
+            "hash" = "sha512-bcP/pd3pVXVal63ypQ5VoGOFiNPzj8VGaAY3AYjm1QeZZf6vlR5TaJhiDaeSo/yYT5NhAIo62sdKP0bNKcHfpQ==";
+        };
+        _IIxAws8L = {
+            "id" = "IIxAws8L";
+            "file" = "toggle-toggle-sprint-1.4.2+26.3.jar";
+            "hash" = "sha512-Aq2BRbXUYqNOJ6X7V1do4ZK2Vi3E8co5HQz0e3qsl++SeQUZn6TbDUUd+nyFYS7sguJjOu7iPCxlTJwCpIhhtw==";
+        };
     in {
         "kbQTuS4N" = _kbQTuS4N;
         "kch9OxUC" = _kch9OxUC;
@@ -128,30 +153,36 @@ let
         "qXhfQi2E" = _qXhfQi2E;
         "tDlca7iT" = _tDlca7iT;
         "MfmZvIUk" = _MfmZvIUk;
+        "5ywMdD0G" = _5ywMdD0G;
+        "Pz9mo3Il" = _Pz9mo3Il;
+        "tM0IvGII" = _tM0IvGII;
+        "uT3Cav2S" = _uT3Cav2S;
+        "IIxAws8L" = _IIxAws8L;
         "fabric-1.19.4" = _ivOkaQi2;
         "fabric-1.20" = _ivOkaQi2;
-        "fabric-1.20.1" = _tDlca7iT;
-        "fabric-1.20.2" = _tDlca7iT;
-        "fabric-1.20.3" = _tDlca7iT;
-        "fabric-1.20.4" = _tDlca7iT;
-        "fabric-1.20.5" = _tDlca7iT;
-        "fabric-1.20.6" = _tDlca7iT;
-        "fabric-1.21" = _tDlca7iT;
-        "fabric-1.21.1" = _tDlca7iT;
-        "fabric-1.21.2" = _tDlca7iT;
-        "fabric-1.21.3" = _tDlca7iT;
-        "fabric-1.21.4" = _tDlca7iT;
-        "fabric-1.21.5" = _tDlca7iT;
-        "fabric-1.21.6" = _tDlca7iT;
-        "fabric-1.21.7" = _tDlca7iT;
-        "fabric-1.21.8" = _tDlca7iT;
-        "fabric-1.21.9" = _MfmZvIUk;
-        "fabric-1.21.10" = _MfmZvIUk;
-        "fabric-1.21.11" = _MfmZvIUk;
-        "fabric-26.1" = _qXhfQi2E;
-        "fabric-26.1.1" = _qXhfQi2E;
-        "fabric-26.1.2" = _qXhfQi2E;
-        "fabric-26.2" = _nBMCuUuI;
+        "fabric-1.20.1" = _5ywMdD0G;
+        "fabric-1.20.2" = _5ywMdD0G;
+        "fabric-1.20.3" = _5ywMdD0G;
+        "fabric-1.20.4" = _5ywMdD0G;
+        "fabric-1.20.5" = _5ywMdD0G;
+        "fabric-1.20.6" = _5ywMdD0G;
+        "fabric-1.21" = _5ywMdD0G;
+        "fabric-1.21.1" = _5ywMdD0G;
+        "fabric-1.21.2" = _5ywMdD0G;
+        "fabric-1.21.3" = _5ywMdD0G;
+        "fabric-1.21.4" = _5ywMdD0G;
+        "fabric-1.21.5" = _5ywMdD0G;
+        "fabric-1.21.6" = _5ywMdD0G;
+        "fabric-1.21.7" = _5ywMdD0G;
+        "fabric-1.21.8" = _5ywMdD0G;
+        "fabric-1.21.9" = _Pz9mo3Il;
+        "fabric-1.21.10" = _Pz9mo3Il;
+        "fabric-1.21.11" = _Pz9mo3Il;
+        "fabric-26.1" = _tM0IvGII;
+        "fabric-26.1.1" = _tM0IvGII;
+        "fabric-26.1.2" = _tM0IvGII;
+        "fabric-26.2" = _uT3Cav2S;
+        "fabric-26.3" = _IIxAws8L;
         "pkg-1.0.0+1.19.4" = _kbQTuS4N;
         "pkg-1.0.0+1.20.2" = _kch9OxUC;
         "pkg-1.1+1.19.4" = _UoTz5ruH;
@@ -173,7 +204,12 @@ let
         "pkg-1.4.1+26.1" = _qXhfQi2E;
         "pkg-1.4.1+1.20.1" = _tDlca7iT;
         "pkg-1.4.1+1.21.10" = _MfmZvIUk;
-        "default" = _MfmZvIUk;
+        "pkg-1.4.2+1.20.1" = _5ywMdD0G;
+        "pkg-1.4.2+1.21.10" = _Pz9mo3Il;
+        "pkg-1.4.2+26.1" = _tM0IvGII;
+        "pkg-1.4.2+26.2" = _uT3Cav2S;
+        "pkg-1.4.2+26.3" = _IIxAws8L;
+        "default" = _IIxAws8L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "toggle-toggle-sprint";

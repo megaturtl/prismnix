@@ -471,6 +471,21 @@ let
             "file" = "homestead-6.0.0.0-26w36a.jar";
             "hash" = "sha512-UUiwQuxBO/yngZQCThW4kdCYtdl82ut+Y75GmDtWkEOMf/hK0B7jBArwAKeccXQ3P/1gs936C0h/stDfMU9OXw==";
         };
+        _ylSYyJOS = {
+            "id" = "ylSYyJOS";
+            "file" = "homestead-6.0.0.0-26w37a.jar";
+            "hash" = "sha512-OdCH4g7Y5ROiT7HCaqpY325DGwjJX4P/aZkATfIxipXTXEmYL/rbb9XiuZluHwpqDOppia4Kvpm0wJKX1wMIBQ==";
+        };
+        _zhSYzM5M = {
+            "id" = "zhSYzM5M";
+            "file" = "homestead-6.0.0.0-26w37b.jar";
+            "hash" = "sha512-CAY9akgGinIFxwCvgt9jruGXAI34H3WKnpkJSyD29pvuliIHZXhW98YXFk9KjBQ4EL+u8XAnpCGKDxZtVfp7YQ==";
+        };
+        _kB6urxZJ = {
+            "id" = "kB6urxZJ";
+            "file" = "homestead-6.0.0.0-26w37c.jar";
+            "hash" = "sha512-Nj+ACIfn9QTdCrrK17MKOjDNgFoOJOcoN31W4bmG3qGJgLcmjJu6xUFRSIQ6GzV5KdSSKpH+ukPbEMjXvapNKw==";
+        };
     in {
         "sJTcqK0K" = _sJTcqK0K;
         "z8JGZHad" = _z8JGZHad;
@@ -566,6 +581,9 @@ let
         "vnArr6Zc" = _vnArr6Zc;
         "wcNcFHT3" = _wcNcFHT3;
         "fYHGlMd7" = _fYHGlMd7;
+        "ylSYyJOS" = _ylSYyJOS;
+        "zhSYzM5M" = _zhSYzM5M;
+        "kB6urxZJ" = _kB6urxZJ;
         "bukkit-1.21" = _kCeU1Eyo;
         "bukkit-1.21.1" = _kCeU1Eyo;
         "bukkit-1.21.2" = _kCeU1Eyo;
@@ -588,12 +606,13 @@ let
         "paper-1.21.7" = _kCeU1Eyo;
         "paper-1.21.8" = _kCeU1Eyo;
         "paper-1.21.9" = _YoYDvG0y;
-        "paper-1.21.10" = _fYHGlMd7;
-        "paper-1.21.11" = _fYHGlMd7;
-        "paper-26.1" = _fYHGlMd7;
-        "paper-26.1.1" = _fYHGlMd7;
-        "paper-26.1.2" = _fYHGlMd7;
-        "paper-26.2" = _fYHGlMd7;
+        "paper-1.21.10" = _kB6urxZJ;
+        "paper-1.21.11" = _kB6urxZJ;
+        "paper-26.1" = _kB6urxZJ;
+        "paper-26.1.1" = _kB6urxZJ;
+        "paper-26.1.2" = _kB6urxZJ;
+        "paper-26.2" = _kB6urxZJ;
+        "paper-26.3" = _kB6urxZJ;
         "purpur-1.21" = _kCeU1Eyo;
         "purpur-1.21.1" = _kCeU1Eyo;
         "purpur-1.21.2" = _kCeU1Eyo;
@@ -604,12 +623,13 @@ let
         "purpur-1.21.7" = _kCeU1Eyo;
         "purpur-1.21.8" = _kCeU1Eyo;
         "purpur-1.21.9" = _YoYDvG0y;
-        "purpur-1.21.10" = _fYHGlMd7;
-        "purpur-1.21.11" = _fYHGlMd7;
-        "purpur-26.1" = _fYHGlMd7;
-        "purpur-26.1.1" = _fYHGlMd7;
-        "purpur-26.1.2" = _fYHGlMd7;
-        "purpur-26.2" = _fYHGlMd7;
+        "purpur-1.21.10" = _kB6urxZJ;
+        "purpur-1.21.11" = _kB6urxZJ;
+        "purpur-26.1" = _kB6urxZJ;
+        "purpur-26.1.1" = _kB6urxZJ;
+        "purpur-26.1.2" = _kB6urxZJ;
+        "purpur-26.2" = _kB6urxZJ;
+        "purpur-26.3" = _kB6urxZJ;
         "spigot-1.21" = _kCeU1Eyo;
         "spigot-1.21.1" = _kCeU1Eyo;
         "spigot-1.21.2" = _kCeU1Eyo;
@@ -620,19 +640,21 @@ let
         "spigot-1.21.7" = _kCeU1Eyo;
         "spigot-1.21.8" = _kCeU1Eyo;
         "spigot-1.21.9" = _YoYDvG0y;
-        "spigot-1.21.10" = _fYHGlMd7;
-        "spigot-1.21.11" = _fYHGlMd7;
-        "spigot-26.1" = _fYHGlMd7;
-        "spigot-26.1.1" = _fYHGlMd7;
-        "spigot-26.1.2" = _fYHGlMd7;
-        "spigot-26.2" = _fYHGlMd7;
+        "spigot-1.21.10" = _kB6urxZJ;
+        "spigot-1.21.11" = _kB6urxZJ;
+        "spigot-26.1" = _kB6urxZJ;
+        "spigot-26.1.1" = _kB6urxZJ;
+        "spigot-26.1.2" = _kB6urxZJ;
+        "spigot-26.2" = _kB6urxZJ;
+        "spigot-26.3" = _kB6urxZJ;
         "folia-1.21.9" = _YoYDvG0y;
-        "folia-1.21.10" = _fYHGlMd7;
-        "folia-1.21.11" = _fYHGlMd7;
-        "folia-26.1" = _fYHGlMd7;
-        "folia-26.1.1" = _fYHGlMd7;
-        "folia-26.1.2" = _fYHGlMd7;
-        "folia-26.2" = _fYHGlMd7;
+        "folia-1.21.10" = _kB6urxZJ;
+        "folia-1.21.11" = _kB6urxZJ;
+        "folia-26.1" = _kB6urxZJ;
+        "folia-26.1.1" = _kB6urxZJ;
+        "folia-26.1.2" = _kB6urxZJ;
+        "folia-26.2" = _kB6urxZJ;
+        "folia-26.3" = _kB6urxZJ;
         "pkg-1.0.0" = _sJTcqK0K;
         "pkg-1.1.0" = _z8JGZHad;
         "pkg-1.1.1" = _apfE3z50;
@@ -727,7 +749,10 @@ let
         "pkg-5.2.2.2" = _vnArr6Zc;
         "pkg-5.2.3.0" = _wcNcFHT3;
         "pkg-6.0.0.0-26w36a" = _fYHGlMd7;
-        "default" = _fYHGlMd7;
+        "pkg-6.0.0.0-26w37a" = _ylSYyJOS;
+        "pkg-6.0.0.0-26w37b" = _zhSYzM5M;
+        "pkg-6.0.0.0-26w37c" = _kB6urxZJ;
+        "default" = _kB6urxZJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "homestead-plugin";

@@ -96,6 +96,11 @@ let
             "file" = "holo-utils-26.2.0.jar";
             "hash" = "sha512-Nk3gLPR+Rw7FrJZIHQF3vLntHSkHG7BT3wE2TudvItAfJ8/7gOsiDQ20tEjxGftUI8jrVQF1J7Q9FAv8LJoh0A==";
         };
+        _FKtEL6ju = {
+            "id" = "FKtEL6ju";
+            "file" = "holo-utils-26.3.0.jar";
+            "hash" = "sha512-LzAiZQoPosoTO3CaQ70nPSEHF17yB1FNIZtBUd0WIsMo+uimbVWpdPUhLh2AqOpReNKzHJPQTD2GUZ9R+00neQ==";
+        };
     in {
         "tKup9P8J" = _tKup9P8J;
         "uxaHnL25" = _uxaHnL25;
@@ -116,6 +121,7 @@ let
         "oIsnXoAo" = _oIsnXoAo;
         "UwCq34Mo" = _UwCq34Mo;
         "IOKMW0hU" = _IOKMW0hU;
+        "FKtEL6ju" = _FKtEL6ju;
         "fabric-1.21.4" = _zMMJOHCp;
         "fabric-1.21.5" = _SAbLzFDo;
         "fabric-1.21.6" = _b96cMb3a;
@@ -128,6 +134,7 @@ let
         "fabric-26.1.1" = _OEkVTEDR;
         "fabric-26.1.2" = _OEkVTEDR;
         "fabric-26.2" = _IOKMW0hU;
+        "fabric-26.3" = _FKtEL6ju;
         "pkg-1.2-Lite" = _tKup9P8J;
         "pkg-1.3-Lite" = _uxaHnL25;
         "pkg-1.4-Lite" = _fEopzEFr;
@@ -146,7 +153,8 @@ let
         "pkg-1.8.1-Lite" = _avoSAie6;
         "pkg-1.7.1-Lite" = _oIsnXoAo;
         "pkg-26.2.0" = _IOKMW0hU;
-        "default" = _IOKMW0hU;
+        "pkg-26.3.0" = _FKtEL6ju;
+        "default" = _FKtEL6ju;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-fog-+-fullbright";

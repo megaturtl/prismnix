@@ -231,6 +231,26 @@ let
             "file" = "signalindustries-0.28.0.jar";
             "hash" = "sha512-xA62tQyNnNlR7t1wvu2pz7XlPFSCKsJ4LoiJ9uF2MOb9mri5x3uEjcp7I7GL4L7c4+F6+MmJNmPyt/s+Wy9fmg==";
         };
+        _Anphnbqz = {
+            "id" = "Anphnbqz";
+            "file" = "signalindustries-0.28.1.jar";
+            "hash" = "sha512-yhyMo/RY++QH5WAnQ55orweGpEoBdahEBt0bTwtgAKdwqQMb6a4ap+e1ONYbIpA5bhIx3a4EzaIcdf9iy5iH5Q==";
+        };
+        _DgTvnWAL = {
+            "id" = "DgTvnWAL";
+            "file" = "signalindustries-0.28.2.jar";
+            "hash" = "sha512-wtiE3vktaoh8sneEeim6PKSJUOOQ+GKFGuH61hiNdUtjINAs4AbBMBL1mABiYQ02m96+nLv+LEToeV08xqw6lg==";
+        };
+        _W71oheMH = {
+            "id" = "W71oheMH";
+            "file" = "signalindustries-0.29.0.jar";
+            "hash" = "sha512-p3TVwllQRQKTsYBDyIwhWQg0ttpoumnYEVnhyGn4nUaX+Q6SGTELHQeALPseQKDbHD5FLEjrr7l+bJLFt0bofw==";
+        };
+        _rIw1ty8z = {
+            "id" = "rIw1ty8z";
+            "file" = "signalindustries-0.29.1.jar";
+            "hash" = "sha512-SybAOJwsHPx79SA82hukZdpyasZazzsCHmnooqYMwiKERW1Tc24FWSrvK1I0Fsb48Y2i8rTqOguDgM5mqBnCvA==";
+        };
     in {
         "QN7DEPtE" = _QN7DEPtE;
         "j3busrHX" = _j3busrHX;
@@ -278,7 +298,11 @@ let
         "4BLgqsiP" = _4BLgqsiP;
         "8xRGi1dw" = _8xRGi1dw;
         "7y8WUJFe" = _7y8WUJFe;
-        "bta-babric-b1.7.3" = _7y8WUJFe;
+        "Anphnbqz" = _Anphnbqz;
+        "DgTvnWAL" = _DgTvnWAL;
+        "W71oheMH" = _W71oheMH;
+        "rIw1ty8z" = _rIw1ty8z;
+        "bta-babric-b1.7.3" = _rIw1ty8z;
         "pkg-0.3.2" = _QN7DEPtE;
         "pkg-0.4.0" = _j3busrHX;
         "pkg-0.5.0" = _5Au8fcC2;
@@ -325,7 +349,11 @@ let
         "pkg-0.26.0" = _4BLgqsiP;
         "pkg-0.27.0" = _8xRGi1dw;
         "pkg-0.28.0" = _7y8WUJFe;
-        "default" = _7y8WUJFe;
+        "pkg-0.28.1" = _Anphnbqz;
+        "pkg-0.28.2" = _DgTvnWAL;
+        "pkg-0.29.0" = _W71oheMH;
+        "pkg-0.29.1" = _rIw1ty8z;
+        "default" = _rIw1ty8z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "signal-industries";

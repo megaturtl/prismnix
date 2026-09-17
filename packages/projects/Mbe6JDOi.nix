@@ -41,6 +41,21 @@ let
             "file" = "modularpokeballs-2.0.3.jar";
             "hash" = "sha512-DHn3e6G3wyoCH+6JgNJgxlgkrygur2WBzO9gJIE8IVGaZ5Eb3LGNrpbYldDIJlwB5sP2Dz1auF06DdRNeRcvXQ==";
         };
+        _kXSPhqeR = {
+            "id" = "kXSPhqeR";
+            "file" = "modularpokeballs-2.0.4.jar";
+            "hash" = "sha512-mz9y3iPpsdPzOc4FeXs+8LOQgQtsGXphdnPRCL9OITJmMs60s1049AQBESCFIovDf8ljrOCwiksZSUlLlOwsZA==";
+        };
+        _BA00FdNv = {
+            "id" = "BA00FdNv";
+            "file" = "modularpokeballs-2.0.5.jar";
+            "hash" = "sha512-jWctxR4PTbsjOrIqSYHWDikwhUZoR7HlsqLTp4Y25AXz4GuQbw6QlOdt0m6HST/YXzf5RITYp25inm3wI5wvKg==";
+        };
+        _zMxxeMGS = {
+            "id" = "zMxxeMGS";
+            "file" = "modularpokeballs-2.0.6.jar";
+            "hash" = "sha512-oDm0MeAm349aZHrt/HaEZBh1tC9hqz18w1SV9r/bMXylFJ7aNmOkwmaPxSAd2620Tw4oWdpfWgsfjdUO97SIEQ==";
+        };
     in {
         "b4uXkxKA" = _b4uXkxKA;
         "gAhuJhJy" = _gAhuJhJy;
@@ -50,7 +65,10 @@ let
         "BqIlyfLY" = _BqIlyfLY;
         "N7ufWKDg" = _N7ufWKDg;
         "nzAbCR9Q" = _nzAbCR9Q;
-        "neoforge-1.21.1" = _nzAbCR9Q;
+        "kXSPhqeR" = _kXSPhqeR;
+        "BA00FdNv" = _BA00FdNv;
+        "zMxxeMGS" = _zMxxeMGS;
+        "neoforge-1.21.1" = _zMxxeMGS;
         "pkg-1.0.0" = _b4uXkxKA;
         "pkg-1.1.0" = _gAhuJhJy;
         "pkg-1.2.0" = _1oZzCEu8;
@@ -59,7 +77,10 @@ let
         "pkg-2.0.1" = _BqIlyfLY;
         "pkg-2.0.2" = _N7ufWKDg;
         "pkg-2.0.3" = _nzAbCR9Q;
-        "default" = _nzAbCR9Q;
+        "pkg-2.0.4" = _kXSPhqeR;
+        "pkg-2.0.5" = _BA00FdNv;
+        "pkg-2.0.6" = _zMxxeMGS;
+        "default" = _zMxxeMGS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-modular-poke-balls";

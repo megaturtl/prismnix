@@ -131,6 +131,56 @@ let
             "file" = "cobblemon_quests-reloaded-[1.21.1]-fabric-1.3.5.jar";
             "hash" = "sha512-Lj66dg1sD/UIIRQ/2DOJgM44Dpau/l6N6QXiI1b8jvkANWfGqB9WKMLrIQVEisxZvMPIgLVmotq6ihKCalLekQ==";
         };
+        _ob0aPuNG = {
+            "id" = "ob0aPuNG";
+            "file" = "cobblemon_quests-reloaded-[1.21.1]-neoforge-1.3.7+1.7.3.jar";
+            "hash" = "sha512-tUXfce0UbqVObfMYts/1eXss9HGo7N4lvTxzfQrikHU42QNS5sBf8rOVKOC4DXoezl//p3Jn04wIzSahqCJfuw==";
+        };
+        _2TBH9UW8 = {
+            "id" = "2TBH9UW8";
+            "file" = "cobblemon_quests-reloaded-[1.21.1]-fabric-1.3.7+1.7.3.jar";
+            "hash" = "sha512-bHr5mVSV4Qt9AbhGwUNVe5x0Y+WJUO9r5kGLZPk/Qvnhi+VaqDkT4zGlqDENceT6f9w6pG2LAuJf1QeSDHvVfA==";
+        };
+        _3LLULit3 = {
+            "id" = "3LLULit3";
+            "file" = "cobblemon_quests-reloaded-[1.21.1]-fabric-1.3.8+1.8.0.jar";
+            "hash" = "sha512-8CxP5tK+2+okUiybtdxNOU+EfWnRde3h76X5W8in7stM4gRSvut4WqML80VWmHVoaRg4HTnRoAVVQnuxOusqlA==";
+        };
+        _lFSONIkR = {
+            "id" = "lFSONIkR";
+            "file" = "cobblemon_quests-reloaded-[1.21.1]-neoforge-1.3.8+1.8.0.jar";
+            "hash" = "sha512-FCi7GgXMXHhll+cK+deBFiuDtCC/OCbGm/PlUecZFVC0WrIsbLAYs0rBIaTo1UDveSxHDLL9IhGRX49zEvOqxw==";
+        };
+        _iCmtSCFr = {
+            "id" = "iCmtSCFr";
+            "file" = "cobblemon_quests-reloaded-[1.21.1]-neoforge-1.3.9+1.8.jar";
+            "hash" = "sha512-IHG81yIOi3jMIzbJGM1et0VgClFwdjl37BsGuPT6GSOEhKZOjf0WhRcloe5CKpvlQqERwcbxpUZtp8AyEckNmQ==";
+        };
+        _ay8cH65w = {
+            "id" = "ay8cH65w";
+            "file" = "cobblemon_quests-reloaded-[1.21.1]-fabric-1.3.9+1.8.jar";
+            "hash" = "sha512-Ujggpzt8p/mwM7dU6IWbdr+K/XTT5kOfPRbhEllTykpTFr7eS3XPXe+YzF4emMSiYjIxZYf2Tx6q3EX6RMLPiw==";
+        };
+        _IrlHL2I5 = {
+            "id" = "IrlHL2I5";
+            "file" = "cobblemon_quests-reloaded-[1.21.1]-neoforge-2.0.0+1.8.jar";
+            "hash" = "sha512-fAei0twAGTPx4UAKZQbdsIQnCL87/p7Aq4GhwKkNvu8/7jHCxNDDWlKHdFEX5a3W/XRfNuqrGl3UA0CgvBSNUQ==";
+        };
+        _nF300P9m = {
+            "id" = "nF300P9m";
+            "file" = "cobblemon_quests-reloaded-[1.21.1]-fabric-2.0.0+1.8.jar";
+            "hash" = "sha512-pAzOF7GjYEBk1G/909ke3lK4hU75Tz+zwWnRsnRpR7gIVI9PnaTUU9MpOQMIH8uTtSggpJDCgyYNPH8/vJ1XWw==";
+        };
+        _PP5hMZla = {
+            "id" = "PP5hMZla";
+            "file" = "cobblemon_quests-reloaded-[1.21.1]-fabric-2.0.1+1.8.0.jar";
+            "hash" = "sha512-NESRLotT2CDkx57lzwhXXLJYsgRluXcEDyEbMXPIsv99TSHVQjw0N1vOPPJVO/dP6C3ExKAHqfFLbct/plEarg==";
+        };
+        _Lm8E51XW = {
+            "id" = "Lm8E51XW";
+            "file" = "cobblemon_quests-reloaded-[1.21.1]-neoforge-2.0.1+1.8.0.jar";
+            "hash" = "sha512-vz1+Dk/ZWxqW0lgI9sxzhMw2gsfOzVMIx063XRRxX8n3IWDtxB2861JlvuFJ+qR6CcCpykHCGFsv0pF8SY9EJg==";
+        };
     in {
         "su4YbQ5o" = _su4YbQ5o;
         "5xXK8e1U" = _5xXK8e1U;
@@ -158,8 +208,18 @@ let
         "nfErcRLm" = _nfErcRLm;
         "X31r1lI4" = _X31r1lI4;
         "iGSukRPM" = _iGSukRPM;
-        "fabric-1.21.1" = _iGSukRPM;
-        "neoforge-1.21.1" = _X31r1lI4;
+        "ob0aPuNG" = _ob0aPuNG;
+        "2TBH9UW8" = _2TBH9UW8;
+        "3LLULit3" = _3LLULit3;
+        "lFSONIkR" = _lFSONIkR;
+        "iCmtSCFr" = _iCmtSCFr;
+        "ay8cH65w" = _ay8cH65w;
+        "IrlHL2I5" = _IrlHL2I5;
+        "nF300P9m" = _nF300P9m;
+        "PP5hMZla" = _PP5hMZla;
+        "Lm8E51XW" = _Lm8E51XW;
+        "fabric-1.21.1" = _PP5hMZla;
+        "neoforge-1.21.1" = _Lm8E51XW;
         "pkg-1.1.14" = _5xXK8e1U;
         "pkg-1.1.15" = _XIQUrWfK;
         "pkg-1.2.2" = _iHZg8JOq;
@@ -173,7 +233,12 @@ let
         "pkg-1.3.3" = _TXSwIS1K;
         "pkg-1.3.4" = _nfErcRLm;
         "pkg-1.3.5" = _iGSukRPM;
-        "default" = _iGSukRPM;
+        "pkg-1.3.7+1.7.3" = _2TBH9UW8;
+        "pkg-1.3.8+1.8.0" = _lFSONIkR;
+        "pkg-1.3.9+1.8" = _ay8cH65w;
+        "pkg-2.0.0+1.8" = _nF300P9m;
+        "pkg-2.0.1+1.8.0" = _Lm8E51XW;
+        "default" = _Lm8E51XW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-quest-reloaded";

@@ -51,6 +51,31 @@ let
             "file" = "thermal_shock-Beta 06.1-forge-1.20.1.jar";
             "hash" = "sha512-3em+Sky+tYA5x0gdkekw+j4JsjtYIBvfAwzuv0U4O0bMsQa08CloL35tTbWhEgMTpntHyutjGT2isjEUzEACag==";
         };
+        _2LWUG0Jo = {
+            "id" = "2LWUG0Jo";
+            "file" = "thermal_shock-Beta 07-forge-1.20.1.jar";
+            "hash" = "sha512-+UCfWjWCGGdr/PttWvCicJI9QF9cowN8HK8aL9nawud6XiCIMYIxEL78/COwSPySTflfZJlHfi5ODpV5Ty2Qhg==";
+        };
+        _j4IYnW8M = {
+            "id" = "j4IYnW8M";
+            "file" = "thermal_shock-Beta 07.1-forge-1.20.1.jar";
+            "hash" = "sha512-dO2cnsiB61TgHPT2WosmhptytIrcKNNu25QcLaWVHR+M7tU9DINzS+BXtEv5wzVlmBmQp7a4P7K+2Nvzz5D5jQ==";
+        };
+        _RYP3tz8R = {
+            "id" = "RYP3tz8R";
+            "file" = "thermal_shock-Beta 07.2-forge-1.20.1.jar";
+            "hash" = "sha512-Bea2N5SA1LNXMJgLkIPXQJa/qoH6w535YCGZ51eOZi4MUIzS1CqbCGbd0mMMEcjtDlgZoPOZtl/nKThgOmiFKQ==";
+        };
+        _49tDSVPU = {
+            "id" = "49tDSVPU";
+            "file" = "thermal_shock-Beta 07.3-forge-1.20.1.jar";
+            "hash" = "sha512-UYM/sEMOepE3Cz91sn1dWLfj9AntRFnGOIE7lrsyxSrVCbP7jhdphjTAHPCCBehnV7BVo/otFqveSgYc7cVGsg==";
+        };
+        _NHsdO3Rw = {
+            "id" = "NHsdO3Rw";
+            "file" = "thermal_shock-Beta 07.4-forge-1.20.1.jar";
+            "hash" = "sha512-JWIA+ld52s89JQp4uwtpjfESPrAIsfLW/M2MElISWP2+LbPDS1daGX4X2ALivYYRZMXLgF0tiNnnFBaCzN0YnQ==";
+        };
     in {
         "IX0U18Tr" = _IX0U18Tr;
         "scF1nwxO" = _scF1nwxO;
@@ -62,7 +87,12 @@ let
         "RDq7TJEg" = _RDq7TJEg;
         "kqpigefE" = _kqpigefE;
         "HyGL6zcr" = _HyGL6zcr;
-        "forge-1.20.1" = _HyGL6zcr;
+        "2LWUG0Jo" = _2LWUG0Jo;
+        "j4IYnW8M" = _j4IYnW8M;
+        "RYP3tz8R" = _RYP3tz8R;
+        "49tDSVPU" = _49tDSVPU;
+        "NHsdO3Rw" = _NHsdO3Rw;
+        "forge-1.20.1" = _NHsdO3Rw;
         "neoforge-1.20.1" = _pqjqeuRJ;
         "pkg-0.1" = _IX0U18Tr;
         "pkg-0.11" = _scF1nwxO;
@@ -74,7 +104,12 @@ let
         "pkg-05.1" = _RDq7TJEg;
         "pkg-06" = _kqpigefE;
         "pkg-06.1" = _HyGL6zcr;
-        "default" = _HyGL6zcr;
+        "pkg-07" = _2LWUG0Jo;
+        "pkg-07.1" = _j4IYnW8M;
+        "pkg-07.2" = _RYP3tz8R;
+        "pkg-07.3" = _49tDSVPU;
+        "pkg-07.4" = _NHsdO3Rw;
+        "default" = _NHsdO3Rw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thermal-shock";

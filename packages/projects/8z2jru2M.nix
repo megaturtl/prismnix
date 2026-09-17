@@ -121,6 +121,26 @@ let
             "file" = "bounce_styles-neoforge-3.2.3+1.21.11.jar";
             "hash" = "sha512-GFKPtGt115kb5wbBEnwZB0lauUpMyRTvQntngz6IrxlSGCqyx2YjGjbqFzUH8KOBR4znbQP1R2Graw7luRrURw==";
         };
+        _vpzwCZNk = {
+            "id" = "vpzwCZNk";
+            "file" = "bounce_styles-fabric-3.2.4+1.21.1.jar";
+            "hash" = "sha512-VHLxz2Rm3DGVqw0N/e8xl56A4t23b9XbeeeAyeGur9FcCEMIi1H7HNJVn5UsW3e5d0/kCKpmbSS9ZA16yL9GTg==";
+        };
+        _gtVgOTv8 = {
+            "id" = "gtVgOTv8";
+            "file" = "bounce_styles-neoforge-3.2.4+1.21.1.jar";
+            "hash" = "sha512-27pMkR0I1a/u9P4gj5CTXPbLrwe8UQWr9Q+drCgSHEYEIKZRhxygcUlYtIyfOBzngoyQxLWHG3ejvLk2gNE+jA==";
+        };
+        _oLUH9p6T = {
+            "id" = "oLUH9p6T";
+            "file" = "bounce_styles-fabric-3.2.4+1.21.11.jar";
+            "hash" = "sha512-pvtWZ0HNILU7pglcvd+2u2NSrC2B29Tg6ear3dmL7ToqrZOjYQ0TX/UVyu8gQSkQJ9chCsNQgtMh3khknvGitA==";
+        };
+        _ggcqVlIL = {
+            "id" = "ggcqVlIL";
+            "file" = "bounce_styles-neoforge-3.2.4+1.21.11.jar";
+            "hash" = "sha512-xXnQifNRFa6iAg1r/NO8NY7OidGlvXT7QPMUT1+d/Ql8+uOP4eT7k3JmDruwinaHTGrc8wCLhr+yZcDqpDYTVA==";
+        };
     in {
         "9r7cC8VO" = _9r7cC8VO;
         "yjCLX41Z" = _yjCLX41Z;
@@ -146,16 +166,20 @@ let
         "Q0g1XlcC" = _Q0g1XlcC;
         "2sbt3hux" = _2sbt3hux;
         "5Fe15Aj8" = _5Fe15Aj8;
+        "vpzwCZNk" = _vpzwCZNk;
+        "gtVgOTv8" = _gtVgOTv8;
+        "oLUH9p6T" = _oLUH9p6T;
+        "ggcqVlIL" = _ggcqVlIL;
         "fabric-1.20.1" = _jo7rBi3h;
-        "fabric-1.21.1" = _OfWHzfz4;
-        "fabric-1.21.11" = _2sbt3hux;
+        "fabric-1.21.1" = _vpzwCZNk;
+        "fabric-1.21.11" = _oLUH9p6T;
         "forge-1.20.1" = _Y6FiLvVi;
         "forge-1.20.2" = _IIgiXiNQ;
         "forge-1.20.3" = _IIgiXiNQ;
         "forge-1.20.4" = _IIgiXiNQ;
         "neoforge-1.20.1" = _yjCLX41Z;
-        "neoforge-1.21.1" = _nukUzikZ;
-        "neoforge-1.21.11" = _5Fe15Aj8;
+        "neoforge-1.21.1" = _gtVgOTv8;
+        "neoforge-1.21.11" = _ggcqVlIL;
         "pkg-2.5.0" = _yjCLX41Z;
         "pkg-2.5.1" = _IIgiXiNQ;
         "pkg-3.0.0" = _1mdF1yPS;
@@ -175,7 +199,11 @@ let
         "pkg-3.2.2-neoforge-1.21.11" = _Q0g1XlcC;
         "pkg-3.2.3-fabric-1.21.11" = _2sbt3hux;
         "pkg-3.2.3-neoforge-1.21.11" = _5Fe15Aj8;
-        "default" = _5Fe15Aj8;
+        "pkg-3.2.4-fabric-1.21.1" = _vpzwCZNk;
+        "pkg-3.2.4-neoforge-1.21.1" = _gtVgOTv8;
+        "pkg-3.2.4-fabric-1.21.11" = _oLUH9p6T;
+        "pkg-3.2.4-neoforge-1.21.11" = _ggcqVlIL;
+        "default" = _ggcqVlIL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bouncestyles";

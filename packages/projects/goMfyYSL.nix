@@ -61,6 +61,16 @@ let
             "file" = "tide-extra-compatibility-2.2.0.jar";
             "hash" = "sha512-hERKb4pDA5nvL/0ju1VqlSBguwzZZBTJlvTk1pfm1cOw6HM5AtNOGQ6OBTJlahuf3mxaZppMhiKoACg+ZGKNiA==";
         };
+        _Gn7oSWHA = {
+            "id" = "Gn7oSWHA";
+            "file" = "Tide Extra Compatibility 2.3.0.zip";
+            "hash" = "sha512-ctaAioaus2DQAZtkHQC9+9fZ+b9lbsEhS+ciw62qIhQAh27M6oP3xP/J+WJIVj8c/ptMEOt8ECPdzhWkHGCsKw==";
+        };
+        _mBsiIcyG = {
+            "id" = "mBsiIcyG";
+            "file" = "tide-extra-compatibility-2.3.0.jar";
+            "hash" = "sha512-uTSPcBTi/0tldBk06l73fnA026c0kae8MYnr8k3yoPxqvzW9LUsAp7D+B5glgoxN6c0XpR8lAn6Oly9i10rcoQ==";
+        };
     in {
         "8IoETwWo" = _8IoETwWo;
         "LFwAE0lk" = _LFwAE0lk;
@@ -74,29 +84,31 @@ let
         "7b7TofV4" = _7b7TofV4;
         "Uz6Vlhjs" = _Uz6Vlhjs;
         "Cy4Y9BPe" = _Cy4Y9BPe;
-        "datapack-1.20.1" = _Uz6Vlhjs;
-        "datapack-1.21" = _Uz6Vlhjs;
-        "datapack-1.21.1" = _Uz6Vlhjs;
+        "Gn7oSWHA" = _Gn7oSWHA;
+        "mBsiIcyG" = _mBsiIcyG;
+        "datapack-1.20.1" = _Gn7oSWHA;
+        "datapack-1.21" = _Gn7oSWHA;
+        "datapack-1.21.1" = _Gn7oSWHA;
         "datapack-1.21.4" = _ddqrEDV0;
         "datapack-1.21.5" = _ddqrEDV0;
-        "fabric-1.20.1" = _Cy4Y9BPe;
-        "fabric-1.21" = _Cy4Y9BPe;
-        "fabric-1.21.1" = _Cy4Y9BPe;
+        "fabric-1.20.1" = _mBsiIcyG;
+        "fabric-1.21" = _mBsiIcyG;
+        "fabric-1.21.1" = _mBsiIcyG;
         "fabric-1.21.4" = _BfmP2LOO;
         "fabric-1.21.5" = _BfmP2LOO;
-        "forge-1.20.1" = _Cy4Y9BPe;
-        "forge-1.21" = _Cy4Y9BPe;
-        "forge-1.21.1" = _Cy4Y9BPe;
+        "forge-1.20.1" = _mBsiIcyG;
+        "forge-1.21" = _mBsiIcyG;
+        "forge-1.21.1" = _mBsiIcyG;
         "forge-1.21.4" = _BfmP2LOO;
         "forge-1.21.5" = _BfmP2LOO;
-        "neoforge-1.20.1" = _Cy4Y9BPe;
-        "neoforge-1.21" = _Cy4Y9BPe;
-        "neoforge-1.21.1" = _Cy4Y9BPe;
+        "neoforge-1.20.1" = _mBsiIcyG;
+        "neoforge-1.21" = _mBsiIcyG;
+        "neoforge-1.21.1" = _mBsiIcyG;
         "neoforge-1.21.4" = _BfmP2LOO;
         "neoforge-1.21.5" = _BfmP2LOO;
-        "quilt-1.20.1" = _Cy4Y9BPe;
-        "quilt-1.21" = _Cy4Y9BPe;
-        "quilt-1.21.1" = _Cy4Y9BPe;
+        "quilt-1.20.1" = _mBsiIcyG;
+        "quilt-1.21" = _mBsiIcyG;
+        "quilt-1.21.1" = _mBsiIcyG;
         "quilt-1.21.4" = _BfmP2LOO;
         "quilt-1.21.5" = _BfmP2LOO;
         "pkg-1.0.0" = _8IoETwWo;
@@ -106,7 +118,8 @@ let
         "pkg-2.1.0" = _2qBrfEQI;
         "pkg-2.1.1" = _7b7TofV4;
         "pkg-2.2.0" = _Cy4Y9BPe;
-        "default" = _Cy4Y9BPe;
+        "pkg-2.3.0" = _mBsiIcyG;
+        "default" = _mBsiIcyG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tide-extra-compatibility";

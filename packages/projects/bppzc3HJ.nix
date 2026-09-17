@@ -26,21 +26,29 @@ let
             "file" = "maseffects-2.2.1-26.1.jar";
             "hash" = "sha512-uC5nh/7XSpt9+wztahDK9FAemiSVSfhoPWpnWWiMAFU9Bjxho3x11N+8S8ifELZYYidUYllDC0IERBSzxHrVQQ==";
         };
+        _IKL4dMVp = {
+            "id" = "IKL4dMVp";
+            "file" = "maseffects-2.4.0+26.3.jar";
+            "hash" = "sha512-YZ/IcJftxG1UFxcy5S7GvslqKFLjLXLenBChZiBZ4wjnu/8B20K+kKNxkzjZEZr+pykRbm4UPwonty2n4qUP+w==";
+        };
     in {
         "uHVpD7Sx" = _uHVpD7Sx;
         "u5BN01tt" = _u5BN01tt;
         "i9HS2Bnz" = _i9HS2Bnz;
         "XGJFy1OM" = _XGJFy1OM;
         "K26GJBhs" = _K26GJBhs;
+        "IKL4dMVp" = _IKL4dMVp;
         "fabric-26.1" = _K26GJBhs;
         "fabric-26.1.1" = _K26GJBhs;
         "fabric-26.1.2" = _K26GJBhs;
         "fabric-26.2" = _XGJFy1OM;
+        "fabric-26.3" = _IKL4dMVp;
         "pkg-2.2.1" = _K26GJBhs;
         "pkg-2.3.0" = _u5BN01tt;
         "pkg-2.3.1" = _i9HS2Bnz;
         "pkg-2.3.2" = _XGJFy1OM;
-        "default" = _K26GJBhs;
+        "pkg-2.4.0" = _IKL4dMVp;
+        "default" = _IKL4dMVp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "maseffects-v2";

@@ -81,6 +81,11 @@ let
             "file" = "omnisearch-2.1.0.jar";
             "hash" = "sha512-PQQemqViuj9eSyc0RgCPtnKaHV1UZoL/S378zkgYSNkKw4ELBTX2/HwEvZFPyMgmK99HJBaK23muO0lUzz3odg==";
         };
+        _7cyYaCmM = {
+            "id" = "7cyYaCmM";
+            "file" = "omnisearch-2.1.0-forge-1.19.2.jar";
+            "hash" = "sha512-mHjg3fXumNwRe3cJ4CD/ffFxyHTdsknKGuSPeha6UXQWf0HPAVrO+HIFwrTaBmuWVQPxkS31zjmnOhmu6hyJ9g==";
+        };
     in {
         "Pu1FMizS" = _Pu1FMizS;
         "mAogM6nI" = _mAogM6nI;
@@ -98,6 +103,7 @@ let
         "lS1xS5DT" = _lS1xS5DT;
         "uH0b1bpq" = _uH0b1bpq;
         "cs34GzIN" = _cs34GzIN;
+        "7cyYaCmM" = _7cyYaCmM;
         "neoforge-1.21.1" = _rdb7F26e;
         "neoforge-1.21.3" = _IVlpp2qf;
         "neoforge-1.21.4" = _z3BUHgaX;
@@ -110,6 +116,7 @@ let
         "neoforge-1.21.10" = _uH0b1bpq;
         "neoforge-1.21.11" = _cs34GzIN;
         "forge-1.20.1" = _kAUQVGYS;
+        "forge-1.19.2" = _7cyYaCmM;
         "pkg-2.0.0+neoforge-1.21.1" = _Pu1FMizS;
         "pkg-2.0.0+neoforge-1.21.3" = _mAogM6nI;
         "pkg-2.0.0+neoforge-1.21.5" = _mabqzqyo;
@@ -126,7 +133,8 @@ let
         "pkg-2.1.0+neoforge-1.21.9" = _lS1xS5DT;
         "pkg-2.1.0+neoforge-1.21.10" = _uH0b1bpq;
         "pkg-2.1.0+neoforge-1.21.11" = _cs34GzIN;
-        "default" = _cs34GzIN;
+        "pkg-2.1.0+forge-1.19.2" = _7cyYaCmM;
+        "default" = _7cyYaCmM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "omnisearch";

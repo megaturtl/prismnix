@@ -376,6 +376,31 @@ let
             "file" = "wings-26.2-Fabric-1.1.10.jar";
             "hash" = "sha512-aPoMuPI2GbLQaP4NuYdb/nfFt3iHOArMi3erZtunRFHnqX3CRRS2seyQsyz1Sn36Y03BHzHZ4UdVVrOFWhUfGg==";
         };
+        _j8Jbb7h0 = {
+            "id" = "j8Jbb7h0";
+            "file" = "wings-26.2-NeoForge-1.1.11.jar";
+            "hash" = "sha512-X036gS1cSRjVC6ZYPFNtH7jf5JRFnz5Bw5YRQS+dCWpHVCN91Ni7W3P32UN6hvAM1ilxGT+K+4SOz7jEa+aBPg==";
+        };
+        _OpFCn9Ez = {
+            "id" = "OpFCn9Ez";
+            "file" = "wings-26.2-Fabric-1.1.11.jar";
+            "hash" = "sha512-IGc86Qf4q6b2mG+HrvYVHE1u0CuoMIz95YsdTWXA7oZAcxI3ETIq+8mJ2Iufq4yS5ReLo3p0Gf8Vrd3Ppp6GFw==";
+        };
+        _MQtQIp3n = {
+            "id" = "MQtQIp3n";
+            "file" = "wings-26.3-rc-2-Fabric-1.1.11.jar";
+            "hash" = "sha512-AYwWaDIsCZlUc+c4cbVpH536nABkFxjqPP7JjODcW2gkRPlIogSwKxK3TLge1kv/idhE3szTATZqMeP9itwvVA==";
+        };
+        _OJf6XMjh = {
+            "id" = "OJf6XMjh";
+            "file" = "wings-26.3-NeoForge-1.1.11.jar";
+            "hash" = "sha512-/O9af/Hx7fB3kTKlJ8Z+AW4Ow3b5llvhuAH8f4a6xko7pDW1rYZXDgUUUvrtdYV8tzXdpHJf+wcUhAI77rpQNg==";
+        };
+        _zWv12QEo = {
+            "id" = "zWv12QEo";
+            "file" = "wings-26.3-Fabric-1.1.11.jar";
+            "hash" = "sha512-Q7er4Ehex41Y39BKCpxfHZ3foJ0nUJL3eM2O2h/nvJ3NzKQZZAXioEQGaBWUsuu2sNMHSk8uNPHm4SmLAahhlA==";
+        };
     in {
         "uMHDrZ6u" = _uMHDrZ6u;
         "Esw1S8W9" = _Esw1S8W9;
@@ -452,6 +477,11 @@ let
         "YrcqCrh7" = _YrcqCrh7;
         "1rKZh7aC" = _1rKZh7aC;
         "R8VetV9s" = _R8VetV9s;
+        "j8Jbb7h0" = _j8Jbb7h0;
+        "OpFCn9Ez" = _OpFCn9Ez;
+        "MQtQIp3n" = _MQtQIp3n;
+        "OJf6XMjh" = _OJf6XMjh;
+        "zWv12QEo" = _zWv12QEo;
         "neoforge-1.21.4" = _zImO74Ac;
         "neoforge-1.21.5" = _QWBwaMmJ;
         "neoforge-1.21.6" = _UD6Z9f4E;
@@ -464,7 +494,8 @@ let
         "neoforge-26.1" = _ygXpQDEx;
         "neoforge-26.1.1" = _ygXpQDEx;
         "neoforge-26.1.2" = _ygXpQDEx;
-        "neoforge-26.2" = _1rKZh7aC;
+        "neoforge-26.2" = _j8Jbb7h0;
+        "neoforge-26.3" = _OJf6XMjh;
         "forge-1.21.4" = _hFzhwTop;
         "forge-1.20" = _WzAD23kT;
         "forge-1.19.4" = _GRgtyLCb;
@@ -472,7 +503,9 @@ let
         "forge-1.20.1" = _Tr4Sneol;
         "forge-1.18.2" = _LQhftGDG;
         "fabric-26.1.2" = _rM16KJ7Y;
-        "fabric-26.2" = _R8VetV9s;
+        "fabric-26.2" = _OpFCn9Ez;
+        "fabric-26.3-rc-2" = _MQtQIp3n;
+        "fabric-26.3" = _zWv12QEo;
         "pkg-1.0.2" = _Esw1S8W9;
         "pkg-1.0.1" = _Pbi1xPlz;
         "pkg-1.0.3" = _hFzhwTop;
@@ -503,7 +536,8 @@ let
         "pkg-1.1.8" = _XxW7qhf4;
         "pkg-1.1.9" = _2siCiTpr;
         "pkg-1.1.10" = _R8VetV9s;
-        "default" = _R8VetV9s;
+        "pkg-1.1.11" = _zWv12QEo;
+        "default" = _zWv12QEo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lv-wings";

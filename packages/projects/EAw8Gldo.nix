@@ -51,6 +51,11 @@ let
             "file" = "go-fish-1.12.1+26.2.jar";
             "hash" = "sha512-9fxO/3+F7DOXoWoJ39KlYud0KfsZxv/fnJ/T9TNaEGFQJuleZUYXbBW82eluGVHprvgN7OqPobAi3T9SQEo29A==";
         };
+        _43wAgC2c = {
+            "id" = "43wAgC2c";
+            "file" = "go-fish-1.13.0+26.3-rc-1.jar";
+            "hash" = "sha512-1sO2AlgZz7MLJsZqT188LEhjd0xS0SkC+i0JXWRxI5WCgsnF8+CfQ4ooyASdUdagenQmdpb2Fd6GKdbW3vfRmw==";
+        };
     in {
         "3CDHR3wo" = _3CDHR3wo;
         "KewV0y6E" = _KewV0y6E;
@@ -62,6 +67,7 @@ let
         "nILPCnJo" = _nILPCnJo;
         "3SVvSsSi" = _3SVvSsSi;
         "ZYds88gD" = _ZYds88gD;
+        "43wAgC2c" = _43wAgC2c;
         "fabric-1.21.5" = _CEr25sSE;
         "fabric-1.21.6" = _lL891vPN;
         "fabric-1.21.7" = _lL891vPN;
@@ -74,6 +80,8 @@ let
         "fabric-26.1.1" = _nILPCnJo;
         "fabric-26.1.2" = _nILPCnJo;
         "fabric-26.2" = _ZYds88gD;
+        "fabric-26.3-rc-1" = _43wAgC2c;
+        "fabric-26.3" = _43wAgC2c;
         "pkg-1.7.0+1.21.5" = _3CDHR3wo;
         "pkg-1.7.1+1.21.5" = _KewV0y6E;
         "pkg-1.7.2+1.21.5" = _CEr25sSE;
@@ -84,7 +92,8 @@ let
         "pkg-1.11.0+26.1" = _nILPCnJo;
         "pkg-1.12.0+26.2" = _3SVvSsSi;
         "pkg-1.12.1+26.2" = _ZYds88gD;
-        "default" = _ZYds88gD;
+        "pkg-1.13.0+26.3-rc-1" = _43wAgC2c;
+        "default" = _43wAgC2c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gone-fishing";

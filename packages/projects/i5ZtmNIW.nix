@@ -381,6 +381,16 @@ let
             "file" = "bluemapsignmarkers-26.2-0.23.0.83-alpha.jar";
             "hash" = "sha512-8yeYrDvMm4ms5ElhRDbrfmcu+QuMkGDaU7oyF/r9TAfP8Y7ulUddjRXaRwtlCvtAM00NS8XOzyNBKtjsSlrTKQ==";
         };
+        _MjYebJfM = {
+            "id" = "MjYebJfM";
+            "file" = "bluemapsignmarkers-26.2-0.23.0.84-alpha.jar";
+            "hash" = "sha512-rP1JBXproMCh3o+Yp54nH50OePuDLV/a/BxRwOQ597QbCEreTG8JqyDahXYn63+/S50nTjCzFJGt93un5ww5tg==";
+        };
+        _HhNMdJdW = {
+            "id" = "HhNMdJdW";
+            "file" = "bluemapsignmarkers-26.2-1.0.0.85-alpha.jar";
+            "hash" = "sha512-um33gemuB0xEzx6BEHn8FlM5ft+h9JHPjPBbZ5q6JG/0zR+VVWvpS+fKYMQrEgR9Z+pBeviiJjk4aWAKEmNYGw==";
+        };
     in {
         "1iG2EUti" = _1iG2EUti;
         "HCISrHli" = _HCISrHli;
@@ -458,6 +468,8 @@ let
         "PDWEqkkZ" = _PDWEqkkZ;
         "tVsqCzRs" = _tVsqCzRs;
         "ybUlN9cz" = _ybUlN9cz;
+        "MjYebJfM" = _MjYebJfM;
+        "HhNMdJdW" = _HhNMdJdW;
         "fabric-1.20" = _FWCxQJGx;
         "fabric-1.20.1" = _FWCxQJGx;
         "fabric-1.21" = _xsq8wY3e;
@@ -472,7 +484,7 @@ let
         "fabric-1.21.11" = _mDAOPXnE;
         "fabric-26.1.1" = _xHtfzQ9x;
         "fabric-26.1.2" = _154BVJst;
-        "fabric-26.2" = _ybUlN9cz;
+        "fabric-26.2" = _HhNMdJdW;
         "pkg-1.20.1-0.0.2.4-alpha" = _1iG2EUti;
         "pkg-1.20.1-0.0.2.5" = _HCISrHli;
         "pkg-1.20.1-0.0.3.6" = _kcjHLYkE;
@@ -549,7 +561,9 @@ let
         "pkg-26.2-0.19.0.81-alpha" = _PDWEqkkZ;
         "pkg-26.2-0.21.0.82-alpha" = _tVsqCzRs;
         "pkg-26.2-0.23.0.83-alpha" = _ybUlN9cz;
-        "default" = _ybUlN9cz;
+        "pkg-26.2-0.23.0.84-alpha" = _MjYebJfM;
+        "pkg-26.2-1.0.0.85-alpha" = _HhNMdJdW;
+        "default" = _HhNMdJdW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bluemap-sign-markers";

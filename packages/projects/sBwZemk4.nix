@@ -46,6 +46,11 @@ let
             "file" = "acedium-0.4.1+mc1.21.1.jar";
             "hash" = "sha512-M0TmXTu5OJ2+L0LXl3WiuCipD5Kf2NVJUHoQXBcnJjF1v1PHR7pLZAwgwePzOUTEVPFqXgymge7G2ioXfNjkyQ==";
         };
+        _S4wpnnLH = {
+            "id" = "S4wpnnLH";
+            "file" = "acedium-0.4.2+mc1.21.1.jar";
+            "hash" = "sha512-p4VJltiQgM2qGzUkObXeg7nQEls6DXpgRuviBwwjWVcj7Dy/MFlhFAzqlxNepcIilhFavrjQduQVyWr1qSL4Gw==";
+        };
     in {
         "4veiKfWK" = _4veiKfWK;
         "MQwE9r1y" = _MQwE9r1y;
@@ -56,7 +61,8 @@ let
         "Q6lJ6UqI" = _Q6lJ6UqI;
         "R48GFwB0" = _R48GFwB0;
         "FtbmoAMK" = _FtbmoAMK;
-        "neoforge-1.21.1" = _FtbmoAMK;
+        "S4wpnnLH" = _S4wpnnLH;
+        "neoforge-1.21.1" = _S4wpnnLH;
         "pkg-0.3.1+mc1.21.1" = _4veiKfWK;
         "pkg-0.3.2+mc1.21.1" = _MQwE9r1y;
         "pkg-0.3.3+mc1.21.1" = _kiGe5GIW;
@@ -66,7 +72,8 @@ let
         "pkg-0.4.0+mc1.21.1" = _Q6lJ6UqI;
         "pkg-0.3.7+mc1.21.1" = _R48GFwB0;
         "pkg-0.4.1+mc1.21.1" = _FtbmoAMK;
-        "default" = _FtbmoAMK;
+        "pkg-0.4.2+mc1.21.1" = _S4wpnnLH;
+        "default" = _S4wpnnLH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "acedium-sodiumized";

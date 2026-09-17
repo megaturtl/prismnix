@@ -231,6 +231,21 @@ let
             "file" = "agritechevolved-1.1.0.4+mc-1.21.1.jar";
             "hash" = "sha512-YrmyIhK9rXvzUkmtfUn4hWprwHGLguZy6KZEeUDcesVziR/PqSVvvqql1mN/6QT4N+obVgqJs/pz0KnbHf4t0Q==";
         };
+        _Vwj9v1o9 = {
+            "id" = "Vwj9v1o9";
+            "file" = "agritechevolved-2.2.0.4+neoforge-mc26.1.2.jar";
+            "hash" = "sha512-5xVeioPG/8NOyYDpgxuiHJ9qwAcFn1kREelE4u81QpoBMGh6ehi2JDMvDcp/feHWEwIK/v7Gj1WKekcgS5eDDw==";
+        };
+        _3AVQtCAz = {
+            "id" = "3AVQtCAz";
+            "file" = "agritechevolved-3.1.0.4+neoforge-mc26.2.jar";
+            "hash" = "sha512-OBADwv6oIE/0h89RoUU/22Dqu+VZWv76DAzJ5D73DxEmwSBiJMx1oI1L0K4IBpAIEY4NZPJbhNuXQmkOLn4ObQ==";
+        };
+        _EISUJRjn = {
+            "id" = "EISUJRjn";
+            "file" = "agritechevolved-1.1.0.5+mc-1.21.1.jar";
+            "hash" = "sha512-kpV5xhnGcsE9Vr/TDJCCiRfPOB6XlYDPBmVmQjvje0UGXMkMUtAwdvY7yjCrxRrKYyND1Ux/x+6RrCLPkvcW/w==";
+        };
     in {
         "NqF8hlzX" = _NqF8hlzX;
         "j9FBJrWr" = _j9FBJrWr;
@@ -278,9 +293,12 @@ let
         "yqkZ6tED" = _yqkZ6tED;
         "630dBFex" = _630dBFex;
         "z0FROm4A" = _z0FROm4A;
-        "neoforge-1.21.1" = _z0FROm4A;
-        "neoforge-26.1.2" = _yqkZ6tED;
-        "neoforge-26.2" = _630dBFex;
+        "Vwj9v1o9" = _Vwj9v1o9;
+        "3AVQtCAz" = _3AVQtCAz;
+        "EISUJRjn" = _EISUJRjn;
+        "neoforge-1.21.1" = _EISUJRjn;
+        "neoforge-26.1.2" = _Vwj9v1o9;
+        "neoforge-26.2" = _3AVQtCAz;
         "pkg-1.0.0" = _NqF8hlzX;
         "pkg-1.0.2" = _j9FBJrWr;
         "pkg-1.0.3" = _RVturOCd;
@@ -327,7 +345,10 @@ let
         "pkg-2.2.0.3+neoforge-mc26.1.2" = _yqkZ6tED;
         "pkg-3.1.0.3+neoforge-mc26.2" = _630dBFex;
         "pkg-1.1.0.4+mc-1.21.1" = _z0FROm4A;
-        "default" = _z0FROm4A;
+        "pkg-2.2.0.4+neoforge-mc26.1.2" = _Vwj9v1o9;
+        "pkg-3.1.0.4+neoforge-mc26.2" = _3AVQtCAz;
+        "pkg-1.1.0.5+mc-1.21.1" = _EISUJRjn;
+        "default" = _EISUJRjn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "agritech-evolved";

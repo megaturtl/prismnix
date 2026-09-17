@@ -151,6 +151,16 @@ let
             "file" = "swingthroughgrass-fabric-1.20.1-1.0.1-1.20.1.jar";
             "hash" = "sha512-COjCoTJ1AAl+kym24+JA2crrry+Zg6h2yf5/EogHnXTM4g+Pqp6lAGyuYJ3Lz8tTWljUEPshqeiGZ2+Lh5H7CQ==";
         };
+        _25VSH4k3 = {
+            "id" = "25VSH4k3";
+            "file" = "swingthroughgrass-fabric-26.3-1.0.1-26.3.jar";
+            "hash" = "sha512-2Zs/Vl+3iM2er/qalOX+LQsqjfCwxvliZGRQq4Cxa82EsUhE1R/fFF/ArW7o9gAXqaoPFs95lAkTw3AfCbq21A==";
+        };
+        _jBYIthJc = {
+            "id" = "jBYIthJc";
+            "file" = "swingthroughgrass-neoforge-26.3-1.0.1-26.3.jar";
+            "hash" = "sha512-9lS5DV9S15q3QdQgQ/xJXEgelf7+VH//CyW63lPxc2iYy2hGb4JXXriDQtVlVJgLFxQOSf3LR3FKyYZinzVzgw==";
+        };
     in {
         "pVB6oiZ7" = _pVB6oiZ7;
         "LIeK07d7" = _LIeK07d7;
@@ -182,12 +192,15 @@ let
         "eUR031GN" = _eUR031GN;
         "GDPEPYQD" = _GDPEPYQD;
         "xlxEDv8N" = _xlxEDv8N;
+        "25VSH4k3" = _25VSH4k3;
+        "jBYIthJc" = _jBYIthJc;
         "neoforge-1.21.1" = _q5C0EErE;
         "neoforge-1.21.11" = _9jP0jWHq;
         "neoforge-26.1" = _uOQGUMOl;
         "neoforge-26.1.1" = _i0vkjwDu;
         "neoforge-26.1.2" = _DvxzYoay;
         "neoforge-26.2" = _MtXblUyT;
+        "neoforge-26.3" = _jBYIthJc;
         "forge-1.20.1" = _hgV6rMht;
         "forge-1.19.2" = _X3wtszK2;
         "fabric-1.20.1" = _xlxEDv8N;
@@ -197,9 +210,10 @@ let
         "fabric-26.1.1" = _GNDVCAdS;
         "fabric-26.1.2" = _J3XUCh65;
         "fabric-26.2" = _ywY47ZI0;
+        "fabric-26.3" = _25VSH4k3;
         "pkg-1.0.0" = _N1GEibiN;
-        "pkg-1.0.1" = _xlxEDv8N;
-        "default" = _xlxEDv8N;
+        "pkg-1.0.1" = _jBYIthJc;
+        "default" = _jBYIthJc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "swing-through-grass";

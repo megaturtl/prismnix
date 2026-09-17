@@ -16,21 +16,29 @@ let
             "file" = "Faithful 64x - Clear Glass 2.1.zip";
             "hash" = "sha512-zw268ojqiAeg7xWpu2Bg/QRDrgb85KzbSGzmyMjx0qfjH7KPx7d431NyUtwkMSf8UyuRK627o5kJogK/2k/aAw==";
         };
+        _o9MBFFQ8 = {
+            "id" = "o9MBFFQ8";
+            "file" = "Faithful 64x - Clear Glass 2.2.zip";
+            "hash" = "sha512-oLZGxAr8mvx/Bd1UFN/lHhL4xz4hIbImqHHbyTnM7OATw0FcWCzEQYW9cUiO1qOy09+J6q7O+c7TavytO/7hhQ==";
+        };
     in {
         "WFbNBgGk" = _WFbNBgGk;
         "RerXHEBf" = _RerXHEBf;
         "QnQkDuO2" = _QnQkDuO2;
-        "minecraft-26.1" = _QnQkDuO2;
-        "minecraft-26.1.1" = _QnQkDuO2;
-        "minecraft-26.1.2" = _QnQkDuO2;
-        "minecraft-1.21.9" = _QnQkDuO2;
-        "minecraft-1.21.10" = _QnQkDuO2;
-        "minecraft-1.21.11" = _QnQkDuO2;
-        "minecraft-26.2" = _QnQkDuO2;
+        "o9MBFFQ8" = _o9MBFFQ8;
+        "minecraft-26.1" = _o9MBFFQ8;
+        "minecraft-26.1.1" = _o9MBFFQ8;
+        "minecraft-26.1.2" = _o9MBFFQ8;
+        "minecraft-1.21.9" = _o9MBFFQ8;
+        "minecraft-1.21.10" = _o9MBFFQ8;
+        "minecraft-1.21.11" = _o9MBFFQ8;
+        "minecraft-26.2" = _o9MBFFQ8;
+        "minecraft-26.3" = _o9MBFFQ8;
         "pkg-1.0" = _WFbNBgGk;
         "pkg-2.0" = _RerXHEBf;
         "pkg-2.1" = _QnQkDuO2;
-        "default" = _QnQkDuO2;
+        "pkg-2.2" = _o9MBFFQ8;
+        "default" = _o9MBFFQ8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "faithful-64x-clear-glass";

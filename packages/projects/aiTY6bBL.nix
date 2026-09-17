@@ -71,6 +71,11 @@ let
             "file" = "Vouchers-1.1.3.jar";
             "hash" = "sha512-x3IZ7ZzZJlNv7gCwXFpa31dgec9mUc7RA48dnMrrLN0oy+IfeN3q78gLOCuHjxM4Dm4onm+EJbPNGARYQPWfMg==";
         };
+        _28YzayzX = {
+            "id" = "28YzayzX";
+            "file" = "Vouchers-1.1.4.jar";
+            "hash" = "sha512-x3IZ7ZzZJlNv7gCwXFpa31dgec9mUc7RA48dnMrrLN0oy+IfeN3q78gLOCuHjxM4Dm4onm+EJbPNGARYQPWfMg==";
+        };
     in {
         "ZpnuMn3U" = _ZpnuMn3U;
         "KzlU2wRH" = _KzlU2wRH;
@@ -86,11 +91,12 @@ let
         "1He5haZ0" = _1He5haZ0;
         "QGxscciV" = _QGxscciV;
         "qDTUgdQj" = _qDTUgdQj;
-        "bukkit-1.14" = _qDTUgdQj;
-        "bukkit-1.14.1" = _qDTUgdQj;
-        "bukkit-1.14.2" = _qDTUgdQj;
-        "bukkit-1.14.3" = _qDTUgdQj;
-        "bukkit-1.14.4" = _qDTUgdQj;
+        "28YzayzX" = _28YzayzX;
+        "bukkit-1.14" = _28YzayzX;
+        "bukkit-1.14.1" = _28YzayzX;
+        "bukkit-1.14.2" = _28YzayzX;
+        "bukkit-1.14.3" = _28YzayzX;
+        "bukkit-1.14.4" = _28YzayzX;
         "bukkit-1.15" = _qDTUgdQj;
         "bukkit-1.15.1" = _qDTUgdQj;
         "bukkit-1.15.2" = _qDTUgdQj;
@@ -123,11 +129,11 @@ let
         "bukkit-1.21.2" = _qDTUgdQj;
         "bukkit-1.21.3" = _qDTUgdQj;
         "bukkit-1.21.4" = _qDTUgdQj;
-        "paper-1.14" = _qDTUgdQj;
-        "paper-1.14.1" = _qDTUgdQj;
-        "paper-1.14.2" = _qDTUgdQj;
-        "paper-1.14.3" = _qDTUgdQj;
-        "paper-1.14.4" = _qDTUgdQj;
+        "paper-1.14" = _28YzayzX;
+        "paper-1.14.1" = _28YzayzX;
+        "paper-1.14.2" = _28YzayzX;
+        "paper-1.14.3" = _28YzayzX;
+        "paper-1.14.4" = _28YzayzX;
         "paper-1.15" = _qDTUgdQj;
         "paper-1.15.1" = _qDTUgdQj;
         "paper-1.15.2" = _qDTUgdQj;
@@ -160,11 +166,11 @@ let
         "paper-1.21.2" = _qDTUgdQj;
         "paper-1.21.3" = _qDTUgdQj;
         "paper-1.21.4" = _qDTUgdQj;
-        "purpur-1.14" = _qDTUgdQj;
-        "purpur-1.14.1" = _qDTUgdQj;
-        "purpur-1.14.2" = _qDTUgdQj;
-        "purpur-1.14.3" = _qDTUgdQj;
-        "purpur-1.14.4" = _qDTUgdQj;
+        "purpur-1.14" = _28YzayzX;
+        "purpur-1.14.1" = _28YzayzX;
+        "purpur-1.14.2" = _28YzayzX;
+        "purpur-1.14.3" = _28YzayzX;
+        "purpur-1.14.4" = _28YzayzX;
         "purpur-1.15" = _qDTUgdQj;
         "purpur-1.15.1" = _qDTUgdQj;
         "purpur-1.15.2" = _qDTUgdQj;
@@ -197,11 +203,11 @@ let
         "purpur-1.21.2" = _qDTUgdQj;
         "purpur-1.21.3" = _qDTUgdQj;
         "purpur-1.21.4" = _qDTUgdQj;
-        "spigot-1.14" = _qDTUgdQj;
-        "spigot-1.14.1" = _qDTUgdQj;
-        "spigot-1.14.2" = _qDTUgdQj;
-        "spigot-1.14.3" = _qDTUgdQj;
-        "spigot-1.14.4" = _qDTUgdQj;
+        "spigot-1.14" = _28YzayzX;
+        "spigot-1.14.1" = _28YzayzX;
+        "spigot-1.14.2" = _28YzayzX;
+        "spigot-1.14.3" = _28YzayzX;
+        "spigot-1.14.4" = _28YzayzX;
         "spigot-1.15" = _qDTUgdQj;
         "spigot-1.15.1" = _qDTUgdQj;
         "spigot-1.15.2" = _qDTUgdQj;
@@ -234,6 +240,11 @@ let
         "spigot-1.21.2" = _qDTUgdQj;
         "spigot-1.21.3" = _qDTUgdQj;
         "spigot-1.21.4" = _qDTUgdQj;
+        "folia-1.14" = _28YzayzX;
+        "folia-1.14.1" = _28YzayzX;
+        "folia-1.14.2" = _28YzayzX;
+        "folia-1.14.3" = _28YzayzX;
+        "folia-1.14.4" = _28YzayzX;
         "pkg-1.0.0" = _ZpnuMn3U;
         "pkg-1.0.1" = _KzlU2wRH;
         "pkg-1.0.2" = _VqZbhRgp;
@@ -248,7 +259,8 @@ let
         "pkg-1.1.1" = _1He5haZ0;
         "pkg-1.1.2" = _QGxscciV;
         "pkg-1.1.3" = _qDTUgdQj;
-        "default" = _qDTUgdQj;
+        "pkg-1.1.4" = _28YzayzX;
+        "default" = _28YzayzX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vouchers";

@@ -66,6 +66,11 @@ let
             "file" = "GuidePackLitematica_26.2.zip";
             "hash" = "sha512-mea7J9ZGzc7s1n/UNN4Is26PVqZVz0YyNs9KUMaTpe0c4uRUZDvhIcQ5scYOdviSVO60fZIpNnI5lLHH4iVG9w==";
         };
+        _z80TcLtX = {
+            "id" = "z80TcLtX";
+            "file" = "GuidePackLitematica_26.3.zip";
+            "hash" = "sha512-7F8NqS/Zrf0gmwh5xdfBbJXGpqdOyOI3VTVw5BYljVgeFYLoRc2jE9N9HXAEUOp8BPmMJIH5Wp0wFpNFYrWVsg==";
+        };
     in {
         "bGUjTlqL" = _bGUjTlqL;
         "5AQkziQL" = _5AQkziQL;
@@ -80,6 +85,7 @@ let
         "pYMJxX0U" = _pYMJxX0U;
         "hc22wVnB" = _hc22wVnB;
         "88qXEoTE" = _88qXEoTE;
+        "z80TcLtX" = _z80TcLtX;
         "minecraft-1.20.2" = _BtcRBFHb;
         "minecraft-1.20" = _BtcRBFHb;
         "minecraft-1.20.1" = _BtcRBFHb;
@@ -108,6 +114,7 @@ let
         "minecraft-26.1.1" = _hc22wVnB;
         "minecraft-26.1.2" = _hc22wVnB;
         "minecraft-26.2" = _88qXEoTE;
+        "minecraft-26.3" = _z80TcLtX;
         "pkg-1" = _Mj6lRTbf;
         "pkg-1.5" = _mHGzznGT;
         "pkg-1.5.1" = _R1Wko4PS;
@@ -119,7 +126,8 @@ let
         "pkg-1.7.3" = _pYMJxX0U;
         "pkg-26.1" = _hc22wVnB;
         "pkg-26.2" = _88qXEoTE;
-        "default" = _88qXEoTE;
+        "pkg-26.3" = _z80TcLtX;
+        "default" = _z80TcLtX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "guidepacklitematica";

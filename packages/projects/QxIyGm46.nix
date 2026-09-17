@@ -26,12 +26,18 @@ let
             "file" = "map-coordinates-1.0.0.jar";
             "hash" = "sha512-XzABqtKaTfbyNN68yT/P0AaL3QnJ1hZsbZXZzTLnooA8zmQ956W3PdNP9IHzLLvFFbeoZ5wgVKzprKHw90O6Fw==";
         };
+        _8ijYORXr = {
+            "id" = "8ijYORXr";
+            "file" = "map-coordinates-1.0.0.jar";
+            "hash" = "sha512-ROODWYbSG0mGJJgxyl+nIx+04rv+njacA+1mYK6HKMi6pKmrDkCYB54ER9ijbSymWZb812tIJRQE6LApbtqqKg==";
+        };
     in {
         "yQTTdVOJ" = _yQTTdVOJ;
         "f4fsXUoG" = _f4fsXUoG;
         "4LS0OcB9" = _4LS0OcB9;
         "7z2npB8H" = _7z2npB8H;
         "cjsIa3eA" = _cjsIa3eA;
+        "8ijYORXr" = _8ijYORXr;
         "fabric-1.21.5" = _cjsIa3eA;
         "fabric-1.21.6" = _cjsIa3eA;
         "fabric-1.21.7" = _cjsIa3eA;
@@ -39,8 +45,9 @@ let
         "fabric-1.21.9" = _cjsIa3eA;
         "fabric-1.21.10" = _cjsIa3eA;
         "fabric-1.21.11" = _cjsIa3eA;
-        "pkg-1.0.0" = _cjsIa3eA;
-        "default" = _cjsIa3eA;
+        "fabric-26.2" = _8ijYORXr;
+        "pkg-1.0.0" = _8ijYORXr;
+        "default" = _8ijYORXr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "treasure-map-coordinates";

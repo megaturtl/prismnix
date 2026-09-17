@@ -36,6 +36,11 @@ let
             "file" = "verityjeextra-1.0.0-beta.5.fix-2.jar";
             "hash" = "sha512-Iv2+Gy8U2ynkTnMoYUknp8e5cfRGVtQK7mAYfZeWqd0AjXMcQ0SAuU6FImgi9CwInLhoUbJ3R4zrp0VsZsbvbA==";
         };
+        _Bo1axKBW = {
+            "id" = "Bo1axKBW";
+            "file" = "verityjeextra-1.0.0-beta.5.fix-3.jar";
+            "hash" = "sha512-+FVpVhD+4rNYYSOmM1z++HZRELBU1iVRt1ZIEmscu5EkofHrZPpGZSWzdp4XeEszaBIMb1FXBuAZkTEGAkyv1w==";
+        };
     in {
         "ga4E7VMX" = _ga4E7VMX;
         "o9lYxLY5" = _o9lYxLY5;
@@ -44,7 +49,8 @@ let
         "wLmox6Mn" = _wLmox6Mn;
         "BVhaCoM5" = _BVhaCoM5;
         "PfwnUMo2" = _PfwnUMo2;
-        "forge-1.20.1" = _PfwnUMo2;
+        "Bo1axKBW" = _Bo1axKBW;
+        "forge-1.20.1" = _Bo1axKBW;
         "pkg-1.0.0-beta" = _ga4E7VMX;
         "pkg-1.0.0-beta.2" = _o9lYxLY5;
         "pkg-1.0.0-beta.3" = _NzFAtzIJ;
@@ -52,7 +58,8 @@ let
         "pkg-1.0.0-beta.5" = _wLmox6Mn;
         "pkg-1.0.0-beta.5.fix" = _BVhaCoM5;
         "pkg-1.0.0-beta.5.fix-2" = _PfwnUMo2;
-        "default" = _PfwnUMo2;
+        "pkg-1.0.0-beta.5.fix-3" = _Bo1axKBW;
+        "default" = _Bo1axKBW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "verity-je-extra";

@@ -261,6 +261,11 @@ let
             "file" = "norecipebook-4.2+26.2.jar";
             "hash" = "sha512-/01+zHJlhCUK+T5jVP7rEOifKHbAByd0PvBLm7R8DXodUrq+A901QmnAdsgcqewhv/CnUJTR1ycOWqsfjneAdQ==";
         };
+        _dggkD7q4 = {
+            "id" = "dggkD7q4";
+            "file" = "norecipebook-4.3+26.3.jar";
+            "hash" = "sha512-f1SpCirbZqAzd9EdiqE9kWv9YK2baJpv7Xcq8ZjL0dp6SwTZX2rNI8AW9Mq3wPW7NG9l+zARpOqwHjIAJ9Z6MA==";
+        };
     in {
         "Ub5TTpU5" = _Ub5TTpU5;
         "3LEf870w" = _3LEf870w;
@@ -314,6 +319,7 @@ let
         "R9tYubeL" = _R9tYubeL;
         "f9RlUiUK" = _f9RlUiUK;
         "edM548h3" = _edM548h3;
+        "dggkD7q4" = _dggkD7q4;
         "fabric-1.16.4" = _TBrCiF4F;
         "fabric-1.16.5" = _TBrCiF4F;
         "fabric-1.12.2" = _CgZPhP0j;
@@ -363,6 +369,7 @@ let
         "fabric-26.1.1" = _f9RlUiUK;
         "fabric-26.1.2" = _f9RlUiUK;
         "fabric-26.2" = _edM548h3;
+        "fabric-26.3" = _dggkD7q4;
         "legacy-fabric-1.13.2" = _W3Mh2y22;
         "legacy-fabric-1.12.2" = _CgZPhP0j;
         "quilt-1.14" = _CZqmXfPX;
@@ -412,6 +419,7 @@ let
         "quilt-26.1.1" = _f9RlUiUK;
         "quilt-26.1.2" = _f9RlUiUK;
         "quilt-26.2" = _edM548h3;
+        "quilt-26.3" = _dggkD7q4;
         "pkg-1.0+1.16" = _Ub5TTpU5;
         "pkg-2.0+1.12" = _3LEf870w;
         "pkg-2.0+1.14" = _H5To6bG4;
@@ -464,7 +472,8 @@ let
         "pkg-4.0+26.1" = _R9tYubeL;
         "pkg-4.1+26.1.1" = _f9RlUiUK;
         "pkg-4.2+26.2" = _edM548h3;
-        "default" = _edM548h3;
+        "pkg-4.3+26.3" = _dggkD7q4;
+        "default" = _dggkD7q4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "norecipebook";

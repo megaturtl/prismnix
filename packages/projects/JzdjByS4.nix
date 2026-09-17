@@ -136,6 +136,16 @@ let
             "file" = "potioncounter-neoforge-1.12.0+mc26.2.jar";
             "hash" = "sha512-DHwGPYuUjnWj34ObhoeBwdQis4VAGqBVXT/JYgjLFV/bFrMmT64XXllpD4BBhP5dCQY1ee9oxhGfOx3mkYHgUw==";
         };
+        _B5uLF3Km = {
+            "id" = "B5uLF3Km";
+            "file" = "potioncounter-fabric-1.12.1+mc26.3.jar";
+            "hash" = "sha512-GiOeOvQKMi4LmJApqe/8zUzA50sO4pJMozwlbRDgEgthexJXeDjgVlx7xypw2TCg+kT9NrSyf7hOPTNPXJdjVg==";
+        };
+        _WvepY4QV = {
+            "id" = "WvepY4QV";
+            "file" = "potioncounter-neoforge-1.12.1+mc26.3.jar";
+            "hash" = "sha512-QWWlQlQEGa67J6h9bd5XvZA5KpNDERAZ5FLk21RPpS9GyKhO6NysdmLHj5PqK6XrUNNPBuREhB2msXFXBUC0LA==";
+        };
     in {
         "dFaECHCe" = _dFaECHCe;
         "1XJuD8qU" = _1XJuD8qU;
@@ -164,6 +174,8 @@ let
         "T7qEQ6ov" = _T7qEQ6ov;
         "cnijxowp" = _cnijxowp;
         "FzssjJ01" = _FzssjJ01;
+        "B5uLF3Km" = _B5uLF3Km;
+        "WvepY4QV" = _WvepY4QV;
         "fabric-1.19" = _2Ivk5kOl;
         "fabric-1.18" = _Mg7mHdkq;
         "fabric-1.18.1" = _Mg7mHdkq;
@@ -197,6 +209,7 @@ let
         "fabric-26.1.1" = _hQBrPzQ6;
         "fabric-26.1.2" = _hQBrPzQ6;
         "fabric-26.2" = _cnijxowp;
+        "fabric-26.3" = _B5uLF3Km;
         "quilt-1.19" = _2Ivk5kOl;
         "quilt-1.18" = _Mg7mHdkq;
         "quilt-1.18.1" = _Mg7mHdkq;
@@ -230,10 +243,12 @@ let
         "quilt-26.1.1" = _hQBrPzQ6;
         "quilt-26.1.2" = _hQBrPzQ6;
         "quilt-26.2" = _cnijxowp;
+        "quilt-26.3" = _B5uLF3Km;
         "neoforge-26.1" = _T7qEQ6ov;
         "neoforge-26.1.1" = _T7qEQ6ov;
         "neoforge-26.1.2" = _T7qEQ6ov;
         "neoforge-26.2" = _FzssjJ01;
+        "neoforge-26.3" = _WvepY4QV;
         "pkg-1.0.0-alpha.1+1.19" = _dFaECHCe;
         "pkg-1.0.0-alpha.1+1.18" = _1XJuD8qU;
         "pkg-1.0.0+1.17" = _wLuIrHD4;
@@ -261,7 +276,9 @@ let
         "pkg-1.11.0+mc26.1-neoforge" = _T7qEQ6ov;
         "pkg-1.12.0+mc26.2-fabric" = _cnijxowp;
         "pkg-1.12.0+mc26.2-neoforge" = _FzssjJ01;
-        "default" = _FzssjJ01;
+        "pkg-1.12.1+mc26.3-fabric" = _B5uLF3Km;
+        "pkg-1.12.1+mc26.3-neoforge" = _WvepY4QV;
+        "default" = _WvepY4QV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "potioncounter";

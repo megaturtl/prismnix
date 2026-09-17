@@ -31,6 +31,11 @@ let
             "file" = "strong-leads-1.0.0+26.2.jar";
             "hash" = "sha512-tHXiMF4IEAZq4YFwAk7f+x1lFtDanBPvHUIukjMSVxGVCffOBJFQrMr6oGb0hhmZ3VIh25gsDr+BqcsaNqQupQ==";
         };
+        _E0wzAReO = {
+            "id" = "E0wzAReO";
+            "file" = "strong-leads-1.0.0+26.3.jar";
+            "hash" = "sha512-3X+tNgLFpH2nKXjScZZtw+iOjW96d6tBf4/Y4EpoRDU5/fdVMNyQ6Qjybi/0FK/7+BOeyLXeEsxVIFpA3H0t+Q==";
+        };
     in {
         "qkgRi0Tu" = _qkgRi0Tu;
         "bI36kUgu" = _bI36kUgu;
@@ -38,6 +43,7 @@ let
         "b9o0OeSo" = _b9o0OeSo;
         "lnhltygk" = _lnhltygk;
         "XPI07eQT" = _XPI07eQT;
+        "E0wzAReO" = _E0wzAReO;
         "fabric-1.20.4" = _qkgRi0Tu;
         "fabric-1.21" = _bI36kUgu;
         "fabric-1.21.4" = _W5Ev9h0r;
@@ -48,13 +54,15 @@ let
         "fabric-26.1.1" = _lnhltygk;
         "fabric-26.1.2" = _lnhltygk;
         "fabric-26.2" = _XPI07eQT;
+        "fabric-26.3" = _E0wzAReO;
         "pkg-1.0.0+1.20.4" = _qkgRi0Tu;
         "pkg-1.0.0+1.21" = _bI36kUgu;
         "pkg-1.0.0+1.21.4" = _W5Ev9h0r;
         "pkg-1.1.0+1.21.6-1.21.8" = _b9o0OeSo;
         "pkg-1.0.0+26.1" = _lnhltygk;
         "pkg-1.0.0+26.2" = _XPI07eQT;
-        "default" = _XPI07eQT;
+        "pkg-1.0.0+26.3" = _E0wzAReO;
+        "default" = _E0wzAReO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "strong-leads";

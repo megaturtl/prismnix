@@ -26,19 +26,40 @@ let
             "file" = "craftbound_oneblock-1.1.0.jar";
             "hash" = "sha512-6+6wQVsHfzJQmQ502df6r93ClMzgLYkQ9DjT3esyRq5zt5OpHdRfYrIHZh+hS1zDmMOnPw2wGuUEYiFox1FZ0w==";
         };
+        _ELitcBc3 = {
+            "id" = "ELitcBc3";
+            "file" = "craftbound_oneblock-1.1.1.jar";
+            "hash" = "sha512-0+c5eEUMwnEIYpnkZ7aNOubVrrB97aP8k9rnKigs1cvvmgBN+zrRmzfLDtFNXYZdW0xWtQFWYetiRHHVzQ2J9A==";
+        };
+        _ZtEg8jyv = {
+            "id" = "ZtEg8jyv";
+            "file" = "craftbound_oneblock-1.1.1.jar";
+            "hash" = "sha512-bVijlyamVTE/VviKmU7RuN/W0mcQtR9QFti6U9voZsA75LggbxO9BwEoa2yCRsfNWOihxubIuIbgRcjetWLa2A==";
+        };
+        _87Zf13uT = {
+            "id" = "87Zf13uT";
+            "file" = "craftbound_oneblock-1.1.1.jar";
+            "hash" = "sha512-6sYS7Jty3lEEX7PwMMN6R7Ey378UGZ2LNdv0JFXWBJhiXMhCyemKRColPuJbYs2L4sBTg/bj7cwNkBiz178JFw==";
+        };
     in {
         "3N8W0QMc" = _3N8W0QMc;
         "hq7rr4mF" = _hq7rr4mF;
         "irU7EP0L" = _irU7EP0L;
         "NNfHDXaW" = _NNfHDXaW;
         "SxDCil6G" = _SxDCil6G;
-        "neoforge-1.21.1" = _SxDCil6G;
+        "ELitcBc3" = _ELitcBc3;
+        "ZtEg8jyv" = _ZtEg8jyv;
+        "87Zf13uT" = _87Zf13uT;
+        "neoforge-1.21.1" = _87Zf13uT;
+        "forge-1.19.2" = _ELitcBc3;
+        "forge-1.20.1" = _ZtEg8jyv;
         "pkg-0.1.0-beta.1" = _3N8W0QMc;
         "pkg-0.1.0-beta.2" = _hq7rr4mF;
         "pkg-0.1.0-beta.3" = _irU7EP0L;
         "pkg-1.0.0" = _NNfHDXaW;
         "pkg-1.1.0" = _SxDCil6G;
-        "default" = _SxDCil6G;
+        "pkg-1.1.1" = _87Zf13uT;
+        "default" = _87Zf13uT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craftbound-oneblock";

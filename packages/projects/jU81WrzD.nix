@@ -96,6 +96,26 @@ let
             "file" = "unfinite-freecam-2.0.4.jar";
             "hash" = "sha512-jvrDW1YJN+I61yd6VVUtAN3gtdLpzjahR3er1rnrpriX+l0mhqCbQ+M2SPhPcF/FIgiBWwPX1GfRdnNP7IRkeQ==";
         };
+        _hR6I1P10 = {
+            "id" = "hR6I1P10";
+            "file" = "unfinite-freecam.zip";
+            "hash" = "sha512-ak4vNjt7qDiaw8RV4PRRFYfHWn+IbRAQD85ualW4mTWGgwrk1ivih1SiKA5TC30XVRes71aa4efI0YfvyzGVbA==";
+        };
+        _QoQHoNQh = {
+            "id" = "QoQHoNQh";
+            "file" = "unfinite-freecam-2.0.5.jar";
+            "hash" = "sha512-VMO4fYlKTpCd38dxWJmgTGlQdyX380s0kR54hxidv7f2zVWFqgoQxLyeGaZ3B+sWpy1d0hCO9X9MPDnDenG6jA==";
+        };
+        _wNryUQiH = {
+            "id" = "wNryUQiH";
+            "file" = "unfinite-freecam.zip";
+            "hash" = "sha512-zAjE6W2vZ0nIqOi+qEWpnq10Zae1OcEiCu0IrBOLanSQvrZqEm7zMt1IKaYQB/kCMdqt0lKzzMALqwZNvL9Pig==";
+        };
+        _NCBQkpDU = {
+            "id" = "NCBQkpDU";
+            "file" = "unfinite-freecam-2.0.5.jar";
+            "hash" = "sha512-rq1zmVdHvfTTT4hvX8pkSaHo0p19siKlw2Htl1MfIAI/ibGlIs+XFYEIjjSZo8l8mRHQ4n95bxphBj+1Rxt/WA==";
+        };
     in {
         "QpMbWk37" = _QpMbWk37;
         "1RwY4Mg4" = _1RwY4Mg4;
@@ -116,6 +136,10 @@ let
         "Le2VlyWa" = _Le2VlyWa;
         "qdwIEtD8" = _qdwIEtD8;
         "hnVX4a0E" = _hnVX4a0E;
+        "hR6I1P10" = _hR6I1P10;
+        "QoQHoNQh" = _QoQHoNQh;
+        "wNryUQiH" = _wNryUQiH;
+        "NCBQkpDU" = _NCBQkpDU;
         "datapack-1.21.5" = _zVwplTGH;
         "datapack-1.21.4" = _o6eQZ0v3;
         "datapack-1.21.6" = _2gfuxT5N;
@@ -128,33 +152,38 @@ let
         "datapack-26.1" = _yIypBq4j;
         "datapack-26.1.1" = _yIypBq4j;
         "datapack-26.1.2" = _yIypBq4j;
-        "datapack-26.2" = _qdwIEtD8;
+        "datapack-26.2" = _hR6I1P10;
+        "datapack-26.3" = _wNryUQiH;
         "fabric-1.21.9" = _5sij23fV;
         "fabric-1.21.10" = _5sij23fV;
         "fabric-1.21.11" = _Le2VlyWa;
         "fabric-26.1" = _Le2VlyWa;
         "fabric-26.1.1" = _Le2VlyWa;
         "fabric-26.1.2" = _Le2VlyWa;
-        "fabric-26.2" = _hnVX4a0E;
+        "fabric-26.2" = _QoQHoNQh;
+        "fabric-26.3" = _NCBQkpDU;
         "neoforge-1.21.9" = _5sij23fV;
         "neoforge-1.21.10" = _5sij23fV;
         "neoforge-1.21.11" = _Le2VlyWa;
         "neoforge-26.1" = _Le2VlyWa;
         "neoforge-26.1.1" = _Le2VlyWa;
         "neoforge-26.1.2" = _Le2VlyWa;
-        "neoforge-26.2" = _hnVX4a0E;
+        "neoforge-26.2" = _QoQHoNQh;
+        "neoforge-26.3" = _NCBQkpDU;
         "quilt-1.21.9" = _5sij23fV;
         "quilt-1.21.10" = _5sij23fV;
         "quilt-1.21.11" = _Le2VlyWa;
         "quilt-26.1" = _Le2VlyWa;
         "quilt-26.1.1" = _Le2VlyWa;
         "quilt-26.1.2" = _Le2VlyWa;
-        "quilt-26.2" = _hnVX4a0E;
+        "quilt-26.2" = _QoQHoNQh;
+        "quilt-26.3" = _NCBQkpDU;
         "forge-1.21.11" = _Le2VlyWa;
         "forge-26.1" = _Le2VlyWa;
         "forge-26.1.1" = _Le2VlyWa;
         "forge-26.1.2" = _Le2VlyWa;
-        "forge-26.2" = _hnVX4a0E;
+        "forge-26.2" = _QoQHoNQh;
+        "forge-26.3" = _NCBQkpDU;
         "pkg-1.0.0" = _QpMbWk37;
         "pkg-1.0.1" = _1RwY4Mg4;
         "pkg-1.0.2" = _zVwplTGH;
@@ -168,7 +197,9 @@ let
         "pkg-2.0.3+mod" = _ToAID38m;
         "pkg-2.0.4" = _qdwIEtD8;
         "pkg-2.0.4+mod" = _hnVX4a0E;
-        "default" = _hnVX4a0E;
+        "pkg-2.0.5" = _wNryUQiH;
+        "pkg-2.0.5+mod" = _NCBQkpDU;
+        "default" = _NCBQkpDU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unfinite-freecam";

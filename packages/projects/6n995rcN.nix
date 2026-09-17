@@ -11,14 +11,21 @@ let
             "file" = "jei_enhancements-1.20.1-1.0.0.jar";
             "hash" = "sha512-rbbw6VV1FcIyQDoSEV/8rEN8st9Mv1tcYZvS+lGVNEiud5GsMTIiAx2/wA9EJZYXYZPAX++Lq6NTq/lp6x8VEA==";
         };
+        _G97OiDKl = {
+            "id" = "G97OiDKl";
+            "file" = "jei_enhancements-1.1.0.jar";
+            "hash" = "sha512-7XQoryheN65l2ZB9NhW9QmQrQTPZ5J7/kxQ1DQjNT846F795Xal7pDcnj2jKfxHcR0wS1BNDkGS8aWbnOUqIew==";
+        };
     in {
         "TL9MtLP5" = _TL9MtLP5;
         "bDWK03vZ" = _bDWK03vZ;
-        "neoforge-1.21.1" = _TL9MtLP5;
+        "G97OiDKl" = _G97OiDKl;
+        "neoforge-1.21.1" = _G97OiDKl;
         "forge-1.20.1" = _bDWK03vZ;
         "pkg-1.0.0" = _TL9MtLP5;
         "pkg-1.20.1-1.0.0" = _bDWK03vZ;
-        "default" = _bDWK03vZ;
+        "pkg-1.1.0" = _G97OiDKl;
+        "default" = _G97OiDKl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jei-enhancements";

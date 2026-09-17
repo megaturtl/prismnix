@@ -81,6 +81,16 @@ let
             "file" = "Mace Enchant Indicator [2.0.2-PREV1].zip";
             "hash" = "sha512-/pGIvqAzzAVdkYV5quI9t0b9CKLAQSnPdHS0WWAjE2aMpiIfuz5SUi2eyd35Fra6KhAnsv/FUuic5SkcLzP0GA==";
         };
+        _qB0iCsCE = {
+            "id" = "qB0iCsCE";
+            "file" = "Mace Enchant Indicator [2.0.2-PREV2].zip";
+            "hash" = "sha512-dAMrKu/gBaaLniw1NTCyC1KZib985oLWPOqMicpCUfmyDxbGDADH5KAyrPkaTTuET6T6Kexr+MnrVLCRmw55Zw==";
+        };
+        _UVLiF3Og = {
+            "id" = "UVLiF3Og";
+            "file" = "Mace Enchant Indicator [2.0.2].zip";
+            "hash" = "sha512-GGTKeLjRfeDcgndgBGQI7U3H5hG9byMMUBDWZf1EadmITlZXSKjj5Xt4B12HI92CfKJLQWVl9v3z4DW2+/Zi+g==";
+        };
     in {
         "LQ1rwd69" = _LQ1rwd69;
         "2a28Fl8J" = _2a28Fl8J;
@@ -98,6 +108,8 @@ let
         "EtNnQz80" = _EtNnQz80;
         "8E8NG4DW" = _8E8NG4DW;
         "QLTgapMp" = _QLTgapMp;
+        "qB0iCsCE" = _qB0iCsCE;
+        "UVLiF3Og" = _UVLiF3Og;
         "minecraft-24w33a" = _vQRBdEHF;
         "minecraft-24w34a" = _vQRBdEHF;
         "minecraft-24w35a" = _vQRBdEHF;
@@ -170,6 +182,10 @@ let
         "minecraft-26.3-snapshot-10" = _8E8NG4DW;
         "minecraft-26.3-pre-1" = _QLTgapMp;
         "minecraft-26.3-pre-2" = _QLTgapMp;
+        "minecraft-26.3-rc-1" = _qB0iCsCE;
+        "minecraft-26.3-rc-2" = _qB0iCsCE;
+        "minecraft-26.3-rc-3" = _qB0iCsCE;
+        "minecraft-26.3" = _UVLiF3Og;
         "pkg-1.0.0" = _LQ1rwd69;
         "pkg-1.0.1" = _2a28Fl8J;
         "pkg-1.0.2-DEV1" = _OZHnR09x;
@@ -186,7 +202,9 @@ let
         "pkg-2.0.1-M3" = _EtNnQz80;
         "pkg-2.0.2-DEV2" = _8E8NG4DW;
         "pkg-2.0.2-PREV1" = _QLTgapMp;
-        "default" = _QLTgapMp;
+        "pkg-2.0.2-PREV2" = _qB0iCsCE;
+        "pkg-2.0.2" = _UVLiF3Og;
+        "default" = _UVLiF3Og;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mace-enchant-indicator";

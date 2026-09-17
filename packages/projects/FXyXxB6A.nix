@@ -91,6 +91,11 @@ let
             "file" = "better-whitelist-26.2.0.jar";
             "hash" = "sha512-mzHbT0MyAstTXgxkhs4DmFo2PW2jPJybph1VEpqvvIciXrL8gYMeaL+F7T9bjUP0sgb50UZXhFyfnnrZQ/DKHg==";
         };
+        _q9BXSIRm = {
+            "id" = "q9BXSIRm";
+            "file" = "better-whitelist-26.3.0.jar";
+            "hash" = "sha512-wWG73iNkXoVPTTXEAsIe07XngbJr1kQMKEWTkh7+rFyZPBBqXz/6bct9bOq54tK19LDNuFGGt76L1Dme4j0HqA==";
+        };
     in {
         "324x6SXz" = _324x6SXz;
         "zwltnHoX" = _zwltnHoX;
@@ -110,6 +115,7 @@ let
         "HtO4Mgwt" = _HtO4Mgwt;
         "XzvvUU0l" = _XzvvUU0l;
         "mX0iDvWK" = _mX0iDvWK;
+        "q9BXSIRm" = _q9BXSIRm;
         "fabric-1.19.4" = _324x6SXz;
         "fabric-1.20" = _zwltnHoX;
         "fabric-1.20.1" = _1NkouWJ8;
@@ -134,6 +140,7 @@ let
         "fabric-26.1.1" = _XzvvUU0l;
         "fabric-26.1.2" = _XzvvUU0l;
         "fabric-26.2" = _mX0iDvWK;
+        "fabric-26.3" = _q9BXSIRm;
         "pkg-1.0.0" = _324x6SXz;
         "pkg-1.0.1" = _zwltnHoX;
         "pkg-1.0.2" = _1NkouWJ8;
@@ -152,7 +159,8 @@ let
         "pkg-1.0.15" = _HtO4Mgwt;
         "pkg-26.1.0" = _XzvvUU0l;
         "pkg-26.2.0" = _mX0iDvWK;
-        "default" = _mX0iDvWK;
+        "pkg-26.3.0" = _q9BXSIRm;
+        "default" = _q9BXSIRm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-whitelist";

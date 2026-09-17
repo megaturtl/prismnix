@@ -436,6 +436,46 @@ let
             "file" = "c2me-neoforge-opts-accel-opencl-mc26.2-0.4.2-alpha.0.96.jar";
             "hash" = "sha512-/31lUJceogaYJiGpf2l6TaRBYerbvVHLc692HKW4nKlY5zUtIXsaNxxEShX/1eGR/VWUYnT8CtJWWDabT1QPIQ==";
         };
+        _K2szayOS = {
+            "id" = "K2szayOS";
+            "file" = "c2me-fabric-opts-accel-opencl-mc26.2-0.4.2-alpha.0.52.jar";
+            "hash" = "sha512-f5Xw1JOwHgr1XQnoA3TrITw6rr6ptzPsjNSbnQYDaclzbRq0manxQ69B8E7nrRqEtQ1fsdv9zH89wjcOVyb6vg==";
+        };
+        _wJrPp4yA = {
+            "id" = "wJrPp4yA";
+            "file" = "c2me-neoforge-opts-accel-opencl-mc26.1.2-0.4.0-alpha.0.99.jar";
+            "hash" = "sha512-Jhl5caWiJ8cCwJn0818sQYPyUTJlqGCypsmE+dRhbONGnXe73tvyuPbwHfOx9Tces1ps0pnYwfd28qhnNZj8oA==";
+        };
+        _Ixa7iE2b = {
+            "id" = "Ixa7iE2b";
+            "file" = "c2me-fabric-opts-accel-opencl-mc1.21.11-0.4.0-alpha.0.27.jar";
+            "hash" = "sha512-dQZbwgvPYch8u7GlQsYAiMZF6Ms0xGjqDffmHXSuhF5lbXavI+IAmKUxwFgssAlNHkREE8zxpBZENKKBveapXw==";
+        };
+        _FIySyMEQ = {
+            "id" = "FIySyMEQ";
+            "file" = "c2me-fabric-opts-accel-opencl-mc26.1.2-0.4.0-alpha.0.62.jar";
+            "hash" = "sha512-8oHstvPGwE/KkM//Pvkha2/a9/E7t5lzoR2LGV2M399ErwNi9f9PX6TP5gstsL9tQVuDIcvS71n2nNVjdImXbg==";
+        };
+        _QmPZl27m = {
+            "id" = "QmPZl27m";
+            "file" = "c2me-fabric-opts-accel-opencl-mc1.21.1-0.4.0-alpha.0.28.jar";
+            "hash" = "sha512-2eAidcB0stP+RShtCbM2GJN52JiZ3IIdkldc3LOMn5I6vFyIVpUoHQQ9O5cJgHz0A9rUQWTRsLZcFROnGMV0hw==";
+        };
+        _f3VXYFoo = {
+            "id" = "f3VXYFoo";
+            "file" = "c2me-neoforge-opts-accel-opencl-mc1.21.1-0.4.0-alpha.0.121.jar";
+            "hash" = "sha512-h3NA6iRs54WxJm5QCLcLs82PTMUWijLUAx9v2nHepzdPU8VQQRVZKy2HlrWgGyjrd5FgAFCUZ7gjd12yni7VwQ==";
+        };
+        _j7FyNUo9 = {
+            "id" = "j7FyNUo9";
+            "file" = "c2me-fabric-opts-accel-opencl-mc1.21.1-0.4.0-alpha.0.29.jar";
+            "hash" = "sha512-+ujWkSqYcQ30ZXrcZABIHHJXHaO1Y5ZTNWaF3ZIuqEg8gDl9xENY7kO25s3UG+Ba+Pf8sKDLrGL7Ub76ahZhMw==";
+        };
+        _shL6D1IO = {
+            "id" = "shL6D1IO";
+            "file" = "c2me-neoforge-opts-accel-opencl-mc1.21.1-0.4.0-alpha.0.122.jar";
+            "hash" = "sha512-s8siMGCBNU2cWp3659Ep05nZfvatZWPGc1Psk6GAIqEiP8/lIEqNPeETuJMsbuJI9sjkK4/vZDphLSvKDMydKg==";
+        };
     in {
         "99ImXptY" = _99ImXptY;
         "1kik91Wl" = _1kik91Wl;
@@ -524,15 +564,23 @@ let
         "bwmiCNej" = _bwmiCNej;
         "y4i7wWua" = _y4i7wWua;
         "V5SBeTwQ" = _V5SBeTwQ;
-        "fabric-26.1.2" = _3o0uinZO;
-        "fabric-26.2" = _8bFuxHlF;
-        "fabric-1.21.11" = _su1Wkv7W;
-        "fabric-1.21.1" = _bwmiCNej;
+        "K2szayOS" = _K2szayOS;
+        "wJrPp4yA" = _wJrPp4yA;
+        "Ixa7iE2b" = _Ixa7iE2b;
+        "FIySyMEQ" = _FIySyMEQ;
+        "QmPZl27m" = _QmPZl27m;
+        "f3VXYFoo" = _f3VXYFoo;
+        "j7FyNUo9" = _j7FyNUo9;
+        "shL6D1IO" = _shL6D1IO;
+        "fabric-26.1.2" = _FIySyMEQ;
+        "fabric-26.2" = _K2szayOS;
+        "fabric-1.21.11" = _Ixa7iE2b;
+        "fabric-1.21.1" = _j7FyNUo9;
         "fabric-26.3-snapshot-1" = _4hzAKOdO;
         "fabric-26.3-snapshot-2" = _RAK7gGZ2;
         "fabric-26.3-snapshot-3" = _re51PGTo;
-        "neoforge-1.21.1" = _y4i7wWua;
-        "neoforge-26.1.2" = _DydfThWH;
+        "neoforge-1.21.1" = _shL6D1IO;
+        "neoforge-26.1.2" = _wJrPp4yA;
         "neoforge-26.2" = _V5SBeTwQ;
         "pkg-0.4.0-alpha.0.20+26.1.2" = _99ImXptY;
         "pkg-0.4.1-alpha.0.12+26.2" = _1kik91Wl;
@@ -621,7 +669,15 @@ let
         "pkg-0.4.0-alpha.0.27+1.21.1" = _bwmiCNej;
         "pkg-0.4.0-alpha.0.120+1.21.1" = _y4i7wWua;
         "pkg-0.4.2-alpha.0.96+26.2" = _V5SBeTwQ;
-        "default" = _V5SBeTwQ;
+        "pkg-0.4.2-alpha.0.52+26.2" = _K2szayOS;
+        "pkg-0.4.0-alpha.0.99+26.1.2" = _wJrPp4yA;
+        "pkg-0.4.0-alpha.0.27+1.21.11" = _Ixa7iE2b;
+        "pkg-0.4.0-alpha.0.62+26.1.2" = _FIySyMEQ;
+        "pkg-0.4.0-alpha.0.28+1.21.1" = _QmPZl27m;
+        "pkg-0.4.0-alpha.0.121+1.21.1" = _f3VXYFoo;
+        "pkg-0.4.0-alpha.0.29+1.21.1" = _j7FyNUo9;
+        "pkg-0.4.0-alpha.0.122+1.21.1" = _shL6D1IO;
+        "default" = _shL6D1IO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "c2me-ocl";

@@ -21,17 +21,24 @@ let
             "file" = "yahiraft-1.1.1-neoforge-1.21.1.jar";
             "hash" = "sha512-hWrsKMGC7ynir/4VoC+SS1MCY3UnGpC/DnuBmLgadLwUaAvab6Slh3oPphwBGY14paOfHolZ1pKeXg4xJ0QfIg==";
         };
+        _dxYDlPCD = {
+            "id" = "dxYDlPCD";
+            "file" = "yahiraft-1.2.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-guC+mlFuBOP3HxpC4MoXtfiHXne5e2qwrlREH1648dMvw3jHSlwTzEZrOpkkH6NoBlyiTH9D5wnOGsT75RVF6g==";
+        };
     in {
         "zDhvbwHe" = _zDhvbwHe;
         "NuXzILYw" = _NuXzILYw;
         "dEKR39CG" = _dEKR39CG;
         "KVg59v8Z" = _KVg59v8Z;
-        "neoforge-1.21.1" = _KVg59v8Z;
+        "dxYDlPCD" = _dxYDlPCD;
+        "neoforge-1.21.1" = _dxYDlPCD;
         "pkg-1.0.0" = _zDhvbwHe;
         "pkg-1.0.1" = _NuXzILYw;
         "pkg-1.1.0" = _dEKR39CG;
         "pkg-1.1.1" = _KVg59v8Z;
-        "default" = _KVg59v8Z;
+        "pkg-1.2.0" = _dxYDlPCD;
+        "default" = _dxYDlPCD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yahiraft";

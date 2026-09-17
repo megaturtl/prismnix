@@ -91,6 +91,11 @@ let
             "file" = "SetSpawn-3.1.jar";
             "hash" = "sha512-rPEsQ2w4T2s2SMmSDgqOgkaRkMbJKuVAYLCB2rCw5RlYmAuhYOEj1OW5mjZqEY0d3sE5DKwy+9LFhDbMjuZcyg==";
         };
+        _8IVDxJm8 = {
+            "id" = "8IVDxJm8";
+            "file" = "SetSpawn-3.2.jar";
+            "hash" = "sha512-D7Iqio8SK1jVcHgKdsdiKpxxvTX9CvD5v9bk3DPznfhNpFgueeaoJ4d1Mk6W+gmMH3DY08N2gD1ikBm0+GW21Q==";
+        };
     in {
         "ftstzosM" = _ftstzosM;
         "dwV3GGAl" = _dwV3GGAl;
@@ -110,6 +115,7 @@ let
         "Cuky9Zo6" = _Cuky9Zo6;
         "YL6Iuuhw" = _YL6Iuuhw;
         "EjNpDfo3" = _EjNpDfo3;
+        "8IVDxJm8" = _8IVDxJm8;
         "bukkit-1.8" = _cp1u1PsM;
         "bukkit-1.8.1" = _cp1u1PsM;
         "bukkit-1.8.2" = _cp1u1PsM;
@@ -166,6 +172,7 @@ let
         "bukkit-1.20.2" = _EjNpDfo3;
         "bukkit-1.20.3" = _EjNpDfo3;
         "bukkit-1.20.4" = _EjNpDfo3;
+        "bukkit-26.2" = _8IVDxJm8;
         "paper-1.8" = _cp1u1PsM;
         "paper-1.8.1" = _cp1u1PsM;
         "paper-1.8.2" = _cp1u1PsM;
@@ -222,6 +229,7 @@ let
         "paper-1.20.2" = _EjNpDfo3;
         "paper-1.20.3" = _EjNpDfo3;
         "paper-1.20.4" = _EjNpDfo3;
+        "paper-26.2" = _8IVDxJm8;
         "purpur-1.8" = _cp1u1PsM;
         "purpur-1.8.1" = _cp1u1PsM;
         "purpur-1.8.2" = _cp1u1PsM;
@@ -278,6 +286,7 @@ let
         "purpur-1.20.2" = _EjNpDfo3;
         "purpur-1.20.3" = _EjNpDfo3;
         "purpur-1.20.4" = _EjNpDfo3;
+        "purpur-26.2" = _8IVDxJm8;
         "spigot-1.8" = _cp1u1PsM;
         "spigot-1.8.1" = _cp1u1PsM;
         "spigot-1.8.2" = _cp1u1PsM;
@@ -334,6 +343,7 @@ let
         "spigot-1.20.2" = _EjNpDfo3;
         "spigot-1.20.3" = _EjNpDfo3;
         "spigot-1.20.4" = _EjNpDfo3;
+        "spigot-26.2" = _8IVDxJm8;
         "pkg-1.0" = _ftstzosM;
         "pkg-1.1" = _dwV3GGAl;
         "pkg-1.2" = _HVsli4DR;
@@ -352,7 +362,8 @@ let
         "pkg-2.9" = _Cuky9Zo6;
         "pkg-3.0" = _YL6Iuuhw;
         "pkg-3.1" = _EjNpDfo3;
-        "default" = _EjNpDfo3;
+        "pkg-3.2" = _8IVDxJm8;
+        "default" = _8IVDxJm8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "setspawn";

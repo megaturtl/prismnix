@@ -106,6 +106,11 @@ let
             "file" = "treasures_of_the_dead-0.8.3i-1.21.1.jar";
             "hash" = "sha512-CiBVS5etTzqw4BV4tSU2OQ2ytXb8VVF3yMnfNWhcB1g0V0ktABrNSDDAhK6QFcXEWQCvy7wDcSV7owomiPWDcg==";
         };
+        _gu4iR38f = {
+            "id" = "gu4iR38f";
+            "file" = "treasures_of_the_dead-0.9.0-1.21.1.jar";
+            "hash" = "sha512-d64/lP6SoD5Mcg98jJKQZQFk6DM+XPUmnopv1jCyTJCVVz4fJDwLTbaG3UY6mKM5acIhsoYoHPrqcB4jv4vaMg==";
+        };
     in {
         "2zksHByT" = _2zksHByT;
         "8ItiFu7e" = _8ItiFu7e;
@@ -128,8 +133,9 @@ let
         "kXcPqBPH" = _kXcPqBPH;
         "5Iu1imU3" = _5Iu1imU3;
         "ObguyNNa" = _ObguyNNa;
+        "gu4iR38f" = _gu4iR38f;
         "forge-1.20.1" = _5Iu1imU3;
-        "neoforge-1.21.1" = _ObguyNNa;
+        "neoforge-1.21.1" = _gu4iR38f;
         "pkg-0.1.0e" = _2zksHByT;
         "pkg-0.2.0a-1.20.1" = _8ItiFu7e;
         "pkg-0.2.5a-1.20.1" = _wbKzLzFZ;
@@ -151,7 +157,8 @@ let
         "pkg-0.8.3h-1.21.1" = _kXcPqBPH;
         "pkg-0.7.1a-1.20.1" = _5Iu1imU3;
         "pkg-0.8.3i-1.21.1" = _ObguyNNa;
-        "default" = _ObguyNNa;
+        "pkg-0.9.0-1.21.1" = _gu4iR38f;
+        "default" = _gu4iR38f;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "treasures-of-the-dead";

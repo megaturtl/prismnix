@@ -86,6 +86,11 @@ let
             "file" = "Environmental Water 1.21.9-26.2.zip";
             "hash" = "sha512-drPzZejyBhcFCCLCqw4Q1YxqL57O+VZehq4sP1fGHVykwdHGTpHpkjYHVY0aIV9JoY8IdrLWHsuJEK3VREzN8A==";
         };
+        _J1XQx1h9 = {
+            "id" = "J1XQx1h9";
+            "file" = "Environmental Water 1.21.9-26.3.zip";
+            "hash" = "sha512-IaFg85JYl6lzi081IC2o+qfFuGO1ndpBAJ+hVY9ouN+s9CLKjpu+Wnuv6/g1x1PmAJBqi7geO+GjHZXd1u2Tbg==";
+        };
     in {
         "qbtYEXBD" = _qbtYEXBD;
         "9eDKBqo7" = _9eDKBqo7;
@@ -104,6 +109,7 @@ let
         "e51T5DR4" = _e51T5DR4;
         "qcTTsOR7" = _qcTTsOR7;
         "jNIWgW2Y" = _jNIWgW2Y;
+        "J1XQx1h9" = _J1XQx1h9;
         "minecraft-1.13" = _qbtYEXBD;
         "minecraft-1.13.1" = _qbtYEXBD;
         "minecraft-1.13.2" = _qbtYEXBD;
@@ -147,13 +153,14 @@ let
         "minecraft-1.21.6" = _e51T5DR4;
         "minecraft-1.21.7" = _e51T5DR4;
         "minecraft-1.21.8" = _e51T5DR4;
-        "minecraft-1.21.9" = _jNIWgW2Y;
-        "minecraft-1.21.10" = _jNIWgW2Y;
-        "minecraft-1.21.11" = _jNIWgW2Y;
-        "minecraft-26.1" = _jNIWgW2Y;
-        "minecraft-26.1.1" = _jNIWgW2Y;
-        "minecraft-26.1.2" = _jNIWgW2Y;
-        "minecraft-26.2" = _jNIWgW2Y;
+        "minecraft-1.21.9" = _J1XQx1h9;
+        "minecraft-1.21.10" = _J1XQx1h9;
+        "minecraft-1.21.11" = _J1XQx1h9;
+        "minecraft-26.1" = _J1XQx1h9;
+        "minecraft-26.1.1" = _J1XQx1h9;
+        "minecraft-26.1.2" = _J1XQx1h9;
+        "minecraft-26.2" = _J1XQx1h9;
+        "minecraft-26.3" = _J1XQx1h9;
         "pkg-1.0.0" = _qbtYEXBD;
         "pkg-1.1.0" = _9eDKBqo7;
         "pkg-1.1.1" = _WKqMxudB;
@@ -171,7 +178,8 @@ let
         "pkg-2.4.3" = _e51T5DR4;
         "pkg-2.4.4" = _qcTTsOR7;
         "pkg-2.5.0" = _jNIWgW2Y;
-        "default" = _jNIWgW2Y;
+        "pkg-2.6.0" = _J1XQx1h9;
+        "default" = _J1XQx1h9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "environmental-water";

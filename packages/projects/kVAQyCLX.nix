@@ -171,6 +171,11 @@ let
             "file" = "resclone-26.2.0.jar";
             "hash" = "sha512-W6VFT4wuBQDGnVKH2PYAD6NJ5kLlRgt3n8DaAaBnmMbVlHWnJErEXum7SXdZGtEQihZM22tB9000oR6IBWP3gw==";
         };
+        _Zwbj4hrU = {
+            "id" = "Zwbj4hrU";
+            "file" = "resclone-26.3.0.jar";
+            "hash" = "sha512-9o82oJeMxhSUsG2aOimo6ZzEVFKWPjbnVufgiGN1yYe0tSLfjFi+3jueif5F8Turee6xnt1hk4nGgNdyf1d2Aw==";
+        };
     in {
         "QUdd2RZZ" = _QUdd2RZZ;
         "OedthpCZ" = _OedthpCZ;
@@ -206,6 +211,7 @@ let
         "ZwHVVwSI" = _ZwHVVwSI;
         "k3uIT8JU" = _k3uIT8JU;
         "P8vUrYcA" = _P8vUrYcA;
+        "Zwbj4hrU" = _Zwbj4hrU;
         "fabric-1.16.4" = _S0zOwAA4;
         "fabric-1.16.5" = _5YEQuw9h;
         "fabric-1.17" = _v5LsHzqo;
@@ -240,6 +246,7 @@ let
         "fabric-26.1.1" = _k3uIT8JU;
         "fabric-26.1.2" = _k3uIT8JU;
         "fabric-26.2" = _P8vUrYcA;
+        "fabric-26.3" = _Zwbj4hrU;
         "pkg-1.1" = _QUdd2RZZ;
         "pkg-1.1.1" = _OedthpCZ;
         "pkg-1.2.0" = _S0zOwAA4;
@@ -274,7 +281,8 @@ let
         "pkg-1.14.0" = _ZwHVVwSI;
         "pkg-26.1.0" = _k3uIT8JU;
         "pkg-26.2.0" = _P8vUrYcA;
-        "default" = _P8vUrYcA;
+        "pkg-26.3.0" = _Zwbj4hrU;
+        "default" = _Zwbj4hrU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "resclone";

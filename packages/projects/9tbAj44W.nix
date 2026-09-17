@@ -31,6 +31,11 @@ let
             "file" = "Freecam-1.2.0.jar";
             "hash" = "sha512-pU0d2IFw1QHAR882UwluG4EfnMRhfdkcI6MSMpLd0dq06Da65mbfqKOqcd70Dr43D24Utt4mIvMo29L0OEXvMQ==";
         };
+        _LeYVxnAx = {
+            "id" = "LeYVxnAx";
+            "file" = "Freecam-1.3.0.jar";
+            "hash" = "sha512-Xwn95R9n5w62Egp+TjELMnedCyZml3om3My6vA991qDjRxTO4kBMkJLwAHhxxOdZKqSM9o4dNVRh7yvDDosJrg==";
+        };
     in {
         "9GyP80Ac" = _9GyP80Ac;
         "KFVkIFwW" = _KFVkIFwW;
@@ -38,19 +43,22 @@ let
         "45R958t0" = _45R958t0;
         "zTp2zwhy" = _zTp2zwhy;
         "o3pWEx9I" = _o3pWEx9I;
+        "LeYVxnAx" = _LeYVxnAx;
         "fabric-1.21.10" = _9GyP80Ac;
         "fabric-1.21.11" = _4rUykaLB;
         "fabric-26.1" = _zTp2zwhy;
         "fabric-26.1.1" = _zTp2zwhy;
         "fabric-26.1.2" = _zTp2zwhy;
         "fabric-26.2" = _o3pWEx9I;
+        "fabric-26.3" = _LeYVxnAx;
         "pkg-1.0.0+1.21.10" = _9GyP80Ac;
         "pkg-1.0.1+1.21.11" = _KFVkIFwW;
         "pkg-1.0.2+1.21.11" = _4rUykaLB;
         "pkg-1.1.0+26.1.x" = _45R958t0;
         "pkg-1.1.1+26.1.x" = _zTp2zwhy;
         "pkg-1.2.0+26.2.x" = _o3pWEx9I;
-        "default" = _o3pWEx9I;
+        "pkg-1.3.0+26.3.x" = _LeYVxnAx;
+        "default" = _LeYVxnAx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spectator-freecam";

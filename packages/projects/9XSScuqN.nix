@@ -76,6 +76,11 @@ let
             "file" = "aether-1.5.1.jar";
             "hash" = "sha512-WqpmrbFYRRfSXl+sT1KrhDc/MLQEk+HV0bi8grUv9BO7vY37IrABO0rGdSp98hqnnm5bazrS9KVz8aYU+KvT+A==";
         };
+        _zHL8yOyT = {
+            "id" = "zHL8yOyT";
+            "file" = "aether-1.6.0.jar";
+            "hash" = "sha512-hpdEZSafUnL4KOL67HtOsYBy0t50G87H+WMQr3LeJHATtip2N7L9ltTJE89zqM3wLN4Byh/UVobVLgd/1bc6rw==";
+        };
     in {
         "lq2VtBwC" = _lq2VtBwC;
         "aMIQ13nd" = _aMIQ13nd;
@@ -92,8 +97,9 @@ let
         "JUlXjSqn" = _JUlXjSqn;
         "drAvt4sf" = _drAvt4sf;
         "WKpvmN3Q" = _WKpvmN3Q;
-        "babric-b1.7.3" = _WKpvmN3Q;
-        "fabric-b1.7.3" = _WKpvmN3Q;
+        "zHL8yOyT" = _zHL8yOyT;
+        "babric-b1.7.3" = _zHL8yOyT;
+        "fabric-b1.7.3" = _zHL8yOyT;
         "pkg-1.1.1" = _lq2VtBwC;
         "pkg-1.2.0" = _aMIQ13nd;
         "pkg-1.2.1" = _hwfjKlk8;
@@ -109,7 +115,8 @@ let
         "pkg-1.4.2" = _JUlXjSqn;
         "pkg-1.5.0" = _drAvt4sf;
         "pkg-1.5.1" = _WKpvmN3Q;
-        "default" = _WKpvmN3Q;
+        "pkg-1.6.0" = _zHL8yOyT;
+        "default" = _zHL8yOyT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aether-stapi";

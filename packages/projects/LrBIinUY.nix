@@ -66,6 +66,11 @@ let
             "file" = "self-sustainable-0.6-1.21.1.jar";
             "hash" = "sha512-QZCg8AZfKxK2Rt4cmwr1zH2zawN77VgIeLdrn3adnUiIxXRW9FaApixfjeAfa8n/Eq8yNVedKBXNyUJGKwXWDw==";
         };
+        _Q2jVDA9q = {
+            "id" = "Q2jVDA9q";
+            "file" = "self-sustainable-0.7-1.21.1.jar";
+            "hash" = "sha512-OBmT6Rpfml7PCyzKs0ClG4bH8B2mVw/GtzFgC6yPGhWNB2pHB9grMPjDtiOzUeMe0BldWxw39Pm5fM15gLkINA==";
+        };
     in {
         "4QrWg5A1" = _4QrWg5A1;
         "LeqzHXc3" = _LeqzHXc3;
@@ -80,7 +85,8 @@ let
         "4JecF6pv" = _4JecF6pv;
         "149ZP7Uj" = _149ZP7Uj;
         "4SAjQXLR" = _4SAjQXLR;
-        "fabric-1.21.1" = _4SAjQXLR;
+        "Q2jVDA9q" = _Q2jVDA9q;
+        "fabric-1.21.1" = _Q2jVDA9q;
         "pkg-0.1" = _4QrWg5A1;
         "pkg-0.1.1" = _LeqzHXc3;
         "pkg-0.1.2" = _K9zcmT2U;
@@ -94,7 +100,8 @@ let
         "pkg-0.5.2" = _4JecF6pv;
         "pkg-0.5.3" = _149ZP7Uj;
         "pkg-0.6" = _4SAjQXLR;
-        "default" = _4SAjQXLR;
+        "pkg-0.7" = _Q2jVDA9q;
+        "default" = _Q2jVDA9q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "self-sustainable";

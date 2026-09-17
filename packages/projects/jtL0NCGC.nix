@@ -61,6 +61,11 @@ let
             "file" = "gcr-1.2.3-BETA.jar";
             "hash" = "sha512-RDkSICWyFUXIDaoS+kqyyH+JU6/i/batzPGgneRs8twqaata/bq6tCTIcTI7b+qFwAR22X88W1Pycfxn/WOpmg==";
         };
+        _xCkzXqPm = {
+            "id" = "xCkzXqPm";
+            "file" = "gcr-1.2.4-BETA.jar";
+            "hash" = "sha512-UgLub5mtFslTV3F6z0hHrzNmFgyPQcGvtLJ6DYPZfp/wphALbM+2PexCcV1YEmTLJmRNcp+pXW5zY3N0P1FyLw==";
+        };
     in {
         "lL0I5oLF" = _lL0I5oLF;
         "506zorim" = _506zorim;
@@ -74,7 +79,8 @@ let
         "Iuh7Gr0J" = _Iuh7Gr0J;
         "BCIOGRDi" = _BCIOGRDi;
         "hnyNB8MG" = _hnyNB8MG;
-        "neoforge-1.21.1" = _hnyNB8MG;
+        "xCkzXqPm" = _xCkzXqPm;
+        "neoforge-1.21.1" = _xCkzXqPm;
         "pkg-1.0-BETA" = _lL0I5oLF;
         "pkg-1.0.2-BETA" = _506zorim;
         "pkg-1.1.0-BETA" = _3QCjx8xA;
@@ -87,7 +93,8 @@ let
         "pkg-1.2.1-BETA" = _Iuh7Gr0J;
         "pkg-1.2.2-BETA" = _BCIOGRDi;
         "pkg-1.2.3-BETA" = _hnyNB8MG;
-        "default" = _hnyNB8MG;
+        "pkg-1.2.4-BETA" = _xCkzXqPm;
+        "default" = _xCkzXqPm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "guns-craft-reforged";

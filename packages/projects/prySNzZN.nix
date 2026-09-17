@@ -151,6 +151,11 @@ let
             "file" = "breakthemod-1.6.3.jar";
             "hash" = "sha512-BYWQULDWCFgC47O3++2394PPuPuDbw6d3FfA/TLQrj5ew21aFEmtbn4B0PKzJnc+1bEhyyuv/otK7OI+ZtUbFg==";
         };
+        _vDJJux9M = {
+            "id" = "vDJJux9M";
+            "file" = "breakthemod.jar";
+            "hash" = "sha512-RaUDy14SraCM/K0Ac4hL/7Zwvgfpc3mKz/Y1vqqdOemlHOgZgTZ2m+P+p1ji34cuVZGF0ziD/9cHAo6z7Wqt4Q==";
+        };
     in {
         "umOsZoin" = _umOsZoin;
         "kwushZpK" = _kwushZpK;
@@ -182,6 +187,7 @@ let
         "oypT3KZi" = _oypT3KZi;
         "6ec9UCNk" = _6ec9UCNk;
         "14NC8AHW" = _14NC8AHW;
+        "vDJJux9M" = _vDJJux9M;
         "fabric-1.20.4" = _U1TMSiCm;
         "fabric-1.21.1" = _Fu2yo0TY;
         "fabric-1.20.5" = _U1TMSiCm;
@@ -197,7 +203,7 @@ let
         "fabric-1.21.9" = _UjDahPYD;
         "fabric-1.21.10" = _UjDahPYD;
         "fabric-1.21.11" = _C01gpYBB;
-        "fabric-26.2" = _14NC8AHW;
+        "fabric-26.2" = _vDJJux9M;
         "pkg-1" = _umOsZoin;
         "pkg-1.0.0-1.21.1" = _kwushZpK;
         "pkg-1.0.1" = _swAX59MH;
@@ -225,7 +231,8 @@ let
         "pkg-1.6.1" = _oypT3KZi;
         "pkg-1.6.2" = _6ec9UCNk;
         "pkg-1.6.3" = _14NC8AHW;
-        "default" = _14NC8AHW;
+        "pkg-1.6.4" = _vDJJux9M;
+        "default" = _vDJJux9M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "breakthemod";

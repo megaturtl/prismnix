@@ -391,6 +391,36 @@ let
             "file" = "linearreader-1.3.0-neoforge-26.1-26.2.jar";
             "hash" = "sha512-+Qzcd3iaAN/NRW31SrfZhdbK4mYMYGmYSQkgmF2AQgYP+E0ggt/pCwW2j1oQmXO/SoB5+Vi4i3mxDH7av3t90A==";
         };
+        _OcbTt78x = {
+            "id" = "OcbTt78x";
+            "file" = "linearreader-1.3.0.1-fabric-1.20-1.20.1.jar";
+            "hash" = "sha512-Ry4DBC9Uvao3Kla2aWTfM0qVDd9PSC5N5lBMoVrruVi+dbSj8mOytxHarkc/eFUcShVojptRiSfw1cX7jqdEkw==";
+        };
+        _1k9gbkCC = {
+            "id" = "1k9gbkCC";
+            "file" = "linearreader-1.3.0.1-fabric-1.20.2-1.20.4.jar";
+            "hash" = "sha512-9Bk0kfkJLtCJDI0MrLY9tcjcyb1+8T9ju4rNuLVRxDJ5lJK5gjGcsCykb70LwwfbGdY5vdKTvn3WSf3T0EbKHQ==";
+        };
+        _F5IbXAsg = {
+            "id" = "F5IbXAsg";
+            "file" = "linearreader-1.3.0.1-fabric-1.20.5-1.21.4.jar";
+            "hash" = "sha512-3wYolIjIfS+oqCSjEuFwzR7T6X2GIDk2Oj1ciMjMAjiYbri5A1P7flj/CB85r1g1ynZU1Zm7NvWO9LaVDQ7cHw==";
+        };
+        _ZRAXXvw5 = {
+            "id" = "ZRAXXvw5";
+            "file" = "linearreader-1.3.0.1-fabric-1.21.5-1.21.10.jar";
+            "hash" = "sha512-M5aZsA9DR9+XJXQWxkunwYO1BPt0RVXuGiIwwxTy5M6yZLBqQ3ioXOJzRjLwlucRA/JJehdbQ8dD1uP8SfQRPw==";
+        };
+        _6GdKjOLp = {
+            "id" = "6GdKjOLp";
+            "file" = "linearreader-1.3.0.1-fabric-1.21.11.jar";
+            "hash" = "sha512-nGbqBEpXMSqdqGqgm8HIyjXajQkFZ2qQKtkjp/Rut17TTojKmuoUwUcfpeCcfw9muKV23G6JstW3UcGKyi4CLw==";
+        };
+        _zY1oZ7ku = {
+            "id" = "zY1oZ7ku";
+            "file" = "linearreader-1.3.0.1-fabric-26.1-26.2.jar";
+            "hash" = "sha512-xR1BqPYQ79S5GBI0Z3C0UNAYyCtrUxQJ/hO+TW+W1RSEF28r5fv0BLddQ5hNhR/bZojcWa86O7HA1IC1QWcNzA==";
+        };
     in {
         "oo0lVHIH" = _oo0lVHIH;
         "iyvrI0Nw" = _iyvrI0Nw;
@@ -470,6 +500,12 @@ let
         "s3jvlqr6" = _s3jvlqr6;
         "oTYQ9ciF" = _oTYQ9ciF;
         "lAVVvTSv" = _lAVVvTSv;
+        "OcbTt78x" = _OcbTt78x;
+        "1k9gbkCC" = _1k9gbkCC;
+        "F5IbXAsg" = _F5IbXAsg;
+        "ZRAXXvw5" = _ZRAXXvw5;
+        "6GdKjOLp" = _6GdKjOLp;
+        "zY1oZ7ku" = _zY1oZ7ku;
         "forge-1.20.1" = _x6pc6W6q;
         "forge-1.20" = _x6pc6W6q;
         "forge-1.20.2" = _GwOzMJgo;
@@ -514,29 +550,29 @@ let
         "neoforge-26.1.1" = _lAVVvTSv;
         "neoforge-26.1.2" = _lAVVvTSv;
         "neoforge-26.2" = _lAVVvTSv;
-        "fabric-1.20.1" = _1krXM9CU;
-        "fabric-1.20" = _1krXM9CU;
-        "fabric-1.20.2" = _VNXfaF7Z;
-        "fabric-1.20.3" = _VNXfaF7Z;
-        "fabric-1.20.4" = _VNXfaF7Z;
-        "fabric-1.20.5" = _VNXfaF7Z;
-        "fabric-1.20.6" = _VNXfaF7Z;
-        "fabric-1.21" = _VNXfaF7Z;
-        "fabric-1.21.1" = _VNXfaF7Z;
-        "fabric-1.21.2" = _VNXfaF7Z;
-        "fabric-1.21.3" = _VNXfaF7Z;
-        "fabric-1.21.4" = _VNXfaF7Z;
-        "fabric-1.21.5" = _6vmoQo83;
-        "fabric-1.21.6" = _6vmoQo83;
-        "fabric-1.21.7" = _6vmoQo83;
-        "fabric-1.21.8" = _6vmoQo83;
-        "fabric-1.21.9" = _6vmoQo83;
-        "fabric-1.21.10" = _6vmoQo83;
-        "fabric-1.21.11" = _dvVBGvPL;
-        "fabric-26.1" = _MnbsTbT9;
-        "fabric-26.1.1" = _MnbsTbT9;
-        "fabric-26.1.2" = _MnbsTbT9;
-        "fabric-26.2" = _MnbsTbT9;
+        "fabric-1.20.1" = _OcbTt78x;
+        "fabric-1.20" = _OcbTt78x;
+        "fabric-1.20.2" = _1k9gbkCC;
+        "fabric-1.20.3" = _1k9gbkCC;
+        "fabric-1.20.4" = _1k9gbkCC;
+        "fabric-1.20.5" = _F5IbXAsg;
+        "fabric-1.20.6" = _F5IbXAsg;
+        "fabric-1.21" = _F5IbXAsg;
+        "fabric-1.21.1" = _F5IbXAsg;
+        "fabric-1.21.2" = _F5IbXAsg;
+        "fabric-1.21.3" = _F5IbXAsg;
+        "fabric-1.21.4" = _F5IbXAsg;
+        "fabric-1.21.5" = _ZRAXXvw5;
+        "fabric-1.21.6" = _ZRAXXvw5;
+        "fabric-1.21.7" = _ZRAXXvw5;
+        "fabric-1.21.8" = _ZRAXXvw5;
+        "fabric-1.21.9" = _ZRAXXvw5;
+        "fabric-1.21.10" = _ZRAXXvw5;
+        "fabric-1.21.11" = _6GdKjOLp;
+        "fabric-26.1" = _zY1oZ7ku;
+        "fabric-26.1.1" = _zY1oZ7ku;
+        "fabric-26.1.2" = _zY1oZ7ku;
+        "fabric-26.2" = _zY1oZ7ku;
         "pkg-1.0.0" = _iyvrI0Nw;
         "pkg-1.0.1" = _OfMvIF7e;
         "pkg-1.1.0" = _bRdyFD9n;
@@ -548,7 +584,8 @@ let
         "pkg-1.2.0.1" = _N2kiaoDI;
         "pkg-1.2.1" = _OrpISPM3;
         "pkg-1.3.0" = _lAVVvTSv;
-        "default" = _lAVVvTSv;
+        "pkg-1.3.0.1" = _zY1oZ7ku;
+        "default" = _zY1oZ7ku;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "linearreader";

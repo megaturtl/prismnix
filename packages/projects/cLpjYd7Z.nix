@@ -71,6 +71,11 @@ let
             "file" = "cobblemon_farmers-2.4-all.jar";
             "hash" = "sha512-nZb0N/dtqWWrkrfA3P1D85Bjb/4g//02ToLtZ9GVSGyQZTBc1IjoocxiOARZTg1Jyj66m6wr9e6nrZlCCUbD3w==";
         };
+        _uSTC8K6r = {
+            "id" = "uSTC8K6r";
+            "file" = "cobblemon_farmers-2.5-all.jar";
+            "hash" = "sha512-fcgUx0bUqLtfP6EQppfs0u8XLlmJvXLP5wFCBKNf+sOv3VF6x6pHOur+Fx0OvzBo18KLsf3U2Hpi+nxjv2hOZg==";
+        };
     in {
         "X1YxykKM" = _X1YxykKM;
         "bLIWQJco" = _bLIWQJco;
@@ -86,7 +91,8 @@ let
         "8qgWJw4W" = _8qgWJw4W;
         "FEldvyet" = _FEldvyet;
         "KW0PBnrb" = _KW0PBnrb;
-        "forge-1.20.1" = _KW0PBnrb;
+        "uSTC8K6r" = _uSTC8K6r;
+        "forge-1.20.1" = _uSTC8K6r;
         "pkg-1.0" = _X1YxykKM;
         "pkg-1.1" = _bLIWQJco;
         "pkg-1.2" = _gXdFf7xt;
@@ -101,7 +107,8 @@ let
         "pkg-2.2" = _8qgWJw4W;
         "pkg-2.3" = _FEldvyet;
         "pkg-2.4" = _KW0PBnrb;
-        "default" = _KW0PBnrb;
+        "pkg-2.5" = _uSTC8K6r;
+        "default" = _uSTC8K6r;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-farmers";

@@ -36,6 +36,16 @@ let
             "file" = "nocroptrample-1.5-26.2.jar";
             "hash" = "sha512-ibhnM5yauPu/4mDeKz1tfpA/Vzl+sazW347cquPFY6fw457oRUxfziw8WGiK9Fm5FgS4TgHZULTC3IrJ+2cb1A==";
         };
+        _K1qbbmjl = {
+            "id" = "K1qbbmjl";
+            "file" = "nocroptrample-fabric-1.6-26.3.jar";
+            "hash" = "sha512-Qvnjiy+LRwT/oLLt+TzParufqeHacmLcNFjrf33chX5PgtsMKkq/ZSpv5agXEBdK2Gn4a0syy9xg+CZcdMAh3w==";
+        };
+        _Oa9BCFOO = {
+            "id" = "Oa9BCFOO";
+            "file" = "nocroptrample-neoforge-1.6-26.3.jar";
+            "hash" = "sha512-iZxCuqwHMwpZAgMRfB0nSdu2oO2NLRMwnERbKNPHJ9iOpakyb5Oz16l6nRHM8VOqjyOmBokWUtF2cUldQSgNmg==";
+        };
     in {
         "3gv1xSww" = _3gv1xSww;
         "vfKjnE8M" = _vfKjnE8M;
@@ -44,6 +54,8 @@ let
         "ercVFhZu" = _ercVFhZu;
         "VBVCr6Ik" = _VBVCr6Ik;
         "7fbcAbEQ" = _7fbcAbEQ;
+        "K1qbbmjl" = _K1qbbmjl;
+        "Oa9BCFOO" = _Oa9BCFOO;
         "fabric-1.21" = _3gv1xSww;
         "fabric-1.21.1" = _3gv1xSww;
         "fabric-1.21.2" = _3gv1xSww;
@@ -71,6 +83,8 @@ let
         "fabric-26.1.1" = _x3RifniL;
         "fabric-26.1.2" = _x3RifniL;
         "fabric-26.2" = _7fbcAbEQ;
+        "fabric-26.3" = _K1qbbmjl;
+        "neoforge-26.3" = _Oa9BCFOO;
         "pkg-1.0.0" = _3gv1xSww;
         "pkg-1.1.0" = _vfKjnE8M;
         "pkg-1.2.0" = _fkxVtYEx;
@@ -78,7 +92,9 @@ let
         "pkg-1.3-26.2" = _ercVFhZu;
         "pkg-1.4-26.2" = _VBVCr6Ik;
         "pkg-1.5-26.2" = _7fbcAbEQ;
-        "default" = _7fbcAbEQ;
+        "pkg-Fabric-1.6-26.3" = _K1qbbmjl;
+        "pkg-NeoForge-1.6-26.3" = _Oa9BCFOO;
+        "default" = _Oa9BCFOO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nocroptrample";

@@ -166,6 +166,51 @@ let
             "file" = "Saros-Player-Plushie-Forge-1.21.11-1.0.5.jar";
             "hash" = "sha512-b8HZHl88cP5xiY4TKBz9O+BVzfW3BPQOhI4SQPO/RLomHKwkHV3oBKcGDXdID+dv2Y86v9398PfZfaSKlOiCew==";
         };
+        _YHHNpNex = {
+            "id" = "YHHNpNex";
+            "file" = "Saros-Player-Plushie-Fabric-1.21.11-1.0.5.jar";
+            "hash" = "sha512-lbYPFnUUzIoXhaO+ZVyqRwEw39fIO6jzv6DXd83PnFF8vTQ/WKwFNoA0FUb0W9+Tpq/oqkXWKzTPdC1ATlo6Rg==";
+        };
+        _PaXyeduV = {
+            "id" = "PaXyeduV";
+            "file" = "Saros-Player-Plushie-Forge-1.21.11-1.0.6.jar";
+            "hash" = "sha512-6w4AEm1O2ujmX2X6reJ0yivLgy25CksYJfPTsphPlPAbYmjLxYzlqcoR3u8jXuuTQgd18SJ+GBSxeHzrAqu77w==";
+        };
+        _XJAFWvgo = {
+            "id" = "XJAFWvgo";
+            "file" = "Saros-Player-Plushie-NeoForge-1.21.11-1.0.5.jar";
+            "hash" = "sha512-zZgPfvrekEgo7wb1JBQAB6gWXaDvNy4JXfDYBDbtQwCeL35kfa0U6Z+i9deZXLH0dA9fFuc8JWVDsX6dFKolHw==";
+        };
+        _Y5PcgRAe = {
+            "id" = "Y5PcgRAe";
+            "file" = "Saros-Player-Plushie-Fabric-26.1-1.0.5.jar";
+            "hash" = "sha512-nyjiJ4fVuuVdIIUSZC/U2EsIMA8h5ewoT4Z5xUA5mnagpKgb85vR1xLkI9VXPaDaBBUoak7ohmxr32lrkjA/9A==";
+        };
+        _F0G3OlcP = {
+            "id" = "F0G3OlcP";
+            "file" = "Saros-Player-Plushie-Forge-26.1-1.0.5.jar";
+            "hash" = "sha512-FlAF3LamK4TXAeYBgr/h7bwU/gzcoNUzsudfRM8jJEJYQfOi7tnopUX2VdvHSNFoJLvfUCp5+OF7z/XuD3Ax1A==";
+        };
+        _GARxVqiJ = {
+            "id" = "GARxVqiJ";
+            "file" = "Saros-Player-Plushie-NeoForge-26.1-1.0.5.jar";
+            "hash" = "sha512-xXu6sszeqeppO/Sbn0tb6Ts+Qr8v/codEqV7HrOxidRVQe/w1w+QH5AyDrx64JL2MfytNKobE3rZmYpghcGBZw==";
+        };
+        _PZu3vS47 = {
+            "id" = "PZu3vS47";
+            "file" = "Saros-Player-Plushie-Fabric-26.2-1.0.5.jar";
+            "hash" = "sha512-1z0sPmZ7z6yP1txejvSGVOwzT19ZZdsWbZfbH9Mj3LPYteLtnhOx06jdwpCAEUDlpC+sOZMzZ+J2R0smud8kMw==";
+        };
+        _gp8b9x2a = {
+            "id" = "gp8b9x2a";
+            "file" = "Saros-Player-Plushie-Forge-26.2-1.0.5.jar";
+            "hash" = "sha512-U/sY4kU0DKf5AmPinBv61E+lRZZfQgj8mlMCn7vG9VD7Ki9ddNjedfqG8QzLYLrgs2lAcTUXYu//uZPDpJ3Sdw==";
+        };
+        _glgZsMjd = {
+            "id" = "glgZsMjd";
+            "file" = "Saros-Player-Plushie-NeoForge-26.2-1.0.5.jar";
+            "hash" = "sha512-wUJJVLgFV6uTs2ljVI4z5vb4g3VtUT5QKn+q5IBtkpTJt5GhIFsJ4sRcSEa25wfZ7n3x37NGRCKXENKx4j8mkA==";
+        };
     in {
         "EBMA7o7z" = _EBMA7o7z;
         "oA7dH4Vf" = _oA7dH4Vf;
@@ -200,16 +245,25 @@ let
         "DKMJFhyJ" = _DKMJFhyJ;
         "OAJRQ1Df" = _OAJRQ1Df;
         "WQP3JICw" = _WQP3JICw;
+        "YHHNpNex" = _YHHNpNex;
+        "PaXyeduV" = _PaXyeduV;
+        "XJAFWvgo" = _XJAFWvgo;
+        "Y5PcgRAe" = _Y5PcgRAe;
+        "F0G3OlcP" = _F0G3OlcP;
+        "GARxVqiJ" = _GARxVqiJ;
+        "PZu3vS47" = _PZu3vS47;
+        "gp8b9x2a" = _gp8b9x2a;
+        "glgZsMjd" = _glgZsMjd;
         "forge-1.20.1" = _qEnFAHQN;
         "forge-1.21.1" = _OAJRQ1Df;
-        "forge-1.21.11" = _WQP3JICw;
-        "forge-26.2" = _BuzY0cYc;
-        "forge-26.1" = _8uqYBNsQ;
+        "forge-1.21.11" = _PaXyeduV;
+        "forge-26.2" = _gp8b9x2a;
+        "forge-26.1" = _F0G3OlcP;
         "neoforge-1.20.1" = _RfPZs1Tm;
         "neoforge-1.21.1" = _swXnaoRa;
-        "neoforge-1.21.11" = _SkunFylR;
-        "neoforge-26.2" = _DKMJFhyJ;
-        "neoforge-26.1" = _vtTNXYEw;
+        "neoforge-1.21.11" = _XJAFWvgo;
+        "neoforge-26.2" = _glgZsMjd;
+        "neoforge-26.1" = _GARxVqiJ;
         "fabric-1.20.1" = _Q2NdeGkh;
         "fabric-1.20.2" = _p02rwAbd;
         "fabric-1.20.3" = _p02rwAbd;
@@ -217,9 +271,9 @@ let
         "fabric-1.20.5" = _p02rwAbd;
         "fabric-1.20.6" = _p02rwAbd;
         "fabric-1.21.1" = _KXk7o1HG;
-        "fabric-1.21.11" = _f4rCnCMv;
-        "fabric-26.2" = _gtjXrMMc;
-        "fabric-26.1" = _jUs37vMl;
+        "fabric-1.21.11" = _YHHNpNex;
+        "fabric-26.2" = _PZu3vS47;
+        "fabric-26.1" = _Y5PcgRAe;
         "pkg-1.0" = _oA7dH4Vf;
         "pkg-1.0.0" = _p02rwAbd;
         "pkg-1.0.2" = _U3cvEHVs;
@@ -232,8 +286,9 @@ let
         "pkg-1.0.1" = _Q2NdeGkh;
         "pkg-1.0.4" = _DKMJFhyJ;
         "pkg-1.1" = _RfPZs1Tm;
-        "pkg-1.0.5" = _WQP3JICw;
-        "default" = _WQP3JICw;
+        "pkg-1.0.5" = _glgZsMjd;
+        "pkg-1.0.6" = _PaXyeduV;
+        "default" = _glgZsMjd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saros-player-plushie";

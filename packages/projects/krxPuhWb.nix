@@ -171,6 +171,11 @@ let
             "file" = "CrazyEnchantments-26.1.2-cbdc13d.jar";
             "hash" = "sha512-Fs9hWRxKJ2EaCzkJB8KAMfn8t9ju5cL1jZJHo/xo7rPFwxqnV46TXld650Xy2BtcABkn1uNvMohTsG/9iU3xeQ==";
         };
+        _QUo33hOY = {
+            "id" = "QUo33hOY";
+            "file" = "CrazyEnchantments-26.1.2-9cdeafa.jar";
+            "hash" = "sha512-DPb0DOJGyGdAfAHkbKIOEPNTqxXFn8sgkW2zOATofIMszQF5zPAKeZuBzi3fw4NLTktECcQDUdmO0maiKq/y2w==";
+        };
     in {
         "18Q2hPFT" = _18Q2hPFT;
         "zyGr4pRH" = _zyGr4pRH;
@@ -206,6 +211,7 @@ let
         "zqJIrpCd" = _zqJIrpCd;
         "jStcx1rq" = _jStcx1rq;
         "6BYgadQ8" = _6BYgadQ8;
+        "QUo33hOY" = _QUo33hOY;
         "paper-1.19.3" = _18Q2hPFT;
         "paper-1.8.8" = _zyGr4pRH;
         "paper-1.12.2" = _zyGr4pRH;
@@ -227,8 +233,8 @@ let
         "paper-1.21.9" = _VXi5vZqN;
         "paper-1.21.10" = _DwZYKEpr;
         "paper-1.21.11" = _1lU5GmKA;
-        "paper-26.1.2" = _6BYgadQ8;
-        "paper-26.2" = _6BYgadQ8;
+        "paper-26.1.2" = _QUo33hOY;
+        "paper-26.2" = _QUo33hOY;
         "purpur-1.19.3" = _18Q2hPFT;
         "purpur-1.19.4" = _MxwwRdej;
         "purpur-1.20.1" = _ISVUzoxI;
@@ -247,8 +253,8 @@ let
         "purpur-1.21.9" = _VXi5vZqN;
         "purpur-1.21.10" = _DwZYKEpr;
         "purpur-1.21.11" = _1lU5GmKA;
-        "purpur-26.1.2" = _6BYgadQ8;
-        "purpur-26.2" = _6BYgadQ8;
+        "purpur-26.1.2" = _QUo33hOY;
+        "purpur-26.2" = _QUo33hOY;
         "spigot-1.8.8" = _zyGr4pRH;
         "spigot-1.12.2" = _zyGr4pRH;
         "spigot-1.16.5" = _zyGr4pRH;
@@ -265,8 +271,8 @@ let
         "folia-1.21.9" = _VXi5vZqN;
         "folia-1.21.10" = _DwZYKEpr;
         "folia-1.21.11" = _1lU5GmKA;
-        "folia-26.1.2" = _6BYgadQ8;
-        "folia-26.2" = _6BYgadQ8;
+        "folia-26.1.2" = _QUo33hOY;
+        "folia-26.2" = _QUo33hOY;
         "pkg-1.9.8" = _18Q2hPFT;
         "pkg-1.8.1.1" = _zyGr4pRH;
         "pkg-1.9.8.2" = _jdQGOtjp;
@@ -301,7 +307,8 @@ let
         "pkg-2.8.1" = _zqJIrpCd;
         "pkg-26.1.2-92a96ad" = _jStcx1rq;
         "pkg-26.1.2-cbdc13d" = _6BYgadQ8;
-        "default" = _6BYgadQ8;
+        "pkg-26.1.2-9cdeafa" = _QUo33hOY;
+        "default" = _QUo33hOY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crazyenchantments";

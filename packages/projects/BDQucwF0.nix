@@ -141,6 +141,16 @@ let
             "file" = "relics-fabric-1.4.1+26.2.jar";
             "hash" = "sha512-ZgBWxBvvlyRYgxJ4cajDW03sTwgp8keOPqZN3DFWgcS/YLaCOThkflij9z4CkjIMAiiQRPpk89p1j3UCo7kPkg==";
         };
+        _Q6c9VGaS = {
+            "id" = "Q6c9VGaS";
+            "file" = "relics-forge-1.4.0+1.20.1.jar";
+            "hash" = "sha512-i/wsxrRdETFFPcr/FX49PUcdxg076N7uOBwdXpohxmq2QIwMNXf0FSy0M4AGnqZZYnlNMDJv8mMdEgVSK/xqdQ==";
+        };
+        _9GdjgaQd = {
+            "id" = "9GdjgaQd";
+            "file" = "relics-fabric-1.4.0+1.20.1.jar";
+            "hash" = "sha512-VzXJ6TORxHr7Bj5FsceAo1KJVX8E0boUDk5q1PYZ0qeGdxZRoelWHv4FzVh4fy7yGG64YRlIT2h+71AceFbfYg==";
+        };
     in {
         "2t6nVkZg" = _2t6nVkZg;
         "eTELZtgp" = _eTELZtgp;
@@ -170,18 +180,23 @@ let
         "RZ9E0cCE" = _RZ9E0cCE;
         "w12nObMJ" = _w12nObMJ;
         "LlhxEeBi" = _LlhxEeBi;
+        "Q6c9VGaS" = _Q6c9VGaS;
+        "9GdjgaQd" = _9GdjgaQd;
         "fabric-1.21" = _N9LYLPCa;
         "fabric-1.21.1" = _N9LYLPCa;
         "fabric-26.1" = _3f9F1yNK;
         "fabric-26.1.1" = _3f9F1yNK;
         "fabric-26.1.2" = _3f9F1yNK;
         "fabric-26.2" = _LlhxEeBi;
+        "fabric-1.20.1" = _9GdjgaQd;
         "neoforge-1.21" = _O6zfkTwx;
         "neoforge-1.21.1" = _O6zfkTwx;
         "neoforge-26.1" = _RZ9E0cCE;
         "neoforge-26.1.1" = _RZ9E0cCE;
         "neoforge-26.1.2" = _RZ9E0cCE;
         "neoforge-26.2" = _w12nObMJ;
+        "neoforge-1.20.1" = _Q6c9VGaS;
+        "forge-1.20.1" = _Q6c9VGaS;
         "pkg-1.0.0+1.21.1" = _2t6nVkZg;
         "pkg-1.0.1+1.21.1" = _eTELZtgp;
         "pkg-1.0.2+1.21.1" = _E55ItcKE;
@@ -210,7 +225,9 @@ let
         "pkg-1.4.1+26.1.2-neoforge" = _RZ9E0cCE;
         "pkg-1.4.1+26.2-neoforge" = _w12nObMJ;
         "pkg-1.4.1+26.2-fabric" = _LlhxEeBi;
-        "default" = _LlhxEeBi;
+        "pkg-1.4.0+1.20.1-forge" = _Q6c9VGaS;
+        "pkg-1.4.0+1.20.1-fabric" = _9GdjgaQd;
+        "default" = _9GdjgaQd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "relics-rpg";
