@@ -2,7 +2,7 @@
 {
     attrsets   = import ./attrsets.nix args;
     components = import ./components   args;
-    dag        = import ./dag          args;
+    dag        = import ./dag.nix      args;
     docs       = import ./docs         args;
     filesystem = import ./filesystem   args;
     instance   = import ./instance     args;

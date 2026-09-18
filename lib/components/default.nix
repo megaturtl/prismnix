@@ -190,4 +190,34 @@
         ```
     */
     latestVersionOf = loader: version: (getVersions version).${loader};
+
+    /**
+        Convert a list of components to
+        mmc-pack.json compatible string.
+
+        # Inputs
+
+        `components`
+
+        : Components to convert into a mmc-pack.json string
+
+        # Type
+
+        ```
+        toJSON :: [c] -> String
+        ```
+    */
+    toJSON = components: lib.prismnix.toJSON {
+        components = map (c: removeAttrs c ["priority"]) (
+            builtins.sort (a: b: a.priority < b.priority) (
+                map (c:
+                    c // {
+                        priority = c.priority
+                            or 1000;
+                    }
+                ) components
+            )
+        );
+        formatVersion = 1;
+    };
 }

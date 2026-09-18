@@ -11,6 +11,7 @@
                 default = name;
                 description = "Target name of the config";
             };
+
             #
             # Not possible in the current
             # implementation of the config option.

@@ -353,6 +353,8 @@
 
     /**
         Call a function for each attribute in a set.
+        The result of the function is a list.
+        All lists then will be concatenated.
 
         # Inputs
 
@@ -405,11 +407,6 @@
         isAttrEq :: String -> a -> { String :: b } -> Bool
         ```
     */
-    # isAttrEq = name: value: attrset: (
-    #   if builtins.hasAttr name attrset
-    #       then attrset.${name} == value
-    #       else false
-    # );
 
     /**
         Returns true if a given function

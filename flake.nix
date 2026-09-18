@@ -2,32 +2,42 @@
     description = "Flake to install PrismLauncher for Minecraft and create your instances declaratively";
 
     inputs = {
-        prismlauncher = {
-            url = "github:PrismLauncher/PrismLauncher";
-            inputs.nixpkgs.follows = "nixpkgs";
-        };
         home-manager =  {
             url = "github:nix-community/home-manager";
+            inputs.nixpkgs.follows = "nixpkgs";
+        };
+        hjem = {
+            url = "github:feel-co/hjem";
             inputs.nixpkgs.follows = "nixpkgs";
         };
         nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
         flake-utils.url = "github:numtide/flake-utils";
     };
-    outputs = {self, nixpkgs, prismlauncher, home-manager, flake-utils, ...}@inputs:
+    outputs = {self, nixpkgs, flake-utils, ...}@inputs:
     let
-        systems = builtins.attrNames (prismlauncher.packages);
-        lib = nixpkgs.lib // home-manager.lib // self.lib;
+        systems = nixpkgs.lib.systems.flakeExposed;
+        lib = nixpkgs.lib // self.lib;
     in
     {
         homeModules = rec {
             prismnixWith = {...}@args: (
-                import ./homeModules/prismnix.nix ({
+                import ./modules/home/prismnix.nix ({
                     lib = lib;
                     inputs = inputs;
                 } // args)
             );
             prismnix = prismnixWith {};
         };
+        hjemModules = rec {
+            prismnixWith = {...}@args: (
+                import ./modules/hjem/prismnix.nix ({
+                    lib = lib;
+                    inputs = inputs;
+                } // args)
+            );
+            prismnix = prismnixWith {};
+        };
+
         lib.prismnix = import ./lib {inherit lib;};
 
         overlays = {
@@ -52,6 +62,14 @@
                 pkgs = pkgs;
                 inputs = inputs;
                 system = system;
+            };
+
+            tests = import ./tests {
+                lib = lib;
+                inputs = inputs;
+                pkgs = pkgs.extend (
+                    self.overlays.default
+                );
             };
         }
     );
