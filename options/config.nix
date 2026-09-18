@@ -82,7 +82,7 @@ in
         mkIf = opt: val: lib.mkIf (opt ? option) val;
     in {
         config = {
-            "name" = {value = cfg.name;};
+            "name" = {value = lib.mkDefault cfg.name;};
 
             # Memory
             "OverrideMemory" = mkOpt ["memory" "override"];
