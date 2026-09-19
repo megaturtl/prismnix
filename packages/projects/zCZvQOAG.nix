@@ -41,6 +41,11 @@ let
             "file" = "IsleOfBerk_Nest_V3.4.1.jar";
             "hash" = "sha512-T88hn1/NEFi0X6Kn84ZipM0f+Q/cxcxv2dmjwB099UVSMDF38g8n4cpZaRNa8pGYSoLf/iQzYTSRBD2vJ+mXaA==";
         };
+        _95DVhmhq = {
+            "id" = "95DVhmhq";
+            "file" = "IsleOfBerk_Nest_V3.5.0.jar";
+            "hash" = "sha512-ii8K7+pPeiLdmOTFnt2XMy/iSICd7tm250nq5f7MdeBc4D2c5oSaseCcxBaTp7YLCEETz79Isp7qqUUW7Rm3wA==";
+        };
     in {
         "rg197dal" = _rg197dal;
         "RgSdbVQf" = _RgSdbVQf;
@@ -50,7 +55,8 @@ let
         "NJpNsbBH" = _NJpNsbBH;
         "bENxFnfM" = _bENxFnfM;
         "9zeAcDSW" = _9zeAcDSW;
-        "forge-1.18.2" = _9zeAcDSW;
+        "95DVhmhq" = _95DVhmhq;
+        "forge-1.18.2" = _95DVhmhq;
         "pkg-IOB-NEST-ADDONV1.4" = _rg197dal;
         "pkg-IOB-NEST-ADDONV2.0.jar" = _RgSdbVQf;
         "pkg-3.0" = _GTibzF3I;
@@ -59,7 +65,8 @@ let
         "pkg-3.2.0" = _NJpNsbBH;
         "pkg-3.3.0" = _bENxFnfM;
         "pkg-3.4.1" = _9zeAcDSW;
-        "default" = _9zeAcDSW;
+        "pkg-3.5.0" = _95DVhmhq;
+        "default" = _95DVhmhq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nests-of-the-archipelago!";

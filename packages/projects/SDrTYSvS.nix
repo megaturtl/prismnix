@@ -206,6 +206,11 @@ let
             "file" = "hearty-meals-fabric-26.2-r5.jar";
             "hash" = "sha512-xMmE/YnQFX07Fgi7m12g81vyih/1FIDrDm7+ZpGULF/0v+DUK8cSPaS80XKLgnXWnXzpb7NJmG0CbaUvp1loLg==";
         };
+        _5F0FQ6m0 = {
+            "id" = "5F0FQ6m0";
+            "file" = "hearty-meals-fabric-26.3-r1.jar";
+            "hash" = "sha512-IxmX9m6mv96XlrUGT3baX6CDWM5NgZcmJE/tvGVWOmpWK5FyxA7sSqQFazq3vweJGATHz1Nz/IJfk2v1csrhWw==";
+        };
     in {
         "rhwfMu9L" = _rhwfMu9L;
         "CUJUMz0c" = _CUJUMz0c;
@@ -248,6 +253,7 @@ let
         "dxT6sdd5" = _dxT6sdd5;
         "2EGcybkk" = _2EGcybkk;
         "Fg0qgesV" = _Fg0qgesV;
+        "5F0FQ6m0" = _5F0FQ6m0;
         "fabric-1.20.1" = _zNw0ihOn;
         "fabric-1.20.6" = _wSq2Yk0f;
         "fabric-1.21" = _kd4u2hPI;
@@ -266,6 +272,7 @@ let
         "fabric-26.1.1" = _dxT6sdd5;
         "fabric-26.1.2" = _dxT6sdd5;
         "fabric-26.2" = _Fg0qgesV;
+        "fabric-26.3" = _5F0FQ6m0;
         "quilt-1.20.1" = _zNw0ihOn;
         "quilt-1.20.6" = _wSq2Yk0f;
         "quilt-1.21" = _kd4u2hPI;
@@ -325,7 +332,8 @@ let
         "pkg-26.1-r3" = _qWGa1VBP;
         "pkg-26.1-r4" = _2EGcybkk;
         "pkg-26.2-r5" = _Fg0qgesV;
-        "default" = _Fg0qgesV;
+        "pkg-26.3-r1" = _5F0FQ6m0;
+        "default" = _5F0FQ6m0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hearty-meals";

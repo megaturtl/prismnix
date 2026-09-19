@@ -26,20 +26,27 @@ let
             "file" = "MetallicTinkering-1.20.1-1.4.0.jar";
             "hash" = "sha512-qqar923aTNT49YTq449gBGq3fgsVoG9ri3BqXy4aYPQelsLDmlgcdkFy5OdbSwLsb7LB5ykGAjrejnkqmVVsuw==";
         };
+        _EinTKkmk = {
+            "id" = "EinTKkmk";
+            "file" = "MetallicTinkering-1.20.1-1.5.0.jar";
+            "hash" = "sha512-3Yw5vUMcLPLatbkJRG7QeCS1YIWgp7m8Re46yOAUdmehAaZ48Bb2e7voV/lIBKBONKisJ3JsjAJ/LeNRaacRAA==";
+        };
     in {
         "nXqXgytq" = _nXqXgytq;
         "QGmQda8Q" = _QGmQda8Q;
         "7ypJZKZG" = _7ypJZKZG;
         "mXwh8dUI" = _mXwh8dUI;
         "8N0SVMuX" = _8N0SVMuX;
-        "forge-1.20.1" = _8N0SVMuX;
-        "neoforge-1.20.1" = _8N0SVMuX;
+        "EinTKkmk" = _EinTKkmk;
+        "forge-1.20.1" = _EinTKkmk;
+        "neoforge-1.20.1" = _EinTKkmk;
         "pkg-1.0.0" = _nXqXgytq;
         "pkg-1.1.0" = _QGmQda8Q;
         "pkg-1.2.0" = _7ypJZKZG;
         "pkg-1.3.2" = _mXwh8dUI;
         "pkg-1.4.0" = _8N0SVMuX;
-        "default" = _8N0SVMuX;
+        "pkg-1.5.0" = _EinTKkmk;
+        "default" = _EinTKkmk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "metallic-tinkering";

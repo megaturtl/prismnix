@@ -106,6 +106,11 @@ let
             "file" = "NTM-CE-1.12.2-2.6.0.0.jar";
             "hash" = "sha512-HmcNCOuAvala2OKfJfCNHK90Da5Pzn3Po6qxUnQhzdLwhxxteMvr9uzuA6L2iSyMtaaK3w22XeZspJi3ZVG2Nw==";
         };
+        _8te6YIHl = {
+            "id" = "8te6YIHl";
+            "file" = "NTM-CE-1.12.2-2.6.1.0.jar";
+            "hash" = "sha512-HSIz8lPnaG7qjEwrGDbZZCrEKttgii0BZjvrb87IS3OdAPCbfMsQuR3N3eFa7Xpdf9r1B0HlcOb9SHaJGl3KkA==";
+        };
     in {
         "WhiJnFfW" = _WhiJnFfW;
         "HXxLWE4o" = _HXxLWE4o;
@@ -128,7 +133,8 @@ let
         "dZoCTxwm" = _dZoCTxwm;
         "BV15Mbxf" = _BV15Mbxf;
         "LpYI3Ovn" = _LpYI3Ovn;
-        "forge-1.12.2" = _LpYI3Ovn;
+        "8te6YIHl" = _8te6YIHl;
+        "forge-1.12.2" = _8te6YIHl;
         "pkg-2025-09-01" = _WhiJnFfW;
         "pkg-1.2.3.4" = _HXxLWE4o;
         "pkg-1.2.5.4" = _isY0XYAV;
@@ -150,7 +156,8 @@ let
         "pkg-2.5.0.4" = _dZoCTxwm;
         "pkg-2.5.0.5" = _BV15Mbxf;
         "pkg-2.6.0.0" = _LpYI3Ovn;
-        "default" = _LpYI3Ovn;
+        "pkg-2.6.1.0" = _8te6YIHl;
+        "default" = _8te6YIHl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ntm-ce";

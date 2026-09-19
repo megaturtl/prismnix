@@ -401,6 +401,16 @@ let
             "file" = "wood plus-4.0.1.jar";
             "hash" = "sha512-tAnvt7a44w6vtlRWRx7MVCwOANBKPqayvdbYZLaJS1yjROvbTWW50A6x+MDw0aDlEaZJs5RkyNTqI0Y5rzw5wQ==";
         };
+        _ENkiVcE9 = {
+            "id" = "ENkiVcE9";
+            "file" = "wood plus-4.0.1.jar";
+            "hash" = "sha512-LrCK9Z5AIKYaPqeYHkDfWStM4LlIsM5gFTFI2qydg3tksIFYIoO2HIKIPVWuCb4FCXyzlGrT6GWQa/IE35mHzg==";
+        };
+        _6h08hrao = {
+            "id" = "6h08hrao";
+            "file" = "wood plus-4.0.1.jar";
+            "hash" = "sha512-LrCK9Z5AIKYaPqeYHkDfWStM4LlIsM5gFTFI2qydg3tksIFYIoO2HIKIPVWuCb4FCXyzlGrT6GWQa/IE35mHzg==";
+        };
     in {
         "l9BIVuqt" = _l9BIVuqt;
         "RsTNzbwf" = _RsTNzbwf;
@@ -482,6 +492,8 @@ let
         "SYDYwt97" = _SYDYwt97;
         "2qMVapun" = _2qMVapun;
         "GKVUd89V" = _GKVUd89V;
+        "ENkiVcE9" = _ENkiVcE9;
+        "6h08hrao" = _6h08hrao;
         "fabric-1.21.1" = _boAuOCFP;
         "fabric-1.21.4" = _f2xOpFue;
         "fabric-25w02a" = _f2xOpFue;
@@ -552,6 +564,12 @@ let
         "fabric-26.3-snapshot-8" = _2qMVapun;
         "fabric-26.3-snapshot-9" = _GKVUd89V;
         "fabric-26.3-snapshot-10" = _GKVUd89V;
+        "fabric-26.3-pre-1" = _ENkiVcE9;
+        "fabric-26.3-pre-2" = _ENkiVcE9;
+        "fabric-26.3-pre-3" = _ENkiVcE9;
+        "fabric-26.3-rc-1" = _ENkiVcE9;
+        "fabric-26.3-rc-2" = _ENkiVcE9;
+        "fabric-26.3" = _6h08hrao;
         "pkg-1.0.0" = _O0DxUlnH;
         "pkg-2.0.1" = _RsTNzbwf;
         "pkg-1.0.2" = _tCjboiAv;
@@ -586,7 +604,9 @@ let
         "pkg-4.0.1-26.3snapshot2" = _SYDYwt97;
         "pkg-4.0.1-26.3snapshot8-broken-1" = _2qMVapun;
         "pkg-4.0.1-26.3-snapshot9-broken1" = _GKVUd89V;
-        "default" = _GKVUd89V;
+        "pkg-4.0.1-26.3-pre2" = _ENkiVcE9;
+        "pkg-4.0.1-26.3-broken1" = _6h08hrao;
+        "default" = _6h08hrao;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wood-plus";

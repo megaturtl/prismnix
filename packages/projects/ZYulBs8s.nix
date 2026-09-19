@@ -101,6 +101,11 @@ let
             "file" = "shulker_bundle-1.5.jar";
             "hash" = "sha512-CbFWxiXj2B9U4fdxI0I/vAGYkebc4xJ5VcXImVgn+eoCkWXGZXFGcODPQRTLHDvIzIbyUwMSgMKRlMftwI/mvA==";
         };
+        _Ch3Ws6a7 = {
+            "id" = "Ch3Ws6a7";
+            "file" = "shulker_bundle-1.5.jar";
+            "hash" = "sha512-LfBXwn3E1dOGJYqmPDu5YWbZrOiwR6/ZZ8KQFx5QB0jawTLVwio3lm1WtER1hdYyURkV2WQdmjvHkWN95QGlNA==";
+        };
     in {
         "AX67e8rl" = _AX67e8rl;
         "9dRMW5iO" = _9dRMW5iO;
@@ -122,6 +127,7 @@ let
         "ZbSIEGMK" = _ZbSIEGMK;
         "EWrwhmmO" = _EWrwhmmO;
         "4RdvHb8f" = _4RdvHb8f;
+        "Ch3Ws6a7" = _Ch3Ws6a7;
         "fabric-1.21.5" = _MQpg4euR;
         "fabric-1.21.6" = _6TMLCzlk;
         "fabric-1.21.7" = _6TMLCzlk;
@@ -133,14 +139,15 @@ let
         "fabric-26.1.1" = _EWrwhmmO;
         "fabric-26.1.2" = _EWrwhmmO;
         "fabric-26.2" = _4RdvHb8f;
+        "fabric-26.3" = _Ch3Ws6a7;
         "pkg-1.0" = _AX67e8rl;
         "pkg-1.1" = _MAdwmBJn;
         "pkg-1.2" = _njqWC7o9;
         "pkg-1.2.1" = _YOzFfT20;
         "pkg-1.3" = _fMkUK6tV;
         "pkg-1.4" = _5CmNEXLX;
-        "pkg-1.5" = _4RdvHb8f;
-        "default" = _4RdvHb8f;
+        "pkg-1.5" = _Ch3Ws6a7;
+        "default" = _Ch3Ws6a7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shulker-bundle";

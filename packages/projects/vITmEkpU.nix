@@ -311,6 +311,16 @@ let
             "file" = "ElytraSwapper-fabric-26.2-2.0.0+26.2.jar";
             "hash" = "sha512-TzkTYqoGdO10eVmlWYB0oSLQwHEEBwC+NLaOFYWwRkUroHMJA+aokw6jd5N5q7keucBskfbs4esvHySsvkxd7A==";
         };
+        _IabHppP3 = {
+            "id" = "IabHppP3";
+            "file" = "ElytraSwapper-neoforge-26.3-2.1.0+26.3.jar";
+            "hash" = "sha512-W9iaUeWVZaQ8oysuWP0HBQIwtriUGtbyyciJtig83QbD+qm2M+VJg9T+s2P4ItpDkWnse8vSZ1fCxglrP6JCSw==";
+        };
+        _FHf5ysTt = {
+            "id" = "FHf5ysTt";
+            "file" = "ElytraSwapper-fabric-26.3-2.1.0+26.3.jar";
+            "hash" = "sha512-QcCoi3JcFx2U03RbwqT/DwY2x/XRIzAbSp8pjcoA2qeZloYJkBucX26Ihq5Y94U+RzCuPZBVUHCJ8LciJnOyxw==";
+        };
     in {
         "GHvjmKbL" = _GHvjmKbL;
         "ujlwTHYJ" = _ujlwTHYJ;
@@ -374,6 +384,8 @@ let
         "BxQHz8vp" = _BxQHz8vp;
         "HS8Kctap" = _HS8Kctap;
         "6Z7b2ZC8" = _6Z7b2ZC8;
+        "IabHppP3" = _IabHppP3;
+        "FHf5ysTt" = _FHf5ysTt;
         "fabric-1.21" = _F2PKfizW;
         "fabric-1.21.1" = _Jywlr2ZD;
         "fabric-1.21.5" = _ZhDmtWGK;
@@ -397,6 +409,7 @@ let
         "fabric-1.20.4" = _hUE0eUkv;
         "fabric-1.20.5" = _IjRQc6qz;
         "fabric-1.20.6" = _4zOk7mt3;
+        "fabric-26.3" = _FHf5ysTt;
         "quilt-1.20" = _Epgts2f8;
         "quilt-1.20.1" = _q77HkMY0;
         "quilt-1.20.2" = _sdPLHgUU;
@@ -420,6 +433,7 @@ let
         "quilt-26.1.1" = _Efxjt9hj;
         "quilt-26.1.2" = _BxQHz8vp;
         "quilt-26.2" = _6Z7b2ZC8;
+        "quilt-26.3" = _FHf5ysTt;
         "neoforge-1.20.2" = _eqperLdt;
         "neoforge-1.20.3" = _v1FRpuPM;
         "neoforge-1.20.4" = _IGZgJaOc;
@@ -441,6 +455,7 @@ let
         "neoforge-26.1.1" = _GgAnxsLP;
         "neoforge-26.1.2" = _4gghUHYc;
         "neoforge-26.2" = _HS8Kctap;
+        "neoforge-26.3" = _IabHppP3;
         "pkg-1.3" = _GHvjmKbL;
         "pkg-1.4" = _ujlwTHYJ;
         "pkg-1.5" = _ihN6q07t;
@@ -503,7 +518,9 @@ let
         "pkg-2.0.0+26.1.2-fabric" = _BxQHz8vp;
         "pkg-2.0.0+26.2-neoforge" = _HS8Kctap;
         "pkg-2.0.0+26.2-fabric" = _6Z7b2ZC8;
-        "default" = _6Z7b2ZC8;
+        "pkg-2.1.0+26.3-neoforge" = _IabHppP3;
+        "pkg-2.1.0+26.3-fabric" = _FHf5ysTt;
+        "default" = _FHf5ysTt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytra-swapper";

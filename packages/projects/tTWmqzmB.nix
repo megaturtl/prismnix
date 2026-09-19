@@ -96,6 +96,21 @@ let
             "file" = "light-up-quilt-1.0.4.jar";
             "hash" = "sha512-q+4xWE/Hw8nHjIBPUd/1/AujVC6vDAhdQmd5GSbwEQY/sp+11ULx9M+OSYITL5NV/taGdft2IsgNRLwt3om4jQ==";
         };
+        _B3SB2ZWn = {
+            "id" = "B3SB2ZWn";
+            "file" = "light-up-fabric-1.0.4.jar";
+            "hash" = "sha512-wenU7JJzpimKNrWLzi49aCZjSFidHyjVBtjLlsUjbBYkCleT+vKBbDx9e2QAUAu1mvuYTPlvZ98p9cuJyGQ8kQ==";
+        };
+        _ougA9dE0 = {
+            "id" = "ougA9dE0";
+            "file" = "light-up-neoforge-1.0.4.jar";
+            "hash" = "sha512-BqI29m0FEVT3xr6l42ph8osVc5LxSnnNwgn/ws+byi09uem2VssaCgnLXbQIWgjFwqxuQYUBcHOCLK3SB9XX8g==";
+        };
+        _n9LQhk3s = {
+            "id" = "n9LQhk3s";
+            "file" = "light-up-quilt-1.0.4.jar";
+            "hash" = "sha512-/2hI+RfCEafXvteikHQjHXRqwcEAC/y2i3GJ6dbB6EmtIfeG7WZwa216SC9Q6iDWa7UjdYVVKnM4jIsFNVCm6g==";
+        };
     in {
         "hrNMrbQ4" = _hrNMrbQ4;
         "7Tm8sqld" = _7Tm8sqld;
@@ -116,6 +131,9 @@ let
         "bbkKNjxo" = _bbkKNjxo;
         "q2XYn10u" = _q2XYn10u;
         "1ibzQ45F" = _1ibzQ45F;
+        "B3SB2ZWn" = _B3SB2ZWn;
+        "ougA9dE0" = _ougA9dE0;
+        "n9LQhk3s" = _n9LQhk3s;
         "fabric-1.19" = _VBPNA7IJ;
         "fabric-1.19.1" = _VBPNA7IJ;
         "fabric-1.19.2" = _VBPNA7IJ;
@@ -147,6 +165,7 @@ let
         "fabric-26.1.1" = _jhHz8sO0;
         "fabric-26.1.2" = _jhHz8sO0;
         "fabric-26.2" = _bbkKNjxo;
+        "fabric-26.3" = _B3SB2ZWn;
         "quilt-1.19" = _VBPNA7IJ;
         "quilt-1.19.1" = _VBPNA7IJ;
         "quilt-1.19.2" = _VBPNA7IJ;
@@ -175,16 +194,18 @@ let
         "quilt-26.1.1" = _fIEWXcQB;
         "quilt-26.1.2" = _fIEWXcQB;
         "quilt-26.2" = _1ibzQ45F;
+        "quilt-26.3" = _n9LQhk3s;
         "neoforge-26.1" = _wOw7eBZI;
         "neoforge-26.1.1" = _wOw7eBZI;
         "neoforge-26.1.2" = _wOw7eBZI;
         "neoforge-26.2" = _q2XYn10u;
+        "neoforge-26.3" = _ougA9dE0;
         "pkg-1.0.0" = _ANWVQLhS;
         "pkg-1.0.1" = _SDjA4xV0;
         "pkg-1.0.2" = _EAYHMi8X;
         "pkg-1.0.3" = _ZDR6PpkH;
-        "pkg-1.0.4" = _1ibzQ45F;
-        "default" = _1ibzQ45F;
+        "pkg-1.0.4" = _n9LQhk3s;
+        "default" = _n9LQhk3s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "light-up";

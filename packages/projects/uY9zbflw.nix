@@ -171,6 +171,16 @@ let
             "file" = "soundcontroller-neoforge-1.4.0-mc1.21.1.jar";
             "hash" = "sha512-in4Syu1zkhZqfXm3UltYZRI3ecOWUXX4WFP0xVnNJ51psTXI4AOSWORq6WnqkKR7ON6zes2wqrFkw4FyXzXkoA==";
         };
+        _6FBOJLK2 = {
+            "id" = "6FBOJLK2";
+            "file" = "soundcontroller-fabric-1.4.1-mc26.3.jar";
+            "hash" = "sha512-5wuB5oeFyku/ZuaiEsmu3OKZBJYmDpZCmYBiXjxzJRJnOLlg2mGxYG+vEeZfGxhHnyVMyq3P9QlUxaD4dXf6tg==";
+        };
+        _QkE8GLvc = {
+            "id" = "QkE8GLvc";
+            "file" = "soundcontroller-neoforge-1.4.1-mc26.3.jar";
+            "hash" = "sha512-bF6GlzHZUUZf1UG/utpsQ07wM8MmEIVs2/YkZ0tBqIviLbYvTZk8znKu4ko5Wa7ZMPSKTtmcWdWjHKMwlQVCOg==";
+        };
     in {
         "nxI8wZmB" = _nxI8wZmB;
         "zY1VNCqT" = _zY1VNCqT;
@@ -206,6 +216,8 @@ let
         "5YXU2rID" = _5YXU2rID;
         "AaqHN26X" = _AaqHN26X;
         "3TaQzJJO" = _3TaQzJJO;
+        "6FBOJLK2" = _6FBOJLK2;
+        "QkE8GLvc" = _QkE8GLvc;
         "fabric-1.20" = _wmmrvZJq;
         "fabric-1.20.1" = _wmmrvZJq;
         "fabric-1.20.2" = _fV5OsvJG;
@@ -232,6 +244,7 @@ let
         "fabric-26.1.1" = _7ivrON6l;
         "fabric-26.1.2" = _7ivrON6l;
         "fabric-26.2" = _5YXU2rID;
+        "fabric-26.3" = _6FBOJLK2;
         "quilt-1.20" = _wmmrvZJq;
         "quilt-1.20.1" = _wmmrvZJq;
         "quilt-1.20.2" = _fV5OsvJG;
@@ -258,8 +271,10 @@ let
         "quilt-26.1.1" = _7ivrON6l;
         "quilt-26.1.2" = _7ivrON6l;
         "quilt-26.2" = _5YXU2rID;
+        "quilt-26.3" = _6FBOJLK2;
         "neoforge-26.2" = _AaqHN26X;
         "neoforge-1.21.1" = _3TaQzJJO;
+        "neoforge-26.3" = _QkE8GLvc;
         "pkg-0.1.0" = _nxI8wZmB;
         "pkg-1.0.0" = _zY1VNCqT;
         "pkg-1.0.1" = _1xWy6rUB;
@@ -287,7 +302,8 @@ let
         "pkg-1.3.0-mc26.2" = _OSGCokHa;
         "pkg-1.4.0-mc26.2" = _AaqHN26X;
         "pkg-1.4.0-mc1.21.1" = _3TaQzJJO;
-        "default" = _3TaQzJJO;
+        "pkg-1.4.1-mc26.3" = _QkE8GLvc;
+        "default" = _QkE8GLvc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sound-controller";

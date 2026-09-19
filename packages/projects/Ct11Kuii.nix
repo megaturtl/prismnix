@@ -676,6 +676,21 @@ let
             "file" = "kaleidoscope_cookery-1.4.1.5-fabric+mc26.2.jar";
             "hash" = "sha512-QOvjYvh/t0r2JDD+bm2WQjiYtykA65CDHq3nNS9dvytrW5bCGvnSDet1RfqaT2QcFw8qD3S4t8kZfKvCWb8k0Q==";
         };
+        _RmB1xkJs = {
+            "id" = "RmB1xkJs";
+            "file" = "kaleidoscope_cookery-1.4.1.6-fabric+mc26.1.2.jar";
+            "hash" = "sha512-46Ep6e7PFzxFQNteLjnzpCoxN6lq0+uLgffAiUQYTBvtINzSuZMHP8odloGkCxLnuknv0EH2Dz6IvmKCekU0Og==";
+        };
+        _cORVRSLc = {
+            "id" = "cORVRSLc";
+            "file" = "kaleidoscope_cookery-1.4.1.6-fabric+mc26.2.jar";
+            "hash" = "sha512-0uzqjmOkQj/D+29F2JwfIl0oBl3lnTHF3FNiqPTDq3FnGfrQYWUdzLDHZ3jH2fjhQsZbeB0c34GN+GLVzRMbxw==";
+        };
+        _FUR9ULli = {
+            "id" = "FUR9ULli";
+            "file" = "kaleidoscope_cookery-1.4.1.6-fabric+mc26.3.jar";
+            "hash" = "sha512-50h/clQ4rZg/TDyR/pFMqB68r4KsgR5Ilmm3nICBJ60xnQTPPxkFan69Uj5/5qTf1ONobizPN3eOmGZHFD5Uew==";
+        };
     in {
         "Q9RlHo9S" = _Q9RlHo9S;
         "4J1qbJCm" = _4J1qbJCm;
@@ -812,13 +827,17 @@ let
         "IMzQT2Ri" = _IMzQT2Ri;
         "qkxkoIoP" = _qkxkoIoP;
         "sI2J3DJl" = _sI2J3DJl;
+        "RmB1xkJs" = _RmB1xkJs;
+        "cORVRSLc" = _cORVRSLc;
+        "FUR9ULli" = _FUR9ULli;
         "fabric-1.21.1" = _IMzQT2Ri;
         "fabric-1.20.1" = _j66hW3nW;
         "fabric-1.21.11" = _Gns9Xmuq;
-        "fabric-26.1" = _qkxkoIoP;
-        "fabric-26.1.1" = _qkxkoIoP;
-        "fabric-26.1.2" = _qkxkoIoP;
-        "fabric-26.2" = _sI2J3DJl;
+        "fabric-26.1" = _RmB1xkJs;
+        "fabric-26.1.1" = _RmB1xkJs;
+        "fabric-26.1.2" = _RmB1xkJs;
+        "fabric-26.2" = _cORVRSLc;
+        "fabric-26.3" = _FUR9ULli;
         "pkg-1.1.1-fabric+mc1.21.1" = _Q9RlHo9S;
         "pkg-1.1.1-fabric+mc1.20.1" = _4J1qbJCm;
         "pkg-1.1.1a-fabric+mc1.21.1" = _YR85Iz5R;
@@ -954,7 +973,10 @@ let
         "pkg-1.4.1.4-fabric+mc1.21.1" = _IMzQT2Ri;
         "pkg-1.4.1.5-fabric+mc26.1.2" = _qkxkoIoP;
         "pkg-1.4.1.5-fabric+mc26.2" = _sI2J3DJl;
-        "default" = _sI2J3DJl;
+        "pkg-1.4.1.6-fabric+mc26.1.2" = _RmB1xkJs;
+        "pkg-1.4.1.6-fabric+mc26.2" = _cORVRSLc;
+        "pkg-1.4.1.6-fabric+mc26.3" = _FUR9ULli;
+        "default" = _FUR9ULli;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kaleidoscope-cookery-refabricated";

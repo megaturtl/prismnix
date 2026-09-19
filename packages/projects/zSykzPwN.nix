@@ -26,12 +26,18 @@ let
             "file" = "True Skin Armor 26.2.zip";
             "hash" = "sha512-72vMDJlJWxGgM4Oq10p8CJjkCSmtPzrMTI9BqBKkIvpF9RWkGZujx1C4OL5ak2z4LaG/XChEvvtO2qAyoo5Khg==";
         };
+        _WHQa3KVT = {
+            "id" = "WHQa3KVT";
+            "file" = "True Skin Armor 26.3.zip";
+            "hash" = "sha512-4zre6Tv9TPbS/wFrxiEak9zkb6TFHp3GM+4glo1rz9V+24JN4ewa6MStiYpghHJEtkjANRPSeBP8oDfwPB3zdw==";
+        };
     in {
         "bCbSOLfK" = _bCbSOLfK;
         "j4EmpOyW" = _j4EmpOyW;
         "IRpc9F97" = _IRpc9F97;
         "vIGvUf1V" = _vIGvUf1V;
         "MzjXcpH6" = _MzjXcpH6;
+        "WHQa3KVT" = _WHQa3KVT;
         "minecraft-1.21.7" = _bCbSOLfK;
         "minecraft-1.21.8" = _bCbSOLfK;
         "minecraft-1.21.9" = _j4EmpOyW;
@@ -40,12 +46,14 @@ let
         "minecraft-26.1.1" = _vIGvUf1V;
         "minecraft-26.1.2" = _vIGvUf1V;
         "minecraft-26.2" = _MzjXcpH6;
+        "minecraft-26.3" = _WHQa3KVT;
         "pkg-1.0" = _bCbSOLfK;
         "pkg-1.1" = _j4EmpOyW;
         "pkg-1.2" = _IRpc9F97;
         "pkg-26.1-26.1.2" = _vIGvUf1V;
         "pkg-26.2" = _MzjXcpH6;
-        "default" = _MzjXcpH6;
+        "pkg-26.3" = _WHQa3KVT;
+        "default" = _WHQa3KVT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "true-skin-armor";

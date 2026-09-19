@@ -251,6 +251,16 @@ let
             "file" = "bingo-1.1.24.jar";
             "hash" = "sha512-QQrIWo0/B4a4ifqkvv2bDY30FNjHD7OQjhkaWT/tB7ipubwJ8PXsfY2WewDHc9TKlykc3O60Eifhhy97qkfWvg==";
         };
+        _vhLrnWRr = {
+            "id" = "vhLrnWRr";
+            "file" = "bingo-1.1.25.jar";
+            "hash" = "sha512-ssGEWPsWsWjX/P9FMXbvlMDo9fmqVzLSUepJFGIzBD6MHQAx6E42NiKsrs3T35rZpTb29USith7HIrPYiwSP6g==";
+        };
+        _gfARMkOs = {
+            "id" = "gfARMkOs";
+            "file" = "bingo-1.1.25.jar";
+            "hash" = "sha512-ONRL29+Gk0qOTpAhJQx/a1C/TSnKsqKavzXRW0GzE9Dg8bVFhYB3JEv/Q4S1hZLP5N4a6uKutR+3RBvb+MCrrA==";
+        };
     in {
         "sZl7xd8G" = _sZl7xd8G;
         "CM8rqNv8" = _CM8rqNv8;
@@ -302,6 +312,8 @@ let
         "UR61hV6s" = _UR61hV6s;
         "t4VECIht" = _t4VECIht;
         "ZqCHVoDr" = _ZqCHVoDr;
+        "vhLrnWRr" = _vhLrnWRr;
+        "gfARMkOs" = _gfARMkOs;
         "fabric-1.20.2" = _sZl7xd8G;
         "fabric-1.20.4" = _koly14Y6;
         "fabric-1.20.5" = _VRL8c1ZH;
@@ -315,6 +327,7 @@ let
         "fabric-1.21.9" = _t55XxEO1;
         "fabric-1.21.10" = _CP1ZIdTU;
         "fabric-26.1.2" = _t4VECIht;
+        "fabric-26.2" = _vhLrnWRr;
         "neoforge-1.20.2" = _CM8rqNv8;
         "neoforge-1.20.4" = _lRHf1ioX;
         "neoforge-1.20.5" = _F9pWEV2E;
@@ -328,6 +341,7 @@ let
         "neoforge-1.21.9" = _niAEkl6x;
         "neoforge-1.21.10" = _2mnSLkbr;
         "neoforge-26.1.2" = _ZqCHVoDr;
+        "neoforge-26.2" = _gfARMkOs;
         "pkg-1.0+fabric" = _sZl7xd8G;
         "pkg-1.0+neoforge" = _CM8rqNv8;
         "pkg-1.1+fabric" = _y0g8VmjH;
@@ -378,7 +392,9 @@ let
         "pkg-1.1.23+neoforge" = _UR61hV6s;
         "pkg-1.1.24+fabric" = _t4VECIht;
         "pkg-1.1.24+neoforge" = _ZqCHVoDr;
-        "default" = _ZqCHVoDr;
+        "pkg-1.1.25+fabric" = _vhLrnWRr;
+        "pkg-1.1.25+neoforge" = _gfARMkOs;
+        "default" = _gfARMkOs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bingo-mod";

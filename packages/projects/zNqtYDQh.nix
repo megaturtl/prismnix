@@ -31,6 +31,11 @@ let
             "file" = "RPG Crossbow 26.1-26.1.2.zip";
             "hash" = "sha512-GFA2p+6OwfU1l7FO8Q3u/9z+HbagdjQ6afMocSjMxl1ZrAJBNthIA1OylNcLl+CXJ4gYaCKxtS4FAVJ4gQmTjQ==";
         };
+        _qYwa8cJQ = {
+            "id" = "qYwa8cJQ";
+            "file" = "RPG 26.2.zip";
+            "hash" = "sha512-syTGExut1YrhMFKbZpfY40+RBIodjZ+IrikBpve2FAOK4QjdUnDaVWHOFe/BzK77TIzspP9bk9XkmhNGwRijVQ==";
+        };
     in {
         "eqAm0cCg" = _eqAm0cCg;
         "7tUmv5rv" = _7tUmv5rv;
@@ -38,6 +43,7 @@ let
         "nvuEC793" = _nvuEC793;
         "iRLrjdzh" = _iRLrjdzh;
         "wCvr2nOc" = _wCvr2nOc;
+        "qYwa8cJQ" = _qYwa8cJQ;
         "minecraft-1.20" = _eqAm0cCg;
         "minecraft-1.20.1" = _eqAm0cCg;
         "minecraft-1.20.2" = _eqAm0cCg;
@@ -55,8 +61,10 @@ let
         "minecraft-26.1" = _wCvr2nOc;
         "minecraft-26.1.1" = _wCvr2nOc;
         "minecraft-26.1.2" = _wCvr2nOc;
+        "minecraft-26.2" = _qYwa8cJQ;
         "pkg-1.0" = _wCvr2nOc;
-        "default" = _wCvr2nOc;
+        "pkg-26.2" = _qYwa8cJQ;
+        "default" = _qYwa8cJQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rpg-crossbow";

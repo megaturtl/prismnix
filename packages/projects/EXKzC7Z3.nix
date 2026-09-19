@@ -116,6 +116,11 @@ let
             "file" = "heavy-core-duplication-1.10.jar";
             "hash" = "sha512-Z9L9HM+NBygfSsH4O6mg/Wz3ioTAOc+CnxwqOQUPiDpZxj9z9IHHEDcT3AqMJgVd944JFeFviO3m6MvpUVNlkQ==";
         };
+        _sjxg2CXc = {
+            "id" = "sjxg2CXc";
+            "file" = "DHC-1_11.zip";
+            "hash" = "sha512-95eUyR3nQXWDftIso15Jxjq6eOR68NMPTqB5nzNvycLVuSISWW1UsQBnQoGik44mFttXFYjbD9bI3EGQznLf7A==";
+        };
     in {
         "GwGjuc4d" = _GwGjuc4d;
         "KrBOLrej" = _KrBOLrej;
@@ -140,6 +145,7 @@ let
         "5lZuAuMy" = _5lZuAuMy;
         "ELnZGa2v" = _ELnZGa2v;
         "g4qP2lHK" = _g4qP2lHK;
+        "sjxg2CXc" = _sjxg2CXc;
         "datapack-1.21-pre1" = _yW5TEpWG;
         "datapack-1.21-pre2" = _yW5TEpWG;
         "datapack-1.21-pre3" = _yW5TEpWG;
@@ -154,13 +160,14 @@ let
         "datapack-1.21.6" = _FNTMWJ29;
         "datapack-1.21.7" = _FNTMWJ29;
         "datapack-1.21.8" = _FNTMWJ29;
-        "datapack-1.21.9" = _ELnZGa2v;
-        "datapack-1.21.10" = _ELnZGa2v;
-        "datapack-1.21.11" = _ELnZGa2v;
-        "datapack-26.1" = _ELnZGa2v;
-        "datapack-26.1.1" = _ELnZGa2v;
-        "datapack-26.1.2" = _ELnZGa2v;
-        "datapack-26.2" = _ELnZGa2v;
+        "datapack-1.21.9" = _sjxg2CXc;
+        "datapack-1.21.10" = _sjxg2CXc;
+        "datapack-1.21.11" = _sjxg2CXc;
+        "datapack-26.1" = _sjxg2CXc;
+        "datapack-26.1.1" = _sjxg2CXc;
+        "datapack-26.1.2" = _sjxg2CXc;
+        "datapack-26.2" = _sjxg2CXc;
+        "datapack-26.3" = _sjxg2CXc;
         "fabric-1.21" = _F5jkeBV6;
         "fabric-1.21.1" = _F5jkeBV6;
         "fabric-1.21.2" = _pjBaU9Sf;
@@ -248,7 +255,8 @@ let
         "pkg-1.9+mod" = _5lZuAuMy;
         "pkg-1.10" = _ELnZGa2v;
         "pkg-1.10+mod" = _g4qP2lHK;
-        "default" = _g4qP2lHK;
+        "pkg-1.11" = _sjxg2CXc;
+        "default" = _sjxg2CXc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "heavy-core-duplication";

@@ -91,6 +91,16 @@ let
             "file" = "conures-graves-1.1.5.jar";
             "hash" = "sha512-jsGU7TNCiFS29PaOgTGOS5dD6K45V7dnf6o/snF9bsniHV63CEz5PeVVq9mfcpDc6e14fL4ktuB+HF7TUksLVg==";
         };
+        _tjR5RKlT = {
+            "id" = "tjR5RKlT";
+            "file" = "[26.3]gravestone.zip";
+            "hash" = "sha512-mkCdR8OAVT7OtQXAB3xLhcEGbpudxGUggL2OiXbiVn9XVF6yQfqLEHwKVdlqP+4d4vrbZjAjuJy3BpIIcRtG4g==";
+        };
+        _L0OeUIZX = {
+            "id" = "L0OeUIZX";
+            "file" = "conures-graves-1.1.6.jar";
+            "hash" = "sha512-rrCpEoy0y8u7V4yzHICtRHUhIJ3K7vQ7UoQ+PItoqriwgxO/Mmj1HMRjSUsK4zCqQvzUrNSUVS9dECI241W48g==";
+        };
     in {
         "yZ3xjntC" = _yZ3xjntC;
         "Spb6jWO6" = _Spb6jWO6;
@@ -110,6 +120,8 @@ let
         "HVzSX4fQ" = _HVzSX4fQ;
         "VmFr4RNn" = _VmFr4RNn;
         "jHnnlDNc" = _jHnnlDNc;
+        "tjR5RKlT" = _tjR5RKlT;
+        "L0OeUIZX" = _L0OeUIZX;
         "datapack-1.19.4" = _yZ3xjntC;
         "datapack-1.20" = _Spb6jWO6;
         "datapack-1.20.1" = _Spb6jWO6;
@@ -134,6 +146,7 @@ let
         "datapack-26.1.1" = _CSnMX2L3;
         "datapack-26.1.2" = _CSnMX2L3;
         "datapack-26.2" = _VmFr4RNn;
+        "datapack-26.3" = _tjR5RKlT;
         "fabric-1.19.4" = _2HUjYhyP;
         "fabric-1.20" = _beykuT3R;
         "fabric-1.20.1" = _beykuT3R;
@@ -158,6 +171,7 @@ let
         "fabric-26.1.1" = _HVzSX4fQ;
         "fabric-26.1.2" = _HVzSX4fQ;
         "fabric-26.2" = _jHnnlDNc;
+        "fabric-26.3" = _L0OeUIZX;
         "forge-1.19.4" = _2HUjYhyP;
         "forge-1.20" = _beykuT3R;
         "forge-1.20.1" = _beykuT3R;
@@ -182,6 +196,7 @@ let
         "forge-26.1.1" = _HVzSX4fQ;
         "forge-26.1.2" = _HVzSX4fQ;
         "forge-26.2" = _jHnnlDNc;
+        "forge-26.3" = _L0OeUIZX;
         "neoforge-1.19.4" = _2HUjYhyP;
         "neoforge-1.20" = _beykuT3R;
         "neoforge-1.20.1" = _beykuT3R;
@@ -206,6 +221,7 @@ let
         "neoforge-26.1.1" = _HVzSX4fQ;
         "neoforge-26.1.2" = _HVzSX4fQ;
         "neoforge-26.2" = _jHnnlDNc;
+        "neoforge-26.3" = _L0OeUIZX;
         "quilt-1.19.4" = _2HUjYhyP;
         "quilt-1.20" = _beykuT3R;
         "quilt-1.20.1" = _beykuT3R;
@@ -230,6 +246,7 @@ let
         "quilt-26.1.1" = _HVzSX4fQ;
         "quilt-26.1.2" = _HVzSX4fQ;
         "quilt-26.2" = _jHnnlDNc;
+        "quilt-26.3" = _L0OeUIZX;
         "pkg-1.0" = _yZ3xjntC;
         "pkg-1.0.1" = _Spb6jWO6;
         "pkg-1.0.2" = _VV9Jm7iK;
@@ -248,7 +265,9 @@ let
         "pkg-1.1.4+mod" = _HVzSX4fQ;
         "pkg-1.1.5" = _VmFr4RNn;
         "pkg-1.1.5+mod" = _jHnnlDNc;
-        "default" = _jHnnlDNc;
+        "pkg-1.1.6" = _tjR5RKlT;
+        "pkg-1.1.6+mod" = _L0OeUIZX;
+        "default" = _L0OeUIZX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "conures-graves";

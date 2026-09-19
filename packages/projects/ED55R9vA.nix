@@ -36,6 +36,21 @@ let
             "file" = "bielgg_spells-1.4-hotfix.jar";
             "hash" = "sha512-yRHCWM2S17rGBS78HHQZOSkh0wteGPPEV4cpJ9pnfsrCXTPYWURIwXBsECKJwG3RNZfflIeXVxlxMVIiCc36zw==";
         };
+        _RVHvwDPx = {
+            "id" = "RVHvwDPx";
+            "file" = "bielgg_spells-1.5.jar";
+            "hash" = "sha512-/vL8OlZ/UqZP3+jDUhmoxUu+2AavahPaMmclaMVvuh7TQJFQZxERUufH0KR6jyQUrZTojMILMCkz3EYFEvqElg==";
+        };
+        _4dEBNwWL = {
+            "id" = "4dEBNwWL";
+            "file" = "bielgg_spells-1.5-hotfix.jar";
+            "hash" = "sha512-cAyIEyk6QRHPHZd1n0flW4YtBkhz7iIGC/EvB+cZr8xQF2H3STbSM2zZh9wGoLJ/SXbPOemQC8YhA6TIwLKQPg==";
+        };
+        _xGlPe98h = {
+            "id" = "xGlPe98h";
+            "file" = "bielgg_spells-1.5-patchwork.jar";
+            "hash" = "sha512-uN/FSPqNoqwBSf/aGFeS/NzEd+ZL5EYInMpm9yFHNsRVTC3U6cYYnAuzCwrOmBEz4qcRoPl+X06C1WpG7r4YDg==";
+        };
     in {
         "CQn6jt4X" = _CQn6jt4X;
         "PtHM9Lh0" = _PtHM9Lh0;
@@ -44,12 +59,15 @@ let
         "jkLqOY9c" = _jkLqOY9c;
         "HTxpVFFH" = _HTxpVFFH;
         "QUYcMDX8" = _QUYcMDX8;
-        "forge-1.20.1" = _QUYcMDX8;
-        "forge-1.20.2" = _QUYcMDX8;
-        "forge-1.20.3" = _QUYcMDX8;
-        "forge-1.20.4" = _QUYcMDX8;
-        "forge-1.20.5" = _QUYcMDX8;
-        "forge-1.20.6" = _QUYcMDX8;
+        "RVHvwDPx" = _RVHvwDPx;
+        "4dEBNwWL" = _4dEBNwWL;
+        "xGlPe98h" = _xGlPe98h;
+        "forge-1.20.1" = _xGlPe98h;
+        "forge-1.20.2" = _xGlPe98h;
+        "forge-1.20.3" = _xGlPe98h;
+        "forge-1.20.4" = _xGlPe98h;
+        "forge-1.20.5" = _xGlPe98h;
+        "forge-1.20.6" = _xGlPe98h;
         "pkg-1.1-hotfix" = _CQn6jt4X;
         "pkg-1.2" = _PtHM9Lh0;
         "pkg-1.2-lightweight" = _bwavwmYg;
@@ -57,7 +75,10 @@ let
         "pkg-1.3-hotfix" = _jkLqOY9c;
         "pkg-1.4" = _HTxpVFFH;
         "pkg-1.4-hotfix" = _QUYcMDX8;
-        "default" = _QUYcMDX8;
+        "pkg-1.5" = _RVHvwDPx;
+        "pkg-1.5-hotfix" = _4dEBNwWL;
+        "pkg-1.5-patchwork" = _xGlPe98h;
+        "default" = _xGlPe98h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bielggs-spells-addon";

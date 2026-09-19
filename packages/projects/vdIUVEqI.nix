@@ -106,6 +106,11 @@ let
             "file" = "copperrails-1.1.1+mc26.2.jar";
             "hash" = "sha512-QyvHCVpD9PA4wYe/fTU74zF3kQFyYq2Z2+oHQdF9tW8bepOh7klqJIs2GAoGHf04Yz3FW41KfNefDasE4VlllQ==";
         };
+        _Iqw2Cugq = {
+            "id" = "Iqw2Cugq";
+            "file" = "copperrails-1.1.1+mc26.3.jar";
+            "hash" = "sha512-YN8vS1PNK3yD8mRaLEroYYyEG/uiGD8dds16zT9n/6yR1D66916kw9nDlmTm24LUzvo3t7Mra8eLhJaRx2/Q0g==";
+        };
     in {
         "VsBDCr2J" = _VsBDCr2J;
         "XfEFVbRU" = _XfEFVbRU;
@@ -128,6 +133,7 @@ let
         "SSewM6sj" = _SSewM6sj;
         "Nllo2vCe" = _Nllo2vCe;
         "XKqqDTlD" = _XKqqDTlD;
+        "Iqw2Cugq" = _Iqw2Cugq;
         "fabric-1.21" = _lFhE7Iaj;
         "fabric-1.21.1" = _lFhE7Iaj;
         "fabric-1.18" = _t2rVi1gc;
@@ -144,6 +150,7 @@ let
         "fabric-26.1.1" = _Nllo2vCe;
         "fabric-26.1.2" = _Nllo2vCe;
         "fabric-26.2" = _XKqqDTlD;
+        "fabric-26.3" = _Iqw2Cugq;
         "pkg-1.0.0" = _VsBDCr2J;
         "pkg-1.0.1" = _XfEFVbRU;
         "pkg-1.0.2" = _RtgxHJmd;
@@ -151,8 +158,8 @@ let
         "pkg-1.0.4" = _mWVOK89F;
         "pkg-1.0.5" = _GLw1GkRg;
         "pkg-1.1.0" = _Jgc0LpgD;
-        "pkg-1.1.1" = _XKqqDTlD;
-        "default" = _XKqqDTlD;
+        "pkg-1.1.1" = _Iqw2Cugq;
+        "default" = _Iqw2Cugq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "copperrails";

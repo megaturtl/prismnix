@@ -56,6 +56,11 @@ let
             "file" = "mythictinkers-1.0.10.jar";
             "hash" = "sha512-suSX9gpU7I5my+UtYJu+CvhZhl0Mc9F8uT4x/Ei2EaSebKmlLCSmdJC5IkXRYGuAMu3l3HYmZkA0zTLyPoTd6g==";
         };
+        _KdzTQuOS = {
+            "id" = "KdzTQuOS";
+            "file" = "mythictinkers-1.0.11.jar";
+            "hash" = "sha512-v9OtAUOBQcTaw4p/cAFeKeEwaqILY93+udC7my2uKB6aWEDGl8aAkuco3Tnx98igVUUjpg3EfLDZc4QDjZPNhQ==";
+        };
     in {
         "nCSi1jOT" = _nCSi1jOT;
         "PMELhFQH" = _PMELhFQH;
@@ -68,7 +73,8 @@ let
         "es2Em5nX" = _es2Em5nX;
         "mknixUNX" = _mknixUNX;
         "AsNcZmjK" = _AsNcZmjK;
-        "forge-1.20.1" = _AsNcZmjK;
+        "KdzTQuOS" = _KdzTQuOS;
+        "forge-1.20.1" = _KdzTQuOS;
         "pkg-1.0.0" = _nCSi1jOT;
         "pkg-1.0.1" = _PMELhFQH;
         "pkg-1.0.2" = _1lwcIKnC;
@@ -80,7 +86,8 @@ let
         "pkg-1.0.8" = _es2Em5nX;
         "pkg-1.0.9" = _mknixUNX;
         "pkg-1.0.10" = _AsNcZmjK;
-        "default" = _AsNcZmjK;
+        "pkg-1.0.11" = _KdzTQuOS;
+        "default" = _KdzTQuOS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mythic-tinkers";

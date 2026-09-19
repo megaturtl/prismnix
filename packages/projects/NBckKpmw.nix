@@ -91,6 +91,16 @@ let
             "file" = "justenoughrecipesharing-fabric-26.1.2-1.1.2.jar";
             "hash" = "sha512-XaU8xyDDEbXAZZWI49t1MB9oUcX0fsSdNcyEfts7BxvpwXzIWHmp3g8AwWt+3CKPOUnrNmh5BNlh97YykQlXDg==";
         };
+        _f5TtsBpq = {
+            "id" = "f5TtsBpq";
+            "file" = "justenoughrecipesharing-neoforge-1.21.1-1.0.2.jar";
+            "hash" = "sha512-/sZIuPOSpM62LRnjcZ071B1Siq3Bf44aUYmqSfOYxm2ZeNeB0NA8AAfRX2NWjRpkU6fnQOCyoZHjqA8XSpHQHA==";
+        };
+        _yPS1Q7sR = {
+            "id" = "yPS1Q7sR";
+            "file" = "justenoughrecipesharing-fabric-1.21.1-1.0.2.jar";
+            "hash" = "sha512-1kWQNUGlLPtZIrZ3Qg1XJCtZN/BKEhyf6coVfnphZGr5b3XJs5FKIMllAKaO6ilrud4IWl9wO5YwtkSv+KT8Ew==";
+        };
     in {
         "ETexJWx8" = _ETexJWx8;
         "ICOqy3GG" = _ICOqy3GG;
@@ -110,12 +120,14 @@ let
         "9Gsjdjol" = _9Gsjdjol;
         "WzkzkNFx" = _WzkzkNFx;
         "XljtcFCG" = _XljtcFCG;
+        "f5TtsBpq" = _f5TtsBpq;
+        "yPS1Q7sR" = _yPS1Q7sR;
         "neoforge-26.1.2" = _WzkzkNFx;
         "neoforge-26.2" = _plpDOylY;
-        "neoforge-1.21.1" = _jpBNuiNK;
+        "neoforge-1.21.1" = _f5TtsBpq;
         "fabric-26.1.2" = _XljtcFCG;
         "fabric-26.2" = _Bxh09GXi;
-        "fabric-1.21.1" = _9Gsjdjol;
+        "fabric-1.21.1" = _yPS1Q7sR;
         "pkg-26.1.2-1.0.0" = _ICOqy3GG;
         "pkg-26.1.2-1.0.1" = _GO3l4Iet;
         "pkg-26.1.2-1.0.2" = _ZUk5JpTR;
@@ -125,7 +137,8 @@ let
         "pkg-1.21.1-1.0.0" = _UTUsTbmp;
         "pkg-1.21.1-1.0.1" = _9Gsjdjol;
         "pkg-26.1.2-1.1.2" = _XljtcFCG;
-        "default" = _XljtcFCG;
+        "pkg-1.21.1-1.0.2" = _yPS1Q7sR;
+        "default" = _yPS1Q7sR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "just-enough-recipe-sharing";

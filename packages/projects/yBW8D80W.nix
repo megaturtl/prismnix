@@ -686,6 +686,11 @@ let
             "file" = "lambdynamiclights-4.12.4+26.2.jar";
             "hash" = "sha512-Hnwqvxj0NkzIgCw84h+cut1iB0wc+YKcAl/g2N0Etse0fKj+Z4OyOZk5/aDkAAHUPdgra87UNUbpwmYi7zcIwg==";
         };
+        _rylKnJ4M = {
+            "id" = "rylKnJ4M";
+            "file" = "lambdynamiclights-4.13.0+26.3.jar";
+            "hash" = "sha512-Z8N8p9YZvX8rDcAiFwcMIONPs7szY9TiP175ypCxtYrbIj+rc2OaNJnTZklzFvHrKX0nWfP/uXZGe0dZ94RhnQ==";
+        };
     in {
         "YuZK7F05" = _YuZK7F05;
         "kaKDsLxl" = _kaKDsLxl;
@@ -824,6 +829,7 @@ let
         "ksaGCvSu" = _ksaGCvSu;
         "USlEyPPR" = _USlEyPPR;
         "XVsaQXSm" = _XVsaQXSm;
+        "rylKnJ4M" = _rylKnJ4M;
         "fabric-1.16.2" = _hKXQNf9z;
         "fabric-1.16.3" = _hKXQNf9z;
         "fabric-1.16.4" = _hKXQNf9z;
@@ -893,6 +899,7 @@ let
         "fabric-26.1.2" = _USlEyPPR;
         "fabric-26.2-rc-2" = _ZSDGIboY;
         "fabric-26.2" = _XVsaQXSm;
+        "fabric-26.3" = _rylKnJ4M;
         "quilt-1.17" = _zhBXhMhZ;
         "quilt-1.17.1" = _zhBXhMhZ;
         "quilt-1.18" = _zhBXhMhZ;
@@ -954,6 +961,7 @@ let
         "quilt-26.1.2" = _USlEyPPR;
         "quilt-26.2-rc-2" = _ZSDGIboY;
         "quilt-26.2" = _XVsaQXSm;
+        "quilt-26.3" = _rylKnJ4M;
         "neoforge-1.21" = _ksaGCvSu;
         "neoforge-1.21.1" = _ksaGCvSu;
         "neoforge-1.21.5" = _1DmwErAj;
@@ -979,6 +987,7 @@ let
         "neoforge-26.1.2" = _USlEyPPR;
         "neoforge-26.2-rc-2" = _ZSDGIboY;
         "neoforge-26.2" = _XVsaQXSm;
+        "neoforge-26.3" = _rylKnJ4M;
         "pkg-1.3.2" = _YuZK7F05;
         "pkg-1.3.3+1.16" = _kaKDsLxl;
         "pkg-1.3.4+1.16" = _hKXQNf9z;
@@ -1116,7 +1125,8 @@ let
         "pkg-4.8.11+1.21.1" = _ksaGCvSu;
         "pkg-4.11.2+26.1.2" = _USlEyPPR;
         "pkg-4.12.4+26.2" = _XVsaQXSm;
-        "default" = _XVsaQXSm;
+        "pkg-4.13.0+26.3" = _rylKnJ4M;
+        "default" = _rylKnJ4M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lambdynamiclights";

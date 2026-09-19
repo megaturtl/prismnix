@@ -41,6 +41,11 @@ let
             "file" = "brainium-1.1.2.jar";
             "hash" = "sha512-9h+lmglPWZciamoYzmXMgPPimw4sXFqJWSAFibYm3XVr5wC0u+rAvQogVOWqF4wpt4le2Vfkd5f2Z9pIVxm0DA==";
         };
+        _1B1Exqfh = {
+            "id" = "1B1Exqfh";
+            "file" = "brainium-1.2.1.jar";
+            "hash" = "sha512-05z/cc+snp9A2kdgUPMizejJoRoHSaVIZO2LS8ngsykXAfYj2uhc8vwrfMqUgZgc8/Ge4Zfk9eQfsQofmOs7Uw==";
+        };
     in {
         "TnZ6I73m" = _TnZ6I73m;
         "ej0WxTSZ" = _ej0WxTSZ;
@@ -50,14 +55,16 @@ let
         "BXpQ211T" = _BXpQ211T;
         "hK7zDX10" = _hK7zDX10;
         "FmDvWIkh" = _FmDvWIkh;
-        "forge-1.20.1" = _FmDvWIkh;
+        "1B1Exqfh" = _1B1Exqfh;
+        "forge-1.20.1" = _1B1Exqfh;
         "neoforge-1.21.1" = _BXpQ211T;
         "pkg-1.0.0" = _ej0WxTSZ;
         "pkg-2.0.0" = _lBS2jQII;
         "pkg-3.0.0" = _BXpQ211T;
         "pkg-4.0" = _hK7zDX10;
         "pkg-5" = _FmDvWIkh;
-        "default" = _FmDvWIkh;
+        "pkg-6" = _1B1Exqfh;
+        "default" = _1B1Exqfh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "brainium";

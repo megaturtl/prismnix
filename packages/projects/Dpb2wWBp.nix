@@ -71,6 +71,16 @@ let
             "file" = "Hydron [3.0.3-PREV1].zip";
             "hash" = "sha512-4O8ilYoeu/bClxetNNr2tZFHUAMVChTrkAL3cOPRbimOoEJQVSQVyS2ZIOHeC0nXBYKl22VuzorbcAHznIVUgg==";
         };
+        _ewSJAZMz = {
+            "id" = "ewSJAZMz";
+            "file" = "Hydron [3.0.3-PREV2].zip";
+            "hash" = "sha512-AEWHPG7mkeuH8Fv1sIMYQ8KLBzY2P0EzdMVgzzIM413FInCcEg0kLVWosWLZYZGfPTCIEQ9V0wtXajEuBQkqow==";
+        };
+        _LYbFSl3Q = {
+            "id" = "LYbFSl3Q";
+            "file" = "Hydron [3.0.3].zip";
+            "hash" = "sha512-XT1sk8tp8i7W/WcjBTXs+saPhMr2rIEDL+QQA1A9rgeAZuECJLxDFtn2TcW9tVPaGpUNFWWOR1wqqVjOkqKsxQ==";
+        };
     in {
         "apHSi34i" = _apHSi34i;
         "p4rYep2F" = _p4rYep2F;
@@ -86,6 +96,8 @@ let
         "mlS564Nz" = _mlS564Nz;
         "WNdvHn2Y" = _WNdvHn2Y;
         "iIc2eQNG" = _iIc2eQNG;
+        "ewSJAZMz" = _ewSJAZMz;
+        "LYbFSl3Q" = _LYbFSl3Q;
         "minecraft-1.17" = _H8R4rnwx;
         "minecraft-1.17.1" = _H8R4rnwx;
         "minecraft-1.18" = _H8R4rnwx;
@@ -261,6 +273,10 @@ let
         "minecraft-26.3-snapshot-10" = _O3Xy6QlC;
         "minecraft-26.3-pre-1" = _iIc2eQNG;
         "minecraft-26.3-pre-2" = _iIc2eQNG;
+        "minecraft-26.3-rc-1" = _ewSJAZMz;
+        "minecraft-26.3-rc-2" = _ewSJAZMz;
+        "minecraft-26.3-rc-3" = _ewSJAZMz;
+        "minecraft-26.3" = _LYbFSl3Q;
         "pkg-Hydron-1.1" = _apHSi34i;
         "pkg-Hydron-2.0" = _StMeSanD;
         "pkg-Hydron-3.0" = _H8R4rnwx;
@@ -273,7 +289,9 @@ let
         "pkg-3.0.2-M1" = _mlS564Nz;
         "pkg-3.0.2-M2" = _WNdvHn2Y;
         "pkg-3.0.3-PREV1" = _iIc2eQNG;
-        "default" = _iIc2eQNG;
+        "pkg-3.0.3-PREV2" = _ewSJAZMz;
+        "pkg-3.0.3" = _LYbFSl3Q;
+        "default" = _LYbFSl3Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hydron";

@@ -96,6 +96,11 @@ let
             "file" = "changed_creatures-1.3.1-Dev.jar";
             "hash" = "sha512-QnBa5+bKkzzpalb8QhNqfezXs5r5oFW3znwU4Q/XnyV0BbCveqNuCYeS/JFP5H8jrg/yXdZwh7bkw/fJn1Nfwg==";
         };
+        _7A5rUqUw = {
+            "id" = "7A5rUqUw";
+            "file" = "changed_creatures-1.3.1-Dev9-12.jar";
+            "hash" = "sha512-6GzrTY7kWWwe5LejkzTRQK47FrQOaFko5w3QEFKJGMbF9iJdh9skYcYpKR+SbApNxhpvg1GF98wv3c+fW01M4A==";
+        };
     in {
         "ONOH1Xn0" = _ONOH1Xn0;
         "zEBgGtO9" = _zEBgGtO9;
@@ -116,8 +121,9 @@ let
         "77ux4Lal" = _77ux4Lal;
         "sZurK3qE" = _sZurK3qE;
         "txg83zYB" = _txg83zYB;
+        "7A5rUqUw" = _7A5rUqUw;
         "forge-1.18.2" = _S3qnLY64;
-        "forge-1.20.1" = _txg83zYB;
+        "forge-1.20.1" = _7A5rUqUw;
         "pkg-0.5.2" = _ONOH1Xn0;
         "pkg-0.6.3" = _zEBgGtO9;
         "pkg-0.6.4" = _27oB2iUR;
@@ -134,7 +140,8 @@ let
         "pkg-1.2.3-Beta" = _77ux4Lal;
         "pkg-1.3" = _sZurK3qE;
         "pkg-1.3.1-Dev823" = _txg83zYB;
-        "default" = _txg83zYB;
+        "pkg-1.3.1-Dev912" = _7A5rUqUw;
+        "default" = _7A5rUqUw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "changed_more_creatures";

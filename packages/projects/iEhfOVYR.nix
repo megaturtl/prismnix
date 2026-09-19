@@ -616,6 +616,56 @@ let
             "file" = "melancholic_hunger-2.0.4-26.2-fabric.jar";
             "hash" = "sha512-hOBeQi5K6A6OfOdOOVmV7jXEorV20U590aKcLvtm4jiEz/uQrArf9+7BHu2WL1Puwr+tQdozxV6a8LUF9RkZWg==";
         };
+        _doe5T45q = {
+            "id" = "doe5T45q";
+            "file" = "melancholic_hunger-1.8.6-1.21.11-fabric.jar";
+            "hash" = "sha512-o0UsnfUGecRTP9zn4ABSZqzrX0hS0+f+WQSPIAXxj1sptQmyuJvzPnu6HktXgo2OcfD6nezeWjELRgIb7PpBLg==";
+        };
+        _8tG2xkNU = {
+            "id" = "8tG2xkNU";
+            "file" = "melancholic_hunger-2.0.5-1.20.1-fabric.jar";
+            "hash" = "sha512-VB0dKvHwib44YwVCss5okVqX+SQk1YeumwB7PQVTU+TByQbIXUcUIe63tCbbvDkSAvrh+XxHlKCGhWlJZW3VxA==";
+        };
+        _sZctvd8U = {
+            "id" = "sZctvd8U";
+            "file" = "melancholic_hunger-2.0.5-1.20.1-forge.jar";
+            "hash" = "sha512-fJP9Bfo1P8MQUQWA9MfWK8tsdcQdn83/Ve3G2KL57Z9TeFL+e1PDZUQ03OyuhpMQzVuW+7L93JvEfH+nQBM8UA==";
+        };
+        _Sv3098ml = {
+            "id" = "Sv3098ml";
+            "file" = "melancholic_hunger-2.0.5-1.21.1-fabric.jar";
+            "hash" = "sha512-5OfOaU1tllINIm/LzOrmfoV7SyGimzboWNaXHVKNQf4m8rCvaGwGFU7mgtgqxYazb9kfNgSo5hl6tcAGF/CSrw==";
+        };
+        _nwlUlqxk = {
+            "id" = "nwlUlqxk";
+            "file" = "melancholic_hunger-2.0.5-1.21.1-neoforge.jar";
+            "hash" = "sha512-5I0OOQoE9PTpUk02vPoDO8m2+Us3ojCLeXJ5u64fqGQ4HyF1iOpfU5CWqfzdCU+Lr6+iGjPLIigal8sptPBY6A==";
+        };
+        _OIBiRiFs = {
+            "id" = "OIBiRiFs";
+            "file" = "melancholic_hunger-2.0.5-26.1-fabric.jar";
+            "hash" = "sha512-6TE3YHLLbpY9JS9z12bDIc5ta3O8769v+VFENHNGsGqSlTMyM2KKURG+fGfq3MYAC8hQcJ9f4pDBQzg2QVbKYA==";
+        };
+        _CJSbfeto = {
+            "id" = "CJSbfeto";
+            "file" = "melancholic_hunger-2.0.5-26.2-fabric.jar";
+            "hash" = "sha512-w2/tGpWB/CEzUyByYwAc8/IYOcQmXIlJrzedLHAcMHHUHghGNs+14FDqe7uU2s+7Z+/EQHz8O9GWxH/VMDtDUg==";
+        };
+        _sOcMTqUc = {
+            "id" = "sOcMTqUc";
+            "file" = "melancholic_hunger-2.0.5-26.3-fabric.jar";
+            "hash" = "sha512-zHG1uO7hOIoMqLmSrsalBQeTvKYwn5cRgds6/JGLGI5rNNvjJzqm1lmkFIGWeUkRdhEYyIEYRM8eZYz3HONULA==";
+        };
+        _np5tzbhB = {
+            "id" = "np5tzbhB";
+            "file" = "melancholic_hunger-2.0.6-26.2-fabric.jar";
+            "hash" = "sha512-LxsJ2gSmAbu6wZVJykJZ+ne8JK6hSMrAupg9Ucd1v8I1kAXKzcCjGGxJCODAGmPR4eAket3HnjoqKajRrRIKcg==";
+        };
+        _shlBmUuj = {
+            "id" = "shlBmUuj";
+            "file" = "melancholic_hunger-2.0.6-26.3-fabric.jar";
+            "hash" = "sha512-e+FZR5z5HqnScOApIwtf6LEhARcXLagLO/9rvXFNhDBRU64aib2w55FVtoSEenZ6mbZCb1Ubm0n87sq9+Uq/CA==";
+        };
     in {
         "hpXOUk6P" = _hpXOUk6P;
         "idMmV79q" = _idMmV79q;
@@ -740,8 +790,18 @@ let
         "YK2Ksw3u" = _YK2Ksw3u;
         "hslFXtAL" = _hslFXtAL;
         "fCXNAI0n" = _fCXNAI0n;
+        "doe5T45q" = _doe5T45q;
+        "8tG2xkNU" = _8tG2xkNU;
+        "sZctvd8U" = _sZctvd8U;
+        "Sv3098ml" = _Sv3098ml;
+        "nwlUlqxk" = _nwlUlqxk;
+        "OIBiRiFs" = _OIBiRiFs;
+        "CJSbfeto" = _CJSbfeto;
+        "sOcMTqUc" = _sOcMTqUc;
+        "np5tzbhB" = _np5tzbhB;
+        "shlBmUuj" = _shlBmUuj;
         "fabric-1.21" = _STsDYwnB;
-        "fabric-1.21.1" = _hslFXtAL;
+        "fabric-1.21.1" = _Sv3098ml;
         "fabric-1.21.4" = _lvyjKDTZ;
         "fabric-1.21.5" = _MknRcf7p;
         "fabric-1.21.6" = _J4PGrh9q;
@@ -750,17 +810,18 @@ let
         "fabric-1.21.9" = _u808B1r9;
         "fabric-1.21.10-rc1" = _oq0QQF91;
         "fabric-1.21.10" = _tvDbYhFc;
-        "fabric-1.21.11" = _2desDk5a;
-        "fabric-1.20.1" = _5PiI56H4;
-        "fabric-26.1" = _L1gCBIsH;
-        "fabric-26.1.1" = _L1gCBIsH;
-        "fabric-26.1.2" = _L1gCBIsH;
-        "fabric-26.2" = _fCXNAI0n;
-        "neoforge-1.21.1" = _YK2Ksw3u;
+        "fabric-1.21.11" = _doe5T45q;
+        "fabric-1.20.1" = _8tG2xkNU;
+        "fabric-26.1" = _OIBiRiFs;
+        "fabric-26.1.1" = _OIBiRiFs;
+        "fabric-26.1.2" = _OIBiRiFs;
+        "fabric-26.2" = _np5tzbhB;
+        "fabric-26.3" = _shlBmUuj;
+        "neoforge-1.21.1" = _nwlUlqxk;
         "neoforge-26.1" = _UVf7pvxN;
         "neoforge-26.1.1" = _UVf7pvxN;
         "neoforge-26.1.2" = _UVf7pvxN;
-        "forge-1.20.1" = _9CDt9Nc9;
+        "forge-1.20.1" = _sZctvd8U;
         "pkg-1.0" = _f3YsPfhE;
         "pkg-1.1" = _Ugts3CGh;
         "pkg-1.2" = _Og5nrAHH;
@@ -793,7 +854,10 @@ let
         "pkg-2.0.2" = _bWSK9rda;
         "pkg-2.0.3" = _hslFXtAL;
         "pkg-2.0.4" = _fCXNAI0n;
-        "default" = _fCXNAI0n;
+        "pkg-1.8.6" = _doe5T45q;
+        "pkg-2.0.5" = _sOcMTqUc;
+        "pkg-2.0.6" = _shlBmUuj;
+        "default" = _shlBmUuj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "melancholic_hunger";

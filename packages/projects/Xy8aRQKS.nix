@@ -1691,6 +1691,31 @@ let
             "file" = "physics-mod-3.2.4-mc-26.2-fabric.jar";
             "hash" = "sha512-HuZPLVncHt+9+CBx1uvwW2W2OnNPD7qTxGz3svXgiks+iOY4dlHCllb86h+lTjcIXcdOlkMmHME9cPerqsThag==";
         };
+        _HTEezgC0 = {
+            "id" = "HTEezgC0";
+            "file" = "physics-mod-3.2.4-mc-26.3-fabric.jar";
+            "hash" = "sha512-J4pVNsoLP3+oyTQIbhUeM7Puj1LBobwkcSFtPdY5sK2SOc+ZeyBPZzpPf3CAeHTiI69O11L1EIu/X77zMJBNSA==";
+        };
+        _hbwDoLo5 = {
+            "id" = "hbwDoLo5";
+            "file" = "physics-mod-3.0.33-mc-1.21.1-neoforge.jar";
+            "hash" = "sha512-t4iOEaBhmO8ZVkCb55UDh0oI+w0BJ78FB4eyqLXOkS+6zB6gNBNFUYMKbswzH85zLJlkhKqAOiGNcjl0ZMOi1A==";
+        };
+        _aDn7qF9R = {
+            "id" = "aDn7qF9R";
+            "file" = "physics-mod-3.0.33-mc-1.21.1-fabric.jar";
+            "hash" = "sha512-6CKNgUdbXmSdWQ0rIZRkfETeIxOLWh7DBnK+IrRGxFUdBdCcJ+Ht/xvmwJ3G2H55gTASPqREEqH2VMhPTNcvTg==";
+        };
+        _LDCTDMLj = {
+            "id" = "LDCTDMLj";
+            "file" = "physics-mod-3.2.4-mc-26.3-neoforge.jar";
+            "hash" = "sha512-gPkEXUO1vGC8DuJuwOVFVkCSZ/mQ1xCp63EfZdO6BlbK5CnPDKl0MjUrZ6l97PBAlsFk9OG0dsSDlp7Dimkkcg==";
+        };
+        _ZhWEOiAq = {
+            "id" = "ZhWEOiAq";
+            "file" = "physics-mod-3.0.34-mc-1.21.1-neoforge.jar";
+            "hash" = "sha512-Jn/RzXf/8Wc68lTK6t2OvdYSbZdFShJM7sP3GKTSylGzwgmLohEBoOQIl40aYqjE+Cz7T0PYCDA1dM1DcRBX7A==";
+        };
     in {
         "qBCMrSKV" = _qBCMrSKV;
         "hXAUGz57" = _hXAUGz57;
@@ -2030,6 +2055,11 @@ let
         "qJGwNXcl" = _qJGwNXcl;
         "vtlu7aZv" = _vtlu7aZv;
         "NmnAHHdB" = _NmnAHHdB;
+        "HTEezgC0" = _HTEezgC0;
+        "hbwDoLo5" = _hbwDoLo5;
+        "aDn7qF9R" = _aDn7qF9R;
+        "LDCTDMLj" = _LDCTDMLj;
+        "ZhWEOiAq" = _ZhWEOiAq;
         "fabric-1.18.2" = _tfJjgLZC;
         "fabric-1.16.5" = _zrY7WNa3;
         "fabric-1.19" = _H8zkqjX7;
@@ -2049,7 +2079,7 @@ let
         "fabric-1.20.6" = _P0ZHkgEm;
         "fabric-1.21-pre4" = _PiSgN5Mk;
         "fabric-1.21" = _WlIhw5p0;
-        "fabric-1.21.1" = _WlIhw5p0;
+        "fabric-1.21.1" = _aDn7qF9R;
         "fabric-1.21.2" = _yKbyUS2r;
         "fabric-1.21.3" = _yKbyUS2r;
         "fabric-1.21.4" = _tODZWubs;
@@ -2119,6 +2149,7 @@ let
         "fabric-26.3-snapshot-10" = _ms067OUp;
         "fabric-26.3-pre-1" = _nFlMJ0cX;
         "fabric-26.3-pre-2" = _Hfyvr0lA;
+        "fabric-26.3" = _HTEezgC0;
         "quilt-1.18.2" = _tfJjgLZC;
         "quilt-1.16.5" = _zrY7WNa3;
         "quilt-1.19" = _H8zkqjX7;
@@ -2138,7 +2169,7 @@ let
         "quilt-1.20.6" = _P0ZHkgEm;
         "quilt-1.21-pre4" = _PiSgN5Mk;
         "quilt-1.21" = _WlIhw5p0;
-        "quilt-1.21.1" = _WlIhw5p0;
+        "quilt-1.21.1" = _aDn7qF9R;
         "quilt-1.21.2" = _yKbyUS2r;
         "quilt-1.21.3" = _yKbyUS2r;
         "quilt-1.21.4" = _tODZWubs;
@@ -2206,6 +2237,7 @@ let
         "quilt-26.3-snapshot-10" = _ms067OUp;
         "quilt-26.3-pre-1" = _nFlMJ0cX;
         "quilt-26.3-pre-2" = _Hfyvr0lA;
+        "quilt-26.3" = _HTEezgC0;
         "forge-1.18.2" = _pvae8vlw;
         "forge-1.17.1" = _aqDyN46T;
         "forge-1.16.5" = _1jiaF34y;
@@ -2240,8 +2272,8 @@ let
         "neoforge-1.20.1" = _binwAk5d;
         "neoforge-1.20.2" = _byf60rP5;
         "neoforge-1.20.6" = _w7mYSpVI;
-        "neoforge-1.21" = _8p1lTEye;
-        "neoforge-1.21.1" = _8p1lTEye;
+        "neoforge-1.21" = _ZhWEOiAq;
+        "neoforge-1.21.1" = _ZhWEOiAq;
         "neoforge-1.21.2" = _cSyupYG2;
         "neoforge-1.21.3" = _cSyupYG2;
         "neoforge-1.21.4" = _i5GPxBXN;
@@ -2256,6 +2288,7 @@ let
         "neoforge-26.1.1" = _gpADgn7f;
         "neoforge-26.1.2" = _gpADgn7f;
         "neoforge-26.2" = _qJGwNXcl;
+        "neoforge-26.3" = _LDCTDMLj;
         "pkg-2.9.2" = _UqiPFyNf;
         "pkg-2.6.9" = _bV6diC1t;
         "pkg-2.9.3" = _61F5faTv;
@@ -2340,8 +2373,10 @@ let
         "pkg-3.0.32" = _WlIhw5p0;
         "pkg-3.2.2" = _nFlMJ0cX;
         "pkg-3.2.3" = _Hfyvr0lA;
-        "pkg-3.2.4" = _NmnAHHdB;
-        "default" = _NmnAHHdB;
+        "pkg-3.2.4" = _LDCTDMLj;
+        "pkg-3.0.33" = _aDn7qF9R;
+        "pkg-3.0.34" = _ZhWEOiAq;
+        "default" = _ZhWEOiAq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "physicsmod";

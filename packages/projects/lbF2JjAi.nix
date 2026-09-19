@@ -51,6 +51,21 @@ let
             "file" = "spawners-drop-treasure-1.0.0.jar";
             "hash" = "sha512-/KeV9Ms48Y0GW2AN8p/3rAhgd0IxlTXTXO9CT0ykKIllV4eymF4EKzeWNkXbz3ciHjjVw90dvcI3GiRhKvn2tg==";
         };
+        _kSoc4N7v = {
+            "id" = "kSoc4N7v";
+            "file" = "spawners_drop_treasure-1.0.0-26.2.zip";
+            "hash" = "sha512-1VBYYnDaHFMC6TH1DslAj1DSmPaGQwraQKY9yoO2bmiIT46fse8itANJHyNdg1bFuizwlG9yhbaBsJEwNbNv2A==";
+        };
+        _zZ6pJ1M9 = {
+            "id" = "zZ6pJ1M9";
+            "file" = "spawners-drop-treasure-26.2.jar";
+            "hash" = "sha512-q99LOD8aTnrDUDN2Prs8+ypGTnHrN33YUKj7uuXxe3Nk8OlrGu1HslUEeNZUlQ6tHmOSCDPp2q4GQ4qNzfds2g==";
+        };
+        _W0wuivTm = {
+            "id" = "W0wuivTm";
+            "file" = "spawners-drop-treasure-1.0.0-hc.jar";
+            "hash" = "sha512-9m4XHwkcjEgIrLJ38gZIqd0GcvYkBrV+BUh6AOOYZb0JKaUbkekLFaec41/SKwN59S8RQNUHvYHatwLRPhA/WA==";
+        };
     in {
         "Vmo1Dg4v" = _Vmo1Dg4v;
         "8ActRKER" = _8ActRKER;
@@ -62,6 +77,9 @@ let
         "f61fVgnJ" = _f61fVgnJ;
         "pLMT41QU" = _pLMT41QU;
         "TRi3r2wZ" = _TRi3r2wZ;
+        "kSoc4N7v" = _kSoc4N7v;
+        "zZ6pJ1M9" = _zZ6pJ1M9;
+        "W0wuivTm" = _W0wuivTm;
         "datapack-1.19" = _Vmo1Dg4v;
         "datapack-1.19.1" = _Vmo1Dg4v;
         "datapack-1.19.2" = _Vmo1Dg4v;
@@ -86,9 +104,10 @@ let
         "datapack-1.21.9" = _43wCXFmo;
         "datapack-1.21.10" = _43wCXFmo;
         "datapack-1.21.11" = _43wCXFmo;
-        "datapack-26.1" = _43wCXFmo;
-        "datapack-26.1.1" = _43wCXFmo;
-        "datapack-26.1.2" = _43wCXFmo;
+        "datapack-26.1" = _kSoc4N7v;
+        "datapack-26.1.1" = _kSoc4N7v;
+        "datapack-26.1.2" = _kSoc4N7v;
+        "datapack-26.2" = _kSoc4N7v;
         "fabric-1.19" = _8ActRKER;
         "fabric-1.19.1" = _8ActRKER;
         "fabric-1.19.2" = _8ActRKER;
@@ -101,21 +120,22 @@ let
         "fabric-1.20.4" = _8ActRKER;
         "fabric-1.20.5" = _8ActRKER;
         "fabric-1.20.6" = _8ActRKER;
-        "fabric-1.21" = _TRi3r2wZ;
-        "fabric-1.21.1" = _TRi3r2wZ;
-        "fabric-1.21.2" = _TRi3r2wZ;
-        "fabric-1.21.3" = _TRi3r2wZ;
-        "fabric-1.21.4" = _TRi3r2wZ;
-        "fabric-1.21.5" = _TRi3r2wZ;
+        "fabric-1.21" = _W0wuivTm;
+        "fabric-1.21.1" = _W0wuivTm;
+        "fabric-1.21.2" = _W0wuivTm;
+        "fabric-1.21.3" = _W0wuivTm;
+        "fabric-1.21.4" = _W0wuivTm;
+        "fabric-1.21.5" = _W0wuivTm;
         "fabric-1.21.6" = _TRi3r2wZ;
         "fabric-1.21.7" = _TRi3r2wZ;
         "fabric-1.21.8" = _TRi3r2wZ;
         "fabric-1.21.9" = _TRi3r2wZ;
         "fabric-1.21.10" = _TRi3r2wZ;
         "fabric-1.21.11" = _TRi3r2wZ;
-        "fabric-26.1" = _TRi3r2wZ;
-        "fabric-26.1.1" = _TRi3r2wZ;
-        "fabric-26.1.2" = _TRi3r2wZ;
+        "fabric-26.1" = _zZ6pJ1M9;
+        "fabric-26.1.1" = _zZ6pJ1M9;
+        "fabric-26.1.2" = _zZ6pJ1M9;
+        "fabric-26.2" = _W0wuivTm;
         "forge-1.19" = _8ActRKER;
         "forge-1.19.1" = _8ActRKER;
         "forge-1.19.2" = _8ActRKER;
@@ -167,9 +187,10 @@ let
         "quilt-1.21.9" = _TRi3r2wZ;
         "quilt-1.21.10" = _TRi3r2wZ;
         "quilt-1.21.11" = _TRi3r2wZ;
-        "quilt-26.1" = _TRi3r2wZ;
-        "quilt-26.1.1" = _TRi3r2wZ;
-        "quilt-26.1.2" = _TRi3r2wZ;
+        "quilt-26.1" = _zZ6pJ1M9;
+        "quilt-26.1.1" = _zZ6pJ1M9;
+        "quilt-26.1.2" = _zZ6pJ1M9;
+        "quilt-26.2" = _zZ6pJ1M9;
         "neoforge-1.20.1" = _x8S273Dh;
         "neoforge-1.21" = _TRi3r2wZ;
         "neoforge-1.21.1" = _TRi3r2wZ;
@@ -183,14 +204,17 @@ let
         "neoforge-1.21.9" = _TRi3r2wZ;
         "neoforge-1.21.10" = _TRi3r2wZ;
         "neoforge-1.21.11" = _TRi3r2wZ;
-        "neoforge-26.1" = _TRi3r2wZ;
-        "neoforge-26.1.1" = _TRi3r2wZ;
-        "neoforge-26.1.2" = _TRi3r2wZ;
+        "neoforge-26.1" = _zZ6pJ1M9;
+        "neoforge-26.1.1" = _zZ6pJ1M9;
+        "neoforge-26.1.2" = _zZ6pJ1M9;
+        "neoforge-26.2" = _zZ6pJ1M9;
         "pkg-1.0.0" = _43wCXFmo;
         "pkg-1.0.0+mod" = _TRi3r2wZ;
         "pkg-1.0.0-hc" = _f61fVgnJ;
-        "pkg-1.0.0-hc+mod" = _pLMT41QU;
-        "default" = _TRi3r2wZ;
+        "pkg-1.0.0-hc+mod" = _W0wuivTm;
+        "pkg-26.2" = _kSoc4N7v;
+        "pkg-26.2+mod" = _zZ6pJ1M9;
+        "default" = _W0wuivTm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spawners-drop-treasure";

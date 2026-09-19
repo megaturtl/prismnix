@@ -201,6 +201,11 @@ let
             "file" = "reap-neoforge-1.1.4+26.2.jar";
             "hash" = "sha512-qJN+VGrPHhrmC2jK1sRnarRPXVbX+VJF373JJePoAW7rhQnn0L0A/F6O4pmCYnh4KuhdGf8L927qm4wt1A+Wvw==";
         };
+        _axZncwOV = {
+            "id" = "axZncwOV";
+            "file" = "reap-neoforge-1.1.4+26.3.jar";
+            "hash" = "sha512-4+xLf8NdC0MFMEACDitxs8JLU+2lnsoJdS5HWQbglTVLw2RCRgbEId54XRzphoLU+L8jy90C3wOOEVwFvlJgVw==";
+        };
     in {
         "qJykumKt" = _qJykumKt;
         "GSWA8MlK" = _GSWA8MlK;
@@ -242,6 +247,7 @@ let
         "w8BdzPB1" = _w8BdzPB1;
         "UoVVuKQQ" = _UoVVuKQQ;
         "MGtocDwT" = _MGtocDwT;
+        "axZncwOV" = _axZncwOV;
         "forge-1.19" = _GSWA8MlK;
         "forge-1.19.1" = _YH5wIrxC;
         "forge-1.19.2" = _L2WioUxf;
@@ -271,6 +277,7 @@ let
         "neoforge-26.1.1" = _w8BdzPB1;
         "neoforge-26.1.2" = _UoVVuKQQ;
         "neoforge-26.2" = _MGtocDwT;
+        "neoforge-26.3" = _axZncwOV;
         "pkg-forge-1.19-1.0.0" = _qJykumKt;
         "pkg-forge-1.19-1.0.1" = _GSWA8MlK;
         "pkg-forge-1.19.1-1.0.0" = _YH5wIrxC;
@@ -311,7 +318,8 @@ let
         "pkg-neoforge-1.1.3+26.1.2" = _w8BdzPB1;
         "pkg-neoforge-1.1.4+26.1.2" = _UoVVuKQQ;
         "pkg-neoforge-1.1.4+26.2" = _MGtocDwT;
-        "default" = _MGtocDwT;
+        "pkg-neoforge-1.1.4+26.3" = _axZncwOV;
+        "default" = _axZncwOV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reap-mod";

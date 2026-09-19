@@ -5231,6 +5231,16 @@ let
             "file" = "chat_heads-0.15.7-fabric-1.20.jar";
             "hash" = "sha512-rfSsLc+/3aeX7QS+9ANYfBP3YzkZZpv6Iq2tbzslJPIwAOCdwc35i70gZuGnlfIOFGQe41SDYyqkyIltmIysFQ==";
         };
+        _6gEbl7r6 = {
+            "id" = "6gEbl7r6";
+            "file" = "chat_heads-1.2.9-neoforge-26.3.jar";
+            "hash" = "sha512-KFq6zQ+ypuU0qnzzyUtNbdSxZNMe3c9V/cVeO3Hvjfs6V7ftlzkVti64fwKvc/auaQ+gKaByKnLjKIFvX+gRhA==";
+        };
+        _R2zOq4xG = {
+            "id" = "R2zOq4xG";
+            "file" = "chat_heads-1.2.9-fabric-26.3.jar";
+            "hash" = "sha512-SGCbfjB8IXbpM9P06T8FGL4aBWuO06GxDBwa6hW8SG91JfMtl+ltsk4qUc8Zfq5y4PPhqDe1ZmrGXF0bl6jlJg==";
+        };
     in {
         "FKbySPXk" = _FKbySPXk;
         "16AYFLM3" = _16AYFLM3;
@@ -6278,6 +6288,8 @@ let
         "5t3tM2L3" = _5t3tM2L3;
         "UJALMfLK" = _UJALMfLK;
         "nZ2Esof8" = _nZ2Esof8;
+        "6gEbl7r6" = _6gEbl7r6;
+        "R2zOq4xG" = _R2zOq4xG;
         "forge-1.16.5" = _FKbySPXk;
         "forge-1.17.1" = _IF51k6SP;
         "forge-1.18.2" = _zy17h2X4;
@@ -6333,6 +6345,7 @@ let
         "fabric-26.1.1" = _lyZOZ4qX;
         "fabric-26.1.2" = _lyZOZ4qX;
         "fabric-26.2" = _lyZOZ4qX;
+        "fabric-26.3" = _R2zOq4xG;
         "neoforge-1.20.2" = _TPVF7Rmg;
         "neoforge-1.20.3" = _FgxKRTEd;
         "neoforge-1.20.4" = _FgxKRTEd;
@@ -6354,6 +6367,7 @@ let
         "neoforge-26.1.1" = _bfSPLShV;
         "neoforge-26.1.2" = _bfSPLShV;
         "neoforge-26.2" = _bfSPLShV;
+        "neoforge-26.3" = _6gEbl7r6;
         "pkg-0.6.0" = _KQgJvEVc;
         "pkg-0.6.1" = _zy17h2X4;
         "pkg-0.7.1" = _zKCl1ATO;
@@ -6470,7 +6484,8 @@ let
         "pkg-0.15.6" = _6HkzfAoc;
         "pkg-1.2.8" = _lyZOZ4qX;
         "pkg-0.15.7" = _nZ2Esof8;
-        "default" = _nZ2Esof8;
+        "pkg-1.2.9" = _R2zOq4xG;
+        "default" = _R2zOq4xG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chat-heads";

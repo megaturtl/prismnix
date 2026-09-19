@@ -606,6 +606,51 @@ let
             "file" = "EventUtils-26.2-3.0.0.jar";
             "hash" = "sha512-GvITjjb6tNN7+U2loMrMkHO9DLf+ClUgFZ5SesWMF/Hhm5k0gToh6c7PXfGBvh0rQOlOY2rXMUkYi8g3FBYmgw==";
         };
+        _W3Sl70R6 = {
+            "id" = "W3Sl70R6";
+            "file" = "EventUtils-1.20.4-3.1.0.jar";
+            "hash" = "sha512-9sDbUFlCIdrrktKs3co871PfWQkKPLPRLvubvfOJCT6NphnSNQNwz+v3jOk8eY5elMcxWDv9ucnMjiUxsME9ww==";
+        };
+        _9n4e2e5R = {
+            "id" = "9n4e2e5R";
+            "file" = "EventUtils-1.21.1-3.1.0.jar";
+            "hash" = "sha512-ez7dPm7udO0lmUZ6fjOnuLIcLPmbsiFs0vADsRuOYlyfaPZkXNAaBax6zL30hbBaqnsjDI4SgdgID9BJTG4+lQ==";
+        };
+        _yp4oN27f = {
+            "id" = "yp4oN27f";
+            "file" = "EventUtils-1.21-3.1.0.jar";
+            "hash" = "sha512-1db5pG/cgwkhO5ugiR+A8XPpT3komNGH9zZCHYp6Rl00qKFznyI189/jiMUbHsu2MRkUIL68jjAKPB+Oe3A9fA==";
+        };
+        _HEwpTTTQ = {
+            "id" = "HEwpTTTQ";
+            "file" = "EventUtils-1.21.11-3.1.0.jar";
+            "hash" = "sha512-ID2PD8Bwvpfo1rcNn8/l1+FNcyBB2H/r8ykX39bLCN4wyfo5VfzYYXztB/kE67yTxYSfxQKEpNDBE6ylMj3dOw==";
+        };
+        _6JVI2y1j = {
+            "id" = "6JVI2y1j";
+            "file" = "EventUtils-1.21.4-3.1.0.jar";
+            "hash" = "sha512-/V9PLEX2UxidIZN05QmErFQ3hFL7F+HzQ4w0QRZlG6kVsdOLRfR7AIpEaCgeNEViRqoZXYO0rzDsV3NBt2qedg==";
+        };
+        _wB2ZO7J4 = {
+            "id" = "wB2ZO7J4";
+            "file" = "EventUtils-1.21.5-3.1.0.jar";
+            "hash" = "sha512-MMB3ry7zYY0SWK3naCRJNpK8HknW8YRzIpIisIgW+u/YBcQ0qdlQDXB6fhBi8GARiMx8svqe88lx/h/XF7AFUQ==";
+        };
+        _IgQALWHA = {
+            "id" = "IgQALWHA";
+            "file" = "EventUtils-1.21.6-3.1.0.jar";
+            "hash" = "sha512-7Km3egaVqG2YdqfQT2Oe+QbDFskQzGzEB5okQeL15+/NXIsm3mVWkA7mQrvTbFf/wd3l4SaoXVMMlzrbO5rZSg==";
+        };
+        _B45TEqeo = {
+            "id" = "B45TEqeo";
+            "file" = "EventUtils-26.1.2-3.1.0.jar";
+            "hash" = "sha512-2F7DZUvtnbWeuXyROiSn4AXGk+3gxOD857/PfJrqHrvKo9uEnE/TvmvV0Hftd0ayil5JL/QrzXGnKOPLD7EJnA==";
+        };
+        _NL6h49zT = {
+            "id" = "NL6h49zT";
+            "file" = "EventUtils-26.2-3.1.0.jar";
+            "hash" = "sha512-aiynvAQpGq8qx+FGyXzpBj9EC7KGMx72rIMMC2reXJ96IEb38kT6AfqZFXt0zW8bsBJp/Toi9yFUOYc2HW6vHQ==";
+        };
     in {
         "3aNiMFd6" = _3aNiMFd6;
         "PWoOFX7q" = _PWoOFX7q;
@@ -728,22 +773,31 @@ let
         "35Fyr91C" = _35Fyr91C;
         "QyVE2SHK" = _QyVE2SHK;
         "LuSxmsh9" = _LuSxmsh9;
+        "W3Sl70R6" = _W3Sl70R6;
+        "9n4e2e5R" = _9n4e2e5R;
+        "yp4oN27f" = _yp4oN27f;
+        "HEwpTTTQ" = _HEwpTTTQ;
+        "6JVI2y1j" = _6JVI2y1j;
+        "wB2ZO7J4" = _wB2ZO7J4;
+        "IgQALWHA" = _IgQALWHA;
+        "B45TEqeo" = _B45TEqeo;
+        "NL6h49zT" = _NL6h49zT;
         "fabric-1.20.5" = _tM56DNkf;
         "fabric-1.20.6" = _Ern0Lj0R;
         "fabric-1.20.3" = _O034tmyW;
-        "fabric-1.20.4" = _YUcS30Aa;
+        "fabric-1.20.4" = _W3Sl70R6;
         "fabric-1.20.2" = _sl99b494;
         "fabric-1.20.1" = _64wCW3Kx;
-        "fabric-1.21" = _nf7Js8ui;
-        "fabric-1.21.1" = _sZZKBGr9;
+        "fabric-1.21" = _yp4oN27f;
+        "fabric-1.21.1" = _9n4e2e5R;
         "fabric-1.21.3" = _IGfFheQA;
         "fabric-1.21.2" = _9tuwMXTR;
-        "fabric-1.21.4" = _JzbRoCHp;
-        "fabric-1.21.5" = _mNOcgibL;
-        "fabric-1.21.6" = _35Fyr91C;
-        "fabric-1.21.11" = _TdskAQ2d;
-        "fabric-26.1.2" = _QyVE2SHK;
-        "fabric-26.2" = _LuSxmsh9;
+        "fabric-1.21.4" = _6JVI2y1j;
+        "fabric-1.21.5" = _wB2ZO7J4;
+        "fabric-1.21.6" = _IgQALWHA;
+        "fabric-1.21.11" = _HEwpTTTQ;
+        "fabric-26.1.2" = _B45TEqeo;
+        "fabric-26.2" = _NL6h49zT;
         "quilt-1.20.5" = _tM56DNkf;
         "quilt-1.20.6" = _Ern0Lj0R;
         "quilt-1.20.3" = _O034tmyW;
@@ -878,7 +932,16 @@ let
         "pkg-1.21.6-3.0.0" = _35Fyr91C;
         "pkg-26.1.2-3.0.0" = _QyVE2SHK;
         "pkg-26.2-3.0.0" = _LuSxmsh9;
-        "default" = _LuSxmsh9;
+        "pkg-1.20.4-3.1.0" = _W3Sl70R6;
+        "pkg-1.21.1-3.1.0" = _9n4e2e5R;
+        "pkg-1.21-3.1.0" = _yp4oN27f;
+        "pkg-1.21.11-3.1.0" = _HEwpTTTQ;
+        "pkg-1.21.4-3.1.0" = _6JVI2y1j;
+        "pkg-1.21.5-3.1.0" = _wB2ZO7J4;
+        "pkg-1.21.6-3.1.0" = _IgQALWHA;
+        "pkg-26.1.2-3.1.0" = _B45TEqeo;
+        "pkg-26.2-3.1.0" = _NL6h49zT;
+        "default" = _NL6h49zT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "alerts";

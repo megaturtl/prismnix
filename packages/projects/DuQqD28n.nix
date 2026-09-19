@@ -21,22 +21,29 @@ let
             "file" = "lootmate-1.0.1+26.2.jar";
             "hash" = "sha512-1xTq8POh7/dFs7MUXrmH/goXtxdjM9xwcmyDHbix5zVTpVqd/vxNhfvSY9bCafOxprhGizrQd/EX3y0WI9Z0oA==";
         };
+        _BvoaTgBt = {
+            "id" = "BvoaTgBt";
+            "file" = "lootmate-1.1.0+26.2.jar";
+            "hash" = "sha512-9PQjpa5/WH3dVBLseTggTJ8I/Zn9LhHiGzwNo6EPT5VLQnQSrPYW6dhlKldLL/c6ZFLfbDd0bQBHf6efqJJcUw==";
+        };
     in {
         "Q8Rou3TL" = _Q8Rou3TL;
         "6rHEDyyt" = _6rHEDyyt;
         "UAYkq0UB" = _UAYkq0UB;
         "vfp6kCqb" = _vfp6kCqb;
+        "BvoaTgBt" = _BvoaTgBt;
         "fabric-1.21.10" = _Q8Rou3TL;
         "fabric-1.21.11" = _6rHEDyyt;
         "fabric-26.1" = _UAYkq0UB;
         "fabric-26.1.1" = _UAYkq0UB;
         "fabric-26.1.2" = _UAYkq0UB;
-        "fabric-26.2" = _vfp6kCqb;
+        "fabric-26.2" = _BvoaTgBt;
         "pkg-1.0.0-1.21.10" = _Q8Rou3TL;
         "pkg-1.0.0-1.21.11" = _6rHEDyyt;
         "pkg-1.0.1+26.1" = _UAYkq0UB;
         "pkg-1.0.1+26.2" = _vfp6kCqb;
-        "default" = _vfp6kCqb;
+        "pkg-1.1.0+26.2" = _BvoaTgBt;
+        "default" = _BvoaTgBt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lootmate";

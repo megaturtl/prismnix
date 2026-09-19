@@ -16,16 +16,30 @@ let
             "file" = "ywzj_midi-1.18.2-forge-1.7.2-all.jar";
             "hash" = "sha512-h4bRVAoW8lKc/Zvwt7xtKhcxdgf66tnvw6EjC/hUAITxertSE0vAKRBoKF3IOt+Qvy2p3XLt+RsHG4rz6i19lQ==";
         };
+        _XzWkXiLd = {
+            "id" = "XzWkXiLd";
+            "file" = "ywzj_midi-1.20.1-forge-2.0.0.jar";
+            "hash" = "sha512-8P9mdSVal1MEsTV4F1R3DpdcyxXoVrZRHOrng25XPf04n+oKT1MomSBCIo6lxcn37Cwcj3ERmdbbzHkKJ/1rVg==";
+        };
+        _EK4zwKmX = {
+            "id" = "EK4zwKmX";
+            "file" = "ywzj_midi-1.21.1-2.0.0.jar";
+            "hash" = "sha512-18ARx5fR6qkUaarJnhcvvExEt0sDqTFgTvZyp0El9ek2v8qpU8Oi+WYjb59/gQ3hHtf1I8lz6+Jm4CCMS/lByA==";
+        };
     in {
         "yGwNNbzV" = _yGwNNbzV;
         "x4EkUQrM" = _x4EkUQrM;
         "tUwuvxaE" = _tUwuvxaE;
-        "forge-1.20.1" = _x4EkUQrM;
+        "XzWkXiLd" = _XzWkXiLd;
+        "EK4zwKmX" = _EK4zwKmX;
+        "forge-1.20.1" = _XzWkXiLd;
         "forge-1.18.2" = _tUwuvxaE;
+        "neoforge-1.21.1" = _EK4zwKmX;
         "pkg-1.20.1-forge-1.4.0" = _yGwNNbzV;
         "pkg-1.20.1-forge-1.7.2" = _x4EkUQrM;
         "pkg-1.18.2-forge-1.7.2" = _tUwuvxaE;
-        "default" = _tUwuvxaE;
+        "pkg-2.0.0" = _EK4zwKmX;
+        "default" = _EK4zwKmX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "limitless_concert";

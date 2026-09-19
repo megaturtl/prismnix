@@ -41,6 +41,11 @@ let
             "file" = "CobblemonRepel-1.7-1.4.jar";
             "hash" = "sha512-AOovUymawRbrQoanYZW5U7KcsIoFfQLRKuxw+EdDG1OcjhRutXlzWV5YTDVaO7DaujLZF8zg8x8QURhWerp1+w==";
         };
+        _ctV59pOE = {
+            "id" = "ctV59pOE";
+            "file" = "CobblemonRepel-1.8-1.4.jar";
+            "hash" = "sha512-gkIj5qnaXkOuub4RJZH4mYoSlv4qh0zfJFcoqzx9sChUbSQnXV49LxQJcmVcizQ/vDkD2hMhlYtY/Pz3i8JcXw==";
+        };
     in {
         "oNbp0iHG" = _oNbp0iHG;
         "CJyV9Xon" = _CJyV9Xon;
@@ -50,8 +55,9 @@ let
         "fB3dZGu4" = _fB3dZGu4;
         "eqmQIres" = _eqmQIres;
         "szUK5EJh" = _szUK5EJh;
+        "ctV59pOE" = _ctV59pOE;
         "fabric-1.20.1" = _t2dzSOil;
-        "fabric-1.21.1" = _szUK5EJh;
+        "fabric-1.21.1" = _ctV59pOE;
         "pkg-1.0" = _oNbp0iHG;
         "pkg-1.5-1.1" = _CJyV9Xon;
         "pkg-1.6-1.1" = _v1eU96M0;
@@ -60,7 +66,8 @@ let
         "pkg-1.6-1.3" = _fB3dZGu4;
         "pkg-1.7-1.3" = _eqmQIres;
         "pkg-1.7-1.4" = _szUK5EJh;
-        "default" = _szUK5EJh;
+        "pkg-1.8-1.4" = _ctV59pOE;
+        "default" = _ctV59pOE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-repel";

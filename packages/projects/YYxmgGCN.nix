@@ -266,6 +266,11 @@ let
             "file" = "neospeedzero-6.4.1-universal.jar";
             "hash" = "sha512-uk98EHwjwYHq0xb+p/6g7vkkhMnnYqfNG11O7KX53gvAUOYGD6rKm+sEVR/439PE4SUDHTJmkpHJf98VGiBtBQ==";
         };
+        _auh89Yht = {
+            "id" = "auh89Yht";
+            "file" = "neospeedzero-6.5.0-universal.jar";
+            "hash" = "sha512-aBKoDZtNoufxJ13l1Bjj/uNF0gXbijKc8gGoD/urrDOvNTSrJCDnAuUYb+tABaUTorxWfl50+ErBOOCDbSYOPw==";
+        };
     in {
         "EbJ3cfB8" = _EbJ3cfB8;
         "GJiXjxeb" = _GJiXjxeb;
@@ -320,6 +325,7 @@ let
         "2fN27VL9" = _2fN27VL9;
         "vRJiiezQ" = _vRJiiezQ;
         "W1HK1wAC" = _W1HK1wAC;
+        "auh89Yht" = _auh89Yht;
         "fabric-1.21.7" = _Erp8S8x4;
         "fabric-1.21.8" = _Erp8S8x4;
         "fabric-1.21.9" = _8uHhcSQp;
@@ -335,6 +341,7 @@ let
         "fabric-26.1.1" = _uWaFsZtC;
         "fabric-26.1.2" = _uWaFsZtC;
         "fabric-26.2" = _W1HK1wAC;
+        "fabric-26.3" = _auh89Yht;
         "neoforge-1.21.7" = _4zRzvX62;
         "neoforge-1.21.8" = _4zRzvX62;
         "neoforge-1.21.9" = _5jADdMk4;
@@ -350,12 +357,14 @@ let
         "neoforge-26.1.1" = _uWaFsZtC;
         "neoforge-26.1.2" = _uWaFsZtC;
         "neoforge-26.2" = _W1HK1wAC;
+        "neoforge-26.3" = _auh89Yht;
         "paper-26.1-pre-3" = _VELqvEGI;
         "paper-26.1-rc-1" = _VELqvEGI;
         "paper-26.1" = _SO98ce4G;
         "paper-26.1.1" = _SO98ce4G;
         "paper-26.1.2" = _SO98ce4G;
         "paper-26.2" = _W1HK1wAC;
+        "paper-26.3" = _auh89Yht;
         "pkg-5.0.1-rc.2-fabric" = _EbJ3cfB8;
         "pkg-5.0.1-rc.2-neo" = _GJiXjxeb;
         "pkg-5.0.2+1.21.7-neoforge" = _doiZQsum;
@@ -409,7 +418,8 @@ let
         "pkg-6.3.1+26.2-universal" = _2fN27VL9;
         "pkg-6.4.0+26.2-universal" = _vRJiiezQ;
         "pkg-6.4.1+26.2-universal" = _W1HK1wAC;
-        "default" = _W1HK1wAC;
+        "pkg-6.5.0+26.3-universal" = _auh89Yht;
+        "default" = _auh89Yht;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "neospeedzero";

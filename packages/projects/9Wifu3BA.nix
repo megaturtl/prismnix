@@ -151,6 +151,16 @@ let
             "file" = "partyhud-neo-1.21.1-2.0.2.jar";
             "hash" = "sha512-vG3k7vLjVGjtXDFBVw+3VknnvY3ZA33+qpmWfn29mJzdzNT9/985TNGVujy5YvoLw4PI3cFn6D+XUJoVN4xINw==";
         };
+        _LB2AClpX = {
+            "id" = "LB2AClpX";
+            "file" = "partyhud-forge-2.0.5.jar";
+            "hash" = "sha512-xEFME43PMFkwJE86XX775QXEUVi72T68cjXIejf2nSRFghkHOKqLZPILczMZTAbl9iuCrO1+ks8Vk/T8Jw9Vqg==";
+        };
+        _6cULLjXN = {
+            "id" = "6cULLjXN";
+            "file" = "partyhud-neo-1.21.1-2.0.3.jar";
+            "hash" = "sha512-khGhCG9dVM9Dh24r26CZDQSPFqLEk8++OXH/b7SLIoor/BgYpphMwjTOTCUF0gFzYr1UXa00TRATkSR+GMIQpg==";
+        };
     in {
         "F6JXuBRB" = _F6JXuBRB;
         "QBN3xdgR" = _QBN3xdgR;
@@ -182,8 +192,10 @@ let
         "ozVHNYCF" = _ozVHNYCF;
         "zkuDYJvu" = _zkuDYJvu;
         "UUsgpypX" = _UUsgpypX;
-        "forge-1.20.1" = _ozVHNYCF;
-        "neoforge-1.21.1" = _UUsgpypX;
+        "LB2AClpX" = _LB2AClpX;
+        "6cULLjXN" = _6cULLjXN;
+        "forge-1.20.1" = _LB2AClpX;
+        "neoforge-1.21.1" = _6cULLjXN;
         "neoforge-26.1.2" = _zkuDYJvu;
         "neoforge-26.1" = _zkuDYJvu;
         "neoforge-26.1.1" = _zkuDYJvu;
@@ -205,11 +217,12 @@ let
         "pkg-2.0.2" = _UUsgpypX;
         "pkg-2.0.0-beta1" = _rSBdtS5t;
         "pkg-1" = _BHVgxR09;
-        "pkg-2.0.3" = _80QYo7YG;
+        "pkg-2.0.3" = _6cULLjXN;
         "pkg-1.1" = _K7UHqA7f;
         "pkg-2.0.4" = _ozVHNYCF;
         "pkg-1.2" = _zkuDYJvu;
-        "default" = _UUsgpypX;
+        "pkg-2.0.5" = _LB2AClpX;
+        "default" = _6cULLjXN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "party-hud";

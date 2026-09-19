@@ -26,22 +26,29 @@ let
             "file" = "supertnt-1.0.jar";
             "hash" = "sha512-0r50MflLgbrd2p+kh+egD/F4fxlHfZsmbmjt0vqVC4vjcHEUlMQzdoo8UCmDaxyj71BljDWboDSEAtUIJsNuEA==";
         };
+        _9FyuVHY5 = {
+            "id" = "9FyuVHY5";
+            "file" = "supertnt-1.1.jar";
+            "hash" = "sha512-f8EhXbm5P97RsndmvSHEYTKRFDTVAk5dlJxOGxyQt5UG9XYDcnhJz2QPcmIsfoyQrI2/VokGqfFho+TZk4FHNg==";
+        };
     in {
         "b7SYG3mR" = _b7SYG3mR;
         "EdPmlNmi" = _EdPmlNmi;
         "2mVgYC6G" = _2mVgYC6G;
         "SGO4OX28" = _SGO4OX28;
         "E0kmDXXK" = _E0kmDXXK;
+        "9FyuVHY5" = _9FyuVHY5;
         "forge-1.19.2" = _b7SYG3mR;
         "forge-1.7.2" = _EdPmlNmi;
         "forge-1.12.2" = _2mVgYC6G;
-        "forge-1.20.1" = _E0kmDXXK;
+        "forge-1.20.1" = _9FyuVHY5;
         "pkg-0.1" = _b7SYG3mR;
         "pkg-0.4.0" = _EdPmlNmi;
         "pkg-1.0.1" = _2mVgYC6G;
         "pkg-0.5" = _SGO4OX28;
         "pkg-1.0" = _E0kmDXXK;
-        "default" = _E0kmDXXK;
+        "pkg-1.1" = _9FyuVHY5;
+        "default" = _9FyuVHY5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "super-tnt-mod";

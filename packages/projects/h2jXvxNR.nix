@@ -506,6 +506,46 @@ let
             "file" = "starcatcher-3.1.4.1-FORGE-1.20.1.jar";
             "hash" = "sha512-1IzgozKRsQSXk2h5/zCsx6JlV/gZzdDT34Axm7+GvpLm6s3IioBjs2s4K8GqVe45CwWio81SjvpnYHTB/O0yuw==";
         };
+        _oaBearOA = {
+            "id" = "oaBearOA";
+            "file" = "starcatcher-3.1.4-NEOFORGE-1.21.1.jar";
+            "hash" = "sha512-9pDLo44WYJp7u3L5m6+U+ESdvNF1v/rzCSYbiDQDp6IVKQ9TNrWH/mT+DI2YlDfBtp3tDcETrsRQbz/LypLiWw==";
+        };
+        _gVEvP496 = {
+            "id" = "gVEvP496";
+            "file" = "starcatcher-3.1.4-NEOFORGE-26.1.2.jar";
+            "hash" = "sha512-k2ggPTNpt98uToV80lcW1TZ9oNR/noQdbQwTMIj8alIlcyHJPkfmzGczFfUPgjCIXGZjRSgefIKcs+9QHKDtsQ==";
+        };
+        _JUgq0oJq = {
+            "id" = "JUgq0oJq";
+            "file" = "starcatcher-3.1.4.1-NEOFORGE-26.1.2.jar";
+            "hash" = "sha512-J8QmiNntZKE2WDw7rHH548VFe0D+sOBMzBmOlcrHcM7O6bhjObxBNb/6o1VfLX2bSrBpVojKAlClHpxlq859cQ==";
+        };
+        _6cnwGavZ = {
+            "id" = "6cnwGavZ";
+            "file" = "starcatcher-3.1.4.1-NEOFORGE-1.21.1.jar";
+            "hash" = "sha512-SFtGAgEMT2Wr088v6xkFE/qS97gkkpmG8PzzQlrF7rVS2jazGnbAR1cFklk8S1o+pE8ijqHpg3jd/0PuyehsFQ==";
+        };
+        _jf0qfeEV = {
+            "id" = "jf0qfeEV";
+            "file" = "starcatcher-3.1.4.2-FORGE-1.20.1.jar";
+            "hash" = "sha512-eNvD1aeYB0RTvkY6JQAm/rluDGvPUqA3DfxeesoUBvPfpJYwncHkK48NyaxsDNHaziWk99D69Kq+jMGBO2nabQ==";
+        };
+        _9531K74r = {
+            "id" = "9531K74r";
+            "file" = "starcatcher-3.1.4.3-FORGE-1.20.1.jar";
+            "hash" = "sha512-FlyFtG77S8LW9HdBHqbhIO57wF2CiD04qtoUjrLW94hoS6p7huhJ6qdFzh3hxEFMeiD/plUTZH4JMp7oemweDQ==";
+        };
+        _LLEg27kz = {
+            "id" = "LLEg27kz";
+            "file" = "starcatcher-3.1.4.4-FORGE-1.20.1.jar";
+            "hash" = "sha512-Bl4GTrQUhgkraXJiv/VFBIb9NvjXHYumfw8vKWRSQ9PxXJgZr4qHY0ZPusfPaa73EXBpjb3qlcoJcXgbtlda7g==";
+        };
+        _PJPWp3Zs = {
+            "id" = "PJPWp3Zs";
+            "file" = "starcatcher-3.1.4.5-FORGE-1.20.1.jar";
+            "hash" = "sha512-mN2Ny+j8MF//9XAwVxm+Q1vwFRh2PPj7D4spgFzFM7rcyZJMuXvTD1I+Uhtg2tGM6g9GCI+AvH5m6uKkk/qdbw==";
+        };
     in {
         "xDh2Rz0Z" = _xDh2Rz0Z;
         "n3dKQ8Yc" = _n3dKQ8Yc;
@@ -608,12 +648,20 @@ let
         "VrUusGGJ" = _VrUusGGJ;
         "j8ogdqql" = _j8ogdqql;
         "DDcW7Eto" = _DDcW7Eto;
-        "neoforge-1.21.1" = _8ExmAi8H;
-        "neoforge-26.1.2" = _8Mw66pt7;
+        "oaBearOA" = _oaBearOA;
+        "gVEvP496" = _gVEvP496;
+        "JUgq0oJq" = _JUgq0oJq;
+        "6cnwGavZ" = _6cnwGavZ;
+        "jf0qfeEV" = _jf0qfeEV;
+        "9531K74r" = _9531K74r;
+        "LLEg27kz" = _LLEg27kz;
+        "PJPWp3Zs" = _PJPWp3Zs;
+        "neoforge-1.21.1" = _6cnwGavZ;
+        "neoforge-26.1.2" = _JUgq0oJq;
         "neoforge-26.1" = _g8p9PuQX;
         "neoforge-26.1.1" = _g8p9PuQX;
         "neoforge-26.2" = _QtFUMkUo;
-        "forge-1.20.1" = _DDcW7Eto;
+        "forge-1.20.1" = _PJPWp3Zs;
         "forge-1.20.2" = _UC5hEOUf;
         "forge-1.20.3" = _UC5hEOUf;
         "forge-1.20.4" = _UC5hEOUf;
@@ -715,7 +763,15 @@ let
         "pkg-3.1.3-PREVIEW-FORGE-1.20.1" = _VrUusGGJ;
         "pkg-3.1.4-FORGE-1.20.1" = _j8ogdqql;
         "pkg-3.1.4.1-FORGE-1.20.1" = _DDcW7Eto;
-        "default" = _DDcW7Eto;
+        "pkg-3.1.4-NEOFORGE-1.21.1" = _oaBearOA;
+        "pkg-3.1.4-NEOFORGE-26.1.2" = _gVEvP496;
+        "pkg-3.1.4.1-NEOFORGE-26.1.2" = _JUgq0oJq;
+        "pkg-3.1.4.1-NEOFORGE-1.21.1" = _6cnwGavZ;
+        "pkg-3.1.4.2-FORGE-1.20.1" = _jf0qfeEV;
+        "pkg-3.1.4.3-FORGE-1.20.1" = _9531K74r;
+        "pkg-3.1.4.4-FORGE-1.20.1" = _LLEg27kz;
+        "pkg-3.1.4.5-FORGE-1.20.1" = _PJPWp3Zs;
+        "default" = _PJPWp3Zs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "starcatcher";

@@ -306,6 +306,16 @@ let
             "file" = "unstriplog-1.1.2-1.21.1-NeoForge.jar";
             "hash" = "sha512-Z1X7MYl/8ZgtocA22Wn9/JAwJCOo01+P9SUnG5kaPqle1XYSDRagvO2Ao0mQPAQ7XwP4WaTPMLdjbBjEvoaD0g==";
         };
+        _gvMcTBUE = {
+            "id" = "gvMcTBUE";
+            "file" = "unstriplog-26.3-neoforge-26.3.0.0.jar";
+            "hash" = "sha512-RN8u4SErnBrKUH8eETN3u2J/gpL/XbTEe1TDmsK6d83B+7PR/qG9dupKfba0LDvv+zrhFH6Gwol3KW1ykuKLRw==";
+        };
+        _p8V1dYFR = {
+            "id" = "p8V1dYFR";
+            "file" = "unstriplog-26.3-fabric-26.3.0.0.jar";
+            "hash" = "sha512-iNnhJ4dLxF6TifnaJFgBLORA5zSfLtXfaQ5vid/mTubjWJB/TX/VgwtMuj/quG9eAIqTLmeimOjzxykUFKR/4Q==";
+        };
     in {
         "EfJaaeOj" = _EfJaaeOj;
         "siPB7OOg" = _siPB7OOg;
@@ -368,6 +378,8 @@ let
         "Qp2UwXTi" = _Qp2UwXTi;
         "2uWOVKcY" = _2uWOVKcY;
         "RLrOdegE" = _RLrOdegE;
+        "gvMcTBUE" = _gvMcTBUE;
+        "p8V1dYFR" = _p8V1dYFR;
         "fabric-1.21.1" = _jttQtvpt;
         "fabric-1.21.5" = _iNDZTgPj;
         "fabric-1.21.3" = _iXCbbeQm;
@@ -383,6 +395,7 @@ let
         "fabric-26.1.1" = _KETYiClr;
         "fabric-26.1.2" = _2uWOVKcY;
         "fabric-26.2" = _iMM2yxgG;
+        "fabric-26.3" = _p8V1dYFR;
         "neoforge-1.21.1" = _RLrOdegE;
         "neoforge-1.21.5" = _GbOo10iv;
         "neoforge-1.21.3" = _BIvXeuYR;
@@ -398,6 +411,7 @@ let
         "neoforge-26.1.1" = _2lFX9tDO;
         "neoforge-26.1.2" = _Qp2UwXTi;
         "neoforge-26.2" = _ccEe3ECq;
+        "neoforge-26.3" = _gvMcTBUE;
         "pkg-1.0.0-1.21.1-fabric" = _EfJaaeOj;
         "pkg-1.0.0-1.21.1-NeoForge" = _siPB7OOg;
         "pkg-1.0.0-1.21.5-fabric" = _gGgtusKC;
@@ -454,7 +468,8 @@ let
         "pkg-26.2.0.1" = _iMM2yxgG;
         "pkg-26.1.2.1" = _2uWOVKcY;
         "pkg-1.1.2-1.21.1-NeoForge" = _RLrOdegE;
-        "default" = _RLrOdegE;
+        "pkg-26.3.0.0" = _p8V1dYFR;
+        "default" = _p8V1dYFR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unstriplog";

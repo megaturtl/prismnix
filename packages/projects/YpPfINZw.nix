@@ -11,23 +11,30 @@ let
             "file" = "ParCool-CompatibilityAddon-1.21.1-3.4.3.3-1.2.jar";
             "hash" = "sha512-cepMCAR2Oi/pKtqMvYe1wfRCNt+i/mhNLH+QsJYiCXiw5CnGbpicKrXqJUYcesrq40F77pzEMJZqV+bh/5ZKcQ==";
         };
+        _wUwZbPAd = {
+            "id" = "wUwZbPAd";
+            "file" = "ParCool-CompatibilityAddon-1.21.1-3.4.3.3-1.2.1.jar";
+            "hash" = "sha512-t0XA/cpPWmsvNMK6FJpQomfugpLdW4I+mnUOgw7j28u3AmYjUyA3AE7b7p6sLPR1Quoymdk0kb2x1Orzf3Z7tQ==";
+        };
     in {
         "zSCsEKfr" = _zSCsEKfr;
         "agBolUkU" = _agBolUkU;
-        "neoforge-1.21.1" = _agBolUkU;
-        "neoforge-1.21.2" = _agBolUkU;
-        "neoforge-1.21.3" = _agBolUkU;
-        "neoforge-1.21.4" = _agBolUkU;
-        "neoforge-1.21.5" = _agBolUkU;
-        "neoforge-1.21.6" = _agBolUkU;
-        "neoforge-1.21.7" = _agBolUkU;
-        "neoforge-1.21.8" = _agBolUkU;
-        "neoforge-1.21.9" = _agBolUkU;
-        "neoforge-1.21.10" = _agBolUkU;
-        "neoforge-1.21.11" = _agBolUkU;
+        "wUwZbPAd" = _wUwZbPAd;
+        "neoforge-1.21.1" = _wUwZbPAd;
+        "neoforge-1.21.2" = _wUwZbPAd;
+        "neoforge-1.21.3" = _wUwZbPAd;
+        "neoforge-1.21.4" = _wUwZbPAd;
+        "neoforge-1.21.5" = _wUwZbPAd;
+        "neoforge-1.21.6" = _wUwZbPAd;
+        "neoforge-1.21.7" = _wUwZbPAd;
+        "neoforge-1.21.8" = _wUwZbPAd;
+        "neoforge-1.21.9" = _wUwZbPAd;
+        "neoforge-1.21.10" = _wUwZbPAd;
+        "neoforge-1.21.11" = _wUwZbPAd;
         "pkg-1.1" = _zSCsEKfr;
         "pkg-1.2" = _agBolUkU;
-        "default" = _agBolUkU;
+        "pkg-1.2.1" = _wUwZbPAd;
+        "default" = _wUwZbPAd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "parcool+-compatibility-addon-neoforge-edition";

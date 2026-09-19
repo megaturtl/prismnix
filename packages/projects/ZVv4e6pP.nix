@@ -651,6 +651,11 @@ let
             "file" = "MoreStickVariants-1.4.20+26.1(2)-Fabric.jar";
             "hash" = "sha512-ZQtMajAMxeXLYPN0qEcGnMG+GIpGQE3nrMAAXW4BterRW84ezzfHO7l4M21BvBxve8CsVmLW/WfKUA+nV1WkKw==";
         };
+        _Zak3bNus = {
+            "id" = "Zak3bNus";
+            "file" = "MoreStickVariants-1.4.21+26.3-Fabric.jar";
+            "hash" = "sha512-B57l6RzKme7wiUG6sX1zzgx2UdnbhmdFlehArMP/jVnapiPm5QuaHIXSRdlMHot2CM52pdzyS64TwaJEG41sdA==";
+        };
     in {
         "ATi5YWGr" = _ATi5YWGr;
         "kIAgKFJg" = _kIAgKFJg;
@@ -782,6 +787,7 @@ let
         "fp07Xp6k" = _fp07Xp6k;
         "czahVA9f" = _czahVA9f;
         "cizTdhQm" = _cizTdhQm;
+        "Zak3bNus" = _Zak3bNus;
         "fabric-1.20.1" = _XMEs4DpJ;
         "fabric-1.20.4" = _NtOWjUKK;
         "fabric-1.20.5" = _aObnrTyA;
@@ -835,6 +841,7 @@ let
         "fabric-26.1.1" = _cizTdhQm;
         "fabric-26.1.2" = _cizTdhQm;
         "fabric-26.2" = _cizTdhQm;
+        "fabric-26.3" = _Zak3bNus;
         "pkg-1.0.1" = _QuSw6APE;
         "pkg-1.0.2" = _lb7iSDUB;
         "pkg-1.0.3" = _rHHCmIDC;
@@ -874,7 +881,8 @@ let
         "pkg-1.4.18" = _cwuFZ6ao;
         "pkg-1.4.19" = _ZwloaTer;
         "pkg-1.4.20" = _cizTdhQm;
-        "default" = _cizTdhQm;
+        "pkg-1.4.21" = _Zak3bNus;
+        "default" = _Zak3bNus;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-stick-variants";

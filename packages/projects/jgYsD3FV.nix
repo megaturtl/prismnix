@@ -411,6 +411,21 @@ let
             "file" = "Unbound Visual + PT v9.7.zip";
             "hash" = "sha512-lVgcBY3XZ2AvK1eDrGS1UYDQugG799/JjAYn27sUyxmrLgqJHKGXg37ronuT+1btRUsrgMSuRih5v7rZZONE6A==";
         };
+        _FBVeZ2YD = {
+            "id" = "FBVeZ2YD";
+            "file" = "Unbound Visual + PT v9.7.zip";
+            "hash" = "sha512-g0HDJ0ytscdMqkAHxrYHQhSXOyK6Ur1Hqyxmsls8xXEDJ7NSeB1hTzA/0NCgLvlzng73RcQyqIYvTJ+Qcopx7g==";
+        };
+        _zzLzSlkA = {
+            "id" = "zzLzSlkA";
+            "file" = "Unbound_Visual_PT_v9_7_steable.zip";
+            "hash" = "sha512-QroIRZj+1WNb91YCCAeZcmb8Ob8/oHQ5NQn7lBF2CHPs5FCFRbqcBo4sc7v1bFw3KVPzQjlmUIPTDBaP0qzMiQ==";
+        };
+        _B5X7lhgQ = {
+            "id" = "B5X7lhgQ";
+            "file" = "Unbound Visual + PT v9.8.zip";
+            "hash" = "sha512-cuTOkwEkX7k2llXvVtpTncwst6T0NMxodQf3XcN5livbMrgpwoVN4WiT8bsmTvEJVMKDYxUEGeZdEkaLrzkupQ==";
+        };
     in {
         "tDW59yVc" = _tDW59yVc;
         "TAyK1NwS" = _TAyK1NwS;
@@ -494,6 +509,9 @@ let
         "115KIXjb" = _115KIXjb;
         "OiQvOXmF" = _OiQvOXmF;
         "bIQnVFCF" = _bIQnVFCF;
+        "FBVeZ2YD" = _FBVeZ2YD;
+        "zzLzSlkA" = _zzLzSlkA;
+        "B5X7lhgQ" = _B5X7lhgQ;
         "iris-1.21" = _TwDbtWcI;
         "iris-1.21.1" = _rBTt9cfd;
         "iris-1.21.2" = _TwDbtWcI;
@@ -501,15 +519,15 @@ let
         "iris-1.21.4" = _OiQvOXmF;
         "iris-1.21.5" = _OiQvOXmF;
         "iris-1.21.6" = _OiQvOXmF;
-        "iris-1.21.7" = _OiQvOXmF;
-        "iris-1.21.8" = _OiQvOXmF;
-        "iris-1.21.9" = _bIQnVFCF;
-        "iris-1.21.10" = _bIQnVFCF;
-        "iris-1.21.11" = _bIQnVFCF;
-        "iris-26.1" = _bIQnVFCF;
-        "iris-26.1.1" = _bIQnVFCF;
-        "iris-26.1.2" = _bIQnVFCF;
-        "iris-26.2" = _bIQnVFCF;
+        "iris-1.21.7" = _zzLzSlkA;
+        "iris-1.21.8" = _zzLzSlkA;
+        "iris-1.21.9" = _B5X7lhgQ;
+        "iris-1.21.10" = _B5X7lhgQ;
+        "iris-1.21.11" = _B5X7lhgQ;
+        "iris-26.1" = _B5X7lhgQ;
+        "iris-26.1.1" = _B5X7lhgQ;
+        "iris-26.1.2" = _B5X7lhgQ;
+        "iris-26.2" = _B5X7lhgQ;
         "pkg-Unbound-Visual-+" = _9SVzdgwh;
         "pkg-1.5" = _IqRrH1ly;
         "pkg-1.6" = _VjJH8HoR;
@@ -586,8 +604,10 @@ let
         "pkg-PT-v9.4" = _1f2arRc6;
         "pkg-PT-v9.6-steable" = _115KIXjb;
         "pkg-PT-v9.6" = _OiQvOXmF;
-        "pkg-PT-v9.7" = _bIQnVFCF;
-        "default" = _bIQnVFCF;
+        "pkg-PT-v9.7" = _FBVeZ2YD;
+        "pkg-PT-v9.7-steable" = _zzLzSlkA;
+        "pkg-PT-v9.8" = _B5X7lhgQ;
+        "default" = _B5X7lhgQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unbound-visual-+";

@@ -256,6 +256,11 @@ let
             "file" = "MiniPlaceholders-Fabric-3.2.0.jar";
             "hash" = "sha512-tpRonKpJHYksmB/PXvGGowwYecHPhQpf9G2T0QT4hxYg4JkA4ykA8v85M0resV8uIzQwOF5vEX4t6sGRzCcPGA==";
         };
+        _tnc519oD = {
+            "id" = "tnc519oD";
+            "file" = "MiniPlaceholders-Fabric-3.2.1.jar";
+            "hash" = "sha512-AtSfxTS2plny3wxv3LKRTxhIcXBoj7afMqRgQ17wpejGSELCvqUVbx7JxbrNBYFC1ZLOBYW8QCSCIYYKl76ckw==";
+        };
     in {
         "NdcZ2h7M" = _NdcZ2h7M;
         "cRrd6qg5" = _cRrd6qg5;
@@ -308,6 +313,7 @@ let
         "9YJLSJAW" = _9YJLSJAW;
         "N2WfJ0ll" = _N2WfJ0ll;
         "77nYBVqe" = _77nYBVqe;
+        "tnc519oD" = _tnc519oD;
         "paper-1.18.2" = _VYHzJEMw;
         "paper-1.19" = _VYHzJEMw;
         "paper-1.19.1" = _VYHzJEMw;
@@ -507,7 +513,7 @@ let
         "fabric-26.1" = _77nYBVqe;
         "fabric-26.1.1" = _77nYBVqe;
         "fabric-26.1.2" = _77nYBVqe;
-        "fabric-26.2" = _77nYBVqe;
+        "fabric-26.2" = _tnc519oD;
         "quilt-1.19.4" = _bKlpE4fA;
         "quilt-23w17a" = _r2ZUlaTY;
         "quilt-23w18a" = _r2ZUlaTY;
@@ -539,7 +545,7 @@ let
         "quilt-26.1" = _77nYBVqe;
         "quilt-26.1.1" = _77nYBVqe;
         "quilt-26.1.2" = _77nYBVqe;
-        "quilt-26.2" = _77nYBVqe;
+        "quilt-26.2" = _tnc519oD;
         "sponge-1.16.5" = _W2OpSm11;
         "sponge-1.17" = _W2OpSm11;
         "sponge-1.17.1" = _W2OpSm11;
@@ -594,7 +600,8 @@ let
         "pkg-3.1.1-BETA1" = _32gOedIJ;
         "pkg-3.1.1-BETA2" = _ypkD8BlQ;
         "pkg-3.2.0" = _77nYBVqe;
-        "default" = _77nYBVqe;
+        "pkg-3.2.1" = _tnc519oD;
+        "default" = _tnc519oD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "miniplaceholders";

@@ -91,6 +91,11 @@ let
             "file" = "YegsPack 26.2.zip";
             "hash" = "sha512-zK/JitJ6Aez8CibTXVIP2PgImo9lrYem+IENpmbJj6ktwP0YsBvjG0SD3jYjCLxDXx9iuvcw9pf6HveQJyvnjQ==";
         };
+        _ix2wYerW = {
+            "id" = "ix2wYerW";
+            "file" = "YegsPack 26.3.zip";
+            "hash" = "sha512-4GB6Xj9Q2yvE6iNN5JI+SNXWWp7LHTTMaZLPV0eqjqerDfLUBGZZ3mY6JVoiWXmvC+hcpx86k0E0cmAKN9hcAg==";
+        };
     in {
         "zbKP9z5l" = _zbKP9z5l;
         "yFa5uZ1A" = _yFa5uZ1A;
@@ -110,6 +115,7 @@ let
         "P53FDllv" = _P53FDllv;
         "zg7HUhOk" = _zg7HUhOk;
         "oe5ctrB0" = _oe5ctrB0;
+        "ix2wYerW" = _ix2wYerW;
         "minecraft-1.16.5" = _zbKP9z5l;
         "minecraft-1.17" = _yFa5uZ1A;
         "minecraft-1.17.1" = _yFa5uZ1A;
@@ -142,6 +148,7 @@ let
         "minecraft-26.1.1" = _zg7HUhOk;
         "minecraft-26.1.2" = _zg7HUhOk;
         "minecraft-26.2" = _oe5ctrB0;
+        "minecraft-26.3" = _ix2wYerW;
         "pkg-1.16.5-1.0.0" = _zbKP9z5l;
         "pkg-1.17-1.0.0" = _yFa5uZ1A;
         "pkg-1.18-1.0.0" = _5ckHIYfj;
@@ -160,7 +167,8 @@ let
         "pkg-26.1-beta1.0" = _P53FDllv;
         "pkg-26.1" = _zg7HUhOk;
         "pkg-26.2" = _oe5ctrB0;
-        "default" = _oe5ctrB0;
+        "pkg-26.3" = _ix2wYerW;
+        "default" = _ix2wYerW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yegspack";

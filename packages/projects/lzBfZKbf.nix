@@ -36,6 +36,21 @@ let
             "file" = "intelligentvillagers-0.5.0.jar";
             "hash" = "sha512-o87ObV9AxZwKmOP2afxv1Acjf5MOs+9mQ9mIs9WCXikng4HN/Mgdzm5dWglOyApeex14lwSdQEK2cZah7sYfxw==";
         };
+        _EAcJPVyn = {
+            "id" = "EAcJPVyn";
+            "file" = "intelligentvillagers-0.5.0.jar";
+            "hash" = "sha512-m6HLdwl2AGEwy3dbzJhDk6t5ZKxlLx5dE4RvEmGP1YJ4St8YYPDFSDPwcg3SPPnqdMQh6QSwBNcMblTGW3CY/Q==";
+        };
+        _fepitzln = {
+            "id" = "fepitzln";
+            "file" = "intelligentvillagers-0.5.0.jar";
+            "hash" = "sha512-a/aVkVb7JftjRn2ub8JLY9PfZmXMGYmjHsnuFzoH95+zo/L7nvXjyzFv6Nt3DAff43X8HXYJrAVw9dF/tj5YcQ==";
+        };
+        _ZtbNx1jG = {
+            "id" = "ZtbNx1jG";
+            "file" = "intelligentvillagers-0.5.0.jar";
+            "hash" = "sha512-HLEgtKwSmPLl4FzJ3/AdXsdY53xToEG0hNH0k90MmbbESrvjQjME5XRRN+Gm1MMQsg0AmWU500edHdZYpRfKBA==";
+        };
     in {
         "6w46s4kp" = _6w46s4kp;
         "uVss2DmQ" = _uVss2DmQ;
@@ -44,7 +59,10 @@ let
         "hz7NVhaD" = _hz7NVhaD;
         "9dewYXhc" = _9dewYXhc;
         "hVMn9Drz" = _hVMn9Drz;
-        "neoforge-1.21.1" = _hVMn9Drz;
+        "EAcJPVyn" = _EAcJPVyn;
+        "fepitzln" = _fepitzln;
+        "ZtbNx1jG" = _ZtbNx1jG;
+        "neoforge-1.21.1" = _ZtbNx1jG;
         "pkg-6.0.0" = _6w46s4kp;
         "pkg-6.0.1" = _uVss2DmQ;
         "pkg-6.0.2" = _VSiJBvx0;
@@ -52,7 +70,10 @@ let
         "pkg-6.0.4" = _hz7NVhaD;
         "pkg-6.0.6" = _9dewYXhc;
         "pkg-6.0.7" = _hVMn9Drz;
-        "default" = _hVMn9Drz;
+        "pkg-6.0.8" = _EAcJPVyn;
+        "pkg-6.0.9" = _fepitzln;
+        "pkg-6.0.10" = _ZtbNx1jG;
+        "default" = _ZtbNx1jG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nations-villagers-ai-reborn";

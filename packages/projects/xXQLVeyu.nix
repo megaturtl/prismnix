@@ -81,6 +81,11 @@ let
             "file" = "bamboo-texture-fix-26.2-88.0.zip";
             "hash" = "sha512-qtwInpcElq7r7eiYV9C6ly+tzVdCLaOGKRWyd+4hS6Jt83XDUEbKY5yX36nj4zogNM9+2UPnaS9Rniic6EVNlw==";
         };
+        _OIWr3XAh = {
+            "id" = "OIWr3XAh";
+            "file" = "bamboo-texture-fix-1.0.0-mc26.3.zip";
+            "hash" = "sha512-1MHmW1SRE46rQAORoLUkpyH+Wc0KY0xHzAF2R+Kt2xRvFDOezznSFtYHLlufk9icdQpnTWm6arrP4sVfW4+mdw==";
+        };
     in {
         "gPbUmkF9" = _gPbUmkF9;
         "NVJvUCGi" = _NVJvUCGi;
@@ -98,6 +103,7 @@ let
         "en4wxaE6" = _en4wxaE6;
         "F4HFiMBL" = _F4HFiMBL;
         "su8U8A6M" = _su8U8A6M;
+        "OIWr3XAh" = _OIWr3XAh;
         "minecraft-22w45a" = _gPbUmkF9;
         "minecraft-22w46a" = _gPbUmkF9;
         "minecraft-1.19.3" = _gPbUmkF9;
@@ -130,6 +136,7 @@ let
         "minecraft-26.1.1" = _F4HFiMBL;
         "minecraft-26.1.2" = _F4HFiMBL;
         "minecraft-26.2" = _su8U8A6M;
+        "minecraft-26.3" = _OIWr3XAh;
         "pkg-v12.1" = _gPbUmkF9;
         "pkg-13.1" = _NVJvUCGi;
         "pkg-15" = _ijG579IZ;
@@ -146,7 +153,8 @@ let
         "pkg-75.0" = _en4wxaE6;
         "pkg-84.0" = _F4HFiMBL;
         "pkg-88.0" = _su8U8A6M;
-        "default" = _su8U8A6M;
+        "pkg-1.0.0" = _OIWr3XAh;
+        "default" = _OIWr3XAh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bamboo-texture-fix";

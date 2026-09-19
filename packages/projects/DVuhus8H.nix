@@ -71,6 +71,11 @@ let
             "file" = "DaysPlayed-mc26.2-1.4.3.jar";
             "hash" = "sha512-+qfYsKKYiAGhu4Kh6qrgMbZh+0xBnRUcvt0yXZlXYbQ8vWIxPrMhCOx8Kp8x85O0r8OcUG7/o1lUrrybafcaHg==";
         };
+        _ZwXLbAmp = {
+            "id" = "ZwXLbAmp";
+            "file" = "DaysPlayed-mc26.3-1.5.0.jar";
+            "hash" = "sha512-mjqi5BdTIx8QWTbQoNoDGI4xc/21r6tfxZNsoHcCLQyvSKQ2K9VZZNBmsDBoSkYjMArnqZPcqc+xtRqwSlFYVw==";
+        };
     in {
         "opHqDvzQ" = _opHqDvzQ;
         "GAlUlMcF" = _GAlUlMcF;
@@ -86,6 +91,7 @@ let
         "9NIMCnpp" = _9NIMCnpp;
         "8ODod7T9" = _8ODod7T9;
         "5mHfI6Rf" = _5mHfI6Rf;
+        "ZwXLbAmp" = _ZwXLbAmp;
         "fabric-1.21.4" = _opHqDvzQ;
         "fabric-1.21.5" = _o5vgP0LI;
         "fabric-1.21.6" = _gLGnv6n8;
@@ -98,6 +104,7 @@ let
         "fabric-26.1.1" = _9NIMCnpp;
         "fabric-26.1.2" = _8ODod7T9;
         "fabric-26.2" = _5mHfI6Rf;
+        "fabric-26.3" = _ZwXLbAmp;
         "pkg-1.0.0" = _opHqDvzQ;
         "pkg-1.1.0" = _GAlUlMcF;
         "pkg-1.1.1" = _o5vgP0LI;
@@ -112,7 +119,8 @@ let
         "pkg-1.4.1" = _9NIMCnpp;
         "pkg-1.4.2" = _8ODod7T9;
         "pkg-1.4.3" = _5mHfI6Rf;
-        "default" = _5mHfI6Rf;
+        "pkg-1.5.0" = _ZwXLbAmp;
+        "default" = _ZwXLbAmp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "daysplayed";

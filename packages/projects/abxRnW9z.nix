@@ -241,6 +241,11 @@ let
             "file" = "sleeping-bags-neoforge-1.0.10+26.2.jar";
             "hash" = "sha512-o2dHgCWLsVbR0iizn0ZiYeVzYv2XR4YlQ/XMx6vX+HFWDnn9+SS0GPTslIxW1tJJZY51thAdreWVXpo0ozcamA==";
         };
+        _sR450m5f = {
+            "id" = "sR450m5f";
+            "file" = "sleeping-bags-neoforge-1.0.10+26.3.jar";
+            "hash" = "sha512-dm9IHgfBVzFM6jhOKihcVdkmmI06Bnt60OiMmLOq8sLzu2a7fx9fY1WNh3b13Vz6J48Ce+qk2kzg+Z2MKNmyQg==";
+        };
     in {
         "DT3zeBaZ" = _DT3zeBaZ;
         "1eZpl9Wf" = _1eZpl9Wf;
@@ -290,6 +295,7 @@ let
         "ocNRynXT" = _ocNRynXT;
         "MMvZWN4b" = _MMvZWN4b;
         "e7FVBZn4" = _e7FVBZn4;
+        "sR450m5f" = _sR450m5f;
         "forge-1.19" = _1eZpl9Wf;
         "forge-1.19.1" = _6MNSl4aK;
         "forge-1.19.2" = _LFNWaysw;
@@ -318,6 +324,7 @@ let
         "neoforge-26.1.1" = _MMvZWN4b;
         "neoforge-26.1.2" = _MMvZWN4b;
         "neoforge-26.2" = _e7FVBZn4;
+        "neoforge-26.3" = _sR450m5f;
         "pkg-forge-1.19-1.0.0" = _DT3zeBaZ;
         "pkg-forge-1.19-1.0.1" = _1eZpl9Wf;
         "pkg-forge-1.19.1-1.0.0" = _6MNSl4aK;
@@ -365,7 +372,8 @@ let
         "pkg-neoforge-1.0.10+26.1.1" = _ocNRynXT;
         "pkg-neoforge-1.0.10+26.1.2" = _MMvZWN4b;
         "pkg-neoforge-1.0.10+26.2" = _e7FVBZn4;
-        "default" = _e7FVBZn4;
+        "pkg-neoforge-1.0.10+26.3" = _sR450m5f;
+        "default" = _sR450m5f;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sleeping-bags";

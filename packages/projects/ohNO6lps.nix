@@ -1121,6 +1121,16 @@ let
             "file" = "ForgeConfigAPIPort-v26.2.1-mc26.2.x-Fabric.jar";
             "hash" = "sha512-lIuNg95hoRqtL8C7B0SotISMmy8GY8mqAVOJ2VYLP6eFGOYJxE7JAnjeDhWakuvXIcy967RTqkVcNT5c0ZQTvw==";
         };
+        _nYrccllJ = {
+            "id" = "nYrccllJ";
+            "file" = "ForgeConfigAPIPort-v26.3.0-mc26.3.x-NeoForge.jar";
+            "hash" = "sha512-d2QnHrRlDe8o5Y96hBtvlJnxlu3kOX/LZaxEc9QPDMCyv0OQdAHwyPU0cqTwkvc2xiKZ8SqvW6DiShqb1wO26Q==";
+        };
+        _c1wkPZ5n = {
+            "id" = "c1wkPZ5n";
+            "file" = "ForgeConfigAPIPort-v26.3.0-mc26.3.x-Fabric.jar";
+            "hash" = "sha512-hD3PmIE42leCDfnX4WipuRpYPSqBV3PG3HxRAmuIfIGOfpWr743p0U84DJzmeDvZsTRqxE7LCqVtJa9JTGxENw==";
+        };
     in {
         "VpvE1h2H" = _VpvE1h2H;
         "16w4kT84" = _16w4kT84;
@@ -1346,6 +1356,8 @@ let
         "ImT7xcIV" = _ImT7xcIV;
         "DZCpByDO" = _DZCpByDO;
         "rSd3GiG8" = _rSd3GiG8;
+        "nYrccllJ" = _nYrccllJ;
+        "c1wkPZ5n" = _c1wkPZ5n;
         "fabric-1.18" = _XGKEYlsw;
         "fabric-1.19" = _3VCgXZ79;
         "fabric-1.19.1" = _3VCgXZ79;
@@ -1382,6 +1394,7 @@ let
         "fabric-26.1.1" = _jUe0ucoE;
         "fabric-26.1.2" = _jUe0ucoE;
         "fabric-26.2" = _rSd3GiG8;
+        "fabric-26.3" = _c1wkPZ5n;
         "forge-1.20.4" = _cPR7Hb0e;
         "forge-1.20.2" = _r8gESJiS;
         "forge-1.20.6" = _Xm6O1nBK;
@@ -1418,6 +1431,7 @@ let
         "neoforge-26.1.1" = _gtX4TxQk;
         "neoforge-26.1.2" = _gtX4TxQk;
         "neoforge-26.2" = _DZCpByDO;
+        "neoforge-26.3" = _nYrccllJ;
         "pkg-v3.0.0-1.18-Fabric" = _VpvE1h2H;
         "pkg-4.0.0" = _16w4kT84;
         "pkg-4.0.1" = _3h8hgyqP;
@@ -1614,7 +1628,8 @@ let
         "pkg-26.1.5" = _jUe0ucoE;
         "pkg-26.2.0" = _86ROVP2H;
         "pkg-26.2.1" = _rSd3GiG8;
-        "default" = _rSd3GiG8;
+        "pkg-26.3.0" = _c1wkPZ5n;
+        "default" = _c1wkPZ5n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "forge-config-api-port";

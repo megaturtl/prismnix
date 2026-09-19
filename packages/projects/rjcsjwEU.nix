@@ -291,6 +291,16 @@ let
             "file" = "saintsdragons-0.9.52+fabric-1.20.1.jar";
             "hash" = "sha512-T4ItSl8f5U0oDW2TmkU+U4OX3IQAvt3eJxmZ0aq+Rs0Wn8MwhBs6qPtEqGXGw0rW8ZTbeKlGdz+1zp6yHDiueA==";
         };
+        _wexgMG9d = {
+            "id" = "wexgMG9d";
+            "file" = "saintsdragons-0.9.6+forge-1.20.1.jar";
+            "hash" = "sha512-OW7wgLblZyx315NieiBhr62GIZYQO++xvIyAMDvrvWSfghsLgBqxqyzuKdcCUyu5Qo8j50EzB4UBV1zO3pSM+A==";
+        };
+        _aA0kbLir = {
+            "id" = "aA0kbLir";
+            "file" = "saintsdragons-0.9.6+fabric-1.20.1.jar";
+            "hash" = "sha512-f+LDvkvGoSIyCxeIuYsTFf1fwRS4ERsctNU2lTlcIvF4xmgtqLo9zmNB8taYrOEXNP1oH3OwdkU2ZJIuf+jR+g==";
+        };
     in {
         "Lbs6xUnN" = _Lbs6xUnN;
         "XGWLMRqv" = _XGWLMRqv;
@@ -350,8 +360,10 @@ let
         "6U1aPgcI" = _6U1aPgcI;
         "jcHcmFkM" = _jcHcmFkM;
         "stNmafyL" = _stNmafyL;
-        "forge-1.20.1" = _jcHcmFkM;
-        "fabric-1.20.1" = _stNmafyL;
+        "wexgMG9d" = _wexgMG9d;
+        "aA0kbLir" = _aA0kbLir;
+        "forge-1.20.1" = _wexgMG9d;
+        "fabric-1.20.1" = _aA0kbLir;
         "pkg-0.0.51" = _Lbs6xUnN;
         "pkg-0.1.1" = _XGWLMRqv;
         "pkg-0.1.5" = _LeWwiTr2;
@@ -383,7 +395,8 @@ let
         "pkg-0.9.5" = _IB1dCAzX;
         "pkg-0.9.51" = _6U1aPgcI;
         "pkg-0.9.52" = _stNmafyL;
-        "default" = _stNmafyL;
+        "pkg-0.9.6" = _aA0kbLir;
+        "default" = _aA0kbLir;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saints-dragons";

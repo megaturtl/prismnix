@@ -241,6 +241,21 @@ let
             "file" = "Catharsis-1.0.0-beta.21-26.2.jar";
             "hash" = "sha512-hf4o1wbtF12dt3Jz49hQzP+xwrC6+XzJSE1FPv4w72SrP+i5X4TzPudLTbvr+t2uxts0Wm9ERMnAeJCuWyYG5g==";
         };
+        _kPx89llE = {
+            "id" = "kPx89llE";
+            "file" = "Catharsis-1.0.0-beta.22-26.1.jar";
+            "hash" = "sha512-IdXqEgpugn/kTOdTXxTVKsa2zyODA9FGBHnMGGDYfKn5BGrXU5sq5oj2T5kO+u3Od2hWG6bVt7dyN7Bbx/kI9g==";
+        };
+        _44NGgSNL = {
+            "id" = "44NGgSNL";
+            "file" = "Catharsis-1.0.0-beta.22-26.2.jar";
+            "hash" = "sha512-ydQVo2lUTnTa1AEAePkXBsKqMZF7LYIk6MCTDJPIqknnRBtxBYUIX0WCKEJRXF3zGnt/7cgmInBy/ghO/HiDAw==";
+        };
+        _NiyG56Rb = {
+            "id" = "NiyG56Rb";
+            "file" = "Catharsis-1.0.0-beta.22-26.3.jar";
+            "hash" = "sha512-/l9K/wIG+GfdaZJzwir1magx6JrFXgQe2VfQ7K6+2/8ANrxMTNWj0NGxz24JBcGfXhAUTr9ODu93SbU57n9NVw==";
+        };
     in {
         "i2y8kzfh" = _i2y8kzfh;
         "6mV1LGPR" = _6mV1LGPR;
@@ -290,16 +305,20 @@ let
         "p20S0IgR" = _p20S0IgR;
         "NfEUeWdz" = _NfEUeWdz;
         "6cxYQnad" = _6cxYQnad;
+        "kPx89llE" = _kPx89llE;
+        "44NGgSNL" = _44NGgSNL;
+        "NiyG56Rb" = _NiyG56Rb;
         "fabric-1.21.6" = _gf8Q4u9V;
         "fabric-1.21.7" = _gf8Q4u9V;
         "fabric-1.21.8" = _gf8Q4u9V;
         "fabric-1.21.10" = _DjmnlWK9;
         "fabric-1.21.9" = _DjmnlWK9;
         "fabric-1.21.11" = _EUSHuW8g;
-        "fabric-26.1" = _NfEUeWdz;
-        "fabric-26.1.1" = _NfEUeWdz;
-        "fabric-26.1.2" = _NfEUeWdz;
-        "fabric-26.2" = _6cxYQnad;
+        "fabric-26.1" = _kPx89llE;
+        "fabric-26.1.1" = _kPx89llE;
+        "fabric-26.1.2" = _kPx89llE;
+        "fabric-26.2" = _44NGgSNL;
+        "fabric-26.3" = _NiyG56Rb;
         "pkg-1.0.0-beta.1-1.21.8" = _i2y8kzfh;
         "pkg-1.0.0-beta.1-1.21.10" = _6mV1LGPR;
         "pkg-1.0.0-beta.2+1.21.8" = _UaFtwRwq;
@@ -339,7 +358,8 @@ let
         "pkg-1.0.0-beta.19" = _aid97q6B;
         "pkg-1.0.0-beta.20" = _p20S0IgR;
         "pkg-1.0.0-beta.21" = _6cxYQnad;
-        "default" = _6cxYQnad;
+        "pkg-1.0.0-beta.22" = _NiyG56Rb;
+        "default" = _NiyG56Rb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "catharsis";

@@ -46,6 +46,11 @@ let
             "file" = "better-wood-products-v1-1-1-mc-26-2.zip";
             "hash" = "sha512-tZJFJW+wW3u2D+QjIT/NKT1QPOGYOZaKIfBz283ULHqcTs9PL2Z2oURKF0Eu7lqReWV4zX2HdwM7/6iCNieQtg==";
         };
+        _Er3zIIkt = {
+            "id" = "Er3zIIkt";
+            "file" = "better-wood-products-v1-2-0-mc-26-3.zip";
+            "hash" = "sha512-4T+aUVNe9V77FWo1UgRTWnmAaJY//4Je1u2OlSz4+znsUPLlDwlHUQ2ITe5z/SP8A6PERTUGumk5WzQELdzGHg==";
+        };
     in {
         "hPlQ3mxw" = _hPlQ3mxw;
         "olt5BFc2" = _olt5BFc2;
@@ -56,6 +61,7 @@ let
         "XmKcV6zg" = _XmKcV6zg;
         "azKMbI5Q" = _azKMbI5Q;
         "7frKLZm4" = _7frKLZm4;
+        "Er3zIIkt" = _Er3zIIkt;
         "minecraft-1.14" = _InfE6vz5;
         "minecraft-1.14.1" = _InfE6vz5;
         "minecraft-1.14.2" = _InfE6vz5;
@@ -99,10 +105,11 @@ let
         "minecraft-1.21.9" = _XmKcV6zg;
         "minecraft-1.21.10" = _XmKcV6zg;
         "minecraft-1.21.11" = _XmKcV6zg;
-        "minecraft-26.1" = _7frKLZm4;
-        "minecraft-26.1.1" = _7frKLZm4;
-        "minecraft-26.1.2" = _7frKLZm4;
-        "minecraft-26.2" = _7frKLZm4;
+        "minecraft-26.1" = _Er3zIIkt;
+        "minecraft-26.1.1" = _Er3zIIkt;
+        "minecraft-26.1.2" = _Er3zIIkt;
+        "minecraft-26.2" = _Er3zIIkt;
+        "minecraft-26.3" = _Er3zIIkt;
         "pkg-v1.0.0-mc-1.21.4" = _hPlQ3mxw;
         "pkg-v1.1.0-mc-1.21.5" = _olt5BFc2;
         "pkg-v1.1.0-mc-1.21.6" = _cZCf6fM1;
@@ -112,7 +119,8 @@ let
         "pkg-v1.1.0-mc-26.1" = _XmKcV6zg;
         "pkg-v1.1.1-mc-26.1" = _azKMbI5Q;
         "pkg-v1.1.1-mc-26.2" = _7frKLZm4;
-        "default" = _7frKLZm4;
+        "pkg-v1.2.0-mc-26.3" = _Er3zIIkt;
+        "default" = _Er3zIIkt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-wood-products";

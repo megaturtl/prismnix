@@ -106,6 +106,11 @@ let
             "file" = "blossom-ender-chest-2.0.16+26.1.jar";
             "hash" = "sha512-fMxm3m3I0w7/rtKKf7Qhot4KhefXB7Bq5sgU5MvDILPJCxmwheXaYDtfSqpXNLvSNOMmrs9rITXAvhfN9ovf1w==";
         };
+        _opDWK8cn = {
+            "id" = "opDWK8cn";
+            "file" = "blossom-ender-chest-2.0.17+26.3.jar";
+            "hash" = "sha512-319tZEW+IIjElhJgVIc4j8wamTVvuPHdx6kOpo7yLGNrYGLe5aybIrwM1IPvpM8WgASBbdb4Nf3YHhFailh3kA==";
+        };
     in {
         "z9OLKrC4" = _z9OLKrC4;
         "5f2lkqHR" = _5f2lkqHR;
@@ -128,6 +133,7 @@ let
         "4uMmqm97" = _4uMmqm97;
         "snGDzQhH" = _snGDzQhH;
         "UHlHZuk0" = _UHlHZuk0;
+        "opDWK8cn" = _opDWK8cn;
         "fabric-1.19.3" = _z9OLKrC4;
         "fabric-1.19.4" = _4KdM5vKk;
         "fabric-1.20" = _P3xW6TNS;
@@ -151,6 +157,7 @@ let
         "fabric-26.1.1" = _snGDzQhH;
         "fabric-26.1.2" = _snGDzQhH;
         "fabric-26.2" = _UHlHZuk0;
+        "fabric-26.3" = _opDWK8cn;
         "quilt-1.19.3" = _z9OLKrC4;
         "quilt-1.19.4" = _4KdM5vKk;
         "quilt-1.20" = _P3xW6TNS;
@@ -174,6 +181,7 @@ let
         "quilt-26.1.1" = _snGDzQhH;
         "quilt-26.1.2" = _snGDzQhH;
         "quilt-26.2" = _UHlHZuk0;
+        "quilt-26.3" = _opDWK8cn;
         "pkg-2.0.0+1.19.3" = _z9OLKrC4;
         "pkg-2.0.1+1.20" = _5f2lkqHR;
         "pkg-2.0.2+1.20" = _rZ4FnAHM;
@@ -192,7 +200,8 @@ let
         "pkg-2.0.14+1.20.6" = _4uMmqm97;
         "pkg-2.0.15+26.1" = _snGDzQhH;
         "pkg-2.0.16+26.1" = _UHlHZuk0;
-        "default" = _UHlHZuk0;
+        "pkg-2.0.17+26.3" = _opDWK8cn;
+        "default" = _opDWK8cn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blossomenderchest";

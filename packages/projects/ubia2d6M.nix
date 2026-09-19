@@ -531,6 +531,16 @@ let
             "file" = "zombietactics2-fabric-2.2.4+1.21.11.jar";
             "hash" = "sha512-BHHl3xkpRhxW2vRj2EFu5eEXDCKNgkIyMPQhLsrFwzAtTQX/Z0m7kgybu6iWBKpl5i0F6SnM9C9IB0THis+A0g==";
         };
+        _mCyUWMYk = {
+            "id" = "mCyUWMYk";
+            "file" = "zombietactics2-fabric-2.2.5+1.21.11.jar";
+            "hash" = "sha512-/HIkYF1YGMA5YZiN34o42cQRG8DIHh/b9wu4ehrdb94h3GGvBeQFCqLZhLm6aIu3URmlnfcuO62TVPz7oOs/FA==";
+        };
+        _wa6sN8Ba = {
+            "id" = "wa6sN8Ba";
+            "file" = "zombietactics2-neoforge-2.2.5+1.21.11.jar";
+            "hash" = "sha512-wq14H1zhyAXEM9Ll6b4+urZOXja/Fog57mHO4lwb46jyOPGKAsRddDzsKlAR+U7Picaq1JvV6EnTSJ6oRliBnw==";
+        };
     in {
         "f1Rvu8OB" = _f1Rvu8OB;
         "JYk0X0TS" = _JYk0X0TS;
@@ -638,6 +648,8 @@ let
         "ZkvfFcUh" = _ZkvfFcUh;
         "atdik3s6" = _atdik3s6;
         "as7zgg8L" = _as7zgg8L;
+        "mCyUWMYk" = _mCyUWMYk;
+        "wa6sN8Ba" = _wa6sN8Ba;
         "neoforge-1.21.1" = _a9VD6ORZ;
         "neoforge-1.21.5" = _PnKjAt3O;
         "neoforge-1.21.4" = _3yb0Tmb1;
@@ -645,7 +657,7 @@ let
         "neoforge-1.21.7" = _GWTwnSrR;
         "neoforge-1.21.8" = _GWTwnSrR;
         "neoforge-1.21.10" = _jdcozA3G;
-        "neoforge-1.21.11" = _atdik3s6;
+        "neoforge-1.21.11" = _wa6sN8Ba;
         "fabric-1.21.1" = _YLzq38vh;
         "fabric-1.21.5" = _l3sz2sdX;
         "fabric-1.21.4" = _RG0F5zrr;
@@ -653,7 +665,7 @@ let
         "fabric-1.21.7" = _Yxr6zogN;
         "fabric-1.21.8" = _Yxr6zogN;
         "fabric-1.21.10" = _A3eWYo0A;
-        "fabric-1.21.11" = _as7zgg8L;
+        "fabric-1.21.11" = _mCyUWMYk;
         "pkg-2.0.0-beta.1+1.21.1" = _JYk0X0TS;
         "pkg-2.0.0-beta.2+1.21.1" = _16cDwhlF;
         "pkg-2.0.0-beta.3+1.21.1" = _GY6xbr1B;
@@ -705,7 +717,8 @@ let
         "pkg-2.2.2+1.21.10" = _A3eWYo0A;
         "pkg-2.2.3+1.21.11" = _ZkvfFcUh;
         "pkg-2.2.4+1.21.11" = _as7zgg8L;
-        "default" = _as7zgg8L;
+        "pkg-2.2.5+1.21.11" = _wa6sN8Ba;
+        "default" = _wa6sN8Ba;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zombietactics2";

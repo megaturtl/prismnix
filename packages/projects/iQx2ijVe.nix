@@ -86,6 +86,11 @@ let
             "file" = "PvP For Cuties v1.6.2.zip";
             "hash" = "sha512-biBiqzqI5537Jp2sj2SAXtEuxT7yrzNkWSMWDYTGLBqDbEA6c3NNch74XFmfWvAiTHPmvcH46+BIgrOtPiz3Pg==";
         };
+        _rI0cstIK = {
+            "id" = "rI0cstIK";
+            "file" = "PvP For Cuties v1.6.3.zip";
+            "hash" = "sha512-jW5eQfEEykkvEM2eqHeYhwd8b3WMnfxOZXloFOP1LeStbnBkaeS4XvQrrZ0bicP6dHi5OGLXpiBk99lV+GZBjQ==";
+        };
     in {
         "NKMe2Wsi" = _NKMe2Wsi;
         "ZGwIkSFp" = _ZGwIkSFp;
@@ -104,8 +109,9 @@ let
         "JJ3rh1wB" = _JJ3rh1wB;
         "YGmYGnF6" = _YGmYGnF6;
         "GQZReeEU" = _GQZReeEU;
-        "minecraft-1.21.4" = _GQZReeEU;
-        "minecraft-1.21.5" = _GQZReeEU;
+        "rI0cstIK" = _rI0cstIK;
+        "minecraft-1.21.4" = _rI0cstIK;
+        "minecraft-1.21.5" = _rI0cstIK;
         "minecraft-1.6.1" = _7XdiS38s;
         "minecraft-1.6.2" = _7XdiS38s;
         "minecraft-1.6.4" = _7XdiS38s;
@@ -128,21 +134,22 @@ let
         "minecraft-1.8.7" = _7XdiS38s;
         "minecraft-1.8.8" = _7XdiS38s;
         "minecraft-1.8.9" = _7XdiS38s;
-        "minecraft-1.21.6" = _GQZReeEU;
-        "minecraft-1.21.7" = _GQZReeEU;
-        "minecraft-1.21.8" = _GQZReeEU;
-        "minecraft-1.21" = _GQZReeEU;
-        "minecraft-1.21.1" = _GQZReeEU;
-        "minecraft-1.21.2" = _GQZReeEU;
-        "minecraft-1.21.3" = _GQZReeEU;
+        "minecraft-1.21.6" = _rI0cstIK;
+        "minecraft-1.21.7" = _rI0cstIK;
+        "minecraft-1.21.8" = _rI0cstIK;
+        "minecraft-1.21" = _rI0cstIK;
+        "minecraft-1.21.1" = _rI0cstIK;
+        "minecraft-1.21.2" = _rI0cstIK;
+        "minecraft-1.21.3" = _rI0cstIK;
         "minecraft-25w31a" = _UngoLB2z;
-        "minecraft-1.21.9" = _GQZReeEU;
-        "minecraft-1.21.10" = _GQZReeEU;
-        "minecraft-1.21.11" = _GQZReeEU;
-        "minecraft-26.1" = _GQZReeEU;
-        "minecraft-26.1.1" = _GQZReeEU;
-        "minecraft-26.1.2" = _GQZReeEU;
-        "minecraft-26.2" = _GQZReeEU;
+        "minecraft-1.21.9" = _rI0cstIK;
+        "minecraft-1.21.10" = _rI0cstIK;
+        "minecraft-1.21.11" = _rI0cstIK;
+        "minecraft-26.1" = _rI0cstIK;
+        "minecraft-26.1.1" = _rI0cstIK;
+        "minecraft-26.1.2" = _rI0cstIK;
+        "minecraft-26.2" = _rI0cstIK;
+        "minecraft-26.3" = _rI0cstIK;
         "pkg-1.1.0" = _NKMe2Wsi;
         "pkg-1.1.1" = _ZGwIkSFp;
         "pkg-1.1.2" = _Aw1yTO6A;
@@ -160,7 +167,8 @@ let
         "pkg-v1.6.0" = _JJ3rh1wB;
         "pkg-v1.6.1" = _YGmYGnF6;
         "pkg-v1.6.2" = _GQZReeEU;
-        "default" = _GQZReeEU;
+        "pkg-v1.6.3" = _rI0cstIK;
+        "default" = _rI0cstIK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pvp-for-cuties";

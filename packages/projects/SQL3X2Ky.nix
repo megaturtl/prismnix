@@ -576,6 +576,21 @@ let
             "file" = "overgeared-fabric-1.20.1-0.1.1.jar";
             "hash" = "sha512-I0da79coOTetZ+UZL+ZSTWl2QUrd9hQc49DTybgn3w2BvPvE/kDjq7fpy1WDOZFVAinjShhjBPbf4eF2cdLu4w==";
         };
+        _DP5dRoPl = {
+            "id" = "DP5dRoPl";
+            "file" = "overgeared-neoforge-1.21.1-1.6.18.1.jar";
+            "hash" = "sha512-WSPLLfRkbMZk99ZtkNXf95d1jt2zvnquFPcd4rmk8NMwF3QjCOM8rCaqS1VSpeYtiWZG3YPdb8RQuS7NBuVBUw==";
+        };
+        _wb5Upozi = {
+            "id" = "wb5Upozi";
+            "file" = "overgeared-fabric-1.20.1-0.1.2.1.jar";
+            "hash" = "sha512-K2zCdM7ndxC1fCVKwGLR5q70OTnPtS5809udQeFqttmes9y2fb6pitweGMacWeNaRhdKgUetYQ+G9PcWC4dLFQ==";
+        };
+        _LCI0J1cF = {
+            "id" = "LCI0J1cF";
+            "file" = "overgeared-forge-1.20.1-1.6.34.1.jar";
+            "hash" = "sha512-iPQL1kb4kY1uzueRY0srGyhWYJDcKuQFNmpzDWw7/1hi4HDPAHGornuVtZVuoTWzJdfoBoYypYfx8gUUEqdDcg==";
+        };
     in {
         "mk8CljdN" = _mk8CljdN;
         "92hIAPKo" = _92hIAPKo;
@@ -692,10 +707,13 @@ let
         "qTNDlpdo" = _qTNDlpdo;
         "Oo1ZimBz" = _Oo1ZimBz;
         "3FKDXSDg" = _3FKDXSDg;
-        "forge-1.20.1" = _X34HZ290;
+        "DP5dRoPl" = _DP5dRoPl;
+        "wb5Upozi" = _wb5Upozi;
+        "LCI0J1cF" = _LCI0J1cF;
+        "forge-1.20.1" = _LCI0J1cF;
         "neoforge-1.20.1" = _X34HZ290;
-        "neoforge-1.21.1" = _qTNDlpdo;
-        "fabric-1.20.1" = _3FKDXSDg;
+        "neoforge-1.21.1" = _DP5dRoPl;
+        "fabric-1.20.1" = _wb5Upozi;
         "pkg-1.1.0" = _mk8CljdN;
         "pkg-1.1.1" = _92hIAPKo;
         "pkg-1.1.5" = _VZcn17sz;
@@ -811,7 +829,10 @@ let
         "pkg-1.21.1-1.6.17" = _qTNDlpdo;
         "pkg-Fabric-1.20.1-0.1.0" = _Oo1ZimBz;
         "pkg-fabric-1.20.1-0.1.1" = _3FKDXSDg;
-        "default" = _3FKDXSDg;
+        "pkg-neoforge-1.21.1-1.6.18.1" = _DP5dRoPl;
+        "pkg-fabric-1.20.1-0.1.2.1" = _wb5Upozi;
+        "pkg-forge-1.20.1-1.6.34.1" = _LCI0J1cF;
+        "default" = _LCI0J1cF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "overgeared";

@@ -691,6 +691,16 @@ let
             "file" = "kleeslabs-fabric-26.2-26.2.0.1.jar";
             "hash" = "sha512-G81g3UKyXRccuj4OBUtvppWALwFZxRCb8XOwJc7FM5UKlqDztvPoNx8Jzb2WStVBNLddhcD8yY/J9eoqHRxNAQ==";
         };
+        _RXA59EOv = {
+            "id" = "RXA59EOv";
+            "file" = "kleeslabs-fabric-26.3-26.3.0.1.jar";
+            "hash" = "sha512-8qTGaA7Kfi4WHpRXr6+Z/1+fwSYRwPRdqx4Rt11457zV1Ux98Rte8y/dznICyygVL96MZwj0FmMYm1hQCC12LA==";
+        };
+        _Ha7FSFfB = {
+            "id" = "Ha7FSFfB";
+            "file" = "kleeslabs-neoforge-26.3-26.3.0.1.jar";
+            "hash" = "sha512-BQlPda+E2wxtC9fQ8zzEFpnKzgOCcZ39qjYn9r8Ts32jfT+iS3IJeM9KVIOou1wa4OifZ3UeifKPow6ovtI4kg==";
+        };
     in {
         "oh12vuAg" = _oh12vuAg;
         "G1afe3Af" = _G1afe3Af;
@@ -830,6 +840,8 @@ let
         "ngNbtrZw" = _ngNbtrZw;
         "2QlPdVwy" = _2QlPdVwy;
         "5UjTYBjC" = _5UjTYBjC;
+        "RXA59EOv" = _RXA59EOv;
+        "Ha7FSFfB" = _Ha7FSFfB;
         "fabric-1.19" = _McrMZkIV;
         "fabric-1.19.1" = _McrMZkIV;
         "fabric-1.19.2" = _McrMZkIV;
@@ -859,6 +871,7 @@ let
         "fabric-26.1.1" = _E0bAQxK1;
         "fabric-26.1.2" = _E0bAQxK1;
         "fabric-26.2" = _5UjTYBjC;
+        "fabric-26.3" = _RXA59EOv;
         "forge-1.19" = _OabgLyDQ;
         "forge-1.19.1" = _OabgLyDQ;
         "forge-1.19.2" = _OabgLyDQ;
@@ -900,6 +913,7 @@ let
         "neoforge-26.1.1" = _qy3qkejn;
         "neoforge-26.1.2" = _qy3qkejn;
         "neoforge-26.2" = _2QlPdVwy;
+        "neoforge-26.3" = _Ha7FSFfB;
         "pkg-12.0.0+fabric-1.19" = _oh12vuAg;
         "pkg-12.0.0+forge-1.19" = _G1afe3Af;
         "pkg-12.1.0+fabric-1.19" = _cYitDxNY;
@@ -1036,7 +1050,9 @@ let
         "pkg-21.1.11+forge-1.21.1" = _ngNbtrZw;
         "pkg-26.2.0.1+neoforge-26.2" = _2QlPdVwy;
         "pkg-26.2.0.1+fabric-26.2" = _5UjTYBjC;
-        "default" = _5UjTYBjC;
+        "pkg-26.3.0.1+fabric-26.3" = _RXA59EOv;
+        "pkg-26.3.0.1+neoforge-26.3" = _Ha7FSFfB;
+        "default" = _Ha7FSFfB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kleeslabs";

@@ -481,6 +481,11 @@ let
             "file" = "divinerpg-1.10.9.3.jar";
             "hash" = "sha512-PdDKGRkUSUkWM6JuyqWSxh4xUzyDV3NDGNjf0mrtN0KkJig8h3VYGf/1vjQgXftYtGueoH4ysqc15r2s2fQ5xQ==";
         };
+        _M9cHTouB = {
+            "id" = "M9cHTouB";
+            "file" = "divinerpg-1.10.10.jar";
+            "hash" = "sha512-k9R/O3SReBXZyMnc/yZofjeJvcQShTm4ZmQSnQ6Ei8A5v2Ux8sUqxImmjiA4uoI0b1ThjVgHufOTaxy8hsMYNw==";
+        };
     in {
         "ifL4JiZo" = _ifL4JiZo;
         "LZZC6Tbb" = _LZZC6Tbb;
@@ -578,6 +583,7 @@ let
         "haNDQchZ" = _haNDQchZ;
         "anY0tlRf" = _anY0tlRf;
         "Pk4lC3aW" = _Pk4lC3aW;
+        "M9cHTouB" = _M9cHTouB;
         "forge-1.19.2" = _SKAxvRgY;
         "forge-1.19.3" = _7yTmKUMd;
         "forge-1.19.4" = _uRUh1TQa;
@@ -590,7 +596,7 @@ let
         "neoforge-1.20" = _LF8J5EFV;
         "neoforge-1.19.2" = _SKAxvRgY;
         "neoforge-1.20.2" = _jyQTQpje;
-        "neoforge-1.21.1" = _Pk4lC3aW;
+        "neoforge-1.21.1" = _M9cHTouB;
         "pkg-1.9.6.9" = _ifL4JiZo;
         "pkg-1.10.0.2" = _NOX29c2M;
         "pkg-1.10.0.1" = _QNVGgLBs;
@@ -669,7 +675,8 @@ let
         "pkg-1.10.9.1" = _haNDQchZ;
         "pkg-1.10.9.2" = _anY0tlRf;
         "pkg-1.10.9.3" = _Pk4lC3aW;
-        "default" = _Pk4lC3aW;
+        "pkg-1.10.10" = _M9cHTouB;
+        "default" = _M9cHTouB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "divinerpg";

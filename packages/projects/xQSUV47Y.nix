@@ -96,6 +96,11 @@ let
             "file" = "Multiverse-0.5.2+26.2.jar";
             "hash" = "sha512-LH2yqYNkyQ9sSsudBzi0AeWaVcuatvH8JHAppATBVgtNSKknUVdr27IpZAttjk8cLuJF5agwOxJKsSF7n8hcOA==";
         };
+        _FglEVfMv = {
+            "id" = "FglEVfMv";
+            "file" = "Multiverse-0.6.0+26.3.jar";
+            "hash" = "sha512-T1CVmKPVGt7Lj4XKpx9Ipd164pGVqB6kS8mADpNh2JzgXfR7DKacM+MSuTNFq9e97d9NRRW3Ln7mXsAITuZOyA==";
+        };
     in {
         "4YQRVKN6" = _4YQRVKN6;
         "Ffd9ztuV" = _Ffd9ztuV;
@@ -116,6 +121,7 @@ let
         "K75cBriQ" = _K75cBriQ;
         "FXpogaVB" = _FXpogaVB;
         "sJTp8ho7" = _sJTp8ho7;
+        "FglEVfMv" = _FglEVfMv;
         "fabric-1.21.8" = _YtQ5V05a;
         "fabric-1.21.9" = _E93KtT29;
         "fabric-1.21.10" = _E93KtT29;
@@ -124,6 +130,7 @@ let
         "fabric-26.1.1" = _86qHjp0O;
         "fabric-26.1.2" = _zh7xdivz;
         "fabric-26.2" = _sJTp8ho7;
+        "fabric-26.3" = _FglEVfMv;
         "pkg-0.1.1+1.21.8" = _4YQRVKN6;
         "pkg-0.1.2+1.21.8" = _Ffd9ztuV;
         "pkg-0.1.3+1.21.8" = _PaMpzrRj;
@@ -143,7 +150,8 @@ let
         "pkg-0.5.0+26.2" = _K75cBriQ;
         "pkg-0.5.1+26.2" = _FXpogaVB;
         "pkg-0.5.2+26.2" = _sJTp8ho7;
-        "default" = _sJTp8ho7;
+        "pkg-0.6.0+26.3" = _FglEVfMv;
+        "default" = _FglEVfMv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "multiverse-dimensions";

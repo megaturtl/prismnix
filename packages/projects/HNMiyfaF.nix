@@ -71,6 +71,16 @@ let
             "file" = "cbc_terminal_ballistics-0.3.5-vs2.3.jar";
             "hash" = "sha512-nK+FjutntVGge5SbyF6i8Qtp9juhslWLQ3hZo0Zvvg0TaYT1MrKO2zvLP2HkXsb6dHD2G+KmjIqItnjuPIG/rg==";
         };
+        _3VdNNJin = {
+            "id" = "3VdNNJin";
+            "file" = "cbc_terminal_ballistics-0.4.0-vs2.3.jar";
+            "hash" = "sha512-WZIyNEJdzyBoAfIsRgY71Go+Wxopvk5N+YbTjlYx+eyF1mXpdb10ZFmdgPBuZ0/CTzOk+a9/WZhLnRxIE4/cjg==";
+        };
+        _rS5UlSqm = {
+            "id" = "rS5UlSqm";
+            "file" = "cbc_terminal_ballistics-0.4.0.jar";
+            "hash" = "sha512-OMMbvLsyCjgi5qVYFc2KVlCk/vtvl2m+5keIGpmFLztXGxZfmCJVEsxam5/cTnyPEaWFJjYP/xox7nxvUJdDQA==";
+        };
     in {
         "qcPNKPdX" = _qcPNKPdX;
         "pTEYMuN1" = _pTEYMuN1;
@@ -86,7 +96,9 @@ let
         "OE8xVhTM" = _OE8xVhTM;
         "MbnrrY23" = _MbnrrY23;
         "aYESEa6z" = _aYESEa6z;
-        "forge-1.20.1" = _aYESEa6z;
+        "3VdNNJin" = _3VdNNJin;
+        "rS5UlSqm" = _rS5UlSqm;
+        "forge-1.20.1" = _rS5UlSqm;
         "neoforge-1.21.1" = _MbnrrY23;
         "pkg-0.3.0" = _qcPNKPdX;
         "pkg-0.3.0-vs2.3" = _pTEYMuN1;
@@ -102,7 +114,9 @@ let
         "pkg-0.3.5" = _OE8xVhTM;
         "pkg-0.3.5-neoforge" = _MbnrrY23;
         "pkg-0.3.5-vs2.3" = _aYESEa6z;
-        "default" = _aYESEa6z;
+        "pkg-0.4.0-vs2.3" = _3VdNNJin;
+        "pkg-0.4.0" = _rS5UlSqm;
+        "default" = _rS5UlSqm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cbc-terminal-ballistics";

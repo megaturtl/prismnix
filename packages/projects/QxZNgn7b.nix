@@ -61,6 +61,11 @@ let
             "file" = "fnaf_universe_fanverse - PRE_RELEASE (SUMMER) 1.20.1.jar";
             "hash" = "sha512-XDoa+sdGFzvYMb/esdyvy9IrSgawRzvS7tCIlZGtEiHTCXZVGTAWw8WIzwEwWW+bvadaCfKoVk7g/KtyvSaKOQ==";
         };
+        _jxk31gyW = {
+            "id" = "jxk31gyW";
+            "file" = "fnaf_universe_fanverse - AUTUMN 2026.jar";
+            "hash" = "sha512-baIck7VWG833xzSorr0/a1xp1sMS2i/EU5X2++vWoupoRjSjh9wYwopU7k/8BCF9b35no71uQ69jpfjpskEHjw==";
+        };
     in {
         "XjOqPWma" = _XjOqPWma;
         "eUBCi8LE" = _eUBCi8LE;
@@ -74,12 +79,13 @@ let
         "DpUJChi1" = _DpUJChi1;
         "6cSC1PGs" = _6cSC1PGs;
         "o0MdarfV" = _o0MdarfV;
+        "jxk31gyW" = _jxk31gyW;
         "forge-1.18.2" = _HVcqZeBA;
         "forge-1.19.2" = _6cSC1PGs;
         "forge-1.19.4" = _DpUJChi1;
-        "forge-1.20.1" = _o0MdarfV;
-        "pkg-1.0.0" = _o0MdarfV;
-        "default" = _o0MdarfV;
+        "forge-1.20.1" = _jxk31gyW;
+        "pkg-1.0.0" = _jxk31gyW;
+        "default" = _jxk31gyW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fnafs-universe-fanverse";

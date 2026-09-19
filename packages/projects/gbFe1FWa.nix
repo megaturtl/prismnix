@@ -131,6 +131,11 @@ let
             "file" = "respawnable-pets-fabric-26.2-r2.jar";
             "hash" = "sha512-pMrRopPG6HsqgH6AtP6UcujrmbQaXGi4ypiGMKAYXQWQdW10sgdfs3ja1HeHXOyGuTz+2IyQmDRc+VRL6q72YQ==";
         };
+        _Ct2tZgSR = {
+            "id" = "Ct2tZgSR";
+            "file" = "respawnable-pets-fabric-26.3-r1.jar";
+            "hash" = "sha512-dca3qk5T+WMETnE1dXdp9cymllZkvOA9/chvmTjHMTm9oJY4DYmryo7st/VYINjGRbefEFGWQRkXWmjccd+t9A==";
+        };
     in {
         "bjdE61mQ" = _bjdE61mQ;
         "zSGnj5Sz" = _zSGnj5Sz;
@@ -158,6 +163,7 @@ let
         "Oljr7Z7L" = _Oljr7Z7L;
         "zKvDBK3H" = _zKvDBK3H;
         "t8eNxCmV" = _t8eNxCmV;
+        "Ct2tZgSR" = _Ct2tZgSR;
         "fabric-1.16.5" = _bjdE61mQ;
         "fabric-1.17" = _zSGnj5Sz;
         "fabric-1.17.1" = _zSGnj5Sz;
@@ -185,6 +191,7 @@ let
         "fabric-26.1.1" = _Oljr7Z7L;
         "fabric-26.1.2" = _Oljr7Z7L;
         "fabric-26.2" = _t8eNxCmV;
+        "fabric-26.3" = _Ct2tZgSR;
         "quilt-1.16.5" = _bjdE61mQ;
         "quilt-1.17" = _zSGnj5Sz;
         "quilt-1.17.1" = _zSGnj5Sz;
@@ -240,7 +247,8 @@ let
         "pkg-26.2-r1" = _zRCAok0K;
         "pkg-26.1-r2" = _zKvDBK3H;
         "pkg-26.2-r2" = _t8eNxCmV;
-        "default" = _t8eNxCmV;
+        "pkg-26.3-r1" = _Ct2tZgSR;
+        "default" = _Ct2tZgSR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "respawnable-pets";

@@ -741,6 +741,16 @@ let
             "file" = "rctmod-fabric-1.21.1-0.18.1-beta.jar";
             "hash" = "sha512-hn+9BQr7zHa/RplCy75ClLEQDthwERoHkXJnVoxNo7Z0qupEIcuJ1qj6oFcThD6dDPN7vh2aJY8o0zH6ykqeOA==";
         };
+        _jOHFdQXi = {
+            "id" = "jOHFdQXi";
+            "file" = "rctmod-neoforge-1.21.1-0.19.0-beta.jar";
+            "hash" = "sha512-CkUqOOQWEElMGfSjLmbPB8fHWJVWC08AVgGt5cwQFOyfqCY/K5XARn2ofeQ26VY8uXKh3fL6dM/qldbj/bfWzQ==";
+        };
+        _jdUENp3C = {
+            "id" = "jdUENp3C";
+            "file" = "rctmod-fabric-1.21.1-0.19.0-beta.jar";
+            "hash" = "sha512-A2FTuMnAGWCwfcpXGNfp6pHGD/CSk7cLQ/F3p6mK+NPfKDOX4CEvSm+53N5w7Lx1IGOXv89ec2PLP4VF+F965Q==";
+        };
     in {
         "fAXt4EeB" = _fAXt4EeB;
         "X4DyvjEI" = _X4DyvjEI;
@@ -890,10 +900,12 @@ let
         "Py1VoaHl" = _Py1VoaHl;
         "qyxrdzND" = _qyxrdzND;
         "gQx1F1dx" = _gQx1F1dx;
+        "jOHFdQXi" = _jOHFdQXi;
+        "jdUENp3C" = _jdUENp3C;
         "forge-1.20.1" = _8edTHlEm;
         "fabric-1.20.1" = _gGIuPbYE;
-        "fabric-1.21.1" = _gQx1F1dx;
-        "neoforge-1.21.1" = _qyxrdzND;
+        "fabric-1.21.1" = _jdUENp3C;
+        "neoforge-1.21.1" = _jOHFdQXi;
         "pkg-0.5.0-alpha" = _X4DyvjEI;
         "pkg-0.5.1-alpha" = _YYo7ckmJ;
         "pkg-0.5.2-alpha" = _Kux22XnF;
@@ -968,7 +980,8 @@ let
         "pkg-0.17.7-beta" = _8qqQxnjW;
         "pkg-0.18.0-beta" = _Py1VoaHl;
         "pkg-0.18.1-beta" = _gQx1F1dx;
-        "default" = _gQx1F1dx;
+        "pkg-0.19.0-beta" = _jdUENp3C;
+        "default" = _jdUENp3C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rctmod";

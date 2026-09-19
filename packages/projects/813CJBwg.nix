@@ -86,6 +86,41 @@ let
             "file" = "AutumnPack 2.13 1.21.10.zip";
             "hash" = "sha512-U7IUBGHPxYnGPYaKZMKohTsWsXPpJORyOywyQ/hAn+5/2AwAtHHnxe5k4wvcnZuOjJ1MPXaCAJJyrHY9EOjYUA==";
         };
+        _Rn0Qt7PA = {
+            "id" = "Rn0Qt7PA";
+            "file" = "Autumnpack 3.0 1.12.2.zip";
+            "hash" = "sha512-hiEKmHVXV+4zzbbehHXNdhSXn4pqWW+JKoqo88YAXjQzOWkTjQgikFYVH6jJHAOeKO8w0WXqYTjQS5GiBNchDw==";
+        };
+        _rQfQNjBh = {
+            "id" = "rQfQNjBh";
+            "file" = "Autumnpack 3.0 1.16.1.zip";
+            "hash" = "sha512-ZkN9GYqrYu9qkjUBLVzl8FiwzuaR6DOkUXUREAT8R7anjYNdJP/MXiGurKCSyi0HHl9jwyYUXag6jb/Ajsh18Q==";
+        };
+        _5xRxDe65 = {
+            "id" = "5xRxDe65";
+            "file" = "Autumnpack 3.0 1.16.5.zip";
+            "hash" = "sha512-JzH62le/1U3YiTfB4glqEm5ZlmzvtdBQXFfC4ylKXnBoYo7XYiu6yP1/300WdcgVP7yqd9hjVu32SseUjhrIlw==";
+        };
+        _QdhBVH5V = {
+            "id" = "QdhBVH5V";
+            "file" = "Autumnpack 3.0 1.20.1.zip";
+            "hash" = "sha512-fAuI4+Zl94z6AIxG5wisqR2oCawgwmqvrCFA/r96ukjIpzWRa1rVd/TVKy8QchJr5Y4v9VF16grbGZ8gkUHTqQ==";
+        };
+        _Yt2fEUxw = {
+            "id" = "Yt2fEUxw";
+            "file" = "Autumnpack 3.0 1.21.1.zip";
+            "hash" = "sha512-TiIPQiDrR7w1Un2bZnYOgnWXilwp/BiT9y7KMvTa1dRy13/SJL/Jw4KseSsyQ4ty5iGikA+cP7mxEiECv0/mrQ==";
+        };
+        _Ja5R17ih = {
+            "id" = "Ja5R17ih";
+            "file" = "Autumnpack 3.0 1.21.11.zip";
+            "hash" = "sha512-X1J5juZ8N2ScA5sOQOl/E1Fc/Xc5oQTmujs96+GFMZrfh5f72C6U465FD+E2DxjKxK+VJtixciSQ/9kbu8eB1Q==";
+        };
+        _KO0gczcb = {
+            "id" = "KO0gczcb";
+            "file" = "Autumnpack 3.0 26.3.zip";
+            "hash" = "sha512-Yqx6VOUxfkClQlAuMRX1BBZsv/lzNdpY4QW97vPcHEZPa0n4GRMG9IAG+0cIvm4izdZnxyWytxJ9QQnWyR7W7Q==";
+        };
     in {
         "q7H38gfx" = _q7H38gfx;
         "yHLnKORd" = _yHLnKORd;
@@ -104,13 +139,20 @@ let
         "VUERuqHK" = _VUERuqHK;
         "2G8KmiX3" = _2G8KmiX3;
         "9XPXOTOg" = _9XPXOTOg;
-        "minecraft-1.20" = _4Ea6bw4h;
-        "minecraft-1.20.1" = _4Ea6bw4h;
+        "Rn0Qt7PA" = _Rn0Qt7PA;
+        "rQfQNjBh" = _rQfQNjBh;
+        "5xRxDe65" = _5xRxDe65;
+        "QdhBVH5V" = _QdhBVH5V;
+        "Yt2fEUxw" = _Yt2fEUxw;
+        "Ja5R17ih" = _Ja5R17ih;
+        "KO0gczcb" = _KO0gczcb;
+        "minecraft-1.20" = _QdhBVH5V;
+        "minecraft-1.20.1" = _QdhBVH5V;
         "minecraft-1.20.2" = _S4gbRpFe;
         "minecraft-1.20.4" = _ROH90PhM;
         "minecraft-1.20.6" = _4OTxHA38;
-        "minecraft-1.21" = _emi2fAvy;
-        "minecraft-1.21.1" = _emi2fAvy;
+        "minecraft-1.21" = _Yt2fEUxw;
+        "minecraft-1.21.1" = _Yt2fEUxw;
         "minecraft-1.21.2" = _IKFBPqbz;
         "minecraft-1.21.3" = _IKFBPqbz;
         "minecraft-1.21.4" = _IKFBPqbz;
@@ -120,6 +162,23 @@ let
         "minecraft-1.21.8" = _2G8KmiX3;
         "minecraft-1.21.9" = _9XPXOTOg;
         "minecraft-1.21.10" = _9XPXOTOg;
+        "minecraft-1.11" = _Rn0Qt7PA;
+        "minecraft-1.11.1" = _Rn0Qt7PA;
+        "minecraft-1.11.2" = _Rn0Qt7PA;
+        "minecraft-1.12" = _Rn0Qt7PA;
+        "minecraft-1.12.1" = _Rn0Qt7PA;
+        "minecraft-1.12.2" = _Rn0Qt7PA;
+        "minecraft-1.15" = _rQfQNjBh;
+        "minecraft-1.15.1" = _rQfQNjBh;
+        "minecraft-1.15.2" = _rQfQNjBh;
+        "minecraft-1.16" = _rQfQNjBh;
+        "minecraft-1.16.1" = _rQfQNjBh;
+        "minecraft-1.16.2" = _5xRxDe65;
+        "minecraft-1.16.3" = _5xRxDe65;
+        "minecraft-1.16.4" = _5xRxDe65;
+        "minecraft-1.16.5" = _5xRxDe65;
+        "minecraft-1.21.11" = _Ja5R17ih;
+        "minecraft-26.3" = _KO0gczcb;
         "pkg-2.2" = _q7H38gfx;
         "pkg-2.3" = _yHLnKORd;
         "pkg-2.4" = _nJ6ipwft;
@@ -136,7 +195,14 @@ let
         "pkg-2.11" = _VUERuqHK;
         "pkg-2.12" = _2G8KmiX3;
         "pkg-V2.13" = _9XPXOTOg;
-        "default" = _9XPXOTOg;
+        "pkg-1.12.2" = _Rn0Qt7PA;
+        "pkg-1.16.1" = _rQfQNjBh;
+        "pkg-1.16.5" = _5xRxDe65;
+        "pkg-1.20.1" = _QdhBVH5V;
+        "pkg-1.21.1" = _Yt2fEUxw;
+        "pkg-1.21.11" = _Ja5R17ih;
+        "pkg-26.3" = _KO0gczcb;
+        "default" = _KO0gczcb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autumnpack";

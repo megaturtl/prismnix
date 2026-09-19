@@ -2296,6 +2296,11 @@ let
             "file" = "mca-neoforge-8.1.11+26.2.jar";
             "hash" = "sha512-FL7hT6A0/sQBuLbNd5SYx8VDk+TPAOBXvdNVOruQiOFosCbJEX9JyurOxOgxx+exySHgvdRsI0kSbcfZhtj5Zw==";
         };
+        _UyldvnJv = {
+            "id" = "UyldvnJv";
+            "file" = "minecraft-comes-alive-7.7.1-beta.1+1.20.1-universal.jar";
+            "hash" = "sha512-GdTUCCyaKD91p1AMZQrF4tD4nKvHgyEev9LU48s1xS6KR9REaAsgCXNef4hyEC5DilsBd8Po7i8J8x2DY3IfUQ==";
+        };
     in {
         "aqcbztJd" = _aqcbztJd;
         "prtCjUrW" = _prtCjUrW;
@@ -2756,6 +2761,7 @@ let
         "c8r806tu" = _c8r806tu;
         "4Wyg5fOK" = _4Wyg5fOK;
         "WiUxDK3I" = _WiUxDK3I;
+        "UyldvnJv" = _UyldvnJv;
         "fabric-1.16.5" = _tOWiRgB0;
         "fabric-1.18" = _RcMlGr8y;
         "fabric-1.18.1" = _DBpmXguI;
@@ -2767,7 +2773,7 @@ let
         "fabric-1.19.3" = _tkR6qR1X;
         "fabric-1.19.4" = _Q4AfoVjD;
         "fabric-1.20" = _upXuBQat;
-        "fabric-1.20.1" = _nSZHRkCv;
+        "fabric-1.20.1" = _UyldvnJv;
         "fabric-1.20.2" = _hdsVDaKM;
         "fabric-1.20.4" = _54EsniQz;
         "fabric-1.21.1" = _eUYBilCG;
@@ -2784,7 +2790,7 @@ let
         "forge-1.19.3" = _tkR6qR1X;
         "forge-1.19.4" = _Q4AfoVjD;
         "forge-1.20" = _upXuBQat;
-        "forge-1.20.1" = _nSZHRkCv;
+        "forge-1.20.1" = _UyldvnJv;
         "forge-1.20.2" = _hdsVDaKM;
         "quilt-1.18.2" = _K7Eeh4xE;
         "quilt-1.19" = _BwUZyjSv;
@@ -3155,7 +3161,8 @@ let
         "pkg-7.7.1-alpha.3+1.20.1" = _nSZHRkCv;
         "pkg-8.1.11+26.1.2" = _c8r806tu;
         "pkg-8.1.11+26.2" = _WiUxDK3I;
-        "default" = _WiUxDK3I;
+        "pkg-7.7.1-beta.1+1.20.1" = _UyldvnJv;
+        "default" = _UyldvnJv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minecraft-comes-alive-reborn";

@@ -66,6 +66,56 @@ let
             "file" = "swordsight-1.1.jar";
             "hash" = "sha512-woLL0yPvBTg3ACDhum0706j8Rf0FtaAmqOeR/W5fVoHFRyFluS2OtEhpMRCa67kL7NcY9YMDdrT0JXdDRmFQzQ==";
         };
+        _8ZolZ0uA = {
+            "id" = "8ZolZ0uA";
+            "file" = "swordsight-1.2.jar";
+            "hash" = "sha512-e4PXVGXwG76HJOEPL7HGqq+hLuIRl9tUzH7O+/mRY4I7PnSMRSD/JfI4El7809PEfZFn2ovNgSm/wl9g9vDRAg==";
+        };
+        _6NvV9trH = {
+            "id" = "6NvV9trH";
+            "file" = "swordsight-1.2.jar";
+            "hash" = "sha512-uutnPHL5R/HAme+tfZfF/sBMtjMM2XRyEsVZas6wyvmQBX6aG9wWDOOkBuIpLhMuFsfz6hpfi3SnXquR6VSBsQ==";
+        };
+        _xlcJMl7V = {
+            "id" = "xlcJMl7V";
+            "file" = "swordsight-1.2.jar";
+            "hash" = "sha512-fhqu0y2nLXUU07gy9gjNfXwe3ljYgBYiDgnsNOYXqYDbZy2RkcaCG49RNtMRAPhaAMup4SaIiW+cVNJj+a2dHQ==";
+        };
+        _SOCl6Fc3 = {
+            "id" = "SOCl6Fc3";
+            "file" = "swordsight-1.2.jar";
+            "hash" = "sha512-0kncyTK8JBPPPtFwrDuxNsXS0N/Ycfa2IZmuqrxV8ByZ0qwsU5FInNmDINCbw9O9wy0zjXptziT2kyv4nXHnhg==";
+        };
+        _qZEc3jMZ = {
+            "id" = "qZEc3jMZ";
+            "file" = "swordsight-1.2.jar";
+            "hash" = "sha512-86B+BZqLZ7Bd/g7/hqroSSLZT1U+X0s3GVzhTuFYwpUK+Wu05GdEhedpa7phoOQFchO2s65MoiXk1b2528Wxvw==";
+        };
+        _Tc7myKBi = {
+            "id" = "Tc7myKBi";
+            "file" = "swordsight-1.2.jar";
+            "hash" = "sha512-x7Tnq+BLPbEDuK8NE5mkIxXuIWENuukf0zJNRmNd4Th37DzDIpcMqsQmOEfQAVgjYMClh+UtZ4Zh3Ml/8jznYQ==";
+        };
+        _w6HhjELH = {
+            "id" = "w6HhjELH";
+            "file" = "swordsight-1.2.jar";
+            "hash" = "sha512-ByCGXWncQ6zbgeo5c3G3XLBti2/uva6ibpXiodGn7BUM6NWB6ltkp+SLzUzah25ZGN4JXXOM3jHCpKeVTfJGbQ==";
+        };
+        _e6PZLcVz = {
+            "id" = "e6PZLcVz";
+            "file" = "swordsight-1.2.jar";
+            "hash" = "sha512-qSXhvxzNOcxvOk5IN7cuLlBUaAF2+etEa4BmjprcXuIcoO175KHFRFj6okWdP88HMjzm8gVb9Ce0oANyK2ebKg==";
+        };
+        _M5uhkcGu = {
+            "id" = "M5uhkcGu";
+            "file" = "swordsight-1.2.jar";
+            "hash" = "sha512-G9vhfVymM5AGScLiCayAej3MFxFBXjP4OITG2k8h4YDF6YZHd9g5o8RXYEMwDlNs/LO/46nU0VYwG/VHDIC/Dw==";
+        };
+        _Fc1dlTeh = {
+            "id" = "Fc1dlTeh";
+            "file" = "swordsight-1.2.jar";
+            "hash" = "sha512-Nz1YJt+3YjUZoCeGv2Brg85gb/xVB2jwYEtSarbRe1M1KVPs9hKk+412edqNmVclCR2d3GtFrQL/7EKeO9aEgA==";
+        };
     in {
         "Re72gE4g" = _Re72gE4g;
         "rFgntiHp" = _rFgntiHp;
@@ -80,25 +130,37 @@ let
         "WbQyLyyO" = _WbQyLyyO;
         "Bj1XOxnt" = _Bj1XOxnt;
         "eWj4KgHf" = _eWj4KgHf;
-        "fabric-1.21" = _qaaSBypS;
-        "fabric-1.21.1" = _qaaSBypS;
-        "fabric-1.21.2" = _SPceiZLJ;
-        "fabric-1.21.3" = _SPceiZLJ;
-        "fabric-1.21.4" = _SPceiZLJ;
-        "fabric-1.21.5" = _CMbDbICa;
-        "fabric-1.21.6" = _CMbDbICa;
-        "fabric-1.21.7" = _CMbDbICa;
-        "fabric-1.21.8" = _CMbDbICa;
-        "fabric-1.21.9" = _LFHQIIMz;
-        "fabric-1.21.10" = _LFHQIIMz;
-        "fabric-1.21.11" = _ZDcZTtWt;
-        "fabric-26.1" = _Bj1XOxnt;
-        "fabric-26.1.1" = _Bj1XOxnt;
-        "fabric-26.1.2" = _Bj1XOxnt;
-        "fabric-26.2" = _eWj4KgHf;
+        "8ZolZ0uA" = _8ZolZ0uA;
+        "6NvV9trH" = _6NvV9trH;
+        "xlcJMl7V" = _xlcJMl7V;
+        "SOCl6Fc3" = _SOCl6Fc3;
+        "qZEc3jMZ" = _qZEc3jMZ;
+        "Tc7myKBi" = _Tc7myKBi;
+        "w6HhjELH" = _w6HhjELH;
+        "e6PZLcVz" = _e6PZLcVz;
+        "M5uhkcGu" = _M5uhkcGu;
+        "Fc1dlTeh" = _Fc1dlTeh;
+        "fabric-1.21" = _8ZolZ0uA;
+        "fabric-1.21.1" = _8ZolZ0uA;
+        "fabric-1.21.2" = _6NvV9trH;
+        "fabric-1.21.3" = _6NvV9trH;
+        "fabric-1.21.4" = _xlcJMl7V;
+        "fabric-1.21.5" = _SOCl6Fc3;
+        "fabric-1.21.6" = _qZEc3jMZ;
+        "fabric-1.21.7" = _qZEc3jMZ;
+        "fabric-1.21.8" = _qZEc3jMZ;
+        "fabric-1.21.9" = _Tc7myKBi;
+        "fabric-1.21.10" = _Tc7myKBi;
+        "fabric-1.21.11" = _w6HhjELH;
+        "fabric-26.1" = _e6PZLcVz;
+        "fabric-26.1.1" = _e6PZLcVz;
+        "fabric-26.1.2" = _e6PZLcVz;
+        "fabric-26.2" = _M5uhkcGu;
+        "fabric-26.3" = _Fc1dlTeh;
         "pkg-1.0.0" = _yKDzBZ5r;
         "pkg-1.1" = _eWj4KgHf;
-        "default" = _eWj4KgHf;
+        "pkg-1.2" = _Fc1dlTeh;
+        "default" = _Fc1dlTeh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "swordsight";

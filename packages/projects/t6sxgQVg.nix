@@ -101,6 +101,11 @@ let
             "file" = "EvidentPowderSnow[2.9][26.2].zip";
             "hash" = "sha512-5cQoDGxLwbr5qAtAEWVMQQT9hzs3nxpGm0e5b9We9Hc1ku0tXzXutJuKj7m/Tfok9FBODHkB8Z37LAfsSaEqrg==";
         };
+        _MrjMOGFB = {
+            "id" = "MrjMOGFB";
+            "file" = "EvidentPowderSnow[3.0][26.3].zip";
+            "hash" = "sha512-6X2gunCCsviIQO3UpoLqnFjkY5S2WIr8+JoCH+nsSL5PD5FNJImgAvgaHNFGT/YgxQNt57wd4GBHYPwT7s3ibA==";
+        };
     in {
         "4mwDlyyA" = _4mwDlyyA;
         "ptLyRT5W" = _ptLyRT5W;
@@ -122,6 +127,7 @@ let
         "lQasOssJ" = _lQasOssJ;
         "2iqGdjIp" = _2iqGdjIp;
         "WWLpy1hu" = _WWLpy1hu;
+        "MrjMOGFB" = _MrjMOGFB;
         "minecraft-1.17" = _4mwDlyyA;
         "minecraft-1.17.1" = _4mwDlyyA;
         "minecraft-1.18" = _ptLyRT5W;
@@ -155,6 +161,7 @@ let
         "minecraft-26.1.1" = _2iqGdjIp;
         "minecraft-26.1.2" = _2iqGdjIp;
         "minecraft-26.2" = _WWLpy1hu;
+        "minecraft-26.3" = _MrjMOGFB;
         "pkg-1.0" = _4mwDlyyA;
         "pkg-1.1" = _ptLyRT5W;
         "pkg-1.2" = _7mYYSuBG;
@@ -175,7 +182,8 @@ let
         "pkg-2.7" = _lQasOssJ;
         "pkg-2.8" = _2iqGdjIp;
         "pkg-2.9" = _WWLpy1hu;
-        "default" = _WWLpy1hu;
+        "pkg-3.0" = _MrjMOGFB;
+        "default" = _MrjMOGFB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "evident-powder-snow";

@@ -946,6 +946,11 @@ let
             "file" = "craft_config-1.1.12+26.2-neoforge.jar";
             "hash" = "sha512-Y/s4D0awAtdLkJvpucLtLrPe4CIGZEKaNyCWBrPeJ5ML4sjEuvJPgisFLaeLiZln+w/6a5RwLrnOccW3lQ+vyw==";
         };
+        _uZrFIHcm = {
+            "id" = "uZrFIHcm";
+            "file" = "craft_config-1.1.13+26.3-fabric.jar";
+            "hash" = "sha512-Mi6UEJbvtHMOOJRi8FJtE1LiQLaN3KEabA31oVp9kHfrMe+3hGC2cnSPYNXp3Whp7iYhyJXB+yzLCmElrZq5pQ==";
+        };
     in {
         "e6y95wGC" = _e6y95wGC;
         "5hKkKVt9" = _5hKkKVt9;
@@ -1136,6 +1141,7 @@ let
         "Ge0W68g5" = _Ge0W68g5;
         "JJAHhzfZ" = _JJAHhzfZ;
         "ND9e9FQB" = _ND9e9FQB;
+        "uZrFIHcm" = _uZrFIHcm;
         "fabric-1.21.11" = _OD5PhZeG;
         "fabric-1.20.1" = _ZzuPnsvb;
         "fabric-1.21.6" = _8ePxxZaO;
@@ -1152,6 +1158,7 @@ let
         "fabric-26.1.1" = _6xbqAnTs;
         "fabric-26.1.2" = _6xbqAnTs;
         "fabric-26.2" = _fpPeVLBv;
+        "fabric-26.3" = _uZrFIHcm;
         "neoforge-1.21.1" = _JJAHhzfZ;
         "neoforge-26.1" = _Ge0W68g5;
         "neoforge-26.1.1" = _Ge0W68g5;
@@ -1342,7 +1349,8 @@ let
         "pkg-1.1.12+1.21.1-neoforge" = _JJAHhzfZ;
         "pkg-1.1.12+26.1-neoforge" = _Ge0W68g5;
         "pkg-1.1.12+26.2-neoforge" = _ND9e9FQB;
-        "default" = _ND9e9FQB;
+        "pkg-1.1.13+26.3-fabric" = _uZrFIHcm;
+        "default" = _uZrFIHcm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craft-config";

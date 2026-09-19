@@ -331,6 +331,16 @@ let
             "file" = "brawl_stars-1.11-neoforge-26.1.2.jar";
             "hash" = "sha512-KzRNOwblZu+7G8GsiM+53jE6UBFA8SeTkKf5m+rhBTfoOwkzevPFxZFoLmKDhD7g5rcZByAVqRPkmJ1dI1R/hg==";
         };
+        _aQzAgQi3 = {
+            "id" = "aQzAgQi3";
+            "file" = "brawl_stars-1.11.1-neoforge-26.1.2.jar";
+            "hash" = "sha512-hekI9gb5ZIsj1SLQFj0IJQruU8PY/nM0HYESZAMVymMRSCSQq757t/kPrcLZlGJQ1Qh952qFwjyBKXkX/Ils7Q==";
+        };
+        _dvELUEBW = {
+            "id" = "dvELUEBW";
+            "file" = "brawl_stars-1.11.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-isJX/CQUNNdlw9aSs6ce8eMPnkmaada839rwNsJehO1ta/fmAzmhAiLfCoKN8TWZmBdU7W7hegqk9W2mBJKrKA==";
+        };
     in {
         "1EknQpfT" = _1EknQpfT;
         "A2wLTBOz" = _A2wLTBOz;
@@ -398,12 +408,14 @@ let
         "CWKjRFA3" = _CWKjRFA3;
         "mRs4rN5i" = _mRs4rN5i;
         "VMmniUjZ" = _VMmniUjZ;
-        "neoforge-1.21.1" = _nIrPrpq8;
+        "aQzAgQi3" = _aQzAgQi3;
+        "dvELUEBW" = _dvELUEBW;
+        "neoforge-1.21.1" = _dvELUEBW;
         "neoforge-1.21.4" = _umDAF671;
         "neoforge-1.21.5" = _Rw86DpFm;
         "neoforge-1.21.8" = _y8I8nm4L;
         "neoforge-1.20.6" = _TIXk3HvS;
-        "neoforge-26.1.2" = _VMmniUjZ;
+        "neoforge-26.1.2" = _aQzAgQi3;
         "forge-1.20.1" = _CWKjRFA3;
         "forge-1.20.4" = _QMlyTpju;
         "forge-1.19.4" = _1PoY9amT;
@@ -438,7 +450,8 @@ let
         "pkg-1.9.2" = _wmZKhhzR;
         "pkg-1.10" = _K3hf6onO;
         "pkg-1.11" = _VMmniUjZ;
-        "default" = _VMmniUjZ;
+        "pkg-1.11.1" = _dvELUEBW;
+        "default" = _dvELUEBW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "brawl-stars-mod";

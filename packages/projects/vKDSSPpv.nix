@@ -116,6 +116,11 @@ let
             "file" = "timelesslib-2.0.0-fabric-26.1.jar";
             "hash" = "sha512-YOiPAY9dlfbm8GZrcoEYlHiNvhtuvK5FY9IPdVkO/iQx7hPL/7XerzNWkKFGC4ysWjw9UeLPEVVFhCyAoCHS6A==";
         };
+        _hdEHKFW8 = {
+            "id" = "hdEHKFW8";
+            "file" = "timelesslib-2.0.0-fabric-26.3.jar";
+            "hash" = "sha512-ctpElw5bhapfdfFGxCtnY1NUO6kcNxlNCJ0pDDENSsmygqiOWT5q0TXdd+u0+xM87saY3hxWYgR4yIriGmY89g==";
+        };
     in {
         "cYPtb19C" = _cYPtb19C;
         "5OBmdqkC" = _5OBmdqkC;
@@ -140,6 +145,7 @@ let
         "pwJEcuhY" = _pwJEcuhY;
         "jWptilz9" = _jWptilz9;
         "u9qzEVZ1" = _u9qzEVZ1;
+        "hdEHKFW8" = _hdEHKFW8;
         "fabric-1.20.5" = _hbSLhdcX;
         "fabric-1.20.6" = _hbSLhdcX;
         "fabric-1.21" = _hbSLhdcX;
@@ -187,6 +193,7 @@ let
         "fabric-1.16.3" = _KOsuG31Y;
         "fabric-1.16.4" = _KOsuG31Y;
         "fabric-1.16.5" = _KOsuG31Y;
+        "fabric-26.3" = _hdEHKFW8;
         "pkg-1.0.20-fabric-1.20.5-1.21.10" = _cYPtb19C;
         "pkg-1.0.17-fabric-1.19.3-1.20.4" = _5OBmdqkC;
         "pkg-1.0.20-fabric-1.19.3-1.20.4" = _gYDzgy7q;
@@ -207,7 +214,8 @@ let
         "pkg-2.0.0-fabric-1.19.3-1.20.4" = _tIhQ6mT7;
         "pkg-2.0.0-fabric-26.1" = _u9qzEVZ1;
         "pkg-2.0.0-fabric-26.2" = _jWptilz9;
-        "default" = _u9qzEVZ1;
+        "pkg-2.0.0-fabric-26.3" = _hdEHKFW8;
+        "default" = _hdEHKFW8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "timelesslib";

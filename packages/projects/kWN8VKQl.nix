@@ -96,6 +96,11 @@ let
             "file" = "BedrockCoordinates-mc26.2-1.7.3.jar";
             "hash" = "sha512-0PHp34HMM+PVmtN8PHnSmGkiUX1gLry/fxveuavdqFdwiBXQG7j6PnSPH6QmVbcQL7C7ZEAvxrDKL8WaWR3p7w==";
         };
+        _JkBkWwnz = {
+            "id" = "JkBkWwnz";
+            "file" = "BedrockCoordinates-mc26.3-1.8.0.jar";
+            "hash" = "sha512-SqTa/SNZZKzhCOln8sWUzVNLivGkAVELdm/wNamsgWul6Sjdx2VYp0ZWXqS6klUX7uDgdqO4UM0s6E7sJ7/95A==";
+        };
     in {
         "PFGI4FhD" = _PFGI4FhD;
         "KylMOjuE" = _KylMOjuE;
@@ -116,6 +121,7 @@ let
         "KHMk6EsA" = _KHMk6EsA;
         "WK9lWYU6" = _WK9lWYU6;
         "E2U8i61T" = _E2U8i61T;
+        "JkBkWwnz" = _JkBkWwnz;
         "fabric-1.21.1" = _PFGI4FhD;
         "fabric-1.21.2" = _KylMOjuE;
         "fabric-1.21.3" = _RINpsdXP;
@@ -131,6 +137,7 @@ let
         "fabric-26.1.1" = _KHMk6EsA;
         "fabric-26.1.2" = _WK9lWYU6;
         "fabric-26.2" = _E2U8i61T;
+        "fabric-26.3" = _JkBkWwnz;
         "pkg-1.0.0" = _PFGI4FhD;
         "pkg-1.1.0" = _KylMOjuE;
         "pkg-1.2.0" = _RINpsdXP;
@@ -150,7 +157,8 @@ let
         "pkg-1.7.1" = _KHMk6EsA;
         "pkg-1.7.2" = _WK9lWYU6;
         "pkg-1.7.3" = _E2U8i61T;
-        "default" = _E2U8i61T;
+        "pkg-1.8.0" = _JkBkWwnz;
+        "default" = _JkBkWwnz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bedrock-coordinates";

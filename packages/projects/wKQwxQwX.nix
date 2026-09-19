@@ -111,6 +111,11 @@ let
             "file" = "yescheat-26.2.0.jar";
             "hash" = "sha512-esX3qBcmfAB5SBey6f1kHGQqs60I2uhhdZ0VnwlhI8v7oP72jU0GQUg7zVAlPjk5NPr8Dr4TugqmaKvBHo+P1A==";
         };
+        _KtR7r6WC = {
+            "id" = "KtR7r6WC";
+            "file" = "yescheat-26.3.0.jar";
+            "hash" = "sha512-FIhxHjC0zfe61qybxUqvJhq+Ud6r7QjYZADBX8EmEdVoSnr1DsP7AlKGefhaGP4Immv7X3WGPYSdjIv0QBEMAA==";
+        };
     in {
         "pcN9fCvL" = _pcN9fCvL;
         "kybSMT3C" = _kybSMT3C;
@@ -134,6 +139,7 @@ let
         "vkCB0rcb" = _vkCB0rcb;
         "jU4qPU41" = _jU4qPU41;
         "uyYdYNuB" = _uyYdYNuB;
+        "KtR7r6WC" = _KtR7r6WC;
         "fabric-1.19" = _pcN9fCvL;
         "fabric-1.19.1" = _kybSMT3C;
         "fabric-1.19.2" = _NYerJHXZ;
@@ -162,6 +168,7 @@ let
         "fabric-26.1.1" = _jU4qPU41;
         "fabric-26.1.2" = _jU4qPU41;
         "fabric-26.2" = _uyYdYNuB;
+        "fabric-26.3" = _KtR7r6WC;
         "pkg-1.5.0" = _pcN9fCvL;
         "pkg-1.5.1" = _kybSMT3C;
         "pkg-1.5.2" = _NYerJHXZ;
@@ -184,7 +191,8 @@ let
         "pkg-1.6.13" = _vkCB0rcb;
         "pkg-26.1.0" = _jU4qPU41;
         "pkg-26.2.0" = _uyYdYNuB;
-        "default" = _uyYdYNuB;
+        "pkg-26.3.0" = _KtR7r6WC;
+        "default" = _KtR7r6WC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yescheat";

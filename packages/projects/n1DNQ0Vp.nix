@@ -16,19 +16,26 @@ let
             "file" = "White Netherite.zip";
             "hash" = "sha512-872sQpwxJJF8w0X9j7RqIaVaogfuHCXlpMy3bh1UzxsuvD3mgfW8C0TUCCHGn89GNC0OcFoAhlF6t2g7e4VOog==";
         };
+        _TDD0HRFV = {
+            "id" = "TDD0HRFV";
+            "file" = "White Netherite.zip";
+            "hash" = "sha512-aX9YCI9jOEcEDK4cDql6a65w4fG+53yuTU1Iz9rhy+V3AzRMbdxdhdmO7zRw5TdTmWDefpJ02VLyxl6ZdO3GbQ==";
+        };
     in {
         "dEeMl3N2" = _dEeMl3N2;
         "2Mld8D9F" = _2Mld8D9F;
         "AoDfN42I" = _AoDfN42I;
-        "minecraft-1.21.9" = _AoDfN42I;
-        "minecraft-1.21.10" = _AoDfN42I;
-        "minecraft-1.21.11" = _AoDfN42I;
-        "minecraft-26.1" = _AoDfN42I;
-        "minecraft-26.1.1" = _AoDfN42I;
-        "minecraft-26.1.2" = _AoDfN42I;
-        "minecraft-26.2" = _AoDfN42I;
-        "pkg-1.0" = _AoDfN42I;
-        "default" = _AoDfN42I;
+        "TDD0HRFV" = _TDD0HRFV;
+        "minecraft-1.21.9" = _TDD0HRFV;
+        "minecraft-1.21.10" = _TDD0HRFV;
+        "minecraft-1.21.11" = _TDD0HRFV;
+        "minecraft-26.1" = _TDD0HRFV;
+        "minecraft-26.1.1" = _TDD0HRFV;
+        "minecraft-26.1.2" = _TDD0HRFV;
+        "minecraft-26.2" = _TDD0HRFV;
+        "minecraft-26.3" = _TDD0HRFV;
+        "pkg-1.0" = _TDD0HRFV;
+        "default" = _TDD0HRFV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "whitenetherite";

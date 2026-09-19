@@ -196,6 +196,11 @@ let
             "file" = "Dark OreUI Recreation v2.5.2 (26.2).zip";
             "hash" = "sha512-0CoifN4oLtf70QNEvSqtWWK9k0rL45ikqEZXwi4m7gOyTc1oEGPQZg2IP6FjO06wI8rDn3lOjTpEqnYaYjpZhw==";
         };
+        _7hnFFiZH = {
+            "id" = "7hnFFiZH";
+            "file" = "Dark OreUI Recreation v2.5.2 (26.3).zip";
+            "hash" = "sha512-ZlqafGdLAdQoJyUZSnbe79cH1Uyf7swSu/BFWxb1PAIAcPFOh3OX+1r0oElogY2chDlQ2m3MvH0PqJcIkPDJPw==";
+        };
     in {
         "LKfb6fwA" = _LKfb6fwA;
         "8btlFWep" = _8btlFWep;
@@ -236,6 +241,7 @@ let
         "3crmxIYa" = _3crmxIYa;
         "FAldtrYd" = _FAldtrYd;
         "lr756KoO" = _lr756KoO;
+        "7hnFFiZH" = _7hnFFiZH;
         "minecraft-1.21.5" = _Njn9LSSc;
         "minecraft-1.21.4" = _Njn9LSSc;
         "minecraft-1.21.6" = _D4tkL8v8;
@@ -260,6 +266,7 @@ let
         "minecraft-26.2-rc-1" = _bd3zwt1b;
         "minecraft-26.2-rc-2" = _bd3zwt1b;
         "minecraft-26.2" = _lr756KoO;
+        "minecraft-26.3" = _7hnFFiZH;
         "pkg-1.0" = _LKfb6fwA;
         "pkg-1.1" = _8btlFWep;
         "pkg-1.2" = _mUOcUoOC;
@@ -279,8 +286,8 @@ let
         "pkg-2.5" = _BNGg1LMQ;
         "pkg-2.5.1" = _bd3zwt1b;
         "pkg-2.5.1.1" = _WfLY81Oc;
-        "pkg-2.5.2" = _lr756KoO;
-        "default" = _lr756KoO;
+        "pkg-2.5.2" = _7hnFFiZH;
+        "default" = _7hnFFiZH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dark-oreui-recreation";

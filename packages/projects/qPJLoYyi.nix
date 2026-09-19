@@ -186,6 +186,16 @@ let
             "file" = "CobbleOptimizer-4.8.0.jar";
             "hash" = "sha512-EOw2gHE66p6TsSV9J2mTxpcC7WcQ/mNBzoHCgEAk/jau5RwI4dg6yjJCm02w6PUfkdH6YMVk2FjfA7jty2Ehww==";
         };
+        _AH8mC2jO = {
+            "id" = "AH8mC2jO";
+            "file" = "CobbleOptimizer-5.0.0.jar";
+            "hash" = "sha512-E+pDdDg1Nk1b3dYGrqrprgj7Q0v8K2qT19FE61azeySGmydsQUmiKB6U4bJtPDFXbKMJ80KQisAKzCCTRKLWjg==";
+        };
+        _nPJXpvCU = {
+            "id" = "nPJXpvCU";
+            "file" = "CobbleOptimizer-5.0.0.jar";
+            "hash" = "sha512-jYa68WGi+iyojBfyu86a5OXk04GWqBdxD0ygXoIw89MIjckZg12BcnnJdctunU+A2UJUxOGtoTXLYT1cu6C74w==";
+        };
     in {
         "c27IuOOU" = _c27IuOOU;
         "IGOyns9m" = _IGOyns9m;
@@ -224,8 +234,10 @@ let
         "1mvEhdus" = _1mvEhdus;
         "D78ayY4V" = _D78ayY4V;
         "WmzrXDV9" = _WmzrXDV9;
-        "fabric-1.21.1" = _D78ayY4V;
-        "neoforge-1.21.1" = _WmzrXDV9;
+        "AH8mC2jO" = _AH8mC2jO;
+        "nPJXpvCU" = _nPJXpvCU;
+        "fabric-1.21.1" = _AH8mC2jO;
+        "neoforge-1.21.1" = _nPJXpvCU;
         "pkg-1.0.0" = _c27IuOOU;
         "pkg-1.0.1" = _IGOyns9m;
         "pkg-2.0.0" = _49TvhZt6;
@@ -248,7 +260,8 @@ let
         "pkg-4.6.0" = _g1IZK0LM;
         "pkg-4.7.0" = _1mvEhdus;
         "pkg-4.8.0" = _WmzrXDV9;
-        "default" = _WmzrXDV9;
+        "pkg-5.0.0" = _nPJXpvCU;
+        "default" = _nPJXpvCU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemonoptimizer";

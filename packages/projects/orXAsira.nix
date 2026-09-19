@@ -181,6 +181,21 @@ let
             "file" = "cape-provider-5.6.0-SNAPSHOT.jar";
             "hash" = "sha512-niv8LCUIH/w2cjK3ItvsX5AjtmHgGOXSGdP/a2VZHWT2hi3arcTtv8ARAQ7me36vvjqN2rGPQvAI4zP886RLkg==";
         };
+        _Puw7YiUS = {
+            "id" = "Puw7YiUS";
+            "file" = "cape-provider-5.5.1.jar";
+            "hash" = "sha512-CSEozmxZbOglzU+hJwXZeZeWhL1V24MwrcF5qmZqTyiZjjNNhw1w6kUZ2DWWIY8MH94L2Sunmz3RHe8HaAHgiQ==";
+        };
+        _qIWQyEta = {
+            "id" = "qIWQyEta";
+            "file" = "cape-provider-5.6.0.jar";
+            "hash" = "sha512-YZqLQGMIU7PlU7nm3ke53WshRe0lwd4RZk18nKHhlZdNOgUg7z5bsnr8JE6zjtNE6rmyCMFeiejAByqpx2WNsw==";
+        };
+        _ehiQHMI3 = {
+            "id" = "ehiQHMI3";
+            "file" = "cape-provider-5.6.1.jar";
+            "hash" = "sha512-jjwcSAle5h3J55T8S5LY9NvcubawPBBGraMqZzOtPwmpQHesz4cVMF+Ymi6oF9NWIq6zuyeizvFEz+6kV2zBdQ==";
+        };
     in {
         "FSilBdn4" = _FSilBdn4;
         "IqOa44ps" = _IqOa44ps;
@@ -218,6 +233,9 @@ let
         "GILlUz33" = _GILlUz33;
         "molTCsgf" = _molTCsgf;
         "R327kvDp" = _R327kvDp;
+        "Puw7YiUS" = _Puw7YiUS;
+        "qIWQyEta" = _qIWQyEta;
+        "ehiQHMI3" = _ehiQHMI3;
         "fabric-1.21.4" = _KlgBF6TO;
         "fabric-1.21.5" = _Es9UfZEs;
         "fabric-1.21.6-rc1" = _E0ip1wN2;
@@ -232,8 +250,11 @@ let
         "fabric-26.1" = _6iIBEQY5;
         "fabric-26.1.1" = _6iIBEQY5;
         "fabric-26.1.2" = _GILlUz33;
-        "fabric-26.2" = _molTCsgf;
+        "fabric-26.2" = _Puw7YiUS;
         "fabric-26.3-snapshot-9" = _R327kvDp;
+        "fabric-26.3-rc-2" = _qIWQyEta;
+        "fabric-26.3-rc-3" = _qIWQyEta;
+        "fabric-26.3" = _ehiQHMI3;
         "pkg-1.0.0" = _FSilBdn4;
         "pkg-1.0.1" = _IqOa44ps;
         "pkg-1.0.2" = _KlgBF6TO;
@@ -270,7 +291,10 @@ let
         "pkg-5.4.3" = _GILlUz33;
         "pkg-5.5.0" = _molTCsgf;
         "pkg-5.6.0-SNAPSHOT" = _R327kvDp;
-        "default" = _R327kvDp;
+        "pkg-5.5.1" = _Puw7YiUS;
+        "pkg-5.6.0" = _qIWQyEta;
+        "pkg-5.6.1" = _ehiQHMI3;
+        "default" = _ehiQHMI3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cape-provider";

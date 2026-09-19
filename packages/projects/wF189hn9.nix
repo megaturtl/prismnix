@@ -131,6 +131,16 @@ let
             "file" = "ukus-armor-hud-neoforge-0.12.0+mc26.2.jar";
             "hash" = "sha512-7NODcD7Isyrx7EOnvneE4jZEFB7q8fXwmrO5BuDe7Ym41+knAs7Gnaa2BDlaLh+jKo1uByrNIyq7hIkbt8mxDw==";
         };
+        _E3a2vnRb = {
+            "id" = "E3a2vnRb";
+            "file" = "ukus-armor-hud-fabric-0.13.0+mc26.3.jar";
+            "hash" = "sha512-OzOmzFaI6gFAUfnhKmla9SbFKNBdAd/efirgFmARhLlRY81iFjFVEXKnetaFpvG2TkQIr4sJejiMQO9iCompBg==";
+        };
+        _VWQg8vYF = {
+            "id" = "VWQg8vYF";
+            "file" = "ukus-armor-hud-neoforge-0.13.0+mc26.3.jar";
+            "hash" = "sha512-/0yDdk2o3kNL+zqO/S2XmjGQDeLcmndMqiRyReYa6uguyLG9bz55UPm+KC4bqOMcW5ibhl640dOK2b5YlN6N8Q==";
+        };
     in {
         "5ZvuA0R8" = _5ZvuA0R8;
         "IJALWJq8" = _IJALWJq8;
@@ -158,6 +168,8 @@ let
         "zvOTqals" = _zvOTqals;
         "K6G1JNFw" = _K6G1JNFw;
         "oE8Nb6ry" = _oE8Nb6ry;
+        "E3a2vnRb" = _E3a2vnRb;
+        "VWQg8vYF" = _VWQg8vYF;
         "fabric-1.20.1" = _IJALWJq8;
         "fabric-1.20.2" = _CJ7EWB1B;
         "fabric-1.20.3" = _F1irP06N;
@@ -181,6 +193,7 @@ let
         "fabric-26.1.1" = _zvOTqals;
         "fabric-26.1.2" = _zvOTqals;
         "fabric-26.2" = _K6G1JNFw;
+        "fabric-26.3" = _E3a2vnRb;
         "quilt-1.20.1" = _IJALWJq8;
         "quilt-1.20.2" = _CJ7EWB1B;
         "quilt-1.20.3" = _F1irP06N;
@@ -204,11 +217,13 @@ let
         "quilt-26.1.1" = _zvOTqals;
         "quilt-26.1.2" = _zvOTqals;
         "quilt-26.2" = _K6G1JNFw;
+        "quilt-26.3" = _E3a2vnRb;
         "neoforge-26.1-snapshot-2" = _xQM16D7I;
         "neoforge-26.1" = _DjQiltvn;
         "neoforge-26.1.1" = _DjQiltvn;
         "neoforge-26.1.2" = _DjQiltvn;
         "neoforge-26.2" = _oE8Nb6ry;
+        "neoforge-26.3" = _VWQg8vYF;
         "pkg-0.4.0+mc1.20.1" = _5ZvuA0R8;
         "pkg-0.3.10+mc1.20.1" = _IJALWJq8;
         "pkg-0.4.1+mc1.20.2" = _CJ7EWB1B;
@@ -234,7 +249,9 @@ let
         "pkg-0.11.0+mc26.1-fabric" = _zvOTqals;
         "pkg-0.12.0+mc26.2-fabric" = _K6G1JNFw;
         "pkg-0.12.0+mc26.2-neoforge" = _oE8Nb6ry;
-        "default" = _oE8Nb6ry;
+        "pkg-0.13.0+mc26.3-fabric" = _E3a2vnRb;
+        "pkg-0.13.0+mc26.3-neoforge" = _VWQg8vYF;
+        "default" = _VWQg8vYF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ukus-armor-hud";

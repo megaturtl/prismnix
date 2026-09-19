@@ -81,6 +81,16 @@ let
             "file" = "ig-calculator-26.2.jar";
             "hash" = "sha512-DZSWJpcSJm3JcvVt0vtKA2QFNH/r4Z6fRAXFMFIbWXI13Cb//FPWhoBWD9vE7YXCLsPmGTaBLwf5Taq/a0NbQA==";
         };
+        _ZOksGZCd = {
+            "id" = "ZOksGZCd";
+            "file" = "ig-calculator-26.2.jar";
+            "hash" = "sha512-Maf4qUQ+zePIsRt6Z8XrhRdP5kKvvaw7rqaUSX7149F2xpA50xrgz+GJT2sB+hrMb7vQu5UpsFrPl9PIez5J0A==";
+        };
+        _uSb7Kqwh = {
+            "id" = "uSb7Kqwh";
+            "file" = "ig-calculator-26.3.jar";
+            "hash" = "sha512-eeBQ59LzHbOBAfs1oZy5bszB015ZRvLsLHqcTpKYFesYstuOd73dgDdimQkwIWkaPAMYV311zCyACwL9JJ502A==";
+        };
     in {
         "2ZPxo52G" = _2ZPxo52G;
         "sOnJICRT" = _sOnJICRT;
@@ -98,6 +108,8 @@ let
         "ZZ75iYEO" = _ZZ75iYEO;
         "OMdVEICQ" = _OMdVEICQ;
         "YvNldyOn" = _YvNldyOn;
+        "ZOksGZCd" = _ZOksGZCd;
+        "uSb7Kqwh" = _uSb7Kqwh;
         "fabric-1.21.6" = _UFR5b6vi;
         "fabric-1.21.7" = _yuWWvKIi;
         "fabric-1.21.8" = _F1GQCLQ2;
@@ -107,12 +119,13 @@ let
         "fabric-26.1" = _rVNEItVd;
         "fabric-26.1.1" = _ZZ75iYEO;
         "fabric-26.1.2" = _OMdVEICQ;
-        "fabric-26.2" = _YvNldyOn;
+        "fabric-26.2" = _ZOksGZCd;
+        "fabric-26.3" = _uSb7Kqwh;
         "pkg-1.0.0" = _CoLxkEse;
         "pkg-1.1.0" = _H4XtWUo4;
         "pkg-1.1.1" = _P30nzy5Y;
-        "pkg-1.2.0" = _YvNldyOn;
-        "default" = _YvNldyOn;
+        "pkg-1.2.0" = _uSb7Kqwh;
+        "default" = _uSb7Kqwh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "in-game-calculator";

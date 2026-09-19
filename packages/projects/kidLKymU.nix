@@ -191,6 +191,16 @@ let
             "file" = "YungsBetterStrongholds-26.1.2-NeoForge-6.1.0.jar";
             "hash" = "sha512-FzMVLrFZKZ8GpYP6EpXNjHgDsc4zRWRZeTtvJJYHWxH4yMeEZk7tRy87dOIB1WUcJelKyKDkKHWaiu2XRk6Erw==";
         };
+        _aYR5vkpj = {
+            "id" = "aYR5vkpj";
+            "file" = "YungsBetterStrongholds-26.1.2-Fabric-6.1.1.jar";
+            "hash" = "sha512-cZ1m1sKR3JIprGVFM5LRzhyPQKSxNZReZjEgLHdyQRY0Hx5sPYNtCX9o2CmZ5eQoKyz4Nyr5SyAE7VKg1VdKBA==";
+        };
+        _jRm5H60F = {
+            "id" = "jRm5H60F";
+            "file" = "YungsBetterStrongholds-26.1.2-NeoForge-6.1.1.jar";
+            "hash" = "sha512-mEBS0MaR5sSVUM9vR/cblLDJJsumr3rYo6g3XOJdcixZ5z2y8OL4kqZl4i3iKcVTe4CA6UzcewA3MOZMh7fo7g==";
+        };
     in {
         "aW1VWzje" = _aW1VWzje;
         "KZDwDgOz" = _KZDwDgOz;
@@ -230,6 +240,8 @@ let
         "jPsIaxuA" = _jPsIaxuA;
         "2NIW1zHb" = _2NIW1zHb;
         "r6czw4RL" = _r6czw4RL;
+        "aYR5vkpj" = _aYR5vkpj;
+        "jRm5H60F" = _jRm5H60F;
         "forge-1.19.2" = _aW1VWzje;
         "forge-1.19.3" = _ZpXd8UfW;
         "forge-1.19.4" = _tCcE7NO3;
@@ -247,14 +259,14 @@ let
         "fabric-1.21.1" = _uYZShp1p;
         "fabric-1.21" = _uYZShp1p;
         "fabric-1.21.4" = _jPsIaxuA;
-        "fabric-26.1.1" = _2NIW1zHb;
-        "fabric-26.1.2" = _2NIW1zHb;
+        "fabric-26.1.1" = _aYR5vkpj;
+        "fabric-26.1.2" = _aYR5vkpj;
         "neoforge-1.20.4" = _4tpvfG6R;
         "neoforge-1.21.1" = _8U0dIfSM;
         "neoforge-1.21" = _8U0dIfSM;
         "neoforge-1.21.4" = _jCEcgyYA;
-        "neoforge-26.1.1" = _r6czw4RL;
-        "neoforge-26.1.2" = _r6czw4RL;
+        "neoforge-26.1.1" = _jRm5H60F;
+        "neoforge-26.1.2" = _jRm5H60F;
         "pkg-1.19.2-Forge-3.2.0" = _aW1VWzje;
         "pkg-1.19.2-Fabric-3.2.0" = _KZDwDgOz;
         "pkg-1.19.3-Forge-3.3.0" = _ZpXd8UfW;
@@ -293,7 +305,9 @@ let
         "pkg-1.21.4-Fabric-5.4.0" = _jPsIaxuA;
         "pkg-26.1.2-Fabric-6.1.0" = _2NIW1zHb;
         "pkg-26.1.2-NeoForge-6.1.0" = _r6czw4RL;
-        "default" = _r6czw4RL;
+        "pkg-26.1.2-Fabric-6.1.1" = _aYR5vkpj;
+        "pkg-26.1.2-NeoForge-6.1.1" = _jRm5H60F;
+        "default" = _jRm5H60F;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yungs-better-strongholds";

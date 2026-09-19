@@ -71,6 +71,16 @@ let
             "file" = "project-lazuli-for-cobblemon-preview-version-13.jar";
             "hash" = "sha512-ugrqLabpuUYLazPSSaNoS5hJunGH54q7/o3LpzcqyroaoR96hNZwJJtzF37N2X5ynowojVJGGIah3JTONWgSLA==";
         };
+        _TfHjhOCG = {
+            "id" = "TfHjhOCG";
+            "file" = "z-project-lazuli.zip";
+            "hash" = "sha512-cle6+Vb9EWysYE+Z0WkGBrv+Wp209XeyemxjMoJM+vZ6pMefZBGBrhQ06bhNEAPUEr3CdwPk/vSsPBCI6QZnHQ==";
+        };
+        _IS7QZOmk = {
+            "id" = "IS7QZOmk";
+            "file" = "project-lazuli-for-cobblemon-preview-version-14.jar";
+            "hash" = "sha512-Sxj59hH9c5hV1kifPZYsZ+OvJ9NCBQUTlDJ87n7HCAxFsyHlPH7bZkQJCiCd/YEFDiL1GF1XW4/WgUJfK4g6CQ==";
+        };
     in {
         "DWwimynX" = _DWwimynX;
         "HEzeooak" = _HEzeooak;
@@ -86,18 +96,20 @@ let
         "paSonIMZ" = _paSonIMZ;
         "OgpWXYnt" = _OgpWXYnt;
         "8ImVFGdd" = _8ImVFGdd;
-        "datapack-1.21.1" = _OgpWXYnt;
-        "datapack-1.21" = _OgpWXYnt;
+        "TfHjhOCG" = _TfHjhOCG;
+        "IS7QZOmk" = _IS7QZOmk;
+        "datapack-1.21.1" = _TfHjhOCG;
+        "datapack-1.21" = _TfHjhOCG;
         "minecraft-1.21" = _iynP3DS3;
         "minecraft-1.21.1" = _iynP3DS3;
-        "fabric-1.21" = _8ImVFGdd;
-        "fabric-1.21.1" = _8ImVFGdd;
-        "forge-1.21" = _8ImVFGdd;
-        "forge-1.21.1" = _8ImVFGdd;
-        "neoforge-1.21" = _8ImVFGdd;
-        "neoforge-1.21.1" = _8ImVFGdd;
-        "quilt-1.21" = _8ImVFGdd;
-        "quilt-1.21.1" = _8ImVFGdd;
+        "fabric-1.21" = _IS7QZOmk;
+        "fabric-1.21.1" = _IS7QZOmk;
+        "forge-1.21" = _IS7QZOmk;
+        "forge-1.21.1" = _IS7QZOmk;
+        "neoforge-1.21" = _IS7QZOmk;
+        "neoforge-1.21.1" = _IS7QZOmk;
+        "quilt-1.21" = _IS7QZOmk;
+        "quilt-1.21.1" = _IS7QZOmk;
         "pkg-0.1" = _DWwimynX;
         "pkg-2" = _HEzeooak;
         "pkg-3" = _W5mUE5vF;
@@ -112,7 +124,9 @@ let
         "pkg-12+mod" = _paSonIMZ;
         "pkg-13" = _OgpWXYnt;
         "pkg-13+mod" = _8ImVFGdd;
-        "default" = _8ImVFGdd;
+        "pkg-14" = _TfHjhOCG;
+        "pkg-14+mod" = _IS7QZOmk;
+        "default" = _IS7QZOmk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "project-lazuli-for-cobblemon-preview-version";

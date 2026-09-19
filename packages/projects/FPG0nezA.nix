@@ -46,6 +46,16 @@ let
             "file" = "ctgui-neoforge-1.21.1-0.3.2.jar";
             "hash" = "sha512-RQOq/jrqEOQnJdlI0WWsLgGqCKQRGX8Deb/mPOfsi2drw91djjlvz56FpRLtPgrCfRC2AIB0el3kqygU2xUxuA==";
         };
+        _43LpE26N = {
+            "id" = "43LpE26N";
+            "file" = "ctgui-fabric-1.21.1-0.4.0.jar";
+            "hash" = "sha512-Gjy5Bk1SN5RgkYnNKSMv8CJLFZwVKYAxhQW3QSRExvHXQgItkGgvh+EBPer+OYQlzXsXvjraBzkmd/hxBPPmCA==";
+        };
+        _rmoYlmhF = {
+            "id" = "rmoYlmhF";
+            "file" = "ctgui-neoforge-1.21.1-0.4.0.jar";
+            "hash" = "sha512-P2ZxH7xgu0s9Dvb6d1H4jaVkroPKF4uU/gt0urEu73f3bXVZMas/SJLjuUoCAA+g5MKPAHtbbqt6UJEerWnMnw==";
+        };
     in {
         "iZkM8MSz" = _iZkM8MSz;
         "STovNaXu" = _STovNaXu;
@@ -56,16 +66,19 @@ let
         "HYpUq59r" = _HYpUq59r;
         "eoT5BQ1Z" = _eoT5BQ1Z;
         "6j61IVyh" = _6j61IVyh;
+        "43LpE26N" = _43LpE26N;
+        "rmoYlmhF" = _rmoYlmhF;
         "neoforge-1.20.4" = _8mexSqLU;
-        "neoforge-1.21.1" = _6j61IVyh;
-        "fabric-1.21.1" = _eoT5BQ1Z;
+        "neoforge-1.21.1" = _rmoYlmhF;
+        "fabric-1.21.1" = _43LpE26N;
         "pkg-0.1.0" = _iZkM8MSz;
         "pkg-0.2.0" = _STovNaXu;
         "pkg-0.2.1" = _8mexSqLU;
         "pkg-0.3.0" = _iSsXjIke;
         "pkg-0.3.1" = _HYpUq59r;
         "pkg-0.3.2" = _6j61IVyh;
-        "default" = _6j61IVyh;
+        "pkg-0.4.0" = _rmoYlmhF;
+        "default" = _rmoYlmhF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crafttweaker-gui";

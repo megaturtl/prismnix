@@ -121,6 +121,11 @@ let
             "file" = "Fullbright-Fabric-26.2.jar";
             "hash" = "sha512-uvdnUCZ1h9YOdLCS2oE4RaSrREnMEoRiFQphXhe45l3Dc3arFnDapPbejfSUmyEIcnc3HH1qPY/H0/dVqytnKQ==";
         };
+        _OqY1604l = {
+            "id" = "OqY1604l";
+            "file" = "Fullbright-Fabric-26.3.jar";
+            "hash" = "sha512-yMKvS79apl1XwgZXq8x8vFz7a42D3z4KylXjUeRvBShH9ipPwSNsyaR6tyZ5D4gSLj5uZNpPrrxPZ3P6jvI47g==";
+        };
     in {
         "BtCu6IpN" = _BtCu6IpN;
         "eQa8Acvf" = _eQa8Acvf;
@@ -146,6 +151,7 @@ let
         "ZTStwkSq" = _ZTStwkSq;
         "UZ2XTxjy" = _UZ2XTxjy;
         "HlYJP6R0" = _HlYJP6R0;
+        "OqY1604l" = _OqY1604l;
         "forge-1.20.1" = _BtCu6IpN;
         "forge-1.20.2" = _BtCu6IpN;
         "forge-1.20.3" = _BtCu6IpN;
@@ -188,6 +194,7 @@ let
         "fabric-26.1.1" = _ZTStwkSq;
         "fabric-26.1.2" = _UZ2XTxjy;
         "fabric-26.2" = _HlYJP6R0;
+        "fabric-26.3" = _OqY1604l;
         "neoforge-1.21" = _uOXEAP0H;
         "neoforge-1.21.1" = _uOXEAP0H;
         "neoforge-1.21.2" = _uOXEAP0H;
@@ -220,7 +227,8 @@ let
         "pkg-26.1.1_Fabric" = _ZTStwkSq;
         "pkg-26.1.2_Fabric" = _UZ2XTxjy;
         "pkg-26.2_Fabric" = _HlYJP6R0;
-        "default" = _HlYJP6R0;
+        "pkg-26.3_Fabric" = _OqY1604l;
+        "default" = _OqY1604l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fullbright-forge";

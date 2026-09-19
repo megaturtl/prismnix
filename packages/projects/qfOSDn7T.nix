@@ -101,6 +101,11 @@ let
             "file" = "SoupVisuals-1.21.11-3.2.0.jar";
             "hash" = "sha512-w8S6jX/RcKkr76Bvt89/p+kh+cVQYnhz4eu1uqQKKHKlNWlWKHcFOPWF0UMvfrc8EJ8LAa72cAdgYD7qZ6p6Vg==";
         };
+        _IB63uS6o = {
+            "id" = "IB63uS6o";
+            "file" = "SoupVisuals-26.1-3.2.1.jar";
+            "hash" = "sha512-P/pd9z1Cfwv/2hhPNvD7Gn5o69x8PrW9XDZAVWs4IWGuykw9IhnApGoAeiR67RRpuWnByTTnVdVtQOCVrIZUAA==";
+        };
     in {
         "LROCXGBZ" = _LROCXGBZ;
         "yCh7wpER" = _yCh7wpER;
@@ -122,6 +127,7 @@ let
         "eifYc9ei" = _eifYc9ei;
         "Jy3jbHiL" = _Jy3jbHiL;
         "RVTpjFL6" = _RVTpjFL6;
+        "IB63uS6o" = _IB63uS6o;
         "fabric-1.20.5" = _f4Urh8e0;
         "fabric-1.20.6" = _f4Urh8e0;
         "fabric-1.20.1" = _K35sCj8F;
@@ -131,6 +137,9 @@ let
         "fabric-1.21" = _XHKpW2MP;
         "fabric-1.21.4" = _Jy3jbHiL;
         "fabric-1.21.11" = _RVTpjFL6;
+        "fabric-26.1" = _IB63uS6o;
+        "fabric-26.1.1" = _IB63uS6o;
+        "fabric-26.1.2" = _IB63uS6o;
         "pkg-0.1.1-legacy" = _LROCXGBZ;
         "pkg-0.1.2-legacy" = _yCh7wpER;
         "pkg-0.1.3-legacy" = _wdZOqG1J;
@@ -151,7 +160,8 @@ let
         "pkg-1.21.4-3.1.0" = _eifYc9ei;
         "pkg-1.21.4-3.2.0" = _Jy3jbHiL;
         "pkg-1.21.11-3.2.0" = _RVTpjFL6;
-        "default" = _RVTpjFL6;
+        "pkg-26.1-3.2.1" = _IB63uS6o;
+        "default" = _IB63uS6o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "soup-api";

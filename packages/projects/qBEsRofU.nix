@@ -176,6 +176,16 @@ let
             "file" = "modern-multitools-1.4.3-MC1.20.5-1.20.6.jar";
             "hash" = "sha512-Ui4BAE9WKrQWZaNv8wAHQwOGK4Qmr2xQYl+iAhE2AvV+Nhk6OVzJCnmCsFB4VZgtQibPJqv4ZzpC+e7Y9VxdmQ==";
         };
+        _9dqFg71w = {
+            "id" = "9dqFg71w";
+            "file" = "jkmt v1.4.3 For MC26.3.x.zip";
+            "hash" = "sha512-IF3KWDltA3FqvnBJFM96P47fNU8qJ1EpU21ULv+XSgkCKmloqBgF3ooIcUEaST7E08WrKxs+a8+b6WorcexK4Q==";
+        };
+        _y2mGTqym = {
+            "id" = "y2mGTqym";
+            "file" = "modern-multitools-1.4.3-MC26.3.x.jar";
+            "hash" = "sha512-RhfypScBhjj9GXJGN2qNiDGu6G2UUJh93dhwg231zzWGuhEd2NjQxONi0tYjjd9U99v5yqj+K4fKGZHoNq3BYA==";
+        };
     in {
         "sRp9ZLm5" = _sRp9ZLm5;
         "tLBFYVLE" = _tLBFYVLE;
@@ -212,6 +222,8 @@ let
         "dqHtjvAl" = _dqHtjvAl;
         "c5F5Omai" = _c5F5Omai;
         "aJ7BJNqg" = _aJ7BJNqg;
+        "9dqFg71w" = _9dqFg71w;
+        "y2mGTqym" = _y2mGTqym;
         "datapack-1.20.5" = _c5F5Omai;
         "datapack-1.20.6" = _c5F5Omai;
         "datapack-1.21" = _4xeipXxc;
@@ -230,6 +242,7 @@ let
         "datapack-26.1.1" = _qLhBGi0x;
         "datapack-26.1.2" = _qLhBGi0x;
         "datapack-26.2" = _qLhBGi0x;
+        "datapack-26.3" = _9dqFg71w;
         "fabric-1.21" = _dqHtjvAl;
         "fabric-1.21.1" = _dqHtjvAl;
         "fabric-1.20.5" = _aJ7BJNqg;
@@ -248,6 +261,7 @@ let
         "fabric-26.1.1" = _3MQTb5uQ;
         "fabric-26.1.2" = _3MQTb5uQ;
         "fabric-26.2" = _3MQTb5uQ;
+        "fabric-26.3" = _y2mGTqym;
         "forge-1.21" = _dqHtjvAl;
         "forge-1.21.1" = _dqHtjvAl;
         "forge-1.20.5" = _aJ7BJNqg;
@@ -266,6 +280,7 @@ let
         "forge-26.1.1" = _3MQTb5uQ;
         "forge-26.1.2" = _3MQTb5uQ;
         "forge-26.2" = _3MQTb5uQ;
+        "forge-26.3" = _y2mGTqym;
         "neoforge-1.21" = _dqHtjvAl;
         "neoforge-1.21.1" = _dqHtjvAl;
         "neoforge-1.20.5" = _aJ7BJNqg;
@@ -284,6 +299,7 @@ let
         "neoforge-26.1.1" = _3MQTb5uQ;
         "neoforge-26.1.2" = _3MQTb5uQ;
         "neoforge-26.2" = _3MQTb5uQ;
+        "neoforge-26.3" = _y2mGTqym;
         "quilt-1.21" = _dqHtjvAl;
         "quilt-1.21.1" = _dqHtjvAl;
         "quilt-1.20.5" = _aJ7BJNqg;
@@ -302,6 +318,7 @@ let
         "quilt-26.1.1" = _3MQTb5uQ;
         "quilt-26.1.2" = _3MQTb5uQ;
         "quilt-26.2" = _3MQTb5uQ;
+        "quilt-26.3" = _y2mGTqym;
         "pkg-1.0" = _sRp9ZLm5;
         "pkg-1.0.1" = _tLBFYVLE;
         "pkg-1.0.2" = _zuBprUDX;
@@ -336,7 +353,9 @@ let
         "pkg-1.4.3-MC1.21-1.21.8+mod" = _dqHtjvAl;
         "pkg-1.4.3-MC1.20.5-1.20.6" = _c5F5Omai;
         "pkg-1.4.3-MC1.20.5-1.20.6+mod" = _aJ7BJNqg;
-        "default" = _aJ7BJNqg;
+        "pkg-1.4.3-MC26.3.x" = _9dqFg71w;
+        "pkg-1.4.3-MC26.3.x+mod" = _y2mGTqym;
+        "default" = _y2mGTqym;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modern-multitools";

@@ -91,6 +91,11 @@ let
             "file" = "scripts-chunk-loaders-mc26.2-0.11.0.jar";
             "hash" = "sha512-FTl4+ZzA46FyMBztS6zNgwE2FqpNBrdNJb+kAz45alsiwQeiDGX7to7CY4IpEZfmnBuDF0izlQHg01tVbiM2fA==";
         };
+        _U3XqTRGk = {
+            "id" = "U3XqTRGk";
+            "file" = "scripts-chunk-loaders-mc26.3-0.12.0.jar";
+            "hash" = "sha512-2iGhofu8Jqs71BLhkE0745gW1bW+BISenBBJkmtmZ4DkgHAK+7f4GHLiswKMAzeillDqL+H5vN9P+Dd/uiIUyQ==";
+        };
     in {
         "akYx4Eqr" = _akYx4Eqr;
         "7ralYtvR" = _7ralYtvR;
@@ -110,6 +115,7 @@ let
         "qaXmbAwb" = _qaXmbAwb;
         "B71MCQDo" = _B71MCQDo;
         "586WV8GE" = _586WV8GE;
+        "U3XqTRGk" = _U3XqTRGk;
         "fabric-1.19.4" = _akYx4Eqr;
         "fabric-1.20" = _7ralYtvR;
         "fabric-1.20.1" = _v6LUNHDK;
@@ -125,6 +131,7 @@ let
         "fabric-26.1.1" = _TYXRRtpL;
         "fabric-26.1.2" = _B71MCQDo;
         "fabric-26.2" = _586WV8GE;
+        "fabric-26.3" = _U3XqTRGk;
         "pkg-mc1.19.4-0.1.1" = _akYx4Eqr;
         "pkg-mc1.20-0.2.0" = _7ralYtvR;
         "pkg-mc1.20.1-0.2.1" = _v6LUNHDK;
@@ -143,7 +150,8 @@ let
         "pkg-mc26.1.2-0.10.0" = _qaXmbAwb;
         "pkg-mc26.1.2-0.10.1" = _B71MCQDo;
         "pkg-mc26.2-0.11.0" = _586WV8GE;
-        "default" = _586WV8GE;
+        "pkg-mc26.3-0.12.0" = _U3XqTRGk;
+        "default" = _U3XqTRGk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scripts-chunk-loaders";

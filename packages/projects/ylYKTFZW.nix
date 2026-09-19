@@ -131,6 +131,11 @@ let
             "file" = "R26.2_PREPotionRecipesV01.00.zip";
             "hash" = "sha512-iHU+dxvZhzKr6GIUSgX9/pOoo5T5GLtNgxgAg+gcTy19x89kBjA9E1lUnseVSRBQCpm6s7NuO0dh3lGgLi4pXw==";
         };
+        _nzwzhfJA = {
+            "id" = "nzwzhfJA";
+            "file" = "R26.3_PREPotionRecipesV01.00.zip";
+            "hash" = "sha512-upvRa4nVx9Gr7HbqIoF4VFJI3emSKDHIueUCc7LTTL416nqrTW/JWVhnsUPmki9UbdHfHTW14NkKDaqzk+A8OA==";
+        };
     in {
         "uXISKvm7" = _uXISKvm7;
         "nnimypGa" = _nnimypGa;
@@ -158,6 +163,7 @@ let
         "9sRUPLvZ" = _9sRUPLvZ;
         "6lqMgSyQ" = _6lqMgSyQ;
         "uZ0YDaz1" = _uZ0YDaz1;
+        "nzwzhfJA" = _nzwzhfJA;
         "minecraft-1.21" = _SX0liWwj;
         "minecraft-1.21.1" = _PoClDZ7Y;
         "minecraft-1.21.2" = _4F1ARwo7;
@@ -174,6 +180,7 @@ let
         "minecraft-26.1.1" = _keFs11X6;
         "minecraft-26.1.2" = _keFs11X6;
         "minecraft-26.2" = _uZ0YDaz1;
+        "minecraft-26.3" = _nzwzhfJA;
         "pkg-R1.21_V01.01.01" = _uXISKvm7;
         "pkg-R1.21.1_V01.03.06" = _nnimypGa;
         "pkg-R1.21.2_V01.01.03" = _neTbSOSN;
@@ -200,7 +207,8 @@ let
         "pkg-R1.21.10_V01.02" = _9sRUPLvZ;
         "pkg-R1.21.11_V01.02" = _6lqMgSyQ;
         "pkg-R26.2_V01.00" = _uZ0YDaz1;
-        "default" = _uZ0YDaz1;
+        "pkg-R26.3_V01.00" = _nzwzhfJA;
+        "default" = _nzwzhfJA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "potion-recipes-pixels-reforged-edition!";

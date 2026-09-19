@@ -131,6 +131,16 @@ let
             "file" = "common-sense-recipes-1.1.3.jar";
             "hash" = "sha512-7O1mtNkIl42DMzHr4sYOf1B20al7Rtw/tGzn1JmWjZYwxNiH2/+4beYf9UgHoxpJo/4VSUUcqLE8HcIfPCTO/g==";
         };
+        _p9fXQUgH = {
+            "id" = "p9fXQUgH";
+            "file" = "CSR-1.1.4-MC-1.21.11.zip";
+            "hash" = "sha512-g6Dq8uPrPw8c2ibH5lNEpgjsR6liVfrV5MlQAzwybWl3sE1vSfTnPbcXKcbKsVk0dmPssJann2I39mb0YKpU0A==";
+        };
+        _gRN0bLiK = {
+            "id" = "gRN0bLiK";
+            "file" = "common-sense-recipes-1.21.11.jar";
+            "hash" = "sha512-MCUiXxz0sdMqZQAqgzJl+Pd0rzjAEJwuiK33YNhGflGNXLnBErUmU7ToT632RHWsjVQ3D0+/REMRDOwjIZAhpg==";
+        };
     in {
         "nHRx2QWe" = _nHRx2QWe;
         "sxzL5OIe" = _sxzL5OIe;
@@ -158,6 +168,8 @@ let
         "HhsMlINY" = _HhsMlINY;
         "xLVII2pZ" = _xLVII2pZ;
         "xlMDvIBt" = _xlMDvIBt;
+        "p9fXQUgH" = _p9fXQUgH;
+        "gRN0bLiK" = _gRN0bLiK;
         "datapack-1.20.6" = _sxzL5OIe;
         "datapack-1.21" = _TBqnGb1s;
         "datapack-1.21.1" = _TBqnGb1s;
@@ -169,11 +181,12 @@ let
         "datapack-1.21.8" = _KCgz3dMh;
         "datapack-1.21.9" = _Kar2GJ5w;
         "datapack-1.21.10" = _Kar2GJ5w;
-        "datapack-1.21.11" = _Kar2GJ5w;
-        "datapack-26.1" = _70ctilzk;
-        "datapack-26.1.1" = _70ctilzk;
-        "datapack-26.1.2" = _70ctilzk;
-        "datapack-26.2" = _70ctilzk;
+        "datapack-1.21.11" = _p9fXQUgH;
+        "datapack-26.1" = _p9fXQUgH;
+        "datapack-26.1.1" = _p9fXQUgH;
+        "datapack-26.1.2" = _p9fXQUgH;
+        "datapack-26.2" = _p9fXQUgH;
+        "datapack-26.3" = _p9fXQUgH;
         "fabric-1.21" = _MWba3NAT;
         "fabric-1.21.1" = _MWba3NAT;
         "fabric-1.21.3" = _8d7aXwLr;
@@ -184,11 +197,12 @@ let
         "fabric-1.21.8" = _kRdXZpG9;
         "fabric-1.21.9" = _4tXZTK3G;
         "fabric-1.21.10" = _4tXZTK3G;
-        "fabric-1.21.11" = _4tXZTK3G;
-        "fabric-26.1" = _xlMDvIBt;
-        "fabric-26.1.1" = _xlMDvIBt;
-        "fabric-26.1.2" = _xlMDvIBt;
-        "fabric-26.2" = _xlMDvIBt;
+        "fabric-1.21.11" = _gRN0bLiK;
+        "fabric-26.1" = _gRN0bLiK;
+        "fabric-26.1.1" = _gRN0bLiK;
+        "fabric-26.1.2" = _gRN0bLiK;
+        "fabric-26.2" = _gRN0bLiK;
+        "fabric-26.3" = _gRN0bLiK;
         "forge-1.21" = _MWba3NAT;
         "forge-1.21.1" = _MWba3NAT;
         "forge-1.21.3" = _8d7aXwLr;
@@ -199,11 +213,12 @@ let
         "forge-1.21.8" = _kRdXZpG9;
         "forge-1.21.9" = _4tXZTK3G;
         "forge-1.21.10" = _4tXZTK3G;
-        "forge-1.21.11" = _4tXZTK3G;
-        "forge-26.1" = _xlMDvIBt;
-        "forge-26.1.1" = _xlMDvIBt;
-        "forge-26.1.2" = _xlMDvIBt;
-        "forge-26.2" = _xlMDvIBt;
+        "forge-1.21.11" = _gRN0bLiK;
+        "forge-26.1" = _gRN0bLiK;
+        "forge-26.1.1" = _gRN0bLiK;
+        "forge-26.1.2" = _gRN0bLiK;
+        "forge-26.2" = _gRN0bLiK;
+        "forge-26.3" = _gRN0bLiK;
         "neoforge-1.21" = _MWba3NAT;
         "neoforge-1.21.1" = _MWba3NAT;
         "neoforge-1.21.3" = _8d7aXwLr;
@@ -214,11 +229,12 @@ let
         "neoforge-1.21.8" = _kRdXZpG9;
         "neoforge-1.21.9" = _4tXZTK3G;
         "neoforge-1.21.10" = _4tXZTK3G;
-        "neoforge-1.21.11" = _4tXZTK3G;
-        "neoforge-26.1" = _xlMDvIBt;
-        "neoforge-26.1.1" = _xlMDvIBt;
-        "neoforge-26.1.2" = _xlMDvIBt;
-        "neoforge-26.2" = _xlMDvIBt;
+        "neoforge-1.21.11" = _gRN0bLiK;
+        "neoforge-26.1" = _gRN0bLiK;
+        "neoforge-26.1.1" = _gRN0bLiK;
+        "neoforge-26.1.2" = _gRN0bLiK;
+        "neoforge-26.2" = _gRN0bLiK;
+        "neoforge-26.3" = _gRN0bLiK;
         "quilt-1.21" = _MWba3NAT;
         "quilt-1.21.1" = _MWba3NAT;
         "quilt-1.21.3" = _8d7aXwLr;
@@ -229,11 +245,12 @@ let
         "quilt-1.21.8" = _kRdXZpG9;
         "quilt-1.21.9" = _4tXZTK3G;
         "quilt-1.21.10" = _4tXZTK3G;
-        "quilt-1.21.11" = _4tXZTK3G;
-        "quilt-26.1" = _xlMDvIBt;
-        "quilt-26.1.1" = _xlMDvIBt;
-        "quilt-26.1.2" = _xlMDvIBt;
-        "quilt-26.2" = _xlMDvIBt;
+        "quilt-1.21.11" = _gRN0bLiK;
+        "quilt-26.1" = _gRN0bLiK;
+        "quilt-26.1.1" = _gRN0bLiK;
+        "quilt-26.1.2" = _gRN0bLiK;
+        "quilt-26.2" = _gRN0bLiK;
+        "quilt-26.3" = _gRN0bLiK;
         "pkg-1.0.1" = _nHRx2QWe;
         "pkg-1.0.1.1" = _sxzL5OIe;
         "pkg-1.1" = _TBqnGb1s;
@@ -244,7 +261,9 @@ let
         "pkg-1.1.2+mod" = _lNA9Xcup;
         "pkg-1.1.3" = _70ctilzk;
         "pkg-1.1.3+mod" = _xlMDvIBt;
-        "default" = _xlMDvIBt;
+        "pkg-1.1.4" = _p9fXQUgH;
+        "pkg-1.1.4+mod" = _gRN0bLiK;
+        "default" = _gRN0bLiK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "common-sense-recipes";

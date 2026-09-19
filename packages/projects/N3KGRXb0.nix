@@ -26,12 +26,18 @@ let
             "file" = "SpeedFOVLimiter+26.1-1.2.0.jar";
             "hash" = "sha512-S3AsIVlKpUfKvk/cnSCPhLXQRRn06j87xFqhx3tc/dA6wXqjw86PAVgTQ3LCVBVFPcdelfRa2+bG/yrrfDwGdg==";
         };
+        _GfPhu2Oj = {
+            "id" = "GfPhu2Oj";
+            "file" = "SpeedFOVLimiter+26.1-1.3.0.jar";
+            "hash" = "sha512-NBu8gMCzgFfFuKzTInalVfRXCbQl5T5ugKCX/EwZshzNX8QArls7PjR8XF6t9I59deiaByoxv3jBvmYjwbitfA==";
+        };
     in {
         "Km7SZ8G0" = _Km7SZ8G0;
         "b5HPaRIq" = _b5HPaRIq;
         "l3SNMAsv" = _l3SNMAsv;
         "eZOPpYaG" = _eZOPpYaG;
         "dOEEh0jI" = _dOEEh0jI;
+        "GfPhu2Oj" = _GfPhu2Oj;
         "fabric-1.20" = _b5HPaRIq;
         "fabric-1.20.1" = _b5HPaRIq;
         "fabric-1.20.2" = _b5HPaRIq;
@@ -47,16 +53,17 @@ let
         "fabric-1.21.9" = _eZOPpYaG;
         "fabric-1.21.10" = _eZOPpYaG;
         "fabric-1.21.11" = _eZOPpYaG;
-        "fabric-26.1" = _dOEEh0jI;
-        "fabric-26.1.1" = _dOEEh0jI;
-        "fabric-26.1.2" = _dOEEh0jI;
-        "fabric-26.2" = _dOEEh0jI;
+        "fabric-26.1" = _GfPhu2Oj;
+        "fabric-26.1.1" = _GfPhu2Oj;
+        "fabric-26.1.2" = _GfPhu2Oj;
+        "fabric-26.2" = _GfPhu2Oj;
         "pkg-1.0.0" = _Km7SZ8G0;
         "pkg-1.0.1" = _b5HPaRIq;
         "pkg-1.0.2" = _l3SNMAsv;
         "pkg-1.1.0" = _eZOPpYaG;
         "pkg-1.2.0" = _dOEEh0jI;
-        "default" = _dOEEh0jI;
+        "pkg-1.3.0" = _GfPhu2Oj;
+        "default" = _GfPhu2Oj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "speedfovlimiter";

@@ -141,6 +141,16 @@ let
             "file" = "sodium-shadowy-path-blocks-neoforge-4.1.0.jar";
             "hash" = "sha512-ZcjNE3IgE4S5eLvsOoROD9cG+b2oUbxfr44oComVGuO5m33uLOJDTsQB6Xp8uWi4Kd4mTSYD1yL68eYWHjiEGg==";
         };
+        _gobiZrtK = {
+            "id" = "gobiZrtK";
+            "file" = "sodium-shadowy-path-blocks-fabric-8.0.0.jar";
+            "hash" = "sha512-IFJccKdCQu8YLkjtFgd/dooPTWtLTKb9jP/Nk4ZsIX3n1hrwx8/mPHMw4P18ita7bGsfzDYFpZ+SKeIHGPSg7g==";
+        };
+        _MQdulj3H = {
+            "id" = "MQdulj3H";
+            "file" = "sodium-shadowy-path-blocks-neoforge-8.0.0.jar";
+            "hash" = "sha512-eqL8BpiOiEoc44R2dYXjadIs20zCYDTptsAnKVCLhJIbSJq39jSmVCrcEcbG1rgUIU4cQ0mKtlINuLS4PWmyUw==";
+        };
     in {
         "iQr9EvfW" = _iQr9EvfW;
         "Wm06cbRI" = _Wm06cbRI;
@@ -170,6 +180,8 @@ let
         "Y5u9AZj2" = _Y5u9AZj2;
         "swAX3plf" = _swAX3plf;
         "FpMmigWq" = _FpMmigWq;
+        "gobiZrtK" = _gobiZrtK;
+        "MQdulj3H" = _MQdulj3H;
         "fabric-1.16.1" = _iQr9EvfW;
         "fabric-1.16.2" = _iQr9EvfW;
         "fabric-1.16.3" = _iQr9EvfW;
@@ -207,6 +219,7 @@ let
         "fabric-26.1.1" = _ygm51jhU;
         "fabric-26.1.2" = _ygm51jhU;
         "fabric-26.2" = _ygm51jhU;
+        "fabric-26.3" = _gobiZrtK;
         "quilt-1.19" = _PD6Nlt01;
         "quilt-1.19.1" = _PD6Nlt01;
         "quilt-1.19.2" = _PD6Nlt01;
@@ -235,6 +248,7 @@ let
         "quilt-26.1.1" = _ygm51jhU;
         "quilt-26.1.2" = _ygm51jhU;
         "quilt-26.2" = _ygm51jhU;
+        "quilt-26.3" = _gobiZrtK;
         "neoforge-1.21" = _FpMmigWq;
         "neoforge-1.21.1" = _FpMmigWq;
         "neoforge-1.21.2" = _FpMmigWq;
@@ -251,6 +265,7 @@ let
         "neoforge-26.1.1" = _Y5u9AZj2;
         "neoforge-26.1.2" = _Y5u9AZj2;
         "neoforge-26.2" = _Y5u9AZj2;
+        "neoforge-26.3" = _MQdulj3H;
         "pkg-1.0.0" = _iQr9EvfW;
         "pkg-2.0.0" = _Wm06cbRI;
         "pkg-2.0.1" = _nfqMWwxE;
@@ -279,7 +294,9 @@ let
         "pkg-7.0.0-neoforge" = _Y5u9AZj2;
         "pkg-4.1.0-fabric" = _swAX3plf;
         "pkg-4.1.0-neoforge" = _FpMmigWq;
-        "default" = _FpMmigWq;
+        "pkg-8.0.0-fabric" = _gobiZrtK;
+        "pkg-8.0.0-neoforge" = _MQdulj3H;
+        "default" = _MQdulj3H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sodium-shadowy-path-blocks";

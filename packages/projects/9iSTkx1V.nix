@@ -96,6 +96,16 @@ let
             "file" = "horretsextendedmega-neoforge-1.7.7.jar";
             "hash" = "sha512-L8TTHKFdmTeYf7G7dKT5+i1svYQiJTz94l7/MnRXkGqx6po9OhLsAufpq1M2Z1szaM6hODTh0IOd8wkmgpVK4g==";
         };
+        _o3UbVELa = {
+            "id" = "o3UbVELa";
+            "file" = "horretsextendedmega-fabric-1.7.8.jar";
+            "hash" = "sha512-dmp+tGuiwXPFZbQyO55Xywc7HYG82bAF/oEATVsTeVVKBKWj//OrxRbkmAuoi9jk7XVDBymTq3/GiqUWmq2FYg==";
+        };
+        _W8iBNWJW = {
+            "id" = "W8iBNWJW";
+            "file" = "horretsextendedmega-neoforge-1.7.8.jar";
+            "hash" = "sha512-/4ApnGbvBJ2GT3Cms0zDr0MnvRSYh42WklgSdHnbdxVRmJQvaZrqtVRooY0yEOfG6HrK7A2Q+5Zut4bGvoExtg==";
+        };
     in {
         "mRG7FXIh" = _mRG7FXIh;
         "EDnBNVHS" = _EDnBNVHS;
@@ -116,9 +126,11 @@ let
         "AxGmb9Oh" = _AxGmb9Oh;
         "u0kbB8iD" = _u0kbB8iD;
         "NFOW0DE3" = _NFOW0DE3;
+        "o3UbVELa" = _o3UbVELa;
+        "W8iBNWJW" = _W8iBNWJW;
         "datapack-1.21.1" = _FA8RFl0D;
-        "fabric-1.21.1" = _u0kbB8iD;
-        "neoforge-1.21.1" = _NFOW0DE3;
+        "fabric-1.21.1" = _o3UbVELa;
+        "neoforge-1.21.1" = _W8iBNWJW;
         "pkg-0.1" = _mRG7FXIh;
         "pkg-0.2" = _EDnBNVHS;
         "pkg-1.0" = _fFzz8Ey4;
@@ -134,7 +146,8 @@ let
         "pkg-1.7.5" = _82lHsXF2;
         "pkg-1.7.6" = _AxGmb9Oh;
         "pkg-1.7.7" = _NFOW0DE3;
-        "default" = _NFOW0DE3;
+        "pkg-1.7.8" = _W8iBNWJW;
+        "default" = _W8iBNWJW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "horrets-extended-megas-cobblemon";

@@ -186,6 +186,16 @@ let
             "file" = "crackt-1.0.6+mc26.3-snapshot-10.jar";
             "hash" = "sha512-gQAJb9+uIcg0l+vRwDAC6CAQN61w4lzAlRMMeWXKW8sI6WxabqFSO9iTP899JlJiV9Uno+QCr1/kISckugrrHg==";
         };
+        _NkSTyJHP = {
+            "id" = "NkSTyJHP";
+            "file" = "crackt-1.0.6+mc26.3-pre-2.jar";
+            "hash" = "sha512-JI2xqzQXFNCm8knFsz6BR7yJIjQnhCj3cGDpL2zAZet29kZ6gavlrhDjP7hsDgsASjyC4l5s5Km5eEw4I6xh1Q==";
+        };
+        _efIE8d31 = {
+            "id" = "efIE8d31";
+            "file" = "crackt-1.0.6+mc26.3-pre-3.jar";
+            "hash" = "sha512-uVcfL1Ms/kypMpD/o6QyEoAS7X7iLQw89XIOEsr1GYMLPtEHrQuxYBO0ehNkrOT38U+s2OUpQ5TKiYcqRvxdPw==";
+        };
     in {
         "1AF5wdwO" = _1AF5wdwO;
         "EsrX3hoN" = _EsrX3hoN;
@@ -224,6 +234,8 @@ let
         "PmTCzmj5" = _PmTCzmj5;
         "WZ99MqTh" = _WZ99MqTh;
         "xD6u1gk0" = _xD6u1gk0;
+        "NkSTyJHP" = _NkSTyJHP;
+        "efIE8d31" = _efIE8d31;
         "fabric-1.21.10" = _X0LP4hOb;
         "fabric-1.21.11-rc3" = _bd201Xaj;
         "fabric-1.21.11" = _RkIovrHx;
@@ -239,6 +251,8 @@ let
         "fabric-26.3-snapshot-8" = _6VvERisq;
         "fabric-26.3-snapshot-9" = _WZ99MqTh;
         "fabric-26.3-snapshot-10" = _xD6u1gk0;
+        "fabric-26.3-pre-2" = _NkSTyJHP;
+        "fabric-26.3-pre-3" = _efIE8d31;
         "pkg-1.0.0" = _1AF5wdwO;
         "pkg-1.0.1" = _EsrX3hoN;
         "pkg-1.0.1.rc3" = _bd201Xaj;
@@ -251,8 +265,8 @@ let
         "pkg-1.0.3+mc26.1-snapshot-1" = _wxGpctCm;
         "pkg-1.0.4" = _nY2WpoS0;
         "pkg-1.0.5" = _yhuXLNUa;
-        "pkg-1.0.6" = _xD6u1gk0;
-        "default" = _xD6u1gk0;
+        "pkg-1.0.6" = _efIE8d31;
+        "default" = _efIE8d31;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crackt";

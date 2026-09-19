@@ -486,6 +486,46 @@ let
             "file" = "Quick Skin - NeoForge - 1.21.11-2.6.2.5.jar";
             "hash" = "sha512-BXXWY4UuJhsz3HKeTG2Bkjz/eR8CMUg4MdgwB7WRHwMZ/5xJwS45YBHedS3KAR8znzcAiKoGF9VjlCXbXB79jw==";
         };
+        _h1YoFUiJ = {
+            "id" = "h1YoFUiJ";
+            "file" = "Quick Skin - Fabric - 26.1-3.0.0.jar";
+            "hash" = "sha512-+Fl9yVSOSKSahh83xAyc7FO11F+PtYh9JRif4EO8FvCl9vIg76z7zANntJxFlwuRKEJlJk9VKsnuwdocQHYmKg==";
+        };
+        _21rUKQ5B = {
+            "id" = "21rUKQ5B";
+            "file" = "Quick Skin - NeoForge - 26.1-3.0.0.jar";
+            "hash" = "sha512-4CWQuQrKHtp0BCKGURr9tfCMsvGHep31YH6bvY8TuSptuN2fLgfJzG9A137HB8p7rZFR3YrW6MRg6nXzM5oUWQ==";
+        };
+        _nrb1VAVU = {
+            "id" = "nrb1VAVU";
+            "file" = "Quick Skin - Fabric - 26.1.1-3.0.0.jar";
+            "hash" = "sha512-dVOvvK+CdvAlNJfDIfzMYSBFEA+ZfE6BhkBZFgE2DlsUyT+i2oHrglnVCoywKis07XMhzUkbXnjK76M/HaGHAw==";
+        };
+        _gFrTyFyz = {
+            "id" = "gFrTyFyz";
+            "file" = "Quick Skin - NeoForge - 26.1.1-3.0.0.jar";
+            "hash" = "sha512-Oeo++kas+7yIF9dk6O7kjT8HOvjB160yx4lGu2IIrYTpxSZ7P7VQ7LL1iigo4vA/33nknR7dJFJgrarjEcZI6Q==";
+        };
+        _hgRXw49B = {
+            "id" = "hgRXw49B";
+            "file" = "Quick Skin - Fabric - 26.1.2-3.0.0.jar";
+            "hash" = "sha512-1XdWYZeK4vQ4VJMVH4Bo8edZHF8YpFwsaSzXa//5T7Wvfmiow+VgleDYyEqGTnUP4nQKX6ZHI4mLL9aPEksXhw==";
+        };
+        _XSuEPbQk = {
+            "id" = "XSuEPbQk";
+            "file" = "Quick Skin - NeoForge - 26.1.2-3.0.0.jar";
+            "hash" = "sha512-zXqA4Yi13Ebzi0HmsogzQpQLM1IkAhQuEslP10PSY10z2yrPUFoXbq/ukEruf3350hphGPlQ5fRVpj0ZmKBUFQ==";
+        };
+        _qWptujKb = {
+            "id" = "qWptujKb";
+            "file" = "Quick Skin - Fabric - 26.2-3.0.0.jar";
+            "hash" = "sha512-tFd1L8BSMhEqrt8GeAFJRinHtUBCFw+R+KuuuKZLL6vCWIfCeI6Fc2qJF6vEIvvJqCw5RZOHKokpxhQEg2lfYg==";
+        };
+        _C1AwXUbB = {
+            "id" = "C1AwXUbB";
+            "file" = "Quick Skin - NeoForge - 26.2-3.0.0.jar";
+            "hash" = "sha512-sQustWpmoq9g5OuN97nN6XYpE4mEYjOWSL2Pl5hH6hLtOyDy4kNXS5fmM+WBq4780p8W7EadxRiVyuc1erM6Pw==";
+        };
     in {
         "ltawFpYV" = _ltawFpYV;
         "Xi78qa4W" = _Xi78qa4W;
@@ -584,6 +624,14 @@ let
         "WmmIJsMu" = _WmmIJsMu;
         "jfkMQkky" = _jfkMQkky;
         "xbjwWL26" = _xbjwWL26;
+        "h1YoFUiJ" = _h1YoFUiJ;
+        "21rUKQ5B" = _21rUKQ5B;
+        "nrb1VAVU" = _nrb1VAVU;
+        "gFrTyFyz" = _gFrTyFyz;
+        "hgRXw49B" = _hgRXw49B;
+        "XSuEPbQk" = _XSuEPbQk;
+        "qWptujKb" = _qWptujKb;
+        "C1AwXUbB" = _C1AwXUbB;
         "forge-1.20.1" = _87G3F0Xr;
         "fabric-1.20.1" = _17Y02Cq3;
         "fabric-1.21.1" = _hrGADIa6;
@@ -595,6 +643,10 @@ let
         "fabric-1.21.9" = _Z5TXKMl4;
         "fabric-1.21.10" = _E9btmkyb;
         "fabric-1.21.11" = _jfkMQkky;
+        "fabric-26.1" = _h1YoFUiJ;
+        "fabric-26.1.1" = _nrb1VAVU;
+        "fabric-26.1.2" = _hgRXw49B;
+        "fabric-26.2" = _qWptujKb;
         "neoforge-1.21.1" = _INuI60Al;
         "neoforge-1.21.4" = _a6t9r1mV;
         "neoforge-1.21.5" = _GUzKRdwR;
@@ -604,6 +656,10 @@ let
         "neoforge-1.21.9" = _WOsWzhVU;
         "neoforge-1.21.10" = _WmmIJsMu;
         "neoforge-1.21.11" = _xbjwWL26;
+        "neoforge-26.1" = _21rUKQ5B;
+        "neoforge-26.1.1" = _gFrTyFyz;
+        "neoforge-26.1.2" = _XSuEPbQk;
+        "neoforge-26.2" = _C1AwXUbB;
         "pkg-1.1.0" = _ltawFpYV;
         "pkg-1.2.0" = _Xi78qa4W;
         "pkg-2.0.0" = _27pTA6DN;
@@ -631,7 +687,15 @@ let
         "pkg-2.6.2.3" = _dmqm9gP6;
         "pkg-2.6.2.4" = _QdIWcMVo;
         "pkg-2.6.2.5" = _xbjwWL26;
-        "default" = _xbjwWL26;
+        "pkg-mc26.1-v3.0.0-fabric-26.1" = _h1YoFUiJ;
+        "pkg-mc26.1-v3.0.0-neoforge-26.1" = _21rUKQ5B;
+        "pkg-mc26.1.1-v3.0.0-fabric-26.1.1" = _nrb1VAVU;
+        "pkg-mc26.1.1-v3.0.0-neoforge-26.1.1" = _gFrTyFyz;
+        "pkg-mc26.1.2-v3.0.0-fabric-26.1.2" = _hgRXw49B;
+        "pkg-mc26.1.2-v3.0.0-neoforge-26.1.2" = _XSuEPbQk;
+        "pkg-mc26.2-v3.0.0-fabric-26.2" = _qWptujKb;
+        "pkg-mc26.2-v3.0.0-neoforge-26.2" = _C1AwXUbB;
+        "default" = _C1AwXUbB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "quick-skin";

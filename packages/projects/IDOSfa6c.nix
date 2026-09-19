@@ -121,6 +121,11 @@ let
             "file" = "command-block-ide-0.4.13.jar";
             "hash" = "sha512-8UAipL3VkfAKsmt7V2QqhXGCKekwebc9d4h8M1tj9a3PxGjRQFjBSUOi4GIiVRu0/sb6M7VToRJ4wU/2vzPkcQ==";
         };
+        _var4ui3M = {
+            "id" = "var4ui3M";
+            "file" = "command-block-ide-0.4.14.jar";
+            "hash" = "sha512-7d+BFKIoes3oJxzMNbpdA44uOQuE5ck8W7Z3Vo6p+joVLohlbRXKNh5iR1eemncaEWcmOqgPVeSM3gHz3LVPtQ==";
+        };
     in {
         "35pHqcF5" = _35pHqcF5;
         "AHOHD6jw" = _AHOHD6jw;
@@ -146,6 +151,7 @@ let
         "Ujeum8kJ" = _Ujeum8kJ;
         "dIovoYzb" = _dIovoYzb;
         "Xdv86uPh" = _Xdv86uPh;
+        "var4ui3M" = _var4ui3M;
         "fabric-1.17" = _rg9vVU4H;
         "fabric-1.17.1" = _rg9vVU4H;
         "fabric-1.16.5" = _uWLUj49M;
@@ -165,6 +171,7 @@ let
         "fabric-1.21.4" = _Ujeum8kJ;
         "fabric-1.21.10" = _dIovoYzb;
         "fabric-1.21.11" = _Xdv86uPh;
+        "fabric-26.1.2" = _var4ui3M;
         "pkg-0.2.2" = _35pHqcF5;
         "pkg-0.1.0" = _AHOHD6jw;
         "pkg-0.1.1" = _uWLUj49M;
@@ -189,7 +196,8 @@ let
         "pkg-0.4.11" = _Ujeum8kJ;
         "pkg-0.4.12" = _dIovoYzb;
         "pkg-0.4.13" = _Xdv86uPh;
-        "default" = _Xdv86uPh;
+        "pkg-0.4.14" = _var4ui3M;
+        "default" = _var4ui3M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "command-block-ide";

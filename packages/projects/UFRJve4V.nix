@@ -96,6 +96,11 @@ let
             "file" = "ClearWaterLava-Fabric-26.2.jar";
             "hash" = "sha512-VV3ysINb8y+YSenk7GiTb3WSkWCLlgOZVnhTtTBKK+qbzrIl3npmijx9aejPu3HB0PrtJExSewFKrqkBgP7c9Q==";
         };
+        _SyWPkDxP = {
+            "id" = "SyWPkDxP";
+            "file" = "ClearWaterLava-Fabric-26.3.jar";
+            "hash" = "sha512-I+VR6gBIZEG+pON50MpUoYTqyyzeVnaO0j1806R1+MPZIUMO7+1SxspmfLZ5N0uh7LKBzvLUhcXaojsGT+nrug==";
+        };
     in {
         "ubouGeRA" = _ubouGeRA;
         "xgBkzUXP" = _xgBkzUXP;
@@ -116,6 +121,7 @@ let
         "mm5glulZ" = _mm5glulZ;
         "D4XbtWOJ" = _D4XbtWOJ;
         "CfrLhK7U" = _CfrLhK7U;
+        "SyWPkDxP" = _SyWPkDxP;
         "fabric-1.21.2" = _ubouGeRA;
         "fabric-1.21.3" = _ubouGeRA;
         "fabric-1.21.4" = _ubouGeRA;
@@ -144,6 +150,7 @@ let
         "fabric-26.1.1" = _mm5glulZ;
         "fabric-26.1.2" = _D4XbtWOJ;
         "fabric-26.2" = _CfrLhK7U;
+        "fabric-26.3" = _SyWPkDxP;
         "forge-1.21.8" = _tiRI9lvq;
         "forge-1.21.7" = _jvk0UNAO;
         "forge-1.21.6" = _wz0plArl;
@@ -169,7 +176,8 @@ let
         "pkg-26.1.1_Fabric" = _mm5glulZ;
         "pkg-26.1.2_Fabric" = _D4XbtWOJ;
         "pkg-26.2_Fabric" = _CfrLhK7U;
-        "default" = _CfrLhK7U;
+        "pkg-26.3_Fabric" = _SyWPkDxP;
+        "default" = _SyWPkDxP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "clear-waterlavapowdersnow";

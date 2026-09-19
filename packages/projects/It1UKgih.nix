@@ -51,6 +51,11 @@ let
             "file" = "Illogically Looping Lanterns.zip";
             "hash" = "sha512-Jf9rMCL2CQnti/JmTcGzDybAZ9UJqeiAezMYsbJZ/QI7uY62MVACZA/fWhBT0RqD+2kLSnyN4cO7cW8yWF1MhA==";
         };
+        _dOJvRspp = {
+            "id" = "dOJvRspp";
+            "file" = "Illogically Looping Lanterns.zip";
+            "hash" = "sha512-nxenCQ3eL2XLYh0RDE+WEDHM284dYO8CQUD8pru1cBZtVpANUnEp3p1Uv8bg11B+AnvHP1bgq3xUSYhmv2OZaA==";
+        };
     in {
         "ejso8zsp" = _ejso8zsp;
         "qwjDFcVb" = _qwjDFcVb;
@@ -62,6 +67,7 @@ let
         "i2hEeh9Y" = _i2hEeh9Y;
         "o7d8rVmR" = _o7d8rVmR;
         "fWhT0Uqr" = _fWhT0Uqr;
+        "dOJvRspp" = _dOJvRspp;
         "minecraft-1.20" = _Hd5DE3Lo;
         "minecraft-1.20.1" = _Hd5DE3Lo;
         "minecraft-1.20.2" = _Hd5DE3Lo;
@@ -75,16 +81,17 @@ let
         "minecraft-1.21.3" = _Hd5DE3Lo;
         "minecraft-1.21.4" = _Hd5DE3Lo;
         "minecraft-1.21.5" = _Hd5DE3Lo;
-        "minecraft-1.21.6" = _fWhT0Uqr;
-        "minecraft-1.21.7" = _fWhT0Uqr;
-        "minecraft-1.21.8" = _fWhT0Uqr;
-        "minecraft-1.21.9" = _fWhT0Uqr;
-        "minecraft-1.21.10" = _fWhT0Uqr;
-        "minecraft-1.21.11" = _fWhT0Uqr;
-        "minecraft-26.1" = _fWhT0Uqr;
-        "minecraft-26.1.1" = _fWhT0Uqr;
-        "minecraft-26.1.2" = _fWhT0Uqr;
-        "minecraft-26.2" = _fWhT0Uqr;
+        "minecraft-1.21.6" = _dOJvRspp;
+        "minecraft-1.21.7" = _dOJvRspp;
+        "minecraft-1.21.8" = _dOJvRspp;
+        "minecraft-1.21.9" = _dOJvRspp;
+        "minecraft-1.21.10" = _dOJvRspp;
+        "minecraft-1.21.11" = _dOJvRspp;
+        "minecraft-26.1" = _dOJvRspp;
+        "minecraft-26.1.1" = _dOJvRspp;
+        "minecraft-26.1.2" = _dOJvRspp;
+        "minecraft-26.2" = _dOJvRspp;
+        "minecraft-26.3" = _dOJvRspp;
         "pkg-1.0" = _ejso8zsp;
         "pkg-1.1" = _qwjDFcVb;
         "pkg-1.2" = _T546vVd5;
@@ -95,7 +102,8 @@ let
         "pkg-1.7" = _i2hEeh9Y;
         "pkg-1.8" = _o7d8rVmR;
         "pkg-1.9" = _fWhT0Uqr;
-        "default" = _fWhT0Uqr;
+        "pkg-2.0" = _dOJvRspp;
+        "default" = _dOJvRspp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "illogically-looping-lanterns";

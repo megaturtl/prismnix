@@ -41,6 +41,11 @@ let
             "file" = "peek-1.0.2.jar";
             "hash" = "sha512-pIor+QE3oqVwmwoQF9B4qlnftf9FwA0Mb2oiLWOl5h5NbEFqI1krm/+PWl+P7mIcllXJuR6nLxSoAdOjDSLI4Q==";
         };
+        _edSz7St2 = {
+            "id" = "edSz7St2";
+            "file" = "peek-1.0.2.jar";
+            "hash" = "sha512-zxlIyStiknyc8VYJ2Wlhg62uDK8DkRWliWemAqr8reuVUhTNdrk3E11hpltNm1muB+g0mzzQ465heiLPAqIR4w==";
+        };
     in {
         "c9WlZmHR" = _c9WlZmHR;
         "7iHMOaVc" = _7iHMOaVc;
@@ -50,6 +55,7 @@ let
         "vWlZQTXP" = _vWlZQTXP;
         "atLTQjeC" = _atLTQjeC;
         "ikypLswR" = _ikypLswR;
+        "edSz7St2" = _edSz7St2;
         "fabric-1.21.7" = _7iHMOaVc;
         "fabric-1.21.8" = _7iHMOaVc;
         "fabric-1.21.9" = _CsemAoRR;
@@ -59,13 +65,14 @@ let
         "fabric-26.1.1" = _atLTQjeC;
         "fabric-26.1.2" = _atLTQjeC;
         "fabric-26.2" = _ikypLswR;
+        "fabric-26.3" = _edSz7St2;
         "neoforge-1.21.9" = _QweybFCx;
         "neoforge-1.21.10" = _QweybFCx;
         "neoforge-1.21.11" = _vWlZQTXP;
         "pkg-1.0.0" = _c9WlZmHR;
         "pkg-1.0.1" = _QweybFCx;
-        "pkg-1.0.2" = _ikypLswR;
-        "default" = _ikypLswR;
+        "pkg-1.0.2" = _edSz7St2;
+        "default" = _edSz7St2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shulker-echest-tooltip";

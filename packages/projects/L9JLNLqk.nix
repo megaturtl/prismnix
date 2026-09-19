@@ -231,6 +231,16 @@ let
             "file" = "ToolSwap-26.2.0.jar";
             "hash" = "sha512-NltNrHoyBFJ3cii+mu6ub3KKEOA9o0r85iVeHH0vuv3UPwY5qqyWcpCc+Pc3UOy7AKuqRzfFl4aJloia4IPqOw==";
         };
+        _NzUNg4Ln = {
+            "id" = "NzUNg4Ln";
+            "file" = "ToolSwap-26.2.1.jar";
+            "hash" = "sha512-1m+L3DLfYiQsEyRBCapshy0YTXFqnOgEtybd/HFyePbGPSHZae800J+oZ3mLfko02QkuxCTOX91twSyfQF7Yzw==";
+        };
+        _fL0XeGow = {
+            "id" = "fL0XeGow";
+            "file" = "ToolSwap-26.3.0.jar";
+            "hash" = "sha512-GU5sYeL3vQYg57uoezZvF6j8vfmtrYrLIQS+pJrKExdeGYG6W/ljADeyA3xSv0xwyy0OBz+EHZTQVabBCGjCtA==";
+        };
     in {
         "FjwLWXeu" = _FjwLWXeu;
         "t860Y6W4" = _t860Y6W4;
@@ -278,6 +288,8 @@ let
         "m4E2gs49" = _m4E2gs49;
         "FZ1VJU4e" = _FZ1VJU4e;
         "Bv7uxvPo" = _Bv7uxvPo;
+        "NzUNg4Ln" = _NzUNg4Ln;
+        "fL0XeGow" = _fL0XeGow;
         "forge-1.17.1" = _pTaR01tc;
         "forge-1.18" = _o793YqPm;
         "forge-1.18.1" = _Vb86ivfv;
@@ -318,7 +330,8 @@ let
         "neoforge-26.1" = _FZ1VJU4e;
         "neoforge-26.1.1" = _FZ1VJU4e;
         "neoforge-26.1.2" = _FZ1VJU4e;
-        "neoforge-26.2" = _Bv7uxvPo;
+        "neoforge-26.2" = _NzUNg4Ln;
+        "neoforge-26.3" = _fL0XeGow;
         "pkg-2.0.0" = _FjwLWXeu;
         "pkg-1.17.1-2.1.0" = _t860Y6W4;
         "pkg-1.17.1-2.2.0" = _ao2JCjGn;
@@ -365,7 +378,9 @@ let
         "pkg-26.1.0" = _m4E2gs49;
         "pkg-26.1.1" = _FZ1VJU4e;
         "pkg-26.2.0" = _Bv7uxvPo;
-        "default" = _Bv7uxvPo;
+        "pkg-26.2.1" = _NzUNg4Ln;
+        "pkg-26.3.0" = _fL0XeGow;
+        "default" = _fL0XeGow;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "automatic-tool-swap";

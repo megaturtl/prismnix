@@ -111,6 +111,16 @@ let
             "file" = "healthindicator-neoforge-1.9.0+mc26.2.jar";
             "hash" = "sha512-52YWN+tEPj2e/Qban7YkRDHdYmGaPWgKTDIc0Xtxw5uxx7EMVvyTOeg2aerrVaAI6CYqHikP2aQqV4BHhx3EPg==";
         };
+        _rbZNWdjx = {
+            "id" = "rbZNWdjx";
+            "file" = "healthindicator-fabric-1.10.0+mc26.3.jar";
+            "hash" = "sha512-H9btZJiASexcnze/3bE8yC4rQE5JK+J2avgOTlsJNzbGFHdowqo3H9/h7XDfORk4rdJB34hYw4+k7uSmcwWBww==";
+        };
+        _Fpkyr5kp = {
+            "id" = "Fpkyr5kp";
+            "file" = "healthindicator-neoforge-1.10.0+mc26.3.jar";
+            "hash" = "sha512-Q/k6FDkf4RRFImlzfiJFOWWPQCt+BIdsfqKVpOPJqXUkflDz7Wnho+u1kB5qyl+ef2Wl7PUUqmcvE29boBj5tQ==";
+        };
     in {
         "1prAp00W" = _1prAp00W;
         "goSCNmHi" = _goSCNmHi;
@@ -134,6 +144,8 @@ let
         "B0MwDgqS" = _B0MwDgqS;
         "KpvqTtU8" = _KpvqTtU8;
         "ZR6GT2Wx" = _ZR6GT2Wx;
+        "rbZNWdjx" = _rbZNWdjx;
+        "Fpkyr5kp" = _Fpkyr5kp;
         "fabric-1.18" = _2Y9fXrCg;
         "fabric-1.18.1" = _2Y9fXrCg;
         "fabric-1.18.2" = _2Y9fXrCg;
@@ -165,6 +177,7 @@ let
         "fabric-26.1.1" = _B0MwDgqS;
         "fabric-26.1.2" = _B0MwDgqS;
         "fabric-26.2" = _KpvqTtU8;
+        "fabric-26.3" = _rbZNWdjx;
         "quilt-1.18" = _2Y9fXrCg;
         "quilt-1.18.1" = _2Y9fXrCg;
         "quilt-1.18.2" = _2Y9fXrCg;
@@ -196,10 +209,12 @@ let
         "quilt-26.1.1" = _B0MwDgqS;
         "quilt-26.1.2" = _B0MwDgqS;
         "quilt-26.2" = _KpvqTtU8;
+        "quilt-26.3" = _rbZNWdjx;
         "neoforge-26.1" = _fbvBRJA8;
         "neoforge-26.1.1" = _fbvBRJA8;
         "neoforge-26.1.2" = _fbvBRJA8;
         "neoforge-26.2" = _ZR6GT2Wx;
+        "neoforge-26.3" = _Fpkyr5kp;
         "pkg-1.0.0+1.18" = _1prAp00W;
         "pkg-1.0.0+1.19" = _goSCNmHi;
         "pkg-1.0.1+mc1.19.2" = _npwrX0o8;
@@ -222,7 +237,9 @@ let
         "pkg-1.8.1+mc26.1-fabric" = _B0MwDgqS;
         "pkg-1.9.0+mc26.2-fabric" = _KpvqTtU8;
         "pkg-1.9.0+mc26.2-neoforge" = _ZR6GT2Wx;
-        "default" = _ZR6GT2Wx;
+        "pkg-1.10.0+mc26.3-fabric" = _rbZNWdjx;
+        "pkg-1.10.0+mc26.3-neoforge" = _Fpkyr5kp;
+        "default" = _Fpkyr5kp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "healthindicator";

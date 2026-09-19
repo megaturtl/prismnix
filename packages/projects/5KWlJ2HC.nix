@@ -221,6 +221,26 @@ let
             "file" = "MoreCobblemonTweaks-fabric-1.3.3.jar";
             "hash" = "sha512-6uRU/RKFQSvMmag8TK6mBuMz7t6x9/oim98Shov0vGLqgQ1CUGcnMRB8sfbRs7geirUdlZTom0SCnpVW3/3u2w==";
         };
+        _iqJUNNhE = {
+            "id" = "iqJUNNhE";
+            "file" = "MoreCobblemonTweaks-neoforge-1.3.4.jar";
+            "hash" = "sha512-MANiKs7vlEelaseT0h9Z7V/HHgfIjMiZbfXeznLLsnnLRccqLBz0FRVznw+D246dUKXwaosAj3I6pHBmFLR+mQ==";
+        };
+        _tzXJpwG8 = {
+            "id" = "tzXJpwG8";
+            "file" = "MoreCobblemonTweaks-fabric-1.3.4.jar";
+            "hash" = "sha512-saaBLd3OA8yopRT484An78UFoWwCy5vMa3Hu9cikLNcX4jZcFB+BLarBAc1OMgq6P5uDMuu6B5n3eOmCPWg7/A==";
+        };
+        _sNu0sTvk = {
+            "id" = "sNu0sTvk";
+            "file" = "MoreCobblemonTweaks-neoforge-1.3.5.jar";
+            "hash" = "sha512-UF6/KlyynVps48Hrv7jkU7IbrR32Z7w1LUuCjo6zs5tq7in7v9zzsfKDSGXMkSZxkqh7V6/IcWclN+QUkxmDgQ==";
+        };
+        _j4HsonDT = {
+            "id" = "j4HsonDT";
+            "file" = "MoreCobblemonTweaks-fabric-1.3.5.jar";
+            "hash" = "sha512-Lf45RvKV00aBQMMrva8yk6M8i4SQHNe4bWbNc4dbIoJ2W9HR54isnI0p46t9z5b0y9LF91KDiWKJ5S3tUckl8A==";
+        };
     in {
         "yFHIkD3A" = _yFHIkD3A;
         "RgtGnShe" = _RgtGnShe;
@@ -266,9 +286,13 @@ let
         "4SCraPnQ" = _4SCraPnQ;
         "LDMOCVN8" = _LDMOCVN8;
         "1KKV0SvS" = _1KKV0SvS;
+        "iqJUNNhE" = _iqJUNNhE;
+        "tzXJpwG8" = _tzXJpwG8;
+        "sNu0sTvk" = _sNu0sTvk;
+        "j4HsonDT" = _j4HsonDT;
         "fabric-1.20.1" = _UYr6G7VK;
-        "fabric-1.21.1" = _1KKV0SvS;
-        "neoforge-1.21.1" = _LDMOCVN8;
+        "fabric-1.21.1" = _j4HsonDT;
+        "neoforge-1.21.1" = _sNu0sTvk;
         "pkg-v0.1.0" = _yFHIkD3A;
         "pkg-v0.1.1" = _RgtGnShe;
         "pkg-v0.1.2" = _pN8PE3HQ;
@@ -313,7 +337,11 @@ let
         "pkg-1.3.2-fabric" = _4SCraPnQ;
         "pkg-1.3.3-neoforge" = _LDMOCVN8;
         "pkg-1.3.3-fabric" = _1KKV0SvS;
-        "default" = _1KKV0SvS;
+        "pkg-1.3.4-neoforge" = _iqJUNNhE;
+        "pkg-1.3.4-fabric" = _tzXJpwG8;
+        "pkg-1.3.5-neoforge" = _sNu0sTvk;
+        "pkg-1.3.5-fabric" = _j4HsonDT;
+        "default" = _j4HsonDT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-cobblemon-tweaks";

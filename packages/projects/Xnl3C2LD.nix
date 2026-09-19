@@ -26,19 +26,26 @@ let
             "file" = "shiny-boosters-1.6.7+1.21.1.jar";
             "hash" = "sha512-2q5loNtC2NVvUhDy5zqF7FrW3iPtoFeB8LaAwPSZuZ21YlS3fr9MyaU4sB4gGvvx5g67AwKY+sQI5NfzinIwvg==";
         };
+        _MZBWk9fW = {
+            "id" = "MZBWk9fW";
+            "file" = "shiny-boosters-1.6.8+1.21.1.jar";
+            "hash" = "sha512-mvcXZIRSOSvhQkQCtUfxkX9wdJZIrlfe60C+mv3qc5blhiELEPx7SdomxXno0LCNZYa3Lmlcc9oruZMDMOocmw==";
+        };
     in {
         "iWllpFTv" = _iWllpFTv;
         "oKHgs3Kt" = _oKHgs3Kt;
         "ztZAH7XT" = _ztZAH7XT;
         "YyxyBl1s" = _YyxyBl1s;
         "jHalVP6x" = _jHalVP6x;
-        "fabric-1.21.1" = _jHalVP6x;
+        "MZBWk9fW" = _MZBWk9fW;
+        "fabric-1.21.1" = _MZBWk9fW;
         "pkg-1.6.4+1.21.1" = _iWllpFTv;
         "pkg-1.6.5+1.21.1" = _oKHgs3Kt;
         "pkg-1.6.5b+1.21.1" = _ztZAH7XT;
         "pkg-1.6.6+1.21.1" = _YyxyBl1s;
         "pkg-1.6.7+1.21.1" = _jHalVP6x;
-        "default" = _jHalVP6x;
+        "pkg-1.6.8+1.21.1" = _MZBWk9fW;
+        "default" = _MZBWk9fW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-shiny-boost-mod";

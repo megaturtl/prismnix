@@ -116,6 +116,16 @@ let
             "file" = "banner-bedsheets-1.10.jar";
             "hash" = "sha512-pir+vLMYzPI8MKVKhmA04l0fLVUZFdrxKxaRDWgCNpJ9FPGq4ZKigXWy9ZWgcHqpV2WdoNAb/FKiSKj/idjhDA==";
         };
+        _ZEyFVncX = {
+            "id" = "ZEyFVncX";
+            "file" = "banner-bedsheets-v1-10-26.3.zip";
+            "hash" = "sha512-AM0bpwfX9f0TYlHMmthrjewCcRAda53Y7UWUIvgUo/yAe1HWjrQ1KsAp0dVfmMD3Z09D2e7uOeblfAwICQGSpg==";
+        };
+        _AWtp4cww = {
+            "id" = "AWtp4cww";
+            "file" = "banner-bedsheets-1.10_26.3.jar";
+            "hash" = "sha512-Ues0CYdHHwIUATotJakYMUg7gywiUux+NC+iyZVuRLUy7kFMb7DuaWXoABMWNWbu8WCecozTkwJZXZSsS2QF0w==";
+        };
     in {
         "6BKTw0Gf" = _6BKTw0Gf;
         "vpdiOAkE" = _vpdiOAkE;
@@ -140,6 +150,8 @@ let
         "I7KdzJV1" = _I7KdzJV1;
         "g0iN6wGK" = _g0iN6wGK;
         "uk6MvARX" = _uk6MvARX;
+        "ZEyFVncX" = _ZEyFVncX;
+        "AWtp4cww" = _AWtp4cww;
         "datapack-1.20" = _53zOHay3;
         "datapack-1.20.1" = _53zOHay3;
         "datapack-1.20.2" = _53zOHay3;
@@ -161,6 +173,7 @@ let
         "datapack-1.21.11" = _aQPgZ1Dc;
         "datapack-26.1" = _aQPgZ1Dc;
         "datapack-26.2" = _g0iN6wGK;
+        "datapack-26.3" = _ZEyFVncX;
         "fabric-1.20" = _Zrs80i81;
         "fabric-1.20.1" = _Zrs80i81;
         "fabric-1.20.2" = _Zrs80i81;
@@ -182,6 +195,7 @@ let
         "fabric-1.21.11" = _I7KdzJV1;
         "fabric-26.1" = _I7KdzJV1;
         "fabric-26.2" = _uk6MvARX;
+        "fabric-26.3" = _AWtp4cww;
         "forge-1.20" = _Zrs80i81;
         "forge-1.20.1" = _Zrs80i81;
         "forge-1.20.2" = _Zrs80i81;
@@ -203,6 +217,7 @@ let
         "forge-1.21.11" = _I7KdzJV1;
         "forge-26.1" = _I7KdzJV1;
         "forge-26.2" = _uk6MvARX;
+        "forge-26.3" = _AWtp4cww;
         "quilt-1.20" = _Zrs80i81;
         "quilt-1.20.1" = _Zrs80i81;
         "quilt-1.20.2" = _Zrs80i81;
@@ -224,6 +239,7 @@ let
         "quilt-1.21.11" = _I7KdzJV1;
         "quilt-26.1" = _I7KdzJV1;
         "quilt-26.2" = _uk6MvARX;
+        "quilt-26.3" = _AWtp4cww;
         "neoforge-1.21.1" = _1PYJyM4G;
         "neoforge-1.21.2" = _jvUWsbfI;
         "neoforge-1.21.3" = _jvUWsbfI;
@@ -237,6 +253,7 @@ let
         "neoforge-1.21.11" = _I7KdzJV1;
         "neoforge-26.1" = _I7KdzJV1;
         "neoforge-26.2" = _uk6MvARX;
+        "neoforge-26.3" = _AWtp4cww;
         "pkg-1" = _6BKTw0Gf;
         "pkg-1.1" = _vpdiOAkE;
         "pkg-1.1+mod" = _tlS3jU4B;
@@ -260,7 +277,9 @@ let
         "pkg-1.9.1+mod" = _I7KdzJV1;
         "pkg-1.10" = _g0iN6wGK;
         "pkg-1.10+mod" = _uk6MvARX;
-        "default" = _uk6MvARX;
+        "pkg-1.10_26.3" = _ZEyFVncX;
+        "pkg-1.10_26.3+mod" = _AWtp4cww;
+        "default" = _AWtp4cww;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "banner-bedsheets";

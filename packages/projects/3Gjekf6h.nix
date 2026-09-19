@@ -856,6 +856,31 @@ let
             "file" = "LifeSteal_quilt_mod.jar";
             "hash" = "sha512-QYCSIxhxqlwpglEPE3ONNfGlKyj4/xy4QAG/CpT0W2BnHjtLnuY9h4uq4+gyH0nOVpYWE64nVHm8LgqUmNcP5A==";
         };
+        _HrDHcbUa = {
+            "id" = "HrDHcbUa";
+            "file" = "LifeSteal_datapack.zip";
+            "hash" = "sha512-CXFhEZuMKvcOTuHRNwiR4RoWRJszj57KNcRVke7uYmZn8s+63/MNG9Dhku8jm2OlTXjUHqOX77lSSYKz2Cp3Ew==";
+        };
+        _d72dbRUo = {
+            "id" = "d72dbRUo";
+            "file" = "LifeSteal_fabric_mod.jar";
+            "hash" = "sha512-oEC/gb9W5ynWfe2b0IKGqnu/ELWxBhI0Zu8YFXobzUqx61jo354ltrLZ1nBxaPesJ2lDJzN1N20zrdOTT+Y1HQ==";
+        };
+        _vfReCdfJ = {
+            "id" = "vfReCdfJ";
+            "file" = "LifeSteal_forge_mod.jar";
+            "hash" = "sha512-SVtP6buDMh4F9T0QDnSz6Gp0yg7ntAdp7MHC+cx4LA+XxNdvWnGrJIEJsi5atssk3b9UrVz4xblg8VLSNnmnAw==";
+        };
+        _aEuTpzFm = {
+            "id" = "aEuTpzFm";
+            "file" = "LifeSteal_neoforge_mod.jar";
+            "hash" = "sha512-t3UlnibCJ3nS/2VeBzAPaIEMrK/NU4NilLNpMYLBTgrJStK7G804A2SRq8b+Lav6TYOPqrEUNzvgCgCeghBDrA==";
+        };
+        _sg5OSRiD = {
+            "id" = "sg5OSRiD";
+            "file" = "LifeSteal_quilt_mod.jar";
+            "hash" = "sha512-kY57bLDrIPvb9z99Mu2hAaiVdcs+h/hboQWOcl+4Spz4Iz3Os3J9mD3IOCk1xtzVqpxVbzn9oFWt+l48hOkmQA==";
+        };
     in {
         "ZuM0TMXn" = _ZuM0TMXn;
         "XT6b2Fa3" = _XT6b2Fa3;
@@ -1028,6 +1053,11 @@ let
         "pPGm5aKe" = _pPGm5aKe;
         "Pg5LZbG4" = _Pg5LZbG4;
         "XudpKRPD" = _XudpKRPD;
+        "HrDHcbUa" = _HrDHcbUa;
+        "d72dbRUo" = _d72dbRUo;
+        "vfReCdfJ" = _vfReCdfJ;
+        "aEuTpzFm" = _aEuTpzFm;
+        "sg5OSRiD" = _sg5OSRiD;
         "datapack-1.21" = _ZuM0TMXn;
         "datapack-1.21.1" = _ZuM0TMXn;
         "datapack-1.21.2" = _G1wAOMe4;
@@ -1073,6 +1103,7 @@ let
         "datapack-26.3-snapshot-6" = _n5P4b1Vk;
         "datapack-26.3-snapshot-7" = _n5P4b1Vk;
         "datapack-26.3-snapshot-8" = _n5P4b1Vk;
+        "datapack-26.3" = _HrDHcbUa;
         "fabric-1.21" = _XT6b2Fa3;
         "fabric-1.21.4" = _VuzznycG;
         "fabric-1.21.5" = _SOtfvf9Y;
@@ -1113,6 +1144,7 @@ let
         "fabric-26.3-snapshot-6" = _SOtfvf9Y;
         "fabric-26.3-snapshot-7" = _SOtfvf9Y;
         "fabric-26.3-snapshot-8" = _SOtfvf9Y;
+        "fabric-26.3" = _d72dbRUo;
         "forge-1.21" = _XT6b2Fa3;
         "forge-1.21.4" = _VuzznycG;
         "forge-1.21.5" = _pPGm5aKe;
@@ -1153,6 +1185,7 @@ let
         "forge-26.3-snapshot-6" = _pPGm5aKe;
         "forge-26.3-snapshot-7" = _pPGm5aKe;
         "forge-26.3-snapshot-8" = _pPGm5aKe;
+        "forge-26.3" = _vfReCdfJ;
         "quilt-1.21" = _XT6b2Fa3;
         "quilt-1.21.4" = _VuzznycG;
         "quilt-1.21.5" = _XudpKRPD;
@@ -1193,6 +1226,7 @@ let
         "quilt-26.3-snapshot-6" = _XudpKRPD;
         "quilt-26.3-snapshot-7" = _XudpKRPD;
         "quilt-26.3-snapshot-8" = _XudpKRPD;
+        "quilt-26.3" = _sg5OSRiD;
         "neoforge-1.21.4" = _VuzznycG;
         "neoforge-1.21.5" = _Pg5LZbG4;
         "neoforge-25w21a" = _IJxEXfLq;
@@ -1232,6 +1266,7 @@ let
         "neoforge-26.3-snapshot-6" = _Pg5LZbG4;
         "neoforge-26.3-snapshot-7" = _Pg5LZbG4;
         "neoforge-26.3-snapshot-8" = _Pg5LZbG4;
+        "neoforge-26.3" = _aEuTpzFm;
         "pkg-1.0.0" = _ZuM0TMXn;
         "pkg-1.0.0+mod" = _XT6b2Fa3;
         "pkg-1.1.0" = _G1wAOMe4;
@@ -1403,7 +1438,12 @@ let
         "pkg-2.5.0+forge" = _pPGm5aKe;
         "pkg-2.5.0+neoforge" = _Pg5LZbG4;
         "pkg-2.5.0+quilt" = _XudpKRPD;
-        "default" = _XudpKRPD;
+        "pkg-2.5.1" = _HrDHcbUa;
+        "pkg-2.5.1+fabric" = _d72dbRUo;
+        "pkg-2.5.1+forge" = _vfReCdfJ;
+        "pkg-2.5.1+neoforge" = _aEuTpzFm;
+        "pkg-2.5.1+quilt" = _sg5OSRiD;
+        "default" = _sg5OSRiD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lifestealfr";

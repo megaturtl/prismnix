@@ -31,6 +31,21 @@ let
             "file" = "playercorpse-2.0.2.jar";
             "hash" = "sha512-nijoxsxRn97WkASsywIzi9cn1zaUiv8RC3vAe2umgX6uKkH/CBswTcJ5hY+5b608B1Ch7rCEgPj5lCwsZ8ZsOQ==";
         };
+        _ocnjPczv = {
+            "id" = "ocnjPczv";
+            "file" = "playercorpse-2.0.3.jar";
+            "hash" = "sha512-ZeNANBGeJ++mr2O9mujRJLiNlusFvFRy/NWU5tlL73QYR3deHwVN0lamyhRH4DAFvWf/CWPGV1bRLtsghuKagw==";
+        };
+        _m2hCe8Rr = {
+            "id" = "m2hCe8Rr";
+            "file" = "playercorpse-2.0.3.jar";
+            "hash" = "sha512-pYlcspH0xFtVpCRkTifL99EyfAlT8czLaaHxTKqYNoJjM9RbQl/g1EsLjdGlk4Tx73NQhFjsJyFpccHOOi5Zfw==";
+        };
+        _DMfyZShi = {
+            "id" = "DMfyZShi";
+            "file" = "playercorpse-2.0.3.jar";
+            "hash" = "sha512-aIetgWSSTVzMDmhQtbL4tQM8pEjqwzUnxoNiZGJLtjM+fh7vMSKv6du7oaqwNCMU0ddQ3WAUFUIX2Ly4fWb8TQ==";
+        };
     in {
         "CtnaQ4ZF" = _CtnaQ4ZF;
         "M4ZgC5PP" = _M4ZgC5PP;
@@ -38,14 +53,18 @@ let
         "ZIyJSSGT" = _ZIyJSSGT;
         "TM3TD28s" = _TM3TD28s;
         "NkDJXR9P" = _NkDJXR9P;
-        "neoforge-1.21.1" = _NkDJXR9P;
-        "forge-1.19.2" = _ZIyJSSGT;
-        "forge-1.20.1" = _TM3TD28s;
+        "ocnjPczv" = _ocnjPczv;
+        "m2hCe8Rr" = _m2hCe8Rr;
+        "DMfyZShi" = _DMfyZShi;
+        "neoforge-1.21.1" = _DMfyZShi;
+        "forge-1.19.2" = _ocnjPczv;
+        "forge-1.20.1" = _m2hCe8Rr;
         "pkg-1.0.0" = _CtnaQ4ZF;
         "pkg-2.0.0" = _M4ZgC5PP;
         "pkg-2.0.1" = _3pY0ZU5y;
         "pkg-2.0.2" = _NkDJXR9P;
-        "default" = _NkDJXR9P;
+        "pkg-2.0.3" = _DMfyZShi;
+        "default" = _DMfyZShi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "corpse-refined";

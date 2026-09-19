@@ -306,6 +306,16 @@ let
             "file" = "itemtransformhelper-neoforge-26.2.jar";
             "hash" = "sha512-XpURjJgqMSsuAEYcJnBVLtc79XozbuTbAS2SIvSQnhe/YdeonYm57vcy15YhcIEC19yh4M4h0Y6anZtE7D4tMg==";
         };
+        _qVzZck5r = {
+            "id" = "qVzZck5r";
+            "file" = "itemtransformhelper-fabric-26.3.jar";
+            "hash" = "sha512-DEBqN2heBPajr16wyyOVRMrbufUZ0Uyfd4xwH5+ylqh/ggaNh8yXzabjY1e0xkwd+LOOHOAk5WX9dI8lSsWCpw==";
+        };
+        _UiYd7OX4 = {
+            "id" = "UiYd7OX4";
+            "file" = "itemtransformhelper-neoforge-26.3.jar";
+            "hash" = "sha512-NtgDFJFj0BV52gYLxBFe/vJnQamj1ScFigUQl3BOM+O368l20cXDeHTExldW6mL/zceeUAJCLKG6luxoq6Qm+w==";
+        };
     in {
         "uO9xF3jo" = _uO9xF3jo;
         "rTIIlkw7" = _rTIIlkw7;
@@ -368,6 +378,8 @@ let
         "chwBZS7X" = _chwBZS7X;
         "AqVaWAz3" = _AqVaWAz3;
         "YvhEe230" = _YvhEe230;
+        "qVzZck5r" = _qVzZck5r;
+        "UiYd7OX4" = _UiYd7OX4;
         "forge-1.8" = _hsbeRk7x;
         "forge-1.8.9" = _sRjO11Hw;
         "forge-1.10.2" = _ta0AS99B;
@@ -418,6 +430,7 @@ let
         "fabric-26.1.1" = _O1EfG2fC;
         "fabric-26.1.2" = _O1EfG2fC;
         "fabric-26.2" = _AqVaWAz3;
+        "fabric-26.3" = _qVzZck5r;
         "quilt-1.19" = _4Hz0M0jE;
         "quilt-1.19.2" = _XTrhQTx3;
         "quilt-1.19.4" = _E4X3guEo;
@@ -451,6 +464,7 @@ let
         "neoforge-26.1.1" = _chwBZS7X;
         "neoforge-26.1.2" = _chwBZS7X;
         "neoforge-26.2" = _YvhEe230;
+        "neoforge-26.3" = _UiYd7OX4;
         "pkg-1.0.0-MC1.8" = _uO9xF3jo;
         "pkg-1.3-MC1.8" = _rTIIlkw7;
         "pkg-1.5-MC1.8" = _hsbeRk7x;
@@ -512,7 +526,9 @@ let
         "pkg-26.1-NeoForge" = _chwBZS7X;
         "pkg-26.2-Fabric" = _AqVaWAz3;
         "pkg-26.2-NeoForge" = _YvhEe230;
-        "default" = _YvhEe230;
+        "pkg-26.3-Fabric" = _qVzZck5r;
+        "pkg-26.3-NeoForge" = _UiYd7OX4;
+        "default" = _UiYd7OX4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "item-transform-helper";

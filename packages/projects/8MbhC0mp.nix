@@ -166,6 +166,16 @@ let
             "file" = "ketkets-player-shops-4.6.jar";
             "hash" = "sha512-xEzGVNMZl4oat8tGEnYIA4fAMsa/FZdFOkDFdT7txGKuMWdF8Z516jJfMYYhM08vM+jVAePIGpiPDgp2i1cCsg==";
         };
+        _oBR8QLdW = {
+            "id" = "oBR8QLdW";
+            "file" = "playershops-v4.7.zip";
+            "hash" = "sha512-sNjVdq7Y8FhXQClsDO9U/Hv224sOUCVS5cVNH+ya2AtjTtIz/K3gnlHq9yVoacA2aSQ/44QBGmUo4jyjGGD8Ow==";
+        };
+        _9axIJBvQ = {
+            "id" = "9axIJBvQ";
+            "file" = "ketkets-player-shops-4.7.jar";
+            "hash" = "sha512-lTJVCC6qo4Wc36YuC4FXo7R1/5PQP3MYhs2n6ceVoQfwalLF6/KFwwONCY21nTKTuUOxD7nvHvKoBFZo7qvwbQ==";
+        };
     in {
         "w1LHMWrt" = _w1LHMWrt;
         "r90WTEjC" = _r90WTEjC;
@@ -200,6 +210,8 @@ let
         "FsG4sEzJ" = _FsG4sEzJ;
         "6EILA1ly" = _6EILA1ly;
         "4are1fKw" = _4are1fKw;
+        "oBR8QLdW" = _oBR8QLdW;
+        "9axIJBvQ" = _9axIJBvQ;
         "datapack-1.19.4" = _r90WTEjC;
         "datapack-1.20" = _r90WTEjC;
         "datapack-1.20.1" = _r90WTEjC;
@@ -221,6 +233,7 @@ let
         "datapack-26.1.1" = _6EILA1ly;
         "datapack-26.1.2" = _6EILA1ly;
         "datapack-26.2" = _6EILA1ly;
+        "datapack-26.3" = _oBR8QLdW;
         "fabric-1.20.3" = _TChv3yei;
         "fabric-1.20.4" = _TChv3yei;
         "fabric-1.21" = _bRazYGU6;
@@ -238,6 +251,7 @@ let
         "fabric-26.1.1" = _4are1fKw;
         "fabric-26.1.2" = _4are1fKw;
         "fabric-26.2" = _4are1fKw;
+        "fabric-26.3" = _9axIJBvQ;
         "forge-1.20.3" = _TChv3yei;
         "forge-1.20.4" = _TChv3yei;
         "forge-1.21" = _bRazYGU6;
@@ -255,6 +269,7 @@ let
         "forge-26.1.1" = _4are1fKw;
         "forge-26.1.2" = _4are1fKw;
         "forge-26.2" = _4are1fKw;
+        "forge-26.3" = _9axIJBvQ;
         "quilt-1.20.3" = _TChv3yei;
         "quilt-1.20.4" = _TChv3yei;
         "quilt-1.21" = _bRazYGU6;
@@ -272,6 +287,7 @@ let
         "quilt-26.1.1" = _4are1fKw;
         "quilt-26.1.2" = _4are1fKw;
         "quilt-26.2" = _4are1fKw;
+        "quilt-26.3" = _9axIJBvQ;
         "neoforge-1.21.3" = _oLl9VJPd;
         "neoforge-1.21.4" = _oLl9VJPd;
         "neoforge-1.21.2" = _oLl9VJPd;
@@ -286,6 +302,7 @@ let
         "neoforge-26.1.1" = _4are1fKw;
         "neoforge-26.1.2" = _4are1fKw;
         "neoforge-26.2" = _4are1fKw;
+        "neoforge-26.3" = _9axIJBvQ;
         "pkg-v0.2" = _w1LHMWrt;
         "pkg-0.5" = _r90WTEjC;
         "pkg-1" = _3ERC6kpI;
@@ -318,7 +335,9 @@ let
         "pkg-4.4+mod" = _FsG4sEzJ;
         "pkg-4.6" = _6EILA1ly;
         "pkg-4.6+mod" = _4are1fKw;
-        "default" = _4are1fKw;
+        "pkg-4.7" = _oBR8QLdW;
+        "pkg-4.7+mod" = _9axIJBvQ;
+        "default" = _9axIJBvQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ketkets-player-shops";

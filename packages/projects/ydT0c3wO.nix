@@ -121,6 +121,16 @@ let
             "file" = "better-wither-skull-rates-1.5(DP).jar";
             "hash" = "sha512-r8RGQsXBWFR7IGbgCykFBdhMGsmRa1cttwNL2ETOFdQK+HfaLi7ykg5eLyztjXZBUaJ6TSZo4U3UNo6BdAMYMA==";
         };
+        _llS5fe1z = {
+            "id" = "llS5fe1z";
+            "file" = "BetterWitherSkullRates-26.3.zip";
+            "hash" = "sha512-sJLTYwqFjZGIZ/GOF7zBwWOiAdLd5BudVwI2Jnersg2wArHLTAAS16FofJ/Or2K65v7Fd1p0vPlUFCKh6CGe0g==";
+        };
+        _49XrRje5 = {
+            "id" = "49XrRje5";
+            "file" = "better-wither-skull-rates-1.6.jar";
+            "hash" = "sha512-QExikyHLzQvi2nmXDt7hOszsyvF4w+PuvRws8NpMar0RMzbT9qfn7FCLop0LErj49et5RC53r0RcTQxxJix4Qg==";
+        };
     in {
         "xDwCDL0L" = _xDwCDL0L;
         "wK1J06EZ" = _wK1J06EZ;
@@ -146,6 +156,8 @@ let
         "iM2YmT6w" = _iM2YmT6w;
         "KJLQfj41" = _KJLQfj41;
         "jjFpEvNp" = _jjFpEvNp;
+        "llS5fe1z" = _llS5fe1z;
+        "49XrRje5" = _49XrRje5;
         "datapack-1.21" = _wK1J06EZ;
         "datapack-1.21.3" = _oEPOeHhf;
         "datapack-1.21.4" = _acsgUYV1;
@@ -159,6 +171,7 @@ let
         "datapack-1.21.11" = _Ctlh8Ulu;
         "datapack-26.1" = _iM2YmT6w;
         "datapack-26.2" = _KJLQfj41;
+        "datapack-26.3" = _llS5fe1z;
         "fabric-1.21.4" = _YN3cXwzt;
         "fabric-1.20.1" = _fpy0md8a;
         "fabric-1.21.5" = _IKonkgv1;
@@ -171,6 +184,7 @@ let
         "fabric-1.21.1" = _iICCLIrt;
         "fabric-26.1" = _czudpqtX;
         "fabric-26.2" = _jjFpEvNp;
+        "fabric-26.3" = _49XrRje5;
         "forge-1.21.4" = _YN3cXwzt;
         "forge-1.20.1" = _fpy0md8a;
         "forge-1.21.5" = _IKonkgv1;
@@ -183,12 +197,15 @@ let
         "forge-1.21.1" = _iICCLIrt;
         "forge-26.1" = _czudpqtX;
         "forge-26.2" = _jjFpEvNp;
+        "forge-26.3" = _49XrRje5;
         "neoforge-1.21.10" = _fElgzneH;
         "neoforge-1.21.11" = _F6Xe7Dnd;
         "neoforge-1.21.1" = _iICCLIrt;
         "neoforge-26.1" = _czudpqtX;
         "neoforge-26.2" = _jjFpEvNp;
+        "neoforge-26.3" = _49XrRje5;
         "quilt-26.2" = _jjFpEvNp;
+        "quilt-26.3" = _49XrRje5;
         "pkg-1.0" = _xDwCDL0L;
         "pkg-1.1" = _wK1J06EZ;
         "pkg-1.2" = _IKonkgv1;
@@ -198,7 +215,9 @@ let
         "pkg-1.4(DP)" = _iM2YmT6w;
         "pkg-1.5(DP)" = _KJLQfj41;
         "pkg-1.5+mod" = _jjFpEvNp;
-        "default" = _jjFpEvNp;
+        "pkg-1.6" = _llS5fe1z;
+        "pkg-1.6+mod" = _49XrRje5;
+        "default" = _49XrRje5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-wither-skull-rates";

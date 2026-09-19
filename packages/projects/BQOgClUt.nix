@@ -21,19 +21,27 @@ let
             "file" = "decentfreelook-1.3+26.2.jar";
             "hash" = "sha512-Z1Qo4oKZBTMFRBUZBEvtix2JCEWWxszmeKB3t6vfF0QTQtDJaHadDkEyCKtkuRSKK+jOdBTPdXcXzyCuL0Izqw==";
         };
+        _aarDEd0H = {
+            "id" = "aarDEd0H";
+            "file" = "decentfreelook-1.3+26.3.jar";
+            "hash" = "sha512-VPL58w02Gy7xL/fhcWSXax5R9uM5q1TLvQVw+00R1VDOu/x2rfAbUX1Xek0giY7hYR4OLdh9jKftbNzA4g1Q8w==";
+        };
     in {
         "LaNWEBa6" = _LaNWEBa6;
         "QNOyoj7G" = _QNOyoj7G;
         "d3RhoABV" = _d3RhoABV;
         "bPtuybxb" = _bPtuybxb;
+        "aarDEd0H" = _aarDEd0H;
         "fabric-1.21.11" = _QNOyoj7G;
         "fabric-26.1.2" = _d3RhoABV;
         "fabric-26.2" = _bPtuybxb;
+        "fabric-26.3" = _aarDEd0H;
         "pkg-1.0+1.21.11" = _LaNWEBa6;
         "pkg-1.1+1.21.11" = _QNOyoj7G;
         "pkg-1.3+26.1.2" = _d3RhoABV;
         "pkg-1.3+26.2" = _bPtuybxb;
-        "default" = _bPtuybxb;
+        "pkg-1.3+26.3" = _aarDEd0H;
+        "default" = _aarDEd0H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "decentfreelook";

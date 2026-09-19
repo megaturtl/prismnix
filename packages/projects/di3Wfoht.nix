@@ -156,6 +156,11 @@ let
             "file" = "3D Vanilla v1.19.zip";
             "hash" = "sha512-z3a6XnoWwklyPcMa2o5J+VxEAocqgpNm9HBd4B9gZtjAFy/3VTJZEU89RjM/jKQlwg9xUt3DCWX4yZiiONdruw==";
         };
+        _vzp79ujA = {
+            "id" = "vzp79ujA";
+            "file" = "3D Vanilla v1.20.zip";
+            "hash" = "sha512-l7LweWzZDnAdIXB7ndht6zpipuL9NdgYKGo/z6tIArO7xVTbW6UquGLaYx8JezFQ4h5GB/fW6mBJzVCNzj4Zqw==";
+        };
     in {
         "4ez6ES1H" = _4ez6ES1H;
         "EbGtcVZO" = _EbGtcVZO;
@@ -188,9 +193,10 @@ let
         "VrjJA8p8" = _VrjJA8p8;
         "VzzeSSTe" = _VzzeSSTe;
         "bO5aoy96" = _bO5aoy96;
+        "vzp79ujA" = _vzp79ujA;
         "minecraft-1.21.8" = _VrjJA8p8;
-        "minecraft-1.21.9" = _bO5aoy96;
-        "minecraft-1.21.10" = _bO5aoy96;
+        "minecraft-1.21.9" = _vzp79ujA;
+        "minecraft-1.21.10" = _vzp79ujA;
         "minecraft-1.16" = _5OUPEuwF;
         "minecraft-1.16.1" = _5OUPEuwF;
         "minecraft-1.16.2" = _5OUPEuwF;
@@ -222,11 +228,12 @@ let
         "minecraft-1.21.5" = _5OUPEuwF;
         "minecraft-1.21.6" = _5OUPEuwF;
         "minecraft-1.21.7" = _5OUPEuwF;
-        "minecraft-1.21.11" = _bO5aoy96;
-        "minecraft-26.1" = _bO5aoy96;
-        "minecraft-26.1.1" = _bO5aoy96;
-        "minecraft-26.1.2" = _bO5aoy96;
-        "minecraft-26.2" = _bO5aoy96;
+        "minecraft-1.21.11" = _vzp79ujA;
+        "minecraft-26.1" = _vzp79ujA;
+        "minecraft-26.1.1" = _vzp79ujA;
+        "minecraft-26.1.2" = _vzp79ujA;
+        "minecraft-26.2" = _vzp79ujA;
+        "minecraft-26.3" = _vzp79ujA;
         "pkg-v1.0" = _4ez6ES1H;
         "pkg-v1.1" = _EbGtcVZO;
         "pkg-v1.1.1" = _xmA93Qqi;
@@ -258,7 +265,8 @@ let
         "pkg-v1.17" = _VrjJA8p8;
         "pkg-v1.18" = _VzzeSSTe;
         "pkg-v1.19" = _bO5aoy96;
-        "default" = _bO5aoy96;
+        "pkg-v1.20" = _vzp79ujA;
+        "default" = _vzp79ujA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "3dvanilla";

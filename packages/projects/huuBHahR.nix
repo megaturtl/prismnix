@@ -166,6 +166,11 @@ let
             "file" = "holdmetight-0.8.0.1-beta.jar";
             "hash" = "sha512-3JXvpERDL4aqDIUd7Q0Ma5p2S8qtGwz4dhqgOyeSNxmEL5aEBAULG33GRI/cFrROf//0SgMIQRFrlJPXgfi3ww==";
         };
+        _8JilYRjY = {
+            "id" = "8JilYRjY";
+            "file" = "holdmetight-0.8.1-beta.jar";
+            "hash" = "sha512-ApgxbmLFe3OqzbneaTw/Kkn185rB7TShYfUGf7ruZJotObFeC8YffXia/H31uc62kt8Cxd3k+V6oq44dJ24paA==";
+        };
     in {
         "uP4nV3YX" = _uP4nV3YX;
         "Re5B4pd8" = _Re5B4pd8;
@@ -200,7 +205,8 @@ let
         "96NblWt2" = _96NblWt2;
         "XZ3YQT5R" = _XZ3YQT5R;
         "4bPXmiMd" = _4bPXmiMd;
-        "forge-1.20.1" = _4bPXmiMd;
+        "8JilYRjY" = _8JilYRjY;
+        "forge-1.20.1" = _8JilYRjY;
         "pkg-0.1.1-alpha" = _uP4nV3YX;
         "pkg-0.2.0-alpha" = _Re5B4pd8;
         "pkg-0.2.1-alpha" = _hWCpCcf6;
@@ -234,7 +240,8 @@ let
         "pkg-0.7.2.1-beta" = _96NblWt2;
         "pkg-0.8.0-beta" = _XZ3YQT5R;
         "pkg-0.8.0.1-beta" = _4bPXmiMd;
-        "default" = _4bPXmiMd;
+        "pkg-0.8.1-beta" = _8JilYRjY;
+        "default" = _8JilYRjY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "holdmetight";

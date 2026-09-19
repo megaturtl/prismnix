@@ -51,6 +51,11 @@ let
             "file" = "Pedestal of the Master Sword - The Legend of Zelda 1.1.0 - 26.2.jar";
             "hash" = "sha512-HxSleQwwnWw2+EDvG+Xq9YSMeK/gfmPw+ZB/7G7iRgwOxqu31ILsP3tMLnqgltctRMjmVar/eHGg4thlv5HTrg==";
         };
+        _IfqEUVPK = {
+            "id" = "IfqEUVPK";
+            "file" = "Pedestal of the Master Sword - The Legend of Zelda 1.1.0 - 26.3.jar";
+            "hash" = "sha512-8qqbl6qnOPQ64CZzUixmad/XcrIJE8Kr5O1homAY3vO+2eeHqMk9CEvTRX0Q2kGNtFckSJLofsYKy5AgN3zDgA==";
+        };
     in {
         "4C492YsZ" = _4C492YsZ;
         "JCUyMFDe" = _JCUyMFDe;
@@ -62,6 +67,7 @@ let
         "B0ZGNod0" = _B0ZGNod0;
         "6GLX9Zg8" = _6GLX9Zg8;
         "WrvHYJ0T" = _WrvHYJ0T;
+        "IfqEUVPK" = _IfqEUVPK;
         "fabric-1.21.11" = _6GLX9Zg8;
         "fabric-26.1" = _B0ZGNod0;
         "fabric-26.1.1" = _B0ZGNod0;
@@ -69,6 +75,7 @@ let
         "fabric-1.21.9" = _6GLX9Zg8;
         "fabric-1.21.10" = _6GLX9Zg8;
         "fabric-26.2" = _WrvHYJ0T;
+        "fabric-26.3" = _IfqEUVPK;
         "datapack-1.21.9" = _FBpib7Xc;
         "datapack-1.21.10" = _FBpib7Xc;
         "datapack-1.21.11" = _FBpib7Xc;
@@ -95,9 +102,10 @@ let
         "neoforge-1.21.10" = _6GLX9Zg8;
         "neoforge-1.21.11" = _6GLX9Zg8;
         "neoforge-26.2" = _WrvHYJ0T;
+        "neoforge-26.3" = _IfqEUVPK;
         "pkg-1.0.0" = _2YgAbwOU;
-        "pkg-1.1.0" = _WrvHYJ0T;
-        "default" = _WrvHYJ0T;
+        "pkg-1.1.0" = _IfqEUVPK;
+        "default" = _IfqEUVPK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pedestal-of-the-master-sword-the-legend-of-zelda";

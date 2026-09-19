@@ -171,6 +171,16 @@ let
             "file" = "yunbeiuc-forge-1.0.0-26w32a-hotfix.jar";
             "hash" = "sha512-d3BU/pirSxWX6UQSJqzpoWBNAIgQG8f4C4AWVoSAW40W8nxodv2//aKlkumpuBK1NHkcf1DCopKZY0FOoxDa1w==";
         };
+        _64O5LKAy = {
+            "id" = "64O5LKAy";
+            "file" = "yunbeiuc-fabric-1.0.0-26w38a.jar";
+            "hash" = "sha512-Kr/maCYwWKZCQASX/XvNyZUENGY8v2qGasglYwOsMq2YUGnYOSVTJJEKqoZKvO7Y2SF8W6244a/pLcuffP9mbw==";
+        };
+        _lls1uNBP = {
+            "id" = "lls1uNBP";
+            "file" = "yunbeiuc-forge-1.0.0-26w38a.jar";
+            "hash" = "sha512-VICNY8do7pN7Dbm5xfmunmqZgGsZliKxHKZCCL3ZIW5O+K7aJYlDlhQH/0wmGzV8TYno0oztiAtIEz/VuG6wlw==";
+        };
     in {
         "OSCQeGF9" = _OSCQeGF9;
         "ZrqS0p1I" = _ZrqS0p1I;
@@ -206,9 +216,11 @@ let
         "VB7LApAU" = _VB7LApAU;
         "BQjfETyS" = _BQjfETyS;
         "XCdACp8N" = _XCdACp8N;
-        "fabric-1.20.1" = _BQjfETyS;
+        "64O5LKAy" = _64O5LKAy;
+        "lls1uNBP" = _lls1uNBP;
+        "fabric-1.20.1" = _64O5LKAy;
         "fabric-1.21.1" = _PpqjAMlV;
-        "forge-1.20.1" = _XCdACp8N;
+        "forge-1.20.1" = _lls1uNBP;
         "neoforge-1.21.1" = _VoLRqr7j;
         "pkg-1.0.0-25w39a" = _OSCQeGF9;
         "pkg-1.0.0-26w01a" = _ZrqS0p1I;
@@ -244,7 +256,9 @@ let
         "pkg-1.0.0-26w32a+1.20.1+fabric" = _VB7LApAU;
         "pkg-1.0.0-26w32b+1.20.1+fabric" = _BQjfETyS;
         "pkg-1.0.0-26w32b+1.20.1+forge" = _XCdACp8N;
-        "default" = _XCdACp8N;
+        "pkg-1.0.0-26w38a+1.20.1+fabric" = _64O5LKAy;
+        "pkg-1.0.0-26w38a+1.20.1+forge" = _lls1uNBP;
+        "default" = _lls1uNBP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yunbeiuc";

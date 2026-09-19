@@ -171,6 +171,31 @@ let
             "file" = "ExploitPreventer-1.1.0+1.21.9.jar";
             "hash" = "sha512-UqZKFSlAfQMFsYeavuZDM00d1fdvOyerbAzaPCDAiX50W6+SkFdh3XkE7Kk/JLmPTSHKAO37saY6yiJWjKjd0g==";
         };
+        _U9kwAEBf = {
+            "id" = "U9kwAEBf";
+            "file" = "ExploitPreventer-1.2.0+26.1.jar";
+            "hash" = "sha512-dpe4iPJ5pKUkJNkTJGEyoaZIifwzyrRxSpjvoTD5dBHyu5WbKHzpm4rotNagMOrxmwMW0EVapNPd0zenrYpvbw==";
+        };
+        _x3fUgdRM = {
+            "id" = "x3fUgdRM";
+            "file" = "ExploitPreventer-1.2.0+26.3.jar";
+            "hash" = "sha512-+x9ojzD4M/HU09VDr04YhQapSjAl64gSXXw0izOaR3ERZQVlDW/BQQvUEos4bYSebG8cYg6CE0kcs1JrpjXBOA==";
+        };
+        _PeDAvZfK = {
+            "id" = "PeDAvZfK";
+            "file" = "ExploitPreventer-1.2.0+1.21.9.jar";
+            "hash" = "sha512-2nuVzvdi9pH6TxBkQmZixM4Z4W8h49LJ7Vw9jkljsrK7cYVHm359hsg7J3TV4O6MHHfXfh4iQHxId8LmqJ4JnA==";
+        };
+        _HahSHifq = {
+            "id" = "HahSHifq";
+            "file" = "ExploitPreventer-1.2.0+1.21.11.jar";
+            "hash" = "sha512-Rj4h1CdBIbsFsbqOLjDmFVwuUKPcXjTcbK3WjkToDrA6qto9eRbgiNnBlBQQNidWblWNg6nE2Hn7U9ng8EyISw==";
+        };
+        _fGBPBfNk = {
+            "id" = "fGBPBfNk";
+            "file" = "ExploitPreventer-1.2.0+26.2.jar";
+            "hash" = "sha512-JMvXTJPJg1fYvOd6g5WniAfhNC//0YHHbNLG/39F2UJC+ocxycnJGwuZOVbjPP4oj4+/pkfwlgBcRyqF4WG50A==";
+        };
     in {
         "S4ALYdiu" = _S4ALYdiu;
         "ZdPfS9lE" = _ZdPfS9lE;
@@ -206,13 +231,19 @@ let
         "uJ26azBY" = _uJ26azBY;
         "w8NLIJk9" = _w8NLIJk9;
         "zcylLm57" = _zcylLm57;
-        "fabric-1.21.10" = _zcylLm57;
-        "fabric-1.21.11" = _uJ26azBY;
-        "fabric-26.1" = _w8NLIJk9;
-        "fabric-26.1.1" = _w8NLIJk9;
-        "fabric-26.1.2" = _w8NLIJk9;
-        "fabric-26.2" = _519WaD7o;
-        "fabric-1.21.9" = _zcylLm57;
+        "U9kwAEBf" = _U9kwAEBf;
+        "x3fUgdRM" = _x3fUgdRM;
+        "PeDAvZfK" = _PeDAvZfK;
+        "HahSHifq" = _HahSHifq;
+        "fGBPBfNk" = _fGBPBfNk;
+        "fabric-1.21.10" = _PeDAvZfK;
+        "fabric-1.21.11" = _HahSHifq;
+        "fabric-26.1" = _U9kwAEBf;
+        "fabric-26.1.1" = _U9kwAEBf;
+        "fabric-26.1.2" = _U9kwAEBf;
+        "fabric-26.2" = _fGBPBfNk;
+        "fabric-1.21.9" = _PeDAvZfK;
+        "fabric-26.3" = _x3fUgdRM;
         "pkg-0.0.1" = _S4ALYdiu;
         "pkg-0.0.2" = _ZdPfS9lE;
         "pkg-0.0.3" = _TGaq64mj;
@@ -247,7 +278,12 @@ let
         "pkg-1.1.0+1.21.11" = _uJ26azBY;
         "pkg-1.1.0+26.1" = _w8NLIJk9;
         "pkg-1.1.0+1.21.9" = _zcylLm57;
-        "default" = _zcylLm57;
+        "pkg-1.2.0+26.1" = _U9kwAEBf;
+        "pkg-1.2.0+26.3" = _x3fUgdRM;
+        "pkg-1.2.0+1.21.9" = _PeDAvZfK;
+        "pkg-1.2.0+1.21.11" = _HahSHifq;
+        "pkg-1.2.0+26.2" = _fGBPBfNk;
+        "default" = _fGBPBfNk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "exploitpreventer";

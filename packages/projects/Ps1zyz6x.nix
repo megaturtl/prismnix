@@ -221,6 +221,21 @@ let
             "file" = "ScalableLux-neoforge-0.3.0-alpha.0.8-all.jar";
             "hash" = "sha512-+nuz7mZBz5S5V7TDBjVxHn+dK15mtUSJnOSsA52KWYFMp/fZfA9ms6gCYdWaPsPTKK0Nnc38E9d69YD3AglKlA==";
         };
+        _z2JqNJyJ = {
+            "id" = "z2JqNJyJ";
+            "file" = "ScalableLux-fabric-0.3.0-alpha.0.4-all.jar";
+            "hash" = "sha512-RoRxe8aPeN30Fm7df6eHRrXhdwVz8esVrP1pZza3qW7CrctJvCTOAigebizLYAOlZYSf6R7Tqff/aG9V9l013g==";
+        };
+        _QEqBp5LZ = {
+            "id" = "QEqBp5LZ";
+            "file" = "ScalableLux-neoforge-0.3.0-alpha.0.17-all.jar";
+            "hash" = "sha512-2aQ8Mkw+kl2KBH+EwdqfJaQ2F5BfYWkVkt7r++IPur/cpPb+azr0tFIf9YQ6FmcV2c65BCV5GLaIrJJ2F0mCAQ==";
+        };
+        _g4eqNSKd = {
+            "id" = "g4eqNSKd";
+            "file" = "ScalableLux-fabric-mc26.3-0.3.0-alpha.0.6-all.jar";
+            "hash" = "sha512-3tWpOfsgq4HB8zsUfKm5gFB3Pbso3/Ft+TnH1We2JoCVIplOyNv7mef0mNxqTmLyXhQah9GO+0P3P8WtFWnMyQ==";
+        };
     in {
         "V7KCULea" = _V7KCULea;
         "yGBzVpiV" = _yGBzVpiV;
@@ -266,6 +281,9 @@ let
         "w2yQbU01" = _w2yQbU01;
         "AodeMVa6" = _AodeMVa6;
         "9KuFoPhC" = _9KuFoPhC;
+        "z2JqNJyJ" = _z2JqNJyJ;
+        "QEqBp5LZ" = _QEqBp5LZ;
+        "g4eqNSKd" = _g4eqNSKd;
         "fabric-1.21" = _Oh80nTJ5;
         "fabric-1.21.1" = _AodeMVa6;
         "fabric-1.21.2" = _otxwJ9w3;
@@ -288,6 +306,8 @@ let
         "fabric-26.2-rc-1" = _FuGn0NlI;
         "fabric-26.2-rc-2" = _FuGn0NlI;
         "fabric-26.2" = _EKLUURiy;
+        "fabric-26.3-rc-2" = _z2JqNJyJ;
+        "fabric-26.3" = _g4eqNSKd;
         "neoforge-1.21.1" = _9KuFoPhC;
         "neoforge-1.21.5" = _5BWDA5mK;
         "neoforge-1.21.8" = _3omiNULV;
@@ -299,6 +319,7 @@ let
         "neoforge-26.1.2" = _XaTCC66i;
         "neoforge-26.2-rc-2" = _I6jcny72;
         "neoforge-26.2" = _sj4ujwsT;
+        "neoforge-26.3" = _QEqBp5LZ;
         "pkg-0.1.0+beta.1+fabric.fc82f44" = _V7KCULea;
         "pkg-0.1.0+rc.1+fabric.43c9882" = _yGBzVpiV;
         "pkg-0.1.0+fabric.26c6e72" = _Oh80nTJ5;
@@ -342,7 +363,10 @@ let
         "pkg-0.3.0-alpha.0.6+1.21.1" = _w2yQbU01;
         "pkg-0.3.0-alpha.0.7+1.21.1" = _AodeMVa6;
         "pkg-0.3.0-alpha.0.8+1.21.1" = _9KuFoPhC;
-        "default" = _9KuFoPhC;
+        "pkg-0.3.0-alpha.0.4+26.3-rc-2" = _z2JqNJyJ;
+        "pkg-0.3.0-alpha.0.17+26.3" = _QEqBp5LZ;
+        "pkg-0.3.0-alpha.0.6+26.3" = _g4eqNSKd;
+        "default" = _g4eqNSKd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scalablelux";

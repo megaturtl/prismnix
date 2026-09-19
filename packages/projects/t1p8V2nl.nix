@@ -766,6 +766,11 @@ let
             "file" = "yo_hooks-forge-5.1.0.jar";
             "hash" = "sha512-xAZKcNlIxrHbBT6nQHFGkjPVkEZcFj1zkQGQ1JcJnwmsygO6+ouAGqsWa7aKc5vEZuxXA8REcPb+590Vs/FlSQ==";
         };
+        _jZnX7Gux = {
+            "id" = "jZnX7Gux";
+            "file" = "yo_hooks-forge-5.1.1.jar";
+            "hash" = "sha512-iebGMC1FCTRpoNJOyeK5oQ9bi2V58aWMT8544XcG9RFceIeb+Eow8Hp+PqhNqPEFhfraCuOci8m0JszGyAK9bQ==";
+        };
     in {
         "hQaiXsaI" = _hQaiXsaI;
         "gjL5S0Tp" = _gjL5S0Tp;
@@ -920,6 +925,7 @@ let
         "SgsosXAk" = _SgsosXAk;
         "BkTF8742" = _BkTF8742;
         "5b3p4EoV" = _5b3p4EoV;
+        "jZnX7Gux" = _jZnX7Gux;
         "fabric-1.21.1" = _vELm0vPS;
         "fabric-1.20.4" = _C0YJn0uq;
         "fabric-1.20.1" = _LKG51o1V;
@@ -950,7 +956,7 @@ let
         "neoforge-1.21.11" = _kvwRmUN5;
         "neoforge-1.21.6" = _2h1DYuvy;
         "neoforge-1.21.7" = _2h1DYuvy;
-        "forge-1.20.1" = _5b3p4EoV;
+        "forge-1.20.1" = _jZnX7Gux;
         "pkg-1.0.0" = _fcAT2sBE;
         "pkg-1.1.0" = _dACubZNS;
         "pkg-2.0.0" = _aUOncnOh;
@@ -1001,7 +1007,8 @@ let
         "pkg-5.0.1" = _SgsosXAk;
         "pkg-5.0.2" = _WoUQUddA;
         "pkg-5.1.0" = _5b3p4EoV;
-        "default" = _5b3p4EoV;
+        "pkg-5.1.1" = _jZnX7Gux;
+        "default" = _jZnX7Gux;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yori3os-grappling-hooks";

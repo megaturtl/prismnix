@@ -86,6 +86,11 @@ let
             "file" = "cherry_village-1.0.1-26.1-Fabric.jar";
             "hash" = "sha512-y2qL4LnueZgmzAwp+gLHZq4412MEZLn4wizWvH1Rhuq7Mb/oi9tz9p6vdpT4c6Y6Nl9fTILTJ5MzJaIzEhwh3w==";
         };
+        _8LsyPNHs = {
+            "id" = "8LsyPNHs";
+            "file" = "cherry_village-1.0.3-26.1-Fabric.jar";
+            "hash" = "sha512-FS+J/j6kQAHItSlYwF7Vf9I3RPUo90Z25cvHid0PjaytPXEt87nzMmd8vHYFHUQkJPwO0uJQpr2oJ0NT9QoUMA==";
+        };
     in {
         "hWGsH2bM" = _hWGsH2bM;
         "jekgspxi" = _jekgspxi;
@@ -104,6 +109,7 @@ let
         "L484i0De" = _L484i0De;
         "L7jo3W8R" = _L7jo3W8R;
         "bhjrhBcZ" = _bhjrhBcZ;
+        "8LsyPNHs" = _8LsyPNHs;
         "datapack-1.20" = _hWGsH2bM;
         "datapack-1.20.1" = _hWGsH2bM;
         "datapack-1.20.2" = _hWGsH2bM;
@@ -146,10 +152,10 @@ let
         "fabric-1.21.9" = _L7jo3W8R;
         "fabric-1.21.10" = _L7jo3W8R;
         "fabric-1.21.11" = _L7jo3W8R;
-        "fabric-26.1" = _bhjrhBcZ;
-        "fabric-26.1.1" = _bhjrhBcZ;
-        "fabric-26.1.2" = _bhjrhBcZ;
-        "fabric-26.2" = _bhjrhBcZ;
+        "fabric-26.1" = _8LsyPNHs;
+        "fabric-26.1.1" = _8LsyPNHs;
+        "fabric-26.1.2" = _8LsyPNHs;
+        "fabric-26.2" = _8LsyPNHs;
         "forge-1.20" = _mVdmDjQm;
         "forge-1.20.1" = _mVdmDjQm;
         "forge-1.20.2" = _mVdmDjQm;
@@ -206,7 +212,8 @@ let
         "pkg-1.20.1-1.0.1-Fabric" = _L484i0De;
         "pkg-1.21.1-1.0.1-Fabric" = _L7jo3W8R;
         "pkg-1.0.1-26.1-Fabric" = _bhjrhBcZ;
-        "default" = _bhjrhBcZ;
+        "pkg-1.0.3-26.1-Fabric" = _8LsyPNHs;
+        "default" = _8LsyPNHs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cherryvillage";

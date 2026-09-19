@@ -136,6 +136,11 @@ let
             "file" = "Framed Glass Panes V88 MC26.2.zip";
             "hash" = "sha512-i8iS8C3IgZOMXT+tHgdt+8pt6s3YkGa4GfQxOv6CXFRVxFrNk5L51s6Rx/CXKnXaW60utLQqFhFyPSq+zW3FfA==";
         };
+        _EW9ZB3YA = {
+            "id" = "EW9ZB3YA";
+            "file" = "Framed Glass Panes V97 MC26.3.zip";
+            "hash" = "sha512-cNbHLGGnottbttGt3SjD+m4XDCExXfsgUzo3YqqtmevHb96O+t0+79DoIm40djQJNgfJaw9NZV+dwz+RHQuS4A==";
+        };
     in {
         "E7YP0KJI" = _E7YP0KJI;
         "Wti0yO1G" = _Wti0yO1G;
@@ -164,6 +169,7 @@ let
         "AeDB0RnO" = _AeDB0RnO;
         "T4Wf21KK" = _T4Wf21KK;
         "nENnNTep" = _nENnNTep;
+        "EW9ZB3YA" = _EW9ZB3YA;
         "minecraft-1.19.4" = _E7YP0KJI;
         "minecraft-1.20" = _3XZY8qvO;
         "minecraft-1.20.1" = _3XZY8qvO;
@@ -184,10 +190,11 @@ let
         "minecraft-1.21.9" = _3XZY8qvO;
         "minecraft-1.21.10" = _3XZY8qvO;
         "minecraft-1.21.11" = _3XZY8qvO;
-        "minecraft-26.1" = _nENnNTep;
-        "minecraft-26.1.1" = _nENnNTep;
-        "minecraft-26.1.2" = _nENnNTep;
-        "minecraft-26.2" = _nENnNTep;
+        "minecraft-26.1" = _EW9ZB3YA;
+        "minecraft-26.1.1" = _EW9ZB3YA;
+        "minecraft-26.1.2" = _EW9ZB3YA;
+        "minecraft-26.2" = _EW9ZB3YA;
+        "minecraft-26.3" = _EW9ZB3YA;
         "pkg-V13" = _E7YP0KJI;
         "pkg-V15" = _Wti0yO1G;
         "pkg-18" = _Zx1P3kKC;
@@ -215,7 +222,8 @@ let
         "pkg-84.1" = _AeDB0RnO;
         "pkg-84.2" = _T4Wf21KK;
         "pkg-88" = _nENnNTep;
-        "default" = _nENnNTep;
+        "pkg-97" = _EW9ZB3YA;
+        "default" = _EW9ZB3YA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "framed-glass-panes";

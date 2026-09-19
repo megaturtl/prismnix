@@ -151,6 +151,16 @@ let
             "file" = "tinycommands-2.0.2+26.2-neoforge.jar";
             "hash" = "sha512-zdLJmch5jpA+rgzYA861XJ46CCQd/obTjojyJ1j/xRdkh91cdBgyLrkeqAsiq2dzGzkeL+eem69bKSf1ipMscw==";
         };
+        _W46QTyJt = {
+            "id" = "W46QTyJt";
+            "file" = "tinycommands-2.0.2+26.3-fabric.jar";
+            "hash" = "sha512-zrUAImWucl/IL8f8N6pMttv2qVVhg5Z2TiJ6epw4SHipYTeGz41lduo4xVQ4jK5jqSxlki7QwdaRGNqAsmmXCA==";
+        };
+        _Hx1S3S5k = {
+            "id" = "Hx1S3S5k";
+            "file" = "tinycommands-2.0.2+26.3-neoforge.jar";
+            "hash" = "sha512-DhZo275szeB2dwQMBhYJ0KVsX2zJU1484MI0u7iYy/Vwt4qUOGE8iAShxq0mraUjE2aKcGfK+oJkG/KTv3cWkA==";
+        };
     in {
         "u569Y3Te" = _u569Y3Te;
         "Z3roQfZ9" = _Z3roQfZ9;
@@ -182,6 +192,8 @@ let
         "jAazNuDp" = _jAazNuDp;
         "SSN5cKah" = _SSN5cKah;
         "Wj24z8mU" = _Wj24z8mU;
+        "W46QTyJt" = _W46QTyJt;
+        "Hx1S3S5k" = _Hx1S3S5k;
         "forge-1.19.2" = _oSJymMSh;
         "forge-1.19.4" = _GtpuG47s;
         "forge-1.20.1" = _tFXNYbZt;
@@ -195,22 +207,25 @@ let
         "neoforge-1.21.11" = _ymZGY6qh;
         "neoforge-26.1.2" = _jAazNuDp;
         "neoforge-26.2" = _Wj24z8mU;
+        "neoforge-26.3" = _Hx1S3S5k;
         "fabric-1.20.1" = _zYFdKMtJ;
         "fabric-1.21.1" = _4kn8h3qk;
         "fabric-1.21.11" = _sjD0HMeI;
         "fabric-26.1.2" = _4TB5yBe0;
         "fabric-26.2" = _SSN5cKah;
+        "fabric-26.3" = _W46QTyJt;
         "quilt-1.20.1" = _zYFdKMtJ;
         "quilt-1.21.1" = _4kn8h3qk;
         "quilt-1.21.11" = _sjD0HMeI;
         "quilt-26.1.2" = _4TB5yBe0;
         "quilt-26.2" = _SSN5cKah;
+        "quilt-26.3" = _W46QTyJt;
         "pkg-1.0.0" = _w4h550Gd;
         "pkg-1.1.0" = _LQP4uGmP;
         "pkg-2.0.0" = _YpbKuf6B;
         "pkg-2.0.1" = _kE2KKL19;
-        "pkg-2.0.2" = _Wj24z8mU;
-        "default" = _Wj24z8mU;
+        "pkg-2.0.2" = _Hx1S3S5k;
+        "default" = _Hx1S3S5k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tinycommands";

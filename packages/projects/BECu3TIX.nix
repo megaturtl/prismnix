@@ -21,11 +21,17 @@ let
             "file" = "better-elytra-render-1.2.0+1.21.10.jar";
             "hash" = "sha512-x/OIWAV7fC8BOMillRLY0AjT7Vtfc/aHtRxyRFr01PsHMh97SNPBRscZ8meleXBVZheqd+F3VgaN0U9rPBaETg==";
         };
+        _DKA7oWtX = {
+            "id" = "DKA7oWtX";
+            "file" = "better-elytra-render-1.0.0+26.3.jar";
+            "hash" = "sha512-7UrRVcQ+AOLKPSXipNLnLOgFqZBNgm0WKt2sQrLJBAwhpGFeTNVkOwQDsCtoVr/F3t/qpAomNP9DiJORgXdDWQ==";
+        };
     in {
         "UgC5QPv8" = _UgC5QPv8;
         "LzNNez0o" = _LzNNez0o;
         "pxmvBFEJ" = _pxmvBFEJ;
         "JtHfbQz2" = _JtHfbQz2;
+        "DKA7oWtX" = _DKA7oWtX;
         "fabric-1.21.5" = _LzNNez0o;
         "fabric-1.21.4" = _LzNNez0o;
         "fabric-1.21.6" = _pxmvBFEJ;
@@ -33,10 +39,12 @@ let
         "fabric-1.21.8" = _pxmvBFEJ;
         "fabric-1.21.9" = _JtHfbQz2;
         "fabric-1.21.10" = _JtHfbQz2;
+        "fabric-26.3" = _DKA7oWtX;
         "pkg-1.0.0" = _LzNNez0o;
         "pkg-1.1.0+1.21.8" = _pxmvBFEJ;
         "pkg-1.2.0+1.21.10" = _JtHfbQz2;
-        "default" = _JtHfbQz2;
+        "pkg-1.0.0+26.3" = _DKA7oWtX;
+        "default" = _DKA7oWtX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-elytra-render";

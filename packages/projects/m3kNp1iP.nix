@@ -296,6 +296,51 @@ let
             "file" = "polytime-1.2.2+26.2.jar";
             "hash" = "sha512-BzTmzbBA67o12GC6uQWjoC2H6AmB+9g+6M64eVtg5D3gV7nxwodeVurhhAoPF0VbePU8tbv5A5a2xmCFHjOYqA==";
         };
+        _YkL0TFGz = {
+            "id" = "YkL0TFGz";
+            "file" = "polytime-1.3.0+1.21.1.jar";
+            "hash" = "sha512-DBC1PvT+hrexIZexyBM8WNj7Y3ME8LbhjcrYkdXSydw3YaJGwrmo/iluC2vz1/Jx0Emv55QDNVrsG5zzw4ikzQ==";
+        };
+        _jp1aXAc7 = {
+            "id" = "jp1aXAc7";
+            "file" = "polytime-1.3.0+1.21.4.jar";
+            "hash" = "sha512-1RYh4RL2b+FoeWE/21j//UyGzaWs9C6AG5IVnf+MCwdVxwKk1CxDw2dt4NyTsGH6Xk4HSfxTeuGWYbi2XJcS0Q==";
+        };
+        _7o0S2IR9 = {
+            "id" = "7o0S2IR9";
+            "file" = "polytime-1.3.0+1.21.5.jar";
+            "hash" = "sha512-Ixs+DVUjAqjFaYIzTSJTH8I8/3anNf2q4dvLYd4ZKsCuiX0QC7ey0KUtkcbkXXzcfByuH0PV3uZntGKh5K9V6w==";
+        };
+        _NlX0ivy0 = {
+            "id" = "NlX0ivy0";
+            "file" = "polytime-1.3.0+1.21.8.jar";
+            "hash" = "sha512-jDm8g2UVGGX42ZrwbAcYjFusGuKN0JitB1l15JXxGriUJR1BAoWNSpFVveL3G1/CznIsro0T3NO99KgDN6inag==";
+        };
+        _3gpTowBl = {
+            "id" = "3gpTowBl";
+            "file" = "polytime-1.3.0+1.21.10.jar";
+            "hash" = "sha512-bOfc+imdyHfawyytLvC31fWY5dr+MNEr8z7pX6kWfqVUDCQDjoOdoHoK0IdQrU45Ew4YzmDa1Numa5vfh4Iwcw==";
+        };
+        _YYJxAy4n = {
+            "id" = "YYJxAy4n";
+            "file" = "polytime-1.3.0+1.21.11.jar";
+            "hash" = "sha512-YSIc95IttzIapEIuV7VtxqGr1eEXfLzYV5E/9LcKEI29bgm3aakbiEq9zHKT4/8kexVbz8sB1jwd+ho0pY6i7g==";
+        };
+        _p24Nwvfq = {
+            "id" = "p24Nwvfq";
+            "file" = "polytime-1.3.0+26.1.jar";
+            "hash" = "sha512-PjX2IJW5H8CB8xx48HtnQTI81buSvx82nQcMlNkvQOt8fEbYXnDwU4kWHbaEU8XE/hsZ7u4q6f0XeQgVoYfv7g==";
+        };
+        _d3mnoiDk = {
+            "id" = "d3mnoiDk";
+            "file" = "polytime-1.3.0+26.2.jar";
+            "hash" = "sha512-7MQ0ZK7oIGBRL6oiYucUgVlpzqEi7yPt9gZVAWeTur2nqS0DXJBzxaAfPPW5n+qyWtgOoM3f6JalwQg1uQULWA==";
+        };
+        _8QwMo8QS = {
+            "id" = "8QwMo8QS";
+            "file" = "polytime-1.3.0+26.3.jar";
+            "hash" = "sha512-KF54HMIMytZ18mN733pjlpbRZttJgIgk9walDo4QZy+NxIzyl8bINyZonp+GdnnOCxbA+hRpAEzQabwZmSG0KQ==";
+        };
     in {
         "7eFxBnuh" = _7eFxBnuh;
         "jyV5zKKf" = _jyV5zKKf;
@@ -356,18 +401,28 @@ let
         "fWsZXT00" = _fWsZXT00;
         "qRl6gDaq" = _qRl6gDaq;
         "LCXNCbSt" = _LCXNCbSt;
+        "YkL0TFGz" = _YkL0TFGz;
+        "jp1aXAc7" = _jp1aXAc7;
+        "7o0S2IR9" = _7o0S2IR9;
+        "NlX0ivy0" = _NlX0ivy0;
+        "3gpTowBl" = _3gpTowBl;
+        "YYJxAy4n" = _YYJxAy4n;
+        "p24Nwvfq" = _p24Nwvfq;
+        "d3mnoiDk" = _d3mnoiDk;
+        "8QwMo8QS" = _8QwMo8QS;
         "forge-1.8.9" = _n5yBVXbc;
         "forge-1.12.2" = _yHHdSjbb;
-        "fabric-1.21.1" = _Xj3NGHga;
-        "fabric-1.21.4" = _4paNsSWQ;
-        "fabric-1.21.5" = _1KphCjhI;
-        "fabric-1.21.8" = _fWsZXT00;
-        "fabric-1.21.10" = _FA7qzdS9;
-        "fabric-1.21.11" = _wqC4rZY5;
-        "fabric-26.1" = _qRl6gDaq;
-        "fabric-26.1.1" = _qRl6gDaq;
-        "fabric-26.1.2" = _qRl6gDaq;
-        "fabric-26.2" = _LCXNCbSt;
+        "fabric-1.21.1" = _YkL0TFGz;
+        "fabric-1.21.4" = _jp1aXAc7;
+        "fabric-1.21.5" = _7o0S2IR9;
+        "fabric-1.21.8" = _NlX0ivy0;
+        "fabric-1.21.10" = _3gpTowBl;
+        "fabric-1.21.11" = _YYJxAy4n;
+        "fabric-26.1" = _p24Nwvfq;
+        "fabric-26.1.1" = _p24Nwvfq;
+        "fabric-26.1.2" = _p24Nwvfq;
+        "fabric-26.2" = _d3mnoiDk;
+        "fabric-26.3" = _8QwMo8QS;
         "pkg-v1.0.0" = _jyV5zKKf;
         "pkg-v1.0.1" = _LxJawQVw;
         "pkg-v1.0.2" = _yHHdSjbb;
@@ -378,7 +433,8 @@ let
         "pkg-v1.2.0" = _PzKAlKXP;
         "pkg-v1.2.1" = _dx6JT777;
         "pkg-v1.2.2" = _LCXNCbSt;
-        "default" = _LCXNCbSt;
+        "pkg-v1.3.0" = _8QwMo8QS;
+        "default" = _8QwMo8QS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "polytime";

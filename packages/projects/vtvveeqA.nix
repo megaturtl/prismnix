@@ -46,6 +46,26 @@ let
             "file" = "rs_integration-1.4.1fix.jar";
             "hash" = "sha512-hCtHi+TuxbU1Ruq1QH51ji73OkKTY1wqwkpo/mmM/jJsTjpoRQ5DdJqOpyBbJr8+G/NZ6fiopw4JMgThW5prxg==";
         };
+        _PGmSaZav = {
+            "id" = "PGmSaZav";
+            "file" = "rs_integration-1.4.2.jar";
+            "hash" = "sha512-fisjwMamgYNNpBE12CDyD3yuiXtPUVoyRdVky2YrHG/baf7Mwpta/jrjKTNpftU1NblnTWZTs1EIC2482l1MAw==";
+        };
+        _sUFw2OTD = {
+            "id" = "sUFw2OTD";
+            "file" = "rs_integration-1.4.2.1.jar";
+            "hash" = "sha512-SMUAVZo+zt0LsD8rxS0QijKuePwZ8QusHBYU9tP8qAqdSsC0H544fAFZeTlSXPTiJP8qINAr/O8C08Iy1NHFvA==";
+        };
+        _NGw9E6ig = {
+            "id" = "NGw9E6ig";
+            "file" = "rs_integration-1.4.3.jar";
+            "hash" = "sha512-t0nT/7gh+h2cqOZb7ehI3Jve+9ZoVoZrYP4Bchm3FZMtx8nRzImZKsADUn96VSW5LebG7nzxkehWGAqH6+AA8w==";
+        };
+        _dSKgLpYQ = {
+            "id" = "dSKgLpYQ";
+            "file" = "rs_integration-1.4.4.jar";
+            "hash" = "sha512-ra2/fxoTopCYHq9mkuj1ywERGQzALAbLN8tOjjShKFSJiXgCG8J0l7FUkDgM1rGjcL9DRNWGLX9fgOzxqxxCSQ==";
+        };
     in {
         "U2SS31Yn" = _U2SS31Yn;
         "MHm8uj2Y" = _MHm8uj2Y;
@@ -56,7 +76,11 @@ let
         "CPw35ZG2" = _CPw35ZG2;
         "7QzPDZeE" = _7QzPDZeE;
         "f799GYMm" = _f799GYMm;
-        "forge-1.20.1" = _f799GYMm;
+        "PGmSaZav" = _PGmSaZav;
+        "sUFw2OTD" = _sUFw2OTD;
+        "NGw9E6ig" = _NGw9E6ig;
+        "dSKgLpYQ" = _dSKgLpYQ;
+        "forge-1.20.1" = _dSKgLpYQ;
         "pkg-1.2.9" = _U2SS31Yn;
         "pkg-1.3.1-fix" = _MHm8uj2Y;
         "pkg-1.3.2" = _mQd0KwpF;
@@ -66,7 +90,11 @@ let
         "pkg-1.4.0" = _CPw35ZG2;
         "pkg-1.4.1" = _7QzPDZeE;
         "pkg-1.4.1fix" = _f799GYMm;
-        "default" = _f799GYMm;
+        "pkg-1.4.2" = _PGmSaZav;
+        "pkg-1.4.2.1" = _sUFw2OTD;
+        "pkg-1.4.3" = _NGw9E6ig;
+        "pkg-1.4.4" = _dSKgLpYQ;
+        "default" = _dSKgLpYQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rs-integration";

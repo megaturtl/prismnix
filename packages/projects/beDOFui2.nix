@@ -41,6 +41,16 @@ let
             "file" = "respectmytrims-1.2.0+mc26.1.jar";
             "hash" = "sha512-wWndFORTbssOsphZGURs5QfbBW1znyn0OjvFElnhBkYX9K3JmHU2F3llmYMQLQzeZPBZxJFtHzLDLkBkNt98CQ==";
         };
+        _zJAzkYJz = {
+            "id" = "zJAzkYJz";
+            "file" = "respectmytrims-1.3.0+mc26.2.jar";
+            "hash" = "sha512-LC5DjOrVziHQqRo2I62FY2PA4tibQpnB5xvQWOi0sUWZ94wyYltI6ifjdCvF1z2P0VMAWBTouZBqCqHZ3Dg9Xw==";
+        };
+        _N5gIgcHp = {
+            "id" = "N5gIgcHp";
+            "file" = "respectmytrims-1.4.0+mc26.3.jar";
+            "hash" = "sha512-K7I2+ttwdlv4lX29BpbXcCvEFw+b3fP2L0vf/AxPg8YNtfWDgAjhKWljLn2cxEoX654oGltacTtjiethNRly/g==";
+        };
     in {
         "jRBd51oo" = _jRBd51oo;
         "mnl0O1DP" = _mnl0O1DP;
@@ -50,6 +60,8 @@ let
         "UAUrRSUI" = _UAUrRSUI;
         "1mGTlkZN" = _1mGTlkZN;
         "YpLYq62r" = _YpLYq62r;
+        "zJAzkYJz" = _zJAzkYJz;
+        "N5gIgcHp" = _N5gIgcHp;
         "fabric-1.21.5" = _1mGTlkZN;
         "fabric-25w15a" = _jRBd51oo;
         "fabric-25w17a" = _jRBd51oo;
@@ -105,6 +117,8 @@ let
         "fabric-26.1" = _YpLYq62r;
         "fabric-26.1.1" = _YpLYq62r;
         "fabric-26.1.2" = _YpLYq62r;
+        "fabric-26.2" = _zJAzkYJz;
+        "fabric-26.3" = _N5gIgcHp;
         "quilt-1.21.5" = _1mGTlkZN;
         "quilt-1.21.6-pre1" = _1mGTlkZN;
         "quilt-1.21.6-pre2" = _1mGTlkZN;
@@ -142,6 +156,8 @@ let
         "quilt-26.1" = _YpLYq62r;
         "quilt-26.1.1" = _YpLYq62r;
         "quilt-26.1.2" = _YpLYq62r;
+        "quilt-26.2" = _zJAzkYJz;
+        "quilt-26.3" = _N5gIgcHp;
         "pkg-1.0.0+mc1.21.5" = _jRBd51oo;
         "pkg-1.0.0+mc1.21" = _mnl0O1DP;
         "pkg-1.0.0+mc1.21.2" = _fcHtK8TH;
@@ -150,7 +166,9 @@ let
         "pkg-1.0.0+mc1.20.5" = _UAUrRSUI;
         "pkg-1.1.0+mc1.21.5" = _1mGTlkZN;
         "pkg-1.2.0+mc26.1" = _YpLYq62r;
-        "default" = _YpLYq62r;
+        "pkg-1.3.0+mc26.2" = _zJAzkYJz;
+        "pkg-1.4.0+mc26.3" = _N5gIgcHp;
+        "default" = _N5gIgcHp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "respect-my-trims";

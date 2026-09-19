@@ -76,6 +76,11 @@ let
             "file" = "BorderlessVulkan-1.0.1+26.1.X.jar";
             "hash" = "sha512-rha/8rZVqhws+uaSvEeOkwf9vEXSko9MDJclq5t8LULC6G6wgjm9YewWcXFmeMlXrcauHJoKMgOiJf3942iTiA==";
         };
+        _KRDu25Av = {
+            "id" = "KRDu25Av";
+            "file" = "BorderlessVulkan-26.3.jar";
+            "hash" = "sha512-kVy/Ebt8Mxt6d/rGlMeUl6XhnVFruR6P65tCnlGsfFAFRwlgk3ZYr7lpv1xFOpmB9nvN9FidlI5QllrGsN3dnQ==";
+        };
     in {
         "SFrJEoRS" = _SFrJEoRS;
         "LocGTUj9" = _LocGTUj9;
@@ -92,6 +97,7 @@ let
         "BE1Ic4m4" = _BE1Ic4m4;
         "ramifLwp" = _ramifLwp;
         "bctAxa9S" = _bctAxa9S;
+        "KRDu25Av" = _KRDu25Av;
         "fabric-1.21" = _ramifLwp;
         "fabric-1.21.1" = _ramifLwp;
         "fabric-1.21.2" = _ramifLwp;
@@ -104,9 +110,10 @@ let
         "fabric-1.21.9" = _ramifLwp;
         "fabric-1.21.10" = _ramifLwp;
         "fabric-1.21.11" = _ramifLwp;
-        "fabric-26.1" = _bctAxa9S;
-        "fabric-26.1.1" = _bctAxa9S;
-        "fabric-26.1.2" = _bctAxa9S;
+        "fabric-26.1" = _KRDu25Av;
+        "fabric-26.1.1" = _KRDu25Av;
+        "fabric-26.1.2" = _KRDu25Av;
+        "fabric-26.3" = _KRDu25Av;
         "pkg-1.0.0+1.21" = _SFrJEoRS;
         "pkg-1.0.0+1.21.1" = _LocGTUj9;
         "pkg-1.0.0+1.21.2" = _hUvqgcWc;
@@ -122,7 +129,8 @@ let
         "pkg-26.1.X" = _BE1Ic4m4;
         "pkg-1.0.1+1.21.X" = _ramifLwp;
         "pkg-1.0.1+26.1.X" = _bctAxa9S;
-        "default" = _bctAxa9S;
+        "pkg-26.3" = _KRDu25Av;
+        "default" = _KRDu25Av;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "borderless-windowed-vulkan";

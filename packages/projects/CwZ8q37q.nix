@@ -56,6 +56,11 @@ let
             "file" = "aeroclaims-0.9.3.jar";
             "hash" = "sha512-P/xEwGovEoUkW+WeiGs/K918LKlEAo1+091LCos2f2Mxa4iX2QU6bQ4lX4E0WNHJcG9xhmHwSpPHocIGQfyyQA==";
         };
+        _dWMRSgEu = {
+            "id" = "dWMRSgEu";
+            "file" = "aeroclaims-0.9.4.jar";
+            "hash" = "sha512-0Pp7LTc5iwwbd22ZFvrSEEh1S+53BfauKevZ6NeuGfkkbl0zL91dRmPczxe2Geqe3D4HJw9LlvKJi+2pndVPqw==";
+        };
     in {
         "8IfOuySV" = _8IfOuySV;
         "gZ9dxaNF" = _gZ9dxaNF;
@@ -68,8 +73,9 @@ let
         "V4YtnlzK" = _V4YtnlzK;
         "zf1J88om" = _zf1J88om;
         "uiaf6a6u" = _uiaf6a6u;
+        "dWMRSgEu" = _dWMRSgEu;
         "forge-1.20.1" = _8IfOuySV;
-        "neoforge-1.21.1" = _uiaf6a6u;
+        "neoforge-1.21.1" = _dWMRSgEu;
         "pkg-0.0.1" = _8IfOuySV;
         "pkg-0.8" = _gZ9dxaNF;
         "pkg-0.8.1" = _g9VhapmX;
@@ -81,7 +87,8 @@ let
         "pkg-0.9.1" = _V4YtnlzK;
         "pkg-0.9.2" = _zf1J88om;
         "pkg-0.9.3" = _uiaf6a6u;
-        "default" = _uiaf6a6u;
+        "pkg-0.9.4" = _dWMRSgEu;
+        "default" = _dWMRSgEu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aeronautics-claims";

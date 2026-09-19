@@ -101,6 +101,11 @@ let
             "file" = "delightlib-26.06.23-26.2-fabric.jar";
             "hash" = "sha512-XNAYrN8+taSko8qrp0vJM0NDf8Ny/ti1KU8swBQd/zrYW9SDP6qmem6gCPrZVjrauE/4wlmXuNFfSShkN6GdbA==";
         };
+        _dABf1m0k = {
+            "id" = "dABf1m0k";
+            "file" = "delightlib-26.09.16-26.3-fabric.jar";
+            "hash" = "sha512-ZE6aSlGNsEqkSPKNZAO8641lL9j1OLuQImdtA2cFf5AJk1UoHwnc+ONV/J2xySQpaYThRSJWEp4jYXrnxmIK3A==";
+        };
     in {
         "Vt6XyNgy" = _Vt6XyNgy;
         "nPNKsWHa" = _nPNKsWHa;
@@ -122,6 +127,7 @@ let
         "tPYOmX52" = _tPYOmX52;
         "ebOG9o9B" = _ebOG9o9B;
         "SjphfJS9" = _SjphfJS9;
+        "dABf1m0k" = _dABf1m0k;
         "forge-1.20" = _1lt5savO;
         "forge-1.20.1" = _1lt5savO;
         "neoforge-1.20" = _1lt5savO;
@@ -137,6 +143,7 @@ let
         "fabric-26.1.2" = _tPYOmX52;
         "fabric-1.21.11" = _ebOG9o9B;
         "fabric-26.2" = _SjphfJS9;
+        "fabric-26.3" = _dABf1m0k;
         "pkg-26.05.01-1.20-forge" = _Vt6XyNgy;
         "pkg-26.05.01-1.21-neoforge" = _nPNKsWHa;
         "pkg-26.05.03-1.20-fabric" = _dMt0r4AO;
@@ -156,7 +163,8 @@ let
         "pkg-26.05.18-26.1-fabric" = _tPYOmX52;
         "pkg-26.05.20-1.21.11-fabric" = _ebOG9o9B;
         "pkg-26.06.23-26.2-fabric" = _SjphfJS9;
-        "default" = _SjphfJS9;
+        "pkg-26.09.16-26.3-fabric" = _dABf1m0k;
+        "default" = _dABf1m0k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "delight-lib";

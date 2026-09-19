@@ -86,6 +86,16 @@ let
             "file" = "releaserewards-neoforge-3.0.2.jar";
             "hash" = "sha512-TYzTt+bcKqIxolQly1ufZNpiXodCcNmtb2T9yV2wW2vyTv18020+AsgPp9isxeTGyKqxaTr0CjnxywYEM2sDNg==";
         };
+        _LhIHf2Xu = {
+            "id" = "LhIHf2Xu";
+            "file" = "releaserewards-fabric-3.0.3.jar";
+            "hash" = "sha512-Svjmy9nJ5fUo3wLenTYPGI872+4VmDh/KdM6CLLgCZCQfx3kEL7KF+CaWZpr8438SB7TdvnWiaI2VXxKcSlFkw==";
+        };
+        _PXsx5x0U = {
+            "id" = "PXsx5x0U";
+            "file" = "releaserewards-neoforge-3.0.3.jar";
+            "hash" = "sha512-wAbCPHC4NlrdymBrHeCjNyyEIpfR34mAohdBJulE6tkioPph5WpFlwRc9LB1DgQ0+mqINXsRCiuuIfrVeZ9+ag==";
+        };
     in {
         "fT9gIu7m" = _fT9gIu7m;
         "tOb9nEh3" = _tOb9nEh3;
@@ -104,8 +114,10 @@ let
         "4r9mQ793" = _4r9mQ793;
         "6o1Q0OIJ" = _6o1Q0OIJ;
         "xx4TIUtN" = _xx4TIUtN;
-        "neoforge-1.21.1" = _xx4TIUtN;
-        "fabric-1.21.1" = _6o1Q0OIJ;
+        "LhIHf2Xu" = _LhIHf2Xu;
+        "PXsx5x0U" = _PXsx5x0U;
+        "neoforge-1.21.1" = _PXsx5x0U;
+        "fabric-1.21.1" = _LhIHf2Xu;
         "pkg-1.1.2" = _fT9gIu7m;
         "pkg-2.0.0-NeoForge" = _tOb9nEh3;
         "pkg-2.0.0-Fabric" = _WPWzlAMG;
@@ -123,7 +135,9 @@ let
         "pkg-3.0.1-NeoForge" = _4r9mQ793;
         "pkg-3.0.2-Fabric" = _6o1Q0OIJ;
         "pkg-3.0.2-NeoForge" = _xx4TIUtN;
-        "default" = _xx4TIUtN;
+        "pkg-3.0.3-Fabric" = _LhIHf2Xu;
+        "pkg-3.0.3-NeoForge" = _PXsx5x0U;
+        "default" = _PXsx5x0U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-release-rewards";

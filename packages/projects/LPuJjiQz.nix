@@ -336,6 +336,26 @@ let
             "file" = "spawnnotification-neoforge-1.7.3-2.3.0.jar";
             "hash" = "sha512-2kMbQlpQBt8NhzlgqtPJNB/EBqiXGDKEChopGeKunpkneOISzTCaeKzBuVXCo+CS5sD+7Ftb6evwn/cD5nLVIg==";
         };
+        _MoY974Dk = {
+            "id" = "MoY974Dk";
+            "file" = "spawnnotification-fabric-1.8.0-2.3.0.jar";
+            "hash" = "sha512-jRfUnHBA6UYWuXukkahTOgC/0b1w4RdNEosoanTN8jXeZ2s/XEU1zlRECd6li6CRA70Rv5CSGmyECQXok+hwIA==";
+        };
+        _WkrGpIKV = {
+            "id" = "WkrGpIKV";
+            "file" = "spawnnotification-neoforge-1.8.0-2.3.0.jar";
+            "hash" = "sha512-vrlcujgJ5EHJSP+qrLX/G29/Jr192d7nGeKg7gBTcJEbJEngfdGW4KYAIqZoCGUurbd9NFVtOMc+SJlpwbNJtA==";
+        };
+        _U3bkS83W = {
+            "id" = "U3bkS83W";
+            "file" = "spawnnotification-fabric-1.8.1-2.3.0.jar";
+            "hash" = "sha512-/uEZTX91LqdoOdRK7zpg+P2fxm1FoEQxRMTYjz4yiw0cFIvgFFVl3n1JM36Tiqy+GwBOo+RHpGSl85t8bqc8Wg==";
+        };
+        _Pi0kveua = {
+            "id" = "Pi0kveua";
+            "file" = "spawnnotification-neoforge-1.8.1-2.3.0.jar";
+            "hash" = "sha512-OhVjXpbadvN9D+G+6SWDOA/XbN+z6s3HF7hbY9TQaqk3hEGwydnY42Rduhs8RX2hv9Ay47dwxfcTLOeUBWnfkA==";
+        };
     in {
         "NML82UMq" = _NML82UMq;
         "MgwHLhNo" = _MgwHLhNo;
@@ -404,12 +424,16 @@ let
         "V6fpGikH" = _V6fpGikH;
         "IosXrYj8" = _IosXrYj8;
         "c1PTZDb2" = _c1PTZDb2;
+        "MoY974Dk" = _MoY974Dk;
+        "WkrGpIKV" = _WkrGpIKV;
+        "U3bkS83W" = _U3bkS83W;
+        "Pi0kveua" = _Pi0kveua;
         "fabric-1.19.2" = _UN1BTDSJ;
         "fabric-1.20.1" = _G8PCV0Ha;
         "fabric-1.20.2" = _s6xwimto;
-        "fabric-1.21.1" = _IosXrYj8;
+        "fabric-1.21.1" = _U3bkS83W;
         "forge-1.20.1" = _Wwus4QWy;
-        "neoforge-1.21.1" = _c1PTZDb2;
+        "neoforge-1.21.1" = _Pi0kveua;
         "pkg-1.3-fabric-1.0.0" = _NML82UMq;
         "pkg-1.3-fabric-1.1.0" = _MgwHLhNo;
         "pkg-1.3-fabric-1.1.1" = _qF6772s5;
@@ -476,7 +500,11 @@ let
         "pkg-1.7.2-neoforge-2.3.0" = _V6fpGikH;
         "pkg-1.7.3-fabric-2.3.0" = _IosXrYj8;
         "pkg-1.7.3-neoforge-2.3.0" = _c1PTZDb2;
-        "default" = _c1PTZDb2;
+        "pkg-1.8.0-fabric-2.3.0" = _MoY974Dk;
+        "pkg-1.8.0-neoforge-2.3.0" = _WkrGpIKV;
+        "pkg-1.8.1-fabric-2.3.0" = _U3bkS83W;
+        "pkg-1.8.1-neoforge-2.3.0" = _Pi0kveua;
+        "default" = _Pi0kveua;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-spawn-notification";

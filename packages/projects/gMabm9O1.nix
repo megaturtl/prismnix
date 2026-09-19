@@ -41,6 +41,16 @@ let
             "file" = "superbwarfaredronehud-1.20.1-forge-2.0.jar";
             "hash" = "sha512-p2jADUbUMeTTB7C4aM883Hys3bPq9t8vh2AgCnO/DMB22VfFnym+Kg30edbYstZ5P8cI6aKOQ3QzOv3FoqIwAA==";
         };
+        _u2INjo74 = {
+            "id" = "u2INjo74";
+            "file" = "superbwarfaredronehud-1.21.1-neoforge-2.1.jar";
+            "hash" = "sha512-VDEME5o2hve8fqr31fPTvXNJFwdB1lWEyD4VQvuvrcNETIWaVDD4v+2oNnglREPvpDYQgXgHrFJvnf6nM7lOgA==";
+        };
+        _3Ven7UuS = {
+            "id" = "3Ven7UuS";
+            "file" = "superbwarfaredronehud-1.20.1-forge-2.1.jar";
+            "hash" = "sha512-DmpSSL0kkzxvtgKfQVHAkfNDl3Hc1svbj0jfA8hEhm2T/mJEK8+0MuAIrvy0m/ysE9WHFbs2ZjqJZcXcXxirgg==";
+        };
     in {
         "IPB1e9Bk" = _IPB1e9Bk;
         "rTPR2Ouz" = _rTPR2Ouz;
@@ -50,14 +60,17 @@ let
         "LzPfQkUW" = _LzPfQkUW;
         "6w88HOKd" = _6w88HOKd;
         "QSwoKe3P" = _QSwoKe3P;
-        "neoforge-1.21.1" = _6w88HOKd;
-        "forge-1.20.1" = _QSwoKe3P;
+        "u2INjo74" = _u2INjo74;
+        "3Ven7UuS" = _3Ven7UuS;
+        "neoforge-1.21.1" = _u2INjo74;
+        "forge-1.20.1" = _3Ven7UuS;
         "pkg-0.0.1-A" = _IPB1e9Bk;
         "pkg-0.0.5-B" = _rTPR2Ouz;
         "pkg-0.0.6" = _jifQxOOi;
         "pkg-1.0-R" = _LzPfQkUW;
         "pkg-2.0" = _QSwoKe3P;
-        "default" = _QSwoKe3P;
+        "pkg-2.1" = _3Ven7UuS;
+        "default" = _3Ven7UuS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sw-drone-hud++";

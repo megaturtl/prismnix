@@ -731,6 +731,26 @@ let
             "file" = "skyblocker-6.10.2+26.2.jar";
             "hash" = "sha512-Zc/whw/gfUZQqZtHlRQ+IMbl1sdJfLMwyjnDGPrdtTTC0DkVsIUgSofS6RQkc6pomG9ps1Xs6b3np2lSxtBziQ==";
         };
+        _BqtCjDLS = {
+            "id" = "BqtCjDLS";
+            "file" = "skyblocker-6.10.3+26.1.2.jar";
+            "hash" = "sha512-X2BxnIUSHZ+l4O/KDnJih5RP4ax0+jLXHYvdX2U6JccaqtRap3dhloS0PmewKgYoZwsNLnbkeyMnKRf4QkReoA==";
+        };
+        _Fso2KMdt = {
+            "id" = "Fso2KMdt";
+            "file" = "skyblocker-6.10.3+26.2.jar";
+            "hash" = "sha512-Yd0vm20Av2DXK8LmD9a/yKbEy5lv3wvQu2v6Rg4Cvg6PMPe3hk+NKiow7xzl5R9vvTIZHeO38HdYuvxiLgoFyA==";
+        };
+        _FWeU0Ppi = {
+            "id" = "FWeU0Ppi";
+            "file" = "skyblocker-6.10.4+26.1.2.jar";
+            "hash" = "sha512-bR0WEo4dr1214zLxrkKD0oViZQzYCutOPkRD5P296KUHA9fXJgMgqm9WvQYCbe1Y2nugIK+eqRslD92Ci7+HXw==";
+        };
+        _Kegf578l = {
+            "id" = "Kegf578l";
+            "file" = "skyblocker-6.10.4+26.2.jar";
+            "hash" = "sha512-bBH6iXSVsn97xobC0V6JChPzcmfVI8qBpbBhOtkmfevmhDNbib5cBr6nxwUmbaakgXQQFQDad6u7/oYoC/4e2w==";
+        };
     in {
         "hwgIu5hN" = _hwgIu5hN;
         "G900jWmS" = _G900jWmS;
@@ -878,6 +898,10 @@ let
         "x3Ncv7Sc" = _x3Ncv7Sc;
         "KbYW1eox" = _KbYW1eox;
         "WYJ6NdRL" = _WYJ6NdRL;
+        "BqtCjDLS" = _BqtCjDLS;
+        "Fso2KMdt" = _Fso2KMdt;
+        "FWeU0Ppi" = _FWeU0Ppi;
+        "Kegf578l" = _Kegf578l;
         "fabric-1.17.1" = _Tve0PR7d;
         "fabric-1.18" = _igdQFr0I;
         "fabric-1.18.1" = _igdQFr0I;
@@ -905,10 +929,10 @@ let
         "fabric-1.21.9" = _SFUNlSpi;
         "fabric-1.21.10" = _SFUNlSpi;
         "fabric-1.21.11" = _7MTtY24j;
-        "fabric-26.1" = _KbYW1eox;
-        "fabric-26.1.1" = _KbYW1eox;
-        "fabric-26.1.2" = _KbYW1eox;
-        "fabric-26.2" = _WYJ6NdRL;
+        "fabric-26.1" = _FWeU0Ppi;
+        "fabric-26.1.1" = _FWeU0Ppi;
+        "fabric-26.1.2" = _FWeU0Ppi;
+        "fabric-26.2" = _Kegf578l;
         "pkg-v1.0.6" = _hwgIu5hN;
         "pkg-v1.0.7" = _G900jWmS;
         "pkg-v1.0.7.1" = _HrE9UvbD;
@@ -1055,7 +1079,11 @@ let
         "pkg-v6.10.1+26.2" = _x3Ncv7Sc;
         "pkg-v6.10.2+26.1.2" = _KbYW1eox;
         "pkg-v6.10.2+26.2" = _WYJ6NdRL;
-        "default" = _WYJ6NdRL;
+        "pkg-v6.10.3+26.1.2" = _BqtCjDLS;
+        "pkg-v6.10.3+26.2" = _Fso2KMdt;
+        "pkg-v6.10.4+26.1.2" = _FWeU0Ppi;
+        "pkg-v6.10.4+26.2" = _Kegf578l;
+        "default" = _Kegf578l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skyblocker-liap";

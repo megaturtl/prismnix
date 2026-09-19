@@ -396,6 +396,16 @@ let
             "file" = "better_mcdonalds_mod-fabric-5.0.2+26.2.jar";
             "hash" = "sha512-icpGLv1xB31hYb+qNo218DU5c+MBTWCUMp/NybA1ZYmfh84efV4U7yxF348EDnZyNDVXOLKjUQkv2SkTGaHivg==";
         };
+        _A3cLRXTy = {
+            "id" = "A3cLRXTy";
+            "file" = "better_mcdonalds_mod-neoforge-5.0.3+26.3.jar";
+            "hash" = "sha512-a/uSdZsRmLSHZbAI7aIk80hFRJx7t5dYSvXdLMwL5NlSHeiiYQRyTbTgOwd00kMv1QbLpGCVvtZ91Fj75R3a6Q==";
+        };
+        _96C9DmMl = {
+            "id" = "96C9DmMl";
+            "file" = "better_mcdonalds_mod-fabric-5.0.3+26.3.jar";
+            "hash" = "sha512-eKddVKYtr5ZUIydyUivwz6DDvy6EwIe7Cmcd4B5xHfAWDOUdi8vWhEhIXTJDDKDzEg/tnoZCyCXZW7lE2RxH6g==";
+        };
     in {
         "Qm1tNuxj" = _Qm1tNuxj;
         "UWTglEvU" = _UWTglEvU;
@@ -476,6 +486,8 @@ let
         "Wd6w4ukU" = _Wd6w4ukU;
         "EiV8EY5b" = _EiV8EY5b;
         "jEmRRZWP" = _jEmRRZWP;
+        "A3cLRXTy" = _A3cLRXTy;
+        "96C9DmMl" = _96C9DmMl;
         "forge-1.20.1" = _OPE6wJ3Q;
         "forge-1.20.4" = _hONwN3JO;
         "fabric-1.20.1" = _YSF3KFGd;
@@ -496,6 +508,7 @@ let
         "fabric-26.1.1" = _iJTows0o;
         "fabric-26.1.2" = _YwY4RAJU;
         "fabric-26.2" = _jEmRRZWP;
+        "fabric-26.3" = _96C9DmMl;
         "neoforge-1.20.1" = _HM8tlkp8;
         "neoforge-1.20.4" = _IfqGNvxt;
         "neoforge-1.20.6" = _uYmcQEIE;
@@ -514,6 +527,7 @@ let
         "neoforge-26.1.1" = _lEaE0oVJ;
         "neoforge-26.1.2" = _3zRmqQoa;
         "neoforge-26.2" = _EiV8EY5b;
+        "neoforge-26.3" = _A3cLRXTy;
         "pkg-1.20.1-3.0.2" = _UWTglEvU;
         "pkg-1.20.1-3.0.0" = _23CPozvp;
         "pkg-1.20.1-3.1.0" = _71smC26R;
@@ -553,7 +567,8 @@ let
         "pkg-5.0.1+26.1.2" = _YwY4RAJU;
         "pkg-5.0.1+26.2" = _Wd6w4ukU;
         "pkg-5.0.2+26.2" = _jEmRRZWP;
-        "default" = _jEmRRZWP;
+        "pkg-5.0.3+26.3" = _96C9DmMl;
+        "default" = _96C9DmMl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-mcdonalds-mod";

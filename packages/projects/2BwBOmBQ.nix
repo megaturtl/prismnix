@@ -206,6 +206,16 @@ let
             "file" = "YungsBetterEndIsland-26.1.2-NeoForge-4.1.0.jar";
             "hash" = "sha512-Id85zpA/vNmocFhHu7BvRtZ5KDXRrKiRpmQ4j7kQTczLu6N5c7whHnn4bU+irF81K9axTcqJrgMKwTlzNroY2g==";
         };
+        _382LcHvk = {
+            "id" = "382LcHvk";
+            "file" = "YungsBetterEndIsland-26.1.2-Fabric-4.1.0.jar";
+            "hash" = "sha512-lT4k/TSTlVxnI1XCxY3rPYpOVxqetF9IgqsyRLshIbBQaw0brzzkM/K01+mSB86cvtrBcWEyyy4e/t/1pQkX3A==";
+        };
+        _o9zTzuap = {
+            "id" = "o9zTzuap";
+            "file" = "YungsBetterEndIsland-26.1.2-NeoForge-4.1.0.jar";
+            "hash" = "sha512-Z4U+EKne0qltRdxXyb780lqakOTMEtyPO+jxfMaZUuD+2eMwSreE0ObBih30hjPLW1Husk5phFdJ7fLegXaJZw==";
+        };
     in {
         "oV8ABTgb" = _oV8ABTgb;
         "TCi4C7SR" = _TCi4C7SR;
@@ -248,6 +258,8 @@ let
         "44802tFH" = _44802tFH;
         "NRGSdwmo" = _NRGSdwmo;
         "iGCLljb0" = _iGCLljb0;
+        "382LcHvk" = _382LcHvk;
+        "o9zTzuap" = _o9zTzuap;
         "forge-1.20" = _Izqhg3Va;
         "forge-1.20.1" = _Izqhg3Va;
         "forge-1.19.4" = _2o3Fyh1D;
@@ -265,14 +277,14 @@ let
         "fabric-1.21.1" = _zpUYcjIg;
         "fabric-1.21" = _zpUYcjIg;
         "fabric-1.21.4" = _44802tFH;
-        "fabric-26.1.1" = _NRGSdwmo;
-        "fabric-26.1.2" = _NRGSdwmo;
+        "fabric-26.1.1" = _382LcHvk;
+        "fabric-26.1.2" = _382LcHvk;
         "neoforge-1.20.4" = _MFm60Cd1;
         "neoforge-1.21.1" = _I52NZ1qK;
         "neoforge-1.21" = _I52NZ1qK;
         "neoforge-1.21.4" = _Y0718nVU;
-        "neoforge-26.1.1" = _iGCLljb0;
-        "neoforge-26.1.2" = _iGCLljb0;
+        "neoforge-26.1.1" = _o9zTzuap;
+        "neoforge-26.1.2" = _o9zTzuap;
         "pkg-1.20-Forge-2.0.1" = _oV8ABTgb;
         "pkg-1.20-Fabric-2.0.1" = _TCi4C7SR;
         "pkg-1.19.4-Fabric-1.1" = _GzK0DHXl;
@@ -312,9 +324,9 @@ let
         "pkg-1.21.1-NeoForge-3.1.2" = _I52NZ1qK;
         "pkg-1.21.4-NeoForge-3.4.0" = _Y0718nVU;
         "pkg-1.21.4-Fabric-3.4.0" = _44802tFH;
-        "pkg-26.1.2-Fabric-4.1.0" = _NRGSdwmo;
-        "pkg-26.1.2-NeoForge-4.1.0" = _iGCLljb0;
-        "default" = _iGCLljb0;
+        "pkg-26.1.2-Fabric-4.1.0" = _382LcHvk;
+        "pkg-26.1.2-NeoForge-4.1.0" = _o9zTzuap;
+        "default" = _o9zTzuap;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yungs-better-end-island";

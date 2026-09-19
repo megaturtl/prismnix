@@ -471,6 +471,16 @@ let
             "file" = "guitween-3.4.1-26.2+neoforge.jar";
             "hash" = "sha512-H9ZbXPBE6raPyS/yijbQfkoiTJnYTkk4Ubkkw0b1i8Qw7Oh9ieyC3teNnHCyyOqTyJRKCmAcUOJAOFL/CJBZ3Q==";
         };
+        _QFrjypeX = {
+            "id" = "QFrjypeX";
+            "file" = "guitween-3.4.2-1.20.1+forge.jar";
+            "hash" = "sha512-tiV/b7qqI/wuXW+pipjTMMW4Q/VpjotddgnQLLyvDN0Ul6HOT/3DsjAvEXpCJuP+JYec8t163PYrnqjXKaCzEw==";
+        };
+        _YmUnr3vK = {
+            "id" = "YmUnr3vK";
+            "file" = "guitween-3.4.2-1.21.1+neoforge.jar";
+            "hash" = "sha512-B3i/8zHbz81CIBfo4ysUMHUpcqXuT8uMMax/M9rJf4i2aO/FklXCbeTSeZMKDTPEEVxoIcqtCNuanv3gbFgtWA==";
+        };
     in {
         "C5bUcteR" = _C5bUcteR;
         "hvZMlAED" = _hvZMlAED;
@@ -566,8 +576,10 @@ let
         "FGtYQmW9" = _FGtYQmW9;
         "yGI2oF2K" = _yGI2oF2K;
         "6aK0RG8i" = _6aK0RG8i;
-        "forge-1.20.1" = _zipeEDNB;
-        "neoforge-1.21.1" = _xWcD4185;
+        "QFrjypeX" = _QFrjypeX;
+        "YmUnr3vK" = _YmUnr3vK;
+        "forge-1.20.1" = _QFrjypeX;
+        "neoforge-1.21.1" = _YmUnr3vK;
         "neoforge-1.21.11" = _yYaliMjP;
         "neoforge-26.1" = _FGtYQmW9;
         "neoforge-26.1.1" = _jIv0mZ5r;
@@ -611,7 +623,8 @@ let
         "pkg-3.4.0-beta" = _FNThgZvU;
         "pkg-3.4.0" = _yYaliMjP;
         "pkg-3.4.1" = _6aK0RG8i;
-        "default" = _6aK0RG8i;
+        "pkg-3.4.2" = _YmUnr3vK;
+        "default" = _YmUnr3vK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gui-tween";

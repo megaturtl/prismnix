@@ -426,6 +426,56 @@ let
             "file" = "the_obsessed-1.5.2d-neoforge-1.20.4.jar";
             "hash" = "sha512-IbtS5VyC4qNMd1ziX3jr/ZA7KUPki4Z0IXn4XABBAPJNESgxrP2p21Ome+UAb1w+uWeUSqQeVZcZkAMqFX72UA==";
         };
+        _fbinfDqW = {
+            "id" = "fbinfDqW";
+            "file" = "the_obsessed-1.5.2e-forge-1.19.2.jar";
+            "hash" = "sha512-yat8VzhnOthkiY7X2aJAiOFdxiwuzNQouQQJ3mvNf0uzNm12bxtFlko25NCN45/s35TeO7mFsFd8r90jVH93og==";
+        };
+        _OJA8GFvs = {
+            "id" = "OJA8GFvs";
+            "file" = "the_obsessed-1.5.2e-forge-1.19.4.jar";
+            "hash" = "sha512-GNHhcpFzoWM2SptJx3BEQjMOqn+l3dU+3SF5vhiS+EQSb1rhhJrHbqyHYU0SHVGsFMPvyxMb0BM34l16p3JEmA==";
+        };
+        _fSbB1Eak = {
+            "id" = "fSbB1Eak";
+            "file" = "the_obsessed-1.5.2e-forge-1.20.1.jar";
+            "hash" = "sha512-3MQdkchmcxwjC03C1PryMfNg3plcT1kHvtLO9eDY0CjiQdIWxHS6W3ptSUEzouseBa4+5T7uGx9mvxU9tkqbtQ==";
+        };
+        _5UWrGckE = {
+            "id" = "5UWrGckE";
+            "file" = "the_obsessed-1.5.2e-neoforge-1.20.4.jar";
+            "hash" = "sha512-RpQ/GIZua8Ki8cTAzKrynApDHWlS+j81YmjLAVVVBtt9I8wkkSEcQhoTHLnH6iyvcgAAVZAgc/psnmH/mE++4A==";
+        };
+        _wV0dm3Eu = {
+            "id" = "wV0dm3Eu";
+            "file" = "the_obsessed-1.5.2e-neoforge-1.21.1.jar";
+            "hash" = "sha512-qDbD/zbuI1erXXEdtLAxQVEUnBsZp7ZXgJmkEkDpnUa55nQc+NW8R4AtMbAwsM5/4lgBZBUoiojar0RMJBH1YA==";
+        };
+        _uDRkbcQQ = {
+            "id" = "uDRkbcQQ";
+            "file" = "the_obsessed-1.5.2f-forge-1.19.2.jar";
+            "hash" = "sha512-i/LeG+qfLTmd+pQ1OK0Z38WlyVEMgGVNMdJ7t1ZWuU1LwxL97k1U6aSMkXSj6p6jZgVeP/6ixmtmKxvwzxkInA==";
+        };
+        _ndor60aE = {
+            "id" = "ndor60aE";
+            "file" = "the_obsessed-1.5.2f-forge-1.19.4.jar";
+            "hash" = "sha512-2mLIY/uztPHxRr47ki3lHwtSx55Kh6KujemsBQz68o9ST/+QHCKwwxh8Yzh2rGgsrOmLcejfqiWWNlNBPXJAZw==";
+        };
+        _jDPm5sZD = {
+            "id" = "jDPm5sZD";
+            "file" = "the_obsessed-1.5.2f-forge-1.20.1.jar";
+            "hash" = "sha512-Ek2IWb88tZd7dQR5tV8oQJTpHJj0EM1JUrF1VrdUq6n9xBhvQhf/sjvQawJHuSKWp/qEixzXxO5/ce5nbnStKQ==";
+        };
+        _SIQE678f = {
+            "id" = "SIQE678f";
+            "file" = "the_obsessed-1.5.2f-neoforge-1.20.4.jar";
+            "hash" = "sha512-g3aac3NP8cM2Kk2Or8068CmXF5QabU2xs3miSfBe3RMVCi+ONg7GwBbJOniPzCXFCTEmL1sEIBZB1nx5HB2s7w==";
+        };
+        _qu2EZh66 = {
+            "id" = "qu2EZh66";
+            "file" = "the_obsessed-1.5.2f-neoforge-1.21.1.jar";
+            "hash" = "sha512-ldOx5goQ19OeUnBWpJa7chsFwIoR7ljzmNARAeb7ujngOhj/Vq/kl1db1GnZofZoQ7oPo0/hobJX8OmJ/OLxiQ==";
+        };
     in {
         "Au5RHMsN" = _Au5RHMsN;
         "OxpqTHuu" = _OxpqTHuu;
@@ -512,11 +562,21 @@ let
         "UCufXNhY" = _UCufXNhY;
         "oUNwUaAB" = _oUNwUaAB;
         "1NWTkxBx" = _1NWTkxBx;
-        "forge-1.20.1" = _oUNwUaAB;
-        "forge-1.19.2" = _TFrd3bkd;
-        "forge-1.19.4" = _UCufXNhY;
-        "neoforge-1.20.4" = _1NWTkxBx;
-        "neoforge-1.21.1" = _tlYLmSN5;
+        "fbinfDqW" = _fbinfDqW;
+        "OJA8GFvs" = _OJA8GFvs;
+        "fSbB1Eak" = _fSbB1Eak;
+        "5UWrGckE" = _5UWrGckE;
+        "wV0dm3Eu" = _wV0dm3Eu;
+        "uDRkbcQQ" = _uDRkbcQQ;
+        "ndor60aE" = _ndor60aE;
+        "jDPm5sZD" = _jDPm5sZD;
+        "SIQE678f" = _SIQE678f;
+        "qu2EZh66" = _qu2EZh66;
+        "forge-1.20.1" = _jDPm5sZD;
+        "forge-1.19.2" = _uDRkbcQQ;
+        "forge-1.19.4" = _ndor60aE;
+        "neoforge-1.20.4" = _SIQE678f;
+        "neoforge-1.21.1" = _qu2EZh66;
         "pkg-1.11-beta" = _Au5RHMsN;
         "pkg-1.12" = _OxpqTHuu;
         "pkg-1.13.1" = _rzDvEsMk;
@@ -542,7 +602,9 @@ let
         "pkg-1.5.2b" = _cN0ROfJw;
         "pkg-1.5.2c" = _DyMnPPX2;
         "pkg-1.5.2d" = _1NWTkxBx;
-        "default" = _1NWTkxBx;
+        "pkg-1.5.2e" = _wV0dm3Eu;
+        "pkg-1.5.2f" = _qu2EZh66;
+        "default" = _qu2EZh66;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "obsessed";

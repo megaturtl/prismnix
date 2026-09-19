@@ -46,6 +46,11 @@ let
             "file" = "overpacked-2.0.1-1.21.1-neoforge.jar";
             "hash" = "sha512-SJZbbkQnPhwf9sohsdr9xond97sF4L2ut5ZVdDFZuEB5wbzkY2aGXcNtLjVrexICRRIlKq466de3wxaOercUtQ==";
         };
+        _gJB2BWZ8 = {
+            "id" = "gJB2BWZ8";
+            "file" = "overpacked-2.1-1.21.1-neoforge.jar";
+            "hash" = "sha512-mjy5oFl3Tg5f26h2yl07SSItqeZSn515fC6o/fhcmErJufb/skeIEKZMNA1iJbIe1gc/BnpPtTHLjX6O15RKlA==";
+        };
     in {
         "SyQmr634" = _SyQmr634;
         "HlUmQP5J" = _HlUmQP5J;
@@ -56,13 +61,14 @@ let
         "a2GJzJxx" = _a2GJzJxx;
         "Vknptr79" = _Vknptr79;
         "iXrXz63J" = _iXrXz63J;
+        "gJB2BWZ8" = _gJB2BWZ8;
         "forge-1.20.1" = _Vknptr79;
         "forge-1.20" = _Vknptr79;
         "forge-1.20.2" = _Vknptr79;
         "forge-1.20.3" = _Vknptr79;
         "forge-1.20.4" = _Vknptr79;
         "forge-1.20.6" = _Vknptr79;
-        "neoforge-1.21.1" = _iXrXz63J;
+        "neoforge-1.21.1" = _gJB2BWZ8;
         "pkg-1.0-1.20.1" = _SyQmr634;
         "pkg-1.1-1.20.1" = _HlUmQP5J;
         "pkg-1.1-1.21.1" = _ZwvGG3ji;
@@ -72,7 +78,8 @@ let
         "pkg-2.0-1.21.1" = _a2GJzJxx;
         "pkg-2.0.1-1.20.1" = _Vknptr79;
         "pkg-2.0.1-1.21.1" = _iXrXz63J;
-        "default" = _iXrXz63J;
+        "pkg-2.1-1.21.1" = _gJB2BWZ8;
+        "default" = _gJB2BWZ8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "overpacked";

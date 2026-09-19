@@ -941,6 +941,11 @@ let
             "file" = "neepmeat-0.32.2-beta+1.20.1.jar";
             "hash" = "sha512-jH5ZTq03UmZRfqb27VVzqe4N87ngOvHcxpmKK7e8174e+IfBhMVqlvT67D+yq/vt7eue8uAKJP0EzzigjNzxGQ==";
         };
+        _ipSSwCnT = {
+            "id" = "ipSSwCnT";
+            "file" = "neepmeat-0.33.0-beta+1.20.1.jar";
+            "hash" = "sha512-lAk1IDIi/a2plfRMj/YjFZgh1OlX7HM9FyPXTF8vWtWk6zLXEfRqWmRiH3jvInXcFEMzNzob8DZR58K48wzakg==";
+        };
     in {
         "3WOS1rbl" = _3WOS1rbl;
         "Zjxitfdn" = _Zjxitfdn;
@@ -1130,11 +1135,12 @@ let
         "9GrZnHhO" = _9GrZnHhO;
         "wny6hKJy" = _wny6hKJy;
         "erHRgRX1" = _erHRgRX1;
+        "ipSSwCnT" = _ipSSwCnT;
         "fabric-1.18.2" = _UpyGZDDx;
         "fabric-1.18" = _UpyGZDDx;
         "fabric-1.18.1" = _UpyGZDDx;
         "fabric-1.19.2" = _hSGx9Rdv;
-        "fabric-1.20.1" = _erHRgRX1;
+        "fabric-1.20.1" = _ipSSwCnT;
         "pkg-0.1.1-alpha" = _3WOS1rbl;
         "pkg-0.1.2-alpha" = _Zjxitfdn;
         "pkg-0.1.3-alpha" = _H1P8DYew;
@@ -1323,7 +1329,8 @@ let
         "pkg-0.32.0-beta+1.20.1" = _9GrZnHhO;
         "pkg-0.32.1-beta+1.20.1" = _wny6hKJy;
         "pkg-0.32.2-beta+1.20.1" = _erHRgRX1;
-        "default" = _erHRgRX1;
+        "pkg-0.33.0-beta+1.20.1" = _ipSSwCnT;
+        "default" = _ipSSwCnT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "neepmeat";

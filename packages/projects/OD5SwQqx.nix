@@ -96,6 +96,11 @@ let
             "file" = "tntimer-2.2.jar";
             "hash" = "sha512-x0x8WyfdnwTvlvBO7sWorY1+n7s34MK2C7DLkcXM6qyBaCfjdiwE4ls2AqfI8k+emoyQk/17PsX4r/hcO47+2w==";
         };
+        _iHAL8XOG = {
+            "id" = "iHAL8XOG";
+            "file" = "tntimer-2.3.jar";
+            "hash" = "sha512-sW8Wjzf38m+7xdbpOZYqkxn9DHLTDHLYh2tu1TCNnk0HnbgEUBZKRKrkVztdltSOL3qbBkEO7pV0ovoYsk4L9A==";
+        };
     in {
         "gqteA7wu" = _gqteA7wu;
         "GJIkAIw3" = _GJIkAIw3;
@@ -116,6 +121,7 @@ let
         "nf4W5c2Q" = _nf4W5c2Q;
         "oC4A2OPF" = _oC4A2OPF;
         "NpqKedvq" = _NpqKedvq;
+        "iHAL8XOG" = _iHAL8XOG;
         "fabric-1.21.1" = _smUxhTDF;
         "fabric-1.21.2" = _smUxhTDF;
         "fabric-1.21.3" = _smUxhTDF;
@@ -143,6 +149,7 @@ let
         "fabric-26.1.1" = _oC4A2OPF;
         "fabric-26.1.2" = _oC4A2OPF;
         "fabric-26.2" = _NpqKedvq;
+        "fabric-26.3" = _iHAL8XOG;
         "neoforge-1.21" = _smUxhTDF;
         "neoforge-1.21.1" = _smUxhTDF;
         "neoforge-1.21.2" = _smUxhTDF;
@@ -171,7 +178,8 @@ let
         "pkg-2.0" = _nf4W5c2Q;
         "pkg-2.1" = _oC4A2OPF;
         "pkg-2.2" = _NpqKedvq;
-        "default" = _NpqKedvq;
+        "pkg-2.3" = _iHAL8XOG;
+        "default" = _iHAL8XOG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tntimer";

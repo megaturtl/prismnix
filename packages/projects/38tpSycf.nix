@@ -2501,6 +2501,16 @@ let
             "file" = "the_bumblezone-7.15.3+1.21.1-neoforge.jar";
             "hash" = "sha512-f9BMzd/cVfnJESqg7C9AA9B5U8DUVyG/UWCk2t3Urtr7wWkX2fSkW8hya2O2lnnVKPZbm1WIWwHKVWHp9KrXiw==";
         };
+        _E2D8A2nP = {
+            "id" = "E2D8A2nP";
+            "file" = "the_bumblezone-7.14.0+1.20.1-forge.jar";
+            "hash" = "sha512-b1yb6WQQMdOdB5LMw39Ci5GTclygfT57bGVZ1ZVqodb8iH0lIy1C4Y8pgp8DSN0ACUkD1nW03JUnIUxYViIH1g==";
+        };
+        _4dLLcJfs = {
+            "id" = "4dLLcJfs";
+            "file" = "the_bumblezone-7.16.0+1.21.1-neoforge.jar";
+            "hash" = "sha512-HRO20Y0YtmYAWQ3nFhFxiI2CIc8owAlCV5/degRUTBUDg/whzr+342cJItose130k8kff4iTNB8971QkvlZMgg==";
+        };
     in {
         "G53D0Hb1" = _G53D0Hb1;
         "DbEBxSSF" = _DbEBxSSF;
@@ -3002,6 +3012,8 @@ let
         "7HHJebCP" = _7HHJebCP;
         "hmH0KSl6" = _hmH0KSl6;
         "jHtMMEiy" = _jHtMMEiy;
+        "E2D8A2nP" = _E2D8A2nP;
+        "4dLLcJfs" = _4dLLcJfs;
         "forge-1.16.5" = _zWgjhwUG;
         "forge-1.18.1" = _vZdUFi2H;
         "forge-1.18.2" = _1s5rBT6B;
@@ -3010,13 +3022,13 @@ let
         "forge-1.19.2" = _7fvijmZH;
         "forge-1.19.3" = _vEMKjpxt;
         "forge-1.19.4" = _EfpqsYiV;
-        "forge-1.20.1" = _hmH0KSl6;
+        "forge-1.20.1" = _E2D8A2nP;
         "neoforge-1.20.2" = _ON2G3QWD;
         "neoforge-1.20.4" = _XKpg5gnc;
         "neoforge-1.20.1" = _xZQEPRHk;
         "neoforge-1.20.6" = _OaKkhIfs;
         "neoforge-1.21" = _y19jNgxQ;
-        "neoforge-1.21.1" = _jHtMMEiy;
+        "neoforge-1.21.1" = _4dLLcJfs;
         "pkg-1.16.5-2.4.3-forge" = _G53D0Hb1;
         "pkg-1.16.5-2.4.4-forge" = _DbEBxSSF;
         "pkg-1.16.5-2.4.5-forge" = _EEyCaG7X;
@@ -3517,7 +3529,9 @@ let
         "pkg-7.13.3+1.20.1-forge" = _7HHJebCP;
         "pkg-7.13.4+1.20.1-forge" = _hmH0KSl6;
         "pkg-7.15.3+1.21.1-neoforge" = _jHtMMEiy;
-        "default" = _jHtMMEiy;
+        "pkg-7.14.0+1.20.1-forge" = _E2D8A2nP;
+        "pkg-7.16.0+1.21.1-neoforge" = _4dLLcJfs;
+        "default" = _4dLLcJfs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-bumblezone";

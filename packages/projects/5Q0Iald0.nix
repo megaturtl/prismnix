@@ -111,6 +111,11 @@ let
             "file" = "Immortal-Coral-1.11.6+mc1.21.11.jar";
             "hash" = "sha512-6teLrSzrxys8TGi7LvpawWOR7MfLNkPt/WS9PccvpBuP3D+jb7kWNap+DGfBEFsxbuf5ZV7MkvUefKZU7l/NxQ==";
         };
+        _cE9sc7kh = {
+            "id" = "cE9sc7kh";
+            "file" = "Immortal-Coral-2.0.0+mc26.3.jar";
+            "hash" = "sha512-tswK5+kmWP9FwoTyAAO99FA7r/ZaeO1ZH2OfMlbENth3H0Dp4V6CHcbTgW38cU96h0pwQcb5AVPcdmtnLrfnew==";
+        };
     in {
         "93Af3NZH" = _93Af3NZH;
         "Kw439sU2" = _Kw439sU2;
@@ -134,6 +139,7 @@ let
         "CIFuvQko" = _CIFuvQko;
         "ZhnDrZcN" = _ZhnDrZcN;
         "FIIgBppP" = _FIIgBppP;
+        "cE9sc7kh" = _cE9sc7kh;
         "fabric-1.14.4" = _S9QpbnnX;
         "fabric-1.15.2" = _9cV4HCyO;
         "fabric-1.16.5" = _qwyYr6OE;
@@ -166,6 +172,11 @@ let
         "fabric-1.21.9" = _ZhnDrZcN;
         "fabric-1.21.10" = _ZhnDrZcN;
         "fabric-1.21.11" = _FIIgBppP;
+        "fabric-26.1" = _cE9sc7kh;
+        "fabric-26.1.1" = _cE9sc7kh;
+        "fabric-26.1.2" = _cE9sc7kh;
+        "fabric-26.2" = _cE9sc7kh;
+        "fabric-26.3" = _cE9sc7kh;
         "quilt-1.18" = _TdqMRjrn;
         "quilt-1.18.1" = _TdqMRjrn;
         "quilt-1.18.2" = _TdqMRjrn;
@@ -215,7 +226,8 @@ let
         "pkg-1.10.5" = _CIFuvQko;
         "pkg-1.10.6" = _ZhnDrZcN;
         "pkg-1.11.6" = _FIIgBppP;
-        "default" = _FIIgBppP;
+        "pkg-2.0.0" = _cE9sc7kh;
+        "default" = _cE9sc7kh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immortal-coral";

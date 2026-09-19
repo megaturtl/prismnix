@@ -101,6 +101,11 @@ let
             "file" = "ImmersiveRailroading-1.21.1-neoforge-1.11.0.jar";
             "hash" = "sha512-J1U7gfdk+/e4b6/eCRy/ZejR6Y5QGS87R6PfUpjpT4S/9QEQFok18uNOBgwoVmXv1bUQ9ef/nOjBrz5QWPnq1A==";
         };
+        _suRr2V7l = {
+            "id" = "suRr2V7l";
+            "file" = "ImmersiveRailroading-1.21.4-neoforge-1.11.0.jar";
+            "hash" = "sha512-VgWaPCzbMMUrzH4ZJ5qClifOSKr5Ls2kTkswAjd7hO7TG9T4ORGFVZL/2+Ok9/cf/+0p5IIy8MoCi2LSqrJcfA==";
+        };
     in {
         "h6YE54tP" = _h6YE54tP;
         "3gNf97as" = _3gNf97as;
@@ -122,6 +127,7 @@ let
         "4HrbF637" = _4HrbF637;
         "edpH1CFe" = _edpH1CFe;
         "U9knVEVP" = _U9knVEVP;
+        "suRr2V7l" = _suRr2V7l;
         "forge-1.12.2" = _6hzlFERw;
         "forge-1.7.10" = _uItQLbi1;
         "forge-1.10.2" = _RTdTdO88;
@@ -134,6 +140,7 @@ let
         "forge-1.19.4" = _4HrbF637;
         "forge-1.20.1" = _edpH1CFe;
         "neoforge-1.21.1" = _U9knVEVP;
+        "neoforge-1.21.4" = _suRr2V7l;
         "pkg-1.12.2-forge-1.9.1" = _h6YE54tP;
         "pkg-1.7.10-forge-1.10.0" = _3gNf97as;
         "pkg-1.10.2-forge-1.10.0" = _7YtImvrs;
@@ -154,7 +161,8 @@ let
         "pkg-1.19.4-forge-1.11.0" = _4HrbF637;
         "pkg-1.20.1-forge-1.11.0" = _edpH1CFe;
         "pkg-1.21.1-neoforge-1.11.0" = _U9knVEVP;
-        "default" = _U9knVEVP;
+        "pkg-1.11.0" = _suRr2V7l;
+        "default" = _suRr2V7l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-railroading";

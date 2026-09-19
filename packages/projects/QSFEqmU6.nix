@@ -201,6 +201,21 @@ let
             "file" = "RestoreChatLinks-0.2.6+1.20.4.jar";
             "hash" = "sha512-/nIr+1phc8NIQMb7gQkppQWl9ef5zK+ZaYV128nMkZmfGaT3vuCE5wIT2Ua/ngZ8cFOWlP7rhgEECVkBi5apNw==";
         };
+        _XOtmV8pl = {
+            "id" = "XOtmV8pl";
+            "file" = "RestoreChatLinks-0.2.6+26.1.jar";
+            "hash" = "sha512-Gaw4trAAMcd1nEjpo5pmwI3UUGIOLwOipiqtQV32M7SOwHgl5Zb4kFsZtxX1qFe+1neJsv+fc5YznLNkhou3vA==";
+        };
+        _OPs1t8hE = {
+            "id" = "OPs1t8hE";
+            "file" = "RestoreChatLinks-0.2.6+26.1.jar";
+            "hash" = "sha512-OHbUkQGCmRQN2UaEl9nCF6dZU3UpI2rz3lXr5QUBSg2TeY8UPa9y8NqYoSQX/iRol7GZKHU7pItnjkUVSWQjog==";
+        };
+        _t8gVkR6m = {
+            "id" = "t8gVkR6m";
+            "file" = "RestoreChatLinks-0.2.6+26.1.jar";
+            "hash" = "sha512-d7gyLQeUSnUn3u4rOydg+PTM+wKBMDNlS9TNjaO6jReSwfsMAgo0nZhHA+E0AJwipTcC/WwapX0uHFomLaKuyQ==";
+        };
     in {
         "M7Tcm0g6" = _M7Tcm0g6;
         "vQiojaV3" = _vQiojaV3;
@@ -242,6 +257,9 @@ let
         "BwaOVha0" = _BwaOVha0;
         "WvdwChcZ" = _WvdwChcZ;
         "oaZKs48D" = _oaZKs48D;
+        "XOtmV8pl" = _XOtmV8pl;
+        "OPs1t8hE" = _OPs1t8hE;
+        "t8gVkR6m" = _t8gVkR6m;
         "fabric-1.19.2" = _jvY26MWo;
         "fabric-1.19.3" = _YASLZUU5;
         "fabric-1.19.4" = _YASLZUU5;
@@ -264,6 +282,10 @@ let
         "fabric-1.21.9" = _WvdwChcZ;
         "fabric-1.21.10" = _WvdwChcZ;
         "fabric-1.21.11" = _WvdwChcZ;
+        "fabric-26.1" = _t8gVkR6m;
+        "fabric-26.1.1" = _t8gVkR6m;
+        "fabric-26.1.2" = _t8gVkR6m;
+        "fabric-26.2" = _t8gVkR6m;
         "forge-1.19.2" = _nP9FBnbO;
         "forge-1.19.3" = _gZz5f2kL;
         "forge-1.19.4" = _gZz5f2kL;
@@ -286,6 +308,10 @@ let
         "forge-1.21.9" = _C1khNOHU;
         "forge-1.21.10" = _C1khNOHU;
         "forge-1.21.11" = _C1khNOHU;
+        "forge-26.1" = _XOtmV8pl;
+        "forge-26.1.1" = _XOtmV8pl;
+        "forge-26.1.2" = _XOtmV8pl;
+        "forge-26.2" = _XOtmV8pl;
         "neoforge-1.20.4" = _yzJTJLd3;
         "neoforge-1.20.5" = _yzJTJLd3;
         "neoforge-1.20.6" = _yzJTJLd3;
@@ -301,6 +327,10 @@ let
         "neoforge-1.21.9" = _BwaOVha0;
         "neoforge-1.21.10" = _BwaOVha0;
         "neoforge-1.21.11" = _BwaOVha0;
+        "neoforge-26.1" = _OPs1t8hE;
+        "neoforge-26.1.1" = _OPs1t8hE;
+        "neoforge-26.1.2" = _OPs1t8hE;
+        "neoforge-26.2" = _OPs1t8hE;
         "pkg-1.19.2-0.1.0" = _M7Tcm0g6;
         "pkg-1.19.2-0.1.1" = _vQiojaV3;
         "pkg-1.19.2-0.1.2" = _9zh37ump;
@@ -334,7 +364,10 @@ let
         "pkg-0.2.6+1.21.5-neoforge" = _BwaOVha0;
         "pkg-0.2.6+1.21.5" = _WvdwChcZ;
         "pkg-0.2.6+1.20.4" = _oaZKs48D;
-        "default" = _oaZKs48D;
+        "pkg-0.2.6+26.1-forge" = _XOtmV8pl;
+        "pkg-0.2.6+26.1-neoforge" = _OPs1t8hE;
+        "pkg-0.2.6+26.1" = _t8gVkR6m;
+        "default" = _t8gVkR6m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "restore-chat-links";

@@ -81,6 +81,36 @@ let
             "file" = "berrypouch-neoforge-1.21.1-0.5.4-beta.jar";
             "hash" = "sha512-UzHBj7ej2XrTEgxxa6MzlI7awflC6ICZb437OTlTnrNdX3RI7I85idVLOdhWuoArttd1RmOvoFol3o0nrSCUWA==";
         };
+        _19kArHAg = {
+            "id" = "19kArHAg";
+            "file" = "berrypouch-neoforge-1.21.1-0.6-beta.jar";
+            "hash" = "sha512-gNvTVHtY11kx3yqbY7YYTv1zKeOLpz6qf5Vcrr3o56yj+y0pFcnox7yFuIecbVT8W1lWuClw8v1LPaccl1pD6w==";
+        };
+        _ZN5M0ZUY = {
+            "id" = "ZN5M0ZUY";
+            "file" = "berrypouch-fabric-1.21.1-0.6-beta.jar";
+            "hash" = "sha512-fZubcsHiD0x38ZTFeW/fM+trCJIArK3eFUXZ91dlVfLf0fxHSMAeJtCVEVV4gg960NT7w1qBjeqpHUCUEf4Fdg==";
+        };
+        _7yeoOVKv = {
+            "id" = "7yeoOVKv";
+            "file" = "berrypouch-neoforge-1.21.1-0.6.1-beta.jar";
+            "hash" = "sha512-DhFIa0Z1VhM9owpfHMYRiXTDxHY+CTE2GrXEPKI6Jf3Cvt9T2w6ggfur3UYTjl5wUBz4JcSkeIg9vMAcm1yNZw==";
+        };
+        _CDmmQbOR = {
+            "id" = "CDmmQbOR";
+            "file" = "berrypouch-fabric-1.21.1-0.6.1-beta.jar";
+            "hash" = "sha512-jCEtyZgCokj9sgSQS4WSe3N5Nse8zUniwHQjdQJWKVkcNFUtJKHz3w37INlwWp/eUw4VE2zwsDf0ulNV8l/qhQ==";
+        };
+        _c0b9DAWH = {
+            "id" = "c0b9DAWH";
+            "file" = "berrypouch-neoforge-1.21.1-0.6.2-beta.jar";
+            "hash" = "sha512-ejxqdKW9XuRk727I4l3Wg7VfHJzUaVXLQbx9UZ9T31vbjTvYHzRhi14QOBnMAceKx33LW40e6YuBtcIAzx+xaQ==";
+        };
+        _d0E5q1mI = {
+            "id" = "d0E5q1mI";
+            "file" = "berrypouch-fabric-1.21.1-0.6.2-beta.jar";
+            "hash" = "sha512-1382ppGmQCQhViudV+aqJayAqX2IewoaQWaac1X5PZIBptxg9fE0euiOUrGHAekfHrzhzD9KcBgnsKX0vN5flw==";
+        };
     in {
         "8QwVlNYB" = _8QwVlNYB;
         "vNTeCaaz" = _vNTeCaaz;
@@ -98,8 +128,14 @@ let
         "T8oQsIJ1" = _T8oQsIJ1;
         "3eDLfp7l" = _3eDLfp7l;
         "f04yiMTV" = _f04yiMTV;
-        "fabric-1.21.1" = _3eDLfp7l;
-        "neoforge-1.21.1" = _f04yiMTV;
+        "19kArHAg" = _19kArHAg;
+        "ZN5M0ZUY" = _ZN5M0ZUY;
+        "7yeoOVKv" = _7yeoOVKv;
+        "CDmmQbOR" = _CDmmQbOR;
+        "c0b9DAWH" = _c0b9DAWH;
+        "d0E5q1mI" = _d0E5q1mI;
+        "fabric-1.21.1" = _d0E5q1mI;
+        "neoforge-1.21.1" = _c0b9DAWH;
         "pkg-0.2.0" = _vNTeCaaz;
         "pkg-0.3.0" = _JDZS9wRW;
         "pkg-0.4.0" = _CfwKr4KL;
@@ -108,7 +144,10 @@ let
         "pkg-0.4.3" = _DRI7X33Z;
         "pkg-0.5.3" = _T8oQsIJ1;
         "pkg-0.5.4" = _f04yiMTV;
-        "default" = _f04yiMTV;
+        "pkg-0.6-beta" = _ZN5M0ZUY;
+        "pkg-0.6.1-beta" = _CDmmQbOR;
+        "pkg-0.6.2-beta" = _d0E5q1mI;
+        "default" = _d0E5q1mI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "berry-pouch";

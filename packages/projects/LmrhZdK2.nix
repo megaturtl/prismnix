@@ -351,6 +351,26 @@ let
             "file" = "adorablehamsterpets-3.6.1-1.20.1+forge.jar";
             "hash" = "sha512-0NztgU+jOwTiauV5mYNgC6+lFjbPKkhIrunh7dOZgJyZqGl8OH3tWICtAKz5DTSZey05/XCRfHjkWW42lgbhcA==";
         };
+        _ZQkOKlzt = {
+            "id" = "ZQkOKlzt";
+            "file" = "adorablehamsterpets-3.7.0-1.20.1+fabric.jar";
+            "hash" = "sha512-zJKzJYGHLPvBOvyaOGbOvJv+EyhVv5jf4wJSXWBiSiVcf6o8274DlvFPu5Gtyrj8G3mjjW2Z7qLx0oSYJvm4lw==";
+        };
+        _4OjOhm78 = {
+            "id" = "4OjOhm78";
+            "file" = "adorablehamsterpets-3.7.0-1.20.1+forge.jar";
+            "hash" = "sha512-4sNZEd03muQPhNqdnfZQ5wZlHVb/DjiDdnjqNR0oJChDVmCdqvZfQIQK+l63oDQcR7u9hRKfy5aXDWAT3bSHDg==";
+        };
+        _Jh1Sn6YC = {
+            "id" = "Jh1Sn6YC";
+            "file" = "adorablehamsterpets-3.7.0-1.21.1+fabric.jar";
+            "hash" = "sha512-h8sI9k5ZDb36AvXD/E1plcfhz525b9e6gQC9Yt0TvQz0Fx8v9xbMG06ta9YQev0+RHYO3whkKkBOKnAmWfD3yA==";
+        };
+        _LyCV3JSL = {
+            "id" = "LyCV3JSL";
+            "file" = "adorablehamsterpets-3.7.0-1.21.1+neoforge.jar";
+            "hash" = "sha512-BlEkTSqvTBJ+4YGKJJEL9mEqM7s6oHghfujGlavyy8i+EY0p7V4nH497oxbxRnZ7iIKACjhxMXeZNETbffIEGg==";
+        };
     in {
         "ygXau6Qe" = _ygXau6Qe;
         "xlfcdtUo" = _xlfcdtUo;
@@ -422,12 +442,16 @@ let
         "bQbvxMXO" = _bQbvxMXO;
         "R2Oe2Wnq" = _R2Oe2Wnq;
         "eCcYxcQl" = _eCcYxcQl;
-        "fabric-1.21.1" = _QitZ5fVO;
-        "fabric-1.20.1" = _R2Oe2Wnq;
-        "neoforge-1.21.1" = _bQbvxMXO;
-        "quilt-1.20.1" = _R2Oe2Wnq;
-        "quilt-1.21.1" = _QitZ5fVO;
-        "forge-1.20.1" = _eCcYxcQl;
+        "ZQkOKlzt" = _ZQkOKlzt;
+        "4OjOhm78" = _4OjOhm78;
+        "Jh1Sn6YC" = _Jh1Sn6YC;
+        "LyCV3JSL" = _LyCV3JSL;
+        "fabric-1.21.1" = _Jh1Sn6YC;
+        "fabric-1.20.1" = _ZQkOKlzt;
+        "neoforge-1.21.1" = _LyCV3JSL;
+        "quilt-1.20.1" = _ZQkOKlzt;
+        "quilt-1.21.1" = _Jh1Sn6YC;
+        "forge-1.20.1" = _4OjOhm78;
         "pkg-1.1.0" = _ygXau6Qe;
         "pkg-1.1.1" = _xlfcdtUo;
         "pkg-1.2.0" = _NOHOZpkQ;
@@ -498,7 +522,11 @@ let
         "pkg-3.6.1-1.21.1+neoforge" = _bQbvxMXO;
         "pkg-3.6.1-1.20.1+fabric" = _R2Oe2Wnq;
         "pkg-3.6.1-1.20.1+forge" = _eCcYxcQl;
-        "default" = _eCcYxcQl;
+        "pkg-3.7.0-1.20.1+fabric" = _ZQkOKlzt;
+        "pkg-3.7.0-1.20.1+forge" = _4OjOhm78;
+        "pkg-3.7.0-1.21.1+fabric" = _Jh1Sn6YC;
+        "pkg-3.7.0-1.21.1+neoforge" = _LyCV3JSL;
+        "default" = _LyCV3JSL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "adorable-hamster-pets";

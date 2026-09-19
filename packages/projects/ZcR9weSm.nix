@@ -1466,6 +1466,11 @@ let
             "file" = "dynamiccrosshair-9.14+26.2-fabric.jar";
             "hash" = "sha512-I9DvLPRrHCwtgrZVGr2WQccpJehZjcEvZ+GKczhCgqBM9CZeShrgf394bD+/YLgGCO52Jh2umFY0UCKJ6YvcOg==";
         };
+        _fs87t6jf = {
+            "id" = "fs87t6jf";
+            "file" = "dynamiccrosshair-9.15+26.3-fabric.jar";
+            "hash" = "sha512-qtgTox0IQbzStO2Qb4UG12QjiJQWS2l1rkXDS+jQQylzp+7wI0QKoZ0y+2vPWdh+Ea1pO2nRSjdB6mKMF4PnrQ==";
+        };
     in {
         "20bC160n" = _20bC160n;
         "zJdREVIO" = _zJdREVIO;
@@ -1760,6 +1765,7 @@ let
         "yfqIrjgD" = _yfqIrjgD;
         "sDRRBglG" = _sDRRBglG;
         "JGy4NTx0" = _JGy4NTx0;
+        "fs87t6jf" = _fs87t6jf;
         "fabric-1.18.2" = _aT7BTmm2;
         "fabric-1.18" = _aT7BTmm2;
         "fabric-1.18.1" = _aT7BTmm2;
@@ -1791,6 +1797,7 @@ let
         "fabric-26.1.1" = _yfqIrjgD;
         "fabric-26.1.2" = _yfqIrjgD;
         "fabric-26.2" = _JGy4NTx0;
+        "fabric-26.3" = _fs87t6jf;
         "forge-1.19" = _8x7iVA0A;
         "forge-1.19.1" = _8x7iVA0A;
         "forge-1.19.2" = _8x7iVA0A;
@@ -2090,7 +2097,8 @@ let
         "pkg-9.12+26.1-fabric" = _yfqIrjgD;
         "pkg-9.13+26.2-fabric" = _sDRRBglG;
         "pkg-9.14+26.2-fabric" = _JGy4NTx0;
-        "default" = _JGy4NTx0;
+        "pkg-9.15+26.3-fabric" = _fs87t6jf;
+        "default" = _fs87t6jf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dynamiccrosshair";

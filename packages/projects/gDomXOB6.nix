@@ -176,6 +176,11 @@ let
             "file" = "dimensional-inventories-2.2.2+26.2.jar";
             "hash" = "sha512-NjMXZzE1g4kdE9DvPlfpEOoyHcH9v/bPtVKgatlyCpLk0R5E0+uWU0LMjTVm3wkamfLmQk33tXgoAaGgDDU0Fg==";
         };
+        _tBgDu9rn = {
+            "id" = "tBgDu9rn";
+            "file" = "dimensional-inventories-2.2.2+26.3.jar";
+            "hash" = "sha512-Ew2/Oa4pEYC4Er88p8u4xNDojl9wl2fRXJ0bdVv/S3C4qqrrCJmtwOGjIQ6NDpzPVjb4mA6gqV/BF6o4ShduUg==";
+        };
     in {
         "FTSTEBSy" = _FTSTEBSy;
         "iXxnqDyA" = _iXxnqDyA;
@@ -212,6 +217,7 @@ let
         "UjEWmjks" = _UjEWmjks;
         "rinj5Ybd" = _rinj5Ybd;
         "O6P5q3tO" = _O6P5q3tO;
+        "tBgDu9rn" = _tBgDu9rn;
         "fabric-1.19.3" = _YKfSAsoa;
         "fabric-1.19.4" = _W4Tr0Eod;
         "fabric-1.19.2" = _4Axx0gEj;
@@ -235,6 +241,7 @@ let
         "fabric-26.1.1" = _UjEWmjks;
         "fabric-26.1.2" = _UjEWmjks;
         "fabric-26.2" = _O6P5q3tO;
+        "fabric-26.3" = _tBgDu9rn;
         "pkg-1.0.0+1.19.3" = _FTSTEBSy;
         "pkg-1.0.1+1.19.4" = _iXxnqDyA;
         "pkg-1.0.1+1.19.2" = _3GO1MQys;
@@ -270,7 +277,8 @@ let
         "pkg-2.2.1+26.1" = _UjEWmjks;
         "pkg-2.2.1+26.2" = _rinj5Ybd;
         "pkg-2.2.2+26.2" = _O6P5q3tO;
-        "default" = _O6P5q3tO;
+        "pkg-2.2.2+26.3" = _tBgDu9rn;
+        "default" = _tBgDu9rn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dimensional-inventories";

@@ -26,12 +26,18 @@ let
             "file" = "Short Shield.zip";
             "hash" = "sha512-LQWOEcIdhJoCWF1LgfU1B1hY8fo+NeUCqkkuJhN4cF4IsnzqHEUwAzeJJKnp6BGTe/C75Y2ukPKTflzEz6eJ9A==";
         };
+        _upjYsScz = {
+            "id" = "upjYsScz";
+            "file" = "Short Shield.zip";
+            "hash" = "sha512-/T45XKu+xKmqaAf/MScvjWDcFcyIgIvivR4aoKbJkbATjRIs81iXGa1IZMiEW8jfvdCP1SRqLW9RpjWO7yzO6Q==";
+        };
     in {
         "f1ZB8mXe" = _f1ZB8mXe;
         "o5LG8T8n" = _o5LG8T8n;
         "75ZvCw46" = _75ZvCw46;
         "iQmDvAC9" = _iQmDvAC9;
         "9kDSKQVa" = _9kDSKQVa;
+        "upjYsScz" = _upjYsScz;
         "minecraft-1.21.5" = _f1ZB8mXe;
         "minecraft-1.21.6" = _f1ZB8mXe;
         "minecraft-1.21.7" = _f1ZB8mXe;
@@ -43,12 +49,14 @@ let
         "minecraft-26.1.1" = _9kDSKQVa;
         "minecraft-26.1.2" = _9kDSKQVa;
         "minecraft-26.2" = _9kDSKQVa;
+        "minecraft-26.3" = _upjYsScz;
         "pkg-1.0.0" = _f1ZB8mXe;
         "pkg-1.0.1" = _o5LG8T8n;
         "pkg-1.0.2" = _75ZvCw46;
         "pkg-1.0.3" = _iQmDvAC9;
         "pkg-1.0.4" = _9kDSKQVa;
-        "default" = _9kDSKQVa;
+        "pkg-1.0.5" = _upjYsScz;
+        "default" = _upjYsScz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shortshield";

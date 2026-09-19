@@ -76,6 +76,16 @@ let
             "file" = "experienceprogress-fabric-2.0.0+26.2.jar";
             "hash" = "sha512-pkazucVSpgieg30y+XMaIuqE8waLQHWYDE09QVDI7n7y1YreJozDxBQZe3zGi7IXSuLERZUR9VhCpKM6goAAgA==";
         };
+        _cd5NThaR = {
+            "id" = "cd5NThaR";
+            "file" = "experienceprogress-neoforge-2.0.0+26.3.jar";
+            "hash" = "sha512-y0SJ+oZ5hc7aseXHDD+X5uO3V/IYIHCufcQiyMGyapBsKRpP7vHHdxqYh1znlDkWLPB6CBykBE0sQu3B7th8/g==";
+        };
+        _gHwqABOZ = {
+            "id" = "gHwqABOZ";
+            "file" = "experienceprogress-fabric-2.0.0+26.3.jar";
+            "hash" = "sha512-9SlvOPtzNR5i/boV5FRUXePwgISbYz4/ANKngWW0rZIwkwvJS3IZ2mA0/u0UnoxzJByKqPlBNWgXOLIAO6q3Rw==";
+        };
     in {
         "HI4x6DDj" = _HI4x6DDj;
         "crGptPIk" = _crGptPIk;
@@ -92,6 +102,8 @@ let
         "KCCwQ5zH" = _KCCwQ5zH;
         "Pt9KzVtu" = _Pt9KzVtu;
         "fOnuYA78" = _fOnuYA78;
+        "cd5NThaR" = _cd5NThaR;
+        "gHwqABOZ" = _gHwqABOZ;
         "fabric-1.19" = _HI4x6DDj;
         "fabric-1.19.1" = _HI4x6DDj;
         "fabric-1.19.2" = _HI4x6DDj;
@@ -120,6 +132,7 @@ let
         "fabric-26.1.1" = _yAnkoAIU;
         "fabric-26.1.2" = _yAnkoAIU;
         "fabric-26.2" = _fOnuYA78;
+        "fabric-26.3" = _gHwqABOZ;
         "quilt-1.19" = _HI4x6DDj;
         "quilt-1.19.1" = _HI4x6DDj;
         "quilt-1.19.2" = _HI4x6DDj;
@@ -155,6 +168,7 @@ let
         "neoforge-26.1.1" = _C3YsFb2W;
         "neoforge-26.1.2" = _C3YsFb2W;
         "neoforge-26.2" = _Pt9KzVtu;
+        "neoforge-26.3" = _cd5NThaR;
         "pkg-1.0.0+1.19" = _HI4x6DDj;
         "pkg-1.1.0+1.20" = _crGptPIk;
         "pkg-1.1.0+1.20.5" = _PzZoz7m4;
@@ -170,7 +184,9 @@ let
         "pkg-2.0.0+26.2-forge" = _KCCwQ5zH;
         "pkg-2.0.0+26.2-neoforge" = _Pt9KzVtu;
         "pkg-2.0.0+26.2-fabric" = _fOnuYA78;
-        "default" = _fOnuYA78;
+        "pkg-2.0.0+26.3-neoforge" = _cd5NThaR;
+        "pkg-2.0.0+26.3-fabric" = _gHwqABOZ;
+        "default" = _gHwqABOZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "experience-progress";

@@ -31,6 +31,11 @@ let
             "file" = "Vanilla Emissive Ores.zip";
             "hash" = "sha512-pH4e3vTd+QfddQapslceBT6G3GMegdmSBui2lbKUN0GF5ne4qORIF3Hk/ghLH26S4PPJK1vIior6t2KZu/vpfA==";
         };
+        _LdWXBPQd = {
+            "id" = "LdWXBPQd";
+            "file" = "Vanilla Emissive Ores.zip";
+            "hash" = "sha512-PXNRjr9jo1uehKKRQ5RJTi8lbofoTuf8rvm3u/wNGzJO5hguu5Jk89A9yXXHOxUjaATdZlJGViuZWwajK5f5XQ==";
+        };
     in {
         "3A0Uec65" = _3A0Uec65;
         "m3CgUctg" = _m3CgUctg;
@@ -38,21 +43,26 @@ let
         "jcA2XzOZ" = _jcA2XzOZ;
         "FrXs7rVz" = _FrXs7rVz;
         "TR92wSVV" = _TR92wSVV;
+        "LdWXBPQd" = _LdWXBPQd;
         "minecraft-24w33a" = _3A0Uec65;
         "minecraft-24w34a" = _m3CgUctg;
         "minecraft-1.21.8" = _rV01naKv;
         "minecraft-1.21.9" = _jcA2XzOZ;
         "minecraft-1.21.10" = _jcA2XzOZ;
         "minecraft-1.21.11" = _FrXs7rVz;
-        "minecraft-26.1" = _TR92wSVV;
-        "minecraft-26.1.1" = _TR92wSVV;
+        "minecraft-26.1" = _LdWXBPQd;
+        "minecraft-26.1.1" = _LdWXBPQd;
+        "minecraft-26.1.2" = _LdWXBPQd;
+        "minecraft-26.2" = _LdWXBPQd;
+        "minecraft-26.3" = _LdWXBPQd;
         "pkg-1.0.0" = _3A0Uec65;
         "pkg-1.1.0" = _m3CgUctg;
         "pkg-1.2.0" = _rV01naKv;
         "pkg-1.3.0" = _jcA2XzOZ;
         "pkg-1.4.0" = _FrXs7rVz;
         "pkg-1.5.0" = _TR92wSVV;
-        "default" = _TR92wSVV;
+        "pkg-1.6.0" = _LdWXBPQd;
+        "default" = _LdWXBPQd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-emissive-ores";

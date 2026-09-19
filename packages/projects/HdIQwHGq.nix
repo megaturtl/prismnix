@@ -201,6 +201,116 @@ let
             "file" = "lostcities-modern-tweaks-v3.0.0.zip";
             "hash" = "sha512-Td0FiZQFfaGQUm1yD8+0iV3oZs28ZcVQX9hya7aIhKGfVGzJl66e5Lv0+a2iv7cjnPr9zQ9muVqf50F0oIbd/w==";
         };
+        _D5ksH67K = {
+            "id" = "D5ksH67K";
+            "file" = "lostcities-modern-tweaks-v1.1.0.jar";
+            "hash" = "sha512-NfGvW7h7417z63H3LCidCJx19nMPzkO2lHuu98BW1Z1UXKzIDHTxm93oipSUkmKVEqQ5Ft6zK1i+Vsd1fbQq7w==";
+        };
+        _SRDbxwYR = {
+            "id" = "SRDbxwYR";
+            "file" = "lostcities-modern-tweaks-v1.1.0.zip";
+            "hash" = "sha512-UjkTf4ulwbYvJ+S3cEPln8XaKrEeWOQ1RSQ0a1bUj7HP/Of9OitaJrHs6HvohEdDMCK5FbKqriCMXBWqc28Pdw==";
+        };
+        _VVQunVLq = {
+            "id" = "VVQunVLq";
+            "file" = "lostcities-modern-tweaks-v1.1.1.jar";
+            "hash" = "sha512-KIkQYe0vCzH4gHBeRP3iRNbCCXtO0nt2+/CGqdkZZYTC9shbSBiYYLGRC2WfoiSS9P3fZtEMdDSxjstN52ndQQ==";
+        };
+        _7oqmIla8 = {
+            "id" = "7oqmIla8";
+            "file" = "lostcities-modern-tweaks-v1.1.1.zip";
+            "hash" = "sha512-hsXTtKnaVqgZdwVO6PQBYyw7lKgemgCMUab6IIP5ob/PoC+Ho+GNPXj4yk/o69hkfOMfq1CLNGt7F1kdQNQE6Q==";
+        };
+        _jTHcVrrW = {
+            "id" = "jTHcVrrW";
+            "file" = "lostcities-modern-tweaks-v2.1.0.jar";
+            "hash" = "sha512-pr9F4XPX4hUIgrWVIpcNZ+7X159ncnkh9LHOEpGm/ddy46oRxRnusNJTu9LydJo6OohCu1Ur16Mb5DQ8LhEL1w==";
+        };
+        _KW28MoMY = {
+            "id" = "KW28MoMY";
+            "file" = "lostcities-modern-tweaks-v2.1.0.zip";
+            "hash" = "sha512-cO4pXnsavcVp265evF7/9mqB2HzR9hkkwvxew3n7ATZHqi/5tfQBiiAMvSgG3m/emPzEXzvBTdi0xiPoLE9nwg==";
+        };
+        _RuP4JASX = {
+            "id" = "RuP4JASX";
+            "file" = "lostcities-modern-tweaks-v3.1.0.jar";
+            "hash" = "sha512-oELagoQ4ot+1LHVCtcpDAOW8uz7+ghSvejs3VfeWNgrjvf92jj0DSXKis9/AWLfdV7FbKHDqiEpmQJJdg9cuGg==";
+        };
+        _5GLp7gkH = {
+            "id" = "5GLp7gkH";
+            "file" = "lostcities-modern-tweaks-v3.1.0.zip";
+            "hash" = "sha512-qCDtvQUQV6zOUi2W3ga2hsOw8DrpZ7RqxxSyZZI7zJ/EnaUZeSQVkynuHP+kXyIGkMuCxBlo6S6+Pj6UMMXQjQ==";
+        };
+        _zVoPV4bS = {
+            "id" = "zVoPV4bS";
+            "file" = "lostcities-modern-tweaks-v4.0.0.jar";
+            "hash" = "sha512-KkzRA6c+KZBiome2RXr/9mLrqgeD4TUolmXty/zOrDBa+9p2a1pVzaE+M62APN39r1UMi4t51o93jW177BMnSQ==";
+        };
+        _tnfAd6lo = {
+            "id" = "tnfAd6lo";
+            "file" = "lostcities-modern-tweaks-v4.0.0.zip";
+            "hash" = "sha512-evWgzCxakFUPIHkFruWpaMY23qWQKjIPqYrvJ4MIQfOWOBbCWNUlvRKcGU76hnwZ98nYVuJ3KaYWwbV0wEcpfw==";
+        };
+        _RQz2T6nS = {
+            "id" = "RQz2T6nS";
+            "file" = "lostcities-modern-tweaks-v5.0.0.jar";
+            "hash" = "sha512-r5ihxJcpuaGzhCsFsbYoASstfDxMYztbSWtlBf8Y/fzgz0Xjf2p83mQdQMdrDUb9Sz3N0dXbYrUL0dMk0yqDaA==";
+        };
+        _AAvOLlQI = {
+            "id" = "AAvOLlQI";
+            "file" = "lostcities-modern-tweaks-v5.0.0.zip";
+            "hash" = "sha512-cPvwpgMMjkQHXoeH2DvUper3k9l15ijt+vJzglvWG3FzyEeeEYTwMl+ZXkiv0qOzafdFvS7heRvO5G4W0u0HTA==";
+        };
+        _BWJEXXxe = {
+            "id" = "BWJEXXxe";
+            "file" = "lostcities-modern-tweaks-v1.1.2.jar";
+            "hash" = "sha512-Ue/owj5xjfqJCYQlAecgWaBtvNmkfywtdaVUudyNQ1lbYG+oHOTe7CwMv0aXilvS8S95r8qS3k2jQrycj6zTpQ==";
+        };
+        _QMeF5oDr = {
+            "id" = "QMeF5oDr";
+            "file" = "lostcities-modern-tweaks-v1.1.2.zip";
+            "hash" = "sha512-iCpGfq9Aela/EUUesJNDUFidPiJ7jimA+1GYaJjZjlcVYr0RnsBzXcqq5x2P3CRYiYMVAvgvs6Yb/gGTLleKVw==";
+        };
+        _xGbh2WVe = {
+            "id" = "xGbh2WVe";
+            "file" = "lostcities-modern-tweaks-v2.1.1.jar";
+            "hash" = "sha512-Qe1qYI0f6fJ2GT+wu5BYe/IxEx71r3s3DcyQ/EGpIrBVVV88N6lUrJn/Qi1Mlcc9ntSJEhc7QVOID8JwkJLtpQ==";
+        };
+        _3WAjLeV6 = {
+            "id" = "3WAjLeV6";
+            "file" = "lostcities-modern-tweaks-v2.1.1.zip";
+            "hash" = "sha512-/VJmMhgfkxzpZre3LBJ0SVwQrK7xejxabYBlToZ7pT7gGJARSWTALh2HyVuAeWfmR/YuuMZrqEoM0z99UfOCgg==";
+        };
+        _MOcgySHw = {
+            "id" = "MOcgySHw";
+            "file" = "lostcities-modern-tweaks-v3.1.1.jar";
+            "hash" = "sha512-y2M2YHupR3Ry9bYWXJ59A7IE+MYfptoXxxuT6cs8MDnLOG5xJVRjKrxw1iUB0u2hv/jekV3wQAMu7xXOJkzArA==";
+        };
+        _LeEV7qlk = {
+            "id" = "LeEV7qlk";
+            "file" = "lostcities-modern-tweaks-v3.1.1.zip";
+            "hash" = "sha512-HCVXoL9IodMT2X8+TwBjrLzk+rILARQ/7rKYjel6ssq3CrlNpHPvwmLmgnElQnPsB20oDo6nEIiF8MHuhwjwCQ==";
+        };
+        _VWk6D1qI = {
+            "id" = "VWk6D1qI";
+            "file" = "lostcities-modern-tweaks-v4.0.1.jar";
+            "hash" = "sha512-XzFOPiKDNooDjNHM8mzDYjb+CoZI+VynS0B70qBS7lEswKnLc2sBtqpNE4HOts5nIR8fZoJp3vhqITmM63ytUg==";
+        };
+        _V9IgZv70 = {
+            "id" = "V9IgZv70";
+            "file" = "lostcities-modern-tweaks-v4.0.1.zip";
+            "hash" = "sha512-ZmAH0Q5CbzNVTfYvVj8WT66Ug7MQbiw8NnCwKqtVQjUbHK8E4MuJ5HZclTsMqA4GK02+7f8SJmFvOToQ+jKDsw==";
+        };
+        _i6sYdEVj = {
+            "id" = "i6sYdEVj";
+            "file" = "lostcities-modern-tweaks-v5.0.1.jar";
+            "hash" = "sha512-wkQtaBb43jbceU1jy+qyMHdXwYqbSaJ2AO/Xwhq19O0Lv9/7AFI7hjFC8Cd4oAnKgVTc0XiC3v8ZclC0lbfpKw==";
+        };
+        _NW7Gkjh1 = {
+            "id" = "NW7Gkjh1";
+            "file" = "lostcities-modern-tweaks-v5.0.1.zip";
+            "hash" = "sha512-T299/ypp4xpfCFI3W+1GzSKlNYGUvCPDBf0u9BYUkeie2pgKl+rj/33z1lHeLmsYaya8d0rguXMUhLYun4DvCA==";
+        };
     in {
         "gF8LFEbW" = _gF8LFEbW;
         "wpcpGIfr" = _wpcpGIfr;
@@ -242,12 +352,39 @@ let
         "lxQJMqGM" = _lxQJMqGM;
         "Cl0DYAhv" = _Cl0DYAhv;
         "JOINXVc6" = _JOINXVc6;
-        "forge-1.20.1" = _eNQ8HIeG;
-        "datapack-1.20.1" = _6LFh2i48;
-        "datapack-1.21.1" = _lxQJMqGM;
-        "datapack-1.21.11" = _JOINXVc6;
-        "neoforge-1.21.1" = _jSiag2bY;
-        "neoforge-1.21.11" = _Cl0DYAhv;
+        "D5ksH67K" = _D5ksH67K;
+        "SRDbxwYR" = _SRDbxwYR;
+        "VVQunVLq" = _VVQunVLq;
+        "7oqmIla8" = _7oqmIla8;
+        "jTHcVrrW" = _jTHcVrrW;
+        "KW28MoMY" = _KW28MoMY;
+        "RuP4JASX" = _RuP4JASX;
+        "5GLp7gkH" = _5GLp7gkH;
+        "zVoPV4bS" = _zVoPV4bS;
+        "tnfAd6lo" = _tnfAd6lo;
+        "RQz2T6nS" = _RQz2T6nS;
+        "AAvOLlQI" = _AAvOLlQI;
+        "BWJEXXxe" = _BWJEXXxe;
+        "QMeF5oDr" = _QMeF5oDr;
+        "xGbh2WVe" = _xGbh2WVe;
+        "3WAjLeV6" = _3WAjLeV6;
+        "MOcgySHw" = _MOcgySHw;
+        "LeEV7qlk" = _LeEV7qlk;
+        "VWk6D1qI" = _VWk6D1qI;
+        "V9IgZv70" = _V9IgZv70;
+        "i6sYdEVj" = _i6sYdEVj;
+        "NW7Gkjh1" = _NW7Gkjh1;
+        "forge-1.20.1" = _BWJEXXxe;
+        "datapack-1.20.1" = _QMeF5oDr;
+        "datapack-1.21.1" = _3WAjLeV6;
+        "datapack-1.21.11" = _LeEV7qlk;
+        "datapack-26.1.2" = _V9IgZv70;
+        "datapack-26.2" = _NW7Gkjh1;
+        "neoforge-1.21.1" = _xGbh2WVe;
+        "neoforge-1.21.11" = _MOcgySHw;
+        "neoforge-26.1.2" = _VWk6D1qI;
+        "neoforge-26.2" = _i6sYdEVj;
+        "fabric-26.2" = _i6sYdEVj;
         "pkg-1.0.0" = _wpcpGIfr;
         "pkg-1.0.1" = _eCl8mKyz;
         "pkg-1.0.2" = _DOpoOFpP;
@@ -268,7 +405,18 @@ let
         "pkg-1.0.10" = _6LFh2i48;
         "pkg-2.0.7" = _lxQJMqGM;
         "pkg-3.0.0" = _JOINXVc6;
-        "default" = _JOINXVc6;
+        "pkg-1.1.0" = _SRDbxwYR;
+        "pkg-1.1.1" = _7oqmIla8;
+        "pkg-2.1.0" = _KW28MoMY;
+        "pkg-3.1.0" = _5GLp7gkH;
+        "pkg-4.0.0" = _tnfAd6lo;
+        "pkg-5.0.0" = _AAvOLlQI;
+        "pkg-1.1.2" = _QMeF5oDr;
+        "pkg-2.1.1" = _3WAjLeV6;
+        "pkg-3.1.1" = _LeEV7qlk;
+        "pkg-4.0.1" = _V9IgZv70;
+        "pkg-5.0.1" = _NW7Gkjh1;
+        "default" = _NW7Gkjh1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lost-cities-modern-tweaks";

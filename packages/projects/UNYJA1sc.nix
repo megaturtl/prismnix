@@ -86,6 +86,11 @@ let
             "file" = "NoDarkness-Fabric-26.2.jar";
             "hash" = "sha512-67qRbFDgYMNqx2waPvdPclKt54/n52g9GTHlPzlSg6FaHyNoI5o/4Oj+Ze9v8lkhGCFkQMDf/hUi9Ba6cjcfsA==";
         };
+        _fseAKshe = {
+            "id" = "fseAKshe";
+            "file" = "NoDarkness-Fabric-26.3.jar";
+            "hash" = "sha512-9GAu2KLllhVZbNRw+RJ1+XiHoX/etMPFvGqg6eghu/Bavp0vI1g6tZsVgVdFQHrnFbCZM8TzvgKRnbC+bOSJjQ==";
+        };
     in {
         "pTR4jkOr" = _pTR4jkOr;
         "vZzbEhkV" = _vZzbEhkV;
@@ -104,6 +109,7 @@ let
         "c1iW9mkq" = _c1iW9mkq;
         "Z1ui3xGu" = _Z1ui3xGu;
         "DNkgtrs0" = _DNkgtrs0;
+        "fseAKshe" = _fseAKshe;
         "fabric-1.21.8" = _pTR4jkOr;
         "fabric-1.21.7" = _vZzbEhkV;
         "fabric-1.21.6" = _ZjPnWPDt;
@@ -125,6 +131,7 @@ let
         "fabric-26.1.1" = _c1iW9mkq;
         "fabric-26.1.2" = _Z1ui3xGu;
         "fabric-26.2" = _DNkgtrs0;
+        "fabric-26.3" = _fseAKshe;
         "forge-1.21.6" = _vZ2bo13O;
         "forge-1.21.7" = _vZ2bo13O;
         "forge-1.21.8" = _vZ2bo13O;
@@ -150,7 +157,8 @@ let
         "pkg-26.1.1_Fabric" = _c1iW9mkq;
         "pkg-26.1.2_Fabric" = _Z1ui3xGu;
         "pkg-26.2_Fabric" = _DNkgtrs0;
-        "default" = _DNkgtrs0;
+        "pkg-26.3_Fabric" = _fseAKshe;
+        "default" = _fseAKshe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-darkness";

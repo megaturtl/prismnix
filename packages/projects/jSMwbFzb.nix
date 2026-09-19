@@ -96,6 +96,11 @@ let
             "file" = "Simple Structures Nostalgia 26.2.jar";
             "hash" = "sha512-390P/I5ja+ZfNMdSS2aND7+Td0GnldmBsWTXdkBKdz0OBe+NI4SsFTNTlKQk7eQHQ8MZ60L73jEFv9tARamZbg==";
         };
+        _gW3T9P4H = {
+            "id" = "gW3T9P4H";
+            "file" = "Simple Structures Nostalgia 26.3.jar";
+            "hash" = "sha512-pG2YUhv1PwnEqfiM90C11j2JRfI5rrK3yQPLzV9ikG7ao5/6XR3wdJ5jy9mb8ivBAUqKCzvVOfOgMwj7z2Vw5w==";
+        };
     in {
         "t4PMEhT5" = _t4PMEhT5;
         "2EjX26hb" = _2EjX26hb;
@@ -116,6 +121,7 @@ let
         "iItIBxFe" = _iItIBxFe;
         "Zug4izxy" = _Zug4izxy;
         "wN5BBme1" = _wN5BBme1;
+        "gW3T9P4H" = _gW3T9P4H;
         "datapack-1.20" = _ytvkOLyq;
         "datapack-1.20.1" = _ytvkOLyq;
         "datapack-1.21.10" = _CIWlau78;
@@ -139,6 +145,7 @@ let
         "fabric-26.2-snapshot-5" = _okjcYDoY;
         "fabric-26.2-snapshot-6" = _okjcYDoY;
         "fabric-26.2" = _wN5BBme1;
+        "fabric-26.3" = _gW3T9P4H;
         "forge-1.20" = _2EjX26hb;
         "forge-1.20.1" = _DmkqS41l;
         "forge-1.21.10" = _iItIBxFe;
@@ -152,6 +159,7 @@ let
         "forge-26.2-snapshot-5" = _okjcYDoY;
         "forge-26.2-snapshot-6" = _okjcYDoY;
         "forge-26.2" = _wN5BBme1;
+        "forge-26.3" = _gW3T9P4H;
         "neoforge-26.1" = _Zug4izxy;
         "neoforge-26.1.1" = _Zug4izxy;
         "neoforge-26.1.2" = _Zug4izxy;
@@ -161,10 +169,12 @@ let
         "neoforge-26.2-snapshot-5" = _okjcYDoY;
         "neoforge-26.2-snapshot-6" = _okjcYDoY;
         "neoforge-26.2" = _wN5BBme1;
+        "neoforge-26.3" = _gW3T9P4H;
         "pkg-1.0" = _eJfWrKXE;
         "pkg-1.1" = _okjcYDoY;
         "pkg-1.2" = _wN5BBme1;
-        "default" = _wN5BBme1;
+        "pkg-1.2.1" = _gW3T9P4H;
+        "default" = _gW3T9P4H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-structure-nostalgia";

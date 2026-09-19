@@ -36,6 +36,11 @@ let
             "file" = "shureee's Potions CIT v1.0.3.zip";
             "hash" = "sha512-585PXfpJEYwBGkaMVIsvriKoM1fVPsOQzMreZ3h7dMolVvVVxVaJaQr4EEkGypymSQvo1BWgitloqDlAkwYmfQ==";
         };
+        _dnLC2HIH = {
+            "id" = "dnLC2HIH";
+            "file" = "shureee's Potions.zip";
+            "hash" = "sha512-c8jgnnAFTeKjWHRgdGq4eYwQvdNIoX6SWa/TKnRjOo4ceIDSHwodV2vJ7CA/lYuYGYvSGylWa6vRsI0/z6mkDw==";
+        };
     in {
         "YBxyXDts" = _YBxyXDts;
         "1uQnA54F" = _1uQnA54F;
@@ -44,12 +49,13 @@ let
         "9deLpxAI" = _9deLpxAI;
         "Jjt9sNMF" = _Jjt9sNMF;
         "RK1pPQ2K" = _RK1pPQ2K;
-        "minecraft-1.21.5" = _Jjt9sNMF;
-        "minecraft-1.21.6" = _Jjt9sNMF;
-        "minecraft-1.21.7" = _Jjt9sNMF;
-        "minecraft-1.21.8" = _Jjt9sNMF;
-        "minecraft-1.21.9" = _Jjt9sNMF;
-        "minecraft-1.21.10" = _Jjt9sNMF;
+        "dnLC2HIH" = _dnLC2HIH;
+        "minecraft-1.21.5" = _dnLC2HIH;
+        "minecraft-1.21.6" = _dnLC2HIH;
+        "minecraft-1.21.7" = _dnLC2HIH;
+        "minecraft-1.21.8" = _dnLC2HIH;
+        "minecraft-1.21.9" = _dnLC2HIH;
+        "minecraft-1.21.10" = _dnLC2HIH;
         "minecraft-1.20.5" = _RK1pPQ2K;
         "minecraft-1.20.6" = _RK1pPQ2K;
         "minecraft-1.21" = _RK1pPQ2K;
@@ -87,16 +93,18 @@ let
         "minecraft-1.20.2" = _RK1pPQ2K;
         "minecraft-1.20.3" = _RK1pPQ2K;
         "minecraft-1.20.4" = _RK1pPQ2K;
-        "minecraft-1.21.11" = _Jjt9sNMF;
-        "minecraft-26.1" = _Jjt9sNMF;
-        "minecraft-26.1.1" = _Jjt9sNMF;
-        "minecraft-26.1.2" = _Jjt9sNMF;
-        "minecraft-26.2" = _Jjt9sNMF;
+        "minecraft-1.21.11" = _dnLC2HIH;
+        "minecraft-26.1" = _dnLC2HIH;
+        "minecraft-26.1.1" = _dnLC2HIH;
+        "minecraft-26.1.2" = _dnLC2HIH;
+        "minecraft-26.2" = _dnLC2HIH;
+        "minecraft-26.3" = _dnLC2HIH;
         "pkg-1.0" = _YBxyXDts;
         "pkg-1.0.1" = _1uQnA54F;
         "pkg-1.0.2" = _9deLpxAI;
         "pkg-1.0.3" = _RK1pPQ2K;
-        "default" = _RK1pPQ2K;
+        "pkg-2.0" = _dnLC2HIH;
+        "default" = _dnLC2HIH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shureees-potions";

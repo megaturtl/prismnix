@@ -36,6 +36,11 @@ let
             "file" = "ResourcePackExtractor-1.0.7.jar";
             "hash" = "sha512-r27ReZ705jqxwcTlQ+J46RMnBYGbxYm2Tj2r42WBoV+ricS5lOjHVQxI5RYQO300VK2aNPNzw84HBFgfyfuw2Q==";
         };
+        _k47PKPfq = {
+            "id" = "k47PKPfq";
+            "file" = "ResourcePackExtractor-1.1.0.jar";
+            "hash" = "sha512-DBasqpXaIOV0tsdB79UmBZJOned4s7TrNi+pZLWoyPcCYi9Vvl0sPu1Kyw2gOgPDFsv0DqY+FvGRNCpX3Y+MHw==";
+        };
     in {
         "16JJbGPd" = _16JJbGPd;
         "MqHkrAGB" = _MqHkrAGB;
@@ -44,11 +49,12 @@ let
         "wadkufFq" = _wadkufFq;
         "oDIXpdSk" = _oDIXpdSk;
         "Pfq3PMA2" = _Pfq3PMA2;
+        "k47PKPfq" = _k47PKPfq;
         "fabric-1.21.8" = _16JJbGPd;
         "fabric-1.21.10" = _uJZIu5ES;
         "fabric-1.21.11" = _UWLqB6RI;
         "fabric-26.1.2" = _wadkufFq;
-        "fabric-26.2" = _Pfq3PMA2;
+        "fabric-26.2" = _k47PKPfq;
         "pkg-1.0.1" = _16JJbGPd;
         "pkg-1.0.2" = _MqHkrAGB;
         "pkg-1.0.3" = _uJZIu5ES;
@@ -56,7 +62,8 @@ let
         "pkg-1.0.5" = _wadkufFq;
         "pkg-1.0.6" = _oDIXpdSk;
         "pkg-1.0.7" = _Pfq3PMA2;
-        "default" = _Pfq3PMA2;
+        "pkg-1.1.0" = _k47PKPfq;
+        "default" = _k47PKPfq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "resourcepackextractor";

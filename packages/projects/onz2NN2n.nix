@@ -71,6 +71,16 @@ let
             "file" = "armor_model_api-neoforge-1.1.0+26.2.jar";
             "hash" = "sha512-AynXKUJLUfv0fk5VXv6C9VoXEFHPxhQaIRx9r5j02jvPXVTSKnxOGcOZSB5x1C3xwXLIYhpGWvfpCtLEhhXDTA==";
         };
+        _HzpM9IVR = {
+            "id" = "HzpM9IVR";
+            "file" = "armor_model_api-forge-1.0.0+1.20.1.jar";
+            "hash" = "sha512-2K579l5Gc+NBJSGtW45/0eOYV8Weq4Upt5bsYvgZbLcG/89ueg3X2TbfxmzYnAup+oq/LdMTDDu7WRTkCCSh/w==";
+        };
+        _1yvucvYz = {
+            "id" = "1yvucvYz";
+            "file" = "armor_model_api-fabric-1.0.0+1.20.1.jar";
+            "hash" = "sha512-MCoFua1WZTqsZyf/h5a+DxYzvU0zXRcO/jK4cSV2qBuXVO5N3yC1xwHRseAzVhWvaAQUZuyNoXPhP0kzLNK5cw==";
+        };
     in {
         "gIb3aWKR" = _gIb3aWKR;
         "qGblo23U" = _qGblo23U;
@@ -86,18 +96,23 @@ let
         "9lB9XqU4" = _9lB9XqU4;
         "D2jWJAGh" = _D2jWJAGh;
         "kUSvVTaI" = _kUSvVTaI;
+        "HzpM9IVR" = _HzpM9IVR;
+        "1yvucvYz" = _1yvucvYz;
         "fabric-1.21.1" = _eqjiejBH;
         "fabric-1.21.11" = _gp2M1Kgd;
         "fabric-26.1" = _1YJELY2B;
         "fabric-26.1.1" = _1YJELY2B;
         "fabric-26.1.2" = _1YJELY2B;
         "fabric-26.2" = _D2jWJAGh;
+        "fabric-1.20.1" = _1yvucvYz;
         "neoforge-1.21.1" = _QRkmKYGJ;
         "neoforge-1.21.11" = _xxj8GvZf;
         "neoforge-26.1" = _9lB9XqU4;
         "neoforge-26.1.1" = _9lB9XqU4;
         "neoforge-26.1.2" = _9lB9XqU4;
         "neoforge-26.2" = _kUSvVTaI;
+        "neoforge-1.20.1" = _HzpM9IVR;
+        "forge-1.20.1" = _HzpM9IVR;
         "pkg-1.0.0+1.21.1-fabric" = _gIb3aWKR;
         "pkg-1.0.0+1.21.1-neoforge" = _qGblo23U;
         "pkg-1.0.2+1.21.11-neoforge" = _O3dbcE7E;
@@ -110,7 +125,9 @@ let
         "pkg-1.1.0+1.21.1-neoforge" = _QRkmKYGJ;
         "pkg-1.1.0+26.2-fabric" = _D2jWJAGh;
         "pkg-1.1.0+26.2-neoforge" = _kUSvVTaI;
-        "default" = _kUSvVTaI;
+        "pkg-1.0.0+1.20.1-forge" = _HzpM9IVR;
+        "pkg-1.0.0+1.20.1-fabric" = _1yvucvYz;
+        "default" = _1yvucvYz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armor-model-api";

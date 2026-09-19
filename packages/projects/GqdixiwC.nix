@@ -261,6 +261,21 @@ let
             "file" = "tooltrims-2.0.10+tt3.0.x+mc26.1.2.jar";
             "hash" = "sha512-655z0Sq67yfPM8N4GPThvkSowQqC20l2lpC0F94jNikF0Qays+L067/bHQ2zQ/tPmmVy+blaifP1JvIAUxoTMQ==";
         };
+        _gmqlOVux = {
+            "id" = "gmqlOVux";
+            "file" = "tooltrims-2.0.10-alpha1+tt3.0.x+mc26.3.jar";
+            "hash" = "sha512-Tqw63lG4lV/6Fh5gqenvMgT6acHOvurB5FHWPev3syvCLL5M6GUV6T7FoYm52Xj51WgyrwZesqb1GLLXLk2G7Q==";
+        };
+        _E4vrX0uJ = {
+            "id" = "E4vrX0uJ";
+            "file" = "tooltrims-2.0.10-alpha2+tt3.0.x+mc26.3.jar";
+            "hash" = "sha512-s/MFniJc8l5f3pYLpCcrQKyxbAcjs23NuNa6A45ME2EFWGSUNZXOOahZRh46sPdJDotZ0JrMHr6n64UMRE/zCA==";
+        };
+        _PQ271azb = {
+            "id" = "PQ271azb";
+            "file" = "tooltrims-2.0.10-beta1+tt3.0.x+mc26.3.jar";
+            "hash" = "sha512-Zp3lg1nYg7mgm6Dm+v5wz+y3rr5XYOatVun1caYNwkS56ojPmnzkxbY7QxKWC5BzfQZFN2vRhtSQNz/N0Is+iQ==";
+        };
     in {
         "WRtppsyl" = _WRtppsyl;
         "dw2LtBRK" = _dw2LtBRK;
@@ -314,6 +329,9 @@ let
         "SpstlVDE" = _SpstlVDE;
         "Hbyk0zuB" = _Hbyk0zuB;
         "TL0qjIrc" = _TL0qjIrc;
+        "gmqlOVux" = _gmqlOVux;
+        "E4vrX0uJ" = _E4vrX0uJ;
+        "PQ271azb" = _PQ271azb;
         "fabric-1.20" = _scwcAaKL;
         "fabric-1.20.1" = _scwcAaKL;
         "fabric-1.20.2" = _dw2LtBRK;
@@ -348,6 +366,8 @@ let
         "fabric-26.2-rc-1" = _8XWSNWql;
         "fabric-26.2-rc-2" = _8XWSNWql;
         "fabric-26.2" = _Hbyk0zuB;
+        "fabric-26.3-pre-3" = _E4vrX0uJ;
+        "fabric-26.3" = _PQ271azb;
         "quilt-1.20" = _scwcAaKL;
         "quilt-1.20.1" = _scwcAaKL;
         "quilt-1.20.2" = _dw2LtBRK;
@@ -413,7 +433,10 @@ let
         "pkg-2.0.9+tt3.0.x+mc26.1.2" = _SpstlVDE;
         "pkg-2.0.10+tt3.0.x+mc26.2" = _Hbyk0zuB;
         "pkg-2.0.10+tt3.0.x+mc26.1.2" = _TL0qjIrc;
-        "default" = _TL0qjIrc;
+        "pkg-2.0.10-alpha1+tt3.0.x+mc26.3" = _gmqlOVux;
+        "pkg-2.0.10-alpha2+tt3.0.x+mc26.3" = _E4vrX0uJ;
+        "pkg-2.0.10-beta1+tt3.0.x+mc26.3" = _PQ271azb;
+        "default" = _PQ271azb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tool-trims-mod";

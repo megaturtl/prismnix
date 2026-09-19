@@ -626,6 +626,41 @@ let
             "file" = "resourcestrees-fabric-26.2-26.2.0.1.jar";
             "hash" = "sha512-2EzohyYylsNNwDdW9rAoqg5okiO+QSdwMexkSMfAFkkqToXWoosN+Jy65LWPP9cTJUVuD6x0OSPOaEtbPVUyRA==";
         };
+        _W3IH4v0x = {
+            "id" = "W3IH4v0x";
+            "file" = "resourcestrees-1.8.0+mc1.21.1-neoforge.jar";
+            "hash" = "sha512-PMUCYRiyRZ+eK1dqsGvs+RrON0ejtTsg05nwNwmw/JGbOKnFrUelXpYycelyDk22LuhyRzwhZdpmGCT37RB4Lg==";
+        };
+        _ugtxe1Wq = {
+            "id" = "ugtxe1Wq";
+            "file" = "resourcestrees-neoforge-26.1.2-26.1.2.203.jar";
+            "hash" = "sha512-/YGD+xoshvZB7bICL0u70gjfwk2pNP4gkyQ7MHloIr12P80EY3J2n8B69e8uGlUVdFIqZ95Q4HdcYszRGZZR/w==";
+        };
+        _wmKWnsfF = {
+            "id" = "wmKWnsfF";
+            "file" = "resourcestrees-fabric-26.1.2-26.1.2.203.jar";
+            "hash" = "sha512-QIazyyFNbRu5qhb7RTGXGl7HKOGSdKXBw+gjPJvAqng1mlTZnd3kSRaNidm3P6K4AiZxcayUg6VsW/OIXsyItA==";
+        };
+        _7pLIENHL = {
+            "id" = "7pLIENHL";
+            "file" = "resourcestrees-neoforge-26.2-26.2.0.2.jar";
+            "hash" = "sha512-w4sqIiyhcIOxSqzMRK0wIZ6RkrPp8zS+YoQv0QYPdsZi53+lurJGfYNNt35AcaVrWou8ZR9CRsVE5piLRHr/tg==";
+        };
+        _bh5oXaGq = {
+            "id" = "bh5oXaGq";
+            "file" = "resourcestrees-fabric-26.2-26.2.0.2.jar";
+            "hash" = "sha512-2t77CL6kORb6E73ialguRCLnWyL/TUX5UqgthULKBst5KrxGyvkCPYylD1CTUw1u/xfb9pMk5EngDV2/ougbwA==";
+        };
+        _ok13oQJ8 = {
+            "id" = "ok13oQJ8";
+            "file" = "resourcestrees-neoforge-26.3-26.3.0.0.jar";
+            "hash" = "sha512-VRu9VgV7lBcIIkBeAA01TW8ouMTF3oDZFD1q21EyuVDpmK+hXxIub19v/GVOu4lGUVbJEj89ZOmAL3pqZNUh3A==";
+        };
+        _Oom2PBJL = {
+            "id" = "Oom2PBJL";
+            "file" = "resourcestrees-fabric-26.3-26.3.0.0.jar";
+            "hash" = "sha512-I4sTfruKul98C7EdMUhQh0ws2wIErg+Mi+kt+obd01Ds+owoVZFrWv/sFh0wF3RR34rf/A8G/5OY9MSf5oKCrw==";
+        };
     in {
         "L7WbjWC2" = _L7WbjWC2;
         "Yrx4FC8G" = _Yrx4FC8G;
@@ -752,6 +787,13 @@ let
         "yOsayeKn" = _yOsayeKn;
         "8qQFane6" = _8qQFane6;
         "69uLkwqs" = _69uLkwqs;
+        "W3IH4v0x" = _W3IH4v0x;
+        "ugtxe1Wq" = _ugtxe1Wq;
+        "wmKWnsfF" = _wmKWnsfF;
+        "7pLIENHL" = _7pLIENHL;
+        "bh5oXaGq" = _bh5oXaGq;
+        "ok13oQJ8" = _ok13oQJ8;
+        "Oom2PBJL" = _Oom2PBJL;
         "forge-1.20.1" = _PyvaN2yN;
         "forge-1.21.9" = _PYOrmk9v;
         "forge-1.21.10" = _hho0ILr1;
@@ -764,10 +806,11 @@ let
         "fabric-26.1-snapshot-7" = _i3RfeS7d;
         "fabric-26.1" = _XMQYEors;
         "fabric-26.1.1" = _XMQYEors;
-        "fabric-26.1.2" = _XcIxJcN7;
-        "fabric-26.2" = _69uLkwqs;
+        "fabric-26.1.2" = _wmKWnsfF;
+        "fabric-26.2" = _bh5oXaGq;
         "fabric-26.3-snapshot-1" = _wKxvUPOy;
-        "neoforge-1.21.1" = _6BGsBQTu;
+        "fabric-26.3" = _Oom2PBJL;
+        "neoforge-1.21.1" = _W3IH4v0x;
         "neoforge-1.21.9" = _7UKD0zXS;
         "neoforge-1.21.10" = _5jKEAG6X;
         "neoforge-1.21.11" = _45ka1rLN;
@@ -776,9 +819,10 @@ let
         "neoforge-26.1-snapshot-7" = _U4EUUs7N;
         "neoforge-26.1" = _eVs6PTgJ;
         "neoforge-26.1.1" = _eVs6PTgJ;
-        "neoforge-26.1.2" = _yOsayeKn;
-        "neoforge-26.2" = _8qQFane6;
+        "neoforge-26.1.2" = _ugtxe1Wq;
+        "neoforge-26.2" = _7pLIENHL;
         "neoforge-26.3-snapshot-1" = _2YHIPh3a;
+        "neoforge-26.3" = _ok13oQJ8;
         "pkg-1.0.0+mc1.20.1-forge" = _L7WbjWC2;
         "pkg-1.0.0+mc1.21.1-fabric" = _Yrx4FC8G;
         "pkg-1.0.0+mc1.21.1-neoforge" = _lxv9QjoA;
@@ -887,7 +931,11 @@ let
         "pkg-26.3.0+snapshot-1" = _wKxvUPOy;
         "pkg-26.1.2.202" = _yOsayeKn;
         "pkg-26.2.0.1" = _69uLkwqs;
-        "default" = _69uLkwqs;
+        "pkg-1.8.0+mc1.21.1-neoforge" = _W3IH4v0x;
+        "pkg-26.1.2.203" = _wmKWnsfF;
+        "pkg-26.2.0.2" = _bh5oXaGq;
+        "pkg-26.3.0.0" = _Oom2PBJL;
+        "default" = _Oom2PBJL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "resourcestrees";

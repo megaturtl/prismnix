@@ -141,6 +141,16 @@ let
             "file" = "nolittering-neoforge-26.2-26.2.0.1.jar";
             "hash" = "sha512-4AqZyF03Y9GiSwjJsXRbyg5hFK/uRQUGXPZhSNQoxJWzBTIi4Gy1RZi0R0810+CJ6HGsLTU33uzxegjfyppKsw==";
         };
+        _jQkQHRom = {
+            "id" = "jQkQHRom";
+            "file" = "nolittering-fabric-26.3-26.3.0.1.jar";
+            "hash" = "sha512-M4O4lAQbRml4Jh0dIXyADz3n/ldFz0eMLRx7qalUsbT5pHVgb2K4I56vWhRZX28crm7s5DkloN/B11qaky0W+A==";
+        };
+        _k0CdQbVh = {
+            "id" = "k0CdQbVh";
+            "file" = "nolittering-neoforge-26.3-26.3.0.1.jar";
+            "hash" = "sha512-LA3/v3drIRB5mK4OVwx0LguJ741EJBxt+7SQwX0t/RlA91Fm1uBxrq4ciIKc17ajVnjrpyOnAvQsBlZKc+K2sw==";
+        };
     in {
         "UxloYa6t" = _UxloYa6t;
         "pQGLLi9U" = _pQGLLi9U;
@@ -170,6 +180,8 @@ let
         "1IrcRfWz" = _1IrcRfWz;
         "wDvgr9zO" = _wDvgr9zO;
         "JKEQlKKd" = _JKEQlKKd;
+        "jQkQHRom" = _jQkQHRom;
+        "k0CdQbVh" = _k0CdQbVh;
         "fabric-1.21.5-pre1" = _UxloYa6t;
         "fabric-1.21.5-pre2" = _UxloYa6t;
         "fabric-1.21.5-pre3" = _UxloYa6t;
@@ -186,6 +198,7 @@ let
         "fabric-26.1.1" = _nn398T2N;
         "fabric-26.1.2" = _nn398T2N;
         "fabric-26.2" = _wDvgr9zO;
+        "fabric-26.3" = _jQkQHRom;
         "neoforge-1.21.5" = _m8gn3WvY;
         "neoforge-1.21.6" = _nyGqhcWp;
         "neoforge-1.21.7" = _am9qHdtR;
@@ -197,6 +210,7 @@ let
         "neoforge-26.1.1" = _1IrcRfWz;
         "neoforge-26.1.2" = _1IrcRfWz;
         "neoforge-26.2" = _JKEQlKKd;
+        "neoforge-26.3" = _k0CdQbVh;
         "forge-1.21.5" = _qJwlDoOG;
         "forge-1.21.6" = _aNQCUFpp;
         "forge-1.21.7" = _kFMGHwZd;
@@ -231,7 +245,9 @@ let
         "pkg-26.1.0.1+neoforge-26.1" = _1IrcRfWz;
         "pkg-26.2.0.1+fabric-26.2" = _wDvgr9zO;
         "pkg-26.2.0.1+neoforge-26.2" = _JKEQlKKd;
-        "default" = _JKEQlKKd;
+        "pkg-26.3.0.1+fabric-26.3" = _jQkQHRom;
+        "pkg-26.3.0.1+neoforge-26.3" = _k0CdQbVh;
+        "default" = _k0CdQbVh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-littering";

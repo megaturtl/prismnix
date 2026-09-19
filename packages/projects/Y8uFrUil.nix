@@ -411,6 +411,16 @@ let
             "file" = "ukulib-neoforge-2.1.1+26.2.jar";
             "hash" = "sha512-n0KH2zOAJjZ3znvltVlNPClWm4WWnHhAKiJGK5+IudHqEuSN/eViF2yCUX6oYtdAQiC1aq8c7uX0IpGf7hkj5Q==";
         };
+        _whtjB9LL = {
+            "id" = "whtjB9LL";
+            "file" = "ukulib-fabric-2.2.0+26.3.jar";
+            "hash" = "sha512-9VwNzUQdh6QaEQ7/maluqxcjHXnqoj/sf23iQ7KNTh5GWeLD2OK48TUF66QHhkWspH1zUZZc75OjpZbdosN00Q==";
+        };
+        _1Nyhqk7H = {
+            "id" = "1Nyhqk7H";
+            "file" = "ukulib-neoforge-2.2.0+26.3.jar";
+            "hash" = "sha512-jIrS0mjEu8MEhbNrCEBXQ51WMtJTrj97OW0HKb6XAwiabFyu5qFa/ohYUz0VlvCYWPQHSplHJDcLlamdiPiB4g==";
+        };
     in {
         "ROBm5KUg" = _ROBm5KUg;
         "t3dTrbBg" = _t3dTrbBg;
@@ -494,6 +504,8 @@ let
         "PAPoNLyD" = _PAPoNLyD;
         "olOAyH3N" = _olOAyH3N;
         "cdpT9ZLN" = _cdpT9ZLN;
+        "whtjB9LL" = _whtjB9LL;
+        "1Nyhqk7H" = _1Nyhqk7H;
         "fabric-1.19" = _ZNKGIHGC;
         "fabric-1.18.2" = _XlsUf9hq;
         "fabric-1.14.4" = _9u5DAv0V;
@@ -533,6 +545,7 @@ let
         "fabric-26.1.1" = _asZKdLUQ;
         "fabric-26.1.2" = _asZKdLUQ;
         "fabric-26.2" = _olOAyH3N;
+        "fabric-26.3" = _whtjB9LL;
         "quilt-1.19.3" = _BshYumVb;
         "quilt-1.19.2" = _genLDUJY;
         "quilt-1.18.2" = _XlsUf9hq;
@@ -570,11 +583,13 @@ let
         "quilt-26.1.1" = _asZKdLUQ;
         "quilt-26.1.2" = _asZKdLUQ;
         "quilt-26.2" = _olOAyH3N;
+        "quilt-26.3" = _whtjB9LL;
         "neoforge-26.1-snapshot-2" = _LembNerX;
         "neoforge-26.1" = _HDipXwe3;
         "neoforge-26.1.1" = _HDipXwe3;
         "neoforge-26.1.2" = _HDipXwe3;
         "neoforge-26.2" = _cdpT9ZLN;
+        "neoforge-26.3" = _1Nyhqk7H;
         "pkg-0.1.0+1.19" = _ROBm5KUg;
         "pkg-0.1.1+1.18.2" = _t3dTrbBg;
         "pkg-0.1.1+1.19" = _Zu2KswJp;
@@ -656,7 +671,9 @@ let
         "pkg-2.1.0+26.2-neoforge" = _PAPoNLyD;
         "pkg-2.1.1+26.2-fabric" = _olOAyH3N;
         "pkg-2.1.1+26.2-neoforge" = _cdpT9ZLN;
-        "default" = _cdpT9ZLN;
+        "pkg-2.2.0+26.3-fabric" = _whtjB9LL;
+        "pkg-2.2.0+26.3-neoforge" = _1Nyhqk7H;
+        "default" = _1Nyhqk7H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ukulib";

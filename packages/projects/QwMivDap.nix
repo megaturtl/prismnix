@@ -196,6 +196,11 @@ let
             "file" = "mmmmm-1.0.7.jar";
             "hash" = "sha512-3RL/HR+h3FWYNP4Kk7/rZAzj4IalfQgjY68I/PZ1JtK5kWi8OVbPbVxLMCeQNTFPfRMbekO5zszdo3FJtwL0HA==";
         };
+        _yMXkVRNd = {
+            "id" = "yMXkVRNd";
+            "file" = "mmmmm-1.0.0.jar";
+            "hash" = "sha512-ovxlpcnNX9HHeuoe426owCKowX3w04JtYYHkbzfqmko9seuT0ApMsjN7DmCNE13sx3c8iVzfWgui7SnW9mIg4w==";
+        };
     in {
         "Dz4UHZsy" = _Dz4UHZsy;
         "imaozD8Y" = _imaozD8Y;
@@ -236,6 +241,7 @@ let
         "6tVE6Kb3" = _6tVE6Kb3;
         "gYPi03aN" = _gYPi03aN;
         "I1GWbEa8" = _I1GWbEa8;
+        "yMXkVRNd" = _yMXkVRNd;
         "neoforge-1.21.1" = _I1GWbEa8;
         "neoforge-1.21" = _I1GWbEa8;
         "neoforge-1.21.2" = _I1GWbEa8;
@@ -252,13 +258,13 @@ let
         "neoforge-26.1.1" = _55oNUGeG;
         "neoforge-26.1.2" = _55oNUGeG;
         "neoforge-26.2" = _55oNUGeG;
-        "forge-1.20.1" = _WLBs9jGe;
-        "forge-1.20.2" = _VXxhxgRH;
-        "forge-1.20.3" = _VXxhxgRH;
-        "forge-1.20.4" = _VXxhxgRH;
-        "forge-1.20.5" = _VXxhxgRH;
-        "forge-1.20.6" = _VXxhxgRH;
-        "forge-1.20" = _WLBs9jGe;
+        "forge-1.20.1" = _yMXkVRNd;
+        "forge-1.20.2" = _yMXkVRNd;
+        "forge-1.20.3" = _yMXkVRNd;
+        "forge-1.20.4" = _yMXkVRNd;
+        "forge-1.20.5" = _yMXkVRNd;
+        "forge-1.20.6" = _yMXkVRNd;
+        "forge-1.20" = _yMXkVRNd;
         "fabric-1.21" = _SufHotlD;
         "fabric-1.21.1" = _MVDylrCI;
         "fabric-1.21.2" = _MVDylrCI;
@@ -298,14 +304,14 @@ let
         "pkg-1.0.5-beta" = _VqwHLjFq;
         "pkg-1.0.6-beta" = _752PYXSN;
         "pkg-1.0.9-beta" = _vpd248pT;
-        "pkg-1.0.0" = _EB4jcnbm;
+        "pkg-1.0.0" = _yMXkVRNd;
         "pkg-1.0.1" = _CzlBnvRc;
         "pkg-1.0.3" = _1E5H9No9;
         "pkg-1.0.4" = _wfbVhWJx;
         "pkg-1.0.5" = _6tVE6Kb3;
         "pkg-1.0.6" = _gYPi03aN;
         "pkg-1.0.7" = _I1GWbEa8;
-        "default" = _I1GWbEa8;
+        "default" = _yMXkVRNd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "many-mods-made-manageable";

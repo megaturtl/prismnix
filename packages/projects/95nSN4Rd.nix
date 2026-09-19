@@ -1196,6 +1196,26 @@ let
             "file" = "bagus_lib-26.2-27.7.0.jar";
             "hash" = "sha512-KolizyZRtQgy9a3gS8xSReIt3MFvxpu1bmtQ7tEOkKE7tR7KNZpp9y2CMMc4lCdf95LGvJsYaW/22FCWyNRMUQ==";
         };
+        _VPif9tbA = {
+            "id" = "VPif9tbA";
+            "file" = "bagus_lib-1.21.1-13.27.0.jar";
+            "hash" = "sha512-JpGsvbxi11BHL8Y1GBKbKhkMQw5PH8Wd+LAAsz5lDVBh8gUL2zufZVQ01rJfzfYAebyzswN0Iz2cQ8EA0Dx9sw==";
+        };
+        _dZsj8E0c = {
+            "id" = "dZsj8E0c";
+            "file" = "bagus_lib-26.3-28.0.0.jar";
+            "hash" = "sha512-7SbQ0CFrzQBjExacY5t9Tx9ZXRlA4FwFukluX9WFZCb6XwNmD0r6Ph1rN/vSQW6cj56J8pPBPWmzxwpOT0HX9w==";
+        };
+        _hpm7DW2P = {
+            "id" = "hpm7DW2P";
+            "file" = "bagus_lib-26.3-28.1.0.jar";
+            "hash" = "sha512-S9yYQLUH7kmpvPoxsjhmsCXTu6DMOXVla6L5ixZTN6AyI5bQPdCUyWcELjt1v6ySDRtmS2Wtp+tRbgs0tRQuNA==";
+        };
+        _QVtLevIN = {
+            "id" = "QVtLevIN";
+            "file" = "bagus_lib-26.3-28.2.0.jar";
+            "hash" = "sha512-6PNMakbrbU27ApxcYKJAZU+GmtM4fs/S1Rbw7IewV4Dg9On9Q621QhbUH+qe42NOJazMwG2705+IHjEvdZhvBg==";
+        };
     in {
         "Hh01XuYV" = _Hh01XuYV;
         "b3CS9pTW" = _b3CS9pTW;
@@ -1436,6 +1456,10 @@ let
         "1o20n8gM" = _1o20n8gM;
         "eOOdpCgK" = _eOOdpCgK;
         "i2gAtgcj" = _i2gAtgcj;
+        "VPif9tbA" = _VPif9tbA;
+        "dZsj8E0c" = _dZsj8E0c;
+        "hpm7DW2P" = _hpm7DW2P;
+        "QVtLevIN" = _QVtLevIN;
         "forge-1.19.4" = _hLY9G3tt;
         "forge-1.20" = _9e0xLP7V;
         "forge-1.20.1" = _EutpppUn;
@@ -1449,7 +1473,7 @@ let
         "neoforge-1.20.5" = _PFAWynwW;
         "neoforge-1.20.6" = _6vtyctFy;
         "neoforge-1.21" = _dmNrdHcG;
-        "neoforge-1.21.1" = _1o20n8gM;
+        "neoforge-1.21.1" = _VPif9tbA;
         "neoforge-1.21.2" = _wYp1mtQ1;
         "neoforge-1.21.3" = _3MGWep06;
         "neoforge-1.21.4" = _oKp5kaqx;
@@ -1473,6 +1497,7 @@ let
         "neoforge-26.1.1" = _Po3Bt3Tv;
         "neoforge-26.1.2" = _eOOdpCgK;
         "neoforge-26.2" = _i2gAtgcj;
+        "neoforge-26.3" = _QVtLevIN;
         "pkg-1.19.4-1.3.0" = _Hh01XuYV;
         "pkg-1.19.4-1.4.0" = _b3CS9pTW;
         "pkg-1.19.4-1.4.1" = _hLY9G3tt;
@@ -1711,7 +1736,11 @@ let
         "pkg-1.21.1-13.26.0" = _1o20n8gM;
         "pkg-26.1.2-26.5.0" = _eOOdpCgK;
         "pkg-26.2-27.7.0" = _i2gAtgcj;
-        "default" = _i2gAtgcj;
+        "pkg-1.21.1-13.27.0" = _VPif9tbA;
+        "pkg-26.3-28.0.0" = _dZsj8E0c;
+        "pkg-26.3-28.1.0" = _hpm7DW2P;
+        "pkg-26.3-28.2.0" = _QVtLevIN;
+        "default" = _QVtLevIN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bagus-lib";

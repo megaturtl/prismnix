@@ -286,6 +286,16 @@ let
             "file" = "cards-1.5.1-forge-1.20.1.jar";
             "hash" = "sha512-HTO2O8ZyO9kD/GEQsiAwSGY3kbC5mAG81ws5vqZ/r1LxjO1g1JAd7Uk57Ea0fDFZw1bWCFhmyVk0Me6XdArXcw==";
         };
+        _UFZEUXDk = {
+            "id" = "UFZEUXDk";
+            "file" = "cards-1.5.2-forge-1.20.1.jar";
+            "hash" = "sha512-bYG/sDy1Da/0z8h3embZKEpxkIBHN/p5iywh/Sl8iojm/P7MwESJKBlvLjBMKjxOnPT6rm2S5cj/gcxnTJHOAw==";
+        };
+        _FF1J5cmS = {
+            "id" = "FF1J5cmS";
+            "file" = "cards-1.5.3-forge-1.20.1.jar";
+            "hash" = "sha512-uL8g/zX/btN1qMmj68j5kwdki/v0/jrgI6h1UeYWNvf6J0gmomdgsj82tlDI50kzwCiqS8C8hc9G8wMbpeLkTg==";
+        };
     in {
         "U32FXKCa" = _U32FXKCa;
         "xnk7x0eU" = _xnk7x0eU;
@@ -344,7 +354,9 @@ let
         "nI33WciO" = _nI33WciO;
         "mLRCLGoJ" = _mLRCLGoJ;
         "KgSiIF7L" = _KgSiIF7L;
-        "forge-1.20.1" = _KgSiIF7L;
+        "UFZEUXDk" = _UFZEUXDk;
+        "FF1J5cmS" = _FF1J5cmS;
+        "forge-1.20.1" = _FF1J5cmS;
         "pkg-1.0.0" = _U32FXKCa;
         "pkg-1.0.1" = _xnk7x0eU;
         "pkg-1.0.2" = _WTS7ayku;
@@ -402,7 +414,9 @@ let
         "pkg-1.4.9" = _nI33WciO;
         "pkg-1.5.0" = _mLRCLGoJ;
         "pkg-1.5.1" = _KgSiIF7L;
-        "default" = _KgSiIF7L;
+        "pkg-1.5.2" = _UFZEUXDk;
+        "pkg-1.5.3" = _FF1J5cmS;
+        "default" = _FF1J5cmS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mc-cards";

@@ -861,6 +861,11 @@ let
             "file" = "Lychee-1.21.1-NeoForge-6.6.1.jar";
             "hash" = "sha512-v5/1K2DljSnUnAwkA5DzuBOvbqhsZ2DHKsLUgBKdEP6oeT6fJmOizb/+1krbIzb67JwgHJR9tfqApqTZQb/NMg==";
         };
+        _OZ6pOngs = {
+            "id" = "OZ6pOngs";
+            "file" = "Lychee-1.21.1-NeoForge-6.7.0.jar";
+            "hash" = "sha512-G5xxMyR6clNSX6OW7Z2uvvyoUaCVmO5sr1amZIAcI2VTIiRICuAtfFoiXlec1xfH+oblvU6DsLSE5AbI9DIgAQ==";
+        };
     in {
         "W4g3Ljfn" = _W4g3Ljfn;
         "B59sSFlS" = _B59sSFlS;
@@ -1034,6 +1039,7 @@ let
         "pKbOv7yi" = _pKbOv7yi;
         "E4DcgW6R" = _E4DcgW6R;
         "hz16AmPv" = _hz16AmPv;
+        "OZ6pOngs" = _OZ6pOngs;
         "fabric-1.19.2" = _MsPPEFnx;
         "fabric-1.18.2" = _FDZTK6rq;
         "fabric-1.20" = _P0KM7CeN;
@@ -1057,7 +1063,7 @@ let
         "quilt-26.1.2" = _pKbOv7yi;
         "neoforge-1.20" = _xRmDtY9h;
         "neoforge-1.20.1" = _xRmDtY9h;
-        "neoforge-1.21.1" = _hz16AmPv;
+        "neoforge-1.21.1" = _OZ6pOngs;
         "neoforge-26.1" = _6byc5OgT;
         "neoforge-26.1.1" = _6byc5OgT;
         "neoforge-26.1.2" = _6byc5OgT;
@@ -1202,7 +1208,8 @@ let
         "pkg-26.0.8+fabric" = _pKbOv7yi;
         "pkg-6.6.0+neoforge" = _E4DcgW6R;
         "pkg-6.6.1+neoforge" = _hz16AmPv;
-        "default" = _hz16AmPv;
+        "pkg-6.7.0+neoforge" = _OZ6pOngs;
+        "default" = _OZ6pOngs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lychee";

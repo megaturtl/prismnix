@@ -61,6 +61,11 @@ let
             "file" = "NoammAddons-1.2.6-26.1.2-legit.jar";
             "hash" = "sha512-TxRpapX1PLga+t8CwEw+1MQJ8TUI1BMeRNUnlx7lrX8BKrtPUnOk7/VpWXZzak7Y6J7vqSXqd0NR/HjkEtkCoA==";
         };
+        _LsDi1bUg = {
+            "id" = "LsDi1bUg";
+            "file" = "NoammAddons-1.2.7-26.1.2-legit.jar";
+            "hash" = "sha512-jKPb6VElfWdcQopdYSyQgybJy+By9w/WjP16JNe+rmlExfh1NzGagJwejUJ0XefBkOk2bdDoWFU+juMAFVOx4A==";
+        };
     in {
         "a1F3PTi7" = _a1F3PTi7;
         "dJj5RMSO" = _dJj5RMSO;
@@ -74,9 +79,10 @@ let
         "hRMqrCHw" = _hRMqrCHw;
         "DaYvQq1N" = _DaYvQq1N;
         "RO0gbkny" = _RO0gbkny;
+        "LsDi1bUg" = _LsDi1bUg;
         "fabric-1.21.11" = _y6jxjjUW;
         "fabric-1.21.10" = _KPk8mQPj;
-        "fabric-26.1.2" = _RO0gbkny;
+        "fabric-26.1.2" = _LsDi1bUg;
         "pkg-1.1.8" = _dJj5RMSO;
         "pkg-1.1.9" = _z6IsvErm;
         "pkg-1.2.0" = _y6jxjjUW;
@@ -86,7 +92,8 @@ let
         "pkg-1.2.4" = _hRMqrCHw;
         "pkg-1.2.5" = _DaYvQq1N;
         "pkg-1.2.6" = _RO0gbkny;
-        "default" = _RO0gbkny;
+        "pkg-1.2.7" = _LsDi1bUg;
+        "default" = _LsDi1bUg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "noammaddons";

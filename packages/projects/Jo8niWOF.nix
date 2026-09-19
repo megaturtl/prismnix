@@ -26,28 +26,42 @@ let
             "file" = "project-lazuli-zamegas-compat-patch-3.jar";
             "hash" = "sha512-jf3+5QuxfW+8NDapP0mM7JOFSXzC0dZTgO1Ma2tHhRdHHbcSyBAwp0K5ZlB3gQZ8/ecKc3gWnksal01qLkafVA==";
         };
+        _SCWT5jaS = {
+            "id" = "SCWT5jaS";
+            "file" = "zz-project-lazuli-zamega.zip";
+            "hash" = "sha512-1SiVQ8nJAvx8YZowKbGgMPHw1mdR8kDEG9ezN6mzvZD99F5sUPQwOnVkxMx/OvyYBldpYGwmEmCekHH4wMVHyg==";
+        };
+        _aPxgfPyX = {
+            "id" = "aPxgfPyX";
+            "file" = "project-lazuli-zamegas-compat-patch-5.jar";
+            "hash" = "sha512-vfstasQm5hpM8HY7hrpahpdo4H8Pudw+FUmMxVsb08u41bU7y9WqF75dRInMHPkQZ4jV1gf7t1h2UrgKOLJKsw==";
+        };
     in {
         "uNN0TYyC" = _uNN0TYyC;
         "JlY87JE0" = _JlY87JE0;
         "WCkUDfiw" = _WCkUDfiw;
         "GfDvVHeZ" = _GfDvVHeZ;
         "oEAQsLag" = _oEAQsLag;
-        "datapack-1.21" = _GfDvVHeZ;
-        "datapack-1.21.1" = _GfDvVHeZ;
-        "fabric-1.21" = _oEAQsLag;
-        "fabric-1.21.1" = _oEAQsLag;
-        "forge-1.21" = _oEAQsLag;
-        "forge-1.21.1" = _oEAQsLag;
-        "neoforge-1.21" = _oEAQsLag;
-        "neoforge-1.21.1" = _oEAQsLag;
-        "quilt-1.21" = _oEAQsLag;
-        "quilt-1.21.1" = _oEAQsLag;
+        "SCWT5jaS" = _SCWT5jaS;
+        "aPxgfPyX" = _aPxgfPyX;
+        "datapack-1.21" = _SCWT5jaS;
+        "datapack-1.21.1" = _SCWT5jaS;
+        "fabric-1.21" = _aPxgfPyX;
+        "fabric-1.21.1" = _aPxgfPyX;
+        "forge-1.21" = _aPxgfPyX;
+        "forge-1.21.1" = _aPxgfPyX;
+        "neoforge-1.21" = _aPxgfPyX;
+        "neoforge-1.21.1" = _aPxgfPyX;
+        "quilt-1.21" = _aPxgfPyX;
+        "quilt-1.21.1" = _aPxgfPyX;
         "pkg-1" = _uNN0TYyC;
         "pkg-1.1" = _JlY87JE0;
         "pkg-1.1+mod" = _WCkUDfiw;
         "pkg-3" = _GfDvVHeZ;
         "pkg-3+mod" = _oEAQsLag;
-        "default" = _oEAQsLag;
+        "pkg-5" = _SCWT5jaS;
+        "pkg-5+mod" = _aPxgfPyX;
+        "default" = _aPxgfPyX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "project-lazuli-zamegas-compat-patch";

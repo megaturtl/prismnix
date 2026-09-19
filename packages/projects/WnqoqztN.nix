@@ -51,6 +51,11 @@ let
             "file" = "hardcore-fluid-overhaul-1.4-1.21.1.jar";
             "hash" = "sha512-i5vGkBbDhwFFooIxQi3SF2DWqK3ibXMfqm+XFpXVVzdmYNNKl9yueENwS0J7mvo0Pk2vzFbVPgxPZe5e4IxJQg==";
         };
+        _8xGk3GJw = {
+            "id" = "8xGk3GJw";
+            "file" = "hardcore-fluid-overhaul-1.5-1.21.1.jar";
+            "hash" = "sha512-dUrIwRREi/hDNQWueCgF+TC5tDTiVf6i34vLeBQkmdBuVEw3J4rLFDFfgF346iDfC3oXewJCKyahwTEHsmK4rA==";
+        };
     in {
         "Y6BeVfrT" = _Y6BeVfrT;
         "H2ZgBIBV" = _H2ZgBIBV;
@@ -62,10 +67,11 @@ let
         "i9YKILin" = _i9YKILin;
         "CMtmf1u2" = _CMtmf1u2;
         "gtNFtdV3" = _gtNFtdV3;
+        "8xGk3GJw" = _8xGk3GJw;
         "fabric-1.20.1" = _Y6BeVfrT;
         "fabric-1.20.6" = _H2ZgBIBV;
         "fabric-1.21" = _WxIo8cZw;
-        "fabric-1.21.1" = _gtNFtdV3;
+        "fabric-1.21.1" = _8xGk3GJw;
         "pkg-1.0" = _43Lpe7KS;
         "pkg-1.1" = _7FsZozJM;
         "pkg-1.1.1" = _HIkyw79a;
@@ -73,7 +79,8 @@ let
         "pkg-1.3" = _i9YKILin;
         "pkg-1.3.1" = _CMtmf1u2;
         "pkg-1.4" = _gtNFtdV3;
-        "default" = _gtNFtdV3;
+        "pkg-1.5" = _8xGk3GJw;
+        "default" = _8xGk3GJw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hardcore-fluid-overhaul";

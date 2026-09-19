@@ -281,6 +281,51 @@ let
             "file" = "MS Painted for 1.14.x (v2.0).zip";
             "hash" = "sha512-JvYb39ZO9nv2m9iwf9CVZ2ivGrZ8zAv+TTyWrEAlTpEC731NGx7rIW80ZF6kKBK+/pi3hIfkOvr1liSjLcIsaw==";
         };
+        _6fmTITXx = {
+            "id" = "6fmTITXx";
+            "file" = "MS Painted for 1.15.x (v2.0).zip";
+            "hash" = "sha512-4Uhr0OYny/eVIgTKMynI+mHqik6Lm2KbUwcoB1kGJ0CeaUAvgrYIaXadLjsTvheAb1olYwk7QXmyw6TpwX84+A==";
+        };
+        _ZoJiJ3RW = {
+            "id" = "ZoJiJ3RW";
+            "file" = "MS Painted for 1.16.x (v2.0).zip";
+            "hash" = "sha512-1aXgHP1e1B3vpe1ZyW7x7cV+prFKBZpxAtcD+3/8tSsX3LLJxEDlUUxukySjR3MbOyxRuaFsc2aqxff3SMeCRQ==";
+        };
+        _pveQf1ES = {
+            "id" = "pveQf1ES";
+            "file" = "MS Painted for 1.16.x (v2.0.1).zip";
+            "hash" = "sha512-pBU3G7Vfelf3QqoRr1JXSqFmDN3coKtnsTV+IH7gA/f4VYMAHFCqiG+rIq13emTVTo96+tlKJw7/huVsR2jgjQ==";
+        };
+        _6Z6w8xG9 = {
+            "id" = "6Z6w8xG9";
+            "file" = "MS Painted for 1.17.x (v2.0).zip";
+            "hash" = "sha512-h0EkRxh8lVJlzN4ALzbkes+sMqPUX2z7x6fziE4alN6251kFhkHXV9UBsvD/q8/APjvTjmyHw6vZUy266QAQiQ==";
+        };
+        _V8cbnYSY = {
+            "id" = "V8cbnYSY";
+            "file" = "MS Painted for 1.8.x (v2.1).zip";
+            "hash" = "sha512-034fsAUbCY7rqWluWLemn5TdIoCUhdbf/l9GeSNVcvbQqFPuVJSTD4qzXFfCAeeHd1efjW95EOxQGTkg39dV5w==";
+        };
+        _XhrQjQvw = {
+            "id" = "XhrQjQvw";
+            "file" = "MS Painted for 1.8.x (v2.2).zip";
+            "hash" = "sha512-QBwuCh8asFVy2hlNAIqygt7ny17bYbxTNKMuEpfAYSPb9JdUWiKlTLhkVgFj5vRjm/+l0/hEgZtLeYwptbm6KA==";
+        };
+        _AOnuCSUx = {
+            "id" = "AOnuCSUx";
+            "file" = "MS Painted for 1.13.x (v2.2).zip";
+            "hash" = "sha512-xJeVKbgrb9yXPMNB0sqpLaD9sqCurBWgNwPNU13AtG0mxCVP9ZWDeRjBZnH/7GRHCTi7hTbWRzdBy6b8fYISsQ==";
+        };
+        _VNMwPhe0 = {
+            "id" = "VNMwPhe0";
+            "file" = "MS Painted for 1.14.x (v2.1).zip";
+            "hash" = "sha512-UkLJbPjoAU5+ccuuz1nYGlu7C41xzVUYNnnAyZXqnA8ISj0mRkm+hNdfJLWvSEjVvMLoE9No/9n0hRMvhzy7xg==";
+        };
+        _DbuAyZWA = {
+            "id" = "DbuAyZWA";
+            "file" = "MS Painted for 26.1 - 26.3 (v2.48).zip";
+            "hash" = "sha512-yoPsiOb4BQ9U4aqU8skY8aJjpBOHCoSkNTYh6tko2PqUgBaJwlFTDA/ujUDWgGCcLJaLXUg+AfmZ/Ala/V3Wjg==";
+        };
     in {
         "IHKQGISV" = _IHKQGISV;
         "5yLa4rHs" = _5yLa4rHs;
@@ -338,6 +383,15 @@ let
         "khKUhxQt" = _khKUhxQt;
         "dMUwtY80" = _dMUwtY80;
         "FCAym4y6" = _FCAym4y6;
+        "6fmTITXx" = _6fmTITXx;
+        "ZoJiJ3RW" = _ZoJiJ3RW;
+        "pveQf1ES" = _pveQf1ES;
+        "6Z6w8xG9" = _6Z6w8xG9;
+        "V8cbnYSY" = _V8cbnYSY;
+        "XhrQjQvw" = _XhrQjQvw;
+        "AOnuCSUx" = _AOnuCSUx;
+        "VNMwPhe0" = _VNMwPhe0;
+        "DbuAyZWA" = _DbuAyZWA;
         "minecraft-1.19" = _5yLa4rHs;
         "minecraft-1.19.1" = _5yLa4rHs;
         "minecraft-1.19.2" = _5yLa4rHs;
@@ -375,16 +429,16 @@ let
         "minecraft-24w33a" = _rXKXzqVh;
         "minecraft-24w34a" = _rXKXzqVh;
         "minecraft-24w35a" = _rXKXzqVh;
-        "minecraft-1.8" = _tOY40AxL;
-        "minecraft-1.8.1" = _tOY40AxL;
-        "minecraft-1.8.2" = _tOY40AxL;
-        "minecraft-1.8.3" = _tOY40AxL;
-        "minecraft-1.8.4" = _tOY40AxL;
-        "minecraft-1.8.5" = _tOY40AxL;
-        "minecraft-1.8.6" = _tOY40AxL;
-        "minecraft-1.8.7" = _tOY40AxL;
-        "minecraft-1.8.8" = _tOY40AxL;
-        "minecraft-1.8.9" = _tOY40AxL;
+        "minecraft-1.8" = _XhrQjQvw;
+        "minecraft-1.8.1" = _XhrQjQvw;
+        "minecraft-1.8.2" = _XhrQjQvw;
+        "minecraft-1.8.3" = _XhrQjQvw;
+        "minecraft-1.8.4" = _XhrQjQvw;
+        "minecraft-1.8.5" = _XhrQjQvw;
+        "minecraft-1.8.6" = _XhrQjQvw;
+        "minecraft-1.8.7" = _XhrQjQvw;
+        "minecraft-1.8.8" = _XhrQjQvw;
+        "minecraft-1.8.9" = _XhrQjQvw;
         "minecraft-24w36a" = _rXKXzqVh;
         "minecraft-24w37a" = _bhHiF0jX;
         "minecraft-24w38a" = _bhHiF0jX;
@@ -420,24 +474,36 @@ let
         "minecraft-1.21.9" = _rFUizrXR;
         "minecraft-1.21.10" = _rFUizrXR;
         "minecraft-1.21.11" = _rFUizrXR;
-        "minecraft-26.1" = _mIyJxNJR;
-        "minecraft-26.1.1" = _VhVIx65k;
-        "minecraft-26.1.2" = _VhVIx65k;
+        "minecraft-26.1" = _DbuAyZWA;
+        "minecraft-26.1.1" = _DbuAyZWA;
+        "minecraft-26.1.2" = _DbuAyZWA;
         "minecraft-26.2-snapshot-2" = _VhVIx65k;
         "minecraft-26.2-snapshot-3" = _VhVIx65k;
         "minecraft-26.2-snapshot-4" = _VhVIx65k;
         "minecraft-26.2-snapshot-5" = _VhVIx65k;
         "minecraft-26.2-snapshot-6" = _VhVIx65k;
         "minecraft-26.2-snapshot-7" = _VhVIx65k;
-        "minecraft-26.2" = _mIyJxNJR;
-        "minecraft-1.13" = _dMUwtY80;
-        "minecraft-1.13.1" = _dMUwtY80;
-        "minecraft-1.13.2" = _dMUwtY80;
-        "minecraft-1.14" = _FCAym4y6;
-        "minecraft-1.14.1" = _FCAym4y6;
-        "minecraft-1.14.2" = _FCAym4y6;
-        "minecraft-1.14.3" = _FCAym4y6;
-        "minecraft-1.14.4" = _FCAym4y6;
+        "minecraft-26.2" = _DbuAyZWA;
+        "minecraft-1.13" = _AOnuCSUx;
+        "minecraft-1.13.1" = _AOnuCSUx;
+        "minecraft-1.13.2" = _AOnuCSUx;
+        "minecraft-1.14" = _VNMwPhe0;
+        "minecraft-1.14.1" = _VNMwPhe0;
+        "minecraft-1.14.2" = _VNMwPhe0;
+        "minecraft-1.14.3" = _VNMwPhe0;
+        "minecraft-1.14.4" = _VNMwPhe0;
+        "minecraft-1.15" = _6fmTITXx;
+        "minecraft-1.15.1" = _6fmTITXx;
+        "minecraft-1.15.2" = _6fmTITXx;
+        "minecraft-1.16" = _pveQf1ES;
+        "minecraft-1.16.1" = _pveQf1ES;
+        "minecraft-1.16.2" = _pveQf1ES;
+        "minecraft-1.16.3" = _pveQf1ES;
+        "minecraft-1.16.4" = _pveQf1ES;
+        "minecraft-1.16.5" = _pveQf1ES;
+        "minecraft-1.17" = _6Z6w8xG9;
+        "minecraft-1.17.1" = _6Z6w8xG9;
+        "minecraft-26.3" = _DbuAyZWA;
         "pkg-v2.8" = _IHKQGISV;
         "pkg-v2.8.1" = _5yLa4rHs;
         "pkg-v2.13" = _5Rfbo3gQ;
@@ -494,7 +560,16 @@ let
         "pkg-v2.0-1.13.x" = _khKUhxQt;
         "pkg-v2.1-1.13.x" = _dMUwtY80;
         "pkg-v2.0-1.14.x" = _FCAym4y6;
-        "default" = _FCAym4y6;
+        "pkg-v2.0-1.15.x" = _6fmTITXx;
+        "pkg-v2.0-1.16.x" = _ZoJiJ3RW;
+        "pkg-v2.0.1-1.16.x" = _pveQf1ES;
+        "pkg-v2.0-1.17.x" = _6Z6w8xG9;
+        "pkg-v2.1-1.8.x" = _V8cbnYSY;
+        "pkg-v2.2-1.8.x" = _XhrQjQvw;
+        "pkg-v2.2-1.13.x" = _AOnuCSUx;
+        "pkg-v2.1-1.14.x" = _VNMwPhe0;
+        "pkg-v2.48" = _DbuAyZWA;
+        "default" = _DbuAyZWA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ms-painted";

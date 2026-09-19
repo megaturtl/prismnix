@@ -86,6 +86,16 @@ let
             "file" = "copper-door-cutting-107.1.jar";
             "hash" = "sha512-xuK9vaTZoxF6pmTcOc3h+7YfdoVTOJqw3dW7XCYHCe4Ai9BdvALBxtbWp1QP2aukQ0p3/Hf8HkniTvxPIv23gA==";
         };
+        _W9TOvvCY = {
+            "id" = "W9TOvvCY";
+            "file" = "copper-door-cutting-1.0.0-mc26.3.zip";
+            "hash" = "sha512-K15XAkYIar0moy0VGZeQUuTtx4YnTDd5x0M/haYEX60ard2yc32jpJ+rzF2NkRobumUVbHw29HJcKTj4r+4EjQ==";
+        };
+        _9l4kIJ8a = {
+            "id" = "9l4kIJ8a";
+            "file" = "copper-door-cutting-1.0.0.jar";
+            "hash" = "sha512-iyQ1CNFSKX3f2x7Bdz7fh969cJZdl5cjl4xxmB+yL8KuMHAPg65i5A3ycNxlOq9a2NnQDdYcPHQRABZ2bAMdaw==";
+        };
     in {
         "qKAEjxAW" = _qKAEjxAW;
         "8etb9TUw" = _8etb9TUw;
@@ -104,6 +114,8 @@ let
         "glVwOeUu" = _glVwOeUu;
         "JO4ZdvHH" = _JO4ZdvHH;
         "Q2418Hm0" = _Q2418Hm0;
+        "W9TOvvCY" = _W9TOvvCY;
+        "9l4kIJ8a" = _9l4kIJ8a;
         "datapack-1.21" = _qKAEjxAW;
         "datapack-1.21.1" = _qKAEjxAW;
         "datapack-1.21.2" = _Nvpo2mYt;
@@ -117,6 +129,7 @@ let
         "datapack-26.1.1" = _PlVqM8mw;
         "datapack-26.1.2" = _PlVqM8mw;
         "datapack-26.2" = _JO4ZdvHH;
+        "datapack-26.3" = _W9TOvvCY;
         "fabric-1.21" = _8etb9TUw;
         "fabric-1.21.1" = _8etb9TUw;
         "fabric-1.21.2" = _G4mO3tuS;
@@ -130,6 +143,7 @@ let
         "fabric-26.1.1" = _glVwOeUu;
         "fabric-26.1.2" = _glVwOeUu;
         "fabric-26.2" = _Q2418Hm0;
+        "fabric-26.3" = _9l4kIJ8a;
         "forge-1.21" = _8etb9TUw;
         "forge-1.21.1" = _8etb9TUw;
         "forge-1.21.2" = _G4mO3tuS;
@@ -143,6 +157,7 @@ let
         "forge-26.1.1" = _glVwOeUu;
         "forge-26.1.2" = _glVwOeUu;
         "forge-26.2" = _Q2418Hm0;
+        "forge-26.3" = _9l4kIJ8a;
         "quilt-1.21" = _8etb9TUw;
         "quilt-1.21.1" = _8etb9TUw;
         "quilt-1.21.2" = _G4mO3tuS;
@@ -156,6 +171,7 @@ let
         "quilt-26.1.1" = _glVwOeUu;
         "quilt-26.1.2" = _glVwOeUu;
         "quilt-26.2" = _Q2418Hm0;
+        "quilt-26.3" = _9l4kIJ8a;
         "neoforge-1.21.2" = _G4mO3tuS;
         "neoforge-1.21.3" = _G4mO3tuS;
         "neoforge-1.21.4" = _FqUR1Vre;
@@ -167,6 +183,7 @@ let
         "neoforge-26.1.1" = _glVwOeUu;
         "neoforge-26.1.2" = _glVwOeUu;
         "neoforge-26.2" = _Q2418Hm0;
+        "neoforge-26.3" = _9l4kIJ8a;
         "pkg-48.1" = _qKAEjxAW;
         "pkg-48.1+mod" = _8etb9TUw;
         "pkg-57.1" = _Nvpo2mYt;
@@ -183,7 +200,9 @@ let
         "pkg-101.1+mod" = _glVwOeUu;
         "pkg-107.1" = _JO4ZdvHH;
         "pkg-107.1+mod" = _Q2418Hm0;
-        "default" = _Q2418Hm0;
+        "pkg-1.0.0" = _W9TOvvCY;
+        "pkg-1.0.0+mod" = _9l4kIJ8a;
+        "default" = _9l4kIJ8a;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "copper-door-cutting";

@@ -61,6 +61,31 @@ let
             "file" = "celestia-forge-1.2.2-26.2.jar";
             "hash" = "sha512-DGr2QVBQnK79KEpKqiamc6ZSyO5358C9VwgWKZMkd3u2Vvb6ZFaiSjOcPPsvLprZ1tiP9jkhqqOlgeo4n2Fl3A==";
         };
+        _Ru89DaIV = {
+            "id" = "Ru89DaIV";
+            "file" = "celestia-fabric-1.21.1-1.2.4.jar";
+            "hash" = "sha512-7KcCYu+qTmEO3L12OemQ41lhC4WKG+JcxU7vcDX8/+ps0AivTGCa/g/4YqhrQcf2VTxQk3106Tlb7NE6HcTglg==";
+        };
+        _FQiiBy5A = {
+            "id" = "FQiiBy5A";
+            "file" = "Celestia-forge-1.21.1-1.2.4.jar";
+            "hash" = "sha512-1949OluhcWIVP/jzJhORgkt0NJGw3HhmvEJrxyi9KuhtQnZYt84PQf8Au78IEqZGwUYC4f9cBjnuCwqHv4mstg==";
+        };
+        _1FDmpHXg = {
+            "id" = "1FDmpHXg";
+            "file" = "celestia-neoforge-1.21.1-1.2.4.jar";
+            "hash" = "sha512-ul2A+lzrcaclXJS+Lksways/n0WjMc+UiF7Xdk0JIJHiqGdTjGa8kpurjwkfu/9CV8TSLbIHSPv/JDD9chqoZA==";
+        };
+        _gm3ZGFCI = {
+            "id" = "gm3ZGFCI";
+            "file" = "celestia-fabric-1.20.1-1.2.4.jar";
+            "hash" = "sha512-MDcrNN/RF7f6u9ql++cUPKj4IeiFvl1cj8XkkAec/BYL/IDYTkCy89QDA0y0/GHm+33AtTVQ8DS1HzARUMEM8A==";
+        };
+        _gDBu9Ll1 = {
+            "id" = "gDBu9Ll1";
+            "file" = "celestia-forge-1.20.1-1.2.4.jar";
+            "hash" = "sha512-jy3hdLfjbwjpUF2hfRjiQHHaY5x5GwuSbSWYEOsHGmy5bX1dx4N2Q7QRUueiOYW/vtaSNID32wpYZPp3KdWCLA==";
+        };
     in {
         "1M3kv3Xv" = _1M3kv3Xv;
         "8BhMFMwM" = _8BhMFMwM;
@@ -74,14 +99,24 @@ let
         "QDDrBLW7" = _QDDrBLW7;
         "URf0zDrY" = _URf0zDrY;
         "n6J9Np79" = _n6J9Np79;
+        "Ru89DaIV" = _Ru89DaIV;
+        "FQiiBy5A" = _FQiiBy5A;
+        "1FDmpHXg" = _1FDmpHXg;
+        "gm3ZGFCI" = _gm3ZGFCI;
+        "gDBu9Ll1" = _gDBu9Ll1;
         "fabric-26.1" = _DwQO1hEv;
         "fabric-26.1.1" = _DwQO1hEv;
         "fabric-26.1.2" = _DwQO1hEv;
         "fabric-26.2" = _URf0zDrY;
+        "fabric-1.21.1" = _Ru89DaIV;
+        "fabric-1.20.1" = _gm3ZGFCI;
         "forge-26.1" = _QDDrBLW7;
         "forge-26.1.1" = _QDDrBLW7;
         "forge-26.1.2" = _QDDrBLW7;
         "forge-26.2" = _n6J9Np79;
+        "forge-1.21.1" = _FQiiBy5A;
+        "forge-1.20.1" = _gDBu9Ll1;
+        "neoforge-1.21.1" = _1FDmpHXg;
         "pkg-celestia-fabric-1.0.0" = _1M3kv3Xv;
         "pkg-celestia-forge-1.0.0" = _8BhMFMwM;
         "pkg-Celestia-fabric-1.1.0-26.1" = _JkKUigRS;
@@ -94,7 +129,12 @@ let
         "pkg-Celestia-forge-1.2.1-26.1.jar" = _QDDrBLW7;
         "pkg-Celestia-fabric-1.2.2-26.2.jar" = _URf0zDrY;
         "pkg-Celestia-forge-1.2.2-26.2.jar" = _n6J9Np79;
-        "default" = _n6J9Np79;
+        "pkg-celestia-fabric-1.21.1-1.2.4" = _Ru89DaIV;
+        "pkg-celestia-forge-1.21.1-1.2.4" = _FQiiBy5A;
+        "pkg-celestia-neoforge-1.21.1-1.2.4" = _1FDmpHXg;
+        "pkg-celestia-fabric-1.20.1-1.2.4" = _gm3ZGFCI;
+        "pkg-celestia-forge-1.20.1-1.2.4" = _gDBu9Ll1;
+        "default" = _gDBu9Ll1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "celestia-sky";

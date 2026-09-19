@@ -1686,6 +1686,26 @@ let
             "file" = "goety-2.5.57.3.jar";
             "hash" = "sha512-79sHP13QZ8FmLyPhHjkApqKf2JAKWAGIIFrMai6VineiBvZU2z2XO/SNYyGLUAy4ZTlBJ7Ut1l/y6v1jIxai1w==";
         };
+        _Ro83pjnt = {
+            "id" = "Ro83pjnt";
+            "file" = "goety-2.5.58.0.jar";
+            "hash" = "sha512-9HE3RBGG60d8wyq1PXtIZkxYNakAhAODOiQWDOYidd5VUU4PAw8freBZ6EZZc+KQBmQOsOGCR7Z3sD62JS3eXA==";
+        };
+        _UuqLsUMI = {
+            "id" = "UuqLsUMI";
+            "file" = "goety-2.5.58.1.jar";
+            "hash" = "sha512-9LAH8DGsnpx6JC/XIZnI3ljJNTXfdtnJRPz/Zm0rSyMlbbVZy5lHipWtIgay/uLrNpk4f5Ovma2fmf2X60uSrg==";
+        };
+        _HGIfNs0J = {
+            "id" = "HGIfNs0J";
+            "file" = "goety-2.5.58.2.jar";
+            "hash" = "sha512-F7CWTxwYzb3fvjOfwaHsbog4KXI+1azhPHLymCow6v1tDZ32VJF1CWLTencHr/XiNzpLqo7DJwJTUHuvwSKJRg==";
+        };
+        _t7bRTvPu = {
+            "id" = "t7bRTvPu";
+            "file" = "goety-2.5.58.3.jar";
+            "hash" = "sha512-72iwyUzHc+Ue1YjrT13rpYOaW88KnepcmQ4StnrAtTaemAkHJJzYrlvmL5zFzC6Gu+a8gbBjubF0YYrwZGjxFQ==";
+        };
     in {
         "kbb3FLSo" = _kbb3FLSo;
         "I4uXhIb5" = _I4uXhIb5;
@@ -2024,10 +2044,14 @@ let
         "TYTcUDVb" = _TYTcUDVb;
         "CkXbueI2" = _CkXbueI2;
         "jVtlXH2H" = _jVtlXH2H;
+        "Ro83pjnt" = _Ro83pjnt;
+        "UuqLsUMI" = _UuqLsUMI;
+        "HGIfNs0J" = _HGIfNs0J;
+        "t7bRTvPu" = _t7bRTvPu;
         "forge-1.19.2" = _P53aA5BL;
         "forge-1.16.5" = _nSsAx9u3;
-        "forge-1.20.1" = _jVtlXH2H;
-        "neoforge-1.20.1" = _jVtlXH2H;
+        "forge-1.20.1" = _t7bRTvPu;
+        "neoforge-1.20.1" = _t7bRTvPu;
         "neoforge-1.21.1" = _LBDrMg4p;
         "pkg-2.2.0" = _kbb3FLSo;
         "pkg-1.31.4" = _I4uXhIb5;
@@ -2366,7 +2390,11 @@ let
         "pkg-2.5.57.1" = _TYTcUDVb;
         "pkg-2.5.57.2" = _CkXbueI2;
         "pkg-2.5.57.3" = _jVtlXH2H;
-        "default" = _jVtlXH2H;
+        "pkg-2.5.58.0" = _Ro83pjnt;
+        "pkg-2.5.58.1" = _UuqLsUMI;
+        "pkg-2.5.58.2" = _HGIfNs0J;
+        "pkg-2.5.58.3" = _t7bRTvPu;
+        "default" = _t7bRTvPu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "goety";

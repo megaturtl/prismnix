@@ -46,6 +46,11 @@ let
             "file" = "sleepwarp-2.12.0+26.2.jar";
             "hash" = "sha512-EdHl4LOBOLNTkb6Z69LdYJXKbles92pjRNvzA/Qh04Tj+tBiTCaiczq8hwrFAr/IX05Ch5sRvchknd5wpw4S0g==";
         };
+        _gJSdXSWG = {
+            "id" = "gJSdXSWG";
+            "file" = "sleepwarp-2.13.0+26.3-rc-3.jar";
+            "hash" = "sha512-cKZX2UmMwsgBIrfF8VWoqR0bE/XnaJVKEUbRW5k+by6yo8zYZoD6VNsdh9IDDiFpNVnRNAVULYUYN6IbR39j+w==";
+        };
     in {
         "LzlGw3Uq" = _LzlGw3Uq;
         "llYgRMp5" = _llYgRMp5;
@@ -56,6 +61,7 @@ let
         "pkJY3v4y" = _pkJY3v4y;
         "hDaIO5er" = _hDaIO5er;
         "QsGZ9Vlw" = _QsGZ9Vlw;
+        "gJSdXSWG" = _gJSdXSWG;
         "fabric-1.21" = _LzlGw3Uq;
         "fabric-1.21.1" = _LzlGw3Uq;
         "fabric-1.21.3" = _llYgRMp5;
@@ -73,6 +79,8 @@ let
         "fabric-26.1.1" = _hDaIO5er;
         "fabric-26.1.2" = _hDaIO5er;
         "fabric-26.2" = _QsGZ9Vlw;
+        "fabric-26.3-rc-3" = _gJSdXSWG;
+        "fabric-26.3" = _gJSdXSWG;
         "quilt-1.21" = _LzlGw3Uq;
         "quilt-1.21.1" = _LzlGw3Uq;
         "quilt-1.21.3" = _llYgRMp5;
@@ -95,7 +103,8 @@ let
         "pkg-2.10.0+1.21.11" = _pkJY3v4y;
         "pkg-2.11.0+26.1" = _hDaIO5er;
         "pkg-2.12.0+26.2" = _QsGZ9Vlw;
-        "default" = _QsGZ9Vlw;
+        "pkg-2.13.0+26.3-rc-3" = _gJSdXSWG;
+        "default" = _gJSdXSWG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sleep-warp-updated";

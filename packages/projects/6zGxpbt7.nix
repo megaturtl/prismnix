@@ -1216,6 +1216,11 @@ let
             "file" = "beyonddimensions-1.21.1-neoforge-0.7.30.jar";
             "hash" = "sha512-CI3Ub91NsNb9rau0UHQzCLgkfrbEgfMD86ksXluUikIOyhZSPv9i78exFjmwFVuXELB3/wLyuwVucDkyqupjsA==";
         };
+        _sFpORc95 = {
+            "id" = "sFpORc95";
+            "file" = "beyonddimensions-26.2.0-neoforge-0.7.31.jar";
+            "hash" = "sha512-XALe/37/xx3z09eDkLprcNAa3dcMTRaIEpDCFvd9q+MgiUhFujCnaprOzwfTPNPMHI+Rpa5J1dJf/VSyovPgjw==";
+        };
     in {
         "f6SOOZWr" = _f6SOOZWr;
         "rB5NZOVe" = _rB5NZOVe;
@@ -1460,13 +1465,14 @@ let
         "Ey0yqf7W" = _Ey0yqf7W;
         "XXnCAMBQ" = _XXnCAMBQ;
         "FP6mjH0z" = _FP6mjH0z;
+        "sFpORc95" = _sFpORc95;
         "neoforge-1.21.1" = _FP6mjH0z;
         "neoforge-1.20.1" = _Hy9s1QDF;
         "neoforge-1.21.11" = _oEoqQPgw;
         "neoforge-26.1-snapshot-6" = _26HxLexG;
         "neoforge-26.1" = _NXvvoAAl;
         "neoforge-26.1.2" = _RczZaExs;
-        "neoforge-26.2" = _Ey0yqf7W;
+        "neoforge-26.2" = _sFpORc95;
         "forge-1.20.1" = _XXnCAMBQ;
         "forge-1.12.2" = _IFDaYpPK;
         "pkg-0.1.0" = _f6SOOZWr;
@@ -1651,7 +1657,8 @@ let
         "pkg-0.7.30-26.2.0-neoforge" = _Ey0yqf7W;
         "pkg-0.7.30-1.20.1-forge" = _XXnCAMBQ;
         "pkg-0.7.30-1.21.1-neoforge" = _FP6mjH0z;
-        "default" = _FP6mjH0z;
+        "pkg-0.7.31-26.2.0-neoforge" = _sFpORc95;
+        "default" = _sFpORc95;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "beyonddimensions";

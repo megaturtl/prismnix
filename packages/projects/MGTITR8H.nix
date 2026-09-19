@@ -36,6 +36,11 @@ let
             "file" = "autotranslator.jar";
             "hash" = "sha512-yl6teJfTX1Au5RmJT9jU6EYiyxST8ihHK8979RG4DnNmiYYMJlEgQjHRukpXpGVytAo72ujz3FMcnZTrQACq1g==";
         };
+        _kR31iz8v = {
+            "id" = "kR31iz8v";
+            "file" = "autotranslator.jar";
+            "hash" = "sha512-Se1+Silt2rprOxvks51Thp1SH1aoTvbGy2539CkdD9hUoB2rtbgTaLvbSoF85Gfk9XJBimWS4E8vrUoQhDbByQ==";
+        };
     in {
         "amhuk9rZ" = _amhuk9rZ;
         "ZUxJrCWE" = _ZUxJrCWE;
@@ -44,7 +49,8 @@ let
         "q9J45bcs" = _q9J45bcs;
         "Fgblc5IF" = _Fgblc5IF;
         "ZXKJFMH8" = _ZXKJFMH8;
-        "neoforge-1.21.1" = _ZXKJFMH8;
+        "kR31iz8v" = _kR31iz8v;
+        "neoforge-1.21.1" = _kR31iz8v;
         "pkg-3.0.0" = _amhuk9rZ;
         "pkg-4.0.0" = _ZUxJrCWE;
         "pkg-5.0.0" = _8oVY3TnV;
@@ -52,7 +58,8 @@ let
         "pkg-8.0.0" = _q9J45bcs;
         "pkg-9.0.0" = _Fgblc5IF;
         "pkg-10.0.0" = _ZXKJFMH8;
-        "default" = _ZXKJFMH8;
+        "pkg-11.0.0" = _kR31iz8v;
+        "default" = _kR31iz8v;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autotranslator";

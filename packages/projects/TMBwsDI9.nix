@@ -56,6 +56,11 @@ let
             "file" = "ChestSearch-1.2.4.jar";
             "hash" = "sha512-aAmfyP7+gVaUVI6rs0Rl2Zw1pDIlZpRnTi2zgloj6t9avPpg+61jNQk0TMpo81jUA+6fR8TlWZotbvagCmHF2Q==";
         };
+        _U2ISKRJk = {
+            "id" = "U2ISKRJk";
+            "file" = "ChestSearch-1.2.4.jar";
+            "hash" = "sha512-aNjWP+hS/U+zkI/0++eFETH/Jf989ZW+gjbibYEk578TZS/LvNPLme8yigg3GmSEE0awa/0I3s+C21Fa2GQOlg==";
+        };
     in {
         "Y2uWqguE" = _Y2uWqguE;
         "IrBmpjv6" = _IrBmpjv6;
@@ -68,6 +73,7 @@ let
         "GhiSdcIl" = _GhiSdcIl;
         "n9oJp2Aw" = _n9oJp2Aw;
         "p4NK0tZY" = _p4NK0tZY;
+        "U2ISKRJk" = _U2ISKRJk;
         "fabric-1.21.11" = _IkUlbdQd;
         "fabric-1.21.9" = _dry1jEAO;
         "fabric-1.21.10" = _dry1jEAO;
@@ -80,13 +86,14 @@ let
         "fabric-26.1.1" = _GhiSdcIl;
         "fabric-26.1.2" = _GhiSdcIl;
         "fabric-26.2" = _p4NK0tZY;
+        "fabric-26.3" = _U2ISKRJk;
         "pkg-1.0.0" = _DkhvsN9O;
         "pkg-1.1.0" = _74rWzHEj;
         "pkg-1.2.0" = _sAzye1o3;
         "pkg-1.2.2" = _GhiSdcIl;
         "pkg-1.2.3" = _n9oJp2Aw;
-        "pkg-1.2.4" = _p4NK0tZY;
-        "default" = _p4NK0tZY;
+        "pkg-1.2.4" = _U2ISKRJk;
+        "default" = _U2ISKRJk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chestsearch";

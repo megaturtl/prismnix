@@ -206,6 +206,16 @@ let
             "file" = "projectsentinel-1.1.0.1-forge-1.20.1.jar";
             "hash" = "sha512-Ev3DvGSsCSShWU571iMOvE3MJhgCDFBsuWIVq35nYZn06jA70cdupWGAt3Jit9QSG9XjNdo7euquv2B97xGzFA==";
         };
+        _FwMUIO5B = {
+            "id" = "FwMUIO5B";
+            "file" = "projectsentinel-VERSION2-2.0.0.jar";
+            "hash" = "sha512-Q1T1YSehEG9YoW4VEXxaJEMFl5RhML6H9kthkPYOiwl7AjKbLJ2UK6cldST9qCH1s3qABFB4+lIszstGFNh4TQ==";
+        };
+        _XhUwWcyJ = {
+            "id" = "XhUwWcyJ";
+            "file" = "projectsentinel-FRAME_DROPPEDV21.2.0-forge-1.20.1.jar";
+            "hash" = "sha512-wIwTiWBoUENtxxFBIx+W2rnUUGdr73OEPOmg/cUxMxWKIaSVWsKb617fOvz0kN9GmB+67/BHFM5Uo/K7QDMTsw==";
+        };
     in {
         "VYmi3GuO" = _VYmi3GuO;
         "NQOA3nCf" = _NQOA3nCf;
@@ -248,7 +258,9 @@ let
         "D5K2eQbs" = _D5K2eQbs;
         "om5TEzB9" = _om5TEzB9;
         "EKURqqyH" = _EKURqqyH;
-        "forge-1.20.1" = _EKURqqyH;
+        "FwMUIO5B" = _FwMUIO5B;
+        "XhUwWcyJ" = _XhUwWcyJ;
+        "forge-1.20.1" = _XhUwWcyJ;
         "pkg-0.0.1" = _VYmi3GuO;
         "pkg-1.0.0" = _NQOA3nCf;
         "pkg-26.3" = _8n1n6pb2;
@@ -289,7 +301,9 @@ let
         "pkg-3.2.0" = _D5K2eQbs;
         "pkg-V2-1.0.0" = _om5TEzB9;
         "pkg-1.1.0.1" = _EKURqqyH;
-        "default" = _EKURqqyH;
+        "pkg-1.1.1.0" = _FwMUIO5B;
+        "pkg-1.2.1" = _XhUwWcyJ;
+        "default" = _XhUwWcyJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "frame_dropped";

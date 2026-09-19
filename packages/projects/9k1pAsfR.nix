@@ -146,6 +146,16 @@ let
             "file" = "create-integrated-farming-1.4.1b.jar";
             "hash" = "sha512-wX9lFoOHJYfzxEbUoRX+ALMB8+PTdC2woW+nhkmTBRzj2jVcupD1a2ZmThkPG8Jb+pn5OWP8fCjxBUdv0iPHWg==";
         };
+        _zF7BFx6A = {
+            "id" = "zF7BFx6A";
+            "file" = "create-integrated-farming-1.4.1c.jar";
+            "hash" = "sha512-zz02xS9zQzcUxkZ3e0COLE83XkJOEVkLql7Eiid3WtvGtyvE/y/DZtNpeerJ8QE5JHLjDcy4Z97criZxg3nY7Q==";
+        };
+        _90PTskVE = {
+            "id" = "90PTskVE";
+            "file" = "create-integrated-farming-1.4.2.jar";
+            "hash" = "sha512-YzZPsWH+ZuU3ABcKNJVRf476UzQW7dneDut0SOUq0SytUUOL5Mj0FAZ1nq8DUM64PacFjgheO0MoizwK2bwX+A==";
+        };
     in {
         "Vui8keAb" = _Vui8keAb;
         "QfM51xpu" = _QfM51xpu;
@@ -176,7 +186,9 @@ let
         "U8F3RFrD" = _U8F3RFrD;
         "5plrrJxk" = _5plrrJxk;
         "QZhNScOJ" = _QZhNScOJ;
-        "neoforge-1.21.1" = _QZhNScOJ;
+        "zF7BFx6A" = _zF7BFx6A;
+        "90PTskVE" = _90PTskVE;
+        "neoforge-1.21.1" = _90PTskVE;
         "pkg-0.1.0" = _Vui8keAb;
         "pkg-1.0.0" = _QfM51xpu;
         "pkg-1.0.1" = _2HVghcOo;
@@ -206,7 +218,9 @@ let
         "pkg-1.4.0" = _U8F3RFrD;
         "pkg-1.4.1" = _5plrrJxk;
         "pkg-1.4.1b" = _QZhNScOJ;
-        "default" = _QZhNScOJ;
+        "pkg-1.4.1c" = _zF7BFx6A;
+        "pkg-1.4.2" = _90PTskVE;
+        "default" = _90PTskVE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-integrated-farming";

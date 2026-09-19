@@ -231,6 +231,26 @@ let
             "file" = "cobblenav-neoforge-2.3.3.jar";
             "hash" = "sha512-himcs9tb5SQUQtdGDgTJkP20K62RkqUWoAgyNpzq3HObzYV0FnAMHhmRIlk0tLZ7mZOnPr+UR22smxXVbW1rEQ==";
         };
+        _vkMjI01o = {
+            "id" = "vkMjI01o";
+            "file" = "cobblenav-fabric-2.4.0.jar";
+            "hash" = "sha512-9jl9u3EJGSFYUm0wI4pDqaauNHHaw0nIMCcq/2sdGse/OyirrPCjq64CgHjVADSOAhszq56CEGtUvxqDodsDTA==";
+        };
+        _zStQSt4i = {
+            "id" = "zStQSt4i";
+            "file" = "cobblenav-neoforge-2.4.0.jar";
+            "hash" = "sha512-pfc54LOKgJsthPktKP9VXHicmjP9h34I8UW8sEYzvJoTHn/MJIwnKnxZECd3yfhxWq+syyrGGFp324lUKe/ngA==";
+        };
+        _BV5KiAcY = {
+            "id" = "BV5KiAcY";
+            "file" = "cobblenav-fabric-2.4.1.jar";
+            "hash" = "sha512-WaNupvLyG9ZmjxKLNZywxEhxFQIZVVnWnMt35Q3PKsJTXPrO4zJyL1pjpbFaSTzz9SWka558Jk/bRFc339+dNg==";
+        };
+        _qbUwxhni = {
+            "id" = "qbUwxhni";
+            "file" = "cobblenav-neoforge-2.4.1.jar";
+            "hash" = "sha512-Jii1q4NkynBMKkEDpNQKcisRaIFTXFD2X3LYdmAWswOkUwoBxwSTchA7JoMGJx3xJtyAVjO5iIm4TXjNGb3d+A==";
+        };
     in {
         "xZf0rnie" = _xZf0rnie;
         "IYLfr6eS" = _IYLfr6eS;
@@ -278,9 +298,13 @@ let
         "OMsYBNWp" = _OMsYBNWp;
         "cGFERrtC" = _cGFERrtC;
         "yCSofpNb" = _yCSofpNb;
+        "vkMjI01o" = _vkMjI01o;
+        "zStQSt4i" = _zStQSt4i;
+        "BV5KiAcY" = _BV5KiAcY;
+        "qbUwxhni" = _qbUwxhni;
         "fabric-1.20.1" = _uADN8MDB;
-        "fabric-1.21.1" = _cGFERrtC;
-        "neoforge-1.21.1" = _yCSofpNb;
+        "fabric-1.21.1" = _BV5KiAcY;
+        "neoforge-1.21.1" = _qbUwxhni;
         "pkg-1.0-BETA" = _xZf0rnie;
         "pkg-1.0.1-BETA" = _IYLfr6eS;
         "pkg-1.0.2-BETA" = _bnrRV6Qa;
@@ -313,7 +337,9 @@ let
         "pkg-2.3.1-april-fools" = _PZennM8a;
         "pkg-2.3.2" = _OMsYBNWp;
         "pkg-2.3.3" = _yCSofpNb;
-        "default" = _yCSofpNb;
+        "pkg-2.4.0" = _zStQSt4i;
+        "pkg-2.4.1" = _qbUwxhni;
+        "default" = _qbUwxhni;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-pokenav";

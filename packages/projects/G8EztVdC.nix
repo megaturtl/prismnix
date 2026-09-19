@@ -91,6 +91,16 @@ let
             "file" = "[LOCAL] Custom Music Discs RP - v8.2.zip";
             "hash" = "sha512-h5En5xfde9iD5KDIbaiT2E5kFG25JsazkZbbqAHCRt1pxW06cFxAZIsX/JMNH3SJ4LbFahGq5BPFHhywEVJR/A==";
         };
+        _9RASBkgM = {
+            "id" = "9RASBkgM";
+            "file" = "[LOCAL] Custom Music Discs RP - v26.3.zip";
+            "hash" = "sha512-T0RSqqDxvokP333K1YXFqAcToXVDFoRQoRwyWbA/NCEa3k+A0kNL/obSa5TUKMLoO2PfY6NHRjJO+zQ2xRgh5A==";
+        };
+        _oTKUDTy2 = {
+            "id" = "oTKUDTy2";
+            "file" = "[GLOBAL] Custom Music Discs RP - v26.3.zip";
+            "hash" = "sha512-Ddix+Q84VlLX38kbAlpQgRkQe8PmQUfzvT144yoVJ20RhjR/BFYjK4lr+kJICte1nRcSeSdQC3VIU6jUpTxnQw==";
+        };
     in {
         "TR6nepCT" = _TR6nepCT;
         "V3CHvghX" = _V3CHvghX;
@@ -110,6 +120,8 @@ let
         "QN4BhQnm" = _QN4BhQnm;
         "OfCeZ3Bu" = _OfCeZ3Bu;
         "mMz5T2e0" = _mMz5T2e0;
+        "9RASBkgM" = _9RASBkgM;
+        "oTKUDTy2" = _oTKUDTy2;
         "minecraft-1.21" = _zOtHtdtA;
         "minecraft-1.21.1" = _zOtHtdtA;
         "minecraft-1.21.2" = _Agl44TYS;
@@ -140,6 +152,7 @@ let
         "minecraft-26.1.1" = _mMz5T2e0;
         "minecraft-26.1.2" = _mMz5T2e0;
         "minecraft-26.2" = _mMz5T2e0;
+        "minecraft-26.3" = _oTKUDTy2;
         "pkg-2.1" = _TR6nepCT;
         "pkg-2.2" = _V3CHvghX;
         "pkg-3" = _zOtHtdtA;
@@ -158,7 +171,9 @@ let
         "pkg-GLOBAL-8.1" = _QN4BhQnm;
         "pkg-GLOBAL-8.2" = _OfCeZ3Bu;
         "pkg-LOCAL-8.2" = _mMz5T2e0;
-        "default" = _mMz5T2e0;
+        "pkg-LOCAL-26.3" = _9RASBkgM;
+        "pkg-GLOBAL-26.3" = _oTKUDTy2;
+        "default" = _oTKUDTy2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-music-discs-rp";

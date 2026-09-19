@@ -821,6 +821,36 @@ let
             "file" = "eslium-4.6.0.jar";
             "hash" = "sha512-2gIsZMmoDZqXq9zYhdXK/u9bbVofYDadsYaxwDR6XmnBlr8PsRBYpwVrCWV5NErrGOMUVR3LgISzyoGIMJCbzA==";
         };
+        _vnDwjuix = {
+            "id" = "vnDwjuix";
+            "file" = "eslium-4.6.0.jar";
+            "hash" = "sha512-9mA9IIi5Fz3HShV8KJlpvQ82pV1o/4y+0OMdm++5rcAFS/FGgtEoyTSAcTwNZnmCoUbzoKV85jIqBkY/1SMO+A==";
+        };
+        _tFLO7d7F = {
+            "id" = "tFLO7d7F";
+            "file" = "eslium-4.6.0.jar";
+            "hash" = "sha512-CpTktrVl6fZb+dYkbPkDvcjbIAGNJwwYGj6cIIwsFU4LSRxQAP0OG42B3kYzV9/qEgj6YHdXNrZ/7OCmc9WVQw==";
+        };
+        _GACNs6MS = {
+            "id" = "GACNs6MS";
+            "file" = "eslium-4.6.0.jar";
+            "hash" = "sha512-MwgH2NE1UPy4/IBad1rayLPNVd8OOqzGm2BJNyWdnPoAj2wk/M+ENRl22EfHtPdyzt/jBwYV0hDzGO/IUWCWnw==";
+        };
+        _R5TN1DiL = {
+            "id" = "R5TN1DiL";
+            "file" = "eslium-4.6.0.jar";
+            "hash" = "sha512-t3R4ydnpvfEx+MoCTwFbLyIL4S5amDdfjKShLmVVZqlsmdLZb+vZ+7MtIhipz38Vhlcg/Iq4LmHPLEN1+V5WWA==";
+        };
+        _LS3pYb1A = {
+            "id" = "LS3pYb1A";
+            "file" = "eslium-4.6.0.jar";
+            "hash" = "sha512-RuYKH4slgSfISGg0oL8yHdo605KqBvUQM5CaEV1Fw+tsV0bC/inkrfGlHcqHQimBPqxEefGsEZxSo8TxX00ulQ==";
+        };
+        _kOqR0w3I = {
+            "id" = "kOqR0w3I";
+            "file" = "eslium-4.6.0.jar";
+            "hash" = "sha512-dXbm8HNB5U3sb6ZsZDtzb/L6Lzao16MKEvWUyOmnkLpC70gU6eyU8JlzhS0h4QwiSAKylUE6YS9X9EUOpl91gA==";
+        };
     in {
         "hMlp9vbD" = _hMlp9vbD;
         "Ki5T6AaR" = _Ki5T6AaR;
@@ -986,6 +1016,12 @@ let
         "Ff6mIM6q" = _Ff6mIM6q;
         "NeQBgYVu" = _NeQBgYVu;
         "7H02EHPI" = _7H02EHPI;
+        "vnDwjuix" = _vnDwjuix;
+        "tFLO7d7F" = _tFLO7d7F;
+        "GACNs6MS" = _GACNs6MS;
+        "R5TN1DiL" = _R5TN1DiL;
+        "LS3pYb1A" = _LS3pYb1A;
+        "kOqR0w3I" = _kOqR0w3I;
         "fabric-1.21.5" = _rAVKbMLQ;
         "fabric-1.21" = _7H02EHPI;
         "fabric-1.21.1" = _7H02EHPI;
@@ -1007,6 +1043,12 @@ let
         "fabric-26.3-snapshot-9" = _Obh4Fpa9;
         "fabric-26.3-snapshot-10" = _P56g0qmO;
         "fabric-26.3-pre-1" = _CERzOxT2;
+        "fabric-26.3-pre-2" = _vnDwjuix;
+        "fabric-26.3-pre-3" = _tFLO7d7F;
+        "fabric-26.3-rc-1" = _GACNs6MS;
+        "fabric-26.3-rc-2" = _R5TN1DiL;
+        "fabric-26.3-rc-3" = _LS3pYb1A;
+        "fabric-26.3" = _kOqR0w3I;
         "quilt-1.21" = _7H02EHPI;
         "quilt-1.21.1" = _7H02EHPI;
         "quilt-1.21.2" = _NeQBgYVu;
@@ -1028,6 +1070,12 @@ let
         "quilt-26.3-snapshot-9" = _Obh4Fpa9;
         "quilt-26.3-snapshot-10" = _P56g0qmO;
         "quilt-26.3-pre-1" = _CERzOxT2;
+        "quilt-26.3-pre-2" = _vnDwjuix;
+        "quilt-26.3-pre-3" = _tFLO7d7F;
+        "quilt-26.3-rc-1" = _GACNs6MS;
+        "quilt-26.3-rc-2" = _R5TN1DiL;
+        "quilt-26.3-rc-3" = _LS3pYb1A;
+        "quilt-26.3" = _kOqR0w3I;
         "forge-26.1" = _JmpyLY7d;
         "forge-26.1.1" = _JmpyLY7d;
         "forge-26.1.2" = _JmpyLY7d;
@@ -1082,8 +1130,8 @@ let
         "pkg-4.4.4-beta" = _w5aDZbw9;
         "pkg-4.4.4-alpha" = _bn3K15hP;
         "pkg-4.5.0-beta" = _lot29UyS;
-        "pkg-4.6.0" = _7H02EHPI;
-        "default" = _7H02EHPI;
+        "pkg-4.6.0" = _kOqR0w3I;
+        "default" = _kOqR0w3I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eslium";

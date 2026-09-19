@@ -36,6 +36,16 @@ let
             "file" = "BetterHitSounds-1.21-1.21.1-v2.0.0.jar";
             "hash" = "sha512-fP+Td20u08qqGfnxfVhlbYePEAaQiDLgY3wBXl/88Y3UqBGZQwhCJ8U8r66pqYJX0TS6C2UN7QTs+eQwOpVjSw==";
         };
+        _q8ReL1X3 = {
+            "id" = "q8ReL1X3";
+            "file" = "BetterHitSounds-26.2-2.0.0.jar";
+            "hash" = "sha512-PztQiUNpEWNHT76yr167m6mCKELYuCc00LbyyUxh94isobsJGc7eF4/XXcxve4xPazvN0IDioEb6IYEgsY5UIA==";
+        };
+        _9d2aSVJz = {
+            "id" = "9d2aSVJz";
+            "file" = "BetterHitSounds-26.1-26.1.2-2.0.0.jar";
+            "hash" = "sha512-T2uWj8jfG/cJNXhn3J+OiOAuuvhF8TZgjSJR+EZWszwRttnPYdEYLUt54TfXz/pCDeBM7YGK3VCBKMDab4IhUg==";
+        };
     in {
         "vRlD9k3y" = _vRlD9k3y;
         "ckx9tFLe" = _ckx9tFLe;
@@ -44,6 +54,8 @@ let
         "aSbZZJ7R" = _aSbZZJ7R;
         "RurY7duu" = _RurY7duu;
         "zj1P0Oae" = _zj1P0Oae;
+        "q8ReL1X3" = _q8ReL1X3;
+        "9d2aSVJz" = _9d2aSVJz;
         "fabric-1.21" = _zj1P0Oae;
         "fabric-1.21.1" = _zj1P0Oae;
         "fabric-1.21.2" = _RurY7duu;
@@ -56,6 +68,10 @@ let
         "fabric-1.21.9" = _Bn2bDPJ5;
         "fabric-1.21.10" = _Bn2bDPJ5;
         "fabric-1.21.11" = _Bn2bDPJ5;
+        "fabric-26.2" = _q8ReL1X3;
+        "fabric-26.1" = _9d2aSVJz;
+        "fabric-26.1.1" = _9d2aSVJz;
+        "fabric-26.1.2" = _9d2aSVJz;
         "pkg-1.0.0" = _vRlD9k3y;
         "pkg-1.1.0" = _ckx9tFLe;
         "pkg-v2.0.0+mc1.21.9-1.21.11" = _Bn2bDPJ5;
@@ -63,7 +79,9 @@ let
         "pkg-v2.0.0+mc1.21.5" = _aSbZZJ7R;
         "pkg-v2.0.0+1.21.2-1.21.4" = _RurY7duu;
         "pkg-v2.0.0+mc1.21-1.21.1" = _zj1P0Oae;
-        "default" = _zj1P0Oae;
+        "pkg-v2.0.0+mc26.2" = _q8ReL1X3;
+        "pkg-v2.0.0+mc26.1-26.1.2" = _9d2aSVJz;
+        "default" = _9d2aSVJz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betterhitsounds";

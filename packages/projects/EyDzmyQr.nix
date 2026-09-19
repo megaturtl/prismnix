@@ -316,6 +316,11 @@ let
             "file" = "worldgenDevtools-1.4.0+26.3-snapshot-2.jar";
             "hash" = "sha512-ZNns9CPvwqZ7pMsZ7UgUlEG7gJZORnHer+Z7ON+cOprdPbe2uceRSl16pQrwEc/FZX8tcG7Vv0wRrgq7HNMHGA==";
         };
+        _ktU1UdSf = {
+            "id" = "ktU1UdSf";
+            "file" = "worldgenDevtools-1.4.0+26.3-rc-2.jar";
+            "hash" = "sha512-7F3zJNS862XDBbDgdUNRM8e/rk5CR2nhIj2nq8sepP/9i6Derdps72uFg+3M8/MfIvlwf6D7NmjS6SxUZa/yEQ==";
+        };
     in {
         "h7T19gAx" = _h7T19gAx;
         "4rikEHY9" = _4rikEHY9;
@@ -380,6 +385,7 @@ let
         "IxBftFTK" = _IxBftFTK;
         "GvWIgHj2" = _GvWIgHj2;
         "qOMg3oZp" = _qOMg3oZp;
+        "ktU1UdSf" = _ktU1UdSf;
         "fabric-1.20.5-pre4" = _h7T19gAx;
         "fabric-1.20.5-rc1" = _h7T19gAx;
         "fabric-1.20.5-rc2" = _h7T19gAx;
@@ -454,6 +460,8 @@ let
         "fabric-26.2-rc-2" = _GvWIgHj2;
         "fabric-26.2" = _GvWIgHj2;
         "fabric-26.3-snapshot-2" = _qOMg3oZp;
+        "fabric-26.3-rc-2" = _ktU1UdSf;
+        "fabric-26.3-rc-3" = _ktU1UdSf;
         "pkg-1.0.0-beta.1+1.20.5-pre4" = _h7T19gAx;
         "pkg-1.0.0-bata.2+1.20.5" = _4rikEHY9;
         "pkg-1.0.0-bata.2+1.20.6" = _ykdv7YCA;
@@ -517,7 +525,8 @@ let
         "pkg-1.4.0+26.1-rc-2" = _IxBftFTK;
         "pkg-1.4.0+26.2-rc-2" = _GvWIgHj2;
         "pkg-1.4.0+26.3-snapshot-2" = _qOMg3oZp;
-        "default" = _qOMg3oZp;
+        "pkg-1.4.0+26.3-rc-2" = _ktU1UdSf;
+        "default" = _ktU1UdSf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "worldgen-devtools";

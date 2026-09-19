@@ -16,15 +16,22 @@ let
             "file" = "tornado-1.0.0.jar";
             "hash" = "sha512-1iQdGkTaelnAB/fJHGf9bzbFZzn43cq7u8xOifTh+2XTZuEvN3M+bnFBtSa0aemcNAkmtNfaHDGFBby7Vp7UOg==";
         };
+        _vC5AZqBT = {
+            "id" = "vC5AZqBT";
+            "file" = "realistictornado-1.4.2.jar";
+            "hash" = "sha512-8eJdpIfIUvxPoK25QizPQfEn2mKmt1SVviojADYZ/PB/AAxb8RiLCaeEbvukEP6bJc7VQso/41FVCSPpPgIoqQ==";
+        };
     in {
         "HZLaCs8o" = _HZLaCs8o;
         "SpWtCasa" = _SpWtCasa;
         "TDT4LvWZ" = _TDT4LvWZ;
-        "neoforge-1.21.1" = _TDT4LvWZ;
+        "vC5AZqBT" = _vC5AZqBT;
+        "neoforge-1.21.1" = _vC5AZqBT;
         "pkg-1.0.0" = _HZLaCs8o;
         "pkg-1.0.1" = _SpWtCasa;
         "pkg-1.1.0" = _TDT4LvWZ;
-        "default" = _TDT4LvWZ;
+        "pkg-1.4.2" = _vC5AZqBT;
+        "default" = _vC5AZqBT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "realistic-tornado-disasters";

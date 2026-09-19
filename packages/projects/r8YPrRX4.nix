@@ -66,6 +66,11 @@ let
             "file" = "autototem-kotlin-26.2.jar";
             "hash" = "sha512-hiTvypNcwXsEbVJhb787P6xQHdY7CBCRJQfp1h7gshhAn6SElWx5PFOq6kQibpDieprA+d+4fzuQCiaNZfLtQQ==";
         };
+        _1IH6VKxP = {
+            "id" = "1IH6VKxP";
+            "file" = "autototem-kotlin-26.3.jar";
+            "hash" = "sha512-m3T+BOlmOqv1MhsccL/qM89KRGXU/s5gYh5hM+LqJ96pOFyVbVzeO2JXcqnyFffJujDfYXAwKw64+Q5k7t66WQ==";
+        };
     in {
         "fUyjaIzg" = _fUyjaIzg;
         "v3VsKoRg" = _v3VsKoRg;
@@ -80,6 +85,7 @@ let
         "uDcGhJ0i" = _uDcGhJ0i;
         "hQhJyMOw" = _hQhJyMOw;
         "4lnbn28H" = _4lnbn28H;
+        "1IH6VKxP" = _1IH6VKxP;
         "fabric-1.21.1" = _fUyjaIzg;
         "fabric-1.21.4" = _v3VsKoRg;
         "fabric-1.21.5" = _okVbi2S8;
@@ -93,8 +99,10 @@ let
         "fabric-26.1.1" = _uDcGhJ0i;
         "fabric-26.1.2" = _hQhJyMOw;
         "fabric-26.2" = _4lnbn28H;
+        "fabric-26.3" = _1IH6VKxP;
         "pkg-1.0.0" = _4lnbn28H;
-        "default" = _4lnbn28H;
+        "pkg-26.3" = _1IH6VKxP;
+        "default" = _1IH6VKxP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fast-autototem";

@@ -181,6 +181,11 @@ let
             "file" = "immersiveenchanting-6.0.1-neoforge-26.1.jar";
             "hash" = "sha512-fh8U0GzBmnSgpevd+1Dcney2SmzQNCWLLEp3z2uG7hbTYR/AV4uOxlntOEmIC+iPf6zC4eIwfjsNKW29mEqipQ==";
         };
+        _sc9MMar9 = {
+            "id" = "sc9MMar9";
+            "file" = "immersiveenchanting-6.0.1-neoforge-26.1.2.jar";
+            "hash" = "sha512-vIPQnl3SaCGzwg4lGfWRvBglB3wVBdyTRb6Nkt2+yh7Q2eFISfMVojGK1C/CiXwdXtl3fVubYVFPFYfcv+RwFQ==";
+        };
     in {
         "BW8xfQt8" = _BW8xfQt8;
         "1qAfK45Z" = _1qAfK45Z;
@@ -218,9 +223,11 @@ let
         "1axWAPS7" = _1axWAPS7;
         "2ozQFJp6" = _2ozQFJp6;
         "xcGSU3Gq" = _xcGSU3Gq;
+        "sc9MMar9" = _sc9MMar9;
         "neoforge-1.21.1" = _1axWAPS7;
         "neoforge-26.1" = _xcGSU3Gq;
         "neoforge-26.1.1" = _xcGSU3Gq;
+        "neoforge-26.1.2" = _sc9MMar9;
         "forge-1.20.1" = _2ozQFJp6;
         "pkg-1.0.1" = _BW8xfQt8;
         "pkg-1.1.1" = _1qAfK45Z;
@@ -241,8 +248,8 @@ let
         "pkg-5.0.0" = _7Sv0NVj7;
         "pkg-5.0.1" = _L1uablxv;
         "pkg-5.0.2" = _ZrmDl9fK;
-        "pkg-6.0.1" = _xcGSU3Gq;
-        "default" = _xcGSU3Gq;
+        "pkg-6.0.1" = _sc9MMar9;
+        "default" = _sc9MMar9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-enchanting";

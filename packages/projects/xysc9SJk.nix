@@ -171,6 +171,16 @@ let
             "file" = "nemos-firework-keybinding-NeoForge-26.2-1.1.3.jar";
             "hash" = "sha512-IJstb3T6PdWSlenCK+o7EmztszgHRz/fYo4XxI8mGU2AIoEUftoKXLAzL2I6WsIt3sB4IcsIWEf5IYNHhengKQ==";
         };
+        _anI34eIJ = {
+            "id" = "anI34eIJ";
+            "file" = "nemos-firework-keybinding-NeoForge-26.3-1.1.3.jar";
+            "hash" = "sha512-f1NCoOLflFj3FYc+fmSXn7+VI3RrXiL9vutGPKrrD8SAv0al6rXqrAT5dMB7UZouHObKxZALrmVtQuMqy1Fyeg==";
+        };
+        _btnxSIb6 = {
+            "id" = "btnxSIb6";
+            "file" = "nemos-firework-keybinding-Fabric-26.3-1.1.3.jar";
+            "hash" = "sha512-3gIfRQxn1tRApsboncz6lIUHSR35h82QhMKxoIx8k3Xu39YZlKHun60PW2K6yiuAP6ft7mhxodr5itaoYjxIng==";
+        };
     in {
         "VCMvdVuz" = _VCMvdVuz;
         "5tI9TNd9" = _5tI9TNd9;
@@ -206,6 +216,8 @@ let
         "jM5viAoU" = _jM5viAoU;
         "q4NL3DZ3" = _q4NL3DZ3;
         "Gkt4ocYu" = _Gkt4ocYu;
+        "anI34eIJ" = _anI34eIJ;
+        "btnxSIb6" = _btnxSIb6;
         "fabric-1.20.1" = _eAOtlhiB;
         "fabric-1.20.4" = _pfNmqizP;
         "fabric-1.20.6" = _Fhin6ODt;
@@ -220,6 +232,7 @@ let
         "fabric-1.21.11" = _vuFPq3Yk;
         "fabric-26.1.2" = _LbWH6lyk;
         "fabric-26.2" = _q4NL3DZ3;
+        "fabric-26.3" = _btnxSIb6;
         "forge-1.21.8" = _APTsZ4nF;
         "forge-1.21.10" = _dnQluaAF;
         "forge-1.21.11" = _Q9GjMz92;
@@ -228,6 +241,7 @@ let
         "neoforge-1.21.11" = _aUjc5N8g;
         "neoforge-26.1.2" = _jM5viAoU;
         "neoforge-26.2" = _Gkt4ocYu;
+        "neoforge-26.3" = _anI34eIJ;
         "pkg-1.0-1.20.1" = _VCMvdVuz;
         "pkg-1.0-1.20.4" = _5tI9TNd9;
         "pkg-1.0-1.20.6" = _lZQ601pR;
@@ -254,7 +268,8 @@ let
         "pkg-1.21.11-1.1.3" = _aUjc5N8g;
         "pkg-26.1.2-1.1.3" = _jM5viAoU;
         "pkg-26.2-1.1.3" = _Gkt4ocYu;
-        "default" = _Gkt4ocYu;
+        "pkg-26.3-1.1.3" = _btnxSIb6;
+        "default" = _btnxSIb6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nemos-firework-keybinding";

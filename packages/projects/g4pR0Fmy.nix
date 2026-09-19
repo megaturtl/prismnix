@@ -91,6 +91,11 @@ let
             "file" = "freelook-1.4.3.jar";
             "hash" = "sha512-SPSYjmyLhxLiFvpjayJHaTDVsxnPT5XyTRrHceUwIHdlFS5ma5YGGbYQGBoP9yVEdRQ2w8vbyUtOz2eNs0VQvg==";
         };
+        _YT42PXTm = {
+            "id" = "YT42PXTm";
+            "file" = "freelook-1.4.4.jar";
+            "hash" = "sha512-aGyYIHJEHxXxvyoNICmQHxQMjxz9KOItIfRORxJDMUrdxdUmc4JVoNs1IcDH08fXj2czT40ZMAXOUbiGS5B/jA==";
+        };
     in {
         "12642AtO" = _12642AtO;
         "3nc2KA9G" = _3nc2KA9G;
@@ -110,6 +115,7 @@ let
         "PcFnFU7X" = _PcFnFU7X;
         "WDuyI2lJ" = _WDuyI2lJ;
         "9GlGVJQl" = _9GlGVJQl;
+        "YT42PXTm" = _YT42PXTm;
         "fabric-1.19.4" = _12642AtO;
         "fabric-1.20" = _3nc2KA9G;
         "fabric-1.20.1" = _3nc2KA9G;
@@ -134,6 +140,7 @@ let
         "fabric-26.1.1" = _PcFnFU7X;
         "fabric-26.1.2" = _WDuyI2lJ;
         "fabric-26.2" = _9GlGVJQl;
+        "fabric-26.3" = _YT42PXTm;
         "pkg-1.1.3" = _ueUgjno5;
         "pkg-1.1.4" = _lMY53W4i;
         "pkg-1.1.5" = _GUQuacSZ;
@@ -149,7 +156,8 @@ let
         "pkg-1.3.0" = _PcFnFU7X;
         "pkg-1.4.1" = _WDuyI2lJ;
         "pkg-1.4.3" = _9GlGVJQl;
-        "default" = _9GlGVJQl;
+        "pkg-1.4.4" = _YT42PXTm;
+        "default" = _YT42PXTm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "freelook";

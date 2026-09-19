@@ -346,6 +346,16 @@ let
             "file" = "forge-65.0.0-26.2_freecam_by_jasonzli-26.2.0.jar";
             "hash" = "sha512-4CuSsvDoKBf8dmiu+IwyMtSaesd4Ioe6vD8yA0EYDjNtU8lTktUOBGcO/ld5iHXRXh08b8sX0HhE4fRU4wsV5Q==";
         };
+        _XQNk0ypE = {
+            "id" = "XQNk0ypE";
+            "file" = "fabric-0.19.5-26.3_freecam_by_jasonzli-26.3.0.jar";
+            "hash" = "sha512-IekdC0eV+FH7FsiaoQ17kjh3qFcYQHAW9o92eXemyIpqr6FM7FMnqv3M1KOxZbody0qCrtLjYK7fNP0M6t7lNg==";
+        };
+        _L7Hub7ik = {
+            "id" = "L7Hub7ik";
+            "file" = "neoforge-26.3.0.1-beta-26.3_freecam_by_jasonzli-26.3.0.jar";
+            "hash" = "sha512-T/mLs1PopWHJUV+aKeIp7szd9QZKTwwnrZp7r1AH/uYgQG8CX+KHP9Rs7Bb1E3HRuc1Knnc3HhDaOUCwLLw8XQ==";
+        };
     in {
         "run5CnaM" = _run5CnaM;
         "Z8TEkhJU" = _Z8TEkhJU;
@@ -416,6 +426,8 @@ let
         "9AmPyZhW" = _9AmPyZhW;
         "t9oYq2ph" = _t9oYq2ph;
         "39c8eh5Q" = _39c8eh5Q;
+        "XQNk0ypE" = _XQNk0ypE;
+        "L7Hub7ik" = _L7Hub7ik;
         "fabric-1.21" = _run5CnaM;
         "fabric-1.21.1" = _run5CnaM;
         "fabric-1.20.6" = _yeCXKLtc;
@@ -444,6 +456,7 @@ let
         "fabric-26.1.1" = _RkyYs0oe;
         "fabric-26.1.2" = _RkyYs0oe;
         "fabric-26.2" = _9AmPyZhW;
+        "fabric-26.3" = _XQNk0ypE;
         "quilt-1.21" = _run5CnaM;
         "quilt-1.21.1" = _run5CnaM;
         "quilt-1.20.6" = _yeCXKLtc;
@@ -472,6 +485,7 @@ let
         "quilt-26.1.1" = _RkyYs0oe;
         "quilt-26.1.2" = _RkyYs0oe;
         "quilt-26.2" = _9AmPyZhW;
+        "quilt-26.3" = _XQNk0ypE;
         "forge-1.21" = _Z8TEkhJU;
         "forge-1.21.1" = _hvob7dS1;
         "forge-1.20.6" = _VdoER50E;
@@ -520,6 +534,7 @@ let
         "neoforge-26.1.1" = _PO5MfPK2;
         "neoforge-26.1.2" = _PO5MfPK2;
         "neoforge-26.2" = _t9oYq2ph;
+        "neoforge-26.3" = _L7Hub7ik;
         "pkg-1.21Fa" = _run5CnaM;
         "pkg-1.21Fo" = _Z8TEkhJU;
         "pkg-1.20.6Fo" = _VdoER50E;
@@ -589,7 +604,9 @@ let
         "pkg-26.2Fa" = _9AmPyZhW;
         "pkg-26.2NF" = _t9oYq2ph;
         "pkg-26.2Fo" = _39c8eh5Q;
-        "default" = _39c8eh5Q;
+        "pkg-26.3Fa" = _XQNk0ypE;
+        "pkg-26.3NF" = _L7Hub7ik;
+        "default" = _L7Hub7ik;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "freecammc";

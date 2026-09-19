@@ -871,6 +871,21 @@ let
             "file" = "bettervillage-forge-1.21.11-3.3.1.jar";
             "hash" = "sha512-cIy17lx8MPlgQL0FFqNbiyHbRtKlpG15oBstZwIKEwxoWtNK/8xJ+NeAo7q8nbwFK9pgjptK2Y87zd9OSkezzA==";
         };
+        _Bk55qYxZ = {
+            "id" = "Bk55qYxZ";
+            "file" = "bettervillage-forge-26.2-4.0.0.jar";
+            "hash" = "sha512-Ek4QEMvLNeZ5ojWLrbIKHw2BM3gcsqQF8F4wBWrRXpgQBII3mcPoR8jTbzPXYdMYf+FJKnjqZ6VE4rI5QRMdoQ==";
+        };
+        _6B3bJtLn = {
+            "id" = "6B3bJtLn";
+            "file" = "bettervillage-neoforge-26.2-4.0.0.jar";
+            "hash" = "sha512-hH09F5IJRwwlKnYmc5LgGqDOlIgdilOJOxadBdIBHsJGMx6E1+91wvgBxypUrB7xRG7QQ+m48uNA+tLy/C8PKA==";
+        };
+        _ALHOnFvJ = {
+            "id" = "ALHOnFvJ";
+            "file" = "bettervillage-fabric-26.2-4.0.0.jar";
+            "hash" = "sha512-Th8P2ZXz73ZoD+tibAkdBpiGr6qSGjX2eOe6Xj5aIGFqv+B8pcLaTb7s6NYCKS8nd45xmFobBQu4Jm8Yacf0Iw==";
+        };
     in {
         "GlzZBXIu" = _GlzZBXIu;
         "N1YRKURD" = _N1YRKURD;
@@ -1046,6 +1061,9 @@ let
         "UkfkgJMN" = _UkfkgJMN;
         "8y70lGj1" = _8y70lGj1;
         "Pv5QcxqP" = _Pv5QcxqP;
+        "Bk55qYxZ" = _Bk55qYxZ;
+        "6B3bJtLn" = _6B3bJtLn;
+        "ALHOnFvJ" = _ALHOnFvJ;
         "fabric-1.16.5" = _bLzUMyTQ;
         "fabric-1.19.2" = _P5PlD3yz;
         "fabric-1.19.4" = _3QDDWYx4;
@@ -1074,6 +1092,7 @@ let
         "fabric-1.21.9" = _u6cdO3pr;
         "fabric-1.21.10" = _60ypXHaS;
         "fabric-1.21.11" = _UkfkgJMN;
+        "fabric-26.2" = _ALHOnFvJ;
         "forge-1.16.5" = _2yWuVCf5;
         "forge-1.19.2" = _WjJYOexd;
         "forge-1.19.4" = _qr89c5zE;
@@ -1100,6 +1119,7 @@ let
         "forge-1.21.9" = _nTJXap0n;
         "forge-1.21.10" = _8y70lGj1;
         "forge-1.21.11" = _Pv5QcxqP;
+        "forge-26.2" = _Bk55qYxZ;
         "neoforge-1.20.2" = _sepJgDSC;
         "neoforge-1.20.3" = _Aa5fHEJm;
         "neoforge-1.20.6" = _yjMdCNVq;
@@ -1115,11 +1135,13 @@ let
         "neoforge-1.21.7" = _S8uGTD4H;
         "neoforge-1.21.8" = _JEWh5RvO;
         "neoforge-1.21.9" = _Zn2YxBjD;
+        "neoforge-26.2" = _6B3bJtLn;
         "pkg-3.2.0" = _yuVSPRKg;
         "pkg-3.2.1" = _BMVhqxyC;
         "pkg-3.3.0" = _EAk4MIJF;
         "pkg-3.3.1" = _Pv5QcxqP;
-        "default" = _Pv5QcxqP;
+        "pkg-4.0.0" = _ALHOnFvJ;
+        "default" = _ALHOnFvJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-village";

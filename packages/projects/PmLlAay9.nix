@@ -316,6 +316,16 @@ let
             "file" = "disablefog-fabric-26.3-snapshot-5-2.2.1.jar";
             "hash" = "sha512-4pTEaW6AVJVtOySoYcNJabbVYpWx8C+8s+OjPD9oso73Q/EDHqW1RhpfsUppj25VaJUixetRZuN86+MuFEynGQ==";
         };
+        _NsW0SPVc = {
+            "id" = "NsW0SPVc";
+            "file" = "disablefog-fabric-26.3-pre-2-2.2.1.jar";
+            "hash" = "sha512-BMrkbp/j4jYu/kpMvijIMdLab77qFpXl5im0KUcKPEte4jfdy7pX1mhjzh8up38/m86U7BhS0D36A/6mY9NKfg==";
+        };
+        _wQFyFajR = {
+            "id" = "wQFyFajR";
+            "file" = "disablefog-fabric-26.3-rc-2-2.2.1.jar";
+            "hash" = "sha512-NNIRZiBjXHBY/5l8tkR4IZkU8gKgWPyLedGrSTKlN1bNU4wuW13QTi5fH+E38x5IRq1lwoa8OMlM4QTfnJjElA==";
+        };
     in {
         "ULVyAQy3" = _ULVyAQy3;
         "F4myKCSb" = _F4myKCSb;
@@ -380,6 +390,8 @@ let
         "6eO1Snsk" = _6eO1Snsk;
         "Otl2wW5z" = _Otl2wW5z;
         "VhZKaILE" = _VhZKaILE;
+        "NsW0SPVc" = _NsW0SPVc;
+        "wQFyFajR" = _wQFyFajR;
         "fabric-1.21.2" = _uBidqKHy;
         "fabric-1.21.3" = _uBidqKHy;
         "fabric-1.21.4" = _uBidqKHy;
@@ -408,6 +420,8 @@ let
         "fabric-26.2" = _tfznPTW4;
         "fabric-26.3-snapshot-3" = _Otl2wW5z;
         "fabric-26.3-snapshot-5" = _VhZKaILE;
+        "fabric-26.3-pre-2" = _NsW0SPVc;
+        "fabric-26.3-rc-2" = _wQFyFajR;
         "quilt-1.21.2" = _uBidqKHy;
         "quilt-1.21.3" = _uBidqKHy;
         "quilt-1.21.4" = _uBidqKHy;
@@ -436,6 +450,8 @@ let
         "quilt-26.2" = _tfznPTW4;
         "quilt-26.3-snapshot-3" = _Otl2wW5z;
         "quilt-26.3-snapshot-5" = _VhZKaILE;
+        "quilt-26.3-pre-2" = _NsW0SPVc;
+        "quilt-26.3-rc-2" = _wQFyFajR;
         "neoforge-1.21.6" = _nYYDyoq2;
         "neoforge-1.21.7" = _nYYDyoq2;
         "neoforge-1.21.8" = _nYYDyoq2;
@@ -490,8 +506,8 @@ let
         "pkg-2.1.0" = _fiYc20tz;
         "pkg-2.1.1" = _WQF3H6gK;
         "pkg-2.2.0" = _ZvSVGLqe;
-        "pkg-2.2.1" = _VhZKaILE;
-        "default" = _VhZKaILE;
+        "pkg-2.2.1" = _wQFyFajR;
+        "default" = _wQFyFajR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "disable-fog";

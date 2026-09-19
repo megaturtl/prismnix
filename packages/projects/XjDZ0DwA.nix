@@ -596,6 +596,16 @@ let
             "file" = "unbreakables-neoforge-26.1-26.1.0.2.jar";
             "hash" = "sha512-dAJ7t4yju06C+l3XiAT6hLq6f2mnzbag0Vj6pXQjXCfmw97aiJoxC5XDm36CjgVNl2tQutyar1foC/Fmwkm9qA==";
         };
+        _KNtnEzPa = {
+            "id" = "KNtnEzPa";
+            "file" = "unbreakables-fabric-26.3-26.3.0.1.jar";
+            "hash" = "sha512-+jUssiOu6A1OG6k1rblrZOaDfhhX0Q01NSd/LleIYWtVsSBb7OFGupGK7PWMkQyozUsD63NEPLOiuJx5O7gfKw==";
+        };
+        _6hs6zpDk = {
+            "id" = "6hs6zpDk";
+            "file" = "unbreakables-neoforge-26.3-26.3.0.1.jar";
+            "hash" = "sha512-mcM8fCtlkGYxH3AIg7c6Hc9yy52o1COiXG9SOP5RPDcvfSmP1mpVf18YppDMig34jPdiqaDPK8Tu9P85Gd5H6Q==";
+        };
     in {
         "ZNBEGrLX" = _ZNBEGrLX;
         "xizAd4MD" = _xizAd4MD;
@@ -716,6 +726,8 @@ let
         "hTgtx2me" = _hTgtx2me;
         "trn6n5U3" = _trn6n5U3;
         "n8oGt7Gl" = _n8oGt7Gl;
+        "KNtnEzPa" = _KNtnEzPa;
+        "6hs6zpDk" = _6hs6zpDk;
         "fabric-1.20" = _VFjdj5iF;
         "fabric-1.20.1" = _VFjdj5iF;
         "fabric-1.21" = _vYhoY19l;
@@ -732,6 +744,7 @@ let
         "fabric-26.1" = _trn6n5U3;
         "fabric-26.1.1" = _trn6n5U3;
         "fabric-26.1.2" = _trn6n5U3;
+        "fabric-26.3" = _KNtnEzPa;
         "forge-1.20" = _2CS0JLRm;
         "forge-1.20.1" = _2CS0JLRm;
         "forge-1.21" = _QF65Ka4I;
@@ -757,6 +770,7 @@ let
         "neoforge-26.1" = _n8oGt7Gl;
         "neoforge-26.1.1" = _n8oGt7Gl;
         "neoforge-26.1.2" = _n8oGt7Gl;
+        "neoforge-26.3" = _6hs6zpDk;
         "pkg-20.1.1+fabric-1.20.1" = _ZNBEGrLX;
         "pkg-20.1.1+forge-1.20.1" = _xizAd4MD;
         "pkg-21.1.1+fabric-1.21.1" = _gDNs7ABv;
@@ -875,7 +889,9 @@ let
         "pkg-26.2.0.1+fabric-26.2" = _Yq601q6m;
         "pkg-26.2.0.1+neoforge-26.2" = _hTgtx2me;
         "pkg-26.1.0.2" = _n8oGt7Gl;
-        "default" = _n8oGt7Gl;
+        "pkg-26.3.0.1+fabric-26.3" = _KNtnEzPa;
+        "pkg-26.3.0.1+neoforge-26.3" = _6hs6zpDk;
+        "default" = _6hs6zpDk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unbreakables";

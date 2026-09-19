@@ -136,6 +136,21 @@ let
             "file" = "skyblock-item-list-0.0.21+26.2.jar";
             "hash" = "sha512-kPWOGu9a3QSvzP3nZwwEabrom91GoIe+zI5uDzLZswM9OO+LE2Sbo4IsATyjsy54pmDkshYZqD3294MCJMl55w==";
         };
+        _XexAxTfg = {
+            "id" = "XexAxTfg";
+            "file" = "skyblock-item-list-0.0.22+26.1.2.jar";
+            "hash" = "sha512-Kx9m9sA3PTFImcuj6nvrwc+tkSogB1MqgxT36YBqjuR/BCy0EBDJ32VprrtkR8xcX9MAZAEsoS8Mia04kl/mBA==";
+        };
+        _cQCKIhLE = {
+            "id" = "cQCKIhLE";
+            "file" = "skyblock-item-list-0.0.22+26.2.jar";
+            "hash" = "sha512-yNx/1Klq35b7auc2AVwL4mrtrM1bSKuPORWor0AEJ4Ux0Hppu7pvVtH+LJag27ty9ixN4Dsi0UpCI+av60GKhA==";
+        };
+        _PzMjo0qo = {
+            "id" = "PzMjo0qo";
+            "file" = "skyblock-item-list-0.0.22+26.3.jar";
+            "hash" = "sha512-8pgZtlYaIUfJbqq87CEGTxDXp0kcLdrgtGxO80KSEbFAw2Rv61nnKn7A9SD4hXheP7aisC7Gv/t89dfz27AHng==";
+        };
     in {
         "eBHPdDeJ" = _eBHPdDeJ;
         "ucU2P7ke" = _ucU2P7ke;
@@ -164,10 +179,14 @@ let
         "1tYRdhmD" = _1tYRdhmD;
         "gTINDM42" = _gTINDM42;
         "H2W9EJL7" = _H2W9EJL7;
-        "fabric-26.1" = _gTINDM42;
-        "fabric-26.1.1" = _gTINDM42;
-        "fabric-26.1.2" = _gTINDM42;
-        "fabric-26.2" = _H2W9EJL7;
+        "XexAxTfg" = _XexAxTfg;
+        "cQCKIhLE" = _cQCKIhLE;
+        "PzMjo0qo" = _PzMjo0qo;
+        "fabric-26.1" = _XexAxTfg;
+        "fabric-26.1.1" = _XexAxTfg;
+        "fabric-26.1.2" = _XexAxTfg;
+        "fabric-26.2" = _cQCKIhLE;
+        "fabric-26.3" = _PzMjo0qo;
         "pkg-v0.0.4+26.1.2" = _eBHPdDeJ;
         "pkg-v0.0.5+26.1.2" = _ucU2P7ke;
         "pkg-v0.0.6+26.1.2" = _iEgo2uir;
@@ -195,7 +214,10 @@ let
         "pkg-v0.0.20+26.2" = _1tYRdhmD;
         "pkg-v0.0.21+26.1.2" = _gTINDM42;
         "pkg-v0.0.21+26.2" = _H2W9EJL7;
-        "default" = _H2W9EJL7;
+        "pkg-v0.0.22+26.1.2" = _XexAxTfg;
+        "pkg-v0.0.22+26.2" = _cQCKIhLE;
+        "pkg-v0.0.22+26.3" = _PzMjo0qo;
+        "default" = _PzMjo0qo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skyblock-item-list";

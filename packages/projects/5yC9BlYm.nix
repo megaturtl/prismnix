@@ -101,6 +101,26 @@ let
             "file" = "ftbquestsentityvis-1.9.0-1.21.1-neoforge.jar";
             "hash" = "sha512-37ZU9l27AbTmNC+BKNlaAi2fBxAxLzGZwURM/rQXPzu1sifY0mEE1OKW3ic0cBkYuTEOnsIBULRnYhVi1acwnw==";
         };
+        _EpWyl8zu = {
+            "id" = "EpWyl8zu";
+            "file" = "ftbquestsentityvis-1.10.0-1.20.1-forge.jar";
+            "hash" = "sha512-ox01P/tKUl9vDxStvnnpUJKJZSUp5tMEoBpnMN6TQ92xEPglB+Nv764E4MdYW1oRnA0wCyedI6ebPUVAQ0OJgg==";
+        };
+        _T5jslljZ = {
+            "id" = "T5jslljZ";
+            "file" = "ftbquestsentityvis-1.10.0-1.21.1-neoforge.jar";
+            "hash" = "sha512-1jWI2fz4iUsYBVI+IQbfElDQjq9/fc/OvQcAasRAfnSDhN9GRbYRtizWdDmKbVfb9aQh6LAPsMpr0+73FyOjhQ==";
+        };
+        _LC7HLMEy = {
+            "id" = "LC7HLMEy";
+            "file" = "ftbquestsentityvis-1.10.0-1.20.1-fabric.jar";
+            "hash" = "sha512-F8nlBCHy+WTsSEabG62GEeUGclnUR8c7ankICD7GMbpcqQ/rY3KpvBOfjqfUhmUop5wnVkIJ1Mo6ZS5CPUe7Zw==";
+        };
+        _nLZ9vnGu = {
+            "id" = "nLZ9vnGu";
+            "file" = "ftbquestsentityvis-1.10.0-1.21.1-fabric.jar";
+            "hash" = "sha512-yhK506ELNXIHYX2+DJmu3MqfuGxcYqfedexZ+6A4wFEzo3m1xhKylybFfkHE7Szc3I84WJ7vczpkoYYXgap2uQ==";
+        };
     in {
         "y3mt2aVv" = _y3mt2aVv;
         "AQHAyRCr" = _AQHAyRCr;
@@ -122,16 +142,21 @@ let
         "AJmRfcLF" = _AJmRfcLF;
         "MdCJkFhp" = _MdCJkFhp;
         "K7UTXWn4" = _K7UTXWn4;
-        "forge-1.20.1" = _YCj0TRND;
-        "neoforge-1.21.1" = _K7UTXWn4;
-        "fabric-1.20.1" = _AJmRfcLF;
-        "fabric-1.21.1" = _MdCJkFhp;
+        "EpWyl8zu" = _EpWyl8zu;
+        "T5jslljZ" = _T5jslljZ;
+        "LC7HLMEy" = _LC7HLMEy;
+        "nLZ9vnGu" = _nLZ9vnGu;
+        "forge-1.20.1" = _EpWyl8zu;
+        "neoforge-1.21.1" = _T5jslljZ;
+        "fabric-1.20.1" = _LC7HLMEy;
+        "fabric-1.21.1" = _nLZ9vnGu;
         "pkg-1.5.0" = _CE37jz2p;
         "pkg-1.6.0" = _egL427Gj;
         "pkg-1.7.0" = _eSvupcfd;
         "pkg-1.8.0" = _DInCDbun;
         "pkg-1.9.0" = _K7UTXWn4;
-        "default" = _K7UTXWn4;
+        "pkg-1.10.0" = _nLZ9vnGu;
+        "default" = _nLZ9vnGu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ftb-quests-entity-visualization";

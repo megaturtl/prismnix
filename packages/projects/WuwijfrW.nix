@@ -286,6 +286,26 @@ let
             "file" = "Carved Wood-fabric-26.1-1.9.7-B.jar";
             "hash" = "sha512-xND3VLd99bLrTGKbUbvMYuaHXyJ5lGC/gl1Z6FIbIR0kihHkEpLp2eaxshcmgp5Pu64Sg0hPpZ5QD4chRe2ltA==";
         };
+        _AgbpHFAp = {
+            "id" = "AgbpHFAp";
+            "file" = "Carved Wood-neoforge-1.21.1-1.9.8.jar";
+            "hash" = "sha512-JchYIblXz+gSFNsMsxvmRqHNvcxFDXpGhp/BvZegooAToYD4onuwpqEfajXZbHXQH6p9AADxxNqWg6E/2p5Mhw==";
+        };
+        _G69lfmfc = {
+            "id" = "G69lfmfc";
+            "file" = "Carved Wood-fabric-1.21.1-1.9.8.jar";
+            "hash" = "sha512-UhQulZ8F+i2JbyUFBWo8d8TZRIje80RImT1olYcJyr+lalAKOj///hN9qnZmE2wegWY1ftrALeJBySifeD3Kvg==";
+        };
+        _TQmOwXRa = {
+            "id" = "TQmOwXRa";
+            "file" = "Carved Wood-neoforge-1.21.1-1.9.8-B.jar";
+            "hash" = "sha512-NH7NJkDjtz7M/raT6CuCSNYX1XzqBHPDfKDEhtFS1STsUMNZ0dufhlQOttw/Y5zddVgON528anOEL1XNqOUuHA==";
+        };
+        _LdlaVUmN = {
+            "id" = "LdlaVUmN";
+            "file" = "Carved Wood-fabric-1.21.1-1.9.8-B.jar";
+            "hash" = "sha512-mVdyGTuxC1+/r92dfklofSl6dtLQ0c3xl8Zy4Nyr4afm5LurJVijqROq36TRl/r78d28xc0lb7jvbhL470jP2g==";
+        };
     in {
         "yycPZK1p" = _yycPZK1p;
         "FqekeJxC" = _FqekeJxC;
@@ -344,18 +364,22 @@ let
         "tYoQOzq0" = _tYoQOzq0;
         "FYB1NtRS" = _FYB1NtRS;
         "RL4MDrK9" = _RL4MDrK9;
+        "AgbpHFAp" = _AgbpHFAp;
+        "G69lfmfc" = _G69lfmfc;
+        "TQmOwXRa" = _TQmOwXRa;
+        "LdlaVUmN" = _LdlaVUmN;
         "forge-1.20.1" = _RQFo8J6j;
         "forge-1.21" = _49zSTgtG;
         "forge-1.21.1" = _49zSTgtG;
         "fabric-1.20.1" = _CJqM1pDd;
-        "fabric-1.21" = _h1wI9HyK;
-        "fabric-1.21.1" = _h1wI9HyK;
+        "fabric-1.21" = _LdlaVUmN;
+        "fabric-1.21.1" = _LdlaVUmN;
         "fabric-1.21.11" = _tYoQOzq0;
         "fabric-26.1" = _RL4MDrK9;
         "fabric-26.1.1" = _RL4MDrK9;
         "fabric-26.1.2" = _RL4MDrK9;
-        "neoforge-1.21" = _47XLPe1g;
-        "neoforge-1.21.1" = _47XLPe1g;
+        "neoforge-1.21" = _TQmOwXRa;
+        "neoforge-1.21.1" = _TQmOwXRa;
         "neoforge-1.21.11" = _Q1p84Fft;
         "neoforge-26.1" = _FYB1NtRS;
         "neoforge-26.1.1" = _FYB1NtRS;
@@ -417,7 +441,11 @@ let
         "pkg-1.9.7-B-Fabric-1.21.11" = _tYoQOzq0;
         "pkg-1.9.7-B-NeoForge-26.1" = _FYB1NtRS;
         "pkg-1.9.7-B-Fabric-26.1" = _RL4MDrK9;
-        "default" = _RL4MDrK9;
+        "pkg-1.9.8-NeoForge-1.21.1" = _AgbpHFAp;
+        "pkg-1.9.8-Fabric-1.21.1" = _G69lfmfc;
+        "pkg-1.9.8-B-NeoForge-1.21.1" = _TQmOwXRa;
+        "pkg-1.9.8-B-Fabric-1.21.1" = _LdlaVUmN;
+        "default" = _LdlaVUmN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "carved-wood";

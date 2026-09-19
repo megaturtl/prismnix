@@ -316,6 +316,21 @@ let
             "file" = "pottery-1.0.2-neoforge-mc26.2.jar";
             "hash" = "sha512-ftIa5m0jy/korp+f9N9mEWwQYx87410FQ0AAdJrEHESsjv3HSORNwEmetxphdLTYVLqazNCynkiPPEqkiBb/oQ==";
         };
+        _uKHZL8jW = {
+            "id" = "uKHZL8jW";
+            "file" = "pottery-1.0.2a-neoforge-mc26.2.jar";
+            "hash" = "sha512-Th4cvADHY7zkyH8OOddyDPXlT5RshGMi76PvSSrKiQw7Tznl50w+nVyqW7K8AfEM4W9ExWKjdFpoYA2FzqkUQg==";
+        };
+        _TK85x7kZ = {
+            "id" = "TK85x7kZ";
+            "file" = "pottery-1.0.2-fabric-mc26.3.jar";
+            "hash" = "sha512-pm0PZTiC+aTbcRa4dnPcdtFSsSP+z2YaRo9KAMELsSFSOuhwYPwW+8AoHAVTKUxfs17Ldv8yX+4E9V/4YKWUlQ==";
+        };
+        _pFuvknhn = {
+            "id" = "pFuvknhn";
+            "file" = "pottery-1.0.2-neoforge-mc26.3.jar";
+            "hash" = "sha512-++X/LlSAUMiXP3mkTf90KFHN1r5ZWcuKo/f6hWYYy47WZ47KoiKDcRwjiHtYhLVMvfBAt105GVidcfy8IXJ4Xg==";
+        };
     in {
         "hYwQAoBd" = _hYwQAoBd;
         "pLDPGldO" = _pLDPGldO;
@@ -380,6 +395,9 @@ let
         "meVs0VIF" = _meVs0VIF;
         "ZVChA4Qq" = _ZVChA4Qq;
         "4hPH6ceY" = _4hPH6ceY;
+        "uKHZL8jW" = _uKHZL8jW;
+        "TK85x7kZ" = _TK85x7kZ;
+        "pFuvknhn" = _pFuvknhn;
         "forge-1.20" = _guaJVvzq;
         "forge-1.20.1" = _guaJVvzq;
         "forge-1.20.2" = _H2mssgvi;
@@ -424,7 +442,8 @@ let
         "neoforge-26.1" = _C7p7shd3;
         "neoforge-26.1.1" = _C7p7shd3;
         "neoforge-26.1.2" = _C7p7shd3;
-        "neoforge-26.2" = _4hPH6ceY;
+        "neoforge-26.2" = _uKHZL8jW;
+        "neoforge-26.3" = _pFuvknhn;
         "fabric-1.20" = _MyUzxueM;
         "fabric-1.20.1" = _MyUzxueM;
         "fabric-1.20.2" = _dNeQer1V;
@@ -448,6 +467,7 @@ let
         "fabric-26.1.1" = _EwjG0ZSt;
         "fabric-26.1.2" = _EwjG0ZSt;
         "fabric-26.2" = _ZVChA4Qq;
+        "fabric-26.3" = _TK85x7kZ;
         "quilt-1.20" = _MyUzxueM;
         "quilt-1.20.1" = _MyUzxueM;
         "quilt-1.20.2" = _dNeQer1V;
@@ -471,6 +491,7 @@ let
         "quilt-26.1.1" = _EwjG0ZSt;
         "quilt-26.1.2" = _EwjG0ZSt;
         "quilt-26.2" = _ZVChA4Qq;
+        "quilt-26.3" = _TK85x7kZ;
         "pkg-1.0.0-forge-mc1.20.1" = _hYwQAoBd;
         "pkg-1.0.0-forge-mc1.20.2" = _pLDPGldO;
         "pkg-1.0.0-forge-mc1.20.4" = _mkaEAjbF;
@@ -534,7 +555,10 @@ let
         "pkg-1.0.2-forge-mc26.2" = _meVs0VIF;
         "pkg-1.0.2-fabric-mc26.2" = _ZVChA4Qq;
         "pkg-1.0.2-neoforge-mc26.2" = _4hPH6ceY;
-        "default" = _4hPH6ceY;
+        "pkg-1.0.2a-neoforge-mc26.2" = _uKHZL8jW;
+        "pkg-1.0.2-fabric-mc26.3" = _TK85x7kZ;
+        "pkg-1.0.2-neoforge-mc26.3" = _pFuvknhn;
+        "default" = _pFuvknhn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pottery";

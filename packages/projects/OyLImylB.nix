@@ -26,19 +26,38 @@ let
             "file" = "horrorchatmessages-2.0.1.jar";
             "hash" = "sha512-x4Deua/l6fMZvjVo0y03I3KrUfRIhaj83dGWbRMVaSJFYcCXLwpGH55QhX0TeL86pMSLGzgz0+/Q5rnMmZSJtg==";
         };
+        _462KIl6Q = {
+            "id" = "462KIl6Q";
+            "file" = "horrorchatmessages-2.0.2.jar";
+            "hash" = "sha512-bVuGS2BY8yOrPW8tZ4e8Rbgcke3z5SCqb6StPOnC8JEBa9nMjHkk+v7OxfQnvwVxsMVMgh7ouRO08904i4V7nQ==";
+        };
+        _3albs5ok = {
+            "id" = "3albs5ok";
+            "file" = "horrorchatmessages-2.0.2.jar";
+            "hash" = "sha512-jUeh/gk1UXrD52xBbk5NmYIVmDZcZSckpx9oTkAcavkdWcXZp2J3HE+JnCOaayHa2z4QOvfwtciF30s3PMgWag==";
+        };
+        _m8Z53cId = {
+            "id" = "m8Z53cId";
+            "file" = "horrorchatmessages-2.0.2.jar";
+            "hash" = "sha512-63tYd6nQ3pvkH5wvd4j1MXhD45+7lMmK9yFt99Yt1vnoFQz381uQ91j+tEdiDlD5tDAEB3o4gAhwAspOQAcKSA==";
+        };
     in {
         "3MMXV91L" = _3MMXV91L;
         "m0un63bV" = _m0un63bV;
         "5YZ2qJ02" = _5YZ2qJ02;
         "8YVAM6Yl" = _8YVAM6Yl;
         "VmoWWwCv" = _VmoWWwCv;
-        "neoforge-1.21.1" = _VmoWWwCv;
-        "forge-1.19.2" = _5YZ2qJ02;
-        "forge-1.20.1" = _8YVAM6Yl;
+        "462KIl6Q" = _462KIl6Q;
+        "3albs5ok" = _3albs5ok;
+        "m8Z53cId" = _m8Z53cId;
+        "neoforge-1.21.1" = _m8Z53cId;
+        "forge-1.19.2" = _462KIl6Q;
+        "forge-1.20.1" = _3albs5ok;
         "pkg-1.0.0" = _3MMXV91L;
         "pkg-2.0.0" = _m0un63bV;
         "pkg-2.0.1" = _VmoWWwCv;
-        "default" = _VmoWWwCv;
+        "pkg-2.0.2" = _m8Z53cId;
+        "default" = _m8Z53cId;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "haunted-chat";

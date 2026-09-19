@@ -66,6 +66,11 @@ let
             "file" = "UncraftingRecipes-26.2-1.0.jar";
             "hash" = "sha512-6F8FS+fl3kgYvfcvqrym1TqlIVQrquzEjg507vXDDp4zt4itJ8w8N/VzHLHUY/orNjTD3ZUg04wzmAmjBj5AiA==";
         };
+        _q6I8lZMY = {
+            "id" = "q6I8lZMY";
+            "file" = "UncraftingRecipes-26.3-1.0.jar";
+            "hash" = "sha512-D+JZoZLs0pvckYFxPQ4CQhLbfhllMlj3tF3/hPu0EPk0YnxLzYcF+W0Bev28QyhYe6QO0mPWm6C9EbCYiVGpFA==";
+        };
     in {
         "1QGB2xml" = _1QGB2xml;
         "lgeGCiKJ" = _lgeGCiKJ;
@@ -80,6 +85,7 @@ let
         "yuAQCaQh" = _yuAQCaQh;
         "MMvb8enl" = _MMvb8enl;
         "gmvAISwu" = _gmvAISwu;
+        "q6I8lZMY" = _q6I8lZMY;
         "fabric-1.21.4" = _1QGB2xml;
         "fabric-1.18.2" = _lgeGCiKJ;
         "fabric-1.19.2" = _N9NOz1oM;
@@ -99,6 +105,7 @@ let
         "fabric-26.1.1" = _MMvb8enl;
         "fabric-26.1.2" = _MMvb8enl;
         "fabric-26.2" = _gmvAISwu;
+        "fabric-26.3" = _q6I8lZMY;
         "forge-1.21.4" = _1QGB2xml;
         "forge-1.18.2" = _lgeGCiKJ;
         "forge-1.19.2" = _N9NOz1oM;
@@ -119,6 +126,7 @@ let
         "forge-26.1.1" = _MMvb8enl;
         "forge-26.1.2" = _MMvb8enl;
         "forge-26.2" = _gmvAISwu;
+        "forge-26.3" = _q6I8lZMY;
         "neoforge-1.21.4" = _1QGB2xml;
         "neoforge-1.20.1" = _J7Hi2CFm;
         "neoforge-1.21" = _wGwdLVOx;
@@ -136,6 +144,7 @@ let
         "neoforge-26.1.1" = _MMvb8enl;
         "neoforge-26.1.2" = _MMvb8enl;
         "neoforge-26.2" = _gmvAISwu;
+        "neoforge-26.3" = _q6I8lZMY;
         "pkg-1.21.4-1.1" = _1QGB2xml;
         "pkg-1.18.2-1.0" = _lgeGCiKJ;
         "pkg-1.19.2-1.0" = _N9NOz1oM;
@@ -149,7 +158,8 @@ let
         "pkg-1.21.11-1.0" = _yuAQCaQh;
         "pkg-26.1-1.0" = _MMvb8enl;
         "pkg-26.2-1.0" = _gmvAISwu;
-        "default" = _gmvAISwu;
+        "pkg-26.3-1.0" = _q6I8lZMY;
+        "default" = _q6I8lZMY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "uncraftingrecipes";

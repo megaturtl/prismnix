@@ -81,6 +81,11 @@ let
             "file" = "bbsaekeyframe-mc1.20.4-1.1.4.jar";
             "hash" = "sha512-GJLnZ3mVirovjvEJ/42GB9bRRA52NhaO9YHAIHPV1lgiNDATfVoKI1otdOcnQ7JwVdUNf/x9T8xTj0+ePwxOhQ==";
         };
+        _lVdNYDlb = {
+            "id" = "lVdNYDlb";
+            "file" = "bbsaekeyframe-1.2.0.jar";
+            "hash" = "sha512-fvJ83TETViGmMYm5XuudraNE3XfWpo94hDDqI92unQ7CQPCmw6+RZZLJ9slfh5l7k+VTIXVg5jUc29cH7efbgA==";
+        };
     in {
         "xcxC31Oj" = _xcxC31Oj;
         "TgvJsTeW" = _TgvJsTeW;
@@ -98,9 +103,19 @@ let
         "RlFJ4Pkb" = _RlFJ4Pkb;
         "YilEARR2" = _YilEARR2;
         "1Raax6uL" = _1Raax6uL;
-        "fabric-1.20.1" = _YilEARR2;
-        "fabric-1.20.4" = _1Raax6uL;
-        "forge-1.20.1" = _YilEARR2;
+        "lVdNYDlb" = _lVdNYDlb;
+        "fabric-1.20.1" = _lVdNYDlb;
+        "fabric-1.20.4" = _lVdNYDlb;
+        "fabric-1.21.1" = _lVdNYDlb;
+        "fabric-1.21.11" = _lVdNYDlb;
+        "forge-1.20.1" = _lVdNYDlb;
+        "forge-1.20.4" = _lVdNYDlb;
+        "forge-1.21.1" = _lVdNYDlb;
+        "forge-1.21.11" = _lVdNYDlb;
+        "neoforge-1.20.1" = _lVdNYDlb;
+        "neoforge-1.20.4" = _lVdNYDlb;
+        "neoforge-1.21.1" = _lVdNYDlb;
+        "neoforge-1.21.11" = _lVdNYDlb;
         "pkg-mc1.20.1+bbs1.4.4+1.0" = _xcxC31Oj;
         "pkg-mc1.20.4+bbs1.4.4+1.0" = _TgvJsTeW;
         "pkg-mc1.20.1+bbs1.4.4+1.0.1" = _CtzBN7b0;
@@ -117,7 +132,8 @@ let
         "pkg-mc1.20.4-1.1.3" = _RlFJ4Pkb;
         "pkg-mc1.20.1-1.1.4" = _YilEARR2;
         "pkg-mc1.20.4-1.1.4" = _1Raax6uL;
-        "default" = _1Raax6uL;
+        "pkg-1.2.0" = _lVdNYDlb;
+        "default" = _lVdNYDlb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bbs-ae-keyframe-addon";

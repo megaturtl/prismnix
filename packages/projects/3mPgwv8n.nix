@@ -1346,6 +1346,21 @@ let
             "file" = "capabilityproxy-26.2-neoforge-2.2.3-229.jar";
             "hash" = "sha512-eS/z9eqsL74WGnDRfZlNN7hSAo1KXlcOZyzSXTr4134eJSpmpFjPzdzlBZ5weYso5wm/1mANArVXfvb5BPBr3w==";
         };
+        _sPWykNPN = {
+            "id" = "sPWykNPN";
+            "file" = "capabilityproxy-26.1.2-fabric-2.2.3-230.jar";
+            "hash" = "sha512-HzuSyke9TkA85/n0wDD4idi97UqSvIwAbjmLyAaK7YnPNDiyyHKKsH+1TQyti4B62UmnCFr4nThl/XRj9aOYSQ==";
+        };
+        _Cpu3Cgw2 = {
+            "id" = "Cpu3Cgw2";
+            "file" = "capabilityproxy-26.1.2-forge-2.2.3-230.jar";
+            "hash" = "sha512-IPYA7GL4Lv0C+ANA3MvpR7pctDWTTieeq/m1j2Amq7dD5jtdo4a6cQ/5b9Wd6ZhHD80k+TNFEmG2BsnLvqt+CA==";
+        };
+        _MmCKLSQu = {
+            "id" = "MmCKLSQu";
+            "file" = "capabilityproxy-26.1.2-neoforge-2.2.3-230.jar";
+            "hash" = "sha512-ktqBmQDDw/0ErKdL+BqyG6YqoMc3NxfDUaaoj+RKR0wnEkDai4rooTA/XZkWDnqEcKtgznx22uZO3XVegCfDDA==";
+        };
     in {
         "l1nNnF3j" = _l1nNnF3j;
         "wAnxBlNp" = _wAnxBlNp;
@@ -1616,6 +1631,9 @@ let
         "ofaE1mtd" = _ofaE1mtd;
         "h99LHjCU" = _h99LHjCU;
         "4st0wGK9" = _4st0wGK9;
+        "sPWykNPN" = _sPWykNPN;
+        "Cpu3Cgw2" = _Cpu3Cgw2;
+        "MmCKLSQu" = _MmCKLSQu;
         "forge-1.18.2" = _l1nNnF3j;
         "forge-1.19" = _FUkgLOF9;
         "forge-1.19.2" = _3Jui88rN;
@@ -1630,7 +1648,7 @@ let
         "forge-1.21.10" = _xb7RSgjG;
         "forge-1.21.11" = _ofACnBOY;
         "forge-26.1.1" = _wIORhNaj;
-        "forge-26.1.2" = _grXllaF7;
+        "forge-26.1.2" = _Cpu3Cgw2;
         "forge-26.2" = _h99LHjCU;
         "neoforge-1.20.4" = _n7EuiYEZ;
         "neoforge-1.21" = _yleCzMbR;
@@ -1642,7 +1660,7 @@ let
         "neoforge-1.21.10" = _298DpNeU;
         "neoforge-1.21.11" = _Y7L7rt99;
         "neoforge-26.1.1" = _4pewlEbB;
-        "neoforge-26.1.2" = _Zb11zqEW;
+        "neoforge-26.1.2" = _MmCKLSQu;
         "neoforge-26.2" = _4st0wGK9;
         "fabric-1.21.1" = _PVHTNgtH;
         "fabric-1.21.4" = _t3foJjqJ;
@@ -1652,7 +1670,7 @@ let
         "fabric-1.21.10" = _czOf7COw;
         "fabric-1.21.11" = _DZiCgijl;
         "fabric-26.1.1" = _kG4AR9dP;
-        "fabric-26.1.2" = _niMK0vKl;
+        "fabric-26.1.2" = _sPWykNPN;
         "fabric-26.2" = _ofaE1mtd;
         "quilt-1.21.1" = _PVHTNgtH;
         "quilt-1.21.4" = _t3foJjqJ;
@@ -1662,7 +1680,7 @@ let
         "quilt-1.21.10" = _czOf7COw;
         "quilt-1.21.11" = _DZiCgijl;
         "quilt-26.1.1" = _kG4AR9dP;
-        "quilt-26.1.2" = _niMK0vKl;
+        "quilt-26.1.2" = _sPWykNPN;
         "quilt-26.2" = _ofaE1mtd;
         "pkg-2.1.10" = _l1nNnF3j;
         "pkg-1.19-2.1.10" = _wAnxBlNp;
@@ -1760,7 +1778,8 @@ let
         "pkg-1.21.1-2.2.1-227" = _KgNjQiH9;
         "pkg-26.1.2-2.2.3-228" = _Zb11zqEW;
         "pkg-26.2-2.2.3-229" = _4st0wGK9;
-        "default" = _4st0wGK9;
+        "pkg-26.1.2-2.2.3-230" = _MmCKLSQu;
+        "default" = _MmCKLSQu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "capability-proxy";

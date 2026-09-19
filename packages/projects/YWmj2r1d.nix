@@ -71,6 +71,11 @@ let
             "file" = "FastRTP-1.5.9-26.2.jar";
             "hash" = "sha512-+rh05hsatZxuMlf9nCZjj39QxpkxavfxoUNzN73NaZamPup6VbU98jVUkARNLDTO1mgZLf3T47s1KR5hIHPL9Q==";
         };
+        _ut6dRfGQ = {
+            "id" = "ut6dRfGQ";
+            "file" = "FastRTP-1.5.10-26.3.jar";
+            "hash" = "sha512-A7nCr+CZ1CjOtESPs/FXX5xwry8n8tEWOph5b6iBMRhXCiDIE+UBgpiAnydr24lglCKPAMmKczhfVF0fuwCPbw==";
+        };
     in {
         "4a3vjqHl" = _4a3vjqHl;
         "S4Q4b06E" = _S4Q4b06E;
@@ -86,6 +91,7 @@ let
         "IptS9rGP" = _IptS9rGP;
         "Cqgcg2gx" = _Cqgcg2gx;
         "zye1TmGa" = _zye1TmGa;
+        "ut6dRfGQ" = _ut6dRfGQ;
         "fabric-1.20" = _ETKhHHpg;
         "fabric-1.20.1" = _ETKhHHpg;
         "fabric-1.20.2" = _4a3vjqHl;
@@ -109,6 +115,7 @@ let
         "fabric-26.1.1" = _Cqgcg2gx;
         "fabric-26.1.2" = _Cqgcg2gx;
         "fabric-26.2" = _zye1TmGa;
+        "fabric-26.3" = _ut6dRfGQ;
         "pkg-1.3-1.20.1" = _4a3vjqHl;
         "pkg-1.3-1.20.3" = _S4Q4b06E;
         "pkg-1.4-1.19.2" = _mWtp1JpR;
@@ -123,7 +130,8 @@ let
         "pkg-1.5.7-1.21.11" = _IptS9rGP;
         "pkg-1.5.8-26.1" = _Cqgcg2gx;
         "pkg-1.5.9-26.2" = _zye1TmGa;
-        "default" = _zye1TmGa;
+        "pkg-1.5.10-26.3" = _ut6dRfGQ;
+        "default" = _ut6dRfGQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fastrtp";

@@ -491,6 +491,16 @@ let
             "file" = "modflared-1.7.0+release.178.jar";
             "hash" = "sha512-sYH/zaJ8sJFEpp1iA94Fhn/vn9MYtp1zaialRPjcKgRS8hzXIBMJTDJPVagqWkDP6Lf5sMsjvF8bb6hDK1E9tw==";
         };
+        _79L5FUTX = {
+            "id" = "79L5FUTX";
+            "file" = "modflared-1.8.0+release.179.jar";
+            "hash" = "sha512-73RaTGHJyrKLl9AOxWHzcCJ4Wnigg4BpeLMbFrXHmJzvD4p+/J1GOwKnG46lbsZAzOxiJVykmwzrMXO8LPEe8w==";
+        };
+        _eiDh02jV = {
+            "id" = "eiDh02jV";
+            "file" = "modflared-1.8.0+release.180.jar";
+            "hash" = "sha512-ak+guurIatXMuVl9oyD73iwL52ctZ7SnWpNsKgYHwR3pOAZByeuq5SEFWsVTg4T9vTCF0S8r9Y+c9OApCwN1GQ==";
+        };
     in {
         "y08MTvwW" = _y08MTvwW;
         "WpFfZ0DI" = _WpFfZ0DI;
@@ -590,6 +600,8 @@ let
         "CvroMzHM" = _CvroMzHM;
         "XUEC6hSN" = _XUEC6hSN;
         "sR4Uv90S" = _sR4Uv90S;
+        "79L5FUTX" = _79L5FUTX;
+        "eiDh02jV" = _eiDh02jV;
         "fabric-1.20.2" = _y08MTvwW;
         "fabric-1.20.4" = _XJKysYps;
         "fabric-1.16.5" = _S3y8cqRO;
@@ -613,6 +625,7 @@ let
         "fabric-26.1.1" = _mQruAUYH;
         "fabric-26.1.2" = _mQruAUYH;
         "fabric-26.2" = _sR4Uv90S;
+        "fabric-26.3" = _eiDh02jV;
         "forge-1.18.2" = _oiAgHszv;
         "forge-1.16.5" = _TCJYAnK0;
         "forge-1.20.1" = _6sx0Vsi0;
@@ -634,6 +647,7 @@ let
         "neoforge-26.1.1" = _CvroMzHM;
         "neoforge-26.1.2" = _CvroMzHM;
         "neoforge-26.2" = _XUEC6hSN;
+        "neoforge-26.3" = _79L5FUTX;
         "pkg-1.0.0" = _y08MTvwW;
         "pkg-1.0.0-hotfix" = _WpFfZ0DI;
         "pkg-1.1.0+beta.9+1.20.4" = _vKs2Eh6I;
@@ -689,7 +703,9 @@ let
         "pkg-1.7.0+release.152+26.1" = _CvroMzHM;
         "pkg-1.7.0+release.174+26.2" = _XUEC6hSN;
         "pkg-1.7.0+release.178+26.2" = _sR4Uv90S;
-        "default" = _sR4Uv90S;
+        "pkg-1.8.0+release.179+26.3" = _79L5FUTX;
+        "pkg-1.8.0+release.180+26.3" = _eiDh02jV;
+        "default" = _eiDh02jV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modflared";

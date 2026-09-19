@@ -71,6 +71,16 @@ let
             "file" = "netherite-instamine-1.6.0.jar";
             "hash" = "sha512-KGxe4NwhBh34jnYdBnuxKeLeYGnhPo/jcLUm8fV6qw0WN9SlqZxLdOsXmNlTIv/3woPbk++p4Dur2iYZhn804g==";
         };
+        _UtlRVGiP = {
+            "id" = "UtlRVGiP";
+            "file" = "netherite-instamine-1.0-mc26.3.zip";
+            "hash" = "sha512-x+GiXNpRiT1xaJ+elt3pGHkeorSF3pOWfLYh61YC5BEFWMoRqLvILJItNCjQZ3GRpwAuFzknO5TUYH+6N9PtdA==";
+        };
+        _WvOZtQE7 = {
+            "id" = "WvOZtQE7";
+            "file" = "netherite-instamine-1.0-mc26.3.jar";
+            "hash" = "sha512-/1yswzG9AFMZSnC/V1jEqb+dVncyzjF/BNIw34VLHEGIZeGw/2Ufyw7G4d0ZgiC3ujCOqyykWS8Q0jhYkxeglA==";
+        };
     in {
         "M5j5MGQB" = _M5j5MGQB;
         "kHzroyRg" = _kHzroyRg;
@@ -86,6 +96,8 @@ let
         "lNXbtBbr" = _lNXbtBbr;
         "BjILTNc4" = _BjILTNc4;
         "rtgc5mBO" = _rtgc5mBO;
+        "UtlRVGiP" = _UtlRVGiP;
+        "WvOZtQE7" = _WvOZtQE7;
         "datapack-1.21.2" = _BjILTNc4;
         "datapack-1.21.3" = _BjILTNc4;
         "datapack-1.21.4" = _BjILTNc4;
@@ -102,6 +114,7 @@ let
         "datapack-26.1.1" = _BjILTNc4;
         "datapack-26.1.2" = _BjILTNc4;
         "datapack-26.2" = _BjILTNc4;
+        "datapack-26.3" = _UtlRVGiP;
         "fabric-1.21.2" = _rtgc5mBO;
         "fabric-1.21.3" = _rtgc5mBO;
         "fabric-1.21.4" = _rtgc5mBO;
@@ -118,6 +131,7 @@ let
         "fabric-26.1.1" = _rtgc5mBO;
         "fabric-26.1.2" = _rtgc5mBO;
         "fabric-26.2" = _rtgc5mBO;
+        "fabric-26.3" = _WvOZtQE7;
         "forge-1.21.2" = _rtgc5mBO;
         "forge-1.21.3" = _rtgc5mBO;
         "forge-1.21.4" = _rtgc5mBO;
@@ -134,6 +148,7 @@ let
         "forge-26.1.1" = _rtgc5mBO;
         "forge-26.1.2" = _rtgc5mBO;
         "forge-26.2" = _rtgc5mBO;
+        "forge-26.3" = _WvOZtQE7;
         "neoforge-1.21.2" = _rtgc5mBO;
         "neoforge-1.21.3" = _rtgc5mBO;
         "neoforge-1.21.4" = _rtgc5mBO;
@@ -150,6 +165,7 @@ let
         "neoforge-26.1.1" = _rtgc5mBO;
         "neoforge-26.1.2" = _rtgc5mBO;
         "neoforge-26.2" = _rtgc5mBO;
+        "neoforge-26.3" = _WvOZtQE7;
         "quilt-1.21.2" = _rtgc5mBO;
         "quilt-1.21.3" = _rtgc5mBO;
         "quilt-1.21.4" = _rtgc5mBO;
@@ -166,6 +182,7 @@ let
         "quilt-26.1.1" = _rtgc5mBO;
         "quilt-26.1.2" = _rtgc5mBO;
         "quilt-26.2" = _rtgc5mBO;
+        "quilt-26.3" = _WvOZtQE7;
         "pkg-1.0.0" = _M5j5MGQB;
         "pkg-1.0.0+mod" = _kHzroyRg;
         "pkg-1.1.0" = _MCBUAQY8;
@@ -180,7 +197,9 @@ let
         "pkg-1.5.0+mod" = _lNXbtBbr;
         "pkg-1.6.0" = _BjILTNc4;
         "pkg-1.6.0+mod" = _rtgc5mBO;
-        "default" = _rtgc5mBO;
+        "pkg-1.0-mc26.3" = _UtlRVGiP;
+        "pkg-1.0-mc26.3+mod" = _WvOZtQE7;
+        "default" = _WvOZtQE7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "netherite-instamine";

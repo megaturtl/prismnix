@@ -51,6 +51,11 @@ let
             "file" = "gui-time-2.1.0.jar";
             "hash" = "sha512-BatmF4VAQQoxIpr5k1B1ErVsCdDUn9Xu61VtFvsfCm02NtEJXkWp2sVN6AyS6kIbHrRE/k3Br5KW8jwkbVDPRg==";
         };
+        _Z5JWLfoU = {
+            "id" = "Z5JWLfoU";
+            "file" = "gui-time-2.2.0.jar";
+            "hash" = "sha512-lsE4WQqF/xOamYGQLqaP/b/kbI/hZjiunsiOHp7L+HRDKlNc8nS9r9jZL4hwCmhZ0dQrUy7pcBWJq6PqT0bDuQ==";
+        };
     in {
         "wkE0IQ0h" = _wkE0IQ0h;
         "I0KJLqYl" = _I0KJLqYl;
@@ -62,6 +67,7 @@ let
         "bilMTlEz" = _bilMTlEz;
         "Yrj3vW0z" = _Yrj3vW0z;
         "PbvWGy1b" = _PbvWGy1b;
+        "Z5JWLfoU" = _Z5JWLfoU;
         "fabric-1.21.5" = _XQOA4J20;
         "fabric-1.21.6" = _vtX2XPMq;
         "fabric-1.21.7" = _vtX2XPMq;
@@ -71,6 +77,7 @@ let
         "fabric-26.1.1" = _Yrj3vW0z;
         "fabric-26.1.2" = _Yrj3vW0z;
         "fabric-26.2" = _PbvWGy1b;
+        "fabric-26.3" = _Z5JWLfoU;
         "pkg-1.0.0" = _wkE0IQ0h;
         "pkg-1.1.0" = _I0KJLqYl;
         "pkg-1.2.0" = _GZvjB5oT;
@@ -81,7 +88,8 @@ let
         "pkg-1.6.1" = _bilMTlEz;
         "pkg-2.0.0" = _Yrj3vW0z;
         "pkg-2.1.0" = _PbvWGy1b;
-        "default" = _PbvWGy1b;
+        "pkg-2.2.0" = _Z5JWLfoU;
+        "default" = _Z5JWLfoU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gui-time";

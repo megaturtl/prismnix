@@ -66,6 +66,11 @@ let
             "file" = "quickleafdecay-mc26.2-0.5.3.jar";
             "hash" = "sha512-nQqro8kY+Z0jAp1BHO3A5W3WFksPkdz/U4E+6yAYmoTNAZPZtwJsLVmnnQb5crFQkBTwpVvQ9nYv9mWFoQA8pw==";
         };
+        _NRd8xgUY = {
+            "id" = "NRd8xgUY";
+            "file" = "quickleafdecay-mc26.3-1.0.0.jar";
+            "hash" = "sha512-aPuIJbkELxdMFCLfZRsXV+VmT6vnlHKLDiv1nrbhtEiooJz/nP4/26Wngh/E30IjFlf23F8oeZyhKbRCTKx6yg==";
+        };
     in {
         "Hhlv4NSX" = _Hhlv4NSX;
         "WfCRTdGF" = _WfCRTdGF;
@@ -80,6 +85,7 @@ let
         "x6UYc65C" = _x6UYc65C;
         "2bJ7BAen" = _2bJ7BAen;
         "GNAB0Vml" = _GNAB0Vml;
+        "NRd8xgUY" = _NRd8xgUY;
         "fabric-1.20.4" = _Hhlv4NSX;
         "fabric-1.20.5" = _Hhlv4NSX;
         "fabric-1.20.6" = _Hhlv4NSX;
@@ -95,6 +101,7 @@ let
         "fabric-26.1.1" = _2bJ7BAen;
         "fabric-26.1.2" = _2bJ7BAen;
         "fabric-26.2" = _GNAB0Vml;
+        "fabric-26.3" = _NRd8xgUY;
         "quilt-1.21" = _VNzCv91q;
         "quilt-1.21.1" = _VNzCv91q;
         "quilt-1.21.9" = _v3qas6oD;
@@ -113,7 +120,8 @@ let
         "pkg-0.5.1" = _x6UYc65C;
         "pkg-0.5.2" = _2bJ7BAen;
         "pkg-0.5.3" = _GNAB0Vml;
-        "default" = _GNAB0Vml;
+        "pkg-1.0.0" = _NRd8xgUY;
+        "default" = _NRd8xgUY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "quickleafdecay";

@@ -31,6 +31,11 @@ let
             "file" = "SNR.FLY-STABLE-1.2.1.jar";
             "hash" = "sha512-mqOhkeriVki+yh0c6S+NCOE8j3BifXWtS180pkfITz7sy6pD6P43d/6mQoudEOE1MxBbQNgxc52+3LJf5zJ8tQ==";
         };
+        _RChCDW0S = {
+            "id" = "RChCDW0S";
+            "file" = "SNR.FLY-STABLE-1.2.2.jar";
+            "hash" = "sha512-pfTF+aGYStPZ2yrLuhBmDSTVxFnJKONeOV93OqKVfyllA+F3BDvmUoDTSMjaE5isXKpireFggcJYv/5ja6Rk+A==";
+        };
     in {
         "O5isgfoX" = _O5isgfoX;
         "Z0KLlixa" = _Z0KLlixa;
@@ -38,14 +43,16 @@ let
         "iP1vQxu3" = _iP1vQxu3;
         "i23ufgqn" = _i23ufgqn;
         "L0PmQ118" = _L0PmQ118;
-        "fabric-26.2" = _L0PmQ118;
+        "RChCDW0S" = _RChCDW0S;
+        "fabric-26.2" = _RChCDW0S;
         "pkg-1.7.2" = _O5isgfoX;
         "pkg-1.7.2-beta-3" = _Z0KLlixa;
         "pkg-SNR.FLY-STABLE-1.0.1" = _K4oQfESB;
         "pkg-SNR.FLY-STABLE-1.1" = _iP1vQxu3;
         "pkg-SNR.FLY-STABLE-1.2" = _i23ufgqn;
         "pkg-SNR.FLY-STABLE-1.2.1" = _L0PmQ118;
-        "default" = _L0PmQ118;
+        "pkg-SNR.FLY-STABLE-1.2.2" = _RChCDW0S;
+        "default" = _RChCDW0S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-fly-steam-n-rails-continued";

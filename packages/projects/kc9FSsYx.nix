@@ -376,6 +376,21 @@ let
             "file" = "Glassential-renewed-1.20.1-3.4.5.jar";
             "hash" = "sha512-hgu74yMXBIm+eo4BOMlmxw0C7elF5I0XJqCTq7ZMRleJDWhhyOJiXlGprQWEDs9LZyoPodgVIpE5gvFGDHAqbA==";
         };
+        _knYwchce = {
+            "id" = "knYwchce";
+            "file" = "Glassential-renewed-1.21.1-3.4.7.jar";
+            "hash" = "sha512-9h88UDMhwO/IRQvimgUSk0N1v7Ijc1XXnqehmPeHQkkoBsdrL0tNGXZd0AyOqkTs+IG/g7LHuqml68fxDh/xhA==";
+        };
+        _S50SNzuh = {
+            "id" = "S50SNzuh";
+            "file" = "Glassential-renewed-26.1.2-5.0.2.jar";
+            "hash" = "sha512-pX+UdfPXB6kVjtoykvdOik+/v/QEusX3Sq3wNHpBambgsybd3ax/MoLH631OuPSQSX3M1AgI05uFCrlXymcUZw==";
+        };
+        _ul7oqB1K = {
+            "id" = "ul7oqB1K";
+            "file" = "Glassential-renewed-26.2-5.1.2.jar";
+            "hash" = "sha512-/AMbSQDxhEb31ok26+GTqTnWsZ2gqrZBCnJBp5ktW3mOzNiUfBXwnSOJj4/hjo8LfRazxOTxLJnnZV3bsTK/cA==";
+        };
     in {
         "999aBDxl" = _999aBDxl;
         "oyr3KRJM" = _oyr3KRJM;
@@ -452,6 +467,9 @@ let
         "NS6TiIIJ" = _NS6TiIIJ;
         "ZU9ErRM9" = _ZU9ErRM9;
         "OUSroj0z" = _OUSroj0z;
+        "knYwchce" = _knYwchce;
+        "S50SNzuh" = _S50SNzuh;
+        "ul7oqB1K" = _ul7oqB1K;
         "forge-1.20.1" = _OUSroj0z;
         "forge-1.20.2" = _oyr3KRJM;
         "forge-1.20.4" = _nvLUkd4o;
@@ -462,12 +480,12 @@ let
         "fabric-1.21.5" = _zbGKzIRO;
         "neoforge-1.20.4" = _F1b4Ctnp;
         "neoforge-1.21" = _a8mcBLIN;
-        "neoforge-1.21.1" = _ZU9ErRM9;
+        "neoforge-1.21.1" = _knYwchce;
         "neoforge-1.21.4" = _ZdmKqZ7M;
         "neoforge-1.21.5" = _M8rfyaP3;
         "neoforge-1.21.11" = _qK8To6Uo;
-        "neoforge-26.1.2" = _NS6TiIIJ;
-        "neoforge-26.2" = _3HwwxqSV;
+        "neoforge-26.1.2" = _S50SNzuh;
+        "neoforge-26.2" = _ul7oqB1K;
         "pkg-1.20.1-1.3.0" = _999aBDxl;
         "pkg-1.20.2-1.3.0" = _oyr3KRJM;
         "pkg-1.20.1-1.4.0" = _SKaEaVHS;
@@ -514,7 +532,10 @@ let
         "pkg-5.1.1" = _3HwwxqSV;
         "pkg-5.0.1" = _NS6TiIIJ;
         "pkg-3.4.5" = _OUSroj0z;
-        "default" = _OUSroj0z;
+        "pkg-3.4.7" = _knYwchce;
+        "pkg-5.0.2" = _S50SNzuh;
+        "pkg-5.1.2" = _ul7oqB1K;
+        "default" = _ul7oqB1K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glassential-renewed";

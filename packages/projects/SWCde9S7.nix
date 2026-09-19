@@ -126,6 +126,11 @@ let
             "file" = "Lively by Alexio 26.2.zip";
             "hash" = "sha512-bo0y9Yt3lpAXc4eUsTTYPnNnWoQO9DN2J9BlXw0Gr3xCj+4r6KEEJ7U9FIUG4Bi6BXwtzNlKTlGPfOKq4WWRzg==";
         };
+        _AtPoqw5S = {
+            "id" = "AtPoqw5S";
+            "file" = "Lively by Alexio 26.3.zip";
+            "hash" = "sha512-rWohR1EErdcsuMYBemGc5PC4Q7hsE63zS2YBc82bkIGMSj/z/I7Hqiysew94MF6zpogl+wZAsKOxVuz9GdShVg==";
+        };
     in {
         "m9vAfNni" = _m9vAfNni;
         "DdxFt6HQ" = _DdxFt6HQ;
@@ -152,6 +157,7 @@ let
         "6pNUofjn" = _6pNUofjn;
         "gHQFp5hn" = _gHQFp5hn;
         "bNP3khsK" = _bNP3khsK;
+        "AtPoqw5S" = _AtPoqw5S;
         "minecraft-1.6.1" = _m9vAfNni;
         "minecraft-1.6.2" = _m9vAfNni;
         "minecraft-1.6.4" = _m9vAfNni;
@@ -238,6 +244,7 @@ let
         "minecraft-26.1.1" = _gHQFp5hn;
         "minecraft-26.1.2" = _gHQFp5hn;
         "minecraft-26.2" = _bNP3khsK;
+        "minecraft-26.3" = _AtPoqw5S;
         "pkg-1.0.0" = _m9vAfNni;
         "pkg-1.0.1" = _DdxFt6HQ;
         "pkg-1.0.2" = _38hLQTUA;
@@ -263,7 +270,8 @@ let
         "pkg-1.3.7" = _6pNUofjn;
         "pkg-26.1.0" = _gHQFp5hn;
         "pkg-26.2.0" = _bNP3khsK;
-        "default" = _bNP3khsK;
+        "pkg-26.3.0" = _AtPoqw5S;
+        "default" = _AtPoqw5S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lively-by-alexio";

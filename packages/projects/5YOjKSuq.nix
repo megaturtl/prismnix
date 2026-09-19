@@ -51,6 +51,31 @@ let
             "file" = "pulse-trims-1.0.1-fabric-26.2.jar";
             "hash" = "sha512-4hk5aXXdzhfbg1zKl+b9zK5nm0BAMfIhyPikERxbVg6H264vfqoQ3mLISL9SFSIxKW48qkOq78RzMX9Yab1ADg==";
         };
+        _h3lwDFkx = {
+            "id" = "h3lwDFkx";
+            "file" = "pulse-trims-1.0.2-fabric-1.20.1.jar";
+            "hash" = "sha512-MVIS6lkaprgw/VLap1UaWeJ6GdFyRYHNxEYWm2pPR+W0BO1bSIr0cxPY6nbHmRkVDgrPdxlrQ6s5fTTG+pvafA==";
+        };
+        _7eMd7e5t = {
+            "id" = "7eMd7e5t";
+            "file" = "pulse-trims-1.0.2-fabric-1.21.1.jar";
+            "hash" = "sha512-e6ehzj+7wUC1sYVVzZt+rF+ELju/Sg8H9/VxNNpnL4WRRDHheT6CtfLG3E9gVI2TkXcoZb41JWdMB5KC/5ZrPw==";
+        };
+        _1vPhdDe5 = {
+            "id" = "1vPhdDe5";
+            "file" = "pulse-trims-1.0.2-fabric-1.21.11.jar";
+            "hash" = "sha512-I4aJtYRzcEZ49OoLVxTlQF8tq9/YG+BqJgOHY+jmJN1DyzGZZHjy1ovmj6fm7nOsrls0kDAu5fgONcoGCvtwlg==";
+        };
+        _97myOygK = {
+            "id" = "97myOygK";
+            "file" = "pulse-trims-1.0.2-fabric-26.1.x.jar";
+            "hash" = "sha512-Z5Gg9y/6ue52tRtev3MkyGvX3+CrUU7syoRnIDEfqpeQcow+XgcO93vT2Wmko7VRB+u9Xlg/HKbAVIU2Q58PNg==";
+        };
+        _SdpzdPaT = {
+            "id" = "SdpzdPaT";
+            "file" = "pulse-trims-1.0.2-fabric-26.2.jar";
+            "hash" = "sha512-ntwyLh0Kt4Vust2CWEz1/a5oLAc5Y0EefZAVvLNz6KQGO2RicoSKhx5PaqFW+u4Gqy9jUKN9A52yDaqWuEzhuQ==";
+        };
     in {
         "ekIQcI9B" = _ekIQcI9B;
         "JXJB8o3Y" = _JXJB8o3Y;
@@ -62,16 +87,22 @@ let
         "UQ1Ezvzd" = _UQ1Ezvzd;
         "l4xI2BIY" = _l4xI2BIY;
         "lj3SSnlc" = _lj3SSnlc;
-        "fabric-1.20.1" = _4e2xb8ES;
-        "fabric-1.21.1" = _BQMkk5RE;
-        "fabric-1.21.11" = _UQ1Ezvzd;
-        "fabric-26.1" = _l4xI2BIY;
-        "fabric-26.1.1" = _l4xI2BIY;
-        "fabric-26.1.2" = _l4xI2BIY;
-        "fabric-26.2" = _lj3SSnlc;
+        "h3lwDFkx" = _h3lwDFkx;
+        "7eMd7e5t" = _7eMd7e5t;
+        "1vPhdDe5" = _1vPhdDe5;
+        "97myOygK" = _97myOygK;
+        "SdpzdPaT" = _SdpzdPaT;
+        "fabric-1.20.1" = _h3lwDFkx;
+        "fabric-1.21.1" = _7eMd7e5t;
+        "fabric-1.21.11" = _1vPhdDe5;
+        "fabric-26.1" = _97myOygK;
+        "fabric-26.1.1" = _97myOygK;
+        "fabric-26.1.2" = _97myOygK;
+        "fabric-26.2" = _SdpzdPaT;
         "pkg-1.0.0" = _VpXwl06d;
         "pkg-1.0.1" = _lj3SSnlc;
-        "default" = _lj3SSnlc;
+        "pkg-1.0.2" = _SdpzdPaT;
+        "default" = _SdpzdPaT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pulse-trims";

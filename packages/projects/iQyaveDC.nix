@@ -91,6 +91,11 @@ let
             "file" = "globalization-26.2.0.jar";
             "hash" = "sha512-uYEFUYtgphaLZ4cKJfkIihGyiTWzPTeHsR1v0NfRQ/ePxy1hb/XDNzmJ90tQaIDHHz1BIOw6EOLBUGXtlg1+Eg==";
         };
+        _MTPbcbKf = {
+            "id" = "MTPbcbKf";
+            "file" = "globalization-26.3.0.jar";
+            "hash" = "sha512-Dk+lv8iE9on89b4j1RIDF6RNfdnqbA0aUf/eRUs1XM16jMHTfTcJmsfAQt7Z1F0i8LQqW/e/v7HR35NGAMTUog==";
+        };
     in {
         "9udxoVgH" = _9udxoVgH;
         "PNv6q2bA" = _PNv6q2bA;
@@ -110,6 +115,7 @@ let
         "nSQlMa7e" = _nSQlMa7e;
         "PNnrHdcz" = _PNnrHdcz;
         "qtY62XvR" = _qtY62XvR;
+        "MTPbcbKf" = _MTPbcbKf;
         "fabric-1.19.3" = _9udxoVgH;
         "fabric-1.19.4" = _PNv6q2bA;
         "fabric-1.20" = _DR9XNaEr;
@@ -135,6 +141,7 @@ let
         "fabric-26.1.1" = _PNnrHdcz;
         "fabric-26.1.2" = _PNnrHdcz;
         "fabric-26.2" = _qtY62XvR;
+        "fabric-26.3" = _MTPbcbKf;
         "pkg-1.0.0" = _9udxoVgH;
         "pkg-1.1.0" = _PNv6q2bA;
         "pkg-1.1.1" = _DR9XNaEr;
@@ -153,7 +160,8 @@ let
         "pkg-1.1.14" = _nSQlMa7e;
         "pkg-26.1.0" = _PNnrHdcz;
         "pkg-26.2.0" = _qtY62XvR;
-        "default" = _qtY62XvR;
+        "pkg-26.3.0" = _MTPbcbKf;
+        "default" = _MTPbcbKf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "globalization";

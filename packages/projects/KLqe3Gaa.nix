@@ -46,6 +46,11 @@ let
             "file" = "legendarycreatures-1.20.1-1.1.3.1.jar";
             "hash" = "sha512-9CRJINrd5x8sa/wRnsRD22nYxDFoEivNHK3tkOcwGEtuT2Xwj18xjBs4KPnGSP+hHNY2RcT3+dznX82dBw5tYg==";
         };
+        _JIViAjW4 = {
+            "id" = "JIViAjW4";
+            "file" = "legendarycreatures-1.20.1-1.1.3.2.jar";
+            "hash" = "sha512-Qt0mlgwnrJoMAHej+xNed083WJbriJT82jWwjm6M2DpBuPfR9WxkkHHNUh/LUh2tmhlp4z2q8rQp/7pa+dcCzQ==";
+        };
     in {
         "G0gre5qf" = _G0gre5qf;
         "yGGSL6Lb" = _yGGSL6Lb;
@@ -56,7 +61,8 @@ let
         "gjqJna6z" = _gjqJna6z;
         "SF7J8KWc" = _SF7J8KWc;
         "pOm6BtVc" = _pOm6BtVc;
-        "forge-1.20.1" = _pOm6BtVc;
+        "JIViAjW4" = _JIViAjW4;
+        "forge-1.20.1" = _JIViAjW4;
         "pkg-1.20.1-1.1.2" = _G0gre5qf;
         "pkg-1.20.1-1.1.2.1" = _yGGSL6Lb;
         "pkg-1.20.1-1.1.2.2" = _sWiWnUqV;
@@ -66,7 +72,8 @@ let
         "pkg-1.20.1-1.1.2.6" = _gjqJna6z;
         "pkg-1.20.1-1.1.3.0" = _SF7J8KWc;
         "pkg-1.20.1-1.1.3.1" = _pOm6BtVc;
-        "default" = _pOm6BtVc;
+        "pkg-1.20.1-1.1.3.2" = _JIViAjW4;
+        "default" = _JIViAjW4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legendary-creatures";

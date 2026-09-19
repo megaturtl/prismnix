@@ -36,6 +36,11 @@ let
             "file" = "survivalwings-3.0.jar";
             "hash" = "sha512-l8/pGUWO/UdehBELjHgSK7+rZ0VTctArrrrP06WMbAMBA7y0eXmnqICOi4CzIrnx6TkaootlGm3m6MmB7THZ4Q==";
         };
+        _CddBIlb1 = {
+            "id" = "CddBIlb1";
+            "file" = "survivalwings-3.1.jar";
+            "hash" = "sha512-b61F50kJFmGuCA7opAlXfbVXgaEyavC7qFc+eqcd/dl7FTul09fz1Vn5/CR6jV83LR8l5YR2E9SKJ/stWt6ELQ==";
+        };
     in {
         "NmcM3GfN" = _NmcM3GfN;
         "IBoegUDK" = _IBoegUDK;
@@ -44,7 +49,8 @@ let
         "RZAzyrM6" = _RZAzyrM6;
         "ztSiArzV" = _ztSiArzV;
         "GKRxlZ0v" = _GKRxlZ0v;
-        "forge-1.20.1" = _GKRxlZ0v;
+        "CddBIlb1" = _CddBIlb1;
+        "forge-1.20.1" = _CddBIlb1;
         "pkg-1.0.0" = _NmcM3GfN;
         "pkg-1.0.1" = _IBoegUDK;
         "pkg-1.0.2" = _SEYYmQl3;
@@ -52,7 +58,8 @@ let
         "pkg-1.1" = _RZAzyrM6;
         "pkg-2.0" = _ztSiArzV;
         "pkg-3.0" = _GKRxlZ0v;
-        "default" = _GKRxlZ0v;
+        "pkg-3.1" = _CddBIlb1;
+        "default" = _CddBIlb1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "survival-wings-rebrushed";

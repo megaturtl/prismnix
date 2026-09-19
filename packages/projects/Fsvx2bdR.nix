@@ -766,6 +766,21 @@ let
             "file" = "ParCool-1.21.1-4.0.0.3.jar";
             "hash" = "sha512-3w+CAwwFHGu7A5V602kqEyfMfP3CI6UGsHqUsh8OxbRNxMnoICo9WD2GKtjcbeSPqGXHe9hDS/QKxK+YodSp7g==";
         };
+        _1bVLoEMj = {
+            "id" = "1bVLoEMj";
+            "file" = "ParCool-1.19.2-4.0.0.4.jar";
+            "hash" = "sha512-kWHIJ5ILYHpN/168/nSxIxueVBTUCbBELQSxcAw7hrP81PDDq7625wNnfZ9gQk7T3jKJB9QkZYma73ck3aomdw==";
+        };
+        _e77JRY5p = {
+            "id" = "e77JRY5p";
+            "file" = "ParCool-1.20.1-4.0.0.4.jar";
+            "hash" = "sha512-+Y+rlrU6qK0BPeMDMp1IsmDCPl5uFxDlAbOX6G374ZTGmMVd5AbiwIl2bE1B7qqum4E5Rw7oh5nVQmoqjlwxZw==";
+        };
+        _HI2ethaU = {
+            "id" = "HI2ethaU";
+            "file" = "ParCool-1.21.1-4.0.0.4.jar";
+            "hash" = "sha512-LJb3UiXhPJFaJPto72/cKUhdQakkBPj2tcePpdeTpnaw/Co4uOdxIPXbdGlhPYmO7weX4X3a/WEIghaiGBe1/g==";
+        };
     in {
         "XJhVvPgr" = _XJhVvPgr;
         "j9xdl4ug" = _j9xdl4ug;
@@ -920,12 +935,15 @@ let
         "Llo38JME" = _Llo38JME;
         "LDZtXIqM" = _LDZtXIqM;
         "5IbdpB2S" = _5IbdpB2S;
+        "1bVLoEMj" = _1bVLoEMj;
+        "e77JRY5p" = _e77JRY5p;
+        "HI2ethaU" = _HI2ethaU;
         "forge-1.20.2" = _HZLGU7hG;
-        "forge-1.20.1" = _LDZtXIqM;
+        "forge-1.20.1" = _e77JRY5p;
         "forge-1.20" = _HZLGU7hG;
         "forge-1.19.4" = _pkfxtglR;
         "forge-1.19.3" = _CcD0YkiH;
-        "forge-1.19.2" = _Llo38JME;
+        "forge-1.19.2" = _1bVLoEMj;
         "forge-1.18.2" = _q73v6sLx;
         "forge-1.16.5" = _gNCD0aIN;
         "forge-1.20.3" = _HZLGU7hG;
@@ -933,7 +951,7 @@ let
         "forge-1.20.5" = _HZLGU7hG;
         "forge-1.20.6" = _HZLGU7hG;
         "neoforge-1.21" = _2U2hDH8v;
-        "neoforge-1.21.1" = _5IbdpB2S;
+        "neoforge-1.21.1" = _HI2ethaU;
         "neoforge-1.21.3" = _DpAOx4HU;
         "neoforge-1.21.4" = _wwqfMVm1;
         "neoforge-1.21.8" = _9sTw2Dnd;
@@ -1089,7 +1107,10 @@ let
         "pkg-1.19.2-4.0.0.3" = _Llo38JME;
         "pkg-1.20.1-4.0.0.3" = _LDZtXIqM;
         "pkg-1.21.1-4.0.0.3" = _5IbdpB2S;
-        "default" = _5IbdpB2S;
+        "pkg-1.19.2-4.0.0.4" = _1bVLoEMj;
+        "pkg-1.20.1-4.0.0.4" = _e77JRY5p;
+        "pkg-1.21.1-4.0.0.4" = _HI2ethaU;
+        "default" = _HI2ethaU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "parcool";

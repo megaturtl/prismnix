@@ -921,6 +921,16 @@ let
             "file" = "ArmorPoser-neoforge-26.2-15.0.3.jar";
             "hash" = "sha512-RKd9+tqIUo5/oc3b9BphC+N6dGP6LDTBjp4P3k+uiiTMDxPOiNEPekEwD5P7qNmquS9pBaoXa1/UXSZ6Ye8Y2w==";
         };
+        _ZCmOIkd1 = {
+            "id" = "ZCmOIkd1";
+            "file" = "ArmorPoser-fabric-26.3-16.0.0.jar";
+            "hash" = "sha512-0EymDyK4UO9lhuAqgwRa0oa+BX4mkQS4wNplxl2XlLaAmfSU95fo35SoEiV1jpe2nF7B/PIxFnhMxP5mRDKEwA==";
+        };
+        _9nBXnsYy = {
+            "id" = "9nBXnsYy";
+            "file" = "ArmorPoser-neoforge-26.3-16.0.0.jar";
+            "hash" = "sha512-7XmMe6ECZWM1lPpux7gkNPrG/cF+1Wc/6jJ45LsRADhxrRe92V/kmRlZhfUJLK0uxTNg15l5Iu+say5NSoZ5Pg==";
+        };
     in {
         "pqxsDThc" = _pqxsDThc;
         "DQUQgjkj" = _DQUQgjkj;
@@ -1106,6 +1116,8 @@ let
         "80KPHgQl" = _80KPHgQl;
         "kAojpcBr" = _kAojpcBr;
         "yq517k9r" = _yq517k9r;
+        "ZCmOIkd1" = _ZCmOIkd1;
+        "9nBXnsYy" = _9nBXnsYy;
         "forge-1.18.2" = _hJ7COX8B;
         "forge-1.18.1" = _rFWOiaZL;
         "forge-1.17.1" = _n89ecp9R;
@@ -1143,6 +1155,7 @@ let
         "fabric-26.1.1" = _R6FCwbuD;
         "fabric-26.1.2" = _l1mAfNMP;
         "fabric-26.2" = _kAojpcBr;
+        "fabric-26.3" = _ZCmOIkd1;
         "neoforge-1.20.1" = _zhJ8sCJh;
         "neoforge-1.20.4" = _FD2uXmGG;
         "neoforge-1.20.5" = _1ePcmGhn;
@@ -1162,6 +1175,7 @@ let
         "neoforge-26.1.1" = _672fFA8f;
         "neoforge-26.1.2" = _bqNsQ6jG;
         "neoforge-26.2" = _yq517k9r;
+        "neoforge-26.3" = _9nBXnsYy;
         "pkg-1.0.3.2" = _pqxsDThc;
         "pkg-1.0.3.1" = _DQUQgjkj;
         "pkg-1.0.2.2" = _rFWOiaZL;
@@ -1259,7 +1273,8 @@ let
         "pkg-15.0.1" = _JrUTpWNc;
         "pkg-15.0.2" = _80KPHgQl;
         "pkg-15.0.3" = _yq517k9r;
-        "default" = _yq517k9r;
+        "pkg-16.0.0" = _9nBXnsYy;
+        "default" = _9nBXnsYy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armor-poser";

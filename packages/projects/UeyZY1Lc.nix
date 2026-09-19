@@ -171,6 +171,11 @@ let
             "file" = "ChatMod-2.1.5.jar";
             "hash" = "sha512-UYRFpjXkUN8a7DFP3GQ1oZl4XQDokSrucR05H1W38fst+ozsigLwgr3XpRWq6pOeRQlDH5s4NIAXeeCOy9ZkRw==";
         };
+        _E6AzM941 = {
+            "id" = "E6AzM941";
+            "file" = "ChatMod-2.1.5.jar";
+            "hash" = "sha512-dNV1AUDeE8lgo0SICm4flC9Yw+Voiq5vtch7RksT5/x4UiDxU+TR7/jTUscDNaKpwSQQ2D+LMtuqx1e9P8XoaQ==";
+        };
     in {
         "61uS4IAK" = _61uS4IAK;
         "eEHQ0xhS" = _eEHQ0xhS;
@@ -206,6 +211,7 @@ let
         "6WaMOG9J" = _6WaMOG9J;
         "7CbFq6s5" = _7CbFq6s5;
         "iLi4S4aP" = _iLi4S4aP;
+        "E6AzM941" = _E6AzM941;
         "fabric-1.21.5" = _bByeJyQY;
         "fabric-1.21.6" = _yQUdsWLk;
         "fabric-1.21.7" = _yQUdsWLk;
@@ -217,6 +223,7 @@ let
         "fabric-26.1.1" = _7CbFq6s5;
         "fabric-26.1.2" = _7CbFq6s5;
         "fabric-26.2" = _iLi4S4aP;
+        "fabric-26.3" = _E6AzM941;
         "pkg-1.0.0" = _61uS4IAK;
         "pkg-1.1" = _XMzLt7Uf;
         "pkg-1.1.1" = _agqyPUJk;
@@ -227,8 +234,8 @@ let
         "pkg-2.0.3" = _zm9vSyfA;
         "pkg-2.1.0" = _AOp81VDb;
         "pkg-2.1.1" = _6WaMOG9J;
-        "pkg-2.1.5" = _iLi4S4aP;
-        "default" = _iLi4S4aP;
+        "pkg-2.1.5" = _E6AzM941;
+        "default" = _E6AzM941;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chat-mod";

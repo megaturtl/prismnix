@@ -11,20 +11,29 @@ let
             "file" = "SPBR-Farmer's Delight_1.1.zip";
             "hash" = "sha512-OF7k1ez7NFUT/DIYbhAFb7mRCctBK2MeCubuP9G4j36kMr1TU/cEvoEIsaqxAY7EomchhFclWxl/3gudcML6zw==";
         };
+        _5WZ5Um1Z = {
+            "id" = "5WZ5Um1Z";
+            "file" = "SPBR-Farmer's Delight_1.2.zip";
+            "hash" = "sha512-cYMAkEdjvoAEBR1B6mm1d2GXipks0t7FFJd3sTR7S08s850ZnzJg0mWqWsK5evLpm1jCP39pJtvKRyBw+7xouQ==";
+        };
     in {
         "IDC7ecS8" = _IDC7ecS8;
         "UfxXuYPL" = _UfxXuYPL;
+        "5WZ5Um1Z" = _5WZ5Um1Z;
         "minecraft-1.18.2" = _UfxXuYPL;
         "minecraft-1.19" = _UfxXuYPL;
         "minecraft-1.19.1" = _IDC7ecS8;
         "minecraft-1.19.2" = _UfxXuYPL;
         "minecraft-1.20" = _UfxXuYPL;
-        "minecraft-1.20.1" = _UfxXuYPL;
+        "minecraft-1.20.1" = _5WZ5Um1Z;
         "minecraft-1.21" = _UfxXuYPL;
-        "minecraft-1.21.1" = _UfxXuYPL;
+        "minecraft-1.21.1" = _5WZ5Um1Z;
+        "minecraft-26.2" = _5WZ5Um1Z;
+        "minecraft-26.3" = _5WZ5Um1Z;
         "pkg-1" = _IDC7ecS8;
         "pkg-1.1" = _UfxXuYPL;
-        "default" = _UfxXuYPL;
+        "pkg-1.2" = _5WZ5Um1Z;
+        "default" = _5WZ5Um1Z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spbr-farmersdelight";

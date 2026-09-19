@@ -166,6 +166,21 @@ let
             "file" = "epic-fight-dawn-day-21.17.1.2.0-neoforge.jar";
             "hash" = "sha512-6848nINUnI5FKo8TBYTFx1ipI9ChrbEdjDZ7+PAngq41xsdowJcMbOdbI5zDWVKyDtG2OutjiYKXknDCtMQbAw==";
         };
+        _1waL6Tj0 = {
+            "id" = "1waL6Tj0";
+            "file" = "EpicfightDd-20.14.1.17.0.jar";
+            "hash" = "sha512-3QWa+d4ShJPcH97QnkHU9SDpdjThRjMg3AlMBfmYx+drIWwoY8Of6/2tJp5NbIjGNpdq4DTmIbT1l9Aehi08pg==";
+        };
+        _IPuregGG = {
+            "id" = "IPuregGG";
+            "file" = "EpicfightDd-20.14.1.18.0-beta.jar";
+            "hash" = "sha512-vVimtVx5Tgoa2aHU3qDyAzwqK9QKTWfAxa/JA+3sskhEv1IyvVUN53oKMwGNPVBXuQQjPLlTR/d+YlGG3XEZ+A==";
+        };
+        _kCZCK2dK = {
+            "id" = "kCZCK2dK";
+            "file" = "epic-fight-dawn-day-21.17.1.2.1-mc1.21.1-neoforge.jar";
+            "hash" = "sha512-jXnULCCT+iXd1em9FKjk3NnGH0CwW7uZ3+kiraMbfIawXzJOGCU8W9sz1P+vTj4ejghpIV5ACh4ZyReFkBPAjw==";
+        };
     in {
         "ZeSWGQGK" = _ZeSWGQGK;
         "ZSmSgKiP" = _ZSmSgKiP;
@@ -200,8 +215,11 @@ let
         "ZH7rHPnN" = _ZH7rHPnN;
         "21V3A33i" = _21V3A33i;
         "F0YS8mU4" = _F0YS8mU4;
-        "forge-1.20.1" = _21V3A33i;
-        "neoforge-1.21.1" = _F0YS8mU4;
+        "1waL6Tj0" = _1waL6Tj0;
+        "IPuregGG" = _IPuregGG;
+        "kCZCK2dK" = _kCZCK2dK;
+        "forge-1.20.1" = _IPuregGG;
+        "neoforge-1.21.1" = _kCZCK2dK;
         "pkg-20.14.1.0.0" = _ZeSWGQGK;
         "pkg-20.14.1.1.0" = _ZSmSgKiP;
         "pkg-20.14.1.2.0" = _w5hsfZRr;
@@ -235,7 +253,10 @@ let
         "pkg-20.14.1.16.3" = _ZH7rHPnN;
         "pkg-20.14.1.16.4" = _21V3A33i;
         "pkg-21.17.1.2.0" = _F0YS8mU4;
-        "default" = _F0YS8mU4;
+        "pkg-20.14.1.17.0" = _1waL6Tj0;
+        "pkg-20.14.1.18.0-beta" = _IPuregGG;
+        "pkg-21.17.1.2.1" = _kCZCK2dK;
+        "default" = _kCZCK2dK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "epic-fight-dawn-day";

@@ -21,11 +21,17 @@ let
             "file" = "hardcorelancommands-1.0.2+fabric.jar";
             "hash" = "sha512-ug5ZPc4eEG9TXiWwjFyHHOpC1B4M6oDIeqlEyFvepTOgO7RbGhzr65wkhdeg7eZImW+wANckOXcHLVBXmjRA9Q==";
         };
+        _xbOs84dK = {
+            "id" = "xbOs84dK";
+            "file" = "hardcorelancommands-1.0.2+neoforge.jar";
+            "hash" = "sha512-Mc2NjtWoeL4ZBhLhUriP1Y065MPBCLTXC5+njItD5xw+wcYGoF1gwWtyByVRPt9Wiy2IAr5rTwa4SVsFhkT59A==";
+        };
     in {
         "XDDUbT9w" = _XDDUbT9w;
         "a246PsGV" = _a246PsGV;
         "sGfVVU31" = _sGfVVU31;
         "CZdwz9oM" = _CZdwz9oM;
+        "xbOs84dK" = _xbOs84dK;
         "fabric-26.2" = _sGfVVU31;
         "fabric-26.3-snapshot-1" = _sGfVVU31;
         "fabric-26.3-snapshot-2" = _sGfVVU31;
@@ -40,11 +46,13 @@ let
         "fabric-26.3-pre-1" = _CZdwz9oM;
         "fabric-26.3-pre-2" = _CZdwz9oM;
         "neoforge-26.2" = _a246PsGV;
+        "neoforge-26.3" = _xbOs84dK;
         "pkg-Fabric-1.0.0" = _XDDUbT9w;
         "pkg-NeoForge-1.0.0" = _a246PsGV;
         "pkg-Fabric-1.0.1" = _sGfVVU31;
         "pkg-1.0.2+fabric" = _CZdwz9oM;
-        "default" = _CZdwz9oM;
+        "pkg-1.0.2+neoforge" = _xbOs84dK;
+        "default" = _xbOs84dK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hardcore-lan-commands";

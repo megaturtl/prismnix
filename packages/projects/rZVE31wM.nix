@@ -631,6 +631,11 @@ let
             "file" = "midnightthoughts-1.5.6+fabric.1.20.1.jar";
             "hash" = "sha512-Afalic4zn2MEHhjD6MWJCua96/241JBC+ME3wyT8UlpAYbp5PEsO+tKrZTppMNePWZ0dXMPAWuxdVqGTnQZt4g==";
         };
+        _1FWd2Ir1 = {
+            "id" = "1FWd2Ir1";
+            "file" = "midnightthoughts-1.5.7+neoforge.1.21.1.jar";
+            "hash" = "sha512-MczOOhaI2aq+ABiNTMByjCEVOB7rxw4SgUvG7sccVthJvRQSLHm/gjnOAqa2ML3JBDo5mPcnBiFVxBv0R84jcA==";
+        };
     in {
         "6JOHlIM5" = _6JOHlIM5;
         "F73hONdH" = _F73hONdH;
@@ -758,12 +763,13 @@ let
         "Tt1b8U7G" = _Tt1b8U7G;
         "MPJYwZeG" = _MPJYwZeG;
         "DVSW7sTu" = _DVSW7sTu;
+        "1FWd2Ir1" = _1FWd2Ir1;
         "fabric-1.21.1" = _Tt1b8U7G;
         "fabric-1.20.1" = _DVSW7sTu;
         "fabric-1.21.11" = _MPJYwZeG;
         "fabric-26.1.2" = _fW1RLkW5;
         "forge-1.20.1" = _hNsVri5r;
-        "neoforge-1.21.1" = _BOYuaR2v;
+        "neoforge-1.21.1" = _1FWd2Ir1;
         "neoforge-1.21.11" = _7fFecPkc;
         "neoforge-26.1.2" = _otMv3y3H;
         "pkg-1.0.1" = _6JOHlIM5;
@@ -803,7 +809,8 @@ let
         "pkg-1.5.5+fabric.1.21.1" = _Tt1b8U7G;
         "pkg-1.5.5+fabric.1.21.11" = _MPJYwZeG;
         "pkg-1.5.6+fabric.1.20.1" = _DVSW7sTu;
-        "default" = _DVSW7sTu;
+        "pkg-1.5.7" = _1FWd2Ir1;
+        "default" = _1FWd2Ir1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "midnight-thoughts";

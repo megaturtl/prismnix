@@ -41,6 +41,11 @@ let
             "file" = "Astolfo Visuals 1.3.jar";
             "hash" = "sha512-zd6oDJiPFNvORQ2MLJvEi+eCqVAKA1ydezJG2UFcVYy0hy7HoVT2h7STyLlMTgazEP9TxPNdCmXrbgbzMLmdVA==";
         };
+        _Z7celnuR = {
+            "id" = "Z7celnuR";
+            "file" = "astolfovisuals-2.0.jar";
+            "hash" = "sha512-iW4+jADZuCNMElvrpD4BjKz9P7rXOuDqrDBUdAwHgDo7cUUdnrYZjzJJeDl0Lph/5jutxrIeshbKDhcE89kOWw==";
+        };
     in {
         "gfsPRLGC" = _gfsPRLGC;
         "LIXVOs0L" = _LIXVOs0L;
@@ -50,7 +55,8 @@ let
         "nCmL1YFQ" = _nCmL1YFQ;
         "GkAoyGOW" = _GkAoyGOW;
         "ifs94QbO" = _ifs94QbO;
-        "fabric-1.21.4" = _ifs94QbO;
+        "Z7celnuR" = _Z7celnuR;
+        "fabric-1.21.4" = _Z7celnuR;
         "fabric-1.21.3" = _nCmL1YFQ;
         "fabric-1.21.2" = _GkAoyGOW;
         "pkg-0.1" = _gfsPRLGC;
@@ -59,7 +65,8 @@ let
         "pkg-1.1" = _3IQdNQT7;
         "pkg-1.2" = _GkAoyGOW;
         "pkg-1.3" = _ifs94QbO;
-        "default" = _ifs94QbO;
+        "pkg-2.0" = _Z7celnuR;
+        "default" = _Z7celnuR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "astolforeborn";

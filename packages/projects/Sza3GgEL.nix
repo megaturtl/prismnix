@@ -171,6 +171,26 @@ let
             "file" = "createthrusters-bundled-V1.1.3.jar";
             "hash" = "sha512-oXtTU1ww776GAszvLs/G7jpHr4h0qiTrModbvP5K4SrBXzxKu/h8Pskw1iu94SC6ugle5Xq9IFjJSS9hf3Kw6A==";
         };
+        _Ly78iRgz = {
+            "id" = "Ly78iRgz";
+            "file" = "gadgets-and-gizmos-bundled-V1.2.0.jar";
+            "hash" = "sha512-Y7XAl440aN76N6NsKhxIjmQvy37JigJcDoIAad/YOl2fpr4TMNx/eqsEBwI7g9k5q/gaEJd0XpExWYbO0BnPIQ==";
+        };
+        _b1oBN0kP = {
+            "id" = "b1oBN0kP";
+            "file" = "gadgets-and-gizmos-bundled-V1.2.1.jar";
+            "hash" = "sha512-fj/6nsLFddMlvEwo5AX5SQ71KJJ9HB2JxlaTh0DnV3gosPrfETb0qON/Fe2lUgGxuME01MVa0mxpSIsgzduEpA==";
+        };
+        _MjBMc4RD = {
+            "id" = "MjBMc4RD";
+            "file" = "gadgets-and-gizmos-bundled-V1.2.2.jar";
+            "hash" = "sha512-Sk4IWTfDXQaMJoxV5kDHift4ma/hzlhhT0SpPEWyiOlQ5RaieVEMTcUKU3rLFYliT1ajUYEKYB4oggAu9wRVWA==";
+        };
+        _aadW5uNY = {
+            "id" = "aadW5uNY";
+            "file" = "gadgets-and-gizmos-bundled-V1.2.3.jar";
+            "hash" = "sha512-zbbiYiaZkiYiUvRnTysGjUhMf5zhwrjmaepm6rEOiKiY6Qsvt9mB/P5RCOXINRCZQDsWBKFM23uA1xxUXFLGbQ==";
+        };
     in {
         "4rUiOPkB" = _4rUiOPkB;
         "aTzV5rfX" = _aTzV5rfX;
@@ -206,7 +226,11 @@ let
         "wkfIHdYX" = _wkfIHdYX;
         "evczLge6" = _evczLge6;
         "vQlkDgnK" = _vQlkDgnK;
-        "neoforge-1.21.1" = _vQlkDgnK;
+        "Ly78iRgz" = _Ly78iRgz;
+        "b1oBN0kP" = _b1oBN0kP;
+        "MjBMc4RD" = _MjBMc4RD;
+        "aadW5uNY" = _aadW5uNY;
+        "neoforge-1.21.1" = _aadW5uNY;
         "pkg-0.1.0" = _4rUiOPkB;
         "pkg-0.1.1" = _aTzV5rfX;
         "pkg-0.1.2" = _XVWHgyW4;
@@ -233,7 +257,11 @@ let
         "pkg-1.1.1" = _aKTjk1Vt;
         "pkg-1.1.2" = _evczLge6;
         "pkg-1.1.3" = _vQlkDgnK;
-        "default" = _vQlkDgnK;
+        "pkg-1.2.0" = _Ly78iRgz;
+        "pkg-1.2.1" = _b1oBN0kP;
+        "pkg-1.2.2" = _MjBMc4RD;
+        "pkg-1.2.3" = _aadW5uNY;
+        "default" = _aadW5uNY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-aeronautics-gadgets-and-gizmos";

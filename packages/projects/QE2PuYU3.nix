@@ -11,11 +11,17 @@ let
             "file" = "BetterItemVaults-main-1.0.2.jar";
             "hash" = "sha512-f2fvpQLopgeIwMMQcAkxZQ1v6S5j0ZD85JVkjLC/wNMHNzEx2g1NYTM0/AocPJGkhFDk4CprHv8IPAVrrs0GFA==";
         };
+        _or1CNBlV = {
+            "id" = "or1CNBlV";
+            "file" = "BetterItemVaults-1.0.3.jar";
+            "hash" = "sha512-Ap/RXYzD1AB1ojLqvgpLV+vsN7iQYSgl4XthvxiBCf0Yuvx3pIyg7BFda9TL/yujW/DpmStBmZmVok5MWtw0ig==";
+        };
     in {
         "2qv4Oqbl" = _2qv4Oqbl;
         "MIzjQRzi" = _MIzjQRzi;
+        "or1CNBlV" = _or1CNBlV;
         "neoforge-1.21" = _MIzjQRzi;
-        "neoforge-1.21.1" = _MIzjQRzi;
+        "neoforge-1.21.1" = _or1CNBlV;
         "neoforge-1.21.2" = _MIzjQRzi;
         "neoforge-1.21.3" = _MIzjQRzi;
         "neoforge-1.21.4" = _MIzjQRzi;
@@ -31,7 +37,8 @@ let
         "neoforge-26.1.2" = _MIzjQRzi;
         "pkg-1.0.0" = _2qv4Oqbl;
         "pkg-1.0.2" = _MIzjQRzi;
-        "default" = _MIzjQRzi;
+        "pkg-1.0.3" = _or1CNBlV;
+        "default" = _or1CNBlV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-better-item-vaults";

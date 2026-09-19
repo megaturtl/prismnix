@@ -316,6 +316,21 @@ let
             "file" = "seamlesssleep-neoforge-26.1-2.6.2.jar";
             "hash" = "sha512-kxIINhSj1SIpREKLeip+GMqRCTyI7jWrUUjq/htCPq6D6b8EXdgT9xFw+QY7Z+ssJcvpr1oSr0LME6WFTZUnSA==";
         };
+        _D8JELVLl = {
+            "id" = "D8JELVLl";
+            "file" = "seamlesssleep-fabric-26.2-2.6.2.jar";
+            "hash" = "sha512-+oK9GCzjweY6KZL9d1//ESA0hOD/RnJKPgEhwmCfWXw0Tr9ZVZFwMnM3NN+w5vfp5/2UNDfKSZCD2wVYFcqugQ==";
+        };
+        _e9qoijfL = {
+            "id" = "e9qoijfL";
+            "file" = "seamlesssleep-neoforge-26.2-2.6.2.jar";
+            "hash" = "sha512-h2Zk3hh55X4PCYAHmMk1BvUUu6ILwZQzgw2c6HmcRjumN/NqFia+/olOsFGBlWLu/MHV6X0cr9lGowUbMmpNcA==";
+        };
+        _9UaJmCvR = {
+            "id" = "9UaJmCvR";
+            "file" = "seamlesssleep-forge-26.2-2.6.2.jar";
+            "hash" = "sha512-MPOTJ6yV7VE/GRBSFSIardXLHMcFHQ8/ohJ1Fy2C5G8saJg6Kaq0/4Te5u3ANdv1s3ZH2QSxFSh13ryIhr2ipg==";
+        };
     in {
         "tyKyQTzv" = _tyKyQTzv;
         "JdTSNPyR" = _JdTSNPyR;
@@ -380,6 +395,9 @@ let
         "5twvSn7y" = _5twvSn7y;
         "tvzOlCep" = _tvzOlCep;
         "7MvRlXkh" = _7MvRlXkh;
+        "D8JELVLl" = _D8JELVLl;
+        "e9qoijfL" = _e9qoijfL;
+        "9UaJmCvR" = _9UaJmCvR;
         "fabric-1.21.5" = _WRerPyU1;
         "fabric-1.21.6" = _KZ6Yhm9C;
         "fabric-1.21.7" = _KZ6Yhm9C;
@@ -399,6 +417,7 @@ let
         "fabric-1.21.11" = _bcFqtn4m;
         "fabric-26.1" = _5twvSn7y;
         "fabric-26.1.1" = _5twvSn7y;
+        "fabric-26.2" = _D8JELVLl;
         "forge-1.21.1" = _rWuHrPFx;
         "forge-1.21.3" = _daYu7hHW;
         "forge-1.21.4" = _daYu7hHW;
@@ -414,6 +433,7 @@ let
         "forge-1.20.1" = _y7eK1nv4;
         "forge-26.1" = _tvzOlCep;
         "forge-26.1.1" = _tvzOlCep;
+        "forge-26.2" = _9UaJmCvR;
         "neoforge-1.21.1" = _Lw02ZJke;
         "neoforge-1.21.2" = _E82jRLMN;
         "neoforge-1.21.3" = _uKNOOZpG;
@@ -429,6 +449,7 @@ let
         "neoforge-1.20.1" = _2CbP3WSs;
         "neoforge-26.1" = _7MvRlXkh;
         "neoforge-26.1.1" = _7MvRlXkh;
+        "neoforge-26.2" = _e9qoijfL;
         "pkg-2.4.1-1.21.5" = _tyKyQTzv;
         "pkg-2.4.1-1.21.6+" = _JdTSNPyR;
         "pkg-2.4.1-1.21.9+" = _IPv6Vv70;
@@ -492,7 +513,10 @@ let
         "pkg-fabric-26.1-2.6.2" = _5twvSn7y;
         "pkg-forge-26.1-2.6.2" = _tvzOlCep;
         "pkg-neoforge-26.1-2.6.2" = _7MvRlXkh;
-        "default" = _7MvRlXkh;
+        "pkg-fabric-26.2-2.6.2" = _D8JELVLl;
+        "pkg-neoforge-26.2-2.6.2" = _e9qoijfL;
+        "pkg-forge-26.2-2.6.2" = _9UaJmCvR;
+        "default" = _9UaJmCvR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "seamless-sleep";

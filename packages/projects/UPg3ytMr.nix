@@ -141,6 +141,11 @@ let
             "file" = "AnnoyanceFix-2.11.0.jar";
             "hash" = "sha512-vC51o3LySp39QLyzth1Kw5XSSMJcG5FnpOKX60n/KbFF9dKrO5VigtnGc5Lppx1KzOgQuI+38KCllgWggVL7yw==";
         };
+        _wp0BcK1I = {
+            "id" = "wp0BcK1I";
+            "file" = "AnnoyanceFix-2.11.1.jar";
+            "hash" = "sha512-ulDAy/3w0drxFY4pKh/RanR4ZzfXKnJKj3zzl6EndwHMQEga6VgWt263bkU3oO2Wh0Vxr8aDt764BsAuyCklpQ==";
+        };
     in {
         "G1zxTSRh" = _G1zxTSRh;
         "q3fXKfou" = _q3fXKfou;
@@ -170,8 +175,9 @@ let
         "zzJxQAG0" = _zzJxQAG0;
         "eJFSTWUl" = _eJFSTWUl;
         "m4ZOavUu" = _m4ZOavUu;
-        "babric-b1.7.3" = _m4ZOavUu;
-        "fabric-b1.7.3" = _m4ZOavUu;
+        "wp0BcK1I" = _wp0BcK1I;
+        "babric-b1.7.3" = _wp0BcK1I;
+        "fabric-b1.7.3" = _wp0BcK1I;
         "pkg-v1.2.2" = _G1zxTSRh;
         "pkg-v1.3.0" = _q3fXKfou;
         "pkg-v2.0.0" = _gP27uijR;
@@ -200,7 +206,8 @@ let
         "pkg-2.10.4" = _zzJxQAG0;
         "pkg-2.10.5" = _eJFSTWUl;
         "pkg-2.11.0" = _m4ZOavUu;
-        "default" = _m4ZOavUu;
+        "pkg-2.11.1" = _wp0BcK1I;
+        "default" = _wp0BcK1I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "annoyancefix-stationapi-edition";

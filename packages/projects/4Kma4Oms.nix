@@ -101,6 +101,11 @@ let
             "file" = "BEconomy-1.5.jar";
             "hash" = "sha512-D/+XqLdfpjqn7JYMT8DnLjanLt29OeevvFUbEs4Z9Is96Hn4YmMD1lOh0RJWGB+UwG011/rVCOzan4iVX5ChtQ==";
         };
+        _9rGoa3aP = {
+            "id" = "9rGoa3aP";
+            "file" = "BEconomy-1.6.0.jar";
+            "hash" = "sha512-ca00qnzwJ40Cc1txlyQjXgKh+ULDl/ke+LPoWMSBCk64yHYHR61/TIdyVOBPxH7A7exL+/QbOOTgQ+zqXaTg2g==";
+        };
     in {
         "DVxyfk3v" = _DVxyfk3v;
         "9et6RMu8" = _9et6RMu8;
@@ -122,11 +127,12 @@ let
         "TBDxX67r" = _TBDxX67r;
         "9kricpF8" = _9kricpF8;
         "CpGrhJed" = _CpGrhJed;
+        "9rGoa3aP" = _9rGoa3aP;
         "fabric-1.20.1" = _Gii7d3Lh;
         "fabric-1.21" = _CpGrhJed;
-        "fabric-1.21.1" = _CpGrhJed;
-        "fabric-1.21.2" = _CpGrhJed;
-        "fabric-1.21.3" = _CpGrhJed;
+        "fabric-1.21.1" = _9rGoa3aP;
+        "fabric-1.21.2" = _9rGoa3aP;
+        "fabric-1.21.3" = _9rGoa3aP;
         "pkg-1.0" = _DVxyfk3v;
         "pkg-1.1" = _9et6RMu8;
         "pkg-1.2" = _yU1rFfnd;
@@ -147,7 +153,8 @@ let
         "pkg-1.5.2" = _TBDxX67r;
         "pkg-1.5.3" = _9kricpF8;
         "pkg-1.5.4" = _CpGrhJed;
-        "default" = _CpGrhJed;
+        "pkg-1.6.0" = _9rGoa3aP;
+        "default" = _9rGoa3aP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "beconomy";

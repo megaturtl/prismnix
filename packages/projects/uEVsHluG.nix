@@ -71,6 +71,11 @@ let
             "file" = "hiddenarmour-2.3.0.jar";
             "hash" = "sha512-uHcDsfaigK7hYkPC0fKN6+HWKyUzxQptZ/xMvlJiyJa1ttvN8nNTj9BclbReGGoULXymzbNHyPj+snM7jEQ/WQ==";
         };
+        _mpTWoAUf = {
+            "id" = "mpTWoAUf";
+            "file" = "hiddenarmour-2.4.0.jar";
+            "hash" = "sha512-X+IoC0ogCxLr6E+WfHLChoug48JHG0Y3IkCpXvMBp5E8f3of/QtZ1hG/zFQ0c+/5tHAhvTNxC3Po69qBch3J6A==";
+        };
     in {
         "2Fn7lM32" = _2Fn7lM32;
         "6xqpwgSQ" = _6xqpwgSQ;
@@ -86,6 +91,7 @@ let
         "YYUuRiL8" = _YYUuRiL8;
         "vKIybv7X" = _vKIybv7X;
         "LvDpsXLG" = _LvDpsXLG;
+        "mpTWoAUf" = _mpTWoAUf;
         "fabric-1.21.5" = _zK8AelwM;
         "fabric-1.21.6" = _z72r2y7m;
         "fabric-1.21.7" = _z72r2y7m;
@@ -97,6 +103,7 @@ let
         "fabric-26.1.1" = _vKIybv7X;
         "fabric-26.1.2" = _vKIybv7X;
         "fabric-26.2" = _LvDpsXLG;
+        "fabric-26.3" = _mpTWoAUf;
         "pkg-1.0.0" = _2Fn7lM32;
         "pkg-1.1.0" = _6xqpwgSQ;
         "pkg-1.2.0" = _3dLoxzhu;
@@ -111,7 +118,8 @@ let
         "pkg-2.1.0" = _YYUuRiL8;
         "pkg-2.2.0" = _vKIybv7X;
         "pkg-2.3.0" = _LvDpsXLG;
-        "default" = _LvDpsXLG;
+        "pkg-2.4.0" = _mpTWoAUf;
+        "default" = _mpTWoAUf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hidden-armour";

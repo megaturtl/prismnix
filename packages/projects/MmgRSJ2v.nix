@@ -86,6 +86,56 @@ let
             "file" = "immersive_horse_riding-26.1.2-Fabric-1.1.0.jar";
             "hash" = "sha512-4WJ5Zc0PQoFpxTbz9ydSQ8qnwyspIqs13iuhKo6Z2rFrcUNz8qlfTnOWxwINLhgWUrWaqDYEJLz39NpG0lneBw==";
         };
+        _5zVzPiZM = {
+            "id" = "5zVzPiZM";
+            "file" = "immersive_horse_riding-1.20.1-Fabric-2.0.0.jar";
+            "hash" = "sha512-9bkJ8Fzv+ZJ2aBSqPLdLTMO12Z6YaYZ/bKpJz2Ljj5IpHUXa7fZObiE9+tK7NSXwkFEd4z+4g663f421R2Ormg==";
+        };
+        _27o5YvPp = {
+            "id" = "27o5YvPp";
+            "file" = "immersive_horse_riding-1.20.1-Forge-2.0.0.jar";
+            "hash" = "sha512-dAAiWxqt43RLGBhlSxwSL0vHhOpi4wb4iIz6tUFobpSg/mFvU17zKz3+wIgkhKKF6Uftwb/dWbKIFmasY+5w5Q==";
+        };
+        _x9G2oVEd = {
+            "id" = "x9G2oVEd";
+            "file" = "immersive_horse_riding-1.21.1-Fabric-2.0.0.jar";
+            "hash" = "sha512-Nt4iiTAlgLWUSY9uXCT4LohXaau+SApDHQgcuKOI/APKBLYZ6u/UjitOEwpwFDwYcM+dmEjCleDbHAYljRf8EQ==";
+        };
+        _rcJgfwkc = {
+            "id" = "rcJgfwkc";
+            "file" = "immersive_horse_riding-1.21.1-NeoForge-2.0.0.jar";
+            "hash" = "sha512-LHvBTGkjprlfWdKRtVJ9BshfNl4JeeUPz3XC34Uw4nQn9z6upPiwyO7exlWI8q1JolYIlHa/evpD45WcyishfA==";
+        };
+        _9kOWlwpU = {
+            "id" = "9kOWlwpU";
+            "file" = "immersive_horse_riding-1.21.11-Fabric-2.0.0.jar";
+            "hash" = "sha512-pR/c9Otu9HtiGYgQ8XvOFW+LFXEo/UnMLvf7ZhSflW7ct8AE4kprmqJsvKzXaZU3zsydSkwcsTasZXzf4i7wag==";
+        };
+        _bwxCa1D8 = {
+            "id" = "bwxCa1D8";
+            "file" = "immersive_horse_riding-1.21.11-NeoForge-2.0.0.jar";
+            "hash" = "sha512-7Fq7uX4JAUvEQXoG2lpgARfon9H/WACJR8RHzMvopc4llL34JyHwYvfF/LKixEyqz3BV9cYrUihj13k+J7AIVA==";
+        };
+        _66yMvpgg = {
+            "id" = "66yMvpgg";
+            "file" = "immersive_horse_riding-26.1.2-NeoForge-2.0.0.jar";
+            "hash" = "sha512-SZNqYTQ1fDDKxsfPJOoxkpYGBNA1EhVPjVxJZAqLTl6aOe9Ya9Gxnw4HTABNLGlfwGAdeWg9Myrsd1lDXYmOzQ==";
+        };
+        _vyQxJEaa = {
+            "id" = "vyQxJEaa";
+            "file" = "immersive_horse_riding-26.2-NeoForge-2.0.0.jar";
+            "hash" = "sha512-+Om5jC9ag5NcXfyOOhbTKqNyZXxNUGUBS6ht5FqeiKOifESSksA4gKfQ0ppAhox1L5SQPBLIyjSK18pfwZQjgw==";
+        };
+        _tv86rmbW = {
+            "id" = "tv86rmbW";
+            "file" = "immersive_horse_riding-26.1.2-Fabric-2.0.0.jar";
+            "hash" = "sha512-kkCLXN7D6KGIhncOKrAXpgb9mGAerS0i6SavTpXWcX/fo2aERxcjf1HVlp4cT0F9vp/Prkvu3fwIG5/0rj7nsw==";
+        };
+        _K0WC2Eym = {
+            "id" = "K0WC2Eym";
+            "file" = "immersive_horse_riding-26.2-Fabric-2.0.0.jar";
+            "hash" = "sha512-SN0p53XXOXqf86HeCCooYS4SK44+Jq1ERdPSLxUDxkOjjoib0HJKoI4ypSIBj6MnBdBi9kXPnn7owRDOGKtmOQ==";
+        };
     in {
         "eCFw6HPx" = _eCFw6HPx;
         "Yb6QmaJC" = _Yb6QmaJC;
@@ -104,19 +154,32 @@ let
         "yvBeVUvu" = _yvBeVUvu;
         "qrU1mPNL" = _qrU1mPNL;
         "9GBCwzqv" = _9GBCwzqv;
-        "fabric-1.20.1" = _G1Zntp4p;
-        "fabric-1.21.1" = _fCq6Z4tR;
-        "fabric-1.21.11" = _hOn8e3mJ;
-        "fabric-26.1.2" = _9GBCwzqv;
+        "5zVzPiZM" = _5zVzPiZM;
+        "27o5YvPp" = _27o5YvPp;
+        "x9G2oVEd" = _x9G2oVEd;
+        "rcJgfwkc" = _rcJgfwkc;
+        "9kOWlwpU" = _9kOWlwpU;
+        "bwxCa1D8" = _bwxCa1D8;
+        "66yMvpgg" = _66yMvpgg;
+        "vyQxJEaa" = _vyQxJEaa;
+        "tv86rmbW" = _tv86rmbW;
+        "K0WC2Eym" = _K0WC2Eym;
+        "fabric-1.20.1" = _5zVzPiZM;
+        "fabric-1.21.1" = _x9G2oVEd;
+        "fabric-1.21.11" = _9kOWlwpU;
+        "fabric-26.1.2" = _tv86rmbW;
+        "fabric-26.2" = _K0WC2Eym;
         "forge-1.21.1" = _Yb6QmaJC;
-        "forge-1.20.1" = _FNr3NRPA;
-        "neoforge-1.21.1" = _XFWmL6RT;
-        "neoforge-1.21.11" = _yvBeVUvu;
-        "neoforge-26.1.2" = _qrU1mPNL;
+        "forge-1.20.1" = _27o5YvPp;
+        "neoforge-1.21.1" = _rcJgfwkc;
+        "neoforge-1.21.11" = _bwxCa1D8;
+        "neoforge-26.1.2" = _66yMvpgg;
+        "neoforge-26.2" = _vyQxJEaa;
         "pkg-1.2.1" = _eCFw6HPx;
         "pkg-1.0.0" = _BbKdIwNN;
         "pkg-1.1.0" = _9GBCwzqv;
-        "default" = _9GBCwzqv;
+        "pkg-2.0.0" = _K0WC2Eym;
+        "default" = _K0WC2Eym;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-horse-riding";

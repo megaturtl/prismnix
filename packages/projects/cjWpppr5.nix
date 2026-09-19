@@ -286,6 +286,11 @@ let
             "file" = "wynnextras-0.18.3.jar";
             "hash" = "sha512-XQcDQ41TXBQavIFJ48/BMLr+7wgyiPV/UHP2rR3CmePHtkUpepbXDuJq1yi26yqSDGntslQscoccJRt9Qx7fbg==";
         };
+        _VW3Djszz = {
+            "id" = "VW3Djszz";
+            "file" = "wynnextras-0.19.0.jar";
+            "hash" = "sha512-Xxqfn7aKYO2gPtv6WGMwV6i4LmAFJqfN9e5fmBD1nPiWLh+wKUFVGBEla9f4ZcT/IIJfevvwE8omNHYkMFiO7w==";
+        };
     in {
         "p2xW6Me9" = _p2xW6Me9;
         "tpXx7SMM" = _tpXx7SMM;
@@ -344,8 +349,9 @@ let
         "3kdrFW5u" = _3kdrFW5u;
         "2wnZUYng" = _2wnZUYng;
         "m8i4MdnD" = _m8i4MdnD;
+        "VW3Djszz" = _VW3Djszz;
         "fabric-1.21.4" = _cWvzK35G;
-        "fabric-1.21.11" = _m8i4MdnD;
+        "fabric-1.21.11" = _VW3Djszz;
         "pkg-0.0.1-Beta1" = _p2xW6Me9;
         "pkg-0.0.1-Beta1-HOTFIX2" = _tpXx7SMM;
         "pkg-0.0.1-Beta1-HOTFIX6" = _wKhV9qDL;
@@ -403,7 +409,8 @@ let
         "pkg-0.18.1" = _3kdrFW5u;
         "pkg-0.18.2" = _2wnZUYng;
         "pkg-0.18.3" = _m8i4MdnD;
-        "default" = _m8i4MdnD;
+        "pkg-0.19.0" = _VW3Djszz;
+        "default" = _VW3Djszz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wynnextras";

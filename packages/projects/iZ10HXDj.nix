@@ -336,6 +336,16 @@ let
             "file" = "FpsReducer2-forge-26.2-2.17.jar";
             "hash" = "sha512-gkRjRMsMVlHMPmvmdA1O6L64AZUZcQlNTNVFxmH+UeS7el8UpODXP9XkdsifPgRrDBfqj8OtJaTmgihhAYR+DA==";
         };
+        _fY8E5FjE = {
+            "id" = "fY8E5FjE";
+            "file" = "FpsReducer2-fabric-26.3-2.18.jar";
+            "hash" = "sha512-BIOWpM0oAicc+ebLRF36+iq5posFmWfGdOqEWuJzVjZZTiR6FqgTxp97cLAuP98cKZ+vdw8QQlFkQ592iwqUKg==";
+        };
+        _mJBGVGao = {
+            "id" = "mJBGVGao";
+            "file" = "FpsReducer2-neoforge-26.3-2.18.jar";
+            "hash" = "sha512-Vb2KGzM0olcM3yqDkKDRaSbo+75h35tfP8NZZF4ChvjUWxcEuzz3MtQjnANkpslPIyGOj2d+LqIqq6zwmWvDjg==";
+        };
     in {
         "KkQ36LBj" = _KkQ36LBj;
         "zbiYRGSH" = _zbiYRGSH;
@@ -404,6 +414,8 @@ let
         "A5mpaL6Q" = _A5mpaL6Q;
         "iF2UNiJB" = _iF2UNiJB;
         "cD8GnvUZ" = _cD8GnvUZ;
+        "fY8E5FjE" = _fY8E5FjE;
+        "mJBGVGao" = _mJBGVGao;
         "forge-1.7.10" = _KkQ36LBj;
         "forge-1.8.9" = _zbiYRGSH;
         "forge-1.9.4" = _ipev7TSy;
@@ -473,6 +485,7 @@ let
         "fabric-26.1.1" = _VLVD4RZX;
         "fabric-26.1.2" = _VLVD4RZX;
         "fabric-26.2" = _A5mpaL6Q;
+        "fabric-26.3" = _fY8E5FjE;
         "quilt-1.19" = _PzNcUmMG;
         "quilt-1.19.1" = _PzNcUmMG;
         "quilt-1.19.2" = _PzNcUmMG;
@@ -521,6 +534,7 @@ let
         "neoforge-26.1.1" = _aKVsbp3W;
         "neoforge-26.1.2" = _aKVsbp3W;
         "neoforge-26.2" = _iF2UNiJB;
+        "neoforge-26.3" = _mJBGVGao;
         "pkg-1.7.10-1.10.3" = _KkQ36LBj;
         "pkg-1.8.9-1.10.3" = _zbiYRGSH;
         "pkg-1.9.4-1.10.3" = _ipev7TSy;
@@ -561,7 +575,8 @@ let
         "pkg-26.1-2.16" = _KJOBdtFZ;
         "pkg-26.1.1-2.16" = _aKVsbp3W;
         "pkg-26.2-2.17" = _cD8GnvUZ;
-        "default" = _cD8GnvUZ;
+        "pkg-26.3-2.18" = _mJBGVGao;
+        "default" = _mJBGVGao;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fps-reducer";

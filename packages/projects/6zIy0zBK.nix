@@ -276,6 +276,11 @@ let
             "file" = "limbofilter-1.1.19.jar";
             "hash" = "sha512-HPq3+ZCN/QDmYRPnS2SiZe4jDLq5KaLfXKRr85KLu5XZs6Ya1+G6TcsrW+Gr+yQGxsc+q+8aJvWHhIsWhsl9Jg==";
         };
+        _jZTa2lkm = {
+            "id" = "jZTa2lkm";
+            "file" = "limbofilter-1.1.19.jar";
+            "hash" = "sha512-/py6z6xomdq/uDeMRugRhIKvhrTPQljkFSFQvvY2CXojyjHsSI5YIV3DVIVeLychvdgybXtSHBuIvt6+TdleBQ==";
+        };
     in {
         "Cr3oeDP2" = _Cr3oeDP2;
         "73KbtS0U" = _73KbtS0U;
@@ -332,8 +337,9 @@ let
         "1N13mErj" = _1N13mErj;
         "ux6nFnYU" = _ux6nFnYU;
         "EHKGX408" = _EHKGX408;
+        "jZTa2lkm" = _jZTa2lkm;
         "velocity-1.19.3" = _yLdriDGb;
-        "velocity-1.7.2" = _EHKGX408;
+        "velocity-1.7.2" = _jZTa2lkm;
         "pkg-1.0.7" = _Cr3oeDP2;
         "pkg-1.0.8" = _73KbtS0U;
         "pkg-1.1.0" = _cAFZdDy6;
@@ -387,7 +393,8 @@ let
         "pkg-34a82a3" = _1N13mErj;
         "pkg-746d21f" = _ux6nFnYU;
         "pkg-ebbc0bf" = _EHKGX408;
-        "default" = _EHKGX408;
+        "pkg-7d96b5b" = _jZTa2lkm;
+        "default" = _jZTa2lkm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "limbofilter";

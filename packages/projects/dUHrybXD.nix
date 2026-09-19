@@ -51,6 +51,11 @@ let
             "file" = "offline-skins-26.2.jar";
             "hash" = "sha512-UxMvLfc8FIBdfxuN2+QhxtRdUURoAo+M9I0ypBgHazcmKhI8ArXOXnQsOc8bDU9Q6B2ptT+oQLOyl24CpCI74w==";
         };
+        _iH1YLZH8 = {
+            "id" = "iH1YLZH8";
+            "file" = "offline-skins-26.3.jar";
+            "hash" = "sha512-xylTEq2n07Nwy/t1Y/dL+6xT5Uz0/jTMs0D/zbXtQOa68F5mN4OH2+nEviRD761squ6c9WFPNxLRiOIBr10wsA==";
+        };
     in {
         "9lgALReJ" = _9lgALReJ;
         "nK31sYCe" = _nK31sYCe;
@@ -62,6 +67,7 @@ let
         "TsKrFCcJ" = _TsKrFCcJ;
         "d9FGy609" = _d9FGy609;
         "riGLfNTT" = _riGLfNTT;
+        "iH1YLZH8" = _iH1YLZH8;
         "fabric-1.21.6" = _9lgALReJ;
         "fabric-1.21.7" = _nK31sYCe;
         "fabric-1.21.8" = _OHwbL8TH;
@@ -72,8 +78,9 @@ let
         "fabric-26.1.1" = _TsKrFCcJ;
         "fabric-26.1.2" = _d9FGy609;
         "fabric-26.2" = _riGLfNTT;
-        "pkg-1.0.0" = _riGLfNTT;
-        "default" = _riGLfNTT;
+        "fabric-26.3" = _iH1YLZH8;
+        "pkg-1.0.0" = _iH1YLZH8;
+        "default" = _iH1YLZH8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "offlineskins";

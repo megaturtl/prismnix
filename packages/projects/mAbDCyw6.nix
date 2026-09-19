@@ -146,6 +146,41 @@ let
             "file" = "[AF]AnimatedFrames-1.6.2-fabric-1.21.4.jar";
             "hash" = "sha512-Fxpo+I1oIDT2AFFa+Umhg+lr+6iSTP/dwkJep1w43YEttQEKk2PkZ6YjWO2BjO3M7XBtw3kPqMnbP0RGgx/+VQ==";
         };
+        _6xXqbUQA = {
+            "id" = "6xXqbUQA";
+            "file" = "[AF]AnimatedFrames-1.7-forge-1.20.1.jar";
+            "hash" = "sha512-pMIViteAmcC0VCMITKKTYcKryCIcUfV6M10ERwJSUxuRd9Xb28tAY3saJA3Y6bAyhS1ZeVak1kEpckPGhxvmlQ==";
+        };
+        _lI8wTfTp = {
+            "id" = "lI8wTfTp";
+            "file" = "[AF]AnimatedFrames-1.7-fabric-1.20.1.jar";
+            "hash" = "sha512-cIxiUOtnvEBWfpOvIu1f2Ocn1YN+LSaSu+cs5+jeF7ze6jEdXYVLj3BnShAUWApCp067io8MhHo+Pe+lelSgAw==";
+        };
+        _sUWSDPKV = {
+            "id" = "sUWSDPKV";
+            "file" = "[AF]AnimatedFrames-1.7-neoforge-1.21-1.21.1.jar";
+            "hash" = "sha512-pZsRvWjfmGAepHvYCwIfYUfyzEu7gITmWtzgRQOzCAlJXtTBFJ/Y04r0aOKUrBpBonnbTjFTOeLklBGjMgMHUA==";
+        };
+        _3h0UJe8K = {
+            "id" = "3h0UJe8K";
+            "file" = "[AF]AnimatedFrames-1.7-fabric-1.21-1.21.1.jar";
+            "hash" = "sha512-ZVrDie17NQLxhJebxLUzW/pZcy/XI3iCDEWPdiItTWkv2n8w0C7hlRb6n0SOCKYEpYAtMnXNX9wBD+yBWrHsQg==";
+        };
+        _XTF2wOtX = {
+            "id" = "XTF2wOtX";
+            "file" = "[AF]AnimatedFrames-1.7-neoforge-1.21.4.jar";
+            "hash" = "sha512-oKP/62HWz3DnmS+fzU5NZqOvgEKmCGbOJyQDdIE7WaB4htNCqTwOUvgg1/ER2gx53lya1zJVa0OEXWDPdD1m3g==";
+        };
+        _6NJ33a9R = {
+            "id" = "6NJ33a9R";
+            "file" = "[AF]AnimatedFrames-1.7-fabric-1.21.4.jar";
+            "hash" = "sha512-Fqwc1ormZjq/dlDSdVHD66aMubMVtCwU1UGJpfHkCZcuv7frZLTsyX0aRuoAx2WLgyU5I6IO35DtH//USwLUuA==";
+        };
+        _XxXG8JlP = {
+            "id" = "XxXG8JlP";
+            "file" = "AnimatedFramesPL-1.4.jar";
+            "hash" = "sha512-nhPAaFvCOPhXI1/D6IY6UK4vQnQvsu6tYHD0gHL65qTNiBeyQVOJ+TS6NwN0wsj9WszBHYcZX5gpBaKhgkKPTg==";
+        };
     in {
         "pyjAReqF" = _pyjAReqF;
         "Sbdq0qGk" = _Sbdq0qGk;
@@ -176,38 +211,50 @@ let
         "H8WmXHRA" = _H8WmXHRA;
         "VmFc66GA" = _VmFc66GA;
         "KSuKOkZI" = _KSuKOkZI;
-        "forge-1.20.1" = _gZHwsjXO;
-        "bukkit-1.20.1" = _73RuVyYK;
-        "bukkit-1.21" = _73RuVyYK;
-        "bukkit-1.21.1" = _73RuVyYK;
-        "paper-1.20.1" = _73RuVyYK;
-        "paper-1.21" = _73RuVyYK;
-        "paper-1.21.1" = _73RuVyYK;
-        "purpur-1.20.1" = _73RuVyYK;
-        "purpur-1.21" = _73RuVyYK;
-        "purpur-1.21.1" = _73RuVyYK;
-        "spigot-1.20.1" = _73RuVyYK;
-        "spigot-1.21" = _73RuVyYK;
-        "spigot-1.21.1" = _73RuVyYK;
-        "neoforge-1.21" = _qz9aLgsO;
-        "neoforge-1.21.1" = _qz9aLgsO;
-        "neoforge-1.21.4" = _VmFc66GA;
-        "fabric-1.21" = _H8WmXHRA;
-        "fabric-1.20.1" = _bCXHJyvP;
-        "fabric-1.21.1" = _H8WmXHRA;
-        "fabric-1.21.4" = _KSuKOkZI;
+        "6xXqbUQA" = _6xXqbUQA;
+        "lI8wTfTp" = _lI8wTfTp;
+        "sUWSDPKV" = _sUWSDPKV;
+        "3h0UJe8K" = _3h0UJe8K;
+        "XTF2wOtX" = _XTF2wOtX;
+        "6NJ33a9R" = _6NJ33a9R;
+        "XxXG8JlP" = _XxXG8JlP;
+        "forge-1.20.1" = _6xXqbUQA;
+        "bukkit-1.20.1" = _XxXG8JlP;
+        "bukkit-1.21" = _XxXG8JlP;
+        "bukkit-1.21.1" = _XxXG8JlP;
+        "bukkit-1.21.4" = _XxXG8JlP;
+        "paper-1.20.1" = _XxXG8JlP;
+        "paper-1.21" = _XxXG8JlP;
+        "paper-1.21.1" = _XxXG8JlP;
+        "paper-1.21.4" = _XxXG8JlP;
+        "purpur-1.20.1" = _XxXG8JlP;
+        "purpur-1.21" = _XxXG8JlP;
+        "purpur-1.21.1" = _XxXG8JlP;
+        "purpur-1.21.4" = _XxXG8JlP;
+        "spigot-1.20.1" = _XxXG8JlP;
+        "spigot-1.21" = _XxXG8JlP;
+        "spigot-1.21.1" = _XxXG8JlP;
+        "spigot-1.21.4" = _XxXG8JlP;
+        "neoforge-1.21" = _sUWSDPKV;
+        "neoforge-1.21.1" = _sUWSDPKV;
+        "neoforge-1.21.4" = _XTF2wOtX;
+        "fabric-1.21" = _3h0UJe8K;
+        "fabric-1.20.1" = _lI8wTfTp;
+        "fabric-1.21.1" = _3h0UJe8K;
+        "fabric-1.21.4" = _6NJ33a9R;
         "pkg-1.0.0-beta" = _pyjAReqF;
         "pkg-1.1" = _MH4umTwG;
         "pkg-1.2" = _7u5s3zeF;
         "pkg-1.3" = _73RuVyYK;
         "pkg-1.3.1" = _mubBYncS;
-        "pkg-1.4" = _qAFeX1gl;
+        "pkg-1.4" = _XxXG8JlP;
         "pkg-1.0" = _JzZ2wCCL;
         "pkg-1.5" = _BB1AZzD9;
         "pkg-1.6" = _ZGM2OXQm;
         "pkg-1.6.1" = _30YPMxnq;
         "pkg-1.6.2" = _KSuKOkZI;
-        "default" = _KSuKOkZI;
+        "pkg-1.7" = _6NJ33a9R;
+        "default" = _XxXG8JlP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animated-frames";

@@ -66,6 +66,11 @@ let
             "file" = "vanillaconfig-1.2.17+26.2.jar";
             "hash" = "sha512-D6BTFcLP2m/dZT8PldP5p7annx6FmiL+pFZCmRoV8xSUo1okJX6RffVClzFq5D32J3I+Y/qBP4pwecxWavePzA==";
         };
+        _lCymx8GV = {
+            "id" = "lCymx8GV";
+            "file" = "vanillaconfig-1.2.18+26.3.jar";
+            "hash" = "sha512-tKkd2juSyG4zphwqj3NkWj/P7B5AScXtU2k2PIOUrlY4qUmvHRikMYTnmAVX55tn4BKYbIsPaK9WxgaRrtKNPA==";
+        };
     in {
         "s0Sz2kpr" = _s0Sz2kpr;
         "r2mBFDcH" = _r2mBFDcH;
@@ -80,6 +85,7 @@ let
         "GFE8xK8C" = _GFE8xK8C;
         "piYMQdZ3" = _piYMQdZ3;
         "NE76jYRD" = _NE76jYRD;
+        "lCymx8GV" = _lCymx8GV;
         "fabric-1.19.3" = _s0Sz2kpr;
         "fabric-1.19.4" = _r2mBFDcH;
         "fabric-1.20" = _eaQSZDjj;
@@ -105,6 +111,7 @@ let
         "fabric-26.1.1" = _piYMQdZ3;
         "fabric-26.1.2" = _piYMQdZ3;
         "fabric-26.2" = _NE76jYRD;
+        "fabric-26.3" = _lCymx8GV;
         "pkg-1.19.3-v1.2.6" = _s0Sz2kpr;
         "pkg-1.2.7+1.19.4" = _r2mBFDcH;
         "pkg-1.20-v1.2.7" = _eaQSZDjj;
@@ -118,7 +125,8 @@ let
         "pkg-1.21.9-v1.2.15" = _GFE8xK8C;
         "pkg-1.2.16+26.1" = _piYMQdZ3;
         "pkg-1.2.17+26.2" = _NE76jYRD;
-        "default" = _NE76jYRD;
+        "pkg-1.2.18+26.3" = _lCymx8GV;
+        "default" = _lCymx8GV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanillaconfig";

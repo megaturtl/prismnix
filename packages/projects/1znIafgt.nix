@@ -111,6 +111,11 @@ let
             "file" = "Protective_Elytra_DP_26.2.zip";
             "hash" = "sha512-vXP11VmozV8Yr5RpM26vliylU1C66i25jzih/gYaUa07U5TffX2/g5a/cu/uZVEH+jh/neLSSrjDGoMlPCx+vQ==";
         };
+        _JIxO1o9W = {
+            "id" = "JIxO1o9W";
+            "file" = "Protective_Elytra_DP_26.3.zip";
+            "hash" = "sha512-qA/FiXoPA+rSWA2uV6CC5D3WAt/2/QSkUWgLnb7NEscz5ZsdL+09+vRq5O9bAHi3ma9BkvCBHYDh24W9F3hk6w==";
+        };
     in {
         "OBIpgVjw" = _OBIpgVjw;
         "OpyMHN7a" = _OpyMHN7a;
@@ -134,6 +139,7 @@ let
         "F1P4UUY6" = _F1P4UUY6;
         "DrSrrehd" = _DrSrrehd;
         "bpwh2aUu" = _bpwh2aUu;
+        "JIxO1o9W" = _JIxO1o9W;
         "datapack-24w39a" = _OpyMHN7a;
         "datapack-24w37a" = _OpyMHN7a;
         "datapack-24w38a" = _OpyMHN7a;
@@ -144,15 +150,16 @@ let
         "datapack-1.21.6" = _DrSrrehd;
         "datapack-1.21.7" = _DrSrrehd;
         "datapack-1.21.8" = _DrSrrehd;
-        "datapack-1.21.9" = _bpwh2aUu;
-        "datapack-1.21.10" = _bpwh2aUu;
-        "datapack-1.21.11" = _bpwh2aUu;
+        "datapack-1.21.9" = _JIxO1o9W;
+        "datapack-1.21.10" = _JIxO1o9W;
+        "datapack-1.21.11" = _JIxO1o9W;
         "datapack-1.21" = _DrSrrehd;
         "datapack-1.21.1" = _DrSrrehd;
-        "datapack-26.1" = _bpwh2aUu;
-        "datapack-26.1.1" = _bpwh2aUu;
-        "datapack-26.1.2" = _bpwh2aUu;
-        "datapack-26.2" = _bpwh2aUu;
+        "datapack-26.1" = _JIxO1o9W;
+        "datapack-26.1.1" = _JIxO1o9W;
+        "datapack-26.1.2" = _JIxO1o9W;
+        "datapack-26.2" = _JIxO1o9W;
+        "datapack-26.3" = _JIxO1o9W;
         "fabric-1.21.5" = _DPWWM8bB;
         "fabric-1.21.6" = _vjvPg6R3;
         "fabric-1.21.7" = _kHsWAk63;
@@ -199,7 +206,8 @@ let
         "pkg-1.21.11+mod" = _F1P4UUY6;
         "pkg-26.1" = _DrSrrehd;
         "pkg-26.2" = _bpwh2aUu;
-        "default" = _bpwh2aUu;
+        "pkg-26.3" = _JIxO1o9W;
+        "default" = _JIxO1o9W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "protective-elytra";

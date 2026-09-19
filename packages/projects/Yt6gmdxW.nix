@@ -831,6 +831,11 @@ let
             "file" = "hunters_return-26.2-32.6.0.jar";
             "hash" = "sha512-3VAKwxrkKDBNNGYYV+/zWwzyyuCOVNNbmV5MSrGdTGnfw3xqmuwqvaUFHoIAN4qjCZpG3Gx3Lgzrh3QLiGvJ3A==";
         };
+        _5bOSGNrN = {
+            "id" = "5bOSGNrN";
+            "file" = "hunters_return-26.3-33.0.0.jar";
+            "hash" = "sha512-0aE+ac7dyA0OLil9TeDb6WGMSoh+OsEiyvla0/dvJOebB2wZfjzxi4na5NIlvdpK18FadUNzRUCTLnUliphSQA==";
+        };
     in {
         "hncuyDel" = _hncuyDel;
         "Tovn205X" = _Tovn205X;
@@ -998,6 +1003,7 @@ let
         "AXm6vO9Y" = _AXm6vO9Y;
         "M5EsqQRT" = _M5EsqQRT;
         "7Q9XCAuM" = _7Q9XCAuM;
+        "5bOSGNrN" = _5bOSGNrN;
         "forge-1.19.2" = _F8TdjDfE;
         "forge-1.19.3" = _ttVTrWKy;
         "forge-1.19.4" = _bn0WO22Y;
@@ -1036,6 +1042,7 @@ let
         "neoforge-26.1.1" = _9ofAqaWC;
         "neoforge-26.1.2" = _M5EsqQRT;
         "neoforge-26.2" = _7Q9XCAuM;
+        "neoforge-26.3" = _5bOSGNrN;
         "pkg-6.1.0" = _hncuyDel;
         "pkg-6.2.0" = _Tovn205X;
         "pkg-7.0.0" = _36RuiDRw;
@@ -1202,7 +1209,8 @@ let
         "pkg-1.21.1-20.12.0" = _AXm6vO9Y;
         "pkg-26.1.2-31.8.0" = _M5EsqQRT;
         "pkg-26.2-32.6.0" = _7Q9XCAuM;
-        "default" = _7Q9XCAuM;
+        "pkg-26.3-33.0.0" = _5bOSGNrN;
+        "default" = _5bOSGNrN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hunters-return";

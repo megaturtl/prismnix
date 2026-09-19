@@ -91,6 +91,16 @@ let
             "file" = "breakingplace_fabric-1.18.2.jar";
             "hash" = "sha512-BgdDJOO4jrJ3Jrk5HX7eJk7znfCQAW5UX1nnAxuJV34MsTuutC59IOTmm/wU7LG34OgBBvB7Yj+ChnG4n8pUDw==";
         };
+        _KoTMJxvE = {
+            "id" = "KoTMJxvE";
+            "file" = "breakingplace_fabric-26.3+.jar";
+            "hash" = "sha512-RI6shcx3EGJgT3VpD77TU1xn5wssx0m9+qeQXJR4l5NlBzH3X0m4RKGs21YuKb0ytP3IHLL5mHmtKkWQMouF/g==";
+        };
+        _5rWtIYPR = {
+            "id" = "5rWtIYPR";
+            "file" = "breakingplace_neoforge-26.3+.jar";
+            "hash" = "sha512-NnjKrCN5hgwg2BnJY5ToJaAJaESDymm6jhWbvNnJJp7y29KLtpLHr9lyl785NnLcEl0A8xcF+RPRoU1buq04yw==";
+        };
     in {
         "igPMgGWI" = _igPMgGWI;
         "g9RjEIh4" = _g9RjEIh4;
@@ -110,6 +120,8 @@ let
         "EWWftb3p" = _EWWftb3p;
         "sjHeiI5i" = _sjHeiI5i;
         "gsttahap" = _gsttahap;
+        "KoTMJxvE" = _KoTMJxvE;
+        "5rWtIYPR" = _5rWtIYPR;
         "fabric-1.21.1" = _igPMgGWI;
         "fabric-1.21.2" = _igPMgGWI;
         "fabric-1.21.3" = _igPMgGWI;
@@ -138,6 +150,7 @@ let
         "fabric-1.19.3" = _sjHeiI5i;
         "fabric-1.19.4" = _sjHeiI5i;
         "fabric-1.18.2" = _gsttahap;
+        "fabric-26.3" = _KoTMJxvE;
         "neoforge-1.21.1" = _JH3fZPTO;
         "neoforge-1.21.2" = _JH3fZPTO;
         "neoforge-1.21.3" = _JH3fZPTO;
@@ -153,6 +166,7 @@ let
         "neoforge-26.1.1" = _ekbjRMKd;
         "neoforge-26.1.2" = _ekbjRMKd;
         "neoforge-26.2" = _C7flDMoF;
+        "neoforge-26.3" = _5rWtIYPR;
         "forge-1.21.1" = _9MkQlJGP;
         "forge-1.21.2" = _9MkQlJGP;
         "forge-1.21.3" = _9MkQlJGP;
@@ -182,8 +196,8 @@ let
         "forge-1.18.1" = _ZZE8wgyv;
         "forge-1.18.2" = _ZZE8wgyv;
         "forge-1.17.1" = _L0tloVea;
-        "pkg-1.0.0" = _gsttahap;
-        "default" = _gsttahap;
+        "pkg-1.0.0" = _5rWtIYPR;
+        "default" = _5rWtIYPR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "breaking-place";

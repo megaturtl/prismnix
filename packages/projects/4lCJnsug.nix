@@ -56,6 +56,11 @@ let
             "file" = "Os' Colorful Leaves 26-1-2.zip";
             "hash" = "sha512-RMq3SKKKpHlGDz4bJbK7PHBWEmUCxMw7YWrQTYPOCGeFbXO/AaiC1zoCkArgDxtcBHsDDm4CzTc42ZNNvheS1w==";
         };
+        _QyDeMvLB = {
+            "id" = "QyDeMvLB";
+            "file" = "Os' Colorful Leaves.zip";
+            "hash" = "sha512-JRAsg6hiAGUjqctlJLzg+T148f2567zcv3x0D8EPreB50kJ5HSZ0TMIvEDcdHbDxlibfqUM7bCdpWHLs89rKHg==";
+        };
     in {
         "el9Pklr2" = _el9Pklr2;
         "CEfkFqlU" = _CEfkFqlU;
@@ -68,13 +73,14 @@ let
         "6m5UEhwo" = _6m5UEhwo;
         "QyuwrtbT" = _QyuwrtbT;
         "Ub16IXaR" = _Ub16IXaR;
+        "QyDeMvLB" = _QyDeMvLB;
         "minecraft-1.20" = _CEfkFqlU;
         "minecraft-1.20.1" = _CEfkFqlU;
-        "minecraft-1.21" = _Ub16IXaR;
-        "minecraft-1.21.1" = _Ub16IXaR;
-        "minecraft-1.21.2" = _Ub16IXaR;
-        "minecraft-1.21.3" = _Ub16IXaR;
-        "minecraft-1.21.4" = _Ub16IXaR;
+        "minecraft-1.21" = _QyDeMvLB;
+        "minecraft-1.21.1" = _QyDeMvLB;
+        "minecraft-1.21.2" = _QyDeMvLB;
+        "minecraft-1.21.3" = _QyDeMvLB;
+        "minecraft-1.21.4" = _QyDeMvLB;
         "minecraft-25w02a" = _iKKNJpea;
         "minecraft-25w03a" = _iKKNJpea;
         "minecraft-25w04a" = _iKKNJpea;
@@ -82,16 +88,18 @@ let
         "minecraft-25w06a" = _iKKNJpea;
         "minecraft-25w07a" = _iKKNJpea;
         "minecraft-25w08a" = _iKKNJpea;
-        "minecraft-1.21.5" = _Ub16IXaR;
-        "minecraft-1.21.6" = _Ub16IXaR;
-        "minecraft-1.21.7" = _Ub16IXaR;
-        "minecraft-1.21.8" = _Ub16IXaR;
-        "minecraft-1.21.9" = _Ub16IXaR;
-        "minecraft-1.21.10" = _Ub16IXaR;
-        "minecraft-1.21.11" = _Ub16IXaR;
-        "minecraft-26.1" = _Ub16IXaR;
-        "minecraft-26.1.1" = _Ub16IXaR;
-        "minecraft-26.1.2" = _Ub16IXaR;
+        "minecraft-1.21.5" = _QyDeMvLB;
+        "minecraft-1.21.6" = _QyDeMvLB;
+        "minecraft-1.21.7" = _QyDeMvLB;
+        "minecraft-1.21.8" = _QyDeMvLB;
+        "minecraft-1.21.9" = _QyDeMvLB;
+        "minecraft-1.21.10" = _QyDeMvLB;
+        "minecraft-1.21.11" = _QyDeMvLB;
+        "minecraft-26.1" = _QyDeMvLB;
+        "minecraft-26.1.1" = _QyDeMvLB;
+        "minecraft-26.1.2" = _QyDeMvLB;
+        "minecraft-26.2" = _QyDeMvLB;
+        "minecraft-26.3" = _QyDeMvLB;
         "pkg-1" = _el9Pklr2;
         "pkg-2" = _CEfkFqlU;
         "pkg-3" = _bLYx7ACT;
@@ -103,7 +111,8 @@ let
         "pkg-LL3(IrisFix)" = _6m5UEhwo;
         "pkg-5wLL3(IrisFix)" = _QyuwrtbT;
         "pkg-26.1.2" = _Ub16IXaR;
-        "default" = _Ub16IXaR;
+        "pkg-ColorfulLeaves-26.3" = _QyDeMvLB;
+        "default" = _QyDeMvLB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "os-colorful-leaves";

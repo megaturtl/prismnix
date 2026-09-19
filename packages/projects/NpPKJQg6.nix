@@ -76,6 +76,11 @@ let
             "file" = "vectorientation-1.1-26.2.jar";
             "hash" = "sha512-BC07vGrfCfQSqcSyDtVhrNYfuntjtdyvXjP2TViQ5tEhICKZDKkNkR2sZPtVswluXYt1ZPEKee8VIFoUE7wJ+Q==";
         };
+        _RleTmgVs = {
+            "id" = "RleTmgVs";
+            "file" = "vectorientation-1.1-26.3.jar";
+            "hash" = "sha512-a3fUp9ifD2zeFvnfWYFMCzbzoF+n8lC6DeIUumgwNufMp5e/mC0BL6S8ocmhzEP8CdpCN1MqxLruUcpbqJ2slQ==";
+        };
     in {
         "OSb857rw" = _OSb857rw;
         "5wkmGqYb" = _5wkmGqYb;
@@ -92,6 +97,7 @@ let
         "tOGBphkR" = _tOGBphkR;
         "9e7L243X" = _9e7L243X;
         "dCaNedtN" = _dCaNedtN;
+        "RleTmgVs" = _RleTmgVs;
         "fabric-1.18" = _OSb857rw;
         "fabric-1.18.1" = _OSb857rw;
         "fabric-1.18.2" = _OSb857rw;
@@ -119,6 +125,7 @@ let
         "fabric-1.21.11" = _tOGBphkR;
         "fabric-26.1" = _9e7L243X;
         "fabric-26.2" = _dCaNedtN;
+        "fabric-26.3" = _RleTmgVs;
         "quilt-1.18" = _OSb857rw;
         "quilt-1.18.1" = _OSb857rw;
         "quilt-1.18.2" = _OSb857rw;
@@ -146,9 +153,10 @@ let
         "quilt-1.21.11" = _tOGBphkR;
         "quilt-26.1" = _9e7L243X;
         "quilt-26.2" = _dCaNedtN;
+        "quilt-26.3" = _RleTmgVs;
         "pkg-1.0.1a" = _o1Vlfx1V;
-        "pkg-1.1" = _dCaNedtN;
-        "default" = _dCaNedtN;
+        "pkg-1.1" = _RleTmgVs;
+        "default" = _RleTmgVs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vectorientation";

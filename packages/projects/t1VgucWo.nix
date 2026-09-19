@@ -1011,6 +1011,21 @@ let
             "file" = "chunkloaders-1.2.9-neoforge-mc26.2.jar";
             "hash" = "sha512-GHBp12nlGvX4V9rGFHKEXa70z/1zQjoXrtzL11GajuKwiylDB7TjdhMeZX2HpnKjLN/1jD5dPbDSfqyMk28EJw==";
         };
+        _dXsjVgZn = {
+            "id" = "dXsjVgZn";
+            "file" = "chunkloaders-1.2.9a-neoforge-mc26.2.jar";
+            "hash" = "sha512-+fQfB55+nce4g4pSZRlAkEEm9FnOTg6lPwPUyUbDdHgQtxk4Nhf6DJwDgOejIOFtOMREYtGK2gQXL6MlaX1QFg==";
+        };
+        _mdPW4Vds = {
+            "id" = "mdPW4Vds";
+            "file" = "chunkloaders-1.2.9-fabric-mc26.3.jar";
+            "hash" = "sha512-XoTazk4/wlWnxKzWZVlYKSMb8id5UVMBwqhU9p2fLQ0JI6NNNRCFIzxE3MqujXdY6tcxnjuHQS6vGC1fenSGVw==";
+        };
+        _55Xtc5xr = {
+            "id" = "55Xtc5xr";
+            "file" = "chunkloaders-1.2.9-neoforge-mc26.3.jar";
+            "hash" = "sha512-f7PnIIdJT5KAyOupPpxwfmDw8Bem2HLIZ2O9yOBp/vpwMF/7yTuCZYCoQCJlYx/8liMMVQbzYfW4wfBfdwCVbQ==";
+        };
     in {
         "QkC27JF4" = _QkC27JF4;
         "o74IwwFQ" = _o74IwwFQ;
@@ -1214,6 +1229,9 @@ let
         "abs88Ayk" = _abs88Ayk;
         "Lgsy83RX" = _Lgsy83RX;
         "fTVekaAv" = _fTVekaAv;
+        "dXsjVgZn" = _dXsjVgZn;
+        "mdPW4Vds" = _mdPW4Vds;
+        "55Xtc5xr" = _55Xtc5xr;
         "forge-1.12" = _6RtABTVf;
         "forge-1.12.1" = _6RtABTVf;
         "forge-1.12.2" = _6RtABTVf;
@@ -1292,6 +1310,7 @@ let
         "fabric-26.1.1" = _78s3Ulp1;
         "fabric-26.1.2" = _78s3Ulp1;
         "fabric-26.2" = _Lgsy83RX;
+        "fabric-26.3" = _mdPW4Vds;
         "neoforge-1.12" = _tfYf5GO3;
         "neoforge-1.12.1" = _tfYf5GO3;
         "neoforge-1.12.2" = _tfYf5GO3;
@@ -1340,7 +1359,8 @@ let
         "neoforge-26.1" = _Iy64Jptk;
         "neoforge-26.1.1" = _Iy64Jptk;
         "neoforge-26.1.2" = _Iy64Jptk;
-        "neoforge-26.2" = _fTVekaAv;
+        "neoforge-26.2" = _dXsjVgZn;
+        "neoforge-26.3" = _55Xtc5xr;
         "quilt-1.18" = _4bZ6eeSU;
         "quilt-1.18.1" = _4bZ6eeSU;
         "quilt-1.18.2" = _4bZ6eeSU;
@@ -1369,6 +1389,7 @@ let
         "quilt-26.1.1" = _78s3Ulp1;
         "quilt-26.1.2" = _78s3Ulp1;
         "quilt-26.2" = _Lgsy83RX;
+        "quilt-26.3" = _mdPW4Vds;
         "pkg-1.2.0-forge-mc1.12" = _QkC27JF4;
         "pkg-1.2.0-forge-mc1.14" = _o74IwwFQ;
         "pkg-1.2.0-forge-mc1.15" = _XzsbbILd;
@@ -1571,7 +1592,10 @@ let
         "pkg-1.2.9-forge-mc26.2" = _abs88Ayk;
         "pkg-1.2.9-fabric-mc26.2" = _Lgsy83RX;
         "pkg-1.2.9-neoforge-mc26.2" = _fTVekaAv;
-        "default" = _fTVekaAv;
+        "pkg-1.2.9a-neoforge-mc26.2" = _dXsjVgZn;
+        "pkg-1.2.9-fabric-mc26.3" = _mdPW4Vds;
+        "pkg-1.2.9-neoforge-mc26.3" = _55Xtc5xr;
+        "default" = _55Xtc5xr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chunk-loaders";

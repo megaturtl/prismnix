@@ -111,6 +111,11 @@ let
             "file" = "More-Berries-1.5.22.jar";
             "hash" = "sha512-p/OPdU2rXus+vl2RBQiWaWe5Uo9OSdeMXTxr8wFY/LeCHhhWt9okHca2wZ6Za7tkzW4bY649zAu5QyhZXDEjbQ==";
         };
+        _u8iiZ6u8 = {
+            "id" = "u8iiZ6u8";
+            "file" = "More-Berries-1.5.23.jar";
+            "hash" = "sha512-q9C85soQ85QINSP2XwzfczAIbttuk64+QP0EoDPlEBrMfwGNLX+q00KaD0s/sfdcUG8EoE3ptfpNkPb6NXMHhg==";
+        };
     in {
         "9PJ6957w" = _9PJ6957w;
         "muxUmqD7" = _muxUmqD7;
@@ -134,6 +139,7 @@ let
         "1YCq0ut8" = _1YCq0ut8;
         "WLYf5t8T" = _WLYf5t8T;
         "sXokKFHb" = _sXokKFHb;
+        "u8iiZ6u8" = _u8iiZ6u8;
         "fabric-1.19" = _9PJ6957w;
         "fabric-1.19.1" = _9PJ6957w;
         "fabric-1.19.2" = _9PJ6957w;
@@ -164,6 +170,7 @@ let
         "fabric-26.1.1" = _WLYf5t8T;
         "fabric-26.1.2" = _WLYf5t8T;
         "fabric-26.2" = _sXokKFHb;
+        "fabric-26.3-rc-2" = _u8iiZ6u8;
         "pkg-1.5.1" = _9PJ6957w;
         "pkg-1.5.2" = _muxUmqD7;
         "pkg-1.5.3" = _AXVTo9zw;
@@ -186,7 +193,8 @@ let
         "pkg-1.5.20" = _1YCq0ut8;
         "pkg-1.5.21" = _WLYf5t8T;
         "pkg-1.5.22" = _sXokKFHb;
-        "default" = _sXokKFHb;
+        "pkg-1.5.23" = _u8iiZ6u8;
+        "default" = _u8iiZ6u8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-berries";

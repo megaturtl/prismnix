@@ -2481,6 +2481,21 @@ let
             "file" = "chatnotify-neoforge-3.103.1+26.2.jar";
             "hash" = "sha512-/UgvcTFITcDlCa0UU/yO0I8k7drNO2SWcPBZznqL7OQwndih8woB6X8//bs5BP7oWWty897no8cEGJ+/P5CXtw==";
         };
+        _wifhQgWZ = {
+            "id" = "wifhQgWZ";
+            "file" = "chatnotify-fabric-3.104.0-beta.1+26.3-rc-2.jar";
+            "hash" = "sha512-qe0IsqVfuqWGJesDGUUkqgo02Q10Rky5hCBn82wq84wzFY+Ui5jWfy0oI2EwLJW2NIkwVesIljZiKVPArhIW3g==";
+        };
+        _D8fkFBzK = {
+            "id" = "D8fkFBzK";
+            "file" = "chatnotify-neoforge-3.104.0+26.3.jar";
+            "hash" = "sha512-lKfJMP1zYhcSxPRzQDDZebL7e7IiiTxBOVzbER2fpQUNXz99nZiRK3GGlHY7y+ZU5EN6qv3lZF6zUurbEkmdbg==";
+        };
+        _wyv0wuQm = {
+            "id" = "wyv0wuQm";
+            "file" = "chatnotify-fabric-3.104.0+26.3.jar";
+            "hash" = "sha512-KnhSvrKKNRSdfsPcmbcyYPY/w/wIjnh4xK5LrhUGgIR5Vikh6I+/XEESpZ7nXRhI3W5hoQGvVoKW9Uj/6sGfSg==";
+        };
     in {
         "DpA7h1fc" = _DpA7h1fc;
         "m9I3HUG4" = _m9I3HUG4;
@@ -2978,6 +2993,9 @@ let
         "n4xzuN3I" = _n4xzuN3I;
         "BeAig6Jh" = _BeAig6Jh;
         "oCmfHGbx" = _oCmfHGbx;
+        "wifhQgWZ" = _wifhQgWZ;
+        "D8fkFBzK" = _D8fkFBzK;
+        "wyv0wuQm" = _wyv0wuQm;
         "fabric-1.19.3" = _DpA7h1fc;
         "fabric-1.19.4" = _m9I3HUG4;
         "fabric-1.20" = _vfXo8Wvn;
@@ -3010,6 +3028,9 @@ let
         "fabric-26.2-rc-1" = _YmKqs1A5;
         "fabric-26.2-rc-2" = _YmKqs1A5;
         "fabric-26.2" = _BeAig6Jh;
+        "fabric-26.3-rc-2" = _wifhQgWZ;
+        "fabric-26.3-rc-3" = _wifhQgWZ;
+        "fabric-26.3" = _wyv0wuQm;
         "forge-1.20" = _BNXgwjM1;
         "forge-1.20.1" = _SQJ0f4Ql;
         "forge-1.20.2" = _ep9MdlI4;
@@ -3037,6 +3058,7 @@ let
         "neoforge-26.1.1" = _Dm5zeu59;
         "neoforge-26.1.2" = _Dm5zeu59;
         "neoforge-26.2" = _oCmfHGbx;
+        "neoforge-26.3" = _D8fkFBzK;
         "quilt-1.20" = _uADDpUT1;
         "quilt-1.20.1" = _uADDpUT1;
         "quilt-1.20.2" = _oOVmniml;
@@ -3266,7 +3288,9 @@ let
         "pkg-3.103.0+26.2" = _DGdWTqZw;
         "pkg-3.102.6+26.1.2" = _n4xzuN3I;
         "pkg-3.103.1+26.2" = _oCmfHGbx;
-        "default" = _oCmfHGbx;
+        "pkg-3.104.0-beta.1+26.3-rc-2" = _wifhQgWZ;
+        "pkg-3.104.0+26.3" = _wyv0wuQm;
+        "default" = _wyv0wuQm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chatnotify";

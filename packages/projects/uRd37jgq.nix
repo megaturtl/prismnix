@@ -191,6 +191,16 @@ let
             "file" = "world-editor-v2.6.0.jar";
             "hash" = "sha512-TP67LYIWCWvjCeAcukoGfDVZ4zIiLAngpczmOpBG06eZnuHg/CnZuZxolXTu4V1AL+/+HYifp/1QyMJzQKpAhw==";
         };
+        _xtdat4gj = {
+            "id" = "xtdat4gj";
+            "file" = "World Editor v2.6.0 - 26.3.zip";
+            "hash" = "sha512-IFs3bcvADft504iIFYOxVtSOsMTLwu/PRLGSyMvaYUgUzJ0EnoGeKdLQ5pjUt8tkKEYR94ySvS5w0hKBgQdITg==";
+        };
+        _kOk5Ze9L = {
+            "id" = "kOk5Ze9L";
+            "file" = "world-editor-v2.6.0.jar";
+            "hash" = "sha512-rQNviNH0frlkmdX+3gF4VoiBtfKAY0Bt4YDkA2SA0JtMcMqENnqgmun57Ilj8EOsCsDcT9VGh8aJlZWL6q4qzQ==";
+        };
     in {
         "KGOutLpT" = _KGOutLpT;
         "3tFYxiJ4" = _3tFYxiJ4;
@@ -230,6 +240,8 @@ let
         "uZWuZNBb" = _uZWuZNBb;
         "EvNLSR0Q" = _EvNLSR0Q;
         "xpimHLmV" = _xpimHLmV;
+        "xtdat4gj" = _xtdat4gj;
+        "kOk5Ze9L" = _kOk5Ze9L;
         "datapack-1.20.2" = _3tFYxiJ4;
         "datapack-1.20.3" = _3tFYxiJ4;
         "datapack-1.20.4" = _3tFYxiJ4;
@@ -247,6 +259,7 @@ let
         "datapack-26.1.1" = _EvNLSR0Q;
         "datapack-26.1.2" = _EvNLSR0Q;
         "datapack-26.2" = _EvNLSR0Q;
+        "datapack-26.3" = _xtdat4gj;
         "fabric-1.21.2" = _mzFH9oV4;
         "fabric-1.21.3" = _mzFH9oV4;
         "fabric-1.21.4" = _iwsilr0f;
@@ -261,6 +274,7 @@ let
         "fabric-26.1.1" = _xpimHLmV;
         "fabric-26.1.2" = _xpimHLmV;
         "fabric-26.2" = _xpimHLmV;
+        "fabric-26.3" = _kOk5Ze9L;
         "forge-1.21.2" = _mzFH9oV4;
         "forge-1.21.3" = _mzFH9oV4;
         "forge-1.21.4" = _iwsilr0f;
@@ -275,6 +289,7 @@ let
         "forge-26.1.1" = _xpimHLmV;
         "forge-26.1.2" = _xpimHLmV;
         "forge-26.2" = _xpimHLmV;
+        "forge-26.3" = _kOk5Ze9L;
         "neoforge-1.21.2" = _mzFH9oV4;
         "neoforge-1.21.3" = _mzFH9oV4;
         "neoforge-1.21.4" = _iwsilr0f;
@@ -289,6 +304,7 @@ let
         "neoforge-26.1.1" = _xpimHLmV;
         "neoforge-26.1.2" = _xpimHLmV;
         "neoforge-26.2" = _xpimHLmV;
+        "neoforge-26.3" = _kOk5Ze9L;
         "quilt-1.21.2" = _mzFH9oV4;
         "quilt-1.21.3" = _mzFH9oV4;
         "quilt-1.21.4" = _iwsilr0f;
@@ -303,6 +319,7 @@ let
         "quilt-26.1.1" = _xpimHLmV;
         "quilt-26.1.2" = _xpimHLmV;
         "quilt-26.2" = _xpimHLmV;
+        "quilt-26.3" = _kOk5Ze9L;
         "pkg-v1.0.0" = _KGOutLpT;
         "pkg-v1.0.1" = _3tFYxiJ4;
         "pkg-v1.2.1" = _21ffgKD4;
@@ -331,9 +348,9 @@ let
         "pkg-2.4.0+mod" = _6DmQJDdt;
         "pkg-v2.5.0" = _tDeJ57ND;
         "pkg-v2.5.0+mod" = _pJyxB8uw;
-        "pkg-v2.6.0" = _EvNLSR0Q;
-        "pkg-v2.6.0+mod" = _xpimHLmV;
-        "default" = _xpimHLmV;
+        "pkg-v2.6.0" = _xtdat4gj;
+        "pkg-v2.6.0+mod" = _kOk5Ze9L;
+        "default" = _kOk5Ze9L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "world-editor";

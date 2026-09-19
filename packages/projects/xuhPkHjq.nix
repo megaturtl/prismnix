@@ -121,6 +121,16 @@ let
             "file" = "skyblock-advancements-1.0.12.jar";
             "hash" = "sha512-arE9k+hk/xDhI5Z+B1B1wFWaaOuQ5UIQ4XTjacX/u1+K0YoNFPsYDJz0VtrDJSaLu70kUBziVQjJicR4bSsUeA==";
         };
+        _9l7nrSYY = {
+            "id" = "9l7nrSYY";
+            "file" = "skyvoid_advancements_v1_0_13-MC_26_2.zip";
+            "hash" = "sha512-am6xDNliWarn+9/Z9RBmLRJW6oliB0NeH68TjIRHAOd53CJ8ZdL+CEMS87LOxRjx794nZ9lGbseoRcqrlaimOg==";
+        };
+        _eFH2tP3w = {
+            "id" = "eFH2tP3w";
+            "file" = "skyblock-advancements-1.0.13.jar";
+            "hash" = "sha512-GOUGfrWkzmEBbqZ1pXskT1+IcWxXnhSVAsomC0BgIaD5idWjFm559CCWwa2IQbGU8bSwa1Kd0O15jJx/ayDxVA==";
+        };
     in {
         "4lwcM5xc" = _4lwcM5xc;
         "94Aarzye" = _94Aarzye;
@@ -146,6 +156,8 @@ let
         "5WeiiGgk" = _5WeiiGgk;
         "dw1qoOb4" = _dw1qoOb4;
         "1iumvBS4" = _1iumvBS4;
+        "9l7nrSYY" = _9l7nrSYY;
+        "eFH2tP3w" = _eFH2tP3w;
         "datapack-1.20" = _4HG1eOoL;
         "datapack-1.20.1" = _4HG1eOoL;
         "datapack-1.20.2" = _4HG1eOoL;
@@ -168,6 +180,7 @@ let
         "datapack-26.1" = _dw1qoOb4;
         "datapack-26.1.1" = _dw1qoOb4;
         "datapack-26.1.2" = _dw1qoOb4;
+        "datapack-26.2" = _9l7nrSYY;
         "fabric-1.20" = _VJLTCQBE;
         "fabric-1.20.1" = _VJLTCQBE;
         "fabric-1.20.2" = _VJLTCQBE;
@@ -190,6 +203,7 @@ let
         "fabric-26.1" = _1iumvBS4;
         "fabric-26.1.1" = _1iumvBS4;
         "fabric-26.1.2" = _1iumvBS4;
+        "fabric-26.2" = _eFH2tP3w;
         "forge-1.20" = _VJLTCQBE;
         "forge-1.20.1" = _VJLTCQBE;
         "forge-1.20.2" = _VJLTCQBE;
@@ -212,6 +226,7 @@ let
         "forge-26.1" = _1iumvBS4;
         "forge-26.1.1" = _1iumvBS4;
         "forge-26.1.2" = _1iumvBS4;
+        "forge-26.2" = _eFH2tP3w;
         "quilt-1.20" = _VJLTCQBE;
         "quilt-1.20.1" = _VJLTCQBE;
         "quilt-1.20.2" = _VJLTCQBE;
@@ -234,6 +249,7 @@ let
         "quilt-26.1" = _1iumvBS4;
         "quilt-26.1.1" = _1iumvBS4;
         "quilt-26.1.2" = _1iumvBS4;
+        "quilt-26.2" = _eFH2tP3w;
         "neoforge-1.21" = _b51M2DZp;
         "neoforge-1.21.1" = _b51M2DZp;
         "neoforge-1.21.2" = _b51M2DZp;
@@ -249,6 +265,7 @@ let
         "neoforge-26.1" = _1iumvBS4;
         "neoforge-26.1.1" = _1iumvBS4;
         "neoforge-26.1.2" = _1iumvBS4;
+        "neoforge-26.2" = _eFH2tP3w;
         "pkg-1.0.0" = _4lwcM5xc;
         "pkg-1.0.1" = _94Aarzye;
         "pkg-1.0.2" = _3vrW2Q3s;
@@ -273,7 +290,9 @@ let
         "pkg-1.0.11+mod" = _5WeiiGgk;
         "pkg-1.0.12" = _dw1qoOb4;
         "pkg-1.0.12+mod" = _1iumvBS4;
-        "default" = _1iumvBS4;
+        "pkg-1.0.13" = _9l7nrSYY;
+        "pkg-1.0.13+mod" = _eFH2tP3w;
+        "default" = _eFH2tP3w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skyblock-advancements";

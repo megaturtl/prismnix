@@ -66,6 +66,11 @@ let
             "file" = "§5§l§o§nBetter Side Shield.zip";
             "hash" = "sha512-KEfDGqdN9lShRap9E5Q9VnfwNo46UtstkQduMIwlXLru6IV6uSrfBcTpbOhDDKYUR9vAn0W+imRfwUBqXwR54w==";
         };
+        _Eo2VpsSZ = {
+            "id" = "Eo2VpsSZ";
+            "file" = "§7§l§o§nVawn's Better Side Shield.zip";
+            "hash" = "sha512-MaD/mpJP0aTuXeFQgiTO2d24mW6xUCiEWxnBFdjD3zSy8hRw47k1Vksxhuc1JU0oUYe0ffQNqz3e8jjvVJCJ4A==";
+        };
     in {
         "8w8DxPbt" = _8w8DxPbt;
         "zgEok6Nv" = _zgEok6Nv;
@@ -80,6 +85,7 @@ let
         "fUZUhW7g" = _fUZUhW7g;
         "coBQxULT" = _coBQxULT;
         "695TVSbK" = _695TVSbK;
+        "Eo2VpsSZ" = _Eo2VpsSZ;
         "minecraft-1.20" = _695TVSbK;
         "minecraft-1.20.1" = _695TVSbK;
         "minecraft-1.20.2" = _695TVSbK;
@@ -87,18 +93,18 @@ let
         "minecraft-1.20.4" = _695TVSbK;
         "minecraft-1.20.5" = _695TVSbK;
         "minecraft-1.20.6" = _695TVSbK;
-        "minecraft-1.21" = _695TVSbK;
-        "minecraft-1.21.1" = _695TVSbK;
-        "minecraft-1.21.2" = _695TVSbK;
-        "minecraft-1.21.3" = _695TVSbK;
-        "minecraft-1.21.4" = _695TVSbK;
-        "minecraft-1.21.5" = _695TVSbK;
-        "minecraft-1.21.6" = _695TVSbK;
-        "minecraft-1.21.7" = _695TVSbK;
-        "minecraft-1.21.8" = _695TVSbK;
-        "minecraft-1.21.9" = _695TVSbK;
-        "minecraft-1.21.10" = _695TVSbK;
-        "minecraft-1.21.11" = _695TVSbK;
+        "minecraft-1.21" = _Eo2VpsSZ;
+        "minecraft-1.21.1" = _Eo2VpsSZ;
+        "minecraft-1.21.2" = _Eo2VpsSZ;
+        "minecraft-1.21.3" = _Eo2VpsSZ;
+        "minecraft-1.21.4" = _Eo2VpsSZ;
+        "minecraft-1.21.5" = _Eo2VpsSZ;
+        "minecraft-1.21.6" = _Eo2VpsSZ;
+        "minecraft-1.21.7" = _Eo2VpsSZ;
+        "minecraft-1.21.8" = _Eo2VpsSZ;
+        "minecraft-1.21.9" = _Eo2VpsSZ;
+        "minecraft-1.21.10" = _Eo2VpsSZ;
+        "minecraft-1.21.11" = _Eo2VpsSZ;
         "minecraft-23w31a" = _zgEok6Nv;
         "minecraft-23w32a" = _zgEok6Nv;
         "minecraft-23w33a" = _zgEok6Nv;
@@ -127,6 +133,13 @@ let
         "minecraft-1.20.5-pre1" = _zgEok6Nv;
         "minecraft-1.20.5-pre2" = _zgEok6Nv;
         "minecraft-1.20.5-pre3" = _zgEok6Nv;
+        "minecraft-1.17" = _Eo2VpsSZ;
+        "minecraft-1.17.1" = _Eo2VpsSZ;
+        "minecraft-26.1" = _Eo2VpsSZ;
+        "minecraft-26.1.1" = _Eo2VpsSZ;
+        "minecraft-26.1.2" = _Eo2VpsSZ;
+        "minecraft-26.2" = _Eo2VpsSZ;
+        "minecraft-26.3" = _Eo2VpsSZ;
         "pkg-1.1" = _8w8DxPbt;
         "pkg-1.2" = _zgEok6Nv;
         "pkg-1.3" = _paCYAVX9;
@@ -140,7 +153,8 @@ let
         "pkg-1.11" = _fUZUhW7g;
         "pkg-1.12" = _coBQxULT;
         "pkg-1.13" = _695TVSbK;
-        "default" = _695TVSbK;
+        "pkg-1.14" = _Eo2VpsSZ;
+        "default" = _Eo2VpsSZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-side-shield";

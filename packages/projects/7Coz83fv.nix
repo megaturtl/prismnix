@@ -401,6 +401,21 @@ let
             "file" = "clientcommands-2.15.1.jar";
             "hash" = "sha512-/fwwfxmK4c8OBUrNtkCgn0+Kjl6gUnfKxg1ntzc8AMan0WW+XfMdrrhiKnx3ox9EVsBAgspGt1YN6HS7S5zd+w==";
         };
+        _WxiquJvz = {
+            "id" = "WxiquJvz";
+            "file" = "clientcommands-2.16.jar";
+            "hash" = "sha512-PcPIVyzXE4e4gUpDFcgu0Mf2sOGGMYNcbrddy5J/juElrtLGPMj84SkBKjlE8xr4PepoPO9A7ZFbf9ty/0LFIw==";
+        };
+        _YtVu4hUg = {
+            "id" = "YtVu4hUg";
+            "file" = "clientcommands-2.16.1.jar";
+            "hash" = "sha512-UnXmucJ+VDiJsvnjm41YGZ+/pC8K8hY1lJun8Bnkcik00OBtkW6vS6PB+fgJjdgwaW8pXeVHYlWA/0TLchRO7w==";
+        };
+        _HXUpxTML = {
+            "id" = "HXUpxTML";
+            "file" = "clientcommands-2.16.2.jar";
+            "hash" = "sha512-7dIuug9znVnwtgyUC6N6RLFzs55ZabBSaHFZk9dfPX+7SRKPUYZ/nf8ofIqElGSsPwWse5QLDaMtzR3sG9F+Vw==";
+        };
     in {
         "T9gdkJQO" = _T9gdkJQO;
         "11ivMzYl" = _11ivMzYl;
@@ -482,6 +497,9 @@ let
         "bOQTImge" = _bOQTImge;
         "JNP7M5yW" = _JNP7M5yW;
         "3QTuhe8G" = _3QTuhe8G;
+        "WxiquJvz" = _WxiquJvz;
+        "YtVu4hUg" = _YtVu4hUg;
+        "HXUpxTML" = _HXUpxTML;
         "fabric-1.17.1" = _11ivMzYl;
         "fabric-1.18" = _42uNQcue;
         "fabric-1.18.1" = _42uNQcue;
@@ -514,6 +532,7 @@ let
         "fabric-26.1.1" = _bOQTImge;
         "fabric-26.1.2" = _bOQTImge;
         "fabric-26.2" = _3QTuhe8G;
+        "fabric-26.3" = _HXUpxTML;
         "quilt-1.19" = _Rm3OhRKR;
         "quilt-1.19.2" = _s1KDzDpX;
         "quilt-1.19.3" = _GLAS2gRk;
@@ -541,6 +560,7 @@ let
         "quilt-26.1.1" = _bOQTImge;
         "quilt-26.1.2" = _bOQTImge;
         "quilt-26.2" = _3QTuhe8G;
+        "quilt-26.3" = _HXUpxTML;
         "pkg-2.5.4" = _T9gdkJQO;
         "pkg-2.5.5" = _11ivMzYl;
         "pkg-2.6" = _42uNQcue;
@@ -621,7 +641,10 @@ let
         "pkg-2.14.3" = _bOQTImge;
         "pkg-2.15" = _JNP7M5yW;
         "pkg-2.15.1" = _3QTuhe8G;
-        "default" = _3QTuhe8G;
+        "pkg-2.16" = _WxiquJvz;
+        "pkg-2.16.1" = _YtVu4hUg;
+        "pkg-2.16.2" = _HXUpxTML;
+        "default" = _HXUpxTML;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "client-commands";

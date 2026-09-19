@@ -21,11 +21,17 @@ let
             "file" = "Overlay’s.zip";
             "hash" = "sha512-gRSALUbDgNIczrAYUSXqtkNnPVFTmhF5wcMDF44hKRfXHBR9zmK5jbXxA/yA16x4Y+iyB0COjppkbDL2vPJadA==";
         };
+        _YnKSn71c = {
+            "id" = "YnKSn71c";
+            "file" = "Overlays§7.zip";
+            "hash" = "sha512-Gjq1SEsprvDT3VJn52WwcO3vKNq9p/oHJlEVgfuBkHz+C2bQMmg7fpJXAaB3Kw8/COSxzjpGtwTwMkmD4S6QHA==";
+        };
     in {
         "HTBBiyeC" = _HTBBiyeC;
         "8ZAC7SmJ" = _8ZAC7SmJ;
         "g3G42ebh" = _g3G42ebh;
         "GjmvCrWJ" = _GjmvCrWJ;
+        "YnKSn71c" = _YnKSn71c;
         "minecraft-1.14" = _8ZAC7SmJ;
         "minecraft-1.15" = _8ZAC7SmJ;
         "minecraft-1.16" = _8ZAC7SmJ;
@@ -39,7 +45,7 @@ let
         "minecraft-1.21.8" = _GjmvCrWJ;
         "minecraft-1.21.10" = _GjmvCrWJ;
         "minecraft-1.21.9" = _GjmvCrWJ;
-        "minecraft-1.21.11" = _GjmvCrWJ;
+        "minecraft-1.21.11" = _YnKSn71c;
         "minecraft-1.21.1" = _GjmvCrWJ;
         "minecraft-24w33a" = _GjmvCrWJ;
         "minecraft-24w34a" = _GjmvCrWJ;
@@ -59,11 +65,21 @@ let
         "minecraft-1.21.4" = _GjmvCrWJ;
         "minecraft-1.21.5" = _GjmvCrWJ;
         "minecraft-26.3-snapshot-7" = _GjmvCrWJ;
+        "minecraft-1.14.4" = _YnKSn71c;
+        "minecraft-1.15.2" = _YnKSn71c;
+        "minecraft-1.16.5" = _YnKSn71c;
+        "minecraft-1.17.1" = _YnKSn71c;
+        "minecraft-1.18.2" = _YnKSn71c;
+        "minecraft-1.19.4" = _YnKSn71c;
+        "minecraft-1.20.6" = _YnKSn71c;
+        "minecraft-26.1.2" = _YnKSn71c;
+        "minecraft-26.2" = _YnKSn71c;
         "pkg-v13" = _HTBBiyeC;
         "pkg-v13.1" = _8ZAC7SmJ;
         "pkg-v14" = _g3G42ebh;
         "pkg-v14.1" = _GjmvCrWJ;
-        "default" = _GjmvCrWJ;
+        "pkg-v14.2" = _YnKSn71c;
+        "default" = _YnKSn71c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "overlays";

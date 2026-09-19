@@ -316,6 +316,11 @@ let
             "file" = "LightAura-8.9.6.jar";
             "hash" = "sha512-Zx16Yr8045z5l0UGDZCY6PRU+4hsgosENCZVWHUFXCGpnCbv5tfXghbOqRl9pJnWXYbZJVp3ugyFklMfWgDZvw==";
         };
+        _UbrxrtBg = {
+            "id" = "UbrxrtBg";
+            "file" = "LightAura-Fabric-8.9.7.jar";
+            "hash" = "sha512-5Ik+FyFTEILRd3SnZSRuR31ji75py8KfKZw92veg5pOUxyzcXqwkRTgiZ6jw0EGSOFDmBtLFbv1f4+Rn2tEscA==";
+        };
     in {
         "j7DHcoc1" = _j7DHcoc1;
         "Ht5AapNa" = _Ht5AapNa;
@@ -380,6 +385,7 @@ let
         "rEEY8BAa" = _rEEY8BAa;
         "DCHCx3PL" = _DCHCx3PL;
         "xkZGnvMt" = _xkZGnvMt;
+        "UbrxrtBg" = _UbrxrtBg;
         "forge-1.20.6" = _V6ByzxEj;
         "forge-1.21" = _4fN6rdI8;
         "forge-1.21.1" = _4fN6rdI8;
@@ -432,6 +438,7 @@ let
         "fabric-26.1.1" = _rEEY8BAa;
         "fabric-26.1.2" = _rEEY8BAa;
         "fabric-26.2" = _DCHCx3PL;
+        "fabric-26.3" = _UbrxrtBg;
         "quilt-1.18.2" = _oSGsBRi6;
         "quilt-1.19.2" = _mew5cOwZ;
         "quilt-1.20.1" = _M8RtEcAn;
@@ -452,6 +459,7 @@ let
         "quilt-26.1" = _wFp2Esos;
         "quilt-26.1.1" = _wFp2Esos;
         "quilt-26.1.2" = _wFp2Esos;
+        "quilt-26.3" = _UbrxrtBg;
         "neoforge-1.21" = _PAfwLSeG;
         "neoforge-1.21.1" = _PAfwLSeG;
         "neoforge-1.21.2" = _PAfwLSeG;
@@ -529,7 +537,8 @@ let
         "pkg-8.9.3" = _rEEY8BAa;
         "pkg-8.9.4" = _DCHCx3PL;
         "pkg-8.9.6" = _xkZGnvMt;
-        "default" = _xkZGnvMt;
+        "pkg-8.9.7" = _UbrxrtBg;
+        "default" = _UbrxrtBg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lightaura";

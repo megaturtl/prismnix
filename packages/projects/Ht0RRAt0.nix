@@ -76,6 +76,11 @@ let
             "file" = "FastTrading-0.2.4+26.2.jar";
             "hash" = "sha512-zxnsXPQhO3gckeQ+eRnJw0FAjAiiCLEvmti/07rFSBas8SWcB/xWF7/CarGONFZLOcHiAvvcCUIG8Aip1O2a8Q==";
         };
+        _dGFbjuqu = {
+            "id" = "dGFbjuqu";
+            "file" = "FastTrading-0.2.4+26.3-rc2.jar";
+            "hash" = "sha512-4fLFMkpVZG73E/2HF8Xl53P6VoeYYdJvq897F+K2EVcN73Y/gqKLHMfzgQ9XlAOeJ+JDG0ydCbTRmLajbuf+9w==";
+        };
     in {
         "xCX1Gnxr" = _xCX1Gnxr;
         "gFh6cl1u" = _gFh6cl1u;
@@ -92,6 +97,7 @@ let
         "A4qWypSp" = _A4qWypSp;
         "d0v2GvHz" = _d0v2GvHz;
         "Smb0pfqe" = _Smb0pfqe;
+        "dGFbjuqu" = _dGFbjuqu;
         "fabric-1.19.3" = _xCX1Gnxr;
         "fabric-1.19.4" = _xCX1Gnxr;
         "fabric-1.20" = _gFh6cl1u;
@@ -118,6 +124,7 @@ let
         "fabric-26.1.1" = _d0v2GvHz;
         "fabric-26.1.2" = _d0v2GvHz;
         "fabric-26.2" = _Smb0pfqe;
+        "fabric-26.3" = _dGFbjuqu;
         "quilt-1.19.3" = _xCX1Gnxr;
         "quilt-1.19.4" = _xCX1Gnxr;
         "quilt-1.20" = _gFh6cl1u;
@@ -143,6 +150,7 @@ let
         "quilt-26.1" = _d0v2GvHz;
         "quilt-26.1.1" = _d0v2GvHz;
         "quilt-26.1.2" = _d0v2GvHz;
+        "quilt-26.3" = _dGFbjuqu;
         "pkg-0.1.0+1.19.3" = _xCX1Gnxr;
         "pkg-0.1.1+1.20" = _gFh6cl1u;
         "pkg-0.1.2+1.20.3" = _rwmqPxpo;
@@ -158,7 +166,8 @@ let
         "pkg-0.2.3+1.21.11" = _A4qWypSp;
         "pkg-0.2.3+26.1.1" = _d0v2GvHz;
         "pkg-0.2.4+26.2" = _Smb0pfqe;
-        "default" = _Smb0pfqe;
+        "pkg-0.2.4+26.3-rc2" = _dGFbjuqu;
+        "default" = _dGFbjuqu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fast-trading";

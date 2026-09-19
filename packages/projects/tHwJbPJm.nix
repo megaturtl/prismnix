@@ -111,6 +111,11 @@ let
             "file" = "blossom-back-2.1.14+26.1.jar";
             "hash" = "sha512-m+xdALC0N8EZOZ6ViPIxKKqFtLcARNr5GU+DZvsINT4HybWftWTdRWmesJp052Tcf3ZFIyfQwilU1CuQswqYQA==";
         };
+        _Dj7Bfr7c = {
+            "id" = "Dj7Bfr7c";
+            "file" = "blossom-back-2.1.15+26.3.jar";
+            "hash" = "sha512-KkkBiamrQjlhk5sjW3m5VoRjVtdJv5H9WsiXxsu5p8KNAhLExZRTIrvg/6L0o2nvvuMX56fSM2aQXU8cs6XatA==";
+        };
     in {
         "RvvtMZrD" = _RvvtMZrD;
         "8QLZXH3k" = _8QLZXH3k;
@@ -134,6 +139,7 @@ let
         "7lfTAZ5R" = _7lfTAZ5R;
         "TT7np2Yi" = _TT7np2Yi;
         "Oxrw68z5" = _Oxrw68z5;
+        "Dj7Bfr7c" = _Dj7Bfr7c;
         "fabric-1.19" = _KIdEZqrE;
         "fabric-1.19.1" = _KIdEZqrE;
         "fabric-1.19.2" = _KIdEZqrE;
@@ -159,6 +165,7 @@ let
         "fabric-26.1.1" = _TT7np2Yi;
         "fabric-26.1.2" = _TT7np2Yi;
         "fabric-26.2" = _Oxrw68z5;
+        "fabric-26.3" = _Dj7Bfr7c;
         "quilt-1.19" = _KIdEZqrE;
         "quilt-1.19.1" = _KIdEZqrE;
         "quilt-1.19.2" = _KIdEZqrE;
@@ -184,6 +191,7 @@ let
         "quilt-26.1.1" = _TT7np2Yi;
         "quilt-26.1.2" = _TT7np2Yi;
         "quilt-26.2" = _Oxrw68z5;
+        "quilt-26.3" = _Dj7Bfr7c;
         "pkg-2.0.0+1.19" = _RvvtMZrD;
         "pkg-2.0.1+1.19" = _8QLZXH3k;
         "pkg-2.0.2+1.19" = _ZhiSg6wS;
@@ -206,7 +214,8 @@ let
         "pkg-2.1.12+1.21.11" = _7lfTAZ5R;
         "pkg-2.1.13+26.1" = _TT7np2Yi;
         "pkg-2.1.14+26.1" = _Oxrw68z5;
-        "default" = _Oxrw68z5;
+        "pkg-2.1.15+26.3" = _Dj7Bfr7c;
+        "default" = _Dj7Bfr7c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blossomback";

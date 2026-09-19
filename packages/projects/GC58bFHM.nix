@@ -91,6 +91,36 @@ let
             "file" = "cobblemon-rlm-1.6.0.zip";
             "hash" = "sha512-/vcPNFzSH0ZPkwLV0MDD/WQkU4pqijNBJLZePvWEbHcAnt+ye2u1QWZV9TxcZgRf5ddE9rJUeCjYqtETymIgXA==";
         };
+        _xVgZ2cSu = {
+            "id" = "xVgZ2cSu";
+            "file" = "cobblemon-rlm-1.6.1.jar";
+            "hash" = "sha512-6jLU73hdyY9cXOyKdqboeGpcNCD4WK4jklpic1d8jnkFa2hGHo+uAe4kYWYzTWIbrsWdoAQ0mlBVd3g6r8nI3g==";
+        };
+        _9sauWhxK = {
+            "id" = "9sauWhxK";
+            "file" = "cobblemon-rlm-1.6.1.zip";
+            "hash" = "sha512-xrcNyYucg6p1PPZR8cjw38S9W8b1OTJLWgPxDLxDRqdfGBb0F/8tuY/bKw/LZEnyS3zkTP88ec1xlcAm7Qb50w==";
+        };
+        _Z1oUF0AC = {
+            "id" = "Z1oUF0AC";
+            "file" = "cobblemon-rlm-1.6.2.jar";
+            "hash" = "sha512-+P3Y5Z/uxbZmcorFZUKGyrMKXjVtm+e3TG/66Nc/fSwhEG28VIOzgETX4JoYae5i2EqJTBNM2ZXGVeDpMXINeQ==";
+        };
+        _9l3csyQe = {
+            "id" = "9l3csyQe";
+            "file" = "cobblemon-rlm-1.6.2.zip";
+            "hash" = "sha512-BUWMDD4dO5BWUPT9nkI+YFUUcHwkXbACwgoQDb56lI94oMDR3KpdV2NVPg35zOn/US8PCxEXZIgYKr94f1FypQ==";
+        };
+        _jFxt2qFT = {
+            "id" = "jFxt2qFT";
+            "file" = "cobblemon-rlm-1.6.3.jar";
+            "hash" = "sha512-7IsD/N+iglDv5hmZAo6CBLiI+jIT4nQdDqbS/+Zev+WYdzghC7kUWumnIutISbydo141UAKKVTGKXUgmv15Rrg==";
+        };
+        _GIGLNVlh = {
+            "id" = "GIGLNVlh";
+            "file" = "cobblemon-rlm-1.6.3.zip";
+            "hash" = "sha512-g6CZNAgDTujbvdWUwvG2Uf/nqgHZMdNTEQrGPNTeUbLBVlumqBeh4k05lc5aGbsBaCgge5aXXdIOWPXB6m5NLQ==";
+        };
     in {
         "23PmOSl4" = _23PmOSl4;
         "io2fknZT" = _io2fknZT;
@@ -110,9 +140,15 @@ let
         "kn37TQtr" = _kn37TQtr;
         "DHqSswrl" = _DHqSswrl;
         "szH370Rg" = _szH370Rg;
-        "datapack-1.21.1" = _szH370Rg;
-        "fabric-1.21.1" = _DHqSswrl;
-        "neoforge-1.21.1" = _DHqSswrl;
+        "xVgZ2cSu" = _xVgZ2cSu;
+        "9sauWhxK" = _9sauWhxK;
+        "Z1oUF0AC" = _Z1oUF0AC;
+        "9l3csyQe" = _9l3csyQe;
+        "jFxt2qFT" = _jFxt2qFT;
+        "GIGLNVlh" = _GIGLNVlh;
+        "datapack-1.21.1" = _GIGLNVlh;
+        "fabric-1.21.1" = _jFxt2qFT;
+        "neoforge-1.21.1" = _jFxt2qFT;
         "forge-1.21.1" = _io2fknZT;
         "pkg-1.0.0" = _23PmOSl4;
         "pkg-1.1.1" = _io2fknZT;
@@ -132,7 +168,13 @@ let
         "pkg-1.5.7-datapack" = _kn37TQtr;
         "pkg-1.6.0-mod" = _DHqSswrl;
         "pkg-1.6.0-datapack" = _szH370Rg;
-        "default" = _szH370Rg;
+        "pkg-1.6.1-mod" = _xVgZ2cSu;
+        "pkg-1.6.1-datapack" = _9sauWhxK;
+        "pkg-1.6.2-mod" = _Z1oUF0AC;
+        "pkg-1.6.2-datapack" = _9l3csyQe;
+        "pkg-1.6.3-mod" = _jFxt2qFT;
+        "pkg-1.6.3-datapack" = _GIGLNVlh;
+        "default" = _GIGLNVlh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-rlm";

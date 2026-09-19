@@ -31,6 +31,11 @@ let
             "file" = "more_attributes-1.4.0.jar";
             "hash" = "sha512-E+PdI2/+Fc9at8aAeI5WBQdl29oKSMMeCwOOYaXg1/CFQqdHce6qdXJT+Irh4YkS2JghyMYBe9SEiv8QXF4LXw==";
         };
+        _HE5eIU4B = {
+            "id" = "HE5eIU4B";
+            "file" = "more_attributes-1.5.1.jar";
+            "hash" = "sha512-f/n45xgaMnD2yUeFOfh6upGcDRrR/QN/zoK2Zl3WG/CEwXRE9SLt7aMpFv1GzrRKQFXG/BH3+AzW8ah8HQioNg==";
+        };
     in {
         "FWNFQsFx" = _FWNFQsFx;
         "hTEeBKEk" = _hTEeBKEk;
@@ -38,14 +43,16 @@ let
         "mqMPtkP1" = _mqMPtkP1;
         "IvfoljFV" = _IvfoljFV;
         "TfnPiakQ" = _TfnPiakQ;
-        "forge-1.20.1" = _TfnPiakQ;
+        "HE5eIU4B" = _HE5eIU4B;
+        "forge-1.20.1" = _HE5eIU4B;
         "pkg-1.0.0" = _FWNFQsFx;
         "pkg-1.1.0" = _hTEeBKEk;
         "pkg-1.2.0" = _YEE3I4rV;
         "pkg-1.2.0-hotfix" = _mqMPtkP1;
         "pkg-1.3.0" = _IvfoljFV;
         "pkg-1.4.0" = _TfnPiakQ;
-        "default" = _TfnPiakQ;
+        "pkg-1.5.1" = _HE5eIU4B;
+        "default" = _HE5eIU4B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-attributes";

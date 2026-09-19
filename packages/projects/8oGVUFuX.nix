@@ -681,6 +681,26 @@ let
             "file" = "grieflogger-neoforge-21.1.5.jar";
             "hash" = "sha512-h9MoBvq1tVMYLMHQOXe0tqgPaBlyWmwUs1FX1bY6ONnfvpr4QYxchCHBnoaXWkdFJW4CAAYY5YUfGWkM++dzgg==";
         };
+        _q061SBjJ = {
+            "id" = "q061SBjJ";
+            "file" = "grieflogger-neoforge-21.1.6.jar";
+            "hash" = "sha512-1SBt5UKGpDV0f307bpGoWHa62wCH9bJYYm9P51tNAIuw4Oy8O0EIEiSA7L+wzvlB1aKRPefweemNyRINsJA9BA==";
+        };
+        _MU1A9nYG = {
+            "id" = "MU1A9nYG";
+            "file" = "grieflogger-fabric-21.1.6.jar";
+            "hash" = "sha512-Zxr7rsnmScXfTnA5Hy1cubXgQiXMQZezRyjHO2S0v3THJ4w+bInN7zewQU7oXMVDZGs5OG8zvTDA9ccVXkayXg==";
+        };
+        _QkjRJ094 = {
+            "id" = "QkjRJ094";
+            "file" = "grieflogger-fabric-21.1.7.jar";
+            "hash" = "sha512-K6h29D8hlWQuuG0/dWzNIxGt+4o/ggvWOyw0nfZe+XfCJo7X13oDpeqXHtWwH8LQBiLFhLJNBNnYnIt0iuSTsA==";
+        };
+        _v5UxUtdz = {
+            "id" = "v5UxUtdz";
+            "file" = "grieflogger-neoforge-21.1.7.jar";
+            "hash" = "sha512-sMofWZkMkeclswvi6TLqSDRISm6IsIzbCnyFEb0lEUcB4rzOPke2tnVacAd8wLuxzuLddRSwcCx+DLeIURH2UQ==";
+        };
     in {
         "8s3cBiAF" = _8s3cBiAF;
         "lu6vLTre" = _lu6vLTre;
@@ -818,6 +838,10 @@ let
         "e384N76H" = _e384N76H;
         "yYFvP881" = _yYFvP881;
         "b7AO3OVR" = _b7AO3OVR;
+        "q061SBjJ" = _q061SBjJ;
+        "MU1A9nYG" = _MU1A9nYG;
+        "QkjRJ094" = _QkjRJ094;
+        "v5UxUtdz" = _v5UxUtdz;
         "fabric-1.20.1" = _hHiDy0Ap;
         "fabric-1.19.2" = _QP2iiKe2;
         "fabric-1.20.6" = _p2dgvGhr;
@@ -831,7 +855,7 @@ let
         "fabric-1.21.10" = _W00iASFN;
         "fabric-1.21.11" = _DtRNcTw4;
         "fabric-26.1.2" = _xSeLw3Kh;
-        "fabric-26.2" = _yYFvP881;
+        "fabric-26.2" = _QkjRJ094;
         "forge-1.20.1" = _lXYmV1xl;
         "forge-1.19.2" = _ayrZL1Bq;
         "neoforge-1.20.6" = _GNv8GEeI;
@@ -845,7 +869,7 @@ let
         "neoforge-1.21.10" = _6VwFUHXW;
         "neoforge-1.21.11" = _Gi0K1Nwh;
         "neoforge-26.1.2" = _P8pPh0Yw;
-        "neoforge-26.2" = _b7AO3OVR;
+        "neoforge-26.2" = _v5UxUtdz;
         "pkg-1.0" = _lu6vLTre;
         "pkg-1.0.1" = _KVtvDtow;
         "pkg-1.0.2" = _3hclj5R0;
@@ -910,7 +934,9 @@ let
         "pkg-20.1.4" = _P8pPh0Yw;
         "pkg-21.1.4" = _e384N76H;
         "pkg-21.1.5" = _b7AO3OVR;
-        "default" = _b7AO3OVR;
+        "pkg-21.1.6" = _MU1A9nYG;
+        "pkg-21.1.7" = _v5UxUtdz;
+        "default" = _v5UxUtdz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "grieflogger";

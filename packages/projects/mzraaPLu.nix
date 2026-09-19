@@ -116,6 +116,11 @@ let
             "file" = "SupremeTags-3.0.3.jar";
             "hash" = "sha512-sBOhSLdBs+I1aM4UWHYwiDc6w+b+A6tWs6AHVP7jjGu+t6/JWMs43433BJXkN1PKYyimk1LUjPlQNoiyIZ6Jyw==";
         };
+        _5JgWqfCL = {
+            "id" = "5JgWqfCL";
+            "file" = "SupremeTags-3.0.4.jar";
+            "hash" = "sha512-5kMALOlNFeZmtZP4KFzQV8mHVG6CvhwK6snJ13tzccIuGrM8RDRK4lWfaGYbt/fIaSEa0HBnIga/If14v+6Hyw==";
+        };
     in {
         "5KEkG5uz" = _5KEkG5uz;
         "c1Af563d" = _c1Af563d;
@@ -140,6 +145,7 @@ let
         "TNyv1ack" = _TNyv1ack;
         "XjRDJrdg" = _XjRDJrdg;
         "shZlo3LA" = _shZlo3LA;
+        "5JgWqfCL" = _5JgWqfCL;
         "bukkit-1.8" = _plViDS7p;
         "bukkit-1.8.1" = _plViDS7p;
         "bukkit-1.8.2" = _plViDS7p;
@@ -210,10 +216,10 @@ let
         "bukkit-1.21.9" = _LInN1a3F;
         "bukkit-1.21.10" = _LInN1a3F;
         "bukkit-1.21.11" = _LInN1a3F;
-        "bukkit-26.1" = _shZlo3LA;
-        "bukkit-26.1.1" = _shZlo3LA;
-        "bukkit-26.1.2" = _shZlo3LA;
-        "bukkit-26.2" = _shZlo3LA;
+        "bukkit-26.1" = _5JgWqfCL;
+        "bukkit-26.1.1" = _5JgWqfCL;
+        "bukkit-26.1.2" = _5JgWqfCL;
+        "bukkit-26.2" = _5JgWqfCL;
         "folia-1.8" = _plViDS7p;
         "folia-1.8.1" = _plViDS7p;
         "folia-1.8.2" = _plViDS7p;
@@ -284,10 +290,10 @@ let
         "folia-1.21.9" = _LInN1a3F;
         "folia-1.21.10" = _LInN1a3F;
         "folia-1.21.11" = _LInN1a3F;
-        "folia-26.1" = _shZlo3LA;
-        "folia-26.1.1" = _shZlo3LA;
-        "folia-26.1.2" = _shZlo3LA;
-        "folia-26.2" = _shZlo3LA;
+        "folia-26.1" = _5JgWqfCL;
+        "folia-26.1.1" = _5JgWqfCL;
+        "folia-26.1.2" = _5JgWqfCL;
+        "folia-26.2" = _5JgWqfCL;
         "paper-1.8" = _plViDS7p;
         "paper-1.8.1" = _plViDS7p;
         "paper-1.8.2" = _plViDS7p;
@@ -358,10 +364,10 @@ let
         "paper-1.21.9" = _LInN1a3F;
         "paper-1.21.10" = _LInN1a3F;
         "paper-1.21.11" = _LInN1a3F;
-        "paper-26.1" = _shZlo3LA;
-        "paper-26.1.1" = _shZlo3LA;
-        "paper-26.1.2" = _shZlo3LA;
-        "paper-26.2" = _shZlo3LA;
+        "paper-26.1" = _5JgWqfCL;
+        "paper-26.1.1" = _5JgWqfCL;
+        "paper-26.1.2" = _5JgWqfCL;
+        "paper-26.2" = _5JgWqfCL;
         "purpur-1.8" = _plViDS7p;
         "purpur-1.8.1" = _plViDS7p;
         "purpur-1.8.2" = _plViDS7p;
@@ -432,10 +438,10 @@ let
         "purpur-1.21.9" = _LInN1a3F;
         "purpur-1.21.10" = _LInN1a3F;
         "purpur-1.21.11" = _LInN1a3F;
-        "purpur-26.1" = _shZlo3LA;
-        "purpur-26.1.1" = _shZlo3LA;
-        "purpur-26.1.2" = _shZlo3LA;
-        "purpur-26.2" = _shZlo3LA;
+        "purpur-26.1" = _5JgWqfCL;
+        "purpur-26.1.1" = _5JgWqfCL;
+        "purpur-26.1.2" = _5JgWqfCL;
+        "purpur-26.2" = _5JgWqfCL;
         "spigot-1.8" = _plViDS7p;
         "spigot-1.8.1" = _plViDS7p;
         "spigot-1.8.2" = _plViDS7p;
@@ -506,10 +512,10 @@ let
         "spigot-1.21.9" = _LInN1a3F;
         "spigot-1.21.10" = _LInN1a3F;
         "spigot-1.21.11" = _LInN1a3F;
-        "spigot-26.1" = _shZlo3LA;
-        "spigot-26.1.1" = _shZlo3LA;
-        "spigot-26.1.2" = _shZlo3LA;
-        "spigot-26.2" = _shZlo3LA;
+        "spigot-26.1" = _5JgWqfCL;
+        "spigot-26.1.1" = _5JgWqfCL;
+        "spigot-26.1.2" = _5JgWqfCL;
+        "spigot-26.2" = _5JgWqfCL;
         "pkg-2.1.12" = _5KEkG5uz;
         "pkg-2.1.13" = _c1Af563d;
         "pkg-2.1.14" = _ETMGcomI;
@@ -533,7 +539,8 @@ let
         "pkg-3.0.1" = _TNyv1ack;
         "pkg-3.0.2" = _XjRDJrdg;
         "pkg-3.0.3" = _shZlo3LA;
-        "default" = _shZlo3LA;
+        "pkg-3.0.4" = _5JgWqfCL;
+        "default" = _5JgWqfCL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "supremetags";

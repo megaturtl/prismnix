@@ -31,6 +31,11 @@ let
             "file" = "togglesubtitles-1.3+26.1-neoforge.jar";
             "hash" = "sha512-BzPRRrzoDeFhtP4yE2OQYs4KTqkmcwJOvE6+K1lAAfBjB3sHTeon88Lz7dJNhJGQjeuZXsQuErkK96EzlD7dbg==";
         };
+        _tkSzxKSA = {
+            "id" = "tkSzxKSA";
+            "file" = "togglesubtitles-1.5+26.3-fabric.jar";
+            "hash" = "sha512-HgUHZM6uPjfbiMtOxeCrwVGXtETnaGdGbWQKGurXJP2K1WF8lYakaxmnuinvKRzQFSDUiLmR4QX79vLa0W/Kkw==";
+        };
     in {
         "XLGfoBW1" = _XLGfoBW1;
         "GSBy6Hq1" = _GSBy6Hq1;
@@ -38,6 +43,7 @@ let
         "oE3F4zsI" = _oE3F4zsI;
         "WTjSiaDC" = _WTjSiaDC;
         "pGK75BIh" = _pGK75BIh;
+        "tkSzxKSA" = _tkSzxKSA;
         "fabric-1.19" = _GSBy6Hq1;
         "fabric-1.19.1" = _GSBy6Hq1;
         "fabric-1.19.2" = _GSBy6Hq1;
@@ -66,6 +72,7 @@ let
         "fabric-26.1.1" = _oE3F4zsI;
         "fabric-26.1.2" = _oE3F4zsI;
         "fabric-26.2" = _oE3F4zsI;
+        "fabric-26.3" = _tkSzxKSA;
         "forge-1.19" = _GSBy6Hq1;
         "forge-1.19.1" = _GSBy6Hq1;
         "forge-1.19.2" = _GSBy6Hq1;
@@ -147,7 +154,8 @@ let
         "pkg-1.3+26.1-fabric" = _oE3F4zsI;
         "pkg-1.3+26.1-forge" = _WTjSiaDC;
         "pkg-1.3+26.1-neoforge" = _pGK75BIh;
-        "default" = _pGK75BIh;
+        "pkg-1.5+26.3-fabric" = _tkSzxKSA;
+        "default" = _tkSzxKSA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "toggle-subtitles";

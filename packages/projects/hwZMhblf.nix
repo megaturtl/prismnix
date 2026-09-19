@@ -16,15 +16,22 @@ let
             "file" = "cobblemonpartsrefabricated-1.0.2.jar";
             "hash" = "sha512-wMuWkmfrDIb7bM+Erpid2HH/9X0pavUFuQqi3lNbOYczcEDFKZ8tSlYV/hc8j/Ldg59HvY+Tk00Cpouas13E6Q==";
         };
+        _MzyO8g3L = {
+            "id" = "MzyO8g3L";
+            "file" = "cobblemonpartsrefabricated-1.0.3.jar";
+            "hash" = "sha512-weikEVTZDWFx6eMG0WnkgtqUEWRBdvkKQKrTEm1r1ymq6MIfRssFTmjO6LmSovUhcummcurHmVPgt8vnTDoV+A==";
+        };
     in {
         "rqKNO3WP" = _rqKNO3WP;
         "mNF3YTcv" = _mNF3YTcv;
         "8ZP0LeNE" = _8ZP0LeNE;
-        "fabric-1.21.1" = _8ZP0LeNE;
+        "MzyO8g3L" = _MzyO8g3L;
+        "fabric-1.21.1" = _MzyO8g3L;
         "pkg-1.0.0" = _rqKNO3WP;
         "pkg-1.0.1" = _mNF3YTcv;
         "pkg-1.0.2" = _8ZP0LeNE;
-        "default" = _8ZP0LeNE;
+        "pkg-1.0.3" = _MzyO8g3L;
+        "default" = _MzyO8g3L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-parts-refabricated";

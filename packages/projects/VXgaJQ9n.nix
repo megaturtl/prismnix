@@ -526,6 +526,11 @@ let
             "file" = "ava-1.21.1-neoforge-2.9.1.jar";
             "hash" = "sha512-4w1qL6wLncFxtuJKWGHdejac+wjV5+Mdh3/yUlYga/dIeoUQFwjlOkYeRwwH+UCLvHtZer/mpbJ+bBtHdrR4Yg==";
         };
+        _5HboZKJ3 = {
+            "id" = "5HboZKJ3";
+            "file" = "ava-1.21.1-neoforge-2.9.2.jar";
+            "hash" = "sha512-fEEU8+zu24E0Hm8jgzAIv/IKG1ARmPiNolNl8Ys31enqe9u31LqsLccnsu1lzBU25xMC9L8T6UiD4D9tt4MCgA==";
+        };
     in {
         "b4iWi9BX" = _b4iWi9BX;
         "RMHzNRWX" = _RMHzNRWX;
@@ -632,6 +637,7 @@ let
         "PwCxiYFz" = _PwCxiYFz;
         "JGQnAnMY" = _JGQnAnMY;
         "icwqqFTO" = _icwqqFTO;
+        "5HboZKJ3" = _5HboZKJ3;
         "forge-1.16.5" = _gCr4w7hO;
         "forge-1.17.1" = _RMHzNRWX;
         "forge-1.18.2" = _5drqE7Nc;
@@ -652,7 +658,7 @@ let
         "neoforge-1.20.5" = _O3kdSNbo;
         "neoforge-1.20.6" = _8zKUjM1N;
         "neoforge-1.21" = _Wuhi4uDf;
-        "neoforge-1.21.1" = _icwqqFTO;
+        "neoforge-1.21.1" = _5HboZKJ3;
         "pkg-1.16.5-1.9.8.77958" = _b4iWi9BX;
         "pkg-1.17.1-1.9.9.2" = _RMHzNRWX;
         "pkg-1.18.2-2.1.2.89937" = _HD1ZQheE;
@@ -756,7 +762,8 @@ let
         "pkg-2.8.3" = _PwCxiYFz;
         "pkg-2.9" = _JGQnAnMY;
         "pkg-2.9.1" = _icwqqFTO;
-        "default" = _icwqqFTO;
+        "pkg-2.9.2" = _5HboZKJ3;
+        "default" = _5HboZKJ3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "a.v.a-alliance-of-valiant-arms-guns";

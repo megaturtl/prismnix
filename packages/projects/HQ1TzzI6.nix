@@ -151,6 +151,11 @@ let
             "file" = "soulshards-26.2-1.3.17.jar";
             "hash" = "sha512-QQnzfHguHZ1ZpxYyi7rqOHq/rxsVXcxfM2MTiGtjspfzdpIztkqv/Vr2U2iusayxiC0PZkN6bCbGRCT1nB1/NQ==";
         };
+        _5x3K3M9a = {
+            "id" = "5x3K3M9a";
+            "file" = "soulshards-26.3-1.3.17.jar";
+            "hash" = "sha512-/yLSk/6wFFddWJuQMKgeWTOrboftuQfD/RJNQCZ4HX4nN/Qly1nrYXduwy8oje1oYNq2FPJbE4aLiD7907Wg0A==";
+        };
     in {
         "wqOsOacS" = _wqOsOacS;
         "qynBSmg7" = _qynBSmg7;
@@ -182,6 +187,7 @@ let
         "P6GaBqKz" = _P6GaBqKz;
         "3bXP2LKL" = _3bXP2LKL;
         "5g9H1QDo" = _5g9H1QDo;
+        "5x3K3M9a" = _5x3K3M9a;
         "forge-1.16.5" = _5z5qnaZD;
         "forge-1.18.1" = _ZvGxUcIz;
         "forge-1.18" = _ZvGxUcIz;
@@ -202,6 +208,7 @@ let
         "neoforge-1.21.8" = _P6GaBqKz;
         "neoforge-26.1.2" = _3bXP2LKL;
         "neoforge-26.2" = _5g9H1QDo;
+        "neoforge-26.3" = _5x3K3M9a;
         "pkg-1.0.1" = _wqOsOacS;
         "pkg-1.2.0" = _qynBSmg7;
         "pkg-1.2.1" = _j7qvDBG1;
@@ -225,7 +232,8 @@ let
         "pkg-neoforge" = _RK85cKI6;
         "pkg-1.3.16" = _3bXP2LKL;
         "pkg-26.2-1.3.17" = _5g9H1QDo;
-        "default" = _5g9H1QDo;
+        "pkg-26.3-1.3.17" = _5x3K3M9a;
+        "default" = _5x3K3M9a;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "creeperhost-presents-soul-shards";

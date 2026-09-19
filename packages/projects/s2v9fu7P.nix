@@ -76,6 +76,16 @@ let
             "file" = "sword_blocking-1.4.3.jar";
             "hash" = "sha512-zwIHDX18FA+R+D1MRG1dRv4MlB5tK/dbKuZlbdXLqMp5d+nFwq6BR36vQoXvmUMpzcH1swtU4ML8UlmPVz0wFQ==";
         };
+        _29t0jTCE = {
+            "id" = "29t0jTCE";
+            "file" = "Sword Blocking 1.4.4.zip";
+            "hash" = "sha512-xIWe+Y2d97PHS9HXlHDKo6K9ECkX8xhfg17diGORTRt/yeVIygsXpho4e2NiD6XIGPA/PE8NNtYlaPUoW+ZvMg==";
+        };
+        _QcIJS6VM = {
+            "id" = "QcIJS6VM";
+            "file" = "sword_blocking-1.4.4.jar";
+            "hash" = "sha512-aT11s8JYW6L/rgkEyVcjbYGgxjr4J1WcK9FY+4dz+cp5b5Mwj+u6TaWLewFrxh8Zr5UWsyMkeNZs6opg5TqOTw==";
+        };
     in {
         "cFAEccw3" = _cFAEccw3;
         "n9nwPcK3" = _n9nwPcK3;
@@ -92,6 +102,8 @@ let
         "pbRsQwCo" = _pbRsQwCo;
         "UccXS3jo" = _UccXS3jo;
         "AyTJXcyX" = _AyTJXcyX;
+        "29t0jTCE" = _29t0jTCE;
+        "QcIJS6VM" = _QcIJS6VM;
         "datapack-25w04a" = _aUL90hxq;
         "datapack-25w05a" = _aUL90hxq;
         "datapack-25w06a" = _aUL90hxq;
@@ -148,6 +160,7 @@ let
         "datapack-26.2-snapshot-2" = _UccXS3jo;
         "datapack-26.2-snapshot-1" = _UccXS3jo;
         "datapack-26.2" = _UccXS3jo;
+        "datapack-26.3" = _29t0jTCE;
         "fabric-25w04a" = _d7GDSmtg;
         "fabric-25w05a" = _d7GDSmtg;
         "fabric-25w06a" = _d7GDSmtg;
@@ -213,6 +226,7 @@ let
         "fabric-26.2-snapshot-2" = _AyTJXcyX;
         "fabric-26.2-snapshot-1" = _AyTJXcyX;
         "fabric-26.2" = _AyTJXcyX;
+        "fabric-26.3" = _QcIJS6VM;
         "forge-25w04a" = _d7GDSmtg;
         "forge-25w05a" = _d7GDSmtg;
         "forge-25w06a" = _d7GDSmtg;
@@ -278,6 +292,7 @@ let
         "forge-26.2-snapshot-2" = _AyTJXcyX;
         "forge-26.2-snapshot-1" = _AyTJXcyX;
         "forge-26.2" = _AyTJXcyX;
+        "forge-26.3" = _QcIJS6VM;
         "neoforge-25w04a" = _d7GDSmtg;
         "neoforge-25w05a" = _d7GDSmtg;
         "neoforge-25w06a" = _d7GDSmtg;
@@ -343,6 +358,7 @@ let
         "neoforge-26.2-snapshot-2" = _AyTJXcyX;
         "neoforge-26.2-snapshot-1" = _AyTJXcyX;
         "neoforge-26.2" = _AyTJXcyX;
+        "neoforge-26.3" = _QcIJS6VM;
         "quilt-25w04a" = _d7GDSmtg;
         "quilt-25w05a" = _d7GDSmtg;
         "quilt-25w06a" = _d7GDSmtg;
@@ -408,6 +424,7 @@ let
         "quilt-26.2-snapshot-2" = _AyTJXcyX;
         "quilt-26.2-snapshot-1" = _AyTJXcyX;
         "quilt-26.2" = _AyTJXcyX;
+        "quilt-26.3" = _QcIJS6VM;
         "bukkit-1.21.2" = _CoCRaYRg;
         "bukkit-1.21.3" = _CoCRaYRg;
         "bukkit-1.21.4" = _CoCRaYRg;
@@ -473,7 +490,8 @@ let
         "pkg-1.4.2-mod" = _pbRsQwCo;
         "pkg-1.4.3" = _UccXS3jo;
         "pkg-1.4.3-Mod" = _AyTJXcyX;
-        "default" = _AyTJXcyX;
+        "pkg-1.4.4" = _QcIJS6VM;
+        "default" = _QcIJS6VM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sword_blocking";

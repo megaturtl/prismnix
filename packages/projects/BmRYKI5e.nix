@@ -51,6 +51,21 @@ let
             "file" = "minitools-1.1.4-26.2.jar";
             "hash" = "sha512-WlTAGq6C1GjnIhiZ9QZNzV7EiCd7nUH3/uuE+xy8cGlH4iFUnkzTJp7hosH3mKT8XPjKLPWpkEpsWO2qvWt0AA==";
         };
+        _b1lR4i7J = {
+            "id" = "b1lR4i7J";
+            "file" = "minitools-1.1.5-26.1.jar";
+            "hash" = "sha512-Iil3pDpo/64aVqPpexSEBppxW97NCmPafwRH25rm/J1SH/ewmBOMeHcAFo6ye5Mxnska8yrbOr1k2HIAW+1e1Q==";
+        };
+        _sPYU2JWe = {
+            "id" = "sPYU2JWe";
+            "file" = "minitools-1.1.5-26.2.jar";
+            "hash" = "sha512-qAVMBn/fFhNKKQEOwtf1qNX5280aVBRHkF4gbOQ7CGn20VOTHtiZX9htaLDlsznlDEhMLUQv+bkE4LQhGd/FjA==";
+        };
+        _8i4Bbdg6 = {
+            "id" = "8i4Bbdg6";
+            "file" = "minitools-1.1.5-1.21.11.jar";
+            "hash" = "sha512-+chyF68N1oGczzsf0RlV9DjqRQig4Rf/9LqlM29tZKJo4eVPrZH5q+GjmTyb0RaprrUwGsolxnIEz0Or4wYPpw==";
+        };
     in {
         "aNSHBIdz" = _aNSHBIdz;
         "wRLbeOeR" = _wRLbeOeR;
@@ -62,13 +77,16 @@ let
         "1jPwNWWZ" = _1jPwNWWZ;
         "IVqLalO2" = _IVqLalO2;
         "lLDG4AyG" = _lLDG4AyG;
+        "b1lR4i7J" = _b1lR4i7J;
+        "sPYU2JWe" = _sPYU2JWe;
+        "8i4Bbdg6" = _8i4Bbdg6;
         "forge-1.20.1" = _9qkBxRjW;
         "forge-1.20.2" = _9qkBxRjW;
-        "fabric-1.21.11" = _1jPwNWWZ;
-        "fabric-26.1" = _IVqLalO2;
-        "fabric-26.1.1" = _IVqLalO2;
-        "fabric-26.1.2" = _IVqLalO2;
-        "fabric-26.2" = _lLDG4AyG;
+        "fabric-1.21.11" = _8i4Bbdg6;
+        "fabric-26.1" = _b1lR4i7J;
+        "fabric-26.1.1" = _b1lR4i7J;
+        "fabric-26.1.2" = _b1lR4i7J;
+        "fabric-26.2" = _sPYU2JWe;
         "pkg-1.1.0" = _aNSHBIdz;
         "pkg-1.1.1" = _wRLbeOeR;
         "pkg-1.1.2" = _YukJj6AN;
@@ -79,7 +97,10 @@ let
         "pkg-1.1.4-1.21.11" = _1jPwNWWZ;
         "pkg-1.1.4-26.1" = _IVqLalO2;
         "pkg-1.1.4-26.2" = _lLDG4AyG;
-        "default" = _lLDG4AyG;
+        "pkg-1.1.5-26.1" = _b1lR4i7J;
+        "pkg-1.1.5-26.2" = _sPYU2JWe;
+        "pkg-1.1.5-1.21.11" = _8i4Bbdg6;
+        "default" = _8i4Bbdg6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minitools";

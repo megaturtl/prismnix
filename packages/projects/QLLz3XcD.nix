@@ -66,6 +66,26 @@ let
             "file" = "material-beacons-1.0.2+1.21.1.jar";
             "hash" = "sha512-hUqbKxxZApAzUgdKtSU00t9yMOTQOkJNhbjQS2MevUkrUZCxhHKK9bLc/QRQEJnx02vMN2ADa+KsAtf+yMSdzw==";
         };
+        _OebL5jbe = {
+            "id" = "OebL5jbe";
+            "file" = "material_beacons-fabric-26.2-1.1.0.jar";
+            "hash" = "sha512-AuV5p/VfdqCq4KAQ22YVNWocw34Cw6LKha5K2KoA6Fn/vIIlOZuMO+sjoTb5cyw9pPdCgXo5/5VfehjL+z9M0g==";
+        };
+        _U0VRHUgs = {
+            "id" = "U0VRHUgs";
+            "file" = "material_beacons-neoforge-26.2-1.1.0.jar";
+            "hash" = "sha512-GUpEvOh3D8oaEfinFtwRSFDLWzPjW31Jh3urA2G4D9Arhb1yFEyWvjfQeKTvcHmUyQEnniVqREW2G+Nrub26tw==";
+        };
+        _ugSpFdHX = {
+            "id" = "ugSpFdHX";
+            "file" = "material_beacons-fabric-26.3-1.1.0.jar";
+            "hash" = "sha512-VcGlXbdDi9Row8wwSaFLDgJoAGDn0kxVTCsEpYDqEXAngMUWE/L+NOesRIY5xsxcZP/Yz0sHHWpI0vv4lbxu5Q==";
+        };
+        _2r9kb6aq = {
+            "id" = "2r9kb6aq";
+            "file" = "material_beacons-neoforge-26.3-1.1.0.jar";
+            "hash" = "sha512-2XqujuK+CGl50mzZWTgllkfbykN6qRrbp8Yf7vfUyst2kiwnueYml0p1Fa/3HCJ4MfD4nuiaYE990nSDnVlm4A==";
+        };
     in {
         "J2MCLxkX" = _J2MCLxkX;
         "RnGKfRUb" = _RnGKfRUb;
@@ -80,6 +100,10 @@ let
         "fvXM09dG" = _fvXM09dG;
         "w962N59b" = _w962N59b;
         "eYEGqZKO" = _eYEGqZKO;
+        "OebL5jbe" = _OebL5jbe;
+        "U0VRHUgs" = _U0VRHUgs;
+        "ugSpFdHX" = _ugSpFdHX;
+        "2r9kb6aq" = _2r9kb6aq;
         "fabric-1.20.6" = _J2MCLxkX;
         "fabric-1.21" = _RnGKfRUb;
         "fabric-1.21.1" = _eYEGqZKO;
@@ -97,7 +121,8 @@ let
         "fabric-26.1" = _w962N59b;
         "fabric-26.1.1" = _w962N59b;
         "fabric-26.1.2" = _w962N59b;
-        "fabric-26.2" = _w962N59b;
+        "fabric-26.2" = _OebL5jbe;
+        "fabric-26.3" = _ugSpFdHX;
         "neoforge-1.21.5" = _5jEkTTtt;
         "neoforge-1.21.6" = _5jEkTTtt;
         "neoforge-1.21.7" = _5jEkTTtt;
@@ -108,7 +133,8 @@ let
         "neoforge-26.1" = _fvXM09dG;
         "neoforge-26.1.1" = _fvXM09dG;
         "neoforge-26.1.2" = _fvXM09dG;
-        "neoforge-26.2" = _fvXM09dG;
+        "neoforge-26.2" = _U0VRHUgs;
+        "neoforge-26.3" = _2r9kb6aq;
         "pkg-1.0.0" = _J2MCLxkX;
         "pkg-1.0.1+1.21" = _RnGKfRUb;
         "pkg-1.0.1+1.21.1" = _YGahXQ5U;
@@ -120,7 +146,9 @@ let
         "pkg-1.1.0+1.21.5" = _5jEkTTtt;
         "pkg-1.1.0+26.1" = _w962N59b;
         "pkg-1.0.2+1.21.1" = _eYEGqZKO;
-        "default" = _eYEGqZKO;
+        "pkg-1.1.0+26.2" = _U0VRHUgs;
+        "pkg-1.1.0+26.3" = _2r9kb6aq;
+        "default" = _2r9kb6aq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "material-beacons";

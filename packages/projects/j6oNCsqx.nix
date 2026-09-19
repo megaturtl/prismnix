@@ -136,6 +136,16 @@ let
             "file" = "craft-tridents-107.1.jar";
             "hash" = "sha512-sClr4VeSTWTJDkV6k/SEw5ykVpqB/K2YyCe9K8ZwmBnBr4i6nq1EqU7daijes/9j3ulEh4kS3dhlxjKCp5pi0Q==";
         };
+        _wPC3wC6c = {
+            "id" = "wPC3wC6c";
+            "file" = "craftable-trident-1.1.0-mc26.3.zip";
+            "hash" = "sha512-07u4H4jWguU5jipkFrImqrDQRnyYOnjFAfVC6bwdrlX+26CzZ9YpwYALe4M5i/h8O71tfkB3Y2m/jxMoWBpG3g==";
+        };
+        _Oxlxkm27 = {
+            "id" = "Oxlxkm27";
+            "file" = "craft-tridents-1.1.0.jar";
+            "hash" = "sha512-pIfUsVMiCxBNlILcoS+EX/VZ2HXTLw6bb15V6MffjtaWjy1y0tSXhBHFMV8QvWH7x8OP4TB4ETNDHPcITP+79Q==";
+        };
     in {
         "8KsqTKqt" = _8KsqTKqt;
         "RQNRQWPk" = _RQNRQWPk;
@@ -164,6 +174,8 @@ let
         "JXQGlp96" = _JXQGlp96;
         "I0bfCgD4" = _I0bfCgD4;
         "IYyQA6SQ" = _IYyQA6SQ;
+        "wPC3wC6c" = _wPC3wC6c;
+        "Oxlxkm27" = _Oxlxkm27;
         "datapack-1.20.5" = _8KsqTKqt;
         "datapack-1.20.6" = _8KsqTKqt;
         "datapack-24w19a" = _xyYvOsqh;
@@ -184,6 +196,7 @@ let
         "datapack-26.1.1" = _C45OdjHu;
         "datapack-26.1.2" = _C45OdjHu;
         "datapack-26.2" = _I0bfCgD4;
+        "datapack-26.3" = _wPC3wC6c;
         "fabric-1.20.5" = _RQNRQWPk;
         "fabric-1.20.6" = _RQNRQWPk;
         "fabric-24w19a" = _qGiwZgoT;
@@ -204,6 +217,7 @@ let
         "fabric-26.1.1" = _JXQGlp96;
         "fabric-26.1.2" = _JXQGlp96;
         "fabric-26.2" = _IYyQA6SQ;
+        "fabric-26.3" = _Oxlxkm27;
         "forge-1.20.5" = _RQNRQWPk;
         "forge-1.20.6" = _RQNRQWPk;
         "forge-24w19a" = _qGiwZgoT;
@@ -224,6 +238,7 @@ let
         "forge-26.1.1" = _JXQGlp96;
         "forge-26.1.2" = _JXQGlp96;
         "forge-26.2" = _IYyQA6SQ;
+        "forge-26.3" = _Oxlxkm27;
         "quilt-1.20.5" = _RQNRQWPk;
         "quilt-1.20.6" = _RQNRQWPk;
         "quilt-24w19a" = _qGiwZgoT;
@@ -244,6 +259,7 @@ let
         "quilt-26.1.1" = _JXQGlp96;
         "quilt-26.1.2" = _JXQGlp96;
         "quilt-26.2" = _IYyQA6SQ;
+        "quilt-26.3" = _Oxlxkm27;
         "neoforge-1.21.2" = _FRDrQ1xm;
         "neoforge-1.21.3" = _FRDrQ1xm;
         "neoforge-1.21.4" = _xjfuKKbK;
@@ -258,6 +274,7 @@ let
         "neoforge-26.1.1" = _JXQGlp96;
         "neoforge-26.1.2" = _JXQGlp96;
         "neoforge-26.2" = _IYyQA6SQ;
+        "neoforge-26.3" = _Oxlxkm27;
         "pkg-41.1" = _8KsqTKqt;
         "pkg-41.1+mod" = _RQNRQWPk;
         "pkg-43.1" = _xyYvOsqh;
@@ -284,7 +301,9 @@ let
         "pkg-101.1+mod" = _JXQGlp96;
         "pkg-107.1" = _I0bfCgD4;
         "pkg-107.1+mod" = _IYyQA6SQ;
-        "default" = _IYyQA6SQ;
+        "pkg-1.1.0" = _wPC3wC6c;
+        "pkg-1.1.0+mod" = _Oxlxkm27;
+        "default" = _Oxlxkm27;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craft-tridents";

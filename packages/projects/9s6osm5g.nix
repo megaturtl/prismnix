@@ -791,6 +791,11 @@ let
             "file" = "cloth-config-26.2.155.jar";
             "hash" = "sha512-P36oEI2MBGN2TkGfP+fU1/WGtvt9JXjehfcJtw1ZWHBgoHwP4C1bee0350hQ3QiMqs5A+LrvtEAt+BOdB23GYg==";
         };
+        _eZ3xIIuk = {
+            "id" = "eZ3xIIuk";
+            "file" = "cloth-config-26.3.158.jar";
+            "hash" = "sha512-us7/O2msQneDG3/BUKSF5USS2YfneKMzMKO3U1S88rPQyWhRlkW+kZATJD52ajXPY4yqQYpGqfgckJnwco09Aw==";
+        };
     in {
         "2E04stZn" = _2E04stZn;
         "vcrZcwvb" = _vcrZcwvb;
@@ -950,6 +955,7 @@ let
         "TimoYzse" = _TimoYzse;
         "Nv3xnWXd" = _Nv3xnWXd;
         "zErG1kOw" = _zErG1kOw;
+        "eZ3xIIuk" = _eZ3xIIuk;
         "forge-1.14" = _2E04stZn;
         "forge-1.14.1" = _2E04stZn;
         "forge-1.14.2" = _2E04stZn;
@@ -1042,6 +1048,7 @@ let
         "fabric-26.1.1" = _GFM8zh9J;
         "fabric-26.1.2" = _GFM8zh9J;
         "fabric-26.2" = _Nv3xnWXd;
+        "fabric-26.3" = _eZ3xIIuk;
         "neoforge-1.20.2" = _mAH9Nl59;
         "neoforge-1.20.3" = _gUuDD6aJ;
         "neoforge-1.20.4" = _gUuDD6aJ;
@@ -1216,7 +1223,8 @@ let
         "pkg-26.1.154+neoforge" = _TimoYzse;
         "pkg-26.2.155+fabric" = _Nv3xnWXd;
         "pkg-26.2.155+neoforge" = _zErG1kOw;
-        "default" = _zErG1kOw;
+        "pkg-26.3.158+fabric" = _eZ3xIIuk;
+        "default" = _eZ3xIIuk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cloth-config";

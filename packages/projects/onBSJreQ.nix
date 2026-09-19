@@ -241,6 +241,51 @@ let
             "file" = "e33chat-Fabric-1.21.11-2.4.7.jar";
             "hash" = "sha512-Z/qgY72bgz7UXJof5FGA4l2ZoFzrkmzJLk/z3CVcbNaHqit2m5f1Ct6t4hxSHG0E1+mmCUokRoOZviZF5IywWA==";
         };
+        _2YjoIajH = {
+            "id" = "2YjoIajH";
+            "file" = "e33chat-Fabric-1.21.1-2.4.11.jar";
+            "hash" = "sha512-aiEztQP11FO9IlutY3PUBY33DzKDupvXmuChE2B5wlTh3uaJXM4VgcYsL2RswtDY1IeMMqMfc+ICLZyD91n0CA==";
+        };
+        _zrKu6FkA = {
+            "id" = "zrKu6FkA";
+            "file" = "e33chat-Forge-1.20.1-2.4.11.jar";
+            "hash" = "sha512-j/CRpqKGofPnJuKO0V2qP05w03+gpxNKrQih893kGDKgiharpqRFf9VTQZrRNVVb5oYxPgF46G4G4DKzjp5bYw==";
+        };
+        _wN5gRyDr = {
+            "id" = "wN5gRyDr";
+            "file" = "e33chat-NeoForge-1.21.1-2.4.11.jar";
+            "hash" = "sha512-T7UmAi+phfRqGKgSWWIXh6LduVT3AInjSMQ0Z7LpKqBkGrzyhjAyPGNnRdvuH8vdAXEaaRpNISe7tmGsjRZG5Q==";
+        };
+        _SWvJppVS = {
+            "id" = "SWvJppVS";
+            "file" = "e33chat-Fabric-1.21.1-2.4.12.jar";
+            "hash" = "sha512-29U16DILCERm9OiruGNxtuMBXSWKvAAwHxwoOVSFPJ5aRGFKN6TA0NIsBbZz+r8ubrRCz8rBTgEmjx5rrOZ6PQ==";
+        };
+        _TLannX0B = {
+            "id" = "TLannX0B";
+            "file" = "e33chat-NeoForge-1.21.1-2.4.12.jar";
+            "hash" = "sha512-Oazaeaooc0l4O746UenLzAYrabUy9TvUkNEsfaqAmR0t8P0JASP84Q1QMnWVCJPFr4FBx3P2vkeLw0lvSam1LA==";
+        };
+        _h9FwDkJr = {
+            "id" = "h9FwDkJr";
+            "file" = "e33chat-Forge-1.20.1-2.4.12.jar";
+            "hash" = "sha512-HCBuot7Pyffd1J4T8TVyPGiYRK45eqmcXyI5kNc7VLsu3YGlOIZaPaES20Im5nVaKNe+tecnw4L1xnyyvbfeCg==";
+        };
+        _aMwAfyzb = {
+            "id" = "aMwAfyzb";
+            "file" = "e33chat-Fabric-1.21.1-2.4.13.jar";
+            "hash" = "sha512-HjdXbsYrvKWRV2d5GDDIcszBoL7q0RIXxAXRfh9StfFA2J21G+23mAy2nq7k6qI9TvhRaTLESyoisM3TwBPNRg==";
+        };
+        _XGeuYpwT = {
+            "id" = "XGeuYpwT";
+            "file" = "e33chat-NeoForge-1.21.1-2.4.13.jar";
+            "hash" = "sha512-3E/Gl+BTPAM5Id7nCebop35N5wXLzqLV5UiLyxf6Xtv9fj13SMjWd+7w5PUJZ+DNHOL+w8D4NVu4M6RtoQM9Cg==";
+        };
+        _nBEn61Iq = {
+            "id" = "nBEn61Iq";
+            "file" = "e33chat-Forge-1.20.1-2.4.13.jar";
+            "hash" = "sha512-3HVnmRgypp6aRDK3oyuln2ss0nx4yeynNK87mo43M5PnPTjuXlf7CbhS9la8r59LCE/OMDbO97YxDR96ejSh0g==";
+        };
     in {
         "cwKKPTFJ" = _cwKKPTFJ;
         "O8RZNGid" = _O8RZNGid;
@@ -290,11 +335,20 @@ let
         "GfPSOvOJ" = _GfPSOvOJ;
         "ZamJvFrN" = _ZamJvFrN;
         "vADZd8Sd" = _vADZd8Sd;
-        "forge-1.20.1" = _46xhAWyb;
+        "2YjoIajH" = _2YjoIajH;
+        "zrKu6FkA" = _zrKu6FkA;
+        "wN5gRyDr" = _wN5gRyDr;
+        "SWvJppVS" = _SWvJppVS;
+        "TLannX0B" = _TLannX0B;
+        "h9FwDkJr" = _h9FwDkJr;
+        "aMwAfyzb" = _aMwAfyzb;
+        "XGeuYpwT" = _XGeuYpwT;
+        "nBEn61Iq" = _nBEn61Iq;
+        "forge-1.20.1" = _nBEn61Iq;
         "fabric-1.20.1" = _62k06zDx;
-        "fabric-1.21.1" = _ZamJvFrN;
+        "fabric-1.21.1" = _aMwAfyzb;
         "fabric-1.21.11" = _vADZd8Sd;
-        "neoforge-1.21.1" = _GfPSOvOJ;
+        "neoforge-1.21.1" = _XGeuYpwT;
         "pkg-0.1.3-beta" = _cwKKPTFJ;
         "pkg-0.1.4-beta" = _O8RZNGid;
         "pkg-0.1.4-f-beta" = _BXO4SOyL;
@@ -343,7 +397,16 @@ let
         "pkg-NeoForge-1.21.1-2.4.8" = _GfPSOvOJ;
         "pkg-Fabric-1.21.1-2.4.8" = _ZamJvFrN;
         "pkg-Fabric-1.21.11-2.4.7" = _vADZd8Sd;
-        "default" = _vADZd8Sd;
+        "pkg-Fabric-1.21.1-2.4.11" = _2YjoIajH;
+        "pkg-Forge-1.20.1-2.4.11" = _zrKu6FkA;
+        "pkg-NeoForge-1.21.1-2.4.11" = _wN5gRyDr;
+        "pkg-Fabric-1.21.1-2.4.12" = _SWvJppVS;
+        "pkg-NeoForge-1.21.1-2.4.12" = _TLannX0B;
+        "pkg-Forge-1.20.1-2.4.12" = _h9FwDkJr;
+        "pkg-Fabric-1.21.1-2.4.13" = _aMwAfyzb;
+        "pkg-NeoForge-1.21.1-2.4.13" = _XGeuYpwT;
+        "pkg-Forge-1.20.1-2.4.13" = _nBEn61Iq;
+        "default" = _nBEn61Iq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "e33chat";

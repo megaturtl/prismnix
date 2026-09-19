@@ -16,27 +16,37 @@ let
             "file" = "Weskerson's 3D Items 3D book compatibility.zip";
             "hash" = "sha512-UcYoH8EbFeIt2KRmd8mJLWdTxQvyALlAqt8X2xUIIo+BsbyWAX8uxRi20yNSoNpyt3smubEqfhOyZ86yltF87A==";
         };
+        _2OpoKUJx = {
+            "id" = "2OpoKUJx";
+            "file" = "Weskerson's 3d x Bray & Cyber's 3D Books (Compatibility patch).zip";
+            "hash" = "sha512-l89Tf12AyH1B6XcWOEUAHFVMYrCy6NgNcCmUTMs8XWHYrTE3Egi62UJ+I2KPUb6QGuGlwEI619/zUAEgVEuLsw==";
+        };
     in {
         "ck2qOFUv" = _ck2qOFUv;
         "4MuaUQPs" = _4MuaUQPs;
         "peR0ap1j" = _peR0ap1j;
+        "2OpoKUJx" = _2OpoKUJx;
         "minecraft-1.21" = _ck2qOFUv;
         "minecraft-1.21.1" = _ck2qOFUv;
         "minecraft-1.21.2" = _ck2qOFUv;
         "minecraft-1.21.3" = _ck2qOFUv;
-        "minecraft-1.21.4" = _ck2qOFUv;
-        "minecraft-1.21.5" = _ck2qOFUv;
-        "minecraft-1.21.6" = _ck2qOFUv;
-        "minecraft-1.21.7" = _ck2qOFUv;
-        "minecraft-1.21.8" = _ck2qOFUv;
-        "minecraft-1.21.9" = _4MuaUQPs;
-        "minecraft-1.21.10" = _4MuaUQPs;
-        "minecraft-1.21.11" = _4MuaUQPs;
-        "minecraft-26.1" = _peR0ap1j;
+        "minecraft-1.21.4" = _2OpoKUJx;
+        "minecraft-1.21.5" = _2OpoKUJx;
+        "minecraft-1.21.6" = _2OpoKUJx;
+        "minecraft-1.21.7" = _2OpoKUJx;
+        "minecraft-1.21.8" = _2OpoKUJx;
+        "minecraft-1.21.9" = _2OpoKUJx;
+        "minecraft-1.21.10" = _2OpoKUJx;
+        "minecraft-1.21.11" = _2OpoKUJx;
+        "minecraft-26.1" = _2OpoKUJx;
+        "minecraft-26.1.1" = _2OpoKUJx;
+        "minecraft-26.1.2" = _2OpoKUJx;
+        "minecraft-26.2" = _2OpoKUJx;
         "pkg-V01" = _ck2qOFUv;
         "pkg-V02" = _4MuaUQPs;
         "pkg-V03" = _peR0ap1j;
-        "default" = _peR0ap1j;
+        "pkg-V04" = _2OpoKUJx;
+        "default" = _2OpoKUJx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tools-utils-x-bray-cybers-3d-books-(compatibility)";

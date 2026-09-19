@@ -161,6 +161,11 @@ let
             "file" = "thesilverage-fabric-1.21.5-1.3.2.jar";
             "hash" = "sha512-zKlL4E4hE3Tqgu2qmH++f8Mtu19qwjnI8aKfJHd8uid0cQaavJ4EXngpqJbUjZnRMSxN7iSxccg1hEhow1MhwQ==";
         };
+        _VtTyvBPX = {
+            "id" = "VtTyvBPX";
+            "file" = "thesilverage-forge-1.20.1-1.3.0.jar";
+            "hash" = "sha512-had4iqIhIJYDvHRG/j9A3BmvRN8o3qoMdohceoCYdtZLTfVhYPItCKzqUNl+A0sFOHzcNN/nQg0il8d2MF2EGg==";
+        };
     in {
         "9qaG6UTy" = _9qaG6UTy;
         "dRANOjz6" = _dRANOjz6;
@@ -194,9 +199,10 @@ let
         "ZRWieI6H" = _ZRWieI6H;
         "bbYRn3ep" = _bbYRn3ep;
         "pznOYQy8" = _pznOYQy8;
+        "VtTyvBPX" = _VtTyvBPX;
         "neoforge-1.21" = _i3hrXsgt;
         "neoforge-1.21.1" = _i3hrXsgt;
-        "neoforge-1.20.1" = _ts6x97Sn;
+        "neoforge-1.20.1" = _VtTyvBPX;
         "neoforge-1.21.2" = _NHGOrHmz;
         "neoforge-1.21.3" = _NHGOrHmz;
         "neoforge-1.21.4" = _VrtHTKBC;
@@ -209,7 +215,7 @@ let
         "neoforge-1.21.11" = _wAcVsviq;
         "neoforge-26.1.2" = _yaw7XxE9;
         "neoforge-26.2" = _LV9WwNd9;
-        "forge-1.20.1" = _ts6x97Sn;
+        "forge-1.20.1" = _VtTyvBPX;
         "fabric-1.21" = _nyvex1oM;
         "fabric-1.21.1" = _nyvex1oM;
         "fabric-1.21.2" = _dyQ02fNg;
@@ -229,10 +235,10 @@ let
         "pkg-1.0.1" = _9qaG6UTy;
         "pkg-1.1.0" = _dRANOjz6;
         "pkg-1.2.0" = _ts6x97Sn;
-        "pkg-1.3.0" = _dyQ02fNg;
+        "pkg-1.3.0" = _VtTyvBPX;
         "pkg-1.3.1" = _LV9WwNd9;
         "pkg-1.3.2" = _pznOYQy8;
-        "default" = _pznOYQy8;
+        "default" = _VtTyvBPX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-silver-age";

@@ -96,6 +96,16 @@ let
             "file" = "Intelium-v1.3.3-26.x.jar";
             "hash" = "sha512-XlVFD5Nqv5soRI75zl8jJdx8aWrA/rsRseW/z8mBel1xWEQRL6Tn2HJ1YkT8l3bmY2UWKL1X5t96tbeg+10aRw==";
         };
+        _xKCwCWgZ = {
+            "id" = "xKCwCWgZ";
+            "file" = "Intelium-v1.3.4-1.21.11.jar";
+            "hash" = "sha512-1BdMOYh3glyYq/M6Xdz3Xchtat7McmjohSbiW9nddjHh3wmcqsE+/hEsahX1oVnYp2TFgbko/ocbvKSX6FYRmw==";
+        };
+        _2FriHurx = {
+            "id" = "2FriHurx";
+            "file" = "Intelium-v1.3.4-26.2.jar";
+            "hash" = "sha512-Gy9M1yBdR/vp6C4y3tqwvfqQIQrNaZJp5+kEIfGEt3B5odFJqwSBpLoIm9LvNbqWafvqnZ70vbrb2CJpOtE+Cg==";
+        };
     in {
         "KRJ8WIvq" = _KRJ8WIvq;
         "ccYDOw3w" = _ccYDOw3w;
@@ -116,11 +126,13 @@ let
         "tVYnO5RW" = _tVYnO5RW;
         "DWAkz2Rj" = _DWAkz2Rj;
         "uBLDrUWX" = _uBLDrUWX;
-        "fabric-1.21.11" = _DWAkz2Rj;
+        "xKCwCWgZ" = _xKCwCWgZ;
+        "2FriHurx" = _2FriHurx;
+        "fabric-1.21.11" = _xKCwCWgZ;
         "fabric-26.1" = _uBLDrUWX;
         "fabric-26.1.1" = _uBLDrUWX;
         "fabric-26.1.2" = _uBLDrUWX;
-        "fabric-26.2" = _uBLDrUWX;
+        "fabric-26.2" = _2FriHurx;
         "pkg-1.0.0" = _KRJ8WIvq;
         "pkg-1.0.1" = _ccYDOw3w;
         "pkg-1.1.0" = _rPK9Edgy;
@@ -132,7 +144,8 @@ let
         "pkg-1.3.1" = _DnFn2Zpo;
         "pkg-1.3.2" = _tVYnO5RW;
         "pkg-1.3.3" = _uBLDrUWX;
-        "default" = _uBLDrUWX;
+        "pkg-1.3.4" = _2FriHurx;
+        "default" = _2FriHurx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "intelium-mod";

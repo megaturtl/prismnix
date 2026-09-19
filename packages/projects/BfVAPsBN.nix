@@ -276,6 +276,11 @@ let
             "file" = "ClientID-Spigot-1.1.8.jar";
             "hash" = "sha512-YBrv9FU1Ccl6VEvIZ3d+DIDi2Dn2rfYc9MSKKq7prTiEErdWU9iunYmbbpME1ZkX9uzZGVqeZv7YXoV+wtJtag==";
         };
+        _TLAdFgzZ = {
+            "id" = "TLAdFgzZ";
+            "file" = "ClientID-Fabric-1.1.4-26.3.jar";
+            "hash" = "sha512-9mqyH50YvYY5IVDJNwTcg1aTCi0uJw8E3AjqzO5JuYWNZ5FY8uqzFci1WgyangqnpiOntGOaiOrzqxx3TTvQkw==";
+        };
     in {
         "u9nAiLA0" = _u9nAiLA0;
         "D8gK50rw" = _D8gK50rw;
@@ -332,6 +337,7 @@ let
         "v9UwUA8U" = _v9UwUA8U;
         "3DgvwUiP" = _3DgvwUiP;
         "ROKPNwou" = _ROKPNwou;
+        "TLAdFgzZ" = _TLAdFgzZ;
         "paper-1.21" = _ROKPNwou;
         "paper-1.21.1" = _ROKPNwou;
         "paper-1.21.2" = _ROKPNwou;
@@ -397,6 +403,7 @@ let
         "fabric-26.1.2" = _v9UwUA8U;
         "fabric-1.20.1" = _4F5oxpBF;
         "fabric-26.2" = _v9UwUA8U;
+        "fabric-26.3" = _TLAdFgzZ;
         "folia-1.21" = _ROKPNwou;
         "folia-1.21.1" = _ROKPNwou;
         "folia-1.21.2" = _ROKPNwou;
@@ -421,12 +428,12 @@ let
         "pkg-1.1.1" = _JdNRJFqq;
         "pkg-1.1.2" = _OoEhc11C;
         "pkg-1.1.3" = _4F5oxpBF;
-        "pkg-1.1.4" = _3DgvwUiP;
+        "pkg-1.1.4" = _TLAdFgzZ;
         "pkg-1.1.5" = _L9IQ3oN7;
         "pkg-1.1.6" = _Z1pZg9Nw;
         "pkg-1.1.7" = _aHHJkk3e;
         "pkg-1.1.8" = _ROKPNwou;
-        "default" = _ROKPNwou;
+        "default" = _TLAdFgzZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "client-id";

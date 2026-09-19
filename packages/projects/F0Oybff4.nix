@@ -61,6 +61,16 @@ let
             "file" = "stackraft-2.3.jar";
             "hash" = "sha512-UzPfHmT0Tq9sh+QbiUfoZyOxiWn+PLsGIYnBY1Wy+wKcFW5REvai5CIYIRnpwY7KAv9456fqlGB6fnmtRGQ64w==";
         };
+        _N1dv9fyB = {
+            "id" = "N1dv9fyB";
+            "file" = "stackraft-v2.4.zip";
+            "hash" = "sha512-WEXM43i0NHEpGt/58g7TzrGdR3uPdfCVv7gR7u5zCuMhdwfGhWLKfSEWZifHrZOIzt0vv+/Dy7ZSPf4E5lgrxg==";
+        };
+        _fQOpr2ar = {
+            "id" = "fQOpr2ar";
+            "file" = "stackraft-v2.4+mod.jar";
+            "hash" = "sha512-f/xvEYLRrvpyuNYQRrbBCD2gXMtO/n5JMBnvb7f7U/T+HJu9zKqAHMQycNELp9FocSC6zNAZbZ7CEwujkYFmjg==";
+        };
     in {
         "OQPKINCX" = _OQPKINCX;
         "OYszOfFH" = _OYszOfFH;
@@ -74,6 +84,8 @@ let
         "2Nu3a4id" = _2Nu3a4id;
         "H2A6Efmn" = _H2A6Efmn;
         "aGxnTNJE" = _aGxnTNJE;
+        "N1dv9fyB" = _N1dv9fyB;
+        "fQOpr2ar" = _fQOpr2ar;
         "datapack-1.21" = _zCYrVcu7;
         "datapack-1.21.2" = _KLEY0lFL;
         "datapack-1.21.3" = _KLEY0lFL;
@@ -83,6 +95,7 @@ let
         "datapack-26.1.1" = _H2A6Efmn;
         "datapack-26.1.2" = _H2A6Efmn;
         "datapack-26.2" = _H2A6Efmn;
+        "datapack-26.3" = _N1dv9fyB;
         "fabric-1.21" = _2wvbRUu8;
         "fabric-1.21.2" = _DObJ7UWY;
         "fabric-1.21.3" = _DObJ7UWY;
@@ -92,6 +105,7 @@ let
         "fabric-26.1.1" = _aGxnTNJE;
         "fabric-26.1.2" = _aGxnTNJE;
         "fabric-26.2" = _aGxnTNJE;
+        "fabric-26.3" = _fQOpr2ar;
         "forge-1.21" = _2wvbRUu8;
         "forge-1.21.2" = _DObJ7UWY;
         "forge-1.21.3" = _DObJ7UWY;
@@ -101,6 +115,7 @@ let
         "forge-26.1.1" = _aGxnTNJE;
         "forge-26.1.2" = _aGxnTNJE;
         "forge-26.2" = _aGxnTNJE;
+        "forge-26.3" = _fQOpr2ar;
         "quilt-1.21" = _2wvbRUu8;
         "quilt-1.21.2" = _DObJ7UWY;
         "quilt-1.21.3" = _DObJ7UWY;
@@ -110,6 +125,7 @@ let
         "quilt-26.1.1" = _aGxnTNJE;
         "quilt-26.1.2" = _aGxnTNJE;
         "quilt-26.2" = _aGxnTNJE;
+        "quilt-26.3" = _fQOpr2ar;
         "neoforge-1.21.2" = _DObJ7UWY;
         "neoforge-1.21.3" = _DObJ7UWY;
         "neoforge-1.21.4" = _DObJ7UWY;
@@ -118,6 +134,7 @@ let
         "neoforge-26.1.1" = _aGxnTNJE;
         "neoforge-26.1.2" = _aGxnTNJE;
         "neoforge-26.2" = _aGxnTNJE;
+        "neoforge-26.3" = _fQOpr2ar;
         "pkg-0.1" = _OQPKINCX;
         "pkg-0.1+mod" = _OYszOfFH;
         "pkg-1.1" = _zCYrVcu7;
@@ -130,7 +147,9 @@ let
         "pkg-2.2+mod" = _2Nu3a4id;
         "pkg-2.3" = _H2A6Efmn;
         "pkg-2.3+mod" = _aGxnTNJE;
-        "default" = _aGxnTNJE;
+        "pkg-2.4" = _N1dv9fyB;
+        "pkg-2.4+mod" = _fQOpr2ar;
+        "default" = _fQOpr2ar;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stackraft";

@@ -146,6 +146,11 @@ let
             "file" = "blossom-homes-2.2.13+26.1.jar";
             "hash" = "sha512-JzV18BYBNDP44vfjV23L27O3YMCL/zQC1vqZomtPr193KGlW1YQzg7eBbEKAoQ9n9k2ZVxHPsDQ8eMu6tvpJ2g==";
         };
+        _nw3O7ur6 = {
+            "id" = "nw3O7ur6";
+            "file" = "blossom-homes-2.2.14+26.3.jar";
+            "hash" = "sha512-+sZh2SGoYZam8Jf4YrISGuBDkC5SHY0IlHnyO9xuOcCw8BK1gh7tbbffGRIf3dUy4KDAoQgkV0KriWCRM5CmBA==";
+        };
     in {
         "PoKhaGik" = _PoKhaGik;
         "MQAhOGsN" = _MQAhOGsN;
@@ -176,6 +181,7 @@ let
         "ilxeg6Ah" = _ilxeg6Ah;
         "zlDu4jo8" = _zlDu4jo8;
         "ShKfrjDl" = _ShKfrjDl;
+        "nw3O7ur6" = _nw3O7ur6;
         "fabric-1.19" = _5axDnV3p;
         "fabric-1.18.2" = _TmpwfHvH;
         "fabric-1.19.1" = _5axDnV3p;
@@ -203,6 +209,7 @@ let
         "fabric-26.1.1" = _zlDu4jo8;
         "fabric-26.1.2" = _zlDu4jo8;
         "fabric-26.2" = _ShKfrjDl;
+        "fabric-26.3" = _nw3O7ur6;
         "quilt-1.19" = _5axDnV3p;
         "quilt-1.18.2" = _TmpwfHvH;
         "quilt-1.19.1" = _5axDnV3p;
@@ -230,6 +237,7 @@ let
         "quilt-26.1.1" = _zlDu4jo8;
         "quilt-26.1.2" = _zlDu4jo8;
         "quilt-26.2" = _ShKfrjDl;
+        "quilt-26.3" = _nw3O7ur6;
         "pkg-2.0.0+1.19" = _PoKhaGik;
         "pkg-2.0.1+1.19" = _MQAhOGsN;
         "pkg-2.0.2+1.19" = _W119RF3y;
@@ -259,7 +267,8 @@ let
         "pkg-2.2.11+1.21.11" = _ilxeg6Ah;
         "pkg-2.2.12+26.1" = _zlDu4jo8;
         "pkg-2.2.13+26.1" = _ShKfrjDl;
-        "default" = _ShKfrjDl;
+        "pkg-2.2.14+26.3" = _nw3O7ur6;
+        "default" = _nw3O7ur6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blossomhomes";

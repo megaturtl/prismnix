@@ -56,6 +56,11 @@ let
             "file" = "BTAT 1.4.1 [Full] (UNZIP FILE).zip";
             "hash" = "sha512-Y9CCMXfg16jxKDxmX6V52nUH2sykTSfP9rxnWlynUkIEPISt8ONtqLo7BF9kBpoZYeGOm5GbdWugH/CQEJBMMA==";
         };
+        _CFZ4RTNt = {
+            "id" = "CFZ4RTNt";
+            "file" = "BTAT 1.4.2 [Full] (UNZIP FILE).zip";
+            "hash" = "sha512-I+OiMzhitvik3zmJGDICJKnMAXJ5v3uegQmJirpJqDKBDC3tmvrKpyZufV+ZCZtieWK0U1tgcCAtwz9gq6iZRw==";
+        };
     in {
         "ULm2I5xw" = _ULm2I5xw;
         "ioNXteH7" = _ioNXteH7;
@@ -68,7 +73,8 @@ let
         "ZiOpcDV7" = _ZiOpcDV7;
         "l6racbb8" = _l6racbb8;
         "GUZcrADU" = _GUZcrADU;
-        "minecraft-b1.7.3" = _GUZcrADU;
+        "CFZ4RTNt" = _CFZ4RTNt;
+        "minecraft-b1.7.3" = _CFZ4RTNt;
         "pkg-1.0" = _ULm2I5xw;
         "pkg-1.1" = _ioNXteH7;
         "pkg-1.2" = _H1JAUN0V;
@@ -79,7 +85,8 @@ let
         "pkg-1.3.3" = _s7YIfRhR;
         "pkg-1.4" = _l6racbb8;
         "pkg-1.4.1" = _GUZcrADU;
-        "default" = _GUZcrADU;
+        "pkg-1.4.2" = _CFZ4RTNt;
+        "default" = _CFZ4RTNt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-than-adventure-tweaks";

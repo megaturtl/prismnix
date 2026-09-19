@@ -21,11 +21,17 @@ let
             "file" = "Boosted Brightness v1.3.zip";
             "hash" = "sha512-DadsRXStagrNTTcJhqanqGf+EUlqT4kVVtxSXBKW+mECuQi5Oc+LQO6x4SJh4qPvXzIASqcgA+0QYcID8WYf+Q==";
         };
+        _WDkqFtDw = {
+            "id" = "WDkqFtDw";
+            "file" = "Boosted Brightness v1.4.zip";
+            "hash" = "sha512-fLUOdXLIYo7x71REifVvHPcoL9645xiA4T3Q+w0inHcqzsHj4sIDimQZmYVqolKzrOfVhkL3g1zMfjXdWFZ0cg==";
+        };
     in {
         "OXrmrc4F" = _OXrmrc4F;
         "JnM8843a" = _JnM8843a;
         "mVPzPvIm" = _mVPzPvIm;
         "ZZ817lL7" = _ZZ817lL7;
+        "WDkqFtDw" = _WDkqFtDw;
         "minecraft-1.21.2" = _JnM8843a;
         "minecraft-1.21.3" = _JnM8843a;
         "minecraft-1.21.4" = _JnM8843a;
@@ -36,15 +42,17 @@ let
         "minecraft-1.21.9" = _mVPzPvIm;
         "minecraft-1.21.10" = _mVPzPvIm;
         "minecraft-1.21.11" = _mVPzPvIm;
-        "minecraft-26.1" = _ZZ817lL7;
-        "minecraft-26.1.1" = _ZZ817lL7;
-        "minecraft-26.1.2" = _ZZ817lL7;
-        "minecraft-26.2" = _ZZ817lL7;
+        "minecraft-26.1" = _WDkqFtDw;
+        "minecraft-26.1.1" = _WDkqFtDw;
+        "minecraft-26.1.2" = _WDkqFtDw;
+        "minecraft-26.2" = _WDkqFtDw;
+        "minecraft-26.3" = _WDkqFtDw;
         "pkg-1.0.0-1.21.2" = _OXrmrc4F;
         "pkg-1.1" = _JnM8843a;
         "pkg-1.2" = _mVPzPvIm;
         "pkg-1.3" = _ZZ817lL7;
-        "default" = _ZZ817lL7;
+        "pkg-1.4" = _WDkqFtDw;
+        "default" = _WDkqFtDw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "boosted-brightness-rp";

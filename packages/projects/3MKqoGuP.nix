@@ -321,6 +321,16 @@ let
             "file" = "rogues-fabric-3.1.2+26.2.jar";
             "hash" = "sha512-Kxe0syU5u4lsc7LZ49kG9Y5FcNii+HXNQDrtZFMK7aGLQsPSYxGLdKkIuKBjW2/Sin38wRAH89WCRkoDzPp4Qw==";
         };
+        _YBXb6O4t = {
+            "id" = "YBXb6O4t";
+            "file" = "rogues-fabric-3.1.1+1.20.1.jar";
+            "hash" = "sha512-gBdxNnpjbZMRdGUi59fM+lpZ6ooVPXACwwerJpfUg837gVTuE1v2ELgh8IwdbVuVztQYqSfyzVFeXTL6qnerrg==";
+        };
+        _MUUnGayh = {
+            "id" = "MUUnGayh";
+            "file" = "rogues-forge-3.1.1+1.20.1.jar";
+            "hash" = "sha512-PsoCzop8opcFPQiVothkn6i4LoJfPkFzYJouTYbxo5mWObopFe7h2SD6R58ptzYT2jMbk6n8Rva4CkZ0vsjxAw==";
+        };
     in {
         "WmBvyqwC" = _WmBvyqwC;
         "vCLSiBVJ" = _vCLSiBVJ;
@@ -386,7 +396,9 @@ let
         "UL7DUCX7" = _UL7DUCX7;
         "bw1QiVJu" = _bw1QiVJu;
         "KeqAlsop" = _KeqAlsop;
-        "fabric-1.20.1" = _ONjutVUi;
+        "YBXb6O4t" = _YBXb6O4t;
+        "MUUnGayh" = _MUUnGayh;
+        "fabric-1.20.1" = _YBXb6O4t;
         "fabric-1.21.1" = _JWfPsL1j;
         "fabric-1.21" = _JWfPsL1j;
         "fabric-26.1" = _YGXNYQzR;
@@ -399,6 +411,8 @@ let
         "neoforge-26.1.1" = _UL7DUCX7;
         "neoforge-26.1.2" = _UL7DUCX7;
         "neoforge-26.2" = _bw1QiVJu;
+        "neoforge-1.20.1" = _MUUnGayh;
+        "forge-1.20.1" = _MUUnGayh;
         "pkg-1.0.2+1.20.1" = _WmBvyqwC;
         "pkg-1.0.3+1.20.1" = _vCLSiBVJ;
         "pkg-1.0.4+1.20.1" = _4vOLHGGR;
@@ -463,7 +477,9 @@ let
         "pkg-3.1.2+26.1.2-neoforge" = _UL7DUCX7;
         "pkg-3.1.2+26.2-neoforge" = _bw1QiVJu;
         "pkg-3.1.2+26.2-fabric" = _KeqAlsop;
-        "default" = _KeqAlsop;
+        "pkg-3.1.1+1.20.1-fabric" = _YBXb6O4t;
+        "pkg-3.1.1+1.20.1-forge" = _MUUnGayh;
+        "default" = _MUUnGayh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rogues-and-warriors";

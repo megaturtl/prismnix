@@ -111,6 +111,16 @@ let
             "file" = "toggleable_enchantments-fabric-26.2-1.0.5.jar";
             "hash" = "sha512-Zj2qYiWkjs8BOZkhyAaTn6fqjXQQ+5ukT5FR2Xhy/pk5KlZlaHf+yx4K6/9dex1iZSM+vIIZJF5NVG6kGbBL0g==";
         };
+        _mLoAg4J7 = {
+            "id" = "mLoAg4J7";
+            "file" = "toggleable_enchantments-neoforge-26.3-1.0.5.jar";
+            "hash" = "sha512-ZecYrNROEbRMdgbxwnnp6bOLaIt2HiZvSuH9GmtF9abQOaP/bvlAC9ghHXHF7+to/QFrKBzyVA8PMy9WFmvldQ==";
+        };
+        _kjl7dDNJ = {
+            "id" = "kjl7dDNJ";
+            "file" = "toggleable_enchantments-fabric-26.3-1.0.5.jar";
+            "hash" = "sha512-l6AmCZnBd2N9QPrTyXLbKUIJTayZzIRLirWrrjXdtWZyX//wo4OJkShM1LfTDlk4I1P2RENQRR2JWE0frDxuhA==";
+        };
     in {
         "8jcFnJij" = _8jcFnJij;
         "LyBGQhlq" = _LyBGQhlq;
@@ -134,6 +144,8 @@ let
         "uAwU1PE8" = _uAwU1PE8;
         "RcS8gqGv" = _RcS8gqGv;
         "zAjTLjOb" = _zAjTLjOb;
+        "mLoAg4J7" = _mLoAg4J7;
+        "kjl7dDNJ" = _kjl7dDNJ;
         "neoforge-1.21.1" = _1VlfYeAk;
         "neoforge-1.21.2" = _8oT7jcLO;
         "neoforge-1.21.3" = _8oT7jcLO;
@@ -144,6 +156,7 @@ let
         "neoforge-1.21.11" = _FZp0O1Fl;
         "neoforge-26.1.2" = _uAwU1PE8;
         "neoforge-26.2" = _RcS8gqGv;
+        "neoforge-26.3" = _mLoAg4J7;
         "fabric-1.21.1" = _3EmeUJW4;
         "fabric-1.21.5" = _dVCgmsd4;
         "fabric-1.21.8" = _mUAVr31i;
@@ -151,11 +164,12 @@ let
         "fabric-1.21.11" = _N2VQdOlF;
         "fabric-26.1.2" = _sPiBzE7R;
         "fabric-26.2" = _zAjTLjOb;
+        "fabric-26.3" = _kjl7dDNJ;
         "pkg-1.0.2" = _LyBGQhlq;
         "pkg-1.0.3" = _8oT7jcLO;
         "pkg-1.0.4" = _5jzw5tPr;
-        "pkg-1.0.5" = _zAjTLjOb;
-        "default" = _zAjTLjOb;
+        "pkg-1.0.5" = _kjl7dDNJ;
+        "default" = _kjl7dDNJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "toggleable-enchantments";

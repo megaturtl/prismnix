@@ -146,6 +146,26 @@ let
             "file" = "tickrate-0.7.1-26.2.jar";
             "hash" = "sha512-5oYUG/2Alg8yfDHWVXCugW22kuxOD1rwjJrGwAwNcz4MnOwf8E7cIpc2EuW1EweF/8xYJ35qZm5CZV/ZvHGjVA==";
         };
+        _lYBn3jga = {
+            "id" = "lYBn3jga";
+            "file" = "tickrate-0.6.3-1.21.1.jar";
+            "hash" = "sha512-udjAJwVcWj7+Qwyed/1yw05LpCV2pGdUJRb5KPmHDMSFtWTfuUV2aY8RorYPZlxlsf/5Nz3CWnk+8TQJY3XIMg==";
+        };
+        _iAHcX0d4 = {
+            "id" = "iAHcX0d4";
+            "file" = "tickrate-0.7.2-26.1.jar";
+            "hash" = "sha512-U+PJNyqEfZJxyfDtkEsl/PIz7kfpDWNFRcfIS823BMVRrF8sx2Ud8qkaDvbpfZFy3Y/gzSRawla5JuXW0MF62w==";
+        };
+        _9I5xI4GJ = {
+            "id" = "9I5xI4GJ";
+            "file" = "tickrate-0.7.2-26.2.jar";
+            "hash" = "sha512-j8OfC30wD/7FwqUDRkEELiulgPTqe/JOWBnkncJ79+WpUauswHGY0E/pGYbB4gLOXvGrKY4uRsJ1hyfMZ7r9Hg==";
+        };
+        _habkrpye = {
+            "id" = "habkrpye";
+            "file" = "tickrate-0.7.2-26.3.jar";
+            "hash" = "sha512-KURfe5WaU0cDEn3+nrLTW9m0Y+lgnJxts7ULtLuwSrs4CysjG73aWLHs09xg9xB2wFlK3aPtl/CAJjs6UBoBqQ==";
+        };
     in {
         "nRnGPVhm" = _nRnGPVhm;
         "JUDge3uM" = _JUDge3uM;
@@ -176,9 +196,13 @@ let
         "VRJVDQOP" = _VRJVDQOP;
         "WtD3Eygq" = _WtD3Eygq;
         "8q292P7q" = _8q292P7q;
+        "lYBn3jga" = _lYBn3jga;
+        "iAHcX0d4" = _iAHcX0d4;
+        "9I5xI4GJ" = _9I5xI4GJ;
+        "habkrpye" = _habkrpye;
         "fabric-1.21.3" = _nRnGPVhm;
         "fabric-1.21.4" = _l0BDIASI;
-        "fabric-1.21.1" = _VRJVDQOP;
+        "fabric-1.21.1" = _lYBn3jga;
         "fabric-1.21.5" = _oVV1mYUv;
         "fabric-1.21.6" = _T7rLjYR8;
         "fabric-1.21.7" = _EgnVcjZB;
@@ -186,10 +210,11 @@ let
         "fabric-1.21.9" = _j9OB5FdT;
         "fabric-1.21.10" = _j9OB5FdT;
         "fabric-1.21.11" = _8xo2xirj;
-        "fabric-26.1" = _WtD3Eygq;
-        "fabric-26.1.1" = _WtD3Eygq;
-        "fabric-26.1.2" = _WtD3Eygq;
-        "fabric-26.2" = _8q292P7q;
+        "fabric-26.1" = _iAHcX0d4;
+        "fabric-26.1.1" = _iAHcX0d4;
+        "fabric-26.1.2" = _iAHcX0d4;
+        "fabric-26.2" = _9I5xI4GJ;
+        "fabric-26.3" = _habkrpye;
         "pkg-0.1.0" = _nRnGPVhm;
         "pkg-0.1.1" = _JUDge3uM;
         "pkg-0.1.2" = _OxbhtW1V;
@@ -219,7 +244,11 @@ let
         "pkg-0.6.2-1.21.1" = _VRJVDQOP;
         "pkg-0.7.1-26.1" = _WtD3Eygq;
         "pkg-0.7.1-26.2" = _8q292P7q;
-        "default" = _8q292P7q;
+        "pkg-0.6.3-1.21.1" = _lYBn3jga;
+        "pkg-0.7.2-26.1" = _iAHcX0d4;
+        "pkg-0.7.2-26.2" = _9I5xI4GJ;
+        "pkg-0.7.2-26.3" = _habkrpye;
+        "default" = _habkrpye;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tick";

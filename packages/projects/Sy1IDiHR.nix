@@ -256,6 +256,51 @@ let
             "file" = "better_deco-1.1.4.2-NeoForge-26.2.jar";
             "hash" = "sha512-QT9jTiZkHXM0olcdJpe/JlxBWu/f6n7/KHAj73FBUHn9b0Wkp7WN+qOHs1bdSOotGzpc+z6N3Fdb6WPPpkEatQ==";
         };
+        _ISwdo1of = {
+            "id" = "ISwdo1of";
+            "file" = "better_deco-neoforge-1.21.1-2.0.0.jar";
+            "hash" = "sha512-2wcVFEgzt/wEUkS/JJ11XZ0zHIcFsQ3BBnxzsLv0ZzYMrA98gi1OzMMfHgw3WRdIqeUiDrb0mGg6GWPw4DExcw==";
+        };
+        _5zwQVG8N = {
+            "id" = "5zwQVG8N";
+            "file" = "better_deco-fabric-1.21.1-2.0.0.jar";
+            "hash" = "sha512-unpkq/M8VRdqdu+qH94M6xQbyRhQMRG29gIbwaZuQWf+qpjCyJaJWcRitTbQT5Q6FGTBgSXXoW8eYAfmb+b2Eg==";
+        };
+        _8auwQtE3 = {
+            "id" = "8auwQtE3";
+            "file" = "better_deco-neoforge-26.1.2-2.0.0.jar";
+            "hash" = "sha512-RBTtMw1w9iTh/n7CMd2pjk3CJVDbSAK9FLQM/HGEPoOlWxyo5P9t3eBM2bBXscgdV4wFlsdJ0c9wgC2JFgdhNw==";
+        };
+        _lkDgx0nm = {
+            "id" = "lkDgx0nm";
+            "file" = "better_deco-fabric-26.1.2-2.0.0.jar";
+            "hash" = "sha512-d3Xn4vibbUNEOD4JIZ2MLWOcUp5w76Xgxjf6d2OOuZwSlI+ciLV3FY+Bkbl/Ptg0m/QG0sDkpLcsK+0+y2ke+A==";
+        };
+        _INri9oWX = {
+            "id" = "INri9oWX";
+            "file" = "better_deco-neoforge-26.2-2.0.0.jar";
+            "hash" = "sha512-ZAGRhnnYt5Sb+Ep48ntHtUYXntR/68aQnGSf9pD2XOEn/YGJWqB4lJ2puOrx19EqUEjMgBWpou6GPZdYELigMg==";
+        };
+        _Zv5nQHmu = {
+            "id" = "Zv5nQHmu";
+            "file" = "better_deco-fabric-26.2-2.0.0.jar";
+            "hash" = "sha512-R/PW9BNyF4LMsQilSrlTf5oqeuoTt33Vcmovkvky5jmuF9QCZnrQYYNnEXNP/vUK0UXMPR8WCsuIsWIdqqbRkQ==";
+        };
+        _4FUwMmvL = {
+            "id" = "4FUwMmvL";
+            "file" = "better_deco-fabric-1.21.1-2.0.1.jar";
+            "hash" = "sha512-Zs3wrwjmje33nlFs/fyE67KRSH5bc3IBhaTfyu3LJBYubXis34sNAfS0tDCVWvGvJXfZk2qMvdvOtHrdgC/KoA==";
+        };
+        _jQmEou2Y = {
+            "id" = "jQmEou2Y";
+            "file" = "better_deco-fabric-26.1.2-2.0.1.jar";
+            "hash" = "sha512-Png3D5Ni37iFvFTBAiAYM84Qdd33cd1lToMh+oKz0WZpQu1M33FtqQHyFb96gGYGRV38+v6yHMtmhJrXPzc+xQ==";
+        };
+        _1DdVIeVR = {
+            "id" = "1DdVIeVR";
+            "file" = "better_deco-fabric-26.2-2.0.1.jar";
+            "hash" = "sha512-cY3/LLZMNKiKESlRZMZ/7rdtg596f0FhU6A416HkFMzjveYwIuqB0hJo5OkgktEMFeTzP0X1IE+ka2vq7Om95w==";
+        };
     in {
         "zeC0nb7H" = _zeC0nb7H;
         "4iZUq9SA" = _4iZUq9SA;
@@ -308,7 +353,16 @@ let
         "OIUAgJ4R" = _OIUAgJ4R;
         "YEtSkf9R" = _YEtSkf9R;
         "hiI8mecc" = _hiI8mecc;
-        "neoforge-1.21.1" = _ioneimbM;
+        "ISwdo1of" = _ISwdo1of;
+        "5zwQVG8N" = _5zwQVG8N;
+        "8auwQtE3" = _8auwQtE3;
+        "lkDgx0nm" = _lkDgx0nm;
+        "INri9oWX" = _INri9oWX;
+        "Zv5nQHmu" = _Zv5nQHmu;
+        "4FUwMmvL" = _4FUwMmvL;
+        "jQmEou2Y" = _jQmEou2Y;
+        "1DdVIeVR" = _1DdVIeVR;
+        "neoforge-1.21.1" = _ISwdo1of;
         "neoforge-1.21.4" = _nVzLUEjK;
         "neoforge-1.21.5" = _vT1DPocg;
         "neoforge-1.21.8" = _aQu1cg1h;
@@ -317,9 +371,12 @@ let
         "neoforge-1.21.11" = _9zoBb0LL;
         "neoforge-26.1" = _30u92iMH;
         "neoforge-26.1.1" = _30u92iMH;
-        "neoforge-26.1.2" = _t5wcAj8Z;
-        "neoforge-26.2" = _hiI8mecc;
+        "neoforge-26.1.2" = _8auwQtE3;
+        "neoforge-26.2" = _INri9oWX;
         "forge-1.20.1" = _kcSYtCs7;
+        "fabric-1.21.1" = _4FUwMmvL;
+        "fabric-26.1.2" = _jQmEou2Y;
+        "fabric-26.2" = _1DdVIeVR;
         "pkg-1.0.0-NeoForge-1.21.1" = _zeC0nb7H;
         "pkg-1.0.2-NeoForge-1.21.1" = _4iZUq9SA;
         "pkg-1.0.3-NeoForge-1.21.4" = _8JubwuYO;
@@ -371,7 +428,9 @@ let
         "pkg-1.1.4.0-NeoForge-26.2" = _OIUAgJ4R;
         "pkg-1.1.4.1-NeoForge-26.2" = _YEtSkf9R;
         "pkg-1.1.4.2-NeoForge-26.2" = _hiI8mecc;
-        "default" = _hiI8mecc;
+        "pkg-2.0.0" = _Zv5nQHmu;
+        "pkg-2.0.1" = _1DdVIeVR;
+        "default" = _1DdVIeVR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better_deco";

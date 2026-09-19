@@ -116,6 +116,21 @@ let
             "file" = "mpkmod-2.3.3-fabric-26.2.jar";
             "hash" = "sha512-dlFtvJbzZG66bkoGv2Ft131z4aouiUu1toet1Ck7dheqLPbm42RUJ58x8jb+i6C1vvI1nMMXd37flPIkSmXaPA==";
         };
+        _DVxvZVR3 = {
+            "id" = "DVxvZVR3";
+            "file" = "mpkmod-2.3.4-forge-1.12.2.jar";
+            "hash" = "sha512-xxrsjt7eN/Dw0I0HIIUVRrM1WjIIs91wc+uJ4Mlt6ZDPtazb6kKK7Zw9WP+IxqUvDwTWbU2c+JIyZFX3A340Lg==";
+        };
+        _DQxVeUJN = {
+            "id" = "DQxVeUJN";
+            "file" = "mpkmod-2.3.4-forge-1.8.9.jar";
+            "hash" = "sha512-xy1T6S5AGi/O3OXl6fb6T3UFwhEF5bO+K9Xfhzr5d7gQp9pEfyye1emghkjGIINsSC7U+MQNLRRdKkqW+xl2qw==";
+        };
+        _gLUJzn6D = {
+            "id" = "gLUJzn6D";
+            "file" = "mpkmod-2.3.4-fabric-26.3.jar";
+            "hash" = "sha512-mHosGQBUNAONinuwQkeoKLi17DtIVoyMSbc0wfcHURMBjvWfV7fSR3w5ZNGpJCnSOwXsxsO9kfNQRLSh6gpawA==";
+        };
     in {
         "SISxthYo" = _SISxthYo;
         "5PEMoBA4" = _5PEMoBA4;
@@ -140,6 +155,9 @@ let
         "469LE3RN" = _469LE3RN;
         "58RIsFoA" = _58RIsFoA;
         "2rNOp9tE" = _2rNOp9tE;
+        "DVxvZVR3" = _DVxvZVR3;
+        "DQxVeUJN" = _DQxVeUJN;
+        "gLUJzn6D" = _gLUJzn6D;
         "fabric-1.20.6" = _SISxthYo;
         "fabric-1.19.4" = _fJogojRK;
         "fabric-1.20.4" = _TGaPRyfq;
@@ -153,9 +171,9 @@ let
         "fabric-26.1" = _NomzcLZs;
         "fabric-26.1.1" = _NomzcLZs;
         "fabric-26.1.2" = _NomzcLZs;
-        "fabric-26.2" = _2rNOp9tE;
-        "forge-1.8.9" = _58RIsFoA;
-        "forge-1.12.2" = _469LE3RN;
+        "fabric-26.2" = _gLUJzn6D;
+        "forge-1.8.9" = _DQxVeUJN;
+        "forge-1.12.2" = _DVxvZVR3;
         "pkg-2.0.0-pre.11" = _qI2x4FoH;
         "pkg-2.0.0" = _nmhRg9jm;
         "pkg-2.1.0" = _so1KFEel;
@@ -164,7 +182,8 @@ let
         "pkg-2.3.1" = _9PZxCrTK;
         "pkg-2.3.2" = _jsCBOxn8;
         "pkg-2.3.3" = _2rNOp9tE;
-        "default" = _2rNOp9tE;
+        "pkg-2.3.4" = _gLUJzn6D;
+        "default" = _gLUJzn6D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mpkmod-2";

@@ -56,6 +56,11 @@ let
             "file" = "steve-ai-mod-1.7.1.jar";
             "hash" = "sha512-CQnC7mrprRTNnsMwC39dlht1MCgDfoqCLhbHOazkXQUpqhD6+I72hhzvBcSMxUx6JmGBN6bQgnJ3qeyPGefY0w==";
         };
+        _SSFYPp0w = {
+            "id" = "SSFYPp0w";
+            "file" = "steve-ai-mod-1.8.0.jar";
+            "hash" = "sha512-elevPSy9r8a6c8Ufw43Sp45Ca0VI7ieg6YCGQ0XDoN0P6OC52iseCT1SS1kvHD3/PS30a6WNioOobpxfGKqslw==";
+        };
     in {
         "MDXYZCNp" = _MDXYZCNp;
         "tVRmwNi0" = _tVRmwNi0;
@@ -68,7 +73,8 @@ let
         "gtNL6OfL" = _gtNL6OfL;
         "1tMGJxnk" = _1tMGJxnk;
         "miyYHjpj" = _miyYHjpj;
-        "forge-1.20.1" = _miyYHjpj;
+        "SSFYPp0w" = _SSFYPp0w;
+        "forge-1.20.1" = _SSFYPp0w;
         "forge-1.20.2" = _M6cqIL8p;
         "forge-1.20.3" = _M6cqIL8p;
         "forge-1.20.4" = _M6cqIL8p;
@@ -86,7 +92,8 @@ let
         "pkg-1.6.0" = _gtNL6OfL;
         "pkg-1.7.0" = _1tMGJxnk;
         "pkg-1.7.1" = _miyYHjpj;
-        "default" = _miyYHjpj;
+        "pkg-1.8.0" = _SSFYPp0w;
+        "default" = _SSFYPp0w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "steve-ai";

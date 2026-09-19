@@ -386,6 +386,16 @@ let
             "file" = "legendary_monsters-2.2.2 MC 1.21.1.jar";
             "hash" = "sha512-t8SoEdunqg/dgTYFJ3/Zpr/MS5ccS1kt/tE+mblvDcX7nBMpAIC0p2YOkgAD0wcIYTSK71hTogjQ6RUh7pQ6bQ==";
         };
+        _Dfoikvr0 = {
+            "id" = "Dfoikvr0";
+            "file" = "legendary_monsters-2.2.3 MC 1.21.1.jar";
+            "hash" = "sha512-uC0tu/KLycZXlIsU4KZeTRDjh5PkGCL+aXnyLx9TPuamBK6pM9a1Wv06sA7eGIku/fxQ4NbheEhUe35svVi+bA==";
+        };
+        _7uosrcpP = {
+            "id" = "7uosrcpP";
+            "file" = "legendarymonsters-2.2.3 MC 1.20.1.jar";
+            "hash" = "sha512-6OVzi2hf0W1wM5Xt6ZCfs4cr0Y4txWOp2kjW+yMVckMWuHSKB/IHbmofMYWYEtAI1zoyUidctjC43rfEKG6LfQ==";
+        };
     in {
         "DBMeFb6S" = _DBMeFb6S;
         "7Sve1Cdn" = _7Sve1Cdn;
@@ -464,14 +474,16 @@ let
         "MXIG3mpm" = _MXIG3mpm;
         "6IqXg10L" = _6IqXg10L;
         "sHmtzdVi" = _sHmtzdVi;
-        "forge-1.20.1" = _6IqXg10L;
-        "neoforge-1.21.1" = _sHmtzdVi;
-        "pkg-1.20.1" = _ypyLABVP;
-        "pkg-1.21.1" = _C1o5aQit;
+        "Dfoikvr0" = _Dfoikvr0;
+        "7uosrcpP" = _7uosrcpP;
+        "forge-1.20.1" = _7uosrcpP;
+        "neoforge-1.21.1" = _Dfoikvr0;
+        "pkg-1.20.1" = _7uosrcpP;
+        "pkg-1.21.1" = _Dfoikvr0;
         "pkg-2.2.0" = _2U3y9S5d;
         "pkg-2.2.1" = _MXIG3mpm;
         "pkg-2.2.2" = _sHmtzdVi;
-        "default" = _sHmtzdVi;
+        "default" = _7uosrcpP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legendary-monsters";

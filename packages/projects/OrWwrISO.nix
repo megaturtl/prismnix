@@ -96,6 +96,11 @@ let
             "file" = "§5§lNo Enchant Glint §f§l26.2.zip";
             "hash" = "sha512-GTkr7nKVch5ebKWMBLY0XbEaCNkgdKdnVpfEFxtZooJI/U1B7fDyPNr7cgJhoIxvI0evPdZas0DMTmcJQ5d0Mg==";
         };
+        _yA46J07Z = {
+            "id" = "yA46J07Z";
+            "file" = "§5§lNo Enchant Glint §f§l26.3.zip";
+            "hash" = "sha512-V08A5x8AOQhndG1GEYyi25tgOPqQo0iee5G0XsP0b+3LbOw2skEM0AkpNTOY4h9QcCEf8TFT1LzDxgC+98BAHw==";
+        };
     in {
         "1W473AeL" = _1W473AeL;
         "lTPG7S5L" = _lTPG7S5L;
@@ -116,6 +121,7 @@ let
         "5At4ahi6" = _5At4ahi6;
         "ggIHDdTG" = _ggIHDdTG;
         "ibt52MXi" = _ibt52MXi;
+        "yA46J07Z" = _yA46J07Z;
         "minecraft-1.8" = _1W473AeL;
         "minecraft-1.8.1" = _1W473AeL;
         "minecraft-1.8.2" = _1W473AeL;
@@ -161,6 +167,7 @@ let
         "minecraft-26.1.1" = _ggIHDdTG;
         "minecraft-26.1.2" = _ggIHDdTG;
         "minecraft-26.2" = _ibt52MXi;
+        "minecraft-26.3" = _yA46J07Z;
         "pkg-1.8" = _1W473AeL;
         "pkg-1.15" = _lTPG7S5L;
         "pkg-1.16" = _S4gQRe3c;
@@ -180,7 +187,8 @@ let
         "pkg-1.21.11" = _5At4ahi6;
         "pkg-26.1" = _ggIHDdTG;
         "pkg-26.2" = _ibt52MXi;
-        "default" = _ibt52MXi;
+        "pkg-26.3" = _yA46J07Z;
+        "default" = _yA46J07Z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-enchant-glint";

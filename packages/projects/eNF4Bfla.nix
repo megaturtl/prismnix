@@ -511,6 +511,21 @@ let
             "file" = "nowplaying-fabric-2.103.1+26.2.jar";
             "hash" = "sha512-+GknMKht381U3mHBAhc0u4aBUjGz6vgzAELCQZx2G9llD5vV+HGcMsMCku3o74V9/rgAmQLhluMJbpwqYur1QQ==";
         };
+        _zl2mmQGu = {
+            "id" = "zl2mmQGu";
+            "file" = "nowplaying-fabric-2.104.0-beta.1+26.3-rc-2.jar";
+            "hash" = "sha512-ZYADr33TqilTsDnKOT/mczD9pp+3psJnyIPUBICD/Eo8uGdrmYins2SNJxRhK1z3aAZ4rhAZsHJwUJFPc304CQ==";
+        };
+        _Hw2Si1zs = {
+            "id" = "Hw2Si1zs";
+            "file" = "nowplaying-neoforge-2.104.0+26.3.jar";
+            "hash" = "sha512-/SXqFvxe/3sYkSkWYL4B39KyE3yp4/fIQVZ6KwudGGHHpj+v1dSN3Fxg1qwVZVTBo6PrTI/qd+X/l9p0E7+eHg==";
+        };
+        _vQTApYUL = {
+            "id" = "vQTApYUL";
+            "file" = "nowplaying-fabric-2.104.0+26.3.jar";
+            "hash" = "sha512-ioogjwZ9Oq43iYkMW1oGShEwd/bC1U5M+pY5i+X+Lu8w8UScbvNx6jRHDpzdaFWn0jEKZ25gwNPbO3fqUiu73g==";
+        };
     in {
         "8kxnJ0In" = _8kxnJ0In;
         "2f5TojZt" = _2f5TojZt;
@@ -614,6 +629,9 @@ let
         "11CZxQeA" = _11CZxQeA;
         "ayTehBRv" = _ayTehBRv;
         "ZVOvNDo5" = _ZVOvNDo5;
+        "zl2mmQGu" = _zl2mmQGu;
+        "Hw2Si1zs" = _Hw2Si1zs;
+        "vQTApYUL" = _vQTApYUL;
         "fabric-1.19" = _8kxnJ0In;
         "fabric-1.19.1" = _8kxnJ0In;
         "fabric-1.19.2" = _8kxnJ0In;
@@ -643,6 +661,8 @@ let
         "fabric-26.1.2" = _7RTW4G7z;
         "fabric-26.2-pre-2" = _LJZ1vz3q;
         "fabric-26.2" = _ZVOvNDo5;
+        "fabric-26.3-rc-2" = _zl2mmQGu;
+        "fabric-26.3" = _vQTApYUL;
         "quilt-1.19" = _8kxnJ0In;
         "quilt-1.19.1" = _8kxnJ0In;
         "quilt-1.19.2" = _8kxnJ0In;
@@ -693,6 +713,7 @@ let
         "neoforge-26.1.1" = _2JmphtSS;
         "neoforge-26.1.2" = _2JmphtSS;
         "neoforge-26.2" = _ayTehBRv;
+        "neoforge-26.3" = _Hw2Si1zs;
         "pkg-1.4.2" = _2f5TojZt;
         "pkg-1.4.3" = _RsGf3iSX;
         "pkg-1.4.4-blanketcon" = _aJrIHaRL;
@@ -742,7 +763,9 @@ let
         "pkg-2.102.0+26.1.2" = _7RTW4G7z;
         "pkg-2.103.0+26.2" = _11CZxQeA;
         "pkg-2.103.1+26.2" = _ZVOvNDo5;
-        "default" = _ZVOvNDo5;
+        "pkg-2.104.0-beta.1+26.3-rc-2" = _zl2mmQGu;
+        "pkg-2.104.0+26.3" = _vQTApYUL;
+        "default" = _vQTApYUL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "now-playing";

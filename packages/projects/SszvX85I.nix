@@ -2536,6 +2536,86 @@ let
             "file" = "mega_showdown-fabric-1.0+1.8+1.21.1-beta2.jar";
             "hash" = "sha512-N6IIjN/SYZ2MMV73rqNdTup4lLIXj47lEy5qN5VyDQpfOD+Jo19LnAeaJP6vPBEB5zWQd+qCmk8ICWFs0z46Mw==";
         };
+        _5PtOeQNO = {
+            "id" = "5PtOeQNO";
+            "file" = "mega_showdown-neoforge-1.0+1.8+1.21.1-release.jar";
+            "hash" = "sha512-g+zqL9SJyjcmfI2YyKnmzriJY4KaxtykUjSj/mKoRJdpyaet4DTWvOYaZeCg1Kj32PNK94KAppGGspqJsWL5vg==";
+        };
+        _eT4kBnCd = {
+            "id" = "eT4kBnCd";
+            "file" = "mega_showdown-fabric-1.0+1.8+1.21.1-release.jar";
+            "hash" = "sha512-WBeRcFAO+xPDGzxMrfcc8bb18X5lw2pvRHeTEstkri0tRUTOUGqF57IC8d5yt1CFv3mvBKjWNeGIrNPdjreYEA==";
+        };
+        _xwR6G7pT = {
+            "id" = "xwR6G7pT";
+            "file" = "mega_showdown-neoforge-1.0+1.8+1.21.1-release-hotfix.jar";
+            "hash" = "sha512-XSEqqp7D/HGwPmf0cQMRKsEbD8ZJS9lggPf0wikJiF7dPNn/AkPSOTrL5fPI4mngXZ6DvSL/CV8DBCMiLmX03Q==";
+        };
+        _we79kHpG = {
+            "id" = "we79kHpG";
+            "file" = "mega_showdown-fabric-1.0+1.8+1.21.1-release-hotfix.jar";
+            "hash" = "sha512-Vc7mkF3kCsKlrJ+rL8VQLI+rd8YpQTStpRVIGidXuDVKeeA6u8cXY4cK/uHUQFgeO6BrkS8a691M1DLQJVVxTw==";
+        };
+        _1SmGI7K1 = {
+            "id" = "1SmGI7K1";
+            "file" = "mega_showdown-neoforge-1.0.1+1.8+1.21.1-release.jar";
+            "hash" = "sha512-UrkV8eD9d1fbZpHJGD1vX/YAqZFhaZS2zowC/HV0wMWYCZbMnY3E+TQqRAePJnl3zu+0o8HQn3/I4xtGpHMgmA==";
+        };
+        _5lCKWgzS = {
+            "id" = "5lCKWgzS";
+            "file" = "mega_showdown-fabric-1.0.1+1.8+1.21.1-release.jar";
+            "hash" = "sha512-qBc+/uDPLbDZ6qRd3OQSkIb/DWDQIFinE/09MxVQRuxEYu21dDqC64jeqYNCGIHfWqHOq1Sw61KyHowl7zzfDw==";
+        };
+        _TACsHsKC = {
+            "id" = "TACsHsKC";
+            "file" = "mega_showdown-fabric-1.0.2+1.8+1.21.1-release.jar";
+            "hash" = "sha512-fjFh9J2jejdj3pyWcfWgT7GkW4OJjN5Jg2Htql12N6LXAkyYuFnRWCsR3+IT2kjjDSteR3WhkUBdJJKQiZK8eQ==";
+        };
+        _gKBD3cFm = {
+            "id" = "gKBD3cFm";
+            "file" = "mega_showdown-neoforge-1.0.2+1.8+1.21.1-release.jar";
+            "hash" = "sha512-+UFxkCdxI8AHeLQ4wCLPFgbCUeJW8gidemw3tDU45AovwKWhljA/qXf4QjjnGwuVLdF3AAgLBeUSbWDBk/TPEg==";
+        };
+        _7rZtaKKs = {
+            "id" = "7rZtaKKs";
+            "file" = "mega_showdown-neoforge-1.1.0+1.8+1.21.1-release.jar";
+            "hash" = "sha512-sVYMz6ZAL3C22vHvSuZdOhtoaOZEMppMzCf/piJxZbOnXEWZAoBskNy7ueygCIl/xdqIrAtCdPEPiF/F9WMO+Q==";
+        };
+        _3GWQ1CgZ = {
+            "id" = "3GWQ1CgZ";
+            "file" = "mega_showdown-fabric-1.1.0+1.8+1.21.1-release.jar";
+            "hash" = "sha512-M2jLEXF7+jm4GYoVdNRSqcMSheyeWvwD/YoMFKNumi5huVziIYRwKu1SQd8UxofDwpZzRVY3p6GVv7h0pVCiAQ==";
+        };
+        _6vY4bzUW = {
+            "id" = "6vY4bzUW";
+            "file" = "mega_showdown-neoforge-1.1.1+1.8+1.21.1-release.jar";
+            "hash" = "sha512-T9jyAKsyz9y6Lu4BUGkqdUpRS1cb4H069fxYTYNwGrqrxgbRiX4Q6bgyjYTSCmz85kQ6C4eOAmWnYGWTSBY+bA==";
+        };
+        _XyDOdRJO = {
+            "id" = "XyDOdRJO";
+            "file" = "mega_showdown-fabric-1.1.1+1.8+1.21.1-release.jar";
+            "hash" = "sha512-zvLdKHaZ0CTTcX0+anCwlvAP2PWTQl5Kpee/8VsF/W2hLiz7a+mjRFkXSOpML8mpNoMU1r6bMScDJCG1UXHR9Q==";
+        };
+        _OqWDIPCw = {
+            "id" = "OqWDIPCw";
+            "file" = "mega_showdown-neoforge-1.1.2+1.8+1.21.1-release.jar";
+            "hash" = "sha512-8DVpTwfZePzitBxTqrUrid0wuPhd5tN+aueJDKpQpn8BvCXEIAGiQiG9hS85oKmIMdAmGHTiFVfgLRHXb4dH+Q==";
+        };
+        _8IvR0RIb = {
+            "id" = "8IvR0RIb";
+            "file" = "mega_showdown-fabric-1.1.2+1.8+1.21.1-release.jar";
+            "hash" = "sha512-sdZr6nf+O1WmgS+ilr3i4uTHLojaUZyUeN5+DA1OFEnrzrCuEF43BCfUhJijNk26+dbTsd3UrVXI1F6HroYrqg==";
+        };
+        _TKdAixuR = {
+            "id" = "TKdAixuR";
+            "file" = "mega_showdown-fabric-1.2.0+1.8.1+1.21.1-release.jar";
+            "hash" = "sha512-qH7nj1AE+vS0TQtYCRRDuRwD2Dbbegri9ffykoM5TTZzBAl0Uv2o/kbWfFgzuTZ3Q1W9KTJ/DH7o5ipwvG2pMw==";
+        };
+        _PzUYM6Nz = {
+            "id" = "PzUYM6Nz";
+            "file" = "mega_showdown-neoforge-1.2.0+1.8.1+1.21.1-release.jar";
+            "hash" = "sha512-W4qpRS6HiUvSIvo7RCuRGa0Y5ypmsNG50yqlnO3VVKKAg1VS5qoz6uj6PUT4I7iI2vujJ3tvvtxYdzo7KX3Wng==";
+        };
     in {
         "8MhcOV9z" = _8MhcOV9z;
         "5iAMyW2K" = _5iAMyW2K;
@@ -3044,8 +3124,24 @@ let
         "vQ0WD6tl" = _vQ0WD6tl;
         "PGkVYcc9" = _PGkVYcc9;
         "gI4z1gxU" = _gI4z1gxU;
-        "fabric-1.21.1" = _gI4z1gxU;
-        "neoforge-1.21.1" = _PGkVYcc9;
+        "5PtOeQNO" = _5PtOeQNO;
+        "eT4kBnCd" = _eT4kBnCd;
+        "xwR6G7pT" = _xwR6G7pT;
+        "we79kHpG" = _we79kHpG;
+        "1SmGI7K1" = _1SmGI7K1;
+        "5lCKWgzS" = _5lCKWgzS;
+        "TACsHsKC" = _TACsHsKC;
+        "gKBD3cFm" = _gKBD3cFm;
+        "7rZtaKKs" = _7rZtaKKs;
+        "3GWQ1CgZ" = _3GWQ1CgZ;
+        "6vY4bzUW" = _6vY4bzUW;
+        "XyDOdRJO" = _XyDOdRJO;
+        "OqWDIPCw" = _OqWDIPCw;
+        "8IvR0RIb" = _8IvR0RIb;
+        "TKdAixuR" = _TKdAixuR;
+        "PzUYM6Nz" = _PzUYM6Nz;
+        "fabric-1.21.1" = _TKdAixuR;
+        "neoforge-1.21.1" = _PzUYM6Nz;
         "pkg-3.0.0-beta-fabric" = _8MhcOV9z;
         "pkg-3.0.0-beta-neoforge" = _5iAMyW2K;
         "pkg-1.0.0-fabric" = _IayKdKqg;
@@ -3474,7 +3570,15 @@ let
         "pkg-1.9.9+1.7.3+1.21.1" = _FQVvOOcv;
         "pkg-1.0+1.8+1.21.1-beta" = _vQ0WD6tl;
         "pkg-1.0+1.8+1.21.1-beta2" = _gI4z1gxU;
-        "default" = _gI4z1gxU;
+        "pkg-1.0+1.8+1.21.1-release" = _eT4kBnCd;
+        "pkg-1.0+1.8+1.21.1-release-hotfix" = _we79kHpG;
+        "pkg-1.0.1+1.8+1.21.1-release" = _5lCKWgzS;
+        "pkg-1.0.2+1.8+1.21.1-release" = _gKBD3cFm;
+        "pkg-1.1.0+1.8+1.21.1-release" = _3GWQ1CgZ;
+        "pkg-1.1.1+1.8+1.21.1-release" = _XyDOdRJO;
+        "pkg-1.1.2+1.8+1.21.1-release" = _8IvR0RIb;
+        "pkg-1.2.0+1.8.1+1.21.1-release" = _PzUYM6Nz;
+        "default" = _PzUYM6Nz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-mega-showdown";

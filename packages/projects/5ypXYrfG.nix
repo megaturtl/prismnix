@@ -11,13 +11,20 @@ let
             "file" = "ballastmod-0.1.0.jar";
             "hash" = "sha512-5p0oOlIJgxIjEMVXYwaqrNSjJrXDjePsH92FlWG9driQWBf4/3AE5W1cQ+kNMEZQqqUjxf5R1zMfr2GSHdwvfQ==";
         };
+        _XzlV3NlT = {
+            "id" = "XzlV3NlT";
+            "file" = "ballastmod-0.1.1.jar";
+            "hash" = "sha512-mxrt5tuWZ9lvBO/g7kQ9dPxW97HTNsc+49iUvDHoUKrjDqgWCD4THgCjvoaQ6Zp1Z7823v7YPWdy+vjGO/GKyw==";
+        };
     in {
         "LamwSdgs" = _LamwSdgs;
         "uJwkM1Xh" = _uJwkM1Xh;
-        "neoforge-1.21.1" = _uJwkM1Xh;
+        "XzlV3NlT" = _XzlV3NlT;
+        "neoforge-1.21.1" = _XzlV3NlT;
         "pkg-0.0.7" = _LamwSdgs;
         "pkg-0.1.0" = _uJwkM1Xh;
-        "default" = _uJwkM1Xh;
+        "pkg-0.1.1" = _XzlV3NlT;
+        "default" = _XzlV3NlT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-ballast";

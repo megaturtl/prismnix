@@ -26,12 +26,18 @@ let
             "file" = "pause_music_on_pause-2.0.0.jar";
             "hash" = "sha512-2w/wy0a/944Rle2/T/U/i5Vzqv3t44vKUtYLhDT5eiojDfwpDNJHcqZzuxUp4cjSeHa/GNAB1ktdGWJheYpW4Q==";
         };
+        _z65Jur7Z = {
+            "id" = "z65Jur7Z";
+            "file" = "pause_music_on_pause-3.0.0.jar";
+            "hash" = "sha512-G0eqKG0aM4G2r+Qh/VRUY0SwHI62R570nADSSUntWjgJspQDb2DAKbBjUB0jxgmvhmR8IngUVhSMk432H0vsqg==";
+        };
     in {
         "s6NCPSIf" = _s6NCPSIf;
         "ff647fO5" = _ff647fO5;
         "UPFDfpMw" = _UPFDfpMw;
         "RqyBALvT" = _RqyBALvT;
         "55ivzWYo" = _55ivzWYo;
+        "z65Jur7Z" = _z65Jur7Z;
         "fabric-1.21.6" = _UPFDfpMw;
         "fabric-1.21.7" = _UPFDfpMw;
         "fabric-1.21.8" = _UPFDfpMw;
@@ -41,6 +47,8 @@ let
         "fabric-26.1" = _55ivzWYo;
         "fabric-26.1.1" = _55ivzWYo;
         "fabric-26.1.2" = _55ivzWYo;
+        "fabric-26.2" = _z65Jur7Z;
+        "fabric-26.3" = _z65Jur7Z;
         "quilt-1.21.6" = _s6NCPSIf;
         "quilt-1.21.7" = _s6NCPSIf;
         "quilt-1.21.8" = _s6NCPSIf;
@@ -55,12 +63,15 @@ let
         "neoforge-26.1" = _55ivzWYo;
         "neoforge-26.1.1" = _55ivzWYo;
         "neoforge-26.1.2" = _55ivzWYo;
+        "neoforge-26.2" = _z65Jur7Z;
+        "neoforge-26.3" = _z65Jur7Z;
         "pkg-1.0.0+fabric" = _s6NCPSIf;
         "pkg-1.0.0+neo" = _ff647fO5;
         "pkg-1.0.1+fabric" = _UPFDfpMw;
         "pkg-1.0.1+neo" = _RqyBALvT;
         "pkg-2.0.0" = _55ivzWYo;
-        "default" = _55ivzWYo;
+        "pkg-3.0.0" = _z65Jur7Z;
+        "default" = _z65Jur7Z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pause-music-on-pause";

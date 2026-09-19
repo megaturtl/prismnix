@@ -111,6 +111,11 @@ let
             "file" = "flib-26.1.2-0.2.10.jar";
             "hash" = "sha512-8hxLSEs3klVzjB/ucdhKgoXt3uBWL1kuQbDpv+GYWdE42VuW2s0UIXZCQIDbzxKEprttQoSTQpbf6o/R55/wkQ==";
         };
+        _uMEW9ig6 = {
+            "id" = "uMEW9ig6";
+            "file" = "flib-26.1.2-0.2.11.jar";
+            "hash" = "sha512-04MAUZyShAf/QI8h86LxSHWDuu79SJ96jdi3X/WkuqtRMS0DO/d13usJng8ibl3bff75kqLpPB3pIJ5UIkDnvA==";
+        };
     in {
         "2KRI9zKW" = _2KRI9zKW;
         "AyDfPGqL" = _AyDfPGqL;
@@ -134,6 +139,7 @@ let
         "i46U23pv" = _i46U23pv;
         "FTLOp4iO" = _FTLOp4iO;
         "qzXWEOPs" = _qzXWEOPs;
+        "uMEW9ig6" = _uMEW9ig6;
         "forge-1.19.4" = _2KRI9zKW;
         "forge-1.20" = _AyDfPGqL;
         "forge-1.20.1" = _CDihtEoy;
@@ -141,7 +147,7 @@ let
         "forge-1.19.2" = _U76oIwHC;
         "neoforge-1.20.1" = _CDihtEoy;
         "neoforge-1.21.1" = _i46U23pv;
-        "neoforge-26.1.2" = _qzXWEOPs;
+        "neoforge-26.1.2" = _uMEW9ig6;
         "pkg-1.19.4-0.0.4" = _2KRI9zKW;
         "pkg-1.20.1-0.0.5" = _AyDfPGqL;
         "pkg-1.20.1-0.0.14" = _Qv28YacJ;
@@ -164,7 +170,8 @@ let
         "pkg-1.21.1-0.2.9" = _i46U23pv;
         "pkg-26.1.2-0.2.9" = _FTLOp4iO;
         "pkg-26.1.2-0.2.10" = _qzXWEOPs;
-        "default" = _qzXWEOPs;
+        "pkg-26.1.2-0.2.11" = _uMEW9ig6;
+        "default" = _uMEW9ig6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flib";

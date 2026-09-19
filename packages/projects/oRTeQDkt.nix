@@ -21,11 +21,17 @@ let
             "file" = "Visible Shield Cooldown v1.3.zip";
             "hash" = "sha512-bkwsqL+d99lgrVIPD0SBRHzz6ip77eDzF9POhvkD9LhA1KLltKtnaWg8vrsB2vnpSCerqfzwQ1ZFgTVjKOAucw==";
         };
+        _9yXqkwLh = {
+            "id" = "9yXqkwLh";
+            "file" = "Visible Shield Cooldown v2.0.zip";
+            "hash" = "sha512-3eJHoo0C0PFmO1dRV74H1DowLvG+iWg4KTgTZVPOGR0sYDVjPCQfaHTDj1kclJ5PfYP4RDG0JDc2bQq8f9DIBg==";
+        };
     in {
         "f088GLPc" = _f088GLPc;
         "bbi7GhcW" = _bbi7GhcW;
         "vPZ8MGij" = _vPZ8MGij;
         "UFhAL3WZ" = _UFhAL3WZ;
+        "9yXqkwLh" = _9yXqkwLh;
         "minecraft-1.21.4" = _f088GLPc;
         "minecraft-1.21.5" = _f088GLPc;
         "minecraft-1.21.6" = _f088GLPc;
@@ -33,16 +39,18 @@ let
         "minecraft-1.21.8" = _f088GLPc;
         "minecraft-1.21.9" = _vPZ8MGij;
         "minecraft-1.21.10" = _vPZ8MGij;
-        "minecraft-1.21.11" = _vPZ8MGij;
-        "minecraft-26.1" = _UFhAL3WZ;
-        "minecraft-26.1.1" = _UFhAL3WZ;
-        "minecraft-26.1.2" = _UFhAL3WZ;
-        "minecraft-26.2" = _UFhAL3WZ;
+        "minecraft-1.21.11" = _9yXqkwLh;
+        "minecraft-26.1" = _9yXqkwLh;
+        "minecraft-26.1.1" = _9yXqkwLh;
+        "minecraft-26.1.2" = _9yXqkwLh;
+        "minecraft-26.2" = _9yXqkwLh;
+        "minecraft-26.3" = _9yXqkwLh;
         "pkg-1.0" = _f088GLPc;
         "pkg-1.1" = _bbi7GhcW;
         "pkg-1.2" = _vPZ8MGij;
         "pkg-1.3" = _UFhAL3WZ;
-        "default" = _UFhAL3WZ;
+        "pkg-2.0" = _9yXqkwLh;
+        "default" = _9yXqkwLh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "visible-shield-cooldown-rp";

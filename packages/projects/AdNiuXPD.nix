@@ -616,6 +616,11 @@ let
             "file" = "elytra_red_dragon-1.0.1-mc26.1.2.zip";
             "hash" = "sha512-l9Hcuvuz+ErdUIHN0GyRjLLd4EhhIfFWSghtNJkeQKUo9IeHZS7J68YB5/3WaXjF0XGyuVIq07nfL9Yl6iOAZw==";
         };
+        _iKVJ2j5h = {
+            "id" = "iKVJ2j5h";
+            "file" = "elytra_red_dragon-1.0.1-mc26.3.zip";
+            "hash" = "sha512-1YWRqdS8kbWrArhB1CX6kjfLnuwq0iVDKS7HVYk2olpNQ2F9cpU4LUjfCuE1odIqsgOArUUyeHvRiG9Y+h8BcA==";
+        };
     in {
         "P5CreNiY" = _P5CreNiY;
         "m6vs7FY2" = _m6vs7FY2;
@@ -740,6 +745,7 @@ let
         "3ScB3R5t" = _3ScB3R5t;
         "q93nh083" = _q93nh083;
         "c9RqsDDj" = _c9RqsDDj;
+        "iKVJ2j5h" = _iKVJ2j5h;
         "minecraft-1.9" = _irnCjAEI;
         "minecraft-1.9.1" = _ujQXmcjg;
         "minecraft-1.9.2" = _qBIiVxEf;
@@ -804,9 +810,10 @@ let
         "minecraft-26.2" = _3ScB3R5t;
         "minecraft-26.1.1" = _q93nh083;
         "minecraft-26.1.2" = _c9RqsDDj;
+        "minecraft-26.3" = _iKVJ2j5h;
         "pkg-1.0.0" = _XfzFH572;
-        "pkg-1.0.1" = _c9RqsDDj;
-        "default" = _c9RqsDDj;
+        "pkg-1.0.1" = _iKVJ2j5h;
+        "default" = _iKVJ2j5h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-collective-red-dragon-elytra";

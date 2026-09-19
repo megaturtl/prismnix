@@ -56,6 +56,11 @@ let
             "file" = "Lads-SkyBox-4.0-26.2.zip";
             "hash" = "sha512-jVhzJSX2yaRuI/J74OwyML1ZP8xV72sSLh+G5xv/wav2cdWhWJ+49YifSU0bKU04Qi2/TRgQ3E2JHuBveS3ijA==";
         };
+        _o0GSFtcm = {
+            "id" = "o0GSFtcm";
+            "file" = "Nebulous-Nights-4.0-26.3.zip";
+            "hash" = "sha512-7pwI4zUfMKyXGbjAalcnXI1rv4bHszYVxfhUM2xeoNDDhYJxOs/yKjlIqJrKN2Fu1qXuzA4K7MtA6hzNA4R9wA==";
+        };
     in {
         "ozjOAvHT" = _ozjOAvHT;
         "ctiUEQ7a" = _ctiUEQ7a;
@@ -68,6 +73,7 @@ let
         "gZV7cgNF" = _gZV7cgNF;
         "U1avf9X3" = _U1avf9X3;
         "Mq1H6IzE" = _Mq1H6IzE;
+        "o0GSFtcm" = _o0GSFtcm;
         "minecraft-1.20.6" = _CUAy7RGl;
         "minecraft-1.21" = _CUAy7RGl;
         "minecraft-1.21.1" = _CUAy7RGl;
@@ -76,19 +82,20 @@ let
         "minecraft-1.21.6" = _ac0wxKLH;
         "minecraft-1.21.7" = _ac0wxKLH;
         "minecraft-1.21.8" = _ac0wxKLH;
-        "minecraft-1.21.9" = _Mq1H6IzE;
-        "minecraft-1.21.10" = _Mq1H6IzE;
-        "minecraft-1.21.11" = _Mq1H6IzE;
-        "minecraft-26.1" = _Mq1H6IzE;
-        "minecraft-26.1.1" = _Mq1H6IzE;
-        "minecraft-26.1.2" = _Mq1H6IzE;
-        "minecraft-26.2" = _Mq1H6IzE;
+        "minecraft-1.21.9" = _o0GSFtcm;
+        "minecraft-1.21.10" = _o0GSFtcm;
+        "minecraft-1.21.11" = _o0GSFtcm;
+        "minecraft-26.1" = _o0GSFtcm;
+        "minecraft-26.1.1" = _o0GSFtcm;
+        "minecraft-26.1.2" = _o0GSFtcm;
+        "minecraft-26.2" = _o0GSFtcm;
+        "minecraft-26.3" = _o0GSFtcm;
         "pkg-3.0" = _CUAy7RGl;
         "pkg-2.0" = _ktrBZJ9Z;
         "pkg-3.1" = _3hvx0p8c;
         "pkg-3.2" = _f0BqrZ93;
-        "pkg-4.0" = _Mq1H6IzE;
-        "default" = _Mq1H6IzE;
+        "pkg-4.0" = _o0GSFtcm;
+        "default" = _o0GSFtcm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lads-skybox";

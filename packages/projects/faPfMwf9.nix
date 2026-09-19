@@ -61,6 +61,16 @@ let
             "file" = "DaylightChangerStruggle-0.0.4+26.2.jar";
             "hash" = "sha512-Ut18x/T9F4ST+6xHbk+5sKdGoGECjPcitKxSoEsK/oEGO8G5xp7Y1J/QD1LgHhaufeh8pboVPaMtBGOc0I/MfQ==";
         };
+        _XJ3uibAU = {
+            "id" = "XJ3uibAU";
+            "file" = "DaylightChangerStruggle-0.0.5+1.21.11.jar";
+            "hash" = "sha512-B4g9v44WHdNa8QZ2tLv5g1fXRxtPEfg4KnJLlmwogAsfKma5HuSkOKKpqxuK+07hGayvX8/al/ybYUA26e0hdg==";
+        };
+        _htkPKG0z = {
+            "id" = "htkPKG0z";
+            "file" = "DaylightChangerStruggle-0.0.5+26.3+hotfix.jar";
+            "hash" = "sha512-vxxWb0TGr1z/s2wHygNfeOiEp0yr+Xj1qOYOgPwthQaUAOEkJ0J5reZ2iTTFpmCdPwdXyFFT6ozHG4a39s/C8w==";
+        };
     in {
         "QhKvAVDU" = _QhKvAVDU;
         "2v0ZzdnY" = _2v0ZzdnY;
@@ -74,6 +84,8 @@ let
         "Mx0Vtdzo" = _Mx0Vtdzo;
         "sKQ4ezuU" = _sKQ4ezuU;
         "qdFgESiJ" = _qdFgESiJ;
+        "XJ3uibAU" = _XJ3uibAU;
+        "htkPKG0z" = _htkPKG0z;
         "fabric-1.18" = _XXpIPX9U;
         "fabric-1.18.1" = _XXpIPX9U;
         "fabric-1.18.2" = _XXpIPX9U;
@@ -89,11 +101,12 @@ let
         "fabric-1.21.10-rc1" = _CoBORfP8;
         "fabric-1.21.10" = _CoBORfP8;
         "fabric-1.21.1" = _JGUcBo5V;
-        "fabric-1.21.11" = _Mx0Vtdzo;
+        "fabric-1.21.11" = _XJ3uibAU;
         "fabric-26.1" = _sKQ4ezuU;
         "fabric-26.1.1" = _sKQ4ezuU;
         "fabric-26.1.2" = _sKQ4ezuU;
         "fabric-26.2" = _qdFgESiJ;
+        "fabric-26.3" = _htkPKG0z;
         "quilt-1.18" = _XXpIPX9U;
         "quilt-1.18.1" = _XXpIPX9U;
         "quilt-1.18.2" = _XXpIPX9U;
@@ -105,7 +118,8 @@ let
         "pkg-0.0.2" = _UhjPXo7Y;
         "pkg-0.0.3" = _9pONE8gl;
         "pkg-0.0.4" = _qdFgESiJ;
-        "default" = _qdFgESiJ;
+        "pkg-0.0.5" = _htkPKG0z;
+        "default" = _htkPKG0z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "daylightchangerstruggle";

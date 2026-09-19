@@ -41,6 +41,21 @@ let
             "file" = "preferred-gamerules-2.0.0+26.2.jar";
             "hash" = "sha512-MfwuyAz3hL5zblL21ZnNM41WEbKfvHjqEt6XdUmUMwBvRdam0f8jXHLnon1gDbmhJOQghrG9GQtETkQeYozVmQ==";
         };
+        _3MZP8lUr = {
+            "id" = "3MZP8lUr";
+            "file" = "preferred-gamerules-2.0.1+1.21.11.jar";
+            "hash" = "sha512-SgBq6a3RxmNA0ri2UcMpxM0p1WOz6wYzxCs95PesBeBZQcDg++qhubrtK5h+0Dj3eelt+TTTzYbirIrkKhDtjA==";
+        };
+        _Ji4K5Mo3 = {
+            "id" = "Ji4K5Mo3";
+            "file" = "preferred-gamerules-2.0.1+26.1.jar";
+            "hash" = "sha512-ebT+BR7UfZbePo/1uljPBUuxrwCXVAXC06N1+8p/qTeJDDPW8xlXNC+1VSghg/PYMumHrFUOsY4AquGiM+1kSg==";
+        };
+        _WKRFEEMl = {
+            "id" = "WKRFEEMl";
+            "file" = "preferred-gamerules-2.0.1+26.2.jar";
+            "hash" = "sha512-YyF/L9tHuj20Q2RCuKJUppRytCIXJlPqqXNuLhOEkTcwqdDZb2spWxMNTXZDjRubQA2Zukmc7PFvQR+tXaZ+HQ==";
+        };
     in {
         "e75KFkFM" = _e75KFkFM;
         "52Ea4Tb2" = _52Ea4Tb2;
@@ -50,6 +65,9 @@ let
         "2vr6e2h5" = _2vr6e2h5;
         "YwL9Cznl" = _YwL9Cznl;
         "J2BDfGaG" = _J2BDfGaG;
+        "3MZP8lUr" = _3MZP8lUr;
+        "Ji4K5Mo3" = _Ji4K5Mo3;
+        "WKRFEEMl" = _WKRFEEMl;
         "fabric-1.19.4" = _WEWDEB3T;
         "fabric-1.20" = _WEWDEB3T;
         "fabric-1.20.1" = _WEWDEB3T;
@@ -71,9 +89,12 @@ let
         "fabric-1.21.8" = _90OsbdLc;
         "fabric-1.21.9" = _90OsbdLc;
         "fabric-1.21.10" = _90OsbdLc;
-        "fabric-1.21.11" = _2vr6e2h5;
-        "fabric-26.1" = _YwL9Cznl;
-        "fabric-26.2" = _J2BDfGaG;
+        "fabric-1.21.11" = _3MZP8lUr;
+        "fabric-26.1" = _Ji4K5Mo3;
+        "fabric-26.2" = _WKRFEEMl;
+        "fabric-26.1.1" = _Ji4K5Mo3;
+        "fabric-26.1.2" = _Ji4K5Mo3;
+        "fabric-26.3" = _WKRFEEMl;
         "pkg-1.0.0+1.19.4" = _e75KFkFM;
         "pkg-1.1.0+1.19.4" = _52Ea4Tb2;
         "pkg-1.1.1+1.19.4" = _WEWDEB3T;
@@ -82,7 +103,10 @@ let
         "pkg-2.0.0+1.21.11" = _2vr6e2h5;
         "pkg-2.0.0+26.1" = _YwL9Cznl;
         "pkg-2.0.0+26.2" = _J2BDfGaG;
-        "default" = _J2BDfGaG;
+        "pkg-2.0.1+1.21.11" = _3MZP8lUr;
+        "pkg-2.0.1+26.1" = _Ji4K5Mo3;
+        "pkg-2.0.1+26.2" = _WKRFEEMl;
+        "default" = _WKRFEEMl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "preferred-gamerules";

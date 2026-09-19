@@ -256,6 +256,91 @@ let
             "file" = "overflowparticles-1.1.5+1.21.8.jar";
             "hash" = "sha512-0AUQVLdjYmA0XWCqWQfW6soRD8TmDRVKR/AAYLZ8gwyaSPn/iN+ZBaT2NOPeXIX6FIWjHaZohzMgS7o/NtZqAw==";
         };
+        _OrNe7zTs = {
+            "id" = "OrNe7zTs";
+            "file" = "overflowparticles-1.1.6+1.21.1.jar";
+            "hash" = "sha512-/ataEbrOXTUG5njn9qosCW+VMcDEywzn19nk080aJQLd2HEa6UkUnNZSb85mOvVTy8+yrnBjdqyhZiPmFItvqw==";
+        };
+        _U2iuIvzg = {
+            "id" = "U2iuIvzg";
+            "file" = "overflowparticles-1.1.6+1.21.4.jar";
+            "hash" = "sha512-63DPDOuribpFFNdFtJzxrcfVMguFWJECE7RAbgLexlgkaxr9WMDeeTjVoMT7ABWnNY3r6wVK5FmU6QfSg27vjg==";
+        };
+        _Gv7s6Vfk = {
+            "id" = "Gv7s6Vfk";
+            "file" = "overflowparticles-1.1.6+1.21.5.jar";
+            "hash" = "sha512-QeGy2U2dtetQXZLv3BtZr/wV+fmTywTiw1+Oe6gvFhkc5PSfSsDZMkk64xzqoOOGRhXMwMtf3N6hd9X2lwrjNQ==";
+        };
+        _UIpqxkKy = {
+            "id" = "UIpqxkKy";
+            "file" = "overflowparticles-1.1.6+1.21.8.jar";
+            "hash" = "sha512-mXgoNZiUoid+KzdY3s1wr1cjfsqik40Z4oEHDGMyxSd+rjuDuN1d8SmlE4DeNqXRUsKL/z4CCseJFRIhQvSX4w==";
+        };
+        _q7hRokh3 = {
+            "id" = "q7hRokh3";
+            "file" = "overflowparticles-1.1.6+1.21.10.jar";
+            "hash" = "sha512-AF7swkw/efJxQRHj61IZxlcT8c8I6CSrVpRcmkbu0tiYCxQac82v+O9GsjzXzgUtZrBpfqtHoLBNiQQCccE9Kw==";
+        };
+        _oGE053YZ = {
+            "id" = "oGE053YZ";
+            "file" = "overflowparticles-1.1.6+1.21.11.jar";
+            "hash" = "sha512-yr90DCu06UOsnuWhBR/KlHpQTocmnqtl4FJa25XMc/Eo5nXh4A8q4j60lmUO0/gx1Jgff0uG/l+/mZEwNlDGtA==";
+        };
+        _iiVbQN0M = {
+            "id" = "iiVbQN0M";
+            "file" = "overflowparticles-1.1.6+26.1.jar";
+            "hash" = "sha512-alHJNSCvG7OmhNWC4IRQfeBQ4ybMtYE+Jrgbp+CXoyxofhpMhojfQn2l3pdx0ZTP2+PS0PSCRopO9QLooWudig==";
+        };
+        _iUV2cSlD = {
+            "id" = "iUV2cSlD";
+            "file" = "overflowparticles-1.1.6+26.2.jar";
+            "hash" = "sha512-3vQiSdjtdMCpd6+EoruKUAvl34OYEX4Hg/bUknG1DaTN0B+HfoY9Ma+r972JQOSR4tL0mRzFibg4Z7OfI/XrsQ==";
+        };
+        _7xtE7d5t = {
+            "id" = "7xtE7d5t";
+            "file" = "overflowparticles-1.2.0+1.21.1.jar";
+            "hash" = "sha512-5pNs1TUlkRCFr4UBHjWFgdherWbO0fFeUrAllN12n1BrU9ClSAZAGBs615UhS37lsvsceq93j9LNpKUy7TH6yA==";
+        };
+        _3go3VLgu = {
+            "id" = "3go3VLgu";
+            "file" = "overflowparticles-1.2.0+1.21.4.jar";
+            "hash" = "sha512-BlfW0kyJnVzthZjkN0Z6cFxkilxoFX5Kzw65Lx6hynM1qLS26O898hHGCwvGrZKLr80hw++KvUCgbjqSx0glgA==";
+        };
+        _rqEeB6rG = {
+            "id" = "rqEeB6rG";
+            "file" = "overflowparticles-1.2.0+1.21.5.jar";
+            "hash" = "sha512-xU/05Nk8OFoiUyoE/WX5Nr8j82TuCLboVBph/I7vtoMWg5JBEz2Rq16nuqODUcikrvkStIe1FcgRGGcyXVMZxg==";
+        };
+        _LlWpVdMN = {
+            "id" = "LlWpVdMN";
+            "file" = "overflowparticles-1.2.0+1.21.8.jar";
+            "hash" = "sha512-e02nQWoLe5HIJoZd2wiDKLnvYKJnCsOBSTgwzTm7hW2XNic6OuGqiXRsdCxq0N+GzAzB6z+MWY8UB/cwKycmhA==";
+        };
+        _h9XnWhEL = {
+            "id" = "h9XnWhEL";
+            "file" = "overflowparticles-1.2.0+1.21.10.jar";
+            "hash" = "sha512-n/DMTF3QrCYsTD4JnPYRQj/6Mj11tz4SdVi49w1ZgpY/MIkYWtEkUL2npVh5A4+xlgn6AWPGvZmAuDBOZYI4vg==";
+        };
+        _bFt4MRXi = {
+            "id" = "bFt4MRXi";
+            "file" = "overflowparticles-1.2.0+1.21.11.jar";
+            "hash" = "sha512-VRyONohorqwfDug0Itda/zb7V9oD4TO5xVMq2C1jScOfc5/a0IJIK2KjqjkZd4BqEQLTVFqRg9KPvTWqev0w+A==";
+        };
+        _AY33L2B9 = {
+            "id" = "AY33L2B9";
+            "file" = "overflowparticles-1.2.0+26.1.jar";
+            "hash" = "sha512-qw0/wDN7A6EPDWwK2hLtwt0BxbgVFaJBinfq1unFUU/LRa2MqXtsya4DWPgWqxu6Lqw8Iu6/59Tk0QnWw08EyQ==";
+        };
+        _U5C2Qijt = {
+            "id" = "U5C2Qijt";
+            "file" = "overflowparticles-1.2.0+26.2.jar";
+            "hash" = "sha512-J0rd5obT090X4KG7/kIwlqcqxiJ6Aa2g7wI4md/jbeZXJl7Qg32RI4WvrVNff7KQyDTEsmfbolQ3t5fdzBooEw==";
+        };
+        _LYqxic00 = {
+            "id" = "LYqxic00";
+            "file" = "overflowparticles-1.2.0+26.3.jar";
+            "hash" = "sha512-qByBP3GYioh50GCjskIj5HP0AH/ZDmJydJeHECwrSUi3GLcIhYxNPXFqaDBVkfRpD9z9sbouc6TmDcHXBL9wPw==";
+        };
     in {
         "Yc9UZmFC" = _Yc9UZmFC;
         "N1zHFQp5" = _N1zHFQp5;
@@ -308,17 +393,35 @@ let
         "CId1sVbD" = _CId1sVbD;
         "rQDNzfGO" = _rQDNzfGO;
         "GidzT4Mn" = _GidzT4Mn;
+        "OrNe7zTs" = _OrNe7zTs;
+        "U2iuIvzg" = _U2iuIvzg;
+        "Gv7s6Vfk" = _Gv7s6Vfk;
+        "UIpqxkKy" = _UIpqxkKy;
+        "q7hRokh3" = _q7hRokh3;
+        "oGE053YZ" = _oGE053YZ;
+        "iiVbQN0M" = _iiVbQN0M;
+        "iUV2cSlD" = _iUV2cSlD;
+        "7xtE7d5t" = _7xtE7d5t;
+        "3go3VLgu" = _3go3VLgu;
+        "rqEeB6rG" = _rqEeB6rG;
+        "LlWpVdMN" = _LlWpVdMN;
+        "h9XnWhEL" = _h9XnWhEL;
+        "bFt4MRXi" = _bFt4MRXi;
+        "AY33L2B9" = _AY33L2B9;
+        "U5C2Qijt" = _U5C2Qijt;
+        "LYqxic00" = _LYqxic00;
         "forge-1.8.9" = _4JC1SCCw;
-        "fabric-1.21.11" = _1zJ888LQ;
-        "fabric-1.21.5" = _lpzVk1gB;
-        "fabric-1.21.8" = _GidzT4Mn;
-        "fabric-1.21.10" = _6mveCOOI;
-        "fabric-26.1" = _rQDNzfGO;
-        "fabric-26.1.1" = _rQDNzfGO;
-        "fabric-26.1.2" = _rQDNzfGO;
-        "fabric-1.21.4" = _UZZiSk2x;
-        "fabric-26.2" = _CId1sVbD;
-        "fabric-1.21.1" = _mgJ7aQeC;
+        "fabric-1.21.11" = _bFt4MRXi;
+        "fabric-1.21.5" = _rqEeB6rG;
+        "fabric-1.21.8" = _LlWpVdMN;
+        "fabric-1.21.10" = _h9XnWhEL;
+        "fabric-26.1" = _AY33L2B9;
+        "fabric-26.1.1" = _AY33L2B9;
+        "fabric-26.1.2" = _AY33L2B9;
+        "fabric-1.21.4" = _3go3VLgu;
+        "fabric-26.2" = _U5C2Qijt;
+        "fabric-1.21.1" = _7xtE7d5t;
+        "fabric-26.3" = _LYqxic00;
         "pkg-v1.0.0" = _Yc9UZmFC;
         "pkg-v1.0.1" = _N1zHFQp5;
         "pkg-v1.0.2" = _4JC1SCCw;
@@ -328,7 +431,9 @@ let
         "pkg-v1.1.3" = _lzJ0odDT;
         "pkg-v1.1.4" = _jii0sKSU;
         "pkg-v1.1.5" = _GidzT4Mn;
-        "default" = _GidzT4Mn;
+        "pkg-v1.1.6" = _iUV2cSlD;
+        "pkg-v1.2.0" = _LYqxic00;
+        "default" = _LYqxic00;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "overflowparticles";

@@ -51,6 +51,16 @@ let
             "file" = "rsinsertexportupgrade-fabric-1.21.1-2.1.0.jar";
             "hash" = "sha512-6kH7HJRV2JBgW1UDexxjzYuUQP3SmfksFl/9zGiagktM8YwodVu6ydURJccYi4Qh/44GN70hz+1cG8ceCqKSzA==";
         };
+        _Pc7sZi0f = {
+            "id" = "Pc7sZi0f";
+            "file" = "rsinsertexportupgrade-neoforge-1.21.1-2.1.1.jar";
+            "hash" = "sha512-oUGcUQTlIoXF72CflhNvlUWpZw59L5CGk8AJiEOxY3kjNn6Rznca+a3cMeH12ZVFX2RnYN3y3qezwhFQvoItpA==";
+        };
+        _vRJnlRQE = {
+            "id" = "vRJnlRQE";
+            "file" = "rsinsertexportupgrade-fabric-1.21.1-2.1.1.jar";
+            "hash" = "sha512-OU9r0kUvGc9BSFG8es1FKAPmkGq0N3oEi86qoaqmf3wvryYnKQRkRTzQgdu7P6piQa48gs9cqGuy0JCZKKPJyw==";
+        };
     in {
         "znh9R1iV" = _znh9R1iV;
         "3f0YXrt9" = _3f0YXrt9;
@@ -62,9 +72,11 @@ let
         "owuOMt4V" = _owuOMt4V;
         "jCCmsE4Y" = _jCCmsE4Y;
         "NT8VtHRn" = _NT8VtHRn;
+        "Pc7sZi0f" = _Pc7sZi0f;
+        "vRJnlRQE" = _vRJnlRQE;
         "forge-1.20.1" = _aKncGrVU;
-        "neoforge-1.21.1" = _jCCmsE4Y;
-        "fabric-1.21.1" = _NT8VtHRn;
+        "neoforge-1.21.1" = _Pc7sZi0f;
+        "fabric-1.21.1" = _vRJnlRQE;
         "pkg-1.20.1-1.2" = _znh9R1iV;
         "pkg-1.20.1-1.3" = _3f0YXrt9;
         "pkg-1.20.1-1.3.1" = _vm9Exg2l;
@@ -72,7 +84,8 @@ let
         "pkg-1.20.1-1.4.0" = _aKncGrVU;
         "pkg-1.21.1-2.0.0" = _Mgs1FWLS;
         "pkg-0.0.0" = _NT8VtHRn;
-        "default" = _NT8VtHRn;
+        "pkg-1.21.1-2.1.1" = _vRJnlRQE;
+        "default" = _vRJnlRQE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rs-insert-export-upgrade";

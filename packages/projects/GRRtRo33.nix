@@ -11,23 +11,31 @@ let
             "file" = "shureee's Block Icons v1.1.zip";
             "hash" = "sha512-HvBXUJfzX5Rl36JpFbSMrdyX7MowOIEMZhbVhGytl30UCXGhPOOpx+bDj4dsReFypSNKJ/Y2xeNBo7Ctc8M4PQ==";
         };
+        _3UcmuDtd = {
+            "id" = "3UcmuDtd";
+            "file" = "shureee's Block Icons v1.2.zip";
+            "hash" = "sha512-CSrhAifT9aqQHvwmKoMD16u4Krl9I3a66VnKcZ0OghpNaXPw8ZXiD+bV08IE7bsXD7lJ97jx/sVkk0vznJfK+A==";
+        };
     in {
         "n8QBu0ko" = _n8QBu0ko;
         "ev0adgR1" = _ev0adgR1;
-        "minecraft-1.21.5" = _ev0adgR1;
-        "minecraft-1.21.6" = _ev0adgR1;
-        "minecraft-1.21.7" = _ev0adgR1;
-        "minecraft-1.21.8" = _ev0adgR1;
-        "minecraft-1.21.9" = _ev0adgR1;
-        "minecraft-1.21.10" = _ev0adgR1;
-        "minecraft-1.21.11" = _ev0adgR1;
-        "minecraft-26.1" = _ev0adgR1;
-        "minecraft-26.1.1" = _ev0adgR1;
-        "minecraft-26.1.2" = _ev0adgR1;
-        "minecraft-26.2" = _ev0adgR1;
+        "3UcmuDtd" = _3UcmuDtd;
+        "minecraft-1.21.5" = _3UcmuDtd;
+        "minecraft-1.21.6" = _3UcmuDtd;
+        "minecraft-1.21.7" = _3UcmuDtd;
+        "minecraft-1.21.8" = _3UcmuDtd;
+        "minecraft-1.21.9" = _3UcmuDtd;
+        "minecraft-1.21.10" = _3UcmuDtd;
+        "minecraft-1.21.11" = _3UcmuDtd;
+        "minecraft-26.1" = _3UcmuDtd;
+        "minecraft-26.1.1" = _3UcmuDtd;
+        "minecraft-26.1.2" = _3UcmuDtd;
+        "minecraft-26.2" = _3UcmuDtd;
+        "minecraft-26.3" = _3UcmuDtd;
         "pkg-1.0" = _n8QBu0ko;
         "pkg-1.1" = _ev0adgR1;
-        "default" = _ev0adgR1;
+        "pkg-1.2" = _3UcmuDtd;
+        "default" = _3UcmuDtd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shureees-block-icons";

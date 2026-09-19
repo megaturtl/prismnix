@@ -96,6 +96,11 @@ let
             "file" = "MisakiGothic2forMC_26_2.zip";
             "hash" = "sha512-LkZAVJ3hQIMPwJAm/0ItQd+kvrdhZ6FxlUBj3M6hAfpugxe1vcWKiZQ9X3cARgArI/oJ76VnjTiVSponTO5HFg==";
         };
+        _ce2snAzP = {
+            "id" = "ce2snAzP";
+            "file" = "MisakiGothic2forMC_26_3.zip";
+            "hash" = "sha512-7NVosBr3YgwckBU424KwlKRAcUDsWSX4Lp6Q5SWI1HIx3UBv07lp8l1wB1sDVJP+6jC72DL0JqNdSqWh9tEgkA==";
+        };
     in {
         "3qB7FN86" = _3qB7FN86;
         "LQUkdPFM" = _LQUkdPFM;
@@ -116,6 +121,7 @@ let
         "WXfangUL" = _WXfangUL;
         "eXh0ubAO" = _eXh0ubAO;
         "j1gCXT9U" = _j1gCXT9U;
+        "ce2snAzP" = _ce2snAzP;
         "minecraft-1.16" = _3qB7FN86;
         "minecraft-1.16.1" = _3qB7FN86;
         "minecraft-1.16.2" = _3qB7FN86;
@@ -152,6 +158,8 @@ let
         "minecraft-26.1" = _eXh0ubAO;
         "minecraft-26.1.1" = _eXh0ubAO;
         "minecraft-26.2" = _j1gCXT9U;
+        "minecraft-26.3-rc-3" = _ce2snAzP;
+        "minecraft-26.3" = _ce2snAzP;
         "pkg-1.16" = _3qB7FN86;
         "pkg-1.17" = _LQUkdPFM;
         "pkg-1.18" = _NOZ9XUGG;
@@ -171,7 +179,8 @@ let
         "pkg-1.21.11" = _WXfangUL;
         "pkg-26.1" = _eXh0ubAO;
         "pkg-26.2" = _j1gCXT9U;
-        "default" = _j1gCXT9U;
+        "pkg-26.3" = _ce2snAzP;
+        "default" = _ce2snAzP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "misakigothic2formc";

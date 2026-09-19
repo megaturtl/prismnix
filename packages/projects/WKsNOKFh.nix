@@ -271,6 +271,11 @@ let
             "file" = "unusualend-2.3.jar";
             "hash" = "sha512-G7pSTWsMMpxp1eGWrF/xPAw14OIHB7A/RU7LrHvfysiFzfHQr33UmEwq+p8+5Lc5VZ52yqQTUINUMPlgYHhaEQ==";
         };
+        _oV8w25It = {
+            "id" = "oV8w25It";
+            "file" = "unusualend-2.3.1b.jar";
+            "hash" = "sha512-532/jYlBI547q8l/nqhYjdcxLCtNyYc303qPfcD0iH+YJt/o1BuJHMH8OQrtX99hUM4dQ5Wa+zs1/uw68aEwcQ==";
+        };
     in {
         "LYzj07bV" = _LYzj07bV;
         "eH0FM0AK" = _eH0FM0AK;
@@ -326,12 +331,13 @@ let
         "50hocvUY" = _50hocvUY;
         "IZxryekV" = _IZxryekV;
         "aY6qjJ3S" = _aY6qjJ3S;
+        "oV8w25It" = _oV8w25It;
         "forge-1.16.5" = _GrVwdQyX;
         "forge-1.18.2" = _T38TwEqm;
         "forge-1.19.2" = _pgOu3iGQ;
         "forge-1.20.1" = _IZxryekV;
         "neoforge-1.20.4" = _HTBp6VYU;
-        "neoforge-1.21.1" = _aY6qjJ3S;
+        "neoforge-1.21.1" = _oV8w25It;
         "pkg-1.0.8" = _LYzj07bV;
         "pkg-1.0.8-2" = _eH0FM0AK;
         "pkg-1.1.0" = _5oxa40QI;
@@ -380,7 +386,8 @@ let
         "pkg-2.3.1b" = _50hocvUY;
         "pkg-2.3.1c" = _IZxryekV;
         "pkg-2.3-neo-1.21.1" = _aY6qjJ3S;
-        "default" = _aY6qjJ3S;
+        "pkg-2.3.1b-neo" = _oV8w25It;
+        "default" = _oV8w25It;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unusual_end";

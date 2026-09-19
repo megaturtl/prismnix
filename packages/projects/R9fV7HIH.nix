@@ -616,6 +616,11 @@ let
             "file" = "elytra_vex-1.0.1-mc26.1.2.zip";
             "hash" = "sha512-+iufneg00Wy5afGBg/c7lKyh6j2RHI+bKpIQsnuq9kZpc9BCrrN2PHX6pCI1x9Xk3xNMCxwIwR8pMtKC+eeI/A==";
         };
+        _2wpUb9u2 = {
+            "id" = "2wpUb9u2";
+            "file" = "elytra_vex-1.0.1-mc26.3.zip";
+            "hash" = "sha512-6L2kxAIjGsTZNtnth5AnlKowmlXbO292t6y2X4ZG3qSWFPCc7FMkqvuOwY+uqtVRNH+GNYYLYzJOYb+LTE2OTA==";
+        };
     in {
         "Wx42AmhH" = _Wx42AmhH;
         "fvNxDpDW" = _fvNxDpDW;
@@ -740,6 +745,7 @@ let
         "xQdn6ub3" = _xQdn6ub3;
         "hu7zVwi7" = _hu7zVwi7;
         "1piyv8we" = _1piyv8we;
+        "2wpUb9u2" = _2wpUb9u2;
         "minecraft-1.9" = _nyu1yVDS;
         "minecraft-1.9.1" = _yoxGCvMs;
         "minecraft-1.9.2" = _KHS1dYc7;
@@ -804,9 +810,10 @@ let
         "minecraft-26.2" = _xQdn6ub3;
         "minecraft-26.1.1" = _hu7zVwi7;
         "minecraft-26.1.2" = _1piyv8we;
+        "minecraft-26.3" = _2wpUb9u2;
         "pkg-1.0.0" = _NGgCfxRS;
-        "pkg-1.0.1" = _1piyv8we;
-        "default" = _1piyv8we;
+        "pkg-1.0.1" = _2wpUb9u2;
+        "default" = _2wpUb9u2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-collective-vex-elytra";

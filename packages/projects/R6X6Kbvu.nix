@@ -51,6 +51,11 @@ let
             "file" = "VeseRP.zip";
             "hash" = "sha512-/ELLrs4QxpVKudJk8uC2T1pTafF+lViqKjCdtvikj/rrxWGk6DIwyO8mq6gHxeDRTyZ6vmrgQPHz/9Lm+JJ24w==";
         };
+        _USAW0qpC = {
+            "id" = "USAW0qpC";
+            "file" = "VeseRP.zip";
+            "hash" = "sha512-A/XytKNf9Ai0ly+vMP3vXsT6iukC2l0CPevC6RIRUPUwQOLCMMLBDGuYYxkhANF3s+n0JtP0LQZYb8qiiDLLIw==";
+        };
     in {
         "UXpTY03w" = _UXpTY03w;
         "FeYdH6EC" = _FeYdH6EC;
@@ -62,6 +67,7 @@ let
         "lk33YyVV" = _lk33YyVV;
         "RFP1HX6s" = _RFP1HX6s;
         "IpoHZIFY" = _IpoHZIFY;
+        "USAW0qpC" = _USAW0qpC;
         "minecraft-1.21.5" = _FeYdH6EC;
         "minecraft-1.21.6-pre3" = _FeYdH6EC;
         "minecraft-1.21.7" = _lk33YyVV;
@@ -71,6 +77,7 @@ let
         "minecraft-1.21.11" = _lk33YyVV;
         "minecraft-26.1" = _RFP1HX6s;
         "minecraft-26.2" = _IpoHZIFY;
+        "minecraft-26.3" = _USAW0qpC;
         "pkg-1.0" = _UXpTY03w;
         "pkg-1.0.1" = _FeYdH6EC;
         "pkg-1.0.2" = _7cZNYFLc;
@@ -81,7 +88,8 @@ let
         "pkg-1.2.2" = _lk33YyVV;
         "pkg-26.1.0" = _RFP1HX6s;
         "pkg-26.2.0" = _IpoHZIFY;
-        "default" = _IpoHZIFY;
+        "pkg-26.3.0" = _USAW0qpC;
+        "default" = _USAW0qpC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-entity-shader-effects";

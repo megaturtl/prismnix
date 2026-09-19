@@ -31,6 +31,26 @@ let
             "file" = "blaze-attack-animation-1.0.1.jar";
             "hash" = "sha512-C/bW/SadCBBw9BSXozO44dYraWFRL8SjnBMdYUZjk7r7JZ97iC4Ev/FdkcVr+Kzmvpv3QxaOptIs8D8/26taJg==";
         };
+        _tfu4Xtea = {
+            "id" = "tfu4Xtea";
+            "file" = "BlazeAttackAnimation-26.2.zip";
+            "hash" = "sha512-KEc0hKlhKK7wjvFAZbmAjLBM3P2rqvmcyIqDHYuZSVn8ZxvLDzOM6iTilUxHm/0E9U+PC0Ec8wlyyYjVQuE/yA==";
+        };
+        _p9wdvuI5 = {
+            "id" = "p9wdvuI5";
+            "file" = "BlazeAttackAnimation-26.3.zip";
+            "hash" = "sha512-HoB5O0p2Blx6SkKwuHP1heeLF5u7siUP63mwJ0oh1RQ/rrEdlAkI6fMzy3IQjjY4TRP4I+zvMSuyXqCs7MTZ9w==";
+        };
+        _dxlnS10v = {
+            "id" = "dxlnS10v";
+            "file" = "blaze-attack-animation-1.0.1.jar";
+            "hash" = "sha512-gaDj55l5QwHsBKTMvtMZkgXXp4NV5Zc2ctUNd5AktcM2UEKcKjmggyki6BZwFMSO+pOAowC8Znf/308J/dw3Xg==";
+        };
+        _rOALiiuJ = {
+            "id" = "rOALiiuJ";
+            "file" = "blaze-attack-animation-1.0.1.jar";
+            "hash" = "sha512-6YGfsTxKy9iiD6FF5xHdk9xLCcfOvQte0cdazXxEX2ALDe6UhCinJbnxfDVgFo/xYU1qKLEgTX48G2FQn3nBPA==";
+        };
     in {
         "1slGx1bh" = _1slGx1bh;
         "b6lsYvrH" = _b6lsYvrH;
@@ -38,6 +58,10 @@ let
         "bTHXInZF" = _bTHXInZF;
         "sW7t0RLb" = _sW7t0RLb;
         "ivXzHMpn" = _ivXzHMpn;
+        "tfu4Xtea" = _tfu4Xtea;
+        "p9wdvuI5" = _p9wdvuI5;
+        "dxlnS10v" = _dxlnS10v;
+        "rOALiiuJ" = _rOALiiuJ;
         "datapack-1.19.4" = _1slGx1bh;
         "datapack-1.20" = _1slGx1bh;
         "datapack-1.20.1" = _1slGx1bh;
@@ -61,6 +85,8 @@ let
         "datapack-26.1" = _sW7t0RLb;
         "datapack-26.1.1" = _sW7t0RLb;
         "datapack-26.1.2" = _sW7t0RLb;
+        "datapack-26.2" = _tfu4Xtea;
+        "datapack-26.3" = _p9wdvuI5;
         "fabric-1.19.4" = _kQLWymdq;
         "fabric-1.20" = _kQLWymdq;
         "fabric-1.20.1" = _kQLWymdq;
@@ -84,6 +110,8 @@ let
         "fabric-26.1" = _ivXzHMpn;
         "fabric-26.1.1" = _ivXzHMpn;
         "fabric-26.1.2" = _ivXzHMpn;
+        "fabric-26.2" = _dxlnS10v;
+        "fabric-26.3" = _rOALiiuJ;
         "forge-1.19.4" = _kQLWymdq;
         "forge-1.20" = _kQLWymdq;
         "forge-1.20.1" = _kQLWymdq;
@@ -107,6 +135,8 @@ let
         "forge-26.1" = _ivXzHMpn;
         "forge-26.1.1" = _ivXzHMpn;
         "forge-26.1.2" = _ivXzHMpn;
+        "forge-26.2" = _dxlnS10v;
+        "forge-26.3" = _rOALiiuJ;
         "neoforge-1.19.4" = _kQLWymdq;
         "neoforge-1.20" = _kQLWymdq;
         "neoforge-1.20.1" = _kQLWymdq;
@@ -130,6 +160,8 @@ let
         "neoforge-26.1" = _ivXzHMpn;
         "neoforge-26.1.1" = _ivXzHMpn;
         "neoforge-26.1.2" = _ivXzHMpn;
+        "neoforge-26.2" = _dxlnS10v;
+        "neoforge-26.3" = _rOALiiuJ;
         "quilt-1.19.4" = _kQLWymdq;
         "quilt-1.20" = _kQLWymdq;
         "quilt-1.20.1" = _kQLWymdq;
@@ -153,11 +185,13 @@ let
         "quilt-26.1" = _ivXzHMpn;
         "quilt-26.1.1" = _ivXzHMpn;
         "quilt-26.1.2" = _ivXzHMpn;
+        "quilt-26.2" = _dxlnS10v;
+        "quilt-26.3" = _rOALiiuJ;
         "pkg-1.0" = _b6lsYvrH;
         "pkg-1.0+mod" = _bTHXInZF;
-        "pkg-1.0.1" = _sW7t0RLb;
-        "pkg-1.0.1+mod" = _ivXzHMpn;
-        "default" = _ivXzHMpn;
+        "pkg-1.0.1" = _p9wdvuI5;
+        "pkg-1.0.1+mod" = _rOALiiuJ;
+        "default" = _rOALiiuJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blaze-attack-animation";

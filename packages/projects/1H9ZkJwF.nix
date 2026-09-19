@@ -56,6 +56,11 @@ let
             "file" = "backslot-1.3.0.jar";
             "hash" = "sha512-/DSZezC0T2iFQJkEQuZB/GDb1MNb9fepZ1Wrk046DFIIr2GuIBANzTGhrGgwsEjm5OZf7ML6T4PCsqSngsAydQ==";
         };
+        _YS6F6ZbZ = {
+            "id" = "YS6F6ZbZ";
+            "file" = "backslot-1.3.1.jar";
+            "hash" = "sha512-GYQ2AiJfSVtN7M1kS8rFEUb7EjgkBKFdUiT2t4ZvwaHz+uCfT50jZZBSdFjJ2gIRvHq+qOILDQWZ6Z3yE+9WtA==";
+        };
     in {
         "oGKu1FXR" = _oGKu1FXR;
         "89ROawe0" = _89ROawe0;
@@ -68,13 +73,14 @@ let
         "Mm2EhTlh" = _Mm2EhTlh;
         "Qle4ajEK" = _Qle4ajEK;
         "6Hql7AVT" = _6Hql7AVT;
+        "YS6F6ZbZ" = _YS6F6ZbZ;
         "fabric-1.19.2" = _oGKu1FXR;
         "fabric-1.19.4" = _89ROawe0;
         "fabric-1.20" = _TmwzUY3q;
         "fabric-1.20.1" = _l7Kcd7Hc;
         "fabric-1.20.6" = _SWcrGCEv;
         "fabric-1.21" = _r4kTAdIi;
-        "fabric-1.21.1" = _6Hql7AVT;
+        "fabric-1.21.1" = _YS6F6ZbZ;
         "pkg-1.2.11" = _oGKu1FXR;
         "pkg-1.2.13+1.19.4" = _89ROawe0;
         "pkg-1.2.13+1.20" = _TmwzUY3q;
@@ -86,7 +92,8 @@ let
         "pkg-1.2.15+1.21.1" = _Mm2EhTlh;
         "pkg-1.2.16+1.21.1" = _Qle4ajEK;
         "pkg-1.3.0+1.21.1" = _6Hql7AVT;
-        "default" = _6Hql7AVT;
+        "pkg-1.3.1+1.21.1" = _YS6F6ZbZ;
+        "default" = _YS6F6ZbZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "backslot";

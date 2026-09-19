@@ -46,6 +46,16 @@ let
             "file" = "Enhanced Leaves 26.2.zip";
             "hash" = "sha512-pz3ygjj5qfbmQgLjflRJ8R51/th5m3hZpVa2+loGGpTH2yzO2WMPoZshSJkULbEO0kk/cRvtF4jjjmNEY1d+bg==";
         };
+        _5wv7fenC = {
+            "id" = "5wv7fenC";
+            "file" = "Enhanced Leaves 26.3.zip";
+            "hash" = "sha512-hgFOzjbh0/kkpXgyk/Mm/22G/zjq5G50N9qS6tA7Hoei2JuVlJTu5WvBMzPbKJCbGsWpIRg/dbt/dQLDpLrL7Q==";
+        };
+        _egtLOWra = {
+            "id" = "egtLOWra";
+            "file" = "Enhanced Leaves 26.3.zip";
+            "hash" = "sha512-38sVUg3EWmuVLuKhLxdnfJFGNNdygMabDfY6WHXeziJqNqhHLjwI5eybUsDts7NPNz7SZaKn/SRpJ8zR9DW7kQ==";
+        };
     in {
         "PqiH180j" = _PqiH180j;
         "rAhdoI1m" = _rAhdoI1m;
@@ -56,6 +66,8 @@ let
         "llh4GloQ" = _llh4GloQ;
         "1bJo8TbH" = _1bJo8TbH;
         "xYsfDEF1" = _xYsfDEF1;
+        "5wv7fenC" = _5wv7fenC;
+        "egtLOWra" = _egtLOWra;
         "minecraft-1.21.6" = _PqiH180j;
         "minecraft-1.21.7" = _rAhdoI1m;
         "minecraft-1.21.8" = _BgMCgkEV;
@@ -66,6 +78,7 @@ let
         "minecraft-26.1.1" = _1bJo8TbH;
         "minecraft-26.1.2" = _1bJo8TbH;
         "minecraft-26.2" = _xYsfDEF1;
+        "minecraft-26.3" = _egtLOWra;
         "pkg-1.21.6" = _PqiH180j;
         "pkg-1.21.7" = _rAhdoI1m;
         "pkg-1.21.8" = _BgMCgkEV;
@@ -75,7 +88,9 @@ let
         "pkg-26.1" = _llh4GloQ;
         "pkg-26.1.1" = _1bJo8TbH;
         "pkg-26.2" = _xYsfDEF1;
-        "default" = _xYsfDEF1;
+        "pkg-26.3" = _5wv7fenC;
+        "pkg-26.3.1" = _egtLOWra;
+        "default" = _egtLOWra;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jeelh-enhanced-leaves";

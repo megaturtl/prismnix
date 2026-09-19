@@ -186,6 +186,11 @@ let
             "file" = "maparthelper-0.14.0+mc26.2.jar";
             "hash" = "sha512-t3NMI1XB2eMfxUj86Jy1jIcZaHtiZrTSUYixVEj+5YO5SiGOdH6+MXRn2fuqvZaCYGfR3S1Mru11+wGMl0H7DA==";
         };
+        _Cg6BsKEw = {
+            "id" = "Cg6BsKEw";
+            "file" = "maparthelper-0.14.1+mc26.3.jar";
+            "hash" = "sha512-LD5YMiVJoAg9wbSdREo5u3bDmNywHplqEO2/0HRhOlo+SznBrvYfpOQQMucj03edpPpw2fXLA3Yutxi56vm/JA==";
+        };
     in {
         "1v3yG4IU" = _1v3yG4IU;
         "40NNH3FQ" = _40NNH3FQ;
@@ -224,6 +229,7 @@ let
         "y4xaXqYQ" = _y4xaXqYQ;
         "5TzaNEun" = _5TzaNEun;
         "qI7pm4oN" = _qI7pm4oN;
+        "Cg6BsKEw" = _Cg6BsKEw;
         "fabric-1.21.5" = _a7zJ14IQ;
         "fabric-1.21.6" = _1VO99BdO;
         "fabric-1.21.7" = _1VO99BdO;
@@ -236,6 +242,7 @@ let
         "fabric-26.1.2" = _5TzaNEun;
         "fabric-1.21.4" = _eXenThaq;
         "fabric-26.2" = _qI7pm4oN;
+        "fabric-26.3" = _Cg6BsKEw;
         "pkg-0.9.1" = _1v3yG4IU;
         "pkg-0.9.4" = _40NNH3FQ;
         "pkg-0.9.24" = _8QnWsJdd;
@@ -249,7 +256,8 @@ let
         "pkg-0.13.1" = _XpYl6BMm;
         "pkg-0.13.1-bp" = _eXenThaq;
         "pkg-0.14.0" = _qI7pm4oN;
-        "default" = _qI7pm4oN;
+        "pkg-0.14.1" = _Cg6BsKEw;
+        "default" = _Cg6BsKEw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mapart-helper";

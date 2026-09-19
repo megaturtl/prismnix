@@ -56,6 +56,16 @@ let
             "file" = "simple-fast-happy-ghasts-2.1.1.jar";
             "hash" = "sha512-LtS0b2z7T/ppuu5EoaZcWjpCDUvCSjw1bssDpTSq4Wpe6bv/mJvUsKF8KO1MJaZyE8Rkt1YA00kWaxyTD6CdVQ==";
         };
+        _gqQ2DifJ = {
+            "id" = "gqQ2DifJ";
+            "file" = "Simple_Fast_Happy_Ghasts-Release2.1.2.zip";
+            "hash" = "sha512-mMLp/CIrO3Zz30zeD1ly+4szGsodb2H/uXjBflwOiOvGOt+PYBlq0gGS++8UQWK+vCrGOpbLwIIEjJ8kG8G5Sw==";
+        };
+        _5WVYd0PO = {
+            "id" = "5WVYd0PO";
+            "file" = "simple-fast-happy-ghasts-2.1.2.jar";
+            "hash" = "sha512-N76xB9x/cfFVirXEOyo9ZVIeFhafNpfMjz5nEl8x041+ScnFfZk2HAytI0/1nopbGxmv2X1S1sHvFFzO32gkXw==";
+        };
     in {
         "d423ULGk" = _d423ULGk;
         "M2xwJp92" = _M2xwJp92;
@@ -68,6 +78,8 @@ let
         "xjgNr4be" = _xjgNr4be;
         "Rgi5xGJV" = _Rgi5xGJV;
         "O7RVEUQc" = _O7RVEUQc;
+        "gqQ2DifJ" = _gqQ2DifJ;
+        "5WVYd0PO" = _5WVYd0PO;
         "datapack-25w21a" = _d423ULGk;
         "datapack-1.21.6" = _M2xwJp92;
         "datapack-1.21.7" = _HTR7x0jL;
@@ -79,6 +91,7 @@ let
         "datapack-26.1.1" = _LvguOWD0;
         "datapack-26.1.2" = _LvguOWD0;
         "datapack-26.2" = _Rgi5xGJV;
+        "datapack-26.3" = _gqQ2DifJ;
         "fabric-1.21.9" = _xjgNr4be;
         "fabric-1.21.10" = _xjgNr4be;
         "fabric-1.21.11" = _xjgNr4be;
@@ -86,6 +99,7 @@ let
         "fabric-26.1.1" = _xjgNr4be;
         "fabric-26.1.2" = _xjgNr4be;
         "fabric-26.2" = _O7RVEUQc;
+        "fabric-26.3" = _5WVYd0PO;
         "forge-1.21.9" = _xjgNr4be;
         "forge-1.21.10" = _xjgNr4be;
         "forge-1.21.11" = _xjgNr4be;
@@ -93,6 +107,7 @@ let
         "forge-26.1.1" = _xjgNr4be;
         "forge-26.1.2" = _xjgNr4be;
         "forge-26.2" = _O7RVEUQc;
+        "forge-26.3" = _5WVYd0PO;
         "neoforge-1.21.9" = _xjgNr4be;
         "neoforge-1.21.10" = _xjgNr4be;
         "neoforge-1.21.11" = _xjgNr4be;
@@ -100,6 +115,7 @@ let
         "neoforge-26.1.1" = _xjgNr4be;
         "neoforge-26.1.2" = _xjgNr4be;
         "neoforge-26.2" = _O7RVEUQc;
+        "neoforge-26.3" = _5WVYd0PO;
         "quilt-1.21.9" = _xjgNr4be;
         "quilt-1.21.10" = _xjgNr4be;
         "quilt-1.21.11" = _xjgNr4be;
@@ -107,6 +123,7 @@ let
         "quilt-26.1.1" = _xjgNr4be;
         "quilt-26.1.2" = _xjgNr4be;
         "quilt-26.2" = _O7RVEUQc;
+        "quilt-26.3" = _5WVYd0PO;
         "pkg-1.0.0" = _M2xwJp92;
         "pkg-1.1.0" = _HTR7x0jL;
         "pkg-1.1.1" = _88Wq9e5X;
@@ -117,7 +134,9 @@ let
         "pkg-2.1.0+mod" = _xjgNr4be;
         "pkg-2.1.1" = _Rgi5xGJV;
         "pkg-2.1.1+mod" = _O7RVEUQc;
-        "default" = _O7RVEUQc;
+        "pkg-2.1.2" = _gqQ2DifJ;
+        "pkg-2.1.2+mod" = _5WVYd0PO;
+        "default" = _5WVYd0PO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-fast-happy-ghasts";

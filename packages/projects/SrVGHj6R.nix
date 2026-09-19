@@ -91,6 +91,11 @@ let
             "file" = "PAPanorama-ChaosCubed.zip";
             "hash" = "sha512-7XYXT70qO7t/R3NhUo4Hqjrg42nM7SVq182u2k/3Ewg1qnCER80pn3y+We70gd8oqmw4F5D5iwWpbSl9u2pbYQ==";
         };
+        _wdazNA7h = {
+            "id" = "wdazNA7h";
+            "file" = "PAPanorama-WildernessBound.zip";
+            "hash" = "sha512-F3hyFKdV0/gq5ziqwKaygbeZU31XNKhNJTRkpPArN/ZybPINo4SMVEb4rGzfsezb4PeXlEtivp/4VDPFHbWd7g==";
+        };
     in {
         "yEzllRR8" = _yEzllRR8;
         "63uyQ80a" = _63uyQ80a;
@@ -110,6 +115,7 @@ let
         "xJcngWmr" = _xJcngWmr;
         "84DZ5M7K" = _84DZ5M7K;
         "9bgSKgWe" = _9bgSKgWe;
+        "wdazNA7h" = _wdazNA7h;
         "minecraft-1.21.5-pre1" = _yEzllRR8;
         "minecraft-1.21.5-pre2" = _yEzllRR8;
         "minecraft-1.21.5" = _xJcngWmr;
@@ -158,6 +164,7 @@ let
         "minecraft-26.1.1" = _84DZ5M7K;
         "minecraft-26.1.2" = _84DZ5M7K;
         "minecraft-26.2" = _9bgSKgWe;
+        "minecraft-26.3" = _wdazNA7h;
         "pkg-1.21.5" = _xJcngWmr;
         "pkg-1.21.6" = _SVaZX1nn;
         "pkg-1.21.8" = _YE5d0HAo;
@@ -172,7 +179,8 @@ let
         "pkg-1.21.4" = _ZPBCkAAT;
         "pkg-26.1" = _84DZ5M7K;
         "pkg-26.2" = _9bgSKgWe;
-        "default" = _9bgSKgWe;
+        "pkg-26.3" = _wdazNA7h;
+        "default" = _wdazNA7h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "programmer-art-panorama";

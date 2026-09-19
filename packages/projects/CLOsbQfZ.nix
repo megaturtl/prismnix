@@ -521,6 +521,41 @@ let
             "file" = "enchantonce-26.2-2.6.2.jar";
             "hash" = "sha512-vXlqIm6pg6j+uohKeFL3HKHEO4Z3Xc+Dal6M9mNN2Xn5Jqj25pkL4Hniu5Boh+8Zm9CQyKO3yuZePTGh5tJ20Q==";
         };
+        _dfazvrAq = {
+            "id" = "dfazvrAq";
+            "file" = "enchantonce-1.21.1-2.7.0.jar";
+            "hash" = "sha512-Y6W0DjlvkTH6JnT2TdVCkQap2aCIfSrSS5ix4GK0+0y96fZqxfWJv3mQDEcWks4xroEAFQMnhS50HOKZnI+zQw==";
+        };
+        _Bo5Z5tkn = {
+            "id" = "Bo5Z5tkn";
+            "file" = "enchantonce-1.21.10-2.7.0.jar";
+            "hash" = "sha512-qQ2qcjdCSlJVy4gJcgQxhwQFA8ASb1hYMdei0QKHIdCFAByRZfY9KRAcLLuUbr9+Jgojp1eKZFJw17rVVdtqmw==";
+        };
+        _d34h1OyM = {
+            "id" = "d34h1OyM";
+            "file" = "enchantonce-1.21.11-2.7.0.jar";
+            "hash" = "sha512-2iVwDsjoHPxvxn/YpAy5Rm6yjM4X57oBvLAiab26l/rDH404K84Ak1CiWF+QGHNlDs57hiqRKNcplOqgkGszVQ==";
+        };
+        _nvtTnUI6 = {
+            "id" = "nvtTnUI6";
+            "file" = "enchantonce-26.1.2-2.7.0.jar";
+            "hash" = "sha512-lsMipmMtrPwTmgRg9YGukPF6y40dxw8aE1+Nw89bgk47+XemwZx5K4fHAo3+sD+HyxS1NNPL9KecZe9UinREoA==";
+        };
+        _uhPag506 = {
+            "id" = "uhPag506";
+            "file" = "enchantonce-26.2-2.7.0.jar";
+            "hash" = "sha512-CLDoGfWIvFh0WgIRllrohZyFQPbSSaciM8iNvJzQVnZc2fQMfRVYZJElCabVwtlbikgaStdFPWeyc7T/wj5o1Q==";
+        };
+        _UJJeLdmC = {
+            "id" = "UJJeLdmC";
+            "file" = "enchantonce-1.20.1-forge-2.7.0.jar";
+            "hash" = "sha512-hw4o2i8KuOYGR6NjJLB8BtDwsTh/9B9m5diXitjqWrVOwvy2SGv3H5a8e6pNOSdZK/5nwtV6paUvm9Lvm33qew==";
+        };
+        _XOV2gTq9 = {
+            "id" = "XOV2gTq9";
+            "file" = "enchantonce-26.3-2.7.0.jar";
+            "hash" = "sha512-9b3160hVk/zW1T8vMvanzyg/KB5K7v22RtIyELZ0Ff+XuR/g/15FvQFYcsuzA3iM2GwFgIvv8YqPshJUPcgl+A==";
+        };
     in {
         "sBckdwjD" = _sBckdwjD;
         "48zD7zT5" = _48zD7zT5;
@@ -626,23 +661,31 @@ let
         "xtGloUbx" = _xtGloUbx;
         "kuOYw2Rv" = _kuOYw2Rv;
         "RrZel7gG" = _RrZel7gG;
+        "dfazvrAq" = _dfazvrAq;
+        "Bo5Z5tkn" = _Bo5Z5tkn;
+        "d34h1OyM" = _d34h1OyM;
+        "nvtTnUI6" = _nvtTnUI6;
+        "uhPag506" = _uhPag506;
+        "UJJeLdmC" = _UJJeLdmC;
+        "XOV2gTq9" = _XOV2gTq9;
         "neoforge-1.21.4" = _oyoNDYr6;
-        "neoforge-1.21.1" = _DqdEmRk5;
-        "neoforge-1.21.5" = _wPXXkKeV;
-        "neoforge-1.21.6" = _wPXXkKeV;
+        "neoforge-1.21.1" = _dfazvrAq;
+        "neoforge-1.21.5" = _Bo5Z5tkn;
+        "neoforge-1.21.6" = _Bo5Z5tkn;
         "neoforge-1.21.2" = _pmWDDnif;
         "neoforge-1.21.3" = _pmWDDnif;
-        "neoforge-1.21.7" = _wPXXkKeV;
+        "neoforge-1.21.7" = _Bo5Z5tkn;
         "neoforge-1.20.5" = _VTpHV52h;
         "neoforge-1.20.6" = _VTpHV52h;
-        "neoforge-1.21.8" = _wPXXkKeV;
-        "neoforge-1.21.9" = _wPXXkKeV;
-        "neoforge-1.21.10" = _wPXXkKeV;
-        "neoforge-1.21.11" = _xtGloUbx;
-        "neoforge-26.1" = _Q4DnXpgY;
-        "neoforge-26.1.1" = _Q4DnXpgY;
-        "neoforge-26.1.2" = _Q4DnXpgY;
-        "neoforge-26.2" = _RrZel7gG;
+        "neoforge-1.21.8" = _Bo5Z5tkn;
+        "neoforge-1.21.9" = _Bo5Z5tkn;
+        "neoforge-1.21.10" = _Bo5Z5tkn;
+        "neoforge-1.21.11" = _d34h1OyM;
+        "neoforge-26.1" = _nvtTnUI6;
+        "neoforge-26.1.1" = _nvtTnUI6;
+        "neoforge-26.1.2" = _nvtTnUI6;
+        "neoforge-26.2" = _uhPag506;
+        "neoforge-26.3" = _XOV2gTq9;
         "forge-1.21" = _4aNrCPnu;
         "forge-1.21.1" = _4aNrCPnu;
         "forge-1.21.3" = _H9tpMJuV;
@@ -650,7 +693,7 @@ let
         "forge-1.21.5" = _H9tpMJuV;
         "forge-1.20.6" = _q6VCRlxX;
         "forge-1.20.2" = _rStVYqSZ;
-        "forge-1.20.1" = _hsWN0AUl;
+        "forge-1.20.1" = _UJJeLdmC;
         "pkg-1.21.4-1.0.3" = _sBckdwjD;
         "pkg-1.21.1-1.0.1" = _48zD7zT5;
         "pkg-1.21.5-1.0.4" = _A05PMJRi;
@@ -755,7 +798,14 @@ let
         "pkg-1.21.11-2.6.1" = _xtGloUbx;
         "pkg-26.2-2.6.1" = _kuOYw2Rv;
         "pkg-26.2-2.6.2" = _RrZel7gG;
-        "default" = _RrZel7gG;
+        "pkg-1.21.1-2.7.0" = _dfazvrAq;
+        "pkg-1.21.10-2.7.0" = _Bo5Z5tkn;
+        "pkg-1.21.11-2.7.0" = _d34h1OyM;
+        "pkg-26.1.2-2.7.0" = _nvtTnUI6;
+        "pkg-26.2-2.7.0" = _uhPag506;
+        "pkg-1.20.1-forge-2.7.0" = _UJJeLdmC;
+        "pkg-26.3-2.7.0" = _XOV2gTq9;
+        "default" = _XOV2gTq9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantonce";

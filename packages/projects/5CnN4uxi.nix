@@ -561,6 +561,31 @@ let
             "file" = "M1-(1.20.6-1.21.4)(New).jar";
             "hash" = "sha512-GEaQ9D67moPiOfDrXqMaQN/6dPCIkvL0C89CyuqVtarr2sRZH/UkFk1/PcOAiWOKxwHNQzLtJZUX9KHSxGn+aQ==";
         };
+        _XaIl32v8 = {
+            "id" = "XaIl32v8";
+            "file" = "M1-(1.20.3-1.20.4)(New).jar";
+            "hash" = "sha512-I0iaHJKgXmjmJCgY/BTzvNHtxBuzTw418BxPqiPmlRZgYVCOd2SqhZ90KcMSfyEgv2roEmfdDCXyWWbEJpyG/A==";
+        };
+        _yQ4SZ2Y9 = {
+            "id" = "yQ4SZ2Y9";
+            "file" = "M1-(1.20-1.20.1)(New).jar";
+            "hash" = "sha512-lv1+7fd7qmuKwT5ZePGC7iycuk9urAvjraJIjOWIAkX9J45NE/txo4xLRnXRnQLOKdavz6VVU5LVaXbVpwDESA==";
+        };
+        _Mgnjdzo6 = {
+            "id" = "Mgnjdzo6";
+            "file" = "M1-(1.19.x)(New).jar";
+            "hash" = "sha512-OaNlS7XZTolP+I1Fqqa6EZ3RYekYPEqLX094Uv/lQnzS73brHeIiwfCOLqF3ay7vJ+Da5No2BFuruKxlUcqJMg==";
+        };
+        _3HB6wnRW = {
+            "id" = "3HB6wnRW";
+            "file" = "M1-(1.18.x)(New).jar";
+            "hash" = "sha512-EXLfBElWv6QBMqwGmH8tvVS5BZV16W81gz5bdkdkj6AWvSvkoqyvpxcFZpToB7DUlZj/AgKdRz78HoM+1OlG+g==";
+        };
+        _E2PCN0Ak = {
+            "id" = "E2PCN0Ak";
+            "file" = "M1-(1.16.x)(New).jar";
+            "hash" = "sha512-HWocsSQgmGME1ys5KdGYPVMjFbop5BWFDOYgupPa2EhXpHAM8bSoG2qWeZqL4H4E57nANPni7vmaazDhTbnwgg==";
+        };
     in {
         "2nAtcj1B" = _2nAtcj1B;
         "SjFRGMnv" = _SjFRGMnv;
@@ -674,29 +699,34 @@ let
         "yjGIdmcs" = _yjGIdmcs;
         "PdyezqYS" = _PdyezqYS;
         "IFWtMQan" = _IFWtMQan;
-        "forge-1.19.2" = _lzdYnHrO;
-        "forge-1.20.1" = _Jz2LeOK8;
+        "XaIl32v8" = _XaIl32v8;
+        "yQ4SZ2Y9" = _yQ4SZ2Y9;
+        "Mgnjdzo6" = _Mgnjdzo6;
+        "3HB6wnRW" = _3HB6wnRW;
+        "E2PCN0Ak" = _E2PCN0Ak;
+        "forge-1.19.2" = _Mgnjdzo6;
+        "forge-1.20.1" = _yQ4SZ2Y9;
         "forge-1.21.5" = _PdyezqYS;
         "forge-1.21.4" = _IFWtMQan;
-        "forge-1.18.2" = _sePYMsa6;
-        "forge-1.20" = _6pkd7bId;
-        "forge-1.16.5" = _sQDrVaUk;
+        "forge-1.18.2" = _3HB6wnRW;
+        "forge-1.20" = _yQ4SZ2Y9;
+        "forge-1.16.5" = _E2PCN0Ak;
         "forge-1.21" = _IFWtMQan;
         "forge-1.21.3" = _IFWtMQan;
-        "forge-1.18.1" = _gbt6QTtF;
+        "forge-1.18.1" = _3HB6wnRW;
         "forge-1.17.1" = _zsS9qgLA;
-        "forge-1.18" = _vQiaZHfA;
-        "forge-1.19.1" = _85wppJNS;
-        "forge-1.19.3" = _d0dG13aj;
-        "forge-1.19.4" = _gK7EFkcb;
-        "forge-1.19" = _gXKnuVWG;
+        "forge-1.18" = _3HB6wnRW;
+        "forge-1.19.1" = _Mgnjdzo6;
+        "forge-1.19.3" = _Mgnjdzo6;
+        "forge-1.19.4" = _Mgnjdzo6;
+        "forge-1.19" = _Mgnjdzo6;
         "forge-1.20.2" = _GahTle2f;
-        "forge-1.20.3" = _D7WMYoCM;
-        "forge-1.20.4" = _qOfTF8t9;
+        "forge-1.20.3" = _XaIl32v8;
+        "forge-1.20.4" = _XaIl32v8;
         "forge-1.21.1" = _IFWtMQan;
         "forge-1.20.6" = _IFWtMQan;
-        "forge-1.16.3" = _78ucJNXk;
-        "forge-1.16.4" = _Mg7XiP7x;
+        "forge-1.16.3" = _E2PCN0Ak;
+        "forge-1.16.4" = _E2PCN0Ak;
         "forge-26.1" = _y17Rc8uF;
         "forge-26.1.1" = _y17Rc8uF;
         "forge-26.1.2" = _y17Rc8uF;
@@ -708,6 +738,9 @@ let
         "forge-1.21.7" = _yjGIdmcs;
         "forge-1.21.8" = _yjGIdmcs;
         "forge-1.21.2" = _IFWtMQan;
+        "forge-1.16" = _E2PCN0Ak;
+        "forge-1.16.1" = _E2PCN0Ak;
+        "forge-1.16.2" = _E2PCN0Ak;
         "fabric-1.20.1" = _gYmdUsMx;
         "fabric-1.19.2" = _dLHYHewi;
         "fabric-1.18.2" = _hNovfvGe;
@@ -803,7 +836,12 @@ let
         "pkg-M1-(1.21.6-1.21.8)(New)" = _yjGIdmcs;
         "pkg-M1-(1.21.5)(New)" = _PdyezqYS;
         "pkg-M1-(1.20.6-1.21.4)(New)" = _IFWtMQan;
-        "default" = _IFWtMQan;
+        "pkg-M1-(1.20.3-1.20.4)(New)" = _XaIl32v8;
+        "pkg-M1-(1.20-1.20.1)(New)" = _yQ4SZ2Y9;
+        "pkg-M1-(1.19.x)(New)" = _Mgnjdzo6;
+        "pkg-M1-(1.18.x)(New)" = _3HB6wnRW;
+        "pkg-M1-(1.16.x)(New)" = _E2PCN0Ak;
+        "default" = _E2PCN0Ak;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "allmobs";

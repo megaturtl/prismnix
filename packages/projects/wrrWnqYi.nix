@@ -31,6 +31,21 @@ let
             "file" = "hex-spellwheel-fabric-1.1.1.jar";
             "hash" = "sha512-bm1qGgZyav8HPB2vdfawBEe9L2M2kn4IAw8p1g0XU1a2aU1Y8pFuH/8QN1azEBvkqSzs7wI9zRyt1VZ1Y/oA+g==";
         };
+        _xh8JXIuH = {
+            "id" = "xh8JXIuH";
+            "file" = "spellwheel-fabric-1.2.0.jar";
+            "hash" = "sha512-4l8HbuJP31wOaIJmDeAYq3dLuBJ20eehe5PI4c62nRHVRDRFPRNiiL5bfe3g4iwVuZ+IHHBYHVsr1g/BYjoSRw==";
+        };
+        _NRDjBfW3 = {
+            "id" = "NRDjBfW3";
+            "file" = "spellwheel-fabric-1.2.0.jar";
+            "hash" = "sha512-cYgivrbuiPIpu/5ZtfWDGeBOa9pbHncREzLlDbeGBXXS8mE9Jpm8hoJYfFERxDkT80pA3+8wCxV1rNVYtR2ifA==";
+        };
+        _SMeBQzzS = {
+            "id" = "SMeBQzzS";
+            "file" = "spellwheel-forge-1.2.0.jar";
+            "hash" = "sha512-y1uFB6CR0Fq250ihZD03ozMFoQ/ObCo675kPKkpSvz5NmQQ9izBTzt9X+LnzpY5CC7jMLx9/REVjdPvrXMv/ww==";
+        };
     in {
         "koz1gR4G" = _koz1gR4G;
         "OpRKBM1t" = _OpRKBM1t;
@@ -38,15 +53,21 @@ let
         "T7frA5Q3" = _T7frA5Q3;
         "DXxmmAQj" = _DXxmmAQj;
         "rgN5Bpzv" = _rgN5Bpzv;
-        "fabric-1.20.1" = _rgN5Bpzv;
-        "forge-1.20.1" = _DXxmmAQj;
+        "xh8JXIuH" = _xh8JXIuH;
+        "NRDjBfW3" = _NRDjBfW3;
+        "SMeBQzzS" = _SMeBQzzS;
+        "fabric-1.20.1" = _NRDjBfW3;
+        "forge-1.20.1" = _SMeBQzzS;
         "pkg-1.0.0-fabric" = _koz1gR4G;
         "pkg-1.0.0-forge" = _OpRKBM1t;
         "pkg-1.1.0-fabric" = _zxrz42lA;
         "pkg-1.1.0-forge" = _T7frA5Q3;
         "pkg-1.1.1-forge" = _DXxmmAQj;
         "pkg-1.1.1-fabric" = _rgN5Bpzv;
-        "default" = _rgN5Bpzv;
+        "pkg-1.2.0.alpha-fabric" = _xh8JXIuH;
+        "pkg-1.2.0-fabric" = _NRDjBfW3;
+        "pkg-1.2.0-forge" = _SMeBQzzS;
+        "default" = _SMeBQzzS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hex-spell-wheel";

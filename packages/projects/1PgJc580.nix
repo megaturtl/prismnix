@@ -86,6 +86,11 @@ let
             "file" = "vanillarice-v0.1.8-mc26.2.jar";
             "hash" = "sha512-zcebyHdmJUJ/CJprbp1kv7SWgIxdtgcAl65JpR6z3bths1k23r1JWWt81vR9Ubl1+tRx8eghJzaZd+XTajK7fA==";
         };
+        _hNHTeUXo = {
+            "id" = "hNHTeUXo";
+            "file" = "vanillarice-v0.1.8-mc26.3.jar";
+            "hash" = "sha512-ShQRLJ98LDVq7/wRmnS6tFH//zoq/PaHKt7vhii1uHKSLkPesXF2Dzr7s+lTq3Uy6lNEHQs7HE6o/AvhVJom2Q==";
+        };
     in {
         "5PIqaPNv" = _5PIqaPNv;
         "lpZUBwvB" = _lpZUBwvB;
@@ -104,6 +109,7 @@ let
         "7suNy08G" = _7suNy08G;
         "lY5GaUlG" = _lY5GaUlG;
         "KtxK6c4q" = _KtxK6c4q;
+        "hNHTeUXo" = _hNHTeUXo;
         "fabric-1.19" = _5PIqaPNv;
         "fabric-1.19.1" = _5PIqaPNv;
         "fabric-1.19.2" = _5PIqaPNv;
@@ -129,6 +135,7 @@ let
         "fabric-26.1" = _lY5GaUlG;
         "fabric-26.1.1" = _lY5GaUlG;
         "fabric-26.2" = _KtxK6c4q;
+        "fabric-26.3" = _hNHTeUXo;
         "pkg-0.1.1-1.19" = _5PIqaPNv;
         "pkg-0.1.2-1.20" = _lpZUBwvB;
         "pkg-0.1.3-1.20" = _6bxH8zzo;
@@ -146,7 +153,8 @@ let
         "pkg-0.1.8-1.21.11" = _7suNy08G;
         "pkg-v0.1.8-mc26.1" = _lY5GaUlG;
         "pkg-v0.1.8-mc26.2" = _KtxK6c4q;
-        "default" = _KtxK6c4q;
+        "pkg-v0.1.8-mc26.3" = _hNHTeUXo;
+        "default" = _hNHTeUXo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanillarice";

@@ -3046,6 +3046,26 @@ let
             "file" = "Roundabout-forge-1.20.1-3.4.8.jar";
             "hash" = "sha512-wdvW++ZYPHFCk952zeYMX4u//PiZhExBOKqRxn0LVObAnG1dPzZtrMhj6WPQbm6klvVS+dPejjX0Wxt1Cccs3g==";
         };
+        _MHEwxUOk = {
+            "id" = "MHEwxUOk";
+            "file" = "Roundabout-fabric-1.20.1-3.4.9.jar";
+            "hash" = "sha512-F7r3XTUWr1nQ2KyVED0Uno3cixDV2a4W/Ezri7FZ/1yJcDFFRyo2sK9PHCZyCSoVm4qlpaBvK/EoQOh0VBagdw==";
+        };
+        _zTWxfCkW = {
+            "id" = "zTWxfCkW";
+            "file" = "Roundabout-forge-1.20.1-3.4.9.jar";
+            "hash" = "sha512-j5ISNavfKpVGLftUdE9DCDLa1CsW+58SCjaSsnufMrIEszserOZr98ewWWbMX3Co6aVj2Zhq2FlbCERMbLKsuA==";
+        };
+        _gwvMg06o = {
+            "id" = "gwvMg06o";
+            "file" = "Roundabout-fabric-1.20.1-3.5.0.jar";
+            "hash" = "sha512-NPAWQKdZKlUc/6JrmdrBYFx152mTA7R78Brzk3GdCNKhyvWlEr1OCpleCQLeIv/WkMlnNJst2ji1OiPBUOGBGA==";
+        };
+        _bB0zChpc = {
+            "id" = "bB0zChpc";
+            "file" = "Roundabout-forge-1.20.1-3.5.0.jar";
+            "hash" = "sha512-yGF9I4aSrOiMiMCbp9QmpP5EBnTUOn9/S6FF7o1/Skl4/tMFbBeAvgAJno1s1zgY5KMqYHY0CmNnCWg0nbz2Bw==";
+        };
     in {
         "IBC5eZVT" = _IBC5eZVT;
         "hu49wVYJ" = _hu49wVYJ;
@@ -3656,8 +3676,12 @@ let
         "8b6xpbCa" = _8b6xpbCa;
         "Dt2qgIVK" = _Dt2qgIVK;
         "Be8DoViR" = _Be8DoViR;
-        "fabric-1.20.1" = _Dt2qgIVK;
-        "forge-1.20.1" = _Be8DoViR;
+        "MHEwxUOk" = _MHEwxUOk;
+        "zTWxfCkW" = _zTWxfCkW;
+        "gwvMg06o" = _gwvMg06o;
+        "bB0zChpc" = _bB0zChpc;
+        "fabric-1.20.1" = _gwvMg06o;
+        "forge-1.20.1" = _bB0zChpc;
         "forge-1.20.2" = _f749OaVt;
         "forge-1.20.3" = _f749OaVt;
         "forge-1.20.4" = _f749OaVt;
@@ -3975,7 +3999,9 @@ let
         "pkg-3.4.6" = _FFxS08kI;
         "pkg-3.4.7" = _8b6xpbCa;
         "pkg-3.4.8" = _Be8DoViR;
-        "default" = _Be8DoViR;
+        "pkg-3.4.9" = _zTWxfCkW;
+        "pkg-3.5.0" = _bB0zChpc;
+        "default" = _bB0zChpc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "roundabout_the_jojo_mod";

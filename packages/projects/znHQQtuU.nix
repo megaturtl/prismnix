@@ -471,6 +471,11 @@ let
             "file" = "moredelight-26.06.23-26.2-fabric.jar";
             "hash" = "sha512-QAXL2GBZLfER+zh+ScocZYjaTWDRVf8MDw2AP1KULRcMU5M3byFel9Sg1WTHouBFNFt2+Jt93QLsJhshfLZ1Kg==";
         };
+        _pX0gsjqf = {
+            "id" = "pX0gsjqf";
+            "file" = "moredelight-26.09.16-26.3-fabric.jar";
+            "hash" = "sha512-i2o55+aRKa8YKdTKF+u4UzpVwixS+Wvq3Jhwbm5E0fuzxSexNUyB7raIZDOp197sR8qzANw6R7HXCsLqi5RD5g==";
+        };
     in {
         "mZ4S3n9t" = _mZ4S3n9t;
         "YoUC9ZDN" = _YoUC9ZDN;
@@ -566,6 +571,7 @@ let
         "DpW4EgJo" = _DpW4EgJo;
         "q01zzzeZ" = _q01zzzeZ;
         "RcXOnDXk" = _RcXOnDXk;
+        "pX0gsjqf" = _pX0gsjqf;
         "fabric-1.20.1" = _blAMDKGE;
         "fabric-1.19.2" = _onvv8glj;
         "fabric-1.21" = _sIZPOFH7;
@@ -581,6 +587,7 @@ let
         "fabric-26.1.1" = _q01zzzeZ;
         "fabric-26.1.2" = _q01zzzeZ;
         "fabric-26.2" = _RcXOnDXk;
+        "fabric-26.3" = _pX0gsjqf;
         "quilt-1.20.1" = _3KdJ9dVX;
         "quilt-1.19.2" = _onvv8glj;
         "quilt-1.21" = _t4YUvHQh;
@@ -692,7 +699,8 @@ let
         "pkg-26.05.20a-1.21-neoforge" = _DpW4EgJo;
         "pkg-26.05.26-26.1-fabric" = _q01zzzeZ;
         "pkg-26.06.23-26.2-fabric" = _RcXOnDXk;
-        "default" = _RcXOnDXk;
+        "pkg-26.09.16-26.3-fabric" = _pX0gsjqf;
+        "default" = _pX0gsjqf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-delight";

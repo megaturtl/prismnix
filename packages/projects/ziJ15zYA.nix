@@ -51,6 +51,16 @@ let
             "file" = "Short Swords PVP 1.8.9.zip";
             "hash" = "sha512-IRW8LTCMzuQ/RcyFyvnVKlmr6sFPX7XhzjaxMFyPmO0pKHfhnRNeV3WHII/QJmokpAz3tbZ9RWC6KAC5MaaS1Q==";
         };
+        _gDmNWtt5 = {
+            "id" = "gDmNWtt5";
+            "file" = "Short Swords PVP 26.1.x.zip";
+            "hash" = "sha512-h2R0O4bsBFGKCFICw6F9WowoT0oG06QpmPMreeFcQHtvj5SAVh4t+B2cb4l9/Uhi47Trqv6NwqV7/UTuXMFI1g==";
+        };
+        _ltaQUIBU = {
+            "id" = "ltaQUIBU";
+            "file" = "Short Swords PVP 26.2.x.zip";
+            "hash" = "sha512-UWpdlBwIrru/Ip2fac4OyhXJloIvL0tbfjxEwze0Eep6wdnB0EVdmBRuJNiirUJZZ9LpQ632WQkVPbnm4uXslA==";
+        };
     in {
         "Q3FfFIkR" = _Q3FfFIkR;
         "eOweNjav" = _eOweNjav;
@@ -62,6 +72,8 @@ let
         "o4SHSy8F" = _o4SHSy8F;
         "lWgHr25X" = _lWgHr25X;
         "e6LFKjsW" = _e6LFKjsW;
+        "gDmNWtt5" = _gDmNWtt5;
+        "ltaQUIBU" = _ltaQUIBU;
         "minecraft-1.21" = _Q3FfFIkR;
         "minecraft-1.21.1" = _eOweNjav;
         "minecraft-1.21.2" = _GZKwMzxD;
@@ -84,6 +96,10 @@ let
         "minecraft-1.8.7" = _e6LFKjsW;
         "minecraft-1.8.8" = _e6LFKjsW;
         "minecraft-1.8.9" = _e6LFKjsW;
+        "minecraft-26.1" = _gDmNWtt5;
+        "minecraft-26.1.1" = _gDmNWtt5;
+        "minecraft-26.1.2" = _gDmNWtt5;
+        "minecraft-26.2" = _ltaQUIBU;
         "pkg-1.0.1" = _Q3FfFIkR;
         "pkg-1.0.2" = _eOweNjav;
         "pkg-1.0.3" = _GZKwMzxD;
@@ -94,7 +110,9 @@ let
         "pkg-1.0.8" = _o4SHSy8F;
         "pkg-1.0.9" = _lWgHr25X;
         "pkg-1.0.0" = _e6LFKjsW;
-        "default" = _e6LFKjsW;
+        "pkg-26.1" = _gDmNWtt5;
+        "pkg-26.2" = _ltaQUIBU;
+        "default" = _ltaQUIBU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "short-swords-pvp";

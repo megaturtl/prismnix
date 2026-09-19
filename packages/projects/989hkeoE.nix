@@ -76,6 +76,11 @@ let
             "file" = "Randomly Rotated Flower Pots.zip";
             "hash" = "sha512-RUJvimqjTEhow2pGKmEu5urvQA/uM2IhF5njo9QUEOmE5M3vF5Xv4Cy9x1N+4bfFS33iFB2TfcjZ6QZNtecVAg==";
         };
+        _MLt3mNyz = {
+            "id" = "MLt3mNyz";
+            "file" = "Randomly Rotated Flower Pots.zip";
+            "hash" = "sha512-uEqW6f/ARL/u7NPfllLWy7AGs8JfRhJVPZ0ds5vT8dpLupyPRqCx18tSkzDZbA1CMUNeYbpwaZt0rTNDcAuaUQ==";
+        };
     in {
         "VCkLfs7k" = _VCkLfs7k;
         "7nn1vgk5" = _7nn1vgk5;
@@ -92,6 +97,7 @@ let
         "eJHcNkZz" = _eJHcNkZz;
         "U6dCXs9p" = _U6dCXs9p;
         "a3ILvARJ" = _a3ILvARJ;
+        "MLt3mNyz" = _MLt3mNyz;
         "minecraft-1.8.9" = _VCkLfs7k;
         "minecraft-1.12.2" = _7nn1vgk5;
         "minecraft-1.15.2" = _gj7k65Jb;
@@ -111,16 +117,17 @@ let
         "minecraft-1.21.3" = _NWVlgNlJ;
         "minecraft-1.21.4" = _NWVlgNlJ;
         "minecraft-1.21.5" = _NWVlgNlJ;
-        "minecraft-1.21.6" = _a3ILvARJ;
-        "minecraft-1.21.7" = _a3ILvARJ;
-        "minecraft-1.21.8" = _a3ILvARJ;
-        "minecraft-1.21.9" = _a3ILvARJ;
-        "minecraft-1.21.10" = _a3ILvARJ;
-        "minecraft-1.21.11" = _a3ILvARJ;
-        "minecraft-26.1" = _a3ILvARJ;
-        "minecraft-26.1.1" = _a3ILvARJ;
-        "minecraft-26.1.2" = _a3ILvARJ;
-        "minecraft-26.2" = _a3ILvARJ;
+        "minecraft-1.21.6" = _MLt3mNyz;
+        "minecraft-1.21.7" = _MLt3mNyz;
+        "minecraft-1.21.8" = _MLt3mNyz;
+        "minecraft-1.21.9" = _MLt3mNyz;
+        "minecraft-1.21.10" = _MLt3mNyz;
+        "minecraft-1.21.11" = _MLt3mNyz;
+        "minecraft-26.1" = _MLt3mNyz;
+        "minecraft-26.1.1" = _MLt3mNyz;
+        "minecraft-26.1.2" = _MLt3mNyz;
+        "minecraft-26.2" = _MLt3mNyz;
+        "minecraft-26.3" = _MLt3mNyz;
         "pkg-1.0" = _pcPmUXc8;
         "pkg-1.1" = _WVkfXyWJ;
         "pkg-1.2" = _SLA5E5qJ;
@@ -130,7 +137,8 @@ let
         "pkg-1.6" = _eJHcNkZz;
         "pkg-1.7" = _U6dCXs9p;
         "pkg-1.8" = _a3ILvARJ;
-        "default" = _a3ILvARJ;
+        "pkg-1.9" = _MLt3mNyz;
+        "default" = _MLt3mNyz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "randomlyrotatingflowerpots";

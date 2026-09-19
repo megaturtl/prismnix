@@ -1386,6 +1386,11 @@ let
             "file" = "EclipticSeasons-26.1.2-neoforge-0.15.0-rc-4-1.jar";
             "hash" = "sha512-WMPrHTNl+BzgEOCaZxbRoUNZAY1UJDZ2mVd+20sB8kOxtc54TfV0YOfCwCJzFSmwgqbz/Vq6S79RWpIsbs2RwA==";
         };
+        _p7byuyzM = {
+            "id" = "p7byuyzM";
+            "file" = "EclipticSeasons-1.21.1-neoforge-0.15.0-rc-3-1.jar";
+            "hash" = "sha512-O79xZxDpvrKz7qT64tPYE1DnC60ZA2XI53GBh84DUV90MRDCJlYlVozK4XgIT4yL64tKGk50aYKbJQdQETZsXw==";
+        };
     in {
         "eNDTi1Uc" = _eNDTi1Uc;
         "68Dkgrmp" = _68Dkgrmp;
@@ -1664,8 +1669,9 @@ let
         "VzQPpT22" = _VzQPpT22;
         "vv6cGPNg" = _vv6cGPNg;
         "z8ii4NtF" = _z8ii4NtF;
+        "p7byuyzM" = _p7byuyzM;
         "neoforge-26.1" = _M60AKc2f;
-        "neoforge-1.21.1" = _Tok0V0sp;
+        "neoforge-1.21.1" = _p7byuyzM;
         "neoforge-26.1.1" = _8yGqVA39;
         "neoforge-26.1.2" = _z8ii4NtF;
         "neoforge-26.2" = _vv6cGPNg;
@@ -1801,7 +1807,8 @@ let
         "pkg-0.15.0-rc-3" = _xO4vsPui;
         "pkg-0.15.0-rc-4" = _VzQPpT22;
         "pkg-0.15.0-rc-4-1" = _z8ii4NtF;
-        "default" = _z8ii4NtF;
+        "pkg-0.15.0-rc-3-1" = _p7byuyzM;
+        "default" = _p7byuyzM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ecliptic-seasons";

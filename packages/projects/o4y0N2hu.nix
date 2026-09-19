@@ -201,6 +201,16 @@ let
             "file" = "betterhurtcam-neoforge-1.14.0+mc26.2.jar";
             "hash" = "sha512-MvCx7UMfQzkt41rac0o8gwB1ifk87IM8G9ItkkAJ/wRh16qUeAmdE2FUHyl2XdE5PA9fQgTkl8IOdpnv7g0fUg==";
         };
+        _dZyIn6Tr = {
+            "id" = "dZyIn6Tr";
+            "file" = "betterhurtcam-fabric-1.15.0+mc26.3.jar";
+            "hash" = "sha512-+/g6j2nj+udhWRp8i5u+fR3sMQ0R+c0S7QJBMPNtMxjMqRSsrVllNoetBrw84jGrAZ+7KK9UoPCDaabXpYXoNA==";
+        };
+        _m0XHyL27 = {
+            "id" = "m0XHyL27";
+            "file" = "betterhurtcam-neoforge-1.15.0+mc26.3.jar";
+            "hash" = "sha512-rs7KeJLJfXvYRbJsUWK8WhiBIyuvLqiuc9kN6SFnjPPbbzci6qsvQZ2T5blryehru0fiV4JHjzTE+dod5Z816g==";
+        };
     in {
         "BLrbtLXn" = _BLrbtLXn;
         "bXiR0msu" = _bXiR0msu;
@@ -242,6 +252,8 @@ let
         "5Stkrpzp" = _5Stkrpzp;
         "TfKbExBU" = _TfKbExBU;
         "i2OlOWIt" = _i2OlOWIt;
+        "dZyIn6Tr" = _dZyIn6Tr;
+        "m0XHyL27" = _m0XHyL27;
         "fabric-1.18.2" = _vV2p2NQ0;
         "fabric-1.18" = _vV2p2NQ0;
         "fabric-1.18.1" = _vV2p2NQ0;
@@ -292,6 +304,7 @@ let
         "fabric-26.1.1" = _5Stkrpzp;
         "fabric-26.1.2" = _5Stkrpzp;
         "fabric-26.2" = _TfKbExBU;
+        "fabric-26.3" = _dZyIn6Tr;
         "quilt-1.19" = _vV2p2NQ0;
         "quilt-1.18" = _vV2p2NQ0;
         "quilt-1.18.1" = _vV2p2NQ0;
@@ -341,10 +354,12 @@ let
         "quilt-26.1.1" = _5Stkrpzp;
         "quilt-26.1.2" = _5Stkrpzp;
         "quilt-26.2" = _TfKbExBU;
+        "quilt-26.3" = _dZyIn6Tr;
         "neoforge-26.1" = _KUrBN6Em;
         "neoforge-26.1.1" = _KUrBN6Em;
         "neoforge-26.1.2" = _KUrBN6Em;
         "neoforge-26.2" = _i2OlOWIt;
+        "neoforge-26.3" = _m0XHyL27;
         "pkg-1.0.0" = _BLrbtLXn;
         "pkg-1.0.1" = _bXiR0msu;
         "pkg-1.1.0+1.19" = _SRRnsABQ;
@@ -385,7 +400,9 @@ let
         "pkg-1.13.0+mc26.1-fabric" = _5Stkrpzp;
         "pkg-1.14.0+mc26.2-fabric" = _TfKbExBU;
         "pkg-1.14.0+mc26.2-neoforge" = _i2OlOWIt;
-        "default" = _i2OlOWIt;
+        "pkg-1.15.0+mc26.3-fabric" = _dZyIn6Tr;
+        "pkg-1.15.0+mc26.3-neoforge" = _m0XHyL27;
+        "default" = _m0XHyL27;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betterhurtcam";

@@ -211,6 +211,26 @@ let
             "file" = "vouch-fabric-0.3.0.jar";
             "hash" = "sha512-UpIGi/5KhMgPNRvgY46jD74SYS4wSZtBr1vdjQFdocqqMWT6Pw3HO5eB0n3UcKjHVM2MexNUR1X5zeEVLpCObg==";
         };
+        _c3vTPw56 = {
+            "id" = "c3vTPw56";
+            "file" = "vouch-neoforge-0.3.1.jar";
+            "hash" = "sha512-7SWXmoHF6NObTUIQfY1oPQjoUAGlqWLCa+ZOUVNAb3IxU0qw8pv3H8YijgfT3fIjr4T8Tmt93SCVolVNg/xe2g==";
+        };
+        _K9TiyjU2 = {
+            "id" = "K9TiyjU2";
+            "file" = "vouch-fabric-0.3.1.jar";
+            "hash" = "sha512-M8Cz7kKzOcMFbpHBlrX91+XqGfp9/ww7U9FPbBDanUr+iFmc0HLCMNM8YY+A8j017DFiDX74jOWRqqBjIbi7+g==";
+        };
+        _bLwVywso = {
+            "id" = "bLwVywso";
+            "file" = "vouch-neoforge-0.4.0.jar";
+            "hash" = "sha512-TA9z9uLx9gzvlGnTxMpGTDDPX7V7IVuQwHZKwecnTvAKeRZVn9rxD42a/RtcKKSMQ4kUlYtDXsNgsQalrLiCFA==";
+        };
+        _qfx526I6 = {
+            "id" = "qfx526I6";
+            "file" = "vouch-fabric-0.4.0.jar";
+            "hash" = "sha512-wwp7PLmURGRaeW7I4x3pdWQ2DSOLu4gozjYq+CEIGIcCRNpkqVoYcflN8/vpkJeFij7GbhdfPM3qeB5x2xU45g==";
+        };
     in {
         "OflSFwZ0" = _OflSFwZ0;
         "bMEnI0ON" = _bMEnI0ON;
@@ -254,13 +274,17 @@ let
         "KO9dkGU1" = _KO9dkGU1;
         "9CBBjLMf" = _9CBBjLMf;
         "1YMIUeNr" = _1YMIUeNr;
-        "neoforge-1.21.1" = _9CBBjLMf;
+        "c3vTPw56" = _c3vTPw56;
+        "K9TiyjU2" = _K9TiyjU2;
+        "bLwVywso" = _bLwVywso;
+        "qfx526I6" = _qfx526I6;
+        "neoforge-1.21.1" = _bLwVywso;
         "neoforge-1.21.4" = _6xPk3f9N;
         "neoforge-1.21.2" = _in4wvxqN;
         "neoforge-1.21.3" = _3nbJWTcj;
         "neoforge-1.21.5" = _BzQUQa4Q;
         "neoforge-1.21.6" = _d7ODTClk;
-        "fabric-1.21.1" = _1YMIUeNr;
+        "fabric-1.21.1" = _qfx526I6;
         "fabric-1.21.4" = _uZ0JTagM;
         "fabric-1.21.2" = _MMwY2nBN;
         "fabric-1.21.3" = _GpiMueWx;
@@ -308,7 +332,11 @@ let
         "pkg-v0.2.1-mc1.21.1" = _KO9dkGU1;
         "pkg-v0.3.0-mc1.21.1-neoforge" = _9CBBjLMf;
         "pkg-v0.3.0-mc1.21.1" = _1YMIUeNr;
-        "default" = _1YMIUeNr;
+        "pkg-v0.3.1-mc1.21.1-neoforge" = _c3vTPw56;
+        "pkg-v0.3.1-mc1.21.1" = _K9TiyjU2;
+        "pkg-v0.4.0-beta.1-mc1.21.1-neoforge" = _bLwVywso;
+        "pkg-v0.4.0-beta.1-mc1.21.1" = _qfx526I6;
+        "default" = _qfx526I6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vouch";

@@ -11,18 +11,26 @@ let
             "file" = "Keikyu_N1000_Series_v1.1.zip";
             "hash" = "sha512-94WJYtEyBSMcOAqKl/mzYuTCCnLWx/menWdTziWy+3dQTuRdJ2JyD2GG33cacytN594wx/cpePUQSYdpQPSwNw==";
         };
+        _Ny6pWBrb = {
+            "id" = "Ny6pWBrb";
+            "file" = "Keikyu_N1000_Series_v1.2.zip";
+            "hash" = "sha512-NemQJeuvdlhfUa6k+Gq6JWkCJn/ywTh98iku8TfV00eEDE5QRkAWoi6RSAdA5amlaDN3Dk3ai99qxA4sz8QK3A==";
+        };
     in {
         "feLxj3lB" = _feLxj3lB;
         "TqYSi7rn" = _TqYSi7rn;
+        "Ny6pWBrb" = _Ny6pWBrb;
         "minecraft-1.17.1" = _TqYSi7rn;
         "minecraft-1.18.2" = _TqYSi7rn;
         "minecraft-1.19.2" = _TqYSi7rn;
         "minecraft-1.19.4" = _TqYSi7rn;
-        "minecraft-1.20.1" = _TqYSi7rn;
+        "minecraft-1.20.1" = _Ny6pWBrb;
         "minecraft-1.20.4" = _TqYSi7rn;
+        "minecraft-1.20" = _Ny6pWBrb;
         "pkg-1.0" = _feLxj3lB;
         "pkg-1.1" = _TqYSi7rn;
-        "default" = _TqYSi7rn;
+        "pkg-1.2" = _Ny6pWBrb;
+        "default" = _Ny6pWBrb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "keikyu-n1000-siemens";

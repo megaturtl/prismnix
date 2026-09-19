@@ -466,6 +466,16 @@ let
             "file" = "§6§l§k~§r §9§lNwoof's §a§lWynn §9§lShader §4Beta§7-§40§7.§41§7.§413 §6§l§k~.zip";
             "hash" = "sha512-UN09W5wiN5gy4wkxBccj4fDaQg6mEDZiDXAPV46RN6wiE/g3es4WhgIC4Z1apW1qR1JyeDlEblkaJQgimRs2NQ==";
         };
+        _Nje5IvJc = {
+            "id" = "Nje5IvJc";
+            "file" = "§6§l§k~§r §9§lNwoof's §a§lWynn §9§lShader §4Beta§7-§40§7.§42§7.§40 §6§l§k~.zip";
+            "hash" = "sha512-Luz6R8VVPpNWVtPUab81tWZJ2Ni9aiMtfGWkmw6vAGJfRU/idLW0WTrU2J2bzuYWvIv+SbJzBNEG6ZqUMB0LaA==";
+        };
+        _GuR4xdR4 = {
+            "id" = "GuR4xdR4";
+            "file" = "§6§l§k~§r §9§lNwoof's §a§lWynn §9§lShader §4Beta§7-§40§7.§42§7.§41 §6§l§k~.zip";
+            "hash" = "sha512-fBR2JBgsqa6ShbmTG7FzQseSdo4ywpTucSE/JljzLkg4bGiDV0a1E7D2c/qtPXwbqEHZjIBGfLlssd4Yuw5A9A==";
+        };
     in {
         "fJ3O0BNP" = _fJ3O0BNP;
         "Zm68halE" = _Zm68halE;
@@ -560,22 +570,24 @@ let
         "xm5VCpW7" = _xm5VCpW7;
         "qxslBCMw" = _qxslBCMw;
         "hJLuOEbz" = _hJLuOEbz;
-        "iris-1.21" = _hJLuOEbz;
-        "iris-1.21.1" = _hJLuOEbz;
-        "iris-1.21.2" = _hJLuOEbz;
-        "iris-1.21.3" = _hJLuOEbz;
-        "iris-1.21.4" = _hJLuOEbz;
-        "iris-1.21.5" = _hJLuOEbz;
-        "iris-1.21.6" = _hJLuOEbz;
-        "iris-1.21.7" = _hJLuOEbz;
-        "iris-1.21.8" = _hJLuOEbz;
-        "iris-1.21.9" = _hJLuOEbz;
-        "iris-1.21.10" = _hJLuOEbz;
-        "iris-1.21.11" = _hJLuOEbz;
-        "iris-26.1" = _hJLuOEbz;
-        "iris-26.1.1" = _hJLuOEbz;
-        "iris-26.1.2" = _hJLuOEbz;
-        "iris-26.2" = _hJLuOEbz;
+        "Nje5IvJc" = _Nje5IvJc;
+        "GuR4xdR4" = _GuR4xdR4;
+        "iris-1.21" = _GuR4xdR4;
+        "iris-1.21.1" = _GuR4xdR4;
+        "iris-1.21.2" = _GuR4xdR4;
+        "iris-1.21.3" = _GuR4xdR4;
+        "iris-1.21.4" = _GuR4xdR4;
+        "iris-1.21.5" = _GuR4xdR4;
+        "iris-1.21.6" = _GuR4xdR4;
+        "iris-1.21.7" = _GuR4xdR4;
+        "iris-1.21.8" = _GuR4xdR4;
+        "iris-1.21.9" = _GuR4xdR4;
+        "iris-1.21.10" = _GuR4xdR4;
+        "iris-1.21.11" = _GuR4xdR4;
+        "iris-26.1" = _GuR4xdR4;
+        "iris-26.1.1" = _GuR4xdR4;
+        "iris-26.1.2" = _GuR4xdR4;
+        "iris-26.2" = _GuR4xdR4;
         "pkg-0.1" = _fJ3O0BNP;
         "pkg-0.1.1" = _Vd4cVSfC;
         "pkg-0.1.2" = _Kmg8WcKM;
@@ -590,8 +602,8 @@ let
         "pkg-0.1.11" = _xm5VCpW7;
         "pkg-0.1.12" = _qxslBCMw;
         "pkg-0.1.13" = _hJLuOEbz;
-        "pkg-0.2.0" = _17FqdOmm;
-        "pkg-0.2.1" = _7GddNjQm;
+        "pkg-0.2.0" = _Nje5IvJc;
+        "pkg-0.2.1" = _GuR4xdR4;
         "pkg-0.2.2" = _mG3hRvXI;
         "pkg-0.2.3" = _zwpKSGfk;
         "pkg-0.2.4" = _DVVa1JPh;
@@ -634,7 +646,7 @@ let
         "pkg-0.3.18" = _pmm7N6hJ;
         "pkg-0.3.19" = _Juo8Pr4S;
         "pkg-0.1.0" = _jMpbPwHu;
-        "default" = _hJLuOEbz;
+        "default" = _GuR4xdR4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nwoofs-wynn-shader";

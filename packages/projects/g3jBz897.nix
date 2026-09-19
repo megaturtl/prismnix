@@ -111,6 +111,21 @@ let
             "file" = "heater-4.2+26.1.jar";
             "hash" = "sha512-vP8y6GYHKimIpEFn7xln5AU7cCV5/Vq3GQhEU0ur3WukbjSDgPmwqTUjb2H29BzlSxTZkVRPygWWjwlP0Aoe+g==";
         };
+        _fkdw0IF1 = {
+            "id" = "fkdw0IF1";
+            "file" = "heater-4.2+26.2.jar";
+            "hash" = "sha512-9LHzaGBwxcfhWRqe2ZODG+qXZElT2TtUhgzJZBq+v0dyu2oAUxz3cih6ZFSG8MHyETr8mMokVS8vfDn8re6Okw==";
+        };
+        _nTbB6hJ2 = {
+            "id" = "nTbB6hJ2";
+            "file" = "heater-4.3+26.2.jar";
+            "hash" = "sha512-2SCGJJIvA3Xy6IOFzC+d41bfwoppJGsoHTK3fRbyQFmBY/hKeNT7k2sOB9hCBmh71He7Nd6aaEIciQPpUHHATw==";
+        };
+        _6yl9MROR = {
+            "id" = "6yl9MROR";
+            "file" = "heater-4.3+26.1.jar";
+            "hash" = "sha512-hE9beQDeYXlaXXjdcSCQd0TeFOhpaTLcnNfvFi4MyqyE2WpLKX44hx5hhn4O7OhiMjU7lMSDQpu0TmgOvKBlmA==";
+        };
     in {
         "2odF92MC" = _2odF92MC;
         "gdhRFidS" = _gdhRFidS;
@@ -134,6 +149,9 @@ let
         "a6yaUdIf" = _a6yaUdIf;
         "VD6Vagnk" = _VD6Vagnk;
         "hPS3shwI" = _hPS3shwI;
+        "fkdw0IF1" = _fkdw0IF1;
+        "nTbB6hJ2" = _nTbB6hJ2;
+        "6yl9MROR" = _6yl9MROR;
         "fabric-1.20.1" = _VD6Vagnk;
         "fabric-1.20.2" = _e1RdQDbk;
         "fabric-1.20.3" = _ebE7Fmf6;
@@ -150,9 +168,10 @@ let
         "fabric-1.21.9" = _YdJbTsqA;
         "fabric-1.21.10" = _YdJbTsqA;
         "fabric-1.21.11" = _YdJbTsqA;
-        "fabric-26.1" = _hPS3shwI;
-        "fabric-26.1.1" = _hPS3shwI;
-        "fabric-26.1.2" = _hPS3shwI;
+        "fabric-26.1" = _6yl9MROR;
+        "fabric-26.1.1" = _6yl9MROR;
+        "fabric-26.1.2" = _6yl9MROR;
+        "fabric-26.2" = _nTbB6hJ2;
         "pkg-1.0.0+1.20.1" = _2odF92MC;
         "pkg-1.1.0+1.20.1" = _gdhRFidS;
         "pkg-1.1.1+1.20.1" = _tLyE00gE;
@@ -175,7 +194,10 @@ let
         "pkg-4.2+1.21" = _a6yaUdIf;
         "pkg-4.2+1.20.1" = _VD6Vagnk;
         "pkg-4.2+26.1" = _hPS3shwI;
-        "default" = _hPS3shwI;
+        "pkg-4.2+26.2" = _fkdw0IF1;
+        "pkg-4.3+26.2" = _nTbB6hJ2;
+        "pkg-4.3+26.1" = _6yl9MROR;
+        "default" = _6yl9MROR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "heater";

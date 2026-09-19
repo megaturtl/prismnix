@@ -91,6 +91,11 @@ let
             "file" = "portalmod_mod 2.0.1.jar";
             "hash" = "sha512-vW4WRTObPK0VfrROtA+6oqscV1iaRIR+1H10mE8hkFTEzEdmr2tVdmU3tXxZBLfzySoNyhTA4tzILkP3sEsItw==";
         };
+        _Y8dV2Rh8 = {
+            "id" = "Y8dV2Rh8";
+            "file" = "portalmod-mod-2.1.0.jar";
+            "hash" = "sha512-rmXmeFEti8rqUGLDvwfKytTuMurtMZWMHawYHfTtNbNyZK9MJnZonN8DHM7inx5Bd9gvgb0MCQ7Y3X2jY6veQQ==";
+        };
     in {
         "EH9moByw" = _EH9moByw;
         "Yu1T7C7N" = _Yu1T7C7N;
@@ -110,7 +115,8 @@ let
         "hrVTpvUE" = _hrVTpvUE;
         "w8FZ1MWA" = _w8FZ1MWA;
         "4bv0wYuw" = _4bv0wYuw;
-        "forge-1.16.5" = _4bv0wYuw;
+        "Y8dV2Rh8" = _Y8dV2Rh8;
+        "forge-1.16.5" = _Y8dV2Rh8;
         "pkg-1.0.0.0.01" = _EH9moByw;
         "pkg-1.1.0.1" = _Yu1T7C7N;
         "pkg-1.2.1" = _93YRPvhx;
@@ -129,7 +135,8 @@ let
         "pkg-1.4.3" = _hrVTpvUE;
         "pkg-2.0.0" = _w8FZ1MWA;
         "pkg-2.0.1" = _4bv0wYuw;
-        "default" = _4bv0wYuw;
+        "pkg-2.1.0" = _Y8dV2Rh8;
+        "default" = _Y8dV2Rh8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "portalmod-mod";

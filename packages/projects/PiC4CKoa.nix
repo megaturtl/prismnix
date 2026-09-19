@@ -21,17 +21,24 @@ let
             "file" = "btwce-3.1.0.jar";
             "hash" = "sha512-xRv9OCK6e+/yyZc/zhY9e7a6DXCCRxs33GPKG1uHcscHCi/RzTNEqt3Z0xsx6j/492Rp43pEkBR1RqYMjSnfpw==";
         };
+        _zLnGXEI4 = {
+            "id" = "zLnGXEI4";
+            "file" = "btwce-3.1.1.jar";
+            "hash" = "sha512-Hru/AIRIRNwjZRQBqssLQQw5yVQ7q3nOMpv+d35fMovGmxHgi4jhPre6Fg/4f+dzNCOhI5j1JS9147VPJUcK+Q==";
+        };
     in {
         "SOe2d6AD" = _SOe2d6AD;
         "Al8DJCp9" = _Al8DJCp9;
         "XaPzTgXg" = _XaPzTgXg;
         "Pbz5N4Ul" = _Pbz5N4Ul;
-        "legacy-fabric-1.6.4" = _Pbz5N4Ul;
+        "zLnGXEI4" = _zLnGXEI4;
+        "legacy-fabric-1.6.4" = _zLnGXEI4;
         "pkg-3.0.0" = _SOe2d6AD;
         "pkg-3.0.1" = _Al8DJCp9;
         "pkg-3.0.2" = _XaPzTgXg;
         "pkg-3.1.0" = _Pbz5N4Ul;
-        "default" = _Pbz5N4Ul;
+        "pkg-3.1.1" = _zLnGXEI4;
+        "default" = _zLnGXEI4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "btwce";

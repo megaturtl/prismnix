@@ -941,6 +941,16 @@ let
             "file" = "storagedelight-26.07.01a-1.21-neoforge.jar";
             "hash" = "sha512-IWDJ+kFdXbm69Skisq0RdTgj6BQxWGtZpBttZKx/yO0t+wfhDzB5E0Z+1HKEiU7e5A05d+JbOGZIVjVgiOHPUg==";
         };
+        _S7N0BJMX = {
+            "id" = "S7N0BJMX";
+            "file" = "storagedelight-26.08.15-26.3-fabric.jar";
+            "hash" = "sha512-Ia5Dp/MyJY82kLOMUuiGVB6JbTsbDeuai2rl5dBVeLrWfURHJjxaNKOY+CvKtRQ8PFpU8ktJB0UqvIJgivJYgA==";
+        };
+        _XwMT1Ibh = {
+            "id" = "XwMT1Ibh";
+            "file" = "storagedelight-26.09.15-26.3-neoforge.jar";
+            "hash" = "sha512-GiSa891Vjp7aRHSSCadsvDa43litzVGqfUAbRAt6+6G2jDpdnV6OI3EK7KcKF5EED71WAO6NLXSGFlREoUBS2A==";
+        };
     in {
         "GA3f9AtT" = _GA3f9AtT;
         "bQ1NnNJz" = _bQ1NnNJz;
@@ -1130,6 +1140,8 @@ let
         "TrGOmL0g" = _TrGOmL0g;
         "qb8smGTf" = _qb8smGTf;
         "zuWePqzc" = _zuWePqzc;
+        "S7N0BJMX" = _S7N0BJMX;
+        "XwMT1Ibh" = _XwMT1Ibh;
         "fabric-1.20.1" = _n7A4N7vn;
         "fabric-1.19.2" = _1b8wwyY2;
         "fabric-1.19" = _1b8wwyY2;
@@ -1156,6 +1168,7 @@ let
         "fabric-26.1.1" = _JXJ3B666;
         "fabric-26.1.2" = _JXJ3B666;
         "fabric-26.2" = _erFVgWTv;
+        "fabric-26.3" = _S7N0BJMX;
         "quilt-1.20.1" = _n7A4N7vn;
         "quilt-1.19.2" = _1b8wwyY2;
         "quilt-1.19" = _1b8wwyY2;
@@ -1228,6 +1241,7 @@ let
         "neoforge-26.1.1" = _gzIkla8c;
         "neoforge-26.1.2" = _gzIkla8c;
         "neoforge-26.2" = _qb8smGTf;
+        "neoforge-26.3" = _XwMT1Ibh;
         "pkg-1.0.0" = _bQ1NnNJz;
         "pkg-1.0.0-1.19.2" = _2CcyERo3;
         "pkg-1.0.1" = _Pby4hXUS;
@@ -1411,7 +1425,9 @@ let
         "pkg-26.07.01-26.2-forge" = _TrGOmL0g;
         "pkg-26.07.01-26.2-neoforge" = _qb8smGTf;
         "pkg-26.07.01a-1.21-neoforge" = _zuWePqzc;
-        "default" = _zuWePqzc;
+        "pkg-26.08.15-26.3-fabric" = _S7N0BJMX;
+        "pkg-26.09.15-26.3-neoforge" = _XwMT1Ibh;
+        "default" = _XwMT1Ibh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "storage-delight";

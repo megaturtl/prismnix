@@ -1086,6 +1086,11 @@ let
             "file" = "OneKeyMiner-1.9.4-1.10.1.jar";
             "hash" = "sha512-y9J0EMHsNI8eFNOPD0JlFiyhOOCv3KtuvXmk15gt/q/Vfcmz/hVSspEpGVJ6oZPcvKuAv9B3CjQktpizmyyNHw==";
         };
+        _ZIGCnl6V = {
+            "id" = "ZIGCnl6V";
+            "file" = "OneKeyMiner-26.3-1.10.1.jar";
+            "hash" = "sha512-P6dhaGMJ+D+57IBwJpA3KDHGoSncFn67y31XR6exNLtKsrS6Vvdg6fYE9Bz66Z4MfeCcjj/nfANuGTfSHAc+IA==";
+        };
     in {
         "5Mj3j9We" = _5Mj3j9We;
         "8tIJY9Fh" = _8tIJY9Fh;
@@ -1304,6 +1309,7 @@ let
         "psXEw487" = _psXEw487;
         "aOq7prhd" = _aOq7prhd;
         "SxONpHRs" = _SxONpHRs;
+        "ZIGCnl6V" = _ZIGCnl6V;
         "fabric-1.18" = _3fdpbwms;
         "fabric-1.18.1" = _3fdpbwms;
         "fabric-1.18.2" = _YmAXruL3;
@@ -1370,6 +1376,7 @@ let
         "fabric-26.1-pre-2" = _6YoGlbkp;
         "fabric-26.1" = _3rrRchv4;
         "fabric-26.2" = _JRDRBJs2;
+        "fabric-26.3" = _ZIGCnl6V;
         "pkg-OKM-1.18-1.1.0" = _5Mj3j9We;
         "pkg-OKM-1.14-1.1.0" = _8tIJY9Fh;
         "pkg-OKM-1.15-1.1.0" = _zKwd4D4i;
@@ -1579,7 +1586,8 @@ let
         "pkg-1.21.11-1.10.1" = _psXEw487;
         "pkg-1.8.9-1.10.1" = _aOq7prhd;
         "pkg-1.9.4-1.10.1" = _SxONpHRs;
-        "default" = _SxONpHRs;
+        "pkg-26.3-1.10.1" = _ZIGCnl6V;
+        "default" = _ZIGCnl6V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "onekeyminer";

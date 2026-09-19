@@ -761,6 +761,16 @@ let
             "file" = "enhancedbiomesmusic-fabric-2.2.3+1.18.2.jar";
             "hash" = "sha512-+uq+kfKkbQYVvhXJY42WSKDPEaONeli4iTTbfX59lzYZpfG8wbMBacbolv5sPHFcriOkAMUBgajoubqRW/qSrw==";
         };
+        _1li4EE0B = {
+            "id" = "1li4EE0B";
+            "file" = "enhancedbiomesmusic-fabric-2.2.1+26.3.jar";
+            "hash" = "sha512-Mkc3hhNEViK90+ONpqhxR3MBRSIRD5CjTrCeWtnqSTuT8PR0q58tzvb+NWoLR24UGxOFafZB9rStHe7YDVvnNA==";
+        };
+        _h9dm65fN = {
+            "id" = "h9dm65fN";
+            "file" = "enhancedbiomemusic-neoforge-2.2.1+26.3.jar";
+            "hash" = "sha512-h4LY2waL/vUJwvDkh+j45HC5Wafq3RurnoSKzf4K9Aw5sq3Qh6ZIC/6570U6W941X/xemVdQ+EWz4A2tI0Llrw==";
+        };
     in {
         "HCucmSgI" = _HCucmSgI;
         "kS0X0fjc" = _kS0X0fjc;
@@ -914,6 +924,8 @@ let
         "AM507BQB" = _AM507BQB;
         "MF7iBUI6" = _MF7iBUI6;
         "VCHOdPzF" = _VCHOdPzF;
+        "1li4EE0B" = _1li4EE0B;
+        "h9dm65fN" = _h9dm65fN;
         "fabric-26.1" = _l9eFYrIU;
         "fabric-26.1.1" = _l9eFYrIU;
         "fabric-26.1.2" = _l9eFYrIU;
@@ -944,6 +956,7 @@ let
         "fabric-1.18.2" = _VCHOdPzF;
         "fabric-1.19.3" = _AM507BQB;
         "fabric-1.19.4" = _YGifazyX;
+        "fabric-26.3" = _1li4EE0B;
         "neoforge-26.1" = _iCY3sLmj;
         "neoforge-26.1.1" = _iCY3sLmj;
         "neoforge-26.1.2" = _iCY3sLmj;
@@ -963,6 +976,7 @@ let
         "neoforge-1.20.6" = _fAodTVEP;
         "neoforge-26.2" = _SFo1Q5Wt;
         "neoforge-1.20.2" = _n7dbTuo7;
+        "neoforge-26.3" = _h9dm65fN;
         "forge-1.20.1" = _wZeVneUF;
         "forge-1.21" = _xrnblDJJ;
         "forge-1.21.1" = _xrnblDJJ;
@@ -1008,6 +1022,7 @@ let
         "quilt-1.18.2" = _VCHOdPzF;
         "quilt-1.19.3" = _AM507BQB;
         "quilt-1.19.4" = _YGifazyX;
+        "quilt-26.3" = _1li4EE0B;
         "pkg-1.0.0" = _fcYUJ0u9;
         "pkg-1.0.1" = _jCMqIevy;
         "pkg-1.0.2" = _jOpkhf7T;
@@ -1019,10 +1034,10 @@ let
         "pkg-2.2.0" = _p0LPFxxG;
         "pkg-2.1.1" = _cQj9qkCQ;
         "pkg-2.1.2" = _5pzPv8Zg;
-        "pkg-2.2.1" = _YGifazyX;
+        "pkg-2.2.1" = _h9dm65fN;
         "pkg-2.2.2" = _l9eFYrIU;
         "pkg-2.2.3" = _VCHOdPzF;
-        "default" = _VCHOdPzF;
+        "default" = _h9dm65fN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enhancedbiomemusic";

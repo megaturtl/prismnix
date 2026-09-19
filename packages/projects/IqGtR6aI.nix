@@ -36,6 +36,16 @@ let
             "file" = "fishingbot-1.2.0.jar";
             "hash" = "sha512-B+99yrLTVj1/GBNEbN8sv83Z+5Y4OZn5WDK1oD//jA+CG5yyi4UdIwoVDfYci6a9BnZ75Zz1xXpW9QRsehkm0A==";
         };
+        _gwMkh9t0 = {
+            "id" = "gwMkh9t0";
+            "file" = "fishingbot-1.2.7.jar";
+            "hash" = "sha512-OSRlgXY1ceNHpo3jiRWfDTpfVEIz5e63ivixIXy2rhZ7v6Ej021wPeqcG8I2PtlFbRlzL349tL68QQwhWqlNRQ==";
+        };
+        _FbAHXUdF = {
+            "id" = "FbAHXUdF";
+            "file" = "fishingbot-1.2.8.jar";
+            "hash" = "sha512-4n14zZNrZ6+m6yqcv79z2LJAyde6geTenGMVwA2oL7oKfftUXn7ZgazKJLw7YXXrOEKsyG0Ntl+RARQPW/fQ1A==";
+        };
     in {
         "xrVSYR3l" = _xrVSYR3l;
         "Kbd6wRIC" = _Kbd6wRIC;
@@ -44,12 +54,15 @@ let
         "EdYbw96k" = _EdYbw96k;
         "h5rrXrCn" = _h5rrXrCn;
         "kWkY0HGa" = _kWkY0HGa;
+        "gwMkh9t0" = _gwMkh9t0;
+        "FbAHXUdF" = _FbAHXUdF;
         "fabric-1.21.10" = _xrVSYR3l;
         "fabric-1.21.11" = _EdYbw96k;
         "fabric-26.1" = _h5rrXrCn;
         "fabric-26.1.1" = _h5rrXrCn;
         "fabric-26.1.2" = _h5rrXrCn;
-        "fabric-26.2" = _kWkY0HGa;
+        "fabric-26.2" = _gwMkh9t0;
+        "fabric-26.3" = _FbAHXUdF;
         "pkg-1.0.4" = _xrVSYR3l;
         "pkg-1.0.5" = _Kbd6wRIC;
         "pkg-1.1" = _zCVEYgOz;
@@ -57,7 +70,9 @@ let
         "pkg-1.1.2" = _EdYbw96k;
         "pkg-1.1.3" = _h5rrXrCn;
         "pkg-1.2.0" = _kWkY0HGa;
-        "default" = _kWkY0HGa;
+        "pkg-1.2.7" = _gwMkh9t0;
+        "pkg-1.2.8" = _FbAHXUdF;
+        "default" = _FbAHXUdF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fishingbot";

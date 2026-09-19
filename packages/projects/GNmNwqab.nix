@@ -226,6 +226,21 @@ let
             "file" = "imds_reborn-1.3.6-forge-1.20.1.jar";
             "hash" = "sha512-nF9VKoaN8KTRjGkMPmeJUe2/CNqGuhHwupJIYXvxiSFnk79K9LDnQF9AWo6qUc9R1mfrK54I9m98zpte3oCGIA==";
         };
+        _3Y2fPd1n = {
+            "id" = "3Y2fPd1n";
+            "file" = "imds_reborn-1.3.7-forge-1.20.1.jar";
+            "hash" = "sha512-Q+OgFRkqdJN2clJ1cifNh3UEoHZKVsEhYPk8efnZkrSgNVFx0Vov8uBlrDSWLwmgiyk1NKCpo2vNRkfnmAuX7Q==";
+        };
+        _oAmG5y9z = {
+            "id" = "oAmG5y9z";
+            "file" = "imds_reborn-1.3.8-forge-1.20.1.jar";
+            "hash" = "sha512-BmuUhzDGNCU+/iQHi1XQSKyShqig5GbDNLj+VEEe2h4O1GmiWJLmZAC/QPS2TDgoE3F3k9ERHR2e1855aYMZJg==";
+        };
+        _S3JGrHcw = {
+            "id" = "S3JGrHcw";
+            "file" = "imds_reborn-1.3.9-forge-1.20.1.jar";
+            "hash" = "sha512-9E2KIGJA91+iQz3B0ByAVRlRnN8vyJ2XW1BIlJSS+tO+J1fddvHGEFpXiZDLfXsOwf2gcv+dHErfiaZ4cS+BGg==";
+        };
     in {
         "3zzPSgw8" = _3zzPSgw8;
         "qHOsYIEC" = _qHOsYIEC;
@@ -272,7 +287,10 @@ let
         "OwSLFxuT" = _OwSLFxuT;
         "dOVi6ZL0" = _dOVi6ZL0;
         "Ebotxgsh" = _Ebotxgsh;
-        "forge-1.20.1" = _Ebotxgsh;
+        "3Y2fPd1n" = _3Y2fPd1n;
+        "oAmG5y9z" = _oAmG5y9z;
+        "S3JGrHcw" = _S3JGrHcw;
+        "forge-1.20.1" = _S3JGrHcw;
         "pkg-1.0.0" = _3zzPSgw8;
         "pkg-1.0.1" = _qHOsYIEC;
         "pkg-1.0.2" = _j38UKIoj;
@@ -318,7 +336,10 @@ let
         "pkg-1.3.4" = _OwSLFxuT;
         "pkg-1.3.5" = _dOVi6ZL0;
         "pkg-1.3.6" = _Ebotxgsh;
-        "default" = _Ebotxgsh;
+        "pkg-1.3.7" = _3Y2fPd1n;
+        "pkg-1.3.8" = _oAmG5y9z;
+        "pkg-1.3.9" = _S3JGrHcw;
+        "default" = _S3JGrHcw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "imds-reborn";

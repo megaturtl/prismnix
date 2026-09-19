@@ -211,6 +211,16 @@ let
             "file" = "nicerportals-fabric-2.0.3+26.2.jar";
             "hash" = "sha512-k0SIomILk+w9kaPlvmVY6m6LybKztgOL/Rs8zCrc2juVCrSgy/qGZcbxqpmGacCaUiO4QFkO7TSnLS2Ncg+tzA==";
         };
+        _eprfcvyr = {
+            "id" = "eprfcvyr";
+            "file" = "nicerportals-neoforge-2.0.3+26.3.jar";
+            "hash" = "sha512-pc6/+1CmmdxQwNcOy6+vnBGV3vObPrxpOyLfTovr9lpOhkNNqnA8Kq+GhwjhjNNhnYSg+qkuNxHN4Ad0q4NFVQ==";
+        };
+        _zdiV7VHx = {
+            "id" = "zdiV7VHx";
+            "file" = "nicerportals-fabric-2.0.3+26.3.jar";
+            "hash" = "sha512-0SRUbNcqY59qGoW/V7Frc0P92/32PKJz/+eqCNTu/wW+/klPhhkb4VEhj7K6YcetSwt5rKZMRJPGI5lNGsUiag==";
+        };
     in {
         "ghlb3eEO" = _ghlb3eEO;
         "OUxzhvBi" = _OUxzhvBi;
@@ -254,6 +264,8 @@ let
         "TtJOSHUh" = _TtJOSHUh;
         "ffJMdVHi" = _ffJMdVHi;
         "JUXI08az" = _JUXI08az;
+        "eprfcvyr" = _eprfcvyr;
+        "zdiV7VHx" = _zdiV7VHx;
         "fabric-1.19" = _NgJWVbuN;
         "fabric-1.18.2" = _OUxzhvBi;
         "fabric-1.19.1" = _NgJWVbuN;
@@ -283,6 +295,7 @@ let
         "fabric-26.1.1" = _eHLDgJYy;
         "fabric-26.1.2" = _eHLDgJYy;
         "fabric-26.2" = _JUXI08az;
+        "fabric-26.3" = _zdiV7VHx;
         "quilt-1.19" = _NgJWVbuN;
         "quilt-1.19.1" = _NgJWVbuN;
         "quilt-1.19.2" = _NgJWVbuN;
@@ -311,6 +324,7 @@ let
         "quilt-26.1.1" = _w9yYvwCM;
         "quilt-26.1.2" = _w9yYvwCM;
         "quilt-26.2" = _JUXI08az;
+        "quilt-26.3" = _zdiV7VHx;
         "forge-26.1" = _dCMFnc9q;
         "forge-26.1.1" = _dCMFnc9q;
         "forge-26.1.2" = _dCMFnc9q;
@@ -319,6 +333,7 @@ let
         "neoforge-26.1.1" = _qNOsOV1W;
         "neoforge-26.1.2" = _qNOsOV1W;
         "neoforge-26.2" = _ffJMdVHi;
+        "neoforge-26.3" = _eprfcvyr;
         "pkg-1.0.0+1.19" = _ghlb3eEO;
         "pkg-1.0.0+1.18.2" = _OUxzhvBi;
         "pkg-1.0.1+1.19" = _NgJWVbuN;
@@ -361,7 +376,9 @@ let
         "pkg-2.0.3+26.2-forge" = _TtJOSHUh;
         "pkg-2.0.3+26.2-neoforge" = _ffJMdVHi;
         "pkg-2.0.3+26.2-fabric" = _JUXI08az;
-        "default" = _JUXI08az;
+        "pkg-2.0.3+26.3-neoforge" = _eprfcvyr;
+        "pkg-2.0.3+26.3-fabric" = _zdiV7VHx;
+        "default" = _zdiV7VHx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nicer-portals";

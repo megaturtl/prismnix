@@ -181,6 +181,16 @@ let
             "file" = "arsenal-neoforge-1.5.1+26.2.jar";
             "hash" = "sha512-L1kXCij2u17G8yyj/BAJ6e0T/9lIojBXTvAcxSW2dl7RnzwwtqeuFGFte5NjX8mv9hJtyx10J8VQWBPDv+vzQQ==";
         };
+        _pa2WdSK6 = {
+            "id" = "pa2WdSK6";
+            "file" = "arsenal-forge-1.5.0+1.20.1.jar";
+            "hash" = "sha512-cy61trxu6wvTE8mVcNIwshSMuy1cvH+UyquFaaLcb2E+4ckVCjcQN+FyFqBG/r/sS838FyDnXNrt5+89NbBdpg==";
+        };
+        _eV0JZLdi = {
+            "id" = "eV0JZLdi";
+            "file" = "arsenal-fabric-1.5.0+1.20.1.jar";
+            "hash" = "sha512-fWvLZLieKcdPRHRrzUYE6swP6RmTm9IdAUmr21rozWUq47GAE8YMgvdP01AkMarhsLXuwib8Kr+K0XyWu+R1yA==";
+        };
     in {
         "t4X4ZuG7" = _t4X4ZuG7;
         "IIFVRywr" = _IIFVRywr;
@@ -218,18 +228,23 @@ let
         "Z2SFnVME" = _Z2SFnVME;
         "RLUAJaXX" = _RLUAJaXX;
         "MVYet4pO" = _MVYet4pO;
+        "pa2WdSK6" = _pa2WdSK6;
+        "eV0JZLdi" = _eV0JZLdi;
         "fabric-1.21" = _uUEYqOXk;
         "fabric-1.21.1" = _uUEYqOXk;
         "fabric-26.1" = _Z2SFnVME;
         "fabric-26.1.1" = _Z2SFnVME;
         "fabric-26.1.2" = _Z2SFnVME;
         "fabric-26.2" = _RLUAJaXX;
+        "fabric-1.20.1" = _eV0JZLdi;
         "neoforge-1.21" = _rYyhslig;
         "neoforge-1.21.1" = _rYyhslig;
         "neoforge-26.1" = _zxl9V37x;
         "neoforge-26.1.1" = _zxl9V37x;
         "neoforge-26.1.2" = _zxl9V37x;
         "neoforge-26.2" = _MVYet4pO;
+        "neoforge-1.20.1" = _pa2WdSK6;
+        "forge-1.20.1" = _pa2WdSK6;
         "pkg-1.0.0+1.21.1" = _t4X4ZuG7;
         "pkg-1.0.1+1.21.1" = _IIFVRywr;
         "pkg-1.0.2+1.21.1" = _sGQDCsBx;
@@ -265,7 +280,9 @@ let
         "pkg-1.5.1+26.1.2-fabric" = _Z2SFnVME;
         "pkg-1.5.1+26.2-fabric" = _RLUAJaXX;
         "pkg-1.5.1+26.2-neoforge" = _MVYet4pO;
-        "default" = _MVYet4pO;
+        "pkg-1.5.0+1.20.1-forge" = _pa2WdSK6;
+        "pkg-1.5.0+1.20.1-fabric" = _eV0JZLdi;
+        "default" = _eV0JZLdi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "arsenal-rpg-series";

@@ -36,6 +36,16 @@ let
             "file" = "ketkets-better-cauldrons-0.4.jar";
             "hash" = "sha512-KzYGpSed1AHQiIwr61DsA77zyEshJD00n08Ncf3JEqvFlUINWg8MPHFEMv4F4TvP47n/5izRUtpMiyZlpL6Rfg==";
         };
+        _JLeApGyj = {
+            "id" = "JLeApGyj";
+            "file" = "bcauldron-v0.5.zip";
+            "hash" = "sha512-QPZ/mGldgk9C7/8kIf3wGa5pw+keokdvpO5HR/gJX0+GioVOzbaACqM2tgQBf3h+dDAlc9afgHO78mXhv0Kfzw==";
+        };
+        _iA5QS8ZL = {
+            "id" = "iA5QS8ZL";
+            "file" = "bcauldron-v0.5+mod.jar";
+            "hash" = "sha512-tGO3e8qMfQ4Q75n+KI1ZKYAMHWnXT+1mITNSL+ob/6BluDtV0gE7BA4k/f253CTM9NS/YagU/9uo8REbn0GhGA==";
+        };
     in {
         "xl1bPmie" = _xl1bPmie;
         "PCHrWvJJ" = _PCHrWvJJ;
@@ -44,31 +54,38 @@ let
         "37iBlAzj" = _37iBlAzj;
         "XPWL76E4" = _XPWL76E4;
         "7Ii8fIDs" = _7Ii8fIDs;
+        "JLeApGyj" = _JLeApGyj;
+        "iA5QS8ZL" = _iA5QS8ZL;
         "datapack-1.21.11" = _XPWL76E4;
         "datapack-26.1" = _XPWL76E4;
         "datapack-26.1.1" = _XPWL76E4;
         "datapack-26.1.2" = _XPWL76E4;
         "datapack-26.2" = _XPWL76E4;
+        "datapack-26.3" = _JLeApGyj;
         "fabric-1.21.11" = _7Ii8fIDs;
         "fabric-26.1" = _7Ii8fIDs;
         "fabric-26.1.1" = _7Ii8fIDs;
         "fabric-26.1.2" = _7Ii8fIDs;
         "fabric-26.2" = _7Ii8fIDs;
+        "fabric-26.3" = _iA5QS8ZL;
         "forge-1.21.11" = _7Ii8fIDs;
         "forge-26.1" = _7Ii8fIDs;
         "forge-26.1.1" = _7Ii8fIDs;
         "forge-26.1.2" = _7Ii8fIDs;
         "forge-26.2" = _7Ii8fIDs;
+        "forge-26.3" = _iA5QS8ZL;
         "neoforge-1.21.11" = _7Ii8fIDs;
         "neoforge-26.1" = _7Ii8fIDs;
         "neoforge-26.1.1" = _7Ii8fIDs;
         "neoforge-26.1.2" = _7Ii8fIDs;
         "neoforge-26.2" = _7Ii8fIDs;
+        "neoforge-26.3" = _iA5QS8ZL;
         "quilt-1.21.11" = _7Ii8fIDs;
         "quilt-26.1" = _7Ii8fIDs;
         "quilt-26.1.1" = _7Ii8fIDs;
         "quilt-26.1.2" = _7Ii8fIDs;
         "quilt-26.2" = _7Ii8fIDs;
+        "quilt-26.3" = _iA5QS8ZL;
         "pkg-0.1" = _xl1bPmie;
         "pkg-0.1+mod" = _PCHrWvJJ;
         "pkg-26.1" = _1qDKs9li;
@@ -76,7 +93,9 @@ let
         "pkg-0.3+mod" = _37iBlAzj;
         "pkg-0.4" = _XPWL76E4;
         "pkg-0.4+mod" = _7Ii8fIDs;
-        "default" = _7Ii8fIDs;
+        "pkg-0.5" = _JLeApGyj;
+        "pkg-0.5+mod" = _iA5QS8ZL;
+        "default" = _iA5QS8ZL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ketkets-better-cauldrons";

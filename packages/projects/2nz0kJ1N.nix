@@ -1236,6 +1236,11 @@ let
             "file" = "NoExpensive-26.2-1.11.0.jar";
             "hash" = "sha512-sWv+rQwK3swc+NV8y34Dkc1cSBpYBVeqyxeTd1gCxImTn67sqmWvWNibv0oMlvdOlegG0wGldI5Lf1NzMQgSvg==";
         };
+        _9uNrdRpy = {
+            "id" = "9uNrdRpy";
+            "file" = "NoExpensive-26.3-1.11.0.jar";
+            "hash" = "sha512-MN3HMvGCo7PtzwIfj+xKkejtMp/p0g8TFMyCnH7bYovtyO0JAzWFj/kstFl6ALucfQZ5OYQznsjBuane7WRz7g==";
+        };
     in {
         "y4KxzyVD" = _y4KxzyVD;
         "amTjkSEC" = _amTjkSEC;
@@ -1484,6 +1489,7 @@ let
         "xsyX1yzI" = _xsyX1yzI;
         "k6S7kXV4" = _k6S7kXV4;
         "48l4RgsJ" = _48l4RgsJ;
+        "9uNrdRpy" = _9uNrdRpy;
         "fabric-1.18" = _nnBS8iyy;
         "fabric-1.18.1" = _nnBS8iyy;
         "fabric-1.18.2" = _85i8TjVJ;
@@ -1563,6 +1569,7 @@ let
         "fabric-26.1-pre-2" = _Rpvqymfm;
         "fabric-26.1" = _VuV8jgr9;
         "fabric-26.2" = _48l4RgsJ;
+        "fabric-26.3" = _9uNrdRpy;
         "pkg-1.18-1.2.0" = _y4KxzyVD;
         "pkg-1.14.4-1.2.0" = _amTjkSEC;
         "pkg-1.15.2-1.2.0" = _Drj8utyx;
@@ -1809,7 +1816,8 @@ let
         "pkg-1.7.10-1.11.0" = _xsyX1yzI;
         "pkg-1.16.5-1.11.0" = _k6S7kXV4;
         "pkg-26.2-1.11.0" = _48l4RgsJ;
-        "default" = _48l4RgsJ;
+        "pkg-26.3-1.11.0" = _9uNrdRpy;
+        "default" = _9uNrdRpy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "noexpensive";

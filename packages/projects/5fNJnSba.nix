@@ -31,6 +31,11 @@ let
             "file" = "dungeons_plus-1.20.4-1.6.0.jar";
             "hash" = "sha512-64fl7LLOYCoOW74x1uj8Av9P0iICmOOVEkrRYJ5tF5Mp2U/cjH58p8EztLUhdb9t9EG31aEszlx8fa8FY1k6gw==";
         };
+        _L6xL18lm = {
+            "id" = "L6xL18lm";
+            "file" = "dungeons_plus-26.1.2-1.7.0.jar";
+            "hash" = "sha512-fH71tJ/zN9poON2miUK3sapQJ4j5CpHEHV4gSQJp8zAUeDk8/heLW8BSISwmC2QNPbO+GFil/NTf8BEECZZn2Q==";
+        };
     in {
         "RDgEQFqK" = _RDgEQFqK;
         "K9xYv2Wn" = _K9xYv2Wn;
@@ -38,6 +43,7 @@ let
         "CVlc5qZi" = _CVlc5qZi;
         "PmMZr5jQ" = _PmMZr5jQ;
         "pK9dpWOi" = _pK9dpWOi;
+        "L6xL18lm" = _L6xL18lm;
         "forge-1.16.5" = _RDgEQFqK;
         "forge-1.18.2" = _K9xYv2Wn;
         "forge-1.19.2" = _eShjmutg;
@@ -45,13 +51,15 @@ let
         "forge-1.20.1" = _PmMZr5jQ;
         "neoforge-1.20.1" = _PmMZr5jQ;
         "neoforge-1.20.4" = _pK9dpWOi;
+        "neoforge-26.1.2" = _L6xL18lm;
         "pkg-1.1.5" = _RDgEQFqK;
         "pkg-1.2.0" = _K9xYv2Wn;
         "pkg-1.3.1" = _eShjmutg;
         "pkg-1.4.3" = _CVlc5qZi;
         "pkg-1.5.0" = _PmMZr5jQ;
         "pkg-1.6.0" = _pK9dpWOi;
-        "default" = _pK9dpWOi;
+        "pkg-1.7.0" = _L6xL18lm;
+        "default" = _L6xL18lm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dungeons-plus";

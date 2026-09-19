@@ -136,6 +136,11 @@ let
             "file" = "StatusPlugin-7.1.2.jar";
             "hash" = "sha512-giSJ/abESkW+NWrVg6+4IVaPqbh6D5n/bnOr/Qhk+8eckqbevhWWmYqkxemSCTJryqZynl3ODO+vrh3c3TiUfA==";
         };
+        _No0SeS6N = {
+            "id" = "No0SeS6N";
+            "file" = "StatusPlugin-7.1.3.jar";
+            "hash" = "sha512-uGJTexdl2wNpODyas9Yy+1+GdlG1e7qguWAUrIt1oNlKgB/Ea3RSwv31BV1VNGdCjTI1Apoz6DMerHeO06nqEQ==";
+        };
     in {
         "lUBYouTx" = _lUBYouTx;
         "nspVXtOB" = _nspVXtOB;
@@ -164,6 +169,7 @@ let
         "Vs13sbF4" = _Vs13sbF4;
         "zkEXqizl" = _zkEXqizl;
         "tGVugbZB" = _tGVugbZB;
+        "No0SeS6N" = _No0SeS6N;
         "bukkit-1.17" = _iwOMCxwW;
         "bukkit-1.17.1" = _iwOMCxwW;
         "bukkit-1.18" = _iwOMCxwW;
@@ -224,7 +230,7 @@ let
         "paper-26.1" = _Vs13sbF4;
         "paper-26.1.1" = _Vs13sbF4;
         "paper-26.1.2" = _Vs13sbF4;
-        "paper-26.2" = _tGVugbZB;
+        "paper-26.2" = _No0SeS6N;
         "purpur-1.17" = _iwOMCxwW;
         "purpur-1.17.1" = _iwOMCxwW;
         "purpur-1.18" = _iwOMCxwW;
@@ -257,7 +263,7 @@ let
         "purpur-26.1" = _Vs13sbF4;
         "purpur-26.1.1" = _Vs13sbF4;
         "purpur-26.1.2" = _Vs13sbF4;
-        "purpur-26.2" = _tGVugbZB;
+        "purpur-26.2" = _No0SeS6N;
         "spigot-1.17" = _iwOMCxwW;
         "spigot-1.17.1" = _iwOMCxwW;
         "spigot-1.18" = _iwOMCxwW;
@@ -341,7 +347,8 @@ let
         "pkg-7.1" = _Vs13sbF4;
         "pkg-7.1.1" = _zkEXqizl;
         "pkg-7.1.2" = _tGVugbZB;
-        "default" = _tGVugbZB;
+        "pkg-7.1.3" = _No0SeS6N;
+        "default" = _No0SeS6N;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "statusplugin-like-in-craftattack";

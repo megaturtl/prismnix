@@ -251,6 +251,16 @@ let
             "file" = "armory-neoforge-1.5.2+26.2.jar";
             "hash" = "sha512-hB/kCHvbmQHX9IvviZDjw8CQiPjxDZFspAEpKf86Hzdqd+VRIYRaq1/6ucgi1t2Vw5tAVp1gWboFKONDz2pfNg==";
         };
+        _uQig5hPz = {
+            "id" = "uQig5hPz";
+            "file" = "armory-forge-1.5.2+1.20.1.jar";
+            "hash" = "sha512-JcIf1x/WQkRNyurvjcGqVBMo7QlXW8m4HmaXS7iXiauNlczMyDhCmn2hfcTw36QgCf87Vt2Os76Va3J985vg1w==";
+        };
+        _acxFLUyC = {
+            "id" = "acxFLUyC";
+            "file" = "armory-fabric-1.5.2+1.20.1.jar";
+            "hash" = "sha512-6KwIHccBAkenOph3L+fXIJPBfvdmfSEybnPksFHPXxVPBGKuHtdZj6Ah8dp5h8YhdN1wKWR2uvQUSaoILYsT4w==";
+        };
     in {
         "Ofr1aGxw" = _Ofr1aGxw;
         "wyYhOenl" = _wyYhOenl;
@@ -302,6 +312,8 @@ let
         "uxMRzlEa" = _uxMRzlEa;
         "hdSb38L8" = _hdSb38L8;
         "NQe80vqo" = _NQe80vqo;
+        "uQig5hPz" = _uQig5hPz;
+        "acxFLUyC" = _acxFLUyC;
         "fabric-1.21" = _Dn09X5Dm;
         "fabric-1.21.1" = _Dn09X5Dm;
         "fabric-1.21.2" = _Ofr1aGxw;
@@ -315,12 +327,15 @@ let
         "fabric-26.1.1" = _WJxHHeHe;
         "fabric-26.1.2" = _WJxHHeHe;
         "fabric-26.2" = _hdSb38L8;
+        "fabric-1.20.1" = _acxFLUyC;
         "neoforge-1.21" = _51cccxUm;
         "neoforge-1.21.1" = _51cccxUm;
         "neoforge-26.1" = _uxMRzlEa;
         "neoforge-26.1.1" = _uxMRzlEa;
         "neoforge-26.1.2" = _uxMRzlEa;
         "neoforge-26.2" = _NQe80vqo;
+        "neoforge-1.20.1" = _uQig5hPz;
+        "forge-1.20.1" = _uQig5hPz;
         "pkg-1.0.0+1.21.1" = _Ofr1aGxw;
         "pkg-1.0.1+1.21.1" = _wyYhOenl;
         "pkg-1.0.2+1.21.1" = _jVZLjdKQ;
@@ -371,7 +386,9 @@ let
         "pkg-1.5.2+26.1.2-neoforge" = _uxMRzlEa;
         "pkg-1.5.2+26.2-fabric" = _hdSb38L8;
         "pkg-1.5.2+26.2-neoforge" = _NQe80vqo;
-        "default" = _NQe80vqo;
+        "pkg-1.5.2+1.20.1-forge" = _uQig5hPz;
+        "pkg-1.5.2+1.20.1-fabric" = _acxFLUyC;
+        "default" = _acxFLUyC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armory-rpg-series";

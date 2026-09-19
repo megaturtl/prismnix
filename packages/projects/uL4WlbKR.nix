@@ -131,6 +131,61 @@ let
             "file" = "Rustic 1.5 [1.21.4].zip";
             "hash" = "sha512-nRTtXPQeMsVlKutf8nmTq4EG+1HAb3VnzXnynZRM2RFqZKbFurP/tjVXcq4G6pem0LQ2Unz+TOxsU/9EoqpmyQ==";
         };
+        _wdlaSp9Y = {
+            "id" = "wdlaSp9Y";
+            "file" = "Rustic 1.6 [1.21-1.21.1].zip";
+            "hash" = "sha512-lRyAxAYNkYj7po88FzJsC2p7GEwv8qxn85ms4ROXeW4Ci2ieRNSB9fmj2czIye9hYENsA+MP+OeuX2k/xI7FsQ==";
+        };
+        _FzywYM7I = {
+            "id" = "FzywYM7I";
+            "file" = "Rustic 1.6 [1.21.2-1.21.3].zip";
+            "hash" = "sha512-GbnspOWHxyCZWF0/kC0nwRONRqWhVlwSUzkToiF2XNtjxO5Z07tYWN2KUSO/e12MFOgSdX5qVH1aifKvnrpPsw==";
+        };
+        _cRCy00bz = {
+            "id" = "cRCy00bz";
+            "file" = "Rustic 1.6 [1.21.4].zip";
+            "hash" = "sha512-tFIp7wwTtitiknQDGbVrmMTaxiU0j1ZXSB/Q4XvQTbHYK0HLDzeRUBiIJhV4xm/s7d4mIbfTIIfU3sq+56Sh5g==";
+        };
+        _oS3rYMiY = {
+            "id" = "oS3rYMiY";
+            "file" = "Rustic 1.6 [1.21.5].zip";
+            "hash" = "sha512-D40RsEqLmQhiJIkwapDLGZV3GiTv9SXZXkxA/I8sbDh/d7zdKGLUWZFRDSqWOKQ5gcp/mow4m8j0svg26IfA3A==";
+        };
+        _YoL2AZPP = {
+            "id" = "YoL2AZPP";
+            "file" = "Rustic 1.6 [1.21.6].zip";
+            "hash" = "sha512-/ADJ78w5ZlHkwcKvFPGG4b1NNbepVLXmYs4MQAiN8pqm+Px+Grn2XgfSHW2HpPkRBXUHRcEr9kSBgrRb1ZnH9A==";
+        };
+        _zdHoeO7Q = {
+            "id" = "zdHoeO7Q";
+            "file" = "Rustic 1.6 [1.21.7-1.21.8].zip";
+            "hash" = "sha512-rjXqCpudBBhYihs5wZwqkdSs18uvu+p81Vp02EMGJRKcV/r6s2LP/ENzUgIWDnsFLtIaVg6UFJv8nUjy6URIqQ==";
+        };
+        _e7TPlY3y = {
+            "id" = "e7TPlY3y";
+            "file" = "Rustic 1.6 [1.21.9-1.21.10].zip";
+            "hash" = "sha512-9dWKv6H4KOXSIgzDe9dbS5oObQDTP9DkDCYGAeldLVVxySegzedB6XC7rdwFuhuR1kG9VjMvySSMpFNqcgm+yQ==";
+        };
+        _atv4pryb = {
+            "id" = "atv4pryb";
+            "file" = "Rustic 1.6 [1.21.11].zip";
+            "hash" = "sha512-w6NPpiBEjARGv+UuP+djO49CSatMiksHytBzO////Ndchz3Ry/IbeHi0PoBb6wGkpVfT9el4bqe57LrOxdwnIQ==";
+        };
+        _Xvswjh6n = {
+            "id" = "Xvswjh6n";
+            "file" = "Rustic 1.6 [26.1].zip";
+            "hash" = "sha512-9F+oWJgJG1txOqPksonRLDO4Odv4fAewP5qzDLxs6yXopY+f5D29tU0ED47TsfKO5tuaq23ONSdwX3ajjOhR2g==";
+        };
+        _n8qcUW8o = {
+            "id" = "n8qcUW8o";
+            "file" = "Rustic 1.6 [26.2].zip";
+            "hash" = "sha512-lHjY7DxHqCVFdNRyiDZd3FAOSQK0iNnQlqwMNcsFCyfMYUDN3HphE4bC9orkPYnxy9RKYkCjOHk3AsI9cKHuTw==";
+        };
+        _HCFPxWML = {
+            "id" = "HCFPxWML";
+            "file" = "Rustic 1.6 [26.3].zip";
+            "hash" = "sha512-Y8aBr2H9YTihv6VGeNUqlWOrPIRWaiqK965UrQ15thdSh5PBXYdmdo3qys5yAd/h37arKdKH/z3yqKZTnA8gGA==";
+        };
     in {
         "OHT8nKWE" = _OHT8nKWE;
         "As1aEkQI" = _As1aEkQI;
@@ -158,10 +213,21 @@ let
         "YPBbmFfM" = _YPBbmFfM;
         "dDdtkzj1" = _dDdtkzj1;
         "BHIwLp2j" = _BHIwLp2j;
+        "wdlaSp9Y" = _wdlaSp9Y;
+        "FzywYM7I" = _FzywYM7I;
+        "cRCy00bz" = _cRCy00bz;
+        "oS3rYMiY" = _oS3rYMiY;
+        "YoL2AZPP" = _YoL2AZPP;
+        "zdHoeO7Q" = _zdHoeO7Q;
+        "e7TPlY3y" = _e7TPlY3y;
+        "atv4pryb" = _atv4pryb;
+        "Xvswjh6n" = _Xvswjh6n;
+        "n8qcUW8o" = _n8qcUW8o;
+        "HCFPxWML" = _HCFPxWML;
         "minecraft-1.20" = _r7cCD9bB;
         "minecraft-1.20.1" = _r7cCD9bB;
-        "minecraft-1.21" = _YPBbmFfM;
-        "minecraft-1.21.1" = _YPBbmFfM;
+        "minecraft-1.21" = _wdlaSp9Y;
+        "minecraft-1.21.1" = _wdlaSp9Y;
         "minecraft-1.19" = _4vSrGlEu;
         "minecraft-1.19.1" = _4vSrGlEu;
         "minecraft-1.19.2" = _4vSrGlEu;
@@ -173,9 +239,21 @@ let
         "minecraft-1.20.4" = _n5WGVrFu;
         "minecraft-1.20.5" = _1g8QL2Mz;
         "minecraft-1.20.6" = _1g8QL2Mz;
-        "minecraft-1.21.2" = _dDdtkzj1;
-        "minecraft-1.21.3" = _dDdtkzj1;
-        "minecraft-1.21.4" = _BHIwLp2j;
+        "minecraft-1.21.2" = _FzywYM7I;
+        "minecraft-1.21.3" = _FzywYM7I;
+        "minecraft-1.21.4" = _cRCy00bz;
+        "minecraft-1.21.5" = _oS3rYMiY;
+        "minecraft-1.21.6" = _YoL2AZPP;
+        "minecraft-1.21.7" = _zdHoeO7Q;
+        "minecraft-1.21.8" = _zdHoeO7Q;
+        "minecraft-1.21.9" = _e7TPlY3y;
+        "minecraft-1.21.10" = _e7TPlY3y;
+        "minecraft-1.21.11" = _atv4pryb;
+        "minecraft-26.1" = _Xvswjh6n;
+        "minecraft-26.1.1" = _Xvswjh6n;
+        "minecraft-26.1.2" = _Xvswjh6n;
+        "minecraft-26.2" = _n8qcUW8o;
+        "minecraft-26.3" = _HCFPxWML;
         "pkg-0.1" = _OHT8nKWE;
         "pkg-0.2" = _As1aEkQI;
         "pkg-1.0" = _1nJJrsBP;
@@ -184,7 +262,8 @@ let
         "pkg-1.3" = _xvaHSsHW;
         "pkg-1.4" = _eA3Nfy7t;
         "pkg-1.5" = _BHIwLp2j;
-        "default" = _BHIwLp2j;
+        "pkg-1.6" = _HCFPxWML;
+        "default" = _HCFPxWML;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rustic-resource-pack";

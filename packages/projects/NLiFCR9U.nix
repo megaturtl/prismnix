@@ -21,11 +21,17 @@ let
             "file" = "Minecarts with Wheels.zip";
             "hash" = "sha512-RDYmPaPtnWvaBvJ7HCql2Z0/6zC48plSIV7Nl5wgSSLAS47UfBgHgtipAguOhGtLglUtzDlvhexKcW+6EEIV5w==";
         };
+        _TvuVuJ0q = {
+            "id" = "TvuVuJ0q";
+            "file" = "Minecarts with Wheels.zip";
+            "hash" = "sha512-B5vGJ1VKNXWLOcLV0M1anBhOG0Lhz3YYvUbJg8/gcQUBCJke6VeN/jQgDr5VjmLcjvUpSzTl3ZXVSUYpF4TtMQ==";
+        };
     in {
         "7oDdEFp5" = _7oDdEFp5;
         "KWHzOUPn" = _KWHzOUPn;
         "k2rXbge0" = _k2rXbge0;
         "CnFaybrK" = _CnFaybrK;
+        "TvuVuJ0q" = _TvuVuJ0q;
         "minecraft-1.20" = _7oDdEFp5;
         "minecraft-1.20.1" = _7oDdEFp5;
         "minecraft-1.20.2" = _KWHzOUPn;
@@ -42,13 +48,19 @@ let
         "minecraft-1.21.6" = _KWHzOUPn;
         "minecraft-1.21.7" = _KWHzOUPn;
         "minecraft-1.21.8" = _KWHzOUPn;
-        "minecraft-1.21.9" = _CnFaybrK;
-        "minecraft-1.21.10" = _CnFaybrK;
-        "minecraft-1.21.11" = _CnFaybrK;
+        "minecraft-1.21.9" = _TvuVuJ0q;
+        "minecraft-1.21.10" = _TvuVuJ0q;
+        "minecraft-1.21.11" = _TvuVuJ0q;
+        "minecraft-26.1" = _TvuVuJ0q;
+        "minecraft-26.1.1" = _TvuVuJ0q;
+        "minecraft-26.1.2" = _TvuVuJ0q;
+        "minecraft-26.2" = _TvuVuJ0q;
+        "minecraft-26.3" = _TvuVuJ0q;
         "pkg-1.1.0" = _KWHzOUPn;
         "pkg-1.2.0" = _k2rXbge0;
         "pkg-1.3.0" = _CnFaybrK;
-        "default" = _CnFaybrK;
+        "pkg-1.5.0" = _TvuVuJ0q;
+        "default" = _TvuVuJ0q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minecarts-with-wheels";

@@ -41,6 +41,11 @@ let
             "file" = "vanilla-paxels-1.4.jar";
             "hash" = "sha512-0qYlap99Kx6GpNOVHvBVmZDpCi1RdpcsMz6+oeA90M/o8QxmA9MaqZXDAOslYusaoN6tJyjDLifg9UFRCOsmmw==";
         };
+        _z7oq9qj3 = {
+            "id" = "z7oq9qj3";
+            "file" = "Vanilla Paxels DP v2.0.zip";
+            "hash" = "sha512-WlBrmWIi0UePO3ZmtotYduCCj/uMH2o63pslmfOJuLQZXPL2dybln75wcQJM46fCnrgL9svP7bXERORbyPvIsA==";
+        };
     in {
         "MWvsD9tO" = _MWvsD9tO;
         "r9Xoh7js" = _r9Xoh7js;
@@ -50,6 +55,7 @@ let
         "BFRfL8Ig" = _BFRfL8Ig;
         "IS3KcwM5" = _IS3KcwM5;
         "gNlACjpn" = _gNlACjpn;
+        "z7oq9qj3" = _z7oq9qj3;
         "datapack-24w10a" = _MWvsD9tO;
         "datapack-24w11a" = _MWvsD9tO;
         "datapack-24w12a" = _MWvsD9tO;
@@ -80,11 +86,12 @@ let
         "datapack-1.21.8" = _nHjPeAIN;
         "datapack-1.21.9" = _IS3KcwM5;
         "datapack-1.21.10" = _IS3KcwM5;
-        "datapack-1.21.11" = _IS3KcwM5;
-        "datapack-26.1" = _IS3KcwM5;
-        "datapack-26.1.1" = _IS3KcwM5;
-        "datapack-26.1.2" = _IS3KcwM5;
-        "datapack-26.2" = _IS3KcwM5;
+        "datapack-1.21.11" = _z7oq9qj3;
+        "datapack-26.1" = _z7oq9qj3;
+        "datapack-26.1.1" = _z7oq9qj3;
+        "datapack-26.1.2" = _z7oq9qj3;
+        "datapack-26.2" = _z7oq9qj3;
+        "datapack-26.3" = _z7oq9qj3;
         "fabric-1.21.5" = _BFRfL8Ig;
         "fabric-1.21.6" = _BFRfL8Ig;
         "fabric-1.21.7" = _BFRfL8Ig;
@@ -137,7 +144,8 @@ let
         "pkg-1.3+mod" = _BFRfL8Ig;
         "pkg-1.4" = _IS3KcwM5;
         "pkg-1.4+mod" = _gNlACjpn;
-        "default" = _gNlACjpn;
+        "pkg-2.0" = _z7oq9qj3;
+        "default" = _z7oq9qj3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-paxels";

@@ -1476,6 +1476,96 @@ let
             "file" = "StorageDrawers-fabric-1.21.11-20.0.0.jar";
             "hash" = "sha512-UErLzQbNVn0Hk62hidiZVCZ0OkWJRyU/iy8DRNiP4N33792GpP/L/JG4ANvm0RE5YrVqo8XCHQWU0yPGCPD35w==";
         };
+        _gD6tNTP2 = {
+            "id" = "gD6tNTP2";
+            "file" = "StorageDrawers-forge-26.1.0.0.jar";
+            "hash" = "sha512-W/p3Em1oZTOCbuQ+lhjUzktrIkcDP9sxi13EB4oamBkywZPxNqeiiCW5QCyC3rVUOxw5MBUhozbUI//gv+5gaA==";
+        };
+        _bwbAHl0q = {
+            "id" = "bwbAHl0q";
+            "file" = "StorageDrawers-fabric-26.1.0.0.jar";
+            "hash" = "sha512-sG3RxwV/ysbA4dpEahU3Eq+AT5L/YQdAyS1OXLMLs5/W+bDMEJll2snphBHFrJ9tzV2lOY8SfnmZIlmNfmgmiA==";
+        };
+        _A6JpkXGe = {
+            "id" = "A6JpkXGe";
+            "file" = "StorageDrawers-neoforge-26.1.0.0.jar";
+            "hash" = "sha512-erWxDXQ4y7tHAxBpGwyv46a8v1Qxg7CHmvk/sJ+oydWjcF+YYlfRx11YCbVlLVU790ZqVLLL++pQ8eS9TVh+7w==";
+        };
+        _U7ci2fDz = {
+            "id" = "U7ci2fDz";
+            "file" = "StorageDrawers-forge-1.21.10-19.1.2.jar";
+            "hash" = "sha512-arBjdvvGffm/VZaGy/eN2jkR8LKj6mI6XPCp5Psmv6RTSi/uol//MS3P7AniKzv9VcpU2xfuYLmflW1vMCZAWw==";
+        };
+        _a0ZxxJbF = {
+            "id" = "a0ZxxJbF";
+            "file" = "StorageDrawers-fabric-1.21.10-19.1.2.jar";
+            "hash" = "sha512-qFi7AuC0cVXWbErC8EPe6fqpSLmZIA4s1AL32dhO7h8TVdtpo4mDH16GRAV9Z4iFta5nPBYnXRQ5dtcfi1sqSg==";
+        };
+        _scd2s0fi = {
+            "id" = "scd2s0fi";
+            "file" = "StorageDrawers-neoforge-1.21.10-19.1.2.jar";
+            "hash" = "sha512-X7PzW3KM9GSwz7idXzx67Ycgi2aC3KP4NKKmj2O+tO4Q/pBBMw8VtcVK+yO68dKLAcReEH8Masmw/oBW8wEzcA==";
+        };
+        _R50iQgTX = {
+            "id" = "R50iQgTX";
+            "file" = "StorageDrawers-fabric-1.21.11-20.0.1.jar";
+            "hash" = "sha512-AseaXem795YeP8zsZ9X4AcsNKqg8eB4nCuW3+w7WFIy6jeU4lXrukDPXRNtL9V6geX3gqqiYVBtqyuQwAvMpDQ==";
+        };
+        _bjj1q42J = {
+            "id" = "bjj1q42J";
+            "file" = "StorageDrawers-neoforge-1.21.11-20.0.1.jar";
+            "hash" = "sha512-xzBLt11kN+zEIUVEZ0sxE7LYCJktWL6/7Y/TvtK5uVd+Ie0erhbiVU4Wqur9QDdJpwS15eqO718CE12kNptfCA==";
+        };
+        _vgjwBbXO = {
+            "id" = "vgjwBbXO";
+            "file" = "StorageDrawers-forge-26.1.0.1.jar";
+            "hash" = "sha512-fKpasEEV8VjLlKP7LDkfAHGq12z68fXPJ7E37XwzNf7U/TSc7mwof9sqHFu0Prv31f8Mjh1cAKWuIWbA/uOjdQ==";
+        };
+        _Ra9ZVWRq = {
+            "id" = "Ra9ZVWRq";
+            "file" = "StorageDrawers-fabric-26.1.0.1.jar";
+            "hash" = "sha512-Er6kk8DX334+nv7HwrqNqH191/2VeMwHLgownPdqzIRlbz/GV0zCbXfhecVRcJgO2wFDsxakLYKFdbkqfKrehA==";
+        };
+        _EXgeWglA = {
+            "id" = "EXgeWglA";
+            "file" = "StorageDrawers-neoforge-26.1.0.1.jar";
+            "hash" = "sha512-aEKtP7Od8ZvOeX6RdmuBLQYH1avu51eRwO825hnm+aQEtu4kblaAYWkkqM20JFwGT8AmMGdo2f/HLpdVWGJK7A==";
+        };
+        _yfYBUIl6 = {
+            "id" = "yfYBUIl6";
+            "file" = "StorageDrawers-forge-26.2.0.0.jar";
+            "hash" = "sha512-Ltxa3HhfN05K9mOJ8XJmmikXMcOFOKl5k7cTWgwVMfvkbewVOLVctCN7iMcL53pTmvX6GiykXDR0uLAK205lOw==";
+        };
+        _huUh1hO1 = {
+            "id" = "huUh1hO1";
+            "file" = "StorageDrawers-fabric-26.2.0.0.jar";
+            "hash" = "sha512-GpwAK889UBTSo3tPaD5MNRIOsxON5Crtnk1dCvpiKIctbVTOcKhkj0+eLPusbMXkDFGUUqF3vPPG3kgfB4Pcaw==";
+        };
+        _gSPW8sdr = {
+            "id" = "gSPW8sdr";
+            "file" = "StorageDrawers-neoforge-26.2.0.0.jar";
+            "hash" = "sha512-rAOns/lrVK8ryBpZIexuQLfXKFN2KxuBIZzh6FYxRYMNitoevg7NAu22sYHzu6kDurZ8zLWanhbvzJenw+2Klw==";
+        };
+        _FideBiKZ = {
+            "id" = "FideBiKZ";
+            "file" = "StorageDrawers-forge-1.20.1-12.15.0.jar";
+            "hash" = "sha512-+bLKlEK6S5DM92ouHMj9v/lKfeBXbu9ZY2VSVl6pHM4j5VzTScN6E8PnGXmYV3ldSnIfOfzD3JkODE3IK5WRtw==";
+        };
+        _USr2e1Ny = {
+            "id" = "USr2e1Ny";
+            "file" = "StorageDrawers-fabric-1.20.1-12.15.0.jar";
+            "hash" = "sha512-yDRMkIq5hJrYmZcaokw4VoD9re1ghGowGwa1DlCsEBPUqqtPVD/uRPjvX+F49QocETR6EzaqY9AfD9/DQ8iahw==";
+        };
+        _KEPMtgL1 = {
+            "id" = "KEPMtgL1";
+            "file" = "StorageDrawers-fabric-26.3.0.0.jar";
+            "hash" = "sha512-uGJyA0TtQGtm+W2MftzHzWPtMDezPaN8MQE7sgd04P8/hcSAPVhUrE6Ixp4sFmi5vXlOWElBAIAEUr1C1hx1Sg==";
+        };
+        _JwkKovSz = {
+            "id" = "JwkKovSz";
+            "file" = "StorageDrawers-neoforge-26.3.0.0.jar";
+            "hash" = "sha512-YHOmci4o0IwZt5J/w3XKkbxWEsFIPZzeWEnxZlKCpRJ3IZoNVexiN9yDXIZ0+wkJifRlUu61tNYOY3u8FPr2dw==";
+        };
     in {
         "HxmL9PcX" = _HxmL9PcX;
         "jBDpKNQU" = _jBDpKNQU;
@@ -1772,7 +1862,25 @@ let
         "Wf11ToNF" = _Wf11ToNF;
         "keMgcaqz" = _keMgcaqz;
         "Q9r8LMQL" = _Q9r8LMQL;
-        "forge-1.20.1" = _8raubcF4;
+        "gD6tNTP2" = _gD6tNTP2;
+        "bwbAHl0q" = _bwbAHl0q;
+        "A6JpkXGe" = _A6JpkXGe;
+        "U7ci2fDz" = _U7ci2fDz;
+        "a0ZxxJbF" = _a0ZxxJbF;
+        "scd2s0fi" = _scd2s0fi;
+        "R50iQgTX" = _R50iQgTX;
+        "bjj1q42J" = _bjj1q42J;
+        "vgjwBbXO" = _vgjwBbXO;
+        "Ra9ZVWRq" = _Ra9ZVWRq;
+        "EXgeWglA" = _EXgeWglA;
+        "yfYBUIl6" = _yfYBUIl6;
+        "huUh1hO1" = _huUh1hO1;
+        "gSPW8sdr" = _gSPW8sdr;
+        "FideBiKZ" = _FideBiKZ;
+        "USr2e1Ny" = _USr2e1Ny;
+        "KEPMtgL1" = _KEPMtgL1;
+        "JwkKovSz" = _JwkKovSz;
+        "forge-1.20.1" = _FideBiKZ;
         "forge-1.19.4" = _jBDpKNQU;
         "forge-1.19.3" = _FAzvjZqP;
         "forge-1.19" = _rUXcd0Oi;
@@ -1813,9 +1921,13 @@ let
         "forge-1.21.7" = _NwaRKTlM;
         "forge-1.21.8" = _NwaRKTlM;
         "forge-1.21.9" = _4ixe1hch;
-        "forge-1.21.10" = _CjPDgSRx;
+        "forge-1.21.10" = _U7ci2fDz;
         "forge-1.21.11" = _Wf11ToNF;
-        "neoforge-1.20.1" = _8raubcF4;
+        "forge-26.1" = _vgjwBbXO;
+        "forge-26.1.1" = _vgjwBbXO;
+        "forge-26.1.2" = _vgjwBbXO;
+        "forge-26.2" = _yfYBUIl6;
+        "neoforge-1.20.1" = _FideBiKZ;
         "neoforge-1.20.2" = _9uTO1dSv;
         "neoforge-1.20.4" = _NeZeofzf;
         "neoforge-1.20.6" = _geGMALlx;
@@ -1829,21 +1941,31 @@ let
         "neoforge-1.21.7" = _L2ijNAGP;
         "neoforge-1.21.8" = _L2ijNAGP;
         "neoforge-1.21.9" = _E7VV9HLH;
-        "neoforge-1.21.10" = _XfaFRGp9;
-        "neoforge-1.21.11" = _keMgcaqz;
+        "neoforge-1.21.10" = _scd2s0fi;
+        "neoforge-1.21.11" = _bjj1q42J;
+        "neoforge-26.1" = _EXgeWglA;
+        "neoforge-26.1.1" = _EXgeWglA;
+        "neoforge-26.1.2" = _EXgeWglA;
+        "neoforge-26.2" = _gSPW8sdr;
+        "neoforge-26.3" = _JwkKovSz;
         "fabric-1.21" = _78LmfH8Z;
         "fabric-1.21.1" = _78LmfH8Z;
         "fabric-1.21.2" = _V8tMHitt;
         "fabric-1.21.3" = _wkOCdNuu;
-        "fabric-1.20.1" = _TLSgOovZ;
+        "fabric-1.20.1" = _USr2e1Ny;
         "fabric-1.21.4" = _Yl3Topms;
         "fabric-1.21.5" = _PsXLrQVv;
         "fabric-1.21.6" = _ReJl8iu8;
         "fabric-1.21.7" = _736yNYHu;
         "fabric-1.21.8" = _736yNYHu;
         "fabric-1.21.9" = _I8zNCA5K;
-        "fabric-1.21.10" = _YU5yOEDQ;
-        "fabric-1.21.11" = _Q9r8LMQL;
+        "fabric-1.21.10" = _a0ZxxJbF;
+        "fabric-1.21.11" = _R50iQgTX;
+        "fabric-26.1" = _Ra9ZVWRq;
+        "fabric-26.1.1" = _Ra9ZVWRq;
+        "fabric-26.1.2" = _Ra9ZVWRq;
+        "fabric-26.2" = _huUh1hO1;
+        "fabric-26.3" = _KEPMtgL1;
         "pkg-12.0.3" = _HxmL9PcX;
         "pkg-11.3.1" = _jBDpKNQU;
         "pkg-11.2.0" = _FAzvjZqP;
@@ -2007,7 +2129,21 @@ let
         "pkg-1.21.10-19.1.0" = _hxlGSr6J;
         "pkg-1.21.10-19.1.1" = _XfaFRGp9;
         "pkg-1.21.11-20.0.0" = _Q9r8LMQL;
-        "default" = _Q9r8LMQL;
+        "pkg-26.1.0.0+forge" = _gD6tNTP2;
+        "pkg-26.1.0.0+fabric" = _bwbAHl0q;
+        "pkg-26.1.0.0+neoforge" = _A6JpkXGe;
+        "pkg-1.21.10-19.1.2" = _scd2s0fi;
+        "pkg-1.21.11-20.0.1" = _bjj1q42J;
+        "pkg-26.1.0.1+forge" = _vgjwBbXO;
+        "pkg-26.1.0.1+fabric" = _Ra9ZVWRq;
+        "pkg-26.1.0.1+neoforge" = _EXgeWglA;
+        "pkg-26.2.0.0+forge" = _yfYBUIl6;
+        "pkg-26.2.0.0+fabric" = _huUh1hO1;
+        "pkg-26.2.0.0+neoforge" = _gSPW8sdr;
+        "pkg-1.20.1-12.15.0" = _USr2e1Ny;
+        "pkg-26.3.0.0+fabric" = _KEPMtgL1;
+        "pkg-26.3.0.0+neoforge" = _JwkKovSz;
+        "default" = _JwkKovSz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "storagedrawers";

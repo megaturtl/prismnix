@@ -366,6 +366,16 @@ let
             "file" = "gravelminer-fabric-26.2-26.2.0.1.jar";
             "hash" = "sha512-PJsOEkJ82r2RZdeexXCz1uJOHo1tu9lKY7qq8lwoD1NuvwJPmLakt6JcxQdXUlbDRTlmJxj3tDfnzA+jKXuBUw==";
         };
+        _UMrN28NL = {
+            "id" = "UMrN28NL";
+            "file" = "gravelminer-fabric-26.3-26.3.0.1.jar";
+            "hash" = "sha512-TxJU3fAkXKtjhIR6gineu7GCkg27qNvGjc1DVRGu70cpBibWHjHGX5+mJ8+usKnm4csgCi4PvlFIQ80pF8/sLw==";
+        };
+        _5mNpY8N0 = {
+            "id" = "5mNpY8N0";
+            "file" = "gravelminer-neoforge-26.3-26.3.0.1.jar";
+            "hash" = "sha512-w0/vepAWfy7tNR5Jk4uOthWOaRRnmGSeNZf+bMDiJTwDek2pWCdrUPsl2FiZu7fqmPAWDD08RF96g1Kezij6Lg==";
+        };
     in {
         "3BGyR0Gy" = _3BGyR0Gy;
         "Yf2IlL69" = _Yf2IlL69;
@@ -440,6 +450,8 @@ let
         "8QA0TT89" = _8QA0TT89;
         "uYwttY0K" = _uYwttY0K;
         "o167Vcu7" = _o167Vcu7;
+        "UMrN28NL" = _UMrN28NL;
+        "5mNpY8N0" = _5mNpY8N0;
         "fabric-1.19" = _3BGyR0Gy;
         "fabric-1.19.1" = _3BGyR0Gy;
         "fabric-1.19.2" = _3BGyR0Gy;
@@ -469,6 +481,7 @@ let
         "fabric-26.1.1" = _sCj7RvLx;
         "fabric-26.1.2" = _sCj7RvLx;
         "fabric-26.2" = _o167Vcu7;
+        "fabric-26.3" = _UMrN28NL;
         "forge-1.19" = _Yf2IlL69;
         "forge-1.19.1" = _Yf2IlL69;
         "forge-1.19.2" = _Yf2IlL69;
@@ -510,6 +523,7 @@ let
         "neoforge-26.1.1" = _hRBrw5AT;
         "neoforge-26.1.2" = _hRBrw5AT;
         "neoforge-26.2" = _uYwttY0K;
+        "neoforge-26.3" = _5mNpY8N0;
         "pkg-13.0.0+fabric-1.19" = _3BGyR0Gy;
         "pkg-13.0.0+forge-1.19" = _Yf2IlL69;
         "pkg-14.0.0+fabric-1.19.3" = _xjQtju1o;
@@ -583,7 +597,9 @@ let
         "pkg-21.1.3+neoforge-1.21.1" = _8QA0TT89;
         "pkg-26.2.0.1+neoforge-26.2" = _uYwttY0K;
         "pkg-26.2.0.1+fabric-26.2" = _o167Vcu7;
-        "default" = _o167Vcu7;
+        "pkg-26.3.0.1+fabric-26.3" = _UMrN28NL;
+        "pkg-26.3.0.1+neoforge-26.3" = _5mNpY8N0;
+        "default" = _5mNpY8N0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gravelminer";

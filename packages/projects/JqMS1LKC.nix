@@ -156,6 +156,26 @@ let
             "file" = "rustlingspots-neoforge-4.3.jar";
             "hash" = "sha512-AQ67Y+8+5qrLsq/SIeCcqBRNzWVyMoOkvAhpNY5v3Y60kiCUniHalFgoArDlH/oEtN6Kc7WHavZbVWN+BNeZJA==";
         };
+        _9ZrSsW22 = {
+            "id" = "9ZrSsW22";
+            "file" = "rustlingspots-fabric-5.0.jar";
+            "hash" = "sha512-X8VhOTbLwxhacDkeXzEkojK8JD2LrbvHbIeklolzkIywb0jrvg78j7C/prghQhT1UEoQWH4cbCortcjH8aLmQw==";
+        };
+        _U4ZbvS1y = {
+            "id" = "U4ZbvS1y";
+            "file" = "rustlingspots-neoforge-5.0.jar";
+            "hash" = "sha512-B8vapcUmGqA8mDcosccz+eDdQG/j9O8QRLdxYqMzT/khQ94xgouRlxFCJY2iqTSN1UljeFVQCqoAIS13scZJAA==";
+        };
+        _fYzaP7Aq = {
+            "id" = "fYzaP7Aq";
+            "file" = "rustlingspots-fabric-5.0.1.jar";
+            "hash" = "sha512-gsxTmzy6xXhy3qmKMlg7TpgN02Mrz4tNTTTDuQoCME1CBt5rrY5Jh1f0QgjeQTlxor13BNRNmIhZhQSZofqmPw==";
+        };
+        _pkeOFyfo = {
+            "id" = "pkeOFyfo";
+            "file" = "rustlingspots-neoforge-5.0.1.jar";
+            "hash" = "sha512-B8fP9vFawtnuVizejTVW3sLnZFVxRfmFpk0T2GZb8jB72HPyh6T5Ov7V58RQGvaeHXL4n/HYNIDeROEE6ceeeg==";
+        };
     in {
         "Y9Ml4bZ7" = _Y9Ml4bZ7;
         "pc2T2nP1" = _pc2T2nP1;
@@ -188,8 +208,12 @@ let
         "JWsLvnqd" = _JWsLvnqd;
         "D0pxXHDU" = _D0pxXHDU;
         "dEWmjG1v" = _dEWmjG1v;
-        "neoforge-1.21.1" = _dEWmjG1v;
-        "fabric-1.21.1" = _D0pxXHDU;
+        "9ZrSsW22" = _9ZrSsW22;
+        "U4ZbvS1y" = _U4ZbvS1y;
+        "fYzaP7Aq" = _fYzaP7Aq;
+        "pkeOFyfo" = _pkeOFyfo;
+        "neoforge-1.21.1" = _pkeOFyfo;
+        "fabric-1.21.1" = _fYzaP7Aq;
         "pkg-1.0" = _Y9Ml4bZ7;
         "pkg-1.1" = _pc2T2nP1;
         "pkg-1.2" = _zEDBKpKn;
@@ -209,7 +233,9 @@ let
         "pkg-4.2" = _zy6o5gkL;
         "pkg-4.2.1" = _JWsLvnqd;
         "pkg-4.3" = _dEWmjG1v;
-        "default" = _dEWmjG1v;
+        "pkg-5.0" = _U4ZbvS1y;
+        "pkg-5.0.1" = _pkeOFyfo;
+        "default" = _pkeOFyfo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-rustling-spots";

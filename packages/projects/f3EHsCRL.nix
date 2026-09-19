@@ -66,6 +66,11 @@ let
             "file" = "chatglot-fabric-26.08.24-mc26.2.jar";
             "hash" = "sha512-xHftKvD1xZGdx7fzC7LmcFVA4wAfIgjKQVZyHDCwOdrBTZk2LFEgSKlGvb/TwXUoFy3z25E8pP8KHEqCCyt5iA==";
         };
+        _XcUszQqA = {
+            "id" = "XcUszQqA";
+            "file" = "chatglot-fabric-26.09.10-mc26.2.jar";
+            "hash" = "sha512-p31J3UktOMuttC+u5UvKP9C/XkkU83/Sjh89NDI1frNg2+tYIxmvIuz0Vh21jcoe1E0adp0zcnDOhtH1+P+WuA==";
+        };
     in {
         "YS1AArYp" = _YS1AArYp;
         "KcXE3PTI" = _KcXE3PTI;
@@ -80,12 +85,13 @@ let
         "JGYvmioq" = _JGYvmioq;
         "wOMc0EdW" = _wOMc0EdW;
         "Al03dCPO" = _Al03dCPO;
+        "XcUszQqA" = _XcUszQqA;
         "fabric-1.21.11" = _1ZKt8909;
         "fabric-1.21.4" = _H0fnF6tQ;
         "fabric-26.1" = _JGYvmioq;
         "fabric-26.1.1" = _JGYvmioq;
         "fabric-26.1.2" = _JGYvmioq;
-        "fabric-26.2" = _Al03dCPO;
+        "fabric-26.2" = _XcUszQqA;
         "pkg-26.03.10-mc1.21.11" = _YS1AArYp;
         "pkg-26.03.22-mc1.21.11" = _KcXE3PTI;
         "pkg-26.03.26-mc1.21.4" = _H0fnF6tQ;
@@ -99,7 +105,8 @@ let
         "pkg-26.07.12-mc26.1.2" = _JGYvmioq;
         "pkg-26.08.11-mc26.2" = _wOMc0EdW;
         "pkg-26.08.24-mc26.2" = _Al03dCPO;
-        "default" = _Al03dCPO;
+        "pkg-26.09.10-mc26.2" = _XcUszQqA;
+        "default" = _XcUszQqA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chatglot";

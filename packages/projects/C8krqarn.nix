@@ -71,6 +71,11 @@ let
             "file" = "R26.2_VEPotionRecipesV01.00.zip";
             "hash" = "sha512-KXjvDLtPKTDp7STRiJRK2d+f0gTSfP7BttgQUCD9aDGtkZqIM3PqoZpbbfHd4hDpQor14VL/+CMN+CHL0q6gxA==";
         };
+        _ajXFwsnZ = {
+            "id" = "ajXFwsnZ";
+            "file" = "R26.3_VEPotionRecipesV01.00.zip";
+            "hash" = "sha512-JXxPeCX6zZSWy57X3SuJbfnYcE09osP/Z2MMwqBkUIdxNrls6aADEuBERTc5S0bK2HOJs/pHcKLotY32/zW0bw==";
+        };
     in {
         "rfSy5O5W" = _rfSy5O5W;
         "W1bzc4y0" = _W1bzc4y0;
@@ -86,6 +91,7 @@ let
         "uT6nOKaH" = _uT6nOKaH;
         "zjjscghz" = _zjjscghz;
         "IHn9qv7f" = _IHn9qv7f;
+        "ajXFwsnZ" = _ajXFwsnZ;
         "minecraft-1.21" = _rfSy5O5W;
         "minecraft-1.21.1" = _W1bzc4y0;
         "minecraft-1.21.2" = _rB3fvbk9;
@@ -102,6 +108,7 @@ let
         "minecraft-26.1.1" = _zjjscghz;
         "minecraft-26.1.2" = _zjjscghz;
         "minecraft-26.2" = _IHn9qv7f;
+        "minecraft-26.3" = _ajXFwsnZ;
         "pkg-R1.21_V01.01.01" = _rfSy5O5W;
         "pkg-R1.21.1_V01.01.05" = _W1bzc4y0;
         "pkg-R1.21.2_V01.01.01" = _rB3fvbk9;
@@ -116,7 +123,8 @@ let
         "pkg-R1.21.11_V01.01.01" = _uT6nOKaH;
         "pkg-R26.1_V01.00" = _zjjscghz;
         "pkg-R26.2_V01.00" = _IHn9qv7f;
-        "default" = _IHn9qv7f;
+        "pkg-R26.3_V01.00" = _ajXFwsnZ;
+        "default" = _ajXFwsnZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "potion-recipes-vanilla-edition!";

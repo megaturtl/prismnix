@@ -71,6 +71,16 @@ let
             "file" = "armorrack-2.0.1+mc26.2.jar";
             "hash" = "sha512-THolSlnmzPc2RPPLkXgvyaxm+sfYP9/115S7jcu/epH5cdYXGfyZQcp24Vm/qFC0xF7kbjboKn0B1jp/ylKxVg==";
         };
+        _k0Nvr2W7 = {
+            "id" = "k0Nvr2W7";
+            "file" = "armorrack-2.0.1+mc26.3.jar";
+            "hash" = "sha512-KFbWTqjkXfRQnhYA441muGeKn/DD05ARSA2CDcfuRUgDABTtukvaWBXro2QsRiZ5AevprfUBA4N6+YFBUjKa+g==";
+        };
+        _tYDcdHsa = {
+            "id" = "tYDcdHsa";
+            "file" = "armorrack-2.0.1+mc26.1.2.jar";
+            "hash" = "sha512-yWD1/XryInjfyX6OhUm4Qa7FlW35SSA7paJ579LErRNo0bmH4zYzVYp0Qhd31roGVeypT7Vo0Z+OrzzPOFA2Iw==";
+        };
     in {
         "RrgQaSep" = _RrgQaSep;
         "O4W9RVhA" = _O4W9RVhA;
@@ -86,6 +96,8 @@ let
         "4Q6kro7c" = _4Q6kro7c;
         "NU24l1Kz" = _NU24l1Kz;
         "2UFocwas" = _2UFocwas;
+        "k0Nvr2W7" = _k0Nvr2W7;
+        "tYDcdHsa" = _tYDcdHsa;
         "fabric-1.20.1" = _GDSehvqa;
         "fabric-1.20.2" = _xKJapuvj;
         "fabric-1.20.3" = _xKJapuvj;
@@ -98,12 +110,14 @@ let
         "fabric-1.21.9" = _ai77SXmz;
         "fabric-1.21.10" = _ai77SXmz;
         "fabric-1.21.11" = _4Q6kro7c;
-        "fabric-26.1" = _NU24l1Kz;
-        "fabric-26.1.1" = _NU24l1Kz;
-        "fabric-26.1.2" = _NU24l1Kz;
+        "fabric-26.1" = _tYDcdHsa;
+        "fabric-26.1.1" = _tYDcdHsa;
+        "fabric-26.1.2" = _tYDcdHsa;
         "fabric-26.2-rc-1" = _2UFocwas;
         "fabric-26.2-rc-2" = _2UFocwas;
         "fabric-26.2" = _2UFocwas;
+        "fabric-26.3-rc-3" = _k0Nvr2W7;
+        "fabric-26.3" = _k0Nvr2W7;
         "quilt-1.20.1" = _GDSehvqa;
         "quilt-1.21" = _mn8SHA7h;
         "quilt-1.21.1" = _mn8SHA7h;
@@ -121,7 +135,9 @@ let
         "pkg-1.3.2+mc1.21.11" = _4Q6kro7c;
         "pkg-2.0.0+mc26.1" = _NU24l1Kz;
         "pkg-2.0.1+mc26.2" = _2UFocwas;
-        "default" = _2UFocwas;
+        "pkg-2.0.1+mc26.3" = _k0Nvr2W7;
+        "pkg-2.0.1+mc26.1.2" = _tYDcdHsa;
+        "default" = _tYDcdHsa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armor-rack";

@@ -61,6 +61,16 @@ let
             "file" = "peterwolfs-planes-neoforge-1.1.16.jar";
             "hash" = "sha512-5U2/moqOlpxAxtI3dXxDrTrq1IPiBRVdQSzRIN9C+If/RIDLxxiRPTeMjkCOZ3UC71e1duG99KlYyFoEl2Cajw==";
         };
+        _WG7mzy4c = {
+            "id" = "WG7mzy4c";
+            "file" = "peterwolfs-planes-1.1.17.jar";
+            "hash" = "sha512-pTWp8pORw3twSuvik2EW4PwgsMn+06DnoWH4ZJV0c/C8UFbYxmHoy3ZcyDrTCStrxT7BO5NABhXpwUZbBuym5g==";
+        };
+        _5bTig2RR = {
+            "id" = "5bTig2RR";
+            "file" = "peterwolfs-planes-1.1.19.jar";
+            "hash" = "sha512-yYDJnFsM42kKqgGTb3SDUTfyuiTmbaYaKcLlp/zRs7T5Lw5YdWtm1zYNkl1SWNt7R93kXfEnoRO1bNWiV752Uw==";
+        };
     in {
         "6OqpVcaN" = _6OqpVcaN;
         "3YfYzkYE" = _3YfYzkYE;
@@ -74,7 +84,9 @@ let
         "K54Pmt9O" = _K54Pmt9O;
         "kkpMIMGA" = _kkpMIMGA;
         "eXrKpC8n" = _eXrKpC8n;
-        "fabric-26.2" = _K54Pmt9O;
+        "WG7mzy4c" = _WG7mzy4c;
+        "5bTig2RR" = _5bTig2RR;
+        "fabric-26.2" = _5bTig2RR;
         "fabric-1.21.11" = _kkpMIMGA;
         "neoforge-26.2" = _eXrKpC8n;
         "pkg-1.0.0" = _6OqpVcaN;
@@ -88,7 +100,9 @@ let
         "pkg-1.1.15" = _FSNZIISJ;
         "pkg-1.1.16" = _eXrKpC8n;
         "pkg-1.1.16+1.21.11" = _kkpMIMGA;
-        "default" = _eXrKpC8n;
+        "pkg-1.1.17" = _WG7mzy4c;
+        "pkg-1.1.19" = _5bTig2RR;
+        "default" = _5bTig2RR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "peterwolfs-planes";

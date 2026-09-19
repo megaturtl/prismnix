@@ -76,6 +76,11 @@ let
             "file" = "ElementalCraft-Reactions-2.0.0.jar";
             "hash" = "sha512-EmnpVmdcMsYlK8kOcZ6GTah32XPfaIRzsjAlrBaX8Y9V7rCfQCx98nowcZJf8ORBqxCUeL4P41kBe9f4HRhAnw==";
         };
+        _Zh2rn42I = {
+            "id" = "Zh2rn42I";
+            "file" = "ElementalCraft-Reactions-3.0.0.jar";
+            "hash" = "sha512-TPOdb3apbR5HdiMcExx/2NpSErQ/5CHL5L25UCJ1o5Q0R8AADtqdp/JSi1JbgW+1qvjXznIqlCfUoBGixUm77g==";
+        };
     in {
         "HDb1F8xD" = _HDb1F8xD;
         "ZZ3pr9FC" = _ZZ3pr9FC;
@@ -92,8 +97,10 @@ let
         "nXpytz5c" = _nXpytz5c;
         "vyWQFkWH" = _vyWQFkWH;
         "EC5GRg6Y" = _EC5GRg6Y;
+        "Zh2rn42I" = _Zh2rn42I;
         "forge-1.20.1" = _vyWQFkWH;
         "neoforge-1.21.1" = _EC5GRg6Y;
+        "neoforge-26.2" = _Zh2rn42I;
         "pkg-1.1.0" = _HDb1F8xD;
         "pkg-1.3.0" = _ZZ3pr9FC;
         "pkg-1.4.0" = _cdP3dc2E;
@@ -109,7 +116,8 @@ let
         "pkg-1.7.5" = _nXpytz5c;
         "pkg-1.7.6" = _vyWQFkWH;
         "pkg-2.0.0" = _EC5GRg6Y;
-        "default" = _EC5GRg6Y;
+        "pkg-3.0.0" = _Zh2rn42I;
+        "default" = _Zh2rn42I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elementalcraft-reactions";

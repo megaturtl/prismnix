@@ -141,6 +141,11 @@ let
             "file" = "AntiAfk-1.2.9,26.2.jar";
             "hash" = "sha512-EGG63GAMOcKN17vcgjTyr1uaz+vUhT7SA5sFOWKYmegU7HRge0ECPAAesGf2ULjYamxt9r92FPFHHn5IqqFaFQ==";
         };
+        _stJlUv28 = {
+            "id" = "stJlUv28";
+            "file" = "AntiAfk-1.2.9,26.3.jar";
+            "hash" = "sha512-4gpehJZF9XxBR+W9eWv1txpiYsIpjItTHZEkEMQH810HsRpnX0Bbmx2Mgnv2usls5cGxDVvwlBog0Ao0lvarCQ==";
+        };
     in {
         "pXnx6q4D" = _pXnx6q4D;
         "g74NfxwU" = _g74NfxwU;
@@ -170,6 +175,7 @@ let
         "4ZFSdZ8f" = _4ZFSdZ8f;
         "vU6Xidux" = _vU6Xidux;
         "VzbEIEkX" = _VzbEIEkX;
+        "stJlUv28" = _stJlUv28;
         "fabric-1.20.1" = _LukzyCSg;
         "fabric-1.20.2" = _LukzyCSg;
         "fabric-1.20.4" = _LukzyCSg;
@@ -198,6 +204,7 @@ let
         "fabric-26.1.1" = _4ZFSdZ8f;
         "fabric-26.1.2" = _4ZFSdZ8f;
         "fabric-26.2" = _VzbEIEkX;
+        "fabric-26.3" = _stJlUv28;
         "quilt-1.20.1" = _LukzyCSg;
         "quilt-1.20.2" = _LukzyCSg;
         "quilt-1.20.4" = _LukzyCSg;
@@ -226,6 +233,7 @@ let
         "quilt-26.1.1" = _4ZFSdZ8f;
         "quilt-26.1.2" = _4ZFSdZ8f;
         "quilt-26.2" = _VzbEIEkX;
+        "quilt-26.3" = _stJlUv28;
         "pkg-1.0.4" = _pXnx6q4D;
         "pkg-1.0.5-1.20.2" = _g74NfxwU;
         "pkg-1.0.6-1.20.2" = _yiMR9OcF;
@@ -253,7 +261,8 @@ let
         "pkg-1.2.7,26.1-26.1.2" = _4ZFSdZ8f;
         "pkg-1.2.8,26.2" = _vU6Xidux;
         "pkg-1.2.9,26.2" = _VzbEIEkX;
-        "default" = _VzbEIEkX;
+        "pkg-1.2.9,26.3" = _stJlUv28;
+        "default" = _stJlUv28;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "antiafk";

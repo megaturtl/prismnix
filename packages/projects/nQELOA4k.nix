@@ -556,6 +556,11 @@ let
             "file" = "commandfallingblock-26.2-fabric-1.13-sources.jar";
             "hash" = "sha512-D/juD3iPSW+XpNwkKeqmkcPzOs4k4V+Fuqothb3JhT4wJxSM0S04JZOvfFnS962Ei64nQQtgWHuwnd/FplVDEA==";
         };
+        _63yBOhbM = {
+            "id" = "63yBOhbM";
+            "file" = "commandfallingblock-26.3-fabric-1.13.jar";
+            "hash" = "sha512-MiqoBZGBIE+sLltlHLTfJzQOflFfVfueKfMwLqunNLzQJBZTQ5nXHyafcPYjslVYeJQ/LaddRHRD1ADe+2IFzg==";
+        };
     in {
         "9egeKIY6" = _9egeKIY6;
         "r2QdABDU" = _r2QdABDU;
@@ -668,6 +673,7 @@ let
         "8USfzAr6" = _8USfzAr6;
         "kNSknHaA" = _kNSknHaA;
         "Qxrnr7yE" = _Qxrnr7yE;
+        "63yBOhbM" = _63yBOhbM;
         "fabric-1.20.1" = _qevYibxR;
         "fabric-1.16.5" = _FUy8sTAv;
         "fabric-1.20.2" = _HFFSltRw;
@@ -693,6 +699,7 @@ let
         "fabric-26.1.1" = _8USfzAr6;
         "fabric-26.1.2" = _kNSknHaA;
         "fabric-26.2" = _Qxrnr7yE;
+        "fabric-26.3" = _63yBOhbM;
         "pkg-1.5" = _9egeKIY6;
         "pkg-1.6" = _r2QdABDU;
         "pkg-1.7" = _aI6Zpogv;
@@ -800,7 +807,8 @@ let
         "pkg-26.1.1-fabric-1.13" = _8USfzAr6;
         "pkg-26.1.2-fabric-1.13" = _kNSknHaA;
         "pkg-26.2-fabric-1.13" = _Qxrnr7yE;
-        "default" = _Qxrnr7yE;
+        "pkg-26.3-fabric-1.13" = _63yBOhbM;
+        "default" = _63yBOhbM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "commandfallingblock";

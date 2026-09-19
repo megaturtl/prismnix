@@ -356,6 +356,46 @@ let
             "file" = "mob_loot_bags-neoforge-26.2-1.11.2.jar";
             "hash" = "sha512-b10kbqPpK2tN1e6YnKOx+a/GvGgyQLmJZzIZVfUorezsOUcY6siimIvZ91ttsmgrZINDKx1iXdnIFTxGvFS7Kw==";
         };
+        _lpCGCBH4 = {
+            "id" = "lpCGCBH4";
+            "file" = "mob_loot_bags-fabric-1.20.1-1.11.3.jar";
+            "hash" = "sha512-OlOMXkzRVeZn4u9ZgdPEhjf0p47nR7kD0Au3qOlHKadLqFl9tMTlrrP6uzQaBEXQWvhgOF12lz+d4/NeZaiiGA==";
+        };
+        _Sk6wnBei = {
+            "id" = "Sk6wnBei";
+            "file" = "mob_loot_bags-neoforge-1.20.1-1.11.3.jar";
+            "hash" = "sha512-ptBq67nH4vxGd9Vq/zIyxpi74xfZtWvG9fR/piDvjGn7+bF7QQ5AnVEcpJ778cJQZCjP0yFV/jRI5nuJ4UxJZg==";
+        };
+        _OmDvCdAs = {
+            "id" = "OmDvCdAs";
+            "file" = "mob_loot_bags-fabric-1.21.1-1.11.3.jar";
+            "hash" = "sha512-Re+f6+TfX5FCq7FKKccSnVzHdIw+KE8yil2Q5zF+4kzzqgg+AGI3ioTuJeG4Zi0QT/mk8vEDzAUjHxH0JefHcg==";
+        };
+        _ifpTJxgt = {
+            "id" = "ifpTJxgt";
+            "file" = "mob_loot_bags-neoforge-1.21.1-1.11.3.jar";
+            "hash" = "sha512-hfMP2FM1I9drFU4ALk8Pif+UVEBxx+BxzKktTcK1nlngnQhyagVoMSLvHDO7ReIwV9zujzs38zMeTFflxD5J/w==";
+        };
+        _XruRrimB = {
+            "id" = "XruRrimB";
+            "file" = "mob_loot_bags-fabric-26.1.2-1.11.3.jar";
+            "hash" = "sha512-/88PhNf90ekTxyQi0SewkqwfA6c0wLWsOV03DluPRN1/RU3futSRQtY49OyHtQ33ZkL7ir7+yw/RRucRqMMqCg==";
+        };
+        _wXf8kBYI = {
+            "id" = "wXf8kBYI";
+            "file" = "mob_loot_bags-neoforge-26.1.2-1.11.3.jar";
+            "hash" = "sha512-KlRQXVJbwoDatBXwlUS3/JMBbCSGvOTxU0nR29vAcECQqqZrDLVBz+2uRSUMdjTq/ZqPVoXB7b+Ct2vsp9jnnw==";
+        };
+        _Yt9VPYXl = {
+            "id" = "Yt9VPYXl";
+            "file" = "mob_loot_bags-fabric-26.2-1.11.3.jar";
+            "hash" = "sha512-ViURCor1ZgQ2zNsilO/WIHYCp1+vn+3WSojzYquoX6+FzFLIbjY1Oc0M2ndb5DYQjK0u9KIG1b1bAWAgYB0ccw==";
+        };
+        _WRb3FTi1 = {
+            "id" = "WRb3FTi1";
+            "file" = "mob_loot_bags-neoforge-26.2-1.11.3.jar";
+            "hash" = "sha512-nG3IIJazBmqUnBbxcb1+59ksH2sNrR8rnU9fIP6WjxxLEO1vknhru/44Ea1L/4G/lqZpENzk+z4+pS+ClNhC0g==";
+        };
     in {
         "j3KnUuuo" = _j3KnUuuo;
         "5JXHOzdl" = _5JXHOzdl;
@@ -428,20 +468,28 @@ let
         "PR2W6eWC" = _PR2W6eWC;
         "UfHVN5o9" = _UfHVN5o9;
         "6b4ZcRWb" = _6b4ZcRWb;
+        "lpCGCBH4" = _lpCGCBH4;
+        "Sk6wnBei" = _Sk6wnBei;
+        "OmDvCdAs" = _OmDvCdAs;
+        "ifpTJxgt" = _ifpTJxgt;
+        "XruRrimB" = _XruRrimB;
+        "wXf8kBYI" = _wXf8kBYI;
+        "Yt9VPYXl" = _Yt9VPYXl;
+        "WRb3FTi1" = _WRb3FTi1;
         "forge-1.20.1" = _rgDD8n1h;
         "forge-1.16.5" = _gf3j5OfI;
         "forge-1.19.2" = _IzNb3XBR;
         "forge-1.18.2" = _mWkmB9Hl;
-        "neoforge-1.21.1" = _PR2W6eWC;
-        "neoforge-1.20.1" = _f2QJgzPV;
+        "neoforge-1.21.1" = _ifpTJxgt;
+        "neoforge-1.20.1" = _Sk6wnBei;
         "neoforge-1.21.5" = _lrStEUoA;
         "neoforge-1.21.8" = _pUX2YSmQ;
-        "neoforge-26.1.2" = _vxugSJLk;
-        "neoforge-26.2" = _6b4ZcRWb;
-        "fabric-1.20.1" = _1prOWyxd;
-        "fabric-1.21.1" = _JsKD7OAv;
-        "fabric-26.1.2" = _3UVa6cf1;
-        "fabric-26.2" = _UfHVN5o9;
+        "neoforge-26.1.2" = _wXf8kBYI;
+        "neoforge-26.2" = _WRb3FTi1;
+        "fabric-1.20.1" = _lpCGCBH4;
+        "fabric-1.21.1" = _OmDvCdAs;
+        "fabric-26.1.2" = _XruRrimB;
+        "fabric-26.2" = _Yt9VPYXl;
         "pkg-1.0.0" = _5JXHOzdl;
         "pkg-1.1.0" = _yEPfMvgO;
         "pkg-1.2.0" = _5RUBjeeT;
@@ -465,7 +513,15 @@ let
         "pkg-1.11.2+neoforge-1.21.1" = _PR2W6eWC;
         "pkg-1.11.2+fabric-26.2" = _UfHVN5o9;
         "pkg-1.11.2+neoforge-26.2" = _6b4ZcRWb;
-        "default" = _6b4ZcRWb;
+        "pkg-1.11.3+fabric-1.20.1" = _lpCGCBH4;
+        "pkg-1.11.3+neoforge-1.20.1" = _Sk6wnBei;
+        "pkg-1.11.3+fabric-1.21.1" = _OmDvCdAs;
+        "pkg-1.11.3+neoforge-1.21.1" = _ifpTJxgt;
+        "pkg-1.11.3+fabric-26.1.2" = _XruRrimB;
+        "pkg-1.11.3+neoforge-26.1.2" = _wXf8kBYI;
+        "pkg-1.11.3+fabric-26.2" = _Yt9VPYXl;
+        "pkg-1.11.3+neoforge-26.2" = _WRb3FTi1;
+        "default" = _WRb3FTi1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mob-loot-bags";

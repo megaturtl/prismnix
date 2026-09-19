@@ -106,6 +106,11 @@ let
             "file" = "§6MrOres 3D§a-Vanilla Glowing 26.2.zip";
             "hash" = "sha512-HVpZyz+ojqL9Sn/bNwnWzG0dbjGwpkBB2eXuhr4IdCfykMaW1lj1x4O12SCnduRq9qmNLtwri5QFzwgCrjACLQ==";
         };
+        _GhiQIlRq = {
+            "id" = "GhiQIlRq";
+            "file" = "§6MrOres 3D§a-Glowing Va2-26.3.zip";
+            "hash" = "sha512-JYOUugZlM1zaVexRhGzYZg56R/EtnUIHyEvKgLjm7lxgGKSziDnvFA9y4ekcz8DvhVUUsBNrZy2OBoNjO6vW1Q==";
+        };
     in {
         "CVVgQ19X" = _CVVgQ19X;
         "Ovgrhv49" = _Ovgrhv49;
@@ -128,6 +133,7 @@ let
         "lUCRqhmI" = _lUCRqhmI;
         "W0fODUqF" = _W0fODUqF;
         "peJOSK99" = _peJOSK99;
+        "GhiQIlRq" = _GhiQIlRq;
         "minecraft-1.21.2" = _pXR8lnCU;
         "minecraft-1.21.3" = _pXR8lnCU;
         "minecraft-1.21.4" = _pXR8lnCU;
@@ -184,10 +190,11 @@ let
         "minecraft-24w44a" = _pXR8lnCU;
         "minecraft-24w45a" = _pXR8lnCU;
         "minecraft-24w46a" = _pXR8lnCU;
-        "minecraft-26.1" = _peJOSK99;
-        "minecraft-26.1.1" = _peJOSK99;
-        "minecraft-26.1.2" = _peJOSK99;
-        "minecraft-26.2" = _peJOSK99;
+        "minecraft-26.1" = _GhiQIlRq;
+        "minecraft-26.1.1" = _GhiQIlRq;
+        "minecraft-26.1.2" = _GhiQIlRq;
+        "minecraft-26.2" = _GhiQIlRq;
+        "minecraft-26.3" = _GhiQIlRq;
         "pkg-1.0" = _pjmJWr78;
         "pkg-1.0.1" = _9Ly4qOml;
         "pkg-1.0.2" = _Cn5lI3Qi;
@@ -198,7 +205,8 @@ let
         "pkg-1.21.11" = _lUCRqhmI;
         "pkg-26.0-26.1.2" = _W0fODUqF;
         "pkg-26.2" = _peJOSK99;
-        "default" = _peJOSK99;
+        "pkg-Va2-26.3" = _GhiQIlRq;
+        "default" = _GhiQIlRq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mrores-3d-vanilla-glowing";

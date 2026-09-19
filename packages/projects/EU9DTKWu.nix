@@ -101,6 +101,11 @@ let
             "file" = "achievementstyle-1.4.3.jar";
             "hash" = "sha512-OZvPzd1QT46pStWWDzRispHHUKK7TU0kKiq2DrL1t6sUqzyfgHy8TMF4oiLQLWWhKj3YjySboMIjB5YgPF9rjQ==";
         };
+        _7J01INm3 = {
+            "id" = "7J01INm3";
+            "file" = "achievementstyle-1.4.4.jar";
+            "hash" = "sha512-Cq/cT6WaQPY+6OaNv4seTXNd43xhyF1Hz5ddjrqOee6Rt3p6lhSLWONdOo9jb3bdKcKNWFWs7C0NZRApERxq6w==";
+        };
     in {
         "8OUqLCxj" = _8OUqLCxj;
         "wY2Hkexm" = _wY2Hkexm;
@@ -122,6 +127,7 @@ let
         "I8HVE4Ib" = _I8HVE4Ib;
         "KLPv9puH" = _KLPv9puH;
         "FRpeGWWE" = _FRpeGWWE;
+        "7J01INm3" = _7J01INm3;
         "fabric-1.21.5" = _eygNn580;
         "fabric-1.21" = _eygNn580;
         "fabric-1.21.1" = _eygNn580;
@@ -139,7 +145,7 @@ let
         "fabric-26.1" = _FRpeGWWE;
         "fabric-26.1.1" = _FRpeGWWE;
         "fabric-26.1.2" = _FRpeGWWE;
-        "fabric-26.2" = _FRpeGWWE;
+        "fabric-26.2" = _7J01INm3;
         "pkg-0.0.1" = _8OUqLCxj;
         "pkg-1.0.0" = _wY2Hkexm;
         "pkg-1.0.1" = _knV50Smd;
@@ -160,7 +166,8 @@ let
         "pkg-1.4.1" = _I8HVE4Ib;
         "pkg-1.4.2" = _KLPv9puH;
         "pkg-1.4.3" = _FRpeGWWE;
-        "default" = _FRpeGWWE;
+        "pkg-1.4.4" = _7J01INm3;
+        "default" = _7J01INm3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "achievement-style";

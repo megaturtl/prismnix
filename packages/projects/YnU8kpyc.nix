@@ -151,6 +151,11 @@ let
             "file" = "translater-26.2.0.jar";
             "hash" = "sha512-pNj3/DXEJ8j6yjg6csGSihkQO7y99zCsmcKNzb3Ok83z86mtiDT1T8PH/iOk4TknQ9e2dqihkr1F9+M5V7455g==";
         };
+        _89avsiuc = {
+            "id" = "89avsiuc";
+            "file" = "translater-26.3.0.jar";
+            "hash" = "sha512-7U9XaMeTYwJwYX4klMEtNWlyGTHCAi+5+gHJeYTKcXjTt9NtqTaNuj2ZrtE7Cn593bTlaqBOzLrVh38l6zI1zQ==";
+        };
     in {
         "zU3yCkOM" = _zU3yCkOM;
         "XaIIvIGo" = _XaIIvIGo;
@@ -182,6 +187,7 @@ let
         "fws3cp51" = _fws3cp51;
         "pAka2N2X" = _pAka2N2X;
         "LC8eaBkk" = _LC8eaBkk;
+        "89avsiuc" = _89avsiuc;
         "fabric-1.16.5" = _XaIIvIGo;
         "fabric-1.17" = _b5cWiHRb;
         "fabric-1.17.1" = _GgpnOzxw;
@@ -216,6 +222,7 @@ let
         "fabric-26.1.1" = _pAka2N2X;
         "fabric-26.1.2" = _pAka2N2X;
         "fabric-26.2" = _LC8eaBkk;
+        "fabric-26.3" = _89avsiuc;
         "pkg-1.1.0" = _zU3yCkOM;
         "pkg-1.2.0" = _XaIIvIGo;
         "pkg-1.2.2" = _b5cWiHRb;
@@ -246,7 +253,8 @@ let
         "pkg-1.7.15" = _fws3cp51;
         "pkg-26.1.0" = _pAka2N2X;
         "pkg-26.2.0" = _LC8eaBkk;
-        "default" = _LC8eaBkk;
+        "pkg-26.3.0" = _89avsiuc;
+        "default" = _89avsiuc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "translater";

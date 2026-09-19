@@ -401,6 +401,16 @@ let
             "file" = "netherportalfix-neoforge-26.2-26.2.0.1.jar";
             "hash" = "sha512-QRamBWW22jZBkiLzgjzGpkXwKqF9SCQeKsf40j9K1O5pBMS7hncyTB3Ad4mkTz961GJVN6OJ+RJ5agW8QIxpzg==";
         };
+        _t1lCNm3m = {
+            "id" = "t1lCNm3m";
+            "file" = "netherportalfix-neoforge-26.3-26.3.0.1.jar";
+            "hash" = "sha512-q5aMfjA3mx4Jw2jTVXsj1yFFR6jO1OGGOYIn72SgWST6VpH0y3DnWkkDmUmtcx1f7Cqf1qb6l5p2uv14Rq0PNQ==";
+        };
+        _RC1fmH8z = {
+            "id" = "RC1fmH8z";
+            "file" = "netherportalfix-fabric-26.3-26.3.0.1.jar";
+            "hash" = "sha512-PjCjmHAvSeYzaHCVG8fWSmUKNwGQ26sFjpJ662o785iUdJeujhdQo7UsvN91HV2baniJYxPTQtFsviBGE3A7sQ==";
+        };
     in {
         "W2GQFVWF" = _W2GQFVWF;
         "KchVyZcY" = _KchVyZcY;
@@ -482,6 +492,8 @@ let
         "LZvvZ7zS" = _LZvvZ7zS;
         "GQpccFqg" = _GQpccFqg;
         "k2zfJIvB" = _k2zfJIvB;
+        "t1lCNm3m" = _t1lCNm3m;
+        "RC1fmH8z" = _RC1fmH8z;
         "fabric-1.19" = _5mUp7FiY;
         "fabric-1.19.1" = _5mUp7FiY;
         "fabric-1.19.2" = _5mUp7FiY;
@@ -511,6 +523,7 @@ let
         "fabric-26.1.1" = _lxYeKU5D;
         "fabric-26.1.2" = _lxYeKU5D;
         "fabric-26.2" = _GQpccFqg;
+        "fabric-26.3" = _RC1fmH8z;
         "forge-1.19" = _WJBCsJlq;
         "forge-1.19.1" = _WJBCsJlq;
         "forge-1.19.2" = _WJBCsJlq;
@@ -553,6 +566,7 @@ let
         "neoforge-26.1.1" = _LZvvZ7zS;
         "neoforge-26.1.2" = _LZvvZ7zS;
         "neoforge-26.2" = _k2zfJIvB;
+        "neoforge-26.3" = _t1lCNm3m;
         "pkg-10.0.0+fabric-1.19" = _W2GQFVWF;
         "pkg-10.0.0+forge-1.19" = _KchVyZcY;
         "pkg-11.0.0+fabric-1.19.3" = _lvjIpOkl;
@@ -633,7 +647,9 @@ let
         "pkg-26.1.0.1+neoforge-26.1" = _LZvvZ7zS;
         "pkg-26.2.0.1+fabric-26.2" = _GQpccFqg;
         "pkg-26.2.0.1+neoforge-26.2" = _k2zfJIvB;
-        "default" = _k2zfJIvB;
+        "pkg-26.3.0.1+neoforge-26.3" = _t1lCNm3m;
+        "pkg-26.3.0.1+fabric-26.3" = _RC1fmH8z;
+        "default" = _RC1fmH8z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "netherportalfix";

@@ -121,6 +121,16 @@ let
             "file" = "more-babies-26.3-snapshot-10+3.1.1-fabric.jar";
             "hash" = "sha512-W1x4vEhbKfkKG/Mzo/G8RqcYYgsFK+9TFQ5MRqD/eoYz1AenxR47Thkt4Y+ibykEI0aqehZ6y7L317I+2nBJ1A==";
         };
+        _6RYnoH8t = {
+            "id" = "6RYnoH8t";
+            "file" = "more-babies-26.3+3.1.1-neoforge.jar";
+            "hash" = "sha512-283RXXSzr3E70RqCW3jq8zhj8iqSR66nm7zVugRKNA8nMlUH0K2ciXqK49Yu77O4944ELaoaUtb6h1KIylNOEA==";
+        };
+        _1jce1nf3 = {
+            "id" = "1jce1nf3";
+            "file" = "more-babies-26.3+3.1.1-fabric.jar";
+            "hash" = "sha512-N/NNy3tiYdbpYrNTZM/Nt/ZhTCD8e58wpKBE+KyEgmrJIntMtqz9xkPASItHwgkU9pKUJ/pBR44k3DqeOWtV4Q==";
+        };
     in {
         "M3OkvSOb" = _M3OkvSOb;
         "I9Ucy4Yw" = _I9Ucy4Yw;
@@ -146,6 +156,8 @@ let
         "RLSG4nsW" = _RLSG4nsW;
         "OM6N4vjT" = _OM6N4vjT;
         "TV2y9BOe" = _TV2y9BOe;
+        "6RYnoH8t" = _6RYnoH8t;
+        "1jce1nf3" = _1jce1nf3;
         "forge-1.18.2" = _M3OkvSOb;
         "forge-1.19.1" = _ANUZkBSD;
         "forge-1.19.2" = _ANUZkBSD;
@@ -174,12 +186,14 @@ let
         "fabric-26.3-snapshot-8" = _OM6N4vjT;
         "fabric-26.3-snapshot-10" = _TV2y9BOe;
         "fabric-26.3-pre-1" = _TV2y9BOe;
+        "fabric-26.3" = _1jce1nf3;
         "neoforge-1.21" = _6C8dq6Of;
         "neoforge-1.21.1" = _e8wmZM1b;
         "neoforge-26.1" = _uLiahH0C;
         "neoforge-26.1.1" = _uLiahH0C;
         "neoforge-26.1.2" = _uLiahH0C;
         "neoforge-26.2" = _vfGUP9nA;
+        "neoforge-26.3" = _6RYnoH8t;
         "pkg-1.0.0-1.18.2-forge" = _M3OkvSOb;
         "pkg-1.0.0-1.18.2-fabric" = _I9Ucy4Yw;
         "pkg-1.0.0-1.19.1+-forge" = _ANUZkBSD;
@@ -204,7 +218,9 @@ let
         "pkg-26.2+3.1.1-fabric" = _RLSG4nsW;
         "pkg-26.3-snapshot-7+3.1.1-fabric" = _OM6N4vjT;
         "pkg-26.3-snapshot-10+3.1.1-fabric" = _TV2y9BOe;
-        "default" = _TV2y9BOe;
+        "pkg-26.3+3.1.1-neoforge" = _6RYnoH8t;
+        "pkg-26.3+3.1.1-fabric" = _1jce1nf3;
+        "default" = _1jce1nf3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-babies";

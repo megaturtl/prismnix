@@ -96,6 +96,16 @@ let
             "file" = "simplezoom-forge-26.2-1.3.0.jar";
             "hash" = "sha512-BSS11Htgu5WCq186pD5NI1ZiSNZmIlplJ17JUjLuoL9d6ktErX24owJ+lwxh09OZGT3ciVaEVQlhfR7m8qp7wg==";
         };
+        _2AWXGCrO = {
+            "id" = "2AWXGCrO";
+            "file" = "simplezoom-fabric-26.3-1.4.0.jar";
+            "hash" = "sha512-JXtiv34abNP+SuzvlVfAW7j9jax/3wUAi46i13tNYkZmkFobxgbXTvOYa9CX7j+kd2fabMIeM79xP7I3U7QI4A==";
+        };
+        _YvCahDDh = {
+            "id" = "YvCahDDh";
+            "file" = "simplezoom-neoforge-26.3-1.4.0.jar";
+            "hash" = "sha512-tOIbCCfnc3E2V3FZvDkDcneHpa9Sc4gVOXOB2voMuf2/yDmIj++uIaY61XT2XriISR3M936DoyrQ3auWHxaPUw==";
+        };
     in {
         "jvxJR4zo" = _jvxJR4zo;
         "KmippQLi" = _KmippQLi;
@@ -116,6 +126,8 @@ let
         "tALD0aw4" = _tALD0aw4;
         "hVUe0oDX" = _hVUe0oDX;
         "eNQjXC2I" = _eNQjXC2I;
+        "2AWXGCrO" = _2AWXGCrO;
+        "YvCahDDh" = _YvCahDDh;
         "fabric-1.21.11" = _jq4aazjU;
         "fabric-1.21.9" = _wUp8wSjY;
         "fabric-1.21.10" = _wUp8wSjY;
@@ -126,6 +138,7 @@ let
         "fabric-1.20" = _Oh2X17A9;
         "fabric-1.20.1" = _Oh2X17A9;
         "fabric-26.2" = _tALD0aw4;
+        "fabric-26.3" = _2AWXGCrO;
         "forge-1.21.11" = _dQSZqz4R;
         "forge-1.21.9" = _GjmSEc6e;
         "forge-1.21.10" = _GjmSEc6e;
@@ -143,11 +156,13 @@ let
         "neoforge-26.1.1" = _tneHSrcb;
         "neoforge-26.1.2" = _tneHSrcb;
         "neoforge-26.2" = _hVUe0oDX;
+        "neoforge-26.3" = _YvCahDDh;
         "pkg-1.0.0" = _ACFRqDJX;
         "pkg-1.0.1" = _Oh2X17A9;
         "pkg-1.2.0" = _bnldZLUP;
         "pkg-1.3.0" = _eNQjXC2I;
-        "default" = _eNQjXC2I;
+        "pkg-1.4.0" = _YvCahDDh;
+        "default" = _YvCahDDh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zoom-simple";

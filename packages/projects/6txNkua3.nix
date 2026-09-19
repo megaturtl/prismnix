@@ -776,6 +776,46 @@ let
             "file" = "immersive_paintings-neoforge-26.2-0.7.8.jar";
             "hash" = "sha512-llgwWCL6wooNOkDLKc1HEBOnua9WOLCpP2YaH2Wj9BsCKsrOIQPceg4ZTiUCbIwESM7xXUWdA/37l9p5ULqQug==";
         };
+        _wP4Wd1IW = {
+            "id" = "wP4Wd1IW";
+            "file" = "immersive_paintings-fabric-1.21.1-0.7.9.jar";
+            "hash" = "sha512-Jb9lCC654HlKqyXfXkmJzQ3R0UnaMANBAHlXC69Fkjps7OuD05GoPNAiry3j+2Noy1TorGXV6EsGyBTtibQGIQ==";
+        };
+        _ItQ1UJGH = {
+            "id" = "ItQ1UJGH";
+            "file" = "immersive_paintings-neoforge-1.21.1-0.7.9.jar";
+            "hash" = "sha512-3j4G88n4zm8EHa/1wrg17A84bM2rfqf+LP7Ff4CO0lZ1/gVv8GLV9DX1JIqn8Os4Fq59R0jajlO+riQZAIywMQ==";
+        };
+        _iW8RbCY9 = {
+            "id" = "iW8RbCY9";
+            "file" = "immersive_paintings-fabric-26.2-0.7.9.jar";
+            "hash" = "sha512-5Eg+B8ZDsnS6s6/XuU4r9ltGzJfmlSrSmBXmkZLDkx2WlHy2D0eQNrNB8MFTfx0q+jUGOIPpqUle7V/Z+sL/+g==";
+        };
+        _zuInWqiE = {
+            "id" = "zuInWqiE";
+            "file" = "immersive_paintings-neoforge-26.2-0.7.9.jar";
+            "hash" = "sha512-SQjzwOu8aPQnoJ0toPmjKtskTmbYgY9hiwDwXaL1LkYegviepmnqJvPU2Adgn2emNj+Afy4Zd8xRmhQ0LyDpnw==";
+        };
+        _2LqMpMw5 = {
+            "id" = "2LqMpMw5";
+            "file" = "immersive_paintings-fabric-26.1.2-0.7.9.jar";
+            "hash" = "sha512-ypUCno1dSrJWFRqzQr9nZgyfJdWVZPZ+zEPCPWFs1ECzaImeFXWsri+LoSuNOrQ5j1LDkuVKWqxXXFmQSYHINQ==";
+        };
+        _uFeTHh2F = {
+            "id" = "uFeTHh2F";
+            "file" = "immersive_paintings-neoforge-26.1.2-0.7.9.jar";
+            "hash" = "sha512-Ro85JANiS2l8lzZ7UfSIMo2QIap9BOR1pjtf54yd+5ZUyO9gJNzVW99aZj31mZBa8+9yCwtKjqUTGjDkPUIYIg==";
+        };
+        _U5w9P7aR = {
+            "id" = "U5w9P7aR";
+            "file" = "immersive_paintings-fabric-1.21.11-0.7.9.jar";
+            "hash" = "sha512-R+/CyCmlp8B48c1HmKqTVeJqTi4nK4k5tlSL5d4nIcb3QSRU3iKcxTtX+gKO6aLx1FIX2KsDss3fjf7gH1kHhw==";
+        };
+        _N5cQ39oI = {
+            "id" = "N5cQ39oI";
+            "file" = "immersive_paintings-neoforge-1.21.11-0.7.9.jar";
+            "hash" = "sha512-q9gsHKwx8/D+Gs8rlz7VgPTahIyZO7y53XUBcU6g+s77TbRfuzIo1amzWKkeYUmAZDHpLLDvC8zfMDHzbgyl+w==";
+        };
     in {
         "Gx9xqUNM" = _Gx9xqUNM;
         "Js1LsVaJ" = _Js1LsVaJ;
@@ -932,6 +972,14 @@ let
         "hSp2uSlM" = _hSp2uSlM;
         "RqkAeAkP" = _RqkAeAkP;
         "I5TXFlY8" = _I5TXFlY8;
+        "wP4Wd1IW" = _wP4Wd1IW;
+        "ItQ1UJGH" = _ItQ1UJGH;
+        "iW8RbCY9" = _iW8RbCY9;
+        "zuInWqiE" = _zuInWqiE;
+        "2LqMpMw5" = _2LqMpMw5;
+        "uFeTHh2F" = _uFeTHh2F;
+        "U5w9P7aR" = _U5w9P7aR;
+        "N5cQ39oI" = _N5cQ39oI;
         "fabric-1.16.5" = _P7MkmKte;
         "fabric-1.18.2" = _Yd3sb0nE;
         "fabric-1.19.2" = _sIfgYkdd;
@@ -939,10 +987,10 @@ let
         "fabric-1.19.4" = _Hdo9r049;
         "fabric-1.20" = _GtTDsdv5;
         "fabric-1.20.1" = _TOHB3jQz;
-        "fabric-1.21.1" = _tiuQNv8m;
-        "fabric-26.1.2" = _bq2JN6UC;
-        "fabric-1.21.11" = _wPq8dVxI;
-        "fabric-26.2" = _RqkAeAkP;
+        "fabric-1.21.1" = _wP4Wd1IW;
+        "fabric-26.1.2" = _2LqMpMw5;
+        "fabric-1.21.11" = _U5w9P7aR;
+        "fabric-26.2" = _iW8RbCY9;
         "forge-1.16.5" = _stOcwdwe;
         "forge-1.18.2" = _ud1QWauc;
         "forge-1.19.2" = _KD522cBS;
@@ -950,10 +998,10 @@ let
         "forge-1.19.4" = _OAv1frEB;
         "forge-1.20" = _cUPcxPZ8;
         "forge-1.20.1" = _DYpJU8lA;
-        "neoforge-1.21.1" = _DeOfrXC3;
-        "neoforge-26.1.2" = _7xYawqQ8;
-        "neoforge-1.21.11" = _hSp2uSlM;
-        "neoforge-26.2" = _I5TXFlY8;
+        "neoforge-1.21.1" = _ItQ1UJGH;
+        "neoforge-26.1.2" = _uFeTHh2F;
+        "neoforge-1.21.11" = _N5cQ39oI;
+        "neoforge-26.2" = _zuInWqiE;
         "pkg-0.3.0+1.16.5" = _Js1LsVaJ;
         "pkg-0.3.0+1.18.2" = _YjLnRKfG;
         "pkg-0.3.0+1.19.2" = _jAYe2YiL;
@@ -1031,7 +1079,11 @@ let
         "pkg-0.7.8+26.1.2" = _7xYawqQ8;
         "pkg-0.7.8+1.21.11" = _hSp2uSlM;
         "pkg-0.7.8+26.2" = _I5TXFlY8;
-        "default" = _I5TXFlY8;
+        "pkg-0.7.9+1.21.1" = _ItQ1UJGH;
+        "pkg-0.7.9+26.2" = _zuInWqiE;
+        "pkg-0.7.9+26.1.2" = _uFeTHh2F;
+        "pkg-0.7.9+1.21.11" = _N5cQ39oI;
+        "default" = _N5cQ39oI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-paintings";

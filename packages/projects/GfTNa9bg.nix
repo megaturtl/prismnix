@@ -191,6 +191,11 @@ let
             "file" = "Small Utills.zip";
             "hash" = "sha512-PXNL5vITUm/LuIh35ZfdMeGAxFS5QsJmArpRkHcuytHcM0PPoax/rJSBTyPF4RPnDO6C3HSUZiCr04VKbEBo4Q==";
         };
+        _Up3isE3H = {
+            "id" = "Up3isE3H";
+            "file" = "Small Utills 26.3.zip";
+            "hash" = "sha512-eg3DAjPfD9W+CSfSmlINErbT4wEIUwdV1EEDbACUJhf1YBdLDInLEpqlNWU1lHhyGnhmmyvvysa4VVX53MEroA==";
+        };
     in {
         "doGuTx5n" = _doGuTx5n;
         "YJd1kEnt" = _YJd1kEnt;
@@ -230,6 +235,7 @@ let
         "ku4DXWuc" = _ku4DXWuc;
         "nZEY5Ixq" = _nZEY5Ixq;
         "GXZyVA4Y" = _GXZyVA4Y;
+        "Up3isE3H" = _Up3isE3H;
         "minecraft-1.19" = _FZ5rrDGT;
         "minecraft-1.19.1" = _wgNeQaCt;
         "minecraft-1.19.2" = _wgNeQaCt;
@@ -258,6 +264,7 @@ let
         "minecraft-26.1.1" = _URGqfhRG;
         "minecraft-26.1.2" = _ku4DXWuc;
         "minecraft-26.2" = _nZEY5Ixq;
+        "minecraft-26.3" = _Up3isE3H;
         "pkg-1.19" = _FZ5rrDGT;
         "pkg-1.19.1-1.19.2" = _wgNeQaCt;
         "pkg-1.19.3-1.19.4" = _1fPK561P;
@@ -277,7 +284,8 @@ let
         "pkg-26.1.2" = _ku4DXWuc;
         "pkg-26.2" = _nZEY5Ixq;
         "pkg-1.21-1.21.11" = _GXZyVA4Y;
-        "default" = _GXZyVA4Y;
+        "pkg-26.3" = _Up3isE3H;
+        "default" = _Up3isE3H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "small-utills";

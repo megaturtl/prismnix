@@ -16,10 +16,16 @@ let
             "file" = "Silicon-26.1.X.jar";
             "hash" = "sha512-g7VxoTSloR1tObQYtZPBPlHsIJoq3+nxVBqpCIf4nIYer1MZ3rURsH1KeHiZLlWy0dHoyAKSSpSCTxx4Wh39RA==";
         };
+        _hKu1Becn = {
+            "id" = "hKu1Becn";
+            "file" = "Silicon-1.21.X-26.3.jar";
+            "hash" = "sha512-UEvX+t62M21FvhDQia9ivCW7bKLtQ6DpoDunAvjhWN7CaNqi292Iy33bNR0L7OABRucZzHm/QI+cUsZ3kFfzPA==";
+        };
     in {
         "Kw2tmyG0" = _Kw2tmyG0;
         "Hzs1hJlD" = _Hzs1hJlD;
         "ioUwhKDv" = _ioUwhKDv;
+        "hKu1Becn" = _hKu1Becn;
         "fabric-1.21" = _Kw2tmyG0;
         "fabric-1.21.1" = _Kw2tmyG0;
         "fabric-1.21.2" = _Kw2tmyG0;
@@ -36,10 +42,12 @@ let
         "fabric-26.1.1" = _ioUwhKDv;
         "fabric-26.1.2" = _ioUwhKDv;
         "fabric-26.2" = _ioUwhKDv;
+        "fabric-26.3" = _hKu1Becn;
         "pkg-1.0.1+1.21.x" = _Kw2tmyG0;
         "pkg-1.0.1+26.1.X" = _Hzs1hJlD;
         "pkg-1.0.1-26.1.X" = _ioUwhKDv;
-        "default" = _ioUwhKDv;
+        "pkg-26.3" = _hKu1Becn;
+        "default" = _hKu1Becn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "silicons";

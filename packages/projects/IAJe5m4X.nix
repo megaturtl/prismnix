@@ -361,6 +361,16 @@ let
             "file" = "prettybeaches-fabric-26.2-26.2.0.1.jar";
             "hash" = "sha512-QZSq+EGz1o7PGPmwHAdbn3ZkEOubAa5bs4p2oeh2v0ziBLUb2+zXnN+//lzb+DNISoOjkRMlJBBIP4C6eYVvog==";
         };
+        _ba64NQvU = {
+            "id" = "ba64NQvU";
+            "file" = "prettybeaches-fabric-26.3-26.3.0.1.jar";
+            "hash" = "sha512-KLUepzmWYqF28iUBp/lJInZTUg3xmcL8pmMBI3uYDCRnEfncMcgPTZ3hbh3Ymx1YRtg/V4ApmD2j8/UnVoWE3g==";
+        };
+        _nw7ugpgb = {
+            "id" = "nw7ugpgb";
+            "file" = "prettybeaches-neoforge-26.3-26.3.0.1.jar";
+            "hash" = "sha512-F/2HwH1IdEW73ShdXWwr5M5h2RQp5ywZDxl48oTCWdiEuzBUUEPeIr/4IwZg7Pgh1iC9TSVGCnKbMLYpSAAIgQ==";
+        };
     in {
         "K9wPv8Sm" = _K9wPv8Sm;
         "pb1ho4qt" = _pb1ho4qt;
@@ -434,6 +444,8 @@ let
         "wFk1QXO3" = _wFk1QXO3;
         "RWQjcNYJ" = _RWQjcNYJ;
         "FoLh5KXk" = _FoLh5KXk;
+        "ba64NQvU" = _ba64NQvU;
+        "nw7ugpgb" = _nw7ugpgb;
         "fabric-1.19" = _K9wPv8Sm;
         "fabric-1.19.1" = _K9wPv8Sm;
         "fabric-1.19.2" = _K9wPv8Sm;
@@ -463,6 +475,7 @@ let
         "fabric-26.1.1" = _LucuEBA3;
         "fabric-26.1.2" = _LucuEBA3;
         "fabric-26.2" = _FoLh5KXk;
+        "fabric-26.3" = _ba64NQvU;
         "forge-1.19" = _pb1ho4qt;
         "forge-1.19.1" = _pb1ho4qt;
         "forge-1.19.2" = _pb1ho4qt;
@@ -504,6 +517,7 @@ let
         "neoforge-26.1.1" = _XABCLLeb;
         "neoforge-26.1.2" = _XABCLLeb;
         "neoforge-26.2" = _RWQjcNYJ;
+        "neoforge-26.3" = _nw7ugpgb;
         "pkg-8.0.0+fabric-1.19" = _K9wPv8Sm;
         "pkg-8.0.0+forge-1.19" = _pb1ho4qt;
         "pkg-9.0.0+fabric-1.19.3" = _E81OuCpJ;
@@ -576,7 +590,9 @@ let
         "pkg-21.1.3+forge-1.21.1" = _wFk1QXO3;
         "pkg-26.2.0.1+neoforge-26.2" = _RWQjcNYJ;
         "pkg-26.2.0.1+fabric-26.2" = _FoLh5KXk;
-        "default" = _FoLh5KXk;
+        "pkg-26.3.0.1+fabric-26.3" = _ba64NQvU;
+        "pkg-26.3.0.1+neoforge-26.3" = _nw7ugpgb;
+        "default" = _nw7ugpgb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pretty-beaches";

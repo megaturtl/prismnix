@@ -51,6 +51,81 @@ let
             "file" = "xaeros_playerposition-1.0.1.jar";
             "hash" = "sha512-2bclKfrEJ28uCo34sZ2GvG2pcXWSWLTfgv85myq7Pa3BhfAzy7Ygo717DpagM2gSofzpdGkgloSXinZumww1Ow==";
         };
+        _utTXpylj = {
+            "id" = "utTXpylj";
+            "file" = "xaeros-playerposition-1.18.2-1.0.0.jar";
+            "hash" = "sha512-sUISAi0UH2jZ+JtD9Qx0C5qMuVBImTLE1j9QGArbQMAUQiQphPQVkhfeXwlNTJl0pUMPI9apblc/C10WXC23rw==";
+        };
+        _VskQ23Uj = {
+            "id" = "VskQ23Uj";
+            "file" = "xaeros-playerposition-26.1.2-1.0.0.jar";
+            "hash" = "sha512-O07iqH6br2mXqp6bpLvU0Sft5/kyiVGv1qSn2j/YmxGxowRCIYrw/asRNAKENWmQE/4duOYIV7/sXEIFuU4ekA==";
+        };
+        _nOO156Rw = {
+            "id" = "nOO156Rw";
+            "file" = "xaeros-playerposition-1.0.0-mc1.16.5.jar";
+            "hash" = "sha512-637LZVS4G4Dw6aiScdi8oGFU8pwuapd17xS8o658mpnQUwlIaqI6OtSa3ic8kYUHeK1o5YVgy+/9OH7XF65L0Q==";
+        };
+        _eJ33GKSt = {
+            "id" = "eJ33GKSt";
+            "file" = "xaeros-playerposition-fabric-1.0.0-26.1.1.jar";
+            "hash" = "sha512-qVcug2Fxkr6keRpiUa1BZ0PcmpbQTYXIrdQv2fwVr7yZ20CXYLTJlCi+jwzCejH0j40Trwyb7e7aXGDd31XH7A==";
+        };
+        _vKxzYPZo = {
+            "id" = "vKxzYPZo";
+            "file" = "xaeros-playerposition-fabric-1.0.0-26.1.jar";
+            "hash" = "sha512-Qq6hMxZYNGDeG1JULzxuA2LdTOpJ9CjPpdyQLOCIpTEtTaDIfErlBZFO5Rzm88CyN2Qhx7QYhsauUmjfejO+/g==";
+        };
+        _2lvuf2An = {
+            "id" = "2lvuf2An";
+            "file" = "xaeros-playerposition-fabric-1.0.0-1.21.10.jar";
+            "hash" = "sha512-f9vSfRVR58GAF0dQK5IyqguXeyMl85w3bOZaRfX68UgTg9a1wRa0kKROgXbv/FWVqvPnBUBt8GVTZ58TBuSPag==";
+        };
+        _fDA63Xsn = {
+            "id" = "fDA63Xsn";
+            "file" = "xaeros-playerposition-fabric-1.0.0-1.21.9.jar";
+            "hash" = "sha512-2kdqtRlWi9lHMC58oJuHxUHsW0RL2wTeTjnZpyXTlV4sud8unRJLnGg9amvsuFo3t1fnBKr5CXYdns8XOv0Ozw==";
+        };
+        _onXCzLP7 = {
+            "id" = "onXCzLP7";
+            "file" = "xaeros-playerposition-fabric-1.0.0-1.21.7.jar";
+            "hash" = "sha512-pT/Eoz/QsXqPzla0ZvJVkWFxQYYDXxzqSoOivZbyghx2E2d77pO8sB9PndUhmnD/QaZ6oGcfWUX/ShQbV3Q0vQ==";
+        };
+        _UxxVDx4V = {
+            "id" = "UxxVDx4V";
+            "file" = "xaeros-playerposition-fabric-1.0.0-1.21.6.jar";
+            "hash" = "sha512-nNRJO4E6jqIZ+P/ZjJ4YH6P+NbvZK6X2OsFgp44oy//8RyA9y4Nm9paR0fEhk3QKjGTsPeUZXEUw/ICn8ngERA==";
+        };
+        _mcb5bTf8 = {
+            "id" = "mcb5bTf8";
+            "file" = "xaeros-playerposition-fabric-1.0.0-1.21.5.jar";
+            "hash" = "sha512-HrTXy1QGnNIUykqBviMu7dFrex+s9MQIx6pvYHgsIAPtACwthiH4xRpdFTPJqWmrhHA+9rXHn8RBHN0OtwopZQ==";
+        };
+        _Mg1A4mG9 = {
+            "id" = "Mg1A4mG9";
+            "file" = "xaeros-playerposition-fabric-1.0.0-1.21.4.jar";
+            "hash" = "sha512-FpOs58/MzGWXhOwmtqfoozcjobADrZV9TeQAqt3kD6fTIiQIwsP3NJfCFbE37P8ZpT2XAG2xX2Fbp3cCkINTxw==";
+        };
+        _uFvsbMxw = {
+            "id" = "uFvsbMxw";
+            "file" = "xaeros-playerposition-fabric-1.0.0-1.21.3.jar";
+            "hash" = "sha512-Rd+6XtZLbr4qr0yJ/J4jEX+9/uAhT4qrFLbJDHYq8BWiiKq7YwesajUNji0hBy6z7fjuFuZRXyHcNu5lLFmJfQ==";
+        };
+        _xbzOBtL2 = {
+            "id" = "xbzOBtL2";
+            "file" = "xaeros-playerposition-fabric-1.0.0-1.20.6.jar";
+            "hash" = "sha512-BRYlUTGVB6Vl+w8NpqN9Va3euFc8v4WUAniy6NzQ2ea7QJVZoWXpHE+MBwqtneiTf19o2tSshkZMI0EIwHpm3A==";
+        };
+        _PFtNfgaO = {
+            "id" = "PFtNfgaO";
+            "file" = "xaeros-playerposition-fabric-1.0.0-1.20.4.jar";
+            "hash" = "sha512-I38IdWu6r8IyLMmSinyNfp+owhdSAFPfVdRYv+tpKWJl3W1Y7GK+MiZRE2RdKViFv27GzTc5qpoezkKmpJwiXw==";
+        };
+        _zLOLXUQi = {
+            "id" = "zLOLXUQi";
+            "file" = "xaeros-playerposition-fabric-1.0.0-26.3.jar";
+            "hash" = "sha512-KQuTDaVZ9d+supC2VMKOYo5knf68Tq1FaKAHX6UhJS34uCaxJ9DkKROC5CF2Gk7t+uusTjgFJfs0ltZhuhQb/g==";
+        };
     in {
         "woCcKFwG" = _woCcKFwG;
         "eapbgnCH" = _eapbgnCH;
@@ -62,12 +137,42 @@ let
         "5bXbq1oW" = _5bXbq1oW;
         "rf6ZVyrO" = _rf6ZVyrO;
         "57XFPfa9" = _57XFPfa9;
+        "utTXpylj" = _utTXpylj;
+        "VskQ23Uj" = _VskQ23Uj;
+        "nOO156Rw" = _nOO156Rw;
+        "eJ33GKSt" = _eJ33GKSt;
+        "vKxzYPZo" = _vKxzYPZo;
+        "2lvuf2An" = _2lvuf2An;
+        "fDA63Xsn" = _fDA63Xsn;
+        "onXCzLP7" = _onXCzLP7;
+        "UxxVDx4V" = _UxxVDx4V;
+        "mcb5bTf8" = _mcb5bTf8;
+        "Mg1A4mG9" = _Mg1A4mG9;
+        "uFvsbMxw" = _uFvsbMxw;
+        "xbzOBtL2" = _xbzOBtL2;
+        "PFtNfgaO" = _PFtNfgaO;
+        "zLOLXUQi" = _zLOLXUQi;
         "fabric-1.21.11" = _woCcKFwG;
         "fabric-1.20.1" = _eapbgnCH;
         "fabric-26.2" = _eXCAfYwg;
         "fabric-1.21.8" = _dzKq7BLH;
         "fabric-1.19.1" = _PEuki118;
         "fabric-1.21.1" = _5bXbq1oW;
+        "fabric-1.18.2" = _utTXpylj;
+        "fabric-26.1.2" = _eJ33GKSt;
+        "fabric-1.16.5" = _nOO156Rw;
+        "fabric-26.1.1" = _eJ33GKSt;
+        "fabric-26.1" = _vKxzYPZo;
+        "fabric-1.21.10" = _2lvuf2An;
+        "fabric-1.21.9" = _fDA63Xsn;
+        "fabric-1.21.7" = _onXCzLP7;
+        "fabric-1.21.6" = _UxxVDx4V;
+        "fabric-1.21.5" = _mcb5bTf8;
+        "fabric-1.21.4" = _Mg1A4mG9;
+        "fabric-1.21.3" = _uFvsbMxw;
+        "fabric-1.20.6" = _xbzOBtL2;
+        "fabric-1.20.4" = _PFtNfgaO;
+        "fabric-26.3" = _zLOLXUQi;
         "neoforge-1.21.1" = _rf6ZVyrO;
         "forge-1.20.1" = _57XFPfa9;
         "pkg-fabric-1.0.0+mc1.21.11" = _woCcKFwG;
@@ -80,7 +185,22 @@ let
         "pkg-fabric-1.1.0+mc1.21.1" = _5bXbq1oW;
         "pkg-neoforge-1.1.0+mc1.21.1" = _rf6ZVyrO;
         "pkg-forge-1.0.0+mc1.20.1" = _57XFPfa9;
-        "default" = _57XFPfa9;
+        "pkg-fabric-1.0.0+mc1.18.2" = _utTXpylj;
+        "pkg-fabric-1.0.0+mc26.1.2" = _VskQ23Uj;
+        "pkg-fabric-1.0.0+mc1.16.5" = _nOO156Rw;
+        "pkg-fabric-1.0.0+mc26.1.1" = _eJ33GKSt;
+        "pkg-fabric-1.0.0+mc26.1" = _vKxzYPZo;
+        "pkg-fabric-1.0.0+mc1.21.10" = _2lvuf2An;
+        "pkg-fabric-1.0.0+mc1.21.9" = _fDA63Xsn;
+        "pkg-fabric-1.0.0+mc1.21.7" = _onXCzLP7;
+        "pkg-fabric-1.0.0+mc1.21.6" = _UxxVDx4V;
+        "pkg-fabric-1.0.0+mc1.21.5" = _mcb5bTf8;
+        "pkg-fabric-1.0.0+mc1.21.4" = _Mg1A4mG9;
+        "pkg-fabric-1.0.0+mc1.21.3" = _uFvsbMxw;
+        "pkg-fabric-1.0.0+mc1.20.6" = _xbzOBtL2;
+        "pkg-fabric-1.0.0+mc1.20.4" = _PFtNfgaO;
+        "pkg-fabric-1.0.0+mc26.3" = _zLOLXUQi;
+        "default" = _zLOLXUQi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xaeros-playerposition";

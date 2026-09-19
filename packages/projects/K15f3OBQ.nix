@@ -26,19 +26,26 @@ let
             "file" = "Applied-Replicatics-21.1-1.1.0.jar";
             "hash" = "sha512-kN0UlRce4oB/KMkVitVJQxAVhmYH550nIERxRmh8ASnWyPoZrvhTNth3T+ZEFR3wO3VSqYmp9TcjcK0ysU30CA==";
         };
+        _WfbvAL7S = {
+            "id" = "WfbvAL7S";
+            "file" = "Applied-Replicatics-21.1-1.1.1.jar";
+            "hash" = "sha512-niDfJv1hwry3FGqrfErtGb/SaoZVK0SmLK9/kO0R/vlATjtHKCQywdm5nBj/oYIjv4PLLjFJBtHvZ+0jZP7eig==";
+        };
     in {
         "f9Ii0ORA" = _f9Ii0ORA;
         "AYMeNOuT" = _AYMeNOuT;
         "VNVGliOt" = _VNVGliOt;
         "HOgNBqpr" = _HOgNBqpr;
         "HXhszuwb" = _HXhszuwb;
-        "neoforge-1.21.1" = _HXhszuwb;
+        "WfbvAL7S" = _WfbvAL7S;
+        "neoforge-1.21.1" = _WfbvAL7S;
         "pkg-21.1-1.0.1" = _f9Ii0ORA;
         "pkg-21.1-1.0.2" = _AYMeNOuT;
         "pkg-21.1-1.0.3" = _VNVGliOt;
         "pkg-21.1-1.0.4" = _HOgNBqpr;
         "pkg-21.1-1.1.0" = _HXhszuwb;
-        "default" = _HXhszuwb;
+        "pkg-21.1-1.1.1" = _WfbvAL7S;
+        "default" = _WfbvAL7S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "applied-replicatics";

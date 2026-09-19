@@ -96,6 +96,21 @@ let
             "file" = "worldreset-0.2.1+26.1.2.jar";
             "hash" = "sha512-qJsUnsem+auvytv1OdovkPHv13JKdlkhbWU6LHgEjOzceqKD0dOLvuNN358GZUm/k8A+fm1OjkFbjArF27OPxg==";
         };
+        _DoF0GKRG = {
+            "id" = "DoF0GKRG";
+            "file" = "worldreset-0.0.8+1.21.9.jar";
+            "hash" = "sha512-LEwO8mUBdwzpqam4//jK7ELZhwKfLRtOjnw/8aNDOnA7v40EV9U9eG9Vz7dIJxX9BgB+nFHgnm6ceA94uKz/pA==";
+        };
+        _GrmWB9ue = {
+            "id" = "GrmWB9ue";
+            "file" = "worldreset-0.1.1+1.21.11-dev.jar";
+            "hash" = "sha512-zc4xd34wANpSN9UHBq5fl3IHzqIMpgCR8hOPLKWPf93oaGGu6bYHgvHnyfLFpckVPpS6kHoi0nCtP5XUsmWKEg==";
+        };
+        _D8NrH1Fd = {
+            "id" = "D8NrH1Fd";
+            "file" = "worldreset-0.2.3+1.21.1-dev.jar";
+            "hash" = "sha512-uEl2g/kpcIXliLBeoOaJoTMeGVNe+emHQmHDPYKqGJBtPFQMVcatYYDopOarTVVzxlY78Y7AXDqVD40dfCIg7g==";
+        };
     in {
         "xik7HPkZ" = _xik7HPkZ;
         "LBkyjkwJ" = _LBkyjkwJ;
@@ -116,22 +131,29 @@ let
         "phI0L7Qu" = _phI0L7Qu;
         "X14i8Puq" = _X14i8Puq;
         "iDwqP79I" = _iDwqP79I;
+        "DoF0GKRG" = _DoF0GKRG;
+        "GrmWB9ue" = _GrmWB9ue;
+        "D8NrH1Fd" = _D8NrH1Fd;
         "fabric-1.21.4" = _VIjqGEnw;
         "fabric-1.21.5" = _MfFDuLY4;
         "fabric-1.21.6" = _rXh5iGuD;
         "fabric-1.21.7" = _rXh5iGuD;
         "fabric-1.21.8" = _rXh5iGuD;
-        "fabric-1.21.11" = _voLJo19W;
+        "fabric-1.21.11" = _GrmWB9ue;
         "fabric-26.1.2" = _iDwqP79I;
         "fabric-26.2" = _X14i8Puq;
+        "fabric-1.21.9" = _DoF0GKRG;
+        "fabric-1.21.1" = _D8NrH1Fd;
         "quilt-1.21.4" = _VIjqGEnw;
         "quilt-1.21.5" = _MfFDuLY4;
         "quilt-1.21.6" = _rXh5iGuD;
         "quilt-1.21.7" = _rXh5iGuD;
         "quilt-1.21.8" = _rXh5iGuD;
-        "quilt-1.21.11" = _voLJo19W;
+        "quilt-1.21.11" = _GrmWB9ue;
         "quilt-26.1.2" = _iDwqP79I;
         "quilt-26.2" = _X14i8Puq;
+        "quilt-1.21.9" = _DoF0GKRG;
+        "quilt-1.21.1" = _D8NrH1Fd;
         "pkg-0.0.1+1.21.4" = _xik7HPkZ;
         "pkg-0.0.2+1.21.4" = _LBkyjkwJ;
         "pkg-0.0.3+1.21.4" = _VIjqGEnw;
@@ -148,7 +170,10 @@ let
         "pkg-0.2.0+26.2" = _LiR9OiMn;
         "pkg-0.2.1+26.2" = _X14i8Puq;
         "pkg-0.2.1+26.1.2" = _iDwqP79I;
-        "default" = _iDwqP79I;
+        "pkg-0.0.8+1.21.9" = _DoF0GKRG;
+        "pkg-0.1.1+1.21.11" = _GrmWB9ue;
+        "pkg-0.2.3+1.21.1" = _D8NrH1Fd;
+        "default" = _D8NrH1Fd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "worldreset-fabric";

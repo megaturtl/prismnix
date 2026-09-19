@@ -6371,6 +6371,11 @@ let
             "file" = "carpet-tis-addition-v1.82.4-mc1.21.4.jar";
             "hash" = "sha512-4OhhTqdMHGmcbQO1z4EdBTGCPpp5xMTmHwEOXjQTpcr/Xzn/fWrqT6qClgAGDpMRSyFicwiHsGcfBhPwwWdJ4Q==";
         };
+        _GN7VqWFY = {
+            "id" = "GN7VqWFY";
+            "file" = "carpet-tis-addition-v1.82.4-mc26.3.jar";
+            "hash" = "sha512-3z64yFvo/GTsdEvqp3tWB1Wz5+rPNk4/VcTOZspOVfTHbfXt4Vw03djXy89VqMKXag8bN8RGSmijaN5w0ZCMSw==";
+        };
     in {
         "w6c01BBi" = _w6c01BBi;
         "VdTWx8LD" = _VdTWx8LD;
@@ -7646,6 +7651,7 @@ let
         "3ZaFaxTG" = _3ZaFaxTG;
         "RsH71oIy" = _RsH71oIy;
         "73MLJy4h" = _73MLJy4h;
+        "GN7VqWFY" = _GN7VqWFY;
         "fabric-1.18.1" = _1Ioz0e4H;
         "fabric-1.15.2" = _kTWGe4bc;
         "fabric-1.16.4" = _MM09t2Lk;
@@ -7786,6 +7792,7 @@ let
         "fabric-26.2" = _lW1s6HL1;
         "fabric-26.3-snapshot-2" = _KEe07FWu;
         "fabric-26.3-snapshot-3" = _dAA8PmPm;
+        "fabric-26.3" = _GN7VqWFY;
         "pkg-mc1.18.1-v1.29.0" = _w6c01BBi;
         "pkg-mc1.15.2-v1.29.0" = _VdTWx8LD;
         "pkg-mc1.16.5-v1.29.0" = _hIS6T4Ak;
@@ -9033,7 +9040,8 @@ let
         "pkg-v1.82.4-mc1.21.5" = _3ZaFaxTG;
         "pkg-v1.82.4-mc1.21.3" = _RsH71oIy;
         "pkg-v1.82.4-mc1.21.4" = _73MLJy4h;
-        "default" = _73MLJy4h;
+        "pkg-v1.82.4-mc26.3" = _GN7VqWFY;
+        "default" = _GN7VqWFY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "carpet-tis-addition";

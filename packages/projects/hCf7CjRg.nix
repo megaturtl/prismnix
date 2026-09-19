@@ -96,6 +96,16 @@ let
             "file" = "colorful-trims-1.10.1.jar";
             "hash" = "sha512-o4aaZuSETENmf919ZlROUZ8AmdfWe1H02xHvgYNR81KlJmc+qY5hvPpOo74bewQeBecZeazQf5j+hiUwWpllCQ==";
         };
+        _vsHXBnXl = {
+            "id" = "vsHXBnXl";
+            "file" = "Colorful Trims DP v2.0.zip";
+            "hash" = "sha512-40uKJOsdHBvlsNdANYk991Mc5DQfs7ihrzsgnADMp8T9KS20d1jK+cgj0et9O2yD0plqws2LcF0lIplBZqpXDA==";
+        };
+        _Cuz8lyhf = {
+            "id" = "Cuz8lyhf";
+            "file" = "colorful-trims-2.0.jar";
+            "hash" = "sha512-AYno24ouFNhjIx7xDV4niyb7pUwRSpRU87vQfTj+ta6l4UpcSQEuzrYqWixCLURd6h5aRHw5juy6GHMHpRTn2w==";
+        };
     in {
         "p3cUXHGN" = _p3cUXHGN;
         "ReRgkBRs" = _ReRgkBRs;
@@ -116,6 +126,8 @@ let
         "OUyfZnWE" = _OUyfZnWE;
         "3aYNxfc1" = _3aYNxfc1;
         "O7O972iZ" = _O7O972iZ;
+        "vsHXBnXl" = _vsHXBnXl;
+        "Cuz8lyhf" = _Cuz8lyhf;
         "datapack-1.20" = _ICCotwzF;
         "datapack-1.20.1" = _ICCotwzF;
         "datapack-1.20.2" = _ICCotwzF;
@@ -134,11 +146,12 @@ let
         "datapack-1.21.8" = _xwIBmsDY;
         "datapack-1.21.9" = _xwIBmsDY;
         "datapack-1.21.10" = _xwIBmsDY;
-        "datapack-1.21.11" = _3aYNxfc1;
-        "datapack-26.1" = _3aYNxfc1;
-        "datapack-26.1.1" = _3aYNxfc1;
-        "datapack-26.1.2" = _3aYNxfc1;
-        "datapack-26.2" = _3aYNxfc1;
+        "datapack-1.21.11" = _vsHXBnXl;
+        "datapack-26.1" = _vsHXBnXl;
+        "datapack-26.1.1" = _vsHXBnXl;
+        "datapack-26.1.2" = _vsHXBnXl;
+        "datapack-26.2" = _vsHXBnXl;
+        "datapack-26.3" = _vsHXBnXl;
         "fabric-1.20" = _sVLmcipz;
         "fabric-1.20.1" = _sVLmcipz;
         "fabric-1.20.2" = _sVLmcipz;
@@ -157,11 +170,12 @@ let
         "fabric-1.21.8" = _OUyfZnWE;
         "fabric-1.21.9" = _OUyfZnWE;
         "fabric-1.21.10" = _OUyfZnWE;
-        "fabric-1.21.11" = _O7O972iZ;
-        "fabric-26.1" = _O7O972iZ;
-        "fabric-26.1.1" = _O7O972iZ;
-        "fabric-26.1.2" = _O7O972iZ;
-        "fabric-26.2" = _O7O972iZ;
+        "fabric-1.21.11" = _Cuz8lyhf;
+        "fabric-26.1" = _Cuz8lyhf;
+        "fabric-26.1.1" = _Cuz8lyhf;
+        "fabric-26.1.2" = _Cuz8lyhf;
+        "fabric-26.2" = _Cuz8lyhf;
+        "fabric-26.3" = _Cuz8lyhf;
         "forge-1.20" = _sVLmcipz;
         "forge-1.20.1" = _sVLmcipz;
         "forge-1.20.2" = _sVLmcipz;
@@ -180,11 +194,12 @@ let
         "forge-1.21.8" = _OUyfZnWE;
         "forge-1.21.9" = _OUyfZnWE;
         "forge-1.21.10" = _OUyfZnWE;
-        "forge-1.21.11" = _O7O972iZ;
-        "forge-26.1" = _O7O972iZ;
-        "forge-26.1.1" = _O7O972iZ;
-        "forge-26.1.2" = _O7O972iZ;
-        "forge-26.2" = _O7O972iZ;
+        "forge-1.21.11" = _Cuz8lyhf;
+        "forge-26.1" = _Cuz8lyhf;
+        "forge-26.1.1" = _Cuz8lyhf;
+        "forge-26.1.2" = _Cuz8lyhf;
+        "forge-26.2" = _Cuz8lyhf;
+        "forge-26.3" = _Cuz8lyhf;
         "quilt-1.20" = _sVLmcipz;
         "quilt-1.20.1" = _sVLmcipz;
         "quilt-1.20.2" = _sVLmcipz;
@@ -203,11 +218,12 @@ let
         "quilt-1.21.8" = _OUyfZnWE;
         "quilt-1.21.9" = _OUyfZnWE;
         "quilt-1.21.10" = _OUyfZnWE;
-        "quilt-1.21.11" = _O7O972iZ;
-        "quilt-26.1" = _O7O972iZ;
-        "quilt-26.1.1" = _O7O972iZ;
-        "quilt-26.1.2" = _O7O972iZ;
-        "quilt-26.2" = _O7O972iZ;
+        "quilt-1.21.11" = _Cuz8lyhf;
+        "quilt-26.1" = _Cuz8lyhf;
+        "quilt-26.1.1" = _Cuz8lyhf;
+        "quilt-26.1.2" = _Cuz8lyhf;
+        "quilt-26.2" = _Cuz8lyhf;
+        "quilt-26.3" = _Cuz8lyhf;
         "neoforge-1.21.2" = _nAMucTys;
         "neoforge-1.21.3" = _nAMucTys;
         "neoforge-1.21.4" = _5oYXZj69;
@@ -217,11 +233,12 @@ let
         "neoforge-1.21.8" = _OUyfZnWE;
         "neoforge-1.21.9" = _OUyfZnWE;
         "neoforge-1.21.10" = _OUyfZnWE;
-        "neoforge-1.21.11" = _O7O972iZ;
-        "neoforge-26.1" = _O7O972iZ;
-        "neoforge-26.1.1" = _O7O972iZ;
-        "neoforge-26.1.2" = _O7O972iZ;
-        "neoforge-26.2" = _O7O972iZ;
+        "neoforge-1.21.11" = _Cuz8lyhf;
+        "neoforge-26.1" = _Cuz8lyhf;
+        "neoforge-26.1.1" = _Cuz8lyhf;
+        "neoforge-26.1.2" = _Cuz8lyhf;
+        "neoforge-26.2" = _Cuz8lyhf;
+        "neoforge-26.3" = _Cuz8lyhf;
         "pkg-1.0" = _p3cUXHGN;
         "pkg-1.1" = _ReRgkBRs;
         "pkg-1.2" = _Li5K0S5x;
@@ -241,7 +258,9 @@ let
         "pkg-1.10+mod" = _OUyfZnWE;
         "pkg-1.10.1" = _3aYNxfc1;
         "pkg-1.10.1+mod" = _O7O972iZ;
-        "default" = _O7O972iZ;
+        "pkg-2.0" = _vsHXBnXl;
+        "pkg-2.0+mod" = _Cuz8lyhf;
+        "default" = _Cuz8lyhf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "colorful-trims";

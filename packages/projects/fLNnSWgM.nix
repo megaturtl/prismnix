@@ -126,6 +126,51 @@ let
             "file" = "colorsaturation-1.2.0+26.2.jar";
             "hash" = "sha512-HgeJpj6SW+gLKysQBeHIGfzIbF2aRksu0kxCDfSJ6vObVUGBkZsK90Hhh6Yvk7//QOqV947sjmNC9nyhYCvGmw==";
         };
+        _cHjno3v4 = {
+            "id" = "cHjno3v4";
+            "file" = "colorsaturation-1.3.0+1.21.1.jar";
+            "hash" = "sha512-03tqelvU/5QKa7oXDTLXNpSNP30jfwx1q/PyxSWI85GRLompjFuJzGmODf8+Cgl/dnG1u509r+4xsBUNqpxUnw==";
+        };
+        _nZnLs0gc = {
+            "id" = "nZnLs0gc";
+            "file" = "colorsaturation-1.3.0+1.21.4.jar";
+            "hash" = "sha512-NdhJtH3jP1wEyov6v3+jdEHgYM9Klli5CuyCgWTevEEuJdd5P/Ybz6c6JRoTDJTqr1Yxbq0zli8dwwxK+kKTmQ==";
+        };
+        _8NzWqwO5 = {
+            "id" = "8NzWqwO5";
+            "file" = "colorsaturation-1.3.0+1.21.5.jar";
+            "hash" = "sha512-LptgYGu+yplad3frs0P+MbtromROm3KidtzLyPL0QlJ/soyjmLqQpaC6H+NRlHVKSexHslw+T7iW1L5kfGkTrA==";
+        };
+        _VbA6DzxC = {
+            "id" = "VbA6DzxC";
+            "file" = "colorsaturation-1.3.0+1.21.8.jar";
+            "hash" = "sha512-MnnUDGJQRjfJTmg3jMSa3ME4wNfjD5EMXt94R1pdQUbj/+PPgAotcziNYurQBEVtMp+fVbRItlUg7GklIL7fJg==";
+        };
+        _6mnnPUvD = {
+            "id" = "6mnnPUvD";
+            "file" = "colorsaturation-1.3.0+1.21.10.jar";
+            "hash" = "sha512-2aDCjf7VS2scaSe0myqgw0eAVWI0mF962ZZ3CXoHN/gKBhLWC7sXzon5KnIXDcJKa0pHGbuopEPvcI7Qvew4dA==";
+        };
+        _TWv4KrBO = {
+            "id" = "TWv4KrBO";
+            "file" = "colorsaturation-1.3.0+1.21.11.jar";
+            "hash" = "sha512-4tJ1Pd+gHmsKntDJ+fS79M+a9ghvBFcuo6S5umR7fBNLFFwXO2mHWz10dvEHQ05z/gtAdaSkPE8hA749paMdPw==";
+        };
+        _HJOf5bXR = {
+            "id" = "HJOf5bXR";
+            "file" = "colorsaturation-1.3.0+26.1.jar";
+            "hash" = "sha512-9YKInwWS7/KCtGTfuVmXc/isNRZxzezZm6HcWxFXMn2WBD+it/gqnI683oppGAV2XWslVUNOVUodWK7sme1FXw==";
+        };
+        _yHJmw7aq = {
+            "id" = "yHJmw7aq";
+            "file" = "colorsaturation-1.3.0+26.2.jar";
+            "hash" = "sha512-TvgM9UNJGbzjOQ8iPBA6HakIjRFKh+FuwmtWKWKua31hQ0XVplNb5jURb86812l3Hui9wHVv6aUIORajBw7RmQ==";
+        };
+        _i0GogUL1 = {
+            "id" = "i0GogUL1";
+            "file" = "colorsaturation-1.3.0+26.3.jar";
+            "hash" = "sha512-45Jcp/hAY8YMHE9hnl4hL/Gak12UqtWVqOv1iuQW0gP41Xk9oo9PYyakZEDY+F9mqFjm0H3aHYjnLH8veHRYyQ==";
+        };
     in {
         "UIoBGYDU" = _UIoBGYDU;
         "PDZbM2W3" = _PDZbM2W3;
@@ -152,24 +197,35 @@ let
         "9jss1ksz" = _9jss1ksz;
         "lcK4i7Rg" = _lcK4i7Rg;
         "S1OEhmmU" = _S1OEhmmU;
+        "cHjno3v4" = _cHjno3v4;
+        "nZnLs0gc" = _nZnLs0gc;
+        "8NzWqwO5" = _8NzWqwO5;
+        "VbA6DzxC" = _VbA6DzxC;
+        "6mnnPUvD" = _6mnnPUvD;
+        "TWv4KrBO" = _TWv4KrBO;
+        "HJOf5bXR" = _HJOf5bXR;
+        "yHJmw7aq" = _yHJmw7aq;
+        "i0GogUL1" = _i0GogUL1;
         "forge-1.8.9" = _UIoBGYDU;
-        "fabric-26.2" = _S1OEhmmU;
-        "fabric-26.1" = _9jss1ksz;
-        "fabric-26.1.1" = _9jss1ksz;
-        "fabric-26.1.2" = _9jss1ksz;
-        "fabric-1.21.4" = _BCWdx0ew;
-        "fabric-1.21.1" = _1R36nlix;
-        "fabric-1.21.5" = _k5f5VlWh;
-        "fabric-1.21.7" = _lcK4i7Rg;
-        "fabric-1.21.8" = _lcK4i7Rg;
-        "fabric-1.21.11" = _dsQHv6JL;
-        "fabric-1.21.9" = _cEH6PnZL;
-        "fabric-1.21.10" = _cEH6PnZL;
+        "fabric-26.2" = _yHJmw7aq;
+        "fabric-26.1" = _HJOf5bXR;
+        "fabric-26.1.1" = _HJOf5bXR;
+        "fabric-26.1.2" = _HJOf5bXR;
+        "fabric-1.21.4" = _nZnLs0gc;
+        "fabric-1.21.1" = _cHjno3v4;
+        "fabric-1.21.5" = _8NzWqwO5;
+        "fabric-1.21.7" = _VbA6DzxC;
+        "fabric-1.21.8" = _VbA6DzxC;
+        "fabric-1.21.11" = _TWv4KrBO;
+        "fabric-1.21.9" = _6mnnPUvD;
+        "fabric-1.21.10" = _6mnnPUvD;
+        "fabric-26.3" = _i0GogUL1;
         "pkg-v1.0.0" = _UIoBGYDU;
         "pkg-v1.1.0" = _ATtzayXp;
         "pkg-v1.1.1" = _AfaAM3ZD;
         "pkg-v1.2.0" = _S1OEhmmU;
-        "default" = _S1OEhmmU;
+        "pkg-v1.3.0" = _i0GogUL1;
+        "default" = _i0GogUL1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "colorsaturation";

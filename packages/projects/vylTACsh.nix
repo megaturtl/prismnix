@@ -196,6 +196,11 @@ let
             "file" = "+Fugue-0.24.3.jar";
             "hash" = "sha512-p2c7sHU8nBX7F4lWMLlpQGN+/Ik0dS6/D4Lrz+1MuthlYD5jJZyANJm3B6kAGAdelVDZkdyYFmiUj+V4L7n8xg==";
         };
+        _Wy9kZZUW = {
+            "id" = "Wy9kZZUW";
+            "file" = "+Fugue-0.24.4.jar";
+            "hash" = "sha512-H1yku46NA9pchD5w7PPSntJavS+7aKD8ty3rEf8FrR3RhcQQnDGT18IE5xlcOVgUC2/Gm7aqAY3qTo1QMx+99Q==";
+        };
     in {
         "k8WAROqM" = _k8WAROqM;
         "nQMVvjYb" = _nQMVvjYb;
@@ -236,7 +241,8 @@ let
         "GCfYQKM1" = _GCfYQKM1;
         "xaB49OW2" = _xaB49OW2;
         "jViSfJQF" = _jViSfJQF;
-        "forge-1.12.2" = _jViSfJQF;
+        "Wy9kZZUW" = _Wy9kZZUW;
+        "forge-1.12.2" = _Wy9kZZUW;
         "pkg-0.18.6" = _k8WAROqM;
         "pkg-0.19.0" = _nQMVvjYb;
         "pkg-0.19.2" = _nJv7zquc;
@@ -275,7 +281,8 @@ let
         "pkg-0.24.1" = _GCfYQKM1;
         "pkg-0.24.2" = _xaB49OW2;
         "pkg-0.24.3" = _jViSfJQF;
-        "default" = _jViSfJQF;
+        "pkg-0.24.4" = _Wy9kZZUW;
+        "default" = _Wy9kZZUW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fugue";

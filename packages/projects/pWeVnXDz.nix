@@ -136,6 +136,26 @@ let
             "file" = "Light and Shadow.zip";
             "hash" = "sha512-V1jte1IOvEb7TtLVkNy3AwLIgwZnCgFtzo7dEFDKMMKUo8hEWpADUX4j/9biM3Gqkt0MZhN00nYE5NdolcZKnA==";
         };
+        _NiG4NS7y = {
+            "id" = "NiG4NS7y";
+            "file" = "Light and Shadow.zip";
+            "hash" = "sha512-WQBphi5COWFGzT4zCSwraswyEIr5uicjhVy1WMCS9btsGOVdP2oAeEJMuxYsmPHXiSZIGd+vXBejmRLSv5DYgg==";
+        };
+        _B98fSZeS = {
+            "id" = "B98fSZeS";
+            "file" = "Light and Shadow.zip";
+            "hash" = "sha512-NB53lOzb19E/t28QTbKlnGrQpFSPknk/BF38dpf9i4ohF4hfze2EGxQqI5LJAtwSLsbYakjIhtdXcuwOW6FGQg==";
+        };
+        _mfJDdWA2 = {
+            "id" = "mfJDdWA2";
+            "file" = "Light and Shadow.zip";
+            "hash" = "sha512-UNwixK0bnMNsfG7weWNYjVhD2pde6LoUAQje0CEUVjVLf0Cr6eMraKL0LxGfa5YuDMR3q3u9qP+yKCf3WyE/bg==";
+        };
+        _5cpyKaCI = {
+            "id" = "5cpyKaCI";
+            "file" = "Light and Shadow.zip";
+            "hash" = "sha512-+IujItFTDntXGs/M7P+GVQneeF3SOzujeeDlZm+MX+3fo4ky6WZg3bacRZ13I9tCGcbKVPvD4J4k+25SaowN/g==";
+        };
     in {
         "Y8UJPbgB" = _Y8UJPbgB;
         "Zz4KnBrv" = _Zz4KnBrv;
@@ -164,8 +184,12 @@ let
         "PWtxs1oA" = _PWtxs1oA;
         "kHMPU4z5" = _kHMPU4z5;
         "CJQ6DfkF" = _CJQ6DfkF;
+        "NiG4NS7y" = _NiG4NS7y;
+        "B98fSZeS" = _B98fSZeS;
+        "mfJDdWA2" = _mfJDdWA2;
+        "5cpyKaCI" = _5cpyKaCI;
         "iris-26.1.2" = _CJHRL2xT;
-        "iris-26.2" = _CJQ6DfkF;
+        "iris-26.2" = _5cpyKaCI;
         "pkg-1.0" = _Y8UJPbgB;
         "pkg-1.1" = _Zz4KnBrv;
         "pkg-1.2" = _bLMxTDs1;
@@ -193,7 +217,11 @@ let
         "pkg-3.4" = _PWtxs1oA;
         "pkg-3.5" = _kHMPU4z5;
         "pkg-3.6" = _CJQ6DfkF;
-        "default" = _CJQ6DfkF;
+        "pkg-3.6.1" = _NiG4NS7y;
+        "pkg-3.6.2" = _B98fSZeS;
+        "pkg-3.7" = _mfJDdWA2;
+        "pkg-3.8" = _5cpyKaCI;
+        "default" = _5cpyKaCI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "light-shadow";

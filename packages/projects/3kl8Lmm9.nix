@@ -261,6 +261,16 @@ let
             "file" = "SlotCycler-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-T/T7bSkqOOqRLe8PzWNvaa4JnIqXO0TOwzpkZZGOnN0erg894SQi+2ZfociKjx5m6G9xnaMBQ0fHQXFjDLLDaw==";
         };
+        _vvwOcD6w = {
+            "id" = "vvwOcD6w";
+            "file" = "SlotCycler-v26.2.1-mc26.2.x-NeoForge.jar";
+            "hash" = "sha512-ERoHf3Y6T1qFZROPJ8VfqnJPv+vIUJcF+1rP5rM8K5yV6YKyRst92RP8LDdSCCsm55glzabs3J+JAPS0A6IK8A==";
+        };
+        _h7nhVaCK = {
+            "id" = "h7nhVaCK";
+            "file" = "SlotCycler-v26.2.1-mc26.2.x-Fabric.jar";
+            "hash" = "sha512-r1pGI+3bmsVtwB/QcOwIsneapwmocbRb+tWughTVUJdd65Gay1FDp3DxOHN9CgbyYy3AExYtfPhuT0tWMWFyrA==";
+        };
     in {
         "wdF6U3yC" = _wdF6U3yC;
         "aZM1xDCs" = _aZM1xDCs;
@@ -314,6 +324,8 @@ let
         "lt17KKjA" = _lt17KKjA;
         "2GskNnlJ" = _2GskNnlJ;
         "BhbjHdsz" = _BhbjHdsz;
+        "vvwOcD6w" = _vvwOcD6w;
+        "h7nhVaCK" = _h7nhVaCK;
         "fabric-1.19.2" = _h1CD2Sgj;
         "fabric-1.19.3" = _aodnrSN6;
         "fabric-1.19.4" = _xMbgUxJR;
@@ -334,7 +346,7 @@ let
         "fabric-26.1" = _lt17KKjA;
         "fabric-26.1.1" = _lt17KKjA;
         "fabric-26.1.2" = _lt17KKjA;
-        "fabric-26.2" = _2GskNnlJ;
+        "fabric-26.2" = _h7nhVaCK;
         "forge-1.19.2" = _F0cqVmMC;
         "forge-1.19.3" = _536elOMS;
         "forge-1.19.4" = _b9MEtkuw;
@@ -356,7 +368,7 @@ let
         "neoforge-26.1" = _XOaX5zN4;
         "neoforge-26.1.1" = _XOaX5zN4;
         "neoforge-26.1.2" = _XOaX5zN4;
-        "neoforge-26.2" = _BhbjHdsz;
+        "neoforge-26.2" = _vvwOcD6w;
         "pkg-v4.0.0-1.19.2-Fabric" = _wdF6U3yC;
         "pkg-v4.0.0-1.19.2-Forge" = _aZM1xDCs;
         "pkg-v4.0.1-1.19.2-Fabric" = _enReWGCa;
@@ -404,7 +416,8 @@ let
         "pkg-21.11.0" = _A7G3lXjh;
         "pkg-26.1.0" = _lt17KKjA;
         "pkg-26.2.0" = _BhbjHdsz;
-        "default" = _BhbjHdsz;
+        "pkg-26.2.1" = _h7nhVaCK;
+        "default" = _h7nhVaCK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "slot-cycler";

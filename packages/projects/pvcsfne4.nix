@@ -101,6 +101,11 @@ let
             "file" = "chefs-delight-1.0.5-fabric-1.21.11.jar";
             "hash" = "sha512-yuXmi1Pd5suTINTvM8p2T8aeUrZKPOY8XyqnUBJDDzhm6GQB0LDep0twKk/5mZ6bulvfKHKe1oNIr7PHX251iw==";
         };
+        _ArJ8wpA5 = {
+            "id" = "ArJ8wpA5";
+            "file" = "chefsdelight-1.0.6-fabric-26.2.jar";
+            "hash" = "sha512-lVOhBatbmGpDD4MIdRUrUG73RWdJ+ncUOYrlnHVHRF51xgp0QaMdfSXd+tpmJSq31CKzoVBQpPSMIaPsPXMMdA==";
+        };
     in {
         "2V2eUK6V" = _2V2eUK6V;
         "DVvpPN0G" = _DVvpPN0G;
@@ -122,6 +127,7 @@ let
         "GueFYIHP" = _GueFYIHP;
         "XggiVYeE" = _XggiVYeE;
         "EXu0Q4KH" = _EXu0Q4KH;
+        "ArJ8wpA5" = _ArJ8wpA5;
         "forge-1.18.2" = _dS6ouy8c;
         "forge-1.19.2" = _fDgIzV8G;
         "forge-1.20" = _5tGfF2Ok;
@@ -135,6 +141,7 @@ let
         "fabric-1.21.8" = _GueFYIHP;
         "fabric-1.21.10" = _XggiVYeE;
         "fabric-1.21.11" = _EXu0Q4KH;
+        "fabric-26.2" = _ArJ8wpA5;
         "neoforge-1.21.1" = _csBO1q5h;
         "pkg-1.0.2-forge-1.18.2" = _2V2eUK6V;
         "pkg-1.0.3-fabric-1.18.2" = _DVvpPN0G;
@@ -156,7 +163,8 @@ let
         "pkg-1.0.5-fabric-1.21.8" = _GueFYIHP;
         "pkg-1.0.5-fabric-1.21.10" = _XggiVYeE;
         "pkg-1.0.5-fabric-1.21.11" = _EXu0Q4KH;
-        "default" = _EXu0Q4KH;
+        "pkg-1.0.6-fabric-26.2" = _ArJ8wpA5;
+        "default" = _ArJ8wpA5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chefs-delight";

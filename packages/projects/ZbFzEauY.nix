@@ -1096,6 +1096,21 @@ let
             "file" = "packedup-1.1.1-neoforge-mc26.2.jar";
             "hash" = "sha512-Vk/VfV0jSf8xTE0TKM+x8ptvddQr+jGV47N+Yz2hSWw3zNwXr4n68t9gUaLLsTH2vVcD+EE95NQUU3Yw1KBLKA==";
         };
+        _5R2eVPgh = {
+            "id" = "5R2eVPgh";
+            "file" = "packedup-1.1.1a-neoforge-mc26.2.jar";
+            "hash" = "sha512-B8t+heh4bC/QOPjB8IywesmE1JxI/QAAiEHsCqlFhkcXATE1m2gLgqkULFuk2SwSUvr+qBMbP50XQx7khD+rtw==";
+        };
+        _SJBsTtNC = {
+            "id" = "SJBsTtNC";
+            "file" = "packedup-1.1.1-fabric-mc26.3.jar";
+            "hash" = "sha512-kJ83roePZLw7X6TnK+619khwDG79aOL3rZgsh1kR9tpWB12Ho3DQSNwL8FzkuEYgop6fiIPw7TiXuJ3gwZ/7hw==";
+        };
+        _YyUqkLbk = {
+            "id" = "YyUqkLbk";
+            "file" = "packedup-1.1.1-neoforge-mc26.3.jar";
+            "hash" = "sha512-j91ailgprN5mwN35cGKfDiPs/gkUhVTa6uJrjiKjWLMneqbbwK2nF2nPCt3SYNwezhB+8EQL58gLimskK1e+4A==";
+        };
     in {
         "3zwOsAas" = _3zwOsAas;
         "dEKm4sgO" = _dEKm4sgO;
@@ -1316,6 +1331,9 @@ let
         "FUymeQXQ" = _FUymeQXQ;
         "8BaJWtsl" = _8BaJWtsl;
         "mEkrPug0" = _mEkrPug0;
+        "5R2eVPgh" = _5R2eVPgh;
+        "SJBsTtNC" = _SJBsTtNC;
+        "YyUqkLbk" = _YyUqkLbk;
         "forge-1.12" = _FGcQSnqq;
         "forge-1.12.1" = _FGcQSnqq;
         "forge-1.12.2" = _FGcQSnqq;
@@ -1394,6 +1412,7 @@ let
         "fabric-26.1.1" = _JAU4tIH6;
         "fabric-26.1.2" = _JAU4tIH6;
         "fabric-26.2" = _fOSZLcB0;
+        "fabric-26.3" = _SJBsTtNC;
         "neoforge-1.12" = _e3PCZgOH;
         "neoforge-1.12.1" = _e3PCZgOH;
         "neoforge-1.12.2" = _e3PCZgOH;
@@ -1442,7 +1461,8 @@ let
         "neoforge-26.1" = _8BaJWtsl;
         "neoforge-26.1.1" = _8BaJWtsl;
         "neoforge-26.1.2" = _8BaJWtsl;
-        "neoforge-26.2" = _mEkrPug0;
+        "neoforge-26.2" = _5R2eVPgh;
+        "neoforge-26.3" = _YyUqkLbk;
         "quilt-1.18" = _lsnGw7FA;
         "quilt-1.18.1" = _lsnGw7FA;
         "quilt-1.18.2" = _lsnGw7FA;
@@ -1471,6 +1491,7 @@ let
         "quilt-26.1.1" = _JAU4tIH6;
         "quilt-26.1.2" = _JAU4tIH6;
         "quilt-26.2" = _fOSZLcB0;
+        "quilt-26.3" = _SJBsTtNC;
         "pkg-1.0.26-forge-mc1.12" = _3zwOsAas;
         "pkg-1.0.26-forge-mc1.14" = _dEKm4sgO;
         "pkg-1.0.26-forge-mc1.15" = _nu6ogaKu;
@@ -1690,7 +1711,10 @@ let
         "pkg-1.1.1-neoforge-mc1.21.11" = _FUymeQXQ;
         "pkg-1.1.1-neoforge-mc26.1" = _8BaJWtsl;
         "pkg-1.1.1-neoforge-mc26.2" = _mEkrPug0;
-        "default" = _mEkrPug0;
+        "pkg-1.1.1a-neoforge-mc26.2" = _5R2eVPgh;
+        "pkg-1.1.1-fabric-mc26.3" = _SJBsTtNC;
+        "pkg-1.1.1-neoforge-mc26.3" = _YyUqkLbk;
+        "default" = _YyUqkLbk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "packed-up-backpacks";

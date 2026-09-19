@@ -211,6 +211,31 @@ let
             "file" = "tw-decorative-food-1.20.1-2.0.0.jar";
             "hash" = "sha512-KtAeo00HCdahpM4ADThx2cTlL2Cp6p2RJX8ZiXeMAiAP9+kIy4Uolo7n0l7tp/PMQBqdEIKWGgmA10glB/vdAw==";
         };
+        _FhXwQiY7 = {
+            "id" = "FhXwQiY7";
+            "file" = "tw-decorative-food-1.20.1-2.0.1.jar";
+            "hash" = "sha512-4XpfgpeZMeCAw5ZCF7tmudkRoTXuY+Ui/KN8I8Ym5xvM5vZb6YhluthisqIucsSgoYqZDanYLzAx8uMPMMpNgg==";
+        };
+        _KKXGkRj1 = {
+            "id" = "KKXGkRj1";
+            "file" = "tw-decorative-food-1.21.1-2.0.1.jar";
+            "hash" = "sha512-bmwjjYYdXB82hmuEytzKmu8ADqruxgW5WlPC+2sHLbASg+OMXX3jxPMniznBNj5kYGdTeeH+YnodWgjChe/zXQ==";
+        };
+        _KC1XjkiW = {
+            "id" = "KC1XjkiW";
+            "file" = "tw-decorative-food-1.20.1-2.0.1-forge.jar";
+            "hash" = "sha512-Sz/gmZXULMsRA+cQxPid1aBy3/l8UyYRmM0Fnj/VVgw46EkC+rwpbHlgS4sM9xDIMyjYBkXdHXlPK8hwBahF9Q==";
+        };
+        _WktBUUVN = {
+            "id" = "WktBUUVN";
+            "file" = "tw-decorative-food-1.21.1-2.0.1-neoforge.jar";
+            "hash" = "sha512-K57K0xqaRi+hYChQMlGzYuOEYfIftHcxw7AI7zqpKTx/YPeNLOwNkT9CWcbHxBI/HF6sXkXT+JFeHiSpmajNhg==";
+        };
+        _OTtM1M8u = {
+            "id" = "OTtM1M8u";
+            "file" = "tw-decorative-food-1.21.1-2.0.1-forge.jar";
+            "hash" = "sha512-Dj4/vvWyzRxf4J/dNZDPccdqJes1/fbRgqp26wT7UaFsunfsn2Haq42u09UwaLFEt9LP+hBrsReKJqBSc/wSYg==";
+        };
     in {
         "wlawd6X9" = _wlawd6X9;
         "EUD118wz" = _EUD118wz;
@@ -254,16 +279,21 @@ let
         "n2ejmM9d" = _n2ejmM9d;
         "fOk9PxMc" = _fOk9PxMc;
         "VTfdcOL1" = _VTfdcOL1;
-        "fabric-1.20.1" = _VTfdcOL1;
+        "FhXwQiY7" = _FhXwQiY7;
+        "KKXGkRj1" = _KKXGkRj1;
+        "KC1XjkiW" = _KC1XjkiW;
+        "WktBUUVN" = _WktBUUVN;
+        "OTtM1M8u" = _OTtM1M8u;
+        "fabric-1.20.1" = _FhXwQiY7;
         "fabric-1.20.6" = _EUD118wz;
         "fabric-1.20.5" = _sIfikPKg;
         "fabric-1.20.4" = _89HOSSMT;
-        "fabric-1.21.1" = _fOk9PxMc;
+        "fabric-1.21.1" = _KKXGkRj1;
         "fabric-1.21.8" = _YvJ04qtv;
         "fabric-1.21.5" = _HJ5h2j3X;
-        "forge-1.20.1" = _LRaHfcm2;
-        "forge-1.21.1" = _PuQT5Svm;
-        "neoforge-1.21.1" = _n2ejmM9d;
+        "forge-1.20.1" = _KC1XjkiW;
+        "forge-1.21.1" = _OTtM1M8u;
+        "neoforge-1.21.1" = _WktBUUVN;
         "pkg-1.20.1-1.0.0" = _wlawd6X9;
         "pkg-1.20.6-1.0.0" = _EUD118wz;
         "pkg-1.20.5-1.0.0" = _sIfikPKg;
@@ -305,7 +335,12 @@ let
         "pkg-1.21.1-1.1.8-neoforge" = _n2ejmM9d;
         "pkg-1.21.1-1.1.8" = _fOk9PxMc;
         "pkg-1.20.1-2.0.0" = _VTfdcOL1;
-        "default" = _VTfdcOL1;
+        "pkg-1.20.1-2.0.1" = _FhXwQiY7;
+        "pkg-1.21.1-2.0.1" = _KKXGkRj1;
+        "pkg-1.20.1-2.0.1-forge" = _KC1XjkiW;
+        "pkg-1.21.1-2.0.1-neoforge" = _WktBUUVN;
+        "pkg-1.21.1-2.0.1-forge" = _OTtM1M8u;
+        "default" = _OTtM1M8u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "decorative-food";

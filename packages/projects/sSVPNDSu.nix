@@ -96,6 +96,16 @@ let
             "file" = "MC Dungeons Weapons V88 MC26.2.zip";
             "hash" = "sha512-Hg/P1i/UteXqflncF1PiSdu4Nb7y3aZdGcX8kih3E5harGKCuZCp90nc9BJuinHVIvmpddLWNiNDHVkkAt9k/g==";
         };
+        _UWh4JeVP = {
+            "id" = "UWh4JeVP";
+            "file" = "MC Dungeons Blocks V97 MC26.3.zip";
+            "hash" = "sha512-bzxASqr27Fjdf3GXhiERIpOV4EhN4K8VgryI/xm/R2kZCunfUvbdJcP8A7aPRTL9XrW/1zbSXkpn8HmgQJ60Ug==";
+        };
+        _L1acRHA8 = {
+            "id" = "L1acRHA8";
+            "file" = "MC Dungeons Weapons V97 MC26.3.zip";
+            "hash" = "sha512-ZlGpUWgUI4xu9unKIyXl9vd8np89dxLh8vikceDd3jQ6qI3CL2Ayi9wuQQk45BzE5LjdueLvvhIhJ4n+GECEpA==";
+        };
     in {
         "q94QGvYS" = _q94QGvYS;
         "YwqEmDOY" = _YwqEmDOY;
@@ -116,6 +126,8 @@ let
         "8JbnHU8i" = _8JbnHU8i;
         "RjaZRVX2" = _RjaZRVX2;
         "pMo64Uqn" = _pMo64Uqn;
+        "UWh4JeVP" = _UWh4JeVP;
+        "L1acRHA8" = _L1acRHA8;
         "minecraft-1.19.4" = _q94QGvYS;
         "minecraft-1.20" = _hTMs4ovb;
         "minecraft-1.20.1" = _hTMs4ovb;
@@ -136,10 +148,11 @@ let
         "minecraft-1.21.9" = _6IncgG1Q;
         "minecraft-1.21.10" = _6IncgG1Q;
         "minecraft-1.21.11" = _6IncgG1Q;
-        "minecraft-26.1" = _pMo64Uqn;
-        "minecraft-26.1.1" = _pMo64Uqn;
-        "minecraft-26.1.2" = _pMo64Uqn;
-        "minecraft-26.2" = _pMo64Uqn;
+        "minecraft-26.1" = _L1acRHA8;
+        "minecraft-26.1.1" = _L1acRHA8;
+        "minecraft-26.1.2" = _L1acRHA8;
+        "minecraft-26.2" = _L1acRHA8;
+        "minecraft-26.3" = _L1acRHA8;
         "pkg-V13" = _q94QGvYS;
         "pkg-V15" = _YwqEmDOY;
         "pkg-18" = _JXRcCopJ;
@@ -159,7 +172,9 @@ let
         "pkg-MCD-Weapons-84.1" = _8JbnHU8i;
         "pkg-MCD-Blocks-88" = _RjaZRVX2;
         "pkg-MCD-Weapons-88" = _pMo64Uqn;
-        "default" = _pMo64Uqn;
+        "pkg-MCD-Blocks-97" = _UWh4JeVP;
+        "pkg-MCD-Weapons-97" = _L1acRHA8;
+        "default" = _L1acRHA8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minecraft-dungeons-textures";

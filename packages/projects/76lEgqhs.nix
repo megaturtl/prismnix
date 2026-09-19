@@ -956,6 +956,106 @@ let
             "file" = "BedrockSkins-1.21.11-1.10.0-fabric.jar";
             "hash" = "sha512-8NYf80liSifxDdrQ6CdUcWC7I5StzzqKM/TCHjDx4SbBcT6/LtfIVugsHZH5JFokjuCCVHALGar2w9Hp+Y+tkw==";
         };
+        _7rrEoVrD = {
+            "id" = "7rrEoVrD";
+            "file" = "BedrockSkins-1.21.10-2.0.0-neoforge.jar";
+            "hash" = "sha512-OSVcQSHlwWfanG23Dw5OexqlvEe7+c6ur5RTisHTEIfOx8oy1rH0PW6tS+KyoELmPi27gqakTloDlg59RREkDg==";
+        };
+        _iYy4J5rz = {
+            "id" = "iYy4J5rz";
+            "file" = "BedrockSkins-1.21.10-2.0.0-fabric.jar";
+            "hash" = "sha512-rre04vdkqhb5sfJvBiOvIXrJ8gAPrzduPJM66ZISjn++4bR+1kUiHOmMlh6kSDVzLwaRo6PVe6LSD4A0ke10Eg==";
+        };
+        _QYxjWwF0 = {
+            "id" = "QYxjWwF0";
+            "file" = "BedrockSkins-26.1.2-2.0.0-fabric.jar";
+            "hash" = "sha512-j0WdqogvcPNjvm6XBtlWh1guaCCFcnmym2wISbGtT8zvYa5xwRwsK46QVnSgihgJ89WtQV7Jvgc91TMsyLv6WQ==";
+        };
+        _lUGJuUys = {
+            "id" = "lUGJuUys";
+            "file" = "BedrockSkins-26.2-2.0.0-fabric.jar";
+            "hash" = "sha512-yo2a5daGulRzUUShOHF7u2pvwzAEycqASdi2b02zV6H/RCysVAtcn1OLNQ3AwK+cgyxpmuk33iSu8BIQG0++Ew==";
+        };
+        _X5eiyttP = {
+            "id" = "X5eiyttP";
+            "file" = "BedrockSkins-1.21.11-2.0.0-fabric.jar";
+            "hash" = "sha512-bgLpB6Wyvf+6MJBHVYqzITXq+gdDw67kdGS9nw1gRkDzpTS8NjoaZ7gaSuETjKy7eN+A5it4MDSTbctZgA3Twg==";
+        };
+        _IHtDPsRo = {
+            "id" = "IHtDPsRo";
+            "file" = "BedrockSkins-1.21.11-2.0.0-neoforge.jar";
+            "hash" = "sha512-+9j+5ag3hOfcHj2ZKPlMuolfxcTcFLk4DvBi0CN4rR7hdJr11LEXdbrZxVa8SaSzP0todHtGLm0eSFFZXPMNSA==";
+        };
+        _YzqIPBmx = {
+            "id" = "YzqIPBmx";
+            "file" = "BedrockSkins-1.21.9-2.0.0-neoforge.jar";
+            "hash" = "sha512-6DR5mOMscJTBL52zIfEdm6bvT2tIv0ChNBhNKtz1N+ieofFGdHw1qgshxxjEhEaWQpOhHIw7VPMK5jMndhHMTg==";
+        };
+        _6FK1jt1h = {
+            "id" = "6FK1jt1h";
+            "file" = "BedrockSkins-1.21.9-2.0.0-fabric.jar";
+            "hash" = "sha512-UQe/XMtxClyTFA38h0tkFEpzM6QtuXUcXHDKc0qMP0mAGgYiEMV2W+x0Wjkw6/nlZj7aFX11s9v4zAa37AjQ4w==";
+        };
+        _yJs2AsMf = {
+            "id" = "yJs2AsMf";
+            "file" = "BedrockSkins-26.1.2-2.0.0-neoforge.jar";
+            "hash" = "sha512-Y3U8iCHW0ba3hXxvN649nQzW731Ye69+7EhYg/2hXX6KdxHu27mm1W+ocqyfRVcGcvWZMqyUJiYeWo4ZflPsww==";
+        };
+        _Kb737hc8 = {
+            "id" = "Kb737hc8";
+            "file" = "BedrockSkins-26.3-2.0.0-fabric.jar";
+            "hash" = "sha512-CNOOAc74Gcuu+roeq/rwHRwjq7korZa7sUh1uye/VnNNhM7A7BD2i6J27qUZ+QZbPvOO4xPM1ztZDORjg9UVYQ==";
+        };
+        _u0gpw3im = {
+            "id" = "u0gpw3im";
+            "file" = "BedrockSkins-26.1.2-2.0.1-fabric.jar";
+            "hash" = "sha512-DfUsc8eACdwe/ajRXPfaM+kQL1GojDrqSjstBVyI4FO4ZzzPMd4hKgwCqDH/zRyWZtqa9DQ1EgVYF5vC+T/11Q==";
+        };
+        _VlAU0g8A = {
+            "id" = "VlAU0g8A";
+            "file" = "BedrockSkins-26.3-2.0.1-fabric.jar";
+            "hash" = "sha512-RcGZdEkASAyReCulcQ9oWYdz5j92NDo5IBV0VP8lzrTw0cV/fuMKP6iSHBSE2Ulw0+cxqZFyGG2fAxqY67u+/g==";
+        };
+        _OjJDsgLf = {
+            "id" = "OjJDsgLf";
+            "file" = "BedrockSkins-1.21.10-2.0.1-fabric.jar";
+            "hash" = "sha512-if/8YzdZ4hVoT4A5ggScmIV7zt1WLTKm7pS5EdojXt878f71Sbi7Mb8B8XjcFImmym8Yq730o01UzDtYa2kDPg==";
+        };
+        _Oemmp8Ir = {
+            "id" = "Oemmp8Ir";
+            "file" = "BedrockSkins-1.21.11-2.0.1-fabric.jar";
+            "hash" = "sha512-tK6yUsrr8w8kFztJsFwErcj9ZFPiC0IhRPL0n5Id4z/kYVh+zR2r80WNLNGixfxwhqW25IN4HGj1cyfijJSnpg==";
+        };
+        _1m9UjXDp = {
+            "id" = "1m9UjXDp";
+            "file" = "BedrockSkins-1.21.10-2.0.1-neoforge.jar";
+            "hash" = "sha512-mTTBuTBo7xlMpevkVFRh6PR7GTGmcfy+3TXsJKv1OopsL7M0sA8sYTfsteroRJseesJexlCH95Fz8V5LrOJDFg==";
+        };
+        _sUfencRz = {
+            "id" = "sUfencRz";
+            "file" = "BedrockSkins-1.21.11-2.0.1-neoforge.jar";
+            "hash" = "sha512-8vjjqKH742Tbj8onkm5fr5PqYEGCNrxj+1MlQfLjW0hQHROIjDjQDT4WoJzwooWXht9LFctzoH+HPYk/2aBJIw==";
+        };
+        _T1yHo9wo = {
+            "id" = "T1yHo9wo";
+            "file" = "BedrockSkins-1.21.9-2.0.1-fabric.jar";
+            "hash" = "sha512-cRO1bNbfav73pUfYVt+H3d49pDR3GTCph5stAfkw5KKe+wXSE11Nav8Nv7BaxRIhUVYOx4W2aYRZsA9cWJrT1Q==";
+        };
+        _jVnk9x9P = {
+            "id" = "jVnk9x9P";
+            "file" = "BedrockSkins-1.21.9-2.0.1-neoforge.jar";
+            "hash" = "sha512-9j3Pan1BKBlfDy6Q6IBoQauaLV7em7T5mivXjL5DYw7ocNBHUKTCV609PYWBP1PnERRLuSNaipfaU8jTj6c6ug==";
+        };
+        _DsjUAezB = {
+            "id" = "DsjUAezB";
+            "file" = "BedrockSkins-26.1.2-2.0.1-neoforge.jar";
+            "hash" = "sha512-NSIMkBpfMbGh0UDl3MH0YIt9prFMEUOfL/YAGYvYRgsgKZrQiCqYqGxR21//cg/5plgh6PqNPde86RdYgH4B2A==";
+        };
+        _zsa94Sa9 = {
+            "id" = "zsa94Sa9";
+            "file" = "BedrockSkins-26.2-2.0.1-fabric.jar";
+            "hash" = "sha512-AvGpH149cADBNZU84eeBdQB7r22229m/fL1mPSXRKfz/XsdK+khsF3eNzcZRS92md3tXhmMdy0cT4GIUC2c/TQ==";
+        };
     in {
         "XRPsKKP5" = _XRPsKKP5;
         "60IJXAaU" = _60IJXAaU;
@@ -1148,26 +1248,48 @@ let
         "EeFt2OVv" = _EeFt2OVv;
         "7QH9SAq3" = _7QH9SAq3;
         "TYsyu8JN" = _TYsyu8JN;
-        "fabric-1.21.11" = _TYsyu8JN;
-        "fabric-1.21.9" = _EeFt2OVv;
-        "fabric-1.21.10" = _7QH9SAq3;
-        "fabric-26.1" = _qwvBShcr;
-        "fabric-26.1.1" = _qwvBShcr;
-        "fabric-26.1.2" = _qwvBShcr;
-        "fabric-26.2" = _DYRtFZEv;
-        "quilt-1.21.11" = _TYsyu8JN;
-        "quilt-1.21.9" = _EeFt2OVv;
-        "quilt-1.21.10" = _7QH9SAq3;
-        "quilt-26.1" = _qwvBShcr;
-        "quilt-26.1.1" = _qwvBShcr;
-        "quilt-26.1.2" = _qwvBShcr;
-        "quilt-26.2" = _DYRtFZEv;
-        "neoforge-1.21.9" = _FM4an7pl;
-        "neoforge-1.21.10" = _vOVesH5Y;
-        "neoforge-1.21.11" = _41ecZg0A;
-        "neoforge-26.1" = _a2oq30q2;
-        "neoforge-26.1.1" = _a2oq30q2;
-        "neoforge-26.1.2" = _a2oq30q2;
+        "7rrEoVrD" = _7rrEoVrD;
+        "iYy4J5rz" = _iYy4J5rz;
+        "QYxjWwF0" = _QYxjWwF0;
+        "lUGJuUys" = _lUGJuUys;
+        "X5eiyttP" = _X5eiyttP;
+        "IHtDPsRo" = _IHtDPsRo;
+        "YzqIPBmx" = _YzqIPBmx;
+        "6FK1jt1h" = _6FK1jt1h;
+        "yJs2AsMf" = _yJs2AsMf;
+        "Kb737hc8" = _Kb737hc8;
+        "u0gpw3im" = _u0gpw3im;
+        "VlAU0g8A" = _VlAU0g8A;
+        "OjJDsgLf" = _OjJDsgLf;
+        "Oemmp8Ir" = _Oemmp8Ir;
+        "1m9UjXDp" = _1m9UjXDp;
+        "sUfencRz" = _sUfencRz;
+        "T1yHo9wo" = _T1yHo9wo;
+        "jVnk9x9P" = _jVnk9x9P;
+        "DsjUAezB" = _DsjUAezB;
+        "zsa94Sa9" = _zsa94Sa9;
+        "fabric-1.21.11" = _Oemmp8Ir;
+        "fabric-1.21.9" = _T1yHo9wo;
+        "fabric-1.21.10" = _OjJDsgLf;
+        "fabric-26.1" = _u0gpw3im;
+        "fabric-26.1.1" = _u0gpw3im;
+        "fabric-26.1.2" = _u0gpw3im;
+        "fabric-26.2" = _zsa94Sa9;
+        "fabric-26.3" = _VlAU0g8A;
+        "quilt-1.21.11" = _Oemmp8Ir;
+        "quilt-1.21.9" = _T1yHo9wo;
+        "quilt-1.21.10" = _OjJDsgLf;
+        "quilt-26.1" = _u0gpw3im;
+        "quilt-26.1.1" = _u0gpw3im;
+        "quilt-26.1.2" = _u0gpw3im;
+        "quilt-26.2" = _zsa94Sa9;
+        "quilt-26.3" = _VlAU0g8A;
+        "neoforge-1.21.9" = _jVnk9x9P;
+        "neoforge-1.21.10" = _1m9UjXDp;
+        "neoforge-1.21.11" = _sUfencRz;
+        "neoforge-26.1" = _DsjUAezB;
+        "neoforge-26.1.1" = _DsjUAezB;
+        "neoforge-26.1.2" = _DsjUAezB;
         "pkg-1.0.0" = _XRPsKKP5;
         "pkg-1.1.0" = _60IJXAaU;
         "pkg-1.2.0" = _ar4sbpN1;
@@ -1345,7 +1467,27 @@ let
         "pkg-1.21.9-1.10.0+fabric" = _EeFt2OVv;
         "pkg-1.21.10-1.10.0+fabric" = _7QH9SAq3;
         "pkg-1.21.11-1.10.0+fabric" = _TYsyu8JN;
-        "default" = _TYsyu8JN;
+        "pkg-1.21.10-2.0.0+neoforge" = _7rrEoVrD;
+        "pkg-1.21.10-2.0.0+fabric" = _iYy4J5rz;
+        "pkg-26.1.2-2.0.0+fabric" = _QYxjWwF0;
+        "pkg-26.2-2.0.0+fabric" = _lUGJuUys;
+        "pkg-1.21.11-2.0.0+fabric" = _X5eiyttP;
+        "pkg-1.21.11-2.0.0+neoforge" = _IHtDPsRo;
+        "pkg-1.21.9-2.0.0+neoforge" = _YzqIPBmx;
+        "pkg-1.21.9-2.0.0+fabric" = _6FK1jt1h;
+        "pkg-26.1.2-2.0.0+neoforge" = _yJs2AsMf;
+        "pkg-26.3-2.0.0+fabric" = _Kb737hc8;
+        "pkg-26.1.2-2.0.1+fabric" = _u0gpw3im;
+        "pkg-26.3-2.0.1+fabric" = _VlAU0g8A;
+        "pkg-1.21.10-2.0.1+fabric" = _OjJDsgLf;
+        "pkg-1.21.11-2.0.1+fabric" = _Oemmp8Ir;
+        "pkg-1.21.10-2.0.1+neoforge" = _1m9UjXDp;
+        "pkg-1.21.11-2.0.1+neoforge" = _sUfencRz;
+        "pkg-1.21.9-2.0.1+fabric" = _T1yHo9wo;
+        "pkg-1.21.9-2.0.1+neoforge" = _jVnk9x9P;
+        "pkg-26.1.2-2.0.1+neoforge" = _DsjUAezB;
+        "pkg-26.2-2.0.1+fabric" = _zsa94Sa9;
+        "default" = _zsa94Sa9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bedrock-skins";

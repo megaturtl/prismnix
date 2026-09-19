@@ -151,6 +151,26 @@ let
             "file" = "lne_archers-fabric-1.2.0+1.21.1.jar";
             "hash" = "sha512-VvS47yrX2W0ZxyyiAEzhBBYAQX4MmAiWMCA+A8Jd+7/OdMGlvFNS6RLslHUzy2vHXLiAi/b/Fzd1862nbwtzyw==";
         };
+        _9URHlDsn = {
+            "id" = "9URHlDsn";
+            "file" = "lne_archers-neoforge-1.2.0+1.21.1.jar";
+            "hash" = "sha512-ZDgKZS9kJJJ/S88VwvkjXC6lTDFUvl7DELAqfR6/mmW3GN0ox0/mvx2V6BauLfp+uepN3rbqSUssr+iTCrWt1Q==";
+        };
+        _F6CoppOp = {
+            "id" = "F6CoppOp";
+            "file" = "lne_archers-fabric-1.2.0+1.21.1.jar";
+            "hash" = "sha512-dzPiTN761++An6c/coi9IucUkVNt2YfIB3+Ray+6Dtw6q/8ke3uVfWD4x8BTyMsfm4l7hYDr3NzDC1b8oyfJRA==";
+        };
+        _SGI8TFYL = {
+            "id" = "SGI8TFYL";
+            "file" = "lne_archers-fabric-1.2.2+1.21.1.jar";
+            "hash" = "sha512-qW5JtDO4iZK3TyjvVog0XCrBDihQA9KRZQACuJnqiCleRNKCsgDSwDyZu7MJRAS5Wxi0jeFLnjwIDLoBHm9YJw==";
+        };
+        _1dHDSEFH = {
+            "id" = "1dHDSEFH";
+            "file" = "lne_archers-neoforge-1.2.2+1.21.1.jar";
+            "hash" = "sha512-BAoHZTSwMKYYlbEK933KEBtWJgdVJkc3zkBbeaCTGlCYi/sNXwl1EeYcrSM9Sq9h0ndPGDDJuyvqGX4Sq5NpXQ==";
+        };
     in {
         "oklWT85s" = _oklWT85s;
         "jNIb4p9C" = _jNIb4p9C;
@@ -182,10 +202,14 @@ let
         "X6QMMu6Y" = _X6QMMu6Y;
         "q4xF28nA" = _q4xF28nA;
         "NG8jDhT6" = _NG8jDhT6;
+        "9URHlDsn" = _9URHlDsn;
+        "F6CoppOp" = _F6CoppOp;
+        "SGI8TFYL" = _SGI8TFYL;
+        "1dHDSEFH" = _1dHDSEFH;
         "fabric-1.20.1" = _zU7tcXoT;
         "fabric-1.21" = _NhJR24Iy;
-        "fabric-1.21.1" = _NG8jDhT6;
-        "neoforge-1.21.1" = _q4xF28nA;
+        "fabric-1.21.1" = _SGI8TFYL;
+        "neoforge-1.21.1" = _1dHDSEFH;
         "pkg-0.1.0-1.20.1" = _oklWT85s;
         "pkg-0.1.1-1.20.1" = _jNIb4p9C;
         "pkg-0.1.2-1.20.1" = _RCf6dTzB;
@@ -214,9 +238,11 @@ let
         "pkg-1.1.2+1.21.1-fabric" = _pS2D5NvE;
         "pkg-1.1.3+1.21.1-fabric" = _EBlDItKb;
         "pkg-1.1.3+1.21.1-neoforge" = _X6QMMu6Y;
-        "pkg-1.2.0+1.21.1-neoforge" = _q4xF28nA;
-        "pkg-1.2.0+1.21.1-fabric" = _NG8jDhT6;
-        "default" = _NG8jDhT6;
+        "pkg-1.2.0+1.21.1-neoforge" = _9URHlDsn;
+        "pkg-1.2.0+1.21.1-fabric" = _F6CoppOp;
+        "pkg-1.2.2+1.21.1-fabric" = _SGI8TFYL;
+        "pkg-1.2.2+1.21.1-neoforge" = _1dHDSEFH;
+        "default" = _1dHDSEFH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lne-archers";

@@ -116,6 +116,11 @@ let
             "file" = "MoreVanillaTools-21.1.2.jar";
             "hash" = "sha512-cXZNgt8M6AG9sdVCXtGvTqM5xn1OuIB87HXQyXXpbj0naJ8ndCrKw2gEKBHZSiOvjmADl2mF8XFkcqY6A/Tf8g==";
         };
+        _p88CQ9cg = {
+            "id" = "p88CQ9cg";
+            "file" = "MoreVanillaTools-21.1.3.jar";
+            "hash" = "sha512-HUbtqgJpGo0VaFqYzHOo1TUGZp4lFdwpPUFxo/xhwH7Q4L2R2eLdfgXv/h1B0FmVu3CFUhidq75AMGlm+9cKrA==";
+        };
     in {
         "WXY5Plr4" = _WXY5Plr4;
         "jiWsMQAF" = _jiWsMQAF;
@@ -140,6 +145,7 @@ let
         "Uzpy3hoI" = _Uzpy3hoI;
         "oCcdYHsN" = _oCcdYHsN;
         "kNhmeUlR" = _kNhmeUlR;
+        "p88CQ9cg" = _p88CQ9cg;
         "forge-1.17.1" = _Xr3gQlws;
         "forge-1.18.1" = _ogUICJGq;
         "forge-1.18.2" = _1NcMKOtU;
@@ -153,7 +159,7 @@ let
         "forge-1.19.4" = _W1YWgnNo;
         "forge-1.20.1" = _V2QdQXl0;
         "neoforge-1.20.1" = _V2QdQXl0;
-        "neoforge-1.21.1" = _kNhmeUlR;
+        "neoforge-1.21.1" = _p88CQ9cg;
         "pkg-1.17.1-3.0.0" = _WXY5Plr4;
         "pkg-1.17.1-3.0.1" = _jiWsMQAF;
         "pkg-1.17.1-3.0.2" = _Xr3gQlws;
@@ -177,7 +183,8 @@ let
         "pkg-21.1.0" = _Uzpy3hoI;
         "pkg-21.1.1" = _oCcdYHsN;
         "pkg-21.1.2" = _kNhmeUlR;
-        "default" = _kNhmeUlR;
+        "pkg-21.1.3" = _p88CQ9cg;
+        "default" = _p88CQ9cg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "morevanillatools";

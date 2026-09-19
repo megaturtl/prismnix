@@ -81,6 +81,16 @@ let
             "file" = "qraftys-jungle-villages-5.1.jar";
             "hash" = "sha512-Xmku+T2osK32n1cz8IZQWLIyUGikjDNGwdomlbHWK4FVbLfJguyq5pSS92fYzhDQ5r2KTaEnkCA8/uYeb0q04Q==";
         };
+        _GOIVxhEP = {
+            "id" = "GOIVxhEP";
+            "file" = "qrafty's-jungle-villages.zip";
+            "hash" = "sha512-XtMzzftp2C+e263zECWecvG5+3yE2j2V3Lr1B04H88mlstQq2vvGQ5m06Y5KFxwo/9baIP7O/2ia0nwDKErq2w==";
+        };
+        _DmEO1RTT = {
+            "id" = "DmEO1RTT";
+            "file" = "qraftys-jungle-villages-6.0.jar";
+            "hash" = "sha512-2hbp3eetJNfgluPlqfWhdralotaqDtSZwfJQmwWGgkWZOlRxe4rHwJHiu3y+PKYbNRM/jjqeWPPKx2cieki+yA==";
+        };
     in {
         "4UEJLM1w" = _4UEJLM1w;
         "aNZgCrn8" = _aNZgCrn8;
@@ -98,6 +108,8 @@ let
         "I248hLVI" = _I248hLVI;
         "5VEf6lfz" = _5VEf6lfz;
         "S2DZNWxh" = _S2DZNWxh;
+        "GOIVxhEP" = _GOIVxhEP;
+        "DmEO1RTT" = _DmEO1RTT;
         "datapack-1.19" = _4UEJLM1w;
         "datapack-1.19.1" = _4UEJLM1w;
         "datapack-1.19.2" = _4UEJLM1w;
@@ -120,6 +132,7 @@ let
         "datapack-1.21.9" = _cs731oKT;
         "datapack-1.21.10" = _cs731oKT;
         "datapack-26.2" = _5VEf6lfz;
+        "datapack-26.3" = _GOIVxhEP;
         "fabric-1.19" = _aNZgCrn8;
         "fabric-1.19.1" = _aNZgCrn8;
         "fabric-1.19.2" = _aNZgCrn8;
@@ -142,6 +155,7 @@ let
         "fabric-1.21.9" = _I248hLVI;
         "fabric-1.21.10" = _I248hLVI;
         "fabric-26.2" = _S2DZNWxh;
+        "fabric-26.3" = _DmEO1RTT;
         "forge-1.19" = _aNZgCrn8;
         "forge-1.19.1" = _aNZgCrn8;
         "forge-1.19.2" = _aNZgCrn8;
@@ -164,6 +178,7 @@ let
         "forge-1.21.9" = _I248hLVI;
         "forge-1.21.10" = _I248hLVI;
         "forge-26.2" = _S2DZNWxh;
+        "forge-26.3" = _DmEO1RTT;
         "quilt-1.19" = _aNZgCrn8;
         "quilt-1.19.1" = _aNZgCrn8;
         "quilt-1.19.2" = _aNZgCrn8;
@@ -186,6 +201,7 @@ let
         "quilt-1.21.9" = _I248hLVI;
         "quilt-1.21.10" = _I248hLVI;
         "quilt-26.2" = _S2DZNWxh;
+        "quilt-26.3" = _DmEO1RTT;
         "neoforge-1.21.4" = _FKmixgYd;
         "neoforge-1.21.5" = _I248hLVI;
         "neoforge-1.21.6" = _I248hLVI;
@@ -194,6 +210,7 @@ let
         "neoforge-1.21.9" = _I248hLVI;
         "neoforge-1.21.10" = _I248hLVI;
         "neoforge-26.2" = _S2DZNWxh;
+        "neoforge-26.3" = _DmEO1RTT;
         "pkg-1" = _4UEJLM1w;
         "pkg-1+mod" = _aNZgCrn8;
         "pkg-2" = _4bYWCgVR;
@@ -210,7 +227,9 @@ let
         "pkg-4.1+mod" = _I248hLVI;
         "pkg-5.1" = _5VEf6lfz;
         "pkg-5.1+mod" = _S2DZNWxh;
-        "default" = _S2DZNWxh;
+        "pkg-6.0" = _GOIVxhEP;
+        "pkg-6.0+mod" = _DmEO1RTT;
+        "default" = _DmEO1RTT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "qraftys-jungle-villages";

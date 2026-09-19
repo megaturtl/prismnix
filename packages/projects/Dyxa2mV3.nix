@@ -61,6 +61,16 @@ let
             "file" = "ironfish-mcmeta-95_26.1.jar";
             "hash" = "sha512-u/ZZharuppV7i05wKcTeCodfHQCf4Oo3lyDb2HqNkbfQEQ42dLq6+3FyxDV/QWXnNBc4SpB00mMUpkPj/iNWig==";
         };
+        _1UEYv0XJ = {
+            "id" = "1UEYv0XJ";
+            "file" = "Ironfish-26.1-26.3.zip";
+            "hash" = "sha512-8HqLwtHJdFd3Y4+cv9hw7Ss+8qfUfkTEpcvZTXl5y4QbVKXxQYlKrGT39fk295J5pm7yLd9lPYNtmVAtN7Glrw==";
+        };
+        _GqVyxZgA = {
+            "id" = "GqVyxZgA";
+            "file" = "ironfish-26.1-26.3.jar";
+            "hash" = "sha512-1KIJJFTg2WpdXWns7wVVid5XMkdTiKEWZcEe9ZURp1MK9EAVMZMOYgtkk5HYNp78YEqBZzPlDI9UIQcipy6HrA==";
+        };
     in {
         "ave3WfeG" = _ave3WfeG;
         "WOzmWk7t" = _WOzmWk7t;
@@ -74,6 +84,8 @@ let
         "LDDsnBmH" = _LDDsnBmH;
         "EGjgaVcT" = _EGjgaVcT;
         "VEET9wDd" = _VEET9wDd;
+        "1UEYv0XJ" = _1UEYv0XJ;
+        "GqVyxZgA" = _GqVyxZgA;
         "datapack-1.13" = _2YLVZ7E0;
         "datapack-1.13.1" = _2YLVZ7E0;
         "datapack-1.13.2" = _2YLVZ7E0;
@@ -120,10 +132,11 @@ let
         "datapack-1.21.9" = _RZ7cXmuR;
         "datapack-1.21.10" = _RZ7cXmuR;
         "datapack-1.21.11" = _RZ7cXmuR;
-        "datapack-26.1" = _EGjgaVcT;
-        "datapack-26.1.1" = _EGjgaVcT;
-        "datapack-26.1.2" = _EGjgaVcT;
-        "datapack-26.2" = _EGjgaVcT;
+        "datapack-26.1" = _1UEYv0XJ;
+        "datapack-26.1.1" = _1UEYv0XJ;
+        "datapack-26.1.2" = _1UEYv0XJ;
+        "datapack-26.2" = _1UEYv0XJ;
+        "datapack-26.3" = _1UEYv0XJ;
         "fabric-1.13" = _JULdpK11;
         "fabric-1.13.1" = _JULdpK11;
         "fabric-1.13.2" = _JULdpK11;
@@ -170,10 +183,11 @@ let
         "fabric-1.21.9" = _LDDsnBmH;
         "fabric-1.21.10" = _LDDsnBmH;
         "fabric-1.21.11" = _LDDsnBmH;
-        "fabric-26.1" = _VEET9wDd;
-        "fabric-26.1.1" = _VEET9wDd;
-        "fabric-26.1.2" = _VEET9wDd;
-        "fabric-26.2" = _VEET9wDd;
+        "fabric-26.1" = _GqVyxZgA;
+        "fabric-26.1.1" = _GqVyxZgA;
+        "fabric-26.1.2" = _GqVyxZgA;
+        "fabric-26.2" = _GqVyxZgA;
+        "fabric-26.3" = _GqVyxZgA;
         "forge-1.13" = _JULdpK11;
         "forge-1.13.1" = _JULdpK11;
         "forge-1.13.2" = _JULdpK11;
@@ -220,10 +234,11 @@ let
         "forge-1.21.9" = _LDDsnBmH;
         "forge-1.21.10" = _LDDsnBmH;
         "forge-1.21.11" = _LDDsnBmH;
-        "forge-26.1" = _VEET9wDd;
-        "forge-26.1.1" = _VEET9wDd;
-        "forge-26.1.2" = _VEET9wDd;
-        "forge-26.2" = _VEET9wDd;
+        "forge-26.1" = _GqVyxZgA;
+        "forge-26.1.1" = _GqVyxZgA;
+        "forge-26.1.2" = _GqVyxZgA;
+        "forge-26.2" = _GqVyxZgA;
+        "forge-26.3" = _GqVyxZgA;
         "quilt-1.13" = _JULdpK11;
         "quilt-1.13.1" = _JULdpK11;
         "quilt-1.13.2" = _JULdpK11;
@@ -270,10 +285,11 @@ let
         "quilt-1.21.9" = _LDDsnBmH;
         "quilt-1.21.10" = _LDDsnBmH;
         "quilt-1.21.11" = _LDDsnBmH;
-        "quilt-26.1" = _VEET9wDd;
-        "quilt-26.1.1" = _VEET9wDd;
-        "quilt-26.1.2" = _VEET9wDd;
-        "quilt-26.2" = _VEET9wDd;
+        "quilt-26.1" = _GqVyxZgA;
+        "quilt-26.1.1" = _GqVyxZgA;
+        "quilt-26.1.2" = _GqVyxZgA;
+        "quilt-26.2" = _GqVyxZgA;
+        "quilt-26.3" = _GqVyxZgA;
         "neoforge-1.21" = _9f97LNQU;
         "neoforge-1.21.1" = _9f97LNQU;
         "neoforge-1.21.2" = _9f97LNQU;
@@ -286,10 +302,11 @@ let
         "neoforge-1.21.9" = _LDDsnBmH;
         "neoforge-1.21.10" = _LDDsnBmH;
         "neoforge-1.21.11" = _LDDsnBmH;
-        "neoforge-26.1" = _VEET9wDd;
-        "neoforge-26.1.1" = _VEET9wDd;
-        "neoforge-26.1.2" = _VEET9wDd;
-        "neoforge-26.2" = _VEET9wDd;
+        "neoforge-26.1" = _GqVyxZgA;
+        "neoforge-26.1.1" = _GqVyxZgA;
+        "neoforge-26.1.2" = _GqVyxZgA;
+        "neoforge-26.2" = _GqVyxZgA;
+        "neoforge-26.3" = _GqVyxZgA;
         "pkg-mcmeta-4-26_1.13-1.20.4" = _ave3WfeG;
         "pkg-mcmeta-4-26_1.13-1.20.4+mod" = _WOzmWk7t;
         "pkg-mcmeta-4-41_1.13-1.20.6" = _2YLVZ7E0;
@@ -302,7 +319,9 @@ let
         "pkg-mcmeta-88_1.21.9+mod" = _LDDsnBmH;
         "pkg-mcmeta-95_26.1" = _EGjgaVcT;
         "pkg-mcmeta-95_26.1+mod" = _VEET9wDd;
-        "default" = _VEET9wDd;
+        "pkg-26.1-26.3" = _1UEYv0XJ;
+        "pkg-26.1-26.3+mod" = _GqVyxZgA;
+        "default" = _GqVyxZgA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ironfish";

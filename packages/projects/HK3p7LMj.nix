@@ -136,6 +136,51 @@ let
             "file" = "polynametag-1.1.1+26.2.jar";
             "hash" = "sha512-hfPQmhl6Xft0aNwLqFjNBt6TKplzrq1PgqW1cWZOhnGRiLJfk4DLF3RCzq0mu00Rto+GWymFlzhkoLjXrAw6Dg==";
         };
+        _eOm8txR8 = {
+            "id" = "eOm8txR8";
+            "file" = "polynametag-1.2.0+1.21.1.jar";
+            "hash" = "sha512-0ECBQIzV8Mkh2Sq91erzHZsEoRRx53W5OGTgC2ofIc4RU9qrvjsB2pvTXkoUogXpueMtyIDVIWHwtC8axPs1BQ==";
+        };
+        _JlVpUi3W = {
+            "id" = "JlVpUi3W";
+            "file" = "polynametag-1.2.0+1.21.4.jar";
+            "hash" = "sha512-jLPl3FwuH03UkVzslvF1qI0ffVSzWOSbgD/Bca0Pw/rgniA3GOHfkZ8uA+o4eVCw/4F9CKSMhJFsQTib+QzMRg==";
+        };
+        _3qpakStm = {
+            "id" = "3qpakStm";
+            "file" = "polynametag-1.2.0+1.21.5.jar";
+            "hash" = "sha512-ywdwIzTpBHR3QzKP5NK49mOV59BGvhBfeYdPLILAXBENA+gQaFNVyiGDHav47SPQF9cOov/hhtS/vUTC4s+Lmg==";
+        };
+        _DrreY6AI = {
+            "id" = "DrreY6AI";
+            "file" = "polynametag-1.2.0+1.21.8.jar";
+            "hash" = "sha512-oqzRW0HvlDj7n0mzEr+MV3fzhoTIC21MHnmntJzrbkUXYeHkW4dl8Zb/1hqksh/e7DPfyxbByuoyUQaY145HCA==";
+        };
+        _I4BtwwXX = {
+            "id" = "I4BtwwXX";
+            "file" = "polynametag-1.2.0+1.21.10.jar";
+            "hash" = "sha512-kq40mAvN3oBC7CquqEkzUq2X4DjU42jhi2QKOLgJJve/bEbw9BvemxBejUPuxUO27Rua/spaIUGtC/Wppb0l1A==";
+        };
+        _EI3LW9BO = {
+            "id" = "EI3LW9BO";
+            "file" = "polynametag-1.2.0+1.21.11.jar";
+            "hash" = "sha512-HOJHI2C13dfqCNP0YNZveHG8NBWdvC9u9iEjl9iIGpSVUxxk/OULhPdANOB2wRQ987S1x32myIbHkqTNOUEK+A==";
+        };
+        _9BpiJZBG = {
+            "id" = "9BpiJZBG";
+            "file" = "polynametag-1.2.0+26.1.jar";
+            "hash" = "sha512-L6gogJx7FY5MNiNyjbObXkfMAAgsiy52G8SdHKsECov8FD6gcStRDwUV8KfYCtlR2E+6ibBm+l2mAWe2wX66YA==";
+        };
+        _qhwIrb4r = {
+            "id" = "qhwIrb4r";
+            "file" = "polynametag-1.2.0+26.2.jar";
+            "hash" = "sha512-A2HfpzzqSZ7yuQpICV+H3MgHBkXRJxYnlbVRNhTpPDCi52eYqXYrG0EHb8IcC6qD63emk9oGbZa9wnsB1qCTfw==";
+        };
+        _V4Sw6c68 = {
+            "id" = "V4Sw6c68";
+            "file" = "polynametag-1.2.0+26.3.jar";
+            "hash" = "sha512-A91nsgbH6eRhFq8cpyAvHfgShZkkusIsHKiGAoJdhXFYRzIZ8VccCmTKnLz6omgl63EZ66pdlGg+q69btfnPIA==";
+        };
     in {
         "n7xFrgJO" = _n7xFrgJO;
         "rG823OkE" = _rG823OkE;
@@ -164,17 +209,27 @@ let
         "Oy4kWrVW" = _Oy4kWrVW;
         "Sw4amSMc" = _Sw4amSMc;
         "tAJsDujU" = _tAJsDujU;
+        "eOm8txR8" = _eOm8txR8;
+        "JlVpUi3W" = _JlVpUi3W;
+        "3qpakStm" = _3qpakStm;
+        "DrreY6AI" = _DrreY6AI;
+        "I4BtwwXX" = _I4BtwwXX;
+        "EI3LW9BO" = _EI3LW9BO;
+        "9BpiJZBG" = _9BpiJZBG;
+        "qhwIrb4r" = _qhwIrb4r;
+        "V4Sw6c68" = _V4Sw6c68;
         "forge-1.8.9" = _hf9HKJuH;
-        "fabric-1.21.11" = _AZdtRQNI;
-        "fabric-26.2" = _tAJsDujU;
-        "fabric-1.21.1" = _P4OvY9LO;
-        "fabric-1.21.5" = _zAKReHXS;
-        "fabric-26.1" = _Sw4amSMc;
-        "fabric-26.1.1" = _Sw4amSMc;
-        "fabric-26.1.2" = _Sw4amSMc;
-        "fabric-1.21.4" = _lcKROKj4;
-        "fabric-1.21.10" = _8s2SNx3f;
-        "fabric-1.21.8" = _Oy4kWrVW;
+        "fabric-1.21.11" = _EI3LW9BO;
+        "fabric-26.2" = _qhwIrb4r;
+        "fabric-1.21.1" = _eOm8txR8;
+        "fabric-1.21.5" = _3qpakStm;
+        "fabric-26.1" = _9BpiJZBG;
+        "fabric-26.1.1" = _9BpiJZBG;
+        "fabric-26.1.2" = _9BpiJZBG;
+        "fabric-1.21.4" = _JlVpUi3W;
+        "fabric-1.21.10" = _I4BtwwXX;
+        "fabric-1.21.8" = _DrreY6AI;
+        "fabric-26.3" = _V4Sw6c68;
         "pkg-v1.0.0" = _n7xFrgJO;
         "pkg-v1.0.1" = _rG823OkE;
         "pkg-v1.0.2" = _NNPaCAj3;
@@ -188,7 +243,8 @@ let
         "pkg-1.0.10" = _hf9HKJuH;
         "pkg-v1.1.0" = _Gaex02aH;
         "pkg-v1.1.1" = _tAJsDujU;
-        "default" = _tAJsDujU;
+        "pkg-v1.2.0" = _V4Sw6c68;
+        "default" = _V4Sw6c68;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "polynametag";

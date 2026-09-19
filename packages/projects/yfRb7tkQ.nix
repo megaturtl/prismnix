@@ -81,6 +81,26 @@ let
             "file" = "homabric-2.1.0+1.20.x.jar";
             "hash" = "sha512-sGfrZqNrLGLFvcuC1UZN2QnZNZoNwtbK3zHVoc9/SoXmQ02ghRuzIY2VNnnCUK2SCr87JynvDjsQqTzkXY27wQ==";
         };
+        _u0xMECCS = {
+            "id" = "u0xMECCS";
+            "file" = "homabric.jar";
+            "hash" = "sha512-uIoKfmIKxZ9X4wgq0gYEEm42vaLecsxA3xgf7FVBc+APUBOexjrtRCKzDB6CSjqTry1Dk+ctmxftdwCNs4uxTQ==";
+        };
+        _Nx4RgL88 = {
+            "id" = "Nx4RgL88";
+            "file" = "homabric.jar";
+            "hash" = "sha512-0V6Eai8f52MDDmceTkVb+gKj6h43zI1L0gWnptSszhkrN/2cE75cudXu9HvML3M3BoQSyIhtueC33foTDo5nEg==";
+        };
+        _gOSuqEXe = {
+            "id" = "gOSuqEXe";
+            "file" = "homabric.jar";
+            "hash" = "sha512-aTskfEysuiFTaoKynFAghW4nwU/qClu+HfwCXoOZQiXa61HzJ0HdR2DTqRdFxyVEaPg9+OSGgeWRE+k33Mg6Yw==";
+        };
+        _NGhLfwVQ = {
+            "id" = "NGhLfwVQ";
+            "file" = "homabric.jar";
+            "hash" = "sha512-V7hqMYDh+ws7cqI6EbsxxOkKtqVRxFdviDfDYiE1ZQ50KWy7GNgDBZjGaWwYjpmDVCY6mSXWAVA8NgAEJE7mkQ==";
+        };
     in {
         "MfyIYs6x" = _MfyIYs6x;
         "AqEETzay" = _AqEETzay;
@@ -98,6 +118,10 @@ let
         "AHuomq4L" = _AHuomq4L;
         "3KALr12x" = _3KALr12x;
         "zVkeoJHl" = _zVkeoJHl;
+        "u0xMECCS" = _u0xMECCS;
+        "Nx4RgL88" = _Nx4RgL88;
+        "gOSuqEXe" = _gOSuqEXe;
+        "NGhLfwVQ" = _NGhLfwVQ;
         "fabric-1.18" = _AHuomq4L;
         "fabric-1.18.1-pre1" = _y1K24HCv;
         "fabric-1.18.1-rc1" = _y1K24HCv;
@@ -129,6 +153,11 @@ let
         "fabric-1.19.4" = _3KALr12x;
         "fabric-1.20" = _zVkeoJHl;
         "fabric-1.20.1" = _zVkeoJHl;
+        "fabric-26.3" = _Nx4RgL88;
+        "fabric-26.2" = _gOSuqEXe;
+        "fabric-26.1" = _NGhLfwVQ;
+        "fabric-26.1.1" = _NGhLfwVQ;
+        "fabric-26.1.2" = _NGhLfwVQ;
         "quilt-1.19-rc1" = _EgioGHvG;
         "quilt-1.19-rc2" = _EgioGHvG;
         "quilt-1.19" = _3KALr12x;
@@ -141,6 +170,11 @@ let
         "quilt-1.18.2" = _AHuomq4L;
         "quilt-1.20" = _zVkeoJHl;
         "quilt-1.20.1" = _zVkeoJHl;
+        "quilt-26.3" = _Nx4RgL88;
+        "quilt-26.2" = _gOSuqEXe;
+        "quilt-26.1" = _NGhLfwVQ;
+        "quilt-26.1.1" = _NGhLfwVQ;
+        "quilt-26.1.2" = _NGhLfwVQ;
         "pkg-1.0.0" = _MfyIYs6x;
         "pkg-1.0.0+1.17" = _AqEETzay;
         "pkg-1.1.0+1.17" = _hYhgSP8n;
@@ -157,7 +191,11 @@ let
         "pkg-2.0.1+1.18.x" = _AHuomq4L;
         "pkg-2.0.4+1.19.x" = _3KALr12x;
         "pkg-2.1.0+1.20.x" = _zVkeoJHl;
-        "default" = _zVkeoJHl;
+        "pkg-3.0.0+26.3" = _u0xMECCS;
+        "pkg-3.0.1+26.3" = _Nx4RgL88;
+        "pkg-3.0.1+26.2" = _gOSuqEXe;
+        "pkg-3.0.1+26.1" = _NGhLfwVQ;
+        "default" = _NGhLfwVQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "homabric";

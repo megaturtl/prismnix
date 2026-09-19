@@ -411,6 +411,31 @@ let
             "file" = "raritycore-1211.14.6.jar";
             "hash" = "sha512-Jhg6Bb1qrj08Ec4w744xJfRR4B9ILfU2VG8mgdHzyqd5gW08Yr3HPHDPus3BLELwN3NAM1pKPlWK0MDi3Zh1Uw==";
         };
+        _VWBHD3fb = {
+            "id" = "VWBHD3fb";
+            "file" = "raritycore-1201.14.2.jar";
+            "hash" = "sha512-EjKNzEIZeaJQzp4P4+s+3fMSaXqFLJPb6B7nKcpOc9Q8BrS5IOSZuQGFnOFhz1/Hx8JsJIzI+KZHEp9MiRZkow==";
+        };
+        _GDhOXYp4 = {
+            "id" = "GDhOXYp4";
+            "file" = "raritycore-1211.14.7.jar";
+            "hash" = "sha512-ilpfNo2xjh9IvLNXKUtvll6PMDg1ZF6dSr8Keft8c+icH9lWcmsPzXO8POFntppEGpnyioG882LUBklnhGqsYw==";
+        };
+        _thuJ3b6c = {
+            "id" = "thuJ3b6c";
+            "file" = "raritycore-2601.14.1.jar";
+            "hash" = "sha512-DGTe6rbLi7H8EODPbbLhP+sA8rL+itP6hVK6fk3FBe0NDOy2kGZOf60Q+4sc5N+GNCjyBvR3dA51PUdNfWwQIg==";
+        };
+        _5GSaAtVS = {
+            "id" = "5GSaAtVS";
+            "file" = "raritycore-2602.14.1.jar";
+            "hash" = "sha512-IFv937FRZdLpQ24plUdbF8GEcDhTmDCRMnn7ewMkpbadoldbbN7t4oOPh/llqQOrxQJ79arXpzG63RdCdV91Bw==";
+        };
+        _CE6u4CQb = {
+            "id" = "CE6u4CQb";
+            "file" = "raritycore-1201.14.3.jar";
+            "hash" = "sha512-0cnKeFC1vEpYCw4h7ybwOfMl7P6aYt/B21uEc6bZSC7R3QI/fgqNr8nawxRgwQCkXQF3L2zJVh/FLR1VjYLPkw==";
+        };
     in {
         "UW1jkcQW" = _UW1jkcQW;
         "UjO1rBQa" = _UjO1rBQa;
@@ -494,13 +519,18 @@ let
         "LWDVntFc" = _LWDVntFc;
         "JhJQYZ4q" = _JhJQYZ4q;
         "VZur0f0x" = _VZur0f0x;
-        "forge-1.20.1" = _zRw7im2D;
-        "neoforge-1.21.1" = _VZur0f0x;
+        "VWBHD3fb" = _VWBHD3fb;
+        "GDhOXYp4" = _GDhOXYp4;
+        "thuJ3b6c" = _thuJ3b6c;
+        "5GSaAtVS" = _5GSaAtVS;
+        "CE6u4CQb" = _CE6u4CQb;
+        "forge-1.20.1" = _CE6u4CQb;
+        "neoforge-1.21.1" = _GDhOXYp4;
         "neoforge-1.21.11" = _xdMupbte;
-        "neoforge-26.1" = _LWDVntFc;
-        "neoforge-26.1.1" = _LWDVntFc;
-        "neoforge-26.1.2" = _LWDVntFc;
-        "neoforge-26.2" = _JhJQYZ4q;
+        "neoforge-26.1" = _thuJ3b6c;
+        "neoforge-26.1.1" = _thuJ3b6c;
+        "neoforge-26.1.2" = _thuJ3b6c;
+        "neoforge-26.2" = _5GSaAtVS;
         "pkg-1.0.0" = _UW1jkcQW;
         "pkg-1.1.0" = _UjO1rBQa;
         "pkg-1.2.0" = _DQHWz4yt;
@@ -583,7 +613,12 @@ let
         "pkg-2601.14.0" = _LWDVntFc;
         "pkg-2602.14.0" = _JhJQYZ4q;
         "pkg-1211.14.6" = _VZur0f0x;
-        "default" = _VZur0f0x;
+        "pkg-1201.14.2" = _VWBHD3fb;
+        "pkg-1211.14.7" = _GDhOXYp4;
+        "pkg-2601.14.1" = _thuJ3b6c;
+        "pkg-2602.14.1" = _5GSaAtVS;
+        "pkg-1201.14.3" = _CE6u4CQb;
+        "default" = _CE6u4CQb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "raritycore";

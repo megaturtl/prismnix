@@ -26,20 +26,27 @@ let
             "file" = "Entity Render Stacking 1.2 - 26.2.jar";
             "hash" = "sha512-G+9zQRrhEysMD7Q/k/NMfDO3JXC8ijH7FSwZHm/FZjdxuwT26adx/Mv9HMvr4fHfZW3BnY65oCkt5/c0VNR0fw==";
         };
+        _Q1gZAhLO = {
+            "id" = "Q1gZAhLO";
+            "file" = "Entity Render Stacking 1.2 - 26.3.jar";
+            "hash" = "sha512-d+Z4M6sIIsGfsmnYyrnsDVKf1Vj7D1cv5XpmSKUMKWDIlTgmBU778rK8WN6E75FFdDKTVrB4bBxq25Npp5bPdg==";
+        };
     in {
         "BvZG9D9m" = _BvZG9D9m;
         "OnntuN8h" = _OnntuN8h;
         "j3hM9BAI" = _j3hM9BAI;
         "YXYshlgm" = _YXYshlgm;
         "2Mg92g13" = _2Mg92g13;
+        "Q1gZAhLO" = _Q1gZAhLO;
         "fabric-1.21.11" = _YXYshlgm;
         "fabric-26.1.2" = _OnntuN8h;
         "fabric-26.2" = _2Mg92g13;
+        "fabric-26.3" = _Q1gZAhLO;
         "pkg-1.0.0" = _BvZG9D9m;
         "pkg-26.1.2" = _OnntuN8h;
         "pkg-26.2" = _j3hM9BAI;
-        "pkg-1.2" = _2Mg92g13;
-        "default" = _2Mg92g13;
+        "pkg-1.2" = _Q1gZAhLO;
+        "default" = _Q1gZAhLO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "entity-stack-rendering";

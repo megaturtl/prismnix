@@ -11,13 +11,19 @@ let
             "file" = "AnchorOptimizer-1.21.x.jar";
             "hash" = "sha512-Uv/oqL7euo7nCwKo9hzs14glh/79b4eo1DNVe4p+POq4BDRmJrCgzZ91QJcUevFVsibJjPDeVOpe40KptKlNOA==";
         };
+        _dh9zBH5a = {
+            "id" = "dh9zBH5a";
+            "file" = "AnchorOptimizer-26.3.jar";
+            "hash" = "sha512-HbY2fYAJe9J24u0AH/tYDkxr3ZvDwz3tkR24dOxiOnwRq0MZ34XyL841Qeh/1OSLbv0CQTr7x+bbqqhMsaN2Og==";
+        };
     in {
         "CShgemb9" = _CShgemb9;
         "Ij8GQOOU" = _Ij8GQOOU;
-        "fabric-26.1" = _CShgemb9;
-        "fabric-26.1.1" = _CShgemb9;
-        "fabric-26.1.2" = _CShgemb9;
-        "fabric-26.2" = _CShgemb9;
+        "dh9zBH5a" = _dh9zBH5a;
+        "fabric-26.1" = _dh9zBH5a;
+        "fabric-26.1.1" = _dh9zBH5a;
+        "fabric-26.1.2" = _dh9zBH5a;
+        "fabric-26.2" = _dh9zBH5a;
         "fabric-1.21" = _Ij8GQOOU;
         "fabric-1.21.1" = _Ij8GQOOU;
         "fabric-1.21.2" = _Ij8GQOOU;
@@ -30,9 +36,11 @@ let
         "fabric-1.21.9" = _Ij8GQOOU;
         "fabric-1.21.10" = _Ij8GQOOU;
         "fabric-1.21.11" = _Ij8GQOOU;
+        "fabric-26.3" = _dh9zBH5a;
         "pkg-1.0.6+26.X" = _CShgemb9;
         "pkg-1.0.6+1.21.X" = _Ij8GQOOU;
-        "default" = _Ij8GQOOU;
+        "pkg-1.0.6+26.3" = _dh9zBH5a;
+        "default" = _dh9zBH5a;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "anchoroptimizer";

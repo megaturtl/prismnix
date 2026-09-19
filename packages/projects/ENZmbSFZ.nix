@@ -411,6 +411,16 @@ let
             "file" = "dungeon_difficulty-neoforge-3.8.0+1.21.1.jar";
             "hash" = "sha512-RMXp3nVv0pdDVpr2kemTmZAU7PAfjiF731NHljndSJDrInwG2Wahwg+vJ9mQRl2fe4Xy2SxDQyry1s1benfqJA==";
         };
+        _d56YXb7G = {
+            "id" = "d56YXb7G";
+            "file" = "dungeon_difficulty-forge-3.8.0+1.20.1.jar";
+            "hash" = "sha512-43nycLFjlVSuWi6hLGVEktZfteALpk9hnmVqK+GqiKmAdpMwH2qLAgaH8m/d2yc2GpEnrMHitG7RPDDaOsB3kg==";
+        };
+        _Ideb2ajw = {
+            "id" = "Ideb2ajw";
+            "file" = "dungeon_difficulty-fabric-3.8.0+1.20.1.jar";
+            "hash" = "sha512-USv+vhOXgX6dJLuxbzVpWdNbAKiBtnl0hNYxEUPoDK10n3Xb+qx0mw7XJc6K2I38+0HL5SLmPpNc2XIDvmdnmA==";
+        };
     in {
         "pdMFGWFb" = _pdMFGWFb;
         "ZB1rP0Gg" = _ZB1rP0Gg;
@@ -494,18 +504,22 @@ let
         "oo7VOr9Z" = _oo7VOr9Z;
         "M4hLs4aU" = _M4hLs4aU;
         "qeA1pS5C" = _qeA1pS5C;
+        "d56YXb7G" = _d56YXb7G;
+        "Ideb2ajw" = _Ideb2ajw;
         "fabric-1.18.2" = _ymAJ3UJx;
         "fabric-1.19" = _HMmYxIPw;
         "fabric-1.19.1" = _HMmYxIPw;
         "fabric-1.19.2" = _HMmYxIPw;
         "fabric-1.19.3" = _NGindg0j;
         "fabric-1.19.4" = _AmSBNxgE;
-        "fabric-1.20.1" = _nnllzcQl;
+        "fabric-1.20.1" = _Ideb2ajw;
         "fabric-1.20.2" = _LzGqjsdM;
         "fabric-1.21" = _M4hLs4aU;
         "fabric-1.21.1" = _M4hLs4aU;
         "neoforge-1.21" = _qeA1pS5C;
         "neoforge-1.21.1" = _qeA1pS5C;
+        "neoforge-1.20.1" = _d56YXb7G;
+        "forge-1.20.1" = _d56YXb7G;
         "pkg-1.0.0" = _pdMFGWFb;
         "pkg-1.0.1" = _ZB1rP0Gg;
         "pkg-1.0.3" = _OAYrMWsn;
@@ -583,7 +597,9 @@ let
         "pkg-3.7.0+1.21.1-fabric" = _oo7VOr9Z;
         "pkg-3.8.0+1.21.1-fabric" = _M4hLs4aU;
         "pkg-3.8.0+1.21.1-neoforge" = _qeA1pS5C;
-        "default" = _qeA1pS5C;
+        "pkg-3.8.0+1.20.1-forge" = _d56YXb7G;
+        "pkg-3.8.0+1.20.1-fabric" = _Ideb2ajw;
+        "default" = _Ideb2ajw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dungeon-difficulty";

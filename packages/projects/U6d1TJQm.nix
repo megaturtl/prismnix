@@ -91,6 +91,11 @@ let
             "file" = "StringDupersReturn-1.0.0-Fabric-26.2.jar";
             "hash" = "sha512-TVlwGVTNVxN/8kwRzv+yLA7NV69YNfcymGAizEcof6LSfTzrBQukFk0nVuLMERRjINrWYGi9TVImd58YGeDZOg==";
         };
+        _8E3XxGHY = {
+            "id" = "8E3XxGHY";
+            "file" = "StringDupersReturn-1.0.0-Fabric-26.3.jar";
+            "hash" = "sha512-ot8QXI2pRuB5zMHKxPRyQPYOqNvgpO/HfTPkM1bTI+dx7guTFW4QIDbxBASK5rriny5TqUUWh71BFEo3Lf5OSg==";
+        };
     in {
         "AcTl23fr" = _AcTl23fr;
         "B2yvL6Fk" = _B2yvL6Fk;
@@ -110,6 +115,7 @@ let
         "lLE4nioG" = _lLE4nioG;
         "rGEszsec" = _rGEszsec;
         "U3uCzFC1" = _U3uCzFC1;
+        "8E3XxGHY" = _8E3XxGHY;
         "paper-1.21.2" = _padTtIq6;
         "paper-1.21.3" = _padTtIq6;
         "paper-1.21.4" = _padTtIq6;
@@ -188,13 +194,14 @@ let
         "fabric-26.1.1" = _lLE4nioG;
         "fabric-26.1.2" = _rGEszsec;
         "fabric-26.2" = _U3uCzFC1;
-        "pkg-1.0.0" = _rGEszsec;
+        "fabric-26.3" = _8E3XxGHY;
+        "pkg-1.0.0" = _8E3XxGHY;
         "pkg-1.0.1" = _B2yvL6Fk;
         "pkg-1.0.11" = _xTeVKr1m;
         "pkg-1.0" = _UNZ8K6cx;
         "pkg-1.0.12" = _padTtIq6;
         "pkg-1.0.0-Fabric-26.2" = _U3uCzFC1;
-        "default" = _U3uCzFC1;
+        "default" = _8E3XxGHY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "string-dupers-return";

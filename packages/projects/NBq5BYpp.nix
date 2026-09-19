@@ -56,6 +56,26 @@ let
             "file" = "epicdeathscreen-fabric-1.21.1-1.0.0.jar";
             "hash" = "sha512-/SAguLfhfPC0jwzLZ20SaodZctgbD6scvm1yuWGR9XIwDddd5BnFLpGGOKBJ4E3j/I7FR+3aS8EUoYTAoHX91g==";
         };
+        _KljoYBKR = {
+            "id" = "KljoYBKR";
+            "file" = "epicdeathscreen-fabric-1.20.1-1.1.0-beta.2.jar";
+            "hash" = "sha512-QKAfH+5E8cJLN+CTUVHWPxGQJv9vsd4hGgK7J8ARFSvDFuZQtXUJiWFguTuMc08EAgk1v8z+XnH5hk86/Yu0FQ==";
+        };
+        _gEvSJqVR = {
+            "id" = "gEvSJqVR";
+            "file" = "epicdeathscreen-fabric-1.21.1-1.1.0-beta.2.jar";
+            "hash" = "sha512-t8gtpd+a/3lP8+WaLNvK9xROOi0lTpJTOBHSu4TiQAXMWR5DKCF2xfVigfKodc872YqxKQAnjURuDofWLXn+qA==";
+        };
+        _df23lBd8 = {
+            "id" = "df23lBd8";
+            "file" = "epicdeathscreen-forge-1.20.1-1.1.0-beta.2.jar";
+            "hash" = "sha512-AfGFEVFkuQpfj3ePYa9F5w7vcnibpc3/hawWqg9x9dHbIZIJ0Dz8Ws4mf2/+Q1kj5i0TC7QNuNF3oNPaser+Ug==";
+        };
+        _L3hQRVlG = {
+            "id" = "L3hQRVlG";
+            "file" = "epicdeathscreen-neoforge-1.21.1-1.1.0-beta.2.jar";
+            "hash" = "sha512-9KsTtCR+QXzSHOgEfzL2Wbd/Iu+mnA5PHERSrW+uuFUPir+kq49yBTE2jVDpnU5yxh5phNz8f9Iksv2MrGmPYQ==";
+        };
     in {
         "NJZ9TB1h" = _NJZ9TB1h;
         "buwLmpJm" = _buwLmpJm;
@@ -68,17 +88,22 @@ let
         "HbY9CDc8" = _HbY9CDc8;
         "c1EvqkUx" = _c1EvqkUx;
         "4wRZZ7bh" = _4wRZZ7bh;
-        "forge-1.20.1" = _HbY9CDc8;
+        "KljoYBKR" = _KljoYBKR;
+        "gEvSJqVR" = _gEvSJqVR;
+        "df23lBd8" = _df23lBd8;
+        "L3hQRVlG" = _L3hQRVlG;
+        "forge-1.20.1" = _df23lBd8;
         "forge-1.12.2" = _buwLmpJm;
         "forge-1.21.1" = _waxMM1T3;
-        "fabric-1.20.1" = _c1EvqkUx;
-        "fabric-1.21.1" = _4wRZZ7bh;
-        "neoforge-1.21.1" = _UOg6t7tW;
+        "fabric-1.20.1" = _KljoYBKR;
+        "fabric-1.21.1" = _gEvSJqVR;
+        "neoforge-1.21.1" = _L3hQRVlG;
         "pkg-0.1" = _wRV8wLbk;
         "pkg-0.2" = _c9tQQ0sd;
         "pkg-1.0.1" = _4wRZZ7bh;
         "pkg-1.22" = _UOg6t7tW;
-        "default" = _4wRZZ7bh;
+        "pkg-2.0" = _L3hQRVlG;
+        "default" = _L3hQRVlG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "epic-death-screen";

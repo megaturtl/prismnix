@@ -171,6 +171,51 @@ let
             "file" = "tiertagger-1.21-1.3.0.jar";
             "hash" = "sha512-8lRcs/dhswK8xYK6ri7MCYXmBUOX7YXN3Xnn2kWORJ73CVijocNgANlRLsNJnvqye8A3JR/b0oPxNl5dMm3i/g==";
         };
+        _Ouy5akwC = {
+            "id" = "Ouy5akwC";
+            "file" = "tiertagger-26.2-1.3.1.jar";
+            "hash" = "sha512-6E+oMpekJNP8VH9jd6g7HuSqPu59kiop30i+bSY/W5IQHr1AnMMwzTa64KJqU6uaX/uIwDvGlxMmgSMa41DKvw==";
+        };
+        _4Rs6wNf9 = {
+            "id" = "4Rs6wNf9";
+            "file" = "tiertagger-1.21-1.3.1.jar";
+            "hash" = "sha512-F+JKhxJCw7BE1L2M0RHdgK4fRjTv1ry+A+8cWDFhet6dcbC93hsAt1G9nv8Nn0KuriaF76jyJldxTycGBuzetA==";
+        };
+        _vExQbzM8 = {
+            "id" = "vExQbzM8";
+            "file" = "tiertagger-1.21.2-1.3.1.jar";
+            "hash" = "sha512-RBTBeNnrS7BXYGCrLsAejrF8vLgTRiLdCeh+pcq3P8KUTEcUXdqLlfLPJqeYvDUFZor/VxIBv1IeAWKlO+MmnQ==";
+        };
+        _KAHUueXZ = {
+            "id" = "KAHUueXZ";
+            "file" = "tiertagger-1.21.4-1.3.1.jar";
+            "hash" = "sha512-yI4dOSY/sCg4ppI0A5A97ChD1CF9Ez16rC1JP3ksKAeV2tU9lvDFF8MQ3N4pU3S7d+HYtSJCZjEOVyCrgRnvyA==";
+        };
+        _KA22B5kd = {
+            "id" = "KA22B5kd";
+            "file" = "tiertagger-1.21.5-1.3.1.jar";
+            "hash" = "sha512-1tSRiPevaVuEanTMpvkwGnHDTrl4yl9d2jfCXY5wRMbd64o1lD7dCCi3Z+aJkY2aIBxguGjJUcIhPA5UgfF72A==";
+        };
+        _kqKsMr9e = {
+            "id" = "kqKsMr9e";
+            "file" = "tiertagger-1.21.6-1.3.1.jar";
+            "hash" = "sha512-gG+zbUTRj/EC6mxptL8AMuh7K+V22R3+Zcy94yJos66bxVhL1iOi9JPvm3YrM4dQg6BPeY7e0EmMJyj0WoPJ+Q==";
+        };
+        _LfjxJAnX = {
+            "id" = "LfjxJAnX";
+            "file" = "tiertagger-1.21.9-1.3.1.jar";
+            "hash" = "sha512-8SfcBwaIadLV1HNOd1soLQSR8xNM6N2FoxVxpdT5gDkTV6udLzokoTeBUjgWYysDNhsE4pPNxAAZ6oT9RfXUkw==";
+        };
+        _ioh2J9ML = {
+            "id" = "ioh2J9ML";
+            "file" = "tiertagger-1.21.11-1.3.1.jar";
+            "hash" = "sha512-sj+H/l+Ac0F/6GfJXloTMPEO9fZ6gKX+oq2rha56bDbQaNRPw7udXLcRXEQ/SVjkzOhr0qZVjVezVKA8VdAowA==";
+        };
+        _2qIh5Waq = {
+            "id" = "2qIh5Waq";
+            "file" = "tiertagger-26.1-1.3.1.jar";
+            "hash" = "sha512-5prs1/UkQ0ij0iSfe8bbZtiMESucbkVsAyGIYxt21qEvPi4gH22mEQXu9RqJJ3s0ttt4uYLA+9otPB9mrTKRFw==";
+        };
     in {
         "nkJTMOBw" = _nkJTMOBw;
         "b5EENTpH" = _b5EENTpH;
@@ -206,22 +251,31 @@ let
         "9MmouAfA" = _9MmouAfA;
         "tuTtBbhZ" = _tuTtBbhZ;
         "K28nBTL9" = _K28nBTL9;
-        "fabric-1.21" = _K28nBTL9;
-        "fabric-1.21.1" = _K28nBTL9;
-        "fabric-1.21.2" = _tuTtBbhZ;
-        "fabric-1.21.3" = _tuTtBbhZ;
-        "fabric-1.21.4" = _9MmouAfA;
-        "fabric-1.21.5" = _jF77Eu1O;
-        "fabric-1.21.6" = _jy8oaKJq;
-        "fabric-1.21.7" = _jy8oaKJq;
-        "fabric-1.21.8" = _jy8oaKJq;
-        "fabric-1.21.9" = _JWatsNo0;
-        "fabric-1.21.10" = _JWatsNo0;
-        "fabric-1.21.11" = _8HQhWD35;
-        "fabric-26.1" = _LOcwMwql;
-        "fabric-26.1.1" = _LOcwMwql;
-        "fabric-26.1.2" = _LOcwMwql;
-        "fabric-26.2" = _qs3rekOr;
+        "Ouy5akwC" = _Ouy5akwC;
+        "4Rs6wNf9" = _4Rs6wNf9;
+        "vExQbzM8" = _vExQbzM8;
+        "KAHUueXZ" = _KAHUueXZ;
+        "KA22B5kd" = _KA22B5kd;
+        "kqKsMr9e" = _kqKsMr9e;
+        "LfjxJAnX" = _LfjxJAnX;
+        "ioh2J9ML" = _ioh2J9ML;
+        "2qIh5Waq" = _2qIh5Waq;
+        "fabric-1.21" = _4Rs6wNf9;
+        "fabric-1.21.1" = _4Rs6wNf9;
+        "fabric-1.21.2" = _vExQbzM8;
+        "fabric-1.21.3" = _vExQbzM8;
+        "fabric-1.21.4" = _KAHUueXZ;
+        "fabric-1.21.5" = _KA22B5kd;
+        "fabric-1.21.6" = _kqKsMr9e;
+        "fabric-1.21.7" = _kqKsMr9e;
+        "fabric-1.21.8" = _kqKsMr9e;
+        "fabric-1.21.9" = _LfjxJAnX;
+        "fabric-1.21.10" = _LfjxJAnX;
+        "fabric-1.21.11" = _ioh2J9ML;
+        "fabric-26.1" = _2qIh5Waq;
+        "fabric-26.1.1" = _2qIh5Waq;
+        "fabric-26.1.2" = _2qIh5Waq;
+        "fabric-26.2" = _Ouy5akwC;
         "forge-1.8.8" = _2j9paxii;
         "forge-1.8.9" = _2j9paxii;
         "quilt-1.21" = _SnGp6b0b;
@@ -244,7 +298,8 @@ let
         "pkg-1.2.1" = _T5i3CQWg;
         "pkg-1.2.2" = _qssrpyJh;
         "pkg-1.3.0" = _K28nBTL9;
-        "default" = _K28nBTL9;
+        "pkg-1.3.1" = _2qIh5Waq;
+        "default" = _2qIh5Waq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tiertests";

@@ -196,6 +196,11 @@ let
             "file" = "armor-stand-editor-2.13.0+26.2.jar";
             "hash" = "sha512-We0j3n9f3ox4IGcwV6QI+ENm8tr8iQaX/vRaTcnqrm55vhPKJrIqIV26wWFek7dTYhymOgb3s9UedRX40YOISg==";
         };
+        _50ThJoyO = {
+            "id" = "50ThJoyO";
+            "file" = "armor-stand-editor-2.14.0+26.3-rc-1.jar";
+            "hash" = "sha512-Xscqr0p3XQFkX4CjDrKxIqu0X7UAPKua68MAfgWp3IpgKWvSer+MmuZ2ii71FR33b6OJGnHO/tR+lHFA9lBp6g==";
+        };
     in {
         "iZc6okvT" = _iZc6okvT;
         "rlVNaSwU" = _rlVNaSwU;
@@ -236,6 +241,7 @@ let
         "lAd5aq6C" = _lAd5aq6C;
         "dI1uduh9" = _dI1uduh9;
         "UUlTxbmr" = _UUlTxbmr;
+        "50ThJoyO" = _50ThJoyO;
         "fabric-1.16.5" = _99HHNIWm;
         "fabric-1.17-rc2" = _SiCWL2Nc;
         "fabric-1.17" = _SiCWL2Nc;
@@ -284,6 +290,8 @@ let
         "fabric-26.1.1" = _lAd5aq6C;
         "fabric-26.1.2" = _dI1uduh9;
         "fabric-26.2" = _UUlTxbmr;
+        "fabric-26.3-rc-1" = _50ThJoyO;
+        "fabric-26.3" = _50ThJoyO;
         "quilt-1.18.2" = _mctK04mp;
         "quilt-1.19-rc2" = _VRgaEGZo;
         "quilt-1.19" = _VRgaEGZo;
@@ -361,7 +369,8 @@ let
         "pkg-2.12.0+26.1" = _lAd5aq6C;
         "pkg-2.12.1+26.1.2" = _dI1uduh9;
         "pkg-2.13.0+26.2" = _UUlTxbmr;
-        "default" = _UUlTxbmr;
+        "pkg-2.14.0+26.3-rc-1" = _50ThJoyO;
+        "default" = _50ThJoyO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armorstandeditor";

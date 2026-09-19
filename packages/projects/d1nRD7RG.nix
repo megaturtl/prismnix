@@ -326,6 +326,11 @@ let
             "file" = "ProgrammerArtFix-26.2.zip";
             "hash" = "sha512-NcLCoT0UGqE7pGGgzYOHu5uNGnjC3+I8/LkY6W1Fhcv0K/bzwSOP05E9G5OwUeRc9qAOpTlGpQlbC46LvP7G4g==";
         };
+        _b8PS3VmQ = {
+            "id" = "b8PS3VmQ";
+            "file" = "ProgrammerArtFix-26.3.zip";
+            "hash" = "sha512-x4GCN6qYzqhNMslpmSFDM45PDh1knratIarVYb7qvxfgcjNOGSEHlbs7geNos6FBBZS7734gs8tfPdbU4wsXQg==";
+        };
     in {
         "7dI20tmx" = _7dI20tmx;
         "AVzwNwMG" = _AVzwNwMG;
@@ -392,6 +397,7 @@ let
         "7HjFPhb9" = _7HjFPhb9;
         "yDeICIYV" = _yDeICIYV;
         "nMUU9xyH" = _nMUU9xyH;
+        "b8PS3VmQ" = _b8PS3VmQ;
         "minecraft-1.13" = _pmiCNunk;
         "minecraft-1.13.1" = _pmiCNunk;
         "minecraft-1.13.2" = _pmiCNunk;
@@ -452,11 +458,12 @@ let
         "minecraft-1.21.9" = _yDeICIYV;
         "minecraft-1.21.10" = _yDeICIYV;
         "minecraft-1.21.11" = _yDeICIYV;
-        "minecraft-26.1" = _nMUU9xyH;
-        "minecraft-26.1.1" = _nMUU9xyH;
-        "minecraft-26.1.2" = _nMUU9xyH;
+        "minecraft-26.1" = _b8PS3VmQ;
+        "minecraft-26.1.1" = _b8PS3VmQ;
+        "minecraft-26.1.2" = _b8PS3VmQ;
         "minecraft-26w14a" = _7HjFPhb9;
-        "minecraft-26.2" = _nMUU9xyH;
+        "minecraft-26.2" = _b8PS3VmQ;
+        "minecraft-26.3" = _b8PS3VmQ;
         "pkg-1.13-rv1" = _7dI20tmx;
         "pkg-1.14-rv5" = _AVzwNwMG;
         "pkg-1.15-rv5" = _hePBtsfV;
@@ -522,7 +529,8 @@ let
         "pkg-26.4.1" = _7HjFPhb9;
         "pkg-6.1" = _yDeICIYV;
         "pkg-26.2" = _nMUU9xyH;
-        "default" = _nMUU9xyH;
+        "pkg-26.3" = _b8PS3VmQ;
+        "default" = _b8PS3VmQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "programmer-art-fix";

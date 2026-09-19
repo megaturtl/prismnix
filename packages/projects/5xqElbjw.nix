@@ -56,6 +56,46 @@ let
             "file" = "clean-keystrokes-1.1.0+mc26.2.jar";
             "hash" = "sha512-La2jlaRsxDz9+vKGzY+slSJ3JdNj6r/Mze83tvzD1zcnz20zhxJmvGyuEAls8CYioWZ7nbm/Bt5kf7LPn/Pfwg==";
         };
+        _8CYCTSWD = {
+            "id" = "8CYCTSWD";
+            "file" = "clean-keystrokes-1.1.2+mc1.20.0-4.jar";
+            "hash" = "sha512-DHtC/tTDsftGt9OIs74VXI0qTk9ZRNrBvicVOxY7Xl4G35Ox29blCgSUBLtOftPC+BzhNZP/Mr0+KhYiUdGePg==";
+        };
+        _W8ZvdAgp = {
+            "id" = "W8ZvdAgp";
+            "file" = "clean-keystrokes-1.1.2+mc1.20.5-6.jar";
+            "hash" = "sha512-66MJEMP+jMKDH97Zn6NI6ZXaJveWSYn5upW/rJGQoxwiMF5BJR2gRjBmCUe2rjib78YYyQj6t7ZLy6+baVB9VA==";
+        };
+        _8NMWx6Kn = {
+            "id" = "8NMWx6Kn";
+            "file" = "clean-keystrokes-1.1.2+mc1.21.1.jar";
+            "hash" = "sha512-Fl9HVosAlz3u2ArE5tYhEiJ6DR+SdXBZQoqoegierRuNItHE5HZFSILWm0rHSOoGX7z5QDYZoD+YWXdMR2vhEg==";
+        };
+        _jLZnn3Zo = {
+            "id" = "jLZnn3Zo";
+            "file" = "clean-keystrokes-1.1.2+mc1.21.2-3.jar";
+            "hash" = "sha512-Rd6j9i96+zES6Df17uB1d4yR+CAmpP8cz+EmFVlFQ1aM+vrpKAy31yMQG45tfH3995GzLLSJZOs5vzO6oMhGoQ==";
+        };
+        _1vXfHJM5 = {
+            "id" = "1vXfHJM5";
+            "file" = "clean-keystrokes-1.1.2+mc1.21.4-5.jar";
+            "hash" = "sha512-BY6SEVGg7wQfsaKjr/5yA5hKRr8t1lMAkKbovwTq+ARywpdIPJmQTuQjXTugyxrtWZNs9+YpO1cKWDApiL8Mcw==";
+        };
+        _qshBe3DG = {
+            "id" = "qshBe3DG";
+            "file" = "clean-keystrokes-1.1.2+mc1.21.6-11.jar";
+            "hash" = "sha512-S6ahlQ5o64ddu3jxAzjcKgfXaNLPldOE4fkci98x4Wm/K7nq0I3Eh5THYzdJmMv8XnI1X0KTxNRn0WrTrOIBOA==";
+        };
+        _IWKDGA4h = {
+            "id" = "IWKDGA4h";
+            "file" = "clean-keystrokes-1.1.2+mc26.1.jar";
+            "hash" = "sha512-/nQ5SUsq/i8jJwAyS5CfSJaaUsoxo/TQk4C6BNBXPcPdbYaBeQwOr2mxHkepL1shMOXSu+6hyJIwPmHTBQpAKw==";
+        };
+        _JU6dCOTi = {
+            "id" = "JU6dCOTi";
+            "file" = "clean-keystrokes-1.1.2+mc26.2.jar";
+            "hash" = "sha512-ib+MN9SRENuvSS3xyRBUgC/Oyw9D0+pWEBYXdg5oK2e0WNr1JIkgjWUUkc6kB/49at5GiSsFws95vGVK87ecSw==";
+        };
     in {
         "llgQBuXT" = _llgQBuXT;
         "k1cl3uDV" = _k1cl3uDV;
@@ -68,32 +108,41 @@ let
         "nZoh4WiN" = _nZoh4WiN;
         "nObUzTXK" = _nObUzTXK;
         "VqGQZRY2" = _VqGQZRY2;
-        "fabric-1.21.11" = _JYKAsp9P;
-        "fabric-26.1" = _nZoh4WiN;
-        "fabric-26.1.1" = _nZoh4WiN;
-        "fabric-26.1.2" = _nZoh4WiN;
-        "fabric-1.20" = _nObUzTXK;
-        "fabric-1.20.1" = _nObUzTXK;
-        "fabric-1.20.2" = _nObUzTXK;
-        "fabric-1.20.3" = _nObUzTXK;
-        "fabric-1.20.4" = _nObUzTXK;
-        "fabric-1.20.5" = _Pox8zjAW;
-        "fabric-1.20.6" = _Pox8zjAW;
-        "fabric-1.21.1" = _exz1v1vd;
-        "fabric-1.21.2" = _Tqegv5b6;
-        "fabric-1.21.3" = _Tqegv5b6;
-        "fabric-1.21.4" = _7dPZcGw6;
-        "fabric-1.21.5" = _7dPZcGw6;
-        "fabric-1.21.6" = _JYKAsp9P;
-        "fabric-1.21.7" = _JYKAsp9P;
-        "fabric-1.21.8" = _JYKAsp9P;
-        "fabric-1.21.9" = _JYKAsp9P;
-        "fabric-1.21.10" = _JYKAsp9P;
-        "fabric-26.2" = _VqGQZRY2;
+        "8CYCTSWD" = _8CYCTSWD;
+        "W8ZvdAgp" = _W8ZvdAgp;
+        "8NMWx6Kn" = _8NMWx6Kn;
+        "jLZnn3Zo" = _jLZnn3Zo;
+        "1vXfHJM5" = _1vXfHJM5;
+        "qshBe3DG" = _qshBe3DG;
+        "IWKDGA4h" = _IWKDGA4h;
+        "JU6dCOTi" = _JU6dCOTi;
+        "fabric-1.21.11" = _qshBe3DG;
+        "fabric-26.1" = _IWKDGA4h;
+        "fabric-26.1.1" = _IWKDGA4h;
+        "fabric-26.1.2" = _IWKDGA4h;
+        "fabric-1.20" = _8CYCTSWD;
+        "fabric-1.20.1" = _8CYCTSWD;
+        "fabric-1.20.2" = _8CYCTSWD;
+        "fabric-1.20.3" = _8CYCTSWD;
+        "fabric-1.20.4" = _8CYCTSWD;
+        "fabric-1.20.5" = _W8ZvdAgp;
+        "fabric-1.20.6" = _W8ZvdAgp;
+        "fabric-1.21.1" = _8NMWx6Kn;
+        "fabric-1.21.2" = _jLZnn3Zo;
+        "fabric-1.21.3" = _jLZnn3Zo;
+        "fabric-1.21.4" = _1vXfHJM5;
+        "fabric-1.21.5" = _1vXfHJM5;
+        "fabric-1.21.6" = _qshBe3DG;
+        "fabric-1.21.7" = _qshBe3DG;
+        "fabric-1.21.8" = _qshBe3DG;
+        "fabric-1.21.9" = _qshBe3DG;
+        "fabric-1.21.10" = _qshBe3DG;
+        "fabric-26.2" = _JU6dCOTi;
         "pkg-1.0.0" = _k1cl3uDV;
         "pkg-1.1.0" = _VqGQZRY2;
         "pkg-1.1.1" = _nObUzTXK;
-        "default" = _VqGQZRY2;
+        "pkg-1.1.2" = _JU6dCOTi;
+        "default" = _JU6dCOTi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "clean-keystrokes";

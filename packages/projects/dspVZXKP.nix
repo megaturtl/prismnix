@@ -91,6 +91,11 @@ let
             "file" = "Fast Better Grass.zip";
             "hash" = "sha512-zDZB6CWV8+cvMHXnxWR/pNZRiMHZ5Ji+QugWmgPM1xkH/LYl1a1RqeiqvNQeKrVuweTzvhnf2t/2wGx3Nq6RXA==";
         };
+        _Alviiov6 = {
+            "id" = "Alviiov6";
+            "file" = "Fast Better Grass.zip";
+            "hash" = "sha512-9KY/usvK44MXSbkBCS4ofqMorBG6nb7Iq23vZ7D/lYshj9nMJ659o6/RJKWxTZrVWc8BqKyd0F5bzX/Jq+fihg==";
+        };
     in {
         "UcuQ2Wf4" = _UcuQ2Wf4;
         "klfR3lzB" = _klfR3lzB;
@@ -110,6 +115,7 @@ let
         "xteFNcow" = _xteFNcow;
         "J3ILsuJi" = _J3ILsuJi;
         "U9zNcnWW" = _U9zNcnWW;
+        "Alviiov6" = _Alviiov6;
         "minecraft-1.19" = _UcuQ2Wf4;
         "minecraft-1.19.1" = _UcuQ2Wf4;
         "minecraft-1.19.2" = _UcuQ2Wf4;
@@ -138,6 +144,7 @@ let
         "minecraft-26.1.1" = _U9zNcnWW;
         "minecraft-26.1.2" = _U9zNcnWW;
         "minecraft-26.2" = _U9zNcnWW;
+        "minecraft-26.3" = _Alviiov6;
         "pkg-1.19.3" = _UcuQ2Wf4;
         "pkg-1.19.4" = _klfR3lzB;
         "pkg-1.20" = _85UDyEcd;
@@ -156,7 +163,8 @@ let
         "pkg-1.21.11" = _xteFNcow;
         "pkg-26.1" = _J3ILsuJi;
         "pkg-26.2" = _U9zNcnWW;
-        "default" = _U9zNcnWW;
+        "pkg-26.3" = _Alviiov6;
+        "default" = _Alviiov6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fast-better-grass";

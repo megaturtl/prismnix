@@ -951,6 +951,11 @@ let
             "file" = "BetterGrassify-1.8.7+fabric.26.2.jar";
             "hash" = "sha512-e3Dnls6i7lemAiEICSUXtqo51aGbjaHeJmha5TuPu0cXzZHuHSMsVO+o4hDr6bdg09q3m/ml/bWuddl7Rhofqw==";
         };
+        _8qcmuwZa = {
+            "id" = "8qcmuwZa";
+            "file" = "BetterGrassify-1.8.8+fabric.26.3.jar";
+            "hash" = "sha512-FM02G7H1bSB6PoEaJdSvm/x21SvNe9mq1zyo8zSnIm/zy2nZiQ1Pw83YPrS2MAd7NocNyv+BSb4XggfuKp6pDQ==";
+        };
     in {
         "nZ2B3OSt" = _nZ2B3OSt;
         "u1nvKlfy" = _u1nvKlfy;
@@ -1142,6 +1147,7 @@ let
         "iCE9pQaj" = _iCE9pQaj;
         "kCu7aUmj" = _kCu7aUmj;
         "r4yqxYQl" = _r4yqxYQl;
+        "8qcmuwZa" = _8qcmuwZa;
         "fabric-1.19.3" = _iyqseZ5V;
         "fabric-1.19.4" = _iyqseZ5V;
         "fabric-1.20" = _GVS6ujFJ;
@@ -1168,6 +1174,7 @@ let
         "fabric-26.1.1" = _nc9QQDGZ;
         "fabric-26.1.2" = _nc9QQDGZ;
         "fabric-26.2" = _r4yqxYQl;
+        "fabric-26.3" = _8qcmuwZa;
         "quilt-1.21" = _iCE9pQaj;
         "quilt-1.20" = _GVS6ujFJ;
         "quilt-1.20.1" = _GVS6ujFJ;
@@ -1191,6 +1198,7 @@ let
         "quilt-26.1.1" = _nc9QQDGZ;
         "quilt-26.1.2" = _nc9QQDGZ;
         "quilt-26.2" = _r4yqxYQl;
+        "quilt-26.3" = _8qcmuwZa;
         "neoforge-1.21" = _Rt96zVC1;
         "neoforge-1.21.1" = _Rt96zVC1;
         "forge-1.20" = _rIszHs6Q;
@@ -1390,7 +1398,8 @@ let
         "pkg-1.8.7+fabric.1.21.1" = _iCE9pQaj;
         "pkg-1.8.7+fabric.1.21.11" = _kCu7aUmj;
         "pkg-1.8.7+fabric.26.2" = _r4yqxYQl;
-        "default" = _r4yqxYQl;
+        "pkg-1.8.8+fabric.26.3" = _8qcmuwZa;
+        "default" = _8qcmuwZa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bettergrassify";

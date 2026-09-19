@@ -106,6 +106,16 @@ let
             "file" = "bibliocraft-26.1.2-1.7.0.jar";
             "hash" = "sha512-Wp4ovrLRCCH+PbGHcBRsjCJq3pFeX/J1NgyY8OVMq3jYEcYuiUr+OZe/HnpJsTOvjTTyAlI9kW3kzTpck1DFzQ==";
         };
+        _XlDfbWrV = {
+            "id" = "XlDfbWrV";
+            "file" = "bibliocraft-1.21.1-1.6.6.jar";
+            "hash" = "sha512-BFgJQQr/FxUtiVVKEaeK29z15STCNED1RoaQlI5VdDarzoVRPhiIwSPAgBV6PNjA4KO0R+QygoDZDd0JbFr0HA==";
+        };
+        _KhA1oEMp = {
+            "id" = "KhA1oEMp";
+            "file" = "bibliocraft-26.1.2-1.7.1.jar";
+            "hash" = "sha512-N0QH+f6pjntPb0vqHHb03tXWf2oRYeG98pPy1SIHygSef8FSEX84cZ6AeWfp2SnKT0pUTVWs72icMpBoMyr8sQ==";
+        };
     in {
         "xpPi79In" = _xpPi79In;
         "2EHn67Uj" = _2EHn67Uj;
@@ -128,10 +138,12 @@ let
         "96q6pY35" = _96q6pY35;
         "3dbo5f7U" = _3dbo5f7U;
         "R2m1uQuS" = _R2m1uQuS;
-        "neoforge-1.21.1" = _3dbo5f7U;
-        "neoforge-26.1" = _R2m1uQuS;
-        "neoforge-26.1.1" = _R2m1uQuS;
-        "neoforge-26.1.2" = _R2m1uQuS;
+        "XlDfbWrV" = _XlDfbWrV;
+        "KhA1oEMp" = _KhA1oEMp;
+        "neoforge-1.21.1" = _XlDfbWrV;
+        "neoforge-26.1" = _KhA1oEMp;
+        "neoforge-26.1.1" = _KhA1oEMp;
+        "neoforge-26.1.2" = _KhA1oEMp;
         "pkg-1.1.1" = _xpPi79In;
         "pkg-1.2.0" = _2EHn67Uj;
         "pkg-1.21.1-1.2.1" = _cGtRPWbl;
@@ -153,7 +165,9 @@ let
         "pkg-1.21.1-1.6.4" = _96q6pY35;
         "pkg-1.21.1-1.6.5" = _3dbo5f7U;
         "pkg-26.1.2-1.7.0" = _R2m1uQuS;
-        "default" = _R2m1uQuS;
+        "pkg-1.21.1-1.6.6" = _XlDfbWrV;
+        "pkg-26.1.2-1.7.1" = _KhA1oEMp;
+        "default" = _KhA1oEMp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bibliocraft-legacy";

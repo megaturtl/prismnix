@@ -1721,6 +1721,16 @@ let
             "file" = "PacketFixer-fabric-3.3.6.jar";
             "hash" = "sha512-TVGNLJ82qJDKylXMIBuHG48bNWBkEW4+gSx9F5+VVOnyAX9rvS2y4Pth48HUEKtkP5487swIMe0XHGeDB5UGeg==";
         };
+        _N0g8tI7m = {
+            "id" = "N0g8tI7m";
+            "file" = "PacketFixer-neoforge-3.3.6.jar";
+            "hash" = "sha512-KrdKFo050GY0y/EAQOJ1s+OtZkj7il84ENWsH+oOK5l4/W5I8APukNB/Bl2nol0g5zwx7cAISzjhNsMwKcTOHQ==";
+        };
+        _dTKbGYbb = {
+            "id" = "dTKbGYbb";
+            "file" = "PacketFixer-fabric-3.3.6.jar";
+            "hash" = "sha512-jTE5sVDvWRxisIb1U74hK8cutKMrCx+LtcwGmpt5qFBG0xsRR+Wq/yPktpu5LHZEXUGIRlentlLe8l4rc9YWEw==";
+        };
     in {
         "KrYK51hs" = _KrYK51hs;
         "rumABPUL" = _rumABPUL;
@@ -2066,6 +2076,8 @@ let
         "6e5jpTai" = _6e5jpTai;
         "p904LRVx" = _p904LRVx;
         "V1pYl7hL" = _V1pYl7hL;
+        "N0g8tI7m" = _N0g8tI7m;
+        "dTKbGYbb" = _dTKbGYbb;
         "forge-1.15.2" = _SxbVTgCQ;
         "forge-1.17.1" = _AnLM61ML;
         "forge-1.18" = _9F4NGhGR;
@@ -2119,6 +2131,7 @@ let
         "fabric-26.1.1" = _OtkWHKqd;
         "fabric-26.1.2" = _OtkWHKqd;
         "fabric-26.2" = _V1pYl7hL;
+        "fabric-26.3" = _dTKbGYbb;
         "quilt-1.18.2" = _9F4NGhGR;
         "quilt-1.19.2" = _9F4NGhGR;
         "quilt-1.19.4" = _9F4NGhGR;
@@ -2151,6 +2164,7 @@ let
         "quilt-26.1.1" = _OtkWHKqd;
         "quilt-26.1.2" = _OtkWHKqd;
         "quilt-26.2" = _V1pYl7hL;
+        "quilt-26.3" = _dTKbGYbb;
         "neoforge-1.20.1" = _9F4NGhGR;
         "neoforge-1.20" = _9F4NGhGR;
         "neoforge-1.20.2" = _9F4NGhGR;
@@ -2182,6 +2196,7 @@ let
         "neoforge-26.1.1" = _pUoH1oJA;
         "neoforge-26.1.2" = _pUoH1oJA;
         "neoforge-26.2" = _p904LRVx;
+        "neoforge-26.3" = _N0g8tI7m;
         "pkg-1.0.2" = _VCeh21Yo;
         "pkg-1.0.3" = _kS2f9ZHt;
         "pkg-1.0.4" = _y9mjVgll;
@@ -2253,8 +2268,8 @@ let
         "pkg-3.3.3" = _6s1GSqtg;
         "pkg-3.3.4" = _M8PqPQr4;
         "pkg-3.3.5" = _6e5jpTai;
-        "pkg-3.3.6" = _V1pYl7hL;
-        "default" = _V1pYl7hL;
+        "pkg-3.3.6" = _dTKbGYbb;
+        "default" = _dTKbGYbb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "packet-fixer";

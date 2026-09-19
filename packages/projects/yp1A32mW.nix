@@ -356,6 +356,26 @@ let
             "file" = "juztsys_structure-2.4.0-fabric-1.21.1.jar";
             "hash" = "sha512-Gyt0NLFieVi+4mIGWRarOfyCOwdoXJg51m+M1KWSXoCM4+nUE01Ll1djfqHgp2JYNy8HI1yZw1+dZuefkgUR6w==";
         };
+        _ixHMNbWV = {
+            "id" = "ixHMNbWV";
+            "file" = "juztsys_structure-2.5.0-fabric-26.1.jar";
+            "hash" = "sha512-FRA2jNGcfEQhp4uVwBZBFntEmb22L7pTR4eMBQHoay9rHP13g79UvpUrYJapNcn1DjAPGbpJvwOOSstHDgJ++Q==";
+        };
+        _ACp3u8gb = {
+            "id" = "ACp3u8gb";
+            "file" = "juztsys_structure-2.5.0-fabric-26.1.1.jar";
+            "hash" = "sha512-UCuq6gk32OByAZrte8Rv5KWa9frVAVCCKbNVKqE9wcUNJF/Aj1gbqYvpwVV1d7KvrpMHWDPvU0iLx3ZQlqa52A==";
+        };
+        _J2dd6tTD = {
+            "id" = "J2dd6tTD";
+            "file" = "juztsys_structure-2.5.0-fabric-26.1.2.jar";
+            "hash" = "sha512-vDV3kvVPOHSjfZ37FbJ1TyfKM2nK92nJRzmZlXcl8ZfhjTFoWq6wkXbLmRwTJq/CkAOy9fp0jQXtw2xMpdtIbg==";
+        };
+        _KLJ44MAo = {
+            "id" = "KLJ44MAo";
+            "file" = "juztsys_structure-2.5.0-fabric-26.2.jar";
+            "hash" = "sha512-SMRFEcJG+q3dFp4bXbPKWQygUdyraXuaMHnWL+ZYwB87tLB5491OESjqrpnBBYZJ+N6UEzJidmSfvVjGCZtwFg==";
+        };
     in {
         "E5RuAZIp" = _E5RuAZIp;
         "CT8ZC5wm" = _CT8ZC5wm;
@@ -428,11 +448,15 @@ let
         "ByJv3zcw" = _ByJv3zcw;
         "pcI4A0WD" = _pcI4A0WD;
         "P61SUOIz" = _P61SUOIz;
+        "ixHMNbWV" = _ixHMNbWV;
+        "ACp3u8gb" = _ACp3u8gb;
+        "J2dd6tTD" = _J2dd6tTD;
+        "KLJ44MAo" = _KLJ44MAo;
         "fabric-1.21.1" = _P61SUOIz;
-        "fabric-26.1" = _Vuh3lnjx;
-        "fabric-26.1.1" = _WWz8biFh;
-        "fabric-26.1.2" = _Q2ySttWC;
-        "fabric-26.2" = _ByJv3zcw;
+        "fabric-26.1" = _ixHMNbWV;
+        "fabric-26.1.1" = _ACp3u8gb;
+        "fabric-26.1.2" = _J2dd6tTD;
+        "fabric-26.2" = _KLJ44MAo;
         "neoforge-1.21.1" = _pcI4A0WD;
         "neoforge-26.1.1" = _nP6FDZE0;
         "pkg-juztsys_structure-1.1.0-fabric" = _E5RuAZIp;
@@ -465,7 +489,8 @@ let
         "pkg-juztsys_structure-2.3.0-neoforge" = _t2WTNUhi;
         "pkg-juztsys_structure-2.4.0-fabric" = _P61SUOIz;
         "pkg-juztsys_structure-2.4.0-neoforge" = _pcI4A0WD;
-        "default" = _P61SUOIz;
+        "pkg-juztsys_structure-2.5.0-fabric" = _KLJ44MAo;
+        "default" = _KLJ44MAo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "juztsys-structure";

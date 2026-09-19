@@ -81,6 +81,11 @@ let
             "file" = "ridehud-1.4.4+26.2.jar";
             "hash" = "sha512-NZM/4FeGk/DvCRx13P4EuDDxgA4FA31KO5xPx2nlXptZQInsUjRAGCFl1wf5VdtJ2t7hHPHriyLtUfjzZv83+w==";
         };
+        _2lXV3Gm2 = {
+            "id" = "2lXV3Gm2";
+            "file" = "ridehud-1.4.5+26.3.jar";
+            "hash" = "sha512-2gx+blrTtaWjc9fKLwaNtM/969f1TDVX+RaIx3FN/OMRBvT7EOhl9OaWuVKyqTp1MU1bl7QYU3CFZC5wm/0+LQ==";
+        };
     in {
         "nofFyxAo" = _nofFyxAo;
         "U3Yad3cF" = _U3Yad3cF;
@@ -98,6 +103,7 @@ let
         "fM3YkhVh" = _fM3YkhVh;
         "THjcOrJR" = _THjcOrJR;
         "PBzhBohq" = _PBzhBohq;
+        "2lXV3Gm2" = _2lXV3Gm2;
         "fabric-1.19" = _nofFyxAo;
         "fabric-1.19.1" = _nofFyxAo;
         "fabric-1.19.2" = _nofFyxAo;
@@ -126,6 +132,7 @@ let
         "fabric-26.1.1" = _THjcOrJR;
         "fabric-26.1.2" = _THjcOrJR;
         "fabric-26.2" = _PBzhBohq;
+        "fabric-26.3" = _2lXV3Gm2;
         "pkg-1.19.x-v.1.2.3" = _nofFyxAo;
         "pkg-1.20-v1.2.3" = _U3Yad3cF;
         "pkg-1.20-v1.2.4" = _DSHFWDyQ;
@@ -142,7 +149,8 @@ let
         "pkg-1.21.11-v1.4.2" = _fM3YkhVh;
         "pkg-1.4.3+26.1" = _THjcOrJR;
         "pkg-1.4.4+26.2" = _PBzhBohq;
-        "default" = _PBzhBohq;
+        "pkg-1.4.5+26.3" = _2lXV3Gm2;
+        "default" = _2lXV3Gm2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ridehud";

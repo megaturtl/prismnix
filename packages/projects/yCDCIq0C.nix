@@ -356,6 +356,46 @@ let
             "file" = "partialhearts-fabric-1.1.0-26.2.jar";
             "hash" = "sha512-u1IMjXGTBExjcOgKaj56jR2LnzSD7ePt6SCFG5dc5+OIrNL2/AeQY8FP81rtzbT4h3lXlb1VuhRiFJmluG7MJQ==";
         };
+        _GF9mptQx = {
+            "id" = "GF9mptQx";
+            "file" = "partialhearts-neoforge-1.1.1-1.21.4.jar";
+            "hash" = "sha512-/7KHp1lL8OEMXx0C1Yv8YYXDOPZZg9Rf1Pt9H/Q9K/lk5eRpCCvyB5SH7I77OxmaBjJ5tJRY+HwJ+FaTqCvH5Q==";
+        };
+        _iDEyLtiK = {
+            "id" = "iDEyLtiK";
+            "file" = "partialhearts-fabric-1.1.1-1.21.4.jar";
+            "hash" = "sha512-tdfJp+UUm4NMeNmlGcHL8Q9d9ukbwfLAAhkMA/4VPPfENcD+4Q7OrgC372TohTqIaIs03bJggo5MB8TBWf0bMQ==";
+        };
+        _jgajV3HY = {
+            "id" = "jgajV3HY";
+            "file" = "partialhearts-neoforge-1.1.1-1.21.11.jar";
+            "hash" = "sha512-xSFP/YUkvLSYzFJ2fvWuMNGhhPT5wZu+VRnVaOGDqjWAW7eVZJjMAZdniRytW9uG4eNjRR7+KXlDbRMXOA0MqA==";
+        };
+        _Fo6pOWcb = {
+            "id" = "Fo6pOWcb";
+            "file" = "partialhearts-fabric-1.1.1-1.21.11.jar";
+            "hash" = "sha512-E+9WjBdhJcE/12scaCopcpFtEF+4YWwwvZW/edVhV2NxXxiiYIc/B3bbm1SwxCDrEB2etrKCJNR3qXjTdfEfyg==";
+        };
+        _CGTB71yt = {
+            "id" = "CGTB71yt";
+            "file" = "partialhearts-neoforge-1.1.1-26.1.jar";
+            "hash" = "sha512-XUAQDhL0cOb0Us/RiVHF4CI9hBJRj84/UcW3FR+rvCK+IWck+sCgQTivbDA9YMVpUStMjSV6jbTxZbFPQJQBTQ==";
+        };
+        _qp0aQOiK = {
+            "id" = "qp0aQOiK";
+            "file" = "partialhearts-fabric-1.1.1-26.1.jar";
+            "hash" = "sha512-6eSOD6+proVUHfAhyx9O5tBQHw9VZJE3tYs4+sdacFppFoAfumZzjko4NI2QCdHKXw99tQis5NIb95QNmgwgcA==";
+        };
+        _TwFxZz9E = {
+            "id" = "TwFxZz9E";
+            "file" = "partialhearts-neoforge-1.1.1-26.2.jar";
+            "hash" = "sha512-bUt71M/ucYiyGgZ4wTKUVlqlI1yHEXqT8txuqK6tmhpM7uzATqc49cbSfoaUUS+1bp1rVj8yCEnEskhuayyKzA==";
+        };
+        _rV5yZwmz = {
+            "id" = "rV5yZwmz";
+            "file" = "partialhearts-fabric-1.1.1-26.2.jar";
+            "hash" = "sha512-bJXT8y9/V3PvqSiHs3DY/MEsH+SdkhfyJNAcrsYi4SjjDyYSMx93oyg9cXilLeIIrjd/dVCVewhKE+WBmuPL7Q==";
+        };
     in {
         "SMIaFfo8" = _SMIaFfo8;
         "thUwqmXU" = _thUwqmXU;
@@ -428,6 +468,14 @@ let
         "lSGrFZfz" = _lSGrFZfz;
         "zjBIgz0J" = _zjBIgz0J;
         "PrE2EwAZ" = _PrE2EwAZ;
+        "GF9mptQx" = _GF9mptQx;
+        "iDEyLtiK" = _iDEyLtiK;
+        "jgajV3HY" = _jgajV3HY;
+        "Fo6pOWcb" = _Fo6pOWcb;
+        "CGTB71yt" = _CGTB71yt;
+        "qp0aQOiK" = _qp0aQOiK;
+        "TwFxZz9E" = _TwFxZz9E;
+        "rV5yZwmz" = _rV5yZwmz;
         "forge-1.20.2" = _2GFn4b2N;
         "forge-1.20" = _OcSzKvFi;
         "forge-1.20.1" = _OcSzKvFi;
@@ -440,7 +488,7 @@ let
         "fabric-1.21.1" = _hDalAYCA;
         "fabric-1.21.2" = _ySKGKxIf;
         "fabric-1.21.3" = _ySKGKxIf;
-        "fabric-1.21.4" = _ySKGKxIf;
+        "fabric-1.21.4" = _iDEyLtiK;
         "fabric-1.21.5" = _tWrBzS0E;
         "fabric-1.20" = _gDiIYXQG;
         "fabric-1.20.1" = _gDiIYXQG;
@@ -449,11 +497,11 @@ let
         "fabric-1.21.10" = _PjDFX5nu;
         "fabric-1.21.7" = _J6G1T9C0;
         "fabric-1.21.8" = _J6G1T9C0;
-        "fabric-1.21.11" = _3mrYk8Gt;
-        "fabric-26.1" = _lSGrFZfz;
-        "fabric-26.1.1" = _lSGrFZfz;
-        "fabric-26.1.2" = _lSGrFZfz;
-        "fabric-26.2" = _PrE2EwAZ;
+        "fabric-1.21.11" = _Fo6pOWcb;
+        "fabric-26.1" = _qp0aQOiK;
+        "fabric-26.1.1" = _qp0aQOiK;
+        "fabric-26.1.2" = _qp0aQOiK;
+        "fabric-26.2" = _rV5yZwmz;
         "neoforge-1.20.2" = _9UPSLl7P;
         "neoforge-1.20.3" = _qyBM8x2K;
         "neoforge-1.20.4" = _qyBM8x2K;
@@ -463,7 +511,7 @@ let
         "neoforge-1.21.1" = _NaOcRQvT;
         "neoforge-1.21.2" = _ucdHvZeE;
         "neoforge-1.21.3" = _ucdHvZeE;
-        "neoforge-1.21.4" = _tkhNyoOU;
+        "neoforge-1.21.4" = _GF9mptQx;
         "neoforge-1.21.5" = _PuzscLNJ;
         "neoforge-1.20" = _9DyAwq3z;
         "neoforge-1.20.1" = _9DyAwq3z;
@@ -472,11 +520,11 @@ let
         "neoforge-1.21.10" = _7zxjA9gU;
         "neoforge-1.21.7" = _gGHubeZo;
         "neoforge-1.21.8" = _gGHubeZo;
-        "neoforge-1.21.11" = _n4wDlVL9;
-        "neoforge-26.1" = _BJRyilGX;
-        "neoforge-26.1.1" = _BJRyilGX;
-        "neoforge-26.1.2" = _BJRyilGX;
-        "neoforge-26.2" = _zjBIgz0J;
+        "neoforge-1.21.11" = _jgajV3HY;
+        "neoforge-26.1" = _CGTB71yt;
+        "neoforge-26.1.1" = _CGTB71yt;
+        "neoforge-26.1.2" = _CGTB71yt;
+        "neoforge-26.2" = _TwFxZz9E;
         "pkg-1.0.0-1.20.2" = _BixoBbkv;
         "pkg-1.0.0-1.20.3" = _gLDq0KGK;
         "pkg-1.0.0-1.20.4" = _MyBqDDAs;
@@ -516,7 +564,11 @@ let
         "pkg-1.1.0-1.21.11" = _3mrYk8Gt;
         "pkg-1.1.0-26.1" = _lSGrFZfz;
         "pkg-1.1.0-26.2" = _PrE2EwAZ;
-        "default" = _PrE2EwAZ;
+        "pkg-1.1.1-1.21.4" = _iDEyLtiK;
+        "pkg-1.1.1-1.21.11" = _Fo6pOWcb;
+        "pkg-1.1.1-26.1" = _qp0aQOiK;
+        "pkg-1.1.1-26.2" = _rV5yZwmz;
+        "default" = _rV5yZwmz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "partialhearts";

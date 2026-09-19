@@ -46,6 +46,21 @@ let
             "file" = "roxy-1.21.1-NeoForge-0.3.0.jar";
             "hash" = "sha512-QmE8PwO9xMkAQQZRlQJ0ueo6m5zsP+NNKN8O4HKSZTuLY3vbL4eqFdx7JfFGl34Qc2N4PP2UEkXZ9uilVTv5RQ==";
         };
+        _PSrkc63y = {
+            "id" = "PSrkc63y";
+            "file" = "roxy-1.21.1-NeoForge-0.3.1.jar";
+            "hash" = "sha512-JwYSC9+0gF2h05kVTtPJh7BrKCvCrh+Is1HrK3hA9R0xzAxkkM+m5DXuBAixK62DA6VwfWcWvZaVEjFge6qnYg==";
+        };
+        _zTJpQNoI = {
+            "id" = "zTJpQNoI";
+            "file" = "roxy-1.21.1-NeoForge-0.3.2.jar";
+            "hash" = "sha512-31NRUVBzC+MBtUneydcLGs2TMmbjrjA+aX6P3LDkOgYLdHHPs3xZisP+2xGR/rgPsPNmN48IuZifohFEqNPFHg==";
+        };
+        _Tbny1Cq6 = {
+            "id" = "Tbny1Cq6";
+            "file" = "roxy-1.21.1-NeoForge-0.3.3.jar";
+            "hash" = "sha512-m0pIfpwP526u6MLkGDMUDNhKAryH/PdWcqCVNMaPl87lLH6oSWsDKKci08cjqZTDiEzRjCUgd9o0vmR7I+4TbQ==";
+        };
     in {
         "iZGvaaTz" = _iZGvaaTz;
         "1VwITImN" = _1VwITImN;
@@ -56,7 +71,10 @@ let
         "SGTjkwnX" = _SGTjkwnX;
         "Fv5Z7BIT" = _Fv5Z7BIT;
         "Na9e7ZfU" = _Na9e7ZfU;
-        "neoforge-1.21.1" = _Na9e7ZfU;
+        "PSrkc63y" = _PSrkc63y;
+        "zTJpQNoI" = _zTJpQNoI;
+        "Tbny1Cq6" = _Tbny1Cq6;
+        "neoforge-1.21.1" = _Tbny1Cq6;
         "pkg-0.1.0-neoforge+mc1.21.1" = _iZGvaaTz;
         "pkg-0.1.4-neoforge+mc1.21.1" = _1VwITImN;
         "pkg-0.1.5-neoforge+mc1.21.1" = _bAb6XuNm;
@@ -66,7 +84,10 @@ let
         "pkg-0.1.9-neoforge+mc1.21.1" = _SGTjkwnX;
         "pkg-0.2.0-neoforge+mc1.21.1" = _Fv5Z7BIT;
         "pkg-0.3.0-neoforge+mc1.21.1" = _Na9e7ZfU;
-        "default" = _Na9e7ZfU;
+        "pkg-0.3.1-neoforge+mc1.21.1" = _PSrkc63y;
+        "pkg-0.3.2-neoforge+mc1.21.1" = _zTJpQNoI;
+        "pkg-0.3.3-neoforge+mc1.21.1" = _Tbny1Cq6;
+        "default" = _Tbny1Cq6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "roxy";

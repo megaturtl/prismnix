@@ -21,11 +21,17 @@ let
             "file" = "autogg-1.0.1.jar";
             "hash" = "sha512-huSFYyYTuvRKKAi7mBd4O4DIlJNomOfblTsafk2IAEAx6fhPIZbX7+sr34R9rmkVKod7zAYVy+T0Fj/Iu2otIQ==";
         };
+        _GtIkykDe = {
+            "id" = "GtIkykDe";
+            "file" = "autogg-1.0.1.jar";
+            "hash" = "sha512-h6PTRW5szZGbbmaCnLsc5ZdyFnxbDKLO32A3E8Xv8amqxtMg8K+CzvDPSBsnVlWUEPjW+WuiDAsIA6vuCtgc1g==";
+        };
     in {
         "wOlbPVLg" = _wOlbPVLg;
         "NN45ucby" = _NN45ucby;
         "7N4t4Ddn" = _7N4t4Ddn;
         "Fc0hgMTR" = _Fc0hgMTR;
+        "GtIkykDe" = _GtIkykDe;
         "fabric-1.21" = _NN45ucby;
         "fabric-1.21.1" = _NN45ucby;
         "fabric-1.21.2" = _NN45ucby;
@@ -42,9 +48,10 @@ let
         "fabric-26.1.1" = _7N4t4Ddn;
         "fabric-26.1.2" = _7N4t4Ddn;
         "fabric-26.2" = _Fc0hgMTR;
+        "fabric-26.3" = _GtIkykDe;
         "pkg-1.0.0" = _wOlbPVLg;
-        "pkg-1.0.1" = _Fc0hgMTR;
-        "default" = _Fc0hgMTR;
+        "pkg-1.0.1" = _GtIkykDe;
+        "default" = _GtIkykDe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hypixelautogg";

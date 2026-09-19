@@ -41,6 +41,11 @@ let
             "file" = "ShortArmors_v3.1.0.zip";
             "hash" = "sha512-yPozOwmKLc/GY9kWEVR3C5j+Iq4ds2TyvsZ9NxK+bT3y4WVfqvuzDp4ts8RKvAFEJ+A8U0PpbX9yeKT79lSKKw==";
         };
+        _pxvMDWqo = {
+            "id" = "pxvMDWqo";
+            "file" = "ShortArmors_v3.1.1.zip";
+            "hash" = "sha512-X2bXqXM+qc0zdBTupFWlv2M52SISrUIbnVuuj02oDq7ugnPXbQqmQ0zoL57BAhaMVy7w0k2i6FkITRhK1NyY9A==";
+        };
     in {
         "HaUBPPq0" = _HaUBPPq0;
         "Kxx17DBp" = _Kxx17DBp;
@@ -50,6 +55,7 @@ let
         "Kt6rJf3K" = _Kt6rJf3K;
         "BgPrmMcQ" = _BgPrmMcQ;
         "U6q0udJd" = _U6q0udJd;
+        "pxvMDWqo" = _pxvMDWqo;
         "minecraft-1.16.4" = _HaUBPPq0;
         "minecraft-1.16.5" = _HaUBPPq0;
         "minecraft-1.17" = _HaUBPPq0;
@@ -84,7 +90,7 @@ let
         "minecraft-26.1" = _K8pr531N;
         "minecraft-26.1.1" = _K8pr531N;
         "minecraft-26.1.2" = _K8pr531N;
-        "minecraft-26.2" = _U6q0udJd;
+        "minecraft-26.2" = _pxvMDWqo;
         "pkg-v1.5.1" = _HaUBPPq0;
         "pkg-2.6_x16" = _Kxx17DBp;
         "pkg-2.6_x32" = _FdEdiDb0;
@@ -92,8 +98,8 @@ let
         "pkg-latest_x16" = _HyAEYldJ;
         "pkg-3.0.0" = _Kt6rJf3K;
         "pkg-3.0.1" = _BgPrmMcQ;
-        "pkg-latest" = _U6q0udJd;
-        "default" = _U6q0udJd;
+        "pkg-latest" = _pxvMDWqo;
+        "default" = _pxvMDWqo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shortarmors";

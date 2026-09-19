@@ -161,6 +161,11 @@ let
             "file" = "coloredslime-1.12.0+mc26.1.jar";
             "hash" = "sha512-XDxfmkOoO8TeKOIT+ZeFBa+4x4NnMQeqVB7JBzIB6+A3L/Lakj3wm12z1ASR456/wWcKZtNXWG//4i/ODFqF0w==";
         };
+        _HBaLdWCn = {
+            "id" = "HBaLdWCn";
+            "file" = "coloredslime-1.13.0+mc26.3.jar";
+            "hash" = "sha512-fhhrd8fjASi36h6VuNn7IeWl2TfelBL7gMdAPjb4wwx98pHnlY9r2P2sBwAkhzJ3kxB1yMq5b/c20rrJ/0De7g==";
+        };
     in {
         "zXKzxYln" = _zXKzxYln;
         "muAGIDyt" = _muAGIDyt;
@@ -194,6 +199,7 @@ let
         "3F1leEHF" = _3F1leEHF;
         "Ksb2IsL8" = _Ksb2IsL8;
         "UGqPAq4q" = _UGqPAq4q;
+        "HBaLdWCn" = _HBaLdWCn;
         "fabric-1.16.1" = _zXKzxYln;
         "fabric-1.16.2" = _zXKzxYln;
         "fabric-1.16.3" = _zXKzxYln;
@@ -230,6 +236,7 @@ let
         "fabric-26.1.1" = _UGqPAq4q;
         "fabric-26.1.2" = _UGqPAq4q;
         "fabric-26.2" = _UGqPAq4q;
+        "fabric-26.3" = _HBaLdWCn;
         "pkg-v1.0.0" = _zXKzxYln;
         "pkg-v1.1.0" = _muAGIDyt;
         "pkg-v1.3.1" = _wand90Gw;
@@ -262,7 +269,8 @@ let
         "pkg-1.10.3" = _3F1leEHF;
         "pkg-1.11.3" = _Ksb2IsL8;
         "pkg-1.12.0" = _UGqPAq4q;
-        "default" = _UGqPAq4q;
+        "pkg-1.13.0" = _HBaLdWCn;
+        "default" = _HBaLdWCn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "coloredslime";

@@ -26,19 +26,32 @@ let
             "file" = "SafePastures-1.1.1+1.21.1.jar";
             "hash" = "sha512-9x3Uu6TRhtsOd9ytGSnuz0uTZM2mM5ttTxltB7+6jYcBrm6yotk487eJa+rrErOAW774rKHhSoKzpakNWJ/Abg==";
         };
+        _lJEU7MPU = {
+            "id" = "lJEU7MPU";
+            "file" = "SafePastures(Neoforge)-1.1.2+1.21.1.jar";
+            "hash" = "sha512-isvH8pgYNq4MYd+pxvy0g5C8QTsqUcWCJho3zUC93ZIfaCVT9AmfDu1qnn9ClfOiWNjO6KZEB9/3WZpucmXgoA==";
+        };
+        _gHHJ8bPf = {
+            "id" = "gHHJ8bPf";
+            "file" = "SafePastures(Fabric)-1.1.2+1.21.1.jar";
+            "hash" = "sha512-mMtvd7iuuPV1Tr7CKfb+S5JIISTZSCXer7C6wJPB/FhgqNBUW1gr/utoPb9B4HSEcOh99PurRd9Bc6Rf+y7rkg==";
+        };
     in {
         "ZIowP3NQ" = _ZIowP3NQ;
         "ksQrqbFQ" = _ksQrqbFQ;
         "1HjxHmNv" = _1HjxHmNv;
         "ahfbSTCi" = _ahfbSTCi;
         "s58N9Vy1" = _s58N9Vy1;
-        "fabric-1.21.1" = _ahfbSTCi;
+        "lJEU7MPU" = _lJEU7MPU;
+        "gHHJ8bPf" = _gHHJ8bPf;
+        "fabric-1.21.1" = _gHHJ8bPf;
         "fabric-1.20.1" = _1HjxHmNv;
-        "neoforge-1.21.1" = _s58N9Vy1;
+        "neoforge-1.21.1" = _lJEU7MPU;
         "pkg-1.1.0+1.21.1" = _ksQrqbFQ;
         "pkg-1.1.0+1.20.1" = _1HjxHmNv;
         "pkg-1.1.1+1.21.1" = _s58N9Vy1;
-        "default" = _s58N9Vy1;
+        "pkg-1.1.2+1.21.1" = _gHHJ8bPf;
+        "default" = _gHHJ8bPf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-safepastures";

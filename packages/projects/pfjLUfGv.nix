@@ -291,6 +291,16 @@ let
             "file" = "Botania-1.20.1-455-FORGE.jar";
             "hash" = "sha512-8fF1wgtnPe+FuO2mMFl39oI3qbS7HzfletNuNzwpkNrUfnq/OAud6D7SM393+Lzfohsqx7psGZAMMbgm43cPVw==";
         };
+        _n4HwegBU = {
+            "id" = "n4HwegBU";
+            "file" = "Botania-1.20.1-456-FABRIC.jar";
+            "hash" = "sha512-LhieW3qe2kLBrl8aIYrC8QtDSzENnkcXbiucuvDCKRZqVrK4x2arU64fpuh9Rk94yYoA/gb3FfjitkV3j7uKRA==";
+        };
+        _npY4sRWF = {
+            "id" = "npY4sRWF";
+            "file" = "Botania-1.20.1-456-FORGE.jar";
+            "hash" = "sha512-Q7guPhAbzS8UQb5eHPFsRjHkl8fNUKvYvch3ASgeUSZzpCDOwW4FKabtaTaqLVRTmOn+Oe2ajz0NJmAflAMn+g==";
+        };
     in {
         "mwSLII0N" = _mwSLII0N;
         "2P9x6c71" = _2P9x6c71;
@@ -350,12 +360,14 @@ let
         "Y3Gc88UV" = _Y3Gc88UV;
         "C0okV3Gs" = _C0okV3Gs;
         "BpFDhV66" = _BpFDhV66;
+        "n4HwegBU" = _n4HwegBU;
+        "npY4sRWF" = _npY4sRWF;
         "fabric-1.18.2" = _I1sdolxI;
         "fabric-1.19.2" = _rY2B5H93;
-        "fabric-1.20.1" = _C0okV3Gs;
+        "fabric-1.20.1" = _n4HwegBU;
         "quilt-1.18.2" = _I1sdolxI;
         "quilt-1.19.2" = _rY2B5H93;
-        "quilt-1.20.1" = _C0okV3Gs;
+        "quilt-1.20.1" = _n4HwegBU;
         "forge-1.18.2" = _157MUwKP;
         "forge-1.15.2" = _qxd8PXZm;
         "forge-1.14.4" = _XoXz4jGl;
@@ -365,7 +377,7 @@ let
         "forge-1.7.10" = _Vez9CKSz;
         "forge-1.16.5" = _r2awMhqz;
         "forge-1.19.2" = _aTGY8zMJ;
-        "forge-1.20.1" = _BpFDhV66;
+        "forge-1.20.1" = _npY4sRWF;
         "forge-1.6.4" = _ZpspnX2M;
         "pkg-1.18.2-432-fabric" = _mwSLII0N;
         "pkg-1.18.2-432-forge" = _2P9x6c71;
@@ -425,7 +437,9 @@ let
         "pkg-1.20.1-454-forge" = _Y3Gc88UV;
         "pkg-1.20.1-455-fabric" = _C0okV3Gs;
         "pkg-1.20.1-455-forge" = _BpFDhV66;
-        "default" = _BpFDhV66;
+        "pkg-1.20.1-456-fabric" = _n4HwegBU;
+        "pkg-1.20.1-456-forge" = _npY4sRWF;
+        "default" = _npY4sRWF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "botania";

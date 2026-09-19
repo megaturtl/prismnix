@@ -26,12 +26,18 @@ let
             "file" = "Framed Glass Blocks V88 MC26.2.zip";
             "hash" = "sha512-uZJpi4tdGq+fy/vgVUoZ3J/E3ZPQAd/oYfukKMyJSbg3UqJZfH37aWiCLuztw5sZQo1Pw5JP39sEZFMOf6d/Ww==";
         };
+        _ky6NEMgs = {
+            "id" = "ky6NEMgs";
+            "file" = "Framed Glass Blocks V97 MC26.3.zip";
+            "hash" = "sha512-VWX4qXSP6UCc9TCqwZZe3DytLLSzs1uh76WcfAHWguI3vNSk96QCPAbjbmtaUiXDW3mAqpoE/WCqsDdshBIFDg==";
+        };
     in {
         "nfHRkYb0" = _nfHRkYb0;
         "s9gcje7S" = _s9gcje7S;
         "JI5FtP5v" = _JI5FtP5v;
         "UnV32KFN" = _UnV32KFN;
         "CqJsZAsy" = _CqJsZAsy;
+        "ky6NEMgs" = _ky6NEMgs;
         "minecraft-1.20" = _nfHRkYb0;
         "minecraft-1.20.1" = _nfHRkYb0;
         "minecraft-1.20.2" = _nfHRkYb0;
@@ -51,16 +57,18 @@ let
         "minecraft-1.21.9" = _nfHRkYb0;
         "minecraft-1.21.10" = _nfHRkYb0;
         "minecraft-1.21.11" = _nfHRkYb0;
-        "minecraft-26.1" = _CqJsZAsy;
-        "minecraft-26.1.1" = _CqJsZAsy;
-        "minecraft-26.1.2" = _CqJsZAsy;
-        "minecraft-26.2" = _CqJsZAsy;
+        "minecraft-26.1" = _ky6NEMgs;
+        "minecraft-26.1.1" = _ky6NEMgs;
+        "minecraft-26.1.2" = _ky6NEMgs;
+        "minecraft-26.2" = _ky6NEMgs;
+        "minecraft-26.3" = _ky6NEMgs;
         "pkg-75" = _nfHRkYb0;
         "pkg-84" = _s9gcje7S;
         "pkg-84.1" = _JI5FtP5v;
         "pkg-84.2" = _UnV32KFN;
         "pkg-88" = _CqJsZAsy;
-        "default" = _CqJsZAsy;
+        "pkg-97" = _ky6NEMgs;
+        "default" = _ky6NEMgs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "framed-glass-blocks";

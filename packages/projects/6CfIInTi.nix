@@ -11,14 +11,21 @@ let
             "file" = "BaabluNaturalDisasters-2.0.0.jar";
             "hash" = "sha512-/jojHvWzwN0E6meqm+l8Jw9LG0hKfeR7E+7ML8yZGvMN8gr/R64HL7z/2nP4VqtYAaHW5okaDWAH6LwRpUCyTQ==";
         };
+        _u9edlo13 = {
+            "id" = "u9edlo13";
+            "file" = "BaabluNaturalDisasters-2.1.0.jar";
+            "hash" = "sha512-SnZesI6JZs7g0qQ0OFBVZRvvMDC7MMA1CJ5np6Lz1KKMwTJLoMh+afSFhYR0GLQNxWjfujsZ3PrtoLB4E/wH6Q==";
+        };
     in {
         "gs5AtqIy" = _gs5AtqIy;
         "hkZuhubj" = _hkZuhubj;
+        "u9edlo13" = _u9edlo13;
         "fabric-1.20.1" = _gs5AtqIy;
-        "fabric-26.2" = _hkZuhubj;
+        "fabric-26.2" = _u9edlo13;
         "pkg-1.1.0" = _gs5AtqIy;
         "pkg-2.0.0" = _hkZuhubj;
-        "default" = _hkZuhubj;
+        "pkg-2.1.0" = _u9edlo13;
+        "default" = _u9edlo13;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "baablu-natural-disasters";

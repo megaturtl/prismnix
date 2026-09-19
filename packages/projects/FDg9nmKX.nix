@@ -51,6 +51,11 @@ let
             "file" = "VoiceChatGroupMsg-1.1+26.2.jar";
             "hash" = "sha512-XHVa/REOegurMzHjluYcrlPv7jVvupC70BPcvmI4QyOyHoLeEiSKinEQ5Q5NB0BAbrGaZ9mCas6t9RKj9hnDBQ==";
         };
+        _PPeReRfZ = {
+            "id" = "PPeReRfZ";
+            "file" = "VoiceChatGroupMsg-1.1+26.3.jar";
+            "hash" = "sha512-d6XimYV0/z/jiA6E3NUor1oqy52ihmAT9iR9amIFWKiZmywdYedqO1BgiCBqMXUgGwzXI0DLREI5q8KHIad8Ow==";
+        };
     in {
         "HfovngjI" = _HfovngjI;
         "7FDncIvX" = _7FDncIvX;
@@ -62,6 +67,7 @@ let
         "1eWp7Uh6" = _1eWp7Uh6;
         "EobiDCgy" = _EobiDCgy;
         "wjp9sIkL" = _wjp9sIkL;
+        "PPeReRfZ" = _PPeReRfZ;
         "fabric-1.21" = _7FDncIvX;
         "fabric-1.21.1" = _7FDncIvX;
         "fabric-1.21.2" = _NV3sYQ8O;
@@ -77,6 +83,7 @@ let
         "fabric-1.21.11" = _1eWp7Uh6;
         "fabric-26.1" = _EobiDCgy;
         "fabric-26.2" = _wjp9sIkL;
+        "fabric-26.3" = _PPeReRfZ;
         "pkg-1.0" = _HfovngjI;
         "pkg-1.0.1" = _7FDncIvX;
         "pkg-1.0.1+1.21.2" = _NV3sYQ8O;
@@ -87,7 +94,8 @@ let
         "pkg-1.1+1.21.11" = _1eWp7Uh6;
         "pkg-1.1+26.1" = _EobiDCgy;
         "pkg-1.1+26.2" = _wjp9sIkL;
-        "default" = _wjp9sIkL;
+        "pkg-1.1+26.3" = _PPeReRfZ;
+        "default" = _PPeReRfZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-voice-chat-group-msg";

@@ -136,6 +136,16 @@ let
             "file" = "Resprited.zip";
             "hash" = "sha512-V3D4zdlXej/HW2YPirz+6NY3EGg27wf4rbKlTu589+5+0VNOw/8eWIWomNj9VO+sWJ5e4cXRbNPEblc/V404cw==";
         };
+        _dKuMlasM = {
+            "id" = "dKuMlasM";
+            "file" = "Resprited.zip";
+            "hash" = "sha512-uNwBCMQM2FurR60IKTtYMhdXSXofcL/k/LeTbmjKwIzIscHqYkRJIuUnL+hLmbM5FlEeS9REFwv/o+DPsG9O9Q==";
+        };
+        _ylyw9WtF = {
+            "id" = "ylyw9WtF";
+            "file" = "Resprited.zip";
+            "hash" = "sha512-Bo6P5xgocg3HEUAvfR+UN+rL/1IJzmgVOA/B9syTg0AQ1rxCGref/hGueA3iuRYEZh0PJDCeynoQVXsbnnkqYg==";
+        };
     in {
         "iywVM9Np" = _iywVM9Np;
         "3IphJVfz" = _3IphJVfz;
@@ -164,19 +174,22 @@ let
         "xiK3SMSq" = _xiK3SMSq;
         "MCawVBfU" = _MCawVBfU;
         "LLjIPF8n" = _LLjIPF8n;
+        "dKuMlasM" = _dKuMlasM;
+        "ylyw9WtF" = _ylyw9WtF;
         "minecraft-1.21" = _bEZ8vZLq;
         "minecraft-1.21.4" = _g71fIcSj;
-        "minecraft-1.21.5" = _LLjIPF8n;
+        "minecraft-1.21.5" = _ylyw9WtF;
         "minecraft-1.21.7" = _LLjIPF8n;
         "minecraft-1.21.8" = _LLjIPF8n;
         "minecraft-1.21.9" = _LLjIPF8n;
         "minecraft-1.21.10" = _LLjIPF8n;
-        "minecraft-1.21.11" = _LLjIPF8n;
+        "minecraft-1.21.11" = _ylyw9WtF;
         "minecraft-1.21.6" = _LLjIPF8n;
-        "minecraft-26.1" = _LLjIPF8n;
-        "minecraft-26.1.1" = _LLjIPF8n;
-        "minecraft-26.1.2" = _LLjIPF8n;
-        "minecraft-26.2" = _LLjIPF8n;
+        "minecraft-26.1" = _ylyw9WtF;
+        "minecraft-26.1.1" = _ylyw9WtF;
+        "minecraft-26.1.2" = _ylyw9WtF;
+        "minecraft-26.2" = _ylyw9WtF;
+        "minecraft-26.3" = _ylyw9WtF;
         "pkg-v0.1" = _iywVM9Np;
         "pkg-v0.2" = _3IphJVfz;
         "pkg-v0.3" = _EJgajqy8;
@@ -204,7 +217,9 @@ let
         "pkg-v0.22.1" = _xiK3SMSq;
         "pkg-v0.23" = _MCawVBfU;
         "pkg-v0.24" = _LLjIPF8n;
-        "default" = _LLjIPF8n;
+        "pkg-v0.25" = _dKuMlasM;
+        "pkg-v0.25.1" = _ylyw9WtF;
+        "default" = _ylyw9WtF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "resprited";

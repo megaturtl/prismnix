@@ -271,6 +271,26 @@ let
             "file" = "mahoutsukai-1.21.1-v1.36.8.jar";
             "hash" = "sha512-lPfOqCcwCYFL7EZn+PJpQbJf5OcXSatmUddKCy4JHe3gQoL/0nRyryfk3rORKiRfb4cdIETw7i9EeF4XchdszQ==";
         };
+        _xuncN1bO = {
+            "id" = "xuncN1bO";
+            "file" = "mahoutsukai-26.1.2-v1.36.27.jar";
+            "hash" = "sha512-Va+TSVmzf4vOEE+6zAn5V51DxjQx7mYQ+9+XdAn5sKM2XRAgON8A60X2ujg1um/cUo/jBwj/adlQlCiNaIyP8Q==";
+        };
+        _qAJ0gGH9 = {
+            "id" = "qAJ0gGH9";
+            "file" = "mahoutsukai-1.21.1-v1.36.27.jar";
+            "hash" = "sha512-b9HxA6g3fg0tU0bYPaOKpW/U7HCSXyfms/EZrvb8WQg2flM32lVh8oC3yMaXfrFtA/FctlcXa6khCgLd6gvMkg==";
+        };
+        _L1uDltZv = {
+            "id" = "L1uDltZv";
+            "file" = "mahoutsukai-26.1.2-v1.36.30.jar";
+            "hash" = "sha512-cLOtq9sM3MtT3b0kWF25zu1K9eMAwqjc20YF2usHmSdbwpTfzIxmQ72XPwaPtDdcUNS50Xr4+tz7gLcEzhgCSw==";
+        };
+        _50K7jcpR = {
+            "id" = "50K7jcpR";
+            "file" = "mahoutsukai-26.1.2-v1.36.33.jar";
+            "hash" = "sha512-YTHqLVHxK9Tb9UIIQxG9gBkDsZv8Uc7o/gth7ctmJl1FNNAQgSoc79R2lZYYMGancye2OkwmZzBChYQoVh/n6w==";
+        };
     in {
         "wYw40dPb" = _wYw40dPb;
         "VTyEYc8z" = _VTyEYc8z;
@@ -326,6 +346,10 @@ let
         "mNtlUeIJ" = _mNtlUeIJ;
         "uiTBrwp7" = _uiTBrwp7;
         "2CI4pudm" = _2CI4pudm;
+        "xuncN1bO" = _xuncN1bO;
+        "qAJ0gGH9" = _qAJ0gGH9;
+        "L1uDltZv" = _L1uDltZv;
+        "50K7jcpR" = _50K7jcpR;
         "forge-1.18.2" = _W0K3QjOi;
         "forge-1.17.1" = _VTyEYc8z;
         "forge-1.16.5" = _mEPCKMdV;
@@ -339,8 +363,9 @@ let
         "forge-1.20" = _1T8792bh;
         "forge-1.20.1" = _iP9fAEwX;
         "neoforge-1.21" = _nQ1eUjfc;
-        "neoforge-1.21.1" = _2CI4pudm;
+        "neoforge-1.21.1" = _qAJ0gGH9;
         "neoforge-1.20.1" = _iP9fAEwX;
+        "neoforge-26.1.2" = _50K7jcpR;
         "pkg-1.18.2-v1.34.14" = _wYw40dPb;
         "pkg-1.17.1-v1.33.3" = _VTyEYc8z;
         "pkg-1.16.5-v1.34.13" = _CLwD3uSD;
@@ -395,7 +420,10 @@ let
         "pkg-1.36.6" = _mNtlUeIJ;
         "pkg-1.36.7" = _uiTBrwp7;
         "pkg-1.36.8" = _2CI4pudm;
-        "default" = _2CI4pudm;
+        "pkg-1.36.27" = _qAJ0gGH9;
+        "pkg-1.36.30" = _L1uDltZv;
+        "pkg-1.36.33" = _50K7jcpR;
+        "default" = _50K7jcpR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mahou-tsukai";

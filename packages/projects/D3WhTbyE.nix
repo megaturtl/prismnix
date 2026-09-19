@@ -21,11 +21,17 @@ let
             "file" = "better-harnesses-1.1.jar";
             "hash" = "sha512-eEr/teRnGmV0SgJa/4o6HdgV/VcH+25moeWSKqbEvqyhIZSIq49a23hT6LuyOS6v7Mk4d7UfwjPNj0HSigTJyg==";
         };
+        _gy9GmFXP = {
+            "id" = "gy9GmFXP";
+            "file" = "Better Harnesses DP v1.2.zip";
+            "hash" = "sha512-ImsgX2+GBRGCIT6rSnaH29yhsSIVZTU/FZzAAD3ciiK0nBq40GjUFhsNEDo0yrX6H/KnnPwOMY17U5SbEFi7JQ==";
+        };
     in {
         "Jrr8Q4Te" = _Jrr8Q4Te;
         "67l2q2Qo" = _67l2q2Qo;
         "f9Re4Tz6" = _f9Re4Tz6;
         "kgushSm2" = _kgushSm2;
+        "gy9GmFXP" = _gy9GmFXP;
         "datapack-1.21.6" = _Jrr8Q4Te;
         "datapack-1.21.7" = _Jrr8Q4Te;
         "datapack-1.21.8" = _Jrr8Q4Te;
@@ -36,6 +42,7 @@ let
         "datapack-26.1.1" = _f9Re4Tz6;
         "datapack-26.1.2" = _f9Re4Tz6;
         "datapack-26.2" = _f9Re4Tz6;
+        "datapack-26.3" = _gy9GmFXP;
         "fabric-1.21.6" = _67l2q2Qo;
         "fabric-1.21.7" = _67l2q2Qo;
         "fabric-1.21.8" = _67l2q2Qo;
@@ -80,7 +87,8 @@ let
         "pkg-1.0+mod" = _67l2q2Qo;
         "pkg-1.1" = _f9Re4Tz6;
         "pkg-1.1+mod" = _kgushSm2;
-        "default" = _kgushSm2;
+        "pkg-1.2" = _gy9GmFXP;
+        "default" = _gy9GmFXP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-harnesses";

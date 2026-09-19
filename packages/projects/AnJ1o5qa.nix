@@ -41,6 +41,16 @@ let
             "file" = "cobblecapsule-fabric-2.0.jar";
             "hash" = "sha512-avo5f23yxP1XBNBEsJGOFvPL9jL7BN2cRePfJwTp2fflgf2eV6iv6PavTW4skoaBz0epX/nEH2bCKlnD7XK09g==";
         };
+        _vYEsDKR1 = {
+            "id" = "vYEsDKR1";
+            "file" = "cobblecapsule-fabric-3.0.jar";
+            "hash" = "sha512-2ncIc95YhnWyY78oBcL/AN9Ls8tSjZjNx0Etw3DtJAMCORJegoZQYnLe1YRQYs8yLoXh7PaGcnSALW2EfUQQDA==";
+        };
+        _aCYKJN4U = {
+            "id" = "aCYKJN4U";
+            "file" = "cobblecapsule-neoforge-3.0.jar";
+            "hash" = "sha512-k7aZg9FEkymj1OzVW2EnfrLkLE5Hz4AKggZcQDblxEMT/+44AYWT0J9f6hUy3D0Sp2ZS7OQg1fIrG+hdrLRyzw==";
+        };
     in {
         "ghnflcop" = _ghnflcop;
         "KvpPaCIC" = _KvpPaCIC;
@@ -50,8 +60,10 @@ let
         "BsCMw03k" = _BsCMw03k;
         "khMAQg9O" = _khMAQg9O;
         "IIpiyQ4u" = _IIpiyQ4u;
-        "neoforge-1.21.1" = _khMAQg9O;
-        "fabric-1.21.1" = _IIpiyQ4u;
+        "vYEsDKR1" = _vYEsDKR1;
+        "aCYKJN4U" = _aCYKJN4U;
+        "neoforge-1.21.1" = _aCYKJN4U;
+        "fabric-1.21.1" = _vYEsDKR1;
         "pkg-1.0" = _ghnflcop;
         "pkg-1.1" = _KvpPaCIC;
         "pkg-1.1.1" = _V1BLegMB;
@@ -59,7 +71,8 @@ let
         "pkg-1.3" = _ZfvzQF7D;
         "pkg-1.4" = _BsCMw03k;
         "pkg-2.0" = _IIpiyQ4u;
-        "default" = _IIpiyQ4u;
+        "pkg-3.0" = _aCYKJN4U;
+        "default" = _aCYKJN4U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobble-capsule";

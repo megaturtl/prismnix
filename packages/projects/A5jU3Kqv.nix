@@ -626,6 +626,11 @@ let
             "file" = "grass_side-1.0.1-mc26.1.2.zip";
             "hash" = "sha512-rDErEdiVKH2D4UdUPHfiY1NN7zBw/KBZWZ3GCARMlDHZQODx58bgcvuMFYv2y1c+ixyXDzfW3rgylwCd0bKmxw==";
         };
+        _lyxx2MyX = {
+            "id" = "lyxx2MyX";
+            "file" = "grass_side-1.0.1-mc26.3.zip";
+            "hash" = "sha512-IKOj8RqgThRym6HLai4J/JLJAEnhPGX7h6ukSPiVAnj0AhoapQbTvD4UhjGlv+sZtI8Bh9zM7iaLKeed+eCfPQ==";
+        };
     in {
         "P51I6cU6" = _P51I6cU6;
         "6VFN4CJo" = _6VFN4CJo;
@@ -752,6 +757,7 @@ let
         "H2aEfvcC" = _H2aEfvcC;
         "ULJcY2q7" = _ULJcY2q7;
         "jSgIqup6" = _jSgIqup6;
+        "lyxx2MyX" = _lyxx2MyX;
         "minecraft-1.8.9" = _wuyuXTnz;
         "minecraft-1.9" = _EqqsPjcH;
         "minecraft-1.9.1" = _qs263twV;
@@ -817,9 +823,10 @@ let
         "minecraft-26.2" = _H2aEfvcC;
         "minecraft-26.1.1" = _ULJcY2q7;
         "minecraft-26.1.2" = _jSgIqup6;
+        "minecraft-26.3" = _lyxx2MyX;
         "pkg-1.0.0" = _RZQkrAMk;
-        "pkg-1.0.1" = _jSgIqup6;
-        "default" = _jSgIqup6;
+        "pkg-1.0.1" = _lyxx2MyX;
+        "default" = _lyxx2MyX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-collective-grass-sides";

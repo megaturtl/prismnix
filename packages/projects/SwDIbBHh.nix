@@ -1051,6 +1051,11 @@ let
             "file" = "enchantwithmob-1.21.1-21.3.0.jar";
             "hash" = "sha512-ajBojBdIfU8SORTIOgaowvpKcGQyCGvTUVHnXGByFUj8WYuksaUmpyfw4OXNUMe9U2TXL0sBxRwJ00GarcEVag==";
         };
+        _zke9BKtw = {
+            "id" = "zke9BKtw";
+            "file" = "enchantwithmob-26.3-36.0.0.jar";
+            "hash" = "sha512-X0tfejXGOn8rtgTQ0H7FP/2hdOIi9ju2CE6P4lqW6hCzc77zEBeI2c9hN/zq/J7RVTod4cxiDf5OPIj/EOjBeA==";
+        };
     in {
         "713fyJ1M" = _713fyJ1M;
         "xPi7XQvO" = _xPi7XQvO;
@@ -1262,6 +1267,7 @@ let
         "HZhSLhpQ" = _HZhSLhpQ;
         "InPmJgqV" = _InPmJgqV;
         "x3fdxubY" = _x3fdxubY;
+        "zke9BKtw" = _zke9BKtw;
         "forge-1.20.1" = _1UcKN8Qz;
         "forge-1.19.2" = _tzcrsKzv;
         "forge-1.18.2" = _LQQJAPgf;
@@ -1294,6 +1300,7 @@ let
         "neoforge-26.1.1" = _MZYzDbao;
         "neoforge-26.1.2" = _HZhSLhpQ;
         "neoforge-26.2" = _InPmJgqV;
+        "neoforge-26.3" = _zke9BKtw;
         "pkg-1.20.1-11.0.1" = _713fyJ1M;
         "pkg-1.19.2-7.10.1" = _xPi7XQvO;
         "pkg-1.20.1-11.1.0" = _V0JqVUtb;
@@ -1503,7 +1510,8 @@ let
         "pkg-26.1.2-34.2.0" = _HZhSLhpQ;
         "pkg-26.2-35.2.0" = _InPmJgqV;
         "pkg-1.21.1-21.3.0" = _x3fdxubY;
-        "default" = _x3fdxubY;
+        "pkg-26.3-36.0.0" = _zke9BKtw;
+        "default" = _zke9BKtw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantwithmob";

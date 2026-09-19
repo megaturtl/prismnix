@@ -31,6 +31,11 @@ let
             "file" = "CreaturesPlus3.4.zip";
             "hash" = "sha512-cW7iYvQI+W3wdA5E4iU0v82AGXZ78Gq8ck2g+wSw1a/WtHgOWC01/f3vhQLTIgh+jgZSznLAiKu9ZWHdKFQPcQ==";
         };
+        _UPH0zB6p = {
+            "id" = "UPH0zB6p";
+            "file" = "CreaturesPlus4.0.zip";
+            "hash" = "sha512-omNWOr43ZjMu0yieh/pX1/a1FvoZVlVgCvVNusvx1FjztQIhgBNC1185JyZQ3Ubojin69HohBrcfSh44TvD6yg==";
+        };
     in {
         "J83jLolX" = _J83jLolX;
         "LGsVPDxg" = _LGsVPDxg;
@@ -38,6 +43,7 @@ let
         "nETaB5vb" = _nETaB5vb;
         "mVZm04zp" = _mVZm04zp;
         "rzxdQRZt" = _rzxdQRZt;
+        "UPH0zB6p" = _UPH0zB6p;
         "minecraft-1.20.1" = _J83jLolX;
         "minecraft-1.20.2" = _J83jLolX;
         "minecraft-1.20.3" = _J83jLolX;
@@ -49,13 +55,19 @@ let
         "minecraft-1.21.7" = _mVZm04zp;
         "minecraft-1.21.8" = _mVZm04zp;
         "minecraft-1.21.11" = _rzxdQRZt;
+        "minecraft-26.1" = _UPH0zB6p;
+        "minecraft-26.1.1" = _UPH0zB6p;
+        "minecraft-26.1.2" = _UPH0zB6p;
+        "minecraft-26.2" = _UPH0zB6p;
+        "minecraft-26.3" = _UPH0zB6p;
         "pkg-3.0" = _J83jLolX;
         "pkg-3.1" = _LGsVPDxg;
         "pkg-3.2" = _NyBArMwF;
         "pkg-3.2.3" = _nETaB5vb;
         "pkg-3.3" = _mVZm04zp;
         "pkg-3.4" = _rzxdQRZt;
-        "default" = _rzxdQRZt;
+        "pkg-4.0" = _UPH0zB6p;
+        "default" = _UPH0zB6p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "creatures+";

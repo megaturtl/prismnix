@@ -1621,6 +1621,21 @@ let
             "file" = "kubejs-neoforge-2101.7.2-build.374.jar";
             "hash" = "sha512-gWmYDFdkiEGH+9QZzfPWpo8oMx4LcWmwVTSM+ezyIQMFvLhEW4Rhm9cHI8/+5ZeNVEIZpzo4Z+TiXsWk4IBAPw==";
         };
+        _aMQ5DcPy = {
+            "id" = "aMQ5DcPy";
+            "file" = "kubejs-neoforge-26.1.2-8.0.5.jar";
+            "hash" = "sha512-5s2gio3dHDVbKo8coAyQaDCLH2jF97F/8jHpoVK7OKYZc7T6ejS64wBD1S+tkxbSD2ZmiWaBEX0KCt5BbNNBmA==";
+        };
+        _THIGFPwf = {
+            "id" = "THIGFPwf";
+            "file" = "kubejs-neoforge-2101.7.2-build.377.jar";
+            "hash" = "sha512-/Nvuh5D485wQarS/YGgIycW/DxOkHiFiB6b+TRW/SlcizlcHh4HjoYI+f90pKOjgQtEE2K4lWjbbjxKp9G2AiQ==";
+        };
+        _FzLyIIBB = {
+            "id" = "FzLyIIBB";
+            "file" = "kubejs-neoforge-26.1.2-8.0.6.jar";
+            "hash" = "sha512-Ics6Lwc+ADu9m5NvTBxlzJzEoCmsyio0+nbg5R42gaol9TPrvEa+xFJ/4q+9PiBkUoo2s9w3H5MGM+CRL4WOqg==";
+        };
     in {
         "OcFX4nHs" = _OcFX4nHs;
         "Ow98nGVX" = _Ow98nGVX;
@@ -1946,6 +1961,9 @@ let
         "L68K2Wj0" = _L68K2Wj0;
         "Voaox2kE" = _Voaox2kE;
         "Fw7O9eLd" = _Fw7O9eLd;
+        "aMQ5DcPy" = _aMQ5DcPy;
+        "THIGFPwf" = _THIGFPwf;
+        "FzLyIIBB" = _FzLyIIBB;
         "fabric-1.18.2" = _TSy6UYgH;
         "fabric-1.19" = _dFL3FSdz;
         "fabric-1.19.2" = _e3sfelca;
@@ -1960,9 +1978,9 @@ let
         "forge-1.20.1" = _hVR2xUSr;
         "neoforge-1.20.4" = _XFk8J9v0;
         "neoforge-1.20.1" = _AhYGbfUn;
-        "neoforge-1.21" = _Fw7O9eLd;
-        "neoforge-1.21.1" = _Fw7O9eLd;
-        "neoforge-26.1.2" = _Voaox2kE;
+        "neoforge-1.21" = _THIGFPwf;
+        "neoforge-1.21.1" = _THIGFPwf;
+        "neoforge-26.1.2" = _FzLyIIBB;
         "pkg-1802.5.3-build.444+fabric" = _OcFX4nHs;
         "pkg-1802.5.3-build.444+forge" = _Ow98nGVX;
         "pkg-1802.5.3-build.454+fabric" = _FF8NfrgL;
@@ -2287,7 +2305,10 @@ let
         "pkg-26.1.2-8.0.3+neoforge" = _L68K2Wj0;
         "pkg-26.1.2-8.0.4+neoforge" = _Voaox2kE;
         "pkg-2101.7.2-build.374" = _Fw7O9eLd;
-        "default" = _Fw7O9eLd;
+        "pkg-26.1.2-8.0.5+neoforge" = _aMQ5DcPy;
+        "pkg-2101.7.2-build.377" = _THIGFPwf;
+        "pkg-26.1.2-8.0.6+neoforge" = _FzLyIIBB;
+        "default" = _FzLyIIBB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kubejs";

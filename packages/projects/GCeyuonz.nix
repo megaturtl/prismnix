@@ -256,6 +256,11 @@ let
             "file" = "agritechtwo-1.1.0.4+mc-1.21.1.jar";
             "hash" = "sha512-C7Hp9XgM2MiQfjhMs8QpfeAtsd2bJPWrMWvTuafNeeLUjWSKpB3PPx0i6Kvks0vhNpWh01+lKR34HWAoEf2PAw==";
         };
+        _DE3C5pel = {
+            "id" = "DE3C5pel";
+            "file" = "agritechtwo-1.1.0.5+mc-1.21.1.jar";
+            "hash" = "sha512-D0jiou63ENvU3daX6YLGKFT2ATZ+f2qnrJWjgV0ME8KjqFdSQZo/PwJPp0Eo32ensCF+e4RpcIbR9DW5mNjPbQ==";
+        };
     in {
         "yrNRIcE9" = _yrNRIcE9;
         "FkKarfPD" = _FkKarfPD;
@@ -308,7 +313,8 @@ let
         "YYISCx9X" = _YYISCx9X;
         "OL53JsX6" = _OL53JsX6;
         "pvhTruHF" = _pvhTruHF;
-        "neoforge-1.21.1" = _pvhTruHF;
+        "DE3C5pel" = _DE3C5pel;
+        "neoforge-1.21.1" = _DE3C5pel;
         "neoforge-26.1.2" = _rHwEqAgM;
         "neoforge-26.2" = _KDyovXW1;
         "fabric-26.1.2" = _YYISCx9X;
@@ -364,7 +370,8 @@ let
         "pkg-1.1.0.4+fabric-mc26.1.2" = _YYISCx9X;
         "pkg-2.0.0.4+fabric-mc26.2" = _OL53JsX6;
         "pkg-1.1.0.4+mc-1.21.1" = _pvhTruHF;
-        "default" = _pvhTruHF;
+        "pkg-1.1.0.5+mc-1.21.1" = _DE3C5pel;
+        "default" = _DE3C5pel;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "agritech";

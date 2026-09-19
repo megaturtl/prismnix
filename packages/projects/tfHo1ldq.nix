@@ -51,6 +51,31 @@ let
             "file" = "cr3stal-1.0.0.jar";
             "hash" = "sha512-eUAATYCFAL9Lb98mugBBkzD6sxDHhPoR88XnTQtEHzmAit4LBQRLWW8I+Btqh8qWQfTNFWtGFOrPXfmyThon5A==";
         };
+        _GUdpRf9l = {
+            "id" = "GUdpRf9l";
+            "file" = "cr3stal-forge-1.1.0.jar";
+            "hash" = "sha512-BXd1lOD2eGs5NXK8kNCEqrxS1brACzsGRtnuFbOYY6mXcFZUGWJpuit4GmTsydKZSlT4UcLNBWhmZl+BvBLeIg==";
+        };
+        _fUcqWY95 = {
+            "id" = "fUcqWY95";
+            "file" = "cr3stal-neoforge-1.1.0.jar";
+            "hash" = "sha512-R3aqU3r8qBFMJGPxYBWw6VcnGwlcHYmH/fGyGxwMbST04ZFMWRFARIyzG99cMzNq9bm2LiVowblO8ZDM89TZsg==";
+        };
+        _JurhVGrV = {
+            "id" = "JurhVGrV";
+            "file" = "cr3stal-fabric-1.1.0.jar";
+            "hash" = "sha512-PQ1gtqMVRDM+gKOycGKvjPa9xOguRTewaaIUJqdGtavjsUU9aCuuHxIIdKfMmtGDNJfOA/2NTSxA4d8W+axryg==";
+        };
+        _2O412E4G = {
+            "id" = "2O412E4G";
+            "file" = "cr3stal-neoforge-26.3-1.1.0.jar";
+            "hash" = "sha512-t90k56IUVEY/0esTjtkooKeC0GSrQM26dcakAycYFz149ujF/blugHNdTKpwe7MjiCPivWiiqCtRaPb2VfQvSg==";
+        };
+        _7vKrPhiT = {
+            "id" = "7vKrPhiT";
+            "file" = "cr3stal-fabric-26.3-1.1.0.jar";
+            "hash" = "sha512-sbhlyPAzZh6Vt4VG4wqfCfcrF/tLAWSsjtQjGK1WDOVTokYRTu1i3H9NrjMPHqldCadFynfPbLnQS7o7KSQmAA==";
+        };
     in {
         "n4ws7BKC" = _n4ws7BKC;
         "a5DQEati" = _a5DQEati;
@@ -62,6 +87,11 @@ let
         "A3R8RGZ0" = _A3R8RGZ0;
         "Vx8bipEP" = _Vx8bipEP;
         "5jIaggOK" = _5jIaggOK;
+        "GUdpRf9l" = _GUdpRf9l;
+        "fUcqWY95" = _fUcqWY95;
+        "JurhVGrV" = _JurhVGrV;
+        "2O412E4G" = _2O412E4G;
+        "7vKrPhiT" = _7vKrPhiT;
         "fabric-1.19.3" = _znuLOGjH;
         "fabric-1.19.4-rc2" = _a5DQEati;
         "fabric-1.19.4" = _znuLOGjH;
@@ -79,10 +109,17 @@ let
         "fabric-1.21.2" = _Vx8bipEP;
         "fabric-1.21.3" = _Vx8bipEP;
         "fabric-1.21.4" = _5jIaggOK;
+        "fabric-26.2" = _JurhVGrV;
+        "fabric-26.3" = _7vKrPhiT;
         "quilt-1.19.3" = _n4ws7BKC;
+        "forge-26.2" = _GUdpRf9l;
+        "neoforge-26.2" = _fUcqWY95;
+        "neoforge-26.3" = _2O412E4G;
         "pkg-1.0" = _n4ws7BKC;
         "pkg-1.0.0" = _5jIaggOK;
-        "default" = _5jIaggOK;
+        "pkg-1.1.0" = _JurhVGrV;
+        "pkg-26.3-1.1.0" = _7vKrPhiT;
+        "default" = _7vKrPhiT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crestal";

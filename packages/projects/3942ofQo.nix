@@ -56,6 +56,31 @@ let
             "file" = "voxelized_furniture-1.6-fabric-26.2.jar";
             "hash" = "sha512-N8oWQBaWoBdqcyq5z0zuSh/lIgbYYWApgLCF783CasWBODd8iR9nl8ijdYQdqCybLz+PAolyMe4JkmSVTEJ0iw==";
         };
+        _4uLCfxrg = {
+            "id" = "4uLCfxrg";
+            "file" = "voxelized_furniture-1.7.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-sD6QJ6uOl6+VfhcI1UbHEJDbHZdYrRXjxjNClGZdF/K0jYv076uMsHX9f4qWOuKRhmXGfPUJwmo2Ki7aAVZhWA==";
+        };
+        _MHgoUGUM = {
+            "id" = "MHgoUGUM";
+            "file" = "voxelized_furniture-1.7.0-neoforge-26.1.2.jar";
+            "hash" = "sha512-WpMgm8cK7wGNP9X//hJ4Daowa6wRTx46h7D0um8pd1bVip3nbjJW0npDF2fFGTu9TXccinUZhV+m+4PQ9XCgAg==";
+        };
+        _SWlTPGU9 = {
+            "id" = "SWlTPGU9";
+            "file" = "voxelized_furniture-1.7.0-neoforge-26.2.jar";
+            "hash" = "sha512-o/3j+onqRdhqC3iKzX5/8xdLqk9bZdix+5eEjuwjc4vmG8LF4VT8Km0xiN8/3At/yrdovBp28pK+V21cerpVXA==";
+        };
+        _Dz7bKJ8t = {
+            "id" = "Dz7bKJ8t";
+            "file" = "voxelized_furniture-1.7.0-fabric-26.1.2.jar";
+            "hash" = "sha512-RSC+7Gr17qfbPbIPc8H0OQnzVFlbr+7SLckh0ltTSJFdaqHIau92eeGGfNJ4q2LHpeEmH8ZKbE3cg8W3KmVnkA==";
+        };
+        _NXziC3SU = {
+            "id" = "NXziC3SU";
+            "file" = "voxelized_furniture-1.7.0-fabric-26.2.jar";
+            "hash" = "sha512-WCW5799ktlYmfVpx1+iY76D1dyrXPT8k5iaa2uELhCyQsxdsEzwelfwoosEjUXpHPP5UPLYktXltulHR9xR++w==";
+        };
     in {
         "80WdDCNu" = _80WdDCNu;
         "SkGdOOUJ" = _SkGdOOUJ;
@@ -68,19 +93,25 @@ let
         "W64wpzRX" = _W64wpzRX;
         "Mh1VoVfS" = _Mh1VoVfS;
         "EtW2Tm5l" = _EtW2Tm5l;
+        "4uLCfxrg" = _4uLCfxrg;
+        "MHgoUGUM" = _MHgoUGUM;
+        "SWlTPGU9" = _SWlTPGU9;
+        "Dz7bKJ8t" = _Dz7bKJ8t;
+        "NXziC3SU" = _NXziC3SU;
         "neoforge-1.21.8" = _q6wrdNoI;
-        "neoforge-1.21.1" = _njsBWlPz;
-        "neoforge-26.1.2" = _QFaCHzTC;
-        "neoforge-26.2" = _W64wpzRX;
-        "fabric-26.1.2" = _Mh1VoVfS;
-        "fabric-26.2" = _EtW2Tm5l;
+        "neoforge-1.21.1" = _4uLCfxrg;
+        "neoforge-26.1.2" = _MHgoUGUM;
+        "neoforge-26.2" = _SWlTPGU9;
+        "fabric-26.1.2" = _Dz7bKJ8t;
+        "fabric-26.2" = _NXziC3SU;
         "pkg-1.2.0" = _80WdDCNu;
         "pkg-1.3.0" = _SkGdOOUJ;
         "pkg-1.50" = _fzbYqH5B;
         "pkg-1.5.1" = _5Ep1O8PB;
         "pkg-1.5.2" = _BDVFLxMq;
         "pkg-1.6" = _EtW2Tm5l;
-        "default" = _EtW2Tm5l;
+        "pkg-1.7.0" = _NXziC3SU;
+        "default" = _NXziC3SU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "voxelized-furniture";

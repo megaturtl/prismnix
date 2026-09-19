@@ -211,6 +211,11 @@ let
             "file" = "various-starting-loot-5.2.jar";
             "hash" = "sha512-LJkcQFqsACjk3pYsMbc9CG5Rl/WACl+nYm5r/AVNR7YI+327uoOJnftR8iRQGIB+pZ95hZhxGEgNW/UNASeF1w==";
         };
+        _xSTqQCLX = {
+            "id" = "xSTqQCLX";
+            "file" = "Various Starting Loot.zip";
+            "hash" = "sha512-NsEiiBenlf8ZuChwuKE/lyTgaQnBJrDgd+tXy3O+RCaE0l/HQNpm7hDYSzeGYSpdm9D13H71SFygZJWIgEJb9Q==";
+        };
     in {
         "SCzhkfa2" = _SCzhkfa2;
         "TMxtZagN" = _TMxtZagN;
@@ -254,6 +259,7 @@ let
         "CFROeDYW" = _CFROeDYW;
         "gJOcLM3d" = _gJOcLM3d;
         "e1ugN64o" = _e1ugN64o;
+        "xSTqQCLX" = _xSTqQCLX;
         "datapack-1.19" = _s5NfWuPd;
         "datapack-1.19.1" = _s5NfWuPd;
         "datapack-1.19.2" = _s5NfWuPd;
@@ -282,6 +288,7 @@ let
         "datapack-1.21.5" = _SCO7mIdG;
         "datapack-1.21.6" = _SCO7mIdG;
         "datapack-26.2" = _gJOcLM3d;
+        "datapack-26.3" = _xSTqQCLX;
         "fabric-1.19" = _qz5ptGcP;
         "fabric-1.19.1" = _qz5ptGcP;
         "fabric-1.19.2" = _qz5ptGcP;
@@ -419,7 +426,8 @@ let
         "pkg-5.1.1+mod" = _CFROeDYW;
         "pkg-5.2" = _gJOcLM3d;
         "pkg-5.2+mod" = _e1ugN64o;
-        "default" = _e1ugN64o;
+        "pkg-5.3" = _xSTqQCLX;
+        "default" = _xSTqQCLX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "various-starting-loot";

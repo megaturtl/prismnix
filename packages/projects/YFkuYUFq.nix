@@ -66,6 +66,31 @@ let
             "file" = "world_alive-1.2.1+26.2-fabric.jar";
             "hash" = "sha512-V/WClRGa6QJ4Zct0O53Uoy+eohCoPMk8fhJkjfnyuq0nGvC9L4BNP88h9dWu0EhlQHs3VK6CwJU6Jtb2hWgcIQ==";
         };
+        _WMQlSDyH = {
+            "id" = "WMQlSDyH";
+            "file" = "world_alive-1.2.2+1.20.1-fabric.jar";
+            "hash" = "sha512-9LN8L3VDL1eWmJYofpCSAx/PWcMyyPstwoSYOXcV5OsXCm6FdYyn2kIVWD73/unIArjphh8ciqvuz5HZalIIKw==";
+        };
+        _IagG2wqe = {
+            "id" = "IagG2wqe";
+            "file" = "world_alive-1.2.2+1.21.1-fabric.jar";
+            "hash" = "sha512-iLaFzSGbmhvRc23SvUCR+W+WmvOmq2dwIeIqaa1Zq33u43r6KaQgRe4d8Y9VxzM00Wi9lquE1kPaabiJQupBrQ==";
+        };
+        _daC6uTKW = {
+            "id" = "daC6uTKW";
+            "file" = "world_alive-1.2.2+1.21.11-fabric.jar";
+            "hash" = "sha512-s85FwNAEfEwrASQyKuKC0monjVYBqfR6mH5q8zA4ECD+248ebM9RpPj8Bt0CatJqbbJyGhO3OJkruYGVMiZfUg==";
+        };
+        _OF0ZKZ3d = {
+            "id" = "OF0ZKZ3d";
+            "file" = "world_alive-1.2.2+26.1.2-fabric.jar";
+            "hash" = "sha512-k7QElnz8MRZBfNnz3JB0taJ2HyXY0dHVliNiGIpE2dLgevgaucMfMsGdkuze4owzMEhpBUIflnXeaF2EfO43dQ==";
+        };
+        _Aq0IiGv3 = {
+            "id" = "Aq0IiGv3";
+            "file" = "world_alive-1.2.2+26.2-fabric.jar";
+            "hash" = "sha512-pWlhR05ph7VnSBAKLGJ2gVWTlxFLC2YF8da55x5tL7N6fRS/JXJWClMFwHmMWSWWiOaUQbMYNsB1h4uoqh13kQ==";
+        };
     in {
         "SFpZbgyL" = _SFpZbgyL;
         "Jy2D3Gph" = _Jy2D3Gph;
@@ -80,15 +105,21 @@ let
         "QKwEoOMv" = _QKwEoOMv;
         "phtPphGh" = _phtPphGh;
         "gT36X5cO" = _gT36X5cO;
-        "fabric-1.21.11" = _QKwEoOMv;
-        "fabric-26.1.2" = _phtPphGh;
-        "fabric-26.2" = _gT36X5cO;
-        "fabric-1.20.1" = _gNCr8Mos;
+        "WMQlSDyH" = _WMQlSDyH;
+        "IagG2wqe" = _IagG2wqe;
+        "daC6uTKW" = _daC6uTKW;
+        "OF0ZKZ3d" = _OF0ZKZ3d;
+        "Aq0IiGv3" = _Aq0IiGv3;
+        "fabric-1.21.11" = _daC6uTKW;
+        "fabric-26.1.2" = _OF0ZKZ3d;
+        "fabric-26.2" = _Aq0IiGv3;
+        "fabric-1.20.1" = _WMQlSDyH;
+        "fabric-1.21.1" = _IagG2wqe;
         "pkg-1.0.0" = _my6JeF5U;
         "pkg-1.1.0" = _C5PWbpKr;
         "pkg-1.2.0" = _5UDCbMuI;
-        "pkg-1.2.1" = _gT36X5cO;
-        "default" = _gT36X5cO;
+        "pkg-1.2.1" = _Aq0IiGv3;
+        "default" = _Aq0IiGv3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "world-alive";

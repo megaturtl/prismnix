@@ -66,6 +66,11 @@ let
             "file" = "universalkeyboard-1.3.4.jar";
             "hash" = "sha512-9uerQTQITgUeTpqT7jNMDvdt0C6RcVS9T98z4yl9t4xkyU++nWWWefdSruZaCa6Zl5JpY5FXZVfF77jRBo/oeg==";
         };
+        _x5QpcCMr = {
+            "id" = "x5QpcCMr";
+            "file" = "universalkeyboard-1.3.5.jar";
+            "hash" = "sha512-r/cmoY3CoyQXi0pL2KN/THSfOR++Kzz7eYZgOmuTNppcyLsZH13ZfFLjXXvLJFYu+4oCl8SOdqxWk+U+xazfKA==";
+        };
     in {
         "NE9HPjlv" = _NE9HPjlv;
         "dGyagPpC" = _dGyagPpC;
@@ -80,7 +85,8 @@ let
         "IPBprmOd" = _IPBprmOd;
         "AJ8mKh3V" = _AJ8mKh3V;
         "NkdELhcm" = _NkdELhcm;
-        "neoforge-1.21.1" = _NkdELhcm;
+        "x5QpcCMr" = _x5QpcCMr;
+        "neoforge-1.21.1" = _x5QpcCMr;
         "pkg-1.0.0" = _NE9HPjlv;
         "pkg-1.0.2" = _dGyagPpC;
         "pkg-1.0.4" = _ZafXoNhe;
@@ -94,7 +100,8 @@ let
         "pkg-1.3.2" = _IPBprmOd;
         "pkg-1.3.3" = _AJ8mKh3V;
         "pkg-1.3.4" = _NkdELhcm;
-        "default" = _NkdELhcm;
+        "pkg-1.3.5" = _x5QpcCMr;
+        "default" = _x5QpcCMr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "universal-keyboard";

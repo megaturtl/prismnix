@@ -221,6 +221,56 @@ let
             "file" = "twemoji-26.1.2-Fabric-1.0.6.jar";
             "hash" = "sha512-P6S6WfcXiL27IQOcIEFeRI1nK91g0DtmPSAfLoW8V08HUHS8nKXnx252GX4PpADzcAun1KoPFh+9br55NJgkkA==";
         };
+        _tK62n24e = {
+            "id" = "tK62n24e";
+            "file" = "twemoji-1.20.1-Fabric-1.1.0.jar";
+            "hash" = "sha512-sifTaH681oYArEPJEs3AjH1z+zW2SIVHdMNgicot+dSzb/nxPIN9E2KiVs36zV5CVUgKVTT0eRK+Mbw2R4o5sg==";
+        };
+        _rQG5i89J = {
+            "id" = "rQG5i89J";
+            "file" = "twemoji-1.20.1-Forge-1.1.0.jar";
+            "hash" = "sha512-bmirDPp8BRUbdX8Rlsj3bq6vGBtlx7OsY8wYxTc7eFmrOkK7OR8w0hfffBfiVBZZQ92NhwmNlN2dHnRDadPsdg==";
+        };
+        _SrcU6HnJ = {
+            "id" = "SrcU6HnJ";
+            "file" = "twemoji-1.21.1-Fabric-1.1.0.jar";
+            "hash" = "sha512-APsrUuh/ZASP/5XS72D2uUrtzppgaEjsymNCgqDL7Cm2PovZD/PF2GP/UV9yvy6Hw5vaZRW3g0WC8fAKgdCdVg==";
+        };
+        _8h1JHO9l = {
+            "id" = "8h1JHO9l";
+            "file" = "twemoji-1.21.1-NeoForge-1.1.0.jar";
+            "hash" = "sha512-uF9FTotaeSB6DftNE/UzP4pSy3nqUL5Sj09R/dJQEHeqfZYqTuUVymdXOVtjDDy1DpISKlrxAdJPUpJPoRLipQ==";
+        };
+        _N45L7KwC = {
+            "id" = "N45L7KwC";
+            "file" = "twemoji-1.21.11-Fabric-1.1.0.jar";
+            "hash" = "sha512-ErZDjVoxcdEUrJ7PCkjEoRQeMWz1xTRPq0n7AJ+7ZCdWJ00atUO3voqKCpz1y5N/EjkS+hgISfUntAR1T0kp/A==";
+        };
+        _mX0d3U9p = {
+            "id" = "mX0d3U9p";
+            "file" = "twemoji-1.21.11-NeoForge-1.1.0.jar";
+            "hash" = "sha512-8AvuTNOK+NmcGzu7Cv5uslmdGfzoGuzJVG6LfkXqnhfFUwPObFG5fLCfWp147kP+LxYRtETdooqRB4fIqCjA4w==";
+        };
+        _OwaztBI0 = {
+            "id" = "OwaztBI0";
+            "file" = "twemoji-26.1.2-NeoForge-1.1.0.jar";
+            "hash" = "sha512-+vnzHmLGgUxhYwLaQ3zYkhrzBZxUSsjmpZgiTamutJWpQak6WLSR4249GgeQ+T0h2Kd+a/+OlfbcBuxaEqAG0w==";
+        };
+        _93xhUM5w = {
+            "id" = "93xhUM5w";
+            "file" = "twemoji-26.2-NeoForge-1.1.0.jar";
+            "hash" = "sha512-OK0jOf1L6lWwzbErWt+/IHtQn7e29tbx46LsWF7AuqLmBcF+EB/dsc0wLuDqgmUL5CXWn1VovlQzf1ns9cpV0A==";
+        };
+        _C9B90by3 = {
+            "id" = "C9B90by3";
+            "file" = "twemoji-26.1.2-Fabric-1.1.0.jar";
+            "hash" = "sha512-NEis7dPVABzfMteUORP5JjDuqWW7S9+RYtGQ+4E3K8urOllvWbXfiZbELAI3AghKmHzY597IqjUeAG799EoJlQ==";
+        };
+        _T614dhYX = {
+            "id" = "T614dhYX";
+            "file" = "twemoji-26.2-Fabric-1.1.0.jar";
+            "hash" = "sha512-NDzWobNfhvjBvzZQZcIQdXl984ljXZTZtbmkMe14FwHkLcoI10NtJI1wPSFQN4glMHL2K+DklEGKkbGcqpvZeQ==";
+        };
     in {
         "JyPyJ253" = _JyPyJ253;
         "6lcDXIwE" = _6lcDXIwE;
@@ -266,21 +316,34 @@ let
         "P9w8KhER" = _P9w8KhER;
         "O1jVmWPd" = _O1jVmWPd;
         "CWlO5dFu" = _CWlO5dFu;
-        "fabric-1.20.1" = _RgJLWdVc;
-        "fabric-1.21.1" = _GOQrFnyj;
-        "fabric-1.21.11" = _kzBubwhx;
-        "fabric-26.1.2" = _CWlO5dFu;
-        "forge-1.20.1" = _C5tYtqhD;
-        "neoforge-1.21.1" = _xbXY8ZRv;
-        "neoforge-1.21.11" = _P9w8KhER;
-        "neoforge-26.1.2" = _O1jVmWPd;
+        "tK62n24e" = _tK62n24e;
+        "rQG5i89J" = _rQG5i89J;
+        "SrcU6HnJ" = _SrcU6HnJ;
+        "8h1JHO9l" = _8h1JHO9l;
+        "N45L7KwC" = _N45L7KwC;
+        "mX0d3U9p" = _mX0d3U9p;
+        "OwaztBI0" = _OwaztBI0;
+        "93xhUM5w" = _93xhUM5w;
+        "C9B90by3" = _C9B90by3;
+        "T614dhYX" = _T614dhYX;
+        "fabric-1.20.1" = _tK62n24e;
+        "fabric-1.21.1" = _SrcU6HnJ;
+        "fabric-1.21.11" = _N45L7KwC;
+        "fabric-26.1.2" = _C9B90by3;
+        "fabric-26.2" = _T614dhYX;
+        "forge-1.20.1" = _rQG5i89J;
+        "neoforge-1.21.1" = _8h1JHO9l;
+        "neoforge-1.21.11" = _mX0d3U9p;
+        "neoforge-26.1.2" = _OwaztBI0;
+        "neoforge-26.2" = _93xhUM5w;
         "pkg-1.0.0" = _qkcGETGo;
         "pkg-1.0.1" = _nehFCEkH;
         "pkg-1.0.2" = _QPQD0SBp;
         "pkg-1.0.3" = _mj7FSMNS;
         "pkg-1.0.5" = _2Nut7rqs;
         "pkg-1.0.6" = _CWlO5dFu;
-        "default" = _CWlO5dFu;
+        "pkg-1.1.0" = _T614dhYX;
+        "default" = _T614dhYX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "twemoji";

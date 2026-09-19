@@ -281,6 +281,36 @@ let
             "file" = "PaperDoll-v26.2.2-mc26.2.x-Fabric.jar";
             "hash" = "sha512-y7cLrXJ1wbE4Qds1Ng4OVR7NxCeDbONkzSihgl8tlBFB1+wr7a+ZGx+IeaiY+dhw62aCLHXT/BblumvnIDUGog==";
         };
+        _nnazF9VP = {
+            "id" = "nnazF9VP";
+            "file" = "PaperDoll-v26.1.4-mc26.1.x-NeoForge.jar";
+            "hash" = "sha512-EiM/fUguvrvqa/7kcexPsaPOhD7JJGuSuwNYVJHsjh4lBIhzWsFtGigOhkQ/CnNS2uL0QGsEnbgo+XYQxwlFNg==";
+        };
+        _wWpIiYXG = {
+            "id" = "wWpIiYXG";
+            "file" = "PaperDoll-v26.1.4-mc26.1.x-Fabric.jar";
+            "hash" = "sha512-Rpz2Vd3YTQf4hzUl6kVSY71e+0siUE9DWJb3Vqow/ggZuO2slkkNaFoKYJ0iKa2vWDL4bvT83s1picuePAnu7w==";
+        };
+        _DNKmln1s = {
+            "id" = "DNKmln1s";
+            "file" = "PaperDoll-v26.1.5-mc26.1.x-NeoForge.jar";
+            "hash" = "sha512-Sy/CsvuRoCj87Y7863F7OIzpWk7dQAiblO1HxKghsPjdZpqhZ9T5qoqUkr6dhPpvLYcqn1Q4ujZrCXml6QwjGA==";
+        };
+        _rPWUWLph = {
+            "id" = "rPWUWLph";
+            "file" = "PaperDoll-v26.1.5-mc26.1.x-Fabric.jar";
+            "hash" = "sha512-KFxtUhmaXfZ00dmLTnRCLwqneH8ZiwEl9K+re4SW5C3xYLvDW9YGxQArSeohRkaTuDhduVhrApHcuk1AID9HXw==";
+        };
+        _30yVAyi7 = {
+            "id" = "30yVAyi7";
+            "file" = "PaperDoll-v26.2.3-mc26.2.x-NeoForge.jar";
+            "hash" = "sha512-+neByVhMQjHRgp5Em1WzkOEwkHTlLvnE2147Jum9VASLkAvLPtM5uze9toZICEVw4tDPArGXC8L2ea6EVASs7A==";
+        };
+        _pyQ1p3iZ = {
+            "id" = "pyQ1p3iZ";
+            "file" = "PaperDoll-v26.2.3-mc26.2.x-Fabric.jar";
+            "hash" = "sha512-amnvxvAR8lUeCHIpXQU7Sfe8m+zic7wEQvj7zUnXtO1FSzzOA4dS+Su6XPhhrJS69BzQvV4yZ+LcvylyR5sfdQ==";
+        };
     in {
         "Z1FHYb5j" = _Z1FHYb5j;
         "fP6Y3u25" = _fP6Y3u25;
@@ -338,6 +368,12 @@ let
         "5iY9M0BU" = _5iY9M0BU;
         "Zld0H4jp" = _Zld0H4jp;
         "Hati0btw" = _Hati0btw;
+        "nnazF9VP" = _nnazF9VP;
+        "wWpIiYXG" = _wWpIiYXG;
+        "DNKmln1s" = _DNKmln1s;
+        "rPWUWLph" = _rPWUWLph;
+        "30yVAyi7" = _30yVAyi7;
+        "pyQ1p3iZ" = _pyQ1p3iZ;
         "forge-1.19.2" = _Z1FHYb5j;
         "forge-1.19.3" = _Aq2ZAW0Y;
         "forge-1.19.4" = _yKaSv01a;
@@ -359,10 +395,10 @@ let
         "fabric-1.21.9" = _Ur85lQYz;
         "fabric-1.21.10" = _t2FvYoeP;
         "fabric-1.21.11" = _bW7ykiTZ;
-        "fabric-26.1" = _5iY9M0BU;
-        "fabric-26.1.1" = _5iY9M0BU;
-        "fabric-26.1.2" = _5iY9M0BU;
-        "fabric-26.2" = _Hati0btw;
+        "fabric-26.1" = _rPWUWLph;
+        "fabric-26.1.1" = _rPWUWLph;
+        "fabric-26.1.2" = _rPWUWLph;
+        "fabric-26.2" = _pyQ1p3iZ;
         "neoforge-1.20.4" = _eU67vlr0;
         "neoforge-1.21.1" = _cCfXqOtQ;
         "neoforge-1.21.3" = _O9nE3jDm;
@@ -373,10 +409,10 @@ let
         "neoforge-1.21.9" = _hzbXJH1e;
         "neoforge-1.21.10" = _U3UIpAXY;
         "neoforge-1.21.11" = _2CQXqzNc;
-        "neoforge-26.1" = _PoqjZSkr;
-        "neoforge-26.1.1" = _PoqjZSkr;
-        "neoforge-26.1.2" = _PoqjZSkr;
-        "neoforge-26.2" = _Zld0H4jp;
+        "neoforge-26.1" = _DNKmln1s;
+        "neoforge-26.1.1" = _DNKmln1s;
+        "neoforge-26.1.2" = _DNKmln1s;
+        "neoforge-26.2" = _30yVAyi7;
         "pkg-v4.0.0-1.19.2-Forge" = _Z1FHYb5j;
         "pkg-v4.0.0-1.19.2-Fabric" = _fP6Y3u25;
         "pkg-v5.0.0-1.19.3-Fabric" = _5eQ8PCYF;
@@ -423,7 +459,10 @@ let
         "pkg-26.1.2" = _YRBIjW7M;
         "pkg-26.1.3" = _5iY9M0BU;
         "pkg-26.2.2" = _Hati0btw;
-        "default" = _Hati0btw;
+        "pkg-26.1.4" = _wWpIiYXG;
+        "pkg-26.1.5" = _rPWUWLph;
+        "pkg-26.2.3" = _pyQ1p3iZ;
+        "default" = _pyQ1p3iZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "paper-doll";

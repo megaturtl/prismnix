@@ -16,19 +16,27 @@ let
             "file" = "GradientXPBar v1.2 26.2.zip";
             "hash" = "sha512-AVhBXr2UnIW6jsbjVdJ31ZLSQL2LU72bbdUoS37Yhu0dG2r8c7NGBIjnTNGotTU8iXrJrHllvqTUqML7i9ewsg==";
         };
+        _VpTmjIzZ = {
+            "id" = "VpTmjIzZ";
+            "file" = "GradientXPBar 26.3.zip";
+            "hash" = "sha512-C21IG8wPSy/PGr1JsmEbXkpawW+CCtUeOHAQp7Q3AzUamoC+mas8XbiBg9HnB1nUlbKvCx67tl/6F936YWQ0jg==";
+        };
     in {
         "PSLK1mHK" = _PSLK1mHK;
         "cb9Mrksw" = _cb9Mrksw;
         "1iPreKGd" = _1iPreKGd;
+        "VpTmjIzZ" = _VpTmjIzZ;
         "minecraft-1.21.11" = _PSLK1mHK;
-        "minecraft-26.1" = _cb9Mrksw;
-        "minecraft-26.1.1" = _cb9Mrksw;
-        "minecraft-26.1.2" = _cb9Mrksw;
-        "minecraft-26.2" = _1iPreKGd;
+        "minecraft-26.1" = _VpTmjIzZ;
+        "minecraft-26.1.1" = _VpTmjIzZ;
+        "minecraft-26.1.2" = _VpTmjIzZ;
+        "minecraft-26.2" = _VpTmjIzZ;
+        "minecraft-26.3" = _VpTmjIzZ;
         "pkg-1.0" = _PSLK1mHK;
         "pkg-1.1" = _cb9Mrksw;
         "pkg-1.2" = _1iPreKGd;
-        "default" = _1iPreKGd;
+        "pkg-1.3" = _VpTmjIzZ;
+        "default" = _VpTmjIzZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gradient-xp-bar-cool-tones";

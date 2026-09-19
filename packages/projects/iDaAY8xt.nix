@@ -96,6 +96,71 @@ let
             "file" = "csgobox-forge-1.20.1-2.0.0-beta.jar";
             "hash" = "sha512-WGBC0ASUCiTHZKoS2kSqgr0ryF93AQlIDG0URdcmD3e44fAIb9ZGRYKiNqg36ZbZaClEfkoYMbvmFfx3oGWcOA==";
         };
+        _z1GSQsuA = {
+            "id" = "z1GSQsuA";
+            "file" = "csgobox-forge-26.2-2.0.0.jar";
+            "hash" = "sha512-Jug48nu9L3PUWqb0yGO42N+mxn0S6F23opnQ6kdMmH9aMzpjHVERNtEWXHutBYQE/usnnxhTkWJZ02KU21Z9xg==";
+        };
+        _FZvAXv6J = {
+            "id" = "FZvAXv6J";
+            "file" = "csgobox-forge-26.1.2-2.0.0.jar";
+            "hash" = "sha512-yNNPY2DH8otChIFkukMHuQjkzEXCXCXqgB45Joqo++wY4scDgv2TOQzB1GTGBhaoIKtzWahycfEOduLhtg71Hw==";
+        };
+        _PjDq8v1t = {
+            "id" = "PjDq8v1t";
+            "file" = "csgobox-forge-1.20.1-2.0.0.jar";
+            "hash" = "sha512-zJG0qa3+ax74CZhIid/NujFGquI34M8qpPOEV70Q1+AzyhjdIXo9K+zmJvLmPcQmT8lPgAPMCj9uWj4Dyo0CaQ==";
+        };
+        _wEgZT2Bb = {
+            "id" = "wEgZT2Bb";
+            "file" = "csgobox-26.2-2.0.0.jar";
+            "hash" = "sha512-H+FiAyyACIxQYiEZf2kDYlgokmoRkyL9HYQqcZS4pH8bfBFX1fT8tyJkeDSmktd8/Q7BphGdaioaKXYjfgb7eg==";
+        };
+        _HJtq3aGk = {
+            "id" = "HJtq3aGk";
+            "file" = "csgobox-26.1.2-2.0.0.jar";
+            "hash" = "sha512-uWH6OQOpvGhiFMHpJ/HRiltTFmFaNuzTrueq0KUo1AB0lfx7XjUuvgg5klXa5q7xOUoaHmix15UDjtShsoK9+Q==";
+        };
+        _jRbJWfPz = {
+            "id" = "jRbJWfPz";
+            "file" = "csgobox-1.21.1-2.0.0.jar";
+            "hash" = "sha512-WvlZuXzEgwmA/pvRJ3x5VUeadl3LLJehuEuidT7Z1LUDLzFaWAIPTaIi5mIH4l4WOEMt+6G3z2KbEzuhkeNDhw==";
+        };
+        _IXZwGywj = {
+            "id" = "IXZwGywj";
+            "file" = "csgobox-26.1.2-2.0.1.jar";
+            "hash" = "sha512-AIc0idGlTxDqYeXz0xA1Wpr8TxeXIqlFWB8LizIfOZYlITcgweU9iRVai7ufMJeAH2hdNAszzBNlPuxVTYmXSw==";
+        };
+        _wAKzvceR = {
+            "id" = "wAKzvceR";
+            "file" = "csgobox-26.1.2-2.0.1.jar";
+            "hash" = "sha512-s8PmH+RX5dOQkI2srAYZ2qFPO1eUMOQ401fNao/iSLkIAnHeQmNksclbIp/qvAjuCjMBTOfeOKwEpEkp1/7gdw==";
+        };
+        _sLoFdDad = {
+            "id" = "sLoFdDad";
+            "file" = "csgobox-1.21.1-2.0.1.jar";
+            "hash" = "sha512-dkjKiLXpqSMEmkAmtdVgaQHgoDSW1JTqq5k5rFhS7acK1yvY6YjnOEWn11dbKiX8Y2v2P6I0QOJRkaycxAupTg==";
+        };
+        _Y9iZXP8k = {
+            "id" = "Y9iZXP8k";
+            "file" = "csgobox-26.2-2.0.1.jar";
+            "hash" = "sha512-xbGfAgMw3irM1G37VIdb+X+dh2XvziZVeHseQkZ4AwISTPz8OshgwyhLnRp5cc6MOtt6rUy0+0dYoulinfbFvg==";
+        };
+        _D8Vw9iuP = {
+            "id" = "D8Vw9iuP";
+            "file" = "csgobox-forge-1.20.1-2.0.1-srg.jar";
+            "hash" = "sha512-3BknNcBmSxG5av8nDIlMPieXyLEl3AwOffZpbCwh7Fw40F0FiJhtFKLMEcE7HNk0K73uYhVbEPuD7Qwi/u9lng==";
+        };
+        _I5cz4yRC = {
+            "id" = "I5cz4yRC";
+            "file" = "csgobox-forge-26.1.2-2.0.1.jar";
+            "hash" = "sha512-lb5fXLqrEy9BiQ0HGV5vFvs7c/UTXb8T4lu12Wt6vL1AQYoiLvKEG3wUgGEqE/axyQOHQfpPxfzo9R1qZorj5Q==";
+        };
+        _uQxAKtVO = {
+            "id" = "uQxAKtVO";
+            "file" = "csgobox-forge-26.2-2.0.1.jar";
+            "hash" = "sha512-j+D7bV1qsPGwBQk8Ofs+6IDugI+Ji8lA8LeQ3Y/I5ophKLI7srGiJlKOFzhkd0d6gVbEA+VULpE67oGXGFtTuQ==";
+        };
     in {
         "ytkDCbIo" = _ytkDCbIo;
         "YhBft3hg" = _YhBft3hg;
@@ -116,13 +181,26 @@ let
         "qVYM7z2T" = _qVYM7z2T;
         "DmuOy2Cp" = _DmuOy2Cp;
         "zNVGsH7N" = _zNVGsH7N;
-        "neoforge-1.21.1" = _WlngZk7O;
-        "neoforge-26.1.2" = _VNWKo6Qu;
-        "neoforge-26.2" = _NhCwhNkP;
+        "z1GSQsuA" = _z1GSQsuA;
+        "FZvAXv6J" = _FZvAXv6J;
+        "PjDq8v1t" = _PjDq8v1t;
+        "wEgZT2Bb" = _wEgZT2Bb;
+        "HJtq3aGk" = _HJtq3aGk;
+        "jRbJWfPz" = _jRbJWfPz;
+        "IXZwGywj" = _IXZwGywj;
+        "wAKzvceR" = _wAKzvceR;
+        "sLoFdDad" = _sLoFdDad;
+        "Y9iZXP8k" = _Y9iZXP8k;
+        "D8Vw9iuP" = _D8Vw9iuP;
+        "I5cz4yRC" = _I5cz4yRC;
+        "uQxAKtVO" = _uQxAKtVO;
+        "neoforge-1.21.1" = _sLoFdDad;
+        "neoforge-26.1.2" = _wAKzvceR;
+        "neoforge-26.2" = _Y9iZXP8k;
         "neoforge-1.21" = _y8J2l2La;
-        "forge-26.1.2" = _qVYM7z2T;
-        "forge-26.2" = _DmuOy2Cp;
-        "forge-1.20.1" = _zNVGsH7N;
+        "forge-26.1.2" = _I5cz4yRC;
+        "forge-26.2" = _uQxAKtVO;
+        "forge-1.20.1" = _D8Vw9iuP;
         "pkg-1.0.0" = _ytkDCbIo;
         "pkg-1.0.1" = _YhBft3hg;
         "pkg-1.0.2" = _eDKd0HQF;
@@ -131,7 +209,10 @@ let
         "pkg-1.0.6" = _VmA7vFvR;
         "pkg-2.0.0-beta" = _DmuOy2Cp;
         "pkg-2.0.0-beta-Remake" = _zNVGsH7N;
-        "default" = _zNVGsH7N;
+        "pkg-2.0.0" = _jRbJWfPz;
+        "pkg-2.0.0.1" = _IXZwGywj;
+        "pkg-2.0.1" = _uQxAKtVO;
+        "default" = _uQxAKtVO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "csgo-box";

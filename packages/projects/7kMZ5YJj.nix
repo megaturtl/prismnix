@@ -81,6 +81,16 @@ let
             "file" = "undyingrefill-1.3.jar";
             "hash" = "sha512-e10LWABbLCBjg2CXgOmXPmU9UIeyF0VdNmj0n/FSB8qZT8+pVhFseBTw77orv22BrYTmGc0oiwMTU3DXnX17mg==";
         };
+        _xRjDkFzg = {
+            "id" = "xRjDkFzg";
+            "file" = "undyingrefill-v1.4.zip";
+            "hash" = "sha512-zq1LexvMf+ALGC/usFbi9qv4Qu4B8oPZFwDcXLu9P1R/GjsYezdA9HDMBHEG8I/rty+m6abOGyHE6jSnp0dmxQ==";
+        };
+        _Bzhbd4Nb = {
+            "id" = "Bzhbd4Nb";
+            "file" = "undyingrefill-v1.4+mod.jar";
+            "hash" = "sha512-TK+IDl4bL2dezceGzGwpSJs1tQQVPdcENn64M7vS4ttTFnZPhO1UYV3OcLgf5eCivj0qxSEQq5rIbHiZw0dmBQ==";
+        };
     in {
         "TNKKjlzX" = _TNKKjlzX;
         "JcaqTZy2" = _JcaqTZy2;
@@ -98,6 +108,8 @@ let
         "6iI8NrE7" = _6iI8NrE7;
         "rxPLNsHm" = _rxPLNsHm;
         "EFZDQxDW" = _EFZDQxDW;
+        "xRjDkFzg" = _xRjDkFzg;
+        "Bzhbd4Nb" = _Bzhbd4Nb;
         "datapack-1.21" = _TNKKjlzX;
         "datapack-1.21.1" = _TNKKjlzX;
         "datapack-1.21.2" = _JcaqTZy2;
@@ -114,6 +126,7 @@ let
         "datapack-26.1.1" = _rxPLNsHm;
         "datapack-26.1.2" = _rxPLNsHm;
         "datapack-26.2" = _rxPLNsHm;
+        "datapack-26.3" = _xRjDkFzg;
         "fabric-1.21.6" = _xmruEBcq;
         "fabric-1.21.7" = _xmruEBcq;
         "fabric-1.21.8" = _xmruEBcq;
@@ -124,6 +137,7 @@ let
         "fabric-26.1.1" = _EFZDQxDW;
         "fabric-26.1.2" = _EFZDQxDW;
         "fabric-26.2" = _EFZDQxDW;
+        "fabric-26.3" = _Bzhbd4Nb;
         "forge-1.21.6" = _xmruEBcq;
         "forge-1.21.7" = _xmruEBcq;
         "forge-1.21.8" = _xmruEBcq;
@@ -134,6 +148,7 @@ let
         "forge-26.1.1" = _EFZDQxDW;
         "forge-26.1.2" = _EFZDQxDW;
         "forge-26.2" = _EFZDQxDW;
+        "forge-26.3" = _Bzhbd4Nb;
         "neoforge-1.21.6" = _xmruEBcq;
         "neoforge-1.21.7" = _xmruEBcq;
         "neoforge-1.21.8" = _xmruEBcq;
@@ -144,6 +159,7 @@ let
         "neoforge-26.1.1" = _EFZDQxDW;
         "neoforge-26.1.2" = _EFZDQxDW;
         "neoforge-26.2" = _EFZDQxDW;
+        "neoforge-26.3" = _Bzhbd4Nb;
         "quilt-1.21.6" = _xmruEBcq;
         "quilt-1.21.7" = _xmruEBcq;
         "quilt-1.21.8" = _xmruEBcq;
@@ -154,6 +170,7 @@ let
         "quilt-26.1.1" = _EFZDQxDW;
         "quilt-26.1.2" = _EFZDQxDW;
         "quilt-26.2" = _EFZDQxDW;
+        "quilt-26.3" = _Bzhbd4Nb;
         "pkg-0.1" = _TNKKjlzX;
         "pkg-0.2" = _JcaqTZy2;
         "pkg-0.3" = _gWpMwbVh;
@@ -170,7 +187,9 @@ let
         "pkg-1.2+mod" = _6iI8NrE7;
         "pkg-1.3" = _rxPLNsHm;
         "pkg-1.3+mod" = _EFZDQxDW;
-        "default" = _EFZDQxDW;
+        "pkg-1.4" = _xRjDkFzg;
+        "pkg-1.4+mod" = _Bzhbd4Nb;
+        "default" = _Bzhbd4Nb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "undyingrefill";

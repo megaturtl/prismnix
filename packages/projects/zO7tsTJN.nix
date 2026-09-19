@@ -941,6 +941,36 @@ let
             "file" = "yyzsbackpack-0.0.8-reborn+1.21.1.jar";
             "hash" = "sha512-6l/BkfNudk4ziZDS82R42DaOHi1kUFWzlClkBW9wLGDfcEYCtj5V25DKP4RcPNPipkliNP1MByNgov9l2rQXPA==";
         };
+        _HzlWgEri = {
+            "id" = "HzlWgEri";
+            "file" = "yyzsbackpack-0.0.9-reborn+1.20.1.jar";
+            "hash" = "sha512-lpRJOMrKKuqnmFfJUSYpFXa3LTgAJJ55OWM2DUNG/VBbTyZbH7DfZrmbYXo7FIMRmxgJ6+xJjkflqCalN5DU5w==";
+        };
+        _1lRq00dU = {
+            "id" = "1lRq00dU";
+            "file" = "yyzsbackpack-0.0.9-reborn+1.20.1.jar";
+            "hash" = "sha512-U3p0YKLbMngAKfvkOR1lWsoRJj/rMSsoBxeHzBHnE/7N6LXXCNUoxnFSqt0QHWrJLrNo64yVmqUT6Sfttmxg+Q==";
+        };
+        _te7Afz7R = {
+            "id" = "te7Afz7R";
+            "file" = "yyzsbackpack-0.0.9-reborn+1.21.1.jar";
+            "hash" = "sha512-/6ck0XQyY8p5h4sKwSvJ1gNon86JJFiLkasLa6gDWJShp2FWQTBI0avR1vqoIOJIyn+CfkYxrb4rfnp9Y+BKvA==";
+        };
+        _XX8IIM6d = {
+            "id" = "XX8IIM6d";
+            "file" = "yyzsbackpack-0.0.9-reborn+1.21.1.jar";
+            "hash" = "sha512-NHa/Qn2/8EFN3I1r2PXsU8kDG8IZokh7Z6+Ob5Ftsj/9BQtCYZzW+XaJaX5c/Ql6laYXW6/dwzbLTSJgnzaIeg==";
+        };
+        _XqR3fXrK = {
+            "id" = "XqR3fXrK";
+            "file" = "yyzsbackpack-0.0.9-reborn+26.2.jar";
+            "hash" = "sha512-3fG1wSc4w7ikvCDeKCLpvQB7clWkjtYYOvbXFoub7MtFaSyj2h1nGno1+6ilNXjo7CBGO/5U9jHPa66A5IHn3A==";
+        };
+        _T2gXIPij = {
+            "id" = "T2gXIPij";
+            "file" = "yyzsbackpack-0.0.9-reborn+26.2.jar";
+            "hash" = "sha512-iUgkgFQkDXIoAE+3ArpZfwGs8s8IRL6AVa5m0JvvbYIMNw1JBZicAGUNlR9JDGWwwAS84MAQdd6/+rcteDdZrw==";
+        };
     in {
         "VtFsx4a4" = _VtFsx4a4;
         "K1uzIQzr" = _K1uzIQzr;
@@ -1130,7 +1160,13 @@ let
         "BrUFovVR" = _BrUFovVR;
         "bpwAsBgU" = _bpwAsBgU;
         "FQcUpuRu" = _FQcUpuRu;
-        "forge-1.20.1" = _k8Kh6a09;
+        "HzlWgEri" = _HzlWgEri;
+        "1lRq00dU" = _1lRq00dU;
+        "te7Afz7R" = _te7Afz7R;
+        "XX8IIM6d" = _XX8IIM6d;
+        "XqR3fXrK" = _XqR3fXrK;
+        "T2gXIPij" = _T2gXIPij;
+        "forge-1.20.1" = _HzlWgEri;
         "forge-1.20.2" = _VNvlcxtt;
         "forge-1.20.3" = _VNvlcxtt;
         "forge-1.20.4" = _VNvlcxtt;
@@ -1142,13 +1178,13 @@ let
         "forge-1.18" = _qmrLFtxC;
         "forge-1.18.1" = _qmrLFtxC;
         "forge-1.18.2" = _qmrLFtxC;
-        "fabric-1.20.1" = _1Si4Sc3W;
+        "fabric-1.20.1" = _1lRq00dU;
         "fabric-1.20.2" = _zgVybsNV;
         "fabric-1.20.3" = _zgVybsNV;
         "fabric-1.20.4" = _zgVybsNV;
         "fabric-1.20.5" = _sQC0TWWl;
         "fabric-1.20.6" = _sQC0TWWl;
-        "fabric-1.21.1" = _FQcUpuRu;
+        "fabric-1.21.1" = _XX8IIM6d;
         "fabric-1.21.2" = _vhbfrwsT;
         "fabric-1.21.3" = _vhbfrwsT;
         "fabric-1.21.4" = _97Kgap9t;
@@ -1166,10 +1202,10 @@ let
         "fabric-1.21.8" = _Ylg7JY8i;
         "fabric-1.21" = _u4knHwHi;
         "fabric-1.21.9" = _IsObMMyE;
-        "fabric-26.2" = _BrUFovVR;
+        "fabric-26.2" = _T2gXIPij;
         "neoforge-1.20.5" = _xVP8pryS;
         "neoforge-1.20.6" = _xVP8pryS;
-        "neoforge-1.21.1" = _bpwAsBgU;
+        "neoforge-1.21.1" = _te7Afz7R;
         "neoforge-1.21.2" = _yqYV2F67;
         "neoforge-1.21.3" = _yqYV2F67;
         "neoforge-1.21.4" = _GOEvS74L;
@@ -1178,7 +1214,7 @@ let
         "neoforge-1.21.7" = _TR3Q4AgG;
         "neoforge-1.21.8" = _TR3Q4AgG;
         "neoforge-1.21.9" = _8LZUolfR;
-        "neoforge-26.2" = _HgagkFdw;
+        "neoforge-26.2" = _XqR3fXrK;
         "pkg-0.0.3" = _p7ocZdgt;
         "pkg-0.0.4" = _QkMqywGi;
         "pkg-0.0.5" = _eXMDyQhq;
@@ -1241,7 +1277,10 @@ let
         "pkg-0.0.7-reborn+1.21.1" = _Hi0xdy72;
         "pkg-0.0.7-reborn+26.2" = _BrUFovVR;
         "pkg-0.0.8-reborn+1.21.1" = _FQcUpuRu;
-        "default" = _FQcUpuRu;
+        "pkg-0.0.9-reborn+1.20.1" = _1lRq00dU;
+        "pkg-0.0.9-reborn+1.21.1" = _XX8IIM6d;
+        "pkg-0.0.9-reborn+26.2" = _T2gXIPij;
+        "default" = _T2gXIPij;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yyzs-backpack";

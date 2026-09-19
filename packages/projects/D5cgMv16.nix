@@ -36,6 +36,16 @@ let
             "file" = "inventorybuttons-26.1-1.2.2.jar";
             "hash" = "sha512-LpedJWVxebQv3DO7zS5BusnGWRsaGv8VbV2h+YeYprQdrDYwGtmnx9x82TP+vrWanc0fRmx3RN208z21wTXDzg==";
         };
+        _C7Ulb3Z8 = {
+            "id" = "C7Ulb3Z8";
+            "file" = "inventorybuttons-26.2-1.2.3.jar";
+            "hash" = "sha512-ZGSyazzzJq2w10Ch99MbtYe0jo6C5lX3WxcUMOykByqNs0UGpFgwBMhuaFJG/WeAIOIIe4n3qa7SXqPV/WC2Ug==";
+        };
+        _b56aCXzC = {
+            "id" = "b56aCXzC";
+            "file" = "inventorybuttons-26.1-1.2.3.jar";
+            "hash" = "sha512-WB69IyFerog9SxDPBBBX5JlKfTuDh52ghdoLss6IqSmheq1vgmdYRo5+zAvdty9l68ChqDryZnKVZNFzDtKyaA==";
+        };
     in {
         "tF6S2sW0" = _tF6S2sW0;
         "gWkd1zqG" = _gWkd1zqG;
@@ -44,11 +54,14 @@ let
         "B41ODssV" = _B41ODssV;
         "NrxxkWwA" = _NrxxkWwA;
         "VHJO7uSf" = _VHJO7uSf;
+        "C7Ulb3Z8" = _C7Ulb3Z8;
+        "b56aCXzC" = _b56aCXzC;
         "fabric-1.21.5" = _gWkd1zqG;
         "fabric-1.21.11" = _NrxxkWwA;
-        "fabric-26.1" = _VHJO7uSf;
-        "fabric-26.1.1" = _VHJO7uSf;
-        "fabric-26.1.2" = _VHJO7uSf;
+        "fabric-26.1" = _b56aCXzC;
+        "fabric-26.1.1" = _b56aCXzC;
+        "fabric-26.1.2" = _b56aCXzC;
+        "fabric-26.2" = _C7Ulb3Z8;
         "pkg-1.0.0" = _tF6S2sW0;
         "pkg-1.1.0" = _gWkd1zqG;
         "pkg-1.2.0" = _hFrA0AMd;
@@ -56,7 +69,9 @@ let
         "pkg-26.1-v1.2.1" = _B41ODssV;
         "pkg-1.21.11-v1.2.2" = _NrxxkWwA;
         "pkg-26.1-v1.2.2" = _VHJO7uSf;
-        "default" = _VHJO7uSf;
+        "pkg-26.2-v1.2.3" = _C7Ulb3Z8;
+        "pkg-26.1-v1.2.3" = _b56aCXzC;
+        "default" = _b56aCXzC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "inventory-buttons";

@@ -141,6 +141,41 @@ let
             "file" = "chat_highlight_n_sound-1.1.4-2.jar";
             "hash" = "sha512-f/AI3WV7zCaA3lnDRFNbojujbzHaAEYTANTGXlLH52zXN+uQHSGEBDyafKCsUFJVq+jfNaYCoDiDwL4xY7n/4A==";
         };
+        _XcCwV45k = {
+            "id" = "XcCwV45k";
+            "file" = "chat_highlight_n_sound-1.2.0.jar";
+            "hash" = "sha512-KVtylq4j8OMkdgSE3ojI79OMt9eW4EIDQ1w3AQr4U9h4vudDTz0Kis0MGnNf6ifYMvRHfBQv0z3wl7hqmCvndA==";
+        };
+        _Ae4iZSAZ = {
+            "id" = "Ae4iZSAZ";
+            "file" = "chat_highlight_n_sound-1.2.0.jar";
+            "hash" = "sha512-sTQ28prjnvRqxpWh3rCf2iHeYrXdNp3Ajl2urcEDp4lh+2DLhjH22jZBAwDQy3bm8a56SFqCN5SH89QkJrVCCQ==";
+        };
+        _3eRHHRHK = {
+            "id" = "3eRHHRHK";
+            "file" = "chat_highlight_n_sound-1.2.0.jar";
+            "hash" = "sha512-eOlHUQTHUlo/ZaS/Onn60bAoB8GboP/951gEIi5Q2Pd/h0QqamXZNFsX8euzcWKaE7tuJuZd9LdE0DLkBhrz0w==";
+        };
+        _eMEHbW6Z = {
+            "id" = "eMEHbW6Z";
+            "file" = "chat_highlight_n_sound-1.2.0.jar";
+            "hash" = "sha512-LX+7YodLru3QMJwzR64Ne8/D2sz6B4yhNR6vx2+7NLKMYuBKliXEoZ8bSiRN1C1v6jimZS0O/d49V7Q+bUra6Q==";
+        };
+        _7HIiGQK9 = {
+            "id" = "7HIiGQK9";
+            "file" = "chat_highlight_n_sound-1.2.0.jar";
+            "hash" = "sha512-C8IL99D0sWmywoHJlOFOtPMI/rDE1IwSTwHEPfR25Sxcoo/zx+YVnE0QZJ4L4BjYPrHXLT+CCFAMyzXfdt+wGg==";
+        };
+        _ememvXTL = {
+            "id" = "ememvXTL";
+            "file" = "chat_highlight_n_sound-1.2.0.jar";
+            "hash" = "sha512-duFS/xgvMmoSAna8w9qCdxhLjwgCsY9oVNz5n6D5K1R1+kuKfDd6fn9yRAJgVDqetA0xKM4GSxbfOjkK/tvXFA==";
+        };
+        _5an1I5Bl = {
+            "id" = "5an1I5Bl";
+            "file" = "chat_highlight_n_sound-1.2.0.jar";
+            "hash" = "sha512-qIa6nO/ODPKy6CKHYfKCFsuE4IOT04vUoXPONlcMZw2bUuK5Dsg3/GKl5egc8El7i7a2rAXapmW5uh+7yJGoEA==";
+        };
     in {
         "Ci1JSQyK" = _Ci1JSQyK;
         "ntYqUbkA" = _ntYqUbkA;
@@ -170,16 +205,25 @@ let
         "NkJwFO0K" = _NkJwFO0K;
         "tqylDC8j" = _tqylDC8j;
         "dIb8Hh6E" = _dIb8Hh6E;
-        "forge-1.20.1" = _tqylDC8j;
+        "XcCwV45k" = _XcCwV45k;
+        "Ae4iZSAZ" = _Ae4iZSAZ;
+        "3eRHHRHK" = _3eRHHRHK;
+        "eMEHbW6Z" = _eMEHbW6Z;
+        "7HIiGQK9" = _7HIiGQK9;
+        "ememvXTL" = _ememvXTL;
+        "5an1I5Bl" = _5an1I5Bl;
+        "forge-1.20.1" = _Ae4iZSAZ;
         "neoforge-1.21.10" = _ntYqUbkA;
-        "neoforge-1.21.1" = _NkJwFO0K;
-        "fabric-1.21.10" = _dIb8Hh6E;
+        "neoforge-1.21.1" = _eMEHbW6Z;
+        "fabric-1.21.10" = _7HIiGQK9;
         "fabric-1.21.8" = _wFdiigbp;
-        "fabric-1.21.11" = _dIb8Hh6E;
-        "fabric-26.1.2" = _bhqb5Q80;
-        "fabric-26.1" = _bhqb5Q80;
-        "fabric-26.1.1" = _bhqb5Q80;
-        "fabric-26.2" = _WYRVpkdX;
+        "fabric-1.21.11" = _7HIiGQK9;
+        "fabric-26.1.2" = _ememvXTL;
+        "fabric-26.1" = _ememvXTL;
+        "fabric-26.1.1" = _ememvXTL;
+        "fabric-26.2" = _5an1I5Bl;
+        "fabric-1.20.1" = _XcCwV45k;
+        "fabric-1.21.1" = _3eRHHRHK;
         "pkg-1.0.0" = _wFdiigbp;
         "pkg-1.0.1" = _wWIc0BXT;
         "pkg-1.0.2" = _DQmjIqOA;
@@ -192,7 +236,8 @@ let
         "pkg-1.1.3" = _iIDsaP29;
         "pkg-1.1.4" = _tqylDC8j;
         "pkg-1.1.4-2" = _dIb8Hh6E;
-        "default" = _dIb8Hh6E;
+        "pkg-1.2.0" = _5an1I5Bl;
+        "default" = _5an1I5Bl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chat-highlight-n-sound";

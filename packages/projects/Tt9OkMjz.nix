@@ -106,6 +106,16 @@ let
             "file" = "tleveling-1.1.1-1.20.1.jar";
             "hash" = "sha512-PNrD0Qdy8eTIa5DgCjyuYom6XsJf0CBVYwQGuO9ga8b0K6wMv3St9n8hqSxrkh+u2WNmuoXjR5qKoobSErcjyw==";
         };
+        _bYtEi1qy = {
+            "id" = "bYtEi1qy";
+            "file" = "tleveling-1.2.0-1.20.1.jar";
+            "hash" = "sha512-BkiJ1x4hAlgCj5bODQ1FjzfmoREspvv+jRlWHHs6JWpMZndJ3rlA9qCcaYY08mXQkYZ6KfNOyJAVaRwPC94enw==";
+        };
+        _U07cbO9n = {
+            "id" = "U07cbO9n";
+            "file" = "tleveling-1.2.1-1.20.1.jar";
+            "hash" = "sha512-ydpqBV26hfZuASeHZJzpQI06WebPKm+BONGepZiPRBkuXlwup63173lWg1eAmowG/TTJugFwihjgPMo5i36zFg==";
+        };
     in {
         "DkhnpqiN" = _DkhnpqiN;
         "IyybDXG8" = _IyybDXG8;
@@ -128,15 +138,17 @@ let
         "B3k2bhy3" = _B3k2bhy3;
         "tzwhkEtZ" = _tzwhkEtZ;
         "8dbrbCRA" = _8dbrbCRA;
+        "bYtEi1qy" = _bYtEi1qy;
+        "U07cbO9n" = _U07cbO9n;
         "forge-1.19.2" = _kvQj50yW;
         "forge-1.19.3" = _kvQj50yW;
         "forge-1.19.4" = _kvQj50yW;
-        "forge-1.20.1" = _8dbrbCRA;
-        "forge-1.20.2" = _8dbrbCRA;
-        "forge-1.20.3" = _8dbrbCRA;
-        "forge-1.20.4" = _8dbrbCRA;
-        "forge-1.20.5" = _8dbrbCRA;
-        "forge-1.20.6" = _8dbrbCRA;
+        "forge-1.20.1" = _U07cbO9n;
+        "forge-1.20.2" = _U07cbO9n;
+        "forge-1.20.3" = _U07cbO9n;
+        "forge-1.20.4" = _U07cbO9n;
+        "forge-1.20.5" = _U07cbO9n;
+        "forge-1.20.6" = _U07cbO9n;
         "pkg-0.0.1-1.19.2" = _DkhnpqiN;
         "pkg-0.0.2-1.19.2" = _IyybDXG8;
         "pkg-0.0.3-1.19.2" = _7wERCjYo;
@@ -158,7 +170,9 @@ let
         "pkg-1.0.3-1.20.1" = _B3k2bhy3;
         "pkg-1.1.0-1.20.1" = _tzwhkEtZ;
         "pkg-1.1.1-1.20.1" = _8dbrbCRA;
-        "default" = _8dbrbCRA;
+        "pkg-1.2.0-1.20.1" = _bYtEi1qy;
+        "pkg-1.2.1-1.20.1" = _U07cbO9n;
+        "default" = _U07cbO9n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tinkers-tool-leveling-2";

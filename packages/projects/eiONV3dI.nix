@@ -346,6 +346,36 @@ let
             "file" = "music_tweaks-forge-1.20.1-1.6.0.jar";
             "hash" = "sha512-DgGS9zw9iRrb7u+c2NA37hw353CvV+SJYXCoCf3v+oDasE7VseWDttrZYBT75HaSA/7bdoKFhxbEVeCA0AI7aQ==";
         };
+        _UUfFOhnF = {
+            "id" = "UUfFOhnF";
+            "file" = "music_tweaks-neoforge-1.21.1-1.7.2.jar";
+            "hash" = "sha512-gH3UMsPaNuthSCmn++srzZ3IlNjsmGy8zyca4jvY0hB/HWzWdYuBPS4NLXAGbWSBELJ3Pqur+ZJD1xdbG2+Gzw==";
+        };
+        _BXKM4qT5 = {
+            "id" = "BXKM4qT5";
+            "file" = "music_tweaks-fabric-1.21.1-1.7.2.jar";
+            "hash" = "sha512-07LbSQScHB3x2OCkHBC1uzx9Cygh6lF2ApnoUDO0cmhfvgYABNv6ESTbwX9h43dCf4Sxgv0iaTmn3tXBs2z2gQ==";
+        };
+        _WHy0YmFl = {
+            "id" = "WHy0YmFl";
+            "file" = "music_tweaks-fabric-1.20.1-1.7.0.jar";
+            "hash" = "sha512-GfBLnGlbSpr0wogw7NrEdcPmfWWvHDlWS4x6ae3qKZbrsPYztXZuHp8wKcf/YJFohmDS8ZU13PSDWZGk18tMlw==";
+        };
+        _Vhv4ATtd = {
+            "id" = "Vhv4ATtd";
+            "file" = "music_tweaks-forge-1.20.1-1.7.0.jar";
+            "hash" = "sha512-iSAuKgT03xkgOI3Dv9xOa9X3b/ngK2EVOwa1tPKOTJEXkkemHzt22ooEpMDZ/VcRynARGbzCNuxnr3xQa0tPrw==";
+        };
+        _vUk3iT2o = {
+            "id" = "vUk3iT2o";
+            "file" = "music_tweaks-neoforge-1.21.1-1.8.0.jar";
+            "hash" = "sha512-vRyVpJ8cYqQ6xRkwriRqyN4XrqNkNiB6GR0Uj+S/kS6Msg3B97Q4RCMiG4ZWqTOXT+4TJ+laHwl02qpGzFL8Uw==";
+        };
+        _7cTs5Vaj = {
+            "id" = "7cTs5Vaj";
+            "file" = "music_tweaks-fabric-1.21.1-1.8.0.jar";
+            "hash" = "sha512-AIfE3Ee8DX6EbjcgjNey7WnlI2lNAObjpcxHxhvOkmVdi5RWOsf24/ssqt/5AOWcgpzEOWSBTF7fODNqLJuboA==";
+        };
     in {
         "GTquokho" = _GTquokho;
         "tAPvPJHR" = _tAPvPJHR;
@@ -416,12 +446,18 @@ let
         "xT1wmOEh" = _xT1wmOEh;
         "qRoIyIqo" = _qRoIyIqo;
         "rJpVVLSD" = _rJpVVLSD;
-        "fabric-1.20.1" = _qRoIyIqo;
-        "fabric-1.21.1" = _xT1wmOEh;
+        "UUfFOhnF" = _UUfFOhnF;
+        "BXKM4qT5" = _BXKM4qT5;
+        "WHy0YmFl" = _WHy0YmFl;
+        "Vhv4ATtd" = _Vhv4ATtd;
+        "vUk3iT2o" = _vUk3iT2o;
+        "7cTs5Vaj" = _7cTs5Vaj;
+        "fabric-1.20.1" = _WHy0YmFl;
+        "fabric-1.21.1" = _7cTs5Vaj;
         "fabric-26.1" = _qnDRIZIg;
         "fabric-26.2" = _pZchnjt7;
-        "forge-1.20.1" = _rJpVVLSD;
-        "neoforge-1.21.1" = _6PTQdPwh;
+        "forge-1.20.1" = _Vhv4ATtd;
+        "neoforge-1.21.1" = _vUk3iT2o;
         "neoforge-26.1" = _2P2nrxtz;
         "neoforge-26.2" = _Au72T7dM;
         "pkg-1.0.0-1.20.1-fabric" = _GTquokho;
@@ -493,7 +529,13 @@ let
         "pkg-1.7.1-1.21.1-fabric" = _xT1wmOEh;
         "pkg-1.6.0-1.20.1-fabric" = _qRoIyIqo;
         "pkg-1.6.0-1.20.1-forge" = _rJpVVLSD;
-        "default" = _rJpVVLSD;
+        "pkg-1.7.2-1.21.1-neoforge" = _UUfFOhnF;
+        "pkg-1.7.2-1.21.1-fabric" = _BXKM4qT5;
+        "pkg-1.7.0-1.20.1-fabric" = _WHy0YmFl;
+        "pkg-1.7.0-1.20.1-forge" = _Vhv4ATtd;
+        "pkg-1.8.0-1.21.1-neoforge" = _vUk3iT2o;
+        "pkg-1.8.0-1.21.1-fabric" = _7cTs5Vaj;
+        "default" = _7cTs5Vaj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mini-music-tweaks";

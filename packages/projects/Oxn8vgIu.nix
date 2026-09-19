@@ -61,6 +61,11 @@ let
             "file" = "coordinate-manager-1.1.8.jar";
             "hash" = "sha512-ZAWhKYvq80MF8bdpTuj5IuS9kJX944bpOdKiLHTRR/tvLf5AZCN624ywELs+OMwkstSkLqmXyEnvVMkKlF7AWg==";
         };
+        _BzlS92FQ = {
+            "id" = "BzlS92FQ";
+            "file" = "coordinate-manager-1.1.9.jar";
+            "hash" = "sha512-pCWS1OiVhrcmjUAoeowyXKoUUByP0tXO5jIfbwzNyoxEzFjEbttVdy45+RLN14Aj8jbayg58JA9cyaGMWCTCSQ==";
+        };
     in {
         "UuKMzMJA" = _UuKMzMJA;
         "ZmeywZg8" = _ZmeywZg8;
@@ -74,6 +79,7 @@ let
         "VXjUakxW" = _VXjUakxW;
         "GtgRupXB" = _GtgRupXB;
         "D5lVlefl" = _D5lVlefl;
+        "BzlS92FQ" = _BzlS92FQ;
         "fabric-1.21.4" = _UuKMzMJA;
         "fabric-1.21.5" = _mRxru8xS;
         "fabric-1.21.6" = _v917Qh6w;
@@ -86,6 +92,7 @@ let
         "fabric-26.1.1" = _GtgRupXB;
         "fabric-26.1.2" = _GtgRupXB;
         "fabric-26.2" = _D5lVlefl;
+        "fabric-26.3" = _BzlS92FQ;
         "pkg-1.0.0" = _UuKMzMJA;
         "pkg-1.0.1" = _ZmeywZg8;
         "pkg-1.0.2" = _mRxru8xS;
@@ -98,7 +105,8 @@ let
         "pkg-1.1.6" = _VXjUakxW;
         "pkg-1.1.7" = _GtgRupXB;
         "pkg-1.1.8" = _D5lVlefl;
-        "default" = _D5lVlefl;
+        "pkg-1.1.9" = _BzlS92FQ;
+        "default" = _BzlS92FQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "coordinate-manager";

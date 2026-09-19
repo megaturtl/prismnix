@@ -1011,6 +1011,16 @@ let
             "file" = "cratedelight-26.07.20-1.21-fabric.jar";
             "hash" = "sha512-1xiYRpnA8IRaD1XdIwaUzyCfxCaU7HfSdZbgGjvm+K+Zypfcd/IxCD+DSYxCTzPMMEfi2OpXydZzO5/s46Jz+w==";
         };
+        _JoQeIy9i = {
+            "id" = "JoQeIy9i";
+            "file" = "cratedelight-26.09.15-26.3-fabric.jar";
+            "hash" = "sha512-MuV6MxrS3WsCr2/KzRL9Bi9AaPUhepO78hIq3hn4a/+WJzK3Dsg2QLvDxbHHWiKhHQ+GRv4+OHTe6smScwISOQ==";
+        };
+        _6BSh7ihh = {
+            "id" = "6BSh7ihh";
+            "file" = "cratedelight-26.09.15-26.3-neoforge.jar";
+            "hash" = "sha512-9I2FiZp9VxrAfW/noJE4K8byqhWBwIVUc20gJu5qWXyS9u17i6//hOlCVwm+VisXs0WKgHARSTdBcPAyUEII0g==";
+        };
     in {
         "9K4pSdWC" = _9K4pSdWC;
         "dphpgweU" = _dphpgweU;
@@ -1214,6 +1224,8 @@ let
         "8mwy8hQa" = _8mwy8hQa;
         "tUALGrAr" = _tUALGrAr;
         "DZ9ekJtp" = _DZ9ekJtp;
+        "JoQeIy9i" = _JoQeIy9i;
+        "6BSh7ihh" = _6BSh7ihh;
         "fabric-1.20.1" = _Zv5WA4jT;
         "fabric-1.19.2" = _JANVkr5M;
         "fabric-1.19" = _JANVkr5M;
@@ -1240,6 +1252,7 @@ let
         "fabric-26.1.1" = _BN65jCGU;
         "fabric-26.1.2" = _BN65jCGU;
         "fabric-26.2" = _bh14ODmF;
+        "fabric-26.3" = _JoQeIy9i;
         "quilt-1.20.1" = _Zv5WA4jT;
         "quilt-1.19.2" = _JANVkr5M;
         "quilt-1.19" = _JANVkr5M;
@@ -1313,6 +1326,7 @@ let
         "neoforge-26.1.1" = _mxSBHvwP;
         "neoforge-26.1.2" = _mxSBHvwP;
         "neoforge-26.2" = _tUALGrAr;
+        "neoforge-26.3" = _6BSh7ihh;
         "pkg-1.0.0" = _9K4pSdWC;
         "pkg-1.1.1" = _dphpgweU;
         "pkg-1.1.2" = _rcoeyRGA;
@@ -1506,7 +1520,9 @@ let
         "pkg-26.07.01-26.2-forge" = _8mwy8hQa;
         "pkg-26.07.01-26.2-neoforge" = _tUALGrAr;
         "pkg-26.07.20-1.21-fabric" = _DZ9ekJtp;
-        "default" = _DZ9ekJtp;
+        "pkg-26.09.15-26.3-fabric" = _JoQeIy9i;
+        "pkg-26.09.15-26.3-neoforge" = _6BSh7ihh;
+        "default" = _6BSh7ihh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crate-delight";

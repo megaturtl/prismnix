@@ -36,6 +36,31 @@ let
             "file" = "interactic-0.2.3+1.21.1.jar";
             "hash" = "sha512-diNi4q9r/NEteBsCO6YNzFmwkU+wAuzH0p6eO5ypzAUF4BCjhDhnsNUc+sUBNRfZsK8QVmwMAreghhxzbLhv1w==";
         };
+        _MjSTvrta = {
+            "id" = "MjSTvrta";
+            "file" = "interactic-renewed-0.2.4+1.21.1.jar";
+            "hash" = "sha512-KoHLzUiD4jk5xVgPKe0B/b64LzCngesN2yvT3EoysYlwxpJa/pMtBVF4h22saEqmmjCvTuv9anaBi5UZeKF+6g==";
+        };
+        _ktD3Cfqi = {
+            "id" = "ktD3Cfqi";
+            "file" = "interactic-renewed-0.2.1+26.1.jar";
+            "hash" = "sha512-ViXZrPyLLFxff+L2LmOqdGi8XToqhcMkx9dy3JQrZLuD+i3nUX6YTR+7vVU7dJbsMnh0o1q8XhEq7ESpTlkhpQ==";
+        };
+        _cUwaLPMn = {
+            "id" = "cUwaLPMn";
+            "file" = "interactic-renewed-0.2.1+26.1.1.jar";
+            "hash" = "sha512-6D4EHgQlCJdclMtckol+LdEisv5AVVrvZrVMeXl92wCIduW7WOcrqrrIwKmnC18xtOycZjR+UGHxbQ3/WS2Hyw==";
+        };
+        _IMq6Ia6e = {
+            "id" = "IMq6Ia6e";
+            "file" = "interactic-renewed-0.2.1+26.1.2.jar";
+            "hash" = "sha512-PGGNjpMfUt/XhqbxyWk+rCy1NHTPEf0Ia9oIZSMEfWJCykuELgSY6px3ETUMKmLZaLOHufbO1OnVssIxmm7lhQ==";
+        };
+        _rh5VqcHi = {
+            "id" = "rh5VqcHi";
+            "file" = "interactic-renewed-0.2.1+26.2.jar";
+            "hash" = "sha512-Lyu8CqNK1EZ/MWh9uolNxhP9VFa8VBcp4HjMevwAXvZBixobL1DTlAY7ozc0AhShxhRHBLo2KOttguPZ/qdKTg==";
+        };
     in {
         "aZflqPZK" = _aZflqPZK;
         "503X3n3W" = _503X3n3W;
@@ -44,8 +69,17 @@ let
         "W7wuWb1h" = _W7wuWb1h;
         "CNpY65Sr" = _CNpY65Sr;
         "oLpmxFu7" = _oLpmxFu7;
+        "MjSTvrta" = _MjSTvrta;
+        "ktD3Cfqi" = _ktD3Cfqi;
+        "cUwaLPMn" = _cUwaLPMn;
+        "IMq6Ia6e" = _IMq6Ia6e;
+        "rh5VqcHi" = _rh5VqcHi;
         "fabric-1.20.1" = _CNpY65Sr;
-        "fabric-1.21.1" = _dbGaW2vq;
+        "fabric-1.21.1" = _MjSTvrta;
+        "fabric-26.1" = _ktD3Cfqi;
+        "fabric-26.1.1" = _cUwaLPMn;
+        "fabric-26.1.2" = _IMq6Ia6e;
+        "fabric-26.2" = _rh5VqcHi;
         "neoforge-1.21.1" = _oLpmxFu7;
         "pkg-0.2.1+1.20.1" = _aZflqPZK;
         "pkg-0.2.1+1.21.1" = _503X3n3W;
@@ -53,7 +87,12 @@ let
         "pkg-0.2.3+1.21.1" = _oLpmxFu7;
         "pkg-0.2.2+1.20.1" = _W7wuWb1h;
         "pkg-0.2.3+1.20.1" = _CNpY65Sr;
-        "default" = _oLpmxFu7;
+        "pkg-0.2.4+1.21.1" = _MjSTvrta;
+        "pkg-0.2.1+26.1" = _ktD3Cfqi;
+        "pkg-0.2.1+26.1.1" = _cUwaLPMn;
+        "pkg-0.2.1+26.1.2" = _IMq6Ia6e;
+        "pkg-0.2.1+26.2" = _rh5VqcHi;
+        "default" = _rh5VqcHi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "interactic-renewed";

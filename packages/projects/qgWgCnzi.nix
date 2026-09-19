@@ -361,6 +361,21 @@ let
             "file" = "lazy-ai-1.6.2.jar";
             "hash" = "sha512-Ln6qzNT3fqdKrBP6qt/P3DGA7kQOI+pGHBiBgvvRFziPWX+wDQQZ+ANQOQg6O2ckSg2ee1s5oCdCECvkpRqNpA==";
         };
+        _jKkYzh8N = {
+            "id" = "jKkYzh8N";
+            "file" = "lazy-ai-1.7.0.jar";
+            "hash" = "sha512-fOo2CwfH8leYNhNUNHqse86Cyem0j/v7UXnDA/Fe2GVD1wjaDXDdbsbtsKc2EGa3BPvQ866cBy4r813YX8TFPA==";
+        };
+        _Sfrf5xlS = {
+            "id" = "Sfrf5xlS";
+            "file" = "lazy-ai-1.7.0.jar";
+            "hash" = "sha512-Z9HuERzRqQNEHPS95nameSV39/yFmyOA6u+axH0vhTBKOlq9v/Qo/d1DlIuVEbFcVNEvil8rZhu1kvD1RXWPxg==";
+        };
+        _3oSiZQ1C = {
+            "id" = "3oSiZQ1C";
+            "file" = "lazy-ai-1.7.0.jar";
+            "hash" = "sha512-+nq5/fJLA1YRiInrf4oMSnygH/ffcZf+oShcd3HSZW+ocFdERqkgE20DupjJm2H4qEqs3VprRF2dRgK2sA2UCQ==";
+        };
     in {
         "Avkn2FKb" = _Avkn2FKb;
         "m9o5746u" = _m9o5746u;
@@ -434,6 +449,9 @@ let
         "oZpkGdk6" = _oZpkGdk6;
         "XLyBr09V" = _XLyBr09V;
         "Trs7zmPQ" = _Trs7zmPQ;
+        "jKkYzh8N" = _jKkYzh8N;
+        "Sfrf5xlS" = _Sfrf5xlS;
+        "3oSiZQ1C" = _3oSiZQ1C;
         "fabric-1.21.6" = _hONdhTof;
         "fabric-1.21.7" = _hONdhTof;
         "fabric-1.21.8" = _hONdhTof;
@@ -458,10 +476,11 @@ let
         "fabric-1.19.3" = _lifrOU2m;
         "fabric-1.19.4" = _lifrOU2m;
         "fabric-1.21.11" = _sF1PSBbf;
-        "fabric-26.1" = _Trs7zmPQ;
-        "fabric-26.1.1" = _Trs7zmPQ;
-        "fabric-26.1.2" = _Trs7zmPQ;
-        "fabric-26.2" = _XLyBr09V;
+        "fabric-26.1" = _Sfrf5xlS;
+        "fabric-26.1.1" = _Sfrf5xlS;
+        "fabric-26.1.2" = _Sfrf5xlS;
+        "fabric-26.2" = _jKkYzh8N;
+        "fabric-26.3" = _3oSiZQ1C;
         "pkg-1.0.0" = _Avkn2FKb;
         "pkg-1.1.0" = _m9o5746u;
         "pkg-1.1.1" = _AoBZzCZ9;
@@ -480,7 +499,8 @@ let
         "pkg-1.6.0" = _4825j8Nd;
         "pkg-1.6.1" = _oZpkGdk6;
         "pkg-1.6.2" = _Trs7zmPQ;
-        "default" = _Trs7zmPQ;
+        "pkg-1.7.0" = _3oSiZQ1C;
+        "default" = _3oSiZQ1C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lazyai";

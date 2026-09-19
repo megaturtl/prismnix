@@ -31,6 +31,11 @@ let
             "file" = "hitbox-enchanced-1.0.0+26.2.jar";
             "hash" = "sha512-qz9c1aR8V5KXaEvCu2IZX1thtMZpn7YtUQZCD19HIVnSHksmYB4Nu0DR2fnym0SPRnJjn1eCWCLPK1W8xJtTuA==";
         };
+        _hdkydvvv = {
+            "id" = "hdkydvvv";
+            "file" = "hitbox-enchanced-1.0.0+26.3.jar";
+            "hash" = "sha512-iQApQ7o0+zmv1Zq/RoRonrZlUm0JUf9vQYy9Sf6/FO+7iwMrfll/v8ZmrMj+0uIoO16A2p2NoI42rBQzb+ytxg==";
+        };
     in {
         "CNbC9snS" = _CNbC9snS;
         "zWjdTNl3" = _zWjdTNl3;
@@ -38,14 +43,16 @@ let
         "neZ4lOeU" = _neZ4lOeU;
         "FsDKh20j" = _FsDKh20j;
         "ColpuE2f" = _ColpuE2f;
+        "hdkydvvv" = _hdkydvvv;
         "fabric-1.21.6" = _CNbC9snS;
         "fabric-1.21.11" = _zWjdTNl3;
         "fabric-26.1.1" = _zBtKEfpZ;
         "fabric-26.1.2" = _neZ4lOeU;
         "fabric-26.1" = _FsDKh20j;
         "fabric-26.2" = _ColpuE2f;
-        "pkg-1.0.0" = _ColpuE2f;
-        "default" = _ColpuE2f;
+        "fabric-26.3" = _hdkydvvv;
+        "pkg-1.0.0" = _hdkydvvv;
+        "default" = _hdkydvvv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-hitbox";

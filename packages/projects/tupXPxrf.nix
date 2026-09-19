@@ -21,17 +21,25 @@ let
             "file" = "boosters-1.3.2+26.2-neoforge.jar";
             "hash" = "sha512-sOViVjzyiueNTAYyZQmhbT5RheFvIB80Xpcltop/MfprZo/vAnTkxhiQKLROvG/s45B6IzIHRiKtBIV+/XA/hg==";
         };
+        _AZXJOz3u = {
+            "id" = "AZXJOz3u";
+            "file" = "boosters-1.3.4+26.3-fabric.jar";
+            "hash" = "sha512-0/2e8sBDPHiVrbcPUW6xf6r9haeFgeNrrIrNeIWhg3YWY3I+Uu6qmnRpg3DLXkJfILBzQ/Go6XLZXhxFn6zG9w==";
+        };
     in {
         "iuYqEWlS" = _iuYqEWlS;
         "Pa6Hn1zO" = _Pa6Hn1zO;
         "BJMP8qBA" = _BJMP8qBA;
         "kWWnkKRA" = _kWWnkKRA;
+        "AZXJOz3u" = _AZXJOz3u;
         "fabric-26.2" = _BJMP8qBA;
+        "fabric-26.3" = _AZXJOz3u;
         "neoforge-26.2" = _kWWnkKRA;
         "pkg-1.3.0" = _iuYqEWlS;
         "pkg-1.3.1" = _Pa6Hn1zO;
         "pkg-1.3.2" = _kWWnkKRA;
-        "default" = _kWWnkKRA;
+        "pkg-1.3.4" = _AZXJOz3u;
+        "default" = _AZXJOz3u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "boosters";

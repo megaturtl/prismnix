@@ -231,6 +231,16 @@ let
             "file" = "DayCount-1.6.0-Forge-mc1.21.jar";
             "hash" = "sha512-8Q0OZDgLrBYVUKPPwsZKiJ95GQwHjqvrmJ4QrHvtxZnklBT+VOZ7JV47ZnfZ7hM+eX6UwwJDU2OAcefZOjBX7A==";
         };
+        _L51DMDzc = {
+            "id" = "L51DMDzc";
+            "file" = "DayCount-1.6.0-Fabric-mc26.3.jar";
+            "hash" = "sha512-HAiKt3//Y97wRK0Z3mYnvjawKxtVVE1IYMT3/hFHbZcegke0OL1hVUSYrWeVblV6TLvcsxfANKt07tVGzdkvpg==";
+        };
+        _IQq7wgpC = {
+            "id" = "IQq7wgpC";
+            "file" = "DayCount-1.6.0-NeoForge-mc26.3.jar";
+            "hash" = "sha512-Ihb9oJhjRpyg/hrbcah0wMv7IDwmgV5Z1UjP/+5h4V0zQhsQtrsL0B7fZxELITexycx1y1eoK6zWrt+IPZpKuw==";
+        };
     in {
         "VJ5roQDG" = _VJ5roQDG;
         "9rgoN5ar" = _9rgoN5ar;
@@ -278,6 +288,8 @@ let
         "DhaV6d4O" = _DhaV6d4O;
         "uJwuir4k" = _uJwuir4k;
         "zEDt3Qmz" = _zEDt3Qmz;
+        "L51DMDzc" = _L51DMDzc;
+        "IQq7wgpC" = _IQq7wgpC;
         "forge-1.20.1" = _CX0z7Tyv;
         "forge-1.20" = _CX0z7Tyv;
         "forge-1.20.2" = _CX0z7Tyv;
@@ -321,6 +333,7 @@ let
         "neoforge-26.1.1" = _tmgmeGpC;
         "neoforge-26.1.2" = _tmgmeGpC;
         "neoforge-26.2" = _tmgmeGpC;
+        "neoforge-26.3" = _IQq7wgpC;
         "fabric-26.1" = _af2OGbsY;
         "fabric-26.1.1" = _af2OGbsY;
         "fabric-26.1.2" = _af2OGbsY;
@@ -343,6 +356,7 @@ let
         "fabric-1.21.3" = _DhaV6d4O;
         "fabric-1.21.4" = _DhaV6d4O;
         "fabric-1.21.5" = _DhaV6d4O;
+        "fabric-26.3" = _L51DMDzc;
         "pkg-0.5.0-Forge-mc1.20.1" = _VJ5roQDG;
         "pkg-1.3.3-Forge-mc1.20" = _9rgoN5ar;
         "pkg-1.3.3-Forge-mc1.21" = _LSZD8tj9;
@@ -389,7 +403,9 @@ let
         "pkg-1.6.0-Fabric-mc1.21" = _DhaV6d4O;
         "pkg-1.6.0-NeoForge-mc1.21" = _uJwuir4k;
         "pkg-1.6.0-Forge-mc1.21" = _zEDt3Qmz;
-        "default" = _zEDt3Qmz;
+        "pkg-1.6.0-Fabric-mc26.3" = _L51DMDzc;
+        "pkg-1.6.0-NeoForge-mc26.3" = _IQq7wgpC;
+        "default" = _IQq7wgpC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "daycount";

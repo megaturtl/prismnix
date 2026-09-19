@@ -21,18 +21,33 @@ let
             "file" = "legumedelight-1.3.1.jar";
             "hash" = "sha512-zGff0pdaEZBBdCvt3LVSP9djMzSYI3U47vY+NpQN5tzyMAp52kOKE8o5nDMsIaW4c/LEue7rC6PnlesMsn5Vww==";
         };
+        _YRLbBb6m = {
+            "id" = "YRLbBb6m";
+            "file" = "legumedelight-1.21.1-1.4.0.jar";
+            "hash" = "sha512-RCb0Z0AJS0edpwuK+vn/SNIM7D6kFvVv9GFRqAOgAuw8r8GJhurAQuJqUDpur//MVPbLGsHnutXxJV7UQZapTQ==";
+        };
+        _kQmNLErh = {
+            "id" = "kQmNLErh";
+            "file" = "legumedelight-1.20.1-1.4.0.jar";
+            "hash" = "sha512-q09+odWQiFw9f/MCozXriQSBySAXve1qXdCkgHkWIwvyfh9kSzQSo6j9wjHXCKBWt+4VxAKUYAVxHLsYz0syjA==";
+        };
     in {
         "4pPsnjUI" = _4pPsnjUI;
         "aXbX499v" = _aXbX499v;
         "rkU1SwHH" = _rkU1SwHH;
         "4FF8wwHX" = _4FF8wwHX;
-        "forge-1.20" = _4FF8wwHX;
-        "forge-1.20.1" = _4FF8wwHX;
+        "YRLbBb6m" = _YRLbBb6m;
+        "kQmNLErh" = _kQmNLErh;
+        "forge-1.20" = _kQmNLErh;
+        "forge-1.20.1" = _kQmNLErh;
+        "neoforge-1.21.1" = _YRLbBb6m;
         "pkg-1.0.0" = _4pPsnjUI;
         "pkg-1.1.0" = _aXbX499v;
         "pkg-1.3.0" = _rkU1SwHH;
         "pkg-1.3.1" = _4FF8wwHX;
-        "default" = _4FF8wwHX;
+        "pkg-1.21.1-1.4.0" = _YRLbBb6m;
+        "pkg-1.20.1-1.4.0" = _kQmNLErh;
+        "default" = _kQmNLErh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legume-delight";

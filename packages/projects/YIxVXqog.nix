@@ -86,6 +86,11 @@ let
             "file" = "black_flash-3.1-forge-1.20.1.jar";
             "hash" = "sha512-m4prt8Gq0BQJ/8/4KjfwJ2g+ohuqHgok+FRxBy4QrqOqu2Mr/60hEEXL9ZMj8Ag6lsy8nGWKKf0oisHd3tK6QA==";
         };
+        _3YJZYMMH = {
+            "id" = "3YJZYMMH";
+            "file" = "black_flash-3.2-forge-1.20.1.jar";
+            "hash" = "sha512-jVnSZBU2OcuAJbhnlK2kQdrU86ggOpN5IwLfc2YTab6xZyKj2FvU1kTXb7X9vTcRjlNdSNZqYxKr/bmO9d7WtQ==";
+        };
     in {
         "qDCoTLxE" = _qDCoTLxE;
         "muXUfv1H" = _muXUfv1H;
@@ -104,7 +109,8 @@ let
         "O3fdm7bc" = _O3fdm7bc;
         "sjtwWZaX" = _sjtwWZaX;
         "K9mlQ78J" = _K9mlQ78J;
-        "forge-1.20.1" = _K9mlQ78J;
+        "3YJZYMMH" = _3YJZYMMH;
+        "forge-1.20.1" = _3YJZYMMH;
         "forge-1.19.2" = _MsG1RKb3;
         "neoforge-1.20.1" = _K9mlQ78J;
         "neoforge-1.20.4" = _nkdNVgmv;
@@ -123,7 +129,8 @@ let
         "pkg-2.4" = _L03OQual;
         "pkg-3.0" = _sjtwWZaX;
         "pkg-3.1" = _K9mlQ78J;
-        "default" = _K9mlQ78J;
+        "pkg-3.2" = _3YJZYMMH;
+        "default" = _3YJZYMMH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blackflash";

@@ -121,6 +121,21 @@ let
             "file" = "boosted-brightness-1.1.jar";
             "hash" = "sha512-1XYGZJpk5yCh73NJlgpIUMybmy85GqMhl8vMRbluaZi0qAXPqo38dJC1So7ei3vvbmF1jH1P6z74qTbLe47M2A==";
         };
+        _RXJv8x2Z = {
+            "id" = "RXJv8x2Z";
+            "file" = "Boosted-Brightness-Remastered-Forge-1.21.1-1.0.1.jar";
+            "hash" = "sha512-hlPnWcZrBXijxkSoZjTiu5epAAkioezWhdZhViAoU5eKwsbOREKAAmBXEbOtRHr2DFlFBUBPpM2qix/ECtzv3w==";
+        };
+        _kWrgux0M = {
+            "id" = "kWrgux0M";
+            "file" = "Boosted-Brightness-Remastered-Forge-1.21.10-1.0.1.jar";
+            "hash" = "sha512-pUTM4HfT+C6IMrr58h7kLYuwHaEePV3h/mma3/lL4cxPvXgdfE0V76jWkg1Eh7F+CPk5HXlkqjntYF2Zj4aezQ==";
+        };
+        _ZMERNS2n = {
+            "id" = "ZMERNS2n";
+            "file" = "Boosted-Brightness-Remastered-Forge-1.21.11-1.0.1.jar";
+            "hash" = "sha512-X1iMUx0xTOgMs4kOMwKnmCdG/ZHzy7oZKijrXxjJIC7EG24iibER2YWyeUMPxD6lJZTTWnETD2/dTcNPff9QZQ==";
+        };
     in {
         "IUNTm67v" = _IUNTm67v;
         "vYDMEsV3" = _vYDMEsV3;
@@ -146,6 +161,9 @@ let
         "stH2Yok6" = _stH2Yok6;
         "fCbDaa0Z" = _fCbDaa0Z;
         "cRjWJ7H3" = _cRjWJ7H3;
+        "RXJv8x2Z" = _RXJv8x2Z;
+        "kWrgux0M" = _kWrgux0M;
+        "ZMERNS2n" = _ZMERNS2n;
         "fabric-1.21" = _IUNTm67v;
         "fabric-1.21.1" = _IUNTm67v;
         "fabric-1.21.2" = _IUNTm67v;
@@ -156,10 +174,10 @@ let
         "fabric-26.1.1" = _onF6zUwB;
         "fabric-26.1.2" = _vwHwx707;
         "fabric-26.2" = _stH2Yok6;
-        "forge-1.21.1" = _Yfyqlta4;
+        "forge-1.21.1" = _RXJv8x2Z;
         "forge-1.20.1" = _8piHVj2e;
-        "forge-1.21.10" = _NS6uzaKf;
-        "forge-1.21.11" = _TawgLTfv;
+        "forge-1.21.10" = _kWrgux0M;
+        "forge-1.21.11" = _ZMERNS2n;
         "forge-26.1" = _R5g9Cbcy;
         "forge-26.1.1" = _NV5IAtZP;
         "forge-26.1.2" = _s3JoSQrY;
@@ -176,8 +194,8 @@ let
         "pkg-1.0.0" = _vwHwx707;
         "pkg-1" = _s3JoSQrY;
         "pkg-1.1" = _cRjWJ7H3;
-        "pkg-1.0.1" = _stH2Yok6;
-        "default" = _cRjWJ7H3;
+        "pkg-1.0.1" = _ZMERNS2n;
+        "default" = _ZMERNS2n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "boosted-brightness-remastered";

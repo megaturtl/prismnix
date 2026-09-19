@@ -381,6 +381,11 @@ let
             "file" = "guardvillagers-2.4.12-1.21.1.jar";
             "hash" = "sha512-KyXqrOC37EygmtnEKL0+5kVnvFQL8D4hIxsJhJik+V+fAtpRYYQejsSOq85uZLSbWZldE6TOv079Sf6w3KHhPg==";
         };
+        _Ps38kmGN = {
+            "id" = "Ps38kmGN";
+            "file" = "guardvillagers-4.0.4-26.2.0.jar";
+            "hash" = "sha512-4p7Ydpvt2XJ1FGRbg2LAZcrO2gh0cOb0E0sPu5wbXw6DYyrySf9Ii0PB5TO1qGxTyg5dUMR5lJROnAoDFCIXoQ==";
+        };
     in {
         "pBMhXHpy" = _pBMhXHpy;
         "FDyptF3C" = _FDyptF3C;
@@ -458,6 +463,7 @@ let
         "b8N5GP8u" = _b8N5GP8u;
         "QtuirEaT" = _QtuirEaT;
         "JyXugpy2" = _JyXugpy2;
+        "Ps38kmGN" = _Ps38kmGN;
         "forge-1.19" = _pBMhXHpy;
         "forge-1.19.1" = _pBMhXHpy;
         "forge-1.19.2" = _ZXYzy1iR;
@@ -478,7 +484,7 @@ let
         "neoforge-26.1" = _FIHOh4yU;
         "neoforge-26.1.1" = _FIHOh4yU;
         "neoforge-26.1.2" = _i6QBWBEQ;
-        "neoforge-26.2" = _QtuirEaT;
+        "neoforge-26.2" = _Ps38kmGN;
         "pkg-1.5.1" = _pBMhXHpy;
         "pkg-1.5.2" = _FDyptF3C;
         "pkg-1.5.3" = _h74EaSxg;
@@ -553,7 +559,8 @@ let
         "pkg-2.4.11" = _b8N5GP8u;
         "pkg-4.0.3" = _QtuirEaT;
         "pkg-2.4.12" = _JyXugpy2;
-        "default" = _JyXugpy2;
+        "pkg-4.0.4" = _Ps38kmGN;
+        "default" = _Ps38kmGN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "guard-villagers";

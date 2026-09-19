@@ -226,6 +226,11 @@ let
             "file" = "ImmersiveGeology-0.8.4-b4931.jar";
             "hash" = "sha512-Ed0hmVbVylGB/vw7JCHlaa/WaAxSuAK8M1NQWzIBDnaalKQpeCDC5iBVtrGdX5Vqdz11BaO8XIavZ9SBYF+L0g==";
         };
+        _eNgadqyQ = {
+            "id" = "eNgadqyQ";
+            "file" = "ImmersiveGeology-0.8.4-b4932.jar";
+            "hash" = "sha512-Sfqcm4RLjddVw2cYUnjb4KJX+rVHXr35D/3dgu8rYKiO2zB1I9CwJjypGvCKQOwhmo/Qy6UbVM/UAYBTjFh/BQ==";
+        };
     in {
         "L1oJmZs1" = _L1oJmZs1;
         "27Ra7fe9" = _27Ra7fe9;
@@ -272,8 +277,9 @@ let
         "TxxgCwhs" = _TxxgCwhs;
         "5AtEuRK9" = _5AtEuRK9;
         "JjajcZWl" = _JjajcZWl;
+        "eNgadqyQ" = _eNgadqyQ;
         "forge-1.16.5" = _ii8YKUMW;
-        "forge-1.20.1" = _JjajcZWl;
+        "forge-1.20.1" = _eNgadqyQ;
         "neoforge-1.20.1" = _grTcz9Nx;
         "pkg-1.16.5-1.0.8" = _L1oJmZs1;
         "pkg-1.16.5-1.0.9" = _27Ra7fe9;
@@ -320,7 +326,8 @@ let
         "pkg-0.8.3-b4558" = _TxxgCwhs;
         "pkg-0.8.3-b4584" = _5AtEuRK9;
         "pkg-0.8.4-b4931" = _JjajcZWl;
-        "default" = _JjajcZWl;
+        "pkg-0.8.4-b4932" = _eNgadqyQ;
+        "default" = _eNgadqyQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-geology";

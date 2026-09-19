@@ -161,6 +161,11 @@ let
             "file" = "breakme-26.2.0.jar";
             "hash" = "sha512-a43alqYH4EWV7v7FLh6ersdo2W/V89mgFOWvmmE/tGoFzG2HudIXvKLSyEDGFmkxqLk06ufXNvv+IM6ChsgyFQ==";
         };
+        _831W2YVu = {
+            "id" = "831W2YVu";
+            "file" = "breakme-26.3.0.jar";
+            "hash" = "sha512-a43alqYH4EWV7v7FLh6ersdo2W/V89mgFOWvmmE/tGoFzG2HudIXvKLSyEDGFmkxqLk06ufXNvv+IM6ChsgyFQ==";
+        };
     in {
         "OBzDJFB7" = _OBzDJFB7;
         "dMsYpb1F" = _dMsYpb1F;
@@ -194,6 +199,7 @@ let
         "jHPqA88f" = _jHPqA88f;
         "MqhmVoyJ" = _MqhmVoyJ;
         "Rymw3n76" = _Rymw3n76;
+        "831W2YVu" = _831W2YVu;
         "fabric-1.16.4" = _OBzDJFB7;
         "fabric-1.16.5" = _DSceKJVM;
         "fabric-1.17" = _4J6qIsWL;
@@ -229,6 +235,7 @@ let
         "fabric-26.1.1" = _MqhmVoyJ;
         "fabric-26.1.2" = _MqhmVoyJ;
         "fabric-26.2" = _Rymw3n76;
+        "fabric-26.3" = _831W2YVu;
         "pkg-1.0" = _OBzDJFB7;
         "pkg-1.1" = _dMsYpb1F;
         "pkg-2.0" = _DSceKJVM;
@@ -261,7 +268,8 @@ let
         "pkg-26.1.0" = _jHPqA88f;
         "pkg-26.1.1" = _MqhmVoyJ;
         "pkg-26.2.0" = _Rymw3n76;
-        "default" = _Rymw3n76;
+        "pkg-26.3.0" = _831W2YVu;
+        "default" = _831W2YVu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "breakme";

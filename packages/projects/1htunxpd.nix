@@ -31,6 +31,16 @@ let
             "file" = "no-lunge-cooldown-2.0.jar";
             "hash" = "sha512-CWfHt5RSIRT7GWDRIaEwbngyJeNlHH5q3dSaF7GG4Bd9vibAu5D/A6tWRYCtku8E0Iqm7yr1U8jaLNvboE544Q==";
         };
+        _owd3wL01 = {
+            "id" = "owd3wL01";
+            "file" = "no-lunge-cooldown_v2.0_26.3.zip";
+            "hash" = "sha512-Cv7O8rsmg64d/GiJAq3dyB2Zt69VfE5DapGWi5xzhtyHUFuDUgbOHbgrs71sTxisPPtGtVU0ru78OyHxeZTFvQ==";
+        };
+        _35O3Rvj7 = {
+            "id" = "35O3Rvj7";
+            "file" = "no-lunge-cooldown-2.0.jar";
+            "hash" = "sha512-tcSZ5UFnnohsW8TBIwTvndl41dijffWAD2AQ7JAg+2mgDPx4Jm8t7e+PhFdlFV+LhKWYUymvomZmnpEIina7zA==";
+        };
     in {
         "F6R0lCYG" = _F6R0lCYG;
         "LiPqQQAi" = _LiPqQQAi;
@@ -38,36 +48,43 @@ let
         "FtYMo0Li" = _FtYMo0Li;
         "TbvyGDZH" = _TbvyGDZH;
         "MDXsoUU0" = _MDXsoUU0;
+        "owd3wL01" = _owd3wL01;
+        "35O3Rvj7" = _35O3Rvj7;
         "datapack-1.21.11" = _TbvyGDZH;
         "datapack-26.1" = _TbvyGDZH;
         "datapack-26.1.1" = _TbvyGDZH;
         "datapack-26.1.2" = _TbvyGDZH;
         "datapack-26.2" = _TbvyGDZH;
+        "datapack-26.3" = _owd3wL01;
         "fabric-1.21.11" = _MDXsoUU0;
         "fabric-26.1" = _MDXsoUU0;
         "fabric-26.1.1" = _MDXsoUU0;
         "fabric-26.1.2" = _MDXsoUU0;
         "fabric-26.2" = _MDXsoUU0;
+        "fabric-26.3" = _35O3Rvj7;
         "forge-1.21.11" = _MDXsoUU0;
         "forge-26.1" = _MDXsoUU0;
         "forge-26.1.1" = _MDXsoUU0;
         "forge-26.1.2" = _MDXsoUU0;
         "forge-26.2" = _MDXsoUU0;
+        "forge-26.3" = _35O3Rvj7;
         "neoforge-1.21.11" = _MDXsoUU0;
         "neoforge-26.1" = _MDXsoUU0;
         "neoforge-26.1.1" = _MDXsoUU0;
         "neoforge-26.1.2" = _MDXsoUU0;
         "neoforge-26.2" = _MDXsoUU0;
+        "neoforge-26.3" = _35O3Rvj7;
         "quilt-1.21.11" = _MDXsoUU0;
         "quilt-26.1" = _MDXsoUU0;
         "quilt-26.1.1" = _MDXsoUU0;
         "quilt-26.1.2" = _MDXsoUU0;
         "quilt-26.2" = _MDXsoUU0;
+        "quilt-26.3" = _35O3Rvj7;
         "pkg-1" = _QWAZp0tw;
         "pkg-1+mod" = _FtYMo0Li;
-        "pkg-2.0" = _TbvyGDZH;
-        "pkg-2.0+mod" = _MDXsoUU0;
-        "default" = _MDXsoUU0;
+        "pkg-2.0" = _owd3wL01;
+        "pkg-2.0+mod" = _35O3Rvj7;
+        "default" = _35O3Rvj7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-lunge-cooldown";

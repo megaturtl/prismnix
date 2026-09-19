@@ -66,6 +66,11 @@ let
             "file" = "neoforge-26.1.2-blockpalettes-1.3.1.jar";
             "hash" = "sha512-ywNLmuSeq+jArvbfq2Lw1Wqg2LsiG5VPipu1HZgP91oGTeHN5XmZxHvc5Qj6+UvOwgz0CbijuR7sQn0FXTZC+A==";
         };
+        _gPeaUgVx = {
+            "id" = "gPeaUgVx";
+            "file" = "fabric-1.21.8-blockpalettes-1.3.1.jar";
+            "hash" = "sha512-gjhhHnAeBYmL/vdLlRtnmdsj5M1KudbBeXC1E73qIiEeYpg6rWIO8UppD9/Omu5SbsQoOq3yKH+Uqe//JF/Fng==";
+        };
     in {
         "dCSUSdqU" = _dCSUSdqU;
         "YFWSmAI9" = _YFWSmAI9;
@@ -80,12 +85,14 @@ let
         "m6JA1kRy" = _m6JA1kRy;
         "bIAXnn5U" = _bIAXnn5U;
         "8JHSxkXA" = _8JHSxkXA;
+        "gPeaUgVx" = _gPeaUgVx;
         "fabric-1.21.1" = _xTu1cnEZ;
         "fabric-1.21.5" = _BoGwRdMj;
         "fabric-1.21.11" = _m6JA1kRy;
         "fabric-26.1" = _bIAXnn5U;
         "fabric-26.1.1" = _bIAXnn5U;
         "fabric-26.1.2" = _bIAXnn5U;
+        "fabric-1.21.8" = _gPeaUgVx;
         "neoforge-1.21.1" = _lzEG8Y4n;
         "neoforge-1.21.5" = _9oAdjTr5;
         "neoforge-26.1" = _8JHSxkXA;
@@ -95,9 +102,9 @@ let
         "pkg-1.1.0" = _YFWSmAI9;
         "pkg-1.2.0" = _LECCy7qJ;
         "pkg-1.3.0" = _JiIJVn8K;
-        "pkg-1.3.1" = _8JHSxkXA;
+        "pkg-1.3.1" = _gPeaUgVx;
         "pkg-1.3.2" = _lzEG8Y4n;
-        "default" = _8JHSxkXA;
+        "default" = _gPeaUgVx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "block-palettes";

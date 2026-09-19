@@ -2121,6 +2121,16 @@ let
             "file" = "lifeseries-1.5.9+26.2-fabric.jar";
             "hash" = "sha512-G7NlAMgkbND+Zx/JuWoTg2notVHd813+2IhtFBcjszLGKFSoVqKC18cNWlIRvITSkxAX9dsWlt0R+SNo6PdRgA==";
         };
+        _luNCPKhj = {
+            "id" = "luNCPKhj";
+            "file" = "lifeseries-1.5.9+26.3-neoforge.jar";
+            "hash" = "sha512-Oo0ctS4BgltS8G9lYM+h9I6mcOwI/cfcO6BUtr8ye0ZD9GWXj2JFcxD2UwSOwFnjtD1MMUGigdg/3N5QnPAFrw==";
+        };
+        _Xjapn7YA = {
+            "id" = "Xjapn7YA";
+            "file" = "lifeseries-1.5.9+26.3-fabric.jar";
+            "hash" = "sha512-jLoyJWZdB4dru62DBX165Zqwi4ILyJlvEE0wosweXzie49Rl1PfNorainM0GbRVqI+z6y3/37E7Voi8cZnsFdQ==";
+        };
     in {
         "BZCEpZZv" = _BZCEpZZv;
         "TFE9VLQ9" = _TFE9VLQ9;
@@ -2546,6 +2556,8 @@ let
         "M5u6NIv8" = _M5u6NIv8;
         "wErGVq2t" = _wErGVq2t;
         "BWF4ydZb" = _BWF4ydZb;
+        "luNCPKhj" = _luNCPKhj;
+        "Xjapn7YA" = _Xjapn7YA;
         "fabric-1.21" = _Bzwj4YjA;
         "fabric-1.21.1" = _Bzwj4YjA;
         "fabric-1.21.2" = _v8fjKAhj;
@@ -2573,6 +2585,7 @@ let
         "fabric-26.2-snapshot-8" = _vXmqE4gw;
         "fabric-26.2-pre-1" = _vXmqE4gw;
         "fabric-26.2" = _BWF4ydZb;
+        "fabric-26.3" = _Xjapn7YA;
         "forge-1.20" = _c2vJ5BO8;
         "forge-1.20.1" = _c2vJ5BO8;
         "forge-1.20.5" = _ygPACtzb;
@@ -2614,6 +2627,7 @@ let
         "neoforge-26.1.1" = _VXH9kqhZ;
         "neoforge-26.1.2" = _VXH9kqhZ;
         "neoforge-26.2" = _Nb3wcfrA;
+        "neoforge-26.3" = _luNCPKhj;
         "quilt-1.20" = _mVxkG1BS;
         "quilt-1.20.1" = _mVxkG1BS;
         "quilt-1.20.2" = _zxfANiCb;
@@ -2641,6 +2655,7 @@ let
         "quilt-26.2-snapshot-8" = _vXmqE4gw;
         "quilt-26.2-pre-1" = _vXmqE4gw;
         "quilt-26.2" = _BWF4ydZb;
+        "quilt-26.3" = _Xjapn7YA;
         "pkg-1.1.8+1.21" = _BZCEpZZv;
         "pkg-1.1.9+1.21" = _TFE9VLQ9;
         "pkg-1.2.0+1.21" = _LbSVS0v2;
@@ -3065,7 +3080,9 @@ let
         "pkg-fabric-1.5.9+1.21.11" = _M5u6NIv8;
         "pkg-fabric-1.5.9+26.1" = _wErGVq2t;
         "pkg-fabric-1.5.9+26.2" = _BWF4ydZb;
-        "default" = _BWF4ydZb;
+        "pkg-neoforge-1.5.9+26.3" = _luNCPKhj;
+        "pkg-fabric-1.5.9+26.3" = _Xjapn7YA;
+        "default" = _Xjapn7YA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "life-series";

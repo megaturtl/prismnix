@@ -11,9 +11,15 @@ let
             "file" = "strengthsmps1-1.1.jar";
             "hash" = "sha512-JIYZWGk2pranWI2E3pTctfMZs4rRNBfFRT6GjJxuT1avOIdlIux8SMUXnBYKlzNeup7jmwPasb2OB5WxBFkJwQ==";
         };
+        _3Osmoasf = {
+            "id" = "3Osmoasf";
+            "file" = "strengthsmps1-1.2.jar";
+            "hash" = "sha512-AtOjZ3TTsGUswLxpa3RhzL3ZcjHaPrd92E6dQMra+oZy4dvcsgaXqfNGiHo66MrENmEMgE9rhR3k/ufti2Bw5w==";
+        };
     in {
         "DXhxi5Zz" = _DXhxi5Zz;
         "FUGvDXmi" = _FUGvDXmi;
+        "3Osmoasf" = _3Osmoasf;
         "bukkit-1.21" = _DXhxi5Zz;
         "bukkit-1.21.1" = _DXhxi5Zz;
         "bukkit-1.21.2" = _DXhxi5Zz;
@@ -27,26 +33,26 @@ let
         "paper-1.21.1" = _FUGvDXmi;
         "paper-1.21.2" = _FUGvDXmi;
         "paper-1.21.3" = _FUGvDXmi;
-        "paper-1.21.4" = _FUGvDXmi;
-        "paper-1.21.5" = _FUGvDXmi;
-        "paper-1.21.6" = _FUGvDXmi;
-        "paper-1.21.7" = _FUGvDXmi;
-        "paper-1.21.8" = _FUGvDXmi;
-        "paper-1.21.9" = _FUGvDXmi;
-        "paper-1.21.10" = _FUGvDXmi;
-        "paper-1.21.11" = _FUGvDXmi;
+        "paper-1.21.4" = _3Osmoasf;
+        "paper-1.21.5" = _3Osmoasf;
+        "paper-1.21.6" = _3Osmoasf;
+        "paper-1.21.7" = _3Osmoasf;
+        "paper-1.21.8" = _3Osmoasf;
+        "paper-1.21.9" = _3Osmoasf;
+        "paper-1.21.10" = _3Osmoasf;
+        "paper-1.21.11" = _3Osmoasf;
         "purpur-1.21" = _FUGvDXmi;
         "purpur-1.21.1" = _FUGvDXmi;
         "purpur-1.21.2" = _FUGvDXmi;
         "purpur-1.21.3" = _FUGvDXmi;
-        "purpur-1.21.4" = _FUGvDXmi;
-        "purpur-1.21.5" = _FUGvDXmi;
-        "purpur-1.21.6" = _FUGvDXmi;
-        "purpur-1.21.7" = _FUGvDXmi;
-        "purpur-1.21.8" = _FUGvDXmi;
-        "purpur-1.21.9" = _FUGvDXmi;
-        "purpur-1.21.10" = _FUGvDXmi;
-        "purpur-1.21.11" = _FUGvDXmi;
+        "purpur-1.21.4" = _3Osmoasf;
+        "purpur-1.21.5" = _3Osmoasf;
+        "purpur-1.21.6" = _3Osmoasf;
+        "purpur-1.21.7" = _3Osmoasf;
+        "purpur-1.21.8" = _3Osmoasf;
+        "purpur-1.21.9" = _3Osmoasf;
+        "purpur-1.21.10" = _3Osmoasf;
+        "purpur-1.21.11" = _3Osmoasf;
         "spigot-1.21" = _DXhxi5Zz;
         "spigot-1.21.1" = _DXhxi5Zz;
         "spigot-1.21.2" = _DXhxi5Zz;
@@ -58,7 +64,8 @@ let
         "spigot-1.21.8" = _DXhxi5Zz;
         "pkg-1.0" = _DXhxi5Zz;
         "pkg-1.1" = _FUGvDXmi;
-        "default" = _FUGvDXmi;
+        "pkg-1.2" = _3Osmoasf;
+        "default" = _3Osmoasf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "strength-smp";

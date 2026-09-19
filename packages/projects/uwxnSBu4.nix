@@ -686,6 +686,21 @@ let
             "file" = "fvtm-4.26.11.jar";
             "hash" = "sha512-wGPxCTHbp7FhPDkTYfDF1gKXNxxkH0uAVnXGmkvbgzMGpE7u9OB289W1B+YtUGk1ETVWObFzPr0ReGaOsPgQlA==";
         };
+        _ytVXZCAu = {
+            "id" = "ytVXZCAu";
+            "file" = "FVTM-4.12.115.jar";
+            "hash" = "sha512-q3m4NICPLQqTH2X+KaDPwkKo1fmPlosOtvNyt4gGmsT0Fiko0OfCStLviNnDmjCNw0F15XXr6krVxAQn+3pH5Q==";
+        };
+        _g9vA9wyF = {
+            "id" = "g9vA9wyF";
+            "file" = "fvtm-4.20.55.jar";
+            "hash" = "sha512-4F6MS2kN+scdtl4yJf7Q/CAwqiFAvHrfZO0MWQg9y8Nuraw0aH4jANgJyswjC24Eqeg7nh/KpTRkoIDEvRfFmw==";
+        };
+        _16DHrMtY = {
+            "id" = "16DHrMtY";
+            "file" = "fvtm-4.26.12.jar";
+            "hash" = "sha512-pce/XrE2Nj13iiuF9pLGbaVWzuadaJUECKPE/OEsMOF3sR0CgM+HzuwPFfTp9ghR6QCxwvFgZuGKpvbXxqwpog==";
+        };
     in {
         "dEz9A6km" = _dEz9A6km;
         "SYBYSJu6" = _SYBYSJu6;
@@ -824,12 +839,15 @@ let
         "JnFGeYjO" = _JnFGeYjO;
         "Z8rLlWUr" = _Z8rLlWUr;
         "F7bAknmW" = _F7bAknmW;
-        "forge-1.20.1" = _Z8rLlWUr;
-        "forge-1.12.2" = _JnFGeYjO;
+        "ytVXZCAu" = _ytVXZCAu;
+        "g9vA9wyF" = _g9vA9wyF;
+        "16DHrMtY" = _16DHrMtY;
+        "forge-1.20.1" = _g9vA9wyF;
+        "forge-1.12.2" = _ytVXZCAu;
         "fabric-1.21.8" = _zqS6DxDn;
-        "fabric-26.1" = _F7bAknmW;
-        "fabric-26.1.1" = _F7bAknmW;
-        "fabric-26.1.2" = _F7bAknmW;
+        "fabric-26.1" = _16DHrMtY;
+        "fabric-26.1.1" = _16DHrMtY;
+        "fabric-26.1.2" = _16DHrMtY;
         "pkg-4.20.5" = _dEz9A6km;
         "pkg-4.20.6" = _SYBYSJu6;
         "pkg-4.20.6b" = _pXOstUJe;
@@ -965,7 +983,10 @@ let
         "pkg-4.12.114" = _JnFGeYjO;
         "pkg-4.20.54" = _Z8rLlWUr;
         "pkg-4.26.11" = _F7bAknmW;
-        "default" = _F7bAknmW;
+        "pkg-4.12.115" = _ytVXZCAu;
+        "pkg-4.20.55" = _g9vA9wyF;
+        "pkg-4.26.12" = _16DHrMtY;
+        "default" = _16DHrMtY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fvtm";

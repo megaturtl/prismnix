@@ -81,6 +81,21 @@ let
             "file" = "dyedvoid-1.1.2+mc26.2.jar";
             "hash" = "sha512-8rzo+vQeKAo/Za5/RsywPbFUHmmSG1ZRieAIM03QiH+zu510ITp1H8WyDm0NSbUoMq25mzflO/1idvQMzhGxAQ==";
         };
+        _6VwQ7gZv = {
+            "id" = "6VwQ7gZv";
+            "file" = "dyedvoid-1.1.3+mc26.3.jar";
+            "hash" = "sha512-PHf/SfyEOy6fGuv0o8+FHSYapvaw6OWREM3bsnaqgdYGxvkJW612np5s80Dd3inteOjaQJykmHPg2D4ODJpPzQ==";
+        };
+        _oD2R25Sm = {
+            "id" = "oD2R25Sm";
+            "file" = "dyedvoid-1.1.3+mc26.2.jar";
+            "hash" = "sha512-cwYgWR8CHEuKHDlTC7U+EV6Kljc/znLGWvIfok1nXq8SPTs6q/xA1xr9uPbKCZjp4C8WfLTyXdRvktRyKRWHGQ==";
+        };
+        _VuCAmG03 = {
+            "id" = "VuCAmG03";
+            "file" = "dyedvoid-1.1.3+mc26.1.2.jar";
+            "hash" = "sha512-eHRLL6cIkySR8mxPjs283T1Co7VA9vlb2XccpRqDT2EeofN1Yj4HatOQRu8Eo8PVUuq9k+3XuxNkKbg+QfD5YA==";
+        };
     in {
         "rAehQhpy" = _rAehQhpy;
         "PdB7DjSw" = _PdB7DjSw;
@@ -98,6 +113,9 @@ let
         "dnhzoeBb" = _dnhzoeBb;
         "9NkmcPJB" = _9NkmcPJB;
         "CJfiFVgK" = _CJfiFVgK;
+        "6VwQ7gZv" = _6VwQ7gZv;
+        "oD2R25Sm" = _oD2R25Sm;
+        "VuCAmG03" = _VuCAmG03;
         "fabric-1.20.1" = _PdB7DjSw;
         "fabric-1.21.1" = _TV0wS5ZH;
         "fabric-1.21.6" = _I6sBWoy7;
@@ -106,16 +124,18 @@ let
         "fabric-1.21.9" = _b4ur3fjj;
         "fabric-1.21.10" = _b4ur3fjj;
         "fabric-1.21.11" = _DtZN0Fbv;
-        "fabric-26.1" = _dnhzoeBb;
-        "fabric-26.1.1" = _dnhzoeBb;
-        "fabric-26.1.2" = _dnhzoeBb;
+        "fabric-26.1" = _VuCAmG03;
+        "fabric-26.1.1" = _VuCAmG03;
+        "fabric-26.1.2" = _VuCAmG03;
         "fabric-26.2-snapshot-5" = _JnKGMUAR;
         "fabric-26.2-snapshot-6" = _9NkmcPJB;
         "fabric-26.2-snapshot-7" = _9NkmcPJB;
         "fabric-26.2-snapshot-8" = _9NkmcPJB;
         "fabric-26.2-rc-1" = _CJfiFVgK;
         "fabric-26.2-rc-2" = _CJfiFVgK;
-        "fabric-26.2" = _CJfiFVgK;
+        "fabric-26.2" = _oD2R25Sm;
+        "fabric-26.3-rc-3" = _6VwQ7gZv;
+        "fabric-26.3" = _6VwQ7gZv;
         "quilt-1.20.1" = _PdB7DjSw;
         "quilt-1.21.1" = _I4kD0qvy;
         "pkg-1.0.0" = _rAehQhpy;
@@ -134,7 +154,10 @@ let
         "pkg-1.1.1+mc26.1" = _dnhzoeBb;
         "pkg-1.1.1+mc26.2-snapshot-7" = _9NkmcPJB;
         "pkg-1.1.2+mc26.2" = _CJfiFVgK;
-        "default" = _CJfiFVgK;
+        "pkg-1.1.3+mc26.3" = _6VwQ7gZv;
+        "pkg-1.1.3+mc26.2" = _oD2R25Sm;
+        "pkg-1.1.3+mc26.1.2" = _VuCAmG03;
+        "default" = _VuCAmG03;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dyed-void";

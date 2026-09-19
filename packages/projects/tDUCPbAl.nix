@@ -66,6 +66,11 @@ let
             "file" = "HollowEngine-fabric-1.21.1-2.3.0.1.jar";
             "hash" = "sha512-TcUnn2069CHxXxEcFj/sx5BAxwwPgTulcHzWk1+lYT1pI+k2obiJZrvA8RshROjX6c18LbJRw3waDZ3VMvPjoQ==";
         };
+        _MHfpq5tu = {
+            "id" = "MHfpq5tu";
+            "file" = "HollowEngine-1.21.1-2.3.1.jar";
+            "hash" = "sha512-a8VhKebt7n7xhg/KwSbjQzS3e8nj6PN52z4rTiVm64+uin+29us2W/w6cna1HrleFi9X1kIYq/zHPEeeG+7GHw==";
+        };
     in {
         "Y6x8GVL4" = _Y6x8GVL4;
         "veJDTMJ3" = _veJDTMJ3;
@@ -80,12 +85,13 @@ let
         "V9VJpjay" = _V9VJpjay;
         "KWCQqfvA" = _KWCQqfvA;
         "kXxbjBvR" = _kXxbjBvR;
+        "MHfpq5tu" = _MHfpq5tu;
         "forge-1.19" = _u127xIAo;
         "forge-1.19.1" = _u127xIAo;
         "forge-1.19.2" = _u127xIAo;
         "forge-1.18.2" = _heO4fWLS;
-        "fabric-1.21.1" = _kXxbjBvR;
-        "neoforge-1.21.1" = _KWCQqfvA;
+        "fabric-1.21.1" = _MHfpq5tu;
+        "neoforge-1.21.1" = _MHfpq5tu;
         "pkg-1.0" = _veJDTMJ3;
         "pkg-1.18.2-1.1.1" = _heO4fWLS;
         "pkg-1.19.2-1.5.3" = _eCZSlvFA;
@@ -94,7 +100,8 @@ let
         "pkg-2.2.1" = _BF6cITW9;
         "pkg-2.3.0" = _V9VJpjay;
         "pkg-2.3.0.1" = _kXxbjBvR;
-        "default" = _kXxbjBvR;
+        "pkg-2.3.1" = _MHfpq5tu;
+        "default" = _MHfpq5tu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hollowengine";

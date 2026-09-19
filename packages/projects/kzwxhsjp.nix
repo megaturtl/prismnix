@@ -191,6 +191,11 @@ let
             "file" = "AccurateBlockPlacement-Reborn-1.4.6+mc-26.1-26.2.jar";
             "hash" = "sha512-rzMTb2i3kX2iRip5S0sCYtEFqBPh0XYRXBXOi9gLm2L/trJ2ASI8Gp4e4EfdEB5SdqDrDIe3l1rIemkvi+N2NQ==";
         };
+        _fofTJCem = {
+            "id" = "fofTJCem";
+            "file" = "AccurateBlockPlacement-Reborn-1.4.7+mc-26.3.jar";
+            "hash" = "sha512-2gNkABXVPvNVel/6xKvQ8ysSqFYvdhL/WQ+EqAjXdQqAm1aI5JdoteFnijiokAnwOmNTY6awpLX6GK7G6qzOrw==";
+        };
     in {
         "iSmJRMh0" = _iSmJRMh0;
         "Jthlq5FP" = _Jthlq5FP;
@@ -230,6 +235,7 @@ let
         "6rePTIrA" = _6rePTIrA;
         "6RQ6b1gr" = _6RQ6b1gr;
         "Q49F9gpI" = _Q49F9gpI;
+        "fofTJCem" = _fofTJCem;
         "fabric-1.19" = _dHimNl5m;
         "fabric-1.19.1" = _dHimNl5m;
         "fabric-1.19.2" = _dHimNl5m;
@@ -259,6 +265,7 @@ let
         "fabric-26.1.1" = _Q49F9gpI;
         "fabric-26.1.2" = _Q49F9gpI;
         "fabric-26.2" = _Q49F9gpI;
+        "fabric-26.3" = _fofTJCem;
         "pkg-1.0.17" = _iSmJRMh0;
         "pkg-1.2" = _Jthlq5FP;
         "pkg-1.2.1" = _dHimNl5m;
@@ -285,7 +292,8 @@ let
         "pkg-1.4.4" = _8VRSCnlB;
         "pkg-1.4.5" = _RjUsYEKZ;
         "pkg-1.4.6" = _Q49F9gpI;
-        "default" = _Q49F9gpI;
+        "pkg-1.4.7" = _fofTJCem;
+        "default" = _fofTJCem;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "accurate-block-placement-reborn";

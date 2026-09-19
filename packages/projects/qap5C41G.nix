@@ -236,6 +236,31 @@ let
             "file" = "modlistmemory-fabric-1.3.0-beta.1+26.2-pre-2.jar";
             "hash" = "sha512-PS4dC7aDmxnVHU65GSXJzWe0s0OUfosN078O/iyoR7xX+6GLdH/6TrUR15dKsLQszJzd1D7mafnq5Hbza3RSBw==";
         };
+        _WJqJHUae = {
+            "id" = "WJqJHUae";
+            "file" = "modlistmemory-neoforge-1.102.0+26.1.2.jar";
+            "hash" = "sha512-frQ8jGi4Z2c2mMzo7LIg2fd+vvQmqO1GMqB/jffnwRb0P0k1EtJnKm+vZXU+2PlmlvjBqtjHycoh5hR3yVthLA==";
+        };
+        _ZZjtmNtQ = {
+            "id" = "ZZjtmNtQ";
+            "file" = "modlistmemory-fabric-1.102.0+26.1.2.jar";
+            "hash" = "sha512-yMUnDCXJ1RephbKJ3Z4S8srJbZNh/zOjiHZ7beGvYKLa7yyLqURpHkOhq/XSK+b/tIXwGUgCLB8qEyVqOWTo/g==";
+        };
+        _wai1i7vt = {
+            "id" = "wai1i7vt";
+            "file" = "modlistmemory-neoforge-1.103.0+26.2.jar";
+            "hash" = "sha512-Vz6Wz27Pbzl0IASeaZxlI+oVQR4eKVS4hcgfCroPkq4XiryVJI6yyuUjNcwvCkeezbtf67wzBpPxziVDaO4A2A==";
+        };
+        _Pd6bSa3i = {
+            "id" = "Pd6bSa3i";
+            "file" = "modlistmemory-fabric-1.103.0+26.2.jar";
+            "hash" = "sha512-Cx/mPhXa4rLwR3TF1oP6QBa/qVDevJObtJZ/2/5EKgiqs17KPYtjGi77ThAr9d2o/zoy6iAemQK6gzp9biNYuw==";
+        };
+        _SpWsGws5 = {
+            "id" = "SpWsGws5";
+            "file" = "modlistmemory-fabric-1.104.0-beta.1+26.3-rc-2.jar";
+            "hash" = "sha512-6WgxjXGmwI0Zh762QXAQ9Y1Oh9za3ZXR61rGwqaPw8hEoJ1svKS+c8WEMRzbl4QFkKfnOf2plNcPCFK3E9qu+A==";
+        };
     in {
         "qUZTuoPA" = _qUZTuoPA;
         "2xZ6CTGp" = _2xZ6CTGp;
@@ -284,6 +309,11 @@ let
         "m8RfTSDD" = _m8RfTSDD;
         "pxAkhtwN" = _pxAkhtwN;
         "Oj0jcNDB" = _Oj0jcNDB;
+        "WJqJHUae" = _WJqJHUae;
+        "ZZjtmNtQ" = _ZZjtmNtQ;
+        "wai1i7vt" = _wai1i7vt;
+        "Pd6bSa3i" = _Pd6bSa3i;
+        "SpWsGws5" = _SpWsGws5;
         "neoforge-1.21" = _eqn0gkwx;
         "neoforge-1.21.1" = _eqn0gkwx;
         "neoforge-1.21.2" = _DOMH9OXI;
@@ -293,9 +323,10 @@ let
         "neoforge-1.21.6" = _I0phjB8B;
         "neoforge-1.21.10" = _pOscbfRO;
         "neoforge-1.21.11" = _pOscbfRO;
-        "neoforge-26.1" = _pxAkhtwN;
-        "neoforge-26.1.1" = _pxAkhtwN;
-        "neoforge-26.1.2" = _pxAkhtwN;
+        "neoforge-26.1" = _WJqJHUae;
+        "neoforge-26.1.1" = _WJqJHUae;
+        "neoforge-26.1.2" = _WJqJHUae;
+        "neoforge-26.2" = _wai1i7vt;
         "fabric-1.21" = _3ccY5sbu;
         "fabric-1.21.1" = _3ccY5sbu;
         "fabric-1.21.2" = _4N3VowcV;
@@ -315,16 +346,19 @@ let
         "fabric-1.21.9" = _x84pNVeZ;
         "fabric-1.21.10" = _x84pNVeZ;
         "fabric-1.21.11" = _x84pNVeZ;
-        "fabric-26.1" = _m8RfTSDD;
-        "fabric-26.1.1" = _m8RfTSDD;
-        "fabric-26.1.2" = _m8RfTSDD;
+        "fabric-26.1" = _ZZjtmNtQ;
+        "fabric-26.1.1" = _ZZjtmNtQ;
+        "fabric-26.1.2" = _ZZjtmNtQ;
         "fabric-26.2-pre-2" = _Oj0jcNDB;
         "fabric-26.2-pre-3" = _Oj0jcNDB;
         "fabric-26.2-pre-4" = _Oj0jcNDB;
         "fabric-26.2-pre-5" = _Oj0jcNDB;
         "fabric-26.2-rc-1" = _Oj0jcNDB;
         "fabric-26.2-rc-2" = _Oj0jcNDB;
-        "fabric-26.2" = _Oj0jcNDB;
+        "fabric-26.2" = _Pd6bSa3i;
+        "fabric-26.3-rc-2" = _SpWsGws5;
+        "fabric-26.3-rc-3" = _SpWsGws5;
+        "fabric-26.3" = _SpWsGws5;
         "forge-1.20" = _vpjPOeYp;
         "forge-1.20.1" = _gZHQiU5K;
         "pkg-0.1.0+1.21" = _2xZ6CTGp;
@@ -364,7 +398,10 @@ let
         "pkg-1.2.1+26.1.2+mm18.0.0-alpha.8" = _feFiaWml;
         "pkg-1.2.2+26.1.2" = _pxAkhtwN;
         "pkg-1.3.0-beta.1+26.2-pre-2" = _Oj0jcNDB;
-        "default" = _Oj0jcNDB;
+        "pkg-1.102.0+26.1.2" = _ZZjtmNtQ;
+        "pkg-1.103.0+26.2" = _Pd6bSa3i;
+        "pkg-1.104.0-beta.1+26.3-rc-2" = _SpWsGws5;
+        "default" = _SpWsGws5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modlistmemory";

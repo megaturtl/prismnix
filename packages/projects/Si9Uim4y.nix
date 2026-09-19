@@ -326,6 +326,16 @@ let
             "file" = "DetailArmorBarReconstructed-5.3.2-26.3-snapshot-2-fabric.jar";
             "hash" = "sha512-NoD2Y7KKuH/siK4AuMqKHupas8dEhVJOHmeyCck1roatAqQTCDjlZK/tbwdFwCfUY9qje1cG/hjzu7CeA69iGQ==";
         };
+        _A5X8OkYf = {
+            "id" = "A5X8OkYf";
+            "file" = "DetailArmorBarReconstructed-5.3.2-26.3-fabric.jar";
+            "hash" = "sha512-618pJ/he+RORVEuHl7a/1kzHGDvJZ25ncJcmlRSS135g4WDzkyEp7Npzpqoiwdg4jmg/e1bkdHlUuBqyLU32ag==";
+        };
+        _DdKjwzPs = {
+            "id" = "DdKjwzPs";
+            "file" = "DetailArmorBarReconstructed-5.3.2-26.3-neoforge.jar";
+            "hash" = "sha512-dfXYw2OX2W/zWgRoLdHvALrUGK74UtJQTtQaSX73oFcblYjr9hJm355RqocE8jTzxeCBqAoSjBk96C6QnmNFuA==";
+        };
     in {
         "SUwF00A4" = _SUwF00A4;
         "qyngBZL0" = _qyngBZL0;
@@ -392,6 +402,8 @@ let
         "lVIRNeQ4" = _lVIRNeQ4;
         "CpuX7sX7" = _CpuX7sX7;
         "4VNIlCSx" = _4VNIlCSx;
+        "A5X8OkYf" = _A5X8OkYf;
+        "DdKjwzPs" = _DdKjwzPs;
         "fabric-1.21.5" = _XuMHXLZJ;
         "fabric-1.21.6" = _RIz58xSo;
         "fabric-1.21.7" = _RIz58xSo;
@@ -448,6 +460,7 @@ let
         "fabric-26.2" = _lVIRNeQ4;
         "fabric-26.3-snapshot-1" = _WQdULtGc;
         "fabric-26.3-snapshot-2" = _4VNIlCSx;
+        "fabric-26.3" = _A5X8OkYf;
         "neoforge-1.21" = _qePsyQOP;
         "neoforge-1.21.1" = _qePsyQOP;
         "neoforge-1.21.9" = _KZIPIcsB;
@@ -472,6 +485,7 @@ let
         "neoforge-26.1.2" = _jySBGYRR;
         "neoforge-26.2-rc-2" = _8aodUOd3;
         "neoforge-26.2" = _CpuX7sX7;
+        "neoforge-26.3" = _DdKjwzPs;
         "pkg-3.0.2+1.21.5-fabric" = _SUwF00A4;
         "pkg-3.1.1+1.21.6-fabric" = _qyngBZL0;
         "pkg-4.0.0+1.21.6-fabric" = _NL7LHIxo;
@@ -536,7 +550,9 @@ let
         "pkg-5.3.2-26.2-fabric" = _lVIRNeQ4;
         "pkg-5.3.2-26.2-neoforge" = _CpuX7sX7;
         "pkg-5.3.2-26.3-snapshot-2-fabric" = _4VNIlCSx;
-        "default" = _4VNIlCSx;
+        "pkg-5.3.2-26.3-fabric" = _A5X8OkYf;
+        "pkg-5.3.2-26.3-neoforge" = _DdKjwzPs;
+        "default" = _DdKjwzPs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "detail-armor-bar-reconstructed";

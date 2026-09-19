@@ -166,6 +166,21 @@ let
             "file" = "bbe-neoforge-1.3.4-beta.3+mc1.21.1.jar";
             "hash" = "sha512-l4xqJg5lFjPlqkGR5yTVUNxBeaOWNxQ46KjLIYpV4ivs6cXbrIWaYNx87T5jDeWSZgvNHC9iXNbNNtfEzg8eDA==";
         };
+        _pK7WAKWZ = {
+            "id" = "pK7WAKWZ";
+            "file" = "bbe-fabric-1.3.4+mc1.21.1.jar";
+            "hash" = "sha512-3bFJ+zCoXPXRsKMsZFOu0lrUE4An+9ziMZGnxkwqYtZs8p81yuKeFUK0+JdzNP5cKtZ6CX/+AA0Rldt6jYdzvQ==";
+        };
+        _JgYqDEaQ = {
+            "id" = "JgYqDEaQ";
+            "file" = "bbe-neoforge-1.3.4+mc1.21.1.jar";
+            "hash" = "sha512-kLodFLcEA0Lc4NVvV+z96Sd3g3wxrDASSgX4DYy6dEK+gjVA6S3KSbFhQ79s2SjdU1lPlkFV2pBm3UbtXJcQoQ==";
+        };
+        _9VvhfLcA = {
+            "id" = "9VvhfLcA";
+            "file" = "bbe-fabric-1.3.9+mc26.3-mod.jar";
+            "hash" = "sha512-261Dh2cv6mhqZhCsI40CQ/285xi+06r8YAYGi/dp3y7qjyxxifXLODUAjxHrnHZ/Hi6vQ2xnvdwX+4YHrybdiA==";
+        };
     in {
         "zxUnLjv5" = _zxUnLjv5;
         "LETYHWaQ" = _LETYHWaQ;
@@ -200,6 +215,9 @@ let
         "vfpPl6mq" = _vfpPl6mq;
         "AYt6aZGL" = _AYt6aZGL;
         "RPhK79hl" = _RPhK79hl;
+        "pK7WAKWZ" = _pK7WAKWZ;
+        "JgYqDEaQ" = _JgYqDEaQ;
+        "9VvhfLcA" = _9VvhfLcA;
         "fabric-1.21.6" = _nZ02Iiki;
         "fabric-1.21.7" = _nZ02Iiki;
         "fabric-1.21.8" = _nZ02Iiki;
@@ -209,11 +227,12 @@ let
         "fabric-26.1" = _Kd9uKKlh;
         "fabric-26.1.1" = _Kd9uKKlh;
         "fabric-26.1.2" = _Kd9uKKlh;
-        "fabric-1.21" = _AYt6aZGL;
-        "fabric-1.21.1" = _AYt6aZGL;
+        "fabric-1.21" = _pK7WAKWZ;
+        "fabric-1.21.1" = _pK7WAKWZ;
         "fabric-26.2" = _Sr2VjbpG;
-        "neoforge-1.21" = _RPhK79hl;
-        "neoforge-1.21.1" = _RPhK79hl;
+        "fabric-26.3" = _9VvhfLcA;
+        "neoforge-1.21" = _JgYqDEaQ;
+        "neoforge-1.21.1" = _JgYqDEaQ;
         "neoforge-26.1" = _P2BhYINY;
         "neoforge-26.1.1" = _P2BhYINY;
         "neoforge-26.1.2" = _P2BhYINY;
@@ -247,7 +266,9 @@ let
         "pkg-1.3.7-beta.1+mc26.1.2" = _P2BhYINY;
         "pkg-1.3.8-beta.1+mc26.2" = _vfpPl6mq;
         "pkg-1.3.4-beta.3+mc1.21.1" = _RPhK79hl;
-        "default" = _RPhK79hl;
+        "pkg-1.3.4+mc1.21.1" = _JgYqDEaQ;
+        "pkg-1.3.9+mc26.3" = _9VvhfLcA;
+        "default" = _9VvhfLcA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-block-entities";

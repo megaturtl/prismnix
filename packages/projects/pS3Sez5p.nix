@@ -126,6 +126,11 @@ let
             "file" = "InfiniteZoom-Fabric-26.2-1.jar";
             "hash" = "sha512-oC8aFgryatYNvJWa8I9p+AZPRMAzfX+4ayeaX1ZR0QVb2bMBBhg+sC3JRCzQcqfxOgSIlDvU3gI1vEOy77bEvA==";
         };
+        _DgWU0qYN = {
+            "id" = "DgWU0qYN";
+            "file" = "InfiniteZoom-Fabric-26.3.jar";
+            "hash" = "sha512-IwBSoccVKii17RTPSZauzU9SDcJRN+3iorrNe0Ev+QnMTVccvAeVcXh/YMKhCmYar/UguAV/GoYZc4sehlYLpA==";
+        };
     in {
         "z4CGWWpW" = _z4CGWWpW;
         "loiEGeNA" = _loiEGeNA;
@@ -152,6 +157,7 @@ let
         "8VwFaMaJ" = _8VwFaMaJ;
         "3YQK8M2X" = _3YQK8M2X;
         "SLbs9rO7" = _SLbs9rO7;
+        "DgWU0qYN" = _DgWU0qYN;
         "forge-1.20.1" = _z4CGWWpW;
         "forge-1.20.2" = _z4CGWWpW;
         "forge-1.20.3" = _z4CGWWpW;
@@ -184,6 +190,7 @@ let
         "fabric-26.1.1" = _8VwFaMaJ;
         "fabric-26.1.2" = _3YQK8M2X;
         "fabric-26.2" = _SLbs9rO7;
+        "fabric-26.3" = _DgWU0qYN;
         "neoforge-1.21" = _Gzv8BCi6;
         "neoforge-1.21.1" = _Gzv8BCi6;
         "neoforge-1.21.2" = _HW3LJkZb;
@@ -210,7 +217,8 @@ let
         "pkg-26.1.1_Fabric" = _8VwFaMaJ;
         "pkg-26.1.2_Fabric" = _3YQK8M2X;
         "pkg-26.2_Fabric" = _SLbs9rO7;
-        "default" = _SLbs9rO7;
+        "pkg-26.3_Fabric" = _DgWU0qYN;
+        "default" = _DgWU0qYN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "infinite-zoom";

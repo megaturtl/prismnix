@@ -31,6 +31,11 @@ let
             "file" = "unlockedcamera-0.0.4.jar";
             "hash" = "sha512-drvYRkbRghuQyLbCnfswnWTvrcTGRI0cW62r38JGXcKQRtZkAM7jpdP0K37n7V+j+3OWI0NVplT8JCVk0LnVLw==";
         };
+        _6jiptY5z = {
+            "id" = "6jiptY5z";
+            "file" = "unlockedcamera-0.0.5.jar";
+            "hash" = "sha512-bsDshVX/9jA9qYes200busB/DG6m1gCkxwYdO546n/DfGZPB53zXk7C7C/HZ9q+E8AGlxX9TiVvfK7E3lnH0nw==";
+        };
     in {
         "ej4xzarZ" = _ej4xzarZ;
         "2PnttD0K" = _2PnttD0K;
@@ -38,6 +43,7 @@ let
         "q21Zxfwd" = _q21Zxfwd;
         "DswimrcQ" = _DswimrcQ;
         "3ZdcOr94" = _3ZdcOr94;
+        "6jiptY5z" = _6jiptY5z;
         "fabric-1.21.4" = _3ZdcOr94;
         "fabric-1.21.2" = _3ZdcOr94;
         "fabric-1.21.3" = _3ZdcOr94;
@@ -64,11 +70,13 @@ let
         "fabric-1.21.8" = _3ZdcOr94;
         "fabric-1.21.9" = _3ZdcOr94;
         "fabric-1.21.10" = _3ZdcOr94;
+        "fabric-1.21.11" = _6jiptY5z;
         "pkg-0.0.1" = _ej4xzarZ;
         "pkg-0.0.2" = _OpiqCvgR;
         "pkg-0.0.3" = _DswimrcQ;
         "pkg-0.0.4" = _3ZdcOr94;
-        "default" = _3ZdcOr94;
+        "pkg-0.0.5" = _6jiptY5z;
+        "default" = _6jiptY5z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unlockedcamera";

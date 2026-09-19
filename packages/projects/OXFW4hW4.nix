@@ -31,6 +31,11 @@ let
             "file" = "ViperAntiXray-1.21.x.jar";
             "hash" = "sha512-jTIoXtEs0d5D7UHF/zIwoyXLl/8w4bQcNMrCET69Q0VTYZpgNTtNsavB+R/8BKwDhDhSrdpKFsfozpcz7m5pig==";
         };
+        _fz47QGny = {
+            "id" = "fz47QGny";
+            "file" = "ViperAntiXray-26.3.jar";
+            "hash" = "sha512-tmqdpOJmjIdrPre4YXjBEDHKPiNEeUoH/UhaKDLxTfKZlM1KH7UGCO0hs71+NooMc3NgqxD0grRMmS6iUAguDg==";
+        };
     in {
         "h7a6EPNx" = _h7a6EPNx;
         "AIbAUaCo" = _AIbAUaCo;
@@ -38,6 +43,7 @@ let
         "bqz0jj6I" = _bqz0jj6I;
         "a7VVET1u" = _a7VVET1u;
         "wSU38PVt" = _wSU38PVt;
+        "fz47QGny" = _fz47QGny;
         "fabric-1.21" = _wSU38PVt;
         "fabric-1.21.1" = _wSU38PVt;
         "fabric-1.21.2" = _wSU38PVt;
@@ -54,9 +60,10 @@ let
         "fabric-26.1" = _a7VVET1u;
         "fabric-26.1.1" = _a7VVET1u;
         "fabric-26.1.2" = _a7VVET1u;
-        "pkg-1.0.0" = _zxogof69;
+        "fabric-26.3" = _fz47QGny;
+        "pkg-1.0.0" = _fz47QGny;
         "pkg-1.0.1" = _wSU38PVt;
-        "default" = _wSU38PVt;
+        "default" = _fz47QGny;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "viper-antixray";

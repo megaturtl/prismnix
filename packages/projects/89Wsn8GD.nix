@@ -191,6 +191,11 @@ let
             "file" = "capes-1.5.11+26.2.jar";
             "hash" = "sha512-JgqVOYwqnjGx3rnaDMjpcxCssIIZeFtZARYHD5Y670yoNDQvA8jDFkCiBLyyxnhhyD/pwFa+G534uNlwmAsOkQ==";
         };
+        _I89rLLKh = {
+            "id" = "I89rLLKh";
+            "file" = "capes-1.5.10+26.3.jar";
+            "hash" = "sha512-ErddKSlJmXWfeN/Hu2D/NZSgIOmd6mYLHxmVN+dieLL0lj6FIAinEJpd/wv8nsRxoPtkl9Q1+gQARLUyD0xbEw==";
+        };
     in {
         "rB3rN7Yy" = _rB3rN7Yy;
         "buL9OoOQ" = _buL9OoOQ;
@@ -230,6 +235,7 @@ let
         "98LwMd7q" = _98LwMd7q;
         "JpT9Z91r" = _JpT9Z91r;
         "ou6uEXQY" = _ou6uEXQY;
+        "I89rLLKh" = _I89rLLKh;
         "fabric-1.17" = _rB3rN7Yy;
         "fabric-1.17.1" = _rB3rN7Yy;
         "fabric-1.18" = _buL9OoOQ;
@@ -262,6 +268,7 @@ let
         "fabric-26.1.1" = _JpT9Z91r;
         "fabric-26.1.2" = _JpT9Z91r;
         "fabric-26.2" = _ou6uEXQY;
+        "fabric-26.3" = _I89rLLKh;
         "forge-1.19.3" = _3SjxtlFd;
         "forge-1.19.4" = _DuTJ5yKH;
         "forge-1.19.2" = _WgQhPB7O;
@@ -300,7 +307,8 @@ let
         "pkg-1.5.10+26.1" = _98LwMd7q;
         "pkg-1.5.11+26.1" = _JpT9Z91r;
         "pkg-1.5.11+26.2" = _ou6uEXQY;
-        "default" = _ou6uEXQY;
+        "pkg-1.5.10+26.3" = _I89rLLKh;
+        "default" = _I89rLLKh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "capes";

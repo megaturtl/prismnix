@@ -256,6 +256,11 @@ let
             "file" = "Convenient-achievements-v1.10.3_1.21x.jar";
             "hash" = "sha512-wu+M2goTlBtGYNUsmo+sBPKP+JjWvjkHaW8aoRUKpLRO69H/U8nuAvwpYCfrjcAiFtlvY1UNV9WvZEkdQiuadg==";
         };
+        _1qeSwaXm = {
+            "id" = "1qeSwaXm";
+            "file" = "convenient_achievements-v1.10.3+1.21x-forge-quilt.jar";
+            "hash" = "sha512-RZXQD17MhMjsfLyknlm+MRt/O7PiTqwVNhrRXfZ33w2bXhCwsu29Iv4t4Fsjivd6I2ONH6lh/o2uQk5R7KdrtQ==";
+        };
     in {
         "hwBOBnB8" = _hwBOBnB8;
         "VSAktxoq" = _VSAktxoq;
@@ -308,6 +313,7 @@ let
         "o9fLF7sw" = _o9fLF7sw;
         "jKuYtbj3" = _jKuYtbj3;
         "HtMBiUk0" = _HtMBiUk0;
+        "1qeSwaXm" = _1qeSwaXm;
         "datapack-1.19" = _iNyRJh8r;
         "datapack-1.19.1" = _iNyRJh8r;
         "datapack-1.19.2" = _iNyRJh8r;
@@ -347,8 +353,8 @@ let
         "fabric-1.20.2" = _o9fLF7sw;
         "fabric-1.20.3" = _o9fLF7sw;
         "fabric-1.20.4" = _o9fLF7sw;
-        "quilt-1.21" = _HJBlbQc7;
-        "quilt-1.21.1" = _HJBlbQc7;
+        "quilt-1.21" = _1qeSwaXm;
+        "quilt-1.21.1" = _1qeSwaXm;
         "neoforge-1.21.5" = _OlefnsUB;
         "neoforge-1.21" = _HtMBiUk0;
         "neoforge-1.21.1" = _HtMBiUk0;
@@ -358,6 +364,8 @@ let
         "neoforge-1.21.6" = _OlefnsUB;
         "neoforge-1.21.7" = _OlefnsUB;
         "neoforge-1.21.8" = _OlefnsUB;
+        "forge-1.21" = _1qeSwaXm;
+        "forge-1.21.1" = _1qeSwaXm;
         "pkg-1.0" = _hwBOBnB8;
         "pkg-1.0.0.1" = _VSAktxoq;
         "pkg-1.0.1" = _Huc7la8m;
@@ -386,8 +394,8 @@ let
         "pkg-1.10.0" = _jnSK81Zj;
         "pkg-1.10.1" = _OlefnsUB;
         "pkg-1.10.2" = _De1MS8hp;
-        "pkg-1.10.3" = _HtMBiUk0;
-        "default" = _HtMBiUk0;
+        "pkg-1.10.3" = _1qeSwaXm;
+        "default" = _1qeSwaXm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "convenient-achievements";

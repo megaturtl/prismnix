@@ -401,6 +401,11 @@ let
             "file" = "integratedrest-26.2-neoforge-1.1.15-212.jar";
             "hash" = "sha512-1iPCfZVP2/5OR/4hvT3tpjbiq6DXBDw4Zx7c8Ap8bFwycWdwmJQH2YnGC9cCbzEdxZhl2vbRY20iXofVR0LgKA==";
         };
+        _2ojEOHQ2 = {
+            "id" = "2ojEOHQ2";
+            "file" = "integratedrest-26.1.2-neoforge-1.1.15-213.jar";
+            "hash" = "sha512-p9/FCIiOHE4XDRN+HNJbF70IPvvix7kKIbqW9gUIUGa5HhTk3ixyePGmkD0rC27Yl9nCuvMqGgW5PSjUM8ap6Q==";
+        };
     in {
         "T4cLoKO5" = _T4cLoKO5;
         "VllEbp8z" = _VllEbp8z;
@@ -482,6 +487,7 @@ let
         "kECCIMcm" = _kECCIMcm;
         "Gr5UxjKN" = _Gr5UxjKN;
         "CnDNDQEo" = _CnDNDQEo;
+        "2ojEOHQ2" = _2ojEOHQ2;
         "forge-1.18.2" = _4D35R7tr;
         "forge-1.19" = _o4VByKVQ;
         "forge-1.19.2" = _E1UdKHZk;
@@ -496,7 +502,7 @@ let
         "neoforge-1.21.10" = _dpxZQQxi;
         "neoforge-1.21.11" = _ggxq6oL4;
         "neoforge-26.1.1" = _w4slQbMF;
-        "neoforge-26.1.2" = _Gr5UxjKN;
+        "neoforge-26.1.2" = _2ojEOHQ2;
         "neoforge-26.2" = _CnDNDQEo;
         "pkg-1.1.5" = _T4cLoKO5;
         "pkg-1.19-1.1.5" = _VllEbp8z;
@@ -578,7 +584,8 @@ let
         "pkg-1.21.1-1.1.15-210" = _kECCIMcm;
         "pkg-26.1.2-1.1.15-211" = _Gr5UxjKN;
         "pkg-26.2-1.1.15-212" = _CnDNDQEo;
-        "default" = _CnDNDQEo;
+        "pkg-26.1.2-1.1.15-213" = _2ojEOHQ2;
+        "default" = _2ojEOHQ2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "integrated-rest";

@@ -101,6 +101,11 @@ let
             "file" = "trinkets-4.0.0+26.1.jar";
             "hash" = "sha512-e84TQPSrls55LwHSVzbxf4wlcM6pAz1ztiJewPfDx4ixLmkls2t0WWar2eGdB5qZcifSIKHSb53oH/hQuixRLw==";
         };
+        _GjCPLWaf = {
+            "id" = "GjCPLWaf";
+            "file" = "trinkets-4.2.0+26.3.jar";
+            "hash" = "sha512-bhtaW0PuSV3JPqRDt5+lepAiZG6Dh7JWKe4c4ewM+7I7GJZqiGeTCE9eZB5MMuAQfAoeXp//wjLgk4cLgSiLMQ==";
+        };
     in {
         "DHE2OnLP" = _DHE2OnLP;
         "A1xQiPDo" = _A1xQiPDo;
@@ -122,17 +127,22 @@ let
         "gIMhLIZ0" = _gIMhLIZ0;
         "jhbhwQFz" = _jhbhwQFz;
         "BcSmZVfF" = _BcSmZVfF;
+        "GjCPLWaf" = _GjCPLWaf;
         "fabric-1.21.11" = _DHE2OnLP;
         "fabric-26.1" = _BcSmZVfF;
         "fabric-26.1.1" = _BcSmZVfF;
         "fabric-26.1.2" = _BcSmZVfF;
         "fabric-26.2-rc-2" = _rX80fkNr;
         "fabric-26.2" = _jhbhwQFz;
+        "fabric-26.3-rc-1" = _GjCPLWaf;
+        "fabric-26.3" = _GjCPLWaf;
         "neoforge-26.1" = _BcSmZVfF;
         "neoforge-26.1.1" = _BcSmZVfF;
         "neoforge-26.1.2" = _BcSmZVfF;
         "neoforge-26.2-rc-2" = _rX80fkNr;
         "neoforge-26.2" = _jhbhwQFz;
+        "neoforge-26.3-rc-1" = _GjCPLWaf;
+        "neoforge-26.3" = _GjCPLWaf;
         "pkg-3.11.0-beta.2+1.21.11" = _DHE2OnLP;
         "pkg-4.0.0-alpha.1+26.1" = _A1xQiPDo;
         "pkg-4.0.0-alpha.2+26.1" = _VvMNQexi;
@@ -153,7 +163,8 @@ let
         "pkg-4.0.0-rc.1+26.1" = _gIMhLIZ0;
         "pkg-4.1.0+26.2" = _jhbhwQFz;
         "pkg-4.0.0+26.1" = _BcSmZVfF;
-        "default" = _BcSmZVfF;
+        "pkg-4.2.0+26.3" = _GjCPLWaf;
+        "default" = _GjCPLWaf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trinkets-updated";

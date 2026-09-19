@@ -201,6 +201,26 @@ let
             "file" = "viltrumiteflight-forge-1.6.4.jar";
             "hash" = "sha512-NHaTGHrplzR90wmom76xw/ffDFCMFju6Nxgco0Gz7lNDzv7Pvv6vJE06N22mBxOy84BLESmXcQvRDYemh9M7Tw==";
         };
+        _filSOBYg = {
+            "id" = "filSOBYg";
+            "file" = "viltrumiteflight-1.6.5.jar";
+            "hash" = "sha512-uKCBQLK77wUwEbFHgC1d2Rf/dPpOr4T/LUHjpqjFcDYEN41ql7zwZwdMwpaOh+DSgAr0TXhHfCBseDTrfLrcKw==";
+        };
+        _33kKIR57 = {
+            "id" = "33kKIR57";
+            "file" = "viltrumiteflight-forge-1.6.5.jar";
+            "hash" = "sha512-S3/oZjcYyAAjwLG5/Uc7w6lOPOkbwUwjNHYD5FtM1OaV66gTEF3qUP2RYVl06gY8dgv8fwWLOT84VLWFaWKGeg==";
+        };
+        _5lQz7Q4t = {
+            "id" = "5lQz7Q4t";
+            "file" = "viltrumiteflight-1.6.6.jar";
+            "hash" = "sha512-sQ59uHQfGXqGyq0OFLetwRy6iXrLtMitGeFujkOBnqanRCjCiHBWVRtiQ2T0fhWuhqdnJDv75XNOcCZWgePdUg==";
+        };
+        _nJiKT5a7 = {
+            "id" = "nJiKT5a7";
+            "file" = "viltrumiteflight-forge-1.6.6.jar";
+            "hash" = "sha512-fT/QQ4GuafR9+NLyuSH15F3JKEESWiB4PWZuePErPMIfncybQjh04iXdcI0zOVC0HtXx9Kb/O44RORlwU4rAjw==";
+        };
     in {
         "g31uRtso" = _g31uRtso;
         "PYJ78cK4" = _PYJ78cK4;
@@ -242,8 +262,12 @@ let
         "4XYUlXtb" = _4XYUlXtb;
         "BFOs5Izp" = _BFOs5Izp;
         "uJC0nwpu" = _uJC0nwpu;
-        "fabric-1.20.1" = _BFOs5Izp;
-        "forge-1.20.1" = _uJC0nwpu;
+        "filSOBYg" = _filSOBYg;
+        "33kKIR57" = _33kKIR57;
+        "5lQz7Q4t" = _5lQz7Q4t;
+        "nJiKT5a7" = _nJiKT5a7;
+        "fabric-1.20.1" = _5lQz7Q4t;
+        "forge-1.20.1" = _nJiKT5a7;
         "pkg-1.0.0" = _g31uRtso;
         "pkg-1.0.1" = _PYJ78cK4;
         "pkg-1.0.2" = _buxXpTpz;
@@ -275,7 +299,9 @@ let
         "pkg-1.6.3" = _aKsWh6Wp;
         "pkg-1.6.3.1" = _4XYUlXtb;
         "pkg-1.6.4" = _uJC0nwpu;
-        "default" = _uJC0nwpu;
+        "pkg-1.6.5" = _33kKIR57;
+        "pkg-1.6.6" = _nJiKT5a7;
+        "default" = _nJiKT5a7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "viltrumite-flight";

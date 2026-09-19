@@ -21,22 +21,31 @@ let
             "file" = "healthy_water-merged-1.21.1-1.0.1.jar";
             "hash" = "sha512-cV2HYdd0DyguLlh2UJbmGjZuN+x6/QHrzfiYOode8gIkyULsa017H5ezKm52OAGZnezMId/nddMsnuMbbw/rfA==";
         };
+        _okcZsTYg = {
+            "id" = "okcZsTYg";
+            "file" = "healthy_water-merged-26.1.2-1.1.0.jar";
+            "hash" = "sha512-Dx9ROCpgsb7seqoVpfKwhwX3tZ/8tuq7I/w6UlAbjwGpIrLC6MF/bRL8mOfZALHV6XKApv4o9LJnUCjF6rzdDQ==";
+        };
     in {
         "RrlYDdTP" = _RrlYDdTP;
         "oEaPHKji" = _oEaPHKji;
         "3jvbIYsw" = _3jvbIYsw;
         "XpLpBjUF" = _XpLpBjUF;
+        "okcZsTYg" = _okcZsTYg;
         "forge-1.20.1" = _oEaPHKji;
         "forge-1.21" = _3jvbIYsw;
         "forge-1.21.1" = _3jvbIYsw;
         "fabric-1.20.1" = _oEaPHKji;
         "fabric-1.21" = _XpLpBjUF;
         "fabric-1.21.1" = _XpLpBjUF;
+        "fabric-26.1.2" = _okcZsTYg;
         "neoforge-1.21" = _XpLpBjUF;
         "neoforge-1.21.1" = _XpLpBjUF;
+        "neoforge-26.1.2" = _okcZsTYg;
         "pkg-1.0.0" = _RrlYDdTP;
         "pkg-1.0.1" = _XpLpBjUF;
-        "default" = _XpLpBjUF;
+        "pkg-1.1.0" = _okcZsTYg;
+        "default" = _okcZsTYg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "healthy-water";

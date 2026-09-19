@@ -61,6 +61,11 @@ let
             "file" = "fancy-crosshair-26.2.jar";
             "hash" = "sha512-N/5dneHjj3VLkKEGX2MzzHdWUdfdvjoQDfEyAA660J0s/sY1bDSCL+dR5E61XWKaUKn5XbixZpsoWm9ZbFOTcw==";
         };
+        _4wKv7FZM = {
+            "id" = "4wKv7FZM";
+            "file" = "fancy-crosshair-26.3.jar";
+            "hash" = "sha512-TIal1PjGYV/K6oYOFxxWp/8sSntcW/5Wk1vwaBy43Qmf/Ls+4Ur3wb7wwfXOOy6cMr7RalqnhVKQ9JT6s0e9BQ==";
+        };
     in {
         "ALyosDvJ" = _ALyosDvJ;
         "349tyzMO" = _349tyzMO;
@@ -74,6 +79,7 @@ let
         "UwrMmrv7" = _UwrMmrv7;
         "zFet8jdO" = _zFet8jdO;
         "1uYtoZVq" = _1uYtoZVq;
+        "4wKv7FZM" = _4wKv7FZM;
         "fabric-1.20.4" = _ALyosDvJ;
         "fabric-1.21.1" = _TjlI8Re5;
         "fabric-1.21.4" = _Kyv1Va18;
@@ -84,6 +90,7 @@ let
         "fabric-26.1.2" = _zFet8jdO;
         "fabric-1.21" = _TjlI8Re5;
         "fabric-26.2" = _1uYtoZVq;
+        "fabric-26.3" = _4wKv7FZM;
         "pkg-1.20.4" = _ALyosDvJ;
         "pkg-1.21.1" = _349tyzMO;
         "pkg-1.21.4" = _diZVN3XN;
@@ -96,7 +103,8 @@ let
         "pkg-v2-1.21.11" = _UwrMmrv7;
         "pkg-v2-26.1.X" = _zFet8jdO;
         "pkg-v2-26.2" = _1uYtoZVq;
-        "default" = _1uYtoZVq;
+        "pkg-26.3" = _4wKv7FZM;
+        "default" = _4wKv7FZM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fancy-crosshair";

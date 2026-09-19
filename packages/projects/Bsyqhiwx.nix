@@ -61,6 +61,21 @@ let
             "file" = "Enhanced 26.2.zip";
             "hash" = "sha512-bWzEvLiJ6ib/zFLkf7tb/5M3qVb+h0Iv5jVoqVGzI5toTXvp1VqbBcIVgcv/LGiKXLHinmieQTcJynAjQE/8Cg==";
         };
+        _BLQJE17c = {
+            "id" = "BLQJE17c";
+            "file" = "Enhanced 26.3.zip";
+            "hash" = "sha512-99fg/Y29+44bp9RB703T9Ac51yDRJMrHF32ef96B3B4Rl/CJBWemK8G1ghwbDbhSA/fuCR2hgT1mw83gY8x/mw==";
+        };
+        _EZUKMfV5 = {
+            "id" = "EZUKMfV5";
+            "file" = "Enhanced 26.3.zip";
+            "hash" = "sha512-0hzopiIPcO/P/aJkl/2mhklHbdXpde5A07z4OEKwIPg8SPZjYoxnduVKdH25g9s/dphbzisQYGR0ykXcVSNhUQ==";
+        };
+        _s6q1cuWN = {
+            "id" = "s6q1cuWN";
+            "file" = "Enhanced 26.3.zip";
+            "hash" = "sha512-dS+VsioNiZy9HUY1/pl8+FdoKfZ0ZNr3jnihGXLKHw8ICoviIFbywff8ZSIJ+xYJujNwH+4+R9OVXo2Twcu5EQ==";
+        };
     in {
         "vNZuCjDO" = _vNZuCjDO;
         "AAU7fWWs" = _AAU7fWWs;
@@ -74,6 +89,9 @@ let
         "MLH6RtTJ" = _MLH6RtTJ;
         "UlspzxyM" = _UlspzxyM;
         "PuQeA995" = _PuQeA995;
+        "BLQJE17c" = _BLQJE17c;
+        "EZUKMfV5" = _EZUKMfV5;
+        "s6q1cuWN" = _s6q1cuWN;
         "minecraft-1.21.5" = _vNZuCjDO;
         "minecraft-1.21.6" = _AAU7fWWs;
         "minecraft-1.21.7" = _iU9TdKyh;
@@ -85,6 +103,7 @@ let
         "minecraft-26.1.1" = _UlspzxyM;
         "minecraft-26.1.2" = _UlspzxyM;
         "minecraft-26.2" = _PuQeA995;
+        "minecraft-26.3" = _s6q1cuWN;
         "pkg-1.21.5" = _vNZuCjDO;
         "pkg-1.21.6" = _AAU7fWWs;
         "pkg-1.21.7" = _iU9TdKyh;
@@ -97,7 +116,10 @@ let
         "pkg-26.1.1" = _MLH6RtTJ;
         "pkg-26.1.2" = _UlspzxyM;
         "pkg-26.2" = _PuQeA995;
-        "default" = _PuQeA995;
+        "pkg-26.3" = _BLQJE17c;
+        "pkg-26.3.1" = _EZUKMfV5;
+        "pkg-26.3.2" = _s6q1cuWN;
+        "default" = _s6q1cuWN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jeelh-enhanced";

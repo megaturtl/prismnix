@@ -136,6 +136,21 @@ let
             "file" = "noellesroles-1.7.1-h1.3.jar";
             "hash" = "sha512-ugPkcvhjqfucDThvWAHs90oaiDLr5yoG4oGZqHjD4QHnN9su7+8xSlgXmNBnhRA32irud+R7MqAX3a0Bb4f4Qg==";
         };
+        _LKv6slSH = {
+            "id" = "LKv6slSH";
+            "file" = "noellesroles-1.7.2-h1.4.jar";
+            "hash" = "sha512-UTSMI06vzQM+hl7bqoKKXLDadVItlyfbCefZ2DnKsHBzrEtiPHmBC524gamkTjy7HmPdG7TIu2ZagYnhgfcVWg==";
+        };
+        _fzDuAhTx = {
+            "id" = "fzDuAhTx";
+            "file" = "noellesroles-1.7.3-h1.4.jar";
+            "hash" = "sha512-s6XNLGtB8bFbeuIMAtdqyaUzJmTFXCv1ii6+AeTRix5JtTdVEv46hWyahFFxF2HZkHv3sLzzTRTVGScmQ583tQ==";
+        };
+        _5l7RKZ92 = {
+            "id" = "5l7RKZ92";
+            "file" = "noellesroles-1.7.4-h1.4.jar";
+            "hash" = "sha512-raID9ALMmE88oOwNCD8sPmqVKlNRxwHsY64m/yY6DuXbhl3l/R9x9vFsZqOUGlREfcrPX0UBWP/J3g7+xo/8CQ==";
+        };
     in {
         "FkRWoR95" = _FkRWoR95;
         "XDXIex8A" = _XDXIex8A;
@@ -164,7 +179,10 @@ let
         "n1oZEgAl" = _n1oZEgAl;
         "HkY9euVg" = _HkY9euVg;
         "aSzLdnCB" = _aSzLdnCB;
-        "fabric-1.21.1" = _aSzLdnCB;
+        "LKv6slSH" = _LKv6slSH;
+        "fzDuAhTx" = _fzDuAhTx;
+        "5l7RKZ92" = _5l7RKZ92;
+        "fabric-1.21.1" = _5l7RKZ92;
         "pkg-v1.0.1-h1.1.4" = _FkRWoR95;
         "pkg-1.1.1-h1.2.6" = _XDXIex8A;
         "pkg-1.1.2-h1.2.6" = _wPwaqlyL;
@@ -192,7 +210,10 @@ let
         "pkg-1.6.4-h1.3" = _n1oZEgAl;
         "pkg-1.7-h1.3" = _HkY9euVg;
         "pkg-1.7.1-h1.3" = _aSzLdnCB;
-        "default" = _aSzLdnCB;
+        "pkg-1.7.2-h1.4" = _LKv6slSH;
+        "pkg-1.7.3-h1.4" = _fzDuAhTx;
+        "pkg-1.7.4-h1.4" = _5l7RKZ92;
+        "default" = _5l7RKZ92;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "noelles-roles-tmm";

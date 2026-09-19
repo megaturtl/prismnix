@@ -486,6 +486,21 @@ let
             "file" = "colorize-26.2-fabric-1.13.2.jar";
             "hash" = "sha512-iMPpuATx1+uBRY/VOlYPhDRO4mpgiSXy6nx/fEUTYyAxZvlHockBoZfwecC+LIrssLgN5/zzPNAeL2M5wdHH7w==";
         };
+        _fahyfPbs = {
+            "id" = "fahyfPbs";
+            "file" = "colorize-26.3-forge-1.14.0.jar";
+            "hash" = "sha512-5HCyN/g+ZnnwU5BSIT2b77Khywl/goajdMGZ67kjwjpkUVZ8YwdgIh1t0lsJc9SkVlPycJqhywRbT5Yj6gYNCA==";
+        };
+        _SXB48nBS = {
+            "id" = "SXB48nBS";
+            "file" = "colorize-26.3-neoforge-1.14.0.jar";
+            "hash" = "sha512-RuUXRB03X8VAyPzscoRiUV8uGWc3zAFa09nAWo9TVLuWlaqzDQXH4IFWU2dggprc3v9Hx1PGPgWsu31h1fMmog==";
+        };
+        _rZYIgs1V = {
+            "id" = "rZYIgs1V";
+            "file" = "colorize-26.3-fabric-1.14.0.jar";
+            "hash" = "sha512-YwGEh+6678w4CZnuD3x1AyOGbZU83PtP7coKyGpty2q228BRIZBo6z/5FmG4XToXTv4+vCeUKK7hlfN8EcGDqA==";
+        };
     in {
         "bAKiDkyp" = _bAKiDkyp;
         "gyNjpejH" = _gyNjpejH;
@@ -584,6 +599,9 @@ let
         "4IbziZZ7" = _4IbziZZ7;
         "zYQP0bJ2" = _zYQP0bJ2;
         "uGr8xDeC" = _uGr8xDeC;
+        "fahyfPbs" = _fahyfPbs;
+        "SXB48nBS" = _SXB48nBS;
+        "rZYIgs1V" = _rZYIgs1V;
         "fabric-1.19" = _WplR2V6n;
         "fabric-1.19.1" = _WplR2V6n;
         "fabric-1.19.2" = _WplR2V6n;
@@ -670,6 +688,7 @@ let
         "fabric-26.1.1" = _Q0oAcDDZ;
         "fabric-26.1.2" = _Q0oAcDDZ;
         "fabric-26.2" = _uGr8xDeC;
+        "fabric-26.3" = _rZYIgs1V;
         "quilt-1.19" = _WplR2V6n;
         "quilt-1.19.1" = _WplR2V6n;
         "quilt-1.19.2" = _WplR2V6n;
@@ -745,6 +764,7 @@ let
         "forge-26.1.1" = _yeS80cIK;
         "forge-26.1.2" = _yeS80cIK;
         "forge-26.2" = _4IbziZZ7;
+        "forge-26.3" = _fahyfPbs;
         "neoforge-1.20.2" = _H6WB112q;
         "neoforge-1.20.3" = _H6WB112q;
         "neoforge-1.20.4" = _ZZh06jHe;
@@ -765,6 +785,7 @@ let
         "neoforge-26.1.1" = _rF1HGntq;
         "neoforge-26.1.2" = _rF1HGntq;
         "neoforge-26.2" = _zYQP0bJ2;
+        "neoforge-26.3" = _SXB48nBS;
         "pkg-1.19.2-1.1.0" = _gyNjpejH;
         "pkg-1.18.2-1.1.0" = _O9L8MRwh;
         "pkg-1.19.2-1.1.1" = _YWY5CYgn;
@@ -807,7 +828,8 @@ let
         "pkg-26.1-1.13.0" = _Egkiue5F;
         "pkg-26.1-1.13.1" = _Q0oAcDDZ;
         "pkg-26.2-1.13.2" = _uGr8xDeC;
-        "default" = _uGr8xDeC;
+        "pkg-26.3-1.14.0" = _rZYIgs1V;
+        "default" = _rZYIgs1V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "colorize";

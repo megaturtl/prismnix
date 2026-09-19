@@ -36,6 +36,11 @@ let
             "file" = "animatica-0.6.3+26.2.jar";
             "hash" = "sha512-MYsp+DrM7jBUfgJ6ozP6bzGFC6lZ5mLGNSNykLvooEsLR8mWZvU0y820hdXYv5yw3Ria9LmEHtiZh8Sc8/a7GQ==";
         };
+        _q6u7sgZG = {
+            "id" = "q6u7sgZG";
+            "file" = "animatica-0.6.2+26.3.jar";
+            "hash" = "sha512-xHJZqgDkoRCp/TGZSnM/VWjEmPyUSl10ibK29RcC4afBn1RFkPh7oF0/qyhrf22Tc3A1kdYrZaIAYjKW5ySaDg==";
+        };
     in {
         "JX3Uw3pT" = _JX3Uw3pT;
         "AcnOTlcL" = _AcnOTlcL;
@@ -44,6 +49,7 @@ let
         "1Ss9B78j" = _1Ss9B78j;
         "fei2AQqc" = _fei2AQqc;
         "SjuTFuhz" = _SjuTFuhz;
+        "q6u7sgZG" = _q6u7sgZG;
         "fabric-26.1" = _fei2AQqc;
         "fabric-26.1.1" = _fei2AQqc;
         "fabric-26.1.2" = _fei2AQqc;
@@ -61,14 +67,15 @@ let
         "fabric-26.2-rc-2" = _ucYrcZ8n;
         "fabric-26.2" = _SjuTFuhz;
         "fabric-26.3-snapshot-1" = _1Ss9B78j;
+        "fabric-26.3" = _q6u7sgZG;
         "pkg-0.6.1+26.1" = _JX3Uw3pT;
         "pkg-0.6.1+1.21.8" = _AcnOTlcL;
         "pkg-0.6.2+26.1" = _cGCn2LMg;
         "pkg-0.6.2+26.2" = _ucYrcZ8n;
-        "pkg-0.6.2+26.3" = _1Ss9B78j;
+        "pkg-0.6.2+26.3" = _q6u7sgZG;
         "pkg-0.6.3+26.1" = _fei2AQqc;
         "pkg-0.6.3+26.2" = _SjuTFuhz;
-        "default" = _SjuTFuhz;
+        "default" = _q6u7sgZG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animaticarefabricated";

@@ -196,6 +196,16 @@ let
             "file" = "weaponleveling-1.20.1-3.2.0-fabric.jar";
             "hash" = "sha512-iWEz49TdW461tMVWksz67k/Uy4cf40fF9W0lcHxHh55/+QxGP76t6U1ccmhBrFys/IM9OplNWhtDxiCpTbDxjA==";
         };
+        _CtJKpcVS = {
+            "id" = "CtJKpcVS";
+            "file" = "weaponleveling-1.21.1-neoforge-3.2.0-beta.1.jar";
+            "hash" = "sha512-BtnC6HoE5xAWijRDbhX/bPqltzHug2UaCQEqKUdxuf2olPZ6Vmmrmqj5K2IeffX1KPxIb6NnLL/57zl5raNQcg==";
+        };
+        _FBvOtsfV = {
+            "id" = "FBvOtsfV";
+            "file" = "weaponleveling-1.21.1-fabric-3.2.0-beta.1.jar";
+            "hash" = "sha512-ABhOkqfIdZae2xEGvH/hCRbqTEeJQh93Zz2LbqX+ADwY/Z29xIW7LAY5DtyZ2bZ80gnrL/kDnzApvg4/ghTWvQ==";
+        };
     in {
         "dkNExmjg" = _dkNExmjg;
         "CSXsl6Kd" = _CSXsl6Kd;
@@ -236,13 +246,17 @@ let
         "GBMlGg3c" = _GBMlGg3c;
         "dwOo1F3a" = _dwOo1F3a;
         "HCNHiefV" = _HCNHiefV;
+        "CtJKpcVS" = _CtJKpcVS;
+        "FBvOtsfV" = _FBvOtsfV;
         "forge-1.18.2" = _n4NVuY1j;
         "forge-1.19.2" = _zkOeTkJz;
         "forge-1.20.1" = _dwOo1F3a;
         "fabric-1.18.2" = _rSpOXJPM;
         "fabric-1.19.2" = _9txQnsd6;
         "fabric-1.20.1" = _HCNHiefV;
+        "fabric-1.21.1" = _FBvOtsfV;
         "neoforge-1.20.1" = _eJJNwguo;
+        "neoforge-1.21.1" = _CtJKpcVS;
         "pkg-1.4.3" = _dkNExmjg;
         "pkg-1.4.1" = _CSXsl6Kd;
         "pkg-1.4.2" = _76PLuGOQ;
@@ -282,7 +296,9 @@ let
         "pkg-1.20.1-3.1.0-fabric" = _GBMlGg3c;
         "pkg-1.20.1-3.2.0-forge" = _dwOo1F3a;
         "pkg-1.20.1-3.2.0-fabric" = _HCNHiefV;
-        "default" = _HCNHiefV;
+        "pkg-1.21.1-3.2.0-beta.1-neoforge" = _CtJKpcVS;
+        "pkg-1.21.1-3.2.0-beta.1-fabric" = _FBvOtsfV;
+        "default" = _FBvOtsfV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "weapon-leveling";

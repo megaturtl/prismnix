@@ -51,6 +51,16 @@ let
             "file" = "tiny_config-fabric-4.0.1.jar";
             "hash" = "sha512-is9jmUhVYH/IQqxgCD0rHZSEvumfLqJDyugq6r+LlOa/+smPzeuruaBqtjUfDwZUfIAjLs9bH0umAl4QWw5iNg==";
         };
+        _lQolJRFe = {
+            "id" = "lQolJRFe";
+            "file" = "tiny_config-fabric-3.1.0.jar";
+            "hash" = "sha512-xmoBqxacXiP1rfUkSB9wyDDYJfJO8x5yeIpwK+ofwnWunUBGyqv4kVPdCMosP0PpsJCQpSJ6RqMNran19Ngudg==";
+        };
+        _Ab38mCAB = {
+            "id" = "Ab38mCAB";
+            "file" = "tiny_config-forge-3.1.0.jar";
+            "hash" = "sha512-qw6PKbhL4BsfyYa2LsyMpZWFfkwgp4K3vXp+ll+jhcd7ndmk31ikibUdO4d/hp/MYBxs1kl2DIlBqE1m7GfZgQ==";
+        };
     in {
         "3FqmksAo" = _3FqmksAo;
         "Zz8DxdW1" = _Zz8DxdW1;
@@ -62,6 +72,8 @@ let
         "v8m0NGSy" = _v8m0NGSy;
         "ONm20k2y" = _ONm20k2y;
         "yxjm7wp7" = _yxjm7wp7;
+        "lQolJRFe" = _lQolJRFe;
+        "Ab38mCAB" = _Ab38mCAB;
         "fabric-1.21" = _bt1Vf9Wg;
         "fabric-1.21.1" = _Cn6nGALI;
         "fabric-1.21.2" = _Cn6nGALI;
@@ -78,6 +90,7 @@ let
         "fabric-26.1.1" = _yxjm7wp7;
         "fabric-26.1.2" = _yxjm7wp7;
         "fabric-26.2" = _yxjm7wp7;
+        "fabric-1.20.1" = _lQolJRFe;
         "neoforge-1.21" = _zcsMz0he;
         "neoforge-1.21.1" = _ykk5Ifcd;
         "neoforge-1.21.2" = _ykk5Ifcd;
@@ -94,6 +107,8 @@ let
         "neoforge-26.1.1" = _ONm20k2y;
         "neoforge-26.1.2" = _ONm20k2y;
         "neoforge-26.2" = _ONm20k2y;
+        "neoforge-1.20.1" = _Ab38mCAB;
+        "forge-1.20.1" = _Ab38mCAB;
         "pkg-3.0.0-fabric" = _3FqmksAo;
         "pkg-3.0.0-neoforge" = _Zz8DxdW1;
         "pkg-3.1.0-fabric" = _bt1Vf9Wg;
@@ -104,7 +119,9 @@ let
         "pkg-4.0.0-neoforge" = _v8m0NGSy;
         "pkg-4.0.1-neoforge" = _ONm20k2y;
         "pkg-4.0.1-fabric" = _yxjm7wp7;
-        "default" = _yxjm7wp7;
+        "pkg-3.1.0+1.20.1-fabric" = _lQolJRFe;
+        "pkg-3.1.0+1.20.1-forge" = _Ab38mCAB;
+        "default" = _Ab38mCAB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tiny-config";

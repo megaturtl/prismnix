@@ -3776,6 +3776,16 @@ let
             "file" = "the_bumblezone-7.15.3+1.21.1-fabric.jar";
             "hash" = "sha512-P0rQ2I5HTDfwVaY58QwUWeld17ko4LwCPTJfYL7p6djcVQdou2Y58Vvt27mKEJFCZL2PAoYkyRyFoUi7HEloGQ==";
         };
+        _XSJsqICM = {
+            "id" = "XSJsqICM";
+            "file" = "the_bumblezone-7.14.0+1.20.1-fabric.jar";
+            "hash" = "sha512-2Ahqqj9LZsNETZKWYNxecuiq2AEKgGWDo6NHQr0pRRMlRO/86GDMmEXPq6kgNZBNVFZTOxYGY8++Af84G3rHCw==";
+        };
+        _wsSxdjOH = {
+            "id" = "wsSxdjOH";
+            "file" = "the_bumblezone-7.16.0+1.21.1-fabric.jar";
+            "hash" = "sha512-7XGOiBPwpIHXywx+azE3wUItoyR8M6JNryZQ4Y0BbOj4XTxzUdiHM68ScERHYkakVcyHc4ORxcwmXDI5+NYMHQ==";
+        };
     in {
         "k5yXwDGg" = _k5yXwDGg;
         "cXpmfcoN" = _cXpmfcoN;
@@ -4532,6 +4542,8 @@ let
         "ydn2hLhX" = _ydn2hLhX;
         "4Evf64bi" = _4Evf64bi;
         "1lb1546O" = _1lb1546O;
+        "XSJsqICM" = _XSJsqICM;
+        "wsSxdjOH" = _wsSxdjOH;
         "fabric-1.16.5" = _CSuPyeXQ;
         "fabric-1.17" = _ueSWlQem;
         "fabric-1.17.1" = _ueSWlQem;
@@ -4541,12 +4553,12 @@ let
         "fabric-1.19.2" = _KXHxdzIU;
         "fabric-1.19.3" = _bcdB4eUA;
         "fabric-1.19.4" = _zf1CsIoC;
-        "fabric-1.20.1" = _4Evf64bi;
+        "fabric-1.20.1" = _XSJsqICM;
         "fabric-1.20.2" = _a7CZ7d03;
         "fabric-1.20.4" = _gjUvv7GC;
         "fabric-1.20.6" = _mJ1VmNMI;
         "fabric-1.21" = _IARmxdUv;
-        "fabric-1.21.1" = _1lb1546O;
+        "fabric-1.21.1" = _wsSxdjOH;
         "forge-1.18" = _9VYPxpQi;
         "quilt-1.19" = _3vhAfMJo;
         "quilt-1.19.1" = _jFeZ3xG2;
@@ -5304,7 +5316,9 @@ let
         "pkg-7.15.2+1.21.1-fabric" = _ydn2hLhX;
         "pkg-7.13.4+1.20.1-fabric" = _4Evf64bi;
         "pkg-7.15.3+1.21.1-fabric" = _1lb1546O;
-        "default" = _1lb1546O;
+        "pkg-7.14.0+1.20.1-fabric" = _XSJsqICM;
+        "pkg-7.16.0+1.21.1-fabric" = _wsSxdjOH;
+        "default" = _wsSxdjOH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-bumblezone-fabric";
