@@ -751,6 +751,26 @@ let
             "file" = "SimpleBackups-26.1.5.jar";
             "hash" = "sha512-3NI/Dsw0qaJ+0OI99I4jXJhJxBfLmnApmUxNZfPPIRd68JRnSkHqDMzwZzfnweCk7i1UlnzeSAB0yMVbWNHQLA==";
         };
+        _SmbQdnuj = {
+            "id" = "SmbQdnuj";
+            "file" = "SimpleBackups-26.2.2.jar";
+            "hash" = "sha512-Z69U15IcGafPUKxSTr0jWJ+sH+B1pdWHXXMTDJdcxn0ScItPNS3QfN3QGSYxq90AWoFbR5gUnhLBF19X/CD5yw==";
+        };
+        _CXxrVNUV = {
+            "id" = "CXxrVNUV";
+            "file" = "SimpleBackups-26.1.6.jar";
+            "hash" = "sha512-GSjdS2SPb/EqBKmdc3YtJRgaO7i/8WANUsxRomSQubHaLMCfodbMHgHW/o8OUaD0Xa8t8J5L3xqXiWUz3x6VRA==";
+        };
+        _xx1uVJtd = {
+            "id" = "xx1uVJtd";
+            "file" = "SimpleBackups-26.2.3.jar";
+            "hash" = "sha512-gTcrVZrbUc8H9lu7hWJw8VgA4epq3/rRQxQNs3U2abr4xN0K12vs2dw9xF71IUb8RnXAfJXPPbfiLDtM02E7aA==";
+        };
+        _pnyiaJxQ = {
+            "id" = "pnyiaJxQ";
+            "file" = "SimpleBackups-26.3.0.jar";
+            "hash" = "sha512-+VyywGPItctN7/rjJvuznGEcnuZGR8onPh/pzB9KE/MTqXmdrufeDEkEMHH4SmNizlK40m3pc4S2vbT15H6Mmg==";
+        };
     in {
         "mcGHjbMj" = _mcGHjbMj;
         "OHZPnbGO" = _OHZPnbGO;
@@ -902,6 +922,10 @@ let
         "m9sBUkxW" = _m9sBUkxW;
         "5LVY8pzl" = _5LVY8pzl;
         "EjSSYesW" = _EjSSYesW;
+        "SmbQdnuj" = _SmbQdnuj;
+        "CXxrVNUV" = _CXxrVNUV;
+        "xx1uVJtd" = _xx1uVJtd;
+        "pnyiaJxQ" = _pnyiaJxQ;
         "forge-1.18.1" = _OHZPnbGO;
         "forge-1.18.2" = _llBk56FN;
         "forge-1.19" = _APq7Smui;
@@ -923,10 +947,11 @@ let
         "neoforge-1.21.9" = _VtzPy97R;
         "neoforge-1.21.10" = _VtzPy97R;
         "neoforge-1.21.11" = _lqiLxSLk;
-        "neoforge-26.1" = _EjSSYesW;
-        "neoforge-26.1.1" = _EjSSYesW;
-        "neoforge-26.1.2" = _EjSSYesW;
-        "neoforge-26.2" = _5LVY8pzl;
+        "neoforge-26.1" = _CXxrVNUV;
+        "neoforge-26.1.1" = _CXxrVNUV;
+        "neoforge-26.1.2" = _CXxrVNUV;
+        "neoforge-26.2" = _xx1uVJtd;
+        "neoforge-26.3" = _pnyiaJxQ;
         "pkg-1.18.1-1.0.0" = _mcGHjbMj;
         "pkg-1.18.1-1.0.1" = _OHZPnbGO;
         "pkg-1.18.2-1.1.0" = _O9fXcoe9;
@@ -1077,7 +1102,11 @@ let
         "pkg-26.2.0" = _m9sBUkxW;
         "pkg-26.2.1" = _5LVY8pzl;
         "pkg-26.1.5" = _EjSSYesW;
-        "default" = _EjSSYesW;
+        "pkg-26.2.2" = _SmbQdnuj;
+        "pkg-26.1.6" = _CXxrVNUV;
+        "pkg-26.2.3" = _xx1uVJtd;
+        "pkg-26.3.0" = _pnyiaJxQ;
+        "default" = _pnyiaJxQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-backups";

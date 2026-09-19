@@ -251,6 +251,16 @@ let
             "file" = "wits-1.4.3+26.1-neoforge.jar";
             "hash" = "sha512-5nNlWuFae1x8Not4QvgU8pH8fHQDXtUU0NS11zW3mEA+jOr2NNTQ4+ZGq+AFiRj3lQ0ctnmo9ivRExEXDyiXRA==";
         };
+        _DnN8S21H = {
+            "id" = "DnN8S21H";
+            "file" = "wits-1.4.3+26.3-fabric.jar";
+            "hash" = "sha512-NZSo5xlMxacL8oAPJyJyvYWP9BqutFcalbu8ieP6XyH3bok3y52iUviBDJme5sKHRxZBGUGZ/uDLlxjixqaplA==";
+        };
+        _nlsUDp9W = {
+            "id" = "nlsUDp9W";
+            "file" = "wits-1.4.3+26.3-neoforge.jar";
+            "hash" = "sha512-Q51jeGx2iQGfrbG2YL9gIZzeYilQVQnk1u1yXtGf9E67u8QPtNZmRPSkJdkdpAFvguXyaZQ3OEEMuzZCVHf01w==";
+        };
     in {
         "PcKxllBe" = _PcKxllBe;
         "9yQ7sja3" = _9yQ7sja3;
@@ -302,6 +312,8 @@ let
         "XbM2TRNR" = _XbM2TRNR;
         "jFlZg33v" = _jFlZg33v;
         "Bj3LVDPo" = _Bj3LVDPo;
+        "DnN8S21H" = _DnN8S21H;
+        "nlsUDp9W" = _nlsUDp9W;
         "forge-1.19.2" = _949X1ZT4;
         "forge-1.20.1" = _W6FbfJdU;
         "forge-1.18.2" = _EV9MruRu;
@@ -331,6 +343,7 @@ let
         "fabric-26.1.1" = _jFlZg33v;
         "fabric-26.1.2" = _jFlZg33v;
         "fabric-26.2" = _O4qFUou7;
+        "fabric-26.3" = _DnN8S21H;
         "neoforge-1.20.1" = _W6FbfJdU;
         "neoforge-1.20.2" = _M6UikOu1;
         "neoforge-1.20.3" = _yQrQ3xiT;
@@ -351,6 +364,7 @@ let
         "neoforge-26.1.1" = _Bj3LVDPo;
         "neoforge-26.1.2" = _Bj3LVDPo;
         "neoforge-26.2" = _N5sXnBNm;
+        "neoforge-26.3" = _nlsUDp9W;
         "pkg-1.0.0+1.19.2-forge" = _PcKxllBe;
         "pkg-1.0.0+1.19.2-fabric" = _9yQ7sja3;
         "pkg-1.0.0+1.20.1-fabric" = _uCvvnBig;
@@ -401,7 +415,9 @@ let
         "pkg-1.3.1+1.21-neoforge" = _XbM2TRNR;
         "pkg-1.4.3+26.1-fabric" = _jFlZg33v;
         "pkg-1.4.3+26.1-neoforge" = _Bj3LVDPo;
-        "default" = _Bj3LVDPo;
+        "pkg-1.4.3+26.3-fabric" = _DnN8S21H;
+        "pkg-1.4.3+26.3-neoforge" = _nlsUDp9W;
+        "default" = _nlsUDp9W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wits";

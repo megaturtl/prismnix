@@ -141,6 +141,11 @@ let
             "file" = "VanillaMending-26.2.zip";
             "hash" = "sha512-Vc/Jq4oRUJvyDpj1iIxhRXJSToqeL16OnonojuZ4k6093Y3TyTpq6qkwkjvkyy3Kkz2svORv1nw0zXVznCUZNQ==";
         };
+        _zWV3HnDi = {
+            "id" = "zWV3HnDi";
+            "file" = "VanillaMending-26.3.zip";
+            "hash" = "sha512-YsXuFFSbHsLbJ6hccNNmpXNz20Vwp+Qvn3h6s5EDO2FzTVlyPrbHS5RGDopjYxRQwqAks52Z0FpIlrD09HuYZw==";
+        };
     in {
         "8Q1F0QU3" = _8Q1F0QU3;
         "Cup8Xw74" = _Cup8Xw74;
@@ -170,6 +175,7 @@ let
         "ccpa1iwa" = _ccpa1iwa;
         "ApkGKaYa" = _ApkGKaYa;
         "APWYpv5d" = _APWYpv5d;
+        "zWV3HnDi" = _zWV3HnDi;
         "minecraft-3D-Shareware-v1.34" = _8Q1F0QU3;
         "minecraft-1.14" = _8Q1F0QU3;
         "minecraft-1.14.1" = _8Q1F0QU3;
@@ -226,11 +232,12 @@ let
         "minecraft-1.21.9" = _ApkGKaYa;
         "minecraft-1.21.10" = _ApkGKaYa;
         "minecraft-1.21.11" = _ApkGKaYa;
-        "minecraft-26.1" = _APWYpv5d;
+        "minecraft-26.1" = _zWV3HnDi;
         "minecraft-25w14craftmine" = _L5NruRN6;
-        "minecraft-26.1.1" = _APWYpv5d;
-        "minecraft-26.1.2" = _APWYpv5d;
-        "minecraft-26.2" = _APWYpv5d;
+        "minecraft-26.1.1" = _zWV3HnDi;
+        "minecraft-26.1.2" = _zWV3HnDi;
+        "minecraft-26.2" = _zWV3HnDi;
+        "minecraft-26.3" = _zWV3HnDi;
         "pkg-1.14.0-rv7" = _8Q1F0QU3;
         "pkg-1.15.0-rv7" = _Cup8Xw74;
         "pkg-1.16.2-rv7" = _9PVCWD0A;
@@ -259,7 +266,8 @@ let
         "pkg-26.1" = _ccpa1iwa;
         "pkg-26.0.1" = _ApkGKaYa;
         "pkg-26.2" = _APWYpv5d;
-        "default" = _APWYpv5d;
+        "pkg-26.3" = _zWV3HnDi;
+        "default" = _zWV3HnDi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-mending";

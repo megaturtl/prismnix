@@ -1161,6 +1161,21 @@ let
             "file" = "entangled-1.3.21-neoforge-mc26.2.jar";
             "hash" = "sha512-KNVdVRhI84isblPLj+L0aDSp8wfolEN8NbOTSdjCotuYSl4OcToZPhDknUXQJZvq2i+KU/GIpdVtLtMLQaIsEA==";
         };
+        _67tCP67E = {
+            "id" = "67tCP67E";
+            "file" = "entangled-1.3.21a-neoforge-mc26.2.jar";
+            "hash" = "sha512-nJ+V/m6moAp92w+snviX1HEkpM5BQWrgO5z7E81O4ig+m7p59pYjZKsShMFrobSnE3E9UAprjt8ZP1QccNUOEA==";
+        };
+        _oc3EJEv2 = {
+            "id" = "oc3EJEv2";
+            "file" = "entangled-1.3.21-fabric-mc26.3.jar";
+            "hash" = "sha512-GqA4N5tdM1Z4ppQAumtI5CaNE0dHrSoxgvLDoMYWZhJHNWr4AvbH3U3mrRT0WagMaMjyq03sQWzI808qw4J+sA==";
+        };
+        _CV1KKB1O = {
+            "id" = "CV1KKB1O";
+            "file" = "entangled-1.3.21-neoforge-mc26.3.jar";
+            "hash" = "sha512-7DPiJ8Zqg8nHFtSxEr9NdhKk8w7wjo8Qs+IVSmzXqwUVP2mlrWhUrCYyA66wx6ffxaQ7q8bviMG4v2E5hR2DhA==";
+        };
     in {
         "UtcGiC3e" = _UtcGiC3e;
         "LkV31QjU" = _LkV31QjU;
@@ -1394,6 +1409,9 @@ let
         "ecFvcoOk" = _ecFvcoOk;
         "Vl6nVARZ" = _Vl6nVARZ;
         "rxJP3kd0" = _rxJP3kd0;
+        "67tCP67E" = _67tCP67E;
+        "oc3EJEv2" = _oc3EJEv2;
+        "CV1KKB1O" = _CV1KKB1O;
         "forge-1.12" = _lKJLkDvY;
         "forge-1.12.1" = _lKJLkDvY;
         "forge-1.12.2" = _lKJLkDvY;
@@ -1472,6 +1490,7 @@ let
         "fabric-26.1.1" = _tao82Hp4;
         "fabric-26.1.2" = _tao82Hp4;
         "fabric-26.2" = _Vl6nVARZ;
+        "fabric-26.3" = _oc3EJEv2;
         "neoforge-1.12" = _5kevP0rc;
         "neoforge-1.12.1" = _5kevP0rc;
         "neoforge-1.12.2" = _5kevP0rc;
@@ -1520,7 +1539,8 @@ let
         "neoforge-26.1" = _zRMdwmA4;
         "neoforge-26.1.1" = _zRMdwmA4;
         "neoforge-26.1.2" = _zRMdwmA4;
-        "neoforge-26.2" = _rxJP3kd0;
+        "neoforge-26.2" = _67tCP67E;
+        "neoforge-26.3" = _CV1KKB1O;
         "quilt-1.18" = _4NKcD5c1;
         "quilt-1.18.1" = _4NKcD5c1;
         "quilt-1.18.2" = _4NKcD5c1;
@@ -1549,6 +1569,7 @@ let
         "quilt-26.1.1" = _tao82Hp4;
         "quilt-26.1.2" = _tao82Hp4;
         "quilt-26.2" = _Vl6nVARZ;
+        "quilt-26.3" = _oc3EJEv2;
         "pkg-1.3.11-forge-mc1.12" = _UtcGiC3e;
         "pkg-1.3.11-forge-mc1.14" = _LkV31QjU;
         "pkg-1.3.11-forge-mc1.15" = _vvdVIFQl;
@@ -1781,7 +1802,10 @@ let
         "pkg-1.3.21-forge-mc26.2" = _ecFvcoOk;
         "pkg-1.3.21-fabric-mc26.2" = _Vl6nVARZ;
         "pkg-1.3.21-neoforge-mc26.2" = _rxJP3kd0;
-        "default" = _rxJP3kd0;
+        "pkg-1.3.21a-neoforge-mc26.2" = _67tCP67E;
+        "pkg-1.3.21-fabric-mc26.3" = _oc3EJEv2;
+        "pkg-1.3.21-neoforge-mc26.3" = _CV1KKB1O;
+        "default" = _CV1KKB1O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "entangled";

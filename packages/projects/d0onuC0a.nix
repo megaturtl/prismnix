@@ -41,6 +41,11 @@ let
             "file" = "warband-1.4.0.jar";
             "hash" = "sha512-jL/pYjn9fhsXTLk9CQ0w5+Lil6ZJPwJ2qi9ppyWsss7H9FHVUpy7FLQAmfp4wS/TBbQ9IF+bYD+ld3SCYHcPIA==";
         };
+        _Tn92Rn7a = {
+            "id" = "Tn92Rn7a";
+            "file" = "warband-1.5.0+26.2.jar";
+            "hash" = "sha512-cF7zSM+LeXyDHOJWy8Jm0HoLQ1aT3heOzuaSat1jxjTmFEw/ZMD5iYqqehtDARPeiNoppBVMqSrTPcwJna8Vmg==";
+        };
     in {
         "mKUTnWZa" = _mKUTnWZa;
         "YtZvzQwy" = _YtZvzQwy;
@@ -50,9 +55,11 @@ let
         "2WUupcvV" = _2WUupcvV;
         "PfNCm0hf" = _PfNCm0hf;
         "L3ipmf6e" = _L3ipmf6e;
+        "Tn92Rn7a" = _Tn92Rn7a;
         "fabric-26.1" = _L3ipmf6e;
         "fabric-26.1.1" = _L3ipmf6e;
         "fabric-26.1.2" = _L3ipmf6e;
+        "fabric-26.2" = _Tn92Rn7a;
         "pkg-1.0.0" = _mKUTnWZa;
         "pkg-1.1.0" = _YtZvzQwy;
         "pkg-1.2.0" = _3W8RiMWH;
@@ -61,7 +68,8 @@ let
         "pkg-1.3.1" = _2WUupcvV;
         "pkg-1.3.2" = _PfNCm0hf;
         "pkg-1.4.0" = _L3ipmf6e;
-        "default" = _L3ipmf6e;
+        "pkg-1.5.0" = _Tn92Rn7a;
+        "default" = _Tn92Rn7a;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "warband";

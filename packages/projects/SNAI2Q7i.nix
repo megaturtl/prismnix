@@ -46,6 +46,11 @@ let
             "file" = "snowy-leaves-v1-0-0-mc-26-2.zip";
             "hash" = "sha512-0Bn7FsOUe90URT9ZvTrDMkWsPpo0yzjndCGPzbpqTly6NmAz8oYNheO5ZyLl+1j/lxqlx1pIlj1FwD6LsFFlJA==";
         };
+        _WUdEo4Lp = {
+            "id" = "WUdEo4Lp";
+            "file" = "snowy-leaves-v1-1-0-mc-26-3.zip";
+            "hash" = "sha512-Zhe/a8bPHhxuJRoGOUeKMW588FHY4g3DCn0+ih5ArisgwQ9ORBx48GCqtmEmQF2JygBjpS0Hb+94A5dVgJ1DAA==";
+        };
     in {
         "wooBVcqm" = _wooBVcqm;
         "JP6f3EvL" = _JP6f3EvL;
@@ -56,6 +61,7 @@ let
         "Sf27L2jR" = _Sf27L2jR;
         "wHMHrP6y" = _wHMHrP6y;
         "bO2yjRPi" = _bO2yjRPi;
+        "WUdEo4Lp" = _WUdEo4Lp;
         "minecraft-1.21.4" = _mE0RCtjF;
         "minecraft-1.21.5" = _mE0RCtjF;
         "minecraft-1.21.6" = _mE0RCtjF;
@@ -64,9 +70,9 @@ let
         "minecraft-1.21.9" = _bO2yjRPi;
         "minecraft-1.21.10" = _bO2yjRPi;
         "minecraft-1.21.11" = _bO2yjRPi;
-        "minecraft-26.1" = _bO2yjRPi;
-        "minecraft-26.1.1" = _bO2yjRPi;
-        "minecraft-26.1.2" = _bO2yjRPi;
+        "minecraft-26.1" = _WUdEo4Lp;
+        "minecraft-26.1.1" = _WUdEo4Lp;
+        "minecraft-26.1.2" = _WUdEo4Lp;
         "minecraft-1.20" = _wHMHrP6y;
         "minecraft-1.20.1" = _wHMHrP6y;
         "minecraft-23w31a" = _wHMHrP6y;
@@ -120,7 +126,8 @@ let
         "minecraft-1.21.2-pre2" = _wHMHrP6y;
         "minecraft-1.21.2" = _wHMHrP6y;
         "minecraft-1.21.3" = _wHMHrP6y;
-        "minecraft-26.2" = _bO2yjRPi;
+        "minecraft-26.2" = _WUdEo4Lp;
+        "minecraft-26.3" = _WUdEo4Lp;
         "pkg-v1.0.0-mc-1.21.4" = _wooBVcqm;
         "pkg-v1.0.0-mc-1.21.5" = _JP6f3EvL;
         "pkg-v1.0.0-mc-1.21.6" = _Kc6unO5T;
@@ -130,7 +137,8 @@ let
         "pkg-v1.0.0-mc-26.1" = _Sf27L2jR;
         "pkg-v1.0.0-mc-1.21.3" = _wHMHrP6y;
         "pkg-v1.0.0-mc-26.2" = _bO2yjRPi;
-        "default" = _bO2yjRPi;
+        "pkg-v1.0.0-mc-26.3" = _WUdEo4Lp;
+        "default" = _WUdEo4Lp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "snowy-leaves";

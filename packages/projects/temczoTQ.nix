@@ -1066,6 +1066,11 @@ let
             "file" = "autohud-9.0+26.2-fabric.jar";
             "hash" = "sha512-A/nmm7Md6oRTqdWZXO2eL2ill8DnXc6qmmdWv2HVY+SAHVI2zP0grXxTmqalytEKwKThzpy/wJKMRb1zMMGjiw==";
         };
+        _VVYQb901 = {
+            "id" = "VVYQb901";
+            "file" = "autohud-9.1+26.3-fabric.jar";
+            "hash" = "sha512-KUTl5U0vwMjIOind5cw2nwUxC5As0GKj5LHC8lMiStebNaD9t8IPSbsKYIIJd5bi/+Dyhn9iGd7YUoF5DqNwbA==";
+        };
     in {
         "RvyadWAV" = _RvyadWAV;
         "a3pHKWTX" = _a3pHKWTX;
@@ -1280,6 +1285,7 @@ let
         "6whjN2oD" = _6whjN2oD;
         "1HnudpY7" = _1HnudpY7;
         "QYYyUL5F" = _QYYyUL5F;
+        "VVYQb901" = _VVYQb901;
         "fabric-1.18.2" = _I8Elvcmo;
         "fabric-1.19" = _TyP9drU7;
         "fabric-1.19.1" = _TyP9drU7;
@@ -1306,6 +1312,7 @@ let
         "fabric-1.21.10" = _KzlQtK91;
         "fabric-1.21.11" = _8sEdPebk;
         "fabric-26.2" = _QYYyUL5F;
+        "fabric-26.3" = _VVYQb901;
         "forge-1.20" = _E3V1cOmD;
         "forge-1.20.1" = _E3V1cOmD;
         "forge-1.19.4" = _MnW3SMZG;
@@ -1539,7 +1546,8 @@ let
         "pkg-9.0-beta.2+26.2-fabric" = _6whjN2oD;
         "pkg-9.0-beta.3+26.2-fabric" = _1HnudpY7;
         "pkg-9.0+26.2-fabric" = _QYYyUL5F;
-        "default" = _QYYyUL5F;
+        "pkg-9.1+26.3-fabric" = _VVYQb901;
+        "default" = _VVYQb901;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autohud";

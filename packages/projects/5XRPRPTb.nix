@@ -326,6 +326,16 @@ let
             "file" = "betterpets-v4.3.5.jar";
             "hash" = "sha512-+zvaaUoFFoLGe/UDI0MCsTJHSoi0tZ+n9MWG+ZZNPZOsYydIAaAnrwu3XM8QWJbKAsIPBBGQfymkxjHKeGYXNQ==";
         };
+        _SdIuXrHJ = {
+            "id" = "SdIuXrHJ";
+            "file" = "Better Pets v4.3.5 - 26.3.zip";
+            "hash" = "sha512-JmgOdGZNb0vGLvovCQZIlhJMXEagrku4/sKsNn2sDvAr62QbPF7MlgjcPuv/Sk0PWhlDH1Hrb8GJyKYuF92g5Q==";
+        };
+        _GHh3hKc3 = {
+            "id" = "GHh3hKc3";
+            "file" = "betterpets-v4.3.5.jar";
+            "hash" = "sha512-eO3pXOZEJUIinscKQBwTXujeMVHp8HbcJ0Pc//7hkYQitx273FXR14qOCuHB9RguTOTBtoNrR3irmEfYKSzG1g==";
+        };
     in {
         "w31i55Rm" = _w31i55Rm;
         "a5C9taJs" = _a5C9taJs;
@@ -392,6 +402,8 @@ let
         "ishxM4hM" = _ishxM4hM;
         "pDKQ5Erw" = _pDKQ5Erw;
         "mxYAzt8g" = _mxYAzt8g;
+        "SdIuXrHJ" = _SdIuXrHJ;
+        "GHh3hKc3" = _GHh3hKc3;
         "datapack-1.20.2" = _a5C9taJs;
         "datapack-1.20.3" = _a5C9taJs;
         "datapack-1.20.4" = _a5C9taJs;
@@ -410,6 +422,7 @@ let
         "datapack-26.1.1" = _pDKQ5Erw;
         "datapack-26.1.2" = _pDKQ5Erw;
         "datapack-26.2" = _pDKQ5Erw;
+        "datapack-26.3" = _SdIuXrHJ;
         "fabric-1.20.6" = _ehnosAHw;
         "fabric-1.21" = _ishxM4hM;
         "fabric-1.21.1" = _ishxM4hM;
@@ -425,6 +438,7 @@ let
         "fabric-26.1.1" = _mxYAzt8g;
         "fabric-26.1.2" = _mxYAzt8g;
         "fabric-26.2" = _mxYAzt8g;
+        "fabric-26.3" = _GHh3hKc3;
         "forge-1.20.6" = _ehnosAHw;
         "forge-1.21" = _ishxM4hM;
         "forge-1.21.1" = _ishxM4hM;
@@ -440,6 +454,7 @@ let
         "forge-26.1.1" = _mxYAzt8g;
         "forge-26.1.2" = _mxYAzt8g;
         "forge-26.2" = _mxYAzt8g;
+        "forge-26.3" = _GHh3hKc3;
         "quilt-1.20.6" = _ehnosAHw;
         "quilt-1.21" = _ishxM4hM;
         "quilt-1.21.1" = _ishxM4hM;
@@ -455,6 +470,7 @@ let
         "quilt-26.1.1" = _mxYAzt8g;
         "quilt-26.1.2" = _mxYAzt8g;
         "quilt-26.2" = _mxYAzt8g;
+        "quilt-26.3" = _GHh3hKc3;
         "neoforge-1.21" = _ishxM4hM;
         "neoforge-1.21.1" = _ishxM4hM;
         "neoforge-1.21.4" = _SQrroQvK;
@@ -469,6 +485,7 @@ let
         "neoforge-26.1.1" = _mxYAzt8g;
         "neoforge-26.1.2" = _mxYAzt8g;
         "neoforge-26.2" = _mxYAzt8g;
+        "neoforge-26.3" = _GHh3hKc3;
         "pkg-v1.0.0" = _w31i55Rm;
         "pkg-v1.1.0" = _a5C9taJs;
         "pkg-v2.0.0" = _qo9lCpy4;
@@ -516,9 +533,9 @@ let
         "pkg-v4.3.3+mod" = _dgBqUbgt;
         "pkg-v4.3.4" = _BkoJUHkT;
         "pkg-v4.3.4+mod" = _ishxM4hM;
-        "pkg-v4.3.5" = _pDKQ5Erw;
-        "pkg-v4.3.5+mod" = _mxYAzt8g;
-        "default" = _mxYAzt8g;
+        "pkg-v4.3.5" = _SdIuXrHJ;
+        "pkg-v4.3.5+mod" = _GHh3hKc3;
+        "default" = _GHh3hKc3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betterpets";

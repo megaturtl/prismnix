@@ -126,6 +126,11 @@ let
             "file" = "lanlock-1.3.7.jar";
             "hash" = "sha512-rjzVsnQ/t3yiJa1VmKFtUShZxN0XPJ/3eE4pBMtVhBFak6Gf70PVv5VXZxr/B4AWiabWcbvHN0eFP8zuoPOvKg==";
         };
+        _vl22QiyJ = {
+            "id" = "vl22QiyJ";
+            "file" = "lanlock-1.3.7.jar";
+            "hash" = "sha512-W+W1ybLvlSba38dm69Jfgjlgxo+V6IaVQ/r2NJLZmb/sl6+AFVPTg84FOjNVoX56Bds54hUSe+9IetpXC447AQ==";
+        };
     in {
         "USRewqce" = _USRewqce;
         "GrprOv0h" = _GrprOv0h;
@@ -152,6 +157,7 @@ let
         "Lbseq412" = _Lbseq412;
         "bcokxlEI" = _bcokxlEI;
         "7Rm4wgbs" = _7Rm4wgbs;
+        "vl22QiyJ" = _vl22QiyJ;
         "fabric-1.21" = _TqhRPpH3;
         "fabric-1.21.1" = _TqhRPpH3;
         "fabric-1.21.2" = _TqhRPpH3;
@@ -178,6 +184,7 @@ let
         "fabric-26.1.1" = _bcokxlEI;
         "fabric-26.1.2" = _bcokxlEI;
         "fabric-26.2" = _7Rm4wgbs;
+        "fabric-26.3" = _vl22QiyJ;
         "quilt-1.21" = _TqhRPpH3;
         "quilt-1.21.1" = _TqhRPpH3;
         "quilt-1.21.2" = _TqhRPpH3;
@@ -204,6 +211,7 @@ let
         "quilt-26.1.1" = _bcokxlEI;
         "quilt-26.1.2" = _bcokxlEI;
         "quilt-26.2" = _7Rm4wgbs;
+        "quilt-26.3" = _vl22QiyJ;
         "pkg-1.0" = _USRewqce;
         "pkg-1.1" = _GrprOv0h;
         "pkg-1.2" = _lcAeM3pn;
@@ -219,8 +227,8 @@ let
         "pkg-1.3.5" = _tHitei2V;
         "pkg-1.3.6" = _V0Dfv0e5;
         "pkg-1.3.6-2" = _jZ5P3lj6;
-        "pkg-1.3.7" = _7Rm4wgbs;
-        "default" = _7Rm4wgbs;
+        "pkg-1.3.7" = _vl22QiyJ;
+        "default" = _vl22QiyJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lanlock";

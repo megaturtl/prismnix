@@ -91,6 +91,16 @@ let
             "file" = "Myotus-1.21.1-19.1.1.jar";
             "hash" = "sha512-sIbB4zNnOId0biUOivBlzuEkw1kXqXSRdLSnyjshpi1NAiuyqz6LAEL6eSvC2WAQV6gk50mgVY0EbAYgyuIazA==";
         };
+        _ajVKLyRI = {
+            "id" = "ajVKLyRI";
+            "file" = "Myotus-26.1.2-26.0.0.jar";
+            "hash" = "sha512-gNZYjrQ1CQLApblCsTruVPT65FP35VNJgOs0NCSsWKKtfqq66cWsMoXitQ30cmtBoTuoWTY1shQ5OdeUn3o34A==";
+        };
+        _PT4v3iZv = {
+            "id" = "PT4v3iZv";
+            "file" = "Myotus-1.20.1-15.1.0.jar";
+            "hash" = "sha512-KCOs4EyDgBZzmkSyyM6kt0wTZNQz0tr5F/tmHtfHoM3cZZgXvCPQBbAEc7ALXg690E29RCW97qAiejAs/d24cQ==";
+        };
     in {
         "5JzeoQEE" = _5JzeoQEE;
         "CEMO9mSM" = _CEMO9mSM;
@@ -110,8 +120,11 @@ let
         "Wd7dbj4N" = _Wd7dbj4N;
         "nsPTsdOG" = _nsPTsdOG;
         "uqvIHRrm" = _uqvIHRrm;
+        "ajVKLyRI" = _ajVKLyRI;
+        "PT4v3iZv" = _PT4v3iZv;
         "neoforge-1.21.1" = _uqvIHRrm;
-        "forge-1.20.1" = _De7gWmvt;
+        "neoforge-26.1.2" = _ajVKLyRI;
+        "forge-1.20.1" = _PT4v3iZv;
         "pkg-1.21.1-19.0.2" = _5JzeoQEE;
         "pkg-1.21.1-19.0.3" = _CEMO9mSM;
         "pkg-1.21.1-19.0.4" = _4LlYxHtw;
@@ -130,7 +143,9 @@ let
         "pkg-1.21.1-19.1.0" = _Wd7dbj4N;
         "pkg-1.21.1-19.1.0-hotfix1" = _nsPTsdOG;
         "pkg-1.21.1-19.1.1" = _uqvIHRrm;
-        "default" = _uqvIHRrm;
+        "pkg-26.1.2-26.0.0" = _ajVKLyRI;
+        "pkg-1.20.1-15.1.0" = _PT4v3iZv;
+        "default" = _PT4v3iZv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "myotus-lib";

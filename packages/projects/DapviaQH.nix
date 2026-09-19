@@ -41,6 +41,11 @@ let
             "file" = "chrissi's PvP Essentials.zip";
             "hash" = "sha512-CD9nJ7mjooa+NNqXlh8K8Lc3m6O+x20Yzz3zg4wKVafMA9rAm0y3HdS0ep9oaw8hdBIE72PZFTjIE4uPYu7CnA==";
         };
+        _aZTECy29 = {
+            "id" = "aZTECy29";
+            "file" = "chrissi's PvP Essentials.zip";
+            "hash" = "sha512-hb4YCWV5IlCWmvoZb9v2iGN1jFiI7E/8iuPjvryu7qEqCrtvsMw0fDHzbApGOhUCjh0XSehBzQM8n0chg7ogEQ==";
+        };
     in {
         "n7gs2fVY" = _n7gs2fVY;
         "1QDk18KM" = _1QDk18KM;
@@ -50,6 +55,7 @@ let
         "HiQsHPTh" = _HiQsHPTh;
         "Bd2evZOy" = _Bd2evZOy;
         "pCFIcSiR" = _pCFIcSiR;
+        "aZTECy29" = _aZTECy29;
         "minecraft-1.20.2" = _142Efpa5;
         "minecraft-1.20.3" = _142Efpa5;
         "minecraft-1.20.4" = _142Efpa5;
@@ -65,13 +71,14 @@ let
         "minecraft-1.21.7" = _142Efpa5;
         "minecraft-1.21.8" = _142Efpa5;
         "minecraft-1.8.9" = _SOwPz5vx;
-        "minecraft-1.21.9" = _pCFIcSiR;
-        "minecraft-1.21.10" = _pCFIcSiR;
-        "minecraft-1.21.11" = _pCFIcSiR;
-        "minecraft-26.1" = _pCFIcSiR;
-        "minecraft-26.1.1" = _pCFIcSiR;
-        "minecraft-26.1.2" = _pCFIcSiR;
-        "minecraft-26.2" = _pCFIcSiR;
+        "minecraft-1.21.9" = _aZTECy29;
+        "minecraft-1.21.10" = _aZTECy29;
+        "minecraft-1.21.11" = _aZTECy29;
+        "minecraft-26.1" = _aZTECy29;
+        "minecraft-26.1.1" = _aZTECy29;
+        "minecraft-26.1.2" = _aZTECy29;
+        "minecraft-26.2" = _aZTECy29;
+        "minecraft-26.3" = _aZTECy29;
         "pkg-2.0.0" = _n7gs2fVY;
         "pkg-2.1.0" = _1QDk18KM;
         "pkg-2.2.0" = _142Efpa5;
@@ -80,7 +87,8 @@ let
         "pkg-2.4" = _HiQsHPTh;
         "pkg-2.5" = _Bd2evZOy;
         "pkg-2.6" = _pCFIcSiR;
-        "default" = _pCFIcSiR;
+        "pkg-2.7" = _aZTECy29;
+        "default" = _aZTECy29;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chrissi-essentials";

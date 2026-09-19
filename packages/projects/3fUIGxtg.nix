@@ -101,6 +101,11 @@ let
             "file" = "Simple Structures Caves 26.2.jar";
             "hash" = "sha512-9gVMrV2iB6ruMoUnyxPESSg1cz/ZMqKEH3ccgGWa67kSUtwehIo4dp1Vby0eKrYm6um74Yp8QoGnB01r9EusBw==";
         };
+        _klW3aToY = {
+            "id" = "klW3aToY";
+            "file" = "Simple Structures Desert 26.3.jar";
+            "hash" = "sha512-8eHn8cjO22j6kqV4R7tfYngNJHyacoI/oJ9g9cSKrA1S2/X+qCBX0pn4enZ5UuWvuVmcfGVHPO7Ggg8N1/qiBw==";
+        };
     in {
         "l9vmLWWa" = _l9vmLWWa;
         "VpdjullE" = _VpdjullE;
@@ -122,6 +127,7 @@ let
         "r6Zgcmwi" = _r6Zgcmwi;
         "pxPZ5a2K" = _pxPZ5a2K;
         "b65caZzc" = _b65caZzc;
+        "klW3aToY" = _klW3aToY;
         "fabric-1.19.2" = _l9vmLWWa;
         "fabric-1.20" = _U6qEve0D;
         "fabric-1.20.1" = _u9csKs1h;
@@ -145,6 +151,7 @@ let
         "fabric-26.2-pre-5" = _zui4FJBZ;
         "fabric-26.2-pre-6" = _zui4FJBZ;
         "fabric-26.2" = _b65caZzc;
+        "fabric-26.3" = _klW3aToY;
         "forge-1.19.2" = _l9vmLWWa;
         "forge-1.20" = _U6qEve0D;
         "forge-1.20.1" = _u9csKs1h;
@@ -168,6 +175,7 @@ let
         "forge-26.2-pre-5" = _zui4FJBZ;
         "forge-26.2-pre-6" = _zui4FJBZ;
         "forge-26.2" = _b65caZzc;
+        "forge-26.3" = _klW3aToY;
         "datapack-1.19.2" = _VpdjullE;
         "datapack-1.20" = _FDziEY87;
         "datapack-1.20.1" = _FDziEY87;
@@ -201,12 +209,14 @@ let
         "neoforge-1.21.1" = _xLa7s7cF;
         "neoforge-1.21.10" = _r6Zgcmwi;
         "neoforge-1.21.11" = _r6Zgcmwi;
+        "neoforge-26.3" = _klW3aToY;
         "quilt-1.20.1" = _u9csKs1h;
         "pkg-1.0" = _ZWzB9Tjt;
         "pkg-1.0.1" = _zui4FJBZ;
         "pkg-1.1" = _PPYdQc4B;
         "pkg-1.2" = _b65caZzc;
-        "default" = _b65caZzc;
+        "pkg-1.2.1" = _klW3aToY;
+        "default" = _klW3aToY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-structures-caves";

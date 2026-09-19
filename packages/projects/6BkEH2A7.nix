@@ -16,15 +16,22 @@ let
             "file" = "titan_obsidian-5.6.2-forge-1.20.1.jar";
             "hash" = "sha512-OdnSK6jVnyDlFZkrRClWULImZ1mQScvdUhDtm38V+aT5kk5h/XdSXwcY7vF4eLV76GIzS7w14/nHGlZPGgwABA==";
         };
+        _iPbvq3ex = {
+            "id" = "iPbvq3ex";
+            "file" = "titan_obsidian-5.6.3-forge-1.20.1.jar";
+            "hash" = "sha512-jW+7rfJpIK1iYnigDqB/9KlHRb1tjY3ZX6W1mGGarjaiCGc5mYkj47doiv6MZFcn6xUnj3gTWqCTIsljpy3mMA==";
+        };
     in {
         "FmYXb3Oh" = _FmYXb3Oh;
         "3uWVSTu8" = _3uWVSTu8;
         "20CRLGYB" = _20CRLGYB;
-        "forge-1.20.1" = _20CRLGYB;
+        "iPbvq3ex" = _iPbvq3ex;
+        "forge-1.20.1" = _iPbvq3ex;
         "pkg-5.6.0" = _FmYXb3Oh;
         "pkg-5.6.1" = _3uWVSTu8;
         "pkg-5.6.2" = _20CRLGYB;
-        "default" = _20CRLGYB;
+        "pkg-5.6.3" = _iPbvq3ex;
+        "default" = _iPbvq3ex;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "titanobsidian";

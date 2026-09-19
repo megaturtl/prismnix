@@ -71,6 +71,11 @@ let
             "file" = "inhabitor-fabric-1.0.7+26.2.jar";
             "hash" = "sha512-54WcDDQ5982gSJFVAU1Devg11qX766R6r/dpX/21YD/1Dae6kgqu9Q5wPutwmnMTuC57V5/fGn/UvObxQ+5OWg==";
         };
+        _e2R2iD7w = {
+            "id" = "e2R2iD7w";
+            "file" = "inhabitor-fabric-1.0.7+26.3.jar";
+            "hash" = "sha512-8vzDmvX5dJHDQPEXrkEv7m8kAM5lPEzYeRZ8yOr1h/uNvidQ/oj0/n7YJ+PJCQ1XSJtuKlWJ2V9RNhJx7NCxuw==";
+        };
     in {
         "Eab6gMjQ" = _Eab6gMjQ;
         "GVIjoeE5" = _GVIjoeE5;
@@ -86,6 +91,7 @@ let
         "hzW1UBgz" = _hzW1UBgz;
         "sf9YQ5YM" = _sf9YQ5YM;
         "Fat2dP9Q" = _Fat2dP9Q;
+        "e2R2iD7w" = _e2R2iD7w;
         "fabric-1.21.4" = _Eab6gMjQ;
         "fabric-1.21.5" = _GVIjoeE5;
         "fabric-1.21.6" = _dkU2UnbO;
@@ -98,6 +104,7 @@ let
         "fabric-26.1.1" = _sf9YQ5YM;
         "fabric-26.1.2" = _sf9YQ5YM;
         "fabric-26.2" = _Fat2dP9Q;
+        "fabric-26.3" = _e2R2iD7w;
         "quilt-1.21.4" = _Eab6gMjQ;
         "quilt-1.21.5" = _GVIjoeE5;
         "quilt-1.21.6" = _dkU2UnbO;
@@ -110,6 +117,7 @@ let
         "quilt-26.1.1" = _sf9YQ5YM;
         "quilt-26.1.2" = _sf9YQ5YM;
         "quilt-26.2" = _Fat2dP9Q;
+        "quilt-26.3" = _e2R2iD7w;
         "pkg-fabric-1.21.4-1.0.5" = _Eab6gMjQ;
         "pkg-fabric-1.21.5-1.0.5" = _GVIjoeE5;
         "pkg-fabric-1.21.6-1.0.5" = _dkU2UnbO;
@@ -124,7 +132,8 @@ let
         "pkg-fabric-1.0.7+26.1.1" = _hzW1UBgz;
         "pkg-fabric-1.0.7+26.1.2" = _sf9YQ5YM;
         "pkg-fabric-1.0.7+26.2" = _Fat2dP9Q;
-        "default" = _Fat2dP9Q;
+        "pkg-fabric-1.0.7+26.3" = _e2R2iD7w;
+        "default" = _e2R2iD7w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "inhabitor";

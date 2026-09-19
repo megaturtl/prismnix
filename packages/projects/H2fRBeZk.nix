@@ -51,6 +51,11 @@ let
             "file" = "compass-1.7.9+26.2.jar";
             "hash" = "sha512-67rDtx3kgj6VcBe+aussmpDkv0ts9bpZYdatrqh01bUnWTLz+unL1RtdiF/VPekvI3DOTJXWlzNaSdCOfGmSIg==";
         };
+        _aqDaYnek = {
+            "id" = "aqDaYnek";
+            "file" = "compass-1.7.10+26.3.jar";
+            "hash" = "sha512-hOJurVR+a8cMyLcE9pkSYCcY6QDOU9MMGyz7MeMydzFOmyZS5EBDK0byvdiesexbL6BUqZt7piW9ds5D9QLuNQ==";
+        };
     in {
         "N1g6w7PI" = _N1g6w7PI;
         "K0pPUesV" = _K0pPUesV;
@@ -62,6 +67,7 @@ let
         "NE8NYp3G" = _NE8NYp3G;
         "dtHXCVpq" = _dtHXCVpq;
         "8eKx4V0c" = _8eKx4V0c;
+        "aqDaYnek" = _aqDaYnek;
         "fabric-1.19.3" = _N1g6w7PI;
         "fabric-1.19.4" = _N1g6w7PI;
         "fabric-1.20" = _9W6IaA8v;
@@ -87,6 +93,7 @@ let
         "fabric-26.1.1" = _dtHXCVpq;
         "fabric-26.1.2" = _dtHXCVpq;
         "fabric-26.2" = _8eKx4V0c;
+        "fabric-26.3" = _aqDaYnek;
         "pkg-1.19.3-v1.6.1" = _N1g6w7PI;
         "pkg-1.20-v1.6.1" = _K0pPUesV;
         "pkg-1.20-v1.7.0" = _9W6IaA8v;
@@ -97,7 +104,8 @@ let
         "pkg-1.21.11-v1.7.5" = _NE8NYp3G;
         "pkg-1.7.8+26.1" = _dtHXCVpq;
         "pkg-1.7.9+26.2" = _8eKx4V0c;
-        "default" = _8eKx4V0c;
+        "pkg-1.7.10+26.3" = _aqDaYnek;
+        "default" = _aqDaYnek;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-compass";

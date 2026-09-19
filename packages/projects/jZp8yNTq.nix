@@ -26,19 +26,33 @@ let
             "file" = "simply-swords-battle-standard-tweaks-1.3.0.jar";
             "hash" = "sha512-/IDNedmtwrDT8hyq4R9x0DzFzDR8HAPwvZQQXqgsP2LBxnFyZbwPjM6N5UVTUUD9PLnJCWl++qnR9Ak7jHNzLA==";
         };
+        _UX3pwb7h = {
+            "id" = "UX3pwb7h";
+            "file" = "simply_swords_tweaks-forge-2.0.0+1.20.1.jar";
+            "hash" = "sha512-VIFdPQWX8OjI+oStgAmMTL5q4SY+s9Cri/qbP8dNYdJpYqj5ekZtnuB/4d6XHxDjNYI0ciq78V7YAw3bueGfFw==";
+        };
+        _7EwO9ZEF = {
+            "id" = "7EwO9ZEF";
+            "file" = "simply_swords_tweaks-fabric-2.0.0+1.20.1.jar";
+            "hash" = "sha512-QYPS4wBXlxnvmdm4fQX1+nQT0Fm3pkLDHHZUSwCFFmM52sXPuKZZZEgdX0MtDhiodW6xit59V/D8zYfP+ltLVw==";
+        };
     in {
         "z1AIrYzD" = _z1AIrYzD;
         "PG6i71Yf" = _PG6i71Yf;
         "hzhyumkX" = _hzhyumkX;
         "NSyIhQv9" = _NSyIhQv9;
         "wJx1BqRQ" = _wJx1BqRQ;
-        "fabric-1.20.1" = _wJx1BqRQ;
+        "UX3pwb7h" = _UX3pwb7h;
+        "7EwO9ZEF" = _7EwO9ZEF;
+        "fabric-1.20.1" = _7EwO9ZEF;
+        "forge-1.20.1" = _UX3pwb7h;
         "pkg-1.0.0" = _z1AIrYzD;
         "pkg-1.1.0" = _PG6i71Yf;
         "pkg-1.2.0" = _hzhyumkX;
         "pkg-1.2.2" = _NSyIhQv9;
         "pkg-1.3.0" = _wJx1BqRQ;
-        "default" = _wJx1BqRQ;
+        "pkg-2.0.0+1.20.1" = _7EwO9ZEF;
+        "default" = _7EwO9ZEF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simply-swords-battle-standard-tweaks";

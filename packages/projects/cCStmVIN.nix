@@ -231,6 +231,16 @@ let
             "file" = "banner-flags-3.2.jar";
             "hash" = "sha512-TbKOG/W7mFoZjUb7O05y/ZiCTdclnHwRpNC1vkVY9/0yie931laoSNVL9gJCjHc9/FxoIojRn8yTf0n/PcyWTQ==";
         };
+        _KZjzYpgj = {
+            "id" = "KZjzYpgj";
+            "file" = "banner-flags-v3.2-26.3.zip";
+            "hash" = "sha512-l1c0uwEyYW+ZXIb13TxjNOQV7ZJbvf7ekxF0bAl5+xmHDy6e3ojx72fbOk8UAJLGZ0BbF+egATFPkh4Tet7YWg==";
+        };
+        _561Lk2JI = {
+            "id" = "561Lk2JI";
+            "file" = "banner-flags-3.2.jar";
+            "hash" = "sha512-qmgnKaWgVTT6DWKDQ0Wswv6LOTby3aO3TPz20xW6f1vL2lYKI3dFLbIYhTWBQnY+LtjeklmUtzzNAHwPMJvBWg==";
+        };
     in {
         "CQq1nkra" = _CQq1nkra;
         "f69OryuH" = _f69OryuH;
@@ -278,6 +288,8 @@ let
         "O66PJ6oi" = _O66PJ6oi;
         "gjOPhvy6" = _gjOPhvy6;
         "yo3InCKg" = _yo3InCKg;
+        "KZjzYpgj" = _KZjzYpgj;
+        "561Lk2JI" = _561Lk2JI;
         "datapack-1.18" = _CQq1nkra;
         "datapack-1.18.1" = _CQq1nkra;
         "datapack-1.18.2" = _CQq1nkra;
@@ -336,6 +348,7 @@ let
         "datapack-26.1.1" = _JHk3XoHw;
         "datapack-26.1.2" = _JHk3XoHw;
         "datapack-26.2" = _gjOPhvy6;
+        "datapack-26.3" = _KZjzYpgj;
         "fabric-1.19" = _f1o8FQcN;
         "fabric-1.19.1" = _f1o8FQcN;
         "fabric-1.19.2" = _f1o8FQcN;
@@ -391,6 +404,7 @@ let
         "fabric-26.1.1" = _O66PJ6oi;
         "fabric-26.1.2" = _O66PJ6oi;
         "fabric-26.2" = _yo3InCKg;
+        "fabric-26.3" = _561Lk2JI;
         "forge-1.19" = _f1o8FQcN;
         "forge-1.19.1" = _f1o8FQcN;
         "forge-1.19.2" = _f1o8FQcN;
@@ -446,6 +460,7 @@ let
         "forge-26.1.1" = _O66PJ6oi;
         "forge-26.1.2" = _O66PJ6oi;
         "forge-26.2" = _yo3InCKg;
+        "forge-26.3" = _561Lk2JI;
         "quilt-1.19" = _f1o8FQcN;
         "quilt-1.19.1" = _f1o8FQcN;
         "quilt-1.19.2" = _f1o8FQcN;
@@ -501,6 +516,7 @@ let
         "quilt-26.1.1" = _O66PJ6oi;
         "quilt-26.1.2" = _O66PJ6oi;
         "quilt-26.2" = _yo3InCKg;
+        "quilt-26.3" = _561Lk2JI;
         "neoforge-1.21.1" = _hstdfIcI;
         "neoforge-1.21.2" = _hstdfIcI;
         "neoforge-1.21.3" = _hstdfIcI;
@@ -551,6 +567,7 @@ let
         "neoforge-26.1.1" = _O66PJ6oi;
         "neoforge-26.1.2" = _O66PJ6oi;
         "neoforge-26.2" = _yo3InCKg;
+        "neoforge-26.3" = _561Lk2JI;
         "pkg-1.3" = _CQq1nkra;
         "pkg-1.4" = _f69OryuH;
         "pkg-1.5" = _Ixl43kWa;
@@ -583,9 +600,9 @@ let
         "pkg-3.0.1+mod" = _dFsiXIVo;
         "pkg-3.1" = _JHk3XoHw;
         "pkg-3.1+mod" = _O66PJ6oi;
-        "pkg-3.2" = _gjOPhvy6;
-        "pkg-3.2+mod" = _yo3InCKg;
-        "default" = _yo3InCKg;
+        "pkg-3.2" = _KZjzYpgj;
+        "pkg-3.2+mod" = _561Lk2JI;
+        "default" = _561Lk2JI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "banner-flags";

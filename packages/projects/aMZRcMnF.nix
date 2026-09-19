@@ -161,6 +161,31 @@ let
             "file" = "e2s2-2.2.7-neoforge-1.21.1.jar";
             "hash" = "sha512-5We8FhFqYlrc6uqa3AVc/4zH/eHg+KcYmIcWXDMhVEfcqCWefeqZkIKdazZtY0ScYxDPrzXKuCLAnkuGGT/HKg==";
         };
+        _ZSRw7q68 = {
+            "id" = "ZSRw7q68";
+            "file" = "e2s2-2.2.8-neoforge-1.21.1.jar";
+            "hash" = "sha512-5sdEBzldHnCkZcOOqXPHPCt6hikSz6TUPM0NqL09rGqB1GhHmlq6POsimf2HwKrlRMP8J5oKj00XYOETBfHE8A==";
+        };
+        _jZ7uqVCe = {
+            "id" = "jZ7uqVCe";
+            "file" = "e2s2-2.2.9-neoforge-1.21.1.jar";
+            "hash" = "sha512-KjIIj+rYt1z4B3LBZBySWEhaX8z91eybdNEwkSRy2xVTD0IRsV8oyMK091wHqjZywt80eupL2nGaQ8WnO8ax0g==";
+        };
+        _LKfTQV2S = {
+            "id" = "LKfTQV2S";
+            "file" = "e2s2-2.2.10-neoforge-1.21.1.jar";
+            "hash" = "sha512-CjZYA+ewUuwudZdMKCRdMY5LVTO+ftK3gsYDu4lLbbLR7kxEU+kHvUyFOBEPO7dB1yJymJhCexhUw80DsNzsag==";
+        };
+        _90hRjyjj = {
+            "id" = "90hRjyjj";
+            "file" = "e2s2-2.2.11-neoforge-1.21.1.jar";
+            "hash" = "sha512-K9prLvLDlfFCgt3TPJ2SQG70K4ZFIaAWX+dlPWNDnaW6BQSrmHUMelnp92UDAdpKENLitz2wZ+o6ewWZtLxgIg==";
+        };
+        _RohuIEUN = {
+            "id" = "RohuIEUN";
+            "file" = "e2s2-2.2.12-neoforge-1.21.1.jar";
+            "hash" = "sha512-7fogN4cxi9iS+FeejNtpt8kwQK240wxsWXcbogUvXv0Pt6Y2xQdnpg7WzSDnSkIm0o6gu18sXKDL5B0kGmkdVg==";
+        };
     in {
         "xlep1l4I" = _xlep1l4I;
         "6DFHFUzt" = _6DFHFUzt;
@@ -194,8 +219,13 @@ let
         "bwpuhfnL" = _bwpuhfnL;
         "VPawUSdv" = _VPawUSdv;
         "5CryPKvP" = _5CryPKvP;
+        "ZSRw7q68" = _ZSRw7q68;
+        "jZ7uqVCe" = _jZ7uqVCe;
+        "LKfTQV2S" = _LKfTQV2S;
+        "90hRjyjj" = _90hRjyjj;
+        "RohuIEUN" = _RohuIEUN;
         "forge-1.20.1" = _YFZObN69;
-        "neoforge-1.21.1" = _5CryPKvP;
+        "neoforge-1.21.1" = _RohuIEUN;
         "pkg-1.0.0" = _xlep1l4I;
         "pkg-1.1.0" = _6DFHFUzt;
         "pkg-1.1.1" = _pQmy1DsZ;
@@ -222,7 +252,12 @@ let
         "pkg-2.2.5" = _bwpuhfnL;
         "pkg-2.2.6" = _VPawUSdv;
         "pkg-2.2.7" = _5CryPKvP;
-        "default" = _5CryPKvP;
+        "pkg-2.2.8" = _ZSRw7q68;
+        "pkg-2.2.9" = _jZ7uqVCe;
+        "pkg-2.2.10" = _LKfTQV2S;
+        "pkg-2.2.11" = _90hRjyjj;
+        "pkg-2.2.12" = _RohuIEUN;
+        "default" = _RohuIEUN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "e2s2";

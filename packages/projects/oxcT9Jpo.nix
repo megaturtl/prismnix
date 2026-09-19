@@ -141,6 +141,66 @@ let
             "file" = "gravelmon-forge-3.0.4.jar";
             "hash" = "sha512-bF/iahjquohquhhYrHo6WFA1c1kECdG7Cgf+HxnyGXjn6uijBNz0hkDPreA1+HoxflkqueYF3NOohCzy5F2vnQ==";
         };
+        _CHLrerBK = {
+            "id" = "CHLrerBK";
+            "file" = "gravelmon-fabric-4.0.0-Alpha.1.jar";
+            "hash" = "sha512-Myvb5wW96dzkucXWrmylVX2HRFDpXfF1sv8lzZTaFES/oC77b+tDrOeZLJ+aL7t7CS96E4No6+n3P7xeB1FylA==";
+        };
+        _xK2MgtOt = {
+            "id" = "xK2MgtOt";
+            "file" = "gravelmon-neoforge-4.0.0-Alpha.1.jar";
+            "hash" = "sha512-8xJ+v+iuSu790TCXDWcjhTX/dCz11/w33XmdkSDEn0IWZkhzsryMPKIClcNZFLk7IxIm+Lw1tYveq5QVoATC1w==";
+        };
+        _69I7usyD = {
+            "id" = "69I7usyD";
+            "file" = "gravelmon-fabric-4.0.0-Alpha.2.jar";
+            "hash" = "sha512-5sS12nx9psxv68lNUQrr3d47JoN3QYqPh9qastQk2WWvurv+0tO7nwHgvgzdJ5gjqBxSmjozJMymqVg5gy2u0A==";
+        };
+        _CRb2k2FP = {
+            "id" = "CRb2k2FP";
+            "file" = "gravelmon-neoforge-4.0.0-Alpha.2.jar";
+            "hash" = "sha512-rpvmixAHfW+HKY9hDSszFlcq09cjpfv/c+D/Jb6u5bmYvWHde9Wh6BnPuXV9eauR0jtaq8Bb5vl95xZfIPaY4A==";
+        };
+        _pru3HNQt = {
+            "id" = "pru3HNQt";
+            "file" = "gravelmon-neoforge-4.0.0-Alpha.3.jar";
+            "hash" = "sha512-uaM3weLAd3Q3LU5LygXC3l5WPX9vPkGHJucw7UJlStvKF4jyg/2PUIJSbytdpk0VBSEVGg0NeQ4wraPvTNJtbg==";
+        };
+        _snDzP4ev = {
+            "id" = "snDzP4ev";
+            "file" = "gravelmon-fabric-4.0.0-Alpha.3.jar";
+            "hash" = "sha512-fDXkrzXXrXnQTJJQPnVyCTCTKE0D6zxNvVpuHJQWiFIZVc+gqmkEoP3vB0L1rV5GWWd5xRa60KAEGUeYVuo+bg==";
+        };
+        _GvcxkMdk = {
+            "id" = "GvcxkMdk";
+            "file" = "gravelmon-fabric-4.0.0-Alpha.4.jar";
+            "hash" = "sha512-R4o5eOdJziZyq6iA0RwqFUC9WS0ygfnPIYoEae9gignc+75aazzVd5cttmGeelJ302jVzh58CLVxmTZKNkLujw==";
+        };
+        _uleGL5zt = {
+            "id" = "uleGL5zt";
+            "file" = "gravelmon-neoforge-4.0.0-Alpha.4.jar";
+            "hash" = "sha512-04ErKj1zVW9UAFxD8jFfp2QpJiKwkcaW5z9zpWRBfb1caZm3q1RFIN3DYPVPWkBCRAvtRnM0SCHTdWEQPkn/nQ==";
+        };
+        _U3ue4L0I = {
+            "id" = "U3ue4L0I";
+            "file" = "gravelmon-neoforge-4.0.0-Alpha.5.jar";
+            "hash" = "sha512-6N9W5Zd8b0EButaedIy4fgrvTm9CgdTBOcIeQ0tygADVkRe6m92HphmuycNALQgthz0kTunEdNtICKypPLNibA==";
+        };
+        _Tb9YdprY = {
+            "id" = "Tb9YdprY";
+            "file" = "gravelmon-fabric-4.0.0-Alpha.5.jar";
+            "hash" = "sha512-n+lW4sPp6chYCNE66bMJawsaWRpDUr/zWRilcX3D2Rkt8ygZI8vsmGApMfE5j7m6kxHOf4Wec2iSYWTLhLjXSw==";
+        };
+        _rOd2qqAO = {
+            "id" = "rOd2qqAO";
+            "file" = "gravelmon-neoforge-4.0.0-Alpha.6.jar";
+            "hash" = "sha512-0etF1zVJY97CxHXh1KEHSY6E7B5QjobEVV7QTRSJJJhATlv2mQBHJTLMjeJzRo3yysfuha9GXRDnVNBsVGVPPw==";
+        };
+        _uGksPz40 = {
+            "id" = "uGksPz40";
+            "file" = "gravelmon-fabric-4.0.0-Alpha.6.jar";
+            "hash" = "sha512-2KMYcmb8DXcTcDouh/g6yzXp2oYffgCTeVRT9rjxeuQb4BDSzbfVdbcYvxNiUHnTGl/PNUvSZlARkCFrTFJhnw==";
+        };
     in {
         "BnffWKdG" = _BnffWKdG;
         "mtl71EV6" = _mtl71EV6;
@@ -170,13 +230,25 @@ let
         "qYtRIkxO" = _qYtRIkxO;
         "xuCite4A" = _xuCite4A;
         "MxQKA9se" = _MxQKA9se;
+        "CHLrerBK" = _CHLrerBK;
+        "xK2MgtOt" = _xK2MgtOt;
+        "69I7usyD" = _69I7usyD;
+        "CRb2k2FP" = _CRb2k2FP;
+        "pru3HNQt" = _pru3HNQt;
+        "snDzP4ev" = _snDzP4ev;
+        "GvcxkMdk" = _GvcxkMdk;
+        "uleGL5zt" = _uleGL5zt;
+        "U3ue4L0I" = _U3ue4L0I;
+        "Tb9YdprY" = _Tb9YdprY;
+        "rOd2qqAO" = _rOd2qqAO;
+        "uGksPz40" = _uGksPz40;
         "fabric-1.20.1" = _EaHNJeS7;
         "fabric-1.20.2" = _g9Blt68n;
         "fabric-1.20.3" = _g9Blt68n;
         "fabric-1.20.4" = _g9Blt68n;
-        "fabric-1.21.1" = _xuCite4A;
+        "fabric-1.21.1" = _uGksPz40;
         "forge-1.20.1" = _Al8GmaIg;
-        "neoforge-1.21.1" = _MxQKA9se;
+        "neoforge-1.21.1" = _rOd2qqAO;
         "pkg-2.0.0" = _mtl71EV6;
         "pkg-2.0.1" = _1RePSRxR;
         "pkg-2.0.3" = _uA4jYsOW;
@@ -191,7 +263,13 @@ let
         "pkg-3.0.2" = _gADZStNE;
         "pkg-3.0.3" = _qYtRIkxO;
         "pkg-3.0.4" = _MxQKA9se;
-        "default" = _MxQKA9se;
+        "pkg-4.0.0-Alpha.1" = _xK2MgtOt;
+        "pkg-4.0.0-Alpha.2" = _CRb2k2FP;
+        "pkg-4.0.0-Alpha.3" = _snDzP4ev;
+        "pkg-4.0.0-Alpha.4" = _uleGL5zt;
+        "pkg-4.0.0-Alpha.5" = _Tb9YdprY;
+        "pkg-4.0.0-Alpha.6" = _uGksPz40;
+        "default" = _uGksPz40;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gravelmon";

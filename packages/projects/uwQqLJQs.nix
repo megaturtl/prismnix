@@ -396,6 +396,16 @@ let
             "file" = "strainers-26.1.2-6.11.3.jar";
             "hash" = "sha512-CSnLOoB2tVA30bShWz7/zY10X+F4EPg4rYf6XW0uuL4Cqd4tdnoecYaQ6rJ4kR6nI6c8Ei/jVcp8vF44YjXkTw==";
         };
+        _Iy69QHkR = {
+            "id" = "Iy69QHkR";
+            "file" = "strainers-26.1.2-6.12.1.jar";
+            "hash" = "sha512-725PW5EjseIJviGU/lyzocDIEOX2UaaeXZ/PBlavI3BbN9WM+TAP+S+oT0g6dlIsPT6OijwVeThREPW54kKYgA==";
+        };
+        _gLBjozS0 = {
+            "id" = "gLBjozS0";
+            "file" = "strainers-26.1.2-6.12.2.jar";
+            "hash" = "sha512-0OH2eUJIFkvnsQ2d81ba7oRVIIIrbmM4vkhJovD5DMnT4gZFc8gpfjDvdrlbuP9FakmozvCPn108zry/Hxi/Lg==";
+        };
     in {
         "c6nnymnA" = _c6nnymnA;
         "s6zJ90Gi" = _s6zJ90Gi;
@@ -476,11 +486,13 @@ let
         "g71hnxfw" = _g71hnxfw;
         "JHQYqBRi" = _JHQYqBRi;
         "E8NqYZR2" = _E8NqYZR2;
+        "Iy69QHkR" = _Iy69QHkR;
+        "gLBjozS0" = _gLBjozS0;
         "neoforge-1.21" = _a0z0dhv9;
         "neoforge-1.21.1" = _a0z0dhv9;
         "neoforge-26.1" = _aNQTAG5x;
         "neoforge-26.1.1" = _aNQTAG5x;
-        "neoforge-26.1.2" = _E8NqYZR2;
+        "neoforge-26.1.2" = _gLBjozS0;
         "neoforge-26.2" = _joQtRkNZ;
         "pkg-2.5.0" = _c6nnymnA;
         "pkg-1.21-2.5.0" = _s6zJ90Gi;
@@ -547,7 +559,9 @@ let
         "pkg-26.1.2-6.11.1" = _nlIZqDRU;
         "pkg-26.1.2-6.11.2" = _g71hnxfw;
         "pkg-26.1.2-6.11.3" = _E8NqYZR2;
-        "default" = _E8NqYZR2;
+        "pkg-26.1.2-6.12.1" = _Iy69QHkR;
+        "pkg-26.1.2-6.12.2" = _gLBjozS0;
+        "default" = _gLBjozS0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bbl-strainers";

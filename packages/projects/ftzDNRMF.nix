@@ -106,6 +106,11 @@ let
             "file" = "crosshair_circle-1.0.1-mc26.1.2.zip";
             "hash" = "sha512-v201DriukCEqG3bY8QmCcOaxmghTpAVw/zgGRyY2o1UzP875SPOJKYOhRcsw99AwOs+Xd1q+d2UsCubiep4npQ==";
         };
+        _RMA237te = {
+            "id" = "RMA237te";
+            "file" = "crosshair_circle-1.0.1-mc26.3.zip";
+            "hash" = "sha512-36ulGiyswWzgvc/vINAzbPyFIkZyQbU4JNuzF1jeRZsN30x4/Li/HkFX5oWlWdKIbhS5sTFYH1bPNFzu2Z3hKw==";
+        };
     in {
         "qDR1Neip" = _qDR1Neip;
         "v824Kb5I" = _v824Kb5I;
@@ -128,6 +133,7 @@ let
         "dxxKYjlI" = _dxxKYjlI;
         "isrlIkTB" = _isrlIkTB;
         "IcWlarb4" = _IcWlarb4;
+        "RMA237te" = _RMA237te;
         "minecraft-1.20.2" = _qDR1Neip;
         "minecraft-1.20.3" = _v824Kb5I;
         "minecraft-1.20.4" = _Z0w5H9LG;
@@ -149,8 +155,9 @@ let
         "minecraft-26.2" = _dxxKYjlI;
         "minecraft-26.1.1" = _isrlIkTB;
         "minecraft-26.1.2" = _IcWlarb4;
-        "pkg-1.0.1" = _IcWlarb4;
-        "default" = _IcWlarb4;
+        "minecraft-26.3" = _RMA237te;
+        "pkg-1.0.1" = _RMA237te;
+        "default" = _RMA237te;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-collective-circle-crosshair";

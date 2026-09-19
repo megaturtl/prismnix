@@ -91,6 +91,11 @@ let
             "file" = "fadeless-2.0.8-26.2.jar";
             "hash" = "sha512-ulw/MR/nhyDMkTCzpn61lkvTDirOn9diT1j90XnS4z/IT4B/F3wXPfyULxqxObnd7xZSUZ0Nd2PoXGOXqQ1puA==";
         };
+        _5cIfIuXg = {
+            "id" = "5cIfIuXg";
+            "file" = "fadeless-2.0.9-26.3.jar";
+            "hash" = "sha512-lE5LxUbJxV5K+QT4KYpH3B5RrLhvbbErbB3+W6UayTPpxpscyrgzUCKnhgehodsOK7mYLue7ikP+jwEdVG9bGA==";
+        };
     in {
         "5UcMqjxg" = _5UcMqjxg;
         "j53ChsnW" = _j53ChsnW;
@@ -110,6 +115,7 @@ let
         "NUDdPq7H" = _NUDdPq7H;
         "AuK4B1qm" = _AuK4B1qm;
         "GfYzYdx8" = _GfYzYdx8;
+        "5cIfIuXg" = _5cIfIuXg;
         "fabric-1.20-pre1" = _5UcMqjxg;
         "fabric-1.20" = _j53ChsnW;
         "fabric-1.20.1" = _j53ChsnW;
@@ -186,6 +192,7 @@ let
         "fabric-26.1.1" = _AuK4B1qm;
         "fabric-26.1.2" = _AuK4B1qm;
         "fabric-26.2" = _GfYzYdx8;
+        "fabric-26.3" = _5cIfIuXg;
         "quilt-1.20" = _j53ChsnW;
         "quilt-1.20.1" = _j53ChsnW;
         "quilt-1.20.2" = _j53ChsnW;
@@ -277,7 +284,8 @@ let
         "pkg-2.0.7-26.1" = _NUDdPq7H;
         "pkg-2.0.8-26.1" = _AuK4B1qm;
         "pkg-2.0.8-26.2" = _GfYzYdx8;
-        "default" = _GfYzYdx8;
+        "pkg-2.0.9-26.3" = _5cIfIuXg;
+        "default" = _5cIfIuXg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fadeless";

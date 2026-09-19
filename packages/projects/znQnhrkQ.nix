@@ -101,6 +101,11 @@ let
             "file" = "voxy-extra-0.2.5.jar";
             "hash" = "sha512-qXvcrxqDYV+Jf4bs1hrzIV+tJRfDE3I4WpWdpncvg+4/+3wX7zH06D1N7vPmrvYPU6ot60SWUpLCnnAYqBzUTA==";
         };
+        _LzkiYiS2 = {
+            "id" = "LzkiYiS2";
+            "file" = "voxy-extra-0.2.6.jar";
+            "hash" = "sha512-GSCDdgZUPsk8E+J1lgThoAxV8e4wvddI5bHwuOY73OO5HW9lvJ8G2Dma3eooAplaLfsi9JWUaz1ZcdyjRaslnA==";
+        };
     in {
         "46hwbSg1" = _46hwbSg1;
         "N2Bh5koA" = _N2Bh5koA;
@@ -122,11 +127,12 @@ let
         "wb7wRWyE" = _wb7wRWyE;
         "bc43xcJ4" = _bc43xcJ4;
         "jkOwY7nY" = _jkOwY7nY;
+        "LzkiYiS2" = _LzkiYiS2;
         "fabric-1.21.11" = _wb7wRWyE;
         "fabric-26.1" = _bc43xcJ4;
         "fabric-26.1.1" = _bc43xcJ4;
         "fabric-26.1.2" = _bc43xcJ4;
-        "fabric-26.2" = _jkOwY7nY;
+        "fabric-26.2" = _LzkiYiS2;
         "pkg-0.1.0" = _46hwbSg1;
         "pkg-0.1.1" = _N2Bh5koA;
         "pkg-0.1.2" = _ic7vONnN;
@@ -141,7 +147,8 @@ let
         "pkg-0.2.3" = _4FUH3eia;
         "pkg-0.2.4" = _bc43xcJ4;
         "pkg-0.2.5" = _jkOwY7nY;
-        "default" = _jkOwY7nY;
+        "pkg-0.2.6" = _LzkiYiS2;
+        "default" = _LzkiYiS2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "voxy-extra";

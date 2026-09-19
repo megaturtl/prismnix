@@ -446,6 +446,11 @@ let
             "file" = "create_central_kitchen-1.20.1-for-create-6.0.8-1.5.1.jar";
             "hash" = "sha512-NhilsqENtizQ5RH3V64XUzniZGf/D/1E0ae9KTVfsRg7Px5qcuANjglvkY9bYR/0WGrpO+ghWnUEuMYBPm1exQ==";
         };
+        _FaEwZ1Pr = {
+            "id" = "FaEwZ1Pr";
+            "file" = "create-central-kitchen-2.6.1.jar";
+            "hash" = "sha512-qpTyCSRn9Ub3awhNINMbzZdUlYfoh+BzTxCsBYWZWHCJn+J6nVItw36C9cjKfxd1hDkX5Av6t4NwwCGie2/skQ==";
+        };
     in {
         "Yw7o9c8s" = _Yw7o9c8s;
         "6mkkJe89" = _6mkkJe89;
@@ -536,11 +541,12 @@ let
         "kmHFmmpV" = _kmHFmmpV;
         "1mQSm4Yb" = _1mQSm4Yb;
         "jMB94kRJ" = _jMB94kRJ;
+        "FaEwZ1Pr" = _FaEwZ1Pr;
         "forge-1.18.2" = _QCvBqEHG;
         "forge-1.19.2" = _xfrRlEVH;
         "forge-1.20.1" = _jMB94kRJ;
         "neoforge-1.20.1" = _jMB94kRJ;
-        "neoforge-1.21.1" = _1mQSm4Yb;
+        "neoforge-1.21.1" = _FaEwZ1Pr;
         "pkg-1.0.0" = _Yw7o9c8s;
         "pkg-1.0.1" = _6mkkJe89;
         "pkg-1.0.2" = _j4jSC9HU;
@@ -606,7 +612,8 @@ let
         "pkg-2.5.0" = _kmHFmmpV;
         "pkg-2.6.0" = _1mQSm4Yb;
         "pkg-1.5.1" = _jMB94kRJ;
-        "default" = _jMB94kRJ;
+        "pkg-2.6.1" = _FaEwZ1Pr;
+        "default" = _FaEwZ1Pr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-central-kitchen";

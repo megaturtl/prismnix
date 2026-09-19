@@ -231,6 +231,16 @@ let
             "file" = "EssentialAddons-2.5.1+26.2.jar";
             "hash" = "sha512-pd2kYtAPLMcybhlcJmNzwUmu2LC9ix0YgIbtsZUTwGEL3MimCgtUbJRcBkXPIL6sCmEh/9CiVQ7mceqLN68/5w==";
         };
+        _IKrPQcy3 = {
+            "id" = "IKrPQcy3";
+            "file" = "EssentialAddons-2.6.0+26.3.jar";
+            "hash" = "sha512-gMCs/YMrxUpKpwb35sL8/rJemDJHPRY3NWywryxYCeZbFctcCW4facJriYklzroPO3/+hMjUE/DzwhN4tYWpvg==";
+        };
+        _z85W57NI = {
+            "id" = "z85W57NI";
+            "file" = "EssentialAddons-2.6.1+26.3.jar";
+            "hash" = "sha512-Ttim4BknTHSwHceXTdljBCayApM/WBDpbEOJExUZQSl566DEXCYkxdni6qK9ZW2cKyieoPzpgPkAm1hBAgOUMw==";
+        };
     in {
         "1j25yMxn" = _1j25yMxn;
         "MMIJjX5E" = _MMIJjX5E;
@@ -278,6 +288,8 @@ let
         "xVk8vmU4" = _xVk8vmU4;
         "qbtuzG7f" = _qbtuzG7f;
         "UsPC80JZ" = _UsPC80JZ;
+        "IKrPQcy3" = _IKrPQcy3;
+        "z85W57NI" = _z85W57NI;
         "fabric-1.16.5" = _1j25yMxn;
         "fabric-1.17.1" = _dU6VT5wt;
         "fabric-1.18.2" = _N954G0Uf;
@@ -309,6 +321,7 @@ let
         "fabric-26.1.1" = _xVk8vmU4;
         "fabric-26.1.2" = _xVk8vmU4;
         "fabric-26.2" = _UsPC80JZ;
+        "fabric-26.3" = _z85W57NI;
         "pkg-v1.0.6" = _1j25yMxn;
         "pkg-v1.2.0" = _hVu7zm4x;
         "pkg-1.2.1" = _srCjbSnV;
@@ -348,7 +361,9 @@ let
         "pkg-2.4.3+26.1.1" = _xVk8vmU4;
         "pkg-2.5.0+26.2" = _qbtuzG7f;
         "pkg-2.5.1+26.2" = _UsPC80JZ;
-        "default" = _UsPC80JZ;
+        "pkg-2.6.0+26.3" = _IKrPQcy3;
+        "pkg-2.6.1+26.3" = _z85W57NI;
+        "default" = _z85W57NI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "essentialaddons";

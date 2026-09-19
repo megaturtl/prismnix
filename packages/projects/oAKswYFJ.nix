@@ -56,6 +56,11 @@ let
             "file" = "audio_hotkeys-1.0.13+26.2.jar";
             "hash" = "sha512-3xCzbM2IbmRhjatWKoCixD/gIApCqc53WOnH3ktEP6CC/8Cbk5drY2Qw72JrPLZKLTlOHES2G+aoqCehLiM5+Q==";
         };
+        _L9l8zP9q = {
+            "id" = "L9l8zP9q";
+            "file" = "audio_hotkeys-1.0.14+26.3.jar";
+            "hash" = "sha512-1oqnzkhvpQ23YTNv7ViCoOu7enkBftExz7Yide7MX18FSo/zCAqSGMB/etKZAFWIgF9pkoex/myNFK8QSahYpg==";
+        };
     in {
         "SoJvvvyC" = _SoJvvvyC;
         "ICgAwwPO" = _ICgAwwPO;
@@ -68,6 +73,7 @@ let
         "bY1aU0l7" = _bY1aU0l7;
         "mktnl0tp" = _mktnl0tp;
         "BHlwWu1C" = _BHlwWu1C;
+        "L9l8zP9q" = _L9l8zP9q;
         "fabric-1.19" = _SoJvvvyC;
         "fabric-1.19.1" = _SoJvvvyC;
         "fabric-1.19.2" = _SoJvvvyC;
@@ -96,6 +102,7 @@ let
         "fabric-26.1.1" = _mktnl0tp;
         "fabric-26.1.2" = _mktnl0tp;
         "fabric-26.2" = _BHlwWu1C;
+        "fabric-26.3" = _L9l8zP9q;
         "pkg-1.19.x-v1.0.3" = _SoJvvvyC;
         "pkg-1.19.4-v1.0.4" = _ICgAwwPO;
         "pkg-1.20-v1.0.5" = _blMqjZ9B;
@@ -107,7 +114,8 @@ let
         "pkg-1.21.11-v1.0.11" = _bY1aU0l7;
         "pkg-1.0.12+26.1" = _mktnl0tp;
         "pkg-1.0.13+26.2" = _BHlwWu1C;
-        "default" = _BHlwWu1C;
+        "pkg-1.0.14+26.3" = _L9l8zP9q;
+        "default" = _L9l8zP9q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "audio-hotkeys";

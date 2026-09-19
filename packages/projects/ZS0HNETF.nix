@@ -86,6 +86,11 @@ let
             "file" = "thirdpersonnametags-mc26.2-1.7.3.jar";
             "hash" = "sha512-pbY1u4CPOgrQkHItpDZEGxwIYDbY9f5u24iGxzK4d5aCVA08KHeGeHAj8VgMj/2VA9WcZERNPGVA4q9fgijT5w==";
         };
+        _h6gtFPqk = {
+            "id" = "h6gtFPqk";
+            "file" = "thirdpersonnametags-mc26.3-1.8.0.jar";
+            "hash" = "sha512-OT7lEB1iuA78aF30aTx6Mdr3+UShI2Ogir1zhO3L72gF2lenoduo3lUeLFvxoU43b8wI5A7vctFKMbHSXMLlnw==";
+        };
     in {
         "MpF0dgef" = _MpF0dgef;
         "fEib0cA8" = _fEib0cA8;
@@ -104,6 +109,7 @@ let
         "eiBpqR44" = _eiBpqR44;
         "bZ1HOcLR" = _bZ1HOcLR;
         "Z88CVDZk" = _Z88CVDZk;
+        "h6gtFPqk" = _h6gtFPqk;
         "fabric-1.21.3" = _MpF0dgef;
         "fabric-1.21.4" = _fEib0cA8;
         "fabric-1.21.5" = _dEAz0qCA;
@@ -120,6 +126,7 @@ let
         "fabric-26.1.1" = _eiBpqR44;
         "fabric-26.1.2" = _bZ1HOcLR;
         "fabric-26.2" = _Z88CVDZk;
+        "fabric-26.3" = _h6gtFPqk;
         "pkg-1.0.0" = _MpF0dgef;
         "pkg-1.1.0" = _fEib0cA8;
         "pkg-1.2.0" = _dEAz0qCA;
@@ -137,7 +144,8 @@ let
         "pkg-1.7.1" = _eiBpqR44;
         "pkg-1.7.2" = _bZ1HOcLR;
         "pkg-1.7.3" = _Z88CVDZk;
-        "default" = _Z88CVDZk;
+        "pkg-1.8.0" = _h6gtFPqk;
+        "default" = _h6gtFPqk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "third-person-nametags";

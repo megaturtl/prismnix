@@ -941,6 +941,16 @@ let
             "file" = "Searchables-fabric-26.2-1.0.1.jar";
             "hash" = "sha512-NC9rnd7nOR8PXDAJDce3/guWOMhrcp0+mJNgzN9eWoXXKd7MPifvza6q1rRpbp3Y+0g5HIA9gyQZW29RlHYacA==";
         };
+        _RlPMfNdS = {
+            "id" = "RlPMfNdS";
+            "file" = "Searchables-fabric-26.3-1.0.2.jar";
+            "hash" = "sha512-DCr7LADOyn7O9dTu/mPtp2tTgwR8RnO4HuXtPRnHuyLsp1KJJjv32JLqh+fkevx2h0oTnac7VtBaEwt5xPjhlQ==";
+        };
+        _lh417ZHC = {
+            "id" = "lh417ZHC";
+            "file" = "Searchables-neoforge-26.3-1.0.2.jar";
+            "hash" = "sha512-AcoYhD05iSR7LS+0PLKuhaXrlIMk3FQHW1zrGhsaiUySaZooFuFSQrXyKIhv5/W/Uok16zUAhkYgUFn3Nr+2SQ==";
+        };
     in {
         "iLwmbWLV" = _iLwmbWLV;
         "KeIrnexa" = _KeIrnexa;
@@ -1130,6 +1140,8 @@ let
         "g7OQkxmL" = _g7OQkxmL;
         "AUn6wxKQ" = _AUn6wxKQ;
         "bvFby61J" = _bvFby61J;
+        "RlPMfNdS" = _RlPMfNdS;
+        "lh417ZHC" = _lh417ZHC;
         "fabric-1.19.4" = _ve9kcBZR;
         "fabric-1.19.3" = _mhqbneQi;
         "fabric-1.19.2" = _YtzPnOQv;
@@ -1160,6 +1172,7 @@ let
         "fabric-26.1.1" = _JBRkFpZt;
         "fabric-26.1.2" = _g7OQkxmL;
         "fabric-26.2" = _bvFby61J;
+        "fabric-26.3" = _RlPMfNdS;
         "forge-1.19.4" = _erSt9y38;
         "forge-1.19.3" = _hLMrJBAr;
         "forge-1.19.2" = _LuotI0gV;
@@ -1204,8 +1217,9 @@ let
         "neoforge-26.1.1" = _hefWJKXR;
         "neoforge-26.1.2" = _OGi2qTkh;
         "neoforge-26.2" = _AUn6wxKQ;
+        "neoforge-26.3" = _lh417ZHC;
         "pkg-1.0.0.1" = _KeIrnexa;
-        "pkg-1.0.2" = _g7OQkxmL;
+        "pkg-1.0.2" = _lh417ZHC;
         "pkg-1.0.3" = _cp4CFuwU;
         "pkg-1.0.1" = _bvFby61J;
         "pkg-1.0.4" = _eACQm81u;
@@ -1218,7 +1232,7 @@ let
         "pkg-1.0.15" = _HxAXC8Rn;
         "pkg-1.0.7" = _tRemkGX1;
         "pkg-1.0.16" = _gcqBz3gR;
-        "default" = _bvFby61J;
+        "default" = _lh417ZHC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "searchables";

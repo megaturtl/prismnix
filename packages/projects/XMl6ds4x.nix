@@ -76,6 +76,16 @@ let
             "file" = "craftable-coral-blocks-107.1.jar";
             "hash" = "sha512-XX5dx+SflZUFIupx+l/njEqUckXy5kalMMdgT1XCtYp2gTev3hPew7AozmtJrVPb3401ZuSkgs7g4xI/O7cx2Q==";
         };
+        _PCnnHo0Z = {
+            "id" = "PCnnHo0Z";
+            "file" = "craftable-coral-blocks-1.1.0-mc26.3.zip";
+            "hash" = "sha512-1uy80+M8/x8UZLgQ/P/PA+yucxc7DrmJ2X0ynu+t60WYdWvdmZ1oSzEen/U0U1O5zxrSOM1zTp0p6iwksm4tkg==";
+        };
+        _pkyVPHlX = {
+            "id" = "pkyVPHlX";
+            "file" = "craftable-coral-blocks-1.1.0.jar";
+            "hash" = "sha512-x7XbuG7XDoi620RRe2+VBxgEZ4Kt/qi6MbVA6Yxc0m/voCMs9EIpi10rx4kv5kXiMIzvlP8P7+6w3uwn5Yto4A==";
+        };
     in {
         "sCZOlLhj" = _sCZOlLhj;
         "zGNuyCDl" = _zGNuyCDl;
@@ -92,6 +102,8 @@ let
         "8PMAkSJn" = _8PMAkSJn;
         "rkstyaOE" = _rkstyaOE;
         "eBMnj1K2" = _eBMnj1K2;
+        "PCnnHo0Z" = _PCnnHo0Z;
+        "pkyVPHlX" = _pkyVPHlX;
         "datapack-1.21.5" = _sCZOlLhj;
         "datapack-1.21.6" = _z3M11sj3;
         "datapack-1.21.7" = _blLLI4AA;
@@ -103,6 +115,7 @@ let
         "datapack-26.1.1" = _BKFS4onK;
         "datapack-26.1.2" = _BKFS4onK;
         "datapack-26.2" = _rkstyaOE;
+        "datapack-26.3" = _PCnnHo0Z;
         "fabric-1.21.5" = _zGNuyCDl;
         "fabric-1.21.6" = _aie3lqsX;
         "fabric-1.21.7" = _A32SYwZP;
@@ -114,6 +127,7 @@ let
         "fabric-26.1.1" = _8PMAkSJn;
         "fabric-26.1.2" = _8PMAkSJn;
         "fabric-26.2" = _eBMnj1K2;
+        "fabric-26.3" = _pkyVPHlX;
         "forge-1.21.5" = _zGNuyCDl;
         "forge-1.21.6" = _aie3lqsX;
         "forge-1.21.7" = _A32SYwZP;
@@ -125,6 +139,7 @@ let
         "forge-26.1.1" = _8PMAkSJn;
         "forge-26.1.2" = _8PMAkSJn;
         "forge-26.2" = _eBMnj1K2;
+        "forge-26.3" = _pkyVPHlX;
         "neoforge-1.21.5" = _zGNuyCDl;
         "neoforge-1.21.6" = _aie3lqsX;
         "neoforge-1.21.7" = _A32SYwZP;
@@ -136,6 +151,7 @@ let
         "neoforge-26.1.1" = _8PMAkSJn;
         "neoforge-26.1.2" = _8PMAkSJn;
         "neoforge-26.2" = _eBMnj1K2;
+        "neoforge-26.3" = _pkyVPHlX;
         "quilt-1.21.5" = _zGNuyCDl;
         "quilt-1.21.6" = _aie3lqsX;
         "quilt-1.21.7" = _A32SYwZP;
@@ -147,6 +163,7 @@ let
         "quilt-26.1.1" = _8PMAkSJn;
         "quilt-26.1.2" = _8PMAkSJn;
         "quilt-26.2" = _eBMnj1K2;
+        "quilt-26.3" = _pkyVPHlX;
         "pkg-71.1" = _sCZOlLhj;
         "pkg-71.1+mod" = _zGNuyCDl;
         "pkg-80" = _z3M11sj3;
@@ -161,7 +178,9 @@ let
         "pkg-101.1+mod" = _8PMAkSJn;
         "pkg-107.1" = _rkstyaOE;
         "pkg-107.1+mod" = _eBMnj1K2;
-        "default" = _eBMnj1K2;
+        "pkg-1.1.0" = _PCnnHo0Z;
+        "pkg-1.1.0+mod" = _pkyVPHlX;
+        "default" = _pkyVPHlX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craftable-coral-blocks";

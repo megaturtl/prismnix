@@ -301,6 +301,26 @@ let
             "file" = "rfu-1.17.1+26.2.jar";
             "hash" = "sha512-ir4CkMXYY9qg3vdqwxlu1bUvhol1TD28RVs+i/wwx3pjPNHOC4Z3aq64OGTPB8LPqKKiFrt/GxuvnwyMyv6uUQ==";
         };
+        _ri9hu21i = {
+            "id" = "ri9hu21i";
+            "file" = "rfu-1.18.0+26.1.jar";
+            "hash" = "sha512-BbtJDS8vYFE6TbHRvfzdPyuSBZejEqrPhc2znGYBmjr015xa/F9FwBeMlETFS+a1kob1xCDbpj6B9sIacHe/2g==";
+        };
+        _QgPWjFZ2 = {
+            "id" = "QgPWjFZ2";
+            "file" = "rfu-1.18.0+26.2.jar";
+            "hash" = "sha512-XJw+cuFVOpmpwq7+L46CfUam4ySs4hzgztZfdMvw/G+7L6T5CWJqU//ilmepyVOHDKWdoxH64Z4tLzreohLamw==";
+        };
+        _uMvvdMzN = {
+            "id" = "uMvvdMzN";
+            "file" = "rfu-1.18.1+26.1.jar";
+            "hash" = "sha512-0DlGVK/zAM1xCo4Ub860CXQHlrVwoz3ubjup0M8HeFKCT2qTzrzCuGVvtlAUMyhfQZciV0zI+gKcGOeiQKgdbg==";
+        };
+        _OYuTzz73 = {
+            "id" = "OYuTzz73";
+            "file" = "rfu-1.18.1+26.2.jar";
+            "hash" = "sha512-xxJva0RujAE+7Vo9+lVVe7vMJcTOkeedzszO/lKq1I8rgh2dotwAt34a7fmBDzUWPyringVWXc49j7mgDybcQA==";
+        };
     in {
         "pU5tdl36" = _pU5tdl36;
         "6tq6uQUx" = _6tq6uQUx;
@@ -362,12 +382,16 @@ let
         "rhwNd6TE" = _rhwNd6TE;
         "bMWb03m5" = _bMWb03m5;
         "jNUQWl1Q" = _jNUQWl1Q;
+        "ri9hu21i" = _ri9hu21i;
+        "QgPWjFZ2" = _QgPWjFZ2;
+        "uMvvdMzN" = _uMvvdMzN;
+        "OYuTzz73" = _OYuTzz73;
         "fabric-1.21.10" = _W3ekuZAe;
         "fabric-1.21.11" = _sz8cWSsA;
-        "fabric-26.1" = _bMWb03m5;
-        "fabric-26.1.1" = _bMWb03m5;
-        "fabric-26.1.2" = _bMWb03m5;
-        "fabric-26.2" = _jNUQWl1Q;
+        "fabric-26.1" = _uMvvdMzN;
+        "fabric-26.1.1" = _uMvvdMzN;
+        "fabric-26.1.2" = _uMvvdMzN;
+        "fabric-26.2" = _OYuTzz73;
         "pkg-1.0.0+1.21.10" = _pU5tdl36;
         "pkg-1.0.0+1.21.11" = _6tq6uQUx;
         "pkg-1.1.0+1.21.10" = _i9gzjSss;
@@ -428,7 +452,11 @@ let
         "pkg-1.17.0+26.1" = _rhwNd6TE;
         "pkg-1.17.1+26.1" = _bMWb03m5;
         "pkg-1.17.1+26.2" = _jNUQWl1Q;
-        "default" = _jNUQWl1Q;
+        "pkg-1.18.0+26.1" = _ri9hu21i;
+        "pkg-1.18.0+26.2" = _QgPWjFZ2;
+        "pkg-1.18.1+26.1" = _uMvvdMzN;
+        "pkg-1.18.1+26.2" = _OYuTzz73;
+        "default" = _OYuTzz73;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rfu";

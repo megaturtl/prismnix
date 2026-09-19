@@ -56,6 +56,16 @@ let
             "file" = "givemesomelight-1.0.7+26.2.jar";
             "hash" = "sha512-P5R6VAL5k7DMilVBi4iUoVic8PyiYiiUdc8cbykUGZmDdwjGQfI1e71kjxqYo1l9qqEV2ncyFmaCoVEnu++seg==";
         };
+        _OerFsvAS = {
+            "id" = "OerFsvAS";
+            "file" = "givemesomelight-1.0.8+26.2.jar";
+            "hash" = "sha512-lpWUrFa/gcqcQXK1teymHn1XNyoUsIgySGjh0IvERaIFMWbkhCFDLjNNSKLhuC5pnpQAVUqGoPvc4BK6uFz5Cw==";
+        };
+        _eozTczCs = {
+            "id" = "eozTczCs";
+            "file" = "givemesomelight-1.0.8+26.3.jar";
+            "hash" = "sha512-xZJce4+jj0lo7wXa8v7Q1gFzPTu18MFc8nkiDJ0B9P8WLNvmPSUff8YI5gNjWPCb5yKiFX/zS05mrdfSg3QPXw==";
+        };
     in {
         "BNanyhS9" = _BNanyhS9;
         "iMvp1ZLI" = _iMvp1ZLI;
@@ -68,6 +78,8 @@ let
         "1uteAGyk" = _1uteAGyk;
         "xmWt748x" = _xmWt748x;
         "ZpolJAhk" = _ZpolJAhk;
+        "OerFsvAS" = _OerFsvAS;
+        "eozTczCs" = _eozTczCs;
         "fabric-1.20.4" = _BNanyhS9;
         "fabric-1.21.4" = _iMvp1ZLI;
         "fabric-1.21.8" = _QjxblLjU;
@@ -77,7 +89,8 @@ let
         "fabric-26.1" = _1uteAGyk;
         "fabric-26.1.1" = _1uteAGyk;
         "fabric-26.1.2" = _1uteAGyk;
-        "fabric-26.2" = _ZpolJAhk;
+        "fabric-26.2" = _OerFsvAS;
+        "fabric-26.3" = _eozTczCs;
         "pkg-1.0.2-1.20.4" = _BNanyhS9;
         "pkg-1.0.3-1.21.4" = _iMvp1ZLI;
         "pkg-1.0.4+1.21.8" = _QjxblLjU;
@@ -89,7 +102,9 @@ let
         "pkg-1.0.7+26.1.2" = _1uteAGyk;
         "pkg-1.0.7+26.2-BETA" = _xmWt748x;
         "pkg-1.0.7+26.2" = _ZpolJAhk;
-        "default" = _ZpolJAhk;
+        "pkg-1.0.8+26.2" = _OerFsvAS;
+        "pkg-1.0.8+26.3" = _eozTczCs;
+        "default" = _eozTczCs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "givemesomelight";

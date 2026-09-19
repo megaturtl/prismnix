@@ -11,9 +11,15 @@ let
             "file" = "Fireworks3D_v1.1.zip";
             "hash" = "sha512-RIjUsK+syBv9Pj360dnhJU3Dkg5tGK7KXYkDAF8FkBwgigEaevGK9weCZ7xTI7g0KpYBF6vunXZEmYQ+17uJYw==";
         };
+        _KFeJ7wQz = {
+            "id" = "KFeJ7wQz";
+            "file" = "Fireworks3D_v1.1b.zip";
+            "hash" = "sha512-vR/NWfDxG65RLIQNvyR9OeRGN2jKWY0DKJhUU57GhwSSpWTREzhGlXKNjJ8bDJmTpYBDzfu0a4TenN3/9WT5Nw==";
+        };
     in {
         "8IEoJ6r3" = _8IEoJ6r3;
         "HxgN81F8" = _HxgN81F8;
+        "KFeJ7wQz" = _KFeJ7wQz;
         "minecraft-1.20.2" = _8IEoJ6r3;
         "minecraft-1.20.3" = _8IEoJ6r3;
         "minecraft-1.20.4" = _8IEoJ6r3;
@@ -31,13 +37,14 @@ let
         "minecraft-1.21.9" = _8IEoJ6r3;
         "minecraft-1.21.10" = _8IEoJ6r3;
         "minecraft-1.21.11" = _8IEoJ6r3;
-        "minecraft-26.1" = _HxgN81F8;
-        "minecraft-26.1.1" = _HxgN81F8;
-        "minecraft-26.1.2" = _HxgN81F8;
-        "minecraft-26.2" = _HxgN81F8;
+        "minecraft-26.1" = _KFeJ7wQz;
+        "minecraft-26.1.1" = _KFeJ7wQz;
+        "minecraft-26.1.2" = _KFeJ7wQz;
+        "minecraft-26.2" = _KFeJ7wQz;
+        "minecraft-26.3" = _KFeJ7wQz;
         "pkg-1.0" = _8IEoJ6r3;
-        "pkg-1.1" = _HxgN81F8;
-        "default" = _HxgN81F8;
+        "pkg-1.1" = _KFeJ7wQz;
+        "default" = _KFeJ7wQz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fireworks-3d";

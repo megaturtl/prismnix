@@ -191,6 +191,11 @@ let
             "file" = "btwr-core-0.4.1-1.21.1.jar";
             "hash" = "sha512-osVehoWwKSa7kN+8JhOCOycg7M3JCwixwwMIhV3rAcWrrb2VisaK22IOcpu7kNm+a800mBWpeEzDTBjGKxbkkQ==";
         };
+        _p4fskEpi = {
+            "id" = "p4fskEpi";
+            "file" = "btwr-core-0.5-1.21.1.jar";
+            "hash" = "sha512-q/G+0Zta/gFJPBAQdr1Ey+Xylm03Vl9Bdo+MRoupl6F+74G5sOEIZD10A48Fjxk0RzKTQHOZWezEQ9Xuzimb5g==";
+        };
     in {
         "9m1SKodH" = _9m1SKodH;
         "cTSScGZg" = _cTSScGZg;
@@ -230,10 +235,11 @@ let
         "4cfUVAG0" = _4cfUVAG0;
         "YEkSsPmn" = _YEkSsPmn;
         "ENhmRpCT" = _ENhmRpCT;
+        "p4fskEpi" = _p4fskEpi;
         "fabric-1.20.1" = _wY8rhDZC;
         "fabric-1.20.6" = _PwokUsx3;
         "fabric-1.21" = _nGz29YbI;
-        "fabric-1.21.1" = _ENhmRpCT;
+        "fabric-1.21.1" = _p4fskEpi;
         "pkg-0.22" = _9m1SKodH;
         "pkg-0.23" = _cTSScGZg;
         "pkg-0.23.1" = _8aUclkAu;
@@ -266,7 +272,8 @@ let
         "pkg-0.33.5" = _4cfUVAG0;
         "pkg-0.4" = _YEkSsPmn;
         "pkg-0.4.1" = _ENhmRpCT;
-        "default" = _ENhmRpCT;
+        "pkg-0.5" = _p4fskEpi;
+        "default" = _p4fskEpi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "btwr-core";

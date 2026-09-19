@@ -31,6 +31,11 @@ let
             "file" = "fullyenchanced-1.2-1.21.1.jar";
             "hash" = "sha512-pDindQ2iU1r/LoYY73KWGvljgmYiQGKbxCf9TjrotTCe+DvbgEuIC9Vm3qU1/+ACK5hs37lrA1WyokGOkwg/pg==";
         };
+        _IEesZaDD = {
+            "id" = "IEesZaDD";
+            "file" = "fullyenchanced-2.0-1.21.1.jar";
+            "hash" = "sha512-wUGpUy1qa0DPbbu6uIx0494HUL4QnmH9lYJndVvX/sfv1hmw4c54l2IOfwnsqFGiKXpiNQyM0MHOV7Y6BQE5NQ==";
+        };
     in {
         "n0IBzqlQ" = _n0IBzqlQ;
         "KKT69cUH" = _KKT69cUH;
@@ -38,15 +43,17 @@ let
         "XTUxBNVn" = _XTUxBNVn;
         "HXa1e9IZ" = _HXa1e9IZ;
         "mYIYbZTe" = _mYIYbZTe;
+        "IEesZaDD" = _IEesZaDD;
         "fabric-1.20.1" = _HXa1e9IZ;
-        "fabric-1.21.1" = _mYIYbZTe;
+        "fabric-1.21.1" = _IEesZaDD;
         "pkg-0.3-1.20.1" = _n0IBzqlQ;
         "pkg-0.5-1.20.1" = _KKT69cUH;
         "pkg-0.6-1.20.1" = _yB2qaoed;
         "pkg-1.0-1.20.1" = _XTUxBNVn;
         "pkg-1.1-1.20.1" = _HXa1e9IZ;
         "pkg-1.2-1.21.1" = _mYIYbZTe;
-        "default" = _mYIYbZTe;
+        "pkg-2.0-1.21.1" = _IEesZaDD;
+        "default" = _IEesZaDD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fully-enchanced";

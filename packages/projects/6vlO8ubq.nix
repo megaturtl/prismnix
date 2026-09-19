@@ -46,6 +46,46 @@ let
             "file" = "N87 PBR Pack 26.2 05_09_2026.zip";
             "hash" = "sha512-aLBqBYMWYTx4H5gw6ahDqcePWBC9S47VMSTBW+0CCjkP59sU/Z+p0y1Q1RT7WSSA2xT4cYGzTJD46P6sSIU9wg==";
         };
+        _H0SwkeQh = {
+            "id" = "H0SwkeQh";
+            "file" = "N87 PBR Pack 128x 26.2 08_09_2026.zip";
+            "hash" = "sha512-7BzX5h/6dB3gSH0f0XMh+kisT6TyYo+joiEe0JCxDnNXwn+hQLrWk5qnF7Y4NFTuV0SCn8SxUCXbD7CmJclnNQ==";
+        };
+        _9gf0uY1C = {
+            "id" = "9gf0uY1C";
+            "file" = "N87 PBR Pack 128x 10_09_2026 26_2.zip";
+            "hash" = "sha512-d0/3gK4fK5n6VDUG+rwbP95z9w9UgDthfabG7LiI+3kSOCOXJ3sGPp2e3IaJvLRyB1+PEwQNbc4rqC289AU+fw==";
+        };
+        _4gN8IrwG = {
+            "id" = "4gN8IrwG";
+            "file" = "N87 PBR Pack 128x 12_09_2026.zip";
+            "hash" = "sha512-8IAmYsVKVmkipjrxf1sgDoN559qG6llio0Oq4Drj+glZVl95sOZDdU1Q0Kt4m1KDJErLMYxbfK+3+hrgy841bA==";
+        };
+        _V0jHgu96 = {
+            "id" = "V0jHgu96";
+            "file" = "N87 PBR Pack 128x 26.2 14_09_2026.zip";
+            "hash" = "sha512-5zT/ugaYdyZ58F3/V20YqxwZXDoJvKqdsDwXReeqg1Ty4u5m1fd4tFOWav5op7s3L1LhI6AVCpls9HggQ0k09g==";
+        };
+        _weTv7CMP = {
+            "id" = "weTv7CMP";
+            "file" = "N87 PBR Pack 128x 1.21.11 16_09_2026.zip";
+            "hash" = "sha512-Dhq1AxENbUAXdRAvMb3nnKPl+0oKMCUYI/eBBN8op8N0ZtyIYxl4G04Jw+jYmAcNua/3lvq14cE+WF2gaC4CSg==";
+        };
+        _pSohrjTS = {
+            "id" = "pSohrjTS";
+            "file" = "N87 PBR Pack 128x 26.1 16_09_2026.zip";
+            "hash" = "sha512-UkNiA/OJl10BkrTg5GmKFuQ3BREgLJr/orciQNd04vyheg428sP/zhzd/2Iqtcp/PadSLKukF2IJ92ouHenX1w==";
+        };
+        _aSOakT6G = {
+            "id" = "aSOakT6G";
+            "file" = "N87 PBR Pack 128x 26.2 16_09_2026.zip";
+            "hash" = "sha512-4fhvl9EaQ02OqqoOAUTJUpN3NSXxeub7QwpTnLgV86FCseZKR2iGwU9ttqoYRGigl3Lj53fU1UMx8wiHk7mJEw==";
+        };
+        _JcYFGToc = {
+            "id" = "JcYFGToc";
+            "file" = "N87 PBR Pack 128x 26.3 16_09_2026.zip";
+            "hash" = "sha512-CGreFNTbJS9vtuDJ2MoBm3iCUwV3w7XTnrkfVz+a8vTt8D2sqxaS5K1lLPXBBuTpH52w/lll0YH/yQDQglkY+Q==";
+        };
     in {
         "2ir9mDql" = _2ir9mDql;
         "AC0pa9l7" = _AC0pa9l7;
@@ -56,6 +96,14 @@ let
         "SHQZIgTN" = _SHQZIgTN;
         "tzhdKRdi" = _tzhdKRdi;
         "KLAKur1a" = _KLAKur1a;
+        "H0SwkeQh" = _H0SwkeQh;
+        "9gf0uY1C" = _9gf0uY1C;
+        "4gN8IrwG" = _4gN8IrwG;
+        "V0jHgu96" = _V0jHgu96;
+        "weTv7CMP" = _weTv7CMP;
+        "pSohrjTS" = _pSohrjTS;
+        "aSOakT6G" = _aSOakT6G;
+        "JcYFGToc" = _JcYFGToc;
         "minecraft-1.18" = _2ir9mDql;
         "minecraft-1.18.1" = _2ir9mDql;
         "minecraft-1.18.2" = _2ir9mDql;
@@ -103,8 +151,8 @@ let
         "minecraft-24w19a" = _AC0pa9l7;
         "minecraft-24w19b" = _AC0pa9l7;
         "minecraft-24w20a" = _AC0pa9l7;
-        "minecraft-1.21" = _KLAKur1a;
-        "minecraft-1.21.1" = _KLAKur1a;
+        "minecraft-1.21" = _9gf0uY1C;
+        "minecraft-1.21.1" = _9gf0uY1C;
         "minecraft-24w33a" = _AC0pa9l7;
         "minecraft-24w34a" = _AC0pa9l7;
         "minecraft-24w35a" = _AC0pa9l7;
@@ -115,23 +163,23 @@ let
         "minecraft-24w40a" = _AC0pa9l7;
         "minecraft-1.21.2-pre1" = _AC0pa9l7;
         "minecraft-1.21.2-pre2" = _AC0pa9l7;
-        "minecraft-1.21.2" = _KLAKur1a;
-        "minecraft-1.21.3" = _KLAKur1a;
+        "minecraft-1.21.2" = _9gf0uY1C;
+        "minecraft-1.21.3" = _9gf0uY1C;
         "minecraft-24w44a" = _AC0pa9l7;
         "minecraft-24w45a" = _AC0pa9l7;
         "minecraft-24w46a" = _AC0pa9l7;
-        "minecraft-1.21.4" = _KLAKur1a;
-        "minecraft-1.21.5" = _KLAKur1a;
-        "minecraft-1.21.6" = _KLAKur1a;
-        "minecraft-1.21.7" = _KLAKur1a;
-        "minecraft-1.21.8" = _KLAKur1a;
-        "minecraft-1.21.9" = _KLAKur1a;
-        "minecraft-1.21.10" = _KLAKur1a;
-        "minecraft-1.21.11" = _KLAKur1a;
-        "minecraft-26.1" = _KLAKur1a;
-        "minecraft-26.1.1" = _KLAKur1a;
-        "minecraft-26.1.2" = _KLAKur1a;
-        "minecraft-26.2" = _KLAKur1a;
+        "minecraft-1.21.4" = _9gf0uY1C;
+        "minecraft-1.21.5" = _9gf0uY1C;
+        "minecraft-1.21.6" = _9gf0uY1C;
+        "minecraft-1.21.7" = _9gf0uY1C;
+        "minecraft-1.21.8" = _V0jHgu96;
+        "minecraft-1.21.9" = _V0jHgu96;
+        "minecraft-1.21.10" = _V0jHgu96;
+        "minecraft-1.21.11" = _weTv7CMP;
+        "minecraft-26.1" = _pSohrjTS;
+        "minecraft-26.1.1" = _pSohrjTS;
+        "minecraft-26.1.2" = _pSohrjTS;
+        "minecraft-26.2" = _aSOakT6G;
         "minecraft-24w21a" = _AC0pa9l7;
         "minecraft-24w21b" = _AC0pa9l7;
         "minecraft-1.21-pre1" = _AC0pa9l7;
@@ -248,6 +296,7 @@ let
         "minecraft-26.2-rc-1" = _AC0pa9l7;
         "minecraft-26.2-rc-2" = _AC0pa9l7;
         "minecraft-26.3-snapshot-1" = _AC0pa9l7;
+        "minecraft-26.3" = _JcYFGToc;
         "pkg-21.06.2026" = _2ir9mDql;
         "pkg-29_06_2026" = _AC0pa9l7;
         "pkg-04.08.2026" = _kfLTpZ5D;
@@ -257,7 +306,12 @@ let
         "pkg-01.09.2026" = _SHQZIgTN;
         "pkg-02.09.2026" = _tzhdKRdi;
         "pkg-05.09.2026" = _KLAKur1a;
-        "default" = _KLAKur1a;
+        "pkg-09.09.2026" = _H0SwkeQh;
+        "pkg-10_09_2026" = _9gf0uY1C;
+        "pkg-12.09.2026" = _4gN8IrwG;
+        "pkg-14.09.2026" = _V0jHgu96;
+        "pkg-16.09.2026" = _JcYFGToc;
+        "default" = _JcYFGToc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "n87-pbr-pack";

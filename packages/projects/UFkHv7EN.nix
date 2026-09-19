@@ -146,6 +146,16 @@ let
             "file" = "iceball-fabric-1.5+mc26.2.jar";
             "hash" = "sha512-N6J90QbNJloTlDV6gE9FnOZr2uA7mmyrqiLoLuSXBsyJOQZfox50bWXi/3YYhjzMSiIeDx9S27SF6VurFN1HZg==";
         };
+        _R07Ar4LY = {
+            "id" = "R07Ar4LY";
+            "file" = "iceball-neoforge-1.5.1+mc26.3.jar";
+            "hash" = "sha512-JJ44+0mk5x18hQPe/5YiR6FuWYkg+Fr3ChIGpQtb4ZbS1pNC9VDJz9L44lVfITZLGY6Fu+fXznEedKu+R+8vtA==";
+        };
+        _KnMIOrdb = {
+            "id" = "KnMIOrdb";
+            "file" = "iceball-fabric-1.5.1+mc26.3.jar";
+            "hash" = "sha512-jj9M6tW9TY5SBZoLnLhbFY4ZC7JvCFLpuRN8qOfi/SKYBzau6NSdHmXgyO2SO+SuIQMj+IaQ/6gqlMqTypnAJg==";
+        };
     in {
         "gEYaZXBm" = _gEYaZXBm;
         "etpwddRb" = _etpwddRb;
@@ -176,6 +186,8 @@ let
         "btoRs5Wf" = _btoRs5Wf;
         "6PHUMAcL" = _6PHUMAcL;
         "sW67YFXS" = _sW67YFXS;
+        "R07Ar4LY" = _R07Ar4LY;
+        "KnMIOrdb" = _KnMIOrdb;
         "fabric-1.19.3" = _gEYaZXBm;
         "fabric-1.19.4" = _etpwddRb;
         "fabric-1.20" = _G5yv3DAg;
@@ -201,6 +213,7 @@ let
         "fabric-26.1.1" = _btoRs5Wf;
         "fabric-26.1.2" = _btoRs5Wf;
         "fabric-26.2" = _sW67YFXS;
+        "fabric-26.3" = _KnMIOrdb;
         "neoforge-1.21" = _9QaFmth7;
         "neoforge-1.21.1" = _9QaFmth7;
         "neoforge-1.21.11" = _SkGKOgcY;
@@ -208,6 +221,7 @@ let
         "neoforge-26.1.1" = _onw4XIAx;
         "neoforge-26.1.2" = _onw4XIAx;
         "neoforge-26.2" = _6PHUMAcL;
+        "neoforge-26.3" = _R07Ar4LY;
         "pkg-1.0" = _gEYaZXBm;
         "pkg-1.1" = _etpwddRb;
         "pkg-1.1+1.20" = _RS7VbEop;
@@ -237,7 +251,9 @@ let
         "pkg-1.5+mc26.1.2-fabric" = _btoRs5Wf;
         "pkg-1.5+mc26.2-neoforge" = _6PHUMAcL;
         "pkg-1.5+mc26.2-fabric" = _sW67YFXS;
-        "default" = _sW67YFXS;
+        "pkg-1.5.1+mc26.3-neoforge" = _R07Ar4LY;
+        "pkg-1.5.1+mc26.3-fabric" = _KnMIOrdb;
+        "default" = _KnMIOrdb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "iceball";

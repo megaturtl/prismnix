@@ -76,6 +76,26 @@ let
             "file" = "Os' Carved Wood (Complete Pack).zip";
             "hash" = "sha512-sFr05lt5qcHZF2X+eyTr7eayJDGTEKiQ0q1SyfRdRbeDaP3WO4ANcjaWXjc+U7+zRKtyaGIK8xWr9ykPjRk02w==";
         };
+        _42ClWYrT = {
+            "id" = "42ClWYrT";
+            "file" = "Os' Double Wood Slabs.zip";
+            "hash" = "sha512-jEH/oYKRawGm6YzSzNX7s7WCnaTucwfhL3b7OZxxmOwMge7tGxD19xNgg1LuYKox67LsZYYdrjM2WMwH9vEwTg==";
+        };
+        _2Z6hdsLT = {
+            "id" = "2Z6hdsLT";
+            "file" = "Os' Half Carved Wood.zip";
+            "hash" = "sha512-jwkAio1q+linsWTiO580w6xv9C1f8XqC1Q93iefi1cLlCSjuayCa1r3nXbFgdKFQUDBq9VeOOBlIE0sjNuSBbA==";
+        };
+        _uglDf6CR = {
+            "id" = "uglDf6CR";
+            "file" = "Os' Complete Carved Wood.zip";
+            "hash" = "sha512-awPQ/Jub3kHyykVg6aCTNWbOS/onuJlZPHbaqrMJdZpftoD/FnqPFOscze4++16WyqxmiWphDSX+DNH5JOHr+Q==";
+        };
+        _QPEH3eaT = {
+            "id" = "QPEH3eaT";
+            "file" = "Os' Carved Stripped Wood.zip";
+            "hash" = "sha512-IPLZS9m58wXEy9igH4aeJIHNXEKEBzSpD5IBZHA2cOaszOZ7dW7O+nAU+oBdr/RjxsWVrEdZUYygADFeOPIuGg==";
+        };
     in {
         "fXZDiMOp" = _fXZDiMOp;
         "HkUTHC7Z" = _HkUTHC7Z;
@@ -92,14 +112,30 @@ let
         "2fbpkiJ8" = _2fbpkiJ8;
         "vNsG6itS" = _vNsG6itS;
         "g4FHPvta" = _g4FHPvta;
+        "42ClWYrT" = _42ClWYrT;
+        "2Z6hdsLT" = _2Z6hdsLT;
+        "uglDf6CR" = _uglDf6CR;
+        "QPEH3eaT" = _QPEH3eaT;
         "minecraft-1.20" = _PnLHZzck;
         "minecraft-1.20.1" = _PnLHZzck;
-        "minecraft-1.21" = _g4FHPvta;
-        "minecraft-1.21.1" = _g4FHPvta;
-        "minecraft-1.21.2" = _g4FHPvta;
-        "minecraft-1.21.3" = _g4FHPvta;
+        "minecraft-1.21" = _QPEH3eaT;
+        "minecraft-1.21.1" = _QPEH3eaT;
+        "minecraft-1.21.2" = _QPEH3eaT;
+        "minecraft-1.21.3" = _QPEH3eaT;
         "minecraft-1.20.6" = _g4FHPvta;
-        "minecraft-1.21.4" = _g4FHPvta;
+        "minecraft-1.21.4" = _QPEH3eaT;
+        "minecraft-1.21.5" = _QPEH3eaT;
+        "minecraft-1.21.6" = _QPEH3eaT;
+        "minecraft-1.21.7" = _QPEH3eaT;
+        "minecraft-1.21.8" = _QPEH3eaT;
+        "minecraft-1.21.9" = _QPEH3eaT;
+        "minecraft-1.21.10" = _QPEH3eaT;
+        "minecraft-1.21.11" = _QPEH3eaT;
+        "minecraft-26.1" = _QPEH3eaT;
+        "minecraft-26.1.1" = _QPEH3eaT;
+        "minecraft-26.1.2" = _QPEH3eaT;
+        "minecraft-26.2" = _QPEH3eaT;
+        "minecraft-26.3" = _QPEH3eaT;
         "pkg-1" = _YLb8mDYK;
         "pkg-2" = _HkUTHC7Z;
         "pkg-3" = _JVziSXd0;
@@ -111,7 +147,11 @@ let
         "pkg-7wHalfCarvedOnly" = _2fbpkiJ8;
         "pkg-7wStrippedWoodOnly" = _vNsG6itS;
         "pkg-7CompletePack" = _g4FHPvta;
-        "default" = _g4FHPvta;
+        "pkg-DoubleSlabs-26.3" = _42ClWYrT;
+        "pkg-HalfCarved-26.3" = _2Z6hdsLT;
+        "pkg-CompletePack-26.3" = _uglDf6CR;
+        "pkg-StrippedWood-26.3" = _QPEH3eaT;
+        "default" = _QPEH3eaT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "os-carved-wood";

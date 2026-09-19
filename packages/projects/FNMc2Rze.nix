@@ -116,6 +116,16 @@ let
             "file" = "glamour-table-26.2.0.jar";
             "hash" = "sha512-1XvBTOQ48PS5/7SpjTjP3VNgT88IH02yN9RKKzPZsjj8DrqTV4CNNmkZaRBBVSThgInZgrcokrW0rpgbEdwfFQ==";
         };
+        _3y5bmox2 = {
+            "id" = "3y5bmox2";
+            "file" = "GlamourDP.zip";
+            "hash" = "sha512-XMOx9/IoEsi6j+vGQ/UFgDAajiupt1fkJwJwGVedFkIrPSvQfNU1AaXFix4VqaZNlnpctEb74Xwrdwz7xavckg==";
+        };
+        _paR0sFMl = {
+            "id" = "paR0sFMl";
+            "file" = "glamour-table-26.3.0.jar";
+            "hash" = "sha512-d7A0NDLrwQm6/YaZYHhJjnhT30p1B5ju0hyvq2r9Pla83MQClYhv1nrmX9chJbNJvxcBVtSn0kaGI/jHl2E4fA==";
+        };
     in {
         "AxnewuHn" = _AxnewuHn;
         "BIl8G3vp" = _BIl8G3vp;
@@ -140,6 +150,8 @@ let
         "7V8LhbHc" = _7V8LhbHc;
         "Dq8Z2o09" = _Dq8Z2o09;
         "YjqifY3s" = _YjqifY3s;
+        "3y5bmox2" = _3y5bmox2;
+        "paR0sFMl" = _paR0sFMl;
         "datapack-24w45a" = _dmmn2D1d;
         "datapack-24w46a" = _zhJt4evp;
         "datapack-1.21.4-pre1" = _Lf0t03BY;
@@ -154,30 +166,35 @@ let
         "datapack-26.1.1" = _IP7noAov;
         "datapack-26.1.2" = _IP7noAov;
         "datapack-26.2" = _Dq8Z2o09;
+        "datapack-26.3" = _3y5bmox2;
         "fabric-1.21.9" = _tFI6JMvz;
         "fabric-1.21.10" = _tFI6JMvz;
         "fabric-26.1" = _7V8LhbHc;
         "fabric-26.1.1" = _7V8LhbHc;
         "fabric-26.1.2" = _7V8LhbHc;
         "fabric-26.2" = _YjqifY3s;
+        "fabric-26.3" = _paR0sFMl;
         "forge-1.21.9" = _tFI6JMvz;
         "forge-1.21.10" = _tFI6JMvz;
         "forge-26.1" = _7V8LhbHc;
         "forge-26.1.1" = _7V8LhbHc;
         "forge-26.1.2" = _7V8LhbHc;
         "forge-26.2" = _YjqifY3s;
+        "forge-26.3" = _paR0sFMl;
         "neoforge-1.21.9" = _tFI6JMvz;
         "neoforge-1.21.10" = _tFI6JMvz;
         "neoforge-26.1" = _7V8LhbHc;
         "neoforge-26.1.1" = _7V8LhbHc;
         "neoforge-26.1.2" = _7V8LhbHc;
         "neoforge-26.2" = _YjqifY3s;
+        "neoforge-26.3" = _paR0sFMl;
         "quilt-1.21.9" = _tFI6JMvz;
         "quilt-1.21.10" = _tFI6JMvz;
         "quilt-26.1" = _7V8LhbHc;
         "quilt-26.1.1" = _7V8LhbHc;
         "quilt-26.1.2" = _7V8LhbHc;
         "quilt-26.2" = _YjqifY3s;
+        "quilt-26.3" = _paR0sFMl;
         "pkg-1.0" = _AxnewuHn;
         "pkg-1.1" = _BIl8G3vp;
         "pkg-1.1.1" = _FAa3uZbu;
@@ -201,7 +218,9 @@ let
         "pkg-26.1.0+mod" = _7V8LhbHc;
         "pkg-26.2.0" = _Dq8Z2o09;
         "pkg-26.2.0+mod" = _YjqifY3s;
-        "default" = _YjqifY3s;
+        "pkg-26.3.0" = _3y5bmox2;
+        "pkg-26.3.0+mod" = _paR0sFMl;
+        "default" = _paR0sFMl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glamour-table";

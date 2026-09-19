@@ -66,6 +66,11 @@ let
             "file" = "tacz_x_guns_lights_addon-2.8.3.jar";
             "hash" = "sha512-mfd0+1+j2LKPoCBWMja88ntPe4tl8BpRbzRmX5k8skT7CV3wzzuGMLGQxwjbGJgUvZShaexBvpqU008AhmPcEg==";
         };
+        _wChlado4 = {
+            "id" = "wChlado4";
+            "file" = "tacz_x_guns_lights_addon-2.9.0.jar";
+            "hash" = "sha512-woT0Q/z59ZAa33OlnAonO8p+o2gvcMoJV7BNjfhx0HJEh8rHUuMkDBWWbEX3eNtAr+4bBNn1x5kzWnLQjJSABA==";
+        };
     in {
         "B2QALR3C" = _B2QALR3C;
         "QYYBqmP7" = _QYYBqmP7;
@@ -80,12 +85,13 @@ let
         "VJUTrr8u" = _VJUTrr8u;
         "2cS9a2hE" = _2cS9a2hE;
         "upgJMEPl" = _upgJMEPl;
-        "forge-1.20.1" = _ffE4Lryy;
-        "forge-1.20.2" = _ffE4Lryy;
-        "forge-1.20.3" = _ffE4Lryy;
-        "forge-1.20.4" = _ffE4Lryy;
-        "forge-1.20.5" = _ffE4Lryy;
-        "forge-1.20.6" = _ffE4Lryy;
+        "wChlado4" = _wChlado4;
+        "forge-1.20.1" = _wChlado4;
+        "forge-1.20.2" = _wChlado4;
+        "forge-1.20.3" = _wChlado4;
+        "forge-1.20.4" = _wChlado4;
+        "forge-1.20.5" = _wChlado4;
+        "forge-1.20.6" = _wChlado4;
         "forge-1.21.1" = _VJUTrr8u;
         "forge-1.21.2" = _VJUTrr8u;
         "forge-1.21.3" = _VJUTrr8u;
@@ -108,6 +114,12 @@ let
         "neoforge-1.21.9" = _VJUTrr8u;
         "neoforge-1.21.10" = _VJUTrr8u;
         "neoforge-1.21.11" = _VJUTrr8u;
+        "neoforge-1.20.1" = _wChlado4;
+        "neoforge-1.20.2" = _wChlado4;
+        "neoforge-1.20.3" = _wChlado4;
+        "neoforge-1.20.4" = _wChlado4;
+        "neoforge-1.20.5" = _wChlado4;
+        "neoforge-1.20.6" = _wChlado4;
         "fabric-1.21.1" = _2cS9a2hE;
         "fabric-1.20.1" = _upgJMEPl;
         "pkg-1.0.2" = _B2QALR3C;
@@ -120,7 +132,8 @@ let
         "pkg-2.5.0" = _V4BcwSCU;
         "pkg-2.6.0" = _zt4YEWcP;
         "pkg-2.8.2" = _upgJMEPl;
-        "default" = _upgJMEPl;
+        "pkg-2.9.0" = _wChlado4;
+        "default" = _wChlado4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz-x-guns-lights-addon";

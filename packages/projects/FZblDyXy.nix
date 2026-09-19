@@ -66,6 +66,11 @@ let
             "file" = "bonus_cobblemon_textures_v2-for-1.7.zip";
             "hash" = "sha512-CRekWHoEVGpZqvVbbchBzWwd0kRuhRxN1i0sG4beMildRywVF/RFOtWYxu5Z4nEW1GNTnRQn4gFVJVxcM4tSog==";
         };
+        _KHAEIGnI = {
+            "id" = "KHAEIGnI";
+            "file" = "cobblemon_bonus_variants_v3_for_1.8.zip";
+            "hash" = "sha512-zeDJhXVhaSZu6pxoJ//Y6EJHodIXgxuKTVHqT6n2GucaA667cGzG2WmgoqDDqljIw39s01h7oC8iuatixBi7RQ==";
+        };
     in {
         "KOx5gTJj" = _KOx5gTJj;
         "epeJMPvd" = _epeJMPvd;
@@ -80,12 +85,14 @@ let
         "OfKC3Frp" = _OfKC3Frp;
         "yh3eRehT" = _yh3eRehT;
         "PvLt0Cpf" = _PvLt0Cpf;
+        "KHAEIGnI" = _KHAEIGnI;
         "minecraft-1.19" = _UW75y1Pz;
         "minecraft-1.19.1" = _UW75y1Pz;
         "minecraft-1.19.2" = _nzF7eE83;
         "minecraft-1.20.1" = _VySyXjQc;
         "minecraft-1.21" = _PvLt0Cpf;
-        "minecraft-1.21.1" = _PvLt0Cpf;
+        "minecraft-1.21.1" = _KHAEIGnI;
+        "datapack-1.21.1" = _KHAEIGnI;
         "pkg-1.2" = _KOx5gTJj;
         "pkg-1.3" = _epeJMPvd;
         "pkg-1.4" = _kdlbtbgL;
@@ -98,7 +105,8 @@ let
         "pkg-1.1-1.6.1" = _OfKC3Frp;
         "pkg-v1.1.1-1.6.1" = _yh3eRehT;
         "pkg-v2-for-1.7" = _PvLt0Cpf;
-        "default" = _PvLt0Cpf;
+        "pkg-v3-for-1.8" = _KHAEIGnI;
+        "default" = _KHAEIGnI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-bonus-textures";

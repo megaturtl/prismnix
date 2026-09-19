@@ -61,6 +61,16 @@ let
             "file" = "nowheel-fabric-1.4.0+mc26.1.jar";
             "hash" = "sha512-Fd7r81uFXeUrSD9hgoWhBQhlqDRNkk2vyjBNhUEaaZS1kqiL5LtyGl5dpJkeXL6jIUldh0gKp7UrtbGWdLz2ow==";
         };
+        _yPnVXO2F = {
+            "id" = "yPnVXO2F";
+            "file" = "nowheel-neoforge-1.4.1+mc26.3.jar";
+            "hash" = "sha512-GJ7ZThciFNgXbfEQXS4yXcwkrr54k038/Azk0on5RPE1nAPHGeyrhBWk5l00PEcUB2ubvnNrorv639E+dgW4DA==";
+        };
+        _QtboMfgm = {
+            "id" = "QtboMfgm";
+            "file" = "nowheel-fabric-1.4.1+mc26.3.jar";
+            "hash" = "sha512-Qu/rUIxo8JOD+bHhPCWs6Vo1vQM1Ccvukj1d/vv26PgoXYwkWDvaosnRH131LZWTqZJbYVdKcoM+i/i/xD5Opw==";
+        };
     in {
         "ZPGIKUgo" = _ZPGIKUgo;
         "Fb6MD1Me" = _Fb6MD1Me;
@@ -74,6 +84,8 @@ let
         "DFggMbgV" = _DFggMbgV;
         "EjPpIKuJ" = _EjPpIKuJ;
         "k3XXlvNF" = _k3XXlvNF;
+        "yPnVXO2F" = _yPnVXO2F;
+        "QtboMfgm" = _QtboMfgm;
         "fabric-1.18.1" = _pPDppNT7;
         "fabric-1.18.2" = _pPDppNT7;
         "fabric-1.19" = _Gl2i8kjs;
@@ -106,6 +118,7 @@ let
         "fabric-26.1.1" = _k3XXlvNF;
         "fabric-26.1.2" = _k3XXlvNF;
         "fabric-26.2" = _k3XXlvNF;
+        "fabric-26.3" = _QtboMfgm;
         "quilt-1.18.2" = _pPDppNT7;
         "quilt-1.19" = _Gl2i8kjs;
         "quilt-1.19.1" = _Gl2i8kjs;
@@ -137,10 +150,12 @@ let
         "quilt-26.1.1" = _k3XXlvNF;
         "quilt-26.1.2" = _k3XXlvNF;
         "quilt-26.2" = _k3XXlvNF;
+        "quilt-26.3" = _QtboMfgm;
         "neoforge-26.1" = _EjPpIKuJ;
         "neoforge-26.1.1" = _EjPpIKuJ;
         "neoforge-26.1.2" = _EjPpIKuJ;
         "neoforge-26.2" = _EjPpIKuJ;
+        "neoforge-26.3" = _yPnVXO2F;
         "pkg-1.0.0" = _ZPGIKUgo;
         "pkg-1.1.0+mc1.18.2" = _Fb6MD1Me;
         "pkg-1.1.0+mc1.19" = _Y2hRMZqC;
@@ -153,7 +168,9 @@ let
         "pkg-1.3.2-mcsr+mc1.16.1" = _DFggMbgV;
         "pkg-1.4.0+mc26.1-neoforge" = _EjPpIKuJ;
         "pkg-1.4.0+mc26.1-fabric" = _k3XXlvNF;
-        "default" = _k3XXlvNF;
+        "pkg-1.4.1+mc26.3-neoforge" = _yPnVXO2F;
+        "pkg-1.4.1+mc26.3-fabric" = _QtboMfgm;
+        "default" = _QtboMfgm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nowheel";

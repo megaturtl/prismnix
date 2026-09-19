@@ -71,6 +71,11 @@ let
             "file" = "AnimatedDoors-2.0.2.jar";
             "hash" = "sha512-gKAGyWlK7qdIPVJxegOcu0ZHKXJK1cYPPvs3AEJLvn0LIA5e9ZK1wHvb7PynabjMucWKHuga8fml84ScYvRrCw==";
         };
+        _eT2QJyfc = {
+            "id" = "eT2QJyfc";
+            "file" = "AnimatedDoors-2.0.2.jar";
+            "hash" = "sha512-0ry/m6sKHz5AOjk1Y3ceve1FnbPlTxjg2TqF+gSVb3SEg5XAb/FRSHb+1rdp1wuRYScjVkXIySABeEBySV26rA==";
+        };
     in {
         "PnIroRTM" = _PnIroRTM;
         "x2KmlHF0" = _x2KmlHF0;
@@ -86,6 +91,7 @@ let
         "1FtQKzXR" = _1FtQKzXR;
         "Ob8GRyiT" = _Ob8GRyiT;
         "UANUeyMk" = _UANUeyMk;
+        "eT2QJyfc" = _eT2QJyfc;
         "datapack-1.20" = _PnIroRTM;
         "datapack-1.20.1" = _PnIroRTM;
         "datapack-1.20.2" = _PnIroRTM;
@@ -126,6 +132,7 @@ let
         "fabric-26.1.2-rc-1" = _Ob8GRyiT;
         "fabric-26.1.2" = _Ob8GRyiT;
         "fabric-26.2" = _UANUeyMk;
+        "fabric-26.3" = _eT2QJyfc;
         "forge-1.20" = _x2KmlHF0;
         "forge-1.20.1" = _x2KmlHF0;
         "forge-1.20.2" = _x2KmlHF0;
@@ -165,6 +172,7 @@ let
         "quilt-26.1.2-rc-1" = _Ob8GRyiT;
         "quilt-26.1.2" = _Ob8GRyiT;
         "quilt-26.2" = _UANUeyMk;
+        "quilt-26.3" = _eT2QJyfc;
         "neoforge-26.1" = _Ob8GRyiT;
         "neoforge-26.1.1-rc-1" = _Ob8GRyiT;
         "neoforge-26.1.1" = _Ob8GRyiT;
@@ -172,6 +180,7 @@ let
         "neoforge-26.1.2-rc-1" = _Ob8GRyiT;
         "neoforge-26.1.2" = _Ob8GRyiT;
         "neoforge-26.2" = _UANUeyMk;
+        "neoforge-26.3" = _eT2QJyfc;
         "pkg-1.20" = _PnIroRTM;
         "pkg-1.20+mod" = _x2KmlHF0;
         "pkg-1.1" = _DPTFABxB;
@@ -184,8 +193,8 @@ let
         "pkg-1.21.4" = _sMdiASpy;
         "pkg-2.0.0" = _1FtQKzXR;
         "pkg-2.0.1" = _Ob8GRyiT;
-        "pkg-2.0.2" = _UANUeyMk;
-        "default" = _UANUeyMk;
+        "pkg-2.0.2" = _eT2QJyfc;
+        "default" = _eT2QJyfc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animated-doors";

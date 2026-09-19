@@ -166,6 +166,11 @@ let
             "file" = "ToolTips-Stylized_v1.2b4_1.20+.zip";
             "hash" = "sha512-uC6+GEVN7eR28pNG7Xh0U/dYpRQpf2M2cHUTyuO2CPrmgyqf70OgzffFuxyEQkdoJ03Y/N8p8i+RjtBjR5XEdQ==";
         };
+        _37cDZlRI = {
+            "id" = "37cDZlRI";
+            "file" = "ToolTips-Stylized_1.2b5-1.21+.zip";
+            "hash" = "sha512-OV+iRjbGO+u0Z81trZJCISs+dtEZTHRtE3aSidaackcrub8FtfMJRkI9Ng+aCC198GxLbfpevHOIRE20ZGhdHQ==";
+        };
     in {
         "Np5EQjmT" = _Np5EQjmT;
         "60mUrQvE" = _60mUrQvE;
@@ -200,6 +205,7 @@ let
         "TBUEmM0V" = _TBUEmM0V;
         "7qR0Cigl" = _7qR0Cigl;
         "NlpdeO7l" = _NlpdeO7l;
+        "37cDZlRI" = _37cDZlRI;
         "minecraft-1.20" = _NlpdeO7l;
         "minecraft-1.20.1" = _NlpdeO7l;
         "minecraft-23w31a" = _jX3E5xDt;
@@ -214,26 +220,27 @@ let
         "minecraft-24w11a" = _L3Ahl0ai;
         "minecraft-1.20.5" = _NlpdeO7l;
         "minecraft-1.20.6" = _NlpdeO7l;
-        "minecraft-1.21" = _NlpdeO7l;
-        "minecraft-1.21.1" = _NlpdeO7l;
+        "minecraft-1.21" = _37cDZlRI;
+        "minecraft-1.21.1" = _37cDZlRI;
         "minecraft-24w37a" = _TEZxg6sR;
         "minecraft-24w38a" = _TEZxg6sR;
-        "minecraft-1.21.2" = _NlpdeO7l;
-        "minecraft-1.21.3" = _NlpdeO7l;
-        "minecraft-1.21.4" = _NlpdeO7l;
+        "minecraft-1.21.2" = _37cDZlRI;
+        "minecraft-1.21.3" = _37cDZlRI;
+        "minecraft-1.21.4" = _37cDZlRI;
         "minecraft-25w06a" = _uESa6Hpq;
-        "minecraft-1.21.5" = _NlpdeO7l;
+        "minecraft-1.21.5" = _37cDZlRI;
         "minecraft-25w15a" = _7Z3KdEjq;
-        "minecraft-1.21.6" = _NlpdeO7l;
-        "minecraft-1.21.7" = _NlpdeO7l;
-        "minecraft-1.21.8" = _NlpdeO7l;
-        "minecraft-1.21.9" = _NlpdeO7l;
-        "minecraft-1.21.10" = _NlpdeO7l;
-        "minecraft-1.21.11" = _NlpdeO7l;
-        "minecraft-26.1" = _NlpdeO7l;
-        "minecraft-26.1.1" = _NlpdeO7l;
-        "minecraft-26.1.2" = _NlpdeO7l;
-        "minecraft-26.2" = _NlpdeO7l;
+        "minecraft-1.21.6" = _37cDZlRI;
+        "minecraft-1.21.7" = _37cDZlRI;
+        "minecraft-1.21.8" = _37cDZlRI;
+        "minecraft-1.21.9" = _37cDZlRI;
+        "minecraft-1.21.10" = _37cDZlRI;
+        "minecraft-1.21.11" = _37cDZlRI;
+        "minecraft-26.1" = _37cDZlRI;
+        "minecraft-26.1.1" = _37cDZlRI;
+        "minecraft-26.1.2" = _37cDZlRI;
+        "minecraft-26.2" = _37cDZlRI;
+        "minecraft-26.3" = _37cDZlRI;
         "pkg-1.0b1" = _Np5EQjmT;
         "pkg-1.0b2" = _60mUrQvE;
         "pkg-1.0b3" = _Kjne7yCI;
@@ -267,7 +274,8 @@ let
         "pkg-1.2b2" = _TBUEmM0V;
         "pkg-1.2b3" = _7qR0Cigl;
         "pkg-1.2b4" = _NlpdeO7l;
-        "default" = _NlpdeO7l;
+        "pkg-1.2b5" = _37cDZlRI;
+        "default" = _37cDZlRI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tooltips-stylized";

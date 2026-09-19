@@ -36,6 +36,11 @@ let
             "file" = "THEUNDEADREVAMPED_2.0F_1.20.1.jar";
             "hash" = "sha512-47FQcUs8Ex6rX/BFmNOPS6l74S0UoBsQDwGGb1N29eiJZ4X1T3Vf0Mbz8DljzmVihf73xFyRTgF2XJn0KuY4Mw==";
         };
+        _JJHcuZ7f = {
+            "id" = "JJHcuZ7f";
+            "file" = "THEUNDEADREVAMPED_2.0E_1.20.1.jar";
+            "hash" = "sha512-rr+k+6gUUnaSgBbFJl3Ep7Rg30gzXsPSuOFdqcR2eAJJk8l5AauFrGgXDS63d1kcxvlC7LSWi5xIkFBO9gifcA==";
+        };
     in {
         "aqlmboNx" = _aqlmboNx;
         "Br3b9YNV" = _Br3b9YNV;
@@ -44,13 +49,15 @@ let
         "PrDHsCGf" = _PrDHsCGf;
         "5qBzgVwr" = _5qBzgVwr;
         "7LBVCgam" = _7LBVCgam;
+        "JJHcuZ7f" = _JJHcuZ7f;
         "forge-1.19.2" = _aqlmboNx;
-        "forge-1.20.1" = _7LBVCgam;
+        "forge-1.20.1" = _JJHcuZ7f;
         "pkg-1.0.0" = _hDZ95Qx3;
         "pkg-1.7" = _PrDHsCGf;
         "pkg-1.9J" = _5qBzgVwr;
         "pkg-2.0F" = _7LBVCgam;
-        "default" = _7LBVCgam;
+        "pkg-2.0E" = _JJHcuZ7f;
+        "default" = _JJHcuZ7f;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-undead-revamped";

@@ -36,6 +36,21 @@ let
             "file" = "womplus-20.14.1.2.0.jar";
             "hash" = "sha512-Y59LBmCusHk3qxC454opBxsCZR1z9B02Szb7I/LeKrP2CNPMQu8MSwYcs5CrXH2cyrM01tXBRy9zrmNkJ5G49g==";
         };
+        _SeWhd8rn = {
+            "id" = "SeWhd8rn";
+            "file" = "womplus-20.14.1.2.1.jar";
+            "hash" = "sha512-IaOXSfWLkZRBGyX7QYMz1N5xp1GC3N/eJDlg+qhOPMX3ppNARyiZdz7R9NSe4mxzr3D6JPPzsmC3b1l4zUcYoA==";
+        };
+        _KjVS4Zx0 = {
+            "id" = "KjVS4Zx0";
+            "file" = "womplus-20.14.1.2.2.jar";
+            "hash" = "sha512-e437a8gXCSquOgmUSIUPOmDru+++yi2JgtcOSDTp7wRN0/uBz91gSAAEEBXLNaboftLmp8M9S94/HeuIa66rnQ==";
+        };
+        _VT8NwUh8 = {
+            "id" = "VT8NwUh8";
+            "file" = "womplus-21.17-1.0.0.jar";
+            "hash" = "sha512-3CT9QUBbHePefEE51GqRBuyUF/ad6yhOygdjDDzJP5AzxJVHBM4eicQjLlBQWCi363kqY+7gltga8Vhej2195g==";
+        };
     in {
         "OezzDwRE" = _OezzDwRE;
         "y6XzXZpO" = _y6XzXZpO;
@@ -44,12 +59,16 @@ let
         "FCtc2ADa" = _FCtc2ADa;
         "ndHuRYqu" = _ndHuRYqu;
         "EZJFb8BE" = _EZJFb8BE;
-        "forge-1.20.1" = _EZJFb8BE;
-        "forge-1.20.2" = _EZJFb8BE;
-        "forge-1.20.3" = _EZJFb8BE;
-        "forge-1.20.4" = _EZJFb8BE;
-        "forge-1.20.5" = _EZJFb8BE;
-        "forge-1.20.6" = _EZJFb8BE;
+        "SeWhd8rn" = _SeWhd8rn;
+        "KjVS4Zx0" = _KjVS4Zx0;
+        "VT8NwUh8" = _VT8NwUh8;
+        "forge-1.20.1" = _KjVS4Zx0;
+        "forge-1.20.2" = _KjVS4Zx0;
+        "forge-1.20.3" = _KjVS4Zx0;
+        "forge-1.20.4" = _KjVS4Zx0;
+        "forge-1.20.5" = _KjVS4Zx0;
+        "forge-1.20.6" = _KjVS4Zx0;
+        "neoforge-1.21.1" = _VT8NwUh8;
         "pkg-20.14.1.1.0" = _OezzDwRE;
         "pkg-20.14.1.1.2" = _y6XzXZpO;
         "pkg-20.14.1.1.4" = _i9bnm9NU;
@@ -57,7 +76,10 @@ let
         "pkg-20.14.1.1.6" = _FCtc2ADa;
         "pkg-20.14.1.1.7" = _ndHuRYqu;
         "pkg-20.14.1.2.0" = _EZJFb8BE;
-        "default" = _EZJFb8BE;
+        "pkg-20.14.1.2.1" = _SeWhd8rn;
+        "pkg-20.14.1.2.2" = _KjVS4Zx0;
+        "pkg-21.17-1.0.0" = _VT8NwUh8;
+        "default" = _VT8NwUh8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "weapons-of-miracles-expansion-wom-plus";

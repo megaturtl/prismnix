@@ -106,6 +106,16 @@ let
             "file" = "craft-elytra-107.1.jar";
             "hash" = "sha512-w31LG63pfMKmLbeTTN88XsL/kCNDLVQPu03/6oyQm4a7cgVq0JFgrozBkSnhc6bLM8ZHFqBBr/q+n+A5Db2fmQ==";
         };
+        _m7mnOg8A = {
+            "id" = "m7mnOg8A";
+            "file" = "craftable-elytra-1.1.0-mc26.3.zip";
+            "hash" = "sha512-LBwkh7UPcl0VgfWVx/+1kp7BXcqYr9u2fiNNpN+cENcna1krUTeJO+QzyS+eqFtn347wtNgWpcVEjpFgE3JOgg==";
+        };
+        _8AXRaZw2 = {
+            "id" = "8AXRaZw2";
+            "file" = "craft-elytra-1.1.0.jar";
+            "hash" = "sha512-ZCFlRXNealfQG/UBdBbdIOlE7F0HsMl4B8f4Fr3m0jXh1RGGa+KOCZPPCJq3IirkjORE6+BQ5pq3kVe01qWqug==";
+        };
     in {
         "wuCSOtuv" = _wuCSOtuv;
         "3y0hGWcE" = _3y0hGWcE;
@@ -128,6 +138,8 @@ let
         "r1nUuYm5" = _r1nUuYm5;
         "Wvs6kBbV" = _Wvs6kBbV;
         "s2R4hdWv" = _s2R4hdWv;
+        "m7mnOg8A" = _m7mnOg8A;
+        "8AXRaZw2" = _8AXRaZw2;
         "datapack-1.21" = _wuCSOtuv;
         "datapack-1.21.1" = _wuCSOtuv;
         "datapack-1.21.2" = _IDmdFinJ;
@@ -144,6 +156,7 @@ let
         "datapack-26.1.1" = _Fv3r5saH;
         "datapack-26.1.2" = _Fv3r5saH;
         "datapack-26.2" = _Wvs6kBbV;
+        "datapack-26.3" = _m7mnOg8A;
         "fabric-1.21" = _3y0hGWcE;
         "fabric-1.21.1" = _3y0hGWcE;
         "fabric-1.21.2" = _shtOT9im;
@@ -160,6 +173,7 @@ let
         "fabric-26.1.1" = _r1nUuYm5;
         "fabric-26.1.2" = _r1nUuYm5;
         "fabric-26.2" = _s2R4hdWv;
+        "fabric-26.3" = _8AXRaZw2;
         "forge-1.21" = _3y0hGWcE;
         "forge-1.21.1" = _3y0hGWcE;
         "forge-1.21.2" = _shtOT9im;
@@ -176,6 +190,7 @@ let
         "forge-26.1.1" = _r1nUuYm5;
         "forge-26.1.2" = _r1nUuYm5;
         "forge-26.2" = _s2R4hdWv;
+        "forge-26.3" = _8AXRaZw2;
         "quilt-1.21" = _3y0hGWcE;
         "quilt-1.21.1" = _3y0hGWcE;
         "quilt-1.21.2" = _shtOT9im;
@@ -192,6 +207,7 @@ let
         "quilt-26.1.1" = _r1nUuYm5;
         "quilt-26.1.2" = _r1nUuYm5;
         "quilt-26.2" = _s2R4hdWv;
+        "quilt-26.3" = _8AXRaZw2;
         "neoforge-1.21.2" = _shtOT9im;
         "neoforge-1.21.3" = _shtOT9im;
         "neoforge-1.21.4" = _ec1f1ZhG;
@@ -206,6 +222,7 @@ let
         "neoforge-26.1.1" = _r1nUuYm5;
         "neoforge-26.1.2" = _r1nUuYm5;
         "neoforge-26.2" = _s2R4hdWv;
+        "neoforge-26.3" = _8AXRaZw2;
         "pkg-48.1" = _wuCSOtuv;
         "pkg-48.1+mod" = _3y0hGWcE;
         "pkg-57.1" = _IDmdFinJ;
@@ -226,7 +243,9 @@ let
         "pkg-101.1+mod" = _r1nUuYm5;
         "pkg-107.1" = _Wvs6kBbV;
         "pkg-107.1+mod" = _s2R4hdWv;
-        "default" = _s2R4hdWv;
+        "pkg-1.1.0" = _m7mnOg8A;
+        "pkg-1.1.0+mod" = _8AXRaZw2;
+        "default" = _8AXRaZw2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craft-elytra";

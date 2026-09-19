@@ -41,6 +41,16 @@ let
             "file" = "better-dogs-datapack-1.1.1.jar";
             "hash" = "sha512-VmTJw/Ileu0p1EfX/DxyofToRVJ9rzXv7es+0gW7Im0i61FZh04LUN94YViCBF/QOPkWEbqBQGlt73nTSXfL7g==";
         };
+        _Vkvg31UJ = {
+            "id" = "Vkvg31UJ";
+            "file" = "Better Dogs 1.1.1+26.3.zip";
+            "hash" = "sha512-3EMv+rD10Z/2nz8wopZtB+jMHp30BjxVIxQVBFjmuJHZRhuIZmrZybpzeJxV6ObyZl8Uo/mOFn/5wlvvFNjDgg==";
+        };
+        _VGwau4La = {
+            "id" = "VGwau4La";
+            "file" = "better-dogs-datapack-1.1.1+26.3.jar";
+            "hash" = "sha512-OAHcaJW6aBDjtpAConRgC/AohMxR+dn2Jgw/rSgZN59NjcsHdvDBbUuo8meS3nIWLYPG30GWVid61cfdYVGqdA==";
+        };
     in {
         "S7p4XECo" = _S7p4XECo;
         "mxGy7vlH" = _mxGy7vlH;
@@ -50,36 +60,45 @@ let
         "moPZVzQp" = _moPZVzQp;
         "usu9gzLR" = _usu9gzLR;
         "4gB11ZRp" = _4gB11ZRp;
+        "Vkvg31UJ" = _Vkvg31UJ;
+        "VGwau4La" = _VGwau4La;
         "datapack-1.21.11" = _usu9gzLR;
         "datapack-26.1" = _usu9gzLR;
         "datapack-26.1.1" = _usu9gzLR;
         "datapack-26.1.2" = _usu9gzLR;
         "datapack-26.2" = _usu9gzLR;
+        "datapack-26.3" = _Vkvg31UJ;
         "fabric-1.21.11" = _4gB11ZRp;
         "fabric-26.1" = _4gB11ZRp;
         "fabric-26.1.1" = _4gB11ZRp;
         "fabric-26.1.2" = _4gB11ZRp;
         "fabric-26.2" = _4gB11ZRp;
+        "fabric-26.3" = _VGwau4La;
         "forge-1.21.11" = _4gB11ZRp;
         "forge-26.1" = _4gB11ZRp;
         "forge-26.1.1" = _4gB11ZRp;
         "forge-26.1.2" = _4gB11ZRp;
         "forge-26.2" = _4gB11ZRp;
+        "forge-26.3" = _VGwau4La;
         "neoforge-1.21.11" = _4gB11ZRp;
         "neoforge-26.1" = _4gB11ZRp;
         "neoforge-26.1.1" = _4gB11ZRp;
         "neoforge-26.1.2" = _4gB11ZRp;
         "neoforge-26.2" = _4gB11ZRp;
+        "neoforge-26.3" = _VGwau4La;
         "quilt-1.21.11" = _4gB11ZRp;
         "quilt-26.1" = _4gB11ZRp;
         "quilt-26.1.1" = _4gB11ZRp;
         "quilt-26.1.2" = _4gB11ZRp;
         "quilt-26.2" = _4gB11ZRp;
+        "quilt-26.3" = _VGwau4La;
         "pkg-1.0.0" = _mxGy7vlH;
         "pkg-1.0.1" = _11Cg1qu1;
         "pkg-1.1.0" = _moPZVzQp;
         "pkg-1.1.1" = _4gB11ZRp;
-        "default" = _4gB11ZRp;
+        "pkg-1.1.1+26.3" = _Vkvg31UJ;
+        "pkg-1.1.1+26.3+mod" = _VGwau4La;
+        "default" = _VGwau4La;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-dogs-datapack";

@@ -416,6 +416,11 @@ let
             "file" = "speedrunnermod-1.12.7_fabric-mc26.2.jar";
             "hash" = "sha512-mHC4KMF13RZALEE8EAVQYSVXgq0XZPOpq9m7j0MHIOqzReTY3PJ9U1W+YBJsUbM9awrRDoh1q42lQHus67F2Dw==";
         };
+        _GU3wmJ5z = {
+            "id" = "GU3wmJ5z";
+            "file" = "speedrunnermod-1.13_fabric-mc26.3.jar";
+            "hash" = "sha512-CJRzvNQ6iV1xEhRMUfREQ1gpAtfhU1SrSwmoJAT/jYvzvaBq+vqYEKlutcphG7AuQgZUxYDBt1nQhKlg4pikeA==";
+        };
     in {
         "Lf7RYHng" = _Lf7RYHng;
         "nc1yy7BE" = _nc1yy7BE;
@@ -500,6 +505,7 @@ let
         "5yGvKLJJ" = _5yGvKLJJ;
         "bIKBx4N5" = _bIKBx4N5;
         "bJCQbjbu" = _bJCQbjbu;
+        "GU3wmJ5z" = _GU3wmJ5z;
         "fabric-1.16.3" = _Lf7RYHng;
         "fabric-1.16.5" = _pzWqFust;
         "fabric-1.17" = _YOmKUXqv;
@@ -529,6 +535,7 @@ let
         "fabric-1.21.11" = _j7lnPldo;
         "fabric-26.1.2" = _32yn0j3A;
         "fabric-26.2" = _bJCQbjbu;
+        "fabric-26.3" = _GU3wmJ5z;
         "pkg-initial-release" = _Lf7RYHng;
         "pkg-1.0" = _YOmKUXqv;
         "pkg-1.1" = _qoehZcIq;
@@ -600,7 +607,8 @@ let
         "pkg-1.12.5" = _5yGvKLJJ;
         "pkg-1.12.6" = _bIKBx4N5;
         "pkg-1.12.7" = _bJCQbjbu;
-        "default" = _bJCQbjbu;
+        "pkg-1.13" = _GU3wmJ5z;
+        "default" = _GU3wmJ5z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "speedrunner-mod";

@@ -161,6 +161,16 @@ let
             "file" = "simpleautofishing-1.8.0.jar";
             "hash" = "sha512-m3EweOa5AwZ+anzD2QBIOyqRNLydideOen9N0VR8FPaMI2QiwNYq3CB99aoiyQd/W2w/3RLqp+Nzbz8nYaLvSQ==";
         };
+        _xfdMQvi4 = {
+            "id" = "xfdMQvi4";
+            "file" = "simpleautofishing-1.8.1.jar";
+            "hash" = "sha512-STZ3JTs1cEr45hP7Ht6V68wu4VycZrx6z6MLjtNZTybs/mtI23b8qUUVlZ+e9ot+duX40c5dFRwTCF5rhvru1g==";
+        };
+        _R12WQ4mI = {
+            "id" = "R12WQ4mI";
+            "file" = "simpleautofishing-1.8.1.jar";
+            "hash" = "sha512-jAfLadqFdqQHbfdoDnPw0fcGX3BWHB7r2KRX2ZQ+qIjE/hlxqtQ2nsqS4iKK+lKFhPLPNNPaVvAsX1+jUbZOhQ==";
+        };
     in {
         "n3vmcSOK" = _n3vmcSOK;
         "OcsMSH3u" = _OcsMSH3u;
@@ -194,6 +204,8 @@ let
         "WXI32kAC" = _WXI32kAC;
         "vUqpXkAu" = _vUqpXkAu;
         "dtt3TeP3" = _dtt3TeP3;
+        "xfdMQvi4" = _xfdMQvi4;
+        "R12WQ4mI" = _R12WQ4mI;
         "fabric-1.21.3" = _n3vmcSOK;
         "fabric-1.21.4" = _EwUEEJGR;
         "fabric-1.21.5" = _sRelkLeR;
@@ -206,6 +218,7 @@ let
         "fabric-26.1.1" = _7BMynDoI;
         "fabric-26.1.2" = _aq9INoMb;
         "fabric-26.2" = _dtt3TeP3;
+        "fabric-26.3" = _xfdMQvi4;
         "neoforge-1.21.3" = _OcsMSH3u;
         "neoforge-1.21.4" = _nwDN99cH;
         "neoforge-1.21.5" = _YBzLaSMu;
@@ -217,6 +230,7 @@ let
         "neoforge-1.21.11" = _ZBYdmIE4;
         "neoforge-26.1.2" = _jMeifiYN;
         "neoforge-26.2" = _vUqpXkAu;
+        "neoforge-26.3" = _R12WQ4mI;
         "forge-1.21.3" = _p9G8RUAG;
         "forge-1.21.4" = _Sql3ER3a;
         "forge-1.21.5" = _FSMSRv8L;
@@ -260,7 +274,9 @@ let
         "pkg-Forge-1.8.0" = _WXI32kAC;
         "pkg-NeoForge-1.8.0" = _vUqpXkAu;
         "pkg-Fabric-1.8.0" = _dtt3TeP3;
-        "default" = _dtt3TeP3;
+        "pkg-Fabric-1.8.1" = _xfdMQvi4;
+        "pkg-NeoForge-1.8.1" = _R12WQ4mI;
+        "default" = _R12WQ4mI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-auto-fishing";

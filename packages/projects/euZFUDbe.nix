@@ -21,22 +21,29 @@ let
             "file" = "AltarSMP Resource Pack.zip";
             "hash" = "sha512-jyossRT0gk6Efag44gJN7C1tMuZEWBWARwueG/cmTDsrX/4rC5JJmSt+th7WHUzQwsYVNfWRon6XLDVwaa3BNg==";
         };
+        _JclPFiOG = {
+            "id" = "JclPFiOG";
+            "file" = "AltarSMP Resource Pack.zip";
+            "hash" = "sha512-hgdI0A9UUA/F2t5yfukqc6Na1e0RZru3tLMhgeyGOOOFB9PgQkGX6q2hc6bPZGzxsWMMHEVP0rLDEle7on7p6A==";
+        };
     in {
         "hiu8h9Pu" = _hiu8h9Pu;
         "w9FHErR4" = _w9FHErR4;
         "FqJumsog" = _FqJumsog;
         "1dZZbAQg" = _1dZZbAQg;
-        "minecraft-1.21.4" = _1dZZbAQg;
-        "minecraft-1.21.5" = _1dZZbAQg;
-        "minecraft-1.21.6" = _1dZZbAQg;
-        "minecraft-1.21.7" = _1dZZbAQg;
-        "minecraft-1.21.8" = _1dZZbAQg;
-        "minecraft-1.21.9" = _1dZZbAQg;
-        "minecraft-1.21.10" = _1dZZbAQg;
-        "minecraft-1.21.11" = _1dZZbAQg;
+        "JclPFiOG" = _JclPFiOG;
+        "minecraft-1.21.4" = _JclPFiOG;
+        "minecraft-1.21.5" = _JclPFiOG;
+        "minecraft-1.21.6" = _JclPFiOG;
+        "minecraft-1.21.7" = _JclPFiOG;
+        "minecraft-1.21.8" = _JclPFiOG;
+        "minecraft-1.21.9" = _JclPFiOG;
+        "minecraft-1.21.10" = _JclPFiOG;
+        "minecraft-1.21.11" = _JclPFiOG;
         "pkg-1.21.4" = _hiu8h9Pu;
         "pkg-1.21.11" = _1dZZbAQg;
-        "default" = _1dZZbAQg;
+        "pkg-1.21.11+" = _JclPFiOG;
+        "default" = _JclPFiOG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "altarsmp-resource-pack";

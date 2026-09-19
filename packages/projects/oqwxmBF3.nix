@@ -26,19 +26,34 @@ let
             "file" = "Opposing-Force-1.20.1-2.0.3.jar";
             "hash" = "sha512-lSnhqRHowlRaZbL7s3ON3LK+kQ0Jhectrgi8IsKL2HvxkddU2kBTDUUNqiAdUy/DR2oroCvu2dqMxi/6iVTnVw==";
         };
+        _UPP5GCsC = {
+            "id" = "UPP5GCsC";
+            "file" = "Opposing-Force-1.21.1-3.0.0-beta1.jar";
+            "hash" = "sha512-UGX0bPlQQ41+JD9r5SVkoEFcS5MdaTaeCZkJ1ci6DCn6/3Cj5RrRaDriUJRtoavosVFDiMrrwf3MVSFZiT3Qbg==";
+        };
+        _G7jsWxhv = {
+            "id" = "G7jsWxhv";
+            "file" = "Opposing-Force-1.21.1-3.0.0-beta2.jar";
+            "hash" = "sha512-GXxN8f02mQqFRUEMyBdYYVUmOyldwS3K0Mbb+st/xNz+Dx+0jttj+4nSoKIdHlNkXS6zv00XVmMF/itDOZZSRw==";
+        };
     in {
         "aeRTfo1z" = _aeRTfo1z;
         "v5amgny3" = _v5amgny3;
         "rTjX6BmG" = _rTjX6BmG;
         "aphoM5bn" = _aphoM5bn;
         "Hkj2U5KD" = _Hkj2U5KD;
+        "UPP5GCsC" = _UPP5GCsC;
+        "G7jsWxhv" = _G7jsWxhv;
         "forge-1.20.1" = _Hkj2U5KD;
+        "neoforge-1.21.1" = _G7jsWxhv;
         "pkg-1.0.0" = _aeRTfo1z;
         "pkg-1.20.1-2.0.0" = _v5amgny3;
         "pkg-1.20.1-2.0.1" = _rTjX6BmG;
         "pkg-1.20.1-2.0.2" = _aphoM5bn;
         "pkg-1.20.1-2.0.3" = _Hkj2U5KD;
-        "default" = _Hkj2U5KD;
+        "pkg-3.0.0-beta1" = _UPP5GCsC;
+        "pkg-3.0.0-beta2" = _G7jsWxhv;
+        "default" = _G7jsWxhv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "opposing-force";

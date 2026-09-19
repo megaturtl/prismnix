@@ -101,6 +101,16 @@ let
             "file" = "Walkie-Chat-neoforge-1.2.2-1.21.1.jar";
             "hash" = "sha512-p+WDGmEO9xLsuZKft6K9BwR3gzzRTFWi+1M9iup6NvPweNbwiQ0mKf5BN+1d24UuBTMixWEKWDe6n9jZkHIm9Q==";
         };
+        _5AbWsy2l = {
+            "id" = "5AbWsy2l";
+            "file" = "Walkie-Chat-fabric-1.3.2-1.20.1.jar";
+            "hash" = "sha512-4xbU9sNJvglfRovxJ6s8UdXAGizuiVKZfGAU1nQg8L6IuO9XI74/Rfc3Mo712n4A9I/Wl7TA7J4SDQsPypAzgw==";
+        };
+        _AnxS87an = {
+            "id" = "AnxS87an";
+            "file" = "Walkie-Chat-forge-1.3.2-1.20.1.jar";
+            "hash" = "sha512-Ps7PSfFpw38wKR3aTUZxt0xHC4jWe4l75WKk6eK+WE67fLDBsyDVAL4JSlNamU4wRBio3KvRJFnB4dt81v5ozg==";
+        };
     in {
         "BCCW3j2l" = _BCCW3j2l;
         "6HGRK7Sp" = _6HGRK7Sp;
@@ -122,10 +132,12 @@ let
         "gbI4mkLZ" = _gbI4mkLZ;
         "bynubeR5" = _bynubeR5;
         "4eXxRGqY" = _4eXxRGqY;
-        "forge-1.20.1" = _B53zoSNW;
+        "5AbWsy2l" = _5AbWsy2l;
+        "AnxS87an" = _AnxS87an;
+        "forge-1.20.1" = _AnxS87an;
         "forge-1.19.2" = _Mxbb5LSK;
         "forge-1.21.1" = _gbI4mkLZ;
-        "fabric-1.20.1" = _mYqscEGN;
+        "fabric-1.20.1" = _5AbWsy2l;
         "fabric-1.19.2" = _xAUW1GVb;
         "fabric-1.21.1" = _bynubeR5;
         "neoforge-1.21.1" = _4eXxRGqY;
@@ -149,7 +161,9 @@ let
         "pkg-1.2.2-1.21.1-forge" = _gbI4mkLZ;
         "pkg-1.2.2-1.21.1-fabric" = _bynubeR5;
         "pkg-1.2.2-1.21.1-neoforge" = _4eXxRGqY;
-        "default" = _4eXxRGqY;
+        "pkg-1.3.2-1.20.1-fabric" = _5AbWsy2l;
+        "pkg-1.3.2-1.20.1-forge" = _AnxS87an;
+        "default" = _AnxS87an;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "walkie-chat";

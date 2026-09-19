@@ -16,17 +16,24 @@ let
             "file" = "[V.1.2] Kenji's and Jerzyk's Better Shinies.zip";
             "hash" = "sha512-0yGRHMpSxFvjfw+AExJJrn3SJcKoya2BjfqhcXtgddORui/zRn8OM6d+aT7AMIaWqsO562CpBD7WVF8qRzcdsA==";
         };
+        _Eq37OLxM = {
+            "id" = "Eq37OLxM";
+            "file" = "[v1.3] Kenji's and Jerzyk's Better Shinies.zip";
+            "hash" = "sha512-CdRHHorjAUaNx1in2ATnfF86QCgN9N/jWaW1ihx7F2Vki6p8tIehrmJjiZD1KQy+KPSWYkK0tqWID6htYs8C5w==";
+        };
     in {
         "u20tVgTx" = _u20tVgTx;
         "pQyeIBwK" = _pQyeIBwK;
         "IHIAy8GJ" = _IHIAy8GJ;
+        "Eq37OLxM" = _Eq37OLxM;
         "minecraft-1.20.1" = _u20tVgTx;
-        "minecraft-1.21" = _IHIAy8GJ;
-        "minecraft-1.21.1" = _IHIAy8GJ;
+        "minecraft-1.21" = _Eq37OLxM;
+        "minecraft-1.21.1" = _Eq37OLxM;
         "pkg-1.0" = _u20tVgTx;
         "pkg-1.1" = _pQyeIBwK;
         "pkg-1.2" = _IHIAy8GJ;
-        "default" = _IHIAy8GJ;
+        "pkg-1.3" = _Eq37OLxM;
+        "default" = _Eq37OLxM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kenjis-and-jerzyks-better-shinies";

@@ -246,6 +246,21 @@ let
             "file" = "mercurizer-fabric-0.9.2-alpha.4+mc26.2-1.0.jar";
             "hash" = "sha512-sh4cDUeAdT5ijem/41C8z1zKlNN6PCkzm4EYIyMI5Y3jwFcfuL4BNnPm+P/3wDCQhn3C+oe4mokE5ZP+Pl9qyw==";
         };
+        _WqIfx838 = {
+            "id" = "WqIfx838";
+            "file" = "mercurizer-fabric-0.9.2+mc26.1.2-1.0.jar";
+            "hash" = "sha512-OL5PosFz8z3pFOnUrpNc+8vZICRLmd3/XQogqpJ6DUBfXNmX3/JzNkAL8tQhx1qbQnPma7ygarZiJsPEdoOOLQ==";
+        };
+        _sYpvkWVk = {
+            "id" = "sYpvkWVk";
+            "file" = "mercurizer-fabric-0.9.2+mc26.2-1.0.jar";
+            "hash" = "sha512-Z+CWw+O5a16aZlfnH4eUxXzJdTGY/Uuih5BmYOsLqAk42cOnZT1zfKRdhtCmTkVIeKBl/bfjdCRVfT7d6rm+rA==";
+        };
+        _zlQNGPnR = {
+            "id" = "zlQNGPnR";
+            "file" = "mercurizer-fabric-0.9.2+mc26.3-1.0.jar";
+            "hash" = "sha512-iVolaA9axfzE3iGUQffJMviFji7Kkhb+BLCcO/G6ACe6b1ujV7Ecroc5ynVMZWqOfuTJ5KIr77x6QVxb5M8iNA==";
+        };
     in {
         "xM8bZKsK" = _xM8bZKsK;
         "cw0hZthz" = _cw0hZthz;
@@ -296,11 +311,15 @@ let
         "p98E46PO" = _p98E46PO;
         "xqEmFPXg" = _xqEmFPXg;
         "yObXnK8X" = _yObXnK8X;
+        "WqIfx838" = _WqIfx838;
+        "sYpvkWVk" = _sYpvkWVk;
+        "zlQNGPnR" = _zlQNGPnR;
         "fabric-1.21.11" = _HvuVpwL4;
         "fabric-26.1" = _x0sQAea7;
         "fabric-26.1.1" = _p98E46PO;
-        "fabric-26.1.2" = _xqEmFPXg;
-        "fabric-26.2" = _yObXnK8X;
+        "fabric-26.1.2" = _WqIfx838;
+        "fabric-26.2" = _sYpvkWVk;
+        "fabric-26.3" = _zlQNGPnR;
         "pkg-0.8.12-SNAPSHOT+mc1.21.11-local" = _xM8bZKsK;
         "pkg-0.8.12-SNAPSHOT+mc26.1-local" = _cw0hZthz;
         "pkg-0.8.12-SNAPSHOT+mc26.1.1-local" = _YQfahRJt;
@@ -350,7 +369,10 @@ let
         "pkg-0.8.9+mc26.1.1-1.9" = _p98E46PO;
         "pkg-0.9.2-alpha.4+mc26.1.2-1.0" = _xqEmFPXg;
         "pkg-0.9.2-alpha.4+mc26.2" = _yObXnK8X;
-        "default" = _yObXnK8X;
+        "pkg-0.9.2+mc26.1.2-1.0" = _WqIfx838;
+        "pkg-0.9.2+mc26.2-1.0" = _sYpvkWVk;
+        "pkg-0.9.2+mc26.3-1.0" = _zlQNGPnR;
+        "default" = _zlQNGPnR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mercurizer";

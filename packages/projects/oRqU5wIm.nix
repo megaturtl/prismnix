@@ -46,6 +46,16 @@ let
             "file" = "partyaddon-1.0.5.jar";
             "hash" = "sha512-HaAv8ErGEOntuAiToV3bx2ZRO6COOGEah5mNEydndXGAZeI2/YiRrzZBo2cZcgmN3eLp5Oa6OUokDRp1dnEqlg==";
         };
+        _TsxCqgCB = {
+            "id" = "TsxCqgCB";
+            "file" = "partyaddon-1.0.6.jar";
+            "hash" = "sha512-24uL9dZplaWQQ6lvK5rfMAc/wiGCWPryZQL+9P9dKQVpvrI5xTgEmkui0ovzu1vrWfnESa+fHni3EEKavJYg1w==";
+        };
+        _B0x6NFVT = {
+            "id" = "B0x6NFVT";
+            "file" = "partyaddon-1.0.7.jar";
+            "hash" = "sha512-YIOwkdCcD/j6tl+ew+RSWn5KuhRa2OSNJxstR5JQ2o/7mkXCGsgAfec4EZmzALfd8IDCpdrVI+8T5K2aYvNfQw==";
+        };
     in {
         "d4Cc5NqU" = _d4Cc5NqU;
         "ruIQ3Qud" = _ruIQ3Qud;
@@ -56,10 +66,12 @@ let
         "x7WiDSCL" = _x7WiDSCL;
         "nO7rs07k" = _nO7rs07k;
         "DQfE3GYH" = _DQfE3GYH;
+        "TsxCqgCB" = _TsxCqgCB;
+        "B0x6NFVT" = _B0x6NFVT;
         "fabric-1.19.2" = _AepedlUS;
         "fabric-1.20" = _7rCIwIF7;
         "fabric-1.20.1" = _x7WiDSCL;
-        "fabric-1.21.1" = _DQfE3GYH;
+        "fabric-1.21.1" = _B0x6NFVT;
         "pkg-1.0.0" = _d4Cc5NqU;
         "pkg-1.0.1+1.19.2" = _ruIQ3Qud;
         "pkg-1.0.2+1.19.2" = _Bjghs3jJ;
@@ -69,7 +81,9 @@ let
         "pkg-1.0.4+1.20.1" = _x7WiDSCL;
         "pkg-1.0.4+1.21.1" = _nO7rs07k;
         "pkg-1.0.5+1.21.1" = _DQfE3GYH;
-        "default" = _DQfE3GYH;
+        "pkg-1.0.6+1.21.1" = _TsxCqgCB;
+        "pkg-1.0.7+1.21.1" = _B0x6NFVT;
+        "default" = _B0x6NFVT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "partyaddon";

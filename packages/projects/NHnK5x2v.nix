@@ -36,6 +36,11 @@ let
             "file" = "Lads-3D-Rails-&-Ladders-1.4-26.2.zip";
             "hash" = "sha512-9ImdyINC5VlXWc6Wc+zOEIv4iD6Pg2JR+JtCh3lVNjeK2WjtI1LSaC5QcCbqZ0urmAVyxZoNCaw6KQ8PjLumtA==";
         };
+        _6lp8tRqQ = {
+            "id" = "6lp8tRqQ";
+            "file" = "Ideal-3D-Rails-&-Ladders-1.4-26.3.zip";
+            "hash" = "sha512-+uh99JVvhzCSJzYa2NbrLC7ZOgvikHHmNrOSSNvwZXaIZI6HkDC3YipfFsnMZ++phsUA43mAPNOHEKN4gHovgg==";
+        };
     in {
         "p5t8Ed4m" = _p5t8Ed4m;
         "U7NY2B9f" = _U7NY2B9f;
@@ -44,18 +49,21 @@ let
         "VnGsDXKJ" = _VnGsDXKJ;
         "QEH89E8q" = _QEH89E8q;
         "DCZVvVzQ" = _DCZVvVzQ;
+        "6lp8tRqQ" = _6lp8tRqQ;
         "minecraft-1.21.9" = _TuElOON8;
         "minecraft-1.21.10" = _TuElOON8;
-        "minecraft-1.21.11" = _DCZVvVzQ;
-        "minecraft-26.1" = _DCZVvVzQ;
-        "minecraft-26.1.1" = _DCZVvVzQ;
-        "minecraft-26.1.2" = _DCZVvVzQ;
-        "minecraft-26.2" = _DCZVvVzQ;
+        "minecraft-1.21.11" = _6lp8tRqQ;
+        "minecraft-26.1" = _6lp8tRqQ;
+        "minecraft-26.1.1" = _6lp8tRqQ;
+        "minecraft-26.1.2" = _6lp8tRqQ;
+        "minecraft-26.2" = _6lp8tRqQ;
+        "minecraft-26.3" = _6lp8tRqQ;
         "pkg-1.0" = _p5t8Ed4m;
         "pkg-1.1" = _U7NY2B9f;
         "pkg-1.2" = _TuElOON8;
         "pkg-1.3" = _DCZVvVzQ;
-        "default" = _DCZVvVzQ;
+        "pkg-1.4" = _6lp8tRqQ;
+        "default" = _6lp8tRqQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lads-3d-rails-ladders";

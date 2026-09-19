@@ -51,6 +51,11 @@ let
             "file" = "distance_travel-1.2.0-26.2.jar";
             "hash" = "sha512-vwnTnZUloLL7mmzkfRbHrRIzqpZuJ3IC31R2nz5IanDYADeenksa/lz2H5uPmPiZCAor15OMgGo2ovabcfyB+g==";
         };
+        _eeqfD2o6 = {
+            "id" = "eeqfD2o6";
+            "file" = "distance_travel-1.2.0-26.3.jar";
+            "hash" = "sha512-e+MNrPGyi5peL8lNdturIg76hQFvjtNxsV/uy6eHvP1ziK8PiqbXMbx9hK7nnNO0hoOv23lh+9Td0vUAW3iICA==";
+        };
     in {
         "ZCIp5lpl" = _ZCIp5lpl;
         "xqwWdiLk" = _xqwWdiLk;
@@ -62,6 +67,7 @@ let
         "mKcdqDp7" = _mKcdqDp7;
         "TvvSNgRf" = _TvvSNgRf;
         "uodoR66I" = _uodoR66I;
+        "eeqfD2o6" = _eeqfD2o6;
         "fabric-1.21" = _3wMfyyGU;
         "fabric-1.21.1" = _3wMfyyGU;
         "fabric-1.21.2" = _3wMfyyGU;
@@ -84,6 +90,7 @@ let
         "fabric-26.1.1" = _TvvSNgRf;
         "fabric-26.1.2" = _TvvSNgRf;
         "fabric-26.2" = _uodoR66I;
+        "fabric-26.3" = _eeqfD2o6;
         "pkg-1.0.0" = _ZCIp5lpl;
         "pkg-1.0.1" = _xqwWdiLk;
         "pkg-1.0.2" = _Lz9WziBB;
@@ -94,7 +101,8 @@ let
         "pkg-1.2.0-1.21.11" = _mKcdqDp7;
         "pkg-1.2.0-26.1" = _TvvSNgRf;
         "pkg-1.2.0-26.2" = _uodoR66I;
-        "default" = _uodoR66I;
+        "pkg-1.2.0-26.3" = _eeqfD2o6;
+        "default" = _eeqfD2o6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "distance-travel";

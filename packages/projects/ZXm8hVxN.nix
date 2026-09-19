@@ -226,6 +226,11 @@ let
             "file" = "numismatic-overhaul-0.3.5+1.21.jar";
             "hash" = "sha512-r2flHyw9iRvNnSCUEaQ0xhkMXGPCmvHnOvJihs3zeRt3Sk7ZSEtCZX1xNGQMymr+VbgiRbJHLxbZWFsbH7T9+A==";
         };
+        _PKrV9xEP = {
+            "id" = "PKrV9xEP";
+            "file" = "numismatic-overhaul-0.2.19+1.20.jar";
+            "hash" = "sha512-VpiyEjSVvYnj6zKbbfMX0utk9WZN7hgu9RCKsZ/cfmQt0lWMIlba14l+s4OOJ3ZxCXy34S3ZIFnta7hylqv5lA==";
+        };
     in {
         "RC1TGhqM" = _RC1TGhqM;
         "w1oarWbm" = _w1oarWbm;
@@ -272,6 +277,7 @@ let
         "DPXG6kTJ" = _DPXG6kTJ;
         "nMuxLkSq" = _nMuxLkSq;
         "Ls16xJ6W" = _Ls16xJ6W;
+        "PKrV9xEP" = _PKrV9xEP;
         "fabric-1.18" = _4W6fpplJ;
         "fabric-1.18.1" = _4W6fpplJ;
         "fabric-1.18.2" = _H7xIR63z;
@@ -280,8 +286,8 @@ let
         "fabric-1.19.2" = _NrjGSIkp;
         "fabric-1.19.3" = _TBFczeiZ;
         "fabric-1.19.4" = _W8o5cKwW;
-        "fabric-1.20" = _twgNwSM3;
-        "fabric-1.20.1" = _nMuxLkSq;
+        "fabric-1.20" = _PKrV9xEP;
+        "fabric-1.20.1" = _PKrV9xEP;
         "fabric-1.20.2" = _ceXDy4BG;
         "fabric-1.20.3" = _Rr3Lgu4l;
         "fabric-1.20.4" = _Rr3Lgu4l;
@@ -340,7 +346,8 @@ let
         "pkg-0.3.4+1.21" = _DPXG6kTJ;
         "pkg-0.2.18+1.20" = _nMuxLkSq;
         "pkg-0.3.5+1.21" = _Ls16xJ6W;
-        "default" = _Ls16xJ6W;
+        "pkg-0.2.19+1.20" = _PKrV9xEP;
+        "default" = _PKrV9xEP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "numismatic-overhaul";

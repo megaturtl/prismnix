@@ -31,6 +31,11 @@ let
             "file" = "improved_trims-2.1-resourcepack-1.21.5 4.zip";
             "hash" = "sha512-ingkA9ibJX5Ebcy8MHPaVWmxR0/UcXIkw/S1BxlCzM3nsk21DZ9oDCefn2rimOc92jfyjOMEq2N7mKgumq5+uQ==";
         };
+        _skuK13iN = {
+            "id" = "skuK13iN";
+            "file" = "bettertrims-3.0-resourcepack-26.1.x.zip";
+            "hash" = "sha512-K71JSATMX6o4WRKr5zyroCsF8nJfuyeMAu/c6ShZdUY37PPynN+bo7yVz51UO6MZe4KS3iVvEGhqhHxlnB+K8Q==";
+        };
     in {
         "rQMYX9Nm" = _rQMYX9Nm;
         "JnID7JxL" = _JnID7JxL;
@@ -38,6 +43,7 @@ let
         "o3beT391" = _o3beT391;
         "ioD9cBhk" = _ioD9cBhk;
         "hvycI6lq" = _hvycI6lq;
+        "skuK13iN" = _skuK13iN;
         "minecraft-1.21.1" = _hvycI6lq;
         "minecraft-1.21.4" = _hvycI6lq;
         "minecraft-1.21.5" = _hvycI6lq;
@@ -49,12 +55,16 @@ let
         "minecraft-1.21.8" = _hvycI6lq;
         "minecraft-1.21.9" = _hvycI6lq;
         "minecraft-1.21.10" = _hvycI6lq;
+        "minecraft-26.1" = _skuK13iN;
+        "minecraft-26.1.1" = _skuK13iN;
+        "minecraft-26.1.2" = _skuK13iN;
         "pkg-1.0" = _rQMYX9Nm;
         "pkg-1.1" = _JnID7JxL;
         "pkg-2.0" = _jfPtVEBC;
         "pkg-2.1" = _ioD9cBhk;
         "pkg-2.1.1" = _hvycI6lq;
-        "default" = _hvycI6lq;
+        "pkg-3.0" = _skuK13iN;
+        "default" = _skuK13iN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "improved-trims";

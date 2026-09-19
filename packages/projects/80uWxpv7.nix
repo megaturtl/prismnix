@@ -111,6 +111,36 @@ let
             "file" = "Chiselmon-fabric-1.3.1-beta-hotfix1+1.21.1.jar";
             "hash" = "sha512-bJ7XoHiwUBisLTRignJN8o6EYfjjBGhObZdmyIqT0RoX3Ucrr/jwRJsmtzxnb9bGB3phxTzvVJYjZ3mqZdptIw==";
         };
+        _E0Ya2Lxn = {
+            "id" = "E0Ya2Lxn";
+            "file" = "Chiselmon-fabric-1.3.2-beta+1.21.1.jar";
+            "hash" = "sha512-7ZBhdRf6qv5NwcpVNagDlahG5iFF7pn7u7xaZbUDEJrtZKDuNZ5AQISOQ+CvxZXzC0O4tFaT3wG7LXogsHBgnQ==";
+        };
+        _Levwzu7I = {
+            "id" = "Levwzu7I";
+            "file" = "Chiselmon-neoforge-1.3.2-beta+1.21.1.jar";
+            "hash" = "sha512-kUB6tXKrqhtvX7FVkcyc72eXPv4twVgSw11wn1Eg3wDII4BogtKET00sgbCE6keTclyP6Bk96tk6DU0xreRBvg==";
+        };
+        _Os8i5eUL = {
+            "id" = "Os8i5eUL";
+            "file" = "Chiselmon-neoforge-1.3.3-beta+1.21.1.jar";
+            "hash" = "sha512-Q0uc+XZvTmBVo0IyGdQHw0FgGVhk5YbKT5q2n1WPyg1INtOSDP+ObjJyfgbDCLC9VwbcVTUxbgw8wZRfxrHFtg==";
+        };
+        _XXO8zxZb = {
+            "id" = "XXO8zxZb";
+            "file" = "Chiselmon-fabric-1.3.3-beta+1.21.1.jar";
+            "hash" = "sha512-Ty02J06sE27uk4mgoBhWxiOO4KzwWWkBj+lDhlMkFha7PzegHi20Cg4z2G+gWqHY076vveQwreCtPm7+LDU/3g==";
+        };
+        _H1S4hV9G = {
+            "id" = "H1S4hV9G";
+            "file" = "Chiselmon-neoforge-1.3.3-beta-hotfix1+1.21.1.jar";
+            "hash" = "sha512-QZJBtO+dhbB6hgBdwjm1KwPyjT/wbdeHdDB5lzya5rfCMtiz58VvSMi5z/zIFUBgrh/arC/TrbRPQGEKkn828A==";
+        };
+        _masaCQOA = {
+            "id" = "masaCQOA";
+            "file" = "Chiselmon-fabric-1.3.3-beta-hotfix1+1.21.1.jar";
+            "hash" = "sha512-A+l2+KQsqvhBqrhHUFi/nYuugyN3WyV2Uv6SRR7QbbM3GRqxx5+5IucPiActDJDoyAQBM8zAYM2SKzLCpvKDhw==";
+        };
     in {
         "OtSMtC7G" = _OtSMtC7G;
         "kSr0TZYc" = _kSr0TZYc;
@@ -134,8 +164,14 @@ let
         "zvxjkLCA" = _zvxjkLCA;
         "VLlIgy1z" = _VLlIgy1z;
         "wlLkFpa7" = _wlLkFpa7;
-        "fabric-1.21.1" = _wlLkFpa7;
-        "neoforge-1.21.1" = _VLlIgy1z;
+        "E0Ya2Lxn" = _E0Ya2Lxn;
+        "Levwzu7I" = _Levwzu7I;
+        "Os8i5eUL" = _Os8i5eUL;
+        "XXO8zxZb" = _XXO8zxZb;
+        "H1S4hV9G" = _H1S4hV9G;
+        "masaCQOA" = _masaCQOA;
+        "fabric-1.21.1" = _masaCQOA;
+        "neoforge-1.21.1" = _H1S4hV9G;
         "pkg-1.1.0-alpha-snapshot1" = _kSr0TZYc;
         "pkg-1.1.0-alpha-snapshot2" = _1Sgu0yRn;
         "pkg-1.1.0-alpha-snapshot4" = _VvWt9eDG;
@@ -148,7 +184,10 @@ let
         "pkg-1.3.0-beta-hotfix1+1.21.1" = _QStkD9Mu;
         "pkg-1.3.0-beta-hotfix2+1.21.1" = _zvxjkLCA;
         "pkg-1.3.1-beta-hotfix1+1.21.1" = _wlLkFpa7;
-        "default" = _wlLkFpa7;
+        "pkg-1.3.2-beta+1.21.1" = _Levwzu7I;
+        "pkg-1.3.3-beta+1.21.1" = _XXO8zxZb;
+        "pkg-1.3.3-beta-hotfix1+1.21.1" = _masaCQOA;
+        "default" = _masaCQOA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chiselmon";

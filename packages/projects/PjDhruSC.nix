@@ -216,6 +216,16 @@ let
             "file" = "skill_tree-neoforge-1.6.1+26.2.jar";
             "hash" = "sha512-p6I7/rikhQcQfh4yEb9iM77w4xgN47/sLJyljNauHK6qpTT2RcS17KQ2itdpKWgbqD5465u+7X5IfY0eGtKMKA==";
         };
+        _NpTrmNFE = {
+            "id" = "NpTrmNFE";
+            "file" = "skill_tree-forge-1.6.1+1.20.1.jar";
+            "hash" = "sha512-dEUzbt8N1nJ/S8hn+g+cR0GbAP36kjUxEnIVu5/tnMIxoGvCc+t67Rt9tGI0122vraFJcWIajH9zTDFswLZ2vg==";
+        };
+        _Bf3op7OA = {
+            "id" = "Bf3op7OA";
+            "file" = "skill_tree-fabric-1.6.1+1.20.1.jar";
+            "hash" = "sha512-WZZPh3A0Bjx+GQ0KwGaUO0lRTiqlWQD7gb0rwHT9C7Dd6hEb3+22iZjIwqga1P7KhjN2V/+wsmGgym85yo02IQ==";
+        };
     in {
         "c9M0Rc7U" = _c9M0Rc7U;
         "GTFPRWaj" = _GTFPRWaj;
@@ -260,18 +270,23 @@ let
         "2qyzXiYz" = _2qyzXiYz;
         "o3h4zxwt" = _o3h4zxwt;
         "pCEGhP0M" = _pCEGhP0M;
+        "NpTrmNFE" = _NpTrmNFE;
+        "Bf3op7OA" = _Bf3op7OA;
         "fabric-1.21" = _YEQ7tOIL;
         "fabric-1.21.1" = _YEQ7tOIL;
         "fabric-26.1" = _spQJrLYn;
         "fabric-26.1.1" = _spQJrLYn;
         "fabric-26.1.2" = _spQJrLYn;
         "fabric-26.2" = _o3h4zxwt;
+        "fabric-1.20.1" = _Bf3op7OA;
         "neoforge-1.21" = _sxJUD8Hf;
         "neoforge-1.21.1" = _sxJUD8Hf;
         "neoforge-26.1" = _2qyzXiYz;
         "neoforge-26.1.1" = _2qyzXiYz;
         "neoforge-26.1.2" = _2qyzXiYz;
         "neoforge-26.2" = _pCEGhP0M;
+        "neoforge-1.20.1" = _NpTrmNFE;
+        "forge-1.20.1" = _NpTrmNFE;
         "pkg-1.0.0+1.21.1" = _c9M0Rc7U;
         "pkg-1.0.1+1.21.1" = _GTFPRWaj;
         "pkg-1.0.2+1.21.1" = _7REpokt9;
@@ -314,7 +329,9 @@ let
         "pkg-1.6.1+26.1.2-neoforge" = _2qyzXiYz;
         "pkg-1.6.1+26.2-fabric" = _o3h4zxwt;
         "pkg-1.6.1+26.2-neoforge" = _pCEGhP0M;
-        "default" = _pCEGhP0M;
+        "pkg-1.6.1+1.20.1-forge" = _NpTrmNFE;
+        "pkg-1.6.1+1.20.1-fabric" = _Bf3op7OA;
+        "default" = _Bf3op7OA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skill-tree";

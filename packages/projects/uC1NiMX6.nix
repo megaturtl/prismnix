@@ -11,13 +11,20 @@ let
             "file" = "LegacyOfUtopia-1.12.2-1.1.jar";
             "hash" = "sha512-qyEFviLEK+FP1c5Dx38RLu9arA/DOynBXftJLAaZY1Dj9BgfhmZ+W4LixYM1vyY00EPxBOUWUSaGQEggCJmPLw==";
         };
+        _KlOLDcE5 = {
+            "id" = "KlOLDcE5";
+            "file" = "LegacyOfUtopia-1.12.2-1.2.jar";
+            "hash" = "sha512-HNxasd+bY1DoJafhjyr7UGc/wWHaeCBTeVYhlHuqmZPLjM5h93jGv4TdV+gtE6xFvFQNzmzB6JXz3bEOyyGNFg==";
+        };
     in {
         "M06fWOEZ" = _M06fWOEZ;
         "4ThkHE9o" = _4ThkHE9o;
-        "forge-1.12.2" = _4ThkHE9o;
+        "KlOLDcE5" = _KlOLDcE5;
+        "forge-1.12.2" = _KlOLDcE5;
         "pkg-1.0" = _M06fWOEZ;
         "pkg-1.1" = _4ThkHE9o;
-        "default" = _4ThkHE9o;
+        "pkg-1.2" = _KlOLDcE5;
+        "default" = _KlOLDcE5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legacy-of-utopia";

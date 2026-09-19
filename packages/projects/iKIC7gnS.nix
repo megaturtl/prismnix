@@ -16,14 +16,22 @@ let
             "file" = "hostile_humans_1.18.2-1.4.10.jar";
             "hash" = "sha512-XHvWuu/o+/TjYGrNcgidQBZ8+OxXQyXJS0jc6SNjN+hv7OEL5L8k5JRnXhfcIrCTOzfwhWqPfELmGPP3TlD/Sw==";
         };
+        _TdmJhyfH = {
+            "id" = "TdmJhyfH";
+            "file" = "hostile_humans_1.4.13.jar";
+            "hash" = "sha512-mC1oqexco8on9Oe8Yuw1UZbWSiMIY/0qK6J2hiOdd2oITzYoMlza5P5NKTvwy5QM5NgAsmBKwqSoQxSvqytH1Q==";
+        };
     in {
         "ooxZ97jc" = _ooxZ97jc;
         "ja193tuK" = _ja193tuK;
         "lh0NuezQ" = _lh0NuezQ;
+        "TdmJhyfH" = _TdmJhyfH;
         "forge-1.18.2" = _lh0NuezQ;
+        "forge-1.20.1" = _TdmJhyfH;
         "pkg-1.2.4" = _lh0NuezQ;
         "pkg-1.4.9" = _ja193tuK;
-        "default" = _lh0NuezQ;
+        "pkg-1.0.0" = _TdmJhyfH;
+        "default" = _TdmJhyfH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hostile-humans";

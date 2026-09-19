@@ -186,6 +186,11 @@ let
             "file" = "JustEnoughGuns-0.14.4-1.20.1.jar";
             "hash" = "sha512-XF7sELyLUSWXp59g3efPlazqzooqo2BNZk5ML8PmYAMK4pFBkOjAOyw9pOYYBLCwhNThh7fU9cswPIvGNsRLJQ==";
         };
+        _IPnQUKQX = {
+            "id" = "IPnQUKQX";
+            "file" = "JustEnoughGuns-0.14.5-1.20.1.jar";
+            "hash" = "sha512-LMgM3BCvPfOw6g+VAMUFEWxvTBJY2ILKO4hiKrxaVJKk++ZWHS/Fy6WFydTgsB/xCIfdlxOWw3aQJWt2F6ZztQ==";
+        };
     in {
         "Tio1ueeC" = _Tio1ueeC;
         "rvB8rau1" = _rvB8rau1;
@@ -224,10 +229,11 @@ let
         "auY1AsU5" = _auY1AsU5;
         "akp6NJsb" = _akp6NJsb;
         "fx9E9UZt" = _fx9E9UZt;
+        "IPnQUKQX" = _IPnQUKQX;
         "forge-1.18.2" = _Fm8poCMf;
         "forge-1.19.4" = _IzbiM1ox;
-        "forge-1.20" = _fx9E9UZt;
-        "forge-1.20.1" = _fx9E9UZt;
+        "forge-1.20" = _IPnQUKQX;
+        "forge-1.20.1" = _IPnQUKQX;
         "forge-1.19.2" = _tiCIpCkO;
         "forge-1.19.3" = _b2dVQd9L;
         "forge-1.18" = _l6ieSy6g;
@@ -257,7 +263,8 @@ let
         "pkg-0.14.2" = _auY1AsU5;
         "pkg-0.14.3" = _akp6NJsb;
         "pkg-0.14.4" = _fx9E9UZt;
-        "default" = _fx9E9UZt;
+        "pkg-0.14.5" = _IPnQUKQX;
+        "default" = _IPnQUKQX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "just-enough-guns";

@@ -496,6 +496,16 @@ let
             "file" = "forgivingvoid-fabric-26.2-26.2.0.1.jar";
             "hash" = "sha512-5th2E3iZx27G0cz9fYm+pprixC5R5QxB4MGw0DyRsWwCJbXLEzJNKzO5tU0vSfPNjTehThA1Grm/cFha8e6OSQ==";
         };
+        _h1fJ3q8b = {
+            "id" = "h1fJ3q8b";
+            "file" = "forgivingvoid-fabric-26.3-26.3.0.1.jar";
+            "hash" = "sha512-baQOvjDa79XsLXALiFN7cWcSQfYEkbsEwTXd7lyS0lVzmnIFyIwW5n1xzhXROyeTa6HzYbQuFJJ9dZiANHCnpg==";
+        };
+        _wrRrVK7w = {
+            "id" = "wrRrVK7w";
+            "file" = "forgivingvoid-neoforge-26.3-26.3.0.1.jar";
+            "hash" = "sha512-9UVAXkYyM7XuEM6Y6z/8IBZsWdqfSWfBA9/Sa8gr0r+nKkMJlPM5Gq1tsdR6XwhJ941c48lEeD5uDWIBfNVmvA==";
+        };
     in {
         "5YIBJzUn" = _5YIBJzUn;
         "GcRHrfZg" = _GcRHrfZg;
@@ -596,6 +606,8 @@ let
         "AAJRG0f5" = _AAJRG0f5;
         "HOv1oWEL" = _HOv1oWEL;
         "hDZy25gx" = _hDZy25gx;
+        "h1fJ3q8b" = _h1fJ3q8b;
+        "wrRrVK7w" = _wrRrVK7w;
         "fabric-1.19" = _5YIBJzUn;
         "fabric-1.19.1" = _5YIBJzUn;
         "fabric-1.19.2" = _5YIBJzUn;
@@ -625,6 +637,7 @@ let
         "fabric-26.1.1" = _5Yw8O25i;
         "fabric-26.1.2" = _YeQuYs0z;
         "fabric-26.2" = _hDZy25gx;
+        "fabric-26.3" = _h1fJ3q8b;
         "forge-1.19" = _GcRHrfZg;
         "forge-1.19.1" = _GcRHrfZg;
         "forge-1.19.2" = _GcRHrfZg;
@@ -666,6 +679,7 @@ let
         "neoforge-26.1.1" = _WnGISsUP;
         "neoforge-26.1.2" = _AAJRG0f5;
         "neoforge-26.2" = _HOv1oWEL;
+        "neoforge-26.3" = _wrRrVK7w;
         "pkg-7.0.0+fabric-1.19" = _5YIBJzUn;
         "pkg-7.0.0+forge-1.19" = _GcRHrfZg;
         "pkg-8.0.1+fabric-1.19.3" = _BKElCxsz;
@@ -765,7 +779,9 @@ let
         "pkg-26.1.2.1+neoforge-26.1.2" = _AAJRG0f5;
         "pkg-26.2.0.1+neoforge-26.2" = _HOv1oWEL;
         "pkg-26.2.0.1+fabric-26.2" = _hDZy25gx;
-        "default" = _hDZy25gx;
+        "pkg-26.3.0.1+fabric-26.3" = _h1fJ3q8b;
+        "pkg-26.3.0.1+neoforge-26.3" = _wrRrVK7w;
+        "default" = _wrRrVK7w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "forgiving-void";

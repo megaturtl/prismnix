@@ -81,6 +81,16 @@ let
             "file" = "SmeltingOverload-1.21.9-1.0.jar";
             "hash" = "sha512-oTzmhPhzUJ+nWT+zI58+pvjvWQFRVK06ay3RCj/IKld7G4GjQ31PxNoy1ZaNA+sA2Tnpqs78wCyn5QLxzVRvSg==";
         };
+        _eQvhVsFd = {
+            "id" = "eQvhVsFd";
+            "file" = "SmeltingOverload-26.3-1.0.jar";
+            "hash" = "sha512-sOqrxoSpWH36Q6Lo5AdRgYaGMAYi9/19NzENjvQhH0qBCWkgpkzY6mij92k7P+AXJQ9Y7QDioMKpnIO4akDDqw==";
+        };
+        _Q86KFgQH = {
+            "id" = "Q86KFgQH";
+            "file" = "SmeltingOverload-26.3-1.0.zip";
+            "hash" = "sha512-ilGblpV0IruyzVO8mPryFgnxBjJWt7i5+wh+RF+2qONLFD2xOZDPKZX9RyWi22zBufapvSBO7unHDmIsMe3gGw==";
+        };
     in {
         "Tq75BoHx" = _Tq75BoHx;
         "uzM5DKZQ" = _uzM5DKZQ;
@@ -98,6 +108,8 @@ let
         "J5TrMbrD" = _J5TrMbrD;
         "71gys5mJ" = _71gys5mJ;
         "Dwlu6XR2" = _Dwlu6XR2;
+        "eQvhVsFd" = _eQvhVsFd;
+        "Q86KFgQH" = _Q86KFgQH;
         "datapack-1.17" = _Tq75BoHx;
         "datapack-1.17.1" = _Tq75BoHx;
         "datapack-1.18" = _Tq75BoHx;
@@ -131,6 +143,7 @@ let
         "datapack-26.1.1" = _71gys5mJ;
         "datapack-26.1.2" = _71gys5mJ;
         "datapack-26.2" = _71gys5mJ;
+        "datapack-26.3" = _Q86KFgQH;
         "fabric-1.18.2" = _CAfMNwx8;
         "fabric-1.19" = _CAfMNwx8;
         "fabric-1.19.1" = _CAfMNwx8;
@@ -160,6 +173,7 @@ let
         "fabric-26.1.1" = _Dwlu6XR2;
         "fabric-26.1.2" = _Dwlu6XR2;
         "fabric-26.2" = _Dwlu6XR2;
+        "fabric-26.3" = _eQvhVsFd;
         "forge-1.18.2" = _CAfMNwx8;
         "forge-1.19" = _CAfMNwx8;
         "forge-1.19.1" = _CAfMNwx8;
@@ -189,6 +203,7 @@ let
         "forge-26.1.1" = _Dwlu6XR2;
         "forge-26.1.2" = _Dwlu6XR2;
         "forge-26.2" = _Dwlu6XR2;
+        "forge-26.3" = _eQvhVsFd;
         "neoforge-1.19.4" = _7WY717Sy;
         "neoforge-1.20" = _7WY717Sy;
         "neoforge-1.20.1" = _7WY717Sy;
@@ -213,6 +228,7 @@ let
         "neoforge-26.1.1" = _Dwlu6XR2;
         "neoforge-26.1.2" = _Dwlu6XR2;
         "neoforge-26.2" = _Dwlu6XR2;
+        "neoforge-26.3" = _eQvhVsFd;
         "pkg-1.17-1.19.3-1.0" = _Tq75BoHx;
         "pkg-1.19.4-1.20.4-1.0" = _uzM5DKZQ;
         "pkg-1.20.5-1.20.6-1.0" = _7gqpeF0K;
@@ -229,7 +245,9 @@ let
         "pkg-1.21.5-1.0" = _J5TrMbrD;
         "pkg-1.21.9-1.0" = _71gys5mJ;
         "pkg-Mod-1.21.9-1.0" = _Dwlu6XR2;
-        "default" = _Dwlu6XR2;
+        "pkg-Mod-26.3-1.0" = _eQvhVsFd;
+        "pkg-26.3-1.0" = _Q86KFgQH;
+        "default" = _Q86KFgQH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smeltingoverload";

@@ -786,6 +786,16 @@ let
             "file" = "defaultoptions-neoforge-1.21.1-21.1.8.jar";
             "hash" = "sha512-KfZndwaNkrHhSWMNVpRB5RdqxA7Fy07mxjxWWqfUdVh6UJf1nEM9aaOf0ji2SQLiunQrMMJkGd6QHIajMAuEjg==";
         };
+        _YluujUg3 = {
+            "id" = "YluujUg3";
+            "file" = "defaultoptions-fabric-26.3-26.3.0.1.jar";
+            "hash" = "sha512-16Bvr5KxoccVSr3h/BmjXCSXiuelIGSjX6M1LLRsDq4+inaC6wKHLG7quJoeUK8JAxLZUWa2BfmpK/nIs0njeA==";
+        };
+        _peusN710 = {
+            "id" = "peusN710";
+            "file" = "defaultoptions-neoforge-26.3-26.3.0.1.jar";
+            "hash" = "sha512-ee2MAybl/1txY4xcjfI+bpFmwQCtBGbD5vXljKRHzVPLjHDBOpp1ZrDKLKRFdWdMrrChLj0jfWprt+VB0EGMWg==";
+        };
     in {
         "J2H2vpLI" = _J2H2vpLI;
         "YN36x9Jb" = _YN36x9Jb;
@@ -944,6 +954,8 @@ let
         "PIwYeEw5" = _PIwYeEw5;
         "54JaBQkk" = _54JaBQkk;
         "1zt17WsC" = _1zt17WsC;
+        "YluujUg3" = _YluujUg3;
+        "peusN710" = _peusN710;
         "forge-1.19" = _wRqU3JuA;
         "forge-1.19.1" = _wRqU3JuA;
         "forge-1.19.2" = _wRqU3JuA;
@@ -995,6 +1007,7 @@ let
         "fabric-26.1.1" = _DIfxcONY;
         "fabric-26.1.2" = _nXJ1NvhQ;
         "fabric-26.2" = _hS9ZtUOA;
+        "fabric-26.3" = _YluujUg3;
         "neoforge-1.20.2" = _E01imSXQ;
         "neoforge-1.20.4" = _NWRiaqeG;
         "neoforge-1.20.6" = _uOdOANmX;
@@ -1014,6 +1027,7 @@ let
         "neoforge-26.1.1" = _ylZwh8yE;
         "neoforge-26.1.2" = _hakaEFny;
         "neoforge-26.2" = _21bFjBeP;
+        "neoforge-26.3" = _peusN710;
         "pkg-15.0.0+forge-1.19" = _J2H2vpLI;
         "pkg-15.0.0+fabric-1.19" = _YN36x9Jb;
         "pkg-16.0.0+forge-1.19.3" = _nw9yrzag;
@@ -1170,7 +1184,9 @@ let
         "pkg-21.1.8+forge-1.21.1" = _PIwYeEw5;
         "pkg-21.1.8+fabric-1.21.1" = _54JaBQkk;
         "pkg-21.1.8+neoforge-1.21.1" = _1zt17WsC;
-        "default" = _1zt17WsC;
+        "pkg-26.3.0.1+fabric-26.3" = _YluujUg3;
+        "pkg-26.3.0.1+neoforge-26.3" = _peusN710;
+        "default" = _peusN710;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "default-options";

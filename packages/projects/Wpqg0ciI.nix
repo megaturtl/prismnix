@@ -216,6 +216,11 @@ let
             "file" = "banhammer-0.18.0+26.2.jar";
             "hash" = "sha512-ObpFBAXtiJF2Pu2o2mRm2/dt+918tVtwVFHYPjn1lHIuEG1qYgU7aAk2HyxOWNNxAd/EWrXA937wm59JB8wrGA==";
         };
+        _1BJyGiA7 = {
+            "id" = "1BJyGiA7";
+            "file" = "banhammer-0.19.0+26.3.jar";
+            "hash" = "sha512-Y/FGr/dnCQnouH4ZA+Va6RYzk491TEhSUZNLNJAMxexweXVzkduY0OC9m2Uj+iFikostej59SNie0YpnbbYuoQ==";
+        };
     in {
         "osdFztQZ" = _osdFztQZ;
         "PVn1crWB" = _PVn1crWB;
@@ -260,6 +265,7 @@ let
         "XDiYb5Bi" = _XDiYb5Bi;
         "OJVQ59rO" = _OJVQ59rO;
         "xUgGCfIR" = _xUgGCfIR;
+        "1BJyGiA7" = _1BJyGiA7;
         "fabric-1.16.5" = _fxpfWz5v;
         "fabric-1.17" = _4IZ1gFR4;
         "fabric-1.17.1" = _TgennJhb;
@@ -305,6 +311,8 @@ let
         "fabric-26.1.1" = _OJVQ59rO;
         "fabric-26.1.2" = _OJVQ59rO;
         "fabric-26.2" = _xUgGCfIR;
+        "fabric-26.3-rc-1" = _1BJyGiA7;
+        "fabric-26.3" = _1BJyGiA7;
         "quilt-1.18.2" = _cDpBStay;
         "quilt-1.19-rc2" = _s4GYe0wd;
         "quilt-1.19" = _s4GYe0wd;
@@ -384,7 +392,8 @@ let
         "pkg-0.16.2+1.21.11" = _XDiYb5Bi;
         "pkg-0.17.0-pre.1+26.1" = _OJVQ59rO;
         "pkg-0.18.0+26.2" = _xUgGCfIR;
-        "default" = _xUgGCfIR;
+        "pkg-0.19.0+26.3" = _1BJyGiA7;
+        "default" = _1BJyGiA7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "banhammer";

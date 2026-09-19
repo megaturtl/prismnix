@@ -16,18 +16,25 @@ let
             "file" = "treechopmod-1.2.0+mc26.2.x.jar";
             "hash" = "sha512-RAlEya/+tockEiIucQ6rSadqnqA8foS5ReRX1v2SX/iky+ZPIS0qyblMg4RG1N9vxP08w0/HJ/CIQx3D/1wKeA==";
         };
+        _hrFlH2EU = {
+            "id" = "hrFlH2EU";
+            "file" = "treechopmod-1.2.1+mc26.2.x.jar";
+            "hash" = "sha512-v7BMM6VOswwedmXZLGomhd9YKmZXWTfSx1b1/tPpiSTj03BY1x0DPjcmv/5AMsTvhM8pbVVzzYRuWmTh8NO7KA==";
+        };
     in {
         "Fw98mBi4" = _Fw98mBi4;
         "AC2lvEJJ" = _AC2lvEJJ;
         "lEuiny31" = _lEuiny31;
+        "hrFlH2EU" = _hrFlH2EU;
         "fabric-1.21.11" = _Fw98mBi4;
         "fabric-26.1.1" = _AC2lvEJJ;
         "fabric-26.1.2" = _AC2lvEJJ;
-        "fabric-26.2" = _lEuiny31;
+        "fabric-26.2" = _hrFlH2EU;
         "pkg-1.0.0+mc1.21.11" = _Fw98mBi4;
         "pkg-1.1.1+mc26.1.x" = _AC2lvEJJ;
         "pkg-1.2.0+mc26.2.x" = _lEuiny31;
-        "default" = _lEuiny31;
+        "pkg-1.2.1+mc26.2.x" = _hrFlH2EU;
+        "default" = _hrFlH2EU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "treechopmod";

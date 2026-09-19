@@ -26,12 +26,18 @@ let
             "file" = "neotooltipfix-1.2.1-26.2.jar";
             "hash" = "sha512-0Z/KUapwgGxjoGq5KgGPQp/vnjDOVEa3x/gV5SE69oAvsFMvhJeezTvalv/XBpBmYRBEhy72PLOCBhdMHLKn6g==";
         };
+        _S4y7Owxa = {
+            "id" = "S4y7Owxa";
+            "file" = "neotooltipfix-1.2.1-26.3.jar";
+            "hash" = "sha512-Ac2GtnxaQGHy1rPwxDCvpLl2uQJ/gKDHzN+G3fpog3q0PbFRVd5oNp8WuQSzTJhWUx6/O+NqOVCyW0RzXj+Ixw==";
+        };
     in {
         "2PRnb3wr" = _2PRnb3wr;
         "leQNVvwc" = _leQNVvwc;
         "3Olh8HRg" = _3Olh8HRg;
         "SavbnB1N" = _SavbnB1N;
         "GgcB7D50" = _GgcB7D50;
+        "S4y7Owxa" = _S4y7Owxa;
         "fabric-1.21.9" = _leQNVvwc;
         "fabric-1.21.10" = _leQNVvwc;
         "fabric-1.21.11" = _3Olh8HRg;
@@ -54,12 +60,14 @@ let
         "fabric-26.2-rc-1" = _GgcB7D50;
         "fabric-26.2-rc-2" = _GgcB7D50;
         "fabric-26.2" = _GgcB7D50;
+        "fabric-26.3" = _S4y7Owxa;
         "pkg-1.2.0-1.21.9" = _2PRnb3wr;
         "pkg-1.2.1-1.21.9" = _leQNVvwc;
         "pkg-1.2.1-1.21.11" = _3Olh8HRg;
         "pkg-1.2.1-26.1" = _SavbnB1N;
         "pkg-1.2.1-26.2" = _GgcB7D50;
-        "default" = _GgcB7D50;
+        "pkg-1.2.1-26.3" = _S4y7Owxa;
+        "default" = _S4y7Owxa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "neotooltipfix";

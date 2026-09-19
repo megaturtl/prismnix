@@ -61,6 +61,11 @@ let
             "file" = "mystical_missing_items-1.2.2.jar";
             "hash" = "sha512-dslbj2BEKNRoob+S5omPFPJSF5H0DIqdxsVTxmKtmLEmAls8d2Y+FE4bzSyyVan9YyK175kyOYow/+OYGMi+kg==";
         };
+        _KdzorszV = {
+            "id" = "KdzorszV";
+            "file" = "mystical_missing_items-1.2.2.jar";
+            "hash" = "sha512-Xyc2vXcXsWKc2bj0zDKI4fnFEiYfPYpnSWvFqXgCO1HtOAXFZW0QumqbZpr7Rmb7DoAQkGlOz79pQxIY8JrYzA==";
+        };
     in {
         "UcLMG6TI" = _UcLMG6TI;
         "SCg6jwne" = _SCg6jwne;
@@ -74,8 +79,9 @@ let
         "pJoXTevw" = _pJoXTevw;
         "8IsjsCkF" = _8IsjsCkF;
         "kDzKZJ9q" = _kDzKZJ9q;
+        "KdzorszV" = _KdzorszV;
         "neoforge-1.21.1" = _lt4KNRAO;
-        "neoforge-26.1.2" = _kDzKZJ9q;
+        "neoforge-26.1.2" = _KdzorszV;
         "forge-1.20.1" = _pJoXTevw;
         "pkg-1.21.1-1.0-SNAPSHOT" = _UcLMG6TI;
         "pkg-1.21.1-1.1" = _SCg6jwne;
@@ -84,8 +90,8 @@ let
         "pkg-1.20.1-1.2.1" = _oe3pMafA;
         "pkg-1.21.1-1.2.2" = _lt4KNRAO;
         "pkg-1.20.1-1.2.2" = _pJoXTevw;
-        "pkg-26.1.2-1.2.2" = _kDzKZJ9q;
-        "default" = _kDzKZJ9q;
+        "pkg-26.1.2-1.2.2" = _KdzorszV;
+        "default" = _KdzorszV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mysticalmissingitems";

@@ -351,6 +351,16 @@ let
             "file" = "stackedblocks-26.06.24-26.2-neoforge.jar";
             "hash" = "sha512-ST+JU25YzKvqm+hqxWWhwhTEW8ezCJQH0YXdczDUvgnhh/u54LeewwhCZcUL8OPLiRjF4bIP0vzzx2JrWQHU0g==";
         };
+        _VBD7okxm = {
+            "id" = "VBD7okxm";
+            "file" = "stackedblocks-26.09.15-26.3-fabric.jar";
+            "hash" = "sha512-aqt2eaSqGv61NdBoQ4PvDwrKRo80nHxj8jq0+0cSbHiQS2QIcSDsFN07GU1YvWPO4kmz8Jdote++tHFrwHnOwQ==";
+        };
+        _H8Q5RVaQ = {
+            "id" = "H8Q5RVaQ";
+            "file" = "stackedblocks-26.09.15-26.3-neoforge.jar";
+            "hash" = "sha512-XC2PcrS3NBgcTvmiOGZPtynVgnGw8IFfwMr1T9HMIoS3co2fGyz5A/zq1QdHmGe5EGOMRya9i48Pak13UkUdzw==";
+        };
     in {
         "s15tqcO1" = _s15tqcO1;
         "k0MN1hGO" = _k0MN1hGO;
@@ -422,6 +432,8 @@ let
         "tvCpo3KM" = _tvCpo3KM;
         "kDhiDygB" = _kDhiDygB;
         "21gXhB6j" = _21gXhB6j;
+        "VBD7okxm" = _VBD7okxm;
+        "H8Q5RVaQ" = _H8Q5RVaQ;
         "fabric-1.19" = _BRqikEWs;
         "fabric-1.19.1" = _BRqikEWs;
         "fabric-1.19.2" = _BRqikEWs;
@@ -448,6 +460,7 @@ let
         "fabric-26.1.1" = _ZAiU65Oz;
         "fabric-26.1.2" = _ZAiU65Oz;
         "fabric-26.2" = _tvCpo3KM;
+        "fabric-26.3" = _VBD7okxm;
         "quilt-1.19" = _BRqikEWs;
         "quilt-1.19.1" = _BRqikEWs;
         "quilt-1.19.2" = _BRqikEWs;
@@ -520,6 +533,7 @@ let
         "neoforge-26.1.1" = _pSmTlroe;
         "neoforge-26.1.2" = _pSmTlroe;
         "neoforge-26.2" = _21gXhB6j;
+        "neoforge-26.3" = _H8Q5RVaQ;
         "pkg-24.11.20-1.19-fabric" = _s15tqcO1;
         "pkg-24.11.20-1.19-forge" = _k0MN1hGO;
         "pkg-24.11.20-1.20-fabric" = _MJqKVufI;
@@ -590,7 +604,9 @@ let
         "pkg-26.06.24-26.2-fabric" = _tvCpo3KM;
         "pkg-26.06.24-26.2-forge" = _kDhiDygB;
         "pkg-26.06.24-26.2-neoforge" = _21gXhB6j;
-        "default" = _21gXhB6j;
+        "pkg-26.09.15-26.3-fabric" = _VBD7okxm;
+        "pkg-26.09.15-26.3-neoforge" = _H8Q5RVaQ;
+        "default" = _H8Q5RVaQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stacked-blocks";

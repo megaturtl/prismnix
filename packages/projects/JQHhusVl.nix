@@ -161,6 +161,16 @@ let
             "file" = "glaidens_radio_mod-1.5.0-forge-1.20.1.jar";
             "hash" = "sha512-2RAHb4UAmL4cismzu/0ddYE7N0AcCKDGSl9wOEKgGEgfLek3GDfB3ND2blLGRSsEqsAIvLIQGxKZ+WlpCtZveg==";
         };
+        _weYGQaPt = {
+            "id" = "weYGQaPt";
+            "file" = "glaidens_radio_mod-1.5.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-PRVa+CxvLu2A+NdQudGvjFup4jKulXEH+wDSXuSPJ/zYrMLLjAkwCNp7gysIf/f49p8XBWNkCDiqp11O0VoPSQ==";
+        };
+        _n90gIq9D = {
+            "id" = "n90gIq9D";
+            "file" = "glaidens_radio_mod-1.5.0-forge-1.20.1.jar";
+            "hash" = "sha512-i+JXG+O0lwhmWaxYYRunOJGgccIiQRQMloLWI3yfU2fBSD8x746cU77qmBnx0QG5qhXMclVXQcRIpo/FRS86/w==";
+        };
     in {
         "6ZMptJrL" = _6ZMptJrL;
         "M3EC6dvx" = _M3EC6dvx;
@@ -194,8 +204,10 @@ let
         "vJgGmcGs" = _vJgGmcGs;
         "Dr8gI4du" = _Dr8gI4du;
         "5HdNBqYq" = _5HdNBqYq;
-        "forge-1.20.1" = _5HdNBqYq;
-        "neoforge-1.21.1" = _Dr8gI4du;
+        "weYGQaPt" = _weYGQaPt;
+        "n90gIq9D" = _n90gIq9D;
+        "forge-1.20.1" = _n90gIq9D;
+        "neoforge-1.21.1" = _weYGQaPt;
         "pkg-1.0.4" = _M3EC6dvx;
         "pkg-1.2.0" = _bjmcZbMA;
         "pkg-1.2.1" = _Z00qLPJz;
@@ -212,8 +224,8 @@ let
         "pkg-1.4.0" = _4sH3cBpJ;
         "pkg-1.4.1" = _5QMnkBdZ;
         "pkg-1.4.2" = _vJgGmcGs;
-        "pkg-1.5.0" = _5HdNBqYq;
-        "default" = _5HdNBqYq;
+        "pkg-1.5.0" = _n90gIq9D;
+        "default" = _n90gIq9D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glaidens-audio";

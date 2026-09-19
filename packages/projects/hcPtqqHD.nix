@@ -71,6 +71,16 @@ let
             "file" = "dark-title-bar-for-minecraft-1.1.9.jar";
             "hash" = "sha512-SDrNhq5UJXpkhFir5L4b45+rMDHtzZxiP5HRoCQ/Z0vwEw85TH2Mg+EorVTO8iT2gU3iD5s+a2NznKkN0nw3Hw==";
         };
+        _o4cEz3rU = {
+            "id" = "o4cEz3rU";
+            "file" = "darkbar-1.1.10.jar";
+            "hash" = "sha512-ENv4AzVR7PbQz3/tyXOSI8zPPwoAd4WK2o4zja4YUP04OzWeqoCC1ZqqReU/ipRcPg19o3w3rcZuA+HfKUgm+A==";
+        };
+        _obvtz7AP = {
+            "id" = "obvtz7AP";
+            "file" = "darkbar-1.1.11.jar";
+            "hash" = "sha512-8oQ8COiO0emeBYcKTq9xe+haGZHROW4QLnRlCiHM/qxDLlUPsNpnsQSlEhj9f7pKS1/PHnYpOQmID09kXeeC9g==";
+        };
     in {
         "HnZZ27uC" = _HnZZ27uC;
         "lEidN5hL" = _lEidN5hL;
@@ -86,10 +96,14 @@ let
         "dQAtyQ00" = _dQAtyQ00;
         "5w4OpCs9" = _5w4OpCs9;
         "PWqsyGZP" = _PWqsyGZP;
+        "o4cEz3rU" = _o4cEz3rU;
+        "obvtz7AP" = _obvtz7AP;
         "fabric-1.21.11" = _LRtSON1I;
         "fabric-26.1.1" = _veWNuzW0;
         "fabric-26.1.2" = _GtYDyKal;
         "fabric-26.2" = _PWqsyGZP;
+        "fabric-26.3-rc-2" = _o4cEz3rU;
+        "fabric-26.3" = _obvtz7AP;
         "pkg-1.0.0" = _HnZZ27uC;
         "pkg-1.0.1" = _lEidN5hL;
         "pkg-1.1.0" = _FunU9zPB;
@@ -104,7 +118,9 @@ let
         "pkg-1.1.7" = _dQAtyQ00;
         "pkg-1.1.8" = _5w4OpCs9;
         "pkg-1.1.9" = _PWqsyGZP;
-        "default" = _PWqsyGZP;
+        "pkg-1.1.10" = _o4cEz3rU;
+        "pkg-1.1.11" = _obvtz7AP;
+        "default" = _obvtz7AP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "darktitlebar-forminecraft";

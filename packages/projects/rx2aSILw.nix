@@ -81,6 +81,11 @@ let
             "file" = "bluemap-banners-3.0.3.jar";
             "hash" = "sha512-1a9+Qi/7Ot2C/SVQ1tPLjx1NrV4h1pXbEDkx+IyQ4r92IKmSi8d1J2QVl+cnwfrXNyHv8tSQ2wyGnkQ8mRFiYg==";
         };
+        _rAfZ6Slg = {
+            "id" = "rAfZ6Slg";
+            "file" = "bluemap-banners-3.1.0.jar";
+            "hash" = "sha512-nlqxU3SfqibtXxcl57B68XUuIxd5Ykzy6iOmSqEap7hgBoCI6PGnVUaRgBx1TTQCzScCj4wLeTia27AleeB/xg==";
+        };
     in {
         "GPF9oarO" = _GPF9oarO;
         "P1xnb1iW" = _P1xnb1iW;
@@ -98,6 +103,7 @@ let
         "UTBFgXZa" = _UTBFgXZa;
         "tPUdkem4" = _tPUdkem4;
         "aSPznc8j" = _aSPznc8j;
+        "rAfZ6Slg" = _rAfZ6Slg;
         "fabric-1.21.1" = _GPF9oarO;
         "fabric-1.21.2" = _P1xnb1iW;
         "fabric-1.21.3" = _p5N1i1Zr;
@@ -113,6 +119,7 @@ let
         "fabric-26.1.1" = _UTBFgXZa;
         "fabric-26.1.2" = _tPUdkem4;
         "fabric-26.2" = _aSPznc8j;
+        "fabric-26.3" = _rAfZ6Slg;
         "pkg-v2.0.0" = _GPF9oarO;
         "pkg-v2.0.1" = _P1xnb1iW;
         "pkg-v2.0.2" = _p5N1i1Zr;
@@ -129,7 +136,8 @@ let
         "pkg-v3.0.1" = _UTBFgXZa;
         "pkg-v3.0.2" = _tPUdkem4;
         "pkg-v3.0.3" = _aSPznc8j;
-        "default" = _aSPznc8j;
+        "pkg-v3.1.0" = _rAfZ6Slg;
+        "default" = _rAfZ6Slg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bluemap-banners";

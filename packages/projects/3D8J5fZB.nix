@@ -56,6 +56,11 @@ let
             "file" = "shareenderchest-2.0.4.jar";
             "hash" = "sha512-iwkcdXacKoFzL4PB7c2wQ85ZPMiwnWIDYodrUIdHMbPNbT5u8B6jcfn4NQo5A8tHnRxZdGJFVl8JQOVChrrSaw==";
         };
+        _RMG4B3yZ = {
+            "id" = "RMG4B3yZ";
+            "file" = "shareenderchest-2.0.5.jar";
+            "hash" = "sha512-wSj2fSFwpjWbwDwnYXo6KTDOLVI2nxuoxuY+9RY1+Y/TPhPSkEWE4+tYZdKpstVivu/fAdF/QheBQGwdDKKS5w==";
+        };
     in {
         "DdBx3GhA" = _DdBx3GhA;
         "afDFsXR8" = _afDFsXR8;
@@ -68,6 +73,7 @@ let
         "iXmBEZfJ" = _iXmBEZfJ;
         "wEAtw0ZZ" = _wEAtw0ZZ;
         "k4M3kdLm" = _k4M3kdLm;
+        "RMG4B3yZ" = _RMG4B3yZ;
         "fabric-1.19.2" = _GcPdrram;
         "fabric-1.19.3" = _GcPdrram;
         "fabric-1.19.4" = _GcPdrram;
@@ -96,6 +102,7 @@ let
         "fabric-26.1.1" = _k4M3kdLm;
         "fabric-26.1.2" = _k4M3kdLm;
         "fabric-26.2" = _k4M3kdLm;
+        "fabric-26.3" = _RMG4B3yZ;
         "pkg-1.6.0" = _DdBx3GhA;
         "pkg-1.6.1" = _afDFsXR8;
         "pkg-1.6.3" = _X5mcXkS3;
@@ -107,7 +114,8 @@ let
         "pkg-2.0.2" = _iXmBEZfJ;
         "pkg-2.0.3" = _wEAtw0ZZ;
         "pkg-2.0.4" = _k4M3kdLm;
-        "default" = _k4M3kdLm;
+        "pkg-2.0.5" = _RMG4B3yZ;
+        "default" = _RMG4B3yZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "share-ender-chest";

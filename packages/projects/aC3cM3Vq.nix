@@ -261,6 +261,16 @@ let
             "file" = "MouseTweaks-forge-mc26.2-2.31.jar";
             "hash" = "sha512-iUO3csjpVOFWd7dWVfe/9Nk8yWdj59tr3+hudSXJpd0pwH9K/9+gcuncFLwdl0Etbi6tIvdPnh8GKdlCXbirPw==";
         };
+        _LeMuMhLv = {
+            "id" = "LeMuMhLv";
+            "file" = "MouseTweaks-fabric-mc26.3-2.31.jar";
+            "hash" = "sha512-YcARMItdHQshY0c8u8GtDxs6yHO3fj6f9nzLQ3qUb75fNAdygevSuRZHMklp0xn2SZrEsxnPy56gJ7rEelLAgQ==";
+        };
+        _f4tPRGDq = {
+            "id" = "f4tPRGDq";
+            "file" = "MouseTweaks-neoforge-mc26.3-2.31.jar";
+            "hash" = "sha512-k+esNLvBXeY1BzciBUsR/tOYHg85lUKG6KVyFM5c4AflViiCy4HNIwyOpJlwlwyEVIz8WYMyxTl3eYYJCwkHmA==";
+        };
     in {
         "RNWLd5dh" = _RNWLd5dh;
         "VmXwwpoa" = _VmXwwpoa;
@@ -314,6 +324,8 @@ let
         "jOiTBIaB" = _jOiTBIaB;
         "rokwij6O" = _rokwij6O;
         "A88Ep3CF" = _A88Ep3CF;
+        "LeMuMhLv" = _LeMuMhLv;
+        "f4tPRGDq" = _f4tPRGDq;
         "forge-1.16.2" = _RNWLd5dh;
         "forge-1.16.3" = _RNWLd5dh;
         "forge-1.16.4" = _RNWLd5dh;
@@ -379,6 +391,7 @@ let
         "fabric-26.1.1" = _EBIKCzuP;
         "fabric-26.1.2" = _EBIKCzuP;
         "fabric-26.2" = _jOiTBIaB;
+        "fabric-26.3" = _LeMuMhLv;
         "modloader-b1.7.3" = _kyT0ersE;
         "neoforge-1.20.4" = _7nm8NrSL;
         "neoforge-1.20.6" = _1n3YehcE;
@@ -397,6 +410,7 @@ let
         "neoforge-26.1.1" = _Vd1fgVcT;
         "neoforge-26.1.2" = _Vd1fgVcT;
         "neoforge-26.2" = _rokwij6O;
+        "neoforge-26.3" = _f4tPRGDq;
         "pkg-1.16.2-2.14" = _RNWLd5dh;
         "pkg-1.17.1-2.14" = _VmXwwpoa;
         "pkg-1.17.1-2.15-forge" = _ZP9EDGxB;
@@ -449,7 +463,9 @@ let
         "pkg-26.2-2.31-fabric" = _jOiTBIaB;
         "pkg-26.2-2.31-neoforge" = _rokwij6O;
         "pkg-26.2-2.31-forge" = _A88Ep3CF;
-        "default" = _A88Ep3CF;
+        "pkg-26.3-2.31-fabric" = _LeMuMhLv;
+        "pkg-26.3-2.31-neoforge" = _f4tPRGDq;
+        "default" = _f4tPRGDq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mouse-tweaks";

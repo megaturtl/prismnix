@@ -41,6 +41,16 @@ let
             "file" = "ultimineunchained-1.2.1-1.20.1-FORGE.jar";
             "hash" = "sha512-tyj9/0ijAfIylS6CY56Xr0v7kw+JpXrH1mg92PoVUwl5MBRMpge3iCiVieiGt2i1iVAUZs9VPqaLkI27XlKoMQ==";
         };
+        _VEghIBDN = {
+            "id" = "VEghIBDN";
+            "file" = "ultimineunchained-1.2.2-1.21.1-FABRIC.jar";
+            "hash" = "sha512-yFnQ5ILgGk0YpMNF8nVOQRBCTB822PvZIvObRKE6EWXeXoU4glOT5tLq9J/RrpBLJlCGp4+IDjgZRpAQA8BazQ==";
+        };
+        _iPtVyq9c = {
+            "id" = "iPtVyq9c";
+            "file" = "ultimineunchained-1.2.2-1.21.1-NEOFORGE.jar";
+            "hash" = "sha512-Q6XD3tm8Sxi9zz60RY0D4deQMwIgcuq8ey6gdaXCz178twm/9pK5XXVx/NtdjnS/0elbTuc///l6XAndeOlGWw==";
+        };
     in {
         "1R43tHE7" = _1R43tHE7;
         "VVceid93" = _VVceid93;
@@ -50,15 +60,18 @@ let
         "KL7yZxlk" = _KL7yZxlk;
         "pmvBrAh0" = _pmvBrAh0;
         "YwaxBO1s" = _YwaxBO1s;
+        "VEghIBDN" = _VEghIBDN;
+        "iPtVyq9c" = _iPtVyq9c;
         "fabric-1.20.1" = _pmvBrAh0;
-        "fabric-1.21.1" = _lYAmwT3P;
+        "fabric-1.21.1" = _VEghIBDN;
         "forge-1.20.1" = _YwaxBO1s;
-        "neoforge-1.21.1" = _KL7yZxlk;
+        "neoforge-1.21.1" = _iPtVyq9c;
         "pkg-1.2.0-1.20.1" = _VVceid93;
         "pkg-1.2.0-1.21.1" = _SLmC34CS;
         "pkg-1.2.1-1.21.1" = _KL7yZxlk;
         "pkg-1.2.1-1.20.1" = _YwaxBO1s;
-        "default" = _YwaxBO1s;
+        "pkg-1.2.2-1.21.1" = _iPtVyq9c;
+        "default" = _iPtVyq9c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ultimine-unchained";

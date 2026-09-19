@@ -116,6 +116,16 @@ let
             "file" = "cliffbranch-3.0.jar";
             "hash" = "sha512-vHq/jblq4iSX6VQ7NeZI9Lz7X5yQkgVjOUEgsVIqdIUDbgKiIwVefUCnAdZRpektZV0GNHAqh2xd4l2WBNXagA==";
         };
+        _BG0kaXXi = {
+            "id" = "BG0kaXXi";
+            "file" = "CliffBranch-4.0.zip";
+            "hash" = "sha512-FSZvq5WjAcrK045mxLxlpLf5Axo7l9bxi0goK1OaozRdezPQz4eO2TTPdhBT8BjUdHh9nJKqbXQ115lwwS9eeA==";
+        };
+        _jqIL3LFG = {
+            "id" = "jqIL3LFG";
+            "file" = "cliffbranch-4.0.jar";
+            "hash" = "sha512-Axox4v1BrC1IwnLKHR5gigJcX7c8HvlNxdNMvwzYKDUpid0pX21ztOAx/PV2rQlmqpwdjqwzHUhCG6Gdc7QXPg==";
+        };
     in {
         "avNAjBqx" = _avNAjBqx;
         "Sm5YWDIx" = _Sm5YWDIx;
@@ -140,6 +150,8 @@ let
         "aKwR5Kn2" = _aKwR5Kn2;
         "7A6vXaDx" = _7A6vXaDx;
         "il0VlWkG" = _il0VlWkG;
+        "BG0kaXXi" = _BG0kaXXi;
+        "jqIL3LFG" = _jqIL3LFG;
         "datapack-1.21.5" = _JtYl32Fu;
         "datapack-1.21.6" = _JtYl32Fu;
         "datapack-1.21.7" = _JtYl32Fu;
@@ -152,6 +164,7 @@ let
         "datapack-26.1.2" = _NuSwPBUd;
         "datapack-1.21" = _cXieqKcq;
         "datapack-26.2" = _7A6vXaDx;
+        "datapack-26.3" = _BG0kaXXi;
         "fabric-1.21.5" = _EsXwC1fS;
         "fabric-1.21.6" = _EsXwC1fS;
         "fabric-1.21.7" = _EsXwC1fS;
@@ -164,6 +177,7 @@ let
         "fabric-26.1.2" = _eZ0EhRPb;
         "fabric-1.21" = _aKwR5Kn2;
         "fabric-26.2" = _il0VlWkG;
+        "fabric-26.3" = _jqIL3LFG;
         "forge-1.21.5" = _EsXwC1fS;
         "forge-1.21.6" = _EsXwC1fS;
         "forge-1.21.7" = _EsXwC1fS;
@@ -175,6 +189,7 @@ let
         "forge-26.1.1" = _eZ0EhRPb;
         "forge-26.1.2" = _eZ0EhRPb;
         "forge-26.2" = _il0VlWkG;
+        "forge-26.3" = _jqIL3LFG;
         "neoforge-1.21.5" = _EsXwC1fS;
         "neoforge-1.21.6" = _EsXwC1fS;
         "neoforge-1.21.7" = _EsXwC1fS;
@@ -187,6 +202,7 @@ let
         "neoforge-26.1.2" = _eZ0EhRPb;
         "neoforge-1.21" = _aKwR5Kn2;
         "neoforge-26.2" = _il0VlWkG;
+        "neoforge-26.3" = _jqIL3LFG;
         "quilt-1.21.5" = _EsXwC1fS;
         "quilt-1.21.6" = _EsXwC1fS;
         "quilt-1.21.7" = _EsXwC1fS;
@@ -198,6 +214,7 @@ let
         "quilt-26.1.1" = _eZ0EhRPb;
         "quilt-26.1.2" = _eZ0EhRPb;
         "quilt-26.2" = _il0VlWkG;
+        "quilt-26.3" = _jqIL3LFG;
         "pkg-1.0" = _avNAjBqx;
         "pkg-1.1" = _Sm5YWDIx;
         "pkg-1.1+mod" = _U2w7DUbe;
@@ -215,7 +232,9 @@ let
         "pkg-2.2+mod" = _aKwR5Kn2;
         "pkg-3.0" = _7A6vXaDx;
         "pkg-3.0+mod" = _il0VlWkG;
-        "default" = _il0VlWkG;
+        "pkg-4.0" = _BG0kaXXi;
+        "pkg-4.0+mod" = _jqIL3LFG;
+        "default" = _jqIL3LFG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cliffbranch";

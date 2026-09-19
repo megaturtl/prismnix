@@ -186,6 +186,11 @@ let
             "file" = "burgermod-neoforge-2.10.3-26.1.2.jar";
             "hash" = "sha512-3K8K0OZRlsrbG5A+CmyIHGpUsGmx6EdcjyLtt4jwYovGy6sTlcxCfO+EJqnJjZ3q57mBZChMB5Gz7YMw5wuesQ==";
         };
+        _zjKXIfPY = {
+            "id" = "zjKXIfPY";
+            "file" = "burgermod-neoforge-2.10.3-26.2.jar";
+            "hash" = "sha512-CVxHxS+4sEW1gJcuAluSndU6HvIRtBLCJ92KkhNORcFigVTh8PPVPsYhn0nSMpUjVQPhHU2IsOcvzj9OzNcgow==";
+        };
     in {
         "7o6yeFEk" = _7o6yeFEk;
         "tFCVucPd" = _tFCVucPd;
@@ -224,6 +229,7 @@ let
         "Knth3tEe" = _Knth3tEe;
         "nlyDMjmw" = _nlyDMjmw;
         "NhHYKdBk" = _NhHYKdBk;
+        "zjKXIfPY" = _zjKXIfPY;
         "forge-1.16.5" = _7o6yeFEk;
         "forge-1.18.2" = _tFCVucPd;
         "forge-1.19" = _Xqzv10WX;
@@ -252,6 +258,7 @@ let
         "neoforge-1.21.10" = _Knth3tEe;
         "neoforge-1.21.11" = _nlyDMjmw;
         "neoforge-26.1.2" = _NhHYKdBk;
+        "neoforge-26.2" = _zjKXIfPY;
         "pkg-forge-2.8.0-mc1.16.5" = _7o6yeFEk;
         "pkg-forge-2.8.0-mc1.18.2" = _tFCVucPd;
         "pkg-forge-2.9.0-mc1.19" = _Xqzv10WX;
@@ -289,7 +296,8 @@ let
         "pkg-neoforge-2.10.3-mc1.21.10" = _Knth3tEe;
         "pkg-neoforge-2.10.3-mc1.21.11" = _nlyDMjmw;
         "pkg-2.10.3-neoforge-mc26.1.2" = _NhHYKdBk;
-        "default" = _NhHYKdBk;
+        "pkg-neoforge-2.10.3-mc26.2" = _zjKXIfPY;
+        "default" = _zjKXIfPY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "burger-mod";

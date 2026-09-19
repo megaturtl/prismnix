@@ -371,6 +371,26 @@ let
             "file" = "helpfulcommands-neoforge-26.2-4.2.2.jar";
             "hash" = "sha512-ROG2hjXrFBWZ6aw5IshHZZMrG19lOzc6m4KfkCPyRcrCLHl1lz5tHt3FE2rvuoZ2iWHg8cLFwbuv3Dz1HvbTvg==";
         };
+        _ihtR39pp = {
+            "id" = "ihtR39pp";
+            "file" = "helpfulcommands-fabric-26.2-4.2.3.jar";
+            "hash" = "sha512-ZCfLJbWEgcosUsc5lCntLoRw7fI5sLSUirrdirD/70OztUJw8gdNF7eB6nfFS3UUf79yURPrygoMBbPEg9OBkw==";
+        };
+        _hvXacBog = {
+            "id" = "hvXacBog";
+            "file" = "helpfulcommands-neoforge-26.2-4.2.3.jar";
+            "hash" = "sha512-xubvdxLYUWD07lZJxYkaBx3j0lxBfPwNiLRYk5IL6NLG2x6jGBOqqgNlpmcjzTzc+MmDxueaECzdJ4YB8PRySw==";
+        };
+        _rxCmoDzR = {
+            "id" = "rxCmoDzR";
+            "file" = "helpfulcommands-fabric-26.3-4.2.3.jar";
+            "hash" = "sha512-5tbYOGy/aajWCf/hLwXR45/EIu4EUh4dpaL1fAdTPOBD8K2+IMksEWEulDi4T9EytSzz7/Nc6FBoDqYsWIh6kw==";
+        };
+        _UJANGlK0 = {
+            "id" = "UJANGlK0";
+            "file" = "helpfulcommands-neoforge-26.3-4.2.3.jar";
+            "hash" = "sha512-YMDKTePA8FqoJNHqSlEKC5gIWkyE28wgx6ukLv0ZLuPfEYBA/LKRezZYfuTZTcLBsY/NREpy9OWGtPFNfcGnYQ==";
+        };
     in {
         "B2R77LSh" = _B2R77LSh;
         "qZg8FBhV" = _qZg8FBhV;
@@ -446,6 +466,10 @@ let
         "Gu3eoMzu" = _Gu3eoMzu;
         "ZxD89XgK" = _ZxD89XgK;
         "5WmefKaI" = _5WmefKaI;
+        "ihtR39pp" = _ihtR39pp;
+        "hvXacBog" = _hvXacBog;
+        "rxCmoDzR" = _rxCmoDzR;
+        "UJANGlK0" = _UJANGlK0;
         "fabric-1.20.1" = _bmMVPaNV;
         "fabric-1.19.4" = _qZg8FBhV;
         "fabric-1.19.2" = _GJhF3nOi;
@@ -471,7 +495,8 @@ let
         "fabric-26.1" = _alc0k6Yk;
         "fabric-26.1.1" = _alc0k6Yk;
         "fabric-26.1.2" = _alc0k6Yk;
-        "fabric-26.2" = _ZxD89XgK;
+        "fabric-26.2" = _ihtR39pp;
+        "fabric-26.3" = _rxCmoDzR;
         "neoforge-1.21.10" = _FnGGGpsB;
         "neoforge-1.21.11" = _fXrBf8EB;
         "neoforge-1.21.9" = _FnGGGpsB;
@@ -486,7 +511,8 @@ let
         "neoforge-26.1" = _jFMN2sG3;
         "neoforge-26.1.1" = _jFMN2sG3;
         "neoforge-26.1.2" = _jFMN2sG3;
-        "neoforge-26.2" = _5WmefKaI;
+        "neoforge-26.2" = _hvXacBog;
+        "neoforge-26.3" = _UJANGlK0;
         "pkg-2.0.0" = _SLwQmXtp;
         "pkg-2.0.1" = _rQC1VXW7;
         "pkg-2.0.2" = _T5PriSXi;
@@ -518,7 +544,8 @@ let
         "pkg-4.2.0" = _c2YY1NRi;
         "pkg-4.2.1" = _Gu3eoMzu;
         "pkg-4.2.2" = _5WmefKaI;
-        "default" = _5WmefKaI;
+        "pkg-4.2.3" = _UJANGlK0;
+        "default" = _UJANGlK0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "helpful-commands";

@@ -126,6 +126,11 @@ let
             "file" = "WorldManager-3.0.0.jar";
             "hash" = "sha512-KjNoLETX+9Gbkwh7++n9FHx2Z8hgDOkrup4lmSnnOWwSqpvzUlfuFnj64tnWjxfL/3R7AeHeXlqbI+5abBp6mg==";
         };
+        _KA5Md68t = {
+            "id" = "KA5Md68t";
+            "file" = "WorldManager-4.0.0.jar";
+            "hash" = "sha512-9cnvr+505PtoVthVhpX78dYGBZzWvZxulU6QyHnMFw5JMsF3eOSeyYTOdhby5JE7rpaVSpnsn4wfYkesZ5vf7Q==";
+        };
     in {
         "H84VE3Ba" = _H84VE3Ba;
         "idB3e6hY" = _idB3e6hY;
@@ -152,7 +157,8 @@ let
         "6WFygAKH" = _6WFygAKH;
         "3JrI6b9x" = _3JrI6b9x;
         "xU0dPRG2" = _xU0dPRG2;
-        "bukkit-1.20" = _4C4x96xt;
+        "KA5Md68t" = _KA5Md68t;
+        "bukkit-1.20" = _KA5Md68t;
         "bukkit-1.20.1" = _4C4x96xt;
         "bukkit-1.20.2" = _4C4x96xt;
         "bukkit-1.20.3" = _4C4x96xt;
@@ -175,7 +181,7 @@ let
         "bukkit-1.19.2" = _4C4x96xt;
         "bukkit-1.19.3" = _4C4x96xt;
         "bukkit-1.19.4" = _4C4x96xt;
-        "bukkit-1.21" = _6WFygAKH;
+        "bukkit-1.21" = _KA5Md68t;
         "bukkit-1.13" = _4C4x96xt;
         "bukkit-1.13.1" = _4C4x96xt;
         "bukkit-1.13.2" = _4C4x96xt;
@@ -189,8 +195,12 @@ let
         "bukkit-1.21.8" = _xU0dPRG2;
         "bukkit-1.21.9" = _xU0dPRG2;
         "bukkit-1.21.10" = _xU0dPRG2;
-        "bukkit-1.21.11" = _xU0dPRG2;
-        "paper-1.20" = _4C4x96xt;
+        "bukkit-1.21.11" = _KA5Md68t;
+        "bukkit-26.1" = _KA5Md68t;
+        "bukkit-26.1.1" = _KA5Md68t;
+        "bukkit-26.1.2" = _KA5Md68t;
+        "bukkit-26.2" = _KA5Md68t;
+        "paper-1.20" = _KA5Md68t;
         "paper-1.20.1" = _4C4x96xt;
         "paper-1.20.2" = _4C4x96xt;
         "paper-1.20.3" = _4C4x96xt;
@@ -213,7 +223,7 @@ let
         "paper-1.19.2" = _4C4x96xt;
         "paper-1.19.3" = _4C4x96xt;
         "paper-1.19.4" = _4C4x96xt;
-        "paper-1.21" = _3JrI6b9x;
+        "paper-1.21" = _KA5Md68t;
         "paper-1.13" = _4C4x96xt;
         "paper-1.13.1" = _4C4x96xt;
         "paper-1.13.2" = _4C4x96xt;
@@ -227,8 +237,12 @@ let
         "paper-1.21.8" = _xU0dPRG2;
         "paper-1.21.9" = _xU0dPRG2;
         "paper-1.21.10" = _xU0dPRG2;
-        "paper-1.21.11" = _xU0dPRG2;
-        "purpur-1.20" = _4C4x96xt;
+        "paper-1.21.11" = _KA5Md68t;
+        "paper-26.1" = _KA5Md68t;
+        "paper-26.1.1" = _KA5Md68t;
+        "paper-26.1.2" = _KA5Md68t;
+        "paper-26.2" = _KA5Md68t;
+        "purpur-1.20" = _KA5Md68t;
         "purpur-1.20.1" = _4C4x96xt;
         "purpur-1.20.2" = _4C4x96xt;
         "purpur-1.20.3" = _4C4x96xt;
@@ -251,7 +265,7 @@ let
         "purpur-1.19.2" = _4C4x96xt;
         "purpur-1.19.3" = _4C4x96xt;
         "purpur-1.19.4" = _4C4x96xt;
-        "purpur-1.21" = _6WFygAKH;
+        "purpur-1.21" = _KA5Md68t;
         "purpur-1.13" = _4C4x96xt;
         "purpur-1.13.1" = _4C4x96xt;
         "purpur-1.13.2" = _4C4x96xt;
@@ -265,8 +279,12 @@ let
         "purpur-1.21.8" = _xU0dPRG2;
         "purpur-1.21.9" = _xU0dPRG2;
         "purpur-1.21.10" = _xU0dPRG2;
-        "purpur-1.21.11" = _xU0dPRG2;
-        "spigot-1.20" = _4C4x96xt;
+        "purpur-1.21.11" = _KA5Md68t;
+        "purpur-26.1" = _KA5Md68t;
+        "purpur-26.1.1" = _KA5Md68t;
+        "purpur-26.1.2" = _KA5Md68t;
+        "purpur-26.2" = _KA5Md68t;
+        "spigot-1.20" = _KA5Md68t;
         "spigot-1.20.1" = _4C4x96xt;
         "spigot-1.20.2" = _4C4x96xt;
         "spigot-1.20.3" = _4C4x96xt;
@@ -289,7 +307,7 @@ let
         "spigot-1.19.2" = _4C4x96xt;
         "spigot-1.19.3" = _4C4x96xt;
         "spigot-1.19.4" = _4C4x96xt;
-        "spigot-1.21" = _6WFygAKH;
+        "spigot-1.21" = _KA5Md68t;
         "spigot-1.13" = _4C4x96xt;
         "spigot-1.13.1" = _4C4x96xt;
         "spigot-1.13.2" = _4C4x96xt;
@@ -303,13 +321,23 @@ let
         "spigot-1.21.8" = _xU0dPRG2;
         "spigot-1.21.9" = _xU0dPRG2;
         "spigot-1.21.10" = _xU0dPRG2;
-        "spigot-1.21.11" = _xU0dPRG2;
+        "spigot-1.21.11" = _KA5Md68t;
+        "spigot-26.1" = _KA5Md68t;
+        "spigot-26.1.1" = _KA5Md68t;
+        "spigot-26.1.2" = _KA5Md68t;
+        "spigot-26.2" = _KA5Md68t;
         "folia-1.21.6" = _xU0dPRG2;
         "folia-1.21.7" = _xU0dPRG2;
         "folia-1.21.8" = _xU0dPRG2;
         "folia-1.21.9" = _xU0dPRG2;
         "folia-1.21.10" = _xU0dPRG2;
-        "folia-1.21.11" = _xU0dPRG2;
+        "folia-1.21.11" = _KA5Md68t;
+        "folia-1.20" = _KA5Md68t;
+        "folia-1.21" = _KA5Md68t;
+        "folia-26.1" = _KA5Md68t;
+        "folia-26.1.1" = _KA5Md68t;
+        "folia-26.1.2" = _KA5Md68t;
+        "folia-26.2" = _KA5Md68t;
         "pkg-1.0.0" = _H84VE3Ba;
         "pkg-1.1.0" = _idB3e6hY;
         "pkg-1.1.1" = _qGMxY14p;
@@ -335,7 +363,8 @@ let
         "pkg-2.2.0" = _6WFygAKH;
         "pkg-2.2.1" = _3JrI6b9x;
         "pkg-3.0.0" = _xU0dPRG2;
-        "default" = _xU0dPRG2;
+        "pkg-4.0.0" = _KA5Md68t;
+        "default" = _KA5Md68t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easy-worldmanager";

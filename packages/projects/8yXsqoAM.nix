@@ -76,6 +76,11 @@ let
             "file" = "Glowtone-2.0.0-alpha-1-fabric.jar";
             "hash" = "sha512-LatDvpR133DxIFLsAA5pmRZWG4gghb7miymYc9cy9NBiGHS3r/dGS8TKsFdZem6VhhtvwcRS26ZiXUjLxLTr8w==";
         };
+        _xIMpLy3S = {
+            "id" = "xIMpLy3S";
+            "file" = "Glowtone-2.0.0-alpha-2-fabric.jar";
+            "hash" = "sha512-o1P1lPy3Zh6tnNizr5+9ogYdgieaFqCy5JLl2sDetC6yDHahCNclhP2JJpP79XYQ3pisCjyym03FX7Auk6tiCA==";
+        };
     in {
         "u0B3Ef4T" = _u0B3Ef4T;
         "WiZRpz70" = _WiZRpz70;
@@ -92,6 +97,7 @@ let
         "hNl3GZQg" = _hNl3GZQg;
         "oKs1fXBU" = _oKs1fXBU;
         "l5QUMd6u" = _l5QUMd6u;
+        "xIMpLy3S" = _xIMpLy3S;
         "fabric-1.21.5" = _ghq1JaMa;
         "fabric-1.21.6" = _IZqKijRC;
         "fabric-1.21.7" = _IZqKijRC;
@@ -103,7 +109,7 @@ let
         "fabric-26.1" = _ZQflplwi;
         "fabric-26.1.1" = _ZQflplwi;
         "fabric-26.1.2" = _ZQflplwi;
-        "fabric-26.2" = _l5QUMd6u;
+        "fabric-26.2" = _xIMpLy3S;
         "fabric-1.21" = _oKs1fXBU;
         "fabric-1.21.1" = _oKs1fXBU;
         "quilt-1.21.5" = _ghq1JaMa;
@@ -134,7 +140,8 @@ let
         "pkg-1.0.3-beta1-mc1.21.1-NeoForge" = _hNl3GZQg;
         "pkg-1.0.3-beta1-mc1.21.1-Fabric" = _oKs1fXBU;
         "pkg-2.0.0" = _l5QUMd6u;
-        "default" = _l5QUMd6u;
+        "pkg-2.0.0-alpha2-mc26.2-Fabric" = _xIMpLy3S;
+        "default" = _xIMpLy3S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glowtone";

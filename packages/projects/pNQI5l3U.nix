@@ -281,6 +281,11 @@ let
             "file" = "habitable end mod-4.0.1.jar";
             "hash" = "sha512-foWmXeL61KEFWedzqj/RThBtnJau0u2z4QrAnAdtwo7d1ZEfaeSUOkYCq91qfGM/VjVA/WbLNU7ej1bJkVOIiw==";
         };
+        _m6rtt4IW = {
+            "id" = "m6rtt4IW";
+            "file" = "habitable end mod-4.0.1.jar";
+            "hash" = "sha512-/aRs969lCujeC5AKA9dTqm2O7iIme1XlvGeSCVaeqkX0lRGhZ934eI1/buATRdgip6hzUgvSBb2PcAsYsBYsvQ==";
+        };
     in {
         "zzyIzCe0" = _zzyIzCe0;
         "wnk1qPbR" = _wnk1qPbR;
@@ -338,6 +343,7 @@ let
         "arGhmHqk" = _arGhmHqk;
         "PhZNivvB" = _PhZNivvB;
         "8wTLhEo5" = _8wTLhEo5;
+        "m6rtt4IW" = _m6rtt4IW;
         "fabric-25w04a" = _zzyIzCe0;
         "fabric-25w05a" = _wnk1qPbR;
         "fabric-1.21.1" = _hD60KKH5;
@@ -398,6 +404,7 @@ let
         "fabric-26.2" = _arGhmHqk;
         "fabric-26.3-snapshot-1" = _PhZNivvB;
         "fabric-26.3-snapshot-2" = _8wTLhEo5;
+        "fabric-26.3" = _m6rtt4IW;
         "pkg-2.0.1" = _K03a6DRh;
         "pkg-2.0.2" = _Hym2nSiE;
         "pkg-2.0.3" = _pp9RKU72;
@@ -422,7 +429,8 @@ let
         "pkg-4.0.1-26.2" = _arGhmHqk;
         "pkg-4.0.1-26.3snapshot1" = _PhZNivvB;
         "pkg-4.0.1-26.3snapshot2" = _8wTLhEo5;
-        "default" = _8wTLhEo5;
+        "pkg-4.0.1-26.3-broken1" = _m6rtt4IW;
+        "default" = _m6rtt4IW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "habitable-end-mod";

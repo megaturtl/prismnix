@@ -456,6 +456,16 @@ let
             "file" = "upgraded-iron-chests-1.4.jar";
             "hash" = "sha512-jTV0FfiongG0sXRSvCCdQJbOtMwv6J5JLwJC8aG0OrJ3jP9vbyoohe7fEaLgy5YreuirXI3GDgfWdB6IdFqN4A==";
         };
+        _iAGID9dB = {
+            "id" = "iAGID9dB";
+            "file" = "upgraded-iron-chests-1.4.jar";
+            "hash" = "sha512-Jx6UBvwVIeR2C/tMzufEgr7+TkO0MCQNktTmGJ1jI0rBHjOe90OvO7ZV+tBijoWw1UK8LkFVc/z9CpdT07hxdg==";
+        };
+        _CiqpmVoi = {
+            "id" = "CiqpmVoi";
+            "file" = "upgraded-iron-chests-1.4.jar";
+            "hash" = "sha512-/Wp52/EWO9olbwVLaCtZgnqGKw6t0KuxHYISusXk037wBg7tZu7EhKkZdD9+JmG2YEPIFHfdM7XSJLYRzs8HOA==";
+        };
     in {
         "ojbS7WEV" = _ojbS7WEV;
         "pDWlCrje" = _pDWlCrje;
@@ -548,6 +558,8 @@ let
         "oFvBp1OX" = _oFvBp1OX;
         "ZeyB41TF" = _ZeyB41TF;
         "vV2zgK02" = _vV2zgK02;
+        "iAGID9dB" = _iAGID9dB;
+        "CiqpmVoi" = _CiqpmVoi;
         "neoforge-26.1" = _Bv2zkDwy;
         "neoforge-26.1.1" = _QFCiIPDu;
         "neoforge-26.1.2" = _cgtdh1do;
@@ -564,6 +576,7 @@ let
         "neoforge-1.21.9" = _TFEp3exs;
         "neoforge-1.21.10" = _qIzo63uD;
         "neoforge-1.21.11" = _aeCCYjyh;
+        "neoforge-26.3" = _iAGID9dB;
         "forge-26.1" = _1RAKfQfO;
         "forge-26.1.1" = _3eAF7Gml;
         "forge-26.1.2" = _8wFOgs7g;
@@ -595,6 +608,7 @@ let
         "fabric-1.21.8" = _adwB5HFN;
         "fabric-1.21.9" = _D8BGR2B5;
         "fabric-1.21.10" = _IixDSHZP;
+        "fabric-26.3" = _CiqpmVoi;
         "pkg-1.0.0" = _HVz7IVah;
         "pkg-1.0.1" = _Lzmmw41k;
         "pkg-1.2" = _ysD8ia14;
@@ -602,8 +616,8 @@ let
         "pkg-1.2.2" = _j5UZthRo;
         "pkg-1.3" = _bDJoOHVa;
         "pkg-1.3.1" = _23kNEhF8;
-        "pkg-1.4" = _vV2zgK02;
-        "default" = _vV2zgK02;
+        "pkg-1.4" = _CiqpmVoi;
+        "default" = _CiqpmVoi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "upgraded-iron-chests";

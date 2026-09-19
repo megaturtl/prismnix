@@ -31,6 +31,11 @@ let
             "file" = "ModernCookieCraftBuildingHub-1.0.0.1-3.1.1.jar";
             "hash" = "sha512-U5DsLtZSg7ajxEIz5ZKlbT3qlA3SwX3FtQLCkwCGxl4als1dkOOaoBBGraq9L66wEASFSLIu8q8qENNB3p74Sw==";
         };
+        _ClP066wE = {
+            "id" = "ClP066wE";
+            "file" = "MCCBBMod_3.1.1._1.0.2.jar";
+            "hash" = "sha512-WNPzcMvlQrCIKmXhwr9rx9EAglloMWH8peG2jgOwlRXtKMSnzQ32tm+wGZ4z4y0WZJ/O2CTm3mwPvHQaSoUpMw==";
+        };
     in {
         "aWCqq3jG" = _aWCqq3jG;
         "FbUpYHOi" = _FbUpYHOi;
@@ -38,7 +43,8 @@ let
         "b60gkjy3" = _b60gkjy3;
         "O9edsNMa" = _O9edsNMa;
         "ihAs8ZSy" = _ihAs8ZSy;
-        "forge-1.20.1" = _O9edsNMa;
+        "ClP066wE" = _ClP066wE;
+        "forge-1.20.1" = _ClP066wE;
         "forge-1.19.2" = _hFdOntqI;
         "neoforge-1.20.4" = _FbUpYHOi;
         "neoforge-1.21.1" = _ihAs8ZSy;
@@ -46,7 +52,8 @@ let
         "pkg-3.1.1" = _FbUpYHOi;
         "pkg-1.0.0.1" = _b60gkjy3;
         "pkg-1.0.1_3.1.1" = _ihAs8ZSy;
-        "default" = _ihAs8ZSy;
+        "pkg-1.0.2_3.1.1" = _ClP066wE;
+        "default" = _ClP066wE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ccbb";

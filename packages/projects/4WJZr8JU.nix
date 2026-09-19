@@ -761,6 +761,16 @@ let
             "file" = "farmingforblockheads-neoforge-26.2-26.2.0.4.jar";
             "hash" = "sha512-h3FijBVMNAMz2Mibt/DiEIihEP2CV/splJtkq7oDc/j3XfRxGuQZ2Nls5tS98bTrNiP/Ic2ngT00fIFSi8rH5g==";
         };
+        _ylNmijhP = {
+            "id" = "ylNmijhP";
+            "file" = "farmingforblockheads-neoforge-26.3-26.3.0.1.jar";
+            "hash" = "sha512-J/RY3JX5+ZqVjbqq9llDSPrkpt7D7MPTl93zLt5Iinafj9A+VIBrXKn9mRnN64/khSu8oKE/+GtuO4GLin9Bfg==";
+        };
+        _MDsqMwvS = {
+            "id" = "MDsqMwvS";
+            "file" = "farmingforblockheads-fabric-26.3-26.3.0.1.jar";
+            "hash" = "sha512-qxx1kjscOLP5n4/ShmmHUa1LbDDKwE9r7br7QL3ifUTFoc6hS2a5ZEPM0Od7cHXDD1Fn3z3LJqEwd7HtRQ+7Uw==";
+        };
     in {
         "f4qrw19n" = _f4qrw19n;
         "IlBz0DWz" = _IlBz0DWz;
@@ -914,6 +924,8 @@ let
         "6zhL7Vix" = _6zhL7Vix;
         "pYMVKfIF" = _pYMVKfIF;
         "e89ouzl8" = _e89ouzl8;
+        "ylNmijhP" = _ylNmijhP;
+        "MDsqMwvS" = _MDsqMwvS;
         "fabric-1.19" = _iMKkndt7;
         "fabric-1.19.1" = _iMKkndt7;
         "fabric-1.19.2" = _iMKkndt7;
@@ -943,6 +955,7 @@ let
         "fabric-26.1.1" = _9jAeAuYO;
         "fabric-26.1.2" = _ZP4460xK;
         "fabric-26.2" = _pYMVKfIF;
+        "fabric-26.3" = _MDsqMwvS;
         "forge-1.19" = _R6kcqg01;
         "forge-1.19.1" = _R6kcqg01;
         "forge-1.19.2" = _R6kcqg01;
@@ -984,6 +997,7 @@ let
         "neoforge-26.1.1" = _vLoTXhbZ;
         "neoforge-26.1.2" = _6zhL7Vix;
         "neoforge-26.2" = _e89ouzl8;
+        "neoforge-26.3" = _ylNmijhP;
         "pkg-11.0.0+fabric-1.19" = _f4qrw19n;
         "pkg-11.0.0+forge-1.19" = _IlBz0DWz;
         "pkg-11.0.1+fabric-1.19" = _u9Vn4YtQ;
@@ -1136,7 +1150,9 @@ let
         "pkg-26.1.2.4+neoforge-26.1.2" = _6zhL7Vix;
         "pkg-26.2.0.4+fabric-26.2" = _pYMVKfIF;
         "pkg-26.2.0.4+neoforge-26.2" = _e89ouzl8;
-        "default" = _e89ouzl8;
+        "pkg-26.3.0.1+neoforge-26.3" = _ylNmijhP;
+        "pkg-26.3.0.1+fabric-26.3" = _MDsqMwvS;
+        "default" = _MDsqMwvS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "farming-for-blockheads";

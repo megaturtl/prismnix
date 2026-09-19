@@ -721,6 +721,16 @@ let
             "file" = "libjf-26.2.2+forge.jar";
             "hash" = "sha512-8OaCDfrEZPxqh38g3nWdhoHC/Z5EZy5dpdiVheg9pzJ+H5dn/xPa4H9EKM7dSRyOBn9vfDEOXce+bzQ1mDgrSg==";
         };
+        _fnZnyXaW = {
+            "id" = "fnZnyXaW";
+            "file" = "libjf-26.3.0.jar";
+            "hash" = "sha512-XBN9NmWErisfV5KEamteXMCScWyke05LMwf9M+DyXgi7OTu6z2I3E34ptFDxJxkD+c8BKou6b6tp88QnaP1+JQ==";
+        };
+        _7FqyFbZB = {
+            "id" = "7FqyFbZB";
+            "file" = "libjf-26.3.0+forge.jar";
+            "hash" = "sha512-p8HHJrhbm9SoHvreyEgEQm6RhJYSz8SnLBFjxQBVgwYT9fO7DnUVbsqbQnbtLpdqors9afuok3mFy/YdawS8AQ==";
+        };
     in {
         "TUqoYNVF" = _TUqoYNVF;
         "7a9qcRLy" = _7a9qcRLy;
@@ -866,6 +876,8 @@ let
         "X6T6G2ad" = _X6T6G2ad;
         "I5brbhNh" = _I5brbhNh;
         "51jIV9lt" = _51jIV9lt;
+        "fnZnyXaW" = _fnZnyXaW;
+        "7FqyFbZB" = _7FqyFbZB;
         "fabric-1.16.5" = _7a9qcRLy;
         "fabric-1.17" = _dOW0jmMj;
         "fabric-1.17.1" = _alxwWx6G;
@@ -900,6 +912,7 @@ let
         "fabric-26.1.1" = _Icy7xbUM;
         "fabric-26.1.2" = _X6T6G2ad;
         "fabric-26.2" = _I5brbhNh;
+        "fabric-26.3" = _fnZnyXaW;
         "neoforge-1.21.1" = _kCSwQJ9C;
         "neoforge-1.21.3" = _jyPo0pwK;
         "neoforge-1.21.4" = _3RAR4Rzx;
@@ -914,6 +927,7 @@ let
         "neoforge-26.1.1" = _uGnaJ4bw;
         "neoforge-26.1.2" = _OjH9Jj4a;
         "neoforge-26.2" = _51jIV9lt;
+        "neoforge-26.3" = _7FqyFbZB;
         "pkg-1.0.0" = _TUqoYNVF;
         "pkg-1.0.1" = _7a9qcRLy;
         "pkg-1.0.2" = _dOW0jmMj;
@@ -1058,7 +1072,9 @@ let
         "pkg-26.1.4" = _X6T6G2ad;
         "pkg-26.2.2" = _I5brbhNh;
         "pkg-26.2.2+forge" = _51jIV9lt;
-        "default" = _51jIV9lt;
+        "pkg-26.3.0" = _fnZnyXaW;
+        "pkg-26.3.0+forge" = _7FqyFbZB;
+        "default" = _7FqyFbZB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "libjf";

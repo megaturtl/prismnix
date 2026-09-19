@@ -166,6 +166,11 @@ let
             "file" = "flerovium-neoforge-1.21.1-1.1.2-all.jar";
             "hash" = "sha512-YwHqaZF2iDL6mD9h4bBXQzaupJIOAnYyo9+TyKEPXYcEGHb61RbRaCfZzROoS1qMM0waAHbKBBIeMhk51dbqUg==";
         };
+        _KmljALvq = {
+            "id" = "KmljALvq";
+            "file" = "flerovium-neoforge-1.21.1-1.1.3-all.jar";
+            "hash" = "sha512-A3/k5vYBy2KAwIihieuu+DwbnyiZPXigsj7FJckbISKY2jEwXLMhczY9r1N+rPM1ZsO55BTDXPjsXseySmoTeQ==";
+        };
     in {
         "xV17274J" = _xV17274J;
         "CyeWUEap" = _CyeWUEap;
@@ -200,8 +205,9 @@ let
         "Q5w50Bcp" = _Q5w50Bcp;
         "nBTmGp0v" = _nBTmGp0v;
         "oU1q3eIj" = _oU1q3eIj;
+        "KmljALvq" = _KmljALvq;
         "forge-1.20.1" = _nBTmGp0v;
-        "neoforge-1.21.1" = _oU1q3eIj;
+        "neoforge-1.21.1" = _KmljALvq;
         "pkg-1.2.6" = _xV17274J;
         "pkg-1.0.2" = _CyeWUEap;
         "pkg-1.0.3" = _D4BYF2aw;
@@ -235,7 +241,8 @@ let
         "pkg-1.1.1" = _Q5w50Bcp;
         "pkg-1.2.19" = _nBTmGp0v;
         "pkg-1.1.2" = _oU1q3eIj;
-        "default" = _oU1q3eIj;
+        "pkg-1.1.3" = _KmljALvq;
+        "default" = _KmljALvq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flerovium";

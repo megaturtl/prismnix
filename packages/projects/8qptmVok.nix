@@ -141,6 +141,16 @@ let
             "file" = "ImmersiveThunder-Reforged-forge-1.21.11-1.3.5.jar";
             "hash" = "sha512-9mR8myohlIAU/r5wts1Jlpaz7/Ou9iEy0N2FYq+keP4/kqw5D+6kYa0v9mY3ilXmfqVqXY3/KFYMyrkqqfob0w==";
         };
+        _ssaFV2Fu = {
+            "id" = "ssaFV2Fu";
+            "file" = "ImmersiveThunder-Reforged-neoforge-26.2-1.3.7.jar";
+            "hash" = "sha512-EIYoSiZOUJjSL0NBfnQxjOxXQp0yLyNeNYfkmSRpteWTVVtTNs1IPglSUp+f29PTYIiBgbtHvr4W1EKixFxnmg==";
+        };
+        _rhnBONjc = {
+            "id" = "rhnBONjc";
+            "file" = "ImmersiveThunder-Reforged-fabric-26.2-1.3.7.jar";
+            "hash" = "sha512-IjMMilr+sPSEgKiT97RdjdKHIvnwS70kOSlsMoEfY/+OsNAXpm3TuNiLSYBZgZDSfQG5t33af11ObZ5pR3wi9w==";
+        };
     in {
         "w8Fik5nu" = _w8Fik5nu;
         "wqYbnbU9" = _wqYbnbU9;
@@ -170,6 +180,8 @@ let
         "dfnZwIdd" = _dfnZwIdd;
         "KqJ75Jkc" = _KqJ75Jkc;
         "74PHBfVu" = _74PHBfVu;
+        "ssaFV2Fu" = _ssaFV2Fu;
+        "rhnBONjc" = _rhnBONjc;
         "fabric-1.21" = _4mr8xyLB;
         "fabric-1.21.1" = _4mr8xyLB;
         "fabric-1.21.2" = _4mr8xyLB;
@@ -185,6 +197,7 @@ let
         "fabric-26.1" = _RF5QLFsy;
         "fabric-26.1.1" = _RF5QLFsy;
         "fabric-26.1.2" = _RF5QLFsy;
+        "fabric-26.2" = _rhnBONjc;
         "neoforge-1.21.7" = _2KlfGGBv;
         "neoforge-1.21.8" = _KLz8QMfX;
         "neoforge-1.21.9" = _maQuWPAR;
@@ -193,6 +206,7 @@ let
         "neoforge-26.1" = _Ihycdxdj;
         "neoforge-26.1.1" = _Ihycdxdj;
         "neoforge-26.1.2" = _Ihycdxdj;
+        "neoforge-26.2" = _ssaFV2Fu;
         "forge-1.21.7" = _JJeHcneS;
         "forge-1.21.8" = _gAgn4WGr;
         "forge-1.21.9" = _dfnZwIdd;
@@ -214,7 +228,8 @@ let
         "pkg-1.3.5+1.21.9" = _dfnZwIdd;
         "pkg-1.3.5+1.21.10" = _KqJ75Jkc;
         "pkg-1.3.5+1.21.11" = _74PHBfVu;
-        "default" = _74PHBfVu;
+        "pkg-1.3.7+26.2" = _rhnBONjc;
+        "default" = _rhnBONjc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersivethunder-reforged";

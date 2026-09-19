@@ -141,6 +141,11 @@ let
             "file" = "Tropicraft-9.11.2.jar";
             "hash" = "sha512-/GcgFmwplFsXneVjckalTnJIDC/bVZ2GRcdseSSwHVDk+KIvD1X9kwTVfD/xtk/bo3EZVWM17AcQuQzkbUN0RQ==";
         };
+        _6jXcUKHX = {
+            "id" = "6jXcUKHX";
+            "file" = "Tropicraft-9.11.3.jar";
+            "hash" = "sha512-TjFYpa/HB9/oJZjzjK9Jeoone4bxH7AQzywp9S8z1Q4Qtkxk6D+8VPb5xrsjH4aeO81URaR0eq8o/GQie36M9Q==";
+        };
     in {
         "2laYrL0V" = _2laYrL0V;
         "byz4zluf" = _byz4zluf;
@@ -170,6 +175,7 @@ let
         "hKOxspOB" = _hKOxspOB;
         "ckFw9bt5" = _ckFw9bt5;
         "VmVwHY2o" = _VmVwHY2o;
+        "6jXcUKHX" = _6jXcUKHX;
         "forge-1.10.2" = _2laYrL0V;
         "forge-1.12.2" = _byz4zluf;
         "forge-1.14.4" = _mgyQQ7sR;
@@ -182,7 +188,7 @@ let
         "neoforge-1.21.1" = _20oDt9Q4;
         "neoforge-1.21.8" = _DU4im6Dy;
         "neoforge-26.1.2" = _jBtaT3wX;
-        "neoforge-26.2" = _VmVwHY2o;
+        "neoforge-26.2" = _6jXcUKHX;
         "pkg-7.0.3" = _2laYrL0V;
         "pkg-7.1.9" = _byz4zluf;
         "pkg-8.0.0" = _mgyQQ7sR;
@@ -211,7 +217,8 @@ let
         "pkg-9.11.0+26.2" = _hKOxspOB;
         "pkg-9.11.1+26.2" = _ckFw9bt5;
         "pkg-9.11.2+26.2" = _VmVwHY2o;
-        "default" = _VmVwHY2o;
+        "pkg-9.11.3+26.2" = _6jXcUKHX;
+        "default" = _6jXcUKHX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tropicraft";

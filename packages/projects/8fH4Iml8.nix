@@ -116,6 +116,16 @@ let
             "file" = "PuppetPlayers-2.0.1+26.2.jar";
             "hash" = "sha512-8m11Fn85p5az6kdjbou7OdHf8iW1/1l5Ump5nOImYhEn5jSVWuSYIf0HgsKj584FNOg2Lb6+afhi/9dpeysBsQ==";
         };
+        _XtebAvGv = {
+            "id" = "XtebAvGv";
+            "file" = "PuppetPlayers-2.0.2+26.2.jar";
+            "hash" = "sha512-njQs8nEFmBuSoaT78b4XCxqLFukFnlZiAot7lnWQCP1xFsFDphx/cTe1vUb9NtYe9sSJDSRkbyRG2KtO6BXeSA==";
+        };
+        _hE4I9elu = {
+            "id" = "hE4I9elu";
+            "file" = "PuppetPlayers-2.1.0+26.3.jar";
+            "hash" = "sha512-UZKw+qRHp+OYkGSmCnl6CZm9t2l+vOWDHbn5PS41/vkNy6dh+gxKac5pI7dLokZpdICq1om9+0Gh/DfmCqXl2Q==";
+        };
     in {
         "I5pPqqLW" = _I5pPqqLW;
         "oHbMOgKx" = _oHbMOgKx;
@@ -140,6 +150,8 @@ let
         "x2xNxp6T" = _x2xNxp6T;
         "nUL7daih" = _nUL7daih;
         "FiBFm99w" = _FiBFm99w;
+        "XtebAvGv" = _XtebAvGv;
+        "hE4I9elu" = _hE4I9elu;
         "fabric-1.21.5" = _I5pPqqLW;
         "fabric-1.21.6" = _oHbMOgKx;
         "fabric-1.21.7" = _oHbMOgKx;
@@ -150,7 +162,8 @@ let
         "fabric-26.1" = _PrLvosgu;
         "fabric-26.1.1" = _VC9z5Kky;
         "fabric-26.1.2" = _JaoWkgg0;
-        "fabric-26.2" = _FiBFm99w;
+        "fabric-26.2" = _XtebAvGv;
+        "fabric-26.3" = _hE4I9elu;
         "pkg-1.0.0+1.21.5" = _I5pPqqLW;
         "pkg-1.0.4+1.21.8" = _oHbMOgKx;
         "pkg-1.0.6+1.21.8" = _X9q5Ut86;
@@ -174,7 +187,9 @@ let
         "pkg-1.8.0+26.2" = _x2xNxp6T;
         "pkg-2.0.0+26.2" = _nUL7daih;
         "pkg-2.0.1+26.2" = _FiBFm99w;
-        "default" = _FiBFm99w;
+        "pkg-2.0.2+26.2" = _XtebAvGv;
+        "pkg-2.1.0+26.3" = _hE4I9elu;
+        "default" = _hE4I9elu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "puppet-players";

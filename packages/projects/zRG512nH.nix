@@ -51,6 +51,11 @@ let
             "file" = "Shulker Labels [v1.7.0].zip";
             "hash" = "sha512-AwdNgDNCUb0KQVP8QyIh6rpBTG0Djkt7Xbp6Qsi45CUcsyFaBZ0Ha85vYz4LGhOU7SzcrTD6MOZHyIEZkdJfOA==";
         };
+        _36QOEqlm = {
+            "id" = "36QOEqlm";
+            "file" = "Shulker Labels [v1.8.0].zip";
+            "hash" = "sha512-oTSi3mcGlR9yC/p6y/KfKSh3b6yzwHTN0sPNIHjXB11q6BCsgg5T20S9x5J05iWJpztzX94d+OTNWyh9Pqbrlw==";
+        };
     in {
         "zLkbLRJx" = _zLkbLRJx;
         "Nn4zWwOi" = _Nn4zWwOi;
@@ -62,17 +67,19 @@ let
         "up21Hh1F" = _up21Hh1F;
         "VvOGrp8v" = _VvOGrp8v;
         "WSU2AxHO" = _WSU2AxHO;
-        "minecraft-1.21.5" = _WSU2AxHO;
-        "minecraft-1.21.6" = _WSU2AxHO;
-        "minecraft-1.21.7" = _WSU2AxHO;
-        "minecraft-1.21.8" = _WSU2AxHO;
-        "minecraft-1.21.9" = _WSU2AxHO;
-        "minecraft-1.21.10" = _WSU2AxHO;
-        "minecraft-1.21.11" = _WSU2AxHO;
-        "minecraft-26.1" = _WSU2AxHO;
-        "minecraft-26.1.1" = _WSU2AxHO;
-        "minecraft-26.1.2" = _WSU2AxHO;
-        "minecraft-26.2" = _WSU2AxHO;
+        "36QOEqlm" = _36QOEqlm;
+        "minecraft-1.21.5" = _36QOEqlm;
+        "minecraft-1.21.6" = _36QOEqlm;
+        "minecraft-1.21.7" = _36QOEqlm;
+        "minecraft-1.21.8" = _36QOEqlm;
+        "minecraft-1.21.9" = _36QOEqlm;
+        "minecraft-1.21.10" = _36QOEqlm;
+        "minecraft-1.21.11" = _36QOEqlm;
+        "minecraft-26.1" = _36QOEqlm;
+        "minecraft-26.1.1" = _36QOEqlm;
+        "minecraft-26.1.2" = _36QOEqlm;
+        "minecraft-26.2" = _36QOEqlm;
+        "minecraft-26.3" = _36QOEqlm;
         "pkg-1.0.1" = _zLkbLRJx;
         "pkg-v1.1.0" = _Nn4zWwOi;
         "pkg-v1.2.0" = _qAoauIXY;
@@ -83,7 +90,8 @@ let
         "pkg-v1.5.0" = _up21Hh1F;
         "pkg-v1.6.0" = _VvOGrp8v;
         "pkg-v1.7.0" = _WSU2AxHO;
-        "default" = _WSU2AxHO;
+        "pkg-v1.8.0" = _36QOEqlm;
+        "default" = _36QOEqlm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shulker-labels";

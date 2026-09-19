@@ -61,6 +61,16 @@ let
             "file" = "rich-husk-mcmeta-95_26.1.jar";
             "hash" = "sha512-pjkZVU0EAeKwJy8QJisVHaOjH8STDCGSHNdj6OzwsDkACCYYFkNUCRP3F+olm1Ffvmq+1N2kw++kKhrprZSq4g==";
         };
+        _JCffVkXR = {
+            "id" = "JCffVkXR";
+            "file" = "Rich Husk-26.1-26.3.zip";
+            "hash" = "sha512-eoad5FT8SFWEi9vRh9twbNI3MJgusL7oijNHVwMHPcLo+Cz1mVTBpbUTVcUgZShNSTL//NLhIx41A+JY7RpmTA==";
+        };
+        _Z29uGJ07 = {
+            "id" = "Z29uGJ07";
+            "file" = "rich-husk-26.1-26.3.jar";
+            "hash" = "sha512-rYbTihO4pUf1k+sqV4OayBuS7jOV+FupUNgXabLvr7oCOc0sKOE6nAzImFqBzSDJf8f07nqZTWuHNG//jAmQOQ==";
+        };
     in {
         "taaCpwW5" = _taaCpwW5;
         "3LvlS69X" = _3LvlS69X;
@@ -74,6 +84,8 @@ let
         "OpGSH1Bf" = _OpGSH1Bf;
         "hvsURqFG" = _hvsURqFG;
         "mFViC6kG" = _mFViC6kG;
+        "JCffVkXR" = _JCffVkXR;
+        "Z29uGJ07" = _Z29uGJ07;
         "datapack-1.13" = _kkilh2CJ;
         "datapack-1.13.1" = _kkilh2CJ;
         "datapack-1.13.2" = _kkilh2CJ;
@@ -120,10 +132,11 @@ let
         "datapack-1.21.9" = _I37F82Kg;
         "datapack-1.21.10" = _I37F82Kg;
         "datapack-1.21.11" = _I37F82Kg;
-        "datapack-26.1" = _hvsURqFG;
-        "datapack-26.1.1" = _hvsURqFG;
-        "datapack-26.1.2" = _hvsURqFG;
-        "datapack-26.2" = _hvsURqFG;
+        "datapack-26.1" = _JCffVkXR;
+        "datapack-26.1.1" = _JCffVkXR;
+        "datapack-26.1.2" = _JCffVkXR;
+        "datapack-26.2" = _JCffVkXR;
+        "datapack-26.3" = _JCffVkXR;
         "fabric-1.13" = _B6g325v7;
         "fabric-1.13.1" = _B6g325v7;
         "fabric-1.13.2" = _B6g325v7;
@@ -170,10 +183,11 @@ let
         "fabric-1.21.9" = _OpGSH1Bf;
         "fabric-1.21.10" = _OpGSH1Bf;
         "fabric-1.21.11" = _OpGSH1Bf;
-        "fabric-26.1" = _mFViC6kG;
-        "fabric-26.1.1" = _mFViC6kG;
-        "fabric-26.1.2" = _mFViC6kG;
-        "fabric-26.2" = _mFViC6kG;
+        "fabric-26.1" = _Z29uGJ07;
+        "fabric-26.1.1" = _Z29uGJ07;
+        "fabric-26.1.2" = _Z29uGJ07;
+        "fabric-26.2" = _Z29uGJ07;
+        "fabric-26.3" = _Z29uGJ07;
         "forge-1.13" = _B6g325v7;
         "forge-1.13.1" = _B6g325v7;
         "forge-1.13.2" = _B6g325v7;
@@ -220,10 +234,11 @@ let
         "forge-1.21.9" = _OpGSH1Bf;
         "forge-1.21.10" = _OpGSH1Bf;
         "forge-1.21.11" = _OpGSH1Bf;
-        "forge-26.1" = _mFViC6kG;
-        "forge-26.1.1" = _mFViC6kG;
-        "forge-26.1.2" = _mFViC6kG;
-        "forge-26.2" = _mFViC6kG;
+        "forge-26.1" = _Z29uGJ07;
+        "forge-26.1.1" = _Z29uGJ07;
+        "forge-26.1.2" = _Z29uGJ07;
+        "forge-26.2" = _Z29uGJ07;
+        "forge-26.3" = _Z29uGJ07;
         "quilt-1.13" = _B6g325v7;
         "quilt-1.13.1" = _B6g325v7;
         "quilt-1.13.2" = _B6g325v7;
@@ -270,10 +285,11 @@ let
         "quilt-1.21.9" = _OpGSH1Bf;
         "quilt-1.21.10" = _OpGSH1Bf;
         "quilt-1.21.11" = _OpGSH1Bf;
-        "quilt-26.1" = _mFViC6kG;
-        "quilt-26.1.1" = _mFViC6kG;
-        "quilt-26.1.2" = _mFViC6kG;
-        "quilt-26.2" = _mFViC6kG;
+        "quilt-26.1" = _Z29uGJ07;
+        "quilt-26.1.1" = _Z29uGJ07;
+        "quilt-26.1.2" = _Z29uGJ07;
+        "quilt-26.2" = _Z29uGJ07;
+        "quilt-26.3" = _Z29uGJ07;
         "neoforge-1.21" = _bsAdJKCI;
         "neoforge-1.21.1" = _bsAdJKCI;
         "neoforge-1.21.2" = _bsAdJKCI;
@@ -286,10 +302,11 @@ let
         "neoforge-1.21.9" = _OpGSH1Bf;
         "neoforge-1.21.10" = _OpGSH1Bf;
         "neoforge-1.21.11" = _OpGSH1Bf;
-        "neoforge-26.1" = _mFViC6kG;
-        "neoforge-26.1.1" = _mFViC6kG;
-        "neoforge-26.1.2" = _mFViC6kG;
-        "neoforge-26.2" = _mFViC6kG;
+        "neoforge-26.1" = _Z29uGJ07;
+        "neoforge-26.1.1" = _Z29uGJ07;
+        "neoforge-26.1.2" = _Z29uGJ07;
+        "neoforge-26.2" = _Z29uGJ07;
+        "neoforge-26.3" = _Z29uGJ07;
         "pkg-mcmeta-4-26_1.13-1.20.4" = _taaCpwW5;
         "pkg-mcmeta-4-26_1.13-1.20.4+mod" = _3LvlS69X;
         "pkg-mcmeta-4-41_1.13-1.20.6" = _kkilh2CJ;
@@ -302,7 +319,9 @@ let
         "pkg-mcmeta-88_1.21.9+mod" = _OpGSH1Bf;
         "pkg-mcmeta-95_26.1" = _hvsURqFG;
         "pkg-mcmeta-95_26.1+mod" = _mFViC6kG;
-        "default" = _mFViC6kG;
+        "pkg-26.1-26.3" = _JCffVkXR;
+        "pkg-26.1-26.3+mod" = _Z29uGJ07;
+        "default" = _Z29uGJ07;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rich-husk";

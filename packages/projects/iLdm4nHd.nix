@@ -371,6 +371,11 @@ let
             "file" = "mobspropertiesrandomness-6.1.9.0.jar";
             "hash" = "sha512-42fRuUP3yvqqICk73oC04Bp5+zf1GYRFfScKr9sucmv1tdtSTHO9p7FY/u3yeTOJ17LzPluRJClHEsh2ULo4Xw==";
         };
+        _CXLfwWVJ = {
+            "id" = "CXLfwWVJ";
+            "file" = "mobspropertiesrandomness-6.1.10.0.jar";
+            "hash" = "sha512-m4KYvMKN2zOcbl0YYMQE7aBaARK7U01bWBZNDQsU+9ub5aRC48sZNWxhk/b92vEpMvWzHU0r02GYaqTNsg55BA==";
+        };
     in {
         "ylt1sg9N" = _ylt1sg9N;
         "WvLdhj6K" = _WvLdhj6K;
@@ -446,11 +451,12 @@ let
         "UYiPd3JI" = _UYiPd3JI;
         "e9yoywyb" = _e9yoywyb;
         "Hm79RoYs" = _Hm79RoYs;
+        "CXLfwWVJ" = _CXLfwWVJ;
         "forge-1.18.2" = _vqxOvqrF;
         "forge-1.19.2" = _WvLdhj6K;
         "forge-1.19.4" = _GlHyE1Wc;
         "forge-1.20.1" = _ppZ5cfS5;
-        "neoforge-1.21.1" = _Hm79RoYs;
+        "neoforge-1.21.1" = _CXLfwWVJ;
         "pkg-4.0.2" = _ylt1sg9N;
         "pkg-4.2.2" = _WvLdhj6K;
         "pkg-4.5.3" = _GlHyE1Wc;
@@ -522,7 +528,8 @@ let
         "pkg-6.1.7.2" = _UYiPd3JI;
         "pkg-6.1.8.0" = _e9yoywyb;
         "pkg-6.1.9.0" = _Hm79RoYs;
-        "default" = _Hm79RoYs;
+        "pkg-6.1.10.0" = _CXLfwWVJ;
+        "default" = _CXLfwWVJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mobs-properties-randomness";

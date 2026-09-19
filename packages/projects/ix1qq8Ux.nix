@@ -8426,6 +8426,21 @@ let
             "file" = "CrashAssistant-neoforge-26.2-1.11.12.jar";
             "hash" = "sha512-P7tdcjB0LvzsPGxrqdTsOEaMIjRihzY3TRx89xqTMAiTel3I8IKCweluWfW4erDGb/JZIA1vpCz0c1zZlpJsCg==";
         };
+        _f9DjpO2G = {
+            "id" = "f9DjpO2G";
+            "file" = "CrashAssistant-forge-26.2-26.3-1.11.13.jar";
+            "hash" = "sha512-XIvxdr7MGEy2E3rdghR/aFLWmz+NCzoJ5jJVNMKdMRfUzdX96enwmgRBfhGGi0JrV4RNaH5ga/P1ffhAl3dcAw==";
+        };
+        _siLE4Dq9 = {
+            "id" = "siLE4Dq9";
+            "file" = "CrashAssistant-fabric-26.2-26.3-1.11.13.jar";
+            "hash" = "sha512-b8lfKcT7hq5NBJlBvAtYS9RxDw44eonJaaOwId/VQl1UcN5ciBp8PM9IdikasNDT+OMyGzbAfaGfr/C+nUbseQ==";
+        };
+        _euJz5yPX = {
+            "id" = "euJz5yPX";
+            "file" = "CrashAssistant-neoforge-26.2-26.3-1.11.13.jar";
+            "hash" = "sha512-PRSDGgvmoUCiUS9HYcLW90mqiKSYLNSqVcQhXx3xccvZKG/E1B3dL/JiPIly4ko7ch5TQIZX+NWumj3FN+f+VQ==";
+        };
     in {
         "hWpStWXF" = _hWpStWXF;
         "xi5DzJ7q" = _xi5DzJ7q;
@@ -10112,6 +10127,9 @@ let
         "DkwYE3wT" = _DkwYE3wT;
         "i9RTpEjU" = _i9RTpEjU;
         "bEEQFVP1" = _bEEQFVP1;
+        "f9DjpO2G" = _f9DjpO2G;
+        "siLE4Dq9" = _siLE4Dq9;
+        "euJz5yPX" = _euJz5yPX;
         "fabric-1.19.2" = _lUVoOA8s;
         "fabric-1.19.3" = _lUVoOA8s;
         "fabric-1.19.4" = _lUVoOA8s;
@@ -10180,7 +10198,8 @@ let
         "fabric-26.2-snapshot-1" = _FMH9oihL;
         "fabric-26.1.2-rc-1" = _FMH9oihL;
         "fabric-26.1.2" = _d6c8DAqR;
-        "fabric-26.2" = _i9RTpEjU;
+        "fabric-26.2" = _siLE4Dq9;
+        "fabric-26.3" = _siLE4Dq9;
         "forge-1.19.2" = _1UfKorj6;
         "forge-1.19.3" = _1UfKorj6;
         "forge-1.19.4" = _1UfKorj6;
@@ -10237,7 +10256,8 @@ let
         "forge-26.2-snapshot-1" = _JqGglwOR;
         "forge-26.1.2-rc-1" = _JqGglwOR;
         "forge-26.1.2" = _xZViEiHv;
-        "forge-26.2" = _DkwYE3wT;
+        "forge-26.2" = _f9DjpO2G;
+        "forge-26.3" = _f9DjpO2G;
         "neoforge-1.19.2" = _1UfKorj6;
         "neoforge-1.19.3" = _1UfKorj6;
         "neoforge-1.19.4" = _1UfKorj6;
@@ -10285,7 +10305,8 @@ let
         "neoforge-26.2-snapshot-1" = _GSskdGeM;
         "neoforge-26.1.2-rc-1" = _GSskdGeM;
         "neoforge-26.1.2" = _1hBMKzCk;
-        "neoforge-26.2" = _bEEQFVP1;
+        "neoforge-26.2" = _euJz5yPX;
+        "neoforge-26.3" = _euJz5yPX;
         "quilt-1.19.2" = _lUVoOA8s;
         "quilt-1.19.3" = _lUVoOA8s;
         "quilt-1.19.4" = _lUVoOA8s;
@@ -10346,7 +10367,8 @@ let
         "quilt-26.2-snapshot-1" = _FMH9oihL;
         "quilt-26.1.2-rc-1" = _FMH9oihL;
         "quilt-26.1.2" = _d6c8DAqR;
-        "quilt-26.2" = _i9RTpEjU;
+        "quilt-26.2" = _siLE4Dq9;
+        "quilt-26.3" = _siLE4Dq9;
         "legacy-fabric-1.7.10" = _Mt8SSLPL;
         "legacy-fabric-1.8.9" = _53248Chv;
         "legacy-fabric-1.9.4" = _C5MqzpgS;
@@ -10496,7 +10518,8 @@ let
         "pkg-1.11.10" = _kut7TAla;
         "pkg-1.11.11" = _Z3o6SnNQ;
         "pkg-1.11.12" = _bEEQFVP1;
-        "default" = _bEEQFVP1;
+        "pkg-1.11.13" = _euJz5yPX;
+        "default" = _euJz5yPX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crash-assistant";

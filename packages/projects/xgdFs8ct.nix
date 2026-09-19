@@ -661,6 +661,51 @@ let
             "file" = "sodiumfpscapfix-neoforge-26.2-1.0.32.jar";
             "hash" = "sha512-cQ84cTkXZA19owi78w/Am0Kwmq6lpJnGiDD8LbYiBnKPmx2N05sX8b5e05lUCjBs3T0trsUiLU78rEhEkJqhSQ==";
         };
+        _JCYUvU4q = {
+            "id" = "JCYUvU4q";
+            "file" = "sodiumfpscapfix-fabric-1.20.1-1.0.33.jar";
+            "hash" = "sha512-cgxJG9Nm8vRZl2nqz2+W4yjh1mtPi0B+8rZYs66QyvohMbwYTjK8MjEw7dOzJ8ptVo61f51pvbYg+evuzB2uZg==";
+        };
+        _cSA9H3f5 = {
+            "id" = "cSA9H3f5";
+            "file" = "sodiumfpscapfix-fabric-1.21.1-1.0.33.jar";
+            "hash" = "sha512-davdpu1TJEOGQOFsZt6Vjcq1ZNQYPvT6z0HaDfbYJV/odi1ggDYbu8xZVWJlkjwsJIUEbK1WEoeNrChGXDb/Kw==";
+        };
+        _YNOkkkG9 = {
+            "id" = "YNOkkkG9";
+            "file" = "sodiumfpscapfix-fabric-1.21.11-1.0.33.jar";
+            "hash" = "sha512-QBqQmw63JXXPvSrTSvbO81T1AS7eqeGahUweet+RU4XzGmhH48mSH0hj3EdLPUmfFJe3zIQTYQcsr2QdOH1P9Q==";
+        };
+        _T2mOYYqs = {
+            "id" = "T2mOYYqs";
+            "file" = "sodiumfpscapfix-fabric-26.1.2-1.0.33.jar";
+            "hash" = "sha512-F21BuP8XRcaOsYaMFFbxvejIjwfyRBk3LqQ53GWefxeol4KlQ3KIUiTSxXWDICcCYmg8N0uvf3Sus27QGmoldA==";
+        };
+        _TBwksi8T = {
+            "id" = "TBwksi8T";
+            "file" = "sodiumfpscapfix-fabric-26.2-1.0.33.jar";
+            "hash" = "sha512-kzEsBlcPSXh/1BtK0XFXDWmiAignEzP9/G2PFjsYWMe4i6aNQJIIa/WzBtnCD/jYrU0Cjer6PCPPk+nmomOw4w==";
+        };
+        _khA9SA5w = {
+            "id" = "khA9SA5w";
+            "file" = "sodiumfpscapfix-neoforge-1.21.1-1.0.33.jar";
+            "hash" = "sha512-7oTxArSi2SFpRISWlDO5C64bNuEB+JTPx0cdRiE7cGjbPPgYP2YlDfhPeIeYywfO7oiujsQ7K3FGuWG0N1DfSw==";
+        };
+        _KDm4XLUw = {
+            "id" = "KDm4XLUw";
+            "file" = "sodiumfpscapfix-neoforge-1.21.11-1.0.33.jar";
+            "hash" = "sha512-ZyiU00/K0rifHx8KT2aAZJoxKhR3St8pPihAHClM6vgm9j8VDnrKpPNzigEu8p08uKJj29+xcY/ccb1GmvfJCw==";
+        };
+        _G0HkeHiy = {
+            "id" = "G0HkeHiy";
+            "file" = "sodiumfpscapfix-neoforge-26.1.2-1.0.33.jar";
+            "hash" = "sha512-JLhbf0qCNEf9VzOi4z82zW0O17eLgQ51D6wsGEtQWoY/nODFXy8IWC+RfZVwkGxocopJmC2VOncyVVfyV2zKoA==";
+        };
+        _3F8D9aPk = {
+            "id" = "3F8D9aPk";
+            "file" = "sodiumfpscapfix-neoforge-26.2-1.0.33.jar";
+            "hash" = "sha512-Wu6BGJGCZ17PfsPZLBY1u5bLcBN93DBwpu7qBvcIzYplQ6lXAPRuULm61rypCyy+D1ETDrrgb1AasJqd76fJkg==";
+        };
     in {
         "kVnfbND8" = _kVnfbND8;
         "7CCevupl" = _7CCevupl;
@@ -794,15 +839,24 @@ let
         "L8ZJLJn0" = _L8ZJLJn0;
         "vaeontiI" = _vaeontiI;
         "L0vLYKZk" = _L0vLYKZk;
-        "fabric-1.20.1" = _YiVGX9Ua;
-        "fabric-1.21.1" = _S3WPvV9u;
-        "fabric-1.21.11" = _JS1jOJ1M;
-        "fabric-26.1.2" = _u5pcFIMu;
-        "fabric-26.2" = _SSqRgq3m;
-        "neoforge-1.21.1" = _BpXxGtrK;
-        "neoforge-1.21.11" = _L8ZJLJn0;
-        "neoforge-26.1.2" = _vaeontiI;
-        "neoforge-26.2" = _L0vLYKZk;
+        "JCYUvU4q" = _JCYUvU4q;
+        "cSA9H3f5" = _cSA9H3f5;
+        "YNOkkkG9" = _YNOkkkG9;
+        "T2mOYYqs" = _T2mOYYqs;
+        "TBwksi8T" = _TBwksi8T;
+        "khA9SA5w" = _khA9SA5w;
+        "KDm4XLUw" = _KDm4XLUw;
+        "G0HkeHiy" = _G0HkeHiy;
+        "3F8D9aPk" = _3F8D9aPk;
+        "fabric-1.20.1" = _JCYUvU4q;
+        "fabric-1.21.1" = _cSA9H3f5;
+        "fabric-1.21.11" = _YNOkkkG9;
+        "fabric-26.1.2" = _T2mOYYqs;
+        "fabric-26.2" = _TBwksi8T;
+        "neoforge-1.21.1" = _khA9SA5w;
+        "neoforge-1.21.11" = _KDm4XLUw;
+        "neoforge-26.1.2" = _G0HkeHiy;
+        "neoforge-26.2" = _3F8D9aPk;
         "pkg-1.0.0" = _4mmghOM2;
         "pkg-1.0.9" = _4SazaXpf;
         "pkg-1.0.10" = _Jswk0w7f;
@@ -823,7 +877,8 @@ let
         "pkg-1.0.30" = _eLf9mz6x;
         "pkg-1.0.31" = _lHHI3r56;
         "pkg-1.0.32" = _L0vLYKZk;
-        "default" = _L0vLYKZk;
+        "pkg-1.0.33" = _3F8D9aPk;
+        "default" = _3F8D9aPk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sodiumfpscapfix";

@@ -2101,6 +2101,21 @@ let
             "file" = "oregrowth-1.2.0-neoforge-mc26.2.jar";
             "hash" = "sha512-z5uUmvzdux2ASyQ0FEGJFYmQj4VxeNzjS8T3LBeByr7R17EUl0zOlYxPk643+2qsjGE/V1lwyNUCqr4PoHVH8A==";
         };
+        _2AGAh3wx = {
+            "id" = "2AGAh3wx";
+            "file" = "oregrowth-1.2.0a-neoforge-mc26.2.jar";
+            "hash" = "sha512-JhzTNP/JIqu9v6xeOwhMcCRg2F7ZdOA1WSSiA3AtKmOgIEdkf+i4Ayvmllch6eIDSoaRxoEcwKTn8T8W2KJ1RQ==";
+        };
+        _BBv19PHC = {
+            "id" = "BBv19PHC";
+            "file" = "oregrowth-1.2.0-fabric-mc26.3.jar";
+            "hash" = "sha512-O6iDCgI4NazmGc1PY0zzUJtD4kOESfV4tM/2sAFmFMqd9dwpX/PiXoZeF26iyHGLjTkNFS9Zizj4gFZBuoWK3g==";
+        };
+        _QKJZWUj2 = {
+            "id" = "QKJZWUj2";
+            "file" = "oregrowth-1.2.0-neoforge-mc26.3.jar";
+            "hash" = "sha512-tuO6M0wmLAymS/vYEYLhVK08JOZLPEEcb94Vjen1WQ/pYYh6t0XgbHBKyQ6DUbSlmXK3BcI8Zo6bKV2xQkeHlg==";
+        };
     in {
         "Hqr9BiR3" = _Hqr9BiR3;
         "d1q2lpzM" = _d1q2lpzM;
@@ -2522,6 +2537,9 @@ let
         "Oz4ba35o" = _Oz4ba35o;
         "2ms0Rri2" = _2ms0Rri2;
         "wXjRwGyR" = _wXjRwGyR;
+        "2AGAh3wx" = _2AGAh3wx;
+        "BBv19PHC" = _BBv19PHC;
+        "QKJZWUj2" = _QKJZWUj2;
         "forge-1.18" = _Ptr0ePab;
         "forge-1.18.1" = _Ptr0ePab;
         "forge-1.18.2" = _Ptr0ePab;
@@ -2583,7 +2601,8 @@ let
         "neoforge-26.1" = _2ms0Rri2;
         "neoforge-26.1.1" = _2ms0Rri2;
         "neoforge-26.1.2" = _2ms0Rri2;
-        "neoforge-26.2" = _wXjRwGyR;
+        "neoforge-26.2" = _2AGAh3wx;
+        "neoforge-26.3" = _QKJZWUj2;
         "fabric-1.18" = _biuK45Tr;
         "fabric-1.18.1" = _biuK45Tr;
         "fabric-1.18.2" = _biuK45Tr;
@@ -2614,6 +2633,7 @@ let
         "fabric-26.1.1" = _yvtEUbDq;
         "fabric-26.1.2" = _yvtEUbDq;
         "fabric-26.2" = _uiowFzue;
+        "fabric-26.3" = _BBv19PHC;
         "quilt-1.18" = _biuK45Tr;
         "quilt-1.18.1" = _biuK45Tr;
         "quilt-1.18.2" = _biuK45Tr;
@@ -2644,6 +2664,7 @@ let
         "quilt-26.1.1" = _yvtEUbDq;
         "quilt-26.1.2" = _yvtEUbDq;
         "quilt-26.2" = _uiowFzue;
+        "quilt-26.3" = _BBv19PHC;
         "pkg-1.0.0-forge-mc1.18" = _Hqr9BiR3;
         "pkg-1.0.0-forge-mc1.19.2" = _d1q2lpzM;
         "pkg-1.0.0-forge-mc1.19.4" = _IY3bougI;
@@ -3060,7 +3081,10 @@ let
         "pkg-1.2.0-neoforge-mc1.21.11" = _Oz4ba35o;
         "pkg-1.2.0-neoforge-mc26.1" = _2ms0Rri2;
         "pkg-1.2.0-neoforge-mc26.2" = _wXjRwGyR;
-        "default" = _wXjRwGyR;
+        "pkg-1.2.0a-neoforge-mc26.2" = _2AGAh3wx;
+        "pkg-1.2.0-fabric-mc26.3" = _BBv19PHC;
+        "pkg-1.2.0-neoforge-mc26.3" = _QKJZWUj2;
+        "default" = _QKJZWUj2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ore-growth";

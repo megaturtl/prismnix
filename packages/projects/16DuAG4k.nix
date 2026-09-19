@@ -186,6 +186,21 @@ let
             "file" = "create_bic_bit-1.0.2C.jar";
             "hash" = "sha512-WDVQRCYduOBIMDe8QshmGxSH1gd+SdCy3VGDABl3F00d0j1gdhuh8tzXRiKPtmUnfKF5vE3A9a+BdZOaCXhRxg==";
         };
+        _1Pjo9Fow = {
+            "id" = "1Pjo9Fow";
+            "file" = "create_bitterballen+1.20.1-1.0.4.jar";
+            "hash" = "sha512-eVnM/PH6lX9UKESq0wKDZoTNyXjAHMqJgA6EzinP7tpFnsVQEsIQh6EEF4EUFIk8MkmX7m8d3pQio78x2XlS8w==";
+        };
+        _xzyCq3rq = {
+            "id" = "xzyCq3rq";
+            "file" = "create_bitterballen+1.20.1-fabric-1.0.4.jar";
+            "hash" = "sha512-NSqil+xB2QldV/dL0Gvi2WsCuXoMnKKDjHnrxgOzcjYAli8NiLr+UUFLk8/33AK1aEAW65BrqvN+8JjDaXsVQQ==";
+        };
+        _ivtKd3YL = {
+            "id" = "ivtKd3YL";
+            "file" = "create_bitterballen+1.21.1-1.0.4.jar";
+            "hash" = "sha512-REZxPOIhGQfU/E4S9oF2sGzTbYaa54PJgkGMY853lTwWUz/mjrEC0x8H/xw2TGOD9MCpQKC/WngSJ7qW/OSBDg==";
+        };
     in {
         "fpVm4lp1" = _fpVm4lp1;
         "OKBkhARc" = _OKBkhARc;
@@ -224,13 +239,16 @@ let
         "bvKUoxNq" = _bvKUoxNq;
         "549nOFOk" = _549nOFOk;
         "15wUZ9Rw" = _15wUZ9Rw;
-        "forge-1.20.1" = _bvKUoxNq;
+        "1Pjo9Fow" = _1Pjo9Fow;
+        "xzyCq3rq" = _xzyCq3rq;
+        "ivtKd3YL" = _ivtKd3YL;
+        "forge-1.20.1" = _1Pjo9Fow;
         "forge-1.19.2" = _wR7c69Rk;
-        "fabric-1.20.1" = _odRnaQxT;
+        "fabric-1.20.1" = _xzyCq3rq;
         "fabric-1.20.2" = _GVZdlAuY;
         "fabric-1.20.3" = _GVZdlAuY;
         "fabric-1.20.4" = _GVZdlAuY;
-        "neoforge-1.21.1" = _15wUZ9Rw;
+        "neoforge-1.21.1" = _ivtKd3YL;
         "pkg-0.0.55" = _OKBkhARc;
         "pkg-0.0.60" = _xuMVcO9M;
         "pkg-0.0.61" = _sxIehG5M;
@@ -256,7 +274,10 @@ let
         "pkg-1.0.2" = _UbcwJDUn;
         "pkg-1.0.2B" = _549nOFOk;
         "pkg-1.0.2C" = _15wUZ9Rw;
-        "default" = _15wUZ9Rw;
+        "pkg-1.0.4+1.20.1-forge" = _1Pjo9Fow;
+        "pkg-1.0.4+1.20.1-fabric" = _xzyCq3rq;
+        "pkg-1.0.4+1.21.1-neoforge" = _ivtKd3YL;
+        "default" = _ivtKd3YL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-bitterballen";

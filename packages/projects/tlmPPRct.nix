@@ -11,13 +11,20 @@ let
             "file" = "createfirefightingadd-0.2.1-beta (1).jar";
             "hash" = "sha512-woKrDVoFHrjUPgkY7rqkWiyI6io14J+WcO+R92KSph0fV+QgodtgPK9wJPzI5izKQ3PdEYmAfoAGM4NrwOdTlQ==";
         };
+        _YFgJxrNf = {
+            "id" = "YFgJxrNf";
+            "file" = "createfirefightingadd-0.2.3-beta.jar";
+            "hash" = "sha512-deRh533vlZcs6BNbcFmwsM3qfoCSVsYrT6JefomFhg0+Ly6JepcbtKkvP+PlG0CyMfTbMRrwGBwS08Fhyp3NVA==";
+        };
     in {
         "S0HrjOdG" = _S0HrjOdG;
         "s0eGgxnc" = _s0eGgxnc;
-        "neoforge-1.21.1" = _s0eGgxnc;
+        "YFgJxrNf" = _YFgJxrNf;
+        "neoforge-1.21.1" = _YFgJxrNf;
         "pkg-0.1.9-beta" = _S0HrjOdG;
         "pkg-0.2.1-beta" = _s0eGgxnc;
-        "default" = _s0eGgxnc;
+        "pkg-0.2.3-beta" = _YFgJxrNf;
+        "default" = _YFgJxrNf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-firefighting-additions";

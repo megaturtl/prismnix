@@ -96,6 +96,11 @@ let
             "file" = "Leaf Litter Recolor.zip";
             "hash" = "sha512-1oWeuqjP/gutNwPQazgdTsetIKUJ5vLAigkhPZy/dI+eY9XhixN325H2mRDSW4gDPgrYJBZJuVoDCni2yC/YOw==";
         };
+        _mnGrDx1L = {
+            "id" = "mnGrDx1L";
+            "file" = "Leaf_Litter_Recolor.zip";
+            "hash" = "sha512-sRvrQBu6QkKLdLzym3midnjyqWydqwkp3oTh8bo9e9rvCc+UTAMv/kWUx+W4Qjalfo8d38F68ZAtb7OnkMoUqw==";
+        };
     in {
         "dD2PfslQ" = _dD2PfslQ;
         "o7yNIGKE" = _o7yNIGKE;
@@ -116,6 +121,7 @@ let
         "tDmYmct7" = _tDmYmct7;
         "jCQ5ddZC" = _jCQ5ddZC;
         "QKcUEIE1" = _QKcUEIE1;
+        "mnGrDx1L" = _mnGrDx1L;
         "minecraft-25w02a" = _AWLU2sOA;
         "minecraft-25w03a" = _AWLU2sOA;
         "minecraft-25w04a" = _AWLU2sOA;
@@ -131,7 +137,7 @@ let
         "minecraft-1.21.5-pre3" = _AWLU2sOA;
         "minecraft-1.21.5-rc1" = _AWLU2sOA;
         "minecraft-1.21.5-rc2" = _AWLU2sOA;
-        "minecraft-1.21.5" = _QKcUEIE1;
+        "minecraft-1.21.5" = _mnGrDx1L;
         "minecraft-25w14craftmine" = _jCQ5ddZC;
         "minecraft-25w15a" = _jCQ5ddZC;
         "minecraft-25w16a" = _jCQ5ddZC;
@@ -144,12 +150,12 @@ let
         "minecraft-1.21.6-pre2" = _jCQ5ddZC;
         "minecraft-1.21.6-pre3" = _jCQ5ddZC;
         "minecraft-1.21.6-pre4" = _jCQ5ddZC;
-        "minecraft-1.21.6" = _QKcUEIE1;
+        "minecraft-1.21.6" = _mnGrDx1L;
         "minecraft-1.21.7-rc1" = _jCQ5ddZC;
         "minecraft-1.21.7-rc2" = _jCQ5ddZC;
-        "minecraft-1.21.7" = _QKcUEIE1;
+        "minecraft-1.21.7" = _mnGrDx1L;
         "minecraft-1.21.8-rc1" = _jCQ5ddZC;
-        "minecraft-1.21.8" = _QKcUEIE1;
+        "minecraft-1.21.8" = _mnGrDx1L;
         "minecraft-1.21.6-rc1" = _jCQ5ddZC;
         "minecraft-25w31a" = _jCQ5ddZC;
         "minecraft-25w32a" = _jCQ5ddZC;
@@ -165,9 +171,9 @@ let
         "minecraft-1.21.9-pre3" = _jCQ5ddZC;
         "minecraft-1.21.9-pre4" = _jCQ5ddZC;
         "minecraft-1.21.9-rc1" = _jCQ5ddZC;
-        "minecraft-1.21.9" = _QKcUEIE1;
+        "minecraft-1.21.9" = _mnGrDx1L;
         "minecraft-1.21.10-rc1" = _jCQ5ddZC;
-        "minecraft-1.21.10" = _QKcUEIE1;
+        "minecraft-1.21.10" = _mnGrDx1L;
         "minecraft-25w41a" = _jCQ5ddZC;
         "minecraft-25w42a" = _jCQ5ddZC;
         "minecraft-25w43a" = _jCQ5ddZC;
@@ -175,11 +181,23 @@ let
         "minecraft-25w45a" = _jCQ5ddZC;
         "minecraft-25w46a" = _jCQ5ddZC;
         "minecraft-1.21.11-pre1" = _jCQ5ddZC;
-        "minecraft-1.21.11" = _QKcUEIE1;
-        "minecraft-26.1" = _QKcUEIE1;
-        "minecraft-26.1.1" = _QKcUEIE1;
-        "minecraft-26.1.2" = _QKcUEIE1;
-        "minecraft-26.2" = _QKcUEIE1;
+        "minecraft-1.21.11" = _mnGrDx1L;
+        "minecraft-26.1" = _mnGrDx1L;
+        "minecraft-26.1.1" = _mnGrDx1L;
+        "minecraft-26.1.2" = _mnGrDx1L;
+        "minecraft-26.2" = _mnGrDx1L;
+        "minecraft-26.3-snapshot-1" = _mnGrDx1L;
+        "minecraft-26.3-snapshot-2" = _mnGrDx1L;
+        "minecraft-26.3-snapshot-3" = _mnGrDx1L;
+        "minecraft-26.3-snapshot-4" = _mnGrDx1L;
+        "minecraft-26.3-snapshot-5" = _mnGrDx1L;
+        "minecraft-26.3-snapshot-6" = _mnGrDx1L;
+        "minecraft-26.3-snapshot-7" = _mnGrDx1L;
+        "minecraft-26.3-snapshot-8" = _mnGrDx1L;
+        "minecraft-26.3-snapshot-9" = _mnGrDx1L;
+        "minecraft-26.3-snapshot-10" = _mnGrDx1L;
+        "minecraft-26.3-pre-1" = _mnGrDx1L;
+        "minecraft-26.3-pre-2" = _mnGrDx1L;
         "pkg-0.1" = _rrGMb0Ar;
         "pkg-0.2" = _RDt498Rs;
         "pkg-0.3" = _nhGqp1nY;
@@ -188,7 +206,8 @@ let
         "pkg-0.6" = _tDmYmct7;
         "pkg-0.7" = _jCQ5ddZC;
         "pkg-0.8" = _QKcUEIE1;
-        "default" = _QKcUEIE1;
+        "pkg-0.9" = _mnGrDx1L;
+        "default" = _mnGrDx1L;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "leaf-litter-recolor";

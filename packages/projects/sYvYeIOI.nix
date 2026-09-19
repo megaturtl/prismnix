@@ -136,6 +136,11 @@ let
             "file" = "chiseled-stone-brick-fix-26.2-88.0.zip";
             "hash" = "sha512-+lZXlxdMJBfKCh0WZmG3oMW8WIR4C5tvlZscv9cnbU9OAKSizIxI/ovlqMOPjfaoUeR0ueTk6XX+FcC5yS+MDg==";
         };
+        _NO0Cdn4n = {
+            "id" = "NO0Cdn4n";
+            "file" = "chiseled-stone-brick-fix-1.0.0-mc26.3.zip";
+            "hash" = "sha512-PCmIYcYX+w8lXqqrpMTi5dr2FUwDo8aOvm+MdkqOlhFZD7alzHzwqW4kLahcpu1rUGUU0cKZvW7sLjK89hD+dQ==";
+        };
     in {
         "C3HIokO0" = _C3HIokO0;
         "PVbs3Ptt" = _PVbs3Ptt;
@@ -164,6 +169,7 @@ let
         "Oi628BxB" = _Oi628BxB;
         "7ab5nUfy" = _7ab5nUfy;
         "FU6qEnp6" = _FU6qEnp6;
+        "NO0Cdn4n" = _NO0Cdn4n;
         "minecraft-1.19.3" = _oLtb8hRf;
         "minecraft-1.6.1" = _PVbs3Ptt;
         "minecraft-1.6.2" = _PVbs3Ptt;
@@ -253,6 +259,7 @@ let
         "minecraft-26.1.1" = _7ab5nUfy;
         "minecraft-26.1.2" = _7ab5nUfy;
         "minecraft-26.2" = _FU6qEnp6;
+        "minecraft-26.3" = _NO0Cdn4n;
         "pkg-v12" = _C3HIokO0;
         "pkg-v1.1" = _PVbs3Ptt;
         "pkg-v2.1" = _q4BPWs4v;
@@ -280,7 +287,8 @@ let
         "pkg-75.0" = _Oi628BxB;
         "pkg-84.0" = _7ab5nUfy;
         "pkg-88.0" = _FU6qEnp6;
-        "default" = _FU6qEnp6;
+        "pkg-1.0.0" = _NO0Cdn4n;
+        "default" = _NO0Cdn4n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chiseled-stone-brick-fix";

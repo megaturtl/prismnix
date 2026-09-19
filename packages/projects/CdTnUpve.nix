@@ -86,6 +86,21 @@ let
             "file" = "herenthere-neoforge-1.103.0+26.2.jar";
             "hash" = "sha512-TzkCvFhot0mH0XE7tO0/ZeRv5L00gWy1RqIKyNz2DZMUtqXR20GG6QZ6HTf/cVnthkG6F/ngZzkJE0i5+MsuVA==";
         };
+        _Of3NiFky = {
+            "id" = "Of3NiFky";
+            "file" = "herenthere-fabric-3.104.0-beta.1+26.3-rc-2.jar";
+            "hash" = "sha512-A7AY6f2lQWIgBdcfeR2ETfOA5NgMk1FTNJdfTQ9a8qpeWu7yDfisJezUxF4IGrV1B4jcEZAPw3/EEC6DUdAGCg==";
+        };
+        _NSrBS40o = {
+            "id" = "NSrBS40o";
+            "file" = "herenthere-fabric-3.104.0+26.3.jar";
+            "hash" = "sha512-pgAMoDTMXZxdHPxJhkLWHxwN9VZtFIUm+UVJlzJ24jaRUaNaBNIWIOOc4l8zofX71NraDyfUT6X0XoVilXXf/w==";
+        };
+        _seVP5YVt = {
+            "id" = "seVP5YVt";
+            "file" = "herenthere-neoforge-3.104.0+26.3.jar";
+            "hash" = "sha512-ly7hn4+/0b5Dp93bdbdCkiqXGet13U+Sa4US3qpVQXtL8YAQ9rYwg/r3pIs0/x1jHwwXM4pLDS0kBET1T62Riw==";
+        };
     in {
         "ix53DwMW" = _ix53DwMW;
         "J0mxZbxC" = _J0mxZbxC;
@@ -104,6 +119,9 @@ let
         "F2F6FJJk" = _F2F6FJJk;
         "2lTSQwas" = _2lTSQwas;
         "N9wgWcMJ" = _N9wgWcMJ;
+        "Of3NiFky" = _Of3NiFky;
+        "NSrBS40o" = _NSrBS40o;
+        "seVP5YVt" = _seVP5YVt;
         "fabric-1.21" = _ix53DwMW;
         "fabric-1.21.1" = _ix53DwMW;
         "fabric-1.21.2" = _ix53DwMW;
@@ -126,6 +144,9 @@ let
         "fabric-26.2-rc-1" = _wHZRIs09;
         "fabric-26.2-rc-2" = _wHZRIs09;
         "fabric-26.2" = _2lTSQwas;
+        "fabric-26.3-rc-2" = _Of3NiFky;
+        "fabric-26.3-rc-3" = _Of3NiFky;
+        "fabric-26.3" = _NSrBS40o;
         "neoforge-1.21" = _J0mxZbxC;
         "neoforge-1.21.1" = _J0mxZbxC;
         "neoforge-1.21.2" = _J0mxZbxC;
@@ -142,6 +163,7 @@ let
         "neoforge-26.1.1" = _F2F6FJJk;
         "neoforge-26.1.2" = _F2F6FJJk;
         "neoforge-26.2" = _N9wgWcMJ;
+        "neoforge-26.3" = _seVP5YVt;
         "pkg-0.6.0+1.21.1" = _J0mxZbxC;
         "pkg-0.6.0+1.21.9" = _Wnks1LLo;
         "pkg-0.6.0+1.21.11" = _65e6uRj6;
@@ -151,7 +173,9 @@ let
         "pkg-1.3.0-beta.1+26.2-pre-2" = _wHZRIs09;
         "pkg-1.102.1+26.1.2" = _F2F6FJJk;
         "pkg-1.103.0+26.2" = _N9wgWcMJ;
-        "default" = _N9wgWcMJ;
+        "pkg-3.104.0-beta.1+26.3-rc-2" = _Of3NiFky;
+        "pkg-3.104.0+26.3" = _seVP5YVt;
+        "default" = _seVP5YVt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "herenthere";

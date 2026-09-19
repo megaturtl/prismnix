@@ -51,6 +51,11 @@ let
             "file" = "UltimateDuels-7.0.0.jar";
             "hash" = "sha512-NJ/x1sAAAWCwUrpsRd237uTQ8IUSSCsVCH+nS5UhgewHtWKOS4JNQyXr/xuLsdrNPeWHiof51b0yX7mfAUXfAQ==";
         };
+        _MKAaqqTd = {
+            "id" = "MKAaqqTd";
+            "file" = "UltimateDuels-7.2.0.jar";
+            "hash" = "sha512-/FuQQBG+ykox/MS4m0Z+oJhG4yQH4D8xoHUxMfhbgCOJeth8i7TCDbANpTF0YxLfdaUtbLxXswYH38L3oKm0vg==";
+        };
     in {
         "uqludjV3" = _uqludjV3;
         "HxN08prb" = _HxN08prb;
@@ -62,18 +67,19 @@ let
         "QMZ1g1iK" = _QMZ1g1iK;
         "HHa9R3LI" = _HHa9R3LI;
         "OHEck2t8" = _OHEck2t8;
-        "paper-1.21" = _OHEck2t8;
-        "paper-1.21.1" = _OHEck2t8;
-        "paper-1.21.2" = _OHEck2t8;
-        "paper-1.21.3" = _OHEck2t8;
-        "paper-1.21.4" = _OHEck2t8;
-        "paper-1.21.5" = _OHEck2t8;
-        "paper-1.21.6" = _OHEck2t8;
-        "paper-1.21.7" = _OHEck2t8;
-        "paper-1.21.8" = _OHEck2t8;
-        "paper-1.21.9" = _OHEck2t8;
-        "paper-1.21.10" = _OHEck2t8;
-        "paper-1.21.11" = _OHEck2t8;
+        "MKAaqqTd" = _MKAaqqTd;
+        "paper-1.21" = _MKAaqqTd;
+        "paper-1.21.1" = _MKAaqqTd;
+        "paper-1.21.2" = _MKAaqqTd;
+        "paper-1.21.3" = _MKAaqqTd;
+        "paper-1.21.4" = _MKAaqqTd;
+        "paper-1.21.5" = _MKAaqqTd;
+        "paper-1.21.6" = _MKAaqqTd;
+        "paper-1.21.7" = _MKAaqqTd;
+        "paper-1.21.8" = _MKAaqqTd;
+        "paper-1.21.9" = _MKAaqqTd;
+        "paper-1.21.10" = _MKAaqqTd;
+        "paper-1.21.11" = _MKAaqqTd;
         "pkg-1.0.0" = _uqludjV3;
         "pkg-2.0.0" = _HxN08prb;
         "pkg-3.0.0" = _KOnnAmQR;
@@ -84,7 +90,8 @@ let
         "pkg-6.1.0" = _QMZ1g1iK;
         "pkg-6.9.4" = _HHa9R3LI;
         "pkg-7.0.0" = _OHEck2t8;
-        "default" = _OHEck2t8;
+        "pkg-7.2.0" = _MKAaqqTd;
+        "default" = _MKAaqqTd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ultimateduels";

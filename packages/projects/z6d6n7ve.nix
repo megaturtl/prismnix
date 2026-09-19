@@ -286,6 +286,16 @@ let
             "file" = "accessible-step-neoforge-26.2-2.3.1+26.2.jar";
             "hash" = "sha512-wBRHnAafJEfkb88UIVPsCabFVcLt6RRjTilgQFEFaV+wBOPcA6yDARKFqE32Cif0RAxiyhDk5FwH3WL0/5gi3A==";
         };
+        _d768wKJj = {
+            "id" = "d768wKJj";
+            "file" = "accessible-step-fabric-26.3-2.4.0+26.3.jar";
+            "hash" = "sha512-ALaRxpKouPSK3eCWgAKY/jNC3QrGMS3Tn13K0Re9r3ujyNQMvH0DzofTokkYcgxvmZ7Z5wGFRwLKFa/nmF6PAw==";
+        };
+        _JnEZMX5y = {
+            "id" = "JnEZMX5y";
+            "file" = "accessible-step-neoforge-26.3-2.4.0+26.3.jar";
+            "hash" = "sha512-SLVOwIYXgEA1SXEIeOzilYcctQcox0XvsFUnGa/fnjPu5w42tblidscI37T/2JEUjSg8+ems9AsYSrAgrzDRXw==";
+        };
     in {
         "WZhtieRD" = _WZhtieRD;
         "jpHJZm2w" = _jpHJZm2w;
@@ -344,6 +354,8 @@ let
         "dhWnOVZC" = _dhWnOVZC;
         "cJrhD0Fm" = _cJrhD0Fm;
         "Eh9qCk1G" = _Eh9qCk1G;
+        "d768wKJj" = _d768wKJj;
+        "JnEZMX5y" = _JnEZMX5y;
         "fabric-1.20.6" = _Lza6aO0h;
         "fabric-1.20" = _kPJFPcjH;
         "fabric-1.20.1" = _kPJFPcjH;
@@ -367,6 +379,7 @@ let
         "fabric-26.1.1" = _8T8BTrDm;
         "fabric-26.1.2" = _8T8BTrDm;
         "fabric-26.2" = _cJrhD0Fm;
+        "fabric-26.3" = _d768wKJj;
         "neoforge-1.21.5" = _IAcdZjft;
         "neoforge-1.20.3" = _3rmWPRlh;
         "neoforge-1.20.4" = _3rmWPRlh;
@@ -387,6 +400,7 @@ let
         "neoforge-26.1.1" = _dhWnOVZC;
         "neoforge-26.1.2" = _dhWnOVZC;
         "neoforge-26.2" = _Eh9qCk1G;
+        "neoforge-26.3" = _JnEZMX5y;
         "forge-1.20.1" = _u7ZJ2FpX;
         "forge-1.20.4" = _mwbxO4DR;
         "pkg-v1.0.0" = _WZhtieRD;
@@ -446,7 +460,9 @@ let
         "pkg-v2.3.1+26.1-neoforge" = _dhWnOVZC;
         "pkg-v2.3.1+26.2-fabric" = _cJrhD0Fm;
         "pkg-v2.3.1+26.2-neoforge" = _Eh9qCk1G;
-        "default" = _Eh9qCk1G;
+        "pkg-v2.4.0+26.3-fabric" = _d768wKJj;
+        "pkg-v2.4.0+26.3-neoforge" = _JnEZMX5y;
+        "default" = _JnEZMX5y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "accessible-step";

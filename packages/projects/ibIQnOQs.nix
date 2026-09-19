@@ -46,6 +46,21 @@ let
             "file" = "buildaspell-1.0.2-mc1.21.1.jar";
             "hash" = "sha512-SPIaN7hKhj/+YcjFjabyZiLMagojR93UOqXV7m46hCkgvekfDJO8UyBV6BrDUL6X/RPvhKS3r4JBHfja/ybfiQ==";
         };
+        _9uBjvUAf = {
+            "id" = "9uBjvUAf";
+            "file" = "buildaspell-1.0.3-mc26.1.2.jar";
+            "hash" = "sha512-KYXiRAg/8ky3kBxZgCPwy9FBzeGJ1DMC03/NS+tj0WzZREYEmrLo7Z+TI5Df8dGYyFEep1h8AR5QrVGPabvfww==";
+        };
+        _C3KIVKnC = {
+            "id" = "C3KIVKnC";
+            "file" = "buildaspell-1.0.3-mc26.2.jar";
+            "hash" = "sha512-BNZU7ghCZP36kuqiGpOZGMd1TWxzSLQDbPXiR7kb1TVRuV3ej1xfAxwn2R+3vvU2IFwQFy2A4T85yeoF7orNFw==";
+        };
+        _yhIYtAjB = {
+            "id" = "yhIYtAjB";
+            "file" = "buildaspell-1.0.3-mc1.21.1.jar";
+            "hash" = "sha512-i5Ufxi+kLj3ZvIiXx2IXGYqwA3iizBk+q+cyHR0OnUVTQGbnD8zu28DNKSDgxQH9SfKyw57+FAWJ3MO3wgSVvg==";
+        };
     in {
         "lkGgBV7c" = _lkGgBV7c;
         "HLl7t8LY" = _HLl7t8LY;
@@ -56,9 +71,12 @@ let
         "88tUqZQl" = _88tUqZQl;
         "izBfWC8c" = _izBfWC8c;
         "O2oaA9p5" = _O2oaA9p5;
-        "neoforge-26.2" = _izBfWC8c;
-        "neoforge-26.1.2" = _88tUqZQl;
-        "neoforge-1.21.1" = _O2oaA9p5;
+        "9uBjvUAf" = _9uBjvUAf;
+        "C3KIVKnC" = _C3KIVKnC;
+        "yhIYtAjB" = _yhIYtAjB;
+        "neoforge-26.2" = _C3KIVKnC;
+        "neoforge-26.1.2" = _9uBjvUAf;
+        "neoforge-1.21.1" = _yhIYtAjB;
         "pkg-1.0.0" = _guTlSINV;
         "pkg-v1.0.1+26.1.2" = _HaBT2oSC;
         "pkg-v1.0.1+26.2" = _OgTHBK80;
@@ -66,7 +84,10 @@ let
         "pkg-v1.0.2+26.1.2" = _88tUqZQl;
         "pkg-v1.0.2+26.2" = _izBfWC8c;
         "pkg-v1.0.2+1.21.1" = _O2oaA9p5;
-        "default" = _O2oaA9p5;
+        "pkg-v1.0.3+26.1.2" = _9uBjvUAf;
+        "pkg-v1.0.3+26.2" = _C3KIVKnC;
+        "pkg-v1.0.3+1.21.1" = _yhIYtAjB;
+        "default" = _yhIYtAjB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "build-a-spell";

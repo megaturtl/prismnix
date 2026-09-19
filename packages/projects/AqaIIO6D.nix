@@ -196,6 +196,16 @@ let
             "file" = "ranged_weapon_api-neoforge-4.0.0+26.2.jar";
             "hash" = "sha512-R6+XYpKW1r5xyKoaY9/1GJNAO6PXJQpsGSlvZEfYsWtw2olEF9NSx4xLms/0/kRs+MNLzeUn68u8e4OmFB7Miw==";
         };
+        _2Md2M2d5 = {
+            "id" = "2Md2M2d5";
+            "file" = "ranged_weapon_api-forge-2.3.4+1.20.1.jar";
+            "hash" = "sha512-PmjYjlDIMkQjTMjo5wo0vglBRzBaruhm7iZ5bDFUu6JFK+e6fyGgeEeWVxnNB5KbkeAOpUp4I3qTLAe3SK1Oyw==";
+        };
+        _7VQ4OHzQ = {
+            "id" = "7VQ4OHzQ";
+            "file" = "ranged_weapon_api-fabric-2.3.4+1.20.1.jar";
+            "hash" = "sha512-hJnRfNMdyGq/RJZ7Np0GS/1wFIM30NspulE6P4hGMN3ZDiCKp5tZxMXUcX/+Mfw1sMjjuod5nwbsyKxvIT0p8g==";
+        };
     in {
         "RzWpA7xD" = _RzWpA7xD;
         "Mj5snp7k" = _Mj5snp7k;
@@ -236,7 +246,9 @@ let
         "CRB139Ir" = _CRB139Ir;
         "pAKK9B14" = _pAKK9B14;
         "oXBMPShc" = _oXBMPShc;
-        "fabric-1.20.1" = _6LUH2hok;
+        "2Md2M2d5" = _2Md2M2d5;
+        "7VQ4OHzQ" = _7VQ4OHzQ;
+        "fabric-1.20.1" = _7VQ4OHzQ;
         "fabric-1.21" = _D23XVjUe;
         "fabric-1.21.1" = _D23XVjUe;
         "fabric-1.21.11" = _CRcJQL1K;
@@ -251,6 +263,8 @@ let
         "neoforge-26.1.1" = _CRB139Ir;
         "neoforge-26.1.2" = _CRB139Ir;
         "neoforge-26.2" = _oXBMPShc;
+        "neoforge-1.20.1" = _2Md2M2d5;
+        "forge-1.20.1" = _2Md2M2d5;
         "pkg-1.0.0+1.20.1" = _RzWpA7xD;
         "pkg-1.1.0+1.20.1" = _Mj5snp7k;
         "pkg-1.1.1+1.20.1" = _oEjSAqNj;
@@ -288,7 +302,9 @@ let
         "pkg-4.0.0+26.1.2-neoforge" = _CRB139Ir;
         "pkg-4.0.0+26.2-fabric" = _pAKK9B14;
         "pkg-4.0.0+26.2-neoforge" = _oXBMPShc;
-        "default" = _oXBMPShc;
+        "pkg-2.3.4+1.20.1-forge" = _2Md2M2d5;
+        "pkg-2.3.4+1.20.1-fabric" = _7VQ4OHzQ;
+        "default" = _7VQ4OHzQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ranged-weapon-api";

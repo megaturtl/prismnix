@@ -31,6 +31,11 @@ let
             "file" = "MTR_KORAIL_Suburban_4.0_260507.zip";
             "hash" = "sha512-69IgaayubLKxp9XEWbgw1DxjHDnuUDN569jq0JVvnjbAaMPGegeZJqFN3u9G1i+9mQ9ID1oS+EIDK4F/SQpkFQ==";
         };
+        _ZHUjSKd3 = {
+            "id" = "ZHUjSKd3";
+            "file" = "MTR_KORAIL_Suburban_4.0_260907.zip";
+            "hash" = "sha512-vMzUAfIarwuy/oJktpQinSStj/lFyEDoJVg0yco1iSEXIYG23g1mR8a21gnROeXMXdAXqQ6U0xJllnHHNwxypQ==";
+        };
     in {
         "5vAXgJdK" = _5vAXgJdK;
         "fBDRAp6Z" = _fBDRAp6Z;
@@ -38,17 +43,19 @@ let
         "ePhwltOA" = _ePhwltOA;
         "ewk1BHbm" = _ewk1BHbm;
         "BpDwSGdv" = _BpDwSGdv;
-        "minecraft-1.19.2" = _BpDwSGdv;
-        "minecraft-1.19.4" = _BpDwSGdv;
-        "minecraft-1.20.1" = _BpDwSGdv;
-        "minecraft-1.20.4" = _BpDwSGdv;
+        "ZHUjSKd3" = _ZHUjSKd3;
+        "minecraft-1.19.2" = _ZHUjSKd3;
+        "minecraft-1.19.4" = _ZHUjSKd3;
+        "minecraft-1.20.1" = _ZHUjSKd3;
+        "minecraft-1.20.4" = _ZHUjSKd3;
         "pkg-0.1" = _5vAXgJdK;
         "pkg-0.2" = _fBDRAp6Z;
         "pkg-0.3" = _kilH903h;
         "pkg-0.4" = _ePhwltOA;
         "pkg-1.0" = _ewk1BHbm;
         "pkg-1.1" = _BpDwSGdv;
-        "default" = _BpDwSGdv;
+        "pkg-1.2" = _ZHUjSKd3;
+        "default" = _ZHUjSKd3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mtrkorail_suburban_trains";

@@ -11,16 +11,24 @@ let
             "file" = "pulsenet-1.1.0+26.2.jar";
             "hash" = "sha512-XSMgSnw5zuDVPGnZ+J6j2Z+gETtGB+fIaZ5JTiiax2uy4DWmIq1PzdP9hh0kMjHMJKSki7V+Pe2K8Vgm5kWBDQ==";
         };
+        _OHVWDjQc = {
+            "id" = "OHVWDjQc";
+            "file" = "pulsenet-1.1.0+26.2.jar";
+            "hash" = "sha512-RWaKjNYLx+5pMPP+8sW5Oc2dDXQk5f4/zjUfScyjVwE+qiMlMfGgqSgGL9B7BWYQ5WYN4vR+31qf93dRGDQRCw==";
+        };
     in {
         "tvoBVCAz" = _tvoBVCAz;
         "M6MXyE1v" = _M6MXyE1v;
+        "OHVWDjQc" = _OHVWDjQc;
         "fabric-26.1" = _tvoBVCAz;
         "fabric-26.1.1" = _tvoBVCAz;
         "fabric-26.1.2" = _tvoBVCAz;
         "fabric-26.2" = _M6MXyE1v;
+        "fabric-26.3" = _OHVWDjQc;
         "pkg-1.1.0+26.1-BETA" = _tvoBVCAz;
         "pkg-1.1.0+26.2" = _M6MXyE1v;
-        "default" = _M6MXyE1v;
+        "pkg-1.1.0+26.3" = _OHVWDjQc;
+        "default" = _OHVWDjQc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pulsenet";

@@ -401,6 +401,11 @@ let
             "file" = "nilcord-5.1+26.2+neoforge.jar";
             "hash" = "sha512-GYkj5Df7I7kmWDDLRli/NM9b9a90yCyyV47gyx4vuyD/mgU7tODy7nFax9scpVxpwyYWdBEDwj6EZyWuZe+xSA==";
         };
+        _umQm1moG = {
+            "id" = "umQm1moG";
+            "file" = "nilcord-5.1+26.3+fabric.jar";
+            "hash" = "sha512-L53lq4QgEJKvpHemN2Hj3kyxiOaVtNEZPysBMvN0gsmBTPtNj+yBqHJO1dn0DUH6wck0NgruPrcW9EKE2Pm7gw==";
+        };
     in {
         "g84ZLvmX" = _g84ZLvmX;
         "v3nDei0T" = _v3nDei0T;
@@ -482,6 +487,7 @@ let
         "eEqORsei" = _eEqORsei;
         "ofD6N4uU" = _ofD6N4uU;
         "2An2Emia" = _2An2Emia;
+        "umQm1moG" = _umQm1moG;
         "nilloader-1.4.7" = _lbat4KVA;
         "forge-1.7.10" = _rpG5CRro;
         "forge-1.12.2" = _hZDnOp0r;
@@ -505,6 +511,7 @@ let
         "fabric-26.1.1" = _FTDuqMzn;
         "fabric-26.1.2" = _FTDuqMzn;
         "fabric-26.2" = _ofD6N4uU;
+        "fabric-26.3" = _umQm1moG;
         "quilt-1.20" = _lLOOIpLC;
         "quilt-1.20.1" = _lLOOIpLC;
         "quilt-1.20.3" = _NYVZBfw1;
@@ -598,7 +605,8 @@ let
         "pkg-5.1+26.1+neoforge" = _eEqORsei;
         "pkg-5.1+26.2+fabric" = _ofD6N4uU;
         "pkg-5.1+26.2+neoforge" = _2An2Emia;
-        "default" = _2An2Emia;
+        "pkg-5.1+26.3+fabric" = _umQm1moG;
+        "default" = _umQm1moG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nilcord";

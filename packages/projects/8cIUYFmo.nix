@@ -31,6 +31,11 @@ let
             "file" = "Vibrating Wither Fix.zip";
             "hash" = "sha512-UU9EEt4Vjhz0LD9kOqiec3Q/5eB46c1qPCH28CMxGQ4OggiL+w2RwKRJgAxFBOEJeRwQvk+hOoKm4AJWUKX/+g==";
         };
+        _mRCAhN4e = {
+            "id" = "mRCAhN4e";
+            "file" = "Vibrating Wither Fix.zip";
+            "hash" = "sha512-Zju2SW8ZAsE4UIorKKEHgzAzHkpDB8A9FhEv+Kk7vkGwiDNyG8GFPoVhX72Vctnyti8tKQUzhDPdvI+tY2gQgQ==";
+        };
     in {
         "HTNymURn" = _HTNymURn;
         "pnikqeLA" = _pnikqeLA;
@@ -38,6 +43,7 @@ let
         "CwB3mLK5" = _CwB3mLK5;
         "iAcFMTwu" = _iAcFMTwu;
         "ulm0cNIf" = _ulm0cNIf;
+        "mRCAhN4e" = _mRCAhN4e;
         "minecraft-1.19.2" = _HTNymURn;
         "minecraft-1.20" = _pnikqeLA;
         "minecraft-1.20.1" = _pnikqeLA;
@@ -55,14 +61,20 @@ let
         "minecraft-1.21.6" = _CwB3mLK5;
         "minecraft-1.21.7" = _CwB3mLK5;
         "minecraft-1.21.8" = _CwB3mLK5;
-        "minecraft-1.21.9" = _ulm0cNIf;
-        "minecraft-1.21.10" = _ulm0cNIf;
-        "minecraft-1.21.11" = _ulm0cNIf;
+        "minecraft-1.21.9" = _mRCAhN4e;
+        "minecraft-1.21.10" = _mRCAhN4e;
+        "minecraft-1.21.11" = _mRCAhN4e;
+        "minecraft-26.1" = _mRCAhN4e;
+        "minecraft-26.1.1" = _mRCAhN4e;
+        "minecraft-26.1.2" = _mRCAhN4e;
+        "minecraft-26.2" = _mRCAhN4e;
+        "minecraft-26.3" = _mRCAhN4e;
         "pkg-1.0.0" = _MIisJ2ro;
         "pkg-1.1.0" = _CwB3mLK5;
         "pkg-1.2.0" = _iAcFMTwu;
         "pkg-1.3.0" = _ulm0cNIf;
-        "default" = _ulm0cNIf;
+        "pkg-1.6.0" = _mRCAhN4e;
+        "default" = _mRCAhN4e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vibrating-wither-fix";

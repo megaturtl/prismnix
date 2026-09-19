@@ -126,6 +126,16 @@ let
             "file" = "magic_vibe_decorations-3.0.1-fabric-26.1.2-26.3.jar";
             "hash" = "sha512-ZpeXOorSwbO9LlzGO+6fe9fnqosSmS5L7tBitahTxPDjAWwwQrjcqtritkLJUwzy5LYpknMaECOG1mTgI5OvJQ==";
         };
+        _jox38qux = {
+            "id" = "jox38qux";
+            "file" = "magic_vibe_decorations-3.0.1-fabric-26.3.jar";
+            "hash" = "sha512-K1xIT1iBJ9ev27S/z9u8xgJQLM/Ax6peZvPvQPiiBeiWG3ZnML9wzBW9Wg8JyUahs+ykrwjdwpwq+aZe2GB4bg==";
+        };
+        _Id9Hybcu = {
+            "id" = "Id9Hybcu";
+            "file" = "magic_vibe_decorations-3.0.1-neoforge-26.3.jar";
+            "hash" = "sha512-nXe5kTWvJqQCVbxLlxXMnE942V7PfaaMmztTmQ8PBPrkqRV7xrF37636auROtL4lj67Lf3+Z+galhQGRhiE00Q==";
+        };
     in {
         "NGn6sD5g" = _NGn6sD5g;
         "ugiO5FHZ" = _ugiO5FHZ;
@@ -152,6 +162,8 @@ let
         "8eSMNKqC" = _8eSMNKqC;
         "6oRQ1bs7" = _6oRQ1bs7;
         "48BVdgry" = _48BVdgry;
+        "jox38qux" = _jox38qux;
+        "Id9Hybcu" = _Id9Hybcu;
         "fabric-1.20.1" = _yXiKxAFn;
         "fabric-1.19.2" = _ZOzwsaFd;
         "fabric-1.21" = _en00c0hm;
@@ -164,6 +176,7 @@ let
         "fabric-1.21.11" = _gVtrxNPu;
         "fabric-26.1.2" = _48BVdgry;
         "fabric-26.2" = _48BVdgry;
+        "fabric-26.3" = _jox38qux;
         "forge-1.18.2" = _ugiO5FHZ;
         "forge-1.16.5" = _nCUHdbMY;
         "forge-1.19.2" = _LyOHyb1F;
@@ -190,6 +203,7 @@ let
         "neoforge-1.21.11" = _B20ES0IZ;
         "neoforge-26.1.2" = _6oRQ1bs7;
         "neoforge-26.2" = _6oRQ1bs7;
+        "neoforge-26.3" = _Id9Hybcu;
         "pkg-1.7.0" = _NGn6sD5g;
         "pkg-1.6.0" = _ugiO5FHZ;
         "pkg-1.0.1" = _nCUHdbMY;
@@ -207,8 +221,8 @@ let
         "pkg-2.3.2" = _DGz5UJRm;
         "pkg-2.3.3" = _B20ES0IZ;
         "pkg-2.3.4" = _8eSMNKqC;
-        "pkg-3.0.1" = _48BVdgry;
-        "default" = _48BVdgry;
+        "pkg-3.0.1" = _Id9Hybcu;
+        "default" = _Id9Hybcu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "magic-vibe-decorations";

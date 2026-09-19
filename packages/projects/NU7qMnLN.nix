@@ -181,6 +181,16 @@ let
             "file" = "players-drop-heads-107.1.jar";
             "hash" = "sha512-fMuu0FYKzxK44POgj7qj0+3+KbrQf+90klRtyTZ9xwO3JdLYlBc2s+tHXJxvSG5xlMNg+k4frLhK6SFIFHQ3tA==";
         };
+        _twuiZTiF = {
+            "id" = "twuiZTiF";
+            "file" = "players-drop-heads-1.1.0-mc26.3.zip";
+            "hash" = "sha512-aaz/p6rW2nwRQ4o72HDyLFaeZhwa/jjelnobG0ZfMEzMZQIiIaOdbS0xG523mMj0PaEhwk04dExG4ldT5iXhDQ==";
+        };
+        _qqNC1aXl = {
+            "id" = "qqNC1aXl";
+            "file" = "players-drop-heads-1.1.0.jar";
+            "hash" = "sha512-y+iDA8f9NrLg8kJTX48szMPf7REFK4uvY0XMboYFMD8PrKXLhVSpIA0rJk5X7Jqr82NMkaOA66Bw7qZ9X1bM5w==";
+        };
     in {
         "ZAuHXZnU" = _ZAuHXZnU;
         "JnCw303R" = _JnCw303R;
@@ -218,6 +228,8 @@ let
         "ICwjQrYt" = _ICwjQrYt;
         "Nf8uzHHy" = _Nf8uzHHy;
         "whSkwgfh" = _whSkwgfh;
+        "twuiZTiF" = _twuiZTiF;
+        "qqNC1aXl" = _qqNC1aXl;
         "datapack-1.19.4" = _ZAuHXZnU;
         "datapack-1.19" = _JnCw303R;
         "datapack-1.19.1" = _JnCw303R;
@@ -246,6 +258,7 @@ let
         "datapack-26.1.1" = _GvR0rVkJ;
         "datapack-26.1.2" = _GvR0rVkJ;
         "datapack-26.2" = _Nf8uzHHy;
+        "datapack-26.3" = _twuiZTiF;
         "fabric-1.20" = _wJ79Q5g9;
         "fabric-1.20.1" = _wJ79Q5g9;
         "fabric-1.19.4" = _JYgqBbFi;
@@ -270,6 +283,7 @@ let
         "fabric-26.1.1" = _ICwjQrYt;
         "fabric-26.1.2" = _ICwjQrYt;
         "fabric-26.2" = _whSkwgfh;
+        "fabric-26.3" = _qqNC1aXl;
         "forge-1.20" = _wJ79Q5g9;
         "forge-1.20.1" = _wJ79Q5g9;
         "forge-1.19.4" = _JYgqBbFi;
@@ -294,6 +308,7 @@ let
         "forge-26.1.1" = _ICwjQrYt;
         "forge-26.1.2" = _ICwjQrYt;
         "forge-26.2" = _whSkwgfh;
+        "forge-26.3" = _qqNC1aXl;
         "quilt-1.20" = _wJ79Q5g9;
         "quilt-1.20.1" = _wJ79Q5g9;
         "quilt-1.19.4" = _JYgqBbFi;
@@ -318,6 +333,7 @@ let
         "quilt-26.1.1" = _ICwjQrYt;
         "quilt-26.1.2" = _ICwjQrYt;
         "quilt-26.2" = _whSkwgfh;
+        "quilt-26.3" = _qqNC1aXl;
         "neoforge-1.21.2" = _alqqFrK5;
         "neoforge-1.21.3" = _alqqFrK5;
         "neoforge-1.21.4" = _Oz7J3uXH;
@@ -332,6 +348,7 @@ let
         "neoforge-26.1.1" = _ICwjQrYt;
         "neoforge-26.1.2" = _ICwjQrYt;
         "neoforge-26.2" = _whSkwgfh;
+        "neoforge-26.3" = _qqNC1aXl;
         "pkg-12.1" = _ZAuHXZnU;
         "pkg-10.1" = _JnCw303R;
         "pkg-15.1" = _1MgbGNXp;
@@ -366,7 +383,9 @@ let
         "pkg-101.1+mod" = _ICwjQrYt;
         "pkg-107.1" = _Nf8uzHHy;
         "pkg-107.1+mod" = _whSkwgfh;
-        "default" = _whSkwgfh;
+        "pkg-1.1.0" = _twuiZTiF;
+        "pkg-1.1.0+mod" = _qqNC1aXl;
+        "default" = _qqNC1aXl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "players-drop-heads";

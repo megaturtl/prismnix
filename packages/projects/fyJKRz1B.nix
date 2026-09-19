@@ -31,6 +31,11 @@ let
             "file" = "curiosities-1.3.0+26.2.jar";
             "hash" = "sha512-fpYNPJCkEndIAv6e9pVth3gY33ZfMujpRhgARxufDVQ4ZtvrHPohAptkzhDeI6VHx8kuIIn6K8Cz56qj8UB03w==";
         };
+        _Kfm5irdq = {
+            "id" = "Kfm5irdq";
+            "file" = "curiosities-1.4.0+26.3.jar";
+            "hash" = "sha512-xVw/C0+pG62wQuyEVCcs2gg8TIlZ0uJPmpotVt1GFzKxkGXnWO1H773AorJT/vtqDuZxMLkXZ6bXEbEaQmrS3g==";
+        };
     in {
         "8PgBTRGe" = _8PgBTRGe;
         "3Rhxsnf8" = _3Rhxsnf8;
@@ -38,19 +43,23 @@ let
         "u5tJd2GD" = _u5tJd2GD;
         "io0JnWlu" = _io0JnWlu;
         "6RgTrMvi" = _6RgTrMvi;
+        "Kfm5irdq" = _Kfm5irdq;
         "fabric-1.21.10" = _3Rhxsnf8;
         "fabric-1.21.11" = _u5tJd2GD;
         "fabric-26.1" = _io0JnWlu;
         "fabric-26.1.1" = _io0JnWlu;
         "fabric-26.1.2" = _io0JnWlu;
         "fabric-26.2" = _6RgTrMvi;
+        "fabric-26.3-rc-1" = _Kfm5irdq;
+        "fabric-26.3" = _Kfm5irdq;
         "pkg-1.0.0" = _8PgBTRGe;
         "pkg-1.0.1+1.21.10" = _3Rhxsnf8;
         "pkg-1.1.0+1.21.11" = _YPXVkwmM;
         "pkg-1.1.1+1.21.11" = _u5tJd2GD;
         "pkg-1.2.0+26.1" = _io0JnWlu;
         "pkg-1.3.0+26.2" = _6RgTrMvi;
-        "default" = _6RgTrMvi;
+        "pkg-1.4.0+26.3" = _Kfm5irdq;
+        "default" = _Kfm5irdq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pbcuriosities";

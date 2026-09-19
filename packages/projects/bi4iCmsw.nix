@@ -131,6 +131,16 @@ let
             "file" = "shogi-neoforge-26.1.2-26.1.2.8.jar";
             "hash" = "sha512-SYWu9we3yd8D/QCAXGru0a+htUnH4z02rvc3Fz0yNklu7emth9dtfjt5p31nh/0m3FYPU+Z1r6l9eM0Mk6o+cg==";
         };
+        _CoW2zbDs = {
+            "id" = "CoW2zbDs";
+            "file" = "shogi-fabric-26.3-26.3.0.1.jar";
+            "hash" = "sha512-eBGLMfq0QgYkAHn9xP1+0VtTKBSUnEzG/miMsOIHMG04GAvf6YOcnsNOU7zkSLU9rTYPi9IoGcWemigrtCqERg==";
+        };
+        _IogqBiaR = {
+            "id" = "IogqBiaR";
+            "file" = "shogi-neoforge-26.3-26.3.0.1.jar";
+            "hash" = "sha512-xO8JgD0Ld0ykz47hBG6p1zuxPVhkGVdvQpCAjLRtipHw0P5TAF1tF/gvgA31vCjL2wLP+8lV0pCYUkP3rliF8g==";
+        };
     in {
         "ske7eXAG" = _ske7eXAG;
         "XYFfgYKa" = _XYFfgYKa;
@@ -158,13 +168,17 @@ let
         "JOZQqMOr" = _JOZQqMOr;
         "1EnqqRIV" = _1EnqqRIV;
         "LVd3JsbR" = _LVd3JsbR;
+        "CoW2zbDs" = _CoW2zbDs;
+        "IogqBiaR" = _IogqBiaR;
         "neoforge-26.1" = _ske7eXAG;
         "neoforge-26.1.1" = _ske7eXAG;
         "neoforge-26.1.2" = _LVd3JsbR;
         "neoforge-26.2" = _1EnqqRIV;
+        "neoforge-26.3" = _IogqBiaR;
         "fabric-26.1.1" = _XYFfgYKa;
         "fabric-26.1.2" = _JOZQqMOr;
         "fabric-26.2" = _EgXnCQjN;
+        "fabric-26.3" = _CoW2zbDs;
         "pkg-26.1.0.4" = _XYFfgYKa;
         "pkg-26.1.2.2+fabric-26.1.2" = _SIvWLK5X;
         "pkg-26.1.2.2+neoforge-26.1.2" = _qmmGacyF;
@@ -190,7 +204,9 @@ let
         "pkg-26.1.2.8+fabric-26.1.2" = _JOZQqMOr;
         "pkg-26.2.0.5+neoforge-26.2" = _1EnqqRIV;
         "pkg-26.1.2.8+neoforge-26.1.2" = _LVd3JsbR;
-        "default" = _LVd3JsbR;
+        "pkg-26.3.0.1+fabric-26.3" = _CoW2zbDs;
+        "pkg-26.3.0.1+neoforge-26.3" = _IogqBiaR;
+        "default" = _IogqBiaR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shogi";

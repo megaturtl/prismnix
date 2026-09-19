@@ -81,6 +81,11 @@ let
             "file" = "CatTeleportMod-Fabric-26.1-1.2.8.jar";
             "hash" = "sha512-KLS2u/3Hbz1Zm0JZhrVPc4qvmXjUBQoEWQGAEuvAt8cOvALHuHtxTcY8hjp9xRgpJQe5Z4nzD9c+8sjFA5Cqrw==";
         };
+        _2fNSyPay = {
+            "id" = "2fNSyPay";
+            "file" = "CatTeleportMod-Fabric-26.2-1.2.8.jar";
+            "hash" = "sha512-Dt6AkpOOSfZ29sGjl/DqWu6Axexuqu5IvZazFNp89Ao9lICH8I0Ib5MsEczFhTQbsV2b8GiRnpWsXnhUeV40JA==";
+        };
     in {
         "yogJQ6QI" = _yogJQ6QI;
         "Aul9Va12" = _Aul9Va12;
@@ -98,6 +103,7 @@ let
         "cOyweBsv" = _cOyweBsv;
         "wLlyjQtV" = _wLlyjQtV;
         "lR7kRXrp" = _lR7kRXrp;
+        "2fNSyPay" = _2fNSyPay;
         "fabric-1.21" = _ndoTJL4X;
         "fabric-1.20" = _Aul9Va12;
         "fabric-1.20.1" = _Aul9Va12;
@@ -124,7 +130,7 @@ let
         "fabric-26.1" = _lR7kRXrp;
         "fabric-26.1.1" = _lR7kRXrp;
         "fabric-26.1.2" = _lR7kRXrp;
-        "fabric-26.2" = _lR7kRXrp;
+        "fabric-26.2" = _2fNSyPay;
         "quilt-1.21" = _ndoTJL4X;
         "quilt-1.21.1" = _ndoTJL4X;
         "quilt-1.21.2" = _ndoTJL4X;
@@ -135,7 +141,7 @@ let
         "quilt-26.1" = _lR7kRXrp;
         "quilt-26.1.1" = _lR7kRXrp;
         "quilt-26.1.2" = _lR7kRXrp;
-        "quilt-26.2" = _lR7kRXrp;
+        "quilt-26.2" = _2fNSyPay;
         "pkg-1.21-1.1" = _yogJQ6QI;
         "pkg-1.20-1.0.2" = _Aul9Va12;
         "pkg-1.19-1.0.1-1.0.2" = _LGZGHS49;
@@ -152,7 +158,8 @@ let
         "pkg-1.21-1.2.8" = _cOyweBsv;
         "pkg-1.21.11-1.2.8" = _wLlyjQtV;
         "pkg-26.1-1.2.8" = _lR7kRXrp;
-        "default" = _lR7kRXrp;
+        "pkg-26.2-1.2.8" = _2fNSyPay;
+        "default" = _2fNSyPay;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "catteleportmod";

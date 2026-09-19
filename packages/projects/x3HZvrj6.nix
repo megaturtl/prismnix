@@ -1106,6 +1106,86 @@ let
             "file" = "immersive_aircraft-1.4.7+1.21.11-neoforge.jar";
             "hash" = "sha512-HaP70zZvz0FV8UO9jTB005rcAvVjjbPy5PoPwhkUAd2oeBXzFBcuCZwEPvUt3TWMcJqLz/rSDfzQQ7ClJ02PTA==";
         };
+        _hF1PLt7h = {
+            "id" = "hF1PLt7h";
+            "file" = "immersive_aircraft-1.5.0+1.20.1-fabric.jar";
+            "hash" = "sha512-L3lgpiuDFZA/oClzL2HkQlvCzWilI+R68IT0lH0cTO3jb2UEhNOg9Ukt3rxLwkRPZwIG+ESPhhGxSwPjetbOzA==";
+        };
+        _K1P3pRGb = {
+            "id" = "K1P3pRGb";
+            "file" = "immersive_aircraft-1.5.0+1.21.1-fabric.jar";
+            "hash" = "sha512-O4VAeWv2rgbO6C9obge6wbiJT2EzbWtdw/MiEY5z9jDvcOP2i/+wv2nqAKIo72y0++qKiYRtlkdYJN9739meYQ==";
+        };
+        _dNHanmFP = {
+            "id" = "dNHanmFP";
+            "file" = "immersive_aircraft-1.5.0+1.20.1-fabric.jar";
+            "hash" = "sha512-jyTYGSS6103dV2MWnxDEzETZErAxfQG8SIHZYF/VHLHWiVVYnDQWOTOpWkzDdV3kv5D1fau3F3DGb3eM6x1Omw==";
+        };
+        _aDUlOdzA = {
+            "id" = "aDUlOdzA";
+            "file" = "immersive_aircraft-1.5.0+1.20.1-forge.jar";
+            "hash" = "sha512-PFHMDgVlQyJsZ2gRf4ggGSFhPfBEuzRFJ4VeNoVz5fI6iLyokOoQojbzcvyo/fXIQk2XLlfWmRNEdLbj9gHMEw==";
+        };
+        _KLXjQEDg = {
+            "id" = "KLXjQEDg";
+            "file" = "immersive_aircraft-1.5.0+1.21.1-fabric.jar";
+            "hash" = "sha512-t+q5/P7eVcYz76ITj1DlubntH82V45eca3UPzv1idW75FrN470BFRZn/JhMOe0+wAjr32wEPh5Ni5L2DHB8wvQ==";
+        };
+        _8YWxZfqK = {
+            "id" = "8YWxZfqK";
+            "file" = "immersive_aircraft-1.5.0+1.21.1-neoforge.jar";
+            "hash" = "sha512-h2gyTpa81U2M8XkIyb94aREAEvRANiA2i2B6fvQyrNytt01EmgygcpWh9C/1HgOGs8+rHsTptEFb6A3ME0hvhg==";
+        };
+        _udXItLW7 = {
+            "id" = "udXItLW7";
+            "file" = "immersive_aircraft-1.5.0+1.21.11-fabric.jar";
+            "hash" = "sha512-N/iDXXSiN6lC99BhAEvnPTjDT3yKpusRZc02zuDnfDRLBZGeQyaSDH1yZKK5tSXh0vV0yCRTwVXwZtY/4NGZNA==";
+        };
+        _Tem0v3ab = {
+            "id" = "Tem0v3ab";
+            "file" = "immersive_aircraft-1.5.0+1.21.11-neoforge.jar";
+            "hash" = "sha512-niITbWfXlqAdRd6sUrHE/T+eSrBVLNe/dQkUZNGho5aBf7SQBd/fjHKpt4Gc5+jPtSdwiY9phu7/zCKQTkFbVw==";
+        };
+        _2tEAxHqg = {
+            "id" = "2tEAxHqg";
+            "file" = "immersive_aircraft-fabric-1.5.0+26.1.2.jar";
+            "hash" = "sha512-wlW4jxchmoj5uzsT5TBFP+DYezTVZFjWybyFeMOFHdW1+s5D1ccFTz2y35kE0XGJ9nCjAvUf6ZEBjZq+bEV+iA==";
+        };
+        _jrDNZvqd = {
+            "id" = "jrDNZvqd";
+            "file" = "immersive_aircraft-neoforge-1.5.0+26.1.2.jar";
+            "hash" = "sha512-kuw4SeNT9HFMHA2/NLa/KueYWFAdRhwpj20slxHL5peSPmB3HhqOXE5kqp8tOVp2ourQKTYtiS7fmKaSU/rCeA==";
+        };
+        _xigz4TpL = {
+            "id" = "xigz4TpL";
+            "file" = "immersive_aircraft-fabric-1.5.0+26.2.jar";
+            "hash" = "sha512-l0N2AMrYMqHn87REswPJ0lBXhe/Bx+2N0hp6UB+wabfoC1vd3WHEfiahOQ+BXGQFTXzrll58c/ZFRLvgsWd0gA==";
+        };
+        _jtyNiqMx = {
+            "id" = "jtyNiqMx";
+            "file" = "immersive_aircraft-neoforge-1.5.0+26.2.jar";
+            "hash" = "sha512-cFSzwjTJ1F0B5ALeYVUkEU5TJgypEJwyQckKF3eA6z7RP81dEMSwh4N5KOxEFxHx0jSupDS8ENmwoaHFaqqNEQ==";
+        };
+        _SykKHhU5 = {
+            "id" = "SykKHhU5";
+            "file" = "immersive_aircraft-fabric-1.5.1+26.2.jar";
+            "hash" = "sha512-EiNeZ3E9xPy/PSZfgaENNz21tIDB7DKG3s8DgPRa//xHXbrJEVRrr3RyXOke870O86agy/cnLMZ8VeySufURKQ==";
+        };
+        _ARJI8j6a = {
+            "id" = "ARJI8j6a";
+            "file" = "immersive_aircraft-fabric-1.5.1+26.1.2.jar";
+            "hash" = "sha512-rFTkzSvfVGzs1IbvEspJN96q0IGlGDNf4FtDhuUjteMmVRlMPv8SArvjbnGHDMB6d5UBaMmKY0/2i74mE7+TxA==";
+        };
+        _YBsdTrzj = {
+            "id" = "YBsdTrzj";
+            "file" = "immersive_aircraft-neoforge-1.5.1+26.2.jar";
+            "hash" = "sha512-/mUYR13xLv3nsqWCDpz1KM7BpAZuud+6BscT6au+GI5fSjvJui45qqh2kJPPVquyG0A/2Us7zf3Bwjv8YEV25Q==";
+        };
+        _ACuD7nUm = {
+            "id" = "ACuD7nUm";
+            "file" = "immersive_aircraft-neoforge-1.5.1+26.1.2.jar";
+            "hash" = "sha512-CnSICwl52YGgUDuiZWcAxnqHhBuM+/nZDWHeRLvkN1aTjIU0DzDtIN+qKl1d805i7xM1U0e78t3qH39SLjUxrA==";
+        };
     in {
         "cDBZfZXP" = _cDBZfZXP;
         "agiORuvv" = _agiORuvv;
@@ -1328,26 +1408,46 @@ let
         "QQI7iHKf" = _QQI7iHKf;
         "NshGBorp" = _NshGBorp;
         "I1ac5Ug8" = _I1ac5Ug8;
+        "hF1PLt7h" = _hF1PLt7h;
+        "K1P3pRGb" = _K1P3pRGb;
+        "dNHanmFP" = _dNHanmFP;
+        "aDUlOdzA" = _aDUlOdzA;
+        "KLXjQEDg" = _KLXjQEDg;
+        "8YWxZfqK" = _8YWxZfqK;
+        "udXItLW7" = _udXItLW7;
+        "Tem0v3ab" = _Tem0v3ab;
+        "2tEAxHqg" = _2tEAxHqg;
+        "jrDNZvqd" = _jrDNZvqd;
+        "xigz4TpL" = _xigz4TpL;
+        "jtyNiqMx" = _jtyNiqMx;
+        "SykKHhU5" = _SykKHhU5;
+        "ARJI8j6a" = _ARJI8j6a;
+        "YBsdTrzj" = _YBsdTrzj;
+        "ACuD7nUm" = _ACuD7nUm;
         "fabric-1.18.2" = _XCRSuV8t;
         "fabric-1.19.2" = _eQW19VBC;
         "fabric-1.19.3" = _xR2axPuw;
         "fabric-1.16.5" = _LvoRvK13;
         "fabric-1.19.4" = _HwSchdCR;
         "fabric-1.20" = _io0FhMiA;
-        "fabric-1.20.1" = _jAWG2esy;
-        "fabric-1.21.1" = _tZBYhPhB;
+        "fabric-1.20.1" = _dNHanmFP;
+        "fabric-1.21.1" = _KLXjQEDg;
         "fabric-1.21" = _JC1GraWr;
-        "fabric-1.21.11" = _NshGBorp;
+        "fabric-1.21.11" = _udXItLW7;
+        "fabric-26.1.2" = _ARJI8j6a;
+        "fabric-26.2" = _SykKHhU5;
         "forge-1.18.2" = _v1LcwDzq;
         "forge-1.19.2" = _W2XLsmsE;
         "forge-1.19.3" = _VVYXGrAq;
         "forge-1.16.5" = _Xn17C4Sf;
         "forge-1.19.4" = _8v7Y1wrM;
         "forge-1.20" = _NNHQl30K;
-        "forge-1.20.1" = _QQI7iHKf;
-        "neoforge-1.21.1" = _RkWu0N4D;
+        "forge-1.20.1" = _aDUlOdzA;
+        "neoforge-1.21.1" = _8YWxZfqK;
         "neoforge-1.21" = _QTNxJxXa;
-        "neoforge-1.21.11" = _I1ac5Ug8;
+        "neoforge-1.21.11" = _Tem0v3ab;
+        "neoforge-26.1.2" = _ACuD7nUm;
+        "neoforge-26.2" = _YBsdTrzj;
         "pkg-0.1.0+1.18.2" = _agiORuvv;
         "pkg-0.1.0+1.19.2" = _r5BqVH82;
         "pkg-0.1.1+1.18.2" = _YcQRmB8Q;
@@ -1457,7 +1557,14 @@ let
         "pkg-1.4.6+1.21.11" = _RxPaEmUK;
         "pkg-1.4.1+1.20.1" = _QQI7iHKf;
         "pkg-1.4.7+1.21.11" = _I1ac5Ug8;
-        "default" = _I1ac5Ug8;
+        "pkg-1.5.0+1.20.1" = _aDUlOdzA;
+        "pkg-1.5.0+1.21.1" = _8YWxZfqK;
+        "pkg-1.5.0+1.21.11" = _Tem0v3ab;
+        "pkg-1.5.0+26.1.2" = _jrDNZvqd;
+        "pkg-1.5.0+26.2" = _jtyNiqMx;
+        "pkg-1.5.1+26.2" = _YBsdTrzj;
+        "pkg-1.5.1+26.1.2" = _ACuD7nUm;
+        "default" = _ACuD7nUm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-aircraft";

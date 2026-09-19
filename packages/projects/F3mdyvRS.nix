@@ -11,9 +11,15 @@ let
             "file" = "firework-fixed-1.0.0.jar";
             "hash" = "sha512-QjkKOnBArB+jsHkKyflgDoiIQR/PbyUlN+Lvx8sBpnn9n5ZRmp+5bXUUKp8a4KDovTkGeMOwxqYhuhyU9eDmeA==";
         };
+        _Ti0slM7S = {
+            "id" = "Ti0slM7S";
+            "file" = "firework-fixed-1.0.0.jar";
+            "hash" = "sha512-M9pIpiCUvYAKwBZ9D/ITsoQaBfQNxHghUaleExoARjTOcoHQ6Z46475ogzhg5Egf4m8RkRZZnSKMSOqXPKRdNw==";
+        };
     in {
         "moGKdOnd" = _moGKdOnd;
         "QJpSIw6k" = _QJpSIw6k;
+        "Ti0slM7S" = _Ti0slM7S;
         "fabric-1.19" = _moGKdOnd;
         "fabric-1.19.1" = _moGKdOnd;
         "fabric-1.19.2" = _moGKdOnd;
@@ -31,8 +37,9 @@ let
         "fabric-1.21.3" = _QJpSIw6k;
         "fabric-1.21.4" = _QJpSIw6k;
         "fabric-1.21.5" = _QJpSIw6k;
-        "pkg-1.0.0" = _QJpSIw6k;
-        "default" = _QJpSIw6k;
+        "fabric-1.21.1" = _Ti0slM7S;
+        "pkg-1.0.0" = _Ti0slM7S;
+        "default" = _Ti0slM7S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "firework-fixed";

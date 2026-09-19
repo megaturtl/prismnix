@@ -146,6 +146,16 @@ let
             "file" = "shulker-box-labels-3.4.4+26.2-neoforge.jar";
             "hash" = "sha512-+BeN0ZgJapEwXd2AvEhNQRBTGS4QGlxVfYJCnkZ50Ignc/yyZdh7uEK/B5qTqnTtdUAby4V5q1YXm0N/lrvTWA==";
         };
+        _I80syIGL = {
+            "id" = "I80syIGL";
+            "file" = "shulker-box-labels-3.4.5+26.3-fabric.jar";
+            "hash" = "sha512-+hErE3kGZyNk8nibfWD02plXClhHM/kuGTZ4C7PwBxDGTMwiGTC2r2OJltqAmwReMh6lCG+BNmm9d0hiBQ8FrQ==";
+        };
+        _rrlQ2DLh = {
+            "id" = "rrlQ2DLh";
+            "file" = "shulker-box-labels-3.4.5+26.3-neoforge.jar";
+            "hash" = "sha512-yzQNPOs5Tr4HjHW2IrvPbUfR35xMHF8MRU7IyIkoHBAotJlS8pZFm4Tf68LIYhIKRMVTos8Wu04mE31LxMpjzQ==";
+        };
     in {
         "LeUnmms7" = _LeUnmms7;
         "htKqaZ8Z" = _htKqaZ8Z;
@@ -176,6 +186,8 @@ let
         "6LnOhrRN" = _6LnOhrRN;
         "FKrA440P" = _FKrA440P;
         "aEDhwifu" = _aEDhwifu;
+        "I80syIGL" = _I80syIGL;
+        "rrlQ2DLh" = _rrlQ2DLh;
         "fabric-1.21.5" = _ZgteQW07;
         "fabric-1.21.6" = _y1c3CrZX;
         "fabric-1.21.7" = _vgW19Ke4;
@@ -187,6 +199,7 @@ let
         "fabric-26.1.1" = _cQEoBWmz;
         "fabric-26.1.2" = _cQEoBWmz;
         "fabric-26.2" = _FKrA440P;
+        "fabric-26.3" = _I80syIGL;
         "neoforge-1.21.6" = _yzqKDf8c;
         "neoforge-1.21.7" = _1QGMW0cC;
         "neoforge-1.21.8" = _1QGMW0cC;
@@ -197,6 +210,7 @@ let
         "neoforge-26.1.1" = _6LnOhrRN;
         "neoforge-26.1.2" = _6LnOhrRN;
         "neoforge-26.2" = _aEDhwifu;
+        "neoforge-26.3" = _rrlQ2DLh;
         "pkg-0.0.1" = _LeUnmms7;
         "pkg-1.0.0+1.21.5" = _htKqaZ8Z;
         "pkg-2.0.0+1.21.5" = _Pgx0C8zf;
@@ -226,7 +240,9 @@ let
         "pkg-3.4.3+26.1-neoforge" = _6LnOhrRN;
         "pkg-3.4.4+26.2-fabric" = _FKrA440P;
         "pkg-3.4.4+26.2-neoforge" = _aEDhwifu;
-        "default" = _aEDhwifu;
+        "pkg-3.4.5+26.3-fabric" = _I80syIGL;
+        "pkg-3.4.5+26.3-neoforge" = _rrlQ2DLh;
+        "default" = _rrlQ2DLh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shulker-box-labels";

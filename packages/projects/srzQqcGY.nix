@@ -496,6 +496,16 @@ let
             "file" = "arrowplus-fabric-26.1.2-26.1.2.103.jar";
             "hash" = "sha512-t7dEv9zUmm5GPXO6w3ll759tdQnk4VEGijc1+ghWNiCpAAakCDrct5s3QBOk3lqtLJGzea7Olfp2uk6/ZoLi0Q==";
         };
+        _m99CtHXA = {
+            "id" = "m99CtHXA";
+            "file" = "arrowplus-neoforge-26.3-26.3.0.0.jar";
+            "hash" = "sha512-7j7GCRKPsAeW6ulS5coLLHSVaUxMy56kOVmd4mFojjS81hASacFXL9BBWm4vYFP//SphXecGamLiQvaEcylCXw==";
+        };
+        _GRJPL2FR = {
+            "id" = "GRJPL2FR";
+            "file" = "arrowplus-fabric-26.3-26.3.0.0.jar";
+            "hash" = "sha512-TzQSdPtPTuE2dowvx9o6hGqBUQDS9EkECpmWLnvT1kNqWkK4ZoJgoFiG2LoEEgyLptL4EZfE6KiHedyaQzqGVw==";
+        };
     in {
         "ObwKqlD2" = _ObwKqlD2;
         "84Qv7WUj" = _84Qv7WUj;
@@ -596,6 +606,8 @@ let
         "P0rINN1D" = _P0rINN1D;
         "xGUAQWld" = _xGUAQWld;
         "CGwGL544" = _CGwGL544;
+        "m99CtHXA" = _m99CtHXA;
+        "GRJPL2FR" = _GRJPL2FR;
         "neoforge-1.21.1" = _yb47poBX;
         "neoforge-1.21.4" = _84Qv7WUj;
         "neoforge-1.21.5" = _7dKj6JwK;
@@ -610,6 +622,7 @@ let
         "neoforge-26.1.1" = _xGUAQWld;
         "neoforge-26.1.2" = _xGUAQWld;
         "neoforge-26.2" = _5XZm7aya;
+        "neoforge-26.3" = _m99CtHXA;
         "forge-1.20.1" = _JW87LBE9;
         "forge-1.21.1" = _Hkzx5uvK;
         "forge-1.21.4" = _Ls0FzeF4;
@@ -635,6 +648,7 @@ let
         "fabric-26.1.1" = _CGwGL544;
         "fabric-26.1.2" = _CGwGL544;
         "fabric-26.2" = _P0rINN1D;
+        "fabric-26.3" = _GRJPL2FR;
         "pkg-1.0.0-1.21.1-neoforge" = _ObwKqlD2;
         "pkg-1.0.0-1.21.4-neoforge" = _84Qv7WUj;
         "pkg-1.0.0-1.21.5-neoforge" = _7dKj6JwK;
@@ -726,7 +740,8 @@ let
         "pkg-4.2.0+1.21.1-neoforge" = _yb47poBX;
         "pkg-26.2.0.1" = _P0rINN1D;
         "pkg-26.1.2.103" = _CGwGL544;
-        "default" = _CGwGL544;
+        "pkg-26.3.0.0" = _GRJPL2FR;
+        "default" = _GRJPL2FR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "arrow+";

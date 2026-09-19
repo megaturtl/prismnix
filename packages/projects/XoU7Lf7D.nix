@@ -91,6 +91,16 @@ let
             "file" = "wathe-1.3.2-1.21.1.jar";
             "hash" = "sha512-V7T1fWTBJkpXa2Toxdth4NYCXiZlGJOEbx3gIcNOor/Xhh62QfgD0xZWgtE4VKFJPbHtNSTTnI1YcJOTNcYc4A==";
         };
+        _9Ia1WIgH = {
+            "id" = "9Ia1WIgH";
+            "file" = "wathe-1.4-1.21.1.jar";
+            "hash" = "sha512-mlMaOHjpmZ9VHpo+hwC1QvKjnEPrek57xPdQKTJfy4PG3UxhNsKvoPP6wwE0kiSDhGDY/8RLo7v88mjfG2OLjg==";
+        };
+        _K49RSVPQ = {
+            "id" = "K49RSVPQ";
+            "file" = "wathe-1.4.1-1.21.1.jar";
+            "hash" = "sha512-Z8STMwyhBuZVewMh71EF7i5vNpoUpivsdOk835CZgHPkJ01F1rqk5df73QRrih3dn4pdXIk6P0a6yfmwp4gdNA==";
+        };
     in {
         "yOq0McXz" = _yOq0McXz;
         "RbWGXJjX" = _RbWGXJjX;
@@ -110,8 +120,10 @@ let
         "mzVw0uxw" = _mzVw0uxw;
         "KnZZaQYG" = _KnZZaQYG;
         "3Kw6IUoN" = _3Kw6IUoN;
-        "fabric-1.21.1" = _3Kw6IUoN;
-        "quilt-1.21.1" = _3Kw6IUoN;
+        "9Ia1WIgH" = _9Ia1WIgH;
+        "K49RSVPQ" = _K49RSVPQ;
+        "fabric-1.21.1" = _K49RSVPQ;
+        "quilt-1.21.1" = _K49RSVPQ;
         "pkg-1.1-1.21.1" = _yOq0McXz;
         "pkg-1.1.1-1.21.1" = _RbWGXJjX;
         "pkg-1.1.2-1.21.1" = _R15yZJHj;
@@ -130,7 +142,9 @@ let
         "pkg-1.3-1.21.1" = _mzVw0uxw;
         "pkg-1.3.1-1.21.1" = _KnZZaQYG;
         "pkg-1.3.2-1.21.1" = _3Kw6IUoN;
-        "default" = _3Kw6IUoN;
+        "pkg-1.4-1.21.1" = _9Ia1WIgH;
+        "pkg-1.4.1-1.21.1" = _K49RSVPQ;
+        "default" = _K49RSVPQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wathe";

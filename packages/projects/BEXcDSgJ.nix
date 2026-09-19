@@ -56,6 +56,16 @@ let
             "file" = "sulfur-caves-plus-neoforge-1.1.7-26.2-neoforge.jar";
             "hash" = "sha512-ZG8lP+WhSDsKG3k7FTx5rn/SFOJpl1yS57pxrlSEqB7xj6qFcmWg9zLOMYg0B9jjJtvGW9J0O87HrmIUYnVNMA==";
         };
+        _fNqAEywU = {
+            "id" = "fNqAEywU";
+            "file" = "sulfurcavesplus-1.1.8-26.3.jar";
+            "hash" = "sha512-jUESaDkYZ+2jdFvCn9tKeRRY18IEFc3wQA+gHX7eLjFzB+l5egTCeeRZG4snIPfA/hdDUO2Mpw/gw8j4tA58rw==";
+        };
+        _w6M8aYNj = {
+            "id" = "w6M8aYNj";
+            "file" = "sulfur-caves-plus-neoforge-1.1.8-26.3-neoforge.jar";
+            "hash" = "sha512-lt1vadAZ0tczYPR/TDcgNNP8gwfsgeSSVGJmcKviyoPpGYcze7iOJpNhfq8EC01QWYQ3xnYGt+gp7F7LXhTY3w==";
+        };
     in {
         "GsHu1eBu" = _GsHu1eBu;
         "QIPmQNpQ" = _QIPmQNpQ;
@@ -68,13 +78,17 @@ let
         "9PO2g34j" = _9PO2g34j;
         "420mJwAp" = _420mJwAp;
         "YwS2Eo2W" = _YwS2Eo2W;
+        "fNqAEywU" = _fNqAEywU;
+        "w6M8aYNj" = _w6M8aYNj;
         "fabric-26.2-snapshot-3" = _GsHu1eBu;
         "fabric-26.2-snapshot-4" = _ksAs9lBQ;
         "fabric-26.2-snapshot-5" = _A0slh3PG;
         "fabric-26.2-snapshot-6" = _lUaIiwyO;
         "fabric-26.2-snapshot-7" = _XosoL2sg;
         "fabric-26.2" = _420mJwAp;
+        "fabric-26.3" = _fNqAEywU;
         "neoforge-26.2" = _YwS2Eo2W;
+        "neoforge-26.3" = _w6M8aYNj;
         "pkg-1.0.0" = _GsHu1eBu;
         "pkg-1.1.0" = _QIPmQNpQ;
         "pkg-1.1.1" = _ksAs9lBQ;
@@ -84,7 +98,8 @@ let
         "pkg-1.1.5" = _XosoL2sg;
         "pkg-1.1.6" = _9PO2g34j;
         "pkg-1.1.7" = _YwS2Eo2W;
-        "default" = _YwS2Eo2W;
+        "pkg-1.1.8" = _w6M8aYNj;
+        "default" = _w6M8aYNj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sulfur-caves-plus";

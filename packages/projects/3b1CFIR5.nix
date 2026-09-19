@@ -236,6 +236,16 @@ let
             "file" = "MobPlaques-v26.1.1-mc26.1.x-Fabric.jar";
             "hash" = "sha512-dRv46XT646+dFkQOY6NwwvON4JJFv0lTSxeJse7cP3HzUKWLtn6BqszOz/YFkd9CmY41MZnN9c3NiuBKFFAunA==";
         };
+        _W0URbzOf = {
+            "id" = "W0URbzOf";
+            "file" = "MobPlaques-v26.2.1-mc26.2.x-Fabric.jar";
+            "hash" = "sha512-+GfMSelG7qwMJPsjYxnQzFg5nEHT1DH2IBQHDhh5jALC+GpmgQao7ZMEOWV3rstEASh2xj+SM6KeHSWbx0RNyw==";
+        };
+        _F3yGjflW = {
+            "id" = "F3yGjflW";
+            "file" = "MobPlaques-v26.2.1-mc26.2.x-NeoForge.jar";
+            "hash" = "sha512-j+R7mG8/wYZ8xEfrjSwR3eRA/nQWojz5fcX6zAjC0EAVIODd4DxqAYstzwS7zhJg2PQ1g1SUQ7DsAQV/QPWgoA==";
+        };
     in {
         "v5DKY8Wa" = _v5DKY8Wa;
         "VyiEPoIo" = _VyiEPoIo;
@@ -284,6 +294,8 @@ let
         "ls9l9O88" = _ls9l9O88;
         "LGaPH7dU" = _LGaPH7dU;
         "8Z0GxmY4" = _8Z0GxmY4;
+        "W0URbzOf" = _W0URbzOf;
+        "F3yGjflW" = _F3yGjflW;
         "forge-1.19.2" = _n3Ce9mNi;
         "forge-1.19.3" = _waiGuWuT;
         "forge-1.19.4" = _blGPZUFI;
@@ -309,7 +321,7 @@ let
         "fabric-26.1" = _8Z0GxmY4;
         "fabric-26.1.1" = _8Z0GxmY4;
         "fabric-26.1.2" = _8Z0GxmY4;
-        "fabric-26.2" = _T0Tew4CF;
+        "fabric-26.2" = _W0URbzOf;
         "neoforge-1.20.4" = _wFW7OJCI;
         "neoforge-1.21" = _18g31FS1;
         "neoforge-1.21.1" = _gDwygHA5;
@@ -324,7 +336,7 @@ let
         "neoforge-26.1" = _LGaPH7dU;
         "neoforge-26.1.1" = _LGaPH7dU;
         "neoforge-26.1.2" = _LGaPH7dU;
-        "neoforge-26.2" = _ls9l9O88;
+        "neoforge-26.2" = _F3yGjflW;
         "pkg-v4.0.0-1.19.2-Forge" = _v5DKY8Wa;
         "pkg-v4.0.0-1.19.2-Fabric" = _VyiEPoIo;
         "pkg-v4.0.1-1.19.2-Forge" = _n3Ce9mNi;
@@ -366,7 +378,8 @@ let
         "pkg-26.1.0" = _lIDAljuC;
         "pkg-26.2.0" = _ls9l9O88;
         "pkg-26.1.1" = _8Z0GxmY4;
-        "default" = _8Z0GxmY4;
+        "pkg-26.2.1" = _F3yGjflW;
+        "default" = _F3yGjflW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mob-plaques";

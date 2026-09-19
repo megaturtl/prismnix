@@ -236,6 +236,11 @@ let
             "file" = "chatsigninghider-fabric-1.0.5+26.2.jar";
             "hash" = "sha512-9r45yq5AinznYDtDa0hQVtJ5O3nTfEhEMXoTpbfIZbyH+ZFsWWRTFtDbSmccAj7Z2CIIpBTFCnz7tCwgYM7ytg==";
         };
+        _NdGAWgGG = {
+            "id" = "NdGAWgGG";
+            "file" = "chatsigninghider-fabric-1.0.5+26.3.jar";
+            "hash" = "sha512-NV/rhJ15Dx6VuyQBx206usH8NgwfTDNPyaNwu1FxgR1tiCHAq73yuBxt8tKUflpyMrnulKrWkSuPYecIoYN/iA==";
+        };
     in {
         "Cx0521dy" = _Cx0521dy;
         "lrZRtX96" = _lrZRtX96;
@@ -284,6 +289,7 @@ let
         "1CB40eCy" = _1CB40eCy;
         "LABg7LQt" = _LABg7LQt;
         "3qqUMbER" = _3qqUMbER;
+        "NdGAWgGG" = _NdGAWgGG;
         "fabric-1.19.2" = _JNIUTPvC;
         "fabric-1.19.3" = _lrZRtX96;
         "fabric-1.19.4" = _Ap2Te17B;
@@ -310,6 +316,7 @@ let
         "fabric-26.1.1" = _LABg7LQt;
         "fabric-26.1.2" = _LABg7LQt;
         "fabric-26.2" = _3qqUMbER;
+        "fabric-26.3" = _NdGAWgGG;
         "quilt-1.19.2" = _JNIUTPvC;
         "quilt-1.19.4" = _Ap2Te17B;
         "quilt-1.20.1" = _yvg9JSsj;
@@ -333,6 +340,7 @@ let
         "quilt-26.1.1" = _LABg7LQt;
         "quilt-26.1.2" = _LABg7LQt;
         "quilt-26.2" = _3qqUMbER;
+        "quilt-26.3" = _NdGAWgGG;
         "pkg-fabric-1.19.2-1.0.0" = _Cx0521dy;
         "pkg-fabric-1.19.3-1.0.0" = _lrZRtX96;
         "pkg-fabric-1.19.4-1.0.0" = _Nbb9ItJc;
@@ -380,7 +388,8 @@ let
         "pkg-fabric-1.0.5+26.1.1" = _1CB40eCy;
         "pkg-fabric-1.0.5+26.1.2" = _LABg7LQt;
         "pkg-fabric-1.0.5+26.2" = _3qqUMbER;
-        "default" = _3qqUMbER;
+        "pkg-fabric-1.0.5+26.3" = _NdGAWgGG;
+        "default" = _NdGAWgGG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chat-signing-hider";

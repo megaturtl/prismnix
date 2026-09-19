@@ -126,6 +126,46 @@ let
             "file" = "ji-afk-cinematic-26.1-26.2-2.3.0.jar";
             "hash" = "sha512-XWRpzQnizUQ30gNKdcQCad+vcKQCE7ppvU0xspMSkCiF87/yVDUBoDZPMiAQHjucJPQjr1x6g7MpqLRnQPPAdw==";
         };
+        _G8Mmx0PA = {
+            "id" = "G8Mmx0PA";
+            "file" = "ji-afk-cinematic-1.21-1.21.1-2.3.1.jar";
+            "hash" = "sha512-ijJnTtE4C99CI/Ms7ZIPM/LieGBxuU4J1d56PxaFNfKCnv4ZS3FgGLZUYPoVBOq5E/oG0y3aXSoxVklZ0Y0c/A==";
+        };
+        _rX8c5G3m = {
+            "id" = "rX8c5G3m";
+            "file" = "ji-afk-cinematic-1.21.2-1.21.3-2.3.1.jar";
+            "hash" = "sha512-fSakwBjgSVmkERDu/PoQjhk92dR+J66ex4WCzP1fvFli7yGA3tN7n085/C+P60hIz0Vp7S4H0e4h+qC+5qt3+g==";
+        };
+        _eg6Q2ppe = {
+            "id" = "eg6Q2ppe";
+            "file" = "ji-afk-cinematic-1.21.4-2.3.1.jar";
+            "hash" = "sha512-w1rQNkni1PlKKBMSt/BnwIx+muzFlRVqqWXRn6Dda/eZzHPLzb0/+hhhVs5Om4VzmTUgOpU5AhW4djiCLSVM7g==";
+        };
+        _r9OWfG9U = {
+            "id" = "r9OWfG9U";
+            "file" = "ji-afk-cinematic-1.21.5-2.3.1.jar";
+            "hash" = "sha512-fim3hL1n3xBUzWh+hgcCUdaVLY4ZOW2funZGFlXQS9znjup3NojzAEcxGBp9yBCvPiAjc7L56kwPMbK6ngxwJg==";
+        };
+        _1Iu8qIuA = {
+            "id" = "1Iu8qIuA";
+            "file" = "ji-afk-cinematic-1.21.6-1.21.8-2.3.1.jar";
+            "hash" = "sha512-QXM5npFpKvTnH4q72bFToLXCjaup4AWZ8/honl8l8+pRYDnbbcBmXvun4fiU676+DrlC43B8BuCckrm1L+FLiw==";
+        };
+        _iUsLbQt3 = {
+            "id" = "iUsLbQt3";
+            "file" = "ji-afk-cinematic-1.21.9-1.21.10-2.3.1.jar";
+            "hash" = "sha512-5XaV0+21Uo+aBYacFM6WG5y/CmumfixwsPfUU6McLDYPpkGc59Txp1poRIxVqk67NDV4MwFDxWS68Q8uBNWScw==";
+        };
+        _ViJLxeFd = {
+            "id" = "ViJLxeFd";
+            "file" = "ji-afk-cinematic-1.21.11-2.3.1.jar";
+            "hash" = "sha512-kwTKCJ8FuNmXpWDN1zqrLiXeJk1ca9LrKCZu1KIkHWz/aszs7zYg8qRdChs87kHGuRsc7cYsj1SVWFxKRswung==";
+        };
+        _FTFzUl1u = {
+            "id" = "FTFzUl1u";
+            "file" = "ji-afk-cinematic-26.1-26.2-2.3.1.jar";
+            "hash" = "sha512-XQF/q9lVrPb3+9Xxy61O04pB4EjX40PW1W49vzZR7paeoAXMIG/rtg90zUp214OpgEPb3pVloYfSJU1VOd+kYA==";
+        };
     in {
         "T8ffiWQV" = _T8ffiWQV;
         "JeryP1dJ" = _JeryP1dJ;
@@ -152,27 +192,36 @@ let
         "f3Krh8Vy" = _f3Krh8Vy;
         "uOHKiHt1" = _uOHKiHt1;
         "eVWpLMwP" = _eVWpLMwP;
-        "fabric-1.21.11" = _uOHKiHt1;
-        "fabric-1.21" = _rSllO5RV;
-        "fabric-1.21.1" = _rSllO5RV;
-        "fabric-1.21.2" = _t3Jd080E;
-        "fabric-1.21.3" = _t3Jd080E;
-        "fabric-1.21.4" = _7S4y1sd9;
-        "fabric-1.21.5" = _ZDzxDbeT;
-        "fabric-1.21.6" = _QC2e6YRj;
-        "fabric-1.21.7" = _QC2e6YRj;
-        "fabric-1.21.8" = _QC2e6YRj;
-        "fabric-1.21.9" = _f3Krh8Vy;
-        "fabric-1.21.10" = _f3Krh8Vy;
-        "fabric-26.1" = _eVWpLMwP;
-        "fabric-26.1.1" = _eVWpLMwP;
-        "fabric-26.1.2" = _eVWpLMwP;
-        "fabric-26.2" = _eVWpLMwP;
+        "G8Mmx0PA" = _G8Mmx0PA;
+        "rX8c5G3m" = _rX8c5G3m;
+        "eg6Q2ppe" = _eg6Q2ppe;
+        "r9OWfG9U" = _r9OWfG9U;
+        "1Iu8qIuA" = _1Iu8qIuA;
+        "iUsLbQt3" = _iUsLbQt3;
+        "ViJLxeFd" = _ViJLxeFd;
+        "FTFzUl1u" = _FTFzUl1u;
+        "fabric-1.21.11" = _ViJLxeFd;
+        "fabric-1.21" = _G8Mmx0PA;
+        "fabric-1.21.1" = _G8Mmx0PA;
+        "fabric-1.21.2" = _rX8c5G3m;
+        "fabric-1.21.3" = _rX8c5G3m;
+        "fabric-1.21.4" = _eg6Q2ppe;
+        "fabric-1.21.5" = _r9OWfG9U;
+        "fabric-1.21.6" = _1Iu8qIuA;
+        "fabric-1.21.7" = _1Iu8qIuA;
+        "fabric-1.21.8" = _1Iu8qIuA;
+        "fabric-1.21.9" = _iUsLbQt3;
+        "fabric-1.21.10" = _iUsLbQt3;
+        "fabric-26.1" = _FTFzUl1u;
+        "fabric-26.1.1" = _FTFzUl1u;
+        "fabric-26.1.2" = _FTFzUl1u;
+        "fabric-26.2" = _FTFzUl1u;
         "pkg-2.0.0" = _T8ffiWQV;
         "pkg-2.2.0" = _io5xpz0f;
         "pkg-2.2.1" = _gbljkq7f;
         "pkg-2.3.0" = _eVWpLMwP;
-        "default" = _eVWpLMwP;
+        "pkg-2.3.1" = _FTFzUl1u;
+        "default" = _FTFzUl1u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ji-afk-cinematic";

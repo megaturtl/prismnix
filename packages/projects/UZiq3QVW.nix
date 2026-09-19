@@ -236,6 +236,21 @@ let
             "file" = "Northstar-0.6.4+1.21.1.jar";
             "hash" = "sha512-3HrPEwfIymBUQtSCcIBzKfo9A9BRP9rB1PL3NnTuER9jUop7ARzmGq0et0kkbhKe0ePjz8576NuhTl+041mQDg==";
         };
+        _sV0ne4Eq = {
+            "id" = "sV0ne4Eq";
+            "file" = "Northstar-0.6.5+1.20.1-create5.jar";
+            "hash" = "sha512-gnwb/eECQEM3w3d7kjQ6YhgHi/cGH3WseunbtmHq8qVqf7AOY08Y3SRCU+UTVQwvKd3fKpUHFRgHlog3ep1bKg==";
+        };
+        _jGEhOn9c = {
+            "id" = "jGEhOn9c";
+            "file" = "Northstar-0.6.5+1.20.1.jar";
+            "hash" = "sha512-jr3iTVgHQDA3m24znXBPR37HQOGsdQ8rvrizHsuPXZDzs18XejiRZB+kvhDdvNZiu3fl/sTkFNjJ7nuzsf+oAw==";
+        };
+        _DnRbB3Dp = {
+            "id" = "DnRbB3Dp";
+            "file" = "Northstar-0.6.5+1.21.1.jar";
+            "hash" = "sha512-NvBU3YT7ACDL5LTh9GvRd/KRdQlwgckcuDGZylGiK2Szsfl7jyxA2Y1skMSEDOmpPRT8UOs4x48SQDq3/VxEeg==";
+        };
     in {
         "BDpx4E42" = _BDpx4E42;
         "5Cbj7hjh" = _5Cbj7hjh;
@@ -284,8 +299,11 @@ let
         "md0Go19S" = _md0Go19S;
         "pQV57k3E" = _pQV57k3E;
         "COjXrpwb" = _COjXrpwb;
-        "forge-1.20.1" = _pQV57k3E;
-        "neoforge-1.21.1" = _COjXrpwb;
+        "sV0ne4Eq" = _sV0ne4Eq;
+        "jGEhOn9c" = _jGEhOn9c;
+        "DnRbB3Dp" = _DnRbB3Dp;
+        "forge-1.20.1" = _jGEhOn9c;
+        "neoforge-1.21.1" = _DnRbB3Dp;
         "pkg-0.2.0+1.20.1" = _BDpx4E42;
         "pkg-0.2.1+1.20.1" = _5Cbj7hjh;
         "pkg-0.2.2+1.20.1" = _NJKoWnVN;
@@ -333,7 +351,10 @@ let
         "pkg-0.6.3+1.21.1" = _md0Go19S;
         "pkg-0.6.4+1.20.1" = _pQV57k3E;
         "pkg-0.6.4+1.21.1" = _COjXrpwb;
-        "default" = _COjXrpwb;
+        "pkg-0.6.5+1.20.1-create5" = _sV0ne4Eq;
+        "pkg-0.6.5+1.20.1" = _jGEhOn9c;
+        "pkg-0.6.5+1.21.1" = _DnRbB3Dp;
+        "default" = _DnRbB3Dp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "northstar-redux";

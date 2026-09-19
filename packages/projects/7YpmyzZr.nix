@@ -136,6 +136,11 @@ let
             "file" = "raid-restore-1.5.0.jar";
             "hash" = "sha512-Gu9kIa5tlZoQ1bRIrPLCvTXNP88yxT6Omgc6zKUmK9SSF3weH5z4MC+RnMyATXL5c0+4pm1b8JLn6E8+mbgu0Q==";
         };
+        _pgrYbk90 = {
+            "id" = "pgrYbk90";
+            "file" = "raid-restore-1.6.0.jar";
+            "hash" = "sha512-n78qy8bhPEr0rmVpTdimHlDcSky2L5pkwG+oi/ueDlQ3ZX+x+Sxtuq6vPiKumOQ8iiuumzETbWY4kKeo/OoQag==";
+        };
     in {
         "VhwheV8o" = _VhwheV8o;
         "QBhOv1Io" = _QBhOv1Io;
@@ -164,6 +169,7 @@ let
         "RviMBjH7" = _RviMBjH7;
         "iUCmmwyA" = _iUCmmwyA;
         "KDZS6IER" = _KDZS6IER;
+        "pgrYbk90" = _pgrYbk90;
         "fabric-1.20.5-pre2" = _VhwheV8o;
         "fabric-1.20.5-rc2" = _QBhOv1Io;
         "fabric-1.20.5" = _SmlnP3ot;
@@ -212,6 +218,7 @@ let
         "fabric-26.1.2" = _RviMBjH7;
         "fabric-26.2-pre-3" = _iUCmmwyA;
         "fabric-26.2" = _KDZS6IER;
+        "fabric-26.3" = _pgrYbk90;
         "pkg-0.0.3" = _VhwheV8o;
         "pkg-0.0.4" = _QBhOv1Io;
         "pkg-0.1.0" = _SmlnP3ot;
@@ -239,7 +246,8 @@ let
         "pkg-1.4.0" = _RviMBjH7;
         "pkg-1.5.0-SNAPSHOT" = _iUCmmwyA;
         "pkg-1.5.0" = _KDZS6IER;
-        "default" = _KDZS6IER;
+        "pkg-1.6.0" = _pgrYbk90;
+        "default" = _pgrYbk90;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "raid-restore";

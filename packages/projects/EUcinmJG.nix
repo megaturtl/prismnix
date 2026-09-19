@@ -86,6 +86,16 @@ let
             "file" = "ShinyVisuals 2.9.1.jar";
             "hash" = "sha512-024wWEUkbK4o4ECRhKzDlzQqagDogRDtMXVxSkWrCb5QXnEeZFofB8RkKgVKvF3g+gbsvsGqlRlG+joVuFCeEw==";
         };
+        _pelqvjm6 = {
+            "id" = "pelqvjm6";
+            "file" = "ShinyVisuals 3.0.jar";
+            "hash" = "sha512-xTuo1LU4M+gurqaoGTs0Yx9LWN7baQJxwtjSLaOmQoYVGStURfcZafXlaAsk+vvYr+29p+ykyDjrG2YPWSD9RA==";
+        };
+        _XloFYAHG = {
+            "id" = "XloFYAHG";
+            "file" = "ShinyVisuals 3.1.jar";
+            "hash" = "sha512-hV0lsjRMWAM0iExL4sGh6vBQpUmH9+uf10pDURUqLjWnUbiZMloYrO0nQmyH+1DZ43EueTpvskbgcut5U5oJHQ==";
+        };
     in {
         "aN7vPACa" = _aN7vPACa;
         "XANrun1h" = _XANrun1h;
@@ -104,7 +114,9 @@ let
         "uGgXNeth" = _uGgXNeth;
         "uxn6RAGl" = _uxn6RAGl;
         "odsgsdhs" = _odsgsdhs;
-        "fabric-1.21.4" = _odsgsdhs;
+        "pelqvjm6" = _pelqvjm6;
+        "XloFYAHG" = _XloFYAHG;
+        "fabric-1.21.4" = _XloFYAHG;
         "pkg-1.0" = _3W61mLyj;
         "pkg-2.0" = _XANrun1h;
         "pkg-2.1" = _aCW8EqYV;
@@ -121,7 +133,9 @@ let
         "pkg-1.1" = _uGgXNeth;
         "pkg-2.9" = _uxn6RAGl;
         "pkg-2.9.1" = _odsgsdhs;
-        "default" = _odsgsdhs;
+        "pkg-3.0" = _pelqvjm6;
+        "pkg-3.1" = _XloFYAHG;
+        "default" = _XloFYAHG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shinyvisuals";

@@ -31,6 +31,11 @@ let
             "file" = "cobbleboost-1.1.2.jar";
             "hash" = "sha512-2POXOcP53w90cMjMJwVbsJofNFgOFxL3aZsexYsL7lDn2unCTRrw03Jw+61pPqLBrIw5J1lWcNIUKFZA0GsX9Q==";
         };
+        _L8shWg16 = {
+            "id" = "L8shWg16";
+            "file" = "cobbleboost-1.2.1.jar";
+            "hash" = "sha512-l7EzPJtEVuHIOKZxYpRiunOC/XV2+m2y71T9wXf6ihcypb/0RKnjw46vCeZ5SaOaz1OCOAYLO20qNt0J3YkD0w==";
+        };
     in {
         "94NCRadh" = _94NCRadh;
         "hEibVKKd" = _hEibVKKd;
@@ -38,13 +43,15 @@ let
         "e8a1HPDH" = _e8a1HPDH;
         "LSxFbkSe" = _LSxFbkSe;
         "jiFjTPU2" = _jiFjTPU2;
-        "fabric-1.21.1" = _jiFjTPU2;
+        "L8shWg16" = _L8shWg16;
+        "fabric-1.21.1" = _L8shWg16;
         "pkg-1.0.0" = _hEibVKKd;
         "pkg-1.0.1" = _Mxs667R4;
         "pkg-1.1.0" = _e8a1HPDH;
         "pkg-1.1.1" = _LSxFbkSe;
         "pkg-1.1.2" = _jiFjTPU2;
-        "default" = _jiFjTPU2;
+        "pkg-1.2.1" = _L8shWg16;
+        "default" = _L8shWg16;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobbleboost";

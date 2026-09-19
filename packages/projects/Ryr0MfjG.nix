@@ -51,6 +51,11 @@ let
             "file" = "Cute Axolotl Totem v3.0.1-69.88  1.21.9-26.2.zip";
             "hash" = "sha512-wblKOeCwNz/g4Yo6kwfRcwZ9t5UwsR3Y9sd1qHx43s63wKmjy0zL4yyM6Rd5cFE16YiMPQptq5ZOABM6Xh2HLA==";
         };
+        _nvfsFUmb = {
+            "id" = "nvfsFUmb";
+            "file" = "Cute Axolotl Totem v3.0.2-69.97  1.21.9-26.3.zip";
+            "hash" = "sha512-vsfTSct4lHGYlxyr0dJnAIEiPC1/Njv23ms1OKgB2bzV5gehdLZPzWiX7TZB/Ml63+q901r9TkIthhGFseHWrg==";
+        };
     in {
         "s3GzEJol" = _s3GzEJol;
         "Zkgz48kN" = _Zkgz48kN;
@@ -62,6 +67,7 @@ let
         "yUNJG9R5" = _yUNJG9R5;
         "ZREWcJrZ" = _ZREWcJrZ;
         "A6QMLtSX" = _A6QMLtSX;
+        "nvfsFUmb" = _nvfsFUmb;
         "minecraft-1.21" = _h4H6hxvQ;
         "minecraft-1.21.1" = _h4H6hxvQ;
         "minecraft-1.21.2" = _h4H6hxvQ;
@@ -111,9 +117,9 @@ let
         "minecraft-1.21.6" = _h4H6hxvQ;
         "minecraft-1.21.7" = _h4H6hxvQ;
         "minecraft-1.21.8" = _h4H6hxvQ;
-        "minecraft-1.21.9" = _A6QMLtSX;
-        "minecraft-1.21.10" = _A6QMLtSX;
-        "minecraft-1.21.11" = _A6QMLtSX;
+        "minecraft-1.21.9" = _nvfsFUmb;
+        "minecraft-1.21.10" = _nvfsFUmb;
+        "minecraft-1.21.11" = _nvfsFUmb;
         "minecraft-22w42a" = _h4H6hxvQ;
         "minecraft-22w43a" = _h4H6hxvQ;
         "minecraft-22w44a" = _h4H6hxvQ;
@@ -164,10 +170,11 @@ let
         "minecraft-24w44a" = _h4H6hxvQ;
         "minecraft-24w45a" = _h4H6hxvQ;
         "minecraft-24w46a" = _h4H6hxvQ;
-        "minecraft-26.1" = _A6QMLtSX;
-        "minecraft-26.1.1" = _A6QMLtSX;
-        "minecraft-26.1.2" = _A6QMLtSX;
-        "minecraft-26.2" = _A6QMLtSX;
+        "minecraft-26.1" = _nvfsFUmb;
+        "minecraft-26.1.1" = _nvfsFUmb;
+        "minecraft-26.1.2" = _nvfsFUmb;
+        "minecraft-26.2" = _nvfsFUmb;
+        "minecraft-26.3" = _nvfsFUmb;
         "pkg-1.0" = _s3GzEJol;
         "pkg-1.1" = _Zkgz48kN;
         "pkg-AP-ABPP-1.2" = _ULj5Cuzd;
@@ -178,7 +185,8 @@ let
         "pkg-BP-3.0-3-1" = _yUNJG9R5;
         "pkg-3.0-84-RF" = _ZREWcJrZ;
         "pkg-3.0.1-69.88" = _A6QMLtSX;
-        "default" = _A6QMLtSX;
+        "pkg-3.0.2-69.97" = _nvfsFUmb;
+        "default" = _nvfsFUmb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cute-axolotl-totem";

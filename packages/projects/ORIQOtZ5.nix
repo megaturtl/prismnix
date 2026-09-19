@@ -86,6 +86,26 @@ let
             "file" = "inferno-fabric-26.2-r2.jar";
             "hash" = "sha512-HkNrN9rijvsBh3vEy8xOUbjjUABIuyDhvXK06giRge33rhVCZs5eFxe1xxvkgv+31hRG3D7J9XDAHTlNeZp9Ig==";
         };
+        _fx9UQA9x = {
+            "id" = "fx9UQA9x";
+            "file" = "inferno-fabric-26.2-r3.jar";
+            "hash" = "sha512-r0i4sls0nC3RQYcvtnPoXFQ71u6V2+zy0aKszTH3cxNs0midKInCASZxOSqeTojipQPbP9O7HG3RGHtnZzRFIg==";
+        };
+        _r1Rmek1Q = {
+            "id" = "r1Rmek1Q";
+            "file" = "inferno-fabric-26.1-r3.jar";
+            "hash" = "sha512-rhIivMmefsMbhVHb41RwNZcyA3rzTCFQ5hcTy7mZV1o/oJU/qa8ALmwbs4ii6DG7nOL7y+ml+88Gy9uYcc66tQ==";
+        };
+        _b5FvNZ5G = {
+            "id" = "b5FvNZ5G";
+            "file" = "inferno-neoforge-26.1-r3.jar";
+            "hash" = "sha512-Ni4cHqCV8tzbequFV1R4s9pMaVCbEOPqP4nPq0RCXmQq0SvCFzspKiNoHdyI7N1CUOMIzKNvDWW9LxNMIfmNCA==";
+        };
+        _VP7Dlhrg = {
+            "id" = "VP7Dlhrg";
+            "file" = "inferno-fabric-26.3-r1.jar";
+            "hash" = "sha512-qJIe2JmxVnPACV13RDOKr6rZnh+P9oQGARgd59g7yJXyjyctjKF2X8QkgqC5D8VbbA603ldxlUs5ub/7HqoaqQ==";
+        };
     in {
         "sDo0gweT" = _sDo0gweT;
         "wKGFyZZ3" = _wKGFyZZ3;
@@ -104,6 +124,10 @@ let
         "JIRuTM3Y" = _JIRuTM3Y;
         "iQ16NHxJ" = _iQ16NHxJ;
         "QLUXRkN9" = _QLUXRkN9;
+        "fx9UQA9x" = _fx9UQA9x;
+        "r1Rmek1Q" = _r1Rmek1Q;
+        "b5FvNZ5G" = _b5FvNZ5G;
+        "VP7Dlhrg" = _VP7Dlhrg;
         "fabric-1.21.5" = _wKGFyZZ3;
         "fabric-1.21.6" = _jPxuDsgh;
         "fabric-1.21.7" = _jPxuDsgh;
@@ -111,10 +135,11 @@ let
         "fabric-1.21.9" = _IbF3z4Ev;
         "fabric-1.21.10" = _eAV9T7hf;
         "fabric-1.21.11" = _rc6uPaIp;
-        "fabric-26.1" = _JIRuTM3Y;
-        "fabric-26.1.1" = _JIRuTM3Y;
-        "fabric-26.1.2" = _JIRuTM3Y;
-        "fabric-26.2" = _QLUXRkN9;
+        "fabric-26.1" = _r1Rmek1Q;
+        "fabric-26.1.1" = _r1Rmek1Q;
+        "fabric-26.1.2" = _r1Rmek1Q;
+        "fabric-26.2" = _fx9UQA9x;
+        "fabric-26.3" = _VP7Dlhrg;
         "quilt-1.21.5" = _wKGFyZZ3;
         "quilt-1.21.6" = _jPxuDsgh;
         "quilt-1.21.7" = _jPxuDsgh;
@@ -126,9 +151,9 @@ let
         "quilt-26.1.1" = _EzJgZXY3;
         "quilt-26.1.2" = _EzJgZXY3;
         "quilt-26.2" = _wZcDbt5p;
-        "neoforge-26.1" = _iQ16NHxJ;
-        "neoforge-26.1.1" = _iQ16NHxJ;
-        "neoforge-26.1.2" = _iQ16NHxJ;
+        "neoforge-26.1" = _b5FvNZ5G;
+        "neoforge-26.1.1" = _b5FvNZ5G;
+        "neoforge-26.1.2" = _b5FvNZ5G;
         "pkg-1.21.5-r1" = _sDo0gweT;
         "pkg-1.21.5-r2" = _wKGFyZZ3;
         "pkg-1.21.6-r1" = _jPxuDsgh;
@@ -145,7 +170,10 @@ let
         "pkg-26.2-r1" = _wZcDbt5p;
         "pkg-26.1-r2" = _iQ16NHxJ;
         "pkg-26.2-r2" = _QLUXRkN9;
-        "default" = _QLUXRkN9;
+        "pkg-26.2-r3" = _fx9UQA9x;
+        "pkg-26.1-r3" = _b5FvNZ5G;
+        "pkg-26.3-r1" = _VP7Dlhrg;
+        "default" = _VP7Dlhrg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "inferno";

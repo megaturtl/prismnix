@@ -76,6 +76,11 @@ let
             "file" = "HoloDiscs 2.1.0 DP mc26.2.zip";
             "hash" = "sha512-z4Ujw0ltvfODsOQ9TQHSFkM9vGefeJ9zW7zZ5pNtmCYSa3d6ee0dYTYHlqPsA0BZmcwCuqWWneuWu7kYWrK4GQ==";
         };
+        _IQ5tRMXF = {
+            "id" = "IQ5tRMXF";
+            "file" = "HoloDiscs 2.1.0 DP mc26.3.zip";
+            "hash" = "sha512-XzBh7/pRg1jilTLkeqm0wT1tVQBz5ujE95u7rB2ftYyY6vm/cEbkSJS7CZ4yZSIywpNlWAKqwWhKV7LTd7TUwg==";
+        };
     in {
         "KFiPTXbz" = _KFiPTXbz;
         "2PPUu6S0" = _2PPUu6S0;
@@ -92,6 +97,7 @@ let
         "THs2Erhk" = _THs2Erhk;
         "2SuxIaEA" = _2SuxIaEA;
         "kdTssHqX" = _kdTssHqX;
+        "IQ5tRMXF" = _IQ5tRMXF;
         "forge-1.20.1" = _iQ5SdkI1;
         "datapack-1.21.9" = _5S41DFqj;
         "datapack-1.21.1" = _lZeQq5R2;
@@ -99,6 +105,7 @@ let
         "datapack-26.1.1" = _THs2Erhk;
         "datapack-26.1.2" = _THs2Erhk;
         "datapack-26.2" = _kdTssHqX;
+        "datapack-26.3" = _IQ5tRMXF;
         "neoforge-1.21.1" = _xXLCs4OT;
         "pkg-1.0" = _KFiPTXbz;
         "pkg-1.1" = _2PPUu6S0;
@@ -115,7 +122,8 @@ let
         "pkg-2.0.0-mc26.1" = _THs2Erhk;
         "pkg-2.0.0-mc26.2" = _2SuxIaEA;
         "pkg-2.1.0-mc26.2" = _kdTssHqX;
-        "default" = _kdTssHqX;
+        "pkg-2.1.0-mc26.3" = _IQ5tRMXF;
+        "default" = _IQ5tRMXF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "holodiscs";

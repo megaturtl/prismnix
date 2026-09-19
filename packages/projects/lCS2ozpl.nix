@@ -31,6 +31,11 @@ let
             "file" = "Blooming Armor 1.20-1.20.1.zip";
             "hash" = "sha512-OJ9uasWrNjIdjlveXXC43UbrW4AUaeaxJRrjD/qc42T4ZiBoxDxZDBrTcliJdaxfSxwMctKuzlMwBQYBDaztOA==";
         };
+        _Mgkmclhv = {
+            "id" = "Mgkmclhv";
+            "file" = "Blooming Armor 26.3.zip";
+            "hash" = "sha512-hzhKRkJvn1+n4qhTvViC7g8FRiHcjXCT1Joh9LbLXuTnEzNS8w4HNrOGZjLBNq0kNlpS2n2pMsdAkq3PjjXX5Q==";
+        };
     in {
         "eGlQyqJv" = _eGlQyqJv;
         "bjCAcYVF" = _bjCAcYVF;
@@ -38,6 +43,7 @@ let
         "lYa1TkqB" = _lYa1TkqB;
         "KvrQiLjy" = _KvrQiLjy;
         "Tt92CeEn" = _Tt92CeEn;
+        "Mgkmclhv" = _Mgkmclhv;
         "minecraft-1.21.9" = _eGlQyqJv;
         "minecraft-1.21.10" = _eGlQyqJv;
         "minecraft-1.21.11" = _bjCAcYVF;
@@ -49,13 +55,15 @@ let
         "minecraft-26.2" = _KvrQiLjy;
         "minecraft-1.20" = _Tt92CeEn;
         "minecraft-1.20.1" = _Tt92CeEn;
+        "minecraft-26.3" = _Mgkmclhv;
         "pkg-1.0" = _eGlQyqJv;
         "pkg-1.1" = _bjCAcYVF;
         "pkg-1.21-1.21.1" = _G1fWx5lN;
         "pkg-26.1-26.1.2" = _lYa1TkqB;
         "pkg-26.2" = _KvrQiLjy;
         "pkg-1.20-1.20.1" = _Tt92CeEn;
-        "default" = _Tt92CeEn;
+        "pkg-26.3" = _Mgkmclhv;
+        "default" = _Mgkmclhv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blooming-armor";

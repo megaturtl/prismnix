@@ -271,6 +271,16 @@ let
             "file" = "Retraining-neoforge-26.2-5.0.1.jar";
             "hash" = "sha512-iGNIxKlCdfIS9GCNE4vlIUM/dHTykK8jyVqs1WnZkyB5yGl4wMRS3zmE5/r2tiS3KTxCVYm8J5vIeHPZiE0rlw==";
         };
+        _sq7QEoHU = {
+            "id" = "sq7QEoHU";
+            "file" = "Retraining-fabric-26.3-6.0.0.jar";
+            "hash" = "sha512-lf6wQChI5TJQzAXa7rXnwoyXLQ7VR8aahB4eSxvlijPjZLyeSNN0UaQxp8pR5/sKuCBHVS8djq9TEt1o7XMCGw==";
+        };
+        _GAkoptQS = {
+            "id" = "GAkoptQS";
+            "file" = "Retraining-neoforge-26.3-6.0.0.jar";
+            "hash" = "sha512-pmksDAKwzNBFcvNSxYYb3R8ml7NqQGK4M3xjlG5SQw/XcCUWgpmf25ozmsuuU/ySJjdYSC8j8Kg4xGpJAnApzQ==";
+        };
     in {
         "2xLSd2dF" = _2xLSd2dF;
         "oT9IShs4" = _oT9IShs4;
@@ -326,6 +336,8 @@ let
         "auKal8Fv" = _auKal8Fv;
         "PPDvDGjW" = _PPDvDGjW;
         "pSAktfgC" = _pSAktfgC;
+        "sq7QEoHU" = _sq7QEoHU;
+        "GAkoptQS" = _GAkoptQS;
         "forge-1.18.2" = _2xLSd2dF;
         "forge-1.18.1" = _3TIw7N67;
         "forge-1.18" = _ukILyRNU;
@@ -361,6 +373,7 @@ let
         "fabric-1.21.11" = _zIPQwRmp;
         "fabric-26.1.2" = _DsLCNdJQ;
         "fabric-26.2" = _PPDvDGjW;
+        "fabric-26.3" = _sq7QEoHU;
         "neoforge-1.20.2" = _1X4icCoQ;
         "neoforge-1.20.4" = _wSd4BA19;
         "neoforge-1.20.6" = _Jmq8lOdf;
@@ -375,6 +388,7 @@ let
         "neoforge-1.21.11" = _NpVSYYR4;
         "neoforge-26.1.2" = _od3l8Ef5;
         "neoforge-26.2" = _pSAktfgC;
+        "neoforge-26.3" = _GAkoptQS;
         "pkg-1.1.0" = _oT9IShs4;
         "pkg-1.1.0.2" = _3TIw7N67;
         "pkg-1.1.0.1" = _sed0MsUK;
@@ -402,7 +416,8 @@ let
         "pkg-4.0.1" = _od3l8Ef5;
         "pkg-5.0.0" = _auKal8Fv;
         "pkg-5.0.1" = _pSAktfgC;
-        "default" = _pSAktfgC;
+        "pkg-6.0.0" = _GAkoptQS;
+        "default" = _GAkoptQS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "retraining";

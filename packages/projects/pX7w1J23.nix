@@ -241,6 +241,26 @@ let
             "file" = "AtlasViewer-neoforge-17.1.0.jar";
             "hash" = "sha512-Q+LqHo7FVjC3INbqSR3m3bnvP8otJCA4g0NZgw323E3x2fWGaicMW3DvAwkOWeeDU9roeEBW5lZ47EoKBwqhcQ==";
         };
+        _XIK6k86h = {
+            "id" = "XIK6k86h";
+            "file" = "AtlasViewer-fabric-18.0.0.jar";
+            "hash" = "sha512-aZahART9Bnj6KqJpFpoLOISc5muNwUTgTudBjvyy4VLUPYMQZfvOd8hqxJy9e2YFgMDh4G8ho1S5lsrSHBjQEw==";
+        };
+        _gJmTD7Fa = {
+            "id" = "gJmTD7Fa";
+            "file" = "AtlasViewer-neoforge-18.0.0.jar";
+            "hash" = "sha512-7vz/BJbnUkrkoMHGDP1PxOq4FjI4RwFxGcN5Seh9CrronZS08k2sJIVPmWyr4TWeNMCPuyiLuPqljKo+mNjq/A==";
+        };
+        _3M0aiI0Q = {
+            "id" = "3M0aiI0Q";
+            "file" = "AtlasViewer-fabric-18.0.1.jar";
+            "hash" = "sha512-nak6zGQANXOzX3RoJNwxitx/KfHOIOsaBaqRH+sAgo2MHt1NtYcXwqWhgUJclZuSA2viE7lD567QBCUfyAaqeA==";
+        };
+        _EYQKp3gr = {
+            "id" = "EYQKp3gr";
+            "file" = "AtlasViewer-neoforge-18.0.1.jar";
+            "hash" = "sha512-UDas/jkP59xeHTZqY5xaoZk0+3ubzokmy9huQ/EYpbcHaMdmT7n/q6EOSu6YyH/vdv/QB3DGhwNqKVOEqOfuVA==";
+        };
     in {
         "9TswhQsf" = _9TswhQsf;
         "tcit7ld4" = _tcit7ld4;
@@ -290,6 +310,10 @@ let
         "9s8qSbZO" = _9s8qSbZO;
         "O4EC2Ezi" = _O4EC2Ezi;
         "yGQmRrml" = _yGQmRrml;
+        "XIK6k86h" = _XIK6k86h;
+        "gJmTD7Fa" = _gJmTD7Fa;
+        "3M0aiI0Q" = _3M0aiI0Q;
+        "EYQKp3gr" = _EYQKp3gr;
         "forge-1.18.2" = _9TswhQsf;
         "forge-1.19.2" = _tcit7ld4;
         "forge-1.19.3" = _rVQDYOIF;
@@ -313,6 +337,7 @@ let
         "neoforge-26.1.1" = _MhjPTlQx;
         "neoforge-26.1.2" = _MhjPTlQx;
         "neoforge-26.2" = _yGQmRrml;
+        "neoforge-26.3" = _EYQKp3gr;
         "fabric-1.20.2" = _YFVHuUQw;
         "fabric-1.20.4" = _h99Hdxqz;
         "fabric-1.20.6" = _BZvD4FZ5;
@@ -330,6 +355,7 @@ let
         "fabric-26.1.1" = _TknP9X0X;
         "fabric-26.1.2" = _TknP9X0X;
         "fabric-26.2" = _O4EC2Ezi;
+        "fabric-26.3" = _3M0aiI0Q;
         "pkg-1.1.0" = _9TswhQsf;
         "pkg-2.3.0" = _tcit7ld4;
         "pkg-3.2.0" = _rVQDYOIF;
@@ -357,7 +383,9 @@ let
         "pkg-16.0.2" = _MhjPTlQx;
         "pkg-17.0.0" = _9s8qSbZO;
         "pkg-17.1.0" = _yGQmRrml;
-        "default" = _yGQmRrml;
+        "pkg-18.0.0" = _gJmTD7Fa;
+        "pkg-18.0.1" = _EYQKp3gr;
+        "default" = _EYQKp3gr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "atlasviewer";

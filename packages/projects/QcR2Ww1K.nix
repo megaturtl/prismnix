@@ -46,6 +46,31 @@ let
             "file" = "cloud-layers-1.1+1.19.2.jar";
             "hash" = "sha512-vKYJwbw1UB0a67Cx7XOOjerzrMfz1H787i+2KvjMXJVyO1ogT/WqjuNAKGT4EJVca6cB2R742PumLxTk15PLYQ==";
         };
+        _gfBCPvL6 = {
+            "id" = "gfBCPvL6";
+            "file" = "cloud_layers-neoforge-1.21-2.0.jar";
+            "hash" = "sha512-YiuecqOVfO9yZFQ05DbV3Fm2Tgxj3kPLS/Gj5plD3GsAL8ubspmnZw76bJ4G3Ks29mP40A5txfqs6mlm+QCQMg==";
+        };
+        _DxcuEPx6 = {
+            "id" = "DxcuEPx6";
+            "file" = "cloud_layers-fabric-1.21-2.0.jar";
+            "hash" = "sha512-ZkLJl5Zu1zQycaFwE34fLdtbcvC7orcYBj5/LKhsJzeFN63PK/L/jN/YB3bKy7ZWIveQDEu+CaAIGcGGej2B2A==";
+        };
+        _8wsoNuyT = {
+            "id" = "8wsoNuyT";
+            "file" = "cloud_layers-fabric-1.20.1-2.0.jar";
+            "hash" = "sha512-fB1DTz1K+YlLq1E96B8Pca/tCHdsyNPlCNhPo3t/MvoIG0Jbc13hzwRF0/wbK8FhNbX0CuuZXm9LerwDHKDf8g==";
+        };
+        _Ga3gx9Rr = {
+            "id" = "Ga3gx9Rr";
+            "file" = "cloud_layers-fabric-1.21-2.1.jar";
+            "hash" = "sha512-dQ+BP8BFoHlxX6WYUDui/3pBm0y85K1f+AS5iV48pNRLvVs8sAGSixGMIv6cAK9fL0p8PCuJ45m6AI7hIQ2jaw==";
+        };
+        _BlQIY6t1 = {
+            "id" = "BlQIY6t1";
+            "file" = "cloud_layers-neoforge-1.21-2.1.jar";
+            "hash" = "sha512-/C40zt+EDq621RMHVy6b1zuurLB3cbCHCaefOku48IoS0O/JwvaAI53DSW9jHZLupHpPdmVFm32BpIxWGEC9Vw==";
+        };
     in {
         "GlxqdP3P" = _GlxqdP3P;
         "PWv3dhog" = _PWv3dhog;
@@ -56,16 +81,25 @@ let
         "YYIbDvIz" = _YYIbDvIz;
         "4TQ64ea9" = _4TQ64ea9;
         "AO65RTUj" = _AO65RTUj;
-        "fabric-1.21" = _dmdA836c;
-        "fabric-1.21.1" = _dmdA836c;
-        "fabric-1.20.1" = _gCGCiTq6;
+        "gfBCPvL6" = _gfBCPvL6;
+        "DxcuEPx6" = _DxcuEPx6;
+        "8wsoNuyT" = _8wsoNuyT;
+        "Ga3gx9Rr" = _Ga3gx9Rr;
+        "BlQIY6t1" = _BlQIY6t1;
+        "fabric-1.21" = _Ga3gx9Rr;
+        "fabric-1.21.1" = _Ga3gx9Rr;
+        "fabric-1.20.1" = _8wsoNuyT;
         "fabric-1.20.4" = _YYIbDvIz;
         "fabric-1.19.2" = _AO65RTUj;
-        "quilt-1.21" = _dmdA836c;
-        "quilt-1.21.1" = _dmdA836c;
-        "quilt-1.20.1" = _gCGCiTq6;
+        "fabric-1.20" = _8wsoNuyT;
+        "quilt-1.21" = _Ga3gx9Rr;
+        "quilt-1.21.1" = _Ga3gx9Rr;
+        "quilt-1.20.1" = _8wsoNuyT;
         "quilt-1.20.4" = _YYIbDvIz;
         "quilt-1.19.2" = _AO65RTUj;
+        "quilt-1.20" = _8wsoNuyT;
+        "neoforge-1.21" = _BlQIY6t1;
+        "neoforge-1.21.1" = _BlQIY6t1;
         "pkg-1.0+1.21" = _GlxqdP3P;
         "pkg-1.0+1.20.1" = _PWv3dhog;
         "pkg-1.0+1.20.4" = _n62hLwL6;
@@ -74,7 +108,9 @@ let
         "pkg-1.1+1.20.1" = _gCGCiTq6;
         "pkg-1.1+1.20.4" = _YYIbDvIz;
         "pkg-1.1+1.19.2" = _AO65RTUj;
-        "default" = _AO65RTUj;
+        "pkg-2.0" = _8wsoNuyT;
+        "pkg-2.1" = _BlQIY6t1;
+        "default" = _BlQIY6t1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cloud-layers";

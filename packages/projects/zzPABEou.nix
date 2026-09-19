@@ -126,6 +126,31 @@ let
             "file" = "more_lucky_blocks_2-1.5-forge-1.18.2.jar";
             "hash" = "sha512-1X4WVHoh2rR5xEfspCbQoH8jynFZG6mw4lV1waVscKSrAeKutPb/ffsLeqqKrhnBNDQP9o5Ec7Cq3lfBmfA40Q==";
         };
+        _jbbpxMxu = {
+            "id" = "jbbpxMxu";
+            "file" = "more_lucky_blocks_2-1.6-neoforge-1.21.8.jar";
+            "hash" = "sha512-siWPQo2mtrEBHEJw5kPxypA86wbOQHdnWpjdhSVOPsB60aXpnO384FUfaYvP7TzkVp+pYgDy+Grvcfm1gwJRRA==";
+        };
+        _H4j3gEem = {
+            "id" = "H4j3gEem";
+            "file" = "more_lucky_blocks_2-1.6-neoforge-1.21.1.jar";
+            "hash" = "sha512-4ATYw6p7jWZplyRN4mxQ+wt0Mj1UGLzUQ8UB49DTdN8X/WeThiV0InXqyeQebirM4V0fmFxPa/2s2Dqe6xrtGQ==";
+        };
+        _ZyObtw2I = {
+            "id" = "ZyObtw2I";
+            "file" = "more_lucky_blocks_2-1.6-forge-1.18.2.jar";
+            "hash" = "sha512-DXxt5xuI17JnX0DK6DqXL1gJrt+iVF9uVi2O5ddunmlHoHgS6EL+15eZiZ7jHoYDLxgeT/KS/Uqn0Hi8QM5b5A==";
+        };
+        _BBkn8HJg = {
+            "id" = "BBkn8HJg";
+            "file" = "more_lucky_blocks_2-1.6-forge-1.19.2.jar";
+            "hash" = "sha512-0TJsVS/JrJ8Tqp4sxGRjfUTU6x182CoqH/Bc/SOgf2sqb0QaxXJMC1XBtatB/zeLJMd1zHIo091XS9kfjNViMw==";
+        };
+        _sSMfURaR = {
+            "id" = "sSMfURaR";
+            "file" = "more_lucky_blocks_2-1.6-forge-1.20.1.jar";
+            "hash" = "sha512-hJKAzjC2Ll8Xa0cWKyuTfnq/J+4AUSdjnjuZ0kgPXuHh5YZIsSxXSbKCh0ePovNcPCFh0oSEmHxp7T/6s96pRQ==";
+        };
     in {
         "ZnsJGIwN" = _ZnsJGIwN;
         "KRMulzqH" = _KRMulzqH;
@@ -152,12 +177,17 @@ let
         "qAsU6cfP" = _qAsU6cfP;
         "ebgn5N1d" = _ebgn5N1d;
         "ts1ouvkN" = _ts1ouvkN;
-        "forge-1.20.1" = _qAsU6cfP;
-        "forge-1.19.2" = _ebgn5N1d;
-        "forge-1.18.2" = _ts1ouvkN;
+        "jbbpxMxu" = _jbbpxMxu;
+        "H4j3gEem" = _H4j3gEem;
+        "ZyObtw2I" = _ZyObtw2I;
+        "BBkn8HJg" = _BBkn8HJg;
+        "sSMfURaR" = _sSMfURaR;
+        "forge-1.20.1" = _sSMfURaR;
+        "forge-1.19.2" = _BBkn8HJg;
+        "forge-1.18.2" = _ZyObtw2I;
         "fabric-1.21.8" = _57TNoox4;
-        "neoforge-1.21.1" = _UL62hZ5J;
-        "neoforge-1.21.8" = _oQmNP3kn;
+        "neoforge-1.21.1" = _H4j3gEem;
+        "neoforge-1.21.8" = _jbbpxMxu;
         "pkg-1.0.0" = _KRMulzqH;
         "pkg-1.1.0" = _y1nSNz2d;
         "pkg-1.2.0" = _Vr8L3mdi;
@@ -165,7 +195,8 @@ let
         "pkg-1.4.0" = _OApIlJVa;
         "pkg-1.4.1" = _dwWT5yCG;
         "pkg-1.5" = _ts1ouvkN;
-        "default" = _ts1ouvkN;
+        "pkg-1.6" = _sSMfURaR;
+        "default" = _sSMfURaR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-lucky-blocks-2";

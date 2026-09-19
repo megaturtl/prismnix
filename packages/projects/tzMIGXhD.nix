@@ -31,6 +31,16 @@ let
             "file" = "glintoutlineneoforge2.0.0mc1.20.1.jar";
             "hash" = "sha512-x050vbOtUkMvqA8Y2smNRO0ewUtWkbdx7YygZ/25G1GInvN3kcARZYelsnCzecIArG/XrlA6cLJXEG3McYG29A==";
         };
+        _Nm19TQ27 = {
+            "id" = "Nm19TQ27";
+            "file" = "glintoutline2.2.0mc1.21.1.jar";
+            "hash" = "sha512-IKsyJ27UhgkAwI0AvRpghKZ8xcryppTaFf6S+bILabPlduerNrTlLaK2l5feXCGUeQyu1sWQu0llmnQNCua2MA==";
+        };
+        _gyEptcd3 = {
+            "id" = "gyEptcd3";
+            "file" = "glint-outline-neoforge-2.2.0mc1.21.1.jar";
+            "hash" = "sha512-74z/OhJMV1Xx2EhxKl3arl3/xTQQMsVJ0rCaes5ixK71ZAV5Y8skihEP8sa4URWUj107LwCZeISoKNvdINv0zg==";
+        };
     in {
         "DWR3IsB5" = _DWR3IsB5;
         "RVswrybz" = _RVswrybz;
@@ -38,14 +48,17 @@ let
         "rYwlXVri" = _rYwlXVri;
         "polKfyEU" = _polKfyEU;
         "eieTX7mH" = _eieTX7mH;
-        "fabric-1.21.1" = _5keBc5Ua;
+        "Nm19TQ27" = _Nm19TQ27;
+        "gyEptcd3" = _gyEptcd3;
+        "fabric-1.21.1" = _Nm19TQ27;
         "fabric-1.20.1" = _polKfyEU;
-        "neoforge-1.21.1" = _rYwlXVri;
+        "neoforge-1.21.1" = _gyEptcd3;
         "neoforge-1.20.1" = _eieTX7mH;
         "pkg-1.0+mc1.21.1" = _DWR3IsB5;
         "pkg-1.1+mc1.21.1" = _RVswrybz;
         "pkg-2.0" = _eieTX7mH;
-        "default" = _eieTX7mH;
+        "pkg-2.1" = _gyEptcd3;
+        "default" = _gyEptcd3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "outline-effects";

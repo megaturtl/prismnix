@@ -51,6 +51,11 @@ let
             "file" = "Custom Outline v1.0.1.zip";
             "hash" = "sha512-vAvWqq7uuur2DQsvME0ttWeV2G8tFQAidQKK4hHVpBxotJvpaSB1NCoyPj9a0ixOM9xD0pW+msTIY/SyEYmNsw==";
         };
+        _rirud20O = {
+            "id" = "rirud20O";
+            "file" = "Custom Outline v1.0.2.zip";
+            "hash" = "sha512-h4KP8BUfUMDw2oKVOMRhSUNAmCCfMcB+YCkartzHRqHxXKNyDtebaYtTjLkluuHYprA4+zW+0fdTUGG9J0SHBA==";
+        };
     in {
         "Cd403i7j" = _Cd403i7j;
         "9o99p8Bo" = _9o99p8Bo;
@@ -62,6 +67,7 @@ let
         "V49aprOz" = _V49aprOz;
         "l0ch3HdN" = _l0ch3HdN;
         "qjusyD4z" = _qjusyD4z;
+        "rirud20O" = _rirud20O;
         "minecraft-1.17" = _PuTba24r;
         "minecraft-1.17.1" = _PuTba24r;
         "minecraft-1.18" = _PuTba24r;
@@ -154,11 +160,13 @@ let
         "minecraft-26.3-snapshot-2" = _qjusyD4z;
         "minecraft-26.3-snapshot-3" = _qjusyD4z;
         "minecraft-26.3-snapshot-4" = _qjusyD4z;
+        "minecraft-26.3" = _rirud20O;
         "pkg-v1.0.0" = _IGanFnF0;
         "pkg-v1.0.0-rainbow" = _PuTba24r;
         "pkg-v1.0.1" = _l0ch3HdN;
         "pkg-v1.0.1-rainbow" = _qjusyD4z;
-        "default" = _qjusyD4z;
+        "pkg-v1.0.2" = _rirud20O;
+        "default" = _rirud20O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "customoutline";

@@ -21,23 +21,31 @@ let
             "file" = "darkfear-fabric-26.1-1.0.3.jar";
             "hash" = "sha512-XM7iczn0ZUtMicJmnAKpCVFm7dVobv5PFw63tSNsB79vjSZaTIPhwy811gpbRzklloqJd6PItaIs6dBmGjZddw==";
         };
+        _SbRlMT4P = {
+            "id" = "SbRlMT4P";
+            "file" = "darkfear-fabric-mc26.3-1.1.0.jar";
+            "hash" = "sha512-pWMnbKgRIUuZezRknN4xxAb6OsRu4ywcL3FaWdWA5V/SCVh8/Eja+gd3yAsbd93mwcurrVvcGBtw6N5PVWa0Xw==";
+        };
     in {
         "UjfX27ji" = _UjfX27ji;
         "C09yekX4" = _C09yekX4;
         "nquvmKr7" = _nquvmKr7;
         "y7WQ4jAc" = _y7WQ4jAc;
+        "SbRlMT4P" = _SbRlMT4P;
         "fabric-1.19.2" = _UjfX27ji;
         "fabric-1.20.1" = _C09yekX4;
         "fabric-1.20.2" = _C09yekX4;
         "fabric-1.20.3" = _C09yekX4;
         "fabric-1.20.4" = _C09yekX4;
         "fabric-1.21.11" = _nquvmKr7;
-        "fabric-26.1" = _y7WQ4jAc;
-        "fabric-26.1.1" = _y7WQ4jAc;
-        "fabric-26.1.2" = _y7WQ4jAc;
-        "fabric-26.2" = _y7WQ4jAc;
+        "fabric-26.1" = _SbRlMT4P;
+        "fabric-26.1.1" = _SbRlMT4P;
+        "fabric-26.1.2" = _SbRlMT4P;
+        "fabric-26.2" = _SbRlMT4P;
+        "fabric-26.3" = _SbRlMT4P;
         "pkg-1.0.3" = _y7WQ4jAc;
-        "default" = _y7WQ4jAc;
+        "pkg-1.1.0" = _SbRlMT4P;
+        "default" = _SbRlMT4P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "darkfear";

@@ -241,6 +241,21 @@ let
             "file" = "thingamajigs-1.9.0-forge-1.20.1.jar";
             "hash" = "sha512-owERIDmKbSVTqgP4Ny2SGF6sKoHXt3pMQ4uk87aWGnmNawfqJ4j9ZPRabeLBRIpYIuUODMkKBbqhMeTD0CfWnQ==";
         };
+        _8l8sYWQU = {
+            "id" = "8l8sYWQU";
+            "file" = "thingamajigs-neo-1.21.1-1.9.0.jar";
+            "hash" = "sha512-EDho+vz+BVncAI85X8vE7hIPXQ/YVeZgWubY++17TmOa6RJScrULQLfrnSKyZG8PGJbnhPj1LDWVrPXWbqtZLg==";
+        };
+        _ZBlWooTQ = {
+            "id" = "ZBlWooTQ";
+            "file" = "thingamajigs-neo-1.21.1-1.9.1.jar";
+            "hash" = "sha512-HgTw/AFMq0ZLjTQ9qEoBq/a+ijDJUll43XfrjvdZd0mC1JEaW9UHnrYlmxxUTA6tlH6H/Je+lMYhkMpXEgkIXQ==";
+        };
+        _deCtweXm = {
+            "id" = "deCtweXm";
+            "file" = "thingamajigs-1.9.1-forge-1.20.1.jar";
+            "hash" = "sha512-KeZiOjyFRTvfNFPS9LvjnDP6yC8XJfpEFs1gcJNhrHUlyov78av29lKSZLvbxakz0vRbFAuWOWhx/jvX1RB1kA==";
+        };
     in {
         "nOaqfUVq" = _nOaqfUVq;
         "5aUD7z6K" = _5aUD7z6K;
@@ -290,17 +305,20 @@ let
         "mWpLPmkP" = _mWpLPmkP;
         "z0hYWLfv" = _z0hYWLfv;
         "xDDIu9FK" = _xDDIu9FK;
+        "8l8sYWQU" = _8l8sYWQU;
+        "ZBlWooTQ" = _ZBlWooTQ;
+        "deCtweXm" = _deCtweXm;
         "forge-1.20" = _ayRbpmJc;
         "forge-1.19.4" = _5aUD7z6K;
         "forge-1.19.3" = _zEzNQ572;
         "forge-1.19.2" = _DluQY3gn;
         "forge-1.19.1" = _twT5aw8B;
         "forge-1.19" = _XPqaFXaG;
-        "forge-1.20.1" = _xDDIu9FK;
+        "forge-1.20.1" = _deCtweXm;
         "neoforge-1.20.1" = _YQ0i4enq;
         "neoforge-1.20.4" = _iyAJUVmu;
-        "neoforge-1.21" = _z0hYWLfv;
-        "neoforge-1.21.1" = _z0hYWLfv;
+        "neoforge-1.21" = _ZBlWooTQ;
+        "neoforge-1.21.1" = _ZBlWooTQ;
         "neoforge-1.21.3" = _yprayTC6;
         "neoforge-1.21.4" = _PoXQpO1w;
         "pkg-1.6.2" = _nOaqfUVq;
@@ -342,8 +360,9 @@ let
         "pkg-1.8.9" = _cBXrHH5k;
         "pkg-1.8.9_part2" = _mWpLPmkP;
         "pkg-1.8.9_part3" = _z0hYWLfv;
-        "pkg-1.9.0" = _xDDIu9FK;
-        "default" = _xDDIu9FK;
+        "pkg-1.9.0" = _8l8sYWQU;
+        "pkg-1.9.1" = _deCtweXm;
+        "default" = _deCtweXm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thingamajigs";

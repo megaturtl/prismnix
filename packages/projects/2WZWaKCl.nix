@@ -31,6 +31,11 @@ let
             "file" = "berry_good-1.21.1-8.0.1.jar";
             "hash" = "sha512-VtaN/UHdv2f/cxw13AlXPZgpusOodGXoIaR6mtBDPbwrGfin5p2iRFBDU97wFAB4ejn2KMWhWimf6qruvysRBQ==";
         };
+        _sqpGEcfC = {
+            "id" = "sqpGEcfC";
+            "file" = "berry_good-1.21.1-8.0.2.jar";
+            "hash" = "sha512-2pdJvKCFbNyuZCtSRSu1ahXyJpxEHJPbr5KFq/mdzcqS+NKC3Z+6lHWoNp4YCR7Lr7eIdFpPvuxSL40/VsYvnw==";
+        };
     in {
         "XsCtrUn1" = _XsCtrUn1;
         "1mYjrPXs" = _1mYjrPXs;
@@ -38,19 +43,21 @@ let
         "a8xhP8dI" = _a8xhP8dI;
         "dJvvZvQk" = _dJvvZvQk;
         "C8Scxj1h" = _C8Scxj1h;
+        "sqpGEcfC" = _sqpGEcfC;
         "forge-1.16.5" = _XsCtrUn1;
         "forge-1.18.2" = _1mYjrPXs;
         "forge-1.19.2" = _hpnxAvUC;
         "forge-1.20.1" = _a8xhP8dI;
         "neoforge-1.20.1" = _a8xhP8dI;
-        "neoforge-1.21.1" = _C8Scxj1h;
+        "neoforge-1.21.1" = _sqpGEcfC;
         "pkg-4.1.2" = _XsCtrUn1;
         "pkg-5.0.0" = _1mYjrPXs;
         "pkg-6.1.0" = _hpnxAvUC;
         "pkg-7.0.0" = _a8xhP8dI;
         "pkg-8.0.0" = _dJvvZvQk;
         "pkg-8.0.1" = _C8Scxj1h;
-        "default" = _C8Scxj1h;
+        "pkg-8.0.2" = _sqpGEcfC;
+        "default" = _sqpGEcfC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "berry-good";

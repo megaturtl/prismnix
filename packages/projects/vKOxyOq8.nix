@@ -291,6 +291,11 @@ let
             "file" = "CreamyKeys-0.0.5-1.8.9.jar";
             "hash" = "sha512-7hIkffAV+jZrqrMmBex0T1KJFXorH214BOPeVijH47+oE2nJv2evIbMuEPQNVU3OQhO30/bVRoop98vwO0FgwQ==";
         };
+        _iN3wCcrg = {
+            "id" = "iN3wCcrg";
+            "file" = "CreamyKeys-26.3.jar";
+            "hash" = "sha512-dTL/6C+xt9EYJdCm15+HAhxiQH1qPn+OUYB80yhQIrzIe/Rjh5BH4lUXFbrCe1wAlETp5+aMFOrGhxlIghczHQ==";
+        };
     in {
         "GVtGaqma" = _GVtGaqma;
         "JLpbPvhK" = _JLpbPvhK;
@@ -350,6 +355,7 @@ let
         "Jyl9Mf7R" = _Jyl9Mf7R;
         "aKl8hi2y" = _aKl8hi2y;
         "pdFnz68w" = _pdFnz68w;
+        "iN3wCcrg" = _iN3wCcrg;
         "fabric-1.21" = _Eov7pihM;
         "fabric-1.17.1" = _JLpbPvhK;
         "fabric-1.18" = _b6GawUlJ;
@@ -382,6 +388,7 @@ let
         "fabric-26.1.1" = _Jyl9Mf7R;
         "fabric-26.1.2" = _Jyl9Mf7R;
         "fabric-26.2" = _aKl8hi2y;
+        "fabric-26.3" = _iN3wCcrg;
         "forge-1.8.9" = _pdFnz68w;
         "pkg-1.21" = _l3KtTfcZ;
         "pkg-1.17.1" = _JLpbPvhK;
@@ -419,7 +426,8 @@ let
         "pkg-0.0.4+26.1.x" = _Jyl9Mf7R;
         "pkg-0.0.4+26.2" = _aKl8hi2y;
         "pkg-1.8.9" = _pdFnz68w;
-        "default" = _pdFnz68w;
+        "pkg-0.0.4+26.3" = _iN3wCcrg;
+        "default" = _iN3wCcrg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "creamykeys";

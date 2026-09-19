@@ -106,6 +106,11 @@ let
             "file" = "blossom-warps-2.0.17+26.1.jar";
             "hash" = "sha512-mOLqf3eQGriAyirjnJWmFxbEZEK+K8+pWHKrctEJeUOYv57pMEWEVQFVuWRa191+4HybVW0Pxyju7eXRmSp/sQ==";
         };
+        _1kTOkJTm = {
+            "id" = "1kTOkJTm";
+            "file" = "blossom-warps-2.0.18+26.3.jar";
+            "hash" = "sha512-p4yfJzuJmqPlEFdiutWlKObA6SXlKFrAgK6UNfDvJk/g/WqPClzZZ4YHtE7exc4ECGhBTZaqmyE+Q11q2nVGzw==";
+        };
     in {
         "gS8vcSJi" = _gS8vcSJi;
         "4nZ3ZqFo" = _4nZ3ZqFo;
@@ -128,6 +133,7 @@ let
         "A2CqY9l7" = _A2CqY9l7;
         "pyb3QTAB" = _pyb3QTAB;
         "K0fdPZxH" = _K0fdPZxH;
+        "1kTOkJTm" = _1kTOkJTm;
         "fabric-1.19" = _LCc1Cfsz;
         "fabric-1.18.2" = _9LImpn6Z;
         "fabric-1.19.1" = _LCc1Cfsz;
@@ -155,6 +161,7 @@ let
         "fabric-26.1.1" = _pyb3QTAB;
         "fabric-26.1.2" = _pyb3QTAB;
         "fabric-26.2" = _K0fdPZxH;
+        "fabric-26.3" = _1kTOkJTm;
         "quilt-1.19" = _LCc1Cfsz;
         "quilt-1.18.2" = _9LImpn6Z;
         "quilt-1.19.1" = _LCc1Cfsz;
@@ -182,6 +189,7 @@ let
         "quilt-26.1.1" = _pyb3QTAB;
         "quilt-26.1.2" = _pyb3QTAB;
         "quilt-26.2" = _K0fdPZxH;
+        "quilt-26.3" = _1kTOkJTm;
         "pkg-2.0.0-patch.1+1.19" = _gS8vcSJi;
         "pkg-2.0.1+1.19" = _4nZ3ZqFo;
         "pkg-2.0.2+1.19" = _KLuVGUhK;
@@ -203,7 +211,8 @@ let
         "pkg-2.0.15+1.21.11" = _A2CqY9l7;
         "pkg-2.0.16+26.1" = _pyb3QTAB;
         "pkg-2.0.17+26.1" = _K0fdPZxH;
-        "default" = _K0fdPZxH;
+        "pkg-2.0.18+26.3" = _1kTOkJTm;
+        "default" = _1kTOkJTm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blossomwarps";

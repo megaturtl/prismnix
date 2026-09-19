@@ -501,6 +501,16 @@ let
             "file" = "wizards-neoforge-3.1.2+26.2.jar";
             "hash" = "sha512-gh+dDIBfFWrdDs8df93BOxbLplNsK3HH51FjTAHh1KQxSbhvWM82YNwTSuUvJjwwC4xdGpDdhlbuT3mkTUtyTA==";
         };
+        _NbcHhn8P = {
+            "id" = "NbcHhn8P";
+            "file" = "wizards-forge-3.1.2+1.20.1.jar";
+            "hash" = "sha512-4VKKgWxE48MWrsRhq60+5CGqXZz49O8AwXApA/Rm5By4KpZoywvawDBEPvu9MZUExXA3NIIOlxp1REcquh6nVQ==";
+        };
+        _AT969Dme = {
+            "id" = "AT969Dme";
+            "file" = "wizards-fabric-3.1.2+1.20.1.jar";
+            "hash" = "sha512-Rgbg/rvYi72YehB2T2DvJBF/dswqJONzIgtvsFABJYffT+p8Ab6amqkWctyQbphfHvlASt/VedwjjCLQyp4xXA==";
+        };
     in {
         "FGiVQwIm" = _FGiVQwIm;
         "ro6BDYVf" = _ro6BDYVf;
@@ -602,11 +612,13 @@ let
         "F2MfEMkO" = _F2MfEMkO;
         "Dx5XKjXr" = _Dx5XKjXr;
         "MFdRp8Ls" = _MFdRp8Ls;
+        "NbcHhn8P" = _NbcHhn8P;
+        "AT969Dme" = _AT969Dme;
         "fabric-1.19" = _X3gIusnV;
         "fabric-1.19.1" = _X3gIusnV;
         "fabric-1.19.2" = _vdXkMTSU;
         "fabric-1.20" = _Dln1uX6N;
-        "fabric-1.20.1" = _QPbAhJE1;
+        "fabric-1.20.1" = _AT969Dme;
         "fabric-1.21.1" = _nqeQTdGL;
         "fabric-1.21" = _nqeQTdGL;
         "fabric-26.1" = _F2MfEMkO;
@@ -619,6 +631,8 @@ let
         "neoforge-26.1.1" = _rcSrCdPw;
         "neoforge-26.1.2" = _rcSrCdPw;
         "neoforge-26.2" = _MFdRp8Ls;
+        "neoforge-1.20.1" = _NbcHhn8P;
+        "forge-1.20.1" = _NbcHhn8P;
         "pkg-0.9.3+1.19-fabric" = _FGiVQwIm;
         "pkg-0.9.4+1.19-fabric" = _ro6BDYVf;
         "pkg-0.9.5+1.19-fabric" = _oesEJob1;
@@ -719,7 +733,9 @@ let
         "pkg-3.1.2+26.1.2-fabric" = _F2MfEMkO;
         "pkg-3.1.2+26.2-fabric" = _Dx5XKjXr;
         "pkg-3.1.2+26.2-neoforge" = _MFdRp8Ls;
-        "default" = _MFdRp8Ls;
+        "pkg-3.1.2+1.20.1-forge" = _NbcHhn8P;
+        "pkg-3.1.2+1.20.1-fabric" = _AT969Dme;
+        "default" = _AT969Dme;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wizards";

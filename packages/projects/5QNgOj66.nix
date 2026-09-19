@@ -1036,6 +1036,111 @@ let
             "file" = "FancyHolograms-3.0.0-SNAPSHOT.65.jar";
             "hash" = "sha512-GG0SA0OoopYdkaXBlEPJoZKtKIC88crl/el3QFluRMCtS3JAmcHm52i+CPO2oCS/+m5QUIDlnCPT2OObcTRQxA==";
         };
+        _ctzdQOPX = {
+            "id" = "ctzdQOPX";
+            "file" = "FancyHolograms-3.0.0-SNAPSHOT.66.jar";
+            "hash" = "sha512-/MTSb1Cj3HkFFRYmHbr/RdPJahs/Av5xL2Slatj/WGdZBX4i6xjsVctj4ruQF/WQ8w6R1tpGHoUH5drQAvLtkQ==";
+        };
+        _TAU8EdV5 = {
+            "id" = "TAU8EdV5";
+            "file" = "FancyHolograms-3.0.0-SNAPSHOT.67.jar";
+            "hash" = "sha512-kXDmzfOBfsKA7S/8LhC3CIbaOjx9RTP3dgNMnjKhyYBJNjL58nP7oYx8ec9V1FWwvdXOJtlFFDVkKd2mNIFPjg==";
+        };
+        _rDPg8dvj = {
+            "id" = "rDPg8dvj";
+            "file" = "FancyHolograms-3.0.0-SNAPSHOT.68.jar";
+            "hash" = "sha512-A1MtosMKOMSmih8L3k22Rjq2P2FoDdQmofcHNSTLWg9P5ff85DB5npWwJZLiJecpCt5I2slyHi6aRdu4Oa6XFw==";
+        };
+        _wuR6vqrv = {
+            "id" = "wuR6vqrv";
+            "file" = "FancyHolograms-3.0.0-SNAPSHOT.69.jar";
+            "hash" = "sha512-7yX72eo3ccbOm0tasnoLpQnrQlki/4TYwV+SnmTedWHhaz73EEq67i4N/4SXcZ/LRELT1wl+Gl45f5nlL1E/+w==";
+        };
+        _xTagIHOW = {
+            "id" = "xTagIHOW";
+            "file" = "FancyHolograms-3.0.0-SNAPSHOT.70.jar";
+            "hash" = "sha512-098gr3SIU4LClKu8ffECL8AtPrC3nXtGtlkkQTZcDUN6teFelRaSGhe7YA7NoIYF7acFjbSa0kD9BSfvvXjvfA==";
+        };
+        _xvGyZ1oc = {
+            "id" = "xvGyZ1oc";
+            "file" = "FancyHolograms-3.0.0-SNAPSHOT.71.jar";
+            "hash" = "sha512-63dl20cIr3aJCl2J5IVqjZGGZfbKJTt87zUx40BIgfUE6YJF57BLtCvsoJlUZugDhX5whGvsqs/SDMWN3A+ODA==";
+        };
+        _s1oqXEFu = {
+            "id" = "s1oqXEFu";
+            "file" = "FancyHolograms-3.0.0-SNAPSHOT.72.jar";
+            "hash" = "sha512-26PnTmoK4ss08oqj5oGiCrJslx6p9+FifwByHZHqg1DOG/Pv0NhPWDaexqpyP3IFWEvGU+K+pSrX8VaSjjCTuw==";
+        };
+        _mZIadoPn = {
+            "id" = "mZIadoPn";
+            "file" = "FancyHolograms-3.0.0-SNAPSHOT.73.jar";
+            "hash" = "sha512-W0+VYIZ4FR8aCnZ9UnMCCVoGOKEdkOqBvaXbR1hDuAY7cwELDGiRneBbB7Ff5wGs1GeT8N1uwpVpvFQyYy1tAA==";
+        };
+        _pYUSJBxi = {
+            "id" = "pYUSJBxi";
+            "file" = "FancyHolograms-3.0.0-SNAPSHOT.74.jar";
+            "hash" = "sha512-HwIxf+xxRGYsqk+a5kmgJ/u04S8BIIeNBeeovP9TeQKWKJhzbEe/cB+UsMJv/cnXQHsyD8cwLXnWykuN3ouGbQ==";
+        };
+        _RvognsQR = {
+            "id" = "RvognsQR";
+            "file" = "FancyHolograms-3.0.0-SNAPSHOT.75.jar";
+            "hash" = "sha512-99n5KiSgOrLzKZVOmOLCN93dNj0+l7esn+vnVLS7H8X05HkUS9Va0APP7/by+xkuEZwgAoVYN8S5bLz9cq5ZCQ==";
+        };
+        _NdztCad5 = {
+            "id" = "NdztCad5";
+            "file" = "FancyHolograms-3.0.0-SNAPSHOT.76.jar";
+            "hash" = "sha512-qF1fRc+t1Wj/9JCbufFNTYPWRcf3/2GLMvQ4PyAW/1xVk6FDiVhe+Nqb6sb8R65lmgIshNMi5RmgubyYFwBwVg==";
+        };
+        _e2hrJHhB = {
+            "id" = "e2hrJHhB";
+            "file" = "FancyHolograms-3.0.0-SNAPSHOT.77.jar";
+            "hash" = "sha512-loI9CuQ56Cf/+7vT5qIzklZE/5nVUtnnOlBxnecp+eYkRwZP1u9WsfLHGJJfXYr7YWaXuwjH2imPKGyIazfR1Q==";
+        };
+        _hlDHyqRv = {
+            "id" = "hlDHyqRv";
+            "file" = "FancyHolograms-3.0.0-SNAPSHOT.78.jar";
+            "hash" = "sha512-s9TZd6AKrSJW+V+Tgc5Bzx1Egd1O6O4ToyB5M/+f/Y2rYD5IFeem9NaLkADvHgng1x3quEEy0T0LlJWfar1hFw==";
+        };
+        _orSA0Edu = {
+            "id" = "orSA0Edu";
+            "file" = "FancyHolograms-3.0.0-SNAPSHOT.79.jar";
+            "hash" = "sha512-Ft5TUzddjY7OTINNRM96X4rwqk934UnmBVMnYvPoyor9umjcGqA18f8r1HPlUAXi1xm3fPD+svvwlKiWQnCB3Q==";
+        };
+        _2NlZ0uvf = {
+            "id" = "2NlZ0uvf";
+            "file" = "FancyHolograms-3.0.0-SNAPSHOT.80.jar";
+            "hash" = "sha512-sYoApoW1tb5CqLLuSGPGMm+YWJRKLBfq/GLcqPT7+x07bUbrRyl3/h96LekneFtD8bP/TVpdYNwIeLJH/H7Eag==";
+        };
+        _oj07sWfP = {
+            "id" = "oj07sWfP";
+            "file" = "FancyHolograms-3.0.0-SNAPSHOT.81.jar";
+            "hash" = "sha512-Sft2Cd1WRPp5oGcytoiGN1tJWtnWcc089wAchhhHXTeaShHzfAFS0JXV4SppyR8PRvKOVsE0wDG9wC/YYwI6wg==";
+        };
+        _J56iTbIG = {
+            "id" = "J56iTbIG";
+            "file" = "FancyHolograms-2.11.0+194.jar";
+            "hash" = "sha512-wKsqHnR/AqgolsrzFYqFkMBiXHHfc9kYLHort+gKF6X6nSGU838XjRijLMqrVCzOeAEqm4417GVzVuqbMZj/Lw==";
+        };
+        _9p3HnAX0 = {
+            "id" = "9p3HnAX0";
+            "file" = "FancyHolograms-3.0.0-SNAPSHOT.82.jar";
+            "hash" = "sha512-Pg5KtplPH3wZOvPScvpm0ebUdFVNsr2RHxjJL+DUs0ykynPY2gFPFhK+jY0HRa55dGnHHhMIRJhax8fovROp8w==";
+        };
+        _TbPvqSls = {
+            "id" = "TbPvqSls";
+            "file" = "FancyHolograms-3.0.0-SNAPSHOT.83.jar";
+            "hash" = "sha512-Q3fgmUUKXaLbwpGdRvRJKZWEa8SsaHdBmjXwsk/4MtBruFHICY6CTeLWX9MrgCPuj0GIjH9ifcHicpr1EJjpJg==";
+        };
+        _ej77yrzo = {
+            "id" = "ej77yrzo";
+            "file" = "FancyHolograms-3.0.0-SNAPSHOT.84.jar";
+            "hash" = "sha512-y+0jAjRYfhPL7+9CPS4mH/1r5rFJqv8CeLzX82BArTwDn6qOH6Df+DaxAqm5M6ICAYJ+eYFaTjY/3Y5bGw5M4A==";
+        };
+        _dBBdi95S = {
+            "id" = "dBBdi95S";
+            "file" = "FancyHolograms-2.12.0.jar";
+            "hash" = "sha512-k+okhSX6K/jvzRNFbjWDPAaaC+or3dwcxqYbaPAGgbkfkoRD2+gql0BBJTqTk+yoIDdDOCBjzaVsb7OSWe1KIQ==";
+        };
     in {
         "4sDmHTiO" = _4sDmHTiO;
         "yc5obiZA" = _yc5obiZA;
@@ -1244,6 +1349,27 @@ let
         "sVWtLhTt" = _sVWtLhTt;
         "uuvGkfXL" = _uuvGkfXL;
         "vHqp3rst" = _vHqp3rst;
+        "ctzdQOPX" = _ctzdQOPX;
+        "TAU8EdV5" = _TAU8EdV5;
+        "rDPg8dvj" = _rDPg8dvj;
+        "wuR6vqrv" = _wuR6vqrv;
+        "xTagIHOW" = _xTagIHOW;
+        "xvGyZ1oc" = _xvGyZ1oc;
+        "s1oqXEFu" = _s1oqXEFu;
+        "mZIadoPn" = _mZIadoPn;
+        "pYUSJBxi" = _pYUSJBxi;
+        "RvognsQR" = _RvognsQR;
+        "NdztCad5" = _NdztCad5;
+        "e2hrJHhB" = _e2hrJHhB;
+        "hlDHyqRv" = _hlDHyqRv;
+        "orSA0Edu" = _orSA0Edu;
+        "2NlZ0uvf" = _2NlZ0uvf;
+        "oj07sWfP" = _oj07sWfP;
+        "J56iTbIG" = _J56iTbIG;
+        "9p3HnAX0" = _9p3HnAX0;
+        "TbPvqSls" = _TbPvqSls;
+        "ej77yrzo" = _ej77yrzo;
+        "dBBdi95S" = _dBBdi95S;
         "paper-1.19.4" = _5qxMf5AR;
         "paper-1.20" = _CD0eUy17;
         "paper-1.20.1" = _CD0eUy17;
@@ -1257,22 +1383,23 @@ let
         "paper-1.21.2" = _YgLP07ey;
         "paper-1.21.3" = _YgLP07ey;
         "paper-1.21.4" = _X1NuvCyw;
-        "paper-1.21.5" = _vHqp3rst;
-        "paper-1.21.6" = _vHqp3rst;
-        "paper-1.21.7" = _vHqp3rst;
-        "paper-1.21.8" = _vHqp3rst;
-        "paper-1.21.9" = _vHqp3rst;
-        "paper-1.21.10" = _vHqp3rst;
+        "paper-1.21.5" = _2NlZ0uvf;
+        "paper-1.21.6" = _dBBdi95S;
+        "paper-1.21.7" = _dBBdi95S;
+        "paper-1.21.8" = _dBBdi95S;
+        "paper-1.21.9" = _dBBdi95S;
+        "paper-1.21.10" = _dBBdi95S;
         "paper-1.21.11-pre3" = _lRrmd3t0;
         "paper-1.21.11-pre4" = _WR7LvPKu;
         "paper-1.21.11-pre5" = _HM4EHO8h;
         "paper-1.21.11-rc2" = _hgnChumS;
         "paper-1.21.11-rc3" = _nF1zbzbo;
-        "paper-1.21.11" = _vHqp3rst;
+        "paper-1.21.11" = _dBBdi95S;
         "paper-26.1" = _f1VNGx8q;
         "paper-26.1.1" = _ex4l3UZT;
-        "paper-26.1.2" = _vHqp3rst;
-        "paper-26.2" = _vHqp3rst;
+        "paper-26.1.2" = _dBBdi95S;
+        "paper-26.2" = _dBBdi95S;
+        "paper-26.3" = _dBBdi95S;
         "folia-1.19.4" = _5qxMf5AR;
         "folia-1.20" = _CD0eUy17;
         "folia-1.20.1" = _CD0eUy17;
@@ -1286,21 +1413,22 @@ let
         "folia-1.21.2" = _YgLP07ey;
         "folia-1.21.3" = _YgLP07ey;
         "folia-1.21.4" = _X1NuvCyw;
-        "folia-1.21.5" = _vHqp3rst;
-        "folia-1.21.6" = _vHqp3rst;
-        "folia-1.21.7" = _vHqp3rst;
-        "folia-1.21.8" = _vHqp3rst;
-        "folia-1.21.9" = _vHqp3rst;
-        "folia-1.21.10" = _vHqp3rst;
+        "folia-1.21.5" = _2NlZ0uvf;
+        "folia-1.21.6" = _dBBdi95S;
+        "folia-1.21.7" = _dBBdi95S;
+        "folia-1.21.8" = _dBBdi95S;
+        "folia-1.21.9" = _dBBdi95S;
+        "folia-1.21.10" = _dBBdi95S;
         "folia-1.21.11-pre3" = _lRrmd3t0;
         "folia-1.21.11-pre4" = _WR7LvPKu;
         "folia-1.21.11-pre5" = _HM4EHO8h;
         "folia-1.21.11-rc2" = _hgnChumS;
         "folia-1.21.11-rc3" = _nF1zbzbo;
-        "folia-1.21.11" = _vHqp3rst;
+        "folia-1.21.11" = _dBBdi95S;
         "folia-26.1.1" = _ex4l3UZT;
-        "folia-26.1.2" = _vHqp3rst;
-        "folia-26.2" = _vHqp3rst;
+        "folia-26.1.2" = _dBBdi95S;
+        "folia-26.2" = _dBBdi95S;
+        "folia-26.3" = _dBBdi95S;
         "pkg-1.0.0" = _4sDmHTiO;
         "pkg-1.0.1" = _yc5obiZA;
         "pkg-1.0.2" = _9ft3Y2lw;
@@ -1504,7 +1632,28 @@ let
         "pkg-2.11.0+193" = _sVWtLhTt;
         "pkg-3.0.0-SNAPSHOT.64" = _uuvGkfXL;
         "pkg-3.0.0-SNAPSHOT.65" = _vHqp3rst;
-        "default" = _vHqp3rst;
+        "pkg-3.0.0-SNAPSHOT.66" = _ctzdQOPX;
+        "pkg-3.0.0-SNAPSHOT.67" = _TAU8EdV5;
+        "pkg-3.0.0-SNAPSHOT.68" = _rDPg8dvj;
+        "pkg-3.0.0-SNAPSHOT.69" = _wuR6vqrv;
+        "pkg-3.0.0-SNAPSHOT.70" = _xTagIHOW;
+        "pkg-3.0.0-SNAPSHOT.71" = _xvGyZ1oc;
+        "pkg-3.0.0-SNAPSHOT.72" = _s1oqXEFu;
+        "pkg-3.0.0-SNAPSHOT.73" = _mZIadoPn;
+        "pkg-3.0.0-SNAPSHOT.74" = _pYUSJBxi;
+        "pkg-3.0.0-SNAPSHOT.75" = _RvognsQR;
+        "pkg-3.0.0-SNAPSHOT.76" = _NdztCad5;
+        "pkg-3.0.0-SNAPSHOT.77" = _e2hrJHhB;
+        "pkg-3.0.0-SNAPSHOT.78" = _hlDHyqRv;
+        "pkg-3.0.0-SNAPSHOT.79" = _orSA0Edu;
+        "pkg-3.0.0-SNAPSHOT.80" = _2NlZ0uvf;
+        "pkg-3.0.0-SNAPSHOT.81" = _oj07sWfP;
+        "pkg-2.11.0+194" = _J56iTbIG;
+        "pkg-3.0.0-SNAPSHOT.82" = _9p3HnAX0;
+        "pkg-3.0.0-SNAPSHOT.83" = _TbPvqSls;
+        "pkg-3.0.0-SNAPSHOT.84" = _ej77yrzo;
+        "pkg-2.12.0" = _dBBdi95S;
+        "default" = _dBBdi95S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fancyholograms";

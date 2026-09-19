@@ -176,6 +176,46 @@ let
             "file" = "drinkbeer-refill-26.2-neoforge-1.4.0+neoforge.jar";
             "hash" = "sha512-zbThDALBsrEsIdYz0TuwCekRQlH7dzNkjoNmUpDYztlJXOdL5gi3llZcCchEgWK3XrweHLP01cV8GLzklApNlg==";
         };
+        _b7weMVjK = {
+            "id" = "b7weMVjK";
+            "file" = "drinkbeer-refill-26.2-fabric-1.4.1+fabric.jar";
+            "hash" = "sha512-wRv1S+hf5s989Mr5qaQ8Bl/u8xxAZUx2WXK+ECpmgTUfaSudu2pWqEH+MkfGWoWrtGlowHmwfamN1w98km9Sew==";
+        };
+        _jdywu8pW = {
+            "id" = "jdywu8pW";
+            "file" = "drinkbeer-refill-26.2-neoforge-1.4.1+neoforge.jar";
+            "hash" = "sha512-/9nRSjiY9Lqempo6Fy82igEm46tolcl4D8B8qTdI/ag66DFQHIjhwwWuX0ZWd48Ic0gUHYtnPSpr7dNlNriktg==";
+        };
+        _pgIeTtBa = {
+            "id" = "pgIeTtBa";
+            "file" = "drinkbeer-refill-26.1.2-fabric-1.4.1+fabric.jar";
+            "hash" = "sha512-Qgb39r49j4e7PmFWgTB/nMlgp2yHzteWRZCnteoZxEfxkeQ+wawc5PZLwMgSfUzG9PzWRdcAKdXBWPa0gkdfEA==";
+        };
+        _S8AOAIIU = {
+            "id" = "S8AOAIIU";
+            "file" = "drinkbeer-refill-26.1.2-neoforge-1.4.1+neoforge.jar";
+            "hash" = "sha512-vaxUsbFQCmEZeKs95WlnGnXFqNlhaz/Dv001m5fQ+PSfSFxb0bMJ/Kt9oGcAu8qFL64PHQzN0lcS7OyBWWh3qQ==";
+        };
+        _ZS00wynb = {
+            "id" = "ZS00wynb";
+            "file" = "drinkbeer-refill-1.21.11-neoforge-1.4.1+neoforge.jar";
+            "hash" = "sha512-1ikX6m3a1HY9YQwabhe5drtSUdq2hCWsufb+7RE4J7Nt4/jpaFKN8IA1jdVD8XtQR5zHU5bmXF0mYVMpOLwE4g==";
+        };
+        _1fWP8IcR = {
+            "id" = "1fWP8IcR";
+            "file" = "drinkbeer-refill-1.21.11-fabric-1.4.1+fabric.jar";
+            "hash" = "sha512-IFFZQsDp304hcU4kkyFuG9ZIAXFlYXNNOllKUw76hT49e43oNbKMsUNFrwbX88rySHRX9KjPwY3gq4/iht/Egw==";
+        };
+        _AuEVRRdH = {
+            "id" = "AuEVRRdH";
+            "file" = "drinkbeer-refill-1.21.1-fabric-1.4.2+fabric.jar";
+            "hash" = "sha512-wLoGwuHgNk9IajevVTeUk+gz3AD6APRH/8nTNk/CTxolwdvK6Tuq2dYRahjCL1/pPN1DmBngi/tU8bG6bM9ViA==";
+        };
+        _fM6I19ES = {
+            "id" = "fM6I19ES";
+            "file" = "drinkbeer-refill-1.21.1-neoforge-1.4.2+neoforge.jar";
+            "hash" = "sha512-UxMMlCL6nz8gesJ/wotJ+jtPJc9LL7TflaqbnVlv3vAvDKPke+9EA3m7lJhYX29/Ip2xGZX4pQegE8ZEBqSmVw==";
+        };
     in {
         "xfJITndt" = _xfJITndt;
         "cSJLo7bs" = _cSJLo7bs;
@@ -212,20 +252,28 @@ let
         "TyARTHhU" = _TyARTHhU;
         "eDPbubw5" = _eDPbubw5;
         "F3RRI50I" = _F3RRI50I;
+        "b7weMVjK" = _b7weMVjK;
+        "jdywu8pW" = _jdywu8pW;
+        "pgIeTtBa" = _pgIeTtBa;
+        "S8AOAIIU" = _S8AOAIIU;
+        "ZS00wynb" = _ZS00wynb;
+        "1fWP8IcR" = _1fWP8IcR;
+        "AuEVRRdH" = _AuEVRRdH;
+        "fM6I19ES" = _fM6I19ES;
         "forge-1.19.2" = _ljaHggll;
         "forge-1.19.3" = _vlfATIoh;
         "forge-1.19.4" = _khl0uxuV;
         "forge-1.20" = _j3iGc9ff;
         "forge-1.20.1" = _rOSCLvXP;
         "neoforge-1.20.1" = _ySTj5pQB;
-        "neoforge-1.21.1" = _VnFS8aUY;
-        "neoforge-26.1.2" = _TyARTHhU;
-        "neoforge-26.2" = _F3RRI50I;
-        "neoforge-1.21.11" = _UMNayKoP;
-        "fabric-1.21.1" = _PTRzvl3Z;
-        "fabric-26.1.2" = _jJVax72l;
-        "fabric-26.2" = _eDPbubw5;
-        "fabric-1.21.11" = _9AgaTpad;
+        "neoforge-1.21.1" = _fM6I19ES;
+        "neoforge-26.1.2" = _S8AOAIIU;
+        "neoforge-26.2" = _jdywu8pW;
+        "neoforge-1.21.11" = _ZS00wynb;
+        "fabric-1.21.1" = _AuEVRRdH;
+        "fabric-26.1.2" = _pgIeTtBa;
+        "fabric-26.2" = _b7weMVjK;
+        "fabric-1.21.11" = _1fWP8IcR;
         "pkg-0.1.0" = _xfJITndt;
         "pkg-0.1.1" = _cSJLo7bs;
         "pkg-0.1.2" = _Fmr7fSuJ;
@@ -243,11 +291,13 @@ let
         "pkg-1.4.0-beta.2+fabric" = _Ji4ut6NY;
         "pkg-1.4.0-beta.3+fabric" = _9AgaTpad;
         "pkg-1.4.0-beta.3+neoforge" = _UMNayKoP;
-        "pkg-1.4.1+fabric" = _PTRzvl3Z;
-        "pkg-1.4.1+neoforge" = _VnFS8aUY;
+        "pkg-1.4.1+fabric" = _1fWP8IcR;
+        "pkg-1.4.1+neoforge" = _ZS00wynb;
         "pkg-1.4.0+fabric" = _eDPbubw5;
         "pkg-1.4.0+neoforge" = _F3RRI50I;
-        "default" = _F3RRI50I;
+        "pkg-1.4.2+fabric" = _AuEVRRdH;
+        "pkg-1.4.2+neoforge" = _fM6I19ES;
+        "default" = _fM6I19ES;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "drink-beer-refill";

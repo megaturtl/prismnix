@@ -526,6 +526,16 @@ let
             "file" = "tiertagger-neoforge-2.6.0+mc26.2.jar";
             "hash" = "sha512-cXZu7gHEZm4hW6MUWKzKAyG4tDI4NpfNSlAg9W8vvJlfyaBUT3Ar3MVIP5NDPDJVyoLMV+Hm2XPgKOxLS1xtkg==";
         };
+        _JehmZMWh = {
+            "id" = "JehmZMWh";
+            "file" = "tiertagger-fabric-2.7.0+mc26.3.jar";
+            "hash" = "sha512-aOxpzDRV2BZdPaEuipCx5BSNWEn5RCPUcsicCI2UhEKtuaq9PouNXALaITgJVc06e+2U0jr9N9ZXpJrbzHAd7w==";
+        };
+        _SARI6l1Q = {
+            "id" = "SARI6l1Q";
+            "file" = "tiertagger-neoforge-2.7.0+mc26.3.jar";
+            "hash" = "sha512-abuSi8Qpy6ZRkHimxoUHQe3TFkqzloHPe5r8t5mswoYtBZIOKYoKrBY8+SvbQ/3Xs44NWtQQuXYCed3nZ1NJIw==";
+        };
     in {
         "TGzPgd3i" = _TGzPgd3i;
         "5cIFjv4a" = _5cIFjv4a;
@@ -632,6 +642,8 @@ let
         "qaDE11gi" = _qaDE11gi;
         "OY4tXUMX" = _OY4tXUMX;
         "eslSXWf7" = _eslSXWf7;
+        "JehmZMWh" = _JehmZMWh;
+        "SARI6l1Q" = _SARI6l1Q;
         "fabric-1.19.2" = _XKhZEB5u;
         "fabric-1.18" = _RaC0993N;
         "fabric-1.18.1" = _RaC0993N;
@@ -661,6 +673,7 @@ let
         "fabric-26.1.1" = _qaDE11gi;
         "fabric-26.1.2" = _qaDE11gi;
         "fabric-26.2" = _OY4tXUMX;
+        "fabric-26.3" = _JehmZMWh;
         "quilt-1.20" = _QRJDeJNh;
         "quilt-1.20.1" = _QRJDeJNh;
         "quilt-1.19.3" = _i8CDbW8R;
@@ -688,10 +701,12 @@ let
         "quilt-26.1.1" = _qaDE11gi;
         "quilt-26.1.2" = _qaDE11gi;
         "quilt-26.2" = _OY4tXUMX;
+        "quilt-26.3" = _JehmZMWh;
         "neoforge-26.1" = _cP9hvWLG;
         "neoforge-26.1.1" = _cP9hvWLG;
         "neoforge-26.1.2" = _cP9hvWLG;
         "neoforge-26.2" = _eslSXWf7;
+        "neoforge-26.3" = _SARI6l1Q;
         "pkg-1.0" = _TGzPgd3i;
         "pkg-1.2" = _RaC0993N;
         "pkg-1.4" = _jXdp6tUw;
@@ -794,7 +809,9 @@ let
         "pkg-2.5.1+mc26.1-fabric" = _qaDE11gi;
         "pkg-2.6.0+mc26.2-fabric" = _OY4tXUMX;
         "pkg-2.6.0+mc26.2-neoforge" = _eslSXWf7;
-        "default" = _eslSXWf7;
+        "pkg-2.7.0+mc26.3-fabric" = _JehmZMWh;
+        "pkg-2.7.0+mc26.3-neoforge" = _SARI6l1Q;
+        "default" = _SARI6l1Q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tiertagger";

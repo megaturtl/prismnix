@@ -71,6 +71,21 @@ let
             "file" = "ArdaPaths-1.5.0+1.21.1.jar";
             "hash" = "sha512-FHs6KeDVuim2ObMDFmzkB4h9ZcMRjNQQscm3eU6eKtNjYkOfT6k//hn+7qwC530O86WeyNIENVoFL4f9aRIqaQ==";
         };
+        _ybqNWUbo = {
+            "id" = "ybqNWUbo";
+            "file" = "ArdaPaths-1.5.1.jar";
+            "hash" = "sha512-+zkCwt3bvr1/ZgqVpJWoEKizFwlN8AOpemBGNnVBViUv/qIARID8TxlmgsiYLuzKEs3XEiikNgGagWNlbq7OIg==";
+        };
+        _ZBZBbku0 = {
+            "id" = "ZBZBbku0";
+            "file" = "ArdaPaths-1.5.1+1.21.1.jar";
+            "hash" = "sha512-Xsh/G0klCktzTPHQ9hNcJAzw6Sldebebk1Cmy8S2efK/gaL3VIdyaMG2vg8IZr+8dqoDTXNF7GpRJdMxR51FJQ==";
+        };
+        _sDPUjy3k = {
+            "id" = "sDPUjy3k";
+            "file" = "ArdaPaths-1.5.1+mc.26.1.2.jar";
+            "hash" = "sha512-Kn9Q0EGv2hk1QxnHl9EfS0uGJYzalUPI9biNzCAnOVK/0x2V1/sD8yA0yAV0F9KnXrY+iHHXCGUOKxHBj+KuSQ==";
+        };
     in {
         "kxenPwCL" = _kxenPwCL;
         "Rdx0rfoQ" = _Rdx0rfoQ;
@@ -86,9 +101,14 @@ let
         "dirCSSUk" = _dirCSSUk;
         "Bm8acszI" = _Bm8acszI;
         "EKYz3hIY" = _EKYz3hIY;
+        "ybqNWUbo" = _ybqNWUbo;
+        "ZBZBbku0" = _ZBZBbku0;
+        "sDPUjy3k" = _sDPUjy3k;
         "fabric-1.19.2" = _HEdvo8N2;
-        "fabric-1.20.1" = _Bm8acszI;
-        "fabric-1.21.1" = _EKYz3hIY;
+        "fabric-1.20.1" = _ybqNWUbo;
+        "fabric-1.21.1" = _ZBZBbku0;
+        "fabric-26.1.2" = _sDPUjy3k;
+        "fabric-26.2" = _sDPUjy3k;
         "pkg-1.0-SNAPSHOT" = _kxenPwCL;
         "pkg-1.0.1-SNAPSHOT" = _Rdx0rfoQ;
         "pkg-1.1.0" = _PqdVdWtN;
@@ -103,7 +123,10 @@ let
         "pkg-1.4.0" = _dirCSSUk;
         "pkg-1.5.0" = _Bm8acszI;
         "pkg-1.5.0+1.21.1" = _EKYz3hIY;
-        "default" = _EKYz3hIY;
+        "pkg-1.5.1" = _ybqNWUbo;
+        "pkg-1.5.1+1.21.1" = _ZBZBbku0;
+        "pkg-1.5.1+mc.26.1.2" = _sDPUjy3k;
+        "default" = _sDPUjy3k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "arda-paths";

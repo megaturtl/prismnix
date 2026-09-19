@@ -181,6 +181,16 @@ let
             "file" = "nice-actions-2.5.jar";
             "hash" = "sha512-Z3DQkPz3p4jevI+NEarHfQeYh99H/smGFN7L7WIHc0OQnlFRJ0JPF3ewvsoZdb/CjyZMODBCxJTACZLy+C2cEA==";
         };
+        _VFQXhbEf = {
+            "id" = "VFQXhbEf";
+            "file" = "nice_actions_2.6.zip";
+            "hash" = "sha512-Abc6gRsRChbYIF6bSdLwjt4ezUWobdLbKtSy4IkUmJPfP2nyrA/ULaIQ31pv/mu1tiKawKnI3rTTUX/sDnh6Pg==";
+        };
+        _uH5ZvL92 = {
+            "id" = "uH5ZvL92";
+            "file" = "nice-actions-2.6.jar";
+            "hash" = "sha512-LHqRk7OOn7tF3kDgCkZ2Aj6yIuNtPWPVTpTh2720ylOndu7jRhrOddSBIy7ZWEaBazYcsoMnHd3sCqyVSWOlDw==";
+        };
     in {
         "ULWF8M4i" = _ULWF8M4i;
         "5ASuRttv" = _5ASuRttv;
@@ -218,6 +228,8 @@ let
         "PWqYzAWZ" = _PWqYzAWZ;
         "K9ZMGWuw" = _K9ZMGWuw;
         "ttUID4Qk" = _ttUID4Qk;
+        "VFQXhbEf" = _VFQXhbEf;
+        "uH5ZvL92" = _uH5ZvL92;
         "datapack-1.21.6" = _dl0ysn6S;
         "datapack-1.21.7" = _dl0ysn6S;
         "datapack-1.21.8" = _dl0ysn6S;
@@ -228,6 +240,7 @@ let
         "datapack-26.1.1" = _hvQ9fT6s;
         "datapack-26.1.2" = _hvQ9fT6s;
         "datapack-26.2" = _K9ZMGWuw;
+        "datapack-26.3" = _VFQXhbEf;
         "fabric-1.21.6" = _VfWoU57y;
         "fabric-1.21.7" = _VfWoU57y;
         "fabric-1.21.8" = _VfWoU57y;
@@ -238,6 +251,7 @@ let
         "fabric-26.1.1" = _PWqYzAWZ;
         "fabric-26.1.2" = _PWqYzAWZ;
         "fabric-26.2" = _ttUID4Qk;
+        "fabric-26.3" = _uH5ZvL92;
         "forge-1.21.6" = _VfWoU57y;
         "forge-1.21.7" = _VfWoU57y;
         "forge-1.21.8" = _VfWoU57y;
@@ -248,6 +262,7 @@ let
         "forge-26.1.1" = _PWqYzAWZ;
         "forge-26.1.2" = _PWqYzAWZ;
         "forge-26.2" = _ttUID4Qk;
+        "forge-26.3" = _uH5ZvL92;
         "neoforge-1.21.6" = _VfWoU57y;
         "neoforge-1.21.7" = _VfWoU57y;
         "neoforge-1.21.8" = _VfWoU57y;
@@ -258,6 +273,7 @@ let
         "neoforge-26.1.1" = _PWqYzAWZ;
         "neoforge-26.1.2" = _PWqYzAWZ;
         "neoforge-26.2" = _ttUID4Qk;
+        "neoforge-26.3" = _uH5ZvL92;
         "quilt-1.21.6" = _VfWoU57y;
         "quilt-1.21.7" = _VfWoU57y;
         "quilt-1.21.8" = _VfWoU57y;
@@ -268,6 +284,7 @@ let
         "quilt-26.1.1" = _PWqYzAWZ;
         "quilt-26.1.2" = _PWqYzAWZ;
         "quilt-26.2" = _ttUID4Qk;
+        "quilt-26.3" = _uH5ZvL92;
         "pkg-1.0" = _VqaNKY3m;
         "pkg-1.0+mod" = _oaJAR9UN;
         "pkg-1.1" = _DeXjgglk;
@@ -300,7 +317,9 @@ let
         "pkg-2.4+mod" = _PWqYzAWZ;
         "pkg-2.5" = _K9ZMGWuw;
         "pkg-2.5-mod" = _ttUID4Qk;
-        "default" = _ttUID4Qk;
+        "pkg-2.6" = _VFQXhbEf;
+        "pkg-2.6-mod" = _uH5ZvL92;
+        "default" = _uH5ZvL92;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nice-actions";

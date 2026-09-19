@@ -1726,6 +1726,31 @@ let
             "file" = "the_deep_void-1.98.1-forge-1.20.1.jar";
             "hash" = "sha512-HMNlWjXAjfAZJBhDLpDinKSQpD240mhE/mky/RzrT1gCyqrZDDX/Ly26etM7NzmsKNp8XDk7XS8XnQ8YIUfm6Q==";
         };
+        _X6gTgHsB = {
+            "id" = "X6gTgHsB";
+            "file" = "the_deep_void-1.99-neoforge-1.20.6.jar";
+            "hash" = "sha512-EDj9QJMknACSp+b2tZ/U6JftWgFGASlVgzSON/6HpZbq4v53W7k8oohLIWS+fP+5MdZzYdJI4Wfh9Dcg/3uaWw==";
+        };
+        _JDz77eCG = {
+            "id" = "JDz77eCG";
+            "file" = "the_deep_void-1.99-forge-1.20.1.jar";
+            "hash" = "sha512-P99V9t2jJvciniDQWKY8CnHM5U6ruguvQ82rUtsJsvGKdYjUa1n1MswjN04F3sGBl4F/RyZu3H0TPBnCPpxo0g==";
+        };
+        _dicGbejy = {
+            "id" = "dicGbejy";
+            "file" = "the_deep_void-1.99.1-forge-1.20.1.jar";
+            "hash" = "sha512-p/zebLrgChoikSdiDcgCY1yG4aX0cm8fnvgKdQbHcKNP2J9acz4xmRBNWqEtjTU8yp67wYqhvsyZ1sXhg1yY4A==";
+        };
+        _dWxTtoLJ = {
+            "id" = "dWxTtoLJ";
+            "file" = "the_deep_void-1.99.2-forge-1.20.1.jar";
+            "hash" = "sha512-a3R5cmFtfZy4rBmkx2MI/YkdjyA/AjUekxBsby/6F7iwb5Sre4azRHNR+sGG2XJrtZQas0GM/lCvSoVIzm3lOw==";
+        };
+        _u41dCwr0 = {
+            "id" = "u41dCwr0";
+            "file" = "the_deep_void-1.99.2.1-forge-1.20.1.jar";
+            "hash" = "sha512-TEyW/AqrltXZQtlrzYCCRpgGbrQ4uHyk3N9e3L55TrWUKslgTbydaknX+pRS8KwoXTosYdGTzjbV1zvfyGNaqQ==";
+        };
     in {
         "wvISFKsn" = _wvISFKsn;
         "ckkd0Upi" = _ckkd0Upi;
@@ -2072,11 +2097,16 @@ let
         "wxqoo2nI" = _wxqoo2nI;
         "4m0JTVur" = _4m0JTVur;
         "ITfnp4Cu" = _ITfnp4Cu;
-        "forge-1.20.1" = _ITfnp4Cu;
+        "X6gTgHsB" = _X6gTgHsB;
+        "JDz77eCG" = _JDz77eCG;
+        "dicGbejy" = _dicGbejy;
+        "dWxTtoLJ" = _dWxTtoLJ;
+        "u41dCwr0" = _u41dCwr0;
+        "forge-1.20.1" = _u41dCwr0;
         "forge-1.19.4" = _4ehazqnb;
         "forge-1.19.2" = _uewylNzo;
         "neoforge-1.20.4" = _WPvcdaNZ;
-        "neoforge-1.20.6" = _4m0JTVur;
+        "neoforge-1.20.6" = _X6gTgHsB;
         "pkg-1.0" = _wvISFKsn;
         "pkg-1.1" = _ckkd0Upi;
         "pkg-1.1.1" = _yhoICeD4;
@@ -2201,7 +2231,11 @@ let
         "pkg-1.97.3.1" = _96iQuEsS;
         "pkg-1.98" = _wxqoo2nI;
         "pkg-1.98.1" = _ITfnp4Cu;
-        "default" = _ITfnp4Cu;
+        "pkg-1.99" = _JDz77eCG;
+        "pkg-1.99.1" = _dicGbejy;
+        "pkg-1.99.2" = _dWxTtoLJ;
+        "pkg-1.99.2.1" = _u41dCwr0;
+        "default" = _u41dCwr0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "(mortius)-the-deep-void";

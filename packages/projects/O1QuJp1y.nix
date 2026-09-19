@@ -96,6 +96,16 @@ let
             "file" = "take_back_the_night-fabric-1.4.1-1.21.1.jar";
             "hash" = "sha512-y9KMNtyPhgHaFEwp9zMJJBlYRcKF9VTfQw6NAoI7MAC78Kpnb1eTQfni2OOiqIKYLa/lSyB8rtigiv4i/Yi7bw==";
         };
+        _HXThMAxH = {
+            "id" = "HXThMAxH";
+            "file" = "take_back_the_night-neoforge-1.4.2-1.21.1.jar";
+            "hash" = "sha512-4JtDNcRLbTOKFGSsDt7KkhRcNc0KxAYv/qLUFS8VamxueWXYuJInm3qlsBv5bwMVcKARnNlruWi+qbFBjiQ2ZA==";
+        };
+        _AuXjEJhn = {
+            "id" = "AuXjEJhn";
+            "file" = "take_back_the_night-fabric-1.4.2-1.21.1.jar";
+            "hash" = "sha512-f41kLkecqcz+yrYeZ1gktHGEORn0dL9H90/dO11287vCPE/T1iobtlx6MmvfaZzQMi40oXzWAQW2Sv7abKK7uw==";
+        };
     in {
         "4OsPuZSP" = _4OsPuZSP;
         "ImTvRe6U" = _ImTvRe6U;
@@ -116,15 +126,17 @@ let
         "DKImGVym" = _DKImGVym;
         "LnzTzFpu" = _LnzTzFpu;
         "GZDnadKb" = _GZDnadKb;
+        "HXThMAxH" = _HXThMAxH;
+        "AuXjEJhn" = _AuXjEJhn;
         "fabric-1.20.1" = _DKImGVym;
         "fabric-1.21" = _Wmw7t0pm;
-        "fabric-1.21.1" = _GZDnadKb;
+        "fabric-1.21.1" = _AuXjEJhn;
         "forge-1.20.1" = _PE8FrOhH;
         "forge-1.21" = _Wmw7t0pm;
         "forge-1.21.1" = _Wmw7t0pm;
         "neoforge-1.20.1" = _ICrDnE0u;
         "neoforge-1.21" = _Wmw7t0pm;
-        "neoforge-1.21.1" = _LnzTzFpu;
+        "neoforge-1.21.1" = _HXThMAxH;
         "pkg-1.0.0" = _8g8MhfFu;
         "pkg-1.0.1" = _ImTvRe6U;
         "pkg-1.1.0" = _QLlEp3vA;
@@ -133,7 +145,8 @@ let
         "pkg-1.3.0" = _ICrDnE0u;
         "pkg-1.4.0" = _jhUXfg1D;
         "pkg-1.4.1" = _GZDnadKb;
-        "default" = _GZDnadKb;
+        "pkg-1.4.2" = _AuXjEJhn;
+        "default" = _AuXjEJhn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "take-back-the-night";

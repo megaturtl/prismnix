@@ -61,6 +61,11 @@ let
             "file" = "upgrader-fabric-1.2.0+1.21.11.jar";
             "hash" = "sha512-+RqJJIT+Qhz4nuRpYF1WJyfeyGMY5raRkfCSpcR90f7ebd5zTO4HG1gmElgGgs/iQ1rcRA3x47JzNUhvuYOqmg==";
         };
+        _M50StrbC = {
+            "id" = "M50StrbC";
+            "file" = "upgrader-forge-1.2.0+1.20.1.jar";
+            "hash" = "sha512-n4aeUBAQxV/PUU0WjiZxi0MLeyFHdft7v00VicnkvfYyciRHEOoOTIrPY2oKVPkytC2h6vwpVgBC7JN8BA3xog==";
+        };
     in {
         "VJ8t83ja" = _VJ8t83ja;
         "iGt0fGOA" = _iGt0fGOA;
@@ -74,7 +79,8 @@ let
         "TSHz3weS" = _TSHz3weS;
         "ryrJtsDh" = _ryrJtsDh;
         "q7aVTQGR" = _q7aVTQGR;
-        "forge-1.20.1" = _VJ8t83ja;
+        "M50StrbC" = _M50StrbC;
+        "forge-1.20.1" = _M50StrbC;
         "neoforge-1.21.1" = _wb3qhutU;
         "neoforge-1.21.11" = _ryrJtsDh;
         "fabric-1.20" = _HsqzVJaf;
@@ -85,8 +91,8 @@ let
         "pkg-1.0" = _emrOVUhE;
         "pkg-1.0.1" = _1GBWF8UR;
         "pkg-1.1.0" = _wJqpSmL9;
-        "pkg-1.2.0" = _q7aVTQGR;
-        "default" = _q7aVTQGR;
+        "pkg-1.2.0" = _M50StrbC;
+        "default" = _M50StrbC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "upgrade-items";

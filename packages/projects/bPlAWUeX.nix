@@ -141,6 +141,11 @@ let
             "file" = "RandomTeleporter-0.5.4 mc26.2.jar";
             "hash" = "sha512-ojFPz6n9imMp827nXfiWaalrjy9DcawMfInDOBtkjAAxesM7401Wl5v/wmLxUH5a0W+tZTiltaNprz0dBgDodQ==";
         };
+        _B3zXoLy1 = {
+            "id" = "B3zXoLy1";
+            "file" = "RandomTeleporter-0.5.4 mc26.3.jar";
+            "hash" = "sha512-ZZ5brB2okdAV7LREf+0QA7dmfnaqlMz6a6iaBRqywbOtKrh7idXYA7vqwO1x6lvtcO4+jns3LDE/gikeTKNJwg==";
+        };
     in {
         "z2SoYzRp" = _z2SoYzRp;
         "tZQasLeQ" = _tZQasLeQ;
@@ -170,6 +175,7 @@ let
         "P3P04OWX" = _P3P04OWX;
         "Wo26WicS" = _Wo26WicS;
         "CtvWJbvv" = _CtvWJbvv;
+        "B3zXoLy1" = _B3zXoLy1;
         "fabric-1.20.4" = _qLecs1Kz;
         "fabric-1.20.5" = _qLecs1Kz;
         "fabric-1.20.6" = _qLecs1Kz;
@@ -189,6 +195,7 @@ let
         "fabric-26.1.1" = _RyF4aEFw;
         "fabric-26.1.2" = _P3P04OWX;
         "fabric-26.2" = _CtvWJbvv;
+        "fabric-26.3" = _B3zXoLy1;
         "pkg-0.2.1" = _z2SoYzRp;
         "pkg-0.2.2" = _tZQasLeQ;
         "pkg-0.2.3" = _xjEzb3zI;
@@ -206,8 +213,8 @@ let
         "pkg-0.5.1" = _sTiskre0;
         "pkg-0.5.2" = _8qOvoa9K;
         "pkg-0.5.3" = _Wo26WicS;
-        "pkg-0.5.4" = _CtvWJbvv;
-        "default" = _CtvWJbvv;
+        "pkg-0.5.4" = _B3zXoLy1;
+        "default" = _B3zXoLy1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "randomteleporter";

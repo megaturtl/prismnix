@@ -51,6 +51,11 @@ let
             "file" = "Nightmare-Mode-1.1.5a.jar";
             "hash" = "sha512-xqqpdNDLeGWHBffzpxoecTOKWsxQrwxDTbIYzVVI6t3aoU4pN1gQAh3ItcFCgTXAdXQv1C7d/Bic3a5EOW1U/A==";
         };
+        _MiTHb6KB = {
+            "id" = "MiTHb6KB";
+            "file" = "Nightmare-Mode-1.1.6.jar";
+            "hash" = "sha512-IUWqwVnM8xN41M2EXu0Je48uPxnLDnEkwdM4nDsK5d9EVV1ZAkBV0IqlhBSN1HHODnuA7YOPS19pArJfm/cYGg==";
+        };
     in {
         "uenqWvE5" = _uenqWvE5;
         "FbTaHWDD" = _FbTaHWDD;
@@ -62,7 +67,8 @@ let
         "CUUD41WM" = _CUUD41WM;
         "UQ3WEjwv" = _UQ3WEjwv;
         "roHGIkU3" = _roHGIkU3;
-        "legacy-fabric-1.6.4" = _roHGIkU3;
+        "MiTHb6KB" = _MiTHb6KB;
+        "legacy-fabric-1.6.4" = _MiTHb6KB;
         "pkg-v1.1.0" = _uenqWvE5;
         "pkg-v1.1.1" = _FbTaHWDD;
         "pkg-v1.1.1a-3.0.1-port" = _tsGvJoD8;
@@ -73,7 +79,8 @@ let
         "pkg-v1.1.4" = _CUUD41WM;
         "pkg-v1.1.5" = _UQ3WEjwv;
         "pkg-v1.1.5a" = _roHGIkU3;
-        "default" = _roHGIkU3;
+        "pkg-v1.1.6" = _MiTHb6KB;
+        "default" = _MiTHb6KB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nightmare-mode-btw";

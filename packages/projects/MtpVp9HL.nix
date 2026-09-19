@@ -121,6 +121,26 @@ let
             "file" = "aeronauticsdiscovery-2.1.0.jar";
             "hash" = "sha512-UqC+O6jMxokQtfMP51trZax2Zv2r49j8y/JCDxoNS6iwoqEP8wCUuKOJcsja4sx9qvNyjlGuVLINwLjEDSPrIg==";
         };
+        _JcSyd8hp = {
+            "id" = "JcSyd8hp";
+            "file" = "aeronauticsdiscovery-2.1.1.jar";
+            "hash" = "sha512-5RvikYZyTk/aivy7pAnmXuU5gnjpnKEjU+Z+KIVnKo0t5Es7eev5JSFWxhkGxGkGU9TUuFGIWDzmDBqoWsBqNw==";
+        };
+        _rEf4XFmA = {
+            "id" = "rEf4XFmA";
+            "file" = "aeronauticsdiscovery-2.1.2.jar";
+            "hash" = "sha512-iBzITWdcY1JclsM+naQ+1uePaBGKQDuyAWqhyzEOrqXy8rqFyOP9NfT4GLEqtR0oXg/4RJ6lFXq+WUVrmfzUWQ==";
+        };
+        _KXLeL70i = {
+            "id" = "KXLeL70i";
+            "file" = "aeronauticsdiscovery-2.1.3.jar";
+            "hash" = "sha512-/5+6sJDHwhzOtsYNNdYrEjAAlUXbdACqKhDfFiFY7xO3iD8psHSytyMXbkFVS+wLXb1HUGKdLK97C8R31fnVOA==";
+        };
+        _MSQIosE2 = {
+            "id" = "MSQIosE2";
+            "file" = "aeronauticsdiscovery-2.1.4.jar";
+            "hash" = "sha512-aoWOovi12eSempsWf0Agb0vqD7iprWZ+u0TyIbZ67krfuGCRiaDSBxxYK6MCHNdl3yZqNHsVtOOjJ1iyu5a3mw==";
+        };
     in {
         "vdWbLbSh" = _vdWbLbSh;
         "79DoUkXg" = _79DoUkXg;
@@ -146,7 +166,11 @@ let
         "wCfkLj6o" = _wCfkLj6o;
         "6vuLVb0p" = _6vuLVb0p;
         "Mt5flY47" = _Mt5flY47;
-        "neoforge-1.21.1" = _Mt5flY47;
+        "JcSyd8hp" = _JcSyd8hp;
+        "rEf4XFmA" = _rEf4XFmA;
+        "KXLeL70i" = _KXLeL70i;
+        "MSQIosE2" = _MSQIosE2;
+        "neoforge-1.21.1" = _MSQIosE2;
         "pkg-1.0.0" = _vdWbLbSh;
         "pkg-1.1.0" = _79DoUkXg;
         "pkg-1.2.0" = _Lm3yct1B;
@@ -171,7 +195,11 @@ let
         "pkg-2.0.0" = _wCfkLj6o;
         "pkg-2.0.1" = _6vuLVb0p;
         "pkg-2.1.0" = _Mt5flY47;
-        "default" = _Mt5flY47;
+        "pkg-2.1.1" = _JcSyd8hp;
+        "pkg-2.1.2" = _rEf4XFmA;
+        "pkg-2.1.3" = _KXLeL70i;
+        "pkg-2.1.4" = _MSQIosE2;
+        "default" = _MSQIosE2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-aeronautics-discovery";

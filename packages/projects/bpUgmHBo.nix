@@ -341,6 +341,16 @@ let
             "file" = "plushables-neoforge-2.6.1+26.1.jar";
             "hash" = "sha512-plipRWoQRHeMIpfa6mUoCS75bZ2NgH3Y6E8Ov4Uz7IXqDn9s4GWtnaxZjKHZ/aY/qQpO0HuxIGf0gPg4/mYH4A==";
         };
+        _Md5wdY6O = {
+            "id" = "Md5wdY6O";
+            "file" = "plushables-fabric-2.3.3+1.21.1.jar";
+            "hash" = "sha512-0sJOOCIY6E31u8T/hw4qNpd83KM0tYjTqiMgwoxhAs2EktXztACQaQ9Ps9Oq9F+rAtSZskXFqFXtXkITygmJ+Q==";
+        };
+        _qmhWJC02 = {
+            "id" = "qmhWJC02";
+            "file" = "plushables-neoforge-2.3.3+1.21.1.jar";
+            "hash" = "sha512-583imIjWUw88P6S0Y7CZYiLIJE9iCdK/0vygJIWpDsDDbGCcUfNmzN+zpMxiMita3DIGBQRKk5EOanK1XIJflQ==";
+        };
     in {
         "xh93Jsy0" = _xh93Jsy0;
         "sEkHixAS" = _sEkHixAS;
@@ -410,12 +420,14 @@ let
         "zhSs1Wqd" = _zhSs1Wqd;
         "hiM44CLP" = _hiM44CLP;
         "siZ6j2ty" = _siZ6j2ty;
+        "Md5wdY6O" = _Md5wdY6O;
+        "qmhWJC02" = _qmhWJC02;
         "forge-1.16.5" = _xh93Jsy0;
         "fabric-1.19" = _qtcb2QZf;
         "fabric-1.20" = _3GogDQKJ;
         "fabric-1.20.1" = _cDsVdQar;
         "fabric-1.20.2" = _Ec2kjlCi;
-        "fabric-1.21.1" = _u5ligEGu;
+        "fabric-1.21.1" = _Md5wdY6O;
         "fabric-1.21.5" = _A9aLDRZg;
         "fabric-1.21.10" = _HI9V2AOb;
         "fabric-1.21.11" = _SPUe54RU;
@@ -425,14 +437,14 @@ let
         "quilt-1.20" = _3GogDQKJ;
         "quilt-1.20.1" = _ki6fSsh4;
         "quilt-1.20.2" = _Ec2kjlCi;
-        "neoforge-1.21.1" = _zhSs1Wqd;
+        "neoforge-1.21.1" = _qmhWJC02;
         "neoforge-1.21.5" = _w0QNcY7h;
         "neoforge-1.21.10" = _pxMY1IJ1;
         "neoforge-1.21.11" = _IpBEELKK;
         "neoforge-26.1" = _siZ6j2ty;
         "neoforge-26.1.1" = _siZ6j2ty;
         "neoforge-26.1.2" = _siZ6j2ty;
-        "neoforge-1.21" = _zhSs1Wqd;
+        "neoforge-1.21" = _qmhWJC02;
         "pkg-0.1.3" = _xh93Jsy0;
         "pkg-0.0.1b" = _sEkHixAS;
         "pkg-0.1.0" = _G7ymWNIW;
@@ -472,7 +484,8 @@ let
         "pkg-2.3.1+1.21.1" = _y8knsb0N;
         "pkg-2.3.2+1.21.1" = _zhSs1Wqd;
         "pkg-2.6.1+26.1.x" = _siZ6j2ty;
-        "default" = _siZ6j2ty;
+        "pkg-2.3.3+1.21.1" = _qmhWJC02;
+        "default" = _qmhWJC02;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "plushables";

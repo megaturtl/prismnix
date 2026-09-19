@@ -296,6 +296,16 @@ let
             "file" = "SupplementalTools-3.0.0_26.2-neoforge.jar";
             "hash" = "sha512-GIWyYBulaiW8dla7xTMe7EIWwVz/+Ml4zAJulUV7thKlsIzBn9S8RHzMZnQv8uT7BO7Hv1eowSRRCbq+PG96Xg==";
         };
+        _kS2jnFBJ = {
+            "id" = "kS2jnFBJ";
+            "file" = "SupplementalTools-3.1.0+26.2-neoforge.jar";
+            "hash" = "sha512-NaKPEjt5p5UNjjfAMsPhb1ThtuhPUS2QRCR25t0MAFU5FuDocL+t4INEdkcuNgv++MdWkj31+b/VWB2wn4hN1Q==";
+        };
+        _ktMyP4eB = {
+            "id" = "ktMyP4eB";
+            "file" = "SupplementalTools-3.1.0+26.2-fabric.jar";
+            "hash" = "sha512-W/UPo0xjDO/B9t5kA5VBQW88HLdihkG/ia5RB4/8cQon+WihWsDVCNDZIETyNb9tCTIdElYbhdvmP3Cis21phg==";
+        };
     in {
         "dLtCWYzd" = _dLtCWYzd;
         "pJnaQTQV" = _pJnaQTQV;
@@ -356,6 +366,8 @@ let
         "3Prwxizc" = _3Prwxizc;
         "zkObpCba" = _zkObpCba;
         "afCdbD02" = _afCdbD02;
+        "kS2jnFBJ" = _kS2jnFBJ;
+        "ktMyP4eB" = _ktMyP4eB;
         "fabric-1.20.4" = _Cd4Puakp;
         "fabric-1.20.5" = _pJnaQTQV;
         "fabric-1.20.6" = _TS1YQoxe;
@@ -369,7 +381,7 @@ let
         "fabric-1.21.8" = _6B3SWpsg;
         "fabric-1.21.10" = _gxwJxaNc;
         "fabric-1.21.11" = _Nr8LbzKO;
-        "fabric-26.2" = _zkObpCba;
+        "fabric-26.2" = _ktMyP4eB;
         "forge-1.20.1" = _NVKUWPDc;
         "forge-1.20.2" = _BHPbMUu2;
         "neoforge-1.21.1" = _5k7pumNy;
@@ -380,7 +392,7 @@ let
         "neoforge-1.21.8" = _slscvSw2;
         "neoforge-1.21.10" = _3Prwxizc;
         "neoforge-1.21.11" = _8sK1G2cI;
-        "neoforge-26.2" = _afCdbD02;
+        "neoforge-26.2" = _kS2jnFBJ;
         "pkg-1.0.0" = _DecMG3ci;
         "pkg-1.0.1" = _i08nOgzf;
         "pkg-1.0.2" = _D0MJmK2K;
@@ -395,7 +407,8 @@ let
         "pkg-2.1.1" = _ezzABlhd;
         "pkg-2.1.2" = _3Prwxizc;
         "pkg-3.0.0" = _afCdbD02;
-        "default" = _afCdbD02;
+        "pkg-3.1.0" = _ktMyP4eB;
+        "default" = _ktMyP4eB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sptools";

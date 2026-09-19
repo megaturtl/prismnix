@@ -696,6 +696,11 @@ let
             "file" = "atmosfera-2.7.2+mc26.2.jar";
             "hash" = "sha512-PE3hKHLnavxy+3UmiR3T0NcBdANFJYBEmKMnYnFuF91A43dleANy6IFBVQFK/H0WrSMmGzzRvvXrS47P8zd6Cg==";
         };
+        _Vr3B8x98 = {
+            "id" = "Vr3B8x98";
+            "file" = "atmosfera-2.7.3+mc26.3.jar";
+            "hash" = "sha512-tNgqSYDfVgTR8ajGe9NI5WKeBmK4DcQAXhTeyQl6mrJes84azkkCdzp8pDJuznodAG6Aj1QA+ICqEkFNKrmEQQ==";
+        };
     in {
         "dIYkWMcA" = _dIYkWMcA;
         "gb5t1FfK" = _gb5t1FfK;
@@ -836,6 +841,7 @@ let
         "Zlt6FOWC" = _Zlt6FOWC;
         "cmZqAPqR" = _cmZqAPqR;
         "tQCwekds" = _tQCwekds;
+        "Vr3B8x98" = _Vr3B8x98;
         "fabric-1.18.2" = _xMIodQId;
         "fabric-1.19" = _FbyomKlh;
         "fabric-1.19.1" = _FbyomKlh;
@@ -867,6 +873,7 @@ let
         "fabric-26.1.1" = _cmZqAPqR;
         "fabric-26.1.2" = _cmZqAPqR;
         "fabric-26.2" = _tQCwekds;
+        "fabric-26.3" = _Vr3B8x98;
         "pkg-2.0.0+1.18.2" = _dIYkWMcA;
         "pkg-2.0.0+1.19" = _gb5t1FfK;
         "pkg-2.0.0+1.20" = _Jdm43a10;
@@ -1005,7 +1012,8 @@ let
         "pkg-2.7.2+mc1.21.11" = _Zlt6FOWC;
         "pkg-2.7.2+mc26.1" = _cmZqAPqR;
         "pkg-2.7.2+mc26.2" = _tQCwekds;
-        "default" = _tQCwekds;
+        "pkg-2.7.3+mc26.3" = _Vr3B8x98;
+        "default" = _Vr3B8x98;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "atmosfera";

@@ -26,12 +26,18 @@ let
             "file" = "Better Cake Slices 1.17 - 1.17.1.zip";
             "hash" = "sha512-4vBEr9Z58AmKMOYHxBEZCwWf04/NDWD0cX5VKsthKyrPN9kJZN3tGWnkCZ/ePu9Xwm1xJa4hjWl2PDlPyQ+9ng==";
         };
+        _Tx4g7rKZ = {
+            "id" = "Tx4g7rKZ";
+            "file" = "better_cake_slices-1.13.1.zip";
+            "hash" = "sha512-tISN30Hl86+7yWkJwS92ICOt83idgZqMYgZ2OtinxpBG72o8Z0AIx05qLrkc+O4XNR0jdlf3IUInpSC3+iU0GQ==";
+        };
     in {
         "9USNQGmF" = _9USNQGmF;
         "HwcjUoXu" = _HwcjUoXu;
         "JoeaJcyP" = _JoeaJcyP;
         "bxEMVGBD" = _bxEMVGBD;
         "2NrPmse4" = _2NrPmse4;
+        "Tx4g7rKZ" = _Tx4g7rKZ;
         "minecraft-1.19.4" = _9USNQGmF;
         "minecraft-1.19.3" = _HwcjUoXu;
         "minecraft-1.19" = _JoeaJcyP;
@@ -42,8 +48,10 @@ let
         "minecraft-1.18.2" = _bxEMVGBD;
         "minecraft-1.17" = _2NrPmse4;
         "minecraft-1.17.1" = _2NrPmse4;
+        "minecraft-1.13.1" = _Tx4g7rKZ;
         "pkg-0.1" = _2NrPmse4;
-        "default" = _2NrPmse4;
+        "pkg-1.0" = _Tx4g7rKZ;
+        "default" = _Tx4g7rKZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-cake-slices";

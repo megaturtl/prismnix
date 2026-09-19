@@ -326,6 +326,11 @@ let
             "file" = "outward_destroy-1.0.1-mc26.1.2.zip";
             "hash" = "sha512-IgMUX8Q7brBRKrTZBjhpo7Ej0MsYz5E4MklFBMyya2jpEYhS+lFZC86Oaim9X0tIGzAYlmhksp9NbEeKVosQGw==";
         };
+        _Omu4f8LE = {
+            "id" = "Omu4f8LE";
+            "file" = "outward_destroy-1.0.1-mc26.3.zip";
+            "hash" = "sha512-BiDFWuZkCDGNae+UZTdp34bm6pPEkYnWImaqHDHGayPvSrm0VtYxDXERHsfajOW8VA1uYAr3Dav8esAzczfapg==";
+        };
     in {
         "VlRQq5Qt" = _VlRQq5Qt;
         "JxV2ZiHi" = _JxV2ZiHi;
@@ -392,6 +397,7 @@ let
         "nD5tSrLS" = _nD5tSrLS;
         "HGd4HOYg" = _HGd4HOYg;
         "lJI36DI5" = _lJI36DI5;
+        "Omu4f8LE" = _Omu4f8LE;
         "minecraft-1.8.9" = _VlRQq5Qt;
         "minecraft-1.9" = _JxV2ZiHi;
         "minecraft-1.9.1" = _gCs07l8V;
@@ -457,8 +463,9 @@ let
         "minecraft-26.2" = _nD5tSrLS;
         "minecraft-26.1.1" = _HGd4HOYg;
         "minecraft-26.1.2" = _lJI36DI5;
-        "pkg-1.0.1" = _lJI36DI5;
-        "default" = _lJI36DI5;
+        "minecraft-26.3" = _Omu4f8LE;
+        "pkg-1.0.1" = _Omu4f8LE;
+        "default" = _Omu4f8LE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-collective-outward-block-destroy-animation";

@@ -81,6 +81,51 @@ let
             "file" = "immersive_gateways-neoforge-0.0.6.jar";
             "hash" = "sha512-hh5CLoyjufpKsmn7owVd7nv44wia5C5heyIJipEu40m91Cr1f15Ee3KPi1kpramnZAmCBGt2gSoRY85B1TCwIg==";
         };
+        _WUSeKbpV = {
+            "id" = "WUSeKbpV";
+            "file" = "immersive_gateways-fabric-0.0.7+1.20.1.jar";
+            "hash" = "sha512-97Lp45aQY7iuThYv5WuFPJyxHFNNXN8jYY3QWvOUT8wmrYJL/FIBC6ySTIzdoad7/e0ZR1kdcfqZJyoatlvJPg==";
+        };
+        _E8P1ZZcb = {
+            "id" = "E8P1ZZcb";
+            "file" = "immersive_gateways-fabric-0.0.7+1.20.1.jar";
+            "hash" = "sha512-UEkhCRE00m86qIybjf0lP7z7OJjelurGq1kaUXFURfx/xPqLgkCLEjDatTHp+fODzHvE/H7SiOEMLQe5lUGDyA==";
+        };
+        _jG6H1IXd = {
+            "id" = "jG6H1IXd";
+            "file" = "immersive_gateways-forge-0.0.7+1.20.1.jar";
+            "hash" = "sha512-xr/LtwMzVHWaxgSksCjdepZPk/aHGYyj7iuqFfzEXF1rzErExG+DhYOGNQmJPH6r2UiKDQEXYYPdiLLqFHQMTA==";
+        };
+        _bPKzMRud = {
+            "id" = "bPKzMRud";
+            "file" = "immersive_gateways-fabric-0.0.7.jar";
+            "hash" = "sha512-cY9X4clH+UiZsPd64fIb+qQi0nYta7ULLCUsHiTp6nWLUUXVECze3C8e3FZ7c4c2kb34zBsKWu0jRkfWGUyJww==";
+        };
+        _E7XWGLib = {
+            "id" = "E7XWGLib";
+            "file" = "immersive_gateways-neoforge-0.0.7.jar";
+            "hash" = "sha512-iyb4WKAclBmbX2+myh2E06jB5vuJQqJLSOa+Sz7ccmhlfYlmxiIzFpKB22JJnC+rxKnYnnIY6vymAN2m2g061Q==";
+        };
+        _ia0YeQSV = {
+            "id" = "ia0YeQSV";
+            "file" = "immersive_gateways-fabric-0.0.7.jar";
+            "hash" = "sha512-DqfK87SfYCMxrIpkZVPS9i+uHGL/vsou8+imAekZI1YaJV4IucnKJWK90jHRxUhIG88ABr9pe7Kyr6vh8/d1yg==";
+        };
+        _3BkcqcCx = {
+            "id" = "3BkcqcCx";
+            "file" = "immersive_gateways-neoforge-0.0.7.jar";
+            "hash" = "sha512-G025Ol9DiIKJiRyW9L9CvT1qFnHxBWmFl4KmbanQ7pN3gxw/75wRdt6N1lQc6nlc2oWDlTDwOYagSgqVirPbew==";
+        };
+        _rMqzTLPS = {
+            "id" = "rMqzTLPS";
+            "file" = "immersive_gateways-fabric-0.0.7.jar";
+            "hash" = "sha512-zl+MHHIRuQmvwqe139W9w3f88Jxvxsj5VoXxFzLl6UiPdxi3+iUVkEwDF6hEWm1MFwA05IHdvYgJIF3t7m0S2w==";
+        };
+        _fjMvkMWf = {
+            "id" = "fjMvkMWf";
+            "file" = "immersive_gateways-neoforge-0.0.7.jar";
+            "hash" = "sha512-O/XcL25+O7hxPbsLRx3s4gRCI5GncF5iZAZehuL6kmbL5SHZG1PruhnSf57AZAgEHA/2dhdsl7oqednT/Ji0kg==";
+        };
     in {
         "rhKJFfji" = _rhKJFfji;
         "VGGIx7Ab" = _VGGIx7Ab;
@@ -98,10 +143,23 @@ let
         "hf0mJKUT" = _hf0mJKUT;
         "ZgElBKUn" = _ZgElBKUn;
         "2732EpKG" = _2732EpKG;
-        "fabric-1.20.1" = _YAVLK7Uq;
-        "fabric-1.21.1" = _ZgElBKUn;
-        "forge-1.20.1" = _hf0mJKUT;
-        "neoforge-1.21.1" = _2732EpKG;
+        "WUSeKbpV" = _WUSeKbpV;
+        "E8P1ZZcb" = _E8P1ZZcb;
+        "jG6H1IXd" = _jG6H1IXd;
+        "bPKzMRud" = _bPKzMRud;
+        "E7XWGLib" = _E7XWGLib;
+        "ia0YeQSV" = _ia0YeQSV;
+        "3BkcqcCx" = _3BkcqcCx;
+        "rMqzTLPS" = _rMqzTLPS;
+        "fjMvkMWf" = _fjMvkMWf;
+        "fabric-1.20.1" = _E8P1ZZcb;
+        "fabric-1.21.1" = _bPKzMRud;
+        "fabric-26.1.2" = _ia0YeQSV;
+        "fabric-26.2" = _rMqzTLPS;
+        "forge-1.20.1" = _jG6H1IXd;
+        "neoforge-1.21.1" = _E7XWGLib;
+        "neoforge-26.1.2" = _3BkcqcCx;
+        "neoforge-26.2" = _fjMvkMWf;
         "pkg-0.0.1+1.20.1" = _VGGIx7Ab;
         "pkg-0.0.2+1.20.1" = _AAgHGWDW;
         "pkg-0.0.3+1.20.1" = _cy1rWzA7;
@@ -110,7 +168,11 @@ let
         "pkg-0.0.5+1.21.1" = _Et29a8lw;
         "pkg-0.0.6+1.20.1" = _hf0mJKUT;
         "pkg-0.0.6+1.21.1" = _2732EpKG;
-        "default" = _2732EpKG;
+        "pkg-0.0.7+1.20.1" = _jG6H1IXd;
+        "pkg-0.0.7+1.21.1" = _E7XWGLib;
+        "pkg-0.0.7+26.1.2" = _3BkcqcCx;
+        "pkg-0.0.7+26.2" = _fjMvkMWf;
+        "default" = _fjMvkMWf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-gateways";

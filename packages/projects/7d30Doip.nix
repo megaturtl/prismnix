@@ -626,6 +626,11 @@ let
             "file" = "smooth_diorite-1.0.1-mc26.1.2.zip";
             "hash" = "sha512-6n91uQSBea1bt7NZIt6z6P1C51EV/UMhMoZdbuItr6xrz5M7m/Y9+Vpq60otza/ZeiqvGrpojHQ1ix+UpgP5nw==";
         };
+        _v3ZDgOTz = {
+            "id" = "v3ZDgOTz";
+            "file" = "smooth_diorite-1.0.1-mc26.3.zip";
+            "hash" = "sha512-+DXlxWkxkrlb5otjDkZOLF9nYCoO3l7CP2aurLLNxHcGLUnDx3KnN9tS7nxMrj4nnGM8E7Qt/SBxhXYIIiXJRQ==";
+        };
     in {
         "eEyJBt0J" = _eEyJBt0J;
         "Vl45tDKY" = _Vl45tDKY;
@@ -752,6 +757,7 @@ let
         "TWACql1F" = _TWACql1F;
         "8LORzAac" = _8LORzAac;
         "j8MWTVXb" = _j8MWTVXb;
+        "v3ZDgOTz" = _v3ZDgOTz;
         "minecraft-1.8.9" = _c24A1RKF;
         "minecraft-1.9" = _FoUeQpsa;
         "minecraft-1.9.1" = _wles3Ggf;
@@ -817,9 +823,10 @@ let
         "minecraft-26.2" = _TWACql1F;
         "minecraft-26.1.1" = _8LORzAac;
         "minecraft-26.1.2" = _j8MWTVXb;
+        "minecraft-26.3" = _v3ZDgOTz;
         "pkg-1.0.0" = _iy7OWXMn;
-        "pkg-1.0.1" = _j8MWTVXb;
-        "default" = _j8MWTVXb;
+        "pkg-1.0.1" = _v3ZDgOTz;
+        "default" = _v3ZDgOTz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-collective-smooth-diorite";

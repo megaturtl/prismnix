@@ -251,6 +251,21 @@ let
             "file" = "athen-0.3.2+26.2.jar";
             "hash" = "sha512-f5bkGUH1Dyp2YMvrY5KtBXCIfJU3V5RN4bVg2N1c7zgmRyPxB4LEaPwOas4xKNVeueookk8AmHzrLKEnl59/kA==";
         };
+        _YLzXwjKB = {
+            "id" = "YLzXwjKB";
+            "file" = "athen-0.3.3+26.1.jar";
+            "hash" = "sha512-TyuNeTF+tetkd3LCsRKcVJ+pjEoFuCnDOSFTBkHsqbpVlD5Pi+3v0m7TjBeYhytmZ2od72OwfVTFbvjtrwTxhA==";
+        };
+        _zSD1AtNT = {
+            "id" = "zSD1AtNT";
+            "file" = "athen-0.3.3+26.2.jar";
+            "hash" = "sha512-sWyfPrG+3PAPGwWBkHQmCYlNaV79c3NRbLTJpHhavHnq7h23yAJuXVjYoq3QCj20h6PzAT9vecaS75FIdVLhng==";
+        };
+        _AGWMnyMd = {
+            "id" = "AGWMnyMd";
+            "file" = "athen-0.3.3+26.3.jar";
+            "hash" = "sha512-peFUJFngLfzJesBe8l3Wlz2hxJl630K//iMlGneAUGAdY7iMvuCkf3g3dM1ry4ERpDjAvlvMeoesRSOCWShiZQ==";
+        };
     in {
         "QLTdoTzb" = _QLTdoTzb;
         "5vguU7Nv" = _5vguU7Nv;
@@ -302,13 +317,17 @@ let
         "LRsdWVHR" = _LRsdWVHR;
         "R4TvAZLp" = _R4TvAZLp;
         "3jCSgEN8" = _3jCSgEN8;
+        "YLzXwjKB" = _YLzXwjKB;
+        "zSD1AtNT" = _zSD1AtNT;
+        "AGWMnyMd" = _AGWMnyMd;
         "fabric-1.21.9" = _jmaoMXwW;
         "fabric-1.21.10" = _jmaoMXwW;
         "fabric-1.21.11" = _NlVvtoTz;
-        "fabric-26.1" = _R4TvAZLp;
-        "fabric-26.1.1" = _R4TvAZLp;
-        "fabric-26.1.2" = _R4TvAZLp;
-        "fabric-26.2" = _3jCSgEN8;
+        "fabric-26.1" = _YLzXwjKB;
+        "fabric-26.1.1" = _YLzXwjKB;
+        "fabric-26.1.2" = _YLzXwjKB;
+        "fabric-26.2" = _zSD1AtNT;
+        "fabric-26.3" = _AGWMnyMd;
         "pkg-0.0.1" = _5vguU7Nv;
         "pkg-0.0.2" = _fSxFOAzH;
         "pkg-0.0.3" = _ahqpVM0m;
@@ -333,7 +352,8 @@ let
         "pkg-0.3.0" = _gX3P1Nwn;
         "pkg-0.3.1" = _LRsdWVHR;
         "pkg-0.3.2" = _3jCSgEN8;
-        "default" = _3jCSgEN8;
+        "pkg-0.3.3" = _AGWMnyMd;
+        "default" = _AGWMnyMd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "athen";

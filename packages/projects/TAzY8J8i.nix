@@ -36,6 +36,11 @@ let
             "file" = "OLEDcraft.zip";
             "hash" = "sha512-vdeuXYidYDrbnPD8qZG/SQZ/eqTqXZAnGUagoy2WPQ28QKqW6rjLWLyDc6ylzFsQIyg0wDfY7YJG/4IdtwLFvw==";
         };
+        _ZqhfOzZp = {
+            "id" = "ZqhfOzZp";
+            "file" = "OLEDcraft.zip";
+            "hash" = "sha512-skm3fOG73sM01iDlM6GNuNlFL3Dy+CCEZiJARNM5WcZF5wZaa+D7JJSovwfNVOmViL0dubo1KU8QaC+NeG73EA==";
+        };
     in {
         "nShy9yho" = _nShy9yho;
         "H9CAaxaW" = _H9CAaxaW;
@@ -44,6 +49,7 @@ let
         "33D6sPuY" = _33D6sPuY;
         "tcZSQoLj" = _tcZSQoLj;
         "LrGRsTTK" = _LrGRsTTK;
+        "ZqhfOzZp" = _ZqhfOzZp;
         "minecraft-1.19.4" = _nShy9yho;
         "minecraft-1.20" = _H9CAaxaW;
         "minecraft-1.20.1" = _H9CAaxaW;
@@ -61,18 +67,22 @@ let
         "minecraft-1.21.6" = _33D6sPuY;
         "minecraft-1.21.7" = _33D6sPuY;
         "minecraft-1.21.8" = _33D6sPuY;
-        "minecraft-1.21.9" = _LrGRsTTK;
-        "minecraft-1.21.10" = _LrGRsTTK;
-        "minecraft-1.21.11" = _LrGRsTTK;
-        "minecraft-26.1" = _LrGRsTTK;
-        "minecraft-26.1.1" = _LrGRsTTK;
+        "minecraft-1.21.9" = _ZqhfOzZp;
+        "minecraft-1.21.10" = _ZqhfOzZp;
+        "minecraft-1.21.11" = _ZqhfOzZp;
+        "minecraft-26.1" = _ZqhfOzZp;
+        "minecraft-26.1.1" = _ZqhfOzZp;
+        "minecraft-26.1.2" = _ZqhfOzZp;
+        "minecraft-26.2" = _ZqhfOzZp;
+        "minecraft-26.3" = _ZqhfOzZp;
         "pkg-1.6.0" = _H9CAaxaW;
         "pkg-1.7.0" = _Qkb887Fw;
         "pkg-1.8.0" = _Qk7U1vTo;
         "pkg-1.9.0" = _33D6sPuY;
         "pkg-1.10.0" = _tcZSQoLj;
         "pkg-1.11.0" = _LrGRsTTK;
-        "default" = _LrGRsTTK;
+        "pkg-1.12.0" = _ZqhfOzZp;
+        "default" = _ZqhfOzZp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "oledcraft";

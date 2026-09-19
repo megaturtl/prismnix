@@ -441,6 +441,51 @@ let
             "file" = "Enhanced-Celestials-2-Core-Fabric-26.2-4.0.3.2.jar";
             "hash" = "sha512-r3Lfyxh7jHZaVV81DiTua8kfAVv4682W5/J0OG4W3nqkJ+hQVejiAiJatKOk21iF9Jd+ne/GsyjN+dVvQQWzDA==";
         };
+        _lRXoz8Kg = {
+            "id" = "lRXoz8Kg";
+            "file" = "Enhanced-Celestials-2-Core-Fabric-1.20.1-1.0.3.3.jar";
+            "hash" = "sha512-lHKoO2ZncsRE0jUO3img2+ZlAxcCXWdCga+7qNsa8Pfei0xlxdEv+M8Z7V3JxedTQ4dBkmxPG84/OiBkQ0Y/Eg==";
+        };
+        _awjgJNBd = {
+            "id" = "awjgJNBd";
+            "file" = "Enhanced-Celestials-2-Core-Forge-1.20.1-1.0.3.3.jar";
+            "hash" = "sha512-VYBL9n+XD2e+EORfWqVwCleTB7v/zJ79xQApSny1E4ctv0wnUUR5hNKyVr98KOzBo7Hc6cM0z57midiPPolkxw==";
+        };
+        _JjBuHb3J = {
+            "id" = "JjBuHb3J";
+            "file" = "Enhanced-Celestials-2-Core-Fabric-1.21.1-2.0.3.3.jar";
+            "hash" = "sha512-nqcjBldHlmF1S070Hc7kn7L4TbcK8mbfwcWgIXybgAoZJr6jybOaFw1k9pozNzi1axknS2FF0HUB0VCGeG+FQA==";
+        };
+        _WIhN4GX6 = {
+            "id" = "WIhN4GX6";
+            "file" = "Enhanced-Celestials-2-Core-Forge-1.21.1-2.0.3.3.jar";
+            "hash" = "sha512-+bZE+Gb2oETsf+aXnwDSrvKi2KF3paUqldnY1pZi+54dySraLKG97RKEjbGIJEcQ6EGo6bUYne250oROBCIQSQ==";
+        };
+        _CWaaEX5L = {
+            "id" = "CWaaEX5L";
+            "file" = "Enhanced-Celestials-2-Core-NeoForge-1.21.1-2.0.3.3.jar";
+            "hash" = "sha512-4j4JMmCuL8oyarECMl1KInPanF9NFbAMnkKzqdR7O2VZIMw+ASNQ7R5QAoR2LtjKmbhA/SqI8lT5x09i6WwqZA==";
+        };
+        _qUsNC5Sc = {
+            "id" = "qUsNC5Sc";
+            "file" = "Enhanced-Celestials-2-Core-Fabric-26.1.2-3.0.3.3.jar";
+            "hash" = "sha512-TMM30ttCQO7DJ9ovS49qS7gPH2609MKCuPwEVv+INwpWCzKZlOVJ7z22Ei1XQVMsE5gwKWtP5Exoc5B7x5YTmQ==";
+        };
+        _xdRmMS3v = {
+            "id" = "xdRmMS3v";
+            "file" = "Enhanced-Celestials-2-Core-NeoForge-26.1.2-3.0.3.3.jar";
+            "hash" = "sha512-o+wkukLY5oAONLoItGW1GwdWgDcx4kh/mfpHQbAtRfbdOURHDtBlm++hDyfzKnNDNy5yDSWiowoN21MdtXboTQ==";
+        };
+        _Oxevb7jV = {
+            "id" = "Oxevb7jV";
+            "file" = "Enhanced-Celestials-2-Core-Fabric-26.2-4.0.3.3.jar";
+            "hash" = "sha512-xvVriD1olAqOozzwc2Cql+m4ZiHF51H8BOM/umnfyDpAU6tvC6IH+d4apBRHS3CpkwieDwk4MU5cFPPbl+Z7PQ==";
+        };
+        _3ImIP8V4 = {
+            "id" = "3ImIP8V4";
+            "file" = "Enhanced-Celestials-2-Core-NeoForge-26.2-4.0.3.3.jar";
+            "hash" = "sha512-pIWwBtdGXweZgSiRNy2psoFhOprCBEACWmTPIIH5OreSEYe2AKovclx31HjNVY2CDxtokx1C3dXrVBY2cOBtbg==";
+        };
     in {
         "D5TmR5hF" = _D5TmR5hF;
         "ghy5l3m8" = _ghy5l3m8;
@@ -530,20 +575,29 @@ let
         "UFh6PW7X" = _UFh6PW7X;
         "nWGBaOTO" = _nWGBaOTO;
         "nUalrMnE" = _nUalrMnE;
-        "forge-1.21.1" = _xvTUNt6Z;
-        "forge-1.20.1" = _R31CGseV;
-        "neoforge-1.21.1" = _9nf5HfFq;
-        "neoforge-1.20.1" = _R31CGseV;
-        "neoforge-26.1.2" = _pc6opves;
-        "neoforge-26.2" = _nWGBaOTO;
-        "fabric-1.21.1" = _2MI0Po6o;
-        "fabric-1.20.1" = _GJVmjhqx;
-        "fabric-26.1.2" = _UFh6PW7X;
-        "fabric-26.2" = _nUalrMnE;
-        "quilt-1.21.1" = _2MI0Po6o;
-        "quilt-1.20.1" = _GJVmjhqx;
-        "quilt-26.1.2" = _UFh6PW7X;
-        "quilt-26.2" = _nUalrMnE;
+        "lRXoz8Kg" = _lRXoz8Kg;
+        "awjgJNBd" = _awjgJNBd;
+        "JjBuHb3J" = _JjBuHb3J;
+        "WIhN4GX6" = _WIhN4GX6;
+        "CWaaEX5L" = _CWaaEX5L;
+        "qUsNC5Sc" = _qUsNC5Sc;
+        "xdRmMS3v" = _xdRmMS3v;
+        "Oxevb7jV" = _Oxevb7jV;
+        "3ImIP8V4" = _3ImIP8V4;
+        "forge-1.21.1" = _WIhN4GX6;
+        "forge-1.20.1" = _awjgJNBd;
+        "neoforge-1.21.1" = _CWaaEX5L;
+        "neoforge-1.20.1" = _awjgJNBd;
+        "neoforge-26.1.2" = _xdRmMS3v;
+        "neoforge-26.2" = _3ImIP8V4;
+        "fabric-1.21.1" = _JjBuHb3J;
+        "fabric-1.20.1" = _lRXoz8Kg;
+        "fabric-26.1.2" = _qUsNC5Sc;
+        "fabric-26.2" = _Oxevb7jV;
+        "quilt-1.21.1" = _JjBuHb3J;
+        "quilt-1.20.1" = _lRXoz8Kg;
+        "quilt-26.1.2" = _qUsNC5Sc;
+        "quilt-26.2" = _Oxevb7jV;
         "pkg-1.0.0.1-forge" = _XZC5JYYv;
         "pkg-1.0.0.1-neoforge" = _ghy5l3m8;
         "pkg-1.0.0.2-fabric" = _OYaUApiI;
@@ -621,7 +675,16 @@ let
         "pkg-3.0.3.2-fabric" = _UFh6PW7X;
         "pkg-4.0.3.2-neoforge" = _nWGBaOTO;
         "pkg-4.0.3.2-fabric" = _nUalrMnE;
-        "default" = _nUalrMnE;
+        "pkg-1.0.3.3-fabric" = _lRXoz8Kg;
+        "pkg-1.0.3.3-forge" = _awjgJNBd;
+        "pkg-2.0.3.3-fabric" = _JjBuHb3J;
+        "pkg-2.0.3.3-forge" = _WIhN4GX6;
+        "pkg-2.0.3.3-neoforge" = _CWaaEX5L;
+        "pkg-3.0.3.3-fabric" = _qUsNC5Sc;
+        "pkg-3.0.3.3-neoforge" = _xdRmMS3v;
+        "pkg-4.0.3.3-fabric" = _Oxevb7jV;
+        "pkg-4.0.3.3-neoforge" = _3ImIP8V4;
+        "default" = _3ImIP8V4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enhanced-celestials-2-core";

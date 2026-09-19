@@ -31,6 +31,16 @@ let
             "file" = "csplus-1.3.1.jar";
             "hash" = "sha512-CQ21R+l5wXH8xsTe6RJYecpc9Uc8ZESvYVJlhst2fRdr8N031XH4pGLMxpRvPtYMEE73aZYnCGKY7BFXIcD8zw==";
         };
+        _GrXe1WwZ = {
+            "id" = "GrXe1WwZ";
+            "file" = "csplus-1.3.1-hotfix.jar";
+            "hash" = "sha512-fn4+NcDQ66LtSm1Z+P0ppDcTG6xIFRo/Zz7ifWn6/uEHGJri29i+KlZWCUarWZGQG4cn4WdZ2GxrkBaCfnHqHA==";
+        };
+        _yek7LkRC = {
+            "id" = "yek7LkRC";
+            "file" = "csplus-1.3.1-hotfix2.jar";
+            "hash" = "sha512-eV0rr2URHA9PmrrtcNC7RcW0bf8jmIzMv11zWtrbHvreOVe6rUooofsBVc/dQCLB/KBgo0E1gamsudD3V+yWtQ==";
+        };
     in {
         "6MDvZPG9" = _6MDvZPG9;
         "Ogx60w33" = _Ogx60w33;
@@ -38,7 +48,9 @@ let
         "kNpDOKiq" = _kNpDOKiq;
         "aNjvxNW6" = _aNjvxNW6;
         "j35TGimL" = _j35TGimL;
-        "forge-1.20.1" = _j35TGimL;
+        "GrXe1WwZ" = _GrXe1WwZ;
+        "yek7LkRC" = _yek7LkRC;
+        "forge-1.20.1" = _yek7LkRC;
         "forge-1.20.2" = _j35TGimL;
         "forge-1.20.3" = _j35TGimL;
         "forge-1.20.4" = _j35TGimL;
@@ -50,7 +62,9 @@ let
         "pkg-1.2.0" = _kNpDOKiq;
         "pkg-1.3.0" = _aNjvxNW6;
         "pkg-1.3.1" = _j35TGimL;
-        "default" = _j35TGimL;
+        "pkg-1.3.1-hotfix" = _GrXe1WwZ;
+        "pkg-1.3.1-hotfix2" = _yek7LkRC;
+        "default" = _yek7LkRC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tacz-cs";

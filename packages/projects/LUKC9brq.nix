@@ -66,6 +66,11 @@ let
             "file" = "sage_brush-1.21.1-2.2.3.jar";
             "hash" = "sha512-1t7vdFfwoXfQJsp8FqtcW8jEfdoHadfhsLjNsHYA3Z2k3N3qVhort9zzVJhbVr2Rp+Ny5AYv2dLlETh34f/Cew==";
         };
+        _oTkjezzM = {
+            "id" = "oTkjezzM";
+            "file" = "sage_brush-1.21.1-2.2.4.jar";
+            "hash" = "sha512-+32n/tfJbFSBgXb1dsvwgCVKhmNf/RV2GXnY6ekpMEnwEYSB00/1N0LOLPGfzO+ilTZNJvoX8OTAd0AhGS8eLA==";
+        };
     in {
         "4NYbACkS" = _4NYbACkS;
         "4xhAJlUO" = _4xhAJlUO;
@@ -80,10 +85,11 @@ let
         "LSJ5NBGD" = _LSJ5NBGD;
         "qNmtndAZ" = _qNmtndAZ;
         "7cGCFHRk" = _7cGCFHRk;
+        "oTkjezzM" = _oTkjezzM;
         "forge-1.20.1" = _qcHVqMoI;
         "forge-1.19.2" = _t5IouDXO;
         "neoforge-1.20.1" = _E9jFI8Sd;
-        "neoforge-1.21.1" = _7cGCFHRk;
+        "neoforge-1.21.1" = _oTkjezzM;
         "pkg-1.0.0" = _4NYbACkS;
         "pkg-1.0.1" = _4xhAJlUO;
         "pkg-0.1.0" = _1EVA0DBB;
@@ -97,7 +103,8 @@ let
         "pkg-2.2.1" = _LSJ5NBGD;
         "pkg-2.2.2" = _qNmtndAZ;
         "pkg-2.2.3" = _7cGCFHRk;
-        "default" = _7cGCFHRk;
+        "pkg-2.2.4" = _oTkjezzM;
+        "default" = _oTkjezzM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sage-brush";

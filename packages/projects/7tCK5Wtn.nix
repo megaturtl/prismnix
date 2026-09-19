@@ -266,6 +266,26 @@ let
             "file" = "attributecore-forge-2.3.6.jar";
             "hash" = "sha512-po3IfAnLHXOmxjVBkHaFuohKAmXH001znpra6uxYEGaU9NDs8wL48fRFjxxCWsDF6yILiPwjYUbJUF1JjPm1Qg==";
         };
+        _7ZiItdf1 = {
+            "id" = "7ZiItdf1";
+            "file" = "attributecore-forge-2.3.7.jar";
+            "hash" = "sha512-IalexZcnkX3j8vrtEmGLbNwUbpRb4Iylv/M7fVmWuzTj4FqM0LP5s6lzfCa15Ykjp0R7Eq3qBs9AMYu3GgWr8w==";
+        };
+        _iktgS1tx = {
+            "id" = "iktgS1tx";
+            "file" = "attributecore-forge-2.3.8.jar";
+            "hash" = "sha512-wwdEUdl9IKDuu4ngki2l0jXgsM6drmOBef8Dnhs9cOgk7D6ut9xBggjO17ueW7hNZ3CoQATIPIAc9Yriy7Wt/Q==";
+        };
+        _qfUltWcq = {
+            "id" = "qfUltWcq";
+            "file" = "attributecore-forge-2.3.9.jar";
+            "hash" = "sha512-L1rjqRLEFC8QCS8pzSiAOQxnHZW4F/rF2cdL8QwhMd0BTLAE7a7nTLzoPxiLmFDyST8MEnxOBDATcB4YQ03xpA==";
+        };
+        _mDJ0RXBM = {
+            "id" = "mDJ0RXBM";
+            "file" = "attributecore-forge-2.4.0.jar";
+            "hash" = "sha512-wzlckMQ2dzlxyVPgXNk6/PnTHQEk2p2QkFT+0rhsGNZiDkiDWcGhJerPJmcfUetZkzSC+y59fUlijJFKkG+nsA==";
+        };
     in {
         "hKiUj93o" = _hKiUj93o;
         "zMOQ1Ny3" = _zMOQ1Ny3;
@@ -320,7 +340,11 @@ let
         "XSUVheMc" = _XSUVheMc;
         "iZZVGOiT" = _iZZVGOiT;
         "CgSTlG0Y" = _CgSTlG0Y;
-        "forge-1.20.1" = _CgSTlG0Y;
+        "7ZiItdf1" = _7ZiItdf1;
+        "iktgS1tx" = _iktgS1tx;
+        "qfUltWcq" = _qfUltWcq;
+        "mDJ0RXBM" = _mDJ0RXBM;
+        "forge-1.20.1" = _mDJ0RXBM;
         "neoforge-1.21.1" = _iZZVGOiT;
         "pkg-1.0.0" = _XaSvo30v;
         "pkg-1.0.1" = _GJmphLnf;
@@ -366,7 +390,11 @@ let
         "pkg-2.3.4" = _wm484YEV;
         "pkg-2.3.5" = _eeHwP5pl;
         "pkg-2.3.6" = _CgSTlG0Y;
-        "default" = _CgSTlG0Y;
+        "pkg-2.3.7" = _7ZiItdf1;
+        "pkg-2.3.8" = _iktgS1tx;
+        "pkg-2.3.9" = _qfUltWcq;
+        "pkg-2.4.0" = _mDJ0RXBM;
+        "default" = _mDJ0RXBM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xp-attribute-core";

@@ -431,6 +431,16 @@ let
             "file" = "fertilization-neoforge-26.2-26.2.0.3.jar";
             "hash" = "sha512-KaahpcgstJxdfI6HMnselFRR6OpWQISmSf6QycwUT+pmo/8NIhkloxbMPFp/JWsogc52XPpDfGA+oAGKWf1jzg==";
         };
+        _sacOJObS = {
+            "id" = "sacOJObS";
+            "file" = "fertilization-neoforge-26.3-26.3.0.1.jar";
+            "hash" = "sha512-N4Q0anAW5q+5DTxQX8Vm8v0PQ/a/lbytabA21Dml3T6QZG3TwUvMi+Qi7Qqk+BcP6CuuJ88bMg4Bc5wYBaBt5Q==";
+        };
+        _MtRelsdO = {
+            "id" = "MtRelsdO";
+            "file" = "fertilization-fabric-26.3-26.3.0.1.jar";
+            "hash" = "sha512-RC0BRK4oyjT7OVxrzTp3303DJIqYO6Zcjp3qJz24eOFNk0Gz9nDmLbPbEW0DoxCZYqEImb/WUJHhS94wPwmRpw==";
+        };
     in {
         "vIDwsZo8" = _vIDwsZo8;
         "DbZYwwGv" = _DbZYwwGv;
@@ -518,6 +528,8 @@ let
         "GuU9tYLC" = _GuU9tYLC;
         "KwGQvRxV" = _KwGQvRxV;
         "fnTGsQwB" = _fnTGsQwB;
+        "sacOJObS" = _sacOJObS;
+        "MtRelsdO" = _MtRelsdO;
         "forge-1.19" = _vIDwsZo8;
         "forge-1.19.1" = _vIDwsZo8;
         "forge-1.19.2" = _vIDwsZo8;
@@ -569,6 +581,7 @@ let
         "fabric-26.1.1" = _1S3KxJkq;
         "fabric-26.1.2" = _eShYd4Zo;
         "fabric-26.2" = _KwGQvRxV;
+        "fabric-26.3" = _MtRelsdO;
         "neoforge-1.20.2" = _oIQjtL3K;
         "neoforge-1.20.4" = _Y09vM6oL;
         "neoforge-1.20.6" = _nEefGWRf;
@@ -588,6 +601,7 @@ let
         "neoforge-26.1.1" = _JavO4wqh;
         "neoforge-26.1.2" = _GuU9tYLC;
         "neoforge-26.2" = _fnTGsQwB;
+        "neoforge-26.3" = _sacOJObS;
         "pkg-9.0.0+forge-1.19" = _vIDwsZo8;
         "pkg-9.0.0+fabric-1.19" = _DbZYwwGv;
         "pkg-10.0.0+fabric-1.19.3" = _8iLdf3MC;
@@ -674,7 +688,9 @@ let
         "pkg-26.1.2.2+neoforge-26.1.2" = _GuU9tYLC;
         "pkg-26.2.0.3+fabric-26.2" = _KwGQvRxV;
         "pkg-26.2.0.3+neoforge-26.2" = _fnTGsQwB;
-        "default" = _fnTGsQwB;
+        "pkg-26.3.0.1+neoforge-26.3" = _sacOJObS;
+        "pkg-26.3.0.1+fabric-26.3" = _MtRelsdO;
+        "default" = _MtRelsdO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fertilization";

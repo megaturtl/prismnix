@@ -16,24 +16,32 @@ let
             "file" = "Trams4MC-1.2.0.zip";
             "hash" = "sha512-jSJP7WgvfvifHNlLXSFiuTGZxqAEoyoezNdNXEk1P/pGVFFHzTzdwi3snoH7xRBj7xpAdHRP3exC2vhBy2jnOg==";
         };
+        _GxIKACE5 = {
+            "id" = "GxIKACE5";
+            "file" = "Trams4MC 2.0.zip";
+            "hash" = "sha512-VhO9F85Ko95Mgt4TZ+ibu0eDTRbZQNIEPKIaGz37073cblvkdfl2m6PC4cR2Einm431Qkj2Ju4azF6Y741fOHQ==";
+        };
     in {
         "DFWV91qS" = _DFWV91qS;
         "Px9pQfRn" = _Px9pQfRn;
         "BRmc1GMT" = _BRmc1GMT;
+        "GxIKACE5" = _GxIKACE5;
         "minecraft-1.16.5" = _DFWV91qS;
-        "minecraft-1.17.1" = _BRmc1GMT;
-        "minecraft-1.18.2" = _BRmc1GMT;
-        "minecraft-1.19.4" = _BRmc1GMT;
+        "minecraft-1.17.1" = _GxIKACE5;
+        "minecraft-1.18.2" = _GxIKACE5;
+        "minecraft-1.19.4" = _GxIKACE5;
         "minecraft-1.17" = _Px9pQfRn;
         "minecraft-1.18" = _Px9pQfRn;
         "minecraft-1.19" = _Px9pQfRn;
-        "minecraft-1.19.2" = _BRmc1GMT;
+        "minecraft-1.19.2" = _GxIKACE5;
         "minecraft-1.19.3" = _BRmc1GMT;
-        "minecraft-1.20.1" = _BRmc1GMT;
+        "minecraft-1.20.1" = _GxIKACE5;
+        "minecraft-1.20.4" = _GxIKACE5;
         "pkg-1.0" = _DFWV91qS;
         "pkg-1.1.0" = _Px9pQfRn;
         "pkg-1.2.0" = _BRmc1GMT;
-        "default" = _BRmc1GMT;
+        "pkg-2.0" = _GxIKACE5;
+        "default" = _GxIKACE5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trams4mc";

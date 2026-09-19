@@ -481,6 +481,16 @@ let
             "file" = "misctweaks-neoforge-1.4.3+1.21.1.jar";
             "hash" = "sha512-Z4uoO10HGMKsfyYToqo11FYtIlwsAqFz/Q40t8qj4ysofGCmRtsDFvtObEE4UEricyvbG+OdkMHFPwp0jPg16w==";
         };
+        _pi68OYRW = {
+            "id" = "pi68OYRW";
+            "file" = "misctweaks-neoforge-1.4.4+1.21.1.jar";
+            "hash" = "sha512-HwruLa9T9ppwtbNc8U5kFr4GGVsf1HAbskAu/qii76vzQxSJ0T6gWqyFrnJSYpFlg4+9a++eMmq3P8Zq3mayvg==";
+        };
+        _c2JwxbVC = {
+            "id" = "c2JwxbVC";
+            "file" = "misctweaks-fabric-1.4.4+26.3.jar";
+            "hash" = "sha512-pki0C0hK3U5j7JEZgF0hhx87LJsKt3ReIlqB7RGRyzl/Ckf6pn+g9ybnzzSIArpYPt9MdpRdeZ+kSCDceYhpRQ==";
+        };
     in {
         "uiieKd1F" = _uiieKd1F;
         "obcAM0UT" = _obcAM0UT;
@@ -578,6 +588,8 @@ let
         "HxHgV8h2" = _HxHgV8h2;
         "3cL2qGhr" = _3cL2qGhr;
         "juaT3mXf" = _juaT3mXf;
+        "pi68OYRW" = _pi68OYRW;
+        "c2JwxbVC" = _c2JwxbVC;
         "fabric-1.21.1" = _3cL2qGhr;
         "fabric-1.21.4" = _paCLdrtn;
         "fabric-1.20.1" = _tBPZHkqR;
@@ -591,7 +603,8 @@ let
         "fabric-26.1.2" = _HxHgV8h2;
         "fabric-26.2" = _33nKJJQH;
         "fabric-1.21" = _3cL2qGhr;
-        "neoforge-1.21.1" = _juaT3mXf;
+        "fabric-26.3" = _c2JwxbVC;
+        "neoforge-1.21.1" = _pi68OYRW;
         "neoforge-1.21.4" = _dM148Ixj;
         "neoforge-1.21.5" = _Zl6DuWqJ;
         "neoforge-1.21.7" = _FNlBZPyI;
@@ -602,7 +615,7 @@ let
         "neoforge-26.1.1" = _P92dFsEN;
         "neoforge-26.1.2" = _P92dFsEN;
         "neoforge-26.2" = _kfEoAbya;
-        "neoforge-1.21" = _juaT3mXf;
+        "neoforge-1.21" = _pi68OYRW;
         "forge-1.20.1" = _5wBnIliX;
         "pkg-1.0.0+1.21.1" = _YTOmgcz0;
         "pkg-1.0.0+1.21.4" = _NlnVbPmo;
@@ -670,7 +683,9 @@ let
         "pkg-1.4.2+1.21.1" = _LiQlbuj3;
         "pkg-1.4.2+26.1.2" = _HxHgV8h2;
         "pkg-1.4.3+1.21.1" = _juaT3mXf;
-        "default" = _juaT3mXf;
+        "pkg-1.4.4+1.21.1" = _pi68OYRW;
+        "pkg-1.4.4+26.3" = _c2JwxbVC;
+        "default" = _c2JwxbVC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "misctweaks";

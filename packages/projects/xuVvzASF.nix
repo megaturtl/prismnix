@@ -136,6 +136,16 @@ let
             "file" = "craftable-tall-grass-107.1.jar";
             "hash" = "sha512-PidaTDJZ6n2VvzqzXuhp1TPed0lJaBeNt9BLY68hKkNu4M2AeUuXtOvQ4yG8FU18fmPsRgt3QLBpZvTie6/g8Q==";
         };
+        _rUJniRqA = {
+            "id" = "rUJniRqA";
+            "file" = "craftable-tall-grass-1.1.0-mc26.3.zip";
+            "hash" = "sha512-8E1En6KGllfSgJqvfrAZ8fFOuuLoDSr3cpkEQtUbHowLiGRt6jye7RVL1phrmbCRoelL8O0+AsAhkTmQqDcnMg==";
+        };
+        _i5hJJTKo = {
+            "id" = "i5hJJTKo";
+            "file" = "craftable-tall-grass-1.1.0.jar";
+            "hash" = "sha512-Gwz3/zNIVI4gNeCXAnxJm8HXWGqZ/jVYhXIWzgsNayz/4sTKq9IHbI2a7MM/qvi5KCl+T0YxQkMPUM0POApjdg==";
+        };
     in {
         "mawJwI1Y" = _mawJwI1Y;
         "9ZAmcpvc" = _9ZAmcpvc;
@@ -164,6 +174,8 @@ let
         "pLWMr6Ap" = _pLWMr6Ap;
         "vV1fpXcv" = _vV1fpXcv;
         "5ITpHgBi" = _5ITpHgBi;
+        "rUJniRqA" = _rUJniRqA;
+        "i5hJJTKo" = _i5hJJTKo;
         "datapack-1.20.2" = _mawJwI1Y;
         "datapack-1.20.3" = _I6FeNK8T;
         "datapack-1.20.4" = _I6FeNK8T;
@@ -185,6 +197,7 @@ let
         "datapack-26.1.1" = _yhLcGyBK;
         "datapack-26.1.2" = _yhLcGyBK;
         "datapack-26.2" = _vV1fpXcv;
+        "datapack-26.3" = _rUJniRqA;
         "fabric-1.20.2" = _9ZAmcpvc;
         "fabric-1.20.3" = _1ihouqt7;
         "fabric-1.20.4" = _1ihouqt7;
@@ -206,6 +219,7 @@ let
         "fabric-26.1.1" = _pLWMr6Ap;
         "fabric-26.1.2" = _pLWMr6Ap;
         "fabric-26.2" = _5ITpHgBi;
+        "fabric-26.3" = _i5hJJTKo;
         "forge-1.20.2" = _9ZAmcpvc;
         "forge-1.20.3" = _1ihouqt7;
         "forge-1.20.4" = _1ihouqt7;
@@ -227,6 +241,7 @@ let
         "forge-26.1.1" = _pLWMr6Ap;
         "forge-26.1.2" = _pLWMr6Ap;
         "forge-26.2" = _5ITpHgBi;
+        "forge-26.3" = _i5hJJTKo;
         "quilt-1.20.2" = _9ZAmcpvc;
         "quilt-1.20.3" = _1ihouqt7;
         "quilt-1.20.4" = _1ihouqt7;
@@ -248,6 +263,7 @@ let
         "quilt-26.1.1" = _pLWMr6Ap;
         "quilt-26.1.2" = _pLWMr6Ap;
         "quilt-26.2" = _5ITpHgBi;
+        "quilt-26.3" = _i5hJJTKo;
         "neoforge-1.21.2" = _ov11foCa;
         "neoforge-1.21.3" = _ov11foCa;
         "neoforge-1.21.4" = _UM0HczTe;
@@ -262,6 +278,7 @@ let
         "neoforge-26.1.1" = _pLWMr6Ap;
         "neoforge-26.1.2" = _pLWMr6Ap;
         "neoforge-26.2" = _5ITpHgBi;
+        "neoforge-26.3" = _i5hJJTKo;
         "pkg-18.1" = _mawJwI1Y;
         "pkg-18.1+mod" = _9ZAmcpvc;
         "pkg-26.1" = _I6FeNK8T;
@@ -288,7 +305,9 @@ let
         "pkg-101.1+mod" = _pLWMr6Ap;
         "pkg-107.1" = _vV1fpXcv;
         "pkg-107.1+mod" = _5ITpHgBi;
-        "default" = _5ITpHgBi;
+        "pkg-1.1.0" = _rUJniRqA;
+        "pkg-1.1.0+mod" = _i5hJJTKo;
+        "default" = _i5hJJTKo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craftable-tall-grass";

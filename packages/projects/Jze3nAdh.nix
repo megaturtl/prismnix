@@ -21,11 +21,23 @@ let
             "file" = "serverlistfix-mc26.2-1.0.1.jar";
             "hash" = "sha512-SVoINaVVuoFOmsQCLG0ZI7CJF5tU34oC2exsL8kD0lTqh2H3URAxyrSL5p6rI/W+nbKBwKXqv28JyXXkAy0SKw==";
         };
+        _AeLtQZFR = {
+            "id" = "AeLtQZFR";
+            "file" = "serverlistfix-1.0.1.jar";
+            "hash" = "sha512-SVoINaVVuoFOmsQCLG0ZI7CJF5tU34oC2exsL8kD0lTqh2H3URAxyrSL5p6rI/W+nbKBwKXqv28JyXXkAy0SKw==";
+        };
+        _o4JhJHSO = {
+            "id" = "o4JhJHSO";
+            "file" = "serverlistfix-1.0.2.jar";
+            "hash" = "sha512-vqs1X7a0ylK4WmvfEP9bJHzIPTfm5K+rwe1IwZZ37NbunRG9ZcOmFvWbsKaua6icdOs6Xt+r00ic4te2E8/lcQ==";
+        };
     in {
         "THvtvOpw" = _THvtvOpw;
         "nJCQhxsr" = _nJCQhxsr;
         "LEIEbxWe" = _LEIEbxWe;
         "quAOYAPW" = _quAOYAPW;
+        "AeLtQZFR" = _AeLtQZFR;
+        "o4JhJHSO" = _o4JhJHSO;
         "fabric-1.16" = _LEIEbxWe;
         "fabric-1.16.1" = _LEIEbxWe;
         "fabric-1.16.2" = _LEIEbxWe;
@@ -64,10 +76,12 @@ let
         "fabric-26.1" = _LEIEbxWe;
         "fabric-26.1.1" = _LEIEbxWe;
         "fabric-26.1.2" = _LEIEbxWe;
-        "fabric-26.2" = _quAOYAPW;
+        "fabric-26.2" = _AeLtQZFR;
+        "fabric-26.3" = _o4JhJHSO;
         "pkg-1.0.0" = _LEIEbxWe;
-        "pkg-1.0.1" = _quAOYAPW;
-        "default" = _quAOYAPW;
+        "pkg-1.0.1" = _AeLtQZFR;
+        "pkg-1.0.2" = _o4JhJHSO;
+        "default" = _o4JhJHSO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "serverlist-fix";

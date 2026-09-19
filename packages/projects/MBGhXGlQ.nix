@@ -51,6 +51,11 @@ let
             "file" = "corewithstuff-v1.6.jar";
             "hash" = "sha512-F3/TKiqXvfhzaf1VlPl9JtNaHmPrQoaSTCNRgkMfUELL3LysVyceBMafl6jyBGVoOrLfUHpVP1lkHNXc6p29hQ==";
         };
+        _RHv1uy6j = {
+            "id" = "RHv1uy6j";
+            "file" = "corewithstuff-v1.6.jar";
+            "hash" = "sha512-MIIlg5cYmA5ETOU/1VqiY5ezZ49E9Z8nXpn8rOctbtQQOEj00yM5d5ouy3AhvcsaqK/Rpw7Ts6MZp+dDwI8HFA==";
+        };
     in {
         "538OM1Mv" = _538OM1Mv;
         "fRAEpZcJ" = _fRAEpZcJ;
@@ -62,7 +67,8 @@ let
         "lanIyuSU" = _lanIyuSU;
         "uF3CvFUL" = _uF3CvFUL;
         "p6FW4BrM" = _p6FW4BrM;
-        "forge-1.20.1" = _p6FW4BrM;
+        "RHv1uy6j" = _RHv1uy6j;
+        "forge-1.20.1" = _RHv1uy6j;
         "pkg-1.0.0" = _538OM1Mv;
         "pkg-1.1" = _fRAEpZcJ;
         "pkg-1.1.1" = _RbB4HAQV;
@@ -71,7 +77,8 @@ let
         "pkg-Final" = _lanIyuSU;
         "pkg-1.20.1-Final" = _uF3CvFUL;
         "pkg-1.6" = _p6FW4BrM;
-        "default" = _p6FW4BrM;
+        "pkg-1.6-Fix" = _RHv1uy6j;
+        "default" = _RHv1uy6j;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "corewithstuff";

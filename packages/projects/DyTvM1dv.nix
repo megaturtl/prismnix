@@ -706,6 +706,16 @@ let
             "file" = "AmbientEnvironment-fabric-26.2-26.2.1.jar";
             "hash" = "sha512-9aLgq5NLpt27N+u20B2Y6V4TYeW4OF8tRYrlzpZXbFK0qzRCr3LMjDhP4dAxZYckSA3EMyPhbRSx+NnUFzEeDg==";
         };
+        _8nLEdSG0 = {
+            "id" = "8nLEdSG0";
+            "file" = "AmbientEnvironment-fabric-26.3-26.3.2.jar";
+            "hash" = "sha512-1FepeI/KbYIvrG2uZ3pgtTjcHaESN9dzvrHK4qPFl0T6pnk8grh6ayeIBr5zuMI0XgYL8qgJmFtcF4sqZ+Hiog==";
+        };
+        _Rp6XISGb = {
+            "id" = "Rp6XISGb";
+            "file" = "AmbientEnvironment-neoforge-26.3-26.3.2.jar";
+            "hash" = "sha512-OAYuOCRypccymBX0Py0FPuD3kkxEcv5med9tuGOMsi71QVMBL+j5oeGlSYHLl3Oj/tJEtHVS4ayS27e1PwmwOg==";
+        };
     in {
         "FTTAFPgP" = _FTTAFPgP;
         "J0BiNnwx" = _J0BiNnwx;
@@ -848,6 +858,8 @@ let
         "WS1DDh2L" = _WS1DDh2L;
         "ESjuPEUl" = _ESjuPEUl;
         "1rqCUXVZ" = _1rqCUXVZ;
+        "8nLEdSG0" = _8nLEdSG0;
+        "Rp6XISGb" = _Rp6XISGb;
         "forge-1.12.2" = _Zm6W1zjA;
         "forge-1.12" = _J0BiNnwx;
         "forge-1.12.1" = _J0BiNnwx;
@@ -906,6 +918,7 @@ let
         "fabric-26.1.1" = _hWK5Q5Td;
         "fabric-26.1.2" = _ZhJAYDw4;
         "fabric-26.2" = _1rqCUXVZ;
+        "fabric-26.3" = _8nLEdSG0;
         "neoforge-1.20.2" = _f4NyX410;
         "neoforge-1.20.3" = _1KLiDO80;
         "neoforge-1.20.4" = _iPnqn0DQ;
@@ -927,6 +940,7 @@ let
         "neoforge-26.1.1" = _Yu2jjEsJ;
         "neoforge-26.1.2" = _WS1DDh2L;
         "neoforge-26.2" = _ESjuPEUl;
+        "neoforge-26.3" = _Rp6XISGb;
         "pkg-0" = _FTTAFPgP;
         "pkg-1" = _J0BiNnwx;
         "pkg-2.0.0" = _3eXL9KUL;
@@ -1006,7 +1020,8 @@ let
         "pkg-26.1.1.1" = _hWK5Q5Td;
         "pkg-26.1.2.1" = _WS1DDh2L;
         "pkg-26.2.1" = _1rqCUXVZ;
-        "default" = _1rqCUXVZ;
+        "pkg-26.3.2" = _Rp6XISGb;
+        "default" = _Rp6XISGb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ambient-environment";

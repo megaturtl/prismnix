@@ -66,6 +66,11 @@ let
             "file" = "flowstone-6.7+26.1.jar";
             "hash" = "sha512-w9gazN3Tp2uDj+B/x6RMahQUomq7ATTWepXKyu17bIq1Fz99kJNRxHN87z3R0IpC5qAnrOHRe5uWmq1qZoZ+qg==";
         };
+        _ykPthAt9 = {
+            "id" = "ykPthAt9";
+            "file" = "flowstone-6.7+26.2.jar";
+            "hash" = "sha512-PK9451TgbHtORgJNVKONh5r5QH80BLQ2czQ+WBCqxJx/ovbTzJgBZbLCubklb5jvden9921yOAmNvBh3l2rslQ==";
+        };
     in {
         "YYKUS9jB" = _YYKUS9jB;
         "FzkU0gRp" = _FzkU0gRp;
@@ -80,6 +85,7 @@ let
         "Ew2OcLO7" = _Ew2OcLO7;
         "67agj7mJ" = _67agj7mJ;
         "1TZxH6DF" = _1TZxH6DF;
+        "ykPthAt9" = _ykPthAt9;
         "fabric-1.17" = _YYKUS9jB;
         "fabric-1.18.2" = _FzkU0gRp;
         "fabric-1.19" = _zGes4u8N;
@@ -105,6 +111,7 @@ let
         "fabric-26.1" = _1TZxH6DF;
         "fabric-26.1.1" = _1TZxH6DF;
         "fabric-26.1.2" = _1TZxH6DF;
+        "fabric-26.2" = _ykPthAt9;
         "pkg-3.1.0+1.17" = _YYKUS9jB;
         "pkg-4.0.0+1.18" = _FzkU0gRp;
         "pkg-4.0.0+1.19" = _zGes4u8N;
@@ -118,7 +125,8 @@ let
         "pkg-6.5+1.20.2" = _Ew2OcLO7;
         "pkg-6.6+26.1" = _67agj7mJ;
         "pkg-6.7+26.1" = _1TZxH6DF;
-        "default" = _1TZxH6DF;
+        "pkg-6.7+26.2" = _ykPthAt9;
+        "default" = _ykPthAt9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flowstone";

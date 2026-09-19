@@ -141,6 +141,26 @@ let
             "file" = "jurassicreborn-1.4.1.jar";
             "hash" = "sha512-12kSgw7yORFPodBcff6EKddJjg76mxig/mtFAPbecYPvWi9SobA80OFxoF0A53dL15L0TF1XyJs9u5p9at+huA==";
         };
+        _Z41JYdrS = {
+            "id" = "Z41JYdrS";
+            "file" = "jurassicreborn-1.4.1.jar";
+            "hash" = "sha512-/fFlwYckVpwe5nC0RBVH8nGfsQjCHSQo37qm9xa/jS3dVrlPbKAXeUyBNW7DPWFQShb8isXlKV91RFxy/zXYAg==";
+        };
+        _iaDTgwFE = {
+            "id" = "iaDTgwFE";
+            "file" = "jurassicreborn-1.4.11.jar";
+            "hash" = "sha512-efPywr1JvAiybb50SaVBtJFWhF+5Yn/rxPtSKTuQN75ynPDSncylbYe3j4EBnMNpQuSv8XyeIzftioXXjDVvIA==";
+        };
+        _nDHOaIRe = {
+            "id" = "nDHOaIRe";
+            "file" = "jurassicreborn-1.4.2.jar";
+            "hash" = "sha512-6IvpUu4sB15NODKC7WWoC0MGoU93977D48fjoI8arMIZjn6GcOU9BEWjWDBEGL6PXpfLxu0nJjeWVUSRn8Rulg==";
+        };
+        _C7jKLSZ8 = {
+            "id" = "C7jKLSZ8";
+            "file" = "jurassicreborn-1.4.2.jar";
+            "hash" = "sha512-H9+G4h6NhVlpsDImFkWFowW6KhGFlTVLoorBJW6y1aM1Cjn98L3fPEXaTv6E/Spo3dHGhfr6v5q0GWTdVfygJg==";
+        };
     in {
         "58AYuMqT" = _58AYuMqT;
         "cNEWykfd" = _cNEWykfd;
@@ -170,13 +190,17 @@ let
         "pxPHx7n8" = _pxPHx7n8;
         "7H6m8nLT" = _7H6m8nLT;
         "lOtOmClo" = _lOtOmClo;
+        "Z41JYdrS" = _Z41JYdrS;
+        "iaDTgwFE" = _iaDTgwFE;
+        "nDHOaIRe" = _nDHOaIRe;
+        "C7jKLSZ8" = _C7jKLSZ8;
         "forge-1.12.2" = _5d46GHGq;
         "forge-1.19.2" = _J7Xt9XHU;
-        "forge-1.20.1" = _lOtOmClo;
+        "forge-1.20.1" = _C7jKLSZ8;
         "forge-1.18.2" = _pxPHx7n8;
         "forge-1.19.3" = _91TYhyEe;
         "forge-1.19.4" = _3Esckxyl;
-        "neoforge-1.21.1" = _H5N3HIGx;
+        "neoforge-1.21.1" = _nDHOaIRe;
         "pkg-1.3.36" = _58AYuMqT;
         "pkg-1.3.4" = _5d46GHGq;
         "pkg-1.3.41" = _dibywwPo;
@@ -189,8 +213,10 @@ let
         "pkg-1.3.43" = _z1R2vjRX;
         "pkg-1.3.44" = _pxPHx7n8;
         "pkg-1.4.0" = _7H6m8nLT;
-        "pkg-1.4.1" = _lOtOmClo;
-        "default" = _lOtOmClo;
+        "pkg-1.4.1" = _Z41JYdrS;
+        "pkg-1.4.11" = _iaDTgwFE;
+        "pkg-1.4.2" = _C7jKLSZ8;
+        "default" = _C7jKLSZ8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jurassic-reborn";

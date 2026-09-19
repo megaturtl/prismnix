@@ -661,6 +661,11 @@ let
             "file" = "ViaFabricPlus-5.0.0.jar";
             "hash" = "sha512-TtMTioDfww2s0qhn4sfp6neHl6K2acdvF/u6dwe846wHxmrhhuMeVHazCxU65zAKym7ExHFlWgGyCVEdMtaXpQ==";
         };
+        _JmKdWiby = {
+            "id" = "JmKdWiby";
+            "file" = "ViaFabricPlus-5.0.1.jar";
+            "hash" = "sha512-ccoIE1YY28Xu1SzNyHcaSoh1CiIfrE8VR2ZlTytAuykD73DCTIQij0ZcwRLhGuPf6lHmmD/d7qGRdwpYNtxofA==";
+        };
     in {
         "MKJPUIEI" = _MKJPUIEI;
         "JSNzH84y" = _JSNzH84y;
@@ -794,6 +799,7 @@ let
         "Ui8KqDOP" = _Ui8KqDOP;
         "e9PAsLco" = _e9PAsLco;
         "oDGOi9CW" = _oDGOi9CW;
+        "JmKdWiby" = _JmKdWiby;
         "fabric-1.19.3" = _I3oAYlWs;
         "fabric-1.19.4" = _G4LyPV8n;
         "fabric-1.20" = _cIGEbJ9b;
@@ -818,7 +824,7 @@ let
         "fabric-26.1" = _G5gLDVZ9;
         "fabric-26.1.1" = _G5gLDVZ9;
         "fabric-26.1.2" = _G5gLDVZ9;
-        "fabric-26.2" = _oDGOi9CW;
+        "fabric-26.2" = _JmKdWiby;
         "quilt-1.19.3" = _I3oAYlWs;
         "quilt-1.19.4" = _G4LyPV8n;
         "quilt-1.20" = _cIGEbJ9b;
@@ -955,7 +961,8 @@ let
         "pkg-4.6.2" = _Ui8KqDOP;
         "pkg-4.6.3" = _e9PAsLco;
         "pkg-5.0.0" = _oDGOi9CW;
-        "default" = _oDGOi9CW;
+        "pkg-5.0.1" = _JmKdWiby;
+        "default" = _JmKdWiby;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "viafabricplus";

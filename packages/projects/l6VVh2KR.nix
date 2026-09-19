@@ -156,6 +156,16 @@ let
             "file" = "better-hanging-signs-6.3.jar";
             "hash" = "sha512-Bjwt8aR5ej75SwYOdb6//3ksOUkn/5eFX1Q+6jUtQ+vDSKU5R1XAVGL35ip4FR3ybpyf0qWrW3QTi/nqurISnw==";
         };
+        _kkS2y8dJ = {
+            "id" = "kkS2y8dJ";
+            "file" = "hsings-v6.4.zip";
+            "hash" = "sha512-FUXlQBUwD5oC/G3ZhU94RA6kzC4DLNgp6lcoCBLV1sSULk3fVsNWlXueQPW2nY7Bh/96arNEbMQW0r8beb2yEw==";
+        };
+        _AvFCRiiM = {
+            "id" = "AvFCRiiM";
+            "file" = "better-hanging-signs-6.4.jar";
+            "hash" = "sha512-uWNCxBhhoe6SLOavKvRERWwKDG/zywGxt01yraQQP3TwFn3dBvVxvOCxVHDA/kycJGpiaeey+FbZl9waMRtG0A==";
+        };
     in {
         "S7GlrQuw" = _S7GlrQuw;
         "8rHsjhPa" = _8rHsjhPa;
@@ -188,6 +198,8 @@ let
         "MIsmGZHE" = _MIsmGZHE;
         "scNDVcls" = _scNDVcls;
         "6kHXhJUI" = _6kHXhJUI;
+        "kkS2y8dJ" = _kkS2y8dJ;
+        "AvFCRiiM" = _AvFCRiiM;
         "datapack-1.20" = _2DpgSVGo;
         "datapack-1.20.1" = _2DpgSVGo;
         "datapack-1.19.4" = _o7WnNYQv;
@@ -209,6 +221,7 @@ let
         "datapack-26.1.1" = _scNDVcls;
         "datapack-26.1.2" = _scNDVcls;
         "datapack-26.2" = _scNDVcls;
+        "datapack-26.3" = _kkS2y8dJ;
         "fabric-1.20" = _39ImNCeQ;
         "fabric-1.20.1" = _39ImNCeQ;
         "fabric-1.20.2" = _39ImNCeQ;
@@ -229,6 +242,7 @@ let
         "fabric-26.1.1" = _6kHXhJUI;
         "fabric-26.1.2" = _6kHXhJUI;
         "fabric-26.2" = _6kHXhJUI;
+        "fabric-26.3" = _AvFCRiiM;
         "forge-1.20" = _39ImNCeQ;
         "forge-1.20.1" = _39ImNCeQ;
         "forge-1.20.2" = _39ImNCeQ;
@@ -249,6 +263,7 @@ let
         "forge-26.1.1" = _6kHXhJUI;
         "forge-26.1.2" = _6kHXhJUI;
         "forge-26.2" = _6kHXhJUI;
+        "forge-26.3" = _AvFCRiiM;
         "quilt-1.20" = _39ImNCeQ;
         "quilt-1.20.1" = _39ImNCeQ;
         "quilt-1.20.2" = _39ImNCeQ;
@@ -269,6 +284,7 @@ let
         "quilt-26.1.1" = _6kHXhJUI;
         "quilt-26.1.2" = _6kHXhJUI;
         "quilt-26.2" = _6kHXhJUI;
+        "quilt-26.3" = _AvFCRiiM;
         "neoforge-1.21.3" = _Ph4Mz7c8;
         "neoforge-1.21.4" = _Ph4Mz7c8;
         "neoforge-1.21.5" = _Ph4Mz7c8;
@@ -281,6 +297,7 @@ let
         "neoforge-26.1.1" = _6kHXhJUI;
         "neoforge-26.1.2" = _6kHXhJUI;
         "neoforge-26.2" = _6kHXhJUI;
+        "neoforge-26.3" = _AvFCRiiM;
         "pkg-0.8" = _S7GlrQuw;
         "pkg-1.2" = _8rHsjhPa;
         "pkg-1.5" = _R58dmAOx;
@@ -311,7 +328,9 @@ let
         "pkg-6.2+mod" = _MIsmGZHE;
         "pkg-6.3" = _scNDVcls;
         "pkg-6.3+mod" = _6kHXhJUI;
-        "default" = _6kHXhJUI;
+        "pkg-6.4" = _kkS2y8dJ;
+        "pkg-6.4+mod" = _AvFCRiiM;
+        "default" = _AvFCRiiM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-hanging-signs";

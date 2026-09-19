@@ -281,6 +281,16 @@ let
             "file" = "regs-more-foods-1.5.1+26.2+mod.jar";
             "hash" = "sha512-tq5vDNqidUIo96yOEsR89Su0oJkx+tLVDFgPCYcKkPjprGL1yLeL0/cx7lfyfb56frTHEWmas2pZNkrSWuXe6A==";
         };
+        _Ts1r8zla = {
+            "id" = "Ts1r8zla";
+            "file" = "Reg's More Foods Pack v1.5.2+26.3 (UNZIP ME).zip";
+            "hash" = "sha512-I8QgfQelSOpxcNkKSuXfv8Zx0jBWVrMJKFXAnk35r8oba8VYBM3ZB1YGIpwLN33PUyrdZ2l83tjrBeDQ/yFKRA==";
+        };
+        _ebuLruaV = {
+            "id" = "ebuLruaV";
+            "file" = "regs-more-foods-1.5.2+26.3+mod.jar";
+            "hash" = "sha512-WZ4jMZIlDPPgNCOrVocl7qA9q8lLHbcDoWwU9fsdfB5xrChIBDfzvt2/K+AY2yLe7eDg+9/NM1RknS8Erba/ww==";
+        };
     in {
         "UUfCOCwS" = _UUfCOCwS;
         "8mbr3lft" = _8mbr3lft;
@@ -338,6 +348,8 @@ let
         "lSGas04v" = _lSGas04v;
         "yARCH7yx" = _yARCH7yx;
         "q2lxipQn" = _q2lxipQn;
+        "Ts1r8zla" = _Ts1r8zla;
+        "ebuLruaV" = _ebuLruaV;
         "datapack-1.20.5-pre1" = _UUfCOCwS;
         "datapack-1.20.5-pre2" = _8mbr3lft;
         "datapack-1.20.5-pre3" = _Wt7VrG66;
@@ -363,6 +375,7 @@ let
         "datapack-26.1.1" = _Wnvy0q1V;
         "datapack-26.1.2" = _Wnvy0q1V;
         "datapack-26.2" = _lSGas04v;
+        "datapack-26.3" = _Ts1r8zla;
         "fabric-24w13a" = _N2iKDBoJ;
         "fabric-1.20.5" = _1iAu8DKe;
         "fabric-1.20.6-rc1" = _1iAu8DKe;
@@ -383,6 +396,7 @@ let
         "fabric-26.1.1" = _yARCH7yx;
         "fabric-26.1.2" = _yARCH7yx;
         "fabric-26.2" = _q2lxipQn;
+        "fabric-26.3" = _ebuLruaV;
         "quilt-1.20.5" = _1iAu8DKe;
         "quilt-1.20.6-rc1" = _1iAu8DKe;
         "quilt-1.20.6" = _1iAu8DKe;
@@ -402,6 +416,7 @@ let
         "quilt-26.1.1" = _yARCH7yx;
         "quilt-26.1.2" = _yARCH7yx;
         "quilt-26.2" = _q2lxipQn;
+        "quilt-26.3" = _ebuLruaV;
         "forge-1.21" = _VwIuEszQ;
         "forge-1.21.1" = _VwIuEszQ;
         "forge-1.21.2" = _wRWcWFVO;
@@ -418,6 +433,7 @@ let
         "forge-26.1.1" = _yARCH7yx;
         "forge-26.1.2" = _yARCH7yx;
         "forge-26.2" = _q2lxipQn;
+        "forge-26.3" = _ebuLruaV;
         "neoforge-1.21" = _VwIuEszQ;
         "neoforge-1.21.1" = _VwIuEszQ;
         "neoforge-1.21.2" = _wRWcWFVO;
@@ -434,6 +450,7 @@ let
         "neoforge-26.1.1" = _yARCH7yx;
         "neoforge-26.1.2" = _yARCH7yx;
         "neoforge-26.2" = _q2lxipQn;
+        "neoforge-26.3" = _ebuLruaV;
         "pkg-1.0.0-alpha" = _UUfCOCwS;
         "pkg-1.0.0-beta" = _8mbr3lft;
         "pkg-1.1.0-beta" = _Wt7VrG66;
@@ -490,7 +507,9 @@ let
         "pkg-1.5.1+26.2" = _lSGas04v;
         "pkg-1.5.1+26.1+mod" = _yARCH7yx;
         "pkg-1.5.1+26.2+mod" = _q2lxipQn;
-        "default" = _q2lxipQn;
+        "pkg-1.5.2+26.3" = _Ts1r8zla;
+        "pkg-1.5.2+26.3+mod" = _ebuLruaV;
+        "default" = _ebuLruaV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reg-more-foods";

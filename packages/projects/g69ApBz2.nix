@@ -216,6 +216,31 @@ let
             "file" = "routers-26.1.2-2.7.4.jar";
             "hash" = "sha512-+rlEu/hJEjX+1fnv+LOqthbn+jNE7UxUNDwLwSYfMMSNC2BMfgP7l7fhH3YY6SHd6kiCn7yilw68vBur1FBjlw==";
         };
+        _BOJqY0n9 = {
+            "id" = "BOJqY0n9";
+            "file" = "routers-1.21.1-1.1.7.jar";
+            "hash" = "sha512-vBKTI42k0jzrG4vwymw6lCh4hNuotsBmBsSADvHu7g3T4gLTylnRRFJs9MpFXio5T829imGpkh5xMmjbsUT6OQ==";
+        };
+        _8gFHfXMe = {
+            "id" = "8gFHfXMe";
+            "file" = "routers-1.21.1-1.1.8.jar";
+            "hash" = "sha512-FfRJ2ExnAcILfWWNj/x8i7lt/xEo/ELbQDSp6U0jYtRWP0sYM+uARZnoe2Sh9BmLheG3qtVewy7RK6ul8ekutQ==";
+        };
+        _z48QCgzx = {
+            "id" = "z48QCgzx";
+            "file" = "routers-1.21.1-1.1.9.jar";
+            "hash" = "sha512-QF//1JwG/3bXoD/UHI9wWGVkMDPoWOs9eEmJYTYfDay5gQy3SXeg9csFEKC56ed/VeMLwe2AZkVuEHrJe/dZBQ==";
+        };
+        _P57vcvrr = {
+            "id" = "P57vcvrr";
+            "file" = "routers-1.21.1-1.1.9.jar";
+            "hash" = "sha512-QF//1JwG/3bXoD/UHI9wWGVkMDPoWOs9eEmJYTYfDay5gQy3SXeg9csFEKC56ed/VeMLwe2AZkVuEHrJe/dZBQ==";
+        };
+        _Jt8wsWq1 = {
+            "id" = "Jt8wsWq1";
+            "file" = "routers-26.1.2-2.7.5.jar";
+            "hash" = "sha512-HMoCHYVqkYeoqYe40kHqflNzRSEdLNtP04YkuK2gsoiBe6XvdKJoY/mgscOYf3gjxWPQY77sfKFU0G/OQDBxww==";
+        };
     in {
         "jyfpJPdI" = _jyfpJPdI;
         "E2PWz4aV" = _E2PWz4aV;
@@ -260,7 +285,12 @@ let
         "5OPO8Knx" = _5OPO8Knx;
         "gke6MWT3" = _gke6MWT3;
         "F5g0BDpz" = _F5g0BDpz;
-        "neoforge-1.21.1" = _tUp9lRxJ;
+        "BOJqY0n9" = _BOJqY0n9;
+        "8gFHfXMe" = _8gFHfXMe;
+        "z48QCgzx" = _z48QCgzx;
+        "P57vcvrr" = _P57vcvrr;
+        "Jt8wsWq1" = _Jt8wsWq1;
+        "neoforge-1.21.1" = _P57vcvrr;
         "neoforge-1.21.2" = _jyfpJPdI;
         "neoforge-1.21.3" = _jyfpJPdI;
         "neoforge-1.21.4" = _jyfpJPdI;
@@ -271,7 +301,7 @@ let
         "neoforge-1.21.11" = _viFzm5Zf;
         "neoforge-26.1" = _2Zt1IPZn;
         "neoforge-26.1.1" = _2Zt1IPZn;
-        "neoforge-26.1.2" = _F5g0BDpz;
+        "neoforge-26.1.2" = _Jt8wsWq1;
         "pkg-1.0.4" = _jyfpJPdI;
         "pkg-1.21.1-1.0.5" = _E2PWz4aV;
         "pkg-1.21.1-1.0.7" = _QaT8ZG3R;
@@ -298,7 +328,7 @@ let
         "pkg-26.1.1-2.2.1" = _Q4D3pInt;
         "pkg-26.1.2-2.3.0" = _3RT3AGyl;
         "pkg-26.1.2-2.3.1" = _u7F62KUo;
-        "pkg-1.21.1-1.1.7" = _ukuqA39b;
+        "pkg-1.21.1-1.1.7" = _BOJqY0n9;
         "pkg-26.1.2-2.4.0" = _h8nOXPsd;
         "pkg-26.1.2-2.4.1" = _Yb7QxORN;
         "pkg-26.1.2-2.5.0" = _hZnJnTkx;
@@ -311,7 +341,10 @@ let
         "pkg-26.1.2-2.7.2" = _5OPO8Knx;
         "pkg-26.1.2-2.7.3" = _gke6MWT3;
         "pkg-26.1.2-2.7.4" = _F5g0BDpz;
-        "default" = _F5g0BDpz;
+        "pkg-1.21.1-1.1.8" = _8gFHfXMe;
+        "pkg-1.21.1-1.1.9" = _P57vcvrr;
+        "pkg-26.1.2-2.7.5" = _Jt8wsWq1;
+        "default" = _Jt8wsWq1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bbl-routers";

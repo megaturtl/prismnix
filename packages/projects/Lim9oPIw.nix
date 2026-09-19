@@ -116,6 +116,31 @@ let
             "file" = "USMPDS 1.3.2 26.3-pre.2.jar";
             "hash" = "sha512-MxXuWyzWFaoUC9cKDfv6cHZANg6ke2Y7NiyEGXF86LmcxQ4+sIfOVVS9y+Xwaju7vDn/eMBqZZpVUv6KCc6g5A==";
         };
+        _CzTAwAA2 = {
+            "id" = "CzTAwAA2";
+            "file" = "USMPDS 1.3.2 26.3-pre.3.jar";
+            "hash" = "sha512-wCk0YyryTlnz3S7P+/6QcckSW5NZtIXF1Z6GAkqkXMRKfvB+OwBRNdreePgRPx78hBOVv7Zw98X7U48PvqI9yA==";
+        };
+        _RZQVzJNA = {
+            "id" = "RZQVzJNA";
+            "file" = "USMPDS 1.3.2 26.3-rc-1.jar";
+            "hash" = "sha512-vvVrKq9kaUfTNv200FI3hcIDshaGd92sc5zKa3Jja9GqBQ1H0ZZ5Ek+inODaLQH9xeofAVOV+refaXnEy6r3zQ==";
+        };
+        _VBpwTb4f = {
+            "id" = "VBpwTb4f";
+            "file" = "USMPDS 1.3.2 26.3-rc-2.jar";
+            "hash" = "sha512-rlrl+v9GfEmvvKEj9GlwEBqSFKahoyDAxVq4YdfOCtb0mda3X9C6YjGvIVzcixn1sMSSz35GrGJElrHwoN4q3A==";
+        };
+        _7uwplfps = {
+            "id" = "7uwplfps";
+            "file" = "USMPDS 1.3.2 26.3-rc-3.jar";
+            "hash" = "sha512-S6/+ZRZl/Cg1B91nY1ktusWTrn9UNowHFC0b/9hhPBbOel0wIV4Iik61ydHpEMgJuIDvuDy6sx/qNQEh+G2cfg==";
+        };
+        _T2aSTki8 = {
+            "id" = "T2aSTki8";
+            "file" = "USMPDS 1.3.2 26.3.jar";
+            "hash" = "sha512-coC62y3d1fTPm27sEyqfD0oqkg1g9t7+CJ8UXq3UKvpbkSSwIpJuI4C2SonJzQWVhoRRnzZW6gNwFvmCB95zxA==";
+        };
     in {
         "gNQwyEfj" = _gNQwyEfj;
         "bC7khzCK" = _bC7khzCK;
@@ -140,6 +165,11 @@ let
         "8nNcxsjS" = _8nNcxsjS;
         "u4hLnVoC" = _u4hLnVoC;
         "GtyN2Byd" = _GtyN2Byd;
+        "CzTAwAA2" = _CzTAwAA2;
+        "RZQVzJNA" = _RZQVzJNA;
+        "VBpwTb4f" = _VBpwTb4f;
+        "7uwplfps" = _7uwplfps;
+        "T2aSTki8" = _T2aSTki8;
         "fabric-1.21.11" = _bC7khzCK;
         "fabric-1.21.10" = _HLahsDir;
         "fabric-1.21.9" = _FC4UKNNN;
@@ -163,6 +193,11 @@ let
         "fabric-26.3-snapshot-10" = _8nNcxsjS;
         "fabric-26.3-pre-1" = _u4hLnVoC;
         "fabric-26.3-pre-2" = _GtyN2Byd;
+        "fabric-26.3-pre-3" = _CzTAwAA2;
+        "fabric-26.3-rc-1" = _RZQVzJNA;
+        "fabric-26.3-rc-2" = _VBpwTb4f;
+        "fabric-26.3-rc-3" = _7uwplfps;
+        "fabric-26.3" = _T2aSTki8;
         "pkg-1.0.0" = _gNQwyEfj;
         "pkg-1.2.0" = _bC7khzCK;
         "pkg-1.21.10-1.3.0" = _HLahsDir;
@@ -185,7 +220,12 @@ let
         "pkg-1.3.2+26.3-s-10" = _8nNcxsjS;
         "pkg-1.3.2+26.3-pre-1" = _u4hLnVoC;
         "pkg-USMPDS-26.3-pre-2" = _GtyN2Byd;
-        "default" = _GtyN2Byd;
+        "pkg-USMPDS-1.3.2+26.3-pre.3" = _CzTAwAA2;
+        "pkg-USMPDS-1.3.2+26.3-rc-1" = _RZQVzJNA;
+        "pkg-USMPDS-1.3.2+26.3-rc-2" = _VBpwTb4f;
+        "pkg-USMPDS-1.3.2+26.3-rc-3" = _7uwplfps;
+        "pkg-USMPDS-1.3.2+26.3" = _T2aSTki8;
+        "default" = _T2aSTki8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "unstable-smp-death-sounds-by-bl";

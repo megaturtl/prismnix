@@ -361,6 +361,26 @@ let
             "file" = "fishonmcextras-0.3.10+26.1.jar";
             "hash" = "sha512-bATS80L272g0eHHRxo1qYdtdQ6zObTJXxlgkw5l5xL8qluyEkppG+rDKR2e4syiDWCG5dj0+T/9PLdKgY/qTWw==";
         };
+        _tytxBu0R = {
+            "id" = "tytxBu0R";
+            "file" = "fishonmcextras-0.3.11+1.21.11.jar";
+            "hash" = "sha512-F7bOYZ9/hWvGioGoahRLLR7MO7mAT1XmibWanZ1bV+ICoTGmFnKetHdl6R0w2Efo7bswkImnIr88sWsP2xvMwQ==";
+        };
+        _AAC7Ts0Z = {
+            "id" = "AAC7Ts0Z";
+            "file" = "fishonmcextras-0.3.11+26.1.jar";
+            "hash" = "sha512-iZl3Cbg100c9XU3VnLT91cJ2aQC5pFCF/1hXSamwbdZYtsDdfmXEk4xW9+WBB2Jbvj7pHtTEEVnzZQ7jGFJFjw==";
+        };
+        _ag2Sg9uC = {
+            "id" = "ag2Sg9uC";
+            "file" = "fishonmcextras-0.3.12+1.21.11.jar";
+            "hash" = "sha512-L5K/uoo4OdJcpRLNnbIqSEDDxLhgF/0UlJyO5RBVwGY4A0I0gnrXjfA1da/Nydgd/hhDoLiSmDTzCZ2ptOJNJw==";
+        };
+        _erN6ixWK = {
+            "id" = "erN6ixWK";
+            "file" = "fishonmcextras-0.3.12+26.1.jar";
+            "hash" = "sha512-3FLyeEQyf6w2K7OzCx9CY+KUUmzzAY9iL409ri02qel/JmgB4q3LOPVPnFixBclKf4Qsyeoj3t0kP/oSgS9+Sw==";
+        };
     in {
         "YqsdpVQI" = _YqsdpVQI;
         "U78LUUdr" = _U78LUUdr;
@@ -434,12 +454,16 @@ let
         "U7k62UHB" = _U7k62UHB;
         "Put2LOAb" = _Put2LOAb;
         "VdrDTtEE" = _VdrDTtEE;
+        "tytxBu0R" = _tytxBu0R;
+        "AAC7Ts0Z" = _AAC7Ts0Z;
+        "ag2Sg9uC" = _ag2Sg9uC;
+        "erN6ixWK" = _erN6ixWK;
         "fabric-1.21.4" = _oxEiWHcr;
         "fabric-1.21.5" = _fQD3OkQb;
-        "fabric-1.21.11" = _Put2LOAb;
-        "fabric-26.1" = _VdrDTtEE;
-        "fabric-26.1.1" = _VdrDTtEE;
-        "fabric-26.1.2" = _VdrDTtEE;
+        "fabric-1.21.11" = _ag2Sg9uC;
+        "fabric-26.1" = _erN6ixWK;
+        "fabric-26.1.1" = _erN6ixWK;
+        "fabric-26.1.2" = _erN6ixWK;
         "pkg-0.0.14+1.21.4" = _YqsdpVQI;
         "pkg-0.0.15+1.21.4" = _U78LUUdr;
         "pkg-0.0.16+1.21.4" = _PqAXGGS8;
@@ -512,7 +536,11 @@ let
         "pkg-0.3.9+26.1" = _U7k62UHB;
         "pkg-0.3.10+1.21.11" = _Put2LOAb;
         "pkg-0.3.10+26.1" = _VdrDTtEE;
-        "default" = _VdrDTtEE;
+        "pkg-0.3.11+1.21.11" = _tytxBu0R;
+        "pkg-0.3.11+26.1" = _AAC7Ts0Z;
+        "pkg-0.3.12+1.21.11" = _ag2Sg9uC;
+        "pkg-0.3.12+26.1" = _erN6ixWK;
+        "default" = _erN6ixWK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fishonmc-extras-r";

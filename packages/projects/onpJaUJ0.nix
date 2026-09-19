@@ -251,6 +251,11 @@ let
             "file" = "gtnn-1.20.1-1.3.9.jar";
             "hash" = "sha512-P37qrD5O2ef2IqgXMZUDjFLC2o45gYtgz6tJA9DpW1rowfxgL13svg4kPzjh/8HcfnSgd+CxTclrfeNoARBarw==";
         };
+        _DypJcHuM = {
+            "id" = "DypJcHuM";
+            "file" = "gtnn-1.20.1-1.3.10.jar";
+            "hash" = "sha512-tmN1L2SquyPRm6Hglp36mzX7Fcm085vvJRCCSH3ik6yTV620TgCOY2127Sg9jVzNaZCaYM5QnJvjHVuGdid8Gw==";
+        };
     in {
         "qTMZWRKa" = _qTMZWRKa;
         "Meu2KwAa" = _Meu2KwAa;
@@ -302,7 +307,8 @@ let
         "OfQAkEP9" = _OfQAkEP9;
         "4mdNtvUW" = _4mdNtvUW;
         "koASPXhF" = _koASPXhF;
-        "forge-1.20.1" = _koASPXhF;
+        "DypJcHuM" = _DypJcHuM;
+        "forge-1.20.1" = _DypJcHuM;
         "forge-1.20.2" = _5JjWpXX3;
         "forge-1.20.3" = _5JjWpXX3;
         "forge-1.20.4" = _5JjWpXX3;
@@ -358,7 +364,8 @@ let
         "pkg-1.3.7" = _OfQAkEP9;
         "pkg-1.3.8" = _4mdNtvUW;
         "pkg-1.3.9" = _koASPXhF;
-        "default" = _koASPXhF;
+        "pkg-1.3.10" = _DypJcHuM;
+        "default" = _DypJcHuM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gtnn";

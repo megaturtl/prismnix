@@ -226,6 +226,16 @@ let
             "file" = "YungsBetterDungeons-26.1.2-NeoForge-6.1.0.jar";
             "hash" = "sha512-RaUdO72IYRrBK/GYrR0nNpmMkSg+nLUJ0dINTqmJRCdAS9sdcoJpgbenPMrotImZblQwj5ZWyMwZW8QEwieCTQ==";
         };
+        _ZAy29qXU = {
+            "id" = "ZAy29qXU";
+            "file" = "YungsBetterDungeons-26.1.2-Fabric-6.1.1.jar";
+            "hash" = "sha512-qaZ3EVC+deMgn9YatGb+KBFf51yP+1VZuxof63EpoCcIvA+2CuQNVn22WpdKQaNhCkN9wR46sFctpVBfGuc+4Q==";
+        };
+        _e1qEvr8D = {
+            "id" = "e1qEvr8D";
+            "file" = "YungsBetterDungeons-26.1.2-NeoForge-6.1.1.jar";
+            "hash" = "sha512-Tnp2rUb4ylQhu4uto5n5XATDMwEtNbBU7I8KBvMOzl4JrFHXbb0pTeF7UCn+OZWp1lfgVcbJ2Edh1Iigd4CbPw==";
+        };
     in {
         "vhbhPrpZ" = _vhbhPrpZ;
         "XOk0yK9M" = _XOk0yK9M;
@@ -272,6 +282,8 @@ let
         "JJRT74Yl" = _JJRT74Yl;
         "uDVYrK8a" = _uDVYrK8a;
         "nYyCiHOI" = _nYyCiHOI;
+        "ZAy29qXU" = _ZAy29qXU;
+        "e1qEvr8D" = _e1qEvr8D;
         "forge-1.19.2" = _vhbhPrpZ;
         "forge-1.19.3" = _xgwwD4nQ;
         "forge-1.19.4" = _JylvzoB0;
@@ -289,14 +301,14 @@ let
         "fabric-1.21.1" = _fQ7EjDPE;
         "fabric-1.21" = _fQ7EjDPE;
         "fabric-1.21.4" = _JJRT74Yl;
-        "fabric-26.1.1" = _uDVYrK8a;
-        "fabric-26.1.2" = _uDVYrK8a;
+        "fabric-26.1.1" = _ZAy29qXU;
+        "fabric-26.1.2" = _ZAy29qXU;
         "neoforge-1.20.4" = _emTrSGfp;
         "neoforge-1.21.1" = _D6aZn0Em;
         "neoforge-1.21" = _D6aZn0Em;
         "neoforge-1.21.4" = _XH5CZtOR;
-        "neoforge-26.1.1" = _nYyCiHOI;
-        "neoforge-26.1.2" = _nYyCiHOI;
+        "neoforge-26.1.1" = _e1qEvr8D;
+        "neoforge-26.1.2" = _e1qEvr8D;
         "pkg-1.19.2-Forge-3.2.2" = _vhbhPrpZ;
         "pkg-1.19.2-Fabric-3.2.1" = _XOk0yK9M;
         "pkg-1.19.3-Forge-3.3.0" = _xgwwD4nQ;
@@ -342,7 +354,9 @@ let
         "pkg-1.21.4-Fabric-5.4.0" = _JJRT74Yl;
         "pkg-26.1.2-Fabric-6.1.0" = _uDVYrK8a;
         "pkg-26.1.2-NeoForge-6.1.0" = _nYyCiHOI;
-        "default" = _nYyCiHOI;
+        "pkg-26.1.2-Fabric-6.1.1" = _ZAy29qXU;
+        "pkg-26.1.2-NeoForge-6.1.1" = _e1qEvr8D;
+        "default" = _e1qEvr8D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yungs-better-dungeons";

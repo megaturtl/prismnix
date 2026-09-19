@@ -251,6 +251,16 @@ let
             "file" = "bonesupdate-neoforge-1.21.11-1.3.0.jar";
             "hash" = "sha512-o1bj7cskpCjfBIA/CkBiIdd6cJYDaT/EIb8iQDPVYlRalZiApVghjXnAH5ACr1OgJtQX5Rycc6XSFHKd3jzkwQ==";
         };
+        _aux0OMLr = {
+            "id" = "aux0OMLr";
+            "file" = "bonesupdate-neoforge-1.21.11-1.3.1.jar";
+            "hash" = "sha512-nSpHoknA1gOEdINDJx2yxPUFt4JsyrqYz5LPxFW1VxHZX02GYIfFzChu21vyJTgMZ4tFa+v9FSfOD5gz0Qt5uw==";
+        };
+        _XeiaUn4x = {
+            "id" = "XeiaUn4x";
+            "file" = "bonesupdate-forge-1.21.11-1.3.1.jar";
+            "hash" = "sha512-f3DZjaXuFw1qvKSli0gkKsyOvpcq5siVv/Z1DWVuTf49c9K/+vnu197GcwnrGI+Bb2lreBIE/rrW3AV33S+ApQ==";
+        };
     in {
         "GBFL1Xiu" = _GBFL1Xiu;
         "bbkLlDaG" = _bbkLlDaG;
@@ -302,6 +312,8 @@ let
         "tYBAybxE" = _tYBAybxE;
         "PxRo0SUp" = _PxRo0SUp;
         "jiIezX6L" = _jiIezX6L;
+        "aux0OMLr" = _aux0OMLr;
+        "XeiaUn4x" = _XeiaUn4x;
         "forge-1.19.4" = _6jIYIEEN;
         "forge-1.20.1" = _JwugI59w;
         "forge-1.20.3" = _BsXqdgUE;
@@ -317,6 +329,7 @@ let
         "forge-1.21.8" = _s08GP3S8;
         "forge-1.21.9" = _tYBAybxE;
         "forge-1.21.10" = _PxRo0SUp;
+        "forge-1.21.11" = _XeiaUn4x;
         "neoforge-1.20.6" = _dfAX04wM;
         "neoforge-1.21" = _HPgz3Gac;
         "neoforge-1.21.1" = _oUZOzRzW;
@@ -328,7 +341,7 @@ let
         "neoforge-1.21.8" = _r9BCetIh;
         "neoforge-1.21.9" = _rZLXc2yd;
         "neoforge-1.21.10" = _Y8l5MCyK;
-        "neoforge-1.21.11" = _jiIezX6L;
+        "neoforge-1.21.11" = _aux0OMLr;
         "pkg-1.0.0-F1.19.4" = _GBFL1Xiu;
         "pkg-1.1.0-F1.19.4" = _bbkLlDaG;
         "pkg-1.2.0-F1.19.4" = _6jIYIEEN;
@@ -379,7 +392,9 @@ let
         "pkg-1.2.5-F1.21.9" = _tYBAybxE;
         "pkg-1.2.5-F1.21.10" = _PxRo0SUp;
         "pkg-1.3.0-NF1.21.11" = _jiIezX6L;
-        "default" = _jiIezX6L;
+        "pkg-1.3.1-NF1.21.11" = _aux0OMLr;
+        "pkg-1.3.1-F1.21.11" = _XeiaUn4x;
+        "default" = _XeiaUn4x;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bones-update";

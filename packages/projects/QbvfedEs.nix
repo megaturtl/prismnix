@@ -81,6 +81,86 @@ let
             "file" = "litematica-companion-1.0.0.jar";
             "hash" = "sha512-MyfjQHIRrGuJK7edYt1df/1GBlfbQFnb7r31tuyk+I75rwKHBlU6qAJ8u6gZyOm/1te6J+jPGhVIPbyL69DB8A==";
         };
+        _fWjWDvct = {
+            "id" = "fWjWDvct";
+            "file" = "litematica-companion-2.0.0.jar";
+            "hash" = "sha512-rGaecdJbWcptQ26KiqZWYMyoNPaVmx4vZhuE/FWrgF0xlj8yCgDT0tpm1d6kFCETgSXgMN1wLKYbA/hwRIa4aw==";
+        };
+        _MDEMvjf9 = {
+            "id" = "MDEMvjf9";
+            "file" = "litematica-companion-2.0.0.jar";
+            "hash" = "sha512-xfP1Oly+0xQGXSps6nE9CL5daZ2ExkIZ5jPWj3wb8vlEsXo+LPT5QjlRp7c/mqRNd/cSHlaou2G04a1LxgM3Hg==";
+        };
+        _5p39OGPk = {
+            "id" = "5p39OGPk";
+            "file" = "litematica-companion-2.0.0.jar";
+            "hash" = "sha512-yhjnYm3xecdsyaWFg8B3M9xG4hrOLrCjRoZ49Zm0Hg9UXN0kpDbSfoLEorZh5VgrWoue+PmjX9URA3/x31UA4g==";
+        };
+        _HUSZKMlR = {
+            "id" = "HUSZKMlR";
+            "file" = "litematica-companion-2.0.0.jar";
+            "hash" = "sha512-VINUhpqr47LxBqn0t+n20hVHfWnjOBH/AefqKS/yB4eUBS+8f03IaP6rNdqddy2PFJFsw/Apagd5jA5ACbRuVg==";
+        };
+        _WGLKMnvc = {
+            "id" = "WGLKMnvc";
+            "file" = "litematica-companion-2.0.0.jar";
+            "hash" = "sha512-xEpysCS2xqojW/JGfQXcDW3KUPCxJld5B1HfTYol5d67yJUkibR02oe01K9binP8S2k0IAXlHFGRkgm3uxCUYQ==";
+        };
+        _kQnLCy0i = {
+            "id" = "kQnLCy0i";
+            "file" = "litematica-companion-2.0.0.jar";
+            "hash" = "sha512-/HnrTnziNJmudQRPlaMKz+tndxfepi2ijuCCXY+H0TvXJs8f28CDabD2y0RsXS6e0f+x+V++iL/xt/OUEgCZ4A==";
+        };
+        _i6LHE91S = {
+            "id" = "i6LHE91S";
+            "file" = "litematica-companion-2.0.0.jar";
+            "hash" = "sha512-Ds2Dkn4aFSQ35JH9gdIaZd7mQ4f0mlljVJjT+8kyywkmtWvTvbgRz/kXNTXWWKf9WJiSb8DjUkPSiplqCY3kxA==";
+        };
+        _KO2me996 = {
+            "id" = "KO2me996";
+            "file" = "litematica-companion-2.0.0.jar";
+            "hash" = "sha512-tvRAMHN5+N/zgCw3ETkfJAdRU0e7s3JqFjBn0vlbjCdXQZNHUTt0h9ebK6CPsm1jGPW/PDE17YRzWxnmIOqzWA==";
+        };
+        _HyzrB7eM = {
+            "id" = "HyzrB7eM";
+            "file" = "litematica-companion-2.0.0.jar";
+            "hash" = "sha512-M1bVO3NcEB6i+rLFd7Gkj+/cmWUUNoACKOGUjzVXNz7Be75957gsLSx2fiUTGY+x6t4v/uFr4KpjrTCkolTVJw==";
+        };
+        _poX9H1kZ = {
+            "id" = "poX9H1kZ";
+            "file" = "litematica-companion-2.0.0.jar";
+            "hash" = "sha512-XB/e6GiN2p4kcO0NaP6qX1utdWFE3kx9dOLssK7y8rzwpDDWjPqf5Zf9haCH179+VCWXTcZM4T+AXa2M5rbQEw==";
+        };
+        _G3s09D7G = {
+            "id" = "G3s09D7G";
+            "file" = "litematica-companion-2.0.0.jar";
+            "hash" = "sha512-ZzDts+J2WxMBIrE8+v+z2kosF1Qx1h6B21n6eoGhNflReQGWsn7Umm9F9Qs28AJqJrXavpWs+BAxzkmt2INkXQ==";
+        };
+        _ImkalV9w = {
+            "id" = "ImkalV9w";
+            "file" = "litematica-companion-2.0.0.jar";
+            "hash" = "sha512-qFMSkgaSsWVZY74EmjjSSHcgaSPgHF3gSjDKp+4NO6JtCJY+LhjMbTghxp/mSa0x/ptco1qsG7HgKlMDeGc6oA==";
+        };
+        _qgq9P01b = {
+            "id" = "qgq9P01b";
+            "file" = "litematica-companion-2.0.0.jar";
+            "hash" = "sha512-LJwA8qPj2SRhUyxb+p5EmHkQRALIjEqUGhYsGaKMZRvhRx2n4F6jxbIsoclMDacmkdhyYGyQiafFMBkEp58TMw==";
+        };
+        _ik20cCcr = {
+            "id" = "ik20cCcr";
+            "file" = "litematica-companion-2.0.0.jar";
+            "hash" = "sha512-gFXg1JvX0fRtpfDLVeK+c2r3jHk59mkFSWE+/uWtWOFPjJ99uX/uMxNQcyHmFe6LCDyTAhbJAUABKwLLwN45rw==";
+        };
+        _tL2VAMn7 = {
+            "id" = "tL2VAMn7";
+            "file" = "litematica-companion-2.0.0.jar";
+            "hash" = "sha512-lmT4FCTfVZVqiYxYiDnFL01EfBwiSp4YAC3oMy4sXt+iZ7Z0JCh4d3S7qBZq0GHDU7JyuJIFHqtjp9yv4jciJA==";
+        };
+        _pa8mgENI = {
+            "id" = "pa8mgENI";
+            "file" = "litematica-companion-2.0.0.jar";
+            "hash" = "sha512-WXRC6UV915vp37gloeOQlkEFnY/rDDQJCA9y9Xy4oWFnVYkz0308Xi3ftXGEOSsfz58nMuwyjli6W9vcZckO9w==";
+        };
     in {
         "Izk59CLJ" = _Izk59CLJ;
         "NWfHoiux" = _NWfHoiux;
@@ -98,24 +178,45 @@ let
         "Zwi64dtb" = _Zwi64dtb;
         "tiC2AtDQ" = _tiC2AtDQ;
         "fXSZFXNW" = _fXSZFXNW;
-        "fabric-1.21.11" = _I8yNRVr8;
-        "fabric-1.21.10" = _YW4JuFPn;
-        "fabric-1.21.9" = _EJdPdmW2;
-        "fabric-1.21.8" = _jkS9fDJ0;
-        "fabric-1.21.7" = _5cXCSW2b;
-        "fabric-1.21.6" = _d8DcKSUH;
-        "fabric-1.21.5" = _1jSsl8cw;
-        "fabric-1.21.4" = _8RT0F1Pk;
-        "fabric-1.21.3" = _EmMNsJ1G;
-        "fabric-1.21.2" = _Zwi64dtb;
-        "fabric-1.21.1" = _tiC2AtDQ;
-        "fabric-1.21" = _fXSZFXNW;
+        "fWjWDvct" = _fWjWDvct;
+        "MDEMvjf9" = _MDEMvjf9;
+        "5p39OGPk" = _5p39OGPk;
+        "HUSZKMlR" = _HUSZKMlR;
+        "WGLKMnvc" = _WGLKMnvc;
+        "kQnLCy0i" = _kQnLCy0i;
+        "i6LHE91S" = _i6LHE91S;
+        "KO2me996" = _KO2me996;
+        "HyzrB7eM" = _HyzrB7eM;
+        "poX9H1kZ" = _poX9H1kZ;
+        "G3s09D7G" = _G3s09D7G;
+        "ImkalV9w" = _ImkalV9w;
+        "qgq9P01b" = _qgq9P01b;
+        "ik20cCcr" = _ik20cCcr;
+        "tL2VAMn7" = _tL2VAMn7;
+        "pa8mgENI" = _pa8mgENI;
+        "fabric-1.21.11" = _WGLKMnvc;
+        "fabric-1.21.10" = _kQnLCy0i;
+        "fabric-1.21.9" = _KO2me996;
+        "fabric-1.21.8" = _i6LHE91S;
+        "fabric-1.21.7" = _HyzrB7eM;
+        "fabric-1.21.6" = _poX9H1kZ;
+        "fabric-1.21.5" = _G3s09D7G;
+        "fabric-1.21.4" = _ImkalV9w;
+        "fabric-1.21.3" = _qgq9P01b;
+        "fabric-1.21.2" = _ik20cCcr;
+        "fabric-1.21.1" = _tL2VAMn7;
+        "fabric-1.21" = _pa8mgENI;
+        "fabric-26.2" = _fWjWDvct;
+        "fabric-26.1.2" = _MDEMvjf9;
+        "fabric-26.1.1" = _5p39OGPk;
+        "fabric-26.1" = _HUSZKMlR;
         "pkg-0.1.0" = _Izk59CLJ;
         "pkg-0.2.0" = _NWfHoiux;
         "pkg-0.3.0" = _Ej97M7WK;
         "pkg-0.4.0" = _8AOYtdf2;
         "pkg-1.0.0" = _fXSZFXNW;
-        "default" = _fXSZFXNW;
+        "pkg-2.0.0" = _pa8mgENI;
+        "default" = _pa8mgENI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "litematica-companion";

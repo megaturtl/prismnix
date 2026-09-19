@@ -206,6 +206,16 @@ let
             "file" = "btrbz-0.11.3-alpha+26.2.jar";
             "hash" = "sha512-EqiDaN1WkY/LbQ8aEb0S7u0LtDoRyeaIBvUWgpDGvUZPFGRFO7fZtxjMsCjeTt++BJhtF2BqjdktjcFl+0jcFA==";
         };
+        _1U9AgZ1F = {
+            "id" = "1U9AgZ1F";
+            "file" = "btrbz-0.12.0-alpha+26.2.jar";
+            "hash" = "sha512-sBjjmoMno5uRJ6jJIR7iMU8/uTBBWAK7zM+gj3RAacabEEUlTNQs7G82qo0NurAeKHOIydet2VK6Fmt0k1HYdQ==";
+        };
+        _niSMEKWM = {
+            "id" = "niSMEKWM";
+            "file" = "btrbz-0.12.0-alpha+26.1.x.jar";
+            "hash" = "sha512-QOvk+pioHFOf+T93+F9PplzqVARszEBWspmujCG9jQT39mtKShP8sAT9G079Dpp8cop44IaBDh4pqWrsSNZ7/Q==";
+        };
     in {
         "O4MWHO7U" = _O4MWHO7U;
         "WyCNqTGJ" = _WyCNqTGJ;
@@ -248,14 +258,16 @@ let
         "iaNIBbOK" = _iaNIBbOK;
         "swUXjHa1" = _swUXjHa1;
         "UQ0WFj6z" = _UQ0WFj6z;
+        "1U9AgZ1F" = _1U9AgZ1F;
+        "niSMEKWM" = _niSMEKWM;
         "fabric-1.21.6" = _O4MWHO7U;
         "fabric-1.21.5" = _WyCNqTGJ;
         "fabric-1.21.10" = _TBT5Z8x2;
         "fabric-1.21.11" = _1QlNFbRt;
-        "fabric-26.1" = _swUXjHa1;
-        "fabric-26.1.1" = _swUXjHa1;
-        "fabric-26.1.2" = _swUXjHa1;
-        "fabric-26.2" = _UQ0WFj6z;
+        "fabric-26.1" = _niSMEKWM;
+        "fabric-26.1.1" = _niSMEKWM;
+        "fabric-26.1.2" = _niSMEKWM;
+        "fabric-26.2" = _1U9AgZ1F;
         "pkg-0.0.1-alpha+1.21.6" = _O4MWHO7U;
         "pkg-0.0.1-alpha+1.21.5" = _WyCNqTGJ;
         "pkg-0.1.0-alpha+1.21.10" = _aYPlrExs;
@@ -297,7 +309,9 @@ let
         "pkg-0.11.2-alpha+26.2" = _iaNIBbOK;
         "pkg-0.11.3-alpha+26.1" = _swUXjHa1;
         "pkg-0.11.3-alpha+26.2" = _UQ0WFj6z;
-        "default" = _UQ0WFj6z;
+        "pkg-0.12.0-alpha+26.2" = _1U9AgZ1F;
+        "pkg-0.12.0-alpha+26.1" = _niSMEKWM;
+        "default" = _niSMEKWM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "btrbz";

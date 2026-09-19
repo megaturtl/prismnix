@@ -46,6 +46,16 @@ let
             "file" = "interactivestuff-0.7.0-SNAPSHOT-4-all.jar";
             "hash" = "sha512-o2Du0FqdgoWAItGB4/GaEUAVu85b5GtOhjHGBSQHMLVXZnJVPnjQ9oKw2sSovAJUi0Vqq2aP855jxBxUjIw27g==";
         };
+        _IoidoeMN = {
+            "id" = "IoidoeMN";
+            "file" = "interactivestuff-0.7.0-1.21.10.jar";
+            "hash" = "sha512-+g5BVIM/xWueBmERn7Q0fCbrcZ7PemVPtu1b12nAo79BgUxXNZ23kEViZyQWaz8vNK5XT8Ea8iQZ1NQCnk260A==";
+        };
+        _raOGca21 = {
+            "id" = "raOGca21";
+            "file" = "interactivestuff-0.7.0-26.2.jar";
+            "hash" = "sha512-DX9+jt2orYC8a8lz8TuX/+hwiRHtd/c6/uUg986rv4wHryaks2HD800Yra7AzokuLaT6TX8so/qvvfEUG8Vwlw==";
+        };
     in {
         "yBeKEhhl" = _yBeKEhhl;
         "pdKSGhIh" = _pdKSGhIh;
@@ -56,9 +66,11 @@ let
         "iy3ERpCM" = _iy3ERpCM;
         "22YAx3jx" = _22YAx3jx;
         "njJxVzq4" = _njJxVzq4;
-        "fabric-1.21.10" = _22YAx3jx;
-        "fabric-1.21.11" = _22YAx3jx;
-        "fabric-26.2" = _njJxVzq4;
+        "IoidoeMN" = _IoidoeMN;
+        "raOGca21" = _raOGca21;
+        "fabric-1.21.10" = _IoidoeMN;
+        "fabric-1.21.11" = _IoidoeMN;
+        "fabric-26.2" = _raOGca21;
         "pkg-0.5" = _yBeKEhhl;
         "pkg-0.5.5" = _pdKSGhIh;
         "pkg-0.6" = _obymQyrZ;
@@ -68,7 +80,9 @@ let
         "pkg-0.7.0-SNAPSHOT-2" = _iy3ERpCM;
         "pkg-0.7.0-SNAPSHOT-3" = _22YAx3jx;
         "pkg-0.7.0-SNAPSHOT-4" = _njJxVzq4;
-        "default" = _njJxVzq4;
+        "pkg-0.7.0-1.21.10" = _IoidoeMN;
+        "pkg-0.7.0-26.2" = _raOGca21;
+        "default" = _raOGca21;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "interactivestuff";

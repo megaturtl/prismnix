@@ -726,6 +726,11 @@ let
             "file" = "serverbackpacks-1.6+26.2.jar";
             "hash" = "sha512-mHJMjytQQTqeWxR7KfT2UMQfgoJplJQdeV70/wiq3BogHySG3hWr+7gSluwNiDDkMgbg/1wMnGPo/olXMMbgfQ==";
         };
+        _E4orHiEA = {
+            "id" = "E4orHiEA";
+            "file" = "serverbackpacks-1.6+26.3.jar";
+            "hash" = "sha512-7C1x5PiV16/lTd28TfmTFHLyhW89X/wopvVQiS/U2lWiszl3j/2QIl9MGwwlK6V+t0DT49IlrK1xbybN0cFOfQ==";
+        };
     in {
         "5avAffu9" = _5avAffu9;
         "a06LTTZ3" = _a06LTTZ3;
@@ -872,6 +877,7 @@ let
         "wSVJLSJT" = _wSVJLSJT;
         "5EOwHXxq" = _5EOwHXxq;
         "x2omdvqU" = _x2omdvqU;
+        "E4orHiEA" = _E4orHiEA;
         "fabric-1.21" = _bR4UNS3n;
         "fabric-1.21.1" = _wSVJLSJT;
         "fabric-1.21.2" = _AEzdfOpJ;
@@ -888,6 +894,7 @@ let
         "fabric-26.1.1" = _5EOwHXxq;
         "fabric-26.1.2" = _5EOwHXxq;
         "fabric-26.2" = _x2omdvqU;
+        "fabric-26.3" = _E4orHiEA;
         "pkg-1.0.0" = _a06LTTZ3;
         "pkg-1.0.1" = _e71MQ4Di;
         "pkg-1.0.2" = _wQAivIR4;
@@ -1032,7 +1039,8 @@ let
         "pkg-1.4.2+1.21.1" = _wSVJLSJT;
         "pkg-1.5.9+26.1" = _5EOwHXxq;
         "pkg-1.6+26.2" = _x2omdvqU;
-        "default" = _x2omdvqU;
+        "pkg-1.6+26.3" = _E4orHiEA;
+        "default" = _E4orHiEA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "serverbacksnow";

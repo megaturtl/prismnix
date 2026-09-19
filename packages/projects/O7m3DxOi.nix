@@ -166,6 +166,11 @@ let
             "file" = "magicmoon-fabric-mc26.2-1.1.0.jar";
             "hash" = "sha512-5ozdjkv3UNKFyzx2gFphXzLTZHM/JMmRTssrr8tEIMz4enZRZ8xao9sHAiUaHfom+KMbtcCaBeXxKfYWogtmPg==";
         };
+        _qQEh6VZC = {
+            "id" = "qQEh6VZC";
+            "file" = "magicmoon-fabric-mc26.3-1.1.0.jar";
+            "hash" = "sha512-fjoaJbg5FJQJMzsFIkf0WcwM8uGNMNiVJzwJG3jvlAfS9SV68BvR2QL2eHFH6jwJMpqWDQ+0C+cxh3TUDs8r/w==";
+        };
     in {
         "LeEbcKg2" = _LeEbcKg2;
         "vg8WW7P7" = _vg8WW7P7;
@@ -200,6 +205,7 @@ let
         "cx9Wy1ij" = _cx9Wy1ij;
         "GpF4fLHN" = _GpF4fLHN;
         "FoeFFfYM" = _FoeFFfYM;
+        "qQEh6VZC" = _qQEh6VZC;
         "fabric-1.19.2" = _E95Vr0Qy;
         "fabric-1.20.1" = _ggp2NRIj;
         "fabric-1.20.5" = _idSWydVV;
@@ -210,6 +216,7 @@ let
         "fabric-26.1" = _BH3D16mX;
         "fabric-26.1.1" = _BH3D16mX;
         "fabric-26.2" = _FoeFFfYM;
+        "fabric-26.3" = _qQEh6VZC;
         "pkg-1.0.2" = _AayW2tzE;
         "pkg-1.0.3" = _rH2BwQcY;
         "pkg-1.0.4" = _JA0popf6;
@@ -222,8 +229,8 @@ let
         "pkg-1.0.9+mc1.21.1" = _3NG4JLm4;
         "pkg-1.0.9+mc1.21.11" = _cx9Wy1ij;
         "pkg-1.0.9+mc26.2" = _GpF4fLHN;
-        "pkg-1.1.0" = _FoeFFfYM;
-        "default" = _FoeFFfYM;
+        "pkg-1.1.0" = _qQEh6VZC;
+        "default" = _qQEh6VZC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "magic-moon";

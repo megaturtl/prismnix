@@ -166,6 +166,11 @@ let
             "file" = "quickmath-26.2.0.jar";
             "hash" = "sha512-aD7LlFDnlKR/nASsyHCKaUrjtychC1iTgt14jzzhl86+O5XJSd/IwIrSECFq9kIRgdwJBCM0yUTspCks4DJjgQ==";
         };
+        _Y6pCrt95 = {
+            "id" = "Y6pCrt95";
+            "file" = "quickmath-26.3.0.jar";
+            "hash" = "sha512-iQRbFBOqw641HMSaYlJxRjhVIjQQ1gp94lTMiY5PwXlQJpKbso4L1hnbk3dmTojxXi7mHvO8BSAglOGmVvJy2A==";
+        };
     in {
         "L50opQSM" = _L50opQSM;
         "kfu5ekEY" = _kfu5ekEY;
@@ -200,6 +205,7 @@ let
         "A14tVA3O" = _A14tVA3O;
         "16F1zAdi" = _16F1zAdi;
         "zC1nP2LC" = _zC1nP2LC;
+        "Y6pCrt95" = _Y6pCrt95;
         "fabric-1.16.4" = _L50opQSM;
         "fabric-1.16.5" = _cAdciuqC;
         "fabric-1.17" = _aUiZ4494;
@@ -235,6 +241,7 @@ let
         "fabric-26.1.1" = _16F1zAdi;
         "fabric-26.1.2" = _16F1zAdi;
         "fabric-26.2" = _zC1nP2LC;
+        "fabric-26.3" = _Y6pCrt95;
         "pkg-1.1" = _L50opQSM;
         "pkg-1.1.1" = _kfu5ekEY;
         "pkg-1.2.0" = _cAdciuqC;
@@ -268,7 +275,8 @@ let
         "pkg-1.9.17" = _A14tVA3O;
         "pkg-26.1.0" = _16F1zAdi;
         "pkg-26.2.0" = _zC1nP2LC;
-        "default" = _zC1nP2LC;
+        "pkg-26.3.0" = _Y6pCrt95;
+        "default" = _Y6pCrt95;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "quickmath";

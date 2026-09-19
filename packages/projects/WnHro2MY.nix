@@ -71,6 +71,11 @@ let
             "file" = "biggerhotbar-1.12.jar";
             "hash" = "sha512-TNUkt4nICkRewqIpv9Pw9xR3FKZeFMxXtZubArYpVlYmvA7tX9xiLbdyGzNbo/uWRiJe8Bds6BkN2+je8h0YOA==";
         };
+        _VaVKqpnV = {
+            "id" = "VaVKqpnV";
+            "file" = "biggerhotbar-1.13.jar";
+            "hash" = "sha512-SNukF9B2asDS+wWN9WwHaE977s3W3/J1w3fO5lOcQrdIvAxn51Mh0C2vz2ubWi6pZDaDPqSUYdx4e3vhDdooJA==";
+        };
     in {
         "tI4CFSzY" = _tI4CFSzY;
         "X8xgEMqO" = _X8xgEMqO;
@@ -86,6 +91,7 @@ let
         "XLhrLGTc" = _XLhrLGTc;
         "ygtibfDx" = _ygtibfDx;
         "fDnBnpze" = _fDnBnpze;
+        "VaVKqpnV" = _VaVKqpnV;
         "fabric-1.21.8" = _lWEYXwpN;
         "fabric-1.21.7" = _2kWfH4AC;
         "fabric-1.21.9" = _t9OVqsnK;
@@ -95,6 +101,7 @@ let
         "fabric-26.1.1" = _ygtibfDx;
         "fabric-26.1.2" = _ygtibfDx;
         "fabric-26.2" = _fDnBnpze;
+        "fabric-26.3" = _VaVKqpnV;
         "pkg-1.0" = _tI4CFSzY;
         "pkg-1.1" = _X8xgEMqO;
         "pkg-1.2" = _lM73gNc7;
@@ -108,7 +115,8 @@ let
         "pkg-1.10" = _XLhrLGTc;
         "pkg-1.11" = _ygtibfDx;
         "pkg-1.12" = _fDnBnpze;
-        "default" = _fDnBnpze;
+        "pkg-1.13" = _VaVKqpnV;
+        "default" = _VaVKqpnV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "biggerhotbar";

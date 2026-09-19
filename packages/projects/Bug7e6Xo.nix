@@ -66,6 +66,11 @@ let
             "file" = "Create_Colorful_Pipes_NeoForge-2.4.3+1.21.1.jar";
             "hash" = "sha512-QJONTBtjzw1lM/1Xz5hTS31PSbiR4l12KXv63R0pXiBSBi+NO+JDtJrkFC+TsDZuRcfnqpzIWeDwauSB5JNkSQ==";
         };
+        _UfbDsBTb = {
+            "id" = "UfbDsBTb";
+            "file" = "colorfulpipes-2.4.4.jar";
+            "hash" = "sha512-IarE83DCwy8GGUjAclykapQmtBX9RdMvyi1ZPKGK4dNLsw+REV/TUB2ULkBe4ALiqaIXP/Kb1UwiZgM1b7DF0A==";
+        };
     in {
         "URQy80Hp" = _URQy80Hp;
         "X6Mpwd6R" = _X6Mpwd6R;
@@ -80,8 +85,9 @@ let
         "jVIQ1phF" = _jVIQ1phF;
         "mG7eomfc" = _mG7eomfc;
         "dQ3na0PQ" = _dQ3na0PQ;
+        "UfbDsBTb" = _UfbDsBTb;
         "fabric-1.20.1" = _UYkUJlHT;
-        "neoforge-1.21.1" = _dQ3na0PQ;
+        "neoforge-1.21.1" = _UfbDsBTb;
         "pkg-2.0.1" = _X6Mpwd6R;
         "pkg-2.1.0" = _Q9rIBU0Y;
         "pkg-2.2.0" = _HlE9ZFoH;
@@ -91,7 +97,8 @@ let
         "pkg-2.4.1" = _jVIQ1phF;
         "pkg-2.4.2" = _mG7eomfc;
         "pkg-2.4.3" = _dQ3na0PQ;
-        "default" = _dQ3na0PQ;
+        "pkg-2.4.4" = _UfbDsBTb;
+        "default" = _UfbDsBTb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-colorful-pipes";

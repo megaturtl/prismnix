@@ -631,6 +631,21 @@ let
             "file" = "spectrum-1.12.5-1.21.1-neo.jar";
             "hash" = "sha512-lQUUO6YCJeUTnLT7Iu4dNnsskebJGJTiX7pFp6LrKBNrjz6pV0bJ0HhpG4eKEmK+8Tm6Lb7/LtPHiPa53e2kfQ==";
         };
+        _7Wrr9tm5 = {
+            "id" = "7Wrr9tm5";
+            "file" = "spectrum-1.10.6.jar";
+            "hash" = "sha512-zmiiDKwKsHGqdDBQuOrIyydhcgTCih2W0VQ4wotZkb8s0djvSj3fRFafJt+jRv2ou5zee9qCEshwd8N0Hq8SLA==";
+        };
+        _8LeNdZyX = {
+            "id" = "8LeNdZyX";
+            "file" = "spectrum-1.12.6-1.21.1-neo.jar";
+            "hash" = "sha512-ipp93zb1+k5RFCMtTGKSJz++XHOmWXiUprP1M7Db7qfSobSYq+Y2k8p4lFFqGHQ1K+T4Q2+iW5mKaN++X+0Pdg==";
+        };
+        _tEpDIvPh = {
+            "id" = "tEpDIvPh";
+            "file" = "spectrum-1.12.7-1.21.1-neo.jar";
+            "hash" = "sha512-z5XrfnTOccJ218uYt5yPw31yc7l3PiYvPTY5rH3sflKn9s5z7eLH8EnzmgcSPbiI74r/gnmpgW07cOJf7HGzhQ==";
+        };
     in {
         "ZqiJ0my1" = _ZqiJ0my1;
         "XgqfsaxR" = _XgqfsaxR;
@@ -758,14 +773,17 @@ let
         "k43I6fSM" = _k43I6fSM;
         "D6YaamP0" = _D6YaamP0;
         "cE3gyVDM" = _cE3gyVDM;
+        "7Wrr9tm5" = _7Wrr9tm5;
+        "8LeNdZyX" = _8LeNdZyX;
+        "tEpDIvPh" = _tEpDIvPh;
         "fabric-1.18.1" = _HYBdfvhk;
         "fabric-1.18.2" = _7YmKE57s;
         "fabric-1.19.2" = _cZcvzTh4;
         "fabric-1.20.1" = _mDJAjTuc;
-        "fabric-1.21.1" = _iFygi3tE;
+        "fabric-1.21.1" = _7Wrr9tm5;
         "quilt-1.19.2" = _bkeScaQT;
         "quilt-1.20.1" = _8Ri3sl6F;
-        "neoforge-1.21.1" = _cE3gyVDM;
+        "neoforge-1.21.1" = _tEpDIvPh;
         "pkg-1.0.0" = _ZqiJ0my1;
         "pkg-1.0.1" = _XgqfsaxR;
         "pkg-1.1.4" = _CMmKunJD;
@@ -875,7 +893,10 @@ let
         "pkg-1.12.3-1.21.1-neo" = _k43I6fSM;
         "pkg-1.12.4-1.21.1-neo" = _D6YaamP0;
         "pkg-1.12.5-1.21.1-neo" = _cE3gyVDM;
-        "default" = _cE3gyVDM;
+        "pkg-1.10.6-1.21.1-fabric" = _7Wrr9tm5;
+        "pkg-1.12.6-1.21.1-neo" = _8LeNdZyX;
+        "pkg-1.12.7-1.21.1-neo" = _tEpDIvPh;
+        "default" = _tEpDIvPh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spectrum";

@@ -621,6 +621,46 @@ let
             "file" = "emberstextapi-fabric-26.1-3.0.3.jar";
             "hash" = "sha512-CY5DIx7NzXAmTiAOLpnPXO6XUcNsxd2QIQUlk7WFtwx9mSYhZXQGk464RlN6Vu86E4T0BNmxEVcypqjizhAhcg==";
         };
+        _VeQrqSh7 = {
+            "id" = "VeQrqSh7";
+            "file" = "emberstextapi-fabric-1.21.1-3.0.4.jar";
+            "hash" = "sha512-zn5F3GPUS/V/ND8VsjIgJjRdoenB8NtizToXs8WQFnC4iDtQNpgP8QsVzjZobJ089NW4x45DqMF9ZYrR4SUf8Q==";
+        };
+        _1ZhzA4Ka = {
+            "id" = "1ZhzA4Ka";
+            "file" = "emberstextapi-fabric-1.20.1-3.0.4.jar";
+            "hash" = "sha512-GcDML50Y0UXExxZ8M/oZyVwxztj+sQFQ/yR9TlZdyKU0/t76FDknFnvjoMtwG1m4BGIzg2CDSZ1Ubh+j3Qj1iQ==";
+        };
+        _k1oNBSSj = {
+            "id" = "k1oNBSSj";
+            "file" = "emberstextapi-fabric-26.1-3.0.4.jar";
+            "hash" = "sha512-wXVpCqa4moKYV9ZNpAPJkTPK69mvZeWhJ0SwWSg6tJyoB3TxInX4vIa5puuDw920wzyq/AReTnoniovUyQQ0Dw==";
+        };
+        _XGTJTFLz = {
+            "id" = "XGTJTFLz";
+            "file" = "emberstextapi-fabric-26.2-3.0.4.jar";
+            "hash" = "sha512-mrUTzNJklPS22aj3KjWbQAYjd3NRwhaI/MNJCz58EJTrTAHblMn6k++vJ0cXZLfg4Omnc1L9uyVhDhjb0qshhw==";
+        };
+        _IpL9hTnI = {
+            "id" = "IpL9hTnI";
+            "file" = "emberstextapi-neoforge-1.21.1-3.0.4.jar";
+            "hash" = "sha512-59sTWyq8QuGXyiUccmDf0P7/IRjOOj6KZWyNI1ZRrYu0lw4QtkC4531AyuH4z118dC2gUXY5Z40KvvSzIotxtA==";
+        };
+        _Db83p6w6 = {
+            "id" = "Db83p6w6";
+            "file" = "emberstextapi-neoforge-26.1-3.0.4.jar";
+            "hash" = "sha512-e0wzH+RfljW2+ChqhiVAdEF0M6jnF21RYUz1eFMul7FPSEHVg9MarnZHRWnScsuIK7hd3sjGyeUW979seWTyCg==";
+        };
+        _1VCfp0Og = {
+            "id" = "1VCfp0Og";
+            "file" = "emberstextapi-neoforge-26.2-3.0.4.jar";
+            "hash" = "sha512-WzeJJsPaH8qBmu39SGMmvAS4D4Nfy2K2SELDLd5fhC+4zSy7pSa2mGmWn4LUUVBM6VhW99+K+0jgzU0Cm7Bi3Q==";
+        };
+        _XEnMrO48 = {
+            "id" = "XEnMrO48";
+            "file" = "emberstextapi-forge-1.20.1-3.0.4-all.jar";
+            "hash" = "sha512-421jjszjPaknWkpubtRw/J8cpGwh7DNesvfXTZxR/RItWepgOcYgghSUek4TVVmV2cXNK7JvPVJC4VuimnIGVA==";
+        };
     in {
         "Zorq4JMS" = _Zorq4JMS;
         "wfrMW6Y7" = _wfrMW6Y7;
@@ -746,18 +786,26 @@ let
         "JMvaJ2pv" = _JMvaJ2pv;
         "BqvzJ1Nm" = _BqvzJ1Nm;
         "X3TbYGCF" = _X3TbYGCF;
-        "forge-1.20.1" = _L8cFGKdN;
-        "neoforge-1.21.1" = _iSwKLgJp;
-        "neoforge-26.1" = _JMvaJ2pv;
-        "neoforge-26.1.1" = _JMvaJ2pv;
-        "neoforge-26.1.2" = _JMvaJ2pv;
-        "neoforge-26.2" = _BqvzJ1Nm;
-        "fabric-1.20.1" = _S2cY2dno;
-        "fabric-1.21.1" = _DRccARQz;
-        "fabric-26.1" = _X3TbYGCF;
-        "fabric-26.1.1" = _X3TbYGCF;
-        "fabric-26.1.2" = _X3TbYGCF;
-        "fabric-26.2" = _bJvKdYqf;
+        "VeQrqSh7" = _VeQrqSh7;
+        "1ZhzA4Ka" = _1ZhzA4Ka;
+        "k1oNBSSj" = _k1oNBSSj;
+        "XGTJTFLz" = _XGTJTFLz;
+        "IpL9hTnI" = _IpL9hTnI;
+        "Db83p6w6" = _Db83p6w6;
+        "1VCfp0Og" = _1VCfp0Og;
+        "XEnMrO48" = _XEnMrO48;
+        "forge-1.20.1" = _XEnMrO48;
+        "neoforge-1.21.1" = _IpL9hTnI;
+        "neoforge-26.1" = _Db83p6w6;
+        "neoforge-26.1.1" = _Db83p6w6;
+        "neoforge-26.1.2" = _Db83p6w6;
+        "neoforge-26.2" = _1VCfp0Og;
+        "fabric-1.20.1" = _1ZhzA4Ka;
+        "fabric-1.21.1" = _VeQrqSh7;
+        "fabric-26.1" = _k1oNBSSj;
+        "fabric-26.1.1" = _k1oNBSSj;
+        "fabric-26.1.2" = _k1oNBSSj;
+        "fabric-26.2" = _XGTJTFLz;
         "pkg-2.1.0+forge-1.20.1" = _Zorq4JMS;
         "pkg-2.1.0+neoforge-1.21.1" = _wfrMW6Y7;
         "pkg-2.1.0+fabric-1.20.1" = _Fl5RyoFP;
@@ -881,7 +929,15 @@ let
         "pkg-3.0.3+neoforge-26.1" = _JMvaJ2pv;
         "pkg-3.0.3+neoforge-26.2" = _BqvzJ1Nm;
         "pkg-3.0.3+fabric-26.1" = _X3TbYGCF;
-        "default" = _X3TbYGCF;
+        "pkg-3.0.4+fabric-1.21.1" = _VeQrqSh7;
+        "pkg-3.0.4+fabric-1.20.1" = _1ZhzA4Ka;
+        "pkg-3.0.4+fabric-26.1" = _k1oNBSSj;
+        "pkg-3.0.4+fabric-26.2" = _XGTJTFLz;
+        "pkg-3.0.4+neoforge-1.21.1" = _IpL9hTnI;
+        "pkg-3.0.4+neoforge-26.1" = _Db83p6w6;
+        "pkg-3.0.4+neoforge-26.2" = _1VCfp0Og;
+        "pkg-3.0.4+forge-1.20.1" = _XEnMrO48;
+        "default" = _XEnMrO48;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "embers-text-api";

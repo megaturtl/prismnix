@@ -106,6 +106,16 @@ let
             "file" = "mazeworld-26.2-1.5.0.jar";
             "hash" = "sha512-ozY7WautWAlrLFpAOkPmLmQ05vrjT5UiffaT4NDun0uF3swUouJWupjOJMvSPNz0WArLR1QnpH5Bl9cPVH0NCQ==";
         };
+        _dxxIDtVm = {
+            "id" = "dxxIDtVm";
+            "file" = "mazeworld-26.3-1.5.1.jar";
+            "hash" = "sha512-JHtNZAeKKXIfv48bL8epIPgIBIshuIVkldwANP6oUN18n2EpCN/Qj400r183rZwliiQFmtfq08i6+F7beyNVgg==";
+        };
+        _HdT0EhNo = {
+            "id" = "HdT0EhNo";
+            "file" = "mazeworld-26.3-1.5.2.jar";
+            "hash" = "sha512-nqepR6Iv+9Si8ji9bLxuLPdED0AvyYd/wfYUCm/pJUQyjExP7rjFYsN8xPmqjusqyXEUrUlXpc67MtHsp0tRCg==";
+        };
     in {
         "WLcMTZbb" = _WLcMTZbb;
         "6mKstNL1" = _6mKstNL1;
@@ -128,6 +138,8 @@ let
         "ZWCw0tuB" = _ZWCw0tuB;
         "CuSsM06o" = _CuSsM06o;
         "aLEBJavx" = _aLEBJavx;
+        "dxxIDtVm" = _dxxIDtVm;
+        "HdT0EhNo" = _HdT0EhNo;
         "fabric-1.19.1" = _6mKstNL1;
         "fabric-1.19.2" = _6mKstNL1;
         "fabric-1.19.3" = _lzFP3N71;
@@ -152,6 +164,7 @@ let
         "fabric-26.1.1" = _ZWCw0tuB;
         "fabric-26.1.2" = _ZWCw0tuB;
         "fabric-26.2" = _aLEBJavx;
+        "fabric-26.3" = _HdT0EhNo;
         "pkg-1.0.0" = _WLcMTZbb;
         "pkg-1.1.0" = _6mKstNL1;
         "pkg-1.2.0" = _H5MMc2Jv;
@@ -173,7 +186,9 @@ let
         "pkg-1.4.11" = _ZWCw0tuB;
         "pkg-1.4.12" = _CuSsM06o;
         "pkg-1.5.0" = _aLEBJavx;
-        "default" = _aLEBJavx;
+        "pkg-1.5.1" = _dxxIDtVm;
+        "pkg-1.5.2" = _HdT0EhNo;
+        "default" = _HdT0EhNo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mazeworld";

@@ -381,6 +381,16 @@ let
             "file" = "windchimes-neoforge-1.2.0+26.2.jar";
             "hash" = "sha512-+KijpDZong6e7T7P6jO/VUt/FrmsCydHyRmtDe6AzX+V/LJQ0KmmUf1dDCu7Ndkq9pDgzQ3zQWB9ntoCUPRZSw==";
         };
+        _xdSWj8yJ = {
+            "id" = "xdSWj8yJ";
+            "file" = "windchimes-neoforge-1.2.0+26.3.jar";
+            "hash" = "sha512-9unOWwwTbwqrcrYrBkQYdcA9k9mpMO4J8onvaqAgeJSnTPhNML/fEKCetTefefnVjaWcbM844zagoPlSXndJow==";
+        };
+        _2iUlnsID = {
+            "id" = "2iUlnsID";
+            "file" = "windchimes-fabric-1.2.0+26.3.jar";
+            "hash" = "sha512-8YeIy2gz3eiBRebmg2DppDbzKohzGux+2nupau7MQWgmBWWDYkTQWMhRWen/VWb7NaeYif1B3zoxmvZgc+19BQ==";
+        };
     in {
         "EnCGEn8Y" = _EnCGEn8Y;
         "VpknRT7s" = _VpknRT7s;
@@ -458,6 +468,8 @@ let
         "WIXdMt48" = _WIXdMt48;
         "SqBoSA9F" = _SqBoSA9F;
         "D6IoxTdv" = _D6IoxTdv;
+        "xdSWj8yJ" = _xdSWj8yJ;
+        "2iUlnsID" = _2iUlnsID;
         "fabric-1.21" = _JrqvboW2;
         "fabric-1.21.1" = _lEup3zFH;
         "fabric-1.21.11" = _jX5A2Csz;
@@ -474,6 +486,7 @@ let
         "fabric-26.1.1" = _8KfOTFUY;
         "fabric-26.1.2" = _8KfOTFUY;
         "fabric-26.2" = _akEEjlkt;
+        "fabric-26.3" = _2iUlnsID;
         "neoforge-1.21" = _BCXWswYL;
         "neoforge-1.21.1" = _T3ESeOzH;
         "neoforge-1.21.11" = _ZlUJnZ8u;
@@ -490,6 +503,7 @@ let
         "neoforge-26.1.1" = _SqBoSA9F;
         "neoforge-26.1.2" = _SqBoSA9F;
         "neoforge-26.2" = _D6IoxTdv;
+        "neoforge-26.3" = _xdSWj8yJ;
         "pkg-1.0.0+1.21.1" = _VpknRT7s;
         "pkg-1.0.1+1.21" = _foOBpxQo;
         "pkg-1.0.1+1.21.11" = _b8OFrJKM;
@@ -528,7 +542,8 @@ let
         "pkg-1.2.0+1.21.9" = _WIXdMt48;
         "pkg-1.2.0+26.1" = _SqBoSA9F;
         "pkg-1.2.0+26.2" = _D6IoxTdv;
-        "default" = _D6IoxTdv;
+        "pkg-1.2.0+26.3" = _2iUlnsID;
+        "default" = _2iUlnsID;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "windchime";

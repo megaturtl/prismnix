@@ -31,6 +31,16 @@ let
             "file" = "gtbcs_spell_lib-2.1.0-1.20.1.jar";
             "hash" = "sha512-+4/Cm0Ag1Jtmad2tvWOie1icJpptDHfsvIat1RPPltmpioB40kfLmeW9ZonzHQSQM2vTrYgYskQ00Jp/dlcnIg==";
         };
+        _309MoFNN = {
+            "id" = "309MoFNN";
+            "file" = "gtbcs_spell_lib-2.2.0-1.21.1.jar";
+            "hash" = "sha512-e1M44NGOMwEJhncFdzIicw9eiycq1sWeskeAUbA3NdsxWZqxjuMOcXA/u9IbtMKvvON79VrnKdH8dWq4OY/xog==";
+        };
+        _wacolmKQ = {
+            "id" = "wacolmKQ";
+            "file" = "gtbcs_spell_lib-2.2.0-1.20.1.jar";
+            "hash" = "sha512-n9DUHYG0l4TfobH21b8ziFkGIIaiFh7fwUqDx2GWYY+GpgS+H82SyQsbWZs4xrnN+3Ur7Bzkz7IDJ/Jv5glXbg==";
+        };
     in {
         "hjx28Epa" = _hjx28Epa;
         "EQcgyjoL" = _EQcgyjoL;
@@ -38,15 +48,19 @@ let
         "LloZpAw4" = _LloZpAw4;
         "6uxWzcu3" = _6uxWzcu3;
         "dXkJLukQ" = _dXkJLukQ;
-        "forge-1.20.1" = _dXkJLukQ;
-        "neoforge-1.21.1" = _6uxWzcu3;
+        "309MoFNN" = _309MoFNN;
+        "wacolmKQ" = _wacolmKQ;
+        "forge-1.20.1" = _wacolmKQ;
+        "neoforge-1.21.1" = _309MoFNN;
         "pkg-1.6.0-1.20.1" = _hjx28Epa;
         "pkg-1.6.0-1.21.1" = _EQcgyjoL;
         "pkg-2.0.0-1.21.1" = _XwbzgvSC;
         "pkg-2.0.0-1.20.1" = _LloZpAw4;
         "pkg-2.1.0-1.21.1" = _6uxWzcu3;
         "pkg-2.1.0-1.20.1" = _dXkJLukQ;
-        "default" = _dXkJLukQ;
+        "pkg-2.2.0-1.21.1" = _309MoFNN;
+        "pkg-2.2.0-1.20.1" = _wacolmKQ;
+        "default" = _wacolmKQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gtbcs-spelllib";

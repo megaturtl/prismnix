@@ -586,6 +586,16 @@ let
             "file" = "naraka-fabric-26.2-1.1.2.jar";
             "hash" = "sha512-loWS9N8Z8oEIQbcA0lH9O7jAVQxux8ixgGZHCRXIOK/+nmU/rEptlpcbxLrIk0bCyINpbiuRQoOj9cvfivHjow==";
         };
+        _PsQV7uFn = {
+            "id" = "PsQV7uFn";
+            "file" = "naraka-neoforge-1.21.1-1.1.2-1.jar";
+            "hash" = "sha512-JPpLlSkDWicZtXMHV0HEUuk+CUUPckPYC7Loe9HUa70BXpkXnMvrnrjvwz+4mDEttDtOMPQaGC09RvIWLXQBoQ==";
+        };
+        _KdMpBIta = {
+            "id" = "KdMpBIta";
+            "file" = "naraka-fabric-1.21.1-1.1.2-1.jar";
+            "hash" = "sha512-ux3yUAtQp/Q3GW/+Zt1um2hfGE64Yjw4DILKHOGq+gT5xzCvokP7qtNDbShs+CYDfO/tlVMoeN07hukZH5XEBw==";
+        };
     in {
         "lzGNmAyp" = _lzGNmAyp;
         "HcOAzYFB" = _HcOAzYFB;
@@ -704,11 +714,13 @@ let
         "brPFaSAO" = _brPFaSAO;
         "kLgJYKix" = _kLgJYKix;
         "9mrxUQBT" = _9mrxUQBT;
+        "PsQV7uFn" = _PsQV7uFn;
+        "KdMpBIta" = _KdMpBIta;
         "neoforge-1.21.5" = _rvEUY8LW;
         "neoforge-1.21.9" = _VZJOLAx2;
         "neoforge-1.21.10" = _P8MTkoAg;
         "neoforge-1.21" = _hVWWLWfY;
-        "neoforge-1.21.1" = _Zyg1VTww;
+        "neoforge-1.21.1" = _PsQV7uFn;
         "neoforge-1.21.11" = _YNGgfxcR;
         "neoforge-26.2" = _kLgJYKix;
         "neoforge-26.1.2" = _XwoLetpm;
@@ -716,7 +728,7 @@ let
         "fabric-1.21.9" = _p7k1YSKF;
         "fabric-1.21.10" = _pNMPNPJW;
         "fabric-1.21" = _KDW55HTa;
-        "fabric-1.21.1" = _LjJvIEwH;
+        "fabric-1.21.1" = _KdMpBIta;
         "fabric-1.21.11" = _AqD2rbwu;
         "fabric-26.2" = _9mrxUQBT;
         "fabric-1.20.1" = _fhf6gY1q;
@@ -782,7 +794,9 @@ let
         "pkg-fabric-26.1.2-1.1.2" = _brPFaSAO;
         "pkg-neoforge-26.2-1.1.2" = _kLgJYKix;
         "pkg-fabric-26.2-1.1.2" = _9mrxUQBT;
-        "default" = _9mrxUQBT;
+        "pkg-neoforge-1.21.1-1.1.2-1" = _PsQV7uFn;
+        "pkg-fabric-1.21.1-1.1.2-1" = _KdMpBIta;
+        "default" = _KdMpBIta;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "naraka";

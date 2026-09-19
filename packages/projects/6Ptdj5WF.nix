@@ -61,6 +61,11 @@ let
             "file" = "LegacyTrack_v2.3.0-26.2.zip";
             "hash" = "sha512-g+480ATKDvmpK9FUXcNRN2rXdLbW5sl5kd16SvkOcRaolMqd+kbt5SP7uGBb9NDNxfVQgk79iH7zokitVKD6ug==";
         };
+        _lPrxS8Je = {
+            "id" = "lPrxS8Je";
+            "file" = "LegacyTrack_v2.4.0-26.3.zip";
+            "hash" = "sha512-WGN/YYH6Exd3GY6fQGFrXbY8R/IQwBi4Lu2vUMkAeIuX3caBkIe0EKMDw/0VV6OEKm5tT6GRKeGQgUpxBFq7wA==";
+        };
     in {
         "ZqQZ8k7Q" = _ZqQZ8k7Q;
         "27uVvVfP" = _27uVvVfP;
@@ -74,6 +79,7 @@ let
         "j1L09pzs" = _j1L09pzs;
         "K4EHz8Wr" = _K4EHz8Wr;
         "Q9DI5Gke" = _Q9DI5Gke;
+        "lPrxS8Je" = _lPrxS8Je;
         "fabric-1.21.8" = _27uVvVfP;
         "fabric-1.21.9" = _1KWptG6f;
         "fabric-1.21.10" = _1KWptG6f;
@@ -83,6 +89,7 @@ let
         "minecraft-1.21.11" = _j1L09pzs;
         "minecraft-26.1.2" = _K4EHz8Wr;
         "minecraft-26.2" = _Q9DI5Gke;
+        "minecraft-26.3" = _lPrxS8Je;
         "pkg-1.2.1" = _ZqQZ8k7Q;
         "pkg-1.2.2" = _27uVvVfP;
         "pkg-2.0.0" = _1KWptG6f;
@@ -95,7 +102,8 @@ let
         "pkg-2.1.2" = _j1L09pzs;
         "pkg-2.2.0" = _K4EHz8Wr;
         "pkg-2.3.0" = _Q9DI5Gke;
-        "default" = _Q9DI5Gke;
+        "pkg-2.4.0" = _lPrxS8Je;
+        "default" = _lPrxS8Je;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legacytrack";

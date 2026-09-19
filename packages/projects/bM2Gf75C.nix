@@ -291,6 +291,21 @@ let
             "file" = "randomloot-fabric-26.2-1.5.23.jar";
             "hash" = "sha512-5tDFsfdagl2rj1iOrxekKgJULLKQhXn+EDMYXklMYyeq1945Gn41cS9M5aB0u2dJPVdVj24Amk6fJ/x5B7BQIQ==";
         };
+        _iwdhLXGB = {
+            "id" = "iwdhLXGB";
+            "file" = "randomloot-neoforge-26.2-1.5.25.jar";
+            "hash" = "sha512-r+Ohq/7a/Ks4dftdpu1r5levqmJJfpqHPziLZXts9LqV/B3cHqk9yO9kwqY8G75p/i3gTtmldNmP4sZZ4mH5tQ==";
+        };
+        _crymtfuI = {
+            "id" = "crymtfuI";
+            "file" = "randomloot-neoforge-26.2-1.5.26.jar";
+            "hash" = "sha512-ExRE92VBHJsbQtMFYXVnZsD9/g3+soG2hWXezrTrASqcxrwkSmTYEkpeKaqnCzuwuWSG01REiIHO3gbTnwpnyg==";
+        };
+        _6211abi6 = {
+            "id" = "6211abi6";
+            "file" = "randomloot-neoforge-26.2-1.5.27.jar";
+            "hash" = "sha512-umQqnIm4hk+LCGqJRQ1qJ5qHmXRJ7mqLDuji1FS6vPPpy6yno6DwgdILTFV1CBcd5lsBuw/XHqQ7Jgb8Aezd4A==";
+        };
     in {
         "SbQmlGSA" = _SbQmlGSA;
         "Dc56k0g9" = _Dc56k0g9;
@@ -350,6 +365,9 @@ let
         "DmiqZYW4" = _DmiqZYW4;
         "vjNR5z9j" = _vjNR5z9j;
         "BUP4INTL" = _BUP4INTL;
+        "iwdhLXGB" = _iwdhLXGB;
+        "crymtfuI" = _crymtfuI;
+        "6211abi6" = _6211abi6;
         "forge-1.16.5" = _SbQmlGSA;
         "forge-1.20.2" = _Dc56k0g9;
         "forge-1.20.3" = _Dc56k0g9;
@@ -357,7 +375,7 @@ let
         "neoforge-1.21.4" = _EbPsrudC;
         "neoforge-1.21.11" = _feW3z8aC;
         "neoforge-26.1.2" = _kBMSdxjt;
-        "neoforge-26.2" = _vjNR5z9j;
+        "neoforge-26.2" = _6211abi6;
         "neoforge-1.21.1" = _pcKA38kl;
         "fabric-26.2" = _BUP4INTL;
         "fabric-1.21.1" = _DmiqZYW4;
@@ -419,7 +437,10 @@ let
         "pkg-1.5.22+mc1.21.1-fabric" = _DmiqZYW4;
         "pkg-1.5.23+mc26.2-neoforge" = _vjNR5z9j;
         "pkg-1.5.23+mc26.2-fabric" = _BUP4INTL;
-        "default" = _BUP4INTL;
+        "pkg-1.5.25+mc26.2-neoforge" = _iwdhLXGB;
+        "pkg-1.5.26+mc26.2-neoforge" = _crymtfuI;
+        "pkg-1.5.27+mc26.2-neoforge" = _6211abi6;
+        "default" = _6211abi6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "randomloot";

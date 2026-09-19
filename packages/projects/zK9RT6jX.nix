@@ -136,6 +136,11 @@ let
             "file" = "DirTNT-1.8.1-26.2.jar";
             "hash" = "sha512-/bHaZBJhKCxj+PmF0FvhIQ2omuUfzQSFOdN4gfg96c/8szDTgZZ3dbIUxlT4SkCbfe1g9Q2MaUnR50Ld5vB/DA==";
         };
+        _DgEmI8w5 = {
+            "id" = "DgEmI8w5";
+            "file" = "DirTNT-1.9.0-26.3.jar";
+            "hash" = "sha512-Rqfwcr07Bb9fy8JJNv87FYPICuHY3D8j+ceU8aGBjqctxrAKTKbQlPwUK7zfowGo/fNU12oR8g3/mMh8X9XBYA==";
+        };
     in {
         "8PY7gtfs" = _8PY7gtfs;
         "3aRv46Gs" = _3aRv46Gs;
@@ -164,6 +169,7 @@ let
         "cFEKodQE" = _cFEKodQE;
         "vXRtVtOm" = _vXRtVtOm;
         "o3A29HiG" = _o3A29HiG;
+        "DgEmI8w5" = _DgEmI8w5;
         "fabric-1.16" = _C3mzZAKW;
         "fabric-1.16.1" = _C3mzZAKW;
         "fabric-1.16.2" = _C3mzZAKW;
@@ -202,6 +208,7 @@ let
         "fabric-26.1.1" = _cFEKodQE;
         "fabric-26.1.2" = _cFEKodQE;
         "fabric-26.2" = _o3A29HiG;
+        "fabric-26.3" = _DgEmI8w5;
         "pkg-1.0-1.16" = _8PY7gtfs;
         "pkg-1.0-1.17" = _3aRv46Gs;
         "pkg-1.1-1.16" = _wsBpRN3j;
@@ -224,7 +231,8 @@ let
         "pkg-1.7.0" = _cFEKodQE;
         "pkg-1.8.0" = _vXRtVtOm;
         "pkg-1.8.1" = _o3A29HiG;
-        "default" = _o3A29HiG;
+        "pkg-1.9.0" = _DgEmI8w5;
+        "default" = _DgEmI8w5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dirtnt";

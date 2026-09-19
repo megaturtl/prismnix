@@ -636,6 +636,11 @@ let
             "file" = "car-neoforge-1.0.49+26.2.jar";
             "hash" = "sha512-/XBQs7bG2MYAo2bbjYof/fXkGKHR4CDi1k0F4lPbp+cSNu9404mr7JviUIoMRPQpZIolEstQzQBxP4w3uB71kg==";
         };
+        _fgKvA3LI = {
+            "id" = "fgKvA3LI";
+            "file" = "car-neoforge-1.0.49+26.3.jar";
+            "hash" = "sha512-fgnHtUUPO5m3Aks3ckxSDpxKDUTfG8uYvh3Kgbx292RVjJEpYE+DIJd5fpQsw3YZDn2gsNiodF9MzANs+9efng==";
+        };
     in {
         "Fw9OEj33" = _Fw9OEj33;
         "tHEzBiGM" = _tHEzBiGM;
@@ -764,6 +769,7 @@ let
         "DJGxQ8yz" = _DJGxQ8yz;
         "mH3zZJ5c" = _mH3zZJ5c;
         "W17rUTH7" = _W17rUTH7;
+        "fgKvA3LI" = _fgKvA3LI;
         "forge-1.19" = _FsFTULi4;
         "forge-1.19.1" = _EMP6hR7d;
         "forge-1.19.2" = _6kWHaaua;
@@ -794,6 +800,7 @@ let
         "neoforge-26.1.1" = _RfJFbCpK;
         "neoforge-26.1.2" = _mH3zZJ5c;
         "neoforge-26.2" = _W17rUTH7;
+        "neoforge-26.3" = _fgKvA3LI;
         "pkg-forge-1.19-1.0.4" = _Fw9OEj33;
         "pkg-forge-1.19-1.0.5" = _tHEzBiGM;
         "pkg-forge-1.19-1.0.6" = _jJSn5bc1;
@@ -920,7 +927,8 @@ let
         "pkg-neoforge-1.0.48+26.1.2" = _DJGxQ8yz;
         "pkg-neoforge-1.0.49+26.1.2" = _mH3zZJ5c;
         "pkg-neoforge-1.0.49+26.2" = _W17rUTH7;
-        "default" = _W17rUTH7;
+        "pkg-neoforge-1.0.49+26.3" = _fgKvA3LI;
+        "default" = _fgKvA3LI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ultimate-car-mod";

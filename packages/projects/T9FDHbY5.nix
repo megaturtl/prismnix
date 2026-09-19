@@ -106,6 +106,11 @@ let
             "file" = "statuseffecttimer-2.0.0+26.2.jar";
             "hash" = "sha512-+g1TFzkWC+J17zJR2pcRnvSQ1nrauEPBCkLaqBR7X/ownCyy5g6V0b6JexhUAPEXTEfgfrwNqIUqxlm8UD/qDw==";
         };
+        _NfHPutHW = {
+            "id" = "NfHPutHW";
+            "file" = "statuseffecttimer-2.0.0+26.3.jar";
+            "hash" = "sha512-fcItQpWmcz630leOQtSQwtR1wWMv9tWmtalkDMp2KkLbgDWw8R6f7sdw6dE+jmCjDev+USe9jioC9lJy1mm+IA==";
+        };
     in {
         "F4nLQ9qU" = _F4nLQ9qU;
         "704IiwGB" = _704IiwGB;
@@ -128,6 +133,7 @@ let
         "A31Ls8dT" = _A31Ls8dT;
         "PJ07XgGC" = _PJ07XgGC;
         "hflAhCeh" = _hflAhCeh;
+        "NfHPutHW" = _NfHPutHW;
         "fabric-1.16.5" = _DmQmn3Te;
         "fabric-1.17" = _704IiwGB;
         "fabric-1.17.1" = _aAQxDXii;
@@ -162,6 +168,7 @@ let
         "fabric-26.1.1" = _PJ07XgGC;
         "fabric-26.1.2" = _PJ07XgGC;
         "fabric-26.2" = _hflAhCeh;
+        "fabric-26.3" = _NfHPutHW;
         "pkg-1.0.1" = _F4nLQ9qU;
         "pkg-1.0.2" = _704IiwGB;
         "pkg-1.0.3" = _Fldk6PQJ;
@@ -183,7 +190,8 @@ let
         "pkg-2.0.0+1.20.5" = _A31Ls8dT;
         "pkg-2.0.0+26.1" = _PJ07XgGC;
         "pkg-2.0.0+26.2" = _hflAhCeh;
-        "default" = _hflAhCeh;
+        "pkg-2.0.0+26.3" = _NfHPutHW;
+        "default" = _NfHPutHW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "statuseffecttimer";

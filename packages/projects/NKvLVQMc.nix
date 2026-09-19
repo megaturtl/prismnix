@@ -326,6 +326,11 @@ let
             "file" = "symbol-chat-26.2-1.4.2.jar";
             "hash" = "sha512-Xb4c6rITUfjofx8DQj7lVdJld1J4O7WPGiz87p2m6OjW9SwGmg6fddbYHMmWh/yXlJsJX9HNpCYc9LeS0sb9ZA==";
         };
+        _Y9zsgkwF = {
+            "id" = "Y9zsgkwF";
+            "file" = "symbol-chat-26.3-1.4.3.jar";
+            "hash" = "sha512-5SDA8eNpirCTugwlAdq9+xnJcD05nK+J/WrtGA1nu15EsElXNPQskkHm39ksHHFmBJzg0dNZvJMH6btcdO96/g==";
+        };
     in {
         "mTwCeqbM" = _mTwCeqbM;
         "XroC5UAA" = _XroC5UAA;
@@ -392,6 +397,7 @@ let
         "hW9dk5tW" = _hW9dk5tW;
         "guJTf88z" = _guJTf88z;
         "cEUoYVjN" = _cEUoYVjN;
+        "Y9zsgkwF" = _Y9zsgkwF;
         "fabric-1.18" = _vzCwq3Bl;
         "fabric-1.18.1" = _vzCwq3Bl;
         "fabric-1.18.2" = _vzCwq3Bl;
@@ -421,6 +427,7 @@ let
         "fabric-26.1.1" = _guJTf88z;
         "fabric-26.1.2" = _guJTf88z;
         "fabric-26.2" = _cEUoYVjN;
+        "fabric-26.3" = _Y9zsgkwF;
         "pkg-0.2.6" = _mTwCeqbM;
         "pkg-0.2.7" = _XroC5UAA;
         "pkg-0.2.8" = _OIo2wwp5;
@@ -485,7 +492,8 @@ let
         "pkg-1.4.0" = _hW9dk5tW;
         "pkg-1.4.1" = _guJTf88z;
         "pkg-1.4.2" = _cEUoYVjN;
-        "default" = _cEUoYVjN;
+        "pkg-1.4.3" = _Y9zsgkwF;
+        "default" = _Y9zsgkwF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "symbol-chat";

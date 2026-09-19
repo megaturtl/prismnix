@@ -26,12 +26,18 @@ let
             "file" = "Black Mesa Skyboxes.zip";
             "hash" = "sha512-iKtWjSHSjqsYWOTiNeo9DjChvhu3HvmCSptWtIB4l/rNegjqoGBpePQbADD0uVbpiUC2yw80iVVr2l6UUHwwMQ==";
         };
+        _5XvgM4qZ = {
+            "id" = "5XvgM4qZ";
+            "file" = "Black Mesa Skyboxes.zip";
+            "hash" = "sha512-S/z6MTh1SazX2yRCrDsZ7fIP+8hV/3lcQv0kyE5gLRQVgpZuSpdNUwpy4iBec2kgup3qqqvxVUqbXD967ecF6w==";
+        };
     in {
         "YMH7OfOV" = _YMH7OfOV;
         "bpaeVuFZ" = _bpaeVuFZ;
         "284uVjwF" = _284uVjwF;
         "XVa34t6E" = _XVa34t6E;
         "DzQEaQyf" = _DzQEaQyf;
+        "5XvgM4qZ" = _5XvgM4qZ;
         "minecraft-1.20.2" = _bpaeVuFZ;
         "minecraft-1.20.3" = _bpaeVuFZ;
         "minecraft-1.20.4" = _bpaeVuFZ;
@@ -46,17 +52,21 @@ let
         "minecraft-1.21.6" = _bpaeVuFZ;
         "minecraft-1.21.7" = _bpaeVuFZ;
         "minecraft-1.21.8" = _bpaeVuFZ;
-        "minecraft-1.21.9" = _DzQEaQyf;
-        "minecraft-1.21.10" = _DzQEaQyf;
-        "minecraft-1.21.11" = _DzQEaQyf;
-        "minecraft-26.1" = _DzQEaQyf;
-        "minecraft-26.1.1" = _DzQEaQyf;
+        "minecraft-1.21.9" = _5XvgM4qZ;
+        "minecraft-1.21.10" = _5XvgM4qZ;
+        "minecraft-1.21.11" = _5XvgM4qZ;
+        "minecraft-26.1" = _5XvgM4qZ;
+        "minecraft-26.1.1" = _5XvgM4qZ;
+        "minecraft-26.1.2" = _5XvgM4qZ;
+        "minecraft-26.2" = _5XvgM4qZ;
+        "minecraft-26.3" = _5XvgM4qZ;
         "pkg-1.0.0" = _YMH7OfOV;
         "pkg-1.0.1" = _bpaeVuFZ;
         "pkg-1.1.0" = _284uVjwF;
         "pkg-1.2.0" = _XVa34t6E;
         "pkg-1.3.0" = _DzQEaQyf;
-        "default" = _DzQEaQyf;
+        "pkg-1.5.0" = _5XvgM4qZ;
+        "default" = _5XvgM4qZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "black-mesa-skyboxes";

@@ -91,6 +91,16 @@ let
             "file" = "BedrockEntityModels-26.1.2-1.1.1-fabric.jar";
             "hash" = "sha512-jg2WI8thZldhsB+6pCN5lHIFCuY+xV5WCDSbPtyYLf8pgirrHxPKZPzHaRa4oWBmlHG0yKwKEJlxWaaRUhSzGw==";
         };
+        _JbDuW0oU = {
+            "id" = "JbDuW0oU";
+            "file" = "BedrockEntityModels-26.3-1.1.1-fabric.jar";
+            "hash" = "sha512-254uTTg1x2X0jgb/Ew62RQ5T+9mvZbek7RZSWhaAy62NRUz8oaswqbkpgFWQbu0NQZTq2+r/b646ev4VxxOQ+w==";
+        };
+        _U8HWN5Zs = {
+            "id" = "U8HWN5Zs";
+            "file" = "BedrockEntityModels-26.3-1.1.2-fabric.jar";
+            "hash" = "sha512-04V+GHIalE1xHkkQVniXTDk6+fzg1+F4z2CYZH7LAckMX6TxarTBdcRRyIPzJzL6rQ3mON34F/QuU5tqL04R7w==";
+        };
     in {
         "uKpQEdmU" = _uKpQEdmU;
         "xehUqWFU" = _xehUqWFU;
@@ -110,6 +120,8 @@ let
         "Jjp0vTNp" = _Jjp0vTNp;
         "IFfLbw7k" = _IFfLbw7k;
         "zY5Nf11O" = _zY5Nf11O;
+        "JbDuW0oU" = _JbDuW0oU;
+        "U8HWN5Zs" = _U8HWN5Zs;
         "neoforge-26.1" = _tkYLSLmH;
         "neoforge-26.1.1" = _tkYLSLmH;
         "neoforge-26.1.2" = _tkYLSLmH;
@@ -118,10 +130,12 @@ let
         "fabric-26.1.1" = _zY5Nf11O;
         "fabric-26.1.2" = _zY5Nf11O;
         "fabric-26.2" = _IFfLbw7k;
+        "fabric-26.3" = _U8HWN5Zs;
         "quilt-26.1" = _zY5Nf11O;
         "quilt-26.1.1" = _zY5Nf11O;
         "quilt-26.1.2" = _zY5Nf11O;
         "quilt-26.2" = _IFfLbw7k;
+        "quilt-26.3" = _U8HWN5Zs;
         "pkg-26.1.2-1.0.0+neoforge" = _uKpQEdmU;
         "pkg-26.1.2-1.0.0+fabric" = _xehUqWFU;
         "pkg-26.2-1.0.1+neoforge" = _sjp2E6KN;
@@ -140,7 +154,9 @@ let
         "pkg-26.2-1.1.1+neoforge" = _Jjp0vTNp;
         "pkg-26.2-1.1.1+fabric" = _IFfLbw7k;
         "pkg-26.1.2-1.1.1+fabric" = _zY5Nf11O;
-        "default" = _zY5Nf11O;
+        "pkg-26.3-1.1.1+fabric" = _JbDuW0oU;
+        "pkg-26.3-1.1.2+fabric" = _U8HWN5Zs;
+        "default" = _U8HWN5Zs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bedrock-entity-models";

@@ -391,6 +391,16 @@ let
             "file" = "componentviewer-fabric-1.3.5+26.2.jar";
             "hash" = "sha512-QHbO2RTRqcY29IUvLw47LfwQbpB8Cg4H+lAEyj+83ehae/xsOGXPWXx6qpTaI0xRrXT9860nsGrYx6XtivDrdA==";
         };
+        _Kr7aZHF1 = {
+            "id" = "Kr7aZHF1";
+            "file" = "componentviewer-neoforge-1.3.6+26.3.jar";
+            "hash" = "sha512-6MKH42rSBX2lJBiY3vyNQiWGaMYSdIoxASBhkEUUJr0BWLMWpDB3MpSbnbpV3tvUEsO9XwPrHCBdqyGQ7MGgyg==";
+        };
+        _HpEXV64p = {
+            "id" = "HpEXV64p";
+            "file" = "componentviewer-fabric-1.3.6+26.3.jar";
+            "hash" = "sha512-8vrbq1HsmMVGt8uL32jOvoqMJh81q6L2x/VBCbBiykZxgPwyvzUc2kTPD2dHblT1P/kF/sgTtNhQtLWiixDjLQ==";
+        };
     in {
         "4BXGwfCw" = _4BXGwfCw;
         "Oj1RMwCb" = _Oj1RMwCb;
@@ -470,6 +480,8 @@ let
         "j7vnA9R4" = _j7vnA9R4;
         "j7RlEUmE" = _j7RlEUmE;
         "BkdknKQy" = _BkdknKQy;
+        "Kr7aZHF1" = _Kr7aZHF1;
+        "HpEXV64p" = _HpEXV64p;
         "fabric-1.20.5" = _nZa5z2qS;
         "fabric-1.20.6" = _nZa5z2qS;
         "fabric-1.21" = _VsBCpQ4s;
@@ -488,6 +500,7 @@ let
         "fabric-26.1.1" = _j7vnA9R4;
         "fabric-26.1.2" = _j7vnA9R4;
         "fabric-26.2" = _BkdknKQy;
+        "fabric-26.3" = _HpEXV64p;
         "quilt-1.20.5" = _nZa5z2qS;
         "quilt-1.20.6" = _nZa5z2qS;
         "quilt-1.21" = _VsBCpQ4s;
@@ -506,6 +519,7 @@ let
         "quilt-26.1.1" = _j7vnA9R4;
         "quilt-26.1.2" = _j7vnA9R4;
         "quilt-26.2" = _BkdknKQy;
+        "quilt-26.3" = _HpEXV64p;
         "neoforge-1.21" = _OzA3gLQM;
         "neoforge-1.21.1" = _OzA3gLQM;
         "neoforge-1.21.2" = _bOWziF22;
@@ -522,6 +536,7 @@ let
         "neoforge-26.1.1" = _A5Jlb51g;
         "neoforge-26.1.2" = _A5Jlb51g;
         "neoforge-26.2" = _j7RlEUmE;
+        "neoforge-26.3" = _Kr7aZHF1;
         "pkg-1.0.0+1.20.6" = _4BXGwfCw;
         "pkg-1.0.1+1.20.6" = _Oj1RMwCb;
         "pkg-1.1.0+1.20.6" = _AytuYsHI;
@@ -600,7 +615,9 @@ let
         "pkg-1.3.4+26.1.2-fabric" = _j7vnA9R4;
         "pkg-1.3.5+26.2-neoforge" = _j7RlEUmE;
         "pkg-1.3.5+26.2-fabric" = _BkdknKQy;
-        "default" = _BkdknKQy;
+        "pkg-1.3.6+26.3-neoforge" = _Kr7aZHF1;
+        "pkg-1.3.6+26.3-fabric" = _HpEXV64p;
+        "default" = _HpEXV64p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "component-viewer";

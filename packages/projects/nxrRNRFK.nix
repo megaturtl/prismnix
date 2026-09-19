@@ -16,16 +16,23 @@ let
             "file" = "VisualBarriers-1.1-26.2.jar";
             "hash" = "sha512-+RROp0wOBOO6uFmhQ9KeObTj0hs/mtPN21PRSLfUFeMVyNvZs1DPzGDjJlZXo7Z65k5zaJj3hN8+i16jm0mDPg==";
         };
+        _47bBfxTh = {
+            "id" = "47bBfxTh";
+            "file" = "VisualBarriers-1.1-26.3.jar";
+            "hash" = "sha512-ScQlDGv/GE8w2Z/txttuusCGx77DMKWbXiiRKTSzlza4OQ1DsW548UQ2fatY8C/uCkgt4nUNkECCmONz39PZ7A==";
+        };
     in {
         "jdCQhAxv" = _jdCQhAxv;
         "iMdnqUe7" = _iMdnqUe7;
         "qxKVw4J7" = _qxKVw4J7;
+        "47bBfxTh" = _47bBfxTh;
         "fabric-1.21.10" = _jdCQhAxv;
         "fabric-1.21.11" = _jdCQhAxv;
         "fabric-26.1" = _iMdnqUe7;
         "fabric-26.1.1" = _iMdnqUe7;
         "fabric-26.1.2" = _iMdnqUe7;
         "fabric-26.2" = _qxKVw4J7;
+        "fabric-26.3" = _47bBfxTh;
         "quilt-1.21.10" = _jdCQhAxv;
         "quilt-1.21.11" = _jdCQhAxv;
         "quilt-26.1" = _iMdnqUe7;
@@ -35,7 +42,8 @@ let
         "pkg-1.0+1.21.11" = _jdCQhAxv;
         "pkg-1.1" = _iMdnqUe7;
         "pkg-1.1+26.2" = _qxKVw4J7;
-        "default" = _qxKVw4J7;
+        "pkg-1.1+26.3" = _47bBfxTh;
+        "default" = _47bBfxTh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "visual-barriers";

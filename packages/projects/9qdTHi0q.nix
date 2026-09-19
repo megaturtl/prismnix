@@ -111,6 +111,26 @@ let
             "file" = "man_of_many_planes-0.2.1+1.21.1-neoforge.jar";
             "hash" = "sha512-swb1+uMIzNA6tytVL2NLP19X6SVKkw/6/troWMvOdMJVfPWY5++5WYI8P1dVRIWc8PGfJsO0d8df7sPGoUgXRA==";
         };
+        _7EqMgtjo = {
+            "id" = "7EqMgtjo";
+            "file" = "man_of_many_planes-0.2.2+1.21.1-fabric.jar";
+            "hash" = "sha512-fnwJ4eRK/uCdy+r84AF5jQYueYTNVovEy+siDV0J3TGEkqKr0ZgAuYNjdPGzqkJtiapLKSBrBQUT7m+kwQo+3w==";
+        };
+        _Ss5W1tg1 = {
+            "id" = "Ss5W1tg1";
+            "file" = "man_of_many_planes-0.2.2+1.21.1-neoforge.jar";
+            "hash" = "sha512-SiwlFqYeaNMdH3BXkRqLEukS6lc5Ewpl8XpCRPNohy6t7dM0RtTBNX4OPCL9TMy+GB4sSI3FsMmWKgujGA5atA==";
+        };
+        _VdGmDbPO = {
+            "id" = "VdGmDbPO";
+            "file" = "man_of_many_planes-0.2.1+1.20.1-fabric.jar";
+            "hash" = "sha512-wc8ciLbHweeYQhpF0mIUNG08TfvStlIJdfaDBAtDfpXe4SZPlt7xr2bymuf+mBt1Df7JinndvIjqizv9FjPUYA==";
+        };
+        _pxO4wWCW = {
+            "id" = "pxO4wWCW";
+            "file" = "man_of_many_planes-0.2.1+1.20.1-forge.jar";
+            "hash" = "sha512-HwhbAfRBK8QTrDA+EbsDxz3sPPNyFG+ByStUqI56SzKYQQp0qJw/xa79yfpuBXZZHthMqr44cyRmG+2H33K/7A==";
+        };
     in {
         "ysGWdVbV" = _ysGWdVbV;
         "m7V5ov2e" = _m7V5ov2e;
@@ -134,12 +154,16 @@ let
         "cz0MLpXx" = _cz0MLpXx;
         "qPwWpUrv" = _qPwWpUrv;
         "onE42Qs7" = _onE42Qs7;
+        "7EqMgtjo" = _7EqMgtjo;
+        "Ss5W1tg1" = _Ss5W1tg1;
+        "VdGmDbPO" = _VdGmDbPO;
+        "pxO4wWCW" = _pxO4wWCW;
         "fabric-1.19.2" = _fbN0cuaV;
-        "fabric-1.20.1" = _BiO2Uv4J;
-        "fabric-1.21.1" = _qPwWpUrv;
+        "fabric-1.20.1" = _VdGmDbPO;
+        "fabric-1.21.1" = _7EqMgtjo;
         "forge-1.19.2" = _OLdL2KWf;
-        "forge-1.20.1" = _uZNB5Zrk;
-        "neoforge-1.21.1" = _onE42Qs7;
+        "forge-1.20.1" = _pxO4wWCW;
+        "neoforge-1.21.1" = _Ss5W1tg1;
         "pkg-0.0.1+1.19.2" = _m7V5ov2e;
         "pkg-0.0.1+1.20.1" = _VXFPR18c;
         "pkg-0.0.2+1.19.2" = _L2CmiMlC;
@@ -151,7 +175,9 @@ let
         "pkg-0.2.0+1.20.1" = _uZNB5Zrk;
         "pkg-0.2.0+1.21.1" = _cz0MLpXx;
         "pkg-0.2.1+1.21.1" = _onE42Qs7;
-        "default" = _onE42Qs7;
+        "pkg-0.2.2+1.21.1" = _Ss5W1tg1;
+        "pkg-0.2.1+1.20.1" = _pxO4wWCW;
+        "default" = _pxO4wWCW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "man-of-many-planes";

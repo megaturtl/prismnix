@@ -121,6 +121,16 @@ let
             "file" = "spawn-4.0.7-1.20.1.jar";
             "hash" = "sha512-ToPVnOS5vE70LVPWh/G7OBIWKB+jti5H9EZXqIbEx/B3s3/qBxBPSXmvI8en7CcEuaHO7nXo6bYYP0WnJmLV9g==";
         };
+        _OgmUYgeL = {
+            "id" = "OgmUYgeL";
+            "file" = "spawn-4.0.8-1.21.1.jar";
+            "hash" = "sha512-9tuPihHZDZc61OcEGBZ5OnDimJScTTeMsIoreJNzJ8jy1cddH5OKBJOtrRpaHG/aZ5SYZ7fHscVsXVjtqK6CBA==";
+        };
+        _Iw5SeMQX = {
+            "id" = "Iw5SeMQX";
+            "file" = "spawn-4.0.8-1.20.1.jar";
+            "hash" = "sha512-lK5EcuUImD1rr1MjPY1v/mKT9vLTi4AyM/i1EJwnbUIytxsapuIDrN+N6Mvhcq06E596RHqCfu7n2hwwac4gKg==";
+        };
     in {
         "jGfbbkRl" = _jGfbbkRl;
         "73LBjQKv" = _73LBjQKv;
@@ -146,12 +156,14 @@ let
         "OUBPIo0d" = _OUBPIo0d;
         "gMPsUePI" = _gMPsUePI;
         "zR1peDoK" = _zR1peDoK;
+        "OgmUYgeL" = _OgmUYgeL;
+        "Iw5SeMQX" = _Iw5SeMQX;
         "fabric-1.20" = _Cjjsdx4e;
         "fabric-1.20.1" = _Cjjsdx4e;
         "forge-1.20" = _RXKJiHaV;
-        "forge-1.20.1" = _zR1peDoK;
+        "forge-1.20.1" = _Iw5SeMQX;
         "neoforge-1.20.1" = _leymEt9o;
-        "neoforge-1.21.1" = _gMPsUePI;
+        "neoforge-1.21.1" = _OgmUYgeL;
         "pkg-1.0-fabric" = _jGfbbkRl;
         "pkg-1.0-forge" = _73LBjQKv;
         "pkg-1.0.1-forge" = _1U2VhIFo;
@@ -173,7 +185,8 @@ let
         "pkg-4.0.5" = _Pm6DgDgy;
         "pkg-4.0.6" = _OUBPIo0d;
         "pkg-4.0.7" = _zR1peDoK;
-        "default" = _zR1peDoK;
+        "pkg-4.0.8" = _Iw5SeMQX;
+        "default" = _Iw5SeMQX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spawn-mod";

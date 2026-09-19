@@ -31,6 +31,11 @@ let
             "file" = "createmoderntech-1.1.0.jar";
             "hash" = "sha512-UQHgomvlAvHbwChoYPgaHL5afnNiwb2zsmboaoBI49Um2PSl67g5J3K/MKsOv0uFt9Thfyh1e61R8i70BaDk/A==";
         };
+        _62gdiCy0 = {
+            "id" = "62gdiCy0";
+            "file" = "createmoderntech-1.2.0.jar";
+            "hash" = "sha512-E6PqH0utmNmZXGLq5rozFUIlDW/YnnkUcl9RC9W7peiI4K9k1Z/54CF3BSkAP9zv4Tq9Y/zsxdwvH1rPCYfLBQ==";
+        };
     in {
         "WI83Jl82" = _WI83Jl82;
         "r9DaE144" = _r9DaE144;
@@ -38,24 +43,26 @@ let
         "cLwFggDW" = _cLwFggDW;
         "rFKJXawn" = _rFKJXawn;
         "QUpv1JyQ" = _QUpv1JyQ;
-        "neoforge-1.21.1" = _QUpv1JyQ;
-        "neoforge-1.21.2" = _QUpv1JyQ;
-        "neoforge-1.21.3" = _QUpv1JyQ;
-        "neoforge-1.21.4" = _QUpv1JyQ;
-        "neoforge-1.21.5" = _QUpv1JyQ;
-        "neoforge-1.21.6" = _QUpv1JyQ;
-        "neoforge-1.21.7" = _QUpv1JyQ;
-        "neoforge-1.21.8" = _QUpv1JyQ;
-        "neoforge-1.21.9" = _QUpv1JyQ;
-        "neoforge-1.21.10" = _QUpv1JyQ;
-        "neoforge-1.21.11" = _QUpv1JyQ;
+        "62gdiCy0" = _62gdiCy0;
+        "neoforge-1.21.1" = _62gdiCy0;
+        "neoforge-1.21.2" = _62gdiCy0;
+        "neoforge-1.21.3" = _62gdiCy0;
+        "neoforge-1.21.4" = _62gdiCy0;
+        "neoforge-1.21.5" = _62gdiCy0;
+        "neoforge-1.21.6" = _62gdiCy0;
+        "neoforge-1.21.7" = _62gdiCy0;
+        "neoforge-1.21.8" = _62gdiCy0;
+        "neoforge-1.21.9" = _62gdiCy0;
+        "neoforge-1.21.10" = _62gdiCy0;
+        "neoforge-1.21.11" = _62gdiCy0;
         "pkg-1.0.2" = _WI83Jl82;
         "pkg-1.0.3" = _r9DaE144;
         "pkg-1.0.4" = _S6IpeX7a;
         "pkg-1.0.5" = _cLwFggDW;
         "pkg-1.0.6" = _rFKJXawn;
         "pkg-1.1.0" = _QUpv1JyQ;
-        "default" = _QUpv1JyQ;
+        "pkg-1.2.0" = _62gdiCy0;
+        "default" = _62gdiCy0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-modern-tech";

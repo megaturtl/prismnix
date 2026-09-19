@@ -76,6 +76,11 @@ let
             "file" = "Shaderless Fullbright.zip";
             "hash" = "sha512-BlCmQvOTaRiHuZfjsKZ4rEHhoDB0EX/EDNTT5qXui7/0vWRdw+Dro1K5s2MVl1UVHQ5ewraTVJk+WyYYlalURQ==";
         };
+        _ZiIhTT2G = {
+            "id" = "ZiIhTT2G";
+            "file" = "Shaderless Fullbright.zip";
+            "hash" = "sha512-atyBHyKbUk+1j+eCd1MLuZXQEFPc6z3tEs8qcSfhdEfk8aXRbPCV68VZvOCfXMvAgZfFrec7AwgmMUbApQy2ng==";
+        };
     in {
         "4Z9VuhLE" = _4Z9VuhLE;
         "XGkcqq6Z" = _XGkcqq6Z;
@@ -92,6 +97,7 @@ let
         "4E0HxLAu" = _4E0HxLAu;
         "5CSfmh6k" = _5CSfmh6k;
         "ncUBvAs2" = _ncUBvAs2;
+        "ZiIhTT2G" = _ZiIhTT2G;
         "minecraft-24w33a" = _XGkcqq6Z;
         "minecraft-24w34a" = _XGkcqq6Z;
         "minecraft-24w35a" = _XGkcqq6Z;
@@ -138,6 +144,7 @@ let
         "minecraft-26.1.1" = _5CSfmh6k;
         "minecraft-26.1.2" = _5CSfmh6k;
         "minecraft-26.2" = _ncUBvAs2;
+        "minecraft-26.3" = _ZiIhTT2G;
         "pkg-1" = _4Z9VuhLE;
         "pkg-1.1" = _XGkcqq6Z;
         "pkg-1.2" = _lDMDtm9i;
@@ -153,7 +160,8 @@ let
         "pkg-1.6" = _4E0HxLAu;
         "pkg-1.7" = _5CSfmh6k;
         "pkg-26.2" = _ncUBvAs2;
-        "default" = _ncUBvAs2;
+        "pkg-26.3" = _ZiIhTT2G;
+        "default" = _ZiIhTT2G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shaderless-fullbright";

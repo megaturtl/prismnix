@@ -71,6 +71,26 @@ let
             "file" = "HighlightRender-1.5.1.jar";
             "hash" = "sha512-TuRNM5ffVD9DAyCMvoblujhrBi502puxy2gTMSr0qi2MsjbcFqMj8t60AXSb+koDcXMnF3CO1br/HtWIVZH9Sw==";
         };
+        _3QiV2vIw = {
+            "id" = "3QiV2vIw";
+            "file" = "HighlightRender-1.7.9.jar";
+            "hash" = "sha512-7A6RESC/hB6Q7DwkFbwEGdk8Um5ITTPVnVHqn7gHbqj25A7YMuGFE0I87dm2YqQp3TI2yZ3OH1gDI/7Lrgkf9Q==";
+        };
+        _uSIRNY3n = {
+            "id" = "uSIRNY3n";
+            "file" = "HighlightRender-1.5.2.jar";
+            "hash" = "sha512-IgosfBLB1vL5SAwGdU/hlMY9fencdafu9lmlQOWxh5I2c0VjHAEytJeo30v6n1BmOgGotlfcRXkGBxyHMghc/w==";
+        };
+        _iMhF4I9y = {
+            "id" = "iMhF4I9y";
+            "file" = "HighlightRender-1.4.2.jar";
+            "hash" = "sha512-StujqGhBKYbr7di2HRRV5hyGUblkXRdzf8CvkOe5zYmt2ykqHu8rHAskHzHVOSHf8EqgBmnw/bAavmbKt0n5SA==";
+        };
+        _NVFSR88G = {
+            "id" = "NVFSR88G";
+            "file" = "HighlightRender-1.4.3.jar";
+            "hash" = "sha512-TXWMWS/w5n50cghaangOhTjDkRQIsBWG+yUEEl/fvG70HmVkY9iRp3c05f+A/QvXDjDWmjLNuD3mx+KFR+Jkzg==";
+        };
     in {
         "pj9BaDtK" = _pj9BaDtK;
         "pICmZ1EJ" = _pICmZ1EJ;
@@ -86,18 +106,22 @@ let
         "LLyOUNto" = _LLyOUNto;
         "1remcLON" = _1remcLON;
         "y5bXmME9" = _y5bXmME9;
-        "fabric-1.21.11" = _LLyOUNto;
+        "3QiV2vIw" = _3QiV2vIw;
+        "uSIRNY3n" = _uSIRNY3n;
+        "iMhF4I9y" = _iMhF4I9y;
+        "NVFSR88G" = _NVFSR88G;
+        "fabric-1.21.11" = _3QiV2vIw;
         "fabric-1.21.9" = _pICmZ1EJ;
         "fabric-1.21.10" = _pICmZ1EJ;
-        "fabric-1.21.5" = _y5bXmME9;
-        "fabric-1.21.6" = _y5bXmME9;
-        "fabric-1.21.7" = _y5bXmME9;
-        "fabric-1.21.8" = _y5bXmME9;
-        "fabric-1.21" = _1remcLON;
-        "fabric-1.21.1" = _1remcLON;
-        "fabric-1.21.2" = _1remcLON;
-        "fabric-1.21.3" = _1remcLON;
-        "fabric-1.21.4" = _1remcLON;
+        "fabric-1.21.5" = _uSIRNY3n;
+        "fabric-1.21.6" = _uSIRNY3n;
+        "fabric-1.21.7" = _uSIRNY3n;
+        "fabric-1.21.8" = _uSIRNY3n;
+        "fabric-1.21" = _NVFSR88G;
+        "fabric-1.21.1" = _NVFSR88G;
+        "fabric-1.21.2" = _NVFSR88G;
+        "fabric-1.21.3" = _NVFSR88G;
+        "fabric-1.21.4" = _NVFSR88G;
         "pkg-1.7" = _pj9BaDtK;
         "pkg-1.6" = _pICmZ1EJ;
         "pkg-1.5" = _ZgglORVT;
@@ -112,7 +136,11 @@ let
         "pkg-1.7.8" = _LLyOUNto;
         "pkg-1.4.1" = _1remcLON;
         "pkg-1.5.1" = _y5bXmME9;
-        "default" = _y5bXmME9;
+        "pkg-1.7.9" = _3QiV2vIw;
+        "pkg-1.5.2" = _uSIRNY3n;
+        "pkg-1.4.2" = _iMhF4I9y;
+        "pkg-1.4.3" = _NVFSR88G;
+        "default" = _NVFSR88G;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "highlightrender";

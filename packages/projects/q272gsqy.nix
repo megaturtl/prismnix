@@ -41,6 +41,11 @@ let
             "file" = "simpleswap-1.0+26.2.jar";
             "hash" = "sha512-zDj9+/yVnPA4PbocUsjw16sggTDS4Br6DmN6idxaOvg1Wz6WNYTamsjV+zKW6V3K5SMYbGBIGzuHUgFz9ZHbHQ==";
         };
+        _aEcrRjdY = {
+            "id" = "aEcrRjdY";
+            "file" = "simpleswap-1.0+26.3.jar";
+            "hash" = "sha512-mn3fSLV1gBgST7l29AyfD2UWrU5PJamoxBWlaagSikFkyAVzzbZVVazsb0OStTot9AG9Cit5PTskwRa43on9iw==";
+        };
     in {
         "VpCnH9nQ" = _VpCnH9nQ;
         "432gArvd" = _432gArvd;
@@ -50,6 +55,7 @@ let
         "5RHhlbrK" = _5RHhlbrK;
         "jWffhxDV" = _jWffhxDV;
         "Ub5CXAaj" = _Ub5CXAaj;
+        "aEcrRjdY" = _aEcrRjdY;
         "fabric-1.21.4" = _VpCnH9nQ;
         "fabric-1.20.1" = _432gArvd;
         "fabric-1.21.6" = _cNXfWN9c;
@@ -60,13 +66,15 @@ let
         "fabric-1.21.11" = _5RHhlbrK;
         "fabric-26.1.2" = _jWffhxDV;
         "fabric-26.2" = _Ub5CXAaj;
+        "fabric-26.3" = _aEcrRjdY;
         "pkg-1.0" = _cNXfWN9c;
         "pkg-1.0+1.21.1" = _SdH4AoCF;
         "pkg-1.0+1.21.9" = _Y6WeRRwI;
         "pkg-1.0+1.21.11" = _5RHhlbrK;
         "pkg-1.0+26.1.2" = _jWffhxDV;
         "pkg-1.0+26.2" = _Ub5CXAaj;
-        "default" = _Ub5CXAaj;
+        "pkg-1.0+26.3" = _aEcrRjdY;
+        "default" = _aEcrRjdY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simpleswap";

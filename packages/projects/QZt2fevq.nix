@@ -901,6 +901,11 @@ let
             "file" = "naturaltemperature-1.1.10-NEOFORGE-MC-1.21.1.jar";
             "hash" = "sha512-qYg6nVrDu7LoUC3iAVDiJwnZkgmykTi8D2pj9STpnQMn16XWj6hIOfxK6UERMZq0NO9DoYXDdtkFFmNGSOwT7w==";
         };
+        _kQteHRBR = {
+            "id" = "kQteHRBR";
+            "file" = "natural-temperature-1.1.11-FABRIC-MC-26.3.jar";
+            "hash" = "sha512-B/ZOzjTDlQIAzVJ2x5rBYkaPu2ia/4vJuxf6Zn9WbeuA7ZxBqKQh4Anri8on0OFhggXUVaYDb4v7o7gCC9n+ng==";
+        };
     in {
         "tydxrdhC" = _tydxrdhC;
         "NojYw1ze" = _NojYw1ze;
@@ -1082,6 +1087,7 @@ let
         "GdrGPj9v" = _GdrGPj9v;
         "zX2j8apm" = _zX2j8apm;
         "zMyREpgW" = _zMyREpgW;
+        "kQteHRBR" = _kQteHRBR;
         "fabric-1.21.4" = _FRFxovyZ;
         "fabric-1.21.5" = _FRFxovyZ;
         "fabric-1.20.1" = _GdrGPj9v;
@@ -1103,6 +1109,7 @@ let
         "fabric-26.1.1" = _PPlLp46X;
         "fabric-26.1.2" = _PPlLp46X;
         "fabric-26.2" = _YxkQTe0m;
+        "fabric-26.3" = _kQteHRBR;
         "neoforge-1.21.4" = _DqAmCBa6;
         "neoforge-1.21.5" = _IDSyG1Is;
         "neoforge-1.20.1" = _zX2j8apm;
@@ -1154,7 +1161,8 @@ let
         "pkg-1.1.8" = _MDzIYcD3;
         "pkg-1.1.9" = _ivTtRcz7;
         "pkg-1.1.10" = _zMyREpgW;
-        "default" = _zMyREpgW;
+        "pkg-1.1.11" = _kQteHRBR;
+        "default" = _kQteHRBR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "natural-temperature";

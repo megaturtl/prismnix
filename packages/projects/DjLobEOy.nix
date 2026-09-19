@@ -226,6 +226,11 @@ let
             "file" = "t_and_t-fabric-neoforge-1.13.11.jar";
             "hash" = "sha512-dGSxVWJQzu4ltLUx4H9lVoyYqdJvlyMsH2AWvmP/JDiR3oKD4HKYHeuWjqfYuDvcFXnuhCtreSRG9MJqQ69LYg==";
         };
+        _yajFnGZS = {
+            "id" = "yajFnGZS";
+            "file" = "t_and_t-fabric-neoforge-1.13.12.jar";
+            "hash" = "sha512-Z3Q5G4c9AkFTi+Kc9/gpnr+vLZ8DKSsoED3/QfztID3GnmQDLKm5njtTZN4hafZUpmM6JVRlrcmU2xesCkwz2A==";
+        };
     in {
         "HCI7zdCJ" = _HCI7zdCJ;
         "lHx8tNSw" = _lHx8tNSw;
@@ -272,6 +277,7 @@ let
         "E39wx2BN" = _E39wx2BN;
         "7WrvuRMP" = _7WrvuRMP;
         "DZxwgj6V" = _DZxwgj6V;
+        "yajFnGZS" = _yajFnGZS;
         "fabric-1.18.2" = _OW3d0dmB;
         "fabric-1.19" = _s7UXEluf;
         "fabric-1.19.1" = _s7UXEluf;
@@ -297,6 +303,7 @@ let
         "fabric-26.1.1" = _eN3WLQ3P;
         "fabric-26.1.2" = _eN3WLQ3P;
         "fabric-26.2" = _eN3WLQ3P;
+        "fabric-26.3" = _yajFnGZS;
         "forge-1.18.2" = _HkbknuHF;
         "forge-1.19" = _vHB74V8C;
         "forge-1.19.1" = _vHB74V8C;
@@ -322,6 +329,7 @@ let
         "quilt-26.1.2" = _eN3WLQ3P;
         "quilt-26.2" = _eN3WLQ3P;
         "quilt-1.21.1" = _DZxwgj6V;
+        "quilt-26.3" = _yajFnGZS;
         "neoforge-1.19.3" = _avrYXbs7;
         "neoforge-1.19.4" = _avrYXbs7;
         "neoforge-1.20" = _avrYXbs7;
@@ -343,6 +351,7 @@ let
         "neoforge-26.1.1" = _eN3WLQ3P;
         "neoforge-26.1.2" = _eN3WLQ3P;
         "neoforge-26.2" = _eN3WLQ3P;
+        "neoforge-26.3" = _yajFnGZS;
         "datapack-1.21.1" = _cyBYEaKz;
         "datapack-1.21.11" = _sCIX9pFY;
         "datapack-26.1" = _E39wx2BN;
@@ -380,7 +389,8 @@ let
         "pkg-1.21.1-datapack" = _cyBYEaKz;
         "pkg-1.21.11-datapack" = _sCIX9pFY;
         "pkg-26.1-datapack" = _E39wx2BN;
-        "default" = _DZxwgj6V;
+        "pkg-1.13.12" = _yajFnGZS;
+        "default" = _yajFnGZS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "towns-and-towers";

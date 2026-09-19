@@ -66,6 +66,11 @@ let
             "file" = "§e☽ §d§lNightUI§8§o §8v1.4.3.zip";
             "hash" = "sha512-xJBNHrGDSj8G4DU5t1+8sT/kvMZHfadS/2uyYoHVka1uSSeeAosdttxphB1fiwAjy0piTOhmNNCq5Uhvi1OBnA==";
         };
+        _I6a0Dnzx = {
+            "id" = "I6a0Dnzx";
+            "file" = "§e☽ §d§lNightUI§8§o §8v1.4.4.zip";
+            "hash" = "sha512-Bcdzg5Tf5/XH9IXqZ71W1zU9iMGOIiF/kaCqlgAIYnOvGyZxEIxcEwYmw9qJgxpSPgMIipfkIo76Fp0yjHh6dw==";
+        };
     in {
         "EfAjtcIi" = _EfAjtcIi;
         "eKNzCfiU" = _eKNzCfiU;
@@ -80,6 +85,7 @@ let
         "ZV9SzKXg" = _ZV9SzKXg;
         "APbAFCuX" = _APbAFCuX;
         "pfJ0IIoM" = _pfJ0IIoM;
+        "I6a0Dnzx" = _I6a0Dnzx;
         "minecraft-1.20" = _ZV9SzKXg;
         "minecraft-1.20.1" = _ZV9SzKXg;
         "minecraft-1.19" = _I0O07OeK;
@@ -151,6 +157,7 @@ let
         "minecraft-26.1.1" = _APbAFCuX;
         "minecraft-26.1.2" = _APbAFCuX;
         "minecraft-26.2" = _pfJ0IIoM;
+        "minecraft-26.3" = _I6a0Dnzx;
         "pkg-1.0" = _EfAjtcIi;
         "pkg-1.0.1" = _eKNzCfiU;
         "pkg-1.0.2" = _WpGomI3c;
@@ -163,7 +170,8 @@ let
         "pkg-v1.4.1" = _ZV9SzKXg;
         "pkg-v1.4.2" = _APbAFCuX;
         "pkg-v1.4.3" = _pfJ0IIoM;
-        "default" = _pfJ0IIoM;
+        "pkg-v1.4.4" = _I6a0Dnzx;
+        "default" = _I6a0Dnzx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "night-ui";

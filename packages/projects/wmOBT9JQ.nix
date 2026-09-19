@@ -61,6 +61,11 @@ let
             "file" = "PVP NootyPack 1.5+26.2.zip";
             "hash" = "sha512-K0LxCXi6lktcn/ipOq5x5EfLs9p4577VTGO01hHwS8evQ49yXL8eN8k+ilqXwjuyE4zDQ7NEgsr92uW/rSRDHw==";
         };
+        _18FvHNaJ = {
+            "id" = "18FvHNaJ";
+            "file" = "PVP NootyPack 1.5.1+26.3.zip";
+            "hash" = "sha512-dtVUn8oGoeP63+KpK/xrHq2E2Y/q6Npjo8Kmnb9i+0stWL7+ff/UDjQd/0k6qLBYLLu27OmGKBhII0ehw9Ncdg==";
+        };
     in {
         "kCUWc9CZ" = _kCUWc9CZ;
         "aBCewh9S" = _aBCewh9S;
@@ -74,6 +79,7 @@ let
         "RElIfPha" = _RElIfPha;
         "kQsBemF7" = _kQsBemF7;
         "YcBHUC6m" = _YcBHUC6m;
+        "18FvHNaJ" = _18FvHNaJ;
         "minecraft-1.20" = _qJmhAcpE;
         "minecraft-1.20.1" = _qJmhAcpE;
         "minecraft-1.20.2" = _qJmhAcpE;
@@ -133,6 +139,7 @@ let
         "minecraft-26.1.1" = _kQsBemF7;
         "minecraft-26.1.2" = _kQsBemF7;
         "minecraft-26.2" = _YcBHUC6m;
+        "minecraft-26.3" = _18FvHNaJ;
         "pkg-1.0" = _kCUWc9CZ;
         "pkg-1.1" = _aBCewh9S;
         "pkg-1.2" = _7W78GcmM;
@@ -141,7 +148,8 @@ let
         "pkg-1.3" = _GHVzlDse;
         "pkg-1.4" = _RElIfPha;
         "pkg-1.5" = _YcBHUC6m;
-        "default" = _YcBHUC6m;
+        "pkg-1.5.1" = _18FvHNaJ;
+        "default" = _18FvHNaJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pvpnootypack";

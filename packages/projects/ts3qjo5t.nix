@@ -51,6 +51,11 @@ let
             "file" = "abnormals_delight-1.21.1-6.0.2.jar";
             "hash" = "sha512-acVV8UptZlmhNbFq/B2OV72CRsImk/8UfwJgXHVZqitjm4NabEq6tbJe3ArmjMhMLbB50zxHAA+opoLHEho6IQ==";
         };
+        _Awq3tnNj = {
+            "id" = "Awq3tnNj";
+            "file" = "abnormals_delight-1.21.1-6.0.3.jar";
+            "hash" = "sha512-nwC7++hRQMfuqLbEAsibDq909o8hCe9uBJ1xWRh+S7zKFQ22WsqWtYnI2Cc5SpHiDYtAf5jzgcX/Ibcawy6TPw==";
+        };
     in {
         "nD9HKe19" = _nD9HKe19;
         "hi3oI4QI" = _hi3oI4QI;
@@ -62,12 +67,13 @@ let
         "RcsLyPBa" = _RcsLyPBa;
         "5bbDmPSY" = _5bbDmPSY;
         "FTg86KNz" = _FTg86KNz;
+        "Awq3tnNj" = _Awq3tnNj;
         "forge-1.16.5" = _nD9HKe19;
         "forge-1.18.2" = _hi3oI4QI;
         "forge-1.19.2" = _u2H47I5t;
         "forge-1.20.1" = _vvM8zPPK;
         "neoforge-1.20.1" = _vvM8zPPK;
-        "neoforge-1.21.1" = _FTg86KNz;
+        "neoforge-1.21.1" = _Awq3tnNj;
         "pkg-1.2.1" = _nD9HKe19;
         "pkg-3.0.2" = _hi3oI4QI;
         "pkg-4.1.0" = _1xsKsyDL;
@@ -78,7 +84,8 @@ let
         "pkg-6.0.0" = _RcsLyPBa;
         "pkg-6.0.1" = _5bbDmPSY;
         "pkg-6.0.2" = _FTg86KNz;
-        "default" = _FTg86KNz;
+        "pkg-6.0.3" = _Awq3tnNj;
+        "default" = _Awq3tnNj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "abnormals-delight";

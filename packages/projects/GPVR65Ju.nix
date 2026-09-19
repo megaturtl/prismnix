@@ -121,6 +121,11 @@ let
             "file" = "ExtraShields-1.4.2+26.2-fabric.jar";
             "hash" = "sha512-ccCgL6mmRo7PuwM2jC8GyO+Vg2lgU225DhOLV7tBlR+PDaz0fVVQNTNaNrVpfIDl+XzcUv6U+msXxkFUrXSP9w==";
         };
+        _Eh1kOiSf = {
+            "id" = "Eh1kOiSf";
+            "file" = "ExtraShields-1.4.2+26.3-fabric.jar";
+            "hash" = "sha512-SPhQnzw4Sjph3SREDKa3ls74g1p5j0XpylE9762FJodrgNtl7vzixMqYL3+XOVPBYMk4IQz4gJfJDmO1zAzglQ==";
+        };
     in {
         "XB7PvxIK" = _XB7PvxIK;
         "LGUV3Iqf" = _LGUV3Iqf;
@@ -146,6 +151,7 @@ let
         "3qcPP4iC" = _3qcPP4iC;
         "Rca9I32H" = _Rca9I32H;
         "hNd3yHPn" = _hNd3yHPn;
+        "Eh1kOiSf" = _Eh1kOiSf;
         "fabric-1.21.1" = _nqZ7d2u4;
         "fabric-1.21" = _nqZ7d2u4;
         "fabric-1.21.6" = _BgcaMAUa;
@@ -155,6 +161,7 @@ let
         "fabric-26.1.1" = _3qcPP4iC;
         "fabric-26.1.2" = _3qcPP4iC;
         "fabric-26.2" = _hNd3yHPn;
+        "fabric-26.3" = _Eh1kOiSf;
         "neoforge-1.21.8" = _dcTXOyhb;
         "neoforge-26.1.2" = _Rca9I32H;
         "pkg-1.0.0+1.21.1+fabric" = _XB7PvxIK;
@@ -181,7 +188,8 @@ let
         "pkg-1.4.2+26.1-fabric" = _3qcPP4iC;
         "pkg-1.4.2+26.1-neoforge" = _Rca9I32H;
         "pkg-1.4.2+26.2-fabric" = _hNd3yHPn;
-        "default" = _hNd3yHPn;
+        "pkg-1.4.2+26.3-fabric" = _Eh1kOiSf;
+        "default" = _Eh1kOiSf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shields";

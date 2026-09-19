@@ -46,6 +46,16 @@ let
             "file" = "followme-2.1.32.jar";
             "hash" = "sha512-ZHo67uGoQklcq8KMx1jRHvsvwLodbx+JSZ7MNM3Nen9+lzCzDCEouACOcVPb3q6XnDGR/8LJSsdJgMO5Q0F3YQ==";
         };
+        _wYbkWjNI = {
+            "id" = "wYbkWjNI";
+            "file" = "followme-2.2.0.jar";
+            "hash" = "sha512-4RPmdrNYUbfBw8XZFSlpgtnM5jkHGaplQX5ZkALJ9MQZ/44zsYBZer7DN75lw5ifI99c2DBRjANZFgQ0ZDEs1A==";
+        };
+        _bD4BNSL3 = {
+            "id" = "bD4BNSL3";
+            "file" = "followme-2.2.1.jar";
+            "hash" = "sha512-65JBPTITShs6kYIorJrulfIBZV9fBn9QgzrVzBPFBIIkx5ULHX9g05kFyf3nmXcv5Xc1N8vWZ1pzk7ooUqDF/g==";
+        };
     in {
         "SnylQJ82" = _SnylQJ82;
         "nydlIirW" = _nydlIirW;
@@ -56,7 +66,9 @@ let
         "ahQ6aU6m" = _ahQ6aU6m;
         "ff2WsE7t" = _ff2WsE7t;
         "B3sCA1JB" = _B3sCA1JB;
-        "fabric-1.21.1" = _B3sCA1JB;
+        "wYbkWjNI" = _wYbkWjNI;
+        "bD4BNSL3" = _bD4BNSL3;
+        "fabric-1.21.1" = _bD4BNSL3;
         "pkg-2.0.0" = _SnylQJ82;
         "pkg-2.0.1" = _nydlIirW;
         "pkg-2.0.2" = _RAo2iTl2;
@@ -66,7 +78,9 @@ let
         "pkg-2.1.3" = _ahQ6aU6m;
         "pkg-2.1.31" = _ff2WsE7t;
         "pkg-2.1.32" = _B3sCA1JB;
-        "default" = _B3sCA1JB;
+        "pkg-2.2.0" = _wYbkWjNI;
+        "pkg-2.2.1" = _bD4BNSL3;
+        "default" = _bD4BNSL3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "follow-me-cobblemon";

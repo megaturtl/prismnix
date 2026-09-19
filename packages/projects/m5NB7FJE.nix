@@ -221,6 +221,11 @@ let
             "file" = "polydex-1.10.0+26.2-rc-2.jar";
             "hash" = "sha512-VYBEDa0uPte4g06NjeL5hJAW0oyEkDwu90Ko1QtzVOM3FspgzsFqIF7amqfWbN7XZ+yrY6dbe+8pY2u1NWp2Aw==";
         };
+        _hUejnkI9 = {
+            "id" = "hUejnkI9";
+            "file" = "polydex-1.11.0+26.3-rc-1.jar";
+            "hash" = "sha512-aWCX+njsuDZcp+rwLSXUG2aX+EO1BbeBVYm6xD/Fts7bpTqIpi/Ao2uLKEhis/5G+q+M1wNjBZ6U9c4wDLBn/A==";
+        };
     in {
         "QU3ZPyie" = _QU3ZPyie;
         "Uboahezf" = _Uboahezf;
@@ -266,6 +271,7 @@ let
         "XSyHBZuX" = _XSyHBZuX;
         "nJfwsPHL" = _nJfwsPHL;
         "wqzSxvmz" = _wqzSxvmz;
+        "hUejnkI9" = _hUejnkI9;
         "fabric-1.18.1" = _BfN58MTQ;
         "fabric-1.18.2" = _ueU91TVD;
         "fabric-1.19-rc2" = _ONMS73uG;
@@ -309,6 +315,8 @@ let
         "fabric-26.1.2" = _nJfwsPHL;
         "fabric-26.2-rc-2" = _wqzSxvmz;
         "fabric-26.2" = _wqzSxvmz;
+        "fabric-26.3-rc-1" = _hUejnkI9;
+        "fabric-26.3" = _hUejnkI9;
         "quilt-1.18.2" = _ueU91TVD;
         "quilt-1.19-rc2" = _ONMS73uG;
         "quilt-1.19" = _aZjqomaV;
@@ -388,7 +396,8 @@ let
         "pkg-1.9.2+26.1-rc-3" = _XSyHBZuX;
         "pkg-1.9.3+26.1.2" = _nJfwsPHL;
         "pkg-1.10.0+26.2-rc-2" = _wqzSxvmz;
-        "default" = _wqzSxvmz;
+        "pkg-1.11.0+26.3-rc-1" = _hUejnkI9;
+        "default" = _hUejnkI9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "polydex";

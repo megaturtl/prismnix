@@ -116,6 +116,21 @@ let
             "file" = "Opticores-1.1.1+1.21.1.jar";
             "hash" = "sha512-Qv5nlDeRWJTm04T3leefy78X5+kvX1rWDW24Eu4ZoTu/9EySnmpxYniYAKondJKog0T0PjGoenVANq8CzCNHaA==";
         };
+        _i9heULIX = {
+            "id" = "i9heULIX";
+            "file" = "Opticores-1.1.0+1.21.1.jar";
+            "hash" = "sha512-SuJH59pNL2XZM4kvNhyIroet9wagXY9av62MetTlD7uAfkVyiNtk3Pf0ri0kl6noYHWVJhPPKZOrs10+fszb/w==";
+        };
+        _Uzi1lAbc = {
+            "id" = "Uzi1lAbc";
+            "file" = "opticores-1.1.0+1.20.1.jar";
+            "hash" = "sha512-e2UC58xj1u786bolGUfUqQ/PrrFMalpxWJX7Gfr012Kizg7GGX4GY7S3xHTuLulpuf4u15sRKsFfjSk2nmedXg==";
+        };
+        _JpitIL3u = {
+            "id" = "JpitIL3u";
+            "file" = "opticores-1.1.0+26.x.jar";
+            "hash" = "sha512-V3wnb1MYpc6Dm4xF3TYuBBFLGERVTL7DeHuLiRNZjNPHj90GYcMkAmvLc81h7r8ED6I410yfgOQLq6uh8/uQnA==";
+        };
     in {
         "ASCVXdTN" = _ASCVXdTN;
         "xt4XTsZc" = _xt4XTsZc;
@@ -140,21 +155,24 @@ let
         "ho1IGyvN" = _ho1IGyvN;
         "gf04zbNH" = _gf04zbNH;
         "tpXamHyq" = _tpXamHyq;
-        "neoforge-1.21.1" = _KFCBdrOM;
-        "neoforge-1.21.2" = _KFCBdrOM;
-        "neoforge-1.21.3" = _KFCBdrOM;
-        "neoforge-1.21.4" = _KFCBdrOM;
-        "neoforge-1.21.5" = _KFCBdrOM;
-        "neoforge-1.21.6" = _KFCBdrOM;
-        "neoforge-1.21.7" = _KFCBdrOM;
-        "neoforge-1.21.8" = _KFCBdrOM;
-        "neoforge-1.21.9" = _KFCBdrOM;
-        "neoforge-1.21.10" = _KFCBdrOM;
-        "neoforge-1.21.11" = _KFCBdrOM;
-        "neoforge-26.1" = _KFCBdrOM;
-        "neoforge-26.1.1" = _KFCBdrOM;
-        "neoforge-26.1.2" = _KFCBdrOM;
-        "neoforge-26.2" = _KFCBdrOM;
+        "i9heULIX" = _i9heULIX;
+        "Uzi1lAbc" = _Uzi1lAbc;
+        "JpitIL3u" = _JpitIL3u;
+        "neoforge-1.21.1" = _i9heULIX;
+        "neoforge-1.21.2" = _i9heULIX;
+        "neoforge-1.21.3" = _i9heULIX;
+        "neoforge-1.21.4" = _i9heULIX;
+        "neoforge-1.21.5" = _i9heULIX;
+        "neoforge-1.21.6" = _i9heULIX;
+        "neoforge-1.21.7" = _i9heULIX;
+        "neoforge-1.21.8" = _i9heULIX;
+        "neoforge-1.21.9" = _i9heULIX;
+        "neoforge-1.21.10" = _i9heULIX;
+        "neoforge-1.21.11" = _i9heULIX;
+        "neoforge-26.1" = _JpitIL3u;
+        "neoforge-26.1.1" = _JpitIL3u;
+        "neoforge-26.1.2" = _JpitIL3u;
+        "neoforge-26.2" = _JpitIL3u;
         "forge-1.21.1" = _QI3F3pjy;
         "forge-1.21.2" = _r8jyZzgf;
         "forge-1.21.3" = _r8jyZzgf;
@@ -166,12 +184,12 @@ let
         "forge-1.21.9" = _r8jyZzgf;
         "forge-1.21.10" = _r8jyZzgf;
         "forge-1.21.11" = _fPHbUHbX;
-        "forge-1.20.1" = _gf04zbNH;
-        "forge-1.20.2" = _gf04zbNH;
-        "forge-1.20.3" = _gf04zbNH;
-        "forge-1.20.4" = _gf04zbNH;
-        "forge-1.20.5" = _gf04zbNH;
-        "forge-1.20.6" = _gf04zbNH;
+        "forge-1.20.1" = _Uzi1lAbc;
+        "forge-1.20.2" = _Uzi1lAbc;
+        "forge-1.20.3" = _Uzi1lAbc;
+        "forge-1.20.4" = _Uzi1lAbc;
+        "forge-1.20.5" = _Uzi1lAbc;
+        "forge-1.20.6" = _Uzi1lAbc;
         "fabric-1.21.1" = _tpXamHyq;
         "fabric-1.21.2" = _tpXamHyq;
         "fabric-1.21.3" = _tpXamHyq;
@@ -195,7 +213,10 @@ let
         "pkg-1.1.0" = _fhigdo72;
         "pkg-1.0.7" = _SWenK7ZX;
         "pkg-1.1.1" = _tpXamHyq;
-        "default" = _tpXamHyq;
+        "pkg-1.1.0+1.21.x" = _i9heULIX;
+        "pkg-1.1.0+1.20.x" = _Uzi1lAbc;
+        "pkg-1.1.0+26.x" = _JpitIL3u;
+        "default" = _JpitIL3u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "opticores";

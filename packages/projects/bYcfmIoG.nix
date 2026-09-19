@@ -126,6 +126,16 @@ let
             "file" = "ketket-graves-2.4.jar";
             "hash" = "sha512-K0ebBncbCOF5pxksgURTtYLugXM3U2Hjo22neO9rvbgN6OoehxR7DyKPOacwwyg7hutCqIC/59abEIKy95pd/A==";
         };
+        _FXmBLARy = {
+            "id" = "FXmBLARy";
+            "file" = "graves-v2.5.zip";
+            "hash" = "sha512-kgMibO9feQG/nVP2Na/XwPTicRNb0z1eAjfyUkoSnZOBGpFH50VawEBQXGur/n9jEJV5H6T3SCH8LbYy5O+asA==";
+        };
+        _O8jufnA9 = {
+            "id" = "O8jufnA9";
+            "file" = "ketket-graves-2.5.jar";
+            "hash" = "sha512-o5L89tgGw+Mnp4qazXzTrJ2xK8BKMOnY5xyh3W11VwXztqQubDbri08sv6f5cucMZ2Ji/ZhqX96WflBAWorlZg==";
+        };
     in {
         "8zpiPxJx" = _8zpiPxJx;
         "AiVXpUNW" = _AiVXpUNW;
@@ -152,6 +162,8 @@ let
         "x7QsuNOw" = _x7QsuNOw;
         "KL6JT1nQ" = _KL6JT1nQ;
         "jHdsuNot" = _jHdsuNot;
+        "FXmBLARy" = _FXmBLARy;
+        "O8jufnA9" = _O8jufnA9;
         "datapack-1.21.2" = _8zpiPxJx;
         "datapack-1.21.3" = _8zpiPxJx;
         "datapack-1.21.4" = _8zpiPxJx;
@@ -166,6 +178,7 @@ let
         "datapack-26.1.1" = _KL6JT1nQ;
         "datapack-26.1.2" = _KL6JT1nQ;
         "datapack-26.2" = _KL6JT1nQ;
+        "datapack-26.3" = _FXmBLARy;
         "fabric-1.21.2" = _AiVXpUNW;
         "fabric-1.21.3" = _AiVXpUNW;
         "fabric-1.21.4" = _AiVXpUNW;
@@ -180,6 +193,7 @@ let
         "fabric-26.1.1" = _jHdsuNot;
         "fabric-26.1.2" = _jHdsuNot;
         "fabric-26.2" = _jHdsuNot;
+        "fabric-26.3" = _O8jufnA9;
         "forge-1.21.2" = _AiVXpUNW;
         "forge-1.21.3" = _AiVXpUNW;
         "forge-1.21.4" = _AiVXpUNW;
@@ -194,6 +208,7 @@ let
         "forge-26.1.1" = _jHdsuNot;
         "forge-26.1.2" = _jHdsuNot;
         "forge-26.2" = _jHdsuNot;
+        "forge-26.3" = _O8jufnA9;
         "neoforge-1.21.2" = _AiVXpUNW;
         "neoforge-1.21.3" = _AiVXpUNW;
         "neoforge-1.21.4" = _AiVXpUNW;
@@ -208,6 +223,7 @@ let
         "neoforge-26.1.1" = _jHdsuNot;
         "neoforge-26.1.2" = _jHdsuNot;
         "neoforge-26.2" = _jHdsuNot;
+        "neoforge-26.3" = _O8jufnA9;
         "quilt-1.21.2" = _AiVXpUNW;
         "quilt-1.21.3" = _AiVXpUNW;
         "quilt-1.21.4" = _AiVXpUNW;
@@ -222,6 +238,7 @@ let
         "quilt-26.1.1" = _jHdsuNot;
         "quilt-26.1.2" = _jHdsuNot;
         "quilt-26.2" = _jHdsuNot;
+        "quilt-26.3" = _O8jufnA9;
         "pkg-0.2" = _8zpiPxJx;
         "pkg-0.2+mod" = _AiVXpUNW;
         "pkg-0.5" = _7I3XcCf3;
@@ -247,7 +264,9 @@ let
         "pkg-2.3+mod" = _x7QsuNOw;
         "pkg-2.4" = _KL6JT1nQ;
         "pkg-2.4+mod" = _jHdsuNot;
-        "default" = _jHdsuNot;
+        "pkg-2.5" = _FXmBLARy;
+        "pkg-2.5+mod" = _O8jufnA9;
+        "default" = _O8jufnA9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ketket-graves";

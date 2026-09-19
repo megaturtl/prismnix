@@ -101,6 +101,16 @@ let
             "file" = "quick-shulker-boxes-1.3.jar";
             "hash" = "sha512-035Bwd4A+qNZylYT/iVp3DaLy/748D5F0Riwc7Q6B3gfrIWuvzBiAmCuaUUDLo7jQKRYG8uZfUHSpmKHs3vgjQ==";
         };
+        _pUgIArhp = {
+            "id" = "pUgIArhp";
+            "file" = "qshulkerboxes-v1.4.zip";
+            "hash" = "sha512-v13TQARAaeBfcCyO+xvC3ZzqDRBe7xDARi2/8uHJRyWEfJYCTelJ+M21JGogpmrRYoAmm0EXNePRZNFbK6kyKg==";
+        };
+        _ISFttKBs = {
+            "id" = "ISFttKBs";
+            "file" = "qshulkerboxes-v1.4+mod.jar";
+            "hash" = "sha512-j+2AL3Lt15UFVGz4okWFgdY6haBeu2D6+yDC1b2ilbzrvNo6M4rIfHeLVeauWZU58KLEFQXWNh6bDnYuna9L7A==";
+        };
     in {
         "CUxqBL6N" = _CUxqBL6N;
         "1kk9cEgP" = _1kk9cEgP;
@@ -122,6 +132,8 @@ let
         "d08yl7mZ" = _d08yl7mZ;
         "Vj0K6umY" = _Vj0K6umY;
         "DoU2acin" = _DoU2acin;
+        "pUgIArhp" = _pUgIArhp;
+        "ISFttKBs" = _ISFttKBs;
         "datapack-1.21.2" = _7uEgX27x;
         "datapack-1.21.3" = _7uEgX27x;
         "datapack-1.21.4" = _7uEgX27x;
@@ -134,6 +146,7 @@ let
         "datapack-1.21.11" = _Ysp7qGpM;
         "datapack-26.1" = _Qw0KvWfu;
         "datapack-26.2" = _Vj0K6umY;
+        "datapack-26.3" = _pUgIArhp;
         "fabric-1.21.2" = _Ic072i4k;
         "fabric-1.21.3" = _Ic072i4k;
         "fabric-1.21.4" = _Ic072i4k;
@@ -146,6 +159,7 @@ let
         "fabric-1.21.11" = _9twHkFam;
         "fabric-26.1" = _BQsMBRph;
         "fabric-26.2" = _DoU2acin;
+        "fabric-26.3" = _ISFttKBs;
         "forge-1.21.2" = _Ic072i4k;
         "forge-1.21.3" = _Ic072i4k;
         "forge-1.21.4" = _Ic072i4k;
@@ -158,6 +172,7 @@ let
         "forge-1.21.11" = _9twHkFam;
         "forge-26.1" = _BQsMBRph;
         "forge-26.2" = _DoU2acin;
+        "forge-26.3" = _ISFttKBs;
         "neoforge-1.21.2" = _Ic072i4k;
         "neoforge-1.21.3" = _Ic072i4k;
         "neoforge-1.21.4" = _Ic072i4k;
@@ -170,6 +185,7 @@ let
         "neoforge-1.21.11" = _9twHkFam;
         "neoforge-26.1" = _BQsMBRph;
         "neoforge-26.2" = _DoU2acin;
+        "neoforge-26.3" = _ISFttKBs;
         "quilt-1.21.2" = _Ic072i4k;
         "quilt-1.21.3" = _Ic072i4k;
         "quilt-1.21.4" = _Ic072i4k;
@@ -182,6 +198,7 @@ let
         "quilt-1.21.11" = _9twHkFam;
         "quilt-26.1" = _BQsMBRph;
         "quilt-26.2" = _DoU2acin;
+        "quilt-26.3" = _ISFttKBs;
         "pkg-0.1" = _CUxqBL6N;
         "pkg-0.1+mod" = _1kk9cEgP;
         "pkg-0.2" = _TdR5Sago;
@@ -202,7 +219,9 @@ let
         "pkg-1.2+mod" = _d08yl7mZ;
         "pkg-1.3" = _Vj0K6umY;
         "pkg-1.3+mod" = _DoU2acin;
-        "default" = _DoU2acin;
+        "pkg-1.4" = _pUgIArhp;
+        "pkg-1.4+mod" = _ISFttKBs;
+        "default" = _ISFttKBs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "quick-shulker-boxes";

@@ -291,6 +291,16 @@ let
             "file" = "better_lib-neoforge-26.1-2.1.1.jar";
             "hash" = "sha512-/gi6A9b11W5gaqszDAjb2OfTTrudqFmP0/Ibw0MYJlsQSNIlXPp4vyLYpMSwqanDBfU2/3g77sDjqWoUFQIz+g==";
         };
+        _Djs5Iupg = {
+            "id" = "Djs5Iupg";
+            "file" = "better_lib-neoforge-26.1-2.1.2.jar";
+            "hash" = "sha512-AnCZNIenhdtTM0xUK4QPeVekzmG/mp3G78ehI6C0mA/MaY0ojxHlbnzJGksM6KtqMSYoDN1ZTMH0vcnZpA7xNA==";
+        };
+        _G7RtOOFX = {
+            "id" = "G7RtOOFX";
+            "file" = "better_lib-fabric-26.1-2.1.2.jar";
+            "hash" = "sha512-Tp/Fmu1dsuT8CLWno15eXYX2fKKNhvKqy83Jow5MCWlBo1OQ/SKmyY3fNm1tDwZAnO7ucivaonv06nJdutFIjw==";
+        };
     in {
         "mQln4HEH" = _mQln4HEH;
         "WNeVaN6W" = _WNeVaN6W;
@@ -350,6 +360,8 @@ let
         "pQT0cWMm" = _pQT0cWMm;
         "nSxpNb5i" = _nSxpNb5i;
         "j7SBfo6v" = _j7SBfo6v;
+        "Djs5Iupg" = _Djs5Iupg;
+        "G7RtOOFX" = _G7RtOOFX;
         "neoforge-1.21" = _xqyeIyTv;
         "neoforge-1.21.1" = _AmVIVNAC;
         "neoforge-1.21.2" = _AmVIVNAC;
@@ -362,10 +374,10 @@ let
         "neoforge-1.21.9" = _kS6fbQd0;
         "neoforge-1.21.10" = _kS6fbQd0;
         "neoforge-1.21.11" = _3FOXbOFw;
-        "neoforge-26.1" = _j7SBfo6v;
-        "neoforge-26.1.1" = _j7SBfo6v;
-        "neoforge-26.1.2" = _j7SBfo6v;
-        "neoforge-26.2" = _j7SBfo6v;
+        "neoforge-26.1" = _Djs5Iupg;
+        "neoforge-26.1.1" = _Djs5Iupg;
+        "neoforge-26.1.2" = _Djs5Iupg;
+        "neoforge-26.2" = _Djs5Iupg;
         "forge-1.21.1" = _T0b9X4nM;
         "forge-1.21.2" = _T0b9X4nM;
         "forge-1.21.3" = _T0b9X4nM;
@@ -388,10 +400,10 @@ let
         "fabric-1.21.9" = _jvJxcJLp;
         "fabric-1.21.10" = _jvJxcJLp;
         "fabric-1.21.11" = _1GmGFVOu;
-        "fabric-26.1" = _nSxpNb5i;
-        "fabric-26.1.1" = _nSxpNb5i;
-        "fabric-26.1.2" = _nSxpNb5i;
-        "fabric-26.2" = _nSxpNb5i;
+        "fabric-26.1" = _G7RtOOFX;
+        "fabric-26.1.1" = _G7RtOOFX;
+        "fabric-26.1.2" = _G7RtOOFX;
+        "fabric-26.2" = _G7RtOOFX;
         "pkg-1.0.103" = _7mNt0U4e;
         "pkg-1.0.104" = _EcusavfQ;
         "pkg-1.0.105" = _biqrNiQl;
@@ -405,7 +417,8 @@ let
         "pkg-1.0.112" = _1GmGFVOu;
         "pkg-2.1.0" = _pQT0cWMm;
         "pkg-2.1.1" = _j7SBfo6v;
-        "default" = _j7SBfo6v;
+        "pkg-2.1.2" = _G7RtOOFX;
+        "default" = _G7RtOOFX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-library";

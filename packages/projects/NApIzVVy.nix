@@ -131,6 +131,26 @@ let
             "file" = "tbcs-fabric-1.21.1-0.14.1-beta.jar";
             "hash" = "sha512-51N4zwsClT48xsCBjfjRyafIB/2QW3WCqWCtBxiPoBbmd7uhEmWa2d+49ox68tOePuDSOyU6xmcoHnkCMIQnsA==";
         };
+        _kHcTRHxp = {
+            "id" = "kHcTRHxp";
+            "file" = "tbcs-neoforge-api-1.21.1-0.15.0-beta.jar";
+            "hash" = "sha512-GE4uAtnkvHse0glFvQga+za9StmkkF7iUCCY2gZO6hB/OYYtOwd4Rk2NROTVGBwUrLtIgGovmdYOKBwI5xKRWg==";
+        };
+        _7WDH7T39 = {
+            "id" = "7WDH7T39";
+            "file" = "tbcs-fabric-api-1.21.1-0.15.0-beta.jar";
+            "hash" = "sha512-mgyL1654PeYBukUNQPlKIxX2i2Zyu9hubwxK/emjj2K3Raa9RvNdK8JePZv1ZMw63T11Q+vXXEkHMhEuvdLidQ==";
+        };
+        _ZeJ4CniE = {
+            "id" = "ZeJ4CniE";
+            "file" = "tbcs-neoforge-1.21.1-0.15.0-beta.jar";
+            "hash" = "sha512-ML8H6kaYB300elkDWk8DQhxnyQWRTAf9NQQeBHPNy9qehqAQKgJUHV3zdqe67URu9dUmV1GlPDpa0xFbipohuQ==";
+        };
+        _38O58pij = {
+            "id" = "38O58pij";
+            "file" = "tbcs-fabric-1.21.1-0.15.0-beta.jar";
+            "hash" = "sha512-xVHniWvQQRAJOeNtJHvsIIhXHzTPf9U+2ylajJOkmMOjGrVsiTIRiGYr3m7sUUzKhyWhbwAZ7To0eVYnwf+2WA==";
+        };
     in {
         "ATRzZJQD" = _ATRzZJQD;
         "3guBR4B8" = _3guBR4B8;
@@ -158,8 +178,12 @@ let
         "1v9Bkcfv" = _1v9Bkcfv;
         "IIauGpPZ" = _IIauGpPZ;
         "COwHk0vk" = _COwHk0vk;
-        "neoforge-1.21.1" = _IIauGpPZ;
-        "fabric-1.21.1" = _COwHk0vk;
+        "kHcTRHxp" = _kHcTRHxp;
+        "7WDH7T39" = _7WDH7T39;
+        "ZeJ4CniE" = _ZeJ4CniE;
+        "38O58pij" = _38O58pij;
+        "neoforge-1.21.1" = _ZeJ4CniE;
+        "fabric-1.21.1" = _38O58pij;
         "pkg-0.9.0-beta" = _3guBR4B8;
         "pkg-0.9.1-beta" = _65qnpHIk;
         "pkg-0.10.0-beta" = _K2dsPpZv;
@@ -171,7 +195,8 @@ let
         "pkg-0.13.0-beta" = _XB8t3WRf;
         "pkg-0.14.0-beta" = _jQgObvtJ;
         "pkg-0.14.1-beta" = _COwHk0vk;
-        "default" = _COwHk0vk;
+        "pkg-0.15.0-beta" = _38O58pij;
+        "default" = _38O58pij;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tbcs";

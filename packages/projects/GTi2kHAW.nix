@@ -1386,6 +1386,21 @@ let
             "file" = "structuredcrafting-26.1.2-neoforge-0.2.15-229.jar";
             "hash" = "sha512-tijigTKyCBFjpkRnN+6OKMV70gSyhmxc6NtXiATeJEs68VxfUZZi5jnCWh2FGxzBmzG7ZbCQnrq2NZCijaYG0w==";
         };
+        _ZKEE66Zm = {
+            "id" = "ZKEE66Zm";
+            "file" = "structuredcrafting-26.1.2-fabric-0.2.15-231.jar";
+            "hash" = "sha512-sGjE/gz1VOKAhDYlvZYF1f3oDSCceZHm0FHjHgt/6ozg65Evg7bLfEqCc4kNon84qKor1vsHxrPzGq8I6SKK4g==";
+        };
+        _Mgotcdx4 = {
+            "id" = "Mgotcdx4";
+            "file" = "structuredcrafting-26.1.2-forge-0.2.15-231.jar";
+            "hash" = "sha512-XQWI3zyb4WUfsJhDlMGGb1D20tNH1IDYcCrTuClXWJ6QSG0dMC7F2DC3FtUW6pZtyRoywV7VT7gVA54uVjS9AQ==";
+        };
+        _kXZQHloJ = {
+            "id" = "kXZQHloJ";
+            "file" = "structuredcrafting-26.1.2-neoforge-0.2.15-231.jar";
+            "hash" = "sha512-vwpzGJB422LcTUQt7vj0Tsfs7R21SELx9tm1RlJ/1x6Ea3TIFZWvIapaq98h3XU6zrbFQ4qzSK+JrA+nBDUL+Q==";
+        };
     in {
         "JLVi355r" = _JLVi355r;
         "eUGhOlYX" = _eUGhOlYX;
@@ -1664,6 +1679,9 @@ let
         "1JNOixLh" = _1JNOixLh;
         "dkUy7O3n" = _dkUy7O3n;
         "vIcREj7h" = _vIcREj7h;
+        "ZKEE66Zm" = _ZKEE66Zm;
+        "Mgotcdx4" = _Mgotcdx4;
+        "kXZQHloJ" = _kXZQHloJ;
         "forge-1.18.2" = _s6DKEb7f;
         "forge-1.19" = _UX9Vls25;
         "forge-1.19.2" = _aZ0kXlbh;
@@ -1678,7 +1696,7 @@ let
         "forge-1.21.10" = _ZDguhYLe;
         "forge-1.21.11" = _5HXHjZW9;
         "forge-26.1.1" = _YMxxEhl8;
-        "forge-26.1.2" = _dkUy7O3n;
+        "forge-26.1.2" = _Mgotcdx4;
         "forge-26.2" = _L4fhQBda;
         "neoforge-1.20.4" = _6EUtPq3M;
         "neoforge-1.21" = _gZfw6FGL;
@@ -1690,7 +1708,7 @@ let
         "neoforge-1.21.10" = _WdJkDJar;
         "neoforge-1.21.11" = _YvNJf6o7;
         "neoforge-26.1.1" = _ucz16oO2;
-        "neoforge-26.1.2" = _vIcREj7h;
+        "neoforge-26.1.2" = _kXZQHloJ;
         "neoforge-26.2" = _6gR1KD3d;
         "fabric-1.21.1" = _JUqhK14i;
         "fabric-1.21.4" = _K0kO4O4J;
@@ -1700,7 +1718,7 @@ let
         "fabric-1.21.10" = _ucCxVJHS;
         "fabric-1.21.11" = _kKVCMVjO;
         "fabric-26.1.1" = _ZDlQ7V82;
-        "fabric-26.1.2" = _1JNOixLh;
+        "fabric-26.1.2" = _ZKEE66Zm;
         "fabric-26.2" = _TC5B0jBe;
         "quilt-1.21.1" = _JUqhK14i;
         "quilt-1.21.4" = _K0kO4O4J;
@@ -1710,7 +1728,7 @@ let
         "quilt-1.21.10" = _ucCxVJHS;
         "quilt-1.21.11" = _kKVCMVjO;
         "quilt-26.1.1" = _ZDlQ7V82;
-        "quilt-26.1.2" = _1JNOixLh;
+        "quilt-26.1.2" = _ZKEE66Zm;
         "quilt-26.2" = _TC5B0jBe;
         "pkg-0.2.3" = _JLVi355r;
         "pkg-1.19-0.2.3" = _eUGhOlYX;
@@ -1815,7 +1833,8 @@ let
         "pkg-1.21.1-0.2.14-227" = _JUqhK14i;
         "pkg-26.2-0.2.14-230" = _6gR1KD3d;
         "pkg-26.1.2-0.2.15-229" = _vIcREj7h;
-        "default" = _vIcREj7h;
+        "pkg-26.1.2-0.2.15-231" = _kXZQHloJ;
+        "default" = _kXZQHloJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "structured-crafting";

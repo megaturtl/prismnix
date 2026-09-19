@@ -96,6 +96,11 @@ let
             "file" = "better-fabric-console-mc26.1.2-2.0.0.jar";
             "hash" = "sha512-MrWB9KkrE6ifFJxQAl0hqHxOhxWdr10cSgmbkUnD6mMHkLTiSKBfkTmIWo35C2EPBcwJnZpG4vA3VlxdXGF1Bg==";
         };
+        _hZr3IiF0 = {
+            "id" = "hZr3IiF0";
+            "file" = "better-fabric-console-mc26.3-2.1.0.jar";
+            "hash" = "sha512-PcFlNYSbzjCedZUrRxtH4ydBmjv0ReMRh/d5Jnlcve6EfJ6n4pO48vpXuCykw0EM+GfWmExbFu+mcG9A1cMUGQ==";
+        };
     in {
         "7Sf4VX7X" = _7Sf4VX7X;
         "y8TuAUjP" = _y8TuAUjP;
@@ -116,6 +121,7 @@ let
         "n1UXedVT" = _n1UXedVT;
         "6aIKl5wy" = _6aIKl5wy;
         "hOTbk3bT" = _hOTbk3bT;
+        "hZr3IiF0" = _hZr3IiF0;
         "fabric-1.19.3" = _7Sf4VX7X;
         "fabric-1.19.4" = _y8TuAUjP;
         "fabric-1.20.1" = _8YUqYot0;
@@ -132,6 +138,7 @@ let
         "fabric-1.21.11" = _6aIKl5wy;
         "fabric-26.1.2" = _hOTbk3bT;
         "fabric-26.2" = _hOTbk3bT;
+        "fabric-26.3" = _hZr3IiF0;
         "pkg-1.1.3" = _7Sf4VX7X;
         "pkg-1.1.4" = _y8TuAUjP;
         "pkg-1.1.5" = _6BihHVPz;
@@ -151,7 +158,8 @@ let
         "pkg-1.2.8" = _n1UXedVT;
         "pkg-1.2.9" = _6aIKl5wy;
         "pkg-2.0.0" = _hOTbk3bT;
-        "default" = _hOTbk3bT;
+        "pkg-2.1.0" = _hZr3IiF0;
+        "default" = _hZr3IiF0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-fabric-console";

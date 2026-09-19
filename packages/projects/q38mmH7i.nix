@@ -61,6 +61,11 @@ let
             "file" = "disney-2.2.jar";
             "hash" = "sha512-JL7YbLUC6Da85beibeq6fbjqe0a575cw/ByJqub2V5tUs5Um6Psu50H3ob4h2vqPpqkX1h77IeOhUeO8KmWrJA==";
         };
+        _UO2vbWln = {
+            "id" = "UO2vbWln";
+            "file" = "disney-1.21.1-2.2.jar";
+            "hash" = "sha512-DDu9XL7QUerepTeqUIYWi4YaJoJJNlEvPH944ikNTZVAnYBRavei2ZDEUSsLHUzxM93js+9JGfdLX0ddDaxuGg==";
+        };
     in {
         "okRwJqST" = _okRwJqST;
         "p1RtPCvx" = _p1RtPCvx;
@@ -74,8 +79,9 @@ let
         "DQOC6fpz" = _DQOC6fpz;
         "9St4GURq" = _9St4GURq;
         "f06Ytair" = _f06Ytair;
+        "UO2vbWln" = _UO2vbWln;
         "forge-1.20.1" = _f06Ytair;
-        "neoforge-1.21.1" = _9St4GURq;
+        "neoforge-1.21.1" = _UO2vbWln;
         "pkg-1.00" = _okRwJqST;
         "pkg-1.01" = _p1RtPCvx;
         "pkg-1.02" = _W99McnCu;
@@ -86,8 +92,8 @@ let
         "pkg-2.02" = _tZtaCc1s;
         "pkg-2.0.2" = _HP0yHPRl;
         "pkg-2.1" = _9St4GURq;
-        "pkg-2.2" = _f06Ytair;
-        "default" = _f06Ytair;
+        "pkg-2.2" = _UO2vbWln;
+        "default" = _UO2vbWln;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ldshadowladys-disney-wish-rebrushed";

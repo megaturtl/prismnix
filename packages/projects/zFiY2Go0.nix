@@ -466,6 +466,16 @@ let
             "file" = "blockus-2.17.3+26.2.jar";
             "hash" = "sha512-eGUCaJ68lTDHythFOY2l1N/0XisGutwJjZ7Wc1ckQnmBDEKdwbeBkh7DvGMXuJuC67UAB0rPeo0XlCI++PsiRQ==";
         };
+        _VZmzQ4xj = {
+            "id" = "VZmzQ4xj";
+            "file" = "blockus-2.18.0+26.3.jar";
+            "hash" = "sha512-Vcfl/D5bdBa2n/+UDxNMO43DdNOhl3TBL1NREdtdoMhaDJX3s8HV3N4kuj9p3vURFXK8wCF4kUTf+2cR6cbhVw==";
+        };
+        _H3btPNO2 = {
+            "id" = "H3btPNO2";
+            "file" = "blockus-2.18.1+26.3.jar";
+            "hash" = "sha512-f2/w88/pN2xuEAk0uxGSwpiLK5LtQ/gqUaH6Y8qP3rPuh4vGznuHN0Q6cYu2pcNVq0zf3x/GY9VTG/RtpCjK5Q==";
+        };
     in {
         "2eomDaM4" = _2eomDaM4;
         "DD8wj5l6" = _DD8wj5l6;
@@ -560,6 +570,8 @@ let
         "aCKzTvLT" = _aCKzTvLT;
         "FhjkYPhL" = _FhjkYPhL;
         "wKScvq1F" = _wKScvq1F;
+        "VZmzQ4xj" = _VZmzQ4xj;
+        "H3btPNO2" = _H3btPNO2;
         "fabric-1.19.2" = _auLMDCrc;
         "fabric-1.19.4" = _vd8yHiWL;
         "fabric-1.20" = _vhQmw0yJ;
@@ -585,6 +597,7 @@ let
         "fabric-26.1.1" = _FhjkYPhL;
         "fabric-26.1.2" = _FhjkYPhL;
         "fabric-26.2" = _wKScvq1F;
+        "fabric-26.3" = _H3btPNO2;
         "pkg-2.5.10+1.19.2" = _2eomDaM4;
         "pkg-2.6.7+1.19.4" = _DD8wj5l6;
         "pkg-2.7.0+1.20-rc1" = _zIo2EuVC;
@@ -678,7 +691,9 @@ let
         "pkg-2.17.2+26.2" = _aCKzTvLT;
         "pkg-2.16.6+26.1.2" = _FhjkYPhL;
         "pkg-2.17.3+26.2" = _wKScvq1F;
-        "default" = _wKScvq1F;
+        "pkg-2.18.0+26.3" = _VZmzQ4xj;
+        "pkg-2.18.1+26.3" = _H3btPNO2;
+        "default" = _H3btPNO2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blockus";

@@ -526,6 +526,16 @@ let
             "file" = "moregears-fabric-26.2-26.2.0.jar";
             "hash" = "sha512-07PQy6N5ivTJB2D58prsh4iUgARrfrtYDDDWyMBAFqBIPhMZB//VW8IvzM1lZmXwmD1jdSEcA6iBgR0fgQhjug==";
         };
+        _cIgldDnT = {
+            "id" = "cIgldDnT";
+            "file" = "moregears-fabric-26.3-26.3.0.jar";
+            "hash" = "sha512-hieXRzBnFUY/H81sHuNVjxrFEyT9UJ6D7U48aMcp2i7Vs8b54XuPNeAgQeP4RNMRFtb68TlocVLMK7LuLEh7iQ==";
+        };
+        _dhDJu0xY = {
+            "id" = "dhDJu0xY";
+            "file" = "moregears-neoforge-26.3-26.3.0.jar";
+            "hash" = "sha512-etp6+GINu9PttFC5RbxG2y3S62NV/Op+tcQQm+YSRxwUTDB6gV6+l4z7+NQp9sgGiJ3aABU5lJldl5qxwt009g==";
+        };
     in {
         "qY316t5o" = _qY316t5o;
         "aYyOilH4" = _aYyOilH4;
@@ -632,6 +642,8 @@ let
         "4zkcma1p" = _4zkcma1p;
         "Q7WBfnYN" = _Q7WBfnYN;
         "MXMnuWSi" = _MXMnuWSi;
+        "cIgldDnT" = _cIgldDnT;
+        "dhDJu0xY" = _dhDJu0xY;
         "forge-1.20.1" = _UjxMRikW;
         "neoforge-1.21.1" = _u16tIH6v;
         "neoforge-1.21.4" = _Y2a4Lo1s;
@@ -650,6 +662,7 @@ let
         "neoforge-26.1.1" = _4zkcma1p;
         "neoforge-26.1.2" = _4zkcma1p;
         "neoforge-26.2" = _Q7WBfnYN;
+        "neoforge-26.3" = _dhDJu0xY;
         "fabric-1.20.1" = _nFsGwOC2;
         "fabric-1.21.1" = _vle7zZZI;
         "fabric-1.21.4" = _VznUUkZy;
@@ -667,6 +680,7 @@ let
         "fabric-26.1.1" = _LVuiv1C1;
         "fabric-26.1.2" = _LVuiv1C1;
         "fabric-26.2" = _MXMnuWSi;
+        "fabric-26.3" = _cIgldDnT;
         "pkg-1.0.2-1.20.1" = _CW3eLt5V;
         "pkg-1.0.2-1.21.1" = _aYyOilH4;
         "pkg-1.0.2-1.21.4" = _XQdnAweX;
@@ -765,7 +779,8 @@ let
         "pkg-2.4.1-26.1-neoforge" = _fcnaYwhc;
         "pkg-26.1.2.0" = _4zkcma1p;
         "pkg-26.2.0" = _MXMnuWSi;
-        "default" = _MXMnuWSi;
+        "pkg-26.3.0" = _dhDJu0xY;
+        "default" = _dhDJu0xY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-gears";

@@ -136,6 +136,16 @@ let
             "file" = "pantryforblockheads-neoforge-26.2-26.2.0.6.jar";
             "hash" = "sha512-3zVEjPzYuEgZEVhg8dC8wXcP46h+C1XfRR14GrqD+hVY3ZquyTHZsCqDww6LkuGm+L0VcH/QukYPq6+lHLIQlQ==";
         };
+        _JsGFynFi = {
+            "id" = "JsGFynFi";
+            "file" = "pantryforblockheads-fabric-26.3-26.3.0.1.jar";
+            "hash" = "sha512-0qVzHYcBBUyI2sZmZqOGopO467jsb3snRULjk1yW9FFnFTPQni4SOCNKJQv2qF/tEYkBuD/eXcSKQWY5k2QOTA==";
+        };
+        _zsYFy0DC = {
+            "id" = "zsYFy0DC";
+            "file" = "pantryforblockheads-neoforge-26.3-26.3.0.1.jar";
+            "hash" = "sha512-HmpTjR0gS6cDOKNe01VnKdqAhk0SpSSjK6lvVRpcgttqw/QnJvGpDYhcblloipUbUw65HSuw54nBr5Q9vfs1Vg==";
+        };
     in {
         "MPGwZ8QX" = _MPGwZ8QX;
         "3v9yXALp" = _3v9yXALp;
@@ -164,10 +174,14 @@ let
         "qgOoH8Ns" = _qgOoH8Ns;
         "FXzqhdCv" = _FXzqhdCv;
         "Qlts0BmR" = _Qlts0BmR;
+        "JsGFynFi" = _JsGFynFi;
+        "zsYFy0DC" = _zsYFy0DC;
         "fabric-26.1.2" = _1waidN2p;
         "fabric-26.2" = _FXzqhdCv;
+        "fabric-26.3" = _JsGFynFi;
         "neoforge-26.1.2" = _qgOoH8Ns;
         "neoforge-26.2" = _Qlts0BmR;
+        "neoforge-26.3" = _zsYFy0DC;
         "pkg-26.1.2.1+fabric-26.1.2" = _MPGwZ8QX;
         "pkg-26.1.2.1+neoforge-26.1.2" = _3v9yXALp;
         "pkg-26.1.2.3+fabric-26.1.2" = _XiXltVBU;
@@ -194,7 +208,9 @@ let
         "pkg-26.1.2.8+neoforge-26.1.2" = _qgOoH8Ns;
         "pkg-26.2.0.6+fabric-26.2" = _FXzqhdCv;
         "pkg-26.2.0.6+neoforge-26.2" = _Qlts0BmR;
-        "default" = _Qlts0BmR;
+        "pkg-26.3.0.1+fabric-26.3" = _JsGFynFi;
+        "pkg-26.3.0.1+neoforge-26.3" = _zsYFy0DC;
+        "default" = _zsYFy0DC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pantry-for-blockheads";

@@ -186,6 +186,26 @@ let
             "file" = "waypointer-1.9.2-mc26.1.2.jar";
             "hash" = "sha512-nSkf219q8eDVn2M5KMkjoy/krmk2wTamI/I2m4z6Sz0wBJ53VD29Ap6+R0h56dSTnKbBhevKsiKYktz9VJukfg==";
         };
+        _ZABPF78H = {
+            "id" = "ZABPF78H";
+            "file" = "waypointer-1.10.0-mc26.1.2.jar";
+            "hash" = "sha512-T6L5RsnM2rF8ipgP6lUDAQRaU0A5cCqqZ2iiFrXx9qtMXTXMz48CnP71qDnbQZdQt6mXiBoAMN8MfwGwb+/P0w==";
+        };
+        _hpczLFuk = {
+            "id" = "hpczLFuk";
+            "file" = "waypointer-1.10.0-mc26.2.jar";
+            "hash" = "sha512-63QwKy6FMaQ8YnNuAcUmPdcjMyyFC0+gbvcth7XgR0uyZ6iWES7ys7CPFJDhQyc0ejbB4fAlf8A9vCJprF41cQ==";
+        };
+        _IQiCWyIT = {
+            "id" = "IQiCWyIT";
+            "file" = "waypointer-1.11.0-mc26.2.jar";
+            "hash" = "sha512-cev+I1MmeYDdDi3T0uHOSqOn9OGKzOIWsqyg7yzRRDKs1EhmAEzclCIu/DORGUOuwv9jJ2UlrH4fnsN1bolqig==";
+        };
+        _6blK9CEU = {
+            "id" = "6blK9CEU";
+            "file" = "waypointer-1.11.0-mc26.1.2.jar";
+            "hash" = "sha512-XTPbMPa0E4iC9LVoGvXzugViG3fnujdIGgpjc102KfZLdw/qvwJCYdciTn6vO1qe63P+M1y+UjRnvDz5yeggbA==";
+        };
     in {
         "TKEwE9Qc" = _TKEwE9Qc;
         "XomjnAIb" = _XomjnAIb;
@@ -224,11 +244,15 @@ let
         "zDCdKFC6" = _zDCdKFC6;
         "3O8mP9Br" = _3O8mP9Br;
         "8yRfIgDq" = _8yRfIgDq;
+        "ZABPF78H" = _ZABPF78H;
+        "hpczLFuk" = _hpczLFuk;
+        "IQiCWyIT" = _IQiCWyIT;
+        "6blK9CEU" = _6blK9CEU;
         "fabric-1.21.11" = _b4gSJ5d9;
-        "fabric-26.1" = _i6PwumAI;
-        "fabric-26.1.1" = _i6PwumAI;
-        "fabric-26.1.2" = _8yRfIgDq;
-        "fabric-26.2" = _3O8mP9Br;
+        "fabric-26.1" = _6blK9CEU;
+        "fabric-26.1.1" = _6blK9CEU;
+        "fabric-26.1.2" = _6blK9CEU;
+        "fabric-26.2" = _IQiCWyIT;
         "pkg-1.0.0" = _TKEwE9Qc;
         "pkg-1.1.0" = _XomjnAIb;
         "pkg-1.2.0" = _CvjtNF8R;
@@ -254,7 +278,9 @@ let
         "pkg-1.8.7" = _lHl4KF0y;
         "pkg-1.9.1" = _zDCdKFC6;
         "pkg-1.9.2" = _8yRfIgDq;
-        "default" = _8yRfIgDq;
+        "pkg-1.10.0" = _hpczLFuk;
+        "pkg-1.11.0" = _6blK9CEU;
+        "default" = _6blK9CEU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "waypointer";

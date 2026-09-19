@@ -26,19 +26,26 @@ let
             "file" = "evilhunter-3.0.jar";
             "hash" = "sha512-VsnYHUM6vO6AvgA2yeRr8Gc4nQQTiOCToM7OwoeFgnV/XCy5nj8R8whk9aMr8ggZQeEDN/MJpW0S6X1iWqFx4A==";
         };
+        _e17F4aN8 = {
+            "id" = "e17F4aN8";
+            "file" = "evilhunter-3.0.jar";
+            "hash" = "sha512-ZlGdEwpXFNhsov+/a0wU9sAWvSFbFcoIsJiqP3q9V+AxkClFZN8uUN0a0vW89M8RM3HhTzkjk6OhS3I8cdlsAw==";
+        };
     in {
         "Qvqki9Va" = _Qvqki9Va;
         "Mqe05XDo" = _Mqe05XDo;
         "KirSNPwE" = _KirSNPwE;
         "utTEIdj1" = _utTEIdj1;
         "CtWa9wxo" = _CtWa9wxo;
-        "forge-1.20.1" = _CtWa9wxo;
+        "e17F4aN8" = _e17F4aN8;
+        "forge-1.20.1" = _e17F4aN8;
         "pkg-1.0.0" = _Qvqki9Va;
         "pkg-1.0.2" = _Mqe05XDo;
         "pkg-2.1.1" = _KirSNPwE;
         "pkg-3.0.0" = _utTEIdj1;
         "pkg-3.0.1" = _CtWa9wxo;
-        "default" = _CtWa9wxo;
+        "pkg-3.0.2" = _e17F4aN8;
+        "default" = _e17F4aN8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "evil-hunter";

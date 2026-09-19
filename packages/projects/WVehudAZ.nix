@@ -61,6 +61,11 @@ let
             "file" = "SmartBlockPlacement-2.0.jar";
             "hash" = "sha512-ccKJIrkiCzePlemP6uYQi/l4ju8i+pBqurUkJzJM+WYpeqgPzBCip8LiOvXqObxT+Oc768Kq4MLoBpWS9S0EeQ==";
         };
+        _46gEMKwk = {
+            "id" = "46gEMKwk";
+            "file" = "SmartBlockPlacement-2.0.jar";
+            "hash" = "sha512-8vbGvBrFidsr1IXzI81giuujHcGtyuMlcVVkegVEjKDilkxghY9ZH0fbxjh0VcHDQC6h2UWFgwDVIl0wySv9iw==";
+        };
     in {
         "bkjePm3h" = _bkjePm3h;
         "3qBpd7zK" = _3qBpd7zK;
@@ -74,6 +79,7 @@ let
         "BVJMptcX" = _BVJMptcX;
         "OjOphpLn" = _OjOphpLn;
         "ICIYsLoY" = _ICIYsLoY;
+        "46gEMKwk" = _46gEMKwk;
         "fabric-1.20.6" = _Fo4BrItW;
         "fabric-1.21" = _OjOphpLn;
         "fabric-1.21.1" = _OjOphpLn;
@@ -92,6 +98,7 @@ let
         "fabric-26.1.1" = _BVJMptcX;
         "fabric-26.1.2" = _BVJMptcX;
         "fabric-26.2" = _ICIYsLoY;
+        "fabric-26.3" = _46gEMKwk;
         "pkg-1.0" = _bkjePm3h;
         "pkg-1.1" = _3qBpd7zK;
         "pkg-1.2" = _yR44hYJW;
@@ -100,8 +107,8 @@ let
         "pkg-1.5" = _XsvgOmtM;
         "pkg-1.6" = _bxktYWi8;
         "pkg-1.8" = _iBqHcTgi;
-        "pkg-2.0" = _ICIYsLoY;
-        "default" = _ICIYsLoY;
+        "pkg-2.0" = _46gEMKwk;
+        "default" = _46gEMKwk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smartblockplacement";

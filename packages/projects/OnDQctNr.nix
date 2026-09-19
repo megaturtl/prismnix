@@ -71,6 +71,11 @@ let
             "file" = "advancedchat-1.8.6-26.2.jar";
             "hash" = "sha512-/JbcBbOzmKQ4z5CC0+SgXZ7MV40fdOou7s66v3vimC7DYYe1jZ0qFj8ldtG/qLkZo6hm9g4aq9mAjMtQTHtbhA==";
         };
+        _FXfkrzSv = {
+            "id" = "FXfkrzSv";
+            "file" = "advancedchat-1.8.7-26.3.jar";
+            "hash" = "sha512-pnxBzthtS4uE0K5D8pJ3z1/iyiN+4vUs8rEiaruD+Q30rJ5u3G7FVAiL/0iCOCDIVXPif96RLdkkrIA3PErMzg==";
+        };
     in {
         "FNHLd87y" = _FNHLd87y;
         "RN7kRIrY" = _RN7kRIrY;
@@ -86,6 +91,7 @@ let
         "XqnIawtE" = _XqnIawtE;
         "WL6XScbT" = _WL6XScbT;
         "Swrriweu" = _Swrriweu;
+        "FXfkrzSv" = _FXfkrzSv;
         "fabric-1.19.3" = _FNHLd87y;
         "fabric-1.19.4" = _RN7kRIrY;
         "fabric-1.20" = _Unjr2LZL;
@@ -110,6 +116,7 @@ let
         "fabric-26.1.1" = _WL6XScbT;
         "fabric-26.1.2" = _WL6XScbT;
         "fabric-26.2" = _Swrriweu;
+        "fabric-26.3" = _FXfkrzSv;
         "pkg-1.0-1.19.3" = _FNHLd87y;
         "pkg-1.1-1.19.4" = _RN7kRIrY;
         "pkg-1.2-1.20" = _Unjr2LZL;
@@ -124,7 +131,8 @@ let
         "pkg-1.8.3-1.21.11" = _XqnIawtE;
         "pkg-1.8.4-26.1" = _WL6XScbT;
         "pkg-1.8.6-26.2" = _Swrriweu;
-        "default" = _Swrriweu;
+        "pkg-1.8.7-26.3" = _FXfkrzSv;
+        "default" = _FXfkrzSv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "advanced-chat";

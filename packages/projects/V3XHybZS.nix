@@ -121,6 +121,11 @@ let
             "file" = "Kai's Minecraft Tweaks V88 MC26.2.zip";
             "hash" = "sha512-NcdeCuSO1lfaWJtBVJS09ObwakwicEogc7/+cLFcIMTs5kKDZGevI2tluGVl1LBHpCgrfHzMAiWsWMFRrXUSIg==";
         };
+        _KAAszOPy = {
+            "id" = "KAAszOPy";
+            "file" = "Kai's Minecraft Tweaks V97 MC26.3.zip";
+            "hash" = "sha512-qppi8fpeaE/ye1KqpnMWnNt378sd00UI060Vy+mrNS2avjA6exvVZs2GR6oEUVXHCqr2TGSQbnseAfwhOyFEYw==";
+        };
     in {
         "je2iAP4B" = _je2iAP4B;
         "mPI0mxRr" = _mPI0mxRr;
@@ -146,6 +151,7 @@ let
         "tOmInkK4" = _tOmInkK4;
         "bqOEJr5C" = _bqOEJr5C;
         "4CQI5eup" = _4CQI5eup;
+        "KAAszOPy" = _KAAszOPy;
         "minecraft-1.19.4" = _je2iAP4B;
         "minecraft-1.20" = _4AtcdIRH;
         "minecraft-1.20.1" = _4AtcdIRH;
@@ -170,6 +176,7 @@ let
         "minecraft-26.1.1" = _bqOEJr5C;
         "minecraft-26.1.2" = _bqOEJr5C;
         "minecraft-26.2" = _4CQI5eup;
+        "minecraft-26.3" = _KAAszOPy;
         "pkg-9.2" = _je2iAP4B;
         "pkg-15" = _mPI0mxRr;
         "pkg-15.1" = _xlA1Iyzl;
@@ -192,7 +199,8 @@ let
         "pkg-84.3" = _tOmInkK4;
         "pkg-84.4" = _bqOEJr5C;
         "pkg-88" = _4CQI5eup;
-        "default" = _4CQI5eup;
+        "pkg-97" = _KAAszOPy;
+        "default" = _KAAszOPy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kais-minecraft-tweaks";

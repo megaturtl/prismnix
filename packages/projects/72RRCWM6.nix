@@ -1276,6 +1276,26 @@ let
             "file" = "fieldguide-forge-1.20.1-1.16.1.jar";
             "hash" = "sha512-EMXuBbhOHqycN0Uj20uEa+DCoDLjssbW2opzFZIvobdfyLBzCBQc1Ku21/2lVe4wSqRDuDaC2aFdmceUKP343Q==";
         };
+        _XNZLB2kq = {
+            "id" = "XNZLB2kq";
+            "file" = "fieldguide-neoforge-1.21.1-1.17.0.jar";
+            "hash" = "sha512-vlQGBSul4Yoj9+yj72ahhan8ey6/b9GtSbKwr1xnrhzjTyErU0JB09cBAECeG/8JihlHl/FENRi+DizIzJBqLA==";
+        };
+        _humi0pNQ = {
+            "id" = "humi0pNQ";
+            "file" = "fieldguide-fabric-1.21.1-1.17.0.jar";
+            "hash" = "sha512-6IxuVzQ1akWgfck4Sssyg7nDh0NIpcxBsGzSXteHd6jw7kk5qGoTTsz45+z8j//ab5ob32/ZJpnpsMFepIThUw==";
+        };
+        _ZTIULHOt = {
+            "id" = "ZTIULHOt";
+            "file" = "fieldguide-fabric-1.20.1-1.17.0.jar";
+            "hash" = "sha512-VOaCPQp+BPdIIrwOPYFG2uJ8S3RL9UOrIdxVsd44svnvQnwLZgfQKj86dIH3cR7TY83L7ge8sR3WZB6OE3y0Pw==";
+        };
+        _HVpVyiyh = {
+            "id" = "HVpVyiyh";
+            "file" = "fieldguide-forge-1.20.1-1.17.0.jar";
+            "hash" = "sha512-jOn2NCPfcUW/xSI00JppIMFumCc5SFq0n5FUqNweGWSt4sJEOWABRvXlVAVEB4TynhhDsdq9rYCcciNoQek53A==";
+        };
     in {
         "rY8XPSOd" = _rY8XPSOd;
         "TIJAwPkg" = _TIJAwPkg;
@@ -1532,14 +1552,18 @@ let
         "Sg2aXeVz" = _Sg2aXeVz;
         "w08QiuzK" = _w08QiuzK;
         "z9Qsz4sg" = _z9Qsz4sg;
-        "fabric-1.20.1" = _w08QiuzK;
-        "fabric-1.21.1" = _LnphLSZn;
+        "XNZLB2kq" = _XNZLB2kq;
+        "humi0pNQ" = _humi0pNQ;
+        "ZTIULHOt" = _ZTIULHOt;
+        "HVpVyiyh" = _HVpVyiyh;
+        "fabric-1.20.1" = _ZTIULHOt;
+        "fabric-1.21.1" = _humi0pNQ;
         "fabric-26.1.2" = _UqPHz1wf;
         "fabric-26.1" = _UqPHz1wf;
         "fabric-26.1.1" = _UqPHz1wf;
         "fabric-26.2" = _LpPxYnPl;
-        "forge-1.20.1" = _z9Qsz4sg;
-        "neoforge-1.21.1" = _4WMzCW0C;
+        "forge-1.20.1" = _HVpVyiyh;
+        "neoforge-1.21.1" = _XNZLB2kq;
         "neoforge-26.1.2" = _5eQY0ZwN;
         "neoforge-26.1" = _5eQY0ZwN;
         "neoforge-26.1.1" = _5eQY0ZwN;
@@ -1794,7 +1818,11 @@ let
         "pkg-1.16.0-1.20.1-forge" = _Sg2aXeVz;
         "pkg-1.16.1-1.20.1-fabric" = _w08QiuzK;
         "pkg-1.16.1-1.20.1-forge" = _z9Qsz4sg;
-        "default" = _z9Qsz4sg;
+        "pkg-1.17.0-1.21.1-neoforge" = _XNZLB2kq;
+        "pkg-1.17.0-1.21.1-fabric" = _humi0pNQ;
+        "pkg-1.17.0-1.20.1-fabric" = _ZTIULHOt;
+        "pkg-1.17.0-1.20.1-forge" = _HVpVyiyh;
+        "default" = _HVpVyiyh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "field-guide";

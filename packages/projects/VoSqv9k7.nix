@@ -681,6 +681,21 @@ let
             "file" = "palamod-1.21.1.019-neoforge-1.21.1.jar";
             "hash" = "sha512-VnRoZmykg42y4yMSVcsqIQlFir7NgXv89pxBgY0qXv0XOCOW+MjO7fyIijP3KLFc/op/QtBKTAxX/t1ZG0zXaw==";
         };
+        _DxiM8A83 = {
+            "id" = "DxiM8A83";
+            "file" = "palamod-1.21.1.020-neoforge-1.21.1.jar";
+            "hash" = "sha512-l3Lq0SOG3Z7uCx1c5hltoxrinDuhDSKXs83hqY0IuJe22yo0ky2bC6g/+8Oh5iht7Gan2x/g1IgECQDwx3HqQQ==";
+        };
+        _RxZvKG2F = {
+            "id" = "RxZvKG2F";
+            "file" = "palamod-1.21.1.021-neoforge-1.21.1.jar";
+            "hash" = "sha512-aJLoMyZ2O/69u3127Yt3k3TlKXlkx1kOhQkkptY6Nzq8MBY1RKMaZcqim4ODrtKnoDv264V6rd4t+WhW9/53yw==";
+        };
+        _iwcsBe3q = {
+            "id" = "iwcsBe3q";
+            "file" = "palamod-1.21.1.0202020-forge-1.20.1.jar";
+            "hash" = "sha512-5Fp5aMTEYiOLzLPbxFGWDCVLsxOdSu4bj1ASI7UnLqtVfER5sDjrDKvpaXy/osR7enB+Lyvab6VaS0gu7WuZ6g==";
+        };
     in {
         "DhBm2mpb" = _DhBm2mpb;
         "pSq95HsW" = _pSq95HsW;
@@ -818,15 +833,18 @@ let
         "9Nh039tt" = _9Nh039tt;
         "HQODArbB" = _HQODArbB;
         "adx5x0OW" = _adx5x0OW;
+        "DxiM8A83" = _DxiM8A83;
+        "RxZvKG2F" = _RxZvKG2F;
+        "iwcsBe3q" = _iwcsBe3q;
         "forge-1.19.4" = _AvOQItjq;
         "forge-1.18.2" = _5qbf8xne;
         "forge-1.16.4" = _QDktXYtw;
         "forge-1.16.5" = _QDktXYtw;
         "forge-1.17" = _Qb9eScDh;
         "forge-1.17.1" = _Qb9eScDh;
-        "forge-1.20.1" = _rwGcyzdD;
+        "forge-1.20.1" = _iwcsBe3q;
         "neoforge-1.20.4" = _xNkbaa1k;
-        "neoforge-1.21.1" = _adx5x0OW;
+        "neoforge-1.21.1" = _RxZvKG2F;
         "neoforge-1.21.4" = _P7WMqLqw;
         "neoforge-1.21.8" = _3rC8ZmFH;
         "neoforge-26.1.2" = _CrnGEA2k;
@@ -955,7 +973,10 @@ let
         "pkg-1.21.1.016" = _9Nh039tt;
         "pkg-1.21.1.018" = _HQODArbB;
         "pkg-1.21.1.019" = _adx5x0OW;
-        "default" = _adx5x0OW;
+        "pkg-1.21.1.020" = _DxiM8A83;
+        "pkg-1.21.1.021" = _RxZvKG2F;
+        "pkg-1.21.1.0202020" = _iwcsBe3q;
+        "default" = _iwcsBe3q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "palamod-renew";

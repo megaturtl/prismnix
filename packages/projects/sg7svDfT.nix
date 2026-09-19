@@ -161,6 +161,11 @@ let
             "file" = "CakeHungerBar26.2.zip";
             "hash" = "sha512-oiSBYvmI5VkD/5scqnkaIAPfSMxYsL2fQmw8grpGvBUbkW8S+hMjdu7mPRpW9cSgcI1+sP5Lpirn+xd1ved49g==";
         };
+        _1AyAqT4u = {
+            "id" = "1AyAqT4u";
+            "file" = "CakeHungerBar26.3.zip";
+            "hash" = "sha512-lVoJxj7soHgXbHznM7bUgVfw5sWsKKyZiDF0bV4+W69Jb0rpGdOc17fOpaCoUFjeiDbLrx11TaPxZfAlv8EN9A==";
+        };
     in {
         "zJBwFqdm" = _zJBwFqdm;
         "3kUTnQb9" = _3kUTnQb9;
@@ -194,6 +199,7 @@ let
         "LhAuqLJ4" = _LhAuqLJ4;
         "rqbJVnxs" = _rqbJVnxs;
         "SFdsm4YQ" = _SFdsm4YQ;
+        "1AyAqT4u" = _1AyAqT4u;
         "minecraft-1.0" = _zJBwFqdm;
         "minecraft-1.1" = _zJBwFqdm;
         "minecraft-1.2.1" = _zJBwFqdm;
@@ -301,6 +307,7 @@ let
         "minecraft-26.1.1" = _rqbJVnxs;
         "minecraft-26.1.2" = _rqbJVnxs;
         "minecraft-26.2" = _SFdsm4YQ;
+        "minecraft-26.3" = _1AyAqT4u;
         "pkg-0.0.0" = _zJBwFqdm;
         "pkg-1.0.0" = _3kUTnQb9;
         "pkg-1.1.0" = _7LuzaQZd;
@@ -333,7 +340,8 @@ let
         "pkg-75.0.0" = _LhAuqLJ4;
         "pkg-84.0.0" = _rqbJVnxs;
         "pkg-88.0.0" = _SFdsm4YQ;
-        "default" = _SFdsm4YQ;
+        "pkg-97.0.0" = _1AyAqT4u;
+        "default" = _1AyAqT4u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cake-hunger-bar";

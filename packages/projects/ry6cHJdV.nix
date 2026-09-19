@@ -86,6 +86,11 @@ let
             "file" = "cobblemonextendedbattleui-0.9.0.jar";
             "hash" = "sha512-vpX2iH5IuLxNstmZT9mT2DfUaWe+E+GNVQ/0MVMXj1jVMdJ4cfchTWSNfH6Q1iw19XaOrTq036t5p4neCVIbvQ==";
         };
+        _MfhEFE6x = {
+            "id" = "MfhEFE6x";
+            "file" = "cobblemonextendedbattleui-0.10.0.jar";
+            "hash" = "sha512-9YZjE79vr1QouC+3lW70VLiZIuB5XcWyLhmVgy3ywMx8Zsm2vyIkeBhJi0JeXwTkj1usgROGX7f5vVFZTN+LLQ==";
+        };
     in {
         "e7RuGUPz" = _e7RuGUPz;
         "sc1cTTD5" = _sc1cTTD5;
@@ -104,17 +109,18 @@ let
         "DlIFZrOK" = _DlIFZrOK;
         "bhYB7qmv" = _bhYB7qmv;
         "46dVwCIB" = _46dVwCIB;
-        "fabric-1.21.1" = _46dVwCIB;
-        "fabric-1.21.2" = _46dVwCIB;
-        "fabric-1.21.3" = _46dVwCIB;
-        "fabric-1.21.4" = _46dVwCIB;
-        "fabric-1.21.5" = _46dVwCIB;
-        "fabric-1.21.6" = _46dVwCIB;
-        "fabric-1.21.7" = _46dVwCIB;
-        "fabric-1.21.8" = _46dVwCIB;
-        "fabric-1.21.9" = _46dVwCIB;
-        "fabric-1.21.10" = _46dVwCIB;
-        "fabric-1.21.11" = _46dVwCIB;
+        "MfhEFE6x" = _MfhEFE6x;
+        "fabric-1.21.1" = _MfhEFE6x;
+        "fabric-1.21.2" = _MfhEFE6x;
+        "fabric-1.21.3" = _MfhEFE6x;
+        "fabric-1.21.4" = _MfhEFE6x;
+        "fabric-1.21.5" = _MfhEFE6x;
+        "fabric-1.21.6" = _MfhEFE6x;
+        "fabric-1.21.7" = _MfhEFE6x;
+        "fabric-1.21.8" = _MfhEFE6x;
+        "fabric-1.21.9" = _MfhEFE6x;
+        "fabric-1.21.10" = _MfhEFE6x;
+        "fabric-1.21.11" = _MfhEFE6x;
         "pkg-0.1.0" = _e7RuGUPz;
         "pkg-0.2.0" = _sc1cTTD5;
         "pkg-0.2.1" = _LnGKYq9K;
@@ -132,7 +138,8 @@ let
         "pkg-0.8.1" = _DlIFZrOK;
         "pkg-0.8.2" = _bhYB7qmv;
         "pkg-0.9.0" = _46dVwCIB;
-        "default" = _46dVwCIB;
+        "pkg-0.10.0" = _MfhEFE6x;
+        "default" = _MfhEFE6x;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-extended-battle-ui";

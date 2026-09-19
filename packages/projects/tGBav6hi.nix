@@ -76,6 +76,16 @@ let
             "file" = "craft-rooted-dirt-107.1.jar";
             "hash" = "sha512-SJRdwvGToIoT125tX1U1nvtAI5DLIkTby5T+wqJDPV3ylalOXDX8UPCcbbDBbAOwBZTX8KDdX3VbFPgNEGJsBw==";
         };
+        _OC7qHkTb = {
+            "id" = "OC7qHkTb";
+            "file" = "craftable-rooted-dirt-1.1.0-mc26.3.zip";
+            "hash" = "sha512-FryHPIUO36JG9rhvnrdTzcOl6ujhERNZF6tsBmljdRkKwYhbXTfhp2NfwEWmOzv3UAQTmeMNl5J7TT2dor5SSA==";
+        };
+        _vRsJnEGV = {
+            "id" = "vRsJnEGV";
+            "file" = "craft-rooted-dirt-1.1.0.jar";
+            "hash" = "sha512-ytf8tEgDlSP9Ni3m7qN0IahEZGq4XfgK3muW00/tWstc2QUXZmSdEkcKQLFbzkyD4yLpDaFMlBAgPybCv9IZSA==";
+        };
     in {
         "4hssPR61" = _4hssPR61;
         "Nheibp6c" = _Nheibp6c;
@@ -92,6 +102,8 @@ let
         "YjO0cKGL" = _YjO0cKGL;
         "RTptI32d" = _RTptI32d;
         "rZy77g7c" = _rZy77g7c;
+        "OC7qHkTb" = _OC7qHkTb;
+        "vRsJnEGV" = _vRsJnEGV;
         "datapack-1.21.5" = _4hssPR61;
         "datapack-1.21.6" = _rsMvZ54Y;
         "datapack-1.21.7" = _FMijB09l;
@@ -103,6 +115,7 @@ let
         "datapack-26.1.1" = _Yo8B6ql6;
         "datapack-26.1.2" = _Yo8B6ql6;
         "datapack-26.2" = _RTptI32d;
+        "datapack-26.3" = _OC7qHkTb;
         "fabric-1.21.5" = _Nheibp6c;
         "fabric-1.21.6" = _p8CKmxZd;
         "fabric-1.21.7" = _GKHaMND8;
@@ -114,6 +127,7 @@ let
         "fabric-26.1.1" = _YjO0cKGL;
         "fabric-26.1.2" = _YjO0cKGL;
         "fabric-26.2" = _rZy77g7c;
+        "fabric-26.3" = _vRsJnEGV;
         "forge-1.21.5" = _Nheibp6c;
         "forge-1.21.6" = _p8CKmxZd;
         "forge-1.21.7" = _GKHaMND8;
@@ -125,6 +139,7 @@ let
         "forge-26.1.1" = _YjO0cKGL;
         "forge-26.1.2" = _YjO0cKGL;
         "forge-26.2" = _rZy77g7c;
+        "forge-26.3" = _vRsJnEGV;
         "neoforge-1.21.5" = _Nheibp6c;
         "neoforge-1.21.6" = _p8CKmxZd;
         "neoforge-1.21.7" = _GKHaMND8;
@@ -136,6 +151,7 @@ let
         "neoforge-26.1.1" = _YjO0cKGL;
         "neoforge-26.1.2" = _YjO0cKGL;
         "neoforge-26.2" = _rZy77g7c;
+        "neoforge-26.3" = _vRsJnEGV;
         "quilt-1.21.5" = _Nheibp6c;
         "quilt-1.21.6" = _p8CKmxZd;
         "quilt-1.21.7" = _GKHaMND8;
@@ -147,6 +163,7 @@ let
         "quilt-26.1.1" = _YjO0cKGL;
         "quilt-26.1.2" = _YjO0cKGL;
         "quilt-26.2" = _rZy77g7c;
+        "quilt-26.3" = _vRsJnEGV;
         "pkg-71.1" = _4hssPR61;
         "pkg-71.1+mod" = _Nheibp6c;
         "pkg-80" = _rsMvZ54Y;
@@ -161,7 +178,9 @@ let
         "pkg-101.1+mod" = _YjO0cKGL;
         "pkg-107.1" = _RTptI32d;
         "pkg-107.1+mod" = _rZy77g7c;
-        "default" = _rZy77g7c;
+        "pkg-1.1.0" = _OC7qHkTb;
+        "pkg-1.1.0+mod" = _vRsJnEGV;
+        "default" = _vRsJnEGV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craft-rooted-dirt";

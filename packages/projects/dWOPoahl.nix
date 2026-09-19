@@ -71,6 +71,11 @@ let
             "file" = "SnappyTappy-26.2.jar";
             "hash" = "sha512-PartVOdJVuT5dWp/UrHdPuZaDEaPWE067toefh3BQBU9XaG1TXsr47jjlfdLRn9E8GEbfgaexqrRLDDNMwUSqQ==";
         };
+        _ER3HfIOr = {
+            "id" = "ER3HfIOr";
+            "file" = "SnappyTappy-26.3.jar";
+            "hash" = "sha512-256yatnlDi6JijHxXwwuSm/Qy97sJPna2MEthCVnH9+oizDd9EJb7jfBJs4UIpwfNE/0NwLKRwrG12L14W1GKA==";
+        };
     in {
         "tEQt4zKP" = _tEQt4zKP;
         "uPLxJrd9" = _uPLxJrd9;
@@ -86,6 +91,7 @@ let
         "Fvbk9xLM" = _Fvbk9xLM;
         "EntL4kt7" = _EntL4kt7;
         "ISW3ltTi" = _ISW3ltTi;
+        "ER3HfIOr" = _ER3HfIOr;
         "fabric-1.21" = _tEQt4zKP;
         "fabric-1.21.1" = _uPLxJrd9;
         "fabric-1.21.2" = _OjOgbYqL;
@@ -101,7 +107,8 @@ let
         "fabric-26.1" = _EntL4kt7;
         "fabric-26.1.1" = _EntL4kt7;
         "fabric-26.1.2" = _EntL4kt7;
-        "fabric-26.2" = _ISW3ltTi;
+        "fabric-26.2" = _ER3HfIOr;
+        "fabric-26.3" = _ER3HfIOr;
         "pkg-1.21" = _tEQt4zKP;
         "pkg-1.21.1" = _uPLxJrd9;
         "pkg-1.21.2" = _OjOgbYqL;
@@ -116,7 +123,8 @@ let
         "pkg-1.21.11" = _Fvbk9xLM;
         "pkg-26.1.X" = _EntL4kt7;
         "pkg-26.2" = _ISW3ltTi;
-        "default" = _ISW3ltTi;
+        "pkg-26.3" = _ER3HfIOr;
+        "default" = _ER3HfIOr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "snappytappy";

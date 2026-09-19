@@ -221,6 +221,36 @@ let
             "file" = "foi1ys_lanterns-0.4.0-forge.jar";
             "hash" = "sha512-5QfbkVfTY2eR3pocXLdaaoEv5pHBn/0cMCyeyGfADcDJh9agI8/JzopQXOctsMuOZeZOO55oOjNjVhVJsv+2rw==";
         };
+        _EYqrJuDz = {
+            "id" = "EYqrJuDz";
+            "file" = "foi1ys_lanterns-0.5.0-fabric.jar";
+            "hash" = "sha512-Uez4VtWKLh0M+G06p6QUwEX2WmP51NsDVVVO1rNkMA3zdxnkNafBUfp31iw8hfb3oYsv3PqYkxNJeDtsi4uw5A==";
+        };
+        _SSSZSKY2 = {
+            "id" = "SSSZSKY2";
+            "file" = "foi1ys_lanterns-0.5.0-forge.jar";
+            "hash" = "sha512-jF9ytqiYdn6cQPdGJckDjui62mSAlLlReM3J1PqgB+STbpeXkifYMyPbf5YreULFmVS/RklI+A8Y5DMnfLPZyQ==";
+        };
+        _jUjJwjho = {
+            "id" = "jUjJwjho";
+            "file" = "foi1ys_lanterns-0.5.1-fabric.jar";
+            "hash" = "sha512-K+rkzbxkP1OC7GCVd+V67F5B0AVTLgMfLJ9HpRZl0T81WAtU8IO9ejH7tM/sJ4cMTaH30MKmfeQbWvNJxn9oug==";
+        };
+        _OTKATSoO = {
+            "id" = "OTKATSoO";
+            "file" = "foi1ys_lanterns-0.5.1-forge.jar";
+            "hash" = "sha512-P+Lm77AlaJkMiAuKTv+IaomLJO9/kgGKfPhecGl+L0UeQY+PpEDCTBuO/dtr5tUY4qkCClhG9AtRKp4g+GvYfg==";
+        };
+        _GKB7GmJN = {
+            "id" = "GKB7GmJN";
+            "file" = "foi1ys_lanterns-0.5.2-fabric.jar";
+            "hash" = "sha512-R4hAuVdG8rQNDrrQlaHJ/GDoEBYPbpepcMTW7QORptSNVy5fHQ4pwh+26B9C6J5nkTu0y2TrZlhdrb2HVggO8g==";
+        };
+        _LVMs9fWu = {
+            "id" = "LVMs9fWu";
+            "file" = "foi1ys_lanterns-0.5.2-forge.jar";
+            "hash" = "sha512-zhEYePJ6ON+XsZum0ItOEm7v4/st7jSp6BEcxJqDd7wdO5TtKYzAHKDrCZl+BBFA1ZjVi+O3kJ57MlQ0urUNXQ==";
+        };
     in {
         "xylQsK6f" = _xylQsK6f;
         "rkJZNw2r" = _rkJZNw2r;
@@ -266,8 +296,14 @@ let
         "PDOD1pgh" = _PDOD1pgh;
         "UOaU0KOU" = _UOaU0KOU;
         "vok4bjhO" = _vok4bjhO;
-        "fabric-1.20.1" = _UOaU0KOU;
-        "forge-1.20.1" = _vok4bjhO;
+        "EYqrJuDz" = _EYqrJuDz;
+        "SSSZSKY2" = _SSSZSKY2;
+        "jUjJwjho" = _jUjJwjho;
+        "OTKATSoO" = _OTKATSoO;
+        "GKB7GmJN" = _GKB7GmJN;
+        "LVMs9fWu" = _LVMs9fWu;
+        "fabric-1.20.1" = _GKB7GmJN;
+        "forge-1.20.1" = _LVMs9fWu;
         "pkg-0.1" = _GzdSOCd3;
         "pkg-0.2" = _qPsb0Sc0;
         "pkg-0.3" = _4uHit3zE;
@@ -298,7 +334,10 @@ let
         "pkg-0.3.7" = _9fZu04cn;
         "pkg-0.3.8" = _PDOD1pgh;
         "pkg-0.4.0" = _vok4bjhO;
-        "default" = _vok4bjhO;
+        "pkg-0.5.0" = _SSSZSKY2;
+        "pkg-0.5.1" = _OTKATSoO;
+        "pkg-0.5.2" = _LVMs9fWu;
+        "default" = _LVMs9fWu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "foi1y-lantern-corps";

@@ -221,6 +221,21 @@ let
             "file" = "showcase-2.5.0+26.1.2.jar";
             "hash" = "sha512-X3e3ZrrYBpEWJJfY5e4kefWn79W9/bAWeLPorcjf3RIWBIHncppwo+CBOe5GVE8s18kzg2LIaFtNhVNbV3Iifg==";
         };
+        _2VmL6hN3 = {
+            "id" = "2VmL6hN3";
+            "file" = "showcase-2.6.0+26.3.jar";
+            "hash" = "sha512-X6XBNb6QOzel6tskYSAntX9zn+616btqi2hO3vXbhIriAA4HpV+33B7lXv4Lz0zGL7J9ttsSyUYmzF3i4GZJsA==";
+        };
+        _89cqqNz6 = {
+            "id" = "89cqqNz6";
+            "file" = "showcase-2.6.0+26.1.2.jar";
+            "hash" = "sha512-TONjfTIAEw2ASRx70kAkMi2BCREpZx1FUPY9Ag81JgLbgGQtDLgCJLxAWkYgMlrr++6r8lQUp2/FDU8fY+TT2A==";
+        };
+        _Lg4whJxY = {
+            "id" = "Lg4whJxY";
+            "file" = "showcase-2.6.0+26.2.jar";
+            "hash" = "sha512-B0EBZHWyT1sPBaAUGLjmJalV37qsQgKhaCypb8T8ehIc/l/QxICrUFq2rTmFt4ZICS5A9oX1e0eA7h+rhDRGqg==";
+        };
     in {
         "C2mFF1mv" = _C2mFF1mv;
         "M8wZYtyh" = _M8wZYtyh;
@@ -266,6 +281,9 @@ let
         "VZpQLvmi" = _VZpQLvmi;
         "THFnhaEt" = _THFnhaEt;
         "GXVRjk5g" = _GXVRjk5g;
+        "2VmL6hN3" = _2VmL6hN3;
+        "89cqqNz6" = _89cqqNz6;
+        "Lg4whJxY" = _Lg4whJxY;
         "fabric-1.20.5" = _C2mFF1mv;
         "fabric-1.21" = _wkjPBkaT;
         "fabric-1.21.1" = _wkjPBkaT;
@@ -280,10 +298,11 @@ let
         "fabric-1.21.9" = _UCjh32vp;
         "fabric-1.21.10" = _UCjh32vp;
         "fabric-1.21.11" = _VZpQLvmi;
-        "fabric-26.2" = _THFnhaEt;
-        "fabric-26.1" = _GXVRjk5g;
-        "fabric-26.1.1" = _GXVRjk5g;
-        "fabric-26.1.2" = _GXVRjk5g;
+        "fabric-26.2" = _Lg4whJxY;
+        "fabric-26.1" = _89cqqNz6;
+        "fabric-26.1.1" = _89cqqNz6;
+        "fabric-26.1.2" = _89cqqNz6;
+        "fabric-26.3" = _2VmL6hN3;
         "quilt-1.21" = _M8wZYtyh;
         "quilt-1.21.1" = _M8wZYtyh;
         "quilt-1.21.2" = _M8wZYtyh;
@@ -334,7 +353,10 @@ let
         "pkg-2.4.1+1.21.11" = _VZpQLvmi;
         "pkg-v2.5.0+26.2" = _THFnhaEt;
         "pkg-v2.5.0+26.1.2" = _GXVRjk5g;
-        "default" = _GXVRjk5g;
+        "pkg-v2.6.0+26.3" = _2VmL6hN3;
+        "pkg-v2.6.0+26.1.2" = _89cqqNz6;
+        "pkg-v2.6.0+26.2" = _Lg4whJxY;
+        "default" = _Lg4whJxY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "showcase";

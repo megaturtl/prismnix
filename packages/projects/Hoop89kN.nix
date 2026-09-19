@@ -821,6 +821,16 @@ let
             "file" = "sfcr-2.9.4.1+26.2-fabric.jar";
             "hash" = "sha512-5EZG2xsslirbjeTpmUcttdMuFeHZXKBkwvpAHphWMm4JfQ1vPUdNLXpH/ryZlCuOWxB27+xPC28VFUdoVjuSIw==";
         };
+        _SGIMEsNq = {
+            "id" = "SGIMEsNq";
+            "file" = "sfcr-2.9.4.1+26.3-neoforge.jar";
+            "hash" = "sha512-SDKqU0sIuRS1V6SbAekcmf9ekkyBJHLWnqbhc12xVkOqAiRU63RW5Oy2xWZ1n4bB3r2+pwf02cSkGc4HcNH5iA==";
+        };
+        _HGnnVeHB = {
+            "id" = "HGnnVeHB";
+            "file" = "sfcr-2.9.4.1+26.3-fabric.jar";
+            "hash" = "sha512-/iirWXwmQvHqjO9vK4KDHNGRl2T20d34j6ZaqHq2n7IN8dI7Doi8qzkdHhMDXMp2qmJ7J07jw3fQgvnMW4C+2A==";
+        };
     in {
         "8Wj5rI2v" = _8Wj5rI2v;
         "rDT5N5dx" = _rDT5N5dx;
@@ -986,6 +996,8 @@ let
         "aZdn8vZd" = _aZdn8vZd;
         "btDTxm1Z" = _btDTxm1Z;
         "6exklq8f" = _6exklq8f;
+        "SGIMEsNq" = _SGIMEsNq;
+        "HGnnVeHB" = _HGnnVeHB;
         "fabric-1.19.2" = _tZDMKQ3H;
         "fabric-1.19.3" = _E49qmDOc;
         "fabric-1.19" = _hiVtV8jI;
@@ -1025,6 +1037,7 @@ let
         "fabric-26.2-rc-2" = _FKnclhfN;
         "fabric-26.3-snapshot-1" = _FKnclhfN;
         "fabric-26.2" = _6exklq8f;
+        "fabric-26.3" = _HGnnVeHB;
         "forge-1.16.5" = _Jn0cikIO;
         "forge-1.18.2" = _TRdsnCv7;
         "forge-1.19" = _hiVtV8jI;
@@ -1041,6 +1054,7 @@ let
         "neoforge-26.1.1" = _ehBsutFc;
         "neoforge-26.1.2" = _ehBsutFc;
         "neoforge-26.2" = _btDTxm1Z;
+        "neoforge-26.3" = _SGIMEsNq;
         "pkg-1.1.0" = _8Wj5rI2v;
         "pkg-1.2.0" = _rDT5N5dx;
         "pkg-1.2.0-1.19.3" = _VBKXDDtx;
@@ -1197,7 +1211,9 @@ let
         "pkg-2.9.4.1+1.21.11-fabric" = _aZdn8vZd;
         "pkg-2.9.4.1+26.2-neoforge" = _btDTxm1Z;
         "pkg-2.9.4.1+26.2-fabric" = _6exklq8f;
-        "default" = _6exklq8f;
+        "pkg-2.9.4.1+26.3-neoforge" = _SGIMEsNq;
+        "pkg-2.9.4.1+26.3-fabric" = _HGnnVeHB;
+        "default" = _HGnnVeHB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "superfancyclouds-refabricated";

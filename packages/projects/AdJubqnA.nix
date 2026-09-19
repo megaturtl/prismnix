@@ -21,22 +21,33 @@ let
             "file" = "endium-enhanced-1.2.0.jar";
             "hash" = "sha512-owNeX4k+tPbIqIST+2Nf1JncmEs4hF1PVW7Nv8JUfVkVM4odCmfpN5MjsGKOts25e7j4lWnXL0hdDcdGy5KGwg==";
         };
+        _eYCJhbI8 = {
+            "id" = "eYCJhbI8";
+            "file" = "endium-enhanced-1.2.1.jar";
+            "hash" = "sha512-tuJ+qZprbMeAAES05TaGGzHMENsvovs5fx8NEETBRzwvDtHOEZeDLQ0EkEluqLhknPrlPDHFjsEWJldUNLqBxg==";
+        };
     in {
         "hJVEtBRh" = _hJVEtBRh;
         "ETVO2EvY" = _ETVO2EvY;
         "jJqRYFQF" = _jJqRYFQF;
         "PBh4HH5S" = _PBh4HH5S;
+        "eYCJhbI8" = _eYCJhbI8;
         "fabric-1.21.11" = _hJVEtBRh;
         "fabric-26.1" = _ETVO2EvY;
         "fabric-26.1.1" = _ETVO2EvY;
         "fabric-26.1.2" = _ETVO2EvY;
         "fabric-26.2-rc-1" = _jJqRYFQF;
         "fabric-26.2" = _PBh4HH5S;
+        "fabric-26.3-rc-1" = _eYCJhbI8;
+        "fabric-26.3-rc-2" = _eYCJhbI8;
+        "fabric-26.3-rc-3" = _eYCJhbI8;
+        "fabric-26.3" = _eYCJhbI8;
         "pkg-1.0.0" = _hJVEtBRh;
         "pkg-1.1.0" = _ETVO2EvY;
         "pkg-1.1.1" = _jJqRYFQF;
         "pkg-1.2.0" = _PBh4HH5S;
-        "default" = _PBh4HH5S;
+        "pkg-1.2.1" = _eYCJhbI8;
+        "default" = _eYCJhbI8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "endium-enhanced";

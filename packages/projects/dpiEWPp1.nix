@@ -26,12 +26,18 @@ let
             "file" = "Emissive Twitch Cape v1.4.zip";
             "hash" = "sha512-Wiln1fJpSm7S1WInGZBtg4/PnQRYgJFxK0FB6paB1CIvd89F0UkS2x1JPv3rDHa+/Icz/s+7wHhPsNralXKtHg==";
         };
+        _NaYJBO0i = {
+            "id" = "NaYJBO0i";
+            "file" = "Emissive Twitch Cape v1.5.zip";
+            "hash" = "sha512-EMbpsX2lXzP24/iQvGrX1MzWAmvlos4UPZltGwXXAyPg6UVc5aUIZrSXsaGuB6CMFeSK3U+Ky1kTJbc58y9Keg==";
+        };
     in {
         "Jo3L1L5A" = _Jo3L1L5A;
         "xSUbk48W" = _xSUbk48W;
         "rWnMvbQz" = _rWnMvbQz;
         "uRvkYPy8" = _uRvkYPy8;
         "3ztTBqVB" = _3ztTBqVB;
+        "NaYJBO0i" = _NaYJBO0i;
         "minecraft-1.20" = _Jo3L1L5A;
         "minecraft-1.20.1" = _Jo3L1L5A;
         "minecraft-1.20.2" = _Jo3L1L5A;
@@ -51,10 +57,11 @@ let
         "minecraft-1.21.9" = _rWnMvbQz;
         "minecraft-1.21.10" = _uRvkYPy8;
         "minecraft-1.21.11" = _uRvkYPy8;
-        "minecraft-26.1" = _3ztTBqVB;
-        "minecraft-26.1.1" = _3ztTBqVB;
-        "minecraft-26.1.2" = _3ztTBqVB;
-        "minecraft-26.2" = _3ztTBqVB;
+        "minecraft-26.1" = _NaYJBO0i;
+        "minecraft-26.1.1" = _NaYJBO0i;
+        "minecraft-26.1.2" = _NaYJBO0i;
+        "minecraft-26.2" = _NaYJBO0i;
+        "minecraft-26.3" = _NaYJBO0i;
         "vanilla-1.20" = _Jo3L1L5A;
         "vanilla-1.20.1" = _Jo3L1L5A;
         "vanilla-1.20.2" = _Jo3L1L5A;
@@ -76,7 +83,8 @@ let
         "pkg-1.2" = _rWnMvbQz;
         "pkg-1.3" = _uRvkYPy8;
         "pkg-1.4" = _3ztTBqVB;
-        "default" = _3ztTBqVB;
+        "pkg-1.5" = _NaYJBO0i;
+        "default" = _NaYJBO0i;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "emissive-twitch-cape";

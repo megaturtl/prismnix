@@ -1001,6 +1001,21 @@ let
             "file" = "wormhole-1.1.17-neoforge-mc26.2.jar";
             "hash" = "sha512-iH4xSNkw8U844WbvBsmboLloK9wrcwcHT7hff55j0MfGiUnm6EjSmW1Lylup1fFBskjoXRcaSLPRuc2fjjsFtQ==";
         };
+        _lwRxXe5V = {
+            "id" = "lwRxXe5V";
+            "file" = "wormhole-1.1.17a-neoforge-mc26.2.jar";
+            "hash" = "sha512-CkXSY0GE8lboPKez2M4JQS3zHGNhS+gUz0eGlGW7yt1DSTt1rS/oQeczn0uP7CagdiyQUhjpNvMfv8Avly3m0Q==";
+        };
+        _EBxuaAmZ = {
+            "id" = "EBxuaAmZ";
+            "file" = "wormhole-1.1.17-fabric-mc26.3.jar";
+            "hash" = "sha512-jFAzpWucEfxlAKdeHpoOQ9Gyf9DLM8Vl5HYgmhxD7/a2vGEBlLYbG8MZcAq9b4pIR2sXJrSgjyGj+yUPez+Zyw==";
+        };
+        _I6UXj8L6 = {
+            "id" = "I6UXj8L6";
+            "file" = "wormhole-1.1.17-neoforge-mc26.3.jar";
+            "hash" = "sha512-mWnSmLeonsmOwLdS8hOBR/u4yL3a92E/bopUX89jtKmA54CD8AS8S9Pim9H5XgVOJI2f1qw7lUZlw8yEoU+H1g==";
+        };
     in {
         "2LfScc80" = _2LfScc80;
         "ntlwKqse" = _ntlwKqse;
@@ -1202,6 +1217,9 @@ let
         "NSKbe2Ps" = _NSKbe2Ps;
         "U8R58dhk" = _U8R58dhk;
         "cqmwrnqK" = _cqmwrnqK;
+        "lwRxXe5V" = _lwRxXe5V;
+        "EBxuaAmZ" = _EBxuaAmZ;
+        "I6UXj8L6" = _I6UXj8L6;
         "forge-1.12" = _u8Hue0QR;
         "forge-1.12.1" = _u8Hue0QR;
         "forge-1.12.2" = _u8Hue0QR;
@@ -1280,6 +1298,7 @@ let
         "fabric-26.1.1" = _1PNYIVWf;
         "fabric-26.1.2" = _1PNYIVWf;
         "fabric-26.2" = _WzcAUP7V;
+        "fabric-26.3" = _EBxuaAmZ;
         "neoforge-1.14" = _mYwuJ7zR;
         "neoforge-1.14.1" = _mYwuJ7zR;
         "neoforge-1.14.2" = _mYwuJ7zR;
@@ -1329,7 +1348,8 @@ let
         "neoforge-26.1" = _U8R58dhk;
         "neoforge-26.1.1" = _U8R58dhk;
         "neoforge-26.1.2" = _U8R58dhk;
-        "neoforge-26.2" = _cqmwrnqK;
+        "neoforge-26.2" = _lwRxXe5V;
+        "neoforge-26.3" = _I6UXj8L6;
         "quilt-1.18" = _QeT7KnjS;
         "quilt-1.18.1" = _QeT7KnjS;
         "quilt-1.18.2" = _QeT7KnjS;
@@ -1358,6 +1378,7 @@ let
         "quilt-26.1.1" = _1PNYIVWf;
         "quilt-26.1.2" = _1PNYIVWf;
         "quilt-26.2" = _WzcAUP7V;
+        "quilt-26.3" = _EBxuaAmZ;
         "pkg-1.1.10-forge-mc1.12" = _2LfScc80;
         "pkg-1.1.10-forge-mc1.14" = _ntlwKqse;
         "pkg-1.1.10-forge-mc1.15" = _mpEreUOF;
@@ -1558,7 +1579,10 @@ let
         "pkg-1.1.17-neoforge-mc1.21.11" = _NSKbe2Ps;
         "pkg-1.1.17-neoforge-mc26.1" = _U8R58dhk;
         "pkg-1.1.17-neoforge-mc26.2" = _cqmwrnqK;
-        "default" = _cqmwrnqK;
+        "pkg-1.1.17a-neoforge-mc26.2" = _lwRxXe5V;
+        "pkg-1.1.17-fabric-mc26.3" = _EBxuaAmZ;
+        "pkg-1.1.17-neoforge-mc26.3" = _I6UXj8L6;
+        "default" = _I6UXj8L6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wormhole";

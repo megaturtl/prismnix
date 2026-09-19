@@ -116,6 +116,11 @@ let
             "file" = "cobbletcg-1.5.0.jar";
             "hash" = "sha512-FRrKj5l4QP5h/jcFwiRpRmDb7IaN/+0kb4m+btwB7HwgLTTZ3gn5f/QloOnVX99nZpFPRhgyj6G3E7dtWTlVmw==";
         };
+        _7sl5fRfb = {
+            "id" = "7sl5fRfb";
+            "file" = "cobbletcg-1.6.0.jar";
+            "hash" = "sha512-iyppRBF7QJ+weUXsaYcFm32OMPmEecAiAEQ3nyK/GJOvNqhfNnT6vrmk2XhidcI22g8kGMtp7ukkEBkzSigPxg==";
+        };
     in {
         "dhjoa37o" = _dhjoa37o;
         "9EAi5D6H" = _9EAi5D6H;
@@ -140,7 +145,8 @@ let
         "7dVaPCUs" = _7dVaPCUs;
         "ssZbF8Y2" = _ssZbF8Y2;
         "n6OMdV5O" = _n6OMdV5O;
-        "fabric-1.21.1" = _n6OMdV5O;
+        "7sl5fRfb" = _7sl5fRfb;
+        "fabric-1.21.1" = _7sl5fRfb;
         "pkg-CobbleTCG-0.9.3" = _dhjoa37o;
         "pkg-CobbleTCG-0.9.4" = _9EAi5D6H;
         "pkg-CobbleTCG-0.9.7" = _Us1MOcJj;
@@ -164,7 +170,8 @@ let
         "pkg-CobbleTCG-1.4.2" = _7dVaPCUs;
         "pkg-CobbleTCG-1.4.3" = _ssZbF8Y2;
         "pkg-CobbleTCG-1.5.0" = _n6OMdV5O;
-        "default" = _n6OMdV5O;
+        "pkg-CobbleTCG-1.6.0" = _7sl5fRfb;
+        "default" = _7sl5fRfb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobbletcg";

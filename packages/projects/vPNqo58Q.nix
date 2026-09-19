@@ -1071,6 +1071,16 @@ let
             "file" = "clienttweaks-neoforge-26.1.2-26.1.2.8.jar";
             "hash" = "sha512-Opp9x7oQ0uJVdEIik9Jo1Phli2j2Px4+XVHc6uLr8UxztsbNeYax6UDDkPfSs25rMi80tsZSrSPjG8jBSspQLQ==";
         };
+        _7fKN7OpP = {
+            "id" = "7fKN7OpP";
+            "file" = "clienttweaks-fabric-26.3-26.3.0.1.jar";
+            "hash" = "sha512-6Az8tMWiqfErfyGsoLcBaKXLDb/oRuPgUxs7tawXU3QLsuXJSNO82fMynAhQ9joajugBszCOwUnsGpBBxwjdBg==";
+        };
+        _BtIBemKM = {
+            "id" = "BtIBemKM";
+            "file" = "clienttweaks-neoforge-26.3-26.3.0.1.jar";
+            "hash" = "sha512-LKPkcdB9yVMYJTFWs02YOzTFiAUUqcLmUHjNBsOa+x5wmgw/GUxBOcCT56Z4p5lV2XdwOlMqhJtH9GExqjwV3w==";
+        };
     in {
         "T0tustVF" = _T0tustVF;
         "SoUkWRKx" = _SoUkWRKx;
@@ -1286,6 +1296,8 @@ let
         "dRLEbNAr" = _dRLEbNAr;
         "X0Kv7nwi" = _X0Kv7nwi;
         "sKDoDeOw" = _sKDoDeOw;
+        "7fKN7OpP" = _7fKN7OpP;
+        "BtIBemKM" = _BtIBemKM;
         "fabric-1.19" = _x2nEWOgf;
         "fabric-1.19.1" = _x2nEWOgf;
         "fabric-1.19.2" = _x2nEWOgf;
@@ -1315,6 +1327,7 @@ let
         "fabric-26.1.1" = _hpzT3J4h;
         "fabric-26.1.2" = _X0Kv7nwi;
         "fabric-26.2" = _klm9mkyw;
+        "fabric-26.3" = _7fKN7OpP;
         "forge-1.19" = _gUwtFfmz;
         "forge-1.19.1" = _gUwtFfmz;
         "forge-1.19.2" = _gUwtFfmz;
@@ -1357,6 +1370,7 @@ let
         "neoforge-26.1.1" = _joAaRE54;
         "neoforge-26.1.2" = _sKDoDeOw;
         "neoforge-26.2" = _1m4V405j;
+        "neoforge-26.3" = _BtIBemKM;
         "pkg-8.0.0+fabric-1.19" = _T0tustVF;
         "pkg-8.0.0+forge-1.19" = _SoUkWRKx;
         "pkg-8.1.0+fabric-1.19" = _fK62VmwY;
@@ -1571,7 +1585,9 @@ let
         "pkg-21.1.15+neoforge-1.21.1" = _dRLEbNAr;
         "pkg-26.1.2.8+fabric-26.1.2" = _X0Kv7nwi;
         "pkg-26.1.2.8+neoforge-26.1.2" = _sKDoDeOw;
-        "default" = _sKDoDeOw;
+        "pkg-26.3.0.1+fabric-26.3" = _7fKN7OpP;
+        "pkg-26.3.0.1+neoforge-26.3" = _BtIBemKM;
+        "default" = _BtIBemKM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "client-tweaks";

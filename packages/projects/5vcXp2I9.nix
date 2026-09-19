@@ -51,6 +51,16 @@ let
             "file" = "tameable-ocelots-1.1.1.jar";
             "hash" = "sha512-GFY/Fpb5kL3hwIGgxeQ6FN95il+6sBFmRbpIUjcBQbmQaPf/x+64nmoSlaHkCwFQAGpPvJtgC0XEqGt30faSNw==";
         };
+        _HaHTSW0R = {
+            "id" = "HaHTSW0R";
+            "file" = "[26.3]tameable-ocelots.zip";
+            "hash" = "sha512-edB6hm/wCzHcJvb3UBXCr5wtYhD0jBKk0OZLxMIlvdo8Ng3cnS9rA3hQ5NEoEd+pnfZS9fPKKnTNFMu+kjRFvg==";
+        };
+        _WVB5J6bO = {
+            "id" = "WVB5J6bO";
+            "file" = "tameable-ocelots-1.1.2.jar";
+            "hash" = "sha512-KXCmjGbbZIHPyZH2zbBkzOUNqI/bM5+CS9ZfDnr0HbLKgNL8CYtDk3wjDXCWfkaMpGu1DxQp3Ciq4Zh452EYwA==";
+        };
     in {
         "VzpbyzBB" = _VzpbyzBB;
         "vO9fzzhw" = _vO9fzzhw;
@@ -62,6 +72,8 @@ let
         "VKa6kkef" = _VKa6kkef;
         "mbywR6fQ" = _mbywR6fQ;
         "sijtZJh3" = _sijtZJh3;
+        "HaHTSW0R" = _HaHTSW0R;
+        "WVB5J6bO" = _WVB5J6bO;
         "datapack-1.21.5" = _VzpbyzBB;
         "datapack-1.21.6" = _VzpbyzBB;
         "datapack-1.21.7" = _VzpbyzBB;
@@ -73,6 +85,7 @@ let
         "datapack-26.1.1" = _Fcc3Fuqh;
         "datapack-26.1.2" = _Fcc3Fuqh;
         "datapack-26.2" = _mbywR6fQ;
+        "datapack-26.3" = _HaHTSW0R;
         "fabric-1.21.5" = _vO9fzzhw;
         "fabric-1.21.6" = _vO9fzzhw;
         "fabric-1.21.7" = _vO9fzzhw;
@@ -84,6 +97,7 @@ let
         "fabric-26.1.1" = _VKa6kkef;
         "fabric-26.1.2" = _VKa6kkef;
         "fabric-26.2" = _sijtZJh3;
+        "fabric-26.3" = _WVB5J6bO;
         "forge-1.21.5" = _vO9fzzhw;
         "forge-1.21.6" = _vO9fzzhw;
         "forge-1.21.7" = _vO9fzzhw;
@@ -95,6 +109,7 @@ let
         "forge-26.1.1" = _VKa6kkef;
         "forge-26.1.2" = _VKa6kkef;
         "forge-26.2" = _sijtZJh3;
+        "forge-26.3" = _WVB5J6bO;
         "neoforge-1.21.5" = _vO9fzzhw;
         "neoforge-1.21.6" = _vO9fzzhw;
         "neoforge-1.21.7" = _vO9fzzhw;
@@ -106,6 +121,7 @@ let
         "neoforge-26.1.1" = _VKa6kkef;
         "neoforge-26.1.2" = _VKa6kkef;
         "neoforge-26.2" = _sijtZJh3;
+        "neoforge-26.3" = _WVB5J6bO;
         "quilt-1.21.5" = _vO9fzzhw;
         "quilt-1.21.6" = _vO9fzzhw;
         "quilt-1.21.7" = _vO9fzzhw;
@@ -117,6 +133,7 @@ let
         "quilt-26.1.1" = _VKa6kkef;
         "quilt-26.1.2" = _VKa6kkef;
         "quilt-26.2" = _sijtZJh3;
+        "quilt-26.3" = _WVB5J6bO;
         "pkg-1.0.0" = _VzpbyzBB;
         "pkg-1.0.0+mod" = _vO9fzzhw;
         "pkg-1.0.1" = _kI5INtmt;
@@ -127,7 +144,9 @@ let
         "pkg-1.1+mod" = _VKa6kkef;
         "pkg-1.1.1" = _mbywR6fQ;
         "pkg-1.1.1+mod" = _sijtZJh3;
-        "default" = _sijtZJh3;
+        "pkg-1.1.2" = _HaHTSW0R;
+        "pkg-1.1.2+mod" = _WVB5J6bO;
+        "default" = _WVB5J6bO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tameable-ocelots";

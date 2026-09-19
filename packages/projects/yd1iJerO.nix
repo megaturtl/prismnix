@@ -126,6 +126,11 @@ let
             "file" = "Invisible Armor Model - 88.0.zip";
             "hash" = "sha512-Q40COw0CjhY6bskiv2kiFfJAbTl0u49RL+wLLNSHQo6AwDeWHJG+V1zH/RabLpnN0+l8UCvrW5QmAWiIr+bd1g==";
         };
+        _n99Eyqff = {
+            "id" = "n99Eyqff";
+            "file" = "Invisible Armor Model - 97.1.zip";
+            "hash" = "sha512-KwArLwWXYxfqpTOOG/6fN+qdMYaHjpOcPD8Mc0I7m32IozWqslNfAKcNz39wqThcR24ldWs8w19SsA198ZPw6g==";
+        };
     in {
         "WyioFdLn" = _WyioFdLn;
         "EEghd4u2" = _EEghd4u2;
@@ -152,6 +157,7 @@ let
         "4ZpAmgOA" = _4ZpAmgOA;
         "rTPBTdK9" = _rTPBTdK9;
         "5n8DKSoz" = _5n8DKSoz;
+        "n99Eyqff" = _n99Eyqff;
         "minecraft-1.6.1" = _WyioFdLn;
         "minecraft-1.6.2" = _WyioFdLn;
         "minecraft-1.6.4" = _WyioFdLn;
@@ -238,6 +244,7 @@ let
         "minecraft-26.1.1" = _rTPBTdK9;
         "minecraft-26.1.2" = _rTPBTdK9;
         "minecraft-26.2" = _5n8DKSoz;
+        "minecraft-26.3" = _n99Eyqff;
         "pkg-1" = _WyioFdLn;
         "pkg-2" = _EEghd4u2;
         "pkg-3" = _Ld7w1i1g;
@@ -263,7 +270,8 @@ let
         "pkg-75.0" = _4ZpAmgOA;
         "pkg-84.0" = _rTPBTdK9;
         "pkg-88.0" = _5n8DKSoz;
-        "default" = _5n8DKSoz;
+        "pkg-97.1" = _n99Eyqff;
+        "default" = _n99Eyqff;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "invisible-armor-model";

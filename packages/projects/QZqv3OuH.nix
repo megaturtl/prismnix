@@ -146,6 +146,11 @@ let
             "file" = "xp_stream-fabric-26.3-snapshot-8-1.1.6.jar";
             "hash" = "sha512-592Im6uswzRM8xHx3YXRCr2Lvk7N8OQu3a3t4AMpXappNcniWiCvxcm2sUmpmd9wm11nj75eOrJraZ4bafR/aQ==";
         };
+        _WkFtnit6 = {
+            "id" = "WkFtnit6";
+            "file" = "xp_stream-fabric-26.3-rc-1-1.1.7.jar";
+            "hash" = "sha512-uFrkR/bvcu9rabwXz3eaUwGiePfR2lDpH70Gxki9cJmTomYvmWg2jOFllka2Vh2/JRLl6kGVqLScOsaZyrEjZA==";
+        };
     in {
         "uNXm7b6B" = _uNXm7b6B;
         "YpevOph2" = _YpevOph2;
@@ -176,6 +181,7 @@ let
         "zwC0vKcD" = _zwC0vKcD;
         "WAjl4Fl2" = _WAjl4Fl2;
         "tqi6Thqr" = _tqi6Thqr;
+        "WkFtnit6" = _WkFtnit6;
         "fabric-1.21.11" = _XTtBttDn;
         "fabric-1.21.1" = _zopaJ2br;
         "fabric-26.1-snapshot-2" = _AzAfO9he;
@@ -213,14 +219,23 @@ let
         "fabric-26.2-rc-1" = _7vwjhUqN;
         "fabric-26.2-rc-2" = _7vwjhUqN;
         "fabric-26.2" = _WAjl4Fl2;
-        "fabric-26.3-snapshot-1" = _tqi6Thqr;
-        "fabric-26.3-snapshot-2" = _tqi6Thqr;
-        "fabric-26.3-snapshot-3" = _tqi6Thqr;
-        "fabric-26.3-snapshot-4" = _tqi6Thqr;
-        "fabric-26.3-snapshot-5" = _tqi6Thqr;
-        "fabric-26.3-snapshot-6" = _tqi6Thqr;
-        "fabric-26.3-snapshot-7" = _tqi6Thqr;
-        "fabric-26.3-snapshot-8" = _tqi6Thqr;
+        "fabric-26.3-snapshot-1" = _WkFtnit6;
+        "fabric-26.3-snapshot-2" = _WkFtnit6;
+        "fabric-26.3-snapshot-3" = _WkFtnit6;
+        "fabric-26.3-snapshot-4" = _WkFtnit6;
+        "fabric-26.3-snapshot-5" = _WkFtnit6;
+        "fabric-26.3-snapshot-6" = _WkFtnit6;
+        "fabric-26.3-snapshot-7" = _WkFtnit6;
+        "fabric-26.3-snapshot-8" = _WkFtnit6;
+        "fabric-26.3-snapshot-9" = _WkFtnit6;
+        "fabric-26.3-snapshot-10" = _WkFtnit6;
+        "fabric-26.3-pre-1" = _WkFtnit6;
+        "fabric-26.3-pre-2" = _WkFtnit6;
+        "fabric-26.3-pre-3" = _WkFtnit6;
+        "fabric-26.3-rc-1" = _WkFtnit6;
+        "fabric-26.3-rc-2" = _WkFtnit6;
+        "fabric-26.3-rc-3" = _WkFtnit6;
+        "fabric-26.3" = _WkFtnit6;
         "neoforge-1.21.11" = _Qq77INMw;
         "neoforge-1.21.1" = _xMgTcITM;
         "neoforge-26.1-snapshot-2" = _AH7KPyPY;
@@ -252,7 +267,8 @@ let
         "pkg-1.1.4" = _7vwjhUqN;
         "pkg-1.1.5" = _WAjl4Fl2;
         "pkg-1.1.6" = _tqi6Thqr;
-        "default" = _tqi6Thqr;
+        "pkg-1.1.7" = _WkFtnit6;
+        "default" = _WkFtnit6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xp-stream";

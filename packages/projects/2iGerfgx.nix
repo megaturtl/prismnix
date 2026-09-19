@@ -41,6 +41,11 @@ let
             "file" = "tradehacker-1.1.2.jar";
             "hash" = "sha512-epYEdYOt1S5P92dRiosSoCeCONI+I/hQXYKxp49sIxtzbAMTuny4bNYQ3tHyvVX86LGv825W2afSfmOlujRJsQ==";
         };
+        _WwWzbpJX = {
+            "id" = "WwWzbpJX";
+            "file" = "tradehacker-1.1.3.jar";
+            "hash" = "sha512-wjbSQj/bXXZ7C0Uqfax/OxaSwHMqbJRTvDuNYrmNsnml3fmh7DMhU0qv544mcIvbtNoU9AgsaK9Mar8QNvJKrg==";
+        };
     in {
         "lv6OEl4x" = _lv6OEl4x;
         "uS4mM5Ha" = _uS4mM5Ha;
@@ -50,6 +55,7 @@ let
         "VxneOVTu" = _VxneOVTu;
         "1QfQAI7D" = _1QfQAI7D;
         "xPuHQpEC" = _xPuHQpEC;
+        "WwWzbpJX" = _WwWzbpJX;
         "fabric-1.17" = _1QfQAI7D;
         "fabric-1.17.1" = _1QfQAI7D;
         "fabric-1.18" = _1QfQAI7D;
@@ -79,17 +85,19 @@ let
         "fabric-1.21.9" = _1QfQAI7D;
         "fabric-1.21.10" = _1QfQAI7D;
         "fabric-1.21.11" = _1QfQAI7D;
-        "fabric-26.1" = _xPuHQpEC;
-        "fabric-26.1.1" = _xPuHQpEC;
-        "fabric-26.1.2" = _xPuHQpEC;
-        "fabric-26.2" = _xPuHQpEC;
+        "fabric-26.1" = _WwWzbpJX;
+        "fabric-26.1.1" = _WwWzbpJX;
+        "fabric-26.1.2" = _WwWzbpJX;
+        "fabric-26.2" = _WwWzbpJX;
+        "fabric-26.3" = _WwWzbpJX;
         "pkg-1.0" = _lv6OEl4x;
         "pkg-1.0.1" = _uS4mM5Ha;
         "pkg-1.0.2" = _qjBvKiwS;
         "pkg-1.1" = _u4PSUAMZ;
         "pkg-1.1.1" = _VxneOVTu;
         "pkg-1.1.2" = _xPuHQpEC;
-        "default" = _xPuHQpEC;
+        "pkg-1.1.3" = _WwWzbpJX;
+        "default" = _WwWzbpJX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tradehacker";

@@ -116,6 +116,16 @@ let
             "file" = "craftable-bells-107.1.jar";
             "hash" = "sha512-WLuxdVQS2tXNhJNcJTz6V5c/qw/g3aESqKELC2fC+CCHj48aXufxTqakOjKt6+DbAGO0fQNGlMo+3HX8sqfwuA==";
         };
+        _xbVdr3bA = {
+            "id" = "xbVdr3bA";
+            "file" = "craftable-bells-1.0.0-mc26.3.zip";
+            "hash" = "sha512-RlwTZ1J1V3N3DUMyN7P/b0inX0dmwgRGT7jRHQ27eUr29gl7jDmD6rlb2TY8jME2i137CHnB5pz3ZwaoqXj8Hw==";
+        };
+        _OuW41QwQ = {
+            "id" = "OuW41QwQ";
+            "file" = "craftable-bells-1.0.0.jar";
+            "hash" = "sha512-cP68sxBmHQQ5MrH+B729Wloiyk+JDMbw8caOIqKz6F5l4ReSxC8w7PJUMnOiV7UjRk9eLMO9DuTtnjSKOFSahg==";
+        };
     in {
         "3sanooxK" = _3sanooxK;
         "7PoarWO2" = _7PoarWO2;
@@ -140,6 +150,8 @@ let
         "jmbJG8wH" = _jmbJG8wH;
         "DQ59G0IR" = _DQ59G0IR;
         "5ezlyFCO" = _5ezlyFCO;
+        "xbVdr3bA" = _xbVdr3bA;
+        "OuW41QwQ" = _OuW41QwQ;
         "datapack-1.20.5" = _3sanooxK;
         "datapack-1.20.6" = _3sanooxK;
         "datapack-1.21" = _ntQ1IpBd;
@@ -158,6 +170,7 @@ let
         "datapack-26.1.1" = _M8Ih2ySG;
         "datapack-26.1.2" = _M8Ih2ySG;
         "datapack-26.2" = _DQ59G0IR;
+        "datapack-26.3" = _xbVdr3bA;
         "fabric-1.20.5" = _7PoarWO2;
         "fabric-1.20.6" = _7PoarWO2;
         "fabric-1.21" = _ZmUTq5n3;
@@ -176,6 +189,7 @@ let
         "fabric-26.1.1" = _jmbJG8wH;
         "fabric-26.1.2" = _jmbJG8wH;
         "fabric-26.2" = _5ezlyFCO;
+        "fabric-26.3" = _OuW41QwQ;
         "forge-1.20.5" = _7PoarWO2;
         "forge-1.20.6" = _7PoarWO2;
         "forge-1.21" = _ZmUTq5n3;
@@ -194,6 +208,7 @@ let
         "forge-26.1.1" = _jmbJG8wH;
         "forge-26.1.2" = _jmbJG8wH;
         "forge-26.2" = _5ezlyFCO;
+        "forge-26.3" = _OuW41QwQ;
         "quilt-1.20.5" = _7PoarWO2;
         "quilt-1.20.6" = _7PoarWO2;
         "quilt-1.21" = _ZmUTq5n3;
@@ -212,6 +227,7 @@ let
         "quilt-26.1.1" = _jmbJG8wH;
         "quilt-26.1.2" = _jmbJG8wH;
         "quilt-26.2" = _5ezlyFCO;
+        "quilt-26.3" = _OuW41QwQ;
         "neoforge-1.21.2" = _8hbLxv7D;
         "neoforge-1.21.3" = _8hbLxv7D;
         "neoforge-1.21.4" = _LVsDDYhT;
@@ -226,6 +242,7 @@ let
         "neoforge-26.1.1" = _jmbJG8wH;
         "neoforge-26.1.2" = _jmbJG8wH;
         "neoforge-26.2" = _5ezlyFCO;
+        "neoforge-26.3" = _OuW41QwQ;
         "pkg-41.1" = _3sanooxK;
         "pkg-41.1+mod" = _7PoarWO2;
         "pkg-48.1" = _ntQ1IpBd;
@@ -248,7 +265,9 @@ let
         "pkg-101.1+mod" = _jmbJG8wH;
         "pkg-107.1" = _DQ59G0IR;
         "pkg-107.1+mod" = _5ezlyFCO;
-        "default" = _5ezlyFCO;
+        "pkg-1.0.0" = _xbVdr3bA;
+        "pkg-1.0.0+mod" = _OuW41QwQ;
+        "default" = _OuW41QwQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craftable-bells";

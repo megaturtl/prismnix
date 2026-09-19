@@ -91,6 +91,16 @@ let
             "file" = "skyblock-biome-islands-1.0.8.jar";
             "hash" = "sha512-t374zx2ZmmM0xeXUw76WGrEb1IAUxBiaOD1XPmN3ciNZ9a/8H8faVdSAfEGiJ9WqHCHPqn3ltoLpc981HYZ8gg==";
         };
+        _S5M2NOOA = {
+            "id" = "S5M2NOOA";
+            "file" = "skyvoid_biome_islands_v1_0_9-MC_26_2.zip";
+            "hash" = "sha512-Vy7IeeCR8EjX/94Odju9E4oPWvfLExhdxksGLrAttrplysCE0dxU1SEqDkoV6A7aYitIQitzT8jOiAk77slNpw==";
+        };
+        _IIK4AoxQ = {
+            "id" = "IIK4AoxQ";
+            "file" = "skyblock-biome-islands-1.0.9.jar";
+            "hash" = "sha512-bK9nNrilmHm4EVbFhjCguVsQwEMDl+qNVU45h1c4aw7RA5hQiFYV5kj4xx/xX7U/bS/Qjk8YoM5jASeanRgi5w==";
+        };
     in {
         "9F10WGYf" = _9F10WGYf;
         "hU1LUmeu" = _hU1LUmeu;
@@ -110,6 +120,8 @@ let
         "OMSGMIAe" = _OMSGMIAe;
         "H4GSqZu5" = _H4GSqZu5;
         "5wTRAf5x" = _5wTRAf5x;
+        "S5M2NOOA" = _S5M2NOOA;
+        "IIK4AoxQ" = _IIK4AoxQ;
         "datapack-1.21" = _CySQzgj6;
         "datapack-1.21.1" = _CySQzgj6;
         "datapack-1.21.2" = _CySQzgj6;
@@ -125,6 +137,7 @@ let
         "datapack-26.1" = _H4GSqZu5;
         "datapack-26.1.1" = _H4GSqZu5;
         "datapack-26.1.2" = _H4GSqZu5;
+        "datapack-26.2" = _S5M2NOOA;
         "fabric-1.21" = _DUvhFoWC;
         "fabric-1.21.1" = _DUvhFoWC;
         "fabric-1.21.2" = _DUvhFoWC;
@@ -140,6 +153,7 @@ let
         "fabric-26.1" = _5wTRAf5x;
         "fabric-26.1.1" = _5wTRAf5x;
         "fabric-26.1.2" = _5wTRAf5x;
+        "fabric-26.2" = _IIK4AoxQ;
         "forge-1.21" = _DUvhFoWC;
         "forge-1.21.1" = _DUvhFoWC;
         "forge-1.21.2" = _DUvhFoWC;
@@ -155,6 +169,7 @@ let
         "forge-26.1" = _5wTRAf5x;
         "forge-26.1.1" = _5wTRAf5x;
         "forge-26.1.2" = _5wTRAf5x;
+        "forge-26.2" = _IIK4AoxQ;
         "neoforge-1.21" = _DUvhFoWC;
         "neoforge-1.21.1" = _DUvhFoWC;
         "neoforge-1.21.2" = _DUvhFoWC;
@@ -170,6 +185,7 @@ let
         "neoforge-26.1" = _5wTRAf5x;
         "neoforge-26.1.1" = _5wTRAf5x;
         "neoforge-26.1.2" = _5wTRAf5x;
+        "neoforge-26.2" = _IIK4AoxQ;
         "quilt-1.21" = _DUvhFoWC;
         "quilt-1.21.1" = _DUvhFoWC;
         "quilt-1.21.2" = _DUvhFoWC;
@@ -185,6 +201,7 @@ let
         "quilt-26.1" = _5wTRAf5x;
         "quilt-26.1.1" = _5wTRAf5x;
         "quilt-26.1.2" = _5wTRAf5x;
+        "quilt-26.2" = _IIK4AoxQ;
         "pkg-1.0.0" = _9F10WGYf;
         "pkg-1.0.0+mod" = _hU1LUmeu;
         "pkg-1.0.1" = _jM6ocwBd;
@@ -203,7 +220,9 @@ let
         "pkg-1.0.7+mod" = _OMSGMIAe;
         "pkg-1.0.8" = _H4GSqZu5;
         "pkg-1.0.8+mod" = _5wTRAf5x;
-        "default" = _5wTRAf5x;
+        "pkg-1.0.9" = _S5M2NOOA;
+        "pkg-1.0.9+mod" = _IIK4AoxQ;
+        "default" = _IIK4AoxQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skyblock-biome-islands";

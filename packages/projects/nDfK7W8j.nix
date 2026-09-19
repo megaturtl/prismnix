@@ -246,6 +246,26 @@ let
             "file" = "fletchingrecipe-fabric-26.2-26.2.0.jar";
             "hash" = "sha512-B3jLtn4QMxs7yC0nkN+OcVmQXrPgC29i1JdIA7XOdxpU4A8njpug9LK98tQx+X4joDxFhC06kt4eY3z39Q7WPQ==";
         };
+        _eocZoUF8 = {
+            "id" = "eocZoUF8";
+            "file" = "fletchingrecipe-neoforge-26.2-26.2.0.1.jar";
+            "hash" = "sha512-euiX7azAcoc2cGHXIaQjdoV7yyqpZpfQSuXGreYK1xYx4TiGfK5LrB7WHhwMkm1XtwVQUyoxIuCnTEroRlWcrw==";
+        };
+        _7QsKJ53M = {
+            "id" = "7QsKJ53M";
+            "file" = "fletchingrecipe-fabric-26.2-26.2.0.1.jar";
+            "hash" = "sha512-krmCS7RQt2BMCxQ8M1kSW49ofAPtpQCnAEYkrz5xTqYUq9FTEtmA0QqRlokw3byT1HVXJGilfCTmv2uX/0Nj7Q==";
+        };
+        _PPDYlLTu = {
+            "id" = "PPDYlLTu";
+            "file" = "fletchingrecipe-neoforge-26.3-26.3.0.0.jar";
+            "hash" = "sha512-7jNFtucX2vNGTRp/eTdtZnrnT9rSEbzef5XKrnDGd6ITLQEfuxwRXFpvg0xt3WOlW/3Q06XlETRdgGL2E2TWTA==";
+        };
+        _tLryFnwG = {
+            "id" = "tLryFnwG";
+            "file" = "fletchingrecipe-fabric-26.3-26.3.0.0.jar";
+            "hash" = "sha512-+onRVuXRptjPz4r28xj8qaVUkdwKjlrKManEvExkIJjfhX14Xk6AxHYobTC5dW3t179QKT/W+s/K8q8+wH9BYA==";
+        };
     in {
         "s43Qf4WD" = _s43Qf4WD;
         "teH6YXaM" = _teH6YXaM;
@@ -296,6 +316,10 @@ let
         "gaLPaTqr" = _gaLPaTqr;
         "Sre93TG1" = _Sre93TG1;
         "QbCfvFxJ" = _QbCfvFxJ;
+        "eocZoUF8" = _eocZoUF8;
+        "7QsKJ53M" = _7QsKJ53M;
+        "PPDYlLTu" = _PPDYlLTu;
+        "tLryFnwG" = _tLryFnwG;
         "fabric-1.20.1" = _7v7sNaww;
         "fabric-1.21.1" = _vDkysYSs;
         "fabric-1.21.10" = _v2WTFh25;
@@ -304,7 +328,8 @@ let
         "fabric-26.1" = _AEFqX3sB;
         "fabric-26.1.1" = _AEFqX3sB;
         "fabric-26.1.2" = _gaLPaTqr;
-        "fabric-26.2" = _QbCfvFxJ;
+        "fabric-26.2" = _7QsKJ53M;
+        "fabric-26.3" = _tLryFnwG;
         "forge-1.20.1" = _fpoMi78z;
         "forge-1.21.10" = _181W4L5T;
         "forge-1.21.11" = _mSpAPWGU;
@@ -315,7 +340,8 @@ let
         "neoforge-26.1" = _qXhzDK02;
         "neoforge-26.1.1" = _qXhzDK02;
         "neoforge-26.1.2" = _4jlpd1VE;
-        "neoforge-26.2" = _Sre93TG1;
+        "neoforge-26.2" = _eocZoUF8;
+        "neoforge-26.3" = _PPDYlLTu;
         "pkg-1.0.0+1.20.1-fabric" = _s43Qf4WD;
         "pkg-1.0.0+1.20.1-forge" = _teH6YXaM;
         "pkg-1.0.0+1.21.1-fabric" = _oWgsncTB;
@@ -361,7 +387,9 @@ let
         "pkg-26.1.2.1" = _AEFqX3sB;
         "pkg-26.1.2.2" = _gaLPaTqr;
         "pkg-26.2.0" = _QbCfvFxJ;
-        "default" = _QbCfvFxJ;
+        "pkg-26.2.0.1" = _7QsKJ53M;
+        "pkg-26.3.0.0" = _tLryFnwG;
+        "default" = _tLryFnwG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fletching-recipe";

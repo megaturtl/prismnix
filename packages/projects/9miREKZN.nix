@@ -106,6 +106,11 @@ let
             "file" = "§5VN4's §l§2FWS+RWS Detailed.zip";
             "hash" = "sha512-inRz1ELrDxSuBTCImrNj0Tt/N6uQy8012H2/hu0Qt5+BmtQBg1vHJ9LLwOMuUA7E3DkQQQFXlHjXk86/A7/3AA==";
         };
+        _aBE6HHFa = {
+            "id" = "aBE6HHFa";
+            "file" = "§5VN4's §l§2FWS+RWS Detailed.zip";
+            "hash" = "sha512-7hnx7Ov81gsX84Eg2Fj+w4X6CT1kPl8GuPYNt9n2rq9iYBLCsq7vY07neR6MTB+LLMWPFrDuAgoU0j0h/Bl1/Q==";
+        };
     in {
         "ntHkpNCt" = _ntHkpNCt;
         "n9KxiMeh" = _n9KxiMeh;
@@ -128,8 +133,9 @@ let
         "CIJ35MkY" = _CIJ35MkY;
         "KOT095OF" = _KOT095OF;
         "wSaMEVL3" = _wSaMEVL3;
+        "aBE6HHFa" = _aBE6HHFa;
         "minecraft-1.19.4" = _icrbZQyz;
-        "minecraft-1.20.1" = _wSaMEVL3;
+        "minecraft-1.20.1" = _aBE6HHFa;
         "pkg-1.0.0" = _ntHkpNCt;
         "pkg-1.1.0" = _n9KxiMeh;
         "pkg-2.0.0" = _icrbZQyz;
@@ -142,7 +148,8 @@ let
         "pkg-2.2.3" = _CIJ35MkY;
         "pkg-2.2.4" = _KOT095OF;
         "pkg-2.3.0" = _wSaMEVL3;
-        "default" = _wSaMEVL3;
+        "pkg-2.3.1" = _aBE6HHFa;
+        "default" = _aBE6HHFa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vn4s-fresh-wither-storm";

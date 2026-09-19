@@ -86,6 +86,21 @@ let
             "file" = "gentlyholds-1.2.2+mc26.2.jar";
             "hash" = "sha512-J+it0pl2hgJ/iepNaUybT0brw8F2CPjMojzzzPyPalnU496sS/O/Z4JL6NK4tEcmsfgyMeKHkl5eSzn3L3bWqQ==";
         };
+        _rb52PdLM = {
+            "id" = "rb52PdLM";
+            "file" = "gentlyholds-1.2.3+mc26.3.jar";
+            "hash" = "sha512-2xCOjCRS1HbaC1r2ZIp1YFlOroueRbKM/hCFKi6hBwjMPzRjs1/i1AYB+4Era/xnr1wi+GaKm3AhoSBkxu/QQw==";
+        };
+        _jTZAUxLw = {
+            "id" = "jTZAUxLw";
+            "file" = "gentlyholds-1.2.3+mc26.2.jar";
+            "hash" = "sha512-sz2YslcFG8DWfNroyduDbY8P1qDpIeLFyUvwEL+p1tJZSb2QY6SAhZaFtUaOIRXw9nPkA3YogTigwRu4MFiEPw==";
+        };
+        _kl6CRETI = {
+            "id" = "kl6CRETI";
+            "file" = "gentlyholds-1.2.3+mc26.1.2.jar";
+            "hash" = "sha512-RonmhofmUR7X55O4Z+fZIXMBGrfVCal7L1ZvhiMGhq444H9O2gwNOjKDwxsOTQP9bDUnYbWJuuhQZpeO4uFVdw==";
+        };
     in {
         "uP24cZtr" = _uP24cZtr;
         "RR1sLnm8" = _RR1sLnm8;
@@ -104,6 +119,9 @@ let
         "HNobz2OE" = _HNobz2OE;
         "cHRTwAAa" = _cHRTwAAa;
         "ts1b9Ask" = _ts1b9Ask;
+        "rb52PdLM" = _rb52PdLM;
+        "jTZAUxLw" = _jTZAUxLw;
+        "kl6CRETI" = _kl6CRETI;
         "fabric-1.20.1" = _uP24cZtr;
         "fabric-1.21.1" = _WoE0YBDG;
         "fabric-1.21.6" = _5XlFCFdg;
@@ -115,12 +133,14 @@ let
         "fabric-26.1-snapshot-7" = _PduRvWxv;
         "fabric-26.1-snapshot-8" = _PduRvWxv;
         "fabric-26.1-snapshot-9" = _PduRvWxv;
-        "fabric-26.1" = _cHRTwAAa;
-        "fabric-26.1.1" = _cHRTwAAa;
-        "fabric-26.1.2" = _cHRTwAAa;
+        "fabric-26.1" = _kl6CRETI;
+        "fabric-26.1.1" = _kl6CRETI;
+        "fabric-26.1.2" = _kl6CRETI;
         "fabric-26.2-rc-1" = _ts1b9Ask;
         "fabric-26.2-rc-2" = _ts1b9Ask;
-        "fabric-26.2" = _ts1b9Ask;
+        "fabric-26.2" = _jTZAUxLw;
+        "fabric-26.3-rc-2" = _rb52PdLM;
+        "fabric-26.3" = _rb52PdLM;
         "quilt-1.20.1" = _uP24cZtr;
         "quilt-1.21.1" = _RR1sLnm8;
         "pkg-1.0.0+mc1.20.1" = _uP24cZtr;
@@ -140,7 +160,10 @@ let
         "pkg-1.2.1+mc26.1" = _HNobz2OE;
         "pkg-1.2.2+mc26.1" = _cHRTwAAa;
         "pkg-1.2.2+mc26.2" = _ts1b9Ask;
-        "default" = _ts1b9Ask;
+        "pkg-1.2.3+mc26.3" = _rb52PdLM;
+        "pkg-1.2.3+mc26.2" = _jTZAUxLw;
+        "pkg-1.2.3+mc26.1.2" = _kl6CRETI;
+        "default" = _kl6CRETI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gently-holds";

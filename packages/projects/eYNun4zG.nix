@@ -1786,6 +1786,11 @@ let
             "file" = "ruby-2.6.9.1.jar";
             "hash" = "sha512-GctwZGPeCx8bGdgItQVbM/i+POYwqAhGtgVWk6hJ5PoF93b/8V0pqmvKMmd3kdi6H4TeN3SZ7B41byQZ43MYwg==";
         };
+        _PUCILHxD = {
+            "id" = "PUCILHxD";
+            "file" = "ruby-2.6.9.2.jar";
+            "hash" = "sha512-QR1JG2oTNkqadqYlfKQwb2LItx5qezt7VhKdgQub0ITZ5IsXMCOsi1SXnai0dWsKYMaWjg3gysgAjnhny+OoSg==";
+        };
     in {
         "yNXmzWDl" = _yNXmzWDl;
         "M7eJJGOB" = _M7eJJGOB;
@@ -2144,6 +2149,7 @@ let
         "tzgwJuk7" = _tzgwJuk7;
         "UhScy9eE" = _UhScy9eE;
         "qf2clWed" = _qf2clWed;
+        "PUCILHxD" = _PUCILHxD;
         "forge-1.19.3" = _uFJD3fe0;
         "forge-1.19.2" = _PfTb5rDL;
         "forge-1.18.2" = _qNhke7Oo;
@@ -2174,7 +2180,7 @@ let
         "neoforge-26.1" = _qf2clWed;
         "neoforge-26.1.1" = _qf2clWed;
         "neoforge-26.1.2" = _qf2clWed;
-        "neoforge-26.2" = _qf2clWed;
+        "neoforge-26.2" = _PUCILHxD;
         "pkg-2.4.3" = _7iESRgPm;
         "pkg-2.4.2" = _CtZlMiq6;
         "pkg-2.4.1" = _uFJD3fe0;
@@ -2234,7 +2240,8 @@ let
         "pkg-2.6.8.2" = _tzgwJuk7;
         "pkg-2.6.5.1" = _UhScy9eE;
         "pkg-2.6.9.1" = _qf2clWed;
-        "default" = _qf2clWed;
+        "pkg-2.6.9.2" = _PUCILHxD;
+        "default" = _PUCILHxD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ruby-mod";

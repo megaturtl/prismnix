@@ -546,6 +546,16 @@ let
             "file" = "cristellib-fabric-26.2-3.1.11.jar";
             "hash" = "sha512-d/RIyyyNNzdLxMb636TH26Y5P82TQKMiiy3m/G+Mc+tkGObhbFyb27QqZUeek4gQ1pBpeJSp15zjY8nHQfqUGQ==";
         };
+        _FuH9KtJD = {
+            "id" = "FuH9KtJD";
+            "file" = "cristellib-fabric-26.3-3.1.12.jar";
+            "hash" = "sha512-UXQT8mnplegO12EjWtFzcQroirjzEM6V8tlj9LrgCkrmMP7kgtt/Pz5GBByM5Ku7aMYUiEK0jC/XtCHQDUj99w==";
+        };
+        _8o19Ot4V = {
+            "id" = "8o19Ot4V";
+            "file" = "cristellib-neoforge-26.3-3.1.12.jar";
+            "hash" = "sha512-BldcJYH2IFZbKt5BvqOFh5Nd1spa628a3mUsUXJtmo7A1bKmbBGc8WS7a+IQUiX38IhIDvqDiaSixSrmZGyH9w==";
+        };
     in {
         "qyBhDCjL" = _qyBhDCjL;
         "QbWRJZhp" = _QbWRJZhp;
@@ -656,6 +666,8 @@ let
         "iNFZUYRZ" = _iNFZUYRZ;
         "rVwhMA5a" = _rVwhMA5a;
         "9p2TokHI" = _9p2TokHI;
+        "FuH9KtJD" = _FuH9KtJD;
+        "8o19Ot4V" = _8o19Ot4V;
         "forge-1.19.3" = _qyBhDCjL;
         "forge-1.19.4" = _VGzwSAM8;
         "forge-1.18.2" = _J0jTgCIB;
@@ -685,6 +697,7 @@ let
         "fabric-26.1.1" = _QLCbh6Ql;
         "fabric-26.1.2" = _QLCbh6Ql;
         "fabric-26.2" = _9p2TokHI;
+        "fabric-26.3" = _FuH9KtJD;
         "quilt-1.19.3" = _qTUoNGY9;
         "quilt-1.19.4" = _wSQEXFVB;
         "quilt-1.18.2" = _rGfmEx0B;
@@ -695,6 +708,7 @@ let
         "quilt-26.1.1" = _QLCbh6Ql;
         "quilt-26.1.2" = _QLCbh6Ql;
         "quilt-26.2" = _9p2TokHI;
+        "quilt-26.3" = _FuH9KtJD;
         "neoforge-1.20.1" = _amI1oyGG;
         "neoforge-1.20.4" = _oTRDEoMt;
         "neoforge-1.20.6" = _ElM4X70m;
@@ -712,6 +726,7 @@ let
         "neoforge-26.1.1" = _iNFZUYRZ;
         "neoforge-26.1.2" = _iNFZUYRZ;
         "neoforge-26.2" = _rVwhMA5a;
+        "neoforge-26.3" = _8o19Ot4V;
         "pkg-1.0.0" = _HocdgthH;
         "pkg-1.0.1" = _pLuCu0Ka;
         "pkg-1.1" = _FsQL6FXV;
@@ -807,7 +822,9 @@ let
         "pkg-neoforge-26.1.2-3.1.11" = _iNFZUYRZ;
         "pkg-neoforge-26.2-3.1.11" = _rVwhMA5a;
         "pkg-fabric-26.2-3.1.11" = _9p2TokHI;
-        "default" = _9p2TokHI;
+        "pkg-fabric-26.3-3.1.12" = _FuH9KtJD;
+        "pkg-neoforge-26.3-3.1.12" = _8o19Ot4V;
+        "default" = _8o19Ot4V;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cristel-lib";

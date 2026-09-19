@@ -51,6 +51,11 @@ let
             "file" = "the-advanced-food-1.12.1-26.2.jar";
             "hash" = "sha512-SWxZsuQkyzep4XKwIgGgymenU0oax2wVWVobSy4LwHs9BlFZ4h2gCC/imCdxU7dmAQsjPmy/XSdke0EybN2AVw==";
         };
+        _1XqevwWF = {
+            "id" = "1XqevwWF";
+            "file" = "the-advanced-food-1.12.2-26.3.jar";
+            "hash" = "sha512-pDjxM1zG5u7+Utn3TlubuX2Ujswt72glqsvjBVzKycQk8nQ4sni7nyiNpj2ax4I5GW+OK0yROkXwKmIwemXBVw==";
+        };
     in {
         "IkSH70cl" = _IkSH70cl;
         "BSd6lXyd" = _BSd6lXyd;
@@ -62,6 +67,7 @@ let
         "l0yenZYW" = _l0yenZYW;
         "5a0TMq7V" = _5a0TMq7V;
         "qIf4Z9xO" = _qIf4Z9xO;
+        "1XqevwWF" = _1XqevwWF;
         "forge-1.20" = _IkSH70cl;
         "forge-1.20.1" = _IkSH70cl;
         "forge-1.20.2" = _BSd6lXyd;
@@ -71,6 +77,7 @@ let
         "fabric-26.1.1" = _5a0TMq7V;
         "fabric-26.1.2" = _5a0TMq7V;
         "fabric-26.2" = _qIf4Z9xO;
+        "fabric-26.3" = _1XqevwWF;
         "pkg-1.7.2" = _IkSH70cl;
         "pkg-1.8.0" = _BSd6lXyd;
         "pkg-1.9.0" = _fuLbuc7W;
@@ -81,7 +88,8 @@ let
         "pkg-1.11.1" = _l0yenZYW;
         "pkg-1.12.0" = _5a0TMq7V;
         "pkg-1.12.1-26.2" = _qIf4Z9xO;
-        "default" = _qIf4Z9xO;
+        "pkg-1.12.2-26.3" = _1XqevwWF;
+        "default" = _1XqevwWF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-advanced-food";

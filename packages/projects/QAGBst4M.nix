@@ -3146,6 +3146,46 @@ let
             "file" = "PuzzlesLib-v21.1.56-mc1.21.1-Fabric.jar";
             "hash" = "sha512-YdZb3+CtVFmksJh6ARHeAmEa6No3vmVlrZAOIGSZ9Gm1RqDxfBE30kyAMHp3VtO3T8AY2Z6ZMfXxZRmKZWxbHA==";
         };
+        _malLoUut = {
+            "id" = "malLoUut";
+            "file" = "PuzzlesLib-v21.1.59-mc1.21.1-Fabric.jar";
+            "hash" = "sha512-60GOevQ1H79pjq2Vk7dbIoEkzQLMWtKyTgPIEzSe4T94CN0V/57GQzXTlaS9RwIcnARpZCPcoGHiFj+hzqzGcw==";
+        };
+        _8eeEFVPU = {
+            "id" = "8eeEFVPU";
+            "file" = "PuzzlesLib-v21.1.59-mc1.21.1-NeoForge.jar";
+            "hash" = "sha512-PrUa/+BQYMjgVDrefJR1o31SHnQbXs1vfheBeQFKgEq9m1dPvTXN6io3IJZPYg/OA5944RTU0mJYc51BimLjng==";
+        };
+        _lh44g7RC = {
+            "id" = "lh44g7RC";
+            "file" = "PuzzlesLib-v21.1.60-mc1.21.1-NeoForge.jar";
+            "hash" = "sha512-YwvqK/7tNAdNgrx1pOP5S7gjXVrksT1Zw+6IMr1JPrNFhOgdGDxUR70XVOGEXYOX65ENFmeCQ/ZOffg4nOFHrA==";
+        };
+        _Imj7cG2D = {
+            "id" = "Imj7cG2D";
+            "file" = "PuzzlesLib-v21.1.60-mc1.21.1-Fabric.jar";
+            "hash" = "sha512-/ytnD47RHyuh+K4WXkmyN2xrRHuettWAKc2cr28oWYyEI1uvIxI8L5aTpMexdf/wg5i9Zy5oAYNRKYhbovHCJA==";
+        };
+        _UlPkm617 = {
+            "id" = "UlPkm617";
+            "file" = "PuzzlesLib-v26.1.15-mc26.1.x-Fabric.jar";
+            "hash" = "sha512-VEGNN8HNF7iVPQyyF/rUgmRT9X5E2ioURBJcc/oy1gj3lnhlPmHpmldDmPPqsf3KgqpCvCnYvyZzVHRCJhB2Tg==";
+        };
+        _RTC7EJbD = {
+            "id" = "RTC7EJbD";
+            "file" = "PuzzlesLib-v26.1.15-mc26.1.x-NeoForge.jar";
+            "hash" = "sha512-dUnCb9ReG1rNfDImDdB3Nx8n4KaV2MNpwTsJyz57fFlD3e2cQS5T61edJyXP2mz4Nv1ZmpfCHXFSX+1dKEvorA==";
+        };
+        _7Y7PIhiq = {
+            "id" = "7Y7PIhiq";
+            "file" = "PuzzlesLib-v26.2.4-mc26.2.x-NeoForge.jar";
+            "hash" = "sha512-+Bw7LAkd5bOmutNS8c/yLY4DLXQF64EBK3obGaDrv2Dnz3t7lingwspApuzfJafv4rWMURLnfGTUAQ/TNM3iyw==";
+        };
+        _aNOJuoCM = {
+            "id" = "aNOJuoCM";
+            "file" = "PuzzlesLib-v26.2.4-mc26.2.x-Fabric.jar";
+            "hash" = "sha512-EW3PLZ7uDciCxmyRkMMvvy5CmEXvBbamH29tOlbt6mLiwLMrpFQkn9FU9Mr+IqL75lbmoJlMijYQWnKWydFSeQ==";
+        };
     in {
         "n3g4OsEQ" = _n3g4OsEQ;
         "4bHK0bos" = _4bHK0bos;
@@ -3776,6 +3816,14 @@ let
         "KUdzkzSd" = _KUdzkzSd;
         "qbF2d7Ma" = _qbF2d7Ma;
         "T2RZmnLI" = _T2RZmnLI;
+        "malLoUut" = _malLoUut;
+        "8eeEFVPU" = _8eeEFVPU;
+        "lh44g7RC" = _lh44g7RC;
+        "Imj7cG2D" = _Imj7cG2D;
+        "UlPkm617" = _UlPkm617;
+        "RTC7EJbD" = _RTC7EJbD;
+        "7Y7PIhiq" = _7Y7PIhiq;
+        "aNOJuoCM" = _aNOJuoCM;
         "forge-1.19" = _o5YLPKfR;
         "forge-1.19.1" = _iYV1Feh5;
         "forge-1.19.2" = _UbCrBSit;
@@ -3795,7 +3843,7 @@ let
         "fabric-1.20.1" = _N8gFdljq;
         "fabric-1.20.4" = _PYkg1A3a;
         "fabric-1.21" = _a5KN1w1N;
-        "fabric-1.21.1" = _T2RZmnLI;
+        "fabric-1.21.1" = _Imj7cG2D;
         "fabric-1.21.3" = _vMKyNIOg;
         "fabric-1.21.4" = _s2SzGyZz;
         "fabric-1.21.5" = _25gaMibl;
@@ -3805,13 +3853,13 @@ let
         "fabric-1.21.9" = _ge8EV7hx;
         "fabric-1.21.10" = _HJGSxOtN;
         "fabric-1.21.11" = _xTX7sOwU;
-        "fabric-26.1" = _rEJUehiZ;
-        "fabric-26.1.1" = _rEJUehiZ;
-        "fabric-26.1.2" = _rEJUehiZ;
-        "fabric-26.2" = _KU5rZUAR;
+        "fabric-26.1" = _UlPkm617;
+        "fabric-26.1.1" = _UlPkm617;
+        "fabric-26.1.2" = _UlPkm617;
+        "fabric-26.2" = _aNOJuoCM;
         "neoforge-1.20.4" = _U81E0ABr;
         "neoforge-1.21" = _X06v0OZx;
-        "neoforge-1.21.1" = _qbF2d7Ma;
+        "neoforge-1.21.1" = _lh44g7RC;
         "neoforge-1.21.3" = _CyRDUXp9;
         "neoforge-1.21.4" = _HOC9OUuE;
         "neoforge-1.21.5" = _b9thQ57Y;
@@ -3821,10 +3869,10 @@ let
         "neoforge-1.21.9" = _SOq2qjXe;
         "neoforge-1.21.10" = _cc5UQbCp;
         "neoforge-1.21.11" = _HOkyIMYP;
-        "neoforge-26.1" = _JzsAJpZS;
-        "neoforge-26.1.1" = _JzsAJpZS;
-        "neoforge-26.1.2" = _JzsAJpZS;
-        "neoforge-26.2" = _KUdzkzSd;
+        "neoforge-26.1" = _RTC7EJbD;
+        "neoforge-26.1.1" = _RTC7EJbD;
+        "neoforge-26.1.2" = _RTC7EJbD;
+        "neoforge-26.2" = _7Y7PIhiq;
         "pkg-v4.0.2-1.19-Forge" = _n3g4OsEQ;
         "pkg-v4.0.2-1.19-Fabric" = _4bHK0bos;
         "pkg-v4.0.5-1.19-Forge" = _Z3scKqNL;
@@ -4412,7 +4460,11 @@ let
         "pkg-26.1.14" = _JzsAJpZS;
         "pkg-26.2.3" = _KUdzkzSd;
         "pkg-21.1.56" = _T2RZmnLI;
-        "default" = _T2RZmnLI;
+        "pkg-21.1.59" = _8eeEFVPU;
+        "pkg-21.1.60" = _Imj7cG2D;
+        "pkg-26.1.15" = _RTC7EJbD;
+        "pkg-26.2.4" = _aNOJuoCM;
+        "default" = _aNOJuoCM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "puzzles-lib";

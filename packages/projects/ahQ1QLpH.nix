@@ -31,6 +31,11 @@ let
             "file" = "Custom Elytra RP (v1.2) [1.21.9 - 26.2].zip";
             "hash" = "sha512-jtsYERgfX29480woS/NVxr0qI6yIWqJvhTEN3FSaigjLbLGZH/B9c8tFZk2J4uZvlbw+G/j9Mxwqn8fofhj2bQ==";
         };
+        _KhQ17AXU = {
+            "id" = "KhQ17AXU";
+            "file" = "Custom Elytra RP (v1.3) [1.21.9 - 26.3].zip";
+            "hash" = "sha512-6O2ZLX+OhjLHTwM4FOOqEFv1v1zuzpdq2UWPTniWWU03gyH0/dcGz2XorfiB+BGcwulabPj8uzCnpJ/vCd6FNg==";
+        };
     in {
         "gvX8FGtK" = _gvX8FGtK;
         "LapnXw1c" = _LapnXw1c;
@@ -38,21 +43,24 @@ let
         "WxGrhuE1" = _WxGrhuE1;
         "qwabvLZ1" = _qwabvLZ1;
         "tttSjF77" = _tttSjF77;
+        "KhQ17AXU" = _KhQ17AXU;
         "minecraft-1.21.5" = _gvX8FGtK;
         "minecraft-1.21.6" = _gvX8FGtK;
         "minecraft-1.21.7" = _gvX8FGtK;
         "minecraft-1.21.8" = _gvX8FGtK;
-        "minecraft-1.21.9" = _tttSjF77;
-        "minecraft-1.21.10" = _tttSjF77;
-        "minecraft-1.21.11" = _tttSjF77;
-        "minecraft-26.1" = _tttSjF77;
-        "minecraft-26.1.1" = _tttSjF77;
-        "minecraft-26.1.2" = _tttSjF77;
-        "minecraft-26.2" = _tttSjF77;
+        "minecraft-1.21.9" = _KhQ17AXU;
+        "minecraft-1.21.10" = _KhQ17AXU;
+        "minecraft-1.21.11" = _KhQ17AXU;
+        "minecraft-26.1" = _KhQ17AXU;
+        "minecraft-26.1.1" = _KhQ17AXU;
+        "minecraft-26.1.2" = _KhQ17AXU;
+        "minecraft-26.2" = _KhQ17AXU;
+        "minecraft-26.3" = _KhQ17AXU;
         "pkg-1.0" = _5PZJKGtP;
         "pkg-1.1" = _qwabvLZ1;
         "pkg-1.2" = _tttSjF77;
-        "default" = _tttSjF77;
+        "pkg-1.3" = _KhQ17AXU;
+        "default" = _KhQ17AXU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-elytra-rp";

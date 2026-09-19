@@ -266,6 +266,16 @@ let
             "file" = "jewelry-fabric-2.4.1+26.2.jar";
             "hash" = "sha512-0JxwEBeKAJAGwG9JpoV8njgITEJ8qS4UuqwXYm6+XvjKhwlC521mafu7pg8cUklkx2rHHJA8kUtUSgYZAUnDGA==";
         };
+        _xswBYA4q = {
+            "id" = "xswBYA4q";
+            "file" = "jewelry-forge-2.4.0+1.20.1.jar";
+            "hash" = "sha512-zkHp6OuZdbT70PQoY0D08vN/9B2MJGGMvHFEr+S8A0/8lVb6MUHdV5H+QJ83tgBP74HWbo1Qeib92L+Zar7CaA==";
+        };
+        _njOxC7Or = {
+            "id" = "njOxC7Or";
+            "file" = "jewelry-fabric-2.4.0+1.20.1.jar";
+            "hash" = "sha512-47zi/NsvLDeVogyUz/h/9UfXQFLhNl3qxvvQScL617VS6qMhvvCw9GXt5aPEq1wjIBMu0L122Q2mWvdwGtmAAQ==";
+        };
     in {
         "jyHbeYby" = _jyHbeYby;
         "NcoVr2Jf" = _NcoVr2Jf;
@@ -320,8 +330,10 @@ let
         "4OiU0vce" = _4OiU0vce;
         "Un6Q2icJ" = _Un6Q2icJ;
         "5XsD3uH6" = _5XsD3uH6;
+        "xswBYA4q" = _xswBYA4q;
+        "njOxC7Or" = _njOxC7Or;
         "fabric-1.19.2" = _CwEN5pPv;
-        "fabric-1.20.1" = _O9B6r9VO;
+        "fabric-1.20.1" = _njOxC7Or;
         "fabric-1.21.1" = _XXizhMNZ;
         "fabric-1.21" = _XXizhMNZ;
         "fabric-26.1" = _z2o0daz2;
@@ -334,6 +346,8 @@ let
         "neoforge-26.1.1" = _4OiU0vce;
         "neoforge-26.1.2" = _4OiU0vce;
         "neoforge-26.2" = _Un6Q2icJ;
+        "neoforge-1.20.1" = _xswBYA4q;
+        "forge-1.20.1" = _xswBYA4q;
         "pkg-1.0.0+1.19.2" = _jyHbeYby;
         "pkg-1.0.0+1.20.1" = _NcoVr2Jf;
         "pkg-1.0.1+1.19.2" = _49JX0sH1;
@@ -387,7 +401,9 @@ let
         "pkg-2.4.1+26.1.2-neoforge" = _4OiU0vce;
         "pkg-2.4.1+26.2-neoforge" = _Un6Q2icJ;
         "pkg-2.4.1+26.2-fabric" = _5XsD3uH6;
-        "default" = _5XsD3uH6;
+        "pkg-2.4.0+1.20.1-forge" = _xswBYA4q;
+        "pkg-2.4.0+1.20.1-fabric" = _njOxC7Or;
+        "default" = _njOxC7Or;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jewelry";

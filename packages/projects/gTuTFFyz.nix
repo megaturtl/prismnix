@@ -46,6 +46,11 @@ let
             "file" = "upgrade_aquatic-1.21.1-7.0.1.jar";
             "hash" = "sha512-iix+J/7P8ow0/SVIdQJMsnQ+lM61wAfzPLKFY+IAexr938bZBjf9KK0H7to544NbATleRHHtG7k5K3Zl0AIIgg==";
         };
+        _9zf6y4e4 = {
+            "id" = "9zf6y4e4";
+            "file" = "upgrade_aquatic-1.21.1-7.0.2.jar";
+            "hash" = "sha512-4APPDki8lNzq0yAEuKLwYZlmSdgBGMGnngKhQxb2K15rp7gUFe60/RPmHFd3sto2yZEvsOirKinDWXntTCicUQ==";
+        };
     in {
         "1sFZQHHt" = _1sFZQHHt;
         "eR8fn3RW" = _eR8fn3RW;
@@ -56,12 +61,13 @@ let
         "nWAYgQaF" = _nWAYgQaF;
         "zZUdhsNP" = _zZUdhsNP;
         "3ZycbXog" = _3ZycbXog;
+        "9zf6y4e4" = _9zf6y4e4;
         "forge-1.16.5" = _1sFZQHHt;
         "forge-1.18.2" = _eR8fn3RW;
         "forge-1.19.2" = _W50xMJpW;
         "forge-1.20.1" = _nWAYgQaF;
         "neoforge-1.20.1" = _nWAYgQaF;
-        "neoforge-1.21.1" = _3ZycbXog;
+        "neoforge-1.21.1" = _9zf6y4e4;
         "pkg-3.1.2" = _1sFZQHHt;
         "pkg-4.0.0" = _eR8fn3RW;
         "pkg-5.1.0" = _W50xMJpW;
@@ -71,7 +77,8 @@ let
         "pkg-6.0.3" = _nWAYgQaF;
         "pkg-7.0.0" = _zZUdhsNP;
         "pkg-7.0.1" = _3ZycbXog;
-        "default" = _3ZycbXog;
+        "pkg-7.0.2" = _9zf6y4e4;
+        "default" = _9zf6y4e4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "upgrade-aquatic";

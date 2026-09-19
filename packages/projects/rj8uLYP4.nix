@@ -401,6 +401,26 @@ let
             "file" = "counter-neoforge-1.7.3-1.9.0.jar";
             "hash" = "sha512-owx6ulpHMP9NBImtVqVNioC0AJgs0VzfIqYgs6pHHUV47I7rmKHYUyYrDwBVo/0anjdG/hKaSUpi9p9f20hobw==";
         };
+        _wDeLKV6T = {
+            "id" = "wDeLKV6T";
+            "file" = "counter-fabric-1.8.0-1.9.0.jar";
+            "hash" = "sha512-2Cojh9BvwR8MHwe5tOqT+LUI59NHcUZuxm//4JSQFyiTQuRfKzeXfpVmKWEpp2MP7vARIsFz/U+NAtsKh6iS/A==";
+        };
+        _xIQQiEBV = {
+            "id" = "xIQQiEBV";
+            "file" = "counter-neoforge-1.8.0-1.9.0.jar";
+            "hash" = "sha512-CQ/mSbw8GUwSmChGJekiLmRvyItAWxWTqcH66VD7CPtksBr33+qd5NeyWUoNKHXdFOo4LkWSEO2ZbiZxq5Y0Cw==";
+        };
+        _kaPKdhfe = {
+            "id" = "kaPKdhfe";
+            "file" = "counter-fabric-1.8.1-1.9.0.jar";
+            "hash" = "sha512-25QmCl40ZJnYFEPyS/yVbPLkflkiiAwg7Mfvx2T3YDbS1zos2jy+/BAyRpEoVN7Ddr+oqvoBhV3ltfayNe+xJQ==";
+        };
+        _Oju2EgjX = {
+            "id" = "Oju2EgjX";
+            "file" = "counter-neoforge-1.8.1-1.9.0.jar";
+            "hash" = "sha512-b5hyqWwj5SiqPzIeklvUjnW/5o6/9tw9IOEW1D07/d1PEdRHilt9rZglRQCy3Zrod2PbtPVh/YdGVJspAsU4LQ==";
+        };
     in {
         "rKCo7WBT" = _rKCo7WBT;
         "BTXF3lHh" = _BTXF3lHh;
@@ -482,11 +502,15 @@ let
         "jK3tvJ8M" = _jK3tvJ8M;
         "eEfCCFXB" = _eEfCCFXB;
         "aJArPPZ7" = _aJArPPZ7;
+        "wDeLKV6T" = _wDeLKV6T;
+        "xIQQiEBV" = _xIQQiEBV;
+        "kaPKdhfe" = _kaPKdhfe;
+        "Oju2EgjX" = _Oju2EgjX;
         "fabric-1.19.2" = _6vYBjaLN;
         "fabric-1.20.1" = _AT46iKEy;
-        "fabric-1.21.1" = _eEfCCFXB;
+        "fabric-1.21.1" = _kaPKdhfe;
         "forge-1.20.1" = _nJpIwObx;
-        "neoforge-1.21.1" = _aJArPPZ7;
+        "neoforge-1.21.1" = _Oju2EgjX;
         "pkg-1.3-fabric-1.0.0" = _rKCo7WBT;
         "pkg-1.3-fabric-1.0.1" = _BTXF3lHh;
         "pkg-1.3-fabric-1.1.0" = _orqpNIHb;
@@ -567,7 +591,11 @@ let
         "pkg-1.7.2-neoforge-1.9.0" = _jK3tvJ8M;
         "pkg-1.7.3-fabric-1.9.0" = _eEfCCFXB;
         "pkg-1.7.3-neoforge-1.9.0" = _aJArPPZ7;
-        "default" = _aJArPPZ7;
+        "pkg-1.8.0-fabric-1.9.0" = _wDeLKV6T;
+        "pkg-1.8.0-neoforge-1.9.0" = _xIQQiEBV;
+        "pkg-1.8.1-fabric-1.9.0" = _kaPKdhfe;
+        "pkg-1.8.1-neoforge-1.9.0" = _Oju2EgjX;
+        "default" = _Oju2EgjX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-counter";

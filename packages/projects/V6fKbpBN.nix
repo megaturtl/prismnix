@@ -241,6 +241,46 @@ let
             "file" = "integrated_api-neoforge-26.1-1.8.0.jar";
             "hash" = "sha512-RmV6dUcDzaRkLDkuoZyozxfGS5F1PaB48XLWZK3h/DEfPyuDfkoBuJfKtEHw93aAYVLjaOzJ906l4xVcH+jpjg==";
         };
+        _ylLcyfpZ = {
+            "id" = "ylLcyfpZ";
+            "file" = "integrated_api-forge-1.20.1-1.8.2.jar";
+            "hash" = "sha512-gsilG31HlBQgFBi5+Xc0WHcOI9dJquj+st9SBTQENmdM/k93/yiSxjhaisKS4nIIMGo2CBet0teKdPZlwrWPoA==";
+        };
+        _4PTBj1RB = {
+            "id" = "4PTBj1RB";
+            "file" = "integrated_api-fabric-1.20.1-1.8.2.jar";
+            "hash" = "sha512-dSS1QdzwYXgXXZvAXWyN2W+GUne5l0Bpssb37Rl8FDJ/V+J0Mzb0RPXiD6K0Y2QlHU8EBDYuktDPPRrwmMa5Zg==";
+        };
+        _cc365ykf = {
+            "id" = "cc365ykf";
+            "file" = "integrated_api-neoforge-1.21.1-1.8.2.jar";
+            "hash" = "sha512-dVwMVi95cWy3nT4rAuT0v0+vab4WiTfWTy3Qk6nVSSlI+K1s5lLdd3MzbsEVV1MmkKpLk7+KFKOmVQoNnzgKJQ==";
+        };
+        _Bga68pNd = {
+            "id" = "Bga68pNd";
+            "file" = "integrated_api-fabric-1.21.1-1.8.2.jar";
+            "hash" = "sha512-yUin8ev4SNnNHM/7qGKqwqGETKwebFk6L3h60XJq1ixL3imsAkNEOHGA/NTsyvaBCwWX3zAmfnRkKoBUkA3cuA==";
+        };
+        _zmPymejo = {
+            "id" = "zmPymejo";
+            "file" = "integrated_api-neoforge-26.2-1.8.2.jar";
+            "hash" = "sha512-JM7c4cBi6l4WfOtatPzAeuHcV/t5m4hIM8yuKnqQM9UKU4RCG8bHpYlY5dTT23cEwA1kcFs9aSBFfJBeM6ZK/g==";
+        };
+        _APOnRaOM = {
+            "id" = "APOnRaOM";
+            "file" = "integrated_api-fabric-26.2-1.8.2.jar";
+            "hash" = "sha512-2RlbJsY/NRX9D7TFK42XpjF/mxzCRpnMPnZbhmx0rg6gsNgbp/f1OjsrBYcj2V2ZLxruj5LKTcDEc8m+JtUjCQ==";
+        };
+        _puzzS464 = {
+            "id" = "puzzS464";
+            "file" = "integrated_api-neoforge-26.1-1.8.2.jar";
+            "hash" = "sha512-m/s1aVa7fBd2a8FpGwWriEm48bJzRhF54iFb7RzNTYHcv3Xi1qMRP9mn/h1Je69b12ZV4epK3q6ZerA0h0XSOQ==";
+        };
+        _mGDsv8wV = {
+            "id" = "mGDsv8wV";
+            "file" = "integrated_api-fabric-26.1-1.8.2.jar";
+            "hash" = "sha512-0vclvbIORUTJWWb47i9XWGbSIxJQdrVS9z+7bklT4Ec/3MsaEbaKEcOJHTcSHb/O3PtprJDeLKonWD1pb5qBMA==";
+        };
     in {
         "5yc2hrVB" = _5yc2hrVB;
         "Lb2zpmc5" = _Lb2zpmc5;
@@ -290,22 +330,30 @@ let
         "IRuumW4v" = _IRuumW4v;
         "7PI6yS2l" = _7PI6yS2l;
         "sE8lyFe8" = _sE8lyFe8;
-        "forge-1.20.1" = _WUdosYb7;
+        "ylLcyfpZ" = _ylLcyfpZ;
+        "4PTBj1RB" = _4PTBj1RB;
+        "cc365ykf" = _cc365ykf;
+        "Bga68pNd" = _Bga68pNd;
+        "zmPymejo" = _zmPymejo;
+        "APOnRaOM" = _APOnRaOM;
+        "puzzS464" = _puzzS464;
+        "mGDsv8wV" = _mGDsv8wV;
+        "forge-1.20.1" = _ylLcyfpZ;
         "forge-1.19.2" = _hI0NwMYj;
         "forge-1.18.2" = _YBzhebMF;
-        "fabric-1.20.1" = _dofnJFeG;
+        "fabric-1.20.1" = _4PTBj1RB;
         "fabric-1.19.2" = _RfARXm0a;
-        "fabric-1.21.1" = _QFz7Z17d;
-        "fabric-26.1" = _mYq8fJX1;
-        "fabric-26.1.1" = _mYq8fJX1;
-        "fabric-26.1.2" = _mYq8fJX1;
-        "fabric-26.2" = _IRuumW4v;
+        "fabric-1.21.1" = _Bga68pNd;
+        "fabric-26.1" = _mGDsv8wV;
+        "fabric-26.1.1" = _mGDsv8wV;
+        "fabric-26.1.2" = _mGDsv8wV;
+        "fabric-26.2" = _APOnRaOM;
         "neoforge-1.20.1" = _56sc1bo2;
-        "neoforge-1.21.1" = _cKHoMnZX;
-        "neoforge-26.2" = _7PI6yS2l;
-        "neoforge-26.1" = _sE8lyFe8;
-        "neoforge-26.1.1" = _sE8lyFe8;
-        "neoforge-26.1.2" = _sE8lyFe8;
+        "neoforge-1.21.1" = _cc365ykf;
+        "neoforge-26.2" = _zmPymejo;
+        "neoforge-26.1" = _puzzS464;
+        "neoforge-26.1.1" = _puzzS464;
+        "neoforge-26.1.2" = _puzzS464;
         "pkg-1.3.0+1.20.1-forge" = _5yc2hrVB;
         "pkg-1.3.0+1.20.1-fabric" = _Lb2zpmc5;
         "pkg-1.2.7" = _7SGUUzlW;
@@ -347,7 +395,8 @@ let
         "pkg-1.7.3+1.21.1-neoforge" = _X16u6myK;
         "pkg-1.7.3+1.21.1-fabric" = _DX29yQyz;
         "pkg-1.8.0" = _sE8lyFe8;
-        "default" = _sE8lyFe8;
+        "pkg-1.8.2" = _mGDsv8wV;
+        "default" = _mGDsv8wV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "integrated-api";

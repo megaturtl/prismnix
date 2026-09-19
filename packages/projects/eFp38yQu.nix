@@ -76,6 +76,11 @@ let
             "file" = "x_x-1.0.0.jar";
             "hash" = "sha512-HUm6lbZBJvgb3EYkDmv0OOULqeKRNiWmRIezBH78hRQvqN3JSQJRMMXaYXSxLnyvoEkN87h2wel+EwUFL1ZFzw==";
         };
+        _F5EOACEJ = {
+            "id" = "F5EOACEJ";
+            "file" = "x_x-1.0.0.jar";
+            "hash" = "sha512-/tgTTVRDrTkU54jPtuTJhuf5trKkMSLjaJtRP5r8tsTWC9Im2xJiAvxN7sAROlmF5lkNsDsH9GYAs+HZyhUOAA==";
+        };
     in {
         "IPxgCci0" = _IPxgCci0;
         "ozHkm4lh" = _ozHkm4lh;
@@ -92,12 +97,13 @@ let
         "YuIVRByc" = _YuIVRByc;
         "vhh7mJsW" = _vhh7mJsW;
         "L0Wst275" = _L0Wst275;
+        "F5EOACEJ" = _F5EOACEJ;
         "fabric-1.21" = _L0Wst275;
-        "fabric-1.20.1" = _vhh7mJsW;
+        "fabric-1.20.1" = _F5EOACEJ;
         "fabric-1.21.4" = _s2osZRdG;
         "pkg-2.0.0" = _s2osZRdG;
-        "pkg-1.0.0" = _L0Wst275;
-        "default" = _L0Wst275;
+        "pkg-1.0.0" = _F5EOACEJ;
+        "default" = _F5EOACEJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crittpvp";

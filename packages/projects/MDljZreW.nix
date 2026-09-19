@@ -41,6 +41,26 @@ let
             "file" = "ReachBehind-v26.2.0-mc26.2.x-Fabric.jar";
             "hash" = "sha512-nxzemhlmz4D8SKnPPrXv2E5wtVmPfx8IVVJGJzsREvCRAT9CjOlrMtpvydV5ewrJS3u+VN6JxEYccR9L+ug9+g==";
         };
+        _FT91icX8 = {
+            "id" = "FT91icX8";
+            "file" = "ReachBehind-v26.1.1-mc26.1.x-NeoForge.jar";
+            "hash" = "sha512-Wr0PvvL1c2s2Dt2zv1FcEOH2RQvjoEy+nCyACDHi+JE55JXy3pyZAPr+jX3MNS4c/kZlgTuHEiNNYCxlsyrJSQ==";
+        };
+        _1n4IGS2X = {
+            "id" = "1n4IGS2X";
+            "file" = "ReachBehind-v26.1.1-mc26.1.x-Fabric.jar";
+            "hash" = "sha512-Lt6B15tE47OTg21XqEClSQ9uCtO0yIVLsjHXtq3vaOwNqrA30zND/ARJJHiFYNChkRrrVKIUm2X9O/P+E0rgJQ==";
+        };
+        _yy8RXzw2 = {
+            "id" = "yy8RXzw2";
+            "file" = "ReachBehind-v26.2.1-mc26.2.x-NeoForge.jar";
+            "hash" = "sha512-kb7S1B4df0R8IGBmi2g1fr6d5j7uOsbvoCjxsBC/ksX2V5dX5T1o7vMhJmmlIjQc0g+lkKZyTIDmEXSWzJZUMg==";
+        };
+        _HUGCrpc6 = {
+            "id" = "HUGCrpc6";
+            "file" = "ReachBehind-v26.2.1-mc26.2.x-Fabric.jar";
+            "hash" = "sha512-0TtV0JpjIp4Hux+MihpYywv3OYcSkYVk26INauQ3WHtQ2iQAzt89tqX+EaWSWUsIaOG8NZGnLOzpMPbuvmNaoQ==";
+        };
     in {
         "ZJV8RtzI" = _ZJV8RtzI;
         "pRl2Sc4A" = _pRl2Sc4A;
@@ -50,23 +70,29 @@ let
         "Ej1TTIaV" = _Ej1TTIaV;
         "NpUbH89w" = _NpUbH89w;
         "oc0Gn8uj" = _oc0Gn8uj;
-        "fabric-26.1" = _ZJV8RtzI;
-        "fabric-26.1.1" = _ZJV8RtzI;
-        "fabric-26.1.2" = _ZJV8RtzI;
+        "FT91icX8" = _FT91icX8;
+        "1n4IGS2X" = _1n4IGS2X;
+        "yy8RXzw2" = _yy8RXzw2;
+        "HUGCrpc6" = _HUGCrpc6;
+        "fabric-26.1" = _1n4IGS2X;
+        "fabric-26.1.1" = _1n4IGS2X;
+        "fabric-26.1.2" = _1n4IGS2X;
         "fabric-1.21.11" = _7TGmRtN7;
         "fabric-1.21.1" = _Ej1TTIaV;
-        "fabric-26.2" = _oc0Gn8uj;
-        "neoforge-26.1" = _pRl2Sc4A;
-        "neoforge-26.1.1" = _pRl2Sc4A;
-        "neoforge-26.1.2" = _pRl2Sc4A;
+        "fabric-26.2" = _HUGCrpc6;
+        "neoforge-26.1" = _FT91icX8;
+        "neoforge-26.1.1" = _FT91icX8;
+        "neoforge-26.1.2" = _FT91icX8;
         "neoforge-1.21.11" = _AbhVdLlo;
         "neoforge-1.21.1" = _Gqwyhx4G;
-        "neoforge-26.2" = _NpUbH89w;
+        "neoforge-26.2" = _yy8RXzw2;
         "pkg-26.1.0" = _pRl2Sc4A;
         "pkg-21.11.0" = _7TGmRtN7;
         "pkg-21.1.0" = _Ej1TTIaV;
         "pkg-26.2.0" = _oc0Gn8uj;
-        "default" = _oc0Gn8uj;
+        "pkg-26.1.1" = _1n4IGS2X;
+        "pkg-26.2.1" = _HUGCrpc6;
+        "default" = _HUGCrpc6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reach-behind";

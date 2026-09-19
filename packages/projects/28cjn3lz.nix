@@ -486,6 +486,26 @@ let
             "file" = "torohealth-continued-fabric-1.21.9-1.5.1.jar";
             "hash" = "sha512-rQ0X7pFKn92Vbirz7dVh2SOmcFvudiE8USo/L4iDOBjCLbxupbE+FMrNaD1Lk+o1pRxFaw+033kNON/uBIIGWg==";
         };
+        _RUlb9s6Q = {
+            "id" = "RUlb9s6Q";
+            "file" = "torohealth-continued-fabric-26.2-1.5.2.jar";
+            "hash" = "sha512-0tpx7rort44T20Y1s4UdYF+6N+ZGB9TDNzTtO01KfewlskZnqn+UlW2fyhmrig0JC2Om32LV5hsitIMq0UNjbA==";
+        };
+        _6Q2DE2k6 = {
+            "id" = "6Q2DE2k6";
+            "file" = "torohealth-continued-neoforge-26.2-1.5.2.jar";
+            "hash" = "sha512-dbrQu9DEjeIOSLo/TOVTJDcIUCUC62l1SIICyVQnmZK4fAQJFUplNbuasphdptH0DR/a0sAeoCWFU8KM6fWU4w==";
+        };
+        _vAFqu2Mr = {
+            "id" = "vAFqu2Mr";
+            "file" = "torohealth-continued-fabric-26.3-1.5.2.jar";
+            "hash" = "sha512-cKWKuCCInWzx9JpyZF/TMCrsPP5QipB9/VdvMbEHMRt2R2HgQleNozK8/KWAFBzON1Pfz9pTWiqmgdf/v/M4Rg==";
+        };
+        _g1KLGu1W = {
+            "id" = "g1KLGu1W";
+            "file" = "torohealth-continued-neoforge-26.3-1.5.2.jar";
+            "hash" = "sha512-XRmGEwTF55D0WVPBbIy5kxzNcHrkovXiqRMAdpZTfnqPI+zRg+BpX1lhn2Pu7JoIXDLpZxg8MghxYOkfn2CGjQ==";
+        };
     in {
         "UBKyt62g" = _UBKyt62g;
         "1Hd2OrEx" = _1Hd2OrEx;
@@ -584,6 +604,10 @@ let
         "OXIYPCxG" = _OXIYPCxG;
         "ficW74ZT" = _ficW74ZT;
         "F3v43XCA" = _F3v43XCA;
+        "RUlb9s6Q" = _RUlb9s6Q;
+        "6Q2DE2k6" = _6Q2DE2k6;
+        "vAFqu2Mr" = _vAFqu2Mr;
+        "g1KLGu1W" = _g1KLGu1W;
         "fabric-1.19" = _jZS6d83b;
         "fabric-1.19.1" = _jZS6d83b;
         "fabric-1.19.2" = _jZS6d83b;
@@ -611,6 +635,8 @@ let
         "fabric-26.1" = _Z2BydPYr;
         "fabric-26.1.1" = _Z2BydPYr;
         "fabric-26.1.2" = _Z2BydPYr;
+        "fabric-26.2" = _RUlb9s6Q;
+        "fabric-26.3" = _vAFqu2Mr;
         "quilt-1.19" = _jZS6d83b;
         "quilt-1.19.1" = _jZS6d83b;
         "quilt-1.19.2" = _jZS6d83b;
@@ -638,6 +664,8 @@ let
         "quilt-26.1" = _Z2BydPYr;
         "quilt-26.1.1" = _Z2BydPYr;
         "quilt-26.1.2" = _Z2BydPYr;
+        "quilt-26.2" = _RUlb9s6Q;
+        "quilt-26.3" = _vAFqu2Mr;
         "neoforge-1.20.4" = _q4VIUfEU;
         "neoforge-1.20.5" = _iYJhzbRi;
         "neoforge-1.20.6" = _iYJhzbRi;
@@ -658,6 +686,8 @@ let
         "neoforge-26.1" = _tpPpNupI;
         "neoforge-26.1.1" = _tpPpNupI;
         "neoforge-26.1.2" = _tpPpNupI;
+        "neoforge-26.2" = _6Q2DE2k6;
+        "neoforge-26.3" = _g1KLGu1W;
         "pkg-1.2.1" = _Dhc0BvCf;
         "pkg-1.2.2" = _c6qKTFAO;
         "pkg-1.2.3" = _DpMaPUSj;
@@ -671,7 +701,8 @@ let
         "pkg-1.5.0" = _hu2iaIjc;
         "pkg-1.5.1" = _F3v43XCA;
         "pkg-1.5.1-beta" = _tpPpNupI;
-        "default" = _F3v43XCA;
+        "pkg-1.5.2" = _g1KLGu1W;
+        "default" = _g1KLGu1W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "torohealth-continued";

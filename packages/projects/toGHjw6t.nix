@@ -166,6 +166,16 @@ let
             "file" = "Mekanism-Community-Edition-1.7.10-9.10.48-ALL.jar";
             "hash" = "sha512-zE34q6rKRGPtYOrITPZ2gcYI92noI/BlQ4gEH7wbanUHi0NFyvtDHYMkhehZE6kuoPy0S0PI9+CTHFU0upDqZA==";
         };
+        _Y5YVSkRB = {
+            "id" = "Y5YVSkRB";
+            "file" = "Mekanism-Community-Edition-1.7.10-9.10.49-Core.jar";
+            "hash" = "sha512-dth/+UnJV7RB9IGAN07Wdj6txfv6mDL6bcY7kN7I4T9K0NctHHs1m3fpEsFJDJ9WktfRYuAqBnO9T9ingzfmQw==";
+        };
+        _XE4riq3u = {
+            "id" = "XE4riq3u";
+            "file" = "Mekanism-Community-Edition-1.7.10-9.10.50-Core.jar";
+            "hash" = "sha512-eucnhilrXRPQZYZf9fIGveqfY/TTXQgz7la/n/Npm0b+OHGdb6vfgj4sWhGxUOUA2kgZOIvE1QXJZveooYOz6Q==";
+        };
     in {
         "NcB3Kbmx" = _NcB3Kbmx;
         "VASWtEY4" = _VASWtEY4;
@@ -200,7 +210,9 @@ let
         "nMQM07sC" = _nMQM07sC;
         "AfW7hGju" = _AfW7hGju;
         "kCTKoKS2" = _kCTKoKS2;
-        "forge-1.7.10" = _kCTKoKS2;
+        "Y5YVSkRB" = _Y5YVSkRB;
+        "XE4riq3u" = _XE4riq3u;
+        "forge-1.7.10" = _XE4riq3u;
         "forge-1.12.2" = _AfW7hGju;
         "pkg-9.10.12" = _NcB3Kbmx;
         "pkg-9.10.13" = _VASWtEY4;
@@ -235,7 +247,9 @@ let
         "pkg-9.10.46" = _nMQM07sC;
         "pkg-9.12.12" = _AfW7hGju;
         "pkg-9.10.48" = _kCTKoKS2;
-        "default" = _kCTKoKS2;
+        "pkg-9.10.49" = _Y5YVSkRB;
+        "pkg-9.10.50" = _XE4riq3u;
+        "default" = _XE4riq3u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mekanism-community-edition";

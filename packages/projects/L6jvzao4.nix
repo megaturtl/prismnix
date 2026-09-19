@@ -381,6 +381,26 @@ let
             "file" = "epic-knights-1.21.1-neoforge-10.12.jar";
             "hash" = "sha512-N96zq8y7/E4eFVscEYTrLV2Gp5FsnhdhTbV4NEAHQDJKW/5VQ1Xmp3Q6x8DfkhcUskPn6OKbbcVMmqT+bjoWEQ==";
         };
+        _M39bA701 = {
+            "id" = "M39bA701";
+            "file" = "epic-knights-26.1.2-neoforge-10.14.jar";
+            "hash" = "sha512-Tz1S+g3ZczZvoZqAP64d8MzYBlNEYHZRaQEUehRLFO7nsDTwTYi/2idIH6/1iJzLdDXt8TqMOd/XtFwksU91iw==";
+        };
+        _Uu7FhHsT = {
+            "id" = "Uu7FhHsT";
+            "file" = "epic-knights-26.1.2-fabric-10.14.jar";
+            "hash" = "sha512-q2647b3drkDZw8uPs7k4lE7KDDcQpMD305ofr68LXcpycbIlCgApBNYo0QDjoqNSTEqNhPvhsIxNmMOGuWdiIQ==";
+        };
+        _JhZa97Z9 = {
+            "id" = "JhZa97Z9";
+            "file" = "epic-knights-1.21.1-fabric-10.15.jar";
+            "hash" = "sha512-vr6nz4FZ+Ya/uSdULaYW7OhRQA15XKXzii5RQrhsljeqwmvptdlImSZJbW3S21QDxnga0Gn9D6jFIbh2+TzFmQ==";
+        };
+        _M7FgVH11 = {
+            "id" = "M7FgVH11";
+            "file" = "epic-knights-1.21.1-neoforge-10.15.jar";
+            "hash" = "sha512-cCDZ39QiJnpZpYzNgz6YoC0SVh/KWHp2uZS2lDoHOwHqTrMX4SIxGpRvFYCK09SKY4+n5ktGh0/TvqqGp7U8YA==";
+        };
     in {
         "zZsO7TIO" = _zZsO7TIO;
         "FY86l4mQ" = _FY86l4mQ;
@@ -458,6 +478,10 @@ let
         "2kK9qUpx" = _2kK9qUpx;
         "ZuHxCNeg" = _ZuHxCNeg;
         "bdxNv9fy" = _bdxNv9fy;
+        "M39bA701" = _M39bA701;
+        "Uu7FhHsT" = _Uu7FhHsT;
+        "JhZa97Z9" = _JhZa97Z9;
+        "M7FgVH11" = _M7FgVH11;
         "forge-1.19" = _BASvFcsU;
         "forge-1.19.2" = _8mZuRXci;
         "forge-1.18" = _FY86l4mQ;
@@ -482,10 +506,12 @@ let
         "fabric-1.19.4" = _HqJpjMyJ;
         "fabric-1.19" = _53hRuq5v;
         "fabric-1.19.1" = _53hRuq5v;
-        "fabric-1.21" = _ZuHxCNeg;
-        "fabric-1.21.1" = _ZuHxCNeg;
-        "neoforge-1.21" = _bdxNv9fy;
-        "neoforge-1.21.1" = _bdxNv9fy;
+        "fabric-1.21" = _JhZa97Z9;
+        "fabric-1.21.1" = _JhZa97Z9;
+        "fabric-26.1.2" = _Uu7FhHsT;
+        "neoforge-1.21" = _M7FgVH11;
+        "neoforge-1.21.1" = _M7FgVH11;
+        "neoforge-26.1.2" = _M39bA701;
         "pkg-6.7" = _FY86l4mQ;
         "pkg-5.9" = _3aXIA1N9;
         "pkg-6.2" = _s7HoL42h;
@@ -517,7 +543,9 @@ let
         "pkg-10.10" = _x4v1Erah;
         "pkg-10.11" = _2kK9qUpx;
         "pkg-10.12" = _bdxNv9fy;
-        "default" = _bdxNv9fy;
+        "pkg-10.14" = _Uu7FhHsT;
+        "pkg-10.15" = _M7FgVH11;
+        "default" = _M7FgVH11;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "epic-knights-shields-armor-and-weapons";

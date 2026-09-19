@@ -1586,6 +1586,16 @@ let
             "file" = "battleroyale-0.5.7-dev2-neoforge-26.2.jar";
             "hash" = "sha512-vu611toSDLr1zTb+wb2MpBf0uObeH1kKZDes1ozio+npDDw+/gbvnyjLh0yQ0RzDAcc3Yzpaa1J5LgNmBvkcJA==";
         };
+        _rRAYOFZX = {
+            "id" = "rRAYOFZX";
+            "file" = "battleroyale-0.5.7-dev3-neoforge-26.2.jar";
+            "hash" = "sha512-eyleY7uQb8zx66W0LvWE+F3X5wEcDtze2PlMIW2MVSYSqzCRsU+h6A5Z1mnTJ8KMqtTV1BILlmd7pp6k1Urxbw==";
+        };
+        _RrlXG1Va = {
+            "id" = "RrlXG1Va";
+            "file" = "battleroyale-0.5.7-dev3-neoforge-26.3.jar";
+            "hash" = "sha512-ViB2NRHrraro4njse43PQ1+ViFwvu+s1pErt+IT2w9DhrAMJd0QjGl7aHHc0sUk6ZsIzgLnhjfivo9ligjo6TA==";
+        };
     in {
         "Wbaj92iS" = _Wbaj92iS;
         "of4jYx0I" = _of4jYx0I;
@@ -1904,6 +1914,8 @@ let
         "YFcLns8w" = _YFcLns8w;
         "yOCcKANp" = _yOCcKANp;
         "aIMYLp6a" = _aIMYLp6a;
+        "rRAYOFZX" = _rRAYOFZX;
+        "RrlXG1Va" = _RrlXG1Va;
         "forge-1.20" = _hBBO4YIn;
         "forge-1.20.1" = _hBBO4YIn;
         "forge-1.20.2" = _YHI35WXe;
@@ -1919,7 +1931,8 @@ let
         "neoforge-26.1" = _iKXhmzL6;
         "neoforge-26.1.1" = _iKXhmzL6;
         "neoforge-26.1.2" = _YFcLns8w;
-        "neoforge-26.2" = _aIMYLp6a;
+        "neoforge-26.2" = _rRAYOFZX;
+        "neoforge-26.3" = _RrlXG1Va;
         "fabric-1.20.1" = _F1hcjyjx;
         "pkg-0.1.1" = _Wbaj92iS;
         "pkg-0.1.3" = _of4jYx0I;
@@ -2013,7 +2026,8 @@ let
         "pkg-0.5.7-dev1" = _qAs6mUmI;
         "pkg-0.5.7-dev2" = _aIMYLp6a;
         "pkg-0.5.7-dev2-alpha" = _yOCcKANp;
-        "default" = _aIMYLp6a;
+        "pkg-0.5.7-dev3" = _RrlXG1Va;
+        "default" = _RrlXG1Va;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-battleroyale";

@@ -81,6 +81,16 @@ let
             "file" = "shinobiaddon-1.3.9.5_dev-build.jar";
             "hash" = "sha512-6ljoIEQti/5sW5Uke2uY7gxS7zRGZKCl08uAr2UOPfTUWSBc/mXLAd2AL29gfLeA8PqkSzSdBeLuql1FqgS7gQ==";
         };
+        _TPifvmgs = {
+            "id" = "TPifvmgs";
+            "file" = "dynamicdojutsu-1.3.9.6_dev-build.jar";
+            "hash" = "sha512-UtfoYEOxN9ZKebidF6r+9ay9JQT49wrBm7L/4RM9Dp/IJd1ZLCrKrD9W+wjMf5ipuz45O/4DUXLFroACpI6aRQ==";
+        };
+        _GJc9Ljvx = {
+            "id" = "GJc9Ljvx";
+            "file" = "dynamicdojutsu-1.3.9.6-0.3.1.jar";
+            "hash" = "sha512-hIym5LJ9EOMRA2SpVRGXpHsFXCUPYBsdXk4W+Fzbic2osfc27g9X7jt6bVDoRj8f8ymq/fQbpZsBbbOW+RL53Q==";
+        };
     in {
         "Vvk5LG9c" = _Vvk5LG9c;
         "ODQ4DvRf" = _ODQ4DvRf;
@@ -98,7 +108,9 @@ let
         "fYb2AQhc" = _fYb2AQhc;
         "ErglpWjH" = _ErglpWjH;
         "rRSWNy9A" = _rRSWNy9A;
-        "forge-1.12.2" = _rRSWNy9A;
+        "TPifvmgs" = _TPifvmgs;
+        "GJc9Ljvx" = _GJc9Ljvx;
+        "forge-1.12.2" = _GJc9Ljvx;
         "pkg-1.0" = _Vvk5LG9c;
         "pkg-1.1" = _ODQ4DvRf;
         "pkg-1.2" = _aGOFKsSv;
@@ -115,7 +127,9 @@ let
         "pkg-1.3.9.1" = _fYb2AQhc;
         "pkg-1.3.9.3" = _ErglpWjH;
         "pkg-1.3.9.5" = _rRSWNy9A;
-        "default" = _rRSWNy9A;
+        "pkg-1.3.9.6" = _TPifvmgs;
+        "pkg-1.3.9.6-0.3.1" = _GJc9Ljvx;
+        "default" = _GJc9Ljvx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shinobi-additions-ahznbs-naruto-addon";

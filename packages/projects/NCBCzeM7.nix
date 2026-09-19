@@ -386,6 +386,16 @@ let
             "file" = "stacksizetweaks-fabric-0.3.4+26.2.jar";
             "hash" = "sha512-bsYyyj0NF4Lhp2yh6eewiYHEEVbahHO4+8gIr5nvBHyXbATgklyu9r2f9LcgGROhtqP8sNw04vngZfSa8cp7lw==";
         };
+        _AkYnN7Z7 = {
+            "id" = "AkYnN7Z7";
+            "file" = "stacksizetweaks-fabric-0.4.0+26.2.jar";
+            "hash" = "sha512-KPXfViZM1N3T8OfIvsgkO3P45bMvhFLKjVoTK4LXv5xGSWZpFaUcfWxsRMwE0mawi/+Un9vybQg0exyNMi/R7Q==";
+        };
+        _DU36udOx = {
+            "id" = "DU36udOx";
+            "file" = "stacksizetweaks-neoforge-0.4.0+26.2.jar";
+            "hash" = "sha512-Fk1qtLcfaXDdUAzRMuzfA9DaLaTEQfa47sMHJ0ZCTPL4uf4kjIeFM9eO2fswDsUTCqyrZNWy8vdu1znuqWLyYA==";
+        };
     in {
         "pKL6Xxbm" = _pKL6Xxbm;
         "1tU8wHCD" = _1tU8wHCD;
@@ -464,6 +474,8 @@ let
         "dPZXExJP" = _dPZXExJP;
         "ofPHtjjs" = _ofPHtjjs;
         "IoHG8IDI" = _IoHG8IDI;
+        "AkYnN7Z7" = _AkYnN7Z7;
+        "DU36udOx" = _DU36udOx;
         "fabric-1.21.9" = _GfmRqq7Z;
         "fabric-1.21.10" = _GfmRqq7Z;
         "fabric-1.21.11" = _ojE6GnYh;
@@ -477,7 +489,7 @@ let
         "fabric-26.1" = _dPZXExJP;
         "fabric-26.1.1" = _dPZXExJP;
         "fabric-26.1.2" = _dPZXExJP;
-        "fabric-26.2" = _IoHG8IDI;
+        "fabric-26.2" = _AkYnN7Z7;
         "neoforge-1.21" = _dnT3Gnyj;
         "neoforge-1.21.1" = _dnT3Gnyj;
         "neoforge-1.21.2" = _1wIdx7pW;
@@ -491,7 +503,7 @@ let
         "neoforge-26.1" = _s0MdUSwp;
         "neoforge-26.1.1" = _s0MdUSwp;
         "neoforge-26.1.2" = _s0MdUSwp;
-        "neoforge-26.2" = _ofPHtjjs;
+        "neoforge-26.2" = _DU36udOx;
         "pkg-0.1.0" = _pKL6Xxbm;
         "pkg-0.2.0" = _1tU8wHCD;
         "pkg-0.3.0+1.21" = _dGD43eh2;
@@ -532,7 +544,8 @@ let
         "pkg-0.3.4+1.21.11" = _ojE6GnYh;
         "pkg-0.3.4+26.1" = _dPZXExJP;
         "pkg-0.3.4+26.2" = _IoHG8IDI;
-        "default" = _IoHG8IDI;
+        "pkg-0.4.0+26.2" = _DU36udOx;
+        "default" = _DU36udOx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stacksizetweaks";

@@ -41,6 +41,16 @@ let
             "file" = "minecraft-but-jumping-enchants-1.0.3.jar";
             "hash" = "sha512-Jd81pSs2DzaLcLZZAXQa6bZgMWlDax7CsiPZZOX/4wvKjO7T6KM0qBsdkvuuGM1a1nVel+GB/BZLgYHb9T58lQ==";
         };
+        _6t5Dz2jD = {
+            "id" = "6t5Dz2jD";
+            "file" = "Jumping Enchants 1.1.0.zip";
+            "hash" = "sha512-VMIpxG2joquUjspDJxqknYs0JE/eUBS7106WAbNOzC5lChtkyf2F6qptbHhQOjd4t3mmkKzgZg0yy45+lyUONA==";
+        };
+        _hso2tYJM = {
+            "id" = "hso2tYJM";
+            "file" = "minecraft-but-jumping-enchants-1.1.0.jar";
+            "hash" = "sha512-79u4kdvyUZdUvh7pZpiLf1j4dr8vPeWiUPK7wdDBMvQcS6zfdWmFjT4B6JafPS/9ca4flJ1mhi89lKCf2pocNQ==";
+        };
     in {
         "bEfSrKgC" = _bEfSrKgC;
         "elL434Oe" = _elL434Oe;
@@ -50,25 +60,31 @@ let
         "Mz9QiJem" = _Mz9QiJem;
         "acNlBWx9" = _acNlBWx9;
         "vbDe4s4Q" = _vbDe4s4Q;
+        "6t5Dz2jD" = _6t5Dz2jD;
+        "hso2tYJM" = _hso2tYJM;
         "datapack-26.1" = _acNlBWx9;
         "datapack-26.1.1" = _acNlBWx9;
         "datapack-26.1.2" = _acNlBWx9;
         "datapack-26.2" = _acNlBWx9;
+        "datapack-26.3" = _6t5Dz2jD;
         "fabric-1.21.11" = _elL434Oe;
         "fabric-26.1" = _vbDe4s4Q;
         "fabric-26.1.1" = _vbDe4s4Q;
         "fabric-26.1.2" = _vbDe4s4Q;
         "fabric-26.2" = _vbDe4s4Q;
+        "fabric-26.3" = _hso2tYJM;
         "forge-1.21.11" = _elL434Oe;
         "forge-26.1" = _vbDe4s4Q;
         "forge-26.1.1" = _vbDe4s4Q;
         "forge-26.1.2" = _vbDe4s4Q;
         "forge-26.2" = _vbDe4s4Q;
+        "forge-26.3" = _hso2tYJM;
         "neoforge-1.21.11" = _elL434Oe;
         "neoforge-26.1" = _vbDe4s4Q;
         "neoforge-26.1.1" = _vbDe4s4Q;
         "neoforge-26.1.2" = _vbDe4s4Q;
         "neoforge-26.2" = _vbDe4s4Q;
+        "neoforge-26.3" = _hso2tYJM;
         "pkg-1.0.0" = _elL434Oe;
         "pkg-1.0.1" = _pDpJlF8f;
         "pkg-1.0.1+mod" = _4dRP3IJL;
@@ -76,7 +92,9 @@ let
         "pkg-1.0.2+mod" = _Mz9QiJem;
         "pkg-1.0.3" = _acNlBWx9;
         "pkg-1.0.3+mod" = _vbDe4s4Q;
-        "default" = _vbDe4s4Q;
+        "pkg-1.1.0" = _6t5Dz2jD;
+        "pkg-1.1.0+mod" = _hso2tYJM;
+        "default" = _hso2tYJM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minecraft-but-jumping-enchants";

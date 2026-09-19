@@ -91,6 +91,11 @@ let
             "file" = "phantomfall-1.3.3+mc26.2.jar";
             "hash" = "sha512-LOUqR2+JaZeiYsYPoUQ6k47e2po0b5/K55hQwqirWoPgBi751kMd6y95gcHIynvBYffrg7036T8HHtcGCPqCZQ==";
         };
+        _tnRMuleH = {
+            "id" = "tnRMuleH";
+            "file" = "phantomfall-1.3.3+mc26.3.jar";
+            "hash" = "sha512-ZToE4mDeuGePAJX0f4BuUut6BTwFaV3jzp2gaiJvqkKuYthi5fMhexWO6cFExdwXLbIn4padS6n2mYqdWFiqrA==";
+        };
     in {
         "Gax2yCzO" = _Gax2yCzO;
         "85yy5MUq" = _85yy5MUq;
@@ -110,6 +115,7 @@ let
         "oZs1izlh" = _oZs1izlh;
         "IHNj8y6a" = _IHNj8y6a;
         "lkiP8oRV" = _lkiP8oRV;
+        "tnRMuleH" = _tnRMuleH;
         "fabric-1.21.1" = _IHNj8y6a;
         "fabric-1.21.6" = _E5oJ3Io0;
         "fabric-1.21.7" = _E5oJ3Io0;
@@ -129,6 +135,8 @@ let
         "fabric-26.2-rc-1" = _lkiP8oRV;
         "fabric-26.2-rc-2" = _lkiP8oRV;
         "fabric-26.2" = _lkiP8oRV;
+        "fabric-26.3-rc-3" = _tnRMuleH;
+        "fabric-26.3" = _tnRMuleH;
         "pkg-1.0.0" = _Gax2yCzO;
         "pkg-1.0.1" = _85yy5MUq;
         "pkg-1.1.0" = _QA75tH8G;
@@ -147,7 +155,8 @@ let
         "pkg-1.3.3+mc26.1" = _oZs1izlh;
         "pkg-1.3.3+mc1.21.1" = _IHNj8y6a;
         "pkg-1.3.3+mc26.2" = _lkiP8oRV;
-        "default" = _lkiP8oRV;
+        "pkg-1.3.3+mc26.3" = _tnRMuleH;
+        "default" = _tnRMuleH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "phantasmic-flight";

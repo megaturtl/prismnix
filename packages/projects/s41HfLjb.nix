@@ -596,6 +596,16 @@ let
             "file" = "from_the_caves-0.7.freemode-forge-1.20.1.jar";
             "hash" = "sha512-HdlCPSEbv0l/mnhCABOHYupXHkSiPWULq9fCqhfdqIW3iCAZcs8zmAGTR7WAbLrM8RT9diXJXmM4wnF0QC+Udg==";
         };
+        _TAlTAMvs = {
+            "id" = "TAlTAMvs";
+            "file" = "from_the_caves-0.7.1.fm-forge-1.20.1.jar";
+            "hash" = "sha512-PuX1V1N0W3CtVvad07Jljc0yrFumQsk2c4/4XpTv5VmK/+GjxF+TRZ9gmnqEw9r83UQUk4LhdKqcoLdG+36BUA==";
+        };
+        _VLi1jnYl = {
+            "id" = "VLi1jnYl";
+            "file" = "from_the_caves-0.7.1.fm-neoforge-1.21.1.jar";
+            "hash" = "sha512-3WND1pqAamQKqY55qfsVYDEtIKULS8DOFcACjkYFbEtrm10jYSZ4PSLlJfX9z0sshY0ofBa93jAojGwIHEdGZw==";
+        };
     in {
         "guzlXYYV" = _guzlXYYV;
         "wYUgM4RQ" = _wYUgM4RQ;
@@ -716,7 +726,10 @@ let
         "t8NKVg03" = _t8NKVg03;
         "DbUiH0Zz" = _DbUiH0Zz;
         "vE9Thao6" = _vE9Thao6;
-        "forge-1.20.1" = _vE9Thao6;
+        "TAlTAMvs" = _TAlTAMvs;
+        "VLi1jnYl" = _VLi1jnYl;
+        "forge-1.20.1" = _TAlTAMvs;
+        "neoforge-1.21.1" = _VLi1jnYl;
         "pkg-0.0.5" = _guzlXYYV;
         "pkg-0.0.7" = _wYUgM4RQ;
         "pkg-0.0.9" = _5bhfNNS6;
@@ -835,7 +848,8 @@ let
         "pkg-0.6.925" = _t8NKVg03;
         "pkg-0.6.926" = _DbUiH0Zz;
         "pkg-0.7.freemode" = _vE9Thao6;
-        "default" = _vE9Thao6;
+        "pkg-0.7.1.fm" = _VLi1jnYl;
+        "default" = _VLi1jnYl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "from-the-caves-official";

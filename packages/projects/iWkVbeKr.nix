@@ -91,6 +91,11 @@ let
             "file" = "glideaway-1.10.0+26.2.jar";
             "hash" = "sha512-+3+oMYEUvnbAwyXIMZgPRaHbYiwL83tMez/NgaJvMeXiJbGvv/HpuoLArrcdmgFLdPIX5+9kSRBKN0rbugKV7w==";
         };
+        _Z8AiDD6O = {
+            "id" = "Z8AiDD6O";
+            "file" = "glideaway-1.11.0+26.3-rc-1.jar";
+            "hash" = "sha512-yz4LIbCYytnA7Dir0gZA3cMeB9s4IAoEETUla6atowduB5DLfdB9SBwp+C/WNnbJGAcD7hQf2YtRikO3tDeMbg==";
+        };
     in {
         "jXRfaWdl" = _jXRfaWdl;
         "yQEvGIIm" = _yQEvGIIm;
@@ -110,6 +115,7 @@ let
         "7joNz17H" = _7joNz17H;
         "mEVbsfBw" = _mEVbsfBw;
         "zEJwe7El" = _zEJwe7El;
+        "Z8AiDD6O" = _Z8AiDD6O;
         "fabric-1.20.4" = _go1RyWf6;
         "fabric-1.20.6" = _vSjqavtj;
         "fabric-1.21" = _9CFg8MHM;
@@ -129,6 +135,8 @@ let
         "fabric-26.1.1" = _mEVbsfBw;
         "fabric-26.1.2" = _mEVbsfBw;
         "fabric-26.2" = _zEJwe7El;
+        "fabric-26.3-rc-1" = _Z8AiDD6O;
+        "fabric-26.3" = _Z8AiDD6O;
         "quilt-1.20.4" = _go1RyWf6;
         "quilt-1.20.6" = _vSjqavtj;
         "quilt-1.21" = _9CFg8MHM;
@@ -162,7 +170,8 @@ let
         "pkg-1.8.0+1.21.11" = _7joNz17H;
         "pkg-1.9.0+26.1" = _mEVbsfBw;
         "pkg-1.10.0+26.2" = _zEJwe7El;
-        "default" = _zEJwe7El;
+        "pkg-1.11.0+26.3-rc-1" = _Z8AiDD6O;
+        "default" = _Z8AiDD6O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glide-away";

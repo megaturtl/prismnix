@@ -106,6 +106,16 @@ let
             "file" = "render-distance-cycler-v2.1.0-26.1-2.jar";
             "hash" = "sha512-A4AA9BTJoAyOyKCD3l3Urc1waWqzJ7l7FReNNwA9+VUySqATwoW2YiGhXiNxxkhW+XRXUFI9C9HP3YDGEpcvOA==";
         };
+        _2fVlJhTT = {
+            "id" = "2fVlJhTT";
+            "file" = "render-distance-cycler-v2.1.1-26.1-2.jar";
+            "hash" = "sha512-xXd6orBRfDPJDx7dmtHqYKRHxrGGKL5Bv0KDILYngx1k208U6Up8Lnw9dPKGzMNATZJ/M9kPIs9n1dpiR3YaDA==";
+        };
+        _TUwOZgVk = {
+            "id" = "TUwOZgVk";
+            "file" = "render-distance-cycler-v2.1.1-26.3.jar";
+            "hash" = "sha512-xQOWRDKI6ZubxsFme1H66oFE4Bd5BvM6OC+jEHxbfjjinqwcEaPR9XBTrVJ48B+mecAt6oVMrhEbNU6dM1QdTQ==";
+        };
     in {
         "34x5xNMH" = _34x5xNMH;
         "eQ31Flrp" = _eQ31Flrp;
@@ -128,16 +138,19 @@ let
         "tLoN1iAO" = _tLoN1iAO;
         "EiMatV5y" = _EiMatV5y;
         "lRNeNjQ6" = _lRNeNjQ6;
+        "2fVlJhTT" = _2fVlJhTT;
+        "TUwOZgVk" = _TUwOZgVk;
         "fabric-1.21.6" = _Wwq3r7sn;
         "fabric-1.21.7" = _Wwq3r7sn;
         "fabric-1.21.8" = _Wwq3r7sn;
         "fabric-1.21.9" = _ctrMOCla;
         "fabric-1.21.10" = _ctrMOCla;
         "fabric-1.21.11" = _EiMatV5y;
-        "fabric-26.1" = _lRNeNjQ6;
-        "fabric-26.1.1" = _lRNeNjQ6;
-        "fabric-26.1.2" = _lRNeNjQ6;
-        "fabric-26.2" = _lRNeNjQ6;
+        "fabric-26.1" = _2fVlJhTT;
+        "fabric-26.1.1" = _2fVlJhTT;
+        "fabric-26.1.2" = _2fVlJhTT;
+        "fabric-26.2" = _2fVlJhTT;
+        "fabric-26.3" = _TUwOZgVk;
         "pkg-1.0.0-1.21.6-8" = _34x5xNMH;
         "pkg-1.0.0-1.21.9" = _eQ31Flrp;
         "pkg-1.0.0-1.21.9-10" = _ll9Yr4HV;
@@ -159,7 +172,9 @@ let
         "pkg-2.0.2-26.1-2" = _tLoN1iAO;
         "pkg-2.1.0-1.21.11" = _EiMatV5y;
         "pkg-2.1.0-26.1-2" = _lRNeNjQ6;
-        "default" = _lRNeNjQ6;
+        "pkg-2.1.1-26.1-2" = _2fVlJhTT;
+        "pkg-2.1.1-26.3" = _TUwOZgVk;
+        "default" = _TUwOZgVk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "render-distance-cycler";

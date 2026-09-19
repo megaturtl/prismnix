@@ -296,6 +296,16 @@ let
             "file" = "NuclearCraft-1.21.1-1.3.0-rc2.jar";
             "hash" = "sha512-ju6s4X+r/7MNNG//suDN2G40EFsG8n1yAE8aBYOP2gSLSX/ArdzZQYYgQAPaCgnFDEdhxp//EH5emeKzWzQWCQ==";
         };
+        _GjoZXnU9 = {
+            "id" = "GjoZXnU9";
+            "file" = "NuclearCraft-1.21.1-1.3.0-rc3.jar";
+            "hash" = "sha512-qt1zVpyLh4vdn4TBO56tfKGZHFe/Ao7DANtED/PmRVMjFoD9+Qm876sWIhgchTaBquho7Ht7rJxemdppM0iLMg==";
+        };
+        _kefJECnt = {
+            "id" = "kefJECnt";
+            "file" = "NuclearCraft-1.20.1-1.2.36.jar";
+            "hash" = "sha512-DxKXVi3t1w1TGmBURmrHtD1RpkvtxHMLIFAYev8OVDfTqHcav7scxtGi4Nb6dJzc2CigVEPUv07BP18sfMyiQQ==";
+        };
     in {
         "nlOVyp4O" = _nlOVyp4O;
         "AjQEZ5w0" = _AjQEZ5w0;
@@ -356,11 +366,13 @@ let
         "Lt3GLTvV" = _Lt3GLTvV;
         "dtYZ2m95" = _dtYZ2m95;
         "kxQYpJ2u" = _kxQYpJ2u;
+        "GjoZXnU9" = _GjoZXnU9;
+        "kefJECnt" = _kefJECnt;
         "forge-1.19.2" = _34Tzvpol;
-        "forge-1.20.1" = _nTfhomYw;
+        "forge-1.20.1" = _kefJECnt;
         "forge-1.16.5" = _ekhFvgjM;
-        "neoforge-1.20.1" = _nTfhomYw;
-        "neoforge-1.21.1" = _kxQYpJ2u;
+        "neoforge-1.20.1" = _kefJECnt;
+        "neoforge-1.21.1" = _GjoZXnU9;
         "pkg-1.0.2" = _nlOVyp4O;
         "pkg-1.0.0-beta.5" = _AjQEZ5w0;
         "pkg-1.0.0-rc.2" = _GHFrEcpm;
@@ -420,7 +432,9 @@ let
         "pkg-1.3.0-beta6" = _Lt3GLTvV;
         "pkg-1.3.0-beta8" = _dtYZ2m95;
         "pkg-1.3.0-rc2" = _kxQYpJ2u;
-        "default" = _kxQYpJ2u;
+        "pkg-1.3.0-rc3" = _GjoZXnU9;
+        "pkg-1.2.36" = _kefJECnt;
+        "default" = _kefJECnt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nuclearcraft-neoteric";

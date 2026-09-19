@@ -566,6 +566,16 @@ let
             "file" = "customizedtridents-NEOFORGE-1.2.1-26.2.jar";
             "hash" = "sha512-rSFZyjtqVDcwzlvYp9pKMkU6Omo0eSgBEb7/v/LksGOuDLSVmNq/ZP7d9JOOTvrAInfqE/3tCJ1DDiEoJyuWpQ==";
         };
+        _tKTRnJWL = {
+            "id" = "tKTRnJWL";
+            "file" = "customizedtridents-FABRIC-1.2.1-26.3.jar";
+            "hash" = "sha512-HMjGmbS/HXSPGGMujHeygLi3TPDJHcJKXi74NG4wfsv/0rlLBIICPnJa17PybOFTmY/UVA62gUA89ekP+TD7kw==";
+        };
+        _8AxpWFNd = {
+            "id" = "8AxpWFNd";
+            "file" = "customizedtridents-NEOFORGE-1.2.1-26.3.jar";
+            "hash" = "sha512-2N16J1elTK/rLG0w+2GsFzEPq2qYcRhV/B22efzp6tOfoB7s+GvpP2jWP/Sf8TnMm8zBD3Qr+4ojVK/Tjq1l7A==";
+        };
     in {
         "BcLLZAfv" = _BcLLZAfv;
         "22yR6214" = _22yR6214;
@@ -680,6 +690,8 @@ let
         "QHJ7FebT" = _QHJ7FebT;
         "JYvB0wMs" = _JYvB0wMs;
         "2eUZk1Ew" = _2eUZk1Ew;
+        "tKTRnJWL" = _tKTRnJWL;
+        "8AxpWFNd" = _8AxpWFNd;
         "fabric-1.15.2" = _BcLLZAfv;
         "fabric-1.16.2" = _53tLJ0e0;
         "fabric-1.16.3" = _Ivy3R7Mh;
@@ -709,6 +721,7 @@ let
         "fabric-26.1.2" = _IQ7kLATz;
         "fabric-26.1" = _hNLEMLks;
         "fabric-26.2" = _WLJAaSxh;
+        "fabric-26.3" = _tKTRnJWL;
         "forge-1.15.2" = _22yR6214;
         "forge-1.16.2" = _wx1jaHsT;
         "forge-1.16.3" = _55pymqIH;
@@ -748,6 +761,7 @@ let
         "quilt-26.1.2" = _IQ7kLATz;
         "quilt-26.1" = _hNLEMLks;
         "quilt-26.2" = _WLJAaSxh;
+        "quilt-26.3" = _tKTRnJWL;
         "neoforge-1.21" = _qnKWZsk8;
         "neoforge-1.21.1" = _NVuPMp16;
         "neoforge-1.21.4" = _DGXLyt6V;
@@ -759,6 +773,7 @@ let
         "neoforge-26.1.2" = _QHJ7FebT;
         "neoforge-26.1" = _JYvB0wMs;
         "neoforge-26.2" = _2eUZk1Ew;
+        "neoforge-26.3" = _8AxpWFNd;
         "pkg-1.0.0-1.15.2" = _22yR6214;
         "pkg-1.0.0-1.16.2" = _wx1jaHsT;
         "pkg-1.0.0-1.16.3" = _55pymqIH;
@@ -841,7 +856,9 @@ let
         "pkg-1.2.1+neoforge-26.1.2" = _QHJ7FebT;
         "pkg-1.2.1+neoforge-26.1" = _JYvB0wMs;
         "pkg-1.2.1+neoforge-26.2" = _2eUZk1Ew;
-        "default" = _2eUZk1Ew;
+        "pkg-1.2.1+fabric-26.3" = _tKTRnJWL;
+        "pkg-1.2.1+neoforge-26.3" = _8AxpWFNd;
+        "default" = _8AxpWFNd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "customized-tridents";

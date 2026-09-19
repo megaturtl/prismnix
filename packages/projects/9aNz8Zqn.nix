@@ -256,6 +256,16 @@ let
             "file" = "kirin-1.22.0+26.2.jar";
             "hash" = "sha512-/mfItH3VA/kAVYSRuvjyvxV2dBmz0hH4kNalEf5lI0/3DNiu3sK57U88WDh/t5D/sqqUco48cNPWQ9w4lcsguw==";
         };
+        _FN9yG3oX = {
+            "id" = "FN9yG3oX";
+            "file" = "kirin-1.22.1+26.3.jar";
+            "hash" = "sha512-TVLQC+qhQZfvgvYMbls8b2Dj8CVu/cqaGFhtGWrCfaCkIuWl9ehQASPrDY2FPYWtz3PUgbn2HcnixO8A9h6Qog==";
+        };
+        _zfvI3rRF = {
+            "id" = "zfvI3rRF";
+            "file" = "kirin-1.22.2+26.3.jar";
+            "hash" = "sha512-TXfe0BKzoZIIdpTFp+dg2llQ2u7lMvnndqtbhlVIMc+v8/39k5vtbPr8BJBdRUQzHFjfUwHTvEi4TSZENzuPTg==";
+        };
     in {
         "PIr2m57k" = _PIr2m57k;
         "99cBvzlK" = _99cBvzlK;
@@ -308,6 +318,8 @@ let
         "REbB57c6" = _REbB57c6;
         "UCxTFH8E" = _UCxTFH8E;
         "fmosRz2v" = _fmosRz2v;
+        "FN9yG3oX" = _FN9yG3oX;
+        "zfvI3rRF" = _zfvI3rRF;
         "fabric-1.19.3" = _zFAxMHkW;
         "fabric-1.19.2" = _GlNFICBW;
         "fabric-1.19.4" = _Oiy7wUe3;
@@ -347,6 +359,8 @@ let
         "fabric-1.21.11" = _REbB57c6;
         "fabric-26.1" = _UCxTFH8E;
         "fabric-26.2" = _fmosRz2v;
+        "fabric-26.3-rc-3" = _zfvI3rRF;
+        "fabric-26.3" = _zfvI3rRF;
         "quilt-1.19.3" = _zFAxMHkW;
         "quilt-1.19.2" = _GlNFICBW;
         "quilt-1.19.4" = _Oiy7wUe3;
@@ -386,6 +400,8 @@ let
         "quilt-1.21.11" = _REbB57c6;
         "quilt-26.1" = _UCxTFH8E;
         "quilt-26.2" = _fmosRz2v;
+        "quilt-26.3-rc-3" = _zfvI3rRF;
+        "quilt-26.3" = _zfvI3rRF;
         "pkg-1.13.2" = _PIr2m57k;
         "pkg-1.13.2+lts" = _99cBvzlK;
         "pkg-1.14.0" = _otAnRDcJ;
@@ -433,7 +449,9 @@ let
         "pkg-1.21.5+1.21.11" = _REbB57c6;
         "pkg-1.22.0+26.1" = _UCxTFH8E;
         "pkg-1.22.0+26.2" = _fmosRz2v;
-        "default" = _fmosRz2v;
+        "pkg-1.22.1+26.3" = _FN9yG3oX;
+        "pkg-1.22.2+26.3" = _zfvI3rRF;
+        "default" = _zfvI3rRF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kirin";

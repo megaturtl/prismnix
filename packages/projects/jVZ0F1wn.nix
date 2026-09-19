@@ -776,6 +776,11 @@ let
             "file" = "Vampirism-1.20.1-1.10.17.jar";
             "hash" = "sha512-0AhYyggaOFbw2P4KGtYUv+l3gJUyBU6U6xe3iF+/x/o9eQkkY2rfSfnQmlO8orH6RJ1laZq4A+ZotScqdqg+Pw==";
         };
+        _6t1wlo07 = {
+            "id" = "6t1wlo07";
+            "file" = "Vampirism-26.1.2-2.0.0-alpha.1.jar";
+            "hash" = "sha512-V69kdpfRArCbXXjOdTypPTltftmqcB5gzvacbkcB4KdxiLwoj+50qiJw8AD9kRoJIaqNkxer2WTlTrzYRq1WtQ==";
+        };
     in {
         "pAPVn5E1" = _pAPVn5E1;
         "27FivuEF" = _27FivuEF;
@@ -932,6 +937,7 @@ let
         "Opa2pdLO" = _Opa2pdLO;
         "8KCSZKt6" = _8KCSZKt6;
         "yg8B0dzt" = _yg8B0dzt;
+        "6t1wlo07" = _6t1wlo07;
         "forge-1.16.4" = _DZ0cJFyc;
         "forge-1.16.5" = _jnletJgi;
         "forge-1.17.1" = _J1MWAqfm;
@@ -949,6 +955,7 @@ let
         "neoforge-1.20.6" = _YOw1O7SA;
         "neoforge-1.21" = _8KCSZKt6;
         "neoforge-1.21.1" = _8KCSZKt6;
+        "neoforge-26.1.2" = _6t1wlo07;
         "pkg-1.16.4-1.7.11" = _pAPVn5E1;
         "pkg-1.16.5-1.8.0-alpha+20210606-2224" = _27FivuEF;
         "pkg-1.16.4-1.7.12" = _DZ0cJFyc;
@@ -1104,7 +1111,8 @@ let
         "pkg-1.20.1-1.10.16" = _Opa2pdLO;
         "pkg-1.21-1.10.13" = _8KCSZKt6;
         "pkg-1.20.1-1.10.17" = _yg8B0dzt;
-        "default" = _yg8B0dzt;
+        "pkg-26.1.2-2.0.0-alpha.1" = _6t1wlo07;
+        "default" = _6t1wlo07;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vampirism";

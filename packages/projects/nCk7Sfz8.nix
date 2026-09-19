@@ -631,6 +631,21 @@ let
             "file" = "wirelesschargers-1.0.10-neoforge-mc26.2.jar";
             "hash" = "sha512-kzCrtEr5R0oe+/ilZBsXdqVEV8bjq1OPs31RctI3YqHoFAYBfxmvmzfh8TANIKi2ZckiQFJEqV+ki+OywrNffA==";
         };
+        _3gWqFh9Y = {
+            "id" = "3gWqFh9Y";
+            "file" = "wirelesschargers-1.0.10a-neoforge-mc26.2.jar";
+            "hash" = "sha512-5b+YEUy/4bUAh5Rr1XTmn0eJk2EXRvApgzcYTp5CBPHVoQZVwAPY0dtCvrQvDwPu5TPJRcGFTdb6k5ywLl66Qg==";
+        };
+        _ahrHycO5 = {
+            "id" = "ahrHycO5";
+            "file" = "wirelesschargers-1.0.10-fabric-mc26.3.jar";
+            "hash" = "sha512-puK9MyCsQYADOUuXLPjCVL2X+GKnLvt9y/VAokkp1gbWvD+NHpUQVPKrGASzg1LrZ0sal17Ak4EeOMXR/Ju4iw==";
+        };
+        _MKs4xiSD = {
+            "id" = "MKs4xiSD";
+            "file" = "wirelesschargers-1.0.10-neoforge-mc26.3.jar";
+            "hash" = "sha512-5Qr3qMpm8OFxdZBke7dwwt6OH5AvggIPgX5E0GcnzowFNDejkcZAc0S1xEhii2MGw4RGwRxK/1DVNKyH5nkolg==";
+        };
     in {
         "T4lu4e2j" = _T4lu4e2j;
         "ajr43TbM" = _ajr43TbM;
@@ -758,6 +773,9 @@ let
         "yvU0pNbi" = _yvU0pNbi;
         "bdnaPB9W" = _bdnaPB9W;
         "KuN8QRrt" = _KuN8QRrt;
+        "3gWqFh9Y" = _3gWqFh9Y;
+        "ahrHycO5" = _ahrHycO5;
+        "MKs4xiSD" = _MKs4xiSD;
         "forge-1.12" = _FkslvaqC;
         "forge-1.12.1" = _FkslvaqC;
         "forge-1.12.2" = _FkslvaqC;
@@ -836,6 +854,7 @@ let
         "fabric-26.1.1" = _sk4Hu6b1;
         "fabric-26.1.2" = _sk4Hu6b1;
         "fabric-26.2" = _bdnaPB9W;
+        "fabric-26.3" = _ahrHycO5;
         "neoforge-1.12" = _cI9sSwDa;
         "neoforge-1.12.1" = _cI9sSwDa;
         "neoforge-1.12.2" = _cI9sSwDa;
@@ -884,7 +903,8 @@ let
         "neoforge-26.1" = _Y1v5S2Ya;
         "neoforge-26.1.1" = _Y1v5S2Ya;
         "neoforge-26.1.2" = _Y1v5S2Ya;
-        "neoforge-26.2" = _KuN8QRrt;
+        "neoforge-26.2" = _3gWqFh9Y;
+        "neoforge-26.3" = _MKs4xiSD;
         "quilt-1.18" = _NEVIphjj;
         "quilt-1.18.1" = _NEVIphjj;
         "quilt-1.18.2" = _NEVIphjj;
@@ -913,6 +933,7 @@ let
         "quilt-26.1.1" = _sk4Hu6b1;
         "quilt-26.1.2" = _sk4Hu6b1;
         "quilt-26.2" = _bdnaPB9W;
+        "quilt-26.3" = _ahrHycO5;
         "pkg-1.0.6-forge-mc1.12" = _T4lu4e2j;
         "pkg-1.0.6-forge-mc1.14" = _ajr43TbM;
         "pkg-1.0.6-forge-mc1.15" = _oPC4ct9M;
@@ -1039,7 +1060,10 @@ let
         "pkg-1.0.10-forge-mc26.2" = _yvU0pNbi;
         "pkg-1.0.10-fabric-mc26.2" = _bdnaPB9W;
         "pkg-1.0.10-neoforge-mc26.2" = _KuN8QRrt;
-        "default" = _KuN8QRrt;
+        "pkg-1.0.10a-neoforge-mc26.2" = _3gWqFh9Y;
+        "pkg-1.0.10-fabric-mc26.3" = _ahrHycO5;
+        "pkg-1.0.10-neoforge-mc26.3" = _MKs4xiSD;
+        "default" = _MKs4xiSD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wireless-chargers";

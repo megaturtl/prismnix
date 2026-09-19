@@ -26,22 +26,29 @@ let
             "file" = "divinerpg_compat-1.0.4.jar";
             "hash" = "sha512-EFzr2uQ0GH6+Qisa6fJOzgpZJGKnvYjL9jiqBOj7o6sQ5n+ymsbYjX0x3IYilmGsPWeW3kLJa0DVVp5pzSuMFw==";
         };
+        _tHInJOEI = {
+            "id" = "tHInJOEI";
+            "file" = "divinerpg_compat-1.0.5.jar";
+            "hash" = "sha512-TZYuYQ+ihljSPZs8Pw3o3ucJ1Iia9gLgHMLIxxa8utWTCf9M7z9wiB3Bssuqm5nH3WFszedCopx4pRN8yZuODw==";
+        };
     in {
         "MnNWyRHB" = _MnNWyRHB;
         "pzDsKebn" = _pzDsKebn;
         "jr1ZCK3W" = _jr1ZCK3W;
         "AMJ9rdE4" = _AMJ9rdE4;
         "KJtV8Cab" = _KJtV8Cab;
+        "tHInJOEI" = _tHInJOEI;
         "forge-1.20.1" = _jr1ZCK3W;
         "neoforge-1.20.1" = _MnNWyRHB;
         "neoforge-1.21" = _AMJ9rdE4;
-        "neoforge-1.21.1" = _KJtV8Cab;
+        "neoforge-1.21.1" = _tHInJOEI;
         "pkg-1.0.0" = _MnNWyRHB;
         "pkg-1.0.1" = _pzDsKebn;
         "pkg-1.0.2" = _jr1ZCK3W;
         "pkg-1.0.3" = _AMJ9rdE4;
         "pkg-1.0.4" = _KJtV8Cab;
-        "default" = _KJtV8Cab;
+        "pkg-1.0.5" = _tHInJOEI;
+        "default" = _tHInJOEI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "divinerpg-compatability";

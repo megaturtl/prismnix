@@ -51,6 +51,16 @@ let
             "file" = "TangLanFansIdea-1.9.3-26.2-neoforge-26.2.0.57[装配船-一分为二船-易翻船-颠倒船-金属船].jar";
             "hash" = "sha512-kJI/bWrLLAvAJKrbQrhbpiS2c9/2x9AouMU9NeEEHlFzZWXqei1LGxUSvQvyG4pDMGFjf4GIojn2MfhaWfIQnw==";
         };
+        _4V362ypO = {
+            "id" = "4V362ypO";
+            "file" = "TangLanFansIdea-1.10.0-26.2-neoforge-26.2.0.57[引线更新-船鱼TNT-矿之嫌弃].jar";
+            "hash" = "sha512-6VtjXxeb5T8JRUo4ycV0uN01hWPPSqd6HRIi6Sj1hzbStc5dopXidbNfJOntOSLuwP9XqU0IepSNWUGt4wkTHw==";
+        };
+        _n3pbpzdZ = {
+            "id" = "n3pbpzdZ";
+            "file" = "TangLanFansIdea-1.11.4-26.2-neoforge-26.2.0.57.jar";
+            "hash" = "sha512-uUiFSw6rYi4QcIxG7R2P9YsmTyoQndVuGjwNzZHsn46JNP69xiseIzRr15Mk8zVtAAB4GGsWoKLcrBS5SX/q/g==";
+        };
     in {
         "NXXwOrKG" = _NXXwOrKG;
         "LUswLJ0a" = _LUswLJ0a;
@@ -62,7 +72,9 @@ let
         "judhX9J3" = _judhX9J3;
         "NxhfCppV" = _NxhfCppV;
         "By0T6eIo" = _By0T6eIo;
-        "neoforge-26.2" = _By0T6eIo;
+        "4V362ypO" = _4V362ypO;
+        "n3pbpzdZ" = _n3pbpzdZ;
+        "neoforge-26.2" = _n3pbpzdZ;
         "pkg-1.0.0" = _NXXwOrKG;
         "pkg-1.1.0" = _LUswLJ0a;
         "pkg-1.2.0" = _aksplXl9;
@@ -73,7 +85,9 @@ let
         "pkg-1.7.5" = _judhX9J3;
         "pkg-1.8.2" = _NxhfCppV;
         "pkg-1.9.3" = _By0T6eIo;
-        "default" = _By0T6eIo;
+        "pkg-1.10.0" = _4V362ypO;
+        "pkg-1.11.4" = _n3pbpzdZ;
+        "default" = _n3pbpzdZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tanglanfansidea";

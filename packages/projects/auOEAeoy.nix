@@ -21,18 +21,25 @@ let
             "file" = "gatewaygun-2.0.0.jar";
             "hash" = "sha512-+efuM6aGQAFaefOybUR8bFL7RIeb27f9E0W/NhFrO6WIc4RzoFYZQCXLrmJ1FKXeXOIMxpyyWE35hyXMgnkbeA==";
         };
+        _C7t9lcho = {
+            "id" = "C7t9lcho";
+            "file" = "gatewaygun-2.0.1.jar";
+            "hash" = "sha512-JSOX8X0zmbXlz4RMulhVcb92+jrO+hQWWVGJn7EBJhk2uzRN5hMjHZrnlDeCN/tAasAfdSlL1ndYrQUES5CCtg==";
+        };
     in {
         "QUP3Ksep" = _QUP3Ksep;
         "FqD19Ncm" = _FqD19Ncm;
         "L7BAQu7g" = _L7BAQu7g;
         "KMI53a3K" = _KMI53a3K;
+        "C7t9lcho" = _C7t9lcho;
         "fabric-1.20.4" = _L7BAQu7g;
-        "fabric-1.21.1" = _KMI53a3K;
+        "fabric-1.21.1" = _C7t9lcho;
         "pkg-1.0.0" = _QUP3Ksep;
         "pkg-1.0.1" = _FqD19Ncm;
         "pkg-1.1.0" = _L7BAQu7g;
         "pkg-2.0.0" = _KMI53a3K;
-        "default" = _KMI53a3K;
+        "pkg-2.0.1" = _C7t9lcho;
+        "default" = _C7t9lcho;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gateway-gun";

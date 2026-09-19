@@ -396,6 +396,11 @@ let
             "file" = "keybindbugfixes-1.5.1+26.2.jar";
             "hash" = "sha512-3V/ySLu6ArwKqq566Mdle1SW6AZhHdchBzElC5SGrD3i8NyKhLUqzX7YNkuDNf/78U0ELSO5x3eRNOSnc7jwGw==";
         };
+        _PTWjjrRa = {
+            "id" = "PTWjjrRa";
+            "file" = "keybindbugfixes-1.5.1+26.3.jar";
+            "hash" = "sha512-dnAGkhSEKHK0Mbf/A6l9ra9shInwypeK/UzxPK/MNJ1J9+YyVtdMnkIFkS3I8xC3UULxvb3bCu6tHW/yJSZ6Rg==";
+        };
     in {
         "IQqsjYZa" = _IQqsjYZa;
         "AFPVxbmR" = _AFPVxbmR;
@@ -476,6 +481,7 @@ let
         "x0iHSsp5" = _x0iHSsp5;
         "97hlcZG6" = _97hlcZG6;
         "eYXkwZUF" = _eYXkwZUF;
+        "PTWjjrRa" = _PTWjjrRa;
         "fabric-1.20.6" = _cD8TIQF9;
         "fabric-1.21" = _LAILAQ8B;
         "fabric-1.21.1" = _LAILAQ8B;
@@ -494,6 +500,7 @@ let
         "fabric-26.1.2" = _97hlcZG6;
         "fabric-26.2" = _eYXkwZUF;
         "fabric-1.20.5" = _cD8TIQF9;
+        "fabric-26.3" = _PTWjjrRa;
         "pkg-1.0.0" = _e1RaqgDb;
         "pkg-1.1.0" = _Ev4wUvxe;
         "pkg-1.1.1" = _whGlx6an;
@@ -509,8 +516,8 @@ let
         "pkg-1.4.3" = _vBSARtFp;
         "pkg-1.5.0" = _xdjPdY7M;
         "pkg-1.4.4" = _vUr85y7u;
-        "pkg-1.5.1" = _eYXkwZUF;
-        "default" = _eYXkwZUF;
+        "pkg-1.5.1" = _PTWjjrRa;
+        "default" = _PTWjjrRa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "keybindbugfixes";

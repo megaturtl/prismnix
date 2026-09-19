@@ -86,6 +86,11 @@ let
             "file" = "elytra-chestplate-swapper-2.1.0-MC26.2-forge.jar";
             "hash" = "sha512-YvwtshpX4cIu0TEg0w80uk+xZeXqN9WslB/Y5Hky1KpeFJf5b7HK54/sDwPrGwOb5VBYEt7ulM+leo0U7eqOaQ==";
         };
+        _aeL0Bu90 = {
+            "id" = "aeL0Bu90";
+            "file" = "elytra-chestplate-swapper-2.1.0-MC26.3-fabric.jar";
+            "hash" = "sha512-+Y7Rvq7v68SZAWbLb3EI3zDIcpigDc1SphYkOpSL4Cvz7JbbwZVHiZdkFruXskMnH7wSHZOLrGGeXzR6k1xXPg==";
+        };
     in {
         "8gPVRPn4" = _8gPVRPn4;
         "KNIJoUBe" = _KNIJoUBe;
@@ -104,6 +109,7 @@ let
         "a7RbMiZ3" = _a7RbMiZ3;
         "c8TmPqq2" = _c8TmPqq2;
         "JYyvfr52" = _JYyvfr52;
+        "aeL0Bu90" = _aeL0Bu90;
         "fabric-1.21.7" = _8gPVRPn4;
         "fabric-1.21.6" = _KNIJoUBe;
         "fabric-1.21.5" = _s8aFahyN;
@@ -120,10 +126,12 @@ let
         "fabric-26.1.1" = _cJFYlpnI;
         "fabric-26.1.2" = _LMkAOvh5;
         "fabric-26.2" = _a7RbMiZ3;
+        "fabric-26.3" = _aeL0Bu90;
         "quilt-26.1" = _raIf7sPY;
         "quilt-26.1.1" = _cJFYlpnI;
         "quilt-26.1.2" = _LMkAOvh5;
         "quilt-26.2" = _a7RbMiZ3;
+        "quilt-26.3" = _aeL0Bu90;
         "neoforge-26.2" = _c8TmPqq2;
         "forge-26.2" = _JYyvfr52;
         "pkg-2.0.0+1.21.7" = _8gPVRPn4;
@@ -143,7 +151,8 @@ let
         "pkg-2.1.0+26.2-fabric" = _a7RbMiZ3;
         "pkg-2.1.0+26.2-neoforge" = _c8TmPqq2;
         "pkg-2.1.0+26.2-forge" = _JYyvfr52;
-        "default" = _JYyvfr52;
+        "pkg-2.1.0+26.3-fabric" = _aeL0Bu90;
+        "default" = _aeL0Bu90;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytra-chestplate-swapper";

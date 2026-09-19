@@ -1501,6 +1501,11 @@ let
             "file" = "vmp-fabric-mc26.2-0.2.0+beta.7.236-all.jar";
             "hash" = "sha512-Lg/YfmbzXwD2NBdtQHKmxtHu6WXRgXgzcJrT6nPk8nGfoVLV6VtauCFrBkx9sSS38Tg46+qH2S96ct+Cg56b1Q==";
         };
+        _2TFDVjDf = {
+            "id" = "2TFDVjDf";
+            "file" = "vmp-fabric-mc26.3-0.2.0+beta.7.238-all.jar";
+            "hash" = "sha512-yGWMz4gYoljhFgotOUyA/VJwhhFXDcKNa8ORZxoj4ZN2B2bvd93FkH4aOnV88g9N72euK8GEJp7/pUfaHzd2Zw==";
+        };
     in {
         "6upkwnNd" = _6upkwnNd;
         "IUbVXDBv" = _IUbVXDBv;
@@ -1802,6 +1807,7 @@ let
         "9f7J0dAp" = _9f7J0dAp;
         "ctUJb2pi" = _ctUJb2pi;
         "d6FfpWFI" = _d6FfpWFI;
+        "2TFDVjDf" = _2TFDVjDf;
         "fabric-1.18" = _6upkwnNd;
         "fabric-1.18.1-pre1" = _6upkwnNd;
         "fabric-1.18.1" = _jpGiQw5a;
@@ -1919,6 +1925,7 @@ let
         "fabric-26.1.2" = _9f7J0dAp;
         "fabric-26.2-rc-2" = _ctUJb2pi;
         "fabric-26.2" = _d6FfpWFI;
+        "fabric-26.3" = _2TFDVjDf;
         "pkg-0.2.0+beta.1 1.18.1-pre1" = _6upkwnNd;
         "pkg-0.2.0+beta.1.5 1.18.1" = _IUbVXDBv;
         "pkg-0.2.0+beta.2 1.18.1" = _zpFSkywE;
@@ -2219,7 +2226,8 @@ let
         "pkg-0.2.0+beta.7.234+26.1.2" = _9f7J0dAp;
         "pkg-0.2.0+beta.7.235+26.2-rc-2" = _ctUJb2pi;
         "pkg-0.2.0+beta.7.236+26.2" = _d6FfpWFI;
-        "default" = _d6FfpWFI;
+        "pkg-0.2.0+beta.7.238+26.3" = _2TFDVjDf;
+        "default" = _2TFDVjDf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vmp-fabric";

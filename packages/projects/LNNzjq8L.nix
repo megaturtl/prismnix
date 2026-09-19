@@ -126,6 +126,11 @@ let
             "file" = "loomsss'sBetterBricks[2.8][26.2].zip";
             "hash" = "sha512-r3URAinazTFXI3JXyTHrKElnj0fmFObw5ARP6n+CC2mBBIOQMaiW5NvAx0ncxURniajeDz8zoD6r7Wo/e7MmIg==";
         };
+        _LJwY1wju = {
+            "id" = "LJwY1wju";
+            "file" = "loomsss'sBetterBricks[2.9][26.3].zip";
+            "hash" = "sha512-38E0N+iNxXwJFMPmT+QDEstW1EW/eltbcXOBL8bRQIjgV/yDCkzS7nROB+RhOyTLZx/eVyg5boHahaHnhO1qWQ==";
+        };
     in {
         "HQhkMSQj" = _HQhkMSQj;
         "cXpvwvuh" = _cXpvwvuh;
@@ -152,6 +157,7 @@ let
         "miGL6wFj" = _miGL6wFj;
         "XuIN4xlT" = _XuIN4xlT;
         "sugq6BTI" = _sugq6BTI;
+        "LJwY1wju" = _LJwY1wju;
         "minecraft-1.20.1" = _dN9lfiaA;
         "minecraft-1.19.3" = _L9FjQeGQ;
         "minecraft-1.19.4" = _ed8uIOc9;
@@ -180,6 +186,7 @@ let
         "minecraft-26.1.1" = _XuIN4xlT;
         "minecraft-26.1.2" = _XuIN4xlT;
         "minecraft-26.2" = _sugq6BTI;
+        "minecraft-26.3" = _LJwY1wju;
         "pkg-1.0" = _HQhkMSQj;
         "pkg-1.2" = _cXpvwvuh;
         "pkg-1.3" = _8BFsYi0L;
@@ -205,7 +212,8 @@ let
         "pkg-2.6" = _miGL6wFj;
         "pkg-2.7" = _XuIN4xlT;
         "pkg-2.8" = _sugq6BTI;
-        "default" = _sugq6BTI;
+        "pkg-2.9" = _LJwY1wju;
+        "default" = _LJwY1wju;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "loomsss-better-bricks";

@@ -31,6 +31,16 @@ let
             "file" = "nice-admin-tools-1.2.jar";
             "hash" = "sha512-VyWentoMMrwspMwRCC+bzqCFEmJTjcBPQtvUm/BP7CiKoKfNqzwBS1TRYkgbHrGYhM1r5YIdVxxWnYgY2u4oeg==";
         };
+        _LqcKLoM6 = {
+            "id" = "LqcKLoM6";
+            "file" = "nice_admin_tools_1.3.zip";
+            "hash" = "sha512-Ls2jeOjypDAYK7ZSA367w84KnNYjR07Kx0g6MJtUtaA9TM5MRKkDN8U+FMFieo2T15MYjT0QO2S0Kdp+OPYTdA==";
+        };
+        _uPPSnrLC = {
+            "id" = "uPPSnrLC";
+            "file" = "nice-admin-tools-1.3.jar";
+            "hash" = "sha512-FHpgal/Tt6a+PSUIwXxNkBJtKZo3J1+O31ewXKuyxttleUBzhmAYNjx8wiPSMFBXaNWiZV39KiGV1ocrPty1sA==";
+        };
     in {
         "4cHrpxZm" = _4cHrpxZm;
         "wDboRlgk" = _wDboRlgk;
@@ -38,38 +48,47 @@ let
         "CrAjgq99" = _CrAjgq99;
         "IZecMJGd" = _IZecMJGd;
         "NUlIKd70" = _NUlIKd70;
+        "LqcKLoM6" = _LqcKLoM6;
+        "uPPSnrLC" = _uPPSnrLC;
         "datapack-1.21.11" = _4cHrpxZm;
         "datapack-26.1" = _4t2Eah7O;
         "datapack-26.1.1" = _4t2Eah7O;
         "datapack-26.1.2" = _4t2Eah7O;
         "datapack-26.2" = _IZecMJGd;
+        "datapack-26.3" = _LqcKLoM6;
         "fabric-1.21.11" = _wDboRlgk;
         "fabric-26.1" = _CrAjgq99;
         "fabric-26.1.1" = _CrAjgq99;
         "fabric-26.1.2" = _CrAjgq99;
         "fabric-26.2" = _NUlIKd70;
+        "fabric-26.3" = _uPPSnrLC;
         "forge-1.21.11" = _wDboRlgk;
         "forge-26.1" = _CrAjgq99;
         "forge-26.1.1" = _CrAjgq99;
         "forge-26.1.2" = _CrAjgq99;
         "forge-26.2" = _NUlIKd70;
+        "forge-26.3" = _uPPSnrLC;
         "neoforge-1.21.11" = _wDboRlgk;
         "neoforge-26.1" = _CrAjgq99;
         "neoforge-26.1.1" = _CrAjgq99;
         "neoforge-26.1.2" = _CrAjgq99;
         "neoforge-26.2" = _NUlIKd70;
+        "neoforge-26.3" = _uPPSnrLC;
         "quilt-1.21.11" = _wDboRlgk;
         "quilt-26.1" = _CrAjgq99;
         "quilt-26.1.1" = _CrAjgq99;
         "quilt-26.1.2" = _CrAjgq99;
         "quilt-26.2" = _NUlIKd70;
+        "quilt-26.3" = _uPPSnrLC;
         "pkg-1.0" = _4cHrpxZm;
         "pkg-1.0+mod" = _wDboRlgk;
         "pkg-1.1" = _4t2Eah7O;
         "pkg-1.1+mod" = _CrAjgq99;
         "pkg-1.2" = _IZecMJGd;
         "pkg-1.2-mod" = _NUlIKd70;
-        "default" = _NUlIKd70;
+        "pkg-1.3" = _LqcKLoM6;
+        "pkg-1.3-mod" = _uPPSnrLC;
+        "default" = _uPPSnrLC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nice-admin-tools";

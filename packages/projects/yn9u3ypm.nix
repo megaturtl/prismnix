@@ -391,6 +391,11 @@ let
             "file" = "graves-3.12.0+26.2.jar";
             "hash" = "sha512-SZ9SsGOxMTNR1xKPyU9GrA4lZoTr19OSBqbTMadMf7J2NkRI3bRWOovAj4yjyUii9/Bl5wsjsQzyRob2noswEw==";
         };
+        _r9hY06vQ = {
+            "id" = "r9hY06vQ";
+            "file" = "graves-3.13.0+26.3.jar";
+            "hash" = "sha512-Ch6L+I1m8Lpc/fPXVEtz03Pyg8C3Xdtif7iEGCXliveSX26z6KpDfzc5dxOW5LMiBxklAAYnYbzax+/MP/XMAw==";
+        };
     in {
         "o5dpuQKw" = _o5dpuQKw;
         "nQJ9Oj7x" = _nQJ9Oj7x;
@@ -470,6 +475,7 @@ let
         "rZHOziFD" = _rZHOziFD;
         "hI8eYRJ3" = _hI8eYRJ3;
         "BZfhXd0q" = _BZfhXd0q;
+        "r9hY06vQ" = _r9hY06vQ;
         "fabric-1.17" = _KSslMTDO;
         "fabric-1.17.1" = _xTU1wu1n;
         "fabric-1.18-rc1" = _AQcQmHuq;
@@ -518,6 +524,8 @@ let
         "fabric-26.1.1" = _Dxdl3YiE;
         "fabric-26.1.2" = _hI8eYRJ3;
         "fabric-26.2" = _BZfhXd0q;
+        "fabric-26.3-rc-1" = _r9hY06vQ;
+        "fabric-26.3" = _r9hY06vQ;
         "quilt-1.18.2" = _mSmmm4Bh;
         "quilt-1.19-rc2" = _mCPBb32D;
         "quilt-1.19" = _twVj4ohW;
@@ -618,7 +626,8 @@ let
         "pkg-3.11.0+26.1.2" = _rZHOziFD;
         "pkg-3.11.1+26.1.2" = _hI8eYRJ3;
         "pkg-3.12.0+26.2" = _BZfhXd0q;
-        "default" = _BZfhXd0q;
+        "pkg-3.13.0+26.3" = _r9hY06vQ;
+        "default" = _r9hY06vQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "universal-graves";

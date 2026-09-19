@@ -21,11 +21,17 @@ let
             "file" = "Smooth_Pixels_Pack.zip";
             "hash" = "sha512-2jjU7GjOktLVo2jkF+0GavdMVBhiXaayAVxFWEA+yLdB5w6dHXWxYSu9ErgEX3IoW/3hrcc0WbJoDCwUkmi3rA==";
         };
+        _FqncqnzP = {
+            "id" = "FqncqnzP";
+            "file" = "Smooth_Pixels_Pack_V1.9.8.zip";
+            "hash" = "sha512-vasf06Q5kaCckUqsfDjzKeXKJjk8/4PpINrDdXis/OF75rkxJ5Gcg+bGPj1Ji6cxcVNgkzDDB9kVbCpOkeRlCQ==";
+        };
     in {
         "HorWf6qJ" = _HorWf6qJ;
         "Qxwlywdq" = _Qxwlywdq;
         "GaRDq3rs" = _GaRDq3rs;
         "tKJI0Bso" = _tKJI0Bso;
+        "FqncqnzP" = _FqncqnzP;
         "minecraft-1.21.8" = _tKJI0Bso;
         "minecraft-1.21.9" = _Qxwlywdq;
         "minecraft-1.21.11" = _GaRDq3rs;
@@ -34,11 +40,13 @@ let
         "minecraft-26.1.1" = _tKJI0Bso;
         "minecraft-26.1.2" = _tKJI0Bso;
         "minecraft-26.2" = _tKJI0Bso;
+        "minecraft-26.3" = _FqncqnzP;
         "pkg-1.9.2" = _HorWf6qJ;
         "pkg-1.9.3" = _Qxwlywdq;
         "pkg-1.9.4" = _GaRDq3rs;
         "pkg-1.9.7" = _tKJI0Bso;
-        "default" = _tKJI0Bso;
+        "pkg-1.9.8" = _FqncqnzP;
+        "default" = _FqncqnzP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smooth-pixels-texture-pack";

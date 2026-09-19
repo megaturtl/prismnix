@@ -41,6 +41,16 @@ let
             "file" = "remove-buildlimit-1.2-26.2.jar";
             "hash" = "sha512-epy7xZXuLigrVQPjbwnk5+De30/yZrXQDgzwa0hIy3+Ase5b91a5+m2Y0YPm5uHeN8swPp56P5wmWdgdmwT0tQ==";
         };
+        _f4p4k9oh = {
+            "id" = "f4p4k9oh";
+            "file" = "removebuildlimit-1.2-26.3.zip";
+            "hash" = "sha512-wN/0eRgk3NlceAGbo3boeaAC00GH35DDnPhyy2BG+1xwPcgBrEaVCkK7nUJG/tu8jArk0xMdP+ToGzROA8tdig==";
+        };
+        _3LEaIHdx = {
+            "id" = "3LEaIHdx";
+            "file" = "remove-buildlimit-26.3.jar";
+            "hash" = "sha512-G1mHQ6Ac9w5yleXkjeC2bJyhrTvIXs46claV1x/peeF6rrFKgJEo0PF/tPrhxdWcNmLd398G6GaJNuqa70IFLw==";
+        };
     in {
         "rMwKLb34" = _rMwKLb34;
         "MWarPKJC" = _MWarPKJC;
@@ -50,38 +60,47 @@ let
         "WpxNryZZ" = _WpxNryZZ;
         "yhVH6nOT" = _yhVH6nOT;
         "TDGC9wBM" = _TDGC9wBM;
+        "f4p4k9oh" = _f4p4k9oh;
+        "3LEaIHdx" = _3LEaIHdx;
         "datapack-1.21.11" = _rMwKLb34;
         "datapack-26.1" = _HTWTnhNM;
         "datapack-26.1.1" = _HTWTnhNM;
         "datapack-26.1.2" = _HTWTnhNM;
         "datapack-26.2" = _yhVH6nOT;
+        "datapack-26.3" = _f4p4k9oh;
         "fabric-1.21.11" = _MWarPKJC;
         "fabric-26.1" = _WpxNryZZ;
         "fabric-26.1.1" = _WpxNryZZ;
         "fabric-26.1.2" = _WpxNryZZ;
         "fabric-26.2" = _TDGC9wBM;
+        "fabric-26.3" = _3LEaIHdx;
         "forge-1.21.11" = _MWarPKJC;
         "forge-26.1" = _WpxNryZZ;
         "forge-26.1.1" = _WpxNryZZ;
         "forge-26.1.2" = _WpxNryZZ;
         "forge-26.2" = _TDGC9wBM;
+        "forge-26.3" = _3LEaIHdx;
         "neoforge-1.21.11" = _MWarPKJC;
         "neoforge-26.1" = _WpxNryZZ;
         "neoforge-26.1.1" = _WpxNryZZ;
         "neoforge-26.1.2" = _WpxNryZZ;
         "neoforge-26.2" = _TDGC9wBM;
+        "neoforge-26.3" = _3LEaIHdx;
         "quilt-1.21.11" = _MWarPKJC;
         "quilt-26.1" = _WpxNryZZ;
         "quilt-26.1.1" = _WpxNryZZ;
         "quilt-26.1.2" = _WpxNryZZ;
         "quilt-26.2" = _TDGC9wBM;
+        "quilt-26.3" = _3LEaIHdx;
         "pkg-1.0-1.21.11" = _MWarPKJC;
         "pkg-1.1-26.1" = _Zj6DCeAr;
         "pkg-1.2-26.1" = _HTWTnhNM;
         "pkg-1.2-26.1+mod" = _WpxNryZZ;
         "pkg-1.2-26.2" = _yhVH6nOT;
         "pkg-1.2-26.2+mod" = _TDGC9wBM;
-        "default" = _TDGC9wBM;
+        "pkg-26.3" = _f4p4k9oh;
+        "pkg-26.3+mod" = _3LEaIHdx;
+        "default" = _3LEaIHdx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "remove-buildlimit";

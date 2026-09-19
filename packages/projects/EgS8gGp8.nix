@@ -61,6 +61,26 @@ let
             "file" = "ForgeEndertech-1.20.1-11.1.11.1-build.2351.jar";
             "hash" = "sha512-BpxDwv8Z1iwZenEIWD2kxZvbzSgdSqTq6qcSYRsUT5AQlnPq2RfeaqSkmwtVS1gb0U2xXM10YEYAIxu9+z6LwA==";
         };
+        _MPPhM7bn = {
+            "id" = "MPPhM7bn";
+            "file" = "forgeendertech-26.2.0.2-fabric-build.0155.jar";
+            "hash" = "sha512-6BPdQeffz5eDaGjNID5PIM69v4FAQXWV5rwI16AO7JOcquJf+uJ816RMTxIniD+PNd+RO3PLTejTb+7tC1xrTw==";
+        };
+        _mcBBIkPv = {
+            "id" = "mcBBIkPv";
+            "file" = "forgeendertech-26.2.0.2-fabric-build.0168.jar";
+            "hash" = "sha512-KcS67Lb9zGQiQwzIZc9CMouh86cAo2tsQDoLii3aPphlJV21rExr9Jh7O2U6/bZntrI3j8LC+sNZeV3s6+9nYA==";
+        };
+        _wL7Wc1gi = {
+            "id" = "wL7Wc1gi";
+            "file" = "forgeendertech-26.2.0.2-forge-build.0168.jar";
+            "hash" = "sha512-WX3DzAk8kWuX9oIbn1E6f1k95fFkU8zJWYvvKX03diEW+VZZ/KoKTrSGKIRq2WpVP4a7xmQ73claSSQX801+NA==";
+        };
+        _F4YjdmAA = {
+            "id" = "F4YjdmAA";
+            "file" = "forgeendertech-26.2.0.2-neoforge-build.0168.jar";
+            "hash" = "sha512-0WR2o9MUIgrWdz8kh0MnFWajrzrdbDiJWiMzKk7+QYBMOlH1XNBZilL2tJkt+ISbbo4AQHiT12guy1UmEY4Dag==";
+        };
     in {
         "YN64I5dY" = _YN64I5dY;
         "yTRaxrqz" = _yTRaxrqz;
@@ -74,10 +94,14 @@ let
         "fumbwaIS" = _fumbwaIS;
         "txw8Bl4K" = _txw8Bl4K;
         "BZn0Raqx" = _BZn0Raqx;
-        "fabric-26.2" = _QNHAtAr4;
-        "neoforge-26.2" = _4AZjJIFb;
+        "MPPhM7bn" = _MPPhM7bn;
+        "mcBBIkPv" = _mcBBIkPv;
+        "wL7Wc1gi" = _wL7Wc1gi;
+        "F4YjdmAA" = _F4YjdmAA;
+        "fabric-26.2" = _mcBBIkPv;
+        "neoforge-26.2" = _F4YjdmAA;
         "neoforge-1.21.1" = _fumbwaIS;
-        "forge-26.2" = _w1LD7MEM;
+        "forge-26.2" = _wL7Wc1gi;
         "forge-1.20.1" = _BZn0Raqx;
         "pkg-26.2.0.0" = _JGHtLBUf;
         "pkg-12.1.2.2" = _HtpCqEXI;
@@ -87,7 +111,8 @@ let
         "pkg-12.1.3.0" = _fumbwaIS;
         "pkg-11.1.11.0" = _txw8Bl4K;
         "pkg-11.1.11.1" = _BZn0Raqx;
-        "default" = _BZn0Raqx;
+        "pkg-26.2.0.2" = _F4YjdmAA;
+        "default" = _F4YjdmAA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "forgeendertech";

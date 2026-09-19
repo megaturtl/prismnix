@@ -91,6 +91,11 @@ let
             "file" = "DyeAllTheThings-1.10.0-26.2.jar";
             "hash" = "sha512-2LFEHaY/jTYu6gUCX/6WrN6O2wh9/TsjSg6UA5HbMHmHJARA1w1O0edl7Yp8crU/cZJIqt8QOLLF230MyUuGKg==";
         };
+        _NgUYxGjy = {
+            "id" = "NgUYxGjy";
+            "file" = "DyeAllTheThings-1.11.0-26.3.jar";
+            "hash" = "sha512-JNBVpr+TPNTmpTIafAb9zpU/g3kBSm4cwvWCqk6aVCDhVmLqMDadJCza7snK4T1wS0Japnb7twskNHdg1sLPSQ==";
+        };
     in {
         "NXpiZ5xk" = _NXpiZ5xk;
         "E0iS8TsL" = _E0iS8TsL;
@@ -110,6 +115,7 @@ let
         "99qCgTub" = _99qCgTub;
         "7tWbPcjZ" = _7tWbPcjZ;
         "wmiZAN3t" = _wmiZAN3t;
+        "NgUYxGjy" = _NgUYxGjy;
         "fabric-1.16" = _Bb4fEqaV;
         "fabric-1.16.1" = _Bb4fEqaV;
         "fabric-1.16.2" = _Bb4fEqaV;
@@ -149,6 +155,7 @@ let
         "fabric-26.1.1" = _7tWbPcjZ;
         "fabric-26.1.2" = _7tWbPcjZ;
         "fabric-26.2" = _wmiZAN3t;
+        "fabric-26.3" = _NgUYxGjy;
         "pkg-1.2.0" = _NXpiZ5xk;
         "pkg-1.2.1" = _E0iS8TsL;
         "pkg-1.3.0" = _MjSzt0UE;
@@ -167,7 +174,8 @@ let
         "pkg-1.8.0" = _99qCgTub;
         "pkg-1.9.0" = _7tWbPcjZ;
         "pkg-1.10.0" = _wmiZAN3t;
-        "default" = _wmiZAN3t;
+        "pkg-1.11.0" = _NgUYxGjy;
+        "default" = _NgUYxGjy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dyeallthethings";

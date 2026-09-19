@@ -121,6 +121,11 @@ let
             "file" = "Cobweb Outline.zip";
             "hash" = "sha512-F3W95KURKmoxEwXRYh2mKV0jzIn1N9B4/FD1CQnWsh4NfK258AYSPmYV9RKrdfZdF61KEtwlcYMSe1cNnMF0Hg==";
         };
+        _3C2oLMDJ = {
+            "id" = "3C2oLMDJ";
+            "file" = "Cobweb Outline.zip";
+            "hash" = "sha512-WBMnmEmWB3O5+19x/XZwtZrp2xhGVp30RZBgesbMfzMwOA0NHejXMOUJu3cbvJBCrq5qLUJkPiEz10wen1D+kA==";
+        };
     in {
         "nzKaGn0h" = _nzKaGn0h;
         "GqLacqjY" = _GqLacqjY;
@@ -146,6 +151,7 @@ let
         "Mfaof7FJ" = _Mfaof7FJ;
         "BbLdK6ne" = _BbLdK6ne;
         "3tEna9wn" = _3tEna9wn;
+        "3C2oLMDJ" = _3C2oLMDJ;
         "minecraft-1.19" = _nzKaGn0h;
         "minecraft-1.19.1" = _GqLacqjY;
         "minecraft-1.19.2" = _GqLacqjY;
@@ -183,6 +189,7 @@ let
         "minecraft-26.1.1" = _BbLdK6ne;
         "minecraft-26.1.2" = _BbLdK6ne;
         "minecraft-26.2" = _3tEna9wn;
+        "minecraft-26.3" = _3C2oLMDJ;
         "pkg-1.19" = _nzKaGn0h;
         "pkg-1.19.1-1.19.2" = _GqLacqjY;
         "pkg-1.19.3-1.19.4" = _w8ZNVjwr;
@@ -204,7 +211,8 @@ let
         "pkg-1.21-1.21.11" = _Mfaof7FJ;
         "pkg-26.2" = _3tEna9wn;
         "pkg-26.1-26.1.2" = _BbLdK6ne;
-        "default" = _3tEna9wn;
+        "pkg-26.3" = _3C2oLMDJ;
+        "default" = _3C2oLMDJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobweb-outline";

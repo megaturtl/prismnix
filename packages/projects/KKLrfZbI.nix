@@ -96,6 +96,16 @@ let
             "file" = "sprintindicator-fabric-2.0.0+26.2.jar";
             "hash" = "sha512-D8o+926Kh1/tNGk2sE6/mChBq+q/XsSMcuXJLbdVAoEgk32ts6TpeewJtPrBj2PtAA0iDwskYvuS5O+k6eiKFQ==";
         };
+        _JqGlt4vv = {
+            "id" = "JqGlt4vv";
+            "file" = "sprintindicator-neoforge-2.0.0+26.3.jar";
+            "hash" = "sha512-cwSb3A7e2bzz7v6FGGfflAhUvGPAep8QeWfPSunqDfCepAYaUf1kq7AYCmeZ/RqrSF659Sw+eECir4s8osx4LA==";
+        };
+        _ctJHExc4 = {
+            "id" = "ctJHExc4";
+            "file" = "sprintindicator-fabric-2.0.0+26.3.jar";
+            "hash" = "sha512-ko+u9LLXY36gZmex/nTF5QaPirx5Xad/grezSABdUsqJZ26lPvaBIn4XT0/wv76z3sQwHIcWSMVdvvt+uo6SvQ==";
+        };
     in {
         "xXF0yRwl" = _xXF0yRwl;
         "bNi0Ntgw" = _bNi0Ntgw;
@@ -116,6 +126,8 @@ let
         "Hs2bdwoK" = _Hs2bdwoK;
         "pz6t0b1X" = _pz6t0b1X;
         "JlHtmxwn" = _JlHtmxwn;
+        "JqGlt4vv" = _JqGlt4vv;
+        "ctJHExc4" = _ctJHExc4;
         "fabric-1.19" = _xXF0yRwl;
         "fabric-1.19.1" = _xXF0yRwl;
         "fabric-1.19.2" = _xXF0yRwl;
@@ -144,6 +156,7 @@ let
         "fabric-26.1.1" = _vXxF9Fdl;
         "fabric-26.1.2" = _vXxF9Fdl;
         "fabric-26.2" = _JlHtmxwn;
+        "fabric-26.3" = _ctJHExc4;
         "quilt-1.19" = _xXF0yRwl;
         "quilt-1.19.1" = _xXF0yRwl;
         "quilt-1.19.2" = _xXF0yRwl;
@@ -179,6 +192,7 @@ let
         "neoforge-26.1.1" = _73hBMDYJ;
         "neoforge-26.1.2" = _73hBMDYJ;
         "neoforge-26.2" = _pz6t0b1X;
+        "neoforge-26.3" = _JqGlt4vv;
         "pkg-1.0.0+1.19" = _xXF0yRwl;
         "pkg-1.0.1+1.19.3" = _bNi0Ntgw;
         "pkg-1.1.0+1.19.4" = _KcYshyBG;
@@ -195,7 +209,9 @@ let
         "pkg-2.0.0+26.2-forge" = _Hs2bdwoK;
         "pkg-2.0.0+26.2-neoforge" = _pz6t0b1X;
         "pkg-2.0.0+26.2-fabric" = _JlHtmxwn;
-        "default" = _JlHtmxwn;
+        "pkg-2.0.0+26.3-neoforge" = _JqGlt4vv;
+        "pkg-2.0.0+26.3-fabric" = _ctJHExc4;
+        "default" = _ctJHExc4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sprint-indicator";

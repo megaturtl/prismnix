@@ -186,6 +186,26 @@ let
             "file" = "animatium-4.3+26.2-fabric.jar";
             "hash" = "sha512-n5dquU7g+oDnPE/OxMwgQosH0dbCDLwaKps3tSpy1Sq4Iow/ZfLe7O5qjs5mzGIru5PzS47T8pTN0bB2hOJKkw==";
         };
+        _GWdrAoFi = {
+            "id" = "GWdrAoFi";
+            "file" = "animatium-4.4+26.2-fabric.jar";
+            "hash" = "sha512-nlQhdl+tX5CaKQFmErif5PnD/dLvCzn3zt01ASz+T4I2u+jDBCq+2cMXeo0DntFSXypqP+j990O98fGXg1bVcA==";
+        };
+        _fF8ckitL = {
+            "id" = "fF8ckitL";
+            "file" = "animatium-4.4+26.1.2-fabric.jar";
+            "hash" = "sha512-BMIetrpC/ON6yPE3CJmUP9f7igI/2J1MR5hC4IaVXVurur/0UkFk/a1DhL4Nq0L8j9GP99r8lkyePYxgBFeRkA==";
+        };
+        _gszDSKHV = {
+            "id" = "gszDSKHV";
+            "file" = "animatium-4.4+1.21.11-fabric.jar";
+            "hash" = "sha512-e//1n5u8jnLDS96c/78wUrHw+bLa+v+GSos7AZaM5fz3RQ7zXcdOMjQw+zWth5wROJAarR1kZSJt2Nf3SI/zAQ==";
+        };
+        _tiI9c75Y = {
+            "id" = "tiI9c75Y";
+            "file" = "animatium-4.4+26.3-fabric.jar";
+            "hash" = "sha512-342BGUd0bq3dOuckwIrDhOaSbTfYv1mmbBzS6nn9mx58hz+SF6VzvjhYC6HuSs2giGq4G1ef6XKr/sSo0BAK2A==";
+        };
     in {
         "5iHyvKmR" = _5iHyvKmR;
         "1DqQrGaN" = _1DqQrGaN;
@@ -224,6 +244,10 @@ let
         "o3XcWAi3" = _o3XcWAi3;
         "BHtSo7FE" = _BHtSo7FE;
         "Q5mMiKxL" = _Q5mMiKxL;
+        "GWdrAoFi" = _GWdrAoFi;
+        "fF8ckitL" = _fF8ckitL;
+        "gszDSKHV" = _gszDSKHV;
+        "tiI9c75Y" = _tiI9c75Y;
         "fabric-1.21.5" = _LmMmc1uB;
         "fabric-1.21.4" = _LGJYOPXS;
         "fabric-1.21.6" = _qVwcSabB;
@@ -232,11 +256,12 @@ let
         "fabric-25w31a" = _iycCVty0;
         "fabric-1.21.9" = _dNYb24vW;
         "fabric-1.21.10" = _dNYb24vW;
-        "fabric-1.21.11" = _o3XcWAi3;
-        "fabric-26.1" = _BHtSo7FE;
+        "fabric-1.21.11" = _gszDSKHV;
+        "fabric-26.1" = _fF8ckitL;
         "fabric-26.1.1" = _BHtSo7FE;
-        "fabric-26.1.2" = _BHtSo7FE;
-        "fabric-26.2" = _Q5mMiKxL;
+        "fabric-26.1.2" = _fF8ckitL;
+        "fabric-26.2" = _GWdrAoFi;
+        "fabric-26.3" = _tiI9c75Y;
         "pkg-2.0" = _1DqQrGaN;
         "pkg-2.1" = _UrpBOaOH;
         "pkg-2.3" = _niub18sg;
@@ -255,7 +280,8 @@ let
         "pkg-4.2" = _uHSWWtXZ;
         "pkg-4.2.1" = _mdF2Nx5N;
         "pkg-4.3" = _Q5mMiKxL;
-        "default" = _Q5mMiKxL;
+        "pkg-4.4" = _tiI9c75Y;
+        "default" = _tiI9c75Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animatium";

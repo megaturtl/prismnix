@@ -291,6 +291,11 @@ let
             "file" = "audio_engine_tweaks-1.2.16+MC26.3-pre-2 build 4.jar";
             "hash" = "sha512-eowwd+S0UeHnINITux1VKHwwk60hch9KkYTeGfwv238yJU2JBfBr8slLLv5tc5fS/RF76iNOdQcVD/s4983elw==";
         };
+        _tvigy9QA = {
+            "id" = "tvigy9QA";
+            "file" = "audio_engine_tweaks-1.2.16+MC26.3 build 2.jar";
+            "hash" = "sha512-MwDWIppaIVPHcYj+EaEcyR0mULO1Io38/UxwieaFm9YXhi6C4AGdkw8w9Wb5l7kicRcBs8uoyldT/A3UJYHfyA==";
+        };
     in {
         "yVExnZd5" = _yVExnZd5;
         "nSqMP2cn" = _nSqMP2cn;
@@ -350,6 +355,7 @@ let
         "paeoSid4" = _paeoSid4;
         "besKKqNL" = _besKKqNL;
         "Zbr1RfOD" = _Zbr1RfOD;
+        "tvigy9QA" = _tvigy9QA;
         "fabric-1.17.1" = _wyWl0F0J;
         "fabric-1.18" = _wyWl0F0J;
         "fabric-1.18.1" = _wyWl0F0J;
@@ -423,6 +429,7 @@ let
         "fabric-26.2" = _paeoSid4;
         "fabric-26.3-pre-1" = _besKKqNL;
         "fabric-26.3-pre-2" = _Zbr1RfOD;
+        "fabric-26.3" = _tvigy9QA;
         "quilt-1.20.1" = _no8TEjJD;
         "quilt-1.20.2" = _ST7s4Way;
         "quilt-1.20.3" = _8y2TPNrt;
@@ -460,6 +467,7 @@ let
         "quilt-26.2" = _paeoSid4;
         "quilt-26.3-pre-1" = _besKKqNL;
         "quilt-26.3-pre-2" = _Zbr1RfOD;
+        "quilt-26.3" = _tvigy9QA;
         "pkg-1.0-pre-1.19" = _yVExnZd5;
         "pkg-1.0" = _nSqMP2cn;
         "pkg-1.1" = _jRtkrMLo;
@@ -487,8 +495,8 @@ let
         "pkg-1.2.14" = _d41OWdlk;
         "pkg-1.2.13" = _no8TEjJD;
         "pkg-1.2.15" = _YxNOZvPW;
-        "pkg-1.2.16" = _Zbr1RfOD;
-        "default" = _Zbr1RfOD;
+        "pkg-1.2.16" = _tvigy9QA;
+        "default" = _tvigy9QA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "audio-engine-tweaks";

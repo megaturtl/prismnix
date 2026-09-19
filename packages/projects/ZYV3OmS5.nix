@@ -21,11 +21,17 @@ let
             "file" = "Overlays V88 MC26.2.zip";
             "hash" = "sha512-bvw8BfTNARbe+9jLVL7KxtTXk0VUwRs/Mtf6LHjdbCmve0tyxASfb3L9lPcWwwuq6HlS5XsqT/ZQj7aRwUezBA==";
         };
+        _YX6TKEZG = {
+            "id" = "YX6TKEZG";
+            "file" = "Overlays V97 MC26.3.zip";
+            "hash" = "sha512-zEwb4mTjH1AqZtARHpdbGJ9JsBYu/LD06DosmmcyqC4BxvepHvDA4zAWap/l2hW04SG33c38IiHLNKRAYIRq5w==";
+        };
     in {
         "Ao5BMsy0" = _Ao5BMsy0;
         "56tRFDXR" = _56tRFDXR;
         "11rCn9lT" = _11rCn9lT;
         "ab5d76o6" = _ab5d76o6;
+        "YX6TKEZG" = _YX6TKEZG;
         "minecraft-1.20" = _Ao5BMsy0;
         "minecraft-1.20.1" = _Ao5BMsy0;
         "minecraft-1.20.2" = _Ao5BMsy0;
@@ -49,11 +55,13 @@ let
         "minecraft-26.1.1" = _11rCn9lT;
         "minecraft-26.1.2" = _11rCn9lT;
         "minecraft-26.2" = _ab5d76o6;
+        "minecraft-26.3" = _YX6TKEZG;
         "pkg-75" = _Ao5BMsy0;
         "pkg-84" = _56tRFDXR;
         "pkg-84.1" = _11rCn9lT;
         "pkg-88" = _ab5d76o6;
-        "default" = _ab5d76o6;
+        "pkg-97" = _YX6TKEZG;
+        "default" = _YX6TKEZG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "block-overlays";

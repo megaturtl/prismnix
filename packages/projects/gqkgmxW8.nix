@@ -26,20 +26,28 @@ let
             "file" = "chiseled-fabric-26.2-1.3.0-alpha.jar";
             "hash" = "sha512-d307Gt11bDXReLrN9cMRIbf+EimNtv0AZRpasR7opT33UkECYebQ0NwEHTHem7Ol4ae9nCzNB36JZIFG2FHSSQ==";
         };
+        _19dKNAgO = {
+            "id" = "19dKNAgO";
+            "file" = "chiseled-fabric-26.3-1.4.0-alpha.jar";
+            "hash" = "sha512-FfI/WdoCXyu656h3Dx4l3U7quatGj/74x6eMqR5N5tM7PwUGRVf6AqAJwZqDrK4a6Bkeof43R7Xn0Xr3zBvp1w==";
+        };
     in {
         "4W1y8cGx" = _4W1y8cGx;
         "kegWkySw" = _kegWkySw;
         "Z3L1xEeP" = _Z3L1xEeP;
         "bRm3FOGK" = _bRm3FOGK;
         "raIW97HG" = _raIW97HG;
+        "19dKNAgO" = _19dKNAgO;
         "fabric-1.21.8" = _bRm3FOGK;
         "fabric-26.2" = _raIW97HG;
+        "fabric-26.3" = _19dKNAgO;
         "pkg-1.0.1-alpha" = _4W1y8cGx;
         "pkg-1.1.0-alpha" = _kegWkySw;
         "pkg-1.2.0-alpha" = _Z3L1xEeP;
         "pkg-1.2.1-alpha" = _bRm3FOGK;
         "pkg-1.3.0-alpha" = _raIW97HG;
-        "default" = _raIW97HG;
+        "pkg-1.4.0-alpha" = _19dKNAgO;
+        "default" = _19dKNAgO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chiseled-mod";

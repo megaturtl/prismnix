@@ -1166,6 +1166,21 @@ let
             "file" = "sounds-2.5.1+edge+26.2-fabric.jar";
             "hash" = "sha512-dWPUjuo8GVtRYTA1kZnsmBgmvxwap1eyP15vGsp6+yelmSrC83Ix+RAcXMsNE7c3qa83xHFphG+CbgsCQxiDEQ==";
         };
+        _sEUXwXuq = {
+            "id" = "sEUXwXuq";
+            "file" = "sounds-2.5.2+lts+26.1.2-fabric.jar";
+            "hash" = "sha512-GRvIHxqi6yaQ2XzeNvXm9ybEpwnpiMcJO6jYF00howZ+8d/GVIt1RwdKuqyPzOHB0pD8e8R7/OT+mUEQ8W77Lg==";
+        };
+        _2XVj5dBd = {
+            "id" = "2XVj5dBd";
+            "file" = "sounds-2.5.2+lts+26.1.2-neoforge.jar";
+            "hash" = "sha512-C2pkR3r+/e7+Czg7xNcSk8q5r3z6S4xO9Czmj7F1s37zB47jSEhlvO2QUMR5XOJ+qmiw3d0t6S4ZbIdm9wVKjQ==";
+        };
+        _3LGfci4v = {
+            "id" = "3LGfci4v";
+            "file" = "sounds-2.5.2+edge+26.3-fabric.jar";
+            "hash" = "sha512-BXQ+6qed4C1yoShtOgwK1Eho7YvH7lE5DBr2FJoqlNkA/cPmpfgXc60250i2ZlEqLiaVt2eMSsQR6pctJBXnYQ==";
+        };
     in {
         "wnD4aowf" = _wnD4aowf;
         "gJ6s0U3p" = _gJ6s0U3p;
@@ -1400,6 +1415,9 @@ let
         "BRKz4RE8" = _BRKz4RE8;
         "1YZ8moJQ" = _1YZ8moJQ;
         "kv2RxMQu" = _kv2RxMQu;
+        "sEUXwXuq" = _sEUXwXuq;
+        "2XVj5dBd" = _2XVj5dBd;
+        "3LGfci4v" = _3LGfci4v;
         "fabric-1.20" = _EoAqSkiW;
         "fabric-1.20.1" = _EoAqSkiW;
         "fabric-1.20.2" = _fsnwR91d;
@@ -1420,19 +1438,20 @@ let
         "fabric-1.21.10-rc1" = _sSjn02GQ;
         "fabric-1.21.10" = _HE60rITD;
         "fabric-1.21.11" = _wvhDSvYI;
-        "fabric-26.1" = _BRKz4RE8;
-        "fabric-26.1.1" = _BRKz4RE8;
-        "fabric-26.1.2" = _BRKz4RE8;
+        "fabric-26.1" = _sEUXwXuq;
+        "fabric-26.1.1" = _sEUXwXuq;
+        "fabric-26.1.2" = _sEUXwXuq;
         "fabric-26.2" = _kv2RxMQu;
+        "fabric-26.3" = _3LGfci4v;
         "neoforge-1.21" = _2xpUPoMI;
         "neoforge-1.21.1" = _kti7i9SG;
         "neoforge-1.21.2" = _JIWEUss1;
         "neoforge-1.21.4" = _2CEJkTj2;
         "neoforge-1.21.3" = _fhALapYh;
         "neoforge-1.21.5" = _8v73o8e2;
-        "neoforge-26.1" = _1YZ8moJQ;
-        "neoforge-26.1.1" = _1YZ8moJQ;
-        "neoforge-26.1.2" = _1YZ8moJQ;
+        "neoforge-26.1" = _2XVj5dBd;
+        "neoforge-26.1.1" = _2XVj5dBd;
+        "neoforge-26.1.2" = _2XVj5dBd;
         "forge-1.20" = _6vE02T1J;
         "forge-1.20.1" = _6vE02T1J;
         "pkg-0.1.0+1.20" = _wnD4aowf;
@@ -1668,7 +1687,10 @@ let
         "pkg-2.5.1+lts+26.1-fabric" = _BRKz4RE8;
         "pkg-2.5.1+lts+26.1-neoforge" = _1YZ8moJQ;
         "pkg-2.5.1+edge+26.2-fabric" = _kv2RxMQu;
-        "default" = _kv2RxMQu;
+        "pkg-2.5.2+lts+26.1-fabric" = _sEUXwXuq;
+        "pkg-2.5.2+lts+26.1-neoforge" = _2XVj5dBd;
+        "pkg-2.5.2+edge+26.3-fabric" = _3LGfci4v;
+        "default" = _3LGfci4v;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sound";

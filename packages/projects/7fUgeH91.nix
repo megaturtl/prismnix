@@ -26,18 +26,31 @@ let
             "file" = "CRZMovesPokemon-neoforge-1.3.3.jar";
             "hash" = "sha512-3oKIjwSvOcLWPLc+X/796Pd/JymrCObLHyjRWbVCPFwEKbxh2m7usxZORn9Zy50XNn/rzFYq5R22UlQ5eJGC1A==";
         };
+        _YHfxFYnB = {
+            "id" = "YHfxFYnB";
+            "file" = "CRZMovesPokemon-1.4.0.jar";
+            "hash" = "sha512-Y+eAatrHyr1QK5lurgowaC6n+t+pvhNnSnn5ZAj69BOVmojIwl/fCfi5VV0lzdAiOV0nhMnyQsxs8dCIgCVAgQ==";
+        };
+        _fEFD0BUd = {
+            "id" = "fEFD0BUd";
+            "file" = "CRZMovesPokemon-neoforge-1.4.0.jar";
+            "hash" = "sha512-vxiG5bPJViBR3lqm6q/nSLhXIBDBR1Q0Few1mtEYpUlAXM2kKtIcTIDhBKFWW8mVIcqtf+0hWBVWPamArZKQeQ==";
+        };
     in {
         "4K9TMH27" = _4K9TMH27;
         "Vg5pubYg" = _Vg5pubYg;
         "UONBITrI" = _UONBITrI;
         "aoYTuybH" = _aoYTuybH;
         "OUxL4aAR" = _OUxL4aAR;
-        "fabric-1.21.1" = _aoYTuybH;
-        "neoforge-1.21.1" = _OUxL4aAR;
+        "YHfxFYnB" = _YHfxFYnB;
+        "fEFD0BUd" = _fEFD0BUd;
+        "fabric-1.21.1" = _YHfxFYnB;
+        "neoforge-1.21.1" = _fEFD0BUd;
         "pkg-1.0.0" = _Vg5pubYg;
         "pkg-1.1.0" = _UONBITrI;
         "pkg-1.3.3" = _OUxL4aAR;
-        "default" = _OUxL4aAR;
+        "pkg-1.4.0" = _fEFD0BUd;
+        "default" = _fEFD0BUd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemoncrzmovespokemon";

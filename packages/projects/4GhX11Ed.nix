@@ -151,6 +151,11 @@ let
             "file" = "modsmod-26.2.0.jar";
             "hash" = "sha512-HgFBc9wUrvEYwF4HvvlcXD3Hvfa/biPthTUTJhV8HQAMZX8nxykHiJkwgxz1b+8cSiZmsR2mpGqNsXFMIRW3oA==";
         };
+        _rMHun2AL = {
+            "id" = "rMHun2AL";
+            "file" = "modsmod-26.3.0.jar";
+            "hash" = "sha512-HgFBc9wUrvEYwF4HvvlcXD3Hvfa/biPthTUTJhV8HQAMZX8nxykHiJkwgxz1b+8cSiZmsR2mpGqNsXFMIRW3oA==";
+        };
     in {
         "Q5zlZ5DN" = _Q5zlZ5DN;
         "BCyXjAuy" = _BCyXjAuy;
@@ -182,6 +187,7 @@ let
         "aIpH32XM" = _aIpH32XM;
         "fk8x1chv" = _fk8x1chv;
         "jUGYGgwU" = _jUGYGgwU;
+        "rMHun2AL" = _rMHun2AL;
         "fabric-1.16.2" = _Q5zlZ5DN;
         "fabric-1.16.3" = _Q5zlZ5DN;
         "fabric-1.16.4" = _BCyXjAuy;
@@ -219,6 +225,7 @@ let
         "fabric-26.1.1" = _fk8x1chv;
         "fabric-26.1.2" = _fk8x1chv;
         "fabric-26.2" = _jUGYGgwU;
+        "fabric-26.3" = _rMHun2AL;
         "pkg-v1" = _Q5zlZ5DN;
         "pkg-2.0" = _BCyXjAuy;
         "pkg-2.1" = _xeXOrPU3;
@@ -249,7 +256,8 @@ let
         "pkg-2.5.19" = _aIpH32XM;
         "pkg-26.1.0" = _fk8x1chv;
         "pkg-26.2.0" = _jUGYGgwU;
-        "default" = _jUGYGgwU;
+        "pkg-26.3.0" = _rMHun2AL;
+        "default" = _rMHun2AL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modsmod";

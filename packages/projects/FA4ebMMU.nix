@@ -91,6 +91,11 @@ let
             "file" = "qrafty's-capitalized-font-4.0.zip";
             "hash" = "sha512-fHI6qYCTgKuB8oejw+3EOY/+FDdmDe6kahuHVemGf8Iju3eAnXDVMg5BaQL/MH/0vWg6CF8LJS37I62Fq0SgNg==";
         };
+        _OfUda66d = {
+            "id" = "OfUda66d";
+            "file" = "qrafty's-capitalized-font-4.1.zip";
+            "hash" = "sha512-Deoq2rHu05ss/NM+O1GFtZzLQldYOvmXOkKhpYZuIl6iKMQw10kVTouq+cvd2OuqRXFjAMWRZ4qyYPmbnKqkQw==";
+        };
     in {
         "jYd5m3N6" = _jYd5m3N6;
         "T4V0ms8U" = _T4V0ms8U;
@@ -110,6 +115,7 @@ let
         "miaGuOqL" = _miaGuOqL;
         "bjDY7iSr" = _bjDY7iSr;
         "BoIRkKgN" = _BoIRkKgN;
+        "OfUda66d" = _OfUda66d;
         "minecraft-1.19.3" = _jYd5m3N6;
         "minecraft-1.20" = _vHqyajR1;
         "minecraft-1.20.1" = _vHqyajR1;
@@ -149,8 +155,8 @@ let
         "minecraft-1.8.7" = _vBR7fQqJ;
         "minecraft-1.8.8" = _vBR7fQqJ;
         "minecraft-1.8.9" = _vBR7fQqJ;
-        "minecraft-1.21.9" = _BoIRkKgN;
-        "minecraft-1.21.10" = _BoIRkKgN;
+        "minecraft-1.21.9" = _OfUda66d;
+        "minecraft-1.21.10" = _OfUda66d;
         "minecraft-1.21.11-pre1" = _eJ0ho2WV;
         "minecraft-1.21.11-pre2" = _eJ0ho2WV;
         "minecraft-1.21.11-pre3" = _eJ0ho2WV;
@@ -159,11 +165,13 @@ let
         "minecraft-1.21.11-rc1" = _eJ0ho2WV;
         "minecraft-1.21.11-rc2" = _eJ0ho2WV;
         "minecraft-1.21.11-rc3" = _eJ0ho2WV;
-        "minecraft-1.21.11" = _BoIRkKgN;
-        "minecraft-26.1" = _BoIRkKgN;
-        "minecraft-26.1.1" = _BoIRkKgN;
-        "minecraft-26.1.2" = _BoIRkKgN;
-        "minecraft-26.2" = _BoIRkKgN;
+        "minecraft-1.21.11" = _OfUda66d;
+        "minecraft-26.1" = _OfUda66d;
+        "minecraft-26.1.1" = _OfUda66d;
+        "minecraft-26.1.2" = _OfUda66d;
+        "minecraft-26.2" = _OfUda66d;
+        "minecraft-26.3-rc-3" = _OfUda66d;
+        "minecraft-26.3" = _OfUda66d;
         "pkg-2" = _T4V0ms8U;
         "pkg-1.5" = _ClhcgSWB;
         "pkg-2.2" = _dlWQqLUu;
@@ -181,7 +189,8 @@ let
         "pkg-3.4" = _miaGuOqL;
         "pkg-3.5" = _bjDY7iSr;
         "pkg-4.0" = _BoIRkKgN;
-        "default" = _BoIRkKgN;
+        "pkg-4.1" = _OfUda66d;
+        "default" = _OfUda66d;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "qraftys-capitalized-font";

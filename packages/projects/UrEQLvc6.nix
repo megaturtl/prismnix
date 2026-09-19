@@ -51,6 +51,11 @@ let
             "file" = "flimsytorches-1.19.2-1.1.3.0.jar";
             "hash" = "sha512-umZLcvq3uz+Ffz4GdH4aa+L4U/G2f9KoYFDSdhJlBy8Ydym7/8FkD/90XMxo8UbdB5VeELROK0WkfO6+uLr/wQ==";
         };
+        _ovKaZIxs = {
+            "id" = "ovKaZIxs";
+            "file" = "flimsytorches-1.21.1-1.1.3.1.jar";
+            "hash" = "sha512-XbDF/JHS2vBLd5MFiCBAUxbGo4t9anJIn5OHcs597fu3QxQ0v98benR1KRCqt8MwQVhLzkIDFkVQO2DNNoZUOw==";
+        };
     in {
         "YToK0Ksa" = _YToK0Ksa;
         "i0SqyMB6" = _i0SqyMB6;
@@ -62,11 +67,12 @@ let
         "nrc4W0mG" = _nrc4W0mG;
         "7CFGI2K8" = _7CFGI2K8;
         "ScjMPwrk" = _ScjMPwrk;
+        "ovKaZIxs" = _ovKaZIxs;
         "forge-1.16.4" = _YToK0Ksa;
         "forge-1.16.5" = _YToK0Ksa;
         "forge-1.20.1" = _nrc4W0mG;
         "forge-1.19.2" = _ScjMPwrk;
-        "neoforge-1.21.1" = _7CFGI2K8;
+        "neoforge-1.21.1" = _ovKaZIxs;
         "pkg-1.16.4-1.0.0" = _YToK0Ksa;
         "pkg-1.20.1-1.0.0.0" = _i0SqyMB6;
         "pkg-1.20.1-1.0.1.1" = _VkZyOY2v;
@@ -77,7 +83,8 @@ let
         "pkg-1.20.1-1.1.3.0" = _nrc4W0mG;
         "pkg-1.21.1-1.1.3.0" = _7CFGI2K8;
         "pkg-1.19.2-1.1.3.0" = _ScjMPwrk;
-        "default" = _ScjMPwrk;
+        "pkg-1.21.1-1.1.3.1" = _ovKaZIxs;
+        "default" = _ovKaZIxs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flimsy-torches";

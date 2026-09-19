@@ -626,6 +626,11 @@ let
             "file" = "limboapi-1.1.27-SNAPSHOT.jar";
             "hash" = "sha512-oORqtpgyOtKq+fbf/EtP/2+9fiKlB6lC3bUhiuJNVR58dGzYJjWln5c2y3cxnxl588MvKO/wqKjAIFMvr9A9FQ==";
         };
+        _zOTyppCs = {
+            "id" = "zOTyppCs";
+            "file" = "limboapi-1.1.27-SNAPSHOT.jar";
+            "hash" = "sha512-t4rhqbh3FrrOfMrcXr5VX3qLfvGP7W9UnPrDofeE5r/hdgY3KD4PSmgI39BIjdaDEfwmcrcDk2dmjDIXqS8DjQ==";
+        };
     in {
         "kAXjvSyA" = _kAXjvSyA;
         "jvOIhgiX" = _jvOIhgiX;
@@ -752,8 +757,9 @@ let
         "pYywhF4k" = _pYywhF4k;
         "auc6ow4q" = _auc6ow4q;
         "aVJOZwdS" = _aVJOZwdS;
+        "zOTyppCs" = _zOTyppCs;
         "velocity-1.19.3" = _yRzHH5NO;
-        "velocity-1.7.2" = _aVJOZwdS;
+        "velocity-1.7.2" = _zOTyppCs;
         "pkg-1.0.7" = _kAXjvSyA;
         "pkg-1.0.8" = _jvOIhgiX;
         "pkg-1.0.9" = _pwxfdOes;
@@ -875,7 +881,8 @@ let
         "pkg-920db90" = _pYywhF4k;
         "pkg-839773c" = _auc6ow4q;
         "pkg-013034d" = _aVJOZwdS;
-        "default" = _aVJOZwdS;
+        "pkg-bfef579" = _zOTyppCs;
+        "default" = _zOTyppCs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "limboapi";

@@ -416,6 +416,11 @@ let
             "file" = "CrystalCarpetAddition-v1.14.0+mc26.2.jar";
             "hash" = "sha512-Jeje3Pcxi+MMa/2f+V9W8FZ7Q1FfoI8Dm9aILwg4ywtyH4M40wK0nwA8kdakMJMMIQ4HQSR0tJN9lmnMbfHb8g==";
         };
+        _JiB8MS3Y = {
+            "id" = "JiB8MS3Y";
+            "file" = "CrystalCarpetAddition-v1.15.0+mc26.3.jar";
+            "hash" = "sha512-ib2uKaUerFyxrEUgyaGzqB1N3Sbtqj7LenYcHUBbUPK2DO3vUtCv177nXiO3Lt98gvldAsUdsVQgfK/5BWTKkQ==";
+        };
     in {
         "1Ag6SsYC" = _1Ag6SsYC;
         "nTLY67zB" = _nTLY67zB;
@@ -500,6 +505,7 @@ let
         "RbmlgUVp" = _RbmlgUVp;
         "O5IBQnuM" = _O5IBQnuM;
         "JUaHcQZc" = _JUaHcQZc;
+        "JiB8MS3Y" = _JiB8MS3Y;
         "fabric-1.19.4" = _cnklNfwm;
         "fabric-1.20.1" = _BOTA6ONZ;
         "fabric-1.20.2" = _nTLY67zB;
@@ -523,6 +529,7 @@ let
         "fabric-26.1.1" = _O5IBQnuM;
         "fabric-26.1.2" = _O5IBQnuM;
         "fabric-26.2" = _JUaHcQZc;
+        "fabric-26.3" = _JiB8MS3Y;
         "pkg-0.1.1" = _1Ag6SsYC;
         "pkg-0.2.1" = _nTLY67zB;
         "pkg-1.0.1" = _yljuEgqY;
@@ -604,7 +611,8 @@ let
         "pkg-1.13.0+mc26.1.1" = _RbmlgUVp;
         "pkg-1.14.0+mc26.1.2" = _O5IBQnuM;
         "pkg-1.14.0+mc26.2" = _JUaHcQZc;
-        "default" = _JUaHcQZc;
+        "pkg-1.15.0+mc26.3" = _JiB8MS3Y;
+        "default" = _JiB8MS3Y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crystalcarpetaddition";

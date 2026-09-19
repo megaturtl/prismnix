@@ -281,6 +281,16 @@ let
             "file" = "cloche-26.1.2-2.4.5.jar";
             "hash" = "sha512-Bq5S6CRoeqypsfuSO300skTISesvWLcYFCugxmxtTozqU5lWbVpnzh6ReHGlnC8mj0L0+QFsytbqWzzWZZD+XA==";
         };
+        _t3BEXXZQ = {
+            "id" = "t3BEXXZQ";
+            "file" = "cloche-26.1.2-2.4.6.jar";
+            "hash" = "sha512-yL0TijlZsX3H5ozk+UnEYE8y44o6oUI8oDrxgegcpbAmTp0DKxs4Hy5mqJmfSD48SFIMQWQt2HfYKFxTMs2U/w==";
+        };
+        _zTFISeH6 = {
+            "id" = "zTFISeH6";
+            "file" = "cloche-26.1.2-2.4.7.jar";
+            "hash" = "sha512-II/PjXotfZRt2FmtOxWMLvcao/BcaZ1QbKU/vWTVLzoPX2oSJzRMBd9GWjkErA1QJArF/1RzANnbQ7K8kAeRUA==";
+        };
     in {
         "1cmhogTB" = _1cmhogTB;
         "2cDMXHc2" = _2cDMXHc2;
@@ -338,6 +348,8 @@ let
         "a6NZiheA" = _a6NZiheA;
         "74KV6kpf" = _74KV6kpf;
         "ki7IOPuH" = _ki7IOPuH;
+        "t3BEXXZQ" = _t3BEXXZQ;
+        "zTFISeH6" = _zTFISeH6;
         "neoforge-1.21" = _VbJLdv0U;
         "neoforge-1.21.1" = _VbJLdv0U;
         "neoforge-1.21.6" = _DKIm3MTj;
@@ -345,7 +357,7 @@ let
         "neoforge-1.21.11" = _bauUY07D;
         "neoforge-26.1" = _biVI2H6h;
         "neoforge-26.1.1" = _biVI2H6h;
-        "neoforge-26.1.2" = _ki7IOPuH;
+        "neoforge-26.1.2" = _zTFISeH6;
         "pkg-1.0.0" = _1cmhogTB;
         "pkg-1.21.1-1.0.0" = _hv6thdoE;
         "pkg-1.21.1-1.0.2" = _iqlJMj72;
@@ -389,7 +401,9 @@ let
         "pkg-26.1.2-2.4.1" = _Qm8iMFMn;
         "pkg-26.1.2-2.4.3" = _74KV6kpf;
         "pkg-26.1.2-2.4.5" = _ki7IOPuH;
-        "default" = _ki7IOPuH;
+        "pkg-26.1.2-2.4.6" = _t3BEXXZQ;
+        "pkg-26.1.2-2.4.7" = _zTFISeH6;
+        "default" = _zTFISeH6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bbl-cloche";

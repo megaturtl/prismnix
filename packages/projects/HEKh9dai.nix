@@ -91,6 +91,16 @@ let
             "file" = "biome-strongholds-1.4.1.jar";
             "hash" = "sha512-T3lxp2br3PWHYoQb9gLXmo9Rt47fCj+H+/lpEYFmNIuwIVZXmDPVD7iTTtrNsWbOyyW/T7BLJZnG/pRwqdcelQ==";
         };
+        _s7eVkdQk = {
+            "id" = "s7eVkdQk";
+            "file" = "biome-strongholds-v1.5-by-kanokarob.zip";
+            "hash" = "sha512-KPFExOGJnPtEcVWMDRKzIUr/OVObHsU3cVA6B7K+gNZdKbP/Q/0iE2sEpB7VZzkgYvSi48JEAWFO6O2rh1tfUw==";
+        };
+        _XKRr7P4R = {
+            "id" = "XKRr7P4R";
+            "file" = "biome-strongholds-1.5.jar";
+            "hash" = "sha512-aKF0D/B8mEwa8XQLy7dse2wDWVVgJdtdJaX77QaTQA6+I3zYd+QhChawUuLQaM7BN4n4yj4gsgba99eMBFFTtw==";
+        };
     in {
         "GNrRfjD0" = _GNrRfjD0;
         "i0Sic7Se" = _i0Sic7Se;
@@ -110,6 +120,8 @@ let
         "Eq5cRA9i" = _Eq5cRA9i;
         "hVPT0jzW" = _hVPT0jzW;
         "Vr0xfxTC" = _Vr0xfxTC;
+        "s7eVkdQk" = _s7eVkdQk;
+        "XKRr7P4R" = _XKRr7P4R;
         "datapack-1.21.5" = _BPCNHRIU;
         "datapack-1.21.6" = _26upOc9f;
         "datapack-1.21.7" = _26upOc9f;
@@ -120,6 +132,7 @@ let
         "datapack-26.1" = _Ex5MfdY2;
         "datapack-26.1.1" = _Ex5MfdY2;
         "datapack-26.2" = _hVPT0jzW;
+        "datapack-26.3" = _s7eVkdQk;
         "fabric-1.21.5" = _7fGOc7oC;
         "fabric-1.21.6" = _hhVxzMS9;
         "fabric-1.21.7" = _hhVxzMS9;
@@ -130,6 +143,7 @@ let
         "fabric-26.1" = _Sw9gT7ml;
         "fabric-26.1.1" = _Sw9gT7ml;
         "fabric-26.2" = _Vr0xfxTC;
+        "fabric-26.3" = _XKRr7P4R;
         "forge-1.21.5" = _7fGOc7oC;
         "forge-1.21.6" = _hhVxzMS9;
         "forge-1.21.7" = _hhVxzMS9;
@@ -140,6 +154,7 @@ let
         "forge-26.1" = _Sw9gT7ml;
         "forge-26.1.1" = _Sw9gT7ml;
         "forge-26.2" = _Vr0xfxTC;
+        "forge-26.3" = _XKRr7P4R;
         "neoforge-1.21.5" = _7fGOc7oC;
         "neoforge-1.21.6" = _hhVxzMS9;
         "neoforge-1.21.7" = _hhVxzMS9;
@@ -150,6 +165,7 @@ let
         "neoforge-26.1" = _Sw9gT7ml;
         "neoforge-26.1.1" = _Sw9gT7ml;
         "neoforge-26.2" = _Vr0xfxTC;
+        "neoforge-26.3" = _XKRr7P4R;
         "quilt-1.21.5" = _7fGOc7oC;
         "quilt-1.21.6" = _hhVxzMS9;
         "quilt-1.21.7" = _hhVxzMS9;
@@ -160,6 +176,7 @@ let
         "quilt-26.1" = _Sw9gT7ml;
         "quilt-26.1.1" = _Sw9gT7ml;
         "quilt-26.2" = _Vr0xfxTC;
+        "quilt-26.3" = _XKRr7P4R;
         "pkg-1.0" = _GNrRfjD0;
         "pkg-1.0+mod" = _i0Sic7Se;
         "pkg-1.0.1" = _BPCNHRIU;
@@ -178,7 +195,9 @@ let
         "pkg-1.4+mod" = _Eq5cRA9i;
         "pkg-1.4.1" = _hVPT0jzW;
         "pkg-1.4.1+mod" = _Vr0xfxTC;
-        "default" = _Vr0xfxTC;
+        "pkg-1.5" = _s7eVkdQk;
+        "pkg-1.5+mod" = _XKRr7P4R;
+        "default" = _XKRr7P4R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "biome-strongholds";

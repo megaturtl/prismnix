@@ -131,6 +131,16 @@ let
             "file" = "trydeas_meleez-1.4.2-neoforge-1.21.1.jar";
             "hash" = "sha512-UPFFrzPxbtkLM2fXXX0tjMlBTyRKAGu8qfh4PEdB9g5qRuDSeV+vnk4a8zuvfaL2LgpxHZ+fdAW6CzmYP8x43g==";
         };
+        _JryEprAb = {
+            "id" = "JryEprAb";
+            "file" = "trydeas_meleez-1.4.7-forge-1.20.1.jar";
+            "hash" = "sha512-xJa12G1p5IGAzQCOP+FJhWIFLm2FOIXGsp17nf/9ZQJgER+O0TvJ5cRpIYfwDr0jXt7twss/Faj94DMuaGZeUw==";
+        };
+        _vSThSEaW = {
+            "id" = "vSThSEaW";
+            "file" = "trydeas_meleez-1.4.3-neoforge-1.21.1.jar";
+            "hash" = "sha512-9HyUKsKr65cveMEsP1PmXEiXbQjp5vRUQFUTouZVx0jjXnGE4I4zPrlBXhc6+a0KldCBXZZkf3qiCgwVpLdbEw==";
+        };
     in {
         "DHDEPtE9" = _DHDEPtE9;
         "nEKLqghK" = _nEKLqghK;
@@ -158,9 +168,11 @@ let
         "pcr1pOEe" = _pcr1pOEe;
         "ycOD2hPT" = _ycOD2hPT;
         "9Xxcu4YS" = _9Xxcu4YS;
+        "JryEprAb" = _JryEprAb;
+        "vSThSEaW" = _vSThSEaW;
         "forge-1.19.2" = _hSOchMT9;
-        "forge-1.20.1" = _ycOD2hPT;
-        "neoforge-1.21.1" = _9Xxcu4YS;
+        "forge-1.20.1" = _JryEprAb;
+        "neoforge-1.21.1" = _vSThSEaW;
         "pkg-1.0.0" = _1HAyW4lq;
         "pkg-1.1.0" = _BvwCxxgM;
         "pkg-1.1.1" = _9LwSR5qW;
@@ -177,11 +189,12 @@ let
         "pkg-1.4.1" = _pcr1pOEe;
         "pkg-1.4.0-b2" = _U62FJNI7;
         "pkg-1.4.2" = _9Xxcu4YS;
-        "pkg-1.4.3" = _qOCq5i3b;
+        "pkg-1.4.3" = _vSThSEaW;
         "pkg-1.4.4" = _7wj5Cibn;
         "pkg-1.4.5" = _Vgo7xOkD;
         "pkg-1.4.6" = _ycOD2hPT;
-        "default" = _9Xxcu4YS;
+        "pkg-1.4.7" = _JryEprAb;
+        "default" = _vSThSEaW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trydeas-meleez";

@@ -41,6 +41,11 @@ let
             "file" = "legendaryblockentities-0.11.0.jar";
             "hash" = "sha512-lhM/7NKG9e06FFwB/XigXOnGwahNxB1ZRY7uCxLDP/C5gHR5bmDd5kJ53YcmxnRk3ay1RQPiqwuXM1kaXIXjlw==";
         };
+        _pFrJBzTn = {
+            "id" = "pFrJBzTn";
+            "file" = "legendaryblockentities-0.12.0.jar";
+            "hash" = "sha512-6IGqj2wrCtZ/WyJF3vR7vgVYPbtpZ+isZB6IJUTYrHikc3ubqZIqroPiCp6FxaC9ub9AtmOppCfHE5s78Xjlow==";
+        };
     in {
         "XulVHNwe" = _XulVHNwe;
         "LAahjJr6" = _LAahjJr6;
@@ -50,7 +55,8 @@ let
         "bNzCuifY" = _bNzCuifY;
         "v5NsBswq" = _v5NsBswq;
         "plTmjNoO" = _plTmjNoO;
-        "forge-1.20.1" = _plTmjNoO;
+        "pFrJBzTn" = _pFrJBzTn;
+        "forge-1.20.1" = _pFrJBzTn;
         "pkg-0.3.0" = _XulVHNwe;
         "pkg-0.4.0" = _LAahjJr6;
         "pkg-0.6.0" = _21z48y45;
@@ -59,7 +65,8 @@ let
         "pkg-0.9.0" = _bNzCuifY;
         "pkg-0.10.0" = _v5NsBswq;
         "pkg-0.11.0" = _plTmjNoO;
-        "default" = _plTmjNoO;
+        "pkg-0.12.0" = _pFrJBzTn;
+        "default" = _pFrJBzTn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legendary-block-entities";

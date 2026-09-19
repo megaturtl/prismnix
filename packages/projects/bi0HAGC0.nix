@@ -66,6 +66,16 @@ let
             "file" = "better_nether_portals-neoforge-26.1.2-26.1.2-1.0.0.jar";
             "hash" = "sha512-Nfjt1Dv998ZNe/2xrmtBq4Xw+OvWevqEidA+HmDfADZsmQDN+BqsC5/zrmt8A1Cf2m7oIkbdzuOXq0CoE16GrA==";
         };
+        _cXzn4CRH = {
+            "id" = "cXzn4CRH";
+            "file" = "better_nether_portals-fabric-1.20.1-1.0.0.jar";
+            "hash" = "sha512-6MwwPAzheHtirgEeBL6dXimZZAauhruDbN6QgGpvRB8SqEUIJ3pNf/KBgc6oNU3fFghEMn4Yn1EP4tertn7sXQ==";
+        };
+        _98zI9s3n = {
+            "id" = "98zI9s3n";
+            "file" = "better_nether_portals-forge-1.20.1-1.0.0.jar";
+            "hash" = "sha512-Jp72YeBjb0leUolWx1HXv8P3t+yXzJA+X9A+Uh6i+esqt/CsOrMUZ5Ri3+o/jmLFgZyCdOX0zzyVABqrIE1e2Q==";
+        };
     in {
         "gf9tNo40" = _gf9tNo40;
         "NmkAdqRp" = _NmkAdqRp;
@@ -80,22 +90,24 @@ let
         "J0h1RZsU" = _J0h1RZsU;
         "vX1inZro" = _vX1inZro;
         "dZQv41CG" = _dZQv41CG;
-        "forge-1.20.1" = _gf9tNo40;
-        "forge-1.20.2" = _gf9tNo40;
-        "forge-1.20.3" = _gf9tNo40;
-        "forge-1.20.4" = _gf9tNo40;
-        "forge-1.20.5" = _gf9tNo40;
-        "forge-1.20.6" = _gf9tNo40;
+        "cXzn4CRH" = _cXzn4CRH;
+        "98zI9s3n" = _98zI9s3n;
+        "forge-1.20.1" = _98zI9s3n;
+        "forge-1.20.2" = _98zI9s3n;
+        "forge-1.20.3" = _98zI9s3n;
+        "forge-1.20.4" = _98zI9s3n;
+        "forge-1.20.5" = _98zI9s3n;
+        "forge-1.20.6" = _98zI9s3n;
         "forge-26.1" = _vX1inZro;
         "forge-26.1.1" = _vX1inZro;
         "forge-26.1.2" = _vX1inZro;
         "forge-26.2" = _vX1inZro;
-        "neoforge-1.20.1" = _gf9tNo40;
-        "neoforge-1.20.2" = _gf9tNo40;
-        "neoforge-1.20.3" = _gf9tNo40;
-        "neoforge-1.20.4" = _gf9tNo40;
-        "neoforge-1.20.5" = _gf9tNo40;
-        "neoforge-1.20.6" = _gf9tNo40;
+        "neoforge-1.20.1" = _98zI9s3n;
+        "neoforge-1.20.2" = _98zI9s3n;
+        "neoforge-1.20.3" = _98zI9s3n;
+        "neoforge-1.20.4" = _98zI9s3n;
+        "neoforge-1.20.5" = _98zI9s3n;
+        "neoforge-1.20.6" = _98zI9s3n;
         "neoforge-26.1" = _dZQv41CG;
         "neoforge-26.1.1" = _dZQv41CG;
         "neoforge-26.1.2" = _dZQv41CG;
@@ -104,12 +116,12 @@ let
         "neoforge-1.21.9" = _yPH2azob;
         "neoforge-1.21.10" = _yPH2azob;
         "neoforge-1.21.11" = _6NaPQpYL;
-        "fabric-1.20.1" = _NmkAdqRp;
-        "fabric-1.20.2" = _NmkAdqRp;
-        "fabric-1.20.3" = _NmkAdqRp;
-        "fabric-1.20.4" = _NmkAdqRp;
-        "fabric-1.20.5" = _NmkAdqRp;
-        "fabric-1.20.6" = _NmkAdqRp;
+        "fabric-1.20.1" = _cXzn4CRH;
+        "fabric-1.20.2" = _cXzn4CRH;
+        "fabric-1.20.3" = _cXzn4CRH;
+        "fabric-1.20.4" = _cXzn4CRH;
+        "fabric-1.20.5" = _cXzn4CRH;
+        "fabric-1.20.6" = _cXzn4CRH;
         "fabric-26.1" = _J0h1RZsU;
         "fabric-26.1.1" = _J0h1RZsU;
         "fabric-26.1.2" = _J0h1RZsU;
@@ -122,8 +134,8 @@ let
         "fabric-1.21.10" = _hCrhpKht;
         "fabric-1.21.11" = _hCrhpKht;
         "pkg-1.0.0" = _6NaPQpYL;
-        "pkg-1.0.1" = _dZQv41CG;
-        "default" = _dZQv41CG;
+        "pkg-1.0.1" = _98zI9s3n;
+        "default" = _98zI9s3n;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betternetherportals";

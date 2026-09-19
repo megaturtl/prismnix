@@ -21,17 +21,25 @@ let
             "file" = "SmoothBeta-1.1.7.jar";
             "hash" = "sha512-FXdLbE0KK8Ttunjf/p3qZhVCgvWimWGxAqu6n+x1+Thei848tJvMozSeHYJcboIOW4Plpdpv8FEor6Z7nJtZmA==";
         };
+        _BYDgQlSb = {
+            "id" = "BYDgQlSb";
+            "file" = "SmoothBeta-1.1.8.jar";
+            "hash" = "sha512-Q+hZi3i1Pp1oYLel4Mv0y6sZZMrBGwkoyscWyLB+XFdmeT3kb/vI//2cUJVKla5uu9etIWjvauKo8wUZljkCJw==";
+        };
     in {
         "iwxMGFO1" = _iwxMGFO1;
         "6OmLHirm" = _6OmLHirm;
         "gAmIIMqV" = _gAmIIMqV;
         "mFCbnPH6" = _mFCbnPH6;
-        "fabric-b1.7.3" = _mFCbnPH6;
+        "BYDgQlSb" = _BYDgQlSb;
+        "fabric-b1.7.3" = _BYDgQlSb;
+        "babric-b1.7.3" = _BYDgQlSb;
         "pkg-1.1.4" = _iwxMGFO1;
         "pkg-1.1.5" = _6OmLHirm;
         "pkg-1.1.6" = _gAmIIMqV;
         "pkg-1.1.7" = _mFCbnPH6;
-        "default" = _mFCbnPH6;
+        "pkg-1.1.8" = _BYDgQlSb;
+        "default" = _BYDgQlSb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smoothbeta";

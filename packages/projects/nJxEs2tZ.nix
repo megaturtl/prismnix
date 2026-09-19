@@ -276,6 +276,11 @@ let
             "file" = "timeless-26.2-1.3.8.jar";
             "hash" = "sha512-OAl56Uv0957hctQ30hFCyTyjSqADxhPlGJyTMPBeftLRTAnRh8b8hGx5bFt3bbCXFzJjkR9T8TVerK6B1eJK6w==";
         };
+        _KqHwL0E5 = {
+            "id" = "KqHwL0E5";
+            "file" = "timeless-26.3-1.4.0.jar";
+            "hash" = "sha512-xE5KGZsNtjPecv1V7ka4BEhsqXe+x/a6uPotrNetnPiwXLy4mnomNQ8xYaSPsTGuMwBf9+WSqPvxcIrIV0ivbw==";
+        };
     in {
         "UQKShjkG" = _UQKShjkG;
         "uF7jBV9k" = _uF7jBV9k;
@@ -332,6 +337,7 @@ let
         "TKPgMSDq" = _TKPgMSDq;
         "WJpuF3zC" = _WJpuF3zC;
         "8vUc4ai6" = _8vUc4ai6;
+        "KqHwL0E5" = _KqHwL0E5;
         "fabric-1.19.4" = _WSBsDuTj;
         "fabric-1.20" = _V6MwcZpE;
         "fabric-1.20.1" = _V6MwcZpE;
@@ -356,6 +362,7 @@ let
         "fabric-26.1.1" = _WJpuF3zC;
         "fabric-26.1.2" = _WJpuF3zC;
         "fabric-26.2" = _8vUc4ai6;
+        "fabric-26.3" = _KqHwL0E5;
         "pkg-1.0.0" = _uF7jBV9k;
         "pkg-1.0.1" = _qIydwkdU;
         "pkg-1.19.4-1.1.0" = _mqfuyNWY;
@@ -410,7 +417,8 @@ let
         "pkg-26.1.2-1.3.7" = _TKPgMSDq;
         "pkg-26.1.x-1.3.8" = _WJpuF3zC;
         "pkg-26.2-1.3.8" = _8vUc4ai6;
-        "default" = _8vUc4ai6;
+        "pkg-26.3-1.4.0" = _KqHwL0E5;
+        "default" = _KqHwL0E5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "timeless";

@@ -136,6 +136,26 @@ let
             "file" = "kazeran-eeveelutions-1.4.1.jar";
             "hash" = "sha512-lYX3f5Hm+7uBfjpAtauDUNNwtcceta7wG1oHxzI/+aA2RAGiwtdEdRH9VVOS/laMHWEWFQAOYJDOTRAoQwbTMg==";
         };
+        _JhQfOD1A = {
+            "id" = "JhQfOD1A";
+            "file" = "Kazeran_Eeveelutions_v1.5.zip";
+            "hash" = "sha512-2uOPbAvTjBEvhm7qifb3pB1ZWmPA6Uzfe3pzxChxCeHlGMqJmp8JuRUR5y83wP740zWQuxSL6CoZm+rA6Nv71g==";
+        };
+        _ewH5k6gQ = {
+            "id" = "ewH5k6gQ";
+            "file" = "kazeran-eeveelutions-1.5.jar";
+            "hash" = "sha512-u7oSCxbB4Wgf+qR832fkaxGOHU8wKKfF3sjxdhk8x8FlCWKblslteZ+worLYU2v5+9a1QD+kRMTrAIcf7zMTGg==";
+        };
+        _byN4PjJF = {
+            "id" = "byN4PjJF";
+            "file" = "Kazeran_Eeveelutions_v1.5.1.zip";
+            "hash" = "sha512-iQT/AlQxOf9pHNGinBEauKI7D26vr1w137wjbzH6rYGLPAhcVPBCVwEyxZ3ZBzB/pD9iKuowLQO1oYCIZwcyxw==";
+        };
+        _lpZfpuhD = {
+            "id" = "lpZfpuhD";
+            "file" = "kazeran-eeveelutions-1.5.1.jar";
+            "hash" = "sha512-/Vn59+oluLjsG5bSt5zwG6jZu9B7MlkIdJrYXzAqVvSuX457oAILkcyw4rucYgyLTPEpXopYmDvxr/cca0Bu3A==";
+        };
     in {
         "Oi1pJY4n" = _Oi1pJY4n;
         "fmlhCH6m" = _fmlhCH6m;
@@ -164,10 +184,14 @@ let
         "OaTxyn8v" = _OaTxyn8v;
         "Sb4kHA60" = _Sb4kHA60;
         "jcDfF1fU" = _jcDfF1fU;
-        "datapack-1.21.1" = _Sb4kHA60;
-        "fabric-1.21.1" = _jcDfF1fU;
-        "neoforge-1.21.1" = _jcDfF1fU;
-        "minecraft-1.21.1" = _Sb4kHA60;
+        "JhQfOD1A" = _JhQfOD1A;
+        "ewH5k6gQ" = _ewH5k6gQ;
+        "byN4PjJF" = _byN4PjJF;
+        "lpZfpuhD" = _lpZfpuhD;
+        "datapack-1.21.1" = _byN4PjJF;
+        "fabric-1.21.1" = _lpZfpuhD;
+        "neoforge-1.21.1" = _lpZfpuhD;
+        "minecraft-1.21.1" = _byN4PjJF;
         "pkg-0.1" = _Oi1pJY4n;
         "pkg-0.1.1" = _fmlhCH6m;
         "pkg-0.1.2" = _blqSz67T;
@@ -195,7 +219,11 @@ let
         "pkg-1.4.0+mod" = _OaTxyn8v;
         "pkg-1.4.1" = _Sb4kHA60;
         "pkg-1.4.1+mod" = _jcDfF1fU;
-        "default" = _jcDfF1fU;
+        "pkg-1.5" = _JhQfOD1A;
+        "pkg-1.5+mod" = _ewH5k6gQ;
+        "pkg-1.5.1" = _byN4PjJF;
+        "pkg-1.5.1+mod" = _lpZfpuhD;
+        "default" = _lpZfpuhD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kazeran-eeveelutions";

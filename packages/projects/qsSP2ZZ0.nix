@@ -221,6 +221,11 @@ let
             "file" = "vcinteraction-fabric-1.0.8+26.2.jar";
             "hash" = "sha512-Ty9v4Gddx6lSdd6CUYcODMebJlfkYBADioWq7kAfOWNrVm7UbdCyE61ezkHB5z0zgKyNKTOTwxYqhJ89Y7IS3Q==";
         };
+        _AuH4GjYn = {
+            "id" = "AuH4GjYn";
+            "file" = "vcinteraction-fabric-1.0.8+26.3.jar";
+            "hash" = "sha512-Jy0mxfTGKtpu/G0KVPg7I6K8uw9jQ41t+NwTCkvsFQ9VhexqK7b3xP+ogLjOB2xXsyTirzyimdUM/a1LYuuLww==";
+        };
     in {
         "vuzuiv1A" = _vuzuiv1A;
         "38g9RLnU" = _38g9RLnU;
@@ -266,6 +271,7 @@ let
         "WQ2lo58r" = _WQ2lo58r;
         "iOesV3fA" = _iOesV3fA;
         "luUS5Hod" = _luUS5Hod;
+        "AuH4GjYn" = _AuH4GjYn;
         "fabric-1.19" = _38g9RLnU;
         "fabric-1.19.1" = _63KsLjqx;
         "fabric-1.19.2" = _JU8Kmubk;
@@ -294,6 +300,7 @@ let
         "fabric-26.1.1" = _iOesV3fA;
         "fabric-26.1.2" = _iOesV3fA;
         "fabric-26.2" = _luUS5Hod;
+        "fabric-26.3" = _AuH4GjYn;
         "quilt-1.19.2" = _JU8Kmubk;
         "quilt-1.19.4" = _3amUmqf8;
         "quilt-1.20.1" = _LX0uNyw4;
@@ -317,6 +324,7 @@ let
         "quilt-26.1.1" = _iOesV3fA;
         "quilt-26.1.2" = _iOesV3fA;
         "quilt-26.2" = _luUS5Hod;
+        "quilt-26.3" = _AuH4GjYn;
         "pkg-fabric-1.19-1.0.1" = _vuzuiv1A;
         "pkg-fabric-1.19-1.0.2" = _38g9RLnU;
         "pkg-fabric-1.19.1-1.0.2" = _63KsLjqx;
@@ -361,7 +369,8 @@ let
         "pkg-fabric-1.0.8+26.1.1" = _WQ2lo58r;
         "pkg-fabric-1.0.8+26.1.2" = _iOesV3fA;
         "pkg-fabric-1.0.8+26.2" = _luUS5Hod;
-        "default" = _luUS5Hod;
+        "pkg-fabric-1.0.8+26.3" = _AuH4GjYn;
+        "default" = _AuH4GjYn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "voice-chat-interaction";

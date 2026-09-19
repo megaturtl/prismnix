@@ -41,6 +41,11 @@ let
             "file" = "eli_compound_v.jar";
             "hash" = "sha512-GO3afYFc5voB5fNJMtP7WCOPRikU6JxkL65/KYN5m4AlkBhGVo9Mn/8H+MOgxiorip1MRqET8a5bdtaUObzOpQ==";
         };
+        _s2cWeyd5 = {
+            "id" = "s2cWeyd5";
+            "file" = "eli_compound_v.jar";
+            "hash" = "sha512-G8O7FzHVK0oPhX7JFKmsLOQmEreZ8tSk3Y2BZ7Deq7mtf0xAT3kZy1Y4ih4qvC1wbeOatCsqMe/HqXbLGautpA==";
+        };
     in {
         "Y48punQk" = _Y48punQk;
         "w1hAWbpo" = _w1hAWbpo;
@@ -50,8 +55,9 @@ let
         "rBkKC94f" = _rBkKC94f;
         "Uy69twCD" = _Uy69twCD;
         "jttmQ4Zn" = _jttmQ4Zn;
-        "fabric-1.20.1" = _jttmQ4Zn;
-        "forge-1.20.1" = _jttmQ4Zn;
+        "s2cWeyd5" = _s2cWeyd5;
+        "fabric-1.20.1" = _s2cWeyd5;
+        "forge-1.20.1" = _s2cWeyd5;
         "pkg-1.0" = _Y48punQk;
         "pkg-1.0.1" = _w1hAWbpo;
         "pkg-1.0.2" = _VUETtPB0;
@@ -60,7 +66,8 @@ let
         "pkg-1.0.5" = _rBkKC94f;
         "pkg-1.0.6" = _Uy69twCD;
         "pkg-2.0" = _jttmQ4Zn;
-        "default" = _jttmQ4Zn;
+        "pkg-3.0" = _s2cWeyd5;
+        "default" = _s2cWeyd5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elis-compound-v";

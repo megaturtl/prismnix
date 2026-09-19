@@ -26,28 +26,36 @@ let
             "file" = "happy ghast but its my cat.zip";
             "hash" = "sha512-2CYJjXG6gH3Pqi9BDQUkBOYo1Fs0Uh4csLaZCqW1YbsuTmiKbaVLUsNziHgEo9fT308NbbtBw/vPuyWZbQ3d3Q==";
         };
+        _mpmBN7MT = {
+            "id" = "mpmBN7MT";
+            "file" = "happy ghast but its my cat.zip";
+            "hash" = "sha512-Ib/1NZq4WHzgtm8daka6eWHg9tBkxzaIrtreku95hFxt+r8svNXsyOyCu5zQz/09pkXZl6JO6AyyE87rXxA8Sw==";
+        };
     in {
         "QfNI0NHn" = _QfNI0NHn;
         "hnlUoNyk" = _hnlUoNyk;
         "n34NGfIM" = _n34NGfIM;
         "DY5DvBKX" = _DY5DvBKX;
         "pzlye2Lu" = _pzlye2Lu;
-        "minecraft-1.21.6" = _pzlye2Lu;
-        "minecraft-1.21.7" = _pzlye2Lu;
-        "minecraft-1.21.8" = _pzlye2Lu;
-        "minecraft-1.21.9" = _pzlye2Lu;
-        "minecraft-1.21.10" = _pzlye2Lu;
-        "minecraft-1.21.11" = _pzlye2Lu;
-        "minecraft-26.1" = _pzlye2Lu;
-        "minecraft-26.1.1" = _pzlye2Lu;
-        "minecraft-26.1.2" = _pzlye2Lu;
-        "minecraft-26.2" = _pzlye2Lu;
+        "mpmBN7MT" = _mpmBN7MT;
+        "minecraft-1.21.6" = _mpmBN7MT;
+        "minecraft-1.21.7" = _mpmBN7MT;
+        "minecraft-1.21.8" = _mpmBN7MT;
+        "minecraft-1.21.9" = _mpmBN7MT;
+        "minecraft-1.21.10" = _mpmBN7MT;
+        "minecraft-1.21.11" = _mpmBN7MT;
+        "minecraft-26.1" = _mpmBN7MT;
+        "minecraft-26.1.1" = _mpmBN7MT;
+        "minecraft-26.1.2" = _mpmBN7MT;
+        "minecraft-26.2" = _mpmBN7MT;
+        "minecraft-26.3" = _mpmBN7MT;
         "pkg-1.0" = _QfNI0NHn;
         "pkg-2.0" = _hnlUoNyk;
         "pkg-2.1" = _n34NGfIM;
         "pkg-2.2" = _DY5DvBKX;
         "pkg-2.3" = _pzlye2Lu;
-        "default" = _pzlye2Lu;
+        "pkg-2.4" = _mpmBN7MT;
+        "default" = _mpmBN7MT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "happy-ghast-but-its-my-cat";

@@ -71,6 +71,11 @@ let
             "file" = "enchantment-effects-1.1.0+1.21.11.jar";
             "hash" = "sha512-d+4i1E9RsOznm1l9b1kN/I+dnqNFSGWT4EFjklBxPfd8Atxk46enHXdKse32FDHH6v9NCoHxE8B5eOTy/p8KYg==";
         };
+        _QpyjdEMt = {
+            "id" = "QpyjdEMt";
+            "file" = "enchantment-effects-1.1.0+26.3.jar";
+            "hash" = "sha512-FyNhvUG2GQXiWvJcG2AVGjhGK1WgJeH9Q1zGdHOGH6yzpdl6daJOap/3yxnRNMIasQ1VKJYSQVbGQkWMlUilcg==";
+        };
     in {
         "ieRjHUZK" = _ieRjHUZK;
         "uDkbpHsZ" = _uDkbpHsZ;
@@ -86,11 +91,13 @@ let
         "v1QStXP3" = _v1QStXP3;
         "R12UvzaZ" = _R12UvzaZ;
         "j0INocAh" = _j0INocAh;
+        "QpyjdEMt" = _QpyjdEMt;
         "fabric-26.1" = _R12UvzaZ;
         "fabric-26.1.1" = _R12UvzaZ;
         "fabric-26.1.2" = _R12UvzaZ;
         "fabric-1.21.11" = _j0INocAh;
         "fabric-26.2" = _v1QStXP3;
+        "fabric-26.3" = _QpyjdEMt;
         "pkg-0.1.0+26.1.x" = _ieRjHUZK;
         "pkg-0.1.1+26.1.x" = _uDkbpHsZ;
         "pkg-0.2.0+26.1.x" = _Bddp9kD4;
@@ -105,7 +112,8 @@ let
         "pkg-1.1.0+26.2" = _v1QStXP3;
         "pkg-1.1.0+26.1.x" = _R12UvzaZ;
         "pkg-1.1.0+1.21.11" = _j0INocAh;
-        "default" = _j0INocAh;
+        "pkg-1.1.0+26.3" = _QpyjdEMt;
+        "default" = _QpyjdEMt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sb-enchantment-effects";

@@ -76,6 +76,11 @@ let
             "file" = "Tropicraft-0.13.3.jar";
             "hash" = "sha512-r+BSjkb521LUfPe6rQVneAKk4KrSHOlg0ckF7jPR7Y5bPY+0mLEn0vdVlcAiyDIMW4OMAaIGOi7QAioSo8AoPQ==";
         };
+        _oqx9d1PL = {
+            "id" = "oqx9d1PL";
+            "file" = "Tropicraft-0.13.4.jar";
+            "hash" = "sha512-McOcXWuHm+7x4wKJ8zW5cp0IaoRUX//c3zV2ibDTBJGvaIguvshujBBOlmQ4udgNP5whGPQpWi5WX6cYTFOPFA==";
+        };
     in {
         "FNdAC0q5" = _FNdAC0q5;
         "Lq8qrRNf" = _Lq8qrRNf;
@@ -92,8 +97,9 @@ let
         "gIO6J5Hj" = _gIO6J5Hj;
         "k6vHQwCA" = _k6vHQwCA;
         "sOEEpbJZ" = _sOEEpbJZ;
-        "babric-b1.7.3" = _sOEEpbJZ;
-        "fabric-b1.7.3" = _sOEEpbJZ;
+        "oqx9d1PL" = _oqx9d1PL;
+        "babric-b1.7.3" = _oqx9d1PL;
+        "fabric-b1.7.3" = _oqx9d1PL;
         "pkg-0.9.0" = _FNdAC0q5;
         "pkg-0.10.0" = _Lq8qrRNf;
         "pkg-0.10.1" = _WLjiqTVm;
@@ -109,7 +115,8 @@ let
         "pkg-0.13.1" = _gIO6J5Hj;
         "pkg-0.13.2" = _k6vHQwCA;
         "pkg-0.13.3" = _sOEEpbJZ;
-        "default" = _sOEEpbJZ;
+        "pkg-0.13.4" = _oqx9d1PL;
+        "default" = _oqx9d1PL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tropicraft-stationapi";

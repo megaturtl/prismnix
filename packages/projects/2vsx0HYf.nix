@@ -521,6 +521,26 @@ let
             "file" = "neoforge-excessive_building-1.21.1-4.0.2.jar";
             "hash" = "sha512-AQnkhNZgPhkCIyrSiFYWNUBlpUK3po47R8bodlL2nZgrGl8sq+MP0e5zTdRV5xYt+y8FRy5y07BzREr6febK7Q==";
         };
+        _dsu70MrC = {
+            "id" = "dsu70MrC";
+            "file" = "fabric-excessive_building-1.21.1-4.0.3.jar";
+            "hash" = "sha512-UybFlw0418DkkNUoLDzx0r2FeodgIl7iuT+62W0ng9c1WkG6sAPMbQYZ1qt/3ArDeAq9Tz5tIr37cW+Wa6EisA==";
+        };
+        _s7A9sipv = {
+            "id" = "s7A9sipv";
+            "file" = "neoforge-excessive_building-1.21.1-4.0.3.jar";
+            "hash" = "sha512-aUb2UCYVNzwjwbGXvtM5ms4ke/q6yQjhGw4HqXH7eYJn8VA62LosY3VbYKyLsbc15VByTVbkwdklRwrMraNPBw==";
+        };
+        _StkzMmDv = {
+            "id" = "StkzMmDv";
+            "file" = "fabric-excessive_building-1.21.1-4.0.4.jar";
+            "hash" = "sha512-HOn7u+1wu4blWquKQ8qaP3rz9f3bto0q1ieZm+7YY2FjnD8VZIChP2wPZneDNVG+CFIG6SsJ6VFj54YGWutggA==";
+        };
+        _LWgFaO4K = {
+            "id" = "LWgFaO4K";
+            "file" = "neoforge-excessive_building-1.21.1-4.0.4.jar";
+            "hash" = "sha512-AwBz6WiXN6oO11Johw9UFAbPMunQApIWh2ML0xQVR1+N+Lw74FCJ/3Dl3Qb6xuUJ0tfS517wVIFyx9osVXd+kw==";
+        };
     in {
         "QvcahGnu" = _QvcahGnu;
         "2yzer5ML" = _2yzer5ML;
@@ -626,6 +646,10 @@ let
         "Z6nG4rGU" = _Z6nG4rGU;
         "lDYKCNiP" = _lDYKCNiP;
         "GeGkzRRV" = _GeGkzRRV;
+        "dsu70MrC" = _dsu70MrC;
+        "s7A9sipv" = _s7A9sipv;
+        "StkzMmDv" = _StkzMmDv;
+        "LWgFaO4K" = _LWgFaO4K;
         "forge-1.19.2" = _BJepfy5n;
         "forge-1.19.4" = _M21KnNaA;
         "forge-1.18.2" = _mtJHSk76;
@@ -637,18 +661,18 @@ let
         "fabric-1.20.1" = _8ny9DifY;
         "fabric-1.20.2" = _PFd1KDh0;
         "fabric-1.21" = _rLXfiyI1;
-        "fabric-1.21.1" = _lDYKCNiP;
+        "fabric-1.21.1" = _StkzMmDv;
         "fabric-1.20" = _8ny9DifY;
         "quilt-1.20.2" = _PFd1KDh0;
         "quilt-1.20.1" = _8ny9DifY;
         "quilt-1.21" = _rLXfiyI1;
-        "quilt-1.21.1" = _lDYKCNiP;
+        "quilt-1.21.1" = _StkzMmDv;
         "quilt-1.20" = _8ny9DifY;
         "neoforge-1.20.2" = _wUY80ApC;
         "neoforge-1.20.1" = _sYPHecx6;
         "neoforge-1.18.2" = _mtJHSk76;
         "neoforge-1.20" = _JTHHm5LS;
-        "neoforge-1.21.1" = _GeGkzRRV;
+        "neoforge-1.21.1" = _LWgFaO4K;
         "pkg-1.19.2-0.1" = _QvcahGnu;
         "pkg-1.19.4-0.1.1" = _2yzer5ML;
         "pkg-1.19.4-0.1.2" = _3GD7ozjG;
@@ -739,7 +763,9 @@ let
         "pkg-4.0.0" = _i8CXqgFa;
         "pkg-4.0.1" = _Z6nG4rGU;
         "pkg-4.0.2" = _GeGkzRRV;
-        "default" = _GeGkzRRV;
+        "pkg-4.0.3" = _s7A9sipv;
+        "pkg-4.0.4" = _LWgFaO4K;
+        "default" = _LWgFaO4K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "excessive-building";

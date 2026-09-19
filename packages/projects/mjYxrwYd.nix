@@ -301,6 +301,16 @@ let
             "file" = "passivemobs-neoforge-26.2-1.0.0.jar";
             "hash" = "sha512-5RWhCe2AHu+k1q+x93RtiuINq1NNO+xFRUAJ20wFUMYRkA1yi+iwv/kGQrf3+o9zyRXz9pHfySD9g8kWaU9RoA==";
         };
+        _TVAaNjHu = {
+            "id" = "TVAaNjHu";
+            "file" = "passivemobs-fabric-26.3-1.0.0.jar";
+            "hash" = "sha512-YiEE5hz0AhBxlB5E58YGkLKqs16e83+eRtjVxV2owaTrTUCH4uRKWsENGe/YVLfsVxt8L6EvVcBwKsxpWFNJVw==";
+        };
+        _sCtgSSyr = {
+            "id" = "sCtgSSyr";
+            "file" = "passivemobs-neoforge-26.3-1.0.0.jar";
+            "hash" = "sha512-m+yA/T0ggf5SVedPWBOwOQfphUiuTiLsZTtYII8Ifs5xBw00YtBax7Zc52HYt21m5oW4Mra96JNp+UfOV6GNSw==";
+        };
     in {
         "8eBd2UN3" = _8eBd2UN3;
         "Px1gqlZi" = _Px1gqlZi;
@@ -362,6 +372,8 @@ let
         "kKo2WiCC" = _kKo2WiCC;
         "5k6B89Df" = _5k6B89Df;
         "YXy2zlAM" = _YXy2zlAM;
+        "TVAaNjHu" = _TVAaNjHu;
+        "sCtgSSyr" = _sCtgSSyr;
         "fabric-1.19.3" = _3Wgk1QcG;
         "fabric-1.19" = _3Wgk1QcG;
         "fabric-1.19.1" = _3Wgk1QcG;
@@ -389,6 +401,7 @@ let
         "fabric-26.1" = _ignIpl1H;
         "fabric-26.1.2" = _GIEcCxL0;
         "fabric-26.2" = _kKo2WiCC;
+        "fabric-26.3" = _TVAaNjHu;
         "forge-1.19.3" = _igvO0oWS;
         "forge-1.18.2" = _O7oJWL3M;
         "forge-1.17.1" = _t5p8FUEb;
@@ -433,6 +446,7 @@ let
         "neoforge-26.1" = _jPOMuD6F;
         "neoforge-26.1.2" = _eoBP9q2B;
         "neoforge-26.2" = _YXy2zlAM;
+        "neoforge-26.3" = _sCtgSSyr;
         "pkg-1.19.3-1.3.1" = _Px1gqlZi;
         "pkg-1.18.2-1.2" = _zTdBwuuZ;
         "pkg-1.17.1-1.2" = _t5p8FUEb;
@@ -443,8 +457,8 @@ let
         "pkg-1.3.4" = _lEJyuqvb;
         "pkg-1.3.5" = _oZ2s12ft;
         "pkg-1.3.6" = _PpK8WRP7;
-        "pkg-1.0.0" = _YXy2zlAM;
-        "default" = _YXy2zlAM;
+        "pkg-1.0.0" = _sCtgSSyr;
+        "default" = _sCtgSSyr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "passivemobs";

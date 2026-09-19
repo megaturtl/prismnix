@@ -121,6 +121,11 @@ let
             "file" = "flavor_immersed_daily-2026.8.26.jar";
             "hash" = "sha512-JUIv8nTrlz6BjKDLl/reTbH1CNI8IOrloJY1/PalAbnqS5xd+Qbv5VCVyx8NcZHtjVxNEZg7/9Jk4HAVLdYMMg==";
         };
+        _FyxBCA3a = {
+            "id" = "FyxBCA3a";
+            "file" = "flavor_immersed_daily-2026.9.12.jar";
+            "hash" = "sha512-OeQKDHJezUFohoP1eAevZaFUJC/Q9sYy91uocbJ/cXMHy+BJdpWTGcwm76okbMpFTMG1UgeR7qhRNqEeBWICXg==";
+        };
     in {
         "rAGJbJLU" = _rAGJbJLU;
         "zAVcBhuD" = _zAVcBhuD;
@@ -146,9 +151,10 @@ let
         "r2JFp9ZH" = _r2JFp9ZH;
         "QiqJua52" = _QiqJua52;
         "xyCF29ay" = _xyCF29ay;
+        "FyxBCA3a" = _FyxBCA3a;
         "forge-1.20.1" = _owffr49Z;
         "forge-1.21.1" = _GRR4zzkl;
-        "neoforge-1.21.1" = _xyCF29ay;
+        "neoforge-1.21.1" = _FyxBCA3a;
         "pkg-1.0.7.1" = _rAGJbJLU;
         "pkg-1.1.0" = _7xQCnBge;
         "pkg-1.1.0.1" = _nsh9w6XY;
@@ -165,7 +171,8 @@ let
         "pkg-2026.8.10" = _r2JFp9ZH;
         "pkg-2026.8.16" = _QiqJua52;
         "pkg-2026.8.26" = _xyCF29ay;
-        "default" = _xyCF29ay;
+        "pkg-2026.9.12" = _FyxBCA3a;
+        "default" = _FyxBCA3a;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flavorimmerseddaily";

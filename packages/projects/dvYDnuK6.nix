@@ -16,19 +16,27 @@ let
             "file" = "auto-trade-1.0.0.jar";
             "hash" = "sha512-TOwRBLg5byA0Hs4auXu066B1rWH/jiHEdYDlShmCJE64U9e295CUX5srRxpHmwyEIh1ozn8AfYie/QyZptOQtQ==";
         };
+        _S9Xts87e = {
+            "id" = "S9Xts87e";
+            "file" = "auto-trade-1.0.0+26.3.jar";
+            "hash" = "sha512-agO5/ymcB1nkavpIrYiVv+fMiLujHqbZ+kx+9TtReZUbR2JGjxWM80s78Fc+563ejPvSvwgOK4uYvSBEqI5YGQ==";
+        };
     in {
         "MpaBpDEJ" = _MpaBpDEJ;
         "8mXTt6Uf" = _8mXTt6Uf;
         "JjObs0XM" = _JjObs0XM;
+        "S9Xts87e" = _S9Xts87e;
         "fabric-26.1" = _MpaBpDEJ;
         "fabric-26.1.1" = _MpaBpDEJ;
         "fabric-26.1.2" = _MpaBpDEJ;
         "fabric-26.2" = _8mXTt6Uf;
         "fabric-1.21.11" = _JjObs0XM;
+        "fabric-26.3" = _S9Xts87e;
         "pkg-1.0.0+26.1.2" = _MpaBpDEJ;
         "pkg-1.0.0+26.2" = _8mXTt6Uf;
         "pkg-1.0.0+1.21.11" = _JjObs0XM;
-        "default" = _JjObs0XM;
+        "pkg-1.0.0+26.3" = _S9Xts87e;
+        "default" = _S9Xts87e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "auto-trade";

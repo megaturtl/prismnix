@@ -246,6 +246,16 @@ let
             "file" = "archerythings-neoforge-26.2-26.2.0.5.jar";
             "hash" = "sha512-49/7NeyorDgYKW17QJXoOzSAyn3lXx8sFYe0R9iGWZ5dsFtsbcajC9RSoVXmucXLMyEEtsX+kgSmthY3yWvTVw==";
         };
+        _KRuVcON8 = {
+            "id" = "KRuVcON8";
+            "file" = "archerythings-neoforge-26.3-26.3.0.0.jar";
+            "hash" = "sha512-rwmjNIC/S9qDkfeOx6uAdg7BZXj7JCLqZr+Q+XH4Yp8OgmdO42HYDMYmBA73pR/bj5L6d64bJXIK7ybqYwEF1A==";
+        };
+        _CzEnZYGd = {
+            "id" = "CzEnZYGd";
+            "file" = "archerythings-fabric-26.3-26.3.0.0.jar";
+            "hash" = "sha512-qhf+9JEJrmmGb/RIrEWXu0ZGTCn2tAFxCNHXOjWvFtK81gJv2OphpNVWuLZvACJ0rpHAFKk/WQ9d4VwHeVqnMQ==";
+        };
     in {
         "jkoWL3Fh" = _jkoWL3Fh;
         "Eh49XArf" = _Eh49XArf;
@@ -296,6 +306,8 @@ let
         "eSFdJKlV" = _eSFdJKlV;
         "DWzWC2ct" = _DWzWC2ct;
         "OOezMBv2" = _OOezMBv2;
+        "KRuVcON8" = _KRuVcON8;
+        "CzEnZYGd" = _CzEnZYGd;
         "neoforge-1.21.11" = _sZwGiGtn;
         "neoforge-1.21.10" = _b4DupIH4;
         "neoforge-26.1-snapshot-7" = _D3jCxumB;
@@ -303,6 +315,7 @@ let
         "neoforge-26.1.1" = _xqsJWiq3;
         "neoforge-26.1.2" = _eSFdJKlV;
         "neoforge-26.2" = _OOezMBv2;
+        "neoforge-26.3" = _KRuVcON8;
         "fabric-1.21.11" = _i0dSXUY1;
         "fabric-1.21.10" = _ynTCVwq0;
         "fabric-26.1-snapshot-7" = _sxVqbi2y;
@@ -310,6 +323,7 @@ let
         "fabric-26.1.1" = _OAnsk5Gg;
         "fabric-26.1.2" = _rsri1VYg;
         "fabric-26.2" = _DWzWC2ct;
+        "fabric-26.3" = _CzEnZYGd;
         "pkg-1.0.0+mc1.21.11-neoforge" = _jkoWL3Fh;
         "pkg-1.0.0+mc1.21.11-fabric" = _Eh49XArf;
         "pkg-1.0.0+mc1.21.10-neoforge" = _cIFdawrE;
@@ -347,7 +361,8 @@ let
         "pkg-26.1.2.5" = _BsYWQknX;
         "pkg-26.1.2.6" = _eSFdJKlV;
         "pkg-26.2.0.5" = _OOezMBv2;
-        "default" = _OOezMBv2;
+        "pkg-26.3.0.0" = _CzEnZYGd;
+        "default" = _CzEnZYGd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "archery-things";

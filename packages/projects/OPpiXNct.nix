@@ -366,6 +366,21 @@ let
             "file" = "ninjago-el-unleashed.jar";
             "hash" = "sha512-vNxmAP1fgCjamqjJx8VFNKV8rnTmV2taNC4Eemou73wkzZvYZI0z/ENKkJXiAepNzv+bRgEJyY2GGuKoZdOpMA==";
         };
+        _jqvGIIQI = {
+            "id" = "jqvGIIQI";
+            "file" = "ninjago_hotfix.jar";
+            "hash" = "sha512-yjJAeqxS8hps/SjAOrv5DcPaHfdY3rS8HeqP26iL4zhZL/DBw66U+txLIbTEwvO6KuedPU/zF9a4Jr3JmpBZog==";
+        };
+        _FBaQurWL = {
+            "id" = "FBaQurWL";
+            "file" = "ninjago_fixforafix.jar";
+            "hash" = "sha512-eHubjSb9ry3jpBrqvzuaS9i8wyrZQ2gm0PFhjmzER36KIZn5cSARCiuIoXmvFIY9vy0ZpHbv7Zv5C6V6OnHUzA==";
+        };
+        _HM1jvqFS = {
+            "id" = "HM1jvqFS";
+            "file" = "ninjagoanotherfix.jar";
+            "hash" = "sha512-3sr343tWCy6O6m8urIkj2lHGTWZCOVi+pK+TFymQSQUJh6bUTGuv7vztAR0lNY7xThhRuEHyLGKYvLkFRi6utw==";
+        };
     in {
         "T1SioSO8" = _T1SioSO8;
         "1UaOjujs" = _1UaOjujs;
@@ -440,7 +455,10 @@ let
         "tXYqo7Z1" = _tXYqo7Z1;
         "QtNvU9sK" = _QtNvU9sK;
         "cpoRQDro" = _cpoRQDro;
-        "forge-1.20.1" = _cpoRQDro;
+        "jqvGIIQI" = _jqvGIIQI;
+        "FBaQurWL" = _FBaQurWL;
+        "HM1jvqFS" = _HM1jvqFS;
+        "forge-1.20.1" = _HM1jvqFS;
         "pkg-1" = _T1SioSO8;
         "pkg-2" = _1UaOjujs;
         "pkg-3" = _nkExCMaQ;
@@ -496,7 +514,10 @@ let
         "pkg-1.14.0" = _tXYqo7Z1;
         "pkg-1.14.1" = _QtNvU9sK;
         "pkg-1.15.0" = _cpoRQDro;
-        "default" = _cpoRQDro;
+        "pkg-1.16.0" = _jqvGIIQI;
+        "pkg-1.16.5" = _FBaQurWL;
+        "pkg-1.16.7" = _HM1jvqFS;
+        "default" = _HM1jvqFS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ninjago-palladium-addonpack";

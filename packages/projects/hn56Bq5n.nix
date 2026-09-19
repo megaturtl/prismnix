@@ -366,6 +366,21 @@ let
             "file" = "awesomedungeonocean-forge-1.21.10-3.3.0.jar";
             "hash" = "sha512-oRvhUGxL3ji3LW6mZ8VbicDFMTbH42jKKaAzPNFE4fjGu8SQ0vcyMEkjW9E0RMza/JLQ4d4LeVElKYEam7mfGQ==";
         };
+        _gsrrxqgy = {
+            "id" = "gsrrxqgy";
+            "file" = "awesomedungeonocean-fabric-26.2-4.0.0.jar";
+            "hash" = "sha512-6ZpvCx9+XQGywTUhX5kL8i0YQxN+cuRROhNhV2WoaEO4726W3kI8rigFZ0ylk6THcIpx9yvmvqV1OfPf4RK8cA==";
+        };
+        _sAthWVIg = {
+            "id" = "sAthWVIg";
+            "file" = "awesomedungeonocean-neoforge-26.2-4.0.0.jar";
+            "hash" = "sha512-3xZxkhLP4VSpqmnB+KWs3E8/SI2kcY02dtosrBM671rFF7Uz8N5fIscneKDVHrE9TP02BdLyduChbv7iaRmFSQ==";
+        };
+        _mksAj0w0 = {
+            "id" = "mksAj0w0";
+            "file" = "awesomedungeonocean-forge-26.2-4.0.0.jar";
+            "hash" = "sha512-PLhkjDgKWESF4HP4ASXZwmHm8zxRLfxFnjjPEuMDoWUsicH1uj/K/lY4ZJkGHlHDgaL1R5G+ZCT3e2KZisAo1A==";
+        };
     in {
         "r84Eczji" = _r84Eczji;
         "8Uq9HaEG" = _8Uq9HaEG;
@@ -440,6 +455,9 @@ let
         "BHlvz170" = _BHlvz170;
         "9fMPq3X7" = _9fMPq3X7;
         "Tu39njP5" = _Tu39njP5;
+        "gsrrxqgy" = _gsrrxqgy;
+        "sAthWVIg" = _sAthWVIg;
+        "mksAj0w0" = _mksAj0w0;
         "fabric-1.16.5" = _hjvdq3s2;
         "fabric-1.19.4" = _BWQZYMz2;
         "fabric-1.20.1" = _pfSjCyIj;
@@ -468,6 +486,7 @@ let
         "fabric-1.21.9" = _SQt37Pp9;
         "fabric-1.21.10" = _BHlvz170;
         "fabric-1.21.11" = _9fMPq3X7;
+        "fabric-26.2" = _gsrrxqgy;
         "forge-1.16.5" = _8Uq9HaEG;
         "forge-1.19.4" = _xS5pUUQH;
         "forge-1.20.1" = _FxyoIIaF;
@@ -493,6 +512,7 @@ let
         "forge-1.21.8" = _fKuQTF59;
         "forge-1.21.9" = _3FKn8Bli;
         "forge-1.21.10" = _Tu39njP5;
+        "forge-26.2" = _mksAj0w0;
         "neoforge-1.20.2" = _HwKjNrUL;
         "neoforge-1.20.3" = _eZTL5ScB;
         "neoforge-1.20.4" = _BcwuPhGW;
@@ -508,9 +528,11 @@ let
         "neoforge-1.21.7" = _CQS9cLMN;
         "neoforge-1.21.8" = _LNCJllfn;
         "neoforge-1.21.9" = _Otgqecef;
+        "neoforge-26.2" = _sAthWVIg;
         "pkg-3.2.0" = _dEdOBwRs;
         "pkg-3.3.0" = _Tu39njP5;
-        "default" = _Tu39njP5;
+        "pkg-4.0.0" = _mksAj0w0;
+        "default" = _mksAj0w0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "awesome-dungeon-edition-ocean";

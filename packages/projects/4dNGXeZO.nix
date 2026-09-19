@@ -156,6 +156,51 @@ let
             "file" = "HyMod-2.0.1-26.2+_fabric.jar";
             "hash" = "sha512-8a+HSC056V1w04fWBvKq2Lxy6ivGxFVPjENzV9yt1+HIy6bkcLxT7WsGuamTBe1yOPxt+7CXseSYJH6KMImOTg==";
         };
+        _KZoAVGOR = {
+            "id" = "KZoAVGOR";
+            "file" = "HyMod-2.1.0-1.8.9_forge.jar";
+            "hash" = "sha512-XWJGYGq5y7ie96F+z3xypCuHLwbHrHgYnX46Q08IfeBdTTYZ51Jel/38B2GEbDRdmz4md8hr4OAKuzTCbWjoiQ==";
+        };
+        _OX36LvYb = {
+            "id" = "OX36LvYb";
+            "file" = "HyMod-2.1.0-1.21.11_fabric.jar";
+            "hash" = "sha512-JAqox2W45zBEqhMqQdz4dDDrApEtTg3JM/Q0lgImVwMInGwM3Ff2CQvbJ7SeREnXk8GVSHnFl+is9sck74VAwg==";
+        };
+        _WsHx8CQ6 = {
+            "id" = "WsHx8CQ6";
+            "file" = "HyMod-2.1.0-26.1+_fabric.jar";
+            "hash" = "sha512-izbR755G9CXJXxl/iKsDuBn6or1dxjh6MXTaJHMzHoJwp7iobhdwmKYJ4IwwUsZblXk/mT/Cb1JMe5GRTf8n1Q==";
+        };
+        _w3CsR6DO = {
+            "id" = "w3CsR6DO";
+            "file" = "HyMod-2.1.0-26.2+_fabric.jar";
+            "hash" = "sha512-g24+iwQjg+bD5cutUlUuzZ8tdVZdJiITJaYIjQ+ROebQMFN3gcYc4HxHsfPGQO8zoNdvwts9j2NdZHp/o7OGYA==";
+        };
+        _MNisXEGx = {
+            "id" = "MNisXEGx";
+            "file" = "HyMod-2.2.0-1.8.9_forge.jar";
+            "hash" = "sha512-Hfzm9dTk/IFPsdCAZoKro2Ywb9aTcgeYFynlejm+8o/4T9fpv0PhIhZlDl+6YuDsvKEcbJIyGeHRdG676ajGKw==";
+        };
+        _Vyth571z = {
+            "id" = "Vyth571z";
+            "file" = "HyMod-2.2.0-1.21.11_fabric.jar";
+            "hash" = "sha512-uy2ceIHgtqq+ovzjttQkA3lTDXeDXH/05PHfw6njeK+gxtFOe7KW35ktR9IrXl5M4jkthBB7tyeqLyCAINIDuQ==";
+        };
+        _B9p81LvQ = {
+            "id" = "B9p81LvQ";
+            "file" = "HyMod-2.2.0-26.1+_fabric.jar";
+            "hash" = "sha512-aSN+mGMK1YvSnHx/3Y/05ibLPb86Pm8rM3PYCA0/Ww6XfUYfErgvxmNeiR2og/hM8IHHlLqe09d3izKG0468ew==";
+        };
+        _LmXS5fMl = {
+            "id" = "LmXS5fMl";
+            "file" = "HyMod-2.2.0-26.2+_fabric.jar";
+            "hash" = "sha512-KxzxdE3sROKAZweNYKYynNjh0BmDTmmhg8RTguUk0QcxDBELdHFc4p7CSTqlb1cxDXqOWcYbEzfl65nO5NkTUQ==";
+        };
+        _bKud7bMp = {
+            "id" = "bKud7bMp";
+            "file" = "HyMod-2.2.1-26.3+_fabric.jar";
+            "hash" = "sha512-b/x/7zNTtsibe+OovaHz7c43w7PmlzDgJrqsa6oF9laAHRIzO+y1+6SGonXqqd5XV5pCK2hVt+vsKXYoTOnDlA==";
+        };
     in {
         "XURNFfTd" = _XURNFfTd;
         "69x46XJZ" = _69x46XJZ;
@@ -188,12 +233,22 @@ let
         "CuBKKmEk" = _CuBKKmEk;
         "EXxnlrol" = _EXxnlrol;
         "U9otonXh" = _U9otonXh;
-        "forge-1.8.9" = _ohBCTpIk;
-        "fabric-26.1" = _EXxnlrol;
-        "fabric-26.1.1" = _EXxnlrol;
-        "fabric-26.1.2" = _EXxnlrol;
-        "fabric-26.2" = _U9otonXh;
-        "fabric-1.21.11" = _CuBKKmEk;
+        "KZoAVGOR" = _KZoAVGOR;
+        "OX36LvYb" = _OX36LvYb;
+        "WsHx8CQ6" = _WsHx8CQ6;
+        "w3CsR6DO" = _w3CsR6DO;
+        "MNisXEGx" = _MNisXEGx;
+        "Vyth571z" = _Vyth571z;
+        "B9p81LvQ" = _B9p81LvQ;
+        "LmXS5fMl" = _LmXS5fMl;
+        "bKud7bMp" = _bKud7bMp;
+        "forge-1.8.9" = _MNisXEGx;
+        "fabric-26.1" = _B9p81LvQ;
+        "fabric-26.1.1" = _B9p81LvQ;
+        "fabric-26.1.2" = _B9p81LvQ;
+        "fabric-26.2" = _LmXS5fMl;
+        "fabric-1.21.11" = _Vyth571z;
+        "fabric-26.3" = _bKud7bMp;
         "pkg-1.0.0-1.8.9" = _XURNFfTd;
         "pkg-1.0.0-26.1+" = _69x46XJZ;
         "pkg-1.0.0-26.2+" = _sdqwfaxf;
@@ -225,7 +280,16 @@ let
         "pkg-2.0.1-1.21.11_fabric" = _CuBKKmEk;
         "pkg-2.0.1-26.1+_fabric" = _EXxnlrol;
         "pkg-2.0.1-26.2+_fabric" = _U9otonXh;
-        "default" = _U9otonXh;
+        "pkg-2.1.0-1.8.9_forge" = _KZoAVGOR;
+        "pkg-2.1.0-1.21.11_fabric" = _OX36LvYb;
+        "pkg-2.1.0-26.1+_fabric" = _WsHx8CQ6;
+        "pkg-2.1.0-26.2+_fabric" = _w3CsR6DO;
+        "pkg-2.2.0-1.8.9_forge" = _MNisXEGx;
+        "pkg-2.2.0-1.21.11_fabric" = _Vyth571z;
+        "pkg-2.2.0-26.1+_fabric" = _B9p81LvQ;
+        "pkg-2.2.0-26.2+_fabric" = _LmXS5fMl;
+        "pkg-2.2.1-26.3+_fabric" = _bKud7bMp;
+        "default" = _bKud7bMp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hymod";

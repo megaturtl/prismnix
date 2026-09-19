@@ -51,6 +51,16 @@ let
             "file" = "elytra_boost-beta1.0.1.jar";
             "hash" = "sha512-zUBeTSPkZC7v3nh2gcD91liDuhPRymUbdDJMcO6UQRZPFnzAcc30XzRFNI4wwBFvKfo9BZdBaVvodF1PyiGydw==";
         };
+        _cnHGBXPU = {
+            "id" = "cnHGBXPU";
+            "file" = "elytra_boost-beta1.1.0.zip";
+            "hash" = "sha512-IjazA5M8NmIG0lCxCrDesWCueitvLdl7lNGJ1Sk8mWOqSLBqgYTXVzuMwS8K8eNeiKkLSrxKf5U3lgVjEO9b3g==";
+        };
+        _4SinLa8H = {
+            "id" = "4SinLa8H";
+            "file" = "elytra-boost-1.1.0.jar";
+            "hash" = "sha512-ThWoAgVq9wqtI/jns+OlLIB+q6MUZwrXc437COKJfiyXdoJZ3vdaU2+PMACgdtYI/HP3tG5YFjzS2aQxMMC4dw==";
+        };
     in {
         "9T2xhENx" = _9T2xhENx;
         "BOqmoK7w" = _BOqmoK7w;
@@ -62,31 +72,38 @@ let
         "ZJF3QWuF" = _ZJF3QWuF;
         "Dtphn8z2" = _Dtphn8z2;
         "fdYVz8DT" = _fdYVz8DT;
+        "cnHGBXPU" = _cnHGBXPU;
+        "4SinLa8H" = _4SinLa8H;
         "datapack-1.21.11" = _jmqcItor;
         "datapack-26.1" = _jmqcItor;
         "datapack-26.1.1" = _jmqcItor;
         "datapack-26.1.2" = _jmqcItor;
         "datapack-26.2" = _Dtphn8z2;
+        "datapack-26.3" = _cnHGBXPU;
         "fabric-1.21.11" = _ZJF3QWuF;
         "fabric-26.1" = _ZJF3QWuF;
         "fabric-26.1.1" = _ZJF3QWuF;
         "fabric-26.1.2" = _ZJF3QWuF;
         "fabric-26.2" = _fdYVz8DT;
+        "fabric-26.3" = _4SinLa8H;
         "forge-1.21.11" = _ZJF3QWuF;
         "forge-26.1" = _ZJF3QWuF;
         "forge-26.1.1" = _ZJF3QWuF;
         "forge-26.1.2" = _ZJF3QWuF;
         "forge-26.2" = _fdYVz8DT;
+        "forge-26.3" = _4SinLa8H;
         "neoforge-1.21.11" = _ZJF3QWuF;
         "neoforge-26.1" = _ZJF3QWuF;
         "neoforge-26.1.1" = _ZJF3QWuF;
         "neoforge-26.1.2" = _ZJF3QWuF;
         "neoforge-26.2" = _fdYVz8DT;
+        "neoforge-26.3" = _4SinLa8H;
         "quilt-1.21.11" = _ZJF3QWuF;
         "quilt-26.1" = _ZJF3QWuF;
         "quilt-26.1.1" = _ZJF3QWuF;
         "quilt-26.1.2" = _ZJF3QWuF;
         "quilt-26.2" = _fdYVz8DT;
+        "quilt-26.3" = _4SinLa8H;
         "pkg-0.1" = _9T2xhENx;
         "pkg-0.1+mod" = _BOqmoK7w;
         "pkg-1.0" = _fGmALCpO;
@@ -96,7 +113,9 @@ let
         "pkg-1.0.0" = _jmqcItor;
         "pkg-1.0.0+mod" = _ZJF3QWuF;
         "pkg-1.0.1" = _fdYVz8DT;
-        "default" = _fdYVz8DT;
+        "pkg-1.1.0" = _cnHGBXPU;
+        "pkg-1.1.0+mod" = _4SinLa8H;
+        "default" = _4SinLa8H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytra-boost";

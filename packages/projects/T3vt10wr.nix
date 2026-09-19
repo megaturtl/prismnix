@@ -51,6 +51,16 @@ let
             "file" = "fantazs-emerald-equipment-v1.1.2.jar";
             "hash" = "sha512-3X+lr+6wJAT0wBZVIAoXJRI9263h6phBECMk++9yEOb9ewkNlnhKwGLGU4eeeP2ls+3birzc5F2o7oDdqAj3jQ==";
         };
+        _IPEckVfZ = {
+            "id" = "IPEckVfZ";
+            "file" = "Emerald-Equipment-DP-v1.1.3.zip";
+            "hash" = "sha512-qu/GPp/H0CXkhB/l1rybKYTqU7rCul4x+7OV9AjdFikyMW91Asq5vjgLG4meiU0RqaYfG/+F65iy62fzw3R/ug==";
+        };
+        _X3iqzzrz = {
+            "id" = "X3iqzzrz";
+            "file" = "fantazs-emerald-equipment-v1.1.3.jar";
+            "hash" = "sha512-ncr1TIdjUMTqc6ueKeSx0eESJlxDjm9tafNy0NcKLBytbd0hTuEIEgoopUGu7i6Gj4Yr5s3qh/a7LWYRAL0qQw==";
+        };
     in {
         "sU8g8wEw" = _sU8g8wEw;
         "dTfE27Dz" = _dTfE27Dz;
@@ -62,17 +72,19 @@ let
         "3rraTtku" = _3rraTtku;
         "lQSH4dNX" = _lQSH4dNX;
         "auN5AKFA" = _auN5AKFA;
-        "datapack-1.21.5" = _lQSH4dNX;
-        "datapack-1.21.6" = _lQSH4dNX;
-        "datapack-1.21.7" = _lQSH4dNX;
-        "datapack-1.21.8" = _lQSH4dNX;
-        "datapack-1.21.9" = _lQSH4dNX;
-        "datapack-1.21.10" = _lQSH4dNX;
-        "datapack-1.21.11" = _lQSH4dNX;
-        "datapack-26.1" = _lQSH4dNX;
-        "datapack-26.1.1" = _lQSH4dNX;
-        "datapack-26.1.2" = _lQSH4dNX;
-        "datapack-26.2" = _lQSH4dNX;
+        "IPEckVfZ" = _IPEckVfZ;
+        "X3iqzzrz" = _X3iqzzrz;
+        "datapack-1.21.5" = _IPEckVfZ;
+        "datapack-1.21.6" = _IPEckVfZ;
+        "datapack-1.21.7" = _IPEckVfZ;
+        "datapack-1.21.8" = _IPEckVfZ;
+        "datapack-1.21.9" = _IPEckVfZ;
+        "datapack-1.21.10" = _IPEckVfZ;
+        "datapack-1.21.11" = _IPEckVfZ;
+        "datapack-26.1" = _IPEckVfZ;
+        "datapack-26.1.1" = _IPEckVfZ;
+        "datapack-26.1.2" = _IPEckVfZ;
+        "datapack-26.2" = _IPEckVfZ;
         "fabric-1.21.5" = _auN5AKFA;
         "fabric-1.21.6" = _auN5AKFA;
         "fabric-1.21.7" = _auN5AKFA;
@@ -83,7 +95,7 @@ let
         "fabric-26.1" = _auN5AKFA;
         "fabric-26.1.1" = _auN5AKFA;
         "fabric-26.1.2" = _auN5AKFA;
-        "fabric-26.2" = _auN5AKFA;
+        "fabric-26.2" = _X3iqzzrz;
         "forge-1.21.5" = _auN5AKFA;
         "forge-1.21.6" = _auN5AKFA;
         "forge-1.21.7" = _auN5AKFA;
@@ -94,7 +106,7 @@ let
         "forge-26.1" = _auN5AKFA;
         "forge-26.1.1" = _auN5AKFA;
         "forge-26.1.2" = _auN5AKFA;
-        "forge-26.2" = _auN5AKFA;
+        "forge-26.2" = _X3iqzzrz;
         "neoforge-1.21.5" = _auN5AKFA;
         "neoforge-1.21.6" = _auN5AKFA;
         "neoforge-1.21.7" = _auN5AKFA;
@@ -105,7 +117,7 @@ let
         "neoforge-26.1" = _auN5AKFA;
         "neoforge-26.1.1" = _auN5AKFA;
         "neoforge-26.1.2" = _auN5AKFA;
-        "neoforge-26.2" = _auN5AKFA;
+        "neoforge-26.2" = _X3iqzzrz;
         "quilt-1.21.5" = _auN5AKFA;
         "quilt-1.21.6" = _auN5AKFA;
         "quilt-1.21.7" = _auN5AKFA;
@@ -116,13 +128,14 @@ let
         "quilt-26.1" = _auN5AKFA;
         "quilt-26.1.1" = _auN5AKFA;
         "quilt-26.1.2" = _auN5AKFA;
-        "quilt-26.2" = _auN5AKFA;
+        "quilt-26.2" = _X3iqzzrz;
         "pkg-1.0.0" = _dTfE27Dz;
         "pkg-1.0.1" = _4kuvT12O;
         "pkg-1.1.0" = _CLVTWSJC;
         "pkg-1.1.1" = _3rraTtku;
         "pkg-1.1.2" = _auN5AKFA;
-        "default" = _auN5AKFA;
+        "pkg-1.1.3" = _X3iqzzrz;
+        "default" = _X3iqzzrz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fantazs-emerald-equipment";

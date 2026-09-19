@@ -21,17 +21,36 @@ let
             "file" = "phantomjoin-1.0.1.jar";
             "hash" = "sha512-xdaqkEOlQA1sWjy50aw/iGpfvg+TqVi8ATPnA/faTL20bHgc9jisfgobohhsxXCGDE1yYsNa8PDceG5E6M66fQ==";
         };
+        _xgZ3w3ad = {
+            "id" = "xgZ3w3ad";
+            "file" = "phantomjoin-1.0.2.jar";
+            "hash" = "sha512-IdTin45IOYcI8TszkAqXO7BP8Bkks3AKTFK/eVRPa4NqScghRKL18rbXIq4H5NiAms5CWmzpmGPwKQK7AmcgGQ==";
+        };
+        _EfFvucw9 = {
+            "id" = "EfFvucw9";
+            "file" = "phantomjoin-1.0.2.jar";
+            "hash" = "sha512-tEgzrTC2hXRdyxamcWmqb8l0/z2rHjN/dy9IoBhqTPaGrEYLS3ZvSip9zSXKbb0IUGTyz9qP1SlxiJ4PIWry+A==";
+        };
+        _d024orTa = {
+            "id" = "d024orTa";
+            "file" = "phantomjoin-1.0.2.jar";
+            "hash" = "sha512-WTo5iE4GGIOCsH7R5S/mW0nBAQSlUkJIOfV3Sp9CGrD8ixfYAoNASqZ0CGWaKsoELGHU7y+5LmQ405ihGBPHaQ==";
+        };
     in {
         "DG9kFPIN" = _DG9kFPIN;
         "VdM1ob3o" = _VdM1ob3o;
         "jTSPVp8R" = _jTSPVp8R;
         "7LOO7a5Z" = _7LOO7a5Z;
-        "neoforge-1.21.1" = _7LOO7a5Z;
-        "forge-1.19.2" = _VdM1ob3o;
-        "forge-1.20.1" = _jTSPVp8R;
+        "xgZ3w3ad" = _xgZ3w3ad;
+        "EfFvucw9" = _EfFvucw9;
+        "d024orTa" = _d024orTa;
+        "neoforge-1.21.1" = _d024orTa;
+        "forge-1.19.2" = _xgZ3w3ad;
+        "forge-1.20.1" = _EfFvucw9;
         "pkg-1.0.0" = _DG9kFPIN;
         "pkg-1.0.1" = _7LOO7a5Z;
-        "default" = _7LOO7a5Z;
+        "pkg-1.0.2" = _d024orTa;
+        "default" = _d024orTa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "uninvited";

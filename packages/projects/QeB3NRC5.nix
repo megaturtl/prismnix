@@ -156,6 +156,21 @@ let
             "file" = "Re-Avaritia-neoforge-26.1.2-1.4.1-release.jar";
             "hash" = "sha512-uaqeuITq5A9K7oXxZ7k5Tbv2v+rmOBdkLZ4OCQ+nmZp0UFFbCXXWVbvDG2wIL7aZkWNjAbjoarHdXBR0LGEqHw==";
         };
+        _3NNXXUW4 = {
+            "id" = "3NNXXUW4";
+            "file" = "Re-Avaritia-neoforge-26.1.2-1.4.2-release.jar";
+            "hash" = "sha512-dd3zfTUH1Gl1wsmvKhhtl6chpEzfJiT4T0mNF1uj+FspjUG4kBKDXciGX0nX+x6scv1/AFUkbHd2BEA9A2HRzw==";
+        };
+        _uY1x1LTC = {
+            "id" = "uY1x1LTC";
+            "file" = "Re-Avaritia-neoforge-1.21.1-1.4.2-release.jar";
+            "hash" = "sha512-zeoK0FkyQVZw11BmeSqWgI6mye6hv0AzeQZprzsCLrVCbfD/DfbrpyIFYk/ZahXhagUXEXIs56n2JuCR2xCwpA==";
+        };
+        _trZJ7YBv = {
+            "id" = "trZJ7YBv";
+            "file" = "Re-Avaritia-forge-1.20.1-1.4.2-release.jar";
+            "hash" = "sha512-wnHN6m5V5zbTStU7TKBtIqwL0iepUT7IBGpxH2S00QDUuS1HLvMPz18cxmJiN4RHWVWXn2D7XhxI+M4n1Zzuyg==";
+        };
     in {
         "wPJom34X" = _wPJom34X;
         "FFn9M9Be" = _FFn9M9Be;
@@ -188,13 +203,16 @@ let
         "GxKTptCM" = _GxKTptCM;
         "6KeszKY2" = _6KeszKY2;
         "mUCWL6JN" = _mUCWL6JN;
+        "3NNXXUW4" = _3NNXXUW4;
+        "uY1x1LTC" = _uY1x1LTC;
+        "trZJ7YBv" = _trZJ7YBv;
         "forge-1.20" = _vigcKMZ9;
-        "forge-1.20.1" = _ssUn2Txe;
+        "forge-1.20.1" = _trZJ7YBv;
         "neoforge-1.20" = _vigcKMZ9;
         "neoforge-1.20.1" = _5muSI5qX;
         "neoforge-1.20.4" = _I64tc9zs;
-        "neoforge-1.21.1" = _GxKTptCM;
-        "neoforge-26.1.2" = _mUCWL6JN;
+        "neoforge-1.21.1" = _uY1x1LTC;
+        "neoforge-26.1.2" = _3NNXXUW4;
         "fabric-1.20.1" = _6YlQtEx9;
         "pkg-1.3.4" = _wPJom34X;
         "pkg-1.3.5.3" = _I64tc9zs;
@@ -218,7 +236,10 @@ let
         "pkg-1.20.1-1.4.1-release" = _ssUn2Txe;
         "pkg-1.21.1-1.4.1-release" = _GxKTptCM;
         "pkg-26.1.2-1.4.1-release" = _mUCWL6JN;
-        "default" = _mUCWL6JN;
+        "pkg-26.1.2-1.4.2-release" = _3NNXXUW4;
+        "pkg-1.21.1-1.4.2-release" = _uY1x1LTC;
+        "pkg-1.20.1-1.4.2-release" = _trZJ7YBv;
+        "default" = _trZJ7YBv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "re-avaritia";

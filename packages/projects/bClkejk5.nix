@@ -16,17 +16,32 @@ let
             "file" = "dillonlib-1.1_fabric-mc26.3-pre-2.jar";
             "hash" = "sha512-Cmr5GmosQFdsUawqJViqNETiwNUvIWLKu542olUgmmDHwq5MPwy3xbs7M0wFmlAM59MFdGv/VGj30z9yqoee/w==";
         };
+        _8lAlfyL0 = {
+            "id" = "8lAlfyL0";
+            "file" = "dillonlib-1.1_neoforge-mc26.3.jar";
+            "hash" = "sha512-EnOcwJD8qGBf6Hdd9BnUxEe4ez1QQP6sx77rgVXME1947roSEtXJ3vDYAWArUemnzQDrNKZIkQY8uuki4MRFUQ==";
+        };
+        _JimwrsEj = {
+            "id" = "JimwrsEj";
+            "file" = "dillonlib-1.1_fabric-mc26.3.jar";
+            "hash" = "sha512-UIojMHigjzPDKQW7+cFzQniMa8OArsgxLrbErz5K94WiJNvYItl3QDmQEYtY5TA8sS6hOzu+EEr9ZlEZ2hc9Tw==";
+        };
     in {
         "3kBjZpl2" = _3kBjZpl2;
         "2jgQRxXd" = _2jgQRxXd;
         "GDKuyevJ" = _GDKuyevJ;
+        "8lAlfyL0" = _8lAlfyL0;
+        "JimwrsEj" = _JimwrsEj;
         "neoforge-26.2" = _3kBjZpl2;
+        "neoforge-26.3" = _8lAlfyL0;
         "fabric-26.2" = _2jgQRxXd;
         "fabric-26.3-pre-2" = _GDKuyevJ;
+        "fabric-26.3" = _JimwrsEj;
         "pkg-mc26.2-1.0-neoforge" = _3kBjZpl2;
         "pkg-mc26.2-1.0-fabric" = _2jgQRxXd;
-        "pkg-mc26.3-1.1-fabric" = _GDKuyevJ;
-        "default" = _GDKuyevJ;
+        "pkg-mc26.3-1.1-fabric" = _JimwrsEj;
+        "pkg-mc26.3-1.1-neoforge" = _8lAlfyL0;
+        "default" = _JimwrsEj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dillon-lib";

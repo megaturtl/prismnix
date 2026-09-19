@@ -96,6 +96,21 @@ let
             "file" = "totemplus-1.5.0+1.21.11.jar";
             "hash" = "sha512-U5seh9JvlWjkKuuB9DJhl7Jwi2hiyjsxH0DoLfQASlxYXTOfSBtPsMR5vxv+azeaZThRpX7g+5Y1lp4SlWOmSQ==";
         };
+        _bynOzor8 = {
+            "id" = "bynOzor8";
+            "file" = "totemplus-1.6.0+1.21.11.jar";
+            "hash" = "sha512-1IsNmlmdSYfu5x+U+0zbKT2WsXTr+yLCWsZaQVBN3XeIHuvtv9BcUbsMQ5pECQZZ/kOjfzY7CMgague+XNFNVg==";
+        };
+        _JeKJvEan = {
+            "id" = "JeKJvEan";
+            "file" = "totemplus-1.6.0+26.1.2.jar";
+            "hash" = "sha512-RgqAzEq6xhuMEsV2MmH0QbxbCNiycj46LER9Wz+bHJOOFyHKh6JXTloo9m5D/kyJ52J8nxtKlB9TrF0cek+AFQ==";
+        };
+        _B3jemZHs = {
+            "id" = "B3jemZHs";
+            "file" = "totemplus-1.6.0+26.2.jar";
+            "hash" = "sha512-mAstJfWBfCiWRWvWhSjN1gfr/MJCm/XXdQW9pn/L2SpucboOfVLbWXuHgL66Qu16qfo82j3iAfsDCAh+jDJnjw==";
+        };
     in {
         "2CRQj7LR" = _2CRQj7LR;
         "GeDLxDEp" = _GeDLxDEp;
@@ -116,7 +131,10 @@ let
         "UwLVeDLD" = _UwLVeDLD;
         "GL0Esr2r" = _GL0Esr2r;
         "r89PEXSs" = _r89PEXSs;
-        "fabric-1.21.11" = _r89PEXSs;
+        "bynOzor8" = _bynOzor8;
+        "JeKJvEan" = _JeKJvEan;
+        "B3jemZHs" = _B3jemZHs;
+        "fabric-1.21.11" = _bynOzor8;
         "fabric-1.21.10" = _2i2TAuXm;
         "fabric-1.21.9" = _m89GjWGp;
         "fabric-1.21.8" = _4blcT8oc;
@@ -127,6 +145,10 @@ let
         "fabric-1.21.3" = _BAJ8hXIb;
         "fabric-1.21.2" = _MsbIbwFa;
         "fabric-1.21" = _UwLVeDLD;
+        "fabric-26.1" = _JeKJvEan;
+        "fabric-26.1.1" = _JeKJvEan;
+        "fabric-26.1.2" = _JeKJvEan;
+        "fabric-26.2" = _B3jemZHs;
         "pkg-1.2.0+1.21.11" = _2CRQj7LR;
         "pkg-1.3.0+1.21.11" = _GeDLxDEp;
         "pkg-1.4.0+1.21.11" = _HoOIAFTe;
@@ -146,7 +168,10 @@ let
         "pkg-1.4.4+1.21" = _UwLVeDLD;
         "pkg-1.4.5+1.21.11" = _GL0Esr2r;
         "pkg-1.5.0+1.21.11" = _r89PEXSs;
-        "default" = _r89PEXSs;
+        "pkg-1.6.0+1.21.11" = _bynOzor8;
+        "pkg-1.6.0+26.1.2" = _JeKJvEan;
+        "pkg-1.6.0+26.2" = _B3jemZHs;
+        "default" = _B3jemZHs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "totemsplus";

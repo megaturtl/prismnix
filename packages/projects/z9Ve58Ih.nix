@@ -201,6 +201,16 @@ let
             "file" = "YungsBetterJungleTemples-26.1.2-NeoForge-4.1.0.jar";
             "hash" = "sha512-xKnCGBEd1u1MQpViREtkS5/tT54BXzVCS/Mr0sQWQfEj1W/x2B9vYLhwKOACHAzSSHMSb3iuCVxmhPkcRpFTcw==";
         };
+        _h8i7nZ2w = {
+            "id" = "h8i7nZ2w";
+            "file" = "YungsBetterJungleTemples-26.1.2-Fabric-4.1.1.jar";
+            "hash" = "sha512-jsiRfezu+Gwtybexge4eDIC5EWKNuQg7++2ZhdjHW+WZ7amkLX6Azhp4J8rgvTeaUjTD/0cY3RBZgjbchpL+aA==";
+        };
+        _ECcz9HDe = {
+            "id" = "ECcz9HDe";
+            "file" = "YungsBetterJungleTemples-26.1.2-NeoForge-4.1.1.jar";
+            "hash" = "sha512-wLCpT5iwbuF/j1gTFfF01QjR6nMB1v2ALpxVYdcgx4vDG7HvXAn/U03pSVnobaz3JGxeXWBKJqSgP/MAJkgJIA==";
+        };
     in {
         "nTG7jdrM" = _nTG7jdrM;
         "uLnkpEnp" = _uLnkpEnp;
@@ -242,6 +252,8 @@ let
         "dF6fSxRm" = _dF6fSxRm;
         "ea8jjGAV" = _ea8jjGAV;
         "CkjyYvLs" = _CkjyYvLs;
+        "h8i7nZ2w" = _h8i7nZ2w;
+        "ECcz9HDe" = _ECcz9HDe;
         "forge-1.20" = _CXQc6EnZ;
         "forge-1.20.1" = _CXQc6EnZ;
         "forge-1.19.2" = _REe7auh2;
@@ -257,14 +269,14 @@ let
         "fabric-1.21.1" = _uiGCmR8O;
         "fabric-1.21" = _uiGCmR8O;
         "fabric-1.21.4" = _dF6fSxRm;
-        "fabric-26.1.1" = _ea8jjGAV;
-        "fabric-26.1.2" = _ea8jjGAV;
+        "fabric-26.1.1" = _h8i7nZ2w;
+        "fabric-26.1.2" = _h8i7nZ2w;
         "neoforge-1.20.4" = _g6j5u6DM;
         "neoforge-1.21.1" = _P00i2hJn;
         "neoforge-1.21" = _P00i2hJn;
         "neoforge-1.21.4" = _4oIlQrO2;
-        "neoforge-26.1.1" = _CkjyYvLs;
-        "neoforge-26.1.2" = _CkjyYvLs;
+        "neoforge-26.1.1" = _ECcz9HDe;
+        "neoforge-26.1.2" = _ECcz9HDe;
         "pkg-1.20-Forge-2.0.1" = _nTG7jdrM;
         "pkg-1.20-Fabric-2.0.1" = _uLnkpEnp;
         "pkg-1.19.2-Fabric-1.0.1" = _nlCwNeL7;
@@ -305,7 +317,9 @@ let
         "pkg-1.21.4-Fabric-3.4.0" = _dF6fSxRm;
         "pkg-26.1.2-Fabric-4.1.0" = _ea8jjGAV;
         "pkg-26.1.2-NeoForge-4.1.0" = _CkjyYvLs;
-        "default" = _CkjyYvLs;
+        "pkg-26.1.2-Fabric-4.1.1" = _h8i7nZ2w;
+        "pkg-26.1.2-NeoForge-4.1.1" = _ECcz9HDe;
+        "default" = _ECcz9HDe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yungs-better-jungle-temples";

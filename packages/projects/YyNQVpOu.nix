@@ -676,6 +676,21 @@ let
             "file" = "simplemagnets-1.1.12-neoforge-mc26.2.jar";
             "hash" = "sha512-Onv53LT8/doXuAckTE4I8RFU21zOWxEV60D4KTkkUX7oQbD02SRqBJ6+onEp8CD9TVi7uY0J9SLO2I0EZ7Cpgg==";
         };
+        _FJWMUZoW = {
+            "id" = "FJWMUZoW";
+            "file" = "simplemagnets-1.1.12a-neoforge-mc26.2.jar";
+            "hash" = "sha512-qSInN/XPj8egVKqRpK7nqeEP/vyVzB4u53y6SOrSSVEY4+FF7QADjHD6vCl9VGrjjIuHTrbvBoGAi4ffd8VlgA==";
+        };
+        _CckGcDAt = {
+            "id" = "CckGcDAt";
+            "file" = "simplemagnets-1.1.12-fabric-mc26.3.jar";
+            "hash" = "sha512-vfbLmpvambvG/ZKl2Wi7N/6HOmVOD1oocqPCZe3gDI5K5kPXSFi43D+VDFjVD1i6DCs3A6gu+YafPMfuMlkDyQ==";
+        };
+        _227xgBAo = {
+            "id" = "227xgBAo";
+            "file" = "simplemagnets-1.1.12-neoforge-mc26.3.jar";
+            "hash" = "sha512-ovckTZuDTV2C3CKjNpuMNQ+vJBVpvADxdBFdRhWCsZmtiYB1iwVJZGRODVryDFwCFtIXRVdV4Sv2lanLjVkwSg==";
+        };
     in {
         "3raV5010" = _3raV5010;
         "oKnE5mV6" = _oKnE5mV6;
@@ -812,6 +827,9 @@ let
         "kuuSIDON" = _kuuSIDON;
         "dM2LVE4P" = _dM2LVE4P;
         "s7lhJ3Mc" = _s7lhJ3Mc;
+        "FJWMUZoW" = _FJWMUZoW;
+        "CckGcDAt" = _CckGcDAt;
+        "227xgBAo" = _227xgBAo;
         "forge-1.12" = _jvqx9L3y;
         "forge-1.12.1" = _jvqx9L3y;
         "forge-1.12.2" = _jvqx9L3y;
@@ -911,7 +929,8 @@ let
         "neoforge-26.1" = _AqWJ6KVd;
         "neoforge-26.1.1" = _AqWJ6KVd;
         "neoforge-26.1.2" = _AqWJ6KVd;
-        "neoforge-26.2" = _s7lhJ3Mc;
+        "neoforge-26.2" = _FJWMUZoW;
+        "neoforge-26.3" = _227xgBAo;
         "fabric-1.18" = _gXRdca83;
         "fabric-1.18.1" = _gXRdca83;
         "fabric-1.18.2" = _gXRdca83;
@@ -940,6 +959,7 @@ let
         "fabric-26.1.1" = _jETe23eT;
         "fabric-26.1.2" = _jETe23eT;
         "fabric-26.2" = _dM2LVE4P;
+        "fabric-26.3" = _CckGcDAt;
         "quilt-1.18" = _gXRdca83;
         "quilt-1.18.1" = _gXRdca83;
         "quilt-1.18.2" = _gXRdca83;
@@ -968,6 +988,7 @@ let
         "quilt-26.1.1" = _jETe23eT;
         "quilt-26.1.2" = _jETe23eT;
         "quilt-26.2" = _dM2LVE4P;
+        "quilt-26.3" = _CckGcDAt;
         "pkg-1.1.8-forge-mc1.12" = _3raV5010;
         "pkg-1.1.8-forge-mc1.14" = _oKnE5mV6;
         "pkg-1.1.8-forge-mc1.15" = _MbkEykTc;
@@ -1103,7 +1124,10 @@ let
         "pkg-1.1.12-forge-mc26.2" = _kuuSIDON;
         "pkg-1.1.12-fabric-mc26.2" = _dM2LVE4P;
         "pkg-1.1.12-neoforge-mc26.2" = _s7lhJ3Mc;
-        "default" = _s7lhJ3Mc;
+        "pkg-1.1.12a-neoforge-mc26.2" = _FJWMUZoW;
+        "pkg-1.1.12-fabric-mc26.3" = _CckGcDAt;
+        "pkg-1.1.12-neoforge-mc26.3" = _227xgBAo;
+        "default" = _227xgBAo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-magnets";

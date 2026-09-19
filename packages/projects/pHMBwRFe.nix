@@ -56,6 +56,21 @@ let
             "file" = "Simple Structures Ad Astra 1.21.1 1.2.jar";
             "hash" = "sha512-TDGzs4YaWKSQWH2wALSR4J7+U/m2MjGbjPj+H4dEvMqqH8lw0X7PLNaQHadhJA1zJzbcYZdZbxzuWWHCG7QJLw==";
         };
+        _n8PNANwH = {
+            "id" = "n8PNANwH";
+            "file" = "Simple Structures Ad Astra 1.20.1 1.3.jar";
+            "hash" = "sha512-Ki9jf0f8uaikht+D0ZbwBr949sg7jkC+VgJXKlUd4rr0xLyy/+Pk/hvuzFm4WJpbEJhSW44A1fF3FQtj7PoQKA==";
+        };
+        _8oTnoNIx = {
+            "id" = "8oTnoNIx";
+            "file" = "Simple Structures Ad Astra 1.20.4 1.3.jar";
+            "hash" = "sha512-vg6KSLLsNZD3CLKISLVoEfU1o/b6QpLZ37Qyx9IUrgAcW8ziez8f4GmIGSiPTE0N7GDsiTcZ0mA5HLcNqpJorA==";
+        };
+        _R5nG6gOI = {
+            "id" = "R5nG6gOI";
+            "file" = "Simple Structures Ad Astra 1.21.1 1.3.jar";
+            "hash" = "sha512-Fz5mN2OJ/qQwB6eKFfaongJOPA/Y4m8fMhQp7LToNzCmB/OZEP+PEZc7ESb+ATGpqjYum09GjFjm1UzKFY4mxQ==";
+        };
     in {
         "TOxbJEAv" = _TOxbJEAv;
         "ibowSvTe" = _ibowSvTe;
@@ -68,6 +83,9 @@ let
         "geEBpbz5" = _geEBpbz5;
         "dN88aGG2" = _dN88aGG2;
         "LXhGSmHf" = _LXhGSmHf;
+        "n8PNANwH" = _n8PNANwH;
+        "8oTnoNIx" = _8oTnoNIx;
+        "R5nG6gOI" = _R5nG6gOI;
         "datapack-1.20" = _PWOZr2Tp;
         "datapack-1.20.1" = _PWOZr2Tp;
         "datapack-1.19" = _YlaNXuml;
@@ -75,20 +93,21 @@ let
         "datapack-1.19.2" = _YlaNXuml;
         "datapack-1.19.3" = _YlaNXuml;
         "fabric-1.20" = _Eyj7H9Sh;
-        "fabric-1.20.1" = _geEBpbz5;
-        "fabric-1.20.4" = _dN88aGG2;
+        "fabric-1.20.1" = _n8PNANwH;
+        "fabric-1.20.4" = _8oTnoNIx;
         "fabric-1.19.2" = _mpqxJBdb;
-        "fabric-1.21.1" = _LXhGSmHf;
+        "fabric-1.21.1" = _R5nG6gOI;
         "forge-1.20" = _Eyj7H9Sh;
-        "forge-1.20.1" = _geEBpbz5;
+        "forge-1.20.1" = _n8PNANwH;
         "forge-1.19.2" = _mpqxJBdb;
-        "neoforge-1.20.4" = _dN88aGG2;
-        "neoforge-1.21.1" = _LXhGSmHf;
+        "neoforge-1.20.4" = _8oTnoNIx;
+        "neoforge-1.21.1" = _R5nG6gOI;
         "pkg-1.0" = _BWizNM2y;
         "pkg-1.1" = _Eyj7H9Sh;
         "pkg-1.2" = _dN88aGG2;
         "pkg-1.2.1" = _LXhGSmHf;
-        "default" = _LXhGSmHf;
+        "pkg-1.3" = _R5nG6gOI;
+        "default" = _R5nG6gOI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-structure-ad-astra";

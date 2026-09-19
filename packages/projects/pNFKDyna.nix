@@ -131,6 +131,11 @@ let
             "file" = "scope-3.1.0+26.2-neoforge.jar";
             "hash" = "sha512-u+XDZVIUG89e9h6SdPqYpSsObSJnCP+9uzvBajQ04OM/20zBO8Y3D2X8R6nN4vF9r32g9aXfdeAM/QANgkb3GA==";
         };
+        _Neso2ZUI = {
+            "id" = "Neso2ZUI";
+            "file" = "scope-3.1.1+26.3-fabric.jar";
+            "hash" = "sha512-uP9UnUnZXkROdk2Y6xmgoqauT7PaAx1FRJFAZ4CzeghW6jXIc+4hcYdLOKsjLz12uomUaUcOi/vK1AZoWp8YDg==";
+        };
     in {
         "rv9AUoeC" = _rv9AUoeC;
         "fTSxFVkP" = _fTSxFVkP;
@@ -158,6 +163,7 @@ let
         "WdIdXdSo" = _WdIdXdSo;
         "SeyNgW6r" = _SeyNgW6r;
         "iumWQG2s" = _iumWQG2s;
+        "Neso2ZUI" = _Neso2ZUI;
         "fabric-1.19.2" = _LYuW6vK3;
         "fabric-1.19.3" = _brwt6EKD;
         "fabric-1.19.4" = _cgPTJT9M;
@@ -172,6 +178,7 @@ let
         "fabric-26.2" = _SeyNgW6r;
         "fabric-1.21.11" = _1aaJj7Co;
         "fabric-26.1.2" = _QWIgxtOd;
+        "fabric-26.3" = _Neso2ZUI;
         "quilt-1.19.2" = _LYuW6vK3;
         "quilt-1.19.3" = _brwt6EKD;
         "quilt-1.19.4" = _cgPTJT9M;
@@ -207,7 +214,8 @@ let
         "pkg-3.1.0+26.1.2-neoforge" = _WdIdXdSo;
         "pkg-3.1.0+26.2-fabric" = _SeyNgW6r;
         "pkg-3.1.0+26.2-neoforge" = _iumWQG2s;
-        "default" = _iumWQG2s;
+        "pkg-3.1.1+26.3-fabric" = _Neso2ZUI;
+        "default" = _Neso2ZUI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scope";

@@ -26,12 +26,18 @@ let
             "file" = "Clear Glass.zip";
             "hash" = "sha512-L6Jzf8IAeezldbqk/t9BmBfvUKq2CVAGlsAotkFyWnw1Oxj1Nz/4A+JUJSkt0VZPuesNeUugA+GHA8S3E6vlxg==";
         };
+        _Ib6E3iA2 = {
+            "id" = "Ib6E3iA2";
+            "file" = "Clear Glass.zip";
+            "hash" = "sha512-be9CN8SYJrSRZm94uOEVRf4pjXCTBurLuAH0NldyjhlD3XzAzFSeI66/rNBkQ8jx2XL1fUeIBLk/4SSlRgPKcg==";
+        };
     in {
         "hZtwYkAj" = _hZtwYkAj;
         "7sln63ex" = _7sln63ex;
         "WgIH5ikb" = _WgIH5ikb;
         "mcJ0pvRz" = _mcJ0pvRz;
         "qvw9dBhK" = _qvw9dBhK;
+        "Ib6E3iA2" = _Ib6E3iA2;
         "minecraft-1.16" = _hZtwYkAj;
         "minecraft-1.16.1" = _hZtwYkAj;
         "minecraft-1.16.2" = _hZtwYkAj;
@@ -71,12 +77,14 @@ let
         "minecraft-26.1.1" = _mcJ0pvRz;
         "minecraft-26.1.2" = _mcJ0pvRz;
         "minecraft-26.2" = _qvw9dBhK;
+        "minecraft-26.3" = _Ib6E3iA2;
         "pkg-1.0.0" = _hZtwYkAj;
         "pkg-1.0.1" = _7sln63ex;
         "pkg-1.0.2" = _WgIH5ikb;
         "pkg-1.0.3" = _mcJ0pvRz;
         "pkg-1.0.4" = _qvw9dBhK;
-        "default" = _qvw9dBhK;
+        "pkg-1.0.5" = _Ib6E3iA2;
+        "default" = _Ib6E3iA2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "clear-glass-8x";

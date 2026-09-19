@@ -131,6 +131,11 @@ let
             "file" = "windchimes-1.10.1-26.2.jar";
             "hash" = "sha512-DhEpvUyKaMUQrWk9eg8DBf8meFuoMw64aGZgbdHB/1tyM6n9RKRxaKr1Gc1Y0MGrVI1xyYNfThl9JRtceU+nIg==";
         };
+        _tZFQMiMH = {
+            "id" = "tZFQMiMH";
+            "file" = "windchimes-1.11.0-26.3.jar";
+            "hash" = "sha512-phjO5L1cMm5x4jhwKTdsB5HA3Q56ZyoQw6/Q/Gw02l65B1AFRbV/qciIAHADBmr5y7O0gX8Xia0M4jSKXKrWZA==";
+        };
     in {
         "kmrlSsiX" = _kmrlSsiX;
         "6h8OH37x" = _6h8OH37x;
@@ -158,6 +163,7 @@ let
         "WgnS0bmH" = _WgnS0bmH;
         "yuWsosnx" = _yuWsosnx;
         "jchkoQKX" = _jchkoQKX;
+        "tZFQMiMH" = _tZFQMiMH;
         "fabric-1.21" = _kmrlSsiX;
         "fabric-1.21.1" = _SAdxq5pE;
         "fabric-1.21.4" = _EwQoqFVV;
@@ -172,6 +178,7 @@ let
         "fabric-26.1.1" = _yuWsosnx;
         "fabric-26.1.2" = _yuWsosnx;
         "fabric-26.2" = _jchkoQKX;
+        "fabric-26.3" = _tZFQMiMH;
         "pkg-1.3.0-1.21" = _kmrlSsiX;
         "pkg-1.4.0-1.21.4" = _6h8OH37x;
         "pkg-1.4.1-1.21.4" = _c4HCyC9a;
@@ -198,7 +205,8 @@ let
         "pkg-1.8.1-1.21.11" = _WgnS0bmH;
         "pkg-1.9.0-26.1" = _yuWsosnx;
         "pkg-1.10.1-26.2" = _jchkoQKX;
-        "default" = _jchkoQKX;
+        "pkg-1.11.0-26.3" = _tZFQMiMH;
+        "default" = _tZFQMiMH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "windchime-unofficial-continued";

@@ -241,6 +241,51 @@ let
             "file" = "polyblur-2.1.0+26.2.jar";
             "hash" = "sha512-3RmXXfqnWc7GhpDumSy1WG0EsSsjdW7XHdzzyax+/gFVzchAD+AjGWCZZSW9YrvoWL9pJcnVOFItuF2dh4k3kQ==";
         };
+        _w9BSdE4y = {
+            "id" = "w9BSdE4y";
+            "file" = "polyblur-2.2.0+1.21.1.jar";
+            "hash" = "sha512-TjqWbC4tpgv480rCP9xP5GEl7KVKrivuGpuRVCPKRe1Y5FWtzFA4jMxnkXxYMCNBr0GlOTmIC+1J2+x1M1ELDA==";
+        };
+        _hVGZDTYQ = {
+            "id" = "hVGZDTYQ";
+            "file" = "polyblur-2.2.0+1.21.4.jar";
+            "hash" = "sha512-VmEKOoIW/P8buvtdNnTDIshXYU6CRJgJl2VGU9+UFnvl7c5b6Xv90A57wjqZhTgPsxsraVbTe9c3G0SPasHgZQ==";
+        };
+        _VcNOLHGM = {
+            "id" = "VcNOLHGM";
+            "file" = "polyblur-2.2.0+1.21.5.jar";
+            "hash" = "sha512-nbMZJuzw7743G/trnI4626OPZJ7YRv83AjVc6Bf4Q19RtGuvcMtwQ6I4ThDizf9VoOauTo9Pw9tisGj7l754TQ==";
+        };
+        _GCgCZVN1 = {
+            "id" = "GCgCZVN1";
+            "file" = "polyblur-2.2.0+1.21.8.jar";
+            "hash" = "sha512-0/pnFDgTeNPvxqUwAEygpymmQ/V9nHWOAP2aWGVaGN8g3z9Uy5ksrZ9i8eKJk6iRtBnx/wvLG1U9hSDNhHn0+Q==";
+        };
+        _1Xc7qtEV = {
+            "id" = "1Xc7qtEV";
+            "file" = "polyblur-2.2.0+1.21.10.jar";
+            "hash" = "sha512-8O/BJeg9MtjwzCHxKuXfrKwYHQZBNZCXKB3C5h6PATmI9PrbvWWbIEjaOPm7R2z4BzJR4J5zwheSyuD8XzKAUw==";
+        };
+        _kVgXVi9u = {
+            "id" = "kVgXVi9u";
+            "file" = "polyblur-2.2.0+1.21.11.jar";
+            "hash" = "sha512-PlajKdsM8uzI1yRyWCxX3a9SOwB29sSpPucKfGNBbhTCTCGRIT43mjQJRL/eT6J+2yfW+XS2YI/XpEDFMKJeyw==";
+        };
+        _3zg6k0gU = {
+            "id" = "3zg6k0gU";
+            "file" = "polyblur-2.2.0+26.1.jar";
+            "hash" = "sha512-ZdKw1oEBBaEx7guX8CVNWWBhposJ2vsQq9Fk/fp79uHE1m7FykJjbMAe5CUMUiPW8iGX/VrC6jXsapNQKOkyBQ==";
+        };
+        _Ec6wEDj7 = {
+            "id" = "Ec6wEDj7";
+            "file" = "polyblur-2.2.0+26.2.jar";
+            "hash" = "sha512-5cEuWIBpj6iRRA7FiXXqi3vqubOJiD231mcKGvE/DXhNO2aknniYE1xAGyThReAG81NuPurM4N2TpBWHKRjEqw==";
+        };
+        _sOeTtlF3 = {
+            "id" = "sOeTtlF3";
+            "file" = "polyblur-2.2.0+26.3.jar";
+            "hash" = "sha512-MmSZdb3Jznuzc2VWBsTUdyyM7Ff+D0XysGqfTanhRRbF4HExNaRglupyS5SpM/wetoAsOuz9CMZ0DVlDx3/ITA==";
+        };
     in {
         "Jgm3MvC1" = _Jgm3MvC1;
         "1ICqP31g" = _1ICqP31g;
@@ -290,20 +335,30 @@ let
         "1w57JFZW" = _1w57JFZW;
         "ogFHRrVk" = _ogFHRrVk;
         "EGF8ipVw" = _EGF8ipVw;
+        "w9BSdE4y" = _w9BSdE4y;
+        "hVGZDTYQ" = _hVGZDTYQ;
+        "VcNOLHGM" = _VcNOLHGM;
+        "GCgCZVN1" = _GCgCZVN1;
+        "1Xc7qtEV" = _1Xc7qtEV;
+        "kVgXVi9u" = _kVgXVi9u;
+        "3zg6k0gU" = _3zg6k0gU;
+        "Ec6wEDj7" = _Ec6wEDj7;
+        "sOeTtlF3" = _sOeTtlF3;
         "forge-1.8.9" = _w6XrPOU5;
         "forge-1.12.2" = _VSicOHum;
-        "fabric-26.2" = _EGF8ipVw;
-        "fabric-26.1" = _ogFHRrVk;
-        "fabric-26.1.1" = _ogFHRrVk;
-        "fabric-26.1.2" = _ogFHRrVk;
-        "fabric-1.21.1" = _wvEv6obz;
-        "fabric-1.21.5" = _bYudA8OW;
-        "fabric-1.21.4" = _8qdsb6r5;
-        "fabric-1.21.7" = _B5GYaGb3;
-        "fabric-1.21.8" = _B5GYaGb3;
-        "fabric-1.21.11" = _1w57JFZW;
-        "fabric-1.21.9" = _l2ST7cUR;
-        "fabric-1.21.10" = _l2ST7cUR;
+        "fabric-26.2" = _Ec6wEDj7;
+        "fabric-26.1" = _3zg6k0gU;
+        "fabric-26.1.1" = _3zg6k0gU;
+        "fabric-26.1.2" = _3zg6k0gU;
+        "fabric-1.21.1" = _w9BSdE4y;
+        "fabric-1.21.5" = _VcNOLHGM;
+        "fabric-1.21.4" = _hVGZDTYQ;
+        "fabric-1.21.7" = _GCgCZVN1;
+        "fabric-1.21.8" = _GCgCZVN1;
+        "fabric-1.21.11" = _kVgXVi9u;
+        "fabric-1.21.9" = _1Xc7qtEV;
+        "fabric-1.21.10" = _1Xc7qtEV;
+        "fabric-26.3" = _sOeTtlF3;
         "pkg-v1.0.0" = _1ICqP31g;
         "pkg-v1.0.1" = _d47Pgoeh;
         "pkg-v1.0.2" = _VSicOHum;
@@ -312,7 +367,8 @@ let
         "pkg-v2.0.2" = _jCCS4tMR;
         "pkg-v2.0.3" = _xC7ghEtQ;
         "pkg-v2.1.0" = _EGF8ipVw;
-        "default" = _EGF8ipVw;
+        "pkg-v2.2.0" = _sOeTtlF3;
+        "default" = _sOeTtlF3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "polyblur";

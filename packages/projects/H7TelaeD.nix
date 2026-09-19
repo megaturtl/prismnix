@@ -206,6 +206,11 @@ let
             "file" = "trims-color-splash-v1.3.4.jar";
             "hash" = "sha512-F6EgiOvvGxu7O5JjxmumUaOTR6nhViAaaL2JO5tbRmszBilsM3W2OJjBKhIO1P7xPJYzKzoUogQBcJ/7Q6d1VA==";
         };
+        _hJ3lzFCR = {
+            "id" = "hJ3lzFCR";
+            "file" = "Color Splash [DP] v1.3.5 - 26.3+.zip";
+            "hash" = "sha512-TKgVsvmnRcmsVwbokcdheAeyZ4FZvba2tomHJJZZ2KhfEW0kR/rvizZHOjGJujRACFxN2Y+i3E55cPg9t0ukMw==";
+        };
     in {
         "CeuqMQrS" = _CeuqMQrS;
         "NAHaZOgb" = _NAHaZOgb;
@@ -248,6 +253,7 @@ let
         "S3uGOFhm" = _S3uGOFhm;
         "80eZV0GK" = _80eZV0GK;
         "2HmOxCAw" = _2HmOxCAw;
+        "hJ3lzFCR" = _hJ3lzFCR;
         "datapack-1.21.5" = _nZr6tJFu;
         "datapack-1.21.6" = _nZr6tJFu;
         "datapack-1.21.7" = _nZr6tJFu;
@@ -266,7 +272,7 @@ let
         "datapack-1.21.2" = _vJyjaujD;
         "datapack-1.21.3" = _vJyjaujD;
         "datapack-1.21.4" = _vJyjaujD;
-        "datapack-1.21.11" = _xcKmrihj;
+        "datapack-1.21.11" = _hJ3lzFCR;
         "datapack-23w31a" = _cNi7YNYD;
         "datapack-23w32a" = _cNi7YNYD;
         "datapack-23w33a" = _cNi7YNYD;
@@ -319,13 +325,14 @@ let
         "datapack-24w44a" = _vJyjaujD;
         "datapack-24w45a" = _vJyjaujD;
         "datapack-24w46a" = _vJyjaujD;
-        "datapack-26.1" = _80eZV0GK;
-        "datapack-26.1.1" = _80eZV0GK;
-        "datapack-26.1.2" = _80eZV0GK;
-        "datapack-26.2" = _80eZV0GK;
+        "datapack-26.1" = _hJ3lzFCR;
+        "datapack-26.1.1" = _hJ3lzFCR;
+        "datapack-26.1.2" = _hJ3lzFCR;
+        "datapack-26.2" = _hJ3lzFCR;
         "datapack-26.3-snapshot-1" = _59ymjviV;
         "datapack-26.3-snapshot-2" = _59ymjviV;
         "datapack-26.3-snapshot-3" = _59ymjviV;
+        "datapack-26.3" = _hJ3lzFCR;
         "fabric-1.20" = _oI50OgDZ;
         "fabric-1.20.1" = _oI50OgDZ;
         "fabric-1.20.2" = _oI50OgDZ;
@@ -659,7 +666,8 @@ let
         "pkg-v1.3.3+packaged" = _S3uGOFhm;
         "pkg-v1.3.4" = _80eZV0GK;
         "pkg-v1.3.4+packaged" = _2HmOxCAw;
-        "default" = _2HmOxCAw;
+        "pkg-v1.3.5" = _hJ3lzFCR;
+        "default" = _hJ3lzFCR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trims-color-splash";

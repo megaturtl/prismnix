@@ -26,12 +26,18 @@ let
             "file" = "Shotgun Crossbow 26.1-26.1.2.zip";
             "hash" = "sha512-+tTM1RE2ji04F11SO5ebJ33sjozLp8IwE3vv5au5I6/s/NB5EGWiR8D8fF3D5xXFgZnSaAXeqZ6cM99GoU7gSQ==";
         };
+        _mKtE1R5k = {
+            "id" = "mKtE1R5k";
+            "file" = "Shotgun 26.2.zip";
+            "hash" = "sha512-p+2QBzSgvVssz/yPg0kgOj5MpQbnFiGhCfls58v3r04Zo3vtWcF/ShAz7EuPBTxvavkGMPDqGraQtOw2qU+fGw==";
+        };
     in {
         "yEdkL9Ck" = _yEdkL9Ck;
         "TKsasj7T" = _TKsasj7T;
         "XQ8P8hu5" = _XQ8P8hu5;
         "tYHSNG64" = _tYHSNG64;
         "7OkTnOeN" = _7OkTnOeN;
+        "mKtE1R5k" = _mKtE1R5k;
         "minecraft-1.20" = _yEdkL9Ck;
         "minecraft-1.20.1" = _yEdkL9Ck;
         "minecraft-1.20.2" = _yEdkL9Ck;
@@ -45,8 +51,10 @@ let
         "minecraft-26.1" = _7OkTnOeN;
         "minecraft-26.1.1" = _7OkTnOeN;
         "minecraft-26.1.2" = _7OkTnOeN;
+        "minecraft-26.2" = _mKtE1R5k;
         "pkg-1.0" = _7OkTnOeN;
-        "default" = _7OkTnOeN;
+        "pkg-26.2" = _mKtE1R5k;
+        "default" = _mKtE1R5k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shotgun";

@@ -61,6 +61,16 @@ let
             "file" = "villager_warship-1.0.0 neoforge 26.2.jar";
             "hash" = "sha512-gUyPB5R+0BoMVJ6WfiZIqDmmJwNAs/r7AEQiA/mm3FHU4bNiNawjrB5CUObL1S21NNWMrYeZHlQljLuVzqEyvQ==";
         };
+        _DJXrbeiL = {
+            "id" = "DJXrbeiL";
+            "file" = "villager_warship-1.0.0 Fabric 26.3.jar";
+            "hash" = "sha512-gZp7S+flNscqUOrxt7v/126F5dpZYiVDCfb1Tnde8W/n58tL1d/2hsWXQrfUrsQaFvd3egNFo4A+OCPXSVqqSA==";
+        };
+        _CNXxfzPh = {
+            "id" = "CNXxfzPh";
+            "file" = "villager_warship-1.0.0 Neoforge 26.3.jar";
+            "hash" = "sha512-JcSOCnk6x98tVbGCeK/uDL6xOji2ozCuOB/OcAeZoDaJm+Y7NgWOV7CH1gzVp0+H5XxIwaxBVWuSlJ7nX2qtLA==";
+        };
     in {
         "5prZpGBR" = _5prZpGBR;
         "gRILrTpu" = _gRILrTpu;
@@ -74,6 +84,8 @@ let
         "x2cKwMPJ" = _x2cKwMPJ;
         "JMQR6oHm" = _JMQR6oHm;
         "lQvVwsVh" = _lQvVwsVh;
+        "DJXrbeiL" = _DJXrbeiL;
+        "CNXxfzPh" = _CNXxfzPh;
         "fabric-1.20.1" = _5prZpGBR;
         "fabric-1.21.8" = _dSzaAdGi;
         "fabric-1.21.9" = _dSzaAdGi;
@@ -83,6 +95,7 @@ let
         "fabric-26.1.1" = _9qJkPSw2;
         "fabric-26.1.2" = _9qJkPSw2;
         "fabric-26.2" = _JMQR6oHm;
+        "fabric-26.3" = _DJXrbeiL;
         "forge-1.20.1" = _gRILrTpu;
         "neoforge-1.21.1" = _oNM9Z8Es;
         "neoforge-1.21.4" = _JjTh9UN5;
@@ -90,9 +103,10 @@ let
         "neoforge-1.21.11" = _9XX0KYWU;
         "neoforge-26.1.2" = _x2cKwMPJ;
         "neoforge-26.2" = _lQvVwsVh;
-        "pkg-1.0.0" = _lQvVwsVh;
+        "neoforge-26.3" = _CNXxfzPh;
+        "pkg-1.0.0" = _CNXxfzPh;
         "pkg-1.0.1" = _dSzaAdGi;
-        "default" = _lQvVwsVh;
+        "default" = _CNXxfzPh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villager-warship";

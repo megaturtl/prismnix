@@ -226,6 +226,31 @@ let
             "file" = "CauldronConcretePowder_quilt_mod.jar";
             "hash" = "sha512-3ChyBj8+7mvsu1jia+3jakH0TKhs82OJ1jkU1U0KDCxmA4+/g6YU89K8Zw2fjMp5W8kh/U9EiT303EnzY7b87Q==";
         };
+        _PLEJraNe = {
+            "id" = "PLEJraNe";
+            "file" = "CauldronConcretePowder_datapack.zip";
+            "hash" = "sha512-KDzT5K0D8uzFCYL7LJg/dia6F+UDihD7BjoHA3eWer5J1ktzw998YwagO8P7Dfw9aW6Zea4rpopY5WBX7UUzoA==";
+        };
+        _u6oXSetX = {
+            "id" = "u6oXSetX";
+            "file" = "CauldronConcretePowder_fabric_mod.jar";
+            "hash" = "sha512-5zP7qsNeJ6rEdMLRDdiF3UxUNu+mdy3xTPbTbXMiwIEj1bql8Sh2i8JeAq7++PFrtjbjEd+alA9/rYotIOGSlg==";
+        };
+        _b3ANCJZ6 = {
+            "id" = "b3ANCJZ6";
+            "file" = "CauldronConcretePowder_forge_mod.jar";
+            "hash" = "sha512-7bdKfq83Z5hNeosLlq4p5sNtWomFA4EBJEhTFmCq5qUf6NyWB2OFjwX+cR6JMiepBIYM9z78A4Hn4SJacglS+A==";
+        };
+        _ayePmNVH = {
+            "id" = "ayePmNVH";
+            "file" = "CauldronConcretePowder_neoforge_mod.jar";
+            "hash" = "sha512-rZiRnpDvA6cJXteGPjx97Bz09+3rEikXYudE6RksOndIY7HiiNRHnDGazv1q428ma2G8EJbacpte74q4mc4SLA==";
+        };
+        _MLCzAE6F = {
+            "id" = "MLCzAE6F";
+            "file" = "CauldronConcretePowder_quilt_mod.jar";
+            "hash" = "sha512-H1EfpJETazqP6iiFku46dJREGIBSk8Dgk5wAjUerh/jQnLvAMMuOGvVa1AjIQip18pRujy07CEtBpYU9QfbLiQ==";
+        };
     in {
         "txfPRpLE" = _txfPRpLE;
         "eGZKdF01" = _eGZKdF01;
@@ -272,6 +297,11 @@ let
         "oedGDP1F" = _oedGDP1F;
         "hvK90eSi" = _hvK90eSi;
         "1ch1nG5m" = _1ch1nG5m;
+        "PLEJraNe" = _PLEJraNe;
+        "u6oXSetX" = _u6oXSetX;
+        "b3ANCJZ6" = _b3ANCJZ6;
+        "ayePmNVH" = _ayePmNVH;
+        "MLCzAE6F" = _MLCzAE6F;
         "datapack-1.15" = _QaR8E7NL;
         "datapack-1.15.1" = _QaR8E7NL;
         "datapack-1.15.2" = _QaR8E7NL;
@@ -315,6 +345,7 @@ let
         "datapack-26.1.1" = _ztoPaANv;
         "datapack-26.1.2" = _ztoPaANv;
         "datapack-26.2" = _ztoPaANv;
+        "datapack-26.3" = _PLEJraNe;
         "fabric-1.15" = _66W4Jlcx;
         "fabric-1.15.1" = _66W4Jlcx;
         "fabric-1.15.2" = _66W4Jlcx;
@@ -358,6 +389,7 @@ let
         "fabric-26.1.1" = _GFfht8Yt;
         "fabric-26.1.2" = _GFfht8Yt;
         "fabric-26.2" = _GFfht8Yt;
+        "fabric-26.3" = _u6oXSetX;
         "forge-1.15" = _66W4Jlcx;
         "forge-1.15.1" = _66W4Jlcx;
         "forge-1.15.2" = _66W4Jlcx;
@@ -401,6 +433,7 @@ let
         "forge-26.1.1" = _oedGDP1F;
         "forge-26.1.2" = _oedGDP1F;
         "forge-26.2" = _oedGDP1F;
+        "forge-26.3" = _b3ANCJZ6;
         "quilt-1.15" = _66W4Jlcx;
         "quilt-1.15.1" = _66W4Jlcx;
         "quilt-1.15.2" = _66W4Jlcx;
@@ -444,6 +477,7 @@ let
         "quilt-26.1.1" = _1ch1nG5m;
         "quilt-26.1.2" = _1ch1nG5m;
         "quilt-26.2" = _1ch1nG5m;
+        "quilt-26.3" = _MLCzAE6F;
         "neoforge-1.21.2" = _M9Uz1A5j;
         "neoforge-1.21.3" = _M9Uz1A5j;
         "neoforge-1.21.4" = _M9Uz1A5j;
@@ -460,6 +494,7 @@ let
         "neoforge-26.1.1" = _hvK90eSi;
         "neoforge-26.1.2" = _hvK90eSi;
         "neoforge-26.2" = _hvK90eSi;
+        "neoforge-26.3" = _ayePmNVH;
         "pkg-1.0.0" = _txfPRpLE;
         "pkg-1.0.0+mod" = _eGZKdF01;
         "pkg-1.0.0b" = _QaR8E7NL;
@@ -504,7 +539,12 @@ let
         "pkg-1.5.3+forge" = _oedGDP1F;
         "pkg-1.5.3+neoforge" = _hvK90eSi;
         "pkg-1.5.3+quilt" = _1ch1nG5m;
-        "default" = _1ch1nG5m;
+        "pkg-1.5.4" = _PLEJraNe;
+        "pkg-1.5.4+fabric" = _u6oXSetX;
+        "pkg-1.5.4+forge" = _b3ANCJZ6;
+        "pkg-1.5.4+neoforge" = _ayePmNVH;
+        "pkg-1.5.4+quilt" = _MLCzAE6F;
+        "default" = _MLCzAE6F;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cauldron-concrete-powder";

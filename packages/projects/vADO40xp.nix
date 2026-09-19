@@ -816,6 +816,36 @@ let
             "file" = "catchrate-display-neoforge-2.9.2.jar";
             "hash" = "sha512-SEeYpWd+2puAHL44lu8/c1DB+L4P3fKqWnUUYWIp7prUFNjy8tHEmGkM+ORwXiyBdZ8gttq+aUJTDH0lTJwJFg==";
         };
+        _ScLwtSZm = {
+            "id" = "ScLwtSZm";
+            "file" = "catchrate-display-fabric-2.10.0.jar";
+            "hash" = "sha512-YUEWYIBx5ohi5C0mRCcaAlvDlqaVBGhwhMZmaoZAWQTDrFWd/COZjEpUCJ2g+KyvJgaWIfrkW/DeGSe+3KRRIA==";
+        };
+        _KoSshT9g = {
+            "id" = "KoSshT9g";
+            "file" = "catchrate-display-neoforge-2.10.0.jar";
+            "hash" = "sha512-9L00BHlAYO7TSP0K/uWmuGwhpe9mu9CZUV5XCJN8ZyO5c5Y+moBClpDtd7YngT0mvnF7pslUfab1FwNs3uEuPA==";
+        };
+        _RU5Jluoq = {
+            "id" = "RU5Jluoq";
+            "file" = "catchrate-display-fabric-2.11.0.jar";
+            "hash" = "sha512-AgLlpCmyo1O00s4ENceQ9XYTPPOyBvMQ20hA/2QK0cXP7WOowO9sq7K89FiXj7xjdVl6dvAydfWbjNZnG6DYXw==";
+        };
+        _Y65Uk0Zl = {
+            "id" = "Y65Uk0Zl";
+            "file" = "catchrate-display-neoforge-2.11.0.jar";
+            "hash" = "sha512-IsuNiIJtlG6SJ0X57EKgvv42dCU8VhACM7X6JRB3L7EGKR0P3T0sTK7Bo46jlK3njIV+wiooMbVegMXq6qqCHw==";
+        };
+        _DEA9LzL8 = {
+            "id" = "DEA9LzL8";
+            "file" = "catchrate-display-fabric-2.12.0.jar";
+            "hash" = "sha512-ZoblcaTyE0fjj67fqP/diMMO7VJKZiA900JkJCFwfn8eMP2ceeCBVM8s3ekB8Kz5abvarptJ+3TclNzvQDX0Ig==";
+        };
+        _zLuF6a7d = {
+            "id" = "zLuF6a7d";
+            "file" = "catchrate-display-neoforge-2.12.0.jar";
+            "hash" = "sha512-lGEr7wfr3Lu7EK9PhIRt0E2SQ5fO2f4Q+FMhC9R0UDNF9REOSh198uPIb783mCPYaWA8nbwn39SCwGUggFJNPA==";
+        };
     in {
         "odk3LqTB" = _odk3LqTB;
         "CtWXcQPN" = _CtWXcQPN;
@@ -980,10 +1010,16 @@ let
         "ytWBaOIt" = _ytWBaOIt;
         "UU6xTHX0" = _UU6xTHX0;
         "rUpz45jp" = _rUpz45jp;
-        "fabric-1.21" = _UU6xTHX0;
-        "fabric-1.21.1" = _UU6xTHX0;
-        "neoforge-1.21" = _rUpz45jp;
-        "neoforge-1.21.1" = _rUpz45jp;
+        "ScLwtSZm" = _ScLwtSZm;
+        "KoSshT9g" = _KoSshT9g;
+        "RU5Jluoq" = _RU5Jluoq;
+        "Y65Uk0Zl" = _Y65Uk0Zl;
+        "DEA9LzL8" = _DEA9LzL8;
+        "zLuF6a7d" = _zLuF6a7d;
+        "fabric-1.21" = _DEA9LzL8;
+        "fabric-1.21.1" = _DEA9LzL8;
+        "neoforge-1.21" = _zLuF6a7d;
+        "neoforge-1.21.1" = _zLuF6a7d;
         "pkg-1.2.27" = _odk3LqTB;
         "pkg-1.2.28" = _4Yy9FFuW;
         "pkg-1.2.29" = _kCRoy2oM;
@@ -1129,7 +1165,13 @@ let
         "pkg-2.9.1+neoforge" = _ytWBaOIt;
         "pkg-2.9.2+fabric" = _UU6xTHX0;
         "pkg-2.9.2+neoforge" = _rUpz45jp;
-        "default" = _rUpz45jp;
+        "pkg-2.10.0+fabric" = _ScLwtSZm;
+        "pkg-2.10.0+neoforge" = _KoSshT9g;
+        "pkg-2.11.0+fabric" = _RU5Jluoq;
+        "pkg-2.11.0+neoforge" = _Y65Uk0Zl;
+        "pkg-2.12.0+fabric" = _DEA9LzL8;
+        "pkg-2.12.0+neoforge" = _zLuF6a7d;
+        "default" = _zLuF6a7d;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "catch-rate-display";

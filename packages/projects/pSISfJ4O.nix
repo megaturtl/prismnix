@@ -416,6 +416,16 @@ let
             "file" = "quick-pack-neoforge-1.5.0+26.2.jar";
             "hash" = "sha512-YAn/0Xs13POBzdsOi2peMSLXHGPHIXDpNy068Xl0FCa3AaiRge6j6T3xqcI4acylOYBF0VUpJSPtYTozFkiwwg==";
         };
+        _KS7gwK5P = {
+            "id" = "KS7gwK5P";
+            "file" = "quick-pack-fabric-1.5.0+26.3.jar";
+            "hash" = "sha512-cmeWr9Jaw3Z1c+BBHp8XJIJmVm1ahuHpqQ8IO4mXtl/up2pAz0VjBM/niOXseDc5sQ2+7JtsDnw34vr80xMMIA==";
+        };
+        _kEY6fadn = {
+            "id" = "kEY6fadn";
+            "file" = "quick-pack-neoforge-1.5.0+26.3.jar";
+            "hash" = "sha512-FEPB+608Hx/IwFyBrZ3ClVCQdpuqHkvHBxj5W6h4THWivqbVujJ3tWV/BZiyo8RlxYDqfmK9HIKZ+RjT4nOeRg==";
+        };
     in {
         "UhNeJBKL" = _UhNeJBKL;
         "Iwweuno4" = _Iwweuno4;
@@ -500,6 +510,8 @@ let
         "c4E6FKAS" = _c4E6FKAS;
         "KgDHklwM" = _KgDHklwM;
         "SONyuohy" = _SONyuohy;
+        "KS7gwK5P" = _KS7gwK5P;
+        "kEY6fadn" = _kEY6fadn;
         "fabric-1.20.5" = _YZCsCOAC;
         "fabric-1.20.6" = _YZCsCOAC;
         "fabric-1.21" = _YZCsCOAC;
@@ -532,6 +544,7 @@ let
         "fabric-26.1.2" = _B0WzCjx9;
         "fabric-26.2-rc-2" = _scqOvkce;
         "fabric-26.2" = _qkkuAg94;
+        "fabric-26.3" = _KS7gwK5P;
         "quilt-1.20.5" = _YZCsCOAC;
         "quilt-1.20.6" = _YZCsCOAC;
         "quilt-1.21" = _YZCsCOAC;
@@ -564,6 +577,7 @@ let
         "quilt-26.1.2" = _B0WzCjx9;
         "quilt-26.2-rc-2" = _scqOvkce;
         "quilt-26.2" = _qkkuAg94;
+        "quilt-26.3" = _KS7gwK5P;
         "forge-1.19.4" = _3P6DR5L3;
         "forge-1.20" = _3P6DR5L3;
         "forge-1.20.1" = _AVHfwv3D;
@@ -612,6 +626,7 @@ let
         "neoforge-26.1.1" = _qMAOujye;
         "neoforge-26.1.2" = _KgDHklwM;
         "neoforge-26.2" = _SONyuohy;
+        "neoforge-26.3" = _kEY6fadn;
         "pkg-1.1.0+1.21.10" = _UhNeJBKL;
         "pkg-1.1.0+1.20.1" = _Iwweuno4;
         "pkg-1.2.0+1.21.10" = _K6FpGNBw;
@@ -693,7 +708,9 @@ let
         "pkg-neoforge-1.5.0+1.21.11" = _c4E6FKAS;
         "pkg-neoforge-1.5.0+26.1.2" = _KgDHklwM;
         "pkg-neoforge-1.5.0+26.2" = _SONyuohy;
-        "default" = _SONyuohy;
+        "pkg-fabric-1.5.0+26.3" = _KS7gwK5P;
+        "pkg-neoforge-1.5.0+26.3" = _kEY6fadn;
+        "default" = _kEY6fadn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "quick-pack";

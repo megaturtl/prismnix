@@ -251,6 +251,16 @@ let
             "file" = "simple-world-downloader-1.5.4+26.2.jar";
             "hash" = "sha512-UpLe7NIuQITdpumaUMbSePQMBUxB6a0VQ/wKIk11XdWWCG/9x9RJDaUNmv+i+nVDcaZJ17clzYnfXC+CTcwbcQ==";
         };
+        _hqobyJD8 = {
+            "id" = "hqobyJD8";
+            "file" = "simple-world-downloader-1.5.4+26.3-rc-2.jar";
+            "hash" = "sha512-DbHj+6+21OLNana1YLMm/sYO/YQNTtZTuXikdjfQpqqCzuXvG0a9RR+3W+9nilGi7VwMzEOslniq0zx+f/6S6w==";
+        };
+        _9dKkSaGA = {
+            "id" = "9dKkSaGA";
+            "file" = "simple-world-downloader-1.5.4+26.3.jar";
+            "hash" = "sha512-fly+BU9Ik9ap/uAPZzQLO4V4r0BCVk9H9Tb8b4sstDSbduqEi2A28YY0XQqY8NjAN1MJDpwMWMrnxNUvXAgqtA==";
+        };
     in {
         "sf385nKS" = _sf385nKS;
         "E8VwjjID" = _E8VwjjID;
@@ -302,6 +312,8 @@ let
         "fnoEI4Yu" = _fnoEI4Yu;
         "YkNLmFw8" = _YkNLmFw8;
         "Vn8YdZVM" = _Vn8YdZVM;
+        "hqobyJD8" = _hqobyJD8;
+        "9dKkSaGA" = _9dKkSaGA;
         "fabric-1.21.10" = _hf1qs30B;
         "fabric-1.21.9" = _3USGTzaE;
         "fabric-1.21.8" = _8AOJKAFu;
@@ -330,6 +342,8 @@ let
         "fabric-26.1.1" = _P0dFPH3v;
         "fabric-26.1.2" = _t1f5BrNv;
         "fabric-26.2" = _Vn8YdZVM;
+        "fabric-26.3-rc-2" = _hqobyJD8;
+        "fabric-26.3" = _9dKkSaGA;
         "pkg-1.0.0+1.21.10" = _sf385nKS;
         "pkg-1.0.0+1.21.9" = _E8VwjjID;
         "pkg-1.1.0+1.21.9" = _3USGTzaE;
@@ -380,7 +394,9 @@ let
         "pkg-1.5.2.1+26.2" = _fnoEI4Yu;
         "pkg-1.5.3+26.2" = _YkNLmFw8;
         "pkg-1.5.4+26.2" = _Vn8YdZVM;
-        "default" = _Vn8YdZVM;
+        "pkg-1.5.4+26.3-rc2" = _hqobyJD8;
+        "pkg-1.5.4+26.3" = _9dKkSaGA;
+        "default" = _9dKkSaGA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-world-downloader";

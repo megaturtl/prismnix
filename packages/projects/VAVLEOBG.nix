@@ -161,6 +161,16 @@ let
             "file" = "Katters Structures Only Dungeons v2.5.jar";
             "hash" = "sha512-qVK0RTsuALAr2ocVvDBBzBJzqOZ2ZBm1UNAZuxMFsSXs4C0xnwwRP3PC5Eq4zbIR7CGZ3UNLl2K739Msts1mbw==";
         };
+        _414H46Hl = {
+            "id" = "414H46Hl";
+            "file" = "Katters Structures Only Dungeons v2.6.zip";
+            "hash" = "sha512-HIpgkgE25U8cbt7pmxpFNYaNMEEAU3kVam9gaLdFhd5Je50Np2dfuHlg+UFustB3cR5Iso5I0DEtPsvHyjFPfA==";
+        };
+        _lBfXcQsy = {
+            "id" = "lBfXcQsy";
+            "file" = "Katters Structures Only Dungeons v2.6.jar";
+            "hash" = "sha512-iNRjswdaHF5kH7PRC3CHF1oLOD5IO+E+AfQBnYM6fEgTgowwFD3EZMaUTwcGKKdK6r/iTRLIHGA8U8TpUqOdUg==";
+        };
     in {
         "dTONVW56" = _dTONVW56;
         "DdgMhV5G" = _DdgMhV5G;
@@ -194,6 +204,8 @@ let
         "OwJV9sDO" = _OwJV9sDO;
         "ERrAuTfk" = _ERrAuTfk;
         "tw0MWiEJ" = _tw0MWiEJ;
+        "414H46Hl" = _414H46Hl;
+        "lBfXcQsy" = _lBfXcQsy;
         "datapack-23w31a" = _OBDoCWQe;
         "datapack-1.20.2" = _OBDoCWQe;
         "datapack-1.20.3" = _OBDoCWQe;
@@ -215,6 +227,7 @@ let
         "datapack-26.1.1" = _57KsGYXA;
         "datapack-26.1.2" = _57KsGYXA;
         "datapack-26.2" = _ERrAuTfk;
+        "datapack-26.3" = _414H46Hl;
         "fabric-23w31a" = _32sZpQ1W;
         "fabric-1.20.2" = _32sZpQ1W;
         "fabric-1.20.3" = _32sZpQ1W;
@@ -236,6 +249,7 @@ let
         "fabric-26.1.1" = _OwJV9sDO;
         "fabric-26.1.2" = _OwJV9sDO;
         "fabric-26.2" = _tw0MWiEJ;
+        "fabric-26.3" = _lBfXcQsy;
         "forge-23w31a" = _32sZpQ1W;
         "forge-1.20.2" = _32sZpQ1W;
         "forge-1.20.3" = _32sZpQ1W;
@@ -257,6 +271,7 @@ let
         "forge-26.1.1" = _OwJV9sDO;
         "forge-26.1.2" = _OwJV9sDO;
         "forge-26.2" = _tw0MWiEJ;
+        "forge-26.3" = _lBfXcQsy;
         "quilt-23w31a" = _32sZpQ1W;
         "quilt-1.20.2" = _32sZpQ1W;
         "quilt-1.20.3" = _32sZpQ1W;
@@ -278,6 +293,7 @@ let
         "quilt-26.1.1" = _OwJV9sDO;
         "quilt-26.1.2" = _OwJV9sDO;
         "quilt-26.2" = _tw0MWiEJ;
+        "quilt-26.3" = _lBfXcQsy;
         "neoforge-1.21" = _HZEor0Ie;
         "neoforge-1.21.1" = _HZEor0Ie;
         "neoforge-1.21.2" = _3xFoRYuj;
@@ -293,6 +309,7 @@ let
         "neoforge-26.1.1" = _OwJV9sDO;
         "neoforge-26.1.2" = _OwJV9sDO;
         "neoforge-26.2" = _tw0MWiEJ;
+        "neoforge-26.3" = _lBfXcQsy;
         "pkg-1.9" = _dTONVW56;
         "pkg-1.9+mod" = _DdgMhV5G;
         "pkg-1.10" = _OBDoCWQe;
@@ -325,7 +342,9 @@ let
         "pkg-2.4+mod" = _OwJV9sDO;
         "pkg-2.5" = _ERrAuTfk;
         "pkg-2.5-mod" = _tw0MWiEJ;
-        "default" = _tw0MWiEJ;
+        "pkg-2.6" = _414H46Hl;
+        "pkg-2.6-mod" = _lBfXcQsy;
+        "default" = _lBfXcQsy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "katters-structures-only-dungeon";

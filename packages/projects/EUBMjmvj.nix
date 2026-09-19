@@ -616,6 +616,11 @@ let
             "file" = "path_lower-1.0.1-mc26.1.2.zip";
             "hash" = "sha512-taJH39QqRFqN8KCGptCz9D0V35qhYOTFBUrxMR6q8N58GrXCamlZyFJWTEXYCjO0z6Rsc3OL1E6Z/PuyqdipRA==";
         };
+        _CX1iahKX = {
+            "id" = "CX1iahKX";
+            "file" = "path_lower-1.0.1-mc26.3.zip";
+            "hash" = "sha512-y1fITv8/kVlM2SCOhzKSpv58zO0g+D+hMoAsK4tYAInycErHO4o9dm4RjmX35SnrKfzXk6vIcmI189Empe6MUw==";
+        };
     in {
         "zAzb9q19" = _zAzb9q19;
         "hRiWiaxl" = _hRiWiaxl;
@@ -740,6 +745,7 @@ let
         "lhLFKzqL" = _lhLFKzqL;
         "cJ77gCUK" = _cJ77gCUK;
         "ykZMnAkR" = _ykZMnAkR;
+        "CX1iahKX" = _CX1iahKX;
         "minecraft-1.9" = _uiSddpP0;
         "minecraft-1.9.1" = _DVIKDCa2;
         "minecraft-1.9.2" = _9tD5z9FZ;
@@ -804,9 +810,10 @@ let
         "minecraft-26.2" = _lhLFKzqL;
         "minecraft-26.1.1" = _cJ77gCUK;
         "minecraft-26.1.2" = _ykZMnAkR;
+        "minecraft-26.3" = _CX1iahKX;
         "pkg-1.0.0" = _ex9rYx2y;
-        "pkg-1.0.1" = _ykZMnAkR;
-        "default" = _ykZMnAkR;
+        "pkg-1.0.1" = _CX1iahKX;
+        "default" = _CX1iahKX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-collective-lower-path";

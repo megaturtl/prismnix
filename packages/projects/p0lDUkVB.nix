@@ -111,6 +111,11 @@ let
             "file" = "retrostorage-3.3.2.jar";
             "hash" = "sha512-PsmCuAASal93jI+ndlMEPq5cWzJ5GJZILq2K0oGGVFXTKPH7/lIbhm4Vg181BFSd84bdAwecmiDEGt0eWakt4Q==";
         };
+        _WZkRzuLp = {
+            "id" = "WZkRzuLp";
+            "file" = "retrostorage-3.3.3.jar";
+            "hash" = "sha512-WUq/9TVgmS3k4bE3j2hlfdm/hcybI+dpl8YG+Eu3VFbeF4+9JcIi+g0+shxC0y8uTRIIr3GnSNxhYhApMv3mGQ==";
+        };
     in {
         "raxg1RJf" = _raxg1RJf;
         "sgv2Aukt" = _sgv2Aukt;
@@ -134,7 +139,8 @@ let
         "MRVkmgaP" = _MRVkmgaP;
         "c9i7Z9aq" = _c9i7Z9aq;
         "l4mvAXew" = _l4mvAXew;
-        "bta-babric-b1.7.3" = _l4mvAXew;
+        "WZkRzuLp" = _WZkRzuLp;
+        "bta-babric-b1.7.3" = _WZkRzuLp;
         "babric-b1.7.3" = _3rKqxhk4;
         "fabric-b1.7.3" = _3rKqxhk4;
         "pkg-2.1.4" = _raxg1RJf;
@@ -159,7 +165,8 @@ let
         "pkg-3.3.0" = _MRVkmgaP;
         "pkg-3.3.1" = _c9i7Z9aq;
         "pkg-3.3.2" = _l4mvAXew;
-        "default" = _l4mvAXew;
+        "pkg-3.3.3" = _WZkRzuLp;
+        "default" = _WZkRzuLp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "retrostorage";

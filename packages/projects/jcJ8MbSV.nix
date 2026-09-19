@@ -36,6 +36,11 @@ let
             "file" = "resourcefulbees-forge-1.19.2-1.0.0-alpha.21.jar";
             "hash" = "sha512-B4fFiIecES28RSwmsDPIqx/lVtW7X3DJ8KaT25Z2v30Lozye7v/B41K68wSfOhhBlvuSApxpiEyWOym+O8HFQw==";
         };
+        _yKCGiStb = {
+            "id" = "yKCGiStb";
+            "file" = "resourcefulbees-neoforge-26.2-1.0.0-alpha.7.jar";
+            "hash" = "sha512-aYsiEn82hKD2rvv3rxQIkXG3UvY1T0g7Ttk3U2T1AgLG44uNzdrhHNksvHNCf//I24HyAWxeEc18PXWA1QYxwA==";
+        };
     in {
         "7xs8qXnz" = _7xs8qXnz;
         "LGSZ04aw" = _LGSZ04aw;
@@ -44,8 +49,10 @@ let
         "1BaYsp0I" = _1BaYsp0I;
         "4Qwim2px" = _4Qwim2px;
         "EiVzFcls" = _EiVzFcls;
+        "yKCGiStb" = _yKCGiStb;
         "forge-1.16.5" = _7xs8qXnz;
         "forge-1.19.2" = _EiVzFcls;
+        "neoforge-26.2" = _yKCGiStb;
         "pkg-0.10.7" = _7xs8qXnz;
         "pkg-1.0.0-alpha.15" = _LGSZ04aw;
         "pkg-1.0.0-alpha.16" = _oQdoJ3me;
@@ -53,7 +60,8 @@ let
         "pkg-1.0.0-alpha.18" = _1BaYsp0I;
         "pkg-1.0.0-alpha.19" = _4Qwim2px;
         "pkg-1.0.0-alpha.21" = _EiVzFcls;
-        "default" = _EiVzFcls;
+        "pkg-1.0.0-alpha.7" = _yKCGiStb;
+        "default" = _yKCGiStb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "resourceful-bees";

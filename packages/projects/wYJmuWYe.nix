@@ -1911,6 +1911,16 @@ let
             "file" = "native-nicknames-fabric-1.1.0+26.2.jar";
             "hash" = "sha512-RrqIEWDoGRFe1fqXgWH6cgYg8TTjh2RbZZhlarRf/UkPI4rQoPisSzhFebqxgzTiUWKQN1JL/fgntOXUio+dNg==";
         };
+        _PffB8aCb = {
+            "id" = "PffB8aCb";
+            "file" = "native-nicknames-neoforge-1.1.0+26.3.jar";
+            "hash" = "sha512-CncKPu7xZNwY0bGeRmHkGtUWDoeEIlZLHK7EfTGti7ilN5BTaszFS+NwqcIDtVKCbaCx8aWnN7QEfla9a1RZYw==";
+        };
+        _7itUzyh6 = {
+            "id" = "7itUzyh6";
+            "file" = "native-nicknames-fabric-1.1.0+26.3.jar";
+            "hash" = "sha512-7y6vJcnqnClNNpT6WyVqecJKZurt0qe2o5Yh/D5+pj2YSl4lT9Bw1vczX9KTYxenljeYsELuaxUiep/FGtf5BA==";
+        };
     in {
         "ASlsie1d" = _ASlsie1d;
         "tQKq040Z" = _tQKq040Z;
@@ -2294,6 +2304,8 @@ let
         "8cQ2zWgh" = _8cQ2zWgh;
         "BwqOrgmZ" = _BwqOrgmZ;
         "IhDwtcb1" = _IhDwtcb1;
+        "PffB8aCb" = _PffB8aCb;
+        "7itUzyh6" = _7itUzyh6;
         "fabric-1.21.1" = _7Mx1Bg8A;
         "fabric-1.18.2" = _t26QKB2c;
         "fabric-1.21.8" = _pPt2y3Xh;
@@ -2337,6 +2349,7 @@ let
         "fabric-26.1.2" = _kpPnhcct;
         "fabric-26.1" = _8cQ2zWgh;
         "fabric-26.2" = _IhDwtcb1;
+        "fabric-26.3" = _7itUzyh6;
         "quilt-1.21.1" = _7Mx1Bg8A;
         "quilt-1.18.2" = _t26QKB2c;
         "quilt-1.21.8" = _pPt2y3Xh;
@@ -2380,6 +2393,7 @@ let
         "quilt-26.1.2" = _kpPnhcct;
         "quilt-26.1" = _8cQ2zWgh;
         "quilt-26.2" = _IhDwtcb1;
+        "quilt-26.3" = _7itUzyh6;
         "neoforge-1.21.1" = _O3HpPZe6;
         "neoforge-1.21.8" = _R5XbtKLY;
         "neoforge-1.21.9" = _uaIONXXf;
@@ -2401,6 +2415,7 @@ let
         "neoforge-26.1.2" = _Azh5sbbz;
         "neoforge-26.1.1" = _EUPERTDK;
         "neoforge-26.2" = _BwqOrgmZ;
+        "neoforge-26.3" = _PffB8aCb;
         "forge-1.20.1" = _vhKbY3xD;
         "forge-1.20.4" = _PHyXvxdA;
         "forge-1.20.2" = _mbtzcl5o;
@@ -2626,7 +2641,8 @@ let
         "pkg-1.1.0+26.1.2" = _kpPnhcct;
         "pkg-1.1.0+26.1.1" = _d61AZdvh;
         "pkg-1.1.0+26.2" = _IhDwtcb1;
-        "default" = _IhDwtcb1;
+        "pkg-1.1.0+26.3" = _7itUzyh6;
+        "default" = _7itUzyh6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "native-nicknames";

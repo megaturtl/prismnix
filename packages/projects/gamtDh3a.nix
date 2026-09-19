@@ -26,12 +26,18 @@ let
             "file" = "valvesprint-1.4.jar";
             "hash" = "sha512-mA77iK5DC1SLoc0ZR/oSv+s9V5i/HoTGa7CicQK7bIytGG10isoQOjl5JzGaBTzyrdueT/VLMSjzDMrdUy+TvQ==";
         };
+        _FeUqs8ae = {
+            "id" = "FeUqs8ae";
+            "file" = "valvesprint-1.5.jar";
+            "hash" = "sha512-Wk/Z757PfCZghGYWiVhrSN6JWVZuby2Mo7vbA26AGUdxgF6DbKQvCV49e6n89H8CHTe4sGBl2tPerPqZ4ZOagw==";
+        };
     in {
         "i1uNMx8H" = _i1uNMx8H;
         "OrcWx4wU" = _OrcWx4wU;
         "oiWJZlwM" = _oiWJZlwM;
         "dVDsqkd1" = _dVDsqkd1;
         "UEihN194" = _UEihN194;
+        "FeUqs8ae" = _FeUqs8ae;
         "fabric-1.16" = _oiWJZlwM;
         "fabric-1.16.1" = _oiWJZlwM;
         "fabric-1.16.2" = _oiWJZlwM;
@@ -68,12 +74,14 @@ let
         "fabric-1.21.10" = _oiWJZlwM;
         "fabric-1.21.11" = _oiWJZlwM;
         "fabric-26.2" = _UEihN194;
+        "fabric-26.3" = _FeUqs8ae;
         "pkg-1.0" = _i1uNMx8H;
         "pkg-1.1" = _OrcWx4wU;
         "pkg-1.2" = _oiWJZlwM;
         "pkg-1.3" = _dVDsqkd1;
         "pkg-1.4" = _UEihN194;
-        "default" = _UEihN194;
+        "pkg-1.5" = _FeUqs8ae;
+        "default" = _FeUqs8ae;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "valvesprint";

@@ -51,6 +51,11 @@ let
             "file" = "Christmas Hat.zip";
             "hash" = "sha512-xC2uOj8QSoTHGwjLGoWuZ09FSpukyS6EMVjTzP43RNrwcvlfJ/oM2mtKugN/UljPvoh692QG4s8PnW7QdCiR9g==";
         };
+        _lNUI7ute = {
+            "id" = "lNUI7ute";
+            "file" = "Christmas Hat.zip";
+            "hash" = "sha512-xC2uOj8QSoTHGwjLGoWuZ09FSpukyS6EMVjTzP43RNrwcvlfJ/oM2mtKugN/UljPvoh692QG4s8PnW7QdCiR9g==";
+        };
     in {
         "4MHSNgp4" = _4MHSNgp4;
         "e8ZF4OEE" = _e8ZF4OEE;
@@ -62,6 +67,7 @@ let
         "Nk25JaIv" = _Nk25JaIv;
         "VL1IdGlV" = _VL1IdGlV;
         "1TAmSdYT" = _1TAmSdYT;
+        "lNUI7ute" = _lNUI7ute;
         "minecraft-1.16.5" = _sog3SDSU;
         "minecraft-1.17" = _4MHSNgp4;
         "minecraft-1.17.1" = _4MHSNgp4;
@@ -111,6 +117,7 @@ let
         "minecraft-26.3-snapshot-4" = _1TAmSdYT;
         "minecraft-26.3-snapshot-5" = _1TAmSdYT;
         "minecraft-26.3-snapshot-6" = _1TAmSdYT;
+        "minecraft-26.3" = _lNUI7ute;
         "pkg-1.20.1" = _4MHSNgp4;
         "pkg-1.20.4" = _e8ZF4OEE;
         "pkg-1.21.1" = _pWcTDtQD;
@@ -121,7 +128,8 @@ let
         "pkg-1.19.2" = _Nk25JaIv;
         "pkg-1.12.2" = _VL1IdGlV;
         "pkg-26.2" = _1TAmSdYT;
-        "default" = _1TAmSdYT;
+        "pkg-26.3" = _lNUI7ute;
+        "default" = _lNUI7ute;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "christmas-hat";

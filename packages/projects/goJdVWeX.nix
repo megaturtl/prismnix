@@ -36,6 +36,11 @@ let
             "file" = "lunge-launch-2.1.0.jar";
             "hash" = "sha512-yUlHKSdMy2kA++L/t6usFlnr9BWyQDDGSe74m8N0tZhcktqecRYNo4oNAjCaXPRamXoaKri6G3WLy+WAen0OLg==";
         };
+        _vDqOJbnb = {
+            "id" = "vDqOJbnb";
+            "file" = "lunge-launch-2.2.0.jar";
+            "hash" = "sha512-CFpGGh9FVoAN88E2ROoJDAPNyf3Bt5c8xK7oAuhmSNvf9nkaV/uXe2XUsWcfgLRiET/wcmnTiBv47kaubtohZw==";
+        };
     in {
         "JPlk8Ld9" = _JPlk8Ld9;
         "2DEpzqg7" = _2DEpzqg7;
@@ -44,6 +49,7 @@ let
         "2pU6apwX" = _2pU6apwX;
         "XmiYQxs5" = _XmiYQxs5;
         "axdTC0Ac" = _axdTC0Ac;
+        "vDqOJbnb" = _vDqOJbnb;
         "fabric-25w46a" = _JPlk8Ld9;
         "fabric-1.21.11-pre1" = _2DEpzqg7;
         "fabric-1.21.11" = _2pU6apwX;
@@ -51,6 +57,7 @@ let
         "fabric-26.1.1" = _XmiYQxs5;
         "fabric-26.1.2" = _XmiYQxs5;
         "fabric-26.2" = _axdTC0Ac;
+        "fabric-26.3" = _vDqOJbnb;
         "pkg-0.1.0" = _JPlk8Ld9;
         "pkg-0.1.1" = _2DEpzqg7;
         "pkg-1.0.0" = _FAflCPM5;
@@ -58,7 +65,8 @@ let
         "pkg-1.2.0" = _2pU6apwX;
         "pkg-2.0.0" = _XmiYQxs5;
         "pkg-2.1.0" = _axdTC0Ac;
-        "default" = _axdTC0Ac;
+        "pkg-2.2.0" = _vDqOJbnb;
+        "default" = _vDqOJbnb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lunge-launch";

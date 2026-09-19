@@ -21,17 +21,31 @@ let
             "file" = "squish-fabric-0.4-SNAPSHOT+mc1.20.1.jar";
             "hash" = "sha512-v8nq1Ba0P53cGyBvEopmuypzNZpe7B9w9yhOfsBBbeGY4HB88dQPfozdabpjjITS7o5xOlJ67GbripBB5snXKw==";
         };
+        _VSwaoVVz = {
+            "id" = "VSwaoVVz";
+            "file" = "squish-fabric-1.0+mc1.20.1.jar";
+            "hash" = "sha512-/ujDmty4c7gwTVBedtqwAvVHgeKBIKzIlkfMHfKkc4W+FP0oV8454OxRHAzBxTUMLiwCdkM+aaCPBGXuy6BHNw==";
+        };
+        _IchJixRM = {
+            "id" = "IchJixRM";
+            "file" = "squish-fabric-1.1+mc1.20.1.jar";
+            "hash" = "sha512-VZpXo+Mgqay7s5AlcYu8YXQdnSodkWKFHap3OZbQtgwdBmk7WdShv+o+Dix0rJg19FOQZxKlx5H/zxxlVbyRyg==";
+        };
     in {
         "jsB2qHme" = _jsB2qHme;
         "cjrgiZJ3" = _cjrgiZJ3;
         "HhjNVt6a" = _HhjNVt6a;
         "zmp1gZyy" = _zmp1gZyy;
-        "fabric-1.20.1" = _zmp1gZyy;
+        "VSwaoVVz" = _VSwaoVVz;
+        "IchJixRM" = _IchJixRM;
+        "fabric-1.20.1" = _IchJixRM;
         "pkg-0.1-1.20.1" = _jsB2qHme;
         "pkg-0.2-1.20.1" = _cjrgiZJ3;
         "pkg-0.3-1.20.1" = _HhjNVt6a;
         "pkg-0.4-1.20.1" = _zmp1gZyy;
-        "default" = _zmp1gZyy;
+        "pkg-1.0" = _VSwaoVVz;
+        "pkg-1.1" = _IchJixRM;
+        "default" = _IchJixRM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "squish";

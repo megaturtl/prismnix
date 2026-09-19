@@ -531,6 +531,16 @@ let
             "file" = "fabricated-legacy-forge-3.2.2.jar";
             "hash" = "sha512-rvPFecXs1YPR4UOaFYZwsKcrF3+CO2YwdP+hK0hAoYOUJJtcSoXFYobkRKPwpbSTuzryzBGds42sIKnxeOGr3g==";
         };
+        _CcQzfi9v = {
+            "id" = "CcQzfi9v";
+            "file" = "fabricated-legacy-forge-3.3.0.jar";
+            "hash" = "sha512-KkE3S0LfuCAQjv823O2KF8Aq7XSLPm34WSHU3GwIN7/IJqj+MnJGbbRH116cfNJrfika4bKbu9oMQ1NSbotc/w==";
+        };
+        _gC0CINT2 = {
+            "id" = "gC0CINT2";
+            "file" = "fabricated-legacy-forge-3.3.0.jar";
+            "hash" = "sha512-KFqjqP3Mj3OZ1VbrBN1QY/IvjEgs7dPpDV+Slhm7hGQ58tvv+yAfKRDbZp6wuc7t+fVefOpg2r+YfQI0hUBzmg==";
+        };
     in {
         "Y5KBGqG4" = _Y5KBGqG4;
         "CagVnf4s" = _CagVnf4s;
@@ -638,7 +648,9 @@ let
         "fvhF9ZeG" = _fvhF9ZeG;
         "8m5DBSoL" = _8m5DBSoL;
         "Ekpu8zdO" = _Ekpu8zdO;
-        "legacy-fabric-1.3.2" = _fvhF9ZeG;
+        "CcQzfi9v" = _CcQzfi9v;
+        "gC0CINT2" = _gC0CINT2;
+        "legacy-fabric-1.3.2" = _gC0CINT2;
         "legacy-fabric-1.4" = _Ekpu8zdO;
         "legacy-fabric-1.4.1" = _IpE768Qp;
         "legacy-fabric-1.4.2" = _DMSC6XsA;
@@ -647,7 +659,7 @@ let
         "legacy-fabric-1.4.5" = _TZ3tc9gy;
         "legacy-fabric-1.4.6" = _wRxhsNVx;
         "legacy-fabric-1.4.7" = _aiImwgZ0;
-        "ornithe-1.3.2" = _2lMBN90i;
+        "ornithe-1.3.2" = _CcQzfi9v;
         "ornithe-1.4" = _8m5DBSoL;
         "pkg-1.0.0" = _Y5KBGqG4;
         "pkg-1.1.0" = _CagVnf4s;
@@ -676,7 +688,9 @@ let
         "pkg-3.2.1" = _WGOtzAkl;
         "pkg-3.2.2+1.3.2" = _fvhF9ZeG;
         "pkg-3.2.2+1.4" = _Ekpu8zdO;
-        "default" = _Ekpu8zdO;
+        "pkg-3.3.0+1.3.2+ornithe" = _CcQzfi9v;
+        "pkg-3.3.0+1.3.2+legacy-fabric" = _gC0CINT2;
+        "default" = _gC0CINT2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fabricated-forge";

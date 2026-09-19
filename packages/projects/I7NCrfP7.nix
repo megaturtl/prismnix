@@ -6,11 +6,18 @@ let
             "file" = "infinitygenerator-1.2.0.jar";
             "hash" = "sha512-ajmxQ8I/6B+0XbiU31PJUn3LnZnCoYv9QWa8D3JuZ1lybvQvpa7PuxREyqmWjuH0ce/Okqsjq5M+Wtx9tirrCg==";
         };
+        _w9SvcD6K = {
+            "id" = "w9SvcD6K";
+            "file" = "infinitygenerator-1.4.0.jar";
+            "hash" = "sha512-4Vlzouxg6fHP2xoXfJUEOzlWzHG0ELFZUkqQ9rcE1tE8Ski1WRhgUggd2benIS7UTRHsm1I60gDHfUGpEG7t5w==";
+        };
     in {
         "JyfYUj4C" = _JyfYUj4C;
-        "forge-1.20.1" = _JyfYUj4C;
+        "w9SvcD6K" = _w9SvcD6K;
+        "forge-1.20.1" = _w9SvcD6K;
         "pkg-1.2.0" = _JyfYUj4C;
-        "default" = _JyfYUj4C;
+        "pkg-1.4.0" = _w9SvcD6K;
+        "default" = _w9SvcD6K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pugmeowlas-infinity-generator";

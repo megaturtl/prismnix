@@ -431,6 +431,51 @@ let
             "file" = "polysprint-1.2.2+26.2.jar";
             "hash" = "sha512-fSTp3+U8H8H8C81jgcVCcKp21aFIMbKocUHKG4bhhmYRGSO0LMQYoz9Bcn2I0c6FoJft01fadErhEUZUn4xy7g==";
         };
+        _jtnIhS6B = {
+            "id" = "jtnIhS6B";
+            "file" = "polysprint-1.3.0+1.21.1.jar";
+            "hash" = "sha512-fDfwGRNoJnKzcWMVGKDE6Gfk2Pubb2RpK+UimWzCrxJ6AqVJS4LuJJX6QRO3196gyCeNMDITHHp8UOpNMBIy1g==";
+        };
+        _XVXPgWsj = {
+            "id" = "XVXPgWsj";
+            "file" = "polysprint-1.3.0+1.21.4.jar";
+            "hash" = "sha512-wLdSLQuVYQbVnCAkl3FG4i8PNAPhnEz0eT3dOxMLhSG3VCzXkeIrkypmEKAyrBn5FMBz3U0NrzOH7DxFi+4EDA==";
+        };
+        _nV92IUJM = {
+            "id" = "nV92IUJM";
+            "file" = "polysprint-1.3.0+1.21.5.jar";
+            "hash" = "sha512-qC1nqiBLFdd2BGLfSB7r2mKzJGCgZm9GyEPQc/ca5Ij4mbOQvBZfyhVau6ZJnR2I59D9s07YLXs93XGBLEdkiA==";
+        };
+        _TOFUfrq8 = {
+            "id" = "TOFUfrq8";
+            "file" = "polysprint-1.3.0+1.21.8.jar";
+            "hash" = "sha512-7voSPVIV72GJwG7NLi9/fy5bDbw3HMZLOSQV662A/AstjaE+I0Y+5sjaoO1BrV9DFxmnQRy/ZCCz1XzSdNwl7g==";
+        };
+        _2ZDuBR8n = {
+            "id" = "2ZDuBR8n";
+            "file" = "polysprint-1.3.0+1.21.10.jar";
+            "hash" = "sha512-CSKgQSXB/cTJivd94t+p/F3Rzivx/c8Equem7fLUJawS5S8OSU4xzwTMBPlzI+1dF4F7CwvRkVNMnKGLrp5akg==";
+        };
+        _7qx70Flt = {
+            "id" = "7qx70Flt";
+            "file" = "polysprint-1.3.0+1.21.11.jar";
+            "hash" = "sha512-w894W/yTeyrC5nyJwZDE1/BkZcEHbwaK3yvub4eJURzK+MwLvOkd+unv2dLaShh2DmQJf6IBPTH720Mz9mqRHw==";
+        };
+        _ur6BO8Jw = {
+            "id" = "ur6BO8Jw";
+            "file" = "polysprint-1.3.0+26.1.jar";
+            "hash" = "sha512-/PcF/VZwCVnAOVNwkZGaUOenwTERWQE5rNMHq3qpXM9XXTX9S6BC9cmjw65yPEEVyUlBXleXpFQGIzwdamPwng==";
+        };
+        _EtUrodhX = {
+            "id" = "EtUrodhX";
+            "file" = "polysprint-1.3.0+26.2.jar";
+            "hash" = "sha512-1xQm+2WXvZ1wtL9vdNa23lpq6oiLfJu9PKBvcbr/bBWnLi9ZDAgi7vCysgnNdnjxbl1V6byJKGvgFauNKCKeng==";
+        };
+        _dG6gXxFr = {
+            "id" = "dG6gXxFr";
+            "file" = "polysprint-1.3.0+26.3.jar";
+            "hash" = "sha512-joCxmUdhb4OQbar60yry9t4D7IvTMphHatcbgYZc+dIVNyvYtDwsBg7LlMrtTcpkwrMRukb+MyG/aQT+hcVz0A==";
+        };
     in {
         "eW9L5hBb" = _eW9L5hBb;
         "Zo8oCSXE" = _Zo8oCSXE;
@@ -518,18 +563,28 @@ let
         "RSzShOTO" = _RSzShOTO;
         "vXPZ6ffS" = _vXPZ6ffS;
         "jOeSr5ZQ" = _jOeSr5ZQ;
+        "jtnIhS6B" = _jtnIhS6B;
+        "XVXPgWsj" = _XVXPgWsj;
+        "nV92IUJM" = _nV92IUJM;
+        "TOFUfrq8" = _TOFUfrq8;
+        "2ZDuBR8n" = _2ZDuBR8n;
+        "7qx70Flt" = _7qx70Flt;
+        "ur6BO8Jw" = _ur6BO8Jw;
+        "EtUrodhX" = _EtUrodhX;
+        "dG6gXxFr" = _dG6gXxFr;
         "forge-1.8.9" = _95qrJcnP;
         "forge-1.12.2" = _al9hiFIM;
-        "fabric-26.2" = _jOeSr5ZQ;
-        "fabric-26.1" = _vXPZ6ffS;
-        "fabric-26.1.1" = _vXPZ6ffS;
-        "fabric-26.1.2" = _vXPZ6ffS;
-        "fabric-1.21.8" = _EU1pmdGV;
-        "fabric-1.21.5" = _NDmX5rVG;
-        "fabric-1.21.1" = _7Ll9IlbT;
-        "fabric-1.21.4" = _hMMuXjt1;
-        "fabric-1.21.10" = _9B6oCFS2;
-        "fabric-1.21.11" = _RSzShOTO;
+        "fabric-26.2" = _EtUrodhX;
+        "fabric-26.1" = _ur6BO8Jw;
+        "fabric-26.1.1" = _ur6BO8Jw;
+        "fabric-26.1.2" = _ur6BO8Jw;
+        "fabric-1.21.8" = _TOFUfrq8;
+        "fabric-1.21.5" = _nV92IUJM;
+        "fabric-1.21.1" = _jtnIhS6B;
+        "fabric-1.21.4" = _XVXPgWsj;
+        "fabric-1.21.10" = _2ZDuBR8n;
+        "fabric-1.21.11" = _7qx70Flt;
+        "fabric-26.3" = _dG6gXxFr;
         "pkg-v1.0.0" = _Zo8oCSXE;
         "pkg-v1.0.1" = _sdowrrpj;
         "pkg-v1.0.2" = _al9hiFIM;
@@ -543,7 +598,8 @@ let
         "pkg-v1.2.0" = _fhk1Hnb6;
         "pkg-v1.2.1" = _yitemYAN;
         "pkg-v1.2.2" = _jOeSr5ZQ;
-        "default" = _jOeSr5ZQ;
+        "pkg-v1.3.0" = _dG6gXxFr;
+        "default" = _dG6gXxFr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "polysprint";

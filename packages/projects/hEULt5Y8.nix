@@ -86,6 +86,11 @@ let
             "file" = "handyshulker-2.3.0-beta.1.jar";
             "hash" = "sha512-lMwiR4MQvF1r4pXi7kNxRgwX3YXos1V4EwCPxRyuK+vyoLOsKWY/Dzx3Nc5ZlNDV9gGcYMuPF7DFv+3+H1YJFg==";
         };
+        _7nqZqizO = {
+            "id" = "7nqZqizO";
+            "file" = "handyshulker-2.4.0.jar";
+            "hash" = "sha512-7sR2kbCgQOxymtQpJLRrpVvXclSScKm/bdQyLcti2rChdM5aTEIBaAMKm2WguopWsI1mNx8EP7aY85ALdh+hjQ==";
+        };
     in {
         "ojjBaD2w" = _ojjBaD2w;
         "7ucdwjB1" = _7ucdwjB1;
@@ -104,6 +109,7 @@ let
         "2VWiKyu9" = _2VWiKyu9;
         "zJcuTQrT" = _zJcuTQrT;
         "dXQNqJQr" = _dXQNqJQr;
+        "7nqZqizO" = _7nqZqizO;
         "fabric-1.21.11" = _71HShTNg;
         "fabric-26.1-rc-1" = _Ojvx0WXi;
         "fabric-26.1-rc-3" = _mOLKp6hX;
@@ -115,6 +121,7 @@ let
         "fabric-26.2-pre-1" = _2VWiKyu9;
         "fabric-26.2" = _zJcuTQrT;
         "fabric-26.3-snapshot-1" = _dXQNqJQr;
+        "fabric-26.3" = _7nqZqizO;
         "pkg-1.0.0" = _ojjBaD2w;
         "pkg-1.1.0" = _7ucdwjB1;
         "pkg-1.2.0" = _Zd1mdMrB;
@@ -132,7 +139,8 @@ let
         "pkg-2.1.0-beta.4" = _2VWiKyu9;
         "pkg-2.2.0" = _zJcuTQrT;
         "pkg-2.3.0-beta.1" = _dXQNqJQr;
-        "default" = _dXQNqJQr;
+        "pkg-2.4.0" = _7nqZqizO;
+        "default" = _7nqZqizO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "handy-shulker";

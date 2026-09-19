@@ -546,6 +546,26 @@ let
             "file" = "reignofnether-1.4.3.jar";
             "hash" = "sha512-Vh9guKHPjH7xwfz9AnB+fatgNH0Xo2L4oZiyQVE4LdZQbqgwkwwkdwpgLawJai+D9jYQm12FY7MtFJGCkZVC0A==";
         };
+        _yvmc4Gfd = {
+            "id" = "yvmc4Gfd";
+            "file" = "reignofnether-1.4.4.jar";
+            "hash" = "sha512-0SGaTH5H66xFeqKJBAcsOAvIZujw4bKCL5xjUXI9dm0Rlv/bWmwCI8m+VGQ4JOcu78Yba2FaR7IUaPM/IwMGSg==";
+        };
+        _SJRhwpUu = {
+            "id" = "SJRhwpUu";
+            "file" = "reignofnether-1.4.4a.jar";
+            "hash" = "sha512-q061s1Y/tG6zNSP2ZKPM7BOEhQxNxn3cahnBg9em8la1VnyhoqCOQVVZ+LJWK80/5vjhe3PuPLWaaIvHw5gAhg==";
+        };
+        _2DSNXj50 = {
+            "id" = "2DSNXj50";
+            "file" = "reignofnether-1.4.4b.jar";
+            "hash" = "sha512-35dUswtRz71iUTY4+89rnHth5vHXr2TUByBpCQ6InMFLtY0h/LsFghHSwBcLF1DifLRUjF6Ylfu9/5ERF/xJbg==";
+        };
+        _MhS848Dy = {
+            "id" = "MhS848Dy";
+            "file" = "reignofnether-1.4.4c.jar";
+            "hash" = "sha512-FWXvvQOdh5H+fz0J+SOK0AEqdIBeSaGHYCp5fAsJ9IkFao0DBdHnX86AdQeomdWwg6cv7s+TVvelNgdT7oFRIQ==";
+        };
     in {
         "B5466OCK" = _B5466OCK;
         "14SL9xZ8" = _14SL9xZ8;
@@ -656,9 +676,13 @@ let
         "DvSvcIVZ" = _DvSvcIVZ;
         "OiEirf1u" = _OiEirf1u;
         "cIjD0EMP" = _cIjD0EMP;
+        "yvmc4Gfd" = _yvmc4Gfd;
+        "SJRhwpUu" = _SJRhwpUu;
+        "2DSNXj50" = _2DSNXj50;
+        "MhS848Dy" = _MhS848Dy;
         "forge-1.19.2" = _p0YYsOrc;
         "forge-1.19.1" = _p0YYsOrc;
-        "forge-1.20.1" = _cIjD0EMP;
+        "forge-1.20.1" = _MhS848Dy;
         "pkg-1.0.1" = _B5466OCK;
         "pkg-1.0.2" = _14SL9xZ8;
         "pkg-1.0.3" = _5I4zAcYu;
@@ -767,7 +791,11 @@ let
         "pkg-1.4.1" = _DvSvcIVZ;
         "pkg-1.4.2" = _OiEirf1u;
         "pkg-1.4.3" = _cIjD0EMP;
-        "default" = _cIjD0EMP;
+        "pkg-1.4.4" = _yvmc4Gfd;
+        "pkg-1.4.4a" = _SJRhwpUu;
+        "pkg-1.4.4b" = _2DSNXj50;
+        "pkg-1.4.4c" = _MhS848Dy;
+        "default" = _MhS848Dy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reign-of-nether-rts";

@@ -541,6 +541,16 @@ let
             "file" = "colonypathingedition-1.21.1-1.0.5-ALPHA-13.1.jar";
             "hash" = "sha512-bJSJfL3GRgF01FPlIbKy+HyiHBrxAHkHDEopYsfWvk5J7f45LM8i3W2dqWFmEXR+Z1MCeyGBUYGkGCIlR71lbQ==";
         };
+        _WtMG9bn8 = {
+            "id" = "WtMG9bn8";
+            "file" = "colonypathingedition-1.0.5-ALPHA-13.2.jar";
+            "hash" = "sha512-7aFlRnNKsTuCRXFXtQm3X46fU42iZzCH3NL4MfiEHhX17C7dYak21ZEi/chrDKCh6HUgiyMLcY6COHwFAn+iow==";
+        };
+        _X9RRmVkt = {
+            "id" = "X9RRmVkt";
+            "file" = "colonypathingedition-1.21.1-1.0.5-ALPHA-13.2.jar";
+            "hash" = "sha512-+/TyRLE5YuXZebgyYELQyEDItvkcmU5EHpoS75C97C4XdyxksfaarcGq72p+Vq1BGXUiMSmiiq28GT4fiPIChA==";
+        };
     in {
         "KDxwq6vc" = _KDxwq6vc;
         "1doQqotj" = _1doQqotj;
@@ -650,8 +660,10 @@ let
         "YB8qcBq8" = _YB8qcBq8;
         "8nmp8uB7" = _8nmp8uB7;
         "2j4m325E" = _2j4m325E;
-        "forge-1.20.1" = _8nmp8uB7;
-        "neoforge-1.21.1" = _2j4m325E;
+        "WtMG9bn8" = _WtMG9bn8;
+        "X9RRmVkt" = _X9RRmVkt;
+        "forge-1.20.1" = _WtMG9bn8;
+        "neoforge-1.21.1" = _X9RRmVkt;
         "pkg-1.0.2" = _KDxwq6vc;
         "pkg-1.0.3" = _1doQqotj;
         "pkg-1.0.4-ALPHA-2.2" = _NN47vWvp;
@@ -720,7 +732,8 @@ let
         "pkg-1.0.5-ALPHA-12-fix-1" = _U4gckvFI;
         "pkg-1.0.5-ALPHA-13" = _YB8qcBq8;
         "pkg-1.0.5-ALPHA-13.1" = _2j4m325E;
-        "default" = _2j4m325E;
+        "pkg-1.0.5-ALPHA-13.2" = _X9RRmVkt;
+        "default" = _X9RRmVkt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pathfinding-edition-for-minecolonies";

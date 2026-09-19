@@ -36,6 +36,11 @@ let
             "file" = "remonitor-1.0.2+26.1.x.jar";
             "hash" = "sha512-QsU7nbGCLh+l+HVRoOyCelKnEo8GG72LJtdGnXM8LlX9Kbjvpdqy4luKAajUgkG+qi5d5gh4VXzynhyihgZfwA==";
         };
+        _Q7Vvi3p1 = {
+            "id" = "Q7Vvi3p1";
+            "file" = "remonitor-1.0.2+26.2.x.jar";
+            "hash" = "sha512-fJ70E3V3pQdwwqfHVKwacXaylirBhO1gvj3A0E9yEiHWKDExDejNBzG4MR2lDKSYeT31Lv/5Q1p7UIUp+QORoQ==";
+        };
     in {
         "XUtHMXF0" = _XUtHMXF0;
         "dGyBcVGn" = _dGyBcVGn;
@@ -44,6 +49,7 @@ let
         "Q4u6jBNm" = _Q4u6jBNm;
         "cL46A1Cw" = _cL46A1Cw;
         "Lgw9mAGp" = _Lgw9mAGp;
+        "Q7Vvi3p1" = _Q7Vvi3p1;
         "fabric-1.21" = _MQxRk2e4;
         "fabric-1.21.1" = _MQxRk2e4;
         "fabric-1.21.2" = _MQxRk2e4;
@@ -71,6 +77,7 @@ let
         "fabric-26.1" = _Lgw9mAGp;
         "fabric-26.1.1" = _Lgw9mAGp;
         "fabric-26.1.2" = _Lgw9mAGp;
+        "fabric-26.2" = _Q7Vvi3p1;
         "pkg-1.0.0+1.21.x" = _XUtHMXF0;
         "pkg-1.0.1+1.21.x" = _dGyBcVGn;
         "pkg-1.0.2+1.21.x" = _MQxRk2e4;
@@ -78,7 +85,8 @@ let
         "pkg-1.0.2+1.19.2-1.19.4" = _Q4u6jBNm;
         "pkg-1.0.2+1.19-1.19.1" = _cL46A1Cw;
         "pkg-1.0.2+26.1.x" = _Lgw9mAGp;
-        "default" = _Lgw9mAGp;
+        "pkg-1.0.2+26.2.x" = _Q7Vvi3p1;
+        "default" = _Q7Vvi3p1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "remonitor";

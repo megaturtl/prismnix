@@ -531,6 +531,31 @@ let
             "file" = "easy_mob_spawn_control-1.5.8-2.jar";
             "hash" = "sha512-18Yw5lS1959qMQTJBifKi+vu58YGdcOd1F3uppFBv2svNRFanZX5jdR7fo0b4Wx9L5rMb5Mm4hKuDsPLNy/k5Q==";
         };
+        _mKrLgmJr = {
+            "id" = "mKrLgmJr";
+            "file" = "easy_mob_spawn_control-1.5.9.jar";
+            "hash" = "sha512-g8od+UnDxLWvJQ35zj8cdlZLBgqxW1Y6y7s8mzTDwXlyz90yYJGeoRPH7R+L2EDkFsan6/X9q5ytzosxzNUylw==";
+        };
+        _JDQTlexA = {
+            "id" = "JDQTlexA";
+            "file" = "easy_mob_spawn_control-1.5.9.jar";
+            "hash" = "sha512-AxahtPv1Umg30kgQ8MyKhBW4xsTM0OTAAtmzQiOE5KBeJ9KhWFJV6OlhrXOHxVk1GmtTdzwFzg5+xDoANtkPZA==";
+        };
+        _tR7SNZkE = {
+            "id" = "tR7SNZkE";
+            "file" = "easy_mob_spawn_control-1.5.10.jar";
+            "hash" = "sha512-HRGoGSZMF5TdfWXKCrsd93oaT9nkf0Xe7DFj4nAzjL9m9vNbwT9Qqxjm5o9K8eymCqJzctziqLRB2Vrc6D9m4w==";
+        };
+        _KsQqSPDg = {
+            "id" = "KsQqSPDg";
+            "file" = "easy_mob_spawn_control-1.5.10.jar";
+            "hash" = "sha512-TehVs5b42dmb+fexqH/NsRcKhmlbRG8cyGNisWNmIKjuJCkvx//4Ir5J1ue+zUdDAPG1EQ7tYONUq3FSerYWNw==";
+        };
+        _97ISXDVS = {
+            "id" = "97ISXDVS";
+            "file" = "easy_mob_spawn_control-1.5.10.jar";
+            "hash" = "sha512-3okzX1HosG6Ae46IOmsRC2fygqS9oyYqG+oUus5VZV14AV/mTPNGzpyTsDPFhah8RMPd0i9E/Wj6Qk0ws31DNQ==";
+        };
     in {
         "f5em2Lr6" = _f5em2Lr6;
         "S6YXclM6" = _S6YXclM6;
@@ -638,12 +663,17 @@ let
         "fgNZcihJ" = _fgNZcihJ;
         "XdEbPjnB" = _XdEbPjnB;
         "GPkUi1uc" = _GPkUi1uc;
-        "forge-1.20.1" = _JWPy00Yk;
+        "mKrLgmJr" = _mKrLgmJr;
+        "JDQTlexA" = _JDQTlexA;
+        "tR7SNZkE" = _tR7SNZkE;
+        "KsQqSPDg" = _KsQqSPDg;
+        "97ISXDVS" = _97ISXDVS;
+        "forge-1.20.1" = _tR7SNZkE;
         "forge-1.19.2" = _eTH97Zun;
-        "neoforge-1.21.1" = _dziIHfxY;
+        "neoforge-1.21.1" = _KsQqSPDg;
         "neoforge-26.1" = _vYGFAJ2B;
         "neoforge-1.21.11" = _XWyYdt9z;
-        "neoforge-26.2" = _fgNZcihJ;
+        "neoforge-26.2" = _97ISXDVS;
         "fabric-1.21.11" = _GPkUi1uc;
         "fabric-26.1" = _y3P5MukQ;
         "fabric-26.1.1" = _y3P5MukQ;
@@ -702,7 +732,9 @@ let
         "pkg-1.5.7" = _aknNqtEX;
         "pkg-1.5.8" = _XdEbPjnB;
         "pkg-1.5.8-2" = _GPkUi1uc;
-        "default" = _GPkUi1uc;
+        "pkg-1.5.9" = _JDQTlexA;
+        "pkg-1.5.10" = _97ISXDVS;
+        "default" = _97ISXDVS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easy-mob-spawn-control";

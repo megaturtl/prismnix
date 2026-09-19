@@ -76,6 +76,26 @@ let
             "file" = "Extended-Storage-26.1.2-1.3.0c.jar";
             "hash" = "sha512-8Ftg0/7Gf8J8jITpLMD6UYYbd4fTgcwL77HjB6I9pHludblZFrNSCjl6Zzewpp36gNh/r7s083mAL01jQZq+Sw==";
         };
+        _3JbY3ivL = {
+            "id" = "3JbY3ivL";
+            "file" = "Extended-Storage-26.1.2-1.3.1.jar";
+            "hash" = "sha512-G3t8Vzzwq/LV48dP7oookdyg+6dvQTuBDXnOetYDTHWWBmwmus9w8ZKwkjtWYK3+0xPdAOl5WMqlzOwLwwoPyQ==";
+        };
+        _jxq4sJeI = {
+            "id" = "jxq4sJeI";
+            "file" = "Extended-Storage-1.21.1-1.3.1.jar";
+            "hash" = "sha512-MO+2ia6ePUx6XTw9cXCuwbpklvGReZi6gm6eI20BJmwo37ocddP7jwF98hhI2xanq/LX/PdSHZYxpvHe6bE1Kw==";
+        };
+        _jmI2qWqt = {
+            "id" = "jmI2qWqt";
+            "file" = "Extended-Storage-1.20.1-fabric-1.3.1.jar";
+            "hash" = "sha512-198ikKMqh4w3CRbomRD62eNMyxPpf7n04mHbFIHLQCFmvgAHSPSaFhh5IeVBSp7IKcQmBKp21L/CpxwL+bOImw==";
+        };
+        _7ahemhl8 = {
+            "id" = "7ahemhl8";
+            "file" = "Extended-Storage-1.20.1-1.3.1.jar";
+            "hash" = "sha512-4SD/7HiaG3nu6tUdZWXggtYvXhj7ES54P0YLn06lM1fCW0le61A6VzNvFreWdP5NcbEB3EKMghr+K+5S1jJKrw==";
+        };
     in {
         "Xj9Bo4Vu" = _Xj9Bo4Vu;
         "sWh3lqFi" = _sWh3lqFi;
@@ -92,12 +112,17 @@ let
         "IaUtWpIq" = _IaUtWpIq;
         "hLxzNxHg" = _hLxzNxHg;
         "am6Yacbg" = _am6Yacbg;
-        "forge-1.20.1" = _IaUtWpIq;
-        "neoforge-1.21.1" = _hLxzNxHg;
-        "neoforge-26.1" = _am6Yacbg;
-        "neoforge-26.1.1" = _am6Yacbg;
-        "neoforge-26.1.2" = _am6Yacbg;
-        "neoforge-26.2" = _am6Yacbg;
+        "3JbY3ivL" = _3JbY3ivL;
+        "jxq4sJeI" = _jxq4sJeI;
+        "jmI2qWqt" = _jmI2qWqt;
+        "7ahemhl8" = _7ahemhl8;
+        "forge-1.20.1" = _7ahemhl8;
+        "neoforge-1.21.1" = _jxq4sJeI;
+        "neoforge-26.1" = _3JbY3ivL;
+        "neoforge-26.1.1" = _3JbY3ivL;
+        "neoforge-26.1.2" = _3JbY3ivL;
+        "neoforge-26.2" = _3JbY3ivL;
+        "fabric-1.20.1" = _jmI2qWqt;
         "pkg-1.1.0" = _Xj9Bo4Vu;
         "pkg-1.1.1" = _sWh3lqFi;
         "pkg-1.2.0" = _bqnGoLJq;
@@ -107,7 +132,8 @@ let
         "pkg-1.3.0" = _tMGLLBGM;
         "pkg-1.3.0b" = _CLQKo5vp;
         "pkg-1.3.0c" = _am6Yacbg;
-        "default" = _am6Yacbg;
+        "pkg-1.3.1" = _7ahemhl8;
+        "default" = _7ahemhl8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "extended-storage";

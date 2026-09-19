@@ -166,6 +166,11 @@ let
             "file" = "lapisworks-1.5.8.4.jar";
             "hash" = "sha512-1dSWpK4dVzvg1UFyKTS5zXWKAp9PrGRsSsv3S2DsKUHYpwH/cowNT3TXF4ummMMpZ4qZZBRY9dD9XllniDJP+w==";
         };
+        _jXqq3sHL = {
+            "id" = "jXqq3sHL";
+            "file" = "lapisworks-1.5.8.5.jar";
+            "hash" = "sha512-/ePjJVmICSdoN6mWB9KxWufRpHJXunP6dDacfblJ0isgwaKEJEcG3o7W0+vSGLGl9Ox2to9nppaO9UrKyld/3A==";
+        };
     in {
         "xx0t9adl" = _xx0t9adl;
         "FGahEqkf" = _FGahEqkf;
@@ -200,7 +205,8 @@ let
         "eO8jOXYV" = _eO8jOXYV;
         "XMAV7x6P" = _XMAV7x6P;
         "T3rKifCf" = _T3rKifCf;
-        "fabric-1.20.1" = _T3rKifCf;
+        "jXqq3sHL" = _jXqq3sHL;
+        "fabric-1.20.1" = _jXqq3sHL;
         "pkg-1.0.0" = _xx0t9adl;
         "pkg-1.2.0" = _FGahEqkf;
         "pkg-1.2.1" = _l9tkSbkK;
@@ -234,7 +240,8 @@ let
         "pkg-1.5.8.2" = _eO8jOXYV;
         "pkg-1.5.8.3" = _XMAV7x6P;
         "pkg-1.5.8.4" = _T3rKifCf;
-        "default" = _T3rKifCf;
+        "pkg-1.5.8.5" = _jXqq3sHL;
+        "default" = _jXqq3sHL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lapisworks";

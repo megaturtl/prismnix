@@ -36,6 +36,11 @@ let
             "file" = "sprintfix-26.2-1.0.0.jar";
             "hash" = "sha512-GjOF5KlLaIcv8qdUUHAjMZCcUX16/MLxphDvVA7F3cRA84c1sF/3gLUysVdmv1Hv1whoexLmb1PBZMQlbV+Yqg==";
         };
+        _E5MF5r1r = {
+            "id" = "E5MF5r1r";
+            "file" = "sprintfix-26.3-1.0.0+26.3.jar";
+            "hash" = "sha512-QzMK24dXBTLyCnvYKZxr6NQTQy9k1KWEdhO1uNTpt3S//msKk1GxsOpiSlKfvSGqt4gjsdfFaVXKhtpGyodu/g==";
+        };
     in {
         "VoNqYv25" = _VoNqYv25;
         "uDZ2veaY" = _uDZ2veaY;
@@ -44,6 +49,7 @@ let
         "qaYHXNbB" = _qaYHXNbB;
         "kzzgv43C" = _kzzgv43C;
         "WNjEzDiS" = _WNjEzDiS;
+        "E5MF5r1r" = _E5MF5r1r;
         "fabric-1.21.11" = _VoNqYv25;
         "fabric-1.21.1" = _uDZ2veaY;
         "fabric-1.21.4" = _BtEBHOzb;
@@ -51,8 +57,9 @@ let
         "fabric-26.1.1" = _qaYHXNbB;
         "fabric-26.1.2" = _kzzgv43C;
         "fabric-26.2" = _WNjEzDiS;
-        "pkg-1.0.0" = _WNjEzDiS;
-        "default" = _WNjEzDiS;
+        "fabric-26.3" = _E5MF5r1r;
+        "pkg-1.0.0" = _E5MF5r1r;
+        "default" = _E5MF5r1r;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sprint-fix";

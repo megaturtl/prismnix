@@ -11,9 +11,15 @@ let
             "file" = "betterplacebind-1.0.0.jar";
             "hash" = "sha512-Hfa5p6sBEqAtNbCMft5dvyRsz7uSoa4JW+fikqYAgO6vBFfa4B+5LBBqtFqqjNkagK4xDHU8U/IS14bVIenxhA==";
         };
+        _S0kfORhT = {
+            "id" = "S0kfORhT";
+            "file" = "better-place-bind-1.0.0+26.2.jar";
+            "hash" = "sha512-Y3jwMtMPjpGX1JotT0AL7HNLpXQ1qpQMPXllYgmDcVlHNjjyIp6EAGKcmSJKKveyvy4+AZqqcfKsB7wDBosIEQ==";
+        };
     in {
         "e5DUSK27" = _e5DUSK27;
         "MkaskhET" = _MkaskhET;
+        "S0kfORhT" = _S0kfORhT;
         "fabric-1.21" = _e5DUSK27;
         "fabric-1.21.1" = _e5DUSK27;
         "fabric-1.21.2" = _e5DUSK27;
@@ -29,9 +35,9 @@ let
         "fabric-26.1" = _MkaskhET;
         "fabric-26.1.1" = _MkaskhET;
         "fabric-26.1.2" = _MkaskhET;
-        "fabric-26.2" = _MkaskhET;
-        "pkg-1.0.0" = _MkaskhET;
-        "default" = _MkaskhET;
+        "fabric-26.2" = _S0kfORhT;
+        "pkg-1.0.0" = _S0kfORhT;
+        "default" = _S0kfORhT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-place-bind";

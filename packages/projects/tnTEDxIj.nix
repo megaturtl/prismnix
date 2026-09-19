@@ -231,6 +231,11 @@ let
             "file" = "nycto-fabric-26.2-b7.jar";
             "hash" = "sha512-1pJr5hM0RiaVwT0HVA+dzfkpirf3K0QMtgaeKDnN2hE5cK6mcRMo+qvbVR+0iI47e0DOBIaOWzofm9Jd4C3ZWQ==";
         };
+        _xOjOsOd5 = {
+            "id" = "xOjOsOd5";
+            "file" = "nycto-fabric-26.3-b1.jar";
+            "hash" = "sha512-P3wrm7vDxYLpyU+M5GVfuknmImKjwoowcps60OLKtpHP/hLNrlHjjJ0nL6EyIfu0aqDgQPk/x9y3s5tAFYIH+g==";
+        };
     in {
         "76xoDcLL" = _76xoDcLL;
         "Z3r1bf9m" = _Z3r1bf9m;
@@ -278,6 +283,7 @@ let
         "nXi0CzMz" = _nXi0CzMz;
         "W1iYqNQP" = _W1iYqNQP;
         "dqyitjju" = _dqyitjju;
+        "xOjOsOd5" = _xOjOsOd5;
         "fabric-1.21.8" = _j6k1kLcP;
         "fabric-1.21.9" = _zoJH6Od1;
         "fabric-1.21.10" = _bk4exkd6;
@@ -286,6 +292,7 @@ let
         "fabric-26.1.1" = _nXi0CzMz;
         "fabric-26.1.2" = _nXi0CzMz;
         "fabric-26.2" = _dqyitjju;
+        "fabric-26.3" = _xOjOsOd5;
         "quilt-1.21.8" = _j6k1kLcP;
         "quilt-1.21.9" = _zoJH6Od1;
         "quilt-1.21.10" = _bk4exkd6;
@@ -340,7 +347,8 @@ let
         "pkg-26.2-b6" = _xQczq6pi;
         "pkg-26.1-b16" = _W1iYqNQP;
         "pkg-26.2-b7" = _dqyitjju;
-        "default" = _dqyitjju;
+        "pkg-26.3-b1" = _xOjOsOd5;
+        "default" = _xOjOsOd5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nycto";

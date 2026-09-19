@@ -111,6 +111,11 @@ let
             "file" = "reeling_scythes-2.1.3.jar";
             "hash" = "sha512-jfyINV6zzznZDFMtHEU5Ytyt/m/8jC2XsiJwOfuzTInOCC03qM7/LDa61Hw0yBR0frnph/DaDP0aZ+Ypthvgeg==";
         };
+        _i81lgJ9M = {
+            "id" = "i81lgJ9M";
+            "file" = "reeling_scythes-2.1.4.jar";
+            "hash" = "sha512-PvUqlXBIV+2SY1K/d7A3r9oQS2XoxkFJ1RUCUQcA6hv9Txa/yxGNmyi/QutWaN0chBpOikcksw1KkDFBQtc7Aw==";
+        };
     in {
         "lo3bhqaM" = _lo3bhqaM;
         "NEdVAv5J" = _NEdVAv5J;
@@ -134,22 +139,23 @@ let
         "bbCzfpmo" = _bbCzfpmo;
         "lElNrQYt" = _lElNrQYt;
         "2BupRV0h" = _2BupRV0h;
+        "i81lgJ9M" = _i81lgJ9M;
         "fabric-1.20.1" = _cw59YqkF;
         "fabric-1.21.5" = _dX9rN6kv;
         "fabric-1.21.1" = _JlORV0y1;
         "fabric-1.21.10" = _N2CaZH1e;
         "fabric-1.21.11" = _lElNrQYt;
-        "fabric-26.1" = _2BupRV0h;
-        "fabric-26.1.1" = _2BupRV0h;
-        "fabric-26.1.2" = _2BupRV0h;
+        "fabric-26.1" = _i81lgJ9M;
+        "fabric-26.1.1" = _i81lgJ9M;
+        "fabric-26.1.2" = _i81lgJ9M;
         "quilt-1.20.1" = _cw59YqkF;
         "quilt-1.21.5" = _dX9rN6kv;
         "quilt-1.21.1" = _JlORV0y1;
         "quilt-1.21.10" = _N2CaZH1e;
         "quilt-1.21.11" = _lElNrQYt;
-        "quilt-26.1" = _2BupRV0h;
-        "quilt-26.1.1" = _2BupRV0h;
-        "quilt-26.1.2" = _2BupRV0h;
+        "quilt-26.1" = _i81lgJ9M;
+        "quilt-26.1.1" = _i81lgJ9M;
+        "quilt-26.1.2" = _i81lgJ9M;
         "pkg-1.0" = _lo3bhqaM;
         "pkg-1.1" = _NEdVAv5J;
         "pkg-1.1.1" = _pGC6azJN;
@@ -166,7 +172,8 @@ let
         "pkg-2.1.1" = _gwcBIhKe;
         "pkg-2.1.2" = _bbCzfpmo;
         "pkg-2.1.3" = _2BupRV0h;
-        "default" = _2BupRV0h;
+        "pkg-2.1.4" = _i81lgJ9M;
+        "default" = _i81lgJ9M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reeling-scythes";

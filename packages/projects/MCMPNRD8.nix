@@ -71,6 +71,11 @@ let
             "file" = "rabbit-pathfinding-fix-1.4.0.jar";
             "hash" = "sha512-A1uuUb5jvhQ693GaIiiKC8HAeUUUPhFjrK8ZEMSSwN/Zs3Jyqq7X1jtQZ1Nf+vuZC8Yn1BrdIFny1RhGCao8lg==";
         };
+        _HbmTEydW = {
+            "id" = "HbmTEydW";
+            "file" = "rabbit-pathfinding-fix-1.5.0.jar";
+            "hash" = "sha512-OfATHvs6QTpYEifKANInMMFeNZHbwkIUGM4QFYCJIKgqsbiiKAlTW/BmtgzA33VC/EzX2ySkzJHv6GPsmk95QQ==";
+        };
     in {
         "suq0p1pB" = _suq0p1pB;
         "VcqtC8c0" = _VcqtC8c0;
@@ -86,6 +91,7 @@ let
         "yqFwCVWB" = _yqFwCVWB;
         "rSLjtoFJ" = _rSLjtoFJ;
         "CtHieFzI" = _CtHieFzI;
+        "HbmTEydW" = _HbmTEydW;
         "fabric-1.21" = _suq0p1pB;
         "fabric-1.21.1" = _suq0p1pB;
         "fabric-24w33a" = _suq0p1pB;
@@ -147,6 +153,7 @@ let
         "fabric-26.1.1" = _yqFwCVWB;
         "fabric-26.1.2" = _rSLjtoFJ;
         "fabric-26.2" = _CtHieFzI;
+        "fabric-26.3" = _HbmTEydW;
         "pkg-1.0.0" = _suq0p1pB;
         "pkg-1.0.1" = _VcqtC8c0;
         "pkg-1.0.2" = _Qiiw5CIK;
@@ -161,7 +168,8 @@ let
         "pkg-1.2.0" = _yqFwCVWB;
         "pkg-1.3.0" = _rSLjtoFJ;
         "pkg-1.4.0" = _CtHieFzI;
-        "default" = _CtHieFzI;
+        "pkg-1.5.0" = _HbmTEydW;
+        "default" = _HbmTEydW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rabbit-pathfinding-fix";

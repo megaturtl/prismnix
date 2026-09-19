@@ -191,6 +191,26 @@ let
             "file" = "s-lib-fabric-2.1.0+1.21.1.jar";
             "hash" = "sha512-B9xmVjhVzsNxm4O22VWSDzthMQFUwEL8DcHHJnDZckuNq4thPzYuUmAwF/LbdVcNNJqFrly7D2WpMJQqiRmjAg==";
         };
+        _8AH9MnhS = {
+            "id" = "8AH9MnhS";
+            "file" = "s-lib-forge-2.1.1+1.20.1.jar";
+            "hash" = "sha512-APuPxCHGBmjPAe46cG5L+XKZkLG2+Ids3JwI0lyOSc3WlvELPCYfeVO42FZ4DlAPM/O2hJFMJqKRmLkd/AueAg==";
+        };
+        _2RkUIA2N = {
+            "id" = "2RkUIA2N";
+            "file" = "s-lib-fabric-2.1.1+1.20.1.jar";
+            "hash" = "sha512-KA5HiLxE0zL2VDwpJkN0d0GpsJHKM8cqlSF8MBOqyBNXWGRnNkVu24oRJujVgpMeleQkGmTxGo3S/8NHIaQZjw==";
+        };
+        _YPtQtypY = {
+            "id" = "YPtQtypY";
+            "file" = "s-lib-fabric-2.1.1+1.21.1.jar";
+            "hash" = "sha512-zW9cJeVlZ6ZwUzVeqy2q58a1an8xJZGPdiwl3QDPHqwy6vE0aWzDdHPFOfYZdn97/jnpzhyYcjMo1ECRwmX5Pw==";
+        };
+        _E4XCgnd1 = {
+            "id" = "E4XCgnd1";
+            "file" = "s-lib-neoforge-2.1.1+1.21.1.jar";
+            "hash" = "sha512-vmYr1w6+9kj6z0i0S000RHEG5FyO4BrdY8Qwk8Q7OW8Qx2MkSD95jFUrViK/ge6b5MXooI4gV0kDb7UF9k8c4g==";
+        };
     in {
         "4wZ9gbon" = _4wZ9gbon;
         "Ncl5BskH" = _Ncl5BskH;
@@ -230,10 +250,14 @@ let
         "qf2mIL1z" = _qf2mIL1z;
         "la6irDKy" = _la6irDKy;
         "f9ghZfOx" = _f9ghZfOx;
-        "fabric-1.20.1" = _qf2mIL1z;
-        "fabric-1.21.1" = _f9ghZfOx;
-        "forge-1.20.1" = _NyhuvDDq;
-        "neoforge-1.21.1" = _la6irDKy;
+        "8AH9MnhS" = _8AH9MnhS;
+        "2RkUIA2N" = _2RkUIA2N;
+        "YPtQtypY" = _YPtQtypY;
+        "E4XCgnd1" = _E4XCgnd1;
+        "fabric-1.20.1" = _2RkUIA2N;
+        "fabric-1.21.1" = _YPtQtypY;
+        "forge-1.20.1" = _8AH9MnhS;
+        "neoforge-1.21.1" = _E4XCgnd1;
         "pkg-1.0.0" = _Ncl5BskH;
         "pkg-1.0.0+1.21.1" = _2fivwnR6;
         "pkg-1.0.1+1.21.1" = _YvtlqlWu;
@@ -253,7 +277,9 @@ let
         "pkg-2.0.1+1.21.1" = _aCJuVHIr;
         "pkg-2.1.0+1.20.1" = _qf2mIL1z;
         "pkg-2.1.0+1.21.1" = _f9ghZfOx;
-        "default" = _f9ghZfOx;
+        "pkg-2.1.1+1.20.1" = _2RkUIA2N;
+        "pkg-2.1.1+1.21.1" = _E4XCgnd1;
+        "default" = _E4XCgnd1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "s-lib";

@@ -266,6 +266,11 @@ let
             "file" = "hearts_purple-1.1.0-mc26.1.2.zip";
             "hash" = "sha512-Fy1/SAkG1CVATi4hi2QDR+/IoQBREEddQlLLOe84RZQfeea/5iquET9nfEOzXA8fRqc1EcwVQLS18feYEsY/OA==";
         };
+        _AZArPttx = {
+            "id" = "AZArPttx";
+            "file" = "hearts_purple-1.1.0-mc26.3.zip";
+            "hash" = "sha512-zGOQ1Rna/OTw1eNaDc+yFeHvbCKeSXa8CL0CbrPKEfn5rs5pLhtjjRoqSXkiSuZ4z09bReREuEuQh2JnlMgltw==";
+        };
     in {
         "OVtOHAHT" = _OVtOHAHT;
         "RKy32PvS" = _RKy32PvS;
@@ -320,6 +325,7 @@ let
         "z2Kt1Q9X" = _z2Kt1Q9X;
         "zrK14rH2" = _zrK14rH2;
         "3zy4FGfq" = _3zy4FGfq;
+        "AZArPttx" = _AZArPttx;
         "minecraft-1.20.2" = _khbbm50a;
         "minecraft-1.20.3" = _3Jv55fh7;
         "minecraft-1.20.4" = _FdE2O9cr;
@@ -341,10 +347,11 @@ let
         "minecraft-26.2" = _z2Kt1Q9X;
         "minecraft-26.1.1" = _zrK14rH2;
         "minecraft-26.1.2" = _3zy4FGfq;
+        "minecraft-26.3" = _AZArPttx;
         "pkg-1.0.0" = _1mpkckjc;
         "pkg-1.0.1" = _XQ8xszCS;
-        "pkg-1.1.0" = _3zy4FGfq;
-        "default" = _3zy4FGfq;
+        "pkg-1.1.0" = _AZArPttx;
+        "default" = _AZArPttx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-collective-purple-hearts";

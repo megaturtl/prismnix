@@ -196,6 +196,11 @@ let
             "file" = "CameraTweaks-1.11.2-26.2.jar";
             "hash" = "sha512-IcXCIfjMklBg9PpGv6biXDK/Kw2lJkS43qTJbGQaxv4hZkmTfMbuQCelN6+2SP90OU7gWQfWhVBqCki3yLNXGw==";
         };
+        _dF813AUZ = {
+            "id" = "dF813AUZ";
+            "file" = "CameraTweaks-1.11.2-26.3.jar";
+            "hash" = "sha512-YpaFW5LmcSM72hK9kHemSdxGsP4irbiWNVMS4QRhtgfCJbGN84FIZ6UHKn3e14FoTYNMj48AhRk4uo7dM/B7Tw==";
+        };
     in {
         "uK1m6kXZ" = _uK1m6kXZ;
         "1YQ9xuGC" = _1YQ9xuGC;
@@ -236,6 +241,7 @@ let
         "2VppZJBG" = _2VppZJBG;
         "xU1MhQIe" = _xU1MhQIe;
         "id6o0lrn" = _id6o0lrn;
+        "dF813AUZ" = _dF813AUZ;
         "fabric-1.21.4" = _UwSgjyN5;
         "fabric-25w02a" = _9thB3vLr;
         "fabric-25w03a" = _9thB3vLr;
@@ -262,6 +268,7 @@ let
         "fabric-26.1.1" = _xU1MhQIe;
         "fabric-26.1.2" = _xU1MhQIe;
         "fabric-26.2" = _id6o0lrn;
+        "fabric-26.3" = _dF813AUZ;
         "quilt-1.21.4" = _UwSgjyN5;
         "quilt-25w02a" = _9thB3vLr;
         "quilt-25w03a" = _9thB3vLr;
@@ -285,6 +292,7 @@ let
         "quilt-26.1.1" = _xU1MhQIe;
         "quilt-26.1.2" = _xU1MhQIe;
         "quilt-26.2" = _id6o0lrn;
+        "quilt-26.3" = _dF813AUZ;
         "pkg-1.0.0" = _uK1m6kXZ;
         "pkg-1.1.0" = _1YQ9xuGC;
         "pkg-1.2.0" = _rZUh6o5g;
@@ -323,7 +331,8 @@ let
         "pkg-1.11.2-1.21.11" = _2VppZJBG;
         "pkg-1.11.2-26.1" = _xU1MhQIe;
         "pkg-1.11.2-26.2" = _id6o0lrn;
-        "default" = _id6o0lrn;
+        "pkg-1.11.2-26.3" = _dF813AUZ;
+        "default" = _dF813AUZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cameratweaks";

@@ -76,6 +76,11 @@ let
             "file" = "Simple Structures Mushroom Fields 26.2.jar";
             "hash" = "sha512-xhajDzQcLm+ck/uSCo+9oPwaak2cPV66HkyHemLMMi1hSaS0wOAi1FRWIV04z3Ctim1v8oMxNOJteFxXX8Dl+g==";
         };
+        _u3pwUuWG = {
+            "id" = "u3pwUuWG";
+            "file" = "Simple Structures Mushroom Fields 26.3.jar";
+            "hash" = "sha512-1snx7P0C77TifeYMlVnkdmXncuiKftIkDghi+G7zfIL1QpvQzbEm64LP3YR1h2lUzSJZLd7nZbMZVwBqQquALg==";
+        };
     in {
         "NENqg11C" = _NENqg11C;
         "SUt3eMQf" = _SUt3eMQf;
@@ -92,6 +97,7 @@ let
         "hBKiaAN2" = _hBKiaAN2;
         "CfD95rD5" = _CfD95rD5;
         "4mO7CAOP" = _4mO7CAOP;
+        "u3pwUuWG" = _u3pwUuWG;
         "datapack-1.20" = _NENqg11C;
         "datapack-1.20.1" = _NENqg11C;
         "datapack-26.1-pre-2" = _tgoVhysv;
@@ -113,6 +119,7 @@ let
         "fabric-26.2-snapshot-5" = _AU2A6HMK;
         "fabric-26.2-snapshot-6" = _AU2A6HMK;
         "fabric-26.2" = _4mO7CAOP;
+        "fabric-26.3" = _u3pwUuWG;
         "forge-1.21" = _RpRIB98z;
         "forge-1.21.1" = _RpRIB98z;
         "forge-1.21.10" = _hBKiaAN2;
@@ -127,6 +134,7 @@ let
         "forge-26.2-snapshot-5" = _AU2A6HMK;
         "forge-26.2-snapshot-6" = _AU2A6HMK;
         "forge-26.2" = _4mO7CAOP;
+        "forge-26.3" = _u3pwUuWG;
         "neoforge-1.21.10" = _hBKiaAN2;
         "neoforge-1.21.11" = _hBKiaAN2;
         "neoforge-1.20.1" = _KcV996da;
@@ -139,10 +147,12 @@ let
         "neoforge-26.2-snapshot-5" = _AU2A6HMK;
         "neoforge-26.2-snapshot-6" = _AU2A6HMK;
         "neoforge-26.2" = _4mO7CAOP;
+        "neoforge-26.3" = _u3pwUuWG;
         "quilt-1.20.1" = _KcV996da;
         "pkg-1.0" = _J2f3LFXR;
         "pkg-1.1" = _4mO7CAOP;
-        "default" = _4mO7CAOP;
+        "pkg-1.1.1" = _u3pwUuWG;
+        "default" = _u3pwUuWG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simplestructure-mushroom-fields";

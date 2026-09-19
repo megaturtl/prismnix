@@ -4281,6 +4281,101 @@ let
             "file" = "sophisticatedbackpacks-1.21.1-3.26.1.2124.jar";
             "hash" = "sha512-9ktWRP3gFKRZ6/wypgqRwdijgz6UIOZk3fpbQggsp2+8jg6EOohNAU+QUSNMHqt2PV0x8Zd+I1m3TvuZjMFmqA==";
         };
+        _EH7K70vl = {
+            "id" = "EH7K70vl";
+            "file" = "sophisticatedbackpacks-1.20.1-3.26.1.2132.jar";
+            "hash" = "sha512-4sMNRhUXxpp7CbCoLlm6m9d+bw+QyaQ4XHx5+k9+7gfYLYLpI2JGEXIGjm8+PQKhyW+u4ESAAGnCE6eB+Q178A==";
+        };
+        _a6PQVLht = {
+            "id" = "a6PQVLht";
+            "file" = "sophisticatedbackpacks-1.20.1-3.26.2.2139.jar";
+            "hash" = "sha512-43k1hSffKiGc/7e7jvkQBWtwumpD8eZBY6NHIq+vrXrFzDJ+oOnPxhHbAzIuYoqF7Wxp03WO29P509f28le+gA==";
+        };
+        _2JwOGtvj = {
+            "id" = "2JwOGtvj";
+            "file" = "sophisticatedbackpacks-1.21.1-3.26.2.2141.jar";
+            "hash" = "sha512-fzh6NrH4nqsrxRTt/T89Akmi+v8Dh50O8p5K6Vi1T3FwYuffBE6gd75SOmx5OLs8kTycyvfLVs4U2T4dndRKdA==";
+        };
+        _OFjt90wE = {
+            "id" = "OFjt90wE";
+            "file" = "sophisticatedbackpacks-26.1.2-3.26.1.2143.jar";
+            "hash" = "sha512-v7Oxg3CUHAlh+7BkxLTLlzXoasQgY4/5sSixUKirUTb5UFlWaatKoHEJvEfIc7LpVllaVfnej3SQYCbQgDLFNg==";
+        };
+        _gEdZzLlW = {
+            "id" = "gEdZzLlW";
+            "file" = "sophisticatedbackpacks-26.2-3.26.1.2145.jar";
+            "hash" = "sha512-9dPyOqZWWT2dmF/U/1VJBRw6pDRPn/8yfWnveo4//TpVDJAO3nsmeLHtZUuha2pFAjkta2mvXedUcmVIwoU7NA==";
+        };
+        _XJ7TK1dr = {
+            "id" = "XJ7TK1dr";
+            "file" = "sophisticatedbackpacks-1.21.10-3.26.1.2144.jar";
+            "hash" = "sha512-xUoN7NeDOnxRHhpVhRcmMmrGJL1FnEec3BhJLH+X7i0K8zou7fjoVTr+6Tx47e3YhzdF9aV18NlvdJCljkbhRg==";
+        };
+        _tVGJj9L9 = {
+            "id" = "tVGJj9L9";
+            "file" = "sophisticatedbackpacks-1.21.1-3.26.2.2148.jar";
+            "hash" = "sha512-DgSVjuVzvthK2r3By0kP3Pm+cBQlOO1Y38PxL9wXgMAhOJSofQNdnn1oPocDAXn8+9KWzo/jUSH3JzfMXJxQHQ==";
+        };
+        _o8taEOiB = {
+            "id" = "o8taEOiB";
+            "file" = "sophisticatedbackpacks-1.21.11-3.26.1.2147.jar";
+            "hash" = "sha512-hUh/4Z2GpC0pM1QHdrXVmflUr5X+pjLcokeZFFkepNJjksGgZGg8uTExpCKQmWDaA1mW+sNCGwNbstmIYSLcJQ==";
+        };
+        _O8lZnypg = {
+            "id" = "O8lZnypg";
+            "file" = "sophisticatedbackpacks-1.21.5-3.27.1.2146.jar";
+            "hash" = "sha512-g4UXBlE5Gr3DD4WgQ3NJqoqlYTyx82Syl8Gb1seBwsSVeoOy7tBoD/GQybHkvO0NUXYQXd5TjvYwnhzAcJq8EQ==";
+        };
+        _REqdmiFQ = {
+            "id" = "REqdmiFQ";
+            "file" = "sophisticatedbackpacks-1.21.8-3.26.1.2150.jar";
+            "hash" = "sha512-bAQZ5Cnel55R2+pGX55u99sKf6qNDk73l7vrLdLSe9lYalCq2f4lWQEpU8Rhrh7X/R4VbjiwW3k9S+p4PgcsWA==";
+        };
+        _LPnOSNVg = {
+            "id" = "LPnOSNVg";
+            "file" = "sophisticatedbackpacks-26.2-3.26.2.2154.jar";
+            "hash" = "sha512-jAz2voPdqUReqmCWrWXY21sFwVcbJfCXBwxTjvNF3YNxwTPgo32D/PaECXEQxjxY3a049ArFC+XSZioKn3PaYQ==";
+        };
+        _3xlcYe9r = {
+            "id" = "3xlcYe9r";
+            "file" = "sophisticatedbackpacks-26.1.2-3.26.2.2156.jar";
+            "hash" = "sha512-BTQuYro8FVLTfnuWuwEIFW7hpU3hTZgWPH82cNUwvn40DUYWMupUs8Un2MAA2/y65WKauvECwyuQLbRIrgdAmw==";
+        };
+        _XxOZuQnU = {
+            "id" = "XxOZuQnU";
+            "file" = "sophisticatedbackpacks-1.20.1-3.26.3.2157.jar";
+            "hash" = "sha512-8QhxMTweSvuzqK+wpFpsqz63ESupwqLPyZUr5GLSmPGfytuTIlClxnIOyF/6LlYNAhfUN4SbgW+2ad8gk3d8Mw==";
+        };
+        _AhPnzNtJ = {
+            "id" = "AhPnzNtJ";
+            "file" = "sophisticatedbackpacks-1.21.1-3.26.3.2158.jar";
+            "hash" = "sha512-Zv42lwgCN2K/8V6YHCG6X3On0obuBNEog45DnGPbHpphAorLggZ1rS4i8jjTWG580AaleSVN+BdAqZ3FHc3yeQ==";
+        };
+        _6n0hpRBh = {
+            "id" = "6n0hpRBh";
+            "file" = "sophisticatedbackpacks-1.21.5-3.27.2.2152.jar";
+            "hash" = "sha512-Ty2wfPjWl+snUwSMLBHolmiw0CeBHwgzWBV+BGkLaVT2ie27hGlkxcdLzwS5EUsanRn6cuDGKxogb/wtH5W7rQ==";
+        };
+        _cUpsODDu = {
+            "id" = "cUpsODDu";
+            "file" = "sophisticatedbackpacks-1.21.10-3.26.2.2151.jar";
+            "hash" = "sha512-rCowAzFm9WQQujWY80mAdDMTgIlurp4NQnW8/LD6qiZCNAt4zFsRKqHpNC8OgMczEGC1bkDH7JyqPFuFUgBo2g==";
+        };
+        _UgxKPi1I = {
+            "id" = "UgxKPi1I";
+            "file" = "sophisticatedbackpacks-1.21.4-3.27.2.2153.jar";
+            "hash" = "sha512-iGPWkwuYSWmdjVnKZJ1zqYonE0kwRPLsAQSK0pxNyoH9iffuxF4ENNB1AIboGcQs3p+h1Q4+C5zMyD7Yx0jKkA==";
+        };
+        _MPfwVddi = {
+            "id" = "MPfwVddi";
+            "file" = "sophisticatedbackpacks-1.21.11-3.26.2.2155.jar";
+            "hash" = "sha512-zDFPHZG+f/EYkjcBhuPuQOWQYb7+LkGGJE4QGuIU/04d+xm/DBQnfq6bfx7becRpJ4sNpO3mVrGPNO97qgGJjg==";
+        };
+        _tgF5Uwzz = {
+            "id" = "tgF5Uwzz";
+            "file" = "sophisticatedbackpacks-1.21.8-3.26.2.2159.jar";
+            "hash" = "sha512-jH2V9k/Gxcl5tUo+qcTrpYOJBHa0kW9fG6qf9uDOv/xks84SzXXLxakGHgSBnzB/NeFpdvA0yc2+91AzOF4itQ==";
+        };
     in {
         "HNx6YaQC" = _HNx6YaQC;
         "suz8ANPn" = _suz8ANPn;
@@ -5138,19 +5233,38 @@ let
         "pUndL5FJ" = _pUndL5FJ;
         "NE1oYZlV" = _NE1oYZlV;
         "TCUy8VcN" = _TCUy8VcN;
+        "EH7K70vl" = _EH7K70vl;
+        "a6PQVLht" = _a6PQVLht;
+        "2JwOGtvj" = _2JwOGtvj;
+        "OFjt90wE" = _OFjt90wE;
+        "gEdZzLlW" = _gEdZzLlW;
+        "XJ7TK1dr" = _XJ7TK1dr;
+        "tVGJj9L9" = _tVGJj9L9;
+        "o8taEOiB" = _o8taEOiB;
+        "O8lZnypg" = _O8lZnypg;
+        "REqdmiFQ" = _REqdmiFQ;
+        "LPnOSNVg" = _LPnOSNVg;
+        "3xlcYe9r" = _3xlcYe9r;
+        "XxOZuQnU" = _XxOZuQnU;
+        "AhPnzNtJ" = _AhPnzNtJ;
+        "6n0hpRBh" = _6n0hpRBh;
+        "cUpsODDu" = _cUpsODDu;
+        "UgxKPi1I" = _UgxKPi1I;
+        "MPfwVddi" = _MPfwVddi;
+        "tgF5Uwzz" = _tgF5Uwzz;
         "neoforge-1.21" = _q4YzYKAb;
-        "neoforge-1.21.1" = _TCUy8VcN;
-        "neoforge-1.20.1" = _cJGBSQ8G;
-        "neoforge-1.21.4" = _7dh6ptOi;
-        "neoforge-1.21.5" = _uIumrDg1;
-        "neoforge-1.21.8" = _ePYqvmcN;
-        "neoforge-1.21.10" = _pUndL5FJ;
-        "neoforge-1.21.11" = _NE1oYZlV;
+        "neoforge-1.21.1" = _AhPnzNtJ;
+        "neoforge-1.20.1" = _XxOZuQnU;
+        "neoforge-1.21.4" = _UgxKPi1I;
+        "neoforge-1.21.5" = _6n0hpRBh;
+        "neoforge-1.21.8" = _tgF5Uwzz;
+        "neoforge-1.21.10" = _cUpsODDu;
+        "neoforge-1.21.11" = _MPfwVddi;
         "neoforge-26.1" = _7CsDRcYC;
         "neoforge-26.1.1" = _7CsDRcYC;
-        "neoforge-26.1.2" = _Q9P5becl;
-        "neoforge-26.2" = _wy1WS3QX;
-        "forge-1.20.1" = _cJGBSQ8G;
+        "neoforge-26.1.2" = _3xlcYe9r;
+        "neoforge-26.2" = _LPnOSNVg;
+        "forge-1.20.1" = _XxOZuQnU;
         "forge-1.19.2" = _1TblkbcZ;
         "forge-1.18.2" = _ySJuJiG9;
         "forge-1.16.5" = _aplfC9U1;
@@ -6008,7 +6122,26 @@ let
         "pkg-1.21.10-3.26.1.2128" = _pUndL5FJ;
         "pkg-1.21.11-3.26.1.2125" = _NE1oYZlV;
         "pkg-1.21.1-3.26.1.2124" = _TCUy8VcN;
-        "default" = _TCUy8VcN;
+        "pkg-1.20.1-3.26.1.2132" = _EH7K70vl;
+        "pkg-1.20.1-3.26.2.2139" = _a6PQVLht;
+        "pkg-1.21.1-3.26.2.2141" = _2JwOGtvj;
+        "pkg-26.1.2-3.26.1.2143" = _OFjt90wE;
+        "pkg-26.2-3.26.1.2145" = _gEdZzLlW;
+        "pkg-1.21.10-3.26.1.2144" = _XJ7TK1dr;
+        "pkg-1.21.1-3.26.2.2148" = _tVGJj9L9;
+        "pkg-1.21.11-3.26.1.2147" = _o8taEOiB;
+        "pkg-1.21.5-3.27.1.2146" = _O8lZnypg;
+        "pkg-1.21.8-3.26.1.2150" = _REqdmiFQ;
+        "pkg-26.2-3.26.2.2154" = _LPnOSNVg;
+        "pkg-26.1.2-3.26.2.2156" = _3xlcYe9r;
+        "pkg-1.20.1-3.26.3.2157" = _XxOZuQnU;
+        "pkg-1.21.1-3.26.3.2158" = _AhPnzNtJ;
+        "pkg-1.21.5-3.27.2.2152" = _6n0hpRBh;
+        "pkg-1.21.10-3.26.2.2151" = _cUpsODDu;
+        "pkg-1.21.4-3.27.2.2153" = _UgxKPi1I;
+        "pkg-1.21.11-3.26.2.2155" = _MPfwVddi;
+        "pkg-1.21.8-3.26.2.2159" = _tgF5Uwzz;
+        "default" = _tgF5Uwzz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sophisticated-backpacks";

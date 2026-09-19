@@ -516,6 +516,16 @@ let
             "file" = "bookshelfinspector-fabric-2.4+26.3-pre-1.jar";
             "hash" = "sha512-LKYKT9I4coM5dbb0RCiUzcBdGNbM1SZOaWCoJtZu/m26rHgNzhaNyS0uKe9Cd5G+wn/Mfe/hk6LZNYsSYJpa9g==";
         };
+        _ShIoLf04 = {
+            "id" = "ShIoLf04";
+            "file" = "bookshelfinspector-fabric-2.4+26.3.jar";
+            "hash" = "sha512-co1SXyoLq+hbpjZ5IrfwgHpShenGoknWdhoYGoCV0NwlzLGjLCVhNVu4lVgrnI/aeQxDBw1BP2wMa87bqkEHPA==";
+        };
+        _Srqa0lzO = {
+            "id" = "Srqa0lzO";
+            "file" = "bookshelfinspector-neoforge-2.4+26.3.jar";
+            "hash" = "sha512-ObBpUT8IbxzNa/m7MFci9Rcl2FpjpsMMelep2/ZhCZTS+nAjvPKozpSDh25AbsTHGvQeJiHCP3M5i5S5xnIjAQ==";
+        };
     in {
         "g0RluwB9" = _g0RluwB9;
         "cd1JD4kg" = _cd1JD4kg;
@@ -620,6 +630,8 @@ let
         "aSnswRrg" = _aSnswRrg;
         "vq3HyRZz" = _vq3HyRZz;
         "G10JEVJn" = _G10JEVJn;
+        "ShIoLf04" = _ShIoLf04;
+        "Srqa0lzO" = _Srqa0lzO;
         "fabric-1.21" = _uWX4fFmd;
         "fabric-1.21.1" = _aSnswRrg;
         "fabric-1.21.2-pre5" = _sNM4NylR;
@@ -677,6 +689,7 @@ let
         "fabric-26.3-snapshot-3" = _OkZCEA9n;
         "fabric-26.3-snapshot-5" = _vq3HyRZz;
         "fabric-26.3-pre-1" = _G10JEVJn;
+        "fabric-26.3" = _ShIoLf04;
         "neoforge-1.21.5" = _niKgFQK1;
         "neoforge-1.21.6" = _YFfm7fAN;
         "neoforge-1.21.8" = _kR3s7YQJ;
@@ -689,6 +702,7 @@ let
         "neoforge-26.1" = _3tCxQwOE;
         "neoforge-26.1.2" = _izT1tIBD;
         "neoforge-26.2" = _zLQSZguP;
+        "neoforge-26.3" = _Srqa0lzO;
         "pkg-1.0+1.21" = _g0RluwB9;
         "pkg-1.1+1.21" = _cd1JD4kg;
         "pkg-1.2+1.21" = _F3IPgUil;
@@ -768,7 +782,8 @@ let
         "pkg-2.4+1.21.1" = _aSnswRrg;
         "pkg-2.4+26.3-snapshot-5" = _vq3HyRZz;
         "pkg-2.4+26.3-pre-1" = _G10JEVJn;
-        "default" = _G10JEVJn;
+        "pkg-2.4+26.3" = _Srqa0lzO;
+        "default" = _Srqa0lzO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bookshelf-inspector";

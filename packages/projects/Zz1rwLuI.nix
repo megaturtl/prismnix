@@ -201,6 +201,16 @@ let
             "file" = "cerulean-neoforge-1.0.1-26.2.jar";
             "hash" = "sha512-Oshk5g4NtHKN+s82a9Bwyw5npFqtVELMevVmcVPpcEpVGDL5k8UsPugEtm0aCa0G2nV9Sz7CRZ+L+nM+J+LC3Q==";
         };
+        _pRwJ28me = {
+            "id" = "pRwJ28me";
+            "file" = "cerulean-fabric-1.0.1-26.3.jar";
+            "hash" = "sha512-UQ6KXSf/4gGxa9YB8IHUyJob8z6UDakh19brKugvPh46kUSuodBTjxc3EzWJqNwzbubiq8W+OTjOkhXae38BTQ==";
+        };
+        _LGqFRFTH = {
+            "id" = "LGqFRFTH";
+            "file" = "cerulean-neoforge-1.0.1-26.3.jar";
+            "hash" = "sha512-yZrMTLNTu19/gnVvb6APAWtM3IX9uaHLJbkgK1uqImYSuQwrTP35Ytzq830BKOnFZDSYABa2XiRvI9dtIMedgw==";
+        };
     in {
         "EvgO4NEi" = _EvgO4NEi;
         "TxvzQxyp" = _TxvzQxyp;
@@ -242,6 +252,8 @@ let
         "Ge7Fb7oP" = _Ge7Fb7oP;
         "cIRRYsxc" = _cIRRYsxc;
         "sIbtsY3j" = _sIbtsY3j;
+        "pRwJ28me" = _pRwJ28me;
+        "LGqFRFTH" = _LGqFRFTH;
         "fabric-1.21.4" = _9lGXeFbP;
         "fabric-1.21.5" = _XzOb5b5b;
         "fabric-1.21.6" = _9iCzYdZF;
@@ -254,6 +266,7 @@ let
         "fabric-26.1.1" = _r0fsNBYY;
         "fabric-26.1.2" = _r0fsNBYY;
         "fabric-26.2" = _cIRRYsxc;
+        "fabric-26.3" = _pRwJ28me;
         "quilt-1.21.4" = _9lGXeFbP;
         "quilt-1.21.5" = _XzOb5b5b;
         "quilt-1.21.6" = _9iCzYdZF;
@@ -278,9 +291,11 @@ let
         "neoforge-26.1.1" = _Ge7Fb7oP;
         "neoforge-26.1.2" = _Ge7Fb7oP;
         "neoforge-26.2" = _sIbtsY3j;
+        "neoforge-26.3" = _LGqFRFTH;
+        "forge-26.3" = _pRwJ28me;
         "pkg-1.0.0" = _6xdwGq2O;
-        "pkg-1.0.1" = _sIbtsY3j;
-        "default" = _sIbtsY3j;
+        "pkg-1.0.1" = _LGqFRFTH;
+        "default" = _LGqFRFTH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cerulean-fork";

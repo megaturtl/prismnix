@@ -26,12 +26,18 @@ let
             "file" = "Spinning Skull.zip";
             "hash" = "sha512-NWCCGjI411XzANgmNb4bqihx0kxdRSh060RP3yDUwpvN0QpARoDdgn/oI8mSSRHeR+RV2fAWVTOrB0wCB4d7yA==";
         };
+        _DeI2LHNW = {
+            "id" = "DeI2LHNW";
+            "file" = "Spinning Skull.zip";
+            "hash" = "sha512-QkLmphbwP9qDSuGJ2LPU6YxZX4b/mT7/5BUWOesgUCGX5qVFENzw3I4H5ZJUeHZFKmXr/ZIkoK0LlU4037gu2g==";
+        };
     in {
         "oMP6X81X" = _oMP6X81X;
         "QyVJzGsl" = _QyVJzGsl;
         "8Pte4Ive" = _8Pte4Ive;
         "jxIsz2z9" = _jxIsz2z9;
         "EDxz9tRW" = _EDxz9tRW;
+        "DeI2LHNW" = _DeI2LHNW;
         "minecraft-1.19.4" = _oMP6X81X;
         "minecraft-1.20" = _QyVJzGsl;
         "minecraft-1.20.1" = _QyVJzGsl;
@@ -41,14 +47,18 @@ let
         "minecraft-1.20.5" = _jxIsz2z9;
         "minecraft-1.20.6" = _jxIsz2z9;
         "minecraft-1.21" = _jxIsz2z9;
-        "minecraft-1.21.9" = _EDxz9tRW;
-        "minecraft-1.21.10" = _EDxz9tRW;
-        "minecraft-1.21.11" = _EDxz9tRW;
-        "minecraft-26.1" = _EDxz9tRW;
-        "minecraft-26.1.1" = _EDxz9tRW;
+        "minecraft-1.21.9" = _DeI2LHNW;
+        "minecraft-1.21.10" = _DeI2LHNW;
+        "minecraft-1.21.11" = _DeI2LHNW;
+        "minecraft-26.1" = _DeI2LHNW;
+        "minecraft-26.1.1" = _DeI2LHNW;
+        "minecraft-26.1.2" = _DeI2LHNW;
+        "minecraft-26.2" = _DeI2LHNW;
+        "minecraft-26.3" = _DeI2LHNW;
         "pkg-1.0.0" = _jxIsz2z9;
         "pkg-1.1.0" = _EDxz9tRW;
-        "default" = _EDxz9tRW;
+        "pkg-1.5.0" = _DeI2LHNW;
+        "default" = _DeI2LHNW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spinning-skull";

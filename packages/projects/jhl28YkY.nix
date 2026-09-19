@@ -311,6 +311,11 @@ let
             "file" = "alloy-forgery-fabric-3.1.0+26.1.2.jar";
             "hash" = "sha512-JQ0MIwtn9Znd8hpIbmcaggNFEEqebmALZxDZcMJZjIcnm0jeU0u3wbMDV4IR5nRkHC1Tz1gIAnFlZh6OPjS2Wg==";
         };
+        _7bsTNh92 = {
+            "id" = "7bsTNh92";
+            "file" = "alloy-forgery-fabric-3.1.1+26.1.2.jar";
+            "hash" = "sha512-LVGF1UKDfF1uhge6Ef+d+2xCgTp6F1XJ4mkrnGbHAZN93nE8Tkd2hYIlH7xzZ4P3sxmc1umWQLzN0mQ/psI4hQ==";
+        };
     in {
         "v5mAE3vf" = _v5mAE3vf;
         "2qTKAxuh" = _2qTKAxuh;
@@ -374,6 +379,7 @@ let
         "fBfKk29o" = _fBfKk29o;
         "IbLK7c9L" = _IbLK7c9L;
         "SGlwoM6m" = _SGlwoM6m;
+        "7bsTNh92" = _7bsTNh92;
         "fabric-1.17" = _KNupR8qb;
         "fabric-1.17.1" = _KNupR8qb;
         "fabric-1.18-pre7" = _WAsXHXzM;
@@ -393,7 +399,7 @@ let
         "fabric-1.21.1" = _czJc7eUX;
         "fabric-1.21.4" = _hKLwRDYk;
         "fabric-1.21.10" = _fBfKk29o;
-        "fabric-26.1.2" = _SGlwoM6m;
+        "fabric-26.1.2" = _7bsTNh92;
         "quilt-1.19.2" = _kZQUifqT;
         "quilt-1.19.3" = _5M7CC5jy;
         "quilt-1.19.4" = _f32qSRXe;
@@ -448,7 +454,8 @@ let
         "pkg-3.0.6" = _arstyZFK;
         "pkg-3.0.7" = _IbLK7c9L;
         "pkg-3.1.0" = _SGlwoM6m;
-        "default" = _SGlwoM6m;
+        "pkg-3.1.1" = _7bsTNh92;
+        "default" = _7bsTNh92;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "alloy-forgery";

@@ -31,6 +31,11 @@ let
             "file" = "Cobblemon-Trainer-Pass-1.3.5.jar";
             "hash" = "sha512-YjHFZ5yDF2RMx9VE7pnodGlYfW+ROJwsLk86BfP42p5AyM1xP37vOwicOxzK2L0VczEpHzbVXpq1h6GNYR6Nbg==";
         };
+        _plwu7Uky = {
+            "id" = "plwu7Uky";
+            "file" = "Cobblemon-Trainer-Pass-Universal-1.3.5+universal.jar";
+            "hash" = "sha512-lTF2ihPstlgLgw3CTF4X3UZX0W+tw+U1Nfmb4g7VBEmzybd4fV6g29FelqfnpWiV3BlW5rqmhYn6D1kDr46fHg==";
+        };
     in {
         "g6XMZvrf" = _g6XMZvrf;
         "4H3Fh4b8" = _4H3Fh4b8;
@@ -38,14 +43,16 @@ let
         "1QIUsIMF" = _1QIUsIMF;
         "pw0qrVxN" = _pw0qrVxN;
         "H3RDZ6v4" = _H3RDZ6v4;
-        "fabric-1.21.1" = _H3RDZ6v4;
+        "plwu7Uky" = _plwu7Uky;
+        "fabric-1.21.1" = _plwu7Uky;
         "pkg-1.0.0" = _g6XMZvrf;
         "pkg-1.1.1" = _4H3Fh4b8;
         "pkg-1.2.0" = _q2wSutNk;
         "pkg-1.2.1" = _1QIUsIMF;
         "pkg-1.3.0" = _pw0qrVxN;
         "pkg-1.3.5" = _H3RDZ6v4;
-        "default" = _H3RDZ6v4;
+        "pkg-1.3.5+1.8" = _plwu7Uky;
+        "default" = _plwu7Uky;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trainer-pass";

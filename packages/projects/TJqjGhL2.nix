@@ -36,6 +36,11 @@ let
             "file" = "1.18 Panorama.zip";
             "hash" = "sha512-gcrUsTBzRjoiw7uwKLfPRFBmtZM+M23S2kPjRrpk8gkOHMn4l9DEHrSwYNt7iI+QYuo4fyF3BTkMGkqpRshcNw==";
         };
+        _UTn7na1A = {
+            "id" = "UTn7na1A";
+            "file" = "1.18 Panorama.zip";
+            "hash" = "sha512-VicJppSchLJcfIe9Z2JOInzFxCHHzt4ATPoZ0S9wKbRgYqDsaHYryI29qlFVjKrArKoq9aTVTmrSVliehVuAyQ==";
+        };
     in {
         "muDTwoea" = _muDTwoea;
         "My2eZaXv" = _My2eZaXv;
@@ -44,6 +49,7 @@ let
         "ApJOEftH" = _ApJOEftH;
         "4ABP414p" = _4ABP414p;
         "2pC8ABRJ" = _2pC8ABRJ;
+        "UTn7na1A" = _UTn7na1A;
         "minecraft-1.20" = _muDTwoea;
         "minecraft-1.20.1" = _muDTwoea;
         "minecraft-1.20.2" = _EudSlQto;
@@ -60,17 +66,21 @@ let
         "minecraft-1.21.6" = _EudSlQto;
         "minecraft-1.21.7" = _EudSlQto;
         "minecraft-1.21.8" = _EudSlQto;
-        "minecraft-1.21.9" = _2pC8ABRJ;
-        "minecraft-1.21.10" = _2pC8ABRJ;
-        "minecraft-1.21.11" = _2pC8ABRJ;
-        "minecraft-26.1" = _2pC8ABRJ;
-        "minecraft-26.1.1" = _2pC8ABRJ;
+        "minecraft-1.21.9" = _UTn7na1A;
+        "minecraft-1.21.10" = _UTn7na1A;
+        "minecraft-1.21.11" = _UTn7na1A;
+        "minecraft-26.1" = _UTn7na1A;
+        "minecraft-26.1.1" = _UTn7na1A;
+        "minecraft-26.1.2" = _UTn7na1A;
+        "minecraft-26.2" = _UTn7na1A;
+        "minecraft-26.3" = _UTn7na1A;
         "pkg-1.0.0" = _uXblN1vU;
         "pkg-1.1.0" = _EudSlQto;
         "pkg-1.2.0" = _ApJOEftH;
         "pkg-1.3.0" = _4ABP414p;
         "pkg-1.4.0" = _2pC8ABRJ;
-        "default" = _2pC8ABRJ;
+        "pkg-1.7.0" = _UTn7na1A;
+        "default" = _UTn7na1A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "1.18-panorama";

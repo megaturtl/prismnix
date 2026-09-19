@@ -296,6 +296,56 @@ let
             "file" = "effortless-crafting-fabric-26.2.X-v1.4.2.jar";
             "hash" = "sha512-vZECfxi6HDmcrcbC+6L3a+MLYIn3h/tbTmoRkgQeUc5jwnSQklknCrYJ+GaKnxEnuoo7sksPq7v5mSXZZH8vDQ==";
         };
+        _Z6WgiFuQ = {
+            "id" = "Z6WgiFuQ";
+            "file" = "effortless-crafting-fabric-1.20.1-v1.4.3-b.jar";
+            "hash" = "sha512-qKUJHDh8TRgQScCx0URvoR/Pmuiy4iqwWNCsfP0jZfdMcoqQ6ZKALtGfVWKxXz/ja6dVKGFnxAzICKeB0t1TSQ==";
+        };
+        _GbsPSYSF = {
+            "id" = "GbsPSYSF";
+            "file" = "effortless-crafting-fabric-1.21-1.21.1-v1.4.3-b.jar";
+            "hash" = "sha512-TH3dmzYbKmZTPwdJCRgzrJLFKn+d2WV+BLMsnoRJyJDhCTXVtYwEH9fzhsfsCLaDOIgfhsW9dytZjtPBVXtpvA==";
+        };
+        _cYexaXND = {
+            "id" = "cYexaXND";
+            "file" = "effortless-crafting-fabric-1.21.2-1.21.4-v1.4.3.jar";
+            "hash" = "sha512-kJGJALbBBXzoTagByqCI5eIi2TMGLP/a9qIMZ9mTUF+3WwPD4C2SQcRX57KKDqspyXgAR+lk6stZTwKmG2Y6MQ==";
+        };
+        _9IWAsCjQ = {
+            "id" = "9IWAsCjQ";
+            "file" = "effortless-crafting-fabric-1.21.5-v1.4.3.jar";
+            "hash" = "sha512-EowiLnensPuiYIqc8j5AjDB5QCweLzNIZJY5YvBNlw+KxFIRN8FfnOo5Fp4aEbd76cqhuEo4ooRcic6aTKRK1g==";
+        };
+        _wryduNTz = {
+            "id" = "wryduNTz";
+            "file" = "effortless-crafting-fabric-1.21.6-1.21.8-v1.4.3.jar";
+            "hash" = "sha512-dpsil3L2aN+scjmTy1Dok2672Tmxscos2QUwDpfvP8+HgLjK/GywVrakNds4XIIdLslswdmvlYWnT/bDeFvKMg==";
+        };
+        _AioQuhbI = {
+            "id" = "AioQuhbI";
+            "file" = "effortless-crafting-fabric-1.21.9-v1.4.3.jar";
+            "hash" = "sha512-+GlmcrelbZnRPxqvxfb3TfmmXCxvwMUpOfvVoiIbC38VXaV3g4PGA7l5JQNxgJIqRtW5ruTiRVulnat3iqjWdQ==";
+        };
+        _VSOymy9i = {
+            "id" = "VSOymy9i";
+            "file" = "effortless-crafting-fabric-1.21.10-v1.4.3.jar";
+            "hash" = "sha512-T6rI0HB/ZV+srzsY8XjZjnwsnysTsQ/uaKXM6KRhP0osdp7R+3wBw4T+jUGRKlBYtartNWGmop01zF1oVWw7Rw==";
+        };
+        _RJEkJytq = {
+            "id" = "RJEkJytq";
+            "file" = "effortless-crafting-fabric-1.21.11-v1.4.3.jar";
+            "hash" = "sha512-1ikgwkvaDGtxM4pFiJXd/OBzVvD0F1xUzC1DVBepDRiWTiMQQtdOgYgFSd+l5PW/Xdc+tJaADpiF0cZWJ7hJMw==";
+        };
+        _a8BvK0Tc = {
+            "id" = "a8BvK0Tc";
+            "file" = "effortless-crafting-fabric-26.1.X-v1.4.3.jar";
+            "hash" = "sha512-RRZIO38SPOyUyyiFUEX9nvX7mIjtVYk4r+96CMFBBwkF82wnYPHZjKfo0qW0LgqDagkmdKM7/gEz/QAWqSNu9g==";
+        };
+        _HnS4soKK = {
+            "id" = "HnS4soKK";
+            "file" = "effortless-crafting-fabric-26.2.X-v1.4.3.jar";
+            "hash" = "sha512-UG3+KxwLtf3wvr2gS8jqCOOKbkiSA+gQ5iJBexRQc1x8aWCJsrAuavCAeSsiF6Beh+JVDBdBySCZe5s+uScQTA==";
+        };
     in {
         "Lm1EJjVk" = _Lm1EJjVk;
         "1LC0Y1pP" = _1LC0Y1pP;
@@ -356,24 +406,34 @@ let
         "pFQYZT9D" = _pFQYZT9D;
         "4Qf6Pof2" = _4Qf6Pof2;
         "a14rqv84" = _a14rqv84;
-        "fabric-26.1" = _4Qf6Pof2;
-        "fabric-26.1.1" = _4Qf6Pof2;
-        "fabric-26.1.2" = _4Qf6Pof2;
-        "fabric-1.21.11" = _pFQYZT9D;
-        "fabric-1.20" = _KnF7mK6O;
-        "fabric-1.20.1" = _KnF7mK6O;
-        "fabric-26.2" = _a14rqv84;
-        "fabric-1.21" = _n8w9IbnA;
-        "fabric-1.21.1" = _n8w9IbnA;
-        "fabric-1.21.2" = _7d4oqJg8;
-        "fabric-1.21.3" = _7d4oqJg8;
-        "fabric-1.21.4" = _7d4oqJg8;
-        "fabric-1.21.5" = _KU8LjXVn;
-        "fabric-1.21.6" = _tnwkwpZ5;
-        "fabric-1.21.7" = _tnwkwpZ5;
-        "fabric-1.21.8" = _tnwkwpZ5;
-        "fabric-1.21.9" = _xE2DzHLo;
-        "fabric-1.21.10" = _5oW3hIRC;
+        "Z6WgiFuQ" = _Z6WgiFuQ;
+        "GbsPSYSF" = _GbsPSYSF;
+        "cYexaXND" = _cYexaXND;
+        "9IWAsCjQ" = _9IWAsCjQ;
+        "wryduNTz" = _wryduNTz;
+        "AioQuhbI" = _AioQuhbI;
+        "VSOymy9i" = _VSOymy9i;
+        "RJEkJytq" = _RJEkJytq;
+        "a8BvK0Tc" = _a8BvK0Tc;
+        "HnS4soKK" = _HnS4soKK;
+        "fabric-26.1" = _a8BvK0Tc;
+        "fabric-26.1.1" = _a8BvK0Tc;
+        "fabric-26.1.2" = _a8BvK0Tc;
+        "fabric-1.21.11" = _RJEkJytq;
+        "fabric-1.20" = _Z6WgiFuQ;
+        "fabric-1.20.1" = _Z6WgiFuQ;
+        "fabric-26.2" = _HnS4soKK;
+        "fabric-1.21" = _GbsPSYSF;
+        "fabric-1.21.1" = _GbsPSYSF;
+        "fabric-1.21.2" = _cYexaXND;
+        "fabric-1.21.3" = _cYexaXND;
+        "fabric-1.21.4" = _cYexaXND;
+        "fabric-1.21.5" = _9IWAsCjQ;
+        "fabric-1.21.6" = _wryduNTz;
+        "fabric-1.21.7" = _wryduNTz;
+        "fabric-1.21.8" = _wryduNTz;
+        "fabric-1.21.9" = _AioQuhbI;
+        "fabric-1.21.10" = _VSOymy9i;
         "pkg-fabric-26.1.X-v1.0.0" = _Lm1EJjVk;
         "pkg-fabric-1.21.11-v1.0.0" = _1LC0Y1pP;
         "pkg-fabric-1.21.11-v1.0.1" = _grcSNnD2;
@@ -433,7 +493,17 @@ let
         "pkg-fabric-1.21.11-v1.4.2" = _pFQYZT9D;
         "pkg-fabric-26.1.X-v1.4.2" = _4Qf6Pof2;
         "pkg-fabric-26.2.X-v1.4.2" = _a14rqv84;
-        "default" = _a14rqv84;
+        "pkg-fabric-1.20.1-v1.4.3-b" = _Z6WgiFuQ;
+        "pkg-fabric-1.21-1.21.1-v1.4.3-b" = _GbsPSYSF;
+        "pkg-fabric-1.21.2-1.21.4-v1.4.3" = _cYexaXND;
+        "pkg-fabric-1.21.5-v1.4.3" = _9IWAsCjQ;
+        "pkg-fabric-1.21.6-1.21.8-v1.4.3" = _wryduNTz;
+        "pkg-fabric-1.21.9-v1.4.3" = _AioQuhbI;
+        "pkg-fabric-1.21.10-v1.4.3" = _VSOymy9i;
+        "pkg-fabric-1.21.11-v1.4.3" = _RJEkJytq;
+        "pkg-fabric-26.1.X-v1.4.3" = _a8BvK0Tc;
+        "pkg-fabric-26.2.X-v1.4.3" = _HnS4soKK;
+        "default" = _HnS4soKK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "effortless-crafting";

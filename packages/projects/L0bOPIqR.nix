@@ -1441,6 +1441,21 @@ let
             "file" = "carpet-org-addition-mc26.2.x-v1.45.1-2606231614.jar";
             "hash" = "sha512-mRr4xGWkLL3FwHaQYA4x8A/7yGv2eHs9Kv8/J9a8vT/1gyVzI2v+DfbhIcIHN+nGZctS9Bioxzvc+G9XhUQZEA==";
         };
+        _K0NAVW2c = {
+            "id" = "K0NAVW2c";
+            "file" = "carpet-org-addition-mc26.1.x-v1.46.0-2609161136.jar";
+            "hash" = "sha512-E4gufkJ/1ZEamcRTeQyfSJoP9F32uoG42AHUPNoLZdZmVmbkWAsajiOm2vjzJbEtWQQpgaYY0pd5X2uSwCKp7A==";
+        };
+        _1FVlB9OX = {
+            "id" = "1FVlB9OX";
+            "file" = "carpet-org-addition-mc26.2.x-v1.46.0-2609161136.jar";
+            "hash" = "sha512-+K/QTgqQvKUmps1zlzBr7tR5iIhPQUZi8RAJcEdcKsVYhLlrcDS6najpJGBWZmqKyBXU3SwI+rbBjCKkQk9WhA==";
+        };
+        _lHZymt3a = {
+            "id" = "lHZymt3a";
+            "file" = "carpet-org-addition-mc26.3.x-v1.46.0-2609161136.jar";
+            "hash" = "sha512-PGcmF8mayv9FVmGxCrRWKxoBG1GJ3dxhkjNZKVujsyLQhBhbmWY+W7iAwXKjK+DZC+Wxab4kofKBvn0pOtoYpQ==";
+        };
     in {
         "tH4eTQEK" = _tH4eTQEK;
         "xR4fkrpG" = _xR4fkrpG;
@@ -1730,6 +1745,9 @@ let
         "5dCtXhKF" = _5dCtXhKF;
         "AXVnGuAo" = _AXVnGuAo;
         "UsXoQ1Zn" = _UsXoQ1Zn;
+        "K0NAVW2c" = _K0NAVW2c;
+        "1FVlB9OX" = _1FVlB9OX;
+        "lHZymt3a" = _lHZymt3a;
         "fabric-1.20.1" = _Rb2XiKF7;
         "fabric-1.20.2" = _gT4vbuM6;
         "fabric-1.20.3" = _8O9160xA;
@@ -1759,10 +1777,11 @@ let
         "fabric-1.21.10" = _MhzfvbDb;
         "fabric-25w44a" = _jEIslkH2;
         "fabric-1.21.11" = _5dCtXhKF;
-        "fabric-26.1" = _AXVnGuAo;
-        "fabric-26.1.1" = _AXVnGuAo;
-        "fabric-26.1.2" = _AXVnGuAo;
-        "fabric-26.2" = _UsXoQ1Zn;
+        "fabric-26.1" = _K0NAVW2c;
+        "fabric-26.1.1" = _K0NAVW2c;
+        "fabric-26.1.2" = _K0NAVW2c;
+        "fabric-26.2" = _1FVlB9OX;
+        "fabric-26.3" = _lHZymt3a;
         "pkg-v1.14" = _tH4eTQEK;
         "pkg-v1.15.1" = _xR4fkrpG;
         "pkg-v1.16.4" = _ae387a6R;
@@ -1823,7 +1842,8 @@ let
         "pkg-1.45.0" = _6dcpWTkr;
         "pkg-1.41.6" = _5dCtXhKF;
         "pkg-1.45.1" = _UsXoQ1Zn;
-        "default" = _UsXoQ1Zn;
+        "pkg-1.46.0" = _lHZymt3a;
+        "default" = _lHZymt3a;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "carpet-org-addition";

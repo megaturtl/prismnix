@@ -701,6 +701,11 @@ let
             "file" = "rubidium-chinese-localization-pack-2.2+mc1.16.5-unknown.jar";
             "hash" = "sha512-36Qx2SSgiNoPjeOWgTI+nJTleuAYUcI6N5Ygt624BT2iHpH6Fnr06dQkb9b2FzCVpOZyosPSqIQ9DKCWjRLGjw==";
         };
+        _yRsEj78y = {
+            "id" = "yRsEj78y";
+            "file" = "rubidium-chinese-localization-pack-2.3.1+mc1.16.5-unknown.jar";
+            "hash" = "sha512-FvhsBOdwU9eZ1sjR6XBUlBWcoY9f14X5e9zdnUNdnLKNLkZ2kun+pBPz8XFeiMdtHYs4yVTSY1vW5upmzMtDkA==";
+        };
     in {
         "nwqAWW9x" = _nwqAWW9x;
         "kte10jxG" = _kte10jxG;
@@ -842,6 +847,7 @@ let
         "sQvXzPjB" = _sQvXzPjB;
         "uo7m7Yac" = _uo7m7Yac;
         "htdxyxlw" = _htdxyxlw;
+        "yRsEj78y" = _yRsEj78y;
         "fabric-1.16.3" = _XtVQ7vmN;
         "fabric-1.16.4" = _XtVQ7vmN;
         "fabric-1.16.5" = _XtVQ7vmN;
@@ -934,9 +940,9 @@ let
         "forge-1.20.2" = _8NgvQF2l;
         "forge-1.18.2" = _uo7m7Yac;
         "forge-1.20" = _8NgvQF2l;
-        "forge-1.16.3" = _htdxyxlw;
-        "forge-1.16.4" = _htdxyxlw;
-        "forge-1.16.5" = _htdxyxlw;
+        "forge-1.16.3" = _yRsEj78y;
+        "forge-1.16.4" = _yRsEj78y;
+        "forge-1.16.5" = _yRsEj78y;
         "forge-1.18" = _uo7m7Yac;
         "forge-1.18.1" = _uo7m7Yac;
         "forge-1.19" = _uo7m7Yac;
@@ -1041,7 +1047,8 @@ let
         "pkg-3.17.8" = _sQvXzPjB;
         "pkg-2.1+mc1.18" = _uo7m7Yac;
         "pkg-2.2+mc1.16.5" = _htdxyxlw;
-        "default" = _htdxyxlw;
+        "pkg-2.3.1+mc1.16.5" = _yRsEj78y;
+        "default" = _yRsEj78y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mc1.16.5-sodium-chinese-localization-pack";

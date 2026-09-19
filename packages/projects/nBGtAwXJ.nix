@@ -106,6 +106,11 @@ let
             "file" = "crosshair_plus_square_dot-1.0.1-mc26.1.2.zip";
             "hash" = "sha512-iH1p1bB8VO6WUgOl1uwbj7K0UtqqLwmUCfkq5mfUpRYFM8Fb6XnNqA2jXa5wxHCsS0kbXN9nv7qmRL/3umVJhg==";
         };
+        _bjpanX2y = {
+            "id" = "bjpanX2y";
+            "file" = "crosshair_plus_square_dot-1.0.1-mc26.3.zip";
+            "hash" = "sha512-K9uDUBeDaUEziY46Lp9DbQWSYb04KXbjaY2ifbh2oC0J2fiztGeyjv8GPFyWMUZL236KWK0/6eh084AsI97bzA==";
+        };
     in {
         "WHq8i0gj" = _WHq8i0gj;
         "dKmcqFmt" = _dKmcqFmt;
@@ -128,6 +133,7 @@ let
         "b4wOniQC" = _b4wOniQC;
         "vcvWdCEP" = _vcvWdCEP;
         "Pne6QLGS" = _Pne6QLGS;
+        "bjpanX2y" = _bjpanX2y;
         "minecraft-1.20.2" = _WHq8i0gj;
         "minecraft-1.20.3" = _dKmcqFmt;
         "minecraft-1.20.4" = _ljJTxrWI;
@@ -149,8 +155,9 @@ let
         "minecraft-26.2" = _b4wOniQC;
         "minecraft-26.1.1" = _vcvWdCEP;
         "minecraft-26.1.2" = _Pne6QLGS;
-        "pkg-1.0.1" = _Pne6QLGS;
-        "default" = _Pne6QLGS;
+        "minecraft-26.3" = _bjpanX2y;
+        "pkg-1.0.1" = _bjpanX2y;
+        "default" = _bjpanX2y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-collective-plus-square-dot-crosshair";

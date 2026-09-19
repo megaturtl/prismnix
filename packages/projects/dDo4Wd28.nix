@@ -176,6 +176,16 @@ let
             "file" = "faster-paths-2.5.1.jar";
             "hash" = "sha512-7YWSkpq+n7Z4aXE/Hag4zcT9RshsK/fn0kSyIt/1qGw7wYPXa3eyHvoP15agBbTTsLnnUWY/OkYxp22p6i1YTQ==";
         };
+        _nyQ1578k = {
+            "id" = "nyQ1578k";
+            "file" = "Faster_Paths 2.5.2.zip";
+            "hash" = "sha512-3G5yNZYTyMsc8Y8O6/dnTRbScYOVppEB9SL8rDauFsUrhy9J0HjMhnuoGomIkeDw+8EQQRQlUNyHjTKJAaqQfw==";
+        };
+        _rHhl1qkO = {
+            "id" = "rHhl1qkO";
+            "file" = "faster-paths-2.5.2.jar";
+            "hash" = "sha512-k31dRJnoXN9vbNq2HnneXzYLC4/yiM7GDKJOLmircauyu1VVuEueejf4r8dDiEyPAi7EmtoQycOXyJp73FzFxg==";
+        };
     in {
         "HSKxq7Qb" = _HSKxq7Qb;
         "UwoEIibY" = _UwoEIibY;
@@ -212,6 +222,8 @@ let
         "nmd6Unpw" = _nmd6Unpw;
         "jlS0xHEC" = _jlS0xHEC;
         "hLrtWvuu" = _hLrtWvuu;
+        "nyQ1578k" = _nyQ1578k;
+        "rHhl1qkO" = _rHhl1qkO;
         "datapack-1.20.5" = _nZOWXfmS;
         "datapack-1.20.6" = _nZOWXfmS;
         "datapack-1.21" = _RWwd919e;
@@ -274,6 +286,7 @@ let
         "datapack-26.2-snapshot-4" = _jlS0xHEC;
         "datapack-26.2-snapshot-5" = _jlS0xHEC;
         "datapack-26.2" = _jlS0xHEC;
+        "datapack-26.3" = _nyQ1578k;
         "fabric-1.20.5" = _c5ye45nL;
         "fabric-1.20.6" = _c5ye45nL;
         "fabric-1.21" = _gGmGw8xM;
@@ -343,6 +356,7 @@ let
         "fabric-26.2-snapshot-4" = _hLrtWvuu;
         "fabric-26.2-snapshot-5" = _hLrtWvuu;
         "fabric-26.2" = _hLrtWvuu;
+        "fabric-26.3" = _rHhl1qkO;
         "forge-1.20.5" = _c5ye45nL;
         "forge-1.20.6" = _c5ye45nL;
         "forge-1.21" = _gGmGw8xM;
@@ -405,6 +419,7 @@ let
         "forge-26.2-snapshot-4" = _hLrtWvuu;
         "forge-26.2-snapshot-5" = _hLrtWvuu;
         "forge-26.2" = _hLrtWvuu;
+        "forge-26.3" = _rHhl1qkO;
         "quilt-1.20.5" = _c5ye45nL;
         "quilt-1.20.6" = _c5ye45nL;
         "quilt-1.21" = _gGmGw8xM;
@@ -474,6 +489,7 @@ let
         "quilt-26.2-snapshot-4" = _hLrtWvuu;
         "quilt-26.2-snapshot-5" = _hLrtWvuu;
         "quilt-26.2" = _hLrtWvuu;
+        "quilt-26.3" = _rHhl1qkO;
         "neoforge-1.21" = _gGmGw8xM;
         "neoforge-1.21.1-rc1" = _FggEf1Zf;
         "neoforge-1.21.1" = _gGmGw8xM;
@@ -543,6 +559,7 @@ let
         "neoforge-26.2-snapshot-4" = _hLrtWvuu;
         "neoforge-26.2-snapshot-5" = _hLrtWvuu;
         "neoforge-26.2" = _hLrtWvuu;
+        "neoforge-26.3" = _rHhl1qkO;
         "bukkit-1.21.2" = _mdnMyrqj;
         "bukkit-1.21.3" = _mdnMyrqj;
         "bukkit-1.21.4" = _mdnMyrqj;
@@ -619,7 +636,8 @@ let
         "pkg-2.4-mod" = _aqeJeEYL;
         "pkg-2.5" = _nmd6Unpw;
         "pkg-2.5.1" = _hLrtWvuu;
-        "default" = _hLrtWvuu;
+        "pkg-2.5.2" = _rHhl1qkO;
+        "default" = _rHhl1qkO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "faster-paths";

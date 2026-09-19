@@ -66,6 +66,11 @@ let
             "file" = "flashcards-2.0.0.jar";
             "hash" = "sha512-HEiuYu3yd6GFUUP9veKDvQ99sKBpjmtMRFC/hJBNQN4zzSLVpccfVCEw+a6vg9GsQX7FhxMAzoVYMrLx6biIag==";
         };
+        _DYwwfrJ4 = {
+            "id" = "DYwwfrJ4";
+            "file" = "flashcards-2.0.0-26.3.jar";
+            "hash" = "sha512-CSuBwp7G98qa7xQBf8NmMzat2xNJ0yEJHMplZ5aqPhiK/7WzqbVOuVP+8DSZu1uEEIVi21tOR4XxNAizvQ3uHA==";
+        };
     in {
         "YUlMtofP" = _YUlMtofP;
         "qewUfZN3" = _qewUfZN3;
@@ -80,6 +85,7 @@ let
         "ZAtwTuJG" = _ZAtwTuJG;
         "BsZ98GCJ" = _BsZ98GCJ;
         "wBoYlnlc" = _wBoYlnlc;
+        "DYwwfrJ4" = _DYwwfrJ4;
         "fabric-1.21" = _ZXBNTxPW;
         "fabric-1.21.1" = _ZXBNTxPW;
         "fabric-1.21.2" = _sBEQ66gO;
@@ -96,6 +102,7 @@ let
         "fabric-26.1.1" = _BsZ98GCJ;
         "fabric-26.1.2" = _BsZ98GCJ;
         "fabric-26.2" = _wBoYlnlc;
+        "fabric-26.3" = _DYwwfrJ4;
         "pkg-1.0.0" = _YUlMtofP;
         "pkg-1.0.1" = _qewUfZN3;
         "pkg-1.1.0" = _1FueCzRm;
@@ -109,7 +116,8 @@ let
         "pkg-1.8.0" = _ZAtwTuJG;
         "pkg-1.9.0" = _BsZ98GCJ;
         "pkg-2.0.0" = _wBoYlnlc;
-        "default" = _wBoYlnlc;
+        "pkg-2.0.0-26.3" = _DYwwfrJ4;
+        "default" = _DYwwfrJ4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flashcards";

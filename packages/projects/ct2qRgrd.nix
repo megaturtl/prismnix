@@ -81,6 +81,16 @@ let
             "file" = "doorjam-2.3.0+mc26.1.jar";
             "hash" = "sha512-76IIeID+QmQg06UG9Qu3sGiJaMNFsPiG/UbFGsQiHHvKQuGgN0kWR64Ka4txH2Wj8ueRXMAKMxKIs81ow/5Yew==";
         };
+        _iozAaP0P = {
+            "id" = "iozAaP0P";
+            "file" = "doorjam-2.3.1+mc26.1.jar";
+            "hash" = "sha512-Zz+6XDCWYVlEELeSWNC2RIPJaCoCU0USd9d5IT89ZlgLvs6xiQb1QPnbTJc0E4+Hk7b5Q3QZci/yFMVHVG6C1Q==";
+        };
+        _DcwWblNS = {
+            "id" = "DcwWblNS";
+            "file" = "doorjam-2.3.1+mc26.3.jar";
+            "hash" = "sha512-aWejSTeAKQ6bbMuMyVBF/bgkrY+8QtDL0+IbdPhMOLzLxaN/kzVoK8fsEXeLVS/xWQkpFWIIeTNdksW55YagDw==";
+        };
     in {
         "vjCzfQ4r" = _vjCzfQ4r;
         "2rAXzwdw" = _2rAXzwdw;
@@ -98,6 +108,8 @@ let
         "8EGfeeAx" = _8EGfeeAx;
         "8BF1ppMv" = _8BF1ppMv;
         "ysSczTK7" = _ysSczTK7;
+        "iozAaP0P" = _iozAaP0P;
+        "DcwWblNS" = _DcwWblNS;
         "fabric-23w43a" = _2rAXzwdw;
         "fabric-23w43b" = _z3YBkOsC;
         "fabric-23w45a" = _12afw8s9;
@@ -117,10 +129,12 @@ let
         "fabric-1.21.9" = _8BF1ppMv;
         "fabric-1.21.10" = _8BF1ppMv;
         "fabric-1.21.11" = _8BF1ppMv;
-        "fabric-26.1" = _ysSczTK7;
-        "fabric-26.1.1" = _ysSczTK7;
-        "fabric-26.1.2" = _ysSczTK7;
-        "fabric-26.2" = _ysSczTK7;
+        "fabric-26.1" = _iozAaP0P;
+        "fabric-26.1.1" = _iozAaP0P;
+        "fabric-26.1.2" = _iozAaP0P;
+        "fabric-26.2" = _iozAaP0P;
+        "fabric-26.3-rc-3" = _DcwWblNS;
+        "fabric-26.3" = _DcwWblNS;
         "quilt-23w43a" = _2rAXzwdw;
         "quilt-23w43b" = _z3YBkOsC;
         "quilt-23w45a" = _12afw8s9;
@@ -140,7 +154,9 @@ let
         "pkg-2.2.0+mc1.21.5" = _8EGfeeAx;
         "pkg-2.2.0+mc1.21.9" = _8BF1ppMv;
         "pkg-2.3.0+mc26.1" = _ysSczTK7;
-        "default" = _ysSczTK7;
+        "pkg-2.3.1+mc26.1" = _iozAaP0P;
+        "pkg-2.3.1+mc26.3" = _DcwWblNS;
+        "default" = _DcwWblNS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "door-jam";

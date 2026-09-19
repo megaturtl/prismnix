@@ -41,6 +41,11 @@ let
             "file" = "crosshair-health-indicator-v1.1.0-26.1-2.jar";
             "hash" = "sha512-WCKcp39GCDmyqiwB1gE9CPomG/whAbUL7uXmyOsQVh4PRQVpD1QzmiYU5jSw+RP0iZqnWvjEziFWmAiDH7RieA==";
         };
+        _eiNRJMBf = {
+            "id" = "eiNRJMBf";
+            "file" = "crosshair-health-indicator-v1.1.0-26.1-3.jar";
+            "hash" = "sha512-2r/Yn/9iXW7H4rRxeZAyCeRWGSnwkXWu47ciMBMXQnCsY5roZEArKNB74WriSPEWzaFEhlaM8F+r13S7glXhAA==";
+        };
     in {
         "YINQXWll" = _YINQXWll;
         "Li86Mjpc" = _Li86Mjpc;
@@ -50,16 +55,18 @@ let
         "RxtUr1Fl" = _RxtUr1Fl;
         "gdAqZx75" = _gdAqZx75;
         "iH1WZ3o1" = _iH1WZ3o1;
+        "eiNRJMBf" = _eiNRJMBf;
         "fabric-1.21.6" = _RxtUr1Fl;
         "fabric-1.21.7" = _RxtUr1Fl;
         "fabric-1.21.8" = _RxtUr1Fl;
         "fabric-1.21.9" = _RxtUr1Fl;
         "fabric-1.21.10" = _RxtUr1Fl;
         "fabric-1.21.11" = _gdAqZx75;
-        "fabric-26.1" = _iH1WZ3o1;
-        "fabric-26.1.1" = _iH1WZ3o1;
-        "fabric-26.1.2" = _iH1WZ3o1;
-        "fabric-26.2" = _iH1WZ3o1;
+        "fabric-26.1" = _eiNRJMBf;
+        "fabric-26.1.1" = _eiNRJMBf;
+        "fabric-26.1.2" = _eiNRJMBf;
+        "fabric-26.2" = _eiNRJMBf;
+        "fabric-26.3" = _eiNRJMBf;
         "pkg-1.0.0-1.21.6-10" = _YINQXWll;
         "pkg-1.0.0-1.21.11" = _Li86Mjpc;
         "pkg-1.0.0-26.1" = _8NlkA46t;
@@ -68,7 +75,8 @@ let
         "pkg-1.1.0-1.21.6-10" = _RxtUr1Fl;
         "pkg-1.1.0-1.21.11" = _gdAqZx75;
         "pkg-1.1.0-26.1-2" = _iH1WZ3o1;
-        "default" = _iH1WZ3o1;
+        "pkg-1.1.0-26.1-3" = _eiNRJMBf;
+        "default" = _eiNRJMBf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crosshair-health-indicator";

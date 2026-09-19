@@ -11,16 +11,23 @@ let
             "file" = "fast-chest-1.8+26.2.jar";
             "hash" = "sha512-6VQ+3/yhP/hB3G3dAQMwfj46xhHhZrKsBSaQXL4QOnQDHOAYrbqQJ6vnfYquAM90Ufnf82XgCCeFjU2GyGuQyA==";
         };
+        _7cMHUDwM = {
+            "id" = "7cMHUDwM";
+            "file" = "fast-chest-1.9+26.2.jar";
+            "hash" = "sha512-hJqm1uhanDgwOFSJbsLJ7W59b7trmbm2twlHcq3pVHANCjrlJPQPH2ffHfaluds/RLUeMo1/QnL0Ha2JwxQwHA==";
+        };
     in {
         "o5g4ET2u" = _o5g4ET2u;
         "PVxjJQwl" = _PVxjJQwl;
+        "7cMHUDwM" = _7cMHUDwM;
         "fabric-26.1" = _o5g4ET2u;
         "fabric-26.1.1" = _o5g4ET2u;
         "fabric-26.1.2" = _o5g4ET2u;
-        "fabric-26.2" = _PVxjJQwl;
+        "fabric-26.2" = _7cMHUDwM;
         "pkg-1.7+26.1" = _o5g4ET2u;
         "pkg-1.8+26.2" = _PVxjJQwl;
-        "default" = _PVxjJQwl;
+        "pkg-1.9+26.2" = _7cMHUDwM;
+        "default" = _7cMHUDwM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fastchest-update";

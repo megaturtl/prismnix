@@ -31,6 +31,16 @@ let
             "file" = "villager-vanity-1.0.0.jar";
             "hash" = "sha512-JNb+/jjj/2pV730tUNq12n8Baon3hDmSvbz/9B8nVGAevNIHDhMiKIez/pP1/VNAGCpFB8WvGPthxpRDmgAXlA==";
         };
+        _7rMAVQKQ = {
+            "id" = "7rMAVQKQ";
+            "file" = "villagervanity_1.0.1_data_pack.zip";
+            "hash" = "sha512-I7H7HFgxDB6L1vGd+DWPUGVm5y2F8rKZ4Y5BcJRiqvg9S+TMt4rHWrvy63NoYsJTrY6BcUZqL6on3mblVMWd6w==";
+        };
+        _6ltL45Nt = {
+            "id" = "6ltL45Nt";
+            "file" = "villager-vanity-1.0.1.jar";
+            "hash" = "sha512-7LIzI5sT47JFILDCTX/XYkkczgD1SPcGEoXcKK2nphTxLibr07mJA4CK0NB8C2thGrQiMUzVSFw0908UE3hMlA==";
+        };
     in {
         "1MBY7VFj" = _1MBY7VFj;
         "zXQgpZIs" = _zXQgpZIs;
@@ -38,6 +48,8 @@ let
         "5gpEmvo0" = _5gpEmvo0;
         "jtOY3LiC" = _jtOY3LiC;
         "tApCBKcy" = _tApCBKcy;
+        "7rMAVQKQ" = _7rMAVQKQ;
+        "6ltL45Nt" = _6ltL45Nt;
         "datapack-1.21.5" = _3UyVzBcU;
         "datapack-1.21.6" = _3UyVzBcU;
         "datapack-1.21.7" = _3UyVzBcU;
@@ -49,6 +61,7 @@ let
         "datapack-26.1.1" = _jtOY3LiC;
         "datapack-26.1.2" = _jtOY3LiC;
         "datapack-26.2" = _jtOY3LiC;
+        "datapack-26.3" = _7rMAVQKQ;
         "fabric-1.21.5" = _5gpEmvo0;
         "fabric-1.21.6" = _5gpEmvo0;
         "fabric-1.21.7" = _5gpEmvo0;
@@ -60,6 +73,7 @@ let
         "fabric-26.1.1" = _tApCBKcy;
         "fabric-26.1.2" = _tApCBKcy;
         "fabric-26.2" = _tApCBKcy;
+        "fabric-26.3" = _6ltL45Nt;
         "forge-1.21.5" = _5gpEmvo0;
         "forge-1.21.6" = _5gpEmvo0;
         "forge-1.21.7" = _5gpEmvo0;
@@ -71,6 +85,7 @@ let
         "forge-26.1.1" = _tApCBKcy;
         "forge-26.1.2" = _tApCBKcy;
         "forge-26.2" = _tApCBKcy;
+        "forge-26.3" = _6ltL45Nt;
         "neoforge-1.21.5" = _5gpEmvo0;
         "neoforge-1.21.6" = _5gpEmvo0;
         "neoforge-1.21.7" = _5gpEmvo0;
@@ -82,6 +97,7 @@ let
         "neoforge-26.1.1" = _tApCBKcy;
         "neoforge-26.1.2" = _tApCBKcy;
         "neoforge-26.2" = _tApCBKcy;
+        "neoforge-26.3" = _6ltL45Nt;
         "quilt-1.21.5" = _5gpEmvo0;
         "quilt-1.21.6" = _5gpEmvo0;
         "quilt-1.21.7" = _5gpEmvo0;
@@ -93,13 +109,16 @@ let
         "quilt-26.1.1" = _tApCBKcy;
         "quilt-26.1.2" = _tApCBKcy;
         "quilt-26.2" = _tApCBKcy;
+        "quilt-26.3" = _6ltL45Nt;
         "pkg-0.1.0" = _1MBY7VFj;
         "pkg-0.1.0+mod" = _zXQgpZIs;
         "pkg-0.2.0" = _3UyVzBcU;
         "pkg-0.2.0+mod" = _5gpEmvo0;
         "pkg-1.0.0" = _jtOY3LiC;
         "pkg-1.0.0+mod" = _tApCBKcy;
-        "default" = _tApCBKcy;
+        "pkg-1.0.1" = _7rMAVQKQ;
+        "pkg-1.0.1+mod" = _6ltL45Nt;
+        "default" = _6ltL45Nt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villager-vanity";

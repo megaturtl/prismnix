@@ -86,6 +86,11 @@ let
             "file" = "stackedblocksfarmersdelight-26.06.24-26.2-fabric.jar";
             "hash" = "sha512-rc5QO+7muiLt3qqaSQO7sZAlu7OdYCf4dfB5x99KRkLMpI6MQ67TgQhvSm3hOyXAtJfHtxGwtL257PjcR8I7dA==";
         };
+        _SdvNCqKY = {
+            "id" = "SdvNCqKY";
+            "file" = "stackedblocksfarmersdelight-26.09.15-26.3-fabric.jar";
+            "hash" = "sha512-16yaN2jeIOQIL4Tx2IPe+rwX269tU31B+qavRrhEPkatY3/er4bvd4xKa5t8IYO+5TS+th0vVrhC5hlIXmerqg==";
+        };
     in {
         "rT4LU7AI" = _rT4LU7AI;
         "xmaFV0AM" = _xmaFV0AM;
@@ -104,6 +109,7 @@ let
         "J9RIPoZx" = _J9RIPoZx;
         "qRYAwBvf" = _qRYAwBvf;
         "5l6oYDU3" = _5l6oYDU3;
+        "SdvNCqKY" = _SdvNCqKY;
         "forge-1.19" = _S5EoFkKk;
         "forge-1.19.1" = _S5EoFkKk;
         "forge-1.19.2" = _S5EoFkKk;
@@ -126,6 +132,7 @@ let
         "fabric-26.1.1" = _J9RIPoZx;
         "fabric-26.1.2" = _J9RIPoZx;
         "fabric-26.2" = _5l6oYDU3;
+        "fabric-26.3" = _SdvNCqKY;
         "neoforge-1.20" = _JyPT2WBY;
         "neoforge-1.20.1" = _JyPT2WBY;
         "neoforge-1.21" = _dSyI2nJZ;
@@ -157,7 +164,8 @@ let
         "pkg-26.06.09-26.1-fabric" = _J9RIPoZx;
         "pkg-26.06.10-1.21.7-fabric" = _qRYAwBvf;
         "pkg-26.06.24-26.2-fabric" = _5l6oYDU3;
-        "default" = _5l6oYDU3;
+        "pkg-26.09.15-26.3-fabric" = _SdvNCqKY;
+        "default" = _SdvNCqKY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stacked-blocks-farmers-delight";

@@ -21,17 +21,24 @@ let
             "file" = "symbiote-1.1.2.jar";
             "hash" = "sha512-/Kv00yGrvTYxDNlf0yp+WU6dRCSO1Pp7pMVfNmQqhH8nzWqvcjFYVWEoiQqsPoZxalu0Vdr92LmnGxzINgtGlw==";
         };
+        _mXMKrpoC = {
+            "id" = "mXMKrpoC";
+            "file" = "symbiote-1.1.3.jar";
+            "hash" = "sha512-c0XAXnrEh7NEOnx1QJdOR05licigK9k7X35fVkTKGSjLPcAyo5rYF7qVyeTLhIspw3GwtrSoXkI3xhIU5o6Jyw==";
+        };
     in {
         "OUGDCiLP" = _OUGDCiLP;
         "aTDrU135" = _aTDrU135;
         "BrH7LUu6" = _BrH7LUu6;
         "e5aGM41u" = _e5aGM41u;
-        "forge-1.20.1" = _e5aGM41u;
+        "mXMKrpoC" = _mXMKrpoC;
+        "forge-1.20.1" = _mXMKrpoC;
         "pkg-1.0.0" = _OUGDCiLP;
         "pkg-1.1.0" = _aTDrU135;
         "pkg-1.1.1" = _BrH7LUu6;
         "pkg-1.1.2" = _e5aGM41u;
-        "default" = _e5aGM41u;
+        "pkg-1.1.3" = _mXMKrpoC;
+        "default" = _mXMKrpoC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "symbiote-a-bonding-experience";

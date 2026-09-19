@@ -1271,6 +1271,36 @@ let
             "file" = "theurgy-1.20.1-1.30.0.jar";
             "hash" = "sha512-SwWih84m1T6r9Tt10Mpekq1C22puGrNmfgww2laFCxrzQkItu260qKGy3y6O5Ojv1nv3ERdtJ4GSi4mibEDFSw==";
         };
+        _ltY0torm = {
+            "id" = "ltY0torm";
+            "file" = "theurgy-26.1.2-neoforge-1.115.0.jar";
+            "hash" = "sha512-w7oASrpTtzLplc7QKcYZ5Zn9L3jV4nX9nYoSg3jm2UPiV4zRIroKY1OSDx1HZDYWNcO2bo0/oyJJTlc0G/j7hw==";
+        };
+        _F2nl4LsR = {
+            "id" = "F2nl4LsR";
+            "file" = "theurgy-26.2-neoforge-1.117.0.jar";
+            "hash" = "sha512-UA+dEI67+F5HB4GE8AGsqFaWTA7oueogkc9TtxbXCIzpYXpsTdoW+HeRIOA3IFHSOL2xk3LVgpDY5/A++1UvUA==";
+        };
+        _9SDr4yoB = {
+            "id" = "9SDr4yoB";
+            "file" = "theurgy-26.2-neoforge-1.118.0.jar";
+            "hash" = "sha512-QH+tCXbbg9wxo6nnwQNefyZxz4POHjpncCu86pYAXzMspFFX3DIEp4GtkjktEJw00R36FWZmDogVbiwDJVzn9A==";
+        };
+        _yfHcc2Lc = {
+            "id" = "yfHcc2Lc";
+            "file" = "theurgy-26.1.2-neoforge-1.115.1.jar";
+            "hash" = "sha512-zlhBV65vEGFg7uOVubwfXZDjIzF3xIaqASw49rdC2JbxLxik6DXdNDHJRUfk77T/Fwrc3rkN9MHSBnI6zKrcbw==";
+        };
+        _O4tOwkRB = {
+            "id" = "O4tOwkRB";
+            "file" = "theurgy-26.2-neoforge-1.118.1.jar";
+            "hash" = "sha512-bz85DEdbJnSmi6qSvEfy2057g7tWJI/hURYU9xtd4kmNXyunRyFMm/kWYb2zneLdhwwFP6YtQu6yQw3wAbfOAQ==";
+        };
+        _R5jRgLze = {
+            "id" = "R5jRgLze";
+            "file" = "theurgy-1.21.1-neoforge-1.76.1.jar";
+            "hash" = "sha512-Qsm7DDA3ZBfhcMvKZ/O0yXTLVakt4lqYHspObOGBK4tDCBRvnrYi66h95Qga6ADXNwAwM/4sZKI2x8unQwSOwg==";
+        };
     in {
         "Pf9wrKED" = _Pf9wrKED;
         "1ThELtGd" = _1ThELtGd;
@@ -1526,6 +1556,12 @@ let
         "EKFJR1bN" = _EKFJR1bN;
         "y0yvwgtw" = _y0yvwgtw;
         "SOq49z63" = _SOq49z63;
+        "ltY0torm" = _ltY0torm;
+        "F2nl4LsR" = _F2nl4LsR;
+        "9SDr4yoB" = _9SDr4yoB;
+        "yfHcc2Lc" = _yfHcc2Lc;
+        "O4tOwkRB" = _O4tOwkRB;
+        "R5jRgLze" = _R5jRgLze;
         "forge-1.20" = _bd4YwTzI;
         "forge-1.20.1" = _SOq49z63;
         "forge-1.18.2" = _1ThELtGd;
@@ -1537,12 +1573,12 @@ let
         "neoforge-1.20.4" = _gPUoTqXH;
         "neoforge-1.20.6" = _ltjQxtGT;
         "neoforge-1.21" = _oTaGqunB;
-        "neoforge-1.21.1" = _vspu3lIl;
+        "neoforge-1.21.1" = _R5jRgLze;
         "neoforge-1.21.3" = _Dyuz8HLN;
         "neoforge-26.1" = _KI22CbJS;
         "neoforge-26.1.1" = _5JdPaaNS;
-        "neoforge-26.1.2" = _hQLOoK7T;
-        "neoforge-26.2" = _y0yvwgtw;
+        "neoforge-26.1.2" = _yfHcc2Lc;
+        "neoforge-26.2" = _O4tOwkRB;
         "pkg-1.20.1-1.3.7" = _Pf9wrKED;
         "pkg-1.18.2-1.3.6" = _1ThELtGd;
         "pkg-1.19.3-1.3.1" = _gZUwKRK5;
@@ -1796,7 +1832,13 @@ let
         "pkg-26.2-neoforge-1.115.0" = _EKFJR1bN;
         "pkg-26.2-neoforge-1.116.0" = _y0yvwgtw;
         "pkg-1.20.1-1.30.0" = _SOq49z63;
-        "default" = _SOq49z63;
+        "pkg-26.1.2-neoforge-1.115.0" = _ltY0torm;
+        "pkg-26.2-neoforge-1.117.0" = _F2nl4LsR;
+        "pkg-26.2-neoforge-1.118.0" = _9SDr4yoB;
+        "pkg-26.1.2-neoforge-1.115.1" = _yfHcc2Lc;
+        "pkg-26.2-neoforge-1.118.1" = _O4tOwkRB;
+        "pkg-1.21.1-neoforge-1.76.1" = _R5jRgLze;
+        "default" = _R5jRgLze;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "theurgy";

@@ -176,6 +176,21 @@ let
             "file" = "modifiedtornadodamage-0.0.29.jar";
             "hash" = "sha512-+hsJb885nvajbHQWXYQGEXQN1McQG6zO2d/s5BMozjnNFOWAfFqxArEkivL0vLa3v9nESafW4Bf7Ml6Y0ssckA==";
         };
+        _tlq9mjo1 = {
+            "id" = "tlq9mjo1";
+            "file" = "modifiedtornadodamage-0.0.30.jar";
+            "hash" = "sha512-+RxIA9cBhpOwD0CYZQi5CHF+KB5ewVHUahfv5OdKVj8fwq3ofAyhkB9ClYOeWNxy4xeAndvzick1VzFItOMwvw==";
+        };
+        _ym8wctme = {
+            "id" = "ym8wctme";
+            "file" = "modifiedtornadodamage-0.0.31.jar";
+            "hash" = "sha512-wFMk9zRsjsCrqh8jVsk7Upwpwc+16EGIIj3iYvMxDRVsM/o/P51iaxUE/GE6eZ2cyhDVG8dlbGQHeIWfuXHhgg==";
+        };
+        _IfdCE1UY = {
+            "id" = "IfdCE1UY";
+            "file" = "modifiedtornadodamage-0.0.311.jar";
+            "hash" = "sha512-3+G60o8DkQU0tGiR5KcaU3afhAH2G3EnHZAVIftH+tSAbCQpnqw2XRAQCsrNRT0go9ogie9XneA8XcvHQXMFtg==";
+        };
     in {
         "NqEcMAVz" = _NqEcMAVz;
         "fthXMPzn" = _fthXMPzn;
@@ -212,7 +227,10 @@ let
         "DTzLLCRR" = _DTzLLCRR;
         "ajynCsY7" = _ajynCsY7;
         "gL6VNiM1" = _gL6VNiM1;
-        "neoforge-1.21.1" = _gL6VNiM1;
+        "tlq9mjo1" = _tlq9mjo1;
+        "ym8wctme" = _ym8wctme;
+        "IfdCE1UY" = _IfdCE1UY;
+        "neoforge-1.21.1" = _IfdCE1UY;
         "forge-1.20.1" = _fDDp4YUY;
         "pkg-0.0.2" = _NqEcMAVz;
         "pkg-0.0.3" = _fthXMPzn;
@@ -249,7 +267,10 @@ let
         "pkg-0.0.27" = _DTzLLCRR;
         "pkg-0.0.28" = _ajynCsY7;
         "pkg-0.0.29" = _gL6VNiM1;
-        "default" = _gL6VNiM1;
+        "pkg-0.0.30" = _tlq9mjo1;
+        "pkg-0.0.31" = _ym8wctme;
+        "pkg-0.0.311" = _IfdCE1UY;
+        "default" = _IfdCE1UY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modified-tornado-damage";

@@ -181,6 +181,11 @@ let
             "file" = "simpleskills-1.4.8.jar";
             "hash" = "sha512-IETiZsFITzEXYcPrPXsCDtLbgASSmallUThm/6GqYqM8BmaolIBB/SzCZqZrJASsei4B1BhaKcuOrA9UINNOdQ==";
         };
+        _hjK56DvJ = {
+            "id" = "hjK56DvJ";
+            "file" = "simpleskills-1.4.9.jar";
+            "hash" = "sha512-kZVvQBQ1mK2yJWI6p/stcOsY+83xK0pzzlqeQrmRVEY4Ldt8kSfahRgapktv6pD0uYpCvJ20JUo8aZM5u6e1jQ==";
+        };
     in {
         "tYjeceJ1" = _tYjeceJ1;
         "QN8fmFf2" = _QN8fmFf2;
@@ -218,6 +223,7 @@ let
         "6bwrH4O4" = _6bwrH4O4;
         "3xY38CYq" = _3xY38CYq;
         "3QWlSrQd" = _3QWlSrQd;
+        "hjK56DvJ" = _hjK56DvJ;
         "fabric-1.21.4" = _L6JSvzRP;
         "fabric-25w37a" = _bQGHFKDX;
         "fabric-1.21.9-pre1" = _boxP62tU;
@@ -228,6 +234,7 @@ let
         "fabric-26.1" = _y25hML8R;
         "fabric-26.1.2" = _6bwrH4O4;
         "fabric-26.2" = _3QWlSrQd;
+        "fabric-26.3" = _hjK56DvJ;
         "pkg-1.0.0" = _tYjeceJ1;
         "pkg-1.0.1" = _QN8fmFf2;
         "pkg-1.0.2" = _Zw40pcWp;
@@ -264,7 +271,8 @@ let
         "pkg-1.4.6" = _6bwrH4O4;
         "pkg-1.4.7" = _3xY38CYq;
         "pkg-1.4.8" = _3QWlSrQd;
-        "default" = _3QWlSrQd;
+        "pkg-1.4.9" = _hjK56DvJ;
+        "default" = _hjK56DvJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simpleskills";

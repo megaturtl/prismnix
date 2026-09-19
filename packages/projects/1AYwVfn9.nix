@@ -81,6 +81,26 @@ let
             "file" = "cobblemon-move-tutor-neoforge-1.5.0.jar";
             "hash" = "sha512-6ssnTm2KRDfdqomghntqVtUxYp4HxuLiz53UVRexI3xMPVCNfXaxxhAU0B+cHpl9ZP1jZlBwJSxKYGJRaxx3Xg==";
         };
+        _KA32mRSg = {
+            "id" = "KA32mRSg";
+            "file" = "cobblemon-move-tutor-fabric-1.5.1.jar";
+            "hash" = "sha512-70+5wDGpAR4Ll2/+pPrn/eUqrgJYuZ6FN3jM3Tawq9RE8cE9jfYys/jx21aYcNvlLqK8ysGMhHZUk7HGMsXUNw==";
+        };
+        _GGe1Wa6B = {
+            "id" = "GGe1Wa6B";
+            "file" = "cobblemon-move-tutor-neoforge-1.5.1.jar";
+            "hash" = "sha512-bmUs6223sd7URo2yiPExuCKzJVz2Pbq7VeQ/y5w+V0zDuXC98m5oso0HGQ64TRRb3CwyFHffZNoSiGTVyf2Sqg==";
+        };
+        _LmMNxoBz = {
+            "id" = "LmMNxoBz";
+            "file" = "cobblemon-move-tutor-fabric-1.5.2.jar";
+            "hash" = "sha512-HpmINy3JtFIh0Wu0EpqX7VxnRJM0zSKidIeDzN4oRY6P+ZbWfbHzIDXQ+jf4Q2F8UDo4WRZTww7SrGRMCz9uYA==";
+        };
+        _eAP4OWVr = {
+            "id" = "eAP4OWVr";
+            "file" = "cobblemon-move-tutor-neoforge-1.5.2.jar";
+            "hash" = "sha512-8Vl01aHLrqXd8vI/xDEabFVpQ5pv8P/hUKeVV8qDxG3s0gcOwPfb+iS82B5OwmaIbVzxPlxNJ1lM+AlHhOejlA==";
+        };
     in {
         "sRGiraaF" = _sRGiraaF;
         "ACMgKmtN" = _ACMgKmtN;
@@ -98,8 +118,12 @@ let
         "D2oawcxh" = _D2oawcxh;
         "MmnzVQQH" = _MmnzVQQH;
         "ZefDlMHA" = _ZefDlMHA;
-        "fabric-1.21.1" = _MmnzVQQH;
-        "neoforge-1.21.1" = _ZefDlMHA;
+        "KA32mRSg" = _KA32mRSg;
+        "GGe1Wa6B" = _GGe1Wa6B;
+        "LmMNxoBz" = _LmMNxoBz;
+        "eAP4OWVr" = _eAP4OWVr;
+        "fabric-1.21.1" = _LmMNxoBz;
+        "neoforge-1.21.1" = _eAP4OWVr;
         "pkg-1.0.0" = _ACMgKmtN;
         "pkg-1.0.1" = _azHYj5QQ;
         "pkg-1.1.0" = _562VMkXy;
@@ -108,7 +132,9 @@ let
         "pkg-1.3.0" = _5KOnyAzb;
         "pkg-1.4.0" = _D2oawcxh;
         "pkg-1.5.0" = _ZefDlMHA;
-        "default" = _ZefDlMHA;
+        "pkg-1.5.1" = _GGe1Wa6B;
+        "pkg-1.5.2" = _eAP4OWVr;
+        "default" = _eAP4OWVr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-move-tutor";

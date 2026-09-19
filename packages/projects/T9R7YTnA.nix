@@ -321,6 +321,16 @@ let
             "file" = "totemcounter-neoforge-1.13.0+mc26.2.jar";
             "hash" = "sha512-UJslKys41nhQRBmFjibJNP9hhCIbWX+Ny9IxI4vK2LuF00I9JKcw2Z3kITtHRc2ohhK5FRxBT99A3k55MD3ayA==";
         };
+        _5ntZQO4t = {
+            "id" = "5ntZQO4t";
+            "file" = "totemcounter-fabric-1.14.0+mc26.3.jar";
+            "hash" = "sha512-hjHbLc/CiU0IiwlvNUSxGrBFEEOLhawIIlPoANWk/2M0pTW8RlSRIvO4LPVFTcmAbGuY+r3a+0rKj7mr6Qn0MA==";
+        };
+        _eXobzW8X = {
+            "id" = "eXobzW8X";
+            "file" = "totemcounter-neoforge-1.14.0+mc26.3.jar";
+            "hash" = "sha512-qfyN2CEtNjPJ7mS84YoosiPaE10HIVCmJbcagBRvPgqYx4s63kq0BBsKx7tn+4CZg/GwgnyW03ECysj4sXqpTA==";
+        };
     in {
         "NOgQdCUN" = _NOgQdCUN;
         "9IYfGCrF" = _9IYfGCrF;
@@ -386,6 +396,8 @@ let
         "o3pTGeZr" = _o3pTGeZr;
         "IzNlEaJq" = _IzNlEaJq;
         "HxTUEO26" = _HxTUEO26;
+        "5ntZQO4t" = _5ntZQO4t;
+        "eXobzW8X" = _eXobzW8X;
         "fabric-1.18.2" = _xzgMqaDb;
         "fabric-1.19.2" = _pmkQHWV3;
         "fabric-1.17.1" = _IEewQlWF;
@@ -417,6 +429,7 @@ let
         "fabric-26.1.1" = _o3pTGeZr;
         "fabric-26.1.2" = _o3pTGeZr;
         "fabric-26.2" = _IzNlEaJq;
+        "fabric-26.3" = _5ntZQO4t;
         "quilt-1.18.2" = _xzgMqaDb;
         "quilt-1.19.2" = _pmkQHWV3;
         "quilt-1.17.1" = _IEewQlWF;
@@ -448,10 +461,12 @@ let
         "quilt-26.1.1" = _o3pTGeZr;
         "quilt-26.1.2" = _o3pTGeZr;
         "quilt-26.2" = _IzNlEaJq;
+        "quilt-26.3" = _5ntZQO4t;
         "neoforge-26.1" = _KNfUGtjK;
         "neoforge-26.1.1" = _KNfUGtjK;
         "neoforge-26.1.2" = _KNfUGtjK;
         "neoforge-26.2" = _HxTUEO26;
+        "neoforge-26.3" = _eXobzW8X;
         "pkg-1.0.0+mc1.18.2" = _NOgQdCUN;
         "pkg-1.0.0+mc1.19.2" = _9IYfGCrF;
         "pkg-1.0.0+mc1.17.1" = _IEewQlWF;
@@ -516,7 +531,9 @@ let
         "pkg-1.12.1+mc26.1-fabric" = _o3pTGeZr;
         "pkg-1.13.0+mc26.2-fabric" = _IzNlEaJq;
         "pkg-1.13.0+mc26.2-neoforge" = _HxTUEO26;
-        "default" = _HxTUEO26;
+        "pkg-1.14.0+mc26.3-fabric" = _5ntZQO4t;
+        "pkg-1.14.0+mc26.3-neoforge" = _eXobzW8X;
+        "default" = _eXobzW8X;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "totemcounter";

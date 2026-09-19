@@ -21,19 +21,27 @@ let
             "file" = "ultimate_minecarts-26.2.jar";
             "hash" = "sha512-Opmkf6k/RgSE07VV6IidK4f+FKQaB0vX/NXrfFvVOxvOjEF0wWxkYVFG3EWcl4Q37O4i7T7L84ceISoIvg2l9g==";
         };
+        _nYdTMXNE = {
+            "id" = "nYdTMXNE";
+            "file" = "ultimate_minecarts-26.3.jar";
+            "hash" = "sha512-02k1fS6aI5xA90V69hUfjSCveqh1pK8PLe0wwaQGINyyunB3x7U/fh8VbuBxU8UO+WsUXqTnKubOXlGJ0HGAZA==";
+        };
     in {
         "69e5CJiT" = _69e5CJiT;
         "b50AB7S6" = _b50AB7S6;
         "gMDQfx7z" = _gMDQfx7z;
         "bRsi73hd" = _bRsi73hd;
+        "nYdTMXNE" = _nYdTMXNE;
         "fabric-26.1" = _gMDQfx7z;
         "fabric-26.1.1" = _gMDQfx7z;
         "fabric-26.1.2" = _gMDQfx7z;
         "fabric-26.2" = _bRsi73hd;
+        "fabric-26.3" = _nYdTMXNE;
         "pkg-Depecrated" = _b50AB7S6;
         "pkg-26.1" = _gMDQfx7z;
         "pkg-26.2" = _bRsi73hd;
-        "default" = _bRsi73hd;
+        "pkg-26.3" = _nYdTMXNE;
+        "default" = _nYdTMXNE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ultimate_minecarts";

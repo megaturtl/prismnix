@@ -71,6 +71,16 @@ let
             "file" = "mca_descendants-neoforge-1.2.3.jar";
             "hash" = "sha512-TeO4zvO3xlYkk7bFRrLqzS+ZQ5yXugCfG86Bjk6cRCw7NLgAHzgTZUnakQyi5bxbSO5lnv9bm/HcjaCrjJzqNw==";
         };
+        _pdEo3DHp = {
+            "id" = "pdEo3DHp";
+            "file" = "mca_descendants-forge-1.2.4.jar";
+            "hash" = "sha512-vk40XV74TWL316lp9BHaYYCfDIOrLGoZvC77S6JsDmnMPH5WRKk5ucEpFmlzBkMiT93g8MJA3lDw0aDhKoHIWw==";
+        };
+        _2670PjIy = {
+            "id" = "2670PjIy";
+            "file" = "mca_descendants-neoforge-1.2.4.jar";
+            "hash" = "sha512-OztbbxINeIQmcM0yIUr9cCq6ECsoGXcXIE2HPOXqf0PAL/HYXfF+7ra3XeHpIQRzSygnZhn2gZSzZfeDYC62BQ==";
+        };
     in {
         "uLyFYM9y" = _uLyFYM9y;
         "5eowMkDD" = _5eowMkDD;
@@ -86,8 +96,10 @@ let
         "sfp4Oaym" = _sfp4Oaym;
         "uFi3hWzZ" = _uFi3hWzZ;
         "BYg1yNzc" = _BYg1yNzc;
-        "forge-1.20.1" = _uFi3hWzZ;
-        "neoforge-1.21.1" = _BYg1yNzc;
+        "pdEo3DHp" = _pdEo3DHp;
+        "2670PjIy" = _2670PjIy;
+        "forge-1.20.1" = _pdEo3DHp;
+        "neoforge-1.21.1" = _2670PjIy;
         "pkg-1.0.0" = _uLyFYM9y;
         "pkg-1.0.1" = _5eowMkDD;
         "pkg-1.0.4" = _EQAPsnOf;
@@ -97,7 +109,8 @@ let
         "pkg-1.2.1" = _t21Z7Dos;
         "pkg-1.2.2" = _sfp4Oaym;
         "pkg-1.2.3" = _BYg1yNzc;
-        "default" = _BYg1yNzc;
+        "pkg-1.2.4" = _2670PjIy;
+        "default" = _2670PjIy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mca-descendants";

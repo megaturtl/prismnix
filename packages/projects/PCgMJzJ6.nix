@@ -61,6 +61,11 @@ let
             "file" = "dynamicappicon-26.2-0.2.9.jar";
             "hash" = "sha512-cNvdYx3EjZ4qyF3KhigPjZw/nEBMIBZT8URrcS4WVAR7AwB9I/ilqzgRHDcwamnMrnwWjWK/VyPy8cwmocFUkA==";
         };
+        _FKMnwvxp = {
+            "id" = "FKMnwvxp";
+            "file" = "dynamicappicon-26.3-0.2.10.jar";
+            "hash" = "sha512-MO1KpNvvh6KdE6tMKzVHbymmdzJ1LTfJMtlKwTgfKhxKeS5p5eCr80ACZ46LLJPyxGfn+yReBZGaK77gb0owpA==";
+        };
     in {
         "VmnUDrKi" = _VmnUDrKi;
         "UYjGOPO7" = _UYjGOPO7;
@@ -74,6 +79,7 @@ let
         "V4nGCHeK" = _V4nGCHeK;
         "s9zzJcQG" = _s9zzJcQG;
         "KyKq6wjB" = _KyKq6wjB;
+        "FKMnwvxp" = _FKMnwvxp;
         "fabric-1.19.4" = _UYjGOPO7;
         "fabric-1.20" = _7QNsygGS;
         "fabric-1.20.1" = _7QNsygGS;
@@ -95,6 +101,7 @@ let
         "fabric-26.1.1" = _s9zzJcQG;
         "fabric-26.1.2" = _s9zzJcQG;
         "fabric-26.2" = _KyKq6wjB;
+        "fabric-26.3" = _FKMnwvxp;
         "pkg-0.1.0" = _VmnUDrKi;
         "pkg-0.1.1" = _UYjGOPO7;
         "pkg-0.2.0" = _bwrIGnma;
@@ -107,7 +114,8 @@ let
         "pkg-0.2.7" = _V4nGCHeK;
         "pkg-0.2.8" = _s9zzJcQG;
         "pkg-0.2.9" = _KyKq6wjB;
-        "default" = _KyKq6wjB;
+        "pkg-0.2.10" = _FKMnwvxp;
+        "default" = _FKMnwvxp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dynamic-app-icon";

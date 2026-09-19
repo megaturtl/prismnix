@@ -91,6 +91,11 @@ let
             "file" = "vanilla-fireflies-5.0.jar";
             "hash" = "sha512-9crNI8kpFYigBFFy6jdMJS8WyezlTNxuj9zRAl58La/ijKSfBqhdveQKpnB08dxBEcMpsZZCrcZQnWX9qmwrCw==";
         };
+        _yCnXtp6t = {
+            "id" = "yCnXtp6t";
+            "file" = "Vanilla Fireflies.zip";
+            "hash" = "sha512-xq4se6iDV+DMmGVftpzBcZNsUMADuQv1uA/a4C4V7SJ2iIAJgI3WOXROolscjsWgdDDSVKjg2UQx1I5K+mq0bQ==";
+        };
     in {
         "FNjUgOrs" = _FNjUgOrs;
         "dMjeajkd" = _dMjeajkd;
@@ -110,6 +115,7 @@ let
         "1ruBBmYy" = _1ruBBmYy;
         "GIUDa8TR" = _GIUDa8TR;
         "34zcHVAX" = _34zcHVAX;
+        "yCnXtp6t" = _yCnXtp6t;
         "datapack-1.20.6" = _FNjUgOrs;
         "datapack-1.21" = _1VK9PGZr;
         "datapack-1.21.1" = _1VK9PGZr;
@@ -127,6 +133,7 @@ let
         "datapack-1.21.5" = _icHfTnyx;
         "datapack-1.21.6" = _icHfTnyx;
         "datapack-26.2" = _GIUDa8TR;
+        "datapack-26.3" = _yCnXtp6t;
         "fabric-1.20.6" = _dMjeajkd;
         "fabric-1.21" = _5qSXJH5D;
         "fabric-1.21.1" = _5qSXJH5D;
@@ -215,7 +222,8 @@ let
         "pkg-4.0.1+mod" = _1ruBBmYy;
         "pkg-5.0" = _GIUDa8TR;
         "pkg-5.0+mod" = _34zcHVAX;
-        "default" = _34zcHVAX;
+        "pkg-5.1" = _yCnXtp6t;
+        "default" = _yCnXtp6t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-fireflies";

@@ -11,9 +11,15 @@ let
             "file" = "low_fire_and_small_smoke (2).zip";
             "hash" = "sha512-GvNhBDCBrrMDoKKhjdjhiGxi2QdK5sJnSqIUd6MmxrktOkjrHWfX+hOtfJAOvAfZvT3G1TikGOq1zttQh2tIvA==";
         };
+        _t4RFVvyF = {
+            "id" = "t4RFVvyF";
+            "file" = "low_fire_and_small_smoke.zip";
+            "hash" = "sha512-Hs1xT2AuZRvgBSP0iluCXp8gGwE6rYiJ4vDE8DG2YO/8PAwjYX2ef6zjv3jO2ByoVdfnuj9X8kCl2GMTHBH0Yw==";
+        };
     in {
         "tX8oSpKG" = _tX8oSpKG;
         "1jmU6HOz" = _1jmU6HOz;
+        "t4RFVvyF" = _t4RFVvyF;
         "minecraft-26.1" = _tX8oSpKG;
         "minecraft-26.1.1" = _tX8oSpKG;
         "minecraft-26.1.2" = _tX8oSpKG;
@@ -42,8 +48,9 @@ let
         "minecraft-1.21.9" = _1jmU6HOz;
         "minecraft-1.21.10" = _1jmU6HOz;
         "minecraft-1.21.11" = _1jmU6HOz;
-        "pkg-1.0.0" = _1jmU6HOz;
-        "default" = _1jmU6HOz;
+        "minecraft-26.2" = _t4RFVvyF;
+        "pkg-1.0.0" = _t4RFVvyF;
+        "default" = _t4RFVvyF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "low-fire-and-small-smoke";

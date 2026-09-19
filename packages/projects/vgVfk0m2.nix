@@ -91,6 +91,11 @@ let
             "file" = "real-arrow-tip-0.3.1+mc26.2.jar";
             "hash" = "sha512-Ok2iFwsQOFbbJeUG3gT+Poq2uSwwwDv5450VcbiaM8uKmsY/RcsIDu8hnuDg09IQDi+1/ThzPf3ozZgjtlCbag==";
         };
+        _x1c0Qtsm = {
+            "id" = "x1c0Qtsm";
+            "file" = "real-arrow-tip-0.3.1+mc26.3.jar";
+            "hash" = "sha512-+qONGCk7QcoglLsiaayUZTX5TitptuBvBrdAFuuIpHWXHuDk4MdHfNndm3WpDBRrU303lX50LZGF3VYs2kY+KQ==";
+        };
     in {
         "ds27RuKL" = _ds27RuKL;
         "IvBPcjnm" = _IvBPcjnm;
@@ -110,6 +115,7 @@ let
         "a2Y0NiAb" = _a2Y0NiAb;
         "4qiim8gH" = _4qiim8gH;
         "GqhOlhir" = _GqhOlhir;
+        "x1c0Qtsm" = _x1c0Qtsm;
         "fabric-1.20.1" = _ds27RuKL;
         "fabric-1.20.2" = _ds27RuKL;
         "fabric-1.20.3" = _ds27RuKL;
@@ -132,6 +138,7 @@ let
         "fabric-26.1.1" = _4qiim8gH;
         "fabric-26.1.2" = _4qiim8gH;
         "fabric-26.2" = _GqhOlhir;
+        "fabric-26.3" = _x1c0Qtsm;
         "pkg-0.1.0+mc1.20.4" = _ds27RuKL;
         "pkg-0.1.0+mc1.20.6" = _IvBPcjnm;
         "pkg-0.1.0+mc1.21.0" = _78gU95fP;
@@ -150,7 +157,8 @@ let
         "pkg-0.3.1+mc1.21.11" = _a2Y0NiAb;
         "pkg-0.3.1+mc26.1" = _4qiim8gH;
         "pkg-0.3.1+mc26.2" = _GqhOlhir;
-        "default" = _GqhOlhir;
+        "pkg-0.3.1+mc26.3" = _x1c0Qtsm;
+        "default" = _x1c0Qtsm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "real-arrow-tip";

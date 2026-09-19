@@ -261,6 +261,16 @@ let
             "file" = "BetterNether-26.1.6-fabric.jar";
             "hash" = "sha512-+/E/hBYX3SjXagEIQrgw9mBl2vXHTe6kCAojtrhP/44cyCBWRIeGKA2fZRLzFyi3VS4M9nGR6hoMEnVXf33Xlg==";
         };
+        _MwTp39qc = {
+            "id" = "MwTp39qc";
+            "file" = "BetterNether-21.0.27.jar";
+            "hash" = "sha512-OlZUU2dq/gpX7XkkIw4PZ3ajwSmCTkJS+OzHCWvz/2LnE3RsbkwqZ/nXp0bj6NWdoysYS16uYi79eh24MYL15g==";
+        };
+        _XaWiiVig = {
+            "id" = "XaWiiVig";
+            "file" = "better-nether-21.0.20-fabric.jar";
+            "hash" = "sha512-0sh7pHyz2zbNfYedDEHWB9y3Hp+QUnbEhSk0VmdOAEvLjHHr+VhMp1JGgBIAUEgnKlewEBEZXFTMblRdpgOXig==";
+        };
     in {
         "aZ8iCtyC" = _aZ8iCtyC;
         "PhX2VWhx" = _PhX2VWhx;
@@ -314,22 +324,24 @@ let
         "9jYHrcHV" = _9jYHrcHV;
         "Ok2jJezp" = _Ok2jJezp;
         "XZIE3T4h" = _XZIE3T4h;
-        "neoforge-1.21" = _TTPM28HH;
-        "neoforge-1.21.1" = _TTPM28HH;
+        "MwTp39qc" = _MwTp39qc;
+        "XaWiiVig" = _XaWiiVig;
+        "neoforge-1.21" = _MwTp39qc;
+        "neoforge-1.21.1" = _MwTp39qc;
         "neoforge-1.21.11" = _Ps7Zb6dA;
         "neoforge-26.1" = _Ok2jJezp;
         "neoforge-26.1.1" = _Ok2jJezp;
         "neoforge-26.1.2" = _Ok2jJezp;
         "neoforge-26.2" = _qHxI7PAh;
-        "fabric-1.21" = _7jQtANH1;
-        "fabric-1.21.1" = _7jQtANH1;
+        "fabric-1.21" = _XaWiiVig;
+        "fabric-1.21.1" = _XaWiiVig;
         "fabric-1.21.11" = _aVZfrr9p;
         "fabric-26.1" = _XZIE3T4h;
         "fabric-26.1.1" = _XZIE3T4h;
         "fabric-26.1.2" = _XZIE3T4h;
         "fabric-26.2" = _9jYHrcHV;
-        "quilt-1.21" = _7jQtANH1;
-        "quilt-1.21.1" = _7jQtANH1;
+        "quilt-1.21" = _XaWiiVig;
+        "quilt-1.21.1" = _XaWiiVig;
         "quilt-1.21.11" = _aVZfrr9p;
         "quilt-26.1" = _XZIE3T4h;
         "quilt-26.1.1" = _XZIE3T4h;
@@ -386,7 +398,9 @@ let
         "pkg-26.2.2-fabric" = _9jYHrcHV;
         "pkg-26.1.7" = _Ok2jJezp;
         "pkg-26.1.6-fabric" = _XZIE3T4h;
-        "default" = _XZIE3T4h;
+        "pkg-21.0.27" = _MwTp39qc;
+        "pkg-21.0.20-fabric" = _XaWiiVig;
+        "default" = _XaWiiVig;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betternether-neoforge";

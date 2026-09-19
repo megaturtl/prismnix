@@ -81,6 +81,16 @@ let
             "file" = "savepoint-1.2.5+mc26.1.2.jar";
             "hash" = "sha512-afHaadoVay85qC/gqH6OC0mp2g4xrA5AxKKlBMkKxh/7jldHs1OQagkYNPr/l1ruqlmMkuZ0my3PeUjxFutSfA==";
         };
+        _UXbIeD1J = {
+            "id" = "UXbIeD1J";
+            "file" = "savepoint-1.3.0+mc26.1.2.jar";
+            "hash" = "sha512-/muvYM3xFbX5onqtpQpi4l+BW0VpmT8L+Q/+hvft9DFG9Aj7jyQ+biqDh3Cx1oKpaJbSQZxDDUs5hLmtYPRyiw==";
+        };
+        _Ga0qqQvz = {
+            "id" = "Ga0qqQvz";
+            "file" = "savepoint-1.3.0+mc26.3.jar";
+            "hash" = "sha512-ORfBU7IyRzpVsIZAMSIUQcsy2r1TeiG7fzCoBMelscZ0T0M0ntYpx44EzykEidU5TMVHQZpKd1sjBiXjwcjMeQ==";
+        };
     in {
         "NJv4GKxb" = _NJv4GKxb;
         "sZnwdbGb" = _sZnwdbGb;
@@ -98,6 +108,8 @@ let
         "g18iUDUD" = _g18iUDUD;
         "hY9ZT4rq" = _hY9ZT4rq;
         "Lw7JgXBA" = _Lw7JgXBA;
+        "UXbIeD1J" = _UXbIeD1J;
+        "Ga0qqQvz" = _Ga0qqQvz;
         "fabric-1.21.1" = _g18iUDUD;
         "fabric-1.21.6" = _tIlx0lGN;
         "fabric-1.21.7" = _tIlx0lGN;
@@ -105,10 +117,12 @@ let
         "fabric-1.21.9" = _ozVR0rmX;
         "fabric-1.21.10" = _ozVR0rmX;
         "fabric-1.21.11" = _ozVR0rmX;
-        "fabric-26.1" = _Lw7JgXBA;
-        "fabric-26.1.1" = _Lw7JgXBA;
-        "fabric-26.1.2" = _Lw7JgXBA;
-        "fabric-26.2" = _Lw7JgXBA;
+        "fabric-26.1" = _UXbIeD1J;
+        "fabric-26.1.1" = _UXbIeD1J;
+        "fabric-26.1.2" = _UXbIeD1J;
+        "fabric-26.2" = _UXbIeD1J;
+        "fabric-26.3-rc-3" = _Ga0qqQvz;
+        "fabric-26.3" = _Ga0qqQvz;
         "pkg-1.0.0" = _NJv4GKxb;
         "pkg-1.0.1" = _sZnwdbGb;
         "pkg-1.0.1+mc1.21.8" = _T2kvyBzH;
@@ -125,7 +139,9 @@ let
         "pkg-1.1.1+1.21.1" = _g18iUDUD;
         "pkg-1.2.4+mc26.1.2" = _hY9ZT4rq;
         "pkg-1.2.5+mc26.1.2" = _Lw7JgXBA;
-        "default" = _Lw7JgXBA;
+        "pkg-1.3.0+mc26.1.2" = _UXbIeD1J;
+        "pkg-1.3.0+mc26.3" = _Ga0qqQvz;
+        "default" = _Ga0qqQvz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "save-point";

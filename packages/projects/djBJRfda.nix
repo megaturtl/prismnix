@@ -71,6 +71,16 @@ let
             "file" = "hug-n-marry-paper-1.4.1.jar";
             "hash" = "sha512-mjG8uJdjUIm3I9k7efTR526T6h+rNZ0v2DVqnWzr7mDjjECYqkjNf2Rl5R3tc3hPVrTMM2ly+ZqyQblQl/vR0g==";
         };
+        _jvdN575h = {
+            "id" = "jvdN575h";
+            "file" = "hug-n-marry-fabric-1.5.jar";
+            "hash" = "sha512-kZjs540YcwSUJHNYF6Lks1e1M8GEdHUmYS8KFat+6FB+cV88B2BcSKwVWCp7YEUOFJ1MH0eaZyt4DhxgICuefQ==";
+        };
+        _QDVeV2AF = {
+            "id" = "QDVeV2AF";
+            "file" = "hug-n-marry-paper-1.5.jar";
+            "hash" = "sha512-lLy5JA4WAjo0/nWvaEIN5BinrGg+MaayTlUWcyMKk2dWEM/DN+a/tWuuqZGf82RqJfSdCeUeDeaaTlId6v2R3g==";
+        };
     in {
         "rKjuYsFg" = _rKjuYsFg;
         "Q537wVCb" = _Q537wVCb;
@@ -86,6 +96,8 @@ let
         "NvZ2f4jW" = _NvZ2f4jW;
         "GJFKa6eh" = _GJFKa6eh;
         "XwI8VCeQ" = _XwI8VCeQ;
+        "jvdN575h" = _jvdN575h;
+        "QDVeV2AF" = _QDVeV2AF;
         "paper-1.21" = _GJFKa6eh;
         "paper-1.21.1" = _GJFKa6eh;
         "paper-1.21.2" = _GJFKa6eh;
@@ -98,10 +110,11 @@ let
         "paper-1.21.9" = _GJFKa6eh;
         "paper-1.21.10" = _GJFKa6eh;
         "paper-1.21.11" = _GJFKa6eh;
-        "paper-26.1" = _XwI8VCeQ;
-        "paper-26.1.1" = _XwI8VCeQ;
-        "paper-26.1.2" = _XwI8VCeQ;
-        "paper-26.2" = _XwI8VCeQ;
+        "paper-26.1" = _QDVeV2AF;
+        "paper-26.1.1" = _QDVeV2AF;
+        "paper-26.1.2" = _QDVeV2AF;
+        "paper-26.2" = _QDVeV2AF;
+        "paper-26.3" = _QDVeV2AF;
         "fabric-1.21" = _pAiUHsCE;
         "fabric-1.21.1" = _pAiUHsCE;
         "fabric-1.21.2" = _pAiUHsCE;
@@ -114,14 +127,15 @@ let
         "fabric-1.21.9" = _pAiUHsCE;
         "fabric-1.21.10" = _pAiUHsCE;
         "fabric-1.21.11" = _pAiUHsCE;
-        "fabric-26.1" = _NvZ2f4jW;
-        "fabric-26.1.1" = _NvZ2f4jW;
-        "fabric-26.1.2" = _NvZ2f4jW;
-        "fabric-26.2" = _NvZ2f4jW;
-        "bukkit-26.1" = _XwI8VCeQ;
-        "bukkit-26.1.1" = _XwI8VCeQ;
-        "bukkit-26.1.2" = _XwI8VCeQ;
-        "bukkit-26.2" = _XwI8VCeQ;
+        "fabric-26.1" = _jvdN575h;
+        "fabric-26.1.1" = _jvdN575h;
+        "fabric-26.1.2" = _jvdN575h;
+        "fabric-26.2" = _jvdN575h;
+        "fabric-26.3" = _jvdN575h;
+        "bukkit-26.1" = _QDVeV2AF;
+        "bukkit-26.1.1" = _QDVeV2AF;
+        "bukkit-26.1.2" = _QDVeV2AF;
+        "bukkit-26.2" = _QDVeV2AF;
         "bukkit-1.21" = _GJFKa6eh;
         "bukkit-1.21.1" = _GJFKa6eh;
         "bukkit-1.21.2" = _GJFKa6eh;
@@ -134,10 +148,11 @@ let
         "bukkit-1.21.9" = _GJFKa6eh;
         "bukkit-1.21.10" = _GJFKa6eh;
         "bukkit-1.21.11" = _GJFKa6eh;
-        "spigot-26.1" = _XwI8VCeQ;
-        "spigot-26.1.1" = _XwI8VCeQ;
-        "spigot-26.1.2" = _XwI8VCeQ;
-        "spigot-26.2" = _XwI8VCeQ;
+        "bukkit-26.3" = _QDVeV2AF;
+        "spigot-26.1" = _QDVeV2AF;
+        "spigot-26.1.1" = _QDVeV2AF;
+        "spigot-26.1.2" = _QDVeV2AF;
+        "spigot-26.2" = _QDVeV2AF;
         "spigot-1.21" = _GJFKa6eh;
         "spigot-1.21.1" = _GJFKa6eh;
         "spigot-1.21.2" = _GJFKa6eh;
@@ -150,13 +165,15 @@ let
         "spigot-1.21.9" = _GJFKa6eh;
         "spigot-1.21.10" = _GJFKa6eh;
         "spigot-1.21.11" = _GJFKa6eh;
+        "spigot-26.3" = _QDVeV2AF;
         "pkg-1.0" = _Q537wVCb;
         "pkg-1.1" = _boONKXuv;
         "pkg-1.2" = _OZlmaJ5o;
         "pkg-1.3" = _qexvYi0y;
         "pkg-1.4" = _AQiBjrmU;
         "pkg-1.4.1" = _XwI8VCeQ;
-        "default" = _XwI8VCeQ;
+        "pkg-1.5" = _QDVeV2AF;
+        "default" = _QDVeV2AF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hug-marry";

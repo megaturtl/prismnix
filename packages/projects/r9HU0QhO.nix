@@ -46,6 +46,16 @@ let
             "file" = "overgeared_epic_knights-1.21.1-1.0.4.jar";
             "hash" = "sha512-cTR1+5DDmkcYOV3LbJInoQZUgKnpGFffa6juY3mSi3w8juHh9N9RjFhLiyuwqSnRMHxIXOZmujuYGORcHeBBIw==";
         };
+        _pxnaTcDr = {
+            "id" = "pxnaTcDr";
+            "file" = "overgeared_epic_knights-1.20.1-1.1.0.jar";
+            "hash" = "sha512-+C6Q0yYcJZor9UI+mQAmo40KDN7qxT/h2JZYIWlz3kGrt8+l2wHYtXJ0vAYB8dEIiRAMz9Du1EOXKOLNa96bNQ==";
+        };
+        _lEhuODId = {
+            "id" = "lEhuODId";
+            "file" = "overgeared_epic_knights-1.21.1-1.1.0.jar";
+            "hash" = "sha512-RiDgTUNTznjIJGkzcNCz940hn+EvvQicOok5x0qgyAK+N7IOHgisUTJM2HffE43N6mh58xrbBnOWPAWCdEQPCw==";
+        };
     in {
         "Fu1sXxcQ" = _Fu1sXxcQ;
         "f3Ia9Slc" = _f3Ia9Slc;
@@ -56,8 +66,10 @@ let
         "Uiywhe2d" = _Uiywhe2d;
         "DVJC5Uuy" = _DVJC5Uuy;
         "pRCABJ2H" = _pRCABJ2H;
-        "forge-1.20.1" = _DVJC5Uuy;
-        "neoforge-1.21.1" = _pRCABJ2H;
+        "pxnaTcDr" = _pxnaTcDr;
+        "lEhuODId" = _lEhuODId;
+        "forge-1.20.1" = _pxnaTcDr;
+        "neoforge-1.21.1" = _lEhuODId;
         "pkg-1.20.1-1.0.0" = _Fu1sXxcQ;
         "pkg-1.20.1-1.0.1" = _f3Ia9Slc;
         "pkg-1.21.1-1.0.1" = _UZdOTLj1;
@@ -67,7 +79,9 @@ let
         "pkg-1.21.1-1.0.3" = _Uiywhe2d;
         "pkg-1.20.1-1.0.4" = _DVJC5Uuy;
         "pkg-1.21.1-1.0.4" = _pRCABJ2H;
-        "default" = _pRCABJ2H;
+        "pkg-1.20.1-1.1.0" = _pxnaTcDr;
+        "pkg-1.21.1-1.1.0" = _lEhuODId;
+        "default" = _lEhuODId;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "overgeared-x-epic-knights";

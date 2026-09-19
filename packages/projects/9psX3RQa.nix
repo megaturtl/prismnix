@@ -321,6 +321,11 @@ let
             "file" = "rooms-26.1.2-4.0.21.jar";
             "hash" = "sha512-DTZ6spozybZ71KBQf4k7j4DTSibuhLeJR0kxOd1B7mX7IPRFTJBWtsylBL9YvoAqjYXf+K/XhXcypLfFxGinOg==";
         };
+        _JOtTSoaJ = {
+            "id" = "JOtTSoaJ";
+            "file" = "rooms-26.1.2-4.0.22.jar";
+            "hash" = "sha512-Fgg+Bq9eIbXab4vagwBV6ZXX0Yul8fCiTKf6xfki6LxcKb6q+Gnh8/kVsLMqZKtwFs4T+BxmbmgkqAeUClKwKg==";
+        };
     in {
         "8DYuGG23" = _8DYuGG23;
         "n7DKwvCu" = _n7DKwvCu;
@@ -386,14 +391,15 @@ let
         "bvTMY6Kd" = _bvTMY6Kd;
         "31Vl9EjB" = _31Vl9EjB;
         "76Ve4dHq" = _76Ve4dHq;
+        "JOtTSoaJ" = _JOtTSoaJ;
         "neoforge-1.21.1" = _AmmgoPEf;
         "neoforge-1.21.2" = _8DYuGG23;
         "neoforge-1.21.3" = _8DYuGG23;
         "neoforge-1.21.4" = _8DYuGG23;
         "neoforge-1.21" = _AmmgoPEf;
-        "neoforge-26.1" = _76Ve4dHq;
-        "neoforge-26.1.1" = _76Ve4dHq;
-        "neoforge-26.1.2" = _76Ve4dHq;
+        "neoforge-26.1" = _JOtTSoaJ;
+        "neoforge-26.1.1" = _JOtTSoaJ;
+        "neoforge-26.1.2" = _JOtTSoaJ;
         "pkg-2.0.1" = _8DYuGG23;
         "pkg-1.21.1-2.0.1" = _n7DKwvCu;
         "pkg-1.21.1-2.2.1" = _wQqA7OTF;
@@ -450,7 +456,8 @@ let
         "pkg-26.1.2-4.0.19" = _BHRmnD80;
         "pkg-26.1.2-4.0.20" = _31Vl9EjB;
         "pkg-26.1.2-4.0.21" = _76Ve4dHq;
-        "default" = _76Ve4dHq;
+        "pkg-26.1.2-4.0.22" = _JOtTSoaJ;
+        "default" = _JOtTSoaJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "roomopolis";

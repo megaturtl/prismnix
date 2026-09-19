@@ -216,6 +216,11 @@ let
             "file" = "dragonkind-evolved-1.14.jar";
             "hash" = "sha512-8qy22OhcGD2/M9s137rI1tLYQf9YF+rfWej2AWvwtosCCuIR0liauB7zNSzTHf7hTI54JdZ1PR1yTkoNX9uURg==";
         };
+        _ukamYQGg = {
+            "id" = "ukamYQGg";
+            "file" = "dragonkind-evolved-by-kanokarob-v1.15.zip";
+            "hash" = "sha512-S4I2NiEosWVrtEmbMmveXxiesLbkNrXUz/fCZPUQUZTG7iSQsojcNf3ux0YewDRtj3XnWRuSbUT8WsZpV4zhJA==";
+        };
     in {
         "QrVo7XNF" = _QrVo7XNF;
         "QHYPW6wt" = _QHYPW6wt;
@@ -260,6 +265,7 @@ let
         "MhASEiL3" = _MhASEiL3;
         "E3UZh2ua" = _E3UZh2ua;
         "uMr7NdOz" = _uMr7NdOz;
+        "ukamYQGg" = _ukamYQGg;
         "datapack-1.20.3" = _Gytxg4NB;
         "datapack-1.20.4" = _Gytxg4NB;
         "datapack-1.20.2" = _Gytxg4NB;
@@ -281,6 +287,7 @@ let
         "datapack-26.1.1" = _4CDWHEWC;
         "datapack-26.1.2" = _4CDWHEWC;
         "datapack-26.2" = _E3UZh2ua;
+        "datapack-26.3" = _ukamYQGg;
         "fabric-1.20.3" = _oa0WMeEv;
         "fabric-1.20.4" = _oa0WMeEv;
         "fabric-1.20.2" = _oa0WMeEv;
@@ -402,7 +409,8 @@ let
         "pkg-1.13+mod" = _MhASEiL3;
         "pkg-1.14" = _E3UZh2ua;
         "pkg-1.14+mod" = _uMr7NdOz;
-        "default" = _uMr7NdOz;
+        "pkg-1.15" = _ukamYQGg;
+        "default" = _ukamYQGg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dragonkind-evolved";
