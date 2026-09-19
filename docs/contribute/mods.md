@@ -157,12 +157,7 @@ the amount of mods minecraft has.
 Before submitting your pull request,
 please make sure your changes work correctly:
 
-1.  **Syntax Check**:
-    Run `nix flake check` or attempt to
-    build the instance to ensure
-    there are no Nix syntax errors.
-
-2.  **Verify Generation**:
+1.  **Verify Generation**:
     Launch the instance once and check the
     `.local/share/PrismLauncher/instances/<name>/minecraft/config/` directory.
     Ensure the file was created with the
