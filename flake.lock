@@ -74,22 +74,6 @@
         "type": "github"
       }
     },
-    "libnbtplusplus": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1772016279,
-        "narHash": "sha256-7itkptyjoRcXfGLwg1/jxajetZ3a4mDc66+w4X6yW8s=",
-        "owner": "PrismLauncher",
-        "repo": "libnbtplusplus",
-        "rev": "687e43031df0dc641984b4256bcca50d5b3f7de3",
-        "type": "github"
-      },
-      "original": {
-        "owner": "PrismLauncher",
-        "repo": "libnbtplusplus",
-        "type": "github"
-      }
-    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1789684949,
@@ -133,8 +117,7 @@
         "flake-utils": "flake-utils",
         "hjem": "hjem",
         "home-manager": "home-manager",
-        "nixpkgs": "nixpkgs",
-        "prismlauncher": "prismlauncher"
+        "nixpkgs": "nixpkgs"
       }
     },
     "systems": {

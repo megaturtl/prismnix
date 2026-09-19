@@ -7,12 +7,9 @@
 
             package = lib.mkOption {
                 type = lib.types.nullOr lib.types.package;
-                default = inputs
-                    .prismlauncher
-                    .packages
-                    .${pkgs.stdenv.hostPlatform.system}
-                    .default;
+                default = pkgs.prismlauncher;
                 description = "Prismlauncher package to install";
+                defaultText = lib.literalExpression "pkgs.prismlauncher";
             };
 
             path = lib.mkOption {
