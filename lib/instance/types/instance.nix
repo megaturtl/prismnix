@@ -10,11 +10,9 @@
         modules,
         basepath,
         specialArgs?{},
-        ...
     }: lib.types.submoduleWith {
         modules = (lib.prismnix.readDir modules) ++ [
-            ({lib, basepath, name, ...}:
-            {
+            ({lib, name, ...}: {
                 options = {
                     enable = lib.mkOption {
                         type = lib.types.bool;
@@ -54,8 +52,14 @@
                             default = [];
                             description = "Packages to install";
                         };
+                        copyfiles = lib.mkOption {
+                            type = lib.types.listOf lib.prismnix.instance.types.copyfile;
+                            default = [];
+                            description = "Files to copy into the instance";
+                        };
+
                         activation = lib.mkOption {
-                            type = lib.hm.types.dagOf lib.types.str;
+                            type = lib.prismnix.dag.types.dag;
                             default = {};
                             description = "Activations to run";
                         };

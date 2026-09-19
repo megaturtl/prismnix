@@ -36,18 +36,29 @@ If you would like to help, even if you are not sure where to start, please see t
 | Path                   | Target       | Description                                                               |
 |------------------------|--------------|---------------------------------------------------------------------------|
 | `homeModules.prismnix` | Home Manager | Default module for using prismnix with Home Manager.                      |
-| `hjemModules.prismnix` | hjem         | `dev` Branch only currently, default module for using prismnix with hjem. |
+| `homeModules.default`  | Home Manager | Alias for `homeModules.prismnix`                                          |
+| `hjemModules.prismnix` | hjem         | Default module for using prismnix with hjem. |
+| `hjemModules.default`  | hjem         | Alias for `hjemModules.prismnix`                                          |
 
 ## Configuration
 Please refer to the [docs](./docs/configuration/configuration.md).
 
 ## TODO
-- [x] Implement most important PrismLauncher instance options.
-- [x] PrismGen generate prismlauncher components.
-- [x] PrismGen generate modrinth packages.
-- [x] PrismGen better missing version error message.
+- [x] Implement most important PrismLauncher instance options
+- [x] PrismGen generate prismlauncher components
+- [x] PrismGen generate modrinth packages
+- [x] PrismGen better missing version error message
 - [x] HomeManager Module
-- [x] PrismGen update generated modrinth packages.
+- [x] PrismGen update generated modrinth packages
 - [x] PrismGen CLI
+- [ ] Tests for:
+      - [x] `components`
+      - [x] `config`
+      - [x] `copyfiles`
+      - [x] `filesystem`
+      - [ ] `activations`
+      - [ ] `packages`
+- [ ] PrismLauncher Global Settings
+- [ ] PrismLauncher Themes
 - [ ] NixOS Module
-- [ ] More options for installing instances.
+- [ ] More options for installing instances

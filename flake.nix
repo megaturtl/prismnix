@@ -10,18 +10,27 @@
             url = "github:nix-community/home-manager";
             inputs.nixpkgs.follows = "nixpkgs";
         };
+        hjem = {
+            url = "github:feel-co/hjem";
+            inputs.nixpkgs.follows = "nixpkgs";
+        };
         nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+
+        flake-compat = {
+            url = "github:nixos/flake-compat";
+            flake = false;
+        };
         flake-utils.url = "github:numtide/flake-utils";
     };
-    outputs = {self, nixpkgs, prismlauncher, home-manager, flake-utils, ...}@inputs:
+    outputs = {self, nixpkgs, prismlauncher, flake-utils, ...}@inputs:
     let
         systems = builtins.attrNames (prismlauncher.packages);
-        lib = nixpkgs.lib // home-manager.lib // self.lib;
+        lib = nixpkgs.lib // self.lib;
     in
     {
         homeModules = rec {
             prismnixWith = {...}@args: (
-                import ./homeModules/prismnix.nix ({
+                import ./modules/home/prismnix.nix ({
                     lib = lib;
                     inputs = inputs;
                 } // args)
@@ -29,7 +38,18 @@
             prismnix = prismnixWith {};
             default = prismnix;
         };
-        lib.prismnix = import ./lib {inherit lib;};
+        hjemModules = rec {
+            prismnixWith = {...}@args: (
+                import ./modules/hjem/prismnix.nix ({
+                    lib = lib;
+                    inputs = inputs;
+                } // args)
+            );
+            prismnix = prismnixWith {};
+            default = prismnix;
+        };
+
+        lib = import ./lib {inherit lib;};
 
         overlays = {
             default = import ./overlays/default.nix {
@@ -54,6 +74,17 @@
                 inputs = inputs;
                 system = system;
             };
+
+            tests = let
+                tests = import ./tests {
+                    lib = lib;
+                    inputs = inputs;
+                    pkgs = pkgs.extend (
+                        self.overlays.default
+                    );
+                    tests = tests;
+                };
+            in tests;
         }
     );
 }
