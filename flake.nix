@@ -11,6 +11,11 @@
             inputs.nixpkgs.follows = "nixpkgs";
         };
         nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+
+        flake-compat = {
+            url = "github:nixos/flake-compat";
+            flake = false;
+        };
         flake-utils.url = "github:numtide/flake-utils";
     };
     outputs = {self, nixpkgs, flake-utils, ...}@inputs:
@@ -36,9 +41,10 @@
                 } // args)
             );
             prismnix = prismnixWith {};
+            default = prismnix;
         };
 
-        lib.prismnix = import ./lib {inherit lib;};
+        lib = import ./lib {inherit lib;};
 
         overlays = {
             default = import ./overlays/default.nix {
@@ -64,13 +70,16 @@
                 system = system;
             };
 
-            tests = import ./tests {
-                lib = lib;
-                inputs = inputs;
-                pkgs = pkgs.extend (
-                    self.overlays.default
-                );
-            };
+            tests = let
+                tests = import ./tests {
+                    lib = lib;
+                    inputs = inputs;
+                    pkgs = pkgs.extend (
+                        self.overlays.default
+                    );
+                    tests = tests;
+                };
+            in tests;
         }
     );
 }

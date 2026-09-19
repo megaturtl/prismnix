@@ -52,6 +52,12 @@
                             default = [];
                             description = "Packages to install";
                         };
+                        copyfiles = lib.mkOption {
+                            type = lib.types.listOf lib.prismnix.instance.types.copyfile;
+                            default = [];
+                            description = "Files to copy into the instance";
+                        };
+
                         activation = lib.mkOption {
                             type = lib.prismnix.dag.types.dag;
                             default = {};

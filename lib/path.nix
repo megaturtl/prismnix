@@ -77,4 +77,33 @@
             || v == "directory"
         ) path
     );
+
+    /**
+        List all paths of items in a directory recurisvely.
+        Very similiar to `lib.filesystem.listFilesRecursive` only
+        that it does return `[path]` in the case that `path` points
+        to a file. In the case that `path` is a file
+        `lib.filesystem.listFilesRecursive` would throw rather
+        then returning a single item.
+
+        # Inputs
+
+        `path`
+
+        : Path of files to list recursively
+
+        # Type
+
+        ```
+        readDirRecursive :: Path -> List
+        ```
+    */
+    readDirRecursive = path: (
+        if (builtins.readFileType path) == "directory"
+            then lib.concatLists (map
+                (p: readDirRecursive p)
+                (readDir path)
+            )
+            else [path]
+    );
 }

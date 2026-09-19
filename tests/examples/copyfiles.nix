@@ -1,0 +1,10 @@
+{lib, ...}:
+{
+    default = {
+        instance = {
+            copyfiles = [
+
+            ];
+        };
+    };
+}
