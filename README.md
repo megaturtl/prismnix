@@ -52,12 +52,12 @@ Please refer to the [docs](./docs/configuration/configuration.md).
 - [x] PrismGen update generated modrinth packages
 - [x] PrismGen CLI
 - [ ] Tests for:
-      - [x] `components`
-      - [x] `config`
-      - [x] `copyfiles`
-      - [x] `filesystem`
-      - [ ] `activations`
-      - [ ] `packages`
+  - [x] `components`
+  - [x] `config`
+  - [x] `copyfiles`
+  - [x] `filesystem`
+  - [ ] `activations`
+  - [ ] `packages`
 - [ ] PrismLauncher Global Settings
 - [ ] PrismLauncher Themes
 - [ ] NixOS Module
