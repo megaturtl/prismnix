@@ -26,10 +26,6 @@ let
                 description = "Path to the target file relative to `instance.path`";
             };
 
-            # recursive = lib.mkOption {
-            #   type = lib.types.bool;
-            #   default = false;
-            # };
             copy = lib.mkOption {
                 type = lib.types.bool;
                 default = false;
@@ -64,8 +60,10 @@ in
         link = lib.filterAttrs (_: v: v.copy == false) file;
         copy = lib.mapAttrsToList (_: v:
             {
+                target = (lib.path.subpath.normalise
+                    "minecraft/${v.target}"
+                );
                 source = v.source;
-                target = lib.path.subpath.normalise v.target;
             }
         ) (lib.filterAttrs (_: v: v.copy == true ) file);
     in
@@ -86,22 +84,6 @@ in
                 );
             }
         ) link);
-
-        activation = lib.mkIf (copy != []) {
-            "prismnix.${name}.file" = lib.prismnix.dag.entry (
-                lib.concatMapStringsSep "\n" ({source, target}:
-                    let
-                        path = config.instance.path;
-                        src = lib.escapeShellArg "${source}";
-                        dst = lib.escapeShellArg "${path}/minecraft/${target}";
-                    in
-                    ''
-                        $RUN mkdir -p "$(dirname ${dst})"
-                        $RUN cp -rfL ${src} ${dst}
-                        $RUN chmod -R u+w ${dst}
-                    ''
-                ) copy
-            );
-        };
+        copyfiles = copy;
     };
 }

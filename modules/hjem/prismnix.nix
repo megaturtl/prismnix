@@ -1,36 +1,44 @@
 {lib, ...}@args:
-{config, name, pkgs, ...}:
+{config, pkgs, ...}:
 {
     imports = [(import ../options.nix (
         args // {
             defaultPath = ".local/share/PrismLauncher/";
-            defaultIPath = "${config.programs.prismnix.abspath}/${config.programs.prismnix.path}/instances";
+            defaultIPath = "${config.directory}/${config.programs.prismnix.path}/instances";
         }
     ))];
 
     options.programs.prismnix = {
-        abspath = lib.mkOption {
-            type = lib.types.str;
-            default = config.directory;
-            defaultText = "<home directory>";
-            description = "Absolute base path of all prismnix paths";
+        forceNoSystemD = lib.mkOption {
+            type = lib.types.bool;
+            default = false;
+            description = "Whether to force disable the creation of systemd units by prismnix";
         };
     };
 
     config = let
         cfg = config.programs.prismnix;
-        instances = lib.filterAttrs (k: v: v.enable) cfg.instances;
+        instances = lib.prismnix.filterMapAttrs (k: v:
+            {
+                filter = v.enable;
+                value = v.instance // {
+                    path = lib.path.removePrefix
+                        (/. + config.directory)
+                        (/. + builtins.toPath v.instance.path);
+                };
+            }
+        ) cfg.instances;
 
         derivations = lib.mapAttrs (k: v:
            {
                 drv = pkgs.callPackage
                     lib.prismnix.filesystem.mkDerivation {
                         name = "prismnix-${k}-drv";
-                        filesystem = v.instance.filesystem;
-                        pkgs = v.instance.packages;
+                        filesystem = v.filesystem;
+                        pkgs = v.packages;
                     };
-                force = v.instance.force;
-                path = v.instance.path;
+                force = v.force;
+                path = v.path;
             }
         ) instances;
 
@@ -43,35 +51,87 @@
                                 p
                         )
                     );
-                    base = lib.removePrefix
-                        "${toString (builtins.toPath cfg.abspath)}/"
-                        "${toString (builtins.toPath path)}";
                 in
                 {
-                    "prismnix-file/${rel}" = {
+                    "prismnix-file/${k}/${rel}" = {
                         enable = true;
                         clobber = force;
                         source = p;
-                        target = "${base}/${rel}";
+                        target = "${path}/${rel}";
                     };
                 }
             ) (lib.filesystem.listFilesRecursive (builtins.toPath "${drv}"))
         ) derivations;
 
+        copyfiles = lib.prismnix.concatMapAttrsToList (k: v:
+            lib.concatLists (map (file:
+                map (p:
+                    let
+                        relative = builtins.unsafeDiscardStringContext (
+                            lib.removePrefix "${file.source}" (
+                                toString
+                                    p
+                            )
+                        );
+                        rel = (
+                            if relative != ""
+                                then "${file.target}/${rel}"
+                                else "${file.target}"
+                        );
+                    in
+                    {
+                        "prismnix-copyfile/${k}/${rel}" = {
+                            enable = true;
+                            clobber = v.force;
+                            source = p;
+                            target = "${v.path}/${rel}";
+                            type = "copy";
+                        };
+                    }
+                ) (lib.prismnix.readDirRecursive file.source)
+            ) v.copyfiles)
+        ) instances;
+
+        addfiles = lib.mapAttrsToList (k: v:
+            {
+                "prismnix-ifiles/${k}/mmc-pack.json" = {
+                    enable = true;
+                    clobber = v.force;
+                    text = (
+                        lib.prismnix.components.toJSON
+                            v.components
+                    );
+                    target = "${v.path}/mmc-pack.json";
+                    type = "copy";
+                };
+                "prismnix-ifiles/${k}/instance.cfg" = {
+                    enable = true;
+                    clobber = v.force;
+                    text = (
+                        lib.prismnix.instance.configToString
+                            v.config
+                    );
+                    target = "${v.path}/instance.cfg";
+                    type = "copy";
+                };
+            }
+        ) instances;
+
         activations = lib.mergeAttrsList (
             lib.mapAttrsToList (k: v:
-                lib.prismnix.dag.dagToHjem k (
-                    v.instance.activation // {
-                        default = (
-                            lib.prismnix.instance.defaultEntry {
-                                path = v.instance.path;
-                                config = v.instance.config;
-                                components = v.instance.components;
-                                writeText = pkgs.writeText;
-                            }
-                        );
-                    }
-                )
+                if v.activation != {}
+                    then lib.prismnix.dag.dagToHjem k (
+                        v.activation // {
+                            default = (
+                                lib.prismnix.dag.defaultEntry ''
+                                    $RUN mkdir -p ${lib.escapeShellArg
+                                        "${v.path}/minecraft"
+                                    }
+                                ''
+                            );
+                        }
+                    )
+                    else {}
             ) instances
         );
     in lib.mkIf cfg.enable {
@@ -79,7 +139,7 @@
             lib.prismnix.list.emptyIfNull
                 cfg.package
         );
-        files = lib.mkMerge files;
-        systemd.services = activations;
+        files = lib.mkMerge (files ++ copyfiles ++ addfiles);
+        systemd.services = lib.mkIf (!cfg.forceNoSystemD) activations;
     };
 }
