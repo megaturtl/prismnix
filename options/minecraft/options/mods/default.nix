@@ -47,7 +47,7 @@ lib.prismnix.mkScope {
                             );
                         };
                     }
-                    (v.config or {})
+                    (lib.mkIf cfg.enable (v.config or {}))
                 ]
             ) mod
         );
