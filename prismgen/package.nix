@@ -8,7 +8,6 @@ python3Packages.buildPythonApplication {
     dependencies = with python3Packages; [
         requests
         requests-ratelimiter
-        packaging
         typer
         jinja2
     ];

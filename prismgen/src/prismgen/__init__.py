@@ -10,6 +10,7 @@ from datetime import datetime
 from prismgen.database import Database
 from prismgen.search import SearchBuilder
 from prismgen.template import PkgTemplate
+from prismgen.prismmeta import Register as PrismRegister
 
 app = typer.Typer()
 
@@ -199,3 +200,67 @@ def nix(
 
     path = output.joinpath("./default.nix")
     path.write_text(imports)
+
+@app.command()
+def prismmeta(
+    output: Annotated[Path, typer.Argument(
+        help="Nix Output file for prismmeta data",
+
+        exists=False,
+        file_okay=True,
+        dir_okay=False,
+        writable=True,
+        resolve_path=True,
+    )],
+
+    packages: Annotated[list[str], typer.Option(
+        "--package",
+        "-p",
+        help="Package UIDs to fetch from PrismLauncher meta server in the format `{uid}={attrName}`",
+    )] = [],
+
+    session_useragent: Annotated[Optional[str], typer.Option(
+        "--session-user-agent",
+        help="Session: User Agent"
+    )] = None,
+
+    session_from: Annotated[Optional[str], typer.Option(
+        "--session-from",
+        help="Session: From header"
+    )] = None,
+
+    session_limit: Annotated[int, typer.Option(
+        "--session-limit",
+        help="Session: API call limits per minute"
+    )] = 60,
+):
+    session_headers = {}
+
+    if session_useragent != None:
+        session_headers["User-Agent"] = session_useragent
+
+    if session_from != None:
+        session_headers["From"] = session_from
+
+    session = LimiterSession(
+        per_minute=session_limit,
+        headers = session_headers,
+    )
+
+    register = PrismRegister.new(session)
+    pkg = register.package("net.minecraft")
+
+    versions = []
+    for _, mcversion in pkg.versions.items():
+        mc = mcversion.version
+        result: dict[str, str | None] = {"minecraft": mc}
+        for param in packages:
+            uid, _, name = param.partition("=")
+            pkg = register.package(uid)
+            result[name] = pkg.latest_str_for(
+                mc
+            )
+        versions.append(result)
+
+    from prismgen.nix import dump
+    dump(output, versions)

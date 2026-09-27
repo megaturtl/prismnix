@@ -71,7 +71,6 @@
                         python3
                         python3Packages.requests
                         python3Packages.requests-ratelimiter
-                        python3Packages.packaging
                         python3Packages.typer
                         python3Packages.jinja2
                     ];

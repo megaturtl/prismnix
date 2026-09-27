@@ -1,4 +1,12 @@
-{lib, ...}: let loaders = import ./loaders.nix; in rec
+{lib, ...}:
+let
+    loaders = lib.prismnix.mapListToAttrs (item:
+        {
+            name = item.minecraft;
+            value = item;
+        }
+    ) (import ./loaders.nix);
+in rec
 {
     /**
         Return the component versions for the modloader components

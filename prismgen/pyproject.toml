@@ -6,7 +6,6 @@ license = "MIT"
 dependencies = [
     "requests>=2.0.0",
     "requests-ratelimiter>=0.10.0",
-    "packaging>=26.0",
     "typer>=0.25.0",
     "jinja2>=3.0.0"
 ]
