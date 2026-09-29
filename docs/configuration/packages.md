@@ -1,17 +1,29 @@
 # Packages
 Packages are the heart of prismnix.
-Installing packages is done by using the `minecraft.packages`
-option.
+Installing packages is done by using the `minecraft.packages` option.
 
 ## Table of Contents
+- [Packages Available][#packages-available]
 - [Using the Overlay](#using-the-overlay)
 - [Adding Custom Packages](#adding-custom-packages)
 - [Pinning Packages](#pinning-packages)
 
+## Packages Available
+
+All mods, resourcepacks and shaderpacks with more then 2500 downloads
+on Modrinth are available and prepackaged.
+
+If a package is missing, you can request an exception
+for the Modrinth package missing.
+For this open an issue with the `prismgen pkg exception` tag
+and just tell us short and quick the project name and its Modrinth project id.
+
+We will then add it to the list of package exceptions for `prismgen`.
+On the next `prismgen` database update, the package will be fetched and generated.
+
 ## Using the Overlay
 
-Most packages are already packaged with the flake.
-So it is recommended to use the overlay provided by the flake:
+It is recommended to use the overlay provided by the flake:
 
 ```nix
 nixpkgs.overlays = [
