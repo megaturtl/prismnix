@@ -96,6 +96,11 @@ let
             "file" = "Fresh Food.zip";
             "hash" = "sha512-5Q3mAcmJAwCfUgx+k12ewBl/u+hs0YZllyDf2gL3C6K6b01hSRZDhGOKXEd2o/Y0qyeCc0M5yQX8RDq0Nrt9Dg==";
         };
+        _zgUA58EZ = {
+            "id" = "zgUA58EZ";
+            "file" = "Fresh Food.zip";
+            "hash" = "sha512-oOFR2V3G6qeksvItMSAbgxd6FxRDpwV8IwmTVtd1d/Xw+LRPWf/YM1U7URZ5gBx6JWw6nyYToeGqy4lcJF0U7Q==";
+        };
     in {
         "KtdT9fuF" = _KtdT9fuF;
         "rTBjufX4" = _rTBjufX4;
@@ -116,22 +121,24 @@ let
         "nffsNHKh" = _nffsNHKh;
         "kQYADnq4" = _kQYADnq4;
         "DdBV0zoy" = _DdBV0zoy;
-        "minecraft-1.21.4" = _DdBV0zoy;
-        "minecraft-1.21.5" = _DdBV0zoy;
-        "minecraft-1.21.6" = _DdBV0zoy;
-        "minecraft-1.21.7" = _DdBV0zoy;
-        "minecraft-1.21.8" = _DdBV0zoy;
-        "minecraft-1.21.9" = _DdBV0zoy;
-        "minecraft-1.21.10" = _DdBV0zoy;
-        "minecraft-1.21.11" = _DdBV0zoy;
-        "minecraft-1.20.1" = _DdBV0zoy;
-        "minecraft-1.21" = _DdBV0zoy;
-        "minecraft-1.21.1" = _DdBV0zoy;
-        "minecraft-1.21.2" = _DdBV0zoy;
-        "minecraft-26.1" = _DdBV0zoy;
-        "minecraft-26.1.1" = _DdBV0zoy;
-        "minecraft-26.1.2" = _DdBV0zoy;
-        "minecraft-26.2" = _DdBV0zoy;
+        "zgUA58EZ" = _zgUA58EZ;
+        "minecraft-1.21.4" = _zgUA58EZ;
+        "minecraft-1.21.5" = _zgUA58EZ;
+        "minecraft-1.21.6" = _zgUA58EZ;
+        "minecraft-1.21.7" = _zgUA58EZ;
+        "minecraft-1.21.8" = _zgUA58EZ;
+        "minecraft-1.21.9" = _zgUA58EZ;
+        "minecraft-1.21.10" = _zgUA58EZ;
+        "minecraft-1.21.11" = _zgUA58EZ;
+        "minecraft-1.20.1" = _zgUA58EZ;
+        "minecraft-1.21" = _zgUA58EZ;
+        "minecraft-1.21.1" = _zgUA58EZ;
+        "minecraft-1.21.2" = _zgUA58EZ;
+        "minecraft-26.1" = _zgUA58EZ;
+        "minecraft-26.1.1" = _zgUA58EZ;
+        "minecraft-26.1.2" = _zgUA58EZ;
+        "minecraft-26.2" = _zgUA58EZ;
+        "minecraft-26.3" = _zgUA58EZ;
         "pkg-1.0" = _rTBjufX4;
         "pkg-1.1" = _MhXgBda0;
         "pkg-1.2" = _KxdCpXm4;
@@ -147,7 +154,8 @@ let
         "pkg-1.3.3" = _nffsNHKh;
         "pkg-1.3.4" = _kQYADnq4;
         "pkg-1.3.5" = _DdBV0zoy;
-        "default" = _DdBV0zoy;
+        "pkg-1.3.6" = _zgUA58EZ;
+        "default" = _zgUA58EZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fresh-food";

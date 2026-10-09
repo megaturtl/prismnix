@@ -166,6 +166,21 @@ let
             "file" = "animated-hearts-fabric-26.1-1.9.0.jar";
             "hash" = "sha512-FiErGkHh73KDko0O9KaAoGhGQTP6fYS0skgsmmEwfPH7Bit0rosxickNa/8EX1pGy/bDxgddQdgwfOHbVW1WNQ==";
         };
+        _VcjClpf4 = {
+            "id" = "VcjClpf4";
+            "file" = "AnimatedHearts-2.0.0.jar";
+            "hash" = "sha512-cZa2QGLTW90StMxETbH9ko3BrzxpaG3RrecyOlltaF03NBwhYCoPqiN9NmDpzAm4if3mAen2wedYK0A7UNqR6Q==";
+        };
+        _CwmDqI1C = {
+            "id" = "CwmDqI1C";
+            "file" = "AnimatedHearts-2.0.0.jar";
+            "hash" = "sha512-1BYLLdeCfeh+4pxF2s0XsmgjAphxTSjI/Gh9DcUSMNyW+eQfBi0tnCXA5zJnh8IYj3PaG6CKV0N/aw9s3LjptA==";
+        };
+        _pkNADdD1 = {
+            "id" = "pkNADdD1";
+            "file" = "AnimatedHearts-2.0.0.jar";
+            "hash" = "sha512-9Q53PW854SDKV4pj7TPOeDqXJTP/u8g1B4+itGY8TqY9GIYIE1Z2wREZkGvJuWokxN0Y3QkQqzDsORC5IA8Y6g==";
+        };
     in {
         "Jdlp3EjY" = _Jdlp3EjY;
         "ukSkmHTj" = _ukSkmHTj;
@@ -200,14 +215,19 @@ let
         "HdIbmmE5" = _HdIbmmE5;
         "oEnkGFPU" = _oEnkGFPU;
         "6SFNuPzB" = _6SFNuPzB;
-        "forge-1.20.1" = _HdIbmmE5;
-        "neoforge-1.21.1" = _vKPeQtRJ;
+        "VcjClpf4" = _VcjClpf4;
+        "CwmDqI1C" = _CwmDqI1C;
+        "pkNADdD1" = _pkNADdD1;
+        "forge-1.20.1" = _VcjClpf4;
+        "neoforge-1.21.1" = _CwmDqI1C;
         "neoforge-26.2" = _fobB4tXi;
         "neoforge-26.1.2" = _8W2LIfYz;
         "fabric-1.20.1" = _MZPRgugM;
-        "fabric-26.2" = _Axtm4o6J;
-        "fabric-26.1.2" = _oEnkGFPU;
-        "fabric-26.1" = _6SFNuPzB;
+        "fabric-26.2" = _pkNADdD1;
+        "fabric-26.1.2" = _pkNADdD1;
+        "fabric-26.1" = _pkNADdD1;
+        "fabric-26.1.1" = _pkNADdD1;
+        "fabric-26.3" = _pkNADdD1;
         "pkg-1.0.0" = _Jdlp3EjY;
         "pkg-1.0.7" = _ukSkmHTj;
         "pkg-1.2.0" = _ItJxGPCj;
@@ -221,7 +241,8 @@ let
         "pkg-1.8.0" = _QuwrJrpD;
         "pkg-1.8.1" = _L4Dq2FM0;
         "pkg-1.9.0" = _6SFNuPzB;
-        "default" = _6SFNuPzB;
+        "pkg-2.0.0" = _pkNADdD1;
+        "default" = _pkNADdD1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animated-heart";

@@ -321,6 +321,36 @@ let
             "file" = "combat-reborn-26.1-r1.2.2-fabric.jar";
             "hash" = "sha512-1J5gRL0P6nKBWpWjQZoeorc+h3rTXeowTPzlM1M7N3kzLmGuZL/HKlnCWmDUtSEp67OZ7KER5rpG4TM4KrcCzA==";
         };
+        _MZMA2FGS = {
+            "id" = "MZMA2FGS";
+            "file" = "combat-reborn-26.1-r1.3-neoforge.jar";
+            "hash" = "sha512-5RdTl+CqrdbIflqf4BH2s2Ill3sm4j46pFfFPAXFWJoqfUF+KEWaXMDjOWy2A8RVh3GxqrawvKHgOOb97GzHFQ==";
+        };
+        _jIsC1aDC = {
+            "id" = "jIsC1aDC";
+            "file" = "combat-reborn-26.1-r1.3-fabric.jar";
+            "hash" = "sha512-QpPMtAt7QLazC7Ruvlad8q9R/ouccB//k8lrjDpbXAsv03pvIQAgXTcWFOQXzd0p7Hbg0xTi1rCv9LkgVCpF1w==";
+        };
+        _1e4zXFMM = {
+            "id" = "1e4zXFMM";
+            "file" = "combat-reborn-26.1-r1.4-neoforge.jar";
+            "hash" = "sha512-4pLcsrNoS+xXvoL5PsrPHJ9RsF3t9X/i7x6hB626yy77eFOo0QLGHjc5/c59oqMhQNYa/6aiMismuK2A/mi1uA==";
+        };
+        _2bMcHbLH = {
+            "id" = "2bMcHbLH";
+            "file" = "combat-reborn-26.1-r1.4-fabric.jar";
+            "hash" = "sha512-XBX38RZlEWWmhEltFypuxDY/jpfPK69QugV6MYg5+dE4kLW2Xjt3oyuio5nZUcfWJqnNtfEeO0NqIcJY4NSDhQ==";
+        };
+        _yEePgsw1 = {
+            "id" = "yEePgsw1";
+            "file" = "combat-reborn-26.1-r1.5-neoforge.jar";
+            "hash" = "sha512-QmBcb/d77t1IFGNLa1/UjL6lZBhrOiCdV0KRuTOToOczfNQGRvJ7qNG05kl41S5A0iXA4pxt5AvDjBiS5+MN7A==";
+        };
+        _4vx03KEs = {
+            "id" = "4vx03KEs";
+            "file" = "combat-reborn-26.1-r1.5-fabric.jar";
+            "hash" = "sha512-oLDCxerWGrbAkCc0QpjCG9zhs+Gee+ocYkEUpx30grHwD0sfvjI3HBI9KKGMKqh71+L+1wRJRjxhppN9itvy/Q==";
+        };
     in {
         "C6iEnSu0" = _C6iEnSu0;
         "i0JZrCnc" = _i0JZrCnc;
@@ -386,16 +416,22 @@ let
         "AzCxqbhF" = _AzCxqbhF;
         "J1kcy2Xa" = _J1kcy2Xa;
         "dK8ocDzb" = _dK8ocDzb;
+        "MZMA2FGS" = _MZMA2FGS;
+        "jIsC1aDC" = _jIsC1aDC;
+        "1e4zXFMM" = _1e4zXFMM;
+        "2bMcHbLH" = _2bMcHbLH;
+        "yEePgsw1" = _yEePgsw1;
+        "4vx03KEs" = _4vx03KEs;
         "fabric-1.21.11" = _9VdaHgD9;
         "fabric-1.21" = _61qXKirn;
         "fabric-1.21.1" = _61qXKirn;
-        "fabric-26.1" = _dK8ocDzb;
-        "fabric-26.1.1" = _dK8ocDzb;
-        "fabric-26.1.2" = _dK8ocDzb;
+        "fabric-26.1" = _4vx03KEs;
+        "fabric-26.1.1" = _4vx03KEs;
+        "fabric-26.1.2" = _4vx03KEs;
         "neoforge-1.21.11" = _rjq604vR;
-        "neoforge-26.1" = _J1kcy2Xa;
-        "neoforge-26.1.1" = _J1kcy2Xa;
-        "neoforge-26.1.2" = _J1kcy2Xa;
+        "neoforge-26.1" = _yEePgsw1;
+        "neoforge-26.1.1" = _yEePgsw1;
+        "neoforge-26.1.2" = _yEePgsw1;
         "pkg-21.11-r1.0" = _C6iEnSu0;
         "pkg-21.11-r1.1" = _i0JZrCnc;
         "pkg-21.1-r1.0" = _juw62xmw;
@@ -460,7 +496,13 @@ let
         "pkg-26.1-r1.2.1-fabric" = _AzCxqbhF;
         "pkg-26.1-r1.2.2-neoforge" = _J1kcy2Xa;
         "pkg-26.1-r1.2.2-fabric" = _dK8ocDzb;
-        "default" = _dK8ocDzb;
+        "pkg-26.1-r1.3-neoforge" = _MZMA2FGS;
+        "pkg-26.1-r1.3-fabric" = _jIsC1aDC;
+        "pkg-26.1-r1.4-neoforge" = _1e4zXFMM;
+        "pkg-26.1-r1.4-fabric" = _2bMcHbLH;
+        "pkg-26.1-r1.5-neoforge" = _yEePgsw1;
+        "pkg-26.1-r1.5-fabric" = _4vx03KEs;
+        "default" = _4vx03KEs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "combat-reborn";

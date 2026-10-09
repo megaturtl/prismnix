@@ -31,6 +31,11 @@ let
             "file" = "Tactical M4 26.2.zip";
             "hash" = "sha512-fsTvvcwcBpgVE4bW/N2O12aXLKUKhEyRG7/OxKmUUZ7hixVzOYluoSxYzpVHX4P7oK55HAh87E73RztC9jgKLA==";
         };
+        _fllgYINk = {
+            "id" = "fllgYINk";
+            "file" = "Tactical M4 26.3.zip";
+            "hash" = "sha512-TZS4jpoklfB42fHJBcIWBFdcAJ2VUD/3DScGuEVl0D4CpN3xSZ62GXy91O117Bk5szRx/bpZajs4aIKeDpV8+Q==";
+        };
     in {
         "nEXuhw8d" = _nEXuhw8d;
         "GDFIGfMC" = _GDFIGfMC;
@@ -38,6 +43,7 @@ let
         "Q4vGnhuf" = _Q4vGnhuf;
         "SqFoTcox" = _SqFoTcox;
         "HO0W2e4d" = _HO0W2e4d;
+        "fllgYINk" = _fllgYINk;
         "minecraft-1.20" = _nEXuhw8d;
         "minecraft-1.20.1" = _nEXuhw8d;
         "minecraft-1.20.2" = _nEXuhw8d;
@@ -58,9 +64,11 @@ let
         "minecraft-26.1.1" = _SqFoTcox;
         "minecraft-26.1.2" = _SqFoTcox;
         "minecraft-26.2" = _HO0W2e4d;
+        "minecraft-26.3" = _fllgYINk;
         "pkg-1.0" = _SqFoTcox;
         "pkg-26.2" = _HO0W2e4d;
-        "default" = _HO0W2e4d;
+        "pkg-26.3" = _fllgYINk;
+        "default" = _fllgYINk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tactical-m4-bow";

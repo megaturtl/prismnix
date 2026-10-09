@@ -621,6 +621,36 @@ let
             "file" = "NeoForge-Version-Serene Seasons Plus-1.21.11-5.2.1.jar";
             "hash" = "sha512-pI08HV/VckDJEPJd2Ys0it6vmPn23D1QqXI8WwGRCjxDfvrt0cM4s8finejj0Ug/r9lXrTXeKfGrIVsFvxFV9A==";
         };
+        _Z7VKF9c6 = {
+            "id" = "Z7VKF9c6";
+            "file" = "NeoForge-Version-Serene Seasons Plus-1.21.1-5.2.1.jar";
+            "hash" = "sha512-WU9RHH6DSsktjkQuymFmYIFgSUX+HCzjp47dG/fnC8zg3NmmDVvUqV7B4fbT0CFRHN+S0IvV8tModRPlsccj2g==";
+        };
+        _sJSwvM49 = {
+            "id" = "sJSwvM49";
+            "file" = "Fabric-Version-sereneseasonsplus-1.21.1-5.2.1.jar";
+            "hash" = "sha512-gXQSlvNNwhswKmC20o7H/U2Dy9q4tHJq+LHuaKZAWO1u8XmfgsZla3u9hOC54JpMM1gwSHjh6OcWQIeQmubK3g==";
+        };
+        _mhO47v6Z = {
+            "id" = "mhO47v6Z";
+            "file" = "Forge-Version-sereneseasonsplus-1.20.1-5.1.4.jar";
+            "hash" = "sha512-YYeoTBoDrnHWRJ2d/gCpuGGtve5w6thwWGLxOx0s9tStj6uPEUbCI5u7dhvoRKRxWjhwBTsQOQMrAdL18bKGuA==";
+        };
+        _LCy4295G = {
+            "id" = "LCy4295G";
+            "file" = "Fabric-Version-sereneseasonsplus-1.20.1-5.1.4.jar";
+            "hash" = "sha512-pOZ9AfX8/wA5UnUJjbKxVhlam9S4Aqr55ZQS/vhwZvQTOeusvec0E0vDw7lCd1gmeEjdP6POARR4aB3PMEyErA==";
+        };
+        _O0CQatE8 = {
+            "id" = "O0CQatE8";
+            "file" = "NeoForge-Version-Serene Seasons Plus-1.21.11-5.2.1.jar";
+            "hash" = "sha512-VmkuHyNx3Lv0kQ8UZpX4adYby4EFLMPu6yQvdIYZE9Wnyd5FNDi1mJu7gBRGKP+e6VR7mLXfgz94R/yFMAHueg==";
+        };
+        _K27USdIW = {
+            "id" = "K27USdIW";
+            "file" = "Fabric-Version-sereneseasonsplus-1.21.11-5.2.1.jar";
+            "hash" = "sha512-S9bA6tDMvfSXKHZhz0nXjNLG15Wy1Ez+2k2CUp1Yb6bTuspzNuEMKtVkQowVY74baIakE8GRSiKa27xRBmMmAg==";
+        };
     in {
         "PfITxceX" = _PfITxceX;
         "N8FLu40Y" = _N8FLu40Y;
@@ -746,20 +776,26 @@ let
         "HHCnd0G8" = _HHCnd0G8;
         "nYao5aRK" = _nYao5aRK;
         "YxD8KH4k" = _YxD8KH4k;
-        "forge-1.20.1" = _HHCnd0G8;
-        "neoforge-1.21.1" = _nYao5aRK;
+        "Z7VKF9c6" = _Z7VKF9c6;
+        "sJSwvM49" = _sJSwvM49;
+        "mhO47v6Z" = _mhO47v6Z;
+        "LCy4295G" = _LCy4295G;
+        "O0CQatE8" = _O0CQatE8;
+        "K27USdIW" = _K27USdIW;
+        "forge-1.20.1" = _mhO47v6Z;
+        "neoforge-1.21.1" = _Z7VKF9c6;
         "neoforge-1.20.4" = _niaofgMf;
         "neoforge-1.20.6" = _zZMYQM1W;
         "neoforge-1.21.8" = _dR3OvJN4;
         "neoforge-1.21.5" = _Nb0EJyQ5;
-        "neoforge-1.21.11" = _YxD8KH4k;
-        "fabric-1.20.1" = _QBogsX9s;
+        "neoforge-1.21.11" = _O0CQatE8;
+        "fabric-1.20.1" = _LCy4295G;
         "fabric-1.20.4" = _nQB4VwwZ;
         "fabric-1.20.6" = _ev0h18vp;
-        "fabric-1.21.1" = _D24wW3pw;
+        "fabric-1.21.1" = _sJSwvM49;
         "fabric-1.21.8" = _p2hIdPBK;
         "fabric-1.21.5" = _YBPV7M11;
-        "fabric-1.21.11" = _sO5eFFU3;
+        "fabric-1.21.11" = _K27USdIW;
         "pkg-1.0.9.4" = _PfITxceX;
         "pkg-1.20.1-1.0.9.5" = _1ajukivc;
         "pkg-1.21.1-1.0.9.5" = _LaKcGycF;
@@ -866,8 +902,13 @@ let
         "pkg-Fabric-1.20.1-5.1.2" = _QBogsX9s;
         "pkg-Forge-1.20.1-5.1.3" = _HHCnd0G8;
         "pkg-NeoForge-1.21.1-5.1.2" = _nYao5aRK;
-        "pkg-NeoForge-1.21.11-5.2.1" = _YxD8KH4k;
-        "default" = _YxD8KH4k;
+        "pkg-NeoForge-1.21.11-5.2.1" = _O0CQatE8;
+        "pkg-NeoForge-1.21.1-5.2.1" = _Z7VKF9c6;
+        "pkg-Fabric-1.21.1-5.2.1" = _sJSwvM49;
+        "pkg-Forge-1.20.1-5.1.4" = _mhO47v6Z;
+        "pkg-Fabric-1.20.1-5.1.4" = _LCy4295G;
+        "pkg-Fabric-1.21.11-5.2.1" = _K27USdIW;
+        "default" = _K27USdIW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "serene-seasons-plus";

@@ -751,6 +751,26 @@ let
             "file" = "rctmod-fabric-1.21.1-0.19.0-beta.jar";
             "hash" = "sha512-A2FTuMnAGWCwfcpXGNfp6pHGD/CSk7cLQ/F3p6mK+NPfKDOX4CEvSm+53N5w7Lx1IGOXv89ec2PLP4VF+F965Q==";
         };
+        _9uSx1Lvt = {
+            "id" = "9uSx1Lvt";
+            "file" = "rctmod-neoforge-1.21.1-0.19.1-beta.jar";
+            "hash" = "sha512-1PP9IuiJ+0w+/wfqWVU6q02QrKhCRxNCFlm3t9Wt9MbcCbBqYwTSJY/922fVdHD/ePodurF76sC43qwiKgUZ1g==";
+        };
+        _vp0EBPWW = {
+            "id" = "vp0EBPWW";
+            "file" = "rctmod-fabric-1.21.1-0.19.1-beta.jar";
+            "hash" = "sha512-/Q548OFPm4ire7zMQdfaTNGoIvaY5KIevsq31J/6LXeLLQW8tsjcjBe9ZMsTLNhtWRDJkPoup8aXncUXabgiFw==";
+        };
+        _ITPewVPq = {
+            "id" = "ITPewVPq";
+            "file" = "rctmod-neoforge-1.21.1-0.19.2-beta.jar";
+            "hash" = "sha512-61qkUzb0HRHaXyNH1S92xLSM+LaKvMcJiF3A5psMwQ+aRGUY63VKTbxfVhgUFAD7WyMmQgAZmt3ucZjOnBgr4g==";
+        };
+        _rgfBfnW9 = {
+            "id" = "rgfBfnW9";
+            "file" = "rctmod-fabric-1.21.1-0.19.2-beta.jar";
+            "hash" = "sha512-jMAxAdAnUrAJGha2h+DMo7UWk1tORAuXZ4CKBPzEycLmFKqI3fkAiVpHxI4xQnZkNhwm2opfTRfX0QFTCLL6Eg==";
+        };
     in {
         "fAXt4EeB" = _fAXt4EeB;
         "X4DyvjEI" = _X4DyvjEI;
@@ -902,10 +922,14 @@ let
         "gQx1F1dx" = _gQx1F1dx;
         "jOHFdQXi" = _jOHFdQXi;
         "jdUENp3C" = _jdUENp3C;
+        "9uSx1Lvt" = _9uSx1Lvt;
+        "vp0EBPWW" = _vp0EBPWW;
+        "ITPewVPq" = _ITPewVPq;
+        "rgfBfnW9" = _rgfBfnW9;
         "forge-1.20.1" = _8edTHlEm;
         "fabric-1.20.1" = _gGIuPbYE;
-        "fabric-1.21.1" = _jdUENp3C;
-        "neoforge-1.21.1" = _jOHFdQXi;
+        "fabric-1.21.1" = _rgfBfnW9;
+        "neoforge-1.21.1" = _ITPewVPq;
         "pkg-0.5.0-alpha" = _X4DyvjEI;
         "pkg-0.5.1-alpha" = _YYo7ckmJ;
         "pkg-0.5.2-alpha" = _Kux22XnF;
@@ -981,7 +1005,9 @@ let
         "pkg-0.18.0-beta" = _Py1VoaHl;
         "pkg-0.18.1-beta" = _gQx1F1dx;
         "pkg-0.19.0-beta" = _jdUENp3C;
-        "default" = _jdUENp3C;
+        "pkg-0.19.1-beta" = _vp0EBPWW;
+        "pkg-0.19.2-beta" = _rgfBfnW9;
+        "default" = _rgfBfnW9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rctmod";

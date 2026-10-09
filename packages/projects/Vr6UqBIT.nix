@@ -191,6 +191,26 @@ let
             "file" = "wither-spawn-animation-FABRIC-26.2-1.0.0.jar";
             "hash" = "sha512-GXLAzBYJYMgEgToM52hckWITPYSsBXNsJEpgeK7620XzPh6AarskYKhzcJ9IjJ507wV7lmHiADxXa6lrpiVcBA==";
         };
+        _WzmDJRx6 = {
+            "id" = "WzmDJRx6";
+            "file" = "wither-spawn-animation-FABRIC-26.1-1.0.0.jar";
+            "hash" = "sha512-SGz7MZMnOZIFpLpEXfpHW4THWgRWwZiWBg9oKCsZMVFvwkUdrwUPKr2+RXEpkfpnyaMtAQ3qpjbgMyxvsY9qMg==";
+        };
+        _anFRUG1i = {
+            "id" = "anFRUG1i";
+            "file" = "wither-spawn-animation-FABRIC-26.3-1.0.0.jar";
+            "hash" = "sha512-0UuzwlU/NbWt/cD1SJcQF8ZWQv8a1im2On8FMIZf5pTXke1V1gFetenAp0Y3hkSapiyY9gZUwY4oXraq0G/dsQ==";
+        };
+        _M3N7zL5i = {
+            "id" = "M3N7zL5i";
+            "file" = "wither-spawn-animation-NEOFORGE-26.2-1.6.2.jar";
+            "hash" = "sha512-w8wX6w6jFYjDqtoRq7aeitih0FS59jChHLidgAmHOEgiQoB9AwN2WXqRxYxccAuNxUtdyLBrRzdJr/gZnWQFig==";
+        };
+        _q12kUc98 = {
+            "id" = "q12kUc98";
+            "file" = "wither-spawn-animation-NEOFORGE-26.3-1.6.2.jar";
+            "hash" = "sha512-AZBHbtYmA6buTroXvJx7A63fkEt88EMzFwkNAVV4V9pecZKs//6OXi4MzxYu7TLlQVDbrj09TICknjzxThMXSg==";
+        };
     in {
         "xOulbgUw" = _xOulbgUw;
         "e5ktIPW7" = _e5ktIPW7;
@@ -230,15 +250,23 @@ let
         "VJWCQy9M" = _VJWCQy9M;
         "YUWpQAym" = _YUWpQAym;
         "8AOiCrab" = _8AOiCrab;
+        "WzmDJRx6" = _WzmDJRx6;
+        "anFRUG1i" = _anFRUG1i;
+        "M3N7zL5i" = _M3N7zL5i;
+        "q12kUc98" = _q12kUc98;
         "forge-1.20.1" = _aQvkHFxC;
         "neoforge-1.20.4" = _pEv89WJE;
         "neoforge-1.20.6" = _IwEL5PWp;
         "neoforge-1.21.1" = _i70oR8c3;
+        "neoforge-26.2" = _M3N7zL5i;
+        "neoforge-26.3" = _q12kUc98;
         "fabric-1.20.1" = _6MfF9iOj;
         "fabric-1.21.1" = _VJWCQy9M;
         "fabric-1.21.11" = _YUWpQAym;
         "fabric-26.2" = _8AOiCrab;
-        "pkg-1.0.0" = _8AOiCrab;
+        "fabric-26.1" = _WzmDJRx6;
+        "fabric-26.3" = _anFRUG1i;
+        "pkg-1.0.0" = _VJWCQy9M;
         "pkg-1.1.0" = _FByRxb06;
         "pkg-1.1.2" = _IwEL5PWp;
         "pkg-1.1.3" = _CGsUAYNC;
@@ -252,8 +280,8 @@ let
         "pkg-1.5.2" = _QyOZrkGr;
         "pkg-1.6" = _EmvGBaUu;
         "pkg-1.6.1" = _2qystmBA;
-        "pkg-1.6.2" = _i70oR8c3;
-        "default" = _8AOiCrab;
+        "pkg-1.6.2" = _q12kUc98;
+        "default" = _q12kUc98;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wither-spawn-animation";

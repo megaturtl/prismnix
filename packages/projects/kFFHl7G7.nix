@@ -66,6 +66,21 @@ let
             "file" = "xaero-custom-waypoint-colors-1.0.6-26.2.jar";
             "hash" = "sha512-CRT+mhxmyPgkSmusCUBT5ORIjpM9l4GbPYjyp59765feYodkk8OoqmA5PAExPYcNXQTqdwo29PjFPdcc7t5mtQ==";
         };
+        _iEagQp4c = {
+            "id" = "iEagQp4c";
+            "file" = "xaero-custom-waypoint-colors-1.0.7-26.1.2.jar";
+            "hash" = "sha512-luX5XO5Z9lfjeBR8gKVpoapiix6I8yWND24P02UbLjFXWBQf3SXXEJYnzynbChDKdFbWaOWXDe0h7dYUAM4sLw==";
+        };
+        _oERyK7nh = {
+            "id" = "oERyK7nh";
+            "file" = "xaero-custom-waypoint-colors-1.0.7-26.2.jar";
+            "hash" = "sha512-yoCthMVUucVgiMe4dOFukT9pnB5xeL23IL3JlxIKjxob9FIwmypKuOt3Qw/KHkpXzgR2SUKq1sQ2U9rj7CwxBw==";
+        };
+        _X1PehaEJ = {
+            "id" = "X1PehaEJ";
+            "file" = "xaero-custom-waypoint-colors-1.0.7-26.3.jar";
+            "hash" = "sha512-e+/mTNUkqpN3lOF8PoSmi0ij4t+ckDSTMmqVx1DaNNP5PTXw6zVUrr3BFetTFODQrsBhFu12ktAxYlG+XvgasA==";
+        };
     in {
         "gSaBEHTz" = _gSaBEHTz;
         "uqdr6aIP" = _uqdr6aIP;
@@ -80,10 +95,14 @@ let
         "HjvtoUUi" = _HjvtoUUi;
         "PEgYGvVH" = _PEgYGvVH;
         "9W6MHZXZ" = _9W6MHZXZ;
+        "iEagQp4c" = _iEagQp4c;
+        "oERyK7nh" = _oERyK7nh;
+        "X1PehaEJ" = _X1PehaEJ;
         "fabric-1.21.11" = _HjvtoUUi;
-        "fabric-26.1.2" = _PEgYGvVH;
+        "fabric-26.1.2" = _iEagQp4c;
         "fabric-1.20.1" = _4rIYPVJR;
-        "fabric-26.2" = _9W6MHZXZ;
+        "fabric-26.2" = _oERyK7nh;
+        "fabric-26.3" = _X1PehaEJ;
         "pkg-1.0.0-1.21.11" = _gSaBEHTz;
         "pkg-1.0.1-1.21.11" = _uqdr6aIP;
         "pkg-1.0.2-1.21.11" = _squeL623;
@@ -97,7 +116,10 @@ let
         "pkg-1.0.6-1.21.11" = _HjvtoUUi;
         "pkg-1.0.6-26.1.2" = _PEgYGvVH;
         "pkg-1.0.6-26.2" = _9W6MHZXZ;
-        "default" = _9W6MHZXZ;
+        "pkg-1.0.7-26.1.2" = _iEagQp4c;
+        "pkg-1.0.7-26.2" = _oERyK7nh;
+        "pkg-1.0.7-26.3" = _X1PehaEJ;
+        "default" = _X1PehaEJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xaero-custom-waypoint-colors";

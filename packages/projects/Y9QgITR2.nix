@@ -51,6 +51,11 @@ let
             "file" = "RED v5.6.4 - [1.21.X - 26.2].zip";
             "hash" = "sha512-oV0CCuEIdDhDRR/W7eKNOpkNEUNi1B9Tqlx3hBeHExyJvN5nFeiBKZM8Zx1skB241OBxORNiBc413PvpnT/b0Q==";
         };
+        _KzTlsMeT = {
+            "id" = "KzTlsMeT";
+            "file" = "RED v5.6.5 - [1.21.X - 26.3].zip";
+            "hash" = "sha512-W6+S0592vcVi0iGaBrNGx9vC6MQ1kojnr8OK/O6b0Egu5njn3ZT+TBZBBnJlcjpYcvC7onIxABmhX7Hue8EWjg==";
+        };
     in {
         "z5a9fteE" = _z5a9fteE;
         "ZmDKhl7O" = _ZmDKhl7O;
@@ -62,22 +67,24 @@ let
         "OnJh3arQ" = _OnJh3arQ;
         "7oWbvnv9" = _7oWbvnv9;
         "e022DGrI" = _e022DGrI;
-        "minecraft-1.21.1" = _e022DGrI;
-        "minecraft-1.21.2" = _e022DGrI;
-        "minecraft-1.21.3" = _e022DGrI;
-        "minecraft-1.21.4" = _e022DGrI;
-        "minecraft-1.21.5" = _e022DGrI;
-        "minecraft-1.21.6" = _e022DGrI;
-        "minecraft-1.21.7" = _e022DGrI;
-        "minecraft-1.21.8" = _e022DGrI;
-        "minecraft-1.21" = _e022DGrI;
-        "minecraft-1.21.9" = _e022DGrI;
-        "minecraft-1.21.10" = _e022DGrI;
-        "minecraft-1.21.11" = _e022DGrI;
-        "minecraft-26.1" = _e022DGrI;
-        "minecraft-26.1.1" = _e022DGrI;
-        "minecraft-26.1.2" = _e022DGrI;
-        "minecraft-26.2" = _e022DGrI;
+        "KzTlsMeT" = _KzTlsMeT;
+        "minecraft-1.21.1" = _KzTlsMeT;
+        "minecraft-1.21.2" = _KzTlsMeT;
+        "minecraft-1.21.3" = _KzTlsMeT;
+        "minecraft-1.21.4" = _KzTlsMeT;
+        "minecraft-1.21.5" = _KzTlsMeT;
+        "minecraft-1.21.6" = _KzTlsMeT;
+        "minecraft-1.21.7" = _KzTlsMeT;
+        "minecraft-1.21.8" = _KzTlsMeT;
+        "minecraft-1.21" = _KzTlsMeT;
+        "minecraft-1.21.9" = _KzTlsMeT;
+        "minecraft-1.21.10" = _KzTlsMeT;
+        "minecraft-1.21.11" = _KzTlsMeT;
+        "minecraft-26.1" = _KzTlsMeT;
+        "minecraft-26.1.1" = _KzTlsMeT;
+        "minecraft-26.1.2" = _KzTlsMeT;
+        "minecraft-26.2" = _KzTlsMeT;
+        "minecraft-26.3" = _KzTlsMeT;
         "pkg-5.5" = _z5a9fteE;
         "pkg-5.5.1" = _ZmDKhl7O;
         "pkg-5.5.2" = _2v05mZjH;
@@ -87,7 +94,8 @@ let
         "pkg-v5.6.2" = _OnJh3arQ;
         "pkg-v5.6.3" = _7oWbvnv9;
         "pkg-v5.6.4" = _e022DGrI;
-        "default" = _e022DGrI;
+        "pkg-v5.6.5" = _KzTlsMeT;
+        "default" = _KzTlsMeT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "davidpel-red-pack";

@@ -746,6 +746,46 @@ let
             "file" = "reobf-kimetsunoyaibamultiplayer-1.6.566.jar";
             "hash" = "sha512-IGjs+CFll4Dfybh+Q5P7SUQz0EvlwBBRaqMq4dGQuRRJbKmqE55+fgyroAdR6yCqmgOApgcvB6PvfpTKiCNpWg==";
         };
+        _4XK3wuTE = {
+            "id" = "4XK3wuTE";
+            "file" = "reobf-kimetsunoyaibamultiplayer-1.6.567.jar";
+            "hash" = "sha512-DBSeOyXBGu655gx9FyJDxnqFgL8IiMD+mVKj1tSzuaDUKnnbgAzbmP5kwwnoaCn0yUxuIN2mf2FD1mRhAH87Tw==";
+        };
+        _ZxhLeQVV = {
+            "id" = "ZxhLeQVV";
+            "file" = "reobf-kimetsunoyaibamultiplayer-1.6.568.jar";
+            "hash" = "sha512-B+MSQtNT8gHHrlCfgV6Ujdv1hFZU/sNsHPAgSLaXdoKpmcJDZfxsApG9ZxUGLDbtgWEXLdGIX0PJdf+74lpTFA==";
+        };
+        _QCjUQbTX = {
+            "id" = "QCjUQbTX";
+            "file" = "reobf-kimetsunoyaibamultiplayer-1.6.569.jar";
+            "hash" = "sha512-71bh5daaz/B4iOm3m4RgOzciS4YFdI8MsLAksG/gpVmpikmkLVMiZ0egwHdFe5J7FC9Dhk50z04Z8KpiqPtKOw==";
+        };
+        _cxEivZ5g = {
+            "id" = "cxEivZ5g";
+            "file" = "reobf-kimetsunoyaibamultiplayer-1.6.5691.jar";
+            "hash" = "sha512-nZD5pbYWrLXHxJolOj8vfUI4VSmbzGJGaxHQjaXK66HmcubXXsvMn2sQ20UUAOnkr5bFRtnmo+eXE6nM2IoPgA==";
+        };
+        _jVlCe3Wh = {
+            "id" = "jVlCe3Wh";
+            "file" = "reobf-kimetsunoyaibamultiplayer-1.6.5693.jar";
+            "hash" = "sha512-z1nczRbrvbA0Jr0qzHTHxTP/Kc3CsjJ4963lK0bg5MXoatNbQRdHcxCXLCgUr8qS5uQ+igQDQ+BrO6RtePKhAw==";
+        };
+        _IWA7iuct = {
+            "id" = "IWA7iuct";
+            "file" = "reobf-kimetsunoyaibamultiplayer-1.6.5694.jar";
+            "hash" = "sha512-m+cRsDw7Xy0uiRRcjl8tMzWXpmLQt8LGcQS/Q98sQuBTgJOw68Ap3Ht2EVGcL9Pe2t0rTKZaH3sc7Y0bp3RdXw==";
+        };
+        _K9ih9MD6 = {
+            "id" = "K9ih9MD6";
+            "file" = "reobf-kimetsunoyaibamultiplayer-1.6.5695.jar";
+            "hash" = "sha512-QeJZYXr9ROlZEYKcx6oGpFNCM9tqVpQ88fxSVD7fRhqC0GoIqVqE+qGy7OYE5/oo8WwwU4jqerQKvoZlM9PQRA==";
+        };
+        _F9F0UGto = {
+            "id" = "F9F0UGto";
+            "file" = "reobf-kimetsunoyaibamultiplayer-1.6.5696.jar";
+            "hash" = "sha512-wmdu/81yhVt9s9KU0/Q59C2gqceyN1tGKs3d5E4iY3vRprRvWp6rcFO1oGh+spGBVPKfTnSjWx1R/TKeANZRqQ==";
+        };
     in {
         "miPGd38F" = _miPGd38F;
         "jki9W4EP" = _jki9W4EP;
@@ -896,12 +936,20 @@ let
         "3Ku2BK8O" = _3Ku2BK8O;
         "nQnO8bLX" = _nQnO8bLX;
         "BJJLwoxP" = _BJJLwoxP;
-        "forge-1.20.1" = _BJJLwoxP;
-        "forge-1.20.2" = _BJJLwoxP;
-        "forge-1.20.3" = _BJJLwoxP;
-        "forge-1.20.4" = _BJJLwoxP;
-        "forge-1.20.5" = _BJJLwoxP;
-        "forge-1.20.6" = _BJJLwoxP;
+        "4XK3wuTE" = _4XK3wuTE;
+        "ZxhLeQVV" = _ZxhLeQVV;
+        "QCjUQbTX" = _QCjUQbTX;
+        "cxEivZ5g" = _cxEivZ5g;
+        "jVlCe3Wh" = _jVlCe3Wh;
+        "IWA7iuct" = _IWA7iuct;
+        "K9ih9MD6" = _K9ih9MD6;
+        "F9F0UGto" = _F9F0UGto;
+        "forge-1.20.1" = _F9F0UGto;
+        "forge-1.20.2" = _F9F0UGto;
+        "forge-1.20.3" = _F9F0UGto;
+        "forge-1.20.4" = _F9F0UGto;
+        "forge-1.20.5" = _F9F0UGto;
+        "forge-1.20.6" = _F9F0UGto;
         "pkg-1.0.0" = _miPGd38F;
         "pkg-1.1.0" = _jki9W4EP;
         "pkg-1.2.0" = _nmhnwg9M;
@@ -1050,7 +1098,15 @@ let
         "pkg-1.6.564" = _3Ku2BK8O;
         "pkg-1.6.565" = _nQnO8bLX;
         "pkg-1.6.566" = _BJJLwoxP;
-        "default" = _BJJLwoxP;
+        "pkg-1.6.567" = _4XK3wuTE;
+        "pkg-1.6.568" = _ZxhLeQVV;
+        "pkg-1.6.569" = _QCjUQbTX;
+        "pkg-1.6.5691" = _cxEivZ5g;
+        "pkg-1.6.5693" = _jVlCe3Wh;
+        "pkg-1.6.5694" = _IWA7iuct;
+        "pkg-1.6.5695" = _K9ih9MD6;
+        "pkg-1.6.5696" = _F9F0UGto;
+        "default" = _F9F0UGto;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kimetsunoyaiba-tweaks";

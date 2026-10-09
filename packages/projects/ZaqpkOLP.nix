@@ -26,13 +26,19 @@ let
             "file" = "visual_mobs_edit-2.0.4-forge-1.20.1.jar";
             "hash" = "sha512-A/hx9iqX8xqCUyTXjvElYEBD0BAs3VipKITeULvmqs1Xn0xgl8BEJOJzePKZUWNbd6ULY4mnJnBP9HcVXP2qYQ==";
         };
+        _oZ8hWQwW = {
+            "id" = "oZ8hWQwW";
+            "file" = "visual_mobs_edit-2.1.0-forge-1.20.1.jar";
+            "hash" = "sha512-+bkbr8NaMCAAKj7LpY3OQ44I+TZ0OJl5iMKMXDv6UhIlZsZgzaQZCt942qBLl3tNV9GFdQhtTNkBmF63lWNR8g==";
+        };
     in {
         "lir4aqZ3" = _lir4aqZ3;
         "mCd17a4F" = _mCd17a4F;
         "IOdALIhG" = _IOdALIhG;
         "PhWdiIYN" = _PhWdiIYN;
         "TRpyrPIk" = _TRpyrPIk;
-        "forge-1.20.1" = _TRpyrPIk;
+        "oZ8hWQwW" = _oZ8hWQwW;
+        "forge-1.20.1" = _oZ8hWQwW;
         "fabric-1.21.1" = _mCd17a4F;
         "neoforge-1.21.1" = _IOdALIhG;
         "neoforge-1.21.11" = _PhWdiIYN;
@@ -41,7 +47,8 @@ let
         "pkg-1.1-1.1-neoforge-1.21.1" = _IOdALIhG;
         "pkg-1.0.0-neoforge-1.21.11" = _PhWdiIYN;
         "pkg-2.0.4-forge-1.20.1" = _TRpyrPIk;
-        "default" = _TRpyrPIk;
+        "pkg-2.1.0-forge-1.20.1" = _oZ8hWQwW;
+        "default" = _oZ8hWQwW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "visual-mobs-edit";

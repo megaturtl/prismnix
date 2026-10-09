@@ -606,6 +606,16 @@ let
             "file" = "ExpOre-26.2-0.1.jar";
             "hash" = "sha512-XvLdLe1/DARNoGqPdcsZvnbhRqC54LKC2WSi+XJVDtx66hm2DkB7osWRTyFB6cYeRercbY81WAAs8xhgY7unzQ==";
         };
+        _qxdstg9c = {
+            "id" = "qxdstg9c";
+            "file" = "ExpOre-26.3-0.1.jar";
+            "hash" = "sha512-qXUXlDtKrgcCSLjyqku2KWpvpXq7qcCFv2rfQ1XkysRh2dSIBTy/4jmp0Uqo3Km6CX75qvbd1YBxtByvjtLXxQ==";
+        };
+        _6a6tODHR = {
+            "id" = "6a6tODHR";
+            "file" = "expore-26.3-0.1.jar";
+            "hash" = "sha512-ez2UZeuObQ9Y7zue7hrAlIb+6m88PSOpQYGjBeHyvCj3az0auaKUnmt/TtOSioFhG0J6iG0WOsKm/h9uVIG1aQ==";
+        };
     in {
         "9CbuNd5h" = _9CbuNd5h;
         "VNSstKqS" = _VNSstKqS;
@@ -728,6 +738,8 @@ let
         "ad8ohjDy" = _ad8ohjDy;
         "opuHkzs5" = _opuHkzs5;
         "jnsX6f1D" = _jnsX6f1D;
+        "qxdstg9c" = _qxdstg9c;
+        "6a6tODHR" = _6a6tODHR;
         "forge-1.19" = _uo57LOdH;
         "forge-1.19.1" = _X1P5qbi1;
         "forge-1.19.2" = _7VFQQALX;
@@ -776,6 +788,7 @@ let
         "fabric-26.1.1" = _hrC5JzYX;
         "fabric-26.1.2" = _4EAbDlWR;
         "fabric-26.2" = _jnsX6f1D;
+        "fabric-26.3" = _qxdstg9c;
         "neoforge-1.21" = _X89fE95W;
         "neoforge-1.21.1" = _VfJvq9wc;
         "neoforge-1.21.3" = _LwVIrA8G;
@@ -791,6 +804,7 @@ let
         "neoforge-26.1.1" = _guNTc8nO;
         "neoforge-26.1" = _ad8ohjDy;
         "neoforge-26.2" = _opuHkzs5;
+        "neoforge-26.3" = _6a6tODHR;
         "pkg-1.19-0.1" = _YMOrUOyj;
         "pkg-1.19.1-0.1" = _Z6cxoZ61;
         "pkg-1.19.2-0.1" = _uPhOcYWh;
@@ -849,7 +863,8 @@ let
         "pkg-26.1.1-0.1" = _hrC5JzYX;
         "pkg-26.1-0.1" = _ad8ohjDy;
         "pkg-26.2-0.1" = _jnsX6f1D;
-        "default" = _jnsX6f1D;
+        "pkg-26.3-0.1" = _6a6tODHR;
+        "default" = _6a6tODHR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "exp-ore";

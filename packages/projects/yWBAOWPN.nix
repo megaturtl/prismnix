@@ -151,6 +151,16 @@ let
             "file" = "superiorstonecutter-v1.3.1.jar";
             "hash" = "sha512-FDDI9RDcQ1U5zoUnGSbXArUTy1DNCM+3r+eKE5Ts66dFwSgv2i4GcdPUTvW+P45ybtDX0MlpHEflmBLMikfQ/w==";
         };
+        _1EGoCAtA = {
+            "id" = "1EGoCAtA";
+            "file" = "superiorstonecutter-v1.4.zip";
+            "hash" = "sha512-zm3iZCL0kUs88Abs44UrZzOMx9XTGpZk5hEC+8Ynywx3+026NAkiT9tDd8mVK42VXdmFVH3hFyj3vqkJJTam6A==";
+        };
+        _dCnBcXLs = {
+            "id" = "dCnBcXLs";
+            "file" = "superior-stonecutter-v1.4.jar";
+            "hash" = "sha512-RgzLXfD24jpRe/vigkN8kF28UMFnayJd3JZ7IM1HxTQSAMMhyNvWf/Ggkv6p/0Oz6D3jz1mMzrMl9aqsjZUq/Q==";
+        };
     in {
         "nVB4WLOH" = _nVB4WLOH;
         "n6tVpkE9" = _n6tVpkE9;
@@ -182,6 +192,8 @@ let
         "l1dlTT2g" = _l1dlTT2g;
         "2tEzj9sa" = _2tEzj9sa;
         "uIhsYeCA" = _uIhsYeCA;
+        "1EGoCAtA" = _1EGoCAtA;
+        "dCnBcXLs" = _dCnBcXLs;
         "datapack-1.21" = _2tEzj9sa;
         "datapack-1.21.1" = _2tEzj9sa;
         "datapack-1.21.2" = _2tEzj9sa;
@@ -211,6 +223,7 @@ let
         "datapack-26.1.1" = _2tEzj9sa;
         "datapack-26.1.2" = _2tEzj9sa;
         "datapack-26.2" = _2tEzj9sa;
+        "datapack-26.3" = _1EGoCAtA;
         "fabric-1.21" = _uIhsYeCA;
         "fabric-1.21.1" = _uIhsYeCA;
         "fabric-1.21.2" = _uIhsYeCA;
@@ -240,6 +253,7 @@ let
         "fabric-26.1.1" = _uIhsYeCA;
         "fabric-26.1.2" = _uIhsYeCA;
         "fabric-26.2" = _uIhsYeCA;
+        "fabric-26.3" = _dCnBcXLs;
         "forge-1.21" = _uIhsYeCA;
         "forge-1.21.1" = _uIhsYeCA;
         "forge-1.21.2" = _uIhsYeCA;
@@ -269,6 +283,7 @@ let
         "forge-26.1.1" = _uIhsYeCA;
         "forge-26.1.2" = _uIhsYeCA;
         "forge-26.2" = _uIhsYeCA;
+        "forge-26.3" = _dCnBcXLs;
         "neoforge-1.21" = _uIhsYeCA;
         "neoforge-1.21.1" = _uIhsYeCA;
         "neoforge-1.21.2" = _uIhsYeCA;
@@ -298,6 +313,7 @@ let
         "neoforge-26.1.1" = _uIhsYeCA;
         "neoforge-26.1.2" = _uIhsYeCA;
         "neoforge-26.2" = _uIhsYeCA;
+        "neoforge-26.3" = _dCnBcXLs;
         "quilt-1.21" = _uIhsYeCA;
         "quilt-1.21.1" = _uIhsYeCA;
         "quilt-1.21.2" = _uIhsYeCA;
@@ -327,6 +343,7 @@ let
         "quilt-26.1.1" = _uIhsYeCA;
         "quilt-26.1.2" = _uIhsYeCA;
         "quilt-26.2" = _uIhsYeCA;
+        "quilt-26.3" = _dCnBcXLs;
         "pkg-1.0" = _nVB4WLOH;
         "pkg-1.0+mod" = _n6tVpkE9;
         "pkg-1.0.1" = _sZj48W9V;
@@ -357,7 +374,9 @@ let
         "pkg-v1.3+mod" = _l1dlTT2g;
         "pkg-v1.3.1" = _2tEzj9sa;
         "pkg-v1.3.1+mod" = _uIhsYeCA;
-        "default" = _uIhsYeCA;
+        "pkg-v1.4" = _1EGoCAtA;
+        "pkg-v1.4+mod" = _dCnBcXLs;
+        "default" = _dCnBcXLs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "superior-stonecutter";

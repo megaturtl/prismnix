@@ -61,6 +61,26 @@ let
             "file" = "fightsfrights-1.1.0-neoforge-1.21.1.jar";
             "hash" = "sha512-Dokh67zQgtZlT9XPsiC5k5OZRZlVvHH1B7gjG+rjvVn4KOPWKQxJa/uOXIoZNyoUc0bHZ4CxEFVIO5mZLFGZ1A==";
         };
+        _HLVKUkM4 = {
+            "id" = "HLVKUkM4";
+            "file" = "fightsfrights_with_HIVE-2.3.0-forge-1.20.1.jar";
+            "hash" = "sha512-jpx+76QLCvce7V2csz5bCGLY9jAVHA7hLkxaSaUsvtXgRzZLvZGbVKPJPaIKQshkvpa+kAPQsw1vBYj/LrQ2Xg==";
+        };
+        _ecR3Vq0z = {
+            "id" = "ecR3Vq0z";
+            "file" = "fightsfrights-1.2.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-96BVnw7FyfeiCRVPLteOkzeCNprXWcVHQQWDM/OG9/9GH8xUs7UGzQwwkuV7SATG1Go/LgpfRcyYK//+sDVz/w==";
+        };
+        _Nf0FLafB = {
+            "id" = "Nf0FLafB";
+            "file" = "fightsfrights_NO_HIVE-1.2.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-jgG/I0IHdJpwWtP2CploWd/6fvdTCnqth/qPECQEK7045OUGjGH1Q/aF4kV7LlSnO29y9wYUhhF/VQRyb96Agw==";
+        };
+        _czvmv9s1 = {
+            "id" = "czvmv9s1";
+            "file" = "fightsfrights_NO_HIVE-2.3.0-forge-1.20.1.jar";
+            "hash" = "sha512-rf6Y7+TLrJXl57KAK8v5ohcPvr55z89kZnhOp4qTaSr6g9AuvYubZYOViApKWwDYuRAzMC7OfjdNhBCvKCLFag==";
+        };
     in {
         "rKfjFAjf" = _rKfjFAjf;
         "IY2wkC21" = _IY2wkC21;
@@ -74,8 +94,12 @@ let
         "hSR24p6Q" = _hSR24p6Q;
         "25VAxuaO" = _25VAxuaO;
         "lAh1w5Nu" = _lAh1w5Nu;
-        "forge-1.20.1" = _25VAxuaO;
-        "neoforge-1.21.1" = _lAh1w5Nu;
+        "HLVKUkM4" = _HLVKUkM4;
+        "ecR3Vq0z" = _ecR3Vq0z;
+        "Nf0FLafB" = _Nf0FLafB;
+        "czvmv9s1" = _czvmv9s1;
+        "forge-1.20.1" = _czvmv9s1;
+        "neoforge-1.21.1" = _Nf0FLafB;
         "pkg-2.1.0" = _rKfjFAjf;
         "pkg-2.1.1" = _IY2wkC21;
         "pkg-1.0.0" = _TV0WqZVC;
@@ -88,7 +112,9 @@ let
         "pkg-2.1.6" = _hSR24p6Q;
         "pkg-2.2.0" = _25VAxuaO;
         "pkg-1.1.0" = _lAh1w5Nu;
-        "default" = _lAh1w5Nu;
+        "pkg-2.3.0" = _czvmv9s1;
+        "pkg-1.2.0" = _Nf0FLafB;
+        "default" = _czvmv9s1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fights-frights";

@@ -11,9 +11,21 @@ let
             "file" = "spiky-enchantment-v1.0.0.jar";
             "hash" = "sha512-gALLNCdkgefGaeuhGwavpvOovfs6iKlZ33iPhUyXw+/NDdzGQHXSxPpZ1VoUQFu4hIGLG88YZ6EFDCwmHusgyQ==";
         };
+        _Gt03X6bw = {
+            "id" = "Gt03X6bw";
+            "file" = "Spiky Enchantment v1.0.0 [26.3].zip";
+            "hash" = "sha512-uj3jl9c9e7GjDbXUZqvMybKAOFDmtBMRyBF723aR1jE0WM38jP9lMCQ3l3SYxTiqa6qE0CvmmIeREOkPaQYknA==";
+        };
+        _PUPA10yC = {
+            "id" = "PUPA10yC";
+            "file" = "spiky-enchantment-1.0.0.jar";
+            "hash" = "sha512-/+LHIDwvwYWTtoLE65i3CNvqwZR9NtScrh4BrzHzFDVZpWez4IBpZb5kFx+JjWDkeWesc+YgwJEYwauXbqxXkQ==";
+        };
     in {
         "8V83pApU" = _8V83pApU;
         "YULomgS2" = _YULomgS2;
+        "Gt03X6bw" = _Gt03X6bw;
+        "PUPA10yC" = _PUPA10yC;
         "datapack-1.21" = _8V83pApU;
         "datapack-1.21.1" = _8V83pApU;
         "datapack-1.21.2" = _8V83pApU;
@@ -30,6 +42,7 @@ let
         "datapack-26.1.1" = _8V83pApU;
         "datapack-26.1.2" = _8V83pApU;
         "datapack-26.2" = _8V83pApU;
+        "datapack-26.3" = _Gt03X6bw;
         "fabric-1.21" = _YULomgS2;
         "fabric-1.21.1" = _YULomgS2;
         "fabric-1.21.2" = _YULomgS2;
@@ -46,6 +59,7 @@ let
         "fabric-26.1.1" = _YULomgS2;
         "fabric-26.1.2" = _YULomgS2;
         "fabric-26.2" = _YULomgS2;
+        "fabric-26.3" = _PUPA10yC;
         "forge-1.21" = _YULomgS2;
         "forge-1.21.1" = _YULomgS2;
         "forge-1.21.2" = _YULomgS2;
@@ -62,6 +76,7 @@ let
         "forge-26.1.1" = _YULomgS2;
         "forge-26.1.2" = _YULomgS2;
         "forge-26.2" = _YULomgS2;
+        "forge-26.3" = _PUPA10yC;
         "neoforge-1.21" = _YULomgS2;
         "neoforge-1.21.1" = _YULomgS2;
         "neoforge-1.21.2" = _YULomgS2;
@@ -78,6 +93,7 @@ let
         "neoforge-26.1.1" = _YULomgS2;
         "neoforge-26.1.2" = _YULomgS2;
         "neoforge-26.2" = _YULomgS2;
+        "neoforge-26.3" = _PUPA10yC;
         "quilt-1.21" = _YULomgS2;
         "quilt-1.21.1" = _YULomgS2;
         "quilt-1.21.2" = _YULomgS2;
@@ -94,9 +110,12 @@ let
         "quilt-26.1.1" = _YULomgS2;
         "quilt-26.1.2" = _YULomgS2;
         "quilt-26.2" = _YULomgS2;
+        "quilt-26.3" = _PUPA10yC;
         "pkg-v1.0.0" = _8V83pApU;
         "pkg-v1.0.0+mod" = _YULomgS2;
-        "default" = _YULomgS2;
+        "pkg-1.0.0" = _Gt03X6bw;
+        "pkg-1.0.0+mod" = _PUPA10yC;
+        "default" = _PUPA10yC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spiky-enchantment";

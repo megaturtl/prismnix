@@ -116,6 +116,11 @@ let
             "file" = "createbetterfps-1.21.1-1.1.4.jar";
             "hash" = "sha512-d3z0xTPrpyO66h7x//zS1HyPT4I43cNglztBrklG9+czokVCo2kcShvi9B5VsHZ1+cz6YzvhhuctEZEcpn+kEg==";
         };
+        _dxmPYimo = {
+            "id" = "dxmPYimo";
+            "file" = "createbetterfps-1.21.1-1.1.5.jar";
+            "hash" = "sha512-2Y3ux57vuODI3dp974pG9MZkAqIT2lJC+P8Cn0O4ROaJFPoxrzyK7WRtEx7pv6w6YwMt85mx92zJm1wxLzLfJA==";
+        };
     in {
         "68rCE70q" = _68rCE70q;
         "OAuxpuTl" = _OAuxpuTl;
@@ -140,7 +145,8 @@ let
         "75GMC9GD" = _75GMC9GD;
         "X0Qa2Pkj" = _X0Qa2Pkj;
         "QWqEdWHy" = _QWqEdWHy;
-        "neoforge-1.21.1" = _QWqEdWHy;
+        "dxmPYimo" = _dxmPYimo;
+        "neoforge-1.21.1" = _dxmPYimo;
         "forge-1.20.1" = _75GMC9GD;
         "fabric-1.20.1" = _X0Qa2Pkj;
         "pkg-1.0.0" = _UaYq5a7I;
@@ -151,7 +157,8 @@ let
         "pkg-1.1.2" = _X0Qa2Pkj;
         "pkg-1.1.3" = _fXfWOQ16;
         "pkg-1.1.4" = _QWqEdWHy;
-        "default" = _QWqEdWHy;
+        "pkg-1.1.5" = _dxmPYimo;
+        "default" = _dxmPYimo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "createbetterfps";

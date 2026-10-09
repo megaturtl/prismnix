@@ -86,6 +86,16 @@ let
             "file" = "stks-tool-trims-1.1.0+1.21.4.jar";
             "hash" = "sha512-EM7GRldzHBlf72bp1OQpENCyl1BLDWSXK0QihUhjHo0ji2cYmFd3GBG5/SEpnZQsiH9HJuLpgRMhoG6CAYWJMQ==";
         };
+        _X2I3STQ1 = {
+            "id" = "X2I3STQ1";
+            "file" = "STK-ToolTrim-data.zip";
+            "hash" = "sha512-fXvZ3XMDSxtnc9c4+4uxMMy3TyxIQ1pOFKplAeS18ynjtBVTZsLPLZKUXvK3o/xoMMAWMyI8d0FZtEpYhuRhTw==";
+        };
+        _qHiHkQTb = {
+            "id" = "qHiHkQTb";
+            "file" = "stks-tool-trims-1.2.0+26.3.jar";
+            "hash" = "sha512-t2DJGhRpRFm+urT2f7sgwrE1xihB0Q5lEy4Zjm84/k7yPxCrrIDLsSM+2WlEMDM+gTkEm0wGlbcOUTWzeDuA4g==";
+        };
     in {
         "AkiC6PSu" = _AkiC6PSu;
         "8aeECTLi" = _8aeECTLi;
@@ -104,6 +114,8 @@ let
         "zSid6Yns" = _zSid6Yns;
         "9ts8L91n" = _9ts8L91n;
         "UKu38ka8" = _UKu38ka8;
+        "X2I3STQ1" = _X2I3STQ1;
+        "qHiHkQTb" = _qHiHkQTb;
         "datapack-1.21.4" = _4FAqf4BK;
         "datapack-1.21" = _RvVWbbnJ;
         "datapack-1.21.1" = _RvVWbbnJ;
@@ -120,6 +132,7 @@ let
         "datapack-26.1.1" = _whlA0Aj3;
         "datapack-26.1.2" = _whlA0Aj3;
         "datapack-26.2" = _whlA0Aj3;
+        "datapack-26.3" = _X2I3STQ1;
         "fabric-1.21.9" = _THzzdOlH;
         "fabric-1.21.10" = _THzzdOlH;
         "fabric-1.21.11" = _THzzdOlH;
@@ -136,6 +149,7 @@ let
         "fabric-1.21.6" = _zSid6Yns;
         "fabric-1.21.7" = _zSid6Yns;
         "fabric-1.21.8" = _zSid6Yns;
+        "fabric-26.3" = _qHiHkQTb;
         "forge-1.21.9" = _THzzdOlH;
         "forge-1.21.10" = _THzzdOlH;
         "forge-1.21.11" = _THzzdOlH;
@@ -150,6 +164,7 @@ let
         "forge-1.21.2" = _9ts8L91n;
         "forge-1.21.3" = _9ts8L91n;
         "forge-1.21.4" = _UKu38ka8;
+        "forge-26.3" = _qHiHkQTb;
         "neoforge-1.21.9" = _THzzdOlH;
         "neoforge-1.21.10" = _THzzdOlH;
         "neoforge-1.21.11" = _THzzdOlH;
@@ -164,6 +179,7 @@ let
         "neoforge-1.21.2" = _9ts8L91n;
         "neoforge-1.21.3" = _9ts8L91n;
         "neoforge-1.21.4" = _UKu38ka8;
+        "neoforge-26.3" = _qHiHkQTb;
         "quilt-1.21.9" = _THzzdOlH;
         "quilt-1.21.10" = _THzzdOlH;
         "quilt-1.21.11" = _THzzdOlH;
@@ -180,6 +196,7 @@ let
         "quilt-1.21.6" = _zSid6Yns;
         "quilt-1.21.7" = _zSid6Yns;
         "quilt-1.21.8" = _zSid6Yns;
+        "quilt-26.3" = _qHiHkQTb;
         "pkg-1.0.0+1.21.4" = _AkiC6PSu;
         "pkg-1.0.1+1.21.1" = _8aeECTLi;
         "pkg-1.0.1+1.21.3" = _yWb3dP1x;
@@ -197,7 +214,9 @@ let
         "pkg-1.1.2+1.21.5+mod" = _zSid6Yns;
         "pkg-1.1.0+1.21.3+mod" = _9ts8L91n;
         "pkg-1.1.0+1.21.4+mod" = _UKu38ka8;
-        "default" = _UKu38ka8;
+        "pkg-1.2.0+26.3" = _X2I3STQ1;
+        "pkg-1.2.0+26.3+mod" = _qHiHkQTb;
+        "default" = _qHiHkQTb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stks-tool-trims";

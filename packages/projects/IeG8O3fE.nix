@@ -41,6 +41,31 @@ let
             "file" = "crisis_pack-1.1.4.jar";
             "hash" = "sha512-Tgj/YOZGkxghKUx87Kw8Pg86IktWTbDSMeJyUYQNu9W69jvcfXrBJpqXDSjYEwuf3X0ddF/CjsAlYEUA13ZX5Q==";
         };
+        _XUdNAZx4 = {
+            "id" = "XUdNAZx4";
+            "file" = "crisis_pack-1.2.0.jar";
+            "hash" = "sha512-XIrj1WuPe7aIAkVe27LFhTQhFw/8IniCFEkmAFn5nQajuEVUvz4H0yoatGE/KYGwrfLuQQ3bbbU02Eeh4eRmZw==";
+        };
+        _xSMasKE7 = {
+            "id" = "xSMasKE7";
+            "file" = "crisis_pack-1.2.1.jar";
+            "hash" = "sha512-K/z/1HsRelhq3J0ctssm5Q8qyDAsQOcej0OS5O7URqZnV0A2qwxZ7kTpOU9OtWqnXgR10LixC27AEfzP6mUMhg==";
+        };
+        _DPQ0xLn2 = {
+            "id" = "DPQ0xLn2";
+            "file" = "crisis_pack-1.2.2.jar";
+            "hash" = "sha512-WDI0CFl9TCBwzvz2idQPOIODIqR93iHQDVpRp9bIrPT8I/7EEmqbLczV2SA5BYTOVXS6zwgxWyxwCeB6JFaylw==";
+        };
+        _g7K69PGc = {
+            "id" = "g7K69PGc";
+            "file" = "crisis_pack-1.2.3.jar";
+            "hash" = "sha512-kswO5rOodWQRirFVAOdZs+48hTT+XX3hjtW0FcpnrIXrNowCQAOrrFJjOFnpCa7Y1vCkyWX0HzVDM7sHZWiO3Q==";
+        };
+        _pqG3ImD6 = {
+            "id" = "pqG3ImD6";
+            "file" = "crisis_pack-1.2.4.jar";
+            "hash" = "sha512-iWK+hli+twptQBdyRN7mLhdLbTpVaSQdbQb2iDdmZVHhA5egM/HdCs6c0DX1PO7PhxTDgtUNYPOMaUEVeIUzWw==";
+        };
     in {
         "NhoiWe5A" = _NhoiWe5A;
         "jUg6xzzk" = _jUg6xzzk;
@@ -50,7 +75,12 @@ let
         "WIXH1TwW" = _WIXH1TwW;
         "BIIh4zxy" = _BIIh4zxy;
         "Kh6Yf4yy" = _Kh6Yf4yy;
-        "forge-1.20.1" = _Kh6Yf4yy;
+        "XUdNAZx4" = _XUdNAZx4;
+        "xSMasKE7" = _xSMasKE7;
+        "DPQ0xLn2" = _DPQ0xLn2;
+        "g7K69PGc" = _g7K69PGc;
+        "pqG3ImD6" = _pqG3ImD6;
+        "forge-1.20.1" = _pqG3ImD6;
         "pkg-1.0.0" = _NhoiWe5A;
         "pkg-1.0.1" = _jUg6xzzk;
         "pkg-1.0.2" = _nO2UN0Kl;
@@ -59,7 +89,12 @@ let
         "pkg-1.1.2" = _WIXH1TwW;
         "pkg-1.1.3" = _BIIh4zxy;
         "pkg-1.1.4" = _Kh6Yf4yy;
-        "default" = _Kh6Yf4yy;
+        "pkg-1.2.0" = _XUdNAZx4;
+        "pkg-1.2.1" = _xSMasKE7;
+        "pkg-1.2.2" = _DPQ0xLn2;
+        "pkg-1.2.3" = _g7K69PGc;
+        "pkg-1.2.4" = _pqG3ImD6;
+        "default" = _pqG3ImD6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "secret-crisis";

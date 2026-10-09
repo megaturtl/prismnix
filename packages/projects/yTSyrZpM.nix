@@ -161,6 +161,16 @@ let
             "file" = "potion-cauldron-fabric-1.0.2+mc26.2.jar";
             "hash" = "sha512-hg7og8/3R1/gS8MCvLlOZXXBzwUVpFs30d7IPoMnznoTuFwfouXJMyXG5ISJTGiCyD6DOiX9HFqexBocsIdwug==";
         };
+        _VBkJqw7u = {
+            "id" = "VBkJqw7u";
+            "file" = "potion-cauldron-forge-1.0.2+mc26.3.jar";
+            "hash" = "sha512-gkYiIqZ2TrHWLw6HVIOezdwVQegsrZ5sf6bfuI+4XCCH/BLvhUdnKkme8kswuzGKHPL7DXrB2Jeofk9fIYQz6g==";
+        };
+        _B9LLdGFV = {
+            "id" = "B9LLdGFV";
+            "file" = "potion-cauldron-fabric-1.0.2+mc26.3.jar";
+            "hash" = "sha512-r6XKiNnJHpeGCfUWTBA7w29IAHLeqJGMjj8J8LgX0I4EEIHogRDUFIZmeU5/MgGOs76hvq0NtMfoooYMbGz4Vg==";
+        };
     in {
         "f5Zwu8NV" = _f5Zwu8NV;
         "1LVLtv73" = _1LVLtv73;
@@ -194,6 +204,8 @@ let
         "gBvr2OOz" = _gBvr2OOz;
         "d34wf1Sk" = _d34wf1Sk;
         "XV3vWAmJ" = _XV3vWAmJ;
+        "VBkJqw7u" = _VBkJqw7u;
+        "B9LLdGFV" = _B9LLdGFV;
         "fabric-1.20" = _1jZByX3i;
         "fabric-1.20.1" = _1jZByX3i;
         "fabric-1.20.2" = _DE0Qm02g;
@@ -208,6 +220,7 @@ let
         "fabric-1.21.11" = _eWTcbKxb;
         "fabric-26.1.2" = _gBvr2OOz;
         "fabric-26.2" = _XV3vWAmJ;
+        "fabric-26.3" = _B9LLdGFV;
         "quilt-1.20" = _1jZByX3i;
         "quilt-1.20.1" = _1jZByX3i;
         "quilt-1.20.2" = _DE0Qm02g;
@@ -222,6 +235,7 @@ let
         "quilt-1.21.11" = _eWTcbKxb;
         "quilt-26.1.2" = _gBvr2OOz;
         "quilt-26.2" = _XV3vWAmJ;
+        "quilt-26.3" = _B9LLdGFV;
         "forge-1.20" = _bIagB5v4;
         "forge-1.20.1" = _bIagB5v4;
         "forge-1.20.2" = _uwBEOVNF;
@@ -235,6 +249,7 @@ let
         "forge-1.21.11" = _Ba33JSII;
         "forge-26.1.2" = _uTv6U4FJ;
         "forge-26.2" = _d34wf1Sk;
+        "forge-26.3" = _VBkJqw7u;
         "pkg-1.0.0-alpha.1+mc1.20" = _f5Zwu8NV;
         "pkg-1.0.0-beta.1+mc1.20" = _1LVLtv73;
         "pkg-1.0.0-beta.2+mc1.20" = _dCvhxl6x;
@@ -253,7 +268,8 @@ let
         "pkg-1.0.2+mc1.21.11" = _eWTcbKxb;
         "pkg-1.0.2+mc26.1.2" = _gBvr2OOz;
         "pkg-1.0.2+mc26.2" = _XV3vWAmJ;
-        "default" = _XV3vWAmJ;
+        "pkg-1.0.2+mc26.3" = _B9LLdGFV;
+        "default" = _B9LLdGFV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "potion-cauldron";

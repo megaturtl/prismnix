@@ -141,6 +141,21 @@ let
             "file" = "SimpleLogin-1.16.7.jar";
             "hash" = "sha512-2AwSPidOi7IIyAMZuMRVZv80FpHDQpyVCsHAYf5AMhGXvJN79n12g+gIMI3Df2oCPn4hB5+w8YXBVtVBgBsHmg==";
         };
+        _k7Q09v7a = {
+            "id" = "k7Q09v7a";
+            "file" = "SimpleLogin-Fabric-1.17.1-1.16.7.jar";
+            "hash" = "sha512-2HZ2r+IuzMk4JnIFq7MRwyxU6P9v9fBdPlSIUmmesKZhUcqtt6HqxhqyEU86tjUMjBcrVTkqEECSamuAM0ooUg==";
+        };
+        _nbQc3MKE = {
+            "id" = "nbQc3MKE";
+            "file" = "SimpleLogin-Fabric-1.18.2-1.16.7.jar";
+            "hash" = "sha512-oYB2OibIT0r1h6cyt7cWJIKs4iZnWd8ZhICka4pfobF1Q7WFjaeL5CDaG0GU2OwWrKBAYO3xupXAAwtzWyfs2Q==";
+        };
+        _t55CjeAg = {
+            "id" = "t55CjeAg";
+            "file" = "SimpleLogin-Fabric-1.19.2-1.16.7.jar";
+            "hash" = "sha512-4dwltSE0Q4LPlJ8tLT+zU3wZgZan/zH1pmcofu3XVQRwisV2Sz3g3vs93de7ZmRJhFl9BP12TPGYYTqEOHKMcw==";
+        };
     in {
         "s7M3epXk" = _s7M3epXk;
         "c6kTLbHk" = _c6kTLbHk;
@@ -170,6 +185,9 @@ let
         "3aJBBN8r" = _3aJBBN8r;
         "DoOZcGGi" = _DoOZcGGi;
         "x1GGLvHJ" = _x1GGLvHJ;
+        "k7Q09v7a" = _k7Q09v7a;
+        "nbQc3MKE" = _nbQc3MKE;
+        "t55CjeAg" = _t55CjeAg;
         "bukkit-1.17" = _DUS5DLxv;
         "bukkit-1.17.1" = _DUS5DLxv;
         "bukkit-1.18" = _DUS5DLxv;
@@ -304,6 +322,9 @@ let
         "spigot-26.2" = _DoOZcGGi;
         "fabric-1.21.8" = _QxHWAr06;
         "fabric-1.21.11" = _kKlXDvGX;
+        "fabric-1.17.1" = _k7Q09v7a;
+        "fabric-1.18.2" = _nbQc3MKE;
+        "fabric-1.19.2" = _t55CjeAg;
         "folia-1.19" = _x1GGLvHJ;
         "folia-1.19.1" = _x1GGLvHJ;
         "folia-1.19.2" = _x1GGLvHJ;
@@ -348,8 +369,8 @@ let
         "pkg-1.16.4" = _j5YLH5fz;
         "pkg-1.16.5" = _Q1bEKURZ;
         "pkg-1.16.6" = _5fcBY2K0;
-        "pkg-1.16.7" = _x1GGLvHJ;
-        "default" = _x1GGLvHJ;
+        "pkg-1.16.7" = _t55CjeAg;
+        "default" = _t55CjeAg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-login";

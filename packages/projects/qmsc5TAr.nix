@@ -31,6 +31,11 @@ let
             "file" = "fps-sync-1.0.0+26.2.jar";
             "hash" = "sha512-19gHyiEvLkEdO7bjvIJtZVOrZe34R4A52QEmr7gg66MJChOqi/PMyvPt7u2jvun1wX/GwWzosT6w/D5aceTwIg==";
         };
+        _vJSj5RPB = {
+            "id" = "vJSj5RPB";
+            "file" = "fps-sync-1.0.0+26.3.jar";
+            "hash" = "sha512-Fbda3gAQM1279f/GeG46j2BLDaFYhX/PpIM7aEl1kmMymMOyC2frKwe2tbc3+6lmdPcML9j/Fyn7vihMc8fHhg==";
+        };
     in {
         "vhWiLqeJ" = _vhWiLqeJ;
         "p2RD3iR7" = _p2RD3iR7;
@@ -38,6 +43,7 @@ let
         "HiOGHCQI" = _HiOGHCQI;
         "bF2nP0mX" = _bF2nP0mX;
         "KMkZzSv1" = _KMkZzSv1;
+        "vJSj5RPB" = _vJSj5RPB;
         "fabric-1.21.11" = _vhWiLqeJ;
         "fabric-26.1" = _p2RD3iR7;
         "fabric-26.1.1" = _p2RD3iR7;
@@ -60,8 +66,9 @@ let
         "fabric-1.20.5" = _bF2nP0mX;
         "fabric-1.20.6" = _bF2nP0mX;
         "fabric-26.2" = _KMkZzSv1;
-        "pkg-1.0.0" = _KMkZzSv1;
-        "default" = _KMkZzSv1;
+        "fabric-26.3" = _vJSj5RPB;
+        "pkg-1.0.0" = _vJSj5RPB;
+        "default" = _vJSj5RPB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fps-sync";

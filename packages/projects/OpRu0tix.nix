@@ -31,6 +31,11 @@ let
             "file" = "Fresh Food VR 1.3.2.zip";
             "hash" = "sha512-U4WpxqYMQn4P+UdsVktX4+KiTSY+SitUJ78O3VLLDHjd6HhVnyCpp0SMwho5zE7u5SILRp1cHtBSFEB3eQvhqA==";
         };
+        _Vbc6m5RE = {
+            "id" = "Vbc6m5RE";
+            "file" = "Fresh Food VR 1.3.5.zip";
+            "hash" = "sha512-JNcS0gki+enhzKuiSh8jfMZcvcLAZp7QaWMSsAd+YDcCVHP+gyiCV1ffQo3pD4dKvpdjQtWMVkRdc6uDjoHq7A==";
+        };
     in {
         "MCQR19Mr" = _MCQR19Mr;
         "DVKAiFlT" = _DVKAiFlT;
@@ -38,24 +43,31 @@ let
         "som8n4QM" = _som8n4QM;
         "3OoUUDt6" = _3OoUUDt6;
         "lYTTk35P" = _lYTTk35P;
+        "Vbc6m5RE" = _Vbc6m5RE;
         "minecraft-1.20.1" = _lYTTk35P;
         "minecraft-1.21" = _lYTTk35P;
         "minecraft-1.21.1" = _lYTTk35P;
         "minecraft-1.21.2" = _DVKAiFlT;
         "minecraft-1.21.3" = _DVKAiFlT;
         "minecraft-1.21.4" = _lYTTk35P;
-        "minecraft-1.21.5" = _lYTTk35P;
-        "minecraft-1.21.6" = _lYTTk35P;
-        "minecraft-1.21.7" = _lYTTk35P;
-        "minecraft-1.21.8" = _lYTTk35P;
-        "minecraft-1.21.9" = _lYTTk35P;
-        "minecraft-1.21.10" = _lYTTk35P;
-        "minecraft-1.21.11" = _lYTTk35P;
+        "minecraft-1.21.5" = _Vbc6m5RE;
+        "minecraft-1.21.6" = _Vbc6m5RE;
+        "minecraft-1.21.7" = _Vbc6m5RE;
+        "minecraft-1.21.8" = _Vbc6m5RE;
+        "minecraft-1.21.9" = _Vbc6m5RE;
+        "minecraft-1.21.10" = _Vbc6m5RE;
+        "minecraft-1.21.11" = _Vbc6m5RE;
+        "minecraft-26.1" = _Vbc6m5RE;
+        "minecraft-26.1.1" = _Vbc6m5RE;
+        "minecraft-26.1.2" = _Vbc6m5RE;
+        "minecraft-26.2" = _Vbc6m5RE;
+        "minecraft-26.3" = _Vbc6m5RE;
         "pkg-1.1" = _DVKAiFlT;
         "pkg-1.2" = _som8n4QM;
         "pkg-1.2.6" = _3OoUUDt6;
         "pkg-1.3.2" = _lYTTk35P;
-        "default" = _lYTTk35P;
+        "pkg-1.3.5" = _Vbc6m5RE;
+        "default" = _Vbc6m5RE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fresh-food-vr";

@@ -271,6 +271,21 @@ let
             "file" = "Stackable-forge-26.2-2.1.1.jar";
             "hash" = "sha512-Vri0SfMVnZPMgyUBhxzXyyLEI2wmzBcVN8iFvXJmxs3d1NPDy+dVs16HLB67Zyha24WiU026ycT6XbbX5LAuoQ==";
         };
+        _9oHyLSTb = {
+            "id" = "9oHyLSTb";
+            "file" = "stackable-fabric-26.3-2.1.1.jar";
+            "hash" = "sha512-2uROXEHo9QNC2gaKj/kTdhASrQu/r5mUqMnc0V9v7r7vmuEKbYJ0+U6zLlZ3dlbVRvw9XZ0uhtT5/kM8oRTx4A==";
+        };
+        _JSveEYOC = {
+            "id" = "JSveEYOC";
+            "file" = "stackable-neoforge-26.3-2.1.1.jar";
+            "hash" = "sha512-s3iSb4ucl+pbaKiV3xPcw1fDH7ouZD1hb2ZSDQkIcDtYLTllAToyIhNPQ2Hq07RH/BvA0sYHrzoPIsJC5jyeBQ==";
+        };
+        _nQP3VZiX = {
+            "id" = "nQP3VZiX";
+            "file" = "Stackable-forge-26.3-2.1.1.jar";
+            "hash" = "sha512-TL27KPGjviCRRybp7p4vjJ9bM5cJyFkjiuImNqo+/uRc5MzfC5oFYEcW6ZIWXlEOPDPk5vdUQhJJi+GlVvAyNQ==";
+        };
     in {
         "TVsYIQp5" = _TVsYIQp5;
         "y7ZXoPKb" = _y7ZXoPKb;
@@ -326,6 +341,9 @@ let
         "ep4wVvFM" = _ep4wVvFM;
         "VprtQmu3" = _VprtQmu3;
         "kOauOwVQ" = _kOauOwVQ;
+        "9oHyLSTb" = _9oHyLSTb;
+        "JSveEYOC" = _JSveEYOC;
+        "nQP3VZiX" = _nQP3VZiX;
         "fabric-1.19" = _TVsYIQp5;
         "fabric-1.19.1" = _TVsYIQp5;
         "fabric-1.19.2" = _TVsYIQp5;
@@ -354,6 +372,7 @@ let
         "fabric-26.1" = _MlnkALNP;
         "fabric-26.1.2" = _fqtiHCRc;
         "fabric-26.2" = _ep4wVvFM;
+        "fabric-26.3" = _9oHyLSTb;
         "forge-1.20" = _gWVZQYwr;
         "forge-1.20.1" = _gWVZQYwr;
         "forge-1.21" = _BGZGR5Zg;
@@ -364,6 +383,7 @@ let
         "forge-1.21.1" = _joxNkf6z;
         "forge-26.1.2" = _Kscqj7Z6;
         "forge-26.2" = _kOauOwVQ;
+        "forge-26.3" = _nQP3VZiX;
         "neoforge-1.21" = _WzID53Aa;
         "neoforge-1.21.1" = _TBKpK48U;
         "neoforge-1.21.8" = _CzfanJpD;
@@ -373,6 +393,7 @@ let
         "neoforge-26.1" = _xEDrzbtT;
         "neoforge-26.1.2" = _HG46s0Fz;
         "neoforge-26.2" = _VprtQmu3;
+        "neoforge-26.3" = _JSveEYOC;
         "pkg-1.0.0" = _y7ZXoPKb;
         "pkg-1.1.0" = _gWVZQYwr;
         "pkg-1.1.1" = _6qgK9ln2;
@@ -391,8 +412,8 @@ let
         "pkg-2.0.4" = _mW0VHyH8;
         "pkg-2.0.5" = _k1zaC28b;
         "pkg-2.1.0" = _xEDrzbtT;
-        "pkg-2.1.1" = _kOauOwVQ;
-        "default" = _kOauOwVQ;
+        "pkg-2.1.1" = _nQP3VZiX;
+        "default" = _nQP3VZiX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stackable127";

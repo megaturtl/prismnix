@@ -121,6 +121,36 @@ let
             "file" = "Carpet-PvP-17.jar";
             "hash" = "sha512-6kAD5/0Cg7HlXJUaqR6bZc3lGVPheYakHxL5T0lRSa3bn8vb2GZ8Q6L1yA/i9owibfiGYW5+Aa4hy6yqXH5I8A==";
         };
+        _GUfN1M9k = {
+            "id" = "GUfN1M9k";
+            "file" = "carpet-pvp-26.3-18.jar";
+            "hash" = "sha512-LIdCnWsNkwrG1yLvB2pHh4CYUDW0YDfSlTKPOo8N/pHcdMXEc7CBj/Dtveg0EgzJgb/G49/zSwaSGuQ9lCINYA==";
+        };
+        _Mtx2IFum = {
+            "id" = "Mtx2IFum";
+            "file" = "carpet-pvp-26.2-18.jar";
+            "hash" = "sha512-Su3nBERfaXnxbllpx2RDxFUCmm/CEbSNPVl7NmagGpQ037J1fv1RbKmSbbeprqs5nk+IZZh+0qqQMnatrdmPnA==";
+        };
+        _k0VAiYQp = {
+            "id" = "k0VAiYQp";
+            "file" = "carpet-pvp-1.21.11-18.jar";
+            "hash" = "sha512-UC7vYq8QI0gLJfoZdxBcbFu4K6BDnq/lHIW8DMwQWo3j9cphDg2TtpvqWslCTU6q2traooaoQPfuBDsjyM1qEg==";
+        };
+        _nSZK9YM6 = {
+            "id" = "nSZK9YM6";
+            "file" = "carpet-pvp-26.3-19.jar";
+            "hash" = "sha512-5BE/TJLtU12jS6q6/gShPJnCZ3/C+trfv6grppj6e0ELxyMC3QShjseZu/IQQWFD8/ee9iDOf6crS0goUgS9ag==";
+        };
+        _p0JvovqZ = {
+            "id" = "p0JvovqZ";
+            "file" = "carpet-pvp-26.2-19.jar";
+            "hash" = "sha512-W+sIQMe6jqQ/07tw2lHlXnOoV6khpUfnZbRtJYJ5bRhBPZYJIlpdMn099WyuPrsF3FzTen64HtTlz6TLfR49pw==";
+        };
+        _QQpRlsxL = {
+            "id" = "QQpRlsxL";
+            "file" = "carpet-pvp-1.21.11-19.jar";
+            "hash" = "sha512-R95HSt8SXV+GeUiFY8B87tvPoIPRTtLtHcajbAeeVRat5Ae3tlMPlZdvkbOTNUwjAQtkFnoPoULMDCpOLVLWCA==";
+        };
     in {
         "B3TIokOH" = _B3TIokOH;
         "XvsbpjT9" = _XvsbpjT9;
@@ -146,11 +176,19 @@ let
         "u4yiBYMc" = _u4yiBYMc;
         "13yroOqZ" = _13yroOqZ;
         "7IdWvXNV" = _7IdWvXNV;
+        "GUfN1M9k" = _GUfN1M9k;
+        "Mtx2IFum" = _Mtx2IFum;
+        "k0VAiYQp" = _k0VAiYQp;
+        "nSZK9YM6" = _nSZK9YM6;
+        "p0JvovqZ" = _p0JvovqZ;
+        "QQpRlsxL" = _QQpRlsxL;
         "fabric-1.21.10" = _nlzs3UGB;
-        "fabric-1.21.11" = _u4yiBYMc;
+        "fabric-1.21.11" = _QQpRlsxL;
         "fabric-1.21.8" = _xbjPlUoi;
         "fabric-1.21.5" = _BGlli0sD;
         "fabric-26.1.2" = _7IdWvXNV;
+        "fabric-26.3" = _nSZK9YM6;
+        "fabric-26.2" = _p0JvovqZ;
         "pkg-13.3" = _B3TIokOH;
         "pkg-13.4" = _XvsbpjT9;
         "pkg-13.5" = _ZomuKZl5;
@@ -175,7 +213,13 @@ let
         "pkg-1.21.11-15.7+v260325" = _u4yiBYMc;
         "pkg-26.1.2-17+v260508" = _13yroOqZ;
         "pkg-26.1.2-17+v260602" = _7IdWvXNV;
-        "default" = _7IdWvXNV;
+        "pkg-26.3-18+v261004" = _GUfN1M9k;
+        "pkg-26.2-18+v261004" = _Mtx2IFum;
+        "pkg-1.21.11-18+v261004" = _k0VAiYQp;
+        "pkg-26.3-19+v261005" = _nSZK9YM6;
+        "pkg-26.2-19+v261005" = _p0JvovqZ;
+        "pkg-1.21.11-19+v261005" = _QQpRlsxL;
+        "default" = _QQpRlsxL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "carpet-pvp-practice";

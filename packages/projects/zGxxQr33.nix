@@ -1801,6 +1801,11 @@ let
             "file" = "cyan-2.1.0-beta.2+26.1.x.jar";
             "hash" = "sha512-cA82Ew88eJiZS96sITLfmG73VeVe1PmSQmOTqetQ7poeSnqE9hV/Qz8IK4OJEyESNowqz78j7c3vO3nOM0gygQ==";
         };
+        _82iJZtw3 = {
+            "id" = "82iJZtw3";
+            "file" = "cyan-2.1.0-beta.2+26.3.x.jar";
+            "hash" = "sha512-utsb2RFaOl9BQ5S6uCMey9pslcjE0gv+WPmp3OUTGN/cn9PjSBRFvi6Zu8K2tnse9dzaAd8J2zFG363u8lqKGg==";
+        };
     in {
         "7Svod5qv" = _7Svod5qv;
         "5fiup4KN" = _5fiup4KN;
@@ -2162,6 +2167,7 @@ let
         "LORaHJyc" = _LORaHJyc;
         "dtXcrELA" = _dtXcrELA;
         "WiDYS8Tl" = _WiDYS8Tl;
+        "82iJZtw3" = _82iJZtw3;
         "fabric-1.17" = _cX835Y3z;
         "fabric-1.17.1" = _cX835Y3z;
         "fabric-1.18" = _ePwGxYJl;
@@ -2195,6 +2201,7 @@ let
         "fabric-26.1.1" = _WiDYS8Tl;
         "fabric-26.1.2" = _WiDYS8Tl;
         "fabric-26.2" = _dtXcrELA;
+        "fabric-26.3" = _82iJZtw3;
         "pkg-0.9.0+1.17.1" = _7Svod5qv;
         "pkg-0.9.0+1.18.2" = _5fiup4KN;
         "pkg-0.9.0+1.19.2" = _WzagHuSt;
@@ -2554,7 +2561,8 @@ let
         "pkg-2.1.0-beta.2+1.20-1.20.1" = _LORaHJyc;
         "pkg-2.1.0-beta.2+26.2.x" = _dtXcrELA;
         "pkg-2.1.0-beta.2+26.1.x" = _WiDYS8Tl;
-        "default" = _WiDYS8Tl;
+        "pkg-2.1.0-beta.2+26.3.x" = _82iJZtw3;
+        "default" = _82iJZtw3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cyan";

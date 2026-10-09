@@ -36,6 +36,16 @@ let
             "file" = "Enchantment Outlines x Bare Bones 3D Tools (v 1.4).zip";
             "hash" = "sha512-UXOs+abEGHIL77GtiQwR8HL8wY9APwOmuI2rU7WwsCQxnu3e7BKAHAXcEHxz75VKiRtLyhjnMx7PKoVCxyCxQg==";
         };
+        _WQ4UX4z8 = {
+            "id" = "WQ4UX4z8";
+            "file" = "Bare Bones 3D Tools (v 1.4.1).zip";
+            "hash" = "sha512-7aRAqA9jHJi3QGGz9L4OWRACSOXgsYi1zAgyrtNkHa4j8OrXjdImPHGKCVICXUyXqjucdJYzPXowVg0hB64e3A==";
+        };
+        _mM9jDMjo = {
+            "id" = "mM9jDMjo";
+            "file" = "Enchantment Outlines x Bare Bones 3D Tools (v 1.4.2).zip";
+            "hash" = "sha512-ECJSlmPX5FZkKiqCNMgI+53LLa1y5Cak39y20ccuB31iRA/KyVySVPxABe3MRY68H1UZbvUzmZdbeTD4FMkeag==";
+        };
     in {
         "9WZJaOwt" = _9WZJaOwt;
         "idTFmjIl" = _idTFmjIl;
@@ -44,17 +54,20 @@ let
         "nMxc3NCa" = _nMxc3NCa;
         "EvheONVy" = _EvheONVy;
         "Hx8Iedor" = _Hx8Iedor;
-        "minecraft-1.21.6" = _Hx8Iedor;
-        "minecraft-1.21.7" = _Hx8Iedor;
-        "minecraft-1.21.8" = _Hx8Iedor;
-        "minecraft-1.21.9" = _Hx8Iedor;
-        "minecraft-1.21.10" = _Hx8Iedor;
-        "minecraft-1.21.11" = _Hx8Iedor;
-        "minecraft-26.1" = _Hx8Iedor;
-        "minecraft-26.1.1" = _Hx8Iedor;
-        "minecraft-26.1.2" = _Hx8Iedor;
-        "minecraft-26.2" = _Hx8Iedor;
-        "minecraft-1.21.5" = _Hx8Iedor;
+        "WQ4UX4z8" = _WQ4UX4z8;
+        "mM9jDMjo" = _mM9jDMjo;
+        "minecraft-1.21.6" = _mM9jDMjo;
+        "minecraft-1.21.7" = _mM9jDMjo;
+        "minecraft-1.21.8" = _mM9jDMjo;
+        "minecraft-1.21.9" = _mM9jDMjo;
+        "minecraft-1.21.10" = _mM9jDMjo;
+        "minecraft-1.21.11" = _mM9jDMjo;
+        "minecraft-26.1" = _mM9jDMjo;
+        "minecraft-26.1.1" = _mM9jDMjo;
+        "minecraft-26.1.2" = _mM9jDMjo;
+        "minecraft-26.2" = _mM9jDMjo;
+        "minecraft-1.21.5" = _mM9jDMjo;
+        "minecraft-26.3" = _mM9jDMjo;
         "pkg-1.0" = _9WZJaOwt;
         "pkg-1.1.2" = _idTFmjIl;
         "pkg-1.2" = _Vfhu6ebR;
@@ -62,7 +75,9 @@ let
         "pkg-1.3.2" = _nMxc3NCa;
         "pkg-1.3.3" = _EvheONVy;
         "pkg-1.4" = _Hx8Iedor;
-        "default" = _Hx8Iedor;
+        "pkg-1.4.1" = _WQ4UX4z8;
+        "pkg-1.4.2" = _mM9jDMjo;
+        "default" = _mM9jDMjo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantment-outline-x-bare-bones-3d-tools";

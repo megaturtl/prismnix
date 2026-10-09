@@ -121,6 +121,16 @@ let
             "file" = "fantasyfurniture_necrolord-26.2.4.jar";
             "hash" = "sha512-QHuw8LEFqelfIgB3mo9nDaTtJnNiCqSJy0FqJ6PAxsPrbQgD15RJO5pD8zRJCarw3YfIK57LeUsvaSt587+zpg==";
         };
+        _nUA95Kcc = {
+            "id" = "nUA95Kcc";
+            "file" = "fantasyfurniture_necrolord-26.3.0.jar";
+            "hash" = "sha512-facpceM8zu2mVWJl8MR6i7tMq/xc2x6cEMjz8zUJp3T7lM/GB2NYHTJniw5QTajojd3IRtyA9dGY4rKiePt2Ug==";
+        };
+        _tPEpUZAj = {
+            "id" = "tPEpUZAj";
+            "file" = "fantasyfurniture_necrolord-26.3.1.jar";
+            "hash" = "sha512-0l2vxlkMiXkkPtwwgnjg/mZiNhR0gqHfPwPTNr6FWCwBg+jcXY4Gsqexu24iw2ZAIifGT06OCWpCOGt6YE4xYw==";
+        };
     in {
         "Q10b3MFd" = _Q10b3MFd;
         "2vrr0cCs" = _2vrr0cCs;
@@ -146,6 +156,8 @@ let
         "9pYUxXni" = _9pYUxXni;
         "eXfuZQ2S" = _eXfuZQ2S;
         "FlMjYmPx" = _FlMjYmPx;
+        "nUA95Kcc" = _nUA95Kcc;
+        "tPEpUZAj" = _tPEpUZAj;
         "neoforge-1.21.4" = _2vrr0cCs;
         "neoforge-1.21.5" = _uoJ2RhjQ;
         "neoforge-1.21.6" = _I5KxAuqe;
@@ -156,6 +168,7 @@ let
         "neoforge-26.1.1" = _9pYUxXni;
         "neoforge-26.1.2" = _9pYUxXni;
         "neoforge-26.2" = _FlMjYmPx;
+        "neoforge-26.3" = _tPEpUZAj;
         "pkg-21.4.110" = _Q10b3MFd;
         "pkg-21.4.112" = _2vrr0cCs;
         "pkg-21.5.0" = _lwagu7Zr;
@@ -180,7 +193,9 @@ let
         "pkg-26.1.7" = _9pYUxXni;
         "pkg-26.2.0" = _eXfuZQ2S;
         "pkg-26.2.4" = _FlMjYmPx;
-        "default" = _FlMjYmPx;
+        "pkg-26.3.0" = _nUA95Kcc;
+        "pkg-26.3.1" = _tPEpUZAj;
+        "default" = _tPEpUZAj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fantasys-furniture-necrolord";

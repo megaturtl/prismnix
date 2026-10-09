@@ -26,12 +26,18 @@ let
             "file" = "Whimscape Better Mace.zip";
             "hash" = "sha512-+erpNmQwu17x4RYw+iCg6jyIE9InB7gZ2q27N9sq3mob/YIS03/wFJ+9JkkDjNHXR4Oa8ouv72bPrl2rttxmbA==";
         };
+        _DaWL9Snt = {
+            "id" = "DaWL9Snt";
+            "file" = "Whimscape Better Mace 1.5.zip";
+            "hash" = "sha512-aHl/OT6J/5ta36+3TR/z6ydy6xkPV5Wl4LASOrDtLWs1KOJJegK4dghgW7orqCAOFCrCfnEi1iR/iY0QDLgyJQ==";
+        };
     in {
         "qoOTOswF" = _qoOTOswF;
         "rfbFIi9r" = _rfbFIi9r;
         "pwdws1UE" = _pwdws1UE;
         "Ya4pE2PW" = _Ya4pE2PW;
         "P4bpKJgv" = _P4bpKJgv;
+        "DaWL9Snt" = _DaWL9Snt;
         "minecraft-1.21.1" = _Ya4pE2PW;
         "minecraft-1.21.2" = _Ya4pE2PW;
         "minecraft-1.21.3" = _Ya4pE2PW;
@@ -48,12 +54,14 @@ let
         "minecraft-26.1.1" = _P4bpKJgv;
         "minecraft-26.1.2" = _P4bpKJgv;
         "minecraft-26.2" = _P4bpKJgv;
+        "minecraft-26.3" = _DaWL9Snt;
         "pkg-dosentwork" = _qoOTOswF;
         "pkg-1.1" = _rfbFIi9r;
         "pkg-1.2" = _pwdws1UE;
         "pkg-1.3" = _Ya4pE2PW;
         "pkg-1.4" = _P4bpKJgv;
-        "default" = _P4bpKJgv;
+        "pkg-1.5" = _DaWL9Snt;
+        "default" = _DaWL9Snt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "whimscape-better-mace";

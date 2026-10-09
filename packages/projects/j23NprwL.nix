@@ -46,6 +46,11 @@ let
             "file" = "VillageHealthcare-1.9.0.jar";
             "hash" = "sha512-8dptBwclwDl1YugBjEZYX5omBuw3kCrvyb73YqQfogbBnwoFQhGVOv5SJsS4WirjG712STuB8w97YCBwNnr0mA==";
         };
+        _5QZb6mJv = {
+            "id" = "5QZb6mJv";
+            "file" = "VillageHealthcare-2.0.0.jar";
+            "hash" = "sha512-dtAABCsEgttOBd+b3vDBLu9HKAP1kbG7Ovpu6GaZ1+364LuEm8XV82iKqqse9piCGIK67noXhSijNEPVv1x01Q==";
+        };
     in {
         "8DodHkWU" = _8DodHkWU;
         "L3OfFMN4" = _L3OfFMN4;
@@ -56,6 +61,7 @@ let
         "oRChPzHM" = _oRChPzHM;
         "SB4NADvk" = _SB4NADvk;
         "fExjsuih" = _fExjsuih;
+        "5QZb6mJv" = _5QZb6mJv;
         "fabric-1.20.1" = _8DodHkWU;
         "fabric-1.21" = _L3OfFMN4;
         "fabric-1.21.1" = _L3OfFMN4;
@@ -66,7 +72,7 @@ let
         "fabric-1.21.8" = _7b6ercO6;
         "fabric-1.21.10" = _oRChPzHM;
         "fabric-1.21.11" = _SB4NADvk;
-        "fabric-26.1.2" = _fExjsuih;
+        "fabric-26.1.2" = _5QZb6mJv;
         "quilt-1.20.1" = _8DodHkWU;
         "pkg-1.0.0" = _8DodHkWU;
         "pkg-1.1.0" = _L3OfFMN4;
@@ -77,7 +83,8 @@ let
         "pkg-1.7.0" = _oRChPzHM;
         "pkg-1.8.0" = _SB4NADvk;
         "pkg-1.9.0" = _fExjsuih;
-        "default" = _fExjsuih;
+        "pkg-2.0.0" = _5QZb6mJv;
+        "default" = _5QZb6mJv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "village-healthcare";

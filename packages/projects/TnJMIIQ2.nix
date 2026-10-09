@@ -91,6 +91,26 @@ let
             "file" = "cool_elytra-1.5.3+1.21.11.jar";
             "hash" = "sha512-+rKbz+ireOMB7yKvNzCvEWXwX7XMaaQSP96pqPchxNx7Ckridc/+EB8HnQJ9IzrX0o6F9ww8dZRoDl1rPO1hfQ==";
         };
+        _wnHAU1g2 = {
+            "id" = "wnHAU1g2";
+            "file" = "cool_elytra-1.5.3+1.20.jar";
+            "hash" = "sha512-iUsMxCaCPrl3NYO0iP1ZsfE9et01ZUFcGU9/MxCa4SN/RKx6n124g5dI4tLZvQ4IFMshP5fZSQHKyZIR7FmlpA==";
+        };
+        _wGCdg7KA = {
+            "id" = "wGCdg7KA";
+            "file" = "cool_elytra-1.5.4+mc-26.1.jar";
+            "hash" = "sha512-xCUscoo0iDU7Pm4dpEaU/onJQo6s+du+2bjgRyd8+oyV6TAsUP2pwoXOEA4CsAso4b6NJwcOUpl4CPEQPM85Hw==";
+        };
+        _ncT0jbYq = {
+            "id" = "ncT0jbYq";
+            "file" = "cool_elytra-1.5.4+mc-26.2.jar";
+            "hash" = "sha512-V6iLfKWTkA+dx8QrAg1Vb17lw0aMVaeqz0JJNvSZWHcYjLsmd1jlAG1gp3oVBhPTqcyTLZrZsFtA3XrmU/gDSA==";
+        };
+        _xZF1hDju = {
+            "id" = "xZF1hDju";
+            "file" = "cool_elytra-1.5.5+mc-26.3.jar";
+            "hash" = "sha512-68/PpAARjhftFUg6i7TG4mfA0/eaerLf8mXXIAB9r6W47OfK+5FJW3rBOHgX8ZmFyzt2Jf8p7HD6z7Ws18uBDw==";
+        };
     in {
         "l6uxWvtD" = _l6uxWvtD;
         "lanT2KkY" = _lanT2KkY;
@@ -110,6 +130,10 @@ let
         "NXKLQjFg" = _NXKLQjFg;
         "en6voQKt" = _en6voQKt;
         "nMjpB87a" = _nMjpB87a;
+        "wnHAU1g2" = _wnHAU1g2;
+        "wGCdg7KA" = _wGCdg7KA;
+        "ncT0jbYq" = _ncT0jbYq;
+        "xZF1hDju" = _xZF1hDju;
         "fabric-1.19.3" = _l6uxWvtD;
         "fabric-1.19.4" = _l6uxWvtD;
         "fabric-1.19" = _o8qyYS96;
@@ -141,14 +165,23 @@ let
         "fabric-1.21.9" = _en6voQKt;
         "fabric-1.21.10" = _en6voQKt;
         "fabric-1.21.11" = _nMjpB87a;
+        "fabric-1.20" = _wnHAU1g2;
+        "fabric-1.20.1" = _wnHAU1g2;
+        "fabric-26.1" = _wGCdg7KA;
+        "fabric-26.1.1" = _wGCdg7KA;
+        "fabric-26.1.2" = _wGCdg7KA;
+        "fabric-26.2" = _ncT0jbYq;
+        "fabric-26.3" = _xZF1hDju;
         "pkg-1.5" = _zKs6q7zR;
         "pkg-1.2.1" = _43Ud2Fy5;
         "pkg-1.3.1" = _NtFCeazh;
         "pkg-1.4" = _o8qyYS96;
         "pkg-1.5.1" = _rTcub3Ay;
         "pkg-1.5.2" = _Ixctt5Iz;
-        "pkg-1.5.3" = _nMjpB87a;
-        "default" = _nMjpB87a;
+        "pkg-1.5.3" = _wnHAU1g2;
+        "pkg-1.5.4" = _ncT0jbYq;
+        "pkg-1.5.5" = _xZF1hDju;
+        "default" = _xZF1hDju;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cool-elytra-roll";

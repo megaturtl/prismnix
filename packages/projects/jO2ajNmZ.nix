@@ -76,6 +76,21 @@ let
             "file" = "LOUD-PACK [ 26.1.2 ].zip";
             "hash" = "sha512-AaymvEtLf4KfaMy9Q1HkAAXj0a8rX7yKe+4mqmZi1W4RajPwFGRrJtxN1NKTx7AaNRn08h2gGoAcrlh5wLnU0Q==";
         };
+        _2XeKpYXL = {
+            "id" = "2XeKpYXL";
+            "file" = "LOUD-PACK-1.20.4.zip";
+            "hash" = "sha512-2+fwFP+umuDm+9WGGiavLEbJPaJV4gny/XzfbbZ3al6Gl31B0NiMF8eQOMgojt0HyGXHxj3HjBlBy2Xa493KZQ==";
+        };
+        _hqRDG5Mb = {
+            "id" = "hqRDG5Mb";
+            "file" = "LOUD-PACK-26.3.zip";
+            "hash" = "sha512-PcEKvZ3tXGIo51wBCcBq1/bbOvJRW8haI0LJ4bFiuoNzZszrqWhHKIt66lJgt+5sdiYS7bTpcpH96Zip3n6w3g==";
+        };
+        _ldQ1rwmx = {
+            "id" = "ldQ1rwmx";
+            "file" = "LOUD-PACK-26.4-snapshot-1.zip";
+            "hash" = "sha512-81fswuOqCMg7BmNZsCyz1gIVYOBg6jJUeyYF1ouoM539l0a7/g2BrA+4/QsyRfBmE9mJbcLvhtEV56w+ljBpXA==";
+        };
     in {
         "QXLgcOiv" = _QXLgcOiv;
         "qSVQAToi" = _qSVQAToi;
@@ -92,6 +107,9 @@ let
         "Wth4FCLr" = _Wth4FCLr;
         "TMDoEfb1" = _TMDoEfb1;
         "BNCkCSPB" = _BNCkCSPB;
+        "2XeKpYXL" = _2XeKpYXL;
+        "hqRDG5Mb" = _hqRDG5Mb;
+        "ldQ1rwmx" = _ldQ1rwmx;
         "minecraft-1.20.1" = _QXLgcOiv;
         "minecraft-1.20.2" = _qSVQAToi;
         "minecraft-1.19" = _qc4aYLoz;
@@ -113,6 +131,9 @@ let
         "minecraft-26.1" = _BNCkCSPB;
         "minecraft-26.1.1" = _BNCkCSPB;
         "minecraft-26.1.2" = _BNCkCSPB;
+        "minecraft-1.20.4" = _2XeKpYXL;
+        "minecraft-26.3" = _hqRDG5Mb;
+        "minecraft-26.4-snapshot-1" = _ldQ1rwmx;
         "pkg-v1.0" = _rxGWMWNo;
         "pkg-1.21.2-1.21.3" = _MLnWkJUt;
         "pkg-1.21.4" = _qM2EkaS9;
@@ -121,7 +142,10 @@ let
         "pkg-1.21.9" = _Wth4FCLr;
         "pkg-1.21.11" = _TMDoEfb1;
         "pkg-26.1.2" = _BNCkCSPB;
-        "default" = _BNCkCSPB;
+        "pkg-1.20.4" = _2XeKpYXL;
+        "pkg-26.3" = _hqRDG5Mb;
+        "pkg-26.4-snapshot-1" = _ldQ1rwmx;
+        "default" = _ldQ1rwmx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "loud-pack";

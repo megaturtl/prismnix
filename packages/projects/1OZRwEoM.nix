@@ -161,6 +161,11 @@ let
             "file" = "anvil_crushing_recipes-2.7.0+MC26.2-26.2.x.jar";
             "hash" = "sha512-T8fkR6QBsLENaz01cwO9fD6rBDRsAUo6a09row1oAa8qvEliw2I54vtoZF2wfsAiu3+dLQB9NU6dhx2DfCyfaw==";
         };
+        _JzG5qb9A = {
+            "id" = "JzG5qb9A";
+            "file" = "anvil_crushing_recipes-2.8.0+MC26.3.x.jar";
+            "hash" = "sha512-5hWl2MNnUN4mNifS0dJZrAOegy68fV9K6QxJIurlJL8p/v9ClNmR+ULO7BR8uGpmaqcnkoi3Gi+yJVTEUAzmKQ==";
+        };
     in {
         "gJCDraRf" = _gJCDraRf;
         "3pK5iIfU" = _3pK5iIfU;
@@ -194,6 +199,7 @@ let
         "bMZsnQdH" = _bMZsnQdH;
         "36juTRfo" = _36juTRfo;
         "twGpnKAn" = _twGpnKAn;
+        "JzG5qb9A" = _JzG5qb9A;
         "fabric-1.17" = _U6ioEcAM;
         "fabric-1.17.1" = _U6ioEcAM;
         "fabric-1.18" = _CtpANkoI;
@@ -224,6 +230,7 @@ let
         "fabric-1.21.11" = _bMZsnQdH;
         "fabric-26.1.2" = _36juTRfo;
         "fabric-26.2" = _twGpnKAn;
+        "fabric-26.3" = _JzG5qb9A;
         "quilt-1.19" = _mn1T8HJ7;
         "quilt-1.19.1" = _mn1T8HJ7;
         "quilt-1.19.2" = _mn1T8HJ7;
@@ -249,6 +256,7 @@ let
         "quilt-1.21.11" = _bMZsnQdH;
         "quilt-26.1.2" = _36juTRfo;
         "quilt-26.2" = _twGpnKAn;
+        "quilt-26.3" = _JzG5qb9A;
         "pkg-1.1.1+MC1.17" = _gJCDraRf;
         "pkg-1.1.2+MC1.17-1.17.1" = _3pK5iIfU;
         "pkg-1.2+MC1.17-1.17.1" = _fNzemzE3;
@@ -281,7 +289,8 @@ let
         "pkg-2.5.0+MC1.21.11" = _bMZsnQdH;
         "pkg-2.6.0+MC26.1-26.1.x" = _36juTRfo;
         "pkg-2.7.0+MC26.2-26.2.x" = _twGpnKAn;
-        "default" = _twGpnKAn;
+        "pkg-2.8.0+MC26.3.x" = _JzG5qb9A;
+        "default" = _JzG5qb9A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "anvil-crushing-recipes";

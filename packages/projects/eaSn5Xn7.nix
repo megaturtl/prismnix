@@ -21,11 +21,23 @@ let
             "file" = "leaping-enchantment-v1.0.0.jar";
             "hash" = "sha512-cT+r0OYGnMQ2Tm+hy0ISlCIKRCMFrYFLGptJ9SFr12d49oKGNZBOErxfrWBgnxW/st0s2vtvWjL/fkGky6FhtA==";
         };
+        _tVtyOxGp = {
+            "id" = "tVtyOxGp";
+            "file" = "Leaping Enchantment v1.0.0 [26.3].zip";
+            "hash" = "sha512-/c3/cQxnrFcp8N1ZwvBv1eTCAKoUMj1JFhMe3se3XE16J9ONSNhc9xgJdK6cdycdpAOkBEnc4ebsTAYqny1LFg==";
+        };
+        _PSAnRyMk = {
+            "id" = "PSAnRyMk";
+            "file" = "leaping-enchantment-1.0.0.jar";
+            "hash" = "sha512-rVq1iXfZ/eUGiC2Bq4rJDlZPbZzPWkqXBhMLQ12A3wFd/lYJC4mz8mph32SvjllAtOeyQ/EN/vHniVgJXgFPyw==";
+        };
     in {
         "ynPF9RFs" = _ynPF9RFs;
         "j2lRg4lP" = _j2lRg4lP;
         "tAyvVAPF" = _tAyvVAPF;
         "7RuuSAyS" = _7RuuSAyS;
+        "tVtyOxGp" = _tVtyOxGp;
+        "PSAnRyMk" = _PSAnRyMk;
         "datapack-1.21.2" = _ynPF9RFs;
         "datapack-1.21.3" = _ynPF9RFs;
         "datapack-1.21.4" = _ynPF9RFs;
@@ -42,6 +54,7 @@ let
         "datapack-26.2" = _ynPF9RFs;
         "datapack-1.21" = _tAyvVAPF;
         "datapack-1.21.1" = _tAyvVAPF;
+        "datapack-26.3" = _tVtyOxGp;
         "fabric-1.21.2" = _j2lRg4lP;
         "fabric-1.21.3" = _j2lRg4lP;
         "fabric-1.21.4" = _j2lRg4lP;
@@ -58,6 +71,7 @@ let
         "fabric-26.2" = _j2lRg4lP;
         "fabric-1.21" = _7RuuSAyS;
         "fabric-1.21.1" = _7RuuSAyS;
+        "fabric-26.3" = _PSAnRyMk;
         "forge-1.21.2" = _j2lRg4lP;
         "forge-1.21.3" = _j2lRg4lP;
         "forge-1.21.4" = _j2lRg4lP;
@@ -74,6 +88,7 @@ let
         "forge-26.2" = _j2lRg4lP;
         "forge-1.21" = _7RuuSAyS;
         "forge-1.21.1" = _7RuuSAyS;
+        "forge-26.3" = _PSAnRyMk;
         "neoforge-1.21.2" = _j2lRg4lP;
         "neoforge-1.21.3" = _j2lRg4lP;
         "neoforge-1.21.4" = _j2lRg4lP;
@@ -90,6 +105,7 @@ let
         "neoforge-26.2" = _j2lRg4lP;
         "neoforge-1.21" = _7RuuSAyS;
         "neoforge-1.21.1" = _7RuuSAyS;
+        "neoforge-26.3" = _PSAnRyMk;
         "quilt-1.21.2" = _j2lRg4lP;
         "quilt-1.21.3" = _j2lRg4lP;
         "quilt-1.21.4" = _j2lRg4lP;
@@ -106,9 +122,12 @@ let
         "quilt-26.2" = _j2lRg4lP;
         "quilt-1.21" = _7RuuSAyS;
         "quilt-1.21.1" = _7RuuSAyS;
+        "quilt-26.3" = _PSAnRyMk;
         "pkg-v1.0.0" = _tAyvVAPF;
         "pkg-v1.0.0+mod" = _7RuuSAyS;
-        "default" = _7RuuSAyS;
+        "pkg-1.0.0" = _tVtyOxGp;
+        "pkg-1.0.0+mod" = _PSAnRyMk;
+        "default" = _PSAnRyMk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "leaping-enchantment";

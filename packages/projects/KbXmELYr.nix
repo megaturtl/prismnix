@@ -31,6 +31,11 @@ let
             "file" = "pv-addon-walkietalkie-1.1.1.jar";
             "hash" = "sha512-JJAvgWCogbJNYjEzt6g5KagSRI3OAmHWoP6URSAvqVRm/i6q1xUWhe9oKYtwGf3NlIVS/g9AW85Xmdk+8+TQqw==";
         };
+        _YJFInzyf = {
+            "id" = "YJFInzyf";
+            "file" = "pv-addon-walkietalkie-1.1.2.jar";
+            "hash" = "sha512-tH7r3QJLyPqhAA/fHE9eUwws+isDM9e3BOR8qukhTjtYtFS7oJcwGmn9j+JfoZlcxenppUWIEEzG8TDtNRzj2w==";
+        };
     in {
         "OwGT2IB6" = _OwGT2IB6;
         "26ricqdP" = _26ricqdP;
@@ -38,24 +43,26 @@ let
         "1AUdLgN2" = _1AUdLgN2;
         "ZlwJK9BG" = _ZlwJK9BG;
         "GOReIwoy" = _GOReIwoy;
-        "neoforge-1.21.1" = _GOReIwoy;
-        "neoforge-1.21.2" = _GOReIwoy;
-        "neoforge-1.21.3" = _GOReIwoy;
-        "neoforge-1.21.4" = _GOReIwoy;
-        "neoforge-1.21.5" = _GOReIwoy;
-        "neoforge-1.21.6" = _GOReIwoy;
-        "neoforge-1.21.7" = _GOReIwoy;
-        "neoforge-1.21.8" = _GOReIwoy;
-        "neoforge-1.21.9" = _GOReIwoy;
-        "neoforge-1.21.10" = _GOReIwoy;
-        "neoforge-1.21.11" = _GOReIwoy;
+        "YJFInzyf" = _YJFInzyf;
+        "neoforge-1.21.1" = _YJFInzyf;
+        "neoforge-1.21.2" = _YJFInzyf;
+        "neoforge-1.21.3" = _YJFInzyf;
+        "neoforge-1.21.4" = _YJFInzyf;
+        "neoforge-1.21.5" = _YJFInzyf;
+        "neoforge-1.21.6" = _YJFInzyf;
+        "neoforge-1.21.7" = _YJFInzyf;
+        "neoforge-1.21.8" = _YJFInzyf;
+        "neoforge-1.21.9" = _YJFInzyf;
+        "neoforge-1.21.10" = _YJFInzyf;
+        "neoforge-1.21.11" = _YJFInzyf;
         "pkg-1.0.1" = _OwGT2IB6;
         "pkg-1.0.2" = _26ricqdP;
         "pkg-1.0.3" = _fleEzzNR;
         "pkg-1.0.4" = _1AUdLgN2;
         "pkg-1.1.0" = _ZlwJK9BG;
         "pkg-1.1.1" = _GOReIwoy;
-        "default" = _GOReIwoy;
+        "pkg-1.1.2" = _YJFInzyf;
+        "default" = _YJFInzyf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pv-addon-walkietalkie";

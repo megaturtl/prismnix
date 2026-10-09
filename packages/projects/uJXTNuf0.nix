@@ -116,6 +116,16 @@ let
             "file" = "camping-fabric-1.21.1-2.1.4.jar";
             "hash" = "sha512-JCjzegjTmMWUNteOkr8zAT6BLcUdkHUdJJioCelmDTg6meVw8BbJ3+k1KXa+abBzOaEuzbtddDHlw0VLpc3Kig==";
         };
+        _4BK12mON = {
+            "id" = "4BK12mON";
+            "file" = "camping-neoforge-1.21.1-2.1.5.jar";
+            "hash" = "sha512-KYi6N4euoE3yLHOgjPSWockhHqF+g0pmNKBcKdqGMDWbBKiurvMl7lSq/Yk6l1/ppzdrfMDjg4UqUVc3n7yRNQ==";
+        };
+        _DWkJX6hi = {
+            "id" = "DWkJX6hi";
+            "file" = "camping-fabric-1.21.1-2.1.5.jar";
+            "hash" = "sha512-sZ6QUgsA7Xu7KvzUK6hKrrFxpJhU33d2WpWW5F5Q9Ip+hi06K0Ti/Nf/tMuahB0hbigiIlGnzgAP1c1c8SQreQ==";
+        };
     in {
         "3pZWoULG" = _3pZWoULG;
         "w4TC1HEK" = _w4TC1HEK;
@@ -140,11 +150,13 @@ let
         "2AhQOnju" = _2AhQOnju;
         "FbkgllmH" = _FbkgllmH;
         "Ztm67PIW" = _Ztm67PIW;
+        "4BK12mON" = _4BK12mON;
+        "DWkJX6hi" = _DWkJX6hi;
         "forge-1.20.1" = _9F2B7Pl4;
         "neoforge-1.20.1" = _nCrrOl0N;
-        "neoforge-1.21.1" = _FbkgllmH;
+        "neoforge-1.21.1" = _4BK12mON;
         "fabric-1.20.1" = _SSH5l1XT;
-        "fabric-1.21.1" = _Ztm67PIW;
+        "fabric-1.21.1" = _DWkJX6hi;
         "quilt-1.20.1" = _iSIrQiyW;
         "pkg-1.0.0" = _w4TC1HEK;
         "pkg-1.0.1" = _iSIrQiyW;
@@ -158,7 +170,8 @@ let
         "pkg-2.1.2" = _8tco3lh4;
         "pkg-2.1.3" = _2AhQOnju;
         "pkg-2.1.4" = _Ztm67PIW;
-        "default" = _Ztm67PIW;
+        "pkg-2.1.5" = _DWkJX6hi;
+        "default" = _DWkJX6hi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lets-do-camping";

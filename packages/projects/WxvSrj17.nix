@@ -56,6 +56,11 @@ let
             "file" = "mountains_poem-1.6.0.jar";
             "hash" = "sha512-mLeFxecg0MKrC5wbbCWjF8a0O18srya31cW2CNDo5E/+TN3OgF2ln/wTmhnL+TE3CEP3OrXGd5assm9FAaxizg==";
         };
+        _pTM5PAgG = {
+            "id" = "pTM5PAgG";
+            "file" = "mountains_poem-1.6.2.jar";
+            "hash" = "sha512-sc/dRf6HO6gTMza8VpKx5OhJaibzUsHBk2GEHClNJKPNOAeaE5BnLPJnTpBGGrq+XDemI+P+P2n0Af1E29agDw==";
+        };
     in {
         "icNqNV6P" = _icNqNV6P;
         "sWvaRsDg" = _sWvaRsDg;
@@ -68,7 +73,8 @@ let
         "eGdnqFUS" = _eGdnqFUS;
         "nT5t2uNc" = _nT5t2uNc;
         "z1Ck8al1" = _z1Ck8al1;
-        "forge-1.20.1" = _z1Ck8al1;
+        "pTM5PAgG" = _pTM5PAgG;
+        "forge-1.20.1" = _pTM5PAgG;
         "pkg-1.1.1" = _icNqNV6P;
         "pkg-1.1.2" = _sWvaRsDg;
         "pkg-1.1.3" = _pZwkZIHm;
@@ -79,7 +85,8 @@ let
         "pkg-1.5.2" = _eGdnqFUS;
         "pkg-1.5.4" = _nT5t2uNc;
         "pkg-1.6.0" = _z1Ck8al1;
-        "default" = _z1Ck8al1;
+        "pkg-1.6.2" = _pTM5PAgG;
+        "default" = _pTM5PAgG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mountains-poem";

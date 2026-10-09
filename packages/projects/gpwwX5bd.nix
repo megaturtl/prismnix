@@ -71,6 +71,21 @@ let
             "file" = "AE2-TangibleBookmarks-1.21.1-19.1.3.jar";
             "hash" = "sha512-V2QvFbXGSz22e0SBcXXyij07BSdIi4TdCsa2XF+q4TN7m6T2tCGgYx19BlrTiJb57y6ywV6FRW7+tY/Cu7GKcQ==";
         };
+        _4WrpySO0 = {
+            "id" = "4WrpySO0";
+            "file" = "AE2-TangibleBookmarks-1.20.1-15.1.0.jar";
+            "hash" = "sha512-xJkCEHUDJXQGeWHX5ct7QpZ9DfHV/4MIDa6i/FvQETg456YZkBCQuCmFX1I6CBOOzyVWNLD/jTJkvuK7xEFgYQ==";
+        };
+        _NcrkJ0O4 = {
+            "id" = "NcrkJ0O4";
+            "file" = "AE2-TangibleBookmarks-26.1.2-26.0.0.jar";
+            "hash" = "sha512-tOnaZ0vrYuPeW3V6+BAXsEAg+K5ZvBnmAVOytJq07s3qLGxJEo/rQgjv8sN5B1p+eqpakPqJpGKFZbGrlAad4w==";
+        };
+        _DRrn7B3P = {
+            "id" = "DRrn7B3P";
+            "file" = "AE2-TangibleBookmarks-1.21.1-19.1.4.jar";
+            "hash" = "sha512-gg5/aIbQTA+PpenD8JXcYsVG2gb9nvQtDJqQldPfDOwXSRucBoQsI+dIEsW+cKeFjdYX6U3zFANJIye/eqH+ZQ==";
+        };
     in {
         "MvqLEfsQ" = _MvqLEfsQ;
         "kKCB3AM7" = _kKCB3AM7;
@@ -86,8 +101,12 @@ let
         "YSjFr9YP" = _YSjFr9YP;
         "c5GYmgT2" = _c5GYmgT2;
         "zbXkTZdU" = _zbXkTZdU;
-        "neoforge-1.21.1" = _zbXkTZdU;
-        "forge-1.20.1" = _AY484ILG;
+        "4WrpySO0" = _4WrpySO0;
+        "NcrkJ0O4" = _NcrkJ0O4;
+        "DRrn7B3P" = _DRrn7B3P;
+        "neoforge-1.21.1" = _DRrn7B3P;
+        "neoforge-26.1.2" = _NcrkJ0O4;
+        "forge-1.20.1" = _4WrpySO0;
         "pkg-1.21.1-0.0.1" = _MvqLEfsQ;
         "pkg-1.21.1-0.0.2" = _kKCB3AM7;
         "pkg-1.21.1-0.1.0" = _S0DrkKR6;
@@ -102,7 +121,10 @@ let
         "pkg-1.21.1-19.1.1" = _YSjFr9YP;
         "pkg-1.21.1-19.1.2" = _c5GYmgT2;
         "pkg-1.21.1-19.1.3" = _zbXkTZdU;
-        "default" = _zbXkTZdU;
+        "pkg-1.20.1-15.1.0" = _4WrpySO0;
+        "pkg-26.1.2-26.0.0" = _NcrkJ0O4;
+        "pkg-1.21.1-19.1.4" = _DRrn7B3P;
+        "default" = _DRrn7B3P;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ae2-tangible-bookmarks";

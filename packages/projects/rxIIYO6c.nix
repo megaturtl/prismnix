@@ -161,6 +161,11 @@ let
             "file" = "TConstruct-1.20.1-3.12.0.220.jar";
             "hash" = "sha512-6eOXHbvfVnglCXvHoQgX617/6SB/vqKPhImfxz9QFl/G6KQpNNlQQ/iAJchXDG5xDeFbBSVoTkiHLeJv8bJJYw==";
         };
+        _Fv0zTUuh = {
+            "id" = "Fv0zTUuh";
+            "file" = "TConstruct-1.20.1-3.12.1.231.jar";
+            "hash" = "sha512-6LeCJfN5JJsO3w3csrhK7Uv4cS4fsaX6rpoXwKxv8saXpoTA3ZtepK8eDiv7PusgbhwW9JAKONJwWSztYRWt6g==";
+        };
     in {
         "HXIzidIf" = _HXIzidIf;
         "3KJI35bq" = _3KJI35bq;
@@ -194,14 +199,15 @@ let
         "aQ92LlLJ" = _aQ92LlLJ;
         "kJ9LD194" = _kJ9LD194;
         "kfptyb1D" = _kfptyb1D;
+        "Fv0zTUuh" = _Fv0zTUuh;
         "forge-1.18.2" = _v6T8o8Ht;
         "forge-1.16.5" = _3KJI35bq;
         "forge-1.12.2" = _mNZUIBbe;
         "forge-1.7.10" = _qTJGiuCo;
         "forge-1.6.4" = _ADIRkxKS;
         "forge-1.19.2" = _JZb7mMLX;
-        "forge-1.20.1" = _kfptyb1D;
-        "neoforge-1.20.1" = _kfptyb1D;
+        "forge-1.20.1" = _Fv0zTUuh;
+        "neoforge-1.20.1" = _Fv0zTUuh;
         "pkg-3.6.0.73" = _HXIzidIf;
         "pkg-3.3.4.335" = _3KJI35bq;
         "pkg-2.13.0.183" = _mNZUIBbe;
@@ -234,7 +240,8 @@ let
         "pkg-3.11.2.165" = _aQ92LlLJ;
         "pkg-3.11.2.166" = _kJ9LD194;
         "pkg-3.12.0.220" = _kfptyb1D;
-        "default" = _kfptyb1D;
+        "pkg-3.12.1.231" = _Fv0zTUuh;
+        "default" = _Fv0zTUuh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tinkers-construct";

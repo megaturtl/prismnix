@@ -186,6 +186,11 @@ let
             "file" = "provihealth-2.4.3+26.2.jar";
             "hash" = "sha512-6YNHlQFBW7N5eQuxa+XzzwiEQ2L6CzuDz14Ve0qj9JGOjQD2eAgzkcHrGE879izcJZXPv0ZETBncq9OuNbkT8w==";
         };
+        _hcV0RJDI = {
+            "id" = "hcV0RJDI";
+            "file" = "provihealth-2.4.3+26.3.jar";
+            "hash" = "sha512-SeW6ScCW4u12q50Ivc7OxHb6V+UPZCb9d36mllYTVMU71BB0gDsH0AJhPArJnezMUSZklQIf+rBFq9rj8zmoGQ==";
+        };
     in {
         "CH5GSarl" = _CH5GSarl;
         "GYI84PBn" = _GYI84PBn;
@@ -224,6 +229,7 @@ let
         "aOpw5KDK" = _aOpw5KDK;
         "zisLDK4z" = _zisLDK4z;
         "qT3YGBCT" = _qT3YGBCT;
+        "hcV0RJDI" = _hcV0RJDI;
         "fabric-1.20" = _oniBYSAC;
         "fabric-1.20.1" = _oniBYSAC;
         "fabric-1.20.2" = _iGYkAWao;
@@ -250,6 +256,7 @@ let
         "fabric-26.1.1" = _zisLDK4z;
         "fabric-26.1.2" = _zisLDK4z;
         "fabric-26.2" = _qT3YGBCT;
+        "fabric-26.3" = _hcV0RJDI;
         "quilt-1.20" = _oniBYSAC;
         "quilt-1.20.1" = _oniBYSAC;
         "quilt-1.20.2" = _iGYkAWao;
@@ -273,6 +280,7 @@ let
         "quilt-26.1.1" = _zisLDK4z;
         "quilt-26.1.2" = _zisLDK4z;
         "quilt-26.2" = _qT3YGBCT;
+        "quilt-26.3" = _hcV0RJDI;
         "pkg-1.0.0+1.20.1" = _CH5GSarl;
         "pkg-1.0.0+1.20.2" = _GYI84PBn;
         "pkg-1.1.0+1.20.1" = _qPz8e0BZ;
@@ -310,7 +318,8 @@ let
         "pkg-2.4.3+1.21.11" = _aOpw5KDK;
         "pkg-2.4.3+26.1.2" = _zisLDK4z;
         "pkg-2.4.3+26.2" = _qT3YGBCT;
-        "default" = _qT3YGBCT;
+        "pkg-2.4.3+26.3" = _hcV0RJDI;
+        "default" = _hcV0RJDI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "provis-health-bars";

@@ -136,6 +136,16 @@ let
             "file" = "betterbiomeblend-neoforge-1.21.1-1.4.1.jar";
             "hash" = "sha512-VOOg1x/Mfaq0R77GdyaAhpTgjogA7+fNGRzxVg283P8Gr/96q/UE3RSqAB1sj3rrxZMTvUzNzSwCdta2TgCdmA==";
         };
+        _9v2VTTy0 = {
+            "id" = "9v2VTTy0";
+            "file" = "betterbiomeblend-neoforge-26.3-1.4.0.jar";
+            "hash" = "sha512-Wmrx3ZoeG5lITeBDI4GKoP7HhovdoIgvlJ2pZwToP6hB2Q0p6Ka1VzgiOjImFdUOfuBE8i//Xx7Lo1BNa7cfrQ==";
+        };
+        _Oag8dQao = {
+            "id" = "Oag8dQao";
+            "file" = "betterbiomeblend-fabric-26.3-1.4.0.jar";
+            "hash" = "sha512-ZugsXoa4N3wgl438p8H7abaFE9c43wxt+7OHrAGpbwkyCTs91nTue/QO3pjaWfNneTikVa/6CKx2Kf5u+1le3A==";
+        };
     in {
         "S63NmSwB" = _S63NmSwB;
         "Bas97Blg" = _Bas97Blg;
@@ -164,6 +174,8 @@ let
         "bXpRy5LE" = _bXpRy5LE;
         "eDX2L0GQ" = _eDX2L0GQ;
         "qmc1SklW" = _qmc1SklW;
+        "9v2VTTy0" = _9v2VTTy0;
+        "Oag8dQao" = _Oag8dQao;
         "forge-1.12.2" = _bgQybiBp;
         "forge-1.16.5" = _Bas97Blg;
         "forge-1.17.1" = _P7Ly1cxI;
@@ -188,6 +200,7 @@ let
         "fabric-26.1.1" = _FwlmN3fE;
         "fabric-26.1.2" = _FwlmN3fE;
         "fabric-26.2" = _bXpRy5LE;
+        "fabric-26.3" = _Oag8dQao;
         "neoforge-1.20.6" = _lJFiNGJb;
         "neoforge-1.21.1" = _qmc1SklW;
         "neoforge-1.21.11" = _UxHBetQY;
@@ -195,6 +208,7 @@ let
         "neoforge-26.1.1" = _V0l6Pv9p;
         "neoforge-26.1.2" = _V0l6Pv9p;
         "neoforge-26.2" = _aA6xVPLq;
+        "neoforge-26.3" = _9v2VTTy0;
         "pkg-1.12.2-1.1.7-forge" = _S63NmSwB;
         "pkg-1.16.4-1.2.9-forge" = _Bas97Blg;
         "pkg-1.16.4-1.2.9-fabric" = _EDJltiiI;
@@ -222,7 +236,9 @@ let
         "pkg-26.2-1.4.0-fabric" = _bXpRy5LE;
         "pkg-1.21.1-1.4.1-fabric" = _eDX2L0GQ;
         "pkg-1.21.1-1.4.1-neoforge" = _qmc1SklW;
-        "default" = _qmc1SklW;
+        "pkg-26.3-1.4.0-neoforge" = _9v2VTTy0;
+        "pkg-26.3-1.4.0-fabric" = _Oag8dQao;
+        "default" = _Oag8dQao;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-biome-blend";

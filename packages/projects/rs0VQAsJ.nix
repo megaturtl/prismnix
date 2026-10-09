@@ -61,6 +61,11 @@ let
             "file" = "AutoSprint-2.3.9-1.21.4-fabric.jar";
             "hash" = "sha512-3AExntlozEhBKweG+Ps2cboNtQhyBoXNhA+XpL0W/A0AiYiyZxAzmfaVPycD1usXGGoeOCNBjlZLhnMxZC/Iyg==";
         };
+        _wQGjgM9R = {
+            "id" = "wQGjgM9R";
+            "file" = "AutoSprint-2.4.1-1.21.11-fabric.jar";
+            "hash" = "sha512-9RNO6OpDEkxRkutdqZT3+hxmnCoOIZpRGrMO/N/cHgtMrMGMOjAZfMCLJBhPh3IzwVk9xJJ2MBrta3oT1EYzrQ==";
+        };
     in {
         "ZiKlLoxb" = _ZiKlLoxb;
         "VNuwvucv" = _VNuwvucv;
@@ -74,9 +79,11 @@ let
         "zfkj7u8A" = _zfkj7u8A;
         "jqFJ7KZV" = _jqFJ7KZV;
         "RDrQFHxt" = _RDrQFHxt;
+        "wQGjgM9R" = _wQGjgM9R;
         "fabric-1.21.1" = _5woSs0DX;
         "fabric-1.21.4" = _RDrQFHxt;
         "fabric-1.21.5" = _zfkj7u8A;
+        "fabric-1.21.11" = _wQGjgM9R;
         "pkg-2.3.1" = _ZiKlLoxb;
         "pkg-2.3.2" = _A3rriejf;
         "pkg-2.3.3" = _7SBeJFfP;
@@ -86,7 +93,8 @@ let
         "pkg-2.3.7" = _zfkj7u8A;
         "pkg-2.3.8" = _jqFJ7KZV;
         "pkg-2.3.9" = _RDrQFHxt;
-        "default" = _RDrQFHxt;
+        "pkg-2.4.1" = _wQGjgM9R;
+        "default" = _wQGjgM9R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autosprinting";

@@ -131,6 +131,16 @@ let
             "file" = "letsdo-wildernature-fabric-1.1.5.jar";
             "hash" = "sha512-dRZBqOhKaJiltZZ4CD5vnkEzsvdfjktleYpvCAKK0Gi46rJy1afp8z9fEh50IfCJJ+r7YyzOfLZfStnsfBCwYw==";
         };
+        _jwvFJJGi = {
+            "id" = "jwvFJJGi";
+            "file" = "letsdo-wildernature-neoforge-1.1.6.jar";
+            "hash" = "sha512-5EaUteK0UHL/grDNNua0RJVNqxMQiJHjBGf5hF2RIN9XXZIWXssWD4+RqxGRvjRhJdH52DwMlaBZygwDKeY2Jg==";
+        };
+        _BRIgSDra = {
+            "id" = "BRIgSDra";
+            "file" = "letsdo-wildernature-fabric-1.1.6.jar";
+            "hash" = "sha512-gq87lFMr1KvKVVes63X+WOpvjgl+lRGCPo6hBjO/RPr6H8msMNTJI4WBKcgKUoTovzxnO9YDkdSbEE6m0lV5Iw==";
+        };
     in {
         "GvJw7BSd" = _GvJw7BSd;
         "FzRLwHfB" = _FzRLwHfB;
@@ -158,11 +168,13 @@ let
         "wY2foDNg" = _wY2foDNg;
         "hVASh9XY" = _hVASh9XY;
         "lAqY1FlJ" = _lAqY1FlJ;
+        "jwvFJJGi" = _jwvFJJGi;
+        "BRIgSDra" = _BRIgSDra;
         "forge-1.20.1" = _MOt4yaRr;
         "neoforge-1.20.1" = _qR7hZ2XI;
-        "neoforge-1.21.1" = _hVASh9XY;
+        "neoforge-1.21.1" = _jwvFJJGi;
         "fabric-1.20.1" = _mRS9jw1s;
-        "fabric-1.21.1" = _lAqY1FlJ;
+        "fabric-1.21.1" = _BRIgSDra;
         "quilt-1.20.1" = _6IzdThGc;
         "pkg-1.0.0" = _FzRLwHfB;
         "pkg-1.0.1" = _7dA3FcQ5;
@@ -177,7 +189,8 @@ let
         "pkg-1.1.3" = _Fq7BNxOf;
         "pkg-1.1.4" = _wY2foDNg;
         "pkg-1.1.5" = _lAqY1FlJ;
-        "default" = _lAqY1FlJ;
+        "pkg-1.1.6" = _BRIgSDra;
+        "default" = _BRIgSDra;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lets-do-wildernature";

@@ -666,6 +666,21 @@ let
             "file" = "ViaFabricPlus-5.0.1.jar";
             "hash" = "sha512-ccoIE1YY28Xu1SzNyHcaSoh1CiIfrE8VR2ZlTytAuykD73DCTIQij0ZcwRLhGuPf6lHmmD/d7qGRdwpYNtxofA==";
         };
+        _dmLiENU0 = {
+            "id" = "dmLiENU0";
+            "file" = "ViaFabricPlus-5.0.2.jar";
+            "hash" = "sha512-RnkO+yDNT5SlhI7fta9EN4jp37VwtENh/Kwlx0msAPKvCyd5ce8z1qSZW1mYQVh7K3buUG5GWG18Y+9zRYC0IA==";
+        };
+        _8ZYrgBNA = {
+            "id" = "8ZYrgBNA";
+            "file" = "ViaFabricPlus-5.1.0.jar";
+            "hash" = "sha512-3OHNXaMihIgfEp8yHgxEE/iXf/EwTL3yzHuTvoTkFMlLan8DsrxFU+HIVKQyMPzRIcFrQ9b1rDUmZOwg2WmI1w==";
+        };
+        _vV9NPd0U = {
+            "id" = "vV9NPd0U";
+            "file" = "ViaFabricPlus-5.1.1.jar";
+            "hash" = "sha512-bRczeoM+vWq426MYIBllaf3aesIWT2C9HQUHLIWKKEA1XQjVJN7P/n1Qu0+V9Im89LChFPsA+wvA0b5FXywq+g==";
+        };
     in {
         "MKJPUIEI" = _MKJPUIEI;
         "JSNzH84y" = _JSNzH84y;
@@ -800,6 +815,9 @@ let
         "e9PAsLco" = _e9PAsLco;
         "oDGOi9CW" = _oDGOi9CW;
         "JmKdWiby" = _JmKdWiby;
+        "dmLiENU0" = _dmLiENU0;
+        "8ZYrgBNA" = _8ZYrgBNA;
+        "vV9NPd0U" = _vV9NPd0U;
         "fabric-1.19.3" = _I3oAYlWs;
         "fabric-1.19.4" = _G4LyPV8n;
         "fabric-1.20" = _cIGEbJ9b;
@@ -824,7 +842,8 @@ let
         "fabric-26.1" = _G5gLDVZ9;
         "fabric-26.1.1" = _G5gLDVZ9;
         "fabric-26.1.2" = _G5gLDVZ9;
-        "fabric-26.2" = _JmKdWiby;
+        "fabric-26.2" = _dmLiENU0;
+        "fabric-26.3" = _vV9NPd0U;
         "quilt-1.19.3" = _I3oAYlWs;
         "quilt-1.19.4" = _G4LyPV8n;
         "quilt-1.20" = _cIGEbJ9b;
@@ -962,7 +981,10 @@ let
         "pkg-4.6.3" = _e9PAsLco;
         "pkg-5.0.0" = _oDGOi9CW;
         "pkg-5.0.1" = _JmKdWiby;
-        "default" = _JmKdWiby;
+        "pkg-5.0.2" = _dmLiENU0;
+        "pkg-5.1.0" = _8ZYrgBNA;
+        "pkg-5.1.1" = _vV9NPd0U;
+        "default" = _vV9NPd0U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "viafabricplus";

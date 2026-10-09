@@ -246,6 +246,21 @@ let
             "file" = "agritechevolved-1.1.0.5+mc-1.21.1.jar";
             "hash" = "sha512-kpV5xhnGcsE9Vr/TDJCCiRfPOB6XlYDPBmVmQjvje0UGXMkMUtAwdvY7yjCrxRrKYyND1Ux/x+6RrCLPkvcW/w==";
         };
+        _OOucNc2O = {
+            "id" = "OOucNc2O";
+            "file" = "agritechevolved-4.0.0.0+neoforge-mc26.3.jar";
+            "hash" = "sha512-t3BCHSUwIkYQE7Ou1Qm5D4nqEcr/1OZHML3PzQIMLo8KWTdliWD21Srl7YJNbc+u9fOTuk7igy8GWp1BSgtWqg==";
+        };
+        _fEzuKjCq = {
+            "id" = "fEzuKjCq";
+            "file" = "agritechevolved-4.0.0.1+neoforge-mc26.3.jar";
+            "hash" = "sha512-3zRAFZ/0/p5e/ewBTN4nTvl6JwFuDWGeJlSdcMxtP1MtvvbWz7K7C2ONt1smFBVxvt3QaSZBE63cM3tI5qXzYA==";
+        };
+        _KPM6cN2U = {
+            "id" = "KPM6cN2U";
+            "file" = "agritechevolved-2.2.0.5+neoforge-mc26.1.2.jar";
+            "hash" = "sha512-7qsy7k8aB8NSASDNxI9YCpMwOHdjqBGEZT3cEt9qppexaIuAxgUtEFVxTzUhThYHNKXHTKXHhUjX54UvD2GOdw==";
+        };
     in {
         "NqF8hlzX" = _NqF8hlzX;
         "j9FBJrWr" = _j9FBJrWr;
@@ -296,9 +311,13 @@ let
         "Vwj9v1o9" = _Vwj9v1o9;
         "3AVQtCAz" = _3AVQtCAz;
         "EISUJRjn" = _EISUJRjn;
+        "OOucNc2O" = _OOucNc2O;
+        "fEzuKjCq" = _fEzuKjCq;
+        "KPM6cN2U" = _KPM6cN2U;
         "neoforge-1.21.1" = _EISUJRjn;
-        "neoforge-26.1.2" = _Vwj9v1o9;
+        "neoforge-26.1.2" = _KPM6cN2U;
         "neoforge-26.2" = _3AVQtCAz;
+        "neoforge-26.3" = _fEzuKjCq;
         "pkg-1.0.0" = _NqF8hlzX;
         "pkg-1.0.2" = _j9FBJrWr;
         "pkg-1.0.3" = _RVturOCd;
@@ -348,7 +367,10 @@ let
         "pkg-2.2.0.4+neoforge-mc26.1.2" = _Vwj9v1o9;
         "pkg-3.1.0.4+neoforge-mc26.2" = _3AVQtCAz;
         "pkg-1.1.0.5+mc-1.21.1" = _EISUJRjn;
-        "default" = _EISUJRjn;
+        "pkg-4.0.0.0+neoforge-mc26.3" = _OOucNc2O;
+        "pkg-4.0.0.1+neoforge-mc26.3" = _fEzuKjCq;
+        "pkg-2.2.0.5+neoforge-mc26.1.2" = _KPM6cN2U;
+        "default" = _KPM6cN2U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "agritech-evolved";

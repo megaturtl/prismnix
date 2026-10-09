@@ -116,6 +116,16 @@ let
             "file" = "jcraft-additions-forge-1.2.2.jar";
             "hash" = "sha512-9phUJ68oSn7ZmFRjyq3vn02q00hluki+3BYC9Qi0KTofswtJ22kG38QB0/GECXtCznHK3PupeeK1z6yzq/Ev4g==";
         };
+        _1g65KHuK = {
+            "id" = "1g65KHuK";
+            "file" = "jcraft-additions-forge-1.2.3.jar";
+            "hash" = "sha512-V11RM0UKJAvBR3uEtndMvf6ACYLvbcBRgfsEO9rRPp8gPuqDspJwlZWEm4x1Z/GeuFAzWUN3QeA9jt4fAagovA==";
+        };
+        _XrvZnvwv = {
+            "id" = "XrvZnvwv";
+            "file" = "jcraft-additions-fabric-1.2.3.jar";
+            "hash" = "sha512-+pmLXT3q9KTvzAGoNrZD5ZnxtgSFXp86y+qt9sn1Wbfs4RMHl0O+spESau6M3MuDf56dDGZQhDwNu69srfTiXw==";
+        };
     in {
         "uwcq8FSt" = _uwcq8FSt;
         "hT2sL3nd" = _hT2sL3nd;
@@ -140,8 +150,10 @@ let
         "ll8Ot2R2" = _ll8Ot2R2;
         "C6UyGAsa" = _C6UyGAsa;
         "scJ7h9FF" = _scJ7h9FF;
-        "forge-1.20.1" = _scJ7h9FF;
-        "fabric-1.20.1" = _C6UyGAsa;
+        "1g65KHuK" = _1g65KHuK;
+        "XrvZnvwv" = _XrvZnvwv;
+        "forge-1.20.1" = _1g65KHuK;
+        "fabric-1.20.1" = _XrvZnvwv;
         "pkg-1.0.0" = _hT2sL3nd;
         "pkg-1.0.1" = _bIZIZt5S;
         "pkg-1.0.2" = _VwWOjEOH;
@@ -155,7 +167,8 @@ let
         "pkg-1.2.0-hotfix-2" = _o22yNAPS;
         "pkg-1.2.1" = _ll8Ot2R2;
         "pkg-1.2.2" = _scJ7h9FF;
-        "default" = _scJ7h9FF;
+        "pkg-1.2.3" = _XrvZnvwv;
+        "default" = _XrvZnvwv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jcraft-additions";

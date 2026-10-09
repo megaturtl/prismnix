@@ -51,6 +51,16 @@ let
             "file" = "poisoning-enchantment-v1.0.4.jar";
             "hash" = "sha512-rNGIO6aaF1+oj1suG6cCXQ9/VXZJCpNHoQlgeG7m69ROqZOohjEc4xD2WMzYoed+36J9me1dnuok0Mlxo1aS+w==";
         };
+        _5rYhLibp = {
+            "id" = "5rYhLibp";
+            "file" = "Poisoning Enchantment v1.0.4 [26.3].zip";
+            "hash" = "sha512-HuDOqC53Kt9eq/2pM0bMgYlxsAJlZYRnJib/6JBTaldBW56QSR/S+NwrLwxn8/rDp+NtuRiLdPE0BDKNBn4T4w==";
+        };
+        _CpQy9dfX = {
+            "id" = "CpQy9dfX";
+            "file" = "poisoning-enchantment-1.0.4.jar";
+            "hash" = "sha512-lzKlmHCbBfoDNK7l8AnPZ9bJtwG3HK3+eJKpiGU5nd89F42Z0c1HDW4QdURTl8atx5p1XACu9PPx3W9hB0+cMQ==";
+        };
     in {
         "3X6C086v" = _3X6C086v;
         "Gb7ud8O0" = _Gb7ud8O0;
@@ -62,6 +72,8 @@ let
         "3tli25Sp" = _3tli25Sp;
         "5Z4bcUuq" = _5Z4bcUuq;
         "laKKztqK" = _laKKztqK;
+        "5rYhLibp" = _5rYhLibp;
+        "CpQy9dfX" = _CpQy9dfX;
         "datapack-1.21.4" = _5Z4bcUuq;
         "datapack-1.21" = _5Z4bcUuq;
         "datapack-1.21.1" = _5Z4bcUuq;
@@ -78,6 +90,7 @@ let
         "datapack-26.1.1" = _5Z4bcUuq;
         "datapack-26.1.2" = _5Z4bcUuq;
         "datapack-26.2" = _5Z4bcUuq;
+        "datapack-26.3" = _5rYhLibp;
         "fabric-1.21.4" = _laKKztqK;
         "fabric-1.21" = _laKKztqK;
         "fabric-1.21.1" = _laKKztqK;
@@ -94,6 +107,7 @@ let
         "fabric-26.1.1" = _laKKztqK;
         "fabric-26.1.2" = _laKKztqK;
         "fabric-26.2" = _laKKztqK;
+        "fabric-26.3" = _CpQy9dfX;
         "forge-1.21.4" = _laKKztqK;
         "forge-1.21" = _laKKztqK;
         "forge-1.21.1" = _laKKztqK;
@@ -110,6 +124,7 @@ let
         "forge-26.1.1" = _laKKztqK;
         "forge-26.1.2" = _laKKztqK;
         "forge-26.2" = _laKKztqK;
+        "forge-26.3" = _CpQy9dfX;
         "neoforge-1.21.4" = _laKKztqK;
         "neoforge-1.21" = _laKKztqK;
         "neoforge-1.21.1" = _laKKztqK;
@@ -126,6 +141,7 @@ let
         "neoforge-26.1.1" = _laKKztqK;
         "neoforge-26.1.2" = _laKKztqK;
         "neoforge-26.2" = _laKKztqK;
+        "neoforge-26.3" = _CpQy9dfX;
         "quilt-1.21.4" = _laKKztqK;
         "quilt-1.21" = _laKKztqK;
         "quilt-1.21.1" = _laKKztqK;
@@ -142,6 +158,7 @@ let
         "quilt-26.1.1" = _laKKztqK;
         "quilt-26.1.2" = _laKKztqK;
         "quilt-26.2" = _laKKztqK;
+        "quilt-26.3" = _CpQy9dfX;
         "pkg-v1.0.0" = _3X6C086v;
         "pkg-v1.0.0+mod" = _Gb7ud8O0;
         "pkg-v1.0.1" = _SZHs7XFG;
@@ -150,7 +167,9 @@ let
         "pkg-v1.0.3+mod" = _Gbz55jzE;
         "pkg-v1.0.4" = _5Z4bcUuq;
         "pkg-v1.0.4+mod" = _laKKztqK;
-        "default" = _laKKztqK;
+        "pkg-1.0.4" = _5rYhLibp;
+        "pkg-1.0.4+mod" = _CpQy9dfX;
+        "default" = _CpQy9dfX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "poisoning-enchantment";

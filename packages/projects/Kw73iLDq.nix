@@ -336,6 +336,26 @@ let
             "file" = "EffectInsights-v26.2.2-mc26.2.x-Fabric.jar";
             "hash" = "sha512-b/A6yjICahSxWCg3qW1azOttEEjnJOjvwnAit+KLkCYeDMfT6EJHwo8KBT8mZKtHJ8e4qUaTPzvFOhFvN2lKoA==";
         };
+        _Jjr5GhRS = {
+            "id" = "Jjr5GhRS";
+            "file" = "effectinsights-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-nZNgjq1/Yc2zoOougpIoi25F6ftOO8ScgEdyYFO9DRgkDpu2mzvAGlRH5FeV8S/1EANCjDnUIJEw0BKAvUlxdQ==";
+        };
+        _sDwbiIAn = {
+            "id" = "sDwbiIAn";
+            "file" = "effectinsights-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-8HuKXwFH1r4wApe+pIEKNfBEavPbxw8l8RdqzvByDDCHcF54n0NPr01VEifiN63/MZ8c3qFvu4HORNTi/gIl7g==";
+        };
+        _EhmiTi0c = {
+            "id" = "EhmiTi0c";
+            "file" = "effectinsights-v26.3.1-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-JKxMXKOV7JsrkObn5nXXI/UPChFLyR+jsmyTcwLAO20v4zbmJhmYLYzt2ISEIou5WwLm+ngfJsGjltH7auRH/g==";
+        };
+        _GvKsRHna = {
+            "id" = "GvKsRHna";
+            "file" = "effectinsights-v26.3.1-mc26.3.x+fabric.jar";
+            "hash" = "sha512-PVaniJhoztYTt88gAi4tsJ6wlgCV+v/lTM6TT77/d+TDOu2upmpqJLkDwmpCzVZ3n/zoARPBV8B467JVb7DjbQ==";
+        };
     in {
         "jNjbjgWj" = _jNjbjgWj;
         "H1ZpwWkT" = _H1ZpwWkT;
@@ -404,6 +424,10 @@ let
         "vTVpG6aY" = _vTVpG6aY;
         "eDTHASFy" = _eDTHASFy;
         "NTeX5sLz" = _NTeX5sLz;
+        "Jjr5GhRS" = _Jjr5GhRS;
+        "sDwbiIAn" = _sDwbiIAn;
+        "EhmiTi0c" = _EhmiTi0c;
+        "GvKsRHna" = _GvKsRHna;
         "forge-1.20.1" = _1cLzn1rF;
         "forge-1.18.2" = _Rn4Cpk3l;
         "forge-1.20.4" = _UP0xkHtX;
@@ -424,6 +448,7 @@ let
         "fabric-26.1.1" = _vTVpG6aY;
         "fabric-26.1.2" = _vTVpG6aY;
         "fabric-26.2" = _NTeX5sLz;
+        "fabric-26.3" = _GvKsRHna;
         "neoforge-1.20.4" = _2jX7yERK;
         "neoforge-1.21" = _x5OuWpwe;
         "neoforge-1.21.1" = _gKgYWwEQ;
@@ -439,6 +464,7 @@ let
         "neoforge-26.1.1" = _jlrN9LWc;
         "neoforge-26.1.2" = _jlrN9LWc;
         "neoforge-26.2" = _eDTHASFy;
+        "neoforge-26.3" = _EhmiTi0c;
         "pkg-v8.0.0-1.20.1-Forge" = _jNjbjgWj;
         "pkg-v8.0.0-1.20.1-Fabric" = _H1ZpwWkT;
         "pkg-v8.0.1-1.20.1-Forge" = _pGSnKaN5;
@@ -492,7 +518,9 @@ let
         "pkg-26.2.1" = _D3pRhprq;
         "pkg-26.1.2" = _vTVpG6aY;
         "pkg-26.2.2" = _NTeX5sLz;
-        "default" = _NTeX5sLz;
+        "pkg-26.3.0" = _sDwbiIAn;
+        "pkg-26.3.1" = _GvKsRHna;
+        "default" = _GvKsRHna;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "effect-insights";

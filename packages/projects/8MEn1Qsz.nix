@@ -96,6 +96,11 @@ let
             "file" = "scrolltweaks-1.0.7+26.1.2-fabric.jar";
             "hash" = "sha512-knbvCWWBrjRuevN98x+20gInX0PWJgZfPN3aD4PkfhPlL7P2o8xQxGOY0pN+lgW09ZiBSB0uMbX//QvBNs/3Qw==";
         };
+        _oLNeNkt9 = {
+            "id" = "oLNeNkt9";
+            "file" = "scrolltweaks-1.0.7+1.8.9-fabric.jar";
+            "hash" = "sha512-c0T1mVZU0+mtnCGTazP44E/F2JExdodtBY9GC3bkro5qRcKVNdgC7BqJ9tkE8Rb34LgCE+KDKxeFtpO+IurINg==";
+        };
     in {
         "Na3xwL0J" = _Na3xwL0J;
         "DZl11MB4" = _DZl11MB4;
@@ -116,6 +121,7 @@ let
         "lulLiQZV" = _lulLiQZV;
         "opQGb6sI" = _opQGb6sI;
         "w6y36tPN" = _w6y36tPN;
+        "oLNeNkt9" = _oLNeNkt9;
         "fabric-1.20" = _ckjYgyQo;
         "fabric-1.20.1" = _ckjYgyQo;
         "fabric-1.20.2" = _ckjYgyQo;
@@ -144,6 +150,7 @@ let
         "neoforge-1.21.5" = _6m4Sqr2n;
         "neoforge-1.21.8" = _6m4Sqr2n;
         "neoforge-1.21.10" = _6m4Sqr2n;
+        "ornithe-1.8.9" = _oLNeNkt9;
         "pkg-1.0.0" = _Na3xwL0J;
         "pkg-1.0.1" = _6QUnouFS;
         "pkg-1.0.2" = _mipWIUvb;
@@ -151,8 +158,8 @@ let
         "pkg-1.0.4" = _7msF6e57;
         "pkg-1.0.5" = _lulLiQZV;
         "pkg-1.0.6" = _opQGb6sI;
-        "pkg-1.0.7" = _w6y36tPN;
-        "default" = _w6y36tPN;
+        "pkg-1.0.7" = _oLNeNkt9;
+        "default" = _oLNeNkt9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scrolltweaks";

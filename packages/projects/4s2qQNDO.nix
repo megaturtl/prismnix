@@ -261,6 +261,16 @@ let
             "file" = "blaze-rod-recipe-1.0.jar";
             "hash" = "sha512-fjcfy93O+7TTC3kKkXYqpzpifXvxx9rMKyI/SetjUy/7wZXlyU2ZgH55oytpFSXfenvAPS7qwnhx+bDP9YxDMw==";
         };
+        _nakx94aS = {
+            "id" = "nakx94aS";
+            "file" = "blaze_rod-26.3.zip";
+            "hash" = "sha512-qNha0/MYzCQU0IYUJHhqwgVaZMjv609ZUe46Gi+TsR8FiMCEpyLjq2Vnp5DrqAR829Dsnq8DwkYOZX7bcAnRCw==";
+        };
+        _U0m50lO3 = {
+            "id" = "U0m50lO3";
+            "file" = "blaze-rod-recipe-1.0.jar";
+            "hash" = "sha512-8i+22htoXa6eTwyHyw3E+0uJ1oiiw0Ov5Qx9FWz21gIRzLGB+amZCoHe00p4WfbVv8r966IIToZD+95JmhvzAQ==";
+        };
     in {
         "x0hI5iAv" = _x0hI5iAv;
         "iBZncDWh" = _iBZncDWh;
@@ -314,6 +324,8 @@ let
         "EAltEJwb" = _EAltEJwb;
         "MP7RDlU5" = _MP7RDlU5;
         "Zs7pcbx5" = _Zs7pcbx5;
+        "nakx94aS" = _nakx94aS;
+        "U0m50lO3" = _U0m50lO3;
         "datapack-1.13" = _x0hI5iAv;
         "datapack-1.13.1" = _x0hI5iAv;
         "datapack-1.13.2" = _x0hI5iAv;
@@ -383,6 +395,7 @@ let
         "datapack-26.2-snapshot-2" = _lIkPeYcq;
         "datapack-26.2" = _MP7RDlU5;
         "datapack-26.3-snapshot-1" = _MP7RDlU5;
+        "datapack-26.3" = _nakx94aS;
         "fabric-1.13" = _hOap4IrQ;
         "fabric-1.13.1" = _hOap4IrQ;
         "fabric-1.13.2" = _hOap4IrQ;
@@ -452,6 +465,7 @@ let
         "fabric-26.2-snapshot-2" = _K44oMnIP;
         "fabric-26.2" = _Zs7pcbx5;
         "fabric-26.3-snapshot-1" = _Zs7pcbx5;
+        "fabric-26.3" = _U0m50lO3;
         "forge-1.13" = _hOap4IrQ;
         "forge-1.13.1" = _hOap4IrQ;
         "forge-1.13.2" = _hOap4IrQ;
@@ -521,6 +535,7 @@ let
         "forge-26.2-snapshot-2" = _K44oMnIP;
         "forge-26.2" = _Zs7pcbx5;
         "forge-26.3-snapshot-1" = _Zs7pcbx5;
+        "forge-26.3" = _U0m50lO3;
         "neoforge-1.13" = _hOap4IrQ;
         "neoforge-1.13.1" = _hOap4IrQ;
         "neoforge-1.13.2" = _hOap4IrQ;
@@ -590,6 +605,7 @@ let
         "neoforge-26.2-snapshot-2" = _K44oMnIP;
         "neoforge-26.2" = _Zs7pcbx5;
         "neoforge-26.3-snapshot-1" = _Zs7pcbx5;
+        "neoforge-26.3" = _U0m50lO3;
         "quilt-1.13" = _hOap4IrQ;
         "quilt-1.13.1" = _hOap4IrQ;
         "quilt-1.13.2" = _hOap4IrQ;
@@ -659,11 +675,12 @@ let
         "quilt-26.2-snapshot-2" = _K44oMnIP;
         "quilt-26.2" = _Zs7pcbx5;
         "quilt-26.3-snapshot-1" = _Zs7pcbx5;
-        "pkg-1.0" = _MP7RDlU5;
-        "pkg-1.0+mod" = _Zs7pcbx5;
+        "quilt-26.3" = _U0m50lO3;
+        "pkg-1.0" = _nakx94aS;
+        "pkg-1.0+mod" = _U0m50lO3;
         "pkg-1.21.9" = _cS73EiVi;
         "pkg-1.21.9+mod" = _2MuKjavz;
-        "default" = _Zs7pcbx5;
+        "default" = _U0m50lO3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blaze-rod-recipe";

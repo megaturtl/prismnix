@@ -106,6 +106,11 @@ let
             "file" = "Better Lanterns v1.3.2 - 26.2.zip";
             "hash" = "sha512-4972yQkz9nYyyx513GXcxhJc9qMQravKbo786zJAnFhtvdCzrdS7OXI6THNT/Fb/A09bI0ieqUbsxzA/iwuyCA==";
         };
+        _QTHWcFmF = {
+            "id" = "QTHWcFmF";
+            "file" = "Better Lanterns v1.4.0 - 26.2+26.3.zip";
+            "hash" = "sha512-H5IXUNRQfQp+vMwMWzlzc+kNHxHJ2UtsKgBs9hw6HipZfJQS61vt0h+7636vpL99ANZ33SB9KURP+jiXvtXHhw==";
+        };
     in {
         "ECvKRwfX" = _ECvKRwfX;
         "1HO0CtN0" = _1HO0CtN0;
@@ -128,6 +133,7 @@ let
         "CTRXQvvr" = _CTRXQvvr;
         "wfM00H4G" = _wfM00H4G;
         "7jOhk8jT" = _7jOhk8jT;
+        "QTHWcFmF" = _QTHWcFmF;
         "minecraft-1.19" = _ECvKRwfX;
         "minecraft-1.19.1" = _ECvKRwfX;
         "minecraft-1.19.2" = _ECvKRwfX;
@@ -155,7 +161,8 @@ let
         "minecraft-26.1" = _wfM00H4G;
         "minecraft-26.1.1" = _wfM00H4G;
         "minecraft-26.1.2" = _wfM00H4G;
-        "minecraft-26.2" = _7jOhk8jT;
+        "minecraft-26.2" = _QTHWcFmF;
+        "minecraft-26.3" = _QTHWcFmF;
         "pkg-1.0" = _ECvKRwfX;
         "pkg-1.1" = _kBExFXdj;
         "pkg-1.1.1" = _R7iIzyn9;
@@ -175,7 +182,8 @@ let
         "pkg-1.3.1-mc1.21.11" = _CTRXQvvr;
         "pkg-1.3.2-mc26.1" = _wfM00H4G;
         "pkg-1.3.2-mc26.2" = _7jOhk8jT;
-        "default" = _7jOhk8jT;
+        "pkg-1.4.0-mc26.2+26.3" = _QTHWcFmF;
+        "default" = _QTHWcFmF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-lanterns";

@@ -91,6 +91,16 @@ let
             "file" = "forest_ruins-1.0.0 Neoforge 26.2.jar";
             "hash" = "sha512-OJ4nyM5+v1OLkZhpBEgaRDWwl8KCon032l5dFhWeCm06+tIRPw+r76p+pGnHl5oFNjnSGdizLrIABQ42baJqiw==";
         };
+        _iehufsZX = {
+            "id" = "iehufsZX";
+            "file" = "forest_ruins-1.0.0 Fabric 26.3.jar";
+            "hash" = "sha512-QGpgro9xBSI8QjHlvEHHsWIeY6R/+8Y8gNkh6FoLfsjeB0xNNSP4gPD2Yfeam46RFh5IS8cEWuOxWhQFfMfiUA==";
+        };
+        _xIqDEbr4 = {
+            "id" = "xIqDEbr4";
+            "file" = "forest_ruins-1.0.0 Neoforge 26.3.jar";
+            "hash" = "sha512-odGnP7JRqvAQcINPTzOrpbFbgsKJOTkQmZGtzhYXku0BdfIT53Th03A0unJUaTlCvSsfs2rwE1BdImYBZgoueg==";
+        };
     in {
         "UOUrScTX" = _UOUrScTX;
         "HS3T8C8B" = _HS3T8C8B;
@@ -110,6 +120,8 @@ let
         "xxBd2DfR" = _xxBd2DfR;
         "KHZhmeaL" = _KHZhmeaL;
         "tqXTl03k" = _tqXTl03k;
+        "iehufsZX" = _iehufsZX;
+        "xIqDEbr4" = _xIqDEbr4;
         "forge-1.17.1" = _UOUrScTX;
         "forge-1.18.2" = _HS3T8C8B;
         "forge-1.19.2" = _vPnml0Aq;
@@ -121,15 +133,17 @@ let
         "fabric-1.21.1" = _6DguRAji;
         "fabric-26.1.2" = _EXCAi9Dv;
         "fabric-26.2" = _KHZhmeaL;
+        "fabric-26.3" = _iehufsZX;
         "neoforge-1.21.1" = _QmCe1Fcg;
         "neoforge-1.21.4" = _3V2ygsHA;
         "neoforge-1.21.8" = _YJ08D76c;
         "neoforge-1.21.11" = _iSgTowGv;
         "neoforge-26.1.2" = _xxBd2DfR;
         "neoforge-26.2" = _tqXTl03k;
-        "pkg-1.0.0" = _tqXTl03k;
+        "neoforge-26.3" = _xIqDEbr4;
+        "pkg-1.0.0" = _xIqDEbr4;
         "pkg-1.0.1" = _UrT79mCb;
-        "default" = _tqXTl03k;
+        "default" = _xIqDEbr4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "forest-ruins";

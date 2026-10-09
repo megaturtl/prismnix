@@ -81,6 +81,11 @@ let
             "file" = "babyfat-polymerized-1.0.9+26.1.jar";
             "hash" = "sha512-wqjvTXWMjhSgXY4Ul4lxR8rL5JuYfi8+zzfI/oDayY9sOPRayEniiUVcEIsTO8qgUr2EYalLkMOGmwEM5SFkXg==";
         };
+        _7WWn5Pfl = {
+            "id" = "7WWn5Pfl";
+            "file" = "babyfat-polymerized-1.0.14+26.3.jar";
+            "hash" = "sha512-nv8HQVYaFXiZ37QERhJZpm+SjBVRhtSUdBtrhnVF/JyfY33QyBBmRDV3MzedfgRjvTvTk8sxDxZqoDxVwzfC7A==";
+        };
     in {
         "bv4M1FO6" = _bv4M1FO6;
         "qjYM2HjI" = _qjYM2HjI;
@@ -98,6 +103,7 @@ let
         "cn8qomik" = _cn8qomik;
         "LM3yP6I8" = _LM3yP6I8;
         "uR2l2gUI" = _uR2l2gUI;
+        "7WWn5Pfl" = _7WWn5Pfl;
         "fabric-1.20.1" = _bv4M1FO6;
         "fabric-1.21" = _qjYM2HjI;
         "fabric-1.21.1" = _qjYM2HjI;
@@ -117,6 +123,7 @@ let
         "fabric-26.1" = _uR2l2gUI;
         "fabric-26.1.1" = _uR2l2gUI;
         "fabric-26.1.2" = _uR2l2gUI;
+        "fabric-26.3" = _7WWn5Pfl;
         "pkg-1.0.0+1.20.1" = _bv4M1FO6;
         "pkg-1.0.0+1.21" = _qjYM2HjI;
         "pkg-1.0.0+1.21.2-rc1" = _GkCocEOX;
@@ -133,7 +140,8 @@ let
         "pkg-1.0.8+1.21.9-rc1" = _cn8qomik;
         "pkg-1.0.8+1.21.11" = _LM3yP6I8;
         "pkg-1.0.9+26.1" = _uR2l2gUI;
-        "default" = _uR2l2gUI;
+        "pkg-1.0.14+26.3" = _7WWn5Pfl;
+        "default" = _7WWn5Pfl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "baby-fat-polymer";

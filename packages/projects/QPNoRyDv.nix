@@ -451,6 +451,16 @@ let
             "file" = "Rethoughted Trident.zip";
             "hash" = "sha512-p1+bHbBm3vqxuIjOzYrLcIC0R9aiDULFxTVVphbUCtom00A7V2uYrFr7PXONzolhJkris9yNDMd0B+btl7RHQw==";
         };
+        _qyxvTZ9H = {
+            "id" = "qyxvTZ9H";
+            "file" = "Rethoughted Trident Lite.zip";
+            "hash" = "sha512-JXJRnoxL0eR14rEp0u5o8d7XuGpdcNCJmQqvx6QRNh4Gyx8nTus962zf0ii4Ksvnbrj2wdxgZwQi6JHwFOH6iQ==";
+        };
+        _UKlvvqPZ = {
+            "id" = "UKlvvqPZ";
+            "file" = "Rethoughted Trident.zip";
+            "hash" = "sha512-UbQ3VSfA2ZmagJ0v63X8+2E8mTjG2mU9DAGY54ElGD3eNOFJ1YR+oc6GHo6GzIsk/iwxK2v4PWjewf2UNi+bNQ==";
+        };
     in {
         "cKmXf6jR" = _cKmXf6jR;
         "55X0FyYd" = _55X0FyYd;
@@ -542,6 +552,8 @@ let
         "DxVgqdUW" = _DxVgqdUW;
         "5VYJF2mX" = _5VYJF2mX;
         "Reez7jX4" = _Reez7jX4;
+        "qyxvTZ9H" = _qyxvTZ9H;
+        "UKlvvqPZ" = _UKlvvqPZ;
         "minecraft-1.19" = _M9ZDtM32;
         "minecraft-1.19.1" = _M9ZDtM32;
         "minecraft-1.19.2" = _M9ZDtM32;
@@ -571,6 +583,7 @@ let
         "minecraft-26.1.1" = _DxVgqdUW;
         "minecraft-26.1.2" = _DxVgqdUW;
         "minecraft-26.2" = _Reez7jX4;
+        "minecraft-26.3" = _UKlvvqPZ;
         "pkg-0.1" = _xt9JkATh;
         "pkg-0.2" = _p1RPuWRT;
         "pkg-0.3" = _fqVdUOUP;
@@ -584,9 +597,9 @@ let
         "pkg-1.2" = _vwqf7p9M;
         "pkg-1.2.1-LITE" = _v5ElRwMS;
         "pkg-1.2.1" = _Jpz3Vpnj;
-        "pkg-1.2.2-LITE" = _5VYJF2mX;
-        "pkg-1.2.2" = _Reez7jX4;
-        "default" = _Reez7jX4;
+        "pkg-1.2.2-LITE" = _qyxvTZ9H;
+        "pkg-1.2.2" = _UKlvvqPZ;
+        "default" = _UKlvvqPZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rethoughted-trident";

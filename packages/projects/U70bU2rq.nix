@@ -36,6 +36,11 @@ let
             "file" = "panda-lead-break-1.0.0+26.2.jar";
             "hash" = "sha512-p3CX618zQE6lUXOz6BtiUZvTSkkpZdczmX1B9I8rTgSQd4VPbJMiGojUPcRs43sHeRqP9aOK7fZa6o2WCqbzWQ==";
         };
+        _goSm9xzL = {
+            "id" = "goSm9xzL";
+            "file" = "panda-lead-break-1.0.0+26.3.jar";
+            "hash" = "sha512-WWrmJbr4J+nqvExMXybr+4K402ovNbu161ZfckNn5Z03Jr9vT7g9VJhY0VEFFLDfJLX8L+yvQFGyuvJbfMamcQ==";
+        };
     in {
         "dO4J2dcC" = _dO4J2dcC;
         "oNZt8GFH" = _oNZt8GFH;
@@ -44,6 +49,7 @@ let
         "OVHq1oX8" = _OVHq1oX8;
         "Hwa90o1k" = _Hwa90o1k;
         "viUUpc9y" = _viUUpc9y;
+        "goSm9xzL" = _goSm9xzL;
         "fabric-1.21.4" = _dO4J2dcC;
         "fabric-1.21.5" = _oNZt8GFH;
         "fabric-1.21.6" = _IhIgJs5s;
@@ -55,6 +61,7 @@ let
         "fabric-26.1.1" = _Hwa90o1k;
         "fabric-26.1.2" = _Hwa90o1k;
         "fabric-26.2" = _viUUpc9y;
+        "fabric-26.3" = _goSm9xzL;
         "pkg-1.0.0_1.21.4" = _dO4J2dcC;
         "pkg-1.0.0_1.21.5" = _oNZt8GFH;
         "pkg-1.0.0_1.21.6+1.21.7" = _IhIgJs5s;
@@ -62,7 +69,8 @@ let
         "pkg-1.0.0_1.21.11" = _OVHq1oX8;
         "pkg-1.0.0+26.1.1" = _Hwa90o1k;
         "pkg-1.0.0+26.2" = _viUUpc9y;
-        "default" = _viUUpc9y;
+        "pkg-1.0.0+26.3" = _goSm9xzL;
+        "default" = _goSm9xzL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pandaleadbreak";

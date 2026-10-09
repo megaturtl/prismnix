@@ -801,6 +801,21 @@ let
             "file" = "forgified-fabric-api-0.116.15+2.3.5+1.21.1.jar";
             "hash" = "sha512-K0Ts2DlUTjZooC+N6GQz1QdBfQaNyv7uf2mHRPwrEv2Iihu6UJ2lfI4ohNAduvNE9Ju6wPIs2uWZUHNW7Qy+MA==";
         };
+        _n96WMa6s = {
+            "id" = "n96WMa6s";
+            "file" = "forgified-fabric-api-0.155.3+26.1.2+3.5.7.jar";
+            "hash" = "sha512-NWEsfpehBfH3xnPp5/W8QWwFLhAlJpWmBq1Ayh1CkmSINIAOuguWrxmm+MpldWvq5WAV89XYh9tQ/7JhKC8Cnw==";
+        };
+        _jfnj8JHR = {
+            "id" = "jfnj8JHR";
+            "file" = "forgified-fabric-api-0.161.0+26.2+4.0.0.jar";
+            "hash" = "sha512-/2R8QA1LVkET/vfq8aAAVtTEYPf2bQykJ+0ce25zVIzJ9DYvoHoC4rbw9rrvTicZjsL2HHQ+YQf9mBEpKZ5HGw==";
+        };
+        _qnvYPSnI = {
+            "id" = "qnvYPSnI";
+            "file" = "forgified-fabric-api-0.155.3+26.1.2+3.5.8.jar";
+            "hash" = "sha512-oSwKj+PROURabmEWZ/H+RpDr2jxmw5jyfBDdm/ICVdF1KTAo572p4qVLRcMlcKNBWhI7S+aNN3arrpblnjTQGg==";
+        };
     in {
         "Jj3KPVgK" = _Jj3KPVgK;
         "sbT4Fjkz" = _sbT4Fjkz;
@@ -962,12 +977,16 @@ let
         "NwmAx3of" = _NwmAx3of;
         "D1SolqMD" = _D1SolqMD;
         "V9WdDUTx" = _V9WdDUTx;
+        "n96WMa6s" = _n96WMa6s;
+        "jfnj8JHR" = _jfnj8JHR;
+        "qnvYPSnI" = _qnvYPSnI;
         "forge-1.20.1" = _g0MxcWXy;
         "neoforge-1.21" = _K5REyk0w;
         "neoforge-1.21.1" = _V9WdDUTx;
-        "neoforge-26.1.2" = _D1SolqMD;
-        "neoforge-26.1" = _D1SolqMD;
-        "neoforge-26.1.1" = _D1SolqMD;
+        "neoforge-26.1.2" = _qnvYPSnI;
+        "neoforge-26.1" = _qnvYPSnI;
+        "neoforge-26.1.1" = _qnvYPSnI;
+        "neoforge-26.2" = _jfnj8JHR;
         "pkg-0.85.0+1.4.1+1.20.1" = _Jj3KPVgK;
         "pkg-0.85.0+1.4.2+1.20.1" = _sbT4Fjkz;
         "pkg-0.86.0+1.4.2+1.20.1" = _XHvh7FnM;
@@ -1128,7 +1147,10 @@ let
         "pkg-0.155.2+26.1.2+3.5.4" = _NwmAx3of;
         "pkg-0.155.2+26.1.2+3.5.5" = _D1SolqMD;
         "pkg-0.116.15+2.3.5+1.21.1" = _V9WdDUTx;
-        "default" = _V9WdDUTx;
+        "pkg-0.155.3+26.1.2+3.5.7" = _n96WMa6s;
+        "pkg-0.161.0+26.2+4.0.0" = _jfnj8JHR;
+        "pkg-0.155.3+26.1.2+3.5.8" = _qnvYPSnI;
+        "default" = _qnvYPSnI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "forgified-fabric-api";

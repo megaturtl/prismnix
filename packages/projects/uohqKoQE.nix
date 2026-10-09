@@ -261,6 +261,16 @@ let
             "file" = "mako-2.3.1.jar";
             "hash" = "sha512-YtBVoIh0xvyOw+o5Iu+G0uZLcfNfEDVy8Lm81nZPAEtg2XwJir8JzRNaWutRr9jd2UYWikoiCJJjBMIOSX/41A==";
         };
+        _lHStNQun = {
+            "id" = "lHStNQun";
+            "file" = "mako-2.3.2-neoforge-26.1.2.jar";
+            "hash" = "sha512-TWxgJY3Qcs+Eok1tYzTFtHBLCBNuiP6azgr82fBG5njpvT/+dyE/v2ZwRQ9OsrxysIXvddHLel8YcA7MeaJclQ==";
+        };
+        _RQLS8HDY = {
+            "id" = "RQLS8HDY";
+            "file" = "mako-2.3.2 fabric.jar";
+            "hash" = "sha512-Pr16eTWIrb6bwwLj4jsC5kCiK0KC9zznoIwfateUgscs+si/3EGfqHNN2j5hZbMVh5rU1EsU5xlpnfVb41iF0Q==";
+        };
     in {
         "vNavANqL" = _vNavANqL;
         "soM6d8Gf" = _soM6d8Gf;
@@ -314,6 +324,8 @@ let
         "IGCsKVXH" = _IGCsKVXH;
         "gHZhZO58" = _gHZhZO58;
         "Xi4q4F3X" = _Xi4q4F3X;
+        "lHStNQun" = _lHStNQun;
+        "RQLS8HDY" = _RQLS8HDY;
         "neoforge-1.21.1" = _jzhmWkXJ;
         "neoforge-1.21.2" = _jzhmWkXJ;
         "neoforge-1.21.3" = _jzhmWkXJ;
@@ -328,13 +340,14 @@ let
         "neoforge-1.21.11" = _7TUH3cGQ;
         "neoforge-26.1" = _7TUH3cGQ;
         "neoforge-26.1.1" = _7TUH3cGQ;
-        "neoforge-26.1.2" = _gHZhZO58;
+        "neoforge-26.1.2" = _lHStNQun;
         "fabric-1.21.8" = _C40M7mzz;
         "fabric-1.21.9" = _C40M7mzz;
         "fabric-1.21.10" = _C40M7mzz;
         "fabric-1.21.11" = _C40M7mzz;
-        "fabric-26.1.2" = _Xi4q4F3X;
-        "fabric-26.2" = _Xi4q4F3X;
+        "fabric-26.1.2" = _RQLS8HDY;
+        "fabric-26.2" = _RQLS8HDY;
+        "fabric-26.3" = _RQLS8HDY;
         "pkg-1.0.1" = _vNavANqL;
         "pkg-1.0.2" = _soM6d8Gf;
         "pkg-1.0.3" = _YBLPfieN;
@@ -382,7 +395,8 @@ let
         "pkg-2.2.9" = _bwHfWwQR;
         "pkg-2.3.0" = _IGCsKVXH;
         "pkg-2.3.1" = _Xi4q4F3X;
-        "default" = _Xi4q4F3X;
+        "pkg-2.3.2" = _RQLS8HDY;
+        "default" = _RQLS8HDY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mako-mermaids-mod";

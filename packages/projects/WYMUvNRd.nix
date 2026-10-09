@@ -146,6 +146,11 @@ let
             "file" = "ApolloBridge-v1.3.1.b19-2026-09-02.jar";
             "hash" = "sha512-8vFt8A5XyHXXhUfYAmovquCyLoMAZ08c4wfGT0mx0siwKzgsCucOfJ+7fo/P6XNzUx1U8nUpdPTqL18gyOVuyw==";
         };
+        _ulaa5qwf = {
+            "id" = "ulaa5qwf";
+            "file" = "ApolloBridge-v1.3.1.b20-2026-09-29.jar";
+            "hash" = "sha512-g1GEdkbHWKWw4p4h+5sFv16J5G4x9MvWPs01D8xh5v9HL8/JEgM/FPrcCwH/izUx2MQ1+bWVIzBFCM9m01DA+w==";
+        };
     in {
         "xWCqHyj2" = _xWCqHyj2;
         "wPUCilwH" = _wPUCilwH;
@@ -176,7 +181,8 @@ let
         "uUP7UH4X" = _uUP7UH4X;
         "FNP3RBuN" = _FNP3RBuN;
         "cx78hKV2" = _cx78hKV2;
-        "forge-1.7.10" = _cx78hKV2;
+        "ulaa5qwf" = _ulaa5qwf;
+        "forge-1.7.10" = _ulaa5qwf;
         "pkg-1.2.6b" = _7sNfBiyi;
         "pkg-1.2.7.b50" = _Ake9AdEc;
         "pkg-1.2.7.b51" = _ojgjtC7B;
@@ -198,7 +204,8 @@ let
         "pkg-1.3.1" = _aDBCW0tF;
         "pkg-1.3.1.b18" = _FNP3RBuN;
         "pkg-1.3.1.b19" = _cx78hKV2;
-        "default" = _cx78hKV2;
+        "pkg-1.3.1.b20" = _ulaa5qwf;
+        "default" = _ulaa5qwf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "db-apollo-bridge";

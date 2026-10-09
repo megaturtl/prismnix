@@ -976,6 +976,16 @@ let
             "file" = "betterdays-26.2-neoforge-4.1.1.7-NEOFORGE.jar";
             "hash" = "sha512-u1pZ/l8QpKTTUwvq5/cqiYN/N6ZIb0EkRMRDQsPrV/4Mk0GVHyAqtMkqj+cXTOnqSgtMriafAdBEBTj89RZ3PQ==";
         };
+        _nGUdicIW = {
+            "id" = "nGUdicIW";
+            "file" = "betterdays-26.3-fabric-4.1.1.7-FABRIC.jar";
+            "hash" = "sha512-3GHGV5/uxQPcWUD8CFhDYGoSXYLhtRRLq0gALFVB+QHQ68OjwOnSkIb3aj87UPwMubju1BTUE0nx+EHsP23buw==";
+        };
+        _5jl3V5Dw = {
+            "id" = "5jl3V5Dw";
+            "file" = "betterdays-26.3-neoforge-4.1.1.7-NEOFORGE.jar";
+            "hash" = "sha512-gSuN205ojvPdQLUK7t0yzAbckbiZxdvhWCBYL77d7gUAYiN/LZepy9CPGQ3frrbtrekqrGZq7nd7ArbgV+4Uog==";
+        };
     in {
         "ppTvMkcQ" = _ppTvMkcQ;
         "6QftivWi" = _6QftivWi;
@@ -1172,6 +1182,8 @@ let
         "wVcgrprN" = _wVcgrprN;
         "fOWyja8s" = _fOWyja8s;
         "r7bWdaRP" = _r7bWdaRP;
+        "nGUdicIW" = _nGUdicIW;
+        "5jl3V5Dw" = _5jl3V5Dw;
         "fabric-1.19.2" = _Tvbm9xt4;
         "fabric-1.19.4" = _rP0FLAoT;
         "fabric-1.20" = _vBPw1HR6;
@@ -1192,6 +1204,7 @@ let
         "fabric-26.1.1" = _P73zAmiF;
         "fabric-26.1.2" = _P73zAmiF;
         "fabric-26.2" = _fOWyja8s;
+        "fabric-26.3" = _nGUdicIW;
         "forge-1.20" = _7hKBiPWL;
         "forge-1.20.1" = _gWa5dl34;
         "forge-1.19.2" = _MdGdgayz;
@@ -1213,6 +1226,7 @@ let
         "neoforge-26.1.1" = _wVcgrprN;
         "neoforge-26.1.2" = _wVcgrprN;
         "neoforge-26.2" = _r7bWdaRP;
+        "neoforge-26.3" = _5jl3V5Dw;
         "pkg-1.19.2-1.1.0.1-FABRIC" = _ppTvMkcQ;
         "pkg-1.19.4-2.0.0.1-FABRIC" = _6QftivWi;
         "pkg-1.20.1-3.0.0.0-FABRIC" = _TddICzRK;
@@ -1406,7 +1420,9 @@ let
         "pkg-26.1.2-4.1.1.7-NEOFORGE" = _wVcgrprN;
         "pkg-26.2-4.1.1.7-FABRIC" = _fOWyja8s;
         "pkg-26.2-4.1.1.7-NEOFORGE" = _r7bWdaRP;
-        "default" = _r7bWdaRP;
+        "pkg-26.3-4.1.1.7-FABRIC" = _nGUdicIW;
+        "pkg-26.3-4.1.1.7-NEOFORGE" = _5jl3V5Dw;
+        "default" = _5jl3V5Dw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betterdays";

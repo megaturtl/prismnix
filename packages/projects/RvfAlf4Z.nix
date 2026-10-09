@@ -76,6 +76,11 @@ let
             "file" = "Redstone Tweaks 2.5.5.zip";
             "hash" = "sha512-0iSfPsdbALAFG9oZKfp0Hq6ZTCX7lOanGwXIBjEuf1jJMU9776O9RDKiIUGVA9KzqbxmsmVRtOdBtHc0ctOObw==";
         };
+        _A19pA3wb = {
+            "id" = "A19pA3wb";
+            "file" = "Redstone Tweaks 2.5.6.zip";
+            "hash" = "sha512-MdLnBT4awE3a93Ca9moIe3b6kaIRrOQMrgNX89yL2YG8lDyl9OyFE8AVYlImTuHhGAFpohRjmG4ynl3cOAsdiA==";
+        };
     in {
         "9MLv6BGf" = _9MLv6BGf;
         "WoIz1PhZ" = _WoIz1PhZ;
@@ -92,6 +97,7 @@ let
         "XauQUBeR" = _XauQUBeR;
         "87RqdzfV" = _87RqdzfV;
         "bA10HIV5" = _bA10HIV5;
+        "A19pA3wb" = _A19pA3wb;
         "minecraft-1.20" = _9MLv6BGf;
         "minecraft-1.20.1" = _9MLv6BGf;
         "minecraft-1.20.2" = _nYqiATsF;
@@ -111,10 +117,11 @@ let
         "minecraft-1.21.9" = _XauQUBeR;
         "minecraft-1.21.10" = _XauQUBeR;
         "minecraft-1.21.11" = _XauQUBeR;
-        "minecraft-26.1" = _bA10HIV5;
-        "minecraft-26.1.1" = _bA10HIV5;
-        "minecraft-26.1.2" = _bA10HIV5;
-        "minecraft-26.2" = _bA10HIV5;
+        "minecraft-26.1" = _A19pA3wb;
+        "minecraft-26.1.1" = _A19pA3wb;
+        "minecraft-26.1.2" = _A19pA3wb;
+        "minecraft-26.2" = _A19pA3wb;
+        "minecraft-26.3" = _A19pA3wb;
         "pkg-2.3" = _9MLv6BGf;
         "pkg-2.4" = _WoIz1PhZ;
         "pkg-2.4.1" = _bhKc6ERD;
@@ -130,7 +137,8 @@ let
         "pkg-2.5.3" = _XauQUBeR;
         "pkg-2.5.4" = _87RqdzfV;
         "pkg-2.5.5" = _bA10HIV5;
-        "default" = _bA10HIV5;
+        "pkg-2.5.6" = _A19pA3wb;
+        "default" = _A19pA3wb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "redstone-tweaks";

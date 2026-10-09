@@ -221,6 +221,16 @@ let
             "file" = "chest-locker-v3.2.3.jar";
             "hash" = "sha512-Du1Ux+NT4qW94yoJpdnqxe0crG5s8CEG0MwqKvoKsWIUTTGUVwLzwOo8AUjfiaK/3hMphQ6Ejj7wuxXJeO3+Tg==";
         };
+        _vKGxmyeI = {
+            "id" = "vKGxmyeI";
+            "file" = "ChestLocker v3.2.3 - 26.3.zip";
+            "hash" = "sha512-KScvJJx9+N0QmSir2Uey4bCrmiGG0sNDLcQmPJkcaJdOTUb87YirzzOU+bv3MyU19P4abqBTniNccaA5tOa1UQ==";
+        };
+        _7k0vzovc = {
+            "id" = "7k0vzovc";
+            "file" = "chest-locker-v3.2.3.jar";
+            "hash" = "sha512-070f+TIoiiRDTHPqaxUEY7meFaDMpJFwwDLY12e+DvIAjPOIN0K/GvUazvgNZtFsh35cFgHXf27rYoqvBhMLJQ==";
+        };
     in {
         "DXFq2xT4" = _DXFq2xT4;
         "o1Sms8HN" = _o1Sms8HN;
@@ -266,6 +276,8 @@ let
         "OEi430J0" = _OEi430J0;
         "uYIAkVuW" = _uYIAkVuW;
         "AbPjW4ut" = _AbPjW4ut;
+        "vKGxmyeI" = _vKGxmyeI;
+        "7k0vzovc" = _7k0vzovc;
         "datapack-1.16.2" = _DXFq2xT4;
         "datapack-1.16.3" = _DXFq2xT4;
         "datapack-1.16.4" = _DXFq2xT4;
@@ -301,6 +313,7 @@ let
         "datapack-26.1.1" = _ikQM2z7x;
         "datapack-26.1.2" = _ikQM2z7x;
         "datapack-26.2" = _uYIAkVuW;
+        "datapack-26.3" = _vKGxmyeI;
         "fabric-1.20.5" = _yAqIWuxI;
         "fabric-1.20.6" = _yAqIWuxI;
         "fabric-1.21.4" = _ly0heetJ;
@@ -317,6 +330,7 @@ let
         "fabric-26.1.1" = _OEi430J0;
         "fabric-26.1.2" = _OEi430J0;
         "fabric-26.2" = _AbPjW4ut;
+        "fabric-26.3" = _7k0vzovc;
         "forge-1.20.5" = _yAqIWuxI;
         "forge-1.20.6" = _yAqIWuxI;
         "forge-1.21.4" = _ly0heetJ;
@@ -331,6 +345,7 @@ let
         "forge-26.1.1" = _OEi430J0;
         "forge-26.1.2" = _OEi430J0;
         "forge-26.2" = _AbPjW4ut;
+        "forge-26.3" = _7k0vzovc;
         "quilt-1.20.5" = _yAqIWuxI;
         "quilt-1.20.6" = _yAqIWuxI;
         "quilt-1.21.4" = _ly0heetJ;
@@ -345,6 +360,7 @@ let
         "quilt-26.1.1" = _OEi430J0;
         "quilt-26.1.2" = _OEi430J0;
         "quilt-26.2" = _AbPjW4ut;
+        "quilt-26.3" = _7k0vzovc;
         "neoforge-1.21.4" = _ly0heetJ;
         "neoforge-1.21.5" = _9Y6vU0rB;
         "neoforge-1.21.6" = _9Y6vU0rB;
@@ -357,6 +373,7 @@ let
         "neoforge-26.1.1" = _OEi430J0;
         "neoforge-26.1.2" = _OEi430J0;
         "neoforge-26.2" = _AbPjW4ut;
+        "neoforge-26.3" = _7k0vzovc;
         "pkg-v1.0.0" = _DXFq2xT4;
         "pkg-v2.0.0" = _o1Sms8HN;
         "pkg-v2.0.0+mod" = _yAqIWuxI;
@@ -382,9 +399,9 @@ let
         "pkg-v3.2.1+mod" = _ox6B0lhw;
         "pkg-v3.2.2" = _8lKT9jiu;
         "pkg-v3.2.2+mod" = _XJLHQ986;
-        "pkg-v3.2.3" = _uYIAkVuW;
-        "pkg-v3.2.3+mod" = _AbPjW4ut;
-        "default" = _AbPjW4ut;
+        "pkg-v3.2.3" = _vKGxmyeI;
+        "pkg-v3.2.3+mod" = _7k0vzovc;
+        "default" = _7k0vzovc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chest-locker";

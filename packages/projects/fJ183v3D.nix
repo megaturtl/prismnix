@@ -86,6 +86,11 @@ let
             "file" = "SSRD-1.8.6-1.21.1.jar";
             "hash" = "sha512-Sr9ed0OanuWKtFcgSHtRrV5YZCqXwkCiiuXN/NSvdzd8l8GxJJFv50p6Fs5HCB5fS+prv7IxKNpnF3lMnlSxLw==";
         };
+        _iZflRKdV = {
+            "id" = "iZflRKdV";
+            "file" = "SSRD-1.8.7-1.21.1.jar";
+            "hash" = "sha512-+wm7Z5ny+diwUbyHkgpJ7mgxnDWNDSO+W+rqREVCvoM2pS9xtX+B6Icd8nT+LhMQEhuQo63tYVQh6EvNbfuuRw==";
+        };
     in {
         "Zln1DwJV" = _Zln1DwJV;
         "fUtsd2ok" = _fUtsd2ok;
@@ -104,7 +109,8 @@ let
         "yJZ1txdd" = _yJZ1txdd;
         "OSM1jkMg" = _OSM1jkMg;
         "hZfIK5Wl" = _hZfIK5Wl;
-        "neoforge-1.21.1" = _hZfIK5Wl;
+        "iZflRKdV" = _iZflRKdV;
+        "neoforge-1.21.1" = _iZflRKdV;
         "pkg-0.1" = _Zln1DwJV;
         "pkg-0.2" = _fUtsd2ok;
         "pkg-0.3" = _SQ9q5sG9;
@@ -122,7 +128,8 @@ let
         "pkg-1.8.4" = _yJZ1txdd;
         "pkg-1.8.5" = _OSM1jkMg;
         "pkg-1.8.6" = _hZfIK5Wl;
-        "default" = _hZfIK5Wl;
+        "pkg-1.8.7" = _iZflRKdV;
+        "default" = _iZflRKdV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ssrd";

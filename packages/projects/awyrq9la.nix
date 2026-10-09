@@ -146,6 +146,11 @@ let
             "file" = "eg_stop_unloading_my_shaders-1.5.1+26.2-neoforge.jar";
             "hash" = "sha512-noKLeFbHyczH6KgCp9G4QugCUBmFqbhtbkkMEGPVZ5yzPo1k6/xMnhDJiZthMoMMd6XMQFvIqd7wJicyZNQa4Q==";
         };
+        _4KWSFH5H = {
+            "id" = "4KWSFH5H";
+            "file" = "eg_stop_unloading_my_shaders-1.6.0+26.3-fabric.jar";
+            "hash" = "sha512-eQnvhgsg5aPPyn5qPx5YtwtZpZK965xJUfpJbTIqPqdS5PTUPsO9lsL/8xprtaadsVloBOsm77r5aChr2B+7Ug==";
+        };
     in {
         "G6xjTYg8" = _G6xjTYg8;
         "uLxKUFmy" = _uLxKUFmy;
@@ -176,6 +181,7 @@ let
         "dYLpZL0Z" = _dYLpZL0Z;
         "lvciRP6I" = _lvciRP6I;
         "5Y2QnFkH" = _5Y2QnFkH;
+        "4KWSFH5H" = _4KWSFH5H;
         "neoforge-1.21.8" = _BOBw6dgN;
         "neoforge-1.21.6" = _BOBw6dgN;
         "neoforge-1.21.7" = _BOBw6dgN;
@@ -212,6 +218,7 @@ let
         "fabric-26.1.2" = _jxAeTIeA;
         "fabric-26.2-snapshot-1" = _dYLpZL0Z;
         "fabric-26.2" = _lvciRP6I;
+        "fabric-26.3" = _4KWSFH5H;
         "pkg-1.0.1" = _uLxKUFmy;
         "pkg-1.0.2" = _v2l3xe0q;
         "pkg-1.0.3" = _XLc1XB9H;
@@ -234,7 +241,8 @@ let
         "pkg-1.5.0+26.2-snapshot-1-fabric" = _dYLpZL0Z;
         "pkg-1.5.1+26.2-fabric" = _lvciRP6I;
         "pkg-1.5.1+26.2-neoforge" = _5Y2QnFkH;
-        "default" = _5Y2QnFkH;
+        "pkg-1.6.0+26.3-fabric" = _4KWSFH5H;
+        "default" = _4KWSFH5H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stop-unloading-my-resourcepacks";

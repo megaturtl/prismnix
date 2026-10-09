@@ -31,6 +31,11 @@ let
             "file" = "HitSound-mc26.2.jar";
             "hash" = "sha512-CYxMTDZAFjSJfjorSOUumzub98yqpPfWtlZzFuUQWUhGeF1SgUCR81w/B+dQAk43BaQUGDUlcpBAR/9kVkDtyw==";
         };
+        _85xe8fzj = {
+            "id" = "85xe8fzj";
+            "file" = "HitSound-mc26.3.jar";
+            "hash" = "sha512-2KnA5dw525U29sCpHXoGxtj0Yo6w7CIGfrXGMhrNn70phF9YOm0fNlHoEsMGriMfwYQEsy/OuB3SlS6y/e+RnQ==";
+        };
     in {
         "dqiE3VMc" = _dqiE3VMc;
         "t6L8oHfQ" = _t6L8oHfQ;
@@ -38,6 +43,7 @@ let
         "DMn9QCGq" = _DMn9QCGq;
         "xO6xXBuk" = _xO6xXBuk;
         "A0WEWntP" = _A0WEWntP;
+        "85xe8fzj" = _85xe8fzj;
         "fabric-1.20.1" = _xO6xXBuk;
         "fabric-1.20.2" = _xO6xXBuk;
         "fabric-1.20.3" = _xO6xXBuk;
@@ -61,9 +67,10 @@ let
         "fabric-26.1.2" = _DMn9QCGq;
         "fabric-1.20" = _xO6xXBuk;
         "fabric-26.2" = _A0WEWntP;
+        "fabric-26.3" = _85xe8fzj;
         "pkg-1.0" = _A0WEWntP;
-        "pkg-1.1" = _xO6xXBuk;
-        "default" = _A0WEWntP;
+        "pkg-1.1" = _85xe8fzj;
+        "default" = _85xe8fzj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hitsound";

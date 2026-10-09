@@ -61,6 +61,16 @@ let
             "file" = "sword-trims-26.2.jar";
             "hash" = "sha512-52dvfUKkAiNZnm6m6PqJu5dgo1f4dM17yTv8MPxSdNPtwQ0pxIVItJEmDylGNvHcyqYQ+mvIO5odmnneTPJgkw==";
         };
+        _lfTSz69m = {
+            "id" = "lfTSz69m";
+            "file" = "sword_trims_26.3.zip";
+            "hash" = "sha512-iYdcpN//Kv02SZljrFQ2zIZ2w3FZBHM+5UkXDXMJpKd212duK2FgQ4ZBVcwBWBQjbSxyFtZGdLqfBsgubSrzGQ==";
+        };
+        _xxhZj3vL = {
+            "id" = "xxhZj3vL";
+            "file" = "sword-trims-26.3.jar";
+            "hash" = "sha512-/7638DqpbqQs2aQdlen6WCZss/Zf+s/lVZRSKIC3cPNOZ+uGEXEJ9nzuTHzZr5cwkQqQQu9jVnl/x44swYiaug==";
+        };
     in {
         "lRaLO7BF" = _lRaLO7BF;
         "Ww0dZvYc" = _Ww0dZvYc;
@@ -74,6 +84,8 @@ let
         "sOmX621r" = _sOmX621r;
         "bKK6CLgc" = _bKK6CLgc;
         "wKocxK4D" = _wKocxK4D;
+        "lfTSz69m" = _lfTSz69m;
+        "xxhZj3vL" = _xxhZj3vL;
         "datapack-1.21.9" = _U9TytWPx;
         "datapack-1.21.10" = _U9TytWPx;
         "datapack-1.21.11" = _69FSgDRM;
@@ -81,6 +93,7 @@ let
         "datapack-26.1.1" = _EpnmDyCJ;
         "datapack-26.1.2" = _EpnmDyCJ;
         "datapack-26.2" = _bKK6CLgc;
+        "datapack-26.3" = _lfTSz69m;
         "fabric-1.21.9" = _3VjwhmVC;
         "fabric-1.21.10" = _3VjwhmVC;
         "fabric-1.21.11" = _dj8GWgBF;
@@ -88,6 +101,7 @@ let
         "fabric-26.1.1" = _sOmX621r;
         "fabric-26.1.2" = _sOmX621r;
         "fabric-26.2" = _wKocxK4D;
+        "fabric-26.3" = _xxhZj3vL;
         "forge-1.21.9" = _3VjwhmVC;
         "forge-1.21.10" = _3VjwhmVC;
         "forge-1.21.11" = _dj8GWgBF;
@@ -95,6 +109,7 @@ let
         "forge-26.1.1" = _sOmX621r;
         "forge-26.1.2" = _sOmX621r;
         "forge-26.2" = _wKocxK4D;
+        "forge-26.3" = _xxhZj3vL;
         "neoforge-1.21.9" = _3VjwhmVC;
         "neoforge-1.21.10" = _3VjwhmVC;
         "neoforge-1.21.11" = _dj8GWgBF;
@@ -102,6 +117,7 @@ let
         "neoforge-26.1.1" = _sOmX621r;
         "neoforge-26.1.2" = _sOmX621r;
         "neoforge-26.2" = _wKocxK4D;
+        "neoforge-26.3" = _xxhZj3vL;
         "quilt-1.21.9" = _3VjwhmVC;
         "quilt-1.21.10" = _3VjwhmVC;
         "quilt-1.21.11" = _dj8GWgBF;
@@ -109,6 +125,7 @@ let
         "quilt-26.1.1" = _sOmX621r;
         "quilt-26.1.2" = _sOmX621r;
         "quilt-26.2" = _wKocxK4D;
+        "quilt-26.3" = _xxhZj3vL;
         "pkg-sword_trims_v1" = _lRaLO7BF;
         "pkg-sword_trims_v1+mod" = _Ww0dZvYc;
         "pkg-sword_trims_v1.1" = _U9TytWPx;
@@ -121,7 +138,9 @@ let
         "pkg-26.1.x-1+mod" = _sOmX621r;
         "pkg-26.2" = _bKK6CLgc;
         "pkg-26.2+mod" = _wKocxK4D;
-        "default" = _wKocxK4D;
+        "pkg-26.3" = _lfTSz69m;
+        "pkg-26.3+mod" = _xxhZj3vL;
+        "default" = _xxhZj3vL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sword-trims";

@@ -96,6 +96,11 @@ let
             "file" = "glf-26.2-v1.zip";
             "hash" = "sha512-ew4UYtqnzO+L5whKqDlXC/SDe3Dbei9IkR1funA8eoad97qJdTe5zsuU57ThT2+bTTx4lF5fdfen7W6p7eR+GA==";
         };
+        _XkwIgAKQ = {
+            "id" = "XkwIgAKQ";
+            "file" = "glf-26.3-v1.zip";
+            "hash" = "sha512-Y0urgZucAS8Phx8XNm6EmdXI6/nKF7HUd9Bh0A1+C19euZapwspXnX5MB5INniLLrPAGCJr40rwzPQQj6JMU5w==";
+        };
     in {
         "9vkH1XBJ" = _9vkH1XBJ;
         "MorxBugQ" = _MorxBugQ;
@@ -116,6 +121,7 @@ let
         "l9at4vAQ" = _l9at4vAQ;
         "9kTNvGC7" = _9kTNvGC7;
         "UtIe0DZS" = _UtIe0DZS;
+        "XkwIgAKQ" = _XkwIgAKQ;
         "minecraft-1.17" = _9vkH1XBJ;
         "minecraft-1.17.1" = _9vkH1XBJ;
         "minecraft-1.18" = _MorxBugQ;
@@ -149,6 +155,7 @@ let
         "minecraft-26.1.1" = _9kTNvGC7;
         "minecraft-26.1.2" = _9kTNvGC7;
         "minecraft-26.2" = _UtIe0DZS;
+        "minecraft-26.3" = _XkwIgAKQ;
         "pkg-glf-1.17-1.17.1-v1" = _9vkH1XBJ;
         "pkg-glf-1.18-1.18.2-v1" = _MorxBugQ;
         "pkg-glf-1.19-1.19.2-v1" = _BGjNJN2O;
@@ -168,7 +175,8 @@ let
         "pkg-glf-1.21.11-v1" = _l9at4vAQ;
         "pkg-glf-26.1.x-v1" = _9kTNvGC7;
         "pkg-glf-26.2.x-v1" = _UtIe0DZS;
-        "default" = _UtIe0DZS;
+        "pkg-glf-26.3.x-v1" = _XkwIgAKQ;
+        "default" = _XkwIgAKQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glowlichenfix";

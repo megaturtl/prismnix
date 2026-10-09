@@ -301,6 +301,16 @@ let
             "file" = "AnvilRepairing-fabric-MC26.2-26.2.0.1.jar";
             "hash" = "sha512-CRFGjjS4L0LXaEcw9DpXiS1llbQfJxXcpSe759IH1oe90UuXooU8j5fQ7heKyUq1oOZEQmRdkF4BvQOa4WukMg==";
         };
+        _35o2Nvlr = {
+            "id" = "35o2Nvlr";
+            "file" = "AnvilRepairing-fabric-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-rXCu9C7IEayw1wbXhF8Md2Jfl4SwDJqqYrJZPy66Ibn+GCq/YhETy0IsDPGA/nFHrhMWeFQpO1tPIEmvgL2PfQ==";
+        };
+        _YhQBEYAR = {
+            "id" = "YhQBEYAR";
+            "file" = "AnvilRepairing-neoforge-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-shQFPk1Ub9WFpUpP9Ae+z//vWK0gEmtPq06zs2hsoWnt8ITYornR78Z9WN4PuPRaq5Vz0huR/+d7ZUTzIw+eVQ==";
+        };
     in {
         "Yo09AXud" = _Yo09AXud;
         "1zVG6yLN" = _1zVG6yLN;
@@ -362,6 +372,8 @@ let
         "uao3pvcA" = _uao3pvcA;
         "8riI0G7U" = _8riI0G7U;
         "B00j4DGl" = _B00j4DGl;
+        "35o2Nvlr" = _35o2Nvlr;
+        "YhQBEYAR" = _YhQBEYAR;
         "fabric-1.20.1" = _CNaC5MKy;
         "fabric-1.19.2" = _FATitiPE;
         "fabric-1.18.2" = _wfKsn74K;
@@ -374,6 +386,7 @@ let
         "fabric-26.1.1" = _uao3pvcA;
         "fabric-26.1.2" = _uao3pvcA;
         "fabric-26.2" = _B00j4DGl;
+        "fabric-26.3" = _35o2Nvlr;
         "forge-1.20.1" = _QnHAcQYa;
         "forge-1.19.2" = _7xcjaTrF;
         "forge-1.18.2" = _Ex5iJmUu;
@@ -390,6 +403,7 @@ let
         "neoforge-26.1.1" = _54iyWdB2;
         "neoforge-26.1.2" = _54iyWdB2;
         "neoforge-26.2" = _8riI0G7U;
+        "neoforge-26.3" = _YhQBEYAR;
         "quilt-1.21.1" = _MHqfNmKx;
         "pkg-4.0.1" = _1zVG6yLN;
         "pkg-2.0.1" = _7xcjaTrF;
@@ -416,7 +430,8 @@ let
         "pkg-26.1.2.1" = _eXOQ6yqx;
         "pkg-26.1.2.3" = _uao3pvcA;
         "pkg-26.2.0.1" = _B00j4DGl;
-        "default" = _B00j4DGl;
+        "pkg-26.3.0.1" = _YhQBEYAR;
+        "default" = _YhQBEYAR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "anvil-repairing";

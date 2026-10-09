@@ -114,6 +114,7 @@ let
         "minecraft-24w44a" = _pfG162Su;
         "minecraft-24w45a" = _pfG162Su;
         "minecraft-24w46a" = _pfG162Su;
+        "minecraft-26.3" = _pfG162Su;
         "pkg-1.0" = _AArse9U8;
         "pkg-2.0" = _pfG162Su;
         "default" = _pfG162Su;

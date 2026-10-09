@@ -6,17 +6,24 @@ let
             "file" = "SKM Pack 1.0.zip";
             "hash" = "sha512-/twyMagq7mhx66WyARyScBdbDfuOMkidwzzmSeG6czYrh2Yu3Fek4o+tsqQ4i8mjgnpg69z9/RX61SPcdCuHPw==";
         };
+        _xGkzD6a1 = {
+            "id" = "xGkzD6a1";
+            "file" = "SKM Pack 1.0.zip";
+            "hash" = "sha512-fpsDan0lvyL2DwaeOEpzEak+rjVQknEsy1wiBGtz1G5xN/3FFqGzf26mJTuT/5mkdHjnOxVHYv75LTtrVOBvMA==";
+        };
     in {
         "JjO8OqEo" = _JjO8OqEo;
+        "xGkzD6a1" = _xGkzD6a1;
         "minecraft-1.16.5" = _JjO8OqEo;
-        "minecraft-1.17.1" = _JjO8OqEo;
-        "minecraft-1.18.2" = _JjO8OqEo;
-        "minecraft-1.19.2" = _JjO8OqEo;
-        "minecraft-1.19.4" = _JjO8OqEo;
-        "minecraft-1.20.1" = _JjO8OqEo;
-        "minecraft-1.20.4" = _JjO8OqEo;
+        "minecraft-1.17.1" = _xGkzD6a1;
+        "minecraft-1.18.2" = _xGkzD6a1;
+        "minecraft-1.19.2" = _xGkzD6a1;
+        "minecraft-1.19.4" = _xGkzD6a1;
+        "minecraft-1.20.1" = _xGkzD6a1;
+        "minecraft-1.20.4" = _xGkzD6a1;
         "pkg-1" = _JjO8OqEo;
-        "default" = _JjO8OqEo;
+        "pkg-2.0" = _xGkzD6a1;
+        "default" = _xGkzD6a1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skm-pack";

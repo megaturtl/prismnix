@@ -81,6 +81,11 @@ let
             "file" = "bac-tracker-mod-2.2.2.jar";
             "hash" = "sha512-bOd8xF2q/QPpCpXaSAhXCHD2VAhy7MoUVoF6gTblZWa9PIiU7H6F0I/0/sd5HNr02v9gAHkaWgJQDK4p4UfG0Q==";
         };
+        _lc1KckWM = {
+            "id" = "lc1KckWM";
+            "file" = "bac-tracker-mod-2.2.3.jar";
+            "hash" = "sha512-2bKxAYXoCWu2Q5Oy9H9oUeJUFQYbYCzGM7AzLCQbGl4NM0KQMQrMc7mmemWhT8WNix+hmxEQsByWyyTVSjbkwg==";
+        };
     in {
         "KktVmzEL" = _KktVmzEL;
         "KDps2SNO" = _KDps2SNO;
@@ -98,6 +103,7 @@ let
         "xiHEken8" = _xiHEken8;
         "rtMpUIQQ" = _rtMpUIQQ;
         "EIg0epTr" = _EIg0epTr;
+        "lc1KckWM" = _lc1KckWM;
         "fabric-1.21" = _rL1GVxqu;
         "fabric-1.21.1" = _rL1GVxqu;
         "fabric-1.21.2" = _rL1GVxqu;
@@ -110,10 +116,11 @@ let
         "fabric-1.21.9" = _RzWeDIvc;
         "fabric-1.21.10" = _8AkEQN8E;
         "fabric-1.21.11" = _rtMpUIQQ;
-        "fabric-26.1" = _EIg0epTr;
-        "fabric-26.1.1" = _XccO1R1u;
-        "fabric-26.1.2" = _XccO1R1u;
-        "fabric-26.2" = _XccO1R1u;
+        "fabric-26.1" = _lc1KckWM;
+        "fabric-26.1.1" = _lc1KckWM;
+        "fabric-26.1.2" = _lc1KckWM;
+        "fabric-26.2" = _lc1KckWM;
+        "fabric-26.3" = _lc1KckWM;
         "pkg-2.0.2" = _KktVmzEL;
         "pkg-2.0.3" = _KDps2SNO;
         "pkg-2.1.0" = _cPJ2vmIE;
@@ -130,7 +137,8 @@ let
         "pkg-2.2.1-backport.1.21.11" = _xiHEken8;
         "pkg-2.2.2-backport.1.21.11" = _rtMpUIQQ;
         "pkg-2.2.2" = _EIg0epTr;
-        "default" = _EIg0epTr;
+        "pkg-2.2.3" = _lc1KckWM;
+        "default" = _lc1KckWM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bacap-tracker";

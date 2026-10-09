@@ -46,6 +46,11 @@ let
             "file" = "Christmas Bundles-v1.0-26.2.zip";
             "hash" = "sha512-QyJp7wNwHFGZ+tcM/ceA6+9/hkzX+81P9lvI66Hcz2PVsmGZE5ssCRN5K7L1NOViZXuMwPe8R9oHzD3W8bnLIw==";
         };
+        _C626iRXI = {
+            "id" = "C626iRXI";
+            "file" = "Christmas Bundles-v1.0-26.2.zip";
+            "hash" = "sha512-9i1SGRRyGkZRmeYFDi4rLl2YrkCqmLAFMpkIbSiURMFj5h8IUGauuWARm0CdM+MyfKLBcf9z7W0kM95rbf+UrQ==";
+        };
     in {
         "tOxM2ZHi" = _tOxM2ZHi;
         "Au6T2UGG" = _Au6T2UGG;
@@ -56,6 +61,7 @@ let
         "m2KH50nT" = _m2KH50nT;
         "i363qO1C" = _i363qO1C;
         "kVXh1SbO" = _kVXh1SbO;
+        "C626iRXI" = _C626iRXI;
         "minecraft-1.21.4" = _tOxM2ZHi;
         "minecraft-1.21.5" = _Au6T2UGG;
         "minecraft-1.21.6" = _iPWabExH;
@@ -66,9 +72,10 @@ let
         "minecraft-1.21.11" = _m2KH50nT;
         "minecraft-26.1.2" = _i363qO1C;
         "minecraft-26.2" = _kVXh1SbO;
-        "pkg-1.0" = _kVXh1SbO;
+        "minecraft-26.3" = _C626iRXI;
+        "pkg-1.0" = _C626iRXI;
         "pkg-1.0-1.21.7" = _QSGW9wRe;
-        "default" = _kVXh1SbO;
+        "default" = _C626iRXI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "christmas-bundles";

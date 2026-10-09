@@ -41,6 +41,26 @@ let
             "file" = "better-farming-with-hoes-1.0.1b.jar";
             "hash" = "sha512-d3kVKIz0pvZscZWcdtXGTjT8vS5hAJ+ZXx9ynv0cgGsdku00I+iEbszCfqpvycfs/1Fyw3nBKaBaLfMBKQcHmg==";
         };
+        _yjhMQbFf = {
+            "id" = "yjhMQbFf";
+            "file" = "Better Farming With Hoes 26.3.zip";
+            "hash" = "sha512-6oaKVVRMDQplBOZsgm7VYyoeDP/cAkZm9X6ECls8TicTWY1rW8abUZD2tbGW3UD0D/7gtYHiwzWfX30QuRa8pw==";
+        };
+        _QeD1LP8D = {
+            "id" = "QeD1LP8D";
+            "file" = "better-farming-with-hoes-1.0.2c.jar";
+            "hash" = "sha512-DJGOWr2Pf3AMjklSQlG0/JFu+iZs8DNiJ81ZuC/B8Yxqqhqd+4noQ97Y194VJ5YF5eekihAiLZyao7DllRBnfA==";
+        };
+        _i8SsPX2d = {
+            "id" = "i8SsPX2d";
+            "file" = "better-farming-with-hoes.zip";
+            "hash" = "sha512-S4MN61ZxHsVCUqAch6Sz2xQ9cF2dxbZgl5tkrHDkSwSwVBqQW1TmB1arDXzdZfHly+0qyEsjmCW3pUyE0S81Jw==";
+        };
+        _QMNMrKls = {
+            "id" = "QMNMrKls";
+            "file" = "better-farming-with-hoes-1.0.3c.jar";
+            "hash" = "sha512-z9y0UQ1OL/U81trMjfi29jRoYhqJ9J20GBrs//E1kpgSuNTQR5C+k2gMScCfQ3h+GFCAMGwVupCThJnlYsUN4g==";
+        };
     in {
         "SPdHN7uW" = _SPdHN7uW;
         "olnDGtiC" = _olnDGtiC;
@@ -50,6 +70,10 @@ let
         "326OcDT2" = _326OcDT2;
         "WL8dyF22" = _WL8dyF22;
         "piVxfd64" = _piVxfd64;
+        "yjhMQbFf" = _yjhMQbFf;
+        "QeD1LP8D" = _QeD1LP8D;
+        "i8SsPX2d" = _i8SsPX2d;
+        "QMNMrKls" = _QMNMrKls;
         "datapack-1.21.9" = _F6hmVN6y;
         "datapack-1.21.10" = _F6hmVN6y;
         "datapack-1.21.11" = _F6hmVN6y;
@@ -63,6 +87,7 @@ let
         "datapack-1.21.7" = _326OcDT2;
         "datapack-1.21.8" = _326OcDT2;
         "datapack-26.1" = _F6hmVN6y;
+        "datapack-26.3" = _i8SsPX2d;
         "fabric-1.21.9" = _WL8dyF22;
         "fabric-1.21.10" = _WL8dyF22;
         "fabric-1.21.11" = _WL8dyF22;
@@ -79,6 +104,7 @@ let
         "fabric-26.1.1" = _WL8dyF22;
         "fabric-26.1.2" = _WL8dyF22;
         "fabric-26.2" = _WL8dyF22;
+        "fabric-26.3" = _QMNMrKls;
         "forge-1.21.9" = _WL8dyF22;
         "forge-1.21.10" = _WL8dyF22;
         "forge-1.21.11" = _WL8dyF22;
@@ -95,6 +121,7 @@ let
         "forge-26.1.1" = _WL8dyF22;
         "forge-26.1.2" = _WL8dyF22;
         "forge-26.2" = _WL8dyF22;
+        "forge-26.3" = _QMNMrKls;
         "neoforge-1.21.9" = _WL8dyF22;
         "neoforge-1.21.10" = _WL8dyF22;
         "neoforge-1.21.11" = _WL8dyF22;
@@ -111,6 +138,7 @@ let
         "neoforge-26.1.1" = _WL8dyF22;
         "neoforge-26.1.2" = _WL8dyF22;
         "neoforge-26.2" = _WL8dyF22;
+        "neoforge-26.3" = _QMNMrKls;
         "quilt-1.21.9" = _WL8dyF22;
         "quilt-1.21.10" = _WL8dyF22;
         "quilt-1.21.11" = _WL8dyF22;
@@ -127,6 +155,7 @@ let
         "quilt-26.1.1" = _WL8dyF22;
         "quilt-26.1.2" = _WL8dyF22;
         "quilt-26.2" = _WL8dyF22;
+        "quilt-26.3" = _QMNMrKls;
         "pkg-1.0.0a" = _SPdHN7uW;
         "pkg-1.0.0b" = _olnDGtiC;
         "pkg-1.0.0a+mod" = _I69f3o0s;
@@ -135,7 +164,11 @@ let
         "pkg-1.0.1b" = _326OcDT2;
         "pkg-1.0.1a+mod" = _WL8dyF22;
         "pkg-1.0.1b+mod" = _piVxfd64;
-        "default" = _piVxfd64;
+        "pkg-1.0.2c" = _yjhMQbFf;
+        "pkg-1.0.2c+mod" = _QeD1LP8D;
+        "pkg-1.0.3c" = _i8SsPX2d;
+        "pkg-1.0.3c+mod" = _QMNMrKls;
+        "default" = _QMNMrKls;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-farming-with-hoes";

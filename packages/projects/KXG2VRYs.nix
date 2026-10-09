@@ -81,6 +81,16 @@ let
             "file" = "mcs-better-allay-26.2v1-mod.jar";
             "hash" = "sha512-V5XslOpXI4Km3g5MYGSNNRmOc24rYzoBeaYsEbpPyR0/7Ldg4dOuwq/HYRKMnga4wlLPbArZ6iLxnOCz6b9Hjw==";
         };
+        _nHWhXOuK = {
+            "id" = "nHWhXOuK";
+            "file" = "mcs-allays-26.3v1-dp.zip";
+            "hash" = "sha512-LBJFWH25KMkNbB37y972ObV3ubIMiD4Us3wcwLy8XD3jpUgOhZCoc8KljIxIPFfcSFNPmbQ60HgtslqRpNPJeA==";
+        };
+        _ET4Lp17M = {
+            "id" = "ET4Lp17M";
+            "file" = "mcs-better-allay-26.3v1-mod.jar";
+            "hash" = "sha512-g04AtcO9TJ7CnzgUXsLRdodGdPH6lwenRuvGO3xGrClpVIj2FiZaYKtXSXt5NOcOVzcZ+zRUa27uUHXLof8roA==";
+        };
     in {
         "RMmLimj5" = _RMmLimj5;
         "FdUnWhKj" = _FdUnWhKj;
@@ -98,6 +108,8 @@ let
         "UfgyFFIx" = _UfgyFFIx;
         "vDzuP8x3" = _vDzuP8x3;
         "pJ2cxwxr" = _pJ2cxwxr;
+        "nHWhXOuK" = _nHWhXOuK;
+        "ET4Lp17M" = _ET4Lp17M;
         "datapack-1.21" = _RMmLimj5;
         "datapack-1.21.1" = _RMmLimj5;
         "datapack-1.21.2" = _FdUnWhKj;
@@ -111,6 +123,7 @@ let
         "datapack-26.1" = _dhHLn6IL;
         "datapack-26.1.1" = _dhHLn6IL;
         "datapack-26.2" = _vDzuP8x3;
+        "datapack-26.3" = _nHWhXOuK;
         "fabric-1.21" = _6wIZdOHv;
         "fabric-1.21.1" = _6wIZdOHv;
         "fabric-1.21.2" = _8Ps02RMo;
@@ -124,6 +137,7 @@ let
         "fabric-26.1" = _UfgyFFIx;
         "fabric-26.1.1" = _UfgyFFIx;
         "fabric-26.2" = _pJ2cxwxr;
+        "fabric-26.3" = _ET4Lp17M;
         "forge-1.21" = _6wIZdOHv;
         "forge-1.21.1" = _6wIZdOHv;
         "forge-1.21.2" = _8Ps02RMo;
@@ -137,6 +151,7 @@ let
         "forge-26.1" = _UfgyFFIx;
         "forge-26.1.1" = _UfgyFFIx;
         "forge-26.2" = _pJ2cxwxr;
+        "forge-26.3" = _ET4Lp17M;
         "neoforge-1.21" = _6wIZdOHv;
         "neoforge-1.21.1" = _6wIZdOHv;
         "neoforge-1.21.2" = _8Ps02RMo;
@@ -150,6 +165,7 @@ let
         "neoforge-26.1" = _UfgyFFIx;
         "neoforge-26.1.1" = _UfgyFFIx;
         "neoforge-26.2" = _pJ2cxwxr;
+        "neoforge-26.3" = _ET4Lp17M;
         "quilt-1.21" = _6wIZdOHv;
         "quilt-1.21.1" = _6wIZdOHv;
         "quilt-1.21.2" = _8Ps02RMo;
@@ -163,6 +179,7 @@ let
         "quilt-26.1" = _UfgyFFIx;
         "quilt-26.1.1" = _UfgyFFIx;
         "quilt-26.2" = _pJ2cxwxr;
+        "quilt-26.3" = _ET4Lp17M;
         "pkg-v1.3-dp" = _RMmLimj5;
         "pkg-v1.3.1-dp" = _FdUnWhKj;
         "pkg-v1.3.2-dp" = _CE3FG2XD;
@@ -179,7 +196,9 @@ let
         "pkg-26.1v1-mod" = _UfgyFFIx;
         "pkg-26.2v1-dp" = _vDzuP8x3;
         "pkg-26.2v1-mod" = _pJ2cxwxr;
-        "default" = _pJ2cxwxr;
+        "pkg-26.3v1-dp" = _nHWhXOuK;
+        "pkg-26.3v1-mod" = _ET4Lp17M;
+        "default" = _ET4Lp17M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcs-better-allay";

@@ -131,6 +131,16 @@ let
             "file" = "no-netherite-upgrade-not-today-1.0.jar";
             "hash" = "sha512-8UYyvR/juLHPGpgBI3IvFygpnra/FIINWE64ussISzH3WSnJaOfbtevy5FYgkmfrztBKK3ZvGW4XdUZ7gXxLww==";
         };
+        _IkYRWIfK = {
+            "id" = "IkYRWIfK";
+            "file" = "No_Netherite_Upgrade_Not_Today-26.3.zip";
+            "hash" = "sha512-ymQm5d98IYUAmw/58aEygHPO8t7wnQKSCbgbkF+TLubvy9niePwVo8hoo0YqP6fRSDtr9JcWXShej3oh8BgP3Q==";
+        };
+        _CdsN6YAP = {
+            "id" = "CdsN6YAP";
+            "file" = "no-netherite-upgrade-not-today-1.0.jar";
+            "hash" = "sha512-67M14TrB0lZXbAm6601nWO+A1d1hEcpHDNIC+PB4PUi0MlwMN3i4UcZCD5Tj3jntcnnhRbwk4KJSo163XlCN5Q==";
+        };
     in {
         "jUcGXD7W" = _jUcGXD7W;
         "tAqoXNCZ" = _tAqoXNCZ;
@@ -158,6 +168,8 @@ let
         "vfbvSdKk" = _vfbvSdKk;
         "FCUcXSVQ" = _FCUcXSVQ;
         "GHQXF1jo" = _GHQXF1jo;
+        "IkYRWIfK" = _IkYRWIfK;
+        "CdsN6YAP" = _CdsN6YAP;
         "datapack-1.21" = _jUcGXD7W;
         "datapack-1.21.1" = _jUcGXD7W;
         "datapack-1.21.2" = _Oi32Qx91;
@@ -199,6 +211,7 @@ let
         "datapack-1.20.5" = _fkY4rq7Y;
         "datapack-26.2" = _FCUcXSVQ;
         "datapack-26.3-snapshot-1" = _FCUcXSVQ;
+        "datapack-26.3" = _IkYRWIfK;
         "fabric-1.21" = _tAqoXNCZ;
         "fabric-1.21.1" = _tAqoXNCZ;
         "fabric-1.21.2" = _eOwXiqsY;
@@ -240,6 +253,7 @@ let
         "fabric-1.20.5" = _vfbvSdKk;
         "fabric-26.2" = _GHQXF1jo;
         "fabric-26.3-snapshot-1" = _GHQXF1jo;
+        "fabric-26.3" = _CdsN6YAP;
         "forge-1.21" = _tAqoXNCZ;
         "forge-1.21.1" = _tAqoXNCZ;
         "forge-1.21.2" = _eOwXiqsY;
@@ -281,6 +295,7 @@ let
         "forge-1.20.5" = _vfbvSdKk;
         "forge-26.2" = _GHQXF1jo;
         "forge-26.3-snapshot-1" = _GHQXF1jo;
+        "forge-26.3" = _CdsN6YAP;
         "neoforge-1.21" = _tAqoXNCZ;
         "neoforge-1.21.1" = _tAqoXNCZ;
         "neoforge-1.21.2" = _eOwXiqsY;
@@ -322,6 +337,7 @@ let
         "neoforge-1.20.5" = _vfbvSdKk;
         "neoforge-26.2" = _GHQXF1jo;
         "neoforge-26.3-snapshot-1" = _GHQXF1jo;
+        "neoforge-26.3" = _CdsN6YAP;
         "quilt-1.21" = _tAqoXNCZ;
         "quilt-1.21.1" = _tAqoXNCZ;
         "quilt-1.21.2" = _eOwXiqsY;
@@ -363,9 +379,10 @@ let
         "quilt-1.20.5" = _vfbvSdKk;
         "quilt-26.2" = _GHQXF1jo;
         "quilt-26.3-snapshot-1" = _GHQXF1jo;
-        "pkg-1.0" = _FCUcXSVQ;
-        "pkg-1.0+mod" = _GHQXF1jo;
-        "default" = _GHQXF1jo;
+        "quilt-26.3" = _CdsN6YAP;
+        "pkg-1.0" = _IkYRWIfK;
+        "pkg-1.0+mod" = _CdsN6YAP;
+        "default" = _CdsN6YAP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no-netherite-upgrade-not-today";

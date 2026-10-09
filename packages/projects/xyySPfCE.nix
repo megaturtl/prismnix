@@ -36,6 +36,11 @@ let
             "file" = "26.2.zip";
             "hash" = "sha512-+cVcXgEhiJXkYflidEzcSq4DhGpHY+nkwPbZT8KXpy95daLKQtkKXrVOTRhzm0jscDceFndU5Oi0ZTLTy0C2cQ==";
         };
+        _QjUDWIW3 = {
+            "id" = "QjUDWIW3";
+            "file" = "26.3.zip";
+            "hash" = "sha512-+cVcXgEhiJXkYflidEzcSq4DhGpHY+nkwPbZT8KXpy95daLKQtkKXrVOTRhzm0jscDceFndU5Oi0ZTLTy0C2cQ==";
+        };
     in {
         "q30sHJNU" = _q30sHJNU;
         "b9ojdhC2" = _b9ojdhC2;
@@ -44,6 +49,7 @@ let
         "g7BjpSEF" = _g7BjpSEF;
         "XDplIFEU" = _XDplIFEU;
         "g62uRObl" = _g62uRObl;
+        "QjUDWIW3" = _QjUDWIW3;
         "minecraft-1.21.2" = _q30sHJNU;
         "minecraft-1.21.3" = _q30sHJNU;
         "minecraft-1.21.4" = _q30sHJNU;
@@ -58,6 +64,7 @@ let
         "minecraft-26.1.1" = _g7BjpSEF;
         "minecraft-26.1.2" = _XDplIFEU;
         "minecraft-26.2" = _g62uRObl;
+        "minecraft-26.3" = _QjUDWIW3;
         "pkg-1.0" = _q30sHJNU;
         "pkg-1.1" = _b9ojdhC2;
         "pkg-1.2" = _2pBWrC6k;
@@ -65,7 +72,8 @@ let
         "pkg-1.4" = _g7BjpSEF;
         "pkg-1.5" = _XDplIFEU;
         "pkg-1.6" = _g62uRObl;
-        "default" = _g62uRObl;
+        "pkg-1.7" = _QjUDWIW3;
+        "default" = _QjUDWIW3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "purple-sky-inventory";

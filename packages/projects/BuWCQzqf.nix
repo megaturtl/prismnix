@@ -201,6 +201,16 @@ let
             "file" = "HopoBetterUnderwaterRuins-1.17-1.1.jar";
             "hash" = "sha512-dENY11bKFpl4shvR6UGzE5bAibbDzCioPiEZMxZ71OykGmMXCjdss6iEMQqqZ1zhE2d9LSGlG7y5QY0jgShCWw==";
         };
+        _3e1d4sqD = {
+            "id" = "3e1d4sqD";
+            "file" = "HopoBetterUnderwaterRuins-[26.3]-1.2.9.jar";
+            "hash" = "sha512-50azSWt6oHL7t0yxAfQOgNhRp9/LlIPS31ubvmgrzrc4FrKezotKQhjJCNFfxqdvIrsL4uel38h4SJSilJg+SQ==";
+        };
+        _xkfBYjxn = {
+            "id" = "xkfBYjxn";
+            "file" = "hopobetterunderwaterruins-26-3-1-2-9.zip";
+            "hash" = "sha512-50azSWt6oHL7t0yxAfQOgNhRp9/LlIPS31ubvmgrzrc4FrKezotKQhjJCNFfxqdvIrsL4uel38h4SJSilJg+SQ==";
+        };
     in {
         "giZrLi9A" = _giZrLi9A;
         "u6WTZ4N7" = _u6WTZ4N7;
@@ -242,6 +252,8 @@ let
         "Kwfy6VJP" = _Kwfy6VJP;
         "5k9r4c8T" = _5k9r4c8T;
         "N9UdYjCJ" = _N9UdYjCJ;
+        "3e1d4sqD" = _3e1d4sqD;
+        "xkfBYjxn" = _xkfBYjxn;
         "fabric-1.18.2" = _giZrLi9A;
         "fabric-1.19" = _vFLT6v90;
         "fabric-1.19.1" = _vFLT6v90;
@@ -279,6 +291,7 @@ let
         "fabric-1.16.5" = _Kwfy6VJP;
         "fabric-1.17" = _N9UdYjCJ;
         "fabric-1.17.1" = _N9UdYjCJ;
+        "fabric-26.3" = _3e1d4sqD;
         "forge-1.18.2" = _giZrLi9A;
         "forge-1.19" = _vFLT6v90;
         "forge-1.19.1" = _vFLT6v90;
@@ -308,6 +321,7 @@ let
         "forge-26.1.1" = _JlvyAhFL;
         "forge-26.1.2" = _JlvyAhFL;
         "forge-26.2" = _yQi8lOKM;
+        "forge-26.3" = _3e1d4sqD;
         "datapack-1.19" = _vFLT6v90;
         "datapack-1.19.1" = _vFLT6v90;
         "datapack-1.19.2" = _vFLT6v90;
@@ -344,6 +358,7 @@ let
         "datapack-1.16.5" = _fQgEJBXm;
         "datapack-1.17" = _5k9r4c8T;
         "datapack-1.17.1" = _5k9r4c8T;
+        "datapack-26.3" = _xkfBYjxn;
         "neoforge-1.20.2" = _jMf9oQgH;
         "neoforge-1.20.3" = _jMf9oQgH;
         "neoforge-1.20.4" = _jMf9oQgH;
@@ -366,6 +381,7 @@ let
         "neoforge-26.1.1" = _JlvyAhFL;
         "neoforge-26.1.2" = _JlvyAhFL;
         "neoforge-26.2" = _yQi8lOKM;
+        "neoforge-26.3" = _3e1d4sqD;
         "pkg-1.0" = _giZrLi9A;
         "pkg-1.0.9" = _u6WTZ4N7;
         "pkg-1.1" = _N9UdYjCJ;
@@ -402,7 +418,9 @@ let
         "pkg-1.2.8" = _yQi8lOKM;
         "pkg-1.2.8-datapack" = _bO1Kk85G;
         "pkg-1.1-datapack" = _5k9r4c8T;
-        "default" = _N9UdYjCJ;
+        "pkg-1.2.9" = _3e1d4sqD;
+        "pkg-1.2.9-datapack" = _xkfBYjxn;
+        "default" = _xkfBYjxn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hopo-better-underwater-ruins";

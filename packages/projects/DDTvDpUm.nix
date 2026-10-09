@@ -276,6 +276,266 @@ let
             "file" = "better_carpets-26.2.zip";
             "hash" = "sha512-yoMOMtClK+WCo4Im6Q65S0qMkDYQqaHQgBgGnJxb7y2nZwYrGisGeh8Ygkiq6zMxQD9vJGAsgV6xHOacX11YcA==";
         };
+        _hDH8kY2F = {
+            "id" = "hDH8kY2F";
+            "file" = "better_carpets-26.3.zip";
+            "hash" = "sha512-zcF9A6p1OFg5jtuku/RuZGUsD7LgrXHiZi5RsOgHsWIgXI6b3QMJSKHhiP1GCWlEIKb9O682UDcD9IWbJaCnOg==";
+        };
+        _ad3DrJ3r = {
+            "id" = "ad3DrJ3r";
+            "file" = "better_carpets-1.1.0-mc.1.13.zip";
+            "hash" = "sha512-S0sAdPEsMcwh9Muiff/AeXDDi8YdpPqGXiutmQkz/V39aQNCijxQLjwKQBEyZ7pbV5vlxtBZMq+7zZj+344NDA==";
+        };
+        _YFuNmPar = {
+            "id" = "YFuNmPar";
+            "file" = "better_carpets-1.1.0-mc.1.13.1.zip";
+            "hash" = "sha512-Uttpp6k1iy/tKHvk+nmKWCNSnjEAeZBEj5tfUqQgsRQW3IlTNxOgfcS/ezysfqZnA5iPMEkRBRSMyfn0FeIEvg==";
+        };
+        _1jhqFKip = {
+            "id" = "1jhqFKip";
+            "file" = "better_carpets-1.1.0-mc.1.13.2.zip";
+            "hash" = "sha512-oZVoYWryfbF86YgcmpfGQPiq72+yuSHkPibtx/wHmUzFOt2+V6IJDRbTk5aSYVfepsVdDnjmTvUzrnyZEHBdZA==";
+        };
+        _cunQDF0z = {
+            "id" = "cunQDF0z";
+            "file" = "better_carpets-1.1.0-mc.1.14.zip";
+            "hash" = "sha512-nu+QeKr9TwkoiIW/z+Y5xODursts2HI05eIUlnaT2r+BkUPmTyBPITrFZcTdD/OXiyfhvjrX8+F2b+cNLoy0QQ==";
+        };
+        _OhPu1BlP = {
+            "id" = "OhPu1BlP";
+            "file" = "better_carpets-1.1.0-mc.1.14.1.zip";
+            "hash" = "sha512-/zSgYxrvLfgBGxz9ufNVbU0L1aA+ZoIsj9m6udIxwHOrLLCVyRr1+ts161yRYqrlD7qymJcVeh6YKpHVjJUm3g==";
+        };
+        _d16IuN3l = {
+            "id" = "d16IuN3l";
+            "file" = "better_carpets-1.1.0-mc.1.14.2.zip";
+            "hash" = "sha512-Sezlm9jA0u3VXe8DIJcP6Kdo5y8cmobhHJ1+0PJmjPdtVjCyqD+cI3msvvfzTyeEk5/9Rg15x6pLMqKGLhiHgw==";
+        };
+        _my5xjyGz = {
+            "id" = "my5xjyGz";
+            "file" = "better_carpets-1.1.0-mc.1.14.3.zip";
+            "hash" = "sha512-BJKdjh5gnIDXgXCk+X+ZUXnJxS+yk4dtO1oaikJBl+Yvos/G76wZMCUA+7/5MlUYp5v52tnRlGDXM2U78Xu62g==";
+        };
+        _v1UglG5f = {
+            "id" = "v1UglG5f";
+            "file" = "better_carpets-1.1.0-mc.1.14.4.zip";
+            "hash" = "sha512-NiKXiQ92bezWPnULwvjJ3NFdfrHRFYohSxOgHD71Jdn1vxFCzMeausIgiBvw9y+a854KZBQiPRUcGWZ9K3+SdQ==";
+        };
+        _AaatrjdU = {
+            "id" = "AaatrjdU";
+            "file" = "better_carpets-1.1.0-mc.1.15.zip";
+            "hash" = "sha512-01YxlLhFpSjPKeuUi62BpeIwXTLAbOXq/8lEb/941vzKYqmJf837f9wiAZDbojCnaUUsVmaVN1rQHM1pU/t8KQ==";
+        };
+        _ze5Lh2ag = {
+            "id" = "ze5Lh2ag";
+            "file" = "better_carpets-1.1.0-mc.1.15.1.zip";
+            "hash" = "sha512-3YtJGuPX7XHkRrWAAsv9i8xp+J0CPJHyEwuGps7hj66RZfXRAvqBe9HMIeTGxTRTWInFo93UI3vkkbCpbqcevw==";
+        };
+        _HihvjuDy = {
+            "id" = "HihvjuDy";
+            "file" = "better_carpets-1.1.0-mc.1.15.2.zip";
+            "hash" = "sha512-oYxg62sGQc2UqxxxxTqoPHjK8W1/s2k/hO/lZMR43ayZhPBJs9c4c2Zzjs4ObVIl6dVyJhr+0KbQZUB2T5pMPQ==";
+        };
+        _SJO5KRuV = {
+            "id" = "SJO5KRuV";
+            "file" = "better_carpets-1.1.0-mc.1.16.zip";
+            "hash" = "sha512-iFjNY/SrmxiguMgI3ozuJztbiXszulr2ZuRCQiyoBHNNMoyoj6KkeQNv8rqFHZIaZt5Q3CvdKyglnUXrbDi9ig==";
+        };
+        _fWTdyJ29 = {
+            "id" = "fWTdyJ29";
+            "file" = "better_carpets-1.1.0-mc.1.16.1.zip";
+            "hash" = "sha512-RXoAK8fbBXqTVdrn+R3M8+55IWLs5gTBmqkYwumv5k9pVp+ptLIzGtJUa1jj3oV9idxKoOLgwPfHcHMciXOAeg==";
+        };
+        _FIHvAgTW = {
+            "id" = "FIHvAgTW";
+            "file" = "better_carpets-1.1.0-mc.1.16.2.zip";
+            "hash" = "sha512-Ff9I6qkE3P0etfLHuSZSaZH37n4LVEhmpZ74ydXo3PS3ZfPAw6uCT2tZ6pOgDR825KXdYAFK6JOGsUdyMG99GA==";
+        };
+        _cpjQa0Gv = {
+            "id" = "cpjQa0Gv";
+            "file" = "better_carpets-1.1.0-mc.1.16.3.zip";
+            "hash" = "sha512-c39hiq1qYC3UCzjZIajhRdBwDsu7YA93BsI4pzpf2XwX+vmj/GZvVni3veUwcHQ5p+y+oaPgHVeIYz+j3OAZsw==";
+        };
+        _yLTnnzvd = {
+            "id" = "yLTnnzvd";
+            "file" = "better_carpets-1.1.0-mc.1.16.4.zip";
+            "hash" = "sha512-jlxm+hHA380Y0TxV61z9EMSDX7lfFAJMxFURv5gO98NtnMCRMChPVVnzEHo61kJuGJZ1x9lMEclgjb+TgeMmCg==";
+        };
+        _mDJzWaQr = {
+            "id" = "mDJzWaQr";
+            "file" = "better_carpets-1.1.0-mc.1.16.5.zip";
+            "hash" = "sha512-HPiO8PbdGnm8i5upJLVFjCAY/p21osOjPRLvIIC36BJX9HXwTUs9NYxCDiEsgYhRYOw1/BkGYhya120cwNbmyA==";
+        };
+        _cq0MTnQl = {
+            "id" = "cq0MTnQl";
+            "file" = "better_carpets-1.1.0-mc.1.17.zip";
+            "hash" = "sha512-uFTX2plUAAOSmAbYnuG8yXfVO5a9MqMy7/paEVy/xiQoGjlAisjgSJjobL87ruSAsNk2dhYF4FqSGeZACmu9kg==";
+        };
+        _fghKcUUZ = {
+            "id" = "fghKcUUZ";
+            "file" = "better_carpets-1.1.0-mc.1.17.1.zip";
+            "hash" = "sha512-q2x0hHvLI+E8RhvqxCPwZNB+8fRy2dYkhcDu6HYvbGCyJD8iebNcQ27Rvol2hXKPNGWXdYmc36dcNQk8vjMWVA==";
+        };
+        _7IzwWRPc = {
+            "id" = "7IzwWRPc";
+            "file" = "better_carpets-1.1.0-mc.1.18.zip";
+            "hash" = "sha512-P4qDUv7AcJmdRxDgEx00JFcOWcPEj7WYW98IHjSr6J+1VocbEy/9TN2VGniLoOy+rN64HNeoPPrmdSOO2C/VuQ==";
+        };
+        _vf93VgZA = {
+            "id" = "vf93VgZA";
+            "file" = "better_carpets-1.1.0-mc.1.18.1.zip";
+            "hash" = "sha512-5336rXHYJeS4nZSkHdC7MszSXJChrMYq3B58d18VJGMR5uQmjByqiUF/J9ATFaXL1qgiacPVHgoCGkqHd+rb0g==";
+        };
+        _fzhb0N0a = {
+            "id" = "fzhb0N0a";
+            "file" = "better_carpets-1.1.0-mc.1.18.2.zip";
+            "hash" = "sha512-0U7eyBMzuqD5PPJU+OXcgSdXNGa+vep1oJHTAt9YG2hyJcNoGXZLjIvfd+nizjU2DL0z0MOZEOFEcJDTwZxSzQ==";
+        };
+        _okzenHU4 = {
+            "id" = "okzenHU4";
+            "file" = "better_carpets-1.1.0-mc.1.19.zip";
+            "hash" = "sha512-awzHzWNNHUnWRX6u5hvQZoAopKj5Zqh0+Rhqpc1f3UdiZftt7BP/ydFP7OFNAA3Dli0a6oJ2R6ncyEO/42AGrw==";
+        };
+        _ntct2RQU = {
+            "id" = "ntct2RQU";
+            "file" = "better_carpets-1.1.0-mc.1.19.1.zip";
+            "hash" = "sha512-IgNQKNkf9uixKk/Vk3I9mmRMLEKVvlb6Fj+zb1Bi4Q7iw0A17kIVcKvVoda8inmi9Oq2K5SDV7PO9bigoq+nVQ==";
+        };
+        _JZ1j3uLm = {
+            "id" = "JZ1j3uLm";
+            "file" = "better_carpets-1.1.0-mc.1.19.2.zip";
+            "hash" = "sha512-wAG9FKwlZtX61m5U4KQCpKbTxsz6QrDogsDRlfKEWk9foBkRo8rY5fHfiW6QHtOE1wW2eU7a8qWGx+bX9FCweQ==";
+        };
+        _mpflHHKE = {
+            "id" = "mpflHHKE";
+            "file" = "better_carpets-1.1.0-mc.1.19.3.zip";
+            "hash" = "sha512-w+XLdeUYTVKctGpz4n2aqMCcgNEfAF3eay9TQziX7VXC/v8lKpgWFTBQ2ChNqHmXGTleeQhm6hOgSpvi4RHK7Q==";
+        };
+        _HYwizSax = {
+            "id" = "HYwizSax";
+            "file" = "better_carpets-1.1.0-mc.1.19.4.zip";
+            "hash" = "sha512-XMCmk33OOxOZgH/NxItNOoggWqzTDOOlQeuHBJ61XbKsZkqKE+u5q1wdvD8+lxLZ7jDaEoQc5gmwzDIfrKKYvw==";
+        };
+        _rjz6mO27 = {
+            "id" = "rjz6mO27";
+            "file" = "better_carpets-1.1.0-mc.1.20.zip";
+            "hash" = "sha512-WWOnOqNom+d5yS3AbLGaJG1fI4VqcFetxzXUKXjO3ChoNNKjQGcrWxiRkhoT2ZLbTYlbiDcqxbMWnYcqJcRkiw==";
+        };
+        _CtRYsVNr = {
+            "id" = "CtRYsVNr";
+            "file" = "better_carpets-1.1.0-mc.1.20.1.zip";
+            "hash" = "sha512-NSFbwAAGH7ceT0sdlD2XSI9Q6gEY4gVG9gtpnOQthqIFpqNGneZxHivDHiMyTbhZeAGPmdmnPcG2QoQ7iLYPuQ==";
+        };
+        _1HNzQGQH = {
+            "id" = "1HNzQGQH";
+            "file" = "better_carpets-1.1.0-mc.1.20.2.zip";
+            "hash" = "sha512-iu98gOhpgAfUojqMgCrTys+G+Vt2fIi6kmXSN2z+saK+jydfUtG0/vTZXF1Zo/pvyU4vjbJCLVll1odAVS4Bew==";
+        };
+        _Q6LIwNJy = {
+            "id" = "Q6LIwNJy";
+            "file" = "better_carpets-1.1.0-mc.1.20.3.zip";
+            "hash" = "sha512-DTgIbCDjQk8hi3X7RPM3YEejKULEgVpauCa2EdVM1J0odttemNpYuEthlgKMOqhkEtk+M3vYGObRpCe0shxnKQ==";
+        };
+        _O2td6UAf = {
+            "id" = "O2td6UAf";
+            "file" = "better_carpets-1.1.0-mc.1.20.4.zip";
+            "hash" = "sha512-79pHuRqzejpPwc5HpjRdh3Tn9bEUDfjoGzoFDA2zQ/o2WFKA7p/s+qm0oVgidr8pH376YaYp9C9nYpSaa9E08w==";
+        };
+        _XtV07NRP = {
+            "id" = "XtV07NRP";
+            "file" = "better_carpets-1.1.0-mc.1.20.5.zip";
+            "hash" = "sha512-sXZulK/7Y2DWCKRzNDwwt1JC/4vaG6fMq0o8+McZyKT7dO7QWsqlSiWEcunxZbq1yGvptV50r8evUxL8UwWJ2w==";
+        };
+        _Dfitp9s7 = {
+            "id" = "Dfitp9s7";
+            "file" = "better_carpets-1.1.0-mc.1.20.6.zip";
+            "hash" = "sha512-y5c3d6A7NNrri6N/lm4ScndJBMFZMoOqPUFBZDbFagAC+ZWk/86b9TDAuURkEdlneRkQcTo0o9UlnBRtRrj0jw==";
+        };
+        _u0Jp8QSS = {
+            "id" = "u0Jp8QSS";
+            "file" = "better_carpets-1.1.0-mc.1.21.zip";
+            "hash" = "sha512-4HkXlRIHG+AhjzpslMtCp3ncWq9qjZSqAjr3ouy3DbcEfAjLFDJamozHZtv4qKRgNnIbHmlopzXpgtKCEx3A8g==";
+        };
+        _Ah2gCrOs = {
+            "id" = "Ah2gCrOs";
+            "file" = "better_carpets-1.1.0-mc.1.21.1.zip";
+            "hash" = "sha512-EPHtGoMczBUzz8HqfVBCZiM+zyE6E7NS3y6nKNuRp3Nf+4fD+poiYILL8/EQVhO1yhsWAlTaVGpmBXM3tIOIYQ==";
+        };
+        _OaJucGL7 = {
+            "id" = "OaJucGL7";
+            "file" = "better_carpets-1.1.0-mc.1.21.2.zip";
+            "hash" = "sha512-JXhqY1hYqom1w0gUqMBThvYIiyicRnd2q6NIIlUUqymvmS2ajMfM13HLipK+05Exg6p3HHl9wBYIoZA6BtxGUw==";
+        };
+        _wqAkuzZ1 = {
+            "id" = "wqAkuzZ1";
+            "file" = "better_carpets-1.1.0-mc.1.21.3.zip";
+            "hash" = "sha512-zpxrNlb8p0afSZ1oVmtWsCPhvN97Uj7c1ElIJtZuehxso/Pa7l5GhV7sLFrl5EoK+q/GeNQ+M+s9G1u1JHWohA==";
+        };
+        _VCuGD9rK = {
+            "id" = "VCuGD9rK";
+            "file" = "better_carpets-1.1.0-mc.1.21.4.zip";
+            "hash" = "sha512-0YKAW7GaHWILGi1l2ooNOPQugETQX40hPTLFyuglyM43yRzr41ojBuAp7vljw2gE74KfzuNCWOfS/Bp/0IFOfQ==";
+        };
+        _ntEcPuNS = {
+            "id" = "ntEcPuNS";
+            "file" = "better_carpets-1.1.0-mc.1.21.5.zip";
+            "hash" = "sha512-cdicQuXYBYR4R4DS+jxNeyKsYlauFruQlYXgxCMFcY7Lm5zNUGuGvFwdNtq67k7G3JAJczkDVozKmcUvG1mrXg==";
+        };
+        _WIOosOeV = {
+            "id" = "WIOosOeV";
+            "file" = "better_carpets-1.1.0-mc.1.21.6.zip";
+            "hash" = "sha512-0amYQpY+/CsxOuMj0Sz/NTzpyO/xocUOPb5HECKEAysFK/2lMY4Bvxxnn9dIKQKpX1C+PFu+1IABuzKDzTNs3A==";
+        };
+        _NbTYqxyl = {
+            "id" = "NbTYqxyl";
+            "file" = "better_carpets-1.1.0-mc.1.21.7.zip";
+            "hash" = "sha512-GqnNUC88POBFBaf4TWLI1uXkxkgRIFF2OlwHUz09XL1aZ5o6PCzdlBeDKV5bxw4hSNskj3OfTYJ4sIjw+lfGFw==";
+        };
+        _JXEwbFOD = {
+            "id" = "JXEwbFOD";
+            "file" = "better_carpets-1.1.0-mc.1.21.8.zip";
+            "hash" = "sha512-Fvkbb2ynItu32XNzKG1Ha5eMYIPIkTcElDZOEZSt/MWPBn9jg5BshyK6za/xqMVdB6VLqcMIMn9ioiQo/14y5Q==";
+        };
+        _V63AKWZZ = {
+            "id" = "V63AKWZZ";
+            "file" = "better_carpets-1.1.0-mc.1.21.9.zip";
+            "hash" = "sha512-A3c2piRKUfUq9lQRM/S3+j9EIx0ux6KL4/twh0UsJo6kmXAomFUbQ5sS6zGGH2y4iC2Z0WNgHv4Ov6zVevIRmg==";
+        };
+        _v1HLB2a9 = {
+            "id" = "v1HLB2a9";
+            "file" = "better_carpets-1.1.0-mc.1.21.10.zip";
+            "hash" = "sha512-2MlHFeDVdngCPm4bX3/7H9WgRZjmd9zFGE4gPPSJwK/aKJLLxuf7wnY7xHCdXmA13q8heNRC5sYTQhk+9RxJyQ==";
+        };
+        _sWVbFosR = {
+            "id" = "sWVbFosR";
+            "file" = "better_carpets-1.1.0-mc.1.21.11.zip";
+            "hash" = "sha512-GoEBEetI1iEi4ONby6OFBWABvzkaoFXzzWG+YurD9LiQy4lrqROQVEuf6CJJ9em/AuY8FEc6G2dX8nXMDS4rqA==";
+        };
+        _YB3yjn5K = {
+            "id" = "YB3yjn5K";
+            "file" = "better_carpets-1.1.0-mc.26.1.zip";
+            "hash" = "sha512-JXlbayz2lUk3fULB/nMcSE/jY+pOSOoXMcNLseO6DHyFjY267K9cUilZRJ4yp/k0Mq4ZJqUfv5k0VMnQu5q2gw==";
+        };
+        _LsuVAdOp = {
+            "id" = "LsuVAdOp";
+            "file" = "better_carpets-1.1.0-mc.26.1.1.zip";
+            "hash" = "sha512-kbpuwmC+D0OoHUEKmGiPk2HUW5IWBYTHP6nIBwUh6S2lz76RELmgosLW60uek+tnlnxMxczuxZMiAN9TeMTUkQ==";
+        };
+        _ZhxbnniL = {
+            "id" = "ZhxbnniL";
+            "file" = "better_carpets-1.1.0-mc.26.1.2.zip";
+            "hash" = "sha512-tfgMwdvAzxYYf+ePko+oBICjNaR2AuMcCoIQO3p+mNCN138YtVNety3kYcha9cdigmVp35rKT6dPaqWi1QyhsQ==";
+        };
+        _CNZBlCPA = {
+            "id" = "CNZBlCPA";
+            "file" = "better_carpets-1.1.0-mc.26.2.zip";
+            "hash" = "sha512-yoMOMtClK+WCo4Im6Q65S0qMkDYQqaHQgBgGnJxb7y2nZwYrGisGeh8Ygkiq6zMxQD9vJGAsgV6xHOacX11YcA==";
+        };
+        _5FWo603h = {
+            "id" = "5FWo603h";
+            "file" = "better_carpets-1.1.0-mc.26.3.zip";
+            "hash" = "sha512-zcF9A6p1OFg5jtuku/RuZGUsD7LgrXHiZi5RsOgHsWIgXI6b3QMJSKHhiP1GCWlEIKb9O682UDcD9IWbJaCnOg==";
+        };
     in {
         "Eqq0lHLT" = _Eqq0lHLT;
         "XNN3rBkd" = _XNN3rBkd;
@@ -332,59 +592,163 @@ let
         "O3Jhq5NI" = _O3Jhq5NI;
         "FZJklNy7" = _FZJklNy7;
         "VBxpO4PP" = _VBxpO4PP;
-        "minecraft-1.19.4" = _OL74gcXZ;
-        "minecraft-1.19.3" = _mzSSxfm5;
-        "minecraft-1.19" = _gvx6bQpP;
-        "minecraft-1.19.1" = _grZj2Dn3;
-        "minecraft-1.19.2" = _thnqMVxV;
-        "minecraft-1.18" = _7pWmWBft;
-        "minecraft-1.18.1" = _kjhiPu81;
-        "minecraft-1.18.2" = _Z7H8Tyym;
-        "minecraft-1.17" = _Q0RYHCfw;
-        "minecraft-1.17.1" = _2n8iy3vY;
-        "minecraft-1.13.1" = _aAMjkWBa;
-        "minecraft-1.13.2" = _vu5hNBgP;
-        "minecraft-1.13" = _t297kMVa;
-        "minecraft-1.14.1" = _ZFatgRrY;
-        "minecraft-1.14.2" = _QASlOngl;
-        "minecraft-1.14.3" = _P2wwmIZi;
-        "minecraft-1.14.4" = _W4ToSbi6;
-        "minecraft-1.14" = _6PPoozm9;
-        "minecraft-1.15.1" = _L0nrklph;
-        "minecraft-1.15.2" = _W62LHuEM;
-        "minecraft-1.15" = _8ZCZvogN;
-        "minecraft-1.16.1" = _WTZ4Oanv;
-        "minecraft-1.16.2" = _2jIML86d;
-        "minecraft-1.16.3" = _RMaj18va;
-        "minecraft-1.16.4" = _HWMzUFmL;
-        "minecraft-1.16.5" = _4aERJ3yp;
-        "minecraft-1.16" = _7AF64q1W;
-        "minecraft-1.20.1" = _rYoQSYPR;
-        "minecraft-1.20.2" = _933QGagL;
-        "minecraft-1.20.3" = _EYmG5F8j;
-        "minecraft-1.20.4" = _3tz7KcHi;
-        "minecraft-1.20.5" = _yZfee9K0;
-        "minecraft-1.20.6" = _1OQwFg2B;
-        "minecraft-1.20" = _UNreLLrk;
-        "minecraft-1.21.1" = _gZTyIlcS;
-        "minecraft-1.21.2" = _TW2PRCBO;
-        "minecraft-1.21.3" = _rHXe23AS;
-        "minecraft-1.21.4" = _y5LpR6jM;
-        "minecraft-1.21.5" = _x1N3rsOf;
-        "minecraft-1.21.6" = _t0xMmogD;
-        "minecraft-1.21.7" = _zalKbrKD;
-        "minecraft-1.21.8" = _mLymnZaq;
-        "minecraft-1.21.9" = _XMkLsIvL;
-        "minecraft-1.21.10" = _Ztsbbw7R;
-        "minecraft-1.21.11" = _B0MHPFlY;
-        "minecraft-1.21" = _RHcLWx8p;
-        "minecraft-26.1.1" = _XAfNPiNI;
-        "minecraft-26.1.2" = _O3Jhq5NI;
-        "minecraft-26.1" = _FZJklNy7;
-        "minecraft-26.2" = _VBxpO4PP;
+        "hDH8kY2F" = _hDH8kY2F;
+        "ad3DrJ3r" = _ad3DrJ3r;
+        "YFuNmPar" = _YFuNmPar;
+        "1jhqFKip" = _1jhqFKip;
+        "cunQDF0z" = _cunQDF0z;
+        "OhPu1BlP" = _OhPu1BlP;
+        "d16IuN3l" = _d16IuN3l;
+        "my5xjyGz" = _my5xjyGz;
+        "v1UglG5f" = _v1UglG5f;
+        "AaatrjdU" = _AaatrjdU;
+        "ze5Lh2ag" = _ze5Lh2ag;
+        "HihvjuDy" = _HihvjuDy;
+        "SJO5KRuV" = _SJO5KRuV;
+        "fWTdyJ29" = _fWTdyJ29;
+        "FIHvAgTW" = _FIHvAgTW;
+        "cpjQa0Gv" = _cpjQa0Gv;
+        "yLTnnzvd" = _yLTnnzvd;
+        "mDJzWaQr" = _mDJzWaQr;
+        "cq0MTnQl" = _cq0MTnQl;
+        "fghKcUUZ" = _fghKcUUZ;
+        "7IzwWRPc" = _7IzwWRPc;
+        "vf93VgZA" = _vf93VgZA;
+        "fzhb0N0a" = _fzhb0N0a;
+        "okzenHU4" = _okzenHU4;
+        "ntct2RQU" = _ntct2RQU;
+        "JZ1j3uLm" = _JZ1j3uLm;
+        "mpflHHKE" = _mpflHHKE;
+        "HYwizSax" = _HYwizSax;
+        "rjz6mO27" = _rjz6mO27;
+        "CtRYsVNr" = _CtRYsVNr;
+        "1HNzQGQH" = _1HNzQGQH;
+        "Q6LIwNJy" = _Q6LIwNJy;
+        "O2td6UAf" = _O2td6UAf;
+        "XtV07NRP" = _XtV07NRP;
+        "Dfitp9s7" = _Dfitp9s7;
+        "u0Jp8QSS" = _u0Jp8QSS;
+        "Ah2gCrOs" = _Ah2gCrOs;
+        "OaJucGL7" = _OaJucGL7;
+        "wqAkuzZ1" = _wqAkuzZ1;
+        "VCuGD9rK" = _VCuGD9rK;
+        "ntEcPuNS" = _ntEcPuNS;
+        "WIOosOeV" = _WIOosOeV;
+        "NbTYqxyl" = _NbTYqxyl;
+        "JXEwbFOD" = _JXEwbFOD;
+        "V63AKWZZ" = _V63AKWZZ;
+        "v1HLB2a9" = _v1HLB2a9;
+        "sWVbFosR" = _sWVbFosR;
+        "YB3yjn5K" = _YB3yjn5K;
+        "LsuVAdOp" = _LsuVAdOp;
+        "ZhxbnniL" = _ZhxbnniL;
+        "CNZBlCPA" = _CNZBlCPA;
+        "5FWo603h" = _5FWo603h;
+        "minecraft-1.19.4" = _HYwizSax;
+        "minecraft-1.19.3" = _mpflHHKE;
+        "minecraft-1.19" = _okzenHU4;
+        "minecraft-1.19.1" = _ntct2RQU;
+        "minecraft-1.19.2" = _JZ1j3uLm;
+        "minecraft-1.18" = _7IzwWRPc;
+        "minecraft-1.18.1" = _vf93VgZA;
+        "minecraft-1.18.2" = _fzhb0N0a;
+        "minecraft-1.17" = _cq0MTnQl;
+        "minecraft-1.17.1" = _fghKcUUZ;
+        "minecraft-1.13.1" = _YFuNmPar;
+        "minecraft-1.13.2" = _1jhqFKip;
+        "minecraft-1.13" = _ad3DrJ3r;
+        "minecraft-1.14.1" = _OhPu1BlP;
+        "minecraft-1.14.2" = _d16IuN3l;
+        "minecraft-1.14.3" = _my5xjyGz;
+        "minecraft-1.14.4" = _v1UglG5f;
+        "minecraft-1.14" = _cunQDF0z;
+        "minecraft-1.15.1" = _ze5Lh2ag;
+        "minecraft-1.15.2" = _HihvjuDy;
+        "minecraft-1.15" = _AaatrjdU;
+        "minecraft-1.16.1" = _fWTdyJ29;
+        "minecraft-1.16.2" = _FIHvAgTW;
+        "minecraft-1.16.3" = _cpjQa0Gv;
+        "minecraft-1.16.4" = _yLTnnzvd;
+        "minecraft-1.16.5" = _mDJzWaQr;
+        "minecraft-1.16" = _SJO5KRuV;
+        "minecraft-1.20.1" = _CtRYsVNr;
+        "minecraft-1.20.2" = _1HNzQGQH;
+        "minecraft-1.20.3" = _Q6LIwNJy;
+        "minecraft-1.20.4" = _O2td6UAf;
+        "minecraft-1.20.5" = _XtV07NRP;
+        "minecraft-1.20.6" = _Dfitp9s7;
+        "minecraft-1.20" = _rjz6mO27;
+        "minecraft-1.21.1" = _Ah2gCrOs;
+        "minecraft-1.21.2" = _OaJucGL7;
+        "minecraft-1.21.3" = _wqAkuzZ1;
+        "minecraft-1.21.4" = _VCuGD9rK;
+        "minecraft-1.21.5" = _ntEcPuNS;
+        "minecraft-1.21.6" = _WIOosOeV;
+        "minecraft-1.21.7" = _NbTYqxyl;
+        "minecraft-1.21.8" = _JXEwbFOD;
+        "minecraft-1.21.9" = _V63AKWZZ;
+        "minecraft-1.21.10" = _v1HLB2a9;
+        "minecraft-1.21.11" = _sWVbFosR;
+        "minecraft-1.21" = _u0Jp8QSS;
+        "minecraft-26.1.1" = _LsuVAdOp;
+        "minecraft-26.1.2" = _ZhxbnniL;
+        "minecraft-26.1" = _YB3yjn5K;
+        "minecraft-26.2" = _CNZBlCPA;
+        "minecraft-26.3" = _5FWo603h;
         "pkg-0.1" = _iAQfRuP3;
-        "pkg-1.0" = _VBxpO4PP;
-        "default" = _VBxpO4PP;
+        "pkg-1.0" = _hDH8kY2F;
+        "pkg-1.1.0-mc.1.13" = _ad3DrJ3r;
+        "pkg-1.1.0-mc.1.13.1" = _YFuNmPar;
+        "pkg-1.1.0-mc.1.13.2" = _1jhqFKip;
+        "pkg-1.1.0-mc.1.14" = _cunQDF0z;
+        "pkg-1.1.0-mc.1.14.1" = _OhPu1BlP;
+        "pkg-1.1.0-mc.1.14.2" = _d16IuN3l;
+        "pkg-1.1.0-mc.1.14.3" = _my5xjyGz;
+        "pkg-1.1.0-mc.1.14.4" = _v1UglG5f;
+        "pkg-1.1.0-mc.1.15" = _AaatrjdU;
+        "pkg-1.1.0-mc.1.15.1" = _ze5Lh2ag;
+        "pkg-1.1.0-mc.1.15.2" = _HihvjuDy;
+        "pkg-1.1.0-mc.1.16" = _SJO5KRuV;
+        "pkg-1.1.0-mc.1.16.1" = _fWTdyJ29;
+        "pkg-1.1.0-mc.1.16.2" = _FIHvAgTW;
+        "pkg-1.1.0-mc.1.16.3" = _cpjQa0Gv;
+        "pkg-1.1.0-mc.1.16.4" = _yLTnnzvd;
+        "pkg-1.1.0-mc.1.16.5" = _mDJzWaQr;
+        "pkg-1.1.0-mc.1.17" = _cq0MTnQl;
+        "pkg-1.1.0-mc.1.17.1" = _fghKcUUZ;
+        "pkg-1.1.0-mc.1.18" = _7IzwWRPc;
+        "pkg-1.1.0-mc.1.18.1" = _vf93VgZA;
+        "pkg-1.1.0-mc.1.18.2" = _fzhb0N0a;
+        "pkg-1.1.0-mc.1.19" = _okzenHU4;
+        "pkg-1.1.0-mc.1.19.1" = _ntct2RQU;
+        "pkg-1.1.0-mc.1.19.2" = _JZ1j3uLm;
+        "pkg-1.1.0-mc.1.19.3" = _mpflHHKE;
+        "pkg-1.1.0-mc.1.19.4" = _HYwizSax;
+        "pkg-1.1.0-mc.1.20" = _rjz6mO27;
+        "pkg-1.1.0-mc.1.20.1" = _CtRYsVNr;
+        "pkg-1.1.0-mc.1.20.2" = _1HNzQGQH;
+        "pkg-1.1.0-mc.1.20.3" = _Q6LIwNJy;
+        "pkg-1.1.0-mc.1.20.4" = _O2td6UAf;
+        "pkg-1.1.0-mc.1.20.5" = _XtV07NRP;
+        "pkg-1.1.0-mc.1.20.6" = _Dfitp9s7;
+        "pkg-1.1.0-mc.1.21" = _u0Jp8QSS;
+        "pkg-1.1.0-mc.1.21.1" = _Ah2gCrOs;
+        "pkg-1.1.0-mc.1.21.2" = _OaJucGL7;
+        "pkg-1.1.0-mc.1.21.3" = _wqAkuzZ1;
+        "pkg-1.1.0-mc.1.21.4" = _VCuGD9rK;
+        "pkg-1.1.0-mc.1.21.5" = _ntEcPuNS;
+        "pkg-1.1.0-mc.1.21.6" = _WIOosOeV;
+        "pkg-1.1.0-mc.1.21.7" = _NbTYqxyl;
+        "pkg-1.1.0-mc.1.21.8" = _JXEwbFOD;
+        "pkg-1.1.0-mc.1.21.9" = _V63AKWZZ;
+        "pkg-1.1.0-mc.1.21.10" = _v1HLB2a9;
+        "pkg-1.1.0-mc.1.21.11" = _sWVbFosR;
+        "pkg-1.1.0-mc.26.1" = _YB3yjn5K;
+        "pkg-1.1.0-mc.26.1.1" = _LsuVAdOp;
+        "pkg-1.1.0-mc.26.1.2" = _ZhxbnniL;
+        "pkg-1.1.0-mc.26.2" = _CNZBlCPA;
+        "pkg-1.1.0-mc.26.3" = _5FWo603h;
+        "default" = _5FWo603h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-carpets";

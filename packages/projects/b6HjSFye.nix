@@ -151,6 +151,11 @@ let
             "file" = "Rethoughted Dragon Egg.zip";
             "hash" = "sha512-OQYHDoRBD16YAr8o4Q3UZPgoUWT3oCiHt1lOjXGu1SRwnZl4Lc4TySyeJuJ3/Ar4bFfjfHp9xOtjFLGMuyd1Vg==";
         };
+        _HBcRkEn2 = {
+            "id" = "HBcRkEn2";
+            "file" = "Rethoughted Dragon Egg.zip";
+            "hash" = "sha512-x2mK3pBVB2EJ7eRd+cFCZkhzUXEoZZDicmC40A8G8eH+Wr/dWlNv3+wiya8SOyWDwHVvlrQgbwDSGNUuzatHMw==";
+        };
     in {
         "L1RtbMjB" = _L1RtbMjB;
         "Pe6ra9HY" = _Pe6ra9HY;
@@ -182,6 +187,7 @@ let
         "hTEvT8HG" = _hTEvT8HG;
         "wlwyn008" = _wlwyn008;
         "IhXJDbot" = _IhXJDbot;
+        "HBcRkEn2" = _HBcRkEn2;
         "minecraft-1.20" = _ZXUCutH5;
         "minecraft-1.20.1" = _ZXUCutH5;
         "minecraft-1.17" = _Pe6ra9HY;
@@ -217,14 +223,15 @@ let
         "minecraft-26.1.1" = _wlwyn008;
         "minecraft-26.1.2" = _wlwyn008;
         "minecraft-26.2" = _IhXJDbot;
+        "minecraft-26.3" = _HBcRkEn2;
         "pkg-0.2" = _lonVPFIw;
         "pkg-0.1" = _JK5i8KDP;
         "pkg-0.3" = _FMjzC0hm;
         "pkg-1.0" = _2b6qIN7j;
         "pkg-1.0b" = _J0U3vLNQ;
         "pkg-1.0c" = _M0Uy0WJi;
-        "pkg-1.1" = _IhXJDbot;
-        "default" = _IhXJDbot;
+        "pkg-1.1" = _HBcRkEn2;
+        "default" = _HBcRkEn2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rethoughted-dragon-egg";

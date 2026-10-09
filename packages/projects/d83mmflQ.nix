@@ -176,6 +176,21 @@ let
             "file" = "animalgarden-bullshark-1.1.1-forge-1.20.1-47.4.10.jar";
             "hash" = "sha512-Br09dmBpbJgsjCowxe5k0hhIZ9CmebUoqisObL3jIpf8qiUAwYepo8ni9f6T2wSuDjAzjGpEQqEaKXA91hVOcQ==";
         };
+        _JTMAYYXX = {
+            "id" = "JTMAYYXX";
+            "file" = "animalgarden-bullshark-1.1.1-fabric-26.3-0.161.0.jar";
+            "hash" = "sha512-NVsEtMCK8L8063S2nXLa6EZNEF7hvV8maL+EbJrFqb1KZQBWNV76yH9lm7jM4AIi6IenII/eoidANxpMPxsNBg==";
+        };
+        _cOLccG4B = {
+            "id" = "cOLccG4B";
+            "file" = "animalgarden-bullshark-1.1.1-neoforge-26.3.0.10.jar";
+            "hash" = "sha512-CddH37u3ldHk4JM4HCScDJKxABAE6qZSSfc1PPiZmL8fAh+vN8pYrywQ8eg7g9tTwuAIm4T+iXSkfa3Z5O8+wA==";
+        };
+        _92naXupr = {
+            "id" = "92naXupr";
+            "file" = "animalgarden-bullshark-1.1.1-forge-26.3-66.0.2.jar";
+            "hash" = "sha512-nzNfWtpL70M1mGvLD1WPhO2hEMLzNbh9xUIBpFiwzkI1zr5EQA+Gwbf/epIbHIRgQqicZTlSYAJj65/KZ4aJCg==";
+        };
     in {
         "wrBV65Bd" = _wrBV65Bd;
         "R3fV7ONr" = _R3fV7ONr;
@@ -212,6 +227,9 @@ let
         "y9I9zIWm" = _y9I9zIWm;
         "v0PyD81d" = _v0PyD81d;
         "6nXvRZ2G" = _6nXvRZ2G;
+        "JTMAYYXX" = _JTMAYYXX;
+        "cOLccG4B" = _cOLccG4B;
+        "92naXupr" = _92naXupr;
         "neoforge-1.21.9" = _A8NTUPWQ;
         "neoforge-1.21.10" = _A8NTUPWQ;
         "neoforge-1.21.6" = _vkQ5Q8cb;
@@ -224,6 +242,7 @@ let
         "neoforge-26.1.1" = _v0PyD81d;
         "neoforge-26.1.2" = _v0PyD81d;
         "neoforge-26.2" = _v0PyD81d;
+        "neoforge-26.3" = _cOLccG4B;
         "forge-1.21.9" = _BzIEBIL6;
         "forge-1.21.10" = _BzIEBIL6;
         "forge-1.21.6" = _UTIUjsFD;
@@ -237,6 +256,7 @@ let
         "forge-26.1.1" = _y9I9zIWm;
         "forge-26.1.2" = _y9I9zIWm;
         "forge-26.2" = _y9I9zIWm;
+        "forge-26.3" = _92naXupr;
         "fabric-1.21.9" = _dGks3ZIp;
         "fabric-1.21.10" = _dGks3ZIp;
         "fabric-1.21.6" = _G3Q07NXV;
@@ -251,6 +271,7 @@ let
         "fabric-26.1.1" = _GvYmw7YI;
         "fabric-26.1.2" = _GvYmw7YI;
         "fabric-26.2" = _GvYmw7YI;
+        "fabric-26.3" = _JTMAYYXX;
         "pkg-1.0.0-neoforge-1.21.10-21.10.10-" = _wrBV65Bd;
         "pkg-1.0.0-forge-1.21.10-60.0.0" = _R3fV7ONr;
         "pkg-1.0.0-fabric-1.21.10-0.135.0" = _BKNJCKNU;
@@ -286,7 +307,10 @@ let
         "pkg-1.1.1-forge-26.1.1-63.0.0" = _y9I9zIWm;
         "pkg-1.1.1-neoforge-26.1.1.10" = _v0PyD81d;
         "pkg-1.1.1-forge-1.20.1-47.4.10" = _6nXvRZ2G;
-        "default" = _6nXvRZ2G;
+        "pkg-1.1.1-fabric-26.3-0.161.0" = _JTMAYYXX;
+        "pkg-1.1.1-neoforge-26.3.0.10" = _cOLccG4B;
+        "pkg-1.1.1-forge-26.3-66.0.2" = _92naXupr;
+        "default" = _92naXupr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animal-garden-bull-shark";

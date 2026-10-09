@@ -366,6 +366,11 @@ let
             "file" = "stackplus-26.3-3.1.2.jar";
             "hash" = "sha512-LelBGJig/bGI1GXLwEyZcRiTv4YWL9ntIPhDgq+dE9o82G+iC/LzDhywr4f97V6oVEATEaeAhADz2lFtGqzTQg==";
         };
+        _sRA9fYoF = {
+            "id" = "sRA9fYoF";
+            "file" = "stackplus-26.3-3.1.3.jar";
+            "hash" = "sha512-caSyVSMpltLhE//1IUwXQUyRB95kwNV1Ik87C94vqTH33mn4i8fFcDRYHeK1a2xoTSbFyeATt5CvB6RP4cDZLg==";
+        };
     in {
         "CJbhiSfH" = _CJbhiSfH;
         "mGUmpj0Z" = _mGUmpj0Z;
@@ -440,6 +445,7 @@ let
         "a0NT86Nr" = _a0NT86Nr;
         "6hlyc9J4" = _6hlyc9J4;
         "br8JGAcx" = _br8JGAcx;
+        "sRA9fYoF" = _sRA9fYoF;
         "fabric-1.21.9" = _bgEYvcob;
         "fabric-1.21.10" = _FMQqCuhL;
         "fabric-1.21" = _qxE16ZbL;
@@ -457,7 +463,7 @@ let
         "fabric-26.1.2" = _KReJ3rJm;
         "fabric-26.2" = _6hlyc9J4;
         "fabric-26.3-snapshot-2" = _xlMng7LC;
-        "fabric-26.3" = _br8JGAcx;
+        "fabric-26.3" = _sRA9fYoF;
         "neoforge-1.21.9" = _Iu7xJdNT;
         "neoforge-1.21.10" = _Iu7xJdNT;
         "neoforge-1.21" = _Iu7xJdNT;
@@ -479,7 +485,8 @@ let
         "pkg-3.1.0" = _XOKE2O21;
         "pkg-3.1.1" = _xlMng7LC;
         "pkg-3.1.2" = _br8JGAcx;
-        "default" = _br8JGAcx;
+        "pkg-3.1.3" = _sRA9fYoF;
+        "default" = _sRA9fYoF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stackplus";

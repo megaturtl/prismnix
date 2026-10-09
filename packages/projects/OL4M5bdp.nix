@@ -261,6 +261,11 @@ let
             "file" = "dreamtinker-2.2.9.0-1.20.1-SNAPSHOT.jar";
             "hash" = "sha512-h63Kcm39IQ19vCZqypFNin1o864taXBZrWHFZBhkz0+TZKyp+xoXblPPSpohsBhEybpX9/JoRy38UTH6fW9Ygw==";
         };
+        _P35qeiIV = {
+            "id" = "P35qeiIV";
+            "file" = "dreamtinker-2.2.9.1-1.20.1-SNAPSHOT.jar";
+            "hash" = "sha512-gMSwX868Wklu5fC2ylMhOrvR2J/xUt2hRQSx18i/clxzi3AvI7MLbJaXYquBq1xykgOSlR+2NgHYG4+wobkNjw==";
+        };
     in {
         "2ZFQouCc" = _2ZFQouCc;
         "NOXhWr31" = _NOXhWr31;
@@ -314,8 +319,9 @@ let
         "pfrdFfev" = _pfrdFfev;
         "BhmAvftO" = _BhmAvftO;
         "XkxJ9vrr" = _XkxJ9vrr;
+        "P35qeiIV" = _P35qeiIV;
         "forge-1.19.2" = _2ZFQouCc;
-        "forge-1.20.1" = _XkxJ9vrr;
+        "forge-1.20.1" = _P35qeiIV;
         "pkg-1.2-SNAPSHOT" = _2ZFQouCc;
         "pkg-2.0-SNAPSHOT" = _NOXhWr31;
         "pkg-2.0.2-SNAPSHOT" = _x15Y2V0J;
@@ -368,7 +374,8 @@ let
         "pkg-2.2.7.3-1.20.1-SNAPSHOT" = _pfrdFfev;
         "pkg-2.2.8.0-1.20.1-SNAPSHOT" = _BhmAvftO;
         "pkg-2.2.9.0-1.20.1-SNAPSHOT" = _XkxJ9vrr;
-        "default" = _XkxJ9vrr;
+        "pkg-2.2.9.1-1.20.1-SNAPSHOT" = _P35qeiIV;
+        "default" = _P35qeiIV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dreamtinker";

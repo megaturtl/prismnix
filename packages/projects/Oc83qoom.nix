@@ -41,6 +41,16 @@ let
             "file" = "mob-battle-26.2v1-mod.jar";
             "hash" = "sha512-KufMtUI6QnicICrlvSEH5wZzrBJbdgHMGbrkc66P3hX+evVN3vZEXj3Q7rSST5l70PDMATcHF6rq+I94fqaJgw==";
         };
+        _1JoVVusD = {
+            "id" = "1JoVVusD";
+            "file" = "mob-battle-26.3v1-dp.zip";
+            "hash" = "sha512-W/vuutFEIXxwdx4+twfydb7pl3R+VCLv+J66kL72BZ7ak1w7dtZ9PmMAXyTdG1APLz3WFElm5dDgKOyk7oN8xQ==";
+        };
+        _8obc6ddx = {
+            "id" = "8obc6ddx";
+            "file" = "mob-battle-26.3v1-mod.jar";
+            "hash" = "sha512-1efE2nBpYcDUT31xPwXukJcJx4LobkCZf7ZNhIyERxhxDWKLWp1JHXikmZKhHg5LHvjsHh9VFD90EAYtVflsGQ==";
+        };
     in {
         "gwCXyjCH" = _gwCXyjCH;
         "xJdIvf19" = _xJdIvf19;
@@ -50,6 +60,8 @@ let
         "E6ljqL5G" = _E6ljqL5G;
         "xi4f5F5F" = _xi4f5F5F;
         "T4TYcf1U" = _T4TYcf1U;
+        "1JoVVusD" = _1JoVVusD;
+        "8obc6ddx" = _8obc6ddx;
         "datapack-1.19.4" = _gwCXyjCH;
         "datapack-1.20" = _WOL8tMdJ;
         "datapack-1.20.1" = _WOL8tMdJ;
@@ -59,22 +71,27 @@ let
         "datapack-26.1.1" = _M1dSOPgv;
         "datapack-26.1.2" = _M1dSOPgv;
         "datapack-26.2" = _xi4f5F5F;
+        "datapack-26.3" = _1JoVVusD;
         "fabric-26.1" = _E6ljqL5G;
         "fabric-26.1.1" = _E6ljqL5G;
         "fabric-26.1.2" = _E6ljqL5G;
         "fabric-26.2" = _T4TYcf1U;
+        "fabric-26.3" = _8obc6ddx;
         "forge-26.1" = _E6ljqL5G;
         "forge-26.1.1" = _E6ljqL5G;
         "forge-26.1.2" = _E6ljqL5G;
         "forge-26.2" = _T4TYcf1U;
+        "forge-26.3" = _8obc6ddx;
         "neoforge-26.1" = _E6ljqL5G;
         "neoforge-26.1.1" = _E6ljqL5G;
         "neoforge-26.1.2" = _E6ljqL5G;
         "neoforge-26.2" = _T4TYcf1U;
+        "neoforge-26.3" = _8obc6ddx;
         "quilt-26.1" = _E6ljqL5G;
         "quilt-26.1.1" = _E6ljqL5G;
         "quilt-26.1.2" = _E6ljqL5G;
         "quilt-26.2" = _T4TYcf1U;
+        "quilt-26.3" = _8obc6ddx;
         "pkg-v4.1" = _gwCXyjCH;
         "pkg-4.2" = _xJdIvf19;
         "pkg-v4.3" = _WOL8tMdJ;
@@ -83,7 +100,9 @@ let
         "pkg-26.1v1-mod" = _E6ljqL5G;
         "pkg-26.2v1-dp" = _xi4f5F5F;
         "pkg-26.2v1-mod" = _T4TYcf1U;
-        "default" = _T4TYcf1U;
+        "pkg-26.3v1-dp" = _1JoVVusD;
+        "pkg-26.3v1-mod" = _8obc6ddx;
+        "default" = _8obc6ddx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mob-battle";

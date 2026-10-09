@@ -146,6 +146,11 @@ let
             "file" = "vivid_move-1.5.2+universal-mc26.2.jar";
             "hash" = "sha512-TOqKRx6O5fCa7IDxqQwNgzSziLxdguKsvBIz+9+4/gaqXG3rFgSnAQAOSZ1i2jJPb6QB1I3H6COAgshtmFlZ8A==";
         };
+        _vKgXArVW = {
+            "id" = "vKgXArVW";
+            "file" = "vivid_move-1.5.3+universal-mc26.3.jar";
+            "hash" = "sha512-Coaoxz/HyH3G2MnFNXzhzFuAaBOYwg2XGYUqexka+Jyf89q/0o4G8htcWiKK8a6cPCUnS20fLG5BZCG++kt49g==";
+        };
     in {
         "GlGSXG7P" = _GlGSXG7P;
         "eLzG1BFs" = _eLzG1BFs;
@@ -176,12 +181,15 @@ let
         "tXoN3cFf" = _tXoN3cFf;
         "lqpxk36A" = _lqpxk36A;
         "CWtSpt9B" = _CWtSpt9B;
+        "vKgXArVW" = _vKgXArVW;
         "fabric-1.21.1" = _tXoN3cFf;
         "fabric-1.21.11" = _lqpxk36A;
         "fabric-26.2" = _CWtSpt9B;
+        "fabric-26.3" = _vKgXArVW;
         "neoforge-1.21.1" = _tXoN3cFf;
         "neoforge-1.21.11" = _lqpxk36A;
         "neoforge-26.2" = _CWtSpt9B;
+        "neoforge-26.3" = _vKgXArVW;
         "pkg-0.1.0" = _eLzG1BFs;
         "pkg-1.0.4" = _FYAY0IN8;
         "pkg-1.1.5" = _GdOQt123;
@@ -193,7 +201,8 @@ let
         "pkg-1.5.0" = _3lOraDFQ;
         "pkg-1.5.1" = _VeLHhzPv;
         "pkg-1.5.2" = _CWtSpt9B;
-        "default" = _CWtSpt9B;
+        "pkg-1.5.3" = _vKgXArVW;
+        "default" = _vKgXArVW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vivid-move";

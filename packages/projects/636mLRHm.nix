@@ -196,6 +196,11 @@ let
             "file" = "Emperors PvP Pack[2.31][26.2].zip";
             "hash" = "sha512-4GyJgiuPzsjKM2/YprDokOYSUsTrvsfbQEmwo23Ah6oVeVFO+T43C5XsCkh9QPAFdntJ4m39pqQR4KycQ6+u8Q==";
         };
+        _vZ0PeQGo = {
+            "id" = "vZ0PeQGo";
+            "file" = "Emperors PvP Pack[2.31][26.3].zip";
+            "hash" = "sha512-RVvjcV8xLrfvcjaAfxeCVaG5bJ9jzKrGtDfXG8ZMIdunRbHhucS9WQV02mjjAxmL+YOjw3ZO8AtidbcPwaftLg==";
+        };
     in {
         "QDKGOHmv" = _QDKGOHmv;
         "GwZ8Fppt" = _GwZ8Fppt;
@@ -236,6 +241,7 @@ let
         "Of2cMCsH" = _Of2cMCsH;
         "hZTkjAPK" = _hZTkjAPK;
         "HCgVzvh3" = _HCgVzvh3;
+        "vZ0PeQGo" = _vZ0PeQGo;
         "minecraft-1.16" = _JmEUbRp1;
         "minecraft-1.16.1" = _JmEUbRp1;
         "minecraft-1.16.2" = _JmEUbRp1;
@@ -277,6 +283,8 @@ let
         "minecraft-26.1.1" = _hZTkjAPK;
         "minecraft-26.1.2" = _hZTkjAPK;
         "minecraft-26.2" = _HCgVzvh3;
+        "minecraft-26.3" = _vZ0PeQGo;
+        "minecraft-26.4-snapshot-1" = _vZ0PeQGo;
         "pkg-1.16" = _QDKGOHmv;
         "pkg-1.17" = _GwZ8Fppt;
         "pkg-1.18" = _EcbfqcD8;
@@ -296,8 +304,8 @@ let
         "pkg-2.1.1" = _fKqCXCcj;
         "pkg-2.2" = _YIdVe5oI;
         "pkg-2.3" = _Of2cMCsH;
-        "pkg-2.31" = _HCgVzvh3;
-        "default" = _HCgVzvh3;
+        "pkg-2.31" = _vZ0PeQGo;
+        "default" = _vZ0PeQGo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "emperors-pvp-pack";

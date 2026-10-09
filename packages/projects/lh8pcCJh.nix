@@ -31,10 +31,15 @@ let
             "file" = "Resourceful Refinement v0.2.2.jar";
             "hash" = "sha512-WZIvGTiK2BZ+UFs78fG1FG7srrZ1lOHjZpe1Mp9OTyFpN9va4fNyrIyLcHX+S4oFhZ62PolaQYXgydIZeSl/PQ==";
         };
-        _gM9XwrmH = {
-            "id" = "gM9XwrmH";
-            "file" = "Resourceful Refinement v0.3.jar";
-            "hash" = "sha512-qO6dFwfPf2sB32d7bBsOtN7LUWPxUN3Pa4u9mxp1rTc535BlzG0eZ7QoR0DC78i0w1lpwaAThQp+y38vFn3a7g==";
+        _MaSk4Zky = {
+            "id" = "MaSk4Zky";
+            "file" = "Resourceful Refinement v0.3.1.jar";
+            "hash" = "sha512-aoptbb/x4QgJy1GPbv8PRVnQc3s21jhGqFyXsstu7RZBwGZG89hdDK2+Ihzbct5KSHuDPky54JyWySYmgqFSBQ==";
+        };
+        _m064hTeo = {
+            "id" = "m064hTeo";
+            "file" = "Resourceful Refinement v0.3.2.jar";
+            "hash" = "sha512-FMz2ViyQMFUntBbjklDAKf/csLfDwotDhY24yaSiHu8C+wd5J6xHRhHBdW39rTWU8jGJsyqayLLkDvke6nFc1g==";
         };
     in {
         "isMDMKaa" = _isMDMKaa;
@@ -43,16 +48,18 @@ let
         "2z6bG40m" = _2z6bG40m;
         "78Pa6rff" = _78Pa6rff;
         "gbuKvcbK" = _gbuKvcbK;
-        "gM9XwrmH" = _gM9XwrmH;
-        "neoforge-1.21.1" = _gM9XwrmH;
+        "MaSk4Zky" = _MaSk4Zky;
+        "m064hTeo" = _m064hTeo;
+        "neoforge-1.21.1" = _m064hTeo;
         "pkg-0.1.0" = _isMDMKaa;
         "pkg-0.1.1" = _EiST6ZJ7;
         "pkg-0.1.3" = _HByeS54W;
         "pkg-0.2.0" = _2z6bG40m;
         "pkg-0.2.1" = _78Pa6rff;
         "pkg-0.2.2" = _gbuKvcbK;
-        "pkg-0.3.0" = _gM9XwrmH;
-        "default" = _gM9XwrmH;
+        "pkg-0.3.1" = _MaSk4Zky;
+        "pkg-0.3.2" = _m064hTeo;
+        "default" = _m064hTeo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "resourceful-refinement";

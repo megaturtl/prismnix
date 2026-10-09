@@ -121,6 +121,21 @@ let
             "file" = "ToolsOfObsidian-forge-26.1.2-1.8.0.jar";
             "hash" = "sha512-Y5FtTfPGUakwjhfIElwqhuYEQIZ8mNaS4Vc7PtBnmtj4A2EjLFIK4zwJffZL0nXHeLPcoRHHomJFIq4dvQgzhg==";
         };
+        _LHgKL9sE = {
+            "id" = "LHgKL9sE";
+            "file" = "ToolsOfObsidian-neoforge-26.1.2-1.9.0.jar";
+            "hash" = "sha512-ACoFT7auvKS8ja8lgaQ69moJBU6889CRRrmJmn5oJVYeeo0o391eV7qJBCO0EXQKkgjBqXsB8PnVp1SxLvXAQw==";
+        };
+        _Y0fRpEGy = {
+            "id" = "Y0fRpEGy";
+            "file" = "ToolsOfObsidian-forge-26.1.2-1.9.0.jar";
+            "hash" = "sha512-tBfbmjwLWI4wLNLq5eRthouCIxXWaXMclMJbKrX+8EuNAHJvnEujPIuPdgO+74+aEAcZfKkhirx96RyjOng5Mg==";
+        };
+        _NVZ6Ca7H = {
+            "id" = "NVZ6Ca7H";
+            "file" = "ToolsOfObsidian-fabric-26.1.2-1.9.0.jar";
+            "hash" = "sha512-2ovja2keNsCLow5vaT9PIvlMfa078ltxNCtCbrX740Wgnd4PC1niiqI3eOfU0dst8J5hts4hwQmywWaCAfIxuA==";
+        };
     in {
         "iNj8NSUy" = _iNj8NSUy;
         "gxeDlidc" = _gxeDlidc;
@@ -146,6 +161,9 @@ let
         "CvAKwfnn" = _CvAKwfnn;
         "AX9Ixb7h" = _AX9Ixb7h;
         "wRT7h8hW" = _wRT7h8hW;
+        "LHgKL9sE" = _LHgKL9sE;
+        "Y0fRpEGy" = _Y0fRpEGy;
+        "NVZ6Ca7H" = _NVZ6Ca7H;
         "fabric-1.20.2" = _iNj8NSUy;
         "fabric-1.20.4" = _rlYdRJBJ;
         "fabric-1.21" = _16U0gTSJ;
@@ -153,6 +171,7 @@ let
         "fabric-1.21.10" = _CgRrh5Wq;
         "fabric-1.21.8" = _3YWTvQ0F;
         "fabric-1.21.11" = _CvAKwfnn;
+        "fabric-26.1.2" = _NVZ6Ca7H;
         "forge-1.20.2" = _gxeDlidc;
         "forge-1.20.4" = _6mhbc8Qz;
         "forge-1.21" = _AX9Ixb7h;
@@ -161,9 +180,10 @@ let
         "forge-1.21.9" = _gSv7W4rg;
         "forge-1.21.10" = _U3E5INcm;
         "forge-1.21.11" = _oMrFROjN;
-        "forge-26.1.2" = _wRT7h8hW;
+        "forge-26.1.2" = _Y0fRpEGy;
         "neoforge-1.21.8" = _z5pJJShW;
         "neoforge-1.21.10" = _Rv6JVLVI;
+        "neoforge-26.1.2" = _LHgKL9sE;
         "pkg-1.6.7" = _iNj8NSUy;
         "pkg-1.6.9" = _gxeDlidc;
         "pkg-1.7.0" = _UWEnM8yW;
@@ -185,7 +205,8 @@ let
         "pkg-1.21.11-1.7.3" = _CvAKwfnn;
         "pkg-1.7.1.1" = _AX9Ixb7h;
         "pkg-1.8.0" = _wRT7h8hW;
-        "default" = _wRT7h8hW;
+        "pkg-1.9.0" = _NVZ6Ca7H;
+        "default" = _NVZ6Ca7H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tools-and-armor-of-obsidian";

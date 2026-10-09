@@ -71,6 +71,11 @@ let
             "file" = "BetterPaleGarden-26.2-1.6.1-Fabric.jar";
             "hash" = "sha512-5Ag9bitKdQvZEr/4acLgAeFl4TU+hnanoeiH1n2nC892scOaq2+/0qdy7/bdvPotypLqCWFjzR4CsbjiPBmjvQ==";
         };
+        _pn5UiF2U = {
+            "id" = "pn5UiF2U";
+            "file" = "BetterPaleGarden-26.3-1.6.2-Fabric.jar";
+            "hash" = "sha512-k9bo4WJliuEUGfaD+j+BCrRLB8eNqjPKQzWkDGurecki4PEbDYFMwiLMe7H6dfnJJT7xEwKGQ8siK2uewE/z/A==";
+        };
     in {
         "5RHcq20G" = _5RHcq20G;
         "brgeDnyl" = _brgeDnyl;
@@ -86,6 +91,7 @@ let
         "nzldYFco" = _nzldYFco;
         "m8udLkfx" = _m8udLkfx;
         "mi1jmtye" = _mi1jmtye;
+        "pn5UiF2U" = _pn5UiF2U;
         "fabric-1.21.4" = _15tqgeQw;
         "fabric-1.21.5" = _YrAI320X;
         "fabric-1.21.6" = _Zk6KCMWi;
@@ -95,6 +101,7 @@ let
         "fabric-1.21.11" = _nzldYFco;
         "fabric-26.1.2" = _m8udLkfx;
         "fabric-26.2" = _mi1jmtye;
+        "fabric-26.3" = _pn5UiF2U;
         "pkg-1.0.0-Fabric" = _5RHcq20G;
         "pkg-1.1.0-Fabric" = _brgeDnyl;
         "pkg-1.1.1-Fabric" = _15tqgeQw;
@@ -108,7 +115,8 @@ let
         "pkg-1.6.1-Fabric-1.21.11" = _nzldYFco;
         "pkg-1.6.1-Fabric-26.1.2" = _m8udLkfx;
         "pkg-1.6.1-Fabric-26.2" = _mi1jmtye;
-        "default" = _mi1jmtye;
+        "pkg-1.6.2-Fabric" = _pn5UiF2U;
+        "default" = _pn5UiF2U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hendrixs-better-pale-garden";

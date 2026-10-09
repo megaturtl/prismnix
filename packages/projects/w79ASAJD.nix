@@ -116,6 +116,11 @@ let
             "file" = "metallum-0.0.23.jar";
             "hash" = "sha512-oTvTW7jpPZlF0KH7y7xvgCwX04LF1r7C9obhjbi2Z3Qi0TJ3V0mwTjLoFFtJLVrMdDCNPoOElQ7DRMhcuIp5og==";
         };
+        _T69b1wTO = {
+            "id" = "T69b1wTO";
+            "file" = "metallum-0.0.24.jar";
+            "hash" = "sha512-AZluBUba3JxUGq4jUcR+k/yHcW8e+WLRgLD8pafHDa/fMgzHtg1yct0WXApFFytGDQ7JMTx9JUKlLXD56RWsbA==";
+        };
     in {
         "nXgJP9r0" = _nXgJP9r0;
         "kLacLp8R" = _kLacLp8R;
@@ -140,6 +145,7 @@ let
         "qTtcXdLm" = _qTtcXdLm;
         "QgAqh5TN" = _QgAqh5TN;
         "zY9eWjnE" = _zY9eWjnE;
+        "T69b1wTO" = _T69b1wTO;
         "fabric-26.2-snapshot-3" = _dW7BEDa3;
         "fabric-26.2-snapshot-4" = _JGp7T0Bz;
         "fabric-26.2-snapshot-5" = _XNCQNeZC;
@@ -149,7 +155,7 @@ let
         "fabric-26.2-pre-2" = _oZ3mjb5J;
         "fabric-26.2-rc-1" = _pr0JGoTd;
         "fabric-26.2-rc-2" = _pr0JGoTd;
-        "fabric-26.2" = _zY9eWjnE;
+        "fabric-26.2" = _T69b1wTO;
         "quilt-26.2" = _zY9eWjnE;
         "pkg-0.0.1" = _nXgJP9r0;
         "pkg-0.0.2" = _kLacLp8R;
@@ -174,7 +180,8 @@ let
         "pkg-0.0.21" = _qTtcXdLm;
         "pkg-0.0.22" = _QgAqh5TN;
         "pkg-0.0.23" = _zY9eWjnE;
-        "default" = _zY9eWjnE;
+        "pkg-0.0.24" = _T69b1wTO;
+        "default" = _T69b1wTO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "metallum-mc";

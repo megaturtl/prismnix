@@ -131,6 +131,11 @@ let
             "file" = "mmodding_library-0.7.3-alpha+26.2.jar";
             "hash" = "sha512-juib/RXZVMcjxegeRPa7qObP/XpK8TELpSHjiYsVVomMiKa7bepG6opclKxnJM6dfc7iwRngrXu3lG0jccOW/Q==";
         };
+        _i9IN7i6r = {
+            "id" = "i9IN7i6r";
+            "file" = "mmodding_library-0.8.0-alpha+26.3.jar";
+            "hash" = "sha512-K9kCpD0kOPOAZImE7z7hQF3YfaL+n3IMWQFtSjJV3+x5l4MJKvhJ0tFsNgAkD7W/4cH9t9Tuz7gY2FDu0q4S8w==";
+        };
     in {
         "bTpHy6iV" = _bTpHy6iV;
         "ZDSCv3j1" = _ZDSCv3j1;
@@ -158,17 +163,20 @@ let
         "2D3uPzla" = _2D3uPzla;
         "UgfIDm2G" = _UgfIDm2G;
         "igpDbZ1I" = _igpDbZ1I;
+        "i9IN7i6r" = _i9IN7i6r;
         "quilt-1.18.2" = _bTpHy6iV;
         "quilt-1.19.2" = _RaFilXOs;
         "quilt-26.1" = _2D3uPzla;
         "quilt-26.1.1" = _2D3uPzla;
         "quilt-26.1.2" = _2D3uPzla;
         "quilt-26.2" = _igpDbZ1I;
+        "quilt-26.3" = _i9IN7i6r;
         "fabric-1.19.2" = _RaFilXOs;
         "fabric-26.1" = _2D3uPzla;
         "fabric-26.1.1" = _2D3uPzla;
         "fabric-26.1.2" = _2D3uPzla;
         "fabric-26.2" = _igpDbZ1I;
+        "fabric-26.3" = _i9IN7i6r;
         "pkg-0.0.1-alpha" = _bTpHy6iV;
         "pkg-0.0.2-alpha" = _ZDSCv3j1;
         "pkg-0.0.3-alpha" = _RaFilXOs;
@@ -195,7 +203,8 @@ let
         "pkg-0.2.3-alpha+26.1" = _2D3uPzla;
         "pkg-0.7.2-alpha+26.2" = _UgfIDm2G;
         "pkg-0.7.3-alpha+26.2" = _igpDbZ1I;
-        "default" = _igpDbZ1I;
+        "pkg-0.8.0-alpha+26.3" = _i9IN7i6r;
+        "default" = _i9IN7i6r;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mmodding-library";

@@ -1016,6 +1016,11 @@ let
             "file" = "directionhud-paper-1.8.4.0+26.2.jar";
             "hash" = "sha512-Zefp6T3K9xbYamKQBm4suMTzhqSYk/vztlr5UHiT+ukk7Nv9FtofWWGJZBBpiSvP5h0yzr47YAJ38vZO+1+rKg==";
         };
+        _kVJZeBN8 = {
+            "id" = "kVJZeBN8";
+            "file" = "directionhud-fabric-1.8.4.0+26.3.jar";
+            "hash" = "sha512-/+6d6bUTRHmx6wH/hB5Rg1zNbeVbLkN7x6TGv0zlhi4SKhbyzU1s84Qhivnu5CtXMA9kLgEjYLU1aOw/JWFTVA==";
+        };
     in {
         "O4WmlVNu" = _O4WmlVNu;
         "ecU7Oc9X" = _ecU7Oc9X;
@@ -1220,6 +1225,7 @@ let
         "rhKz938t" = _rhKz938t;
         "c3hG7Ulx" = _c3hG7Ulx;
         "u876aZ5C" = _u876aZ5C;
+        "kVJZeBN8" = _kVJZeBN8;
         "fabric-1.19.4" = _g8Xfu8kF;
         "fabric-1.19" = _IK4X768B;
         "fabric-1.19.1" = _IK4X768B;
@@ -1259,6 +1265,7 @@ let
         "fabric-26.1.1" = _z5vSR57l;
         "fabric-26.1.2" = _z5vSR57l;
         "fabric-26.2" = _rhKz938t;
+        "fabric-26.3" = _kVJZeBN8;
         "quilt-1.20" = _EcJXIECx;
         "quilt-1.20.1" = _bOuNpHQd;
         "quilt-1.19.4" = _g8Xfu8kF;
@@ -1295,6 +1302,7 @@ let
         "quilt-26.1.1" = _z5vSR57l;
         "quilt-26.1.2" = _z5vSR57l;
         "quilt-26.2" = _rhKz938t;
+        "quilt-26.3" = _kVJZeBN8;
         "spigot-1.20" = _HYe37xyh;
         "spigot-1.20.1" = _HYe37xyh;
         "spigot-1.20.2" = _HYe37xyh;
@@ -1529,7 +1537,8 @@ let
         "pkg-1.8.3.2+26.2" = _E6AkzqWo;
         "pkg-1.8.4.0+26.2" = _u876aZ5C;
         "pkg-1.8.4.0+26.1-26.2" = _c3hG7Ulx;
-        "default" = _u876aZ5C;
+        "pkg-1.8.4.0+26.3" = _kVJZeBN8;
+        "default" = _kVJZeBN8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "directionhud";

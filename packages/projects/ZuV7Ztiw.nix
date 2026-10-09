@@ -71,6 +71,11 @@ let
             "file" = "ArmorPoser-Plugin-2.1.1.jar";
             "hash" = "sha512-3vkdeMsCd+jgYYoobJWOYQCp+08iVs1da1qV4+Mba5/YYBPJeYVeNLnfMA/At0lJMVDI4KDllRba27slXisXlA==";
         };
+        _9pJO8m1d = {
+            "id" = "9pJO8m1d";
+            "file" = "ArmorPoser-Plugin-3.0.0.jar";
+            "hash" = "sha512-+lRqxVi03CDCc3cVVVMWvTA7YlLsR2/U759rpfxln1xtZFizskinYyGGrtL4iV9CxcRvb0+CzmBRtlBJbWnlHg==";
+        };
     in {
         "SWOy1QwK" = _SWOy1QwK;
         "GV710ESn" = _GV710ESn;
@@ -86,6 +91,7 @@ let
         "9VDohmU8" = _9VDohmU8;
         "Fu0rOGra" = _Fu0rOGra;
         "rxMXkmFX" = _rxMXkmFX;
+        "9pJO8m1d" = _9pJO8m1d;
         "paper-1.21" = _SWOy1QwK;
         "paper-1.21.1" = _SWOy1QwK;
         "paper-1.21.2" = _SWOy1QwK;
@@ -100,6 +106,7 @@ let
         "paper-1.21.11" = _7fveZOlD;
         "paper-26.1.2" = _9VDohmU8;
         "paper-26.2" = _rxMXkmFX;
+        "paper-26.3" = _9pJO8m1d;
         "folia-1.21.3" = _ZeWTHYEB;
         "folia-1.21.4" = _YxURkmQo;
         "folia-1.21.5" = _lbFtR58l;
@@ -111,8 +118,10 @@ let
         "folia-1.21.11" = _7fveZOlD;
         "folia-26.1.2" = _9VDohmU8;
         "folia-26.2" = _rxMXkmFX;
+        "folia-26.3" = _9pJO8m1d;
         "purpur-26.1.2" = _9VDohmU8;
         "purpur-26.2" = _rxMXkmFX;
+        "purpur-26.3" = _9pJO8m1d;
         "pkg-1.0.2" = _SWOy1QwK;
         "pkg-1.1.0" = _GV710ESn;
         "pkg-1.2.0" = _oJgAXkwt;
@@ -127,7 +136,8 @@ let
         "pkg-2.0.1" = _9VDohmU8;
         "pkg-2.1.0" = _Fu0rOGra;
         "pkg-2.1.1" = _rxMXkmFX;
-        "default" = _rxMXkmFX;
+        "pkg-3.0.0" = _9pJO8m1d;
+        "default" = _9pJO8m1d;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armor-poser-plugin";

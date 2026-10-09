@@ -71,6 +71,11 @@ let
             "file" = "Mizuno Eating Animation 2.4.zip";
             "hash" = "sha512-f3YrrTMHj45bv/P/LtkqhYWTP17joEEH55zITUk3mVo+a8CI/KWrf3HheTf2V9NjmKWJohzvn3qVwDkjmcZ7oA==";
         };
+        _QFKQodT0 = {
+            "id" = "QFKQodT0";
+            "file" = "Mizuno Eating Animation 2.5.zip";
+            "hash" = "sha512-mCBBzz7cxDdqLMUcFJWSe+TcsQb9gA9tIvqK1iQD9Vv601Lc9DZ1VMDUh97G2/H82+vxkQlj6u12MGTW/6V/4g==";
+        };
     in {
         "4gupoht8" = _4gupoht8;
         "wvyAq7Aq" = _wvyAq7Aq;
@@ -86,7 +91,8 @@ let
         "Yr2PNrjG" = _Yr2PNrjG;
         "jBJp5d1i" = _jBJp5d1i;
         "PsdfZCGs" = _PsdfZCGs;
-        "minecraft-1.21.4" = _PsdfZCGs;
+        "QFKQodT0" = _QFKQodT0;
+        "minecraft-1.21.4" = _QFKQodT0;
         "minecraft-1.19" = _Yr2PNrjG;
         "minecraft-1.19.1" = _Yr2PNrjG;
         "minecraft-1.19.2" = _Yr2PNrjG;
@@ -103,24 +109,26 @@ let
         "minecraft-1.21.1" = _Yr2PNrjG;
         "minecraft-1.21.2" = _Yr2PNrjG;
         "minecraft-1.21.3" = _Yr2PNrjG;
-        "minecraft-1.21.5" = _PsdfZCGs;
-        "minecraft-1.21.6" = _PsdfZCGs;
-        "minecraft-1.21.7" = _PsdfZCGs;
-        "minecraft-1.21.8" = _PsdfZCGs;
-        "minecraft-1.21.9" = _PsdfZCGs;
-        "minecraft-1.21.10" = _PsdfZCGs;
-        "minecraft-1.21.11" = _PsdfZCGs;
-        "minecraft-26.1" = _PsdfZCGs;
-        "minecraft-26.1.1" = _PsdfZCGs;
-        "minecraft-26.1.2" = _PsdfZCGs;
-        "minecraft-26.2" = _PsdfZCGs;
+        "minecraft-1.21.5" = _QFKQodT0;
+        "minecraft-1.21.6" = _QFKQodT0;
+        "minecraft-1.21.7" = _QFKQodT0;
+        "minecraft-1.21.8" = _QFKQodT0;
+        "minecraft-1.21.9" = _QFKQodT0;
+        "minecraft-1.21.10" = _QFKQodT0;
+        "minecraft-1.21.11" = _QFKQodT0;
+        "minecraft-26.1" = _QFKQodT0;
+        "minecraft-26.1.1" = _QFKQodT0;
+        "minecraft-26.1.2" = _QFKQodT0;
+        "minecraft-26.2" = _QFKQodT0;
+        "minecraft-26.3" = _QFKQodT0;
         "pkg-1.0" = _4gupoht8;
         "pkg-2.0" = _PGEOr83M;
         "pkg-2.1" = _MJhsktq3;
         "pkg-2.2" = _idKBnKPQ;
         "pkg-2.3" = _jBJp5d1i;
         "pkg-2.4" = _PsdfZCGs;
-        "default" = _PsdfZCGs;
+        "pkg-2.5" = _QFKQodT0;
+        "default" = _QFKQodT0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mizuno-eating-animation";

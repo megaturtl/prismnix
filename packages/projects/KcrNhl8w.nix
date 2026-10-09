@@ -66,6 +66,11 @@ let
             "file" = "[26.1-26.1.1] Fat Cats v1.0.zip";
             "hash" = "sha512-Ej2GGgSMvJWiPZh7N2150eMBZDmBnp0cAb9xB+8hVEQYkGJmVQanogqoU8I0Hx2uk62KKjiVNi6v/ORpi/fBMA==";
         };
+        _qDgRvRnZ = {
+            "id" = "qDgRvRnZ";
+            "file" = "[26.x] Fat Cats v1.0.zip";
+            "hash" = "sha512-Glo5tH7U483eoy7ZKMsI/XjHOJtzHo/98peNbSC+XG+992VL5dZqBB1DWsi4Ibsei1xBmOMnI2+WdR9eiMbTlw==";
+        };
     in {
         "53CKi5WO" = _53CKi5WO;
         "AvO6Ikq0" = _AvO6Ikq0;
@@ -80,6 +85,7 @@ let
         "tw46tYFi" = _tw46tYFi;
         "6Fi6UWJG" = _6Fi6UWJG;
         "lgn4aZkS" = _lgn4aZkS;
+        "qDgRvRnZ" = _qDgRvRnZ;
         "minecraft-1.20" = _53CKi5WO;
         "minecraft-1.20.1" = _53CKi5WO;
         "minecraft-1.20.2" = _AvO6Ikq0;
@@ -99,11 +105,13 @@ let
         "minecraft-1.21.9" = _tw46tYFi;
         "minecraft-1.21.10" = _tw46tYFi;
         "minecraft-1.21.11" = _6Fi6UWJG;
-        "minecraft-26.1" = _lgn4aZkS;
-        "minecraft-26.1.1" = _lgn4aZkS;
-        "minecraft-26.1.2" = _lgn4aZkS;
-        "pkg-1.0" = _lgn4aZkS;
-        "default" = _lgn4aZkS;
+        "minecraft-26.1" = _qDgRvRnZ;
+        "minecraft-26.1.1" = _qDgRvRnZ;
+        "minecraft-26.1.2" = _qDgRvRnZ;
+        "minecraft-26.2" = _qDgRvRnZ;
+        "minecraft-26.3" = _qDgRvRnZ;
+        "pkg-1.0" = _qDgRvRnZ;
+        "default" = _qDgRvRnZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fat-cats";

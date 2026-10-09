@@ -211,6 +211,11 @@ let
             "file" = "Energy Shaders [Java] v. 2.9.0.zip";
             "hash" = "sha512-WRzYMns+IcTCavXph6lpruUCRh8aL3yVyfGcwGXrb8Yu5sI+i9TxGBvhPnjwrPLek8zxqS9ch/cAqzQRGtYhAQ==";
         };
+        _jt0XnsMX = {
+            "id" = "jt0XnsMX";
+            "file" = "Energy Shaders [Java] v. 2.9.1.zip";
+            "hash" = "sha512-iwghuOuzMOQZ62+4RUcQOjyVFTyoz/s60ePAIz2qJx2ZeWgppS6dWPpLRu06tFl5NvOqyDCc++EcsICdFZdB3w==";
+        };
     in {
         "rMfgElnf" = _rMfgElnf;
         "885EFGZh" = _885EFGZh;
@@ -254,6 +259,7 @@ let
         "NFXgOHTE" = _NFXgOHTE;
         "pCd2ipMp" = _pCd2ipMp;
         "c7E5pYPx" = _c7E5pYPx;
+        "jt0XnsMX" = _jt0XnsMX;
         "vanilla-1.20.1" = _emUgwh2y;
         "vanilla-1.20.2" = _emUgwh2y;
         "vanilla-1.20.3" = _emUgwh2y;
@@ -283,6 +289,7 @@ let
         "vanilla-26.1.1" = _pCd2ipMp;
         "vanilla-26.1.2" = _pCd2ipMp;
         "vanilla-26.2" = _c7E5pYPx;
+        "vanilla-26.3" = _jt0XnsMX;
         "pkg-2.0.0" = _rMfgElnf;
         "pkg-2.0.1" = _885EFGZh;
         "pkg-2.0.2" = _ow3sa2Iv;
@@ -325,7 +332,8 @@ let
         "pkg-2.8.12" = _NFXgOHTE;
         "pkg-2.8.13" = _pCd2ipMp;
         "pkg-2.9.0" = _c7E5pYPx;
-        "default" = _c7E5pYPx;
+        "pkg-2.9.1" = _jt0XnsMX;
+        "default" = _jt0XnsMX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "energy-shaders-java";

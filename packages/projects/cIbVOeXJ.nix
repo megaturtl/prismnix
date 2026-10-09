@@ -31,6 +31,11 @@ let
             "file" = "Story Mode Clouds.zip";
             "hash" = "sha512-YLH7A6XTXlbyKqHAcl4k4RmAE/gN99uTSIBxttwg6wVt+Z3rfCXEbWNFez2f7RVARN0J/wx5zv2/G/b8suDB+Q==";
         };
+        _vIwivDif = {
+            "id" = "vIwivDif";
+            "file" = "Story Mode Clouds.zip";
+            "hash" = "sha512-+i74Lh3mgoMGDWOxW4hi4O6iZHKU78TSwFNZsLVicFkA6eXl1LNYsMw10aeiFKH5kJ37uoXaBl7i2aLern2rhg==";
+        };
     in {
         "HrM45xXo" = _HrM45xXo;
         "R2pRAyEv" = _R2pRAyEv;
@@ -38,26 +43,29 @@ let
         "XihsV91b" = _XihsV91b;
         "tolo3iiJ" = _tolo3iiJ;
         "ShzxIBqk" = _ShzxIBqk;
-        "minecraft-1.21.6" = _ShzxIBqk;
-        "minecraft-1.21.7" = _ShzxIBqk;
-        "minecraft-1.21.8" = _ShzxIBqk;
+        "vIwivDif" = _vIwivDif;
+        "minecraft-1.21.6" = _vIwivDif;
+        "minecraft-1.21.7" = _vIwivDif;
+        "minecraft-1.21.8" = _vIwivDif;
         "minecraft-1.21.4" = _ShzxIBqk;
-        "minecraft-1.21.5" = _ShzxIBqk;
-        "minecraft-1.21.9" = _ShzxIBqk;
-        "minecraft-1.21.10" = _ShzxIBqk;
+        "minecraft-1.21.5" = _vIwivDif;
+        "minecraft-1.21.9" = _vIwivDif;
+        "minecraft-1.21.10" = _vIwivDif;
         "minecraft-1.21.2" = _ShzxIBqk;
         "minecraft-1.21.3" = _ShzxIBqk;
-        "minecraft-1.21.11" = _ShzxIBqk;
-        "minecraft-26.1" = _ShzxIBqk;
-        "minecraft-26.1.1" = _ShzxIBqk;
-        "minecraft-26.1.2" = _ShzxIBqk;
-        "minecraft-26.2" = _ShzxIBqk;
+        "minecraft-1.21.11" = _vIwivDif;
+        "minecraft-26.1" = _vIwivDif;
+        "minecraft-26.1.1" = _vIwivDif;
+        "minecraft-26.1.2" = _vIwivDif;
+        "minecraft-26.2" = _vIwivDif;
+        "minecraft-26.3" = _vIwivDif;
         "pkg-1.0-1.21.6+" = _HrM45xXo;
         "pkg-1.0.1" = _R2pRAyEv;
         "pkg-1.1" = _iGCu5Ibj;
         "pkg-1.2" = _XihsV91b;
         "pkg-1.3" = _ShzxIBqk;
-        "default" = _ShzxIBqk;
+        "pkg-1.4" = _vIwivDif;
+        "default" = _vIwivDif;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "story-mode-clouds";

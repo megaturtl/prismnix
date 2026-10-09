@@ -161,6 +161,16 @@ let
             "file" = "medievalglass-neoforge-26.2-1.1.3.jar";
             "hash" = "sha512-KAyv1uItDkxtMYwnQJec3LgkRNaCqjRPPBjGkNH8vI6SdJhp+Gnx+pRIi5NMx9yJVGZG7RqgZmoMgCSmcsYvKQ==";
         };
+        _acjRt1rm = {
+            "id" = "acjRt1rm";
+            "file" = "medievalglass-neoforge-26.3-1.1.3.jar";
+            "hash" = "sha512-GPBqNssnfO/k72gGBpSFu/1+q+8wuOk1q7pq1z1eIIlJ4p+FHK9TlaLKB4qbVSAs2i9xbYWoe5tnoiQRX8vb2w==";
+        };
+        _Zm7zE0rZ = {
+            "id" = "Zm7zE0rZ";
+            "file" = "medievalglass-fabric-26.3-1.1.3.jar";
+            "hash" = "sha512-0buHmciY41HHvwgRKuwrCdm6cRIUrFeY1vIc5o68pheY+z6TlmK8w8o5TwY3zYkBsbQAMdVn+13KFsG3LVPWxg==";
+        };
     in {
         "DwoEtcuM" = _DwoEtcuM;
         "iJy7XrSj" = _iJy7XrSj;
@@ -194,6 +204,8 @@ let
         "DdhgWHvV" = _DdhgWHvV;
         "gNAs3wbo" = _gNAs3wbo;
         "gflKTLae" = _gflKTLae;
+        "acjRt1rm" = _acjRt1rm;
+        "Zm7zE0rZ" = _Zm7zE0rZ;
         "fabric-1.21.9" = _NLjoFrwP;
         "fabric-1.21.10" = _NLjoFrwP;
         "fabric-1.21.11" = _flkX3FtQ;
@@ -208,6 +220,7 @@ let
         "fabric-1.21.2" = _BZidp9OI;
         "fabric-1.21.3" = _BZidp9OI;
         "fabric-26.2" = _gNAs3wbo;
+        "fabric-26.3" = _Zm7zE0rZ;
         "neoforge-1.21.9" = _X5hYiMSb;
         "neoforge-1.21.10" = _X5hYiMSb;
         "neoforge-1.21.11" = _F4uU61nt;
@@ -222,10 +235,11 @@ let
         "neoforge-1.21.2" = _y91BIN7H;
         "neoforge-1.21.3" = _y91BIN7H;
         "neoforge-26.2" = _gflKTLae;
+        "neoforge-26.3" = _acjRt1rm;
         "pkg-1.1.1" = _R01gM7MK;
         "pkg-1.1.2" = _vy2tyfJ6;
-        "pkg-1.1.3" = _gflKTLae;
-        "default" = _gflKTLae;
+        "pkg-1.1.3" = _Zm7zE0rZ;
+        "default" = _Zm7zE0rZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "medieval-glass";

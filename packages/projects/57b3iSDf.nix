@@ -226,6 +226,91 @@ let
             "file" = "pop_up_emotes-1.5.3.jar";
             "hash" = "sha512-qGv06CBVmbNGjROQ3NM5e0dSCEl4T1y2UNZNC7Blr9/N6DvlAH1BWugYZ/mfTD+af7gGQMxD3zpub+DSyb9Uqw==";
         };
+        _b1TpiSNU = {
+            "id" = "b1TpiSNU";
+            "file" = "pop_up_emotes-1.5.4.jar";
+            "hash" = "sha512-xCwho3aZMmkrY6B6kJwfJvfYt3kGdLLQY1e8FzU5TORcEl1LPZwhoRez6/X1EaqveKak7VHFe+eaPdMWnJKbpg==";
+        };
+        _d6XFbOVJ = {
+            "id" = "d6XFbOVJ";
+            "file" = "pop_up_emotes-1.5.4.jar";
+            "hash" = "sha512-QdE1M4iN2rg6jc9ZaHU6Ed2Psdeuj3B0HnCze6Mw8CJycb5YOy84PSJS6i+RmUmz9+eMj8CQM+m/ndonJU16Zw==";
+        };
+        _BJPwPNed = {
+            "id" = "BJPwPNed";
+            "file" = "pop_up_emotes-1.5.4.jar";
+            "hash" = "sha512-jlXYwvsQdG11LOvA4OSFf8LSIMPMTguMU+xycjqqySpaPk4xzA4+Zlgf++ko4Fs/6ykxZGiyQx3opbOPLKzcfw==";
+        };
+        _CcN5baoW = {
+            "id" = "CcN5baoW";
+            "file" = "pop_up_emotes-1.5.4.jar";
+            "hash" = "sha512-oZUGW6KZBxxzmQgaF6IdbddD5ALbj+IVM99IF8mZi+E2lq5H6DIw5iKE2/dZ7sFprb/Qb54vE7YLkZJA+AkVuw==";
+        };
+        _Yz3wbxVZ = {
+            "id" = "Yz3wbxVZ";
+            "file" = "pop_up_emotes-1.5.4.jar";
+            "hash" = "sha512-2rEE6DzZ9Wym9D23MWLYKLbXGxPIT2RFfSQ8BEqft8u2Qn7RfehBfcU4x56nTPYhWc+EppdY9WaoEDXN7aRjBw==";
+        };
+        _3GPdOz4f = {
+            "id" = "3GPdOz4f";
+            "file" = "pop_up_emotes-1.5.5.jar";
+            "hash" = "sha512-1VrhTbASG2LZPD+K0v4Yg3BHA1m4tY0UifiZ4gRJF0bVgaKwt1FVObqH86P0dLpExZJ9IEpjxoBH2+PUL+8z+A==";
+        };
+        _MdoszbQD = {
+            "id" = "MdoszbQD";
+            "file" = "pop_up_emotes-1.5.5.jar";
+            "hash" = "sha512-PIasEHrUfM2MvVFRBRyz2I/NBFQ9asJi3xHUiWGrQ7yfN0lI2y2PoxSz1MDhCRFH7UgPHe6WfsOPZ1l+P7/t7w==";
+        };
+        _6xsXl2Dd = {
+            "id" = "6xsXl2Dd";
+            "file" = "pop_up_emotes-1.5.5.jar";
+            "hash" = "sha512-ttPCSzG9cNhmiVBralTQ4ONHViLjgrHkFBvDm2O4x6HriTf6KU08EHLDKebLLx7AF+WGVxoW1ITk0bwWyGOANQ==";
+        };
+        _JXVVgmQm = {
+            "id" = "JXVVgmQm";
+            "file" = "pop_up_emotes-1.5.5.jar";
+            "hash" = "sha512-abAct9hIj04CwDB9zP1coLXUHzQc+NhTEt8rSaC/VSqZpM6tOKKhLzxS4YCRwbgdkPjdkCdaU0fmPXnehH2LpA==";
+        };
+        _jxHlimN9 = {
+            "id" = "jxHlimN9";
+            "file" = "pop_up_emotes-1.5.5.jar";
+            "hash" = "sha512-DTaJHsKqJB1Z2/3dXs8bTzZrdel4LF3D1fOzBNvXgXR9+oCRM2tQPMXJq0oBZs86u1NGT1Eaq6pW1/xbsw0J5g==";
+        };
+        _NKDYUJeG = {
+            "id" = "NKDYUJeG";
+            "file" = "pop_up_emotes-1.5.6.jar";
+            "hash" = "sha512-dOhvhZroM/WkzRJC3c5Jme/ufakXrB6qBwUfRjTOJJmwlDPVmrMUAT9flUj5N41fCc14qPT+ROls2Lj/iLxHeQ==";
+        };
+        _pEtZp06z = {
+            "id" = "pEtZp06z";
+            "file" = "pop_up_emotes-1.5.6.jar";
+            "hash" = "sha512-QURj97APzx+4n9V+yJU7oq4EX6YWUgmHvxgBOvWXupXhbBuxBVp+c185c3z0nZuXx/wgVYJ4tHbYfJA03Fueig==";
+        };
+        _FDA9FAyq = {
+            "id" = "FDA9FAyq";
+            "file" = "pop_up_emotes-1.5.6.jar";
+            "hash" = "sha512-uWqm9/qLiCX716Ox9kAic2+v326upUjYy+UCjSQKzBUrwrUIyaeY7SHwXe2RlNsNeySRaIJ7I43bmUOAWK48Nw==";
+        };
+        _iB8EHh3H = {
+            "id" = "iB8EHh3H";
+            "file" = "pop_up_emotes-1.5.6.jar";
+            "hash" = "sha512-gvCi7frqN6Pp7ZhbkYVkyzshTWOp0RJgkVp5RsCBOjNZmtVkBri/JCqdKt7COvV0naovayBBTsOkFJnpwSLoqQ==";
+        };
+        _F3c8iobE = {
+            "id" = "F3c8iobE";
+            "file" = "pop_up_emotes-1.5.6.jar";
+            "hash" = "sha512-V0DLkYIjcss8PODdtbpsfbJ7AHXlw2zbTde6vmL0uoZwZOnt/knZnqyPzNQxCs74tcYZSFa09rKvJeoDDdqVLQ==";
+        };
+        _UpirakPF = {
+            "id" = "UpirakPF";
+            "file" = "pop_up_emotes-1.5.6.jar";
+            "hash" = "sha512-/JH4S5Le6Rxn5CuR/6CK1/6CHoFDfHM1fagdWY8A1ZqTqhScEAG6QoaB55s2lNDiHQaqLvGNe8K7Oj6IGPaEPw==";
+        };
+        _bIbhV2zo = {
+            "id" = "bIbhV2zo";
+            "file" = "pop_up_emotes-1.5.6.jar";
+            "hash" = "sha512-U/f9mphvHo41OBbbe5XBNpruxMXYGlVIz8HBObfd7q7YSNi5BNOihto0r7xOyC4bAd1pqAGLmhetfYDHuRxSLQ==";
+        };
     in {
         "3IFIi1Zu" = _3IFIi1Zu;
         "XKm4AvPN" = _XKm4AvPN;
@@ -272,16 +357,36 @@ let
         "2L0DDLdp" = _2L0DDLdp;
         "8vIUrMKS" = _8vIUrMKS;
         "w3TYgN5t" = _w3TYgN5t;
-        "forge-1.20.1" = _2L0DDLdp;
+        "b1TpiSNU" = _b1TpiSNU;
+        "d6XFbOVJ" = _d6XFbOVJ;
+        "BJPwPNed" = _BJPwPNed;
+        "CcN5baoW" = _CcN5baoW;
+        "Yz3wbxVZ" = _Yz3wbxVZ;
+        "3GPdOz4f" = _3GPdOz4f;
+        "MdoszbQD" = _MdoszbQD;
+        "6xsXl2Dd" = _6xsXl2Dd;
+        "JXVVgmQm" = _JXVVgmQm;
+        "jxHlimN9" = _jxHlimN9;
+        "NKDYUJeG" = _NKDYUJeG;
+        "pEtZp06z" = _pEtZp06z;
+        "FDA9FAyq" = _FDA9FAyq;
+        "iB8EHh3H" = _iB8EHh3H;
+        "F3c8iobE" = _F3c8iobE;
+        "UpirakPF" = _UpirakPF;
+        "bIbhV2zo" = _bIbhV2zo;
+        "forge-1.20.1" = _NKDYUJeG;
         "forge-1.19.2" = _XKm4AvPN;
-        "neoforge-1.21.1" = _8vIUrMKS;
+        "neoforge-1.21.1" = _pEtZp06z;
         "neoforge-1.21.10" = _mmpz2DkC;
+        "neoforge-26.3" = _UpirakPF;
         "fabric-1.20.1" = _DejpusV7;
-        "fabric-1.21.11" = _jTLW8iY5;
+        "fabric-1.21.11" = _bIbhV2zo;
         "fabric-1.21.8" = _br5AChAX;
-        "fabric-26.1" = _w3TYgN5t;
-        "fabric-26.1.1" = _w3TYgN5t;
-        "fabric-26.1.2" = _w3TYgN5t;
+        "fabric-26.1" = _FDA9FAyq;
+        "fabric-26.1.1" = _FDA9FAyq;
+        "fabric-26.1.2" = _FDA9FAyq;
+        "fabric-26.3" = _F3c8iobE;
+        "fabric-26.2" = _iB8EHh3H;
         "pkg-1.2.1" = _DejpusV7;
         "pkg-1.2.2" = _HSejAG0i;
         "pkg-1.3" = _1w7WzVnK;
@@ -301,7 +406,10 @@ let
         "pkg-1.5.1" = _g4SUvBsH;
         "pkg-1.5.2" = _XWDkSaOr;
         "pkg-1.5.3" = _w3TYgN5t;
-        "default" = _w3TYgN5t;
+        "pkg-1.5.4" = _Yz3wbxVZ;
+        "pkg-1.5.5" = _jxHlimN9;
+        "pkg-1.5.6" = _bIbhV2zo;
+        "default" = _bIbhV2zo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pop-up-emotes";

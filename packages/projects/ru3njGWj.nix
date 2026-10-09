@@ -61,6 +61,26 @@ let
             "file" = "rexray-5.0.3-neoforge-1.21.1.jar";
             "hash" = "sha512-rG9m6p3h8GcfJ3bPrkXFt2nJMDCHAzgfs+WgRYThB7h2VbKM9M0FbnMhXJO17RZgRnCPYLdVvBFq74RHsLqy/w==";
         };
+        _4sT9ow0C = {
+            "id" = "4sT9ow0C";
+            "file" = "rexray-5.0.3-beta-928-forge-1.20.1.jar";
+            "hash" = "sha512-q8Ysc4sVLCDIDYnOtyRvH5wlkCd+2Y+zmW7BY2LGF89DMR029EznKEy/x+q//p3CKGjNuBCO4SqTlX5Oj11xHw==";
+        };
+        _7JMlZvCA = {
+            "id" = "7JMlZvCA";
+            "file" = "rexray-5.0.3-beta-928-neoforge-26.1.2.jar";
+            "hash" = "sha512-6hy+2L6+k0URZrNUwd1je4BZMxw/FuLKQHVRxrNUM43rMhsESApXLbwdtQBDd6eAbuvWqsYq+KPBcX/wOdMLuQ==";
+        };
+        _aweOlemg = {
+            "id" = "aweOlemg";
+            "file" = "rexray-5.0.3-beta-930-forge-1.20.1.jar";
+            "hash" = "sha512-RPuuCJoJNaOh+gNS8eqpgFShrC3Kp3Ju3HS7obmX0LztJFcjxvseSdy5X2r+jPWryTnJtiyR8UYJZWT6ap9ElQ==";
+        };
+        _kkSXAhs4 = {
+            "id" = "kkSXAhs4";
+            "file" = "rexray-5.0.3-beta-1001-forge-1.20.1.jar";
+            "hash" = "sha512-2eD3j1inU5A0/D+u/JH5A24QL5w3DtRHrZiCi9zi83K93UrUcEhmR9gpK++ND/KTHNJ+xRkOksj5Kvhq0fpfgQ==";
+        };
     in {
         "Voc7V6UU" = _Voc7V6UU;
         "wBKLEigb" = _wBKLEigb;
@@ -74,7 +94,13 @@ let
         "XXgu7G4h" = _XXgu7G4h;
         "kUzHxcHB" = _kUzHxcHB;
         "B0yUYEfI" = _B0yUYEfI;
+        "4sT9ow0C" = _4sT9ow0C;
+        "7JMlZvCA" = _7JMlZvCA;
+        "aweOlemg" = _aweOlemg;
+        "kkSXAhs4" = _kkSXAhs4;
         "neoforge-1.21.1" = _B0yUYEfI;
+        "neoforge-26.1.2" = _7JMlZvCA;
+        "forge-1.20.1" = _kkSXAhs4;
         "pkg-1.0.0" = _Voc7V6UU;
         "pkg-2.0.0" = _wBKLEigb;
         "pkg-2.1.0" = _IZwc2omG;
@@ -86,8 +112,10 @@ let
         "pkg-5.0.0" = _wPAYCDWy;
         "pkg-5.0.1" = _XXgu7G4h;
         "pkg-5.0.2" = _kUzHxcHB;
-        "pkg-5.0.3" = _B0yUYEfI;
-        "default" = _B0yUYEfI;
+        "pkg-5.0.3" = _kkSXAhs4;
+        "pkg-5.0.3-beta-928" = _7JMlZvCA;
+        "pkg-5.0.3-beta-930" = _aweOlemg;
+        "default" = _kkSXAhs4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rexrayandsupertools";

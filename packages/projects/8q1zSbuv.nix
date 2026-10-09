@@ -106,6 +106,16 @@ let
             "file" = "tpa-v1.2.0+1.21.11.jar";
             "hash" = "sha512-EBhCCZ4w9RFg295+orEmLGtQFrN4Gx9XaoHlD95Ie6mbdE+lzljeTYP8tlf2USUdGsnfQNfoa8/ctWwEIn6X7g==";
         };
+        _N26jLj2o = {
+            "id" = "N26jLj2o";
+            "file" = "tpa-v1.2.0+26.1-26.1.2.jar";
+            "hash" = "sha512-DrSXinRBqUvxyGWzpyeoL94Pe5OMFmpn0wzIcVft0YUUaXBUriXUmbqPuth2Ih0389H7HilG6FTZJ5RtKs7Qiw==";
+        };
+        _tQtJs8HU = {
+            "id" = "tQtJs8HU";
+            "file" = "tpa-v1.2.0+26.2.jar";
+            "hash" = "sha512-MwDA2KCedU3QGBM4bb3XAHKxQwI/BTFXczL9zPsEoyCH2D1Mq6CFEulL/PEc6+Sg6wUWFVjOihaItQSkHWoR7w==";
+        };
     in {
         "eHbI0Zli" = _eHbI0Zli;
         "GZql1S3j" = _GZql1S3j;
@@ -128,6 +138,8 @@ let
         "gaYBP8p2" = _gaYBP8p2;
         "XgkArFQd" = _XgkArFQd;
         "HBJ2zTJD" = _HBJ2zTJD;
+        "N26jLj2o" = _N26jLj2o;
+        "tQtJs8HU" = _tQtJs8HU;
         "fabric-1.21" = _YSIKpdUf;
         "fabric-1.21.1" = _YSIKpdUf;
         "fabric-1.21.2" = _Xz3ZgYgF;
@@ -147,13 +159,14 @@ let
         "fabric-1.21.9" = _XgkArFQd;
         "fabric-1.21.10" = _XgkArFQd;
         "fabric-1.21.11" = _HBJ2zTJD;
-        "fabric-26.1" = _kgtjlpog;
-        "fabric-26.1.1" = _kgtjlpog;
-        "fabric-26.1.2" = _kgtjlpog;
+        "fabric-26.1" = _N26jLj2o;
+        "fabric-26.1.1" = _N26jLj2o;
+        "fabric-26.1.2" = _N26jLj2o;
+        "fabric-26.2" = _tQtJs8HU;
         "pkg-1.0.0" = _XUyTFedH;
         "pkg-1.1.0" = _kgtjlpog;
-        "pkg-1.2.0" = _HBJ2zTJD;
-        "default" = _HBJ2zTJD;
+        "pkg-1.2.0" = _tQtJs8HU;
+        "default" = _tQtJs8HU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tiny-pickup-animation";

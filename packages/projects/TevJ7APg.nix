@@ -591,6 +591,11 @@ let
             "file" = "GoldenAppleTree-1.2.6-26.3-NeoForge.jar";
             "hash" = "sha512-sWPWSF3Ou3UisZ9ImfBqGKKyGbpgFYNj3WD8IVXGzUM78UbyPgbEstcT9bBZQ7zAWx6Pxg58luLUlJmNK+197Q==";
         };
+        _DthL2sjU = {
+            "id" = "DthL2sjU";
+            "file" = "GoldenAppleTree-1.2.6-26.3-Forge.jar";
+            "hash" = "sha512-KEjDhbus63l8PJoq3NuFOOfYUgFEudkNJwOQO2pV2nb4DPHyI+DJ7HCfA5mC2PI0JzmIXMbnh3yXXNqUaVkAMw==";
+        };
     in {
         "7FjibIio" = _7FjibIio;
         "85ypE3FE" = _85ypE3FE;
@@ -710,6 +715,7 @@ let
         "Cbq6UXrG" = _Cbq6UXrG;
         "kzZH4tTe" = _kzZH4tTe;
         "BTyJQD9U" = _BTyJQD9U;
+        "DthL2sjU" = _DthL2sjU;
         "neoforge-1.21" = _cLX0mexo;
         "neoforge-1.21.1" = _UxLS6VLq;
         "neoforge-1.21.2" = _rxbOkg7Y;
@@ -763,6 +769,7 @@ let
         "forge-26.1.1" = _k1dzinC9;
         "forge-26.1.2" = _k1dzinC9;
         "forge-26.2" = _TKV6xzD1;
+        "forge-26.3" = _DthL2sjU;
         "pkg-1.0.0-1.21.1-NeoForge" = _7FjibIio;
         "pkg-1.0.0-1.20.1-Fabric" = _85ypE3FE;
         "pkg-1.0.0-1.20.1-Forge" = _btshfuvD;
@@ -881,7 +888,8 @@ let
         "pkg-1.2.6-26.2-Fabric" = _Cbq6UXrG;
         "pkg-1.2.6-26.3-Fabric" = _kzZH4tTe;
         "pkg-1.2.6-26.3-NeoForge" = _BTyJQD9U;
-        "default" = _BTyJQD9U;
+        "pkg-1.2.6-26.3-Forge" = _DthL2sjU;
+        "default" = _DthL2sjU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "golden-apple-tree";

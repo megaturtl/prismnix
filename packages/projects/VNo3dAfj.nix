@@ -31,6 +31,11 @@ let
             "file" = "playerhider-26.2-1.0.0.jar";
             "hash" = "sha512-iPcvC9BfqzQM68qhAlBUexr9Z1R1Vr6/LVBfIWCacGScwpou1Ux/qe0sm5BjzbjPcLOc4QmcaaN2NJ9ZMENMRQ==";
         };
+        _xlmGr7pA = {
+            "id" = "xlmGr7pA";
+            "file" = "playerhider-26.3-1.0.0.jar";
+            "hash" = "sha512-euHjqLeemchfUtAFdu9ABGUyRBiiIHq14hlto1x2XH0semMIvitzREhveLA3r+6uLZOA2D+zPFygudK9/J7Z3g==";
+        };
     in {
         "XTkT182T" = _XTkT182T;
         "B8lD3ADE" = _B8lD3ADE;
@@ -38,6 +43,7 @@ let
         "RYKgo6SB" = _RYKgo6SB;
         "xgQJjuXw" = _xgQJjuXw;
         "sV5UKPt5" = _sV5UKPt5;
+        "xlmGr7pA" = _xlmGr7pA;
         "fabric-1.21.11" = _B8lD3ADE;
         "fabric-1.21" = _B8lD3ADE;
         "fabric-1.21.1" = _B8lD3ADE;
@@ -62,9 +68,10 @@ let
         "fabric-26.1.1" = _xgQJjuXw;
         "fabric-26.1.2" = _xgQJjuXw;
         "fabric-26.2" = _sV5UKPt5;
-        "pkg-1.0.0" = _sV5UKPt5;
+        "fabric-26.3" = _xlmGr7pA;
+        "pkg-1.0.0" = _xlmGr7pA;
         "pkg-1.1.0" = _B8lD3ADE;
-        "default" = _sV5UKPt5;
+        "default" = _xlmGr7pA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "player-hider-funnest-edition";

@@ -161,6 +161,16 @@ let
             "file" = "swap-item-1.3.2-mc26.2.jar";
             "hash" = "sha512-46gZQOBRJVq/ZqQzrSpgSSOmZtb8BaYacvAm/kGFHvhgyyT9D0NHnVHjmf1t7djdl2YTi4OWoM7bpbLAPHCPLg==";
         };
+        _tQXUZ3Tw = {
+            "id" = "tQXUZ3Tw";
+            "file" = "SwapItem+v1.3.3-mc26.3.zip";
+            "hash" = "sha512-YbGEnHCEhmS/7Zughjuh/Xbmwvz2PBosMeuWNazhrDUJD8Cy7o185msywTsMf3JDet70zW20vRr8flOJd4XKLg==";
+        };
+        _GRgblum7 = {
+            "id" = "GRgblum7";
+            "file" = "swap-item-1.3.3-mc26.3.jar";
+            "hash" = "sha512-9nXseCKfUf/jTKIiDJuL9VRWjEpvNYFyQJh06EWx9mIRUJhEbbN9zYFOW9SUSi9F0G/j9fdhaZb6W0GrxxzIzA==";
+        };
     in {
         "ic5MF9X7" = _ic5MF9X7;
         "6on0aLtR" = _6on0aLtR;
@@ -194,6 +204,8 @@ let
         "6XIDdUYH" = _6XIDdUYH;
         "QupTXPju" = _QupTXPju;
         "jnQaC3o2" = _jnQaC3o2;
+        "tQXUZ3Tw" = _tQXUZ3Tw;
+        "GRgblum7" = _GRgblum7;
         "datapack-1.19" = _ic5MF9X7;
         "datapack-1.19.1" = _ic5MF9X7;
         "datapack-1.19.2" = _ic5MF9X7;
@@ -222,6 +234,7 @@ let
         "datapack-26.1.1" = _fow6ZqfK;
         "datapack-26.1.2" = _fow6ZqfK;
         "datapack-26.2" = _QupTXPju;
+        "datapack-26.3" = _tQXUZ3Tw;
         "fabric-1.19" = _6on0aLtR;
         "fabric-1.19.1" = _6on0aLtR;
         "fabric-1.19.2" = _6on0aLtR;
@@ -250,6 +263,7 @@ let
         "fabric-26.1.1" = _6XIDdUYH;
         "fabric-26.1.2" = _6XIDdUYH;
         "fabric-26.2" = _jnQaC3o2;
+        "fabric-26.3" = _GRgblum7;
         "forge-1.19" = _6on0aLtR;
         "forge-1.19.1" = _6on0aLtR;
         "forge-1.19.2" = _6on0aLtR;
@@ -278,6 +292,7 @@ let
         "forge-26.1.1" = _6XIDdUYH;
         "forge-26.1.2" = _6XIDdUYH;
         "forge-26.2" = _jnQaC3o2;
+        "forge-26.3" = _GRgblum7;
         "quilt-1.19" = _6on0aLtR;
         "quilt-1.19.1" = _6on0aLtR;
         "quilt-1.19.2" = _6on0aLtR;
@@ -306,6 +321,7 @@ let
         "quilt-26.1.1" = _6XIDdUYH;
         "quilt-26.1.2" = _6XIDdUYH;
         "quilt-26.2" = _jnQaC3o2;
+        "quilt-26.3" = _GRgblum7;
         "neoforge-1.21.2" = _qG5oC5ou;
         "neoforge-1.21.3" = _qG5oC5ou;
         "neoforge-1.21.4" = _lSRM0gMW;
@@ -320,6 +336,7 @@ let
         "neoforge-26.1.1" = _6XIDdUYH;
         "neoforge-26.1.2" = _6XIDdUYH;
         "neoforge-26.2" = _jnQaC3o2;
+        "neoforge-26.3" = _GRgblum7;
         "pkg-1.1" = _ic5MF9X7;
         "pkg-1.1+mod" = _6on0aLtR;
         "pkg-1.1.1" = _os08Loyg;
@@ -352,7 +369,9 @@ let
         "pkg-1.3.2-mc26.1+mod" = _6XIDdUYH;
         "pkg-1.3.2-mc26.2" = _QupTXPju;
         "pkg-1.3.2-mc26.2+mod" = _jnQaC3o2;
-        "default" = _jnQaC3o2;
+        "pkg-1.3.3-mc26.3" = _tQXUZ3Tw;
+        "pkg-1.3.3-mc26.3+mod" = _GRgblum7;
+        "default" = _GRgblum7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "swap-item";

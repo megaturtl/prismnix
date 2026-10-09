@@ -81,6 +81,11 @@ let
             "file" = "single-mace-1.0.0.jar";
             "hash" = "sha512-DsKfQeX15pNC+EUW6ZipgGzWhKr5Xq3TgreZYq7LBIfg3TBue8c2kow6E769I5Rez2rSMhxosN+WWZGQufJaDA==";
         };
+        _cGmnoG6J = {
+            "id" = "cGmnoG6J";
+            "file" = "single-mace-1.0.0.jar";
+            "hash" = "sha512-IA1cyUpeQhORS8b6w/oyks8VTUX3cUmEcmrMV1JZDpxEqU1I62fwKycFTv3xqbXJyfesQ20YPt9RPU+9pcKoTg==";
+        };
     in {
         "y6JkuAbM" = _y6JkuAbM;
         "icFe0XAG" = _icFe0XAG;
@@ -98,6 +103,7 @@ let
         "hcZh8Bnw" = _hcZh8Bnw;
         "Y81FhBzn" = _Y81FhBzn;
         "gEeY0t00" = _gEeY0t00;
+        "cGmnoG6J" = _cGmnoG6J;
         "fabric-1.21.8" = _XjbP9MkS;
         "fabric-1.21.9" = _XjbP9MkS;
         "fabric-1.21.10" = _XjbP9MkS;
@@ -113,6 +119,7 @@ let
         "fabric-26.1.1" = _gEeY0t00;
         "fabric-26.1.2" = _gEeY0t00;
         "fabric-26.2" = _gEeY0t00;
+        "fabric-26.3" = _cGmnoG6J;
         "pkg-1.21.8" = _t9zJ4pkv;
         "pkg-1.21.9" = _zNFkthny;
         "pkg-1.21.10" = _WS5oGzBk;
@@ -125,7 +132,8 @@ let
         "pkg-1.21.1" = _hfhyg37x;
         "pkg-1.21" = _XjbP9MkS;
         "pkg-26.x" = _gEeY0t00;
-        "default" = _gEeY0t00;
+        "pkg-26.3" = _cGmnoG6J;
+        "default" = _cGmnoG6J;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "single-mace";

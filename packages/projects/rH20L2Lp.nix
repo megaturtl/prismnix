@@ -791,6 +791,36 @@ let
             "file" = "mcw-holidays-1.1.2-mc26.2fabric.jar";
             "hash" = "sha512-hZQLXETD0cXJ7iQs7dULfPA7U9WHGDs5ooDK79r6GTuR8JLwsKovAdci9DFCmGPZ3/NhGxfhj/F+2rTYcatESg==";
         };
+        _d4YSIZDH = {
+            "id" = "d4YSIZDH";
+            "file" = "mcw-holidays-1.1.2-mc26.3neoforge.jar";
+            "hash" = "sha512-y9qR8ZbhFmhVLWaR0u61IUEYFFxhtp027gS6eQkcLy9EAdIMwZn0zu8eGU4Rk/M98DjExQDLk3DmxzIr5z3Xuw==";
+        };
+        _8JAYHryC = {
+            "id" = "8JAYHryC";
+            "file" = "mcw-holidays-1.1.2-mc26.3forge.jar";
+            "hash" = "sha512-dQn1VnlbgipQtq6Tz0V+8WFBixeG/CDBRfNJgVaDF/EesphQTwb20CKki7tjQ0DWLdGU9XJa6Fvs2LaHu5QyDw==";
+        };
+        _qvlKsLBm = {
+            "id" = "qvlKsLBm";
+            "file" = "mcw-holidays-1.1.2-mc26.3fabric.jar";
+            "hash" = "sha512-ey8pMqt+eN6eokHeQovHUaQtgyyelgxsd7q36doaIWUjr+gjUqOPU4oqskkGR72xqsGtaRHh7ThSBS+lYIE+zw==";
+        };
+        _s54o5rUj = {
+            "id" = "s54o5rUj";
+            "file" = "mcw-holidays-1.1.3-mc26.3fabric.jar";
+            "hash" = "sha512-B4wYDGgveaDtib/Fk32Fl+k8c//jMQ6xexROMbRKISzrDPVSTSNPLzv38PUgpS0Mf7D+KR+MeahGGIq7UdnLVw==";
+        };
+        _gotbNwQh = {
+            "id" = "gotbNwQh";
+            "file" = "mcw-holidays-1.1.3-mc26.3forge.jar";
+            "hash" = "sha512-e8ZEDVv92iFSyvd0759AkAz2WnQCAIF0Lmjhb9/61GkV2OfxzTKc4LdI0nmdbKAXO3VG4FDlzsCbN2OQNMcA2g==";
+        };
+        _MhSu3ksv = {
+            "id" = "MhSu3ksv";
+            "file" = "mcw-holidays-1.1.3-mc26.3neoforge.jar";
+            "hash" = "sha512-WCbyBuh2SpdnF2jZFl4UG5v4iGmIKOz29QljEL3NBvAwCKl+O9G8SneFshAy64CpKqFwYm0sBKDLcP0whDdRrA==";
+        };
     in {
         "XXrQfI0o" = _XXrQfI0o;
         "zR4RijBN" = _zR4RijBN;
@@ -950,6 +980,12 @@ let
         "vSVfikXN" = _vSVfikXN;
         "ZMlK4ZbG" = _ZMlK4ZbG;
         "ywr8gBXB" = _ywr8gBXB;
+        "d4YSIZDH" = _d4YSIZDH;
+        "8JAYHryC" = _8JAYHryC;
+        "qvlKsLBm" = _qvlKsLBm;
+        "s54o5rUj" = _s54o5rUj;
+        "gotbNwQh" = _gotbNwQh;
+        "MhSu3ksv" = _MhSu3ksv;
         "fabric-1.18.2" = _M0nF02LW;
         "fabric-1.19" = _r5ATb6ah;
         "fabric-1.19.4" = _yHpv9OEZ;
@@ -977,6 +1013,7 @@ let
         "fabric-26.1.1" = _i9WdjxKf;
         "fabric-26.1.2" = _i9WdjxKf;
         "fabric-26.2" = _ywr8gBXB;
+        "fabric-26.3" = _s54o5rUj;
         "forge-1.16.5" = _sJ8eX3bm;
         "forge-1.17.1" = _qccDnM0o;
         "forge-1.18.1" = _Gx0AFTxU;
@@ -1004,6 +1041,7 @@ let
         "forge-1.21.10" = _28Ud25Bu;
         "forge-1.21.11" = _PQhxFxDZ;
         "forge-26.2" = _vSVfikXN;
+        "forge-26.3" = _gotbNwQh;
         "neoforge-1.20.4" = _aJHBV9vt;
         "neoforge-1.20.6" = _pFigeyeV;
         "neoforge-1.21" = _3AVcF5Oj;
@@ -1018,10 +1056,12 @@ let
         "neoforge-1.21.10" = _4U9Hg6ln;
         "neoforge-1.21.11" = _I7jfeegR;
         "neoforge-26.2" = _ZMlK4ZbG;
+        "neoforge-26.3" = _MhSu3ksv;
         "pkg-1.1.0" = _VycPNGaJ;
         "pkg-1.1.1" = _S5P896zI;
-        "pkg-1.1.2" = _ywr8gBXB;
-        "default" = _ywr8gBXB;
+        "pkg-1.1.2" = _qvlKsLBm;
+        "pkg-1.1.3" = _MhSu3ksv;
+        "default" = _MhSu3ksv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "macaws-holidays";

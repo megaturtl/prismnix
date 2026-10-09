@@ -251,6 +251,11 @@ let
             "file" = "polyfactory-0.13.0+26.3-rc-1.jar";
             "hash" = "sha512-xJLAZ7IdM5c+QNZ8arnpjpRbhcR7uXgeP641Epn4yJ2U0DhQ5lBHwBfWekGtQ6TPG1yJG5g+w6i9AlthLmPL6A==";
         };
+        _DhLPqzcn = {
+            "id" = "DhLPqzcn";
+            "file" = "polyfactory-0.13.1+26.3.jar";
+            "hash" = "sha512-IlQPs6vmd80oL7LtnTvGgAl6LjzDHTmvC0bbttm0/9c5xiaY0NIZdJ/u5OHlWcBIn1HzdXaKkvWePmJiGpGvuA==";
+        };
     in {
         "cFlaLRr3" = _cFlaLRr3;
         "sP77Z02f" = _sP77Z02f;
@@ -302,6 +307,7 @@ let
         "t2VJOneJ" = _t2VJOneJ;
         "VaqgsctO" = _VaqgsctO;
         "X2ArqYRQ" = _X2ArqYRQ;
+        "DhLPqzcn" = _DhLPqzcn;
         "fabric-1.20.2" = _D6nyeaMB;
         "fabric-1.20.4" = _rDuKdq6D;
         "fabric-1.20.6" = _28rLpJui;
@@ -323,7 +329,7 @@ let
         "fabric-26.1.2" = _aUM9DmNG;
         "fabric-26.2" = _VaqgsctO;
         "fabric-26.3-rc-1" = _X2ArqYRQ;
-        "fabric-26.3" = _X2ArqYRQ;
+        "fabric-26.3" = _DhLPqzcn;
         "quilt-1.20.2" = _D6nyeaMB;
         "quilt-1.20.4" = _rDuKdq6D;
         "quilt-1.20.6" = _28rLpJui;
@@ -390,7 +396,8 @@ let
         "pkg-0.12.1+26.2" = _t2VJOneJ;
         "pkg-0.12.2+26.2" = _VaqgsctO;
         "pkg-0.13.0+26.3-rc-1" = _X2ArqYRQ;
-        "default" = _X2ArqYRQ;
+        "pkg-0.13.1+26.3" = _DhLPqzcn;
+        "default" = _DhLPqzcn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "polyfactory";

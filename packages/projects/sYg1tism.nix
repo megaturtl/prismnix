@@ -46,6 +46,11 @@ let
             "file" = "autototem-1.0.0.jar";
             "hash" = "sha512-juiJSfFa7/8n2eJnTcLCqVorLXBWrijuyW+Um3U7ZhuDE+CVFFQxiNqhe14/D3SINmFA90z19a0njwU7s/Vxdw==";
         };
+        _ytkLmYaD = {
+            "id" = "ytkLmYaD";
+            "file" = "AutoTotem-26.3.jar";
+            "hash" = "sha512-2jmNkgkjmX/Yun5h0ZocTYKiKTCSg+0EqjwiGM1gn2NusICFzg7GOaCuYZISEB8PEVUuE/4S8wXbOi/5Fv8tsQ==";
+        };
     in {
         "4EhgLibU" = _4EhgLibU;
         "FbwYaYqk" = _FbwYaYqk;
@@ -56,6 +61,7 @@ let
         "DQBb3O09" = _DQBb3O09;
         "GTzwCUjv" = _GTzwCUjv;
         "Zn7pZxBN" = _Zn7pZxBN;
+        "ytkLmYaD" = _ytkLmYaD;
         "forge-1.20.1" = _4EhgLibU;
         "forge-1.20.2" = _4EhgLibU;
         "forge-1.20.3" = _4EhgLibU;
@@ -66,11 +72,13 @@ let
         "forge-26.2" = _FbwYaYqk;
         "forge-1.19.2" = _GTzwCUjv;
         "forge-1.19.4" = _Zn7pZxBN;
+        "forge-26.3" = _ytkLmYaD;
         "neoforge-26.1" = _z8JFtjzj;
         "neoforge-26.1.1" = _z8JFtjzj;
         "neoforge-26.1.2" = _z8JFtjzj;
         "neoforge-26.2" = _z8JFtjzj;
         "neoforge-1.21.1" = _twKqvh7X;
+        "neoforge-26.3" = _ytkLmYaD;
         "fabric-26.1" = _b9B1XQqy;
         "fabric-26.1.1" = _b9B1XQqy;
         "fabric-26.1.2" = _b9B1XQqy;
@@ -82,8 +90,9 @@ let
         "fabric-1.20.5" = _crAvRN78;
         "fabric-1.20.6" = _crAvRN78;
         "fabric-1.21.1" = _DQBb3O09;
-        "pkg-1.0.0" = _Zn7pZxBN;
-        "default" = _Zn7pZxBN;
+        "fabric-26.3" = _ytkLmYaD;
+        "pkg-1.0.0" = _ytkLmYaD;
+        "default" = _ytkLmYaD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-auto-totem";

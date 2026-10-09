@@ -721,6 +721,16 @@ let
             "file" = "sky_aesthetics-neoforge-2.1.4.jar";
             "hash" = "sha512-R1Gu4wKe9RtpLF/+CEjawASq2TiUO87gV2ZeDO0cVwPuD4Vc5wIAqu3ZkjnWz14rlGRXfWanvKh3EcD0Cqnx9w==";
         };
+        _DM74ZvzT = {
+            "id" = "DM74ZvzT";
+            "file" = "sky_aesthetics-fabric-2.1.4.jar";
+            "hash" = "sha512-t3GafjAPMxBv3mB3J8YMqIkNVxgPa0wbPfH2QoPYYRXTus8N7uFQ6iU2eIqGKcW+4xcTp0PcY6hSvz2WtCUgaA==";
+        };
+        _AlXMRydN = {
+            "id" = "AlXMRydN";
+            "file" = "sky_aesthetics-neoforge-2.1.4.jar";
+            "hash" = "sha512-THbUdUTELClm2JQ2R7YA7M5DXHD5xi4F+RDgvAdNwK9XThUzulOLSL2lc90eny/+9t/Ol7tZ3OsWBzn51r2csA==";
+        };
     in {
         "o79FCyge" = _o79FCyge;
         "aRJFjFez" = _aRJFjFez;
@@ -866,6 +876,8 @@ let
         "1ufcLPoH" = _1ufcLPoH;
         "ti5YlIKN" = _ti5YlIKN;
         "TVOq6X2y" = _TVOq6X2y;
+        "DM74ZvzT" = _DM74ZvzT;
+        "AlXMRydN" = _AlXMRydN;
         "fabric-1.21" = _c74V8y9A;
         "fabric-1.21.1" = _c74V8y9A;
         "fabric-1.20.6" = _evoUiDfD;
@@ -876,6 +888,7 @@ let
         "fabric-1.21.11" = _sze8mSOj;
         "fabric-26.1.2" = _Nyo4DMBv;
         "fabric-26.2" = _ti5YlIKN;
+        "fabric-26.3" = _DM74ZvzT;
         "neoforge-1.21" = _CCCpQYZS;
         "neoforge-1.21.1" = _CCCpQYZS;
         "neoforge-1.20.6" = _6nNIKvHp;
@@ -886,6 +899,7 @@ let
         "neoforge-1.21.11" = _RAqK8uDQ;
         "neoforge-26.1.2" = _1ufcLPoH;
         "neoforge-26.2" = _TVOq6X2y;
+        "neoforge-26.3" = _AlXMRydN;
         "pkg-1.0.0" = _RLQehzYr;
         "pkg-1.0.1" = _6nNIKvHp;
         "pkg-1.1.0" = _woot6vB9;
@@ -943,8 +957,8 @@ let
         "pkg-2.1.1" = _HsPkf0qf;
         "pkg-2.1.2" = _FGjHA9KH;
         "pkg-2.1.3" = _z3qjoPQY;
-        "pkg-2.1.4" = _TVOq6X2y;
-        "default" = _TVOq6X2y;
+        "pkg-2.1.4" = _AlXMRydN;
+        "default" = _AlXMRydN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sky-aesthetics";

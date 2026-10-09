@@ -146,6 +146,41 @@ let
             "file" = "packdisabler-1.0.9+26.2.jar";
             "hash" = "sha512-MryyyM6MQj2BXjy9rR0c3SNsxq7Pk0zScLqQ369ouKtAPDdR/c4PMRMIoRcGq8hz4U1RTTvMqExuGcbapsiRVw==";
         };
+        _1ArMnuqs = {
+            "id" = "1ArMnuqs";
+            "file" = "packdisabler-1.0.9+26.3.jar";
+            "hash" = "sha512-8/jFlQ/EWNun8WeGToj7m8ZVNsr6CHgYxQkGT9MrQ1beOp8M/u18to8LBP9xlMwE/h+4s3FaAqn/vY9x61m5oA==";
+        };
+        _w4hCsL4p = {
+            "id" = "w4hCsL4p";
+            "file" = "packdisabler-1.1.0+26.1.2.jar";
+            "hash" = "sha512-VCT0gbcx2XQXb3yue8o7JJTtDGlw3fRZ79awdzlnlp0PX+JwHszrKFxXfdjl+PkwejOroqzs+Sm0G3fvqFEi6g==";
+        };
+        _qhAg0AtW = {
+            "id" = "qhAg0AtW";
+            "file" = "packdisabler-1.1.0+26.2.jar";
+            "hash" = "sha512-DCoNW926x4deCgDezz7eXP5uIYMMrP43fGsRbXYPS+099S04iF089BwOO5/MdoM2oIO7t1uK1AXN6+hlFKZVcA==";
+        };
+        _x17v4WmM = {
+            "id" = "x17v4WmM";
+            "file" = "packdisabler-1.1.0+26.3.jar";
+            "hash" = "sha512-dKCj7M2Q7DSNU/6lvg+J/tUZCliMv9jPP+sF20S+0BrrrZe/ZX2mFIq0FPb+ARqF88WCSVDP5g5RjGdLFqit1g==";
+        };
+        _wXn1NeaG = {
+            "id" = "wXn1NeaG";
+            "file" = "packdisabler-1.1.1+26.3.jar";
+            "hash" = "sha512-BF+RXOdHTbnAWe07Rs0A0J5XmsOCj9BUgu345ZJuUUYxwqdt1JYZ8kTjNaRkvlAMuyPs4NjQoDQpUdI5wCurfQ==";
+        };
+        _RgZJm474 = {
+            "id" = "RgZJm474";
+            "file" = "packdisabler-1.1.1+26.2.jar";
+            "hash" = "sha512-GS2MoLaPoXyLVL6TC4Rym2yO/rSo+UC33cFbMab4Uh1tlmHl0N3tve9oYJXAY5Dk8hSuuEXlU799CJFZ7YlWEw==";
+        };
+        _WYhxNceU = {
+            "id" = "WYhxNceU";
+            "file" = "packdisabler-1.1.1+26.1.2.jar";
+            "hash" = "sha512-MGDgO/89EriJ4fn05uIdAM020ZUSQnax0SixJPPcGKgRau7rcantjJRLKSzlJ6Ev83ONxzy0ORnTE0msOCXchA==";
+        };
     in {
         "DEdsHR6U" = _DEdsHR6U;
         "WwqAsfj0" = _WwqAsfj0;
@@ -176,9 +211,17 @@ let
         "r1dTsX5L" = _r1dTsX5L;
         "6TbjeJoJ" = _6TbjeJoJ;
         "qx6HofCc" = _qx6HofCc;
+        "1ArMnuqs" = _1ArMnuqs;
+        "w4hCsL4p" = _w4hCsL4p;
+        "qhAg0AtW" = _qhAg0AtW;
+        "x17v4WmM" = _x17v4WmM;
+        "wXn1NeaG" = _wXn1NeaG;
+        "RgZJm474" = _RgZJm474;
+        "WYhxNceU" = _WYhxNceU;
         "fabric-1.21.11" = _r1VIG2Jv;
-        "fabric-26.1.2" = _6TbjeJoJ;
-        "fabric-26.2" = _qx6HofCc;
+        "fabric-26.1.2" = _WYhxNceU;
+        "fabric-26.2" = _RgZJm474;
+        "fabric-26.3" = _wXn1NeaG;
         "pkg-1.0.0" = _Mr9fAM8S;
         "pkg-1.0.1" = _27RunuGF;
         "pkg-1.0.2" = _n4TO81cs;
@@ -188,8 +231,10 @@ let
         "pkg-1.0.6" = _ej2AmnsU;
         "pkg-1.0.7" = _Q2sbj07A;
         "pkg-1.0.8" = _r1dTsX5L;
-        "pkg-1.0.9" = _qx6HofCc;
-        "default" = _qx6HofCc;
+        "pkg-1.0.9" = _1ArMnuqs;
+        "pkg-1.1.0" = _x17v4WmM;
+        "pkg-1.1.1" = _WYhxNceU;
+        "default" = _WYhxNceU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "packdisabler-for-hypixel-skyblock";

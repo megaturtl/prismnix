@@ -71,6 +71,16 @@ let
             "file" = "hookshot-neoforge-1.21.1-1.1.2.jar";
             "hash" = "sha512-vXKe656P7Q5X+zy9Msivuq0luCJpabwtLbjETZBIYXwC3ELEnCRBmm4+RrUVeuADEjvwViUo/qnuEvcYP0LFxg==";
         };
+        _v77pBX1V = {
+            "id" = "v77pBX1V";
+            "file" = "hookshot-1.20.1-1.1.4.jar";
+            "hash" = "sha512-BIxVqFx1ZinFIycTl46uy572ZCvsfSEJJ93BCNCixcx7eeKrtB70jN3ZMsR/Az3vEXjRtpROikVUQ/2d9WCQYg==";
+        };
+        _aEQ6Fuvp = {
+            "id" = "aEQ6Fuvp";
+            "file" = "hookshot-neoforge-1.21.1-1.1.4.jar";
+            "hash" = "sha512-O6oCZ+giLqgM+roJzRxg/Oeuw6R90bSRFMADEi8/RzOsePRx9QvvB8CUZaGPqy+Qm1R+Gk7Ah5MP3vvgFd0RJw==";
+        };
     in {
         "4o7VokAA" = _4o7VokAA;
         "l3yuOgzq" = _l3yuOgzq;
@@ -86,16 +96,18 @@ let
         "Z4E0JUL0" = _Z4E0JUL0;
         "FHf8GJft" = _FHf8GJft;
         "NTycM5kf" = _NTycM5kf;
+        "v77pBX1V" = _v77pBX1V;
+        "aEQ6Fuvp" = _aEQ6Fuvp;
         "forge-1.19.2" = _Z3fPobRd;
         "forge-1.19.4" = _nJh3XXDs;
-        "forge-1.20.1" = _2stXHLcp;
+        "forge-1.20.1" = _v77pBX1V;
         "forge-1.20.2" = _2stXHLcp;
         "forge-1.20.3" = _2stXHLcp;
         "forge-1.20.4" = _cPHO7RLk;
         "forge-1.20.5" = _cPHO7RLk;
         "forge-1.20.6" = _Z4E0JUL0;
         "forge-1.21" = _FHf8GJft;
-        "neoforge-1.21.1" = _NTycM5kf;
+        "neoforge-1.21.1" = _aEQ6Fuvp;
         "pkg-1.19.2-1.0" = _4o7VokAA;
         "pkg-1.19.4-1.0" = _l3yuOgzq;
         "pkg-1.20.1-1.0" = _NJZBJAHY;
@@ -110,7 +122,9 @@ let
         "pkg-1.20.6-1.1.1" = _Z4E0JUL0;
         "pkg-1.21-1.1.1" = _FHf8GJft;
         "pkg-1.21.1-1.1.2" = _NTycM5kf;
-        "default" = _NTycM5kf;
+        "pkg-1.20.1-1.1.4" = _v77pBX1V;
+        "pkg-1.21.1-1.1.4" = _aEQ6Fuvp;
+        "default" = _aEQ6Fuvp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hookshot-from-zelda";

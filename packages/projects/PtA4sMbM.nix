@@ -606,6 +606,16 @@ let
             "file" = "minigame_features-1.34-forge-1.20.1.jar";
             "hash" = "sha512-aitQNR1clM1Hi2AjS9LUAeVwwaiQwQrT6mYuvS5l+bvReGTXCBg04PPLUuq+VtW12ojGKfhXLrFOLkfQNM1vuw==";
         };
+        _BuGwyFkj = {
+            "id" = "BuGwyFkj";
+            "file" = "minigame_features-1.35-forge-1.20.1.jar";
+            "hash" = "sha512-2x8ATEh/LsEMuarJK2Pm1kB21BjmGuC7vkatNv1AfRztnyZLANnByfygHPD+buBzsR/R1mybQa3Md5Vy+I33IA==";
+        };
+        _H7zk9fG4 = {
+            "id" = "H7zk9fG4";
+            "file" = "minigame_features-1.36-forge-1.20.1.jar";
+            "hash" = "sha512-U5m+7zW9bno43s2PrrajX0exs0/cbSe33ShEqVZlEwBec2U2QKtMrHIC9e1ciP/4VrPQt7JGuPl0lRF1PIkNRw==";
+        };
     in {
         "Sx0gsAq1" = _Sx0gsAq1;
         "Pjh0KOHh" = _Pjh0KOHh;
@@ -728,9 +738,11 @@ let
         "54MNYrxt" = _54MNYrxt;
         "eOjhkAmn" = _eOjhkAmn;
         "TJmpRu4d" = _TJmpRu4d;
+        "BuGwyFkj" = _BuGwyFkj;
+        "H7zk9fG4" = _H7zk9fG4;
         "forge-1.19.2" = _CDuT5CCZ;
         "forge-1.19.4" = _ESReZriI;
-        "forge-1.20.1" = _TJmpRu4d;
+        "forge-1.20.1" = _H7zk9fG4;
         "forge-1.20.4" = _XhDZ6tNv;
         "neoforge-1.20.4" = _oVLK1LyL;
         "neoforge-1.21.1" = _54MNYrxt;
@@ -776,7 +788,9 @@ let
         "pkg-1.32" = _4pI31dso;
         "pkg-1.33" = _eOjhkAmn;
         "pkg-1.34" = _TJmpRu4d;
-        "default" = _TJmpRu4d;
+        "pkg-1.35" = _BuGwyFkj;
+        "pkg-1.36" = _H7zk9fG4;
+        "default" = _H7zk9fG4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mini-game-features";

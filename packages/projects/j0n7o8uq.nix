@@ -86,6 +86,41 @@ let
             "file" = "kaleidoscope_nether-1.1.10-fabric+mc26.3.jar";
             "hash" = "sha512-glEfioZL3svHw06gDriVsd2nTuEWIE722Mf5HxnmI4/kp1jNofPvlnLRYdMdYlLwsiw6s1xsVcZUzrwkO57JQw==";
         };
+        _kZikkCUW = {
+            "id" = "kZikkCUW";
+            "file" = "kaleidoscope_nether-1.1.11-fabric+mc26.1.2.jar";
+            "hash" = "sha512-eP2Tb4ciSX1O5u8VMNrcC8uPFERoiL++4yA9oYfsLykK/wSiKCGx94spRvl1PlYUcBmMscfP/5FekKoqPsuohA==";
+        };
+        _FTWv7OvB = {
+            "id" = "FTWv7OvB";
+            "file" = "kaleidoscope_nether-1.1.11-fabric+mc26.2.jar";
+            "hash" = "sha512-CI2sZejTx/kkxSzLWvmEbqTztdPHo5L7PtBLTd0ZvSe4QgKb73IbV1fayjtit2pxpd6SuTEVNbPbwDl56gVT6A==";
+        };
+        _KckRngyL = {
+            "id" = "KckRngyL";
+            "file" = "kaleidoscope_nether-1.1.11-fabric+mc26.3.jar";
+            "hash" = "sha512-nJgf4cTdea1HZkFesszAIW9Xigehz3k6V6AvbCPAJGEPqgoQMM0HrrAEE+EywlTL0SRRJXnsh1AIUozI8s7Skg==";
+        };
+        _hMqGjAKM = {
+            "id" = "hMqGjAKM";
+            "file" = "kaleidoscope_nether-1.1.12-fabric+mc26.3.jar";
+            "hash" = "sha512-9S1fo22MFxZkNBu7CMEmJKXSQaCoZwQkwBpmswuvFYRcj16IJLwqGEBUdAauadfxJ9KZ31hvRBZMp2n24Sj4Yw==";
+        };
+        _yegBgu8R = {
+            "id" = "yegBgu8R";
+            "file" = "kaleidoscope_nether-1.1.13-fabric+mc26.1.2.jar";
+            "hash" = "sha512-gALdBfAnyNY3HAq1r7nJzOat5QX9dF1kYgmE8BB9LjJc/+mpgpVnUnNk9IHw9nU4NgDc14W8+OFxVEqMSTBubQ==";
+        };
+        _moHIgOSi = {
+            "id" = "moHIgOSi";
+            "file" = "kaleidoscope_nether-1.1.13-fabric+mc26.2.jar";
+            "hash" = "sha512-g9BxsTv/tWgK7HPCnpYhSJ7YMuCsCD7gIFdPL0nyLAkKr3HVfOBjkH+ddAxQ7y1bcrznpa8ZbNxRxuibHSWdHA==";
+        };
+        _r0AAEyh5 = {
+            "id" = "r0AAEyh5";
+            "file" = "kaleidoscope_nether-1.1.13-fabric+mc26.3.jar";
+            "hash" = "sha512-t0CcZKxyUphTrfdVH7n1ad/Ykb/5BqT8SMc8oST2Lqf45bgVipX5HcIQTIfxenkUxbUqYQQoIHS7vzqj1WTnrw==";
+        };
     in {
         "i4Vu5R5z" = _i4Vu5R5z;
         "SpJleq9O" = _SpJleq9O;
@@ -104,13 +139,20 @@ let
         "vlORH5uk" = _vlORH5uk;
         "jgTewdlq" = _jgTewdlq;
         "dg6yURvO" = _dg6yURvO;
+        "kZikkCUW" = _kZikkCUW;
+        "FTWv7OvB" = _FTWv7OvB;
+        "KckRngyL" = _KckRngyL;
+        "hMqGjAKM" = _hMqGjAKM;
+        "yegBgu8R" = _yegBgu8R;
+        "moHIgOSi" = _moHIgOSi;
+        "r0AAEyh5" = _r0AAEyh5;
         "fabric-1.21.1" = _REwy7uVE;
         "fabric-1.21.11" = _BLoeU9Hf;
-        "fabric-26.1" = _vlORH5uk;
-        "fabric-26.1.1" = _vlORH5uk;
-        "fabric-26.1.2" = _vlORH5uk;
-        "fabric-26.2" = _jgTewdlq;
-        "fabric-26.3" = _dg6yURvO;
+        "fabric-26.1" = _yegBgu8R;
+        "fabric-26.1.1" = _yegBgu8R;
+        "fabric-26.1.2" = _yegBgu8R;
+        "fabric-26.2" = _moHIgOSi;
+        "fabric-26.3" = _r0AAEyh5;
         "pkg-1.1.0-fabric+mc1.21.1" = _i4Vu5R5z;
         "pkg-1.1.3-fabric+mc1.21.1" = _SpJleq9O;
         "pkg-1.1.5-fabric+mc1.21.11" = _pmUyvcd0;
@@ -128,7 +170,14 @@ let
         "pkg-1.1.10-fabric+mc26.1.2" = _vlORH5uk;
         "pkg-1.1.10-fabric+mc26.2" = _jgTewdlq;
         "pkg-1.1.10-fabric+mc26.3" = _dg6yURvO;
-        "default" = _dg6yURvO;
+        "pkg-1.1.11-fabric+mc26.1.2" = _kZikkCUW;
+        "pkg-1.1.11-fabric+mc26.2" = _FTWv7OvB;
+        "pkg-1.1.11-fabric+mc26.3" = _KckRngyL;
+        "pkg-1.1.12-fabric+mc26.3" = _hMqGjAKM;
+        "pkg-1.1.13-fabric+mc26.1.2" = _yegBgu8R;
+        "pkg-1.1.13-fabric+mc26.2" = _moHIgOSi;
+        "pkg-1.1.13-fabric+mc26.3" = _r0AAEyh5;
+        "default" = _r0AAEyh5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kaleidoscope-nether-refabricated";

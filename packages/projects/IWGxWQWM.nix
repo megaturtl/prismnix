@@ -456,6 +456,21 @@ let
             "file" = "mochila-neoforge-6.1.0+26.1.2.jar";
             "hash" = "sha512-D7Lmix95RD8uHFdyVtHtj2bfJameAEaPNGkcIKeNse/zk0c/czpCgUD6woolnrfiyHr6iHRybODIcmrmJqZHRA==";
         };
+        _op7wwkUJ = {
+            "id" = "op7wwkUJ";
+            "file" = "mochila-fabric-6.2.0+26.3.jar";
+            "hash" = "sha512-JUi/dlMcn2wV/zy+kbFvMlIHrhjp0jP3qKl6i6sIS++x08v/KPSOjlm/8OO/9NY6DmzbKY4HFkJyvidse+v/oA==";
+        };
+        _cB9kaWMQ = {
+            "id" = "cB9kaWMQ";
+            "file" = "mochila-neoforge-6.2.0+26.3.jar";
+            "hash" = "sha512-3VDyP0VQsV/y0UGKqtt4+FLKqEY/CIVD/crIkbFS4bbRXPTNJxSUPyKmiWPqvdZXlowBeBuYnUm2iQQIXC/7sA==";
+        };
+        _xtEcrs7S = {
+            "id" = "xtEcrs7S";
+            "file" = "mochila-forge-6.2.0+26.3.jar";
+            "hash" = "sha512-UGSpZdDuuRvOlQLmBXg9BeSHcCAibyytvVqiMNSpnyGfvgB0GJv9cqc/QPIqKYNp4ib/iwkDQzdPSPzVozeXow==";
+        };
     in {
         "wK6JaZ2H" = _wK6JaZ2H;
         "U4kIHXar" = _U4kIHXar;
@@ -548,6 +563,9 @@ let
         "6gCtMPDz" = _6gCtMPDz;
         "Y48i2uRF" = _Y48i2uRF;
         "17N9Ny1h" = _17N9Ny1h;
+        "op7wwkUJ" = _op7wwkUJ;
+        "cB9kaWMQ" = _cB9kaWMQ;
+        "xtEcrs7S" = _xtEcrs7S;
         "fabric-1.21.1" = _SozgRp6G;
         "fabric-1.21" = _SozgRp6G;
         "fabric-1.21.4" = _29rRYctR;
@@ -561,6 +579,7 @@ let
         "fabric-26.1.1" = _pBMn7Umd;
         "fabric-26.1.2" = _Y48i2uRF;
         "fabric-26.2" = _xlsDjBnf;
+        "fabric-26.3" = _op7wwkUJ;
         "neoforge-1.21.1" = _XulHOwud;
         "neoforge-1.21" = _XulHOwud;
         "neoforge-1.21.4" = _zPPARlzC;
@@ -574,6 +593,7 @@ let
         "neoforge-26.1.1" = _W9N8M7O0;
         "neoforge-26.1.2" = _17N9Ny1h;
         "neoforge-26.2" = _QZAEIJZG;
+        "neoforge-26.3" = _cB9kaWMQ;
         "quilt-1.21.4" = _GPGvav8J;
         "forge-1.21.10" = _NGCTadJU;
         "forge-1.21.11" = _lYsZ9aWM;
@@ -581,6 +601,7 @@ let
         "forge-26.1.1" = _hPQH3Zpc;
         "forge-26.1.2" = _6gCtMPDz;
         "forge-26.2" = _xJFcOHO8;
+        "forge-26.3" = _xtEcrs7S;
         "pkg-1.0.0-beta.1" = _U4kIHXar;
         "pkg-1.0.0-beta.2" = _kW3lE3bA;
         "pkg-1.0.1-beta.1" = _UbKG4aDO;
@@ -619,7 +640,8 @@ let
         "pkg-6.1.0+26.1" = _FJEfk0vz;
         "pkg-6.1.0+26.1.1" = _W9N8M7O0;
         "pkg-6.1.0+26.1.2" = _17N9Ny1h;
-        "default" = _17N9Ny1h;
+        "pkg-6.2.0+26.3" = _xtEcrs7S;
+        "default" = _xtEcrs7S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mochila";

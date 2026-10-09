@@ -106,6 +106,21 @@ let
             "file" = "combatedit-2.1.0+26.1.jar";
             "hash" = "sha512-4XDBCyre9cH20LXFgHk1YZkfjnxFAYxpTFkXM/Z+9BO1uQmcwiFhkW7RcAvLqQBYUw1wIVA3wIZHhc5yXjOCqw==";
         };
+        _e9eULEE6 = {
+            "id" = "e9eULEE6";
+            "file" = "combatedit-2.2.0+26.1.2.jar";
+            "hash" = "sha512-ODtb8gZ4W0T1AhKEYcVT2M3e0Fhwy/OqWzrq9yKEcE3k2VzxV657obCK+LuMIyiyCcagH7s4nuw6lE0PSus4vA==";
+        };
+        _bkJfSOFe = {
+            "id" = "bkJfSOFe";
+            "file" = "combatedit-2.2.0+26.2.jar";
+            "hash" = "sha512-DAwYF+uTktNAXmvR5OA7MNPimgsdhcgiwp+Cs4xTlZf6YKPh65SRxTOGYEswSpTn9FcvjjnKzM+Mu9lo5XOfvQ==";
+        };
+        _SsXd2yRt = {
+            "id" = "SsXd2yRt";
+            "file" = "combatedit-2.2.0+26.3.jar";
+            "hash" = "sha512-O4DbW0mKxp0/hlcqYI3549MD6q++49qA/rKOOnM18t0JDAyZzGPXoivda0/+UNs6Ufx/hDL0DhJFyobDtqQcJQ==";
+        };
     in {
         "sPUPnsVR" = _sPUPnsVR;
         "ASzJZ2aO" = _ASzJZ2aO;
@@ -128,6 +143,9 @@ let
         "kuTOraY2" = _kuTOraY2;
         "NFYud3iu" = _NFYud3iu;
         "UR0N3Y9P" = _UR0N3Y9P;
+        "e9eULEE6" = _e9eULEE6;
+        "bkJfSOFe" = _bkJfSOFe;
+        "SsXd2yRt" = _SsXd2yRt;
         "fabric-1.19" = _sPUPnsVR;
         "fabric-1.19.1" = _sPUPnsVR;
         "fabric-1.19.2" = _sPUPnsVR;
@@ -147,9 +165,11 @@ let
         "fabric-1.21.9" = _kuTOraY2;
         "fabric-1.21.10" = _kuTOraY2;
         "fabric-1.21.11" = _NFYud3iu;
-        "fabric-26.1" = _UR0N3Y9P;
-        "fabric-26.1.1" = _UR0N3Y9P;
-        "fabric-26.1.2" = _UR0N3Y9P;
+        "fabric-26.1" = _e9eULEE6;
+        "fabric-26.1.1" = _e9eULEE6;
+        "fabric-26.1.2" = _e9eULEE6;
+        "fabric-26.2" = _bkJfSOFe;
+        "fabric-26.3" = _SsXd2yRt;
         "pkg-1.6.1" = _sPUPnsVR;
         "pkg-1.6.2" = _ASzJZ2aO;
         "pkg-1.6.3" = _mKEDUJHt;
@@ -171,7 +191,10 @@ let
         "pkg-2.1.0+1.21.10" = _kuTOraY2;
         "pkg-2.1.0+1.21.11" = _NFYud3iu;
         "pkg-2.1.0+26.1" = _UR0N3Y9P;
-        "default" = _UR0N3Y9P;
+        "pkg-2.2.0+26.1.2" = _e9eULEE6;
+        "pkg-2.2.0+26.2" = _bkJfSOFe;
+        "pkg-2.2.0+26.3" = _SsXd2yRt;
+        "default" = _SsXd2yRt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "combatedit";

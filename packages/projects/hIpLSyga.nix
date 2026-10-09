@@ -196,6 +196,16 @@ let
             "file" = "HopoBetterRuinedPortals-1.18.2b.zip";
             "hash" = "sha512-VkGs0v+PkyHu3Vql0EKEcKKCcHvoIo4PzY0kkcZiEVG7eUsYqn0Gk53JiQWmY1/k8pOB18IljV1L6492dyvPFQ==";
         };
+        _hPiCEWrD = {
+            "id" = "hPiCEWrD";
+            "file" = "HopoBetterRuinedPortals-[26.3]-1.5.2.jar";
+            "hash" = "sha512-qcfsoiItnmIwh3T6pgmEHOdSTuzXfFZKSkhqMxfopwJi3uisBW3rJgyZJfLZ/ANuumsaCgZk64Tr+mm1ysnDzg==";
+        };
+        _lHhDooco = {
+            "id" = "lHhDooco";
+            "file" = "hopobetterruinedportals-26-3-1-5-2.zip";
+            "hash" = "sha512-qcfsoiItnmIwh3T6pgmEHOdSTuzXfFZKSkhqMxfopwJi3uisBW3rJgyZJfLZ/ANuumsaCgZk64Tr+mm1ysnDzg==";
+        };
     in {
         "3Bi4roKn" = _3Bi4roKn;
         "LDm6WMDE" = _LDm6WMDE;
@@ -236,6 +246,8 @@ let
         "Fy688u5M" = _Fy688u5M;
         "KWAmvhWX" = _KWAmvhWX;
         "jPhFAzjx" = _jPhFAzjx;
+        "hPiCEWrD" = _hPiCEWrD;
+        "lHhDooco" = _lHhDooco;
         "datapack-1.19" = _3Bi4roKn;
         "datapack-1.19.1" = _3Bi4roKn;
         "datapack-1.19.2" = _3Bi4roKn;
@@ -275,6 +287,7 @@ let
         "datapack-1.18" = _jPhFAzjx;
         "datapack-1.18.1" = _jPhFAzjx;
         "datapack-1.18.2" = _jPhFAzjx;
+        "datapack-26.3" = _lHhDooco;
         "fabric-1.19" = _kUn7JCSf;
         "fabric-1.19.1" = _kUn7JCSf;
         "fabric-1.19.2" = _kUn7JCSf;
@@ -314,6 +327,7 @@ let
         "fabric-1.18" = _KWAmvhWX;
         "fabric-1.18.1" = _KWAmvhWX;
         "fabric-1.18.2" = _KWAmvhWX;
+        "fabric-26.3" = _hPiCEWrD;
         "forge-1.19" = _kUn7JCSf;
         "forge-1.19.1" = _kUn7JCSf;
         "forge-1.19.2" = _kUn7JCSf;
@@ -345,6 +359,7 @@ let
         "forge-1.18" = _KWAmvhWX;
         "forge-1.18.1" = _KWAmvhWX;
         "forge-1.18.2" = _KWAmvhWX;
+        "forge-26.3" = _hPiCEWrD;
         "neoforge-1.20.2" = _qblrYEEZ;
         "neoforge-1.20.3" = _4Ui7MIgI;
         "neoforge-1.20.4" = _4Ui7MIgI;
@@ -368,6 +383,7 @@ let
         "neoforge-26.1.1" = _cGc1KFZs;
         "neoforge-26.1.2" = _cGc1KFZs;
         "neoforge-26.2" = _MkX9384L;
+        "neoforge-26.3" = _hPiCEWrD;
         "pkg-1.3.3" = _3Bi4roKn;
         "pkg-1.3.4" = _LDm6WMDE;
         "pkg-1.3.5" = _13EuXD0L;
@@ -405,7 +421,9 @@ let
         "pkg-1.1" = _Fy688u5M;
         "pkg-1.18.2b" = _KWAmvhWX;
         "pkg-1.18.x-datapack" = _jPhFAzjx;
-        "default" = _jPhFAzjx;
+        "pkg-1.5.2" = _hPiCEWrD;
+        "pkg-1.5.2-datapack" = _lHhDooco;
+        "default" = _lHhDooco;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hopo-better-ruined-portals";

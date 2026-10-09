@@ -101,6 +101,16 @@ let
             "file" = "ly-backpacks-v1.2.0.jar";
             "hash" = "sha512-zh6D7lP1VlaN+1PNDp9rhR2jcYbpieL317Jb01h4BPIJLbDyW6lOwSCtQ1EI+dSBquXuRbMP9JS9Cy0kv609Dw==";
         };
+        _jVWxiPO2 = {
+            "id" = "jVWxiPO2";
+            "file" = "Backpacks v1.2.0 [26.3].zip";
+            "hash" = "sha512-wyItlevZzMqJ1IdCr9kdINUT29XpOEJqKr5cy4Bbj/yztf7hWqFzT0GWpoQqyTRCwV12INaNfK1OT9g2vQGdxw==";
+        };
+        _eZSaNhYn = {
+            "id" = "eZSaNhYn";
+            "file" = "ly-backpacks-1.2.0.jar";
+            "hash" = "sha512-Hdr9MAe4DIUBLqJC3988X0jlCHMhX4uUnyzgQpsYMIVZzaamlkBmGnGxejsRtbAr+sfIlxxbEo3ZGQZHa0u8uw==";
+        };
     in {
         "PQnlPY7h" = _PQnlPY7h;
         "lpTb2oG0" = _lpTb2oG0;
@@ -122,6 +132,8 @@ let
         "lj3R6ToZ" = _lj3R6ToZ;
         "drojIW2D" = _drojIW2D;
         "BbJV0Mhw" = _BbJV0Mhw;
+        "jVWxiPO2" = _jVWxiPO2;
+        "eZSaNhYn" = _eZSaNhYn;
         "datapack-1.21.5" = _drojIW2D;
         "datapack-1.21.4" = _XVnZfG5C;
         "datapack-1.21.2" = _K4cxO4eQ;
@@ -136,6 +148,7 @@ let
         "datapack-26.1.1" = _drojIW2D;
         "datapack-26.1.2" = _drojIW2D;
         "datapack-26.2" = _drojIW2D;
+        "datapack-26.3" = _jVWxiPO2;
         "fabric-1.21.5" = _BbJV0Mhw;
         "fabric-1.21.4" = _lj3R6ToZ;
         "fabric-1.21.2" = _tjTBhLzK;
@@ -150,6 +163,7 @@ let
         "fabric-26.1.1" = _BbJV0Mhw;
         "fabric-26.1.2" = _BbJV0Mhw;
         "fabric-26.2" = _BbJV0Mhw;
+        "fabric-26.3" = _eZSaNhYn;
         "forge-1.21.5" = _BbJV0Mhw;
         "forge-1.21.4" = _lj3R6ToZ;
         "forge-1.21.2" = _tjTBhLzK;
@@ -164,6 +178,7 @@ let
         "forge-26.1.1" = _BbJV0Mhw;
         "forge-26.1.2" = _BbJV0Mhw;
         "forge-26.2" = _BbJV0Mhw;
+        "forge-26.3" = _eZSaNhYn;
         "neoforge-1.21.5" = _BbJV0Mhw;
         "neoforge-1.21.4" = _lj3R6ToZ;
         "neoforge-1.21.2" = _tjTBhLzK;
@@ -178,6 +193,7 @@ let
         "neoforge-26.1.1" = _BbJV0Mhw;
         "neoforge-26.1.2" = _BbJV0Mhw;
         "neoforge-26.2" = _BbJV0Mhw;
+        "neoforge-26.3" = _eZSaNhYn;
         "quilt-1.21.5" = _BbJV0Mhw;
         "quilt-1.21.4" = _lj3R6ToZ;
         "quilt-1.21.2" = _tjTBhLzK;
@@ -192,6 +208,7 @@ let
         "quilt-26.1.1" = _BbJV0Mhw;
         "quilt-26.1.2" = _BbJV0Mhw;
         "quilt-26.2" = _BbJV0Mhw;
+        "quilt-26.3" = _eZSaNhYn;
         "pkg-v1.0.0" = _PQnlPY7h;
         "pkg-v1.0.0+mod" = _lpTb2oG0;
         "pkg-v1.0.0-1.21.4" = _CBFi7azJ;
@@ -202,7 +219,9 @@ let
         "pkg-v1.1.0+mod" = _e3SnMMDd;
         "pkg-v1.2.0" = _drojIW2D;
         "pkg-v1.2.0+mod" = _BbJV0Mhw;
-        "default" = _BbJV0Mhw;
+        "pkg-1.2.0" = _jVWxiPO2;
+        "pkg-1.2.0+mod" = _eZSaNhYn;
+        "default" = _eZSaNhYn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ly-backpacks";

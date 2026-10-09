@@ -61,6 +61,16 @@ let
             "file" = "rainbows-foliage-polytone-edition-v2.0.zip";
             "hash" = "sha512-gjoK+yzAdARlZd5AS95LvmOpMp+uml+V+4D/UZ4LvqgxvyKNLy4/aYW2/rqbXU0xQbK5H4S663nZeokaC93qdg==";
         };
+        _3ggt1j6n = {
+            "id" = "3ggt1j6n";
+            "file" = "rainbows-foliage-polytone-edition-v2.1.zip";
+            "hash" = "sha512-tik476uZE/H+sBB1dFI5YwwwQq1LBhwNTTGWTRMUnVioiVj5+FA3ssBeUC1uwxCKa4hffbo4rznLghgVVi6EJg==";
+        };
+        _Syhl12Yw = {
+            "id" = "Syhl12Yw";
+            "file" = "rainbows-foliage-polytone-edition-v2.1-[1.20.1].zip";
+            "hash" = "sha512-Rx3lZ+y9BNMMt2pBx181FN6mqI00Nz+l9AnaPzyRXL1ypFxvjDOpZy+MsYkDeLd8xjI9jHqf1ccFbJuzlf5p3Q==";
+        };
     in {
         "p00zjczJ" = _p00zjczJ;
         "qy3KDffr" = _qy3KDffr;
@@ -74,12 +84,14 @@ let
         "cUAhK5QP" = _cUAhK5QP;
         "LNk3eXwA" = _LNk3eXwA;
         "JcLjpSJg" = _JcLjpSJg;
-        "minecraft-1.20.1" = _LNk3eXwA;
-        "minecraft-1.21.1" = _JcLjpSJg;
+        "3ggt1j6n" = _3ggt1j6n;
+        "Syhl12Yw" = _Syhl12Yw;
+        "minecraft-1.20.1" = _Syhl12Yw;
+        "minecraft-1.21.1" = _3ggt1j6n;
         "minecraft-1.21.5" = _cUAhK5QP;
-        "minecraft-1.21.11" = _JcLjpSJg;
-        "minecraft-26.1.2" = _JcLjpSJg;
-        "minecraft-26.2" = _JcLjpSJg;
+        "minecraft-1.21.11" = _3ggt1j6n;
+        "minecraft-26.1.2" = _3ggt1j6n;
+        "minecraft-26.2" = _3ggt1j6n;
         "pkg-1.0" = _p00zjczJ;
         "pkg-1.1" = _qy3KDffr;
         "pkg-1.2" = _tX0GnqdS;
@@ -92,7 +104,9 @@ let
         "pkg-1.9" = _cUAhK5QP;
         "pkg-2.0+1.20.1" = _LNk3eXwA;
         "pkg-2.0" = _JcLjpSJg;
-        "default" = _JcLjpSJg;
+        "pkg-2.1" = _3ggt1j6n;
+        "pkg-2.1+1.20.1" = _Syhl12Yw;
+        "default" = _Syhl12Yw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rainbows-foliage";

@@ -141,6 +141,16 @@ let
             "file" = "wcwt-1.3.9.jar";
             "hash" = "sha512-LqLD+26dAlU8/qvN2E89WaGwLqB0fYGTGJVyXr4c0yxN4iENbKFDW2BvG/M+R0S3vB3cq/IOqWXDqtpJD1Y6Jg==";
         };
+        _wEtjFnU4 = {
+            "id" = "wEtjFnU4";
+            "file" = "wcwt-1.3.10.jar";
+            "hash" = "sha512-2Iw2Aa0Ezsonopk8cLLBhY9tdm86Vv5O1qgvHAYUCdd1O4T+4s47cfHVZuAMP3KQcGdFjSDwEeiKueYpj0RTrQ==";
+        };
+        _CaR5NsCp = {
+            "id" = "CaR5NsCp";
+            "file" = "wcwt-1.20.1.11.jar";
+            "hash" = "sha512-gdj1lWZ7UvJKypjcseVXlRlq1UwSIUtRoqzUqS+D01FqS8qH0q28Lguzo40QoPGtbnTVikE6Hy7pTvHlqBJ+dg==";
+        };
     in {
         "UofBperc" = _UofBperc;
         "rQUZb0dK" = _rQUZb0dK;
@@ -170,8 +180,10 @@ let
         "RFT2nmVb" = _RFT2nmVb;
         "Zg3OnxBb" = _Zg3OnxBb;
         "a7skAXQ1" = _a7skAXQ1;
-        "neoforge-1.21.1" = _a7skAXQ1;
-        "forge-1.20.1" = _RFT2nmVb;
+        "wEtjFnU4" = _wEtjFnU4;
+        "CaR5NsCp" = _CaR5NsCp;
+        "neoforge-1.21.1" = _wEtjFnU4;
+        "forge-1.20.1" = _CaR5NsCp;
         "pkg-1.1.1" = _UofBperc;
         "pkg-1.1.3" = _rQUZb0dK;
         "pkg-1.2.0" = _Unn1MHR7;
@@ -200,7 +212,9 @@ let
         "pkg-1.20.1.10" = _RFT2nmVb;
         "pkg-1.3.8" = _Zg3OnxBb;
         "pkg-1.3.9" = _a7skAXQ1;
-        "default" = _a7skAXQ1;
+        "pkg-1.3.10" = _wEtjFnU4;
+        "pkg-1.20.1.11" = _CaR5NsCp;
+        "default" = _CaR5NsCp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ae2-wcwt";

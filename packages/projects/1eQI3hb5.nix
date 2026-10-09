@@ -131,6 +131,11 @@ let
             "file" = "No Vignette 26.2.zip";
             "hash" = "sha512-fqpo9nelJHZbyDY7/AKEglaEx4MH5qZ7LCC1mfgmzO0c8EzIgnF215vAfeD5j2w9OYMRRWYA8oGI2tBQHTGdUQ==";
         };
+        _aBsIgnjA = {
+            "id" = "aBsIgnjA";
+            "file" = "No Vignette 26.3.zip";
+            "hash" = "sha512-t4PLwJCkoy8PQ11jeRdmrhiB+zCzf71SQ2SX/cdO3dsv5vb+I91YA5iUb3VNQGMMYUp9oq4V723/+/jr11lztQ==";
+        };
     in {
         "CPNimbzT" = _CPNimbzT;
         "qWQF5mbN" = _qWQF5mbN;
@@ -158,6 +163,7 @@ let
         "OCLVrXad" = _OCLVrXad;
         "8ckhemjX" = _8ckhemjX;
         "wnPQ6dfV" = _wnPQ6dfV;
+        "aBsIgnjA" = _aBsIgnjA;
         "minecraft-1.20" = _CPNimbzT;
         "minecraft-1.20.1" = _CPNimbzT;
         "minecraft-1.20.2" = _qWQF5mbN;
@@ -245,6 +251,7 @@ let
         "minecraft-26.1.1" = _8ckhemjX;
         "minecraft-26.1.2" = _8ckhemjX;
         "minecraft-26.2" = _wnPQ6dfV;
+        "minecraft-26.3" = _aBsIgnjA;
         "pkg-1.20" = _CPNimbzT;
         "pkg-1.20.2" = _qWQF5mbN;
         "pkg-1.20.3.4" = _U7OL0de4;
@@ -271,7 +278,8 @@ let
         "pkg-1.21.11" = _OCLVrXad;
         "pkg-26.1" = _8ckhemjX;
         "pkg-26.2" = _wnPQ6dfV;
-        "default" = _wnPQ6dfV;
+        "pkg-26.3" = _aBsIgnjA;
+        "default" = _aBsIgnjA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vignette-removed";

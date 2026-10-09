@@ -96,6 +96,11 @@ let
             "file" = "Vanilla Fireflies.zip";
             "hash" = "sha512-xq4se6iDV+DMmGVftpzBcZNsUMADuQv1uA/a4C4V7SJ2iIAJgI3WOXROolscjsWgdDDSVKjg2UQx1I5K+mq0bQ==";
         };
+        _f9FE4diA = {
+            "id" = "f9FE4diA";
+            "file" = "vanilla-fireflies-5.1.jar";
+            "hash" = "sha512-30PqJiJR8KNSJqYSyiKCkHcVwruNZ2sZkTs0P5xBYG/24zH1j+HM93hhfKmFQAqrlTOZyWlWS1QwxC6Disg4Cg==";
+        };
     in {
         "FNjUgOrs" = _FNjUgOrs;
         "dMjeajkd" = _dMjeajkd;
@@ -116,6 +121,7 @@ let
         "GIUDa8TR" = _GIUDa8TR;
         "34zcHVAX" = _34zcHVAX;
         "yCnXtp6t" = _yCnXtp6t;
+        "f9FE4diA" = _f9FE4diA;
         "datapack-1.20.6" = _FNjUgOrs;
         "datapack-1.21" = _1VK9PGZr;
         "datapack-1.21.1" = _1VK9PGZr;
@@ -152,6 +158,7 @@ let
         "fabric-1.21.5" = _1ruBBmYy;
         "fabric-1.21.6" = _1ruBBmYy;
         "fabric-26.2" = _34zcHVAX;
+        "fabric-26.3" = _f9FE4diA;
         "quilt-1.20.6" = _dMjeajkd;
         "quilt-1.21" = _5qSXJH5D;
         "quilt-1.21.1" = _5qSXJH5D;
@@ -170,6 +177,7 @@ let
         "quilt-1.21.5" = _1ruBBmYy;
         "quilt-1.21.6" = _1ruBBmYy;
         "quilt-26.2" = _34zcHVAX;
+        "quilt-26.3" = _f9FE4diA;
         "forge-1.21" = _5qSXJH5D;
         "forge-1.21.1" = _5qSXJH5D;
         "forge-1.21.2" = _5qSXJH5D;
@@ -187,6 +195,7 @@ let
         "forge-1.21.5" = _1ruBBmYy;
         "forge-1.21.6" = _1ruBBmYy;
         "forge-26.2" = _34zcHVAX;
+        "forge-26.3" = _f9FE4diA;
         "neoforge-1.21" = _5qSXJH5D;
         "neoforge-1.21.1" = _5qSXJH5D;
         "neoforge-1.21.2" = _5qSXJH5D;
@@ -204,6 +213,7 @@ let
         "neoforge-1.21.5" = _1ruBBmYy;
         "neoforge-1.21.6" = _1ruBBmYy;
         "neoforge-26.2" = _34zcHVAX;
+        "neoforge-26.3" = _f9FE4diA;
         "pkg-1.0" = _FNjUgOrs;
         "pkg-1.0+mod" = _dMjeajkd;
         "pkg-1.0.1" = _X6BtKB9x;
@@ -223,7 +233,8 @@ let
         "pkg-5.0" = _GIUDa8TR;
         "pkg-5.0+mod" = _34zcHVAX;
         "pkg-5.1" = _yCnXtp6t;
-        "default" = _yCnXtp6t;
+        "pkg-5.1+mod" = _f9FE4diA;
+        "default" = _f9FE4diA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-fireflies";

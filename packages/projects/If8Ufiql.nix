@@ -26,20 +26,26 @@ let
             "file" = "ITRP_MTR4_Demo_Modern.zip";
             "hash" = "sha512-VxT/jIX5OeG8hhU2UrlveqnH3z3cqkChjKqbiIvbURO5lK0TeM7rxXh0nrGFoDiceOlB26+67IwBu2BVwNOOog==";
         };
+        _C6DTOuO4 = {
+            "id" = "C6DTOuO4";
+            "file" = "Railway infrastructure v2.5.zip";
+            "hash" = "sha512-nPCN9VnKN6JHuU7ZlLz7oKlw5sHUvh/sMPd5s7Xp3OM/7txzvvCKufJYAAbc7NISmOTMTyW2EXJCkDpiam0XIA==";
+        };
     in {
         "JCdOSGvu" = _JCdOSGvu;
         "b5dOHCrK" = _b5dOHCrK;
         "UGymIHBY" = _UGymIHBY;
         "mWhE9Viy" = _mWhE9Viy;
         "hlWjeuOx" = _hlWjeuOx;
-        "minecraft-1.17.1" = _hlWjeuOx;
-        "minecraft-1.18.2" = _hlWjeuOx;
-        "minecraft-1.19.2" = _hlWjeuOx;
-        "minecraft-1.20.1" = _hlWjeuOx;
+        "C6DTOuO4" = _C6DTOuO4;
+        "minecraft-1.17.1" = _C6DTOuO4;
+        "minecraft-1.18.2" = _C6DTOuO4;
+        "minecraft-1.19.2" = _C6DTOuO4;
+        "minecraft-1.20.1" = _C6DTOuO4;
         "minecraft-1.17" = _hlWjeuOx;
-        "minecraft-1.18" = _mWhE9Viy;
-        "minecraft-1.18.1" = _mWhE9Viy;
-        "minecraft-1.19.4" = _hlWjeuOx;
+        "minecraft-1.18" = _C6DTOuO4;
+        "minecraft-1.18.1" = _C6DTOuO4;
+        "minecraft-1.19.4" = _C6DTOuO4;
         "minecraft-1.20" = _hlWjeuOx;
         "minecraft-1.21.1" = _hlWjeuOx;
         "pkg-2.0" = _JCdOSGvu;
@@ -47,7 +53,8 @@ let
         "pkg-2.1" = _UGymIHBY;
         "pkg-2.2" = _mWhE9Viy;
         "pkg-4.0.1" = _hlWjeuOx;
-        "default" = _hlWjeuOx;
+        "pkg-2.3" = _C6DTOuO4;
+        "default" = _C6DTOuO4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "international-trainpack";

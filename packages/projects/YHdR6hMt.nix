@@ -166,6 +166,11 @@ let
             "file" = "enchantment_lore-1.10.0+MC26.2.x.jar";
             "hash" = "sha512-/s0qPv5J+o7iZIg7yotfF6ZYWc6shDq8zrLUcDhmvhkmBcs1/3yb/DGpyvmLxnTdVnWz3HH8Fh8FEzIXFWiSrA==";
         };
+        _oG4kzUhm = {
+            "id" = "oG4kzUhm";
+            "file" = "enchantment_lore-1.10.1+MC26.2-26.3.x.jar";
+            "hash" = "sha512-UWqZ6ykufE5575frpqfrfZ4CYl/sLHXq7tXQ1rV/hqQmSDQUtPhGZ5vrq3ePymL+NYJBSpKusYNmVEkqaleVXA==";
+        };
     in {
         "5Iw4sASQ" = _5Iw4sASQ;
         "lHQsmm3J" = _lHQsmm3J;
@@ -200,6 +205,7 @@ let
         "KlVG5uYt" = _KlVG5uYt;
         "5NuFyqt0" = _5NuFyqt0;
         "13l2LckV" = _13l2LckV;
+        "oG4kzUhm" = _oG4kzUhm;
         "fabric-1.17.1" = _lHQsmm3J;
         "fabric-1.18" = _55JGP4u4;
         "fabric-1.18.1" = _55JGP4u4;
@@ -231,7 +237,8 @@ let
         "fabric-26.1" = _5NuFyqt0;
         "fabric-26.1.1" = _5NuFyqt0;
         "fabric-26.1.2" = _5NuFyqt0;
-        "fabric-26.2" = _13l2LckV;
+        "fabric-26.2" = _oG4kzUhm;
+        "fabric-26.3" = _oG4kzUhm;
         "quilt-1.19.1" = _7uXZ14c0;
         "quilt-1.19.2" = _7uXZ14c0;
         "quilt-1.19.3" = _NgFYK2KR;
@@ -258,7 +265,8 @@ let
         "quilt-26.1" = _5NuFyqt0;
         "quilt-26.1.1" = _5NuFyqt0;
         "quilt-26.1.2" = _5NuFyqt0;
-        "quilt-26.2" = _13l2LckV;
+        "quilt-26.2" = _oG4kzUhm;
+        "quilt-26.3" = _oG4kzUhm;
         "pkg-1.2+MC1.17.1" = _5Iw4sASQ;
         "pkg-1.2.1+MC1.17.1" = _lHQsmm3J;
         "pkg-1.2.2+MC1.18" = _EALVmrcY;
@@ -292,7 +300,8 @@ let
         "pkg-1.3.3-b1" = _KlVG5uYt;
         "pkg-1.9.0+MC26.1-26.1.x" = _5NuFyqt0;
         "pkg-1.10.0+MC26.2.x" = _13l2LckV;
-        "default" = _13l2LckV;
+        "pkg-1.10.1+MC26.2-26.3.x" = _oG4kzUhm;
+        "default" = _oG4kzUhm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantment-lore";

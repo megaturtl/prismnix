@@ -191,6 +191,16 @@ let
             "file" = "smartcompletion-26.2-fabric-3.0.0.jar";
             "hash" = "sha512-3mKT6iA0ijcKqdogakJkFzsZagZ8PB8wKsIeBvXSbbKvV6CFUYprLyki+PIJedDXYe3Zkt4MZjcLf9l1qv/vDQ==";
         };
+        _CmBLHmvK = {
+            "id" = "CmBLHmvK";
+            "file" = "smartcompletion-26.3-neoforge-3.0.0.jar";
+            "hash" = "sha512-xlHx6Iq69B7A5Q8cRASLgziAFCeBbwCH/qLUyHceMoJD1ee2WII+EyN90nbGIXrvv+SO3yfGqGgbb1RLocQh3w==";
+        };
+        _Tu4rUDlA = {
+            "id" = "Tu4rUDlA";
+            "file" = "smartcompletion-26.3-fabric-3.0.0.jar";
+            "hash" = "sha512-t6ewKOjha+nCQltWWZprOM57LYmsdWE/kR0cvjLP90BxszgNLM26c/GiJJgmcHvVRtonsaPC5iQb7Vi2eGBJQw==";
+        };
     in {
         "5yazff9K" = _5yazff9K;
         "3D3e6Tdg" = _3D3e6Tdg;
@@ -230,6 +240,8 @@ let
         "wEwzgQ6A" = _wEwzgQ6A;
         "PXJbel0y" = _PXJbel0y;
         "rjtNT0Mx" = _rjtNT0Mx;
+        "CmBLHmvK" = _CmBLHmvK;
+        "Tu4rUDlA" = _Tu4rUDlA;
         "forge-1.16.3" = _5yazff9K;
         "forge-1.16.4" = _5yazff9K;
         "forge-1.16.5" = _5yazff9K;
@@ -281,6 +293,7 @@ let
         "fabric-26.1.1" = _wEwzgQ6A;
         "fabric-26.1.2" = _wEwzgQ6A;
         "fabric-26.2" = _rjtNT0Mx;
+        "fabric-26.3" = _Tu4rUDlA;
         "neoforge-1.20.2" = _dFfmsWft;
         "neoforge-1.20.3" = _xsri3GoB;
         "neoforge-1.20.4" = _YuqJW4ii;
@@ -302,10 +315,11 @@ let
         "neoforge-26.1.1" = _EQVIwJJJ;
         "neoforge-26.1.2" = _EQVIwJJJ;
         "neoforge-26.2" = _PXJbel0y;
+        "neoforge-26.3" = _CmBLHmvK;
         "pkg-2.1.0" = _yV1dMMfa;
         "pkg-1.2" = _M9oAUJ6f;
-        "pkg-3.0.0" = _rjtNT0Mx;
-        "default" = _rjtNT0Mx;
+        "pkg-3.0.0" = _Tu4rUDlA;
+        "default" = _Tu4rUDlA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smart-completion";

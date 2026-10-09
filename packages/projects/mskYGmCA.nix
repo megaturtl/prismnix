@@ -141,6 +141,41 @@ let
             "file" = "BlackwolfLibrary-forge-26.1.2-1.2.0.jar";
             "hash" = "sha512-YEMGDsXyBrbJ/JGOd2D4gswY/ISqDsQNz7TAzQAXtn3W1DBKyC/gDJJT6It4q+1TU5OKanpoGm7SF8+IQzG+ag==";
         };
+        _ovK3jAew = {
+            "id" = "ovK3jAew";
+            "file" = "BlackwolfLibrary-fabric-26.1.2-1.3.0.jar";
+            "hash" = "sha512-dR3sFT7kHSwa20u8TOP5Bk9WPIZ5XsQbvnbh586fmHF0vF0GlrPnBoxnbJpbnHW4Qf6om+0PZH+SkSbLxp1eCw==";
+        };
+        _bubm2V7H = {
+            "id" = "bubm2V7H";
+            "file" = "BlackwolfLibrary-forge-26.1.2-1.4.0.jar";
+            "hash" = "sha512-BOa7h/5jbdXWkUiOGysmu85DS4g98tH/+QeScrZrcy0cP/NFsEPkSk0KTqUmSfl1UOkqUR3cfmY/eUQ8rbMbWQ==";
+        };
+        _8cJPGUHp = {
+            "id" = "8cJPGUHp";
+            "file" = "BlackwolfLibrary-fabric-26.1.2-1.4.0.jar";
+            "hash" = "sha512-MlEXXR6mJ8gHhGaWFzS6P4V2saPr3mG7heHoIps2J1j0TMTdSlehVGxCrfPBHNrb8rHa9CuLWx/gcYvPqymw6A==";
+        };
+        _lYP0tpkx = {
+            "id" = "lYP0tpkx";
+            "file" = "BlackwolfLibrary-neoforge-26.1.2-1.4.0.jar";
+            "hash" = "sha512-CNfr5kyvBW8r9h4+LqhXgGI5MDVn7kmH7Td45EfbR8hs/H7E0gXos8OgIodEy4lfjr6MBpiV4SZ1QZ2NwMtG8Q==";
+        };
+        _z17kLLlQ = {
+            "id" = "z17kLLlQ";
+            "file" = "BlackwolfLibrary-forge-26.3-1.4.1.jar";
+            "hash" = "sha512-LiZXCXCQ3XzjFe/FWOi/jYNFsUIS95ykkqqmrNqQN69P3ZipmXzS+MOo64h/kahbUvMYRLgxKMl0MYz+yhLC5A==";
+        };
+        _PWXDT48q = {
+            "id" = "PWXDT48q";
+            "file" = "BlackwolfLibrary-neoforge-26.3-1.4.1.jar";
+            "hash" = "sha512-RqPd3Ui9rnrsNYHoHGibZYJFOMpci4256S7JCU2gwVx0KrUWi6aqF2bMgFMMBdOxfFUpGcceBxYMTqBOmdAWVw==";
+        };
+        _fz5BSb8s = {
+            "id" = "fz5BSb8s";
+            "file" = "BlackwolfLibrary-fabric-26.3-1.4.1.jar";
+            "hash" = "sha512-n6Cx17m8dIFcRrAQ6hd1YC8aC5Nvk4mVM/UqsHmTHuh7HVwRJiifc2YvaAceeoi4oQ3ZEB4QfsSfiA1DKSl2Aw==";
+        };
     in {
         "TTEvKJbS" = _TTEvKJbS;
         "Fh4Ty5pi" = _Fh4Ty5pi;
@@ -170,6 +205,13 @@ let
         "BRbnRLvY" = _BRbnRLvY;
         "mjFugToO" = _mjFugToO;
         "PyaY0CLF" = _PyaY0CLF;
+        "ovK3jAew" = _ovK3jAew;
+        "bubm2V7H" = _bubm2V7H;
+        "8cJPGUHp" = _8cJPGUHp;
+        "lYP0tpkx" = _lYP0tpkx;
+        "z17kLLlQ" = _z17kLLlQ;
+        "PWXDT48q" = _PWXDT48q;
+        "fz5BSb8s" = _fz5BSb8s;
         "forge-1.20.1" = _TTEvKJbS;
         "forge-1.20.4" = _StJubViC;
         "forge-1.21" = _PcRSqS1b;
@@ -178,7 +220,8 @@ let
         "forge-1.21.9" = _sz5aeUs7;
         "forge-1.21.10" = _FhLbGSqH;
         "forge-1.21.11" = _kan20TYT;
-        "forge-26.1.2" = _PyaY0CLF;
+        "forge-26.1.2" = _bubm2V7H;
+        "forge-26.3" = _z17kLLlQ;
         "fabric-1.20.1" = _Fh4Ty5pi;
         "fabric-1.20.2" = _GVl5Rf0c;
         "fabric-1.20.4" = _m6cs3G6R;
@@ -188,13 +231,16 @@ let
         "fabric-1.21.8" = _4EvNtmAs;
         "fabric-1.21.10" = _wKgO3BuF;
         "fabric-1.21.11" = _e3Y01Gs9;
+        "fabric-26.1.2" = _8cJPGUHp;
+        "fabric-26.3" = _fz5BSb8s;
         "neoforge-1.20.4" = _ppjvchEg;
         "neoforge-1.21" = _UwNNdpUK;
         "neoforge-1.21.1" = _psMIt0MG;
         "neoforge-1.21.8" = _XOAhB5rn;
         "neoforge-1.21.10" = _u0khFmzh;
         "neoforge-1.21.11" = _BRbnRLvY;
-        "neoforge-26.1.2" = _mjFugToO;
+        "neoforge-26.1.2" = _lYP0tpkx;
+        "neoforge-26.3" = _PWXDT48q;
         "pkg-1.0.2" = _TTEvKJbS;
         "pkg-1.0.4" = _Fh4Ty5pi;
         "pkg-1.0.5" = _StJubViC;
@@ -214,7 +260,14 @@ let
         "pkg-1.1.6" = _kan20TYT;
         "pkg-1.21.11-1.1.8" = _e3Y01Gs9;
         "pkg-1.2.0" = _PyaY0CLF;
-        "default" = _PyaY0CLF;
+        "pkg-1.3.0" = _ovK3jAew;
+        "pkg-1.4.0-Forge" = _bubm2V7H;
+        "pkg-1.4.0-Fabric" = _8cJPGUHp;
+        "pkg-1.4.0-NeoForge" = _lYP0tpkx;
+        "pkg-1.4.1-Forge" = _z17kLLlQ;
+        "pkg-1.4.1-NeoForge" = _PWXDT48q;
+        "pkg-1.4.1-Fabric" = _fz5BSb8s;
+        "default" = _fz5BSb8s;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "blackwolf-library";

@@ -81,6 +81,26 @@ let
             "file" = "origins-support-2.1.jar";
             "hash" = "sha512-2qyWsniSknWXQTaudQ/j/wMAwHcOV8aVoIU8SP22NU64o1whiXQE8FDTQ/WV1IefnFMqIirGa8rkAI2fCjM6fw==";
         };
+        _9OBtzXqu = {
+            "id" = "9OBtzXqu";
+            "file" = "Supportive Origins - 1.20.1-2.2.zip";
+            "hash" = "sha512-TpjlmQ501nvON8MHcVaPStLjCCKgTr/Gvu/tL94fYgFrnkfTo5gRn3UdwSy5/EKW23FkNudaaiGDGe33Kp18OA==";
+        };
+        _3t8cV3pZ = {
+            "id" = "3t8cV3pZ";
+            "file" = "origins-support-2.2.jar";
+            "hash" = "sha512-FaZ1Zfob2P8OCTLqZDqUu5de3ytNcXe5mLJSNdlF08l1wCNVXJssyzDdR49FX04deR5UT4LL/zoprcy/HKOKMQ==";
+        };
+        _mvLcqW6Z = {
+            "id" = "mvLcqW6Z";
+            "file" = "Supportive Origins - 1.20.1-2.3.zip";
+            "hash" = "sha512-59OMNdv8LhCTBwQxcPyOij6RS2VPUZAd6NRxuS9AAKYSC9j7Znq5g0GHwaw2yfbW53SLSEVwJNVUvNrfJcDYIw==";
+        };
+        _9ob4EDED = {
+            "id" = "9ob4EDED";
+            "file" = "origins-support-2.3.jar";
+            "hash" = "sha512-WE9lKWBryyj6a7z03gOZm2GTNUvGMuTGVBi2IZ8IaUGPWTffMuZUldF5D3OXMREDODab2N0GI0b6BsVxzCAg0g==";
+        };
     in {
         "JZm27hm5" = _JZm27hm5;
         "xeVzYLMT" = _xeVzYLMT;
@@ -98,12 +118,16 @@ let
         "O9wdpG83" = _O9wdpG83;
         "pZDn6jGG" = _pZDn6jGG;
         "JDW0iDOq" = _JDW0iDOq;
-        "datapack-1.20.1" = _pZDn6jGG;
+        "9OBtzXqu" = _9OBtzXqu;
+        "3t8cV3pZ" = _3t8cV3pZ;
+        "mvLcqW6Z" = _mvLcqW6Z;
+        "9ob4EDED" = _9ob4EDED;
+        "datapack-1.20.1" = _mvLcqW6Z;
         "datapack-1.20.2" = _GLS1la1X;
-        "datapack-1.20" = _pZDn6jGG;
-        "fabric-1.20.1" = _JDW0iDOq;
+        "datapack-1.20" = _mvLcqW6Z;
+        "fabric-1.20.1" = _9ob4EDED;
         "fabric-1.20.2" = _O9wdpG83;
-        "fabric-1.20" = _JDW0iDOq;
+        "fabric-1.20" = _9ob4EDED;
         "forge-1.20.1" = _ywgOqToo;
         "pkg-1.0" = _JZm27hm5;
         "pkg-1.0+mod" = _xeVzYLMT;
@@ -121,7 +145,11 @@ let
         "pkg-2.0.1+mod" = _O9wdpG83;
         "pkg-2.1" = _pZDn6jGG;
         "pkg-2.1+mod" = _JDW0iDOq;
-        "default" = _JDW0iDOq;
+        "pkg-2.2" = _9OBtzXqu;
+        "pkg-2.2+mod" = _3t8cV3pZ;
+        "pkg-2.3" = _mvLcqW6Z;
+        "pkg-2.3+mod" = _9ob4EDED;
+        "default" = _9ob4EDED;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "origins-support";

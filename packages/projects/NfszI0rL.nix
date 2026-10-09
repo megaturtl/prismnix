@@ -126,6 +126,11 @@ let
             "file" = "Stellarity-5.5.5-RP.zip";
             "hash" = "sha512-iZu4daEBuLv5F27p/J48RjgSrYOztlgY+VIfp2Rtfic/qwYA2W9bw9lCdH/x/PZGT1v6I8wGxw6+RwMooivrJA==";
         };
+        _3NU5xRwJ = {
+            "id" = "3NU5xRwJ";
+            "file" = "Stellarity-6.0.0-RP.zip";
+            "hash" = "sha512-HHEeYHuqUXB2vxIksasN12lGHBKB2LBYw1gaK8EpE3Sv5uwlAbc5MLyW1hHiQiPGEPJ1RdAIJVPn0YKBW/5SbA==";
+        };
     in {
         "vxZ90Woa" = _vxZ90Woa;
         "qgT1QmdB" = _qgT1QmdB;
@@ -152,6 +157,7 @@ let
         "bmYyj4kz" = _bmYyj4kz;
         "oxR5vxA0" = _oxR5vxA0;
         "2631aNLP" = _2631aNLP;
+        "3NU5xRwJ" = _3NU5xRwJ;
         "minecraft-1.20.2" = _vxZ90Woa;
         "minecraft-1.20.3" = _vxZ90Woa;
         "minecraft-1.20.4" = _vxZ90Woa;
@@ -163,7 +169,7 @@ let
         "minecraft-1.21.8" = _wnDv8w9v;
         "minecraft-1.21.9" = _wnDv8w9v;
         "minecraft-1.21.10" = _wnDv8w9v;
-        "minecraft-1.21.11" = _2631aNLP;
+        "minecraft-1.21.11" = _3NU5xRwJ;
         "minecraft-24w33a" = _6sJ0Gk3z;
         "minecraft-24w34a" = _6sJ0Gk3z;
         "minecraft-24w35a" = _6sJ0Gk3z;
@@ -177,10 +183,11 @@ let
         "minecraft-24w44a" = _6sJ0Gk3z;
         "minecraft-24w45a" = _6sJ0Gk3z;
         "minecraft-24w46a" = _6sJ0Gk3z;
-        "minecraft-26.1" = _2631aNLP;
-        "minecraft-26.1.1" = _2631aNLP;
-        "minecraft-26.1.2" = _2631aNLP;
-        "minecraft-26.2" = _2631aNLP;
+        "minecraft-26.1" = _3NU5xRwJ;
+        "minecraft-26.1.1" = _3NU5xRwJ;
+        "minecraft-26.1.2" = _3NU5xRwJ;
+        "minecraft-26.2" = _3NU5xRwJ;
+        "minecraft-26.3" = _3NU5xRwJ;
         "pkg-2.2.0" = _vxZ90Woa;
         "pkg-3.0.0" = _qgT1QmdB;
         "pkg-3.0.2" = _lD265Jsc;
@@ -206,7 +213,8 @@ let
         "pkg-5.5.2" = _bmYyj4kz;
         "pkg-5.5.4" = _oxR5vxA0;
         "pkg-5.5.5" = _2631aNLP;
-        "default" = _2631aNLP;
+        "pkg-6.0.0" = _3NU5xRwJ;
+        "default" = _3NU5xRwJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stellarity-rp";

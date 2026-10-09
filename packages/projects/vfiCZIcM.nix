@@ -131,6 +131,16 @@ let
             "file" = "growmeal-fabric-26.2-1.1.jar";
             "hash" = "sha512-ukhVg61DBufKve/JolMG6zVb4Of3RB+Xv1/AjQm9jdijaiNa9x20ariiaICEHq1CpDIg5MUB7S+rpO/8rf+aoQ==";
         };
+        _n8UZBvo0 = {
+            "id" = "n8UZBvo0";
+            "file" = "growmeal-neoforge-26.3-1.1.jar";
+            "hash" = "sha512-rmChWgSeesbyVhIvguejMXYgy7nUorEPRA40GZA8hIVHSdKmRwQjxx9tQ1nh3YqQDTzNq4bsUjqYCyXaeWhzZg==";
+        };
+        _NiDrjn8o = {
+            "id" = "NiDrjn8o";
+            "file" = "growmeal-fabric-26.3-1.1.jar";
+            "hash" = "sha512-IeXYN8dkqFCIHqmQEjXdcEEh7bv3+/nkbp4wccbq0bsU4kR8a9FHVse77YPQYAMNSfMlXvVv+aeDsJ6hThR49w==";
+        };
     in {
         "evNvdFVH" = _evNvdFVH;
         "ef6oOyij" = _ef6oOyij;
@@ -158,6 +168,8 @@ let
         "3D1ApCoh" = _3D1ApCoh;
         "t48e7GfH" = _t48e7GfH;
         "XIdnRwvm" = _XIdnRwvm;
+        "n8UZBvo0" = _n8UZBvo0;
+        "NiDrjn8o" = _NiDrjn8o;
         "forge-1.12.2" = _evNvdFVH;
         "forge-1.13.2" = _ef6oOyij;
         "forge-1.14.4" = _N8OsJ2V9;
@@ -197,21 +209,24 @@ let
         "neoforge-26.1.1" = _Gis5J7Qu;
         "neoforge-26.1.2" = _Gis5J7Qu;
         "neoforge-26.2" = _t48e7GfH;
+        "neoforge-26.3" = _n8UZBvo0;
         "fabric-26.1" = _3D1ApCoh;
         "fabric-26.1.1" = _3D1ApCoh;
         "fabric-26.1.2" = _3D1ApCoh;
         "fabric-26.2" = _XIdnRwvm;
+        "fabric-26.3" = _NiDrjn8o;
         "quilt-26.1" = _3D1ApCoh;
         "quilt-26.1.1" = _3D1ApCoh;
         "quilt-26.1.2" = _3D1ApCoh;
         "quilt-26.2" = _XIdnRwvm;
+        "quilt-26.3" = _NiDrjn8o;
         "pkg-v1.0.2" = _QuSszOVX;
         "pkg-v1.0.3" = _eH3kbA9X;
         "pkg-v1.0.4" = _nEDzsHTE;
         "pkg-v1.0.5" = _ReqF57eo;
         "pkg-v1.0.6" = _tDEqopOK;
-        "pkg-v1.1" = _XIdnRwvm;
-        "default" = _XIdnRwvm;
+        "pkg-v1.1" = _NiDrjn8o;
+        "default" = _NiDrjn8o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "growmeal";

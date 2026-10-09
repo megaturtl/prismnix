@@ -81,6 +81,61 @@ let
             "file" = "awcapi-neoforge-1.20.1-1.0.2.jar";
             "hash" = "sha512-7FSOuy43u63UQJkCr3tmlwebkDClwvQjPHBUTce8Qf7vP4yUTYD0ZjJ+A61NfIjMNGLh23Ool60WenG/amWHxg==";
         };
+        _d8vCwigr = {
+            "id" = "d8vCwigr";
+            "file" = "awcapi-fabric-1.21.11-1.0.3.jar";
+            "hash" = "sha512-UuCA9KxCUq/4yent+38VIP5H2MTYs5XDLd+KJDQCN4SMEBHE6geVD/kWF2o4heP0Hw3DBEwTIQWUY5ECH9znaQ==";
+        };
+        _UKNvblIf = {
+            "id" = "UKNvblIf";
+            "file" = "awcapi-neoforge-1.21.11-1.0.3.jar";
+            "hash" = "sha512-9JNJ2eEBfeWx7n9z4+EEWCitYi4zJRjulBdT2z1SBEthP5XaoaLZMaBjEbJ/Z5MV5Mcasz6/uZRTAaf/Xiz3Pw==";
+        };
+        _Pc1ZEocI = {
+            "id" = "Pc1ZEocI";
+            "file" = "awcapi-fabric-1.21.5-1.0.3.jar";
+            "hash" = "sha512-xW8xyqqU+3+admWQc4GzteUVPwWP31rIdppeEzI11ZIp7WSc/TInM908s91PJtx1RTnCBVFNRyd7iex9Kwp1jA==";
+        };
+        _4tsxKJUx = {
+            "id" = "4tsxKJUx";
+            "file" = "awcapi-neoforge-1.21.5-1.0.3.jar";
+            "hash" = "sha512-6QeT/nbq1URGvpcnZmLP4wlklcRMcEHh7x1W7NmdWQrKHIg5qzbcCEtm1c9Q9agNpKZgMH+m1QWcZhJOnYiheQ==";
+        };
+        _bFKqa5eS = {
+            "id" = "bFKqa5eS";
+            "file" = "awcapi-neoforge-1.21.1-1.0.3.jar";
+            "hash" = "sha512-iJ0dombCj/tgakwVe34XhSM9T+u/dF1pI0rarHG8/5tMNFYh1d8fo02o915o4DXVJoZ/pj62iFewldPNjT9wZg==";
+        };
+        _FyxkZdS6 = {
+            "id" = "FyxkZdS6";
+            "file" = "awcapi-fabric-1.21.1-1.0.3.jar";
+            "hash" = "sha512-rwCsGispNzvJ3hLiCDjL7idgP2AhFVVsqVjtODbhnRhfTdJYGuHztO1TVKrRsghiIfu950xkhUmNSNXERsD1nQ==";
+        };
+        _74TKmuAr = {
+            "id" = "74TKmuAr";
+            "file" = "awcapi-fabric-1.20.1-1.0.3.jar";
+            "hash" = "sha512-uwz9rsQujoaZV7X9xBpsQIH2AvZAm6FyTs3gByxeZMT2PWB5NkDBk2pQiyHaXMr7vPGgelAKvMZPZwrgpo5Rvg==";
+        };
+        _D8cdUUv6 = {
+            "id" = "D8cdUUv6";
+            "file" = "awcapi-neoforge-1.20.1-1.0.3.jar";
+            "hash" = "sha512-qsQUSV4WgyCuPaM8hgphUsG5oczEN6b+jXDjBufgeD9VH1FIl/XHTbSf/aOcfVXoJ9IVpohq8mpb9VT7vRam1Q==";
+        };
+        _XrclufB5 = {
+            "id" = "XrclufB5";
+            "file" = "awcapi-neoforge-26.1-1.0.2.jar";
+            "hash" = "sha512-PSzSqkMfw3XtqNtN3VAlhXBCMDMpJvBY682eEcC99yULDpHtA1kqHGwPYPo1O6VwXuGRcjUcs1NcLAMmNNVGpQ==";
+        };
+        _cFrmBnNd = {
+            "id" = "cFrmBnNd";
+            "file" = "awcapi-fabric-26.1-1.0.2.jar";
+            "hash" = "sha512-auhR+ZZmkjVvNN3A92SAnJFOEcsrRV0i02GJzL/7nzrUuKgxswidNvcE4YOuBb11CjuYnT8Ip+t/gSONTsEyzA==";
+        };
+        _UlsNNegd = {
+            "id" = "UlsNNegd";
+            "file" = "awcapi-1.0.6.jar";
+            "hash" = "sha512-gJS9CXJzv7FraWbOL0tfaodW73tEr9aW8vuh1qIi8VwdKdfNZtYeb8sQLqspxZCTR9lnkPFdIhKDURGgkeSB2Q==";
+        };
     in {
         "G1ONcrUB" = _G1ONcrUB;
         "jmeDvzHi" = _jmeDvzHi;
@@ -98,18 +153,34 @@ let
         "7icEn9bK" = _7icEn9bK;
         "nL47kAKl" = _nL47kAKl;
         "BA9brPka" = _BA9brPka;
-        "fabric-1.21.1" = _UIebtG6T;
-        "fabric-1.21.5" = _PTrBzgFK;
-        "fabric-1.21.11" = _4PMzfpA0;
-        "fabric-1.20.1" = _nL47kAKl;
-        "neoforge-1.21.1" = _WVgShXfl;
-        "neoforge-1.21.5" = _7icEn9bK;
-        "neoforge-1.21.11" = _CKzeTfNq;
-        "forge-1.20.1" = _BA9brPka;
+        "d8vCwigr" = _d8vCwigr;
+        "UKNvblIf" = _UKNvblIf;
+        "Pc1ZEocI" = _Pc1ZEocI;
+        "4tsxKJUx" = _4tsxKJUx;
+        "bFKqa5eS" = _bFKqa5eS;
+        "FyxkZdS6" = _FyxkZdS6;
+        "74TKmuAr" = _74TKmuAr;
+        "D8cdUUv6" = _D8cdUUv6;
+        "XrclufB5" = _XrclufB5;
+        "cFrmBnNd" = _cFrmBnNd;
+        "UlsNNegd" = _UlsNNegd;
+        "fabric-1.21.1" = _FyxkZdS6;
+        "fabric-1.21.5" = _Pc1ZEocI;
+        "fabric-1.21.11" = _d8vCwigr;
+        "fabric-1.20.1" = _74TKmuAr;
+        "fabric-26.1" = _cFrmBnNd;
+        "neoforge-1.21.1" = _bFKqa5eS;
+        "neoforge-1.21.5" = _4tsxKJUx;
+        "neoforge-1.21.11" = _UKNvblIf;
+        "neoforge-26.1" = _XrclufB5;
+        "forge-1.20.1" = _D8cdUUv6;
+        "forge-1.12.2" = _UlsNNegd;
         "pkg-1.0.0" = _jmeDvzHi;
         "pkg-1.0.1" = _j4hYqBuH;
-        "pkg-1.0.2" = _BA9brPka;
-        "default" = _BA9brPka;
+        "pkg-1.0.2" = _cFrmBnNd;
+        "pkg-1.0.3" = _D8cdUUv6;
+        "pkg-1.0.6" = _UlsNNegd;
+        "default" = _UlsNNegd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "advanced-wall-climber-api";

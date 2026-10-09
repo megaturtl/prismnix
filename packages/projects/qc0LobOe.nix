@@ -171,6 +171,16 @@ let
             "file" = "EffectTooltips-fabric-MC26.2-26.2.0.1.jar";
             "hash" = "sha512-a9Eqj4F/cpsQqOPuQeu2GJiPCtTxdipHMeRX891LAdX5er8fPjfxFV5LRyT2b6RAR053k1uSNwHetl9RWVTA0Q==";
         };
+        _Ksap67VR = {
+            "id" = "Ksap67VR";
+            "file" = "EffectTooltips-fabric-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-3b48d9d3Nmzk01FB35rZuJRqm+rvKLoAAn/3B5ABOwKWfYT1p7yCj2QTUEBJQrzgk6O+dDicg3LukIyOfRRZ3w==";
+        };
+        _sawBWl4j = {
+            "id" = "sawBWl4j";
+            "file" = "EffectTooltips-neoforge-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-PReEZ+8pMsAEz/BVtJDyeldEQNMdrBy0Et6ns9wkQRCwx6nORMyHBRVXmC1dtrMcWLZNIPp4WeecsvZHHh+2Ng==";
+        };
     in {
         "3JlkmcVc" = _3JlkmcVc;
         "gtXoiGMo" = _gtXoiGMo;
@@ -206,6 +216,8 @@ let
         "QVhRtBeo" = _QVhRtBeo;
         "oKC0opxH" = _oKC0opxH;
         "HuSsa9EW" = _HuSsa9EW;
+        "Ksap67VR" = _Ksap67VR;
+        "sawBWl4j" = _sawBWl4j;
         "forge-1.16.5" = _3JlkmcVc;
         "forge-1.18.2" = _gtXoiGMo;
         "forge-1.19.2" = _KpJmCpT0;
@@ -232,6 +244,7 @@ let
         "fabric-26.1.1" = _QVhRtBeo;
         "fabric-26.1.2" = _QVhRtBeo;
         "fabric-26.2" = _HuSsa9EW;
+        "fabric-26.3" = _Ksap67VR;
         "neoforge-1.20.2" = _pFKaR55y;
         "neoforge-1.20.3" = _KHMzDLbp;
         "neoforge-1.20.4" = _JGRFgIBA;
@@ -239,6 +252,7 @@ let
         "neoforge-26.1.1" = _VRW2wNwu;
         "neoforge-26.1.2" = _VRW2wNwu;
         "neoforge-26.2" = _oKC0opxH;
+        "neoforge-26.3" = _sawBWl4j;
         "pkg-1.0.1" = _3JlkmcVc;
         "pkg-2.0.1" = _E7H4P9PK;
         "pkg-5.1.3" = _a7QGRCw4;
@@ -254,7 +268,8 @@ let
         "pkg-9.0.3" = _HfxWcgnm;
         "pkg-26.1.2.1" = _QVhRtBeo;
         "pkg-26.2.0.1" = _HuSsa9EW;
-        "default" = _HuSsa9EW;
+        "pkg-26.3.0.1" = _sawBWl4j;
+        "default" = _sawBWl4j;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "effect-tooltips";

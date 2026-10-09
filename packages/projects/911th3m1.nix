@@ -1,0 +1,120 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _TGMg5wIo = {
+            "id" = "TGMg5wIo";
+            "file" = "CreeperAwMan-1.8.9-1.20.6.zip";
+            "hash" = "sha512-iERUb7oqxyox3k9CKThI27R0tWWNMx02dBiKbEFEPCWtwQBqhpKx9KzcX0DLLDUifvXFc/A4MIViTg4ApHIXmA==";
+        };
+        _EGvS9MS8 = {
+            "id" = "EGvS9MS8";
+            "file" = "CreeperAwMan-1.7.10-1.21.zip";
+            "hash" = "sha512-44WhfPcPsJKgxhIVhVlo4WDemggr6ZGG8MI5eIJAoHbxUjv7q6/mlOTql7nBF4yvKeGdKevVASpVMPe+tHO0Zw==";
+        };
+        _llKNH4t3 = {
+            "id" = "llKNH4t3";
+            "file" = "CreeperAwMan-1.21.9.zip";
+            "hash" = "sha512-YogYxaZLKbMc7EUyKvUTnAzjuiLNyIQFgw6hsXSVQ6HkiBasBCDDuFnprRFks8+wrR0eKdtKHbptPHQ1KDyGFQ==";
+        };
+    in {
+        "TGMg5wIo" = _TGMg5wIo;
+        "EGvS9MS8" = _EGvS9MS8;
+        "llKNH4t3" = _llKNH4t3;
+        "minecraft-1.7.10" = _EGvS9MS8;
+        "minecraft-1.8" = _EGvS9MS8;
+        "minecraft-1.8.1" = _EGvS9MS8;
+        "minecraft-1.8.2" = _EGvS9MS8;
+        "minecraft-1.8.3" = _EGvS9MS8;
+        "minecraft-1.8.4" = _EGvS9MS8;
+        "minecraft-1.8.5" = _EGvS9MS8;
+        "minecraft-1.8.6" = _EGvS9MS8;
+        "minecraft-1.8.7" = _EGvS9MS8;
+        "minecraft-1.8.8" = _EGvS9MS8;
+        "minecraft-1.8.9" = _EGvS9MS8;
+        "minecraft-1.9" = _EGvS9MS8;
+        "minecraft-1.9.1" = _EGvS9MS8;
+        "minecraft-1.9.2" = _EGvS9MS8;
+        "minecraft-1.9.3" = _EGvS9MS8;
+        "minecraft-1.9.4" = _EGvS9MS8;
+        "minecraft-1.10" = _EGvS9MS8;
+        "minecraft-1.10.1" = _EGvS9MS8;
+        "minecraft-1.10.2" = _EGvS9MS8;
+        "minecraft-1.11" = _EGvS9MS8;
+        "minecraft-1.11.1" = _EGvS9MS8;
+        "minecraft-1.11.2" = _EGvS9MS8;
+        "minecraft-1.12" = _EGvS9MS8;
+        "minecraft-1.12.1" = _EGvS9MS8;
+        "minecraft-1.12.2" = _EGvS9MS8;
+        "minecraft-1.13" = _EGvS9MS8;
+        "minecraft-1.13.1" = _EGvS9MS8;
+        "minecraft-1.13.2" = _EGvS9MS8;
+        "minecraft-1.14" = _EGvS9MS8;
+        "minecraft-1.14.1" = _EGvS9MS8;
+        "minecraft-1.14.2" = _EGvS9MS8;
+        "minecraft-1.14.3" = _EGvS9MS8;
+        "minecraft-1.14.4" = _EGvS9MS8;
+        "minecraft-1.15" = _EGvS9MS8;
+        "minecraft-1.15.1" = _EGvS9MS8;
+        "minecraft-1.15.2" = _EGvS9MS8;
+        "minecraft-1.16" = _EGvS9MS8;
+        "minecraft-1.16.1" = _EGvS9MS8;
+        "minecraft-1.16.2" = _EGvS9MS8;
+        "minecraft-1.16.3" = _EGvS9MS8;
+        "minecraft-1.16.4" = _EGvS9MS8;
+        "minecraft-1.16.5" = _EGvS9MS8;
+        "minecraft-1.17" = _EGvS9MS8;
+        "minecraft-1.17.1" = _EGvS9MS8;
+        "minecraft-1.18" = _EGvS9MS8;
+        "minecraft-1.18.1" = _EGvS9MS8;
+        "minecraft-1.18.2" = _EGvS9MS8;
+        "minecraft-1.19" = _EGvS9MS8;
+        "minecraft-1.19.1" = _EGvS9MS8;
+        "minecraft-1.19.2" = _EGvS9MS8;
+        "minecraft-1.19.3" = _EGvS9MS8;
+        "minecraft-1.19.4" = _EGvS9MS8;
+        "minecraft-1.20" = _EGvS9MS8;
+        "minecraft-1.20.1" = _EGvS9MS8;
+        "minecraft-1.20.2" = _EGvS9MS8;
+        "minecraft-1.20.3" = _EGvS9MS8;
+        "minecraft-1.20.4" = _EGvS9MS8;
+        "minecraft-1.20.5" = _EGvS9MS8;
+        "minecraft-1.20.6" = _EGvS9MS8;
+        "minecraft-1.21" = _EGvS9MS8;
+        "minecraft-1.21.1" = _EGvS9MS8;
+        "minecraft-1.21.2" = _EGvS9MS8;
+        "minecraft-1.21.3" = _EGvS9MS8;
+        "minecraft-1.21.4" = _EGvS9MS8;
+        "minecraft-1.21.5" = _EGvS9MS8;
+        "minecraft-1.21.6" = _EGvS9MS8;
+        "minecraft-1.21.7" = _EGvS9MS8;
+        "minecraft-1.21.8" = _EGvS9MS8;
+        "minecraft-1.21.9" = _llKNH4t3;
+        "minecraft-1.21.10" = _llKNH4t3;
+        "minecraft-1.21.11" = _llKNH4t3;
+        "minecraft-26.1" = _llKNH4t3;
+        "minecraft-26.1.1" = _llKNH4t3;
+        "minecraft-26.1.2" = _llKNH4t3;
+        "minecraft-26.2" = _llKNH4t3;
+        "minecraft-26.3" = _llKNH4t3;
+        "pkg-1.0" = _TGMg5wIo;
+        "pkg-1.1" = _EGvS9MS8;
+        "pkg-1.2" = _llKNH4t3;
+        "default" = _llKNH4t3;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "creeperawman";
+        id = "911th3m1";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "MIT" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "MIT License";
+                shortName = "MIT";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

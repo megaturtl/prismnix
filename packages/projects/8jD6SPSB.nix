@@ -31,6 +31,16 @@ let
             "file" = "eternal-pearl-v1.0.1.jar";
             "hash" = "sha512-vpTRosbWhNtz/U5Z5zT4nVX8xTY+9O7PHBEmFC+mcjInfZ8QQXv554INou9rivcyx3mJbwqf6wZ88y9BHFTmTg==";
         };
+        _yOoR0vtZ = {
+            "id" = "yOoR0vtZ";
+            "file" = "Eternal Pearl v1.0.0 [26.3].zip";
+            "hash" = "sha512-WEsYVvslQ9yGtywPe+IORF8MACmmul6vl+addVYEPwETR0zvzfEqC7/M5hu4jGNpETDYZlfsdy7RPTcPzUBp2Q==";
+        };
+        _R7YyP3Sp = {
+            "id" = "R7YyP3Sp";
+            "file" = "eternal-pearl-1.0.0.jar";
+            "hash" = "sha512-E/QCdlzjpekfRgpmiAU2PamQscdr9ZiBt6nLE9dOGz0wv9W1IgLZcz6ZoknfUuwM/b/NqUWA1Z/WgwUUygm39g==";
+        };
     in {
         "hlE6Rs21" = _hlE6Rs21;
         "ivj6myZw" = _ivj6myZw;
@@ -38,6 +48,8 @@ let
         "Uk3gcm6B" = _Uk3gcm6B;
         "ax2cqlld" = _ax2cqlld;
         "CN08KGo2" = _CN08KGo2;
+        "yOoR0vtZ" = _yOoR0vtZ;
+        "R7YyP3Sp" = _R7YyP3Sp;
         "datapack-1.21.4" = _hlE6Rs21;
         "datapack-1.21.5" = _ax2cqlld;
         "datapack-1.21.6" = _ax2cqlld;
@@ -50,6 +62,7 @@ let
         "datapack-26.1.1" = _ax2cqlld;
         "datapack-26.1.2" = _ax2cqlld;
         "datapack-26.2" = _ax2cqlld;
+        "datapack-26.3" = _yOoR0vtZ;
         "fabric-1.21.4" = _ivj6myZw;
         "fabric-1.21.5" = _CN08KGo2;
         "fabric-1.21.6" = _CN08KGo2;
@@ -62,6 +75,7 @@ let
         "fabric-26.1.1" = _CN08KGo2;
         "fabric-26.1.2" = _CN08KGo2;
         "fabric-26.2" = _CN08KGo2;
+        "fabric-26.3" = _R7YyP3Sp;
         "forge-1.21.4" = _ivj6myZw;
         "forge-1.21.5" = _CN08KGo2;
         "forge-1.21.6" = _CN08KGo2;
@@ -74,6 +88,7 @@ let
         "forge-26.1.1" = _CN08KGo2;
         "forge-26.1.2" = _CN08KGo2;
         "forge-26.2" = _CN08KGo2;
+        "forge-26.3" = _R7YyP3Sp;
         "neoforge-1.21.4" = _ivj6myZw;
         "neoforge-1.21.5" = _CN08KGo2;
         "neoforge-1.21.6" = _CN08KGo2;
@@ -86,6 +101,7 @@ let
         "neoforge-26.1.1" = _CN08KGo2;
         "neoforge-26.1.2" = _CN08KGo2;
         "neoforge-26.2" = _CN08KGo2;
+        "neoforge-26.3" = _R7YyP3Sp;
         "quilt-1.21.4" = _ivj6myZw;
         "quilt-1.21.5" = _CN08KGo2;
         "quilt-1.21.6" = _CN08KGo2;
@@ -98,11 +114,14 @@ let
         "quilt-26.1.1" = _CN08KGo2;
         "quilt-26.1.2" = _CN08KGo2;
         "quilt-26.2" = _CN08KGo2;
+        "quilt-26.3" = _R7YyP3Sp;
         "pkg-v1.0.0" = _hlE6Rs21;
         "pkg-v1.0.0+mod" = _ivj6myZw;
         "pkg-v1.0.1" = _ax2cqlld;
         "pkg-v1.0.1+mod" = _CN08KGo2;
-        "default" = _CN08KGo2;
+        "pkg-1.0.0" = _yOoR0vtZ;
+        "pkg-1.0.0+mod" = _R7YyP3Sp;
+        "default" = _R7YyP3Sp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eternal-pearl";

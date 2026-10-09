@@ -36,6 +36,11 @@ let
             "file" = "Pink Dreams 26.2.zip";
             "hash" = "sha512-bI+toyfezZJiXhf2+QQFLYj/HXh2P8XNzAFZpm026AoxS9PyWnVelOXIfBEBTvq55dwn70b+nR8LeRJwtOz6AQ==";
         };
+        _QZH1KOSg = {
+            "id" = "QZH1KOSg";
+            "file" = "Pink Dreams 26.3.zip";
+            "hash" = "sha512-Z82VViDFTsBLzLPDqgMVmRsBVQ2aRbGsJOcSNwsdCdCXpFXMXJNBsmJNlbatCz3H3D+xcLnS2xoRYQYXrvFRHA==";
+        };
     in {
         "GTjwgZnO" = _GTjwgZnO;
         "aK0p6dil" = _aK0p6dil;
@@ -44,6 +49,7 @@ let
         "azEeA8nC" = _azEeA8nC;
         "Y5umUVRA" = _Y5umUVRA;
         "9DPMuVLt" = _9DPMuVLt;
+        "QZH1KOSg" = _QZH1KOSg;
         "minecraft-1.20" = _GTjwgZnO;
         "minecraft-1.20.1" = _GTjwgZnO;
         "minecraft-1.20.2" = _GTjwgZnO;
@@ -63,9 +69,11 @@ let
         "minecraft-26.1.1" = _Y5umUVRA;
         "minecraft-26.1.2" = _Y5umUVRA;
         "minecraft-26.2" = _9DPMuVLt;
+        "minecraft-26.3" = _QZH1KOSg;
         "pkg-1.0" = _Y5umUVRA;
         "pkg-26.2" = _9DPMuVLt;
-        "default" = _9DPMuVLt;
+        "pkg-26.3" = _QZH1KOSg;
+        "default" = _QZH1KOSg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pink-dreams";

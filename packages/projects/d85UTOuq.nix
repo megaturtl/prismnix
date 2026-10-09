@@ -1636,6 +1636,16 @@ let
             "file" = "rpg_attribute_system-neoforge-26.2-4.2.6.jar";
             "hash" = "sha512-9Wx9NiJLlOANevGrST+XbVGfCEZf6OVH53uOGtypMIHgqkSFMcj1B7Cgw3u9LJRF/4lhpa3fBNrCIU6oDl/hDw==";
         };
+        _Llc9xVgL = {
+            "id" = "Llc9xVgL";
+            "file" = "rpg_attribute_system-fabric-26.3-4.2.6.jar";
+            "hash" = "sha512-M23wCWXNsX9eiHwav4D3UTQq2dqzTZnt/Oje/kIVXK30bLAIqabJD2AFwj/AIX0Fg2p69IIO37i6GTRBcnvtFg==";
+        };
+        _hTLqIAPb = {
+            "id" = "hTLqIAPb";
+            "file" = "rpg_attribute_system-neoforge-26.3-4.2.6.jar";
+            "hash" = "sha512-xi8E79qs9u/dJYAOoQzlqC5b+Wgpp2hJSQyT2s4za0PwViyNlfPY6kvcjgCB7b1WL2Yi+tulpXUEvd+jmp7k9Q==";
+        };
     in {
         "vC7J38Fi" = _vC7J38Fi;
         "A4IseDps" = _A4IseDps;
@@ -1964,6 +1974,8 @@ let
         "bW9DUsOL" = _bW9DUsOL;
         "Ue87etIE" = _Ue87etIE;
         "p42epHQj" = _p42epHQj;
+        "Llc9xVgL" = _Llc9xVgL;
+        "hTLqIAPb" = _hTLqIAPb;
         "forge-1.20.1" = _g28sAAhf;
         "forge-1.19.2" = _BtHmuAlF;
         "forge-1.18.2" = _nSg6hlMv;
@@ -1977,6 +1989,7 @@ let
         "neoforge-26.1.1" = _h604gSvI;
         "neoforge-26.1.2" = _bW9DUsOL;
         "neoforge-26.2" = _p42epHQj;
+        "neoforge-26.3" = _hTLqIAPb;
         "fabric-1.20.1" = _MhYdnjg0;
         "fabric-1.21.1" = _c6iup2FY;
         "fabric-1.21.11" = _yt6LXkLZ;
@@ -1984,6 +1997,7 @@ let
         "fabric-26.1.1" = _lXFdviNo;
         "fabric-26.1.2" = _4fP3UxdK;
         "fabric-26.2" = _Ue87etIE;
+        "fabric-26.3" = _Llc9xVgL;
         "pkg-0.0.3" = _A4IseDps;
         "pkg-0.1.0" = _izg3dFvQ;
         "pkg-0.1.1" = _oEtWaeCZ;
@@ -2116,7 +2130,9 @@ let
         "pkg-4.2.6+neoforge-26.1.2" = _bW9DUsOL;
         "pkg-4.2.6+fabric-26.2" = _Ue87etIE;
         "pkg-4.2.6+neoforge-26.2" = _p42epHQj;
-        "default" = _p42epHQj;
+        "pkg-4.2.6+fabric-26.3" = _Llc9xVgL;
+        "pkg-4.2.6+neoforge-26.3" = _hTLqIAPb;
+        "default" = _hTLqIAPb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rpg-attribute-system";

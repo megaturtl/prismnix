@@ -346,6 +346,11 @@ let
             "file" = "scorchful-neoforge-0.15.2+1.21.1-neoforge.jar";
             "hash" = "sha512-fPlvnIbWD1MUnIQvpV4jjYY6M+aczB3UDbCfqKnlSfq6JSJTePNJOJBlU71VasXDA2WNbWPN28HrFnZQEsiVDQ==";
         };
+        _rXDk1cY2 = {
+            "id" = "rXDk1cY2";
+            "file" = "scorchful-neoforge-0.15.3+1.21.1-neoforge.jar";
+            "hash" = "sha512-NQy/qi9/3Dl0FeWq4qncRNvDJWGthTc4WvXP2eIx8gNIlVS9934DuSJF3ASciKBZfoyLAh9WMZ44X3x5PRLA8g==";
+        };
     in {
         "SxrkjuiU" = _SxrkjuiU;
         "z7yjIK2X" = _z7yjIK2X;
@@ -416,6 +421,7 @@ let
         "yydDZnZ3" = _yydDZnZ3;
         "27nSDmuS" = _27nSDmuS;
         "4yMBdLHx" = _4yMBdLHx;
+        "rXDk1cY2" = _rXDk1cY2;
         "fabric-1.20.1" = _cMUbc5bf;
         "fabric-1.20.4" = _C0yoAQq3;
         "fabric-1.21" = _LPSA13Y8;
@@ -452,7 +458,7 @@ let
         "quilt-26.1" = _uv2gyVAr;
         "quilt-26.1.1" = _uv2gyVAr;
         "quilt-26.1.2" = _uv2gyVAr;
-        "neoforge-1.21.1" = _4yMBdLHx;
+        "neoforge-1.21.1" = _rXDk1cY2;
         "pkg-0.1.0" = _SxrkjuiU;
         "pkg-0.1.1" = _z7yjIK2X;
         "pkg-0.2" = _i8pNKmNu;
@@ -522,7 +528,8 @@ let
         "pkg-0.15.0+1.21.1-neoforge" = _yydDZnZ3;
         "pkg-0.15.1+1.21.1-neoforge" = _27nSDmuS;
         "pkg-0.15.2+1.21.1-neoforge" = _4yMBdLHx;
-        "default" = _4yMBdLHx;
+        "pkg-0.15.3+1.21.1-neoforge" = _rXDk1cY2;
+        "default" = _rXDk1cY2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scorchful";

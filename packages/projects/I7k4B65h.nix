@@ -421,6 +421,11 @@ let
             "file" = "jecharacters-1.20.1-forge-4.6.11.jar";
             "hash" = "sha512-YHb+AsiA361EkXKONSz8aMbz4vtyJ8vIN2TK64Lww5FH8x/Zoo3QXSyVJ6lqtxA/xaf3c6CK5Zm0A0OFnz9mqg==";
         };
+        _ehaG4iXt = {
+            "id" = "ehaG4iXt";
+            "file" = "jecharacters-26.1.2-neoforge-4.6.8.jar";
+            "hash" = "sha512-X3PpWuz4g846uueD0qIyHgXKoH2wtnPDZlS929pGjtZkrQjNU9YagfaJyF9wJOmTFOKBZbyIoXVw11CSorS4rw==";
+        };
     in {
         "UeqdZ0zC" = _UeqdZ0zC;
         "o6aLisEm" = _o6aLisEm;
@@ -506,6 +511,7 @@ let
         "aZJO08Yo" = _aZJO08Yo;
         "XPKoy65e" = _XPKoy65e;
         "oUqz8dp4" = _oUqz8dp4;
+        "ehaG4iXt" = _ehaG4iXt;
         "fabric-1.20" = _TFUj4JAg;
         "fabric-1.20.1" = _rT3cckOr;
         "fabric-1.20.2" = _TFUj4JAg;
@@ -555,13 +561,13 @@ let
         "neoforge-1.21.8" = _XPKoy65e;
         "neoforge-1.21.9" = _N1a71fwZ;
         "neoforge-1.21.10" = _N1a71fwZ;
-        "neoforge-1.21.11" = _uh5459Q4;
-        "neoforge-26.1" = _KA8WXefs;
-        "neoforge-26.1.1" = _KA8WXefs;
-        "neoforge-26.1.2" = _KA8WXefs;
+        "neoforge-1.21.11" = _ehaG4iXt;
+        "neoforge-26.1" = _ehaG4iXt;
+        "neoforge-26.1.1" = _ehaG4iXt;
+        "neoforge-26.1.2" = _ehaG4iXt;
         "neoforge-1.21.2" = _XPKoy65e;
         "neoforge-1.21.3" = _XPKoy65e;
-        "neoforge-26.2" = _KA8WXefs;
+        "neoforge-26.2" = _ehaG4iXt;
         "pkg-4.5.4" = _o6aLisEm;
         "pkg-4.5.12" = _vdjDjf0K;
         "pkg-4.5.13" = _lbrlHSCE;
@@ -582,14 +588,14 @@ let
         "pkg-4.6.4" = _uh5459Q4;
         "pkg-4.6.7" = _apO6esJX;
         "pkg-4.5.26" = _vNZK6Vz4;
-        "pkg-4.6.8" = _aZJO08Yo;
+        "pkg-4.6.8" = _ehaG4iXt;
         "pkg-4.5.27" = _TFUj4JAg;
         "pkg-4.6.9" = _uSZ8wSJO;
         "pkg-4.5.28" = _YZzNT6SB;
         "pkg-4.6.10" = _AsTEpXUn;
         "pkg-4.5.29" = _XPKoy65e;
         "pkg-4.6.11" = _oUqz8dp4;
-        "default" = _oUqz8dp4;
+        "default" = _ehaG4iXt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "justenoughcharacters";

@@ -31,6 +31,11 @@ let
             "file" = "mcdw-9.0.4.jar";
             "hash" = "sha512-+cGyjczeOIQfZuSS1zv6cqqqh6j4Ov6/+bY2wquDKrG/Bi4g/pVgI5KbCvA+QgeXSeP7UxgHP5/q//AofOBm8A==";
         };
+        _3Y12MMoI = {
+            "id" = "3Y12MMoI";
+            "file" = "mcdw-9.1.0.jar";
+            "hash" = "sha512-xwJUVehViFoLhAVnjnZrLxnQh8Jt+QL0hMKBNm59233Xwb4LcUy5n2XtxIG95JkkwblxPecFtpGMRgD5+LnVDA==";
+        };
     in {
         "F4Nb4xBv" = _F4Nb4xBv;
         "NVyPECBw" = _NVyPECBw;
@@ -38,8 +43,9 @@ let
         "O8JgP5eC" = _O8JgP5eC;
         "yybXHLu2" = _yybXHLu2;
         "S2yuB3CX" = _S2yuB3CX;
-        "fabric-1.20" = _O8JgP5eC;
-        "fabric-1.20.1" = _S2yuB3CX;
+        "3Y12MMoI" = _3Y12MMoI;
+        "fabric-1.20" = _3Y12MMoI;
+        "fabric-1.20.1" = _3Y12MMoI;
         "forge-1.20" = _O8JgP5eC;
         "forge-1.20.1" = _S2yuB3CX;
         "pkg-8.1.0" = _F4Nb4xBv;
@@ -48,7 +54,8 @@ let
         "pkg-9.0.2" = _O8JgP5eC;
         "pkg-9.0.3" = _yybXHLu2;
         "pkg-9.0.4" = _S2yuB3CX;
-        "default" = _S2yuB3CX;
+        "pkg-9.1.0" = _3Y12MMoI;
+        "default" = _3Y12MMoI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcdw";

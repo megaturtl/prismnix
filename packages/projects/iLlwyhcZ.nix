@@ -246,6 +246,16 @@ let
             "file" = "MoogsGlowUp-neoforge-26.2-2.2.1.jar";
             "hash" = "sha512-vca5AXwGfP3W0gNjjM7NBCGhCEHzPlypV6A8vQgU7eteooefsDCR3VnViuPf57nAAnJgyw01UAOuDDlajtg7hw==";
         };
+        _XZ2CLdnb = {
+            "id" = "XZ2CLdnb";
+            "file" = "MoogsGlowUp-fabric-26.3-2.2.1.jar";
+            "hash" = "sha512-kAbVZFUdgiHzbJj1gCWS5aqX6poCh75fwBZgGEkys25K7wAYgiAXZitX97BQtLnfngw3OdsLLryKUdYuYP/U0A==";
+        };
+        _NKwGdKXu = {
+            "id" = "NKwGdKXu";
+            "file" = "MoogsGlowUp-neoforge-26.3-2.2.1.jar";
+            "hash" = "sha512-xfzzC1DSZxVOB/psKyhenxOmeQU0ZY883IG6NzDF0FLxn6aA0yDijp0EuJeFQpbDr3zbFjZmzQVJ8olqbpD/FA==";
+        };
     in {
         "qwTKjogN" = _qwTKjogN;
         "HEdSNxbB" = _HEdSNxbB;
@@ -296,6 +306,8 @@ let
         "Q9xS4NbR" = _Q9xS4NbR;
         "8ksqtVfy" = _8ksqtVfy;
         "Zp2NtdFi" = _Zp2NtdFi;
+        "XZ2CLdnb" = _XZ2CLdnb;
+        "NKwGdKXu" = _NKwGdKXu;
         "fabric-1.20.1" = _uvEPA0BM;
         "fabric-1.21" = _aeOgHJYM;
         "fabric-1.21.1" = _aeOgHJYM;
@@ -315,6 +327,7 @@ let
         "fabric-1.21.5" = _Y7OkxhBC;
         "fabric-1.21.6" = _Y7OkxhBC;
         "fabric-1.21.7" = _Y7OkxhBC;
+        "fabric-26.3" = _XZ2CLdnb;
         "forge-1.20.1" = _DkK7RNpA;
         "forge-1.20" = _DkK7RNpA;
         "forge-1.20.3" = _jC2bm98c;
@@ -334,6 +347,7 @@ let
         "neoforge-1.21.5" = _k7DqjRIz;
         "neoforge-1.21.6" = _k7DqjRIz;
         "neoforge-1.21.7" = _k7DqjRIz;
+        "neoforge-26.3" = _NKwGdKXu;
         "pkg-1.0.0-1.20.1" = _HEdSNxbB;
         "pkg-1.1.0-1.20.1" = _4U6x0L1P;
         "pkg-1.1.1-1.20.1" = _SSA7mp24;
@@ -350,8 +364,8 @@ let
         "pkg-2.2.0-26.2" = _uP7Ts4U5;
         "pkg-1.2.2" = _k7DqjRIz;
         "pkg-2.1.1" = _Q9xS4NbR;
-        "pkg-2.2.1" = _Zp2NtdFi;
-        "default" = _Zp2NtdFi;
+        "pkg-2.2.1" = _NKwGdKXu;
+        "default" = _NKwGdKXu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "moogs-glow-up";

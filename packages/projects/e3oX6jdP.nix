@@ -170,7 +170,7 @@ let
         "fabric-26.1.1" = _WLYf5t8T;
         "fabric-26.1.2" = _WLYf5t8T;
         "fabric-26.2" = _sXokKFHb;
-        "fabric-26.3-rc-2" = _u8iiZ6u8;
+        "fabric-26.3" = _u8iiZ6u8;
         "pkg-1.5.1" = _9PJ6957w;
         "pkg-1.5.2" = _muxUmqD7;
         "pkg-1.5.3" = _AXVTo9zw;

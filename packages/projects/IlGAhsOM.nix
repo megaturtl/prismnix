@@ -126,6 +126,26 @@ let
             "file" = "ParticleTweaks-3.0.2-mc26.2.jar";
             "hash" = "sha512-5wCowgVVG/02RaADf/RSXodFkkQJzn0nSmlvyfv//msr/lawIvZ7NrklBv2ukCzS7p1FGVrJebVpj7pzoz3eHw==";
         };
+        _5wNcjBUk = {
+            "id" = "5wNcjBUk";
+            "file" = "ParticleTweaks-3.1-mc26.2-fabric.jar";
+            "hash" = "sha512-YazE+3znAPw5f4KEFiv1uLmhv+ugH7QRjwAWYSZsnpboEceCb7ZuUgJUnE1m2AS7Iz5ZDX7Mtpk3rH/19fds5g==";
+        };
+        _ZfzoMilo = {
+            "id" = "ZfzoMilo";
+            "file" = "ParticleTweaks-3.1-mc26.2-neoforge.jar";
+            "hash" = "sha512-eHRAnb17avoz9dAOvzmWU24f0NnxqQQYGX8g4xbW6pdHS2eWVfbcMeHSgm8TM/kJhtnq65gf+tupXV23LefcTw==";
+        };
+        _nBul9loZ = {
+            "id" = "nBul9loZ";
+            "file" = "ParticleTweaks-3.1-mc26.3-fabric.jar";
+            "hash" = "sha512-mLCg6SM36pNvGFEmsSdooQ/Gg9Zt/EGuXBrqwx/oJEW1aa9tyM6qRElV6MqlehjJm8XiVK94cXqn1c2VjUrxVQ==";
+        };
+        _8UM0oqTo = {
+            "id" = "8UM0oqTo";
+            "file" = "ParticleTweaks-3.1-mc26.3-neoforge.jar";
+            "hash" = "sha512-6YQ1KqHp6jo1V2YWrNU4jTU5M9zvw/tOyDauyjHibjUnm4ZOVAHGK3h2zozLi7kxsGo6RJcvMiUDohIzEgRrUA==";
+        };
     in {
         "ZQCKVAdL" = _ZQCKVAdL;
         "KhkC9F2d" = _KhkC9F2d;
@@ -152,6 +172,10 @@ let
         "3pYXS3ss" = _3pYXS3ss;
         "aHxWGEdF" = _aHxWGEdF;
         "yNazxplV" = _yNazxplV;
+        "5wNcjBUk" = _5wNcjBUk;
+        "ZfzoMilo" = _ZfzoMilo;
+        "nBul9loZ" = _nBul9loZ;
+        "8UM0oqTo" = _8UM0oqTo;
         "fabric-1.19.4" = _GH1L09Np;
         "fabric-1.20-pre1" = _E2TEIOpC;
         "fabric-1.20-pre2" = _E2TEIOpC;
@@ -182,7 +206,8 @@ let
         "fabric-26.1" = _aHxWGEdF;
         "fabric-26.1.1" = _aHxWGEdF;
         "fabric-26.1.2" = _aHxWGEdF;
-        "fabric-26.2" = _yNazxplV;
+        "fabric-26.2" = _5wNcjBUk;
+        "fabric-26.3" = _nBul9loZ;
         "quilt-1.19.4" = _GH1L09Np;
         "quilt-1.20-pre1" = _E2TEIOpC;
         "quilt-1.20-pre2" = _E2TEIOpC;
@@ -216,6 +241,8 @@ let
         "quilt-26.2" = _yNazxplV;
         "neoforge-1.21.4" = _V1NKHHTO;
         "neoforge-1.21.5" = _XjCebFAv;
+        "neoforge-26.2" = _ZfzoMilo;
+        "neoforge-26.3" = _8UM0oqTo;
         "pkg-1.0-1.19.4" = _ZQCKVAdL;
         "pkg-1.1-1.19.4" = _KhkC9F2d;
         "pkg-1.1-1.20" = _OVPy8jEk;
@@ -240,7 +267,11 @@ let
         "pkg-3.0.1-mc1.21.11" = _3pYXS3ss;
         "pkg-3.0.1-mc26.1" = _aHxWGEdF;
         "pkg-3.0.2-mc26.2" = _yNazxplV;
-        "default" = _yNazxplV;
+        "pkg-3.1-mc26.2-fabric" = _5wNcjBUk;
+        "pkg-3.1-mc26.2-neoforge" = _ZfzoMilo;
+        "pkg-3.1-mc26.3-fabric" = _nBul9loZ;
+        "pkg-3.1-mc26.3-neoforge" = _8UM0oqTo;
+        "default" = _8UM0oqTo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "particle-tweaks";

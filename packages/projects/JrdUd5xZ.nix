@@ -56,6 +56,21 @@ let
             "file" = "fastcrystal-2.1.3.jar";
             "hash" = "sha512-U8uj6wGCVj1oAQcNbhPCiNrQOPzOG8GbBPPgGTKpqcnUmEpve7b9ltyab4C/t4AiiPeA4Gauj4t0ht9nVfC55w==";
         };
+        _arJD0G1t = {
+            "id" = "arJD0G1t";
+            "file" = "fastcrystal-2.1.5+1.21.jar";
+            "hash" = "sha512-jy1VeAEcKi/UgC3FNWhMfv4PQrA0tYR7FBlvxVHLh5T1vBs+d0waqEO78F1TZDBMe7r4cfWjKsjTI4ddRlTp5Q==";
+        };
+        _q3AVuby4 = {
+            "id" = "q3AVuby4";
+            "file" = "fastcrystal-2.1.5+26.1.jar";
+            "hash" = "sha512-myOf/TuJlpOkkG8EVk6w+03/Qa2tLuW+PXDy9qdwXcr+b7wTgtNHXXKGLs/OTqnGCBzbm8xZbn5nHbGirVx77g==";
+        };
+        _baVYCtyS = {
+            "id" = "baVYCtyS";
+            "file" = "fastcrystal-2.1.5+26.3.jar";
+            "hash" = "sha512-DACx3WHFGi7N5L2n15tJZsBp1JjBOtCkf/mzsHsn3PlXJVzMI37crv4wC5/m/15lyXD8UdeLwTOWtW1GYnsiXw==";
+        };
     in {
         "q21fAn0O" = _q21fAn0O;
         "r7phNzJd" = _r7phNzJd;
@@ -68,22 +83,26 @@ let
         "chCkdXmM" = _chCkdXmM;
         "I7l52dZp" = _I7l52dZp;
         "dEtShI9F" = _dEtShI9F;
-        "fabric-1.21" = _I7l52dZp;
-        "fabric-1.21.1" = _I7l52dZp;
-        "fabric-1.21.2" = _I7l52dZp;
-        "fabric-1.21.3" = _I7l52dZp;
-        "fabric-1.21.4" = _I7l52dZp;
-        "fabric-1.21.5" = _I7l52dZp;
-        "fabric-1.21.6" = _I7l52dZp;
-        "fabric-1.21.7" = _I7l52dZp;
-        "fabric-1.21.8" = _I7l52dZp;
-        "fabric-1.21.9" = _I7l52dZp;
-        "fabric-1.21.10" = _I7l52dZp;
-        "fabric-1.21.11" = _I7l52dZp;
-        "fabric-26.1" = _dEtShI9F;
-        "fabric-26.1.1" = _dEtShI9F;
-        "fabric-26.1.2" = _dEtShI9F;
-        "fabric-26.2" = _dEtShI9F;
+        "arJD0G1t" = _arJD0G1t;
+        "q3AVuby4" = _q3AVuby4;
+        "baVYCtyS" = _baVYCtyS;
+        "fabric-1.21" = _arJD0G1t;
+        "fabric-1.21.1" = _arJD0G1t;
+        "fabric-1.21.2" = _arJD0G1t;
+        "fabric-1.21.3" = _arJD0G1t;
+        "fabric-1.21.4" = _arJD0G1t;
+        "fabric-1.21.5" = _arJD0G1t;
+        "fabric-1.21.6" = _arJD0G1t;
+        "fabric-1.21.7" = _arJD0G1t;
+        "fabric-1.21.8" = _arJD0G1t;
+        "fabric-1.21.9" = _arJD0G1t;
+        "fabric-1.21.10" = _arJD0G1t;
+        "fabric-1.21.11" = _arJD0G1t;
+        "fabric-26.1" = _q3AVuby4;
+        "fabric-26.1.1" = _q3AVuby4;
+        "fabric-26.1.2" = _q3AVuby4;
+        "fabric-26.2" = _q3AVuby4;
+        "fabric-26.3" = _baVYCtyS;
         "pkg-2.0.0" = _q21fAn0O;
         "pkg-2.0.1" = _r7phNzJd;
         "pkg-2.0.2" = _QRiUohNE;
@@ -91,7 +110,8 @@ let
         "pkg-2.1.0" = _r3D4hQv4;
         "pkg-2.1.1" = _chCkdXmM;
         "pkg-2.1.3" = _dEtShI9F;
-        "default" = _dEtShI9F;
+        "pkg-2.1.5" = _baVYCtyS;
+        "default" = _baVYCtyS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fastcrystal";

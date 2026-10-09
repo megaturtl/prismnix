@@ -1366,6 +1366,26 @@ let
             "file" = "yawp-1.21.1-neoforge-0.6.3-beta4.jar";
             "hash" = "sha512-RypXmFodUR0P55h3ics+VAuirk86/OQACgl3x3Rg1tu3hfk732v67/dJxX3OXFbA5FUuNzVL1ww/CDvZEb3PHg==";
         };
+        _HKFOiRJv = {
+            "id" = "HKFOiRJv";
+            "file" = "yawp-1.21.11-neoforge-0.6.2-beta2.jar";
+            "hash" = "sha512-6yd4AbsFnOiYCMWZoXMwctP94Xjb8dYuxUg6RCGM33RiVnsAE72iWVqFfKSmVCH1+fwYVCJzYKbdO0FBcoCDgg==";
+        };
+        _eGQzhoez = {
+            "id" = "eGQzhoez";
+            "file" = "yawp-1.21.11-fabric-0.6.2-beta2.jar";
+            "hash" = "sha512-79m1oSubuWYWtMGoLp151JPlzwbLFOJqCpz8KY1W5+EUyR3tjqM+QuO82vQWlmp2RHPOhChAcewlHYr9QVV01Q==";
+        };
+        _aeajajd1 = {
+            "id" = "aeajajd1";
+            "file" = "yawp-1.21.10-neoforge-0.6.2-beta2.jar";
+            "hash" = "sha512-Grbt4dRQypI8RsYt5Xgek1Yxo+673DF87DT1lFZ2dySZNFnEIwA/cQt+WHCxvcD8y3OGNEjZarNKTzPxJJgTAA==";
+        };
+        _sBcjW3yB = {
+            "id" = "sBcjW3yB";
+            "file" = "yawp-1.21.10-fabric-0.6.2-beta2.jar";
+            "hash" = "sha512-whnpicG+ichjCunT3oyr2zqi+DnxZPhEQaV5kaEHGFtmBhZyAZm5RTQYSrLz00IwXAVndecuuJvIliojESbhfw==";
+        };
     in {
         "tUhfTRKi" = _tUhfTRKi;
         "QY6qaE08" = _QY6qaE08;
@@ -1640,6 +1660,10 @@ let
         "6YrxPNaC" = _6YrxPNaC;
         "TYzWu4vF" = _TYzWu4vF;
         "HngBli00" = _HngBli00;
+        "HKFOiRJv" = _HKFOiRJv;
+        "eGQzhoez" = _eGQzhoez;
+        "aeajajd1" = _aeajajd1;
+        "sBcjW3yB" = _sBcjW3yB;
         "forge-1.16.5" = _164VGBVX;
         "forge-1.18.2" = _3AtMoHFx;
         "forge-1.19.2" = _oiLkDvse;
@@ -1666,8 +1690,8 @@ let
         "fabric-1.21.7" = _86f1XGVu;
         "fabric-1.21.6" = _ROhzxXcr;
         "fabric-1.21.8" = _Sh4VsTSs;
-        "fabric-1.21.10" = _etBkqYGs;
-        "fabric-1.21.11" = _qIozZcHS;
+        "fabric-1.21.10" = _sBcjW3yB;
+        "fabric-1.21.11" = _eGQzhoez;
         "fabric-26.1.2" = _4wmcTKat;
         "fabric-26.2" = _TYzWu4vF;
         "neoforge-1.20.4" = _ggOsdy1K;
@@ -1677,8 +1701,8 @@ let
         "neoforge-1.21.7" = _GiixLyzK;
         "neoforge-1.21.6" = _bviF7UAl;
         "neoforge-1.21.8" = _6MQjNvoR;
-        "neoforge-1.21.10" = _3QNK7Mrw;
-        "neoforge-1.21.11" = _6SzR58g6;
+        "neoforge-1.21.10" = _aeajajd1;
+        "neoforge-1.21.11" = _HKFOiRJv;
         "neoforge-26.1.2" = _POtMceXf;
         "neoforge-26.2" = _6YrxPNaC;
         "pkg-1.16.5-0.0.1.0-beta1" = _tUhfTRKi;
@@ -1770,7 +1794,9 @@ let
         "pkg-1.21.1-0.6.3-beta3" = _RzUa033K;
         "pkg-26.2-0.6.3-beta4" = _TYzWu4vF;
         "pkg-1.21.1-0.6.3-beta4" = _HngBli00;
-        "default" = _HngBli00;
+        "pkg-1.21.11-0.6.2-beta2" = _eGQzhoez;
+        "pkg-1.21.10-0.6.2-beta2" = _sBcjW3yB;
+        "default" = _sBcjW3yB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "yawp";

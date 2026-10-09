@@ -86,6 +86,21 @@ let
             "file" = "wikirenderer-2.5.2+26.2.jar";
             "hash" = "sha512-VEIsLmhSdy6yif+FK8ic8QhLY6LrzsrWNwpOGIsKRzcfhDKSDpge7RzPaH7zNWM6JTGjuKHXE2w0qpO57tEjLA==";
         };
+        _MXjSLOe1 = {
+            "id" = "MXjSLOe1";
+            "file" = "wikirenderer-2.5.3+26.1.jar";
+            "hash" = "sha512-DUuj1B0LY9eH8DSR49wXf4QYrcFMKOBW0XnUD3u0d8Zmv0dWU5DvhH/XvIRHLlLvnIDrFGjNIXakVpi8BqfZzQ==";
+        };
+        _UpmaR9Uw = {
+            "id" = "UpmaR9Uw";
+            "file" = "wikirenderer-2.5.3+26.2.jar";
+            "hash" = "sha512-WKoU13vBdjytLSO3KYLZ9qkPZwgzobglKNIaiZ2GJ4ckSAa9TLQ5/aeXsSE8Xn5IPq/IMFdefX4l5fobbqCENA==";
+        };
+        _bLDOb9ya = {
+            "id" = "bLDOb9ya";
+            "file" = "wikirenderer-2.6+26.3.jar";
+            "hash" = "sha512-xwrsefntjhUTFx13DlG5WQFZ8lP9uP57I8xOfM5J3ZZnbOKgu/Yp8ZwxqY1yxqb6PPLL7Zl9m9sl9vsEXcw18A==";
+        };
     in {
         "K5H6DtcY" = _K5H6DtcY;
         "myQwFyKH" = _myQwFyKH;
@@ -104,11 +119,15 @@ let
         "fdgBnt5a" = _fdgBnt5a;
         "pgzyqodm" = _pgzyqodm;
         "k8VSRKF1" = _k8VSRKF1;
+        "MXjSLOe1" = _MXjSLOe1;
+        "UpmaR9Uw" = _UpmaR9Uw;
+        "bLDOb9ya" = _bLDOb9ya;
         "fabric-1.21.11" = _yXYlFxGx;
-        "fabric-26.1" = _pgzyqodm;
-        "fabric-26.1.1" = _pgzyqodm;
-        "fabric-26.1.2" = _pgzyqodm;
-        "fabric-26.2" = _k8VSRKF1;
+        "fabric-26.1" = _MXjSLOe1;
+        "fabric-26.1.1" = _MXjSLOe1;
+        "fabric-26.1.2" = _MXjSLOe1;
+        "fabric-26.2" = _UpmaR9Uw;
+        "fabric-26.3" = _bLDOb9ya;
         "pkg-2.1.7+1.21.11" = _K5H6DtcY;
         "pkg-2.2.3+1.21.11" = _myQwFyKH;
         "pkg-2.2.4+1.21.11" = _c2eMwhte;
@@ -126,7 +145,10 @@ let
         "pkg-2.5.1+26.1" = _fdgBnt5a;
         "pkg-2.5.2+26.1" = _pgzyqodm;
         "pkg-2.5.2+26.2" = _k8VSRKF1;
-        "default" = _k8VSRKF1;
+        "pkg-2.5.3+26.1" = _MXjSLOe1;
+        "pkg-2.5.3+26.2" = _UpmaR9Uw;
+        "pkg-2.6+26.3" = _bLDOb9ya;
+        "default" = _bLDOb9ya;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wikirenderer";

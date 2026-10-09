@@ -476,6 +476,31 @@ let
             "file" = "the_obsessed-1.5.2f-neoforge-1.21.1.jar";
             "hash" = "sha512-ldOx5goQ19OeUnBWpJa7chsFwIoR7ljzmNARAeb7ujngOhj/Vq/kl1db1GnZofZoQ7oPo0/hobJX8OmJ/OLxiQ==";
         };
+        _rsG7Bv6I = {
+            "id" = "rsG7Bv6I";
+            "file" = "the_obsessed-1.5.2g-neoforge-1.21.1.jar";
+            "hash" = "sha512-9yF28cynt+NTFmLY5ET2wIFTHAouPkwBruq8zn7OeycaQyR+24bNlMskTd6oblXZAqWOiofAzzZ4o8nRGf/Ocw==";
+        };
+        _ogJVksVp = {
+            "id" = "ogJVksVp";
+            "file" = "the_obsessed-1.5.2g-forge-1.19.2.jar";
+            "hash" = "sha512-HsVBC3CA6M19nX6NK4UUYj/Ml8EI5uAKoeAdIQTdQVOW8faIkq8GwsJLrcbIOzSPof+L1mNNqOiGOqXkhybTig==";
+        };
+        _kztnSVrZ = {
+            "id" = "kztnSVrZ";
+            "file" = "the_obsessed-1.5.2g-forge-1.19.4.jar";
+            "hash" = "sha512-xWKIfHvYskE7Wngb8OBBcVM6z1J6JZaP+fUJ5bxpRenfHwEWLsUVww77YHL6JOxZq9K9v64cYRLZRwU64Eh7rw==";
+        };
+        _VnsAAt3J = {
+            "id" = "VnsAAt3J";
+            "file" = "the_obsessed-1.5.2g-forge-1.20.1.jar";
+            "hash" = "sha512-1X52oSHEQJdiTzgxZ7fZvCnc1OsoABFw9ChB0/x44csAQFNRnI6mwNcFfvODBfs9JuJP5CQR0tUlFPPoVNK06w==";
+        };
+        _gCBOqevd = {
+            "id" = "gCBOqevd";
+            "file" = "the_obsessed-1.5.2g-neoforge-1.20.4.jar";
+            "hash" = "sha512-4x0xxaTR9nWzWclUg6E/MvzwO9l8izADWklxIS0yv6dmGaZoOqmcNfqpf3wjo1PsfYUZ1/me/RSzbeeZxc7a8A==";
+        };
     in {
         "Au5RHMsN" = _Au5RHMsN;
         "OxpqTHuu" = _OxpqTHuu;
@@ -572,11 +597,16 @@ let
         "jDPm5sZD" = _jDPm5sZD;
         "SIQE678f" = _SIQE678f;
         "qu2EZh66" = _qu2EZh66;
-        "forge-1.20.1" = _jDPm5sZD;
-        "forge-1.19.2" = _uDRkbcQQ;
-        "forge-1.19.4" = _ndor60aE;
-        "neoforge-1.20.4" = _SIQE678f;
-        "neoforge-1.21.1" = _qu2EZh66;
+        "rsG7Bv6I" = _rsG7Bv6I;
+        "ogJVksVp" = _ogJVksVp;
+        "kztnSVrZ" = _kztnSVrZ;
+        "VnsAAt3J" = _VnsAAt3J;
+        "gCBOqevd" = _gCBOqevd;
+        "forge-1.20.1" = _VnsAAt3J;
+        "forge-1.19.2" = _ogJVksVp;
+        "forge-1.19.4" = _kztnSVrZ;
+        "neoforge-1.20.4" = _gCBOqevd;
+        "neoforge-1.21.1" = _rsG7Bv6I;
         "pkg-1.11-beta" = _Au5RHMsN;
         "pkg-1.12" = _OxpqTHuu;
         "pkg-1.13.1" = _rzDvEsMk;
@@ -604,7 +634,8 @@ let
         "pkg-1.5.2d" = _1NWTkxBx;
         "pkg-1.5.2e" = _wV0dm3Eu;
         "pkg-1.5.2f" = _qu2EZh66;
-        "default" = _qu2EZh66;
+        "pkg-1.5.2g" = _gCBOqevd;
+        "default" = _gCBOqevd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "obsessed";

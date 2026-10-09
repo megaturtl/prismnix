@@ -101,6 +101,26 @@ let
             "file" = "dungeons+-1.12.0.jar";
             "hash" = "sha512-Fo+0XzzeIrt+X7vQxpgdWs/Cyx+RGLeaW/dUQcD4rIL9LPjwAc5GCzIwRqM6QwOcDNOPdHeNtAc42X8UOHojHg==";
         };
+        _Q8qu2yHY = {
+            "id" = "Q8qu2yHY";
+            "file" = "Decubed Dungeons V1.13.0 [26.3].zip";
+            "hash" = "sha512-5zTkwI43N6EE4KbAUR9n5qvcXeAC2Vcp54oL9iXXADSjdAC5A2cPgMFdWMcjXNV7nm53LMjH41iudas7bk3qVA==";
+        };
+        _kXxrRlxx = {
+            "id" = "kXxrRlxx";
+            "file" = "dungeons+-1.13.0.jar";
+            "hash" = "sha512-zFOr4GFCgqFk5dhNaVu9VORk8lTQ/jkxkRHAGe/znKrzVhOWf539fg2mgKeKZaK4z1G4TvmLGmcmwGH6Rn9RrQ==";
+        };
+        _a6jp1ddM = {
+            "id" = "a6jp1ddM";
+            "file" = "Decubed Dungeons V1.13.1 [26.3].zip";
+            "hash" = "sha512-ZNMxo2M3a8IRvRebBohXuNWrfCrSYmCwfoq6dmLXXUEe6sWxu0xe7fgKEKix4hLDfncocdYw++IL9IfGjnXxdw==";
+        };
+        _iys4iiPH = {
+            "id" = "iys4iiPH";
+            "file" = "dungeons+-1.13.1.jar";
+            "hash" = "sha512-0kXXSN5jm6BpEUJqBAVDbXup3empZSMb6huvPDsxh6VFJE0BjW/zhTy4wSHBEeWP6mDMt3odsIZ2+auT5hEbnA==";
+        };
     in {
         "GRe7u1sk" = _GRe7u1sk;
         "btkkMXYv" = _btkkMXYv;
@@ -122,6 +142,10 @@ let
         "QPE90ql7" = _QPE90ql7;
         "asaM4PZS" = _asaM4PZS;
         "VT75yixL" = _VT75yixL;
+        "Q8qu2yHY" = _Q8qu2yHY;
+        "kXxrRlxx" = _kXxrRlxx;
+        "a6jp1ddM" = _a6jp1ddM;
+        "iys4iiPH" = _iys4iiPH;
         "datapack-1.19" = _GRe7u1sk;
         "datapack-1.19.1" = _GRe7u1sk;
         "datapack-1.19.2" = _GRe7u1sk;
@@ -147,6 +171,7 @@ let
         "datapack-1.21.11" = _ATx0pWfN;
         "datapack-26.1" = _ATx0pWfN;
         "datapack-26.2" = _asaM4PZS;
+        "datapack-26.3" = _a6jp1ddM;
         "fabric-1.20" = _xUbdG5Sj;
         "fabric-1.20.1" = _xUbdG5Sj;
         "fabric-1.20.2" = _xUbdG5Sj;
@@ -170,6 +195,7 @@ let
         "fabric-26.1.1" = _QPE90ql7;
         "fabric-26.1.2" = _QPE90ql7;
         "fabric-26.2" = _VT75yixL;
+        "fabric-26.3" = _iys4iiPH;
         "forge-1.20" = _xUbdG5Sj;
         "forge-1.20.1" = _xUbdG5Sj;
         "forge-1.20.2" = _xUbdG5Sj;
@@ -193,6 +219,7 @@ let
         "forge-26.1.1" = _QPE90ql7;
         "forge-26.1.2" = _QPE90ql7;
         "forge-26.2" = _VT75yixL;
+        "forge-26.3" = _iys4iiPH;
         "quilt-1.20" = _xUbdG5Sj;
         "quilt-1.20.1" = _xUbdG5Sj;
         "quilt-1.20.2" = _xUbdG5Sj;
@@ -216,6 +243,7 @@ let
         "quilt-26.1.1" = _QPE90ql7;
         "quilt-26.1.2" = _QPE90ql7;
         "quilt-26.2" = _VT75yixL;
+        "quilt-26.3" = _iys4iiPH;
         "neoforge-1.21" = _m8RPwRlg;
         "neoforge-1.21.1" = _m8RPwRlg;
         "neoforge-1.21.2" = _m8RPwRlg;
@@ -232,6 +260,7 @@ let
         "neoforge-26.1.1" = _QPE90ql7;
         "neoforge-26.1.2" = _QPE90ql7;
         "neoforge-26.2" = _VT75yixL;
+        "neoforge-26.3" = _iys4iiPH;
         "pkg-1.8.1" = _GRe7u1sk;
         "pkg-1.8.3" = _btkkMXYv;
         "pkg-1.8.4" = _qDrFAady;
@@ -251,7 +280,11 @@ let
         "pkg-1.11.1+mod" = _QPE90ql7;
         "pkg-1.12.0" = _asaM4PZS;
         "pkg-1.12.0+mod" = _VT75yixL;
-        "default" = _VT75yixL;
+        "pkg-1.13.0" = _Q8qu2yHY;
+        "pkg-1.13.0+mod" = _kXxrRlxx;
+        "pkg-1.13.1" = _a6jp1ddM;
+        "pkg-1.13.1+mod" = _iys4iiPH;
+        "default" = _iys4iiPH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dungeons+";

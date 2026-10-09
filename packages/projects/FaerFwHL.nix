@@ -161,6 +161,16 @@ let
             "file" = "backslot-1.2.2.jar";
             "hash" = "sha512-aMLSh1Hgh0GXIT6+sHhpL+RMDTqpAkB+VmkleFN5w74iBPurjygSFX3HR+ZXit68LQOHvu1ap9gjV9y7+xS1nw==";
         };
+        _6JXl9Mfh = {
+            "id" = "6JXl9Mfh";
+            "file" = "backslot-1.2.2.jar";
+            "hash" = "sha512-0AH78ZxZN627n0WpapPXwb0hyJ7be3evmNC1/yNjKxjT0Q3dJGggmfFp965TX7MNiHVtvoO9sB7UcOd+fgiO/g==";
+        };
+        _C6ODbx06 = {
+            "id" = "C6ODbx06";
+            "file" = "backslot-1.2.3.jar";
+            "hash" = "sha512-85YRK1OGh584wvyhr4+iXFuhBDyg3n8aOiAG5IdwQoeV+eXIPGZrCVjWjrOarvE0xdkekatJsWDgx2y7L+wUpQ==";
+        };
     in {
         "PfbfYCgZ" = _PfbfYCgZ;
         "f1tyX4M7" = _f1tyX4M7;
@@ -194,26 +204,30 @@ let
         "SZG2ulwC" = _SZG2ulwC;
         "5yeKxdNj" = _5yeKxdNj;
         "Qp3OW6sm" = _Qp3OW6sm;
+        "6JXl9Mfh" = _6JXl9Mfh;
+        "C6ODbx06" = _C6ODbx06;
         "fabric-1.21.5" = _m7Cwld1E;
         "fabric-1.20.1" = _3Fv5FnOc;
         "fabric-1.21.8" = _s5oTkrxG;
         "fabric-1.21.10" = _Gmxat3JV;
         "fabric-1.21.1" = _opIz9ztO;
         "fabric-1.21.11" = _SZG2ulwC;
-        "fabric-26.1" = _5yeKxdNj;
-        "fabric-26.1.1" = _5yeKxdNj;
-        "fabric-26.1.2" = _5yeKxdNj;
+        "fabric-26.1" = _C6ODbx06;
+        "fabric-26.1.1" = _C6ODbx06;
+        "fabric-26.1.2" = _C6ODbx06;
         "fabric-26.2" = _Qp3OW6sm;
+        "fabric-26.3" = _6JXl9Mfh;
         "quilt-1.21.5" = _m7Cwld1E;
         "quilt-1.20.1" = _3Fv5FnOc;
         "quilt-1.21.8" = _s5oTkrxG;
         "quilt-1.21.10" = _Gmxat3JV;
         "quilt-1.21.1" = _opIz9ztO;
         "quilt-1.21.11" = _SZG2ulwC;
-        "quilt-26.1" = _5yeKxdNj;
-        "quilt-26.1.1" = _5yeKxdNj;
-        "quilt-26.1.2" = _5yeKxdNj;
+        "quilt-26.1" = _C6ODbx06;
+        "quilt-26.1.1" = _C6ODbx06;
+        "quilt-26.1.2" = _C6ODbx06;
         "quilt-26.2" = _Qp3OW6sm;
+        "quilt-26.3" = _6JXl9Mfh;
         "pkg-1.0" = _PfbfYCgZ;
         "pkg-1.1.0" = _lLk5kzAh;
         "pkg-1.1.1" = _4k7wM0O6;
@@ -228,8 +242,9 @@ let
         "pkg-1.1.7" = _qJ5ZA1Kr;
         "pkg-1.2.0" = _MKwW0ai0;
         "pkg-1.2.1" = _SZG2ulwC;
-        "pkg-1.2.2" = _Qp3OW6sm;
-        "default" = _Qp3OW6sm;
+        "pkg-1.2.2" = _6JXl9Mfh;
+        "pkg-1.2.3" = _C6ODbx06;
+        "default" = _C6ODbx06;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "backslot-mod";

@@ -66,6 +66,41 @@ let
             "file" = "SelectablePainting-1.21.1-4.0.1.jar";
             "hash" = "sha512-S9cuUCtb9h8FxIC1HGsx05JSzC7MVBbowCO3oaOqIWnoQxMTQy7tdXHHL42eHznlonYlgHvQ1L0ji0FNA2blng==";
         };
+        _gS8z1Z1z = {
+            "id" = "gS8z1Z1z";
+            "file" = "SelectablePainting-1.21.2-4.0.1.jar";
+            "hash" = "sha512-CbtFPvdBK9T+1AcW1BouceawBV06bJwptPdgcN1fqjaB3wW6jCdOZ7zZgFW2xNTPn0m3KXEb8G3wepgOiLJeSQ==";
+        };
+        _TZwGYyPG = {
+            "id" = "TZwGYyPG";
+            "file" = "SelectablePainting-1.21.5-4.0.1.jar";
+            "hash" = "sha512-C0WOgwrembC2qGHLe5zsjW3qai7iU3TRkDvznbRpFmHQFJttmxlpYMymzpI7wLwmjfbV0AAabDwkaRwT5mRRbw==";
+        };
+        _pg6DAkRP = {
+            "id" = "pg6DAkRP";
+            "file" = "SelectablePainting-1.21.6-4.0.1.jar";
+            "hash" = "sha512-T/9N0lQn59tX6Jc6nzNkdvuENDd2S2i0sBEEmePIVPPMqCKhKQePjB27WesB7pavro8ksXTNNGjcfz7/0MUPcQ==";
+        };
+        _dPWrsn5q = {
+            "id" = "dPWrsn5q";
+            "file" = "SelectablePainting-1.21.9-4.0.1.jar";
+            "hash" = "sha512-55uwVpgjhJz/h91Nn2eYYChIS/v50XLffLoBJHGt5WG2rZ3T37u4cC0EqEVNnDjMKljssJ5QYiSzPPyXPrcR6g==";
+        };
+        _p8ALlnRh = {
+            "id" = "p8ALlnRh";
+            "file" = "SelectablePainting-1.21.11-4.0.1.jar";
+            "hash" = "sha512-heHmTDnbWU+ld2/Mvq3hrD6y9HjQ3HjagLmUF7257xoXKwazPRDN52nl6YVlFesIfgZ37jKJbw0on4FJTdfqyg==";
+        };
+        _U8bqauV5 = {
+            "id" = "U8bqauV5";
+            "file" = "SelectablePainting-26.1-4.0.1.jar";
+            "hash" = "sha512-OluAvqH40QqeYNODcluSlYP3uhPKTv70iMd0bpWLg5NxHeIaA5t3tyzar/X2xLpCwUwMyKIteBddPg42Trzslw==";
+        };
+        _9J2odU4g = {
+            "id" = "9J2odU4g";
+            "file" = "SelectablePainting-26.2-4.0.1.jar";
+            "hash" = "sha512-AqSoKyKTHGyvNJhR+v/AxAapqIzUcFC+n4xC90PYmZO5Yw7dYtN4HRmQpd3Z4yfXTEZYJCIKHyiaWZrElRqYaA==";
+        };
     in {
         "wiYK8SOc" = _wiYK8SOc;
         "CfbdBNrf" = _CfbdBNrf;
@@ -80,6 +115,13 @@ let
         "Kxym7ynE" = _Kxym7ynE;
         "bwjXbaWL" = _bwjXbaWL;
         "R6EBIKGo" = _R6EBIKGo;
+        "gS8z1Z1z" = _gS8z1Z1z;
+        "TZwGYyPG" = _TZwGYyPG;
+        "pg6DAkRP" = _pg6DAkRP;
+        "dPWrsn5q" = _dPWrsn5q;
+        "p8ALlnRh" = _p8ALlnRh;
+        "U8bqauV5" = _U8bqauV5;
+        "9J2odU4g" = _9J2odU4g;
         "forge-1.17.1" = _wiYK8SOc;
         "forge-1.18.2" = _CfbdBNrf;
         "forge-1.19.4" = _zilqHvVF;
@@ -91,6 +133,21 @@ let
         "forge-1.21" = _TgFGTCPt;
         "forge-1.21.1" = _Kxym7ynE;
         "neoforge-1.21.1" = _R6EBIKGo;
+        "neoforge-1.21.2" = _gS8z1Z1z;
+        "neoforge-1.21.3" = _gS8z1Z1z;
+        "neoforge-1.21.4" = _gS8z1Z1z;
+        "neoforge-1.21.5" = _TZwGYyPG;
+        "neoforge-1.21.6" = _pg6DAkRP;
+        "neoforge-1.21.7" = _pg6DAkRP;
+        "neoforge-1.21.8" = _pg6DAkRP;
+        "neoforge-1.21.9" = _dPWrsn5q;
+        "neoforge-1.21.10" = _dPWrsn5q;
+        "neoforge-1.21.11" = _p8ALlnRh;
+        "neoforge-26.1" = _U8bqauV5;
+        "neoforge-26.1.1" = _U8bqauV5;
+        "neoforge-26.1.2" = _U8bqauV5;
+        "neoforge-26.2" = _9J2odU4g;
+        "neoforge-26.3" = _9J2odU4g;
         "pkg-1.17.1-2.0.1" = _wiYK8SOc;
         "pkg-1.18.2-2.0.1" = _CfbdBNrf;
         "pkg-1.19.4-2.0.2" = _T6Kgd2zB;
@@ -104,7 +161,14 @@ let
         "pkg-1.21.1-3.0.0" = _Kxym7ynE;
         "pkg-1.21.1-4.0.0" = _bwjXbaWL;
         "pkg-1.21.1-4.0.1" = _R6EBIKGo;
-        "default" = _R6EBIKGo;
+        "pkg-1.21.2-4.0.1" = _gS8z1Z1z;
+        "pkg-1.21.5-4.0.1" = _TZwGYyPG;
+        "pkg-1.21.6-4.0.1" = _pg6DAkRP;
+        "pkg-1.21.9-4.0.1" = _dPWrsn5q;
+        "pkg-1.21.11-4.0.1" = _p8ALlnRh;
+        "pkg-26.1-4.0.1" = _U8bqauV5;
+        "pkg-26.2-4.0.1" = _9J2odU4g;
+        "default" = _9J2odU4g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "selectable-painting";

@@ -211,6 +211,16 @@ let
             "file" = "ResourcePackOverrides-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-NWA/O9wPYoKWnhK0SrhjDv9AF4CS7cYkmFedytuYaSGdEGYdl4sQRm5vZjo0Vn50OBJDp3wk066ofx9HZ9OGtw==";
         };
+        _ASmjx5da = {
+            "id" = "ASmjx5da";
+            "file" = "resourcepackoverrides-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-Em5nt8sJewQEvhckr0S50JBHND9YN2alO5DNAuSJd6oQVt/vF+5CvRY+djyRHp6srk0IDuIo8jPQ5t2ekCa2EQ==";
+        };
+        _SpIS4iHy = {
+            "id" = "SpIS4iHy";
+            "file" = "resourcepackoverrides-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-DNvRyhaGc0NRVvAoMBFoqwDbGuUGxJZ+hfBGPJeS073giE+I7FouzYVtaXIXFQLMrDAQOPQQHQSsKhNTyyNEYA==";
+        };
     in {
         "75cP6OFf" = _75cP6OFf;
         "VURGnnOp" = _VURGnnOp;
@@ -254,6 +264,8 @@ let
         "CUBr5BFo" = _CUBr5BFo;
         "rzgCX4qP" = _rzgCX4qP;
         "5OLft2pU" = _5OLft2pU;
+        "ASmjx5da" = _ASmjx5da;
+        "SpIS4iHy" = _SpIS4iHy;
         "forge-1.20.1" = _fw5ouviG;
         "forge-1.20" = _BZk6Rpzr;
         "forge-1.20.4" = _ca1gtWor;
@@ -273,6 +285,7 @@ let
         "fabric-26.1.1" = _IBl86Vl9;
         "fabric-26.1.2" = _IBl86Vl9;
         "fabric-26.2" = _rzgCX4qP;
+        "fabric-26.3" = _SpIS4iHy;
         "neoforge-1.20.4" = _HNAkJD9z;
         "neoforge-1.21" = _NWSqgGWz;
         "neoforge-1.21.1" = _xf3H2eJV;
@@ -287,6 +300,7 @@ let
         "neoforge-26.1.1" = _CUBr5BFo;
         "neoforge-26.1.2" = _CUBr5BFo;
         "neoforge-26.2" = _5OLft2pU;
+        "neoforge-26.3" = _ASmjx5da;
         "pkg-v8.0.0-1.20.1-Forge" = _75cP6OFf;
         "pkg-v8.0.0-1.20.1-Fabric" = _VURGnnOp;
         "pkg-v7.0.0-1.20-Forge" = _BZk6Rpzr;
@@ -323,7 +337,8 @@ let
         "pkg-21.11.1" = _81Hs6lt5;
         "pkg-26.1.0" = _CUBr5BFo;
         "pkg-26.2.0" = _5OLft2pU;
-        "default" = _5OLft2pU;
+        "pkg-26.3.0" = _SpIS4iHy;
+        "default" = _SpIS4iHy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "resource-pack-overrides";

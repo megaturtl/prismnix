@@ -266,6 +266,26 @@ let
             "file" = "obscure_tooltips-neoforge-1.21.1-4.2.4.jar";
             "hash" = "sha512-Cw5j8UWwZdRGg/dpPAKIAH0efcUF3Rw+HNuSsTYlwMum/rgdtrbmHyAaoWz34JdCIsWVUtFD3nyJrqXbVWUT9Q==";
         };
+        _D8CPWH0x = {
+            "id" = "D8CPWH0x";
+            "file" = "obscure_tooltips-fabric-1.20.1-3.10.1.jar";
+            "hash" = "sha512-1P00Hgls/gyWL3VlgGdUZLr/2QL6yDh0PwX8nPOOZQu5oSQ5xThKiF+PXyzXwd9PVY8BlI+3zCn7Fp3T9OGnVA==";
+        };
+        _jeC94yPR = {
+            "id" = "jeC94yPR";
+            "file" = "obscure_tooltips-forge-1.20.1-3.10.1.jar";
+            "hash" = "sha512-VrCAk8avhZt0HaPftyCWg9TLNBcZsTU//ZQKbfEIwssWum+xFp6gYe4BHPiiEOh4UvCHYntjCCwmnv700oN32Q==";
+        };
+        _o7tdcAy7 = {
+            "id" = "o7tdcAy7";
+            "file" = "obscure_tooltips-fabric-1.21.1-4.2.5.jar";
+            "hash" = "sha512-Nh/YjuWva2DD5TmoFybtb1TL4UB5t++sEkf2Ke1fJkRghwqkgokX8mFFeefaCQr9kDdeSe0Dt0ccAnD0H64c+w==";
+        };
+        _Yo2oNdw1 = {
+            "id" = "Yo2oNdw1";
+            "file" = "obscure_tooltips-neoforge-1.21.1-4.2.5.jar";
+            "hash" = "sha512-CMQln/StOvHRRlgfnNMKxAPF4sxBDtaF8KMiJwYqQDY5hrnIr0ZCPc4yQNQXudjhOcvuERfY61Cx2n4Id4FfpQ==";
+        };
     in {
         "EcdKj1Oi" = _EcdKj1Oi;
         "vMFRVMtw" = _vMFRVMtw;
@@ -320,15 +340,19 @@ let
         "JSoqAwFK" = _JSoqAwFK;
         "nGpQcruw" = _nGpQcruw;
         "f7xkynP2" = _f7xkynP2;
-        "fabric-1.20.1" = _iAUQRr8H;
-        "fabric-1.21.1" = _nGpQcruw;
+        "D8CPWH0x" = _D8CPWH0x;
+        "jeC94yPR" = _jeC94yPR;
+        "o7tdcAy7" = _o7tdcAy7;
+        "Yo2oNdw1" = _Yo2oNdw1;
+        "fabric-1.20.1" = _D8CPWH0x;
+        "fabric-1.21.1" = _o7tdcAy7;
         "fabric-1.21.11" = _HVCkWxdX;
-        "quilt-1.20.1" = _iAUQRr8H;
-        "quilt-1.21.1" = _nGpQcruw;
+        "quilt-1.20.1" = _D8CPWH0x;
+        "quilt-1.21.1" = _o7tdcAy7;
         "quilt-1.21.11" = _HVCkWxdX;
-        "forge-1.20.1" = _sFFZXXl8;
+        "forge-1.20.1" = _jeC94yPR;
         "forge-1.12.2" = _jEkA4yhG;
-        "neoforge-1.21.1" = _f7xkynP2;
+        "neoforge-1.21.1" = _Yo2oNdw1;
         "neoforge-1.21.11" = _MSBersym;
         "pkg-3.1.0" = _vMFRVMtw;
         "pkg-3.1.1" = _hS5icoac;
@@ -353,11 +377,12 @@ let
         "pkg-3.9.0" = _6fdaaX8z;
         "pkg-3.10.0" = _j7ZZ7Xha;
         "pkg-5.0.0" = _MSBersym;
-        "pkg-3.10.1" = _QkcrmF4K;
+        "pkg-3.10.1" = _jeC94yPR;
         "pkg-3.10.2" = _jEkA4yhG;
         "pkg-4.2.3" = _JSoqAwFK;
         "pkg-4.2.4" = _f7xkynP2;
-        "default" = _f7xkynP2;
+        "pkg-4.2.5" = _Yo2oNdw1;
+        "default" = _Yo2oNdw1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "obscure-tooltips";

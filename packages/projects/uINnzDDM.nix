@@ -51,6 +51,16 @@ let
             "file" = "mending-+-infinity-(by-uiinpui)-1.21-26.2.jar";
             "hash" = "sha512-psU0Fp5q4wy5fbOBIQaRNW+S3KUA4tbqnKcZDSrkmdikBEMiY/tdnnK0Ol4lBiR4dIZO+ybbBrGvXlmSjPuvfA==";
         };
+        _PFjmCs6u = {
+            "id" = "PFjmCs6u";
+            "file" = "Mending + Infinity.zip";
+            "hash" = "sha512-Xab0tzffKV67kTgqmzVAMTsrYktRFNhOF1giQSZC/AY7w6Qf3Tu1zmN+kXjjNQw3fG51nY53+AG+qra6PmZUqw==";
+        };
+        _Zr6y8ih6 = {
+            "id" = "Zr6y8ih6";
+            "file" = "mending-+-infinity-(by-uiinpui)-26.3.jar";
+            "hash" = "sha512-69ZOFFIpevwMpWupqJNaULhbpe0auEn/OsiRrkEyx9b2PD8oZwFgR39+XRzChpj09HrT2XGVhh7cXuq6z4nshQ==";
+        };
     in {
         "cifuiSVv" = _cifuiSVv;
         "VJdbwI2D" = _VJdbwI2D;
@@ -62,6 +72,8 @@ let
         "jCp9H26O" = _jCp9H26O;
         "daTejrjo" = _daTejrjo;
         "ANrl2o3r" = _ANrl2o3r;
+        "PFjmCs6u" = _PFjmCs6u;
+        "Zr6y8ih6" = _Zr6y8ih6;
         "datapack-1.21" = _daTejrjo;
         "datapack-1.21.1" = _daTejrjo;
         "datapack-1.21.2" = _daTejrjo;
@@ -78,6 +90,7 @@ let
         "datapack-26.1.1" = _daTejrjo;
         "datapack-26.1.2" = _daTejrjo;
         "datapack-26.2" = _daTejrjo;
+        "datapack-26.3" = _PFjmCs6u;
         "fabric-1.21" = _ANrl2o3r;
         "fabric-1.21.1" = _ANrl2o3r;
         "fabric-1.21.2" = _ANrl2o3r;
@@ -94,6 +107,7 @@ let
         "fabric-26.1.1" = _ANrl2o3r;
         "fabric-26.1.2" = _ANrl2o3r;
         "fabric-26.2" = _ANrl2o3r;
+        "fabric-26.3" = _Zr6y8ih6;
         "forge-1.21" = _ANrl2o3r;
         "forge-1.21.1" = _ANrl2o3r;
         "forge-1.21.2" = _ANrl2o3r;
@@ -110,6 +124,7 @@ let
         "forge-26.1.1" = _ANrl2o3r;
         "forge-26.1.2" = _ANrl2o3r;
         "forge-26.2" = _ANrl2o3r;
+        "forge-26.3" = _Zr6y8ih6;
         "neoforge-1.21" = _ANrl2o3r;
         "neoforge-1.21.1" = _ANrl2o3r;
         "neoforge-1.21.2" = _ANrl2o3r;
@@ -126,6 +141,7 @@ let
         "neoforge-26.1.1" = _ANrl2o3r;
         "neoforge-26.1.2" = _ANrl2o3r;
         "neoforge-26.2" = _ANrl2o3r;
+        "neoforge-26.3" = _Zr6y8ih6;
         "quilt-1.21" = _ANrl2o3r;
         "quilt-1.21.1" = _ANrl2o3r;
         "quilt-1.21.2" = _ANrl2o3r;
@@ -142,12 +158,14 @@ let
         "quilt-26.1.1" = _ANrl2o3r;
         "quilt-26.1.2" = _ANrl2o3r;
         "quilt-26.2" = _ANrl2o3r;
+        "quilt-26.3" = _Zr6y8ih6;
         "pkg-V1.0" = _VJdbwI2D;
         "pkg-1.21.5" = _4VNFvtUr;
         "pkg-1.21.6" = _419L8GMh;
         "pkg-1.21.10" = _jCp9H26O;
         "pkg-1.21-26.2" = _ANrl2o3r;
-        "default" = _ANrl2o3r;
+        "pkg-26.3" = _Zr6y8ih6;
+        "default" = _Zr6y8ih6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mending-+-infinity-(by-uiinpui)";

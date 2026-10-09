@@ -51,6 +51,16 @@ let
             "file" = "cobblemon-granularshinies-1.6-fabric-1.1.0.jar";
             "hash" = "sha512-9x0jX9WlNHOGmL3K0pKqkF/8CzXYkHwWeMu8xvz3MElkWsnD/NnxQsrFjTUTclZgug5oDnnHaCmSTdDSJcduAg==";
         };
+        _HSnrvSeb = {
+            "id" = "HSnrvSeb";
+            "file" = "granularshinies-neoforge-1.8.1-1.1.0.jar";
+            "hash" = "sha512-3MVGMy9S/FKsA/vvOXpNlMLK2kBmLScIbnZNOASwDE78oEod7mBsKogPQ7c1YCfaRhiOj7oHWXSLFyXB2xWLJg==";
+        };
+        _m0L4QMDc = {
+            "id" = "m0L4QMDc";
+            "file" = "granularshinies-fabric-1.8.1-1.1.0.jar";
+            "hash" = "sha512-A4a+iEOyrtIVQbUHyppJ0WRNI2VN1+mGLKXgA1LNNHnM4yp+l5eVPRGVpT/lbhEL3CC2S+XX61JWWSZS9ET8iw==";
+        };
     in {
         "ilCGcLpb" = _ilCGcLpb;
         "OEylbtUf" = _OEylbtUf;
@@ -62,9 +72,12 @@ let
         "mb3e2ilz" = _mb3e2ilz;
         "Du9u5qgC" = _Du9u5qgC;
         "SPMHeJps" = _SPMHeJps;
+        "HSnrvSeb" = _HSnrvSeb;
+        "m0L4QMDc" = _m0L4QMDc;
         "fabric-1.20.1" = _eYQODSd0;
-        "fabric-1.21.1" = _SPMHeJps;
+        "fabric-1.21.1" = _m0L4QMDc;
         "forge-1.20.1" = _uG6HYYUt;
+        "neoforge-1.21.1" = _HSnrvSeb;
         "pkg-1.5-fabric-1.0.0" = _ilCGcLpb;
         "pkg-1.5-forge-1.0.0" = _OEylbtUf;
         "pkg-1.5-forge-1.0.1" = _duElrbZo;
@@ -75,7 +88,9 @@ let
         "pkg-1.6-fabric-1.0.1" = _mb3e2ilz;
         "pkg-1.6-fabric-1.0.2" = _Du9u5qgC;
         "pkg-1.6-fabric-1.1.0" = _SPMHeJps;
-        "default" = _SPMHeJps;
+        "pkg-1.8.1-neoforge-1.1.0" = _HSnrvSeb;
+        "pkg-1.8.1-fabric-1.1.0" = _m0L4QMDc;
+        "default" = _m0L4QMDc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-granularshinies";

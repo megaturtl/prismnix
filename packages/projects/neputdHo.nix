@@ -66,6 +66,26 @@ let
             "file" = "shared_pets-neoforge-26.1-1.0.1.jar";
             "hash" = "sha512-wQEUj0ga2f+8pshfpJsm61oJ7qyGx4CtM8mnf/4pPlHcOKbgVSGxu1rn2yOj8LuxGc7lFk449aj8kGLKlCw40Q==";
         };
+        _KN2G3wWO = {
+            "id" = "KN2G3wWO";
+            "file" = "shared_pets-fabric-26.2-1.0.1.jar";
+            "hash" = "sha512-UaDEU/9ClvWbfG8RVZnBv1EOPVgl+IXYc/GaqX0HYQXw7pH5TR0Lxl+LP5Yz1BI6LLakNYhJdFCJVkA6gWTnfQ==";
+        };
+        _7mCuY3F1 = {
+            "id" = "7mCuY3F1";
+            "file" = "shared_pets-neoforge-26.2-1.0.1.jar";
+            "hash" = "sha512-iGDnD9xGnDYnsskhR0fZAsEWlnT+Qut62+ci0VOoT0kbDMZwuEn78j6Te+muUjkQA4hDgSh2PQUhk1vVl3Ujcg==";
+        };
+        _VRljTYi8 = {
+            "id" = "VRljTYi8";
+            "file" = "shared_pets-fabric-26.3-1.0.1.jar";
+            "hash" = "sha512-I+yN4f7GHeH99vSf6Hv9kayQYNecGGq9Y9SvQ4A2molT/tLJAUCThtBclYe2wJ2ITNHnddlG/QiB28X0IB8xzA==";
+        };
+        _j8bjoVTi = {
+            "id" = "j8bjoVTi";
+            "file" = "shared_pets-neoforge-26.3-1.0.1.jar";
+            "hash" = "sha512-3xJtaORRb1xowEgKL4VW5oBiPxBZo3Y6L4jqpF3zJ7vNF8HE8idKviQ7iA/WIH4koG0OW2oILTlCoJyFtwTTsw==";
+        };
     in {
         "E76OZB9J" = _E76OZB9J;
         "DO5NVSEU" = _DO5NVSEU;
@@ -80,6 +100,10 @@ let
         "trUTOi0d" = _trUTOi0d;
         "81K8lgBd" = _81K8lgBd;
         "JdKjndfJ" = _JdKjndfJ;
+        "KN2G3wWO" = _KN2G3wWO;
+        "7mCuY3F1" = _7mCuY3F1;
+        "VRljTYi8" = _VRljTYi8;
+        "j8bjoVTi" = _j8bjoVTi;
         "fabric-1.20.1" = _E76OZB9J;
         "fabric-1.20.2" = _E76OZB9J;
         "fabric-1.20.3" = _E76OZB9J;
@@ -91,6 +115,8 @@ let
         "fabric-26.1" = _81K8lgBd;
         "fabric-26.1.1" = _81K8lgBd;
         "fabric-26.1.2" = _81K8lgBd;
+        "fabric-26.2" = _KN2G3wWO;
+        "fabric-26.3" = _VRljTYi8;
         "forge-1.20.1" = _Y627SBb8;
         "forge-1.20.2" = _Y627SBb8;
         "forge-1.20.3" = _Y627SBb8;
@@ -102,9 +128,11 @@ let
         "neoforge-26.1" = _JdKjndfJ;
         "neoforge-26.1.1" = _JdKjndfJ;
         "neoforge-26.1.2" = _JdKjndfJ;
+        "neoforge-26.2" = _7mCuY3F1;
+        "neoforge-26.3" = _j8bjoVTi;
         "pkg-1.0.0" = _R6e5VBI9;
-        "pkg-1.0.1" = _JdKjndfJ;
-        "default" = _JdKjndfJ;
+        "pkg-1.0.1" = _j8bjoVTi;
+        "default" = _j8bjoVTi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shared-pets";

@@ -126,6 +126,11 @@ let
             "file" = "SlabMachines-26.1.2-11.0.0.jar";
             "hash" = "sha512-n4XOCOCjdJA6g/x2jecFYilt0tLXQbBVBsCmOLSdOa5ItLnPAYoiy5/IBTXeBeNUT4EOjj/6UOad1NM0jARyZw==";
         };
+        _X8eBSkbl = {
+            "id" = "X8eBSkbl";
+            "file" = "SlabMachines-26.2-12.0.0.jar";
+            "hash" = "sha512-Zt8TRCjiKFkKe6joq613oj+uqicvUKoVsWGXfLxtNE44qnw1saghubrlmYh0Qf07W0LO0h4ERMrDmydsC7fAqg==";
+        };
     in {
         "BiiBF7jb" = _BiiBF7jb;
         "kC8Om3zy" = _kC8Om3zy;
@@ -152,6 +157,7 @@ let
         "6c9flg6f" = _6c9flg6f;
         "pzUDeEiw" = _pzUDeEiw;
         "VkimwESY" = _VkimwESY;
+        "X8eBSkbl" = _X8eBSkbl;
         "forge-1.18.2" = _BiiBF7jb;
         "forge-1.17.1" = _kC8Om3zy;
         "forge-1.16.5" = _m15ezMji;
@@ -169,6 +175,7 @@ let
         "neoforge-1.21.8" = _XqwtamuR;
         "neoforge-1.21.11" = _pzUDeEiw;
         "neoforge-26.1.2" = _VkimwESY;
+        "neoforge-26.2" = _X8eBSkbl;
         "pkg-1.1.2.0" = _BiiBF7jb;
         "pkg-1.1.1.0" = _kC8Om3zy;
         "pkg-1.1.0.0" = _m15ezMji;
@@ -194,7 +201,8 @@ let
         "pkg-8.0.1" = _6c9flg6f;
         "pkg-10.0.0" = _pzUDeEiw;
         "pkg-11.0.0" = _VkimwESY;
-        "default" = _VkimwESY;
+        "pkg-12.0.0" = _X8eBSkbl;
+        "default" = _X8eBSkbl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "slab-machines";

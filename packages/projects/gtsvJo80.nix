@@ -161,6 +161,21 @@ let
             "file" = "villagerconverting-fabric-2.0.2+26.2.jar";
             "hash" = "sha512-vnx7qvZh7CN/GgGO40OuEo14mWXaE2MBGUD8g0tLSLDc7dezrgbdlKv6/7yX9hj3wjffNx1kzRVzsw4DvlXe2g==";
         };
+        _yekQEjn4 = {
+            "id" = "yekQEjn4";
+            "file" = "villagerconverting-neoforge-2.0.2+26.3.jar";
+            "hash" = "sha512-2FgasLA/9g//bofNJDwS++yrZvgLWUnmOC9zztziXe/H3KeSrzoDxbqlCDI73bPQ1FL1VYts+zHmoqcLjzrvGA==";
+        };
+        _CNWh8vEW = {
+            "id" = "CNWh8vEW";
+            "file" = "villagerconverting-fabric-2.0.2+26.3.jar";
+            "hash" = "sha512-YageTA7PiP4JFgk5tvW0lEaWerrBI14go2gj6YvlbMMacF+vsDzIa1L1/o4vvRcsGc3bdVm18vs5+XAol1tnLg==";
+        };
+        _3RAOFAVk = {
+            "id" = "3RAOFAVk";
+            "file" = "villagerconverting-forge-2.0.2+26.3.jar";
+            "hash" = "sha512-N2dfGj9FOvY6P9WhoRpmEJTOQwI8SB/JoCFkGAsWmN6SCi/Qt76WIzKMeKTh5rDneAztRUDp0aRjdMUGm70MbQ==";
+        };
     in {
         "WmDkkP7H" = _WmDkkP7H;
         "WWY26vIj" = _WWY26vIj;
@@ -194,6 +209,9 @@ let
         "ERvtl72v" = _ERvtl72v;
         "AqHsLyWD" = _AqHsLyWD;
         "KbO3EkkA" = _KbO3EkkA;
+        "yekQEjn4" = _yekQEjn4;
+        "CNWh8vEW" = _CNWh8vEW;
+        "3RAOFAVk" = _3RAOFAVk;
         "fabric-1.17.1" = _WmDkkP7H;
         "fabric-1.18.2" = _zpqwAlOm;
         "fabric-1.19" = _KmwGgj9k;
@@ -222,6 +240,7 @@ let
         "fabric-26.1.1" = _dLS8gdsx;
         "fabric-26.1.2" = _dLS8gdsx;
         "fabric-26.2" = _KbO3EkkA;
+        "fabric-26.3" = _CNWh8vEW;
         "quilt-1.19.3" = _iFEL5yMK;
         "quilt-1.19.4" = _VBpwkPlG;
         "quilt-1.20" = _g48cC5cw;
@@ -247,14 +266,17 @@ let
         "quilt-26.1.1" = _dLS8gdsx;
         "quilt-26.1.2" = _dLS8gdsx;
         "quilt-26.2" = _KbO3EkkA;
+        "quilt-26.3" = _CNWh8vEW;
         "forge-26.1" = _u5GV8CnR;
         "forge-26.1.1" = _u5GV8CnR;
         "forge-26.1.2" = _u5GV8CnR;
         "forge-26.2" = _ERvtl72v;
+        "forge-26.3" = _3RAOFAVk;
         "neoforge-26.1" = _3utZimkL;
         "neoforge-26.1.1" = _3utZimkL;
         "neoforge-26.1.2" = _3utZimkL;
         "neoforge-26.2" = _AqHsLyWD;
+        "neoforge-26.3" = _yekQEjn4;
         "pkg-0.1.0+1.17.1" = _WmDkkP7H;
         "pkg-1.0.0" = _WWY26vIj;
         "pkg-1.0.1+1.19" = _H0xcHPF2;
@@ -287,7 +309,10 @@ let
         "pkg-2.0.2+26.2-forge" = _ERvtl72v;
         "pkg-2.0.2+26.2-neoforge" = _AqHsLyWD;
         "pkg-2.0.2+26.2-fabric" = _KbO3EkkA;
-        "default" = _KbO3EkkA;
+        "pkg-2.0.2+26.3-neoforge" = _yekQEjn4;
+        "pkg-2.0.2+26.3-fabric" = _CNWh8vEW;
+        "pkg-2.0.2+26.3-forge" = _3RAOFAVk;
+        "default" = _3RAOFAVk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villager-converting";

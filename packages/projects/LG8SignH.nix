@@ -61,6 +61,21 @@ let
             "file" = "RecipesLibrary-1.21.1-4.0.1.jar";
             "hash" = "sha512-/j7z9labj6PObJn1pcmBEQdTZfC840sePzS3pG4V/njubm+s6lurvdHHQPbEime5VVFw+wzIPyRpSatZ1E7SFA==";
         };
+        _s1d59AFI = {
+            "id" = "s1d59AFI";
+            "file" = "RecipesLibrary-1.21.2-4.0.1.jar";
+            "hash" = "sha512-Y1ZdgZbSqWSUw26o/hratqPS3U1jCof9PwGaLGuPNvNimmPLmwsN1Gy0M8blDxfvKtUI/DM5nJA4uSwxuhPdMw==";
+        };
+        _iWnZpI8p = {
+            "id" = "iWnZpI8p";
+            "file" = "RecipesLibrary-1.21.11-4.0.1.jar";
+            "hash" = "sha512-ZGaVzB2WSeJmKA9lOO+FRGfYfXiSzNtfm+e2yHdDAT8jlUN70/AVCkrtDKNY1SBCqm1gqh+CyY31QelcokmkGg==";
+        };
+        _wG8dN86S = {
+            "id" = "wG8dN86S";
+            "file" = "RecipesLibrary-26.1-4.0.1.jar";
+            "hash" = "sha512-17vHF6lXnGt3Apz7jNqDpOmLudN0gmv8ew+sFvEXccGwiqWP//KN51+7JWzBJm/bTE5bLTKzwKYJZU1/azFipw==";
+        };
     in {
         "p7OHHqlb" = _p7OHHqlb;
         "dFVXnEQl" = _dFVXnEQl;
@@ -74,6 +89,9 @@ let
         "jPohxOI9" = _jPohxOI9;
         "O2vYaKbv" = _O2vYaKbv;
         "9t0yo6Ut" = _9t0yo6Ut;
+        "s1d59AFI" = _s1d59AFI;
+        "iWnZpI8p" = _iWnZpI8p;
+        "wG8dN86S" = _wG8dN86S;
         "forge-1.17.1" = _p7OHHqlb;
         "forge-1.18.2" = _dFVXnEQl;
         "forge-1.19.4" = _rErYEe0C;
@@ -85,6 +103,21 @@ let
         "forge-1.21" = _8nrjAG56;
         "forge-1.21.1" = _jPohxOI9;
         "neoforge-1.21.1" = _9t0yo6Ut;
+        "neoforge-1.21.2" = _s1d59AFI;
+        "neoforge-1.21.3" = _s1d59AFI;
+        "neoforge-1.21.4" = _s1d59AFI;
+        "neoforge-1.21.5" = _s1d59AFI;
+        "neoforge-1.21.6" = _s1d59AFI;
+        "neoforge-1.21.7" = _s1d59AFI;
+        "neoforge-1.21.8" = _s1d59AFI;
+        "neoforge-1.21.9" = _s1d59AFI;
+        "neoforge-1.21.10" = _s1d59AFI;
+        "neoforge-1.21.11" = _iWnZpI8p;
+        "neoforge-26.1" = _wG8dN86S;
+        "neoforge-26.1.1" = _wG8dN86S;
+        "neoforge-26.1.2" = _wG8dN86S;
+        "neoforge-26.2" = _wG8dN86S;
+        "neoforge-26.3" = _wG8dN86S;
         "pkg-1.17.1-2.0.0" = _p7OHHqlb;
         "pkg-1.18.2-2.0.0" = _dFVXnEQl;
         "pkg-1.19.4-2.0.1" = _rErYEe0C;
@@ -97,7 +130,10 @@ let
         "pkg-1.21.1-3.0.0" = _jPohxOI9;
         "pkg-1.21.1-4.0.0" = _O2vYaKbv;
         "pkg-1.21.1-4.0.1" = _9t0yo6Ut;
-        "default" = _9t0yo6Ut;
+        "pkg-1.21.2-4.0.1" = _s1d59AFI;
+        "pkg-1.21.11-4.0.1" = _iWnZpI8p;
+        "pkg-26.1-4.0.1" = _wG8dN86S;
+        "default" = _wG8dN86S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "recipes-library";

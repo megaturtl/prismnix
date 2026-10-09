@@ -46,6 +46,16 @@ let
             "file" = "fantasyfurniture_decorations-26.2.4.jar";
             "hash" = "sha512-KyLzysPTbSei5jxV7LtKtimOusopAhpvvZ/DXHzJWC7QibHTJ71SZGOLidFUVia2ZODLM8T1uuR5p6qWS4rlYw==";
         };
+        _5MnILhvQ = {
+            "id" = "5MnILhvQ";
+            "file" = "fantasyfurniture_decorations-26.3.0.jar";
+            "hash" = "sha512-y+C/oHBxu3AYKdF5xKeIxzkmTihNPtzb1K+VJ5SrFk95Ze+iz0UYZXfARUyIzMiO+Zp0heQxfccFdYusDTZJlw==";
+        };
+        _aUoZFQU7 = {
+            "id" = "aUoZFQU7";
+            "file" = "fantasyfurniture_decorations-26.3.1.jar";
+            "hash" = "sha512-4jN0n7eZa6ODDCKp63eKtNJH42V5OXw4MsAtb2/AzN2CRIViInUoohs1srTfYRMq0pWSKBcrmyx34XtAeVqwJQ==";
+        };
     in {
         "1lllxw1k" = _1lllxw1k;
         "S9MB1USa" = _S9MB1USa;
@@ -56,12 +66,15 @@ let
         "h9OcpJnX" = _h9OcpJnX;
         "poDk31m3" = _poDk31m3;
         "9OIddZ0s" = _9OIddZ0s;
+        "5MnILhvQ" = _5MnILhvQ;
+        "aUoZFQU7" = _aUoZFQU7;
         "neoforge-1.21.10" = _9ZcDZt8r;
         "neoforge-1.21.11" = _pAnLkQSG;
         "neoforge-26.1" = _h9OcpJnX;
         "neoforge-26.1.1" = _h9OcpJnX;
         "neoforge-26.1.2" = _h9OcpJnX;
         "neoforge-26.2" = _9OIddZ0s;
+        "neoforge-26.3" = _aUoZFQU7;
         "pkg-21.10.5" = _1lllxw1k;
         "pkg-21.11.1" = _S9MB1USa;
         "pkg-21.10.6" = _9ZcDZt8r;
@@ -71,7 +84,9 @@ let
         "pkg-26.1.7" = _h9OcpJnX;
         "pkg-26.2.0" = _poDk31m3;
         "pkg-26.2.4" = _9OIddZ0s;
-        "default" = _9OIddZ0s;
+        "pkg-26.3.0" = _5MnILhvQ;
+        "pkg-26.3.1" = _aUoZFQU7;
+        "default" = _aUoZFQU7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fantasys-furniture-decorations";

@@ -166,6 +166,11 @@ let
             "file" = "tpa-neoforge-1.21-2.0.0.jar";
             "hash" = "sha512-esG6uBPjZJQzeD53e6gm5U3CBDrR03ulS0m0xNEl9bSmbNxHOa1UCoYdZ6DU5Cu2F5apEK603ZTAu7LKURO2Xg==";
         };
+        _boGEAVFP = {
+            "id" = "boGEAVFP";
+            "file" = "TPA-forge-1.20.1-2.1.1.jar";
+            "hash" = "sha512-HjgSFiMXonNfMWG8ab6VTPRpyZl0CWPr+ocTKmOMS6WqcSTLectwA09KxOo4GP12EocR51rbS5LMELswR26jZQ==";
+        };
     in {
         "HlPlDCns" = _HlPlDCns;
         "U1mJmXX5" = _U1mJmXX5;
@@ -200,9 +205,12 @@ let
         "6ConzhPF" = _6ConzhPF;
         "WdtTRb6m" = _WdtTRb6m;
         "Pb8gd31t" = _Pb8gd31t;
-        "forge-1.20.1" = _QmrlyFVY;
+        "boGEAVFP" = _boGEAVFP;
+        "forge-1.20.1" = _boGEAVFP;
         "forge-1.19.2" = _C4oW0Hrz;
         "forge-1.20.4" = _bwdEkIt2;
+        "forge-1.20.2" = _boGEAVFP;
+        "forge-1.20.3" = _boGEAVFP;
         "neoforge-1.20.4" = _bwdEkIt2;
         "neoforge-1.21.1" = _Pb8gd31t;
         "neoforge-1.21.2" = _Pb8gd31t;
@@ -233,7 +241,8 @@ let
         "pkg-1.7.4" = _hCgD8hdF;
         "pkg-1.7.5" = _WdtTRb6m;
         "pkg-2.0.0" = _Pb8gd31t;
-        "default" = _Pb8gd31t;
+        "pkg-2.1.1" = _boGEAVFP;
+        "default" = _boGEAVFP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easy-tpa";

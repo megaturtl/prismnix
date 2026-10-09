@@ -91,6 +91,11 @@ let
             "file" = "carpetskyadditions-26.2-6.6.1.jar";
             "hash" = "sha512-lx8Qgz/21KWX0ih6WWhyGmCPsrsL3FzEAwg8skw98EOWd82yO90yZ+ME1UYoumqfgAQIC5b+B0/aokhKXXUFtg==";
         };
+        _JKjvlqD2 = {
+            "id" = "JKjvlqD2";
+            "file" = "carpetskyadditions-26.3-6.7.0.jar";
+            "hash" = "sha512-Tk7KrHON5cKUvHPtibE5UcdOeA2ATj8QYAYRniRBgRsoVbNDwWlPtfHG6nLO0/8POLKHi03QY8M/i9StY8Igcg==";
+        };
     in {
         "cKHWe2P0" = _cKHWe2P0;
         "AIY3pDt9" = _AIY3pDt9;
@@ -110,6 +115,7 @@ let
         "JkA2Dho3" = _JkA2Dho3;
         "NZVMIXfE" = _NZVMIXfE;
         "n1R56Log" = _n1R56Log;
+        "JKjvlqD2" = _JKjvlqD2;
         "fabric-1.21.1" = _cKHWe2P0;
         "fabric-1.21.4" = _OqdH7QVf;
         "fabric-1.21.5" = _Fh3N5sha;
@@ -121,6 +127,7 @@ let
         "fabric-26.1.1" = _NZVMIXfE;
         "fabric-26.1.2" = _NZVMIXfE;
         "fabric-26.2" = _n1R56Log;
+        "fabric-26.3" = _JKjvlqD2;
         "pkg-1.21.1-5.0.0" = _cKHWe2P0;
         "pkg-1.21.4-5.2.0" = _AIY3pDt9;
         "pkg-1.21.4-6.0.0" = _WgnE7k4m;
@@ -139,7 +146,8 @@ let
         "pkg-1.21.11-6.6.0" = _JkA2Dho3;
         "pkg-26.1.1-6.6.0" = _NZVMIXfE;
         "pkg-26.2-6.6.1" = _n1R56Log;
-        "default" = _n1R56Log;
+        "pkg-26.3-6.7.0" = _JKjvlqD2;
+        "default" = _JKjvlqD2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "carpetskyadditionsreborn";

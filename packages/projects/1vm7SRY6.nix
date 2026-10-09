@@ -16,10 +16,16 @@ let
             "file" = "Better-Boss-Bars.zip";
             "hash" = "sha512-M40snlWlhynJQyuQKs+bgCnnTUHdjXrFOZchmCU8xGyemU91udAXAQht3s0YXLFvdobuJ68vqCqLSPnKtlQPFA==";
         };
+        _PvOKgnlR = {
+            "id" = "PvOKgnlR";
+            "file" = "better-boss-bars-26.3.zip";
+            "hash" = "sha512-8u/RCtdJvlb3FMJFkORwjG7E/8QNDOCx9Q6wf5zMTkA/HNEn2kO5pqzPJkdO9xqs17nJ8yi071u0gPGv7H3Apw==";
+        };
     in {
         "cfcHOTpX" = _cfcHOTpX;
         "ZypFGiQx" = _ZypFGiQx;
         "UOR4kygZ" = _UOR4kygZ;
+        "PvOKgnlR" = _PvOKgnlR;
         "minecraft-1.20" = _ZypFGiQx;
         "minecraft-1.20.1" = _ZypFGiQx;
         "minecraft-1.20.2" = _ZypFGiQx;
@@ -53,10 +59,12 @@ let
         "minecraft-26.1.1" = _UOR4kygZ;
         "minecraft-26.1.2" = _UOR4kygZ;
         "minecraft-26.2" = _UOR4kygZ;
+        "minecraft-26.3" = _PvOKgnlR;
         "pkg-1.20.4" = _cfcHOTpX;
         "pkg-1.21.10" = _ZypFGiQx;
         "pkg-26.2" = _UOR4kygZ;
-        "default" = _UOR4kygZ;
+        "pkg-26.3" = _PvOKgnlR;
+        "default" = _PvOKgnlR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-boss-bars";

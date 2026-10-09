@@ -156,6 +156,11 @@ let
             "file" = "ApolloClient-v1.3.1.b19-2026-09-02.jar";
             "hash" = "sha512-ONBnaYJZjUPOGtg8QUdKwfjeLavRDtDJnz2VvZqHk5T9MYdcAd1GKAOs6mdfFyWFmRlF4q9aZDS2ieP9zs9OGQ==";
         };
+        _loEhLpTL = {
+            "id" = "loEhLpTL";
+            "file" = "ApolloClient-v1.3.1.b20-2026-09-29.jar";
+            "hash" = "sha512-nVIv+34k2EPACBoGJz5JAc869uGzdZiYwMPZ9kKm5O0afOP72eDCnUvfs2+rE6M7G2jroXPnx4UpAWfaMeLeiA==";
+        };
     in {
         "Cd2ejTv3" = _Cd2ejTv3;
         "ER9K54qq" = _ER9K54qq;
@@ -188,7 +193,8 @@ let
         "pphZUGt0" = _pphZUGt0;
         "fPUY6T0Z" = _fPUY6T0Z;
         "8ueao5Sj" = _8ueao5Sj;
-        "forge-1.7.10" = _8ueao5Sj;
+        "loEhLpTL" = _loEhLpTL;
+        "forge-1.7.10" = _loEhLpTL;
         "pkg-1.2.6b" = _H6hhSjqx;
         "pkg-1.2.7.b50" = _zKctGPxF;
         "pkg-1.2.7.b51" = _6hxbL5Or;
@@ -210,7 +216,8 @@ let
         "pkg-1.3.1" = _vtoZlMdn;
         "pkg-1.3.1.b18" = _fPUY6T0Z;
         "pkg-1.3.1.b19" = _8ueao5Sj;
-        "default" = _8ueao5Sj;
+        "pkg-1.3.1.b20" = _loEhLpTL;
+        "default" = _loEhLpTL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "db-apollo-client";

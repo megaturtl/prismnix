@@ -21,21 +21,29 @@ let
             "file" = "terracart-2.0.jar";
             "hash" = "sha512-Ox6Xs8pmjCjKlyrZgvO8by78LSD0XKs4hqJCTZlJr6LZ52LplY/RZV5iy4riyHeMC0SBNr7pM3nrAVnngfMFyg==";
         };
+        _tzpPg6RG = {
+            "id" = "tzpPg6RG";
+            "file" = "terracart-2.0+26.3.jar";
+            "hash" = "sha512-0yLKUUv8Jw7p3Vq/ivQqwtq80YPSEWqIuH0DhBrw131MSo5G5hFUBxH9PgpsUNIxy4Vr2MhGo4Ho/5bIG4U0ww==";
+        };
     in {
         "mZ7j76Zq" = _mZ7j76Zq;
         "vwwLYjRO" = _vwwLYjRO;
         "pokmXorP" = _pokmXorP;
         "vse7Wglq" = _vse7Wglq;
+        "tzpPg6RG" = _tzpPg6RG;
         "fabric-1.21.11" = _mZ7j76Zq;
         "fabric-26.1" = _vwwLYjRO;
         "fabric-26.1.1" = _vwwLYjRO;
         "fabric-26.1.2" = _vwwLYjRO;
         "fabric-26.2" = _vse7Wglq;
+        "fabric-26.3" = _tzpPg6RG;
         "pkg-1.0" = _mZ7j76Zq;
         "pkg-1.1" = _vwwLYjRO;
         "pkg-1.1+26.2" = _pokmXorP;
         "pkg-2.0" = _vse7Wglq;
-        "default" = _vse7Wglq;
+        "pkg-2.0+26.3" = _tzpPg6RG;
+        "default" = _tzpPg6RG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "terraincart";

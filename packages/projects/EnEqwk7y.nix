@@ -41,6 +41,11 @@ let
             "file" = "windtunnel-1.1.8.jar";
             "hash" = "sha512-4jmiMYzfngTSQ4NPo4mLsSMAGqZ15pSQhuUW59FFFKZx/HjJVHLb5nwJ5olUlcpRBhgxrG46nF3N5zZ998ng6A==";
         };
+        _CuoDoYZt = {
+            "id" = "CuoDoYZt";
+            "file" = "windtunnel-1.2.1.jar";
+            "hash" = "sha512-7vcU5xgC7gsQLcjOCEmkDm/ZTUSufChNByGBWjIPF5G7xIXoMeb8jG+lcPXGO7FrVPFZc37HhYbVOq+HSC6C2A==";
+        };
     in {
         "ZHaBeygL" = _ZHaBeygL;
         "EMLs3dL1" = _EMLs3dL1;
@@ -50,7 +55,8 @@ let
         "WtxzwxpA" = _WtxzwxpA;
         "rnqhVr2K" = _rnqhVr2K;
         "IdHA8JDW" = _IdHA8JDW;
-        "neoforge-1.21.1" = _IdHA8JDW;
+        "CuoDoYZt" = _CuoDoYZt;
+        "neoforge-1.21.1" = _CuoDoYZt;
         "pkg-1.0.0" = _ZHaBeygL;
         "pkg-1.0.3" = _EMLs3dL1;
         "pkg-1.0.4" = _FQm4Jpmy;
@@ -59,7 +65,8 @@ let
         "pkg-1.1.6" = _WtxzwxpA;
         "pkg-1.1.7" = _rnqhVr2K;
         "pkg-1.1.8" = _IdHA8JDW;
-        "default" = _IdHA8JDW;
+        "pkg-1.2.1" = _CuoDoYZt;
+        "default" = _CuoDoYZt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aeronauticswind-tunnel";

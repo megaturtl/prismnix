@@ -326,6 +326,11 @@ let
             "file" = "seelescraft-1.3.4-neoforge-26.2.jar";
             "hash" = "sha512-JaPPe4zdLsqPMGRuld3NvRIOkdIx2VVkrqLuvJxlckXKD2okv4nVW3xV2sVkK3e/kyHn3VJIos5D2gLrYkDltw==";
         };
+        _z6j2RnIG = {
+            "id" = "z6j2RnIG";
+            "file" = "seelescraft-1.3.4-neoforge-26.3.jar";
+            "hash" = "sha512-VR66GSW6EUZHsOBPD9cjbwiEbffFGT8RVLMEDgXzm1M9LoRDnN5+oLilfq4r4bo8hp08zWUe1WNonADRjgk/IA==";
+        };
     in {
         "RfrywNCP" = _RfrywNCP;
         "Ntird7Mz" = _Ntird7Mz;
@@ -392,6 +397,7 @@ let
         "sMwyq4mF" = _sMwyq4mF;
         "bRCvLVdR" = _bRCvLVdR;
         "3IGdH7FM" = _3IGdH7FM;
+        "z6j2RnIG" = _z6j2RnIG;
         "neoforge-1.21.1" = _TwYtlAIQ;
         "neoforge-1.21.4" = _EXGxdien;
         "neoforge-1.21.11" = _sMwyq4mF;
@@ -399,6 +405,7 @@ let
         "neoforge-26.1.1" = _Ev4KtqPb;
         "neoforge-26.1.2" = _bRCvLVdR;
         "neoforge-26.2" = _3IGdH7FM;
+        "neoforge-26.3" = _z6j2RnIG;
         "forge-1.20.1" = _7DUICWY2;
         "pkg-1.0.0" = _RfrywNCP;
         "pkg-1.0.1" = _Ntird7Mz;
@@ -420,8 +427,8 @@ let
         "pkg-1.3.1" = _1X5yKlii;
         "pkg-1.3.2" = _GOF0DnxR;
         "pkg-1.3.3" = _BRpUJvNy;
-        "pkg-1.3.4" = _3IGdH7FM;
-        "default" = _3IGdH7FM;
+        "pkg-1.3.4" = _z6j2RnIG;
+        "default" = _z6j2RnIG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "seelescraft";

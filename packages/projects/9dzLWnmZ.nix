@@ -646,6 +646,11 @@ let
             "file" = "camerapture-1.10.15+mc26.2.jar";
             "hash" = "sha512-SpfxnXCCwPldV3WI3lIVJ/rNGfintt51ibSU0k8ihlXuiRx2LLAV6xMxTjtrdpFrUTs6Jn+xCSazZrX8m2cFYg==";
         };
+        _zo2icmIo = {
+            "id" = "zo2icmIo";
+            "file" = "camerapture-1.10.15+mc26.3.jar";
+            "hash" = "sha512-Mh91VHt8loS3amd9CR+W9Dh9Nb58QVVZFvblm+vQXTgm8qW64ygJDIPHgTDEXDrV6znJDly0o/YaLpvBPOOvjw==";
+        };
     in {
         "xBUtDn0I" = _xBUtDn0I;
         "KQc1AM3C" = _KQc1AM3C;
@@ -776,6 +781,7 @@ let
         "ctCRkXmr" = _ctCRkXmr;
         "SAKnlF3D" = _SAKnlF3D;
         "nbBC1XkL" = _nbBC1XkL;
+        "zo2icmIo" = _zo2icmIo;
         "fabric-1.20.1" = _1vM6GzIZ;
         "fabric-1.20.3" = _MmcGhRdJ;
         "fabric-1.20.4" = _MmcGhRdJ;
@@ -794,6 +800,7 @@ let
         "fabric-26.1.1" = _ctCRkXmr;
         "fabric-26.1.2" = _ctCRkXmr;
         "fabric-26.2" = _nbBC1XkL;
+        "fabric-26.3" = _zo2icmIo;
         "quilt-1.20.1" = _1vM6GzIZ;
         "quilt-1.20.3" = _MmcGhRdJ;
         "quilt-1.20.4" = _MmcGhRdJ;
@@ -812,6 +819,7 @@ let
         "quilt-26.1.1" = _ctCRkXmr;
         "quilt-26.1.2" = _ctCRkXmr;
         "quilt-26.2" = _nbBC1XkL;
+        "quilt-26.3" = _zo2icmIo;
         "neoforge-1.21.4" = _25FByh7a;
         "neoforge-1.21" = _bCB7PwmA;
         "neoforge-1.21.1" = _bCB7PwmA;
@@ -828,6 +836,7 @@ let
         "neoforge-26.1.1" = _ctCRkXmr;
         "neoforge-26.1.2" = _ctCRkXmr;
         "neoforge-26.2" = _nbBC1XkL;
+        "neoforge-26.3" = _zo2icmIo;
         "forge-1.20" = _VNpCbFx3;
         "forge-1.20.1" = _VNpCbFx3;
         "pkg-1.0.0-beta" = _xBUtDn0I;
@@ -959,7 +968,8 @@ let
         "pkg-1.10.14+mc26.1.2" = _ctCRkXmr;
         "pkg-1.10.14+mc26.2" = _SAKnlF3D;
         "pkg-1.10.15+mc26.2" = _nbBC1XkL;
-        "default" = _nbBC1XkL;
+        "pkg-1.10.15+mc26.3" = _zo2icmIo;
+        "default" = _zo2icmIo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "camerapture";

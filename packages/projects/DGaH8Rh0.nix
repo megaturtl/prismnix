@@ -26,21 +26,35 @@ let
             "file" = "ApothicAttributes-1.21.1-2.10.1.jar";
             "hash" = "sha512-7Posa57KN5OXeinVeWGg9VLPwZle5dfG5tzKiI1MQnxNlAxITr0TxtLbfHNB1NoNIS5ol+wfJvDlwJPOUI1IWA==";
         };
+        _64fZbLnj = {
+            "id" = "64fZbLnj";
+            "file" = "ApothicAttributes-1.21.1-2.11.0.jar";
+            "hash" = "sha512-VoWA5oAWFhFR/AJU+w2pSbQs8oX6K/fDrsHNMgQFxDBIPp65kKrd71N7+sSqS+sh24L7/5JJEx4FsVBjtoOWEQ==";
+        };
+        _lLLTcZXk = {
+            "id" = "lLLTcZXk";
+            "file" = "ApothicAttributes-26.1.2-3.1.0.jar";
+            "hash" = "sha512-ex0+YYr/CSqkgnLYo86pc8xa2jJ8ynCLc6+Ca17475RegD5y+IWHBAWeOwAkF4apUt4BfEJ5wjgTYA/PsaIStw==";
+        };
     in {
         "t52jITY6" = _t52jITY6;
         "Z0nG7STl" = _Z0nG7STl;
         "fwL9CWGd" = _fwL9CWGd;
         "7r6iuon2" = _7r6iuon2;
         "Xtaunf84" = _Xtaunf84;
-        "neoforge-26.1.2" = _t52jITY6;
-        "neoforge-1.21.1" = _Xtaunf84;
+        "64fZbLnj" = _64fZbLnj;
+        "lLLTcZXk" = _lLLTcZXk;
+        "neoforge-26.1.2" = _lLLTcZXk;
+        "neoforge-1.21.1" = _64fZbLnj;
         "forge-1.20.1" = _fwL9CWGd;
         "pkg-26.1.2-3.0.1" = _t52jITY6;
         "pkg-1.21.1-2.9.1" = _Z0nG7STl;
         "pkg-1.3.7" = _fwL9CWGd;
         "pkg-1.21.1-2.10.0" = _7r6iuon2;
         "pkg-1.21.1-2.10.1" = _Xtaunf84;
-        "default" = _Xtaunf84;
+        "pkg-1.21.1-2.11.0" = _64fZbLnj;
+        "pkg-26.1.2-3.1.0" = _lLLTcZXk;
+        "default" = _lLLTcZXk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "apothic-attributes";

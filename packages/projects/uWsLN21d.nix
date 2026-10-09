@@ -986,6 +986,16 @@ let
             "file" = "better_client-10.6.0.jar";
             "hash" = "sha512-TFRPiPu4z499jkci2kzuaq0G3/t2u/LEls7PU+hrQWRQYZSph50MFq927VGJ4DF1M6XMBYzzYxJupgSfDKnLBA==";
         };
+        _qAnB33yq = {
+            "id" = "qAnB33yq";
+            "file" = "better_client-10.7.0.jar";
+            "hash" = "sha512-lGLqYH4NIq3pGFcENUgJEykCboULMsljD58312ixlWQXKc1SX61wNuDB/y+b3HBBXiVbZ8da61ARoeVTOvOREQ==";
+        };
+        _XTn2zlAA = {
+            "id" = "XTn2zlAA";
+            "file" = "better_client-10.7.0.jar";
+            "hash" = "sha512-enqN7+GjL3L+KOmOnLx7TtkVyNdF1epRAuW9t2UBEO4dQcdxCOFZzbqDzBuXvzu2/WrQYcavn7i5UNqsLLYqCA==";
+        };
     in {
         "Yxegxk7B" = _Yxegxk7B;
         "ocRgVzO9" = _ocRgVzO9;
@@ -1184,6 +1194,8 @@ let
         "KcAy1wNp" = _KcAy1wNp;
         "SEvCKJ2i" = _SEvCKJ2i;
         "xnMPbpm6" = _xnMPbpm6;
+        "qAnB33yq" = _qAnB33yq;
+        "XTn2zlAA" = _XTn2zlAA;
         "neoforge-1.21.1" = _j3igEgCO;
         "neoforge-1.21.5" = _3jEaf9Qp;
         "neoforge-1.21.6" = _WUd9qlUD;
@@ -1196,6 +1208,7 @@ let
         "neoforge-26.1.1" = _6r5vpbXI;
         "neoforge-26.1.2" = _6r5vpbXI;
         "neoforge-26.2" = _xnMPbpm6;
+        "neoforge-26.3" = _XTn2zlAA;
         "fabric-1.21.1" = _DnYf9RqP;
         "fabric-1.21.5" = _aaKTz4ax;
         "fabric-1.21.6" = _aVc3lyUu;
@@ -1208,6 +1221,7 @@ let
         "fabric-26.1.1" = _gYsXrzSO;
         "fabric-26.1.2" = _gYsXrzSO;
         "fabric-26.2" = _SEvCKJ2i;
+        "fabric-26.3" = _qAnB33yq;
         "pkg-1.0.0+neoforge" = _Yxegxk7B;
         "pkg-1.0.0+fabric" = _ocRgVzO9;
         "pkg-1.0.1+neoforge" = _MKKNEind;
@@ -1403,7 +1417,9 @@ let
         "pkg-10.5.0+neoforge" = _KcAy1wNp;
         "pkg-10.6.0+fabric" = _SEvCKJ2i;
         "pkg-10.6.0+neoforge" = _xnMPbpm6;
-        "default" = _xnMPbpm6;
+        "pkg-10.7.0+fabric" = _qAnB33yq;
+        "pkg-10.7.0+neoforge" = _XTn2zlAA;
+        "default" = _XTn2zlAA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-client-enc";

@@ -21,22 +21,30 @@ let
             "file" = "pebblesandtwigs-2.1.jar";
             "hash" = "sha512-UVqInT3PQqg6tgRlT50KgpYuGGFQ4gtoAFBNQVkOh8HJAbmgkXS/kkcTpwhvDkiBivr9fe7DO9mvw7CtBhFcHw==";
         };
+        _M8cWsZzQ = {
+            "id" = "M8cWsZzQ";
+            "file" = "pebblesandtwigs-2.2.jar";
+            "hash" = "sha512-SzR5ejwbRgbRA5djrFzaHr8LTLW4oPBcILIB0/gAjIyiJhT9UZsmryQgXCTJz/3PPdkSfi4kNw1wLhax9XEApg==";
+        };
     in {
         "Odlc5AgE" = _Odlc5AgE;
         "Pwxc4lX7" = _Pwxc4lX7;
         "bbdp4ddr" = _bbdp4ddr;
         "y8xBXHDg" = _y8xBXHDg;
+        "M8cWsZzQ" = _M8cWsZzQ;
         "fabric-1.21.10" = _Odlc5AgE;
         "fabric-1.21.11" = _Pwxc4lX7;
         "fabric-26.1" = _bbdp4ddr;
         "fabric-26.1.1" = _bbdp4ddr;
         "fabric-26.1.2" = _bbdp4ddr;
         "fabric-26.2" = _y8xBXHDg;
+        "fabric-26.3" = _M8cWsZzQ;
         "pkg-1.0" = _Odlc5AgE;
         "pkg-2.0" = _Pwxc4lX7;
         "pkg-2.1" = _bbdp4ddr;
         "pkg-2.1+26.2" = _y8xBXHDg;
-        "default" = _y8xBXHDg;
+        "pkg-2.2" = _M8cWsZzQ;
+        "default" = _M8cWsZzQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pebblesandtwigs";

@@ -91,6 +91,31 @@ let
             "file" = "chorusfruitdropsnearby-26.2.0-1.2.jar";
             "hash" = "sha512-v/wzjIJSwnXniRrNFRGbPfeHHyrI6xlGFHshzxbcHmFGIReC7GgGcw7CL4uSBEBZiUWaDoMY5NFTaXD0O7SGig==";
         };
+        _uxTz9Txu = {
+            "id" = "uxTz9Txu";
+            "file" = "chorusfruitdropsnearby-26.3.0-1.2.jar";
+            "hash" = "sha512-A20jlQlJHdxTnMTh9SnTOIhsg8MB6db63qnnn/l+D3iBK78EkcYNcaMugY6lTS0qAzhg7d7gSGNvC8ZdgI+5xA==";
+        };
+        _K1t3nxe8 = {
+            "id" = "K1t3nxe8";
+            "file" = "chorusfruitdropsnearby-1.20.1-1.3.jar";
+            "hash" = "sha512-gDaALJpd6grsaqei8haVtRYhPze5IGt1bhxk2tLJwQA3RZ+VV/jjxmeVrJtYPm3uc6XMzu6q/9VuO9qFuUbxtw==";
+        };
+        _lQanTRnT = {
+            "id" = "lQanTRnT";
+            "file" = "chorusfruitdropsnearby-1.21.1-1.3.jar";
+            "hash" = "sha512-0LSJsimVWsi99xJqyijJ/lTfGzl6GdqvrY208VudKe/ScsCd9Ya76WINhIxrW5aZX0GeJgAvfPT2LOy0I9Mk0w==";
+        };
+        _gA0gO0xc = {
+            "id" = "gA0gO0xc";
+            "file" = "chorusfruitdropsnearby-26.2.0-1.3.jar";
+            "hash" = "sha512-TxkmGTAWPbGkRF3Pa/eupyTD3ppXz78S32YW4gmhb1K1WEfVwCeGYGqGoPJiolck9xvzayu81Ni0CnHKiWLGrA==";
+        };
+        _cztsvcvr = {
+            "id" = "cztsvcvr";
+            "file" = "chorusfruitdropsnearby-26.3.0-1.3.jar";
+            "hash" = "sha512-Wpfd1+NiW0mbPx10FLrjM1+2yXkLDQp2onzwX+JznzHdN2I9T2LuoA4vFQ1239jata8rg5Ms+FZ1wTRYzFbsjw==";
+        };
     in {
         "C4OoVpwO" = _C4OoVpwO;
         "7yPSY0nm" = _7yPSY0nm;
@@ -110,9 +135,14 @@ let
         "fl5o4yUr" = _fl5o4yUr;
         "ECW40ENS" = _ECW40ENS;
         "9epjrcWr" = _9epjrcWr;
-        "fabric-1.20.1" = _pm0kZ99E;
-        "fabric-1.21" = _IsHGIMhA;
-        "fabric-1.21.1" = _IsHGIMhA;
+        "uxTz9Txu" = _uxTz9Txu;
+        "K1t3nxe8" = _K1t3nxe8;
+        "lQanTRnT" = _lQanTRnT;
+        "gA0gO0xc" = _gA0gO0xc;
+        "cztsvcvr" = _cztsvcvr;
+        "fabric-1.20.1" = _K1t3nxe8;
+        "fabric-1.21" = _lQanTRnT;
+        "fabric-1.21.1" = _lQanTRnT;
         "fabric-1.21.4" = _DDSYIGf7;
         "fabric-1.21.5" = _lIT3HcYc;
         "fabric-1.21.6" = _62anKt7C;
@@ -124,10 +154,11 @@ let
         "fabric-26.1" = _QhycgTN5;
         "fabric-26.1.1" = _259Jzg8f;
         "fabric-26.1.2" = _ECW40ENS;
-        "fabric-26.2" = _9epjrcWr;
-        "forge-1.20.1" = _pm0kZ99E;
-        "forge-1.21" = _IsHGIMhA;
-        "forge-1.21.1" = _IsHGIMhA;
+        "fabric-26.2" = _gA0gO0xc;
+        "fabric-26.3" = _cztsvcvr;
+        "forge-1.20.1" = _K1t3nxe8;
+        "forge-1.21" = _lQanTRnT;
+        "forge-1.21.1" = _lQanTRnT;
         "forge-1.21.4" = _DDSYIGf7;
         "forge-1.21.5" = _lIT3HcYc;
         "forge-1.21.6" = _62anKt7C;
@@ -139,10 +170,11 @@ let
         "forge-26.1" = _QhycgTN5;
         "forge-26.1.1" = _259Jzg8f;
         "forge-26.1.2" = _ECW40ENS;
-        "forge-26.2" = _9epjrcWr;
-        "neoforge-1.20.1" = _pm0kZ99E;
-        "neoforge-1.21" = _IsHGIMhA;
-        "neoforge-1.21.1" = _IsHGIMhA;
+        "forge-26.2" = _gA0gO0xc;
+        "forge-26.3" = _cztsvcvr;
+        "neoforge-1.20.1" = _K1t3nxe8;
+        "neoforge-1.21" = _lQanTRnT;
+        "neoforge-1.21.1" = _lQanTRnT;
         "neoforge-1.21.4" = _DDSYIGf7;
         "neoforge-1.21.5" = _lIT3HcYc;
         "neoforge-1.21.6" = _62anKt7C;
@@ -154,10 +186,11 @@ let
         "neoforge-26.1" = _QhycgTN5;
         "neoforge-26.1.1" = _259Jzg8f;
         "neoforge-26.1.2" = _ECW40ENS;
-        "neoforge-26.2" = _9epjrcWr;
-        "quilt-1.20.1" = _pm0kZ99E;
-        "quilt-1.21" = _IsHGIMhA;
-        "quilt-1.21.1" = _IsHGIMhA;
+        "neoforge-26.2" = _gA0gO0xc;
+        "neoforge-26.3" = _cztsvcvr;
+        "quilt-1.20.1" = _K1t3nxe8;
+        "quilt-1.21" = _lQanTRnT;
+        "quilt-1.21.1" = _lQanTRnT;
         "quilt-1.21.4" = _DDSYIGf7;
         "quilt-1.21.5" = _lIT3HcYc;
         "quilt-1.21.6" = _62anKt7C;
@@ -169,7 +202,8 @@ let
         "quilt-26.1" = _QhycgTN5;
         "quilt-26.1.1" = _259Jzg8f;
         "quilt-26.1.2" = _ECW40ENS;
-        "quilt-26.2" = _9epjrcWr;
+        "quilt-26.2" = _gA0gO0xc;
+        "quilt-26.3" = _cztsvcvr;
         "pkg-1.20.1-1.0-fabric+forge+neo" = _C4OoVpwO;
         "pkg-1.21.1-1.0-fabric+forge+neo" = _7yPSY0nm;
         "pkg-1.21.4-1.0-fabric+forge+neo" = _BfzOckcR;
@@ -188,7 +222,12 @@ let
         "pkg-26.1.2-1.1-fabric+forge+neo" = _fl5o4yUr;
         "pkg-26.1.2-1.2-fabric+forge+neo" = _ECW40ENS;
         "pkg-26.2.0-1.2-fabric+forge+neo" = _9epjrcWr;
-        "default" = _9epjrcWr;
+        "pkg-26.3.0-1.2-fabric+forge+neo" = _uxTz9Txu;
+        "pkg-1.20.1-1.3-fabric+forge+neo" = _K1t3nxe8;
+        "pkg-1.21.1-1.3-fabric+forge+neo" = _lQanTRnT;
+        "pkg-26.2.0-1.3-fabric+forge+neo" = _gA0gO0xc;
+        "pkg-26.3.0-1.3-fabric+forge+neo" = _cztsvcvr;
+        "default" = _cztsvcvr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chorus-fruit-drops-nearby";

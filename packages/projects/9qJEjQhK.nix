@@ -146,6 +146,11 @@ let
             "file" = "tlsywen-fabric-0.1.17+mc1.20.1.jar";
             "hash" = "sha512-VWVi5j86II6VL8iFx6WgKGrHsXx+q4Jchx99nKibAW0BtOgU/a9DtBJBk2hoCLCoaZef5nnrw5015KMGAYskFQ==";
         };
+        _3WAnJXzx = {
+            "id" = "3WAnJXzx";
+            "file" = "tlsywen+mc1.21.1-neoforge-0.1.17.jar";
+            "hash" = "sha512-LioLDVlqRN40GjqyBIV58W5Zt1/iUyhNl8g7FQzKJCkDpdnBTF1ExeEw//XxgfcYUJj8u/2ZGNv/iJ4XNjeJgw==";
+        };
     in {
         "U7IqJsjf" = _U7IqJsjf;
         "gmAe8vq3" = _gmAe8vq3;
@@ -176,6 +181,7 @@ let
         "RShC9LFW" = _RShC9LFW;
         "A3ul2W5z" = _A3ul2W5z;
         "QFFTZ0DP" = _QFFTZ0DP;
+        "3WAnJXzx" = _3WAnJXzx;
         "fabric-1.20.1" = _QFFTZ0DP;
         "fabric-1.20.4" = _tXkvsdPP;
         "fabric-1.20.6" = _m56tP3lj;
@@ -188,7 +194,7 @@ let
         "neoforge-1.20.1" = _A3ul2W5z;
         "neoforge-1.20.4" = _I4KTTBOa;
         "neoforge-1.20.6" = _QCuavx9s;
-        "neoforge-1.21.1" = _m3KozKcb;
+        "neoforge-1.21.1" = _3WAnJXzx;
         "pkg-fabric-0.1.0+mc1.20.1" = _U7IqJsjf;
         "pkg-fabric-0.1.1+mc1.20.1" = _gmAe8vq3;
         "pkg-fabric-0.1.2+mc1.20.1" = _D68R863f;
@@ -218,7 +224,8 @@ let
         "pkg-fabric-0.1.16+mc1.20.1" = _RShC9LFW;
         "pkg-forge-0.1.17+mc1.20.1" = _A3ul2W5z;
         "pkg-fabric-0.1.17+mc1.20.1" = _QFFTZ0DP;
-        "default" = _QFFTZ0DP;
+        "pkg-neoforge-0.1.17+mc1.21.1" = _3WAnJXzx;
+        "default" = _3WAnJXzx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-last-sword-you-will-ever-need-remastered";

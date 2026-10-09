@@ -56,6 +56,16 @@ let
             "file" = "withering-enchantment-v1.0.4.jar";
             "hash" = "sha512-IyrCeNZ/liSFll4oCLUhTZng/jKfYbh72Am++7wxnljdSTVD5KWgVHrgdZBGLe0ZsAhs/lqCfbanOGAZWLcvGQ==";
         };
+        _qTbyLhPE = {
+            "id" = "qTbyLhPE";
+            "file" = "Withering Enchantment v1.0.4 [26.3].zip";
+            "hash" = "sha512-l03eed/QfeLUaeIJ/sY0jcNIrencys+Hem8qfpSRpNMKegh+tZNoqYgoXr71c8jl05qi4/Mx9m0vTi+W9vO2ng==";
+        };
+        _ZsqircJS = {
+            "id" = "ZsqircJS";
+            "file" = "withering-enchantment-1.0.4.jar";
+            "hash" = "sha512-FqHkT7ar1oVTPY+aZaqh8vXJV2Uzk3EtVxc2TJ4o8GD5qFe2rH2MTVcEWfRwFSKzGvK3tMz6K8ovBwUQNvcYRg==";
+        };
     in {
         "e01HvFQc" = _e01HvFQc;
         "zIAyHDD9" = _zIAyHDD9;
@@ -68,6 +78,8 @@ let
         "CO5KaYWV" = _CO5KaYWV;
         "fsCPaRYZ" = _fsCPaRYZ;
         "gSv9w86J" = _gSv9w86J;
+        "qTbyLhPE" = _qTbyLhPE;
+        "ZsqircJS" = _ZsqircJS;
         "datapack-1.21.4" = _fsCPaRYZ;
         "datapack-1.21" = _fsCPaRYZ;
         "datapack-1.21.1" = _fsCPaRYZ;
@@ -84,6 +96,7 @@ let
         "datapack-26.1.1" = _fsCPaRYZ;
         "datapack-26.1.2" = _fsCPaRYZ;
         "datapack-26.2" = _fsCPaRYZ;
+        "datapack-26.3" = _qTbyLhPE;
         "fabric-1.21.4" = _gSv9w86J;
         "fabric-1.21" = _gSv9w86J;
         "fabric-1.21.1" = _gSv9w86J;
@@ -100,6 +113,7 @@ let
         "fabric-26.1.1" = _gSv9w86J;
         "fabric-26.1.2" = _gSv9w86J;
         "fabric-26.2" = _gSv9w86J;
+        "fabric-26.3" = _ZsqircJS;
         "forge-1.21.4" = _gSv9w86J;
         "forge-1.21" = _gSv9w86J;
         "forge-1.21.1" = _gSv9w86J;
@@ -116,6 +130,7 @@ let
         "forge-26.1.1" = _gSv9w86J;
         "forge-26.1.2" = _gSv9w86J;
         "forge-26.2" = _gSv9w86J;
+        "forge-26.3" = _ZsqircJS;
         "neoforge-1.21.4" = _gSv9w86J;
         "neoforge-1.21" = _gSv9w86J;
         "neoforge-1.21.1" = _gSv9w86J;
@@ -132,6 +147,7 @@ let
         "neoforge-26.1.1" = _gSv9w86J;
         "neoforge-26.1.2" = _gSv9w86J;
         "neoforge-26.2" = _gSv9w86J;
+        "neoforge-26.3" = _ZsqircJS;
         "quilt-1.21.4" = _gSv9w86J;
         "quilt-1.21" = _gSv9w86J;
         "quilt-1.21.1" = _gSv9w86J;
@@ -148,6 +164,7 @@ let
         "quilt-26.1.1" = _gSv9w86J;
         "quilt-26.1.2" = _gSv9w86J;
         "quilt-26.2" = _gSv9w86J;
+        "quilt-26.3" = _ZsqircJS;
         "pkg-v1.0.0" = _e01HvFQc;
         "pkg-v1.0.1" = _zIAyHDD9;
         "pkg-v1.0.1+mod" = _18JvXDsE;
@@ -157,7 +174,9 @@ let
         "pkg-v1.0.3+mod" = _gIAT9Jcy;
         "pkg-v1.0.4" = _fsCPaRYZ;
         "pkg-v1.0.4+mod" = _gSv9w86J;
-        "default" = _gSv9w86J;
+        "pkg-1.0.4" = _qTbyLhPE;
+        "pkg-1.0.4+mod" = _ZsqircJS;
+        "default" = _ZsqircJS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "withering-enchantment";

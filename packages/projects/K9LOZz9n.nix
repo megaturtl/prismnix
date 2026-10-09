@@ -36,6 +36,11 @@ let
             "file" = "§lAxe Factor 26.1-26.1.2.zip";
             "hash" = "sha512-n8GKzpPgj8zMYSS6u8qSyzjw2o4TD4NuQEAXXjRzR2yd0Oiunk9ns/TvSaZW5Faglz46Q5BHaDEpovVXn4k88A==";
         };
+        _plXPMYUk = {
+            "id" = "plXPMYUk";
+            "file" = "§lAxe Factor 26.3.zip";
+            "hash" = "sha512-gwHmgHlv1U+R/4bdGfplQSzol1ErznTh6r2JKb1YJMNRo6X7foilj7Zcdr0r7g916Z6c/9oSli0gN7VF4htwGA==";
+        };
     in {
         "mwdtzbYY" = _mwdtzbYY;
         "m2SmTKYX" = _m2SmTKYX;
@@ -44,6 +49,7 @@ let
         "wzzArgmR" = _wzzArgmR;
         "QSJRU79V" = _QSJRU79V;
         "RACM75Vc" = _RACM75Vc;
+        "plXPMYUk" = _plXPMYUk;
         "minecraft-1.21.1" = _Wtnpkao8;
         "minecraft-1.21.2" = _Wtnpkao8;
         "minecraft-1.21.3" = _Wtnpkao8;
@@ -55,12 +61,14 @@ let
         "minecraft-26.1" = _RACM75Vc;
         "minecraft-26.1.1" = _RACM75Vc;
         "minecraft-26.1.2" = _RACM75Vc;
+        "minecraft-26.3" = _plXPMYUk;
         "pkg-1.1" = _mwdtzbYY;
         "pkg-1.2" = _m2SmTKYX;
         "pkg-1.4" = _jqScFUOm;
         "pkg-1.5" = _Wtnpkao8;
         "pkg-1.0" = _RACM75Vc;
-        "default" = _RACM75Vc;
+        "pkg-26.3" = _plXPMYUk;
+        "default" = _plXPMYUk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mobregons-2k-pack";

@@ -66,6 +66,11 @@ let
             "file" = "!        §f§lSMOOTH SMP PACK !!.zip";
             "hash" = "sha512-xcI9qu4zju5eWiEDPlLXtS/5NRtZiDg1UqvvV1Za4gelWRpEBNEJClLoh6+j/DKecqm9qQ2vbS/ElGI3H5ZMFw==";
         };
+        _ktqrfT36 = {
+            "id" = "ktqrfT36";
+            "file" = "!        §f§lSMOOTH SMP PACK !!.zip";
+            "hash" = "sha512-xqtBipySVCkyGTAu1htxWO5WbMd+5WmUFDJVntRuV2Bb8oFZa35Mgf5mXr16Dm1FchwC+6NzRFZWRcA5wQ0aYw==";
+        };
     in {
         "hqGQgggS" = _hqGQgggS;
         "bQHPLliQ" = _bQHPLliQ;
@@ -80,6 +85,7 @@ let
         "95q3gbT6" = _95q3gbT6;
         "pcfztlvS" = _pcfztlvS;
         "G9S3Ray0" = _G9S3Ray0;
+        "ktqrfT36" = _ktqrfT36;
         "minecraft-1.19" = _hqGQgggS;
         "minecraft-1.19.1" = _hqGQgggS;
         "minecraft-1.19.2" = _hqGQgggS;
@@ -107,6 +113,7 @@ let
         "minecraft-26.1.1" = _Ewi5RHqD;
         "minecraft-26.1.2" = _95q3gbT6;
         "minecraft-26.2" = _pcfztlvS;
+        "minecraft-26.3" = _ktqrfT36;
         "pkg-1.0" = _hqGQgggS;
         "pkg-1.21.1" = _bQHPLliQ;
         "pkg-1.21.2" = _1vxKNvV5;
@@ -120,7 +127,8 @@ let
         "pkg-26.1.2" = _95q3gbT6;
         "pkg-26.2" = _pcfztlvS;
         "pkg-1.21-1.21.11" = _G9S3Ray0;
-        "default" = _G9S3Ray0;
+        "pkg-26.3" = _ktqrfT36;
+        "default" = _ktqrfT36;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smooth-smp-pack";

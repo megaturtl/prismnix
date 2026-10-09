@@ -716,6 +716,11 @@ let
             "file" = "fabric-gui-imgui-26.1-1.2.0+imgui.1.92.7.1.jar";
             "hash" = "sha512-tVmuVb7yPtwL63lB9268PTIcFehpmTk+lG7XfnrMdp2J5OYAPOA7/Vs4DltGp5+Lhvx95w5gCNSO30nMB98bug==";
         };
+        _l3OMGbb7 = {
+            "id" = "l3OMGbb7";
+            "file" = "fabric-gui-imgui-26.3-1.2.1+imgui.1.92.7.1.jar";
+            "hash" = "sha512-OXYIqVdJtO4IhNkGeKO4sbf7ofXjFRY09mQ7WqcbxdLugLMlDh4P/ZdkUb79+4TsBw+m7nUFp8gZXh7BvQjlxg==";
+        };
     in {
         "CZYG3QPy" = _CZYG3QPy;
         "GpFqzv5B" = _GpFqzv5B;
@@ -860,6 +865,7 @@ let
         "ONmjVKyQ" = _ONmjVKyQ;
         "4W9IUGA6" = _4W9IUGA6;
         "aJ7OXulp" = _aJ7OXulp;
+        "l3OMGbb7" = _l3OMGbb7;
         "fabric-1.16.5" = _LgMPjJEa;
         "fabric-1.14.4" = _d8sYYHLR;
         "fabric-1.18.2" = _aTyFEyn9;
@@ -878,7 +884,7 @@ let
         "fabric-26.1-rc-3" = _2kBK3n5Z;
         "fabric-26.1" = _aJ7OXulp;
         "fabric-26.2" = _YbLgt7xp;
-        "fabric-26.3" = _I1ckggBb;
+        "fabric-26.3" = _l3OMGbb7;
         "pkg-1.16.5-1.0.0+imgui.1.83.3" = _CZYG3QPy;
         "pkg-1.14.4-1.0.0+imgui.1.83.3" = _GpFqzv5B;
         "pkg-1.18.2-1.0.0+imgui.1.83.3" = _SKNfMsHA;
@@ -1008,7 +1014,8 @@ let
         "pkg-1.19.4-1.2.0+imgui.1.92.7.1" = _ONmjVKyQ;
         "pkg-1.21.11-1.2.0+imgui.1.92.7.1" = _4W9IUGA6;
         "pkg-26.1-1.2.0+imgui.1.92.7.1" = _aJ7OXulp;
-        "default" = _aJ7OXulp;
+        "pkg-26.3-1.2.1+imgui.1.92.7.1" = _l3OMGbb7;
+        "default" = _l3OMGbb7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fabric-gui-imgui";

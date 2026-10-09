@@ -41,6 +41,21 @@ let
             "file" = "hostileharmony-1.0.4.jar";
             "hash" = "sha512-RvfF062X3usUztTHOtHYrZpiBxnu85VdTowJq3Bn7889aKKTbN0btqMJHI6DLOgVHRwkLssju+vJp+bLJ6rvOw==";
         };
+        _87hMejkA = {
+            "id" = "87hMejkA";
+            "file" = "hostileharmony-1.1.0.jar";
+            "hash" = "sha512-lWZm3bI58/jpqdnGDxZwajXlpWxYTAMuhlKwp/SC92iPDH9q9I8pWRh6v6UKhA8zl3UlT9fR6ZO83zCqyXu3jQ==";
+        };
+        _XbpdXenY = {
+            "id" = "XbpdXenY";
+            "file" = "hostileharmony-fabric-1.21.1-1.1.0.jar";
+            "hash" = "sha512-3XMlMvluauaEYf/Rxi1w/hOxqU/OOfatRDcfSrrIG6pGhoVeOEvTswtzJdGzBj4DOOr54+2dlx9wMBHXtQJvyg==";
+        };
+        _HJ3C2ZLY = {
+            "id" = "HJ3C2ZLY";
+            "file" = "hostileharmony-neoforge-1.21.1-1.1.0.jar";
+            "hash" = "sha512-5mETYhdsM7/QfQwnIE0j2GP3sdlPZV6DU6nqWrjTNBUHm06Ap7ais60NyTCCZDJ/oFhoUqZjpeJB2caIiSfNYw==";
+        };
     in {
         "lf9lDvJU" = _lf9lDvJU;
         "WQDRXwB6" = _WQDRXwB6;
@@ -50,12 +65,15 @@ let
         "vUy402zf" = _vUy402zf;
         "IRtbtzJs" = _IRtbtzJs;
         "AFH71Wac" = _AFH71Wac;
-        "forge-1.20.1" = _AFH71Wac;
-        "forge-1.20.2" = _AFH71Wac;
-        "forge-1.20.3" = _AFH71Wac;
-        "forge-1.20.4" = _AFH71Wac;
-        "forge-1.20.5" = _AFH71Wac;
-        "forge-1.20.6" = _AFH71Wac;
+        "87hMejkA" = _87hMejkA;
+        "XbpdXenY" = _XbpdXenY;
+        "HJ3C2ZLY" = _HJ3C2ZLY;
+        "forge-1.20.1" = _87hMejkA;
+        "forge-1.20.2" = _87hMejkA;
+        "forge-1.20.3" = _87hMejkA;
+        "forge-1.20.4" = _87hMejkA;
+        "forge-1.20.5" = _87hMejkA;
+        "forge-1.20.6" = _87hMejkA;
         "forge-1.21.1" = _vUy402zf;
         "neoforge-1.20.1" = _ZlIHHdez;
         "neoforge-1.20.2" = _ZlIHHdez;
@@ -63,14 +81,15 @@ let
         "neoforge-1.20.4" = _ZlIHHdez;
         "neoforge-1.20.5" = _ZlIHHdez;
         "neoforge-1.20.6" = _ZlIHHdez;
-        "neoforge-1.21.1" = _IRtbtzJs;
-        "fabric-1.21.1" = _V69Z9D9p;
+        "neoforge-1.21.1" = _HJ3C2ZLY;
+        "fabric-1.21.1" = _XbpdXenY;
         "pkg-1.0.0" = _lf9lDvJU;
         "pkg-1.0.1" = _WQDRXwB6;
         "pkg-1.0.2" = _uMl4oFmd;
         "pkg-1.0.3" = _ZlIHHdez;
         "pkg-1.0.4" = _AFH71Wac;
-        "default" = _AFH71Wac;
+        "pkg-1.1.0" = _HJ3C2ZLY;
+        "default" = _HJ3C2ZLY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hostile-harmony";

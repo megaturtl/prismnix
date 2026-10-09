@@ -41,6 +41,11 @@ let
             "file" = "emicompat-1.1.3.jar";
             "hash" = "sha512-LDB704QD47wH2i5hI/7aGUtmhYWia7CM5jbRWCoRqny2Sm8vIam4Zvt3CmZvkqMB3mueOBW7V9PLhuohAflQjg==";
         };
+        _qT4EyESK = {
+            "id" = "qT4EyESK";
+            "file" = "emicompat-1.1.4.jar";
+            "hash" = "sha512-XvYwJwpuPe29nWR5Bzjajic3y8e+l7Cd3pynNz/gOx1HnHemxFoo3tygjZcu6ZbfTjQ7464oO3b70UXmrzPAxw==";
+        };
     in {
         "AXu7Mtdf" = _AXu7Mtdf;
         "1NtA5FoF" = _1NtA5FoF;
@@ -50,7 +55,8 @@ let
         "MQXfvXv4" = _MQXfvXv4;
         "LWZ6Dqpn" = _LWZ6Dqpn;
         "8TWD385n" = _8TWD385n;
-        "fabric-1.20.1" = _8TWD385n;
+        "qT4EyESK" = _qT4EyESK;
+        "fabric-1.20.1" = _qT4EyESK;
         "pkg-1.0.0" = _AXu7Mtdf;
         "pkg-1.0.1" = _1NtA5FoF;
         "pkg-1.0.2" = _6nIUzmIc;
@@ -59,7 +65,8 @@ let
         "pkg-1.1.1" = _MQXfvXv4;
         "pkg-1.1.2" = _LWZ6Dqpn;
         "pkg-1.1.3" = _8TWD385n;
-        "default" = _8TWD385n;
+        "pkg-1.1.4" = _qT4EyESK;
+        "default" = _qT4EyESK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "emi-compat";

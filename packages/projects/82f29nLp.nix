@@ -271,6 +271,16 @@ let
             "file" = "madoku-craft-core-26.3-1.3.4-V1.jar";
             "hash" = "sha512-i+/ydt225bUVO9TrW0kioMIWBztLx9QqVAzuc+0Rv8NcHmCFiSBMi7U3odeDdSFsrtCtb7Twh0lBkKWbwWP+Rw==";
         };
+        _9GtlEUeS = {
+            "id" = "9GtlEUeS";
+            "file" = "madoku-craft-core-26.3-1.3.5-V2.jar";
+            "hash" = "sha512-c4zvTUo8qHrfZYVqnQyNIn75kS0Qzs2H5Y+vGLSUwt0dazBMlfxL7o2JB2q5RhZDj3c23IUF7n0E5RvcWUVscQ==";
+        };
+        _JPLwuSLN = {
+            "id" = "JPLwuSLN";
+            "file" = "madoku-craft-core-26.3-1.3.6-V1.jar";
+            "hash" = "sha512-A/0PwoFmwtA5sw/Ee4Mn6ka1LcxyEMunNLzYC8A8+ZjgnUYIFKCVhTjvK96u1VW26JN3wpMv4yrLejd+M4RVqQ==";
+        };
     in {
         "eMHtpPkf" = _eMHtpPkf;
         "z3gsOXFw" = _z3gsOXFw;
@@ -326,12 +336,14 @@ let
         "TBAy8oPX" = _TBAy8oPX;
         "Nfc69ySL" = _Nfc69ySL;
         "yVMI0E5b" = _yVMI0E5b;
+        "9GtlEUeS" = _9GtlEUeS;
+        "JPLwuSLN" = _JPLwuSLN;
         "fabric-1.21.11" = _Nfc69ySL;
         "fabric-1.21.1" = _p9IvL5CW;
         "fabric-26.1" = _lKdj77Br;
         "fabric-26.1.2" = _mGxDG3IX;
         "fabric-26.2" = _eRpjC94j;
-        "fabric-26.3" = _yVMI0E5b;
+        "fabric-26.3" = _JPLwuSLN;
         "pkg-1.0.0" = _eMHtpPkf;
         "pkg-1.0.1" = _z3gsOXFw;
         "pkg-1.0.2" = _RqlxzEiH;
@@ -377,7 +389,9 @@ let
         "pkg-1.21.11-1.3.4-V1" = _TBAy8oPX;
         "pkg-1.21.11-1.3.4-V2" = _Nfc69ySL;
         "pkg-26.3-1.3.4-V1" = _yVMI0E5b;
-        "default" = _yVMI0E5b;
+        "pkg-26.3-1.3.5-V2" = _9GtlEUeS;
+        "pkg-26.3-1.3.6-V1" = _JPLwuSLN;
+        "default" = _JPLwuSLN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "madoku-craft-core";

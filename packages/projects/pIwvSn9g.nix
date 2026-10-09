@@ -121,6 +121,11 @@ let
             "file" = "Rethoughted Infested Stones.zip";
             "hash" = "sha512-0TtPz8XdrIqmqZjVQqCf5E1vdyuJpP90V5cMM3ffRFpx57bDgQnRpLKp+RriwrvvmyeMwNmGDp2G4AdysvnpaA==";
         };
+        _iVH70XcX = {
+            "id" = "iVH70XcX";
+            "file" = "Rethoughted Infested Stones.zip";
+            "hash" = "sha512-q3Psq2Qu7AcCMZD91+QYWyyCepiYhI/fxlB6eowgi+4B30dxZeJqWJNxOF1iw4Ln8zlkdPOZ9aPvVM3RaHmeQA==";
+        };
     in {
         "XWQUrhXS" = _XWQUrhXS;
         "LgNkCNM4" = _LgNkCNM4;
@@ -146,6 +151,7 @@ let
         "VGfuGsp0" = _VGfuGsp0;
         "K4Pf6gqm" = _K4Pf6gqm;
         "6XtGW7Wl" = _6XtGW7Wl;
+        "iVH70XcX" = _iVH70XcX;
         "minecraft-1.16.2" = _XWQUrhXS;
         "minecraft-1.16.3" = _XWQUrhXS;
         "minecraft-1.16.4" = _XWQUrhXS;
@@ -183,12 +189,13 @@ let
         "minecraft-26.1.1" = _K4Pf6gqm;
         "minecraft-26.1.2" = _K4Pf6gqm;
         "minecraft-26.2" = _6XtGW7Wl;
+        "minecraft-26.3" = _iVH70XcX;
         "pkg-0.1" = _ekOJNfvV;
         "pkg-0.2" = _E6oRlZzc;
         "pkg-1.0" = _RfnmCLxj;
         "pkg-1.0b" = _fjcXn9QL;
-        "pkg-1.1" = _6XtGW7Wl;
-        "default" = _6XtGW7Wl;
+        "pkg-1.1" = _iVH70XcX;
+        "default" = _iVH70XcX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rethoughted-infested-stones";

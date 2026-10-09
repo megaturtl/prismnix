@@ -176,6 +176,66 @@ let
             "file" = "litematica-material-hud-0.0.20+26.2.jar";
             "hash" = "sha512-W8odO5QnBlkVIgqfUDCZj+ChBGqAPH4hchDWFZTVic0uNQ0/oQv7biDQtx5JXGzQ/wsZwxW6CkSVxGJCVqJFRA==";
         };
+        _5KjtbaqA = {
+            "id" = "5KjtbaqA";
+            "file" = "litematica-material-hud-0.0.21+26.2.jar";
+            "hash" = "sha512-nz8qIirLfuVh0pHpj9wnuvFpauic6SNkwHcs/hOKPp+zJ4JglXNbpSjx2MfA1fpOoCFElqFrMXqbHw+Aq1lRDw==";
+        };
+        _Vxug3Tap = {
+            "id" = "Vxug3Tap";
+            "file" = "litematica-material-hud-0.0.21+26.3.jar";
+            "hash" = "sha512-T3lM+xGPNauYw6OtYkku5KGl6J5SuN9poTN0D+2S7rqBo8DF4iT/NhqwjcTVj7KK43t01ME4kEhZISkJy6u59g==";
+        };
+        _n2YPZN17 = {
+            "id" = "n2YPZN17";
+            "file" = "litematica-material-hud-0.0.22+26.3.jar";
+            "hash" = "sha512-eI+X/+cZ3lF5gy6sW+ypBNx5UqG5JtpHMTU1vVMW5Ga0A7xi07yENZtNIbIm5b3O29PWpVc8B3s9vRPOVT9JmA==";
+        };
+        _VunIhzsU = {
+            "id" = "VunIhzsU";
+            "file" = "litematica-material-hud-0.0.22+26.2.jar";
+            "hash" = "sha512-w3aAo+Op6idF0uV7U7oaJFvN3uFjnyQsOFO1Yg1UWaVLWXZawEnq/KybACy8AW3aJzPd5AlduO1pMhNk5t24JA==";
+        };
+        _K6QMOfgN = {
+            "id" = "K6QMOfgN";
+            "file" = "litematica-material-hud-0.0.23+26.3.jar";
+            "hash" = "sha512-whV5Wwt8IB38My+SgTYcrCuTBegMmxl/a7cFQaL4u21Qb7/cWVqByUz++vhRWu4u2zgl8YOM+qxibBpexVBATA==";
+        };
+        _qhZOcJrm = {
+            "id" = "qhZOcJrm";
+            "file" = "litematica-material-hud-0.0.24+26.3.jar";
+            "hash" = "sha512-qET6VtjRyL4nooASyloxxn4o3G+uNx3FAH/3maqYJA65pwyTK24Su59Nvl6HTYRBR/TkvYdlM/5qQNFbBnSRtg==";
+        };
+        _YSPT8Zdp = {
+            "id" = "YSPT8Zdp";
+            "file" = "litematica-material-hud-0.0.25+26.3.jar";
+            "hash" = "sha512-au0k71NqK/aE/MSCJ+YrAh6sbobCCZuuzzH7PLxugEADnRE6DkeC2yGUs1xJE6cRZBKFqTGMS1eP1BGPEmyLnw==";
+        };
+        _8N8Vnu1b = {
+            "id" = "8N8Vnu1b";
+            "file" = "litematica-material-hud-1.0.0+26.3.jar";
+            "hash" = "sha512-Sx26oDr2gnp7psajD983/19hVsKBEzBdBTsW8g8vGRkANgaGP+MTT9YlPQXfDtvrHLubDgLK8sy5n92RlirP4A==";
+        };
+        _jiZfgoLV = {
+            "id" = "jiZfgoLV";
+            "file" = "litematica-material-hud-1.0.1+26.3.jar";
+            "hash" = "sha512-RPxzEZmaXnVftMrio0AlpyIzg3OAy3UNrtizqUYoNcd3PKzFq7EOXWLeScScbWH3SKuz8CQjX43uCYQLqeF9ZA==";
+        };
+        _ocqjTVUb = {
+            "id" = "ocqjTVUb";
+            "file" = "litematica-material-hud-1.0.2+26.3.jar";
+            "hash" = "sha512-T+gRnxBnqa1IilMcEw+ba25VAXvOOfomfmIw7tSpbxX7N0uTOR/YTf6NW6k17LbOqpC9fjiloZM/mphrtgMlTQ==";
+        };
+        _d4Wfaqod = {
+            "id" = "d4Wfaqod";
+            "file" = "litematica-material-hud-1.0.3+26.3.jar";
+            "hash" = "sha512-J9mbuiKiYZkW256Fj6rR/FfAh+Ec4ST2GdWvvpZJV292vPAKcMZTueR3UYGBfu1GE/0h6vEWWEYKqLVmJtAcdA==";
+        };
+        _IyMwO55u = {
+            "id" = "IyMwO55u";
+            "file" = "litematica-material-hud-1.0.4+26.3.jar";
+            "hash" = "sha512-8b4wp1qW4MHTZjlu5M2M/3YXZ2LDyZy9WrWIv8PXy7QWCQ8HcgyiiVLZXWipI+4SRhTYPUAyxfJvcoig4gt9Lg==";
+        };
     in {
         "z2IZqkAA" = _z2IZqkAA;
         "WtOCkLpA" = _WtOCkLpA;
@@ -212,11 +272,24 @@ let
         "SihcLoJv" = _SihcLoJv;
         "P0Xr20yz" = _P0Xr20yz;
         "cmsUVHJS" = _cmsUVHJS;
-        "fabric-26.2" = _cmsUVHJS;
+        "5KjtbaqA" = _5KjtbaqA;
+        "Vxug3Tap" = _Vxug3Tap;
+        "n2YPZN17" = _n2YPZN17;
+        "VunIhzsU" = _VunIhzsU;
+        "K6QMOfgN" = _K6QMOfgN;
+        "qhZOcJrm" = _qhZOcJrm;
+        "YSPT8Zdp" = _YSPT8Zdp;
+        "8N8Vnu1b" = _8N8Vnu1b;
+        "jiZfgoLV" = _jiZfgoLV;
+        "ocqjTVUb" = _ocqjTVUb;
+        "d4Wfaqod" = _d4Wfaqod;
+        "IyMwO55u" = _IyMwO55u;
+        "fabric-26.2" = _VunIhzsU;
         "fabric-1.21.11" = _SihcLoJv;
         "fabric-26.1" = _8wVTpizB;
         "fabric-26.1.1" = _8wVTpizB;
         "fabric-26.1.2" = _8wVTpizB;
+        "fabric-26.3" = _IyMwO55u;
         "pkg-0.0.1+26.2" = _z2IZqkAA;
         "pkg-0.0.2+26.2" = _WtOCkLpA;
         "pkg-0.0.2+1.21.11" = _S45x0GGc;
@@ -252,7 +325,19 @@ let
         "pkg-0.0.18+1.21.11" = _SihcLoJv;
         "pkg-0.0.19+26.2" = _P0Xr20yz;
         "pkg-0.0.20+26.2" = _cmsUVHJS;
-        "default" = _cmsUVHJS;
+        "pkg-0.0.21+26.2" = _5KjtbaqA;
+        "pkg-0.0.21+26.3" = _Vxug3Tap;
+        "pkg-0.0.22+26.3" = _n2YPZN17;
+        "pkg-0.0.22+26.2" = _VunIhzsU;
+        "pkg-0.0.23+26.3" = _K6QMOfgN;
+        "pkg-0.0.24+26.3" = _qhZOcJrm;
+        "pkg-0.0.25+26.3" = _YSPT8Zdp;
+        "pkg-1.0.0+26.3" = _8N8Vnu1b;
+        "pkg-1.0.1+26.3" = _jiZfgoLV;
+        "pkg-1.0.2+26.3" = _ocqjTVUb;
+        "pkg-1.0.3+26.3" = _d4Wfaqod;
+        "pkg-1.0.4+26.3" = _IyMwO55u;
+        "default" = _IyMwO55u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "material-hud";

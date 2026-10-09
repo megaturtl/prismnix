@@ -21,11 +21,17 @@ let
             "file" = "simple_numeric_ping_v1.2.zip";
             "hash" = "sha512-oYpFlNgZgbWqDieNiMsCFD5xuM8tsJiIeGGTYQP3DHDPL9/Odr88zYv6DLW2M2e+hDsWyjBpEqp5Xk65lU2l/A==";
         };
+        _XIB5lpc9 = {
+            "id" = "XIB5lpc9";
+            "file" = "simple_numeric_ping_v1.2_26.3.zip";
+            "hash" = "sha512-oYpFlNgZgbWqDieNiMsCFD5xuM8tsJiIeGGTYQP3DHDPL9/Odr88zYv6DLW2M2e+hDsWyjBpEqp5Xk65lU2l/A==";
+        };
     in {
         "GKq5WobG" = _GKq5WobG;
         "huPOevoK" = _huPOevoK;
         "XHhkdjDg" = _XHhkdjDg;
         "flJqDKdx" = _flJqDKdx;
+        "XIB5lpc9" = _XIB5lpc9;
         "minecraft-1.20.2" = _flJqDKdx;
         "minecraft-1.20.3" = _flJqDKdx;
         "minecraft-1.20.4" = _flJqDKdx;
@@ -46,10 +52,13 @@ let
         "minecraft-26.1" = _flJqDKdx;
         "minecraft-26.1.1" = _flJqDKdx;
         "minecraft-26.1.2" = _flJqDKdx;
+        "minecraft-26.2" = _XIB5lpc9;
+        "minecraft-26.3" = _XIB5lpc9;
         "pkg-1.0" = _GKq5WobG;
         "pkg-1.1" = _XHhkdjDg;
         "pkg-1.2" = _flJqDKdx;
-        "default" = _flJqDKdx;
+        "pkg-v1.2" = _XIB5lpc9;
+        "default" = _XIB5lpc9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-numeric-ping";

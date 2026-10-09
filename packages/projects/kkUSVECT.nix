@@ -86,6 +86,31 @@ let
             "file" = "villagers-buy-enderpearls-v2.1.1.jar";
             "hash" = "sha512-lYgQtlrAMHvnXwblhAYnDslIe9s1AisDytg2u2Vy4qOWvJK7qBJsmqfbsK67JgGOM8Ss0e7N9kG7jb9CnpED9w==";
         };
+        _B6bb54TO = {
+            "id" = "B6bb54TO";
+            "file" = "villagers-buy-ender-pearls-v2.2.0.zip";
+            "hash" = "sha512-BuF2yhfpKPvj0M1AlpW4D9PtD5xNSJlbkXS/qMQbl5dIRuKpF5qrygT9cJXF5FqYbcfLXgkL7UJ9KnsdLXA0Mw==";
+        };
+        _WaVGrDqP = {
+            "id" = "WaVGrDqP";
+            "file" = "villagers-buy-enderpearls-v2.2.0.jar";
+            "hash" = "sha512-uF5rPy7RXYokPWNPUfcuMdLiXB/t8UuLvmB3UZEeWFCpkxhgs2tSoEKdkm4mxtVRxVh5iHzeO0h7FV8wstYaHA==";
+        };
+        _FWhphQtV = {
+            "id" = "FWhphQtV";
+            "file" = "villagers-buy-enderpearls-v2.2.0.jar";
+            "hash" = "sha512-0+rbfOqrDUgZBPIipBQqmMRx9NqT4y8x4aCGWPRDtr9JiYF0ai+uBSPOVSTUSQD2CztNHVFY26vYjmPdfmcJDw==";
+        };
+        _yo3aMRBL = {
+            "id" = "yo3aMRBL";
+            "file" = "villagers-buy-ender-pearls-v2.2.0.0.zip";
+            "hash" = "sha512-0TolgHfFg7G+knWaIzDAhk9YYx8hNZ/VZWH+ptFqx+Y4Vba99+RRz3fPslL4Ku6uDHjzjPWzb1Kuv4ieiIpbXw==";
+        };
+        _DCBs1n9U = {
+            "id" = "DCBs1n9U";
+            "file" = "villagers-buy-enderpearls-v2.2.0.0.jar";
+            "hash" = "sha512-X4taV4tGD2cbtKchK7xcb9sOK5J1CHSr1G54gbrr/dXIoajE7+R9lVk30KcFTH1P4T+r9rAopmQC+EoZNobrtw==";
+        };
     in {
         "i4rVJyqN" = _i4rVJyqN;
         "EVPFV4zw" = _EVPFV4zw;
@@ -104,6 +129,11 @@ let
         "bhIrQAx6" = _bhIrQAx6;
         "wViA6Eym" = _wViA6Eym;
         "opdaYsL1" = _opdaYsL1;
+        "B6bb54TO" = _B6bb54TO;
+        "WaVGrDqP" = _WaVGrDqP;
+        "FWhphQtV" = _FWhphQtV;
+        "yo3aMRBL" = _yo3aMRBL;
+        "DCBs1n9U" = _DCBs1n9U;
         "datapack-1.21" = _OnzeyQaw;
         "datapack-1.21.1" = _OnzeyQaw;
         "datapack-1.21.2" = _OnzeyQaw;
@@ -119,6 +149,7 @@ let
         "datapack-26.1.1" = _wViA6Eym;
         "datapack-26.1.2" = _wViA6Eym;
         "datapack-26.2" = _wViA6Eym;
+        "datapack-26.3" = _yo3aMRBL;
         "fabric-1.21" = _U8u8pogR;
         "fabric-1.21.1" = _U8u8pogR;
         "fabric-1.21.2" = _U8u8pogR;
@@ -134,6 +165,7 @@ let
         "fabric-26.1.1" = _opdaYsL1;
         "fabric-26.1.2" = _opdaYsL1;
         "fabric-26.2" = _opdaYsL1;
+        "fabric-26.3" = _DCBs1n9U;
         "forge-1.21" = _U8u8pogR;
         "forge-1.21.1" = _U8u8pogR;
         "forge-1.21.2" = _U8u8pogR;
@@ -149,6 +181,7 @@ let
         "forge-26.1.1" = _opdaYsL1;
         "forge-26.1.2" = _opdaYsL1;
         "forge-26.2" = _opdaYsL1;
+        "forge-26.3" = _DCBs1n9U;
         "quilt-1.21" = _U8u8pogR;
         "quilt-1.21.1" = _U8u8pogR;
         "quilt-1.21.2" = _U8u8pogR;
@@ -164,6 +197,7 @@ let
         "quilt-26.1.1" = _opdaYsL1;
         "quilt-26.1.2" = _opdaYsL1;
         "quilt-26.2" = _opdaYsL1;
+        "quilt-26.3" = _DCBs1n9U;
         "neoforge-1.21" = _U8u8pogR;
         "neoforge-1.21.1" = _U8u8pogR;
         "neoforge-1.21.2" = _U8u8pogR;
@@ -179,6 +213,7 @@ let
         "neoforge-26.1.1" = _opdaYsL1;
         "neoforge-26.1.2" = _opdaYsL1;
         "neoforge-26.2" = _opdaYsL1;
+        "neoforge-26.3" = _DCBs1n9U;
         "pkg-v.1.0.0" = _i4rVJyqN;
         "pkg-v.1.0.0+mod" = _EVPFV4zw;
         "pkg-v.1.0.1" = _OnzeyQaw;
@@ -193,7 +228,11 @@ let
         "pkg-v2.1.0+mod" = _bhIrQAx6;
         "pkg-v2.1.1" = _wViA6Eym;
         "pkg-v2.1.1+mod" = _opdaYsL1;
-        "default" = _opdaYsL1;
+        "pkg-v2.2.0" = _B6bb54TO;
+        "pkg-v2.2.0+mod" = _FWhphQtV;
+        "pkg-v2.2.0.0" = _yo3aMRBL;
+        "pkg-v2.2.0.0+mod" = _DCBs1n9U;
+        "default" = _DCBs1n9U;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "villagers-buy-enderpearls";

@@ -66,6 +66,11 @@ let
             "file" = "More_Metal_Grates-3.0.0-26.1.jar";
             "hash" = "sha512-Q9QZ5k82zNfgxMW9aVr7Cd/FT0SZePw0sllMXv/KKqXE7YOS1n6yl0M2lNUriLMfcv2mnecdCT849gnrp9g4rg==";
         };
+        _xaTzqmhP = {
+            "id" = "xaTzqmhP";
+            "file" = "More_Metal_Grates-3.0.0-26.3.jar";
+            "hash" = "sha512-ZceioiW3on3echfM+D4ku60d8VAZSKBFdW8HJEInlVhFjHfUawL7n5yseg1/lSJ//jdKL2Q39SHIHEo5ANahRw==";
+        };
     in {
         "gdgqiTan" = _gdgqiTan;
         "BBAC7Vat" = _BBAC7Vat;
@@ -80,6 +85,7 @@ let
         "8z1EF2bT" = _8z1EF2bT;
         "na5V04TR" = _na5V04TR;
         "LwmsOiyU" = _LwmsOiyU;
+        "xaTzqmhP" = _xaTzqmhP;
         "fabric-1.21" = _dSes8hT8;
         "fabric-1.21.1" = _dSes8hT8;
         "fabric-1.21.3" = _iAzIOzUj;
@@ -97,6 +103,7 @@ let
         "fabric-26.1.1" = _LwmsOiyU;
         "fabric-26.1.2" = _LwmsOiyU;
         "fabric-26.2" = _LwmsOiyU;
+        "fabric-26.3" = _xaTzqmhP;
         "neoforge-1.21" = _LOzhsEoZ;
         "neoforge-1.21.1" = _LOzhsEoZ;
         "neoforge-1.20" = _8z1EF2bT;
@@ -115,7 +122,8 @@ let
         "pkg-3.0.0-1.20.1" = _8z1EF2bT;
         "pkg-3.0.0-1.21.11" = _na5V04TR;
         "pkg-3.0.0-26.1" = _LwmsOiyU;
-        "default" = _LwmsOiyU;
+        "pkg-3.0.0-26.3" = _xaTzqmhP;
+        "default" = _xaTzqmhP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-metal-grates";

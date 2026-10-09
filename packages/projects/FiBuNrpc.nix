@@ -31,6 +31,16 @@ let
             "file" = "browsermod-0.4-26.2.jar";
             "hash" = "sha512-j4+j8l/suzgnPovNcqIAePvfuInASFTJDJfffpuTGOJR/eoNFgfFF5ybE9PhAkefJoOPbo9frhoWgYl8r/mdzQ==";
         };
+        _GGTwieY4 = {
+            "id" = "GGTwieY4";
+            "file" = "browsermod26.2-0.1-26.2.jar";
+            "hash" = "sha512-zqUZzd2Sv1sU1p9Q7dASSy5N3s4XhF2HECG4RQX1LDlq74Mrj/478Y9101DipJGNp6rrC+OkFIIax2EVxg5ltw==";
+        };
+        _GLnY3Ynl = {
+            "id" = "GLnY3Ynl";
+            "file" = "browsermod-0.1-26.3.jar";
+            "hash" = "sha512-AQah/0hnV3XOi0T/Bpk3EIjfib6WYme0sJ04plwNYQjz328/oMNSMJ8mQVs43C2uoJRDrjKQLyD9J6sVKfrsew==";
+        };
     in {
         "6PmG4Bpa" = _6PmG4Bpa;
         "iGBSaEyv" = _iGBSaEyv;
@@ -38,17 +48,22 @@ let
         "qoADcouh" = _qoADcouh;
         "CBQtGluP" = _CBQtGluP;
         "67F5USJ3" = _67F5USJ3;
+        "GGTwieY4" = _GGTwieY4;
+        "GLnY3Ynl" = _GLnY3Ynl;
         "fabric-1.21.10" = _6PmG4Bpa;
         "fabric-1.21.11" = _KwpAln5b;
         "fabric-26.1.1" = _CBQtGluP;
         "fabric-26.1.2" = _CBQtGluP;
-        "fabric-26.2" = _67F5USJ3;
+        "fabric-26.2" = _GGTwieY4;
+        "fabric-26.3" = _GLnY3Ynl;
         "pkg-0.1" = _iGBSaEyv;
         "pkg-0.2" = _KwpAln5b;
         "pkg-0.2-26.1.1" = _qoADcouh;
         "pkg-0.3-26.1.x" = _CBQtGluP;
         "pkg-0.4-26.2" = _67F5USJ3;
-        "default" = _67F5USJ3;
+        "pkg-0.1-26.2" = _GGTwieY4;
+        "pkg-0.1-26.3" = _GLnY3Ynl;
+        "default" = _GLnY3Ynl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "browsermod";

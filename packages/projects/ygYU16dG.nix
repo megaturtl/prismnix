@@ -981,6 +981,16 @@ let
             "file" = "MyTotemDoll-2.6.0+26.2+neoforge.jar";
             "hash" = "sha512-8CgnDNRuqnNYkJuScCFc9b2neDuIzCDSiKeR9XO3+VT/4Y5/+M+/i96kQYTr+nNl+yaeQkaGDFLQ1ktwYcmjIw==";
         };
+        _aMCe9nes = {
+            "id" = "aMCe9nes";
+            "file" = "MyTotemDoll-2.7.0+26.3+fabric.jar";
+            "hash" = "sha512-ZQgZ7FpicpKbTUA8Jn8ex814uzbN+Hrvm0B3T6h0G91qlfngdeAc2D9lt5/Wfe5+1ceCu5VVrY34lkubuCPsrQ==";
+        };
+        _Bre9zYl6 = {
+            "id" = "Bre9zYl6";
+            "file" = "MyTotemDoll-2.7.0+26.3+neoforge.jar";
+            "hash" = "sha512-FO2kuHkF3npV/lMOyzYF82YypFgvhPnekOKf6VZBLBlBYNBskPWBU/FlKWq1sbNGMCW1x6UTwGOEILnF28NftA==";
+        };
     in {
         "gE8XKKPZ" = _gE8XKKPZ;
         "3GIMn6tG" = _3GIMn6tG;
@@ -1178,6 +1188,8 @@ let
         "p0q025Cu" = _p0q025Cu;
         "nufSSvwt" = _nufSSvwt;
         "9l62H4R9" = _9l62H4R9;
+        "aMCe9nes" = _aMCe9nes;
+        "Bre9zYl6" = _Bre9zYl6;
         "fabric-1.20" = _8YLtIaya;
         "fabric-1.20.1" = _Go5Qi7Oy;
         "fabric-1.20.2" = _ICIHSnrC;
@@ -1201,12 +1213,14 @@ let
         "fabric-26.1.1" = _pkh96Lin;
         "fabric-26.1.2" = _pkh96Lin;
         "fabric-26.2" = _nufSSvwt;
+        "fabric-26.3" = _aMCe9nes;
         "forge-1.20.1" = _EldynNUm;
         "neoforge-1.21.1" = _7OBALdOg;
         "neoforge-26.1" = _p0q025Cu;
         "neoforge-26.1.1" = _p0q025Cu;
         "neoforge-26.1.2" = _p0q025Cu;
         "neoforge-26.2" = _9l62H4R9;
+        "neoforge-26.3" = _Bre9zYl6;
         "pkg-1.0.0+1.20" = _gE8XKKPZ;
         "pkg-1.0.0+1.20.1" = _3GIMn6tG;
         "pkg-1.0.0+1.20.2" = _GMl3jU0K;
@@ -1403,7 +1417,9 @@ let
         "pkg-2.6.0+26.1+neoforge" = _p0q025Cu;
         "pkg-2.6.0+26.2+fabric" = _nufSSvwt;
         "pkg-2.6.0+26.2+neoforge" = _9l62H4R9;
-        "default" = _9l62H4R9;
+        "pkg-2.7.0+26.3+fabric" = _aMCe9nes;
+        "pkg-2.7.0+26.3+neoforge" = _Bre9zYl6;
+        "default" = _Bre9zYl6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "my_totem_doll";

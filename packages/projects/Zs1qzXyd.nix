@@ -26,12 +26,30 @@ let
             "file" = "Epic Jungle Temples v1.0.2.jar";
             "hash" = "sha512-ADRg0dYfJYfdeGzZOB5zHsRhjMK8+rOQXF5v2N9WNX9l0CFvo9QRvskeHIdC4VIi+uAPLP5xSyljjEuEINPepA==";
         };
+        _66GuRk60 = {
+            "id" = "66GuRk60";
+            "file" = "Epic Jungle Temples v1.0.3 (26.3).zip";
+            "hash" = "sha512-NwdX/K/JG8T8H86FHQTJz2gEHo+r7irJTWBe4T9z3erBA0DZJmYr3sHvgFPrXPmWdfhc8HcgkqqzYixm9A4lcA==";
+        };
+        _ImFhV10j = {
+            "id" = "ImFhV10j";
+            "file" = "Epic Jungle Temples v1.0.3 (26.3).jar";
+            "hash" = "sha512-53bS939HRYjdGAOeSQBmhKmlXyYxQjLCoU4JshnE6Z4Hgkdq0yBStyFoEVH3lbK3pSwqhp+n6bs//X9LwV2UrQ==";
+        };
+        _Yv67NQoF = {
+            "id" = "Yv67NQoF";
+            "file" = "Epic Jungle Temples v1.0.4 (26.3).zip";
+            "hash" = "sha512-GY2NyRHVpTf9xV8pRoeZAauNlkfLCHircim/p8tO5BDt+GsDglcPYjul88/wTGnT6FVwYKfE1I8/q47nx7qUkg==";
+        };
     in {
         "t7dU1YJm" = _t7dU1YJm;
         "J0tw1X35" = _J0tw1X35;
         "wtd1EZF9" = _wtd1EZF9;
         "XjuAKE3K" = _XjuAKE3K;
         "aN4PmOt6" = _aN4PmOt6;
+        "66GuRk60" = _66GuRk60;
+        "ImFhV10j" = _ImFhV10j;
+        "Yv67NQoF" = _Yv67NQoF;
         "fabric-1.19" = _aN4PmOt6;
         "fabric-1.19.1" = _aN4PmOt6;
         "fabric-1.19.2" = _aN4PmOt6;
@@ -60,6 +78,7 @@ let
         "fabric-26.2" = _aN4PmOt6;
         "fabric-1.20.5" = _aN4PmOt6;
         "fabric-1.20.6" = _aN4PmOt6;
+        "fabric-26.3" = _ImFhV10j;
         "forge-1.19" = _aN4PmOt6;
         "forge-1.19.1" = _aN4PmOt6;
         "forge-1.19.2" = _aN4PmOt6;
@@ -88,6 +107,7 @@ let
         "forge-26.2" = _aN4PmOt6;
         "forge-1.20.5" = _aN4PmOt6;
         "forge-1.20.6" = _aN4PmOt6;
+        "forge-26.3" = _ImFhV10j;
         "neoforge-1.19" = _aN4PmOt6;
         "neoforge-1.19.1" = _aN4PmOt6;
         "neoforge-1.19.2" = _aN4PmOt6;
@@ -116,6 +136,7 @@ let
         "neoforge-26.2" = _aN4PmOt6;
         "neoforge-1.20.5" = _aN4PmOt6;
         "neoforge-1.20.6" = _aN4PmOt6;
+        "neoforge-26.3" = _ImFhV10j;
         "quilt-1.19" = _aN4PmOt6;
         "quilt-1.19.1" = _aN4PmOt6;
         "quilt-1.19.2" = _aN4PmOt6;
@@ -144,6 +165,7 @@ let
         "quilt-26.2" = _aN4PmOt6;
         "quilt-1.20.5" = _aN4PmOt6;
         "quilt-1.20.6" = _aN4PmOt6;
+        "quilt-26.3" = _ImFhV10j;
         "datapack-1.19" = _XjuAKE3K;
         "datapack-1.19.1" = _XjuAKE3K;
         "datapack-1.19.2" = _XjuAKE3K;
@@ -172,10 +194,13 @@ let
         "datapack-26.1.1" = _XjuAKE3K;
         "datapack-26.1.2" = _XjuAKE3K;
         "datapack-26.2" = _XjuAKE3K;
+        "datapack-26.3" = _Yv67NQoF;
         "pkg-1.0.0" = _t7dU1YJm;
         "pkg-1.0.1" = _wtd1EZF9;
         "pkg-1.0.2" = _aN4PmOt6;
-        "default" = _aN4PmOt6;
+        "pkg-1.0.3" = _ImFhV10j;
+        "pkg-1.0.4" = _Yv67NQoF;
+        "default" = _Yv67NQoF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "epic-structures-jungle-temples";

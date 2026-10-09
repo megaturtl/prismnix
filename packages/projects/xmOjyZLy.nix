@@ -96,6 +96,16 @@ let
             "file" = "enchantment-extractor-v1.2.4.jar";
             "hash" = "sha512-40bEM+sSB4QhRGa+BHtlmHT7u9ZC0sB94wse7SmmLz/y7aIcbhAJ0zaobIrPWdYHn80j6RCxoUOKAjVnaIs29w==";
         };
+        _vEmpfWmg = {
+            "id" = "vEmpfWmg";
+            "file" = "Enchantment Extractor v1.2.4 [26.3].zip";
+            "hash" = "sha512-hBdirrx9Y5cBQKuSTalXLSkqWp30sHR2B2yVRXFXXCVRK8pLkyzoDvgkInd0swAW5k4kDk9+gY2eMS1XKQg9kA==";
+        };
+        _QYV6GJVn = {
+            "id" = "QYV6GJVn";
+            "file" = "enchantment-extractor-1.2.4.jar";
+            "hash" = "sha512-LHtnQ5BwvcPj4NT+eHCugNFOf0FIG1F7zQUaY1CdNTABUWlzvIINP+6Kh0W6dz5q54RXRZ3XKiE3rXG8NHDOAA==";
+        };
     in {
         "lgstESEU" = _lgstESEU;
         "Q2OlBaQU" = _Q2OlBaQU;
@@ -116,6 +126,8 @@ let
         "dBVNDZ1v" = _dBVNDZ1v;
         "6DHipqny" = _6DHipqny;
         "ZUzaWHnb" = _ZUzaWHnb;
+        "vEmpfWmg" = _vEmpfWmg;
+        "QYV6GJVn" = _QYV6GJVn;
         "datapack-1.21.2" = _5OAPlMKo;
         "datapack-1.21.3" = _5OAPlMKo;
         "datapack-1.21.4" = _5OAPlMKo;
@@ -130,6 +142,7 @@ let
         "datapack-26.1.1" = _6DHipqny;
         "datapack-26.1.2" = _6DHipqny;
         "datapack-26.2" = _6DHipqny;
+        "datapack-26.3" = _vEmpfWmg;
         "fabric-1.21.4" = _dBVNDZ1v;
         "fabric-1.21.5" = _ZUzaWHnb;
         "fabric-1.21.6" = _ZUzaWHnb;
@@ -144,6 +157,7 @@ let
         "fabric-26.1.1" = _ZUzaWHnb;
         "fabric-26.1.2" = _ZUzaWHnb;
         "fabric-26.2" = _ZUzaWHnb;
+        "fabric-26.3" = _QYV6GJVn;
         "forge-1.21.4" = _dBVNDZ1v;
         "forge-1.21.5" = _ZUzaWHnb;
         "forge-1.21.6" = _ZUzaWHnb;
@@ -158,6 +172,7 @@ let
         "forge-26.1.1" = _ZUzaWHnb;
         "forge-26.1.2" = _ZUzaWHnb;
         "forge-26.2" = _ZUzaWHnb;
+        "forge-26.3" = _QYV6GJVn;
         "neoforge-1.21.4" = _dBVNDZ1v;
         "neoforge-1.21.5" = _ZUzaWHnb;
         "neoforge-1.21.6" = _ZUzaWHnb;
@@ -172,6 +187,7 @@ let
         "neoforge-26.1.1" = _ZUzaWHnb;
         "neoforge-26.1.2" = _ZUzaWHnb;
         "neoforge-26.2" = _ZUzaWHnb;
+        "neoforge-26.3" = _QYV6GJVn;
         "quilt-1.21.4" = _dBVNDZ1v;
         "quilt-1.21.5" = _ZUzaWHnb;
         "quilt-1.21.6" = _ZUzaWHnb;
@@ -186,6 +202,7 @@ let
         "quilt-26.1.1" = _ZUzaWHnb;
         "quilt-26.1.2" = _ZUzaWHnb;
         "quilt-26.2" = _ZUzaWHnb;
+        "quilt-26.3" = _QYV6GJVn;
         "pkg-v1.0.0" = _lgstESEU;
         "pkg-v1.0.1" = _Q2OlBaQU;
         "pkg-v1.1.0" = _KTjIqv37;
@@ -201,7 +218,9 @@ let
         "pkg-v1.2.3+mod" = _ZnZgWB7Y;
         "pkg-v1.2.4" = _6DHipqny;
         "pkg-v1.2.4+mod" = _ZUzaWHnb;
-        "default" = _ZUzaWHnb;
+        "pkg-1.2.4" = _vEmpfWmg;
+        "pkg-1.2.4+mod" = _QYV6GJVn;
+        "default" = _QYV6GJVn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantment-extractor";

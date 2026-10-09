@@ -66,6 +66,11 @@ let
             "file" = "visualjukebox-1.1.1+26.1.jar";
             "hash" = "sha512-jRgKBWmYiOcUm8EC6sIkgAmTsbmdXzjafnOpPMoOoN7s0aABZz6TgRKPkk0rWXWZiCvxV1Ch65nw3RvmxcQFIw==";
         };
+        _xVrtCInL = {
+            "id" = "xVrtCInL";
+            "file" = "visualjukebox-1.2.0+26.3.jar";
+            "hash" = "sha512-LFSborA2ZaMQVT7O3kDHBA+q1RknzIneNYyY+oTuQ7WENRO8Q8hwlmZDmX4koJ4X+rx8GBigBPoOYFgn9DONGw==";
+        };
     in {
         "zlOczaN9" = _zlOczaN9;
         "BCaH4vDp" = _BCaH4vDp;
@@ -80,6 +85,7 @@ let
         "FOghcXjK" = _FOghcXjK;
         "wo4DAYm8" = _wo4DAYm8;
         "Xel1KBcD" = _Xel1KBcD;
+        "xVrtCInL" = _xVrtCInL;
         "fabric-1.21" = _zlOczaN9;
         "fabric-1.21.1" = _zlOczaN9;
         "fabric-1.20.1" = _BCaH4vDp;
@@ -99,6 +105,7 @@ let
         "fabric-26.1" = _Xel1KBcD;
         "fabric-26.1.1" = _Xel1KBcD;
         "fabric-26.1.2" = _Xel1KBcD;
+        "fabric-26.3" = _xVrtCInL;
         "pkg-1.0.0" = _zlOczaN9;
         "pkg-1.0.0+1.20.1" = _BCaH4vDp;
         "pkg-1.0.0+1.21.2-rc1" = _hXPUrybd;
@@ -112,7 +119,8 @@ let
         "pkg-1.0.5+1.21.11" = _FOghcXjK;
         "pkg-1.1.0+26.1" = _wo4DAYm8;
         "pkg-1.1.1+26.1" = _Xel1KBcD;
-        "default" = _Xel1KBcD;
+        "pkg-1.2.0+26.3" = _xVrtCInL;
+        "default" = _xVrtCInL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "visual-jukebox";

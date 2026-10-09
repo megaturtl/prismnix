@@ -356,6 +356,21 @@ let
             "file" = "bettergamemode-1.4.0.jar";
             "hash" = "sha512-7L44b1E9iHOcmxkEi2Cv+OcIrAASbhqzBNoQvmCsnUChRqqWesaaYEEP4zGrnIi5ckaEHYTNokiw0rUbW+udew==";
         };
+        _2We4L9Ly = {
+            "id" = "2We4L9Ly";
+            "file" = "bettergamemode-1.4.0.jar";
+            "hash" = "sha512-y4hTtvsFbfziPu4G6Vns2rMZ0I5EmxS2GKqS4m25zeI5yAwgZjeUHEj/MpRJxULd8sqQ+l6dGkdJtH+3WGMZhw==";
+        };
+        _OSPl11fH = {
+            "id" = "OSPl11fH";
+            "file" = "bettergamemode-1.4.0.jar";
+            "hash" = "sha512-9H9/YbtkA2HStPSoFxMzRauqO2cvVjhSYSKvVX0uhg4bc4vrFRUKB509o18pp0RzQJWi0n69CC7zxCnmWKgK8Q==";
+        };
+        _UnUFV0vC = {
+            "id" = "UnUFV0vC";
+            "file" = "bettergamemode-1.4.0.jar";
+            "hash" = "sha512-fhs5ZXeepMWM1W0+PzCStJnxAmvo8Mo6s9ivyPduGvkFJIzLD0ZX8qBoBr6/fZF7IFhKe0N/HzpWVpKECxiL3w==";
+        };
     in {
         "jw9Xo0MP" = _jw9Xo0MP;
         "wUEQMjU0" = _wUEQMjU0;
@@ -428,6 +443,9 @@ let
         "OsvgOwvL" = _OsvgOwvL;
         "2zoRipt3" = _2zoRipt3;
         "PUgq2AA3" = _PUgq2AA3;
+        "2We4L9Ly" = _2We4L9Ly;
+        "OSPl11fH" = _OSPl11fH;
+        "UnUFV0vC" = _UnUFV0vC;
         "forge-1.7.10" = _jw9Xo0MP;
         "forge-1.8.9" = _wUEQMjU0;
         "forge-1.10.2" = _q02i22Sn;
@@ -456,6 +474,7 @@ let
         "forge-26.1.1" = _nMWmlHVy;
         "forge-26.1.2" = _7JJhRwew;
         "forge-26.2" = _2zoRipt3;
+        "forge-26.3" = _OSPl11fH;
         "fabric-1.14.4" = _5gRep9mr;
         "fabric-1.15.2" = _5J6EbhfP;
         "fabric-1.16.5" = _HfQpHC0B;
@@ -479,6 +498,7 @@ let
         "fabric-26.1.1" = _RnJSVnfk;
         "fabric-26.1.2" = _EktOOFV7;
         "fabric-26.2" = _OsvgOwvL;
+        "fabric-26.3" = _2We4L9Ly;
         "neoforge-1.20.4" = _HVNn0tLv;
         "neoforge-1.20.6" = _36Gget7g;
         "neoforge-1.21.1" = _ckB4TDJH;
@@ -494,9 +514,10 @@ let
         "neoforge-26.1.1" = _M5KX3NDT;
         "neoforge-26.1.2" = _HSAtqGCU;
         "neoforge-26.2" = _PUgq2AA3;
-        "pkg-1.4.0" = _PUgq2AA3;
+        "neoforge-26.3" = _UnUFV0vC;
+        "pkg-1.4.0" = _UnUFV0vC;
         "pkg-1.4.1" = _11t6kmsG;
-        "default" = _PUgq2AA3;
+        "default" = _UnUFV0vC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-gamemode";

@@ -196,6 +196,16 @@ let
             "file" = "enhanced-movement-neoforge-2.1.4.jar";
             "hash" = "sha512-KfYFHuHUBm8oYEACj0arDXkdMxobnJ7zFQn/28Z42rXbxwts+2vlFEv/YCLfz5SnG2zRr84+1ahSDlHakOfyFQ==";
         };
+        _qafyphco = {
+            "id" = "qafyphco";
+            "file" = "enhanced-movement-fabric-2.3.0.jar";
+            "hash" = "sha512-wOSYly/+cKpxf3vwZ6iQaEORq2AuvGly3seB3t4O2YMDXp15XFeXWbZSOYS9gabCosMvSs01QIO5Nr/ECTW5Tg==";
+        };
+        _xdwCDxyf = {
+            "id" = "xdwCDxyf";
+            "file" = "enhanced-movement-neoforge-2.3.0.jar";
+            "hash" = "sha512-bb7iLeaqAzK52VkFzYCVqqjcjUBMZdWpftx08oaP96Mbcco8RkvlhhA8FILvUyqf6+R/d2UW4E63f3YgBajBTw==";
+        };
     in {
         "zv6wBeJM" = _zv6wBeJM;
         "ddh3Trv9" = _ddh3Trv9;
@@ -236,6 +246,8 @@ let
         "SvmB1L8F" = _SvmB1L8F;
         "Y50ibi9l" = _Y50ibi9l;
         "XHb0ALN4" = _XHb0ALN4;
+        "qafyphco" = _qafyphco;
+        "xdwCDxyf" = _xdwCDxyf;
         "fabric-1.21.8" = _b94BM1Tc;
         "fabric-26.1" = _ESxnzlJC;
         "fabric-26.1.1" = _ESxnzlJC;
@@ -245,6 +257,7 @@ let
         "fabric-1.21.1" = _WFvn5Cnx;
         "fabric-1.21.4" = _Y50ibi9l;
         "fabric-1.21.11" = _2V5vow3K;
+        "fabric-26.3" = _qafyphco;
         "neoforge-26.1" = _tF6SjlP3;
         "neoforge-26.1.1" = _tF6SjlP3;
         "neoforge-26.1.2" = _tF6SjlP3;
@@ -253,6 +266,7 @@ let
         "neoforge-1.21.4" = _XHb0ALN4;
         "neoforge-1.21.8" = _pMjNrjHb;
         "neoforge-1.21.11" = _cFKRWv8h;
+        "neoforge-26.3" = _xdwCDxyf;
         "pkg-1.1.0+mc1.21.8" = _zv6wBeJM;
         "pkg-1.1.1+mc1.21.8" = _ddh3Trv9;
         "pkg-2.0.1+mc26.1.2" = _ktXyCe1Z;
@@ -274,7 +288,8 @@ let
         "pkg-2.1.4+mc1.21.11" = _cFKRWv8h;
         "pkg-2.1.4+mc1.21.1" = _SvmB1L8F;
         "pkg-2.1.4+mc1.21.4" = _XHb0ALN4;
-        "default" = _XHb0ALN4;
+        "pkg-2.3.0+mc26.3" = _xdwCDxyf;
+        "default" = _xdwCDxyf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enhanced-movement";

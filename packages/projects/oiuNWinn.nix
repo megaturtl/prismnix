@@ -471,6 +471,11 @@ let
             "file" = "camera-neoforge-1.1.9+26.3.jar";
             "hash" = "sha512-f9wCGvDEJlGE/ZmTuamgZis4cEhzXj8wki0xXbxI+DEWpJkS7K146td2yOqxuilH0R9IjLEYm3aPT5yW9iofbA==";
         };
+        _Mgwc125T = {
+            "id" = "Mgwc125T";
+            "file" = "camera-neoforge-1.1.10+26.3.jar";
+            "hash" = "sha512-Thfy1ckTP9lO1MkcPM+OYsdW7wDEKcKyS8iCg1c1YadNphjflO67l4At+dKmroYZwqgNf2dKUz8TnWMvkdn8WA==";
+        };
     in {
         "uz5YoD2L" = _uz5YoD2L;
         "Yq0N89iQ" = _Yq0N89iQ;
@@ -566,6 +571,7 @@ let
         "89NNZBcd" = _89NNZBcd;
         "v3SRbUGp" = _v3SRbUGp;
         "w1DJrOO8" = _w1DJrOO8;
+        "Mgwc125T" = _Mgwc125T;
         "forge-1.19" = _9FyJYfi5;
         "forge-1.19.1" = _yBpL5DFm;
         "forge-1.19.2" = _pvvy7VBU;
@@ -598,7 +604,7 @@ let
         "neoforge-26.1.1" = _89NNZBcd;
         "neoforge-26.1.2" = _89NNZBcd;
         "neoforge-26.2" = _v3SRbUGp;
-        "neoforge-26.3" = _w1DJrOO8;
+        "neoforge-26.3" = _Mgwc125T;
         "pkg-forge-1.19-1.0.2" = _uz5YoD2L;
         "pkg-forge-1.19-1.0.3" = _Yq0N89iQ;
         "pkg-forge-1.19-1.0.4" = _Dq5KUxuI;
@@ -685,7 +691,8 @@ let
         "pkg-neoforge-1.1.9+26.1.2" = _89NNZBcd;
         "pkg-neoforge-1.1.9+26.2" = _v3SRbUGp;
         "pkg-neoforge-1.1.9+26.3" = _w1DJrOO8;
-        "default" = _w1DJrOO8;
+        "pkg-neoforge-1.1.10+26.3" = _Mgwc125T;
+        "default" = _Mgwc125T;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "camera-mod";

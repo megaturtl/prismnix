@@ -116,6 +116,16 @@ let
             "file" = "mobility-1.10.2-26.1.2.jar";
             "hash" = "sha512-Lnxnyy5rHkh/+R5VdatDAXD7p3dcR9Ucdejp2ldDiLCJz9Wx8Pme6NIJI6e6nsq7c59lYXxMKexVpL9XUb6RJw==";
         };
+        _RIq8LgWd = {
+            "id" = "RIq8LgWd";
+            "file" = "mobility-1.10.2-26.2.jar";
+            "hash" = "sha512-A0DSMo569KRb/apbVu+RQON9n7mObr0eH0EgbkQ7BMuPg/XwgUjnoI/PQdWsD3cRxuDq1IIf5MM3SFU57AAqag==";
+        };
+        _JPVJWsIs = {
+            "id" = "JPVJWsIs";
+            "file" = "mobility-1.10.2-26.3.jar";
+            "hash" = "sha512-2JlNyaYr7a7D24U4SMDxRVqiu7LQZ2alOfhjTiF2Z2XrBT4SSBHwTia8lpBxeFHK8X3bdFRHo/DC6et62WXPJA==";
+        };
     in {
         "6wKUNxZo" = _6wKUNxZo;
         "uIHtKgvU" = _uIHtKgvU;
@@ -140,6 +150,8 @@ let
         "xG9SXiRS" = _xG9SXiRS;
         "rASVONrN" = _rASVONrN;
         "4BFYvJ0V" = _4BFYvJ0V;
+        "RIq8LgWd" = _RIq8LgWd;
+        "JPVJWsIs" = _JPVJWsIs;
         "fabric-1.19.4" = _6wKUNxZo;
         "fabric-1.20" = _VpZko9R9;
         "fabric-1.20.1" = _lMHDzSFk;
@@ -162,6 +174,8 @@ let
         "fabric-26.1" = _4BFYvJ0V;
         "fabric-26.1.1" = _4BFYvJ0V;
         "fabric-26.1.2" = _4BFYvJ0V;
+        "fabric-26.2" = _RIq8LgWd;
+        "fabric-26.3" = _JPVJWsIs;
         "pkg-1.0.0" = _6wKUNxZo;
         "pkg-1.1.0" = _uIHtKgvU;
         "pkg-1.1.1" = _oaL5Qt16;
@@ -184,7 +198,9 @@ let
         "pkg-1.10.0" = _aYASrMIB;
         "pkg-1.10.1" = _xG9SXiRS;
         "pkg-1.10.2" = _4BFYvJ0V;
-        "default" = _4BFYvJ0V;
+        "pkg-1.10.2-26.2" = _RIq8LgWd;
+        "pkg-1.10.2-26.3" = _JPVJWsIs;
+        "default" = _JPVJWsIs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "frostbytes-maximum-mobility";

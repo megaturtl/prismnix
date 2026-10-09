@@ -321,6 +321,21 @@ let
             "file" = "AdvancementPlaques-26.2-forge-1.7.2.jar";
             "hash" = "sha512-GQ91ZrSby1k/QsRoVPQ03wcpSeNXBR5ceTjQhylThC8lmpwNUp+Jmi8Pq0q1pZXo2vg7jz0S2LVnOpnscJrydA==";
         };
+        _CWKBEIsY = {
+            "id" = "CWKBEIsY";
+            "file" = "AdvancementPlaques-26.3-fabric-1.7.3.jar";
+            "hash" = "sha512-n4tlxhEzXQsaY7ZxZgvZ411HGdP/2leycTO8jB/zUaTKjWHc+fDsWxBog06muEA/Hvc7eYyrdSSynzJpTqy7dg==";
+        };
+        _XqQOUqXk = {
+            "id" = "XqQOUqXk";
+            "file" = "AdvancementPlaques-26.3-neoforge-1.7.3.jar";
+            "hash" = "sha512-oflifmyamY5C7b0DqseumjhTDtbpbxzc0nGuJxw3esIH0JgQr6q7x2jdSOyWUsl6Sv5OG861yeozHccqmB1YvA==";
+        };
+        _MHNAlTSl = {
+            "id" = "MHNAlTSl";
+            "file" = "AdvancementPlaques-26.3-forge-1.7.3.jar";
+            "hash" = "sha512-fJQmzZ+WHTeR7J2F4MDcHP1W82G31qVR6L1X79YjJVJleM7jt7Zfn4mRkTcLec/Doxk+yJ82rNDoZbgHpVTKDA==";
+        };
     in {
         "i82iP1q7" = _i82iP1q7;
         "3D0Ay8Mj" = _3D0Ay8Mj;
@@ -386,6 +401,9 @@ let
         "EULg1tpY" = _EULg1tpY;
         "Tl7N8BOp" = _Tl7N8BOp;
         "axbWSYuj" = _axbWSYuj;
+        "CWKBEIsY" = _CWKBEIsY;
+        "XqQOUqXk" = _XqQOUqXk;
+        "MHNAlTSl" = _MHNAlTSl;
         "forge-1.19" = _i82iP1q7;
         "forge-1.19.1" = _i82iP1q7;
         "forge-1.19.2" = _i82iP1q7;
@@ -407,6 +425,7 @@ let
         "forge-26.1.1" = _Z2KdXUtr;
         "forge-26.1.2" = _Z2KdXUtr;
         "forge-26.2" = _axbWSYuj;
+        "forge-26.3" = _MHNAlTSl;
         "fabric-1.19" = _GBfneXwP;
         "fabric-1.19.1" = _GBfneXwP;
         "fabric-1.19.2" = _A2usjY8H;
@@ -428,6 +447,7 @@ let
         "fabric-26.1.1" = _PrBPZ5eb;
         "fabric-26.1.2" = _PrBPZ5eb;
         "fabric-26.2" = _EULg1tpY;
+        "fabric-26.3" = _CWKBEIsY;
         "neoforge-1.21" = _c9TCHzFo;
         "neoforge-1.21.1" = _OWylG33I;
         "neoforge-1.21.3" = _QqBNyVm0;
@@ -437,6 +457,7 @@ let
         "neoforge-26.1.1" = _aNTD9OYF;
         "neoforge-26.1.2" = _aNTD9OYF;
         "neoforge-26.2" = _Tl7N8BOp;
+        "neoforge-26.3" = _XqQOUqXk;
         "pkg-1.4.7" = _i82iP1q7;
         "pkg-1.4.5.1" = _3D0Ay8Mj;
         "pkg-1.4.1" = _jYGsAiw9;
@@ -459,7 +480,8 @@ let
         "pkg-1.7.0" = _ZsEMffUr;
         "pkg-1.7.1" = _Z2KdXUtr;
         "pkg-1.7.2" = _axbWSYuj;
-        "default" = _axbWSYuj;
+        "pkg-1.7.3" = _MHNAlTSl;
+        "default" = _MHNAlTSl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "advancement-plaques";

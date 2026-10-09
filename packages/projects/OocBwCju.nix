@@ -126,6 +126,11 @@ let
             "file" = "srsl-26.2-2.1.0-26083000-Neo.jar";
             "hash" = "sha512-mYxFjX5bIVx/MR8qeS5Y0M6o501eK6Qm7aQ5a/reY6rHPLgNhworL5q0D8ODUBSGRKcFVywjx0KuAp+1NV9idQ==";
         };
+        _soCQ8PW8 = {
+            "id" = "soCQ8PW8";
+            "file" = "srsl-26.3-2.1.0-26100500-Neo.jar";
+            "hash" = "sha512-WvYZX+AwK9GsFJoY73te5XVIzuHuhm+hsKAurQSTGxSafB7sbCnNX1o+bf6ONMl1ENjXxiDR+FCye3DcumMH+Q==";
+        };
     in {
         "t53R67Nc" = _t53R67Nc;
         "zCzD6Qjf" = _zCzD6Qjf;
@@ -152,6 +157,7 @@ let
         "a1hjKs0N" = _a1hjKs0N;
         "SUygb0DG" = _SUygb0DG;
         "kFUaOT92" = _kFUaOT92;
+        "soCQ8PW8" = _soCQ8PW8;
         "forge-1.20.1" = _dRJqw8Ec;
         "forge-1.20.2" = _Tpa8Ilzn;
         "forge-1.20.3" = _Tpa8Ilzn;
@@ -167,6 +173,7 @@ let
         "neoforge-26.1.1" = _SUygb0DG;
         "neoforge-26.1.2" = _SUygb0DG;
         "neoforge-26.2" = _kFUaOT92;
+        "neoforge-26.3" = _soCQ8PW8;
         "pkg-0.2.2-1.20.1" = _t53R67Nc;
         "pkg-1.20.1-0.2.9" = _zCzD6Qjf;
         "pkg-1.20.1-0.2.15" = _Tpa8Ilzn;
@@ -192,7 +199,8 @@ let
         "pkg-26.2-2.1.0-26081300-Neo" = _a1hjKs0N;
         "pkg-26.1.1-2.0.1-26082800-Neo" = _SUygb0DG;
         "pkg-26.2-2.1.0-26083000-Neo" = _kFUaOT92;
-        "default" = _kFUaOT92;
+        "pkg-26.3-2.1.0-26100500-Neo" = _soCQ8PW8;
+        "default" = _soCQ8PW8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "srsl";

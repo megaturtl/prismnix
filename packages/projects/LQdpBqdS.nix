@@ -201,6 +201,21 @@ let
             "file" = "tiab-fabric-7.1.0.jar";
             "hash" = "sha512-fvJzjdZPoqr6ltfjSqe6p4AxFpVduOi1ylgdOTbdACn6oMy1UneadkNeKnR3+sRWGMJaBr8hggHpnHcQvRon/g==";
         };
+        _wdHygHyr = {
+            "id" = "wdHygHyr";
+            "file" = "tiab-forge-26.1-8.0.0.jar";
+            "hash" = "sha512-WFwZF+aMirGD6pPrq0WnLOgh6stXeksj+/eRw3ioh50cOuv3iITaoMMtNqipKFuLy/0sawpbu6aR3yErGsrvrA==";
+        };
+        _1Xr1OX3k = {
+            "id" = "1Xr1OX3k";
+            "file" = "tiab-fabric-8.0.0.jar";
+            "hash" = "sha512-NTg5gmBzJsrEMxk17d6gTFrcddthR9qlNIIobn+I7wZt6D2hqEOuqTSpHOSvkPqGRIpDVfoJKXHCggHl1+GCBw==";
+        };
+        _Wn3zRftS = {
+            "id" = "Wn3zRftS";
+            "file" = "tiab-neoforge-8.0.0.jar";
+            "hash" = "sha512-+Av6/uuYR0+tFXK4p4QVF1eZPsCc51IYZ7vuZ4O5+cdVcx0Dx4d4mBugzM2uyinlH1DTRu7r6XK+VHW84zRU4A==";
+        };
     in {
         "GLRBuF2b" = _GLRBuF2b;
         "5YKRjC02" = _5YKRjC02;
@@ -242,27 +257,33 @@ let
         "bEcmyTkK" = _bEcmyTkK;
         "cKaOQqKM" = _cKaOQqKM;
         "Usdds8IF" = _Usdds8IF;
+        "wdHygHyr" = _wdHygHyr;
+        "1Xr1OX3k" = _1Xr1OX3k;
+        "Wn3zRftS" = _Wn3zRftS;
         "forge-1.21" = _BiWgMvj7;
         "forge-1.20.6" = _mLaRizVY;
         "forge-1.21.1" = _umFEHVpD;
-        "forge-26.1" = _bEcmyTkK;
-        "forge-26.1.1" = _bEcmyTkK;
-        "forge-26.1.2" = _bEcmyTkK;
-        "forge-26.2" = _bEcmyTkK;
+        "forge-26.1" = _wdHygHyr;
+        "forge-26.1.1" = _wdHygHyr;
+        "forge-26.1.2" = _wdHygHyr;
+        "forge-26.2" = _wdHygHyr;
+        "forge-26.3" = _wdHygHyr;
         "fabric-1.21" = _TQSWffyh;
         "fabric-1.20.6" = _tTwyMSlK;
         "fabric-1.21.1" = _8x4mNX9r;
-        "fabric-26.1" = _Usdds8IF;
-        "fabric-26.1.1" = _Usdds8IF;
-        "fabric-26.1.2" = _Usdds8IF;
-        "fabric-26.2" = _Usdds8IF;
+        "fabric-26.1" = _1Xr1OX3k;
+        "fabric-26.1.1" = _1Xr1OX3k;
+        "fabric-26.1.2" = _1Xr1OX3k;
+        "fabric-26.2" = _1Xr1OX3k;
+        "fabric-26.3" = _1Xr1OX3k;
         "neoforge-1.21" = _Dc5oQK7L;
         "neoforge-1.20.6" = _kATq8cJz;
         "neoforge-1.21.1" = _rG10hU1G;
-        "neoforge-26.1" = _cKaOQqKM;
-        "neoforge-26.1.1" = _cKaOQqKM;
-        "neoforge-26.1.2" = _cKaOQqKM;
-        "neoforge-26.2" = _cKaOQqKM;
+        "neoforge-26.1" = _Wn3zRftS;
+        "neoforge-26.1.1" = _Wn3zRftS;
+        "neoforge-26.1.2" = _Wn3zRftS;
+        "neoforge-26.2" = _Wn3zRftS;
+        "neoforge-26.3" = _Wn3zRftS;
         "pkg-6.0.0" = _KDTeUw03;
         "pkg-5.1.0" = _kATq8cJz;
         "pkg-6.1.0" = _XglbA1Ye;
@@ -279,7 +300,8 @@ let
         "pkg-7.0.0" = _RyQ3UZ9w;
         "pkg-7.0.1" = _8IWfZHeS;
         "pkg-7.1.0" = _Usdds8IF;
-        "default" = _Usdds8IF;
+        "pkg-8.0.0" = _Wn3zRftS;
+        "default" = _Wn3zRftS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "time-in-a-bottle-universal";

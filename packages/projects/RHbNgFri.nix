@@ -41,6 +41,36 @@ let
             "file" = "compoundv-2.4.1.jar";
             "hash" = "sha512-GVitoIviSqQOqyOcEH02H1bLgkNa+6TbYZ70R+ZVYjXPolRGSfbUsH779G0mzLvfUb/JWlBJtlDDT7TBAQgp8A==";
         };
+        _KOThdv1g = {
+            "id" = "KOThdv1g";
+            "file" = "compoundv-3.0.0.jar";
+            "hash" = "sha512-I76RlkwguhxIlXXvTP4MQiStDfYtD/z1KNd9+VJNU/W9YHl+evL1h0Y07TDLcG9V7GPnaWh5n2CLLgpG9wwOIA==";
+        };
+        _i1h0KiWx = {
+            "id" = "i1h0KiWx";
+            "file" = "compoundv-3.0.1.jar";
+            "hash" = "sha512-B7JgF7f2FL0m6P51GId+y05tHAG76iBrKhGvd9M+8ppQToQqU0atafboV+A2huOEbw3svjnZ+3oEnjHSkMOUpw==";
+        };
+        _uZfYoTn3 = {
+            "id" = "uZfYoTn3";
+            "file" = "compoundv-3.1.0.jar";
+            "hash" = "sha512-Q8LVXok+GrxoNktZlVtynA+AdCHKCLZVI9PcbEPtkVpoEMiM97/8UlSiu4YCYrukMj/53SnxK+AwtNszYJS4Tw==";
+        };
+        _zj1F01MW = {
+            "id" = "zj1F01MW";
+            "file" = "compoundv-3.1.1.jar";
+            "hash" = "sha512-kyxKGbVwghZKReDxjqkkk8q/rlprlaoVjeFdhpgU+URr4/bsB9k7T8VfaS9TbpanaABeM6ck/QJLPCS1Wr4gag==";
+        };
+        _ZYY7KiAo = {
+            "id" = "ZYY7KiAo";
+            "file" = "compoundv-3.1.2.jar";
+            "hash" = "sha512-cF07pb6wwSt3rgVrAk6vFHyMz7TwF2RbEsRq65Cy7T9he++g29kK2tc3GTsTV/3b9C5833F/pYHnpSvZW8m1NA==";
+        };
+        _k1JqGSwh = {
+            "id" = "k1JqGSwh";
+            "file" = "compoundv-3.1.3.jar";
+            "hash" = "sha512-UBY1DextP7xdaSz6H0Ih4ug6dqCq+YRnm0A2VEcpaAuScuL/Y5dFoJswAWLdu4fnQ05lryoHdvGJhOOe8XF7Ug==";
+        };
     in {
         "lRc2ELOJ" = _lRc2ELOJ;
         "45NRaPtU" = _45NRaPtU;
@@ -50,7 +80,13 @@ let
         "Q53ATEVv" = _Q53ATEVv;
         "a5mHxElY" = _a5mHxElY;
         "rzfW4oNZ" = _rzfW4oNZ;
-        "fabric-1.20.1" = _rzfW4oNZ;
+        "KOThdv1g" = _KOThdv1g;
+        "i1h0KiWx" = _i1h0KiWx;
+        "uZfYoTn3" = _uZfYoTn3;
+        "zj1F01MW" = _zj1F01MW;
+        "ZYY7KiAo" = _ZYY7KiAo;
+        "k1JqGSwh" = _k1JqGSwh;
+        "fabric-1.20.1" = _k1JqGSwh;
         "pkg-1.0.0" = _lRc2ELOJ;
         "pkg-2.0.0" = _45NRaPtU;
         "pkg-2.1.0" = _PPZF2wGK;
@@ -59,7 +95,13 @@ let
         "pkg-2.3.0" = _Q53ATEVv;
         "pkg-2.4.0" = _a5mHxElY;
         "pkg-2.4.1" = _rzfW4oNZ;
-        "default" = _rzfW4oNZ;
+        "pkg-3.0.0" = _KOThdv1g;
+        "pkg-3.0.1" = _i1h0KiWx;
+        "pkg-3.1.0" = _uZfYoTn3;
+        "pkg-3.1.1" = _zj1F01MW;
+        "pkg-3.1.2" = _ZYY7KiAo;
+        "pkg-3.1.3" = _k1JqGSwh;
+        "default" = _k1JqGSwh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-boys-unbalanced";

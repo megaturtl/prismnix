@@ -41,6 +41,11 @@ let
             "file" = "Theone's Eating Animation Pack v1.0.zip";
             "hash" = "sha512-mzzjI/wwtnvmFvqQSN1feR5dD0qOjCsPbQjtClCNy+Ip3nBlAeHSsuRclcUmAIOOIwJwd/DvhkUjtUwg6s/9ww==";
         };
+        _laDCvp3K = {
+            "id" = "laDCvp3K";
+            "file" = "Theone's Eating Animation Pack v1.0.zip";
+            "hash" = "sha512-zIis/jE2yqOKjsROGRLpU0v5wbDZBPkP15b0a+Rkd1CjeLWiwXOLPblTl70l0a7JjpWchZdsWqR1ee3povHSaA==";
+        };
     in {
         "hz3muwN0" = _hz3muwN0;
         "MDMgOFMJ" = _MDMgOFMJ;
@@ -50,23 +55,25 @@ let
         "qw5e9mrm" = _qw5e9mrm;
         "4if0gBBN" = _4if0gBBN;
         "Hbd6vTCJ" = _Hbd6vTCJ;
+        "laDCvp3K" = _laDCvp3K;
         "minecraft-24w45a" = _hz3muwN0;
-        "minecraft-1.21.4" = _Hbd6vTCJ;
-        "minecraft-1.21.5" = _Hbd6vTCJ;
-        "minecraft-1.21.6" = _Hbd6vTCJ;
-        "minecraft-1.21.7" = _Hbd6vTCJ;
-        "minecraft-1.21.8" = _Hbd6vTCJ;
-        "minecraft-1.21.9" = _Hbd6vTCJ;
-        "minecraft-1.21.10" = _Hbd6vTCJ;
-        "minecraft-1.21.11" = _Hbd6vTCJ;
-        "minecraft-26.1" = _Hbd6vTCJ;
-        "minecraft-26.1.1" = _Hbd6vTCJ;
-        "minecraft-26.1.2" = _Hbd6vTCJ;
-        "minecraft-26.2" = _Hbd6vTCJ;
+        "minecraft-1.21.4" = _laDCvp3K;
+        "minecraft-1.21.5" = _laDCvp3K;
+        "minecraft-1.21.6" = _laDCvp3K;
+        "minecraft-1.21.7" = _laDCvp3K;
+        "minecraft-1.21.8" = _laDCvp3K;
+        "minecraft-1.21.9" = _laDCvp3K;
+        "minecraft-1.21.10" = _laDCvp3K;
+        "minecraft-1.21.11" = _laDCvp3K;
+        "minecraft-26.1" = _laDCvp3K;
+        "minecraft-26.1.1" = _laDCvp3K;
+        "minecraft-26.1.2" = _laDCvp3K;
+        "minecraft-26.2" = _laDCvp3K;
+        "minecraft-26.3" = _laDCvp3K;
         "pkg-0.85" = _hz3muwN0;
         "pkg-0.95" = _MDMgOFMJ;
-        "pkg-1.0" = _Hbd6vTCJ;
-        "default" = _Hbd6vTCJ;
+        "pkg-1.0" = _laDCvp3K;
+        "default" = _laDCvp3K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "theones-eating-animation-pack";

@@ -66,6 +66,11 @@ let
             "file" = "CobblePCEnhanced-1.7.4.jar";
             "hash" = "sha512-4BaZzvuWiLFDvpFuJsx/vkmBPWT1cYDFG+4JUT5QnmhgFoLa2tvxMED8GDbOCQyrQKc4gJMqUBgvIaih+KsQHA==";
         };
+        _AA5NYI95 = {
+            "id" = "AA5NYI95";
+            "file" = "CobblePCEnhanced-1.7.5.jar";
+            "hash" = "sha512-yM5aewfoAqkwhELaTzW9gA9Vcup+5W/PzWkxPr7Rlurqgk/Zj4fQBgWKZjyKb/6jgYRo8Q6N8MvcdpVM+0d8Gw==";
+        };
     in {
         "Wa0MuXHK" = _Wa0MuXHK;
         "n10FOGz8" = _n10FOGz8;
@@ -80,7 +85,8 @@ let
         "T3fenjPE" = _T3fenjPE;
         "U25IwyZp" = _U25IwyZp;
         "xRfJlbEb" = _xRfJlbEb;
-        "fabric-1.21.1" = _xRfJlbEb;
+        "AA5NYI95" = _AA5NYI95;
+        "fabric-1.21.1" = _AA5NYI95;
         "pkg-1.0.0" = _Wa0MuXHK;
         "pkg-1.1.0" = _n10FOGz8;
         "pkg-1.2.0" = _qOdkN0Lk;
@@ -94,7 +100,8 @@ let
         "pkg-1.7.2" = _T3fenjPE;
         "pkg-1.7.3" = _U25IwyZp;
         "pkg-1.7.4" = _xRfJlbEb;
-        "default" = _xRfJlbEb;
+        "pkg-1.7.5" = _AA5NYI95;
+        "default" = _AA5NYI95;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblepcenhanced";

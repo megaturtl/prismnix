@@ -106,6 +106,16 @@ let
             "file" = "new-frontier-craft-1.1.2.jar";
             "hash" = "sha512-hSLsMRr9I5KEW4RQX8QwHOjOfFNLXR5Z4LBU2FrOQ3XTaZROBdP1CGa+RgFrM5WUppv5UJyzM7ER6VRl70Jeyg==";
         };
+        _WjQtw4HM = {
+            "id" = "WjQtw4HM";
+            "file" = "new-frontier-craft-1.1.3.jar";
+            "hash" = "sha512-70uxKOLhZwJmoFL/Zt45LWL54qAH6+zAUJMgi4TRDbO/BFC8mTKwWG8TSq620KpnbMK6XH3v2m4ompvIf2Uf9A==";
+        };
+        _bQOYkxBL = {
+            "id" = "bQOYkxBL";
+            "file" = "new-frontier-craft-1.2.0.jar";
+            "hash" = "sha512-jtvPRDtBZmn2YmlQr6rZ8tOnzIw/rab1nl/PE7TvgFVINS/gDjTEtZ7y0ggigZtTnFEbeHyTWHTnQerXsgn9ZA==";
+        };
     in {
         "9b3voxtX" = _9b3voxtX;
         "kTjyh3NW" = _kTjyh3NW;
@@ -128,8 +138,10 @@ let
         "X8oK1QeI" = _X8oK1QeI;
         "GTod2Ewf" = _GTod2Ewf;
         "j41AvWWy" = _j41AvWWy;
-        "babric-b1.7.3" = _j41AvWWy;
-        "fabric-b1.7.3" = _j41AvWWy;
+        "WjQtw4HM" = _WjQtw4HM;
+        "bQOYkxBL" = _bQOYkxBL;
+        "babric-b1.7.3" = _bQOYkxBL;
+        "fabric-b1.7.3" = _bQOYkxBL;
         "pkg-0.1.0" = _9b3voxtX;
         "pkg-0.2.0" = _kTjyh3NW;
         "pkg-0.3.0" = _aNGeRVhy;
@@ -151,7 +163,9 @@ let
         "pkg-1.0.0" = _X8oK1QeI;
         "pkg-1.1.1" = _GTod2Ewf;
         "pkg-1.1.2" = _j41AvWWy;
-        "default" = _j41AvWWy;
+        "pkg-1.1.3" = _WjQtw4HM;
+        "pkg-1.2.0" = _bQOYkxBL;
+        "default" = _bQOYkxBL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "new-frontier-craft";

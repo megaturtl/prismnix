@@ -1731,6 +1731,11 @@ let
             "file" = "PacketFixer-fabric-3.3.6.jar";
             "hash" = "sha512-jTE5sVDvWRxisIb1U74hK8cutKMrCx+LtcwGmpt5qFBG0xsRR+Wq/yPktpu5LHZEXUGIRlentlLe8l4rc9YWEw==";
         };
+        _Fq2YuqLr = {
+            "id" = "Fq2YuqLr";
+            "file" = "PacketFixer-neoforge-3.3.7.jar";
+            "hash" = "sha512-ovzlAvAKFmdsoqZH+dmcVmCklpUUYmzQz99I/HZyEqwARhuhSYvCs5xIb6q9F7LQJftJbs1RqhLkWVMOqjnRHQ==";
+        };
     in {
         "KrYK51hs" = _KrYK51hs;
         "rumABPUL" = _rumABPUL;
@@ -2078,6 +2083,7 @@ let
         "V1pYl7hL" = _V1pYl7hL;
         "N0g8tI7m" = _N0g8tI7m;
         "dTKbGYbb" = _dTKbGYbb;
+        "Fq2YuqLr" = _Fq2YuqLr;
         "forge-1.15.2" = _SxbVTgCQ;
         "forge-1.17.1" = _AnLM61ML;
         "forge-1.18" = _9F4NGhGR;
@@ -2196,7 +2202,7 @@ let
         "neoforge-26.1.1" = _pUoH1oJA;
         "neoforge-26.1.2" = _pUoH1oJA;
         "neoforge-26.2" = _p904LRVx;
-        "neoforge-26.3" = _N0g8tI7m;
+        "neoforge-26.3" = _Fq2YuqLr;
         "pkg-1.0.2" = _VCeh21Yo;
         "pkg-1.0.3" = _kS2f9ZHt;
         "pkg-1.0.4" = _y9mjVgll;
@@ -2269,7 +2275,8 @@ let
         "pkg-3.3.4" = _M8PqPQr4;
         "pkg-3.3.5" = _6e5jpTai;
         "pkg-3.3.6" = _dTKbGYbb;
-        "default" = _dTKbGYbb;
+        "pkg-3.3.7" = _Fq2YuqLr;
+        "default" = _Fq2YuqLr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "packet-fixer";

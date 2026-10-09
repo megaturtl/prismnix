@@ -191,6 +191,16 @@ let
             "file" = "veinminerplusplus-fabric-0.5.0.jar";
             "hash" = "sha512-Fc1h9ZqRQX31kyps4YoMEXAG4vEMsqAypTr5ZpibBb0K0JSDpje6EaaJuoR0ZuMjUkkPPNu4mbElhFI60w8mKQ==";
         };
+        _Y1jXmDqT = {
+            "id" = "Y1jXmDqT";
+            "file" = "veinminerplusplus-fabric-0.6.0.jar";
+            "hash" = "sha512-i4+eBOOh5j1VglvGr+xbC/jeL1uq1+XQyhVlYTjHwvzMiNv3p1/mL3omK6Ng3MsByJK5//QJgFVa83HWzHC0Zg==";
+        };
+        _hP3eP8bc = {
+            "id" = "hP3eP8bc";
+            "file" = "veinminerplusplus-neoforge-0.6.0.jar";
+            "hash" = "sha512-rkEsvK6CofCiRGYJ0OLxaHU09OXAC9T69g6yAPUoyJC2YvAKm0oIFVK5olqVQIX9T0C3atSTWTWAhzS2x2U56A==";
+        };
     in {
         "3WwEIo9N" = _3WwEIo9N;
         "DH2iqi5C" = _DH2iqi5C;
@@ -230,6 +240,8 @@ let
         "tDmCQaIT" = _tDmCQaIT;
         "qz6NBkp8" = _qz6NBkp8;
         "UoyOKIur" = _UoyOKIur;
+        "Y1jXmDqT" = _Y1jXmDqT;
+        "hP3eP8bc" = _hP3eP8bc;
         "fabric-26.1" = _SOtmYFn9;
         "fabric-26.1.1" = _SOtmYFn9;
         "fabric-26.1.2" = _SOtmYFn9;
@@ -239,6 +251,7 @@ let
         "fabric-1.21.4" = _vybGv6AV;
         "fabric-1.21.5" = _Jh94v1zp;
         "fabric-1.20.1" = _UoyOKIur;
+        "fabric-26.3" = _Y1jXmDqT;
         "neoforge-26.1" = _JVn0Nu2Y;
         "neoforge-26.1.1" = _JVn0Nu2Y;
         "neoforge-26.1.2" = _JVn0Nu2Y;
@@ -247,6 +260,7 @@ let
         "neoforge-1.21.8" = _12z555ef;
         "neoforge-1.21.4" = _Z76S0m7u;
         "neoforge-1.21.5" = _fASKzBls;
+        "neoforge-26.3" = _hP3eP8bc;
         "pkg-0.1.0+mc26.1.2" = _DH2iqi5C;
         "pkg-0.2.0+mc26.2" = _pjJV0AUU;
         "pkg-0.3.0+mc26.2" = _81kOpXOj;
@@ -267,7 +281,8 @@ let
         "pkg-0.5.0+mc1.21.4" = _Z76S0m7u;
         "pkg-0.5.0+mc1.21.1" = _qz6NBkp8;
         "pkg-0.5.0+mc1.20.1" = _UoyOKIur;
-        "default" = _UoyOKIur;
+        "pkg-0.6.0+mc26.3" = _hP3eP8bc;
+        "default" = _hP3eP8bc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "veinminer-plus-plus";

@@ -322,7 +322,7 @@ let
         "datapack-26.1.1" = _M440wcNP;
         "datapack-26.1.2" = _M440wcNP;
         "datapack-26.2" = _HnEFFDJF;
-        "datapack-26.3-rc-1" = _44bhr37a;
+        "datapack-26.3" = _44bhr37a;
         "fabric-1.21.9" = _bToJmr8D;
         "fabric-1.21.10" = _bToJmr8D;
         "fabric-1.21.11" = _bToJmr8D;
@@ -344,7 +344,7 @@ let
         "fabric-1.21.7" = _7CRzvIHh;
         "fabric-1.21.8" = _7CRzvIHh;
         "fabric-26.2" = _ZHw23wbr;
-        "fabric-26.3-rc-1" = _VATW1D2u;
+        "fabric-26.3" = _VATW1D2u;
         "forge-1.21.9" = _bToJmr8D;
         "forge-1.21.10" = _bToJmr8D;
         "forge-1.21.11" = _bToJmr8D;
@@ -366,7 +366,7 @@ let
         "forge-1.21.7" = _7CRzvIHh;
         "forge-1.21.8" = _7CRzvIHh;
         "forge-26.2" = _ZHw23wbr;
-        "forge-26.3-rc-1" = _VATW1D2u;
+        "forge-26.3" = _VATW1D2u;
         "neoforge-1.21.9" = _bToJmr8D;
         "neoforge-1.21.10" = _bToJmr8D;
         "neoforge-1.21.11" = _bToJmr8D;
@@ -388,7 +388,7 @@ let
         "neoforge-1.21.7" = _7CRzvIHh;
         "neoforge-1.21.8" = _7CRzvIHh;
         "neoforge-26.2" = _ZHw23wbr;
-        "neoforge-26.3-rc-1" = _VATW1D2u;
+        "neoforge-26.3" = _VATW1D2u;
         "quilt-1.21.9" = _bToJmr8D;
         "quilt-1.21.10" = _bToJmr8D;
         "quilt-1.21.11" = _bToJmr8D;
@@ -410,7 +410,7 @@ let
         "quilt-1.21.7" = _7CRzvIHh;
         "quilt-1.21.8" = _7CRzvIHh;
         "quilt-26.2" = _ZHw23wbr;
-        "quilt-26.3-rc-1" = _VATW1D2u;
+        "quilt-26.3" = _VATW1D2u;
         "pkg-5" = _bkxsbGpX;
         "pkg-6" = _OnppJJ1e;
         "pkg-6.1" = _ZVspLW9l;

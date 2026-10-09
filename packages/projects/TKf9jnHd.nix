@@ -121,6 +121,11 @@ let
             "file" = "titlechanger-1.4.7+mc26.2-fabric.jar";
             "hash" = "sha512-HeDYZOMRXccejscQhk/74ZqCCOhkMz5Ws/8BR7x3pRVTxc1vhJELmxcRhFx9fuJ9hMB0nH90IwcfbazQHgV4zw==";
         };
+        _EagRNur4 = {
+            "id" = "EagRNur4";
+            "file" = "titlechanger-1.4.8+mc26.3.jar";
+            "hash" = "sha512-fYWEz3KhDqOa/GocUkp4focXyKUSl2mk8KJ2QEtusByMheXE41VlrD266bgYtCPQDqtCiD86Y2Cbr5vuPp2JoA==";
+        };
     in {
         "Ncp09yky" = _Ncp09yky;
         "vUqqysi8" = _vUqqysi8;
@@ -146,6 +151,7 @@ let
         "gyxuB5RF" = _gyxuB5RF;
         "woMssrhj" = _woMssrhj;
         "ypf5y7xm" = _ypf5y7xm;
+        "EagRNur4" = _EagRNur4;
         "fabric-1.21.1" = _PrTvogUU;
         "fabric-1.21" = _PrTvogUU;
         "fabric-1.21.2" = _PrTvogUU;
@@ -162,6 +168,7 @@ let
         "fabric-26.1.1" = _woMssrhj;
         "fabric-26.1.2" = _woMssrhj;
         "fabric-26.2" = _ypf5y7xm;
+        "fabric-26.3" = _EagRNur4;
         "forge-1.20.1" = _UTuJm6as;
         "forge-1.20.2" = _UTuJm6as;
         "forge-1.20.3" = _UTuJm6as;
@@ -196,7 +203,8 @@ let
         "pkg-1.4.5" = _gyxuB5RF;
         "pkg-1.4.6" = _woMssrhj;
         "pkg-1.4.7" = _ypf5y7xm;
-        "default" = _ypf5y7xm;
+        "pkg-1.4.8" = _EagRNur4;
+        "default" = _EagRNur4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "titlechanger";

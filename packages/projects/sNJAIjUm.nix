@@ -276,6 +276,56 @@ let
             "file" = "jewelry-fabric-2.4.0+1.20.1.jar";
             "hash" = "sha512-47zi/NsvLDeVogyUz/h/9UfXQFLhNl3qxvvQScL617VS6qMhvvCw9GXt5aPEq1wjIBMu0L122Q2mWvdwGtmAAQ==";
         };
+        _pAH3fT69 = {
+            "id" = "pAH3fT69";
+            "file" = "jewelry-neoforge-2.5.0+1.21.1.jar";
+            "hash" = "sha512-8DwWHpWkjBmjGsqQLuBCctioCQm6GF1OwkewGCzdIDrNVhgXnr2iH2pG0d1Y8hp8Yy+VcHkiNLxkBeXGSEf9JA==";
+        };
+        _6piApxwS = {
+            "id" = "6piApxwS";
+            "file" = "jewelry-fabric-2.5.0+1.21.1.jar";
+            "hash" = "sha512-gH+ygIXnJlILmBOI2eLrJcLHAYo1A1TXuaFVbweIzRLnG0WN7yMNMn1lbd88rdlswyQTn8yVVVQr/LvlZYHAHA==";
+        };
+        _iLTExB6G = {
+            "id" = "iLTExB6G";
+            "file" = "jewelry-neoforge-2.5.1+1.21.1.jar";
+            "hash" = "sha512-fHpkji7B1aHdS7d2hifruZhOdMaOMqTtCsamg5cBwB91lnPUNyMxSxujDPZS9BH/1eMbV8thFzbQLyp5nJ0AuA==";
+        };
+        _Ky8x38tl = {
+            "id" = "Ky8x38tl";
+            "file" = "jewelry-fabric-2.5.1+1.21.1.jar";
+            "hash" = "sha512-HfPsyAYzCvfOEl4Q4yT2A75haBoscMhFouJrnT4wRyZQ0eD9YM9iZ8JVdms9ZBJIfX5gZMAFmkO1ME73C83rzQ==";
+        };
+        _JUvkFw1J = {
+            "id" = "JUvkFw1J";
+            "file" = "jewelry-fabric-2.5.1+26.1.2.jar";
+            "hash" = "sha512-kW8Q5dxMa7K/2ckZQzctVXe5WLbzAPBg1b+tXYe2xYjLDwRLP/i6k8j8ca456bBIW52FtODm0pXfp3fmS1qWAQ==";
+        };
+        _7Uhj05Kr = {
+            "id" = "7Uhj05Kr";
+            "file" = "jewelry-fabric-2.5.1+26.2.jar";
+            "hash" = "sha512-5XrMQlUye3o75on/2EKoYnXDSr8MMM6uWRhEQJE7TIsWpA2nrUv2lpOlGzLxBcx3a+KbiIJBm48cJ71h8ijuCg==";
+        };
+        _9Hm0k68V = {
+            "id" = "9Hm0k68V";
+            "file" = "jewelry-neoforge-2.5.1+26.2.jar";
+            "hash" = "sha512-8iqlQlBvLSmJHKrQQCfb2ZWRmIDHOVNXbMQE3Ubm1V6xepth4Y28C3uN/2wcZn9NJbPSSSoDTCuOPjyi9zt9ag==";
+        };
+        _RHtaSOD4 = {
+            "id" = "RHtaSOD4";
+            "file" = "jewelry-neoforge-2.5.1+26.1.2.jar";
+            "hash" = "sha512-qTu1P9yGmb94zj5ZAOgnX5dK1xZcwXSzAmshRmc67xsT41pMLw/mh635wzUvWLn4ZHYi5obtZfuPrRUS8HH3yQ==";
+        };
+        _xpXy6vPf = {
+            "id" = "xpXy6vPf";
+            "file" = "jewelry-fabric-2.5.1+26.3.jar";
+            "hash" = "sha512-NNF2Uk84cxJMYCTsyltCjFhdYDt96Jz+AY+AjT0bakqmkV0k9ujXTDOSI3Osx9FigSYTyk0FQSakCUDRtIuG7g==";
+        };
+        _DgpI5gtb = {
+            "id" = "DgpI5gtb";
+            "file" = "jewelry-neoforge-2.5.1+26.3.jar";
+            "hash" = "sha512-I5MA7jfnk+Fy946IwzE1/ZYNlE/WPCE/sqXm02wKXJCRBEJAhrYJWCwjLLLPw8xgbpuwSbBv3BLI/dvsXD++ug==";
+        };
     in {
         "jyHbeYby" = _jyHbeYby;
         "NcoVr2Jf" = _NcoVr2Jf;
@@ -332,21 +382,33 @@ let
         "5XsD3uH6" = _5XsD3uH6;
         "xswBYA4q" = _xswBYA4q;
         "njOxC7Or" = _njOxC7Or;
+        "pAH3fT69" = _pAH3fT69;
+        "6piApxwS" = _6piApxwS;
+        "iLTExB6G" = _iLTExB6G;
+        "Ky8x38tl" = _Ky8x38tl;
+        "JUvkFw1J" = _JUvkFw1J;
+        "7Uhj05Kr" = _7Uhj05Kr;
+        "9Hm0k68V" = _9Hm0k68V;
+        "RHtaSOD4" = _RHtaSOD4;
+        "xpXy6vPf" = _xpXy6vPf;
+        "DgpI5gtb" = _DgpI5gtb;
         "fabric-1.19.2" = _CwEN5pPv;
         "fabric-1.20.1" = _njOxC7Or;
-        "fabric-1.21.1" = _XXizhMNZ;
-        "fabric-1.21" = _XXizhMNZ;
-        "fabric-26.1" = _z2o0daz2;
-        "fabric-26.1.1" = _z2o0daz2;
-        "fabric-26.1.2" = _z2o0daz2;
-        "fabric-26.2" = _5XsD3uH6;
-        "neoforge-1.21" = _UYMxzqUh;
-        "neoforge-1.21.1" = _UYMxzqUh;
-        "neoforge-26.1" = _4OiU0vce;
-        "neoforge-26.1.1" = _4OiU0vce;
-        "neoforge-26.1.2" = _4OiU0vce;
-        "neoforge-26.2" = _Un6Q2icJ;
+        "fabric-1.21.1" = _Ky8x38tl;
+        "fabric-1.21" = _Ky8x38tl;
+        "fabric-26.1" = _JUvkFw1J;
+        "fabric-26.1.1" = _JUvkFw1J;
+        "fabric-26.1.2" = _JUvkFw1J;
+        "fabric-26.2" = _7Uhj05Kr;
+        "fabric-26.3" = _xpXy6vPf;
+        "neoforge-1.21" = _iLTExB6G;
+        "neoforge-1.21.1" = _iLTExB6G;
+        "neoforge-26.1" = _RHtaSOD4;
+        "neoforge-26.1.1" = _RHtaSOD4;
+        "neoforge-26.1.2" = _RHtaSOD4;
+        "neoforge-26.2" = _9Hm0k68V;
         "neoforge-1.20.1" = _xswBYA4q;
+        "neoforge-26.3" = _DgpI5gtb;
         "forge-1.20.1" = _xswBYA4q;
         "pkg-1.0.0+1.19.2" = _jyHbeYby;
         "pkg-1.0.0+1.20.1" = _NcoVr2Jf;
@@ -403,7 +465,17 @@ let
         "pkg-2.4.1+26.2-fabric" = _5XsD3uH6;
         "pkg-2.4.0+1.20.1-forge" = _xswBYA4q;
         "pkg-2.4.0+1.20.1-fabric" = _njOxC7Or;
-        "default" = _njOxC7Or;
+        "pkg-2.5.0+1.21.1-neoforge" = _pAH3fT69;
+        "pkg-2.5.0+1.21.1-fabric" = _6piApxwS;
+        "pkg-2.5.1+1.21.1-neoforge" = _iLTExB6G;
+        "pkg-2.5.1+1.21.1-fabric" = _Ky8x38tl;
+        "pkg-2.5.1+26.1.2-fabric" = _JUvkFw1J;
+        "pkg-2.5.1+26.2-fabric" = _7Uhj05Kr;
+        "pkg-2.5.1+26.2-neoforge" = _9Hm0k68V;
+        "pkg-2.5.1+26.1.2-neoforge" = _RHtaSOD4;
+        "pkg-2.5.1+26.3-fabric" = _xpXy6vPf;
+        "pkg-2.5.1+26.3-neoforge" = _DgpI5gtb;
+        "default" = _DgpI5gtb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jewelry";

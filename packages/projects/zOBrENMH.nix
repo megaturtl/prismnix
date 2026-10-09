@@ -136,6 +136,16 @@ let
             "file" = "HerdMentality-fabric-MC26.2-26.2.0.1.jar";
             "hash" = "sha512-7o0ugEY+p4pRX5Tb0yB20588cBwLiGJfCnM8lGAIOugwSitK06pJmnxEI9xPK57FxmxHYc7HIm6Lu0aWBvTg8g==";
         };
+        _aCvupK5j = {
+            "id" = "aCvupK5j";
+            "file" = "HerdMentality-fabric-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-v78+u36CanV5RQMGQuLf7JF2wEDcy6bzoJ0JHk1z/JrpGWiccdsu2FenKe8S3f2H3+MULo48fJ6q9tF0j+s8mQ==";
+        };
+        _HafqPgEF = {
+            "id" = "HafqPgEF";
+            "file" = "HerdMentality-neoforge-MC26.3-26.3.0.1.jar";
+            "hash" = "sha512-Tm5Km5srQeeLoJzqQao95r1Us+bZPJKgK6A8h3naU5dNsWGKDvKL/mKUlo80ZeyJ4uq65Xutei6UI813hqB1xA==";
+        };
     in {
         "t25miKqi" = _t25miKqi;
         "vTaZk4Ig" = _vTaZk4Ig;
@@ -164,6 +174,8 @@ let
         "rc18LKcU" = _rc18LKcU;
         "yO05i3Ol" = _yO05i3Ol;
         "qyeuv2su" = _qyeuv2su;
+        "aCvupK5j" = _aCvupK5j;
+        "HafqPgEF" = _HafqPgEF;
         "forge-1.15.2" = _t25miKqi;
         "forge-1.16.1" = _vTaZk4Ig;
         "forge-1.16.3" = _8Cn7vZqh;
@@ -181,10 +193,12 @@ let
         "neoforge-26.1.1" = _tGzvt1dT;
         "neoforge-26.1.2" = _tGzvt1dT;
         "neoforge-26.2" = _yO05i3Ol;
+        "neoforge-26.3" = _HafqPgEF;
         "fabric-26.1" = _rc18LKcU;
         "fabric-26.1.1" = _rc18LKcU;
         "fabric-26.1.2" = _rc18LKcU;
         "fabric-26.2" = _qyeuv2su;
+        "fabric-26.3" = _aCvupK5j;
         "pkg-1.0.1" = _t25miKqi;
         "pkg-2.0.1" = _vTaZk4Ig;
         "pkg-4.0.1" = _8Cn7vZqh;
@@ -210,7 +224,8 @@ let
         "pkg-12.0.4" = _4F3JT5jM;
         "pkg-26.1.2.1" = _rc18LKcU;
         "pkg-26.2.0.1" = _qyeuv2su;
-        "default" = _qyeuv2su;
+        "pkg-26.3.0.1" = _HafqPgEF;
+        "default" = _HafqPgEF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "herd-mentality";

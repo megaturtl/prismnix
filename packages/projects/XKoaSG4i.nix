@@ -231,6 +231,21 @@ let
             "file" = "mmc-2.1+26.3.jar";
             "hash" = "sha512-AEeced6hioTYQ81wSQF4QNhaVifxm6Kd2dpl7XtbVX+qdSouPoMtptXJGP4dxrf1HVJdODT96bqjXrWyX15n5g==";
         };
+        _DUbb7KZn = {
+            "id" = "DUbb7KZn";
+            "file" = "mmc-3.0+26.1.jar";
+            "hash" = "sha512-x/lsHZKPchkzN32YhWwf+Pgnv+dPEp7U9qMwh64Zt+PYQqPuh91v2nrfLVFDZGy4CcTO259cjbnI4iYQjusHIA==";
+        };
+        _7W4IoAnK = {
+            "id" = "7W4IoAnK";
+            "file" = "mmc-3.0+26.2.jar";
+            "hash" = "sha512-VJP7eOdABIpOeG0c8sGlbFQ+T2GZ9HejWuD80TA1uCuWsDf30fBnu7rttKAY1opyvMES2LkO0qwf/zTH+3CpYg==";
+        };
+        _kGpzU9GU = {
+            "id" = "kGpzU9GU";
+            "file" = "mmc-3.0+26.3.jar";
+            "hash" = "sha512-n40/4riKdEGJkmwobDtJxjp9fx3nC9TbG2WBJwsrEDPTcnduXSeGEfEV6tLkSXSXS/r/Oj2qJgRVB46Q64NSYA==";
+        };
     in {
         "Q4PsWIQe" = _Q4PsWIQe;
         "Qt7yS1eS" = _Qt7yS1eS;
@@ -278,6 +293,9 @@ let
         "AS90I8Kk" = _AS90I8Kk;
         "h1s164L4" = _h1s164L4;
         "CyQkxBXM" = _CyQkxBXM;
+        "DUbb7KZn" = _DUbb7KZn;
+        "7W4IoAnK" = _7W4IoAnK;
+        "kGpzU9GU" = _kGpzU9GU;
         "fabric-1.21" = _j4e8tjWH;
         "fabric-1.21.1" = _j4e8tjWH;
         "fabric-1.21.2" = _j4e8tjWH;
@@ -300,12 +318,13 @@ let
         "fabric-26.1-snapshot-2" = _CcxsZRPb;
         "fabric-26.1-snapshot-4" = _FAzfhbat;
         "fabric-26.1-snapshot-5" = _FAzfhbat;
-        "fabric-26.1" = _AS90I8Kk;
-        "fabric-26.1.1" = _AS90I8Kk;
-        "fabric-26.1.2" = _AS90I8Kk;
+        "fabric-26.1" = _DUbb7KZn;
+        "fabric-26.1.1" = _DUbb7KZn;
+        "fabric-26.1.2" = _DUbb7KZn;
         "fabric-26.2-pre-2" = _BQCRMs3n;
-        "fabric-26.2" = _h1s164L4;
+        "fabric-26.2" = _7W4IoAnK;
         "fabric-26.3-snapshot-5" = _CyQkxBXM;
+        "fabric-26.3" = _kGpzU9GU;
         "pkg-1.0+1.21" = _Q4PsWIQe;
         "pkg-1.1+1.21" = _Qt7yS1eS;
         "pkg-1.1+1.21.9" = _YPV00HVc;
@@ -352,7 +371,10 @@ let
         "pkg-2.1+26.1" = _AS90I8Kk;
         "pkg-2.1+26.2" = _h1s164L4;
         "pkg-2.1+26.3" = _CyQkxBXM;
-        "default" = _CyQkxBXM;
+        "pkg-3.0+26.1" = _DUbb7KZn;
+        "pkg-3.0+26.2" = _7W4IoAnK;
+        "pkg-3.0+26.3" = _kGpzU9GU;
+        "default" = _kGpzU9GU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modmenuc";

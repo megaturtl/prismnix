@@ -776,6 +776,11 @@ let
             "file" = "ClickVillagers-1.6.7+1.21.1-fabric.jar";
             "hash" = "sha512-APL2s7QPuOdPnV7NOMfc7xPd+1p/zVNiqJOKecsCEo3fCzR3weHP+4Kgp5zU4/vbWvqQEwSflbbvxehVCe5wzg==";
         };
+        _cBWjtfYp = {
+            "id" = "cBWjtfYp";
+            "file" = "ClickVillagers-1.6.7+26.3-fabric.jar";
+            "hash" = "sha512-rD3i+bHp1a1RO4HfETfQac7cLHrMWCgy6rJHpyZixfIm8W/h5uS83Usbr4/J4ghkJ+jFsS0QMnsVsIvRh/vKrg==";
+        };
     in {
         "oUJMLDhz" = _oUJMLDhz;
         "DfUyEmsH" = _DfUyEmsH;
@@ -932,6 +937,7 @@ let
         "jvLgHWcs" = _jvLgHWcs;
         "oX5m6PDy" = _oX5m6PDy;
         "VvNTrtRD" = _VvNTrtRD;
+        "cBWjtfYp" = _cBWjtfYp;
         "bukkit-1.20" = _mlcnO2FI;
         "bukkit-1.20.1" = _mlcnO2FI;
         "bukkit-1.20.2" = _mlcnO2FI;
@@ -1009,6 +1015,7 @@ let
         "fabric-26.1.1" = _aqjfLH4Z;
         "fabric-26.1.2" = _aqjfLH4Z;
         "fabric-26.2" = _pgrV6m6I;
+        "fabric-26.3" = _cBWjtfYp;
         "purpur-1.20" = _mlcnO2FI;
         "purpur-1.20.1" = _mlcnO2FI;
         "purpur-1.20.2" = _mlcnO2FI;
@@ -1213,7 +1220,8 @@ let
         "pkg-1.6.7+1.21.11-neoforge" = _jvLgHWcs;
         "pkg-1.6.7+1.21.11-fabric" = _oX5m6PDy;
         "pkg-1.6.7+1.21.1-fabric" = _VvNTrtRD;
-        "default" = _VvNTrtRD;
+        "pkg-1.6.7+26.3-fabric" = _cBWjtfYp;
+        "default" = _cBWjtfYp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "clickvillagers";

@@ -211,6 +211,11 @@ let
             "file" = "torosautomine-26.2-1.0.jar";
             "hash" = "sha512-hslQB5MvfRHuvqpojjsRfRa/uY6xYdoeu39UiSdXS3gAFdy7CJo6/MLKVv65C+1ySs0fJViYQlor1lVAjoktPg==";
         };
+        _IjFE1hUe = {
+            "id" = "IjFE1hUe";
+            "file" = "torosautomine-26.3-1.0.jar";
+            "hash" = "sha512-WeQhqexlea5bUYNHVRwvWYudTgljgPRErx6uI7E9yWYa1l81L/Uxk95MpGBBdCYl6di85XHAgssEunkLz1GLPA==";
+        };
     in {
         "n8WdCwBX" = _n8WdCwBX;
         "JTIm2o3m" = _JTIm2o3m;
@@ -254,6 +259,7 @@ let
         "7Q88Yqv9" = _7Q88Yqv9;
         "gKowL517" = _gKowL517;
         "QMPmpD9l" = _QMPmpD9l;
+        "IjFE1hUe" = _IjFE1hUe;
         "fabric-1.20.5" = _n8WdCwBX;
         "fabric-1.18.2" = _oPqfHtUa;
         "fabric-1.19.2" = _zrOuccVN;
@@ -275,12 +281,13 @@ let
         "fabric-26.1.1" = _7Q88Yqv9;
         "fabric-26.1.2" = _gKowL517;
         "fabric-26.2" = _QMPmpD9l;
-        "pkg-1.0" = _QMPmpD9l;
+        "fabric-26.3" = _IjFE1hUe;
+        "pkg-1.0" = _IjFE1hUe;
         "pkg-1.1" = _gKowL517;
         "pkg-1.2" = _1FD13d2t;
         "pkg-1.3" = _T3geNo6V;
         "pkg-1.0.1" = _26Cku9Ny;
-        "default" = _QMPmpD9l;
+        "default" = _IjFE1hUe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "toros-auto-mine";

@@ -31,6 +31,16 @@ let
             "file" = "dim-tracker+afk-display-1.3.jar";
             "hash" = "sha512-lImolGG0lQ5V3AsBXgIQmYLmybV20h1DjyNHtSvXgfFPLMv36CIbp04FWjn0jc5Ls+Ig1u+SkYS+zOm5t+fbIA==";
         };
+        _qe6d743c = {
+            "id" = "qe6d743c";
+            "file" = "DimensionTrackerAFK_MC1.21.2-26.3.zip";
+            "hash" = "sha512-hFYdGQQUE+nsdDvilP3DjbcDXmUnr1gjaAos5GYM/moJo6/4QFPUSfXkAvOkdCXd7C8wUX6Jh5bsI7UBA/ZrYg==";
+        };
+        _r5MacbIa = {
+            "id" = "r5MacbIa";
+            "file" = "dim-tracker+afk-display-1.3+26.3.jar";
+            "hash" = "sha512-IhMpXgdFim5TTh4qSN8rVBpVeWVgKOFp2jk4rsKW/Q15End+uUz0c0XVcxwTj2+jCUyfR3/TkXd97QeQmdDc3Q==";
+        };
     in {
         "KfR0mph1" = _KfR0mph1;
         "vowKH7tK" = _vowKH7tK;
@@ -38,6 +48,8 @@ let
         "ptppq8ad" = _ptppq8ad;
         "B0uIDYRq" = _B0uIDYRq;
         "sPOnmwg5" = _sPOnmwg5;
+        "qe6d743c" = _qe6d743c;
+        "r5MacbIa" = _r5MacbIa;
         "datapack-1.21" = _KfR0mph1;
         "datapack-1.21.1" = _KfR0mph1;
         "datapack-1.21.2" = _B0uIDYRq;
@@ -57,6 +69,7 @@ let
         "datapack-26.1.1" = _B0uIDYRq;
         "datapack-26.1.2" = _B0uIDYRq;
         "datapack-26.2" = _B0uIDYRq;
+        "datapack-26.3" = _qe6d743c;
         "fabric-1.21" = _vowKH7tK;
         "fabric-1.21.1" = _vowKH7tK;
         "fabric-1.21.2" = _sPOnmwg5;
@@ -76,6 +89,7 @@ let
         "fabric-26.1.1" = _sPOnmwg5;
         "fabric-26.1.2" = _sPOnmwg5;
         "fabric-26.2" = _sPOnmwg5;
+        "fabric-26.3" = _r5MacbIa;
         "forge-1.21" = _vowKH7tK;
         "forge-1.21.1" = _vowKH7tK;
         "forge-1.21.2" = _sPOnmwg5;
@@ -95,6 +109,7 @@ let
         "forge-26.1.1" = _sPOnmwg5;
         "forge-26.1.2" = _sPOnmwg5;
         "forge-26.2" = _sPOnmwg5;
+        "forge-26.3" = _r5MacbIa;
         "neoforge-1.21" = _vowKH7tK;
         "neoforge-1.21.1" = _vowKH7tK;
         "neoforge-1.21.2" = _sPOnmwg5;
@@ -114,6 +129,7 @@ let
         "neoforge-26.1.1" = _sPOnmwg5;
         "neoforge-26.1.2" = _sPOnmwg5;
         "neoforge-26.2" = _sPOnmwg5;
+        "neoforge-26.3" = _r5MacbIa;
         "quilt-1.21" = _vowKH7tK;
         "quilt-1.21.1" = _vowKH7tK;
         "quilt-1.21.2" = _sPOnmwg5;
@@ -133,13 +149,16 @@ let
         "quilt-26.1.1" = _sPOnmwg5;
         "quilt-26.1.2" = _sPOnmwg5;
         "quilt-26.2" = _sPOnmwg5;
+        "quilt-26.3" = _r5MacbIa;
         "pkg-1.1" = _KfR0mph1;
         "pkg-1.1+mod" = _vowKH7tK;
         "pkg-1.2" = _duATqYaS;
         "pkg-1.2+mod" = _ptppq8ad;
         "pkg-1.3" = _B0uIDYRq;
         "pkg-1.3+mod" = _sPOnmwg5;
-        "default" = _sPOnmwg5;
+        "pkg-1.3+26.3" = _qe6d743c;
+        "pkg-1.3+26.3+mod" = _r5MacbIa;
+        "default" = _r5MacbIa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dim-tracker+afk-display";

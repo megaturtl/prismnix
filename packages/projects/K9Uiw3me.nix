@@ -91,6 +91,21 @@ let
             "file" = "betterskies-1.1-neoforge-1.21.1.jar";
             "hash" = "sha512-ar2ZVskg1pOgy9o+WO5bW/D520S4hPQHXIfxTsQb43cB/2YLzxfLHCLOWjTqh2C9W4ZDRNXBmuPb4JGBxHuhDw==";
         };
+        _B8ypjkjD = {
+            "id" = "B8ypjkjD";
+            "file" = "betterskies-1.2-forge-1.19.2.jar";
+            "hash" = "sha512-XIQ+Pl2a3dTvOTJnATH+SviNmD3EoFmGdfhYrPST3KUJgKf7iaBoIKDd+rAgnX+rwZ5l/FjtcbbfMep1UM9pBw==";
+        };
+        _ZI6SmeuN = {
+            "id" = "ZI6SmeuN";
+            "file" = "betterskies-1.2-forge-1.20.1.jar";
+            "hash" = "sha512-22TiOHaV9OGquoarMkuvBYI6T7fWbIRkzvZJNqIelJhznpPo4d1BMfIfrSfOwpa75MrIx8rvceV6W7NKyqhxlQ==";
+        };
+        _a1GXdEX2 = {
+            "id" = "a1GXdEX2";
+            "file" = "betterskies-1.2-neoforge-1.21.1.jar";
+            "hash" = "sha512-2qkpGujzlBk4cm0OnWiD416OUQhwHlGsbULOG0ZdOCaQnayq9GfylDj/jJ1JdQxte7RGwisPhqqc9SwX7yjCJw==";
+        };
     in {
         "4KVo6Gcs" = _4KVo6Gcs;
         "qSdflwV1" = _qSdflwV1;
@@ -110,17 +125,21 @@ let
         "xdqVbv1e" = _xdqVbv1e;
         "r1IH4Q2l" = _r1IH4Q2l;
         "CLssGpou" = _CLssGpou;
-        "forge-1.19.2" = _xdqVbv1e;
+        "B8ypjkjD" = _B8ypjkjD;
+        "ZI6SmeuN" = _ZI6SmeuN;
+        "a1GXdEX2" = _a1GXdEX2;
+        "forge-1.19.2" = _B8ypjkjD;
         "forge-1.19.4" = _klBdZdjM;
-        "forge-1.20.1" = _r1IH4Q2l;
+        "forge-1.20.1" = _ZI6SmeuN;
         "neoforge-1.20.4" = _tKxhz0Ej;
         "neoforge-1.20.6" = _ZSMHB3z2;
-        "neoforge-1.21.1" = _CLssGpou;
+        "neoforge-1.21.1" = _a1GXdEX2;
         "pkg-1.0.1" = _QCDRxJQz;
         "pkg-1.0.2" = _NF9QxgBj;
         "pkg-1.0.3" = _k0QFGqcD;
         "pkg-1.1" = _CLssGpou;
-        "default" = _CLssGpou;
+        "pkg-1.2" = _a1GXdEX2;
+        "default" = _a1GXdEX2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "betterskies";

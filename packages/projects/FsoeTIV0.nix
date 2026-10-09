@@ -401,6 +401,16 @@ let
             "file" = "FastItemFrames-v26.2.1-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-VrsY96VBacYADvGAnQg4yJAwvxWerW6nKhPi6NWsFL3mJuVo+xsYOF2pP2ntPWkcm5f6cQKQhy01CLd+SEtvdA==";
         };
+        _iClvG6J5 = {
+            "id" = "iClvG6J5";
+            "file" = "fastitemframes-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-9KwR6kxxrdAKRk0oPXg9PV2X+ORezfMaseaQ219yUu6ATzVja6LuDiRcL0T7E6sRRCMHlcCyxWtSM1sXMxv2FA==";
+        };
+        _b7NiMoDi = {
+            "id" = "b7NiMoDi";
+            "file" = "fastitemframes-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-GTqn+qbM0PYt0wzyfObRo0X0ar4gaed7Xxjo1djsLnEhr66zyIC3Q831lQ+73/i9kF8pUu4ac94L+5MUIuvl8A==";
+        };
     in {
         "NJLiKxew" = _NJLiKxew;
         "6G9jrxDT" = _6G9jrxDT;
@@ -482,6 +492,8 @@ let
         "xZ2NcPtl" = _xZ2NcPtl;
         "nPlbZt37" = _nPlbZt37;
         "2shHmOHR" = _2shHmOHR;
+        "iClvG6J5" = _iClvG6J5;
+        "b7NiMoDi" = _b7NiMoDi;
         "fabric-1.20.4" = _wYQJffl5;
         "fabric-1.21.1" = _drSo3Q2h;
         "fabric-1.21.3" = _sVJuhAns;
@@ -498,6 +510,7 @@ let
         "fabric-26.1.1" = _xZ2NcPtl;
         "fabric-26.1.2" = _xZ2NcPtl;
         "fabric-26.2" = _nPlbZt37;
+        "fabric-26.3" = _iClvG6J5;
         "forge-1.20.4" = _WFOFkcds;
         "forge-1.20.1" = _R0MOnh2f;
         "neoforge-1.20.4" = _IuAjoIZy;
@@ -515,6 +528,7 @@ let
         "neoforge-26.1.1" = _hLFhJAU8;
         "neoforge-26.1.2" = _hLFhJAU8;
         "neoforge-26.2" = _2shHmOHR;
+        "neoforge-26.3" = _b7NiMoDi;
         "pkg-v20.4.0-1.20.4-Fabric" = _NJLiKxew;
         "pkg-v20.4.0-1.20.4-Forge" = _6G9jrxDT;
         "pkg-v20.4.0-1.20.4-NeoForge" = _BImxmIPo;
@@ -587,7 +601,8 @@ let
         "pkg-26.2.0" = _pfvaXK95;
         "pkg-26.1.1" = _xZ2NcPtl;
         "pkg-26.2.1" = _2shHmOHR;
-        "default" = _2shHmOHR;
+        "pkg-26.3.0" = _b7NiMoDi;
+        "default" = _b7NiMoDi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fast-item-frames";

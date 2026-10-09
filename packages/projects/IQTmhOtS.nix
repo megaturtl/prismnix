@@ -71,6 +71,16 @@ let
             "file" = "super_scary.jar";
             "hash" = "sha512-qs8qxwJTyy2GWSSLMHB4JNbFUbIcoroXzvpEGYuh4rhzeqYfwHK24L8aVl2pagFk8jiiG/jUr09nwrz+ZTmqeg==";
         };
+        _qEtMEsl6 = {
+            "id" = "qEtMEsl6";
+            "file" = "super_scary.jar";
+            "hash" = "sha512-D9UaPA4zoYAuA74z2Q8rqPc7l+e0+bgP1l4wflFeToXt0KpPfR4/Jj0g0od0CjkY7GuwepT7gM2VZ/ejfa5EvQ==";
+        };
+        _sjIaiJb1 = {
+            "id" = "sjIaiJb1";
+            "file" = "super_scary.jar";
+            "hash" = "sha512-YIF6+2t+RDVHbELmcs5y/kY9cdp+VA5yFQO5UYgIuEwYOJ8vQ9qkoJ8pevPhHs0eTaZ7Vi9WqZdZ96eRPKyERw==";
+        };
     in {
         "dnRnpBYx" = _dnRnpBYx;
         "2F5OolON" = _2F5OolON;
@@ -86,7 +96,9 @@ let
         "ShllMjDz" = _ShllMjDz;
         "oJLEMGDI" = _oJLEMGDI;
         "f4m0V3es" = _f4m0V3es;
-        "neoforge-1.21.1" = _f4m0V3es;
+        "qEtMEsl6" = _qEtMEsl6;
+        "sjIaiJb1" = _sjIaiJb1;
+        "neoforge-1.21.1" = _sjIaiJb1;
         "neoforge-1.21.2" = _dnRnpBYx;
         "neoforge-1.21.3" = _dnRnpBYx;
         "neoforge-1.21.4" = _dnRnpBYx;
@@ -111,7 +123,9 @@ let
         "pkg-Multiplayer-Snapshot-3" = _ShllMjDz;
         "pkg-Multiplayer-Snapshot-4" = _oJLEMGDI;
         "pkg-Multiplayer-Snapshot-5" = _f4m0V3es;
-        "default" = _f4m0V3es;
+        "pkg-0.2-Snapshot-6" = _qEtMEsl6;
+        "pkg-0.2-Snapshot-6B" = _sjIaiJb1;
+        "default" = _sjIaiJb1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "super_scary";

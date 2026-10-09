@@ -101,6 +101,131 @@ let
             "file" = "mebahelrpgrquest-2.0.6-fabric-1.21.1.jar";
             "hash" = "sha512-AGDMeDKL44pZRpOp+w+uJo3QcTl8F48SS6NAy1N65Q6rL/YTfNsGsTAjYEPBbYDvMdx/TxN/LbkCtMdsOXi0wA==";
         };
+        _6d5Jz2uj = {
+            "id" = "6d5Jz2uj";
+            "file" = "mebahelrpgrquest-2.1.0-fabric-1.20.1.jar";
+            "hash" = "sha512-vJ7x4XejzngPESA6mr8Omyq6pJr7UYdI8epuRYLeaY8RKwH5dzZw+7ICe8L5TF2UohiDrrO16WFTEZp8AOpxHw==";
+        };
+        _6oDWBTI8 = {
+            "id" = "6oDWBTI8";
+            "file" = "mebahelrpgrquest-2.1.0-fabric-1.21.1.jar";
+            "hash" = "sha512-rJTdSc3udgwxm/PHQktxURuFsPhZ2wbOmJdqcy0eAirc+fJq3SwgMZT/kU0lMnJMsRfeBP6wKAgWzpD+4j8j1A==";
+        };
+        _kDR3hAAi = {
+            "id" = "kDR3hAAi";
+            "file" = "mebahelrpgrquest-3.0.0-fabric-1.20.1.jar";
+            "hash" = "sha512-zs7Uv5dVeIIocQyW54hxnsu4JwY0zMr1ZfMQzHxliSIr5L2FZ7r2vSAxCRBJQJFT0W6oo52DT6FYhZogzYUAQg==";
+        };
+        _qMNHmcCU = {
+            "id" = "qMNHmcCU";
+            "file" = "mebahelrpgrquest-3.0.1-fabric-1.20.1.jar";
+            "hash" = "sha512-OOMRs0NFbuT3xISZhsNLem5k0nAiCH7+Gn3bBWM/cL9nF/hbFFsE9Sho2o+HWbEiaHI1JeAr0obLzqJFwjngLg==";
+        };
+        _UaqMM0MU = {
+            "id" = "UaqMM0MU";
+            "file" = "mebahelrpgrquest-3.0.1-fabric-1.21.1.jar";
+            "hash" = "sha512-24OgbUL7I3fh4vIz6VOIItnDtmUTpfNdCBI5sWROUcAJneWDP8VFOJf5e2qgI4ejud5cmhmNKxgDXQhS3dotog==";
+        };
+        _nTGZBlOT = {
+            "id" = "nTGZBlOT";
+            "file" = "mebahelrpgrquest-3.1.0-fabric-1.21.1.jar";
+            "hash" = "sha512-ulUJ56DyV8vVbtLtb/IfJKNk6LenXM/AufikBKXbBac+fRoPObKnLsYzkU6tiP9U+FwhS/ivwvIpUCWuW/HOtQ==";
+        };
+        _O4vOTWQH = {
+            "id" = "O4vOTWQH";
+            "file" = "mebahelrpgrquest-3.1.0-fabric-1.20.1.jar";
+            "hash" = "sha512-V5O2sBhUA+IOANlPII2kSew2glBIRa3ea11jKy074GhyTl5G0ioHnZj4y7ZwNUk9GWzqgLiWAMXU/Zees2LE4w==";
+        };
+        _c7nCk1Nh = {
+            "id" = "c7nCk1Nh";
+            "file" = "mebahelrpgrquest-3.2.0-fabric-1.21.1.jar";
+            "hash" = "sha512-gGePzaRiXhlpLK2v9ZVSgP+8342cLK62ybPIwRoxus3NaXxUdoHw+O33reyx1twnrkTQSCr9Z1/tzUQ+M3fI3Q==";
+        };
+        _hAl1AQNB = {
+            "id" = "hAl1AQNB";
+            "file" = "mebahelrpgrquest-3.2.0-fabric-1.20.1.jar";
+            "hash" = "sha512-ieyv5jRy3j5BPE5C4pomV8UaA1X9w2KFAjjhAdaSqwE88TN5uIzYVa7/kxCyKHMLQP8fAx6FwkJmydFr46YkJw==";
+        };
+        _WCLHOrCw = {
+            "id" = "WCLHOrCw";
+            "file" = "mebahelrpgrquest-3.2.1-fabric-1.21.1.jar";
+            "hash" = "sha512-8jSuw2dAuSRYNcKnvA3RZLrh9yFc/QRSJ+KC/RiI8eN8d2ZGU9ZaQ+Dk8Y4BfJY9eo7PiKvUPIWFa96WSOUJVQ==";
+        };
+        _3QU2bjc5 = {
+            "id" = "3QU2bjc5";
+            "file" = "mebahelrpgrquest-3.2.1-fabric-1.20.1.jar";
+            "hash" = "sha512-z/t6MBXEmeMdRb9HjxCY8dWRfYi2UbGuO3VP7yezWfN9CwWSSBxN3DExsb4lphjThZ6cCwV2/jFZ1CcGit3Yxw==";
+        };
+        _47qYbLHX = {
+            "id" = "47qYbLHX";
+            "file" = "mebahelrpgrquest-3.2.2-fabric-1.20.1.jar";
+            "hash" = "sha512-Teu2DMprXeCQHP9Mk+6Z5esHXuT3yuSD61oJNXalV5YGlrW2bxNHJoE7V597pYZ6OyxjbF7dik9zXjUNZlxOxw==";
+        };
+        _L0SlVm6k = {
+            "id" = "L0SlVm6k";
+            "file" = "mebahelrpgrquest-3.2.2-fabric-1.21.1.jar";
+            "hash" = "sha512-2FSNoHgAxCakAJwmoq1KNIejaSRG/Xv4+bjU48Kv80ghFuDbEOmEmcsgCQneivXfqn22NqtuSdK1uuYZ7ePlow==";
+        };
+        _krEIrFh0 = {
+            "id" = "krEIrFh0";
+            "file" = "mebahelrpgrquest-3.2.3-fabric-1.21.1.jar";
+            "hash" = "sha512-0EMKuuWHmmv8kgHK9iVvRHg4P5XWEnkRz58zGgKuHheSVGMF2rtfcUpZspFksEJ1ofjiNzZypVZg7vkjU0tQ0Q==";
+        };
+        _UnjuPJ1Q = {
+            "id" = "UnjuPJ1Q";
+            "file" = "mebahelrpgrquest-3.2.3-fabric-1.20.1.jar";
+            "hash" = "sha512-qdZt7IXrmtBC+gTaJFN0sIQjl7caO8oyy1PpPQHziIJkHizL6ic9i4i/ja8htYXPz2CNDHhOacUlgFnztlU1Qg==";
+        };
+        _QJIyuQAM = {
+            "id" = "QJIyuQAM";
+            "file" = "mebahelrpgrquest-3.3.0-fabric-1.21.1.jar";
+            "hash" = "sha512-GrWmAcR7/AV8USQSILQ+IjKhVOmA9n9RKhw3MkDlN7KH5Hy6u6s56f7lG75GFUJ5SX8Mg8fitQHjliT7++KjNA==";
+        };
+        _AbUOWLkw = {
+            "id" = "AbUOWLkw";
+            "file" = "mebahelrpgrquest-3.3.0-fabric-1.20.1.jar";
+            "hash" = "sha512-6dyuH/NRfUmxTmb9LzpjBBEN0n06afJwEjwOAWKUZczGbgl0FiDPbY7Ex7ixoaolsFiUrZFF3SARQWbV5uy8xA==";
+        };
+        _syUCaydy = {
+            "id" = "syUCaydy";
+            "file" = "mebahelrpgrquest-3.4.0-fabric-1.21.1.jar";
+            "hash" = "sha512-4HLCyEBrxca9XOrQ/NoZJtL+1IJMjYDa7+Kn4swYYXzq/p3oEBmgjeysGhQdmlME0NR5cRv3IXbX3gc8IEXxFg==";
+        };
+        _5OvIlP9F = {
+            "id" = "5OvIlP9F";
+            "file" = "mebahelrpgrquest-3.4.0-fabric-1.20.1.jar";
+            "hash" = "sha512-qeHXRUSxjYBTLpa5IV68A6Y7/GjMzpowZr2lPDr13pDHMnJ3NqoKu2nZSn+WwxPd4YY+MTXj2nk2xqyogzMAGQ==";
+        };
+        _L58YSdBr = {
+            "id" = "L58YSdBr";
+            "file" = "mebahelrpgrquest-3.4.1-fabric-1.21.1.jar";
+            "hash" = "sha512-OPXo66u+HOGmePWNw7Qe6jk6EfrhACNzTI2KgC7S3JJWxwWqS7PUlUIZ9ivGkeolpGYtKZ24oDl5Z90iCNMIWQ==";
+        };
+        _ig7hAmgn = {
+            "id" = "ig7hAmgn";
+            "file" = "mebahelrpgrquest-3.4.1-fabric-1.20.1.jar";
+            "hash" = "sha512-Aks46pej5JuezzCWaDPK5j/Jxxg2XpZYDPX/hxrejAJxvQKZGciyJ1x8zrlcSg9Ttc3YwpHQxZu30AVPmytc/Q==";
+        };
+        _cXzq2t1j = {
+            "id" = "cXzq2t1j";
+            "file" = "mebahelrpgrquest-3.4.2-fabric-1.21.1.jar";
+            "hash" = "sha512-fHSFQG41ofCK12wkvcNiDigjR5BwXKXLvdcVDMgJmoh36PEsN+01RxnXP72YrPcN3J2SDyyEVIFSKg/KvonoGg==";
+        };
+        _FLeTjSdi = {
+            "id" = "FLeTjSdi";
+            "file" = "mebahelrpgrquest-3.4.2-fabric-1.20.1.jar";
+            "hash" = "sha512-pxwq92ZPK8mfakN/UmwWZzopM0Zqrc/42GvDHqHKfsnFuRZpbg3ykVPchB0ZcNUDPWdWwfvSn3BtWrYcqpFlJw==";
+        };
+        _1ihmTQI1 = {
+            "id" = "1ihmTQI1";
+            "file" = "mebahelrpgrquest-3.4.3-fabric-1.20.1.jar";
+            "hash" = "sha512-7epbyZxVFP+bQPu22ISIVbudkSEPfGFSA/FtdsHfso98QlwMO8w7KWQn3VcEEtx5wUSqpov7edb3G3X1Xk3CCg==";
+        };
+        _HsKao5hD = {
+            "id" = "HsKao5hD";
+            "file" = "mebahelrpgrquest-3.4.3-fabric-1.21.1.jar";
+            "hash" = "sha512-UiCLHj7BvDr30J641O4CJX6UHaSNhPe6t9RrF3qQgw5x5WprhTkEoIf77UZs9kh3dlSKDrZ9ED70tVcGYHzMHA==";
+        };
     in {
         "SYPRhHjr" = _SYPRhHjr;
         "5LOmY4Gy" = _5LOmY4Gy;
@@ -122,22 +247,47 @@ let
         "l8QL2zTW" = _l8QL2zTW;
         "RyL6zX2x" = _RyL6zX2x;
         "l33ZTsm2" = _l33ZTsm2;
-        "fabric-1.20" = _RyL6zX2x;
-        "fabric-1.20.1" = _RyL6zX2x;
-        "fabric-1.21" = _l33ZTsm2;
-        "fabric-1.21.1" = _l33ZTsm2;
-        "forge-1.20" = _RyL6zX2x;
-        "forge-1.20.1" = _RyL6zX2x;
-        "forge-1.21" = _l33ZTsm2;
-        "forge-1.21.1" = _l33ZTsm2;
-        "neoforge-1.20" = _RyL6zX2x;
-        "neoforge-1.20.1" = _RyL6zX2x;
-        "neoforge-1.21" = _l33ZTsm2;
-        "neoforge-1.21.1" = _l33ZTsm2;
-        "quilt-1.20" = _RyL6zX2x;
-        "quilt-1.20.1" = _RyL6zX2x;
-        "quilt-1.21" = _l33ZTsm2;
-        "quilt-1.21.1" = _l33ZTsm2;
+        "6d5Jz2uj" = _6d5Jz2uj;
+        "6oDWBTI8" = _6oDWBTI8;
+        "kDR3hAAi" = _kDR3hAAi;
+        "qMNHmcCU" = _qMNHmcCU;
+        "UaqMM0MU" = _UaqMM0MU;
+        "nTGZBlOT" = _nTGZBlOT;
+        "O4vOTWQH" = _O4vOTWQH;
+        "c7nCk1Nh" = _c7nCk1Nh;
+        "hAl1AQNB" = _hAl1AQNB;
+        "WCLHOrCw" = _WCLHOrCw;
+        "3QU2bjc5" = _3QU2bjc5;
+        "47qYbLHX" = _47qYbLHX;
+        "L0SlVm6k" = _L0SlVm6k;
+        "krEIrFh0" = _krEIrFh0;
+        "UnjuPJ1Q" = _UnjuPJ1Q;
+        "QJIyuQAM" = _QJIyuQAM;
+        "AbUOWLkw" = _AbUOWLkw;
+        "syUCaydy" = _syUCaydy;
+        "5OvIlP9F" = _5OvIlP9F;
+        "L58YSdBr" = _L58YSdBr;
+        "ig7hAmgn" = _ig7hAmgn;
+        "cXzq2t1j" = _cXzq2t1j;
+        "FLeTjSdi" = _FLeTjSdi;
+        "1ihmTQI1" = _1ihmTQI1;
+        "HsKao5hD" = _HsKao5hD;
+        "fabric-1.20" = _1ihmTQI1;
+        "fabric-1.20.1" = _1ihmTQI1;
+        "fabric-1.21" = _HsKao5hD;
+        "fabric-1.21.1" = _HsKao5hD;
+        "forge-1.20" = _1ihmTQI1;
+        "forge-1.20.1" = _1ihmTQI1;
+        "forge-1.21" = _HsKao5hD;
+        "forge-1.21.1" = _HsKao5hD;
+        "neoforge-1.20" = _1ihmTQI1;
+        "neoforge-1.20.1" = _1ihmTQI1;
+        "neoforge-1.21" = _HsKao5hD;
+        "neoforge-1.21.1" = _HsKao5hD;
+        "quilt-1.20" = _1ihmTQI1;
+        "quilt-1.20.1" = _1ihmTQI1;
+        "quilt-1.21" = _HsKao5hD;
+        "quilt-1.21.1" = _HsKao5hD;
         "pkg-1.0.3-fabric-1.20.1" = _SYPRhHjr;
         "pkg-1.0.3-fabric-1.21.1" = _5LOmY4Gy;
         "pkg-1.0.4-fabric-1.21.1" = _b2C1hiUl;
@@ -158,7 +308,32 @@ let
         "pkg-2.0.5-fabric-1.21.1" = _l8QL2zTW;
         "pkg-2.0.5-fabric-1.20.1" = _RyL6zX2x;
         "pkg-2.0.6-fabric-1.21.1" = _l33ZTsm2;
-        "default" = _l33ZTsm2;
+        "pkg-2.1.0-fabric-1.20.1" = _6d5Jz2uj;
+        "pkg-2.1.0-fabric-1.21.1" = _6oDWBTI8;
+        "pkg-3.0.0-fabric-1.20.1" = _kDR3hAAi;
+        "pkg-3.0.1-fabric-1.20.1" = _qMNHmcCU;
+        "pkg-3.0.1-fabric-1.21.1" = _UaqMM0MU;
+        "pkg-3.1.0-fabric-1.21.1" = _nTGZBlOT;
+        "pkg-3.1.0-fabric-1.20.1" = _O4vOTWQH;
+        "pkg-3.2.0-fabric-1.21.1" = _c7nCk1Nh;
+        "pkg-3.2.0-fabric-1.20.1" = _hAl1AQNB;
+        "pkg-3.2.1-fabric-1.21.1" = _WCLHOrCw;
+        "pkg-3.2.1-fabric-1.20.1" = _3QU2bjc5;
+        "pkg-3.2.2-fabric-1.20.1" = _47qYbLHX;
+        "pkg-3.2.2-fabric-1.21.1" = _L0SlVm6k;
+        "pkg-3.2.3-fabric-1.21.1" = _krEIrFh0;
+        "pkg-3.2.3-fabric-1.20.1" = _UnjuPJ1Q;
+        "pkg-3.3.0-fabric-1.21.1" = _QJIyuQAM;
+        "pkg-3.3.0-fabric-1.20.1" = _AbUOWLkw;
+        "pkg-3.4.0-fabric-1.21.1" = _syUCaydy;
+        "pkg-3.4.0-fabric-1.20.1" = _5OvIlP9F;
+        "pkg-3.4.1-fabric-1.21.1" = _L58YSdBr;
+        "pkg-3.4.1-fabric-1.20.1" = _ig7hAmgn;
+        "pkg-3.4.2-fabric-1.21.1" = _cXzq2t1j;
+        "pkg-3.4.2-fabric-1.20.1" = _FLeTjSdi;
+        "pkg-3.4.3-fabric-1.20.1" = _1ihmTQI1;
+        "pkg-3.4.3-fabric-1.21.1" = _HsKao5hD;
+        "default" = _HsKao5hD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mebahels-rpg-villager-quests-and-companions";

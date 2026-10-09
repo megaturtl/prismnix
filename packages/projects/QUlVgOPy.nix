@@ -21,17 +21,24 @@ let
             "file" = "Epicfight-ClashBlade-1.20.1-2.1.jar";
             "hash" = "sha512-XatwoJk3OUgyuJq6q2K8/YKz/g4lBnTpoBzzN12kDd8zAs2bpLQ56MPFen/mC195Wvvo6Q34hKHcJTDwgwXu8w==";
         };
+        _EsAOZ4z5 = {
+            "id" = "EsAOZ4z5";
+            "file" = "Epicfight-ClashBlade-1.21.1-2.1.jar";
+            "hash" = "sha512-OZtWT1x+YyQ70oIUfjEAvLD4oZZb/opTRK17xxmrqf4pTowP3xxqlSjWEcf9JC5gcR5ltUjunnyWQgYI9IzmdA==";
+        };
     in {
         "aEsWyIiL" = _aEsWyIiL;
         "vbRiYGbS" = _vbRiYGbS;
         "WywpSAHS" = _WywpSAHS;
         "3VpQ19j6" = _3VpQ19j6;
+        "EsAOZ4z5" = _EsAOZ4z5;
         "forge-1.20.1" = _3VpQ19j6;
+        "neoforge-1.21.1" = _EsAOZ4z5;
         "pkg-1.0" = _aEsWyIiL;
         "pkg-1.8" = _vbRiYGbS;
         "pkg-2.0" = _WywpSAHS;
-        "pkg-2.1" = _3VpQ19j6;
-        "default" = _3VpQ19j6;
+        "pkg-2.1" = _EsAOZ4z5;
+        "default" = _EsAOZ4z5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "epicfight-clash-blade";

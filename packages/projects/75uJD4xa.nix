@@ -31,6 +31,16 @@ let
             "file" = "Hollow_Knight_origin.jar";
             "hash" = "sha512-HiEl2CVTWXhlGeKl/GVFB/6cM/A9kcCzTfJo0+cI+6mw/CalF4hdClrUatnYp7UyQQsm4/+hg6Yw4amPzstUQg==";
         };
+        _jfP83mTg = {
+            "id" = "jfP83mTg";
+            "file" = "Hollow Knight Origin v3 mc1-21-1 .zip";
+            "hash" = "sha512-56wHSj/eJap64/02RirrgnDiITnS1GwIPe5sSxwbJmA0LlrAqM7+ljaKxsOJ+yA8Zm+c18jacVeDUhVNvDahaA==";
+        };
+        _yfqVnSv8 = {
+            "id" = "yfqVnSv8";
+            "file" = "Hollow Knight Origin v3 1-21-1.jar";
+            "hash" = "sha512-w0DdR/ApNIIikrdOABlYK2nfxZtpsrqCegvYAxKE9fbfwuijAX2yHOQwSbsK9nyEJ/iPQbhtADP5fon46CSENA==";
+        };
     in {
         "aZsIbFA2" = _aZsIbFA2;
         "6gLhWw1J" = _6gLhWw1J;
@@ -38,14 +48,19 @@ let
         "SxLtZfAM" = _SxLtZfAM;
         "C2JrR5As" = _C2JrR5As;
         "OoxW0UVd" = _OoxW0UVd;
+        "jfP83mTg" = _jfP83mTg;
+        "yfqVnSv8" = _yfqVnSv8;
         "fabric-1.20.1" = _OoxW0UVd;
+        "fabric-1.21.1" = _yfqVnSv8;
+        "datapack-1.21.1" = _jfP83mTg;
         "pkg-1.0" = _aZsIbFA2;
         "pkg-2.0" = _6gLhWw1J;
         "pkg-2.1" = _3UHad8Tt;
         "pkg-2.2" = _SxLtZfAM;
         "pkg-2.3" = _C2JrR5As;
         "pkg-3.0" = _OoxW0UVd;
-        "default" = _OoxW0UVd;
+        "pkg-v3" = _yfqVnSv8;
+        "default" = _yfqVnSv8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hollow-knight-origin";

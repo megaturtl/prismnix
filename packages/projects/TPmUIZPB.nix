@@ -161,6 +161,21 @@ let
             "file" = "theplopper-fabric-26.2-1.5.jar";
             "hash" = "sha512-kFzINgK++6/PBtE4sgYyFfKX5pzGsWUp3/Hu+o2RbUQtOFiSZ/4/1wiAflfFitZDsOVbvABvio2hcTb2Z/mw7w==";
         };
+        _V2UDxnIx = {
+            "id" = "V2UDxnIx";
+            "file" = "theplopper-neoforge-26.3-1.5.jar";
+            "hash" = "sha512-g75g1G5qcB98x04NNdaVTTwfpvFwjak0SELVhzGNbTm1nm44539RGAFkxAkyMEM9h6c89mTPadEdduH9oON+Dw==";
+        };
+        _reHHXtLe = {
+            "id" = "reHHXtLe";
+            "file" = "theplopper-fabric-26.3-1.5.jar";
+            "hash" = "sha512-YTtRVayyxbK/5Gx5bsa77ROmf3gUThdWUIe/hQD9B3TZ4nTcddMA4neOREYyXZBpLGPyK4mb7IDjcSq7Y3BOUw==";
+        };
+        _qGk6owmy = {
+            "id" = "qGk6owmy";
+            "file" = "theplopper-neoforge-26.3-1.5.1.jar";
+            "hash" = "sha512-8D6a0UV+0jb4b1YLsnOPpAQ4vx/W3su8GpVokDl9qHRD9l/D1pt9p6GrgnBP/f7L66LA1TfxRRC9CwDI1f0JUw==";
+        };
     in {
         "aiaibwAL" = _aiaibwAL;
         "OGyHVpFy" = _OGyHVpFy;
@@ -194,6 +209,9 @@ let
         "vsIf4fMC" = _vsIf4fMC;
         "XRPL474m" = _XRPL474m;
         "Qjs8rJ9m" = _Qjs8rJ9m;
+        "V2UDxnIx" = _V2UDxnIx;
+        "reHHXtLe" = _reHHXtLe;
+        "qGk6owmy" = _qGk6owmy;
         "forge-1.12.2" = _aiaibwAL;
         "forge-1.13.2" = _OGyHVpFy;
         "forge-1.14.4" = _fIoNuUDI;
@@ -230,14 +248,17 @@ let
         "neoforge-26.1.1" = _TqOv1jT3;
         "neoforge-26.1.2" = _TqOv1jT3;
         "neoforge-26.2" = _XRPL474m;
+        "neoforge-26.3" = _qGk6owmy;
         "fabric-26.1" = _vsIf4fMC;
         "fabric-26.1.1" = _vsIf4fMC;
         "fabric-26.1.2" = _vsIf4fMC;
         "fabric-26.2" = _Qjs8rJ9m;
+        "fabric-26.3" = _reHHXtLe;
         "quilt-26.1" = _vsIf4fMC;
         "quilt-26.1.1" = _vsIf4fMC;
         "quilt-26.1.2" = _vsIf4fMC;
         "quilt-26.2" = _Qjs8rJ9m;
+        "quilt-26.3" = _reHHXtLe;
         "pkg-v1.2.1" = _OGyHVpFy;
         "pkg-v1.3.1" = _bFA9kH1D;
         "pkg-v1.3.2" = _fRtHrjTh;
@@ -249,8 +270,9 @@ let
         "pkg-v1.3.8" = _3nCDTLJX;
         "pkg-v1.3.9" = _CfanlMC8;
         "pkg-v1.4" = _PPNBVy0I;
-        "pkg-v1.5" = _Qjs8rJ9m;
-        "default" = _Qjs8rJ9m;
+        "pkg-v1.5" = _reHHXtLe;
+        "pkg-v1.5.1" = _qGk6owmy;
+        "default" = _qGk6owmy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-plopper";

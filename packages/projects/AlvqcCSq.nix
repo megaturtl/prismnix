@@ -56,6 +56,21 @@ let
             "file" = "friendsforlife-1.3.0-1.21.1-neoforge.jar";
             "hash" = "sha512-8xkDAQPn7zzxYA8AVh3v3ySPHiQZ0AhiXmQ0nZLHV7ypGqqGLOxOkaiuszOJuSxH9ElShTr7m9/Ehs7koA5P4A==";
         };
+        _IP4h9Bnx = {
+            "id" = "IP4h9Bnx";
+            "file" = "friendsforlife-1.3.1-1.20.1-fabric.jar";
+            "hash" = "sha512-GJ8HQSEIgbsLYQK9TY6MgHts/x9iw8hAPo5ZPXMIdYcs2454PEPv/zMj8BW5se1x5L79l/CUBFNqlQ5Fd6tM7g==";
+        };
+        _9VKMP11d = {
+            "id" = "9VKMP11d";
+            "file" = "friendsforlife-1.3.1-1.21.1-fabric.jar";
+            "hash" = "sha512-4g3M+eHI09NhmoOAKL1HuvR1/6mx1vAM2M/bnl25fp3e4htItNr1zDzn827q75dQS/utQ3NmPpdDbxggBA7u+A==";
+        };
+        _gwKwDMsL = {
+            "id" = "gwKwDMsL";
+            "file" = "friendsforlife-1.3.1-1.21.1-neoforge.jar";
+            "hash" = "sha512-46H0k2WSLROYuZtHaLAmxP2CBgg4CqQh7YHpu9epoXhMtiHa6lw1guL14TWWlvJOrwyFvj1wBJ5S9wH8qgsMjA==";
+        };
     in {
         "C1VnAwBZ" = _C1VnAwBZ;
         "H3LAW8YQ" = _H3LAW8YQ;
@@ -68,16 +83,20 @@ let
         "CC3NjqKz" = _CC3NjqKz;
         "z8bAieNv" = _z8bAieNv;
         "CJdQsEpa" = _CJdQsEpa;
-        "fabric-1.20.1" = _CC3NjqKz;
-        "fabric-1.21.1" = _z8bAieNv;
-        "neoforge-1.21.1" = _CJdQsEpa;
+        "IP4h9Bnx" = _IP4h9Bnx;
+        "9VKMP11d" = _9VKMP11d;
+        "gwKwDMsL" = _gwKwDMsL;
+        "fabric-1.20.1" = _IP4h9Bnx;
+        "fabric-1.21.1" = _9VKMP11d;
+        "neoforge-1.21.1" = _gwKwDMsL;
         "pkg-1.0.0" = _C1VnAwBZ;
         "pkg-1.0.1" = _H3LAW8YQ;
         "pkg-1.1.0" = _lzzShptK;
         "pkg-1.2.0" = _XkzekofV;
         "pkg-1.2.1" = _hW6pmQiG;
         "pkg-1.3.0" = _CJdQsEpa;
-        "default" = _CJdQsEpa;
+        "pkg-1.3.1" = _gwKwDMsL;
+        "default" = _gwKwDMsL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "friends-for-life";

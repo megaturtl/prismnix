@@ -96,6 +96,16 @@ let
             "file" = "smelting-enchantment-v1.1.0.jar";
             "hash" = "sha512-9juZ3j6nK36kRf3+R1Lv/DNOVldbCkiT63Bg/ujOFSCXlFGC/XyQlEcXDSvFvZlOUyUTcVQaY5tKgg6sR7vXIw==";
         };
+        _puv1FTrx = {
+            "id" = "puv1FTrx";
+            "file" = "Smelting Enchantment v1.1.0 [26.3].zip";
+            "hash" = "sha512-xqpmuLNco33YoSBehl1OJ6gg5j9zQwhlklSpnUxA8GnBDe1eZoLLjGs9Ee5kwO14JQ51MaKfgo0wFrcydE+fRA==";
+        };
+        _kItnOxQa = {
+            "id" = "kItnOxQa";
+            "file" = "smelting-enchantment-1.1.0.jar";
+            "hash" = "sha512-kj4Uhsln521qVyIkTpWKW8IM0tsoinL6VYtpzIIPAjxetOSyAPJhIxBaa+M8WcMGXhJit7tMitNlOQx2xSd6og==";
+        };
     in {
         "Jn6wuiXs" = _Jn6wuiXs;
         "HYo1GHkC" = _HYo1GHkC;
@@ -116,6 +126,8 @@ let
         "YgMESWHX" = _YgMESWHX;
         "3r1LFYOv" = _3r1LFYOv;
         "TUISZeFK" = _TUISZeFK;
+        "puv1FTrx" = _puv1FTrx;
+        "kItnOxQa" = _kItnOxQa;
         "datapack-1.21" = _LBGgZ1Vw;
         "datapack-1.21.1" = _LBGgZ1Vw;
         "datapack-1.21.2" = _LBGgZ1Vw;
@@ -132,6 +144,7 @@ let
         "datapack-26.1.1" = _3r1LFYOv;
         "datapack-26.1.2" = _3r1LFYOv;
         "datapack-26.2" = _3r1LFYOv;
+        "datapack-26.3" = _puv1FTrx;
         "fabric-1.21" = _YgMESWHX;
         "fabric-1.21.1" = _YgMESWHX;
         "fabric-1.21.2" = _YgMESWHX;
@@ -148,6 +161,7 @@ let
         "fabric-26.1.1" = _TUISZeFK;
         "fabric-26.1.2" = _TUISZeFK;
         "fabric-26.2" = _TUISZeFK;
+        "fabric-26.3" = _kItnOxQa;
         "forge-1.21" = _YgMESWHX;
         "forge-1.21.1" = _YgMESWHX;
         "forge-1.21.2" = _YgMESWHX;
@@ -164,6 +178,7 @@ let
         "forge-26.1.1" = _TUISZeFK;
         "forge-26.1.2" = _TUISZeFK;
         "forge-26.2" = _TUISZeFK;
+        "forge-26.3" = _kItnOxQa;
         "neoforge-1.21" = _YgMESWHX;
         "neoforge-1.21.1" = _YgMESWHX;
         "neoforge-1.21.2" = _YgMESWHX;
@@ -180,6 +195,7 @@ let
         "neoforge-26.1.1" = _TUISZeFK;
         "neoforge-26.1.2" = _TUISZeFK;
         "neoforge-26.2" = _TUISZeFK;
+        "neoforge-26.3" = _kItnOxQa;
         "quilt-1.21" = _YgMESWHX;
         "quilt-1.21.1" = _YgMESWHX;
         "quilt-1.21.2" = _YgMESWHX;
@@ -196,6 +212,7 @@ let
         "quilt-26.1.1" = _TUISZeFK;
         "quilt-26.1.2" = _TUISZeFK;
         "quilt-26.2" = _TUISZeFK;
+        "quilt-26.3" = _kItnOxQa;
         "pkg-1.0.0" = _Jn6wuiXs;
         "pkg-v1.0.1" = _HYo1GHkC;
         "pkg-v1.0.1+mod" = _eJdETs7d;
@@ -209,7 +226,9 @@ let
         "pkg-v1.0.5+mod" = _aHfwkxHo;
         "pkg-v1.1.0" = _3r1LFYOv;
         "pkg-v1.1.0+mod" = _TUISZeFK;
-        "default" = _TUISZeFK;
+        "pkg-1.1.0" = _puv1FTrx;
+        "pkg-1.1.0+mod" = _kItnOxQa;
+        "default" = _kItnOxQa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smelting-enchantment";

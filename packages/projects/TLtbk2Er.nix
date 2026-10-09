@@ -101,6 +101,21 @@ let
             "file" = "oxidizium-panama-1.3.1.jar";
             "hash" = "sha512-GdAzgo2TdZ/C+6oBvxXfOcXUja4gqUbsjUCJHjO0YQ0q71OB13Uo99c6U9RcXkNQi/oTMsv6ZqTvewsho8VJKg==";
         };
+        _N4d7goau = {
+            "id" = "N4d7goau";
+            "file" = "oxidizium-nalim-1.3.2.jar";
+            "hash" = "sha512-YyDAGepz+Af7Nguab/fpLQcFlfIBJPqmi/Kir0way0A2+9UYJ+V1mbWvw8M3ivm3w94WB1xkJHGxDfGe9SPBPQ==";
+        };
+        _xpUqavwt = {
+            "id" = "xpUqavwt";
+            "file" = "oxidizium-membrane-1.3.2.jar";
+            "hash" = "sha512-jnXscTJKbZHPhCgz8DnFENdHIgTRhMnb0KbtmbEr+dW3tB4Tus7fOanqaVWC/H4btpthEipqBMU+k5qPVTMC6A==";
+        };
+        _ZdYcOVzC = {
+            "id" = "ZdYcOVzC";
+            "file" = "oxidizium-panama-1.3.2.jar";
+            "hash" = "sha512-nq87XNm6V1hZteauMuvuBJp+dPOoyq2WQDFFeR89BcLTtQKS9pWPCHnRhhPd1dhSQ/dXDRr752a/fy2HArodSQ==";
+        };
     in {
         "xR5voCXu" = _xR5voCXu;
         "UA1c24of" = _UA1c24of;
@@ -122,6 +137,9 @@ let
         "Dd11I57q" = _Dd11I57q;
         "6ktlDIq6" = _6ktlDIq6;
         "CkO8Xjj9" = _CkO8Xjj9;
+        "N4d7goau" = _N4d7goau;
+        "xpUqavwt" = _xpUqavwt;
+        "ZdYcOVzC" = _ZdYcOVzC;
         "fabric-1.21.4" = _td6k4iOY;
         "fabric-1.21.5" = _td6k4iOY;
         "fabric-1.21.6" = _td6k4iOY;
@@ -160,6 +178,7 @@ let
         "fabric-1.20.2" = _BvxRb6by;
         "fabric-1.20.3" = _BvxRb6by;
         "fabric-1.20.4" = _BvxRb6by;
+        "fabric-26.3" = _ZdYcOVzC;
         "quilt-1.21.4" = _td6k4iOY;
         "quilt-1.21.5" = _td6k4iOY;
         "quilt-1.21.6" = _td6k4iOY;
@@ -198,6 +217,7 @@ let
         "quilt-1.20.2" = _BvxRb6by;
         "quilt-1.20.3" = _BvxRb6by;
         "quilt-1.20.4" = _BvxRb6by;
+        "quilt-26.3" = _ZdYcOVzC;
         "pkg-1.0.0-alpha.1-win-x64" = _xR5voCXu;
         "pkg-1.0.0-alpha.1-mac-arm" = _UA1c24of;
         "pkg-1.0.0-alpha.1-linux-x64" = _895govtT;
@@ -218,7 +238,10 @@ let
         "pkg-mc26.2-1.3.1-nalim" = _Dd11I57q;
         "pkg-mc26.2-1.3.1-membrane" = _6ktlDIq6;
         "pkg-mc26.2-1.3.1-panama" = _CkO8Xjj9;
-        "default" = _CkO8Xjj9;
+        "pkg-mc26.3-1.3.2-nalim" = _N4d7goau;
+        "pkg-mc26.3-1.3.2-membrane" = _xpUqavwt;
+        "pkg-mc26.3-1.3.2-panama" = _ZdYcOVzC;
+        "default" = _ZdYcOVzC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "oxidizium";

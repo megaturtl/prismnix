@@ -91,6 +91,11 @@ let
             "file" = "ezstorage-1.8.1.jar";
             "hash" = "sha512-wdmDNFVui6Su9tp7inBKow1hWgIFDWE+6QNnhICJTmJZQnNXba6pXYIaWHWcseG1wNnX0mwEZP9LkTxDLKgfew==";
         };
+        _po3tWNHI = {
+            "id" = "po3tWNHI";
+            "file" = "ezstorage-1.8.2.jar";
+            "hash" = "sha512-JG3307JampRB0YJZOzZap/Li1egwtwtwGEwFtwyZMn7plqGmTnl8gSTMgo7CmkUH4zgDrauAazgeBjqp4J2Sng==";
+        };
     in {
         "SvbPVi2s" = _SvbPVi2s;
         "PuXU2C1j" = _PuXU2C1j;
@@ -110,7 +115,8 @@ let
         "2Dejy1CA" = _2Dejy1CA;
         "IhltERSn" = _IhltERSn;
         "4i1LAuqD" = _4i1LAuqD;
-        "forge-1.7.10" = _4i1LAuqD;
+        "po3tWNHI" = _po3tWNHI;
+        "forge-1.7.10" = _po3tWNHI;
         "pkg-1.5.5" = _SvbPVi2s;
         "pkg-1.5.8" = _PuXU2C1j;
         "pkg-1.5.14" = _NFAqLacf;
@@ -129,7 +135,8 @@ let
         "pkg-1.7.2" = _2Dejy1CA;
         "pkg-1.8.0" = _IhltERSn;
         "pkg-1.8.1" = _4i1LAuqD;
-        "default" = _4i1LAuqD;
+        "pkg-1.8.2" = _po3tWNHI;
+        "default" = _po3tWNHI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ezstorage";

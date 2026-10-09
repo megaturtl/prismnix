@@ -31,6 +31,11 @@ let
             "file" = "travelerz-1.0.2.jar";
             "hash" = "sha512-EvSo6TsaCiQ/iMUU3eJyoTzWurceerFh5TJLo4UChpEFZgWJRimKXx5GP9H2H0Lp/ww0NnTxSPo5la6z5Uu0cg==";
         };
+        _eTDjGgm9 = {
+            "id" = "eTDjGgm9";
+            "file" = "travelerz-1.0.3.jar";
+            "hash" = "sha512-u34gkmqRwJPIZLVgKiPb7GjpXm3/tlVTpkEjKQZO14XJQfESP+O9+1hnwM292voaq07P0DtJoPwWb8vYrD62YQ==";
+        };
     in {
         "IZt6k3x7" = _IZt6k3x7;
         "E95jXCw9" = _E95jXCw9;
@@ -38,17 +43,19 @@ let
         "Z0nUlNTV" = _Z0nUlNTV;
         "xoAa7TZb" = _xoAa7TZb;
         "14HYaARv" = _14HYaARv;
+        "eTDjGgm9" = _eTDjGgm9;
         "fabric-1.20.1" = _E95jXCw9;
         "fabric-1.20.6" = _A0zgT4UY;
         "fabric-1.21" = _Z0nUlNTV;
-        "fabric-1.21.1" = _14HYaARv;
+        "fabric-1.21.1" = _eTDjGgm9;
         "pkg-1.0.0" = _IZt6k3x7;
         "pkg-1.0.1+1.20.1" = _E95jXCw9;
         "pkg-1.1.1+1.20.6" = _A0zgT4UY;
         "pkg-1.0.1+1.21" = _Z0nUlNTV;
         "pkg-1.0.1+1.21.1" = _xoAa7TZb;
         "pkg-1.0.2+1.21.1" = _14HYaARv;
-        "default" = _14HYaARv;
+        "pkg-1.0.3+1.21.1" = _eTDjGgm9;
+        "default" = _eTDjGgm9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "travelerz";

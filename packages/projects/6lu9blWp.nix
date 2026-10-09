@@ -426,6 +426,11 @@ let
             "file" = "workshop_for_handsome_adventurer--mc26.2--neoforge--1.36.0.jar";
             "hash" = "sha512-qnb94NrhzQTyTwfBXxfxjXxUawseNCrhF2Z0QC/JgHxFK1AsW+Bb3eCZO9KQHLayXWCl1ZNBmWPXTYj/Zeiaow==";
         };
+        _A3wMOrS3 = {
+            "id" = "A3wMOrS3";
+            "file" = "workshop_for_handsome_adventurer--mc26.2--neoforge--1.37.0.jar";
+            "hash" = "sha512-5RuDH+5Nuuom/BI8MqzOIJX5TLcRa6wUjuC16yvskbFrs41/f/44rInSsNlZxgBbb6gSE4H7v1o4QdrrXHZXxA==";
+        };
     in {
         "A46H7SEn" = _A46H7SEn;
         "5iFnn2dx" = _5iFnn2dx;
@@ -512,6 +517,7 @@ let
         "atkh74xJ" = _atkh74xJ;
         "ierZZxAs" = _ierZZxAs;
         "RUpmeRGm" = _RUpmeRGm;
+        "A3wMOrS3" = _A3wMOrS3;
         "forge-1.20.1" = _EmZy2SKs;
         "forge-1.18.2" = _7gQrL1ZY;
         "forge-1.19.4" = _Cnll7McU;
@@ -525,7 +531,7 @@ let
         "neoforge-26.1" = _atkh74xJ;
         "neoforge-26.1.1" = _atkh74xJ;
         "neoforge-26.1.2" = _atkh74xJ;
-        "neoforge-26.2" = _RUpmeRGm;
+        "neoforge-26.2" = _A3wMOrS3;
         "pkg-1.00" = _XKrw7ESe;
         "pkg-1.01" = _Nw1Omnbo;
         "pkg-1.05" = _cFJ0nU1S;
@@ -570,7 +576,8 @@ let
         "pkg-1.35.1" = _9RQnHp5U;
         "pkg-1.36.0" = _RUpmeRGm;
         "pkg-1.35.2" = _ierZZxAs;
-        "default" = _RUpmeRGm;
+        "pkg-1.37.0" = _A3wMOrS3;
+        "default" = _A3wMOrS3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "workshop-for-handsome-adventurer";

@@ -101,6 +101,16 @@ let
             "file" = "critical_strike-fabric-1.0.4.jar";
             "hash" = "sha512-U1zopN2M0QpPONfsNORpDAJSv55mXYGFIgK2k8id3R96nWEPu2xya7so8MGp8uQz38t49XHPtGfDyuexekZ5UQ==";
         };
+        _NjyNonow = {
+            "id" = "NjyNonow";
+            "file" = "critical_strike-neoforge-1.0.6+26.3.jar";
+            "hash" = "sha512-LvTjiw+81NCE5IARn8hVAifTkoFiREItUHtbE2P8D+1T1xFghq8xxGT4s/K2xCr1FCgLWwVGE8oQQ03pSvRImw==";
+        };
+        _A2rC2GCH = {
+            "id" = "A2rC2GCH";
+            "file" = "critical_strike-fabric-1.0.6+26.3.jar";
+            "hash" = "sha512-H7f3ZnA5XNXxMgLeJbF2IE6bYuvBsh5DNSfKluBoK2oWwvuqbD1owPR1QEzNDJcpZzygusuefEhLJA/i109EXQ==";
+        };
     in {
         "G80rQG92" = _G80rQG92;
         "hTxWx3uB" = _hTxWx3uB;
@@ -122,6 +132,8 @@ let
         "eozhJvBr" = _eozhJvBr;
         "k4SMWUqD" = _k4SMWUqD;
         "OX3HzpAd" = _OX3HzpAd;
+        "NjyNonow" = _NjyNonow;
+        "A2rC2GCH" = _A2rC2GCH;
         "fabric-1.21" = _8Ci3W6fL;
         "fabric-1.21.1" = _8Ci3W6fL;
         "fabric-26.1" = _VtX28Kqr;
@@ -129,6 +141,7 @@ let
         "fabric-26.1.2" = _VtX28Kqr;
         "fabric-26.2" = _eozhJvBr;
         "fabric-1.20.1" = _OX3HzpAd;
+        "fabric-26.3" = _A2rC2GCH;
         "neoforge-1.21" = _2LZ76MSH;
         "neoforge-1.21.1" = _2LZ76MSH;
         "neoforge-26.1" = _JU16Al8Y;
@@ -136,6 +149,7 @@ let
         "neoforge-26.1.2" = _JU16Al8Y;
         "neoforge-26.2" = _jY9sJYUU;
         "neoforge-1.20.1" = _k4SMWUqD;
+        "neoforge-26.3" = _NjyNonow;
         "forge-1.20.1" = _k4SMWUqD;
         "pkg-1.0.0+1.21.1-fabric" = _G80rQG92;
         "pkg-1.0.0+1.21.1-neoforge" = _hTxWx3uB;
@@ -157,7 +171,9 @@ let
         "pkg-1.0.6+26.2-fabric" = _eozhJvBr;
         "pkg-1.0.4+1.20.1-forge" = _k4SMWUqD;
         "pkg-1.0.4+1.20.1-fabric" = _OX3HzpAd;
-        "default" = _OX3HzpAd;
+        "pkg-1.0.6+26.3-neoforge" = _NjyNonow;
+        "pkg-1.0.6+26.3-fabric" = _A2rC2GCH;
+        "default" = _A2rC2GCH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "critical-strike";

@@ -61,6 +61,21 @@ let
             "file" = "diy_campfires-26.1.2neo-v1.3.0.0.jar";
             "hash" = "sha512-QXTK7rvtKOQdHKIaDP/06+KgVDlujp7q1ll2636MwjVQrr+MhtCsRXoFE36OdvF8BM78reteaLeupfOx5qUSZQ==";
         };
+        _GJOEzDzp = {
+            "id" = "GJOEzDzp";
+            "file" = "diy_campfires-1.20.1forge-1.3.1.0.jar";
+            "hash" = "sha512-LhZMTjdL//QhPu6Q3p94DyvlwjaCIuKpIi9zwaltki8SypGwavFYmpAEhdXzqnecKZKsOzC4lzjwaq/s3fB3rQ==";
+        };
+        _ySzQ3SJu = {
+            "id" = "ySzQ3SJu";
+            "file" = "diy_campfires-1.21.1neo-1.3.1.0.jar";
+            "hash" = "sha512-p+Xe0+nxeCMgcGnJNkewu5KuD+y5HkShl8yZUaGjy4kfNW+qUv2x9+AK0uvcd7tJSw1LU/mRoozPaZ/7BEcXSw==";
+        };
+        _xVFP1ZQN = {
+            "id" = "xVFP1ZQN";
+            "file" = "diy_campfires-26.1.2neo-1.3.1.0.jar";
+            "hash" = "sha512-+ytAa+aLZ9yXE5wyMMdQxYr74bvPc18zhDVGJv4kuOWfBvTvvBQQqwg773ImHdotleprIRHZaRuivpwYE3dxIw==";
+        };
     in {
         "X0pyumIV" = _X0pyumIV;
         "kXVQiKdR" = _kXVQiKdR;
@@ -74,20 +89,24 @@ let
         "MBnxFtby" = _MBnxFtby;
         "NcztYV8I" = _NcztYV8I;
         "DfCikTky" = _DfCikTky;
-        "forge-1.20" = _4GaCkDwN;
-        "forge-1.20.1" = _4GaCkDwN;
-        "neoforge-1.21.1" = _NcztYV8I;
-        "neoforge-1.21" = _NcztYV8I;
-        "neoforge-26.1" = _DfCikTky;
-        "neoforge-26.1.1" = _DfCikTky;
-        "neoforge-26.1.2" = _DfCikTky;
+        "GJOEzDzp" = _GJOEzDzp;
+        "ySzQ3SJu" = _ySzQ3SJu;
+        "xVFP1ZQN" = _xVFP1ZQN;
+        "forge-1.20" = _GJOEzDzp;
+        "forge-1.20.1" = _GJOEzDzp;
+        "neoforge-1.21.1" = _ySzQ3SJu;
+        "neoforge-1.21" = _ySzQ3SJu;
+        "neoforge-26.1" = _xVFP1ZQN;
+        "neoforge-26.1.1" = _xVFP1ZQN;
+        "neoforge-26.1.2" = _xVFP1ZQN;
         "pkg-1.0.0.0" = _kXVQiKdR;
         "pkg-1.1.0.0" = _ShuKesBj;
         "pkg-1.1.1.0" = _Hks8U9Em;
         "pkg-1.2.0.0" = _Cye8NwnU;
         "pkg-1.3.0.0" = _DfCikTky;
         "pkg-1.3.0.1" = _NcztYV8I;
-        "default" = _DfCikTky;
+        "pkg-1.3.1.0" = _xVFP1ZQN;
+        "default" = _xVFP1ZQN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "diy-campfires";

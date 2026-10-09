@@ -51,6 +51,11 @@ let
             "file" = "ManhuntPlus-1.4.2.jar";
             "hash" = "sha512-TQYY4uC6otkzOtupuyxCqNOK57MnhOElqLfj/6E0dbg8ANr/0j4o/+3MdhOYu8dPcDKokhhS9WyyNytTArNzgw==";
         };
+        _9K6ZxgeC = {
+            "id" = "9K6ZxgeC";
+            "file" = "ManhuntPlus-1.4.2.jar";
+            "hash" = "sha512-2THHZ69N/3lm5nhmcy+CFNf/T1I1uoJrH1E5+uHxmTHD+ff9+0aQ3g2+EK96DV5jnr+4zOKHKvsRqMF++ck5LA==";
+        };
     in {
         "KT3dQBgV" = _KT3dQBgV;
         "Mx8zErqq" = _Mx8zErqq;
@@ -62,6 +67,7 @@ let
         "5NzaU2Mt" = _5NzaU2Mt;
         "SZX8dEs6" = _SZX8dEs6;
         "aNUF7dss" = _aNUF7dss;
+        "9K6ZxgeC" = _9K6ZxgeC;
         "bukkit-1.21" = _oAPzR90V;
         "bukkit-1.21.1" = _oAPzR90V;
         "bukkit-1.21.2" = _oAPzR90V;
@@ -90,6 +96,7 @@ let
         "paper-26.1.1" = _5NzaU2Mt;
         "paper-26.1.2" = _SZX8dEs6;
         "paper-26.2" = _aNUF7dss;
+        "paper-26.3" = _9K6ZxgeC;
         "spigot-1.21" = _oAPzR90V;
         "spigot-1.21.1" = _oAPzR90V;
         "spigot-1.21.2" = _oAPzR90V;
@@ -110,8 +117,8 @@ let
         "pkg-1.3.2" = _slNgenBU;
         "pkg-1.4" = _KZZb34mw;
         "pkg-1.4.1" = _5NzaU2Mt;
-        "pkg-1.4.2" = _aNUF7dss;
-        "default" = _aNUF7dss;
+        "pkg-1.4.2" = _9K6ZxgeC;
+        "default" = _9K6ZxgeC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "manhunt+";

@@ -196,6 +196,11 @@ let
             "file" = "crackt-1.0.6+mc26.3-pre-3.jar";
             "hash" = "sha512-uVcfL1Ms/kypMpD/o6QyEoAS7X7iLQw89XIOEsr1GYMLPtEHrQuxYBO0ehNkrOT38U+s2OUpQ5TKiYcqRvxdPw==";
         };
+        _btEo1TV7 = {
+            "id" = "btEo1TV7";
+            "file" = "crackt-1.0.6+mc26.3.jar";
+            "hash" = "sha512-A/GotODUDFgdyRUhqTb/kll22897Tf54+LAiP5pWYoQCdeKwqsm7bqkh1QecEOPS+02wKsNwDYG82cTmJe2o1w==";
+        };
     in {
         "1AF5wdwO" = _1AF5wdwO;
         "EsrX3hoN" = _EsrX3hoN;
@@ -236,6 +241,7 @@ let
         "xD6u1gk0" = _xD6u1gk0;
         "NkSTyJHP" = _NkSTyJHP;
         "efIE8d31" = _efIE8d31;
+        "btEo1TV7" = _btEo1TV7;
         "fabric-1.21.10" = _X0LP4hOb;
         "fabric-1.21.11-rc3" = _bd201Xaj;
         "fabric-1.21.11" = _RkIovrHx;
@@ -253,6 +259,7 @@ let
         "fabric-26.3-snapshot-10" = _xD6u1gk0;
         "fabric-26.3-pre-2" = _NkSTyJHP;
         "fabric-26.3-pre-3" = _efIE8d31;
+        "fabric-26.3" = _btEo1TV7;
         "pkg-1.0.0" = _1AF5wdwO;
         "pkg-1.0.1" = _EsrX3hoN;
         "pkg-1.0.1.rc3" = _bd201Xaj;
@@ -265,8 +272,8 @@ let
         "pkg-1.0.3+mc26.1-snapshot-1" = _wxGpctCm;
         "pkg-1.0.4" = _nY2WpoS0;
         "pkg-1.0.5" = _yhuXLNUa;
-        "pkg-1.0.6" = _efIE8d31;
-        "default" = _efIE8d31;
+        "pkg-1.0.6" = _btEo1TV7;
+        "default" = _btEo1TV7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crackt";

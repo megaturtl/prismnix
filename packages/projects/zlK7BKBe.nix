@@ -141,6 +141,11 @@ let
             "file" = "build-bugs-2.2.0.jar";
             "hash" = "sha512-WycP35MoVP9s4ae/thcQqbXsZ1khYUeH6GXdr9zhBoMapywUEL5+qZz4QXAEaPMB2D/GEonBT6PAtYmfNSJ7dw==";
         };
+        _wOnkmBBn = {
+            "id" = "wOnkmBBn";
+            "file" = "build-bugs-2.3.0.jar";
+            "hash" = "sha512-Nc1hrFrMCHa/ck1f0AOuu0+2WGBNften/yn5oidADgFbwHxjevQXZ2NzCijUIg6hQPPirwaxusqBuyJppnLhBg==";
+        };
     in {
         "p0MjjmtR" = _p0MjjmtR;
         "sAdTqYON" = _sAdTqYON;
@@ -170,6 +175,7 @@ let
         "qUmUZBo1" = _qUmUZBo1;
         "OP9DhxgB" = _OP9DhxgB;
         "pWPZBkZz" = _pWPZBkZz;
+        "wOnkmBBn" = _wOnkmBBn;
         "fabric-1.20.2" = _p0MjjmtR;
         "fabric-1.20.4" = _73BYehcr;
         "fabric-1.20.6" = _NRzO9Fdc;
@@ -185,6 +191,7 @@ let
         "fabric-1.21.11" = _XA1UshC3;
         "fabric-26.1.2" = _OP9DhxgB;
         "fabric-26.2" = _pWPZBkZz;
+        "fabric-26.3" = _wOnkmBBn;
         "pkg-1.7.0" = _p0MjjmtR;
         "pkg-1.8.0" = _sAdTqYON;
         "pkg-1.9.0" = _xzsT8tBp;
@@ -211,7 +218,8 @@ let
         "pkg-2.1.0" = _qUmUZBo1;
         "pkg-2.1.1" = _OP9DhxgB;
         "pkg-2.2.0" = _pWPZBkZz;
-        "default" = _pWPZBkZz;
+        "pkg-2.3.0" = _wOnkmBBn;
+        "default" = _wOnkmBBn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "build-bugs";

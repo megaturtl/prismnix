@@ -231,6 +231,16 @@ let
             "file" = "glow-ink-sack-recipe-1.0.jar";
             "hash" = "sha512-iEtD+V1RhBsNBYmVSatmta+Uyii3vJblNmtLaa0EJvSK4LqRd1ZGnwTmAupYqyO5KN4B+5YOsHCcO2WbkF3ghQ==";
         };
+        _Hlkqhszk = {
+            "id" = "Hlkqhszk";
+            "file" = "glow_ink_sack-26.3.zip";
+            "hash" = "sha512-FYMGX9fhJUSAy7HS2+1P5UM+4YcPm+hNSh+N5t+KcAuHNHreNBP6ZmER/8UfhU9TnPvDlvqjlp9gRGyhm87bmA==";
+        };
+        _iHU2WdaL = {
+            "id" = "iHU2WdaL";
+            "file" = "glow-ink-sack-recipe-1.0.jar";
+            "hash" = "sha512-qhz6UmMPe5nrhrWNgP4R2YVWwhtFBhwEXmDakEE7PaeYqoNt5r4zNuOx8xLZ75AWuV0rGkOsFaKbOigkr3HCSA==";
+        };
     in {
         "7TcRb6cS" = _7TcRb6cS;
         "5rQl3JNt" = _5rQl3JNt;
@@ -278,6 +288,8 @@ let
         "nNqRavKx" = _nNqRavKx;
         "x7ih3ulj" = _x7ih3ulj;
         "5errJuzQ" = _5errJuzQ;
+        "Hlkqhszk" = _Hlkqhszk;
+        "iHU2WdaL" = _iHU2WdaL;
         "datapack-1.17" = _7TcRb6cS;
         "datapack-1.17.1" = _7TcRb6cS;
         "datapack-1.18" = _5rQl3JNt;
@@ -330,6 +342,7 @@ let
         "datapack-26.2-snapshot-2" = _7YmT7826;
         "datapack-26.2" = _x7ih3ulj;
         "datapack-26.3-snapshot-1" = _x7ih3ulj;
+        "datapack-26.3" = _Hlkqhszk;
         "fabric-1.17" = _1Z3jKpxK;
         "fabric-1.17.1" = _1Z3jKpxK;
         "fabric-1.18" = _49UgMa91;
@@ -382,6 +395,7 @@ let
         "fabric-26.2-snapshot-2" = _UulVehZb;
         "fabric-26.2" = _5errJuzQ;
         "fabric-26.3-snapshot-1" = _5errJuzQ;
+        "fabric-26.3" = _iHU2WdaL;
         "forge-1.17" = _1Z3jKpxK;
         "forge-1.17.1" = _1Z3jKpxK;
         "forge-1.18" = _49UgMa91;
@@ -434,6 +448,7 @@ let
         "forge-26.2-snapshot-2" = _UulVehZb;
         "forge-26.2" = _5errJuzQ;
         "forge-26.3-snapshot-1" = _5errJuzQ;
+        "forge-26.3" = _iHU2WdaL;
         "neoforge-1.17" = _1Z3jKpxK;
         "neoforge-1.17.1" = _1Z3jKpxK;
         "neoforge-1.18" = _49UgMa91;
@@ -486,6 +501,7 @@ let
         "neoforge-26.2-snapshot-2" = _UulVehZb;
         "neoforge-26.2" = _5errJuzQ;
         "neoforge-26.3-snapshot-1" = _5errJuzQ;
+        "neoforge-26.3" = _iHU2WdaL;
         "quilt-1.17" = _1Z3jKpxK;
         "quilt-1.17.1" = _1Z3jKpxK;
         "quilt-1.18" = _49UgMa91;
@@ -538,10 +554,11 @@ let
         "quilt-26.2-snapshot-2" = _UulVehZb;
         "quilt-26.2" = _5errJuzQ;
         "quilt-26.3-snapshot-1" = _5errJuzQ;
-        "pkg-1.0" = _x7ih3ulj;
-        "pkg-1.0+mod" = _5errJuzQ;
+        "quilt-26.3" = _iHU2WdaL;
+        "pkg-1.0" = _Hlkqhszk;
+        "pkg-1.0+mod" = _iHU2WdaL;
         "pkg-2.0+mod" = _Wn01qVIJ;
-        "default" = _5errJuzQ;
+        "default" = _iHU2WdaL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glow-ink-sack-recipe";

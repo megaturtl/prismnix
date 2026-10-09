@@ -241,6 +241,16 @@ let
             "file" = "flatbedrock-fabric-102.0.0.jar";
             "hash" = "sha512-euWkmwJ06VDntN9nKmDcv/nFJLc/x2YXbCtm7SH4y8bapYYoAV4wpoV+YN0PGkp3TTHisV6HJQ2+eACCna9wbg==";
         };
+        _ld8wwx9j = {
+            "id" = "ld8wwx9j";
+            "file" = "flatbedrock-neoforge-26.3.0.1.jar";
+            "hash" = "sha512-s7b9jj7TtMEKaz22IEOv3lnHticLqH6s8Eh/MFwmCxfsI3IO8834uQtevC6PXdap3fOaR3P5wKpH1uCf7aWBWw==";
+        };
+        _YpOl2dCl = {
+            "id" = "YpOl2dCl";
+            "file" = "flatbedrock-fabric-26.3.0.1.jar";
+            "hash" = "sha512-v/BPRDAIrK9vgX4QA2r61Bfy3NN41GY33Iuj94AaTrCu1YBUGvsBslAdWb54b4Q/D7cdrxe4ee5xvdALXGZTVQ==";
+        };
     in {
         "1ydyq6kS" = _1ydyq6kS;
         "583ObsPa" = _583ObsPa;
@@ -290,6 +300,8 @@ let
         "OCZRqTgY" = _OCZRqTgY;
         "I5INvu5R" = _I5INvu5R;
         "n9AiR9Mi" = _n9AiR9Mi;
+        "ld8wwx9j" = _ld8wwx9j;
+        "YpOl2dCl" = _YpOl2dCl;
         "forge-1.19.2" = _SQQdP4jS;
         "forge-1.18.2" = _rCHX0xbw;
         "forge-1.16.4" = _1Ivg9igB;
@@ -316,6 +328,7 @@ let
         "fabric-1.21.11" = _CFRp2TRC;
         "fabric-26.1" = _OCZRqTgY;
         "fabric-26.2" = _n9AiR9Mi;
+        "fabric-26.3" = _YpOl2dCl;
         "neoforge-1.20.4" = _esadCwGA;
         "neoforge-1.20.5" = _Lg7svhET;
         "neoforge-1.20.6" = _OwR9duv7;
@@ -323,6 +336,7 @@ let
         "neoforge-1.21.11" = _ttKLrqi9;
         "neoforge-26.1" = _VJ9jYcpm;
         "neoforge-26.2" = _I5INvu5R;
+        "neoforge-26.3" = _ld8wwx9j;
         "pkg-2.0.0-build.14" = _583ObsPa;
         "pkg-1.4.2-build.10" = _9nt37M7N;
         "pkg-1.16.4-1.1.6" = _oTbQI1bL;
@@ -354,7 +368,8 @@ let
         "pkg-98.0.0" = _CFRp2TRC;
         "pkg-99.0.0" = _OCZRqTgY;
         "pkg-102.0.0" = _n9AiR9Mi;
-        "default" = _n9AiR9Mi;
+        "pkg-26.3.0.1" = _YpOl2dCl;
+        "default" = _YpOl2dCl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flat-bedrock";

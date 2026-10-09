@@ -46,6 +46,11 @@ let
             "file" = "windswept-1.21.1-4.0.2.jar";
             "hash" = "sha512-/UHqRTKV+hWfdpxzbYVd5vYzDh0EoKIMURI+Hgsu2z9OGYWhWdcpLhaWDNKYomKlXujIfQYEsChHnxP+G7vlyA==";
         };
+        _bGlPzgf4 = {
+            "id" = "bGlPzgf4";
+            "file" = "windswept-1.21.1-4.0.3.jar";
+            "hash" = "sha512-BZ+hBjxPGucx+DBWGJpf3uyhCIkVNbvWtBkAwHYrXZnfZDW68reKx0X+diEqaIL3TIANoFrd5EKVuYjOMEtJKQ==";
+        };
     in {
         "R3IriMaH" = _R3IriMaH;
         "pyKXEWwD" = _pyKXEWwD;
@@ -56,10 +61,11 @@ let
         "dowXvnvu" = _dowXvnvu;
         "VcG2K669" = _VcG2K669;
         "L5Fi5hKx" = _L5Fi5hKx;
+        "bGlPzgf4" = _bGlPzgf4;
         "forge-1.20.1" = _EpQ7XVgX;
         "forge-1.19.2" = _FFxnfxsM;
         "neoforge-1.20.1" = _EpQ7XVgX;
-        "neoforge-1.21.1" = _L5Fi5hKx;
+        "neoforge-1.21.1" = _bGlPzgf4;
         "pkg-3.0.0" = _R3IriMaH;
         "pkg-3.0.1" = _pyKXEWwD;
         "pkg-3.0.2" = _9Wm9NYFV;
@@ -69,7 +75,8 @@ let
         "pkg-4.0.0" = _dowXvnvu;
         "pkg-4.0.1" = _VcG2K669;
         "pkg-4.0.2" = _L5Fi5hKx;
-        "default" = _L5Fi5hKx;
+        "pkg-4.0.3" = _bGlPzgf4;
+        "default" = _bGlPzgf4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "windswept";

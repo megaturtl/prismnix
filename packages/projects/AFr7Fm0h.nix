@@ -66,6 +66,36 @@ let
             "file" = "betterloadingscreen-1.3.0-1.21.jar";
             "hash" = "sha512-rc6SILQIi0Um5nkaMXHcT698wei3UMZ0StlkwY4OqSi1RPwETMSs+/gV/UQPvlWM47BC0YYgk+ypJnMKE8h7ng==";
         };
+        _41lbmoHr = {
+            "id" = "41lbmoHr";
+            "file" = "betterloadingscreen-1.3.1-fabric-26.2.jar";
+            "hash" = "sha512-Qqa4ZlYp2LFublobXmmvgOVLpksIDc5E5Obqow+zcfAh/GA0/IHqHOLs6wHkqPobZCO45YuWLwxoJwdgnMDfgQ==";
+        };
+        _uDursNgi = {
+            "id" = "uDursNgi";
+            "file" = "betterloadingscreen-1.3.2_26.3-fabric.jar";
+            "hash" = "sha512-awZ2iYg2qh6yY3k5l7CoVXHT4LIBCbYlOhPAT4Hi7IZV0LyKShodxyyTZ68emxTtTtKryMHY/zJcK0Gez5lhdg==";
+        };
+        _IoLaAy70 = {
+            "id" = "IoLaAy70";
+            "file" = "betterloadingscreen-1.4.0+26.3.jar";
+            "hash" = "sha512-LZSr+bQPZ3eJW/CvV+iWSc/8sG7mdJB8bbkPYd0H0mTiDm5Pj3NQ61rT10BwkijQEURjLEmVCd3ttxzEstjBmQ==";
+        };
+        _t13kLaIW = {
+            "id" = "t13kLaIW";
+            "file" = "betterloadingscreen-1.3.0+1.20.1port.jar";
+            "hash" = "sha512-TS6DJz3G14w3w6eOBZw0ASkcYP2JLa/u7zfAgEURXpUlzPQ4pL7czZ5E8twylfeBd7gyRfAneZIOQDrPWrSeQA==";
+        };
+        _a1ncWnHU = {
+            "id" = "a1ncWnHU";
+            "file" = "betterloadingscreen-1.4.1+26.3.jar";
+            "hash" = "sha512-/fiaJMlDNy/pUv4ZNzjqyS4WDj/UilDhNk71k0412PF55EJbLWi0yfNTxXwTcA4tV51GOHf5YQ/ASDV4hJxf2w==";
+        };
+        _BHeX0NSv = {
+            "id" = "BHeX0NSv";
+            "file" = "betterloadingscreen-1.4.2+26.3.jar";
+            "hash" = "sha512-UTVwaFMOAGpbnr795gdCH4jbed9y7porltMr7WGGlEz2n7a+VdfRlKzzpXXtQjT8LRi04nsQGg+jUNvDUYBo2g==";
+        };
     in {
         "RIeZ7ax9" = _RIeZ7ax9;
         "AKQHdX2W" = _AKQHdX2W;
@@ -80,6 +110,12 @@ let
         "YOOLsTP6" = _YOOLsTP6;
         "jngwpfzO" = _jngwpfzO;
         "grTKmYM5" = _grTKmYM5;
+        "41lbmoHr" = _41lbmoHr;
+        "uDursNgi" = _uDursNgi;
+        "IoLaAy70" = _IoLaAy70;
+        "t13kLaIW" = _t13kLaIW;
+        "a1ncWnHU" = _a1ncWnHU;
+        "BHeX0NSv" = _BHeX0NSv;
         "fabric-26.1" = _PBSpFvD9;
         "fabric-26.1.1" = _PBSpFvD9;
         "fabric-26.1.2" = _PBSpFvD9;
@@ -95,11 +131,20 @@ let
         "fabric-1.21.4" = _jngwpfzO;
         "fabric-1.21" = _grTKmYM5;
         "fabric-1.21.1" = _grTKmYM5;
+        "fabric-26.2" = _41lbmoHr;
+        "fabric-26.3" = _BHeX0NSv;
+        "fabric-1.20.1" = _t13kLaIW;
         "pkg-1.0.0" = _RIeZ7ax9;
         "pkg-1.1.0" = _AKQHdX2W;
         "pkg-1.2.0" = _XSAwfIlR;
         "pkg-1.3.0" = _grTKmYM5;
-        "default" = _grTKmYM5;
+        "pkg-1.3.1+26.2" = _41lbmoHr;
+        "pkg-1.3.2+26.3" = _uDursNgi;
+        "pkg-1.4.0+26.3" = _IoLaAy70;
+        "pkg-1.3.0+1.20.1" = _t13kLaIW;
+        "pkg-1.4.1+26.3" = _a1ncWnHU;
+        "pkg-1.4.2+26.3" = _BHeX0NSv;
+        "default" = _BHeX0NSv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-loading-screen-mod";

@@ -21,17 +21,24 @@ let
             "file" = "TC-CobblemonWorldReborn-1.2.0+1.21.1.jar";
             "hash" = "sha512-C+O086ZJl7FKoNg0VgLuA1KRd/pkndI+k50Hr1/Up46Dl4AKl65mbVUHx5Lmv2zfQZ1f1A1dD1wwneebqD2sHQ==";
         };
+        _ryGACNTG = {
+            "id" = "ryGACNTG";
+            "file" = "Cobblemon-TC-Living-World-1.3.0+1.21.1.jar";
+            "hash" = "sha512-JwcXI/40f8XJ9IOXeJu+aCEMejZl/bEYU9yNDZ3IZNuyvljYcfYUr4vI65L9gtNRfq6XpJriHQ17kYeDCZj/iQ==";
+        };
     in {
         "xNbR7KqY" = _xNbR7KqY;
         "bHMVlKsJ" = _bHMVlKsJ;
         "xfk3cTYR" = _xfk3cTYR;
         "7AijRLZZ" = _7AijRLZZ;
-        "fabric-1.21.1" = _7AijRLZZ;
+        "ryGACNTG" = _ryGACNTG;
+        "fabric-1.21.1" = _ryGACNTG;
         "pkg-1.0.0" = _xNbR7KqY;
         "pkg-1.1.0" = _bHMVlKsJ;
         "pkg-1.1.1" = _xfk3cTYR;
         "pkg-1.2.0" = _7AijRLZZ;
-        "default" = _7AijRLZZ;
+        "pkg-1.3.0+1.21.1" = _ryGACNTG;
+        "default" = _ryGACNTG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tc-world-cobblemon-rebron";

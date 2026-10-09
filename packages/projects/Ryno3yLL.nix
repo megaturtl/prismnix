@@ -51,6 +51,11 @@ let
             "file" = "customfence-26-2.jar";
             "hash" = "sha512-zhC1Vd135h1CE9Oi9uvUKO6C9hrKtV5F0nnK6gras0UTuX+G2OHOwTGCjPSE/VVIGbmMAJXdHl5fDKR2Loa66w==";
         };
+        _EXpIiYdK = {
+            "id" = "EXpIiYdK";
+            "file" = "customfence-26-3.jar";
+            "hash" = "sha512-MB2xGOFkLzKvU+T//DNxabOaT9V4JQluCfXakmNNBPI0SDQlI5+kBOw0l+6JwH4bRer7FajAh3pNvHeoJd9ftA==";
+        };
     in {
         "VGrFR8y8" = _VGrFR8y8;
         "V2dbavHa" = _V2dbavHa;
@@ -62,6 +67,7 @@ let
         "hYuCxcgX" = _hYuCxcgX;
         "QuG1JjLS" = _QuG1JjLS;
         "t6aNkXp6" = _t6aNkXp6;
+        "EXpIiYdK" = _EXpIiYdK;
         "fabric-1.20" = _VGrFR8y8;
         "fabric-1.20.1" = _VGrFR8y8;
         "fabric-1.20.2" = _VGrFR8y8;
@@ -77,6 +83,7 @@ let
         "fabric-26.1.1" = _QuG1JjLS;
         "fabric-26.1.2" = _QuG1JjLS;
         "fabric-26.2" = _t6aNkXp6;
+        "fabric-26.3" = _EXpIiYdK;
         "forge-1.20" = _VGrFR8y8;
         "forge-1.20.1" = _VGrFR8y8;
         "forge-1.20.2" = _VGrFR8y8;
@@ -92,6 +99,7 @@ let
         "forge-26.1.1" = _QuG1JjLS;
         "forge-26.1.2" = _QuG1JjLS;
         "forge-26.2" = _t6aNkXp6;
+        "forge-26.3" = _EXpIiYdK;
         "neoforge-1.21.4" = _1x3gJwK9;
         "neoforge-1.21.5" = _zvfJSjwR;
         "neoforge-1.21.6" = _rxgvcsen;
@@ -103,6 +111,7 @@ let
         "neoforge-26.1.1" = _QuG1JjLS;
         "neoforge-26.1.2" = _QuG1JjLS;
         "neoforge-26.2" = _t6aNkXp6;
+        "neoforge-26.3" = _EXpIiYdK;
         "pkg-1-20-2" = _VGrFR8y8;
         "pkg-1-21" = _V2dbavHa;
         "pkg-1-21-4-forge" = _fQBhIDhG;
@@ -112,7 +121,8 @@ let
         "pkg-1-21-6" = _rxgvcsen;
         "pkg-26-1" = _QuG1JjLS;
         "pkg-26-2" = _t6aNkXp6;
-        "default" = _t6aNkXp6;
+        "pkg-26-3" = _EXpIiYdK;
+        "default" = _EXpIiYdK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "customfence";

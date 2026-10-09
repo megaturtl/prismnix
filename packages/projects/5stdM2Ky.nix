@@ -76,6 +76,11 @@ let
             "file" = "armortip-26.1.jar";
             "hash" = "sha512-yti/YYClWrqfdIDW+PbyypYVfMVXCl8RMoBgMn6BFd/STmnQWDTBcFS++MY2zvrQq06OylRFRSjvUI08uJJn7w==";
         };
+        _f6ZivVtN = {
+            "id" = "f6ZivVtN";
+            "file" = "armortip-26.3.0.jar";
+            "hash" = "sha512-/EQhkh6urolgTsKGMC31Lo1XX9X4m9IIPVGgJLXsjiIHZXU3anxTqSU1GbF7W014B5B5MmArLcW4JxO6sEr2KA==";
+        };
     in {
         "qHaoT0rN" = _qHaoT0rN;
         "YjpYvBJM" = _YjpYvBJM;
@@ -92,6 +97,7 @@ let
         "lBFanZ5G" = _lBFanZ5G;
         "ac2LORwM" = _ac2LORwM;
         "PcTNnhjp" = _PcTNnhjp;
+        "f6ZivVtN" = _f6ZivVtN;
         "fabric-1.20.4" = _qHaoT0rN;
         "fabric-1.20.1" = _ac2LORwM;
         "fabric-1.21" = _TtU7827i;
@@ -109,6 +115,7 @@ let
         "fabric-26.1" = _PcTNnhjp;
         "fabric-26.1.1" = _PcTNnhjp;
         "fabric-26.1.2" = _PcTNnhjp;
+        "fabric-26.3" = _f6ZivVtN;
         "neoforge-1.21.1" = _g7xLxWnc;
         "neoforge-1.21.10" = _HuH39y7v;
         "neoforge-1.21.11" = _3OQi0zGq;
@@ -124,7 +131,8 @@ let
         "pkg-1.21.678" = _NqyPIqZE;
         "pkg-1.21.910" = _pDEEw0ll;
         "pkg-26.1" = _PcTNnhjp;
-        "default" = _PcTNnhjp;
+        "pkg-26.3" = _f6ZivVtN;
+        "default" = _f6ZivVtN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armortip";

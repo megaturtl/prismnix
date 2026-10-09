@@ -21,11 +21,17 @@ let
             "file" = "Shadow Wolf 26.1.zip";
             "hash" = "sha512-rymzOri56KTjIqiLtajLf8grgza+Gq03NZGVDKnD3Oj/k5biJz/MvEL6BJs7EQGjMlfcpyPXgNhA8+33fBbbjw==";
         };
+        _di2lUDPB = {
+            "id" = "di2lUDPB";
+            "file" = "Shadow Wolf 26.3.zip";
+            "hash" = "sha512-PmAO4AtGx6A37kOKG2Or6poKBAxGt+dmkI+3z2hcSyXeiGHhLKq0/EwKID99dtf3AaPJhHooz4Lpp7WwV3fwdQ==";
+        };
     in {
         "QSX7ITrl" = _QSX7ITrl;
         "9JjizjWi" = _9JjizjWi;
         "T66ybwTH" = _T66ybwTH;
         "HxTSSOAR" = _HxTSSOAR;
+        "di2lUDPB" = _di2lUDPB;
         "minecraft-1.21" = _QSX7ITrl;
         "minecraft-1.21.1" = _QSX7ITrl;
         "minecraft-1.21.2" = _QSX7ITrl;
@@ -37,8 +43,10 @@ let
         "minecraft-26.1" = _HxTSSOAR;
         "minecraft-26.1.1" = _HxTSSOAR;
         "minecraft-26.1.2" = _HxTSSOAR;
+        "minecraft-26.3" = _di2lUDPB;
         "pkg-1.0" = _HxTSSOAR;
-        "default" = _HxTSSOAR;
+        "pkg-26.3" = _di2lUDPB;
+        "default" = _di2lUDPB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shadow-wolf-pvp";

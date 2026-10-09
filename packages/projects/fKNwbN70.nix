@@ -91,6 +91,16 @@ let
             "file" = "cobbledex-1.21.1-fabric-1.2.0.jar";
             "hash" = "sha512-R4Us+3acZhBZoVbcW4iQitLsm70F3huhbJAZXN/+eQL2coikj34p3yKE505Wt8JZChI7fz5ZpDgrsv0y6VPM9Q==";
         };
+        _sBnQjU0X = {
+            "id" = "sBnQjU0X";
+            "file" = "cobbledex-1.21.1-neoforge-1.3.0.jar";
+            "hash" = "sha512-OLmq1Aieg1YjiVYZ21IUWj/HXmvCGQe9m4tmi3aqi5MN24pE9GDQTDIb1SgDwzqvInW9I6SevpCrURYBqREPug==";
+        };
+        _1TpmrjvO = {
+            "id" = "1TpmrjvO";
+            "file" = "cobbledex-1.21.1-fabric-1.3.0.jar";
+            "hash" = "sha512-2CICSJDOs7kZgNK3AJCIb0UYaPm/T0UuJxEyZEj8/2yVcxl+NK/Z5OsKuTdfKyEYvnkPjT8/fM4OU/r6Y1/iVA==";
+        };
     in {
         "N2muLD0E" = _N2muLD0E;
         "OJ2bAeO1" = _OJ2bAeO1;
@@ -110,10 +120,12 @@ let
         "T2VhE2Hf" = _T2VhE2Hf;
         "KqwjnkSa" = _KqwjnkSa;
         "ANkWX7PD" = _ANkWX7PD;
+        "sBnQjU0X" = _sBnQjU0X;
+        "1TpmrjvO" = _1TpmrjvO;
         "fabric-1.20.1" = _T2VhE2Hf;
-        "fabric-1.21.1" = _ANkWX7PD;
+        "fabric-1.21.1" = _1TpmrjvO;
         "forge-1.20.1" = _ft2ADMnj;
-        "neoforge-1.21.1" = _KqwjnkSa;
+        "neoforge-1.21.1" = _sBnQjU0X;
         "pkg-1.0.14" = _OJ2bAeO1;
         "pkg-1.0.16" = _1f3ok4rF;
         "pkg-1.0.17" = _Rkw6huZe;
@@ -123,7 +135,8 @@ let
         "pkg-1.0.31" = _Ha4JX6MW;
         "pkg-1.1.0" = _T2VhE2Hf;
         "pkg-1.2.0" = _ANkWX7PD;
-        "default" = _ANkWX7PD;
+        "pkg-1.3.0" = _1TpmrjvO;
+        "default" = _1TpmrjvO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-pokedex";

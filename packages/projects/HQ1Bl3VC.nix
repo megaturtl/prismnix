@@ -211,6 +211,36 @@ let
             "file" = "catskinc-neoforge_1.21.1-4.0.0.jar";
             "hash" = "sha512-qWdwlkkf81Jd4qomKHKH1dLUFIrA+ZM5y9286x9FTasV18JSJEUIBIlcKqDtDOJh3LowhQyGmz9xYRgAq+WCww==";
         };
+        _2yz26zOH = {
+            "id" = "2yz26zOH";
+            "file" = "catskinc-fabric_1.21.1-4.0.1.jar";
+            "hash" = "sha512-fPPiFUyLTEtLsBTMf7+U6pHn4meSLklHOg5o7Vf2ZeqduSkFQZG6Mop0bzJXoeNgK/fahhBYvkPU4J26jkNZtw==";
+        };
+        _JWVyyAT9 = {
+            "id" = "JWVyyAT9";
+            "file" = "catskinc-neoforge_1.21.1-4.0.1.jar";
+            "hash" = "sha512-ZBLinEs/QLSBWf3IaX1BXcDuH6ivyHmmbDyHFFpGUQM6f3g8D9wJKZ8KUV/YCFUzpDLoh8Wj8YQKa2xYw9yH0Q==";
+        };
+        _xEa7Tl6D = {
+            "id" = "xEa7Tl6D";
+            "file" = "catskinc-fabric_1.20.1-4.1.0.jar";
+            "hash" = "sha512-7yvDlXZBPwTiLpoSu0vQepSPZO52Pk2Kd7KspjmuazR4bMg/xoJmcXi+CDsMVBxlkNtglSsDLj/mKt/xVp3vHA==";
+        };
+        _jxZA6si3 = {
+            "id" = "jxZA6si3";
+            "file" = "catskinc-forge_1.20.1-4.1.0.jar";
+            "hash" = "sha512-uSCbO5R4mN2Y1Yw3X4dpawzZWGqzaf0+nzJjvK5jwh06N2iiFngm7mM/O1rXv2/ftnFg7DN0/Yw0xhAuZHn7Bg==";
+        };
+        _Pskave11 = {
+            "id" = "Pskave11";
+            "file" = "catskinc-fabric_1.21.1-4.1.0.jar";
+            "hash" = "sha512-tz+Q5rgtPlXOxlcpkV+ZtUQh1KiJYASTKJvQvYhlKDoiojuPRTEGNuR7CTymueWahSwAQljvFb9cTLPksUX89g==";
+        };
+        _xZ4fXAjE = {
+            "id" = "xZ4fXAjE";
+            "file" = "catskinc-neoforge_1.21.1-4.1.0.jar";
+            "hash" = "sha512-b+qz/qYY51u+12UD6nqN2gb/QQDzO+P4xEDmqVaHCq5fiC8ILJpABDXWpVEqB1NyHbg0dWLq0GdqpSJRlSvZCw==";
+        };
     in {
         "XoMyMowV" = _XoMyMowV;
         "vpHCS4f5" = _vpHCS4f5;
@@ -254,11 +284,17 @@ let
         "Zfbmnq5x" = _Zfbmnq5x;
         "bF6MYHGK" = _bF6MYHGK;
         "DwlRj4Tv" = _DwlRj4Tv;
-        "fabric-1.20.1" = _Fkblp8sZ;
-        "fabric-1.21.1" = _bF6MYHGK;
+        "2yz26zOH" = _2yz26zOH;
+        "JWVyyAT9" = _JWVyyAT9;
+        "xEa7Tl6D" = _xEa7Tl6D;
+        "jxZA6si3" = _jxZA6si3;
+        "Pskave11" = _Pskave11;
+        "xZ4fXAjE" = _xZ4fXAjE;
+        "fabric-1.20.1" = _xEa7Tl6D;
+        "fabric-1.21.1" = _Pskave11;
         "fabric-26.1.2" = _DClWSVzc;
-        "forge-1.20.1" = _Zfbmnq5x;
-        "neoforge-1.21.1" = _DwlRj4Tv;
+        "forge-1.20.1" = _jxZA6si3;
+        "neoforge-1.21.1" = _xZ4fXAjE;
         "neoforge-1.20.1" = _6Cqp1dBi;
         "neoforge-26.1.2" = _CqeUGlzJ;
         "pkg-1.0.3-FB" = _XoMyMowV;
@@ -276,7 +312,12 @@ let
         "pkg-4.0.0+fabric" = _bF6MYHGK;
         "pkg-4.0.0+forge" = _Zfbmnq5x;
         "pkg-4.0.0+neoforge" = _DwlRj4Tv;
-        "default" = _DwlRj4Tv;
+        "pkg-4.0.1+fabric" = _2yz26zOH;
+        "pkg-4.0.1+neoforge" = _JWVyyAT9;
+        "pkg-4.1.0+fabric" = _Pskave11;
+        "pkg-4.1.0+forge" = _jxZA6si3;
+        "pkg-4.1.0+neoforge" = _xZ4fXAjE;
+        "default" = _xZ4fXAjE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "catskinc";

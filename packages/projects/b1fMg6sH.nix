@@ -216,6 +216,21 @@ let
             "file" = "ItemBorders-26.2-forge-1.3.2.jar";
             "hash" = "sha512-I3JX50KTXPc0Dima60cDm24zzpxemoNAP2ZKROTWsQLx92Z1/VVwsyKdOvc8jynb6l8TKO7fJGPfobDzPHHxqg==";
         };
+        _pVZMoGZS = {
+            "id" = "pVZMoGZS";
+            "file" = "ItemBorders-26.3-fabric-1.3.3.jar";
+            "hash" = "sha512-Q095tKfzeRpmRt3HdhBQ51OLdVitHOuK2PA6/SNnr61nTBHEyqJjjpAqAkLmuzZG0GEMysLjyX/Eazwc75nXnQ==";
+        };
+        _L0Bwe8xH = {
+            "id" = "L0Bwe8xH";
+            "file" = "ItemBorders-26.3-neoforge-1.3.3.jar";
+            "hash" = "sha512-QywNFNj9aRJtfqpbo6RuFiEDO1IJYd3I2cWivnda3qHOaWcDQu6R0pTVLOkwEwQg+L6w8KgzRieeKF4rVs1Uuw==";
+        };
+        _MeHo4klG = {
+            "id" = "MeHo4klG";
+            "file" = "ItemBorders-26.3-forge-1.3.3.jar";
+            "hash" = "sha512-56GKh2eazmtF1avSC9OSB19AH5Hu6ephlAK97PwOxC6sCt0gnaxVGT/1bwU/tuU8Aogrggs7v4wtYTrEf/gp4g==";
+        };
     in {
         "yvFrIG6I" = _yvFrIG6I;
         "yxSuV7bR" = _yxSuV7bR;
@@ -260,6 +275,9 @@ let
         "aSAkzGkZ" = _aSAkzGkZ;
         "dnerR7tb" = _dnerR7tb;
         "UgMa9drt" = _UgMa9drt;
+        "pVZMoGZS" = _pVZMoGZS;
+        "L0Bwe8xH" = _L0Bwe8xH;
+        "MeHo4klG" = _MeHo4klG;
         "forge-1.19" = _yvFrIG6I;
         "forge-1.19.1" = _yvFrIG6I;
         "forge-1.19.2" = _yvFrIG6I;
@@ -283,6 +301,7 @@ let
         "forge-26.1.1" = _XR9ZKgxG;
         "forge-26.1.2" = _XR9ZKgxG;
         "forge-26.2" = _UgMa9drt;
+        "forge-26.3" = _MeHo4klG;
         "fabric-1.19" = _hSiRURur;
         "fabric-1.19.1" = _hSiRURur;
         "fabric-1.19.2" = _hSiRURur;
@@ -305,6 +324,7 @@ let
         "fabric-26.1.1" = _92aVs1np;
         "fabric-26.1.2" = _92aVs1np;
         "fabric-26.2" = _aSAkzGkZ;
+        "fabric-26.3" = _pVZMoGZS;
         "neoforge-1.21" = _WjErgKWV;
         "neoforge-1.21.1" = _WjErgKWV;
         "neoforge-1.21.3" = _wWPXCR26;
@@ -314,6 +334,7 @@ let
         "neoforge-26.1.1" = _TSwH97aN;
         "neoforge-26.1.2" = _TSwH97aN;
         "neoforge-26.2" = _dnerR7tb;
+        "neoforge-26.3" = _L0Bwe8xH;
         "pkg-1.2.0" = _neCDDumZ;
         "pkg-1.1.5" = _h1RmZHsi;
         "pkg-1.1.6" = _hSiRURur;
@@ -325,7 +346,8 @@ let
         "pkg-1.3.0" = _YivQr67x;
         "pkg-1.3.1" = _XR9ZKgxG;
         "pkg-1.3.2" = _UgMa9drt;
-        "default" = _UgMa9drt;
+        "pkg-1.3.3" = _MeHo4klG;
+        "default" = _MeHo4klG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "item-borders";

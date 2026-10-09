@@ -51,6 +51,11 @@ let
             "file" = "NoSpawnerChange-1.2.0-26.2.jar";
             "hash" = "sha512-zkJb5nqZE+nh5ATpgj5PwQD0dua77rW0wWNsrls3tdXwm0BEII/uC4ssvcvwZjnHpabUWEsUR8jxKkvL7+NHyA==";
         };
+        _TSPHxo1M = {
+            "id" = "TSPHxo1M";
+            "file" = "NoSpawnerChange-1.2.0-26.3.jar";
+            "hash" = "sha512-D1VzFH4i9Nh7HXdoBmtlJrQ8VND9hSFtFz1XYVc9C1hEgB6TeHL6wAU3J0LvavYH+ecEtuFK066MF0WFDx7LyA==";
+        };
     in {
         "doUhhXmn" = _doUhhXmn;
         "Tnpx26Q2" = _Tnpx26Q2;
@@ -62,6 +67,7 @@ let
         "sl5Fv9GL" = _sl5Fv9GL;
         "YGAlJcsS" = _YGAlJcsS;
         "5E5i3qWU" = _5E5i3qWU;
+        "TSPHxo1M" = _TSPHxo1M;
         "fabric-1.21" = _sl5Fv9GL;
         "fabric-1.21.1" = _sl5Fv9GL;
         "fabric-1.21.2" = _DMCc7oUM;
@@ -78,11 +84,12 @@ let
         "fabric-26.1.1" = _YGAlJcsS;
         "fabric-26.1.2" = _YGAlJcsS;
         "fabric-26.2" = _5E5i3qWU;
+        "fabric-26.3" = _TSPHxo1M;
         "pkg-1.0.0" = _doUhhXmn;
         "pkg-1.0.1" = _Tnpx26Q2;
         "pkg-1.1.0" = _sl5Fv9GL;
-        "pkg-1.2.0" = _5E5i3qWU;
-        "default" = _5E5i3qWU;
+        "pkg-1.2.0" = _TSPHxo1M;
+        "default" = _TSPHxo1M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nospawnerchange";

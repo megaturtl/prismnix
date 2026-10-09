@@ -201,6 +201,11 @@ let
             "file" = "architectural-building-wand-1.2.1.jar";
             "hash" = "sha512-cRT7a1iZWLrqvXCeRn8XLOMHXQa6wNXFoNetev83wb/gr9H5neSxh7yHTDERr2i6atZdnb6YXCYgOniR2SnY8g==";
         };
+        _D7PH2r08 = {
+            "id" = "D7PH2r08";
+            "file" = "architectural-building-wand-1.2.1.jar";
+            "hash" = "sha512-yLydMIcqJQjeacrQLsuOrs+O975COrQ8uCWPRcfkj0IXXlzsbSWNs6ef1rP1xPGdw7o5pv9k3dlyHlL1TaG0gg==";
+        };
     in {
         "hXVhbCyT" = _hXVhbCyT;
         "J21QoosH" = _J21QoosH;
@@ -242,6 +247,7 @@ let
         "AwEXjUQ6" = _AwEXjUQ6;
         "gSHuqVqN" = _gSHuqVqN;
         "lLoEHbhy" = _lLoEHbhy;
+        "D7PH2r08" = _D7PH2r08;
         "fabric-1.21.6" = _hXVhbCyT;
         "fabric-1.21.7" = _hXVhbCyT;
         "fabric-1.21.8" = _hXVhbCyT;
@@ -257,6 +263,7 @@ let
         "forge-26.1.1" = _DSCmSD50;
         "forge-26.1.2" = _JYNcVAvE;
         "forge-26.2" = _MXeg8oN8;
+        "forge-26.3" = _D7PH2r08;
         "neoforge-26.1" = _s9ucDG54;
         "neoforge-26.1.1" = _IJLvlCv7;
         "neoforge-26.1.2" = _JuoRFdSm;
@@ -265,8 +272,8 @@ let
         "pkg-1.0.0" = _9Gh2Ybs9;
         "pkg-1.1" = _tJg42kaI;
         "pkg-1.2" = _hLQCNJ0s;
-        "pkg-1.2.1" = _lLoEHbhy;
-        "default" = _lLoEHbhy;
+        "pkg-1.2.1" = _D7PH2r08;
+        "default" = _D7PH2r08;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "architectural-building-wand";

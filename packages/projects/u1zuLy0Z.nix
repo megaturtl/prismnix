@@ -246,6 +246,26 @@ let
             "file" = "crying-obsidian-recipe-1.0.jar";
             "hash" = "sha512-iAI8Qv/GsaWM6ko8Gr8dFd00xdIALE1Wn2KxlsAunZBFeS4zuoVsJO0dQJT+IwicubFAQUNsow9UYJXTn+Hwog==";
         };
+        _Js7HXYpr = {
+            "id" = "Js7HXYpr";
+            "file" = "crying_obisidian-26.3.zip";
+            "hash" = "sha512-8Fg//FhKDAQTP/3HVeJYBvV1deLe66d9OCL1nR8NgxoPIex28vD+jb3oPmDDG3eSKvv3umbcUOweIi0ued8XLQ==";
+        };
+        _BgT4oifM = {
+            "id" = "BgT4oifM";
+            "file" = "crying-obsidian-recipe-1.0.jar";
+            "hash" = "sha512-hfENXpMNGMQSPcIoGWXGLsn2wE5yvJUCLE0e55ryAa+v9UYQkTJS+6riHMmRcs4XJQh6ansdu+FMQP9Ix0rpcA==";
+        };
+        _DFFsrmP8 = {
+            "id" = "DFFsrmP8";
+            "file" = "crying_obsidian-1.19-datapack.zip";
+            "hash" = "sha512-lMVef4r5PuTd94ZpIBgEu+LHImxSqtzN8pS7Gn7TKLyi//z/TMEyWPGy6WHvaaKjpWWzXRAui+/lkfXgf+/rjQ==";
+        };
+        _w1y5gyqq = {
+            "id" = "w1y5gyqq";
+            "file" = "crying-obsidian-recipe-1.0.jar";
+            "hash" = "sha512-7WIZ8gRX4AGjZEQRkkRcd584DwK4NLmUsQ70F/EzUqrlaR3ee7QCrN5S29iuKyOOp2MikncZ5koDoqV5joNWgA==";
+        };
     in {
         "6dxoeFOJ" = _6dxoeFOJ;
         "SzsL4mgW" = _SzsL4mgW;
@@ -296,6 +316,10 @@ let
         "CWUhIzBC" = _CWUhIzBC;
         "ChkWqu5b" = _ChkWqu5b;
         "UjdotijB" = _UjdotijB;
+        "Js7HXYpr" = _Js7HXYpr;
+        "BgT4oifM" = _BgT4oifM;
+        "DFFsrmP8" = _DFFsrmP8;
+        "w1y5gyqq" = _w1y5gyqq;
         "datapack-1.16" = _6dxoeFOJ;
         "datapack-1.16.1" = _6dxoeFOJ;
         "datapack-1.16.2" = _6dxoeFOJ;
@@ -306,12 +330,12 @@ let
         "datapack-1.17.1" = _NJNRNBX9;
         "datapack-1.18" = _5mrbgzkO;
         "datapack-1.18.1" = _5mrbgzkO;
-        "datapack-1.18.2" = _E3Smxh6U;
-        "datapack-1.19" = _E3Smxh6U;
-        "datapack-1.19.1" = _E3Smxh6U;
-        "datapack-1.19.2" = _E3Smxh6U;
-        "datapack-1.19.3" = _E3Smxh6U;
-        "datapack-1.19.4" = _ps13wnoB;
+        "datapack-1.18.2" = _DFFsrmP8;
+        "datapack-1.19" = _DFFsrmP8;
+        "datapack-1.19.1" = _DFFsrmP8;
+        "datapack-1.19.2" = _DFFsrmP8;
+        "datapack-1.19.3" = _DFFsrmP8;
+        "datapack-1.19.4" = _DFFsrmP8;
         "datapack-1.20" = _ps13wnoB;
         "datapack-1.20.1" = _ps13wnoB;
         "datapack-1.20.2" = _ps13wnoB;
@@ -354,6 +378,7 @@ let
         "datapack-26.2-snapshot-2" = _627St4rV;
         "datapack-26.2" = _ChkWqu5b;
         "datapack-26.3-snapshot-1" = _ChkWqu5b;
+        "datapack-26.3" = _Js7HXYpr;
         "fabric-1.16" = _SzsL4mgW;
         "fabric-1.16.1" = _SzsL4mgW;
         "fabric-1.16.2" = _SzsL4mgW;
@@ -364,12 +389,12 @@ let
         "fabric-1.17.1" = _77za3iLJ;
         "fabric-1.18" = _1krnZ5E1;
         "fabric-1.18.1" = _1krnZ5E1;
-        "fabric-1.18.2" = _yMtk9xCr;
-        "fabric-1.19" = _yMtk9xCr;
-        "fabric-1.19.1" = _yMtk9xCr;
-        "fabric-1.19.2" = _yMtk9xCr;
-        "fabric-1.19.3" = _yMtk9xCr;
-        "fabric-1.19.4" = _CWUhIzBC;
+        "fabric-1.18.2" = _w1y5gyqq;
+        "fabric-1.19" = _w1y5gyqq;
+        "fabric-1.19.1" = _w1y5gyqq;
+        "fabric-1.19.2" = _w1y5gyqq;
+        "fabric-1.19.3" = _w1y5gyqq;
+        "fabric-1.19.4" = _w1y5gyqq;
         "fabric-1.20" = _CWUhIzBC;
         "fabric-1.20.1" = _CWUhIzBC;
         "fabric-1.20.2" = _CWUhIzBC;
@@ -412,6 +437,7 @@ let
         "fabric-26.2-snapshot-2" = _zBTEOlWc;
         "fabric-26.2" = _UjdotijB;
         "fabric-26.3-snapshot-1" = _UjdotijB;
+        "fabric-26.3" = _BgT4oifM;
         "forge-1.16" = _SzsL4mgW;
         "forge-1.16.1" = _SzsL4mgW;
         "forge-1.16.2" = _SzsL4mgW;
@@ -422,12 +448,12 @@ let
         "forge-1.17.1" = _77za3iLJ;
         "forge-1.18" = _1krnZ5E1;
         "forge-1.18.1" = _1krnZ5E1;
-        "forge-1.18.2" = _yMtk9xCr;
-        "forge-1.19" = _yMtk9xCr;
-        "forge-1.19.1" = _yMtk9xCr;
-        "forge-1.19.2" = _yMtk9xCr;
-        "forge-1.19.3" = _yMtk9xCr;
-        "forge-1.19.4" = _CWUhIzBC;
+        "forge-1.18.2" = _w1y5gyqq;
+        "forge-1.19" = _w1y5gyqq;
+        "forge-1.19.1" = _w1y5gyqq;
+        "forge-1.19.2" = _w1y5gyqq;
+        "forge-1.19.3" = _w1y5gyqq;
+        "forge-1.19.4" = _w1y5gyqq;
         "forge-1.20" = _CWUhIzBC;
         "forge-1.20.1" = _CWUhIzBC;
         "forge-1.20.2" = _CWUhIzBC;
@@ -470,6 +496,7 @@ let
         "forge-26.2-snapshot-2" = _zBTEOlWc;
         "forge-26.2" = _UjdotijB;
         "forge-26.3-snapshot-1" = _UjdotijB;
+        "forge-26.3" = _BgT4oifM;
         "neoforge-1.16" = _SzsL4mgW;
         "neoforge-1.16.1" = _SzsL4mgW;
         "neoforge-1.16.2" = _SzsL4mgW;
@@ -480,12 +507,12 @@ let
         "neoforge-1.17.1" = _77za3iLJ;
         "neoforge-1.18" = _1krnZ5E1;
         "neoforge-1.18.1" = _1krnZ5E1;
-        "neoforge-1.18.2" = _yMtk9xCr;
-        "neoforge-1.19" = _yMtk9xCr;
-        "neoforge-1.19.1" = _yMtk9xCr;
-        "neoforge-1.19.2" = _yMtk9xCr;
-        "neoforge-1.19.3" = _yMtk9xCr;
-        "neoforge-1.19.4" = _CWUhIzBC;
+        "neoforge-1.18.2" = _w1y5gyqq;
+        "neoforge-1.19" = _w1y5gyqq;
+        "neoforge-1.19.1" = _w1y5gyqq;
+        "neoforge-1.19.2" = _w1y5gyqq;
+        "neoforge-1.19.3" = _w1y5gyqq;
+        "neoforge-1.19.4" = _w1y5gyqq;
         "neoforge-1.20" = _CWUhIzBC;
         "neoforge-1.20.1" = _CWUhIzBC;
         "neoforge-1.20.2" = _CWUhIzBC;
@@ -528,6 +555,7 @@ let
         "neoforge-26.2-snapshot-2" = _zBTEOlWc;
         "neoforge-26.2" = _UjdotijB;
         "neoforge-26.3-snapshot-1" = _UjdotijB;
+        "neoforge-26.3" = _BgT4oifM;
         "quilt-1.16" = _SzsL4mgW;
         "quilt-1.16.1" = _SzsL4mgW;
         "quilt-1.16.2" = _SzsL4mgW;
@@ -538,12 +566,12 @@ let
         "quilt-1.17.1" = _77za3iLJ;
         "quilt-1.18" = _1krnZ5E1;
         "quilt-1.18.1" = _1krnZ5E1;
-        "quilt-1.18.2" = _yMtk9xCr;
-        "quilt-1.19" = _yMtk9xCr;
-        "quilt-1.19.1" = _yMtk9xCr;
-        "quilt-1.19.2" = _yMtk9xCr;
-        "quilt-1.19.3" = _yMtk9xCr;
-        "quilt-1.19.4" = _CWUhIzBC;
+        "quilt-1.18.2" = _w1y5gyqq;
+        "quilt-1.19" = _w1y5gyqq;
+        "quilt-1.19.1" = _w1y5gyqq;
+        "quilt-1.19.2" = _w1y5gyqq;
+        "quilt-1.19.3" = _w1y5gyqq;
+        "quilt-1.19.4" = _w1y5gyqq;
         "quilt-1.20" = _CWUhIzBC;
         "quilt-1.20.1" = _CWUhIzBC;
         "quilt-1.20.2" = _CWUhIzBC;
@@ -586,11 +614,12 @@ let
         "quilt-26.2-snapshot-2" = _zBTEOlWc;
         "quilt-26.2" = _UjdotijB;
         "quilt-26.3-snapshot-1" = _UjdotijB;
-        "pkg-1.0" = _ChkWqu5b;
-        "pkg-1.0+mod" = _UjdotijB;
+        "quilt-26.3" = _BgT4oifM;
+        "pkg-1.0" = _DFFsrmP8;
+        "pkg-1.0+mod" = _w1y5gyqq;
         "pkg-1.1" = _WXnZAEFb;
         "pkg-1.1+mod" = _fAaaz5rC;
-        "default" = _UjdotijB;
+        "default" = _w1y5gyqq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crying-obsidian-recipe";

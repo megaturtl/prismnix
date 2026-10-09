@@ -371,6 +371,16 @@ let
             "file" = "StrawStatues-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-34THuHNLPtZO3ptA+G1ox7oBnwBoMSk2liB71vdxqi2ya1FVQWPgXJStTEVRB/0S/KXlvpV17u3t0GdLHrKKOQ==";
         };
+        _WKIUIKLw = {
+            "id" = "WKIUIKLw";
+            "file" = "strawstatues-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-YSikZo/jbs0RjM/XF1Fgp9LQszJ997QMYeieQi6niAoKyNXVdbjumE83aM1Ciaxh0l/TjLd+cAuqv0ZKmycNtA==";
+        };
+        _NnV878Wf = {
+            "id" = "NnV878Wf";
+            "file" = "strawstatues-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-6IaVUmRbgN4UpdJkUIsQ7n1F/Krkck6RNOmCfQ087liGdGPW0RkycHo6uHY0KXAydzYOtKZZLEsQBccGFB/dAg==";
+        };
     in {
         "85HDfWvS" = _85HDfWvS;
         "28UGW0V8" = _28UGW0V8;
@@ -446,6 +456,8 @@ let
         "qHW7wfGd" = _qHW7wfGd;
         "MvJaIPCF" = _MvJaIPCF;
         "KXBNHn5J" = _KXBNHn5J;
+        "WKIUIKLw" = _WKIUIKLw;
+        "NnV878Wf" = _NnV878Wf;
         "fabric-1.19.2" = _Yo1pCauk;
         "fabric-1.20.1" = _frXSmfj0;
         "fabric-1.20.4" = _z8f4DU8x;
@@ -463,6 +475,7 @@ let
         "fabric-26.1.1" = _qHW7wfGd;
         "fabric-26.1.2" = _qHW7wfGd;
         "fabric-26.2" = _MvJaIPCF;
+        "fabric-26.3" = _WKIUIKLw;
         "forge-1.19.2" = _qEzScnte;
         "forge-1.20.1" = _1WbJR9ka;
         "forge-1.20.4" = _GVJfcWjf;
@@ -481,6 +494,7 @@ let
         "neoforge-26.1.1" = _fbGxD1My;
         "neoforge-26.1.2" = _fbGxD1My;
         "neoforge-26.2" = _KXBNHn5J;
+        "neoforge-26.3" = _NnV878Wf;
         "pkg-v4.0.0-1.19.2-Fabric" = _85HDfWvS;
         "pkg-v4.0.0-1.19.2-Forge" = _28UGW0V8;
         "pkg-v4.0.1-1.19.2-Fabric" = _XbDcA4Rn;
@@ -549,7 +563,8 @@ let
         "pkg-21.11.0" = _NglexoWN;
         "pkg-26.1.0" = _qHW7wfGd;
         "pkg-26.2.0" = _KXBNHn5J;
-        "default" = _KXBNHn5J;
+        "pkg-26.3.0" = _NnV878Wf;
+        "default" = _NnV878Wf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "straw-statues";

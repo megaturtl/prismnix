@@ -391,6 +391,46 @@ let
             "file" = "letsdo-farm_and_charm-neoforge-1.1.23.jar";
             "hash" = "sha512-53JLSaKSEDQ46LqYLKmli6zeFeVYiophDdYo2m+SEQtwoRbCXTwVCuBLauDDOVPrWFjsK2a8dj96qnflBQ3DnA==";
         };
+        _NyIPsytO = {
+            "id" = "NyIPsytO";
+            "file" = "letsdo-farm_and_charm-neoforge-1.1.24.jar";
+            "hash" = "sha512-ygqWc+T2pFwxigpnOjmssfc/IRHBriyIpfBEdcDyxIMqscqHSX3IQH3dsI7dpigBqMIPwu3bI4H0NdkiUryHng==";
+        };
+        _uuGPHaDM = {
+            "id" = "uuGPHaDM";
+            "file" = "letsdo-farm_and_charm-fabric-1.1.24.jar";
+            "hash" = "sha512-6jErZIWMaNqFAqKWK3i13GTEzNvat6Y2NkZ1p4kVaO/cvdmefK3IwoCivX4P271fldZTdU6tXGUideSLnt8RbQ==";
+        };
+        _GMgZHF7X = {
+            "id" = "GMgZHF7X";
+            "file" = "letsdo-farm_and_charm-neoforge-1.1.25.jar";
+            "hash" = "sha512-nRy4zajsV0iAzdJxEo//PUTRDLxPMCcEzk/gDdeF9Zc3+U1noPLSuNKodaFRu99wcE6ihK7QZE3dluTAUtxcYA==";
+        };
+        _ceFZ7Fex = {
+            "id" = "ceFZ7Fex";
+            "file" = "letsdo-farm_and_charm-fabric-1.1.25.jar";
+            "hash" = "sha512-PoU3Q1jN0y1DFwbs3XYF6pVJ8PjRK6ugmmbzSeRQrvpN/RCYzMeJQT88pyq9HFf3xwORM4A3Z2WnbT/Sae0qbw==";
+        };
+        _Y8Uh3mlO = {
+            "id" = "Y8Uh3mlO";
+            "file" = "letsdo-farm_and_charm-neoforge-1.1.26.jar";
+            "hash" = "sha512-IbMuvI2lxtZGWBN21fzxqKI8SK+FS39/dfe7RiEwf+1XGHFeokUjw7vfH7mHW1G4OVrEJSUiqpIk9vSYuZ5dHg==";
+        };
+        _isj5qmqa = {
+            "id" = "isj5qmqa";
+            "file" = "letsdo-farm_and_charm-fabric-1.1.26.jar";
+            "hash" = "sha512-vkxlMntMPuBFIzEfNnQtG13omuuvAV6G+sWwmPs3A1j2mVuIELwYhRzDxH3EIYJDc9F9T5gSVnkA1kzyWPLcuQ==";
+        };
+        _lAc3mEva = {
+            "id" = "lAc3mEva";
+            "file" = "letsdo-farm_and_charm-neoforge-1.1.27.jar";
+            "hash" = "sha512-9chQJgJxWpBnFMAj3p25ZaLToUn1l687rzV44OmCEpsgK0g6FD0/HE3czLdUztD/H4/TT/SYaWW1b5iBVcYhhw==";
+        };
+        _Jka2rwSN = {
+            "id" = "Jka2rwSN";
+            "file" = "letsdo-farm_and_charm-fabric-1.1.27.jar";
+            "hash" = "sha512-Wxj08BhIHw6kg3X8p8eWNkNmVHKLvJSQ20tZgrvj/cj80hwFtG1WWC5md4TKtN7vWZ8cHpNCoxZt6IisU0u+ew==";
+        };
     in {
         "YJWbrSX6" = _YJWbrSX6;
         "KmcoZzbt" = _KmcoZzbt;
@@ -470,11 +510,19 @@ let
         "Ryy1J2BQ" = _Ryy1J2BQ;
         "4fh1pFIv" = _4fh1pFIv;
         "DlXdACqc" = _DlXdACqc;
+        "NyIPsytO" = _NyIPsytO;
+        "uuGPHaDM" = _uuGPHaDM;
+        "GMgZHF7X" = _GMgZHF7X;
+        "ceFZ7Fex" = _ceFZ7Fex;
+        "Y8Uh3mlO" = _Y8Uh3mlO;
+        "isj5qmqa" = _isj5qmqa;
+        "lAc3mEva" = _lAc3mEva;
+        "Jka2rwSN" = _Jka2rwSN;
         "forge-1.20.1" = _9fzY3YV6;
         "neoforge-1.20.1" = _UyTJY7PU;
-        "neoforge-1.21.1" = _DlXdACqc;
+        "neoforge-1.21.1" = _lAc3mEva;
         "fabric-1.20.1" = _sMjnKy5B;
-        "fabric-1.21.1" = _4fh1pFIv;
+        "fabric-1.21.1" = _Jka2rwSN;
         "fabric-1.21" = _cp7OIssP;
         "quilt-1.20.1" = _kLXg747l;
         "pkg-1.0.0" = _KmcoZzbt;
@@ -516,7 +564,11 @@ let
         "pkg-1.1.21" = _NQb1d5es;
         "pkg-1.1.22" = _Ryy1J2BQ;
         "pkg-1.1.23" = _DlXdACqc;
-        "default" = _DlXdACqc;
+        "pkg-1.1.24" = _uuGPHaDM;
+        "pkg-1.1.25" = _ceFZ7Fex;
+        "pkg-1.1.26" = _isj5qmqa;
+        "pkg-1.1.27" = _Jka2rwSN;
+        "default" = _Jka2rwSN;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lets-do-farm-charm";

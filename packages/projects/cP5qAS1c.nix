@@ -96,6 +96,11 @@ let
             "file" = "AFKFish-0.19.jar";
             "hash" = "sha512-5ZOmOF3KdQnPvi225ZExRKcA+iVty2WRiB7skWBbRCroHSxmOCB+cNwY/XXleAQCepTnF83zCBOUydMV7FMsqw==";
         };
+        _dHuMgjI9 = {
+            "id" = "dHuMgjI9";
+            "file" = "AFKFish-0.2.jar";
+            "hash" = "sha512-h7oswUWcpOG1nUmpH+1efGGrZYeBKKb/7iujc5511ErVnQdHldEYsXDXBv7Ri6ri/2aeyDKxKbkXkxSThmCc7A==";
+        };
     in {
         "B0AKt7hE" = _B0AKt7hE;
         "H1y4wbXn" = _H1y4wbXn;
@@ -116,6 +121,7 @@ let
         "RJgFNmCe" = _RJgFNmCe;
         "OfylGirR" = _OfylGirR;
         "Pz1ghMCh" = _Pz1ghMCh;
+        "dHuMgjI9" = _dHuMgjI9;
         "fabric-1.20.1" = _B0AKt7hE;
         "fabric-1.20.2" = _H1y4wbXn;
         "fabric-1.20.4" = _iKL62AwI;
@@ -137,8 +143,9 @@ let
         "fabric-26.1.1" = _RJgFNmCe;
         "fabric-26.1.2" = _OfylGirR;
         "fabric-26.2" = _Pz1ghMCh;
+        "fabric-26.3" = _dHuMgjI9;
         "pkg-0.1" = _B0AKt7hE;
-        "pkg-0.2" = _H1y4wbXn;
+        "pkg-0.2" = _dHuMgjI9;
         "pkg-0.3" = _iKL62AwI;
         "pkg-0.4" = _Ks0uIL9g;
         "pkg-0.5" = _N7wvK9Yc;
@@ -156,7 +163,7 @@ let
         "pkg-0.17" = _RJgFNmCe;
         "pkg-0.18" = _OfylGirR;
         "pkg-0.19" = _Pz1ghMCh;
-        "default" = _Pz1ghMCh;
+        "default" = _dHuMgjI9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "afkfish";

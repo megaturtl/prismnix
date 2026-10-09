@@ -56,6 +56,16 @@ let
             "file" = "Mutationcraft_1.19.2_1.0.6.jar";
             "hash" = "sha512-YQVh81AcZy8DH/cfWgHueW9ePYe5nBxvMpLQE7YVnCDND8NUtDGyxVKFL4YeU39CVTiGisoyDqrhs59SNKeimQ==";
         };
+        _lswDfPou = {
+            "id" = "lswDfPou";
+            "file" = "mutationcraft-legacy-forge-1.1-1.20.1.jar";
+            "hash" = "sha512-Ke6PxJgx6tqZfqylBiOwvIprXsoOPeUSvCUZF4fXyY7POLZZ+TGdH0G1h+MWXxkGFr/ZdBbBK13n+5483a4oLQ==";
+        };
+        _W9aovG7d = {
+            "id" = "W9aovG7d";
+            "file" = "mutationcraft-legacy-neoforge-1.1-1.21.1.jar";
+            "hash" = "sha512-JZsPRMrvxOorBWdzE7q69F00Ss5mryP0xYVY8iEFmJ2tFMQwhsAEL4dHZhlXTRBtJKeWG6B6tiolNAephfNRug==";
+        };
     in {
         "6aeEz0gY" = _6aeEz0gY;
         "H1oBrdLa" = _H1oBrdLa;
@@ -68,14 +78,19 @@ let
         "v4gnoH18" = _v4gnoH18;
         "SqfhJwh6" = _SqfhJwh6;
         "ILUQzbVb" = _ILUQzbVb;
+        "lswDfPou" = _lswDfPou;
+        "W9aovG7d" = _W9aovG7d;
         "forge-1.18.2" = _SqfhJwh6;
         "forge-1.19.2" = _ILUQzbVb;
         "forge-1.19.4" = _v4gnoH18;
+        "forge-1.20.1" = _lswDfPou;
+        "neoforge-1.21.1" = _W9aovG7d;
         "pkg-1.0.3" = _YBC0sD3u;
         "pkg-1.0.4" = _ygnK9LqL;
         "pkg-1.0.5" = _v4gnoH18;
         "pkg-1.0.6" = _ILUQzbVb;
-        "default" = _ILUQzbVb;
+        "pkg-1.1" = _W9aovG7d;
+        "default" = _W9aovG7d;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mutationcraft-rematch";

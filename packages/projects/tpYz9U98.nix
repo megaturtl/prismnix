@@ -71,6 +71,11 @@ let
             "file" = "SuperEnchants-1.14.jar";
             "hash" = "sha512-hGBKNNe4l0vxlTjdcpYlITq+ObwPkMJDDgs9vEnh3F8fn/8LMyMKfa3GuwkV6ubJc53mHB8Z86N9E1tW9KBVKQ==";
         };
+        _9OXwideT = {
+            "id" = "9OXwideT";
+            "file" = "SuperEnchants-1.15.jar";
+            "hash" = "sha512-jX32O+O91aLXpg1yO+JiVByNQZUv/nUv/6KB4Zl92dcLw3yoIUSPdJHprYcN3rkehcWOWt9BnjBa+gP7/wljNQ==";
+        };
     in {
         "B1leOKh6" = _B1leOKh6;
         "eSsf3IWc" = _eSsf3IWc;
@@ -86,6 +91,7 @@ let
         "GB7ke7Va" = _GB7ke7Va;
         "TDifqcG9" = _TDifqcG9;
         "UyvoJpJB" = _UyvoJpJB;
+        "9OXwideT" = _9OXwideT;
         "fabric-1.21.8" = _oEFn4cHw;
         "fabric-1.21.9" = _9pP7avUx;
         "fabric-1.21.10" = _5jXffMqx;
@@ -94,6 +100,7 @@ let
         "fabric-26.1.1" = _GB7ke7Va;
         "fabric-26.1.2" = _GB7ke7Va;
         "fabric-26.2" = _UyvoJpJB;
+        "fabric-26.3" = _9OXwideT;
         "pkg-1.1" = _B1leOKh6;
         "pkg-1.2" = _eSsf3IWc;
         "pkg-1.3" = _jeTAO22K;
@@ -108,7 +115,8 @@ let
         "pkg-1.12" = _GB7ke7Va;
         "pkg-1.13" = _TDifqcG9;
         "pkg-1.14" = _UyvoJpJB;
-        "default" = _UyvoJpJB;
+        "pkg-1.15" = _9OXwideT;
+        "default" = _9OXwideT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "superenchantments";

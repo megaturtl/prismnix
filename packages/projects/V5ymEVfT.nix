@@ -131,6 +131,11 @@ let
             "file" = "autolec-mc26.2-1.1.1.jar";
             "hash" = "sha512-iouuou6Fea2XgSF97kJMpyS43sRptpP/+16SOowxxYt6f+JeCd06g+MBg67FmfQeqPcRJDw+eh1UKlQLn72euA==";
         };
+        _Xuu3Vygt = {
+            "id" = "Xuu3Vygt";
+            "file" = "autolec-mc26.3-1.1.2.jar";
+            "hash" = "sha512-yzp25XiSEKf0UJ7LOLX9PoHNTWH8XT/A6+Q6i8K87J1Tl2VhpKw2Tm5gc5NHmIHCKpMbFg2FCbVlMaaC1Ez3Jg==";
+        };
     in {
         "P7o2M5Xp" = _P7o2M5Xp;
         "xNVosXA4" = _xNVosXA4;
@@ -158,6 +163,7 @@ let
         "mhQJaRug" = _mhQJaRug;
         "Ulh8s6Yj" = _Ulh8s6Yj;
         "TWGBYZoB" = _TWGBYZoB;
+        "Xuu3Vygt" = _Xuu3Vygt;
         "fabric-1.20.2" = _eZ1hjyrN;
         "fabric-1.20.4" = _c78RDWTk;
         "fabric-1.20.5" = _pcBy7zvF;
@@ -176,6 +182,7 @@ let
         "fabric-1.21.10" = _UrhZmtr8;
         "fabric-26.1.2" = _Ulh8s6Yj;
         "fabric-26.2" = _TWGBYZoB;
+        "fabric-26.3" = _Xuu3Vygt;
         "pkg-1.0.7" = _P7o2M5Xp;
         "pkg-1.0.8" = _xNVosXA4;
         "pkg-1.0.9" = _5gMUsC2R;
@@ -202,7 +209,8 @@ let
         "pkg-1.0.28A" = _mhQJaRug;
         "pkg-1.1.0" = _Ulh8s6Yj;
         "pkg-1.1.1" = _TWGBYZoB;
-        "default" = _TWGBYZoB;
+        "pkg-1.1.2" = _Xuu3Vygt;
+        "default" = _Xuu3Vygt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "auto-lectern";

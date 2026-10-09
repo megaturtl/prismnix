@@ -276,6 +276,26 @@ let
             "file" = "trident-recipes-1.0.jar";
             "hash" = "sha512-3HOAab4Df4SfQGwz1hTxbTGJZfhs2AlMS8YldDyFbY1zIB8zggaGmZPY9frgSZP5MA6posTN2HxQIAdIyrYVSQ==";
         };
+        _3cb1nHxz = {
+            "id" = "3cb1nHxz";
+            "file" = "trident-26.3.zip";
+            "hash" = "sha512-/LlHVWAjCdZfUZktsouPsRXihKX9i5NSdHLvQ5vkBPiYruBDDTw/EojkrxfyEsI7l7ZdeOgblTmy5qjPCupshQ==";
+        };
+        _LIHhaE8G = {
+            "id" = "LIHhaE8G";
+            "file" = "trident-recipes-1.0.jar";
+            "hash" = "sha512-Hs5kD4NkfjzgVqngdqmWQnwp9feEfcC7fgfahDsFc6Nw2dmNxa5RQZDfxskJY1GK2Kg0RC2aY5PKrDqQA6WZ5Q==";
+        };
+        _5FbdaSjl = {
+            "id" = "5FbdaSjl";
+            "file" = "trident_recipes_1.19.zip";
+            "hash" = "sha512-JU8rHyWzstNNniGc1uPZIyR4LqYkHkv1oLZbtUydrPW/d1QBozT+HdWyYwRvc/fSfRrj96oYfCP+Ci2rnCaoWQ==";
+        };
+        _uURqDfBs = {
+            "id" = "uURqDfBs";
+            "file" = "trident-recipes-1.0.jar";
+            "hash" = "sha512-IPK0X+JG/o82Sdzhn7T8Lv4GDmRuTyZ1FJmAJXTvw/9/N4L3mRcdL+p68UcpyXabuHsGb0clSUESPl5xnNFgLA==";
+        };
     in {
         "6ruNBeF9" = _6ruNBeF9;
         "sHxX4m9e" = _sHxX4m9e;
@@ -332,6 +352,10 @@ let
         "Zmso6lB7" = _Zmso6lB7;
         "IJ71SFvS" = _IJ71SFvS;
         "J1ktZpBp" = _J1ktZpBp;
+        "3cb1nHxz" = _3cb1nHxz;
+        "LIHhaE8G" = _LIHhaE8G;
+        "5FbdaSjl" = _5FbdaSjl;
+        "uURqDfBs" = _uURqDfBs;
         "datapack-1.13" = _6ruNBeF9;
         "datapack-1.13.1" = _6ruNBeF9;
         "datapack-1.13.2" = _6ruNBeF9;
@@ -349,12 +373,12 @@ let
         "datapack-1.17.1" = _scJ4Mil2;
         "datapack-1.18" = _DkwOtCSg;
         "datapack-1.18.1" = _DkwOtCSg;
-        "datapack-1.18.2" = _6fDHcBYt;
-        "datapack-1.19" = _6fDHcBYt;
-        "datapack-1.19.1" = _6fDHcBYt;
-        "datapack-1.19.2" = _6fDHcBYt;
-        "datapack-1.19.3" = _6fDHcBYt;
-        "datapack-1.19.4" = _rjAFk9nT;
+        "datapack-1.18.2" = _5FbdaSjl;
+        "datapack-1.19" = _5FbdaSjl;
+        "datapack-1.19.1" = _5FbdaSjl;
+        "datapack-1.19.2" = _5FbdaSjl;
+        "datapack-1.19.3" = _5FbdaSjl;
+        "datapack-1.19.4" = _5FbdaSjl;
         "datapack-1.20" = _rjAFk9nT;
         "datapack-1.20.1" = _rjAFk9nT;
         "datapack-1.20.2" = _rjAFk9nT;
@@ -397,6 +421,7 @@ let
         "datapack-1.20.5" = _rjAFk9nT;
         "datapack-26.2" = _IJ71SFvS;
         "datapack-26.3-snapshot-1" = _IJ71SFvS;
+        "datapack-26.3" = _3cb1nHxz;
         "fabric-1.13" = _I70wNiry;
         "fabric-1.13.1" = _I70wNiry;
         "fabric-1.13.2" = _I70wNiry;
@@ -414,12 +439,12 @@ let
         "fabric-1.17.1" = _756Xb6Co;
         "fabric-1.18" = _mgjyLD31;
         "fabric-1.18.1" = _mgjyLD31;
-        "fabric-1.18.2" = _d57mWyNV;
-        "fabric-1.19" = _d57mWyNV;
-        "fabric-1.19.1" = _d57mWyNV;
-        "fabric-1.19.2" = _d57mWyNV;
-        "fabric-1.19.3" = _d57mWyNV;
-        "fabric-1.19.4" = _Zmso6lB7;
+        "fabric-1.18.2" = _uURqDfBs;
+        "fabric-1.19" = _uURqDfBs;
+        "fabric-1.19.1" = _uURqDfBs;
+        "fabric-1.19.2" = _uURqDfBs;
+        "fabric-1.19.3" = _uURqDfBs;
+        "fabric-1.19.4" = _uURqDfBs;
         "fabric-1.20" = _Zmso6lB7;
         "fabric-1.20.1" = _Zmso6lB7;
         "fabric-1.20.2" = _Zmso6lB7;
@@ -462,6 +487,7 @@ let
         "fabric-1.20.5" = _Zmso6lB7;
         "fabric-26.2" = _J1ktZpBp;
         "fabric-26.3-snapshot-1" = _J1ktZpBp;
+        "fabric-26.3" = _LIHhaE8G;
         "forge-1.13" = _I70wNiry;
         "forge-1.13.1" = _I70wNiry;
         "forge-1.13.2" = _I70wNiry;
@@ -479,12 +505,12 @@ let
         "forge-1.17.1" = _756Xb6Co;
         "forge-1.18" = _mgjyLD31;
         "forge-1.18.1" = _mgjyLD31;
-        "forge-1.18.2" = _d57mWyNV;
-        "forge-1.19" = _d57mWyNV;
-        "forge-1.19.1" = _d57mWyNV;
-        "forge-1.19.2" = _d57mWyNV;
-        "forge-1.19.3" = _d57mWyNV;
-        "forge-1.19.4" = _Zmso6lB7;
+        "forge-1.18.2" = _uURqDfBs;
+        "forge-1.19" = _uURqDfBs;
+        "forge-1.19.1" = _uURqDfBs;
+        "forge-1.19.2" = _uURqDfBs;
+        "forge-1.19.3" = _uURqDfBs;
+        "forge-1.19.4" = _uURqDfBs;
         "forge-1.20" = _Zmso6lB7;
         "forge-1.20.1" = _Zmso6lB7;
         "forge-1.20.2" = _Zmso6lB7;
@@ -527,6 +553,7 @@ let
         "forge-1.20.5" = _Zmso6lB7;
         "forge-26.2" = _J1ktZpBp;
         "forge-26.3-snapshot-1" = _J1ktZpBp;
+        "forge-26.3" = _LIHhaE8G;
         "neoforge-1.13" = _I70wNiry;
         "neoforge-1.13.1" = _I70wNiry;
         "neoforge-1.13.2" = _I70wNiry;
@@ -544,12 +571,12 @@ let
         "neoforge-1.17.1" = _756Xb6Co;
         "neoforge-1.18" = _mgjyLD31;
         "neoforge-1.18.1" = _mgjyLD31;
-        "neoforge-1.18.2" = _d57mWyNV;
-        "neoforge-1.19" = _d57mWyNV;
-        "neoforge-1.19.1" = _d57mWyNV;
-        "neoforge-1.19.2" = _d57mWyNV;
-        "neoforge-1.19.3" = _d57mWyNV;
-        "neoforge-1.19.4" = _Zmso6lB7;
+        "neoforge-1.18.2" = _uURqDfBs;
+        "neoforge-1.19" = _uURqDfBs;
+        "neoforge-1.19.1" = _uURqDfBs;
+        "neoforge-1.19.2" = _uURqDfBs;
+        "neoforge-1.19.3" = _uURqDfBs;
+        "neoforge-1.19.4" = _uURqDfBs;
         "neoforge-1.20" = _Zmso6lB7;
         "neoforge-1.20.1" = _Zmso6lB7;
         "neoforge-1.20.2" = _Zmso6lB7;
@@ -592,6 +619,7 @@ let
         "neoforge-1.20.5" = _Zmso6lB7;
         "neoforge-26.2" = _J1ktZpBp;
         "neoforge-26.3-snapshot-1" = _J1ktZpBp;
+        "neoforge-26.3" = _LIHhaE8G;
         "quilt-1.13" = _I70wNiry;
         "quilt-1.13.1" = _I70wNiry;
         "quilt-1.13.2" = _I70wNiry;
@@ -609,12 +637,12 @@ let
         "quilt-1.17.1" = _756Xb6Co;
         "quilt-1.18" = _mgjyLD31;
         "quilt-1.18.1" = _mgjyLD31;
-        "quilt-1.18.2" = _d57mWyNV;
-        "quilt-1.19" = _d57mWyNV;
-        "quilt-1.19.1" = _d57mWyNV;
-        "quilt-1.19.2" = _d57mWyNV;
-        "quilt-1.19.3" = _d57mWyNV;
-        "quilt-1.19.4" = _Zmso6lB7;
+        "quilt-1.18.2" = _uURqDfBs;
+        "quilt-1.19" = _uURqDfBs;
+        "quilt-1.19.1" = _uURqDfBs;
+        "quilt-1.19.2" = _uURqDfBs;
+        "quilt-1.19.3" = _uURqDfBs;
+        "quilt-1.19.4" = _uURqDfBs;
         "quilt-1.20" = _Zmso6lB7;
         "quilt-1.20.1" = _Zmso6lB7;
         "quilt-1.20.2" = _Zmso6lB7;
@@ -657,9 +685,10 @@ let
         "quilt-1.20.5" = _Zmso6lB7;
         "quilt-26.2" = _J1ktZpBp;
         "quilt-26.3-snapshot-1" = _J1ktZpBp;
-        "pkg-1.0" = _IJ71SFvS;
-        "pkg-1.0+mod" = _J1ktZpBp;
-        "default" = _J1ktZpBp;
+        "quilt-26.3" = _LIHhaE8G;
+        "pkg-1.0" = _5FbdaSjl;
+        "pkg-1.0+mod" = _uURqDfBs;
+        "default" = _uURqDfBs;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trident-recipes";

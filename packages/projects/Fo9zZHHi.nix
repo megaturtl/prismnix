@@ -21,11 +21,23 @@ let
             "file" = "thunder-strike-enchantment-v1.0.0.jar";
             "hash" = "sha512-frAz+M6le8t4s9bJZVofbYC3A6r3k+WlQyT9PbW5hHFnu/canqsXyzysQK4jVvNPYhZnxkOdDEUVWpXkllMBlw==";
         };
+        _Dd1RrXGe = {
+            "id" = "Dd1RrXGe";
+            "file" = "Thunder Strike Enchantment v1.0.0 [26.3].zip";
+            "hash" = "sha512-G2GVNUOyZPv46bmNVam4m4HveL8ur71LuRPBGBbGU+yuSttzdKYO0umDJmUZ5ndahGrmWBgt0l8kNR005foeBQ==";
+        };
+        _WcvtsXQD = {
+            "id" = "WcvtsXQD";
+            "file" = "thunder-strike-enchantment-1.0.0.jar";
+            "hash" = "sha512-ul1UIUFm1BwLQHjAiWqw0I9AHUAsl154KvpJ7lgMtTI9goAWdFwls7nDrGXzTgst3n3IqeF+svXBU7znfbVWIg==";
+        };
     in {
         "ea8lZbzA" = _ea8lZbzA;
         "z8zEVzgx" = _z8zEVzgx;
         "8KkOSxxE" = _8KkOSxxE;
         "SapTwTA8" = _SapTwTA8;
+        "Dd1RrXGe" = _Dd1RrXGe;
+        "WcvtsXQD" = _WcvtsXQD;
         "datapack-1.21.2" = _ea8lZbzA;
         "datapack-1.21.3" = _ea8lZbzA;
         "datapack-1.21.4" = _ea8lZbzA;
@@ -42,6 +54,7 @@ let
         "datapack-26.2" = _ea8lZbzA;
         "datapack-1.21" = _8KkOSxxE;
         "datapack-1.21.1" = _8KkOSxxE;
+        "datapack-26.3" = _Dd1RrXGe;
         "fabric-1.21.2" = _z8zEVzgx;
         "fabric-1.21.3" = _z8zEVzgx;
         "fabric-1.21.4" = _z8zEVzgx;
@@ -58,6 +71,7 @@ let
         "fabric-26.2" = _z8zEVzgx;
         "fabric-1.21" = _SapTwTA8;
         "fabric-1.21.1" = _SapTwTA8;
+        "fabric-26.3" = _WcvtsXQD;
         "forge-1.21.2" = _z8zEVzgx;
         "forge-1.21.3" = _z8zEVzgx;
         "forge-1.21.4" = _z8zEVzgx;
@@ -74,6 +88,7 @@ let
         "forge-26.2" = _z8zEVzgx;
         "forge-1.21" = _SapTwTA8;
         "forge-1.21.1" = _SapTwTA8;
+        "forge-26.3" = _WcvtsXQD;
         "neoforge-1.21.2" = _z8zEVzgx;
         "neoforge-1.21.3" = _z8zEVzgx;
         "neoforge-1.21.4" = _z8zEVzgx;
@@ -90,6 +105,7 @@ let
         "neoforge-26.2" = _z8zEVzgx;
         "neoforge-1.21" = _SapTwTA8;
         "neoforge-1.21.1" = _SapTwTA8;
+        "neoforge-26.3" = _WcvtsXQD;
         "quilt-1.21.2" = _z8zEVzgx;
         "quilt-1.21.3" = _z8zEVzgx;
         "quilt-1.21.4" = _z8zEVzgx;
@@ -106,9 +122,12 @@ let
         "quilt-26.2" = _z8zEVzgx;
         "quilt-1.21" = _SapTwTA8;
         "quilt-1.21.1" = _SapTwTA8;
+        "quilt-26.3" = _WcvtsXQD;
         "pkg-v1.0.0" = _8KkOSxxE;
         "pkg-v1.0.0+mod" = _SapTwTA8;
-        "default" = _SapTwTA8;
+        "pkg-1.0.0" = _Dd1RrXGe;
+        "pkg-1.0.0+mod" = _WcvtsXQD;
+        "default" = _WcvtsXQD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thunder-strike-enchantment";

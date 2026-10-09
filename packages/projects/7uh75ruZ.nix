@@ -701,6 +701,16 @@ let
             "file" = "kleeslabs-neoforge-26.3-26.3.0.1.jar";
             "hash" = "sha512-BQlPda+E2wxtC9fQ8zzEFpnKzgOCcZ39qjYn9r8Ts32jfT+iS3IJeM9KVIOou1wa4OifZ3UeifKPow6ovtI4kg==";
         };
+        _kob8aIog = {
+            "id" = "kob8aIog";
+            "file" = "kleeslabs-fabric-26.3-26.3.0.2.jar";
+            "hash" = "sha512-EnTKwbBfAp8kTtjLIpqdCIRjfqVbYZ2t7tZkSZRrKHmUoxgJDmn/iScGJaLUYwV7U4Q38pF6fTn9QLPef2q6QQ==";
+        };
+        _5sadeUqR = {
+            "id" = "5sadeUqR";
+            "file" = "kleeslabs-neoforge-26.3-26.3.0.2.jar";
+            "hash" = "sha512-iSh1iB5HDIsE+AB7xyTpgDmPQLgpyGjvLyMiJNzST1ruzCIkzSGQiOVqhsALEDHoAlcwC1d+h/Jgm5xyDptNIg==";
+        };
     in {
         "oh12vuAg" = _oh12vuAg;
         "G1afe3Af" = _G1afe3Af;
@@ -842,6 +852,8 @@ let
         "5UjTYBjC" = _5UjTYBjC;
         "RXA59EOv" = _RXA59EOv;
         "Ha7FSFfB" = _Ha7FSFfB;
+        "kob8aIog" = _kob8aIog;
+        "5sadeUqR" = _5sadeUqR;
         "fabric-1.19" = _McrMZkIV;
         "fabric-1.19.1" = _McrMZkIV;
         "fabric-1.19.2" = _McrMZkIV;
@@ -871,7 +883,7 @@ let
         "fabric-26.1.1" = _E0bAQxK1;
         "fabric-26.1.2" = _E0bAQxK1;
         "fabric-26.2" = _5UjTYBjC;
-        "fabric-26.3" = _RXA59EOv;
+        "fabric-26.3" = _kob8aIog;
         "forge-1.19" = _OabgLyDQ;
         "forge-1.19.1" = _OabgLyDQ;
         "forge-1.19.2" = _OabgLyDQ;
@@ -913,7 +925,7 @@ let
         "neoforge-26.1.1" = _qy3qkejn;
         "neoforge-26.1.2" = _qy3qkejn;
         "neoforge-26.2" = _2QlPdVwy;
-        "neoforge-26.3" = _Ha7FSFfB;
+        "neoforge-26.3" = _5sadeUqR;
         "pkg-12.0.0+fabric-1.19" = _oh12vuAg;
         "pkg-12.0.0+forge-1.19" = _G1afe3Af;
         "pkg-12.1.0+fabric-1.19" = _cYitDxNY;
@@ -1052,7 +1064,9 @@ let
         "pkg-26.2.0.1+fabric-26.2" = _5UjTYBjC;
         "pkg-26.3.0.1+fabric-26.3" = _RXA59EOv;
         "pkg-26.3.0.1+neoforge-26.3" = _Ha7FSFfB;
-        "default" = _Ha7FSFfB;
+        "pkg-26.3.0.2+fabric-26.3" = _kob8aIog;
+        "pkg-26.3.0.2+neoforge-26.3" = _5sadeUqR;
+        "default" = _5sadeUqR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kleeslabs";

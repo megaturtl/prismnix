@@ -156,6 +156,16 @@ let
             "file" = "zombieimprovements-1.2.2+26.1-neoforge.jar";
             "hash" = "sha512-WtLdF+CmLPz4Qbd6T+cgycWwXrkeJoAz+xT1at32GQq3+e0fxk7k6bZsj3YAfN4SPALx8ASTJUzLtnyTsWmIzA==";
         };
+        _bhXxGeVH = {
+            "id" = "bhXxGeVH";
+            "file" = "zombieimprovements-neoforge-1.2.2+26.2.jar";
+            "hash" = "sha512-oB/6hOPT9aj/m7YZI6MhiUEEEAEfrsrNs/Wh1dBh/zPg/Yhdv5+LmqG/S9HTfwUW+QXh577fAweVkieui9tUNQ==";
+        };
+        _2PRZShmu = {
+            "id" = "2PRZShmu";
+            "file" = "zombieimprovements-fabric-1.2.2+26.3.jar";
+            "hash" = "sha512-L+GC4UmSMF9dEU7eIPWitr4wVE3q699Fcq1B12tPfnjoC9Qu4ey1xb0fEQ9+B5KFAAijb1o8F/ejWlAzVQ0lgA==";
+        };
     in {
         "y6psA4wC" = _y6psA4wC;
         "9bzc9nWX" = _9bzc9nWX;
@@ -188,6 +198,8 @@ let
         "LSzaq8gG" = _LSzaq8gG;
         "e5yYUzOh" = _e5yYUzOh;
         "dlwDRjqx" = _dlwDRjqx;
+        "bhXxGeVH" = _bhXxGeVH;
+        "2PRZShmu" = _2PRZShmu;
         "fabric-1.21.1" = _iVtvx2kF;
         "fabric-1.21.8" = _Zcpt7LWv;
         "fabric-1.21.10" = _n5EJxb0m;
@@ -196,12 +208,14 @@ let
         "fabric-26.1.1" = _e5yYUzOh;
         "fabric-26.1.2" = _e5yYUzOh;
         "fabric-26.2" = _e5yYUzOh;
+        "fabric-26.3" = _2PRZShmu;
         "neoforge-1.21.10" = _QQSega9e;
         "neoforge-1.21.1" = _3ywYz3xA;
         "neoforge-1.21.11" = _qhFWfoPr;
         "neoforge-26.1" = _dlwDRjqx;
         "neoforge-26.1.1" = _dlwDRjqx;
         "neoforge-26.1.2" = _dlwDRjqx;
+        "neoforge-26.2" = _bhXxGeVH;
         "pkg-1.0.0+1.21.1" = _y6psA4wC;
         "pkg-1.0.0+1.21.8" = _9bzc9nWX;
         "pkg-1.0.1+1.21.1" = _xlGmCXvi;
@@ -233,7 +247,9 @@ let
         "pkg-1.2.1+26.1-fabric" = _LSzaq8gG;
         "pkg-1.2.2+26.1-fabric" = _e5yYUzOh;
         "pkg-1.2.2+26.1-neoforge" = _dlwDRjqx;
-        "default" = _dlwDRjqx;
+        "pkg-1.2.2+26.2" = _bhXxGeVH;
+        "pkg-1.2.2+26.3" = _2PRZShmu;
+        "default" = _2PRZShmu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "zombieimprovements";

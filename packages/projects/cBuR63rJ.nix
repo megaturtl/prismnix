@@ -181,6 +181,11 @@ let
             "file" = "camp_fires_cook_mobs-1.10.0+MC26.2.x.jar";
             "hash" = "sha512-oy0KrMppGaue9fa/8D0qgz0OZGPq9YeJhfzVLSnf0CiXqxOQwdlPG45I1IybXnexAspVI5YdQdmcpapFjCZvUg==";
         };
+        _zWlJJJ6R = {
+            "id" = "zWlJJJ6R";
+            "file" = "camp_fires_cook_mobs-1.11.0+MC26.3.x.jar";
+            "hash" = "sha512-K3SZoWgFg2VfiS6tAKOFrmDJQtsBeVMfLhHd8Od/WJjCT4/ow99j5uTDUu9p9iyQLlLvEryqgJ2vbbcyASls7w==";
+        };
     in {
         "i4bZwfvm" = _i4bZwfvm;
         "w1pN3k1f" = _w1pN3k1f;
@@ -218,6 +223,7 @@ let
         "ei1t9oot" = _ei1t9oot;
         "iWNS1ctH" = _iWNS1ctH;
         "4E0zBkjF" = _4E0zBkjF;
+        "zWlJJJ6R" = _zWlJJJ6R;
         "fabric-1.17" = _xQ4OiBHV;
         "fabric-1.17.1" = _xQ4OiBHV;
         "fabric-1.18" = _ATrxihQH;
@@ -248,6 +254,7 @@ let
         "fabric-26.1.1" = _iWNS1ctH;
         "fabric-26.1.2" = _iWNS1ctH;
         "fabric-26.2" = _4E0zBkjF;
+        "fabric-26.3" = _zWlJJJ6R;
         "quilt-1.19" = _zOubdwcj;
         "quilt-1.19.1" = _zOubdwcj;
         "quilt-1.19.2" = _zOubdwcj;
@@ -274,6 +281,7 @@ let
         "quilt-26.1.1" = _iWNS1ctH;
         "quilt-26.1.2" = _iWNS1ctH;
         "quilt-26.2" = _4E0zBkjF;
+        "quilt-26.3" = _zWlJJJ6R;
         "pkg-1.1.8+MC1.17" = _i4bZwfvm;
         "pkg-1.1.9+MC1.17-1.17.1" = _w1pN3k1f;
         "pkg-1.1.10+MC1.17-1.17.1" = _lPRPWys8;
@@ -310,7 +318,8 @@ let
         "pkg-1.6.6+MC1.21.6-1.21.8" = _ei1t9oot;
         "pkg-1.9.0+MC26.1-26.1.x" = _iWNS1ctH;
         "pkg-1.10.0+MC26.2.x" = _4E0zBkjF;
-        "default" = _4E0zBkjF;
+        "pkg-1.11.0+MC26.3.x" = _zWlJJJ6R;
+        "default" = _zWlJJJ6R;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "camp-fires-cook-mobs";

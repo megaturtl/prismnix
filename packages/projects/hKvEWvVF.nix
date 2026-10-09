@@ -111,6 +111,26 @@ let
             "file" = "call-your-dog-v2.1.0.jar";
             "hash" = "sha512-F6nUCq2ffiq9g4/AfheMiECxesmWPPwLUSn9i3HaqRxqA9X9QT2ZBjrcN32926ZReWaU2UPAyjYhAr5Z9qdm9w==";
         };
+        _YqQSvU0B = {
+            "id" = "YqQSvU0B";
+            "file" = "call-your-dog-v2.2.0.zip";
+            "hash" = "sha512-dt+LtoJO8hKknLXr7dGD/oiVmMzV3aD4IjeKpBjhCacNAE7lYp0wMTjl8oCeSJ4JGZX18o0aB2BM5ZjTLol2eg==";
+        };
+        _iRxLqSSr = {
+            "id" = "iRxLqSSr";
+            "file" = "call-your-dog-v2.2.0.jar";
+            "hash" = "sha512-fJr7o6hwlLHGkGaG/ogjByPmRJr4mRSWxaV+Lz6tobe1V3/JAONweLmcnDxIfIFLMtqBVH33a4PP77rxuE3cmQ==";
+        };
+        _KyMWqYAE = {
+            "id" = "KyMWqYAE";
+            "file" = "call-your-dog-v2.2.0.0.zip";
+            "hash" = "sha512-wBPdcPQirYmFWy0eXNMwP+0HuDZwuQq0axp4Xq3sLKneLRd5odA+aqajSF1r0uRKbJGbtjbT/GjplJMABdNlWw==";
+        };
+        _QiPknpMv = {
+            "id" = "QiPknpMv";
+            "file" = "call-your-dog-v2.2.0.0.jar";
+            "hash" = "sha512-QIKQNrDSzkVHYq9J5PgP+0t9Z/vtFWlFlQW4/sBamvlccABVtMpV4baq0PADcu819XmQqMDdWD4VRyeVwDjYvQ==";
+        };
     in {
         "r8FOGf5d" = _r8FOGf5d;
         "4iQxCPNi" = _4iQxCPNi;
@@ -134,6 +154,10 @@ let
         "NzRvAfVx" = _NzRvAfVx;
         "HSvprRlk" = _HSvprRlk;
         "n4s4PUBj" = _n4s4PUBj;
+        "YqQSvU0B" = _YqQSvU0B;
+        "iRxLqSSr" = _iRxLqSSr;
+        "KyMWqYAE" = _KyMWqYAE;
+        "QiPknpMv" = _QiPknpMv;
         "datapack-1.21" = _n2emqnsC;
         "datapack-1.21.1" = _n2emqnsC;
         "datapack-1.21.2" = _n2emqnsC;
@@ -150,6 +174,7 @@ let
         "datapack-26.1.1" = _HSvprRlk;
         "datapack-26.1.2" = _HSvprRlk;
         "datapack-26.2" = _HSvprRlk;
+        "datapack-26.3" = _KyMWqYAE;
         "fabric-1.21" = _B7fsq46Y;
         "fabric-1.21.1" = _B7fsq46Y;
         "fabric-1.21.2" = _B7fsq46Y;
@@ -166,6 +191,7 @@ let
         "fabric-26.1.1" = _n4s4PUBj;
         "fabric-26.1.2" = _n4s4PUBj;
         "fabric-26.2" = _n4s4PUBj;
+        "fabric-26.3" = _QiPknpMv;
         "forge-1.21" = _B7fsq46Y;
         "forge-1.21.1" = _B7fsq46Y;
         "forge-1.21.2" = _B7fsq46Y;
@@ -182,6 +208,7 @@ let
         "forge-26.1.1" = _n4s4PUBj;
         "forge-26.1.2" = _n4s4PUBj;
         "forge-26.2" = _n4s4PUBj;
+        "forge-26.3" = _QiPknpMv;
         "neoforge-1.21" = _B7fsq46Y;
         "neoforge-1.21.1" = _B7fsq46Y;
         "neoforge-1.21.2" = _B7fsq46Y;
@@ -198,6 +225,7 @@ let
         "neoforge-26.1.1" = _n4s4PUBj;
         "neoforge-26.1.2" = _n4s4PUBj;
         "neoforge-26.2" = _n4s4PUBj;
+        "neoforge-26.3" = _QiPknpMv;
         "quilt-1.21" = _B7fsq46Y;
         "quilt-1.21.1" = _B7fsq46Y;
         "quilt-1.21.2" = _B7fsq46Y;
@@ -214,6 +242,7 @@ let
         "quilt-26.1.1" = _n4s4PUBj;
         "quilt-26.1.2" = _n4s4PUBj;
         "quilt-26.2" = _n4s4PUBj;
+        "quilt-26.3" = _QiPknpMv;
         "pkg-v.1.0.0" = _r8FOGf5d;
         "pkg-v.1.0.0+mod" = _4iQxCPNi;
         "pkg-v.1.1.1" = _rSKUrXLr;
@@ -230,7 +259,11 @@ let
         "pkg-v2.0.0+mod" = _NzRvAfVx;
         "pkg-v2.1.0" = _HSvprRlk;
         "pkg-v2.1.0+mod" = _n4s4PUBj;
-        "default" = _n4s4PUBj;
+        "pkg-v2.2.0" = _YqQSvU0B;
+        "pkg-v2.2.0+mod" = _iRxLqSSr;
+        "pkg-v2.2.0.0" = _KyMWqYAE;
+        "pkg-v2.2.0.0+mod" = _QiPknpMv;
+        "default" = _QiPknpMv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "call-your-dog";

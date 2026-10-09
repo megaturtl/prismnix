@@ -76,6 +76,11 @@ let
             "file" = "whiteout.zip";
             "hash" = "sha512-6mTZsxraLLLS9abyNTSO7BnmiyX3CB/GzzPdIzDgiLOd4/aPpPvfVwRrhd7dPakmqPvKGf1pjn0AdRqrdXOA5A==";
         };
+        _do6wVYX0 = {
+            "id" = "do6wVYX0";
+            "file" = "Whiteout.zip";
+            "hash" = "sha512-/xN9wUP0f3WBdEYUISFYiMU9DaGhnkmKcA2g6yddB2/geGMMefU1W7o43IN+6HCG1Obm1AZFnFm7wyuUE0HNWg==";
+        };
     in {
         "8WYsXGy5" = _8WYsXGy5;
         "5Xb6sSsw" = _5Xb6sSsw;
@@ -92,6 +97,7 @@ let
         "xH5cbTdk" = _xH5cbTdk;
         "q7RQAXze" = _q7RQAXze;
         "AYnyIbxu" = _AYnyIbxu;
+        "do6wVYX0" = _do6wVYX0;
         "minecraft-1.20" = _q7RQAXze;
         "minecraft-1.20.1" = _q7RQAXze;
         "minecraft-1.20.2" = _q7RQAXze;
@@ -124,6 +130,7 @@ let
         "minecraft-1.21.6" = _q7RQAXze;
         "minecraft-1.21.7" = _q7RQAXze;
         "minecraft-1.21.8" = _AYnyIbxu;
+        "minecraft-26.2" = _do6wVYX0;
         "pkg-1" = _8WYsXGy5;
         "pkg-1.1" = _5Xb6sSsw;
         "pkg-1.3" = _UcSphKLm;
@@ -139,7 +146,8 @@ let
         "pkg-2.5" = _xH5cbTdk;
         "pkg-2.6" = _q7RQAXze;
         "pkg-2.7" = _AYnyIbxu;
-        "default" = _AYnyIbxu;
+        "pkg-5.0" = _do6wVYX0;
+        "default" = _do6wVYX0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mcwhiteout";

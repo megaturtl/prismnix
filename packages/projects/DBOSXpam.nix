@@ -16,19 +16,27 @@ let
             "file" = "click-to-translate-chat-cttc-1.0.9+26.2.jar";
             "hash" = "sha512-BMHr1X5cCsBpAh50+hBmuUnTzww2QADTiDGXpvOe9T6tW/0pmZ3/2yuhgLEWI1IwqYLjxdrBdj56m+UoOf1HDg==";
         };
+        _WAK3ENpF = {
+            "id" = "WAK3ENpF";
+            "file" = "click-to-translate-chat-cttc-1.0.9+26.3.jar";
+            "hash" = "sha512-dUZ5BG7Z9aVGZ0tu1iyCK4VeMqv2iadlxwOYprx6u2REpcCEV2KIwAdFgQXcPVr7N8r8nbPWgCr2VbIp+fZneQ==";
+        };
     in {
         "u1ZgIs2s" = _u1ZgIs2s;
         "UXLzYojz" = _UXLzYojz;
         "Mwsa94Ob" = _Mwsa94Ob;
+        "WAK3ENpF" = _WAK3ENpF;
         "fabric-1.21.11" = _u1ZgIs2s;
         "fabric-26.1" = _UXLzYojz;
         "fabric-26.1.1" = _UXLzYojz;
         "fabric-26.1.2" = _UXLzYojz;
         "fabric-26.2" = _Mwsa94Ob;
+        "fabric-26.3" = _WAK3ENpF;
         "pkg-1.0.9+1.21.11" = _u1ZgIs2s;
         "pkg-1.0.9+26.1" = _UXLzYojz;
         "pkg-1.0.9+26.2" = _Mwsa94Ob;
-        "default" = _Mwsa94Ob;
+        "pkg-1.0.9+26.3" = _WAK3ENpF;
+        "default" = _WAK3ENpF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "click-to-translate-chat";

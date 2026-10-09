@@ -51,6 +51,11 @@ let
             "file" = "endodequickturn-2.0.0.jar";
             "hash" = "sha512-KSt4NkUQCkGsZse64/c4GYVu85fQxF6h36HA3dZODmj5Hmq2ynyuW5iV3TCgkwk2yGKXHmXQO1os2/G4m+Kxnw==";
         };
+        _CzKHGYS4 = {
+            "id" = "CzKHGYS4";
+            "file" = "endodequickturn-2.0.0.jar";
+            "hash" = "sha512-CtfSm0PkAuzIXEL5nutVN+O2pBA4YO1M/wCVV051F8kyfQy6U5aUW682RwQutaV074cvKeZ5E7zohDnd4/Eb6Q==";
+        };
     in {
         "dOxrMFlF" = _dOxrMFlF;
         "2CupUE4u" = _2CupUE4u;
@@ -62,6 +67,7 @@ let
         "YTcHWBTE" = _YTcHWBTE;
         "wh3ETXH8" = _wh3ETXH8;
         "tKqVgLSr" = _tKqVgLSr;
+        "CzKHGYS4" = _CzKHGYS4;
         "fabric-1.17.1" = _kkIcIybt;
         "fabric-1.18" = _kkIcIybt;
         "fabric-1.18.1" = _kkIcIybt;
@@ -93,6 +99,7 @@ let
         "fabric-26.1.2" = _wh3ETXH8;
         "fabric-26.2" = _wh3ETXH8;
         "fabric-1.21.10" = _tKqVgLSr;
+        "fabric-26.3" = _CzKHGYS4;
         "quilt-1.17.1" = _kkIcIybt;
         "quilt-1.18" = _kkIcIybt;
         "quilt-1.18.1" = _kkIcIybt;
@@ -128,7 +135,8 @@ let
         "pkg-2.0.0-1.21.11" = _YTcHWBTE;
         "pkg-2.0.0-26.1" = _wh3ETXH8;
         "pkg-2.0.0-1.21.10" = _tKqVgLSr;
-        "default" = _tKqVgLSr;
+        "pkg-2.0.0-26.3" = _CzKHGYS4;
+        "default" = _CzKHGYS4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "quick-turn-mod";

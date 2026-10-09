@@ -91,6 +91,11 @@ let
             "file" = "create_stats-1.13.1.jar";
             "hash" = "sha512-1SLrTX2UsB0sOF48hecZGUcU7NW8YmQJpHT9ZZkplwXBgjzX1NkXpkyZh/XexeEkbz3ni0ZZjp8Mlr7UVeovYQ==";
         };
+        _GxIRYBRQ = {
+            "id" = "GxIRYBRQ";
+            "file" = "create_stats-1.15.0.jar";
+            "hash" = "sha512-A9PLsp1mCD73sY4vzStrQmYiwpSnNF/cnB8H9ZXFZgd/qsoQ9cP3up1e1+81dxcac6ziqMT2T/4FcXxeZaX18w==";
+        };
     in {
         "oXROLBPQ" = _oXROLBPQ;
         "g4SfFu71" = _g4SfFu71;
@@ -110,13 +115,14 @@ let
         "pFmjFOtq" = _pFmjFOtq;
         "dJA1qBML" = _dJA1qBML;
         "qNHHPdLy" = _qNHHPdLy;
+        "GxIRYBRQ" = _GxIRYBRQ;
         "forge-1.20.1" = _dltl0unZ;
         "forge-1.20.2" = _dltl0unZ;
         "forge-1.20.3" = _dltl0unZ;
         "forge-1.20.4" = _dltl0unZ;
         "forge-1.20.5" = _dltl0unZ;
         "forge-1.20.6" = _dltl0unZ;
-        "neoforge-1.21.1" = _qNHHPdLy;
+        "neoforge-1.21.1" = _GxIRYBRQ;
         "pkg-0.1.3.A" = _oXROLBPQ;
         "pkg-0.3.0" = _g4SfFu71;
         "pkg-0.9.90_a" = _z6StBVgL;
@@ -135,7 +141,8 @@ let
         "pkg-1.5.1" = _pFmjFOtq;
         "pkg-1.13.0" = _dJA1qBML;
         "pkg-1.13.1" = _qNHHPdLy;
-        "default" = _qNHHPdLy;
+        "pkg-1.15.0" = _GxIRYBRQ;
+        "default" = _GxIRYBRQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-graphs-power";

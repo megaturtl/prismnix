@@ -91,6 +91,56 @@ let
             "file" = "FallingLeavesPlus-v26.2.1-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-FapZVkbELvHc4YjZm4ntVIJdUTSbPjnxAXMJTRqLKP7Bq5W3kM/A3dCqpTaKc/2ZwqjmqWNyxRF5HrgrQ28jOQ==";
         };
+        _fao2oZxr = {
+            "id" = "fao2oZxr";
+            "file" = "fallingleavesplus-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-2+3P4IxLEeKgl0kLrxrzdjHj94UfPc11SaXgUE5Nt6Us2KPNIA1mMGz5GsA4dntpt+9kozrJcasVw/xv3j4aSw==";
+        };
+        _Ivk5ooQx = {
+            "id" = "Ivk5ooQx";
+            "file" = "fallingleavesplus-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-5dv15apAOhiV1xqqqOzcZ9zeSTi2PnP+IYnBtFQ4V6PPYjHqeCf8LXGzhWFv/aDXqmP4kr0SsYFU9F6ajd38CQ==";
+        };
+        _9duwP5Ln = {
+            "id" = "9duwP5Ln";
+            "file" = "fallingleavesplus-v26.2.2-mc26.2.x+neoforge.jar";
+            "hash" = "sha512-rse45efUdX21l8eEttOgqW0kU0DgjP5Ogq8QXDmw47W4YMTicPHo8RUSKZSyczbyTBdEEusjR3/uGFagcO+RBQ==";
+        };
+        _jpOBCBbh = {
+            "id" = "jpOBCBbh";
+            "file" = "fallingleavesplus-v26.2.2-mc26.2.x+fabric.jar";
+            "hash" = "sha512-e0WYSPuD3HnY8/aPhhp4O0+EE1TIct6HCAGDUzs2qXJpmYP+d/NwSz6dCaCLenvopIJLlHMvfhcYrwbza/5dsQ==";
+        };
+        _Wh9vGBcI = {
+            "id" = "Wh9vGBcI";
+            "file" = "fallingleavesplus-v26.3.1-mc26.3.x+fabric.jar";
+            "hash" = "sha512-9BcOK/RUde/q69AHN6J0l3C/yXaP0nBOt5bd1us1q38VfLHbgHNhwmMOGqzGG8+HDFFCFFzQb9ZHvACULTynQg==";
+        };
+        _hV7OYYBx = {
+            "id" = "hV7OYYBx";
+            "file" = "fallingleavesplus-v26.1.2-mc26.1.x+neoforge.jar";
+            "hash" = "sha512-xSOeTcE/rNn0LsV2VXK80DhNMAuMivKPUwSgm6Xua+frauS3MMApBa5sIEKLnHtmRUlh80oWd2Wz8fOc6WqABg==";
+        };
+        _iMA6dnhU = {
+            "id" = "iMA6dnhU";
+            "file" = "fallingleavesplus-v26.1.2-mc26.1.x+fabric.jar";
+            "hash" = "sha512-3cmMfKKmMXFmpHoE1QZKc3xJ0wROty/Y1K8wXVSxilPqpS+ELxZohvI1TFQF1K9CbOvngyLuta3CLD/aVk0PTQ==";
+        };
+        _ZDDGMMW6 = {
+            "id" = "ZDDGMMW6";
+            "file" = "fallingleavesplus-v26.3.1-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-BJKDaQ2vwIwivZ6TvqZMwYKQD2hivcid4W1rKqm3DjGVYLvcKso7MtATYNPRjKWARiwG5UuXPt8WK73TPvgqPw==";
+        };
+        _YeFsSxuS = {
+            "id" = "YeFsSxuS";
+            "file" = "fallingleavesplus-v26.3.2-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-Zl84VvTSULTEQnFE6joFAxKkPn4tJ32FFxRHRVH5PM5hVOvWA9akkfbQOGcJTKw1lODtRoPVgGIX8ER/GXd2YQ==";
+        };
+        _rFZOtCBq = {
+            "id" = "rFZOtCBq";
+            "file" = "fallingleavesplus-v26.3.2-mc26.3.x+fabric.jar";
+            "hash" = "sha512-tfv75Xe+s5wTz/h/vtDXzS3zN0JFkTNc1Ki9V11PY0GEcigmWkyyeePKjwrC5vbxLezL0xIziIW1T3PMB3h7Cw==";
+        };
     in {
         "Ph6aNYT5" = _Ph6aNYT5;
         "qlz1QAkn" = _qlz1QAkn;
@@ -110,20 +160,32 @@ let
         "jEuvhgbm" = _jEuvhgbm;
         "f6epdUNn" = _f6epdUNn;
         "Y50BVdAX" = _Y50BVdAX;
-        "neoforge-26.1" = _bOpT0TXg;
-        "neoforge-26.1.1" = _bOpT0TXg;
-        "neoforge-26.1.2" = _bOpT0TXg;
-        "neoforge-26.2" = _Y50BVdAX;
+        "fao2oZxr" = _fao2oZxr;
+        "Ivk5ooQx" = _Ivk5ooQx;
+        "9duwP5Ln" = _9duwP5Ln;
+        "jpOBCBbh" = _jpOBCBbh;
+        "Wh9vGBcI" = _Wh9vGBcI;
+        "hV7OYYBx" = _hV7OYYBx;
+        "iMA6dnhU" = _iMA6dnhU;
+        "ZDDGMMW6" = _ZDDGMMW6;
+        "YeFsSxuS" = _YeFsSxuS;
+        "rFZOtCBq" = _rFZOtCBq;
+        "neoforge-26.1" = _hV7OYYBx;
+        "neoforge-26.1.1" = _hV7OYYBx;
+        "neoforge-26.1.2" = _hV7OYYBx;
+        "neoforge-26.2" = _9duwP5Ln;
         "neoforge-1.21.1" = _X9afDKLf;
         "neoforge-1.21.10" = _DytwHLtG;
         "neoforge-1.21.11" = _EGH7A6uY;
-        "fabric-26.1" = _jEuvhgbm;
-        "fabric-26.1.1" = _jEuvhgbm;
-        "fabric-26.1.2" = _jEuvhgbm;
-        "fabric-26.2" = _f6epdUNn;
+        "neoforge-26.3" = _YeFsSxuS;
+        "fabric-26.1" = _iMA6dnhU;
+        "fabric-26.1.1" = _iMA6dnhU;
+        "fabric-26.1.2" = _iMA6dnhU;
+        "fabric-26.2" = _jpOBCBbh;
         "fabric-1.21.1" = _WI9v4o14;
         "fabric-1.21.10" = _3VT70TWu;
         "fabric-1.21.11" = _Ifm4gTJ9;
+        "fabric-26.3" = _rFZOtCBq;
         "pkg-26.1.0" = _qlz1QAkn;
         "pkg-26.2.0" = _91iXDw5i;
         "pkg-21.1.0" = _LelL1neA;
@@ -133,7 +195,12 @@ let
         "pkg-21.1.2" = _WI9v4o14;
         "pkg-26.1.1" = _jEuvhgbm;
         "pkg-26.2.1" = _Y50BVdAX;
-        "default" = _Y50BVdAX;
+        "pkg-26.3.0" = _Ivk5ooQx;
+        "pkg-26.2.2" = _jpOBCBbh;
+        "pkg-26.3.1" = _ZDDGMMW6;
+        "pkg-26.1.2" = _iMA6dnhU;
+        "pkg-26.3.2" = _rFZOtCBq;
+        "default" = _rFZOtCBq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "falling-leaves-plus";

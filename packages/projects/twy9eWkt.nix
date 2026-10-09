@@ -121,6 +121,21 @@ let
             "file" = "signpost-fabric-26.2-2.04.1.jar";
             "hash" = "sha512-6cPSVs0Z248b+EKrBYKC3luyVpm0KyKSsPvNY+CrONvTsdYrZKm2Mnhkd1hrqBvq8w2Kc8N0TvjdWmrJT6dKaQ==";
         };
+        _JgdT12Pd = {
+            "id" = "JgdT12Pd";
+            "file" = "signpost-forge-26.3-2.04.1.jar";
+            "hash" = "sha512-tW4smJ0Em1eU2zZJWZJmqzF6LODr59QR9HM2/Cbg23eP59ZHamKXBAe6BhEjIEt248TSBL+y07afbQL7xl06zg==";
+        };
+        _JpKE1iSk = {
+            "id" = "JpKE1iSk";
+            "file" = "signpost-neoforge-26.3-2.04.1.jar";
+            "hash" = "sha512-0xPnQ7bqNV3bmtLTiA1+0yv7Ktoo+sVPvP6DuQFHpii0qeuyo9EfQr5AkCVZ5hZDolTidUzhO8x6mDjxH1F2Wg==";
+        };
+        _SyxI5JYt = {
+            "id" = "SyxI5JYt";
+            "file" = "signpost-fabric-26.3-2.04.1.jar";
+            "hash" = "sha512-aeJ0NAAzhQXoMPOmcbNmoIZekUcJ3iZWJ42KLUDb0K9D+dVfXGscFiW7dc8d846siZSuNaYdIFGIPriIcHyWNA==";
+        };
     in {
         "QVQeC5WO" = _QVQeC5WO;
         "nqpBEwHt" = _nqpBEwHt;
@@ -146,6 +161,9 @@ let
         "EYSQTkD8" = _EYSQTkD8;
         "rdIBnZO7" = _rdIBnZO7;
         "fEbsQAnb" = _fEbsQAnb;
+        "JgdT12Pd" = _JgdT12Pd;
+        "JpKE1iSk" = _JpKE1iSk;
+        "SyxI5JYt" = _SyxI5JYt;
         "forge-1.21.10" = _QVQeC5WO;
         "forge-1.20.1" = _yMo35CeV;
         "forge-1.20.2" = _yMo35CeV;
@@ -160,23 +178,26 @@ let
         "forge-1.21" = _ZfU0DkRi;
         "forge-1.21.1" = _ZfU0DkRi;
         "forge-26.2" = _EYSQTkD8;
+        "forge-26.3" = _JgdT12Pd;
         "neoforge-1.21.10" = _nqpBEwHt;
         "neoforge-1.21.11" = _C19t3lZU;
         "neoforge-26.1.2" = _8kbC1UOL;
         "neoforge-1.21" = _C227pNIJ;
         "neoforge-1.21.1" = _C227pNIJ;
         "neoforge-26.2" = _rdIBnZO7;
+        "neoforge-26.3" = _JpKE1iSk;
         "fabric-1.21.10" = _2f8Rs2l1;
         "fabric-1.21.11" = _9bdGeF1U;
         "fabric-26.1.2" = _zK990SMg;
         "fabric-1.21" = _4zU8l2tt;
         "fabric-1.21.1" = _BVqIQgYC;
         "fabric-26.2" = _fEbsQAnb;
+        "fabric-26.3" = _SyxI5JYt;
         "pkg-2.03.0" = _2f8Rs2l1;
         "pkg-2.02.0" = _XH6YB5r5;
         "pkg-2.04.0" = _4zU8l2tt;
-        "pkg-2.04.1" = _fEbsQAnb;
-        "default" = _fEbsQAnb;
+        "pkg-2.04.1" = _SyxI5JYt;
+        "default" = _SyxI5JYt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "signpost";

@@ -36,6 +36,11 @@ let
             "file" = "PanoramaScreenMake-1.0.0-PORT.jar";
             "hash" = "sha512-UrOzK9vNfALJsh+RTuu9VRofGKUU6BXMH+a6Ttq2rLzLnQXSnDuF27qiMG0aZXnvkB3iBBtLMU+yeH2IdQkS8g==";
         };
+        _sPUGo6k3 = {
+            "id" = "sPUGo6k3";
+            "file" = "PanoramaScreenMake-1.0.0-PORT+mc26.3.jar";
+            "hash" = "sha512-uuJpJp2sxjiyr93q67iQ1uYxqzuHWhPkcB0LMkzaqLBf9hGiLkU3U0+1swyvoLL8ahKIhLncxH49RCyDmR1XJQ==";
+        };
     in {
         "uQlaYlwE" = _uQlaYlwE;
         "r7pMH1i9" = _r7pMH1i9;
@@ -44,6 +49,7 @@ let
         "CrzHr2tb" = _CrzHr2tb;
         "JwHeJWUY" = _JwHeJWUY;
         "fWtCzAtk" = _fWtCzAtk;
+        "sPUGo6k3" = _sPUGo6k3;
         "fabric-1.21.6" = _uQlaYlwE;
         "fabric-1.21.7" = _uQlaYlwE;
         "fabric-1.21.8" = _uQlaYlwE;
@@ -55,6 +61,7 @@ let
         "fabric-26.1.1" = _JwHeJWUY;
         "fabric-26.1.2" = _JwHeJWUY;
         "fabric-26.2" = _fWtCzAtk;
+        "fabric-26.3" = _sPUGo6k3;
         "quilt-1.21.6" = _uQlaYlwE;
         "quilt-1.21.7" = _uQlaYlwE;
         "quilt-1.21.8" = _uQlaYlwE;
@@ -66,9 +73,9 @@ let
         "quilt-26.1.1" = _CrzHr2tb;
         "quilt-26.1.2" = _CrzHr2tb;
         "pkg-1.0.0" = _X2VDimRU;
-        "pkg-1.0.0-PORT" = _fWtCzAtk;
+        "pkg-1.0.0-PORT" = _sPUGo6k3;
         "pkg-1.0.0-FIX" = _JwHeJWUY;
-        "default" = _fWtCzAtk;
+        "default" = _sPUGo6k3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "panorama_screen";

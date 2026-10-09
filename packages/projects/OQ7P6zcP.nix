@@ -96,6 +96,11 @@ let
             "file" = "more_than_a_foxbox-1.2.2+26.1.jar";
             "hash" = "sha512-BMz+kXe0KDC4N9HqWjWH3jtBDkqxmAA3EF0+MzG+poNCqTqDrVxKTZpiPqk0IHchPhCQW65H5gOKOipqxiqbxQ==";
         };
+        _AbI109q8 = {
+            "id" = "AbI109q8";
+            "file" = "more_than_a_foxbox-1.2.2+26.3.jar";
+            "hash" = "sha512-QGp5Zr9Wye4VwcIU4dHJ+3VYhVb3AAR3VsFdDNkCSVKcKZTnJ22lGTzGI4HJXynImn8Ff3FTI831aGG81oRM0w==";
+        };
     in {
         "AKrt14Ob" = _AKrt14Ob;
         "236QxKLt" = _236QxKLt;
@@ -116,6 +121,7 @@ let
         "jAPUi9UT" = _jAPUi9UT;
         "LvI3Jmnz" = _LvI3Jmnz;
         "26BNV9SE" = _26BNV9SE;
+        "AbI109q8" = _AbI109q8;
         "fabric-1.21.8" = _6NDCdmJD;
         "fabric-1.21.9" = _Hntotx2h;
         "fabric-1.21.10" = _FMFWi0ho;
@@ -124,6 +130,7 @@ let
         "fabric-26.1.1" = _26BNV9SE;
         "fabric-26.1.2" = _26BNV9SE;
         "fabric-26.2" = _LvI3Jmnz;
+        "fabric-26.3" = _AbI109q8;
         "pkg-1.0.0+fabric-1.21.8" = _AKrt14Ob;
         "pkg-1.0.1+fabric-1.21.8" = _236QxKLt;
         "pkg-1.0.2+fabric-1.21.8" = _65Ne9I4l;
@@ -143,7 +150,8 @@ let
         "pkg-1.2.1+26.1" = _jAPUi9UT;
         "pkg-1.2.2+26.2" = _LvI3Jmnz;
         "pkg-1.2.2+26.1" = _26BNV9SE;
-        "default" = _26BNV9SE;
+        "pkg-1.2.2+26.3" = _AbI109q8;
+        "default" = _AbI109q8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more_than_a_foxbox";

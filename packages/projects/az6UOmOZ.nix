@@ -61,6 +61,26 @@ let
             "file" = "horizontalreinforceddeepslate-fabric-26.1.2-1.1.jar";
             "hash" = "sha512-uSjN9PzM/QY/N2RyXbwKYmbE1pq1pr5eg/pmr8+bxh0yhynY7YcqrLruqWEPsNOH8B6UkoJN/bGOef5LXb+5Rw==";
         };
+        _VQAkrI0D = {
+            "id" = "VQAkrI0D";
+            "file" = "horizontalreinforceddeepslate-neoforge-26.3-1.1.jar";
+            "hash" = "sha512-HVyFYMoQCwfW8rFa6I67rmo0ZWs/rl/FvsCBFjHrFpYjndcmAzPzLF8qG+lDSZ4Mf6aL3SYP5unaDIgcEEcJiw==";
+        };
+        _IolQ3AwN = {
+            "id" = "IolQ3AwN";
+            "file" = "horizontalreinforceddeepslate-fabric-26.3-1.1.jar";
+            "hash" = "sha512-gqXRMZAczG2RbNMWFjVr0MQuhRu8XMJlZEoobSZhikhlNB8FbjaiMfiKyhmtV9eG0KHk1yHaJnxkbIj4Fvt/rw==";
+        };
+        _Gn5whMDz = {
+            "id" = "Gn5whMDz";
+            "file" = "horizontalreinforceddeepslate-fabric-26.2-1.1.1.jar";
+            "hash" = "sha512-oYQL4IJOGX4RtmVD8vJFffOvKPISY1TlOacNk4QpcsEtrIe5abolzvFi394bT5UXv8bDfdLRhfZ2px8uTqYSaQ==";
+        };
+        _6vmVCX91 = {
+            "id" = "6vmVCX91";
+            "file" = "horizontalreinforceddeepslate-fabric-26.3-1.1.1.jar";
+            "hash" = "sha512-RopmwlGBzeAFZLsY1aMcVciIRYsa9jmR6/OCTzUS0Mmh6lvG77Sbfz2HczT1YI5FNEJwNLbyqZwP26yjlL0pig==";
+        };
     in {
         "ag9bOGYS" = _ag9bOGYS;
         "t1T8QETt" = _t1T8QETt;
@@ -74,6 +94,10 @@ let
         "IP9ln8fY" = _IP9ln8fY;
         "iafK27OO" = _iafK27OO;
         "u1yw5AHf" = _u1yw5AHf;
+        "VQAkrI0D" = _VQAkrI0D;
+        "IolQ3AwN" = _IolQ3AwN;
+        "Gn5whMDz" = _Gn5whMDz;
+        "6vmVCX91" = _6vmVCX91;
         "forge-1.19" = _ag9bOGYS;
         "forge-1.19.1" = _ag9bOGYS;
         "forge-1.19.2" = _ag9bOGYS;
@@ -100,19 +124,23 @@ let
         "neoforge-26.1.1" = _iafK27OO;
         "neoforge-26.1.2" = _iafK27OO;
         "neoforge-26.2" = _iafK27OO;
+        "neoforge-26.3" = _VQAkrI0D;
         "fabric-26.1" = _u1yw5AHf;
         "fabric-26.1.1" = _u1yw5AHf;
-        "fabric-26.1.2" = _u1yw5AHf;
-        "fabric-26.2" = _u1yw5AHf;
+        "fabric-26.1.2" = _Gn5whMDz;
+        "fabric-26.2" = _Gn5whMDz;
+        "fabric-26.3" = _6vmVCX91;
         "quilt-26.1" = _u1yw5AHf;
         "quilt-26.1.1" = _u1yw5AHf;
-        "quilt-26.1.2" = _u1yw5AHf;
-        "quilt-26.2" = _u1yw5AHf;
+        "quilt-26.1.2" = _Gn5whMDz;
+        "quilt-26.2" = _Gn5whMDz;
+        "quilt-26.3" = _6vmVCX91;
         "pkg-v1.0.1" = _jZFP5cwu;
         "pkg-v1.0.2" = _IP9ln8fY;
         "pkg-v1.0.5" = _M8QzJxHm;
-        "pkg-v1.1" = _u1yw5AHf;
-        "default" = _u1yw5AHf;
+        "pkg-v1.1" = _IolQ3AwN;
+        "pkg-v1.1.1" = _6vmVCX91;
+        "default" = _6vmVCX91;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "horizontal-reinforced-deepslate";

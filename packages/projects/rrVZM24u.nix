@@ -61,6 +61,21 @@ let
             "file" = "TangLanFansIdea-1.11.4-26.2-neoforge-26.2.0.57.jar";
             "hash" = "sha512-uUiFSw6rYi4QcIxG7R2P9YsmTyoQndVuGjwNzZHsn46JNP69xiseIzRr15Mk8zVtAAB4GGsWoKLcrBS5SX/q/g==";
         };
+        _DqenqOqi = {
+            "id" = "DqenqOqi";
+            "file" = "TangLanFansIdea-1.12.1-26.3-neoforge-26.3.0.1-beta[#12.5期最新模组].jar";
+            "hash" = "sha512-X23m+N2ZES91ICb5hWshNFQu1T3q13ZcT19uVD371y3CjbdCrsoesn2Yc05VhA2KPx5dp0iUEWFKkCJu9tVLbQ==";
+        };
+        _acetPWxF = {
+            "id" = "acetPWxF";
+            "file" = "TangLanFansIdea-1.13.0-26.3-neoforge-26.3.0.1-beta.jar";
+            "hash" = "sha512-uednaopUHdoidBJDC6cIdYk1TyUmm0QPQ5bSnd4iFFyJI0nyM9qNRzU182+MhMn35IbKm7zSPMHQO9ueixsf4w==";
+        };
+        _VZsJjBIB = {
+            "id" = "VZsJjBIB";
+            "file" = "TangLanFansIdea-1.14.4-26.3-neoforge-26.3.0.1-beta[#14期最新模组].jar";
+            "hash" = "sha512-d4eytuGIEtZCBlJgt8ZZ4AZWfrr6Sg2efrMvjIvm6KMtD0lMLN9AEEuwz6ecIT1SCMf040w9HBOnVo2DEfvOpA==";
+        };
     in {
         "NXXwOrKG" = _NXXwOrKG;
         "LUswLJ0a" = _LUswLJ0a;
@@ -74,7 +89,11 @@ let
         "By0T6eIo" = _By0T6eIo;
         "4V362ypO" = _4V362ypO;
         "n3pbpzdZ" = _n3pbpzdZ;
+        "DqenqOqi" = _DqenqOqi;
+        "acetPWxF" = _acetPWxF;
+        "VZsJjBIB" = _VZsJjBIB;
         "neoforge-26.2" = _n3pbpzdZ;
+        "neoforge-26.3" = _VZsJjBIB;
         "pkg-1.0.0" = _NXXwOrKG;
         "pkg-1.1.0" = _LUswLJ0a;
         "pkg-1.2.0" = _aksplXl9;
@@ -87,7 +106,10 @@ let
         "pkg-1.9.3" = _By0T6eIo;
         "pkg-1.10.0" = _4V362ypO;
         "pkg-1.11.4" = _n3pbpzdZ;
-        "default" = _n3pbpzdZ;
+        "pkg-1.12.1" = _DqenqOqi;
+        "pkg-1.13.0" = _acetPWxF;
+        "pkg-1.14.4" = _VZsJjBIB;
+        "default" = _VZsJjBIB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tanglanfansidea";

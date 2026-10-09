@@ -16,19 +16,27 @@ let
             "file" = "togglehighlightoutlinebox-26.2.jar";
             "hash" = "sha512-lGcbh+tMuuNv10GJCZluUZHvqNISQlQoRK5rJM7fkyEUvEcUGr1E1rPfVYRt/j5pYe/mkKC7wFeLSsrfc/VxoQ==";
         };
+        _DteUVIrV = {
+            "id" = "DteUVIrV";
+            "file" = "togglehighlightoutlinebox-26.3.jar";
+            "hash" = "sha512-LkspLJo7D25TAvi/Pbo22TvTHsTeV01rxmOUYSnGzBPWr9fV6Rmn1cI4dDakR8Z86OkHcsssgt5OwlQuy8BtaA==";
+        };
     in {
         "o01o88BM" = _o01o88BM;
         "xeXcxJP2" = _xeXcxJP2;
         "5rsu8jCD" = _5rsu8jCD;
+        "DteUVIrV" = _DteUVIrV;
         "fabric-1.21.11" = _o01o88BM;
         "fabric-26.1" = _xeXcxJP2;
         "fabric-26.1.1" = _xeXcxJP2;
         "fabric-26.1.2" = _xeXcxJP2;
         "fabric-26.2" = _5rsu8jCD;
+        "fabric-26.3" = _DteUVIrV;
         "pkg-1.0" = _o01o88BM;
         "pkg-1.1" = _xeXcxJP2;
         "pkg-1.2" = _5rsu8jCD;
-        "default" = _5rsu8jCD;
+        "pkg-1.3" = _DteUVIrV;
+        "default" = _DteUVIrV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "togglehighlightoutlinebox";

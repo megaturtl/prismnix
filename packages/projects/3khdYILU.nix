@@ -176,6 +176,16 @@ let
             "file" = "simple-camera-tweaks-3.1.1.jar";
             "hash" = "sha512-UuelfT7MJhdcp1wdwGnU8LEJpmC5Fq/lo+NGOK26Ui1n1KtRIA9jmcRHx/IfBM82vixIimqwzQ3lcpOrO7gVRw==";
         };
+        _clGQO9VF = {
+            "id" = "clGQO9VF";
+            "file" = "simple-camera-tweaks-3.1.2.jar";
+            "hash" = "sha512-ubrUos926ourpGTiNPpdibkJaVd71akF1L+avTdK2J886EmIoUuQPOf9UvdxNHSRA0H5iRRHeiyqOBQYtUAumw==";
+        };
+        _AnZb4nT3 = {
+            "id" = "AnZb4nT3";
+            "file" = "simple-camera-tweaks-3.2.0.jar";
+            "hash" = "sha512-7T1mU+GR3K/OZxDWpx/SDCvT3SjodZFFj++tu1LWjgw75bhW7RC1lv3lOYVPzbbTlnxeBiaK/DyXxfsBOAPv2g==";
+        };
     in {
         "MYOxIYz0" = _MYOxIYz0;
         "JsyXBSUG" = _JsyXBSUG;
@@ -212,6 +222,8 @@ let
         "ijSTNGSd" = _ijSTNGSd;
         "a9v9HISf" = _a9v9HISf;
         "CvkQk796" = _CvkQk796;
+        "clGQO9VF" = _clGQO9VF;
+        "AnZb4nT3" = _AnZb4nT3;
         "fabric-1.21.2" = _cKqr4lNS;
         "fabric-1.21.3" = _cKqr4lNS;
         "fabric-1.21.4" = _cKqr4lNS;
@@ -247,7 +259,8 @@ let
         "fabric-26.1.1" = _ijSTNGSd;
         "fabric-26.1.2" = _ijSTNGSd;
         "fabric-26.2-snapshot-2" = _ijSTNGSd;
-        "fabric-26.2" = _CvkQk796;
+        "fabric-26.2" = _clGQO9VF;
+        "fabric-26.3" = _AnZb4nT3;
         "quilt-1.19.4" = _kfh8QF5q;
         "quilt-1.20" = _kfh8QF5q;
         "quilt-1.20.1" = _kfh8QF5q;
@@ -315,7 +328,9 @@ let
         "pkg-3.0.0" = _ijSTNGSd;
         "pkg-3.1.0" = _a9v9HISf;
         "pkg-3.1.1" = _CvkQk796;
-        "default" = _CvkQk796;
+        "pkg-3.1.2" = _clGQO9VF;
+        "pkg-3.2.0" = _AnZb4nT3;
+        "default" = _AnZb4nT3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-camera-tweaks";

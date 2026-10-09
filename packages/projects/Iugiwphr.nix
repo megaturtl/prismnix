@@ -281,6 +281,16 @@ let
             "file" = "Retraining-neoforge-26.3-6.0.0.jar";
             "hash" = "sha512-pmksDAKwzNBFcvNSxYYb3R8ml7NqQGK4M3xjlG5SQw/XcCUWgpmf25ozmsuuU/ySJjdYSC8j8Kg4xGpJAnApzQ==";
         };
+        _qlN5KgUn = {
+            "id" = "qlN5KgUn";
+            "file" = "Retraining-fabric-26.3-6.0.1.jar";
+            "hash" = "sha512-VQDGBIvlcSkk42UL6pHEyHOJbaG2s1sfAmoC+2ixJtZUk3KDM+rHEL8HnN9mCsi2riz7WUnx7+Z7Q0VAL3wA/A==";
+        };
+        _oEc0Zk76 = {
+            "id" = "oEc0Zk76";
+            "file" = "Retraining-neoforge-26.3-6.0.1.jar";
+            "hash" = "sha512-2sALg4ZXfB8BytaL52T/Q3SYSfwuDuGcmUCdHkv21CABR3Dec4N9EZZmIshMUD4oynIOg3XXZ2KGUoS2eWHg1w==";
+        };
     in {
         "2xLSd2dF" = _2xLSd2dF;
         "oT9IShs4" = _oT9IShs4;
@@ -338,6 +348,8 @@ let
         "pSAktfgC" = _pSAktfgC;
         "sq7QEoHU" = _sq7QEoHU;
         "GAkoptQS" = _GAkoptQS;
+        "qlN5KgUn" = _qlN5KgUn;
+        "oEc0Zk76" = _oEc0Zk76;
         "forge-1.18.2" = _2xLSd2dF;
         "forge-1.18.1" = _3TIw7N67;
         "forge-1.18" = _ukILyRNU;
@@ -373,7 +385,7 @@ let
         "fabric-1.21.11" = _zIPQwRmp;
         "fabric-26.1.2" = _DsLCNdJQ;
         "fabric-26.2" = _PPDvDGjW;
-        "fabric-26.3" = _sq7QEoHU;
+        "fabric-26.3" = _qlN5KgUn;
         "neoforge-1.20.2" = _1X4icCoQ;
         "neoforge-1.20.4" = _wSd4BA19;
         "neoforge-1.20.6" = _Jmq8lOdf;
@@ -388,7 +400,7 @@ let
         "neoforge-1.21.11" = _NpVSYYR4;
         "neoforge-26.1.2" = _od3l8Ef5;
         "neoforge-26.2" = _pSAktfgC;
-        "neoforge-26.3" = _GAkoptQS;
+        "neoforge-26.3" = _oEc0Zk76;
         "pkg-1.1.0" = _oT9IShs4;
         "pkg-1.1.0.2" = _3TIw7N67;
         "pkg-1.1.0.1" = _sed0MsUK;
@@ -417,7 +429,8 @@ let
         "pkg-5.0.0" = _auKal8Fv;
         "pkg-5.0.1" = _pSAktfgC;
         "pkg-6.0.0" = _GAkoptQS;
-        "default" = _GAkoptQS;
+        "pkg-6.0.1" = _oEc0Zk76;
+        "default" = _oEc0Zk76;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "retraining";

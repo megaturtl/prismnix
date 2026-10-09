@@ -286,6 +286,26 @@ let
             "file" = "mobfilter-neoforge-0.28.0+26.2.jar";
             "hash" = "sha512-yCPnEhyemlikHVwAUcvcyG/QW7UJvz7C8TBSqcmhby5Q2oKHKptQbaJ+OgVxl35SYXtkJs620c+XAY1EeZB54g==";
         };
+        _cFBzOwYG = {
+            "id" = "cFBzOwYG";
+            "file" = "mobfilter-neoforge-0.28.1+26.2.jar";
+            "hash" = "sha512-KoOwJ7Y48bb9VXvF1/86kci5M4UgGzTWEdls444scDAx/8juDy9mHX+bPjVx8NZtgKS9aQCB08iRXzZAGGHWDA==";
+        };
+        _EDuF1CWZ = {
+            "id" = "EDuF1CWZ";
+            "file" = "mobfilter-fabric-0.28.1+26.2.jar";
+            "hash" = "sha512-GinZik/954zR/D0at7y/TRnw1kO3nIlIfyNlURKmOfXfG4QNxzo5V3corGMup4CG3h+Ipy3f8ciTCrbz7bGVKg==";
+        };
+        _dlWLsuzx = {
+            "id" = "dlWLsuzx";
+            "file" = "mobfilter-neoforge-0.29.0+26.3.jar";
+            "hash" = "sha512-FF893xdHrgXQIBnNkXrn1yhvg+5XfAxdTP/v95p7GWfhqOGeh6+xILns909HRzLKhsbr1LNHFdOyWs6rS1brCw==";
+        };
+        _fGrDy7pw = {
+            "id" = "fGrDy7pw";
+            "file" = "mobfilter-fabric-0.29.0+26.3.jar";
+            "hash" = "sha512-XTMy33FWNIfJrTl94wfryslrNXG1Hyy8E1jSuC7tN6yeAMKUBJJt8ge0543wEFXA+nXjbW4itmyBC+uBwbJawA==";
+        };
     in {
         "c9ElR2Ya" = _c9ElR2Ya;
         "9f2qzkGX" = _9f2qzkGX;
@@ -344,6 +364,10 @@ let
         "OhDdt3gR" = _OhDdt3gR;
         "NYpKsGy3" = _NYpKsGy3;
         "ktVxB7oI" = _ktVxB7oI;
+        "cFBzOwYG" = _cFBzOwYG;
+        "EDuF1CWZ" = _EDuF1CWZ;
+        "dlWLsuzx" = _dlWLsuzx;
+        "fGrDy7pw" = _fGrDy7pw;
         "fabric-1.18.1" = _3zWBaQtz;
         "fabric-1.18.2" = _3zWBaQtz;
         "fabric-1.19" = _7wISinJF;
@@ -370,13 +394,15 @@ let
         "fabric-26.1" = _FF3fm7w3;
         "fabric-26.1.1" = _AOwzo5oc;
         "fabric-26.1.2" = _OhDdt3gR;
-        "fabric-26.2" = _NYpKsGy3;
+        "fabric-26.2" = _EDuF1CWZ;
+        "fabric-26.3" = _fGrDy7pw;
         "neoforge-1.21.10" = _NGlGMRXU;
         "neoforge-1.21.11" = _kUMkRUN3;
         "neoforge-26.1" = _O5j24JhF;
         "neoforge-26.1.1" = _9XqIeNYX;
         "neoforge-26.1.2" = _gMCYK8wW;
-        "neoforge-26.2" = _ktVxB7oI;
+        "neoforge-26.2" = _cFBzOwYG;
+        "neoforge-26.3" = _dlWLsuzx;
         "pkg-0.0.1+1.18.1" = _c9ElR2Ya;
         "pkg-0.0.2+1.18.2" = _9f2qzkGX;
         "pkg-0.0.3+1.19" = _7wISinJF;
@@ -428,7 +454,9 @@ let
         "pkg-0.26.1+26.1.1" = _AOwzo5oc;
         "pkg-0.27.0+26.1.2" = _OhDdt3gR;
         "pkg-0.28.0+26.2" = _ktVxB7oI;
-        "default" = _ktVxB7oI;
+        "pkg-0.28.1+26.2" = _EDuF1CWZ;
+        "pkg-0.29.0+26.3" = _fGrDy7pw;
+        "default" = _fGrDy7pw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mobfilter";

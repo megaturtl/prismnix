@@ -111,6 +111,36 @@ let
             "file" = "sporesrp-1.8.4-neo.jar";
             "hash" = "sha512-BEBS+pOE170B1ChLA13MXxCPtWnlmIfvKRqKBAU/M7Ik5LfQ0HwrpR2eOIj15kad6uC9PnQ7FU3jEYiSBR6Kzg==";
         };
+        _65BXbGpE = {
+            "id" = "65BXbGpE";
+            "file" = "sporesrp-1.8.5.jar";
+            "hash" = "sha512-ZMrgknZyz+OuV1XYnYM9byNALG9S+CfoSl3eEOvZ3P23gKuPiNsmGIx8bp5tqNgFGFrrEwIGAiKeiwh1JkxmZA==";
+        };
+        _sbDa09NB = {
+            "id" = "sbDa09NB";
+            "file" = "sporesrp-1.8.5-neo.jar";
+            "hash" = "sha512-Wbr7WqK2vIORctFwCtKIppPN7xbA/JPcBioxCZw7NLnaO5SE5URPthEjEBHuSW1AaPG7d6NpzO3KxPLxVKIuaA==";
+        };
+        _PAQZxV0n = {
+            "id" = "PAQZxV0n";
+            "file" = "sporesrp-1.8.6.jar";
+            "hash" = "sha512-GfOSGUAUcVZd/wIYtoghTt57aVEnSJkXMZymF0OkjvifvlokhaBtwoEz8ieeXAuB2X7h/9z/t9Ofxwfc6XdcvA==";
+        };
+        _a8AF3Osc = {
+            "id" = "a8AF3Osc";
+            "file" = "sporesrp-1.8.6-neo.jar";
+            "hash" = "sha512-+jksb7P1HbjOSj13iMmFcWxhNn+2fTdHjVhLWvdm+2nBWyN1/B1lQK8Mgl5ogIBE2vJ1p2h020hiOqU64kSEKA==";
+        };
+        _7JG9udt5 = {
+            "id" = "7JG9udt5";
+            "file" = "sporesrp-1.8.7.jar";
+            "hash" = "sha512-8i5BKL9AF8YMFIByi5IeQpYcbYBWhcrRp5aTcs8pqXWt2D4M3OZlOryJp/DpbXQkO5vM0LmoICzQ9kCbnw1pmA==";
+        };
+        _ycAIPADf = {
+            "id" = "ycAIPADf";
+            "file" = "sporesrp-1.8.7-neo.jar";
+            "hash" = "sha512-+21h1ZfJjZn9WsnnnYv8yK140cb576lxxjEoWwXlURppz79C8E6bGx2H02D0vywVHyYouTvroFX4BFmtIbbJjg==";
+        };
     in {
         "UCZQWk0m" = _UCZQWk0m;
         "LwjPMuMJ" = _LwjPMuMJ;
@@ -134,8 +164,14 @@ let
         "wo7ozNDM" = _wo7ozNDM;
         "sRAOa4I5" = _sRAOa4I5;
         "Cou6fxDz" = _Cou6fxDz;
-        "forge-1.20.1" = _sRAOa4I5;
-        "neoforge-1.21.1" = _Cou6fxDz;
+        "65BXbGpE" = _65BXbGpE;
+        "sbDa09NB" = _sbDa09NB;
+        "PAQZxV0n" = _PAQZxV0n;
+        "a8AF3Osc" = _a8AF3Osc;
+        "7JG9udt5" = _7JG9udt5;
+        "ycAIPADf" = _ycAIPADf;
+        "forge-1.20.1" = _7JG9udt5;
+        "neoforge-1.21.1" = _ycAIPADf;
         "pkg-1.0.0" = _UCZQWk0m;
         "pkg-1.1.0" = _LwjPMuMJ;
         "pkg-1.2.0" = _8XAv2qn0;
@@ -155,7 +191,10 @@ let
         "pkg-1.8.2" = _BL32JYFG;
         "pkg-1.8.3" = _wo7ozNDM;
         "pkg-1.8.4" = _Cou6fxDz;
-        "default" = _Cou6fxDz;
+        "pkg-1.8.5" = _sbDa09NB;
+        "pkg-1.8.6" = _a8AF3Osc;
+        "pkg-1.8.7" = _ycAIPADf;
+        "default" = _ycAIPADf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sporesrp!";

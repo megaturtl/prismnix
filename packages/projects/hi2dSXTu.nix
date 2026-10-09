@@ -226,6 +226,16 @@ let
             "file" = "elevatorid-neoforge-26.2-1.16.4.jar";
             "hash" = "sha512-WcK9wjSrIT3RyDkdlwEqLImQ3oiVYboAJytCJPUtiAlplFznoDvFDZmc2QX85gQ67OOTgw3MCjsisQ0kCPUEoA==";
         };
+        _Pm4DE7qA = {
+            "id" = "Pm4DE7qA";
+            "file" = "elevatorid-fabric-26.3-1.16.5.jar";
+            "hash" = "sha512-IQBsyGt/drGcCIxV4EPfZRE0Ynok2oxiYX9jhID0LR2U9x929YT9nw38Z1VqDmpXeseMwq+W8liCbO7J61Hz4A==";
+        };
+        _ZjzXGLrr = {
+            "id" = "ZjzXGLrr";
+            "file" = "elevatorid-neoforge-26.3-1.16.5.jar";
+            "hash" = "sha512-/346mA4RdcfTCIPdAyLTwW9qgKKwxQILbGXFauTkaORBvRBTNHekFJhOSTrYpb0kI40lwVeMwz7sSWeoXcMnEg==";
+        };
     in {
         "vRsfyfzW" = _vRsfyfzW;
         "ysLPxfPt" = _ysLPxfPt;
@@ -272,6 +282,8 @@ let
         "DvtKyW5t" = _DvtKyW5t;
         "Dx1HL6RR" = _Dx1HL6RR;
         "hdRujm81" = _hdRujm81;
+        "Pm4DE7qA" = _Pm4DE7qA;
+        "ZjzXGLrr" = _ZjzXGLrr;
         "forge-1.20.1" = _nWSTr4AA;
         "forge-1.16.3" = _ysLPxfPt;
         "forge-1.16.4" = _ysLPxfPt;
@@ -302,6 +314,7 @@ let
         "neoforge-26.1.1" = _m91X4rrm;
         "neoforge-26.1.2" = _m91X4rrm;
         "neoforge-26.2" = _hdRujm81;
+        "neoforge-26.3" = _ZjzXGLrr;
         "fabric-1.21" = _IYcefR0v;
         "fabric-1.21.1" = _IYcefR0v;
         "fabric-1.21.3" = _vAy15NvY;
@@ -317,6 +330,7 @@ let
         "fabric-26.1.1" = _DvtKyW5t;
         "fabric-26.1.2" = _DvtKyW5t;
         "fabric-26.2" = _Dx1HL6RR;
+        "fabric-26.3" = _Pm4DE7qA;
         "pkg-1.20.1-1.9" = _vRsfyfzW;
         "pkg-1.16.5-1.7.13" = _ysLPxfPt;
         "pkg-1.12.2-1.4.2" = _sqiXnhC5;
@@ -362,7 +376,9 @@ let
         "pkg-fabric-26.1.1-1.16.3" = _DvtKyW5t;
         "pkg-fabric-26.2-1.16.4" = _Dx1HL6RR;
         "pkg-neoforge-26.2-1.16.4" = _hdRujm81;
-        "default" = _hdRujm81;
+        "pkg-fabric-26.3-1.16.5" = _Pm4DE7qA;
+        "pkg-neoforge-26.3-1.16.5" = _ZjzXGLrr;
+        "default" = _ZjzXGLrr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elevatormod";

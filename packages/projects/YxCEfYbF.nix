@@ -191,6 +191,16 @@ let
             "file" = "ArmorQuickSwap-v26.2.0-mc26.2.x-Fabric.jar";
             "hash" = "sha512-g0CZIlYA08Shbzf24LLN7CIJVOQUwYfe9hlRWap2omhSXqYsN4Z2lDsTCWnG7phkn7VQSAhaPnSvupA1u/r3JA==";
         };
+        _Dqd2Tc8v = {
+            "id" = "Dqd2Tc8v";
+            "file" = "armorquickswap-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-2C8xUbJovJVhjlYgDC6EEfwmI1upNtgoIyf5W96YsnfCkA6Hq6TGTU76aAY0FX4m7NZ+z5naW1KUyfa0DYscOg==";
+        };
+        _UmHPXuBm = {
+            "id" = "UmHPXuBm";
+            "file" = "armorquickswap-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-8n2R1RtzOwCqDHhyMKPKf8vP3RsNKX/3tgEqNaxBLmOCtbkhLv05OX3XKT2mbB+nlDdZq4eiyVW7e5fWMt1lCw==";
+        };
     in {
         "9i9yy3k6" = _9i9yy3k6;
         "Vu1rXzKH" = _Vu1rXzKH;
@@ -230,6 +240,8 @@ let
         "jIiNohGO" = _jIiNohGO;
         "uEIFvxLo" = _uEIFvxLo;
         "Qv0E8c8T" = _Qv0E8c8T;
+        "Dqd2Tc8v" = _Dqd2Tc8v;
+        "UmHPXuBm" = _UmHPXuBm;
         "fabric-1.21.10" = _J44RHXea;
         "fabric-1.20.1" = _vjvvLrPH;
         "fabric-1.21.1" = _oGfnV6U2;
@@ -242,6 +254,7 @@ let
         "fabric-26.1.1" = _iWbW2wFH;
         "fabric-26.1.2" = _iWbW2wFH;
         "fabric-26.2" = _Qv0E8c8T;
+        "fabric-26.3" = _Dqd2Tc8v;
         "neoforge-1.21.10" = _u0y8hYcO;
         "neoforge-1.21.1" = _DZi1Jm4Y;
         "neoforge-1.21.3" = _qz9GYK7A;
@@ -253,6 +266,7 @@ let
         "neoforge-26.1.1" = _jIiNohGO;
         "neoforge-26.1.2" = _jIiNohGO;
         "neoforge-26.2" = _uEIFvxLo;
+        "neoforge-26.3" = _UmHPXuBm;
         "forge-1.20.1" = _WnJD8rBH;
         "pkg-21.10.0" = _Vu1rXzKH;
         "pkg-v8.0.0-1.20.1-Forge" = _WnJD8rBH;
@@ -285,7 +299,8 @@ let
         "pkg-21.11.2" = _1SzJngNN;
         "pkg-26.1.0" = _jIiNohGO;
         "pkg-26.2.0" = _Qv0E8c8T;
-        "default" = _Qv0E8c8T;
+        "pkg-26.3.0" = _UmHPXuBm;
+        "default" = _UmHPXuBm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "armor-quick-swap";

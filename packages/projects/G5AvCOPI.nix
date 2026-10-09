@@ -91,6 +91,16 @@ let
             "file" = "rpgdifficulty-1.4.0.jar";
             "hash" = "sha512-++ThPXqj1F0ALX/P1JwamiX1FSkaI58qUQ1i1rGtIYJb5SGn4aOqMlKbWbxayp4sPrngQSiB0OqTzRSYw3vlDw==";
         };
+        _NckMxJBa = {
+            "id" = "NckMxJBa";
+            "file" = "rpgdifficulty-1.4.1.jar";
+            "hash" = "sha512-+Qd5AWuOmvI4Ic8IN7HtMSOZFVp0LcF7XuEb1Lxn9vWynb6R0c/yysBOlEiVwrSRJ/9R3IRFLe5lY9KXREEI1A==";
+        };
+        _XGkTA787 = {
+            "id" = "XGkTA787";
+            "file" = "rpgdifficulty-1.4.2.jar";
+            "hash" = "sha512-aPWgrPkhPoGx2Yrnvdgz5z9mBjaYTbYVOmuciC9knpBaX41BkGWM9QTz58fA3bhzeu/td9aixnU7AGLeFTb9QQ==";
+        };
     in {
         "T1ZNJt6f" = _T1ZNJt6f;
         "14SGGeUC" = _14SGGeUC;
@@ -110,12 +120,14 @@ let
         "ZxL2ICyn" = _ZxL2ICyn;
         "fvmwn4Y2" = _fvmwn4Y2;
         "K9OidMod" = _K9OidMod;
+        "NckMxJBa" = _NckMxJBa;
+        "XGkTA787" = _XGkTA787;
         "fabric-1.19.2" = _M1B8PzR5;
         "fabric-1.20" = _2y87aDf0;
         "fabric-1.20.1" = _ZxL2ICyn;
         "fabric-1.20.6" = _21ZbKxQC;
         "fabric-1.21" = _Xx5oT5d6;
-        "fabric-1.21.1" = _K9OidMod;
+        "fabric-1.21.1" = _XGkTA787;
         "pkg-1.3.7" = _T1ZNJt6f;
         "pkg-1.3.8" = _14SGGeUC;
         "pkg-1.3.9+1.19.2" = _aoOECKdM;
@@ -134,7 +146,9 @@ let
         "pkg-1.3.16+1.20.1" = _ZxL2ICyn;
         "pkg-1.3.18+1.21.1" = _fvmwn4Y2;
         "pkg-1.4.0+1.21.1" = _K9OidMod;
-        "default" = _K9OidMod;
+        "pkg-1.4.1+1.21.1" = _NckMxJBa;
+        "pkg-1.4.2+1.21.1" = _XGkTA787;
+        "default" = _XGkTA787;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rpgdifficulty";

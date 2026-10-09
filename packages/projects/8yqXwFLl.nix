@@ -401,6 +401,51 @@ let
             "file" = "SkyBlockPv-1.8.9-26.2.jar";
             "hash" = "sha512-9fsvWeIz0iHsQ50YH0xTeNwEuzcx2KtsssAlQvZ3zzGozw3Hu6otFIlVi01lkcukQSBctitd8mPJ4TSYcfBPpg==";
         };
+        _w4Z0RMtB = {
+            "id" = "w4Z0RMtB";
+            "file" = "SkyBlockPv-1.9.0-26.1.jar";
+            "hash" = "sha512-FIxOSPvWecyFKWL9vU4sWegv1eOMWoDXbK3lqWPBBy0C843CsnyBB6BWljNRJnCkjWXXW30UbQXXjyc0MYs1rw==";
+        };
+        _mXlBH61q = {
+            "id" = "mXlBH61q";
+            "file" = "SkyBlockPv-1.9.0-26.2.jar";
+            "hash" = "sha512-Wea5HCsrrDxEaMwlHV50qQ6nko4F5UPSY+iUiE2pWQ/oHsnJIL3IMwnEMCTuzQ0w1PNIt6vQiolI4rU+hcmYlw==";
+        };
+        _UpHGq9Lh = {
+            "id" = "UpHGq9Lh";
+            "file" = "SkyBlockPv-1.9.0-26.3.jar";
+            "hash" = "sha512-TLLhojF6gEThbM0G6mCakVH1t87kxt31vDCIMAR/yVwqF2n7KRIrNYyC+xQ9OvJOzkLO2/AHVy0tgZ7P248Omw==";
+        };
+        _M6OHD75K = {
+            "id" = "M6OHD75K";
+            "file" = "SkyBlockPv-1.9.1-26.1.jar";
+            "hash" = "sha512-qC8LyktxwnzCx8AtyioYX/9PtB42np3cg7Vbem2z0ib37CUelp0on9SOEKLqgqYdxjHEvUSgJZRcOrLDl7fIPQ==";
+        };
+        _vUvvVwJK = {
+            "id" = "vUvvVwJK";
+            "file" = "SkyBlockPv-1.9.1-26.2.jar";
+            "hash" = "sha512-mB/XEDwXW1d4kNM/XdrcX02rgVOWssFKk7LoUg62cw4nhKbgSTubkWGcH0MB/ejzZmBNOXdEqgCpQQMrs+ofYg==";
+        };
+        _tn8Tzpud = {
+            "id" = "tn8Tzpud";
+            "file" = "SkyBlockPv-1.9.1-26.3.jar";
+            "hash" = "sha512-p1XT6gaKy/Snas1I8C3hCNuP07LNJz+c99eMcjCThFj7R34VqhWoodqf4lsi+PldbMzDJ5arLI29oGq9ukONNQ==";
+        };
+        _xqACrDEZ = {
+            "id" = "xqACrDEZ";
+            "file" = "SkyBlockPv-1.9.2-26.1.jar";
+            "hash" = "sha512-5Dlq7iCIaqm4OKKIXNSDz4du2FTq0smNz0v8asC6IdaOMqzx4EkORxwobr7A5mYMH/NJJwQy73VWdOeQf9Zrww==";
+        };
+        _i0l6DQfj = {
+            "id" = "i0l6DQfj";
+            "file" = "SkyBlockPv-1.9.2-26.2.jar";
+            "hash" = "sha512-qkWoiQztAF2v3Zh4sgzk9cg6Ao6tSb8HF2PjmRWFSrPMIuDTEg654ObZiWhgTE4OoERVrzZX6FuHKOXLAk8byQ==";
+        };
+        _rcMsCop0 = {
+            "id" = "rcMsCop0";
+            "file" = "SkyBlockPv-1.9.2-26.3.jar";
+            "hash" = "sha512-8wWyKrnFeDw5H2RhcdFu+9A9PXmzXrV58ZI9OC9vLypQbcH7ZE656j1FBfaKBjnhXgOEeZo70WHt1ElXgfyyZw==";
+        };
     in {
         "mcLvgz6P" = _mcLvgz6P;
         "MAL522kR" = _MAL522kR;
@@ -482,6 +527,15 @@ let
         "DY2OqraJ" = _DY2OqraJ;
         "iVpdy3W0" = _iVpdy3W0;
         "2n5LJtoe" = _2n5LJtoe;
+        "w4Z0RMtB" = _w4Z0RMtB;
+        "mXlBH61q" = _mXlBH61q;
+        "UpHGq9Lh" = _UpHGq9Lh;
+        "M6OHD75K" = _M6OHD75K;
+        "vUvvVwJK" = _vUvvVwJK;
+        "tn8Tzpud" = _tn8Tzpud;
+        "xqACrDEZ" = _xqACrDEZ;
+        "i0l6DQfj" = _i0l6DQfj;
+        "rcMsCop0" = _rcMsCop0;
         "fabric-1.21.5" = _Yjrel9Dg;
         "fabric-1.21.6" = _qCi480bM;
         "fabric-1.21.7" = _qCi480bM;
@@ -489,10 +543,11 @@ let
         "fabric-1.21.9" = _ssMlZYEp;
         "fabric-1.21.10" = _ssMlZYEp;
         "fabric-1.21.11" = _ImO7bYDb;
-        "fabric-26.1" = _iVpdy3W0;
-        "fabric-26.1.1" = _iVpdy3W0;
-        "fabric-26.1.2" = _iVpdy3W0;
-        "fabric-26.2" = _2n5LJtoe;
+        "fabric-26.1" = _xqACrDEZ;
+        "fabric-26.1.1" = _xqACrDEZ;
+        "fabric-26.1.2" = _xqACrDEZ;
+        "fabric-26.2" = _i0l6DQfj;
+        "fabric-26.3" = _rcMsCop0;
         "pkg-1.0.0" = _mcLvgz6P;
         "pkg-1.1.0" = _MAL522kR;
         "pkg-1.1.1" = _CTFxplwB;
@@ -563,7 +618,10 @@ let
         "pkg-1.8.7" = _AhvruG4U;
         "pkg-1.8.8" = _DY2OqraJ;
         "pkg-1.8.9" = _2n5LJtoe;
-        "default" = _2n5LJtoe;
+        "pkg-1.9.0" = _UpHGq9Lh;
+        "pkg-1.9.1" = _tn8Tzpud;
+        "pkg-1.9.2" = _rcMsCop0;
+        "default" = _rcMsCop0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skyblock-profile-viewer";

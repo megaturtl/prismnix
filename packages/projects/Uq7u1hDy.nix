@@ -111,6 +111,11 @@ let
             "file" = "experiencebottler-26.2+build.1.jar";
             "hash" = "sha512-GgSaDyQO9be0Sz5k+pelehrrRAejtDSHSHOlNtvqyHM4uJ/uk4X1zUbELFRKRuSGL/Nc4eGI7Y3iKmufegPfzA==";
         };
+        _rNR7dlYE = {
+            "id" = "rNR7dlYE";
+            "file" = "experiencebottler-26.3+build.1.jar";
+            "hash" = "sha512-V34dZ/d2RNFIAbo5f7YnUbBgf1tybdyphlsz5HHRwaCrbDSOonUkhmtgUxemy6inEMOvBWQsGBd86t8MwgHmKw==";
+        };
     in {
         "vlTSH2z1" = _vlTSH2z1;
         "R1MSvTBa" = _R1MSvTBa;
@@ -134,6 +139,7 @@ let
         "LaiomPAW" = _LaiomPAW;
         "q0wnITR8" = _q0wnITR8;
         "rTt5H4KP" = _rTt5H4KP;
+        "rNR7dlYE" = _rNR7dlYE;
         "fabric-1.17.1" = _tBxQCxAB;
         "fabric-1.18" = _tcDqwV7Q;
         "fabric-1.18.1" = _WmIjizWr;
@@ -151,6 +157,7 @@ let
         "fabric-1.21.11" = _LaiomPAW;
         "fabric-26.1" = _q0wnITR8;
         "fabric-26.2" = _rTt5H4KP;
+        "fabric-26.3" = _rNR7dlYE;
         "pkg-1.17.1-1" = _vlTSH2z1;
         "pkg-1.17.1-2" = _R1MSvTBa;
         "pkg-1.17.1-3" = _ql1pKncE;
@@ -173,7 +180,8 @@ let
         "pkg-1.21.11+build.1" = _LaiomPAW;
         "pkg-26.1+build.1" = _q0wnITR8;
         "pkg-26.2+build.1" = _rTt5H4KP;
-        "default" = _rTt5H4KP;
+        "pkg-26.3+build.1" = _rNR7dlYE;
+        "default" = _rNR7dlYE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "experience-bottler";

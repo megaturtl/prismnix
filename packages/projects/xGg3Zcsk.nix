@@ -81,6 +81,16 @@ let
             "file" = "iceandfire_smithing-1.21.1.jar";
             "hash" = "sha512-me8K+NW1VOx+Ln+U3keomuJ5qsNDg2vSeZiTBT1bMVOKJjl3fkHXjscgPBgLGJrH7hY+sz7uVRDtvrODXDp6XA==";
         };
+        _mPOvIIl9 = {
+            "id" = "mPOvIIl9";
+            "file" = "IceAndFire_Smithing_26.1.2.zip";
+            "hash" = "sha512-w/iywZp0VaKJJF4EZ5U3VzNZ2OsvWptQsEjkJxZnsORA43q97NyFMiZSymhmhCb9mmyLcPCPz09qM49RS/nKFw==";
+        };
+        _puFsbiG9 = {
+            "id" = "puFsbiG9";
+            "file" = "iceandfire_smithing-26.1.2.jar";
+            "hash" = "sha512-1yyNjhddj2Hg5JOq9N8ff8WOf1HrZUYNZ4A02vNRKhtIgAgKw8BnyivpkaeQgqM9xyFVIz7HPg0uKHS1kGV0Bg==";
+        };
     in {
         "9xudOXT1" = _9xudOXT1;
         "cwTJLuTL" = _cwTJLuTL;
@@ -98,6 +108,8 @@ let
         "TnXzesNd" = _TnXzesNd;
         "QPkEHg6s" = _QPkEHg6s;
         "IubPoVRe" = _IubPoVRe;
+        "mPOvIIl9" = _mPOvIIl9;
+        "puFsbiG9" = _puFsbiG9;
         "datapack-1.21.1" = _QPkEHg6s;
         "datapack-1.16.1" = _lpRJkUIa;
         "datapack-1.16.5" = _7yiVAskX;
@@ -105,10 +117,12 @@ let
         "datapack-1.18.2" = _955IHtZC;
         "datapack-1.19.2" = _WbbMCee9;
         "datapack-1.20.1" = _bats9g5U;
+        "datapack-26.1.2" = _mPOvIIl9;
         "fabric-1.21.1" = _IubPoVRe;
         "fabric-1.20.1" = _TnXzesNd;
         "neoforge-1.21.1" = _IubPoVRe;
         "neoforge-1.20.1" = _TnXzesNd;
+        "neoforge-26.1.2" = _puFsbiG9;
         "forge-1.16.1" = _s3Ew2bcL;
         "forge-1.16.5" = _dA8xurAh;
         "forge-1.17.1" = _XBQTsFo6;
@@ -131,7 +145,9 @@ let
         "pkg-1.20.1+mod" = _TnXzesNd;
         "pkg-1.21.1" = _QPkEHg6s;
         "pkg-1.21.1+mod" = _IubPoVRe;
-        "default" = _IubPoVRe;
+        "pkg-26.1.2" = _mPOvIIl9;
+        "pkg-26.1.2+mod" = _puFsbiG9;
+        "default" = _puFsbiG9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "iceandfire_smithing";

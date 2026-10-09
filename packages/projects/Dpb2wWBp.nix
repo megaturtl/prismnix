@@ -81,6 +81,11 @@ let
             "file" = "Hydron [3.0.3].zip";
             "hash" = "sha512-XT1sk8tp8i7W/WcjBTXs+saPhMr2rIEDL+QQA1A9rgeAZuECJLxDFtn2TcW9tVPaGpUNFWWOR1wqqVjOkqKsxQ==";
         };
+        _TitUWy9g = {
+            "id" = "TitUWy9g";
+            "file" = "Hydron [3.0.4-DEV1].zip";
+            "hash" = "sha512-cxBHlGNnADebWs0q63ums1i0TEUWDA0Xc4FuWl/JCKH/yPD+rrhResnKtEk8l5SK9f+MyOKpj0m5iBJ7+aq2SA==";
+        };
     in {
         "apHSi34i" = _apHSi34i;
         "p4rYep2F" = _p4rYep2F;
@@ -98,6 +103,7 @@ let
         "iIc2eQNG" = _iIc2eQNG;
         "ewSJAZMz" = _ewSJAZMz;
         "LYbFSl3Q" = _LYbFSl3Q;
+        "TitUWy9g" = _TitUWy9g;
         "minecraft-1.17" = _H8R4rnwx;
         "minecraft-1.17.1" = _H8R4rnwx;
         "minecraft-1.18" = _H8R4rnwx;
@@ -277,6 +283,9 @@ let
         "minecraft-26.3-rc-2" = _ewSJAZMz;
         "minecraft-26.3-rc-3" = _ewSJAZMz;
         "minecraft-26.3" = _LYbFSl3Q;
+        "minecraft-26.4-snapshot-1" = _TitUWy9g;
+        "minecraft-26.4-snapshot-2" = _TitUWy9g;
+        "minecraft-26.4-snapshot-3" = _TitUWy9g;
         "pkg-Hydron-1.1" = _apHSi34i;
         "pkg-Hydron-2.0" = _StMeSanD;
         "pkg-Hydron-3.0" = _H8R4rnwx;
@@ -291,7 +300,8 @@ let
         "pkg-3.0.3-PREV1" = _iIc2eQNG;
         "pkg-3.0.3-PREV2" = _ewSJAZMz;
         "pkg-3.0.3" = _LYbFSl3Q;
-        "default" = _LYbFSl3Q;
+        "pkg-3.0.4-DEV1" = _TitUWy9g;
+        "default" = _TitUWy9g;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hydron";

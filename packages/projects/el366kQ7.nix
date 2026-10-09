@@ -76,6 +76,16 @@ let
             "file" = "jungle_treehouse_village-1.0.0 Neoforge 26.2.jar";
             "hash" = "sha512-cu1yBrm8m1rMfoQT2tLPJBKwTcgqMy6pK2/cqbDJ5GWSliSoD5bkiM9R7Clj0DxBM9zPZnX2+ovOTkn+IGCLiQ==";
         };
+        _xFp3nBON = {
+            "id" = "xFp3nBON";
+            "file" = "jungle_treehouse_village-1.0.0 Fabric 26.3.jar";
+            "hash" = "sha512-//C5Jke4rK+Wwu/yKcnkBWdinUQL7GcKeADImrUYUCR2Of4tKNEmvYugXs2AW7PV/+cMuacTXgq6fufrWtZf1Q==";
+        };
+        _7GNogK2O = {
+            "id" = "7GNogK2O";
+            "file" = "jungle_treehouse_village-1.0.0 Neoforge 26.3.jar";
+            "hash" = "sha512-gPR+lGdmOUFC43IQ+Q58T+/w9+oJdgWgDrIdv/21GZ+115jLSqJuNr/ZFek4/AWGk36xtOE4is933j5P1UThUQ==";
+        };
     in {
         "hH7GYAbf" = _hH7GYAbf;
         "Om17KqyJ" = _Om17KqyJ;
@@ -92,6 +102,8 @@ let
         "HKw0Hrjt" = _HKw0Hrjt;
         "bCIk3Zzl" = _bCIk3Zzl;
         "xefn46Hf" = _xefn46Hf;
+        "xFp3nBON" = _xFp3nBON;
+        "7GNogK2O" = _7GNogK2O;
         "fabric-1.20.1" = _n6svDZ5j;
         "fabric-1.21.8" = _5yZbKGYO;
         "fabric-1.21.10" = _DNojc4st;
@@ -99,6 +111,7 @@ let
         "fabric-1.21.1" = _bb8lOB1I;
         "fabric-26.1.2" = _3BJckdT7;
         "fabric-26.2" = _bCIk3Zzl;
+        "fabric-26.3" = _xFp3nBON;
         "forge-1.20.1" = _Om17KqyJ;
         "neoforge-1.21.1" = _cm0A1j6D;
         "neoforge-1.21.4" = _jNn4QeUS;
@@ -106,9 +119,10 @@ let
         "neoforge-1.21.11" = _ajHtSWJq;
         "neoforge-26.1.2" = _HKw0Hrjt;
         "neoforge-26.2" = _xefn46Hf;
-        "pkg-1.0.0" = _xefn46Hf;
+        "neoforge-26.3" = _7GNogK2O;
+        "pkg-1.0.0" = _7GNogK2O;
         "pkg-1.0.1" = _n6svDZ5j;
-        "default" = _xefn46Hf;
+        "default" = _7GNogK2O;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jungle-treehouse-village";

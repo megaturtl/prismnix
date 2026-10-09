@@ -1,0 +1,113 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _v8FrW4MK = {
+            "id" = "v8FrW4MK";
+            "file" = "Not Enough Shading 1.0.0 - 1.21.4.zip";
+            "hash" = "sha512-DgVZfrNSpxzmRSlKZZyDo3H+QmJDlrJsMlRnUJcWQ5GaupV/Jq+ALDqUf00sZCgwMSbuZHBvQ2FD2l5ieuGwlg==";
+        };
+        _hh97EMAJ = {
+            "id" = "hh97EMAJ";
+            "file" = "Not Enough Shading 1.0.1 - 1.21.4.zip";
+            "hash" = "sha512-nomoAyIDduudEYS9J7FK6PRoLjxQMXmLIjeWEv6hXuqQ5KqUxj44lzgidtirOm+m004UcKYjO8aTCvGYYZOG6g==";
+        };
+    in {
+        "v8FrW4MK" = _v8FrW4MK;
+        "hh97EMAJ" = _hh97EMAJ;
+        "minecraft-1.21.4-rc3" = _hh97EMAJ;
+        "minecraft-1.21.4" = _hh97EMAJ;
+        "minecraft-1.21.5-pre1" = _hh97EMAJ;
+        "minecraft-1.21.5-pre2" = _hh97EMAJ;
+        "minecraft-1.21.5-pre3" = _hh97EMAJ;
+        "minecraft-1.21.5-rc1" = _hh97EMAJ;
+        "minecraft-1.21.5-rc2" = _hh97EMAJ;
+        "minecraft-1.21.5" = _hh97EMAJ;
+        "minecraft-1.21.6-pre1" = _hh97EMAJ;
+        "minecraft-1.21.6-pre2" = _hh97EMAJ;
+        "minecraft-1.21.6-pre3" = _hh97EMAJ;
+        "minecraft-1.21.6-pre4" = _hh97EMAJ;
+        "minecraft-1.21.6-rc1" = _hh97EMAJ;
+        "minecraft-1.21.6" = _hh97EMAJ;
+        "minecraft-1.21.7-rc1" = _hh97EMAJ;
+        "minecraft-1.21.7-rc2" = _hh97EMAJ;
+        "minecraft-1.21.7" = _hh97EMAJ;
+        "minecraft-1.21.8-rc1" = _hh97EMAJ;
+        "minecraft-1.21.8" = _hh97EMAJ;
+        "minecraft-1.21.9-pre1" = _hh97EMAJ;
+        "minecraft-1.21.9-pre2" = _hh97EMAJ;
+        "minecraft-1.21.9-pre3" = _hh97EMAJ;
+        "minecraft-1.21.9-pre4" = _hh97EMAJ;
+        "minecraft-1.21.9-rc1" = _hh97EMAJ;
+        "minecraft-1.21.9" = _hh97EMAJ;
+        "minecraft-1.21.10-rc1" = _hh97EMAJ;
+        "minecraft-1.21.10" = _hh97EMAJ;
+        "minecraft-1.21.11-pre1" = _hh97EMAJ;
+        "minecraft-1.21.11-pre2" = _hh97EMAJ;
+        "minecraft-1.21.11-pre3" = _hh97EMAJ;
+        "minecraft-1.21.11-pre4" = _hh97EMAJ;
+        "minecraft-1.21.11-pre5" = _hh97EMAJ;
+        "minecraft-1.21.11-rc1" = _hh97EMAJ;
+        "minecraft-1.21.11-rc2" = _hh97EMAJ;
+        "minecraft-1.21.11-rc3" = _hh97EMAJ;
+        "minecraft-1.21.11" = _hh97EMAJ;
+        "minecraft-26.1-snapshot-1" = _hh97EMAJ;
+        "minecraft-26.1-snapshot-2" = _hh97EMAJ;
+        "minecraft-26.1-snapshot-3" = _hh97EMAJ;
+        "minecraft-26.1-snapshot-4" = _hh97EMAJ;
+        "minecraft-26.1-snapshot-5" = _hh97EMAJ;
+        "minecraft-26.1-snapshot-6" = _hh97EMAJ;
+        "minecraft-26.1-snapshot-7" = _hh97EMAJ;
+        "minecraft-26.1-snapshot-8" = _hh97EMAJ;
+        "minecraft-26.1-snapshot-9" = _hh97EMAJ;
+        "minecraft-26.1-snapshot-10" = _hh97EMAJ;
+        "minecraft-26.1-snapshot-11" = _hh97EMAJ;
+        "minecraft-26.1-pre-1" = _hh97EMAJ;
+        "minecraft-26.1-pre-2" = _hh97EMAJ;
+        "minecraft-26.1-pre-3" = _hh97EMAJ;
+        "minecraft-26.1-rc-1" = _hh97EMAJ;
+        "minecraft-26.1-rc-2" = _hh97EMAJ;
+        "minecraft-26.1-rc-3" = _hh97EMAJ;
+        "minecraft-26.1" = _hh97EMAJ;
+        "minecraft-26.1.1-rc-1" = _hh97EMAJ;
+        "minecraft-26.1.1" = _hh97EMAJ;
+        "minecraft-26w14a" = _hh97EMAJ;
+        "minecraft-26.2-snapshot-1" = _hh97EMAJ;
+        "minecraft-26.1.2-rc-1" = _hh97EMAJ;
+        "minecraft-26.1.2" = _hh97EMAJ;
+        "minecraft-26.2-snapshot-2" = _hh97EMAJ;
+        "minecraft-26.2-snapshot-3" = _hh97EMAJ;
+        "minecraft-26.2-snapshot-4" = _hh97EMAJ;
+        "minecraft-26.2-snapshot-5" = _hh97EMAJ;
+        "minecraft-26.2-snapshot-6" = _hh97EMAJ;
+        "minecraft-26.2-snapshot-7" = _hh97EMAJ;
+        "minecraft-26.2-snapshot-8" = _hh97EMAJ;
+        "minecraft-26.2-pre-1" = _hh97EMAJ;
+        "minecraft-26.2-pre-2" = _hh97EMAJ;
+        "minecraft-26.2-pre-3" = _hh97EMAJ;
+        "minecraft-26.2-pre-4" = _hh97EMAJ;
+        "minecraft-26.2-pre-5" = _hh97EMAJ;
+        "minecraft-26.2-pre-6" = _hh97EMAJ;
+        "minecraft-26.2-rc-1" = _hh97EMAJ;
+        "minecraft-26.2-rc-2" = _hh97EMAJ;
+        "minecraft-26.2" = _hh97EMAJ;
+        "pkg-1.0.0-1.21.4" = _v8FrW4MK;
+        "pkg-1.0.1-1.21.4" = _hh97EMAJ;
+        "default" = _hh97EMAJ;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "not-enough-shading";
+        id = "jdpL5pbb";
+        type = "resourcepack";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "CC-BY-SA-4.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Creative Commons Attribution Share Alike 4.0 International";
+                shortName = "CC-BY-SA-4.0";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

@@ -1031,6 +1031,21 @@ let
             "file" = "mcw-lights-1.1.5-mc26.2fabric.jar";
             "hash" = "sha512-1urbrMYm3oQD2oVPvHzfXjDFsEMW0OZaNMojl9OpGLl/s/Tqj1IKVeX2BV6AQD0SBl4DTXJXYE652jNA8iIEJQ==";
         };
+        _LolTDv3X = {
+            "id" = "LolTDv3X";
+            "file" = "mcw-lights-1.1.5-mc26.3fabric.jar";
+            "hash" = "sha512-yo0MyYQdUHGr7HKG5ZCqrYr5MmN4cCo/RN+rJ/FRSFCfPXyFRKYQCF/E5fOtjz3PPYqVJHUViVA9jOwnFZjIpA==";
+        };
+        _fVbGfDgk = {
+            "id" = "fVbGfDgk";
+            "file" = "mcw-lights-1.1.5-mc26.3forge.jar";
+            "hash" = "sha512-TN9G+zy5Itxsx+XFjEdEbjtSLeuJqr/EZQeEnKQz/Glq+TLHS42I9N2h5HPT1aTgAyPFo38mHoSFmhYlElgQhQ==";
+        };
+        _qpLnrKeQ = {
+            "id" = "qpLnrKeQ";
+            "file" = "mcw-lights-1.1.5-mc26.3neoforge.jar";
+            "hash" = "sha512-dFlTinIDjs4LWlSNieH2B9mCgQ1Sfe6bdA7O3i9hxJvRro3YrABUgboy7mL7YIJMImc0UXCQIA4gI9wj5efwxQ==";
+        };
     in {
         "DS9UIbXZ" = _DS9UIbXZ;
         "aKHUk2FD" = _aKHUk2FD;
@@ -1238,6 +1253,9 @@ let
         "NAuylsBE" = _NAuylsBE;
         "LTc0FUj2" = _LTc0FUj2;
         "pgtedKkN" = _pgtedKkN;
+        "LolTDv3X" = _LolTDv3X;
+        "fVbGfDgk" = _fVbGfDgk;
+        "qpLnrKeQ" = _qpLnrKeQ;
         "fabric-1.18.2" = _Z6pycqXx;
         "fabric-1.19" = _rLqZ9JnG;
         "fabric-1.19.1" = _XvbONlh9;
@@ -1265,6 +1283,7 @@ let
         "fabric-26.1.1" = _3pQc7GPB;
         "fabric-26.1.2" = _3pQc7GPB;
         "fabric-26.2" = _pgtedKkN;
+        "fabric-26.3" = _LolTDv3X;
         "forge-1.12.2" = _Tn5Kci4f;
         "forge-1.16.5" = _xSwEQ3B3;
         "forge-1.17.1" = _TwT2vy6p;
@@ -1296,6 +1315,7 @@ let
         "forge-26.1.1" = _6I63usQd;
         "forge-26.1.2" = _6I63usQd;
         "forge-26.2" = _NAuylsBE;
+        "forge-26.3" = _fVbGfDgk;
         "neoforge-1.20.4" = _TjAE58BS;
         "neoforge-1.20.6" = _UfxLNp9O;
         "neoforge-1.21" = _36EcNyqW;
@@ -1313,14 +1333,15 @@ let
         "neoforge-26.1.1" = _mr8AEiQp;
         "neoforge-26.1.2" = _mr8AEiQp;
         "neoforge-26.2" = _LTc0FUj2;
+        "neoforge-26.3" = _qpLnrKeQ;
         "pkg-1.0.6" = _NBHD1EfY;
         "pkg-1.1.0" = _KtSqtqqC;
         "pkg-1.1.1" = _ACLJCzT6;
         "pkg-1.1.2" = _GAY25E3s;
         "pkg-1.1.3" = _fm933Ofg;
         "pkg-1.1.4" = _Uo2DyasI;
-        "pkg-1.1.5" = _pgtedKkN;
-        "default" = _pgtedKkN;
+        "pkg-1.1.5" = _qpLnrKeQ;
+        "default" = _qpLnrKeQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "macaws-lights-and-lamps";

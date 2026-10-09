@@ -101,6 +101,11 @@ let
             "file" = "Mahi's No Fog V1.0.0 (1.17-1.17.1).zip";
             "hash" = "sha512-X7ZjsoxiwfQd/LX4M0845rQLNR+VSMw09fAoMVkGon/NcftKmHl53ZcUoxqXewUhrQEWzRgncer1+xfZD59+3A==";
         };
+        _o8iCIRWo = {
+            "id" = "o8iCIRWo";
+            "file" = "Mahi's No Fog V1.0.0 (26.3).zip";
+            "hash" = "sha512-dhOBMPVseIcniU04kBUGyHThtUk51h7Ang+SpKaDqwxyjt6Us1Hk0oww90wNR7RG4ywPFaHv2tG5V4wWAEsnog==";
+        };
     in {
         "HWlRa0Un" = _HWlRa0Un;
         "chGjEEOF" = _chGjEEOF;
@@ -122,6 +127,7 @@ let
         "Em7H6PhE" = _Em7H6PhE;
         "fE7AytBP" = _fE7AytBP;
         "Jg3HDXjw" = _Jg3HDXjw;
+        "o8iCIRWo" = _o8iCIRWo;
         "minecraft-26.1" = _HWlRa0Un;
         "minecraft-26.1.1" = _HWlRa0Un;
         "minecraft-26.1.2" = _HWlRa0Un;
@@ -155,8 +161,9 @@ let
         "minecraft-1.18.2" = _fE7AytBP;
         "minecraft-1.17" = _Jg3HDXjw;
         "minecraft-1.17.1" = _Jg3HDXjw;
-        "pkg-1.0.0" = _Jg3HDXjw;
-        "default" = _Jg3HDXjw;
+        "minecraft-26.3" = _o8iCIRWo;
+        "pkg-1.0.0" = _o8iCIRWo;
+        "default" = _o8iCIRWo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mahis-no-fog";

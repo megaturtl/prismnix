@@ -21,11 +21,23 @@ let
             "file" = "anti-knockback-enchantment-v1.0.0.jar";
             "hash" = "sha512-YS6ih5VajaJhkixdDy/FVOGVBKXMRrJ1I6eB0nhidjV5tVSo/m0i9NR6HTnjgu+B1RNeWwUJYfAAOYoH8ljQ/w==";
         };
+        _MOwkmonJ = {
+            "id" = "MOwkmonJ";
+            "file" = "Anti Knockback Enchantment v1.0.0 [26.3].zip";
+            "hash" = "sha512-kPKxQIVhaOwATU6qyntYAfOMaXDwMKLjTpZZ9sopaQmxAD8m94mFLDOKeAFGXLlKoUI9xcKxS8XoGSauY/EXGg==";
+        };
+        _6Y4L0dtt = {
+            "id" = "6Y4L0dtt";
+            "file" = "anti-knockback-enchantment-1.0.0.jar";
+            "hash" = "sha512-hR6dBQPnqGtkr21IDm6AYve4BJ5MhRDif039+dMvnGmKJ9TmghRdEo0BS7UJ7Bv9UpAYFWiJadsPe+mrizsjug==";
+        };
     in {
         "VsfPmdTG" = _VsfPmdTG;
         "hdAhP4ok" = _hdAhP4ok;
         "Uze9oLtc" = _Uze9oLtc;
         "la4Hgyl0" = _la4Hgyl0;
+        "MOwkmonJ" = _MOwkmonJ;
+        "6Y4L0dtt" = _6Y4L0dtt;
         "datapack-1.21" = _VsfPmdTG;
         "datapack-1.21.1" = _VsfPmdTG;
         "datapack-1.21.2" = _Uze9oLtc;
@@ -42,6 +54,7 @@ let
         "datapack-26.1.1" = _Uze9oLtc;
         "datapack-26.1.2" = _Uze9oLtc;
         "datapack-26.2" = _Uze9oLtc;
+        "datapack-26.3" = _MOwkmonJ;
         "fabric-1.21" = _hdAhP4ok;
         "fabric-1.21.1" = _hdAhP4ok;
         "fabric-1.21.2" = _la4Hgyl0;
@@ -58,6 +71,7 @@ let
         "fabric-26.1.1" = _la4Hgyl0;
         "fabric-26.1.2" = _la4Hgyl0;
         "fabric-26.2" = _la4Hgyl0;
+        "fabric-26.3" = _6Y4L0dtt;
         "forge-1.21" = _hdAhP4ok;
         "forge-1.21.1" = _hdAhP4ok;
         "forge-1.21.2" = _la4Hgyl0;
@@ -74,6 +88,7 @@ let
         "forge-26.1.1" = _la4Hgyl0;
         "forge-26.1.2" = _la4Hgyl0;
         "forge-26.2" = _la4Hgyl0;
+        "forge-26.3" = _6Y4L0dtt;
         "neoforge-1.21" = _hdAhP4ok;
         "neoforge-1.21.1" = _hdAhP4ok;
         "neoforge-1.21.2" = _la4Hgyl0;
@@ -90,6 +105,7 @@ let
         "neoforge-26.1.1" = _la4Hgyl0;
         "neoforge-26.1.2" = _la4Hgyl0;
         "neoforge-26.2" = _la4Hgyl0;
+        "neoforge-26.3" = _6Y4L0dtt;
         "quilt-1.21" = _hdAhP4ok;
         "quilt-1.21.1" = _hdAhP4ok;
         "quilt-1.21.2" = _la4Hgyl0;
@@ -106,9 +122,12 @@ let
         "quilt-26.1.1" = _la4Hgyl0;
         "quilt-26.1.2" = _la4Hgyl0;
         "quilt-26.2" = _la4Hgyl0;
+        "quilt-26.3" = _6Y4L0dtt;
         "pkg-v1.0.0" = _Uze9oLtc;
         "pkg-v1.0.0+mod" = _la4Hgyl0;
-        "default" = _la4Hgyl0;
+        "pkg-1.0.0" = _MOwkmonJ;
+        "pkg-1.0.0+mod" = _6Y4L0dtt;
+        "default" = _6Y4L0dtt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "anti-knockback-enchantment";

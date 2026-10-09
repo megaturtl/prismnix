@@ -331,6 +331,51 @@ let
             "file" = "End-Parasitize and Convert All-0.147a-1.12.2.jar";
             "hash" = "sha512-8jth96vo4mmlMOCR9UlRW3iAn6BMmL8TjrGmfqQ8asPnXgOtl1tfWFO+wdXHSAr53v6XbLERqiUCI+EEtU38Bg==";
         };
+        _Uvlc54Mj = {
+            "id" = "Uvlc54Mj";
+            "file" = "End-Parasitize and Convert All-0.147j-1.20.1.jar";
+            "hash" = "sha512-AikyUlHWWnHNCJxoyTVOqXZNurYeY8r69cbL3Kp0EXHOUelvZRka45jfwXuQGWbDRaiGX0xiuSFM+TB7aP+2ww==";
+        };
+        _ThqtJhNG = {
+            "id" = "ThqtJhNG";
+            "file" = "End-Parasitize and Convert All-0.147k-26.1.2.jar";
+            "hash" = "sha512-SKYVPhQtA03ZEai72sHdXHvLKzcLC9+5hSQYJ5gVhjhGLNOqGBQE1EMg4C/09BDvKoTsLD0uxOOsXhWRUX8GCQ==";
+        };
+        _81WLNFYK = {
+            "id" = "81WLNFYK";
+            "file" = "End-Parasitize and Convert All-0.147m-1.20.1.jar";
+            "hash" = "sha512-UPYHkw0CqMjg7Y9pTIxLNCvcy7M5KxMgAprI9tqZrsmJZkPsatMxQXSlXOl9dUTtqajbCrQEu6JPHdl+1/FXPA==";
+        };
+        _qVribEFi = {
+            "id" = "qVribEFi";
+            "file" = "End-Parasitize and Convert All-0.147m-26.1.2.jar";
+            "hash" = "sha512-CVj7RAtrM/ocHSvEfDoEvvCzVjeAJcz5jYLM5864sa23FRoadIL+Juo/uhoREs+IfvzEEWNbGb5afjWozsGIUQ==";
+        };
+        _mnSf2AMd = {
+            "id" = "mnSf2AMd";
+            "file" = "End-Parasitize and Convert All-0.147o-1.20.1.jar";
+            "hash" = "sha512-Rjnqtts25wEthmhzuF7CCZdmz6P1F007va6SmhAnkx/9p6N+4bf8+NhOtTzbEHje7qTXWN6UCK0bYAFd4ORz2w==";
+        };
+        _16Fr3nkt = {
+            "id" = "16Fr3nkt";
+            "file" = "End-Parasitize and Convert All-0.147o-26.1.2.jar";
+            "hash" = "sha512-+DJ3qtPidLC4NjGlmR4Mhu6+rGVqWYKuLMLoaBtbygbhbttQfpJ/Iu4omjF/k+xUHjuvLjT0aL8WY2k0ECc79g==";
+        };
+        _eI4g41wO = {
+            "id" = "eI4g41wO";
+            "file" = "End-Parasitize and Convert All-0.147p-1.20.1.jar";
+            "hash" = "sha512-9ubUGJ5D5QSbVaNXdXNCmk8SWKmnYVgpV+cAs04tF54d+Ddgh+3U+Q8bw5/NhGMdQiRLkRYj5zyikWJH9K6xpQ==";
+        };
+        _3ogtTPlb = {
+            "id" = "3ogtTPlb";
+            "file" = "End-Parasitize and Convert All-0.147r-26.1.2.jar";
+            "hash" = "sha512-SZwMZK8V8n/vB70XoEUn5CSnj0sup7PgtgSk8vdea36u9VZBk745IBNPJwIWnHFdg58iUipmqbduuiApLhxL/Q==";
+        };
+        _55hsdsQa = {
+            "id" = "55hsdsQa";
+            "file" = "End-Parasitize and Convert All-0.147r-1.20.1.jar";
+            "hash" = "sha512-ZkyxOlGloG4nf4X6Uj9yqyXw5eCd1B9gaIjGxakv/QXEAbB/oUyJj9LQgpfFfeJv8AA6VNU8nAUuZ7xamnwUOA==";
+        };
     in {
         "LbUCbmhx" = _LbUCbmhx;
         "IG51hd1O" = _IG51hd1O;
@@ -398,8 +443,18 @@ let
         "XkZhuaSH" = _XkZhuaSH;
         "faKpOjm8" = _faKpOjm8;
         "GU2CXfkn" = _GU2CXfkn;
-        "forge-1.20.1" = _XkZhuaSH;
+        "Uvlc54Mj" = _Uvlc54Mj;
+        "ThqtJhNG" = _ThqtJhNG;
+        "81WLNFYK" = _81WLNFYK;
+        "qVribEFi" = _qVribEFi;
+        "mnSf2AMd" = _mnSf2AMd;
+        "16Fr3nkt" = _16Fr3nkt;
+        "eI4g41wO" = _eI4g41wO;
+        "3ogtTPlb" = _3ogtTPlb;
+        "55hsdsQa" = _55hsdsQa;
+        "forge-1.20.1" = _55hsdsQa;
         "forge-1.12.2" = _GU2CXfkn;
+        "neoforge-26.1.2" = _3ogtTPlb;
         "pkg-0.3.3" = _LbUCbmhx;
         "pkg-0.3.3a" = _IG51hd1O;
         "pkg-0.3.3b" = _1vxdz2mH;
@@ -466,7 +521,13 @@ let
         "pkg-0.147i" = _XkZhuaSH;
         "pkg-1.12.2-0.147" = _faKpOjm8;
         "pkg-1.12.2-0.147a" = _GU2CXfkn;
-        "default" = _GU2CXfkn;
+        "pkg-0.147j" = _Uvlc54Mj;
+        "pkg-0.147k" = _ThqtJhNG;
+        "pkg-0.147m" = _qVribEFi;
+        "pkg-0.147o" = _16Fr3nkt;
+        "pkg-0.147p" = _eI4g41wO;
+        "pkg-0.147r" = _55hsdsQa;
+        "default" = _55hsdsQa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "epca";

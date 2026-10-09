@@ -11,14 +11,22 @@ let
             "file" = "pettable-2.0.0.jar";
             "hash" = "sha512-bdLIzqZGlHhpXt3Tkp9pBpJjT6d/hG8Y+j+Qh83tRy3609/wle7eUT+GTRsckQLw5fRZcFHa3Efb24q9uN+c1A==";
         };
+        _MzPS9Hyn = {
+            "id" = "MzPS9Hyn";
+            "file" = "mobpetting-1.0.0.jar";
+            "hash" = "sha512-dbO0WJkS1WMEohagKoW+VJd7H5elpc39+XXvEDA0vKhf1HL9VcMLXVCvnzI/IvA6AJR7BwP2XjOOAuMY7o6TUA==";
+        };
     in {
         "UMRKWl55" = _UMRKWl55;
         "qvbCTza4" = _qvbCTza4;
+        "MzPS9Hyn" = _MzPS9Hyn;
         "fabric-1.21.11" = _UMRKWl55;
         "fabric-26.2" = _qvbCTza4;
+        "fabric-26.3" = _MzPS9Hyn;
         "pkg-1.0.0" = _UMRKWl55;
         "pkg-2.0.0" = _qvbCTza4;
-        "default" = _qvbCTza4;
+        "pkg-1.0.0+26.3" = _MzPS9Hyn;
+        "default" = _MzPS9Hyn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pettablemobs";

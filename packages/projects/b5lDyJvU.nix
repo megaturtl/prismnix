@@ -76,6 +76,21 @@ let
             "file" = "shearablevines-fabric-2.0.0+26.2.jar";
             "hash" = "sha512-x5G9k0SaIKUFHU59Kt6YbJUpyt0cYyonpNTdxKGzWCy/7k9dg7Bthd2SWBlTaw+8chUlEjjeL+ViPLuqASv2og==";
         };
+        _8QfKPxwf = {
+            "id" = "8QfKPxwf";
+            "file" = "shearablevines-neoforge-2.0.0+26.3.jar";
+            "hash" = "sha512-gkb5I3HpTGjWDQvRR5WGESqNS6Gyf4H72q64vDHxQsu2lq00VkgDXYxdAjsOI02sBpyv0Lv5rvcaVY1V65rJpQ==";
+        };
+        _V0E6N44I = {
+            "id" = "V0E6N44I";
+            "file" = "shearablevines-fabric-2.0.0+26.3.jar";
+            "hash" = "sha512-SljzePSmXELWk3iwys6f7Scky2zO6DYx9ghCZYkn4R+bJDLbTxMqDZJgSCrSjH1rkvG7dwfCWycswHh+x8g85w==";
+        };
+        _a9PeiWhC = {
+            "id" = "a9PeiWhC";
+            "file" = "shearablevines-forge-2.0.0+26.3.jar";
+            "hash" = "sha512-D09HFyLIHDrGj/XOv02oQwA/Q28/rGNqG8KquZ/AmB+LsClK59rIhJQzMJM2VWBRb4VWFysjl29vd7wOy4L3Gw==";
+        };
     in {
         "aMegGIWg" = _aMegGIWg;
         "u2I5XYIT" = _u2I5XYIT;
@@ -92,6 +107,9 @@ let
         "NqQuaQSa" = _NqQuaQSa;
         "x8iLxElh" = _x8iLxElh;
         "dgiOGJDm" = _dgiOGJDm;
+        "8QfKPxwf" = _8QfKPxwf;
+        "V0E6N44I" = _V0E6N44I;
+        "a9PeiWhC" = _a9PeiWhC;
         "fabric-1.19" = _aMegGIWg;
         "fabric-1.19.1" = _aMegGIWg;
         "fabric-1.19.2" = _aMegGIWg;
@@ -120,6 +138,7 @@ let
         "fabric-26.1.1" = _VuHxxRAV;
         "fabric-26.1.2" = _VuHxxRAV;
         "fabric-26.2" = _dgiOGJDm;
+        "fabric-26.3" = _V0E6N44I;
         "quilt-1.19" = _aMegGIWg;
         "quilt-1.19.1" = _aMegGIWg;
         "quilt-1.19.2" = _aMegGIWg;
@@ -148,14 +167,17 @@ let
         "quilt-26.1.1" = _VuHxxRAV;
         "quilt-26.1.2" = _VuHxxRAV;
         "quilt-26.2" = _dgiOGJDm;
+        "quilt-26.3" = _V0E6N44I;
         "forge-26.1" = _juPdA3uA;
         "forge-26.1.1" = _juPdA3uA;
         "forge-26.1.2" = _juPdA3uA;
         "forge-26.2" = _NqQuaQSa;
+        "forge-26.3" = _a9PeiWhC;
         "neoforge-26.1" = _ibmKzZR7;
         "neoforge-26.1.1" = _ibmKzZR7;
         "neoforge-26.1.2" = _ibmKzZR7;
         "neoforge-26.2" = _x8iLxElh;
+        "neoforge-26.3" = _8QfKPxwf;
         "pkg-1.0.0+1.19" = _aMegGIWg;
         "pkg-1.0.0+1.19.3" = _u2I5XYIT;
         "pkg-1.1.0+1.20" = _cys0Ky86;
@@ -171,7 +193,10 @@ let
         "pkg-2.0.0+26.2-forge" = _NqQuaQSa;
         "pkg-2.0.0+26.2-neoforge" = _x8iLxElh;
         "pkg-2.0.0+26.2-fabric" = _dgiOGJDm;
-        "default" = _dgiOGJDm;
+        "pkg-2.0.0+26.3-neoforge" = _8QfKPxwf;
+        "pkg-2.0.0+26.3-fabric" = _V0E6N44I;
+        "pkg-2.0.0+26.3-forge" = _a9PeiWhC;
+        "default" = _a9PeiWhC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shearable-vines";

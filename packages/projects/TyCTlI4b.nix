@@ -4376,6 +4376,176 @@ let
             "file" = "sophisticatedbackpacks-1.21.8-3.26.2.2159.jar";
             "hash" = "sha512-jH2V9k/Gxcl5tUo+qcTrpYOJBHa0kW9fG6qf9uDOv/xks84SzXXLxakGHgSBnzB/NeFpdvA0yc2+91AzOF4itQ==";
         };
+        _K2H5oANL = {
+            "id" = "K2H5oANL";
+            "file" = "sophisticatedbackpacks-26.1.2-3.26.2.2160.jar";
+            "hash" = "sha512-T+C0y4tpopYhzZdZ35kdVENXihio+C4SJBtTwuZwB0q0Q/lQvaRxajtZ8GJ6PyftuwGjwyWuyVpBk0e4xyRXNA==";
+        };
+        _v55nEIkv = {
+            "id" = "v55nEIkv";
+            "file" = "sophisticatedbackpacks-26.2-3.26.2.2161.jar";
+            "hash" = "sha512-WG6gYlRuCHHq8W5hP6VFUHpAsfKzH3cyjSGF3sy1242PtC8O43DaQkmjatOgZiUfIZigY0vcH91ks7NAzOZ+4w==";
+        };
+        _rtpYiLmj = {
+            "id" = "rtpYiLmj";
+            "file" = "sophisticatedbackpacks-1.21.1-3.26.4.2162.jar";
+            "hash" = "sha512-HnUzmUrUzev6rv9K5EuEV9neBWFNi0g+7R8Cqfe9kkC0/L0l7prQa1/SZVBmaScZ6WT+9V8LatZHGIZ1gmfcUw==";
+        };
+        _1P07AUIC = {
+            "id" = "1P07AUIC";
+            "file" = "sophisticatedbackpacks-1.20.1-3.26.3.2167.jar";
+            "hash" = "sha512-fypP47n0XvTKuYI4stHgnKg/qh0genF+5SuOXU4J7hiW6i+OsSW2lILKlrqlnnnMZ0tYJ0UKLMPadhokvrlJbg==";
+        };
+        _dqO5nftG = {
+            "id" = "dqO5nftG";
+            "file" = "sophisticatedbackpacks-1.21.4-3.27.2.2166.jar";
+            "hash" = "sha512-y70ye/insZoNR9W9iOfGZlwkYm2UWPcaTAx4eyMtEzJHGXJLpCNI/RmfozTml0+qb+k1FwWSs55/9jWSqaJUsw==";
+        };
+        _5RzMBbVq = {
+            "id" = "5RzMBbVq";
+            "file" = "sophisticatedbackpacks-1.21.5-3.27.3.2164.jar";
+            "hash" = "sha512-2g3Z8XkdvMr7xjiLKqihzwslAPUAFuKsgxaYcXjppNacbwLkZ8zKx5TSSVLHBzABP/qo3S6bX/7qu4yNV2cE2Q==";
+        };
+        _ma67qtGe = {
+            "id" = "ma67qtGe";
+            "file" = "sophisticatedbackpacks-1.21.8-3.26.3.2163.jar";
+            "hash" = "sha512-qcgi6ghF5MrYoVmtWurmo/YQCr/5TCKi1A/VJg6fMBSl+SzVg3aVb4uN6RUVbTMkRJiiZcwcvURwQFTw4y4xnA==";
+        };
+        _ZHY8Mu9B = {
+            "id" = "ZHY8Mu9B";
+            "file" = "sophisticatedbackpacks-1.21.10-3.26.3.2165.jar";
+            "hash" = "sha512-OAVLS34XgZOFsCbnOcQab3ErhCl6DjFPSw9yN8WvGXVZOGit8HsKLBn6zbMAPyNaxcGa75b0vgvHHrgouh6DYA==";
+        };
+        _36YO13Ox = {
+            "id" = "36YO13Ox";
+            "file" = "sophisticatedbackpacks-1.21.11-3.26.3.2168.jar";
+            "hash" = "sha512-5BAlFMtoxhmYssPDxoPTDKA79+kcBxJdvgjgCHIH3IDtuANaSass4FNBVAn42wb8vrn+DuVOCiUtg0JGMgQsuw==";
+        };
+        _A2xrQNFx = {
+            "id" = "A2xrQNFx";
+            "file" = "sophisticatedbackpacks-26.2-3.26.3.2170.jar";
+            "hash" = "sha512-8FTuZxO6te9VOhWg7SvMLlSygizAq5fsgENXjTWPbZBM7bbPPCEfbD+k5TBS1h0x1PPTE/LX12iCZreq2pFuEw==";
+        };
+        _x3FMIeDT = {
+            "id" = "x3FMIeDT";
+            "file" = "sophisticatedbackpacks-26.1.2-3.26.3.2169.jar";
+            "hash" = "sha512-b+XFKZg52ONKyCdIPiQpWg3sBHrkdtOjg9DxwS7vr3T8ukiWTUsE54Wc3w+xOyT0wKYEi5mgalgN5bN6i95hwQ==";
+        };
+        _tDbXyZq4 = {
+            "id" = "tDbXyZq4";
+            "file" = "sophisticatedbackpacks-1.21.1-3.26.5.2171.jar";
+            "hash" = "sha512-HUaxLOISQ7Wl7XbGibJ2kxTxrU8Td17tWqqWG7LA6lJgyV3+HJ6S8KxcwAkwUuJn0j4hsNQ69Mk5dn/fwChVUQ==";
+        };
+        _u2NNJgIW = {
+            "id" = "u2NNJgIW";
+            "file" = "sophisticatedbackpacks-1.20.1-3.26.4.2172.jar";
+            "hash" = "sha512-iNwgiBFPYu2kZCkwDl4DXv6eShII++QTEiSVH/FvQgg8nIg8sQ+AEZQcu0AX/MCYx2LsUZIc2EDRyHvOSVmNiQ==";
+        };
+        _sNWCWZCe = {
+            "id" = "sNWCWZCe";
+            "file" = "sophisticatedbackpacks-1.20.1-3.26.5.2173.jar";
+            "hash" = "sha512-wYqLxXX6wAwI1DJ8sUfTphGceoLwwxpv4qruXxhuRGcYoYLCAVFwBg7WvyFHFg79eG7Gu72MadTHAMmA7G+feA==";
+        };
+        _YdwzSqus = {
+            "id" = "YdwzSqus";
+            "file" = "sophisticatedbackpacks-26.1.2-3.26.4.2175.jar";
+            "hash" = "sha512-tBkF6uwIRefHvIcw4VbMmD5xxVeeneUh/Lz75dnZ7jIJnLdiq5n/d1blbcERLgLRxoKWc/PCopImGQxZ9bovrQ==";
+        };
+        _pJxNzk4X = {
+            "id" = "pJxNzk4X";
+            "file" = "sophisticatedbackpacks-1.21.1-3.26.6.2174.jar";
+            "hash" = "sha512-3oh0aALFN4bAne/oeP9OdmskahFGzUF/SYV2W/Ayzt+4nwh3jnNQggvfZ6NRTsY+WOnY52hWMywmXBrb9++EtA==";
+        };
+        _1umN9rSN = {
+            "id" = "1umN9rSN";
+            "file" = "sophisticatedbackpacks-1.20.1-3.26.6.2176.jar";
+            "hash" = "sha512-z2bmNfbayiGbqvWZbEczWaz16lLOOdlaUFGf6w58tpfFRGhgtoqleBB7OB2YlftNdmCi9fOQ0q3OdIeP8uHQ3A==";
+        };
+        _UxHVEEzb = {
+            "id" = "UxHVEEzb";
+            "file" = "sophisticatedbackpacks-26.2-3.26.4.2177.jar";
+            "hash" = "sha512-+z02VBZA8ToxjC9JPWNAmYDBDgm4acoWJ5sewzgn+xm9ANYInf3Kz1s1D2mTuSNO4FyZVeWHZCB7WuGQ3iMMmg==";
+        };
+        _dhlT6oy7 = {
+            "id" = "dhlT6oy7";
+            "file" = "sophisticatedbackpacks-26.1.2-3.26.8.2178.jar";
+            "hash" = "sha512-nFWzfp+rP/rsJ3C/jjivZcqH3h5zQzRpLGNao18HvJUHYKIOgj/hzrcSX4Z553QgyReNSc21bUNmN3b76swl3A==";
+        };
+        _Z6VcOqjM = {
+            "id" = "Z6VcOqjM";
+            "file" = "sophisticatedbackpacks-26.2-3.26.8.2179.jar";
+            "hash" = "sha512-3N4pghyDVqnjHJ8s9lD27Ye13YQKaeGvphgDlt5fbPVqUtU9l+PQRhGm8stAQWxQ7Eqhn0iJx2MkSY4Ms9Yavw==";
+        };
+        _pjAeRun9 = {
+            "id" = "pjAeRun9";
+            "file" = "sophisticatedbackpacks-26.3-3.26.4.2180.jar";
+            "hash" = "sha512-oAizcQ2uO0FklpKq3+fz0ZeLWcFUConlVxU2xBjfZ8MM7msJGXOEgsiufMPhbOYgi6H/fUZ/wlpZnrp3v5gxcA==";
+        };
+        _VcjtrY2D = {
+            "id" = "VcjtrY2D";
+            "file" = "sophisticatedbackpacks-26.3-3.26.5.2181.jar";
+            "hash" = "sha512-am4IW6EImtZOc0lkL7By6q1N4FSYdnAuFn0vKyG4S9inQDUrFDeDYTBXUlJ/WK84jsf08fsluZwNZZRAe1qxFg==";
+        };
+        _Igmp9PwW = {
+            "id" = "Igmp9PwW";
+            "file" = "sophisticatedbackpacks-1.21.1-3.26.7.2182.jar";
+            "hash" = "sha512-5yCRZHf4+q6jrEVgn1V+WZfbPqjoPRCwbY/9OwoOE0jcF7APdzwcfQSV95WxLQAvF+mdC/ZwCMHv5sd8KNWgFQ==";
+        };
+        _TSlHkFF9 = {
+            "id" = "TSlHkFF9";
+            "file" = "sophisticatedbackpacks-26.2-3.26.9.2187.jar";
+            "hash" = "sha512-P0TNnP6IQNAp1lTxS4HOsBE+deLFK00HDGepBmzjgNnKZ+PVNHnDD3PJChsIEWeAOt9cu/EODad0RW2Gi3go0g==";
+        };
+        _2Xu8ODqt = {
+            "id" = "2Xu8ODqt";
+            "file" = "sophisticatedbackpacks-26.1.2-3.26.9.2186.jar";
+            "hash" = "sha512-eMa2PgnyaVvbukDiAcSja7+vte16Cb0kk0NHdCsHK5z47m8d8btNzGbACP9TRxYbJ+oR6/VN5qhINXxUiRhvGw==";
+        };
+        _2bWtsB6d = {
+            "id" = "2bWtsB6d";
+            "file" = "sophisticatedbackpacks-1.20.1-3.26.7.2188.jar";
+            "hash" = "sha512-VnrM/3pBpw8xhnvkAG2IB3Liri46ExGqATL/faIWSx804f/RFNDUdwh8jPp7wa9gd0p/9GiCiqXv0B7h2BFLWg==";
+        };
+        _VAovBzi4 = {
+            "id" = "VAovBzi4";
+            "file" = "sophisticatedbackpacks-1.21.1-3.26.8.2189.jar";
+            "hash" = "sha512-j6QNlI+OR0wFoP6qx8JqIylHJf4Cn98XbVwCB/dZLsW0gsBCAQqHWeXzdAD2fipy4e4hcr/fKQgfRhc3PzZ0IA==";
+        };
+        _8Gd51anJ = {
+            "id" = "8Gd51anJ";
+            "file" = "sophisticatedbackpacks-26.3-3.26.9.2190.jar";
+            "hash" = "sha512-yCQeFY67hFuJD7InyrWJPmqzn//ycpHHz9qMD8eHBn46TCZKApOVhYTT0G+wExDmWrc4Bs2QAM+9cejYNIzSZw==";
+        };
+        _sdbLFPBe = {
+            "id" = "sdbLFPBe";
+            "file" = "sophisticatedbackpacks-26.3-3.26.9.2192.jar";
+            "hash" = "sha512-5TaaWLfxrIxqXqaqKuOfaXMLwVAsoSf6ZEUgS0ueh/7vUNnMeZEvB0rcuV0pPd3cVL8w4M8dMtbpfMCYv2Z1Xw==";
+        };
+        _QfSnSqMl = {
+            "id" = "QfSnSqMl";
+            "file" = "sophisticatedbackpacks-26.2-3.26.9.2191.jar";
+            "hash" = "sha512-MoX23s/gMwzOrX7/+yxtCQttDBT3CV5yVLM9mPfG0dwfVvE2Ui8tBRdcwHeGPhVgLmA8CJ6VwyWCgtx9yXH0qw==";
+        };
+        _thjFLz7b = {
+            "id" = "thjFLz7b";
+            "file" = "sophisticatedbackpacks-26.1.2-3.26.9.2193.jar";
+            "hash" = "sha512-TVDq93bYHESqhws9hoWOcVVV27FbEU5XHs4x/F0gSP60eRhGhF6zFu2wNYOV9Dw1bsqNW2swy/FMc75otVa0hg==";
+        };
+        _nSVHlIzZ = {
+            "id" = "nSVHlIzZ";
+            "file" = "sophisticatedbackpacks-1.20.1-3.26.9.2194.jar";
+            "hash" = "sha512-bXjykP1Ky16Fbajn8QXWJvu41BZDmyZ2+J9CObVvPBRsG9nfKiEZoH3ySQS8SlmO64wXOJQk910YhFVk8BucmA==";
+        };
+        _1pYxRkKq = {
+            "id" = "1pYxRkKq";
+            "file" = "sophisticatedbackpacks-1.21.1-3.26.9.2195.jar";
+            "hash" = "sha512-ufQcXjqPoI1xvxYGxrERXFirsZY46bIR+4QhIKCbt4tu0oFjpFJA0lJAWAFXrbHYk+ti/K66OBplQP2dbtoaIw==";
+        };
+        _EoQZzGA8 = {
+            "id" = "EoQZzGA8";
+            "file" = "sophisticatedbackpacks-26.3-3.26.10.2196.jar";
+            "hash" = "sha512-SMn7pfbLtiQ5As7tDFy4FdpKYHB0OwyrNXVYGk+jVQqss/zI+0oFPa42POW4miFWXhdSnGWZeEzidnGY5ovL9w==";
+        };
     in {
         "HNx6YaQC" = _HNx6YaQC;
         "suz8ANPn" = _suz8ANPn;
@@ -5252,19 +5422,54 @@ let
         "UgxKPi1I" = _UgxKPi1I;
         "MPfwVddi" = _MPfwVddi;
         "tgF5Uwzz" = _tgF5Uwzz;
+        "K2H5oANL" = _K2H5oANL;
+        "v55nEIkv" = _v55nEIkv;
+        "rtpYiLmj" = _rtpYiLmj;
+        "1P07AUIC" = _1P07AUIC;
+        "dqO5nftG" = _dqO5nftG;
+        "5RzMBbVq" = _5RzMBbVq;
+        "ma67qtGe" = _ma67qtGe;
+        "ZHY8Mu9B" = _ZHY8Mu9B;
+        "36YO13Ox" = _36YO13Ox;
+        "A2xrQNFx" = _A2xrQNFx;
+        "x3FMIeDT" = _x3FMIeDT;
+        "tDbXyZq4" = _tDbXyZq4;
+        "u2NNJgIW" = _u2NNJgIW;
+        "sNWCWZCe" = _sNWCWZCe;
+        "YdwzSqus" = _YdwzSqus;
+        "pJxNzk4X" = _pJxNzk4X;
+        "1umN9rSN" = _1umN9rSN;
+        "UxHVEEzb" = _UxHVEEzb;
+        "dhlT6oy7" = _dhlT6oy7;
+        "Z6VcOqjM" = _Z6VcOqjM;
+        "pjAeRun9" = _pjAeRun9;
+        "VcjtrY2D" = _VcjtrY2D;
+        "Igmp9PwW" = _Igmp9PwW;
+        "TSlHkFF9" = _TSlHkFF9;
+        "2Xu8ODqt" = _2Xu8ODqt;
+        "2bWtsB6d" = _2bWtsB6d;
+        "VAovBzi4" = _VAovBzi4;
+        "8Gd51anJ" = _8Gd51anJ;
+        "sdbLFPBe" = _sdbLFPBe;
+        "QfSnSqMl" = _QfSnSqMl;
+        "thjFLz7b" = _thjFLz7b;
+        "nSVHlIzZ" = _nSVHlIzZ;
+        "1pYxRkKq" = _1pYxRkKq;
+        "EoQZzGA8" = _EoQZzGA8;
         "neoforge-1.21" = _q4YzYKAb;
-        "neoforge-1.21.1" = _AhPnzNtJ;
-        "neoforge-1.20.1" = _XxOZuQnU;
-        "neoforge-1.21.4" = _UgxKPi1I;
-        "neoforge-1.21.5" = _6n0hpRBh;
-        "neoforge-1.21.8" = _tgF5Uwzz;
-        "neoforge-1.21.10" = _cUpsODDu;
-        "neoforge-1.21.11" = _MPfwVddi;
+        "neoforge-1.21.1" = _1pYxRkKq;
+        "neoforge-1.20.1" = _nSVHlIzZ;
+        "neoforge-1.21.4" = _dqO5nftG;
+        "neoforge-1.21.5" = _5RzMBbVq;
+        "neoforge-1.21.8" = _ma67qtGe;
+        "neoforge-1.21.10" = _ZHY8Mu9B;
+        "neoforge-1.21.11" = _36YO13Ox;
         "neoforge-26.1" = _7CsDRcYC;
         "neoforge-26.1.1" = _7CsDRcYC;
-        "neoforge-26.1.2" = _3xlcYe9r;
-        "neoforge-26.2" = _LPnOSNVg;
-        "forge-1.20.1" = _XxOZuQnU;
+        "neoforge-26.1.2" = _thjFLz7b;
+        "neoforge-26.2" = _QfSnSqMl;
+        "neoforge-26.3" = _EoQZzGA8;
+        "forge-1.20.1" = _nSVHlIzZ;
         "forge-1.19.2" = _1TblkbcZ;
         "forge-1.18.2" = _ySJuJiG9;
         "forge-1.16.5" = _aplfC9U1;
@@ -6141,7 +6346,41 @@ let
         "pkg-1.21.4-3.27.2.2153" = _UgxKPi1I;
         "pkg-1.21.11-3.26.2.2155" = _MPfwVddi;
         "pkg-1.21.8-3.26.2.2159" = _tgF5Uwzz;
-        "default" = _tgF5Uwzz;
+        "pkg-26.1.2-3.26.2.2160" = _K2H5oANL;
+        "pkg-26.2-3.26.2.2161" = _v55nEIkv;
+        "pkg-1.21.1-3.26.4.2162" = _rtpYiLmj;
+        "pkg-1.20.1-3.26.3.2167" = _1P07AUIC;
+        "pkg-1.21.4-3.27.2.2166" = _dqO5nftG;
+        "pkg-1.21.5-3.27.3.2164" = _5RzMBbVq;
+        "pkg-1.21.8-3.26.3.2163" = _ma67qtGe;
+        "pkg-1.21.10-3.26.3.2165" = _ZHY8Mu9B;
+        "pkg-1.21.11-3.26.3.2168" = _36YO13Ox;
+        "pkg-26.2-3.26.3.2170" = _A2xrQNFx;
+        "pkg-26.1.2-3.26.3.2169" = _x3FMIeDT;
+        "pkg-1.21.1-3.26.5.2171" = _tDbXyZq4;
+        "pkg-1.20.1-3.26.4.2172" = _u2NNJgIW;
+        "pkg-1.20.1-3.26.5.2173" = _sNWCWZCe;
+        "pkg-26.1.2-3.26.4.2175" = _YdwzSqus;
+        "pkg-1.21.1-3.26.6.2174" = _pJxNzk4X;
+        "pkg-1.20.1-3.26.6.2176" = _1umN9rSN;
+        "pkg-26.2-3.26.4.2177" = _UxHVEEzb;
+        "pkg-26.1.2-3.26.8.2178" = _dhlT6oy7;
+        "pkg-26.2-3.26.8.2179" = _Z6VcOqjM;
+        "pkg-26.3-3.26.4.2180" = _pjAeRun9;
+        "pkg-26.3-3.26.5.2181" = _VcjtrY2D;
+        "pkg-1.21.1-3.26.7.2182" = _Igmp9PwW;
+        "pkg-26.2-3.26.9.2187" = _TSlHkFF9;
+        "pkg-26.1.2-3.26.9.2186" = _2Xu8ODqt;
+        "pkg-1.20.1-3.26.7.2188" = _2bWtsB6d;
+        "pkg-1.21.1-3.26.8.2189" = _VAovBzi4;
+        "pkg-26.3-3.26.9.2190" = _8Gd51anJ;
+        "pkg-26.3-3.26.9.2192" = _sdbLFPBe;
+        "pkg-26.2-3.26.9.2191" = _QfSnSqMl;
+        "pkg-26.1.2-3.26.9.2193" = _thjFLz7b;
+        "pkg-1.20.1-3.26.9.2194" = _nSVHlIzZ;
+        "pkg-1.21.1-3.26.9.2195" = _1pYxRkKq;
+        "pkg-26.3-3.26.10.2196" = _EoQZzGA8;
+        "default" = _EoQZzGA8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sophisticated-backpacks";

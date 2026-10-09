@@ -81,6 +81,16 @@ let
             "file" = "FastTrading-0.2.4+26.3-rc2.jar";
             "hash" = "sha512-4fLFMkpVZG73E/2HF8Xl53P6VoeYYdJvq897F+K2EVcN73Y/gqKLHMfzgQ9XlAOeJ+JDG0ydCbTRmLajbuf+9w==";
         };
+        _zqV1KmW2 = {
+            "id" = "zqV1KmW2";
+            "file" = "FastTrading-0.2.4+26.3.jar";
+            "hash" = "sha512-l9M61wKULbfetLZIJfMSj/CdHmiI/WsRalYw3fQQ9p6gg8lWKc6xU2Y+M3I+AAZVf9m0oMFW37kDCUscwK5meg==";
+        };
+        _U0I6kWma = {
+            "id" = "U0I6kWma";
+            "file" = "FastTrading-0.2.5+26.3.jar";
+            "hash" = "sha512-LrTvLGUGWl402XJ8/fGUUr18M0+ml5PS2u4I79WojfFH9kc3+URup9Zn5gEesNuTBf/z+bkcH/Jy6TUSQMewcg==";
+        };
     in {
         "xCX1Gnxr" = _xCX1Gnxr;
         "gFh6cl1u" = _gFh6cl1u;
@@ -98,6 +108,8 @@ let
         "d0v2GvHz" = _d0v2GvHz;
         "Smb0pfqe" = _Smb0pfqe;
         "dGFbjuqu" = _dGFbjuqu;
+        "zqV1KmW2" = _zqV1KmW2;
+        "U0I6kWma" = _U0I6kWma;
         "fabric-1.19.3" = _xCX1Gnxr;
         "fabric-1.19.4" = _xCX1Gnxr;
         "fabric-1.20" = _gFh6cl1u;
@@ -124,7 +136,8 @@ let
         "fabric-26.1.1" = _d0v2GvHz;
         "fabric-26.1.2" = _d0v2GvHz;
         "fabric-26.2" = _Smb0pfqe;
-        "fabric-26.3" = _dGFbjuqu;
+        "fabric-26.3-rc-2" = _dGFbjuqu;
+        "fabric-26.3" = _U0I6kWma;
         "quilt-1.19.3" = _xCX1Gnxr;
         "quilt-1.19.4" = _xCX1Gnxr;
         "quilt-1.20" = _gFh6cl1u;
@@ -150,7 +163,8 @@ let
         "quilt-26.1" = _d0v2GvHz;
         "quilt-26.1.1" = _d0v2GvHz;
         "quilt-26.1.2" = _d0v2GvHz;
-        "quilt-26.3" = _dGFbjuqu;
+        "quilt-26.3-rc-2" = _dGFbjuqu;
+        "quilt-26.3" = _U0I6kWma;
         "pkg-0.1.0+1.19.3" = _xCX1Gnxr;
         "pkg-0.1.1+1.20" = _gFh6cl1u;
         "pkg-0.1.2+1.20.3" = _rwmqPxpo;
@@ -167,7 +181,9 @@ let
         "pkg-0.2.3+26.1.1" = _d0v2GvHz;
         "pkg-0.2.4+26.2" = _Smb0pfqe;
         "pkg-0.2.4+26.3-rc2" = _dGFbjuqu;
-        "default" = _dGFbjuqu;
+        "pkg-0.2.4+26.3" = _zqV1KmW2;
+        "pkg-0.2.5+26.3" = _U0I6kWma;
+        "default" = _U0I6kWma;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fast-trading";

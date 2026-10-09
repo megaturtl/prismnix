@@ -496,6 +496,46 @@ let
             "file" = "witchery-0.5.11+mc26.1.2.jar";
             "hash" = "sha512-sbJFVseARPtDJT8VixzNkA6IwPP/lgH8KqUJpu/oJlYHN0x8O6Y7tsQ4alVkUrQcBtls/5aEBejfDLfCE59s/Q==";
         };
+        _n2pdHCY7 = {
+            "id" = "n2pdHCY7";
+            "file" = "witchery-0.5.12+mc1.21.1.jar";
+            "hash" = "sha512-RfEOxtNJv+NMwL6RXXTrsrjAMUNzAcpErfV65oepNc9wovgrXnzH6xwozc7faRWN/PGY1oP7q6CC/J4gf+Zu+g==";
+        };
+        _GUFSrNaF = {
+            "id" = "GUFSrNaF";
+            "file" = "witchery-0.5.12+mc26.1.2.jar";
+            "hash" = "sha512-UbmBd6vO+9b11C5ZRQhtPetwFrLGl4QG9vjRTcwsksnYkoHX/PirJ90ZYZEOM8boAhj2noeshebll1hqX8hOmA==";
+        };
+        _ZoJ4hiGX = {
+            "id" = "ZoJ4hiGX";
+            "file" = "witchery-0.5.12.1+mc1.21.1.jar";
+            "hash" = "sha512-7hHGbfkuO1MNE1/Ls73RqJzTBtRnYDf7bCF9/bhslwUS0skr6U+1jwf93tVkwB2GyQux7ZU7mBUSmPOW1FEp2A==";
+        };
+        _4Uji7RWI = {
+            "id" = "4Uji7RWI";
+            "file" = "witchery-0.5.13+mc1.21.1.jar";
+            "hash" = "sha512-at6j9PihNvQToziTC+q7MfVl0Ji4T9396Xbz/jGUynqof3+TfUBEFCMlFdWlhGoJOe6HzGPuo79h+Cd44rt6OA==";
+        };
+        _FbaBFBAo = {
+            "id" = "FbaBFBAo";
+            "file" = "witchery-0.5.13+mc26.1.2.jar";
+            "hash" = "sha512-1pEBMtM1MDg3hIH7TmD6Jgh5xOAvV3Yrz3tkzkEAo6Uw6oezhWxa4maXisM4wUf34Mk0Bw73Fux1sgD3MrnxVA==";
+        };
+        _2mDo19Sa = {
+            "id" = "2mDo19Sa";
+            "file" = "witchery-0.5.13.1+mc1.21.1.jar";
+            "hash" = "sha512-ilSZUTwPlp/eoHisswDyugkeXSahV007zsoCnMdCN0H82hKc7Z+Bf1W0PiSmB2sRJukZQ6+mLWCHInoeyQ2ybw==";
+        };
+        _23l29Bqi = {
+            "id" = "23l29Bqi";
+            "file" = "witchery-0.5.13.1+mc26.1.2.jar";
+            "hash" = "sha512-jOsE+P8FM697eDrFhjfBDxc3XFXD4N+uICiAiRRCra/U8oKQyvkCLkNEXdC3ulu76fYv/TuT+HgZhC2JjcUR+w==";
+        };
+        _oDZE4oNP = {
+            "id" = "oDZE4oNP";
+            "file" = "witchery-0.5.13.2+mc1.21.1.jar";
+            "hash" = "sha512-TMESjWq6sMAo3SVN2yDEbBynHCjz3/D7N9hZGrU7DsXqiIMRm5gPPEghHOvYk6W2ex+JEuAXrn+0E85+KXUjNQ==";
+        };
     in {
         "ooy3LAyx" = _ooy3LAyx;
         "noScuzuz" = _noScuzuz;
@@ -596,11 +636,19 @@ let
         "GsH0KonE" = _GsH0KonE;
         "x4Ww6V8F" = _x4Ww6V8F;
         "jR8mH4dq" = _jR8mH4dq;
+        "n2pdHCY7" = _n2pdHCY7;
+        "GUFSrNaF" = _GUFSrNaF;
+        "ZoJ4hiGX" = _ZoJ4hiGX;
+        "4Uji7RWI" = _4Uji7RWI;
+        "FbaBFBAo" = _FbaBFBAo;
+        "2mDo19Sa" = _2mDo19Sa;
+        "23l29Bqi" = _23l29Bqi;
+        "oDZE4oNP" = _oDZE4oNP;
         "fabric-1.21.1" = _UollMwVJ;
-        "neoforge-1.21.1" = _x4Ww6V8F;
+        "neoforge-1.21.1" = _oDZE4oNP;
         "neoforge-1.21.2" = _LoRKrTYv;
         "neoforge-1.21.3" = _LoRKrTYv;
-        "neoforge-26.1.2" = _jR8mH4dq;
+        "neoforge-26.1.2" = _23l29Bqi;
         "pkg-0.1.0" = _ooy3LAyx;
         "pkg-0.1.1b" = _dEY6QYWA;
         "pkg-0.1.2" = _Yq5gQ0uh;
@@ -666,7 +714,12 @@ let
         "pkg-0.5.9.2" = _5e6Rfrze;
         "pkg-0.5.10" = _GsH0KonE;
         "pkg-0.5.11" = _jR8mH4dq;
-        "default" = _jR8mH4dq;
+        "pkg-0.5.12" = _GUFSrNaF;
+        "pkg-0.5.12.1" = _ZoJ4hiGX;
+        "pkg-0.5.13" = _FbaBFBAo;
+        "pkg-0.5.13.1" = _23l29Bqi;
+        "pkg-0.5.13.2" = _oDZE4oNP;
+        "default" = _oDZE4oNP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "just-another-witchery-remake";

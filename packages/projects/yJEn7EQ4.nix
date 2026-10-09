@@ -41,6 +41,11 @@ let
             "file" = "Spaceworldmons-3.1-1.21.1.jar";
             "hash" = "sha512-nLmgFwVdZzmALcUeaCcKm8jpodLv44GtK3uSpv/jPim4XA7E2shBOfkuYMteZYQZLhNm3WMePhc7T16NOM/h/w==";
         };
+        _gCOEI4AF = {
+            "id" = "gCOEI4AF";
+            "file" = "SpaceworldMons-4.0-1.21.1.jar";
+            "hash" = "sha512-PHIW09WlAzF2JUyULO+FKL1r72EZtp2HmhYNAqSTeKNtcD+BOY/RdPxzkYBqtezFX7kfKmyC0ydK2cVy3VDm+g==";
+        };
     in {
         "Ub4Bzysy" = _Ub4Bzysy;
         "gwKzhTEp" = _gwKzhTEp;
@@ -50,11 +55,12 @@ let
         "VarAZIaa" = _VarAZIaa;
         "xBY51SPP" = _xBY51SPP;
         "DYleS4O9" = _DYleS4O9;
+        "gCOEI4AF" = _gCOEI4AF;
         "datapack-1.20.1" = _VarAZIaa;
         "datapack-1.21.1" = _DYleS4O9;
         "fabric-1.20.1" = _VarAZIaa;
-        "fabric-1.21.1" = _DYleS4O9;
-        "neoforge-1.21.1" = _DYleS4O9;
+        "fabric-1.21.1" = _gCOEI4AF;
+        "neoforge-1.21.1" = _gCOEI4AF;
         "pkg-0.0.1" = _Ub4Bzysy;
         "pkg-1.0" = _gwKzhTEp;
         "pkg-2.0a" = _lL9ocFC8;
@@ -62,7 +68,8 @@ let
         "pkg-2.0.1" = _VarAZIaa;
         "pkg-3.0" = _xBY51SPP;
         "pkg-3.1" = _DYleS4O9;
-        "default" = _DYleS4O9;
+        "pkg-4.0" = _gCOEI4AF;
+        "default" = _gCOEI4AF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spaceworldmons-cobblemon";

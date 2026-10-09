@@ -161,6 +161,11 @@ let
             "file" = "AppleHungerBar26.2.zip";
             "hash" = "sha512-Dn8vz1uFVrxPDdripRBGpiDq/q+VXXYDuTZs5wwi8gCtQQUiEPtNDAFcFNN5Ogwwh+k3XviF4FbELKnGnig1Fg==";
         };
+        _CnyfofP1 = {
+            "id" = "CnyfofP1";
+            "file" = "AppleHungerBar26.3.zip";
+            "hash" = "sha512-n6XihsehLNwCoY0bYsJmIx9TQFc5NllYi29zDcCS0/PhmYJncYcQIG1BPZIZ4IkHti6NXsWNLIej35Mxrjbfpw==";
+        };
     in {
         "jaHJYO5x" = _jaHJYO5x;
         "CutnbrER" = _CutnbrER;
@@ -194,6 +199,7 @@ let
         "YOghjWwU" = _YOghjWwU;
         "y7MX6GIX" = _y7MX6GIX;
         "6JSSsAQP" = _6JSSsAQP;
+        "CnyfofP1" = _CnyfofP1;
         "minecraft-1.0" = _jaHJYO5x;
         "minecraft-1.1" = _jaHJYO5x;
         "minecraft-1.2.1" = _jaHJYO5x;
@@ -305,6 +311,7 @@ let
         "minecraft-26.1.1" = _y7MX6GIX;
         "minecraft-26.1.2" = _y7MX6GIX;
         "minecraft-26.2" = _6JSSsAQP;
+        "minecraft-26.3" = _CnyfofP1;
         "pkg-0.0.0" = _jaHJYO5x;
         "pkg-1.0.1" = _CutnbrER;
         "pkg-1.1.2" = _LC8W46M3;
@@ -337,7 +344,8 @@ let
         "pkg-75.0.1" = _YOghjWwU;
         "pkg-84.0.1" = _y7MX6GIX;
         "pkg-88.0.1" = _6JSSsAQP;
-        "default" = _6JSSsAQP;
+        "pkg-97.0.0" = _CnyfofP1;
+        "default" = _CnyfofP1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "apple-hunger-bar";

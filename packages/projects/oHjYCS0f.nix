@@ -136,6 +136,26 @@ let
             "file" = "dungeons-and-taverns-jungle-temple-overhaul-v2.1.jar";
             "hash" = "sha512-hU0TqP6gwo2U2bFKRjCpzFcSTjg+fvVGHX30an5jVa4nwthfCkL2OAADseQgLJRB06cbZlKVxNorMXKGfvV2FA==";
         };
+        _OdzTHh66 = {
+            "id" = "OdzTHh66";
+            "file" = "DnT Jungle Temple Overhaul v2.2.zip";
+            "hash" = "sha512-fyj+Yw+XsunvOMaMU8pi5ab9MfWJa+uJqOYW3zG0WxmUKbiU4Jw4tpCj0rU32cawXi3xKprGl3s+CiYecFVM7Q==";
+        };
+        _pF9bn2gi = {
+            "id" = "pF9bn2gi";
+            "file" = "dungeons-and-taverns-jungle-temple-overhaul-2.2.jar";
+            "hash" = "sha512-57VNMWC8x832KdCskzIkMJ3YO7zAeQt6vMNbk69Qv9PC0fGNJGzqXVD6K8onhfXV5poYVk+V0arKFy3NW98osQ==";
+        };
+        _GoAEdtmw = {
+            "id" = "GoAEdtmw";
+            "file" = "dungeons-and-taverns-jungle-temple-overhaul-2.2.jar";
+            "hash" = "sha512-F9IFG0l8YvpDX+f1WVMkN/NgU4lhhzNata37Du+PXLlt/0YOphz8lomC1rAKWpzVdO4Lz8bCQtcR1T27TjQ6Rg==";
+        };
+        _S36obeET = {
+            "id" = "S36obeET";
+            "file" = "dungeons-and-taverns-jungle-temple-overhaul-2.2.jar";
+            "hash" = "sha512-D6nndg0G8IOVFJv1GZDVI3Prsui4GVprm0lThnbA0BPCXGlpzJmWYnqs2iVBYRiTexiJj0Iajv3B+zDMwpuDPQ==";
+        };
     in {
         "V1b4b35i" = _V1b4b35i;
         "MyjIterq" = _MyjIterq;
@@ -164,6 +184,10 @@ let
         "pvrni7rg" = _pvrni7rg;
         "Vpac7nZ4" = _Vpac7nZ4;
         "x0WI6oDe" = _x0WI6oDe;
+        "OdzTHh66" = _OdzTHh66;
+        "pF9bn2gi" = _pF9bn2gi;
+        "GoAEdtmw" = _GoAEdtmw;
+        "S36obeET" = _S36obeET;
         "datapack-1.21" = _LIS9KkXT;
         "datapack-1.21.1" = _LIS9KkXT;
         "datapack-1.21.2" = _CD4vOMNM;
@@ -180,6 +204,7 @@ let
         "datapack-26.1.1" = _ljTHNYiU;
         "datapack-26.1.2" = _ljTHNYiU;
         "datapack-26.2" = _ljTHNYiU;
+        "datapack-26.3" = _OdzTHh66;
         "fabric-1.21" = _C7GX0iRm;
         "fabric-1.21.1" = _C7GX0iRm;
         "fabric-1.21.2" = _kktE2Zic;
@@ -196,6 +221,7 @@ let
         "fabric-26.1.1" = _pvrni7rg;
         "fabric-26.1.2" = _pvrni7rg;
         "fabric-26.2" = _pvrni7rg;
+        "fabric-26.3" = _pF9bn2gi;
         "forge-1.21" = _f0eyVJ3L;
         "forge-1.21.1" = _f0eyVJ3L;
         "forge-1.21.2" = _yPVXp19a;
@@ -212,6 +238,7 @@ let
         "forge-26.1.1" = _x0WI6oDe;
         "forge-26.1.2" = _x0WI6oDe;
         "forge-26.2" = _x0WI6oDe;
+        "forge-26.3" = _GoAEdtmw;
         "neoforge-1.21" = _8Xxj6Gaj;
         "neoforge-1.21.1" = _8Xxj6Gaj;
         "neoforge-1.21.2" = _XHZxs3re;
@@ -228,6 +255,7 @@ let
         "neoforge-26.1.1" = _Vpac7nZ4;
         "neoforge-26.1.2" = _Vpac7nZ4;
         "neoforge-26.2" = _Vpac7nZ4;
+        "neoforge-26.3" = _S36obeET;
         "pkg-v1" = _V1b4b35i;
         "pkg-v1+mod" = _4bjTFAjn;
         "pkg-v1.1" = _3NKY4LW1;
@@ -242,7 +270,9 @@ let
         "pkg-v2+mod" = _CLtL2hWJ;
         "pkg-v2.1" = _ljTHNYiU;
         "pkg-v2.1+mod" = _x0WI6oDe;
-        "default" = _x0WI6oDe;
+        "pkg-2.2" = _OdzTHh66;
+        "pkg-2.2+mod" = _S36obeET;
+        "default" = _S36obeET;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dungeons-and-taverns-jungle-temple-overhaul";

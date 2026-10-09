@@ -181,6 +181,21 @@ let
             "file" = "create_ultimate_factory-2.2.4-neoforge-1.21.1.jar";
             "hash" = "sha512-Kh0ebieqB0TRMa0S3MTjvK4tXRDGIMxWbLAwDGOma87RxVvgtjaZjzdz46ezhOdO8GOV7H7mqQZJ93Asmok7DQ==";
         };
+        _dPv5H31a = {
+            "id" = "dPv5H31a";
+            "file" = "create_ultimate_factory-2.2.4-fabric-1.21.11.jar";
+            "hash" = "sha512-/ut6ATO707RYGXj387JuED7dopzEkMMYzT5OsCMBQmekbpYlBCPT0GJRJ/jOq7OWaYTKjOSzHE8wUikuLnUJpw==";
+        };
+        _36lSb7jh = {
+            "id" = "36lSb7jh";
+            "file" = "create_ultimate_factory-2.2.4-fabric-26.1.2.jar";
+            "hash" = "sha512-6Ur5VQ5lmLRbLcHF81WdvXqJ9b4S22Ip+mn6vSSaXRC05P4vaDOCeMEXrfD80wZcMBc5z7kEvJSqeOedQI15Gw==";
+        };
+        _pNPvDSxA = {
+            "id" = "pNPvDSxA";
+            "file" = "create_ultimate_factory-2.2.4-fabric-26.2.jar";
+            "hash" = "sha512-OTr0OLR69ICk5Yagai0fsgmUapyVcWx5ovEG7ja0TeL4ETjwNuxabsElamPoTpGdXifMnojUM1hfc27bfqgKWg==";
+        };
     in {
         "IciYaCRA" = _IciYaCRA;
         "HCCbxXM2" = _HCCbxXM2;
@@ -218,6 +233,9 @@ let
         "t5APrWmo" = _t5APrWmo;
         "PYJJQvb8" = _PYJJQvb8;
         "AEMRNsNS" = _AEMRNsNS;
+        "dPv5H31a" = _dPv5H31a;
+        "36lSb7jh" = _36lSb7jh;
+        "pNPvDSxA" = _pNPvDSxA;
         "forge-1.20" = _PYJJQvb8;
         "forge-1.20.1" = _PYJJQvb8;
         "forge-1.19.2" = _DgbBwr4p;
@@ -231,6 +249,9 @@ let
         "fabric-1.20" = _rqKE4xS1;
         "fabric-1.20.1" = _rqKE4xS1;
         "fabric-1.19.2" = _tvaJdpyt;
+        "fabric-1.21.11" = _dPv5H31a;
+        "fabric-26.1.2" = _36lSb7jh;
+        "fabric-26.2" = _pNPvDSxA;
         "quilt-1.20" = _rqKE4xS1;
         "quilt-1.20.1" = _rqKE4xS1;
         "quilt-1.19.2" = _tvaJdpyt;
@@ -246,8 +267,8 @@ let
         "pkg-2.2.1" = _hZoEJMVk;
         "pkg-2.2.2" = _4CYo7mOl;
         "pkg-2.2.3" = _t5APrWmo;
-        "pkg-2.2.4" = _AEMRNsNS;
-        "default" = _AEMRNsNS;
+        "pkg-2.2.4" = _pNPvDSxA;
+        "default" = _pNPvDSxA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-ultimate-factory";

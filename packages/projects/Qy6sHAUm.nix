@@ -306,6 +306,21 @@ let
             "file" = "Saros-Better-Glass-Fabric-26.2-1.10.jar";
             "hash" = "sha512-TBT6yZ3QPHzktOVn2G9wWzYaGozATjCgiTPmBl0ZKSyI/XnmhJaXh10Fk4iCrO7B3c4CH7QiPsHXku3avp9t2g==";
         };
+        _tpMg5L1a = {
+            "id" = "tpMg5L1a";
+            "file" = "Saros-Better-Glass-Fabric-26.3-1.11.jar";
+            "hash" = "sha512-cbE1bqm5Q2UFSr9nFvPpH0OLccdpJu2/LUIqq9DaNQL6C+RjbVXXQ/kSUBZQgcm9vDVQlszK9MTUFYZlMWbPTg==";
+        };
+        _TEfWmJ2g = {
+            "id" = "TEfWmJ2g";
+            "file" = "Saros-Better-Glass-NeoForge-26.3-1.12.jar";
+            "hash" = "sha512-Y4RxjBK86CP4ioLlE/xZnKAWyKQCYxydJINYqS95bGiiILaXooBHvVUfz663aVGoTmd3z/s1sl66Lpknwi+y8A==";
+        };
+        _5PaKzHLu = {
+            "id" = "5PaKzHLu";
+            "file" = "Saros-Better-Glass-Forge-26.3-1.13.jar";
+            "hash" = "sha512-z3apwDAoOzPNr7V40o1qXXjCztG5CPQKRdcof0EG0Q+mKJ5ivFdTfEwncz5JTxKxFG59S2GSpVC2sz5+lHuXjA==";
+        };
     in {
         "7LOaz5z2" = _7LOaz5z2;
         "jbCLmpDa" = _jbCLmpDa;
@@ -368,6 +383,9 @@ let
         "mhN1XEkH" = _mhN1XEkH;
         "7B2OAwnN" = _7B2OAwnN;
         "sOxvfgwN" = _sOxvfgwN;
+        "tpMg5L1a" = _tpMg5L1a;
+        "TEfWmJ2g" = _TEfWmJ2g;
+        "5PaKzHLu" = _5PaKzHLu;
         "forge-1.19.2" = _jbCLmpDa;
         "forge-1.20.1" = _G1nMbR21;
         "forge-1.21.1" = _e0TpG42C;
@@ -384,16 +402,19 @@ let
         "forge-26.1.1" = _4YnLqErC;
         "forge-26.1.2" = _N1er4ixM;
         "forge-26.2" = _AAckl1o0;
+        "forge-26.3" = _5PaKzHLu;
         "fabric-1.20.1" = _gvulEHRp;
         "fabric-26.1" = _Xf1MaBmW;
         "fabric-26.1.1" = _mhN1XEkH;
         "fabric-26.1.2" = _7B2OAwnN;
         "fabric-26.2" = _sOxvfgwN;
+        "fabric-26.3" = _tpMg5L1a;
         "neoforge-26.1" = _B8YiPEaS;
         "neoforge-26.1.1" = _YFA3yRxF;
         "neoforge-26.1.2" = _K0XsGKrT;
         "neoforge-26.2" = _4BeZCQgS;
         "neoforge-1.20.1" = _KulCuywx;
+        "neoforge-26.3" = _TEfWmJ2g;
         "pkg-1.2" = _7LOaz5z2;
         "pkg-1.3" = _Sb8W4YDY;
         "pkg-2.1" = _ePmr7gWV;
@@ -422,7 +443,10 @@ let
         "pkg-1.9" = _vptCUy5g;
         "pkg-1.8" = _7B2OAwnN;
         "pkg-1.10" = _sOxvfgwN;
-        "default" = _sOxvfgwN;
+        "pkg-1.11" = _tpMg5L1a;
+        "pkg-1.12" = _TEfWmJ2g;
+        "pkg-1.13-forge-26.3" = _5PaKzHLu;
+        "default" = _5PaKzHLu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saros-better-glass";

@@ -141,6 +141,26 @@ let
             "file" = "easy-install-neoforge-1.1.12.jar";
             "hash" = "sha512-DSqgcp+CoOUj8kjbGD+82IGQBQ0AO2Hmm0gf/YwUtor4Rd8fDkreAa2C0ZeAfMk+CHNXYZLA3NvXxjDihVF/jQ==";
         };
+        _UVzK0p2s = {
+            "id" = "UVzK0p2s";
+            "file" = "easy-install-fabric-1.1.13.jar";
+            "hash" = "sha512-WOQpgKKYuzY9EB+cO/TSKnISyteEwqGPd0jhNdEd5Nzh50odGmPbmpIQuiX+j4qESwpObSYS50sApivvnSZzHA==";
+        };
+        _sTPJPAl3 = {
+            "id" = "sTPJPAl3";
+            "file" = "easy-install-neoforge-1.1.13.jar";
+            "hash" = "sha512-nofPj/TJXOIJWJozH6JqCFCqN3sFQcZ7h8iEARG5fOqgv1qYQDRyL5Dc/h0Kg9lbTA5hzzSvJRtqpNwf6ofX4Q==";
+        };
+        _i03jC6nc = {
+            "id" = "i03jC6nc";
+            "file" = "easy-install-fabric-1.1.13.jar";
+            "hash" = "sha512-1z5z79nIr83dW3SU8KzGvoFSH3S8wCGm7MVdMFsvbXBf2oL/k+Q8j8ike+w52KjrLiJL+m9LitZZJJHpvkne0g==";
+        };
+        _Ypex1ddu = {
+            "id" = "Ypex1ddu";
+            "file" = "easy-install-neoforge-1.1.13.jar";
+            "hash" = "sha512-bAL9/wG6e4OMHC4AI+Lk4bUjz1zKBO6TRRIhxJP6bOOASEeRlVr1kGv6dbxpqs+4giHW4vSx6weXt0D1uSnBXg==";
+        };
     in {
         "kiJpFJJJ" = _kiJpFJJJ;
         "AwV7h7Fi" = _AwV7h7Fi;
@@ -170,6 +190,10 @@ let
         "3GRvBt6u" = _3GRvBt6u;
         "d6fhHkqQ" = _d6fhHkqQ;
         "vkqjvITD" = _vkqjvITD;
+        "UVzK0p2s" = _UVzK0p2s;
+        "sTPJPAl3" = _sTPJPAl3;
+        "i03jC6nc" = _i03jC6nc;
+        "Ypex1ddu" = _Ypex1ddu;
         "fabric-1.21.2" = _kiJpFJJJ;
         "fabric-1.21.3" = _kiJpFJJJ;
         "fabric-1.21.4" = _CYru1lLl;
@@ -180,12 +204,12 @@ let
         "fabric-1.20.1" = _zW0o2mm9;
         "fabric-1.21.9" = _mEPrhw9n;
         "fabric-1.21.10" = _mEPrhw9n;
-        "fabric-1.21.11" = _JPpOk5jO;
+        "fabric-1.21.11" = _UVzK0p2s;
         "fabric-26.1" = _Eol9KO24;
         "fabric-26.1.1" = _Eol9KO24;
         "fabric-26.1.2" = _Eol9KO24;
         "fabric-26.2" = _cHgDcPCZ;
-        "fabric-26.3" = _d6fhHkqQ;
+        "fabric-26.3" = _i03jC6nc;
         "quilt-1.21.2" = _kiJpFJJJ;
         "quilt-1.21.3" = _kiJpFJJJ;
         "quilt-1.21.4" = _CYru1lLl;
@@ -196,12 +220,12 @@ let
         "quilt-1.20.1" = _zW0o2mm9;
         "quilt-1.21.9" = _mEPrhw9n;
         "quilt-1.21.10" = _mEPrhw9n;
-        "quilt-1.21.11" = _JPpOk5jO;
+        "quilt-1.21.11" = _UVzK0p2s;
         "quilt-26.1" = _Eol9KO24;
         "quilt-26.1.1" = _Eol9KO24;
         "quilt-26.1.2" = _Eol9KO24;
         "quilt-26.2" = _cHgDcPCZ;
-        "quilt-26.3" = _d6fhHkqQ;
+        "quilt-26.3" = _i03jC6nc;
         "neoforge-1.21.4" = _IDYiLMNS;
         "neoforge-1.21.5" = _jSTXMA0E;
         "neoforge-1.21.6" = _mdBtuNRi;
@@ -209,12 +233,12 @@ let
         "neoforge-1.21.8" = _mdBtuNRi;
         "neoforge-1.21.9" = _wKzp0NXj;
         "neoforge-1.21.10" = _wKzp0NXj;
-        "neoforge-1.21.11" = _kpO53HmI;
+        "neoforge-1.21.11" = _sTPJPAl3;
         "neoforge-26.1" = _Pek28zSe;
         "neoforge-26.1.1" = _Pek28zSe;
         "neoforge-26.1.2" = _Pek28zSe;
         "neoforge-26.2" = _3GRvBt6u;
-        "neoforge-26.3" = _vkqjvITD;
+        "neoforge-26.3" = _Ypex1ddu;
         "pkg-1.0.0" = _kiJpFJJJ;
         "pkg-1.0.1" = _AwV7h7Fi;
         "pkg-1.1.0" = _9tp53OfR;
@@ -230,7 +254,8 @@ let
         "pkg-1.1.10" = _Pek28zSe;
         "pkg-1.1.11" = _3GRvBt6u;
         "pkg-1.1.12" = _vkqjvITD;
-        "default" = _vkqjvITD;
+        "pkg-1.1.13" = _Ypex1ddu;
+        "default" = _Ypex1ddu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easy-install";

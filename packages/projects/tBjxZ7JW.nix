@@ -386,6 +386,16 @@ let
             "file" = "inventory-1.13.1-26.1.2.jar";
             "hash" = "sha512-ZPrA9i06I7r97xUVY9oZEsFZPWq5ixARaKDaMiouMCJChApXn0y4tkaFdWhBXe4AgheIyx5yBTxXYtPwp3b8Vw==";
         };
+        _M88QJQsj = {
+            "id" = "M88QJQsj";
+            "file" = "inventory-1.13.1-26.2.jar";
+            "hash" = "sha512-XIquEKHlgv4FuPhkAqjkHXDQC3A5WBbvhncl2CRwFzf+evZ+ZNHdD/ZCsOp2ZpbLBNPTAYtXi3iDBy/2o7WhQg==";
+        };
+        _ojVKrNus = {
+            "id" = "ojVKrNus";
+            "file" = "inventory-1.13.1-26.3.jar";
+            "hash" = "sha512-UevNXeAoGgwKbDf5Nq778TSMiLWlZoRvBELfaGh7EAlmZGTttLfm5b97IDwr/3QAvWi+EEfbnZiAt/gbsFpt2A==";
+        };
     in {
         "kaVVOPyb" = _kaVVOPyb;
         "w8Spl4Vc" = _w8Spl4Vc;
@@ -464,6 +474,8 @@ let
         "mKmfNowU" = _mKmfNowU;
         "xP3bQO4N" = _xP3bQO4N;
         "cyNU5e7k" = _cyNU5e7k;
+        "M88QJQsj" = _M88QJQsj;
+        "ojVKrNus" = _ojVKrNus;
         "fabric-1.19.4" = _w8Spl4Vc;
         "fabric-1.20" = _xV3TwWHS;
         "fabric-1.20.1" = _Dk0385bM;
@@ -485,6 +497,8 @@ let
         "fabric-26.1" = _cyNU5e7k;
         "fabric-26.1.1" = _cyNU5e7k;
         "fabric-26.1.2" = _cyNU5e7k;
+        "fabric-26.2" = _M88QJQsj;
+        "fabric-26.3" = _ojVKrNus;
         "pkg-1.0.0" = _kaVVOPyb;
         "pkg-1.0.1" = _w8Spl4Vc;
         "pkg-1.1.0" = _KgsEpLOU;
@@ -559,7 +573,9 @@ let
         "pkg-1.12.10" = _mKmfNowU;
         "pkg-1.13.0" = _xP3bQO4N;
         "pkg-1.13.1" = _cyNU5e7k;
-        "default" = _cyNU5e7k;
+        "pkg-1.13.1-26.2" = _M88QJQsj;
+        "pkg-1.13.1-26.3" = _ojVKrNus;
+        "default" = _ojVKrNus;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "frostbytes-improved-inventory";

@@ -121,6 +121,11 @@ let
             "file" = "whos_there-1.4.1-forge-1.20.1.jar";
             "hash" = "sha512-+7YJqnJXNcemF58WQ//SBNEIEjUOqonfU33Bkb+Wk/bNy2NOQYmYzFZKtgOmpbwAq2uTJeNrf7frTrpHproitg==";
         };
+        _DwGzqb0M = {
+            "id" = "DwGzqb0M";
+            "file" = "whos_there-1.4.1-neoforge-1.21.1.jar";
+            "hash" = "sha512-bhFyba9TLorgvPUWD1NUpmDK5efTZX8BOsfTNOBGAm3w+zJirC4Tln6KPgFLEei/TwFsT8Bfv7foa52kQF3yWw==";
+        };
     in {
         "y1ODLEpG" = _y1ODLEpG;
         "I9LBt92p" = _I9LBt92p;
@@ -146,7 +151,9 @@ let
         "f7rVtIEv" = _f7rVtIEv;
         "3sKYeofL" = _3sKYeofL;
         "fXtiaQz5" = _fXtiaQz5;
+        "DwGzqb0M" = _DwGzqb0M;
         "neoforge-1.20.6" = _GaYKMq1s;
+        "neoforge-1.21.1" = _DwGzqb0M;
         "forge-1.19.2" = _f7rVtIEv;
         "forge-1.19.4" = _3sKYeofL;
         "forge-1.20.1" = _fXtiaQz5;
@@ -155,8 +162,8 @@ let
         "pkg-1.2" = _rf6TqFVl;
         "pkg-1.3" = _AmKc4pQW;
         "pkg-1.4" = _6mkgzXbL;
-        "pkg-1.4.1" = _fXtiaQz5;
-        "default" = _fXtiaQz5;
+        "pkg-1.4.1" = _DwGzqb0M;
+        "default" = _DwGzqb0M;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "whos-there-ghost-players";

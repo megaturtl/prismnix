@@ -456,6 +456,21 @@ let
             "file" = "starhud-neoforge-26.2-2.5.2.jar";
             "hash" = "sha512-zdHF4y3VSMhwfEJlD+/D1WhEIoIWrDx0z8EJ6ZBoKXBmDxxt0bJ2voFMcBO9EjbtAK1e9d9RDpNtZlLrqJfygg==";
         };
+        _Jbml49SQ = {
+            "id" = "Jbml49SQ";
+            "file" = "starhud-neoforge-26.1-2.5.2.jar";
+            "hash" = "sha512-yj+UPELjbl9Bk81T50BDuVvhDRVc/odP2cJbmEGtJKhRwGlxbQGl7YUMaO2DAKLz03RbBZvwdEXF6ImrDVzeag==";
+        };
+        _ZzRq9mFF = {
+            "id" = "ZzRq9mFF";
+            "file" = "starhud-neoforge-26.3-2.5.2.jar";
+            "hash" = "sha512-4DGnTv27HSNZp8mZolZFFCFciuDaBFGUmyR8suT/KVRjwswadnAhaNlVnVSEzCTeNuE1O62tTJoRA9ddq7+Y5w==";
+        };
+        _iTvxRs3W = {
+            "id" = "iTvxRs3W";
+            "file" = "starhud-fabric-26.3-2.5.2.jar";
+            "hash" = "sha512-5h3RYaQ2NilYkYvkn618Ic1YfuFuTNoUkUfsFVyY45LBb+skVAPpdeUgWFX8hHqWNy4zi+b5gUgaUh8si1dtgg==";
+        };
     in {
         "z2yC0Q89" = _z2yC0Q89;
         "IuZTpzjN" = _IuZTpzjN;
@@ -548,6 +563,9 @@ let
         "NzSkSwRA" = _NzSkSwRA;
         "ztGRRFnV" = _ztGRRFnV;
         "8etPX9Ms" = _8etPX9Ms;
+        "Jbml49SQ" = _Jbml49SQ;
+        "ZzRq9mFF" = _ZzRq9mFF;
+        "iTvxRs3W" = _iTvxRs3W;
         "fabric-1.21.1" = _Y1iiIPs0;
         "fabric-1.21.3" = _XMIHluI1;
         "fabric-1.21.4" = _CPnecT7d;
@@ -564,6 +582,7 @@ let
         "fabric-26.1.1" = _Zq1llYKV;
         "fabric-26.1.2" = _Zq1llYKV;
         "fabric-26.2" = _P9qSgvLC;
+        "fabric-26.3" = _iTvxRs3W;
         "neoforge-26.2" = _8etPX9Ms;
         "neoforge-1.21" = _2hhAAkXI;
         "neoforge-1.21.1" = _2hhAAkXI;
@@ -571,6 +590,10 @@ let
         "neoforge-1.21.7" = _NzSkSwRA;
         "neoforge-1.21.8" = _NzSkSwRA;
         "neoforge-1.21.11" = _ztGRRFnV;
+        "neoforge-26.1" = _Jbml49SQ;
+        "neoforge-26.1.1" = _Jbml49SQ;
+        "neoforge-26.1.2" = _Jbml49SQ;
+        "neoforge-26.3" = _ZzRq9mFF;
         "forge-1.20.1" = _Mhnup0pQ;
         "pkg-1.0.0-1.21.1" = _z2yC0Q89;
         "pkg-1.0.0-1.21.4" = _IuZTpzjN;
@@ -663,7 +686,10 @@ let
         "pkg-2.5.2-1.21.6-neoforge" = _NzSkSwRA;
         "pkg-2.5.2-1.21.11-neoforge" = _ztGRRFnV;
         "pkg-2.5.2-26.2-neoforge" = _8etPX9Ms;
-        "default" = _8etPX9Ms;
+        "pkg-2.5.2-26.1-neoforge" = _Jbml49SQ;
+        "pkg-2.5.2-26.3-neoforge" = _ZzRq9mFF;
+        "pkg-2.5.2-26.3-fabric" = _iTvxRs3W;
+        "default" = _iTvxRs3W;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "starhud";

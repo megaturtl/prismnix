@@ -16,10 +16,16 @@ let
             "file" = "MyNethersDelight_Excalibur_1.21.1_ver-2.1.zip";
             "hash" = "sha512-C/gjiyIeMhMtkY2va6eJ/9k8EgH4o8p7QT2HTlWpsD09B5Xzg7K4w+xKyPHOW45R0QF2zftP7iBXLEIozNpIuw==";
         };
+        _9VBs2E3b = {
+            "id" = "9VBs2E3b";
+            "file" = "MyNethersDelight_Excalibur_1.21.1_ver-2.2.zip";
+            "hash" = "sha512-ERt6i3zox0oyDOtSDi9RvcabNZLenh8gIXm8lX3DUfs1pyywWFu/QpON3T/eUvGhEPPrGQwgSrPawm0GM8yC0w==";
+        };
     in {
         "lnMwvvya" = _lnMwvvya;
         "BvVmmY2x" = _BvVmmY2x;
         "x39IKh6M" = _x39IKh6M;
+        "9VBs2E3b" = _9VBs2E3b;
         "minecraft-1.20.1" = _BvVmmY2x;
         "minecraft-1.20.2" = _lnMwvvya;
         "minecraft-1.20.3" = _lnMwvvya;
@@ -27,11 +33,12 @@ let
         "minecraft-1.20.5" = _lnMwvvya;
         "minecraft-1.20.6" = _lnMwvvya;
         "minecraft-1.20" = _BvVmmY2x;
-        "minecraft-1.21" = _x39IKh6M;
-        "minecraft-1.21.1" = _x39IKh6M;
+        "minecraft-1.21" = _9VBs2E3b;
+        "minecraft-1.21.1" = _9VBs2E3b;
         "pkg-1.1" = _lnMwvvya;
         "pkg-2.1" = _x39IKh6M;
-        "default" = _x39IKh6M;
+        "pkg-2.2" = _9VBs2E3b;
+        "default" = _9VBs2E3b;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "excalibur-my-nethers-delight-support";

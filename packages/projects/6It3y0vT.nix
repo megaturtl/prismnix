@@ -31,6 +31,11 @@ let
             "file" = "AutumnPack Bushy Leaves 1.5 1.21.8.zip";
             "hash" = "sha512-TNhb0zsDIeL5IAMf/U//cEEW75bTywIAh14t4cY+nJcCy/tJpf3a28qUcfEbg+1jNzKIlPCdmqpk0UAmRYHUuw==";
         };
+        _7EHmQL75 = {
+            "id" = "7EHmQL75";
+            "file" = "Autumnpack Leaves 3.0 26.3.zip";
+            "hash" = "sha512-xGqiYxe48jmCdAvaPWEEsesQHnH8V+Hnv54dg6BBwKpeuxOmlujoPHmygi4Eq4Q7g9R/cvtld+DF9JL2MUrnuw==";
+        };
     in {
         "WF4i00JF" = _WF4i00JF;
         "zhzRh1ut" = _zhzRh1ut;
@@ -38,6 +43,7 @@ let
         "JR8t0lnE" = _JR8t0lnE;
         "bDe7lG3X" = _bDe7lG3X;
         "pU5a49Pw" = _pU5a49Pw;
+        "7EHmQL75" = _7EHmQL75;
         "minecraft-1.20" = _WF4i00JF;
         "minecraft-1.20.1" = _WF4i00JF;
         "minecraft-1.20.2" = _WF4i00JF;
@@ -49,12 +55,14 @@ let
         "minecraft-1.21.5" = _bDe7lG3X;
         "minecraft-1.21.7" = _pU5a49Pw;
         "minecraft-1.21.8" = _pU5a49Pw;
+        "minecraft-26.3" = _7EHmQL75;
         "pkg-1.0" = _WF4i00JF;
         "pkg-1.2" = _zhzRh1ut;
         "pkg-1.3" = _JR8t0lnE;
         "pkg-1.4" = _bDe7lG3X;
         "pkg-1.5" = _pU5a49Pw;
-        "default" = _pU5a49Pw;
+        "pkg-26.3" = _7EHmQL75;
+        "default" = _7EHmQL75;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autumnpack-bushy";

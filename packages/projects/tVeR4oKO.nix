@@ -356,6 +356,26 @@ let
             "file" = "diggus-maximus-fabric-1.8.0+mc26.2.jar";
             "hash" = "sha512-fuU89zVtBNEG/Sb1tnbuzFfH4DPIU7/zU2XucwgrM83WBLJQ7Ui/NzU8qb4Q1ORwnsUFCb1TTSHqFyVPTacxNw==";
         };
+        _3NrDqr0H = {
+            "id" = "3NrDqr0H";
+            "file" = "diggus-maximus-neoforge-1.8.1+mc26.2.jar";
+            "hash" = "sha512-sMOGE9wlSdVOHLE2d/RB0WdP5i/wTnqVRLGvMtPRZKoCL4i5RkJK29lM/s5/CESqfyxfBh+CS74YK3bONUlctw==";
+        };
+        _kwdhdfeV = {
+            "id" = "kwdhdfeV";
+            "file" = "diggus-maximus-fabric-1.8.1+mc26.2.jar";
+            "hash" = "sha512-dmYi7+CWXG/k1KrBk8ZAggAYTGqWPWHDFbDiQuJdqXSMFxJzt1bQ/TdZVpPocWGKkxU0iKeXJ5Iw4GQtecKLwg==";
+        };
+        _SvG4maak = {
+            "id" = "SvG4maak";
+            "file" = "diggus-maximus-neoforge-1.8.1+mc26.3.jar";
+            "hash" = "sha512-MPo8dvMo+OTdrqmg+T3gmbRxbTEBQdv9M79IJ7wLtWUZhUhxuR4kf39hHyqccM7ieaqqqAGwOSxLpc3GoPtwAQ==";
+        };
+        _KYzPcg9w = {
+            "id" = "KYzPcg9w";
+            "file" = "diggus-maximus-fabric-1.8.1+mc26.3.jar";
+            "hash" = "sha512-b/Rur++Jjv0BT/O0Bq8s+blAnXdvu8PT+F+fjz9YvHbv05GbGnMgLit+XsAkmw+sPnNJclTeobKs4aA/dh7tGg==";
+        };
     in {
         "9I7LDQVe" = _9I7LDQVe;
         "xCiB3yqJ" = _xCiB3yqJ;
@@ -428,6 +448,10 @@ let
         "uA8jFdQI" = _uA8jFdQI;
         "FqXYqhkm" = _FqXYqhkm;
         "U3nuHu4P" = _U3nuHu4P;
+        "3NrDqr0H" = _3NrDqr0H;
+        "kwdhdfeV" = _kwdhdfeV;
+        "SvG4maak" = _SvG4maak;
+        "KYzPcg9w" = _KYzPcg9w;
         "fabric-1.21.2" = _xCiB3yqJ;
         "fabric-1.21.3" = _xCiB3yqJ;
         "fabric-1.21.4" = _HcCc3gsu;
@@ -441,7 +465,8 @@ let
         "fabric-26.1" = _uA8jFdQI;
         "fabric-26.1.1" = _uA8jFdQI;
         "fabric-26.1.2" = _uA8jFdQI;
-        "fabric-26.2" = _U3nuHu4P;
+        "fabric-26.2" = _kwdhdfeV;
+        "fabric-26.3" = _KYzPcg9w;
         "neoforge-1.21.4" = _NoWHuvYd;
         "neoforge-1.21.5" = _P51QbmI6;
         "neoforge-1.21.6" = _1mkihEoq;
@@ -453,7 +478,8 @@ let
         "neoforge-26.1" = _rCe0ahdw;
         "neoforge-26.1.1" = _rCe0ahdw;
         "neoforge-26.1.2" = _rCe0ahdw;
-        "neoforge-26.2" = _FqXYqhkm;
+        "neoforge-26.2" = _3NrDqr0H;
+        "neoforge-26.3" = _SvG4maak;
         "pkg-1.7.0" = _9I7LDQVe;
         "pkg-1.7.1+mc1.21.3" = _xCiB3yqJ;
         "pkg-1.7.1+mc1.21.4" = _W9MuiNYR;
@@ -491,7 +517,9 @@ let
         "pkg-1.7.9+mc1.21.4" = _NoWHuvYd;
         "pkg-1.8.0+mc26.1.2" = _uA8jFdQI;
         "pkg-1.8.0+mc26.2" = _U3nuHu4P;
-        "default" = _U3nuHu4P;
+        "pkg-1.8.1+mc26.2" = _kwdhdfeV;
+        "pkg-1.8.1+mc26.3" = _KYzPcg9w;
+        "default" = _KYzPcg9w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "diggus-maximus-reborn";

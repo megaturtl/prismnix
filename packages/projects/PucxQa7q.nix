@@ -536,6 +536,106 @@ let
             "file" = "sarosinteractiveblocks-1.5.jar";
             "hash" = "sha512-XrpAJV7Jk0FTNAtg7+rfpnggkYa/7q6ivU/LALsl/a4l49OSfQ9fwWNEBUDSC8DDVL9WGQ3Sk+0MJRqgzoCw/Q==";
         };
+        _AGAINxuH = {
+            "id" = "AGAINxuH";
+            "file" = "Saros-Interactive-Blocks-Fabric-26.3-1.6.jar";
+            "hash" = "sha512-dO3TXz0iFhMQ9qL/Eue9JT8JnbW0edSab0cYyfZ3HwkFH1KcBkZvNzfCkCCphTXNjrA80Am7MpyHZISmozAK1Q==";
+        };
+        _NL0yjzoc = {
+            "id" = "NL0yjzoc";
+            "file" = "sarosinteractiveblocks-1.7.jar";
+            "hash" = "sha512-nJDR01a3No99ApFeepeDXPr1Gu75tINdy5Jjzx3e9ctp96B0tN39R77U3PbXQBWMVQe0s37amzaShJvglJYLYQ==";
+        };
+        _mhYGbA2l = {
+            "id" = "mhYGbA2l";
+            "file" = "Saros-Interactive-Blocks-NeoForge-26.3-1.7.jar";
+            "hash" = "sha512-wilusNXP78LZnM2Zt309sa5t0X6jNJe8bOvq32fVkhJ050otru30lG30HRIj0CWdh4nuxUOOfotUChPEoiHa5w==";
+        };
+        _aVVVjGyF = {
+            "id" = "aVVVjGyF";
+            "file" = "Saros-Interactive-Blocks-Forge-26.3-1.8.jar";
+            "hash" = "sha512-w+A8qIuo9qqBnJXJ9NhCyiJvdXeSJtPkDumC4Yl0hUK82qxuDgEgj9BbBeLYxuH6xzG1S2YKiwVfOlXTn5DnHQ==";
+        };
+        _nWE4M7Fs = {
+            "id" = "nWE4M7Fs";
+            "file" = "Saros-Interactive-Blocks-Forge-1.21.1-1.2.1.jar";
+            "hash" = "sha512-TCzaA0Chj6fARu4CvvgroindRXq1Pb0BIMMIxmS0Dg9bt0wiXJDuNM2gY0dzx8C6yDXkOUf0TokoGMHkLIZetg==";
+        };
+        _94zlBPKn = {
+            "id" = "94zlBPKn";
+            "file" = "Saros-Interactive-Blocks-Forge-1.20.1-1.2.1.jar";
+            "hash" = "sha512-laUoPwi4Wyr9j7NnZUKERCvp+KiKQON2AS+dbmVuhreTRwin6VELKFwuyEP62OYxHNiiffSEzrrtoiqPjTPsUg==";
+        };
+        _JPTjtc5n = {
+            "id" = "JPTjtc5n";
+            "file" = "Saros-Interactive-Blocks-NeoForge-1.21.1-1.3.1.jar";
+            "hash" = "sha512-k72Po8UhXk47j1HygSzldAGZE6zGkbTHBZF5CZ6PXWHT11TL/njul7/zs2zWkx6FtgNOmxmPckMNmH1ihGo/Jg==";
+        };
+        _JJiqZLNK = {
+            "id" = "JJiqZLNK";
+            "file" = "Saros-Interactive-Blocks-Forge-1.21-1.2.1.jar";
+            "hash" = "sha512-s2otBFg09yn92MnReIF2SREp4h1LX7BIMHCACwrg/7yZ4oowzq8WKrNrjVZSHoMbNpZVjEX0d5LuNZksBiO02g==";
+        };
+        _a8n2WzkA = {
+            "id" = "a8n2WzkA";
+            "file" = "Saros-Interactive-Blocks-Forge-1.20.6-1.2.1.jar";
+            "hash" = "sha512-hdrpaPIPnNS8S2eisncGp/RsVcDQ2HWsrd5bQLFAabFhRKiFJGlVuV7jt9ZFC1dTD9Yg07ziEFG3/TH0A4lN8g==";
+        };
+        _eodWgfdi = {
+            "id" = "eodWgfdi";
+            "file" = "Saros-Interactive-Blocks-Forge-1.20.4-1.2.1.jar";
+            "hash" = "sha512-yvnP1JVO9gTCcsN40oUEgUMFqOgPu+Xs4y5zFCW3conpINlZO9N6YjBDexEk7G+jk1aJ/oqIMWZ5JXZkFTADnw==";
+        };
+        _LxZ5Iqne = {
+            "id" = "LxZ5Iqne";
+            "file" = "Saros-Interactive-Blocks-Forge-1.19.4-1.2.1.jar";
+            "hash" = "sha512-Fes9Y74Q2jRgSVzU8WGof8WyFHCIFy4az/ipRBqLF/nb+GMoLjObyo0S5ypAVKUBNtOHVEMl5ui8k9oXDGXrPA==";
+        };
+        _H0xd2NVw = {
+            "id" = "H0xd2NVw";
+            "file" = "Saros-Interactive-Blocks-Forge-1.19.2-1.2.1.jar";
+            "hash" = "sha512-74Djo6O8HlCJtRdLI5kKwbQXJlZ6ovPPTdAJsrbrYsCXaiM8LfL7wCfwHAdOKbnsizZazRgRD0W4o2c2mhCaAQ==";
+        };
+        _at1jn2Ys = {
+            "id" = "at1jn2Ys";
+            "file" = "Saros-Interactive-Blocks-Fabric-1.21-1.1.1.jar";
+            "hash" = "sha512-Jb7AGX8g3jvzc7x50NJsQrjzJx6R+g7ZGkE6psK1ZvAB6ql6KFy+FA0jI8YV1CG59BCReuiXWJDdkz9Qxwe6ww==";
+        };
+        _hJrFRnVo = {
+            "id" = "hJrFRnVo";
+            "file" = "Saros-Interactive-Blocks-Fabric-1.20.6-1.1.1.jar";
+            "hash" = "sha512-8cIs3nC0skS3f+7oQODCil1E5QQ7yuaGUVIW/uAc5Anq7VObRsFHJi9oh/vVxFYhHVEBEjVuQ392oq5yrrHsqg==";
+        };
+        _4EbdNQXp = {
+            "id" = "4EbdNQXp";
+            "file" = "Saros-Interactive-Blocks-Fabric-1.20.4-1.1.1.jar";
+            "hash" = "sha512-nY05n+ys78c/dQ9PuOlmtrNeXHprjKArYr63q9I+9VnVjYfzSfHTP6bSmdQEoZCdKZmoOrPRMuM4ZqN0anvKkg==";
+        };
+        _YC7UIlLU = {
+            "id" = "YC7UIlLU";
+            "file" = "Saros-Interactive-Blocks-Fabric-1.20.1-1.1.1.jar";
+            "hash" = "sha512-pS7FIUTXjTN2GjGaQSHSHv+Y4bdbPIAe5IRAOESGCA6JH49kDGqHzVHWmhHJVrlM8IMx63mYGI148PM92dS4Tg==";
+        };
+        _eMAgeg8s = {
+            "id" = "eMAgeg8s";
+            "file" = "Saros-Interactive-Blocks-Fabric-1.19.4-1.1.1.jar";
+            "hash" = "sha512-6cb8p5L0y0mox3cunnXqMsqJD2I1kj6g1ltnhEQEmM/mhObINH9V0qikIpLq1ViXequdQC+1DY44cr0Eu4IW1A==";
+        };
+        _reZtE7YT = {
+            "id" = "reZtE7YT";
+            "file" = "Saros-Interactive-Blocks-Fabric-1.19.2-1.1.1.jar";
+            "hash" = "sha512-0EVZZZRs6mX/s6OnchmbTlLC+jC0kmoMrx6O4d+kbgGLYBQ4Bwz2BAMl+m/ZQZV7iT9v0J1tq/Lxy+vl+ZW8Pg==";
+        };
+        _rfg449Rf = {
+            "id" = "rfg449Rf";
+            "file" = "Saros-Interactive-Blocks-Fabric-1.18.2-1.0.2.jar";
+            "hash" = "sha512-UwLrr4kUJwwn2HMGNevBGy3pUKVzi+HqoDPtRysef8co/gB3oMY1C1bpmSz5lEN3tehQP0qoBKoSN9sLH4sAxg==";
+        };
+        _vTJ3KOds = {
+            "id" = "vTJ3KOds";
+            "file" = "Saros-Interactive-Blocks-Fabric-1.16.5-1.0.2.jar";
+            "hash" = "sha512-lBFJHHjv5YpOogfeeN1ZnE3JzdxDWu/ClAqQbBxCljAJWs/J9VO4OAepUc9O3MGT8Fjk5CdJq5NzT/69RDKPOw==";
+        };
     in {
         "bbICU1Hq" = _bbICU1Hq;
         "4uhkmxgy" = _4uhkmxgy;
@@ -644,15 +744,35 @@ let
         "KZUWmZPz" = _KZUWmZPz;
         "NsEfEnMJ" = _NsEfEnMJ;
         "2izR7lGl" = _2izR7lGl;
+        "AGAINxuH" = _AGAINxuH;
+        "NL0yjzoc" = _NL0yjzoc;
+        "mhYGbA2l" = _mhYGbA2l;
+        "aVVVjGyF" = _aVVVjGyF;
+        "nWE4M7Fs" = _nWE4M7Fs;
+        "94zlBPKn" = _94zlBPKn;
+        "JPTjtc5n" = _JPTjtc5n;
+        "JJiqZLNK" = _JJiqZLNK;
+        "a8n2WzkA" = _a8n2WzkA;
+        "eodWgfdi" = _eodWgfdi;
+        "LxZ5Iqne" = _LxZ5Iqne;
+        "H0xd2NVw" = _H0xd2NVw;
+        "at1jn2Ys" = _at1jn2Ys;
+        "hJrFRnVo" = _hJrFRnVo;
+        "4EbdNQXp" = _4EbdNQXp;
+        "YC7UIlLU" = _YC7UIlLU;
+        "eMAgeg8s" = _eMAgeg8s;
+        "reZtE7YT" = _reZtE7YT;
+        "rfg449Rf" = _rfg449Rf;
+        "vTJ3KOds" = _vTJ3KOds;
         "forge-1.16.5" = _cJyOllvI;
         "forge-1.18.2" = _AjCIILmo;
-        "forge-1.19.2" = _Zwfsbpzv;
-        "forge-1.19.4" = _qtectEuu;
-        "forge-1.20.1" = _hkIdaZmk;
-        "forge-1.21" = _1QLZkZJK;
-        "forge-1.21.1" = _9pa1TxAW;
-        "forge-1.20.4" = _mE1uHcFJ;
-        "forge-1.20.6" = _ldk7o0pc;
+        "forge-1.19.2" = _H0xd2NVw;
+        "forge-1.19.4" = _LxZ5Iqne;
+        "forge-1.20.1" = _94zlBPKn;
+        "forge-1.21" = _JJiqZLNK;
+        "forge-1.21.1" = _nWE4M7Fs;
+        "forge-1.20.4" = _eodWgfdi;
+        "forge-1.20.6" = _a8n2WzkA;
         "forge-1.21.4" = _DbAMxf3J;
         "forge-1.21.5" = _aYikOWOs;
         "forge-1.21.6" = _bK69eEKV;
@@ -665,36 +785,45 @@ let
         "forge-26.1.1" = _RJzMbEef;
         "forge-26.1.2" = _JQdnTEtJ;
         "forge-26.2" = _zJNhqmxr;
-        "fabric-1.16.5" = _moUmqICN;
-        "fabric-1.18.2" = _DqunoXfz;
-        "fabric-1.19.2" = _x68lp2jM;
-        "fabric-1.19.4" = _4p10LcTH;
-        "fabric-1.20.1" = _xvLRxRTr;
-        "fabric-1.20.4" = _GCSF9bjP;
-        "fabric-1.20.6" = _ho9iZWs4;
-        "fabric-1.21" = _rDmmdL8J;
+        "forge-26.3" = _aVVVjGyF;
+        "fabric-1.16.5" = _vTJ3KOds;
+        "fabric-1.18.2" = _rfg449Rf;
+        "fabric-1.19.2" = _reZtE7YT;
+        "fabric-1.19.4" = _eMAgeg8s;
+        "fabric-1.20.1" = _YC7UIlLU;
+        "fabric-1.20.4" = _4EbdNQXp;
+        "fabric-1.20.6" = _hJrFRnVo;
+        "fabric-1.21" = _at1jn2Ys;
         "fabric-1.21.1" = _2izR7lGl;
         "fabric-1.21.4" = _ywmEJSy6;
         "fabric-1.21.5" = _UQu4Mqhn;
         "fabric-26.1" = _Gt7jAmkx;
         "fabric-26.1.1" = _oLVD4IbO;
         "fabric-26.1.2" = _fNMIb8N8;
-        "fabric-26.2" = _KZUWmZPz;
-        "neoforge-1.21.1" = _sOhCRTqA;
+        "fabric-26.2" = _NL0yjzoc;
+        "fabric-26.3" = _AGAINxuH;
+        "neoforge-1.21.1" = _JPTjtc5n;
         "neoforge-26.1" = _fNSn9yqN;
         "neoforge-26.1.1" = _8mRyU54H;
         "neoforge-26.1.2" = _WjNzTtAS;
         "neoforge-26.2" = _NsEfEnMJ;
-        "neoforge-1.20.1" = _hkIdaZmk;
+        "neoforge-1.20.1" = _94zlBPKn;
+        "neoforge-26.3" = _mhYGbA2l;
         "pkg-1.0" = _lS3gKArC;
         "pkg-1.1" = _KZUWmZPz;
         "pkg-1.2" = _WjNzTtAS;
         "pkg-1.0.1" = _moUmqICN;
         "pkg-1.3" = _NsEfEnMJ;
-        "pkg-1.0.2" = _X1bRyX40;
+        "pkg-1.0.2" = _vTJ3KOds;
         "pkg-1.4" = _iudeISe5;
         "pkg-1.5" = _2izR7lGl;
-        "default" = _2izR7lGl;
+        "pkg-1.6" = _AGAINxuH;
+        "pkg-1.7" = _mhYGbA2l;
+        "pkg-1.8-forge-26.3" = _aVVVjGyF;
+        "pkg-1.2.1" = _H0xd2NVw;
+        "pkg-1.3.1" = _JPTjtc5n;
+        "pkg-1.1.1" = _reZtE7YT;
+        "default" = _vTJ3KOds;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saros-interactive-blocks";

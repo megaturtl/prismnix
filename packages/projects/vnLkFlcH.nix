@@ -71,6 +71,11 @@ let
             "file" = "karns_UsefulCommand-2.2-21.11.jar";
             "hash" = "sha512-6sX1g5l1iEHmhOs4iRzDEU66sb4bEgIJXG5ndF9A+RYtNxexwdqhJO+xjEm3bBfRVcg0ESaFxhLWC9uE4jhViA==";
         };
+        _PQMDIj7E = {
+            "id" = "PQMDIj7E";
+            "file" = "karns_UsefulCommand-2.3-26.3.jar";
+            "hash" = "sha512-BP6uK1NKFC84Snl9mPMkuavqFZmx8Xj0+ihs8t9TorjeOmw23sbvnPeE3o8LAAFJaLsGQNggDh+831xy6J4yzQ==";
+        };
     in {
         "Im0zmRHP" = _Im0zmRHP;
         "l3men6bK" = _l3men6bK;
@@ -86,6 +91,7 @@ let
         "KZ413l82" = _KZ413l82;
         "s2ZGx6n5" = _s2ZGx6n5;
         "iLef3Wvx" = _iLef3Wvx;
+        "PQMDIj7E" = _PQMDIj7E;
         "fabric-1.19.4" = _3UDddj43;
         "fabric-1.20" = _3UDddj43;
         "fabric-1.20.1" = _1hnupIn0;
@@ -99,6 +105,7 @@ let
         "fabric-1.21.8" = _KZ413l82;
         "fabric-1.21.10" = _s2ZGx6n5;
         "fabric-1.21.11" = _iLef3Wvx;
+        "fabric-26.3" = _PQMDIj7E;
         "pkg-1.0" = _Im0zmRHP;
         "pkg-1.1" = _l3men6bK;
         "pkg-1.2" = _fQ1adv4u;
@@ -110,7 +117,8 @@ let
         "pkg-2.2-21.7" = _KZ413l82;
         "pkg-2.2-21.10" = _s2ZGx6n5;
         "pkg-2.2-21.11" = _iLef3Wvx;
-        "default" = _iLef3Wvx;
+        "pkg-2.3-26.3" = _PQMDIj7E;
+        "default" = _PQMDIj7E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "karns-useful-command";

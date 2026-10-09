@@ -186,6 +186,11 @@ let
             "file" = "sw-3.0.0-neoforge-26.1.2.jar";
             "hash" = "sha512-0sk5L4g7FkBEMsRr6BUS/kmZO3Ckcs+ZLTWrI0lD/qCuHmzKZyTORTDD7TCHF4XLx0a41O35j0iT3yENJM5j6Q==";
         };
+        _yyleghFb = {
+            "id" = "yyleghFb";
+            "file" = "sw-3.0.1-neoforge-26.1.2.jar";
+            "hash" = "sha512-URZC4ee5BI7HtlTzncFctmWhOXTAstVtzQ8N1zgo7UHs0k3au7aRj3NQp63KbFowk8p2hgAv0D4SN85TbPr7ng==";
+        };
     in {
         "bCIYZjkm" = _bCIYZjkm;
         "kfqY3SPm" = _kfqY3SPm;
@@ -224,12 +229,13 @@ let
         "dtTgk4e4" = _dtTgk4e4;
         "63st5KyA" = _63st5KyA;
         "wWDZMMkv" = _wWDZMMkv;
+        "yyleghFb" = _yyleghFb;
         "fabric-1.20.1" = _WgarHap6;
         "neoforge-1.20.6" = _YB8i7N1l;
         "neoforge-1.21.1" = _3LUkrCDP;
         "neoforge-1.21.4" = _i9J9erW3;
         "neoforge-1.21.8" = _63st5KyA;
-        "neoforge-26.1.2" = _wWDZMMkv;
+        "neoforge-26.1.2" = _yyleghFb;
         "pkg-0.1.0" = _bCIYZjkm;
         "pkg-1.0.0" = _Of0oz7Ko;
         "pkg-1.0.1" = _DreUdIth;
@@ -260,7 +266,8 @@ let
         "pkg-2.2.0" = _dtTgk4e4;
         "pkg-2.2.1" = _63st5KyA;
         "pkg-3.0.0" = _wWDZMMkv;
-        "default" = _wWDZMMkv;
+        "pkg-3.0.1" = _yyleghFb;
+        "default" = _yyleghFb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scholarwhooves";

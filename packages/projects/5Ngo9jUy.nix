@@ -66,6 +66,21 @@ let
             "file" = "choppersdelight-fabric-1.21.1-1.1.0.jar";
             "hash" = "sha512-pIfbUvNlpp918UwIIf1fy/qKZgDQhN9wwUB9e9ukax9UfXTrM1TqyaPPhvzN245tlyjURMjuxKA+itqKvOsoRw==";
         };
+        _qaSEHh3r = {
+            "id" = "qaSEHh3r";
+            "file" = "choppersdelight-forge-1.20.1-1.2.1.jar";
+            "hash" = "sha512-hWeitCCA56MfaLOFYmG4ruate+w3H6XOhSltNqeApQnOD2xMXOhmVdQ3el5QgGdGlnEW/EmQfjZjQaWaWb8zzQ==";
+        };
+        _qqtEV5J3 = {
+            "id" = "qqtEV5J3";
+            "file" = "choppersdelight-neoforge-1.21.1-1.2.1.jar";
+            "hash" = "sha512-mBy17o+NYAuVJCHFcZ7NsbAWQS1NU4c4a9LxDaWKUe7klZpY3DcDgrNoTsYWaHqZRtCK1rhrDgylLagEJqvvTg==";
+        };
+        _1lF4QatS = {
+            "id" = "1lF4QatS";
+            "file" = "choppersdelight-fabric-1.21.1-1.2.1.jar";
+            "hash" = "sha512-+hdbcO9eT6SXA94zYCEeHNICa20PrEUhPUEpxFj6bozq0sG4SA8RO5XprrwIqPFr+jI848/z0b9OLHmNiSKQKA==";
+        };
     in {
         "7WP4w0WN" = _7WP4w0WN;
         "wzs0CLu6" = _wzs0CLu6;
@@ -80,19 +95,23 @@ let
         "hEUl3S23" = _hEUl3S23;
         "nwXBy4bo" = _nwXBy4bo;
         "2d93Zvs3" = _2d93Zvs3;
-        "neoforge-1.21" = _hEUl3S23;
-        "neoforge-1.21.1" = _hEUl3S23;
-        "neoforge-1.20.1" = _nwXBy4bo;
-        "fabric-1.21" = _2d93Zvs3;
-        "fabric-1.21.1" = _2d93Zvs3;
-        "forge-1.20.1" = _nwXBy4bo;
+        "qaSEHh3r" = _qaSEHh3r;
+        "qqtEV5J3" = _qqtEV5J3;
+        "1lF4QatS" = _1lF4QatS;
+        "neoforge-1.21" = _qqtEV5J3;
+        "neoforge-1.21.1" = _qqtEV5J3;
+        "neoforge-1.20.1" = _qaSEHh3r;
+        "fabric-1.21" = _1lF4QatS;
+        "fabric-1.21.1" = _1lF4QatS;
+        "forge-1.20.1" = _qaSEHh3r;
         "pkg-1.0.0" = _shAZtfdJ;
         "pkg-1.0.1" = _naOd6ck1;
         "pkg-1.0.2" = _UwXWiOrX;
         "pkg-1.1.0" = _2d93Zvs3;
         "pkg-1.1.2" = _thB4dgEM;
         "pkg-1.2.0" = _nwXBy4bo;
-        "default" = _2d93Zvs3;
+        "pkg-1.2.1" = _1lF4QatS;
+        "default" = _1lF4QatS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "choppers-delight";

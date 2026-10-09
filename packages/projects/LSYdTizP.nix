@@ -11,9 +11,21 @@ let
             "file" = "shulkers-drops-two-shells-v1.0.0.jar";
             "hash" = "sha512-+wQb9p9WlnpuIrxuuKtMIqLG3TDKuzViyLdHxBBX3rLiPnBS5IIHL0PGCHIjILoN7+nHwc8V5kAcgVuch5tS3g==";
         };
+        _rSWJF2ve = {
+            "id" = "rSWJF2ve";
+            "file" = "Shulkers Drops Two Shells v1.0.0 [26.3].zip";
+            "hash" = "sha512-8i/Lq/+DSysMVCoaNYnSBiYyYgtcS5z+TVbohj+8Jfo4DGgVi8PSAHJvD86XV5ONVxvVHA+wJCe05GZrjUd6Wg==";
+        };
+        _f7qKNTgm = {
+            "id" = "f7qKNTgm";
+            "file" = "shulkers-drops-two-shells-1.0.0.jar";
+            "hash" = "sha512-iQA3rxi6hXhrT+HUrWd7SmiStQnLLXRc/uQuaL4LUT6VwZ4HN5JEgzMPFCBS8YuYsCI8J1y4eWwfgIDLXicvMA==";
+        };
     in {
         "EK8U758L" = _EK8U758L;
         "ElKrzn3e" = _ElKrzn3e;
+        "rSWJF2ve" = _rSWJF2ve;
+        "f7qKNTgm" = _f7qKNTgm;
         "datapack-1.21" = _EK8U758L;
         "datapack-1.21.1" = _EK8U758L;
         "datapack-1.21.2" = _EK8U758L;
@@ -30,6 +42,7 @@ let
         "datapack-26.1.1" = _EK8U758L;
         "datapack-26.1.2" = _EK8U758L;
         "datapack-26.2" = _EK8U758L;
+        "datapack-26.3" = _rSWJF2ve;
         "fabric-1.21" = _ElKrzn3e;
         "fabric-1.21.1" = _ElKrzn3e;
         "fabric-1.21.2" = _ElKrzn3e;
@@ -46,6 +59,7 @@ let
         "fabric-26.1.1" = _ElKrzn3e;
         "fabric-26.1.2" = _ElKrzn3e;
         "fabric-26.2" = _ElKrzn3e;
+        "fabric-26.3" = _f7qKNTgm;
         "forge-1.21" = _ElKrzn3e;
         "forge-1.21.1" = _ElKrzn3e;
         "forge-1.21.2" = _ElKrzn3e;
@@ -62,6 +76,7 @@ let
         "forge-26.1.1" = _ElKrzn3e;
         "forge-26.1.2" = _ElKrzn3e;
         "forge-26.2" = _ElKrzn3e;
+        "forge-26.3" = _f7qKNTgm;
         "neoforge-1.21" = _ElKrzn3e;
         "neoforge-1.21.1" = _ElKrzn3e;
         "neoforge-1.21.2" = _ElKrzn3e;
@@ -78,6 +93,7 @@ let
         "neoforge-26.1.1" = _ElKrzn3e;
         "neoforge-26.1.2" = _ElKrzn3e;
         "neoforge-26.2" = _ElKrzn3e;
+        "neoforge-26.3" = _f7qKNTgm;
         "quilt-1.21" = _ElKrzn3e;
         "quilt-1.21.1" = _ElKrzn3e;
         "quilt-1.21.2" = _ElKrzn3e;
@@ -94,9 +110,12 @@ let
         "quilt-26.1.1" = _ElKrzn3e;
         "quilt-26.1.2" = _ElKrzn3e;
         "quilt-26.2" = _ElKrzn3e;
+        "quilt-26.3" = _f7qKNTgm;
         "pkg-v1.0.0" = _EK8U758L;
         "pkg-v1.0.0+mod" = _ElKrzn3e;
-        "default" = _ElKrzn3e;
+        "pkg-1.0.0" = _rSWJF2ve;
+        "pkg-1.0.0+mod" = _f7qKNTgm;
+        "default" = _f7qKNTgm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shulkers-drops-two-shells";

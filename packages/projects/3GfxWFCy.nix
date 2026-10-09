@@ -196,6 +196,46 @@ let
             "file" = "dungeons-and-taverns-woodland-mansion-overhaul-2.1.jar";
             "hash" = "sha512-QgLMvOB6tNXkUsZs7fnXCuIQjR3gZb8vNdk5k6APUNWwEGOChUkrvj+WwRPewNV0ep7d89r06I9mrstMejeJkA==";
         };
+        _82EbZQC5 = {
+            "id" = "82EbZQC5";
+            "file" = "DnT Woodland Mansion Overhaul v2.2.zip";
+            "hash" = "sha512-c87eML7mlk6tPU4IGw7cs9nhpjWAp9Z4Nuh+XFhsjKU0gTqeoZS4y8V5aeN/5WiwXUJKbsx1jne77RdQiV64Mg==";
+        };
+        _mFRgrZif = {
+            "id" = "mFRgrZif";
+            "file" = "dungeons-and-taverns-woodland-mansion-overhaul-2.2.jar";
+            "hash" = "sha512-g1TdTjEp1HBvbAQgbnm3UvWv8eQDoC3i/8PmMIvh7R7XUNEr00cYjD8HqQud0qYMoujJiJk8e7kCgCzE1V5ykg==";
+        };
+        _q01qlY9q = {
+            "id" = "q01qlY9q";
+            "file" = "dungeons-and-taverns-woodland-mansion-overhaul-2.2.jar";
+            "hash" = "sha512-0oUYimIibChrqIuRh/XYftP+RGnCka7MG0gJuyTC1t7UmCd3/4W7CYjvJNaNhPRBQ6BY+ba/R86bEV+X2C0G0w==";
+        };
+        _AG5lXjSG = {
+            "id" = "AG5lXjSG";
+            "file" = "dungeons-and-taverns-woodland-mansion-overhaul-2.2.jar";
+            "hash" = "sha512-fe/PygFboA/YwZ1zFF7CEKHYPPuOLpOurUNIJ/yKVxffjIYEMGvF5G96/1QK7yUEiZEhixOe2Y06MjoHCXrINQ==";
+        };
+        _RlEVYM4i = {
+            "id" = "RlEVYM4i";
+            "file" = "DnT Woodland Mansion Overhaul 2.2.1.zip";
+            "hash" = "sha512-tHHOtcBZrzcl2KsepllVPsnB07DaMNMV9yFqtgEXSJb10LHfbUAw34sly9d7yBXlEhzEJuqu5STE6HjRZQAyEw==";
+        };
+        _EPLwoEkn = {
+            "id" = "EPLwoEkn";
+            "file" = "dungeons-and-taverns-woodland-mansion-overhaul-2.2.1.jar";
+            "hash" = "sha512-rCaMpiVAUqbhNO3Dj04/qRTt6Zc1pfY2vTPSZalcvujyYK+BI22kPgeRsdJDyKh489h+xXiIJeiglWq6Lzgybw==";
+        };
+        _3ei2v01X = {
+            "id" = "3ei2v01X";
+            "file" = "dungeons-and-taverns-woodland-mansion-overhaul-2.2.1.jar";
+            "hash" = "sha512-um6aXH+76twqUL+gyR6/W5YXeREgfr0xbRflMsICpDf3JjPZOgCQhkwMPOtkSS0Jii9AMN17vR0ewzfKxxoghw==";
+        };
+        _NlxldHQt = {
+            "id" = "NlxldHQt";
+            "file" = "dungeons-and-taverns-woodland-mansion-overhaul-2.2.1.jar";
+            "hash" = "sha512-eJrxYSH5Rbp/LNxDSl2Uh7yyU5e+4nOOwkTKHf2d6pooQR/KMkrtWBpay/GPfVJTaqR+MKM0FR1XDBDRORKT8w==";
+        };
     in {
         "UoGmHAMr" = _UoGmHAMr;
         "eBwtEySF" = _eBwtEySF;
@@ -236,6 +276,14 @@ let
         "zg7f1Hac" = _zg7f1Hac;
         "My3rraua" = _My3rraua;
         "dsjaLkbk" = _dsjaLkbk;
+        "82EbZQC5" = _82EbZQC5;
+        "mFRgrZif" = _mFRgrZif;
+        "q01qlY9q" = _q01qlY9q;
+        "AG5lXjSG" = _AG5lXjSG;
+        "RlEVYM4i" = _RlEVYM4i;
+        "EPLwoEkn" = _EPLwoEkn;
+        "3ei2v01X" = _3ei2v01X;
+        "NlxldHQt" = _NlxldHQt;
         "datapack-1.21" = _g485D38Q;
         "datapack-1.21.1" = _g485D38Q;
         "datapack-1.21.2" = _wdqL8sD6;
@@ -252,6 +300,7 @@ let
         "datapack-26.1.1" = _sIwi7RFy;
         "datapack-26.1.2" = _sIwi7RFy;
         "datapack-26.2" = _sIwi7RFy;
+        "datapack-26.3" = _RlEVYM4i;
         "fabric-1.21" = _B1ivXLEW;
         "fabric-1.21.1" = _B1ivXLEW;
         "fabric-1.21.2" = _MGhE63Az;
@@ -268,6 +317,7 @@ let
         "fabric-26.1.1" = _zg7f1Hac;
         "fabric-26.1.2" = _zg7f1Hac;
         "fabric-26.2" = _zg7f1Hac;
+        "fabric-26.3" = _EPLwoEkn;
         "forge-1.21" = _suKCFpSF;
         "forge-1.21.1" = _suKCFpSF;
         "forge-1.21.2" = _oytWDSby;
@@ -284,6 +334,7 @@ let
         "forge-26.1.1" = _My3rraua;
         "forge-26.1.2" = _My3rraua;
         "forge-26.2" = _My3rraua;
+        "forge-26.3" = _3ei2v01X;
         "neoforge-1.21" = _LEkxbqdY;
         "neoforge-1.21.1" = _LEkxbqdY;
         "neoforge-1.21.2" = _zj2HZySj;
@@ -300,6 +351,7 @@ let
         "neoforge-26.1.1" = _dsjaLkbk;
         "neoforge-26.1.2" = _dsjaLkbk;
         "neoforge-26.2" = _dsjaLkbk;
+        "neoforge-26.3" = _NlxldHQt;
         "pkg-v1" = _UoGmHAMr;
         "pkg-v1+mod" = _2fcS5dDT;
         "pkg-v1.1" = _qyoANGr8;
@@ -320,7 +372,11 @@ let
         "pkg-v2+mod" = _NPX3S6U6;
         "pkg-2.1" = _sIwi7RFy;
         "pkg-2.1+mod" = _dsjaLkbk;
-        "default" = _dsjaLkbk;
+        "pkg-2.2" = _82EbZQC5;
+        "pkg-2.2+mod" = _AG5lXjSG;
+        "pkg-2.2.1" = _RlEVYM4i;
+        "pkg-2.2.1+mod" = _NlxldHQt;
+        "default" = _NlxldHQt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dungeons-and-taverns-woodland-mansion-overhaul";

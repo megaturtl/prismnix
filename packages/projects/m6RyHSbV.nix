@@ -191,6 +191,16 @@ let
             "file" = "legendarymonuments-fabric-1.21.1-8.1-Love_for_All.jar";
             "hash" = "sha512-BXGi362rT+rgIpWdwfcBSuZYpvrQRWgxjQwbxG/RaDfq6zXw4Tzg04X8ix909o5GFPCpJh5nYR3qmWeW1Woadg==";
         };
+        _oRFso4Pk = {
+            "id" = "oRFso4Pk";
+            "file" = "legendarymonuments-neoforge-1.21.1-8.2-Keep-Fighting.jar";
+            "hash" = "sha512-n1HDBZWJVl2NpfMLizpFOxIyOz//iM1ZvfWemscRnCcR9zr17AxXMeWw0Ubuz2Uo0bxFXMEsTvQHa8Pa1vcI3g==";
+        };
+        _dcZ53MPy = {
+            "id" = "dcZ53MPy";
+            "file" = "legendarymonuments-fabric-1.21.1-8.2-Keep-Fighting.jar";
+            "hash" = "sha512-5NBLBcnJk00p5rJijPvfYcRPyMrbtH7G3LbSHBqXh2wcZYh0PKtUuQed6WM2C5X8IqguljNOowXZWWTTe2/crA==";
+        };
     in {
         "4vsAsHcB" = _4vsAsHcB;
         "5jIWJ4mk" = _5jIWJ4mk;
@@ -230,8 +240,10 @@ let
         "6nvO1cvI" = _6nvO1cvI;
         "UNW6ItXN" = _UNW6ItXN;
         "F6Ub0Gga" = _F6Ub0Gga;
-        "fabric-1.21.1" = _F6Ub0Gga;
-        "neoforge-1.21.1" = _UNW6ItXN;
+        "oRFso4Pk" = _oRFso4Pk;
+        "dcZ53MPy" = _dcZ53MPy;
+        "fabric-1.21.1" = _dcZ53MPy;
+        "neoforge-1.21.1" = _oRFso4Pk;
         "pkg-1.0" = _4vsAsHcB;
         "pkg-2.0" = _5jIWJ4mk;
         "pkg-3.0" = _UEXmLocA;
@@ -263,7 +275,8 @@ let
         "pkg-8.0.2" = _nzE0CTRV;
         "pkg-8.0.3" = _6nvO1cvI;
         "pkg-8.1-Love-for-All" = _F6Ub0Gga;
-        "default" = _F6Ub0Gga;
+        "pkg-8.2-Keep-Fighting" = _dcZ53MPy;
+        "default" = _dcZ53MPy;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "legendary-monuments";

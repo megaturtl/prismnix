@@ -341,6 +341,36 @@ let
             "file" = "afk-announcer-v4.0.3.jar";
             "hash" = "sha512-v6jZwgwgF101tXIE+6Nc3cFlM3ycVMHbtOfzr4pv6bEljxWVFDyiGNLKiToN+sAOu5YSSJKajIDND49s25GxLQ==";
         };
+        _YUtrtcGs = {
+            "id" = "YUtrtcGs";
+            "file" = "afk-announcer-v4.2.0.zip";
+            "hash" = "sha512-Z9ziqMGbUuqUJsP/f41UAHEa06M8EzdKG3dT/Mw+FHQB/VTtQ3U3H9xLe/ut1+OPz2HVdOHo/OykNv7gumlV5A==";
+        };
+        _dfpDZW4q = {
+            "id" = "dfpDZW4q";
+            "file" = "afk-announcer-v4.2.0.jar";
+            "hash" = "sha512-iaHLk8YMHYm8vZb51c8qtBpPhaFdNQJVxUSEwT+Txzsy9kRu9Ywy4+SAkyNiUGJMDtEefxiKY7G9xAgajJmy+w==";
+        };
+        _xDTpGcxb = {
+            "id" = "xDTpGcxb";
+            "file" = "afk-announcer-v4.2.1.zip";
+            "hash" = "sha512-T6vDZWnhhm2nc6ZGja38OYiepgPob04+fKtdx57IDpsDRcHywfrx42fDeNf8TwRHSFCiu2r+/R7XAYJ0Wt3NZA==";
+        };
+        _F73I9iRf = {
+            "id" = "F73I9iRf";
+            "file" = "afk-announcer-v4.2.1.jar";
+            "hash" = "sha512-U/V0Xa5tPFu7yJVrAKrVs3kWnw5pSVTdLFJVmaaRExI/XLkArm+ZLmmhGgSsHCy9pacsM+/h9bPe5lpkTdW1+Q==";
+        };
+        _5Dou3F4w = {
+            "id" = "5Dou3F4w";
+            "file" = "afk-announcer-v4.2.2.zip";
+            "hash" = "sha512-mBFzVY/fw4fd3Titn3UTQtI1jWt9w+YTK4kSwkgqsvq60tjM4/Cnqk4nsm/OxQkzmeNnFVhq00tycZrmBZ5nxg==";
+        };
+        _fP8yEzZZ = {
+            "id" = "fP8yEzZZ";
+            "file" = "afk-announcer-v4.2.2.jar";
+            "hash" = "sha512-bHSVjWQpU6fL82/cgRryhX0+sov5Nq7iT9iHlNozEYZUN+86/EekQCGjVQA+VRrXmosCpHZewhIvJVERAjs3FQ==";
+        };
     in {
         "dchAJb61" = _dchAJb61;
         "gsMFipmy" = _gsMFipmy;
@@ -410,6 +440,12 @@ let
         "LpnERmBt" = _LpnERmBt;
         "Gggf8CSH" = _Gggf8CSH;
         "l0bqmVuj" = _l0bqmVuj;
+        "YUtrtcGs" = _YUtrtcGs;
+        "dfpDZW4q" = _dfpDZW4q;
+        "xDTpGcxb" = _xDTpGcxb;
+        "F73I9iRf" = _F73I9iRf;
+        "5Dou3F4w" = _5Dou3F4w;
+        "fP8yEzZZ" = _fP8yEzZZ;
         "datapack-1.20.4" = _TuBxsr6M;
         "datapack-1.20.5" = _P9jGJ9EO;
         "datapack-1.20.6" = _P9jGJ9EO;
@@ -430,6 +466,7 @@ let
         "datapack-26.1.1" = _Gggf8CSH;
         "datapack-26.1.2" = _Gggf8CSH;
         "datapack-26.2" = _Gggf8CSH;
+        "datapack-26.3" = _5Dou3F4w;
         "fabric-1.20.4" = _R4ffxQii;
         "fabric-1.20.5" = _ecDhWYyB;
         "fabric-1.20.6" = _ecDhWYyB;
@@ -450,6 +487,7 @@ let
         "fabric-26.1.1" = _l0bqmVuj;
         "fabric-26.1.2" = _l0bqmVuj;
         "fabric-26.2" = _l0bqmVuj;
+        "fabric-26.3" = _fP8yEzZZ;
         "forge-1.20.4" = _R4ffxQii;
         "forge-1.20.5" = _ecDhWYyB;
         "forge-1.20.6" = _ecDhWYyB;
@@ -470,6 +508,7 @@ let
         "forge-26.1.1" = _l0bqmVuj;
         "forge-26.1.2" = _l0bqmVuj;
         "forge-26.2" = _l0bqmVuj;
+        "forge-26.3" = _fP8yEzZZ;
         "quilt-1.20.4" = _R4ffxQii;
         "quilt-1.20.5" = _ecDhWYyB;
         "quilt-1.20.6" = _ecDhWYyB;
@@ -490,6 +529,7 @@ let
         "quilt-26.1.1" = _l0bqmVuj;
         "quilt-26.1.2" = _l0bqmVuj;
         "quilt-26.2" = _l0bqmVuj;
+        "quilt-26.3" = _fP8yEzZZ;
         "neoforge-1.21" = _BAN3UGOM;
         "neoforge-1.21.1" = _BAN3UGOM;
         "neoforge-1.21.2" = _BAN3UGOM;
@@ -505,6 +545,7 @@ let
         "neoforge-26.1.1" = _l0bqmVuj;
         "neoforge-26.1.2" = _l0bqmVuj;
         "neoforge-26.2" = _l0bqmVuj;
+        "neoforge-26.3" = _fP8yEzZZ;
         "pkg-v.1.0.0" = _dchAJb61;
         "pkg-v.1.0.0+mod" = _gsMFipmy;
         "pkg-v.1.0.1" = _4RFJPATo;
@@ -561,7 +602,13 @@ let
         "pkg-v4.0.2.1+mod" = _LpnERmBt;
         "pkg-v4.0.3" = _Gggf8CSH;
         "pkg-v4.0.3+mod" = _l0bqmVuj;
-        "default" = _l0bqmVuj;
+        "pkg-v4.2.0" = _YUtrtcGs;
+        "pkg-v4.2.0+mod" = _dfpDZW4q;
+        "pkg-v4.2.1" = _xDTpGcxb;
+        "pkg-v4.2.1+mod" = _F73I9iRf;
+        "pkg-v4.2.2" = _5Dou3F4w;
+        "pkg-v4.2.2+mod" = _fP8yEzZZ;
+        "default" = _fP8yEzZZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "afk-announcer";

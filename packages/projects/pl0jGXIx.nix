@@ -466,6 +466,16 @@ let
             "file" = "MysticalAgradditions-26.1.2-9.0.3.jar";
             "hash" = "sha512-NzVpEmIjS5Z6/ExJ7tBwLu5Ie+S8LkcDTh2I2P/lGLpO/ZdsEkn2EQrBecRkwknq9+TBYmQeAH2kGMNZeHDNvw==";
         };
+        _fNQephU4 = {
+            "id" = "fNQephU4";
+            "file" = "MysticalAgradditions-1.21.1-8.0.15.jar";
+            "hash" = "sha512-1CyzF5pvNyu+qcN7oIxCIa2p7A451+HWsz7KfncKuzUmqtM/+QMRGhiIpj1l2Ws+TMCfQEGnmzfNtST+EDiMOQ==";
+        };
+        _jDNfRQZi = {
+            "id" = "jDNfRQZi";
+            "file" = "MysticalAgradditions-26.1.2-9.0.4.jar";
+            "hash" = "sha512-pPd3xB8Vl1iiYNo/tl1ibzxC8TIvW5VpUPFxhckRru4uNxjNN1yaFk+IdKhfb5eOoh5jiNxqcdOkxcg4odP9jQ==";
+        };
     in {
         "DA88q0KF" = _DA88q0KF;
         "TXsPn6Tz" = _TXsPn6Tz;
@@ -560,6 +570,8 @@ let
         "31EVEM35" = _31EVEM35;
         "zQhfTXMZ" = _zQhfTXMZ;
         "1k8BXOYr" = _1k8BXOYr;
+        "fNQephU4" = _fNQephU4;
+        "jDNfRQZi" = _jDNfRQZi;
         "forge-1.10.2" = _i8xVNQFW;
         "forge-1.11.2" = _zDoJ6Sei;
         "forge-1.12" = _fKUIPnKo;
@@ -578,9 +590,9 @@ let
         "forge-1.19.4" = _o0RS176A;
         "forge-1.20" = _1zXLaRFr;
         "forge-1.20.1" = _48qKWNA7;
-        "neoforge-1.21" = _31EVEM35;
-        "neoforge-1.21.1" = _31EVEM35;
-        "neoforge-26.1.2" = _1k8BXOYr;
+        "neoforge-1.21" = _fNQephU4;
+        "neoforge-1.21.1" = _fNQephU4;
+        "neoforge-26.1.2" = _jDNfRQZi;
         "pkg-1.0.0" = _TXsPn6Tz;
         "pkg-1.0.1" = _bAJ3X2IM;
         "pkg-1.0.2" = _ozqPFMzp;
@@ -671,7 +683,9 @@ let
         "pkg-8.0.14" = _31EVEM35;
         "pkg-9.0.2" = _zQhfTXMZ;
         "pkg-9.0.3" = _1k8BXOYr;
-        "default" = _1k8BXOYr;
+        "pkg-8.0.15" = _fNQephU4;
+        "pkg-9.0.4" = _jDNfRQZi;
+        "default" = _jDNfRQZi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mystical-agradditions";

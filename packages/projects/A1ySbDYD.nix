@@ -86,6 +86,21 @@ let
             "file" = "bigger_end_cities-1.21.5-1.1.1.jar";
             "hash" = "sha512-oj93EF6GwxvUwHayDnxzc7BniS2z72yMCU56Rwcg2whozeS6QnEWfgm6wSoDVSgqonN4L8Zw37IosTxdNCPhIQ==";
         };
+        _txCQNULV = {
+            "id" = "txCQNULV";
+            "file" = "bigger_end_cities-1.21.1-1.1.3.jar";
+            "hash" = "sha512-ZqdIMx+oYCYEs4fc5RxZeok8EHq5MAwO3D8ePWssZ2PCTcf0S8bIqCE53OoarrAVNrmfrsk4I7+cGj3NbjVMiA==";
+        };
+        _pprnHdcr = {
+            "id" = "pprnHdcr";
+            "file" = "bigger_end_cities-1.21.2-1.21.11-1.1.3.jar";
+            "hash" = "sha512-HWY1WiOJZHR2xDkEbVgTSM6qtd/bYcuRYDb0mGM0YQlgSDVGOzX3Db6Jd5HTlJQHws51NubpFFnoWwjSkto5nQ==";
+        };
+        _8bEN9Ap5 = {
+            "id" = "8bEN9Ap5";
+            "file" = "bigger_end_cities-26.1-26.3-1.1.3.jar";
+            "hash" = "sha512-i5D9iX0ufn2uiJUJlZ/5q6ThyyfDrP0F+0LZ2+rSEQmyAwotuMZZ1Db4z52tHjmuoWeA02s2g5FxdoZSAwiUyw==";
+        };
     in {
         "d0JsnGRp" = _d0JsnGRp;
         "bIVrwTsq" = _bIVrwTsq;
@@ -104,6 +119,9 @@ let
         "gIczdSud" = _gIczdSud;
         "9iUlcDAA" = _9iUlcDAA;
         "kZGNJ4oa" = _kZGNJ4oa;
+        "txCQNULV" = _txCQNULV;
+        "pprnHdcr" = _pprnHdcr;
+        "8bEN9Ap5" = _8bEN9Ap5;
         "fabric-1.19.1" = _ryxTliBr;
         "fabric-1.19.2" = _ryxTliBr;
         "fabric-1.19" = _ryxTliBr;
@@ -115,11 +133,22 @@ let
         "fabric-1.20.3" = _ak7KnAvs;
         "fabric-1.20.4" = _QJWXlMuX;
         "fabric-1.21" = _3kqH7RGr;
-        "fabric-1.21.1" = _ibuODUGb;
-        "fabric-1.21.2" = _JWJdIBgn;
-        "fabric-1.21.3" = _gIczdSud;
-        "fabric-1.21.4" = _9iUlcDAA;
-        "fabric-1.21.5" = _kZGNJ4oa;
+        "fabric-1.21.1" = _txCQNULV;
+        "fabric-1.21.2" = _pprnHdcr;
+        "fabric-1.21.3" = _pprnHdcr;
+        "fabric-1.21.4" = _pprnHdcr;
+        "fabric-1.21.5" = _pprnHdcr;
+        "fabric-1.21.6" = _pprnHdcr;
+        "fabric-1.21.7" = _pprnHdcr;
+        "fabric-1.21.8" = _pprnHdcr;
+        "fabric-1.21.9" = _pprnHdcr;
+        "fabric-1.21.10" = _pprnHdcr;
+        "fabric-1.21.11" = _pprnHdcr;
+        "fabric-26.1" = _8bEN9Ap5;
+        "fabric-26.1.1" = _8bEN9Ap5;
+        "fabric-26.1.2" = _8bEN9Ap5;
+        "fabric-26.2" = _8bEN9Ap5;
+        "fabric-26.3" = _8bEN9Ap5;
         "pkg-1.19.1-1.0.0" = _d0JsnGRp;
         "pkg-1.19.2-1.0.0" = _bIVrwTsq;
         "pkg-1.19.3-1.0.0" = _ryxTliBr;
@@ -137,7 +166,10 @@ let
         "pkg-1.21.3-1.1.0" = _gIczdSud;
         "pkg-1.21.4-1.1.0" = _9iUlcDAA;
         "pkg-1.21.5-1.1.1" = _kZGNJ4oa;
-        "default" = _kZGNJ4oa;
+        "pkg-1.21.1-1.1.3" = _txCQNULV;
+        "pkg-1.21.2-1.21.11-1.1.3" = _pprnHdcr;
+        "pkg-26.1-26.3-1.1.3" = _8bEN9Ap5;
+        "default" = _8bEN9Ap5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bigger-better-end-cities";

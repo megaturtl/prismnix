@@ -161,6 +161,16 @@ let
             "file" = "Trails&Tales+-V1.0-Forge-26.2.jar";
             "hash" = "sha512-7v2/UNqOcpCCR4jDxk2ezG1qGaD/EYrYo2vkvYbMSnmVZBKauGkR3mkvdB0JqtNI3+jTpRKbKh5Hd/IEYiVkTQ==";
         };
+        _zBcXoC00 = {
+            "id" = "zBcXoC00";
+            "file" = "Trails&Tales+-V1.0-Neoforge-26.3.jar";
+            "hash" = "sha512-uRuhSMXUsRgtWtJ1svjWFzqOhlsz5mSch5FWwQ6cl4hLqjhtLa1lSl4RNHtBrDUFCyjoUsJyMgAq4/TwcidHMA==";
+        };
+        _z8H8miOC = {
+            "id" = "z8H8miOC";
+            "file" = "Trails&Tales+-V1.0-Forge-26.3.jar";
+            "hash" = "sha512-1+eI8ucSx7PbFz6qjUHRRKDOIIowtDhpaYlprDDnkaUOzk+1OlIGBC5ynKbCT+0T9vf903caqWRZK8fVURFzzw==";
+        };
     in {
         "KE7rlnxK" = _KE7rlnxK;
         "qEy7SV9e" = _qEy7SV9e;
@@ -194,6 +204,8 @@ let
         "mpJeEOxf" = _mpJeEOxf;
         "uaWTS4PD" = _uaWTS4PD;
         "FpDzhrHR" = _FpDzhrHR;
+        "zBcXoC00" = _zBcXoC00;
+        "z8H8miOC" = _z8H8miOC;
         "forge-1.20" = _KE7rlnxK;
         "forge-1.20.1" = _qEy7SV9e;
         "forge-1.21.1" = _FM4CNHLw;
@@ -209,6 +221,7 @@ let
         "forge-26.1.1" = _mpJeEOxf;
         "forge-26.1.2" = _mpJeEOxf;
         "forge-26.2" = _FpDzhrHR;
+        "forge-26.3" = _z8H8miOC;
         "neoforge-1.21.1" = _WOvaOhzl;
         "neoforge-1.21.4" = _EIybIGbp;
         "neoforge-1.21.5" = _uFbvqZQg;
@@ -222,15 +235,16 @@ let
         "neoforge-26.1.1" = _v4fxWtA5;
         "neoforge-26.1.2" = _v4fxWtA5;
         "neoforge-26.2" = _uaWTS4PD;
+        "neoforge-26.3" = _zBcXoC00;
         "pkg-1.20-1.0" = _KE7rlnxK;
         "pkg-1.20.1-1.0.0" = _qEy7SV9e;
-        "pkg-1.0.0" = _FpDzhrHR;
+        "pkg-1.0.0" = _z8H8miOC;
         "pkg-2.0.0" = _KLDiq2Ic;
         "pkg-3.0.0" = _VMNSoIRh;
         "pkg-1.1.0" = _UltFUpvL;
         "pkg-3.1.0" = _lWeQI8ui;
         "pkg-1.2.0" = _mpJeEOxf;
-        "default" = _FpDzhrHR;
+        "default" = _z8H8miOC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trails-and-tales-plus";

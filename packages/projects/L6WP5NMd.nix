@@ -76,6 +76,11 @@ let
             "file" = "SpecSpoof-1.5.1.jar";
             "hash" = "sha512-NG/t+tjhimTGU6e282M7DotaxyZmNRvxtMP4YPav0CjkKxf5JMcCFOM0Q0UFNRxwVYVEDxWi8Vo71i5/nLPPPg==";
         };
+        _59iCw46J = {
+            "id" = "59iCw46J";
+            "file" = "SpecSpoof-1.5.2.jar";
+            "hash" = "sha512-SxkGoi7hhyC44OqZOONZAckhdGeRio8SKtsR1b2oavOhXSmqIZEAaOGzHEvQD50/f9V0sia0sfl/Lh6BN4Vvhw==";
+        };
     in {
         "51pCvQoU" = _51pCvQoU;
         "PvKTpqLh" = _PvKTpqLh;
@@ -92,6 +97,7 @@ let
         "dCQCnna3" = _dCQCnna3;
         "8vRwtuXS" = _8vRwtuXS;
         "NXcLeXQm" = _NXcLeXQm;
+        "59iCw46J" = _59iCw46J;
         "fabric-1.15" = _Whnye9ui;
         "fabric-1.15.1" = _Whnye9ui;
         "fabric-1.15.2" = _Whnye9ui;
@@ -137,6 +143,7 @@ let
         "fabric-26.1.1" = _8vRwtuXS;
         "fabric-26.1.2" = _8vRwtuXS;
         "fabric-26.2" = _NXcLeXQm;
+        "fabric-26.3" = _59iCw46J;
         "pkg-1.0-SNAPSHOT" = _51pCvQoU;
         "pkg-1.1" = _PvKTpqLh;
         "pkg-1.2" = _Whnye9ui;
@@ -152,7 +159,8 @@ let
         "pkg-1.4.2" = _dCQCnna3;
         "pkg-1.5" = _8vRwtuXS;
         "pkg-1.5.1" = _NXcLeXQm;
-        "default" = _NXcLeXQm;
+        "pkg-1.5.2" = _59iCw46J;
+        "default" = _59iCw46J;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "specspoof";

@@ -366,6 +366,16 @@ let
             "file" = "deermod-neoforge-0.8.0+26.2.jar";
             "hash" = "sha512-2lRbER6Rnf1Nmr0IXyBIGC2OdLXpEzdjliyyAVQjd98kPkbijl7cccE8iHz5/tzH2QVEOQJnp0JWzsXtROJS2Q==";
         };
+        _KB60p0Z4 = {
+            "id" = "KB60p0Z4";
+            "file" = "deermod-fabric-0.8.0+26.3.jar";
+            "hash" = "sha512-ceYqus/OXeq19qhmXZrEPtROIWJrNNAi0cuzikPGtcYQ36Vccq0KbIZfPPzQ0gH/ALoNfT9ISTPC3lJMM6SpbQ==";
+        };
+        _ir6H9Mnt = {
+            "id" = "ir6H9Mnt";
+            "file" = "deermod-neoforge-0.8.0+26.3.jar";
+            "hash" = "sha512-0nDsUEBaX6TUSNoTIeY5TwbLeeAHG2ZXXXADSxVZHZVBLmEvh9Dj+HHDuI78W8GtGONZs6iRRm5Op2P35NAUOQ==";
+        };
     in {
         "cdU1K8M6" = _cdU1K8M6;
         "OaXFnrvX" = _OaXFnrvX;
@@ -440,6 +450,8 @@ let
         "aTJMkw8B" = _aTJMkw8B;
         "xOINfkca" = _xOINfkca;
         "zyqYzLaC" = _zyqYzLaC;
+        "KB60p0Z4" = _KB60p0Z4;
+        "ir6H9Mnt" = _ir6H9Mnt;
         "fabric-1.21.4" = _UCwiXdcO;
         "fabric-1.21.3" = _qAH51k9L;
         "fabric-25w02a" = _3fCiKzYt;
@@ -507,6 +519,7 @@ let
         "fabric-26.2-rc-1" = _zJ2iTFfy;
         "fabric-26.2-rc-2" = _zJ2iTFfy;
         "fabric-26.2" = _xOINfkca;
+        "fabric-26.3" = _KB60p0Z4;
         "neoforge-1.21.4" = _cN2J9vGs;
         "neoforge-1.21.1" = _ZxzsMlGK;
         "neoforge-1.20.5" = _4F0AsU79;
@@ -540,6 +553,7 @@ let
         "neoforge-26.2-rc-1" = _aTJMkw8B;
         "neoforge-26.2-rc-2" = _aTJMkw8B;
         "neoforge-26.2" = _zyqYzLaC;
+        "neoforge-26.3" = _ir6H9Mnt;
         "forge-1.20.1" = _W0OJrTKY;
         "pkg-0.1.2+1.21.4" = _cdU1K8M6;
         "pkg-0.1.3+1.21.4" = _OaXFnrvX;
@@ -585,7 +599,8 @@ let
         "pkg-0.7.0+26.1" = _cbihioC8;
         "pkg-0.7.0+26.2-pre-5" = _aTJMkw8B;
         "pkg-0.8.0+26.2" = _zyqYzLaC;
-        "default" = _zyqYzLaC;
+        "pkg-0.8.0+26.3" = _ir6H9Mnt;
+        "default" = _ir6H9Mnt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "deermod";

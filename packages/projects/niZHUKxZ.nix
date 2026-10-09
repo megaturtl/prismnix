@@ -86,6 +86,66 @@ let
             "file" = "lightspeed-1.20.1-1.2.3.jar";
             "hash" = "sha512-bwvI4CCE5D4guKf1UEPJFnf1FCl6R0Ya7e1hWMlszEkSdY5i8u9+ilqt9K4UgytUDMzrrSBbaJ1+0aS64anx7w==";
         };
+        _ZafMgcc2 = {
+            "id" = "ZafMgcc2";
+            "file" = "lightspeed-1.20.1-2.0.0.jar";
+            "hash" = "sha512-YxtTPRU9UhgJ8C07x4lFgpRgfxkM1PT+JSFO2dD+2QLVvMUP840OmNTBiVbNZGk3uGHVsoApbE3FHm1VCmas7w==";
+        };
+        _CsRTZznW = {
+            "id" = "CsRTZznW";
+            "file" = "lightspeed-1.21.1-2.0.0.jar";
+            "hash" = "sha512-/BBjQjTN18wTt9bnYGQGO+hBte0RttCN86qCwmDXZp6BFYBkCsMo065RvhW4zqJvmvlIvppAnJCKKOtYf+IKZg==";
+        };
+        _S5Y1rBsk = {
+            "id" = "S5Y1rBsk";
+            "file" = "lightspeed-1.20.1-2.0.1.jar";
+            "hash" = "sha512-Q6jB3AD/iXTWGgXQWCGmnoIHbQBDmAAqfkiCD7Ukwn/+ISYqFqKPfQXxm6rbskfzoMKPTX+mlPF7s0wSdCN84w==";
+        };
+        _9ik5c8fG = {
+            "id" = "9ik5c8fG";
+            "file" = "lightspeed-1.21.1-2.0.1.jar";
+            "hash" = "sha512-GSLXhR5BOeZnX8/cIbFDX3HNWudPsZ3xWJYcOAcElnvzjvip7AoSy7DlfoYCQ/oyVxgjpu+xcSRx9JZ7/Jl3mA==";
+        };
+        _Ojxwu2xo = {
+            "id" = "Ojxwu2xo";
+            "file" = "lightspeed-1.20.1-2.0.1hotfix.jar";
+            "hash" = "sha512-eWSHV9BZYokA/Dt6IlA+TlY/bQWU3DbLUaMVmQSegUds+JzSv9uWn81rXLwcGKTSIASpwgtU4IrmPH1x54Ggfg==";
+        };
+        _ghS7qlwk = {
+            "id" = "ghS7qlwk";
+            "file" = "lightspeed-1.21.1-2.0.1hotfix.jar";
+            "hash" = "sha512-vmNPsv872D0vGfVN9pcefy/UvynNY9FpCSP9t3YhKTQ3OxJ/UUPb1k1IvST/1pexZ4cMT/2loH7toYEdXVlbjg==";
+        };
+        _CXBCVOxO = {
+            "id" = "CXBCVOxO";
+            "file" = "lightspeed-1.20.1-2.0.2.jar";
+            "hash" = "sha512-Hl5x41njSCMlv1Zix/gOv/qJVSX7fZRHGjgvOWzN4KLEvy4GvsNyeMHTOEWNiwTgYJ86vMCt19nxt1iF+THBpw==";
+        };
+        _CniP3UWa = {
+            "id" = "CniP3UWa";
+            "file" = "lightspeed-1.21.1-2.0.2.jar";
+            "hash" = "sha512-zLLvqXnF1KoRKxZUXxRGDaZYZoMP9Uzvlgx4uTJsvg+x1/jgHo8EzeKp1ZSS1s6Eznt1VUuBXwcmBlLudALuig==";
+        };
+        _FAOCTLok = {
+            "id" = "FAOCTLok";
+            "file" = "lightspeed-1.20.1-2.0.2hotfix.jar";
+            "hash" = "sha512-glvnmtRz63+fk77qVn0vvXLb4tAuHpsAFOZun9EYWc8Peg00OQmkulW0jHBLe3FRkPzWwgHZMka6GJb09GlYgA==";
+        };
+        _PrCCtNSt = {
+            "id" = "PrCCtNSt";
+            "file" = "lightspeed-1.21.1-2.0.2hotfix.jar";
+            "hash" = "sha512-gD9fEdIadY21ps8di5kckWC0c4DgrME93/Z8Vs4mHvudjSFgBX6+qxmrdrPsxhHx6Gcsq9x254fiqLCmHNvIDg==";
+        };
+        _wl0W2sIM = {
+            "id" = "wl0W2sIM";
+            "file" = "lightspeed-1.20.1-2.0.2hotx2.jar";
+            "hash" = "sha512-tQOSKMb2KwcfLDi2wOHRKkzCRQyZ3qLy+i0kv242WvXGABCrvfo1n9M4Hn7gzsYKITB2/i/DUDaJ/cLtKGv0qA==";
+        };
+        _848ghOks = {
+            "id" = "848ghOks";
+            "file" = "lightspeed-1.21.1-2.0.2hotx2.jar";
+            "hash" = "sha512-XpAs2mXHjYKUpbmUmwLkE7MQJ/4oF/yIj5ryluTN5KKS/gsnx4TKlkRViSmnjxN/PEnASa7xHFYausJdQ6oKoA==";
+        };
     in {
         "E6Xcqpi7" = _E6Xcqpi7;
         "l6eWpUtK" = _l6eWpUtK;
@@ -104,8 +164,20 @@ let
         "Pn4SvAKG" = _Pn4SvAKG;
         "zC933Wl3" = _zC933Wl3;
         "bVOptZga" = _bVOptZga;
-        "forge-1.20.1" = _bVOptZga;
-        "neoforge-1.21.1" = _zC933Wl3;
+        "ZafMgcc2" = _ZafMgcc2;
+        "CsRTZznW" = _CsRTZznW;
+        "S5Y1rBsk" = _S5Y1rBsk;
+        "9ik5c8fG" = _9ik5c8fG;
+        "Ojxwu2xo" = _Ojxwu2xo;
+        "ghS7qlwk" = _ghS7qlwk;
+        "CXBCVOxO" = _CXBCVOxO;
+        "CniP3UWa" = _CniP3UWa;
+        "FAOCTLok" = _FAOCTLok;
+        "PrCCtNSt" = _PrCCtNSt;
+        "wl0W2sIM" = _wl0W2sIM;
+        "848ghOks" = _848ghOks;
+        "forge-1.20.1" = _wl0W2sIM;
+        "neoforge-1.21.1" = _848ghOks;
         "pkg-1.20.1-1.1.0" = _E6Xcqpi7;
         "pkg-1.20.1-1.1.1" = _l6eWpUtK;
         "pkg-1.20.1-1.1.2" = _YE18HLLS;
@@ -123,7 +195,19 @@ let
         "pkg-1.21.1-1.2.2" = _Pn4SvAKG;
         "pkg-1.21.1-1.2.3" = _zC933Wl3;
         "pkg-1.20.1-1.2.3" = _bVOptZga;
-        "default" = _bVOptZga;
+        "pkg-1.20.1-2.0.0" = _ZafMgcc2;
+        "pkg-1.21.1-2.0.0" = _CsRTZznW;
+        "pkg-1.20.1-2.0.1" = _S5Y1rBsk;
+        "pkg-1.21.1-2.0.1" = _9ik5c8fG;
+        "pkg-1.20.1-2.0.1hotfix" = _Ojxwu2xo;
+        "pkg-1.21.1-2.0.1hotfix" = _ghS7qlwk;
+        "pkg-1.20.1-2.0.2" = _CXBCVOxO;
+        "pkg-1.21.1-2.0.2" = _CniP3UWa;
+        "pkg-1.20.1-2.0.2hotfix" = _FAOCTLok;
+        "pkg-1.21.1-2.0.2hotfix" = _PrCCtNSt;
+        "pkg-1.20.1-2.0.2hotx2" = _wl0W2sIM;
+        "pkg-1.21.1-2.0.2hotx2" = _848ghOks;
+        "default" = _848ghOks;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lightspeedre";

@@ -2536,6 +2536,21 @@ let
             "file" = "skinrestorer-2.11.0+26.1-forge.jar";
             "hash" = "sha512-HlqyxMeSiqulUlh0LTTbwO3i1xAUcJOVs0xM/iM7xa8PCQb8J9YR24zInVorTus/igCu1b4kllir/oDKC/bZbw==";
         };
+        _K7BFrFJD = {
+            "id" = "K7BFrFJD";
+            "file" = "skinrestorer-2.11.0+26.3-fabric.jar";
+            "hash" = "sha512-hPu+nGVL+haEp+uyXqK5ij/NoXb8YvRF6Wn19TH2qkAukTK3Pg8cCDwAOZYJ6ivUKoJCU/GjjmhPiyxmkTfzKg==";
+        };
+        _X8KfS7En = {
+            "id" = "X8KfS7En";
+            "file" = "skinrestorer-2.11.0+26.3-neoforge.jar";
+            "hash" = "sha512-R5rxAo91wnNuCdYInkv0H536pKlJwZwGca1X7OoZ/Zl5rxKgyF7jjy5KGr4FjrCcEqp0W0NBscaipWSZj3il8w==";
+        };
+        _YfaOAVyp = {
+            "id" = "YfaOAVyp";
+            "file" = "skinrestorer-2.11.0+26.3-forge.jar";
+            "hash" = "sha512-qTu3E62mswOuZL8MDTJnN3zTkbl9hx5/3gbG6kd/+qa79pGJVOIWYPW7sqRvQ5Rl6OYKnZivind5tf6+hcWW6A==";
+        };
     in {
         "kpyeSFpl" = _kpyeSFpl;
         "ZWHRrrBx" = _ZWHRrrBx;
@@ -3044,6 +3059,9 @@ let
         "SIPoN63Q" = _SIPoN63Q;
         "rPmMM0mv" = _rPmMM0mv;
         "ZSx0mxGT" = _ZSx0mxGT;
+        "K7BFrFJD" = _K7BFrFJD;
+        "X8KfS7En" = _X8KfS7En;
+        "YfaOAVyp" = _YfaOAVyp;
         "fabric-1.20" = _uCDr3lnP;
         "fabric-1.20.1" = _uCDr3lnP;
         "fabric-1.19.4" = _jtDM8We4;
@@ -3072,6 +3090,7 @@ let
         "fabric-26.1.1" = _rPmMM0mv;
         "fabric-26.1.2" = _rPmMM0mv;
         "fabric-26.2" = _rPmMM0mv;
+        "fabric-26.3" = _K7BFrFJD;
         "neoforge-1.20.3" = _mmSsPrmg;
         "neoforge-1.20.4" = _mmSsPrmg;
         "neoforge-1.20.5" = _U5lrKNr4;
@@ -3093,6 +3112,7 @@ let
         "neoforge-26.1.1" = _SIPoN63Q;
         "neoforge-26.1.2" = _SIPoN63Q;
         "neoforge-26.2" = _SIPoN63Q;
+        "neoforge-26.3" = _X8KfS7En;
         "quilt-1.20.3" = _rTvrYf51;
         "quilt-1.20.4" = _rTvrYf51;
         "quilt-1.20.5" = _M3QbnmLq;
@@ -3121,6 +3141,7 @@ let
         "quilt-26.1.1" = _rPmMM0mv;
         "quilt-26.1.2" = _rPmMM0mv;
         "quilt-26.2" = _rPmMM0mv;
+        "quilt-26.3" = _K7BFrFJD;
         "forge-1.20" = _WwS30jjd;
         "forge-1.20.1" = _WwS30jjd;
         "forge-1.20.2" = _hVMzMRoD;
@@ -3148,6 +3169,7 @@ let
         "forge-26.1.1" = _ZSx0mxGT;
         "forge-26.1.2" = _ZSx0mxGT;
         "forge-26.2" = _ZSx0mxGT;
+        "forge-26.3" = _YfaOAVyp;
         "pkg-1.2.3" = _kpyeSFpl;
         "pkg-1.2.2" = _ZWHRrrBx;
         "pkg-1.2.4+1.20.2" = _SMwzLRyJ;
@@ -3637,7 +3659,10 @@ let
         "pkg-2.11.0+26.1-neoforge" = _SIPoN63Q;
         "pkg-2.11.0+26.1-fabric" = _rPmMM0mv;
         "pkg-2.11.0+26.1-forge" = _ZSx0mxGT;
-        "default" = _ZSx0mxGT;
+        "pkg-2.11.0+26.3-fabric" = _K7BFrFJD;
+        "pkg-2.11.0+26.3-neoforge" = _X8KfS7En;
+        "pkg-2.11.0+26.3-forge" = _YfaOAVyp;
+        "default" = _YfaOAVyp;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skinrestorer";

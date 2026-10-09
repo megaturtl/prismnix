@@ -91,6 +91,16 @@ let
             "file" = "Crosshair V1 1.21.5.zip";
             "hash" = "sha512-Fk3Ecx4xESWoackdvtT3Wwql2C8o1PRhx9htOSUJ/mWrq3v1KIXvFDHl7o4kk/gr1AX/NTULUh5p2B4tqTWhvw==";
         };
+        _hyiMGjWk = {
+            "id" = "hyiMGjWk";
+            "file" = "26.2.zip";
+            "hash" = "sha512-HteF1u4yfYdp8uKBIc/n0mR1kQFJx+VAlGuaeXPdERvxrm0YuZkJU0ZHa1aVzNBfiFAc+8Sa1RIJx5gPUnDabw==";
+        };
+        _qgalmlxa = {
+            "id" = "qgalmlxa";
+            "file" = "26.3.zip";
+            "hash" = "sha512-bry+af5kXzT6MgfpNoi49W1FFACuRt3bVQZ2KL6O3pA3bLAXZbxgqYEMLlFba6QEyH3dasLKko9DZPMvmnqhcg==";
+        };
     in {
         "Ug2AjzDZ" = _Ug2AjzDZ;
         "oGCB8jdK" = _oGCB8jdK;
@@ -110,6 +120,8 @@ let
         "ceJO93NI" = _ceJO93NI;
         "9eTBl54l" = _9eTBl54l;
         "UMW1sKaw" = _UMW1sKaw;
+        "hyiMGjWk" = _hyiMGjWk;
+        "qgalmlxa" = _qgalmlxa;
         "minecraft-1.6.1" = _Ug2AjzDZ;
         "minecraft-1.8.9" = _Ug2AjzDZ;
         "minecraft-1.9" = _oGCB8jdK;
@@ -165,6 +177,8 @@ let
         "minecraft-1.21.4-pre1" = _9eTBl54l;
         "minecraft-1.21.4" = _9eTBl54l;
         "minecraft-1.21.5" = _UMW1sKaw;
+        "minecraft-26.2" = _hyiMGjWk;
+        "minecraft-26.3" = _qgalmlxa;
         "pkg-1.8.9" = _Ug2AjzDZ;
         "pkg-1.9" = _oGCB8jdK;
         "pkg-1.12.2" = _6Lypq9Jj;
@@ -183,7 +197,9 @@ let
         "pkg-1.20.6" = _ceJO93NI;
         "pkg-1.21.4" = _9eTBl54l;
         "pkg-1.21.5" = _UMW1sKaw;
-        "default" = _UMW1sKaw;
+        "pkg-26.2" = _hyiMGjWk;
+        "pkg-26.3" = _qgalmlxa;
+        "default" = _qgalmlxa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crosshair-v1";

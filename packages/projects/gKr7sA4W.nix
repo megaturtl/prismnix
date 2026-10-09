@@ -106,6 +106,16 @@ let
             "file" = "Enchantio-1.15.2.jar";
             "hash" = "sha512-QH+LfUb6YQyg6M11rmeN2Pvots1U8jol6/qWd8oLmu1izGvCeUCRMF65lBmLrVU0h2e2DI3Bs81Y4D6tlznppg==";
         };
+        _QetJKeHR = {
+            "id" = "QetJKeHR";
+            "file" = "Enchantio-1.16.0.jar";
+            "hash" = "sha512-HVvRaLTiyLgrxkDRw5ebUjRHhhUKeYdRofAvntE5kFzOLo9c3+XZXTdwVD56F3n7vpJUoKssYG7gWuQZP6Yi+w==";
+        };
+        _86Dl7wr6 = {
+            "id" = "86Dl7wr6";
+            "file" = "Enchantio-1.16.1.jar";
+            "hash" = "sha512-Mu9r/A9VX1D8BSnYq2d6qAV5OwIZDLV7TVQlwkGt4ywZY6dxNgT9R7WYcGJyNq1RMQ8CTGhufKm94a4iwtaMpQ==";
+        };
     in {
         "cpF5pfqg" = _cpF5pfqg;
         "rGtqRo1W" = _rGtqRo1W;
@@ -128,6 +138,8 @@ let
         "OXKnfdQh" = _OXKnfdQh;
         "jt1gwp3K" = _jt1gwp3K;
         "FcuHLtM9" = _FcuHLtM9;
+        "QetJKeHR" = _QetJKeHR;
+        "86Dl7wr6" = _86Dl7wr6;
         "paper-1.21.1" = _YpC4OWG4;
         "paper-1.21.2" = _YpC4OWG4;
         "paper-1.21.3" = _YpC4OWG4;
@@ -140,10 +152,11 @@ let
         "paper-1.21.9" = _IqSCZdky;
         "paper-1.21.10" = _OXKnfdQh;
         "paper-1.21.11" = _jt1gwp3K;
-        "paper-26.1" = _FcuHLtM9;
-        "paper-26.1.1" = _FcuHLtM9;
-        "paper-26.1.2" = _FcuHLtM9;
-        "paper-26.2" = _FcuHLtM9;
+        "paper-26.1" = _QetJKeHR;
+        "paper-26.1.1" = _QetJKeHR;
+        "paper-26.1.2" = _QetJKeHR;
+        "paper-26.2" = _QetJKeHR;
+        "paper-26.3" = _86Dl7wr6;
         "purpur-1.21.1" = _YpC4OWG4;
         "purpur-1.21.2" = _YpC4OWG4;
         "purpur-1.21.3" = _YpC4OWG4;
@@ -156,14 +169,16 @@ let
         "purpur-1.21.9" = _IqSCZdky;
         "purpur-1.21.10" = _OXKnfdQh;
         "purpur-1.21.11" = _jt1gwp3K;
-        "purpur-26.1" = _FcuHLtM9;
-        "purpur-26.1.1" = _FcuHLtM9;
-        "purpur-26.1.2" = _FcuHLtM9;
-        "purpur-26.2" = _FcuHLtM9;
-        "folia-26.1" = _FcuHLtM9;
-        "folia-26.1.1" = _FcuHLtM9;
-        "folia-26.1.2" = _FcuHLtM9;
-        "folia-26.2" = _FcuHLtM9;
+        "purpur-26.1" = _QetJKeHR;
+        "purpur-26.1.1" = _QetJKeHR;
+        "purpur-26.1.2" = _QetJKeHR;
+        "purpur-26.2" = _QetJKeHR;
+        "purpur-26.3" = _86Dl7wr6;
+        "folia-26.1" = _QetJKeHR;
+        "folia-26.1.1" = _QetJKeHR;
+        "folia-26.1.2" = _QetJKeHR;
+        "folia-26.2" = _QetJKeHR;
+        "folia-26.3" = _86Dl7wr6;
         "pkg-1.0.0" = _cpF5pfqg;
         "pkg-1.1.0" = _rGtqRo1W;
         "pkg-1.2.0" = _ahmXPtQL;
@@ -185,7 +200,9 @@ let
         "pkg-1.15.0" = _OXKnfdQh;
         "pkg-1.15.1" = _jt1gwp3K;
         "pkg-1.15.2" = _FcuHLtM9;
-        "default" = _FcuHLtM9;
+        "pkg-1.16.0" = _QetJKeHR;
+        "pkg-1.16.1" = _86Dl7wr6;
+        "default" = _86Dl7wr6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantio";

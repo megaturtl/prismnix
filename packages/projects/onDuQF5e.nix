@@ -461,6 +461,26 @@ let
             "file" = "StylishEffects-v8.0.4-1.20.1-Fabric.jar";
             "hash" = "sha512-SSzjvpNIX5ya1Ave1cf6wq76S1IyMx7iiLKU1ewR/CqyVBUUVmtKx5IdVMD8zw97LSIxmmYAzwwWbAR36x4tww==";
         };
+        _yRtDwfAI = {
+            "id" = "yRtDwfAI";
+            "file" = "stylisheffects-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-SsME8GtdLsLrib2OvoDsFinguo5U34H3nExtNaF5lm8OZeegtcuXYsfm9MA4t+E82XXkGW0DDzDD2UqlnGClJw==";
+        };
+        _JZ7ISBr1 = {
+            "id" = "JZ7ISBr1";
+            "file" = "stylisheffects-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-W451/rNgIaT14KxsAoRxtwvKSzDipObJAC1GmjvaqHo7Uaqx3Skz/8sMvuLgxeD/PHIsx0zqy1qnxnpuIaX19w==";
+        };
+        _bftt6HwB = {
+            "id" = "bftt6HwB";
+            "file" = "stylisheffects-v26.3.1-mc26.3.x+fabric.jar";
+            "hash" = "sha512-RRgjXz8PUdWCW081DkM/tVRrp4+0hawFI6eTAzTva2i6gqeE08z4Y/ptMMCe66fR7rIFazJNNJuJMla7S4GeRw==";
+        };
+        _jEvDgemP = {
+            "id" = "jEvDgemP";
+            "file" = "stylisheffects-v26.3.1-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-hKbdcbKR92xAZPKThXVjuK0SxyGnaRbDYbEawJoIPtE2o90KT14Vu0rRqRkprpkiHYUGehS2+b32Jt1tuxVPAg==";
+        };
     in {
         "7EW4IWlP" = _7EW4IWlP;
         "27gRfcBr" = _27gRfcBr;
@@ -554,6 +574,10 @@ let
         "4N3i08sB" = _4N3i08sB;
         "TA60VTgL" = _TA60VTgL;
         "aUmTwS8X" = _aUmTwS8X;
+        "yRtDwfAI" = _yRtDwfAI;
+        "JZ7ISBr1" = _JZ7ISBr1;
+        "bftt6HwB" = _bftt6HwB;
+        "jEvDgemP" = _jEvDgemP;
         "forge-1.19" = _5ZnlgTbk;
         "forge-1.19.1" = _qfWCKyVW;
         "forge-1.19.2" = _4ku3sRk0;
@@ -583,6 +607,7 @@ let
         "fabric-26.1.1" = _UEByOxbh;
         "fabric-26.1.2" = _UEByOxbh;
         "fabric-26.2" = _4N3i08sB;
+        "fabric-26.3" = _bftt6HwB;
         "neoforge-1.20.4" = _cFXLM0gf;
         "neoforge-1.21.1" = _MT3yeDds;
         "neoforge-1.21.3" = _oQ6L3ovQ;
@@ -597,6 +622,7 @@ let
         "neoforge-26.1.1" = _IcVIOcJb;
         "neoforge-26.1.2" = _IcVIOcJb;
         "neoforge-26.2" = _w2Q5VCal;
+        "neoforge-26.3" = _jEvDgemP;
         "pkg-v4.0.0-1.19-Forge" = _7EW4IWlP;
         "pkg-v4.0.0-1.19-Fabric" = _27gRfcBr;
         "pkg-v4.0.1-1.19-Forge" = _5wzAPlqR;
@@ -675,7 +701,9 @@ let
         "pkg-26.2.3" = _4N3i08sB;
         "pkg-v8.0.4-1.20.1-Forge" = _TA60VTgL;
         "pkg-v8.0.4-1.20.1-Fabric" = _aUmTwS8X;
-        "default" = _aUmTwS8X;
+        "pkg-26.3.0" = _JZ7ISBr1;
+        "pkg-26.3.1" = _jEvDgemP;
+        "default" = _jEvDgemP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stylish-effects";

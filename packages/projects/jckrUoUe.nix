@@ -231,6 +231,16 @@ let
             "file" = "PortableHole-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-uE9uPHtQk5wtoYqMQaDNFHIVfKY34Gvx3Tb0yTuO+cC6pAjYFMWVEPOM0NZCnX53BvUdZLWVDgXeFzaUq02OLg==";
         };
+        _RGaCSq9U = {
+            "id" = "RGaCSq9U";
+            "file" = "portablehole-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-g7I8PoeWwYuH0S9KU8DKPmM85BEgpJw3D8Kkyesaa8KPT6DogwymI/CnkyOvetua8WPe0nEt0QluHxfMnmzIig==";
+        };
+        _rsc13Ehq = {
+            "id" = "rsc13Ehq";
+            "file" = "portablehole-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-gLwHdG05z0iNQRoWTcof2FnkHCOE3idlKi5gbaUSXwyy+4HvhJhZeWO/A2GZp187x+Dd6QRbe/9iXsv4VpdJ6g==";
+        };
     in {
         "iRVxDclw" = _iRVxDclw;
         "lAercYPJ" = _lAercYPJ;
@@ -278,6 +288,8 @@ let
         "TCh1bMdZ" = _TCh1bMdZ;
         "cFVupvo9" = _cFVupvo9;
         "1h71L6mv" = _1h71L6mv;
+        "RGaCSq9U" = _RGaCSq9U;
+        "rsc13Ehq" = _rsc13Ehq;
         "forge-1.19.2" = _iRVxDclw;
         "forge-1.19.3" = _cLr9anxf;
         "forge-1.19.4" = _ZmwN9Jay;
@@ -307,6 +319,7 @@ let
         "fabric-26.1.1" = _TCh1bMdZ;
         "fabric-26.1.2" = _TCh1bMdZ;
         "fabric-26.2" = _cFVupvo9;
+        "fabric-26.3" = _rsc13Ehq;
         "neoforge-1.20.4" = _AH8bvJcH;
         "neoforge-1.21" = _XBfRrsUk;
         "neoforge-1.21.1" = _V6PVdKh9;
@@ -323,6 +336,7 @@ let
         "neoforge-26.1.1" = _XzsIWFeT;
         "neoforge-26.1.2" = _XzsIWFeT;
         "neoforge-26.2" = _1h71L6mv;
+        "neoforge-26.3" = _RGaCSq9U;
         "pkg-v4.0.0-1.19.2-Forge" = _iRVxDclw;
         "pkg-v4.0.0-1.19.2-Fabric" = _lAercYPJ;
         "pkg-v5.0.0-1.19.3-Fabric" = _tFXeN30n;
@@ -364,7 +378,8 @@ let
         "pkg-21.11.0" = _KTx4d8ws;
         "pkg-26.1.0" = _TCh1bMdZ;
         "pkg-26.2.0" = _1h71L6mv;
-        "default" = _1h71L6mv;
+        "pkg-26.3.0" = _rsc13Ehq;
+        "default" = _rsc13Ehq;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "portable-hole";

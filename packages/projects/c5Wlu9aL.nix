@@ -21,18 +21,31 @@ let
             "file" = "piratesdoom-fabric-1.21.1-2.0.0.jar";
             "hash" = "sha512-mxhAcvrKkHxDiPj1188HA6UdWI6VY1U1iumEkRtRZQhsUKfIdr5eXgKqba+sknCySW+ZLKcByzElzn93veGxFQ==";
         };
+        _QOQNRUU5 = {
+            "id" = "QOQNRUU5";
+            "file" = "piratesdoom-neoforge-1.21.1-2.0.1.jar";
+            "hash" = "sha512-L6yyPPehuuJxIeqbdvg8drzM0+HdPBMpA2fhhyf0DpqMall5Jy9ZNjvO3RAfKSC5KRdGJ4jmoosUsu1SPAgKMw==";
+        };
+        _O7LfJjqv = {
+            "id" = "O7LfJjqv";
+            "file" = "piratesdoom-fabric-1.21.1-2.0.1.jar";
+            "hash" = "sha512-uWMge35mWMY4frf6PRtEi5irURkegBYq+G4zfU6Q8gDDJ9tu2mosCF2RtMUDn3SJiwnA5TMc685f3THyRszM5A==";
+        };
     in {
         "3VTWdUcs" = _3VTWdUcs;
         "LP33GBvC" = _LP33GBvC;
         "yaYfJed8" = _yaYfJed8;
         "cIiVn8Vj" = _cIiVn8Vj;
+        "QOQNRUU5" = _QOQNRUU5;
+        "O7LfJjqv" = _O7LfJjqv;
         "fabric-1.20.1" = _3VTWdUcs;
-        "fabric-1.21.1" = _cIiVn8Vj;
+        "fabric-1.21.1" = _O7LfJjqv;
         "forge-1.20.1" = _LP33GBvC;
-        "neoforge-1.21.1" = _yaYfJed8;
+        "neoforge-1.21.1" = _QOQNRUU5;
         "pkg-1.0.0" = _LP33GBvC;
         "pkg-2.0.0" = _cIiVn8Vj;
-        "default" = _cIiVn8Vj;
+        "pkg-2.0.1" = _O7LfJjqv;
+        "default" = _O7LfJjqv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pirates-doom";

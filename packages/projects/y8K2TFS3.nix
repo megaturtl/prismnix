@@ -1361,6 +1361,91 @@ let
             "file" = "afkplus-v1.7.16-mc26.1.2.jar";
             "hash" = "sha512-58AKkq71Vgf5ODcLNrqhiQGOOlnNs5dWVB647dc/7f8nEchvXHl9S84CkrsKe2teE12oJjxjAD10lw4W2U9Bog==";
         };
+        _eIhDlEev = {
+            "id" = "eIhDlEev";
+            "file" = "afkplus-v1.7.17-mc1.19.4.jar";
+            "hash" = "sha512-fH+afI5bD3xqpVSUYsSb6OMEnFQKI2DApsaQyGo78ee6zbqnhwWpg9aB0VlS6fmBP9FQYanvvV2bIcRTnu2gzg==";
+        };
+        _tyo55va0 = {
+            "id" = "tyo55va0";
+            "file" = "afkplus-v1.7.17-mc1.20.1.jar";
+            "hash" = "sha512-nVjNPzbk9mvB3yB5Diz3WHk/mMBZahvzJiqMQD3wlFSJPodDcgQmE3nGwzgrHzAh5ACCe5bwBwxkuyjdhYyqng==";
+        };
+        _qDDx7pZp = {
+            "id" = "qDDx7pZp";
+            "file" = "afkplus-v1.7.17-mc1.19.2.jar";
+            "hash" = "sha512-VH3OGLgReD7yabLp5+Xt6tw+7mmWS6JoDsSlWnqZl1DwCSs8gJKh/p1qD1OoKxyuOvugxLaZaQ1Q4wiPnPGUuA==";
+        };
+        _CJHd77q6 = {
+            "id" = "CJHd77q6";
+            "file" = "afkplus-v1.7.17-mc1.19.3.jar";
+            "hash" = "sha512-jOAc7JQ1I1aJN9PRTrcAzcUOae1Uz3vZuM8YRx8LFvCwxnZImFYILeIyJSfgMywjj2n/w1AydrXB30q6sTwW1g==";
+        };
+        _wkUhbzT0 = {
+            "id" = "wkUhbzT0";
+            "file" = "afkplus-v1.7.17-mc1.20.4.jar";
+            "hash" = "sha512-nrgZiX0MSpnbHG+3tSwL0dHpkrr4BMLivOvNf3hEQLsxQFVZAQRaT+CmyrHe3vQogLBvXibbF9EPy9QIJdy3xQ==";
+        };
+        _SihaKqPr = {
+            "id" = "SihaKqPr";
+            "file" = "afkplus-v1.7.17-mc1.21.1.jar";
+            "hash" = "sha512-mA65v914ILJsgNwr8Pv2yA5RfvMQc+zNkK+2BL0UgSK/afE9Oj/n4eTGCBywmVXaziJHPFriLUkJ9eysbcjPUA==";
+        };
+        _P6qhW2vh = {
+            "id" = "P6qhW2vh";
+            "file" = "afkplus-v1.7.17-mc1.20.2.jar";
+            "hash" = "sha512-QE3a25DlK98QRLSrXdm9X5uLa7tBQpvSfLWfzpg5R+7gBAvxs1+9U5olllAHvHHZ3+ocgX+t19484W3KybgsYg==";
+        };
+        _qWIXDUYa = {
+            "id" = "qWIXDUYa";
+            "file" = "afkplus-v1.7.17-mc1.20.6.jar";
+            "hash" = "sha512-AlFR37Y6j1x+aa68J1BNHQQNWsGvsTMRzRGHgqbzsWpI3adpUwKxF1cm01gOW2a/biGVQc6OO3ysZ1ltHc6LyA==";
+        };
+        _ZzyRDVNq = {
+            "id" = "ZzyRDVNq";
+            "file" = "afkplus-v1.7.17-mc1.21.4.jar";
+            "hash" = "sha512-z3yvNg9L9uYEcxsBrQ2WYROaZFkgY0lbIkyF4GYhaXtFvT1hIgcvJH6Y3XsGOVtfYtIsi8Op/3nMC39P/t09WQ==";
+        };
+        _scs5FKD4 = {
+            "id" = "scs5FKD4";
+            "file" = "afkplus-v1.7.17-mc1.21.3.jar";
+            "hash" = "sha512-tVCNVr1xY6JGGFn+pCpRUiPjZiJ3cRYVpV8/EBGns97la225AZtVi++aj3Z8NtkxZIUOWJ2N2ZqlR+ITqEnNNw==";
+        };
+        _OVHNzcuc = {
+            "id" = "OVHNzcuc";
+            "file" = "afkplus-v1.7.17-mc1.21.5.jar";
+            "hash" = "sha512-XS1EXX2PgmO9ac+Mq90IrH9c1mLLQuEQ0/cKKDyoZro6GEJwX9fN9ImaHy2r7QJt+xYnzQ3w2zco3DJk0BgCjQ==";
+        };
+        _zuskQbQc = {
+            "id" = "zuskQbQc";
+            "file" = "afkplus-v1.7.17-mc1.21.8.jar";
+            "hash" = "sha512-Sr8kHtRqUAiMhKii836m7kBTM5mPFn0KKUDcAnxGkiA0FA31UY7uB2P7WJJTdFqQOMdZVm1loQ3Tr4tek5Tizw==";
+        };
+        _HHjM92yN = {
+            "id" = "HHjM92yN";
+            "file" = "afkplus-v1.7.17-mc1.21.10.jar";
+            "hash" = "sha512-P6ug0DsH9KL+zB67rLlm+CLoeroMYgmb+8T9IRJj9LQGKiCzOWjZAJ+7dhLP7Hrt8xK0xzqNc6asHakrV2h1mw==";
+        };
+        _GJslGcUQ = {
+            "id" = "GJslGcUQ";
+            "file" = "afkplus-v1.7.17-mc1.21.11.jar";
+            "hash" = "sha512-zxmysNywA3MkVZb0NK1KPsKXG+pVyKzgBYOIR/9sIyD416o9gRNwp2PlwzY66s1oheQeYyicaWb2fyzusQ5D5A==";
+        };
+        _t8TACUP0 = {
+            "id" = "t8TACUP0";
+            "file" = "afkplus-v1.7.17-mc26.1.2.jar";
+            "hash" = "sha512-y1mvyrjrk3Z0pIvhbf+btbSz7h/6Wg7yLs6QTatSOjQ0Hmw6CcGX29sKwUcRnJ+Rd0zf0jcHDKoUtp0DrlJAEg==";
+        };
+        _R2idwYzg = {
+            "id" = "R2idwYzg";
+            "file" = "afkplus-v1.7.17-mc26.2.jar";
+            "hash" = "sha512-wPHvTzW5UG7orFMcwk9SuaFaR8l/i4U7sea8zR4cSWAIFqLr7bBYM9iNoq40BWDvwMD0AjrxqUQ7aykHvd3BJA==";
+        };
+        _F5nErSLZ = {
+            "id" = "F5nErSLZ";
+            "file" = "afkplus-v1.7.17-mc26.3.jar";
+            "hash" = "sha512-tdTAAhKEYGoO5rSkgDj3SMmVMT7jRs5lOavyDbsXn+OFbr+aIfV3VLZjq4crCAvKYwKcPccgvTE53hCJip1etg==";
+        };
     in {
         "fTPHJmvN" = _fTPHJmvN;
         "7NdEgzPG" = _7NdEgzPG;
@@ -1634,40 +1719,58 @@ let
         "go2njp6A" = _go2njp6A;
         "WbJz0nlf" = _WbJz0nlf;
         "H9MnLmKG" = _H9MnLmKG;
-        "fabric-1.20.2" = _jakj2nJz;
+        "eIhDlEev" = _eIhDlEev;
+        "tyo55va0" = _tyo55va0;
+        "qDDx7pZp" = _qDDx7pZp;
+        "CJHd77q6" = _CJHd77q6;
+        "wkUhbzT0" = _wkUhbzT0;
+        "SihaKqPr" = _SihaKqPr;
+        "P6qhW2vh" = _P6qhW2vh;
+        "qWIXDUYa" = _qWIXDUYa;
+        "ZzyRDVNq" = _ZzyRDVNq;
+        "scs5FKD4" = _scs5FKD4;
+        "OVHNzcuc" = _OVHNzcuc;
+        "zuskQbQc" = _zuskQbQc;
+        "HHjM92yN" = _HHjM92yN;
+        "GJslGcUQ" = _GJslGcUQ;
+        "t8TACUP0" = _t8TACUP0;
+        "R2idwYzg" = _R2idwYzg;
+        "F5nErSLZ" = _F5nErSLZ;
+        "fabric-1.20.2" = _P6qhW2vh;
         "fabric-1.20.3-rc1" = _YEkPDg18;
-        "fabric-1.20.3" = _Ql71zWw0;
-        "fabric-1.20.4" = _Ql71zWw0;
-        "fabric-1.19.4" = _dUlvXLeW;
+        "fabric-1.20.3" = _wkUhbzT0;
+        "fabric-1.20.4" = _wkUhbzT0;
+        "fabric-1.19.4" = _eIhDlEev;
         "fabric-1.17" = _NV4Hz08B;
         "fabric-1.17.1" = _VygCjqWI;
         "fabric-1.18" = _VygCjqWI;
         "fabric-1.18.1" = _VygCjqWI;
         "fabric-1.18.2" = _VygCjqWI;
-        "fabric-1.20" = _eQNTRWPi;
-        "fabric-1.20.1" = _eQNTRWPi;
-        "fabric-1.20.5" = _iDuVtBkQ;
-        "fabric-1.20.6" = _iDuVtBkQ;
+        "fabric-1.20" = _tyo55va0;
+        "fabric-1.20.1" = _tyo55va0;
+        "fabric-1.20.5" = _qWIXDUYa;
+        "fabric-1.20.6" = _qWIXDUYa;
         "fabric-1.21-rc1" = _9bYfjCtl;
-        "fabric-1.21" = _o6T25LTQ;
-        "fabric-1.21.1" = _o6T25LTQ;
-        "fabric-1.21.2" = _4MJauNy0;
-        "fabric-1.21.3" = _4MJauNy0;
-        "fabric-1.21.4" = _kA6YLIE7;
-        "fabric-1.19.1" = _UybuC2AB;
-        "fabric-1.19.2" = _UybuC2AB;
-        "fabric-1.19.3" = _Fn1Gjhpl;
-        "fabric-1.21.5" = _z6YLieGg;
-        "fabric-1.21.6" = _28lbHAWF;
-        "fabric-1.21.7" = _28lbHAWF;
-        "fabric-1.21.8" = _28lbHAWF;
-        "fabric-1.21.9" = _VKRLdKvv;
-        "fabric-1.21.10" = _VKRLdKvv;
-        "fabric-1.21.11" = _WbJz0nlf;
-        "fabric-26.1" = _H9MnLmKG;
-        "fabric-26.1.1" = _H9MnLmKG;
-        "fabric-26.1.2" = _H9MnLmKG;
-        "fabric-26.2" = _go2njp6A;
+        "fabric-1.21" = _SihaKqPr;
+        "fabric-1.21.1" = _SihaKqPr;
+        "fabric-1.21.2" = _scs5FKD4;
+        "fabric-1.21.3" = _scs5FKD4;
+        "fabric-1.21.4" = _ZzyRDVNq;
+        "fabric-1.19.1" = _qDDx7pZp;
+        "fabric-1.19.2" = _qDDx7pZp;
+        "fabric-1.19.3" = _CJHd77q6;
+        "fabric-1.21.5" = _OVHNzcuc;
+        "fabric-1.21.6" = _zuskQbQc;
+        "fabric-1.21.7" = _zuskQbQc;
+        "fabric-1.21.8" = _zuskQbQc;
+        "fabric-1.21.9" = _HHjM92yN;
+        "fabric-1.21.10" = _HHjM92yN;
+        "fabric-1.21.11" = _GJslGcUQ;
+        "fabric-26.1" = _t8TACUP0;
+        "fabric-26.1.1" = _t8TACUP0;
+        "fabric-26.1.2" = _t8TACUP0;
+        "fabric-26.2" = _R2idwYzg;
+        "fabric-26.3" = _F5nErSLZ;
         "pkg-1.3.4" = _fTPHJmvN;
         "pkg-1.3.5" = _7NdEgzPG;
         "pkg-1.3.6" = _dMo02g9L;
@@ -1891,7 +1994,24 @@ let
         "pkg-v1.7.16-mc26.2" = _go2njp6A;
         "pkg-v1.7.16-mc1.21.11" = _WbJz0nlf;
         "pkg-v1.7.16-mc26.1.2" = _H9MnLmKG;
-        "default" = _H9MnLmKG;
+        "pkg-v1.7.17-mc1.19.4" = _eIhDlEev;
+        "pkg-v1.7.17-mc1.20.1" = _tyo55va0;
+        "pkg-v1.7.17-mc1.19.2" = _qDDx7pZp;
+        "pkg-v1.7.17-mc1.19.3" = _CJHd77q6;
+        "pkg-v1.7.17-mc1.20.4" = _wkUhbzT0;
+        "pkg-v1.7.17-mc1.21.1" = _SihaKqPr;
+        "pkg-v1.7.17-mc1.20.2" = _P6qhW2vh;
+        "pkg-v1.7.17-mc1.20.6" = _qWIXDUYa;
+        "pkg-v1.7.17-mc1.21.4" = _ZzyRDVNq;
+        "pkg-v1.7.17-mc1.21.3" = _scs5FKD4;
+        "pkg-v1.7.17-mc1.21.5" = _OVHNzcuc;
+        "pkg-v1.7.17-mc1.21.8" = _zuskQbQc;
+        "pkg-v1.7.17-mc1.21.10" = _HHjM92yN;
+        "pkg-v1.7.17-mc1.21.11" = _GJslGcUQ;
+        "pkg-v1.7.17-mc26.1.2" = _t8TACUP0;
+        "pkg-v1.7.17-mc26.2" = _R2idwYzg;
+        "pkg-v1.7.17-mc26.3" = _F5nErSLZ;
+        "default" = _F5nErSLZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "afkplus";

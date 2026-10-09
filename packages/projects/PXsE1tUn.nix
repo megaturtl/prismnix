@@ -36,6 +36,11 @@ let
             "file" = "flat-lighting-1.4.1.jar";
             "hash" = "sha512-NcW9JiLg/6sY91XO1YVWp0Pzen+cCQJbVMrzxy8y/flpN8Skcu2gIiyL7WKqeR/DuR/EILKO8HUDgrTv+eumjQ==";
         };
+        _VNFPID6k = {
+            "id" = "VNFPID6k";
+            "file" = "flat-lighting-1.4.2.jar";
+            "hash" = "sha512-MEvAw+SbuljhuLQGE7NkYxVCY+cMowBvPuK091HuBFIciGyExFmjCaJFgt78vM5x+tJZcFIy/nN678JxpNRYbw==";
+        };
     in {
         "eW95Z0vJ" = _eW95Z0vJ;
         "SDSXKHOA" = _SDSXKHOA;
@@ -44,6 +49,7 @@ let
         "rxnDSDlF" = _rxnDSDlF;
         "pdofGt8G" = _pdofGt8G;
         "zUNIn4PS" = _zUNIn4PS;
+        "VNFPID6k" = _VNFPID6k;
         "fabric-1.18.2" = _eW95Z0vJ;
         "fabric-1.19" = _eW95Z0vJ;
         "fabric-1.19.1" = _SDSXKHOA;
@@ -73,6 +79,7 @@ let
         "fabric-26.1.1" = _pdofGt8G;
         "fabric-26.1.2" = _pdofGt8G;
         "fabric-26.2" = _zUNIn4PS;
+        "fabric-26.3" = _VNFPID6k;
         "pkg-1.0" = _eW95Z0vJ;
         "pkg-1.1.0" = _SDSXKHOA;
         "pkg-1.2.0" = _xL4hs6nP;
@@ -80,7 +87,8 @@ let
         "pkg-1.3.1" = _rxnDSDlF;
         "pkg-1.4.0" = _pdofGt8G;
         "pkg-1.4.1" = _zUNIn4PS;
-        "default" = _zUNIn4PS;
+        "pkg-1.4.2" = _VNFPID6k;
+        "default" = _VNFPID6k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flat-lighting";

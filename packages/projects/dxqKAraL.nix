@@ -116,6 +116,16 @@ let
             "file" = "snowy_tents-1.0.0 Neoforge 26.2.jar";
             "hash" = "sha512-Jcouf31Geo6WiKOEtB4mkXiPUkJ6IaP6TgARHOLeQCHlxfwaI/Mvqoo+sLZnJ9RdmSBkWeuAggp2T1kZfXa79Q==";
         };
+        _FKyYNTAC = {
+            "id" = "FKyYNTAC";
+            "file" = "snowy_tents-1.0.0 Fabric 26.3.jar";
+            "hash" = "sha512-dgmSWIH0kcrYi/KYbL0RwumEOyF37RSSvByaOOdvtRNymGEQmNBH3rvUTMI0AcmJfD6yszeAEyDVmPb5xgc0Ww==";
+        };
+        _dOTHLJ9u = {
+            "id" = "dOTHLJ9u";
+            "file" = "snowy_tents-1.0.0 Neoforge 26.3.jar";
+            "hash" = "sha512-nrqDm5al2WAfLIyrGJ8SIfg9p8iPJkm89XWZ8j40QJZnb+a5SdwQ5L0bpur7BMoEfQbkBWvgq47BrR0tyG8m/g==";
+        };
     in {
         "Nn2rZubG" = _Nn2rZubG;
         "x3h3JvoO" = _x3h3JvoO;
@@ -140,6 +150,8 @@ let
         "q9SbCcyS" = _q9SbCcyS;
         "QvLnX0IC" = _QvLnX0IC;
         "Qgep8l9m" = _Qgep8l9m;
+        "FKyYNTAC" = _FKyYNTAC;
+        "dOTHLJ9u" = _dOTHLJ9u;
         "fabric-1.19.2" = _Nn2rZubG;
         "fabric-1.20.1" = _x3h3JvoO;
         "fabric-1.21.8" = _88cFfOqM;
@@ -151,6 +163,7 @@ let
         "fabric-26.1.1" = _rgjVCu4F;
         "fabric-26.1.2" = _rgjVCu4F;
         "fabric-26.2" = _QvLnX0IC;
+        "fabric-26.3" = _FKyYNTAC;
         "forge-1.19.2" = _x9PzJqwg;
         "forge-1.19.4" = _fg7TwgZX;
         "forge-1.20.1" = _f9ixYXaj;
@@ -164,9 +177,10 @@ let
         "neoforge-26.1" = _YDdu6Nyu;
         "neoforge-26.1.2" = _q9SbCcyS;
         "neoforge-26.2" = _Qgep8l9m;
-        "pkg-1.0.0" = _Qgep8l9m;
+        "neoforge-26.3" = _dOTHLJ9u;
+        "pkg-1.0.0" = _dOTHLJ9u;
         "pkg-1.0.1" = _88cFfOqM;
-        "default" = _Qgep8l9m;
+        "default" = _dOTHLJ9u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "snowy-tents";

@@ -21,11 +21,17 @@ let
             "file" = "placeholder-api-neoforge-2.9.0+1.21.11+neoforge.jar";
             "hash" = "sha512-vbrMj/C1gOb/TxSjxxR0RiDk9pdR9r8FDE5G4qjqKVG9A+/tzxfBSGhG+mEkWptZfp7WWDUfeeQDXh21kd1esg==";
         };
+        _zyTHizU3 = {
+            "id" = "zyTHizU3";
+            "file" = "placeholder-api-neoforge-3.2.0+26.3+neoforge.jar";
+            "hash" = "sha512-8Nw4vJh18j+5eu0L/y8akXOqOZlc8w7azwfBKSiebPaxJxUvW8YEmGez8zcKD4gaTKRzvPHNs6Tmke15I13mog==";
+        };
     in {
         "aGPhj7i7" = _aGPhj7i7;
         "xPcWtcka" = _xPcWtcka;
         "3k7KhiyS" = _3k7KhiyS;
         "LHN3zka8" = _LHN3zka8;
+        "zyTHizU3" = _zyTHizU3;
         "neoforge-26.1" = _xPcWtcka;
         "neoforge-26.1.1" = _xPcWtcka;
         "neoforge-26.1.2" = _xPcWtcka;
@@ -34,11 +40,13 @@ let
         "neoforge-26.2-rc-2" = _3k7KhiyS;
         "neoforge-26.2" = _3k7KhiyS;
         "neoforge-1.21.11" = _LHN3zka8;
+        "neoforge-26.3" = _zyTHizU3;
         "pkg-3.0.0-beta.2+neoforge+26.1" = _aGPhj7i7;
         "pkg-3.0.0+26.1+neoforge" = _xPcWtcka;
         "pkg-3.1.0-beta.1+26.2+neoforge" = _3k7KhiyS;
         "pkg-2.9.0+1.21.11+neoforge" = _LHN3zka8;
-        "default" = _LHN3zka8;
+        "pkg-3.2.0+26.3+neoforge" = _zyTHizU3;
+        "default" = _zyTHizU3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "placeholder-api-neoforge";

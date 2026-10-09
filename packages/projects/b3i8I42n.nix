@@ -101,6 +101,16 @@ let
             "file" = "BetterChristmasChests-26.2-NeoForge-1.2.jar";
             "hash" = "sha512-k1FMBoTnHYUcQgLRP6HvaPl4OziPw0NiYVk3mVDRlaE+ONYo7dxtpqbi2SvwAdIaC5oEM23kDSLIjYvEwVE8Xw==";
         };
+        _p9bSHUwW = {
+            "id" = "p9bSHUwW";
+            "file" = "BetterChristmasChests-26.3-Fabric-1.2.jar";
+            "hash" = "sha512-Bj57BI06KWEEB+AvRZESKIe/KPJ7JsFPIZ0/c5G12ujx4rcgy0rhvHTCxHNplh5T4GLayp7rFWe6PiPM5MZa2g==";
+        };
+        _GYdXAvZk = {
+            "id" = "GYdXAvZk";
+            "file" = "BetterChristmasChests-26.3-NeoForge-1.2.jar";
+            "hash" = "sha512-JZHL0mz0d4jjsL/FDOoDOO1J5GtxtBX+I/A1v2T5c0gcDVpbJyTuXW9I/dgYJMUYu/5INREHcIMgulTC2LH9mA==";
+        };
     in {
         "J3pO4hBN" = _J3pO4hBN;
         "BC4xyomP" = _BC4xyomP;
@@ -122,6 +132,8 @@ let
         "PW553SRf" = _PW553SRf;
         "4Hi7oOY0" = _4Hi7oOY0;
         "HJGtfFiK" = _HJGtfFiK;
+        "p9bSHUwW" = _p9bSHUwW;
+        "GYdXAvZk" = _GYdXAvZk;
         "fabric-1.21.4" = _J3pO4hBN;
         "fabric-1.21.5" = _BtnRh9VH;
         "fabric-1.21.6" = _1q1ST45y;
@@ -132,6 +144,7 @@ let
         "fabric-1.21.11" = _UOIbVxgh;
         "fabric-26.1.2" = _kBNVHlQ3;
         "fabric-26.2" = _4Hi7oOY0;
+        "fabric-26.3" = _p9bSHUwW;
         "neoforge-1.21.4" = _BC4xyomP;
         "neoforge-1.21.5" = _YgCABono;
         "neoforge-1.21.6" = _h7SX2xc6;
@@ -142,6 +155,7 @@ let
         "neoforge-1.21.11" = _lXrp1ZYz;
         "neoforge-26.1.2" = _PW553SRf;
         "neoforge-26.2" = _HJGtfFiK;
+        "neoforge-26.3" = _GYdXAvZk;
         "pkg-1.0.0" = _YgCABono;
         "pkg-1.0.0-1.21.6" = _h7SX2xc6;
         "pkg-1.0.0-1.21.7" = _YIhScWvy;
@@ -151,7 +165,8 @@ let
         "pkg-1.1.2" = _lXrp1ZYz;
         "pkg-1.2" = _PW553SRf;
         "pkg-1.2-26.2" = _HJGtfFiK;
-        "default" = _HJGtfFiK;
+        "pkg-1.2-26.3" = _GYdXAvZk;
+        "default" = _GYdXAvZk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hendrixs-better-christmas-chests";

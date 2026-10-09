@@ -221,6 +221,21 @@ let
             "file" = "sciophobia-1.2.6+26.1.1-fabric.jar";
             "hash" = "sha512-6HAAROsAEtxu7THiExuPj3rcQcXktHBcG/02F18D69iUL3Oqbd+M2TBan8r0QlxHLg/78Xyd29bzxncAiUA5KA==";
         };
+        _rWdBqFMZ = {
+            "id" = "rWdBqFMZ";
+            "file" = "sciophobia-2.0.0+26.3-fabric.jar";
+            "hash" = "sha512-19VjBQjeS51Ti7ZoVt43X2VoBy2dBv/eYXYtZWip8F1d37Pg26vCouYhGjYW6ebK/02W/7NOsE7sRits2XyW0Q==";
+        };
+        _FsXIcnwX = {
+            "id" = "FsXIcnwX";
+            "file" = "sciophobia-2.0.1+26.3-fabric.jar";
+            "hash" = "sha512-J1LSRggJMzf2lFuEbJtOKxJ6FxclNV5xwTwQUunj+qeJ9bGLf9/2N9FQwt8Wj9NIGOHrW65u8/pNM22uQxm5nw==";
+        };
+        _MhGkEwKe = {
+            "id" = "MhGkEwKe";
+            "file" = "sciophobia-1.2.6+1.8.9-fabric.jar";
+            "hash" = "sha512-V3MPlSgOZxq/tMp2llict5qu3m4u1aw72cEppb14t+tfSoztKq6uMF7Qsrjaytb3AqdYmGCZLkK2PhcQaTou9w==";
+        };
     in {
         "WMk6Yhi8" = _WMk6Yhi8;
         "8gbaCWxv" = _8gbaCWxv;
@@ -266,6 +281,9 @@ let
         "hrEBLLaX" = _hrEBLLaX;
         "kYotWaB4" = _kYotWaB4;
         "6tAtLATu" = _6tAtLATu;
+        "rWdBqFMZ" = _rWdBqFMZ;
+        "FsXIcnwX" = _FsXIcnwX;
+        "MhGkEwKe" = _MhGkEwKe;
         "fabric-1.20" = _amShpA2k;
         "fabric-1.20.1" = _amShpA2k;
         "fabric-1.20.2" = _amShpA2k;
@@ -284,10 +302,11 @@ let
         "fabric-1.21.8" = _c61r8xAN;
         "fabric-1.21.10" = _c61r8xAN;
         "fabric-1.21.11" = _kYotWaB4;
-        "fabric-26.1" = _6tAtLATu;
-        "fabric-26.1.1" = _6tAtLATu;
-        "fabric-26.1.2" = _6tAtLATu;
-        "fabric-26.2" = _6tAtLATu;
+        "fabric-26.1" = _FsXIcnwX;
+        "fabric-26.1.1" = _FsXIcnwX;
+        "fabric-26.1.2" = _FsXIcnwX;
+        "fabric-26.2" = _FsXIcnwX;
+        "fabric-26.3" = _FsXIcnwX;
         "neoforge-1.21" = _ANtRytpQ;
         "neoforge-1.21.1" = _ANtRytpQ;
         "neoforge-1.21.2" = _Epg060cQ;
@@ -296,6 +315,7 @@ let
         "neoforge-1.21.5" = _8VOiv1bt;
         "neoforge-1.21.8" = _ZMc8EB9J;
         "neoforge-1.21.10" = _ZMc8EB9J;
+        "ornithe-1.8.9" = _MhGkEwKe;
         "pkg-1.0.0" = _WMk6Yhi8;
         "pkg-1.0.1" = _8gbaCWxv;
         "pkg-1.0.2" = _WQBNpGko;
@@ -308,8 +328,10 @@ let
         "pkg-1.2.3" = _As2ElDiw;
         "pkg-1.2.4" = _hrEBLLaX;
         "pkg-1.2.5" = _kYotWaB4;
-        "pkg-1.2.6" = _6tAtLATu;
-        "default" = _6tAtLATu;
+        "pkg-1.2.6" = _MhGkEwKe;
+        "pkg-2.0.0" = _rWdBqFMZ;
+        "pkg-2.0.1" = _FsXIcnwX;
+        "default" = _MhGkEwKe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sciophobia";

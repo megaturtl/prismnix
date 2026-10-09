@@ -566,6 +566,41 @@ let
             "file" = "ubesdelight-fabric-26.2-0.4.14.jar";
             "hash" = "sha512-/331/0jJomBai+rt8AzlnEJt2OOef4UTWlNGJ8JSSIUPWmIX3zSnJgYFK+ZPxyF8AXaIhx5AGfRoAQlB4gUYAA==";
         };
+        _FOEkFTgl = {
+            "id" = "FOEkFTgl";
+            "file" = "ubesdelight-forge-1.20.1-0.4.15.jar";
+            "hash" = "sha512-WFrbCmPehklRk4O8CbC/6WIWZHmjYM/eFCBFmGViXyCp036FKEjfw1XhBxp6n/bzYdZYP4pHeHAjFUljQuJlxQ==";
+        };
+        _L16kDzQf = {
+            "id" = "L16kDzQf";
+            "file" = "ubesdelight-fabric-1.20.1-0.4.15.jar";
+            "hash" = "sha512-KbucNrIygDXBZTXcfWhxEpSFbXKuH70BdTi7gXn/60gxA9yS0L6ExoZkCS3/1mms698cm7pJbBEfj2WZeYZYuw==";
+        };
+        _z5dFPFgt = {
+            "id" = "z5dFPFgt";
+            "file" = "ubesdelight-fabric-1.21.1-0.4.15-3.0.0+refab.jar";
+            "hash" = "sha512-OJAA0w+SURlvvycj4TNB8y1BCNPqKklZ22gi9tRvmWzinVnbNVzJnss0x0ymP25HK5YGfRZkv2pG6PkWjDLpMw==";
+        };
+        _hxl0dMZ3 = {
+            "id" = "hxl0dMZ3";
+            "file" = "ubesdelight-neoforge-1.21.1-0.4.15.jar";
+            "hash" = "sha512-KpqzRvNXW02l+H4couy/kP3jmrjsaMUTGU/aMbKBAN/nO28Ph9DtMAvXOmVVWKT8vwm2aAdOogtjjQ24c5CAbA==";
+        };
+        _YKJCSGVJ = {
+            "id" = "YKJCSGVJ";
+            "file" = "ubesdelight-fabric-26.1.2-0.4.15.jar";
+            "hash" = "sha512-scu23ka2nqSjBoVPrBcvBkc3B9AvluOjzHG+kiVZg/+PFsroByx6GRgP9WZ/XBnzCsC1nes5qx8McTYv4KIjXw==";
+        };
+        _4wVvKlVu = {
+            "id" = "4wVvKlVu";
+            "file" = "ubesdelight-fabric-26.2-0.4.15.jar";
+            "hash" = "sha512-FsWhvoBTXC6TFrsCSsYWlOTXkJNePAQ6ClmnJUQHTN1yXN0EMVG+ME3PenUZqmsNf6t7RcQ1NTjHi4a2WiJFfA==";
+        };
+        _iuTYZFPU = {
+            "id" = "iuTYZFPU";
+            "file" = "ubesdelight-fabric-26.3-0.4.15.jar";
+            "hash" = "sha512-V0abkeqRQj+QA9wEczmq2zVp7Aecd0LGXV43R1uUd9Ek9NMNOsr3024QhfiWyWkV1XBv3xfpQ+QP2EEBDJwGvQ==";
+        };
     in {
         "9NKMhgGi" = _9NKMhgGi;
         "Cw36hh5h" = _Cw36hh5h;
@@ -680,11 +715,18 @@ let
         "ZvxIWiqT" = _ZvxIWiqT;
         "7sZz0uPp" = _7sZz0uPp;
         "Roe7K8pA" = _Roe7K8pA;
-        "fabric-1.20" = _hshjWmab;
-        "fabric-1.20.1" = _hshjWmab;
+        "FOEkFTgl" = _FOEkFTgl;
+        "L16kDzQf" = _L16kDzQf;
+        "z5dFPFgt" = _z5dFPFgt;
+        "hxl0dMZ3" = _hxl0dMZ3;
+        "YKJCSGVJ" = _YKJCSGVJ;
+        "4wVvKlVu" = _4wVvKlVu;
+        "iuTYZFPU" = _iuTYZFPU;
+        "fabric-1.20" = _L16kDzQf;
+        "fabric-1.20.1" = _L16kDzQf;
         "fabric-1.19.2" = _zKSO8GuP;
-        "fabric-1.21" = _nTtwab1i;
-        "fabric-1.21.1" = _nTtwab1i;
+        "fabric-1.21" = _z5dFPFgt;
+        "fabric-1.21.1" = _z5dFPFgt;
         "fabric-1.21.5" = _MJCdPlna;
         "fabric-1.21.6" = _wIfrcEZg;
         "fabric-1.21.7" = _wIfrcEZg;
@@ -692,13 +734,14 @@ let
         "fabric-1.21.9" = _6tsaEUWX;
         "fabric-1.21.10" = _6tsaEUWX;
         "fabric-1.21.11" = _5CPUeaC4;
-        "fabric-26.1" = _7sZz0uPp;
-        "fabric-26.1.1" = _7sZz0uPp;
-        "fabric-26.1.2" = _7sZz0uPp;
-        "fabric-26.2" = _Roe7K8pA;
+        "fabric-26.1" = _YKJCSGVJ;
+        "fabric-26.1.1" = _YKJCSGVJ;
+        "fabric-26.1.2" = _YKJCSGVJ;
+        "fabric-26.2" = _4wVvKlVu;
+        "fabric-26.3" = _iuTYZFPU;
         "quilt-1.19.2" = _zKSO8GuP;
-        "quilt-1.20" = _hshjWmab;
-        "quilt-1.20.1" = _hshjWmab;
+        "quilt-1.20" = _L16kDzQf;
+        "quilt-1.20.1" = _L16kDzQf;
         "quilt-1.21" = _iDizWwTL;
         "quilt-1.21.1" = _iDizWwTL;
         "quilt-1.21.5" = _MJCdPlna;
@@ -711,12 +754,12 @@ let
         "quilt-26.1" = _HsKvFAKn;
         "quilt-26.1.1" = _HsKvFAKn;
         "quilt-26.1.2" = _HsKvFAKn;
-        "forge-1.20" = _UK9qL8Nu;
-        "forge-1.20.1" = _UK9qL8Nu;
-        "neoforge-1.20" = _UK9qL8Nu;
-        "neoforge-1.20.1" = _UK9qL8Nu;
-        "neoforge-1.21" = _ZvxIWiqT;
-        "neoforge-1.21.1" = _ZvxIWiqT;
+        "forge-1.20" = _FOEkFTgl;
+        "forge-1.20.1" = _FOEkFTgl;
+        "neoforge-1.20" = _FOEkFTgl;
+        "neoforge-1.20.1" = _FOEkFTgl;
+        "neoforge-1.21" = _hxl0dMZ3;
+        "neoforge-1.21.1" = _hxl0dMZ3;
         "pkg-0.1.1-1.20.1" = _9NKMhgGi;
         "pkg-0.1.1-1.19.2" = _Cw36hh5h;
         "pkg-0.1.2" = _CkLX1Upa;
@@ -830,7 +873,14 @@ let
         "pkg-neoforge-1.21.1-0.4.14" = _ZvxIWiqT;
         "pkg-26.1.2-0.4.14" = _7sZz0uPp;
         "pkg-26.2-0.4.14" = _Roe7K8pA;
-        "default" = _Roe7K8pA;
+        "pkg-forge-1.20.1-0.4.15" = _FOEkFTgl;
+        "pkg-fabric-1.20.1-0.4.15" = _L16kDzQf;
+        "pkg-fabric-1.21.1-0.4.15-3.0.0+refab" = _z5dFPFgt;
+        "pkg-neoforge-1.21.1-0.4.15" = _hxl0dMZ3;
+        "pkg-26.1.2-0.4.15" = _YKJCSGVJ;
+        "pkg-26.2-0.4.15" = _4wVvKlVu;
+        "pkg-26.3-0.4.15" = _iuTYZFPU;
+        "default" = _iuTYZFPU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ubes-delight";

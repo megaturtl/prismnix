@@ -286,6 +286,16 @@ let
             "file" = "autorespawn-26.2-0.1.jar";
             "hash" = "sha512-c257zspVc1yF3AVyu1KspFw8BVDwWmmz0feFzNjeNyLnEAfgBiy7/oosZVGsNw+PMWRieoNIOaRybIiNQxZBaA==";
         };
+        _iN2andpd = {
+            "id" = "iN2andpd";
+            "file" = "AutoRespawn-26.3-0.1.jar";
+            "hash" = "sha512-LWYOWH5CfuaGqNlhnx5ffAiz3DrGPls6rqnRXJM2pfw71ZCfp4MdOAhwrMg25BkWb7zIl8xmokrX2/WZcaTJjw==";
+        };
+        _wBETGzez = {
+            "id" = "wBETGzez";
+            "file" = "autorespawn-26.3-0.1.jar";
+            "hash" = "sha512-0t2+XC/JDqpdTWsPZxfadAkPevJZ7geFafg3EcaMY9Os+/u/dY4JOc3pZDp0dD9vK40TTq3q8NUIZSpCLNGdHA==";
+        };
     in {
         "j0BtAKWX" = _j0BtAKWX;
         "puIXffuG" = _puIXffuG;
@@ -344,6 +354,8 @@ let
         "3sD7oe5L" = _3sD7oe5L;
         "A4MeqfWl" = _A4MeqfWl;
         "1iZGZl9c" = _1iZGZl9c;
+        "iN2andpd" = _iN2andpd;
+        "wBETGzez" = _wBETGzez;
         "fabric-1.21.4" = _hMTzyrOi;
         "fabric-1.21" = _AZvXUtbe;
         "fabric-1.21.1" = _jxwoeRoR;
@@ -359,6 +371,7 @@ let
         "fabric-26.1.1" = _hTyJqNf1;
         "fabric-26.1.2" = _ZCq1Vza7;
         "fabric-26.2" = _A4MeqfWl;
+        "fabric-26.3" = _iN2andpd;
         "neoforge-1.21.4" = _yiTwb6Ov;
         "neoforge-1.21.3" = _b9VANPP6;
         "neoforge-1.21.1" = _sKhZ6E7K;
@@ -374,6 +387,7 @@ let
         "neoforge-26.1.1" = _MuwZq7f0;
         "neoforge-26.1.2" = _3sD7oe5L;
         "neoforge-26.2" = _1iZGZl9c;
+        "neoforge-26.3" = _wBETGzez;
         "forge-1.21" = _lAbTumW6;
         "forge-1.21.1" = _8daezdNA;
         "forge-1.21.3" = _Q57umamp;
@@ -405,7 +419,8 @@ let
         "pkg-26.1.1-0.1" = _MuwZq7f0;
         "pkg-26.1.2-0.1" = _3sD7oe5L;
         "pkg-26.2-0.1" = _1iZGZl9c;
-        "default" = _1iZGZl9c;
+        "pkg-26.3-0.1" = _wBETGzez;
+        "default" = _wBETGzez;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "auto-respawn";

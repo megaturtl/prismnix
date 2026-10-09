@@ -111,6 +111,21 @@ let
             "file" = "animalgarden-redpanda-1.1.3-neoforge-26.1.2.4.jar";
             "hash" = "sha512-CYUiJKkWKRQ8n5+hFES8QmkF924LMScR6HUO/iMh73Lz5Dtoreb/BkuGJeQN14Wv2L30WLNG2WlZ/MRcDSMsMA==";
         };
+        _Ewzj4RQK = {
+            "id" = "Ewzj4RQK";
+            "file" = "animalgarden-redpanda-1.1.3-fabric-26.3-0.161.0.jar";
+            "hash" = "sha512-dSaWlgFVp0SCrwBMkFm6Ixds5Vb8FbM1Zjpn9CC4b3POBmbdRZ2jig6qW6unm86FKXChHmZiOx4fdd2fcYOwbQ==";
+        };
+        _aLQ7u5sQ = {
+            "id" = "aLQ7u5sQ";
+            "file" = "animalgarden-redpanda-1.1.3-forge-26.3-66.0.2.jar";
+            "hash" = "sha512-97TqOubPcpnFwHdVZPXMUT8npguY263UM1dIzL8wEMksMwkKB6UCH5M3Uvdfb/NfZKzXcd/XNPTsRmwQ5e7IiQ==";
+        };
+        _b8DMkBHT = {
+            "id" = "b8DMkBHT";
+            "file" = "animalgarden-redpanda-1.1.3-neoforge-26.3.0.10.jar";
+            "hash" = "sha512-+511CTWY9sZf8vJtUnUB+ThtGTnDXZdOEXTc2WnaFpOSUHoxm8JyTRwppYj1HQaQhWIh+SKBRxEQgIEjZY8SjQ==";
+        };
     in {
         "37BGSGJU" = _37BGSGJU;
         "KNkmIdYo" = _KNkmIdYo;
@@ -134,6 +149,9 @@ let
         "VXU5dAsT" = _VXU5dAsT;
         "pLhm17VY" = _pLhm17VY;
         "A6FuAyQq" = _A6FuAyQq;
+        "Ewzj4RQK" = _Ewzj4RQK;
+        "aLQ7u5sQ" = _aLQ7u5sQ;
+        "b8DMkBHT" = _b8DMkBHT;
         "forge-1.21.6" = _H8o9xIgF;
         "forge-1.21.7" = _H8o9xIgF;
         "forge-1.21.8" = _H8o9xIgF;
@@ -147,6 +165,7 @@ let
         "forge-26.1.1" = _pLhm17VY;
         "forge-26.1.2" = _pLhm17VY;
         "forge-26.2" = _pLhm17VY;
+        "forge-26.3" = _aLQ7u5sQ;
         "fabric-1.21.6" = _KNkmIdYo;
         "fabric-1.21.7" = _KNkmIdYo;
         "fabric-1.21.8" = _KNkmIdYo;
@@ -160,6 +179,7 @@ let
         "fabric-26.1.1" = _VXU5dAsT;
         "fabric-26.1.2" = _VXU5dAsT;
         "fabric-26.2" = _VXU5dAsT;
+        "fabric-26.3" = _Ewzj4RQK;
         "neoforge-1.21.6" = _FnJeWedo;
         "neoforge-1.21.7" = _FnJeWedo;
         "neoforge-1.21.8" = _FnJeWedo;
@@ -172,6 +192,7 @@ let
         "neoforge-26.1.1" = _A6FuAyQq;
         "neoforge-26.1.2" = _A6FuAyQq;
         "neoforge-26.2" = _A6FuAyQq;
+        "neoforge-26.3" = _b8DMkBHT;
         "pkg-1.0.0-forge-1.21.8-58.1.4" = _37BGSGJU;
         "pkg-1.0.0-fabric-1.21.8-0.133.4" = _KNkmIdYo;
         "pkg-1.0.0-neoforge-1.21.8-21.8.47" = _FnJeWedo;
@@ -194,7 +215,10 @@ let
         "pkg-1.1.3-fabric-26.1.2-0.145.4" = _VXU5dAsT;
         "pkg-1.1.3-forge-26.1.2-64.0.0" = _pLhm17VY;
         "pkg-1.1.3-neoforge-26.1.2.4" = _A6FuAyQq;
-        "default" = _A6FuAyQq;
+        "pkg-1.1.3-fabric-26.3-0.161.0" = _Ewzj4RQK;
+        "pkg-1.1.3-forge-26.3-66.0.2" = _aLQ7u5sQ;
+        "pkg-1.1.3-neoforge-26.3.0.10" = _b8DMkBHT;
+        "default" = _b8DMkBHT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "animal-garden-red-panda";

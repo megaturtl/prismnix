@@ -346,6 +346,16 @@ let
             "file" = "BlockRunner-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-OLa2LE621BSUFGnldPbJ1r4Sp5UDv6CXoPfmZjqK1/NbVRylUbTrYeOSelGO1GRkR9bgUuCc8CSO3TQpvBVFbg==";
         };
+        _e6UcN726 = {
+            "id" = "e6UcN726";
+            "file" = "blockrunner-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-PrSYNtFshwAg1WMpGjafUZInmDZyVRyqjkBsV+B8zLyeHziK/EC2kSGI29Ae9pvp2AWSHXxfxaZhwm/4VzEZqw==";
+        };
+        _32WnkvOu = {
+            "id" = "32WnkvOu";
+            "file" = "blockrunner-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-ERKaWefu2PxXaH+HyKt/5PiZ674FIVjZDrNwafK81baC/d7GD8x6mR6C0JDPbN/uVmOUAP/YzF5o7HMyATSfyQ==";
+        };
     in {
         "IA3rRwoQ" = _IA3rRwoQ;
         "gXVobCk3" = _gXVobCk3;
@@ -416,6 +426,8 @@ let
         "TBSYGYkr" = _TBSYGYkr;
         "U93rJ1m8" = _U93rJ1m8;
         "VNgfrtBA" = _VNgfrtBA;
+        "e6UcN726" = _e6UcN726;
+        "32WnkvOu" = _32WnkvOu;
         "forge-1.19" = _QK9knPuq;
         "forge-1.19.1" = _aULGG4lU;
         "forge-1.19.2" = _MxlSUiGV;
@@ -448,6 +460,7 @@ let
         "fabric-26.1.1" = _TBSYGYkr;
         "fabric-26.1.2" = _TBSYGYkr;
         "fabric-26.2" = _U93rJ1m8;
+        "fabric-26.3" = _32WnkvOu;
         "neoforge-1.20.4" = _xHSSVQ0d;
         "neoforge-1.21" = _6B0SoXxX;
         "neoforge-1.21.1" = _Cb7KF5iF;
@@ -463,6 +476,7 @@ let
         "neoforge-26.1.1" = _zQ6ciLZT;
         "neoforge-26.1.2" = _zQ6ciLZT;
         "neoforge-26.2" = _VNgfrtBA;
+        "neoforge-26.3" = _e6UcN726;
         "pkg-v4.0.0-1.19-Forge" = _IA3rRwoQ;
         "pkg-v4.0.0-1.19-Fabric" = _gXVobCk3;
         "pkg-v4.0.1-1.19-Forge" = _QK9knPuq;
@@ -526,7 +540,8 @@ let
         "pkg-21.11.0" = _i4RmOiga;
         "pkg-26.1.0" = _TBSYGYkr;
         "pkg-26.2.0" = _VNgfrtBA;
-        "default" = _VNgfrtBA;
+        "pkg-26.3.0" = _32WnkvOu;
+        "default" = _32WnkvOu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "block-runner";

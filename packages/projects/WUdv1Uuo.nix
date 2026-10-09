@@ -41,6 +41,11 @@ let
             "file" = "Bounty.jar";
             "hash" = "sha512-eR3T5eobsrh4JCxOSKI4EJNTFajLMKpEQgvx6NsgZS2SqRlzJq0GxpKJDeK4sJlTJIEBVXsXGU/Z0ycyO9y9AQ==";
         };
+        _sxHrH819 = {
+            "id" = "sxHrH819";
+            "file" = "Bounty.jar";
+            "hash" = "sha512-eR3T5eobsrh4JCxOSKI4EJNTFajLMKpEQgvx6NsgZS2SqRlzJq0GxpKJDeK4sJlTJIEBVXsXGU/Z0ycyO9y9AQ==";
+        };
     in {
         "FWWqXAi7" = _FWWqXAi7;
         "iMRSPzYK" = _iMRSPzYK;
@@ -50,6 +55,7 @@ let
         "iG5kFkMQ" = _iG5kFkMQ;
         "hP70wGKt" = _hP70wGKt;
         "7gY5YTR3" = _7gY5YTR3;
+        "sxHrH819" = _sxHrH819;
         "bukkit-1.15" = _FWWqXAi7;
         "bukkit-1.15.1" = _FWWqXAi7;
         "bukkit-1.15.2" = _FWWqXAi7;
@@ -92,6 +98,7 @@ let
         "bukkit-26.1.1" = _hP70wGKt;
         "bukkit-26.1.2" = _hP70wGKt;
         "bukkit-26.2" = _7gY5YTR3;
+        "bukkit-26.3" = _sxHrH819;
         "folia-1.15" = _FWWqXAi7;
         "folia-1.15.1" = _FWWqXAi7;
         "folia-1.15.2" = _FWWqXAi7;
@@ -134,6 +141,7 @@ let
         "folia-26.1.1" = _hP70wGKt;
         "folia-26.1.2" = _hP70wGKt;
         "folia-26.2" = _7gY5YTR3;
+        "folia-26.3" = _sxHrH819;
         "paper-1.15" = _FWWqXAi7;
         "paper-1.15.1" = _FWWqXAi7;
         "paper-1.15.2" = _FWWqXAi7;
@@ -176,6 +184,7 @@ let
         "paper-26.1.1" = _hP70wGKt;
         "paper-26.1.2" = _hP70wGKt;
         "paper-26.2" = _7gY5YTR3;
+        "paper-26.3" = _sxHrH819;
         "purpur-1.15" = _FWWqXAi7;
         "purpur-1.15.1" = _FWWqXAi7;
         "purpur-1.15.2" = _FWWqXAi7;
@@ -218,6 +227,7 @@ let
         "purpur-26.1.1" = _hP70wGKt;
         "purpur-26.1.2" = _hP70wGKt;
         "purpur-26.2" = _7gY5YTR3;
+        "purpur-26.3" = _sxHrH819;
         "spigot-1.15" = _FWWqXAi7;
         "spigot-1.15.1" = _FWWqXAi7;
         "spigot-1.15.2" = _FWWqXAi7;
@@ -260,6 +270,7 @@ let
         "spigot-26.1.1" = _hP70wGKt;
         "spigot-26.1.2" = _hP70wGKt;
         "spigot-26.2" = _7gY5YTR3;
+        "spigot-26.3" = _sxHrH819;
         "pkg-1.0" = _FWWqXAi7;
         "pkg-2.0" = _iMRSPzYK;
         "pkg-3.0" = _iMvRoUxP;
@@ -268,7 +279,8 @@ let
         "pkg-5.0" = _iG5kFkMQ;
         "pkg-5.1" = _hP70wGKt;
         "pkg-6.0" = _7gY5YTR3;
-        "default" = _7gY5YTR3;
+        "pkg-7.0" = _sxHrH819;
+        "default" = _sxHrH819;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bounty+";

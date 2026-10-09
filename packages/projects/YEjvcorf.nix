@@ -236,6 +236,11 @@ let
             "file" = "amyshield-2.6.1.jar";
             "hash" = "sha512-GbPS5v2KBwoSQATXMBngCu4heFixM6i8Jot2v2Jl27sQTaI3aDFa8BeMIkcK+Oi/HxAnXgdHrOFiPZABIPblPw==";
         };
+        _hrr4S1TG = {
+            "id" = "hrr4S1TG";
+            "file" = "amyshield-2.7.0.jar";
+            "hash" = "sha512-yoe8J3Tnal8lWpMKQQU4qeMJG16+9pi72DCNjVB0OsjRPlk24sNnhhl6+Xx/Ty1Bzohz7vLO0ttMK1OWOLHBcg==";
+        };
     in {
         "3I5uqwtX" = _3I5uqwtX;
         "kWFGiHSa" = _kWFGiHSa;
@@ -284,6 +289,7 @@ let
         "eT7G0QVL" = _eT7G0QVL;
         "Q7649JFj" = _Q7649JFj;
         "K4JIp7dp" = _K4JIp7dp;
+        "hrr4S1TG" = _hrr4S1TG;
         "fabric-1.20.1" = _qrwT05cD;
         "fabric-1.20.2" = _qrwT05cD;
         "fabric-1.21" = _vmOipmXl;
@@ -295,6 +301,7 @@ let
         "fabric-26.1" = _Q7649JFj;
         "fabric-26.1.1" = _Q7649JFj;
         "fabric-26.1.2" = _K4JIp7dp;
+        "fabric-26.3" = _hrr4S1TG;
         "quilt-1.20.1" = _qrwT05cD;
         "quilt-1.20.2" = _qrwT05cD;
         "quilt-1.21" = _vmOipmXl;
@@ -344,7 +351,8 @@ let
         "pkg-2.5.2" = _eT7G0QVL;
         "pkg-2.6.0" = _Q7649JFj;
         "pkg-2.6.1" = _K4JIp7dp;
-        "default" = _K4JIp7dp;
+        "pkg-2.7.0" = _hrr4S1TG;
+        "default" = _hrr4S1TG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "amethyst-shield";

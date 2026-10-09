@@ -151,6 +151,16 @@ let
             "file" = "purpirautototem-1.21.11.jar";
             "hash" = "sha512-xPGKS9hHeq07xpsiKJZebKaeoJUmPO5AFtIgOicomEMAxehVwdOM9RtYmn7nNEp10fSW7w4fSM24xLl1CIZACw==";
         };
+        _Q8SDrF3x = {
+            "id" = "Q8SDrF3x";
+            "file" = "purpirautototem-26.2.jar";
+            "hash" = "sha512-Fmx7TBAUd9c29Ldy4h6TYEMZYuERPhLx/jjutstnOxm4CiuPpZ6WVabKkLR5FOZN+jfNWLENqXTAFzVtp0WILA==";
+        };
+        _PX93TExV = {
+            "id" = "PX93TExV";
+            "file" = "purpirautototem-26.3.jar";
+            "hash" = "sha512-4Zg6L05wtSFV0ukJs/SxepixjKxzVGcOov/QbCB5qiyIaBJwbKVW+9GPFwvonEv3w3X08OcWX++lZ4AiR3Elmg==";
+        };
     in {
         "v94VNuK8" = _v94VNuK8;
         "TECCGyso" = _TECCGyso;
@@ -182,6 +192,8 @@ let
         "ZFRnhQfk" = _ZFRnhQfk;
         "RTcHBO7h" = _RTcHBO7h;
         "aftQxZnO" = _aftQxZnO;
+        "Q8SDrF3x" = _Q8SDrF3x;
+        "PX93TExV" = _PX93TExV;
         "fabric-1.21.1" = _4f0YDTNc;
         "fabric-1.21.2" = _TECCGyso;
         "fabric-1.21.3" = _qHIiEOkw;
@@ -212,6 +224,8 @@ let
         "fabric-1.19" = _O8SdaNre;
         "fabric-1.19.1" = _ZFRnhQfk;
         "fabric-1.19.2" = _RTcHBO7h;
+        "fabric-26.2" = _Q8SDrF3x;
+        "fabric-26.3" = _PX93TExV;
         "pkg-1.21.1" = _4f0YDTNc;
         "pkg-1.21.2" = _TECCGyso;
         "pkg-1.21.3" = _qHIiEOkw;
@@ -240,7 +254,9 @@ let
         "pkg-1.19" = _O8SdaNre;
         "pkg-1.19.1" = _ZFRnhQfk;
         "pkg-1.19.2" = _RTcHBO7h;
-        "default" = _aftQxZnO;
+        "pkg-26.2" = _Q8SDrF3x;
+        "pkg-26.3" = _PX93TExV;
+        "default" = _PX93TExV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "purpir-autototem";

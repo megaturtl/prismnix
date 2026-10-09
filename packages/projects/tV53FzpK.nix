@@ -26,12 +26,24 @@ let
             "file" = "MCDPigs1.21.x-0.6.zip";
             "hash" = "sha512-hlUfm1YnuLRcc83nDWpvRiR0oBe1nPjAK3SVCwBvTffZO5FNL/Gzv0hCVCB0pzS3lUsrHblDGiaWHGT1sE61FQ==";
         };
+        _la7vSV2Q = {
+            "id" = "la7vSV2Q";
+            "file" = "MCDPigs-x-FA-26.x-0.7.zip";
+            "hash" = "sha512-Gv/83wmR8tqJzE/fw3WITCmmlD0Iy4sKqAdq69gFJyS+u/ZIh8XyBBdTeyghrBoTAI5IPwlDYWXVpeEwCr2gyg==";
+        };
+        _U4F1y4WS = {
+            "id" = "U4F1y4WS";
+            "file" = "MCDPigs-26.x-0.7.zip";
+            "hash" = "sha512-1jB4DsNl65DejoRqN6nYnEc+9iNEoqgTkXzGNhxaLaSvdJ81PM5Ffa/1PpL67QMPffldm+fJkeG90O5unvdx4g==";
+        };
     in {
         "yBx6RcS6" = _yBx6RcS6;
         "93iZZTOY" = _93iZZTOY;
         "mC5B6uH4" = _mC5B6uH4;
         "dXpM2axp" = _dXpM2axp;
         "XTkUiTlr" = _XTkUiTlr;
+        "la7vSV2Q" = _la7vSV2Q;
+        "U4F1y4WS" = _U4F1y4WS;
         "minecraft-1.20.4" = _yBx6RcS6;
         "minecraft-1.21" = _dXpM2axp;
         "minecraft-1.21.1" = _dXpM2axp;
@@ -44,12 +56,19 @@ let
         "minecraft-1.21.8" = _XTkUiTlr;
         "minecraft-1.21.9" = _XTkUiTlr;
         "minecraft-1.21.10" = _XTkUiTlr;
+        "minecraft-26.1" = _U4F1y4WS;
+        "minecraft-26.1.1" = _U4F1y4WS;
+        "minecraft-26.1.2" = _U4F1y4WS;
+        "minecraft-26.2" = _U4F1y4WS;
+        "minecraft-26.3" = _U4F1y4WS;
         "pkg-0.2" = _yBx6RcS6;
         "pkg-0.3" = _93iZZTOY;
         "pkg-0.4" = _mC5B6uH4;
         "pkg-0.5" = _dXpM2axp;
         "pkg-0.6" = _XTkUiTlr;
-        "default" = _XTkUiTlr;
+        "pkg-0.7-FA" = _la7vSV2Q;
+        "pkg-0.7" = _U4F1y4WS;
+        "default" = _U4F1y4WS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minecraft-dungeons-pigs";

@@ -1141,6 +1141,26 @@ let
             "file" = "Dark Smooth GUI 1.21.9-1.21.10.zip";
             "hash" = "sha512-4U8MnTwzXGC7H9wcz1aTJJLZ5a2Ow9l2HTy8vaRrmUzMtloNzHZmxa+IbhbS02nk1FYRwNPpWWXfuGtOtjkWgQ==";
         };
+        _44nIiZpD = {
+            "id" = "44nIiZpD";
+            "file" = "Dark Smooth GUI 26.3.x.zip";
+            "hash" = "sha512-Ac5TFObeXkoAw374fOfbN5hnEkl+05NZpuV/ZyFv5a4ek9lwD9XOlXCfxgTUkZlkBcyPJuKQeAOBYDmJf+WqeA==";
+        };
+        _bbyZmJxG = {
+            "id" = "bbyZmJxG";
+            "file" = "Dark Smooth GUI 26.3.x blue-3D94FF-5EA6FF-0049A3-00316E.zip";
+            "hash" = "sha512-ht6V+0TlIq88nhrXmdn+kjPgU67sl1UsY7rGaNk8ShUtrVIJ/6eUUpvTtEKVLWDMHCh9fTa7+PCE5KEE/jIGEg==";
+        };
+        _WPpi8cqo = {
+            "id" = "WPpi8cqo";
+            "file" = "Dark Smooth GUI 26.3.x.zip";
+            "hash" = "sha512-xZYy+GjNQ6tD02/PkqavAb2NGl05K7DoWDOegvZ0VAiyK9aDcgis0JueWst9ZsmdCACILkXyoH8bzJnADloZzA==";
+        };
+        _sNAf0sPk = {
+            "id" = "sNAf0sPk";
+            "file" = "Dark Smooth GUI 26.3.x blue-3D94FF-5EA6FF-0049A3-00316E.zip";
+            "hash" = "sha512-WT+NXPgppS2hdyzogFxX9WtXvr6Sh2KtIKETd7bK+WPW4XKSNHWcv13J50mUagxyHmU0v26WyjIChuf9fDf7xw==";
+        };
     in {
         "nQtfkmmT" = _nQtfkmmT;
         "jpUglfCQ" = _jpUglfCQ;
@@ -1370,6 +1390,10 @@ let
         "DIyu4Y98" = _DIyu4Y98;
         "6TAVT5K1" = _6TAVT5K1;
         "FRggqRnL" = _FRggqRnL;
+        "44nIiZpD" = _44nIiZpD;
+        "bbyZmJxG" = _bbyZmJxG;
+        "WPpi8cqo" = _WPpi8cqo;
+        "sNAf0sPk" = _sNAf0sPk;
         "minecraft-1.17" = _gu5EII8f;
         "minecraft-1.17.1" = _gu5EII8f;
         "minecraft-1.18" = _5quMI7xe;
@@ -1403,6 +1427,7 @@ let
         "minecraft-26.1.1" = _x4qfUjqP;
         "minecraft-26.1.2" = _x4qfUjqP;
         "minecraft-26.2" = _gZQN6wvG;
+        "minecraft-26.3" = _sNAf0sPk;
         "pkg-0.4.0+1.17.x" = _nQtfkmmT;
         "pkg-0.4.0+1.18.x" = _jpUglfCQ;
         "pkg-0.4.0+1.19.x" = _vLkidZxU;
@@ -1631,7 +1656,11 @@ let
         "pkg-0.14.1+1.20.2-1.20.4" = _DIyu4Y98;
         "pkg-0.14.1+1.21.9-1.21.10-blue" = _6TAVT5K1;
         "pkg-0.14.1+1.21.9-1.21.10" = _FRggqRnL;
-        "default" = _FRggqRnL;
+        "pkg-0.14.1+26.3.x" = _44nIiZpD;
+        "pkg-0.14.1+26.3.x-blue" = _bbyZmJxG;
+        "pkg-0.14.2-26.3.x" = _WPpi8cqo;
+        "pkg-0.14.2-26.3.x-blue" = _sNAf0sPk;
+        "default" = _sNAf0sPk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dark-smooth-gui";

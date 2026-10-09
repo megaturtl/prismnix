@@ -466,6 +466,16 @@ let
             "file" = "Contagion-2.2.0-Forge-mc1.20.1.jar";
             "hash" = "sha512-5qpoTOdPvYFn1m2yCh6v0dIob9aPv1j2qloQM4lr1TKZLE0zviQQXZPAS7JrazS3idgBpUkDXLUiw92IQFzqtw==";
         };
+        _DsutKMck = {
+            "id" = "DsutKMck";
+            "file" = "Contagion-2.1.2-Fabric-mc26.3.jar";
+            "hash" = "sha512-G3oqpEDPYF+SP48G7U5ASu6XPcfY2zGFJQsfiCtfM7xDQm3DfSUhyopDKS4zlU+mZYMQJJy5KesM6oD6QLoWjw==";
+        };
+        _4tdqhokG = {
+            "id" = "4tdqhokG";
+            "file" = "Contagion-2.1.1-NeoForge-mc26.3.jar";
+            "hash" = "sha512-sMf3VDfL2WDp0V7s7n4Cl/PqbaxI1S4SmxfOgoLym58WXQWEhYrqaPnfFceGSgCFET+gCd//Q/wqwGbt72Zr0Q==";
+        };
     in {
         "9pbDOkKe" = _9pbDOkKe;
         "UhvEyfSk" = _UhvEyfSk;
@@ -560,6 +570,8 @@ let
         "wOfJFFGH" = _wOfJFFGH;
         "S7KVLOGn" = _S7KVLOGn;
         "uG8MEjg2" = _uG8MEjg2;
+        "DsutKMck" = _DsutKMck;
+        "4tdqhokG" = _4tdqhokG;
         "fabric-1.20.4" = _GyWrPsNE;
         "fabric-1.20.1" = _jnH2yN9z;
         "fabric-1.20.2" = _GyWrPsNE;
@@ -581,6 +593,7 @@ let
         "fabric-26.1.1" = _wOfJFFGH;
         "fabric-26.1.2" = _wOfJFFGH;
         "fabric-26.2" = _S7KVLOGn;
+        "fabric-26.3" = _DsutKMck;
         "neoforge-1.21" = _qFSWDBoO;
         "neoforge-1.21.1" = _qFSWDBoO;
         "neoforge-1.21.3" = _9giOkg79;
@@ -596,6 +609,7 @@ let
         "neoforge-26.1.1" = _dHjXCKSq;
         "neoforge-26.1.2" = _7tDxP9A5;
         "neoforge-26.2" = _xqQr0gg8;
+        "neoforge-26.3" = _4tdqhokG;
         "forge-1.20.1" = _uG8MEjg2;
         "forge-1.19.2" = _JvzjkZdb;
         "pkg-0.9-1.20.4" = _9pbDOkKe;
@@ -691,7 +705,9 @@ let
         "pkg-2.1.2-Fabric-mc26.1" = _wOfJFFGH;
         "pkg-2.1.2-Fabric-mc26.2" = _S7KVLOGn;
         "pkg-2.2.0-Forge-mc1.20.1" = _uG8MEjg2;
-        "default" = _uG8MEjg2;
+        "pkg-2.1.2-Fabric-mc26.3" = _DsutKMck;
+        "pkg-2.1.1-NeoForge-mc26.3" = _4tdqhokG;
+        "default" = _4tdqhokG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "contagion";

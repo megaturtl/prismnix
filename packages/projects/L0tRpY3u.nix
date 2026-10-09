@@ -21,17 +21,24 @@ let
             "file" = "minegenshin-0.26.2.1-beta.jar";
             "hash" = "sha512-OqrGDvonKZlpwTGlPdAcvCZzeoL1sQkn/8s5RZdcDmdMrXy+ajRuzcztD2+PUWI0MY6Q5ByiU3DGNlGBn/9oUA==";
         };
+        _ckGNHSln = {
+            "id" = "ckGNHSln";
+            "file" = "minegenshin-1.0.1.jar";
+            "hash" = "sha512-7YDa/BYWiipOoYCrU8CGZLm/87tpZqAER8rJZf0EqCZdRiyvCUE7iJ7fnptDelt+2Fix78XrozYXav/lP4DvAA==";
+        };
     in {
         "ANKbF1t2" = _ANKbF1t2;
         "QUCWtdIe" = _QUCWtdIe;
         "4QUSPg50" = _4QUSPg50;
         "6mAXF50q" = _6mAXF50q;
+        "ckGNHSln" = _ckGNHSln;
         "neoforge-1.21.1" = _4QUSPg50;
-        "neoforge-26.2" = _6mAXF50q;
+        "neoforge-26.2" = _ckGNHSln;
         "pkg-0.0.1" = _QUCWtdIe;
         "pkg-0.0.2b" = _4QUSPg50;
         "pkg-0.26.2.1-beta" = _6mAXF50q;
-        "default" = _6mAXF50q;
+        "pkg-1.0.1" = _ckGNHSln;
+        "default" = _ckGNHSln;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minegenshin";

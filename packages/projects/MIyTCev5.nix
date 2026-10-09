@@ -211,6 +211,21 @@ let
             "file" = "flags_that_represent-10.2.0-forge-1.20.1.jar";
             "hash" = "sha512-9PCMX0EjIdEJBDaaBoCm+NfYZMJoGStai9bIoa4ScpJlwEu3yaEy3GkkQ/rPP8Mj2yQJKdlCKk1bXlY/1WTtlA==";
         };
+        _gOlVpsGS = {
+            "id" = "gOlVpsGS";
+            "file" = "flags_that_represent-10.3.0-neoforge-26.1.2.jar";
+            "hash" = "sha512-KOHEjeWU26F7lLLaYZhyNxJpmChx8wF9bJG4PCQg9e4fmqvkPGFI8mOoT3lkgiqJvjc9SlfXRwn63sSz0kQYYA==";
+        };
+        _t5SsN4j8 = {
+            "id" = "t5SsN4j8";
+            "file" = "flags_that_represent-10.3.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-iwjIDGyMwoM2iNn/pvx+khyhrHJ0O8uydy+ZqCRn5AwbG02DBZ0B6KkNIgGHTrN68zzajjjCYTr4NT4m+M7tvQ==";
+        };
+        _1UXblOST = {
+            "id" = "1UXblOST";
+            "file" = "flags_that_represent-10.3.0-forge-1.20.1.jar";
+            "hash" = "sha512-DB5yrvVSGC/PBv4dfQW3SifcQLQI8aJmR1gvWNTILq0Bgr9cE72ojGqBWMvh4ncPgJsvj7KURpl1y+5zKuc70A==";
+        };
     in {
         "4IfZ7LRt" = _4IfZ7LRt;
         "vAgmoKJs" = _vAgmoKJs;
@@ -254,12 +269,15 @@ let
         "fQ2eoTBC" = _fQ2eoTBC;
         "XceX9aVp" = _XceX9aVp;
         "R7QWvkDT" = _R7QWvkDT;
+        "gOlVpsGS" = _gOlVpsGS;
+        "t5SsN4j8" = _t5SsN4j8;
+        "1UXblOST" = _1UXblOST;
         "neoforge-1.21.8" = _EV3dwATD;
-        "neoforge-1.21.1" = _XceX9aVp;
+        "neoforge-1.21.1" = _t5SsN4j8;
         "neoforge-1.21.4" = _NJAsnDPI;
         "neoforge-1.20.6" = _v3fjp1Pl;
-        "neoforge-26.1.2" = _NQWHBY1I;
-        "forge-1.20.1" = _R7QWvkDT;
+        "neoforge-26.1.2" = _gOlVpsGS;
+        "forge-1.20.1" = _1UXblOST;
         "forge-1.19.2" = _30McXCS8;
         "forge-1.19.4" = _tmLcCgog;
         "forge-1.17.1" = _s3qsuWFQ;
@@ -283,7 +301,8 @@ let
         "pkg-10.0.1" = _KnMfkUYt;
         "pkg-10.1.0" = _fQ2eoTBC;
         "pkg-10.2.0" = _R7QWvkDT;
-        "default" = _R7QWvkDT;
+        "pkg-10.3.0" = _1UXblOST;
+        "default" = _1UXblOST;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flags-that-represent";

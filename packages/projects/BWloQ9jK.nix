@@ -171,6 +171,16 @@ let
             "file" = "stendhal-1.4.8-26.2.jar";
             "hash" = "sha512-yiwwapb5ir4wpXej9Th336cob7wJeetn5jhNTx7FpixZKeI8PJGH6GfIzlUdSGyhj0wDZZWyNz+0svdz5vYAOQ==";
         };
+        _t2D32YQv = {
+            "id" = "t2D32YQv";
+            "file" = "stendhal-1.4.9-26.2.jar";
+            "hash" = "sha512-GnqgyBN7qKITQdj2LTtCnQ8MqcgdwrAYNAE0820udYxZT926c+i6zCJHBqCsgKfpeMLkGn7VkXXtcCyeOTI53A==";
+        };
+        _WBZX4Wze = {
+            "id" = "WBZX4Wze";
+            "file" = "stendhal-1.4.9-26.3.jar";
+            "hash" = "sha512-4+tj8l41H171V8cXHWVcOeXi1qp8olMGe9U40TPCfhhQLlf3h6ijZP/butDqX8l5UnZOv1ehVOKFWyilakJqZg==";
+        };
     in {
         "7RZcMviG" = _7RZcMviG;
         "6HUcDuYC" = _6HUcDuYC;
@@ -206,6 +216,8 @@ let
         "FNWNtIX0" = _FNWNtIX0;
         "ohaFJfW4" = _ohaFJfW4;
         "XmwgA3tG" = _XmwgA3tG;
+        "t2D32YQv" = _t2D32YQv;
+        "WBZX4Wze" = _WBZX4Wze;
         "fabric-1.16.5" = _6HUcDuYC;
         "fabric-1.17.1" = _FgDI6kIz;
         "fabric-1.18" = _YzKB2i5W;
@@ -235,7 +247,8 @@ let
         "fabric-1.21.10" = _HO6A4YAV;
         "fabric-1.21.11" = _6d1Ndpk3;
         "fabric-26.1.2" = _FNWNtIX0;
-        "fabric-26.2" = _XmwgA3tG;
+        "fabric-26.2" = _t2D32YQv;
+        "fabric-26.3" = _WBZX4Wze;
         "pkg-1.0.0" = _7RZcMviG;
         "pkg-1.1.0" = _6HUcDuYC;
         "pkg-1.2.0-1.17.1" = _FgDI6kIz;
@@ -268,7 +281,9 @@ let
         "pkg-1.4.6-26.1.2" = _FNWNtIX0;
         "pkg-1.4.7-26.2" = _ohaFJfW4;
         "pkg-1.4.8-26.2" = _XmwgA3tG;
-        "default" = _XmwgA3tG;
+        "pkg-1.4.9-26.2" = _t2D32YQv;
+        "pkg-1.4.9-26.3" = _WBZX4Wze;
+        "default" = _WBZX4Wze;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stendhal";

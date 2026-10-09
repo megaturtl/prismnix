@@ -76,6 +76,26 @@ let
             "file" = "swift-flight-v1.0.3.jar";
             "hash" = "sha512-CJh4uTZ5ALtV2DjwnHSfv+HdTAzhgxasDLLO4J4bqvrSwY9EaO64TAMigyGOtND4dcy3HX0q9jfUqu1SlpTdOQ==";
         };
+        _gtesjnqE = {
+            "id" = "gtesjnqE";
+            "file" = "swift-flight-v1.1.0.zip";
+            "hash" = "sha512-0uF0kY0w3Q/CCzu1djDr/VVXQxHuQvLgw+ewveU3HH/L4u8fseoYZzhmzZupFGhSGiysg93RxygXY6jZGfCLEg==";
+        };
+        _JLk0Cab1 = {
+            "id" = "JLk0Cab1";
+            "file" = "swift-flight-v1.1.0.jar";
+            "hash" = "sha512-tZCW3Nzxuh6TOZHglf5HDx/uHRmfLN/jFgPeQM96Au10fJfXcj4cqrgoAGCRudEzUxXFF+HEictdVn2eTNI9Ug==";
+        };
+        _Itxskyud = {
+            "id" = "Itxskyud";
+            "file" = "swift-flight-v1.1.0.0.zip";
+            "hash" = "sha512-cM6HcM7cHXoT/79TyJrPvbtDduzJkSe4CVDOEOvwyjca1Ne8cv9Yk+gosqBpv7nPrnljS82gj/bi18iio8E28w==";
+        };
+        _yiZ3hM3D = {
+            "id" = "yiZ3hM3D";
+            "file" = "swift-flight-v1.1.0.0.jar";
+            "hash" = "sha512-FAnQvoKUGNsCd515IUrrfZk4Ry4oQHbXP6q1C7hePEmHPklnRTZYR81eAMzyDwVkoB4iHXfxdyvGYinMGVtIrg==";
+        };
     in {
         "2QLxIxM3" = _2QLxIxM3;
         "1dMAgaSg" = _1dMAgaSg;
@@ -92,6 +112,10 @@ let
         "SMxuo5iM" = _SMxuo5iM;
         "3BovgAw5" = _3BovgAw5;
         "M8eMPIaR" = _M8eMPIaR;
+        "gtesjnqE" = _gtesjnqE;
+        "JLk0Cab1" = _JLk0Cab1;
+        "Itxskyud" = _Itxskyud;
+        "yiZ3hM3D" = _yiZ3hM3D;
         "datapack-1.21.6" = _3BovgAw5;
         "datapack-1.21.7" = _3BovgAw5;
         "datapack-1.21.8" = _3BovgAw5;
@@ -102,6 +126,7 @@ let
         "datapack-26.1.1" = _3BovgAw5;
         "datapack-26.1.2" = _3BovgAw5;
         "datapack-26.2" = _3BovgAw5;
+        "datapack-26.3" = _Itxskyud;
         "fabric-1.21.6" = _M8eMPIaR;
         "fabric-1.21.7" = _M8eMPIaR;
         "fabric-1.21.8" = _M8eMPIaR;
@@ -112,6 +137,7 @@ let
         "fabric-26.1.1" = _M8eMPIaR;
         "fabric-26.1.2" = _M8eMPIaR;
         "fabric-26.2" = _M8eMPIaR;
+        "fabric-26.3" = _yiZ3hM3D;
         "forge-1.21.6" = _M8eMPIaR;
         "forge-1.21.7" = _M8eMPIaR;
         "forge-1.21.8" = _M8eMPIaR;
@@ -122,6 +148,7 @@ let
         "forge-26.1.1" = _M8eMPIaR;
         "forge-26.1.2" = _M8eMPIaR;
         "forge-26.2" = _M8eMPIaR;
+        "forge-26.3" = _yiZ3hM3D;
         "neoforge-1.21.6" = _M8eMPIaR;
         "neoforge-1.21.7" = _M8eMPIaR;
         "neoforge-1.21.8" = _M8eMPIaR;
@@ -132,6 +159,7 @@ let
         "neoforge-26.1.1" = _M8eMPIaR;
         "neoforge-26.1.2" = _M8eMPIaR;
         "neoforge-26.2" = _M8eMPIaR;
+        "neoforge-26.3" = _yiZ3hM3D;
         "quilt-1.21.6" = _M8eMPIaR;
         "quilt-1.21.7" = _M8eMPIaR;
         "quilt-1.21.8" = _M8eMPIaR;
@@ -142,6 +170,7 @@ let
         "quilt-26.1.1" = _M8eMPIaR;
         "quilt-26.1.2" = _M8eMPIaR;
         "quilt-26.2" = _M8eMPIaR;
+        "quilt-26.3" = _yiZ3hM3D;
         "pkg-v1.0.0" = _QkQ9dHjA;
         "pkg-v1.0.0+mod" = _JwmEcGIi;
         "pkg-v1.0.1" = _YNMYTxQ8;
@@ -152,7 +181,11 @@ let
         "pkg-v1.0.2+mod" = _SMxuo5iM;
         "pkg-v1.0.3" = _3BovgAw5;
         "pkg-v1.0.3+mod" = _M8eMPIaR;
-        "default" = _M8eMPIaR;
+        "pkg-v1.1.0" = _gtesjnqE;
+        "pkg-v1.1.0+mod" = _JLk0Cab1;
+        "pkg-v1.1.0.0" = _Itxskyud;
+        "pkg-v1.1.0.0+mod" = _yiZ3hM3D;
+        "default" = _yiZ3hM3D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "swift-flight";

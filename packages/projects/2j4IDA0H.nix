@@ -6,8 +6,14 @@ let
             "file" = "§bTF2-Sound-Replacements.zip";
             "hash" = "sha512-2z+hJlUpuwKkhTViPgjO6UuF/VtqGKyGhyPyUJhTaIlSEfgzzadetcV6fIpit3aI4u3Io5ccFfHyLl3UfJLX0Q==";
         };
+        _LiSkzKmv = {
+            "id" = "LiSkzKmv";
+            "file" = "§bTF2-Sound-Replacements.zip";
+            "hash" = "sha512-yDh/vwlqu4moBBSZdJPS0fiOx5qTnshq/ZIeu8JC4y+9tydBGGXTm/+FSAPeMed0UXsRcEb5Xa8oKFGaCwcKEA==";
+        };
     in {
         "hu66TEut" = _hu66TEut;
+        "LiSkzKmv" = _LiSkzKmv;
         "minecraft-1.11" = _hu66TEut;
         "minecraft-1.11.1" = _hu66TEut;
         "minecraft-1.11.2" = _hu66TEut;
@@ -36,9 +42,9 @@ let
         "minecraft-1.18" = _hu66TEut;
         "minecraft-1.18.1" = _hu66TEut;
         "minecraft-1.18.2" = _hu66TEut;
-        "minecraft-1.19" = _hu66TEut;
-        "minecraft-1.19.1" = _hu66TEut;
-        "minecraft-1.19.2" = _hu66TEut;
+        "minecraft-1.19" = _LiSkzKmv;
+        "minecraft-1.19.1" = _LiSkzKmv;
+        "minecraft-1.19.2" = _LiSkzKmv;
         "minecraft-1.19.3" = _hu66TEut;
         "minecraft-1.19.4" = _hu66TEut;
         "minecraft-1.20" = _hu66TEut;
@@ -60,7 +66,8 @@ let
         "minecraft-1.21.9" = _hu66TEut;
         "minecraft-1.21.10" = _hu66TEut;
         "pkg-1.1.0" = _hu66TEut;
-        "default" = _hu66TEut;
+        "pkg-1.1.1" = _LiSkzKmv;
+        "default" = _LiSkzKmv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tf2-sound-add-ons";

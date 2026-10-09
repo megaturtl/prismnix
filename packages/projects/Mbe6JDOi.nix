@@ -56,6 +56,26 @@ let
             "file" = "modularpokeballs-2.0.6.jar";
             "hash" = "sha512-oDm0MeAm349aZHrt/HaEZBh1tC9hqz18w1SV9r/bMXylFJ7aNmOkwmaPxSAd2620Tw4oWdpfWgsfjdUO97SIEQ==";
         };
+        _DdbfBzno = {
+            "id" = "DdbfBzno";
+            "file" = "modularpokeballs-fabric-2.0.7.jar";
+            "hash" = "sha512-8evXHbX6xiV6RJRoGuNXN303CRIcV7VocQfPadlS0w5GUtZuDQzrYllHDmUT3b0x3oU9y8V09aBOU+SffqQVlw==";
+        };
+        _ql36l1Zo = {
+            "id" = "ql36l1Zo";
+            "file" = "modularpokeballs-neoforge-2.0.7.jar";
+            "hash" = "sha512-aPXxk5jQD8jDM+ZIVFWKE4n8EP+XFS4zLvGna23OBEYoffPG2dvv22q82m1I0PSEmSPdWU/UOf474QUSartOQg==";
+        };
+        _C9WgisOM = {
+            "id" = "C9WgisOM";
+            "file" = "modularpokeballs-fabric-2.0.8.jar";
+            "hash" = "sha512-ytcgATO+bJfnTIx/PS52PevOtJ55RFZm+Da4GMhwe+oLzIyTfIRTN1m4+WBtj1la96XSzMYeDxVHKLSmbUojbw==";
+        };
+        _v2oudYSP = {
+            "id" = "v2oudYSP";
+            "file" = "modularpokeballs-neoforge-2.0.8.jar";
+            "hash" = "sha512-3YZAEDu+szcN94HRleX4o8V4/g2bz9mSnRaQCwI5cK1GDQAnQHXiBE86NoUTnltb6teQEBMpxTUVgCEN+OOevg==";
+        };
     in {
         "b4uXkxKA" = _b4uXkxKA;
         "gAhuJhJy" = _gAhuJhJy;
@@ -68,7 +88,12 @@ let
         "kXSPhqeR" = _kXSPhqeR;
         "BA00FdNv" = _BA00FdNv;
         "zMxxeMGS" = _zMxxeMGS;
-        "neoforge-1.21.1" = _zMxxeMGS;
+        "DdbfBzno" = _DdbfBzno;
+        "ql36l1Zo" = _ql36l1Zo;
+        "C9WgisOM" = _C9WgisOM;
+        "v2oudYSP" = _v2oudYSP;
+        "neoforge-1.21.1" = _v2oudYSP;
+        "fabric-1.21.1" = _C9WgisOM;
         "pkg-1.0.0" = _b4uXkxKA;
         "pkg-1.1.0" = _gAhuJhJy;
         "pkg-1.2.0" = _1oZzCEu8;
@@ -80,7 +105,9 @@ let
         "pkg-2.0.4" = _kXSPhqeR;
         "pkg-2.0.5" = _BA00FdNv;
         "pkg-2.0.6" = _zMxxeMGS;
-        "default" = _zMxxeMGS;
+        "pkg-2.0.7" = _ql36l1Zo;
+        "pkg-2.0.8" = _v2oudYSP;
+        "default" = _v2oudYSP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-modular-poke-balls";

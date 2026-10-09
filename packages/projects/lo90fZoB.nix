@@ -266,6 +266,36 @@ let
             "file" = "Heracles-fabric-1.20.1-1.1.13.jar";
             "hash" = "sha512-pLJXXKs1gnoDHI1z3huCLskNrpJfwx2G9jZ8lurVex8cWKPPFcdHr67pQuziNSkRDqHV1H7xczicg3wBPSPv9w==";
         };
+        _J4INjPIE = {
+            "id" = "J4INjPIE";
+            "file" = "heracles-neoforge-1.21.1-2.0.0.jar";
+            "hash" = "sha512-/oFXSdWejEjINXL40EmsyUjA1k5Zw0MEbIr0XOSvhLkM55g+ueOcqQJ6DPdCwOcUVlUbmxiCDA5Tmy97gfCQQg==";
+        };
+        _VYeSlTDi = {
+            "id" = "VYeSlTDi";
+            "file" = "heracles-fabric-1.21.1-2.0.0.jar";
+            "hash" = "sha512-FrHZeSe+leveSXfv9BCyZlj27QzVrSB4FR9pUXaCUImlssxGJ2+SgAU+/8uT+vBFARCuO6sZowqrVyrQxO2v5w==";
+        };
+        _GoPQfjAI = {
+            "id" = "GoPQfjAI";
+            "file" = "heracles-neoforge-1.21.1-2.0.1.jar";
+            "hash" = "sha512-OBhMK+/q/d6pvZK9jBNllVZwnrbinsW8z6+z80p7F89Xexfh3P3WxkIJxZNVmIXi9FSfgnPDI1mnQRx/BFjkzg==";
+        };
+        _cXRZpsEV = {
+            "id" = "cXRZpsEV";
+            "file" = "heracles-fabric-1.21.1-2.0.1.jar";
+            "hash" = "sha512-pfdUbqTI95Y7o0CUsMaNFfno1XO3eRmqCuaR8SunF3+ZMGk064dIko2Be49sqmD9owgKhZs4K9TG5cpfWezWyg==";
+        };
+        _pXt2zBKC = {
+            "id" = "pXt2zBKC";
+            "file" = "heracles-neoforge-1.21.1-2.0.2.jar";
+            "hash" = "sha512-sVdo5eqzxwi0mI24KqcUaZgDoP2gEhOdDktxIlg861QHbtPNeswBRHieOBmFSYHKBQETlbH+YYG5ODTJYPBBOg==";
+        };
+        _xwrDzjVX = {
+            "id" = "xwrDzjVX";
+            "file" = "heracles-fabric-1.21.1-2.0.2.jar";
+            "hash" = "sha512-RIVB1ivAcMopJwmMEijyo5/P9/KlxF8BK7cvPHI4k4/0WQDJkQ+XhI33sMtyOQxeZ2yHUbnwz/almGJF6MOKbw==";
+        };
     in {
         "5jkZmVDv" = _5jkZmVDv;
         "VLtolKMC" = _VLtolKMC;
@@ -320,10 +350,18 @@ let
         "PDQvbfPK" = _PDQvbfPK;
         "9ZUSHiZa" = _9ZUSHiZa;
         "Iw91uuFK" = _Iw91uuFK;
+        "J4INjPIE" = _J4INjPIE;
+        "VYeSlTDi" = _VYeSlTDi;
+        "GoPQfjAI" = _GoPQfjAI;
+        "cXRZpsEV" = _cXRZpsEV;
+        "pXt2zBKC" = _pXt2zBKC;
+        "xwrDzjVX" = _xwrDzjVX;
         "fabric-1.20" = _H7UX723U;
         "fabric-1.20.1" = _Iw91uuFK;
+        "fabric-1.21.1" = _xwrDzjVX;
         "forge-1.20" = _XFtTyYCL;
         "forge-1.20.1" = _9ZUSHiZa;
+        "neoforge-1.21.1" = _pXt2zBKC;
         "pkg-0.0.0" = _VLtolKMC;
         "pkg-0.0.1" = _5H0nvQsn;
         "pkg-0.0.2" = _gt5tf1XL;
@@ -351,7 +389,10 @@ let
         "pkg-1.1.11" = _GXxKjxGE;
         "pkg-1.1.12" = _PDQvbfPK;
         "pkg-1.1.13" = _Iw91uuFK;
-        "default" = _Iw91uuFK;
+        "pkg-2.0.0" = _VYeSlTDi;
+        "pkg-2.0.1" = _cXRZpsEV;
+        "pkg-2.0.2" = _xwrDzjVX;
+        "default" = _xwrDzjVX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "odyssey-quests";

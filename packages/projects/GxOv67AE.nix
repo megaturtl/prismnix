@@ -181,6 +181,16 @@ let
             "file" = "loot_n_explore-1.0.22-1.21.1.jar";
             "hash" = "sha512-YYzFCqypWmJ8Hpr7sPJkgZSTiLA+sev/bF6BRu50bnrG4HMCIi6UrtF9uMp3Zj4e6o5ndlciGMjCPTw4uTjZqQ==";
         };
+        _XuIdkkJL = {
+            "id" = "XuIdkkJL";
+            "file" = "loot_n_explore-1.0.23-1.21.1.jar";
+            "hash" = "sha512-maFcF7FHrBIve6nyLTI/z7aOlngf3TaThpMby2XyDoRnARjZvvxP6qbU4FPi2fxgbHyndrohsWXOAkUlW1wH3w==";
+        };
+        _Vt2VCr7m = {
+            "id" = "Vt2VCr7m";
+            "file" = "loot_n_explore-1.0.22+1.20.1.jar";
+            "hash" = "sha512-exjrDxsS2qRiUUq5dR8Fy0dsouykQrickhoVcIl3sOyAKbq0TcD9LP7vmunBYnWV1xKhkzlzc9mpQTUbcVM1tA==";
+        };
     in {
         "5EeiHVL0" = _5EeiHVL0;
         "BY5qTP9m" = _BY5qTP9m;
@@ -218,9 +228,11 @@ let
         "iaPZUVPN" = _iaPZUVPN;
         "Ovtf4rTH" = _Ovtf4rTH;
         "vEudD65D" = _vEudD65D;
-        "fabric-1.20.1" = _fBgSR5KZ;
+        "XuIdkkJL" = _XuIdkkJL;
+        "Vt2VCr7m" = _Vt2VCr7m;
+        "fabric-1.20.1" = _Vt2VCr7m;
         "fabric-1.21" = _cgIn5mi1;
-        "fabric-1.21.1" = _vEudD65D;
+        "fabric-1.21.1" = _XuIdkkJL;
         "pkg-0.1.0" = _5EeiHVL0;
         "pkg-0.1.1-1.20.1" = _BY5qTP9m;
         "pkg-0.1.2-1.20.1" = _5WeP1c5p;
@@ -257,7 +269,9 @@ let
         "pkg-loot_n_explore-1.0.20-1.21.1" = _iaPZUVPN;
         "pkg-1.0.21-1.21.1" = _Ovtf4rTH;
         "pkg-1.0.22-1.21.1" = _vEudD65D;
-        "default" = _vEudD65D;
+        "pkg-1.0.23-1.21.1" = _XuIdkkJL;
+        "pkg-1.0.22+1.20.1" = _Vt2VCr7m;
+        "default" = _Vt2VCr7m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "loot-n-explore";

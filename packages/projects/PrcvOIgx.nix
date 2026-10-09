@@ -131,6 +131,11 @@ let
             "file" = "Rethoughted Elytra.zip";
             "hash" = "sha512-Kc2UW9kInRMcS4VTGQYkH0DmgKUqiIzFL9i6ITBKhX3/cEp55uf/xxdIM15E6hdF2u7MivBvOc5w92kGVzGgyA==";
         };
+        _E3I2nSq7 = {
+            "id" = "E3I2nSq7";
+            "file" = "Rethoughted Elytra.zip";
+            "hash" = "sha512-CneqXKBF4EuZ1I9rfH7VKwy0oaLLWgsHspLhGz+vkdLgC3VOnbH0j15BxzC5Iw03pxRHN5uYXQhoetfl3S516g==";
+        };
     in {
         "5iD9yfyp" = _5iD9yfyp;
         "pH6vio6Y" = _pH6vio6Y;
@@ -158,6 +163,7 @@ let
         "QEq8YXBa" = _QEq8YXBa;
         "fG5rgeX0" = _fG5rgeX0;
         "oiYtSrkt" = _oiYtSrkt;
+        "E3I2nSq7" = _E3I2nSq7;
         "minecraft-1.19" = _4YPuhp5b;
         "minecraft-1.19.1" = _4YPuhp5b;
         "minecraft-1.19.2" = _4YPuhp5b;
@@ -186,14 +192,15 @@ let
         "minecraft-26.1.1" = _fG5rgeX0;
         "minecraft-26.1.2" = _fG5rgeX0;
         "minecraft-26.2" = _oiYtSrkt;
+        "minecraft-26.3" = _E3I2nSq7;
         "pkg-0.1" = _TqTevHJc;
         "pkg-0.2" = _pXtJ1X0p;
         "pkg-1.0" = _hrxTKect;
         "pkg-1.0b" = _9Gnx9IzY;
         "pkg-1.0c" = _svdaQEkT;
         "pkg-1.0d" = _nsAtwtvO;
-        "pkg-1.1" = _oiYtSrkt;
-        "default" = _oiYtSrkt;
+        "pkg-1.1" = _E3I2nSq7;
+        "default" = _E3I2nSq7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rethoughted-elytra";

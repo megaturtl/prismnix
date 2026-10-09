@@ -161,6 +161,16 @@ let
             "file" = "JustEnoughServerlessRecipes-neoforge-26.2-0.0.1.0.jar";
             "hash" = "sha512-0S2u1s1ijYkOE84o332SaQMUVegKVaDeMD8VR+9Y47EKeUtwox+2m5XDXyJ/Q7cLw7C+xXGj5MyN4ewggc/GDA==";
         };
+        _wiDUa0of = {
+            "id" = "wiDUa0of";
+            "file" = "JustEnoughServerlessRecipes-fabric-26.3-0.1.0.0.jar";
+            "hash" = "sha512-49c0RU7U86ZARvnmioeEoo3gK3U8vB/O59FcyJmSLOZ1efO2NMVNj+SvCCxWWUqaGe5FjX+oDpudJOfE78Y0ug==";
+        };
+        _4adQ1GQv = {
+            "id" = "4adQ1GQv";
+            "file" = "JustEnoughServerlessRecipes-neoforge-26.3-0.1.0.0.jar";
+            "hash" = "sha512-6sJl0tc/lXoq95FIdAnigz9JTUWVscuRhZTmXrXRNaDRltAoYk3ksvXYzvpV1FscQtRYdUGOslK2n4vO459nuA==";
+        };
     in {
         "NJBFikcW" = _NJBFikcW;
         "pMjh2xn7" = _pMjh2xn7;
@@ -194,6 +204,8 @@ let
         "rnh329Ew" = _rnh329Ew;
         "U0BaDwMQ" = _U0BaDwMQ;
         "Fh8u4Ltj" = _Fh8u4Ltj;
+        "wiDUa0of" = _wiDUa0of;
+        "4adQ1GQv" = _4adQ1GQv;
         "fabric-26.1" = _6QpAa7Hj;
         "fabric-26.1.1" = _6QpAa7Hj;
         "fabric-26.1.2" = _yZjp1w0c;
@@ -202,6 +214,7 @@ let
         "fabric-1.21.10" = _FdOuclmO;
         "fabric-1.21.11" = _ygA9MLJv;
         "fabric-26.2" = _U0BaDwMQ;
+        "fabric-26.3" = _wiDUa0of;
         "neoforge-26.1" = _DmEVgz3Y;
         "neoforge-26.1.1" = _DmEVgz3Y;
         "neoforge-26.1.2" = _rnh329Ew;
@@ -215,6 +228,7 @@ let
         "neoforge-1.21.10" = _KcwIbbGm;
         "neoforge-1.21.11" = _t70qTUQ3;
         "neoforge-26.2" = _Fh8u4Ltj;
+        "neoforge-26.3" = _4adQ1GQv;
         "pkg-1.0.0" = _NJBFikcW;
         "pkg-1.1.0" = _aLtHu2BV;
         "pkg-1.1.1" = _UBwvOKbn;
@@ -222,7 +236,8 @@ let
         "pkg-1.2.1" = _JH9kRZx9;
         "pkg-1.2.2" = _iw30bMrk;
         "pkg-0.0.1.0" = _Fh8u4Ltj;
-        "default" = _Fh8u4Ltj;
+        "pkg-0.1.0.0" = _4adQ1GQv;
+        "default" = _4adQ1GQv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "just-enough-serverless-recipes";

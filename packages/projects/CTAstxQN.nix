@@ -46,6 +46,11 @@ let
             "file" = "5.0.5v_VisualEnchantments.zip";
             "hash" = "sha512-ysmwrM5wQbp7FXfqjqwa2V5rpMYRzlGcDYmWCnv7r2UbC1IBZ6QUQMK5c9IhGOsnkb8BiWGmqOnFakhwW1H09Q==";
         };
+        _WtPOKiw5 = {
+            "id" = "WtPOKiw5";
+            "file" = "5.0.6v_VisualEnchantments.zip";
+            "hash" = "sha512-MtXTkaU6eSB82LHgvcWTlY+dtw1cmfdoeEy2laX5D6/Mkqu4Pc/9a2oIci6/51Jaqki0BhWZjCljOMA+3uqZHg==";
+        };
     in {
         "rkRhb9hB" = _rkRhb9hB;
         "OEN5reor" = _OEN5reor;
@@ -56,6 +61,7 @@ let
         "gRbxJVb1" = _gRbxJVb1;
         "cPgUVFew" = _cPgUVFew;
         "kyuOuETX" = _kyuOuETX;
+        "WtPOKiw5" = _WtPOKiw5;
         "minecraft-1.15.2" = _rkRhb9hB;
         "minecraft-1.16.1" = _OEN5reor;
         "minecraft-1.16.2" = _OEN5reor;
@@ -92,6 +98,7 @@ let
         "minecraft-26.1.1" = _kyuOuETX;
         "minecraft-26.1.2" = _kyuOuETX;
         "minecraft-26.2" = _kyuOuETX;
+        "minecraft-26.3" = _WtPOKiw5;
         "pkg-3.3.0" = _rkRhb9hB;
         "pkg-3.3.1" = _OEN5reor;
         "pkg-4.0.0" = _pHjNJ4Ki;
@@ -101,7 +108,8 @@ let
         "pkg-5.0.3" = _gRbxJVb1;
         "pkg-5.0.4" = _cPgUVFew;
         "pkg-5.0.5" = _kyuOuETX;
-        "default" = _kyuOuETX;
+        "pkg-5.0.6" = _WtPOKiw5;
+        "default" = _WtPOKiw5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "visual-enchantments";

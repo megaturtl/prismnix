@@ -21,18 +21,25 @@ let
             "file" = "scgunsww1-1.20.1-1.0.1-r.jar";
             "hash" = "sha512-idx7HCIw5KANvn5DLZbRqGZQqv7HnjADI29XKKDjmn3BvwKCBVJB/vTgv9dChdqDTUvEEk4pIsb5q2RDxsgUcg==";
         };
+        _Iuh3ZvjE = {
+            "id" = "Iuh3ZvjE";
+            "file" = "scgunsww1-1.0.1-r.jar";
+            "hash" = "sha512-4qdiUuoLMq4g1XxpJ6yUSKPj5Z4kDxRD2kxjPv31RmWwk8lNmJG5FbndaQ1ZCroKMi5cFl8zw0DzTM5fbuJcew==";
+        };
     in {
         "oQiA0dlf" = _oQiA0dlf;
         "e7mYnVZP" = _e7mYnVZP;
         "JcLSFTcK" = _JcLSFTcK;
         "Z7fv7ZXU" = _Z7fv7ZXU;
-        "neoforge-1.21.1" = _e7mYnVZP;
+        "Iuh3ZvjE" = _Iuh3ZvjE;
+        "neoforge-1.21.1" = _Iuh3ZvjE;
         "forge-1.20.1" = _Z7fv7ZXU;
         "pkg-29.06.2026.5" = _oQiA0dlf;
         "pkg-1.0.0-r" = _e7mYnVZP;
         "pkg-1.20.1-1.0.0-r" = _JcLSFTcK;
         "pkg-1.20.1-1.0.1-r" = _Z7fv7ZXU;
-        "default" = _Z7fv7ZXU;
+        "pkg-1.0.1-r-sad" = _Iuh3ZvjE;
+        "default" = _Iuh3ZvjE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scorched-guns-2-asyasyas-ww1-weaponry";

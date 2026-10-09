@@ -71,6 +71,46 @@ let
             "file" = "ManyIdeasDoors-1.21.1-2.0.1.jar";
             "hash" = "sha512-Glm38q/V7I95uXqFewHoWgTjuCLgXNqolf21Sug6cbEJREDaR9GC4iAeNspnl9Jw76ARSHn4hcnq/Q1o0mpNsw==";
         };
+        _JBynegr7 = {
+            "id" = "JBynegr7";
+            "file" = "ManyIdeasDoors-1.21.1-2.0.2.jar";
+            "hash" = "sha512-gAWey/ObpjreqohyMWzaCu1jkefgRD/T9/jo64PfubH/dyO9C27gO2dpnN0JRCmxAB+O1hIp/uINj6zu7AJxTA==";
+        };
+        _Z0V2gwMl = {
+            "id" = "Z0V2gwMl";
+            "file" = "ManyIdeasDoors-1.21.2-2.0.2.jar";
+            "hash" = "sha512-kceysKRdCW0Xo4kHrWNyARjFPv3/IH2TKflwoaXH7UYnb/Hkizm07TECJw2tNaysVLh9U6L21wCMDerdniq9qg==";
+        };
+        _IDc5n2AG = {
+            "id" = "IDc5n2AG";
+            "file" = "ManyIdeasDoors-1.21.4-2.0.2.jar";
+            "hash" = "sha512-+2uBhV0B7TTmOBP2N3czPYlOm9ZWkmhQA1IXME7Ws+eV8QEivgDo5FbuSLIRYQ1+5nyLgv01qitqZ+36RPxX0g==";
+        };
+        _flpAprO2 = {
+            "id" = "flpAprO2";
+            "file" = "ManyIdeasDoors-1.21.5-2.0.2.jar";
+            "hash" = "sha512-sj3a8f6icJtP3NQ1JYkAAbJ9gi/mBASj44WSD071KwQ8dzSburrsJshAzqHqVIjSKTo3ogeTCWGITWF/b2HE/w==";
+        };
+        _RYr7ZokI = {
+            "id" = "RYr7ZokI";
+            "file" = "ManyIdeasDoors-1.21.9-2.0.2.jar";
+            "hash" = "sha512-s/wBWzl6NfJ8iZiG47ZyQSlC8/xizoeL8UimYFf3y7FuLFadiEf1iG//PSUSAx1kHD2hE6C8S3buIVXpdGiRSQ==";
+        };
+        _gM8macWa = {
+            "id" = "gM8macWa";
+            "file" = "ManyIdeasDoors-1.21.11-2.0.2.jar";
+            "hash" = "sha512-8u95Hotyuw03JueisIy6lONHn+qijQ3wgPjVrHwodSNyuvanM6+2tGsO/fGTo4iwfg7DSPtPyMB37+RC9Jum2g==";
+        };
+        _cr26HVyp = {
+            "id" = "cr26HVyp";
+            "file" = "ManyIdeasDoors-26.1-2.0.2.jar";
+            "hash" = "sha512-D7GNRHPAdm53y4owFuwkcBoCxL38inlh1KbFdFiPsfafp8TDK+QsqatOxN9O0RLEpMl1/YrXdU1+nyqV7SWSaw==";
+        };
+        _jcDGBfBI = {
+            "id" = "jcDGBfBI";
+            "file" = "ManyIdeasDoors-26.3-2.0.2.jar";
+            "hash" = "sha512-8viAIKZH+G94Cb9Ud6kOhXW3PMCbAW3C5sb5iU7g6QrOKguVjD6ehvX+48LD7Tfv9o2Ipd0iCc5wlTrCnGEZZg==";
+        };
     in {
         "uiI3eCx4" = _uiI3eCx4;
         "YXFX3m3G" = _YXFX3m3G;
@@ -86,6 +126,14 @@ let
         "qA19QulK" = _qA19QulK;
         "gW3hfPh4" = _gW3hfPh4;
         "iTPemriP" = _iTPemriP;
+        "JBynegr7" = _JBynegr7;
+        "Z0V2gwMl" = _Z0V2gwMl;
+        "IDc5n2AG" = _IDc5n2AG;
+        "flpAprO2" = _flpAprO2;
+        "RYr7ZokI" = _RYr7ZokI;
+        "gM8macWa" = _gM8macWa;
+        "cr26HVyp" = _cr26HVyp;
+        "jcDGBfBI" = _jcDGBfBI;
         "forge-1.17.1" = _uiI3eCx4;
         "forge-1.18.2" = _YXFX3m3G;
         "forge-1.19.4" = _BGdz1umM;
@@ -96,16 +144,22 @@ let
         "forge-1.20.6" = _sX5bmloi;
         "forge-1.21" = _pS2aTyBV;
         "forge-1.21.1" = _qA19QulK;
-        "neoforge-1.21.1" = _iTPemriP;
-        "neoforge-1.21.2" = _iTPemriP;
-        "neoforge-1.21.3" = _iTPemriP;
-        "neoforge-1.21.4" = _iTPemriP;
-        "neoforge-1.21.5" = _iTPemriP;
-        "neoforge-1.21.6" = _iTPemriP;
-        "neoforge-1.21.7" = _iTPemriP;
-        "neoforge-1.21.8" = _iTPemriP;
-        "neoforge-1.21.9" = _iTPemriP;
-        "neoforge-1.21.10" = _iTPemriP;
+        "neoforge-1.21.1" = _JBynegr7;
+        "neoforge-1.21.2" = _Z0V2gwMl;
+        "neoforge-1.21.3" = _Z0V2gwMl;
+        "neoforge-1.21.4" = _IDc5n2AG;
+        "neoforge-1.21.5" = _flpAprO2;
+        "neoforge-1.21.6" = _flpAprO2;
+        "neoforge-1.21.7" = _flpAprO2;
+        "neoforge-1.21.8" = _flpAprO2;
+        "neoforge-1.21.9" = _RYr7ZokI;
+        "neoforge-1.21.10" = _RYr7ZokI;
+        "neoforge-1.21.11" = _gM8macWa;
+        "neoforge-26.1" = _cr26HVyp;
+        "neoforge-26.1.1" = _cr26HVyp;
+        "neoforge-26.1.2" = _cr26HVyp;
+        "neoforge-26.2" = _cr26HVyp;
+        "neoforge-26.3" = _jcDGBfBI;
         "pkg-1.17.1-1.2.1" = _uiI3eCx4;
         "pkg-1.18.2-1.2.0" = _YXFX3m3G;
         "pkg-1.19.4-1.2.3" = _YmRHfieB;
@@ -120,7 +174,15 @@ let
         "pkg-1.21.1-1.3.0" = _qA19QulK;
         "pkg-1.21.1-2.0.0" = _gW3hfPh4;
         "pkg-1.21.1-2.0.1" = _iTPemriP;
-        "default" = _iTPemriP;
+        "pkg-1.21.1-2.0.2" = _JBynegr7;
+        "pkg-1.21.2-2.0.2" = _Z0V2gwMl;
+        "pkg-1.21.4-2.0.2" = _IDc5n2AG;
+        "pkg-1.21.5-2.0.2" = _flpAprO2;
+        "pkg-1.21.9-2.0.2" = _RYr7ZokI;
+        "pkg-1.21.11-2.0.2" = _gM8macWa;
+        "pkg-26.1-2.0.2" = _cr26HVyp;
+        "pkg-26.3-2.0.2" = _jcDGBfBI;
+        "default" = _jcDGBfBI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "manyideas-doors";

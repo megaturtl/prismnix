@@ -196,6 +196,46 @@ let
             "file" = "copperagebackport-forge-1.20.1-0.1.4.jar";
             "hash" = "sha512-istqvwbSrHzuS1d8aS/dkryOJVbyrBN2iQijKLODD2q/NReIVaJgym7mRWc/Q49258P5KlrdBzXbVNTCe+GY8A==";
         };
+        _3GZU7zrg = {
+            "id" = "3GZU7zrg";
+            "file" = "copperagebackport-fabric-1.21.1-0.1.5.jar";
+            "hash" = "sha512-KW8+cLzSX91ToHRWPG0n+KDpFHr5P8FO6jhg/QUxJLXSYAJyg6qQkKR18VAn85tjBw3MmpsIjozyUJwT0WPETQ==";
+        };
+        _onViygI4 = {
+            "id" = "onViygI4";
+            "file" = "copperagebackport-neoforge-1.21.1-0.1.5.jar";
+            "hash" = "sha512-IwYwiWRuuL5GebxN7vw89mVoAPoPXnyCKnuXYZSFN5o2j9+pbLBKhx+hW1SOCs/ngMXa0CLYj1hEZI4D4Zh3xQ==";
+        };
+        _l3eaAEk2 = {
+            "id" = "l3eaAEk2";
+            "file" = "copperagebackport-fabric-1.20.1-0.1.5.jar";
+            "hash" = "sha512-t8s0NT7slqlF+JJJZDY9RXs6hFN1Sbhx6VjRyzqnpmW2Ji3LHxaUUHYHMHJwKoQuQ+zKFArWyAhL+difeUp6rw==";
+        };
+        _6ij7gZ3z = {
+            "id" = "6ij7gZ3z";
+            "file" = "copperagebackport-forge-1.20.1-0.1.5.jar";
+            "hash" = "sha512-y1JFeOzD57X97U7vklzDnrrjPAPfCKyWZaehUJkLj46x8eHtLs1PSLvg2mteHxL2otcCSiDHm747ZdA8MQUq3Q==";
+        };
+        _ni0ndIxo = {
+            "id" = "ni0ndIxo";
+            "file" = "copperagebackport-fabric-1.21.1-0.1.5.1-pre.jar";
+            "hash" = "sha512-c4qQOu4uvc1IPw81BLQAc96CZBbBIYMLKRp+jN1Yd/clGbgGgQ+D67sUJyBY24Yo8UTOLDLD6N7ccwHp/WivCg==";
+        };
+        _ZyjDScTQ = {
+            "id" = "ZyjDScTQ";
+            "file" = "copperagebackport-neoforge-1.21.1-0.1.5.1-pre.jar";
+            "hash" = "sha512-y4353oSx7yQQHU9nLAGnLGUZLWDnaCjjzh3mWyBu/707MwG0HYfiYIL7JBXWvvqAIdcsBV5Q66alqHBRCOFbkg==";
+        };
+        _jd5L8iw0 = {
+            "id" = "jd5L8iw0";
+            "file" = "copperagebackport-fabric-1.20.1-0.1.5.1-pre.jar";
+            "hash" = "sha512-AI1Tc0MtYjNXy/r/guIhPkXqT5OUto36iMHg3aEGxw7Yi7ZXcGKWyj0DHWf78KHJtrEu+9alyo15ISOjtcLxcQ==";
+        };
+        _3dHAZG6E = {
+            "id" = "3dHAZG6E";
+            "file" = "copperagebackport-forge-1.20.1-0.1.5.1-pre.jar";
+            "hash" = "sha512-NzWncXok6+KmsHmqn9GWuWCgmdGe+Sog5eyMrHXpv7m7h4EWwKvU9JBnnm4NZnsnCYYNBk3uVejqi+qvFpFvzw==";
+        };
     in {
         "B0nkd5Sq" = _B0nkd5Sq;
         "BslwI63I" = _BslwI63I;
@@ -236,10 +276,18 @@ let
         "JEPUV1lF" = _JEPUV1lF;
         "TqXQZvqk" = _TqXQZvqk;
         "BeVdLB9R" = _BeVdLB9R;
-        "neoforge-1.21.1" = _JEPUV1lF;
-        "forge-1.20.1" = _BeVdLB9R;
-        "fabric-1.20.1" = _TqXQZvqk;
-        "fabric-1.21.1" = _FL44OinM;
+        "3GZU7zrg" = _3GZU7zrg;
+        "onViygI4" = _onViygI4;
+        "l3eaAEk2" = _l3eaAEk2;
+        "6ij7gZ3z" = _6ij7gZ3z;
+        "ni0ndIxo" = _ni0ndIxo;
+        "ZyjDScTQ" = _ZyjDScTQ;
+        "jd5L8iw0" = _jd5L8iw0;
+        "3dHAZG6E" = _3dHAZG6E;
+        "neoforge-1.21.1" = _ZyjDScTQ;
+        "forge-1.20.1" = _3dHAZG6E;
+        "fabric-1.20.1" = _jd5L8iw0;
+        "fabric-1.21.1" = _ni0ndIxo;
         "pkg-0.0.1" = _B0nkd5Sq;
         "pkg-0.0.2" = _BslwI63I;
         "pkg-0.0.3" = _ZOAowtcR;
@@ -261,7 +309,11 @@ let
         "pkg-1.21.1-0.1.3" = _hqPFf9DI;
         "pkg-1.21.1-0.1.4" = _JEPUV1lF;
         "pkg-1.20.1-0.1.4" = _BeVdLB9R;
-        "default" = _BeVdLB9R;
+        "pkg-1.21.1-0.1.5" = _onViygI4;
+        "pkg-1.20.1-0.1.5" = _6ij7gZ3z;
+        "pkg-1.21.1-0.1.5.1-pre" = _ZyjDScTQ;
+        "pkg-1.20.1-0.1.5.1-pre" = _3dHAZG6E;
+        "default" = _3dHAZG6E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "backport-copper-age";

@@ -131,6 +131,16 @@ let
             "file" = "vanilla-structure-update-V2.10.jar";
             "hash" = "sha512-/L1z477l4EkloCTLntMzGpCzKLVKzuJNUmlwfy8JWdsePolJ+w09yTDmUj5pgnNNTk4jYEjcbxcdTKdkcyNujQ==";
         };
+        _uv8zrQwB = {
+            "id" = "uv8zrQwB";
+            "file" = "Vanilla Structure Update 26.3.zip";
+            "hash" = "sha512-KYDX3GU52bHHqPTvnZWkpDzMIbtKdxznd2M/7AyW+Ownhedy8BWPB7JLuiyxEc2hqfUWjGK5NQ+b0GxrBE7qSA==";
+        };
+        _d7oecEE7 = {
+            "id" = "d7oecEE7";
+            "file" = "vanilla-structure-update-V2.11.jar";
+            "hash" = "sha512-p9HMVP5OiWm/MCuzxsiagCKYRXUO3x0FpXdPZYfMieyf1MVo8TAV7ytPkv8fKuED7BZhaxSv6FOu9ZyZ4W179g==";
+        };
     in {
         "vSJPbdpD" = _vSJPbdpD;
         "1BsUQP0w" = _1BsUQP0w;
@@ -158,6 +168,8 @@ let
         "zTXmkLiD" = _zTXmkLiD;
         "ySLTQ0sj" = _ySLTQ0sj;
         "n8ArfF1A" = _n8ArfF1A;
+        "uv8zrQwB" = _uv8zrQwB;
+        "d7oecEE7" = _d7oecEE7;
         "datapack-1.21" = _vSJPbdpD;
         "datapack-1.21.1" = _vSJPbdpD;
         "datapack-1.21.2" = _1BsUQP0w;
@@ -174,6 +186,7 @@ let
         "datapack-26.1.1" = _d8UeLKhF;
         "datapack-26.1.2" = _d8UeLKhF;
         "datapack-26.2" = _ySLTQ0sj;
+        "datapack-26.3" = _uv8zrQwB;
         "fabric-1.21.4" = _4RuB6lyb;
         "fabric-1.21.5" = _rDch2W7h;
         "fabric-1.21.6" = _dSSkqMl4;
@@ -186,6 +199,7 @@ let
         "fabric-26.1.1" = _zTXmkLiD;
         "fabric-26.1.2" = _zTXmkLiD;
         "fabric-26.2" = _n8ArfF1A;
+        "fabric-26.3" = _d7oecEE7;
         "neoforge-1.21.4" = _4RuB6lyb;
         "neoforge-1.21.5" = _rDch2W7h;
         "neoforge-1.21.6" = _dSSkqMl4;
@@ -198,6 +212,7 @@ let
         "neoforge-26.1.1" = _zTXmkLiD;
         "neoforge-26.1.2" = _zTXmkLiD;
         "neoforge-26.2" = _n8ArfF1A;
+        "neoforge-26.3" = _d7oecEE7;
         "forge-1.21.6" = _dSSkqMl4;
         "forge-1.21.7" = _mjHSojUv;
         "forge-1.21.8" = _mjHSojUv;
@@ -208,6 +223,7 @@ let
         "forge-26.1.1" = _zTXmkLiD;
         "forge-26.1.2" = _zTXmkLiD;
         "forge-26.2" = _n8ArfF1A;
+        "forge-26.3" = _d7oecEE7;
         "pkg-v1.0" = _vSJPbdpD;
         "pkg-v1.1" = _1BsUQP0w;
         "pkg-v1.2" = _9i6zo2Nr;
@@ -234,7 +250,9 @@ let
         "pkg-v2.9+mod" = _zTXmkLiD;
         "pkg-V2.10" = _ySLTQ0sj;
         "pkg-V2.10+mod" = _n8ArfF1A;
-        "default" = _n8ArfF1A;
+        "pkg-V2.11" = _uv8zrQwB;
+        "pkg-V2.11+mod" = _d7oecEE7;
+        "default" = _d7oecEE7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-structure-update";

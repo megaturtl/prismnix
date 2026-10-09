@@ -66,6 +66,11 @@ let
             "file" = "genesisframework-1.3.0.jar";
             "hash" = "sha512-yAMTAR2rHohMy8M0ZPxFzSiQezCl0wOt/gsroLotOekKmmoIoJ9FgI/TCYOdAdlDKvwSBFBrVZ7Tzq7RZdWD5A==";
         };
+        _n0HZE1Gm = {
+            "id" = "n0HZE1Gm";
+            "file" = "genesisframework-1.4.0.jar";
+            "hash" = "sha512-+pahBpJh6J9pFl0e+HFNX8dNEnHvFtgsn40XcJX/1eoxIMa1AdDTxuZ5qyyy8p3obWopxmlLAJtaeuE0SzbPRA==";
+        };
     in {
         "XlDJTuGO" = _XlDJTuGO;
         "ih1BPzRr" = _ih1BPzRr;
@@ -80,12 +85,14 @@ let
         "5ZfD955Z" = _5ZfD955Z;
         "d3Vm9edn" = _d3Vm9edn;
         "xNHuuWWb" = _xNHuuWWb;
+        "n0HZE1Gm" = _n0HZE1Gm;
         "fabric-1.21.6" = _f4OKaoE4;
         "fabric-1.21.7" = _f4OKaoE4;
         "fabric-1.21.8" = _f4OKaoE4;
         "fabric-1.21.9" = _lItjs9LE;
         "fabric-1.21.10" = _lItjs9LE;
         "fabric-26.2" = _xNHuuWWb;
+        "fabric-26.3" = _n0HZE1Gm;
         "pkg-1.0.0" = _XlDJTuGO;
         "pkg-1.0.1" = _ih1BPzRr;
         "pkg-1.0.2" = _5h1sdlRE;
@@ -99,7 +106,8 @@ let
         "pkg-1.1.2" = _5ZfD955Z;
         "pkg-1.2.0" = _d3Vm9edn;
         "pkg-1.3.0" = _xNHuuWWb;
-        "default" = _xNHuuWWb;
+        "pkg-1.4.0" = _n0HZE1Gm;
+        "default" = _n0HZE1Gm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "genesis-framework";

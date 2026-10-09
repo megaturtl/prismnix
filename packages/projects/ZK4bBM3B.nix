@@ -131,6 +131,11 @@ let
             "file" = "more-babies-26.3+3.1.1-fabric.jar";
             "hash" = "sha512-N/NNy3tiYdbpYrNTZM/Nt/ZhTCD8e58wpKBE+KyEgmrJIntMtqz9xkPASItHwgkU9pKUJ/pBR44k3DqeOWtV4Q==";
         };
+        _J10h9uWE = {
+            "id" = "J10h9uWE";
+            "file" = "more-babies-26.3+3.1.2-fabric.jar";
+            "hash" = "sha512-vNYE9fBSU4ORAKwwmebp+SAFXnbgwEPYbYgTYw+QCBlLm1AwMrMRkJXnXVG3AT4vRvmHqfvOccjC+X0SrIjrHg==";
+        };
     in {
         "M3OkvSOb" = _M3OkvSOb;
         "I9Ucy4Yw" = _I9Ucy4Yw;
@@ -158,6 +163,7 @@ let
         "TV2y9BOe" = _TV2y9BOe;
         "6RYnoH8t" = _6RYnoH8t;
         "1jce1nf3" = _1jce1nf3;
+        "J10h9uWE" = _J10h9uWE;
         "forge-1.18.2" = _M3OkvSOb;
         "forge-1.19.1" = _ANUZkBSD;
         "forge-1.19.2" = _ANUZkBSD;
@@ -186,7 +192,7 @@ let
         "fabric-26.3-snapshot-8" = _OM6N4vjT;
         "fabric-26.3-snapshot-10" = _TV2y9BOe;
         "fabric-26.3-pre-1" = _TV2y9BOe;
-        "fabric-26.3" = _1jce1nf3;
+        "fabric-26.3" = _J10h9uWE;
         "neoforge-1.21" = _6C8dq6Of;
         "neoforge-1.21.1" = _e8wmZM1b;
         "neoforge-26.1" = _uLiahH0C;
@@ -220,7 +226,8 @@ let
         "pkg-26.3-snapshot-10+3.1.1-fabric" = _TV2y9BOe;
         "pkg-26.3+3.1.1-neoforge" = _6RYnoH8t;
         "pkg-26.3+3.1.1-fabric" = _1jce1nf3;
-        "default" = _1jce1nf3;
+        "pkg-26.3+3.1.2-fabric" = _J10h9uWE;
+        "default" = _J10h9uWE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-babies";

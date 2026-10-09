@@ -151,6 +151,21 @@ let
             "file" = "marketguard-1.5.0-beta.3+26.2.jar";
             "hash" = "sha512-0b26k7h/NDK8OM4B4dDjEvjHMGrjV/sbx9WMvbgV1FniQgQlfzs+UP1CDVS8EFkWBpYX3nO98x78Odp7qJjsqA==";
         };
+        _TkAa1NAr = {
+            "id" = "TkAa1NAr";
+            "file" = "marketguard-1.5.0+26.1.2.jar";
+            "hash" = "sha512-iAP67wmSU6Nk2H9OchMtZCSu7GQkNHtA1BbWb/pwD/HlDGcZJICy9sZwgEgXMzvf8KCKcm9uLpimKUWBb3pM4w==";
+        };
+        _ufTA1jo1 = {
+            "id" = "ufTA1jo1";
+            "file" = "marketguard-1.5.0+26.2.jar";
+            "hash" = "sha512-2/rYvFKQEMlT0+7F29wBp7vfUdkghOP0Rf+/oPK4pCMN2FXUk0uArt6Fk5av0ZLZjlcaMQgRFSRx8QG4++6+2g==";
+        };
+        _wr7tkb4e = {
+            "id" = "wr7tkb4e";
+            "file" = "marketguard-1.5.0+26.3.jar";
+            "hash" = "sha512-K7U812UYPJ18qq9TcYQPmUN9vEj4HHH22lbuWsOej8HTH2/IrXpBlcy3/FOnfEKNGcBESRENyYHO3qOk70bDAg==";
+        };
     in {
         "gtbnfCWo" = _gtbnfCWo;
         "ENhzo6IR" = _ENhzo6IR;
@@ -182,12 +197,16 @@ let
         "ze2nZUKW" = _ze2nZUKW;
         "6MRCiQCa" = _6MRCiQCa;
         "6XgL9yPw" = _6XgL9yPw;
+        "TkAa1NAr" = _TkAa1NAr;
+        "ufTA1jo1" = _ufTA1jo1;
+        "wr7tkb4e" = _wr7tkb4e;
         "fabric-1.21.10" = _fLI8afLR;
         "fabric-1.21.11" = _Aumd4qWZ;
-        "fabric-26.1" = _6MRCiQCa;
-        "fabric-26.1.1" = _6MRCiQCa;
-        "fabric-26.1.2" = _6MRCiQCa;
-        "fabric-26.2" = _6XgL9yPw;
+        "fabric-26.1" = _TkAa1NAr;
+        "fabric-26.1.1" = _TkAa1NAr;
+        "fabric-26.1.2" = _TkAa1NAr;
+        "fabric-26.2" = _ufTA1jo1;
+        "fabric-26.3" = _wr7tkb4e;
         "pkg-0.6.1+1.21.10" = _gtbnfCWo;
         "pkg-0.6.1+1.21.11" = _ENhzo6IR;
         "pkg-1.0.0-beta1+1.21.10" = _KuzkLdzd;
@@ -218,7 +237,10 @@ let
         "pkg-1.5.0-beta.2+26.2" = _ze2nZUKW;
         "pkg-1.5.0-beta.3+26.1.2" = _6MRCiQCa;
         "pkg-1.5.0-beta.3+26.2" = _6XgL9yPw;
-        "default" = _6XgL9yPw;
+        "pkg-1.5.0+26.1.2" = _TkAa1NAr;
+        "pkg-1.5.0+26.2" = _ufTA1jo1;
+        "pkg-1.5.0+26.3" = _wr7tkb4e;
+        "default" = _wr7tkb4e;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "marketguard";

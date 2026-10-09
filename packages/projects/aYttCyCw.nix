@@ -101,6 +101,16 @@ let
             "file" = "NaturalWaters-v26.2.1-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-mp/lyAYp+opJPvtatNBmja8Kkb7b9rQhF6f3g88vQYXojKDpFWikqVEVZEeNeTgJ5D3rU0PBJ1l7X/2ziLO7bQ==";
         };
+        _eqT9QPPu = {
+            "id" = "eqT9QPPu";
+            "file" = "naturalwaters-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-a/tiC02yvZP23H8FrBwUNhb0rp2GHX//VorYiNS+oiNLLe8L3HW9rIK7hUBYSLWr02GpQ9nBKj2eee90h6rPCQ==";
+        };
+        _Ez9af2GX = {
+            "id" = "Ez9af2GX";
+            "file" = "naturalwaters-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-DgfdcOE763PuDQ1n4l3t0LysxVLLa3DZHdL3cWhr9okgTGtEvL1iM/4wreXeiC3J3+THe1KBD4su26UzkfIckA==";
+        };
     in {
         "pcCNbNEL" = _pcCNbNEL;
         "L7TFsqGZ" = _L7TFsqGZ;
@@ -122,6 +132,8 @@ let
         "9e2py6z8" = _9e2py6z8;
         "PueB0trs" = _PueB0trs;
         "mDtpnvtF" = _mDtpnvtF;
+        "eqT9QPPu" = _eqT9QPPu;
+        "Ez9af2GX" = _Ez9af2GX;
         "fabric-1.21.10" = _pcCNbNEL;
         "fabric-1.21.4" = _e4WkJxy6;
         "fabric-1.21.5" = _IpTT1Jtl;
@@ -132,6 +144,7 @@ let
         "fabric-26.1.2" = _7UfBYJbn;
         "fabric-1.21.1" = _Hk5hE60E;
         "fabric-26.2" = _PueB0trs;
+        "fabric-26.3" = _Ez9af2GX;
         "neoforge-1.21.10" = _L7TFsqGZ;
         "neoforge-1.21.4" = _S5xmO2ki;
         "neoforge-1.21.5" = _MTEHeKt5;
@@ -142,6 +155,7 @@ let
         "neoforge-26.1.2" = _FabXq6RT;
         "neoforge-1.21.1" = _eb49d6pu;
         "neoforge-26.2" = _mDtpnvtF;
+        "neoforge-26.3" = _eqT9QPPu;
         "pkg-21.10.0" = _L7TFsqGZ;
         "pkg-v21.4.0-1.21.4-Fabric" = _e4WkJxy6;
         "pkg-v21.4.0-1.21.4-NeoForge" = _S5xmO2ki;
@@ -155,7 +169,8 @@ let
         "pkg-21.1.0" = _Hk5hE60E;
         "pkg-26.2.0" = _9e2py6z8;
         "pkg-26.2.1" = _mDtpnvtF;
-        "default" = _mDtpnvtF;
+        "pkg-26.3.0" = _Ez9af2GX;
+        "default" = _Ez9af2GX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "natural-waters";

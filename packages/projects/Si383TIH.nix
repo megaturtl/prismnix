@@ -1286,6 +1286,21 @@ let
             "file" = "flan-26.2-1.12.8-fabric.jar";
             "hash" = "sha512-fXxMV+6c9LhEIlvOQyptD81NJ8eY/Xik12WsupxMprm4xUpZPe/soPHh59aWhDz3dbn3DOo3UMqXnwK098U2Mg==";
         };
+        _J9lngKTo = {
+            "id" = "J9lngKTo";
+            "file" = "flan-26.3-1.12.8-fabric.jar";
+            "hash" = "sha512-kRZe2xFY7vEUPmHOF+/vQfYVhe3LPNgACIubM8J35jBkJ/QLSNJUiiQkwjcNLNTDP/ucmEyDwnuQl546zjb1Uw==";
+        };
+        _1Bik8U9i = {
+            "id" = "1Bik8U9i";
+            "file" = "flan-26.3-1.12.8-neoforge.jar";
+            "hash" = "sha512-mZ2OnVWjuyhpPoPDWNxSKi+gH2hz0xxL6VJt7hr7qS3uj2SLrgm5AAjv3STHNOH+uJge3LL/rjvLSDOC2FJiBQ==";
+        };
+        _dAcEMeRZ = {
+            "id" = "dAcEMeRZ";
+            "file" = "flan-26.3-1.12.8.b-fabric.jar";
+            "hash" = "sha512-XTiYdL4oU8eWUu4Y/VKjWpeJ7PK0bhQKGdDOcpHOC5n5BasXux5ae1UoPYCqgvWYPPWVRj8j4qxclr75h+wlbw==";
+        };
     in {
         "jzFrliuY" = _jzFrliuY;
         "tTVK5uYF" = _tTVK5uYF;
@@ -1544,6 +1559,9 @@ let
         "2Bv82VYI" = _2Bv82VYI;
         "H9NbCnik" = _H9NbCnik;
         "qJDOZxe5" = _qJDOZxe5;
+        "J9lngKTo" = _J9lngKTo;
+        "1Bik8U9i" = _1Bik8U9i;
+        "dAcEMeRZ" = _dAcEMeRZ;
         "fabric-1.18.2" = _22UlyM3j;
         "fabric-1.19.4" = _5Gij1x9A;
         "fabric-1.20.1" = _Tc08lTqp;
@@ -1559,6 +1577,7 @@ let
         "fabric-1.21.11" = _5Kz9KVo2;
         "fabric-26.1.2" = _2Bv82VYI;
         "fabric-26.2" = _qJDOZxe5;
+        "fabric-26.3" = _dAcEMeRZ;
         "forge-1.18.2" = _s6eSPmQi;
         "forge-1.19.4" = _tw6K2tYX;
         "forge-1.20.1" = _Gh42Sknw;
@@ -1574,6 +1593,7 @@ let
         "neoforge-1.21.11" = _gbljjgY1;
         "neoforge-26.1.2" = _McqGkNc0;
         "neoforge-26.2" = _H9NbCnik;
+        "neoforge-26.3" = _1Bik8U9i;
         "pkg-1.18.2-1.8.5" = _tTVK5uYF;
         "pkg-1.19.4-1.8.5" = _h20hi0PP;
         "pkg-1.18.2-1.8.6" = _PqY4wW7l;
@@ -1757,7 +1777,10 @@ let
         "pkg-26.1.2-1.12.8-fabric" = _2Bv82VYI;
         "pkg-26.2-1.12.8-neoforge" = _H9NbCnik;
         "pkg-26.2-1.12.8-fabric" = _qJDOZxe5;
-        "default" = _qJDOZxe5;
+        "pkg-26.3-1.12.8-fabric" = _J9lngKTo;
+        "pkg-26.3-1.12.8-neoforge" = _1Bik8U9i;
+        "pkg-26.3-1.12.8.b-fabric" = _dAcEMeRZ;
+        "default" = _dAcEMeRZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flan";

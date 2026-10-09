@@ -31,6 +31,11 @@ let
             "file" = "iron_ender_chests-26.1.2-1.0.4.jar";
             "hash" = "sha512-PLbTidglrRM9eOwM5Fkrch3+qIq7JSsYKYNyPbrpr6zpsPXDo81PG79pX/i/0+eHWtro77N6wwrLJ2M3cTUlbA==";
         };
+        _WRb9FKC0 = {
+            "id" = "WRb9FKC0";
+            "file" = "iron_ender_chests-1.21.1-1.0.3.jar";
+            "hash" = "sha512-15CPxEJ8lfgduOryl6mrnfxpw7v0cQ+AtdqzD5P09AiLPyohAveEkCosRrxmqOhLhcGHvNX80HxRWINUBuO1tg==";
+        };
     in {
         "H36IRMiB" = _H36IRMiB;
         "1T084xNQ" = _1T084xNQ;
@@ -38,6 +43,7 @@ let
         "Iy6lgE4Z" = _Iy6lgE4Z;
         "WDPjifYo" = _WDPjifYo;
         "BoHcUBlm" = _BoHcUBlm;
+        "WRb9FKC0" = _WRb9FKC0;
         "forge-1.19.2" = _H36IRMiB;
         "forge-1.20" = _BdlyNAUf;
         "forge-1.20.1" = _BdlyNAUf;
@@ -46,13 +52,16 @@ let
         "neoforge-1.20" = _1T084xNQ;
         "neoforge-1.20.1" = _1T084xNQ;
         "neoforge-26.1.2" = _BoHcUBlm;
+        "neoforge-1.21" = _WRb9FKC0;
+        "neoforge-1.21.1" = _WRb9FKC0;
         "pkg-1.19.2-1.0.2" = _H36IRMiB;
         "pkg-1.20-1.0.2" = _1T084xNQ;
         "pkg-1.20-1.0.3" = _BdlyNAUf;
         "pkg-1.20.4-1.0.3" = _Iy6lgE4Z;
         "pkg-26.1.2-1.0.3" = _WDPjifYo;
         "pkg-26.1.2-1.0.4" = _BoHcUBlm;
-        "default" = _BoHcUBlm;
+        "pkg-1.21.1-1.0.3" = _WRb9FKC0;
+        "default" = _WRb9FKC0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "iron-ender-chests";

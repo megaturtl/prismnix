@@ -146,6 +146,16 @@ let
             "file" = "rope-neoforge-26.3-1.1.0.jar";
             "hash" = "sha512-mAzqi0Gos9s8uPe63uWPSeYLqHyQFvCdF52Rip4GJZxJDR+gQk8C6NodDoZHQiKOKQ3pcL6HZe+cgsYljBVoeg==";
         };
+        _YGXBijjn = {
+            "id" = "YGXBijjn";
+            "file" = "rope-fabric-26.1.2-1.1.0.jar";
+            "hash" = "sha512-EF0XqxVZcxmreUpwW9vUEC1zxrA2T9JLvxMG0/+fIjQW686qCBhK0DV6sv1z7isA6IWWD8U6KHnMpY1kFPbpCw==";
+        };
+        _Op9NyNx6 = {
+            "id" = "Op9NyNx6";
+            "file" = "rope-neoforge-26.1.2-1.1.0.jar";
+            "hash" = "sha512-uysmP7IaYHp2FA2qizlKmncLQl1vKz6m3F5D5b5DHzRCRS8ZWKBfiZ+dScZa3fRO2zYYPkBVxhZdow3amJpp0A==";
+        };
     in {
         "v6IigqtK" = _v6IigqtK;
         "5VfP1224" = _5VfP1224;
@@ -176,9 +186,11 @@ let
         "pa3ztr7X" = _pa3ztr7X;
         "aV4MY8bL" = _aV4MY8bL;
         "oONa5f11" = _oONa5f11;
+        "YGXBijjn" = _YGXBijjn;
+        "Op9NyNx6" = _Op9NyNx6;
         "neoforge-1.21.1" = _8Y1mqVdN;
         "neoforge-26.1" = _5VfP1224;
-        "neoforge-26.1.2" = _CoDcOLH1;
+        "neoforge-26.1.2" = _Op9NyNx6;
         "neoforge-26.1.1" = _Y1LyMxfG;
         "neoforge-26.2" = _pa3ztr7X;
         "neoforge-1.21.11" = _aLvMyafm;
@@ -190,15 +202,15 @@ let
         "fabric-1.20.1" = _ie66jkpU;
         "fabric-1.21.11" = _wiqtYjSM;
         "fabric-26.1" = _aqdJahtk;
-        "fabric-26.1.2" = _EHVf3mKg;
+        "fabric-26.1.2" = _YGXBijjn;
         "fabric-26.1.1" = _VW3c9iiX;
         "fabric-1.21.1" = _OCXpSSst;
         "fabric-26.2" = _zxyWIxCy;
         "fabric-1.19.2" = _X66bDvFf;
         "fabric-26.3" = _aV4MY8bL;
         "pkg-1.0.0" = _pPEcYu0Y;
-        "pkg-1.1.0" = _oONa5f11;
-        "default" = _oONa5f11;
+        "pkg-1.1.0" = _Op9NyNx6;
+        "default" = _Op9NyNx6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rope";

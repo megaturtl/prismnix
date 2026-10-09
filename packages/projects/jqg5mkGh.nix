@@ -61,6 +61,16 @@ let
             "file" = "sulkan-0.4.2-26.2.jar";
             "hash" = "sha512-WXCNVkd9aLRjhhtdr3LNekPtP3TdPYieDxAkMy6FftCF1zpQF6XzJ0z/VLx5je0Ri+Zz2luOv6K1W+Re42rBIQ==";
         };
+        _ieWWKNI8 = {
+            "id" = "ieWWKNI8";
+            "file" = "sulkan-0.5.0-26.3.jar";
+            "hash" = "sha512-ja98txCebGVfKQGaeuF/EQwFWuTPhZkt3ZofjU7fZtOk8EtTPgw0IL6VPwttaDLq+OXVNGaMcynZtqMcc8hMag==";
+        };
+        _o5nFa0hw = {
+            "id" = "o5nFa0hw";
+            "file" = "sulkan-0.5.1-26.3.jar";
+            "hash" = "sha512-uLSjJo2bkSQJUrqB2iHKpcaKOaFC5ojrruYZXfateVt3j3rHyNLMC7mVKZSFvzUQ8tqEtA9MAntK/ewnzYihVA==";
+        };
     in {
         "R5ObzL9R" = _R5ObzL9R;
         "EcMJPSuu" = _EcMJPSuu;
@@ -74,12 +84,15 @@ let
         "g5iMb7ZV" = _g5iMb7ZV;
         "h25r26vk" = _h25r26vk;
         "nCLRA6yu" = _nCLRA6yu;
+        "ieWWKNI8" = _ieWWKNI8;
+        "o5nFa0hw" = _o5nFa0hw;
         "fabric-26.2-snapshot-2" = _R5ObzL9R;
         "fabric-26.2-snapshot-3" = _EcMJPSuu;
         "fabric-26.2-snapshot-4" = _TN1nIQoe;
         "fabric-26.2-snapshot-5" = _qKmKoNTQ;
         "fabric-26.2-pre-3" = _gAtFGNca;
         "fabric-26.2" = _nCLRA6yu;
+        "fabric-26.3" = _o5nFa0hw;
         "pkg-0.1.0-alpha" = _R5ObzL9R;
         "pkg-0.1.4-alpha" = _EcMJPSuu;
         "pkg-0.1.5" = _usqyNlBA;
@@ -92,7 +105,9 @@ let
         "pkg-0.4.0" = _g5iMb7ZV;
         "pkg-0.4.1" = _h25r26vk;
         "pkg-0.4.2" = _nCLRA6yu;
-        "default" = _nCLRA6yu;
+        "pkg-0.5.0" = _ieWWKNI8;
+        "pkg-0.5.1" = _o5nFa0hw;
+        "default" = _o5nFa0hw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sulkan";

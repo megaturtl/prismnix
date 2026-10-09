@@ -16,10 +16,16 @@ let
             "file" = "§7§l§nRedstone Reloaded§8§k.zip";
             "hash" = "sha512-m0h2LjkuNsWRwMTPjmGgbmxsQBBvmPHQooAnSSVkSSyTtxk5c9JuPjoY9clDdCiwWyhYLzNYuzsHDD+ZYEKMAg==";
         };
+        _CG3L5uj2 = {
+            "id" = "CG3L5uj2";
+            "file" = "§7§l§nRedstone Reloaded§8§k.zip";
+            "hash" = "sha512-tk4XGUNEl68Sojw6zXHrYjYzJVilxD7WAWei2ehcMWz4K1SmdkXdUMBksM+vHjgdEiYjJxKfDiHRNdrfRfxJwA==";
+        };
     in {
         "6ro284zP" = _6ro284zP;
         "ee2DmzGq" = _ee2DmzGq;
         "zPce44vL" = _zPce44vL;
+        "CG3L5uj2" = _CG3L5uj2;
         "minecraft-1.21.4" = _6ro284zP;
         "minecraft-1.21.5" = _ee2DmzGq;
         "minecraft-1.21.6" = _zPce44vL;
@@ -28,10 +34,12 @@ let
         "minecraft-1.21.9" = _zPce44vL;
         "minecraft-1.21.10" = _zPce44vL;
         "minecraft-1.21.11" = _zPce44vL;
+        "minecraft-26.3" = _CG3L5uj2;
         "pkg-1.0.0" = _6ro284zP;
         "pkg-1.0.1" = _ee2DmzGq;
         "pkg-1.0.2" = _zPce44vL;
-        "default" = _zPce44vL;
+        "pkg-1.0.3" = _CG3L5uj2;
+        "default" = _CG3L5uj2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "redstone-reloaded";

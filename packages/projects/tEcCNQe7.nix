@@ -171,6 +171,11 @@ let
             "file" = "improved-signs-1.7.1+mc1.21.1.jar";
             "hash" = "sha512-aA15mc98wdI067btuc0O7ELyNuRH95WG83Gr4LQR/L+C/7Y1gAJ9Pm3S/399dC5Y5DJn2DVCSICivw2ckjvaPw==";
         };
+        _uyXIm9va = {
+            "id" = "uyXIm9va";
+            "file" = "improved-signs-1.8.0+mc26.3.jar";
+            "hash" = "sha512-mm440Jacge4Go0RTZgHqU40m3AwW8pVB4YYMi92KiuqBfSWXu+grUGah9XqwptdBVRdqyKzyQtPK9wpGB4Rl7Q==";
+        };
     in {
         "k3CpB7e0" = _k3CpB7e0;
         "EQWaQ6zl" = _EQWaQ6zl;
@@ -206,6 +211,7 @@ let
         "POquc3FG" = _POquc3FG;
         "eG2aUAld" = _eG2aUAld;
         "7gkczZhQ" = _7gkczZhQ;
+        "uyXIm9va" = _uyXIm9va;
         "fabric-1.16.5" = _k3CpB7e0;
         "fabric-1.17" = _abs0Intl;
         "fabric-1.17.1" = _UgEtsOWx;
@@ -234,6 +240,7 @@ let
         "fabric-1.21.11" = _wUAKh1yn;
         "fabric-26.1.2" = _Uy3SVGX0;
         "fabric-26.2" = _eG2aUAld;
+        "fabric-26.3" = _uyXIm9va;
         "quilt-1.19" = _MPeqJcKJ;
         "quilt-1.19.1" = _jCuRv8Fh;
         "quilt-1.19.2" = _eXGUTNJu;
@@ -275,8 +282,8 @@ let
         "pkg-1.5.1" = _Snd745di;
         "pkg-1.6.0" = _pP9xYrIO;
         "pkg-1.7.0" = _POquc3FG;
-        "pkg-1.7.1" = _7gkczZhQ;
-        "default" = _7gkczZhQ;
+        "pkg-1.7.1" = _uyXIm9va;
+        "default" = _uyXIm9va;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "improved-signs";

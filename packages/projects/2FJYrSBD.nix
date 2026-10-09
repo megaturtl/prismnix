@@ -111,6 +111,11 @@ let
             "file" = "BetterHandBobbing-1.9.1.jar";
             "hash" = "sha512-sPOG9qHohEOWbypAqBYwTWbMcr6JbmfrZKuwh8JK36yU9vXHE8qzygIRMlSOfaa8u9y4OE5BzcsU0blO2NlMpQ==";
         };
+        _M9fhv6yf = {
+            "id" = "M9fhv6yf";
+            "file" = "BetterHandBobbing-1.9.2.jar";
+            "hash" = "sha512-1OH2BPJytYASzdv9JT9twyrYZzMoOyGktHP8FTcq9YxcKAXp6OoLILeullqddckLjVaRC+UASMZOdLzyIQilWQ==";
+        };
     in {
         "7UQMaa63" = _7UQMaa63;
         "N3JXu8Y8" = _N3JXu8Y8;
@@ -134,6 +139,7 @@ let
         "6cLdj2kj" = _6cLdj2kj;
         "1ugZbgqG" = _1ugZbgqG;
         "3nFZj6dW" = _3nFZj6dW;
+        "M9fhv6yf" = _M9fhv6yf;
         "fabric-1.19.2" = _drvijsda;
         "fabric-1.19.3" = _wAvVIzDD;
         "fabric-1.19.4" = _dLIn8NnR;
@@ -157,6 +163,7 @@ let
         "fabric-26.1.1" = _1ugZbgqG;
         "fabric-26.1.2" = _1ugZbgqG;
         "fabric-26.2" = _3nFZj6dW;
+        "fabric-26.3" = _M9fhv6yf;
         "quilt-1.19.2" = _drvijsda;
         "quilt-1.19.3" = _wAvVIzDD;
         "quilt-1.19.4" = _dLIn8NnR;
@@ -193,7 +200,8 @@ let
         "pkg-1.8.2" = _6cLdj2kj;
         "pkg-1.9.0" = _1ugZbgqG;
         "pkg-1.9.1" = _3nFZj6dW;
-        "default" = _3nFZj6dW;
+        "pkg-1.9.2" = _M9fhv6yf;
+        "default" = _M9fhv6yf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-hand-bobbing";

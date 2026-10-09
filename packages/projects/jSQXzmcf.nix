@@ -61,6 +61,16 @@ let
             "file" = "RapidLeafDecay-1.21.1-3.0.1.jar";
             "hash" = "sha512-IlnfzDo+BIF79/npxjbFwFU2duzAyB6JNythfUEgLzsWOhPqCve6EknPAvAgjB70j1yDZRy5qmuK3L/LWSqcYg==";
         };
+        _kgoH2d7S = {
+            "id" = "kgoH2d7S";
+            "file" = "RapidLeafDecay-1.21.11-3.0.1.jar";
+            "hash" = "sha512-Z7YtXiHo0Wy9DS+0cRO8F2oiaQ+RFFJUtZAj+KiajOIMBcqtAvemX7SdZAXfUSN8zh9dPnV08CjL1+s2jAO6Lg==";
+        };
+        _2FE7w3mt = {
+            "id" = "2FE7w3mt";
+            "file" = "RapidLeafDecay-26.1-3.0.1.jar";
+            "hash" = "sha512-mY9+M+8xMARtx7bt8mTSWq+lLcDFdbBuA5uWR/iMmpWz3Frt8pMbcgGni7H156y9dqATA4t5MfmcplJ6v8TeHQ==";
+        };
     in {
         "m3UEqA8b" = _m3UEqA8b;
         "fuB6G5pZ" = _fuB6G5pZ;
@@ -74,6 +84,8 @@ let
         "GBYiFFUq" = _GBYiFFUq;
         "MtvdettX" = _MtvdettX;
         "5jGrYR7B" = _5jGrYR7B;
+        "kgoH2d7S" = _kgoH2d7S;
+        "2FE7w3mt" = _2FE7w3mt;
         "forge-1.17.1" = _m3UEqA8b;
         "forge-1.18.2" = _fuB6G5pZ;
         "forge-1.19.4" = _kFZu2xUy;
@@ -94,6 +106,12 @@ let
         "neoforge-1.21.8" = _5jGrYR7B;
         "neoforge-1.21.9" = _5jGrYR7B;
         "neoforge-1.21.10" = _5jGrYR7B;
+        "neoforge-1.21.11" = _kgoH2d7S;
+        "neoforge-26.1" = _2FE7w3mt;
+        "neoforge-26.1.1" = _2FE7w3mt;
+        "neoforge-26.1.2" = _2FE7w3mt;
+        "neoforge-26.2" = _2FE7w3mt;
+        "neoforge-26.3" = _2FE7w3mt;
         "pkg-1.17.1-2.0.2" = _m3UEqA8b;
         "pkg-1.18.2-2.0.2" = _fuB6G5pZ;
         "pkg-1.19.4-2.0.2" = _kFZu2xUy;
@@ -106,7 +124,9 @@ let
         "pkg-1.21.1-2.0.2" = _GBYiFFUq;
         "pkg-1.21.1-3.0.0" = _MtvdettX;
         "pkg-1.21.1-3.0.1" = _5jGrYR7B;
-        "default" = _5jGrYR7B;
+        "pkg-1.21.11-3.0.1" = _kgoH2d7S;
+        "pkg-26.1-3.0.1" = _2FE7w3mt;
+        "default" = _2FE7w3mt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rapid-leaf-decay";

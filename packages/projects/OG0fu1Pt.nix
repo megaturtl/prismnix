@@ -111,6 +111,11 @@ let
             "file" = "lenientcreepers-fabric-26.1.2-1.2.jar";
             "hash" = "sha512-1itqGIamuyObMJ9Tv9im8zb6DQopTn//J+3Topncc0gQsvcs8dezeNXrrjRAme5IBwxc3El32gZQpXr4f45BEg==";
         };
+        _m7lkLYgf = {
+            "id" = "m7lkLYgf";
+            "file" = "lenientcreepers-neoforge-26.3-1.2.1.jar";
+            "hash" = "sha512-Ftki56r4l8gNpMbUhBMxwtJ3ZbNpYFiuAIfOeV3duUcXgpIVW3OqeO3ennNw5DRlNC45aGgncazomzdETIysqQ==";
+        };
     in {
         "dR0gzjqW" = _dR0gzjqW;
         "Gc7w2Mkq" = _Gc7w2Mkq;
@@ -134,6 +139,7 @@ let
         "oRTxu5Z9" = _oRTxu5Z9;
         "YJZDsqlp" = _YJZDsqlp;
         "OYsUrlpo" = _OYsUrlpo;
+        "m7lkLYgf" = _m7lkLYgf;
         "forge-1.12" = _dR0gzjqW;
         "forge-1.12.1" = _dR0gzjqW;
         "forge-1.12.2" = _dR0gzjqW;
@@ -175,6 +181,7 @@ let
         "neoforge-26.1.1" = _YJZDsqlp;
         "neoforge-26.1.2" = _YJZDsqlp;
         "neoforge-26.2" = _YJZDsqlp;
+        "neoforge-26.3" = _m7lkLYgf;
         "fabric-26.1" = _OYsUrlpo;
         "fabric-26.1.1" = _OYsUrlpo;
         "fabric-26.1.2" = _OYsUrlpo;
@@ -188,7 +195,8 @@ let
         "pkg-v1.0.2" = _oLFIfO75;
         "pkg-v1.1" = _oRTxu5Z9;
         "pkg-v1.2" = _OYsUrlpo;
-        "default" = _OYsUrlpo;
+        "pkg-v1.2.1" = _m7lkLYgf;
+        "default" = _m7lkLYgf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lenient-creepers";

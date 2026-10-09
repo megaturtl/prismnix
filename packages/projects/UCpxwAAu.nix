@@ -866,6 +866,66 @@ let
             "file" = "bigsignwriter-3.0.0+26.3.jar";
             "hash" = "sha512-LC5/u5euEi8XBOOgJS/TuCu7/G4yyLYRYpV2wjDJdFvb5Z5x+hvwuq6WWVPjM6sPLaa8J2xPWDqDxG3QI5ptvQ==";
         };
+        _FwQhMofW = {
+            "id" = "FwQhMofW";
+            "file" = "bigsignwriter-3.1.0+1.21.10-neoforge.jar";
+            "hash" = "sha512-/O5SsYzL6pWjDZQLvpPZpMXNm3i+dK9X6AvKfiq+fWg1qeqQDOJygeH8mumEi4i7VI0jberPISkTSOmKgHlI4w==";
+        };
+        _OXF3UetH = {
+            "id" = "OXF3UetH";
+            "file" = "bigsignwriter-3.1.0+1.21.10-fabric.jar";
+            "hash" = "sha512-gygNAMjhJxN7sT1XIta1lEC4SLRQXdPyC4IMvhRSFX8FfIAhG1U5phvzec1Dw3TTNORY0gtEvcqlt6uJzeX8Pw==";
+        };
+        _d5zewSPj = {
+            "id" = "d5zewSPj";
+            "file" = "bigsignwriter-3.1.0+1.21.11-neoforge.jar";
+            "hash" = "sha512-lYjXr1JhBHUij9RA7yYNTFV9gZVGJKJS+yA42gu2zKVtH/lNF6tDOZSu4LcPkFERzKYsRQxeO8fQxD5sxsiuBw==";
+        };
+        _pbdELpKQ = {
+            "id" = "pbdELpKQ";
+            "file" = "bigsignwriter-3.1.0+1.21.11-fabric.jar";
+            "hash" = "sha512-jVV2y1tuNd6vt8ckuytMeTO6xjDEIbcVkFv6N+vtOrW43yR0qlAs4rQv22dInqoj1CsdMpMADCUwzK+2YEZQXQ==";
+        };
+        _Syw1yCa7 = {
+            "id" = "Syw1yCa7";
+            "file" = "bigsignwriter-3.1.0+26.1.jar";
+            "hash" = "sha512-p6Cv07X4lcHhy7XxRZ08YTMN9GJWi3AdVElv1Fka5wP/NkuCj1XxwB04oF9n0yGlPYYN6jLR9t8pTHAQV/+aOg==";
+        };
+        _bzFZaUNE = {
+            "id" = "bzFZaUNE";
+            "file" = "bigsignwriter-3.1.0+26.3.jar";
+            "hash" = "sha512-zPOwMzxYFEmtIrwYh2tCCvCQ7CN+whbfFxLkIZP9C2hPkMt3hv+fFyXOD/uL1uWIcm5j0ATzZ2X0MJGUgzNk9g==";
+        };
+        _FB04t7Vk = {
+            "id" = "FB04t7Vk";
+            "file" = "bigsignwriter-3.1.1+1.21.10-neoforge.jar";
+            "hash" = "sha512-2ZCQxjj7ApfkVL/5thJAvqnqBf/xeunxEe5t+Scusx15z2vFoD+J/286hfKQyW32V/I4SonPBVwCqngZUBYLWw==";
+        };
+        _jafPffMv = {
+            "id" = "jafPffMv";
+            "file" = "bigsignwriter-3.1.1+1.21.10-fabric.jar";
+            "hash" = "sha512-yh12PSYlbni/PtopO6MHRdPKqa8lJdAP2Jf+CCyZjGjJoFx28NraeWB+w00GKVaJ2ckr4ztWUeIzy5Ms9OcArA==";
+        };
+        _AbK6DzMI = {
+            "id" = "AbK6DzMI";
+            "file" = "bigsignwriter-3.1.1+1.21.11-neoforge.jar";
+            "hash" = "sha512-/L2s6WNpXvWb3IwhOrYttsIv3K54MC896ag82gKBW4DPbBTxJMcxViC8nF1BfuamPjYL6BSwXr4E2AIImoqGvQ==";
+        };
+        _ICxGmSij = {
+            "id" = "ICxGmSij";
+            "file" = "bigsignwriter-3.1.1+1.21.11-fabric.jar";
+            "hash" = "sha512-ikeD0cH+c0lguyj/0/yJbAsynAWr2+SmY079crsiFv2qTvtVVbsnvUdbPA0/CTwGX2UO5IgqiWm3t7UHMK6U1Q==";
+        };
+        _2LVlw5ct = {
+            "id" = "2LVlw5ct";
+            "file" = "bigsignwriter-3.1.1+26.1.jar";
+            "hash" = "sha512-VezjFvv6wBD7qftJAXyJN1AsvBI8ALOzba4iVgUuLhuKKZFKLN3+Ob59qGYwEMyg4D4bM3Xo0RdOKm1MzFQhBA==";
+        };
+        _ics7z6RR = {
+            "id" = "ics7z6RR";
+            "file" = "bigsignwriter-3.1.1+26.3.jar";
+            "hash" = "sha512-t+S260f5z7YVX00CRe2dZutxbaP2xWqIQEYM3PfccjMR0rMY014AZbifJhlmTBzwlEUzR6h755BSCjv8NJboSw==";
+        };
     in {
         "ermd4WCx" = _ermd4WCx;
         "In0Ygj23" = _In0Ygj23;
@@ -1040,6 +1100,18 @@ let
         "LupG0Icz" = _LupG0Icz;
         "amnXiZD9" = _amnXiZD9;
         "loEVL2aN" = _loEVL2aN;
+        "FwQhMofW" = _FwQhMofW;
+        "OXF3UetH" = _OXF3UetH;
+        "d5zewSPj" = _d5zewSPj;
+        "pbdELpKQ" = _pbdELpKQ;
+        "Syw1yCa7" = _Syw1yCa7;
+        "bzFZaUNE" = _bzFZaUNE;
+        "FB04t7Vk" = _FB04t7Vk;
+        "jafPffMv" = _jafPffMv;
+        "AbK6DzMI" = _AbK6DzMI;
+        "ICxGmSij" = _ICxGmSij;
+        "2LVlw5ct" = _2LVlw5ct;
+        "ics7z6RR" = _ics7z6RR;
         "fabric-1.20" = _N7BiVkDy;
         "fabric-1.20.1" = _N7BiVkDy;
         "fabric-1.20.2" = _N7BiVkDy;
@@ -1056,15 +1128,15 @@ let
         "fabric-1.21.6" = _d4u6unV9;
         "fabric-1.21.7" = _d4u6unV9;
         "fabric-1.21.8" = _d4u6unV9;
-        "fabric-1.21.9" = _A0kl0BI8;
-        "fabric-1.21.10" = _A0kl0BI8;
-        "fabric-1.21.11" = _LupG0Icz;
+        "fabric-1.21.9" = _jafPffMv;
+        "fabric-1.21.10" = _jafPffMv;
+        "fabric-1.21.11" = _ICxGmSij;
         "fabric-26.1-rc-2" = _dftH4oB3;
         "fabric-26.1-rc-3" = _dftH4oB3;
-        "fabric-26.1" = _amnXiZD9;
-        "fabric-26.1.1" = _amnXiZD9;
-        "fabric-26.1.2" = _amnXiZD9;
-        "fabric-26.3" = _loEVL2aN;
+        "fabric-26.1" = _2LVlw5ct;
+        "fabric-26.1.1" = _2LVlw5ct;
+        "fabric-26.1.2" = _2LVlw5ct;
+        "fabric-26.3" = _ics7z6RR;
         "forge-1.20" = _Dot8eOwj;
         "forge-1.20.1" = _wqlaxhze;
         "neoforge-1.21" = _1we2h27T;
@@ -1077,12 +1149,12 @@ let
         "neoforge-1.21.7" = _6qMxtZam;
         "neoforge-1.21.8" = _6qMxtZam;
         "neoforge-1.21.9" = _NVjSTJds;
-        "neoforge-1.21.10" = _G9rAfpwK;
-        "neoforge-1.21.11" = _sDO0ZwUe;
-        "neoforge-26.1" = _amnXiZD9;
-        "neoforge-26.1.1" = _amnXiZD9;
-        "neoforge-26.1.2" = _amnXiZD9;
-        "neoforge-26.3" = _loEVL2aN;
+        "neoforge-1.21.10" = _FB04t7Vk;
+        "neoforge-1.21.11" = _AbK6DzMI;
+        "neoforge-26.1" = _2LVlw5ct;
+        "neoforge-26.1.1" = _2LVlw5ct;
+        "neoforge-26.1.2" = _2LVlw5ct;
+        "neoforge-26.3" = _ics7z6RR;
         "pkg-1.0+1.20" = _ermd4WCx;
         "pkg-1.0+1.21" = _In0Ygj23;
         "pkg-1.0+1.21.2" = _opcuGlMq;
@@ -1256,7 +1328,19 @@ let
         "pkg-3.0.0+1.21.11-fabric" = _LupG0Icz;
         "pkg-3.0.0+26.1" = _amnXiZD9;
         "pkg-3.0.0+26.3" = _loEVL2aN;
-        "default" = _loEVL2aN;
+        "pkg-3.1.0+1.21.10-neoforge" = _FwQhMofW;
+        "pkg-3.1.0+1.21.10-fabric" = _OXF3UetH;
+        "pkg-3.1.0+1.21.11-neoforge" = _d5zewSPj;
+        "pkg-3.1.0+1.21.11-fabric" = _pbdELpKQ;
+        "pkg-3.1.0+26.1" = _Syw1yCa7;
+        "pkg-3.1.0+26.3" = _bzFZaUNE;
+        "pkg-3.1.1+1.21.10-neoforge" = _FB04t7Vk;
+        "pkg-3.1.1+1.21.10-fabric" = _jafPffMv;
+        "pkg-3.1.1+1.21.11-neoforge" = _AbK6DzMI;
+        "pkg-3.1.1+1.21.11-fabric" = _ICxGmSij;
+        "pkg-3.1.1+26.1" = _2LVlw5ct;
+        "pkg-3.1.1+26.3" = _ics7z6RR;
+        "default" = _ics7z6RR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bigsignwriter";

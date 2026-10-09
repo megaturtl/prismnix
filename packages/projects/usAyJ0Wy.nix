@@ -451,6 +451,16 @@ let
             "file" = "takeitout-1.1.27-forge-1.20.1.jar";
             "hash" = "sha512-qvCNTJ5UfaHyyZaDlZj0hBbEHPdpTOCpFDajW1lr6tS8JoNqSyPLlmQEWgwYO0iSCiVEVXxWw8BCamb9VSELKg==";
         };
+        _gmg5Akaz = {
+            "id" = "gmg5Akaz";
+            "file" = "takeitout-1.1.27-26.3.jar";
+            "hash" = "sha512-OMlQiyAp1VM29ofg4ci/CrgoMAFaCDZLIHJUUEt+cGW25BeNdct5J/KdAUtJEFIo8OVcRF4fmfS5Sk+6Yd+MiQ==";
+        };
+        _lgOTPFln = {
+            "id" = "lgOTPFln";
+            "file" = "takeitout-1.1.28-26.3.jar";
+            "hash" = "sha512-TjZF5M+kVRAkb05nyBMF+sjqAtcz/G93AyGxTleMHoDoTpXcquH/Om6KbQ0hQ5OKXI6F5hIkkcV8eYx5CdAxnA==";
+        };
     in {
         "pCLFsAdp" = _pCLFsAdp;
         "ONXI42od" = _ONXI42od;
@@ -542,6 +552,8 @@ let
         "PZVgMB05" = _PZVgMB05;
         "3Ij1zxdF" = _3Ij1zxdF;
         "WVOeXOGB" = _WVOeXOGB;
+        "gmg5Akaz" = _gmg5Akaz;
+        "lgOTPFln" = _lgOTPFln;
         "fabric-1.21" = _BCyBD77F;
         "fabric-1.21.1" = _jZPbqO89;
         "fabric-1.21.4" = _KEvBaXvy;
@@ -560,6 +572,7 @@ let
         "fabric-26.1.1" = _JCdk32aU;
         "fabric-26.1.2" = _JCdk32aU;
         "fabric-26.2" = _znr6oN35;
+        "fabric-26.3" = _lgOTPFln;
         "bukkit-1.21" = _QPTDfXAX;
         "bukkit-1.21.1" = _QPTDfXAX;
         "bukkit-1.21.2" = _QPTDfXAX;
@@ -707,7 +720,9 @@ let
         "pkg-1.1.27-26.2" = _3Ij1zxdF;
         "pkg-1.1.27-neoforge-1.21.1" = _PZVgMB05;
         "pkg-1.1.27-forge-1.20.1" = _WVOeXOGB;
-        "default" = _WVOeXOGB;
+        "pkg-1.1.27-26.3" = _gmg5Akaz;
+        "pkg-1.1.28-26.3" = _lgOTPFln;
+        "default" = _lgOTPFln;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "takeitout";

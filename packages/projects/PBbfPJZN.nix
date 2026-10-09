@@ -81,6 +81,51 @@ let
             "file" = "betterscreens-2.0.14+26.2-fabric.jar";
             "hash" = "sha512-mVhfxAKmymZuvbJFabtuKWbOWcpuLnAnSlhwGYk8/95WrvUcibHjmX8cMfsTc2Cq/GEskz29DfDljryTxY9I8w==";
         };
+        _sP6S9Q1A = {
+            "id" = "sP6S9Q1A";
+            "file" = "betterscreens-2.0.15+26.3-fabric.jar";
+            "hash" = "sha512-euy8xbdZfaM5qdBK+ur+YWrBldtkQ/RE+hvVDRczz0wvIYcvQb/3C/Ul+5AklXc+OCdUaJL+J2jx5y+2PJ7w1g==";
+        };
+        _ba8IwSUT = {
+            "id" = "ba8IwSUT";
+            "file" = "betterscreens-2.0.16+26.3-fabric.jar";
+            "hash" = "sha512-M2rWfFAvt3ZimCnVGq+wBVSb53UmduLobU5U4V1/BKIndW8p5Rw8K6Dn/A7H/XSTaK/6K4jwsCqgEyBgRT3pdA==";
+        };
+        _7dpw0BRr = {
+            "id" = "7dpw0BRr";
+            "file" = "betterscreens-2.1.0+26.3-fabric.jar";
+            "hash" = "sha512-BowNTgtwpRgtG0ue/P5hLCDlf0TF/tZAualMe1LTbWvzyzXWP9VkOM1wgFAHEdqEKle3hHQHnRyH2XKOswrOSg==";
+        };
+        _wOzZBpBL = {
+            "id" = "wOzZBpBL";
+            "file" = "betterscreens-2.1.0+1.8.9-fabric.jar";
+            "hash" = "sha512-V91MXsygRYsw1MxK/IOVkKfIjNX98M6E9seuEJZmrc2yrExJVcoa65UW1mCvJtyLTI3I8rH6ZGtlISYDgoSJmw==";
+        };
+        _jziIbvab = {
+            "id" = "jziIbvab";
+            "file" = "betterscreens-2.1.1+26.2-fabric.jar";
+            "hash" = "sha512-el55Re3A5BAu5WMWC0SpVwipv4LXZaATFpX3vuWtJg5fZUtJeCrY86icvG77h6GAE0CqufWQ5DCbEt3ZX4fDWA==";
+        };
+        _GzDSCw3M = {
+            "id" = "GzDSCw3M";
+            "file" = "betterscreens-2.1.1+26.3-fabric.jar";
+            "hash" = "sha512-zl4qy+7yu4Ozjvy/ReezIwu3NthbEwPpoGXXAwqsxi30nCZ4u++/JEBRBewv8xHToserccvIA9LdPCTHe+bcqQ==";
+        };
+        _pXYrN6Vf = {
+            "id" = "pXYrN6Vf";
+            "file" = "betterscreens-2.1.1+1.8.9-fabric.jar";
+            "hash" = "sha512-ZOqjFNFuf1bZbsK1AzhSXVh7avmEFmVZsmSSwgSGvzuILVudiobB0lQyaxsxn4k59j9zj+8vS9DiI1h/1N7cZw==";
+        };
+        _1FDgbhlv = {
+            "id" = "1FDgbhlv";
+            "file" = "betterscreens-3.0.0+26.2-fabric.jar";
+            "hash" = "sha512-3ZQwfn4SgGCexL8JDqYpJh5Xv6LeK4wcAsfU9z1MIk/c67QPKKShZERTqOKcZVyY97ugpeCnsBmyvgTgorsdSw==";
+        };
+        _Qdw5cqdl = {
+            "id" = "Qdw5cqdl";
+            "file" = "betterscreens-3.0.0+26.3-fabric.jar";
+            "hash" = "sha512-D2HufwpXCMD7oy520Z6AzlFf9Z0Z7dWA9dR1xQMKV9k2Yous14CzvpbqPQMneqlzosBeAVWf6NdmAhyhaZLc0w==";
+        };
     in {
         "f1s6jOAU" = _f1s6jOAU;
         "y6b3rm2N" = _y6b3rm2N;
@@ -98,13 +143,24 @@ let
         "Ru86CeGj" = _Ru86CeGj;
         "IdEZWyAp" = _IdEZWyAp;
         "gOv1kbEg" = _gOv1kbEg;
+        "sP6S9Q1A" = _sP6S9Q1A;
+        "ba8IwSUT" = _ba8IwSUT;
+        "7dpw0BRr" = _7dpw0BRr;
+        "wOzZBpBL" = _wOzZBpBL;
+        "jziIbvab" = _jziIbvab;
+        "GzDSCw3M" = _GzDSCw3M;
+        "pXYrN6Vf" = _pXYrN6Vf;
+        "1FDgbhlv" = _1FDgbhlv;
+        "Qdw5cqdl" = _Qdw5cqdl;
         "fabric-1.21.8" = _5kgvtbuE;
         "fabric-1.21.10" = _hjgJ1G8A;
         "fabric-1.21.11" = _w3MhEzEK;
         "fabric-26.1" = _IdEZWyAp;
         "fabric-26.1.1" = _IdEZWyAp;
         "fabric-26.1.2" = _IdEZWyAp;
-        "fabric-26.2" = _gOv1kbEg;
+        "fabric-26.2" = _1FDgbhlv;
+        "fabric-26.3" = _Qdw5cqdl;
+        "ornithe-1.8.9" = _pXYrN6Vf;
         "pkg-1.0.1" = _f1s6jOAU;
         "pkg-2.0.0" = _y6b3rm2N;
         "pkg-2.0.1" = _7iYhvPUK;
@@ -121,7 +177,12 @@ let
         "pkg-2.0.12" = _Ru86CeGj;
         "pkg-2.0.13" = _IdEZWyAp;
         "pkg-2.0.14" = _gOv1kbEg;
-        "default" = _gOv1kbEg;
+        "pkg-2.0.15" = _sP6S9Q1A;
+        "pkg-2.0.16" = _ba8IwSUT;
+        "pkg-2.1.0" = _wOzZBpBL;
+        "pkg-2.1.1" = _pXYrN6Vf;
+        "pkg-3.0.0" = _Qdw5cqdl;
+        "default" = _Qdw5cqdl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-screens";

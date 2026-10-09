@@ -156,6 +156,26 @@ let
             "file" = "shulker-box-labels-3.4.5+26.3-neoforge.jar";
             "hash" = "sha512-yzQNPOs5Tr4HjHW2IrvPbUfR35xMHF8MRU7IyIkoHBAotJlS8pZFm4Tf68LIYhIKRMVTos8Wu04mE31LxMpjzQ==";
         };
+        _E5DZpj3P = {
+            "id" = "E5DZpj3P";
+            "file" = "shulker-box-labels-3.5.0+26.2-neoforge.jar";
+            "hash" = "sha512-SFyA450fzAuEyKC+mEosj93FsJJF60TTYFKlbG2KAO9BHxV5nDHZd4hnfFrCSaEfKeSHt2M76Wc6gtMKz8XvAQ==";
+        };
+        _BE63xHQI = {
+            "id" = "BE63xHQI";
+            "file" = "shulker-box-labels-3.5.0+26.2-fabric.jar";
+            "hash" = "sha512-RSEBtathJKzuKwLwtbpVUz8T8jVR6bCpvrHpskvy4edcNr6FJCBiTzbiR38U48Ndj9Q4hp50aOGE9Qe8+GZMwQ==";
+        };
+        _gWtiPaJb = {
+            "id" = "gWtiPaJb";
+            "file" = "shulker-box-labels-3.5.0+26.3-neoforge.jar";
+            "hash" = "sha512-2zYDZ5GWrhOmVgIiqQCaViSUwf1GTEzJuTjsh7tYUr5w8wGsdyV0VvO2nYvPguQarh9UpC7ARmOUgyF/SfFSbQ==";
+        };
+        _c7Kdq3k9 = {
+            "id" = "c7Kdq3k9";
+            "file" = "shulker-box-labels-3.5.0+26.3-fabric.jar";
+            "hash" = "sha512-w6zWPo5Viyco4qyBxc+mPri7trKMyH+mGXSWi+RIPpW2LnMCn6VzEUK7v3sQA9w9NEwMvi+cZGKvOERzUQMRUA==";
+        };
     in {
         "LeUnmms7" = _LeUnmms7;
         "htKqaZ8Z" = _htKqaZ8Z;
@@ -188,6 +208,10 @@ let
         "aEDhwifu" = _aEDhwifu;
         "I80syIGL" = _I80syIGL;
         "rrlQ2DLh" = _rrlQ2DLh;
+        "E5DZpj3P" = _E5DZpj3P;
+        "BE63xHQI" = _BE63xHQI;
+        "gWtiPaJb" = _gWtiPaJb;
+        "c7Kdq3k9" = _c7Kdq3k9;
         "fabric-1.21.5" = _ZgteQW07;
         "fabric-1.21.6" = _y1c3CrZX;
         "fabric-1.21.7" = _vgW19Ke4;
@@ -198,8 +222,8 @@ let
         "fabric-26.1" = _cQEoBWmz;
         "fabric-26.1.1" = _cQEoBWmz;
         "fabric-26.1.2" = _cQEoBWmz;
-        "fabric-26.2" = _FKrA440P;
-        "fabric-26.3" = _I80syIGL;
+        "fabric-26.2" = _BE63xHQI;
+        "fabric-26.3" = _c7Kdq3k9;
         "neoforge-1.21.6" = _yzqKDf8c;
         "neoforge-1.21.7" = _1QGMW0cC;
         "neoforge-1.21.8" = _1QGMW0cC;
@@ -209,8 +233,8 @@ let
         "neoforge-26.1" = _6LnOhrRN;
         "neoforge-26.1.1" = _6LnOhrRN;
         "neoforge-26.1.2" = _6LnOhrRN;
-        "neoforge-26.2" = _aEDhwifu;
-        "neoforge-26.3" = _rrlQ2DLh;
+        "neoforge-26.2" = _E5DZpj3P;
+        "neoforge-26.3" = _gWtiPaJb;
         "pkg-0.0.1" = _LeUnmms7;
         "pkg-1.0.0+1.21.5" = _htKqaZ8Z;
         "pkg-2.0.0+1.21.5" = _Pgx0C8zf;
@@ -242,7 +266,11 @@ let
         "pkg-3.4.4+26.2-neoforge" = _aEDhwifu;
         "pkg-3.4.5+26.3-fabric" = _I80syIGL;
         "pkg-3.4.5+26.3-neoforge" = _rrlQ2DLh;
-        "default" = _rrlQ2DLh;
+        "pkg-3.5.0+26.2-neoforge" = _E5DZpj3P;
+        "pkg-3.5.0+26.2-fabric" = _BE63xHQI;
+        "pkg-3.5.0+26.3-neoforge" = _gWtiPaJb;
+        "pkg-3.5.0+26.3-fabric" = _c7Kdq3k9;
+        "default" = _c7Kdq3k9;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "shulker-box-labels";

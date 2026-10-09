@@ -361,6 +361,26 @@ let
             "file" = "colorwheel-neoforge-1.3.0-beta3+mc1.21.1.jar";
             "hash" = "sha512-ff+6AJvHy/vafoRk9NTH+wVGxLiItuPEULEeCkyjZ6+yyl6eRuDWOTV6KuzpluJPHvxJ+HF5r45ierd2UzrJPA==";
         };
+        _4uAiG406 = {
+            "id" = "4uAiG406";
+            "file" = "colorwheel-fabric-1.3.0+mc1.20.1.jar";
+            "hash" = "sha512-n1JtJaZ2ztO6s2AKaOdFd/ItU4ycLj0vk78NoahnwmL0B4cjAq/MBqOSgkOqXwuQxYaE6GArhg+N/RkMQGiCMw==";
+        };
+        _26ojgyzF = {
+            "id" = "26ojgyzF";
+            "file" = "colorwheel-forge-1.3.0+mc1.20.1.jar";
+            "hash" = "sha512-ftHds4557cdTv11L90fhgAtPnWK400+yg2u0La/lsqJ2x2VHn6PBS9Alrk3tlEvkcm4qng+Lx64bfLmPJ96mzg==";
+        };
+        _8rq5KP4U = {
+            "id" = "8rq5KP4U";
+            "file" = "colorwheel-neoforge-1.3.0+mc1.21.1.jar";
+            "hash" = "sha512-HSCI1B9XzvCLi5aSpflUJ8NM8hjg4P4gvDNeelyrnjfOpBS3hgcMwplH+76enboaQTT3IsNbnMvvYOKgdeNSqg==";
+        };
+        _nE3j0K3H = {
+            "id" = "nE3j0K3H";
+            "file" = "colorwheel-fabric-1.3.0+mc1.21.1.jar";
+            "hash" = "sha512-A38pRM9cMus9yjh8ckNLh/CyF604YZ0VXqk5SWug55Y9dBg1sa+DgMJ6qaMCRSNN6yLA8bZMIji4+oq0I2h/aQ==";
+        };
     in {
         "Dddttqrs" = _Dddttqrs;
         "IbSXUhkg" = _IbSXUhkg;
@@ -434,10 +454,14 @@ let
         "vnUxedur" = _vnUxedur;
         "QkQoaqn2" = _QkQoaqn2;
         "mHMx6eXd" = _mHMx6eXd;
-        "forge-1.20.1" = _RwUrKFGe;
-        "neoforge-1.21.1" = _mHMx6eXd;
-        "fabric-1.20.1" = _vnUxedur;
-        "fabric-1.21.1" = _QkQoaqn2;
+        "4uAiG406" = _4uAiG406;
+        "26ojgyzF" = _26ojgyzF;
+        "8rq5KP4U" = _8rq5KP4U;
+        "nE3j0K3H" = _nE3j0K3H;
+        "forge-1.20.1" = _26ojgyzF;
+        "neoforge-1.21.1" = _8rq5KP4U;
+        "fabric-1.20.1" = _4uAiG406;
+        "fabric-1.21.1" = _nE3j0K3H;
         "pkg-0.1.0" = _IbSXUhkg;
         "pkg-0.2.0" = _3AaPjFKc;
         "pkg-0.2.1+mc1.20.1" = _cEzt4TWh;
@@ -476,7 +500,9 @@ let
         "pkg-1.2.9+mc1.21.1" = _xjbTdSp9;
         "pkg-1.3.0-beta3+mc1.20.1" = _vnUxedur;
         "pkg-1.3.0-beta3+mc1.21.1" = _mHMx6eXd;
-        "default" = _mHMx6eXd;
+        "pkg-1.3.0+mc1.20.1" = _26ojgyzF;
+        "pkg-1.3.0+mc1.21.1" = _nE3j0K3H;
+        "default" = _nE3j0K3H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "colorwheel";

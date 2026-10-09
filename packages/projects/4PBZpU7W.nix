@@ -136,6 +136,26 @@ let
             "file" = "CraftableTotemOfUndying-forge-26.1.2-3.4.0.jar";
             "hash" = "sha512-JEzDJQNPqR2PHwe0rp6PjyL9PvxqOQP0xyjcotnC+7seK2Mde2RhlyBYis1k1qDl/thyJvrtw34QNkWzaiz0qA==";
         };
+        _X5djMyUM = {
+            "id" = "X5djMyUM";
+            "file" = "CraftableTotemOfUndying-fabric-26.1.2-3.4.0.jar";
+            "hash" = "sha512-uW3uQwwKzw0IdowqpzAESZ1NtdIzbh9Sy172rgbLYLQTVJJQOsZNVlbr/hMwxuEirY8bmovx4jfD1YH+Ox+Wog==";
+        };
+        _hSpuPWd7 = {
+            "id" = "hSpuPWd7";
+            "file" = "CraftableTotemOfUndying-neoforge-26.3-3.4.1.jar";
+            "hash" = "sha512-K7eBk3ffHrDFkkRFHZc4lp8NjWLZjIsIYK3DRHeBcnzE2LbuzWLV9lfPBRAuKl7eK1z0johl5CpbcDJI1TrjiA==";
+        };
+        _Ad0z7sER = {
+            "id" = "Ad0z7sER";
+            "file" = "CraftableTotemOfUndying-forge-26.3-3.4.1.jar";
+            "hash" = "sha512-YD5TWJrmZwKdQgfYGs9ZQBs1QcfClsNlesrdq8kj0TPZqxqVwCyhxK1azfPqf4r0CWsSlYcol6u6U/bPqDdVsQ==";
+        };
+        _52P9bOeQ = {
+            "id" = "52P9bOeQ";
+            "file" = "CraftableTotemOfUndying-fabric-26.3-3.4.1.jar";
+            "hash" = "sha512-Q32Mf0ndZhyzJTSs4Mg/1Qz77WonqR6c6OVFC3Fn2+MF5d2aaJD7BcCeLMHgHVCSplVblRQ7yA8WavCoxmrq1g==";
+        };
     in {
         "vSTjbhNv" = _vSTjbhNv;
         "no5YUqo3" = _no5YUqo3;
@@ -164,6 +184,10 @@ let
         "UEsPuTp6" = _UEsPuTp6;
         "E2NCLvvf" = _E2NCLvvf;
         "4i0V73Ly" = _4i0V73Ly;
+        "X5djMyUM" = _X5djMyUM;
+        "hSpuPWd7" = _hSpuPWd7;
+        "Ad0z7sER" = _Ad0z7sER;
+        "52P9bOeQ" = _52P9bOeQ;
         "forge-1.20.1" = _vSTjbhNv;
         "forge-1.20.2" = _i5s0dM8C;
         "forge-1.20.4" = _shThiQju;
@@ -174,6 +198,7 @@ let
         "forge-1.21.10" = _eZn4Fo79;
         "forge-1.21.11" = _J3lwLCvk;
         "forge-26.1.2" = _4i0V73Ly;
+        "forge-26.3" = _Ad0z7sER;
         "fabric-1.20.1" = _no5YUqo3;
         "fabric-1.20.2" = _zswkh56d;
         "fabric-1.20.4" = _DxRjXDaK;
@@ -183,6 +208,8 @@ let
         "fabric-1.21.8" = _Pn8HqK1c;
         "fabric-1.21.10" = _bOmaNarU;
         "fabric-1.21.11" = _m4NNHV4v;
+        "fabric-26.1.2" = _X5djMyUM;
+        "fabric-26.3" = _52P9bOeQ;
         "neoforge-1.20.4" = _H6OwV1nD;
         "neoforge-1.21" = _TqyUOB44;
         "neoforge-1.21.1" = _wqNGGheh;
@@ -190,6 +217,7 @@ let
         "neoforge-1.21.10" = _qsQnq6gA;
         "neoforge-1.21.11" = _UEsPuTp6;
         "neoforge-26.1.2" = _E2NCLvvf;
+        "neoforge-26.3" = _hSpuPWd7;
         "pkg-3.2.1" = _vSTjbhNv;
         "pkg-1.6.4" = _no5YUqo3;
         "pkg-3.2.2" = _Kv0iZiLh;
@@ -211,8 +239,9 @@ let
         "pkg-1.21.10-1.7.2" = _bOmaNarU;
         "pkg-3.3.3" = _J3lwLCvk;
         "pkg-1.21.10-1.7.3" = _m4NNHV4v;
-        "pkg-3.4.0" = _4i0V73Ly;
-        "default" = _4i0V73Ly;
+        "pkg-3.4.0" = _X5djMyUM;
+        "pkg-3.4.1" = _52P9bOeQ;
+        "default" = _52P9bOeQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craft-the-totem-of-undying";

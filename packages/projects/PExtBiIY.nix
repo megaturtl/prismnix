@@ -71,6 +71,46 @@ let
             "file" = "lily_pads_expansion-1.0.1-fabric-26.1.2-26.3.jar";
             "hash" = "sha512-9e5ZdKi4sr80PFlS35zr23esNxtU4lstCE+vwdNr7P+Or7zifg9OkyloDusj6kg3rThsxlDmXrws0qyZBSC2DA==";
         };
+        _3xzt322h = {
+            "id" = "3xzt322h";
+            "file" = "lily_pads_expansion-1.1.0-forge-1.20.1.jar";
+            "hash" = "sha512-+Vd6jYLLSMRTciXrfA8kuHl4kyy/T6CzabsEkbuXov0Ro5k/BMH6a45QnWtY6Sgiu+h8tBHHHzXhQoUNaNs42g==";
+        };
+        _wO2vEs3W = {
+            "id" = "wO2vEs3W";
+            "file" = "lily_pads_expansion-2.0.0-fabric-1.20-1.20.1.jar";
+            "hash" = "sha512-7PQTOysG1nZsv+vyHVLgjKMUfFqN01B/pHXE3H0BwhqzptOVGuS30YkJho4DFoDV7J+OZZ7nuicMGeETFqpgug==";
+        };
+        _Dc3ceNIQ = {
+            "id" = "Dc3ceNIQ";
+            "file" = "lily_pads_expansion-1.1.0-forge-1.21.1.jar";
+            "hash" = "sha512-dfaILMnBoobIjLJbfPn3LnpnZJEG3Fbz45tqXO6WPH6+5Yu6iVFNHaDimtguE/5yQcKoE6Frk+bBQCGWLaeHdQ==";
+        };
+        _wg9d06pn = {
+            "id" = "wg9d06pn";
+            "file" = "lily_pads_expansion-1.1.0-neoforge-1.21.1.jar";
+            "hash" = "sha512-IIGtRLYbTPdk2qILtfcQUMC1+OnwV/VOO5M404oLosGoQ2eMLxDFym1hAbWgB/cydDQ+A28DDGM+VJczrZnjog==";
+        };
+        _QM52Qef9 = {
+            "id" = "QM52Qef9";
+            "file" = "lily_pads_expansion-2.0.0-fabric-1.21.1.jar";
+            "hash" = "sha512-K4i4tYWmDQy5NRmh4xaXuthPloYeDjTdaTBLnsIn4Rgy/mcdOELI3XSHte6Jmfsr1q6i/nEZwp92bdTT/bXYRA==";
+        };
+        _l54vjg5R = {
+            "id" = "l54vjg5R";
+            "file" = "lily_pads_expansion-2.0.0-forge-26.3.jar";
+            "hash" = "sha512-hAUIeG7u7S9V/ABF5BP0tJQLLD4M/672ByEg390KXvVM+g4SgA5FPPI5Ti5rzzwbwPz8kgZAmnxZtl0wYD/aBA==";
+        };
+        _sSrdRaSz = {
+            "id" = "sSrdRaSz";
+            "file" = "lily_pads_expansion-2.0.0-neoforge-26.3.jar";
+            "hash" = "sha512-IUBh/4nxUcwutiWU4LBEemR+30+07uClxPMTu3x5yX7l5FvQTtCn/KDGAFf4G4zPo90ftdU+rrAwI3BLib2sXw==";
+        };
+        _oeXHjsgR = {
+            "id" = "oeXHjsgR";
+            "file" = "lily_pads_expansion-2.0.0-fabric-26.3.jar";
+            "hash" = "sha512-6jFQFX9OR3gh9HEDEZPIN9d6OUUWuKd2TQJg+9SuQyW4yx8EfrGRvuCD5azTtwXPL92jyhXRAcmGCkKHDZHpoA==";
+        };
     in {
         "Fpqi3uGL" = _Fpqi3uGL;
         "vi1XHHdd" = _vi1XHHdd;
@@ -86,29 +126,43 @@ let
         "zEfLD7uy" = _zEfLD7uy;
         "ArE7K5dg" = _ArE7K5dg;
         "muZj1XTz" = _muZj1XTz;
-        "fabric-1.20.1" = _Fpqi3uGL;
+        "3xzt322h" = _3xzt322h;
+        "wO2vEs3W" = _wO2vEs3W;
+        "Dc3ceNIQ" = _Dc3ceNIQ;
+        "wg9d06pn" = _wg9d06pn;
+        "QM52Qef9" = _QM52Qef9;
+        "l54vjg5R" = _l54vjg5R;
+        "sSrdRaSz" = _sSrdRaSz;
+        "oeXHjsgR" = _oeXHjsgR;
+        "fabric-1.20.1" = _wO2vEs3W;
         "fabric-1.21.10" = _vi1XHHdd;
         "fabric-1.21.11" = _b94ofEfO;
         "fabric-1.21" = _IvDFFad1;
-        "fabric-1.21.1" = _IvDFFad1;
+        "fabric-1.21.1" = _QM52Qef9;
         "fabric-26.1.2" = _muZj1XTz;
         "fabric-26.2" = _muZj1XTz;
-        "forge-1.20.1" = _7YUxeRKD;
+        "fabric-1.20" = _wO2vEs3W;
+        "fabric-26.3" = _oeXHjsgR;
+        "forge-1.20.1" = _3xzt322h;
         "forge-1.21.10" = _Te0Gprkz;
         "forge-1.21" = _Ycjx1jjS;
-        "forge-1.21.1" = _Ycjx1jjS;
+        "forge-1.21.1" = _Dc3ceNIQ;
         "forge-1.21.11" = _bAFih2mt;
         "forge-26.1.2" = _zEfLD7uy;
         "forge-26.2" = _zEfLD7uy;
+        "forge-26.3" = _l54vjg5R;
         "neoforge-1.21" = _Bz10wtbM;
-        "neoforge-1.21.1" = _Bz10wtbM;
+        "neoforge-1.21.1" = _wg9d06pn;
         "neoforge-1.21.10" = _m9w8kUzh;
         "neoforge-1.21.11" = _SXQ4OE0w;
         "neoforge-26.1.2" = _ArE7K5dg;
         "neoforge-26.2" = _ArE7K5dg;
+        "neoforge-26.3" = _sSrdRaSz;
         "pkg-1.0.0" = _zEfLD7uy;
         "pkg-1.0.1" = _muZj1XTz;
-        "default" = _muZj1XTz;
+        "pkg-1.1.0" = _wg9d06pn;
+        "pkg-2.0.0" = _oeXHjsgR;
+        "default" = _oeXHjsgR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lily-pads-expansion";

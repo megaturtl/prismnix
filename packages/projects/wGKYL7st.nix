@@ -626,6 +626,16 @@ let
             "file" = "combat_roll-fabric-3.0.1+26.2.jar";
             "hash" = "sha512-VjYWWYYopHzSztxrJv/MN8S71f/AaMPmIoHcDM10CWfYabwOIBS2u3FN+FEu9mWxLdeL/CF30sk60HHjVWG/OA==";
         };
+        _oWAfRuBp = {
+            "id" = "oWAfRuBp";
+            "file" = "combat_roll-neoforge-3.0.1+26.3.jar";
+            "hash" = "sha512-jcJXytBBB3z+u8xKP09mMlErK7vvSewK0ZKumZblzd+/DABO7rUgJOwtEmeyQshqC3fmkbRtiiQ0UjP4TVz98g==";
+        };
+        _OuZGcMyV = {
+            "id" = "OuZGcMyV";
+            "file" = "combat_roll-fabric-3.0.1+26.3.jar";
+            "hash" = "sha512-NnQcBzulHG4qcPkaYF7vhvyAA3QgRvPcqWbzIn/woVf3fywwWmb3Mxtv+Rd5h0aDrzMWPhGdnQKoX64JOq0vdg==";
+        };
     in {
         "qjPNxjeI" = _qjPNxjeI;
         "QY3g1MPa" = _QY3g1MPa;
@@ -752,6 +762,8 @@ let
         "wsu6nIrp" = _wsu6nIrp;
         "ICGdrcOg" = _ICGdrcOg;
         "kI7j1OlP" = _kI7j1OlP;
+        "oWAfRuBp" = _oWAfRuBp;
+        "OuZGcMyV" = _OuZGcMyV;
         "fabric-1.18.2" = _NP7Nwrwq;
         "fabric-1.19" = _gLzlXMlf;
         "fabric-1.19.1" = _gLzlXMlf;
@@ -774,6 +786,7 @@ let
         "fabric-26.1.1" = _FLQRcSui;
         "fabric-26.1.2" = _FLQRcSui;
         "fabric-26.2" = _kI7j1OlP;
+        "fabric-26.3" = _OuZGcMyV;
         "forge-1.18.2" = _QiWlD1U9;
         "forge-1.19" = _vdae5kTA;
         "forge-1.19.1" = _vdae5kTA;
@@ -796,6 +809,7 @@ let
         "neoforge-26.1.1" = _st64SArf;
         "neoforge-26.1.2" = _st64SArf;
         "neoforge-26.2" = _ICGdrcOg;
+        "neoforge-26.3" = _oWAfRuBp;
         "pkg-1.0.0+1.18.2-fabric" = _qjPNxjeI;
         "pkg-1.0.0+1.18.2-forge" = _QY3g1MPa;
         "pkg-1.0.0+1.19-fabric" = _6Y4CdZNa;
@@ -921,7 +935,9 @@ let
         "pkg-3.0.1+1.21.11-fabric" = _wsu6nIrp;
         "pkg-3.0.1+26.2-neoforge" = _ICGdrcOg;
         "pkg-3.0.1+26.2-fabric" = _kI7j1OlP;
-        "default" = _kI7j1OlP;
+        "pkg-3.0.1+26.3-neoforge" = _oWAfRuBp;
+        "pkg-3.0.1+26.3-fabric" = _OuZGcMyV;
+        "default" = _OuZGcMyV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "combat-roll";

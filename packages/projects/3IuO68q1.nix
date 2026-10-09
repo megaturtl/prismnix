@@ -411,6 +411,16 @@ let
             "file" = "puzzle-neoforge-2.3.1.1+26.2.jar";
             "hash" = "sha512-87A7RGAbnL2/LFuOxKsXMOWPsLAncUJ1m403x1/NfMYBIDzi9QQnILfWPAhj0km5Pb1VIunc6XDEmzBCxSOGYg==";
         };
+        _zLgrUpvu = {
+            "id" = "zLgrUpvu";
+            "file" = "puzzle-fabric-2.3.1+26.3.jar";
+            "hash" = "sha512-Z37oc262oA4+isK05g5XcdPGyj5E9zsJm3jP7yK1/8O4Ue+TH5AtimaGSMtiYe4cUx2KYH4mA+gSMMPhMtw/uA==";
+        };
+        _kiF75M5t = {
+            "id" = "kiF75M5t";
+            "file" = "puzzle-neoforge-2.3.1+26.3.jar";
+            "hash" = "sha512-CQZ+jfdUGUGSsG8lko7HOuQzsg76moDOiHTpxE8R1m1RobpSPtPFMx6NCZaAa7OWL8//dtSjY/FrcOBMcnLcuA==";
+        };
     in {
         "EvContoS" = _EvContoS;
         "TaUhktcF" = _TaUhktcF;
@@ -494,6 +504,8 @@ let
         "O8oBjnDH" = _O8oBjnDH;
         "chCN1n3A" = _chCN1n3A;
         "563lcr7M" = _563lcr7M;
+        "zLgrUpvu" = _zLgrUpvu;
+        "kiF75M5t" = _kiF75M5t;
         "fabric-1.18.1" = _EZrDjvh2;
         "fabric-1.18" = _EZrDjvh2;
         "fabric-1.18.2" = _EZrDjvh2;
@@ -524,6 +536,7 @@ let
         "fabric-26.1.1" = _M6In6JRO;
         "fabric-26.1.2" = _M6In6JRO;
         "fabric-26.2" = _O8oBjnDH;
+        "fabric-26.3" = _zLgrUpvu;
         "quilt-1.18" = _EZrDjvh2;
         "quilt-1.18.1" = _EZrDjvh2;
         "quilt-1.18.2" = _EZrDjvh2;
@@ -554,6 +567,7 @@ let
         "quilt-26.1.1" = _M6In6JRO;
         "quilt-26.1.2" = _M6In6JRO;
         "quilt-26.2" = _O8oBjnDH;
+        "quilt-26.3" = _zLgrUpvu;
         "neoforge-1.21" = _bZNDTLHq;
         "neoforge-1.21.1" = _bZNDTLHq;
         "neoforge-1.21.2" = _tpQQi2ar;
@@ -570,6 +584,7 @@ let
         "neoforge-26.1.1" = _kQbKxLmz;
         "neoforge-26.1.2" = _kQbKxLmz;
         "neoforge-26.2" = _563lcr7M;
+        "neoforge-26.3" = _kiF75M5t;
         "pkg-1.0.0-pre4" = _EvContoS;
         "pkg-1.0.0" = _TaUhktcF;
         "pkg-1.1.0" = _lJOX0zu5;
@@ -652,7 +667,9 @@ let
         "pkg-2.3.1+26.2-fabric" = _O8oBjnDH;
         "pkg-2.3.1+26.2-neoforge" = _chCN1n3A;
         "pkg-2.3.1.1+26.2-neoforge" = _563lcr7M;
-        "default" = _563lcr7M;
+        "pkg-2.3.1+26.3-fabric" = _zLgrUpvu;
+        "pkg-2.3.1+26.3-neoforge" = _kiF75M5t;
+        "default" = _kiF75M5t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "puzzle";

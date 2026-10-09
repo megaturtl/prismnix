@@ -41,6 +41,16 @@ let
             "file" = "ks-shields-26.2.jar";
             "hash" = "sha512-0p+H+2+iUDcizrOPi2ZmaZGe+ArHRVrEFQYWmalSaZCMkcKukCFrtsYINZUxOcBSFg+EB7uTVxJCm6Zhp+JqaA==";
         };
+        _KoQhJ49z = {
+            "id" = "KoQhJ49z";
+            "file" = "ks_tiered_shields_26.3.zip";
+            "hash" = "sha512-JDiPvJN3uZBVnSeexKGHO9yelTx0plHZtsGvyY/TJetJy5CD3UPJw13HOAhTY/DN6OQMfDGteeAJbs2JgFDA1g==";
+        };
+        _N2OYaKps = {
+            "id" = "N2OYaKps";
+            "file" = "ks-shields-26.3.jar";
+            "hash" = "sha512-DWcHrfK35yFaVUDlafVwPHrquOKco0La8TjvKOhuVP3cmUF7jBsdYSs30hzPTPh2HFslML7xGR7wO91PcM3HGw==";
+        };
     in {
         "TZwjI4YR" = _TZwjI4YR;
         "NGknDLNi" = _NGknDLNi;
@@ -50,31 +60,38 @@ let
         "jolcJEfE" = _jolcJEfE;
         "ZWN7WMa4" = _ZWN7WMa4;
         "Q709zhlT" = _Q709zhlT;
+        "KoQhJ49z" = _KoQhJ49z;
+        "N2OYaKps" = _N2OYaKps;
         "datapack-1.21.11" = _TZwjI4YR;
         "datapack-26.1" = _JNbp3rJl;
         "datapack-26.1.1" = _JNbp3rJl;
         "datapack-26.1.2" = _JNbp3rJl;
         "datapack-26.2" = _ZWN7WMa4;
+        "datapack-26.3" = _KoQhJ49z;
         "fabric-1.21.11" = _NGknDLNi;
         "fabric-26.1" = _jolcJEfE;
         "fabric-26.1.1" = _jolcJEfE;
         "fabric-26.1.2" = _jolcJEfE;
         "fabric-26.2" = _Q709zhlT;
+        "fabric-26.3" = _N2OYaKps;
         "forge-1.21.11" = _NGknDLNi;
         "forge-26.1" = _jolcJEfE;
         "forge-26.1.1" = _jolcJEfE;
         "forge-26.1.2" = _jolcJEfE;
         "forge-26.2" = _Q709zhlT;
+        "forge-26.3" = _N2OYaKps;
         "neoforge-1.21.11" = _NGknDLNi;
         "neoforge-26.1" = _Nm2ujc7V;
         "neoforge-26.1.1" = _Nm2ujc7V;
         "neoforge-26.1.2" = _Nm2ujc7V;
         "neoforge-26.2" = _Q709zhlT;
+        "neoforge-26.3" = _N2OYaKps;
         "quilt-1.21.11" = _NGknDLNi;
         "quilt-26.1" = _jolcJEfE;
         "quilt-26.1.1" = _jolcJEfE;
         "quilt-26.1.2" = _jolcJEfE;
         "quilt-26.2" = _Q709zhlT;
+        "quilt-26.3" = _N2OYaKps;
         "pkg-1.21.11" = _TZwjI4YR;
         "pkg-1.21.11+mod" = _NGknDLNi;
         "pkg-26.1" = _5UzWw7Rb;
@@ -83,7 +100,9 @@ let
         "pkg-26.1.x-1+mod" = _jolcJEfE;
         "pkg-26.2" = _ZWN7WMa4;
         "pkg-26.2+mod" = _Q709zhlT;
-        "default" = _Q709zhlT;
+        "pkg-26.3" = _KoQhJ49z;
+        "pkg-26.3+mod" = _N2OYaKps;
+        "default" = _N2OYaKps;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ks-shields";

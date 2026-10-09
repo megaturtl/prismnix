@@ -96,6 +96,21 @@ let
             "file" = "ducky-updater-rework-2026.7.1.jar";
             "hash" = "sha512-JsCwJ4Zkq/b9JAv1vEk4U/k8/m6e2X7pcu0dOcWvUhmJr6vLoL2xaNd5JlY0U9I18AVv/fE7FERzgasuv2Dasw==";
         };
+        _Oh33KT5G = {
+            "id" = "Oh33KT5G";
+            "file" = "ducky-updater-rework-2026.9.1.jar";
+            "hash" = "sha512-fpu2aoVU2S+0zp9+7RaM/OHVYemS8wMCWnm5TBcgZ54ZNLoTl/+vM9omzqbijcuVB1IcGtT7ceH05ZxQb8TWGg==";
+        };
+        _Lz3DmRtV = {
+            "id" = "Lz3DmRtV";
+            "file" = "ducky-updater-rework-2026.9.2.jar";
+            "hash" = "sha512-RBzPYi6rd0/WbNcPCR2upm0ICzHchIT+froZaPkmikT3PBdAvCKKnXdAwjSupzSPqe/COh5jRPMhvR02ovEB7g==";
+        };
+        _2KlZUQYP = {
+            "id" = "2KlZUQYP";
+            "file" = "ducky-updater-rework-2026.9.3.jar";
+            "hash" = "sha512-x2SxkClDeUVQOFRco/7P4klmPXq/sf33dQ4I9JV8Dr3KKjtclEdnTSS/elzpeS+Cns2xmlqqyta3//dZ8L7f9Q==";
+        };
     in {
         "j2kEiaTl" = _j2kEiaTl;
         "kJITIyIU" = _kJITIyIU;
@@ -116,6 +131,9 @@ let
         "M6BEu4eC" = _M6BEu4eC;
         "oID0VdpF" = _oID0VdpF;
         "PJmsFVlX" = _PJmsFVlX;
+        "Oh33KT5G" = _Oh33KT5G;
+        "Lz3DmRtV" = _Lz3DmRtV;
+        "2KlZUQYP" = _2KlZUQYP;
         "fabric-1.19.4" = _j2kEiaTl;
         "fabric-1.19.2" = _kJITIyIU;
         "fabric-1.20" = _YopR8Vx7;
@@ -141,6 +159,7 @@ let
         "fabric-26.1.1" = _M6BEu4eC;
         "fabric-26.1.2" = _M6BEu4eC;
         "fabric-26.2" = _PJmsFVlX;
+        "fabric-26.3" = _2KlZUQYP;
         "pkg-2023.5.1" = _kJITIyIU;
         "pkg-2023.6.1" = _zG4LsIIt;
         "pkg-2024.5.1" = _vurioHty;
@@ -158,7 +177,10 @@ let
         "pkg-2026.4.1" = _M6BEu4eC;
         "pkg-2026.6.1" = _oID0VdpF;
         "pkg-2026.7.1" = _PJmsFVlX;
-        "default" = _PJmsFVlX;
+        "pkg-2026.9.1" = _Oh33KT5G;
+        "pkg-2026.9.2" = _Lz3DmRtV;
+        "pkg-2026.9.3" = _2KlZUQYP;
+        "default" = _2KlZUQYP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ducky-updater-rework";

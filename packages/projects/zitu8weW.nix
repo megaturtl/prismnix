@@ -176,6 +176,21 @@ let
             "file" = "mavm-2.1.0+26.3-fabric.jar";
             "hash" = "sha512-qL1J5FheCQlocQly7gXWZNeGX2ncSLQGToGQp5FwjTewx8H4F0UQvDzRLSKAEPFbyhWCzxi94GZkB6RJuyFhjQ==";
         };
+        _69rYslcN = {
+            "id" = "69rYslcN";
+            "file" = "mavm-2.1.2+26.1-fabric.jar";
+            "hash" = "sha512-GAZLYXrqXIE0PRMuQRsrUdE8sA7VmWbDeJg5Z3kw2FwupfpU8IZYvBUz6MiR/LZosqlUV4LeZZf9Zyfj1MW2LA==";
+        };
+        _xEOYt4fj = {
+            "id" = "xEOYt4fj";
+            "file" = "mavm-2.1.2+26.2-fabric.jar";
+            "hash" = "sha512-qtOpTFEsQKkhJClZp7S1yS1Y6HtW1HFGhLWdmo8A7Gt3WtnON8dS0B8VEaG5yCa+RUDAIwQY+vvmYt9cTFchRA==";
+        };
+        _G7aZ6GhP = {
+            "id" = "G7aZ6GhP";
+            "file" = "mavm-2.1.2+26.3-fabric.jar";
+            "hash" = "sha512-QcgbHWxdmAEE7Ci7+JwLZmTCxD0PSHP54wbT05bt2lNTRjyRpIKJ5hW6veeTrwrKbLmGsu+z24vRseNa/rFVkA==";
+        };
     in {
         "bnzQkwEW" = _bnzQkwEW;
         "ZE4AAiLW" = _ZE4AAiLW;
@@ -212,6 +227,9 @@ let
         "BFxg0i1k" = _BFxg0i1k;
         "pdNnjzDf" = _pdNnjzDf;
         "7hLh7RHx" = _7hLh7RHx;
+        "69rYslcN" = _69rYslcN;
+        "xEOYt4fj" = _xEOYt4fj;
+        "G7aZ6GhP" = _G7aZ6GhP;
         "fabric-1.17.1" = _bnzQkwEW;
         "fabric-1.18-pre2" = _bnzQkwEW;
         "fabric-1.18.1" = _SgwXrT4U;
@@ -238,10 +256,11 @@ let
         "fabric-1.21.10" = _Mw0OL5io;
         "fabric-26.1" = _GTvesAAZ;
         "fabric-26.1.1" = _GTvesAAZ;
-        "fabric-26.1.2" = _GTvesAAZ;
+        "fabric-26.1.2" = _69rYslcN;
         "fabric-26.2-rc-2" = _OU2S9yz0;
-        "fabric-26.2" = _BFxg0i1k;
+        "fabric-26.2" = _xEOYt4fj;
         "fabric-26.3-pre-2" = _7hLh7RHx;
+        "fabric-26.3" = _G7aZ6GhP;
         "forge-1.17.1" = _ZE4AAiLW;
         "forge-1.18.1" = _TxAl7hO0;
         "forge-1.18.2" = _V0DyIuBa;
@@ -309,7 +328,10 @@ let
         "pkg-2.1.1+26.2-fabric" = _BFxg0i1k;
         "pkg-2.1.1+26.2-neoforge" = _pdNnjzDf;
         "pkg-2.1.0+26.3-fabric" = _7hLh7RHx;
-        "default" = _7hLh7RHx;
+        "pkg-2.1.2+26.1-fabric" = _69rYslcN;
+        "pkg-2.1.2+26.2-fabric" = _xEOYt4fj;
+        "pkg-2.1.2+26.3-fabric" = _G7aZ6GhP;
+        "default" = _G7aZ6GhP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mavm";

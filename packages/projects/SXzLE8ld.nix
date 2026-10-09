@@ -151,6 +151,21 @@ let
             "file" = "wgiyv-neo-26.2-1.4.1.jar";
             "hash" = "sha512-C4WNKrAx6U8Z354H1hAIHby4zW06Rb6W1GoXYHVXp5XOgQk6gaiAU+XUM5VhR9u3yA+keOg09doxWy8Gr6o0gA==";
         };
+        _q8qa34Ti = {
+            "id" = "q8qa34Ti";
+            "file" = "WGIYV-26.3-1.4.1.jar";
+            "hash" = "sha512-m/GEyzTbD89/HGFzbdLG1gSo8+bMAG4C3iKg4a4Xjz5FOmbFDXg1yW0HnSgzmmIEYRMdgZ8U9AoEGcpRtEYr8w==";
+        };
+        _zUMMmpGE = {
+            "id" = "zUMMmpGE";
+            "file" = "WGIYV-26.3-1.4.1b.jar";
+            "hash" = "sha512-NVHVAyO3MRTcTh7AFkJJAbCxCKtaD1SnJaYrY5VQZ7ggr+yylonA6r3rpcY6hG8H4hgyks53UuXCh3coM+KE/Q==";
+        };
+        _fLEkmbxG = {
+            "id" = "fLEkmbxG";
+            "file" = "wgiyv-neo-26.2-1.4.1b.jar";
+            "hash" = "sha512-4/wmet3QYNQW7HjlHGQ6Hs8Gq1am/lAt51bjHs19OAxpG4krPrPVJKjoyB55JZZWT9nZpge169/oEXIBoB02qA==";
+        };
     in {
         "puK3LCws" = _puK3LCws;
         "qfQF4SWu" = _qfQF4SWu;
@@ -182,6 +197,9 @@ let
         "8Al4jzFY" = _8Al4jzFY;
         "XCaMTVP1" = _XCaMTVP1;
         "frVyOGBT" = _frVyOGBT;
+        "q8qa34Ti" = _q8qa34Ti;
+        "zUMMmpGE" = _zUMMmpGE;
+        "fLEkmbxG" = _fLEkmbxG;
         "forge-1.12" = _puK3LCws;
         "forge-1.12.1" = _puK3LCws;
         "forge-1.12.2" = _puK3LCws;
@@ -213,7 +231,8 @@ let
         "neoforge-1.21.11" = _rTPN1f8G;
         "neoforge-1.21.1" = _mkcaMe3f;
         "neoforge-26.1.2" = _8Al4jzFY;
-        "neoforge-26.2" = _frVyOGBT;
+        "neoforge-26.2" = _fLEkmbxG;
+        "neoforge-26.3" = _zUMMmpGE;
         "pkg-1.12.2-1.0.0" = _puK3LCws;
         "pkg-1.13.2-1.0.0" = _qfQF4SWu;
         "pkg-1.14.2-1.0.1" = _qDRIfXGD;
@@ -237,7 +256,10 @@ let
         "pkg-26.1.2-1.4.0" = _8Al4jzFY;
         "pkg-26.2-1.4.0" = _XCaMTVP1;
         "pkg-26.2-1.4.1" = _frVyOGBT;
-        "default" = _frVyOGBT;
+        "pkg-26.3-1.4.1" = _q8qa34Ti;
+        "pkg-26.3-1.4.1b" = _zUMMmpGE;
+        "pkg-26.2-1.4.1b" = _fLEkmbxG;
+        "default" = _fLEkmbxG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wgiyv";

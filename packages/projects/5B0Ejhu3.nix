@@ -106,6 +106,16 @@ let
             "file" = "squake-2.2.1.jar";
             "hash" = "sha512-GlMTQLmKfSeAS/wbUClScAmDJq3wF0hb/61aAotP+zTBsSS/oILPZik4018W1u1xDHzax3smQjhbPgZsqt/2mg==";
         };
+        _MkK0s311 = {
+            "id" = "MkK0s311";
+            "file" = "squake-2.3.1.jar";
+            "hash" = "sha512-qT5m7g4tvSgmr/SMDROKOYQT1diai+yyq/js358ybrs+kkNrv1x4qvDluA0H9UMCBlo30c3ps3FOZvKJ+vyTrA==";
+        };
+        _WqlVu00w = {
+            "id" = "WqlVu00w";
+            "file" = "squake-2.3.1.jar";
+            "hash" = "sha512-LE27l6ktTTgqjTFwFB59rn8xRPdoLD3++VGjnpOQfVog5L270kTEj8rQQTc7yNsSZyf7Gq0CC2w2iLR1HdibvQ==";
+        };
     in {
         "B6CbmUoP" = _B6CbmUoP;
         "d9YIFgCZ" = _d9YIFgCZ;
@@ -128,12 +138,14 @@ let
         "IAk2SjL2" = _IAk2SjL2;
         "MzrFGctF" = _MzrFGctF;
         "BCi4erqB" = _BCi4erqB;
+        "MkK0s311" = _MkK0s311;
+        "WqlVu00w" = _WqlVu00w;
         "fabric-1.20.1" = _kyXODKws;
         "fabric-1.20.2" = _FoowDnmd;
         "fabric-1.20.3" = _FoowDnmd;
         "fabric-1.20.4" = _FoowDnmd;
         "fabric-1.21" = _CCZ2QmZJ;
-        "fabric-1.21.1" = _CCZ2QmZJ;
+        "fabric-1.21.1" = _WqlVu00w;
         "fabric-1.21.2" = _np8qyqOa;
         "fabric-1.21.3" = _np8qyqOa;
         "fabric-1.21.4" = _r3fimPZK;
@@ -145,6 +157,7 @@ let
         "fabric-26.1" = _BCi4erqB;
         "fabric-26.1.1" = _BCi4erqB;
         "fabric-26.1.2" = _BCi4erqB;
+        "fabric-26.3" = _MkK0s311;
         "forge-1.20.1" = _B9oEVeCq;
         "neoforge-1.21.4" = _3XeaEasO;
         "neoforge-1.21.5" = _gb4WIUK9;
@@ -168,7 +181,8 @@ let
         "pkg-1.3.0F" = _gb4WIUK9;
         "pkg-2.2" = _IAk2SjL2;
         "pkg-2.2.1" = _BCi4erqB;
-        "default" = _BCi4erqB;
+        "pkg-2.3.1" = _WqlVu00w;
+        "default" = _WqlVu00w;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "squake-fabric-updated";

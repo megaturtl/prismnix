@@ -11,9 +11,21 @@ let
             "file" = "eternal-enchantment-v1.0.0.jar";
             "hash" = "sha512-RwTaLsN+uZ9BiGJ0vBUhwLWOGFMJ14msoTCIiXbrSxg/se1rquJ9SIELNlyPH3vb+YXWfsmSgV7KiGMmdAi+lg==";
         };
+        _CxO5FUlk = {
+            "id" = "CxO5FUlk";
+            "file" = "Eternal Enchantment v1.0.0 [26.3].zip";
+            "hash" = "sha512-wbU0l4zSz8Oqi5Aba0v6DeBZMgEsSxvLOkOvuvQ+B2g3thF4TIJmtvDiJlfmbXkhlToHVs8acjixT6PHdxMHxA==";
+        };
+        _nADvEC9y = {
+            "id" = "nADvEC9y";
+            "file" = "eternal-enchantment-1.0.0.jar";
+            "hash" = "sha512-wRLBbqcI11IqZxLL9Hy5DQ9jjxaTEnbbQ5L8Uy6BXHhZAu9BYLr/E0PlQJYIdBI1slzEDyMZf8YUs4vlbzjDsw==";
+        };
     in {
         "a1mDusyS" = _a1mDusyS;
         "lP6rD6V6" = _lP6rD6V6;
+        "CxO5FUlk" = _CxO5FUlk;
+        "nADvEC9y" = _nADvEC9y;
         "datapack-1.21" = _a1mDusyS;
         "datapack-1.21.1" = _a1mDusyS;
         "datapack-1.21.2" = _a1mDusyS;
@@ -30,6 +42,7 @@ let
         "datapack-26.1.1" = _a1mDusyS;
         "datapack-26.1.2" = _a1mDusyS;
         "datapack-26.2" = _a1mDusyS;
+        "datapack-26.3" = _CxO5FUlk;
         "fabric-1.21" = _lP6rD6V6;
         "fabric-1.21.1" = _lP6rD6V6;
         "fabric-1.21.2" = _lP6rD6V6;
@@ -46,6 +59,7 @@ let
         "fabric-26.1.1" = _lP6rD6V6;
         "fabric-26.1.2" = _lP6rD6V6;
         "fabric-26.2" = _lP6rD6V6;
+        "fabric-26.3" = _nADvEC9y;
         "forge-1.21" = _lP6rD6V6;
         "forge-1.21.1" = _lP6rD6V6;
         "forge-1.21.2" = _lP6rD6V6;
@@ -62,6 +76,7 @@ let
         "forge-26.1.1" = _lP6rD6V6;
         "forge-26.1.2" = _lP6rD6V6;
         "forge-26.2" = _lP6rD6V6;
+        "forge-26.3" = _nADvEC9y;
         "neoforge-1.21" = _lP6rD6V6;
         "neoforge-1.21.1" = _lP6rD6V6;
         "neoforge-1.21.2" = _lP6rD6V6;
@@ -78,6 +93,7 @@ let
         "neoforge-26.1.1" = _lP6rD6V6;
         "neoforge-26.1.2" = _lP6rD6V6;
         "neoforge-26.2" = _lP6rD6V6;
+        "neoforge-26.3" = _nADvEC9y;
         "quilt-1.21" = _lP6rD6V6;
         "quilt-1.21.1" = _lP6rD6V6;
         "quilt-1.21.2" = _lP6rD6V6;
@@ -94,9 +110,12 @@ let
         "quilt-26.1.1" = _lP6rD6V6;
         "quilt-26.1.2" = _lP6rD6V6;
         "quilt-26.2" = _lP6rD6V6;
+        "quilt-26.3" = _nADvEC9y;
         "pkg-v1.0.0" = _a1mDusyS;
         "pkg-v1.0.0+mod" = _lP6rD6V6;
-        "default" = _lP6rD6V6;
+        "pkg-1.0.0" = _CxO5FUlk;
+        "pkg-1.0.0+mod" = _nADvEC9y;
+        "default" = _nADvEC9y;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eternal-enchantment";

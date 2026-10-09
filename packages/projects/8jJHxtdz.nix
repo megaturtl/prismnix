@@ -181,6 +181,26 @@ let
             "file" = "caravans-neoforge-1.21.1-3.0.0.jar";
             "hash" = "sha512-HUZOAR2f8TLIDRuG2bUxZ0/AFuq8uoCdFMDA43sQOi/leovXKzGKY+CRaPMKswxUn++oivHZlvxVB1SPQ+nHow==";
         };
+        _Ku7JLXn7 = {
+            "id" = "Ku7JLXn7";
+            "file" = "caravans-fabric-1.20.1-3.0.1.jar";
+            "hash" = "sha512-b4fCWylEVQENNccD/LgFxTX/sIG/o1CY739Hv+dQlJRDlgNPl89ozXXLQd5I29jUaQ3HlHNAnVECQWzOhqL1tQ==";
+        };
+        _K9xeiz57 = {
+            "id" = "K9xeiz57";
+            "file" = "caravans-forge-1.20.1-3.0.1.jar";
+            "hash" = "sha512-dblKiziTcjJDDioonYaJrsm5egEywfztOg1JV4wV46ctL4SmpdNf3lepRJ1ks3HyBWGGaZqJldua4pqfYZbUoQ==";
+        };
+        _sNGp6Yvf = {
+            "id" = "sNGp6Yvf";
+            "file" = "caravans-fabric-1.21.1-3.0.1.jar";
+            "hash" = "sha512-vkYmLODXge1ygjK0ZXugJ7S0GW2Q4gFNfF5zczpZgqLqsfpR45F8tl7fbajt7qApuHgFseyfxG0vZae6SFL6DA==";
+        };
+        _jYXz3Oj1 = {
+            "id" = "jYXz3Oj1";
+            "file" = "caravans-neoforge-1.21.1-3.0.1.jar";
+            "hash" = "sha512-1elTQ/HzmIAoe18ID+khUzt3PZQnQ+hn4OB0kxROQ8Pgjqx167NpT8yJixsEatHqfVN/C3d08Q/zH9Wyh4Ynhg==";
+        };
     in {
         "ixYl1Ikw" = _ixYl1Ikw;
         "ChNlQHVL" = _ChNlQHVL;
@@ -218,18 +238,22 @@ let
         "LFeWNl9r" = _LFeWNl9r;
         "m3eXX5ZN" = _m3eXX5ZN;
         "c6I3PqFC" = _c6I3PqFC;
-        "fabric-1.20.1" = _tn8QuxlW;
-        "fabric-1.21.1" = _m3eXX5ZN;
+        "Ku7JLXn7" = _Ku7JLXn7;
+        "K9xeiz57" = _K9xeiz57;
+        "sNGp6Yvf" = _sNGp6Yvf;
+        "jYXz3Oj1" = _jYXz3Oj1;
+        "fabric-1.20.1" = _Ku7JLXn7;
+        "fabric-1.21.1" = _sNGp6Yvf;
         "fabric-26.1" = _fTcHoKbu;
         "fabric-26.1.1" = _fTcHoKbu;
         "fabric-26.1.2" = _fTcHoKbu;
-        "forge-1.20.1" = _OGXt6KKl;
-        "quilt-1.20.1" = _tn8QuxlW;
-        "quilt-1.21.1" = _m3eXX5ZN;
+        "forge-1.20.1" = _K9xeiz57;
+        "quilt-1.20.1" = _Ku7JLXn7;
+        "quilt-1.21.1" = _sNGp6Yvf;
         "quilt-26.1" = _fTcHoKbu;
         "quilt-26.1.1" = _fTcHoKbu;
         "quilt-26.1.2" = _fTcHoKbu;
-        "neoforge-1.21.1" = _c6I3PqFC;
+        "neoforge-1.21.1" = _jYXz3Oj1;
         "neoforge-26.1" = _LFeWNl9r;
         "neoforge-26.1.1" = _LFeWNl9r;
         "neoforge-26.1.2" = _LFeWNl9r;
@@ -249,7 +273,8 @@ let
         "pkg-1.5.0" = _xnQ1hFSZ;
         "pkg-1.5.1" = _Bqq1xiQe;
         "pkg-3.0.0" = _c6I3PqFC;
-        "default" = _c6I3PqFC;
+        "pkg-3.0.1" = _jYXz3Oj1;
+        "default" = _jYXz3Oj1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pillager-caravans";

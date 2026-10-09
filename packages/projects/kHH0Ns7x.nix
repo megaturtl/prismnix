@@ -76,6 +76,16 @@ let
             "file" = "ly-dynamite-v1.0.1.jar";
             "hash" = "sha512-nSDiqS0SjzDXdIJiQE16hY/aPvbbmLWlKbTmYIEwLTobqrXZ71uWh+FeJF4RFRotd9EIicBKE7jBOkQkChH/SQ==";
         };
+        _omcEZqkY = {
+            "id" = "omcEZqkY";
+            "file" = "Dynamite v1.0.0 [26.3].zip";
+            "hash" = "sha512-8tanGg3lVVFbw0zJpdNuaEiwP8V4ipEjdZTVRxmUFjmgr5x+wgM/mX4T2mMyu/MviSOsB46UpN2ZghfveYgelQ==";
+        };
+        _C7Wsn9nX = {
+            "id" = "C7Wsn9nX";
+            "file" = "ly-dynamite-1.0.0.jar";
+            "hash" = "sha512-MhwUp3+hCvAhKBr6pd8P08XdJvndlnDPa1k1PATW0JqjyO1HUpOMabwlypSbrbHhXlhRE4x6dFVE1+q3vqfaHQ==";
+        };
     in {
         "nx7h1U23" = _nx7h1U23;
         "8QxxOqRU" = _8QxxOqRU;
@@ -92,6 +102,8 @@ let
         "d49e75Fm" = _d49e75Fm;
         "QV4KgNox" = _QV4KgNox;
         "TuJwRrf4" = _TuJwRrf4;
+        "omcEZqkY" = _omcEZqkY;
+        "C7Wsn9nX" = _C7Wsn9nX;
         "datapack-1.21.5" = _QV4KgNox;
         "datapack-1.21.4" = _sqNhcutw;
         "datapack-1.21.2" = _6CWObm5I;
@@ -106,6 +118,7 @@ let
         "datapack-26.1.1" = _QV4KgNox;
         "datapack-26.1.2" = _QV4KgNox;
         "datapack-26.2" = _QV4KgNox;
+        "datapack-26.3" = _omcEZqkY;
         "fabric-1.21.5" = _TuJwRrf4;
         "fabric-1.21.4" = _YLwVAYKW;
         "fabric-1.21.2" = _JE5sk8SW;
@@ -120,6 +133,7 @@ let
         "fabric-26.1.1" = _TuJwRrf4;
         "fabric-26.1.2" = _TuJwRrf4;
         "fabric-26.2" = _TuJwRrf4;
+        "fabric-26.3" = _C7Wsn9nX;
         "forge-1.21.5" = _TuJwRrf4;
         "forge-1.21.4" = _YLwVAYKW;
         "forge-1.21.2" = _JE5sk8SW;
@@ -134,6 +148,7 @@ let
         "forge-26.1.1" = _TuJwRrf4;
         "forge-26.1.2" = _TuJwRrf4;
         "forge-26.2" = _TuJwRrf4;
+        "forge-26.3" = _C7Wsn9nX;
         "neoforge-1.21.5" = _TuJwRrf4;
         "neoforge-1.21.4" = _YLwVAYKW;
         "neoforge-1.21.2" = _JE5sk8SW;
@@ -148,6 +163,7 @@ let
         "neoforge-26.1.1" = _TuJwRrf4;
         "neoforge-26.1.2" = _TuJwRrf4;
         "neoforge-26.2" = _TuJwRrf4;
+        "neoforge-26.3" = _C7Wsn9nX;
         "quilt-1.21.5" = _TuJwRrf4;
         "quilt-1.21.4" = _YLwVAYKW;
         "quilt-1.21.2" = _JE5sk8SW;
@@ -162,6 +178,7 @@ let
         "quilt-26.1.1" = _TuJwRrf4;
         "quilt-26.1.2" = _TuJwRrf4;
         "quilt-26.2" = _TuJwRrf4;
+        "quilt-26.3" = _C7Wsn9nX;
         "pkg-v1.0.0" = _nx7h1U23;
         "pkg-v1.0.0+mod" = _8QxxOqRU;
         "pkg-v1.0.0-1.21.4" = _xNClNOJ8;
@@ -170,7 +187,9 @@ let
         "pkg-v1.0.0-1.21.2-3+mod" = _c6HbBYYt;
         "pkg-v1.0.1" = _QV4KgNox;
         "pkg-v1.0.1+mod" = _TuJwRrf4;
-        "default" = _TuJwRrf4;
+        "pkg-1.0.0" = _omcEZqkY;
+        "pkg-1.0.0+mod" = _C7Wsn9nX;
+        "default" = _C7Wsn9nX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ly-dynamite";

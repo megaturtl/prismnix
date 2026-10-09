@@ -151,6 +151,26 @@ let
             "file" = "ImmersiveThunder-Reforged-fabric-26.2-1.3.7.jar";
             "hash" = "sha512-IjMMilr+sPSEgKiT97RdjdKHIvnwS70kOSlsMoEfY/+OsNAXpm3TuNiLSYBZgZDSfQG5t33af11ObZ5pR3wi9w==";
         };
+        _fh4pMew2 = {
+            "id" = "fh4pMew2";
+            "file" = "ImmersiveThunder-Reforged-fabric-26.3-1.3.8.jar";
+            "hash" = "sha512-uS/wIFn0AwD+II95OWH2UWXCuyc2/0NBpfCB9DBoh3oWFr6+MRa7UAQNrMZqZlxaewXkbVLfZ4nPHJYd2lKxBA==";
+        };
+        _n60Bi1Sf = {
+            "id" = "n60Bi1Sf";
+            "file" = "ImmersiveThunder-Reforged-neoforge-26.3-1.3.8.jar";
+            "hash" = "sha512-3mcCeiaHbmkFq3iLv6ZlX4e4fnoCDMFQrw2Dm1SShhk64Ru8x3GUTZs2ql8Zo6FvIJUssfzd9fVEKUc6s9WvAg==";
+        };
+        _68udthUj = {
+            "id" = "68udthUj";
+            "file" = "ImmersiveThunder-Reforged-neoforge-26.2-1.3.8.jar";
+            "hash" = "sha512-efFKjnpBPGiBPswX0R2DlmVSp4NU6KtkIfeF5AyhmQIdCGdIoqUjAuOPkRzd9S5Jc0xg7HOsqIl3D87qVbCVOg==";
+        };
+        _nehMoMn1 = {
+            "id" = "nehMoMn1";
+            "file" = "ImmersiveThunder-Reforged-fabric-26.2-1.3.8.jar";
+            "hash" = "sha512-3tCsuQfOuDG5y8VVDYB2RbUS5dUhQNSNuXL2deIDo1+xoCrwwf0Zu018zHoyNzMTj1h0E4QbU+iAjIpdHMXoyg==";
+        };
     in {
         "w8Fik5nu" = _w8Fik5nu;
         "wqYbnbU9" = _wqYbnbU9;
@@ -182,6 +202,10 @@ let
         "74PHBfVu" = _74PHBfVu;
         "ssaFV2Fu" = _ssaFV2Fu;
         "rhnBONjc" = _rhnBONjc;
+        "fh4pMew2" = _fh4pMew2;
+        "n60Bi1Sf" = _n60Bi1Sf;
+        "68udthUj" = _68udthUj;
+        "nehMoMn1" = _nehMoMn1;
         "fabric-1.21" = _4mr8xyLB;
         "fabric-1.21.1" = _4mr8xyLB;
         "fabric-1.21.2" = _4mr8xyLB;
@@ -197,7 +221,8 @@ let
         "fabric-26.1" = _RF5QLFsy;
         "fabric-26.1.1" = _RF5QLFsy;
         "fabric-26.1.2" = _RF5QLFsy;
-        "fabric-26.2" = _rhnBONjc;
+        "fabric-26.2" = _nehMoMn1;
+        "fabric-26.3" = _fh4pMew2;
         "neoforge-1.21.7" = _2KlfGGBv;
         "neoforge-1.21.8" = _KLz8QMfX;
         "neoforge-1.21.9" = _maQuWPAR;
@@ -206,7 +231,8 @@ let
         "neoforge-26.1" = _Ihycdxdj;
         "neoforge-26.1.1" = _Ihycdxdj;
         "neoforge-26.1.2" = _Ihycdxdj;
-        "neoforge-26.2" = _ssaFV2Fu;
+        "neoforge-26.2" = _68udthUj;
+        "neoforge-26.3" = _n60Bi1Sf;
         "forge-1.21.7" = _JJeHcneS;
         "forge-1.21.8" = _gAgn4WGr;
         "forge-1.21.9" = _dfnZwIdd;
@@ -229,7 +255,9 @@ let
         "pkg-1.3.5+1.21.10" = _KqJ75Jkc;
         "pkg-1.3.5+1.21.11" = _74PHBfVu;
         "pkg-1.3.7+26.2" = _rhnBONjc;
-        "default" = _rhnBONjc;
+        "pkg-1.3.8+26.3" = _n60Bi1Sf;
+        "pkg-1.3.8+26.2" = _nehMoMn1;
+        "default" = _nehMoMn1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersivethunder-reforged";

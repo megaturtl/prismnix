@@ -1311,6 +1311,16 @@ let
             "file" = "GrowableOres_Extension-1.4.14-1.20.1-Fabric.jar";
             "hash" = "sha512-zGuyV5qKqw6CbOuHMhIwBnwIW1bLbTLJx0utJLxV+gqpW26wBH1MN7HiKtQwttCl6RU2OVtWo5byfP2nlf1QsA==";
         };
+        _QrMYEa4i = {
+            "id" = "QrMYEa4i";
+            "file" = "GrowableOres_Extension-1.3.11-26.3-NeoForge.jar";
+            "hash" = "sha512-9yU9RsjFGWEyARiw9aWLrMRTuXOwad2tVQsNczcaLpDOSZ9dzBO9MksX53CuvHdUGBln65Idn7brYdamTo1UgQ==";
+        };
+        _NXwLtW96 = {
+            "id" = "NXwLtW96";
+            "file" = "GrowableOres_Extension-1.3.11-26.3-Fabric.jar";
+            "hash" = "sha512-fLehoGpme0/pklfypW5t+Ot55CAh6ZkRdoqP7YwLjdDnrTSNO0Kwk0Svx1gsbx9qFsO5cO1N400Ge/obsoKx5w==";
+        };
     in {
         "fXlLxxi1" = _fXlLxxi1;
         "F6jNJ6iy" = _F6jNJ6iy;
@@ -1574,6 +1584,8 @@ let
         "z2GEVn7K" = _z2GEVn7K;
         "V3X4MNQi" = _V3X4MNQi;
         "MpDaLIph" = _MpDaLIph;
+        "QrMYEa4i" = _QrMYEa4i;
+        "NXwLtW96" = _NXwLtW96;
         "fabric-1.21" = _HYeBl6po;
         "fabric-1.21.1" = _Fedq4ZOy;
         "fabric-1.20.4" = _hyMBZ5HZ;
@@ -1600,6 +1612,7 @@ let
         "fabric-26.1.1" = _yplsdRSY;
         "fabric-26.1.2" = _yplsdRSY;
         "fabric-26.2" = _usaHblNb;
+        "fabric-26.3" = _NXwLtW96;
         "forge-1.21" = _zi4Z18Nl;
         "forge-1.21.1" = _z2GEVn7K;
         "forge-1.20.4" = _h7BNmv3T;
@@ -1639,6 +1652,7 @@ let
         "neoforge-26.1.1" = _grrmLcLD;
         "neoforge-26.1.2" = _grrmLcLD;
         "neoforge-26.2" = _Wo1g8I7U;
+        "neoforge-26.3" = _QrMYEa4i;
         "pkg-1.0.0-1.21-Fabric" = _gneBi6MJ;
         "pkg-1.0.0-1.21-Forge" = _F6jNJ6iy;
         "pkg-1.0.0-1.20.4-Forge" = _SJaRxKuA;
@@ -1900,7 +1914,9 @@ let
         "pkg-1.4.12-1.21.1-Forge" = _z2GEVn7K;
         "pkg-1.4.14-1.20.1-Forge" = _V3X4MNQi;
         "pkg-1.4.14-1.20.1-Fabric" = _MpDaLIph;
-        "default" = _MpDaLIph;
+        "pkg-1.3.11-26.3-NeoForge" = _QrMYEa4i;
+        "pkg-1.3.11-26.3-Fabric" = _NXwLtW96;
+        "default" = _NXwLtW96;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "growableores-extension";

@@ -101,6 +101,11 @@ let
             "file" = "stupid-express-0.7.1.jar";
             "hash" = "sha512-5j4FrM2Ye88zp53r5TiN7lzK9q4xmdw+N8aLONawl+N4X1VKb7Yd+H/EFm1dvhLPR4XW60hWWkxJD03+KsnDeg==";
         };
+        _kLGS7Mu0 = {
+            "id" = "kLGS7Mu0";
+            "file" = "stupid-express-2026.10.1-h1.4.jar";
+            "hash" = "sha512-iryU5cFTAgoXTOu1sp0FKAAXblA/zWwny6VfD44/X6/mOygzcH35vk6Qw3mwvKCY3dBLe8TYB0BCuInFw0qm9w==";
+        };
     in {
         "5AfmMW9i" = _5AfmMW9i;
         "Od2gad67" = _Od2gad67;
@@ -122,7 +127,8 @@ let
         "jd4Jm05P" = _jd4Jm05P;
         "oql1ySSL" = _oql1ySSL;
         "VGwdK2U5" = _VGwdK2U5;
-        "fabric-1.21.1" = _VGwdK2U5;
+        "kLGS7Mu0" = _kLGS7Mu0;
+        "fabric-1.21.1" = _kLGS7Mu0;
         "pkg-0.1.0" = _5AfmMW9i;
         "pkg-0.2.0" = _Od2gad67;
         "pkg-0.3.0" = _a6zaWUCK;
@@ -143,7 +149,8 @@ let
         "pkg-0.6.2" = _jd4Jm05P;
         "pkg-0.7.0" = _oql1ySSL;
         "pkg-0.7.1" = _VGwdK2U5;
-        "default" = _VGwdK2U5;
+        "pkg-2026.10.1-h1.4" = _kLGS7Mu0;
+        "default" = _kLGS7Mu0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "stupid-express";

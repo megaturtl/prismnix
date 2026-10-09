@@ -21,17 +21,24 @@ let
             "file" = "no_hurtcam-1.0.2.jar";
             "hash" = "sha512-YGgHdUpNzWv26bLpAP3h66GsVL+bZ9+OXaVZiKYipvUwy5wmhRhWgqQgIdL4ndJP7KJLJSbTFLTv0pQ8yVaHGw==";
         };
+        _ql3vzTMl = {
+            "id" = "ql3vzTMl";
+            "file" = "no_hurtcam-1.0.2.jar";
+            "hash" = "sha512-9GHO/r37HRuPtb3v6zJ+b6aIDKCQVaPrV9m3s+cK/CP5rIRUzQgyznEOcBkNaWMECFlccD8TwYdYLFrIvAGTQw==";
+        };
     in {
         "yYxcRU74" = _yYxcRU74;
         "MBLbJHRO" = _MBLbJHRO;
         "gwzj6h8u" = _gwzj6h8u;
         "l1mKPN7d" = _l1mKPN7d;
+        "ql3vzTMl" = _ql3vzTMl;
         "fabric-1.21.11" = _MBLbJHRO;
         "fabric-1.21.4" = _gwzj6h8u;
         "fabric-26.2" = _l1mKPN7d;
+        "fabric-26.3" = _ql3vzTMl;
         "pkg-1.0.0" = _yYxcRU74;
-        "pkg-1.0.2" = _l1mKPN7d;
-        "default" = _l1mKPN7d;
+        "pkg-1.0.2" = _ql3vzTMl;
+        "default" = _ql3vzTMl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "no_hurt_cam";

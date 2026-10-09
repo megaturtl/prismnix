@@ -61,6 +61,16 @@ let
             "file" = "autotoolswitch-1.0.3.jar";
             "hash" = "sha512-WikTN4C9omJCME0eHM0cPmswD9I/k1FwkyJjVRbJgSt3H+HbeN1374xE4iBapZ1TD9/euTneb8wIcRCh+gOHjA==";
         };
+        _3SkfXrLp = {
+            "id" = "3SkfXrLp";
+            "file" = "autotoolswitch-1.0.3.jar";
+            "hash" = "sha512-zHpJo7ItqoShKTUKsco1wcjFznvQqNGP/NGMba+j6LRn6GrzTo3a+9xpgXQi9rlA1EyqlyFRkoaszFumI0O9kw==";
+        };
+        _aepTwTXc = {
+            "id" = "aepTwTXc";
+            "file" = "autotoolswitch-1.0.3.jar";
+            "hash" = "sha512-qzP/zQJv0HbNFauPqhXEFhNZe7k/oIBvMt8yse+WPP7AXQVIE4lzJDRq+zwb9mMpogMmIExsVV7dKKJEMVeR5A==";
+        };
     in {
         "NHrqrhKn" = _NHrqrhKn;
         "9TLGH9E0" = _9TLGH9E0;
@@ -74,6 +84,8 @@ let
         "yRerRwzo" = _yRerRwzo;
         "nphuTnnh" = _nphuTnnh;
         "Xp73ugyj" = _Xp73ugyj;
+        "3SkfXrLp" = _3SkfXrLp;
+        "aepTwTXc" = _aepTwTXc;
         "neoforge-1.21.1" = _NHrqrhKn;
         "neoforge-1.21.10" = _WfhyvBLI;
         "neoforge-1.21.11" = _PuqaEjfw;
@@ -81,6 +93,7 @@ let
         "neoforge-26.1.1" = _yRerRwzo;
         "neoforge-26.1.2" = _yRerRwzo;
         "neoforge-26.2" = _Xp73ugyj;
+        "neoforge-26.3" = _3SkfXrLp;
         "fabric-1.21.1" = _9TLGH9E0;
         "fabric-1.21.10" = _g4feYXdS;
         "fabric-1.21.11" = _7c9LmBkY;
@@ -88,10 +101,11 @@ let
         "fabric-26.1.1" = _dtw7pN06;
         "fabric-26.1.2" = _dtw7pN06;
         "fabric-26.2" = _nphuTnnh;
+        "fabric-26.3" = _aepTwTXc;
         "pkg-1.0.0" = _9TLGH9E0;
         "pkg-1.0.1" = _dtw7pN06;
-        "pkg-1.0.3" = _Xp73ugyj;
-        "default" = _Xp73ugyj;
+        "pkg-1.0.3" = _aepTwTXc;
+        "default" = _aepTwTXc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autotoolswitch";

@@ -66,6 +66,66 @@ let
             "file" = "strayskins-1.21.1-fabric-1.1.1.jar";
             "hash" = "sha512-Qmp7qRSnbVdJ3TGTXSr39oL30I+v1DnYX8RRzybQX+tpsto/qIAj6Pmj5xbzyYhE3zEP8J9uxlMwuXWYu8LSpw==";
         };
+        _RbPlVaQ6 = {
+            "id" = "RbPlVaQ6";
+            "file" = "strayskins-26.2-fabric-1.1.2.jar";
+            "hash" = "sha512-Mculvx6EqLESPfDavSGgyIQFw3zWzAM4N2VG2uFMYaCCaX11y/sRI+sIzU4zBwaIm0C9flC2Rajqg2lIyP7Ztg==";
+        };
+        _9dOQPjMm = {
+            "id" = "9dOQPjMm";
+            "file" = "strayskins-1.21.11-fabric-1.1.2.jar";
+            "hash" = "sha512-JkOxcnb+dtRiInBpA0CkNyNOKZtwY0J3Ck6qLritMDZJ6gGCP2FxLPC00ZIWZC2JOx765m40LYJfZ07/73P6ZA==";
+        };
+        _MTXbxbCn = {
+            "id" = "MTXbxbCn";
+            "file" = "strayskins-26.3-fabric-1.1.2.jar";
+            "hash" = "sha512-WqfGiEH42lIenc6PRM0Sdn+Z+l6sjcnHC9vBniCwzt5MrdmQR3d8lE4YXc5oBwIhWr4PDZu2pWAKVIaoy0AgCQ==";
+        };
+        _IjVPIgoG = {
+            "id" = "IjVPIgoG";
+            "file" = "strayskins-1.21.11-fabric-1.2.0.jar";
+            "hash" = "sha512-Ft3gBMMlG8EjQzZAlzKOMMXrGdCBaT9iBYvqSVxT/Er5BjaAHToVMLZFBxnb5xD3X4MQWMhbjR4K8WOZvW+WHQ==";
+        };
+        _WktJe6zz = {
+            "id" = "WktJe6zz";
+            "file" = "strayskins-26.2-fabric-1.2.0.jar";
+            "hash" = "sha512-ANhzbHUjFyOZFDFooPEPa4OJbhckcdPXXk9mXQDAOyKSBh6D2rCplFLlowDJmxNr8J7zuHr1+/nkjiaGHMd2uw==";
+        };
+        _6hDOrfcH = {
+            "id" = "6hDOrfcH";
+            "file" = "strayskins-26.3-fabric-1.2.0.jar";
+            "hash" = "sha512-xsCmu2J+hmnWa0w7YVrBZFJAk8grPgvguwIu+jBN1aGMTU/9hSO4nQEVEo1+mEUyt0CqYj18bH4W32hR5X56yA==";
+        };
+        _29gd5sWa = {
+            "id" = "29gd5sWa";
+            "file" = "strayskins-1.21.1-fabric-1.2.0.jar";
+            "hash" = "sha512-K+1RRxuIckfHACTR8ccZPqwO7IGv8yJ2szNw1YAc2TqzlB7mHYfCkT4mDXQleQWIFiBtsbx1NopwS8oUnvYiMA==";
+        };
+        _ZR7oWhPd = {
+            "id" = "ZR7oWhPd";
+            "file" = "strayskins-1.20.1-fabric-1.2.1.jar";
+            "hash" = "sha512-daAa4HkZ3HcYyQaStqYH0+qfgXcFlYKlQ2eRYg+SNNLmZPcn2GjQvFwNA+cNGNK9PENiuDMWu7SEGnOucfZYOA==";
+        };
+        _cCqTEDDA = {
+            "id" = "cCqTEDDA";
+            "file" = "strayskins-1.21.1-fabric-1.2.1.jar";
+            "hash" = "sha512-5mjsADrKLaFzr/hsFdeX7DcCxZIbSsQPTdXlMT/VqGYUh4Jnzq8q2eJm3dOEoYIPl4IHgo7QU2KresH9ddZ61w==";
+        };
+        _TTUyfqnZ = {
+            "id" = "TTUyfqnZ";
+            "file" = "strayskins-1.21.11-fabric-1.2.1.jar";
+            "hash" = "sha512-Wkm2jI/ovdSlHewqPfRHrvfXMxsHHsRtZONNtik4r+zXSUxscypIOG9vDS1j3DZpjBplaqCeBzf2gEz+uuj4cQ==";
+        };
+        _J4iBKANJ = {
+            "id" = "J4iBKANJ";
+            "file" = "strayskins-26.2-fabric-1.2.1.jar";
+            "hash" = "sha512-8gprMiaB/Gh83W02FEFnowPOcoTt0frIltG0GAW/LLkl3h6SSBRbyoklVAvxdnnsNJq2pJ8iLS6JorZ30Dj+vA==";
+        };
+        _ls3Fulrf = {
+            "id" = "ls3Fulrf";
+            "file" = "strayskins-26.3-fabric-1.2.1.jar";
+            "hash" = "sha512-V0uIYl37aSFfHZqhmO+hOTYsyUJonFYjwFH4FyQ4iIJ64u4q4X95j91D1p82rX8PHBK7OuAgufca0l44ko+kQg==";
+        };
     in {
         "NHpLxyND" = _NHpLxyND;
         "DLXvLmJm" = _DLXvLmJm;
@@ -80,10 +140,23 @@ let
         "BjCttCPA" = _BjCttCPA;
         "v6PRBo1K" = _v6PRBo1K;
         "nCi1L363" = _nCi1L363;
-        "fabric-1.21.11" = _v6PRBo1K;
-        "fabric-1.21.1" = _nCi1L363;
-        "fabric-26.2" = _BjCttCPA;
-        "fabric-1.20.1" = _qWFbJf5u;
+        "RbPlVaQ6" = _RbPlVaQ6;
+        "9dOQPjMm" = _9dOQPjMm;
+        "MTXbxbCn" = _MTXbxbCn;
+        "IjVPIgoG" = _IjVPIgoG;
+        "WktJe6zz" = _WktJe6zz;
+        "6hDOrfcH" = _6hDOrfcH;
+        "29gd5sWa" = _29gd5sWa;
+        "ZR7oWhPd" = _ZR7oWhPd;
+        "cCqTEDDA" = _cCqTEDDA;
+        "TTUyfqnZ" = _TTUyfqnZ;
+        "J4iBKANJ" = _J4iBKANJ;
+        "ls3Fulrf" = _ls3Fulrf;
+        "fabric-1.21.11" = _TTUyfqnZ;
+        "fabric-1.21.1" = _cCqTEDDA;
+        "fabric-26.2" = _J4iBKANJ;
+        "fabric-1.20.1" = _ZR7oWhPd;
+        "fabric-26.3" = _ls3Fulrf;
         "pkg-1.21.11-fabric-1.0.5" = _NHpLxyND;
         "pkg-1.21.1-fabric-1.0.5" = _DLXvLmJm;
         "pkg-26.2-fabric-1.0.5" = _FUL1xHEa;
@@ -97,7 +170,19 @@ let
         "pkg-26.2-fabric-1.1.1" = _BjCttCPA;
         "pkg-1.21.11-fabric-1.1.1" = _v6PRBo1K;
         "pkg-1.21.1-fabric-1.1.1" = _nCi1L363;
-        "default" = _nCi1L363;
+        "pkg-26.2-fabric-1.1.2" = _RbPlVaQ6;
+        "pkg-1.21.11-fabric-1.1.2" = _9dOQPjMm;
+        "pkg-26.3-fabric-1.1.2" = _MTXbxbCn;
+        "pkg-1.21.11-fabric-1.2.0" = _IjVPIgoG;
+        "pkg-26.2-fabric-1.2.0" = _WktJe6zz;
+        "pkg-26.3-fabric-1.2.0" = _6hDOrfcH;
+        "pkg-1.21.1-fabric-1.2.0" = _29gd5sWa;
+        "pkg-1.20.1-fabric-1.2.1" = _ZR7oWhPd;
+        "pkg-1.21.1-fabric-1.2.1" = _cCqTEDDA;
+        "pkg-1.21.11-fabric-1.2.1" = _TTUyfqnZ;
+        "pkg-26.2-fabric-1.2.1" = _J4iBKANJ;
+        "pkg-26.3-fabric-1.2.1" = _ls3Fulrf;
+        "default" = _ls3Fulrf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "strayskins";

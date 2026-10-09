@@ -56,6 +56,21 @@ let
             "file" = "Colorful Outlines - 1.21.6 - 1.21.10.zip";
             "hash" = "sha512-or7IsTcr37CrcdMi6pPB4yhpXc5YrivOgsjG1sSQM6YOap84lSMnxnaSZ7EKDRI6RyZEwxWTDna7u772G7ml/w==";
         };
+        _3Qs1XdCW = {
+            "id" = "3Qs1XdCW";
+            "file" = "Colorful Outlines - 1.21.11.zip";
+            "hash" = "sha512-D1qqh+3GBEUxd56omad07zum1J2NkRf6fco9kidu798VakLp74jILd73tRsQnPvdUyC/AoleNdYNMgqTjcYytA==";
+        };
+        _NERafHiX = {
+            "id" = "NERafHiX";
+            "file" = "Colorful Outlines - 26.1 - 26.1.2.zip";
+            "hash" = "sha512-maYXoX2Po590Lobr9Vfzxi5JY5M3iwgOs6tr2o3Kp8EgK/ObFv9YL7KPQBbUHi9rGOquQfGiKGscu/OjBWp/kA==";
+        };
+        _1eTzxZ1t = {
+            "id" = "1eTzxZ1t";
+            "file" = "Colorful Outlines - 26.2.zip";
+            "hash" = "sha512-6r8Wwa76zq/7IJrPVCuKajk1dmnD+4U8Z0UkOuzjAAokEVaIHYCpo0zItoRqgqBvK2yDLsrdLznZqh5koGUp9w==";
+        };
     in {
         "kxvqnbJg" = _kxvqnbJg;
         "hAdeTInU" = _hAdeTInU;
@@ -68,6 +83,9 @@ let
         "3JmzPqEU" = _3JmzPqEU;
         "BY1y03ga" = _BY1y03ga;
         "kGxA4j5c" = _kGxA4j5c;
+        "3Qs1XdCW" = _3Qs1XdCW;
+        "NERafHiX" = _NERafHiX;
+        "1eTzxZ1t" = _1eTzxZ1t;
         "minecraft-1.17" = _kxvqnbJg;
         "minecraft-1.17.1" = _kxvqnbJg;
         "minecraft-1.18" = _hAdeTInU;
@@ -96,8 +114,13 @@ let
         "minecraft-1.21.8" = _kGxA4j5c;
         "minecraft-1.21.9" = _kGxA4j5c;
         "minecraft-1.21.10" = _kGxA4j5c;
-        "pkg-1.0" = _kGxA4j5c;
-        "default" = _kGxA4j5c;
+        "minecraft-1.21.11" = _3Qs1XdCW;
+        "minecraft-26.1" = _NERafHiX;
+        "minecraft-26.1.1" = _NERafHiX;
+        "minecraft-26.1.2" = _NERafHiX;
+        "minecraft-26.2" = _1eTzxZ1t;
+        "pkg-1.0" = _1eTzxZ1t;
+        "default" = _1eTzxZ1t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "colorful-outlines";

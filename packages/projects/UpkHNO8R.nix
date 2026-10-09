@@ -126,6 +126,46 @@ let
             "file" = "ScreenshotMessageEnhancer-2.4.0-1.8.9_forge.jar";
             "hash" = "sha512-wYOJb/EHQ/SbosZgf8vhaVJXkY4z5ZsD1qbI5n74RzwQwdBf35WTE2GF1erQftskHSsDlXSkTNynXY0lyzx42Q==";
         };
+        _cXhsVT5p = {
+            "id" = "cXhsVT5p";
+            "file" = "ScreenshotMessageEnhancer-2.5.0-1.8.9_forge.jar";
+            "hash" = "sha512-/hpk06urY2KpjODYyU1OKMRt1OSKBHvHnpp1lZB09e0H6QNU4uVv9KoTK4ZM5fV+nRkmznwYXKSuwR2apMwKZg==";
+        };
+        _aZQyTl3M = {
+            "id" = "aZQyTl3M";
+            "file" = "ScreenshotMessageEnhancer-2.5.0-1.8.9_ornithe.jar";
+            "hash" = "sha512-2ey98nZ4NN9LVY4tmW/29nxKO+0QrOexn/uDwylypuY4tosw/6fqrm4lWY+sF65klO9HantYFYTSHoD6mEyZfQ==";
+        };
+        _586ZiPMe = {
+            "id" = "586ZiPMe";
+            "file" = "ScreenshotMessageEnhancer-2.5.0-26.1+_fabric.jar";
+            "hash" = "sha512-V+GfjmsCGMVxBH6H+vedetDnBiHYYEV7YSMFYgu7HM6drm8i8qtxDws2zrkHL7tCGv41DEAUBplqEdcLXMx/PQ==";
+        };
+        _Ce1OlYX0 = {
+            "id" = "Ce1OlYX0";
+            "file" = "ScreenshotMessageEnhancer-2.5.0-26.2+_fabric.jar";
+            "hash" = "sha512-RhGzlN3tHvOuZirZy3zEXj9AurNwba/Q8Te2CU8956NScApEjiAZmgQygF7XMUj0/rqgfvQbWadp3XnFOzNb+w==";
+        };
+        _xa6f5Za0 = {
+            "id" = "xa6f5Za0";
+            "file" = "ScreenshotMessageEnhancer-2.5.1-1.8.9_forge.jar";
+            "hash" = "sha512-c84xQ4ShWoh7AQ+Kc/jhOb3+kWuTVDv51XtgPxsY/rSEfMKsBGzRLQvS4zZcSmGxuJRy/ZV2tTRubCNgO6ztdg==";
+        };
+        _SoJc2qUE = {
+            "id" = "SoJc2qUE";
+            "file" = "ScreenshotMessageEnhancer-2.5.1-1.8.9_ornithe.jar";
+            "hash" = "sha512-Bo+eK1p4ifeKH/L3hbGI1G/teggTbizh4VeabtJa/9iUOwrgfmUbv1/k0aTTr0yLPKzFY6c1SMf2+BgGEHih5Q==";
+        };
+        _DK6GPXI9 = {
+            "id" = "DK6GPXI9";
+            "file" = "ScreenshotMessageEnhancer-2.5.1-26.1+_fabric.jar";
+            "hash" = "sha512-1uOI8c4dwIJDG4qQqiOl8GYGRpXNSFwt4t4SsbSd/eIhFLWciJCF/BHMjEvVFLtTUxApAOIFoTWs1zHCBO6B6Q==";
+        };
+        _PgYkK8RG = {
+            "id" = "PgYkK8RG";
+            "file" = "ScreenshotMessageEnhancer-2.5.1-26.2+_fabric.jar";
+            "hash" = "sha512-ErNM/5sCYjq+ujiAY1DU9m7w6RL0h0oVYZtY7eIf5L/SNl9qyqwS6oSr1NriScEbj9VB9v+XloEP0kMimuAd8Q==";
+        };
     in {
         "ygxUVpNh" = _ygxUVpNh;
         "zTnqeOG3" = _zTnqeOG3;
@@ -152,16 +192,25 @@ let
         "dUX35qij" = _dUX35qij;
         "7HDTNIk3" = _7HDTNIk3;
         "u5H1kJU4" = _u5H1kJU4;
+        "cXhsVT5p" = _cXhsVT5p;
+        "aZQyTl3M" = _aZQyTl3M;
+        "586ZiPMe" = _586ZiPMe;
+        "Ce1OlYX0" = _Ce1OlYX0;
+        "xa6f5Za0" = _xa6f5Za0;
+        "SoJc2qUE" = _SoJc2qUE;
+        "DK6GPXI9" = _DK6GPXI9;
+        "PgYkK8RG" = _PgYkK8RG;
         "fabric-1.21.10" = _3mFZGeDV;
         "fabric-1.21.11" = _Hdt1KUXm;
-        "fabric-26.1" = _dUX35qij;
+        "fabric-26.1" = _DK6GPXI9;
         "fabric-1.21.9" = _3mFZGeDV;
-        "fabric-26.1.1" = _dUX35qij;
-        "fabric-26.1.2" = _dUX35qij;
-        "fabric-26.2" = _7HDTNIk3;
+        "fabric-26.1.1" = _DK6GPXI9;
+        "fabric-26.1.2" = _DK6GPXI9;
+        "fabric-26.2" = _PgYkK8RG;
         "fabric-1.21.1" = _FUCyh3LT;
-        "fabric-26.3" = _7HDTNIk3;
-        "forge-1.8.9" = _u5H1kJU4;
+        "fabric-26.3" = _PgYkK8RG;
+        "forge-1.8.9" = _xa6f5Za0;
+        "ornithe-1.8.9" = _SoJc2qUE;
         "pkg-1.0.0+1.21.10" = _ygxUVpNh;
         "pkg-1.0.0+1.21.11" = _zTnqeOG3;
         "pkg-1.0.0+26.1" = _PSXmSIAG;
@@ -187,7 +236,15 @@ let
         "pkg-2.4.0-26.1+_fabric" = _dUX35qij;
         "pkg-2.4.0-26.2+_fabric" = _7HDTNIk3;
         "pkg-2.4.0-1.8.9_forge" = _u5H1kJU4;
-        "default" = _u5H1kJU4;
+        "pkg-2.5.0-1.8.9_forge" = _cXhsVT5p;
+        "pkg-2.5.0-1.8.9_ornithe" = _aZQyTl3M;
+        "pkg-2.5.0-26.1+_fabric" = _586ZiPMe;
+        "pkg-2.5.0-26.2+_fabric" = _Ce1OlYX0;
+        "pkg-2.5.1-1.8.9_forge" = _xa6f5Za0;
+        "pkg-2.5.1-1.8.9_ornithe" = _SoJc2qUE;
+        "pkg-2.5.1-26.1+_fabric" = _DK6GPXI9;
+        "pkg-2.5.1-26.2+_fabric" = _PgYkK8RG;
+        "default" = _PgYkK8RG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "screenshotmessageenhancer";

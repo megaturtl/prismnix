@@ -201,6 +201,21 @@ let
             "file" = "custompaintings-fabric-4.0.1+26.2.jar";
             "hash" = "sha512-R8BSZEhL4s8Mua0r/haqQg9a3kq9IU/4hAz86DABkelZmrBWyUgn4zKyigJ3unbcuh0hF8+cIfwGYyQ4lcBgJw==";
         };
+        _JgZgJuyw = {
+            "id" = "JgZgJuyw";
+            "file" = "custompaintings-neoforge-4.0.2+26.3.jar";
+            "hash" = "sha512-GQ9pfcykbeIbezR/Mcf0foHl/0SgN0EtnYUq+S3LAHCOxtg4lGxEbjtTvJPopfQvGszuQ5/b54t3fimpSu0C9A==";
+        };
+        _ee4sLdhd = {
+            "id" = "ee4sLdhd";
+            "file" = "custompaintings-fabric-4.0.2+26.3.jar";
+            "hash" = "sha512-HAwYYNSDhCcqdKP1nlzFppDBbZ1zd9LDUdiRyIIsP7UwrmSxCDZ3fOKpPunGBi/eE6VBEsj7UU8QILVVDVoC1A==";
+        };
+        _yzmdNHLM = {
+            "id" = "yzmdNHLM";
+            "file" = "custompaintings-forge-4.0.2+26.3.jar";
+            "hash" = "sha512-/hPeN3P+dNGaqfAEFHYpf7aIhx+vyoC6YPpdaFK+PPzeT+MIE3ue54e1Ha2dmGZVh2LzTADDvSpt1O+Whw6H/A==";
+        };
     in {
         "xeCY42yj" = _xeCY42yj;
         "IgWxeV5H" = _IgWxeV5H;
@@ -242,6 +257,9 @@ let
         "E1vAS1Yc" = _E1vAS1Yc;
         "e217sS8y" = _e217sS8y;
         "48BC7CUV" = _48BC7CUV;
+        "JgZgJuyw" = _JgZgJuyw;
+        "ee4sLdhd" = _ee4sLdhd;
+        "yzmdNHLM" = _yzmdNHLM;
         "fabric-1.19" = _hutv5dcH;
         "fabric-1.19.1" = _hutv5dcH;
         "fabric-1.19.2" = _hutv5dcH;
@@ -270,6 +288,7 @@ let
         "fabric-26.1.1" = _bN86sb1g;
         "fabric-26.1.2" = _bN86sb1g;
         "fabric-26.2" = _48BC7CUV;
+        "fabric-26.3" = _ee4sLdhd;
         "quilt-1.19" = _hutv5dcH;
         "quilt-1.19.1" = _hutv5dcH;
         "quilt-1.19.2" = _hutv5dcH;
@@ -298,14 +317,17 @@ let
         "quilt-26.1.1" = _bN86sb1g;
         "quilt-26.1.2" = _bN86sb1g;
         "quilt-26.2" = _48BC7CUV;
+        "quilt-26.3" = _ee4sLdhd;
         "forge-26.1" = _vQIL1smh;
         "forge-26.1.1" = _vQIL1smh;
         "forge-26.1.2" = _vQIL1smh;
         "forge-26.2" = _E1vAS1Yc;
+        "forge-26.3" = _yzmdNHLM;
         "neoforge-26.1" = _Yvhw51G9;
         "neoforge-26.1.1" = _Yvhw51G9;
         "neoforge-26.1.2" = _Yvhw51G9;
         "neoforge-26.2" = _e217sS8y;
+        "neoforge-26.3" = _JgZgJuyw;
         "pkg-1.0.0+1.19" = _xeCY42yj;
         "pkg-2.0.0+1.19" = _IgWxeV5H;
         "pkg-2.0.1+1.19" = _hutv5dcH;
@@ -346,7 +368,10 @@ let
         "pkg-4.0.1+26.2-forge" = _E1vAS1Yc;
         "pkg-4.0.1+26.2-neoforge" = _e217sS8y;
         "pkg-4.0.1+26.2-fabric" = _48BC7CUV;
-        "default" = _48BC7CUV;
+        "pkg-4.0.2+26.3-neoforge" = _JgZgJuyw;
+        "pkg-4.0.2+26.3-fabric" = _ee4sLdhd;
+        "pkg-4.0.2+26.3-forge" = _yzmdNHLM;
+        "default" = _yzmdNHLM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-paintings-mod";

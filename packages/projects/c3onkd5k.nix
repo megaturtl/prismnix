@@ -1426,6 +1426,36 @@ let
             "file" = "AsyncParticles-26.3.2.0-alpha.2+26.3.jar";
             "hash" = "sha512-ApD1rl69fuJikFgnU91XStkauld4rMJFDSJmgp98IUc9HY6gs+KZFN6rxgAYbJmt2Qg5z7ZcXu6t7ghjyX0/wQ==";
         };
+        _iDHkUsnf = {
+            "id" = "iDHkUsnf";
+            "file" = "AsyncParticles-26.3.2.0-alpha.3+26.3.jar";
+            "hash" = "sha512-0tLp2RZWlz/CA/OXLekCu4LFqDTyse56o96hZnbzCb1ituxWQCgOd2kqurVvrUx2R2f+VsKObDigLP6/uSMpmA==";
+        };
+        _8S3JSSbl = {
+            "id" = "8S3JSSbl";
+            "file" = "AsyncParticles-21.1.4.5+1.21.1.jar";
+            "hash" = "sha512-nqsB3ztaJtQy1lnQhy+f1+N3/9Tf4937JWaymO08vjfbQcl2IdRZ2KIhNDbxUPA8E9SvJ+1DGVXr/8WsziJW1g==";
+        };
+        _c6URCSnu = {
+            "id" = "c6URCSnu";
+            "file" = "AsyncParticles-26.2.2.10+26.2.jar";
+            "hash" = "sha512-EZxVozO/mw7GaMYQMEE4Jlj5GghxhlHrWqx4EMQS/yf62rOuokMIvCoZDLrWnwd1MzrtYaWcfH0Bic7Z7e4Hkg==";
+        };
+        _j1Ad4S3b = {
+            "id" = "j1Ad4S3b";
+            "file" = "AsyncParticles-26.3.2.0+26.3.jar";
+            "hash" = "sha512-wuuSk37hH/LjqcatT+LmSztRPZx8JP3r13xISXIZyyZK8LP7145YCdiwVXmQvZkLo3m39I0eQQo0AMx6c2IXvA==";
+        };
+        _MduPAi1U = {
+            "id" = "MduPAi1U";
+            "file" = "AsyncParticles-20.1.4.0+1.20.1.jar";
+            "hash" = "sha512-OuNFePPijEemQneoiTGnPnEMfBcSdBzqp6G4AhVCJ2u6ysLDafE4VyuK9q8hmICWUddCg3TLMRchCCmh3JJcuA==";
+        };
+        _Nt25cwqo = {
+            "id" = "Nt25cwqo";
+            "file" = "AsyncParticles-21.1.4.6+1.21.1.jar";
+            "hash" = "sha512-WC/33+VzvMJRPKb7J0CZLLGnx4vrCVH3a5NOPmrZWqhsr7c5hQbrBqou6jvnfh2ateuPFdSySE6J1PpwMLZiQw==";
+        };
     in {
         "GzezCLf9" = _GzezCLf9;
         "HaBZAlE0" = _HaBZAlE0;
@@ -1712,9 +1742,15 @@ let
         "Hpz1ce2W" = _Hpz1ce2W;
         "KE9oULCD" = _KE9oULCD;
         "56Y3sdzw" = _56Y3sdzw;
-        "fabric-1.20.1" = _dKeyfEt6;
+        "iDHkUsnf" = _iDHkUsnf;
+        "8S3JSSbl" = _8S3JSSbl;
+        "c6URCSnu" = _c6URCSnu;
+        "j1Ad4S3b" = _j1Ad4S3b;
+        "MduPAi1U" = _MduPAi1U;
+        "Nt25cwqo" = _Nt25cwqo;
+        "fabric-1.20.1" = _MduPAi1U;
         "fabric-1.21" = _NhjwLSEy;
-        "fabric-1.21.1" = _KE9oULCD;
+        "fabric-1.21.1" = _Nt25cwqo;
         "fabric-1.21.4" = _l3lpwKZl;
         "fabric-1.21.5" = _6w5WtEx2;
         "fabric-1.21.6" = _hln1vTm4;
@@ -1726,13 +1762,13 @@ let
         "fabric-26.1" = _Vm2hdeqZ;
         "fabric-26.1.1" = _Vm2hdeqZ;
         "fabric-26.1.2" = _Vm2hdeqZ;
-        "fabric-26.2" = _HHsV3CjV;
+        "fabric-26.2" = _c6URCSnu;
         "fabric-26.3-snapshot-7" = _SnE4O1Sk;
         "fabric-26.3-rc-3" = _FmbchDVp;
-        "fabric-26.3" = _56Y3sdzw;
-        "forge-1.20.1" = _dKeyfEt6;
+        "fabric-26.3" = _j1Ad4S3b;
+        "forge-1.20.1" = _MduPAi1U;
         "neoforge-1.21" = _NhjwLSEy;
-        "neoforge-1.21.1" = _KE9oULCD;
+        "neoforge-1.21.1" = _Nt25cwqo;
         "neoforge-1.20.1" = _bw4JNVwQ;
         "neoforge-1.21.4" = _l3lpwKZl;
         "neoforge-1.21.5" = _6w5WtEx2;
@@ -1745,9 +1781,8 @@ let
         "neoforge-26.1" = _Vm2hdeqZ;
         "neoforge-26.1.1" = _Vm2hdeqZ;
         "neoforge-26.1.2" = _Vm2hdeqZ;
-        "neoforge-26.2" = _HHsV3CjV;
-        "neoforge-26.3-rc-3" = _FmbchDVp;
-        "neoforge-26.3" = _56Y3sdzw;
+        "neoforge-26.2" = _c6URCSnu;
+        "neoforge-26.3" = _j1Ad4S3b;
         "pkg-1.5.6+1.20.1" = _GzezCLf9;
         "pkg-1.6.2+1.20.1" = _HaBZAlE0;
         "pkg-1.7.0+1.20.1-beta.1" = _Yn192rt0;
@@ -2033,7 +2068,13 @@ let
         "pkg-26.3.2.0-alpha.1" = _Hpz1ce2W;
         "pkg-21.1.4.4" = _KE9oULCD;
         "pkg-26.3.2.0-alpha.2" = _56Y3sdzw;
-        "default" = _56Y3sdzw;
+        "pkg-26.3.2.0-alpha.3" = _iDHkUsnf;
+        "pkg-21.1.4.5" = _8S3JSSbl;
+        "pkg-26.2.2.10" = _c6URCSnu;
+        "pkg-26.3.2.0" = _j1Ad4S3b;
+        "pkg-20.1.4.0" = _MduPAi1U;
+        "pkg-21.1.4.6" = _Nt25cwqo;
+        "default" = _Nt25cwqo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "asyncparticles";

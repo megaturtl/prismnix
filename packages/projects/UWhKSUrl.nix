@@ -41,6 +41,16 @@ let
             "file" = "ks-elytra-trims-26.2.jar";
             "hash" = "sha512-v3lXZ/U2csVWJHKfHbLeN4yTSVn72wLHp1qEkXJ9fpaRCU5j6KGwZaAvyz7duR+V9/7zhK+bhkcLa6Zt8Sk3Tw==";
         };
+        _WFrLJgWn = {
+            "id" = "WFrLJgWn";
+            "file" = "elytra_trims_26.3.zip";
+            "hash" = "sha512-SE7fDGLrq6bgYr5g/tQV2v3mbIN/xT0Nmena38pml4MMJ/DHelgQOPYomdCpJeoXYETo1t0NBFrdMFB1GtI1cw==";
+        };
+        _2agP2pv1 = {
+            "id" = "2agP2pv1";
+            "file" = "ks-elytra-trims-26.3.jar";
+            "hash" = "sha512-6GyCEZJnkEiIWyuEpVhcd4/+Staz9D60A38tGiFXDsciaf98MxX887o832efdUpOiONhlGO5CvNisJe5nYSh1Q==";
+        };
     in {
         "E9ewJDdg" = _E9ewJDdg;
         "Ze2klVDx" = _Ze2klVDx;
@@ -50,31 +60,38 @@ let
         "kxsQ2NuI" = _kxsQ2NuI;
         "bYrydTHy" = _bYrydTHy;
         "7pRcFQ03" = _7pRcFQ03;
+        "WFrLJgWn" = _WFrLJgWn;
+        "2agP2pv1" = _2agP2pv1;
         "datapack-1.21.11" = _E9ewJDdg;
         "datapack-26.1" = _JsFySixr;
         "datapack-26.1.1" = _JsFySixr;
         "datapack-26.1.2" = _JsFySixr;
         "datapack-26.2" = _bYrydTHy;
+        "datapack-26.3" = _WFrLJgWn;
         "fabric-1.21.11" = _Ze2klVDx;
         "fabric-26.1" = _kxsQ2NuI;
         "fabric-26.1.1" = _kxsQ2NuI;
         "fabric-26.1.2" = _kxsQ2NuI;
         "fabric-26.2" = _7pRcFQ03;
+        "fabric-26.3" = _2agP2pv1;
         "forge-1.21.11" = _Ze2klVDx;
         "forge-26.1" = _kxsQ2NuI;
         "forge-26.1.1" = _kxsQ2NuI;
         "forge-26.1.2" = _kxsQ2NuI;
         "forge-26.2" = _7pRcFQ03;
+        "forge-26.3" = _2agP2pv1;
         "neoforge-1.21.11" = _Ze2klVDx;
         "neoforge-26.1" = _kxsQ2NuI;
         "neoforge-26.1.1" = _kxsQ2NuI;
         "neoforge-26.1.2" = _kxsQ2NuI;
         "neoforge-26.2" = _7pRcFQ03;
+        "neoforge-26.3" = _2agP2pv1;
         "quilt-1.21.11" = _Ze2klVDx;
         "quilt-26.1" = _kxsQ2NuI;
         "quilt-26.1.1" = _kxsQ2NuI;
         "quilt-26.1.2" = _kxsQ2NuI;
         "quilt-26.2" = _7pRcFQ03;
+        "quilt-26.3" = _2agP2pv1;
         "pkg-1.21.11" = _E9ewJDdg;
         "pkg-1.21.11+mod" = _Ze2klVDx;
         "pkg-26.1" = _OikXyySb;
@@ -83,7 +100,9 @@ let
         "pkg-26.1.x-1+mod" = _kxsQ2NuI;
         "pkg-26.2" = _bYrydTHy;
         "pkg-26.2+mod" = _7pRcFQ03;
-        "default" = _7pRcFQ03;
+        "pkg-26.3" = _WFrLJgWn;
+        "pkg-26.3+mod" = _2agP2pv1;
+        "default" = _2agP2pv1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ks-elytra-trims";

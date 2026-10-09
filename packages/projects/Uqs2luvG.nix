@@ -336,6 +336,16 @@ let
             "file" = "Saros-Player-Plushie-Lite-NeoForge-26.2-1.0.6.jar";
             "hash" = "sha512-J2RYaCuNnzKvDAjjZwUl8UdkKl10AH3qHzxUvcXZmJSEPJHbr0tY2kdGeLytXAqHk6isTQbq5C6LWnNdh7e3pw==";
         };
+        _v0S3djMM = {
+            "id" = "v0S3djMM";
+            "file" = "Saros-Player-Plushie-Lite-NeoForge-26.3-1.2.7.jar";
+            "hash" = "sha512-3Pr+hAIisEHolD1aywGGmRCHUnHssBgzwrIJJT7MD7JkFfhyptHeuKcTEINGM88QTseC2GXRZKPVwRsF60WqhA==";
+        };
+        _eIvxhNc3 = {
+            "id" = "eIvxhNc3";
+            "file" = "Saros-Player-Plushie-Lite-Forge-26.3-1.2.8.jar";
+            "hash" = "sha512-Kyr/xbeFSrgLMAvNRQ18/1ILkq+K/CSGtA5rPx170+7iFaPdPFDcMBwtYM7VFiBy9mBSpvMe2c7bvnGzJgv6cQ==";
+        };
     in {
         "glwcseiA" = _glwcseiA;
         "g7iBjLPY" = _g7iBjLPY;
@@ -404,6 +414,8 @@ let
         "djw8ZfBv" = _djw8ZfBv;
         "hy1o3oLA" = _hy1o3oLA;
         "hoYNLPGP" = _hoYNLPGP;
+        "v0S3djMM" = _v0S3djMM;
+        "eIvxhNc3" = _eIvxhNc3;
         "fabric-1.20.1" = _UOwLkHR7;
         "fabric-1.21" = _g7iBjLPY;
         "fabric-1.21.1" = _3sJisCnq;
@@ -420,6 +432,7 @@ let
         "neoforge-26.1.1" = _FkX8o4v9;
         "neoforge-26.1.2" = _mfU9L4Dz;
         "neoforge-26.2" = _hoYNLPGP;
+        "neoforge-26.3" = _v0S3djMM;
         "forge-1.20.1" = _hcXBvvFT;
         "forge-1.21.1" = _4nDfLEPB;
         "forge-26.1" = _VQqVwwUz;
@@ -427,6 +440,7 @@ let
         "forge-26.1.2" = _poiTDXtg;
         "forge-1.21.10" = _uaJ49AQo;
         "forge-26.2" = _hy1o3oLA;
+        "forge-26.3" = _eIvxhNc3;
         "pkg-1.0.0" = _yekZsg2f;
         "pkg-1.1" = _fr5Wjv2D;
         "pkg-1.2" = _FkX8o4v9;
@@ -446,7 +460,9 @@ let
         "pkg-1.4" = _4TRdoEN3;
         "pkg-1.2.6" = _djw8ZfBv;
         "pkg-1.0.6" = _hoYNLPGP;
-        "default" = _hoYNLPGP;
+        "pkg-1.2.7" = _v0S3djMM;
+        "pkg-1.2.8-forge-26.3" = _eIvxhNc3;
+        "default" = _eIvxhNc3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saros-player-plushie-lite";

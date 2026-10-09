@@ -406,6 +406,56 @@ let
             "file" = "better_mcdonalds_mod-fabric-5.0.3+26.3.jar";
             "hash" = "sha512-eKddVKYtr5ZUIydyUivwz6DDvy6EwIe7Cmcd4B5xHfAWDOUdi8vWhEhIXTJDDKDzEg/tnoZCyCXZW7lE2RxH6g==";
         };
+        _2Ow9vgp9 = {
+            "id" = "2Ow9vgp9";
+            "file" = "better_mcdonalds_mod-fabric-5.0.2+26.1.2.jar";
+            "hash" = "sha512-GiO4A27rrxlYXNwaZxDwQw38AxQDtf2wAYaH7heoM7xEHQ7E4ztDsveXIJA4jx4fSD5NUyLn++NbX6915ak44g==";
+        };
+        _ps6of0zA = {
+            "id" = "ps6of0zA";
+            "file" = "better_mcdonalds_mod-neoforge-5.0.2+26.1.2.jar";
+            "hash" = "sha512-6FHxQrAqzpHJkrY6U02ahr8589R+VQ8n5JDVy4UKT02E4ZgjeA1XQXsQ52ibKpWbYXZnexY1pepuizrw7+QSIA==";
+        };
+        _f8ArFgyM = {
+            "id" = "f8ArFgyM";
+            "file" = "better_mcdonalds_mod-neoforge-5.0.4+26.3.jar";
+            "hash" = "sha512-uHrVXl85/ygdxoiOgHgRF9+jmKkHUVOIEdsuUFyfF/I2jjSkATNaMG9EHp5aoq+5Vkf9UUPHxq4VQnwp9hzycw==";
+        };
+        _HFK8p7Vf = {
+            "id" = "HFK8p7Vf";
+            "file" = "better_mcdonalds_mod-fabric-5.0.4+26.3.jar";
+            "hash" = "sha512-XrTzUHt6uGJ5C6UNVwcla9tOBooyYBuvqKIAuAyurs89gQjGMf/7dKUCFiaZZjlIStHfk4fwgZUkYEBb9JBjvQ==";
+        };
+        _Qm0NNnof = {
+            "id" = "Qm0NNnof";
+            "file" = "better_mcdonalds_mod-fabric-5.0.3+26.1.2.jar";
+            "hash" = "sha512-O5xCSwwuW16K6T3f0CGL/H6XkWuCwDijsvzyilHqfcXXeph1tldSLBJ3PmRu7cNYG9PdYNYZNDQ63rdm8NrzNw==";
+        };
+        _VDPmyBaE = {
+            "id" = "VDPmyBaE";
+            "file" = "better_mcdonalds_mod-neoforge-5.0.3+26.1.2.jar";
+            "hash" = "sha512-HyqShQ1dsMHD2DizcTwuFps94oZKxUjcJUW5wG2B0/hPo6GfaLUK5wzwqKajpxUERPjwsoc+TrcCzTIix8GXDQ==";
+        };
+        _225e4eZo = {
+            "id" = "225e4eZo";
+            "file" = "better_mcdonalds_mod-fabric-5.0.3+26.2.jar";
+            "hash" = "sha512-o5/Uf1O2AS6e/7us1SdN6Fxmiw1XspqXQjzoihpbEbdy/H7wweSZYtrbkQ1aTrLn+3cenmdDIQcoNDJ11H1wgQ==";
+        };
+        _YgtW25Tc = {
+            "id" = "YgtW25Tc";
+            "file" = "better_mcdonalds_mod-neoforge-5.0.3+26.2.jar";
+            "hash" = "sha512-UcxhYi/8Jwi1M0CoEYkpptpAYdRG5MEbc4N00fwqCHEiIwAEeHdcN4mCbsejFv5FDeC7kWjVkUy02bvfUX/zOg==";
+        };
+        _jGuwXhPW = {
+            "id" = "jGuwXhPW";
+            "file" = "better_mcdonalds_mod-fabric-5.0.5+26.3.jar";
+            "hash" = "sha512-swWEprpjImegv6yq7CzHqLTHzNyy96ceTFEdUPkfVwdbfeU4f7VxnbYfuvs1Dsjzw0hu/FQQ0lap77MgQK57vw==";
+        };
+        _luaeTRrC = {
+            "id" = "luaeTRrC";
+            "file" = "better_mcdonalds_mod-neoforge-5.0.5+26.3.jar";
+            "hash" = "sha512-FRNquXBfO3/huGW7FfjAXPw5odjmqeoidGIPCYDjxYmAq8mgyv6W7Mczy5Yanp99rjABPixbeb3C7hJDvgeXrw==";
+        };
     in {
         "Qm1tNuxj" = _Qm1tNuxj;
         "UWTglEvU" = _UWTglEvU;
@@ -488,6 +538,16 @@ let
         "jEmRRZWP" = _jEmRRZWP;
         "A3cLRXTy" = _A3cLRXTy;
         "96C9DmMl" = _96C9DmMl;
+        "2Ow9vgp9" = _2Ow9vgp9;
+        "ps6of0zA" = _ps6of0zA;
+        "f8ArFgyM" = _f8ArFgyM;
+        "HFK8p7Vf" = _HFK8p7Vf;
+        "Qm0NNnof" = _Qm0NNnof;
+        "VDPmyBaE" = _VDPmyBaE;
+        "225e4eZo" = _225e4eZo;
+        "YgtW25Tc" = _YgtW25Tc;
+        "jGuwXhPW" = _jGuwXhPW;
+        "luaeTRrC" = _luaeTRrC;
         "forge-1.20.1" = _OPE6wJ3Q;
         "forge-1.20.4" = _hONwN3JO;
         "fabric-1.20.1" = _YSF3KFGd;
@@ -506,9 +566,9 @@ let
         "fabric-1.21.11" = _hzcZkNiU;
         "fabric-26.1" = _E3Nu42Pt;
         "fabric-26.1.1" = _iJTows0o;
-        "fabric-26.1.2" = _YwY4RAJU;
-        "fabric-26.2" = _jEmRRZWP;
-        "fabric-26.3" = _96C9DmMl;
+        "fabric-26.1.2" = _Qm0NNnof;
+        "fabric-26.2" = _225e4eZo;
+        "fabric-26.3" = _jGuwXhPW;
         "neoforge-1.20.1" = _HM8tlkp8;
         "neoforge-1.20.4" = _IfqGNvxt;
         "neoforge-1.20.6" = _uYmcQEIE;
@@ -525,9 +585,9 @@ let
         "neoforge-1.21.11" = _EMCfxXKl;
         "neoforge-26.1" = _lR3Gvirl;
         "neoforge-26.1.1" = _lEaE0oVJ;
-        "neoforge-26.1.2" = _3zRmqQoa;
-        "neoforge-26.2" = _EiV8EY5b;
-        "neoforge-26.3" = _A3cLRXTy;
+        "neoforge-26.1.2" = _VDPmyBaE;
+        "neoforge-26.2" = _YgtW25Tc;
+        "neoforge-26.3" = _luaeTRrC;
         "pkg-1.20.1-3.0.2" = _UWTglEvU;
         "pkg-1.20.1-3.0.0" = _23CPozvp;
         "pkg-1.20.1-3.1.0" = _71smC26R;
@@ -568,7 +628,12 @@ let
         "pkg-5.0.1+26.2" = _Wd6w4ukU;
         "pkg-5.0.2+26.2" = _jEmRRZWP;
         "pkg-5.0.3+26.3" = _96C9DmMl;
-        "default" = _96C9DmMl;
+        "pkg-5.0.2+26.1.2" = _ps6of0zA;
+        "pkg-5.0.4+26.3" = _HFK8p7Vf;
+        "pkg-5.0.3+26.1.2" = _VDPmyBaE;
+        "pkg-5.0.3+26.2" = _YgtW25Tc;
+        "pkg-5.0.5+26.3" = _luaeTRrC;
+        "default" = _luaeTRrC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-mcdonalds-mod";

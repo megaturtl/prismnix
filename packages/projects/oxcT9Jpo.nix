@@ -201,6 +201,21 @@ let
             "file" = "gravelmon-fabric-4.0.0-Alpha.6.jar";
             "hash" = "sha512-2KMYcmb8DXcTcDouh/g6yzXp2oYffgCTeVRT9rjxeuQb4BDSzbfVdbcYvxNiUHnTGl/PNUvSZlARkCFrTFJhnw==";
         };
+        _VlxRu9oR = {
+            "id" = "VlxRu9oR";
+            "file" = "gravelmon-fabric-4.0.0-Alpha.7.jar";
+            "hash" = "sha512-GUPB2J3Rwoj/jtU36ZGOTdrxlBe7LBVvuyrUT5eIpZkUAJFN3n7MWOHQEyjTqnbor6RLA1lelar6hBV5reH+1A==";
+        };
+        _F1JlLJuK = {
+            "id" = "F1JlLJuK";
+            "file" = "gravelmon-neoforge-4.0.0-Alpha.7.jar";
+            "hash" = "sha512-BaDJ5oj6M5E7OA+f9TqF82k3olIK4Dyg0hELq4weFhY7ob/l7SEJEpcxWH2YAEB7pBL7OZe/pYSxyK4aB1ytuQ==";
+        };
+        _3aEqPF4c = {
+            "id" = "3aEqPF4c";
+            "file" = "gravelmon-neoforge-4.0.0-Alpha.8.jar";
+            "hash" = "sha512-D8M3R23HteK5Wqn0YtQ9w3Yn/GDSpwc6U/NjDBqzaFitQHCUo6XDaposOTXSNv7+MT+mQ6P9CxWZ56otdTgg9Q==";
+        };
     in {
         "BnffWKdG" = _BnffWKdG;
         "mtl71EV6" = _mtl71EV6;
@@ -242,13 +257,16 @@ let
         "Tb9YdprY" = _Tb9YdprY;
         "rOd2qqAO" = _rOd2qqAO;
         "uGksPz40" = _uGksPz40;
+        "VlxRu9oR" = _VlxRu9oR;
+        "F1JlLJuK" = _F1JlLJuK;
+        "3aEqPF4c" = _3aEqPF4c;
         "fabric-1.20.1" = _EaHNJeS7;
         "fabric-1.20.2" = _g9Blt68n;
         "fabric-1.20.3" = _g9Blt68n;
         "fabric-1.20.4" = _g9Blt68n;
-        "fabric-1.21.1" = _uGksPz40;
+        "fabric-1.21.1" = _VlxRu9oR;
         "forge-1.20.1" = _Al8GmaIg;
-        "neoforge-1.21.1" = _rOd2qqAO;
+        "neoforge-1.21.1" = _3aEqPF4c;
         "pkg-2.0.0" = _mtl71EV6;
         "pkg-2.0.1" = _1RePSRxR;
         "pkg-2.0.3" = _uA4jYsOW;
@@ -269,7 +287,9 @@ let
         "pkg-4.0.0-Alpha.4" = _uleGL5zt;
         "pkg-4.0.0-Alpha.5" = _Tb9YdprY;
         "pkg-4.0.0-Alpha.6" = _uGksPz40;
-        "default" = _uGksPz40;
+        "pkg-4.0.0-Alpha.7" = _F1JlLJuK;
+        "pkg-4.0.0-Alpha.8" = _3aEqPF4c;
+        "default" = _3aEqPF4c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "gravelmon";

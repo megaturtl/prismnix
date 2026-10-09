@@ -1,0 +1,138 @@
+{lib, callPackage, ...}:
+let
+    versions = (let
+        _iptE2i6I = {
+            "id" = "iptE2i6I";
+            "file" = "afk_plugin-1.19.2-1.0.3.jar";
+            "hash" = "sha512-r1nXkDp7b86csj8DTU1X0cFYLN+5DIC/rwjHyqF7WWkdonj1Is7VaqyP6fYUh8NKVACKYf7ZBqFaQecjNYptPA==";
+        };
+        _yyhOPgxB = {
+            "id" = "yyhOPgxB";
+            "file" = "afk-plugin-TESTING-1.19.2-1.0.4.jar";
+            "hash" = "sha512-xanHRKJFGL/DHnuU9gxGKEknFT/T57ucPftWUmmMLc0J0C3BCsxECQ68JrlJDXCmvu2PLnYBF5qIKanv3/6suQ==";
+        };
+        _u5r8tunO = {
+            "id" = "u5r8tunO";
+            "file" = "afk-plugin-STABLE-1.19.2-1.0.4.jar";
+            "hash" = "sha512-P63xIrsb2LKyG+mvqP2emTbLf8ArDNqX5M0FhbEsh4TTD40esvIuGQxEnHoT56Z8Ru5jBKWrZ6/9qOuUhBdZkA==";
+        };
+        _HxylFTwK = {
+            "id" = "HxylFTwK";
+            "file" = "afk-rewards-STABLE-1.20-2.0.jar";
+            "hash" = "sha512-svrWKc8V78WgIcoJjDY9cmJSTJvjx3qYu+Dl95Xwhnp1pZDM5eCdf3GSYWxuPclFxw5LyXJPYgYgysp8JVsDOA==";
+        };
+    in {
+        "iptE2i6I" = _iptE2i6I;
+        "yyhOPgxB" = _yyhOPgxB;
+        "u5r8tunO" = _u5r8tunO;
+        "HxylFTwK" = _HxylFTwK;
+        "bukkit-1.16" = _HxylFTwK;
+        "bukkit-1.16.1" = _HxylFTwK;
+        "bukkit-1.16.2" = _HxylFTwK;
+        "bukkit-1.16.3" = _HxylFTwK;
+        "bukkit-1.16.4" = _HxylFTwK;
+        "bukkit-1.16.5" = _HxylFTwK;
+        "bukkit-1.17" = _HxylFTwK;
+        "bukkit-1.17.1" = _HxylFTwK;
+        "bukkit-1.18" = _HxylFTwK;
+        "bukkit-1.18.1" = _HxylFTwK;
+        "bukkit-1.18.2" = _HxylFTwK;
+        "bukkit-1.19" = _HxylFTwK;
+        "bukkit-1.19.1" = _HxylFTwK;
+        "bukkit-1.19.2" = _HxylFTwK;
+        "bukkit-1.19.3" = _HxylFTwK;
+        "bukkit-1.13" = _HxylFTwK;
+        "bukkit-1.13.1" = _HxylFTwK;
+        "bukkit-1.13.2" = _HxylFTwK;
+        "bukkit-1.14" = _HxylFTwK;
+        "bukkit-1.14.1" = _HxylFTwK;
+        "bukkit-1.14.2" = _HxylFTwK;
+        "bukkit-1.14.3" = _HxylFTwK;
+        "bukkit-1.14.4" = _HxylFTwK;
+        "bukkit-1.15" = _HxylFTwK;
+        "bukkit-1.15.1" = _HxylFTwK;
+        "bukkit-1.15.2" = _HxylFTwK;
+        "bukkit-1.19.4" = _HxylFTwK;
+        "bukkit-1.20" = _HxylFTwK;
+        "bukkit-1.20.1" = _HxylFTwK;
+        "paper-1.16" = _HxylFTwK;
+        "paper-1.16.1" = _HxylFTwK;
+        "paper-1.16.2" = _HxylFTwK;
+        "paper-1.16.3" = _HxylFTwK;
+        "paper-1.16.4" = _HxylFTwK;
+        "paper-1.16.5" = _HxylFTwK;
+        "paper-1.17" = _HxylFTwK;
+        "paper-1.17.1" = _HxylFTwK;
+        "paper-1.18" = _HxylFTwK;
+        "paper-1.18.1" = _HxylFTwK;
+        "paper-1.18.2" = _HxylFTwK;
+        "paper-1.19" = _HxylFTwK;
+        "paper-1.19.1" = _HxylFTwK;
+        "paper-1.19.2" = _HxylFTwK;
+        "paper-1.19.3" = _HxylFTwK;
+        "paper-1.13" = _HxylFTwK;
+        "paper-1.13.1" = _HxylFTwK;
+        "paper-1.13.2" = _HxylFTwK;
+        "paper-1.14" = _HxylFTwK;
+        "paper-1.14.1" = _HxylFTwK;
+        "paper-1.14.2" = _HxylFTwK;
+        "paper-1.14.3" = _HxylFTwK;
+        "paper-1.14.4" = _HxylFTwK;
+        "paper-1.15" = _HxylFTwK;
+        "paper-1.15.1" = _HxylFTwK;
+        "paper-1.15.2" = _HxylFTwK;
+        "paper-1.19.4" = _HxylFTwK;
+        "paper-1.20" = _HxylFTwK;
+        "paper-1.20.1" = _HxylFTwK;
+        "spigot-1.16" = _HxylFTwK;
+        "spigot-1.16.1" = _HxylFTwK;
+        "spigot-1.16.2" = _HxylFTwK;
+        "spigot-1.16.3" = _HxylFTwK;
+        "spigot-1.16.4" = _HxylFTwK;
+        "spigot-1.16.5" = _HxylFTwK;
+        "spigot-1.17" = _HxylFTwK;
+        "spigot-1.17.1" = _HxylFTwK;
+        "spigot-1.18" = _HxylFTwK;
+        "spigot-1.18.1" = _HxylFTwK;
+        "spigot-1.18.2" = _HxylFTwK;
+        "spigot-1.19" = _HxylFTwK;
+        "spigot-1.19.1" = _HxylFTwK;
+        "spigot-1.19.2" = _HxylFTwK;
+        "spigot-1.19.3" = _HxylFTwK;
+        "spigot-1.13" = _HxylFTwK;
+        "spigot-1.13.1" = _HxylFTwK;
+        "spigot-1.13.2" = _HxylFTwK;
+        "spigot-1.14" = _HxylFTwK;
+        "spigot-1.14.1" = _HxylFTwK;
+        "spigot-1.14.2" = _HxylFTwK;
+        "spigot-1.14.3" = _HxylFTwK;
+        "spigot-1.14.4" = _HxylFTwK;
+        "spigot-1.15" = _HxylFTwK;
+        "spigot-1.15.1" = _HxylFTwK;
+        "spigot-1.15.2" = _HxylFTwK;
+        "spigot-1.19.4" = _HxylFTwK;
+        "spigot-1.20" = _HxylFTwK;
+        "spigot-1.20.1" = _HxylFTwK;
+        "pkg-1.0.3" = _iptE2i6I;
+        "pkg-1" = _yyhOPgxB;
+        "pkg-1.0.0" = _u5r8tunO;
+        "pkg-2.0" = _HxylFTwK;
+        "default" = _HxylFTwK;
+    });
+    fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
+        name = "afk-rewards";
+        id = "lKB9i0HN";
+        type = "mod";
+        versions = versions;
+        meta = {
+            license = lib.getLicenseFromSpdxIdOr "Apache-2.0" {
+                free = false;
+                deprecated = false;
+                redistributable = false;
+                fullName = "Apache License 2.0";
+                shortName = "Apache-2.0";
+                url = null;
+            };
+        };
+    };
+in callPackage fn {}

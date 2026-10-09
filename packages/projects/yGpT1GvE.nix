@@ -366,6 +366,16 @@ let
             "file" = "DurabilityNotifier-neoforge-26.2-4.0.0.jar";
             "hash" = "sha512-tM/txC/pQ/AlWGpTBOiQpATSgLkk4+VdRquHXSoln/kyxQatTo+5cwhteZnZ16iBuVsYb2wMASuLKzGlTATGoA==";
         };
+        _GSQVt0oT = {
+            "id" = "GSQVt0oT";
+            "file" = "DurabilityNotifier-fabric-26.3-5.0.0.jar";
+            "hash" = "sha512-kzlDTF8d8GWLkDGIA+nEh4NUsE9WOeFDQSpJHh8XDhSSp97N8eCGc6FZA9r1GWv7kJ2V6PbVZD7yTeIdM90PQA==";
+        };
+        _V3OUkt4f = {
+            "id" = "V3OUkt4f";
+            "file" = "DurabilityNotifier-neoforge-26.3-5.0.0.jar";
+            "hash" = "sha512-a6SVGd9LpYZ8aoQNAeps9MIlmeAljFrM1GM+ce6pECkKnEnMxgh7v6qu4bmStKf97Zj4vlMM61GFQm4N35gq5A==";
+        };
     in {
         "XRLDYaVc" = _XRLDYaVc;
         "WLloq4aI" = _WLloq4aI;
@@ -440,6 +450,8 @@ let
         "r2mv8odl" = _r2mv8odl;
         "HyHSw1AD" = _HyHSw1AD;
         "DFisH3KT" = _DFisH3KT;
+        "GSQVt0oT" = _GSQVt0oT;
+        "V3OUkt4f" = _V3OUkt4f;
         "forge-1.18.2" = _XRLDYaVc;
         "forge-1.17.1" = _AMdt7rlK;
         "forge-1.16.5" = _3jf9cPvW;
@@ -478,6 +490,7 @@ let
         "fabric-26.1.1" = _r2mv8odl;
         "fabric-26.1.2" = _r2mv8odl;
         "fabric-26.2" = _HyHSw1AD;
+        "fabric-26.3" = _GSQVt0oT;
         "neoforge-1.20" = _vOa7qo05;
         "neoforge-1.20.1" = _vOa7qo05;
         "neoforge-1.20.2" = _T1HChufF;
@@ -497,6 +510,7 @@ let
         "neoforge-26.1.1" = _W9Ig8SnG;
         "neoforge-26.1.2" = _W9Ig8SnG;
         "neoforge-26.2" = _DFisH3KT;
+        "neoforge-26.3" = _V3OUkt4f;
         "pkg-1.2.2.2" = _XRLDYaVc;
         "pkg-1.2.2.1" = _WLloq4aI;
         "pkg-1.1.0.2" = _AMdt7rlK;
@@ -536,7 +550,8 @@ let
         "pkg-2.7.1" = _F2eeWJAv;
         "pkg-3.0.0" = _r2mv8odl;
         "pkg-4.0.0" = _DFisH3KT;
-        "default" = _DFisH3KT;
+        "pkg-5.0.0" = _V3OUkt4f;
+        "default" = _V3OUkt4f;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "durability-notifier";

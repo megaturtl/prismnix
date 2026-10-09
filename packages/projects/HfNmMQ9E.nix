@@ -126,6 +126,11 @@ let
             "file" = "Sparkles_26.2_v1.1.10.zip";
             "hash" = "sha512-ffsbngyxsAKKPs4VywVhQNxKc5VbX5IcamV2oLX2wwNAqr99r/OSZ3A5Q6WyspT/NLvIRgxPXMpw2bXy3WBtHQ==";
         };
+        _n9KSWFsT = {
+            "id" = "n9KSWFsT";
+            "file" = "Sparkles_v1.1.11.zip";
+            "hash" = "sha512-oGPJWbdzEjPCcIwzQma7F94yKi0QOYTdaFuZLK/LX/GGmGffzXU4CXBMWk1iosMWNK0gJGj8cPzKUEaye1i35Q==";
+        };
     in {
         "86LYYpMO" = _86LYYpMO;
         "3BiDijy2" = _3BiDijy2;
@@ -152,6 +157,7 @@ let
         "z9Rtuq6Y" = _z9Rtuq6Y;
         "qTNsbYyB" = _qTNsbYyB;
         "vpqshSqq" = _vpqshSqq;
+        "n9KSWFsT" = _n9KSWFsT;
         "minecraft-1.19" = _BP7Nijku;
         "minecraft-1.19.1" = _BP7Nijku;
         "minecraft-1.19.2" = _BP7Nijku;
@@ -164,22 +170,23 @@ let
         "minecraft-1.20.4" = _54EaRxuy;
         "minecraft-1.20.5" = _54EaRxuy;
         "minecraft-1.20.6" = _54EaRxuy;
-        "minecraft-1.21" = _vpqshSqq;
-        "minecraft-1.21.1" = _vpqshSqq;
-        "minecraft-1.21.2" = _vpqshSqq;
-        "minecraft-1.21.3" = _vpqshSqq;
-        "minecraft-1.21.4" = _vpqshSqq;
-        "minecraft-1.21.5" = _vpqshSqq;
-        "minecraft-1.21.6" = _vpqshSqq;
-        "minecraft-1.21.7" = _vpqshSqq;
-        "minecraft-1.21.8" = _vpqshSqq;
-        "minecraft-1.21.9" = _vpqshSqq;
-        "minecraft-1.21.10" = _vpqshSqq;
-        "minecraft-1.21.11" = _vpqshSqq;
-        "minecraft-26.1" = _vpqshSqq;
-        "minecraft-26.1.1" = _vpqshSqq;
-        "minecraft-26.1.2" = _vpqshSqq;
-        "minecraft-26.2" = _vpqshSqq;
+        "minecraft-1.21" = _n9KSWFsT;
+        "minecraft-1.21.1" = _n9KSWFsT;
+        "minecraft-1.21.2" = _n9KSWFsT;
+        "minecraft-1.21.3" = _n9KSWFsT;
+        "minecraft-1.21.4" = _n9KSWFsT;
+        "minecraft-1.21.5" = _n9KSWFsT;
+        "minecraft-1.21.6" = _n9KSWFsT;
+        "minecraft-1.21.7" = _n9KSWFsT;
+        "minecraft-1.21.8" = _n9KSWFsT;
+        "minecraft-1.21.9" = _n9KSWFsT;
+        "minecraft-1.21.10" = _n9KSWFsT;
+        "minecraft-1.21.11" = _n9KSWFsT;
+        "minecraft-26.1" = _n9KSWFsT;
+        "minecraft-26.1.1" = _n9KSWFsT;
+        "minecraft-26.1.2" = _n9KSWFsT;
+        "minecraft-26.2" = _n9KSWFsT;
+        "minecraft-26.3" = _n9KSWFsT;
         "pkg-0.5.3.3" = _86LYYpMO;
         "pkg-0.5.3.4" = _3BiDijy2;
         "pkg-0.5.3.5" = _T4Xp4oG6;
@@ -205,7 +212,8 @@ let
         "pkg-1.1.8" = _z9Rtuq6Y;
         "pkg-1.1.9" = _qTNsbYyB;
         "pkg-1.1.10" = _vpqshSqq;
-        "default" = _vpqshSqq;
+        "pkg-1.1.11" = _n9KSWFsT;
+        "default" = _n9KSWFsT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sparkles";

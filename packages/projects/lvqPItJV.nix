@@ -226,6 +226,16 @@ let
             "file" = "widgets-2.6.0-1.21.11-neoforge.jar";
             "hash" = "sha512-IyWt7zMSKYZHXbuzM3Ue8jVm+zmRs2sJNi/uzSlybtBghm2V+S3kD/h0fa5OyiItLmZDpPuMpBNpdObi2SGawA==";
         };
+        _fw2pVgXO = {
+            "id" = "fw2pVgXO";
+            "file" = "widgets-2.6.0-26.3-fabric.jar";
+            "hash" = "sha512-ddPU1IQ9tUTsYYiDJHX7emgV4P64z7Yqh491zaqbi3SYLECfpE32t2hP6yEnGxnOF9+YiEfcdL/cge9jpXN8wQ==";
+        };
+        _OENbSZo6 = {
+            "id" = "OENbSZo6";
+            "file" = "widgets-2.6.0-26.3-neoforge.jar";
+            "hash" = "sha512-zkZ5BZv3YcBoW/HpikqPRphIaYNQBdt18BbsMmiAfHkeO+Ci1xU1yL7YDp4We0CrqZHCnSBKXzrSwEckPgrmiQ==";
+        };
     in {
         "ri3IVZ0n" = _ri3IVZ0n;
         "f1REG6Wh" = _f1REG6Wh;
@@ -272,6 +282,8 @@ let
         "4F52qne4" = _4F52qne4;
         "MToufrqf" = _MToufrqf;
         "uunBjeSV" = _uunBjeSV;
+        "fw2pVgXO" = _fw2pVgXO;
+        "OENbSZo6" = _OENbSZo6;
         "fabric-1.21" = _7ifRcoJa;
         "fabric-1.21.1" = _7ifRcoJa;
         "fabric-1.21.3" = _bbsgzFdw;
@@ -288,6 +300,7 @@ let
         "fabric-26.1.1" = _A9hFPdnD;
         "fabric-26.1.2" = _A9hFPdnD;
         "fabric-26.2" = _vwGsFNCK;
+        "fabric-26.3" = _fw2pVgXO;
         "quilt-1.21" = _7ifRcoJa;
         "quilt-1.21.1" = _7ifRcoJa;
         "quilt-1.21.3" = _bbsgzFdw;
@@ -304,11 +317,13 @@ let
         "quilt-26.1.1" = _A9hFPdnD;
         "quilt-26.1.2" = _A9hFPdnD;
         "quilt-26.2" = _vwGsFNCK;
+        "quilt-26.3" = _fw2pVgXO;
         "neoforge-26.2" = _Xz5RF0QT;
         "neoforge-26.1" = _4F52qne4;
         "neoforge-26.1.1" = _4F52qne4;
         "neoforge-26.1.2" = _4F52qne4;
         "neoforge-1.21.11" = _uunBjeSV;
+        "neoforge-26.3" = _OENbSZo6;
         "pkg-1.0.0" = _ri3IVZ0n;
         "pkg-1.0.1" = _f1REG6Wh;
         "pkg-1.1.0" = _sXveyD2A;
@@ -354,7 +369,9 @@ let
         "pkg-2.6.0-26.1-neoforge" = _4F52qne4;
         "pkg-2.6.0-1.21.11-fabric" = _MToufrqf;
         "pkg-2.6.0-1.21.11-neoforge" = _uunBjeSV;
-        "default" = _uunBjeSV;
+        "pkg-2.6.0-26.3-fabric" = _fw2pVgXO;
+        "pkg-2.6.0-26.3-neoforge" = _OENbSZo6;
+        "default" = _OENbSZo6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "widgets";

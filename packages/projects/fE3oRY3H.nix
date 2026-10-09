@@ -56,6 +56,11 @@ let
             "file" = "jump-tilt-1.5.2.jar";
             "hash" = "sha512-licRINf8F0hdWNTbGI0FVaX/C7HNBBg4lLTQPxNXA7OUAoFU84C9fmTsshgXJ0fkwKPe8fE4JdWRn6HTPlHQJQ==";
         };
+        _AoifT1Pw = {
+            "id" = "AoifT1Pw";
+            "file" = "jump-tilt-1.5.3.jar";
+            "hash" = "sha512-FBztbmbraz4ru/Wdbv6PyN4g2p9HcD46EuVDWJc3/hrbY3fmCa4oPK+GX9tLVNmuW3q/Um/munaYOjXahZx/AA==";
+        };
     in {
         "7Qj3Kdse" = _7Qj3Kdse;
         "gNmclxyH" = _gNmclxyH;
@@ -68,6 +73,7 @@ let
         "pdvFRq97" = _pdvFRq97;
         "NWVVxUIv" = _NWVVxUIv;
         "sxfxaq7T" = _sxfxaq7T;
+        "AoifT1Pw" = _AoifT1Pw;
         "fabric-1.20.1" = _r9njydYG;
         "fabric-1.20.2" = _r9njydYG;
         "fabric-1.20.3" = _r9njydYG;
@@ -91,6 +97,7 @@ let
         "fabric-26.1.1" = _sxfxaq7T;
         "fabric-26.1.2" = _sxfxaq7T;
         "fabric-26.2" = _sxfxaq7T;
+        "fabric-26.3" = _AoifT1Pw;
         "quilt-1.20.1" = _r9njydYG;
         "quilt-1.20.2" = _r9njydYG;
         "quilt-1.20.3" = _r9njydYG;
@@ -114,6 +121,7 @@ let
         "quilt-26.1.1" = _sxfxaq7T;
         "quilt-26.1.2" = _sxfxaq7T;
         "quilt-26.2" = _sxfxaq7T;
+        "quilt-26.3" = _AoifT1Pw;
         "pkg-1.0.0" = _7Qj3Kdse;
         "pkg-1.1.0" = _gNmclxyH;
         "pkg-1.2.0" = _MJFlHSDr;
@@ -122,7 +130,8 @@ let
         "pkg-1.5.0" = _pdvFRq97;
         "pkg-1.5.1" = _NWVVxUIv;
         "pkg-1.5.2" = _sxfxaq7T;
-        "default" = _sxfxaq7T;
+        "pkg-1.5.3" = _AoifT1Pw;
+        "default" = _AoifT1Pw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "jump-tilt";

@@ -131,6 +131,16 @@ let
             "file" = "cobblebase-fabric-2.0.0+1.7.0.jar";
             "hash" = "sha512-WtfPqmIApIfUYpoUWAEHOsO0Git47pDV9IRIM/37OJqw+cPNn8MP2MRfLsef5YZ+EuMS3qQob98MvFr7u33ipA==";
         };
+        _pFYNQ6W2 = {
+            "id" = "pFYNQ6W2";
+            "file" = "cobblebase-neoforge-2.0.1+1.8.0.jar";
+            "hash" = "sha512-5+qVpLbfb3GtDDtsRQONaSZ3mc/oobOjs1AQd3VeKi5dFrx9PSj9ymmKoG8OMyVe4VZ3PzVsuvc6PkKPhrOAaw==";
+        };
+        _cY96xSvr = {
+            "id" = "cY96xSvr";
+            "file" = "cobblebase-fabric-2.0.1+1.8.0.jar";
+            "hash" = "sha512-7vsxWUXixaJY4bxIvw0VLKO5Ftr8McW00ZoMr1xWmVVjjdiwb/k+fA8qQOeb7TTD4zw2SCFwN0PWrM8cizPQfA==";
+        };
     in {
         "soZpO6kJ" = _soZpO6kJ;
         "5gM6MiP1" = _5gM6MiP1;
@@ -158,18 +168,20 @@ let
         "CufxFggM" = _CufxFggM;
         "GxjyJtBD" = _GxjyJtBD;
         "iY0V73Gc" = _iY0V73Gc;
-        "fabric-1.21.1" = _iY0V73Gc;
-        "fabric-1.21.2" = _iY0V73Gc;
-        "fabric-1.21.3" = _iY0V73Gc;
-        "fabric-1.21.4" = _iY0V73Gc;
-        "fabric-1.21.5" = _iY0V73Gc;
-        "fabric-1.21.6" = _iY0V73Gc;
-        "fabric-1.21.7" = _iY0V73Gc;
-        "fabric-1.21.8" = _iY0V73Gc;
-        "fabric-1.21.9" = _iY0V73Gc;
-        "fabric-1.21.10" = _iY0V73Gc;
-        "fabric-1.21.11" = _iY0V73Gc;
-        "neoforge-1.21.1" = _GxjyJtBD;
+        "pFYNQ6W2" = _pFYNQ6W2;
+        "cY96xSvr" = _cY96xSvr;
+        "fabric-1.21.1" = _cY96xSvr;
+        "fabric-1.21.2" = _cY96xSvr;
+        "fabric-1.21.3" = _cY96xSvr;
+        "fabric-1.21.4" = _cY96xSvr;
+        "fabric-1.21.5" = _cY96xSvr;
+        "fabric-1.21.6" = _cY96xSvr;
+        "fabric-1.21.7" = _cY96xSvr;
+        "fabric-1.21.8" = _cY96xSvr;
+        "fabric-1.21.9" = _cY96xSvr;
+        "fabric-1.21.10" = _cY96xSvr;
+        "fabric-1.21.11" = _cY96xSvr;
+        "neoforge-1.21.1" = _pFYNQ6W2;
         "neoforge-1.21.2" = _arXwBcAs;
         "neoforge-1.21.3" = _arXwBcAs;
         "neoforge-1.21.4" = _arXwBcAs;
@@ -196,7 +208,8 @@ let
         "pkg-1.5.3+1.7.0" = _bJbZojMt;
         "pkg-1.5.4+1.7.0" = _CufxFggM;
         "pkg-2.0.0+1.7.0" = _iY0V73Gc;
-        "default" = _iY0V73Gc;
+        "pkg-2.0.1+1.8.0" = _cY96xSvr;
+        "default" = _cY96xSvr;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblebase";

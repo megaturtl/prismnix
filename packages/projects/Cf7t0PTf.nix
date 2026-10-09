@@ -231,6 +231,16 @@ let
             "file" = "SimplePocketMachines-NeoForge-26.2-1.0.4.jar";
             "hash" = "sha512-/CLvBXqEBSi6T162p4GCIFkg7T3S1EgWBPs95qTbcgKSNkv9bgQc11Q5oZ1UioOI+L8nZRQ1a31re0MrIGArUg==";
         };
+        _D8yFb1La = {
+            "id" = "D8yFb1La";
+            "file" = "SimplePocketMachines-Fabric-26.3-1.0.4.jar";
+            "hash" = "sha512-w/Zi5w19VV40zR847oMY3sUpzHzDTSqFCPDVNk4VxCMKdvwLsJIyTDPxtpHi1FN+kN1BtZMZCtWEKBw8qOTuPg==";
+        };
+        _5mhAg4e8 = {
+            "id" = "5mhAg4e8";
+            "file" = "SimplePocketMachines-NeoForge-26.3-1.0.4.jar";
+            "hash" = "sha512-e8I/5pEw1CPXFvjY4LMuJ8K/xligO8ZvGIUqXwgPyFf44z+hFd3PD3dAvhDwutk9B+zBXLGpMJRBTjFfy6aQMA==";
+        };
     in {
         "xE4dfUN1" = _xE4dfUN1;
         "5eWo8lyV" = _5eWo8lyV;
@@ -278,6 +288,8 @@ let
         "umYwoSRq" = _umYwoSRq;
         "reiQJUCB" = _reiQJUCB;
         "c1oRxxCq" = _c1oRxxCq;
+        "D8yFb1La" = _D8yFb1La;
+        "5mhAg4e8" = _5mhAg4e8;
         "fabric-1.21.1" = _ygGIp9oR;
         "fabric-1.21.2" = _EMHFuR5i;
         "fabric-1.21.3" = _IqERzuUr;
@@ -292,6 +304,7 @@ let
         "fabric-1.21.11" = _2fW3GrP0;
         "fabric-26.1.2" = _35s81GcZ;
         "fabric-26.2" = _reiQJUCB;
+        "fabric-26.3" = _D8yFb1La;
         "quilt-1.21.1" = _ygGIp9oR;
         "quilt-1.21.2" = _EMHFuR5i;
         "quilt-1.21.3" = _IqERzuUr;
@@ -306,6 +319,7 @@ let
         "quilt-1.21.11" = _2fW3GrP0;
         "quilt-26.1.2" = _35s81GcZ;
         "quilt-26.2" = _reiQJUCB;
+        "quilt-26.3" = _D8yFb1La;
         "neoforge-1.21.1" = _A6z6oCWs;
         "neoforge-1.21.2" = _Frf1WV1m;
         "neoforge-1.21.3" = _kSlnadAt;
@@ -320,6 +334,7 @@ let
         "neoforge-1.21.11" = _ouFsY6nI;
         "neoforge-26.1.2" = _umYwoSRq;
         "neoforge-26.2" = _c1oRxxCq;
+        "neoforge-26.3" = _5mhAg4e8;
         "pkg-1.21.1-1.0.0" = _5eWo8lyV;
         "pkg-1.21.2-1.0.0" = _TS4E6Nnj;
         "pkg-1.21.1-1.0.1" = _Ce5fihna;
@@ -342,7 +357,8 @@ let
         "pkg-1.21.11-1.0.4+hotfix.2" = _ouFsY6nI;
         "pkg-26.1.2-1.0.4" = _umYwoSRq;
         "pkg-26.2-1.0.4" = _c1oRxxCq;
-        "default" = _c1oRxxCq;
+        "pkg-26.3-1.0.4" = _5mhAg4e8;
+        "default" = _5mhAg4e8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pocketmachines";

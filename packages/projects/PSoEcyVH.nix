@@ -41,6 +41,11 @@ let
             "file" = "airplace-1.1.1.jar";
             "hash" = "sha512-4oMGPVaLhf+/AO6VcBsPGpStLOD/RpZwBB7YNtqFJ4EKFlmvZiGtwS/FLaekEbceh0UIUX3WdhzN8GhBkiJYbg==";
         };
+        _qaM5fn64 = {
+            "id" = "qaM5fn64";
+            "file" = "airplace-1.1.1.jar";
+            "hash" = "sha512-VSyntL5EUiH6s2DyTTlHMxMHCUAMZRPf0nd1WlYaz/7aHNbXFY6w5hNTv5pE6rEacJsK30TU03vN92n3M7Pzbw==";
+        };
     in {
         "ebeTKhzi" = _ebeTKhzi;
         "axW7OZZO" = _axW7OZZO;
@@ -50,6 +55,7 @@ let
         "fMwmW9OQ" = _fMwmW9OQ;
         "qZvFnxsH" = _qZvFnxsH;
         "gq2XjVik" = _gq2XjVik;
+        "qaM5fn64" = _qaM5fn64;
         "fabric-1.21.4" = _SNZZgUO4;
         "fabric-1.21.5" = _Dtmdscpm;
         "fabric-1.21.6" = _Dtmdscpm;
@@ -72,10 +78,11 @@ let
         "fabric-26.1.1" = _qZvFnxsH;
         "fabric-26.1.2" = _qZvFnxsH;
         "fabric-26.2" = _gq2XjVik;
+        "fabric-26.3" = _qaM5fn64;
         "pkg-1.0.0" = _ebeTKhzi;
         "pkg-1.1.0" = _Dtmdscpm;
-        "pkg-1.1.1" = _gq2XjVik;
-        "default" = _gq2XjVik;
+        "pkg-1.1.1" = _qaM5fn64;
+        "default" = _qaM5fn64;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "airplace";

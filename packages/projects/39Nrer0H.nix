@@ -21,23 +21,29 @@ let
             "file" = "galosphere_spellbooks-1.1.5.jar";
             "hash" = "sha512-mtE861BKjOE0pWnq1hjF2BEEa8PCiK9B6cUStXB4g47Vqp1a2on/F/y+K1omqju+h91Zt46XXsaKlg2P2cfkxA==";
         };
+        _fuhU1R22 = {
+            "id" = "fuhU1R22";
+            "file" = "galosphere_spellbooks-1.1.3.jar";
+            "hash" = "sha512-nXTj9zRFiNzOy/ekeJFoaC4V+uexSBnEWzrdU8frYaE+VmA0fVk5ydVFPqydKN3aia5QZ7jSd3xfTz03AU+etw==";
+        };
     in {
         "JbbFKxYN" = _JbbFKxYN;
         "ef3orxPF" = _ef3orxPF;
         "kSc6jVKY" = _kSc6jVKY;
         "oqnPRQ9J" = _oqnPRQ9J;
-        "forge-1.20.1" = _JbbFKxYN;
-        "forge-1.20.2" = _JbbFKxYN;
-        "forge-1.20.3" = _JbbFKxYN;
-        "forge-1.20.4" = _JbbFKxYN;
-        "forge-1.20.5" = _JbbFKxYN;
-        "forge-1.20.6" = _JbbFKxYN;
+        "fuhU1R22" = _fuhU1R22;
+        "forge-1.20.1" = _fuhU1R22;
+        "forge-1.20.2" = _fuhU1R22;
+        "forge-1.20.3" = _fuhU1R22;
+        "forge-1.20.4" = _fuhU1R22;
+        "forge-1.20.5" = _fuhU1R22;
+        "forge-1.20.6" = _fuhU1R22;
         "neoforge-1.21.1" = _oqnPRQ9J;
         "pkg-1.1.0" = _JbbFKxYN;
-        "pkg-1.1.3" = _ef3orxPF;
+        "pkg-1.1.3" = _fuhU1R22;
         "pkg-1.1.4" = _kSc6jVKY;
         "pkg-1.1.5" = _oqnPRQ9J;
-        "default" = _oqnPRQ9J;
+        "default" = _fuhU1R22;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "galosphere-spellbooks";

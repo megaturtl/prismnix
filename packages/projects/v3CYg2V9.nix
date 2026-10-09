@@ -1156,6 +1156,16 @@ let
             "file" = "drippyloadingscreen_neoforge_3.1.5_MC_26.2.jar";
             "hash" = "sha512-quwAlQM3M14sgG58e1JgQHTmPs2Dr73CztvOTNSnE8YEr5ZvsFJl43aVMkzmWTYr+D5AHHDAGJk4AwWD4XkjBA==";
         };
+        _RQRAhm30 = {
+            "id" = "RQRAhm30";
+            "file" = "drippyloadingscreen_fabric_3.1.6_MC_26.3.jar";
+            "hash" = "sha512-QXVAUkTGdlZwhJB3kBiZICLNOKkCfZ0eA6cgxZKMGVMRQUt2OeEaLZYPi1X3Vr2QI6NYgwVEAzwjRqLWuPpUow==";
+        };
+        _ATpgEWcw = {
+            "id" = "ATpgEWcw";
+            "file" = "drippyloadingscreen_neoforge_3.1.6_MC_26.3.jar";
+            "hash" = "sha512-QE2RhE3jEHuqzAmA9MXTBqa4yR/VBJZZmR85s4atVHGO4xXzdTiqkIpNlexOhlSksjnGs1NZT7rY0r2NHfeVuQ==";
+        };
     in {
         "qmsOw2pV" = _qmsOw2pV;
         "JHpQq5H7" = _JHpQq5H7;
@@ -1388,6 +1398,8 @@ let
         "DRbhrjs3" = _DRbhrjs3;
         "kv882MmK" = _kv882MmK;
         "oxaKGAeG" = _oxaKGAeG;
+        "RQRAhm30" = _RQRAhm30;
+        "ATpgEWcw" = _ATpgEWcw;
         "forge-1.16.2" = _5Teur9Zr;
         "forge-1.16.3" = _5Teur9Zr;
         "forge-1.16.4" = _5Teur9Zr;
@@ -1437,6 +1449,7 @@ let
         "fabric-26.1.1" = _soK6x7So;
         "fabric-26.1.2" = _pcBKNtEk;
         "fabric-26.2" = _kv882MmK;
+        "fabric-26.3" = _RQRAhm30;
         "neoforge-1.20.4" = _Rvh3ZjwB;
         "neoforge-1.20.6" = _O5rUYGi1;
         "neoforge-1.21" = _BMTF7mn7;
@@ -1451,6 +1464,7 @@ let
         "neoforge-26.1.1" = _2bPSrkHa;
         "neoforge-26.1.2" = _DRbhrjs3;
         "neoforge-26.2" = _oxaKGAeG;
+        "neoforge-26.3" = _ATpgEWcw;
         "pkg-1.6.5-1.16.2-1.16.5-forge" = _qmsOw2pV;
         "pkg-1.6.5-1.18-1.18.2-forge" = _JHpQq5H7;
         "pkg-1.6.5-1.19-1.19.2-forge" = _OCZGCuwz;
@@ -1682,7 +1696,9 @@ let
         "pkg-3.1.5-26.1.2-neoforge" = _DRbhrjs3;
         "pkg-3.1.5-26.2-fabric" = _kv882MmK;
         "pkg-3.1.5-26.2-neoforge" = _oxaKGAeG;
-        "default" = _oxaKGAeG;
+        "pkg-3.1.6-26.3-fabric" = _RQRAhm30;
+        "pkg-3.1.6-26.3-neoforge" = _ATpgEWcw;
+        "default" = _ATpgEWcw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "drippy-loading-screen";

@@ -546,6 +546,11 @@ let
             "file" = "AxiomPaperPlugin-6.0.1-for-MC26.2.jar";
             "hash" = "sha512-eP0f0peGskOF6491pJQHngqRJXAwBKK1fziidtVW0ffYCBKdDYGBNtGKlgeo7FaxGGhrdYOd09RyaqP7H/Rc5A==";
         };
+        _V2yAy4up = {
+            "id" = "V2yAy4up";
+            "file" = "AxiomPaper-6.0.1-for-MC26.3.jar";
+            "hash" = "sha512-5qglu+t4vE7xWa+nYMCDVSj0xS29zXdTgSGU0+FSfVhbWrYfgqOJD+1n2bS+xN8OlmgDxs9Pn8G3BY017dHmbg==";
+        };
     in {
         "xpWFfY7v" = _xpWFfY7v;
         "Iy74sjXE" = _Iy74sjXE;
@@ -656,6 +661,7 @@ let
         "AtKpiumb" = _AtKpiumb;
         "JTwkajGE" = _JTwkajGE;
         "93qRRLuz" = _93qRRLuz;
+        "V2yAy4up" = _V2yAy4up;
         "paper-1.20" = _9I3YBL5l;
         "paper-1.20.1" = _9I3YBL5l;
         "paper-1.20.2" = _FKhmXg6K;
@@ -679,6 +685,7 @@ let
         "paper-26.1.1" = _JTwkajGE;
         "paper-26.1.2" = _JTwkajGE;
         "paper-26.2" = _93qRRLuz;
+        "paper-26.3" = _V2yAy4up;
         "pkg-1.4.0" = _xpWFfY7v;
         "pkg-1.5.1" = _ZzUOiLhq;
         "pkg-1.5.2" = _O6ozwZaM;
@@ -764,7 +771,8 @@ let
         "pkg-6.0.1+1.21.11" = _AtKpiumb;
         "pkg-6.0.1+26.1" = _JTwkajGE;
         "pkg-6.0.1+26.2" = _93qRRLuz;
-        "default" = _93qRRLuz;
+        "pkg-6.0.1+26.3" = _V2yAy4up;
+        "default" = _V2yAy4up;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "axiom-paper-plugin";

@@ -1216,6 +1216,21 @@ let
             "file" = "bagus_lib-26.3-28.2.0.jar";
             "hash" = "sha512-6PNMakbrbU27ApxcYKJAZU+GmtM4fs/S1Rbw7IewV4Dg9On9Q621QhbUH+qe42NOJazMwG2705+IHjEvdZhvBg==";
         };
+        _W4JiUzrL = {
+            "id" = "W4JiUzrL";
+            "file" = "bagus_lib-26.3-28.3.0.jar";
+            "hash" = "sha512-dAGSFWiEXjbX7P+QJ722hCLGF6RHzwNThkYKxD5/CPi2SLuQNPVYGV6ePepK05VXpqTyRcM0ej2OZ8wmRBL3zA==";
+        };
+        _aqOXlT5L = {
+            "id" = "aqOXlT5L";
+            "file" = "bagus_lib-26.3-28.4.0.jar";
+            "hash" = "sha512-OT4nPfmWZ/MQVggj3YV8Js6pHIlm+xGE2Q5+NU8UAYd36eoNl/lUQlSuPOV9mF/17P5bPkZNuN1B3O39wJvUHw==";
+        };
+        _POMCx9Wb = {
+            "id" = "POMCx9Wb";
+            "file" = "bagus_lib-26.3-28.5.0.jar";
+            "hash" = "sha512-ov7bE/CRi3YPGdpnbGVnrsLtwq0j5kYuAGFT3Tw3g5C6jqSs27hn0EFxcy+y/ENNaUejJ0W2gzo2VTeaVnE4Ig==";
+        };
     in {
         "Hh01XuYV" = _Hh01XuYV;
         "b3CS9pTW" = _b3CS9pTW;
@@ -1460,6 +1475,9 @@ let
         "dZsj8E0c" = _dZsj8E0c;
         "hpm7DW2P" = _hpm7DW2P;
         "QVtLevIN" = _QVtLevIN;
+        "W4JiUzrL" = _W4JiUzrL;
+        "aqOXlT5L" = _aqOXlT5L;
+        "POMCx9Wb" = _POMCx9Wb;
         "forge-1.19.4" = _hLY9G3tt;
         "forge-1.20" = _9e0xLP7V;
         "forge-1.20.1" = _EutpppUn;
@@ -1497,7 +1515,7 @@ let
         "neoforge-26.1.1" = _Po3Bt3Tv;
         "neoforge-26.1.2" = _eOOdpCgK;
         "neoforge-26.2" = _i2gAtgcj;
-        "neoforge-26.3" = _QVtLevIN;
+        "neoforge-26.3" = _POMCx9Wb;
         "pkg-1.19.4-1.3.0" = _Hh01XuYV;
         "pkg-1.19.4-1.4.0" = _b3CS9pTW;
         "pkg-1.19.4-1.4.1" = _hLY9G3tt;
@@ -1740,7 +1758,10 @@ let
         "pkg-26.3-28.0.0" = _dZsj8E0c;
         "pkg-26.3-28.1.0" = _hpm7DW2P;
         "pkg-26.3-28.2.0" = _QVtLevIN;
-        "default" = _QVtLevIN;
+        "pkg-26.3-28.3.0" = _W4JiUzrL;
+        "pkg-26.3-28.4.0" = _aqOXlT5L;
+        "pkg-26.3-28.5.0" = _POMCx9Wb;
+        "default" = _POMCx9Wb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bagus-lib";

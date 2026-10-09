@@ -96,6 +96,16 @@ let
             "file" = "better-ender-dragon-26.2v1-mod.jar";
             "hash" = "sha512-Na8Evp72NQtajOdV84TAVIkisOx3DjIzVIj9MR9a3s0HJexRvJlPqcX09T+EVBlJ7EVMgfoMq7URjf+hpZ9mGQ==";
         };
+        _LmgWAYhF = {
+            "id" = "LmgWAYhF";
+            "file" = "mcs-ender-dragon-26.3v1-dp.zip";
+            "hash" = "sha512-nVZvsf621aiJ/ACdjI7UttL/DskXgrxOwc3H2UbE5Mfpjh7iUNvYYlTVbX3lozej1hos+3ZjtUXE6Jow6iBW9A==";
+        };
+        _mb0LmZFY = {
+            "id" = "mb0LmZFY";
+            "file" = "better-ender-dragon-26.3v1-mod.jar";
+            "hash" = "sha512-bURUvJBwXk3/+h71zIqjsLITCj3/xu1qP94RekmycXuxqT0sfLhJn9SzgGbEih6hNfViDzUUT229DbnBSE6atQ==";
+        };
     in {
         "55qYLUeM" = _55qYLUeM;
         "DjZiHiNl" = _DjZiHiNl;
@@ -116,6 +126,8 @@ let
         "z1D4CbJq" = _z1D4CbJq;
         "6mTTbm9F" = _6mTTbm9F;
         "nx69zcQd" = _nx69zcQd;
+        "LmgWAYhF" = _LmgWAYhF;
+        "mb0LmZFY" = _mb0LmZFY;
         "datapack-1.19" = _55qYLUeM;
         "datapack-1.19.1" = _55qYLUeM;
         "datapack-1.19.2" = _55qYLUeM;
@@ -137,6 +149,7 @@ let
         "datapack-26.1" = _K0gKIRVo;
         "datapack-26.1.1" = _K0gKIRVo;
         "datapack-26.2" = _6mTTbm9F;
+        "datapack-26.3" = _LmgWAYhF;
         "fabric-1.21" = _7h92IPCT;
         "fabric-1.21.1" = _7h92IPCT;
         "fabric-1.21.4" = _2CFbKg7n;
@@ -148,6 +161,7 @@ let
         "fabric-26.1" = _z1D4CbJq;
         "fabric-26.1.1" = _z1D4CbJq;
         "fabric-26.2" = _nx69zcQd;
+        "fabric-26.3" = _mb0LmZFY;
         "forge-1.21" = _7h92IPCT;
         "forge-1.21.1" = _7h92IPCT;
         "forge-1.21.4" = _2CFbKg7n;
@@ -159,6 +173,7 @@ let
         "forge-26.1" = _z1D4CbJq;
         "forge-26.1.1" = _z1D4CbJq;
         "forge-26.2" = _nx69zcQd;
+        "forge-26.3" = _mb0LmZFY;
         "neoforge-1.21" = _7h92IPCT;
         "neoforge-1.21.1" = _7h92IPCT;
         "neoforge-1.21.4" = _2CFbKg7n;
@@ -170,6 +185,7 @@ let
         "neoforge-26.1" = _z1D4CbJq;
         "neoforge-26.1.1" = _z1D4CbJq;
         "neoforge-26.2" = _nx69zcQd;
+        "neoforge-26.3" = _mb0LmZFY;
         "quilt-1.21" = _7h92IPCT;
         "quilt-1.21.1" = _7h92IPCT;
         "quilt-1.21.4" = _2CFbKg7n;
@@ -181,6 +197,7 @@ let
         "quilt-26.1" = _z1D4CbJq;
         "quilt-26.1.1" = _z1D4CbJq;
         "quilt-26.2" = _nx69zcQd;
+        "quilt-26.3" = _mb0LmZFY;
         "pkg-v3.8" = _55qYLUeM;
         "pkg-v4.0" = _DjZiHiNl;
         "pkg-v4.3" = _YZNNlTP8;
@@ -200,7 +217,9 @@ let
         "pkg-26.1v1-mod" = _z1D4CbJq;
         "pkg-26.2v1-dp" = _6mTTbm9F;
         "pkg-26.2v1-mod" = _nx69zcQd;
-        "default" = _nx69zcQd;
+        "pkg-26.3v1-dp" = _LmgWAYhF;
+        "pkg-26.3v1-mod" = _mb0LmZFY;
+        "default" = _mb0LmZFY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-ender-dragon";

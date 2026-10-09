@@ -176,6 +176,41 @@ let
             "file" = "twilightdelight-3.2.2.jar";
             "hash" = "sha512-ohKBSG/hhHovXd3MLL8D86iUUUIFLbsbKOYj19o0/U2BmrScM4mmBv35Zfnr9CzaoDYn/vtuzQdIMNANb6u8Ng==";
         };
+        _2AcjkhfY = {
+            "id" = "2AcjkhfY";
+            "file" = "twilightdelight-2.2.3.jar";
+            "hash" = "sha512-hJBdJe6v07gPAFyOymgw3ILgjrq+Kf5flqC5UzjrnZW8i7Omdf/mms/41iFXHs/Hvr7UQwIyf89v3FqLKUbQuA==";
+        };
+        _CzVgk3Hn = {
+            "id" = "CzVgk3Hn";
+            "file" = "twilightdelight-2.2.4.jar";
+            "hash" = "sha512-bUgFxCxNQNivo2lQ7pyyqZ+g7/t1LdQnH2MFuX1z/Eb1rHNCxdcMZHhwFPl6H5GLenOHpP5e4nB5u203yTyEpg==";
+        };
+        _Dr65HYIY = {
+            "id" = "Dr65HYIY";
+            "file" = "twilightdelight-3.2.3.jar";
+            "hash" = "sha512-7WoCXJpxrd16kj1dGy5rn+oRlCzsTQ+EAKZJqOpCcV5QPs0D49lmimAM5eOnxpaki6H3pUYA1KUMzurJj7qlSg==";
+        };
+        _Np5j4zvm = {
+            "id" = "Np5j4zvm";
+            "file" = "twilightdelight-3.2.4.jar";
+            "hash" = "sha512-wgWuNQ6zVH0kBlYJ6CJMyI7T6/Q5+nR+qAybJnRwH7IenAAlUz7s6YK1lCN0hew21hp2/+cbiJ2HcuDaPLygxw==";
+        };
+        _D7y7fmoA = {
+            "id" = "D7y7fmoA";
+            "file" = "twilightdelight-2.2.5.jar";
+            "hash" = "sha512-nThouJFAmlmPaJCE6rzlOLmOZJHscxHlhkrNwhE/aDE5Os1mK3UmervtY6bMGZ06p8ZkivPBSSMzUA4UFyTqyA==";
+        };
+        _amDzSxxk = {
+            "id" = "amDzSxxk";
+            "file" = "twilightdelight-3.2.5.jar";
+            "hash" = "sha512-mTxFs/vbmuK83BdvUv21w5HMsaGCeHB3cxzS5DPFb2vQB+1UP9y/SPfiP8pXHVESrMVIsxtyxm+lczeC5hbFBQ==";
+        };
+        _373z6J9B = {
+            "id" = "373z6J9B";
+            "file" = "twilightdelight-3.2.6.jar";
+            "hash" = "sha512-/ED5K6f4S3a6gNPWr+PPXhmmlzuqRlFSvYElibn0iM9zMuTvxX14s6IWRNMCGYtqtBKsBJfNN234BefvuQfqbw==";
+        };
     in {
         "8teZegg3" = _8teZegg3;
         "PKxkO6HV" = _PKxkO6HV;
@@ -212,10 +247,17 @@ let
         "80g5Aw6p" = _80g5Aw6p;
         "toJxHyZ0" = _toJxHyZ0;
         "HNXR3CwJ" = _HNXR3CwJ;
+        "2AcjkhfY" = _2AcjkhfY;
+        "CzVgk3Hn" = _CzVgk3Hn;
+        "Dr65HYIY" = _Dr65HYIY;
+        "Np5j4zvm" = _Np5j4zvm;
+        "D7y7fmoA" = _D7y7fmoA;
+        "amDzSxxk" = _amDzSxxk;
+        "373z6J9B" = _373z6J9B;
         "forge-1.19.2" = _Iy0nnP4D;
-        "forge-1.20.1" = _toJxHyZ0;
-        "neoforge-1.20.1" = _toJxHyZ0;
-        "neoforge-1.21.1" = _HNXR3CwJ;
+        "forge-1.20.1" = _D7y7fmoA;
+        "neoforge-1.20.1" = _D7y7fmoA;
+        "neoforge-1.21.1" = _373z6J9B;
         "pkg-1.2.3" = _8teZegg3;
         "pkg-1.2.4" = _PKxkO6HV;
         "pkg-1.2.5" = _FVpUOJCY;
@@ -251,7 +293,14 @@ let
         "pkg-3.2.1" = _80g5Aw6p;
         "pkg-2.2.2" = _toJxHyZ0;
         "pkg-3.2.2" = _HNXR3CwJ;
-        "default" = _HNXR3CwJ;
+        "pkg-2.2.3" = _2AcjkhfY;
+        "pkg-2.2.4" = _CzVgk3Hn;
+        "pkg-3.2.3" = _Dr65HYIY;
+        "pkg-3.2.4" = _Np5j4zvm;
+        "pkg-2.2.5" = _D7y7fmoA;
+        "pkg-3.2.5" = _amDzSxxk;
+        "pkg-3.2.6" = _373z6J9B;
+        "default" = _373z6J9B;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "twilight-delight";

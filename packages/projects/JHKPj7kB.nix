@@ -41,6 +41,16 @@ let
             "file" = "sound-physics-remastered-neoforge-1.4.0.1.jar";
             "hash" = "sha512-443Tg2FnNjECiX0cdjL0ZdC0XQqwgWH03YT7+u8tPQrPzHyMUsf1BjdhH5SHkMLoQQmm7BtDrNF7bUp6cDQrKQ==";
         };
+        _gwYzyMzN = {
+            "id" = "gwYzyMzN";
+            "file" = "sound-physics-aeronautics-2.0.0.jar";
+            "hash" = "sha512-jUGK77Rh5Po12AwC1KhPragKSaLCtEnolMJLZsp2ddytzpW4swG1Q7RbjYzCkR0DI/pfFq5gr9FJAYHnJA1hvQ==";
+        };
+        _MDdwFCrR = {
+            "id" = "MDdwFCrR";
+            "file" = "sound-physics-aeronautics-2.0.1.jar";
+            "hash" = "sha512-YJThLVxO+JV+IIZxU4crO9vOogKkkkKWyHZ2ctOut6NDVNE/p462uA2s0bH7tOn7E+Wz8lhWRIE7Cm3sqo0/sQ==";
+        };
     in {
         "2vOuXy7f" = _2vOuXy7f;
         "R3qhVH9r" = _R3qhVH9r;
@@ -50,8 +60,10 @@ let
         "UTWPZYUP" = _UTWPZYUP;
         "rgrMIQVX" = _rgrMIQVX;
         "Io3PzZ4M" = _Io3PzZ4M;
-        "neoforge-1.21.1" = _Io3PzZ4M;
-        "neoforge-1.21" = _Io3PzZ4M;
+        "gwYzyMzN" = _gwYzyMzN;
+        "MDdwFCrR" = _MDdwFCrR;
+        "neoforge-1.21.1" = _MDdwFCrR;
+        "neoforge-1.21" = _MDdwFCrR;
         "pkg-1.0.0" = _2vOuXy7f;
         "pkg-1.1.0" = _R3qhVH9r;
         "pkg-1.2.0" = _bCFn9jyV;
@@ -60,7 +72,9 @@ let
         "pkg-1.3.0.2" = _UTWPZYUP;
         "pkg-1.4.0" = _rgrMIQVX;
         "pkg-1.4.0.1" = _Io3PzZ4M;
-        "default" = _Io3PzZ4M;
+        "pkg-2.0.0" = _gwYzyMzN;
+        "pkg-2.0.1" = _MDdwFCrR;
+        "default" = _MDdwFCrR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sound-physics-aeronautics";

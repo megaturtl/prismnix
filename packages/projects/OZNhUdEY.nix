@@ -570,6 +570,7 @@ let
         "fabric-26.3-rc-1" = _ENkiVcE9;
         "fabric-26.3-rc-2" = _ENkiVcE9;
         "fabric-26.3" = _6h08hrao;
+        "fabric-26.4-snapshot-1" = _6h08hrao;
         "pkg-1.0.0" = _O0DxUlnH;
         "pkg-2.0.1" = _RsTNzbwf;
         "pkg-1.0.2" = _tCjboiAv;

@@ -76,6 +76,16 @@ let
             "file" = "nightvisiontoggle-1.0.4.jar";
             "hash" = "sha512-pxdx6wtFMHdbwjd68Ia4fwAcDlOlTKDETwwFspurCmDXCKxSf2PDstKa3+AbaZrqCyOaw10Yebkhv07j+JfuPw==";
         };
+        _p4rusGvk = {
+            "id" = "p4rusGvk";
+            "file" = "nightvisiontoggle-1.0.4.jar";
+            "hash" = "sha512-BrQy9fQDai6VZ2NGhrIaOfGYrQVm6WQ0r4/F+uBxX84e86+QIniUOoGT0KitZbRGxbnirFFXIVxcymIuy0q/Sw==";
+        };
+        _6MYSXkg8 = {
+            "id" = "6MYSXkg8";
+            "file" = "nightvisiontoggle-1.0.4.jar";
+            "hash" = "sha512-ZRWCuVWQOWuwdwTUZrmU4dKbBilSBbI0X0+lQf+ukaQDOvhTjGI2DRxG6MQBatsxfSf1I3uaPOqrZr0kf+uuNg==";
+        };
     in {
         "EJnnQHlR" = _EJnnQHlR;
         "7iwhDteb" = _7iwhDteb;
@@ -92,6 +102,8 @@ let
         "3OP30TFj" = _3OP30TFj;
         "75KFgJQa" = _75KFgJQa;
         "DWvVe1Ho" = _DWvVe1Ho;
+        "p4rusGvk" = _p4rusGvk;
+        "6MYSXkg8" = _6MYSXkg8;
         "fabric-1.20" = _EJnnQHlR;
         "fabric-1.20.1" = _EJnnQHlR;
         "fabric-1.20.2" = _EJnnQHlR;
@@ -103,6 +115,7 @@ let
         "fabric-26.1.1" = _tIvl3VEe;
         "fabric-26.1.2" = _tIvl3VEe;
         "fabric-26.2" = _75KFgJQa;
+        "fabric-26.3" = _p4rusGvk;
         "neoforge-1.21.1" = _zkdNJn6u;
         "neoforge-1.21.10" = _pnl1RGhV;
         "neoforge-1.21.11" = _9QfbrdJq;
@@ -110,13 +123,14 @@ let
         "neoforge-26.1.1" = _3OP30TFj;
         "neoforge-26.1.2" = _3OP30TFj;
         "neoforge-26.2" = _DWvVe1Ho;
+        "neoforge-26.3" = _6MYSXkg8;
         "pkg-1.0.0" = _EJnnQHlR;
         "pkg-1.0" = _7iwhDteb;
         "pkg-1.0.1" = _z7q3PhMo;
         "pkg-1.0.2" = _zkdNJn6u;
         "pkg-1.0.3" = _9QfbrdJq;
-        "pkg-1.0.4" = _DWvVe1Ho;
-        "default" = _DWvVe1Ho;
+        "pkg-1.0.4" = _6MYSXkg8;
+        "default" = _6MYSXkg8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nightvisiontoggle";

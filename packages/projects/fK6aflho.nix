@@ -71,6 +71,16 @@ let
             "file" = "still-life-0.2.jar";
             "hash" = "sha512-pXUhHY5zfnKQ+lm/W3SpUdqAmp2gvLtup/Lrfzmw3gbODCbmCdxfmJ0RJ9O98btmcv9npM5WU6dX2ujNUkvtOA==";
         };
+        _z3iTKprn = {
+            "id" = "z3iTKprn";
+            "file" = "still_life 0.3 23.09.2026.zip";
+            "hash" = "sha512-nPJiltuOkBpAfdyKosRsyQMEGuwz3wbq36A8KJK+JW77HYrTvMuPIkVarXm/GbafELAtRzXNeY9OQOvugJcjhw==";
+        };
+        _eotUMI1K = {
+            "id" = "eotUMI1K";
+            "file" = "still-life-0.3.jar";
+            "hash" = "sha512-rrPybB+qLzOyYSxOBFTj6do3Wcli2W23Y5ie7S9NVSrhERlToT8XWqCOO86Fkw1cBhGvxZ57eFXLJFl8icVOvA==";
+        };
     in {
         "JNWwti7B" = _JNWwti7B;
         "lYmXmwwj" = _lYmXmwwj;
@@ -86,6 +96,8 @@ let
         "btRqelsL" = _btRqelsL;
         "z55fBbb2" = _z55fBbb2;
         "DfG6wLbI" = _DfG6wLbI;
+        "z3iTKprn" = _z3iTKprn;
+        "eotUMI1K" = _eotUMI1K;
         "datapack-1.20.5" = _DPNeBW37;
         "datapack-1.20.6" = _DPNeBW37;
         "datapack-1.21" = _DPNeBW37;
@@ -98,10 +110,10 @@ let
         "datapack-1.21.2" = _XDJSIy6o;
         "datapack-1.21.3" = _XDJSIy6o;
         "datapack-1.21.4" = _lGPGpmxa;
-        "datapack-1.21.5" = _z55fBbb2;
-        "datapack-1.21.6" = _z55fBbb2;
-        "datapack-1.21.7" = _z55fBbb2;
-        "datapack-1.21.8" = _z55fBbb2;
+        "datapack-1.21.5" = _z3iTKprn;
+        "datapack-1.21.6" = _z3iTKprn;
+        "datapack-1.21.7" = _z3iTKprn;
+        "datapack-1.21.8" = _z3iTKprn;
         "fabric-1.20.5" = _Jerfht2T;
         "fabric-1.20.6" = _Jerfht2T;
         "fabric-1.21" = _Jerfht2T;
@@ -114,10 +126,10 @@ let
         "fabric-1.21.2" = _BF2837BT;
         "fabric-1.21.3" = _BF2837BT;
         "fabric-1.21.4" = _btRqelsL;
-        "fabric-1.21.5" = _DfG6wLbI;
-        "fabric-1.21.6" = _DfG6wLbI;
-        "fabric-1.21.7" = _DfG6wLbI;
-        "fabric-1.21.8" = _DfG6wLbI;
+        "fabric-1.21.5" = _eotUMI1K;
+        "fabric-1.21.6" = _eotUMI1K;
+        "fabric-1.21.7" = _eotUMI1K;
+        "fabric-1.21.8" = _eotUMI1K;
         "forge-1.20.5" = _Jerfht2T;
         "forge-1.20.6" = _Jerfht2T;
         "forge-1.21" = _Jerfht2T;
@@ -130,10 +142,10 @@ let
         "forge-1.21.2" = _BF2837BT;
         "forge-1.21.3" = _BF2837BT;
         "forge-1.21.4" = _btRqelsL;
-        "forge-1.21.5" = _DfG6wLbI;
-        "forge-1.21.6" = _DfG6wLbI;
-        "forge-1.21.7" = _DfG6wLbI;
-        "forge-1.21.8" = _DfG6wLbI;
+        "forge-1.21.5" = _eotUMI1K;
+        "forge-1.21.6" = _eotUMI1K;
+        "forge-1.21.7" = _eotUMI1K;
+        "forge-1.21.8" = _eotUMI1K;
         "neoforge-1.20.5" = _Jerfht2T;
         "neoforge-1.20.6" = _Jerfht2T;
         "neoforge-1.21" = _Jerfht2T;
@@ -146,10 +158,10 @@ let
         "neoforge-1.21.2" = _BF2837BT;
         "neoforge-1.21.3" = _BF2837BT;
         "neoforge-1.21.4" = _btRqelsL;
-        "neoforge-1.21.5" = _DfG6wLbI;
-        "neoforge-1.21.6" = _DfG6wLbI;
-        "neoforge-1.21.7" = _DfG6wLbI;
-        "neoforge-1.21.8" = _DfG6wLbI;
+        "neoforge-1.21.5" = _eotUMI1K;
+        "neoforge-1.21.6" = _eotUMI1K;
+        "neoforge-1.21.7" = _eotUMI1K;
+        "neoforge-1.21.8" = _eotUMI1K;
         "quilt-1.20.5" = _Jerfht2T;
         "quilt-1.20.6" = _Jerfht2T;
         "quilt-1.21" = _Jerfht2T;
@@ -162,17 +174,19 @@ let
         "quilt-1.21.2" = _BF2837BT;
         "quilt-1.21.3" = _BF2837BT;
         "quilt-1.21.4" = _btRqelsL;
-        "quilt-1.21.5" = _DfG6wLbI;
-        "quilt-1.21.6" = _DfG6wLbI;
-        "quilt-1.21.7" = _DfG6wLbI;
-        "quilt-1.21.8" = _DfG6wLbI;
+        "quilt-1.21.5" = _eotUMI1K;
+        "quilt-1.21.6" = _eotUMI1K;
+        "quilt-1.21.7" = _eotUMI1K;
+        "quilt-1.21.8" = _eotUMI1K;
         "pkg-0.1" = _KoPF2Zi3;
         "pkg-0.1+mod" = _h9v4J65r;
         "pkg-0.1.1" = _lGPGpmxa;
         "pkg-0.1.1+mod" = _btRqelsL;
         "pkg-0.2" = _z55fBbb2;
         "pkg-0.2+mod" = _DfG6wLbI;
-        "default" = _DfG6wLbI;
+        "pkg-0.3" = _z3iTKprn;
+        "pkg-0.3+mod" = _eotUMI1K;
+        "default" = _eotUMI1K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "still-life";

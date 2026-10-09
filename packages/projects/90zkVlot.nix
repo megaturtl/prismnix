@@ -11,9 +11,21 @@ let
             "file" = "double-hit-enchantment-1.0.0.jar";
             "hash" = "sha512-Q9yEs8G/OhoCmIRJsAgx/nZOXgVNvKLiLADjjfVPF8rkJrmEUHvgHlLp7HmDOEPQqdMeXtaPJ+iWG9RoyoCy1w==";
         };
+        _aF0spv9F = {
+            "id" = "aF0spv9F";
+            "file" = "Double Hit Enchantment v1.0.0 [26.3].zip";
+            "hash" = "sha512-mex/h+8vYGM249zyRNEqbOimmIMdeiw3zzcQz8vuA1tHqR8p4Jiq3fHOj4gQlSJs/EJsWfOENy8xPS6gvf+psQ==";
+        };
+        _nvmThZac = {
+            "id" = "nvmThZac";
+            "file" = "double-hit-enchantment-1.0.0.jar";
+            "hash" = "sha512-s6xyTEX/gN9XDWOHHKIdyBBnbdKw5PGa53UbtPlk/XmOOXMIdqHR8z+LzLj5thBYrlDYXLriE+bqg/8z2DTz2w==";
+        };
     in {
         "HpLiaL0A" = _HpLiaL0A;
         "PCPAa2h7" = _PCPAa2h7;
+        "aF0spv9F" = _aF0spv9F;
+        "nvmThZac" = _nvmThZac;
         "datapack-1.21" = _HpLiaL0A;
         "datapack-1.21.1" = _HpLiaL0A;
         "datapack-1.21.2" = _HpLiaL0A;
@@ -30,6 +42,7 @@ let
         "datapack-26.1.1" = _HpLiaL0A;
         "datapack-26.1.2" = _HpLiaL0A;
         "datapack-26.2" = _HpLiaL0A;
+        "datapack-26.3" = _aF0spv9F;
         "fabric-1.21" = _PCPAa2h7;
         "fabric-1.21.1" = _PCPAa2h7;
         "fabric-1.21.2" = _PCPAa2h7;
@@ -46,6 +59,7 @@ let
         "fabric-26.1.1" = _PCPAa2h7;
         "fabric-26.1.2" = _PCPAa2h7;
         "fabric-26.2" = _PCPAa2h7;
+        "fabric-26.3" = _nvmThZac;
         "forge-1.21" = _PCPAa2h7;
         "forge-1.21.1" = _PCPAa2h7;
         "forge-1.21.2" = _PCPAa2h7;
@@ -62,6 +76,7 @@ let
         "forge-26.1.1" = _PCPAa2h7;
         "forge-26.1.2" = _PCPAa2h7;
         "forge-26.2" = _PCPAa2h7;
+        "forge-26.3" = _nvmThZac;
         "neoforge-1.21" = _PCPAa2h7;
         "neoforge-1.21.1" = _PCPAa2h7;
         "neoforge-1.21.2" = _PCPAa2h7;
@@ -78,6 +93,7 @@ let
         "neoforge-26.1.1" = _PCPAa2h7;
         "neoforge-26.1.2" = _PCPAa2h7;
         "neoforge-26.2" = _PCPAa2h7;
+        "neoforge-26.3" = _nvmThZac;
         "quilt-1.21" = _PCPAa2h7;
         "quilt-1.21.1" = _PCPAa2h7;
         "quilt-1.21.2" = _PCPAa2h7;
@@ -94,9 +110,10 @@ let
         "quilt-26.1.1" = _PCPAa2h7;
         "quilt-26.1.2" = _PCPAa2h7;
         "quilt-26.2" = _PCPAa2h7;
-        "pkg-1.0.0" = _HpLiaL0A;
-        "pkg-1.0.0+mod" = _PCPAa2h7;
-        "default" = _PCPAa2h7;
+        "quilt-26.3" = _nvmThZac;
+        "pkg-1.0.0" = _aF0spv9F;
+        "pkg-1.0.0+mod" = _nvmThZac;
+        "default" = _nvmThZac;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "double-hit-enchantment";

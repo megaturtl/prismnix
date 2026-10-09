@@ -31,6 +31,11 @@ let
             "file" = "fish_bucket_variants_v1.0.zip";
             "hash" = "sha512-FgJY4RDLcP6vpsYMsqh6E/bB7m6c7J/tt8T0IxPZhG7OjFWZqFM6XBytOl30kQtyPJaD5jz58jN2f/itlDL6vw==";
         };
+        _HyR4P03Z = {
+            "id" = "HyR4P03Z";
+            "file" = "Fish_Bucket_Variants_v2.3.1.zip";
+            "hash" = "sha512-ioYd2oRKfAZutux5cQrAukTm2qQWYVtsSNSoviyZkzrXwGnBxTqX25/idIDWeqjITdfi24/cSvABh23w2fCF2Q==";
+        };
     in {
         "rnP8KV8a" = _rnP8KV8a;
         "Pzk9Jroo" = _Pzk9Jroo;
@@ -38,18 +43,28 @@ let
         "tQvo2rh1" = _tQvo2rh1;
         "JJU8EiJs" = _JJU8EiJs;
         "jaCFzG0H" = _jaCFzG0H;
+        "HyR4P03Z" = _HyR4P03Z;
         "minecraft-25w10a" = _rnP8KV8a;
-        "minecraft-1.21.5" = _jaCFzG0H;
-        "minecraft-1.21.6" = _jaCFzG0H;
-        "minecraft-1.21.7" = _jaCFzG0H;
-        "minecraft-1.21.8" = _jaCFzG0H;
+        "minecraft-1.21.5" = _HyR4P03Z;
+        "minecraft-1.21.6" = _HyR4P03Z;
+        "minecraft-1.21.7" = _HyR4P03Z;
+        "minecraft-1.21.8" = _HyR4P03Z;
+        "minecraft-1.21.9" = _HyR4P03Z;
+        "minecraft-1.21.10" = _HyR4P03Z;
+        "minecraft-1.21.11" = _HyR4P03Z;
+        "minecraft-26.1" = _HyR4P03Z;
+        "minecraft-26.1.1" = _HyR4P03Z;
+        "minecraft-26.1.2" = _HyR4P03Z;
+        "minecraft-26.2" = _HyR4P03Z;
+        "minecraft-26.3" = _HyR4P03Z;
         "pkg-a01" = _rnP8KV8a;
         "pkg-a02" = _Pzk9Jroo;
         "pkg-b01" = _nP8OKolL;
         "pkg-b02" = _tQvo2rh1;
         "pkg-b03" = _JJU8EiJs;
         "pkg-v1.0" = _jaCFzG0H;
-        "default" = _jaCFzG0H;
+        "pkg-2.3.1" = _HyR4P03Z;
+        "default" = _HyR4P03Z;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fish-bucket-variants";

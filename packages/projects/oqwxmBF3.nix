@@ -36,6 +36,26 @@ let
             "file" = "Opposing-Force-1.21.1-3.0.0-beta2.jar";
             "hash" = "sha512-GXxN8f02mQqFRUEMyBdYYVUmOyldwS3K0Mbb+st/xNz+Dx+0jttj+4nSoKIdHlNkXS6zv00XVmMF/itDOZZSRw==";
         };
+        _gQDhCcC1 = {
+            "id" = "gQDhCcC1";
+            "file" = "Opposing-Force-1.21.1-3.0.0-beta3.jar";
+            "hash" = "sha512-9bscSlY4y9/AY/n/kIcnbh+gauUGLxN8xNaHZTyFyPfj2222iJRtvxtR6NRCEdeFCJOR3hABFmgSKZZ2BPuoxg==";
+        };
+        _vAKyQObz = {
+            "id" = "vAKyQObz";
+            "file" = "Opposing-Force-1.21.1-3.0.0-beta4.jar";
+            "hash" = "sha512-oD6EI0lNnViDSqw/fHNxBIeUQCrtWYmaTVdOB0dPxrOuTdFAFOTul8O1fIBCMF92GEUI1ZmQSATlg0hDMDgMRw==";
+        };
+        _XepfTw0W = {
+            "id" = "XepfTw0W";
+            "file" = "Opposing-Force-1.21.1-3.0.0-beta5.jar";
+            "hash" = "sha512-ZfHkcqqzdXtfkfi/YR8G4h58Regz9Em8TEF+RhPMgaVuEc1aXsV+t5FCqdpULvGcF5clZLPHUWBXTJVaEGueug==";
+        };
+        _Nzc0m7m6 = {
+            "id" = "Nzc0m7m6";
+            "file" = "Opposing-Force-1.21.1-3.0.0-beta6.jar";
+            "hash" = "sha512-XSTASfl35JbVRdEgiqzuenlkwdBAvCDFwWdOUa4TP2LaaE/dLcvSVW+4MqGqy2CEjSddjopPk4PujZFM1Tu5gQ==";
+        };
     in {
         "aeRTfo1z" = _aeRTfo1z;
         "v5amgny3" = _v5amgny3;
@@ -44,8 +64,12 @@ let
         "Hkj2U5KD" = _Hkj2U5KD;
         "UPP5GCsC" = _UPP5GCsC;
         "G7jsWxhv" = _G7jsWxhv;
+        "gQDhCcC1" = _gQDhCcC1;
+        "vAKyQObz" = _vAKyQObz;
+        "XepfTw0W" = _XepfTw0W;
+        "Nzc0m7m6" = _Nzc0m7m6;
         "forge-1.20.1" = _Hkj2U5KD;
-        "neoforge-1.21.1" = _G7jsWxhv;
+        "neoforge-1.21.1" = _Nzc0m7m6;
         "pkg-1.0.0" = _aeRTfo1z;
         "pkg-1.20.1-2.0.0" = _v5amgny3;
         "pkg-1.20.1-2.0.1" = _rTjX6BmG;
@@ -53,7 +77,11 @@ let
         "pkg-1.20.1-2.0.3" = _Hkj2U5KD;
         "pkg-3.0.0-beta1" = _UPP5GCsC;
         "pkg-3.0.0-beta2" = _G7jsWxhv;
-        "default" = _G7jsWxhv;
+        "pkg-3.0.0-beta3" = _gQDhCcC1;
+        "pkg-3.0.0-beta4" = _vAKyQObz;
+        "pkg-3.0.0-beta5" = _XepfTw0W;
+        "pkg-3.0.0-beta6" = _Nzc0m7m6;
+        "default" = _Nzc0m7m6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "opposing-force";

@@ -16,15 +16,23 @@ let
             "file" = "old-armor-hud-1.0.3.jar";
             "hash" = "sha512-qaPm7h4bck6DWv1z9m44p9csZM67Xz8vdZ2YUS74mw1UR/8PvLHD6Yd21JTvWPag/4szl3RE3JOWxnxnyExkrA==";
         };
+        _IUPCaAlA = {
+            "id" = "IUPCaAlA";
+            "file" = "old-armor-hud-1.0.4.jar";
+            "hash" = "sha512-mgzgwMPhWNcOU+QB04XJNc0DdpOP6ykO8dVpRCnu2Uy++rz2WKrdfDwO+9LzInDSiiXdfd+T4DEXFHH8m9DvHQ==";
+        };
     in {
         "SLrXpSCa" = _SLrXpSCa;
         "rJ9UxY3S" = _rJ9UxY3S;
         "2Ft4w6GE" = _2Ft4w6GE;
+        "IUPCaAlA" = _IUPCaAlA;
         "fabric-26.2" = _2Ft4w6GE;
+        "fabric-26.3" = _IUPCaAlA;
         "pkg-1.0.1" = _SLrXpSCa;
         "pkg-1.0.2" = _rJ9UxY3S;
         "pkg-1.0.3" = _2Ft4w6GE;
-        "default" = _2Ft4w6GE;
+        "pkg-1.0.4" = _IUPCaAlA;
+        "default" = _IUPCaAlA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "old-armor-hud";

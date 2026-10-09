@@ -256,6 +256,16 @@ let
             "file" = "bclib-26.1.7-fabric.jar";
             "hash" = "sha512-MuITNgNVUD55oIBjJWr30W44Ulyfv5FNkGS/nTaIvZUw+B1QoC338aU4pm6fLytsWLY1PBOfLYLhEjbgrY6FuQ==";
         };
+        _b1iV5ZfB = {
+            "id" = "b1iV5ZfB";
+            "file" = "bclib-26.3.0.jar";
+            "hash" = "sha512-YDxF4bssD4/TvaQHil0E5cOwxbe5CbPMD+ABEdmrFTqVQVzu53gSd5Sbf21F+4fOG3lvBqt3HQMHGd3WuQCJYg==";
+        };
+        _LvQQ2vvU = {
+            "id" = "LvQQ2vvU";
+            "file" = "bclib-26.3.0-fabric.jar";
+            "hash" = "sha512-wH3HaJxM6AxYVMgGfnERHqEDxpFEeN9cO7IHurpHuGrr8xTFm65fUNGOsQuRXFIaUqvJbX3eISQuBDtT6boFRQ==";
+        };
     in {
         "khLZJo7j" = _khLZJo7j;
         "txoItQh7" = _txoItQh7;
@@ -308,6 +318,8 @@ let
         "yWDI0LzD" = _yWDI0LzD;
         "ReVwhzaq" = _ReVwhzaq;
         "pBGh2PdD" = _pBGh2PdD;
+        "b1iV5ZfB" = _b1iV5ZfB;
+        "LvQQ2vvU" = _LvQQ2vvU;
         "neoforge-1.21" = _QkXw8Fsl;
         "neoforge-1.21.1" = _QkXw8Fsl;
         "neoforge-1.21.11" = _jpMjvhhY;
@@ -315,6 +327,7 @@ let
         "neoforge-26.1.1" = _ReVwhzaq;
         "neoforge-26.1.2" = _ReVwhzaq;
         "neoforge-26.2" = _eG7D1ymh;
+        "neoforge-26.3" = _b1iV5ZfB;
         "fabric-1.21" = _jHM6fpqx;
         "fabric-1.21.1" = _jHM6fpqx;
         "fabric-1.21.11" = _suWzGYOT;
@@ -322,6 +335,7 @@ let
         "fabric-26.1.1" = _pBGh2PdD;
         "fabric-26.1.2" = _pBGh2PdD;
         "fabric-26.2" = _yWDI0LzD;
+        "fabric-26.3" = _LvQQ2vvU;
         "quilt-1.21" = _jHM6fpqx;
         "quilt-1.21.1" = _jHM6fpqx;
         "quilt-1.21.11" = _suWzGYOT;
@@ -329,6 +343,7 @@ let
         "quilt-26.1.1" = _pBGh2PdD;
         "quilt-26.1.2" = _pBGh2PdD;
         "quilt-26.2" = _yWDI0LzD;
+        "quilt-26.3" = _LvQQ2vvU;
         "pkg-21.0.14" = _khLZJo7j;
         "pkg-21.0.15" = _oazs77Tx;
         "pkg-21.0.16" = _35Q8Qrp7;
@@ -377,7 +392,9 @@ let
         "pkg-26.2.2-fabric" = _yWDI0LzD;
         "pkg-26.1.7" = _ReVwhzaq;
         "pkg-26.1.7-fabric" = _pBGh2PdD;
-        "default" = _pBGh2PdD;
+        "pkg-26.3.0" = _b1iV5ZfB;
+        "pkg-26.3.0-fabric" = _LvQQ2vvU;
+        "default" = _LvQQ2vvU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bclib-neoforge";

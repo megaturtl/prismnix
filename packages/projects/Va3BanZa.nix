@@ -171,6 +171,21 @@ let
             "file" = "E19 Cobblemon Minimap Icons.zip";
             "hash" = "sha512-jH1blk7ihFb4vVrW2NCQXnK1KH04hyt14kdi+cvuZmTWHEGsUkQyg2iNyTnG+dNlEumoSa8PkRjmnWSlX+zhlg==";
         };
+        _yYa0GCRG = {
+            "id" = "yYa0GCRG";
+            "file" = "E19 Cobblemon Minimap Icons.zip";
+            "hash" = "sha512-TtDjUDV6/ggsYMmtctjWF3KU7JIIIC/wQ61uNbcXKPO9Nz5G+vD+NWWelU4aYuBbM3Op2vbQd+ZJiKZiGwVVmA==";
+        };
+        _cdPx895P = {
+            "id" = "cdPx895P";
+            "file" = "E19 Master Klefki Version.zip";
+            "hash" = "sha512-NTMBH9onXg8IKuhrf87okSV8AHQJjIqQGYbVN1tD/sGlImCwxo1OozHEzxeH7B7vvbH+JMafF1C07l5i++FbYA==";
+        };
+        _KFRx7psn = {
+            "id" = "KFRx7psn";
+            "file" = "E19 Cobblemon Minimap Icons.zip";
+            "hash" = "sha512-NEMzQkZDqD0xOFl+Q1VkwCOyPbR+TcrS5KTUg+7h3Q9vXj4Fwgz+pvD1iLnYpNgdWKX060RDxC10KinOZwAOlw==";
+        };
     in {
         "50M8yPQp" = _50M8yPQp;
         "CPfFNkjI" = _CPfFNkjI;
@@ -206,10 +221,13 @@ let
         "HbtFieA6" = _HbtFieA6;
         "963XH42m" = _963XH42m;
         "YGgixlha" = _YGgixlha;
+        "yYa0GCRG" = _yYa0GCRG;
+        "cdPx895P" = _cdPx895P;
+        "KFRx7psn" = _KFRx7psn;
         "minecraft-1.20.1" = _BS06iQwN;
-        "minecraft-1.21.1" = _YGgixlha;
+        "minecraft-1.21.1" = _KFRx7psn;
         "minecraft-1.20" = _BS06iQwN;
-        "minecraft-1.21" = _YGgixlha;
+        "minecraft-1.21" = _KFRx7psn;
         "pkg-1.0.1" = _50M8yPQp;
         "pkg-1.0.2" = _CPfFNkjI;
         "pkg-1.0.3" = _8JjogEof;
@@ -244,7 +262,10 @@ let
         "pkg-1.4.2" = _HbtFieA6;
         "pkg-1.4.3" = _963XH42m;
         "pkg-1.4.4" = _YGgixlha;
-        "default" = _YGgixlha;
+        "pkg-1.5.0" = _yYa0GCRG;
+        "pkg-1.5.1a" = _cdPx895P;
+        "pkg-1.5.1" = _KFRx7psn;
+        "default" = _KFRx7psn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "e19_cobblemon_minimap_icons";

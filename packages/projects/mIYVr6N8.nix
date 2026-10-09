@@ -81,6 +81,16 @@ let
             "file" = "sulfurcavesbackport-1.3.1-fabric-1.21.8.jar";
             "hash" = "sha512-r1sh/q0j+kLO+Z0gfvSzJzgbGZQ4gdDEvsW9OAT45TYu6NniYzM5nW8zuurambT1lie+Y4zjVeL5/IjgS1FaMQ==";
         };
+        _nVRozDnw = {
+            "id" = "nVRozDnw";
+            "file" = "sulfurcavesbackport-1.3.1-neoforge-26.1.2.jar";
+            "hash" = "sha512-7VsbeKuFCorAERrRr0racTCW4Qd73DCq9hP2U335mNxNEBWKauYq7E8ZM6fiHOA0k1nrUXXq+5YACIOqI1bUvA==";
+        };
+        _f9rMmWe0 = {
+            "id" = "f9rMmWe0";
+            "file" = "sulfurcavesbackport-1.3.1-fabric-26.1.2.jar";
+            "hash" = "sha512-zmTHryHWnBudJzhF6Bb+nD7jFjeBLYBtiz6IyiGwf2g9hpUhK8+XXF4RdYSxRUfEthyZRyrqI0V+AzAECW2zIw==";
+        };
     in {
         "XiAjsPDS" = _XiAjsPDS;
         "E0IsmI24" = _E0IsmI24;
@@ -98,15 +108,19 @@ let
         "Yn9k3m90" = _Yn9k3m90;
         "Ecr1UCVJ" = _Ecr1UCVJ;
         "YZGPLHhl" = _YZGPLHhl;
+        "nVRozDnw" = _nVRozDnw;
+        "f9rMmWe0" = _f9rMmWe0;
         "neoforge-1.21.1" = _GiE4VpV4;
         "neoforge-1.21.8" = _Ecr1UCVJ;
+        "neoforge-26.1.2" = _nVRozDnw;
         "forge-1.20.1" = _Yn9k3m90;
         "fabric-1.21.8" = _YZGPLHhl;
+        "fabric-26.1.2" = _f9rMmWe0;
         "pkg-1.0" = _D5QHKiKS;
         "pkg-1.1" = _CqUWAsq1;
         "pkg-1.3" = _NN3WvLQf;
-        "pkg-1.3.1" = _YZGPLHhl;
-        "default" = _YZGPLHhl;
+        "pkg-1.3.1" = _f9rMmWe0;
+        "default" = _f9rMmWe0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sulfur-caves-backport";

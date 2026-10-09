@@ -26,12 +26,24 @@ let
             "file" = "force-port-fabric-1.0.2+26.1.jar";
             "hash" = "sha512-01/x+27n1Jxa5JzwPX6GCUiW5NalFvZyhzHM2xxwyk3cn7AJvzultbB4ziKhlnroxL6RNAg6p6GCh8oZc/UZpw==";
         };
+        _at9fcKcM = {
+            "id" = "at9fcKcM";
+            "file" = "force-port-fabric-1.0.2+26.2.jar";
+            "hash" = "sha512-oEEruHtawR02p1VDE2wr6rcJ5hHG0bJO/L3bQ2eAPQ3bu7BXKVqRAZqi59HihR7NFelU3P8CtMXjNo5kUlSMzA==";
+        };
+        _x0NQ7Rwj = {
+            "id" = "x0NQ7Rwj";
+            "file" = "force-port-fabric-1.0.2+26.3.jar";
+            "hash" = "sha512-erkFpB/97YSmAzOvurHGzUJfDrA9dDVY9cakeRLs9Kkn0qTLkQQJF2KDPtbgrQPKyQYsWy/Qyn0lFJC9ZQ5NkA==";
+        };
     in {
         "1qYfHTxk" = _1qYfHTxk;
         "9SDW3dPm" = _9SDW3dPm;
         "kIKAid8S" = _kIKAid8S;
         "HNmO4kfO" = _HNmO4kfO;
         "fhhAe6Mv" = _fhhAe6Mv;
+        "at9fcKcM" = _at9fcKcM;
+        "x0NQ7Rwj" = _x0NQ7Rwj;
         "fabric-1.14" = _HNmO4kfO;
         "fabric-1.14.1" = _HNmO4kfO;
         "fabric-1.14.2" = _HNmO4kfO;
@@ -76,6 +88,8 @@ let
         "fabric-1.21.10" = _HNmO4kfO;
         "fabric-1.21.11" = _HNmO4kfO;
         "fabric-26.1" = _fhhAe6Mv;
+        "fabric-26.2" = _at9fcKcM;
+        "fabric-26.3" = _x0NQ7Rwj;
         "quilt-1.14" = _HNmO4kfO;
         "quilt-1.14.1" = _HNmO4kfO;
         "quilt-1.14.2" = _HNmO4kfO;
@@ -120,6 +134,8 @@ let
         "quilt-1.21.10" = _HNmO4kfO;
         "quilt-1.21.11" = _HNmO4kfO;
         "quilt-26.1" = _fhhAe6Mv;
+        "quilt-26.2" = _at9fcKcM;
+        "quilt-26.3" = _x0NQ7Rwj;
         "legacy-fabric-1.0" = _9SDW3dPm;
         "legacy-fabric-1.1" = _9SDW3dPm;
         "legacy-fabric-1.2.1" = _9SDW3dPm;
@@ -178,7 +194,9 @@ let
         "pkg-1.0.0" = _kIKAid8S;
         "pkg-1.0.1" = _HNmO4kfO;
         "pkg-1.0.2+26.1" = _fhhAe6Mv;
-        "default" = _fhhAe6Mv;
+        "pkg-1.0.2+26.2" = _at9fcKcM;
+        "pkg-1.0.2+26.3" = _x0NQ7Rwj;
+        "default" = _x0NQ7Rwj;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "forceport";

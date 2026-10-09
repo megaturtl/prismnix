@@ -106,6 +106,11 @@ let
             "file" = "AOneBlock-1.27.1.jar";
             "hash" = "sha512-45b3xrkeTn1m4VIfv0sLgShyBYQgvjfvxKNjsEf5MYNLnxsYUv2whClS+HamETrhb2y2Eh5lVnDCF666U2rRSw==";
         };
+        _SO3SQFxw = {
+            "id" = "SO3SQFxw";
+            "file" = "AOneBlock-1.28.0.jar";
+            "hash" = "sha512-8IVHe7wy6SX0bdfmTaazubLmJfrUD2d2ZGH4+uo4IzTm14vM5bnGpGckGDB6uNV8M2dIPYGquCcSkggDm4OTfA==";
+        };
     in {
         "IO27pmSN" = _IO27pmSN;
         "EfIJQl9I" = _EfIJQl9I;
@@ -128,6 +133,7 @@ let
         "hXw4cKZJ" = _hXw4cKZJ;
         "fyLY9b3M" = _fyLY9b3M;
         "otcJ28wm" = _otcJ28wm;
+        "SO3SQFxw" = _SO3SQFxw;
         "paper-1.19" = _IO27pmSN;
         "paper-1.19.1" = _IO27pmSN;
         "paper-1.19.2" = _IO27pmSN;
@@ -137,16 +143,16 @@ let
         "paper-1.20.4" = _EfIJQl9I;
         "paper-1.21.3" = _wFWWEFPg;
         "paper-1.21.4" = _wFWWEFPg;
-        "paper-1.21.5" = _otcJ28wm;
-        "paper-1.21.6" = _otcJ28wm;
-        "paper-1.21.7" = _otcJ28wm;
-        "paper-1.21.8" = _otcJ28wm;
-        "paper-1.21.9" = _otcJ28wm;
-        "paper-1.21.10" = _otcJ28wm;
-        "paper-1.21.11" = _otcJ28wm;
-        "paper-26.1" = _otcJ28wm;
-        "paper-26.1.1" = _otcJ28wm;
-        "paper-26.1.2" = _otcJ28wm;
+        "paper-1.21.5" = _SO3SQFxw;
+        "paper-1.21.6" = _SO3SQFxw;
+        "paper-1.21.7" = _SO3SQFxw;
+        "paper-1.21.8" = _SO3SQFxw;
+        "paper-1.21.9" = _SO3SQFxw;
+        "paper-1.21.10" = _SO3SQFxw;
+        "paper-1.21.11" = _SO3SQFxw;
+        "paper-26.1" = _SO3SQFxw;
+        "paper-26.1.1" = _SO3SQFxw;
+        "paper-26.1.2" = _SO3SQFxw;
         "spigot-1.19" = _IO27pmSN;
         "spigot-1.19.1" = _IO27pmSN;
         "spigot-1.19.2" = _IO27pmSN;
@@ -158,16 +164,16 @@ let
         "spigot-1.21.4" = _U7Ez3cjS;
         "purpur-1.21.3" = _U7Ez3cjS;
         "purpur-1.21.4" = _U7Ez3cjS;
-        "purpur-1.21.5" = _otcJ28wm;
-        "purpur-1.21.6" = _otcJ28wm;
-        "purpur-1.21.7" = _otcJ28wm;
-        "purpur-1.21.8" = _otcJ28wm;
-        "purpur-1.21.9" = _otcJ28wm;
-        "purpur-1.21.10" = _otcJ28wm;
-        "purpur-1.21.11" = _otcJ28wm;
-        "purpur-26.1" = _otcJ28wm;
-        "purpur-26.1.1" = _otcJ28wm;
-        "purpur-26.1.2" = _otcJ28wm;
+        "purpur-1.21.5" = _SO3SQFxw;
+        "purpur-1.21.6" = _SO3SQFxw;
+        "purpur-1.21.7" = _SO3SQFxw;
+        "purpur-1.21.8" = _SO3SQFxw;
+        "purpur-1.21.9" = _SO3SQFxw;
+        "purpur-1.21.10" = _SO3SQFxw;
+        "purpur-1.21.11" = _SO3SQFxw;
+        "purpur-26.1" = _SO3SQFxw;
+        "purpur-26.1.1" = _SO3SQFxw;
+        "purpur-26.1.2" = _SO3SQFxw;
         "pkg-1.14.1" = _IO27pmSN;
         "pkg-1.15.0" = _EfIJQl9I;
         "pkg-1.18.0" = _6LGspEXt;
@@ -189,7 +195,8 @@ let
         "pkg-1.26.3" = _hXw4cKZJ;
         "pkg-1.27.0" = _fyLY9b3M;
         "pkg-1.27.1" = _otcJ28wm;
-        "default" = _otcJ28wm;
+        "pkg-1.28.0" = _SO3SQFxw;
+        "default" = _SO3SQFxw;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aoneblock";

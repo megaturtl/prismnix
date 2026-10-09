@@ -31,6 +31,11 @@ let
             "file" = "motionblurplus-26.2.jar";
             "hash" = "sha512-KaDK/exjfeBMLjoaZ3KfOxIZt5IlDt+mcLmKIeC/E56a+1ZgVNH4SZ+ryI+KsCvYrmIqG2RsTfZSaK9teyGmJQ==";
         };
+        _b63lihC1 = {
+            "id" = "b63lihC1";
+            "file" = "motionblurplus-26.3.jar";
+            "hash" = "sha512-tmaUvmGCPGBwsOnGh/S9F7Hy9BdSTD8tNneeeLV50b8V8ZDzizCceldJ2kw7+Z2cv5z/908mIKwW7GuaqJvutw==";
+        };
     in {
         "O6umzloH" = _O6umzloH;
         "s9TbR2Ff" = _s9TbR2Ff;
@@ -38,19 +43,22 @@ let
         "cY7YkURY" = _cY7YkURY;
         "Xzdg4d9R" = _Xzdg4d9R;
         "2nS9oAv4" = _2nS9oAv4;
+        "b63lihC1" = _b63lihC1;
         "fabric-1.21.10" = _O6umzloH;
         "fabric-1.21.11" = _s9TbR2Ff;
         "fabric-26.1" = _sIv8oHaK;
         "fabric-26.1.1" = _cY7YkURY;
         "fabric-26.1.2" = _Xzdg4d9R;
         "fabric-26.2" = _2nS9oAv4;
+        "fabric-26.3" = _b63lihC1;
         "pkg-1.21.10" = _O6umzloH;
         "pkg-1.21.11" = _s9TbR2Ff;
         "pkg-26.1" = _sIv8oHaK;
         "pkg-26.1.1" = _cY7YkURY;
         "pkg-26.1.2" = _Xzdg4d9R;
         "pkg-26.2" = _2nS9oAv4;
-        "default" = _2nS9oAv4;
+        "pkg-26.3" = _b63lihC1;
+        "default" = _b63lihC1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "motionblur-plus";

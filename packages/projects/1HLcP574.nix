@@ -61,6 +61,11 @@ let
             "file" = "equalsaplingrates-1.1.5.jar";
             "hash" = "sha512-djy6rcgxoo8vO0LaA8YNHVy8Vac6LQ3SRv1H692sh3XOMJGt4w3BK4C4jnEpoCmjNNqICxRY9sdqzT0MXsqQHw==";
         };
+        _odOVfkPY = {
+            "id" = "odOVfkPY";
+            "file" = "EqualSaplingRates-1.1.6.zip";
+            "hash" = "sha512-fY8tX/LO9Wg9DYeHNHmhrRonJ4c0n5ZZ0OUzWuaatcwzEbCIw19JENfjwgLEkeSyYbGdTPeRC+8rcAcAEs1njA==";
+        };
     in {
         "pYpvt8oE" = _pYpvt8oE;
         "FybWgn1K" = _FybWgn1K;
@@ -74,6 +79,7 @@ let
         "XXQqS43u" = _XXQqS43u;
         "FA0pNKh2" = _FA0pNKh2;
         "XvNvvTtU" = _XvNvvTtU;
+        "odOVfkPY" = _odOVfkPY;
         "datapack-1.19" = _pYpvt8oE;
         "datapack-1.19.1" = _pYpvt8oE;
         "datapack-1.19.2" = _pYpvt8oE;
@@ -101,6 +107,7 @@ let
         "datapack-26.1" = _FA0pNKh2;
         "datapack-26.1.1" = _FA0pNKh2;
         "datapack-26.1.2" = _FA0pNKh2;
+        "datapack-26.3" = _odOVfkPY;
         "fabric-1.19" = _NrtWzJVV;
         "fabric-1.19.1" = _NrtWzJVV;
         "fabric-1.19.2" = _NrtWzJVV;
@@ -221,7 +228,8 @@ let
         "pkg-1.1.4+mod" = _XXQqS43u;
         "pkg-1.1.5" = _FA0pNKh2;
         "pkg-1.1.5+mod" = _XvNvvTtU;
-        "default" = _XvNvvTtU;
+        "pkg-1.1.6" = _odOVfkPY;
+        "default" = _odOVfkPY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "equalsaplingrates";

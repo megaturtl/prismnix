@@ -76,6 +76,16 @@ let
             "file" = "pulse-trims-1.0.2-fabric-26.2.jar";
             "hash" = "sha512-ntwyLh0Kt4Vust2CWEz1/a5oLAc5Y0EefZAVvLNz6KQGO2RicoSKhx5PaqFW+u4Gqy9jUKN9A52yDaqWuEzhuQ==";
         };
+        _JZbou9c2 = {
+            "id" = "JZbou9c2";
+            "file" = "pulse-trims-1.0.2-fabric-26.3.jar";
+            "hash" = "sha512-VpGixaAFUQxPJcm2vY7WXbjYj0IB50kHsYkKLGy6lVqcVCUvHO1V/KtVYvya4cyxWKkNCFgAX2dEgd9ufYAsCw==";
+        };
+        _hV9vDnL2 = {
+            "id" = "hV9vDnL2";
+            "file" = "pulse-trims-1.0.3-fabric-26.3.jar";
+            "hash" = "sha512-t3hIZBh+hYlnWRFV7JCeKXLI4jlq8f79p/JRE+ZBGXRvyBx4sk/DvvK4H8ppIhypB/C+TZ8jJdNQyau1cv9myA==";
+        };
     in {
         "ekIQcI9B" = _ekIQcI9B;
         "JXJB8o3Y" = _JXJB8o3Y;
@@ -92,6 +102,8 @@ let
         "1vPhdDe5" = _1vPhdDe5;
         "97myOygK" = _97myOygK;
         "SdpzdPaT" = _SdpzdPaT;
+        "JZbou9c2" = _JZbou9c2;
+        "hV9vDnL2" = _hV9vDnL2;
         "fabric-1.20.1" = _h3lwDFkx;
         "fabric-1.21.1" = _7eMd7e5t;
         "fabric-1.21.11" = _1vPhdDe5;
@@ -99,10 +111,12 @@ let
         "fabric-26.1.1" = _97myOygK;
         "fabric-26.1.2" = _97myOygK;
         "fabric-26.2" = _SdpzdPaT;
+        "fabric-26.3" = _hV9vDnL2;
         "pkg-1.0.0" = _VpXwl06d;
         "pkg-1.0.1" = _lj3SSnlc;
-        "pkg-1.0.2" = _SdpzdPaT;
-        "default" = _SdpzdPaT;
+        "pkg-1.0.2" = _JZbou9c2;
+        "pkg-1.0.3" = _hV9vDnL2;
+        "default" = _hV9vDnL2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pulse-trims";

@@ -116,6 +116,11 @@ let
             "file" = "ep-custom-capes-fabric-1.0.5-26.2.jar";
             "hash" = "sha512-HytsSplqIAVrJJLXfa52EZ6XYVEmrkPhe8pNaZCPh9TKJz7ZQTIz4/Xh0iSTBwzfsRfNhEMmxfoU5Fd1wWla3w==";
         };
+        _mRXgpuYF = {
+            "id" = "mRXgpuYF";
+            "file" = "ep-custom-capes-fabric-1.0.5-26.3.jar";
+            "hash" = "sha512-6sseE3QkNLYuhN3z1hXFbkoqD9S/12uqepXC3mlS/IEy8jYeTA5gPKQPwKPWvXOP/os1lQbBjCOwpwfhF6ZCaQ==";
+        };
     in {
         "1VTWAVHx" = _1VTWAVHx;
         "YEivFw7N" = _YEivFw7N;
@@ -140,6 +145,7 @@ let
         "v2Yjd8fq" = _v2Yjd8fq;
         "kyQrqdI5" = _kyQrqdI5;
         "u9HT4OKY" = _u9HT4OKY;
+        "mRXgpuYF" = _mRXgpuYF;
         "fabric-1.19.4" = _a8d8tAq7;
         "fabric-1.20.1" = _GCRhbohw;
         "fabric-1.18.2" = _MrOoBjoH;
@@ -162,6 +168,7 @@ let
         "fabric-26.1.1" = _kyQrqdI5;
         "fabric-26.1.2" = _kyQrqdI5;
         "fabric-26.2" = _u9HT4OKY;
+        "fabric-26.3" = _mRXgpuYF;
         "quilt-1.20.1" = _GCRhbohw;
         "quilt-1.19.4" = _a8d8tAq7;
         "pkg-1.0.0" = _1VTWAVHx;
@@ -174,7 +181,8 @@ let
         "pkg-1.0.4+26.2" = _v2Yjd8fq;
         "pkg-1.0.5+26.1.2" = _kyQrqdI5;
         "pkg-1.0.5+26.2" = _u9HT4OKY;
-        "default" = _u9HT4OKY;
+        "pkg-1.0.5+26.3" = _mRXgpuYF;
+        "default" = _mRXgpuYF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "custom-capes";

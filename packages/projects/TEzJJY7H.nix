@@ -226,6 +226,26 @@ let
             "file" = "fabric-weeping_angels-mc1.21-v1.0.4.jar";
             "hash" = "sha512-ilYuYUZuHZX2ySz6z/d1cIzcxB50JkeFMR1BbpNSCSnR9eb9+VqH1KCmgfe1Pnph2szt30PH/5ZT7yaZefhlrA==";
         };
+        _iEIf8bUk = {
+            "id" = "iEIf8bUk";
+            "file" = "fabric-weeping_angels-mc1.21-v1.0.5.jar";
+            "hash" = "sha512-NU9fGA5XUXkUiFRaHWYyy5Pf9PJtWn+OomZoGxp/ONOSx8G06m9uT0DalOyQ/Ga3vJk8+MEJZiHOZaUEyRBjpg==";
+        };
+        _gkP5Pj73 = {
+            "id" = "gkP5Pj73";
+            "file" = "forge-weeping_angels-mc1.21-v1.0.5-forge.jar";
+            "hash" = "sha512-+0oqeZJNhX/3EEUOb2NqTKtpTinZNWYpK3+N1zAKnPPo0rOLGlLDYBGMiRyZj7SzX7LIvDhPsD/QHx9FTlxjQw==";
+        };
+        _ciFUPPau = {
+            "id" = "ciFUPPau";
+            "file" = "weeping_angels-46.1.6-fabric.jar";
+            "hash" = "sha512-VBYEwIdWxUB75CQKQkwjqDzxbt4dGHfBDudIaMkERt/UOnSlZWR8iCcn6Lyw+NHTdayNP/fV1isxP8R34xucXA==";
+        };
+        _ZI2T2ip2 = {
+            "id" = "ZI2T2ip2";
+            "file" = "weeping_angels-46.1.6-forge.jar";
+            "hash" = "sha512-1H5I+/qIw4hdT4MzGNdXdSRnz+WWIxOYF479UK+lsN7mbpKqY668vIWjI3GDhp84yGOUmekSP61hkdNoUFPYPQ==";
+        };
     in {
         "FlRq2wVk" = _FlRq2wVk;
         "CjfuDzct" = _CjfuDzct;
@@ -272,23 +292,27 @@ let
         "6PB1ns19" = _6PB1ns19;
         "QNSEcPLb" = _QNSEcPLb;
         "Jy8IesLr" = _Jy8IesLr;
+        "iEIf8bUk" = _iEIf8bUk;
+        "gkP5Pj73" = _gkP5Pj73;
+        "ciFUPPau" = _ciFUPPau;
+        "ZI2T2ip2" = _ZI2T2ip2;
         "forge-1.19" = _FlRq2wVk;
         "forge-1.18.1" = _CjfuDzct;
         "forge-1.18.2" = _MFAV61zS;
         "forge-1.19.2" = _hPpqMWqn;
         "forge-1.19.3" = _SuweEIyj;
         "forge-1.19.4" = _zjgWyeey;
-        "forge-1.20" = _6PB1ns19;
-        "forge-1.20.1" = _6PB1ns19;
+        "forge-1.20" = _ZI2T2ip2;
+        "forge-1.20.1" = _ZI2T2ip2;
         "fabric-1.19.2" = _rrQMMxn4;
         "fabric-1.19.3" = _twKEnpq1;
         "fabric-1.19.4" = _beqCEmCU;
-        "fabric-1.20" = _m9j7sYEQ;
-        "fabric-1.20.1" = _m9j7sYEQ;
-        "fabric-1.21" = _Jy8IesLr;
-        "fabric-1.21.1" = _Jy8IesLr;
-        "neoforge-1.21" = _QNSEcPLb;
-        "neoforge-1.21.1" = _QNSEcPLb;
+        "fabric-1.20" = _ciFUPPau;
+        "fabric-1.20.1" = _ciFUPPau;
+        "fabric-1.21" = _iEIf8bUk;
+        "fabric-1.21.1" = _iEIf8bUk;
+        "neoforge-1.21" = _gkP5Pj73;
+        "neoforge-1.21.1" = _gkP5Pj73;
         "pkg-41.0.3" = _FlRq2wVk;
         "pkg-1.0.1" = _MFAV61zS;
         "pkg-43.0.6+fabric" = _wwYAuDa3;
@@ -333,7 +357,11 @@ let
         "pkg-46.1.5+forge" = _6PB1ns19;
         "pkg-neoforge-1.0.4" = _QNSEcPLb;
         "pkg-fabric-1.0.4" = _Jy8IesLr;
-        "default" = _Jy8IesLr;
+        "pkg-fabric-1.0.5" = _iEIf8bUk;
+        "pkg-neoforge-1.0.5" = _gkP5Pj73;
+        "pkg-46.1.6+fabric" = _ciFUPPau;
+        "pkg-46.1.6+forge" = _ZI2T2ip2;
+        "default" = _ZI2T2ip2;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "weeping-angels";

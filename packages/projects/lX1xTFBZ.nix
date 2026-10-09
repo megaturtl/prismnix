@@ -201,6 +201,16 @@ let
             "file" = "DistinctPotions-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-EfdlD7ktRVR3QPCyun1oNu1X37zW8Iq8UXSAQb/KfI27gS2bPFsDai447aSAdGSelXdbbqxEz/qHJLITCgdlPQ==";
         };
+        _TNXA4jTa = {
+            "id" = "TNXA4jTa";
+            "file" = "distinctpotions-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-mO/5vplP8kfBbhb7pCClA9C77AaW1vyink96/sslV8CzSrzrec3V88t5A3K0hD1ASA9XEL56lNrONo07V/xqow==";
+        };
+        _kSMkBU22 = {
+            "id" = "kSMkBU22";
+            "file" = "distinctpotions-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-Ul/usfbweiyOTLDu+h2YysiGrux88/V1Nuh1KDIw8d44U4s5BYOms3cPOJLpQLPfHO39u412MRccOTJ4UWYdbw==";
+        };
     in {
         "gnVhWfSr" = _gnVhWfSr;
         "KoX8dTl6" = _KoX8dTl6;
@@ -242,6 +252,8 @@ let
         "KjrxEqrB" = _KjrxEqrB;
         "1saUhOqJ" = _1saUhOqJ;
         "Euk3324W" = _Euk3324W;
+        "TNXA4jTa" = _TNXA4jTa;
+        "kSMkBU22" = _kSMkBU22;
         "forge-1.19.2" = _YTlnTgRQ;
         "forge-1.19.3" = _OpSW99yr;
         "forge-1.19.4" = _vqKSnmQy;
@@ -263,6 +275,7 @@ let
         "fabric-26.1.1" = _KjrxEqrB;
         "fabric-26.1.2" = _KjrxEqrB;
         "fabric-26.2" = _1saUhOqJ;
+        "fabric-26.3" = _TNXA4jTa;
         "neoforge-1.20.4" = _iKM7gUxY;
         "neoforge-1.21.1" = _Jya0J2fp;
         "neoforge-1.21.3" = _saWrB9IS;
@@ -273,6 +286,7 @@ let
         "neoforge-26.1.1" = _A7VNtU9Q;
         "neoforge-26.1.2" = _A7VNtU9Q;
         "neoforge-26.2" = _Euk3324W;
+        "neoforge-26.3" = _kSMkBU22;
         "pkg-v4.0.0-1.19.2-Forge" = _gnVhWfSr;
         "pkg-v4.0.0-1.19.2-Fabric" = _KoX8dTl6;
         "pkg-v4.0.1-1.19.2-Fabric" = _gqzfzmDn;
@@ -310,7 +324,8 @@ let
         "pkg-21.11.0" = _sRbxHMVA;
         "pkg-26.1.0" = _KjrxEqrB;
         "pkg-26.2.0" = _Euk3324W;
-        "default" = _Euk3324W;
+        "pkg-26.3.0" = _kSMkBU22;
+        "default" = _kSMkBU22;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "distinct-potions";

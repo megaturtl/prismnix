@@ -16,14 +16,21 @@ let
             "file" = "batman_mod-1.0.9-forge-1.20.1.jar";
             "hash" = "sha512-qNgKLXQzEto3hOoxlB0VMdplN0bZpHD7LbmzyndwJp9VKD/D9bp/l/w0t7s2OdktXM18ryN30+EpPWKx24ehOw==";
         };
+        _vxZQd5JU = {
+            "id" = "vxZQd5JU";
+            "file" = "batman_mod-1.1.0-forge-1.20.1.jar";
+            "hash" = "sha512-4npVUv1T7O+iAV2ecf6E1wQ0MPu7VyALi67+legrRlqCQRSYE+Bvsli0x7wGF+iSD2lej3K3qe83+yo+BnIt0w==";
+        };
     in {
         "fDEnDKRO" = _fDEnDKRO;
         "GGIy5W6H" = _GGIy5W6H;
         "tXxA4gZ0" = _tXxA4gZ0;
-        "forge-1.20.1" = _tXxA4gZ0;
+        "vxZQd5JU" = _vxZQd5JU;
+        "forge-1.20.1" = _vxZQd5JU;
         "pkg-1.0.8" = _fDEnDKRO;
         "pkg-1.0.9" = _tXxA4gZ0;
-        "default" = _tXxA4gZ0;
+        "pkg-1.1.0" = _vxZQd5JU;
+        "default" = _vxZQd5JU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "batman-by-yo-fadda";

@@ -71,6 +71,31 @@ let
             "file" = "thunderbolt-forge-1.20.1-2.0.0-beta.3.jar";
             "hash" = "sha512-qpR1RCMFRSrAR3VNTGpg89/zPoAOzU5K0NwG2NUL0Tzln1V0V+Az02eOzXOiH4S2YhDlCWJH1DAE5gxTB4+EAQ==";
         };
+        _ZnWg9Gjd = {
+            "id" = "ZnWg9Gjd";
+            "file" = "thunderbolt-2.0.0-beta.4.jar";
+            "hash" = "sha512-imUJlaSY1tvtZoK4DeT+lSXe4ipRbPVu9oaTm+ekOXo1EW5s2oVF5FCjfPMzVlCDj/XE/a12VGW+vMK3d5rvdA==";
+        };
+        _Dt5ddWSu = {
+            "id" = "Dt5ddWSu";
+            "file" = "thunderbolt-forge-1.20.1-2.0.0-beta.4.jar";
+            "hash" = "sha512-AR+WceoDSl+6bhLAldAmw+EuEFEG77W6U4R0BMkwbe8AsmJwRd46EU0UIkGJRX6S5jvxo2JNpfK2Iaax/mbrOg==";
+        };
+        _TVoZndZv = {
+            "id" = "TVoZndZv";
+            "file" = "thunderbolt-2.0.1.jar";
+            "hash" = "sha512-p8UQdltT1YQfP1tOdbThTLqiRHr+iMP6IShv7hHB07teyi2wENd/EcTraJ0db0qyw+5EdOg4V/P5oVMysqSaWw==";
+        };
+        _kI0doZhf = {
+            "id" = "kI0doZhf";
+            "file" = "thunderbolt-2.0.3-beta.jar";
+            "hash" = "sha512-PoGc9oEEtk2+eFkQ85PbKm99T47eQ8uEFL6fYxX0LQcN+pzAId2oA7UymxEHkjEohs2qGD+u3Zm8j9YQ4v3//Q==";
+        };
+        _2dD99D4m = {
+            "id" = "2dD99D4m";
+            "file" = "thunderbolt-forge-1.20.1-2.0.3-beta.jar";
+            "hash" = "sha512-X+NXjGGrppMdgztdy1OzLXDQoGYANUiEnGexOddExObLzGRxeH3xIHTu/gblvFk6SmjnvcLsWC3xTDvAzl01MA==";
+        };
     in {
         "abh5u8xl" = _abh5u8xl;
         "MQBdRAju" = _MQBdRAju;
@@ -86,8 +111,13 @@ let
         "UgayyKmv" = _UgayyKmv;
         "hIqq6RDn" = _hIqq6RDn;
         "bdl88uT0" = _bdl88uT0;
-        "neoforge-1.21.1" = _hIqq6RDn;
-        "forge-1.20.1" = _bdl88uT0;
+        "ZnWg9Gjd" = _ZnWg9Gjd;
+        "Dt5ddWSu" = _Dt5ddWSu;
+        "TVoZndZv" = _TVoZndZv;
+        "kI0doZhf" = _kI0doZhf;
+        "2dD99D4m" = _2dD99D4m;
+        "neoforge-1.21.1" = _kI0doZhf;
+        "forge-1.20.1" = _2dD99D4m;
         "pkg-0.0.1-alpha" = _abh5u8xl;
         "pkg-1.0.1" = _MQBdRAju;
         "pkg-1.0.2" = _54tSmODm;
@@ -101,7 +131,12 @@ let
         "pkg-2.0.0-beta.2-forge.1.20.1" = _UgayyKmv;
         "pkg-2.0.0-beta.3" = _hIqq6RDn;
         "pkg-2.0.0-beta.3-forge.1.20.1" = _bdl88uT0;
-        "default" = _bdl88uT0;
+        "pkg-2.0.0-beta.4" = _ZnWg9Gjd;
+        "pkg-2.0.0-beta.4-forge.1.20.1" = _Dt5ddWSu;
+        "pkg-2.0.1" = _TVoZndZv;
+        "pkg-2.0.3-beta" = _kI0doZhf;
+        "pkg-2.0.3-beta-forge.1.20.1" = _2dD99D4m;
+        "default" = _2dD99D4m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "thunderbolt-core";

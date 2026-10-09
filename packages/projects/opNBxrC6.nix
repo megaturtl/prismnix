@@ -96,6 +96,46 @@ let
             "file" = "Extended-Storage-1.20.1-1.3.1.jar";
             "hash" = "sha512-4SD/7HiaG3nu6tUdZWXggtYvXhj7ES54P0YLn06lM1fCW0le61A6VzNvFreWdP5NcbEB3EKMghr+K+5S1jJKrw==";
         };
+        _P75H0UWR = {
+            "id" = "P75H0UWR";
+            "file" = "Extended-Storage-1.20.1-1.3.2.jar";
+            "hash" = "sha512-Grj5bX3Xj0zPWLxzHMZlpUdPDjeNoYGcDVJW4+5MVtt31/mCC+n9NxjNYq+EAthrHnhrbqWevZjFX4KgiC72YQ==";
+        };
+        _ReIlCI5y = {
+            "id" = "ReIlCI5y";
+            "file" = "Extended-Storage-1.20.1-fabric-1.3.2.jar";
+            "hash" = "sha512-CZYqhOWrZPhUPQTviOOrQxmIIc3Pw+Rw9IxhvEwQykW9M2PNztCGUPEgwng0WJuAQgl5rq8PqESfrsXeKd3OaQ==";
+        };
+        _iSU6lmAa = {
+            "id" = "iSU6lmAa";
+            "file" = "Extended-Storage-1.21.1-1.3.2.jar";
+            "hash" = "sha512-enonsgBJ8s9qlQ5Pri1FPNO76adKDddyIm9vhMcmIPgd5VlUQIbPOCWlqXQGsU5WqFoKh88E862xhzzzz/YWHg==";
+        };
+        _lvYeBsci = {
+            "id" = "lvYeBsci";
+            "file" = "Extended-Storage-26.1.2-1.3.2.jar";
+            "hash" = "sha512-HfjyUNfYzUmi+hDJBN710E1EwNGyJzDcyilYh2563Iv6LiVI9pONtpWnA0t9Q1Vx8XRzRWSBkpXhkb/KFS8xDw==";
+        };
+        _ffOEj5Ox = {
+            "id" = "ffOEj5Ox";
+            "file" = "Extended-Storage-1.21.1-1.3.3.jar";
+            "hash" = "sha512-vHaIxkIwufRhFIMr+HVrPG9RypR/qsAvK8x15Pu3vZCf4tnwfEDLnQ/nruEMvRYUOlEM6kXDDHZVvvVLOvIJ8Q==";
+        };
+        _RsiKLmPG = {
+            "id" = "RsiKLmPG";
+            "file" = "Extended-Storage-1.20.1-1.3.3.jar";
+            "hash" = "sha512-uTDx+Xf5e+wHf8qCHX5yuC1XLZJxKe+r1BoP0LNEULhEzJDeXts07siXiNh8hxs9+iEMJH6XyDXYYVLmGQcR2g==";
+        };
+        _1Clw9TGY = {
+            "id" = "1Clw9TGY";
+            "file" = "Extended-Storage-26.1.2-1.3.3.jar";
+            "hash" = "sha512-qca7towOuLQ2So7N5hTNEEoHm0EWKWM9SD5mhiNfo6VgTTie2XfrDLNSwNqRPqKRduyc/WT3tnnziTeQt4UAqA==";
+        };
+        _qMCsr247 = {
+            "id" = "qMCsr247";
+            "file" = "Extended-Storage-1.20.1-fabric-1.3.3.jar";
+            "hash" = "sha512-c040Dsr2fu10Es6cvlJFeFPIgUvkAWPvrrnI2bjo0PJuB6MPGroI55vdZs+qOUgAsUcrI7/VyhGnDQQ4Eosv5A==";
+        };
     in {
         "Xj9Bo4Vu" = _Xj9Bo4Vu;
         "sWh3lqFi" = _sWh3lqFi;
@@ -116,13 +156,21 @@ let
         "jxq4sJeI" = _jxq4sJeI;
         "jmI2qWqt" = _jmI2qWqt;
         "7ahemhl8" = _7ahemhl8;
-        "forge-1.20.1" = _7ahemhl8;
-        "neoforge-1.21.1" = _jxq4sJeI;
-        "neoforge-26.1" = _3JbY3ivL;
-        "neoforge-26.1.1" = _3JbY3ivL;
-        "neoforge-26.1.2" = _3JbY3ivL;
-        "neoforge-26.2" = _3JbY3ivL;
-        "fabric-1.20.1" = _jmI2qWqt;
+        "P75H0UWR" = _P75H0UWR;
+        "ReIlCI5y" = _ReIlCI5y;
+        "iSU6lmAa" = _iSU6lmAa;
+        "lvYeBsci" = _lvYeBsci;
+        "ffOEj5Ox" = _ffOEj5Ox;
+        "RsiKLmPG" = _RsiKLmPG;
+        "1Clw9TGY" = _1Clw9TGY;
+        "qMCsr247" = _qMCsr247;
+        "forge-1.20.1" = _RsiKLmPG;
+        "neoforge-1.21.1" = _ffOEj5Ox;
+        "neoforge-26.1" = _1Clw9TGY;
+        "neoforge-26.1.1" = _1Clw9TGY;
+        "neoforge-26.1.2" = _1Clw9TGY;
+        "neoforge-26.2" = _1Clw9TGY;
+        "fabric-1.20.1" = _qMCsr247;
         "pkg-1.1.0" = _Xj9Bo4Vu;
         "pkg-1.1.1" = _sWh3lqFi;
         "pkg-1.2.0" = _bqnGoLJq;
@@ -133,7 +181,9 @@ let
         "pkg-1.3.0b" = _CLQKo5vp;
         "pkg-1.3.0c" = _am6Yacbg;
         "pkg-1.3.1" = _7ahemhl8;
-        "default" = _7ahemhl8;
+        "pkg-1.3.2" = _lvYeBsci;
+        "pkg-1.3.3" = _qMCsr247;
+        "default" = _qMCsr247;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "extended-storage";

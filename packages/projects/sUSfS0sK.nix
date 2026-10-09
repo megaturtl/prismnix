@@ -271,6 +271,16 @@ let
             "file" = "moreconcrete-neoforge-1.6.2-26.2.jar";
             "hash" = "sha512-gxu67lZXXBAf9GwkaB5JOemkqysohMzf69dBXWiUb7dDqqIyPADxFl4HQZwiWU+B00pryYgsMWJoj/Wf0awAgA==";
         };
+        _i3DMKPdz = {
+            "id" = "i3DMKPdz";
+            "file" = "moreconcrete-fabric-1.7.0-26.3.jar";
+            "hash" = "sha512-ZyMyfTa9Rj9luNbPt4j15oIRR1YFXt/Ow8dcNV+XlCnhXhXeatfdj/VOkCZydCnGhSZvR8da92u2u+yZms4PgQ==";
+        };
+        _OsOkLO3k = {
+            "id" = "OsOkLO3k";
+            "file" = "moreconcrete-neoforge-1.7.0-26.3.jar";
+            "hash" = "sha512-cThF4IgBSdh0TPblsmWgy+yY4kGkxC+mliAYEu6zGV38YAMautHWq0usMX/LCQeu29yWmtPcGQAm+Uj7iOWYPg==";
+        };
     in {
         "m2Zc6oJD" = _m2Zc6oJD;
         "KnAIjz1L" = _KnAIjz1L;
@@ -326,6 +336,8 @@ let
         "UJ1UrYAN" = _UJ1UrYAN;
         "iaKVPJVp" = _iaKVPJVp;
         "4C356gUG" = _4C356gUG;
+        "i3DMKPdz" = _i3DMKPdz;
+        "OsOkLO3k" = _OsOkLO3k;
         "forge-1.16.5" = _m2Zc6oJD;
         "forge-1.18.1" = _KnAIjz1L;
         "forge-1.18.2" = _TiD3OgEp;
@@ -361,6 +373,7 @@ let
         "neoforge-1.21.11" = _25GZFArU;
         "neoforge-26.1.2" = _UJ1UrYAN;
         "neoforge-26.2" = _4C356gUG;
+        "neoforge-26.3" = _OsOkLO3k;
         "fabric-1.21.1" = _rjyzCLuK;
         "fabric-1.21.4" = _CZvnyHy0;
         "fabric-1.21.5" = _BJ3afdXZ;
@@ -372,6 +385,7 @@ let
         "fabric-1.21.11" = _B2oymtxI;
         "fabric-26.1.2" = _m92ZUIso;
         "fabric-26.2" = _iaKVPJVp;
+        "fabric-26.3" = _i3DMKPdz;
         "pkg-forge-1.4.0-mc1.16.5" = _m2Zc6oJD;
         "pkg-forge-1.4.0-mc1.18.1" = _KnAIjz1L;
         "pkg-forge-1.4.0-mc1.18.2" = _TiD3OgEp;
@@ -426,7 +440,9 @@ let
         "pkg-neoforge-1.6.2-mc26.1.2" = _UJ1UrYAN;
         "pkg-fabric-1.6.2-mc26.2" = _iaKVPJVp;
         "pkg-neoforge-1.6.2-mc26.2" = _4C356gUG;
-        "default" = _4C356gUG;
+        "pkg-fabric-1.7.0-mc26.3" = _i3DMKPdz;
+        "pkg-neoforge-1.7.0-mc26.3" = _OsOkLO3k;
+        "default" = _OsOkLO3k;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "more-concrete";

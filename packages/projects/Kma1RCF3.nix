@@ -1296,6 +1296,21 @@ let
             "file" = "ingotcraft-26.2-2.4.11-neoforge.jar";
             "hash" = "sha512-IaE9SzIw04duJ8z3XB9G3Hn0CI+3ZlIo8rhb1tP4hxtynasLaeMLB/j3ujAfpJGNQUaz75bpOJ/g9rVBSdThYg==";
         };
+        _f8wq33VA = {
+            "id" = "f8wq33VA";
+            "file" = "ingotcraft-26.3-2.4.11-fabric.jar";
+            "hash" = "sha512-rR9hllotlddLLFou274Bud68lGksKByTzOAC8ojkKL7PNM5Lb5o9dhGtOlU0YXkqXrI4W3zQHgnawo7o62TQLA==";
+        };
+        _Ozhd46vF = {
+            "id" = "Ozhd46vF";
+            "file" = "ingotcraft-26.3-2.4.11-neoforge.jar";
+            "hash" = "sha512-DnDSk6htlihzI9eyAmzkGdWq8+F0/aAHfLW1YezK52y/Ng459ds3ztPC6iC89De8duPPhY9DdlLFOeZEK6pzmA==";
+        };
+        _yBzAChfa = {
+            "id" = "yBzAChfa";
+            "file" = "ingotcraft-26.3-2.4.11-forge.jar";
+            "hash" = "sha512-KCJCx/RYjzn0nG8x3tK7dpOmVTNe0Dg/AKyNYevJipR6cFtGidTrtRlpm3jLBvdwaC7AkkiWCvSrt/NYzWW4oQ==";
+        };
     in {
         "GG2wZciL" = _GG2wZciL;
         "Gjezk03D" = _Gjezk03D;
@@ -1556,6 +1571,9 @@ let
         "2muFgFPA" = _2muFgFPA;
         "7rZl8pBo" = _7rZl8pBo;
         "CickACH4" = _CickACH4;
+        "f8wq33VA" = _f8wq33VA;
+        "Ozhd46vF" = _Ozhd46vF;
+        "yBzAChfa" = _yBzAChfa;
         "forge-1.12.2" = _JIy19H1D;
         "forge-1.16.5" = _3NmXYtom;
         "forge-1.17.1" = _EfsBx8cK;
@@ -1587,6 +1605,7 @@ let
         "forge-26.1.1" = _Wtbdc3xF;
         "forge-26.1.2" = _Wtbdc3xF;
         "forge-26.2" = _7rZl8pBo;
+        "forge-26.3" = _yBzAChfa;
         "neoforge-1.20" = _qUQmpZbT;
         "neoforge-1.20.1" = _qUQmpZbT;
         "neoforge-1.20.2" = _3nXLrgKY;
@@ -1609,6 +1628,7 @@ let
         "neoforge-26.1.1" = _dp0EVjRg;
         "neoforge-26.1.2" = _dp0EVjRg;
         "neoforge-26.2" = _CickACH4;
+        "neoforge-26.3" = _Ozhd46vF;
         "fabric-1.19" = _3LHaz7FC;
         "fabric-1.19.1" = _3LHaz7FC;
         "fabric-1.19.2" = _3LHaz7FC;
@@ -1639,6 +1659,7 @@ let
         "fabric-26.1.1" = _Dc1vl6r4;
         "fabric-26.1.2" = _Dc1vl6r4;
         "fabric-26.2" = _2muFgFPA;
+        "fabric-26.3" = _f8wq33VA;
         "quilt-1.19" = _3LHaz7FC;
         "quilt-1.19.1" = _3LHaz7FC;
         "quilt-1.19.2" = _3LHaz7FC;
@@ -1669,6 +1690,7 @@ let
         "quilt-26.1.1" = _Dc1vl6r4;
         "quilt-26.1.2" = _Dc1vl6r4;
         "quilt-26.2" = _2muFgFPA;
+        "quilt-26.3" = _f8wq33VA;
         "pkg-1.12.2-2.1.3" = _GG2wZciL;
         "pkg-1.16.5-2.3.1" = _Gjezk03D;
         "pkg-1.17.1-2.3.1" = _pXptFgLj;
@@ -1920,7 +1942,10 @@ let
         "pkg-26.2-2.4.11-fabric" = _2muFgFPA;
         "pkg-26.2-2.4.11-forge" = _7rZl8pBo;
         "pkg-26.2-2.4.11-neoforge" = _CickACH4;
-        "default" = _CickACH4;
+        "pkg-26.3-2.4.11-fabric" = _f8wq33VA;
+        "pkg-26.3-2.4.11-neoforge" = _Ozhd46vF;
+        "pkg-26.3-2.4.11-forge" = _yBzAChfa;
+        "default" = _yBzAChfa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ingotcraft";

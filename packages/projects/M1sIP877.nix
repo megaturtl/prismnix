@@ -66,6 +66,11 @@ let
             "file" = "Snow on Stairs v6.1-26.2.zip";
             "hash" = "sha512-xWLmPX30ILGwarySlla2CX7weN11Vrgh6BSFgud15ZG43k1Zi/BouoYc4QIVoZ9t2i1YsGI9wyFxy0jshpP5WA==";
         };
+        _t9vXzVYV = {
+            "id" = "t9vXzVYV";
+            "file" = "Snow on Stairs v7.0-26.3.zip";
+            "hash" = "sha512-opt72xrD4mBn+HofZtcARacqNRIPw6Xbu3wo6g0SfF8IX0vXTACcr4FcLTQiXIH9m6cVbBVdir5NUCDIn9KzGg==";
+        };
     in {
         "CHlHP01C" = _CHlHP01C;
         "Xh1FeLGW" = _Xh1FeLGW;
@@ -80,6 +85,7 @@ let
         "I0wJ0liV" = _I0wJ0liV;
         "Q38ZiIwi" = _Q38ZiIwi;
         "jQQJ12qm" = _jQQJ12qm;
+        "t9vXzVYV" = _t9vXzVYV;
         "datapack-1.20.5" = _CHlHP01C;
         "datapack-1.20.6" = _CHlHP01C;
         "datapack-1.21" = _Xh1FeLGW;
@@ -96,6 +102,7 @@ let
         "datapack-26.1-snapshot-7" = _I0wJ0liV;
         "datapack-26.1.2" = _Q38ZiIwi;
         "datapack-26.2" = _jQQJ12qm;
+        "datapack-26.3" = _t9vXzVYV;
         "minecraft-1.20.5" = _CHlHP01C;
         "minecraft-1.20.6" = _CHlHP01C;
         "pkg-5.2" = _CHlHP01C;
@@ -109,7 +116,8 @@ let
         "pkg-6.0-beta.1" = _I0wJ0liV;
         "pkg-6.0" = _Q38ZiIwi;
         "pkg-6.1" = _jQQJ12qm;
-        "default" = _jQQJ12qm;
+        "pkg-7.0" = _t9vXzVYV;
+        "default" = _t9vXzVYV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "snow-on-stairs";

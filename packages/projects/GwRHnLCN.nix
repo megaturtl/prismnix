@@ -91,6 +91,16 @@ let
             "file" = "ly-ender-compass-v1.2.0.jar";
             "hash" = "sha512-h9L1CFyysTELNhZIwMKykzRu+t6ldeoCP4Vs5YZycg1dK4efy+Aqi7YcEBjLxm0CcRGCaWNheFj9fMgR77eUBg==";
         };
+        _rpikLRWt = {
+            "id" = "rpikLRWt";
+            "file" = "Ender Compass v1.2.0 [26.3].zip";
+            "hash" = "sha512-daZirRHLE/5gPM2dW14z0NTmxW9Pn+/sY/tcntRGVL/kJuWhCUxNCYF1vHVQXv1Kv7eulaHXKScYG9LgAUFKSg==";
+        };
+        _xYS50sNl = {
+            "id" = "xYS50sNl";
+            "file" = "ly-ender-compass-1.2.0.jar";
+            "hash" = "sha512-u0m57bmRYZHQQqeEcgn3J9/gljre6beYqZJNail1eJlOwzOH9cNWMtZvjH6gJwT3SGFycg6OzSD9/2/auJd4lA==";
+        };
     in {
         "lfpUMcta" = _lfpUMcta;
         "KGOvQ11v" = _KGOvQ11v;
@@ -110,6 +120,8 @@ let
         "uDssHCwG" = _uDssHCwG;
         "jW6ajjcv" = _jW6ajjcv;
         "uGzHxLO2" = _uGzHxLO2;
+        "rpikLRWt" = _rpikLRWt;
+        "xYS50sNl" = _xYS50sNl;
         "datapack-1.21.4" = _K1hJbLb4;
         "datapack-1.21.5" = _jW6ajjcv;
         "datapack-1.21.2" = _K1hJbLb4;
@@ -124,6 +136,7 @@ let
         "datapack-26.1.1" = _jW6ajjcv;
         "datapack-26.1.2" = _jW6ajjcv;
         "datapack-26.2" = _jW6ajjcv;
+        "datapack-26.3" = _rpikLRWt;
         "fabric-1.21.4" = _uDssHCwG;
         "fabric-1.21.5" = _uGzHxLO2;
         "fabric-1.21.2" = _uDssHCwG;
@@ -138,6 +151,7 @@ let
         "fabric-26.1.1" = _uGzHxLO2;
         "fabric-26.1.2" = _uGzHxLO2;
         "fabric-26.2" = _uGzHxLO2;
+        "fabric-26.3" = _xYS50sNl;
         "forge-1.21.4" = _uDssHCwG;
         "forge-1.21.5" = _uGzHxLO2;
         "forge-1.21.2" = _uDssHCwG;
@@ -152,6 +166,7 @@ let
         "forge-26.1.1" = _uGzHxLO2;
         "forge-26.1.2" = _uGzHxLO2;
         "forge-26.2" = _uGzHxLO2;
+        "forge-26.3" = _xYS50sNl;
         "neoforge-1.21.4" = _uDssHCwG;
         "neoforge-1.21.5" = _uGzHxLO2;
         "neoforge-1.21.2" = _uDssHCwG;
@@ -166,6 +181,7 @@ let
         "neoforge-26.1.1" = _uGzHxLO2;
         "neoforge-26.1.2" = _uGzHxLO2;
         "neoforge-26.2" = _uGzHxLO2;
+        "neoforge-26.3" = _xYS50sNl;
         "quilt-1.21.4" = _uDssHCwG;
         "quilt-1.21.5" = _uGzHxLO2;
         "quilt-1.21.2" = _uDssHCwG;
@@ -180,6 +196,7 @@ let
         "quilt-26.1.1" = _uGzHxLO2;
         "quilt-26.1.2" = _uGzHxLO2;
         "quilt-26.2" = _uGzHxLO2;
+        "quilt-26.3" = _xYS50sNl;
         "pkg-v1.0.0" = _lfpUMcta;
         "pkg-v1.0.0+mod" = _KGOvQ11v;
         "pkg-v1.0.1" = _TC2ZAp8X;
@@ -192,7 +209,9 @@ let
         "pkg-v1.1.0+mod" = _kkrPuj50;
         "pkg-v1.2.0" = _jW6ajjcv;
         "pkg-v1.2.0+mod" = _uGzHxLO2;
-        "default" = _uGzHxLO2;
+        "pkg-1.2.0" = _rpikLRWt;
+        "pkg-1.2.0+mod" = _xYS50sNl;
+        "default" = _xYS50sNl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ly-ender-compass";

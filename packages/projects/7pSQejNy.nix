@@ -61,6 +61,16 @@ let
             "file" = "scavenger-fabric-26.2-1.1.1+26.2.jar";
             "hash" = "sha512-TqDwuUiXQNBgWP2rnHpnoiYDX3M+qRAlX6pYtL9afP3Gy4DoZe5OvXuljsfV34Mio1AHadEKMRj12qZHU8+ZMA==";
         };
+        _EBR01irt = {
+            "id" = "EBR01irt";
+            "file" = "scavenger-neoforge-26.3-1.1.2+26.3.jar";
+            "hash" = "sha512-WwGezQZmwSvHLDE1IEO/uspbuXouzokx9r39vNZS9rfTElxWiVm/mtzxtl9UAo3F7CX6QmJPwhkX6oJJipR48Q==";
+        };
+        _Dxe9kl84 = {
+            "id" = "Dxe9kl84";
+            "file" = "scavenger-fabric-26.3-1.1.2+26.3.jar";
+            "hash" = "sha512-6w9t+maMTGGzdLgwsEm9r1UBp6zTxTwc2C04ccmBFAhY1yO6Iax5YlJeSMpc5kfF+92OWCVUyT1pz7Am/cOOlA==";
+        };
     in {
         "jnqRY3ld" = _jnqRY3ld;
         "p0j2RZo5" = _p0j2RZo5;
@@ -74,17 +84,22 @@ let
         "5wV6toIN" = _5wV6toIN;
         "OKHOQvA7" = _OKHOQvA7;
         "eOnPpIJW" = _eOnPpIJW;
+        "EBR01irt" = _EBR01irt;
+        "Dxe9kl84" = _Dxe9kl84;
         "neoforge-1.21.11" = _Z9HKjs8O;
         "neoforge-26.2" = _OKHOQvA7;
+        "neoforge-26.3" = _EBR01irt;
         "fabric-1.21.11" = _CYf0Y3Vs;
         "fabric-26.2" = _eOnPpIJW;
+        "fabric-26.3" = _Dxe9kl84;
         "pkg-0.9.1" = _p0j2RZo5;
         "pkg-1.0.0" = _VX6PvyZl;
         "pkg-1.0.1" = _2AZ6123C;
         "pkg-1.0.2" = _CYf0Y3Vs;
         "pkg-1.1.0+26.2" = _5wV6toIN;
         "pkg-1.1.1+26.2" = _eOnPpIJW;
-        "default" = _eOnPpIJW;
+        "pkg-1.1.2+26.3" = _Dxe9kl84;
+        "default" = _Dxe9kl84;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scavenger-mod";

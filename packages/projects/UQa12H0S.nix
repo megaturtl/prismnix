@@ -56,6 +56,16 @@ let
             "file" = "better-player-list-fabric-1.2.2+26.2.jar";
             "hash" = "sha512-RVypaa3tKZ085kAkNups01Vf9lxGTBPwQDv1tV/a01t0q0SwKKTrCi1J0FNdZH4oL+nRihiKnqevEfT6B45Dtg==";
         };
+        _GOfibZPg = {
+            "id" = "GOfibZPg";
+            "file" = "better-player-list-neoforge-1.2.3+26.3.jar";
+            "hash" = "sha512-gRHah609tv4uFN87spig5qV0WAR/9F/QXxJOFDXF81IMNwZscfh1O6vN38k9X9iLPQestIC8SyinfV/HAptdkA==";
+        };
+        _vrCEr2aT = {
+            "id" = "vrCEr2aT";
+            "file" = "better-player-list-fabric-1.2.3+26.3.jar";
+            "hash" = "sha512-LvSOH4nx4l50vCXJ6+n9S4V4T8i23NhvkNqIfZ1fblOxkYMePP2gVUTbknkGhvfF+3uUP7icymeWqkODFjw5EQ==";
+        };
     in {
         "tekEFCRE" = _tekEFCRE;
         "EyxmyXN1" = _EyxmyXN1;
@@ -68,6 +78,8 @@ let
         "ar1ADgqd" = _ar1ADgqd;
         "K8MA8BFj" = _K8MA8BFj;
         "SEgdw9uJ" = _SEgdw9uJ;
+        "GOfibZPg" = _GOfibZPg;
+        "vrCEr2aT" = _vrCEr2aT;
         "fabric-1.21.4" = _tekEFCRE;
         "fabric-1.21.5" = _tekEFCRE;
         "fabric-1.21.6" = _EyxmyXN1;
@@ -80,6 +92,7 @@ let
         "fabric-26.1.1" = _Usgj1Pio;
         "fabric-26.1.2" = _OwuDxsCp;
         "fabric-26.2" = _SEgdw9uJ;
+        "fabric-26.3" = _vrCEr2aT;
         "quilt-1.21.4" = _tekEFCRE;
         "quilt-1.21.5" = _tekEFCRE;
         "quilt-1.21.6" = _EyxmyXN1;
@@ -92,11 +105,13 @@ let
         "quilt-26.1.1" = _Usgj1Pio;
         "quilt-26.1.2" = _OwuDxsCp;
         "quilt-26.2" = _SEgdw9uJ;
+        "quilt-26.3" = _vrCEr2aT;
         "neoforge-1.21.11" = _CNiF034e;
         "neoforge-26.1" = _UL7obyES;
         "neoforge-26.1.1" = _UL7obyES;
         "neoforge-26.1.2" = _ar1ADgqd;
         "neoforge-26.2" = _K8MA8BFj;
+        "neoforge-26.3" = _GOfibZPg;
         "pkg-1.0.0+1.21.4" = _tekEFCRE;
         "pkg-1.0.0+1.21.6" = _EyxmyXN1;
         "pkg-1.0.0+1.21.11" = _p3on9hTf;
@@ -104,7 +119,8 @@ let
         "pkg-1.2.0+26.1" = _Usgj1Pio;
         "pkg-1.2.1+26.1.2" = _ar1ADgqd;
         "pkg-1.2.2+26.2" = _SEgdw9uJ;
-        "default" = _SEgdw9uJ;
+        "pkg-1.2.3+26.3" = _vrCEr2aT;
+        "default" = _vrCEr2aT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-player-list";

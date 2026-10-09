@@ -561,6 +561,16 @@ let
             "file" = "deco_storage-4.0808-neoforge-1.21.1.jar";
             "hash" = "sha512-V4EzT+lMijyUK05DeWQ/KSGWNHrWUMHqGmhKwcxQ2vSrVvgeNelcsiOqYReLjBv10FZ5PpIxXx1nBq4Vo16uUg==";
         };
+        _gcfFDRgn = {
+            "id" = "gcfFDRgn";
+            "file" = "deco_storage-4.0909-forge-1.20.1.jar";
+            "hash" = "sha512-BugNh7a+lziAMgTfu0JhhHMyZXb7UNBLXWSfE+QoRxi3UwjxRfWhwpBrPsaHOoLHtPz6B375B9UlPZo/8x/jdw==";
+        };
+        _k1BvY5Fe = {
+            "id" = "k1BvY5Fe";
+            "file" = "deco_storage-4.0909-neoforge-1.21.1.jar";
+            "hash" = "sha512-SJQIwEx4klkihZS06xv/o5o2UdKjEnIF20ih4bceYUR+QSZbLiSF2t0I4Op5tpbHcp10RBOxFi+j9nS/jPPX3Q==";
+        };
     in {
         "pVUnBUgB" = _pVUnBUgB;
         "xSibPdd5" = _xSibPdd5;
@@ -674,11 +684,13 @@ let
         "36L44URP" = _36L44URP;
         "Mc2ujInQ" = _Mc2ujInQ;
         "2DqfQD5l" = _2DqfQD5l;
-        "forge-1.20.1" = _Mc2ujInQ;
+        "gcfFDRgn" = _gcfFDRgn;
+        "k1BvY5Fe" = _k1BvY5Fe;
+        "forge-1.20.1" = _gcfFDRgn;
         "forge-1.19.2" = _Vwi5YGWu;
         "forge-1.21.1" = _pXw5R5ls;
         "neoforge-1.20.4" = _nl9yMU64;
-        "neoforge-1.21.1" = _2DqfQD5l;
+        "neoforge-1.21.1" = _k1BvY5Fe;
         "neoforge-1.21.2" = _LcQhRsEA;
         "neoforge-1.21.3" = _LcQhRsEA;
         "neoforge-1.21.4" = _LcQhRsEA;
@@ -785,7 +797,9 @@ let
         "pkg-4.0708-neoforge-26.1.2" = _36L44URP;
         "pkg-4.0808-forge-1.20.1" = _Mc2ujInQ;
         "pkg-4.0808-neoforge-1.21.1" = _2DqfQD5l;
-        "default" = _2DqfQD5l;
+        "pkg-4.0909-forge-1.20.1" = _gcfFDRgn;
+        "pkg-4.0909-neoforge-1.21.1" = _k1BvY5Fe;
+        "default" = _k1BvY5Fe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "decorative-storage";

@@ -26,26 +26,47 @@ let
             "file" = "appliedsorting-26.1.2-neoforge-v2.0.0.jar";
             "hash" = "sha512-uYXL/BQpbuP6XKvK0I80w+bcG0w+HFbOh82c4YgnUhE3V3HZHh3TiskaMOSuXm1gTbxI0D1xcyBTSXBUdr8K3A==";
         };
+        _FWUAit0Q = {
+            "id" = "FWUAit0Q";
+            "file" = "appliedsorting-1.20.1-forge-v2.1.0.jar";
+            "hash" = "sha512-P6kRbXrl1vy38Or0XtTbMZmjPo3Pds0aYEiHfBS964Yyf4lU+CALdUNe+Zcu99Vs9a0Mgj6e6C8aJeUU6q7DDA==";
+        };
+        _PWEkhgiv = {
+            "id" = "PWEkhgiv";
+            "file" = "appliedsorting-1.21.1-neoforge-v2.1.0.jar";
+            "hash" = "sha512-bzYRsX8IjUHkAbBjwTblUMSQkOXwYKRVbkQ5CeP3Ohucf0K1bd84mgawOtMlL7Sdb+YezLvnaeJbcC3gLH1ruw==";
+        };
+        _kh2bDnR1 = {
+            "id" = "kh2bDnR1";
+            "file" = "appliedsorting-26.1.2-neoforge-v2.1.0.jar";
+            "hash" = "sha512-xzVpAOU6olji0ZMB3Dl/pUopTr9heNcarXdh/zZXMnUzq9d4Th8jr1bqULlVoFgEYTVomhsKK+1aAvbLicl1pg==";
+        };
     in {
         "HNqUhSel" = _HNqUhSel;
         "Vh1n4Ve1" = _Vh1n4Ve1;
         "puE1pHpk" = _puE1pHpk;
         "A8GFJqjL" = _A8GFJqjL;
         "Iy9P45iP" = _Iy9P45iP;
-        "forge-1.20.1" = _puE1pHpk;
+        "FWUAit0Q" = _FWUAit0Q;
+        "PWEkhgiv" = _PWEkhgiv;
+        "kh2bDnR1" = _kh2bDnR1;
+        "forge-1.20.1" = _FWUAit0Q;
         "forge-1.20.2" = _HNqUhSel;
         "forge-1.20.3" = _HNqUhSel;
         "forge-1.20.4" = _HNqUhSel;
         "forge-1.20.5" = _HNqUhSel;
         "forge-1.20.6" = _HNqUhSel;
-        "neoforge-1.21.1" = _A8GFJqjL;
-        "neoforge-26.1.2" = _Iy9P45iP;
+        "neoforge-1.21.1" = _PWEkhgiv;
+        "neoforge-26.1.2" = _kh2bDnR1;
         "pkg-1.20.1-1.0.0" = _HNqUhSel;
         "pkg-1.21.1-1.0.0" = _Vh1n4Ve1;
         "pkg-1.20.1-forge-v2.0.0" = _puE1pHpk;
         "pkg-1.21.1-neoforge-v2.0.0" = _A8GFJqjL;
         "pkg-26.1.2-neoforge-v2.0.0" = _Iy9P45iP;
-        "default" = _Iy9P45iP;
+        "pkg-1.20.1-forge-v2.1.0" = _FWUAit0Q;
+        "pkg-1.21.1-neoforge-v2.1.0" = _PWEkhgiv;
+        "pkg-26.1.2-neoforge-v2.1.0" = _kh2bDnR1;
+        "default" = _kh2bDnR1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "applied-sorting";

@@ -196,6 +196,11 @@ let
             "file" = "preventer-2.0.0+26.2.jar";
             "hash" = "sha512-UsYD9nnSwghkKfTxmV8UhHzZHiP7Cd9aCpHHfIa0GIyKC822BVS9ybmZ8SKwnlbkrViHHjZ4XSFqVqkq8M4FMw==";
         };
+        _w5ykSe4D = {
+            "id" = "w5ykSe4D";
+            "file" = "preventer-2.0.0.jar";
+            "hash" = "sha512-oBdjGYEn86MDALCH9kHEQhZbgBpY1YD1I+y1SVx0u7htnLKcMWaVuMGsrfO/Lk/47d4Oip+xHk++CkCNU3MpZw==";
+        };
     in {
         "dGAn5teA" = _dGAn5teA;
         "Syh5XXLD" = _Syh5XXLD;
@@ -236,6 +241,7 @@ let
         "G0Wi54lp" = _G0Wi54lp;
         "GpmAoQ3A" = _GpmAoQ3A;
         "ceAfPGC0" = _ceAfPGC0;
+        "w5ykSe4D" = _w5ykSe4D;
         "fabric-1.18.2" = _59RO9fko;
         "fabric-1.19" = _uUloVMWZ;
         "fabric-1.19.1" = _uUloVMWZ;
@@ -263,6 +269,7 @@ let
         "fabric-26.1.1" = _GpmAoQ3A;
         "fabric-26.1.2" = _GpmAoQ3A;
         "fabric-26.2" = _ceAfPGC0;
+        "fabric-26.3" = _w5ykSe4D;
         "pkg-0.3.0" = _dGAn5teA;
         "pkg-0.3.1" = _Syh5XXLD;
         "pkg-0.4.0" = _lLCwVM5K;
@@ -294,7 +301,8 @@ let
         "pkg-2.0.0" = _G0Wi54lp;
         "pkg-2.0.0-26.1.x" = _GpmAoQ3A;
         "pkg-2.0.0-26.2" = _ceAfPGC0;
-        "default" = _ceAfPGC0;
+        "pkg-2.0.0-26.3" = _w5ykSe4D;
+        "default" = _w5ykSe4D;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "preventer";

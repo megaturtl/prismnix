@@ -211,6 +211,16 @@ let
             "file" = "melody_neoforge_1.0.17_MC_26.2.jar";
             "hash" = "sha512-G8h7J1tjhTgfVcKZORhZGzaVLTugnvY2gOEu8vZigQDujSPpZDmGnvaCi7ICaU36njrZgEymJtJnnrY8tXygoA==";
         };
+        _gjl2Yw81 = {
+            "id" = "gjl2Yw81";
+            "file" = "melody_fabric_1.0.17_MC_26.3.jar";
+            "hash" = "sha512-8Kwww6DrCQjQWCSppD5ExhSpXcmbTLqavup1BAZDD94h1uJrrloeXGO2M1nknUvJbO0yQAcX/HIGTFCCbhG5yg==";
+        };
+        _2saEF7mZ = {
+            "id" = "2saEF7mZ";
+            "file" = "melody_neoforge_1.0.17_MC_26.3.jar";
+            "hash" = "sha512-eQrtQGSRo78FuvzZPWi3wu1UtkbphG8IUKG2DxUVbw6zYXKyT+jkEp82nm96xdhy/8fsKEirLJwMT+KvfyBNAw==";
+        };
     in {
         "NiI3hjHd" = _NiI3hjHd;
         "TlZ1fbds" = _TlZ1fbds;
@@ -254,6 +264,8 @@ let
         "lKAVENRI" = _lKAVENRI;
         "ItVQn1cW" = _ItVQn1cW;
         "LMoAqWbb" = _LMoAqWbb;
+        "gjl2Yw81" = _gjl2Yw81;
+        "2saEF7mZ" = _2saEF7mZ;
         "fabric-1.19.4" = _NiI3hjHd;
         "fabric-1.18.2" = _AUB6gMMU;
         "fabric-1.20.1" = _2o0oW8Yv;
@@ -275,6 +287,7 @@ let
         "fabric-26.1.1" = _V4DQs36M;
         "fabric-26.1.2" = _V4DQs36M;
         "fabric-26.2" = _ItVQn1cW;
+        "fabric-26.3" = _gjl2Yw81;
         "forge-1.19.4" = _TlZ1fbds;
         "forge-1.18.2" = _aMYLdh1A;
         "forge-1.20.1" = _lJlW5r8R;
@@ -305,6 +318,7 @@ let
         "neoforge-26.1.1" = _lKAVENRI;
         "neoforge-26.1.2" = _lKAVENRI;
         "neoforge-26.2" = _LMoAqWbb;
+        "neoforge-26.3" = _2saEF7mZ;
         "pkg-1.0.0-1.19.4-fabric" = _NiI3hjHd;
         "pkg-1.0.0-1.19.4-forge" = _TlZ1fbds;
         "pkg-1.0.0-1.18.2-fabric" = _hT3ze5Kh;
@@ -347,7 +361,9 @@ let
         "pkg-1.0.16-26.1.1-neoforge" = _lKAVENRI;
         "pkg-1.0.17-26.2-fabric" = _ItVQn1cW;
         "pkg-1.0.17-26.2-neoforge" = _LMoAqWbb;
-        "default" = _LMoAqWbb;
+        "pkg-1.0.17-26.3-fabric" = _gjl2Yw81;
+        "pkg-1.0.17-26.3-neoforge" = _2saEF7mZ;
+        "default" = _2saEF7mZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "melody";

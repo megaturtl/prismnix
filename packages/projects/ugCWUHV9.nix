@@ -486,6 +486,16 @@ let
             "file" = "Enhanced-Celestials-2-Core-NeoForge-26.2-4.0.3.3.jar";
             "hash" = "sha512-pIWwBtdGXweZgSiRNy2psoFhOprCBEACWmTPIIH5OreSEYe2AKovclx31HjNVY2CDxtokx1C3dXrVBY2cOBtbg==";
         };
+        _M0QQRJF3 = {
+            "id" = "M0QQRJF3";
+            "file" = "Enhanced-Celestials-2-Core-Fabric-26.3-5.0.0.0.jar";
+            "hash" = "sha512-aWhhiiGXMkoormdScHbxCcnteI/cWmFupk9OFPPf/uTzNq87AoVLB8+SLPxo95cdis6XyHRdQT8kqlM0uBmytg==";
+        };
+        _NflB4UWM = {
+            "id" = "NflB4UWM";
+            "file" = "Enhanced-Celestials-2-Core-NeoForge-26.3-5.0.0.0.jar";
+            "hash" = "sha512-6OMUN6UJaLrvpJxFB4irtB3aRHXUpBZGlKmG23eA4XN7Lol10Er8PxBlZD7FbuKISNXcgTkCHhIyUU5wQqOUtQ==";
+        };
     in {
         "D5TmR5hF" = _D5TmR5hF;
         "ghy5l3m8" = _ghy5l3m8;
@@ -584,20 +594,25 @@ let
         "xdRmMS3v" = _xdRmMS3v;
         "Oxevb7jV" = _Oxevb7jV;
         "3ImIP8V4" = _3ImIP8V4;
+        "M0QQRJF3" = _M0QQRJF3;
+        "NflB4UWM" = _NflB4UWM;
         "forge-1.21.1" = _WIhN4GX6;
         "forge-1.20.1" = _awjgJNBd;
         "neoforge-1.21.1" = _CWaaEX5L;
         "neoforge-1.20.1" = _awjgJNBd;
         "neoforge-26.1.2" = _xdRmMS3v;
         "neoforge-26.2" = _3ImIP8V4;
+        "neoforge-26.3" = _NflB4UWM;
         "fabric-1.21.1" = _JjBuHb3J;
         "fabric-1.20.1" = _lRXoz8Kg;
         "fabric-26.1.2" = _qUsNC5Sc;
         "fabric-26.2" = _Oxevb7jV;
+        "fabric-26.3" = _M0QQRJF3;
         "quilt-1.21.1" = _JjBuHb3J;
         "quilt-1.20.1" = _lRXoz8Kg;
         "quilt-26.1.2" = _qUsNC5Sc;
         "quilt-26.2" = _Oxevb7jV;
+        "quilt-26.3" = _M0QQRJF3;
         "pkg-1.0.0.1-forge" = _XZC5JYYv;
         "pkg-1.0.0.1-neoforge" = _ghy5l3m8;
         "pkg-1.0.0.2-fabric" = _OYaUApiI;
@@ -684,7 +699,9 @@ let
         "pkg-3.0.3.3-neoforge" = _xdRmMS3v;
         "pkg-4.0.3.3-fabric" = _Oxevb7jV;
         "pkg-4.0.3.3-neoforge" = _3ImIP8V4;
-        "default" = _3ImIP8V4;
+        "pkg-5.0.0.0-fabric" = _M0QQRJF3;
+        "pkg-5.0.0.0-neoforge" = _NflB4UWM;
+        "default" = _NflB4UWM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enhanced-celestials-2-core";

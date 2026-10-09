@@ -316,6 +316,16 @@ let
             "file" = "viltrumitecore-forge-1.10.2.jar";
             "hash" = "sha512-QVzO/OotQayfn1YVDWD6ITzQETqlKw4yDjafHOnONdq6cyiTQLtgsrdEZDh5+QsbfwkSoqIOOpeMsqvTghj8eQ==";
         };
+        _Z6Db4UV6 = {
+            "id" = "Z6Db4UV6";
+            "file" = "viltrumitecore-1.10.3.jar";
+            "hash" = "sha512-zdpSXgNRaH85vpbRHdPMjtQaR4u7BUI9QutfoW6zUsiCOlOKaI2fDHsldztQ1Q+kLEGf+X1Uz7u83SGzTHOolA==";
+        };
+        _5pbBNePf = {
+            "id" = "5pbBNePf";
+            "file" = "viltrumitecore-forge-1.10.3.jar";
+            "hash" = "sha512-oG4Xqu2uZekuJpEx1pT0FiecJQI23Mv9p4EP6wFZFSukY0GZU2XHpI3IA1pNPFq1Rph2Quuivzrr2uvXJ0FqAQ==";
+        };
     in {
         "v3nGJWR3" = _v3nGJWR3;
         "4RoijOVZ" = _4RoijOVZ;
@@ -380,8 +390,10 @@ let
         "qdDksScP" = _qdDksScP;
         "VB8Fpewg" = _VB8Fpewg;
         "qpEwWinG" = _qpEwWinG;
-        "fabric-1.20.1" = _VB8Fpewg;
-        "forge-1.20.1" = _qpEwWinG;
+        "Z6Db4UV6" = _Z6Db4UV6;
+        "5pbBNePf" = _5pbBNePf;
+        "fabric-1.20.1" = _Z6Db4UV6;
+        "forge-1.20.1" = _5pbBNePf;
         "pkg-1.0.0" = _v3nGJWR3;
         "pkg-1.0.1" = _4RoijOVZ;
         "pkg-1.0.2" = _xLpuGg8p;
@@ -421,7 +433,8 @@ let
         "pkg-1.10.0" = _6WFYAjqk;
         "pkg-1.10.1" = _qdDksScP;
         "pkg-1.10.2" = _qpEwWinG;
-        "default" = _qpEwWinG;
+        "pkg-1.10.3" = _5pbBNePf;
+        "default" = _5pbBNePf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "viltrumite";

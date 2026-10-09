@@ -321,6 +321,21 @@ let
             "file" = "torchtoss-neoforge-5.2.0+26.2.jar";
             "hash" = "sha512-5TN+WE3IIH9lpgymZuk+9hysKlX9QhJEEjEPJls8idbYUVQFhU5Qrkpzt2lLs7jU2bmgyHrFQCbgr1FGhayhzw==";
         };
+        _vjPuqVHC = {
+            "id" = "vjPuqVHC";
+            "file" = "torchtoss-fabric-5.3.0+26.3.jar";
+            "hash" = "sha512-8ZrN53FdlTxKta3LuHUFPK9QeNkjwePnRsrrVBe23IY9KGjEsP/76fkQ1LG/QpqAejfeVQR0RNzAmf0PyIYfpg==";
+        };
+        _RbErSJHJ = {
+            "id" = "RbErSJHJ";
+            "file" = "torchtoss-neoforge-5.3.0+26.3.jar";
+            "hash" = "sha512-u2fqqZzn9JssmsqufHBx8IeDswa1HDaJ7oHaMVUrLdhxqcu6Z5YKAzuzcedUHbOibFi/TP+f9o6M04Rx5arscQ==";
+        };
+        _97FTL2Kk = {
+            "id" = "97FTL2Kk";
+            "file" = "torchtoss-forge-5.3.0+26.3.jar";
+            "hash" = "sha512-CzLQ+W9GnBAbzuncDtx7LpZoX2CWhYM3+bDwnFGLeuK3hIpZJGh9R55ZFeGkCAE6OJFLWYZ+mRr5dfeHnNaFaA==";
+        };
     in {
         "bxLx1bnv" = _bxLx1bnv;
         "YVIg5jON" = _YVIg5jON;
@@ -386,6 +401,9 @@ let
         "CqjUkKrv" = _CqjUkKrv;
         "C720b3sP" = _C720b3sP;
         "1JcS2PFI" = _1JcS2PFI;
+        "vjPuqVHC" = _vjPuqVHC;
+        "RbErSJHJ" = _RbErSJHJ;
+        "97FTL2Kk" = _97FTL2Kk;
         "neoforge-1.21.4" = _gaQi8j7n;
         "neoforge-1.21.1" = _Yiczqf6H;
         "neoforge-1.21.5" = _mvTJ8L9U;
@@ -398,6 +416,7 @@ let
         "neoforge-26.1.1" = _mwmzSpWr;
         "neoforge-26.1.2" = _sqh8zlVv;
         "neoforge-26.2" = _1JcS2PFI;
+        "neoforge-26.3" = _RbErSJHJ;
         "fabric-1.21.4" = _A8zHLpUz;
         "fabric-1.21.1" = _mwB3gQeK;
         "fabric-1.21.5" = _Z9iznIe4;
@@ -410,12 +429,14 @@ let
         "fabric-26.1.1" = _Ho52YgKq;
         "fabric-26.1.2" = _FqJXkYxn;
         "fabric-26.2" = _C720b3sP;
+        "fabric-26.3" = _vjPuqVHC;
         "forge-1.21.10" = _B3Z81YS3;
         "forge-26.1" = _UL4Ed9hg;
         "forge-26.1.1" = _XHbTeiNN;
         "forge-26.1.2" = _3Y7ATO9G;
         "forge-26.2" = _CqjUkKrv;
         "forge-1.21.11" = _XRScSucO;
+        "forge-26.3" = _97FTL2Kk;
         "pkg-1.0.0+1.21.4" = _YVIg5jON;
         "pkg-1.0.1+1.21.4" = _ESosoGpH;
         "pkg-1.1.0+1.21.4" = _VYSPDXvq;
@@ -441,7 +462,8 @@ let
         "pkg-5.2.0+26.1.1" = _mwmzSpWr;
         "pkg-5.2.0+26.1.2" = _sqh8zlVv;
         "pkg-5.2.0+26.2" = _1JcS2PFI;
-        "default" = _1JcS2PFI;
+        "pkg-5.3.0+26.3" = _97FTL2Kk;
+        "default" = _97FTL2Kk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "torch-toss";

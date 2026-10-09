@@ -141,6 +141,16 @@ let
             "file" = "rw_additionalpaintings-reforged-2.0.1-26.1.2.jar";
             "hash" = "sha512-IrXd5osZcYFpao0XDEqvatkWjlJtSdLMhK63OO+p9HHa57ZZ8BkyMfGrBmKZepSxYqLlT/qIb22j5lODmDDvWA==";
         };
+        _gI1Cahax = {
+            "id" = "gI1Cahax";
+            "file" = "rw_additionalpaintings-reforged-2.0.1-26.2.jar";
+            "hash" = "sha512-0dMjoLrpLU9wOQC4iT7ks5lUJPAmfRfxqLNWMKeLW3icpZD4Ws7nPd0BkUCxf70N7QYi4+HVX7UkPMRP9SLrAA==";
+        };
+        _jTfElqio = {
+            "id" = "jTfElqio";
+            "file" = "rw_additionalpaintings-reforged-2.0.1-26.3.jar";
+            "hash" = "sha512-8TjSkwolbRrEHQeoQQ6d7ZQHK4M1AONbyjkl8mYAb+o11WqyxFxareOKXjOSrl8OKoLD+z3PcKnyY0I536ACoA==";
+        };
     in {
         "aONPIc2m" = _aONPIc2m;
         "NRWHZytq" = _NRWHZytq;
@@ -170,6 +180,8 @@ let
         "ZTOQWnqK" = _ZTOQWnqK;
         "HE6nY9ll" = _HE6nY9ll;
         "a2HtjHH2" = _a2HtjHH2;
+        "gI1Cahax" = _gI1Cahax;
+        "jTfElqio" = _jTfElqio;
         "forge-1.20.1" = _9Nn3CSIL;
         "forge-1.16.5" = _ZeVWntAP;
         "forge-1.14.4" = _f3MSAb6E;
@@ -196,6 +208,8 @@ let
         "neoforge-1.20.1" = _R6O2gpXi;
         "neoforge-1.21.8" = _HE6nY9ll;
         "neoforge-26.1.2" = _a2HtjHH2;
+        "neoforge-26.2" = _gI1Cahax;
+        "neoforge-26.3" = _jTfElqio;
         "quilt-1.20.1" = _cywLXNYe;
         "quilt-1.20.2" = _cywLXNYe;
         "quilt-1.20.3" = _cywLXNYe;
@@ -211,8 +225,8 @@ let
         "pkg-1.3.0" = _tenq5sgi;
         "pkg-1.4.0" = _4tw6c1J9;
         "pkg-1.4.1" = _HE6nY9ll;
-        "pkg-2.0.1" = _a2HtjHH2;
-        "default" = _a2HtjHH2;
+        "pkg-2.0.1" = _jTfElqio;
+        "default" = _jTfElqio;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "rispwinds-additional-paintings-forgefabric";

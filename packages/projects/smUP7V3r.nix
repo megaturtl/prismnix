@@ -581,6 +581,31 @@ let
             "file" = "durabilitytooltip-1.2.0-neoforge-mc26.3.jar";
             "hash" = "sha512-KVN1mzUhrJVagTbGFfakcLhDGdlVnLwOOeyXKb4xvWzf3rXKrblwGADK108R+8iavdFnQ/m3WZaJ779PEEUPsw==";
         };
+        _BGiMyAf3 = {
+            "id" = "BGiMyAf3";
+            "file" = "durabilitytooltip-1.2.0a-forge-mc26.1.jar";
+            "hash" = "sha512-b1/m+4bgka8yyGS88smNA+lPAbCs+McQIQ6La13mz9eHcQ5GTlXBDolHb9E3IiWj0CmyBOLgahh9cnQxEOdDlA==";
+        };
+        _VPkcH6kj = {
+            "id" = "VPkcH6kj";
+            "file" = "durabilitytooltip-1.2.0a-forge-mc26.2.jar";
+            "hash" = "sha512-llsDlrdybB03FXJ/E7ySZ4eJIjCzDW77ygdgQKs4BzWSUmOdktmC75jk/epeEfjofCghOv5zpgiRc0nbjqLS5w==";
+        };
+        _K54q1T5g = {
+            "id" = "K54q1T5g";
+            "file" = "durabilitytooltip-1.2.0a-fabric-mc26.1.jar";
+            "hash" = "sha512-O/9SuqUm0RzBuZJT+Y3EIfAW4FfN3IRL5qSSK80cbvFidgNgAeNtoQFGxlOF+WdlqZlGzQ7jWkX7DXnaqpHyZQ==";
+        };
+        _mm3FDVjB = {
+            "id" = "mm3FDVjB";
+            "file" = "durabilitytooltip-1.2.0a-fabric-mc26.2.jar";
+            "hash" = "sha512-CYrTomDbaRjvQTH/dgixCSbRv1hX+NKDgmcI8puQtryAwkYmMGun3t4Cf2Rts/s2W8JqE4C550xuVrS+qpFf8A==";
+        };
+        _5qPHfg1S = {
+            "id" = "5qPHfg1S";
+            "file" = "durabilitytooltip-1.2.0a-fabric-mc26.3.jar";
+            "hash" = "sha512-hXHav40lkRCjbh6T4klPVbKmiGAm7n56V1UHAt4XvLpzyp3oEA0M9qof5jKvKq3L2uw6Fju1ga35d96B1u8KTA==";
+        };
     in {
         "MgwdGWSx" = _MgwdGWSx;
         "3pS3cPgI" = _3pS3cPgI;
@@ -698,6 +723,11 @@ let
         "PTjclyFn" = _PTjclyFn;
         "TdBiYjOG" = _TdBiYjOG;
         "BUA3MJw4" = _BUA3MJw4;
+        "BGiMyAf3" = _BGiMyAf3;
+        "VPkcH6kj" = _VPkcH6kj;
+        "K54q1T5g" = _K54q1T5g;
+        "mm3FDVjB" = _mm3FDVjB;
+        "5qPHfg1S" = _5qPHfg1S;
         "forge-1.12" = _l7ru4STg;
         "forge-1.12.1" = _l7ru4STg;
         "forge-1.12.2" = _l7ru4STg;
@@ -744,10 +774,10 @@ let
         "forge-1.21.9" = _6r4TbvLB;
         "forge-1.21.10" = _6r4TbvLB;
         "forge-1.21.11" = _tz0ikHh5;
-        "forge-26.1" = _PXQ7VE1r;
-        "forge-26.1.1" = _PXQ7VE1r;
-        "forge-26.1.2" = _PXQ7VE1r;
-        "forge-26.2" = _NGw5laRV;
+        "forge-26.1" = _BGiMyAf3;
+        "forge-26.1.1" = _BGiMyAf3;
+        "forge-26.1.2" = _BGiMyAf3;
+        "forge-26.2" = _VPkcH6kj;
         "neoforge-1.12" = _mVOaoCwy;
         "neoforge-1.12.1" = _mVOaoCwy;
         "neoforge-1.12.2" = _mVOaoCwy;
@@ -825,11 +855,11 @@ let
         "fabric-1.21.9" = _E78U13HV;
         "fabric-1.21.10" = _E78U13HV;
         "fabric-1.21.11" = _INq5cBnm;
-        "fabric-26.1" = _Giy4XWnQ;
-        "fabric-26.1.1" = _Giy4XWnQ;
-        "fabric-26.1.2" = _Giy4XWnQ;
-        "fabric-26.2" = _eQiRg8Up;
-        "fabric-26.3" = _TdBiYjOG;
+        "fabric-26.1" = _K54q1T5g;
+        "fabric-26.1.1" = _K54q1T5g;
+        "fabric-26.1.2" = _K54q1T5g;
+        "fabric-26.2" = _mm3FDVjB;
+        "fabric-26.3" = _5qPHfg1S;
         "quilt-1.18" = _5iOjBFkM;
         "quilt-1.18.1" = _5iOjBFkM;
         "quilt-1.18.2" = _5iOjBFkM;
@@ -857,11 +887,11 @@ let
         "quilt-1.21.9" = _E78U13HV;
         "quilt-1.21.10" = _E78U13HV;
         "quilt-1.21.11" = _INq5cBnm;
-        "quilt-26.1" = _Giy4XWnQ;
-        "quilt-26.1.1" = _Giy4XWnQ;
-        "quilt-26.1.2" = _Giy4XWnQ;
-        "quilt-26.2" = _eQiRg8Up;
-        "quilt-26.3" = _TdBiYjOG;
+        "quilt-26.1" = _K54q1T5g;
+        "quilt-26.1.1" = _K54q1T5g;
+        "quilt-26.1.2" = _K54q1T5g;
+        "quilt-26.2" = _mm3FDVjB;
+        "quilt-26.3" = _5qPHfg1S;
         "pkg-1.1.1-forge-mc1.12" = _MgwdGWSx;
         "pkg-1.1.1-forge-mc1.14" = _3pS3cPgI;
         "pkg-1.1.1-forge-mc1.15" = _tWzjiy5y;
@@ -978,7 +1008,12 @@ let
         "pkg-1.2.0a-neoforge-mc26.2" = _PTjclyFn;
         "pkg-1.2.0-fabric-mc26.3" = _TdBiYjOG;
         "pkg-1.2.0-neoforge-mc26.3" = _BUA3MJw4;
-        "default" = _BUA3MJw4;
+        "pkg-1.2.0a-forge-mc26.1" = _BGiMyAf3;
+        "pkg-1.2.0a-forge-mc26.2" = _VPkcH6kj;
+        "pkg-1.2.0a-fabric-mc26.1" = _K54q1T5g;
+        "pkg-1.2.0a-fabric-mc26.2" = _mm3FDVjB;
+        "pkg-1.2.0a-fabric-mc26.3" = _5qPHfg1S;
+        "default" = _5qPHfg1S;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "durability-tooltip";

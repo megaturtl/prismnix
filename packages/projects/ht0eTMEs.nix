@@ -316,6 +316,16 @@ let
             "file" = "factory_blocks-neoforge-1.4.2+mc26.2.jar";
             "hash" = "sha512-dQg+vS5c0P6EUo3GTc64UByZL4fDm2WpuhvfJhKOjuOO89nAF6Ote/A5Myc8j/5+JlK2wnZq6OTgE5P3zFgddw==";
         };
+        _nF1AKJBt = {
+            "id" = "nF1AKJBt";
+            "file" = "factory_blocks-fabric-1.4.2+mc26.3.jar";
+            "hash" = "sha512-3B8xtoxRehdOf4uGiiVFwdzXChO/NjCrxQD0n+FjpsdBSOVND2D2oSA0updJv/2FkTHAoX8Or8DBXsQmC6cbYQ==";
+        };
+        _an1TlUSb = {
+            "id" = "an1TlUSb";
+            "file" = "factory_blocks-neoforge-1.4.2+mc26.3.jar";
+            "hash" = "sha512-mFl/roWmQoXZwRcngh3pvAo0nC4dqC/zw+HywzK/QE7mONJ5O0TvBHM3p2mv4B728IaeZOoyAuJtPdRKG39mAQ==";
+        };
     in {
         "oaR4OKlQ" = _oaR4OKlQ;
         "hQInlHVy" = _hQInlHVy;
@@ -380,6 +390,8 @@ let
         "uc1QsdGf" = _uc1QsdGf;
         "mvdZn9g0" = _mvdZn9g0;
         "vSJ9lYDc" = _vSJ9lYDc;
+        "nF1AKJBt" = _nF1AKJBt;
+        "an1TlUSb" = _an1TlUSb;
         "fabric-1.19-pre1" = _oaR4OKlQ;
         "fabric-1.19-pre2" = _oaR4OKlQ;
         "fabric-1.19-pre3" = _oaR4OKlQ;
@@ -441,6 +453,7 @@ let
         "fabric-26.1.1" = _WCJFWSuA;
         "fabric-26.1.2" = _WCJFWSuA;
         "fabric-26.2" = _mvdZn9g0;
+        "fabric-26.3" = _nF1AKJBt;
         "forge-1.20.1" = _R3EQLbo9;
         "forge-1.19.4" = _IM0R9Nwn;
         "forge-1.20.3" = _qRdtgakP;
@@ -466,6 +479,7 @@ let
         "neoforge-26.1.1" = _uc1QsdGf;
         "neoforge-26.1.2" = _uc1QsdGf;
         "neoforge-26.2" = _vSJ9lYDc;
+        "neoforge-26.3" = _an1TlUSb;
         "quilt-1.21" = _qdbtjlzQ;
         "quilt-1.21.1" = _qdbtjlzQ;
         "quilt-1.21.2" = _qdbtjlzQ;
@@ -488,6 +502,7 @@ let
         "quilt-26.1.1" = _WCJFWSuA;
         "quilt-26.1.2" = _WCJFWSuA;
         "quilt-26.2" = _mvdZn9g0;
+        "quilt-26.3" = _nF1AKJBt;
         "pkg-1.0.0" = _hQInlHVy;
         "pkg-1.1.0" = _wUMkES0N;
         "pkg-1.2.0" = _9hv1qhTC;
@@ -536,7 +551,9 @@ let
         "pkg-neoforge-1.21.11-1.4.2" = _bb4POQfz;
         "pkg-fabric-26.2-1.4.2" = _mvdZn9g0;
         "pkg-neoforge-26.2-1.4.2" = _vSJ9lYDc;
-        "default" = _vSJ9lYDc;
+        "pkg-fabric-26.3-1.4.2" = _nF1AKJBt;
+        "pkg-neoforge-26.3-1.4.2" = _an1TlUSb;
+        "default" = _an1TlUSb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "factory-blocks";

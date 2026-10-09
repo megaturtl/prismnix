@@ -41,6 +41,11 @@ let
             "file" = "create_the_air_wars-4.67.jar";
             "hash" = "sha512-dMYX00LHxDue9n4i03kaDKdoG7ZHksKa5Fv6r7L5/jx01xGyxzNLAIxEbB2uPuxMIIoo5Vo30noN8mJ6HgXuWw==";
         };
+        _moqz93W3 = {
+            "id" = "moqz93W3";
+            "file" = "create_the_air_wars-5.00.jar";
+            "hash" = "sha512-vkW0z6bbGTeZ9CYgp8E9Y7+0/4v1g/0EYX+IMjOk5YIlwJL7RFPnKFYgWzrar+v1LpUsW/Iy6oGI6GrNFC/JbA==";
+        };
     in {
         "bNfGukcb" = _bNfGukcb;
         "Qs0iWSIW" = _Qs0iWSIW;
@@ -50,8 +55,9 @@ let
         "qRmOHGkh" = _qRmOHGkh;
         "Wmp3r03O" = _Wmp3r03O;
         "JnF14u1u" = _JnF14u1u;
+        "moqz93W3" = _moqz93W3;
         "forge-1.20.1" = _Qs0iWSIW;
-        "neoforge-1.21.1" = _JnF14u1u;
+        "neoforge-1.21.1" = _moqz93W3;
         "pkg-0.1" = _bNfGukcb;
         "pkg-1.04" = _Qs0iWSIW;
         "pkg-4.01" = _u5dQLrvj;
@@ -60,7 +66,8 @@ let
         "pkg-4.65" = _qRmOHGkh;
         "pkg-4.66" = _Wmp3r03O;
         "pkg-4.67" = _JnF14u1u;
-        "default" = _JnF14u1u;
+        "pkg-5.00" = _moqz93W3;
+        "default" = _moqz93W3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-the-air-war";

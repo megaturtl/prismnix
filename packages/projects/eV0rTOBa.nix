@@ -91,6 +91,16 @@ let
             "file" = "right_click_chest_boat-fabric-26.2-1.0.6.jar";
             "hash" = "sha512-4gGDmGlatP1m4OLAR8JwZt+RspY7WGWEOu1OKC1tLnUlLFjq+cNqBhS6VwBlCGup2Vg1btJbBAgKmXuMD9PBaA==";
         };
+        _S1pinWXO = {
+            "id" = "S1pinWXO";
+            "file" = "right_click_chest_boat-neoforge-26.3-1.0.7.jar";
+            "hash" = "sha512-6dkY1TZXi3jUMQTJNBb7gXr4lA3HZpG9Sc15p58bMlmlvw2oReltZ2wR3e3BGUrop4zSWZ4P+hvDPNie0lAYng==";
+        };
+        _CTdbzwLO = {
+            "id" = "CTdbzwLO";
+            "file" = "right_click_chest_boat-fabric-26.3-1.0.7.jar";
+            "hash" = "sha512-heJs/6b4KATORoYziQ1F5Wn6CB8+6y7XpL8D+O3ukq63rRI4w/O6WOMX5CVZql5ibCGKZQ9qIy9ElKZrCRRJQw==";
+        };
     in {
         "IDzo5Zc6" = _IDzo5Zc6;
         "wD2jt3hU" = _wD2jt3hU;
@@ -110,6 +120,8 @@ let
         "mTdjjXqq" = _mTdjjXqq;
         "xMlKbMO5" = _xMlKbMO5;
         "ni2AdZGS" = _ni2AdZGS;
+        "S1pinWXO" = _S1pinWXO;
+        "CTdbzwLO" = _CTdbzwLO;
         "neoforge-1.21" = _IDzo5Zc6;
         "neoforge-1.21.1" = _IDzo5Zc6;
         "neoforge-1.21.2" = _HfhWKbF2;
@@ -126,6 +138,7 @@ let
         "neoforge-26.1.1" = _5tuD6nTY;
         "neoforge-26.1.2" = _5tuD6nTY;
         "neoforge-26.2" = _xMlKbMO5;
+        "neoforge-26.3" = _S1pinWXO;
         "fabric-1.21" = _wD2jt3hU;
         "fabric-1.21.1" = _wD2jt3hU;
         "fabric-1.21.2" = _Wq0ExrY5;
@@ -142,6 +155,7 @@ let
         "fabric-26.1.1" = _mTdjjXqq;
         "fabric-26.1.2" = _mTdjjXqq;
         "fabric-26.2" = _ni2AdZGS;
+        "fabric-26.3" = _CTdbzwLO;
         "quilt-1.21" = _wD2jt3hU;
         "quilt-1.21.1" = _wD2jt3hU;
         "quilt-1.21.2" = _Wq0ExrY5;
@@ -158,6 +172,7 @@ let
         "quilt-26.1.1" = _mTdjjXqq;
         "quilt-26.1.2" = _mTdjjXqq;
         "quilt-26.2" = _ni2AdZGS;
+        "quilt-26.3" = _CTdbzwLO;
         "pkg-1.0.0" = _wD2jt3hU;
         "pkg-1.0.1" = _Wq0ExrY5;
         "pkg-1.0.2" = _jLTjIkjl;
@@ -167,7 +182,8 @@ let
         "pkg-1.0.4.1" = _DChivwLR;
         "pkg-1.0.5" = _mTdjjXqq;
         "pkg-1.0.6" = _ni2AdZGS;
-        "default" = _ni2AdZGS;
+        "pkg-1.0.7" = _CTdbzwLO;
+        "default" = _CTdbzwLO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "right-click-chest-boat";

@@ -746,6 +746,21 @@ let
             "file" = "mcw-paintings-1.1.0-mc26.2fabric.jar";
             "hash" = "sha512-9LywbGl56nu3cG9DskNdBMALk/Z79twEcTYiXzS5MG5lZ3kGuUuOSfJ9t7eYKvqgISzOrfiV6npXOU/An4l/2Q==";
         };
+        _pzqkBlHr = {
+            "id" = "pzqkBlHr";
+            "file" = "mcw-paintings-1.1.0-mc26.3fabric.jar";
+            "hash" = "sha512-G9P/AOMwjyaRorxP+gHTWu782alaucJG1jM5MNk6lhYC1yqdZYMXKcDIQn9hMlkYpqOY6qqhoVsQhkLqswhLdA==";
+        };
+        _qIzvtxJs = {
+            "id" = "qIzvtxJs";
+            "file" = "mcw-paintings-1.1.0-mc26.3forge.jar";
+            "hash" = "sha512-J/ECA22Np0SLGlcSIqGgCZ2AxZ7jR6wcMGId+S7r1u0MiGkUrjrStBZG3KECy+uCYxA1hDlg0KuDgQnBqezQiA==";
+        };
+        _NXlg5qRA = {
+            "id" = "NXlg5qRA";
+            "file" = "mcw-paintings-1.1.0-mc26.3neoforge.jar";
+            "hash" = "sha512-Zrejtx/8McjaZVZT1WTtm206UfgMRUnz4R/EFEMEg2wFFg3JPBGF9LKS4UD9+YdgrIE59EoaF/9a24AZA8Aj9Q==";
+        };
     in {
         "PVYArInS" = _PVYArInS;
         "6f8uM2j5" = _6f8uM2j5;
@@ -896,6 +911,9 @@ let
         "N0wliobR" = _N0wliobR;
         "IFoDpdJI" = _IFoDpdJI;
         "IYqbBWnh" = _IYqbBWnh;
+        "pzqkBlHr" = _pzqkBlHr;
+        "qIzvtxJs" = _qIzvtxJs;
+        "NXlg5qRA" = _NXlg5qRA;
         "forge-1.20.1" = _MtkSHN09;
         "forge-1.20" = _TuI46SUq;
         "forge-1.19.4" = _QUvUy28z;
@@ -927,6 +945,7 @@ let
         "forge-26.1.1" = _V6KauWcF;
         "forge-26.1.2" = _V6KauWcF;
         "forge-26.2" = _N0wliobR;
+        "forge-26.3" = _qIzvtxJs;
         "fabric-1.18.2" = _udOuj0Eu;
         "fabric-1.19" = _fp3vzVYs;
         "fabric-1.19.2" = _x2ww9xql;
@@ -954,6 +973,7 @@ let
         "fabric-26.1.1" = _GOQxUGTV;
         "fabric-26.1.2" = _GOQxUGTV;
         "fabric-26.2" = _IYqbBWnh;
+        "fabric-26.3" = _pzqkBlHr;
         "neoforge-1.20.4" = _CLD7OHpE;
         "neoforge-1.20.6" = _j3HUWQVa;
         "neoforge-1.21" = _Mq8hE154;
@@ -971,10 +991,11 @@ let
         "neoforge-26.1.1" = _97CySvTp;
         "neoforge-26.1.2" = _97CySvTp;
         "neoforge-26.2" = _IFoDpdJI;
+        "neoforge-26.3" = _NXlg5qRA;
         "pkg-1.0.4" = _UCdbTbk2;
         "pkg-1.0.5" = _ONiJn6lu;
-        "pkg-1.1.0" = _IYqbBWnh;
-        "default" = _IYqbBWnh;
+        "pkg-1.1.0" = _NXlg5qRA;
+        "default" = _NXlg5qRA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "macaws-paintings";

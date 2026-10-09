@@ -936,6 +936,81 @@ let
             "file" = "angelica-2.2.15.jar";
             "hash" = "sha512-QGCj1vKU9t4Mh2lrvla3CjD/soEqt6yPXdB3HvCGIJ9oKNhZ/fCaREGAMGkukeiB033umgh+h+W1NTCxFDOLMw==";
         };
+        _7hTzQNBa = {
+            "id" = "7hTzQNBa";
+            "file" = "angelica-2.2.16.jar";
+            "hash" = "sha512-x0O1Hv/WlwuimpJGVCH2hz3gBej0mzfvWIkmxVKPHDvY9WzaX3N65X38swbx0I0UUyxi7PhzMZ00L3P5Nrl+bQ==";
+        };
+        _aaJUYgt2 = {
+            "id" = "aaJUYgt2";
+            "file" = "angelica-2.2.17.jar";
+            "hash" = "sha512-QCcLTm/Uv0wY1gRpTrHu+Ito+htgq85JW2iWCat/GKRE7qnMPdfXEzTftLd4R00Rm9iV0664GcvGLyCar6hnsQ==";
+        };
+        _Z4VBn1qx = {
+            "id" = "Z4VBn1qx";
+            "file" = "angelica-2.2.18.jar";
+            "hash" = "sha512-wdeliSB7sxzL+XDmalczrGQ7TLwzE9sjJ2WqIISl98y0K5R4zAhTMCEr8l2ngHKEWAWOcbSjbZnaaI5DG4WOIw==";
+        };
+        _qNy2k4bW = {
+            "id" = "qNy2k4bW";
+            "file" = "angelica-2.2.19.jar";
+            "hash" = "sha512-L/0n6EZ31G6W00Ro9k/incSFjAqABwAbc0UDyNMEckb+b1bzwuvHiMlK/uHRqGwEpo+z+OLJvZ3y5lG24muFDQ==";
+        };
+        _trmd6qcf = {
+            "id" = "trmd6qcf";
+            "file" = "angelica-2.2.20.jar";
+            "hash" = "sha512-7NSDHDSXfa53L7FARfUE/hStrgDIW29uPVpureunAo++JbzRWx5drd3exgw8A5lEIu6WSkpuk2oY23a1YVw07Q==";
+        };
+        _MS64a937 = {
+            "id" = "MS64a937";
+            "file" = "angelica-2.2.21.jar";
+            "hash" = "sha512-wY5EWXR9BFYQk8ceUtiRaLTRfMfskkVDGEvrssJzbfRMRFda8Nl4m0bAV7M15mXSCaPy5Y2D8STsmlWwRwzdjg==";
+        };
+        _6Mzwo7xI = {
+            "id" = "6Mzwo7xI";
+            "file" = "angelica-2.2.22.jar";
+            "hash" = "sha512-ymPXojvvfxS2EZYhmBozL25zB/1KpYl23EspIKwOGq+36KY7Etauu7jdpk7eGetIDivKhN1H2rAFNFQj0h8P3w==";
+        };
+        _pYnFHhEa = {
+            "id" = "pYnFHhEa";
+            "file" = "angelica-2.2.23.jar";
+            "hash" = "sha512-oeGZnBO9Hf4iRkY7LHqwuZnd8DsQisslMS6IuV4iltLLjSb6aYRHF5Bbub/4pk/3Jq0yXftChDocre4WiTqdfw==";
+        };
+        _SYUD0E4G = {
+            "id" = "SYUD0E4G";
+            "file" = "angelica-2.2.24.jar";
+            "hash" = "sha512-wo++p4d6dNBTYNmjBNrxQlmxxM0Snkkom+prweXdOHtfVc7HYvJN88jEgR+taPslqRUCu71B+ObzOTUCeVtiMw==";
+        };
+        _eyIEro0m = {
+            "id" = "eyIEro0m";
+            "file" = "angelica-2.2.25.jar";
+            "hash" = "sha512-s3R2l9HGAOOCG4UhIAKI/nsaoJJR5O2W7nyYlsZoGk+6LBySCFU57Y76Tq0/Yb5UJ/fokV+7QLlKQk02RRztXg==";
+        };
+        _ng5LFs0B = {
+            "id" = "ng5LFs0B";
+            "file" = "angelica-2.2.26.jar";
+            "hash" = "sha512-RSePQ4T47pdjYWT1rGpPWCHNCOiBvHaEvu97f67rEeMvrROTBQbHkuIqo87APh4Iue39RGqZuylwxJvC+B+yYA==";
+        };
+        _18ZE2Wtu = {
+            "id" = "18ZE2Wtu";
+            "file" = "angelica-2.2.27.jar";
+            "hash" = "sha512-kA1W2++JjIk2kwdQv7WduNVxFoZ75X8iitzT5+l94DxqGcn2fEBteT/vsoyCnZT8lT+SxRmHoHSTkdnfIfayJg==";
+        };
+        _NRmJLWjP = {
+            "id" = "NRmJLWjP";
+            "file" = "angelica-2.2.28.jar";
+            "hash" = "sha512-BYz8QeVZC2G1SMDBISHl5Drwg1J9eWP953amUpp7cGbEPFeMG7t9fhxY8IFPU6kVE0NL9+yc9Jd+e4vVSfEPUw==";
+        };
+        _PZeoVEfg = {
+            "id" = "PZeoVEfg";
+            "file" = "angelica-2.2.29.jar";
+            "hash" = "sha512-uwbEDjmBla/2NtxlTEEBHxxPYQtete5Yj/2W0/BpSVMRQj6FYjz8fZEItoj7xYT41nGD5BMECYft87UIs+Y85g==";
+        };
+        _Zgbvc7IT = {
+            "id" = "Zgbvc7IT";
+            "file" = "angelica-2.2.30.jar";
+            "hash" = "sha512-AdvfU3/LMmrztO1STPbOq5BPX6IW/zw2S3jtYAt7U2NU/p4Mj1Rql8ayMBvFNh37SMwIBaWfIvXA2lHNW6cshw==";
+        };
     in {
         "GRmV423v" = _GRmV423v;
         "YkDiZW8D" = _YkDiZW8D;
@@ -1124,7 +1199,22 @@ let
         "XzPTN9zq" = _XzPTN9zq;
         "9C2Uci26" = _9C2Uci26;
         "Cf6bsjsR" = _Cf6bsjsR;
-        "forge-1.7.10" = _Cf6bsjsR;
+        "7hTzQNBa" = _7hTzQNBa;
+        "aaJUYgt2" = _aaJUYgt2;
+        "Z4VBn1qx" = _Z4VBn1qx;
+        "qNy2k4bW" = _qNy2k4bW;
+        "trmd6qcf" = _trmd6qcf;
+        "MS64a937" = _MS64a937;
+        "6Mzwo7xI" = _6Mzwo7xI;
+        "pYnFHhEa" = _pYnFHhEa;
+        "SYUD0E4G" = _SYUD0E4G;
+        "eyIEro0m" = _eyIEro0m;
+        "ng5LFs0B" = _ng5LFs0B;
+        "18ZE2Wtu" = _18ZE2Wtu;
+        "NRmJLWjP" = _NRmJLWjP;
+        "PZeoVEfg" = _PZeoVEfg;
+        "Zgbvc7IT" = _Zgbvc7IT;
+        "forge-1.7.10" = _Zgbvc7IT;
         "pkg-1.0.0-alpha35" = _GRmV423v;
         "pkg-1.0.0-alpha36a" = _YkDiZW8D;
         "pkg-1.0.0-alpha37" = _jsoYE0Si;
@@ -1312,7 +1402,22 @@ let
         "pkg-2.2.13" = _XzPTN9zq;
         "pkg-2.2.14" = _9C2Uci26;
         "pkg-2.2.15" = _Cf6bsjsR;
-        "default" = _Cf6bsjsR;
+        "pkg-2.2.16" = _7hTzQNBa;
+        "pkg-2.2.17" = _aaJUYgt2;
+        "pkg-2.2.18" = _Z4VBn1qx;
+        "pkg-2.2.19" = _qNy2k4bW;
+        "pkg-2.2.20" = _trmd6qcf;
+        "pkg-2.2.21" = _MS64a937;
+        "pkg-2.2.22" = _6Mzwo7xI;
+        "pkg-2.2.23" = _pYnFHhEa;
+        "pkg-2.2.24" = _SYUD0E4G;
+        "pkg-2.2.25" = _eyIEro0m;
+        "pkg-2.2.26" = _ng5LFs0B;
+        "pkg-2.2.27" = _18ZE2Wtu;
+        "pkg-2.2.28" = _NRmJLWjP;
+        "pkg-2.2.29" = _PZeoVEfg;
+        "pkg-2.2.30" = _Zgbvc7IT;
+        "default" = _Zgbvc7IT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "angelica";

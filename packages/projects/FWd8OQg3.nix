@@ -31,6 +31,16 @@ let
             "file" = "wandering-trader-maps-v1.0.0.jar";
             "hash" = "sha512-SciCzx5Uy83HuIIanDjd/stJgWlSFnAepYmsk6rWCDk+18KV8mGnDI2NLB5QWydkw/qbNZ/TqOTvqUq0bda8HQ==";
         };
+        _RG8dYyx1 = {
+            "id" = "RG8dYyx1";
+            "file" = "Wandering Trader Maps v1.0.0 [26.3].zip";
+            "hash" = "sha512-TeH17rlOM4LkhtpAirvpvVIv6cHQ6p9HMNH42aZPUxLREzitzikegJTWV/xgZEuyc/penuFregPuJVN11spAKg==";
+        };
+        _SCp8BkXd = {
+            "id" = "SCp8BkXd";
+            "file" = "wandering-trader-maps-1.0.0.jar";
+            "hash" = "sha512-a40cLP3ZySZMqKEJEYlMKBy1qTS9M+XfgKDDwHlZkJWFdsemAM5EGnxx3sqxFsOiPpnF7X/uB57fzpihKa8+OQ==";
+        };
     in {
         "wUZsjL4j" = _wUZsjL4j;
         "eeFMtOwI" = _eeFMtOwI;
@@ -38,6 +48,8 @@ let
         "ZkU1m6II" = _ZkU1m6II;
         "oRJq0OUi" = _oRJq0OUi;
         "RAaFS08b" = _RAaFS08b;
+        "RG8dYyx1" = _RG8dYyx1;
+        "SCp8BkXd" = _SCp8BkXd;
         "datapack-1.21.5" = _wUZsjL4j;
         "datapack-1.21.6" = _wUZsjL4j;
         "datapack-1.21.7" = _wUZsjL4j;
@@ -54,6 +66,7 @@ let
         "datapack-1.21.4" = _8nlZAUNw;
         "datapack-1.21" = _oRJq0OUi;
         "datapack-1.21.1" = _oRJq0OUi;
+        "datapack-26.3" = _RG8dYyx1;
         "fabric-1.21.5" = _eeFMtOwI;
         "fabric-1.21.6" = _eeFMtOwI;
         "fabric-1.21.7" = _eeFMtOwI;
@@ -70,6 +83,7 @@ let
         "fabric-1.21.4" = _ZkU1m6II;
         "fabric-1.21" = _RAaFS08b;
         "fabric-1.21.1" = _RAaFS08b;
+        "fabric-26.3" = _SCp8BkXd;
         "forge-1.21.5" = _eeFMtOwI;
         "forge-1.21.6" = _eeFMtOwI;
         "forge-1.21.7" = _eeFMtOwI;
@@ -86,6 +100,7 @@ let
         "forge-1.21.4" = _ZkU1m6II;
         "forge-1.21" = _RAaFS08b;
         "forge-1.21.1" = _RAaFS08b;
+        "forge-26.3" = _SCp8BkXd;
         "neoforge-1.21.5" = _eeFMtOwI;
         "neoforge-1.21.6" = _eeFMtOwI;
         "neoforge-1.21.7" = _eeFMtOwI;
@@ -102,6 +117,7 @@ let
         "neoforge-1.21.4" = _ZkU1m6II;
         "neoforge-1.21" = _RAaFS08b;
         "neoforge-1.21.1" = _RAaFS08b;
+        "neoforge-26.3" = _SCp8BkXd;
         "quilt-1.21.5" = _eeFMtOwI;
         "quilt-1.21.6" = _eeFMtOwI;
         "quilt-1.21.7" = _eeFMtOwI;
@@ -118,9 +134,12 @@ let
         "quilt-1.21.4" = _ZkU1m6II;
         "quilt-1.21" = _RAaFS08b;
         "quilt-1.21.1" = _RAaFS08b;
+        "quilt-26.3" = _SCp8BkXd;
         "pkg-v1.0.0" = _oRJq0OUi;
         "pkg-v1.0.0+mod" = _RAaFS08b;
-        "default" = _RAaFS08b;
+        "pkg-1.0.0" = _RG8dYyx1;
+        "pkg-1.0.0+mod" = _SCp8BkXd;
+        "default" = _SCp8BkXd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wandering-trader-maps";

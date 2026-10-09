@@ -71,6 +71,16 @@ let
             "file" = "litematicaWand-1.3.0+26.2.jar";
             "hash" = "sha512-3YlWGig/F3wHjQTvF/oaLNCNUqfgSC0ZLmiXiVgcY1yP3hqqWnBJXJjWNRyW7+BC10zw74XRubmUfFmUenOEJw==";
         };
+        _PiQBlsLD = {
+            "id" = "PiQBlsLD";
+            "file" = "litematicaWand-1.4.0+26.2.jar";
+            "hash" = "sha512-5pMYIxu6AKcuuvJGWe+rrVb38ANID4SqOU55jnEdL+6gXCA4X6JRRAO7NCx/AMHKc9C451OTVXyk/Nd+SelGKQ==";
+        };
+        _VYy0Tiia = {
+            "id" = "VYy0Tiia";
+            "file" = "litematicaWand-1.4.0+26.3.jar";
+            "hash" = "sha512-E+7fyJ3n2i/6GTz/kE6QTdZM6amZZ+2jCyYDsVyB3+9NAzL/IWMygX1LhhW5qB5b+kWkWpF0OJz4n9vz0LeNMg==";
+        };
     in {
         "7Iro5Hoe" = _7Iro5Hoe;
         "6YW7x8vE" = _6YW7x8vE;
@@ -86,6 +96,8 @@ let
         "NAwmfZNG" = _NAwmfZNG;
         "oMtm65iE" = _oMtm65iE;
         "qzzrewGA" = _qzzrewGA;
+        "PiQBlsLD" = _PiQBlsLD;
+        "VYy0Tiia" = _VYy0Tiia;
         "fabric-1.20.4" = _7Iro5Hoe;
         "fabric-1.20.6" = _6YW7x8vE;
         "fabric-1.21" = _S1m9pSNr;
@@ -101,7 +113,8 @@ let
         "fabric-26.1" = _oMtm65iE;
         "fabric-26.1.1" = _oMtm65iE;
         "fabric-26.1.2" = _oMtm65iE;
-        "fabric-26.2" = _qzzrewGA;
+        "fabric-26.2" = _PiQBlsLD;
+        "fabric-26.3" = _VYy0Tiia;
         "pkg-1.0" = _7Iro5Hoe;
         "pkg-1.0+1.20.6" = _6YW7x8vE;
         "pkg-1.0+1.21" = _S1m9pSNr;
@@ -116,7 +129,9 @@ let
         "pkg-1.1+1.21.11" = _NAwmfZNG;
         "pkg-1.2.0+26.1.x" = _oMtm65iE;
         "pkg-1.3.0+26.2" = _qzzrewGA;
-        "default" = _qzzrewGA;
+        "pkg-1.4.0+26.2" = _PiQBlsLD;
+        "pkg-1.4.0+26.3" = _VYy0Tiia;
+        "default" = _VYy0Tiia;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "litematicawand";

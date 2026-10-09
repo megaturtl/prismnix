@@ -321,6 +321,16 @@ let
             "file" = "LightAura-Fabric-8.9.7.jar";
             "hash" = "sha512-5Ik+FyFTEILRd3SnZSRuR31ji75py8KfKZw92veg5pOUxyzcXqwkRTgiZ6jw0EGSOFDmBtLFbv1f4+Rn2tEscA==";
         };
+        _oX74iTG7 = {
+            "id" = "oX74iTG7";
+            "file" = "LightAura-8.9.8.jar";
+            "hash" = "sha512-fl6dJ/FGatB7Swlw5B92ue2jdNMJD9LxEVfAXlmjmZW9OXkpKwoaM1f843KCdvjB9hxWrWVgR2iAk4e63jiHRA==";
+        };
+        _v5iwhGSg = {
+            "id" = "v5iwhGSg";
+            "file" = "LightAura-8.9.9.jar";
+            "hash" = "sha512-o1+ghUJSO3x0q+izWrsEe/w/fRaCpgoBt0fFxwbDI+svg2RWFvjtfJ1pt4KV82QpMo1xu9bz7qB3lRubgzF3Hg==";
+        };
     in {
         "j7DHcoc1" = _j7DHcoc1;
         "Ht5AapNa" = _Ht5AapNa;
@@ -386,6 +396,8 @@ let
         "DCHCx3PL" = _DCHCx3PL;
         "xkZGnvMt" = _xkZGnvMt;
         "UbrxrtBg" = _UbrxrtBg;
+        "oX74iTG7" = _oX74iTG7;
+        "v5iwhGSg" = _v5iwhGSg;
         "forge-1.20.6" = _V6ByzxEj;
         "forge-1.21" = _4fN6rdI8;
         "forge-1.21.1" = _4fN6rdI8;
@@ -413,6 +425,7 @@ let
         "forge-26.1" = _zHY1oDqO;
         "forge-26.1.1" = _zHY1oDqO;
         "forge-26.1.2" = _zHY1oDqO;
+        "forge-26.3" = _oX74iTG7;
         "fabric-1.20.1" = _M8RtEcAn;
         "fabric-1.20.2" = _FKCIRtN4;
         "fabric-1.20.3" = _FKCIRtN4;
@@ -475,6 +488,7 @@ let
         "neoforge-26.1.1" = _sYXzDE5w;
         "neoforge-26.1.2" = _jQCpr2Us;
         "neoforge-26.2" = _xkZGnvMt;
+        "neoforge-26.3" = _v5iwhGSg;
         "pkg-1.0.0" = _j7DHcoc1;
         "pkg-1.3.0" = _Ht5AapNa;
         "pkg-1.2.0" = _zFlvxhHe;
@@ -538,7 +552,9 @@ let
         "pkg-8.9.4" = _DCHCx3PL;
         "pkg-8.9.6" = _xkZGnvMt;
         "pkg-8.9.7" = _UbrxrtBg;
-        "default" = _UbrxrtBg;
+        "pkg-8.9.8" = _oX74iTG7;
+        "pkg-8.9.9" = _v5iwhGSg;
+        "default" = _v5iwhGSg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lightaura";

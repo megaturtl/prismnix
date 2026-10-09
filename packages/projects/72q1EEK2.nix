@@ -366,6 +366,21 @@ let
             "file" = "simplehammers-forge-26.2-1.0.5.jar";
             "hash" = "sha512-yOHTy9UQsjoweeM7cchpp6D+DlsI6m7u5d9E+SjZns5La0tq8UEWi0CzAGkU5D5ltAULjwR/sL2EyAK9VMjP9w==";
         };
+        _ne9EXaeD = {
+            "id" = "ne9EXaeD";
+            "file" = "simplehammers-fabric-26.3-1.0.5.jar";
+            "hash" = "sha512-0nvkehG6oX5P6NnUFtOsuhbqf+m7l2bDcvoOmLNbkSxCAgbXldK0Cjvwoffb+52IO1FkpE/EaIXhYPmCUeziAg==";
+        };
+        _TOdtPZnC = {
+            "id" = "TOdtPZnC";
+            "file" = "simplehammers-neoforge-26.3-1.0.5.jar";
+            "hash" = "sha512-g3ED2Fu/jZhGgeivxQJYMBb9WP8IIs+05zccpvGIZLx3vTZdPtpYVFb8xtxtWjmW2oHFiWXkIVuf/xhXlSUaIQ==";
+        };
+        _VR7XFerD = {
+            "id" = "VR7XFerD";
+            "file" = "simplehammers-forge-26.3-1.0.5.jar";
+            "hash" = "sha512-cM+1lZyhoIIzqR6oz7+yLWHfosyX7A5PZ1H+vActUI+m2UfPLb/QGxW4P+VCkXXlSZ2iUCW6jbuF28JX+5yepw==";
+        };
     in {
         "HYGibQXt" = _HYGibQXt;
         "L5gtO6t4" = _L5gtO6t4;
@@ -440,6 +455,9 @@ let
         "XAJecpm9" = _XAJecpm9;
         "s7JC9I8o" = _s7JC9I8o;
         "HwAdNHoS" = _HwAdNHoS;
+        "ne9EXaeD" = _ne9EXaeD;
+        "TOdtPZnC" = _TOdtPZnC;
+        "VR7XFerD" = _VR7XFerD;
         "fabric-1.20.1" = _1mMFcGsZ;
         "fabric-1.20.4" = _jz1YM70f;
         "fabric-1.20.6" = _venApDoN;
@@ -453,6 +471,7 @@ let
         "fabric-26.1.1" = _M6AtdyzU;
         "fabric-26.1.2" = _BOMxFura;
         "fabric-26.2" = _XAJecpm9;
+        "fabric-26.3" = _ne9EXaeD;
         "forge-1.20.1" = _9eAB2C9e;
         "forge-1.21.1" = _ftP9KtRb;
         "forge-1.21.11" = _qDmmzauJ;
@@ -460,19 +479,21 @@ let
         "forge-26.1.1" = _N2Hu3OZM;
         "forge-26.1.2" = _kL1kuItS;
         "forge-26.2" = _HwAdNHoS;
+        "forge-26.3" = _VR7XFerD;
         "neoforge-1.21.1" = _UCXsq3IP;
         "neoforge-1.21.11" = _aIE5rGMe;
         "neoforge-26.1" = _GzE6kz8H;
         "neoforge-26.1.1" = _FhLzaO2d;
         "neoforge-26.1.2" = _JNVxHaZs;
         "neoforge-26.2" = _s7JC9I8o;
+        "neoforge-26.3" = _TOdtPZnC;
         "pkg-v1.0.0" = _5SuWs2Ba;
         "pkg-v1.0.1" = _QZgGoIW4;
         "pkg-v1.0.2" = _NpKQ7aWb;
         "pkg-v1.0.3" = _hGeZvEmo;
         "pkg-v1.0.4" = _gQPTx6v9;
-        "pkg-v1.0.5" = _HwAdNHoS;
-        "default" = _HwAdNHoS;
+        "pkg-v1.0.5" = _VR7XFerD;
+        "default" = _VR7XFerD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simplehammers";

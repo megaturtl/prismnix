@@ -721,6 +721,36 @@ let
             "file" = "SkyblockAddons-2.5.0+1177-for-MC-26.3.jar";
             "hash" = "sha512-X91uiKEs2BnfVWSQBIWO6KkfTn2fmTHVKpX1vnJoeX4bng16f61U6W10e7CzzigaDvU4tfALVdeY+enWzCDOfA==";
         };
+        _Aginb9Oa = {
+            "id" = "Aginb9Oa";
+            "file" = "SkyblockAddons-2.3.15+1214-for-MC-26.1.jar";
+            "hash" = "sha512-6il2vP/8Zf06B/v5g91vLwBFVFy3Ayh6Pkoy3gmrDsZ8vKAbeLf7qL0CHaRArucO+UBZ68X3M0rWGQ230G/VwQ==";
+        };
+        _Vg067VuW = {
+            "id" = "Vg067VuW";
+            "file" = "SkyblockAddons-2.4.8+1213-for-MC-26.2.jar";
+            "hash" = "sha512-UIQwa1OaZl8H+7Mawk53rqt9fyrLIFdtO1n7uOhtVK6IYLBAadpgaQNa5Aptax9P5Kk0aoe3sntuo2oU0A2dQw==";
+        };
+        _sMYuXjLS = {
+            "id" = "sMYuXjLS";
+            "file" = "SkyblockAddons-2.5.1+1212-for-MC-26.3.jar";
+            "hash" = "sha512-pMv13QMh3Ae3UAIIFz4Jzdb3W/chFgnFKpa/8RhFUiheJ2/OfecuttuHFlY6kPdflbE957/2JEkpWJkrF1NwNQ==";
+        };
+        _BpWB8ypR = {
+            "id" = "BpWB8ypR";
+            "file" = "SkyblockAddons-2.3.16+1230-for-MC-26.1.jar";
+            "hash" = "sha512-0OmrHM2dgqr4Vf3srbxn7OrwJa0ELw1GIHMyAMabkX+mr/0j8M+sJFi1I1Dl0Y4I8jbKy5hAl/qAQurGbgwWyA==";
+        };
+        _2DlzN5JS = {
+            "id" = "2DlzN5JS";
+            "file" = "SkyblockAddons-2.4.9+1229-for-MC-26.2.jar";
+            "hash" = "sha512-DnMtd+2RFK8Xm86mqfr2pKHpn+UlZZiPHUa7mdlOGaa7bABdeDpqI3P6ryu/ktzAeQ0Ou6Si/y29nlMFsFZyyw==";
+        };
+        _vDaPoL8j = {
+            "id" = "vDaPoL8j";
+            "file" = "SkyblockAddons-2.5.2+1228-for-MC-26.3.jar";
+            "hash" = "sha512-B2khxoO/lgoLb4A4318ta53YWlbKGNwra74M54lkfJ9hCiJwynoeDYoGZeo10+EchRvUYl3H6SFGcoyE1gdZCA==";
+        };
     in {
         "OuV8b6gu" = _OuV8b6gu;
         "NK435Jaj" = _NK435Jaj;
@@ -866,15 +896,21 @@ let
         "zlDdI2O7" = _zlDdI2O7;
         "fFxgJFhI" = _fFxgJFhI;
         "kET8YWZt" = _kET8YWZt;
+        "Aginb9Oa" = _Aginb9Oa;
+        "Vg067VuW" = _Vg067VuW;
+        "sMYuXjLS" = _sMYuXjLS;
+        "BpWB8ypR" = _BpWB8ypR;
+        "2DlzN5JS" = _2DlzN5JS;
+        "vDaPoL8j" = _vDaPoL8j;
         "forge-1.8.9" = _Twjx8gVs;
         "fabric-1.21.5" = _mfO2XVMg;
         "fabric-1.21.10" = _jY732hES;
         "fabric-1.21.11" = _Ux8axTz0;
-        "fabric-26.1" = _zlDdI2O7;
-        "fabric-26.1.1" = _zlDdI2O7;
-        "fabric-26.1.2" = _zlDdI2O7;
-        "fabric-26.2" = _fFxgJFhI;
-        "fabric-26.3" = _kET8YWZt;
+        "fabric-26.1" = _BpWB8ypR;
+        "fabric-26.1.1" = _BpWB8ypR;
+        "fabric-26.1.2" = _BpWB8ypR;
+        "fabric-26.2" = _2DlzN5JS;
+        "fabric-26.3" = _vDaPoL8j;
         "pkg-1.8.5" = _gbyFE9d8;
         "pkg-1.8.6" = _UX0F79M2;
         "pkg-1.8.7" = _YDsJGBCQ;
@@ -1014,7 +1050,13 @@ let
         "pkg-2.3.14" = _zlDdI2O7;
         "pkg-2.4.7" = _fFxgJFhI;
         "pkg-2.5.0" = _kET8YWZt;
-        "default" = _kET8YWZt;
+        "pkg-2.3.15" = _Aginb9Oa;
+        "pkg-2.4.8" = _Vg067VuW;
+        "pkg-2.5.1" = _sMYuXjLS;
+        "pkg-2.3.16" = _BpWB8ypR;
+        "pkg-2.4.9" = _2DlzN5JS;
+        "pkg-2.5.2" = _vDaPoL8j;
+        "default" = _vDaPoL8j;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "skyblockaddons-unofficial";

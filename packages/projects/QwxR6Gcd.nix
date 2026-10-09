@@ -456,6 +456,31 @@ let
             "file" = "debugify-26.2.0.0.jar";
             "hash" = "sha512-QZme7/lMammBDWVXG7CctJpsKaHhNPSf4x/oJuQfemz3mXNQ+w0XUnD+EMgeXmQzc4Vi+KIqV3Jab3ZURBTjlg==";
         };
+        _FMaS2nZn = {
+            "id" = "FMaS2nZn";
+            "file" = "debugify-26.3.0.0.jar";
+            "hash" = "sha512-khovMVMZkN+Tr0CZzXvs4miGt/w4AhZCrjIDLkNbhoag7iCNuk6x7QBX5uCzMy+ZD7d3eHga/M/g5S0o37B8Jg==";
+        };
+        _p9lCmVmH = {
+            "id" = "p9lCmVmH";
+            "file" = "debugify-26.2.0.1.jar";
+            "hash" = "sha512-g6uQzavufpmUqO+Avp7elxqFCBV/F2phteE7NMs41o+NPyRZRoIr/80ywGQlfaWc7YpDjtX2geyXISVbf09DTQ==";
+        };
+        _XhYY56c0 = {
+            "id" = "XhYY56c0";
+            "file" = "debugify-26.1.2.3.jar";
+            "hash" = "sha512-FKRRo6FBM/YhHtViQmVx8/moBLizjaDs4PjPpROJS3Rn7IZAwzgeJmkgIG/swH6hMo0rbWkjfAECqkVzkQjyyg==";
+        };
+        _eY6cliLn = {
+            "id" = "eY6cliLn";
+            "file" = "debugify-1.21.11+1.2.jar";
+            "hash" = "sha512-dj1kt645Lhk4T7xdcM/Uj2RE1J7zikMXTJhAbnQbMF7/C741ZSNktopK5Infs3b5GenJYxF2MyYbzRin8hT/dA==";
+        };
+        _pyIdu3f1 = {
+            "id" = "pyIdu3f1";
+            "file" = "Debugify-1.21.1+1.1.jar";
+            "hash" = "sha512-QKsjtBV54djiINmFL+Ru4FrxNreTL5CVt7HpjxcWt1mfzLfglOGDZoxsMN63lIjRGFeNaEMCLjo4UJcdsBUktQ==";
+        };
     in {
         "d1wGDnOg" = _d1wGDnOg;
         "rvmKzdit" = _rvmKzdit;
@@ -548,6 +573,11 @@ let
         "AYdf2KSj" = _AYdf2KSj;
         "xVevtAGn" = _xVevtAGn;
         "V2I3yC58" = _V2I3yC58;
+        "FMaS2nZn" = _FMaS2nZn;
+        "p9lCmVmH" = _p9lCmVmH;
+        "XhYY56c0" = _XhYY56c0;
+        "eY6cliLn" = _eY6cliLn;
+        "pyIdu3f1" = _pyIdu3f1;
         "fabric-1.18.2" = _ltSWiXrH;
         "fabric-1.19" = _1Wc2PZ7G;
         "fabric-1.19.1" = _qGM9M0wh;
@@ -562,7 +592,7 @@ let
         "fabric-1.20.5" = _abm18PGR;
         "fabric-1.20.6" = _wJlrMn2x;
         "fabric-1.21" = _mOk69fib;
-        "fabric-1.21.1" = _dO7QNiof;
+        "fabric-1.21.1" = _pyIdu3f1;
         "fabric-1.21.3" = _WdrLmFvp;
         "fabric-1.21.4" = _yjpSgPEw;
         "fabric-1.21.5" = _rfvoZgM1;
@@ -570,9 +600,10 @@ let
         "fabric-1.21.7" = _WLSwJeXa;
         "fabric-1.21.8" = _WLSwJeXa;
         "fabric-1.21.10" = _i4mzYGzu;
-        "fabric-1.21.11" = _xVevtAGn;
-        "fabric-26.1.2" = _AYdf2KSj;
-        "fabric-26.2" = _V2I3yC58;
+        "fabric-1.21.11" = _eY6cliLn;
+        "fabric-26.1.2" = _XhYY56c0;
+        "fabric-26.2" = _p9lCmVmH;
+        "fabric-26.3" = _FMaS2nZn;
         "forge-1.18.2" = _jxiMbq1j;
         "forge-1.19" = _11cqAA0W;
         "forge-1.19.1" = _IhcW4hp4;
@@ -680,7 +711,12 @@ let
         "pkg-26.1.2.2" = _AYdf2KSj;
         "pkg-1.21.11+1.1" = _xVevtAGn;
         "pkg-26.2.0.0" = _V2I3yC58;
-        "default" = _V2I3yC58;
+        "pkg-26.3.0.0" = _FMaS2nZn;
+        "pkg-26.2.0.1" = _p9lCmVmH;
+        "pkg-26.1.2.3" = _XhYY56c0;
+        "pkg-1.21.11+1.2" = _eY6cliLn;
+        "pkg-1.21.1+1.1" = _pyIdu3f1;
+        "default" = _pyIdu3f1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "debugify";

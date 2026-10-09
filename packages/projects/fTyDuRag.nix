@@ -56,6 +56,11 @@ let
             "file" = "Orange 26.2.zip";
             "hash" = "sha512-gKRuzWakPlXgM10DIq+zJyQWypk/sQzUxUQmzb3/eiv+d+NbC0vnhz+0tETf3uIaqpYT4w40E9vFYNzJqj8VqQ==";
         };
+        _i12Iah0c = {
+            "id" = "i12Iah0c";
+            "file" = "Orangie 26.3.zip";
+            "hash" = "sha512-rq6EUfBkh7pz3K18wmPWZyqUEgdWuhcCRz9sbITMX5out9/zkQxs4Jqr9+lgUFkrlrzyYu5JwnYUldvki2turw==";
+        };
     in {
         "Ukk9veU8" = _Ukk9veU8;
         "tSnOWkH7" = _tSnOWkH7;
@@ -68,6 +73,7 @@ let
         "eTVdrRCG" = _eTVdrRCG;
         "z4za4KOh" = _z4za4KOh;
         "lVjDlpgb" = _lVjDlpgb;
+        "i12Iah0c" = _i12Iah0c;
         "minecraft-1.20" = _Ukk9veU8;
         "minecraft-1.20.1" = _Ukk9veU8;
         "minecraft-1.20.2" = _eqUg1CFF;
@@ -89,9 +95,11 @@ let
         "minecraft-26.1.1" = _z4za4KOh;
         "minecraft-26.1.2" = _z4za4KOh;
         "minecraft-26.2" = _lVjDlpgb;
+        "minecraft-26.3" = _i12Iah0c;
         "pkg-1.0" = _z4za4KOh;
         "pkg-26.2" = _lVjDlpgb;
-        "default" = _lVjDlpgb;
+        "pkg-26.3" = _i12Iah0c;
+        "default" = _i12Iah0c;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "orange";

@@ -386,6 +386,36 @@ let
             "file" = "basicweapons-neoforge-2.4.1+26.1.jar";
             "hash" = "sha512-cO/whf3S0W8mN4Ho2ElJf1eSwukJO09mFo3VnyJ4hHhncVqal+5eK1ORReehL1PgoaCoQ4Hb5nOSiPmzvIEfHQ==";
         };
+        _1Q4GlG5j = {
+            "id" = "1Q4GlG5j";
+            "file" = "basicweapons-fabric-2.1.5+1.21.1.jar";
+            "hash" = "sha512-CJeRtRuYjzx3XYdxjchBHwJTufBJz25MtQ8TTyVh0GXsIycFXDp33L6ZkEcg49VkoO9aHoLTSGp27xnphrW28g==";
+        };
+        _fv6Hstr7 = {
+            "id" = "fv6Hstr7";
+            "file" = "basicweapons-neoforge-2.1.5+1.21.1.jar";
+            "hash" = "sha512-jEcd7Kqon9GOVtx4NDJEPx0h69qgDXXB678Kp2StEvGH4nMV7bo8mFncRFhWF9X338zNANgLwVGQzD6GSpkAaA==";
+        };
+        _SitXY3bV = {
+            "id" = "SitXY3bV";
+            "file" = "basicweapons-fabric-2.3.8+1.21.11.jar";
+            "hash" = "sha512-887fRjJMVHv4l+Hxng5BakGCOCpPjx6NXzi9q8GxMmGMjWvkDJGC2r/RAtwoMYeU769PbQ0mbObMsDdyN7SBvA==";
+        };
+        _vtdsb2aR = {
+            "id" = "vtdsb2aR";
+            "file" = "basicweapons-neoforge-2.3.8+1.21.11.jar";
+            "hash" = "sha512-mpo9x2QlKTw7WmEE1cdDV3IeFt1WIT5asnpKSrLi01+gM1yZMqIpM+XVn4SSH0hRdCOW0Gr7JobtHWTyna7lSw==";
+        };
+        _axajDRFu = {
+            "id" = "axajDRFu";
+            "file" = "basicweapons-fabric-2.4.2+26.1.jar";
+            "hash" = "sha512-e0ka7j7Y0WtkV3aQism+f9MfBqUdGlVzpYT7V+C26rTUw2g40uLU6ybucwgL+ubYdxQgPyCGhJvUnJOIrzQOUg==";
+        };
+        _BfB3rrCu = {
+            "id" = "BfB3rrCu";
+            "file" = "basicweapons-neoforge-2.4.2+26.1.jar";
+            "hash" = "sha512-yY5UghO5MWzbE4DXo/MzxJ1KAL3fv5kJX2gbTBKUqHxysg2yS8qicW6Xdv0iAULVFX9ZIEJLq0dLvZ0Z4/VAvg==";
+        };
     in {
         "7z6FfHX0" = _7z6FfHX0;
         "Ht65pKah" = _Ht65pKah;
@@ -464,6 +494,12 @@ let
         "a0GqT6oQ" = _a0GqT6oQ;
         "BONRhyAx" = _BONRhyAx;
         "fXnxBxll" = _fXnxBxll;
+        "1Q4GlG5j" = _1Q4GlG5j;
+        "fv6Hstr7" = _fv6Hstr7;
+        "SitXY3bV" = _SitXY3bV;
+        "vtdsb2aR" = _vtdsb2aR;
+        "axajDRFu" = _axajDRFu;
+        "BfB3rrCu" = _BfB3rrCu;
         "fabric-1.20.1" = _P2kARD78;
         "fabric-1.20.2" = _piisFHNS;
         "fabric-1.19.2" = _AEYxWCqh;
@@ -472,15 +508,15 @@ let
         "fabric-1.20.6" = _IYwDaEDI;
         "fabric-1.21-pre2" = _ltu6UBMx;
         "fabric-1.21" = _zTOlZQXS;
-        "fabric-1.21.1" = _ESsICUtQ;
+        "fabric-1.21.1" = _1Q4GlG5j;
         "fabric-1.21.2" = _UMzuWfIP;
         "fabric-1.21.3" = _UMzuWfIP;
         "fabric-1.21.4" = _qt5cIJHd;
         "fabric-1.21.10" = _PQHzS4v8;
-        "fabric-1.21.11" = _BJh8QX49;
-        "fabric-26.1" = _BONRhyAx;
-        "fabric-26.1.1" = _BONRhyAx;
-        "fabric-26.1.2" = _BONRhyAx;
+        "fabric-1.21.11" = _SitXY3bV;
+        "fabric-26.1" = _axajDRFu;
+        "fabric-26.1.1" = _axajDRFu;
+        "fabric-26.1.2" = _axajDRFu;
         "quilt-1.20.1" = _piisFHNS;
         "quilt-1.20.2" = _piisFHNS;
         "quilt-1.19.2" = _AEYxWCqh;
@@ -491,12 +527,12 @@ let
         "forge-1.20.2" = _Fbld0HME;
         "neoforge-1.20.1" = _j8dBif5J;
         "neoforge-1.20.2" = _pevH0Ypf;
-        "neoforge-1.21.1" = _skijTcJ3;
+        "neoforge-1.21.1" = _fv6Hstr7;
         "neoforge-1.21.10" = _QxrGeMMG;
-        "neoforge-1.21.11" = _HFy6Fvdy;
-        "neoforge-26.1" = _fXnxBxll;
-        "neoforge-26.1.1" = _fXnxBxll;
-        "neoforge-26.1.2" = _fXnxBxll;
+        "neoforge-1.21.11" = _vtdsb2aR;
+        "neoforge-26.1" = _BfB3rrCu;
+        "neoforge-26.1.1" = _BfB3rrCu;
+        "neoforge-26.1.2" = _BfB3rrCu;
         "pkg-1.0.0" = _fOLWcsal;
         "pkg-1.0.1" = _v1ACpnlq;
         "pkg-1.1.0" = _fkdERjjI;
@@ -539,7 +575,10 @@ let
         "pkg-2.3.7+1.21.11" = _HFy6Fvdy;
         "pkg-2.4.0+26.1.x" = _a0GqT6oQ;
         "pkg-2.4.1+26.1.x" = _fXnxBxll;
-        "default" = _fXnxBxll;
+        "pkg-2.1.5+1.21.1" = _fv6Hstr7;
+        "pkg-2.3.8+1.21.11" = _vtdsb2aR;
+        "pkg-2.4.2+26.1.x" = _BfB3rrCu;
+        "default" = _BfB3rrCu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "basicweapons";

@@ -86,6 +86,26 @@ let
             "file" = "SkyBlock Legacy.zip";
             "hash" = "sha512-4gngbAJXpPfG+61vCLmW7XsNC7ulkenHTMwivTeoNS9DUkMYsxes32dFOE+C9p5wwM51SL3fhy4NgDm4+jjUlg==";
         };
+        _tyxkLlfN = {
+            "id" = "tyxkLlfN";
+            "file" = "SkyBlock Legacy (Lite).zip";
+            "hash" = "sha512-v9WBi7RMHJUGHcCQWB5GIYKYyChaxC96sPvfVWU7YPtwl+teMv6qyzZi2a5ugsH85nWYsWRGPbDSu+HWwGsX9g==";
+        };
+        _us6LPOI9 = {
+            "id" = "us6LPOI9";
+            "file" = "SkyBlock Legacy.zip";
+            "hash" = "sha512-Ezhsg3kgoftiQUT7wpo/4TC5F1u1dQADB+Us26/STGFbUsEfgAwGUwpG2MymCxw9rWoBEQd13EOn7uPqRgD2Pw==";
+        };
+        _LmqPAF5A = {
+            "id" = "LmqPAF5A";
+            "file" = "SkyBlock Legacy (Lite).zip";
+            "hash" = "sha512-s/5d06uO7lXRDBVh7yJ5qIRFVZIDYaq+ZeLhHX/HpH+WaysNW7k28KZruzUUmkPoLRVkLH/5nJamrMe6yM7jww==";
+        };
+        _SDnauqoH = {
+            "id" = "SDnauqoH";
+            "file" = "SkyBlock Legacy.zip";
+            "hash" = "sha512-gc7amPnyVLPjdZW1RZlHuaroWlvvQx2AdrruWp5dK3t8OocR/DyO1b9d3sGRGErqIIP9boFG0jQTRG3PY8w+Wg==";
+        };
     in {
         "WV8cyFHV" = _WV8cyFHV;
         "JGLwIdgg" = _JGLwIdgg;
@@ -104,11 +124,16 @@ let
         "RUHBnkOA" = _RUHBnkOA;
         "cqwhkV9n" = _cqwhkV9n;
         "UfU7LVhm" = _UfU7LVhm;
-        "minecraft-1.21.11" = _UfU7LVhm;
-        "minecraft-26.1" = _UfU7LVhm;
-        "minecraft-26.1.1" = _UfU7LVhm;
-        "minecraft-26.1.2" = _UfU7LVhm;
-        "minecraft-26.2" = _UfU7LVhm;
+        "tyxkLlfN" = _tyxkLlfN;
+        "us6LPOI9" = _us6LPOI9;
+        "LmqPAF5A" = _LmqPAF5A;
+        "SDnauqoH" = _SDnauqoH;
+        "minecraft-1.21.11" = _SDnauqoH;
+        "minecraft-26.1" = _SDnauqoH;
+        "minecraft-26.1.1" = _SDnauqoH;
+        "minecraft-26.1.2" = _SDnauqoH;
+        "minecraft-26.2" = _SDnauqoH;
+        "minecraft-26.3" = _SDnauqoH;
         "pkg-v1.0.0" = _WV8cyFHV;
         "pkg-v1.0.1" = _JGLwIdgg;
         "pkg-v1.0.2" = _KaclESlY;
@@ -126,7 +151,11 @@ let
         "pkg-v2.0.0" = _RUHBnkOA;
         "pkg-v2.0.1-lite" = _cqwhkV9n;
         "pkg-v2.0.1" = _UfU7LVhm;
-        "default" = _UfU7LVhm;
+        "pkg-v2.1.0-lite" = _tyxkLlfN;
+        "pkg-v2.1.0" = _us6LPOI9;
+        "pkg-v2.1.1-lite" = _LmqPAF5A;
+        "pkg-v2.1.1" = _SDnauqoH;
+        "default" = _SDnauqoH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hypixel-skyblock-legacy";

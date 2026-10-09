@@ -106,6 +106,26 @@ let
             "file" = "trident-all-weather-channeling-v2.0.4.jar";
             "hash" = "sha512-1YiRFKJnsK5Uku43qdJOtXuAevMNrfA2uPxdpFZmr7yl5NHHkAw5mNGgXwgyp2WeMzEa/sPRn2VihBMHSlw2nA==";
         };
+        _B4gfnXW5 = {
+            "id" = "B4gfnXW5";
+            "file" = "trident-all-weather-channeling-v2.2.0.zip";
+            "hash" = "sha512-J3LfrQGOLAbAZmQz2sQCXOzpiVixkp3XIojTtoN4s8LuSIbR2Th3GYWgWcMBNTsKyex+FhwCqynst8Vlj8FUqQ==";
+        };
+        _4ICgU0eJ = {
+            "id" = "4ICgU0eJ";
+            "file" = "trident-all-weather-channeling-v2.2.0.jar";
+            "hash" = "sha512-CYv7EwWwyTC1bWleSJ9gMcWNfz2fnb9MzKqyS9cNYuJLcy78gtIJAEzZGPKjpTHx66lB9Vd1m+O2k/tfqddXpQ==";
+        };
+        _GyLDKXYE = {
+            "id" = "GyLDKXYE";
+            "file" = "trident-all-weather-channeling-v2.2.1.zip";
+            "hash" = "sha512-5zgoV+K67YnrGcUUuo+smDRONosa5/GqwZ1fEaeCIposZE6o/tnStNFQtHy84jKrAXSxD/EDk/AufxMA92mcvA==";
+        };
+        _9FwRnAPJ = {
+            "id" = "9FwRnAPJ";
+            "file" = "trident-all-weather-channeling-v2.2.1.jar";
+            "hash" = "sha512-VY1eSozEO+aPIZhfI+q8ZQh1y3pm0yj89pBgzzyMPob0elbQwJQLSE7K5V+ECmrkHeR53y6vIR21D0jQf+LLag==";
+        };
     in {
         "FMUat1TI" = _FMUat1TI;
         "ZcGXDE3h" = _ZcGXDE3h;
@@ -128,6 +148,10 @@ let
         "G57smnwB" = _G57smnwB;
         "3Ot0yTZ4" = _3Ot0yTZ4;
         "CUJyrzZU" = _CUJyrzZU;
+        "B4gfnXW5" = _B4gfnXW5;
+        "4ICgU0eJ" = _4ICgU0eJ;
+        "GyLDKXYE" = _GyLDKXYE;
+        "9FwRnAPJ" = _9FwRnAPJ;
         "datapack-1.20.4" = _EWvo5kYP;
         "datapack-1.21.6" = _3Ot0yTZ4;
         "datapack-1.21.7" = _3Ot0yTZ4;
@@ -139,6 +163,7 @@ let
         "datapack-26.1.1" = _3Ot0yTZ4;
         "datapack-26.1.2" = _3Ot0yTZ4;
         "datapack-26.2" = _3Ot0yTZ4;
+        "datapack-26.3" = _GyLDKXYE;
         "fabric-1.20.4" = _X9Xok6j6;
         "fabric-1.21.6" = _CUJyrzZU;
         "fabric-1.21.7" = _CUJyrzZU;
@@ -150,6 +175,7 @@ let
         "fabric-26.1.1" = _CUJyrzZU;
         "fabric-26.1.2" = _CUJyrzZU;
         "fabric-26.2" = _CUJyrzZU;
+        "fabric-26.3" = _9FwRnAPJ;
         "forge-1.20.4" = _X9Xok6j6;
         "forge-1.21.6" = _CUJyrzZU;
         "forge-1.21.7" = _CUJyrzZU;
@@ -161,6 +187,7 @@ let
         "forge-26.1.1" = _CUJyrzZU;
         "forge-26.1.2" = _CUJyrzZU;
         "forge-26.2" = _CUJyrzZU;
+        "forge-26.3" = _9FwRnAPJ;
         "quilt-1.20.4" = _X9Xok6j6;
         "quilt-1.21.6" = _CUJyrzZU;
         "quilt-1.21.7" = _CUJyrzZU;
@@ -172,6 +199,7 @@ let
         "quilt-26.1.1" = _CUJyrzZU;
         "quilt-26.1.2" = _CUJyrzZU;
         "quilt-26.2" = _CUJyrzZU;
+        "quilt-26.3" = _9FwRnAPJ;
         "neoforge-1.21.6" = _CUJyrzZU;
         "neoforge-1.21.7" = _CUJyrzZU;
         "neoforge-1.21.8" = _CUJyrzZU;
@@ -182,6 +210,7 @@ let
         "neoforge-26.1.1" = _CUJyrzZU;
         "neoforge-26.1.2" = _CUJyrzZU;
         "neoforge-26.2" = _CUJyrzZU;
+        "neoforge-26.3" = _9FwRnAPJ;
         "pkg-v.1.0.0" = _FMUat1TI;
         "pkg-v.1.0.0+mod" = _ZcGXDE3h;
         "pkg-v.1.0.1" = _gaq8WqII;
@@ -200,7 +229,11 @@ let
         "pkg-v2.0.3.1+mod" = _G57smnwB;
         "pkg-v2.0.4" = _3Ot0yTZ4;
         "pkg-v2.0.4+mod" = _CUJyrzZU;
-        "default" = _CUJyrzZU;
+        "pkg-v2.2.0" = _B4gfnXW5;
+        "pkg-v2.2.0+mod" = _4ICgU0eJ;
+        "pkg-v2.2.1" = _GyLDKXYE;
+        "pkg-v2.2.1+mod" = _9FwRnAPJ;
+        "default" = _9FwRnAPJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trident-all-weather-channeling";

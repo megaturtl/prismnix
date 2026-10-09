@@ -91,6 +91,26 @@ let
             "file" = "True_POWER_of_Maid-1.20.1-1.2.3.jar";
             "hash" = "sha512-2AtK/KXOqW/ESkRKdugVneQcY6QNGJw2cyiMPCuFHdBj9AHAKVZgZkYPfSaQPMRrjRfau+sdAuukJECYk9gXnA==";
         };
+        _xpDw13Om = {
+            "id" = "xpDw13Om";
+            "file" = "True_POWER_of_Maid-1.21.1-1.2.4.jar";
+            "hash" = "sha512-CBXxWnuzaxpx97BpwGMfKwMbs15zN73zmwLORKH85LQeAoevoViMhynkVXoEc1xA+DguMQZR13GohyRjvyZq+w==";
+        };
+        _yiTgzftP = {
+            "id" = "yiTgzftP";
+            "file" = "True_POWER_of_Maid-1.21.1-1.2.5.jar";
+            "hash" = "sha512-0y3pKzvQVglZ8oZdZjNk0iOCGUvidEl8dgqZecbzL5MtkfElbvZ3FfFhl5O9mQz0M+tRLwRBUKZhtRkjCZQvcA==";
+        };
+        _cTFueCZl = {
+            "id" = "cTFueCZl";
+            "file" = "True_POWER_of_Maid-1.21.1-1.2.5-hotfix1.jar";
+            "hash" = "sha512-o3s1HOrCnvCoBb9y0ghfDQMLM5TCSntg+3tScnZqiAw+csIXl70Uuhg9faGZhmm8/zvZqaIUpV/qoTPX1l71YA==";
+        };
+        _QeeAkVs8 = {
+            "id" = "QeeAkVs8";
+            "file" = "True_POWER_of_Maid-1.21.1-1.2.5-hotfix2.jar";
+            "hash" = "sha512-w/cDvKNCCYbHJbvdIaOAWz5TQI1Mz0v3z53kdDnKLeuc7wvwVHeMT88QrGBUZBHjBTKTDTuIWl5pb1IetZZ6jw==";
+        };
     in {
         "Y7lc2Q9g" = _Y7lc2Q9g;
         "HVAochvT" = _HVAochvT;
@@ -110,8 +130,12 @@ let
         "syiC96xl" = _syiC96xl;
         "Sr5aVBmE" = _Sr5aVBmE;
         "kMRN31gy" = _kMRN31gy;
+        "xpDw13Om" = _xpDw13Om;
+        "yiTgzftP" = _yiTgzftP;
+        "cTFueCZl" = _cTFueCZl;
+        "QeeAkVs8" = _QeeAkVs8;
         "forge-1.20.1" = _kMRN31gy;
-        "neoforge-1.21.1" = _Sr5aVBmE;
+        "neoforge-1.21.1" = _QeeAkVs8;
         "pkg-1.0.0" = _Y7lc2Q9g;
         "pkg-1.0.2" = _HVAochvT;
         "pkg-1.0.3" = _H4SzDF1e;
@@ -128,7 +152,11 @@ let
         "pkg-1.2.3-hotfix1" = _bQ010PS2;
         "pkg-1.2.3-hotfix2" = _syiC96xl;
         "pkg-1.2.3-hotfix3" = _Sr5aVBmE;
-        "default" = _kMRN31gy;
+        "pkg-1.2.4" = _xpDw13Om;
+        "pkg-1.2.5" = _yiTgzftP;
+        "pkg-1.2.5-hotfix1" = _cTFueCZl;
+        "pkg-1.2.5-hotfix2" = _QeeAkVs8;
+        "default" = _QeeAkVs8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "true-power-of-maid";

@@ -101,6 +101,16 @@ let
             "file" = "sweet-potato-reborn-neoforge-1.2.1+26.2.jar";
             "hash" = "sha512-zUeQspvGMqvXlcQzUridd0e2RFbGhVLPHMbxpT4qPECMCswuTbZXX9WF6JjmCC2D7tdOxkKWgXNNbApLa9JW0g==";
         };
+        _fL4bGniR = {
+            "id" = "fL4bGniR";
+            "file" = "sweet-potato-reborn-fabric-1.2.0+1.21.1.jar";
+            "hash" = "sha512-IhwXM37YwXElccRQ+7C6DlrLqOBc5a2I9GhgfbofurPO9yDwgst4mFF8WB9OsZjspteN9zDTOU4OWI5ZCHwOHA==";
+        };
+        _G0AQopNd = {
+            "id" = "G0AQopNd";
+            "file" = "sweet-potato-reborn-neoforge-1.2.0+1.21.1.jar";
+            "hash" = "sha512-hP197BRts0bLB3iivODWysIwJD+wajCgUieoFL0Oag2RO9vldKK26JGgSdi5GMNpJ6IyQV2iKsy1KFGKEqEfXQ==";
+        };
     in {
         "aAAdNcng" = _aAAdNcng;
         "vuSlmJcW" = _vuSlmJcW;
@@ -122,18 +132,20 @@ let
         "jmvMdnst" = _jmvMdnst;
         "VtjHxSao" = _VtjHxSao;
         "bh1PtCQB" = _bh1PtCQB;
+        "fL4bGniR" = _fL4bGniR;
+        "G0AQopNd" = _G0AQopNd;
         "fabric-1.20" = _3pkg2g6H;
         "fabric-1.20.1" = _3pkg2g6H;
-        "fabric-1.21" = _AVS85SMq;
-        "fabric-1.21.1" = _AVS85SMq;
+        "fabric-1.21" = _fL4bGniR;
+        "fabric-1.21.1" = _fL4bGniR;
         "fabric-1.21.2" = _xMWyN9Ei;
         "fabric-1.21.3" = _xMWyN9Ei;
         "fabric-1.21.4" = _huLyUbQe;
         "fabric-26.2" = _VtjHxSao;
         "forge-1.20" = _XRE5NYkp;
         "forge-1.20.1" = _XRE5NYkp;
-        "neoforge-1.21" = _3fYn1OKb;
-        "neoforge-1.21.1" = _3fYn1OKb;
+        "neoforge-1.21" = _G0AQopNd;
+        "neoforge-1.21.1" = _G0AQopNd;
         "neoforge-1.21.2" = _EFCyXGwZ;
         "neoforge-1.21.3" = _EFCyXGwZ;
         "neoforge-1.21.4" = _jmvMdnst;
@@ -148,7 +160,8 @@ let
         "pkg-1.2.0+1.21.3" = _EFCyXGwZ;
         "pkg-1.2.0+1.21.4" = _jmvMdnst;
         "pkg-1.2.1+26.2" = _bh1PtCQB;
-        "default" = _bh1PtCQB;
+        "pkg-1.2.0+1.21.1" = _G0AQopNd;
+        "default" = _G0AQopNd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "spmreborn";

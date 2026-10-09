@@ -16,10 +16,16 @@ let
             "file" = "tuffenough-1.1.0.jar";
             "hash" = "sha512-3muKbRMVyrntsC5SxAPgGzuteo4rDedcU7x122ABouNxpDVVxHaVnpUeKmCkyyTV2UkWfDqV1bsply6jM5RwDg==";
         };
+        _cgdcSVAD = {
+            "id" = "cgdcSVAD";
+            "file" = "tuffenough-1.1.2.jar";
+            "hash" = "sha512-L8YA3BZjRuMZhDb2cn32k98lLZR/KMHqpan/fq4gkPgLWK1BmCF5lPiohRlVCD71Z9vz8Sq8M/wTx4dzZCUmRQ==";
+        };
     in {
         "TGHcvGgX" = _TGHcvGgX;
         "FWDEe2yo" = _FWDEe2yo;
         "2xNp4xjt" = _2xNp4xjt;
+        "cgdcSVAD" = _cgdcSVAD;
         "fabric-1.21.11" = _FWDEe2yo;
         "fabric-1.21.1" = _FWDEe2yo;
         "fabric-1.21.2" = _FWDEe2yo;
@@ -32,10 +38,12 @@ let
         "fabric-1.21.9" = _FWDEe2yo;
         "fabric-1.21.10" = _FWDEe2yo;
         "fabric-26.2" = _2xNp4xjt;
+        "fabric-26.1.2" = _cgdcSVAD;
         "pkg-1.0.0" = _TGHcvGgX;
         "pkg-1.0.1" = _FWDEe2yo;
         "pkg-1.1.0" = _2xNp4xjt;
-        "default" = _2xNp4xjt;
+        "pkg-1.1.1" = _cgdcSVAD;
+        "default" = _cgdcSVAD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-tuff-enough";

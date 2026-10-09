@@ -26,12 +26,18 @@ let
             "file" = "Peach 26.1-26.1.2.zip";
             "hash" = "sha512-1//cwylTcvIukI5zXSEQpUJ223QreeySq7FV+mj+fCHqH7QswViJW/tQietB1uYP5OzG/aMRPWpHuKrzih+0hw==";
         };
+        _RZi1wjja = {
+            "id" = "RZi1wjja";
+            "file" = "Peach 26.3.zip";
+            "hash" = "sha512-gyyrcdWAbcEHTquq4z41sy9EiZiIpTJBKNTC9Odfza727j/asV2QRJaFfSWNr0p3V5BuFwMjU3wKSip8VFwOgA==";
+        };
     in {
         "yAYxCAgg" = _yAYxCAgg;
         "wP94V9OZ" = _wP94V9OZ;
         "Ez982xDv" = _Ez982xDv;
         "e9t5bOIl" = _e9t5bOIl;
         "focxx8Rv" = _focxx8Rv;
+        "RZi1wjja" = _RZi1wjja;
         "minecraft-1.20" = _yAYxCAgg;
         "minecraft-1.20.1" = _yAYxCAgg;
         "minecraft-1.20.2" = _yAYxCAgg;
@@ -44,8 +50,10 @@ let
         "minecraft-26.1" = _focxx8Rv;
         "minecraft-26.1.1" = _focxx8Rv;
         "minecraft-26.1.2" = _focxx8Rv;
+        "minecraft-26.3" = _RZi1wjja;
         "pkg-1.0" = _focxx8Rv;
-        "default" = _focxx8Rv;
+        "pkg-26.3" = _RZi1wjja;
+        "default" = _RZi1wjja;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "peach";

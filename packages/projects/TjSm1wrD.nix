@@ -321,6 +321,41 @@ let
             "file" = "modernfix-neoforge-5.27.23+mc26.3.jar";
             "hash" = "sha512-+TtgMkqhgmZXN4zHGSsy78KvaXnwZEknO0J/xH2k6WVXJmER5rYxlltCP4YJholTBdzV0Jkjgzv5i2SKZIphUw==";
         };
+        _yoaUd1cG = {
+            "id" = "yoaUd1cG";
+            "file" = "modernfix-5.27.20-build.1.jar";
+            "hash" = "sha512-42Qb8y0k5U4wqKM4VVP7It36pkqW4f/qqIzgzyKwe15xWFY7mW4OHiRtUvsrM9y2md3ELuLJE/wEI2BKdcbMNQ==";
+        };
+        _50uUra83 = {
+            "id" = "50uUra83";
+            "file" = "modernfix-5.27.19-build.2.jar";
+            "hash" = "sha512-dbGuyr2xP7YZadcwwyjPwQKxxQ+pYgxguEM9gwoZstK+oyrKSMpJNLG+mPim+1veADnv0nO0e9BdpAqH7842rA==";
+        };
+        _pa9cAfYg = {
+            "id" = "pa9cAfYg";
+            "file" = "modernfix-5.27.20-build.2.jar";
+            "hash" = "sha512-tYZDQFYQeqxO+G6TUdZhcNrGWkWh5fi9SPuTGzASqyQxsWR265wlZ3MznitMYPbz6QpHCRgPcAsq6ln/YH9CQw==";
+        };
+        _XCo3tUkj = {
+            "id" = "XCo3tUkj";
+            "file" = "modernfix-fabric-5.20.6.jar";
+            "hash" = "sha512-i4ipRosVrcqA/T+XQUm+iTWNIpXeOnenBHmombnI+NfJgnU59OG6OiMm2ID98IJ+IU3gyRKXboOH7k0qEf+rKg==";
+        };
+        _zIoibQBk = {
+            "id" = "zIoibQBk";
+            "file" = "modernfix-neoforge-5.20.6.jar";
+            "hash" = "sha512-Q3/W9GuKRbAh3bk8jGvOXrnK5CZ3LJtXEOMx0zJHHRRnbw/gRw0waeaTe5jwrJNyFvsvXPMjZNCslyuSruXzVA==";
+        };
+        _QrRIY2rV = {
+            "id" = "QrRIY2rV";
+            "file" = "modernfix-5.26.3-build.2.jar";
+            "hash" = "sha512-gcmRsatOE6aM95wlzTnNMHM0iQfsACdFwDDWpdJv5avW6rHTUyXmaszNraK3h4bHQlgb2S5OitnzpCSg6Y/gBg==";
+        };
+        _n3kCqGn7 = {
+            "id" = "n3kCqGn7";
+            "file" = "modernfix-5.27.20-build.2.jar";
+            "hash" = "sha512-6pf83aKzZECkozDys6U4L5lm58oRhWDH1iip+vaCrEYKeUa+Gnrov7meVvyvUngUTTPjaEMhymu9V47kqyktIA==";
+        };
     in {
         "1hUYQbO1" = _1hUYQbO1;
         "6y7vk6OJ" = _6y7vk6OJ;
@@ -386,13 +421,20 @@ let
         "iKbywnU7" = _iKbywnU7;
         "dyZhmjnd" = _dyZhmjnd;
         "Zhz94Fcg" = _Zhz94Fcg;
+        "yoaUd1cG" = _yoaUd1cG;
+        "50uUra83" = _50uUra83;
+        "pa9cAfYg" = _pa9cAfYg;
+        "XCo3tUkj" = _XCo3tUkj;
+        "zIoibQBk" = _zIoibQBk;
+        "QrRIY2rV" = _QrRIY2rV;
+        "n3kCqGn7" = _n3kCqGn7;
         "fabric-1.21.5" = _omNF5V4a;
         "fabric-1.21.6" = _ve3rdBen;
         "fabric-1.21.7" = _jUkOKuZd;
         "fabric-1.21.8" = _JcvjGd7I;
         "fabric-1.21.9" = _EGQnhQyx;
-        "fabric-1.21.10" = _EGQnhQyx;
-        "fabric-1.21.11" = _yPCwXBn8;
+        "fabric-1.21.10" = _XCo3tUkj;
+        "fabric-1.21.11" = _QrRIY2rV;
         "fabric-26.1-snapshot-1" = _8eeo4crC;
         "fabric-26.1-snapshot-2" = _8eeo4crC;
         "fabric-26.1-snapshot-3" = _8eeo4crC;
@@ -408,16 +450,18 @@ let
         "fabric-26.1.2" = _cTKaCklf;
         "fabric-26.2-snapshot-5" = _w7Vm7Ded;
         "fabric-26.2-rc-2" = _PwwAXPGv;
-        "fabric-26.2" = _TUWH6NZu;
+        "fabric-26.2" = _50uUra83;
         "fabric-26.3-snapshot-1" = _RboPRovb;
         "fabric-26.3-snapshot-2" = _tRayAQFL;
-        "fabric-26.3" = _iKbywnU7;
+        "fabric-26.3" = _pa9cAfYg;
+        "fabric-26.4-snapshot-1" = _yoaUd1cG;
+        "fabric-26.4-snapshot-2" = _n3kCqGn7;
         "neoforge-1.21.5" = _ubTim9kP;
         "neoforge-1.21.6" = _ftrCkhGL;
         "neoforge-1.21.7" = _28HpmKig;
         "neoforge-1.21.8" = _UNhbjZTv;
         "neoforge-1.21.9" = _wnnbnNiI;
-        "neoforge-1.21.10" = _wnnbnNiI;
+        "neoforge-1.21.10" = _zIoibQBk;
         "neoforge-1.21.11" = _BEBb0SF0;
         "neoforge-26.2" = _dyZhmjnd;
         "neoforge-26.3" = _Zhz94Fcg;
@@ -429,7 +473,7 @@ let
         "pkg-5.20.5-beta.3+mc1.21.9" = _MQsF6WsB;
         "pkg-5.20.5-beta.4+mc1.21.10" = _Cy4IrDNw;
         "pkg-5.20.5-beta.1+mc1.21.5" = _WbQPKZEh;
-        "pkg-5.20.6" = _wnnbnNiI;
+        "pkg-5.20.6" = _zIoibQBk;
         "pkg-5.20.7" = _dplWGHlJ;
         "pkg-5.20.8" = _JT4VC6mj;
         "pkg-5.20.9" = _NhSfPbIj;
@@ -456,7 +500,11 @@ let
         "pkg-5.27.20+mc26.3" = _iKbywnU7;
         "pkg-5.27.21+mc26.2" = _dyZhmjnd;
         "pkg-5.27.23+mc26.3" = _Zhz94Fcg;
-        "default" = _Zhz94Fcg;
+        "pkg-5.27.20+mc26.4-snapshot-1" = _yoaUd1cG;
+        "pkg-5.27.19-build.2" = _50uUra83;
+        "pkg-5.27.20-build.2" = _n3kCqGn7;
+        "pkg-5.26.3-build.2" = _QrRIY2rV;
+        "default" = _n3kCqGn7;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "modernfix-mvus";

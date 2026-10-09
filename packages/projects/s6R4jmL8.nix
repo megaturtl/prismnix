@@ -161,6 +161,16 @@ let
             "file" = "EternalNether-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-3MWQM11/T2SAo76CFyQbPV1/8Um60uh67l8D9Za5O7ZDHuj9/9gwHBAXS/UrdhTBerP3U57HtxJYEqiJ4oWkGg==";
         };
+        _LnSwhIHT = {
+            "id" = "LnSwhIHT";
+            "file" = "eternalnether-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-uthUgolO34+zK+ssjKE/F3I9BGgro7Xdrk334tUCjR9T7WLceU+pG++eYDAJfzetDULQBCdDFKJDRsRYSBDcvg==";
+        };
+        _TIviaC6F = {
+            "id" = "TIviaC6F";
+            "file" = "eternalnether-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-/prBzWBrQk+PvAlMHRFiMbM1YSCEkbEHH55rjm5E88MQt/T3U85E2Pyp3u6Y0qYq4nQKUQo4zpvCAYZxYVCyjw==";
+        };
     in {
         "pCSuxzwh" = _pCSuxzwh;
         "AmVtIdJA" = _AmVtIdJA;
@@ -194,6 +204,8 @@ let
         "gbIJK317" = _gbIJK317;
         "sHbelbfp" = _sHbelbfp;
         "8DfWvpDx" = _8DfWvpDx;
+        "LnSwhIHT" = _LnSwhIHT;
+        "TIviaC6F" = _TIviaC6F;
         "fabric-1.21.1" = _rDQCLVDA;
         "fabric-1.21.7" = _5sO4oSJ3;
         "fabric-1.21.8" = _qDHEeuWB;
@@ -204,6 +216,7 @@ let
         "fabric-26.1.1" = _gbIJK317;
         "fabric-26.1.2" = _gbIJK317;
         "fabric-26.2" = _sHbelbfp;
+        "fabric-26.3" = _TIviaC6F;
         "neoforge-1.21.1" = _wfHip7bI;
         "neoforge-1.21.7" = _R04NJJVN;
         "neoforge-1.21.8" = _Lfqw6UZA;
@@ -214,6 +227,7 @@ let
         "neoforge-26.1.1" = _HrA3jnav;
         "neoforge-26.1.2" = _HrA3jnav;
         "neoforge-26.2" = _8DfWvpDx;
+        "neoforge-26.3" = _LnSwhIHT;
         "pkg-v21.1.0-1.21.1-Fabric" = _pCSuxzwh;
         "pkg-v21.1.0-1.21.1-NeoForge" = _AmVtIdJA;
         "pkg-v21.1.1-1.21.1-Fabric" = _Wh99FdcY;
@@ -237,7 +251,8 @@ let
         "pkg-26.1.3" = _nhuRmiYI;
         "pkg-26.1.4" = _gbIJK317;
         "pkg-26.2.0" = _8DfWvpDx;
-        "default" = _8DfWvpDx;
+        "pkg-26.3.0" = _TIviaC6F;
+        "default" = _TIviaC6F;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eternal-nether";

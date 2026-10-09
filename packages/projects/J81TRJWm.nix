@@ -506,6 +506,16 @@ let
             "file" = "konkrete_neoforge_1.11.1_MC_26.2.jar";
             "hash" = "sha512-adINLruU1cC4LnckIg6RJ9yqvjnGGWig7zvippOZ0BiVsaHcP4UtkRdjslQbF6lgJXKh126G+oP/2Vc3117Mwg==";
         };
+        _pQLA2B54 = {
+            "id" = "pQLA2B54";
+            "file" = "konkrete_fabric_1.11.1_MC_26.3.jar";
+            "hash" = "sha512-72sS2/P2FrpAiecG8n12xUOYf0ogUJvz3vcR3bknm5QXDGcii55EouLBiagKfJpc1MfgeSgbesHLDsfZxGuaqA==";
+        };
+        _LHlMMPu1 = {
+            "id" = "LHlMMPu1";
+            "file" = "konkrete_neoforge_1.11.1_MC_26.3.jar";
+            "hash" = "sha512-Bn6E9E9I2hdz4IhbdtGzXv66CempZCtvQ+TPqyQbGmOtv3hehm5J7he96oUClDIP+av7dFEdvTk0mtE2dhvGcw==";
+        };
     in {
         "oxR0vH4b" = _oxR0vH4b;
         "Th1pzrRC" = _Th1pzrRC;
@@ -608,6 +618,8 @@ let
         "8rAn2Fft" = _8rAn2Fft;
         "Ra1AWDOa" = _Ra1AWDOa;
         "fCKk8Tai" = _fCKk8Tai;
+        "pQLA2B54" = _pQLA2B54;
+        "LHlMMPu1" = _LHlMMPu1;
         "forge-1.12" = _Nmo9ggyx;
         "forge-1.12.1" = _Nmo9ggyx;
         "forge-1.12.2" = _Nmo9ggyx;
@@ -661,6 +673,7 @@ let
         "fabric-26.1.1" = _Y6HGzcl3;
         "fabric-26.1.2" = _Y6HGzcl3;
         "fabric-26.2" = _Ra1AWDOa;
+        "fabric-26.3" = _pQLA2B54;
         "neoforge-1.20.4" = _gOjPgkAM;
         "neoforge-1.20.5" = _8T4RHphB;
         "neoforge-1.20.6" = _8T4RHphB;
@@ -676,6 +689,7 @@ let
         "neoforge-26.1.1" = _S3KyS0Na;
         "neoforge-26.1.2" = _S3KyS0Na;
         "neoforge-26.2" = _fCKk8Tai;
+        "neoforge-26.3" = _LHlMMPu1;
         "pkg-1.5.3" = _CV2NDI4d;
         "pkg-1.5.3-1" = _Th1pzrRC;
         "pkg-1.6.0-1.18-1.18.2-fabric" = _PIJUXbX4;
@@ -769,7 +783,9 @@ let
         "pkg-1.11.0-26.2-neoforge" = _8rAn2Fft;
         "pkg-1.11.1-26.2-fabric" = _Ra1AWDOa;
         "pkg-1.11.1-26.2-neoforge" = _fCKk8Tai;
-        "default" = _fCKk8Tai;
+        "pkg-1.11.1-26.3-fabric" = _pQLA2B54;
+        "pkg-1.11.1-26.3-neoforge" = _LHlMMPu1;
+        "default" = _LHlMMPu1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "konkrete";

@@ -261,6 +261,11 @@ let
             "file" = "seeu-fabric-1.21.1-0.9.1.jar";
             "hash" = "sha512-DSuZcZBi4jw6MT5gs3mqwWN+n6nO3Apn7YtJ3G9evHfhiMo2NR9hIAg+3vG+91KiGRqQNBQhjOMTRNvnGVz0aA==";
         };
+        _G1VqnokG = {
+            "id" = "G1VqnokG";
+            "file" = "seeu-neoforge-1.21.1-0.9.1.1.jar";
+            "hash" = "sha512-vX4Izmyva3P2rZ9MeTAzdZ2fO4ANfaoisznODWFMn/FzjxDmH1ZpyK0Is2A+W4DaSqjVQJyRFNO0TiDIGwdSRA==";
+        };
     in {
         "VAEuXvWK" = _VAEuXvWK;
         "DPyDmH3p" = _DPyDmH3p;
@@ -314,6 +319,7 @@ let
         "RvHSM0vb" = _RvHSM0vb;
         "5o5NslQj" = _5o5NslQj;
         "iDEdY8nm" = _iDEdY8nm;
+        "G1VqnokG" = _G1VqnokG;
         "fabric-26.1.2" = _rwtcyiiV;
         "fabric-1.21.11" = _fP4zHa1A;
         "fabric-1.21.1" = _iDEdY8nm;
@@ -374,7 +380,7 @@ let
         "spigot-1.21.11" = _irfL5GQs;
         "spigot-26.1.2" = _lKf67d2s;
         "spigot-26.2" = _Wi3MtGj8;
-        "neoforge-1.21.1" = _RvHSM0vb;
+        "neoforge-1.21.1" = _G1VqnokG;
         "neoforge-1.21.11" = _QuDE3oOW;
         "neoforge-26.1.2" = _hRE8I2iK;
         "neoforge-26.2" = _nfVeGaNr;
@@ -384,7 +390,8 @@ let
         "pkg-0.7.2" = _7g40Fyxw;
         "pkg-0.7.3" = _8b3a0FMc;
         "pkg-0.9.1" = _iDEdY8nm;
-        "default" = _iDEdY8nm;
+        "pkg-0.9.1.1" = _G1VqnokG;
+        "default" = _G1VqnokG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "seeu";

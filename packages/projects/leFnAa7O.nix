@@ -61,6 +61,16 @@ let
             "file" = "VillageMasquerade-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-uMpROOgRubToeW6D8HbNQltuHWoCF0nZyWQW91drG4KXoybU4DYjnoUi2TNTxQxAsWRBqLUL984K/kkgOCAT/g==";
         };
+        _NhCCM1f5 = {
+            "id" = "NhCCM1f5";
+            "file" = "villagemasquerade-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-VNIt6ivCEtCvKlcI1k8Q9mifVZ1gJAz4IYUWxU9fGVBT5RyQt0z14Dt7znutxNNkBWTZgSkemAuG4Mx4zKrZVw==";
+        };
+        _2Hj16M4l = {
+            "id" = "2Hj16M4l";
+            "file" = "villagemasquerade-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-lHWge01Y5AOytwHfwJ73fWoX7z4yVcKI2a5pGx5Hr2dmjLYTzEjhkVxR38WaoazvQbQbH87gcaeI3gEsEJCXTg==";
+        };
     in {
         "iOJ8XME2" = _iOJ8XME2;
         "OO5aUk4U" = _OO5aUk4U;
@@ -74,6 +84,8 @@ let
         "wT9sFFz2" = _wT9sFFz2;
         "XmxfIeqS" = _XmxfIeqS;
         "gTsobukF" = _gTsobukF;
+        "NhCCM1f5" = _NhCCM1f5;
+        "2Hj16M4l" = _2Hj16M4l;
         "fabric-1.21.10" = _iOJ8XME2;
         "fabric-1.21.5" = _gCi8icvQ;
         "fabric-1.21.8" = _kDas7tdK;
@@ -82,6 +94,7 @@ let
         "fabric-26.1.1" = _wT9sFFz2;
         "fabric-26.1.2" = _wT9sFFz2;
         "fabric-26.2" = _XmxfIeqS;
+        "fabric-26.3" = _NhCCM1f5;
         "neoforge-1.21.10" = _OO5aUk4U;
         "neoforge-1.21.5" = _6T3NgUwf;
         "neoforge-1.21.8" = _eNYncZNM;
@@ -90,6 +103,7 @@ let
         "neoforge-26.1.1" = _A85OdENM;
         "neoforge-26.1.2" = _A85OdENM;
         "neoforge-26.2" = _gTsobukF;
+        "neoforge-26.3" = _2Hj16M4l;
         "pkg-21.10.0" = _OO5aUk4U;
         "pkg-v21.5.0-1.21.5-Fabric" = _gCi8icvQ;
         "pkg-v21.8.0-1.21.8-Fabric" = _kDas7tdK;
@@ -98,7 +112,8 @@ let
         "pkg-21.11.0" = _7GPcSQVj;
         "pkg-26.1.0" = _wT9sFFz2;
         "pkg-26.2.0" = _gTsobukF;
-        "default" = _gTsobukF;
+        "pkg-26.3.0" = _2Hj16M4l;
+        "default" = _2Hj16M4l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "village-masquerade";

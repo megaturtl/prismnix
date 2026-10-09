@@ -296,6 +296,11 @@ let
             "file" = "polyweather-1.3.0+26.3.jar";
             "hash" = "sha512-K9ZqOk7xJXH26j9c+UvG7nDOnmQi+vXq3nGmHOMPsVzNZkE2hSplfyg0/knneYBV0/krx5xJjI7D67nDaQT0aA==";
         };
+        _KymIUFkz = {
+            "id" = "KymIUFkz";
+            "file" = "polyweather-1.3.0+1.8.9.jar";
+            "hash" = "sha512-qo3ZamQW8zgQx0GwQN5RQDGwq04zf8uLbBCZrlF/ejiAXRInWD+SjORUBSRFv5ni6hTgOhmIPtXigulYd5U5WQ==";
+        };
     in {
         "1YxktDLt" = _1YxktDLt;
         "CBoX2isF" = _CBoX2isF;
@@ -356,6 +361,7 @@ let
         "x2THenPv" = _x2THenPv;
         "YrRzLhqR" = _YrRzLhqR;
         "IOWTUTef" = _IOWTUTef;
+        "KymIUFkz" = _KymIUFkz;
         "forge-1.8.9" = _1YxktDLt;
         "forge-1.12.2" = _CBoX2isF;
         "fabric-1.21.1" = _O3jphyvi;
@@ -369,6 +375,7 @@ let
         "fabric-26.1.2" = _x2THenPv;
         "fabric-26.2" = _YrRzLhqR;
         "fabric-26.3" = _IOWTUTef;
+        "ornithe-1.8.9" = _KymIUFkz;
         "pkg-v1.0.0" = _CBoX2isF;
         "pkg-1.1.0-alpha.2" = _al0EQCpz;
         "pkg-v1.1.1-beta.1" = _Yaw9JA7Q;
@@ -376,8 +383,8 @@ let
         "pkg-v1.2.1" = _DmLG0Lqm;
         "pkg-v1.2.2" = _9u4pjuw1;
         "pkg-v1.2.3" = _wOQkAmjT;
-        "pkg-v1.3.0" = _IOWTUTef;
-        "default" = _IOWTUTef;
+        "pkg-v1.3.0" = _KymIUFkz;
+        "default" = _KymIUFkz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "polyweather";

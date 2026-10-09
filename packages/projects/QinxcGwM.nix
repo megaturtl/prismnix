@@ -276,6 +276,11 @@ let
             "file" = "infusedfoods-26.2.3.jar";
             "hash" = "sha512-1dudGESQkMnjHuLJudXIA4rOQcRdzxSgXwqNbjwwMIB6UHMTV/dUBFwXvlkGJHU6PuxUwhHJmnQoOGWWFnK7VQ==";
         };
+        _DzBK56Y8 = {
+            "id" = "DzBK56Y8";
+            "file" = "infusedfoods-26.3.0.jar";
+            "hash" = "sha512-k3Vd9vKY9qODJ3yK0SgHhkoGDlJ+YUiSt75HlgehLsy63XXh2nZNa5duVY3ATNkMlNNAvpQ1UfTdN+5f6e/HBg==";
+        };
     in {
         "Cf0jxUa2" = _Cf0jxUa2;
         "uqjr2QSd" = _uqjr2QSd;
@@ -332,6 +337,7 @@ let
         "UCaAgbo4" = _UCaAgbo4;
         "3oRPeQm7" = _3oRPeQm7;
         "e81l8ETI" = _e81l8ETI;
+        "DzBK56Y8" = _DzBK56Y8;
         "forge-1.16.5" = _RKcZA5kU;
         "forge-1.17.1" = _WlvwADQb;
         "forge-1.18.1" = _M1ko7y9y;
@@ -354,6 +360,7 @@ let
         "neoforge-26.1" = _UCaAgbo4;
         "neoforge-26.1.1" = _UCaAgbo4;
         "neoforge-26.2" = _e81l8ETI;
+        "neoforge-26.3" = _DzBK56Y8;
         "pkg-1.0.0" = _Cf0jxUa2;
         "pkg-1.0.1" = _uqjr2QSd;
         "pkg-2.0.0" = _GvCqQ8bd;
@@ -409,7 +416,8 @@ let
         "pkg-26.1.2" = _UCaAgbo4;
         "pkg-26.2.0" = _3oRPeQm7;
         "pkg-26.2.3" = _e81l8ETI;
-        "default" = _e81l8ETI;
+        "pkg-26.3.0" = _DzBK56Y8;
+        "default" = _DzBK56Y8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "infused-foods";

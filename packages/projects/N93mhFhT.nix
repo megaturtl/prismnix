@@ -76,6 +76,16 @@ let
             "file" = "AutoRestart-1.21.1-3.0.1.jar";
             "hash" = "sha512-FWxtzpuGEsY1F4sRiXLSkbQIcAzlt+ljaIinDYsIRHqUTXK5DnVW7DQifd84R1hPsxSpA7zPOq9VPhL7UL5WWA==";
         };
+        _mGM4oJfH = {
+            "id" = "mGM4oJfH";
+            "file" = "AutoRestart-1.21.11-3.0.1.jar";
+            "hash" = "sha512-yDj85KHuh+XahSEPyukKYkmllJidWEv5H3Wa1JGH7fPONB+fZ+tnRWJx1h9Pa4o4uQBWHEE2SHTpXK/BkP+6pw==";
+        };
+        _1M6I3DBT = {
+            "id" = "1M6I3DBT";
+            "file" = "AutoRestart-26.1-3.0.1.jar";
+            "hash" = "sha512-7E+2w324e1zfEeyDwIKm2FF13AdajjE/4xuQ9B5DjqruV9FCmKnNKcoR6RriD3d+0LNW/PmYHq2b2Hh+37I6HA==";
+        };
     in {
         "26Ui0sDV" = _26Ui0sDV;
         "MeRoVkOF" = _MeRoVkOF;
@@ -92,6 +102,8 @@ let
         "5vyrqwhj" = _5vyrqwhj;
         "b2iystOl" = _b2iystOl;
         "c0Wg21oP" = _c0Wg21oP;
+        "mGM4oJfH" = _mGM4oJfH;
+        "1M6I3DBT" = _1M6I3DBT;
         "forge-1.17.1" = _26Ui0sDV;
         "forge-1.18.2" = _MeRoVkOF;
         "forge-1.19.4" = _mpRJ0zpX;
@@ -112,6 +124,12 @@ let
         "neoforge-1.21.8" = _c0Wg21oP;
         "neoforge-1.21.9" = _c0Wg21oP;
         "neoforge-1.21.10" = _c0Wg21oP;
+        "neoforge-1.21.11" = _mGM4oJfH;
+        "neoforge-26.1" = _1M6I3DBT;
+        "neoforge-26.1.1" = _1M6I3DBT;
+        "neoforge-26.1.2" = _1M6I3DBT;
+        "neoforge-26.2" = _1M6I3DBT;
+        "neoforge-26.3" = _1M6I3DBT;
         "pkg-1.17.1-2.0.0" = _26Ui0sDV;
         "pkg-1.18.2-2.0.0" = _MeRoVkOF;
         "pkg-1.19.4-2.0.1" = _mpRJ0zpX;
@@ -127,7 +145,9 @@ let
         "pkg-1.21.1-2.0.2" = _5vyrqwhj;
         "pkg-1.21.1-3.0.0" = _b2iystOl;
         "pkg-1.21.1-3.0.1" = _c0Wg21oP;
-        "default" = _c0Wg21oP;
+        "pkg-1.21.11-3.0.1" = _mGM4oJfH;
+        "pkg-26.1-3.0.1" = _1M6I3DBT;
+        "default" = _1M6I3DBT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "auto-restart";

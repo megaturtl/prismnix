@@ -46,6 +46,21 @@ let
             "file" = "crosshair-health-indicator-v1.1.0-26.1-3.jar";
             "hash" = "sha512-2r/Yn/9iXW7H4rRxeZAyCeRWGSnwkXWu47ciMBMXQnCsY5roZEArKNB74WriSPEWzaFEhlaM8F+r13S7glXhAA==";
         };
+        _Al2zlVWh = {
+            "id" = "Al2zlVWh";
+            "file" = "crosshair-health-indicator-v1.2.0-1.21.6-10.jar";
+            "hash" = "sha512-Wwmo1N9Xe0nU7s9nTMOQ6Px8GalfW7tPz+GbsAfN1OOQ9DufxRVQW/+iONeejVhhjEuzvDVSVs8TojqPlJdzWA==";
+        };
+        _Q4arLGCY = {
+            "id" = "Q4arLGCY";
+            "file" = "crosshair-health-indicator-v1.2.0-1.21.11.jar";
+            "hash" = "sha512-/vHU1aGLlWYhhMHxqGt56R4lRDiOkakjlyIN/hL4tYdFW11O3zjyP2c/Um4MmT63lLDGEz+Cdh182xjk5ZQQxA==";
+        };
+        _GJmekeSO = {
+            "id" = "GJmekeSO";
+            "file" = "crosshair-health-indicator-v1.2.0-26.1-3.jar";
+            "hash" = "sha512-48/8H3LeYWPhKJ6TNIvO73dFuH/nPaO15yYbGPBVLMOSnLY8SGGaijPicVRErSKyPLbrfHkI5JqMmTMsRAOv6g==";
+        };
     in {
         "YINQXWll" = _YINQXWll;
         "Li86Mjpc" = _Li86Mjpc;
@@ -56,17 +71,20 @@ let
         "gdAqZx75" = _gdAqZx75;
         "iH1WZ3o1" = _iH1WZ3o1;
         "eiNRJMBf" = _eiNRJMBf;
-        "fabric-1.21.6" = _RxtUr1Fl;
-        "fabric-1.21.7" = _RxtUr1Fl;
-        "fabric-1.21.8" = _RxtUr1Fl;
-        "fabric-1.21.9" = _RxtUr1Fl;
-        "fabric-1.21.10" = _RxtUr1Fl;
-        "fabric-1.21.11" = _gdAqZx75;
-        "fabric-26.1" = _eiNRJMBf;
-        "fabric-26.1.1" = _eiNRJMBf;
-        "fabric-26.1.2" = _eiNRJMBf;
-        "fabric-26.2" = _eiNRJMBf;
-        "fabric-26.3" = _eiNRJMBf;
+        "Al2zlVWh" = _Al2zlVWh;
+        "Q4arLGCY" = _Q4arLGCY;
+        "GJmekeSO" = _GJmekeSO;
+        "fabric-1.21.6" = _Al2zlVWh;
+        "fabric-1.21.7" = _Al2zlVWh;
+        "fabric-1.21.8" = _Al2zlVWh;
+        "fabric-1.21.9" = _Al2zlVWh;
+        "fabric-1.21.10" = _Al2zlVWh;
+        "fabric-1.21.11" = _Q4arLGCY;
+        "fabric-26.1" = _GJmekeSO;
+        "fabric-26.1.1" = _GJmekeSO;
+        "fabric-26.1.2" = _GJmekeSO;
+        "fabric-26.2" = _GJmekeSO;
+        "fabric-26.3" = _GJmekeSO;
         "pkg-1.0.0-1.21.6-10" = _YINQXWll;
         "pkg-1.0.0-1.21.11" = _Li86Mjpc;
         "pkg-1.0.0-26.1" = _8NlkA46t;
@@ -76,7 +94,10 @@ let
         "pkg-1.1.0-1.21.11" = _gdAqZx75;
         "pkg-1.1.0-26.1-2" = _iH1WZ3o1;
         "pkg-1.1.0-26.1-3" = _eiNRJMBf;
-        "default" = _eiNRJMBf;
+        "pkg-1.2.0-1.21.6-10" = _Al2zlVWh;
+        "pkg-1.2.0-1.21.11" = _Q4arLGCY;
+        "pkg-1.2.0-26.1-3" = _GJmekeSO;
+        "default" = _GJmekeSO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crosshair-health-indicator";

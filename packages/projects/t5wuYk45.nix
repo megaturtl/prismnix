@@ -2241,6 +2241,16 @@ let
             "file" = "tweakeroo-fabric-26.1.2-0.28.10.jar";
             "hash" = "sha512-KfWF0W/tVFFjwWqS2fMof8daNZ6FMVpmSNHA2oPyvljSPFteYHyqs77NWC+iUC+Iv8IxkVgdrzJCxvApuNaG5A==";
         };
+        _MtPXEGTi = {
+            "id" = "MtPXEGTi";
+            "file" = "tweakeroo-fabric-26.3-0.30.0.jar";
+            "hash" = "sha512-fOI6In6jXY5cz4h155zLroakY8y1kWw6w/UgcyGXbxnFyFMCk87Mcms0xOkSTEvuahnBXdSlDEHkc5hkOAS03Q==";
+        };
+        _fWxKATn6 = {
+            "id" = "fWxKATn6";
+            "file" = "tweakeroo-fabric-26.3-0.30.1.jar";
+            "hash" = "sha512-GQME/8vuUe9+Zgb7sQYAMv3r5407zCxg6Eh29DS2lsJ/svgwLBF5Rn9GIjEr38YJ0xIJ6RsJj+WmH8AUjwvetQ==";
+        };
     in {
         "RXKGmB1u" = _RXKGmB1u;
         "fDKNCcH7" = _fDKNCcH7;
@@ -2690,6 +2700,8 @@ let
         "tzGdG1Ri" = _tzGdG1Ri;
         "5brvodm4" = _5brvodm4;
         "2xHr441V" = _2xHr441V;
+        "MtPXEGTi" = _MtPXEGTi;
+        "fWxKATn6" = _fWxKATn6;
         "liteloader-1.12" = _sdsOOl0h;
         "liteloader-1.12.2" = _p5k63uHm;
         "liteloader-1.12.1" = _1UjDReAU;
@@ -2771,6 +2783,7 @@ let
         "fabric-26.1.1" = _2xHr441V;
         "fabric-26.1.2" = _2xHr441V;
         "fabric-26.2" = _tzGdG1Ri;
+        "fabric-26.3" = _fWxKATn6;
         "forge-1.12.2" = _4cMyhs2o;
         "ornithe-1.12.2" = _S5EtBWlf;
         "pkg-0.1.0" = _fDKNCcH7;
@@ -3077,7 +3090,7 @@ let
         "pkg-0.13.0" = _lfknXYWw;
         "pkg-0.13.1" = _5kzsoFYc;
         "pkg-0.13.1-nos" = _Pa5vVAoR;
-        "pkg-0.30.0" = _qFYPwJCu;
+        "pkg-0.30.0" = _MtPXEGTi;
         "pkg-0.13.2" = _wwxF6jyQ;
         "pkg-0.13.3" = _FivAjAMb;
         "pkg-0.31.0" = _p5k63uHm;
@@ -3188,7 +3201,8 @@ let
         "pkg-0.29.5" = _tzGdG1Ri;
         "pkg-0.27.15" = _5brvodm4;
         "pkg-0.28.10" = _2xHr441V;
-        "default" = _2xHr441V;
+        "pkg-0.30.1" = _fWxKATn6;
+        "default" = _fWxKATn6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tweakeroo";

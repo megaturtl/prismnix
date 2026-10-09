@@ -356,6 +356,46 @@ let
             "file" = "citymod-1.20.1-forge-2.2.6.jar";
             "hash" = "sha512-cbg8Azm1Elwweiy9j5hSNEwo0frhwTIX+8pM3JgfECILWu4p9tvMjZFnubzp7AT2DKWKGC1Xbx/MLzmhAlJ2CQ==";
         };
+        _YLQ8nYbc = {
+            "id" = "YLQ8nYbc";
+            "file" = "citymod-1.20.1-forge-2.3.0.jar";
+            "hash" = "sha512-OLMCTAngSdyIGT2nEcbe9qxq4vynoZNfTEL4Y49WhTVAjS1JhikFV4aoz6rFBha+dMpX8iK0lkZoRrVq5t6RiQ==";
+        };
+        _eE4JYij0 = {
+            "id" = "eE4JYij0";
+            "file" = "citymod-1.20.1-fabric-2.3.0.jar";
+            "hash" = "sha512-da/ogK3Vi2dVR5SnwvFziXGcry9XwD901m3wOhVyK8QumDZXCv7E5LkEsVVyGoBEdhsHgR4qtW9jPhLvsqm+3A==";
+        };
+        _g67owUrV = {
+            "id" = "g67owUrV";
+            "file" = "citymod-1.21.1-neoforge-2.3.0.jar";
+            "hash" = "sha512-RGezLZtKjCAqwDFaSafL6SOXrUSzX5A+Yh/RH+VyGmzCKPjJxKgBJys1GQH5IkxKx7u28B0iVYOF9TWaJsWIyA==";
+        };
+        _zKVZzgpL = {
+            "id" = "zKVZzgpL";
+            "file" = "citymod-1.21.1-fabric-2.3.0.jar";
+            "hash" = "sha512-ktHWfJj+zIut2fTA1/5p2LSzt2TnX4w9yzIyMOZGhsbdSF48WPGgMXJAwbpuEjz/5czcc/GSEl9f2Dmfo7Eatw==";
+        };
+        _9CZDK50I = {
+            "id" = "9CZDK50I";
+            "file" = "citymod-26.1.x-26.2-neoforge-2.3.0.jar";
+            "hash" = "sha512-IDM0/Tv2GFGTOjaDls9R2cWsMx2DEeGDNIPpkERF5rbkbwqD22XTJUMO/SLsSSPtv+y25z/3nd9Z94LDUf4KsQ==";
+        };
+        _BTZaGlu1 = {
+            "id" = "BTZaGlu1";
+            "file" = "citymod-26.1.x-26.2-fabric-2.3.0.jar";
+            "hash" = "sha512-R0LLcOrabEjdQYNH6N+DL+Mh8fAoxoSbDXx/h9EKmuLoPUz7XXQvZnkphJ18sgEk267QiJ5UY7x7JXw5jCXn+w==";
+        };
+        _xrdAwjIh = {
+            "id" = "xrdAwjIh";
+            "file" = "citymod-26.3-neoforge-2.3.0.jar";
+            "hash" = "sha512-ntgzTUC6eDM8Lh63M+LemEGSzzvL2Z2hjrnoXKoMSPE70S2CjWUybb6kPB3kdpUlDosqWxjXYOQWBSFmnVBwOA==";
+        };
+        _O1cAaal0 = {
+            "id" = "O1cAaal0";
+            "file" = "citymod-26.3-fabric-2.3.0.jar";
+            "hash" = "sha512-CqzOXicnsv0JueZMpfeNWaUzi/nfVZgVad5rScIE/x+TvnYysUu9YvakQl6OIPKNRLdS2xJCELJ/ecPcMWomqA==";
+        };
     in {
         "2mJDpseG" = _2mJDpseG;
         "tAAiupfk" = _tAAiupfk;
@@ -428,29 +468,39 @@ let
         "Lh5vizH6" = _Lh5vizH6;
         "WCq49Uoh" = _WCq49Uoh;
         "hrMFVEny" = _hrMFVEny;
-        "forge-1.20.1" = _hrMFVEny;
+        "YLQ8nYbc" = _YLQ8nYbc;
+        "eE4JYij0" = _eE4JYij0;
+        "g67owUrV" = _g67owUrV;
+        "zKVZzgpL" = _zKVZzgpL;
+        "9CZDK50I" = _9CZDK50I;
+        "BTZaGlu1" = _BTZaGlu1;
+        "xrdAwjIh" = _xrdAwjIh;
+        "O1cAaal0" = _O1cAaal0;
+        "forge-1.20.1" = _YLQ8nYbc;
         "forge-1.19.2" = _BPnC9KbH;
         "forge-1.18.2" = _6kJaav5o;
-        "fabric-1.20.1" = _AIbLRxQf;
+        "fabric-1.20.1" = _eE4JYij0;
         "fabric-1.21.8" = _QWujuq3q;
-        "fabric-1.21.1" = _3HCcEeQ8;
+        "fabric-1.21.1" = _zKVZzgpL;
         "fabric-1.21.6" = _QWujuq3q;
         "fabric-1.21.7" = _QWujuq3q;
         "fabric-1.21.11" = _xMNuHVzo;
         "fabric-1.21" = _v8ZnAXL5;
-        "fabric-26.1" = _Lh5vizH6;
-        "fabric-26.1.1" = _Lh5vizH6;
-        "fabric-26.1.2" = _Lh5vizH6;
-        "fabric-26.2" = _Lh5vizH6;
+        "fabric-26.1" = _BTZaGlu1;
+        "fabric-26.1.1" = _BTZaGlu1;
+        "fabric-26.1.2" = _BTZaGlu1;
+        "fabric-26.2" = _BTZaGlu1;
+        "fabric-26.3" = _O1cAaal0;
         "neoforge-1.20.1" = _GjMLz8Xh;
         "neoforge-1.20.4" = _IJHG1GSy;
-        "neoforge-1.21.1" = _l3A90vwO;
+        "neoforge-1.21.1" = _g67owUrV;
         "neoforge-1.21" = _L1CuMoyx;
         "neoforge-1.21.11" = _g8cAr4hm;
-        "neoforge-26.1" = _WCq49Uoh;
-        "neoforge-26.1.1" = _WCq49Uoh;
-        "neoforge-26.1.2" = _WCq49Uoh;
-        "neoforge-26.2" = _WCq49Uoh;
+        "neoforge-26.1" = _9CZDK50I;
+        "neoforge-26.1.1" = _9CZDK50I;
+        "neoforge-26.1.2" = _9CZDK50I;
+        "neoforge-26.2" = _9CZDK50I;
+        "neoforge-26.3" = _xrdAwjIh;
         "pkg-0.1.1.2" = _JGGENmAY;
         "pkg-0.1.2.0" = _Ujn9wxeV;
         "pkg-0.1.3.2" = _skLAxqLI;
@@ -477,7 +527,8 @@ let
         "pkg-2.1.0" = _GMYGnjoi;
         "pkg-2.2.0" = _WCq49Uoh;
         "pkg-2.2.6" = _hrMFVEny;
-        "default" = _hrMFVEny;
+        "pkg-2.3.0" = _O1cAaal0;
+        "default" = _O1cAaal0;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "citymod";

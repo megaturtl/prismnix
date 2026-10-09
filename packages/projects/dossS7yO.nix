@@ -21,23 +21,35 @@ let
             "file" = "icebreak-1.0.0+1.20.1.jar";
             "hash" = "sha512-zDsuZ1z/A1nN9MgRUf9JNkxZVJP2neXdRUNt76L5ya7KPZVxMX5fp6UAKPsHG9WOq7QYpXWZ4pXCLtK09oBDIw==";
         };
+        _VI4TbjPV = {
+            "id" = "VI4TbjPV";
+            "file" = "icebreak-1.0.1+26.1.2.jar";
+            "hash" = "sha512-NG7RQU7XtGxWmMHRO2N95EA+CsL/0loHrCetGZzBoZ+uYKgCBi/3wk4M0gkGVFXiyi8KzhzFcimU+hmbyqJcLw==";
+        };
     in {
         "1blBoCvZ" = _1blBoCvZ;
         "npTa19rt" = _npTa19rt;
         "x1wZ61OV" = _x1wZ61OV;
         "yX87mprd" = _yX87mprd;
+        "VI4TbjPV" = _VI4TbjPV;
         "fabric-1.21.1" = _1blBoCvZ;
-        "fabric-26.1.2" = _x1wZ61OV;
-        "fabric-26.1" = _x1wZ61OV;
-        "fabric-26.1.1" = _x1wZ61OV;
+        "fabric-26.1.2" = _VI4TbjPV;
+        "fabric-26.1" = _VI4TbjPV;
+        "fabric-26.1.1" = _VI4TbjPV;
         "fabric-26.2-rc-2" = _x1wZ61OV;
-        "fabric-26.2" = _x1wZ61OV;
+        "fabric-26.2" = _VI4TbjPV;
         "fabric-1.20.1" = _yX87mprd;
+        "fabric-26.3" = _VI4TbjPV;
+        "neoforge-26.1" = _VI4TbjPV;
+        "neoforge-26.1.1" = _VI4TbjPV;
+        "neoforge-26.1.2" = _VI4TbjPV;
+        "neoforge-26.2" = _VI4TbjPV;
+        "neoforge-26.3" = _VI4TbjPV;
         "pkg-1.0.0+1.21.1" = _1blBoCvZ;
         "pkg-1.0.0+26.1.2" = _npTa19rt;
-        "pkg-1.0.1+26.1.2" = _x1wZ61OV;
+        "pkg-1.0.1+26.1.2" = _VI4TbjPV;
         "pkg-1.0.0+1.20.1" = _yX87mprd;
-        "default" = _yX87mprd;
+        "default" = _VI4TbjPV;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "icebreak";

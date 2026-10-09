@@ -421,6 +421,16 @@ let
             "file" = "configuration-neoforge-4.1.3+26.3.jar";
             "hash" = "sha512-RgxH1bHoen6UzlYisaspHjcnsZrwJq/i7ZfnasguhuLH/2mqQGg/H75ZWnE5uiIwF8zdMAy1Sr2xfySNT8zj6Q==";
         };
+        _8KSj2YNF = {
+            "id" = "8KSj2YNF";
+            "file" = "configuration-neoforge-4.1.4+26.3.jar";
+            "hash" = "sha512-G4CsxGlBbfea8T/IPwNN7bUZ1W9QPRhhjrVIMIZ+ymX8U2lkX28MzmZQh422LIXHLPZzxUSRPd01BrBle4NQ7Q==";
+        };
+        _HXb139Of = {
+            "id" = "HXb139Of";
+            "file" = "configuration-fabric-4.1.4+26.3.jar";
+            "hash" = "sha512-W0LZHEG0uRYuSmk16jYaaxTQBVO7x8zuQN8Um6u2nVyzq0FMaf6XgEuxYp9lfhS98Pms03fmPbBuTKzbAC1z1g==";
+        };
     in {
         "n4rE7sbh" = _n4rE7sbh;
         "SA5R4wtP" = _SA5R4wtP;
@@ -506,6 +516,8 @@ let
         "fS6Z0ygF" = _fS6Z0ygF;
         "3ImGlqU1" = _3ImGlqU1;
         "NXhZnNW9" = _NXhZnNW9;
+        "8KSj2YNF" = _8KSj2YNF;
+        "HXb139Of" = _HXb139Of;
         "forge-1.19.4" = _n4rE7sbh;
         "forge-1.19.3" = _SA5R4wtP;
         "forge-1.19.2" = _caAq0bvj;
@@ -544,7 +556,7 @@ let
         "fabric-26.1.1" = _zlVO94sq;
         "fabric-26.1.2" = _zlVO94sq;
         "fabric-26.2" = _VlATOBgw;
-        "fabric-26.3" = _3ImGlqU1;
+        "fabric-26.3" = _HXb139Of;
         "neoforge-1.21" = _6Mztfq1u;
         "neoforge-1.21.1" = _6Mztfq1u;
         "neoforge-1.20.1" = _h7CBg2Oe;
@@ -562,7 +574,7 @@ let
         "neoforge-26.1.1" = _rj2B4B2w;
         "neoforge-26.1.2" = _rj2B4B2w;
         "neoforge-26.2" = _fS6Z0ygF;
-        "neoforge-26.3" = _NXhZnNW9;
+        "neoforge-26.3" = _8KSj2YNF;
         "pkg-2.1.1" = _PWS1Gh7s;
         "pkg-2.1.0" = _bwRtOQDy;
         "pkg-3.0.0" = _zX1zVjiu;
@@ -583,7 +595,8 @@ let
         "pkg-4.1.2+26.2" = _j3fQySHN;
         "pkg-4.1.3+26.2" = _fS6Z0ygF;
         "pkg-4.1.3+26.3" = _NXhZnNW9;
-        "default" = _NXhZnNW9;
+        "pkg-4.1.4+26.3" = _HXb139Of;
+        "default" = _HXb139Of;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "configuration";

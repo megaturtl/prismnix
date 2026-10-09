@@ -86,6 +86,11 @@ let
             "file" = "cube-hearts[26.2].zip";
             "hash" = "sha512-dxl+rk62pM1c4jGeE9BDf2qMFCSSsSLaJkKB+qd1jTjooCQdtx8mkyg221kjQcJq07pYW6oDUif8e7729xuslw==";
         };
+        _8spYmT3o = {
+            "id" = "8spYmT3o";
+            "file" = "cube-hearts[26.3].zip";
+            "hash" = "sha512-dvSxXlb7j4bv8RiOJIiCHiyw3lI+2kDV8nFRWXOOED8btRoZbJkrgMwaUL6R049psnEP0ChJq3yy/J+JE6ti2w==";
+        };
     in {
         "ljXNkzbp" = _ljXNkzbp;
         "6bDwGpX7" = _6bDwGpX7;
@@ -104,30 +109,31 @@ let
         "h2crtYT5" = _h2crtYT5;
         "WketrFQ5" = _WketrFQ5;
         "hEAESGEr" = _hEAESGEr;
+        "8spYmT3o" = _8spYmT3o;
         "minecraft-1.16.2" = _ivB5MhHX;
         "minecraft-1.16.3" = _ivB5MhHX;
         "minecraft-1.16.4" = _ivB5MhHX;
         "minecraft-1.16.5" = _ivB5MhHX;
         "minecraft-1.20" = _SfIXVZoN;
         "minecraft-1.20.1" = _SfIXVZoN;
-        "minecraft-1.21" = _hEAESGEr;
-        "minecraft-1.21.1" = _hEAESGEr;
+        "minecraft-1.21" = _8spYmT3o;
+        "minecraft-1.21.1" = _8spYmT3o;
         "minecraft-1.20.2" = _vh1wVyIh;
         "minecraft-1.20.3" = _yLDUU5bX;
         "minecraft-1.20.4" = _yLDUU5bX;
-        "minecraft-1.21.2" = _hEAESGEr;
-        "minecraft-1.21.3" = _hEAESGEr;
-        "minecraft-1.21.4" = _hEAESGEr;
-        "minecraft-1.21.5" = _hEAESGEr;
-        "minecraft-1.21.6" = _hEAESGEr;
-        "minecraft-1.21.7" = _hEAESGEr;
-        "minecraft-1.21.8" = _hEAESGEr;
-        "minecraft-1.21.9" = _hEAESGEr;
-        "minecraft-1.21.10" = _hEAESGEr;
-        "minecraft-1.21.11" = _hEAESGEr;
-        "minecraft-26.1" = _hEAESGEr;
-        "minecraft-26.1.1" = _hEAESGEr;
-        "minecraft-26.1.2" = _hEAESGEr;
+        "minecraft-1.21.2" = _8spYmT3o;
+        "minecraft-1.21.3" = _8spYmT3o;
+        "minecraft-1.21.4" = _8spYmT3o;
+        "minecraft-1.21.5" = _8spYmT3o;
+        "minecraft-1.21.6" = _8spYmT3o;
+        "minecraft-1.21.7" = _8spYmT3o;
+        "minecraft-1.21.8" = _8spYmT3o;
+        "minecraft-1.21.9" = _8spYmT3o;
+        "minecraft-1.21.10" = _8spYmT3o;
+        "minecraft-1.21.11" = _8spYmT3o;
+        "minecraft-26.1" = _8spYmT3o;
+        "minecraft-26.1.1" = _8spYmT3o;
+        "minecraft-26.1.2" = _8spYmT3o;
         "minecraft-23w31a" = _hEAESGEr;
         "minecraft-23w32a" = _hEAESGEr;
         "minecraft-23w33a" = _hEAESGEr;
@@ -173,7 +179,8 @@ let
         "minecraft-24w44a" = _hEAESGEr;
         "minecraft-24w45a" = _hEAESGEr;
         "minecraft-24w46a" = _hEAESGEr;
-        "minecraft-26.2" = _hEAESGEr;
+        "minecraft-26.2" = _8spYmT3o;
+        "minecraft-26.3" = _8spYmT3o;
         "pkg-0.5" = _ljXNkzbp;
         "pkg-1.5" = _6bDwGpX7;
         "pkg-5" = _9fNBh2Vs;
@@ -191,7 +198,8 @@ let
         "pkg-12" = _h2crtYT5;
         "pkg-13" = _WketrFQ5;
         "pkg-14" = _hEAESGEr;
-        "default" = _hEAESGEr;
+        "pkg-15" = _8spYmT3o;
+        "default" = _8spYmT3o;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cubehp";

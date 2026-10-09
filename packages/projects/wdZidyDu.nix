@@ -101,6 +101,66 @@ let
             "file" = "DiscordIntegration-1.21.1-4.0.1.jar";
             "hash" = "sha512-bfcyPVXEYKKW7SNrdw2jzduzNbZi7PhwSCnvQGGQCxkuJlTpbDzmVVr2b6YQA87FLBmgOwGhDgm8KXd+hioHwA==";
         };
+        _XxCpz7ou = {
+            "id" = "XxCpz7ou";
+            "file" = "DiscordIntegration-1.21.1-4.0.2.jar";
+            "hash" = "sha512-Qb1PiRLD8Hd7PvoPuCUB3P1343+eT7BZGGw9nNzn+6g/Ft08m6kxHpqK9O5J4290njKZuOLVCyS0iw0Oevew4w==";
+        };
+        _z1RPQDzX = {
+            "id" = "z1RPQDzX";
+            "file" = "DiscordIntegration-1.21.2-4.0.2.jar";
+            "hash" = "sha512-59cmU7mrieMtdbmSq84cX5qwub4tdvAAVrL3ZF3Tjk3fqT58k4OHgsYA5TEN19Cv84LP79RUxVIdfN+4II06fA==";
+        };
+        _lY113X7Q = {
+            "id" = "lY113X7Q";
+            "file" = "DiscordIntegration-1.21.9-4.0.2.jar";
+            "hash" = "sha512-pyxpIpDj5J509d5gLoe3SxlsVrOchGkPNN21eO05gde1SZVpMsTkJ+eizmC67KHXsE1Hct6xEWwwFutL9TcjqA==";
+        };
+        _oC9ZKaY6 = {
+            "id" = "oC9ZKaY6";
+            "file" = "DiscordIntegration-1.21.11-4.0.2.jar";
+            "hash" = "sha512-bJOYvJnGb91bR1tOpxvQgLSWj+Od44O0PcjYgDLRkWGxJERcENXZlOFCqeFn3oWJprzN16U1Nb0uH6u8Eazaww==";
+        };
+        _KH3ue8E7 = {
+            "id" = "KH3ue8E7";
+            "file" = "DiscordIntegration-26.1-4.0.2.jar";
+            "hash" = "sha512-BTlaSnSQZhhLuM9PGzEI7jWt3Yt6RtKrBS2bPXjNljKZoK0k4orRTBRK2/+h9dqsImljJQEwKVxg1+2XpnOJMw==";
+        };
+        _1YEnjN59 = {
+            "id" = "1YEnjN59";
+            "file" = "DiscordIntegration-26.3-4.0.2.jar";
+            "hash" = "sha512-unA39BJeZ7eF6NK/qWqg6oHfulbEU8lx7FKHl/5fp4N+dVMzvXVOVYmqHs9lE8WPmg3Xuw3mtpex9FhEc7q1Vw==";
+        };
+        _RF72VwEg = {
+            "id" = "RF72VwEg";
+            "file" = "DiscordIntegration-1.21.1-4.0.3.jar";
+            "hash" = "sha512-N7L8minKW+eL3S/Va794HctCj0wKxJGLC9Oqh8SD1IrYqz+W2xsN2aWfyoIWmr1amkuF2emuo2ZTLU823tCjkA==";
+        };
+        _5XYP0hSS = {
+            "id" = "5XYP0hSS";
+            "file" = "DiscordIntegration-1.21.2-4.0.3.jar";
+            "hash" = "sha512-2YRSHbu4sHauhKPWaUVr0koagmhbHrDQ0lNHH5zaxkYJXFLKkH1QMBJzqbyMP1emWuMGp7KZxKuWneY5H3BpsQ==";
+        };
+        _Q83EfUhq = {
+            "id" = "Q83EfUhq";
+            "file" = "DiscordIntegration-1.21.9-4.0.3.jar";
+            "hash" = "sha512-PQy9xOEnujXpiLedAUsn2B1kdSmeH+wdyIdqOH27/bPcJ0oWjvmlfv/fnHQqzlZtBZSvXW09G/Vz2aS8NRuhNg==";
+        };
+        _YrbhGrQE = {
+            "id" = "YrbhGrQE";
+            "file" = "DiscordIntegration-1.21.11-4.0.3.jar";
+            "hash" = "sha512-5jQENFrKtldAn2UtWJZp9pavZXt+3SPKvD0k+UaDyTRBnbl52Pm9aQZ4zfq7SYKZmP4tdrYaeA4/Ss3qRx9Zww==";
+        };
+        _jLjPWfnw = {
+            "id" = "jLjPWfnw";
+            "file" = "DiscordIntegration-26.1-4.0.3.jar";
+            "hash" = "sha512-NjDWycaX0S6wcPNSJhOYpmkTNYkeHfi73THlj0Uq7svNCO1f4wonCYN/AuourmrRMY99grfR70Zl/z0zV4iYgg==";
+        };
+        _z3X5bL8m = {
+            "id" = "z3X5bL8m";
+            "file" = "DiscordIntegration-26.3-4.0.3.jar";
+            "hash" = "sha512-yHsvfL8fy3wnDULSvA/KNFw2HB2S3rAUSN7bTUor4uHKzOhgslTb1AzCqlP0cwdaQDdktog3Y86+kwrXYi47jQ==";
+        };
     in {
         "3G6StTbg" = _3G6StTbg;
         "XbAhyip2" = _XbAhyip2;
@@ -122,6 +182,18 @@ let
         "hfaXj3Nv" = _hfaXj3Nv;
         "K3PwBmqw" = _K3PwBmqw;
         "RWECzFvH" = _RWECzFvH;
+        "XxCpz7ou" = _XxCpz7ou;
+        "z1RPQDzX" = _z1RPQDzX;
+        "lY113X7Q" = _lY113X7Q;
+        "oC9ZKaY6" = _oC9ZKaY6;
+        "KH3ue8E7" = _KH3ue8E7;
+        "1YEnjN59" = _1YEnjN59;
+        "RF72VwEg" = _RF72VwEg;
+        "5XYP0hSS" = _5XYP0hSS;
+        "Q83EfUhq" = _Q83EfUhq;
+        "YrbhGrQE" = _YrbhGrQE;
+        "jLjPWfnw" = _jLjPWfnw;
+        "z3X5bL8m" = _z3X5bL8m;
         "forge-1.17.1" = _3G6StTbg;
         "forge-1.18.2" = _MNHLwCr0;
         "forge-1.19.4" = _JC7EHDai;
@@ -132,7 +204,22 @@ let
         "forge-1.20.6" = _yayIDMxm;
         "forge-1.21" = _J46eSLiR;
         "forge-1.21.1" = _hfaXj3Nv;
-        "neoforge-1.21.1" = _RWECzFvH;
+        "neoforge-1.21.1" = _RF72VwEg;
+        "neoforge-1.21.2" = _5XYP0hSS;
+        "neoforge-1.21.3" = _5XYP0hSS;
+        "neoforge-1.21.4" = _5XYP0hSS;
+        "neoforge-1.21.5" = _5XYP0hSS;
+        "neoforge-1.21.6" = _5XYP0hSS;
+        "neoforge-1.21.7" = _5XYP0hSS;
+        "neoforge-1.21.8" = _5XYP0hSS;
+        "neoforge-1.21.9" = _Q83EfUhq;
+        "neoforge-1.21.10" = _Q83EfUhq;
+        "neoforge-1.21.11" = _YrbhGrQE;
+        "neoforge-26.1" = _jLjPWfnw;
+        "neoforge-26.1.1" = _jLjPWfnw;
+        "neoforge-26.1.2" = _jLjPWfnw;
+        "neoforge-26.2" = _jLjPWfnw;
+        "neoforge-26.3" = _z3X5bL8m;
         "pkg-1.17.1-2.2.0" = _3G6StTbg;
         "pkg-1.18.2-2.2.0" = _XbAhyip2;
         "pkg-1.19.4-2.2.1" = _wVEO7pj5;
@@ -153,7 +240,19 @@ let
         "pkg-1.21.1-3.0.1" = _hfaXj3Nv;
         "pkg-1.21.1-4.0.0" = _K3PwBmqw;
         "pkg-1.21.1-4.0.1" = _RWECzFvH;
-        "default" = _RWECzFvH;
+        "pkg-1.21.1-4.0.2" = _XxCpz7ou;
+        "pkg-1.21.2-4.0.2" = _z1RPQDzX;
+        "pkg-1.21.9-4.0.2" = _lY113X7Q;
+        "pkg-1.21.11-4.0.2" = _oC9ZKaY6;
+        "pkg-26.1-4.0.2" = _KH3ue8E7;
+        "pkg-26.3-4.0.2" = _1YEnjN59;
+        "pkg-1.21.1-4.0.3" = _RF72VwEg;
+        "pkg-1.21.2-4.0.3" = _5XYP0hSS;
+        "pkg-1.21.9-4.0.3" = _Q83EfUhq;
+        "pkg-1.21.11-4.0.3" = _YrbhGrQE;
+        "pkg-26.1-4.0.3" = _jLjPWfnw;
+        "pkg-26.3-4.0.3" = _z3X5bL8m;
+        "default" = _z3X5bL8m;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "discord-integration-(di)";

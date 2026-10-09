@@ -111,6 +111,21 @@ let
             "file" = "mcaromanticexpansion-1.0.5-1.20.1.jar";
             "hash" = "sha512-/A1AAQBDzrOoJhFWzw6E3EROySJi5tn5hwqibB3bPsCfLvVgAgz8o5+JS9dwvXhGynquHahc9K4/QM2Yf9XmrA==";
         };
+        _YInS8j3x = {
+            "id" = "YInS8j3x";
+            "file" = "mcaromanticexpansion-1.0.6-1.20.1.jar";
+            "hash" = "sha512-PEqsrfGSKsyM9crouDwsAlUK2bXTCUrGFATSXfBDjvEh/eHn4jHPy4+MMMPljEbJF/oYGS0dzDH/F0VJLu+hrw==";
+        };
+        _2ulwFINH = {
+            "id" = "2ulwFINH";
+            "file" = "mcaromanticexpansion-1.0.2-primary-26.2.jar";
+            "hash" = "sha512-ekDjFquP9AYVyQKggiZ60yvNLBbeS/nT8huX1xOkZUGRrcJ5iCHZ9OB13CyQoOFDCRCbNyDieSCzItRagKNbAw==";
+        };
+        _HMP7lMBg = {
+            "id" = "HMP7lMBg";
+            "file" = "mcaromanticexpansion-1.1.5-1.21.1.jar";
+            "hash" = "sha512-gkDBnlwbZMvLxCoyMXP0Z0vrVDHrfxyYDF3Q+/JKo3/e54UbHx7HUz9XXJ7Mp7+pj+gnqgm6KtxeFChfQNTRiw==";
+        };
     in {
         "J7ZvyhbE" = _J7ZvyhbE;
         "EgeGH2Je" = _EgeGH2Je;
@@ -134,9 +149,12 @@ let
         "veOxNZpz" = _veOxNZpz;
         "Gx56D1ks" = _Gx56D1ks;
         "ftKyasTE" = _ftKyasTE;
-        "neoforge-1.21.1" = _Gx56D1ks;
-        "neoforge-26.2" = _veOxNZpz;
-        "forge-1.20.1" = _ftKyasTE;
+        "YInS8j3x" = _YInS8j3x;
+        "2ulwFINH" = _2ulwFINH;
+        "HMP7lMBg" = _HMP7lMBg;
+        "neoforge-1.21.1" = _HMP7lMBg;
+        "neoforge-26.2" = _2ulwFINH;
+        "forge-1.20.1" = _YInS8j3x;
         "pkg-1.0.0" = _J7ZvyhbE;
         "pkg-1.0.2" = _EgeGH2Je;
         "pkg-1.0.3" = _d4JlzTui;
@@ -159,7 +177,10 @@ let
         "pkg-1.0.1-primary-26.2" = _veOxNZpz;
         "pkg-1.1.4-1.21.1" = _Gx56D1ks;
         "pkg-1.0.5-1.20.1" = _ftKyasTE;
-        "default" = _ftKyasTE;
+        "pkg-1.0.6-1.20.1" = _YInS8j3x;
+        "pkg-1.0.2-primary-26.2" = _2ulwFINH;
+        "pkg-1.1.5-1.21.1" = _HMP7lMBg;
+        "default" = _HMP7lMBg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mca-romantic-expansion";

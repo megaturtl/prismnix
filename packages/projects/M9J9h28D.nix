@@ -96,6 +96,16 @@ let
             "file" = "AutoSow-2.7.0.jar";
             "hash" = "sha512-91aKVrNj8QkRCPrZBsAZDQn0zMwfi2n3VyjhZhjagMGKYSwRTC0tCs8YkcAlHNPnB94F034tHe/8m2XXM0BIzw==";
         };
+        _ZRKerGU6 = {
+            "id" = "ZRKerGU6";
+            "file" = "AutoSow-2.8.0.jar";
+            "hash" = "sha512-Shd37dyklOAjK+RqLxDYMijcyJhzx471v0nkRZMK/qVOaipZXYN1lAltY2IYPVqmrUXGXKRyWzGWU4ES0dvD3g==";
+        };
+        _DGeVDIDB = {
+            "id" = "DGeVDIDB";
+            "file" = "AutoSow-2.9.0.jar";
+            "hash" = "sha512-GYngrFvMegW5C4ybcyKoCqfaQQZvcVyv8wuMPpxtMR86VE4VsooWseNCljvBGy4UVub0KsKcRhlXM71LXkxFiQ==";
+        };
     in {
         "KQm9w7hq" = _KQm9w7hq;
         "tlY6EzTn" = _tlY6EzTn;
@@ -116,6 +126,8 @@ let
         "Vs95Fw5O" = _Vs95Fw5O;
         "FKUpFxen" = _FKUpFxen;
         "g9Ya0zXl" = _g9Ya0zXl;
+        "ZRKerGU6" = _ZRKerGU6;
+        "DGeVDIDB" = _DGeVDIDB;
         "forge-1.21" = _rzOUhWg7;
         "forge-1.21.1" = _rzOUhWg7;
         "forge-1.21.2" = _rzOUhWg7;
@@ -135,6 +147,7 @@ let
         "forge-26.1" = _Vs95Fw5O;
         "forge-26.1.1" = _Vs95Fw5O;
         "forge-26.1.2" = _Vs95Fw5O;
+        "forge-26.3" = _ZRKerGU6;
         "fabric-1.21" = _h4hMEPiu;
         "fabric-1.21.1" = _h4hMEPiu;
         "fabric-1.21.2" = _h4hMEPiu;
@@ -152,10 +165,12 @@ let
         "fabric-26.1" = _g9Ya0zXl;
         "fabric-26.1.1" = _g9Ya0zXl;
         "fabric-26.1.2" = _g9Ya0zXl;
+        "fabric-26.3" = _DGeVDIDB;
         "quilt-26.2" = _FKUpFxen;
         "quilt-26.1" = _g9Ya0zXl;
         "quilt-26.1.1" = _g9Ya0zXl;
         "quilt-26.1.2" = _g9Ya0zXl;
+        "quilt-26.3" = _DGeVDIDB;
         "pkg-1.0.0" = _KQm9w7hq;
         "pkg-1.1.0" = _tlY6EzTn;
         "pkg-1.2.0" = _h4hMEPiu;
@@ -174,7 +189,9 @@ let
         "pkg-2.5.0" = _Vs95Fw5O;
         "pkg-2.6.0" = _FKUpFxen;
         "pkg-2.7.0" = _g9Ya0zXl;
-        "default" = _g9Ya0zXl;
+        "pkg-2.8.0" = _ZRKerGU6;
+        "pkg-2.9.0" = _DGeVDIDB;
+        "default" = _DGeVDIDB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autosow";

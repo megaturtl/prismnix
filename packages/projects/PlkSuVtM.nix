@@ -736,6 +736,11 @@ let
             "file" = "HammerLib-1.21-21.0.16.jar";
             "hash" = "sha512-jVR4dWWChm1lrikRrPxICbfCgH/286WzVDN99n9T4HnZNKkVleAQjXDqrjryrVXjmN8NxzbfviWhEOdoEQPCkw==";
         };
+        _xUFPUf7h = {
+            "id" = "xUFPUf7h";
+            "file" = "HammerLib-1.21-21.0.17.jar";
+            "hash" = "sha512-1d5M7K5v4BW2Wwu1PXa+DzzmiT+2UqVOjpSa2PO2XkMazL1FLTVHNzoBsuYFDGcMbqKp9M7j6QIBSeOhHg96qg==";
+        };
     in {
         "Lq9syePn" = _Lq9syePn;
         "nuXjQg34" = _nuXjQg34;
@@ -884,6 +889,7 @@ let
         "B9uVCQjP" = _B9uVCQjP;
         "Y2lR0T5H" = _Y2lR0T5H;
         "hZhWvya1" = _hZhWvya1;
+        "xUFPUf7h" = _xUFPUf7h;
         "forge-1.12.2" = _B9uVCQjP;
         "forge-1.13.2" = _nuXjQg34;
         "forge-1.15.2" = _FP2R07jh;
@@ -904,8 +910,8 @@ let
         "neoforge-1.20.4" = _ddjAmN5H;
         "neoforge-1.20.5" = _DW5avg5k;
         "neoforge-1.20.6" = _SZpLghJc;
-        "neoforge-1.21" = _hZhWvya1;
-        "neoforge-1.21.1" = _hZhWvya1;
+        "neoforge-1.21" = _xUFPUf7h;
+        "neoforge-1.21.1" = _xUFPUf7h;
         "neoforge-1.21.4" = _jJyTCy9F;
         "pkg-2.0.6.32" = _Lq9syePn;
         "pkg-2.1.2.1" = _nuXjQg34;
@@ -1053,7 +1059,8 @@ let
         "pkg-12.2.66" = _B9uVCQjP;
         "pkg-21.0.15" = _Y2lR0T5H;
         "pkg-21.0.16" = _hZhWvya1;
-        "default" = _hZhWvya1;
+        "pkg-21.0.17" = _xUFPUf7h;
+        "default" = _xUFPUf7h;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "hammer-lib";

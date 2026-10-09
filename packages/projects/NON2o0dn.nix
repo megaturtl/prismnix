@@ -86,6 +86,21 @@ let
             "file" = "groxsvillagers-2.0-Neo-26.1.jar";
             "hash" = "sha512-7NZOKeG0VvaN/yHYu8BgYk+Gt1c+8KvFshIEd30pyl3tuGgk/wA3clW6Ad9L3Kd2fSJ2itqECuWoytxYItTDpA==";
         };
+        _HvKiAiTU = {
+            "id" = "HvKiAiTU";
+            "file" = "groxsvillagers-2.0-Neo-26.1.2.jar";
+            "hash" = "sha512-oWd07vvAQ27TJ4lCPf4EFXZawBkykl7n8bJLmjqEEixbT5wZgmX4KEIESaxB/lwriFZrjeODNr84NfPV/Aax5Q==";
+        };
+        _VEQPKs6T = {
+            "id" = "VEQPKs6T";
+            "file" = "groxsvillagers-2.0-Neo-26.2.jar";
+            "hash" = "sha512-brhG+QG6LZ6y0vJJ7EbzLPSFepzQzlnYkDT6YjGacgznC4BJZnBeX5sXjHF5mEjxaz56Ywdm7oBtiXt0hP7prw==";
+        };
+        _FgWOgTQL = {
+            "id" = "FgWOgTQL";
+            "file" = "groxsvillagers-2.0-Neo-26.3.jar";
+            "hash" = "sha512-lAHuVec2cAladP3BAXTtAYsxwVS7zVFUg5AK/7CbMenDtKUSiVWHy8BDWHPwy0bV1+gMtRUWvEtQ1BFKcUh07g==";
+        };
     in {
         "llO5RoR6" = _llO5RoR6;
         "u6FUMdmO" = _u6FUMdmO;
@@ -104,16 +119,22 @@ let
         "xtqE9Bvp" = _xtqE9Bvp;
         "LpAXJzQv" = _LpAXJzQv;
         "hj6LlPGZ" = _hj6LlPGZ;
+        "HvKiAiTU" = _HvKiAiTU;
+        "VEQPKs6T" = _VEQPKs6T;
+        "FgWOgTQL" = _FgWOgTQL;
         "forge-1.20.1" = _Of62JchM;
         "forge-1.12.2" = _L7D1861m;
         "neoforge-1.21.1" = _xtqE9Bvp;
         "neoforge-1.21.11" = _LpAXJzQv;
         "neoforge-26.1" = _hj6LlPGZ;
+        "neoforge-26.1.2" = _HvKiAiTU;
+        "neoforge-26.2" = _VEQPKs6T;
+        "neoforge-26.3" = _FgWOgTQL;
         "pkg-1.1" = _IWru1HtR;
         "pkg-1.1.1" = _wq5VN8fU;
         "pkg-1.2" = _IbbswH1I;
-        "pkg-2.0" = _hj6LlPGZ;
-        "default" = _hj6LlPGZ;
+        "pkg-2.0" = _FgWOgTQL;
+        "default" = _FgWOgTQL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "groxs-villagers";

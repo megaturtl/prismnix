@@ -246,6 +246,11 @@ let
             "file" = "BuildPaste_NeoForge-26.2v3.0.2.jar";
             "hash" = "sha512-B7cc0yw8s+gKVoXPnyaVa3FDgKtXKRpjilhuOYCncLfwn7KrjXZRua/T0vUwJEV7ealxQN0SDYU+/V9lqCzpCw==";
         };
+        _WZyXJwCW = {
+            "id" = "WZyXJwCW";
+            "file" = "BuildPaste_Fabric-26.3v3.0.3.jar";
+            "hash" = "sha512-/2jhQkhi7sR/pzYlxq0O0leZdNjJch35dZVBS7UsRlsLwxReXRS+Exk1ScKmeBZigKYflsjyQUtbtEYGN+X0zw==";
+        };
     in {
         "vIsKcY7V" = _vIsKcY7V;
         "xchO351p" = _xchO351p;
@@ -296,6 +301,7 @@ let
         "Uyz6u4Ik" = _Uyz6u4Ik;
         "XsnVihQ8" = _XsnVihQ8;
         "LqvH5V8x" = _LqvH5V8x;
+        "WZyXJwCW" = _WZyXJwCW;
         "forge-1.20.1" = _vIsKcY7V;
         "forge-1.19.4" = _6FD0bq63;
         "forge-1.17.1" = _7Lx2Bi0j;
@@ -329,6 +335,7 @@ let
         "fabric-1.21.11" = _7xEcmEGD;
         "fabric-26.1.2" = _Uyz6u4Ik;
         "fabric-26.2" = _XsnVihQ8;
+        "fabric-26.3" = _WZyXJwCW;
         "bukkit-1.18.2" = _AbmlgpgV;
         "bukkit-1.19.4" = _AbmlgpgV;
         "bukkit-1.20.2" = _AbmlgpgV;
@@ -483,7 +490,8 @@ let
         "pkg-2.2.1" = _7VusGJsH;
         "pkg-3.0.1" = _Uyz6u4Ik;
         "pkg-3.0.2" = _LqvH5V8x;
-        "default" = _LqvH5V8x;
+        "pkg-3.0.3" = _WZyXJwCW;
+        "default" = _WZyXJwCW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "buildpaste";

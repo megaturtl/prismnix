@@ -36,6 +36,11 @@ let
             "file" = "§b! afterlife.zip";
             "hash" = "sha512-zs/az511UhB6O748PMe55YueYoj3RZzHWl0DiQtMoB76CM++X6xE9w+Ez54fd9IOFbTClCY0p0m5a1p2bZS0lA==";
         };
+        _pEFQ09s1 = {
+            "id" = "pEFQ09s1";
+            "file" = "Afterlife.zip";
+            "hash" = "sha512-RyFXwsnXNj7E5yAxjz6HRpq7wULKF3tB4SLQHGnJplPOfEKy/w0ixjRvTuxhjOy2DyEyq8/c2q57D8fps4qKgA==";
+        };
     in {
         "Gbh0D1Wo" = _Gbh0D1Wo;
         "bRYGgQQg" = _bRYGgQQg;
@@ -44,6 +49,7 @@ let
         "dSYO5oqH" = _dSYO5oqH;
         "Sqaajgmr" = _Sqaajgmr;
         "ZTA4w5Eh" = _ZTA4w5Eh;
+        "pEFQ09s1" = _pEFQ09s1;
         "minecraft-1.21.4" = _Sqaajgmr;
         "minecraft-1.21.5" = _Sqaajgmr;
         "minecraft-1.21" = _Sqaajgmr;
@@ -51,13 +57,15 @@ let
         "minecraft-1.21.2" = _Sqaajgmr;
         "minecraft-1.21.3" = _Sqaajgmr;
         "minecraft-1.21.8" = _ZTA4w5Eh;
+        "minecraft-26.2" = _pEFQ09s1;
         "pkg-1.0" = _Gbh0D1Wo;
         "pkg-1" = _bRYGgQQg;
         "pkg-1.1" = _94IHyiFL;
         "pkg-1.2" = _RRuc1aIN;
         "pkg-1.4" = _Sqaajgmr;
         "pkg-1.5" = _ZTA4w5Eh;
-        "default" = _ZTA4w5Eh;
+        "pkg-1.6" = _pEFQ09s1;
+        "default" = _pEFQ09s1;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "heaven";

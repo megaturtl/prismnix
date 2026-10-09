@@ -221,6 +221,26 @@ let
             "file" = "mob-spawner-recipe-1.0.jar";
             "hash" = "sha512-zHBly71IP+KBRGEIw+mYr6mag7LCkuzOF4Zt6QXGrXRl40qHf8oHKtviiVO1nbOrD6zXnSrGCDgXGCTcntCC0Q==";
         };
+        _1kMo4puy = {
+            "id" = "1kMo4puy";
+            "file" = "monster-spawner-26.3.zip";
+            "hash" = "sha512-eOIgvIgCCvySom394qKGf32QQdc5d+6XTdG0wZB9avgsUcE+e386W4s7Nizt6KOxs1g2SYWFvicz+9H48gpFtQ==";
+        };
+        _ViSdqUQL = {
+            "id" = "ViSdqUQL";
+            "file" = "mob-spawner-recipe-1.0.jar";
+            "hash" = "sha512-OHvCZXbGoxTKam29GnBEgzJXbz1hnpv76lEkAmlgwMpKCl4Xo5vtbzZ/8JzCPFvwwt5mmTYHKUGynaWOwuD8Ww==";
+        };
+        _18JiOpQm = {
+            "id" = "18JiOpQm";
+            "file" = "mob_spawner-1.19-datapack.zip";
+            "hash" = "sha512-tUTzMtZWVk4SjFoyHu5rh8eyLQ47U+LMSu+JnPrdmL0FPLJxduIBLLbFc5s19BFpd+UIpVXa9oyhRPQo0YkhvA==";
+        };
+        _76kjJERC = {
+            "id" = "76kjJERC";
+            "file" = "mob-spawner-recipe-1.0.jar";
+            "hash" = "sha512-W5SuZKKR9OmOp5wg8oyj7vHHcPnw1pfBl+yJwd6AqXCjaUXVeDpkHMjyHM9sPiRybDOCqjKdjS3WYL/VczH6Mw==";
+        };
     in {
         "6LtYWHQn" = _6LtYWHQn;
         "JgwbIgX8" = _JgwbIgX8;
@@ -266,6 +286,10 @@ let
         "DH4D3C6S" = _DH4D3C6S;
         "Wxz2CF0m" = _Wxz2CF0m;
         "fds0OmR7" = _fds0OmR7;
+        "1kMo4puy" = _1kMo4puy;
+        "ViSdqUQL" = _ViSdqUQL;
+        "18JiOpQm" = _18JiOpQm;
+        "76kjJERC" = _76kjJERC;
         "datapack-1.16" = _6LtYWHQn;
         "datapack-1.16.1" = _6LtYWHQn;
         "datapack-1.16.2" = _6LtYWHQn;
@@ -276,12 +300,12 @@ let
         "datapack-1.17.1" = _zwJhTNVP;
         "datapack-1.18" = _5BH3WhKJ;
         "datapack-1.18.1" = _5BH3WhKJ;
-        "datapack-1.18.2" = _ksgiARZu;
-        "datapack-1.19" = _ksgiARZu;
-        "datapack-1.19.1" = _ksgiARZu;
-        "datapack-1.19.2" = _ksgiARZu;
-        "datapack-1.19.3" = _ksgiARZu;
-        "datapack-1.19.4" = _SQS80IMQ;
+        "datapack-1.18.2" = _18JiOpQm;
+        "datapack-1.19" = _18JiOpQm;
+        "datapack-1.19.1" = _18JiOpQm;
+        "datapack-1.19.2" = _18JiOpQm;
+        "datapack-1.19.3" = _18JiOpQm;
+        "datapack-1.19.4" = _18JiOpQm;
         "datapack-1.20" = _SQS80IMQ;
         "datapack-1.20.1" = _SQS80IMQ;
         "datapack-1.20.2" = _SQS80IMQ;
@@ -324,6 +348,7 @@ let
         "datapack-26.2-snapshot-2" = _9Uac93cq;
         "datapack-26.2" = _Wxz2CF0m;
         "datapack-26.3-snapshot-1" = _Wxz2CF0m;
+        "datapack-26.3" = _1kMo4puy;
         "fabric-1.16" = _JgwbIgX8;
         "fabric-1.16.1" = _JgwbIgX8;
         "fabric-1.16.2" = _JgwbIgX8;
@@ -334,12 +359,12 @@ let
         "fabric-1.17.1" = _dVwdk4lW;
         "fabric-1.18" = _9aCoaLG0;
         "fabric-1.18.1" = _9aCoaLG0;
-        "fabric-1.18.2" = _d9ABC388;
-        "fabric-1.19" = _d9ABC388;
-        "fabric-1.19.1" = _d9ABC388;
-        "fabric-1.19.2" = _d9ABC388;
-        "fabric-1.19.3" = _d9ABC388;
-        "fabric-1.19.4" = _DH4D3C6S;
+        "fabric-1.18.2" = _76kjJERC;
+        "fabric-1.19" = _76kjJERC;
+        "fabric-1.19.1" = _76kjJERC;
+        "fabric-1.19.2" = _76kjJERC;
+        "fabric-1.19.3" = _76kjJERC;
+        "fabric-1.19.4" = _76kjJERC;
         "fabric-1.20" = _DH4D3C6S;
         "fabric-1.20.1" = _DH4D3C6S;
         "fabric-1.20.2" = _DH4D3C6S;
@@ -382,6 +407,7 @@ let
         "fabric-26.2-snapshot-2" = _c2ZkZVa4;
         "fabric-26.2" = _fds0OmR7;
         "fabric-26.3-snapshot-1" = _fds0OmR7;
+        "fabric-26.3" = _ViSdqUQL;
         "forge-1.16" = _JgwbIgX8;
         "forge-1.16.1" = _JgwbIgX8;
         "forge-1.16.2" = _JgwbIgX8;
@@ -392,12 +418,12 @@ let
         "forge-1.17.1" = _dVwdk4lW;
         "forge-1.18" = _9aCoaLG0;
         "forge-1.18.1" = _9aCoaLG0;
-        "forge-1.18.2" = _d9ABC388;
-        "forge-1.19" = _d9ABC388;
-        "forge-1.19.1" = _d9ABC388;
-        "forge-1.19.2" = _d9ABC388;
-        "forge-1.19.3" = _d9ABC388;
-        "forge-1.19.4" = _DH4D3C6S;
+        "forge-1.18.2" = _76kjJERC;
+        "forge-1.19" = _76kjJERC;
+        "forge-1.19.1" = _76kjJERC;
+        "forge-1.19.2" = _76kjJERC;
+        "forge-1.19.3" = _76kjJERC;
+        "forge-1.19.4" = _76kjJERC;
         "forge-1.20" = _DH4D3C6S;
         "forge-1.20.1" = _DH4D3C6S;
         "forge-1.20.2" = _DH4D3C6S;
@@ -440,6 +466,7 @@ let
         "forge-26.2-snapshot-2" = _c2ZkZVa4;
         "forge-26.2" = _fds0OmR7;
         "forge-26.3-snapshot-1" = _fds0OmR7;
+        "forge-26.3" = _ViSdqUQL;
         "neoforge-1.16" = _JgwbIgX8;
         "neoforge-1.16.1" = _JgwbIgX8;
         "neoforge-1.16.2" = _JgwbIgX8;
@@ -450,12 +477,12 @@ let
         "neoforge-1.17.1" = _dVwdk4lW;
         "neoforge-1.18" = _9aCoaLG0;
         "neoforge-1.18.1" = _9aCoaLG0;
-        "neoforge-1.18.2" = _d9ABC388;
-        "neoforge-1.19" = _d9ABC388;
-        "neoforge-1.19.1" = _d9ABC388;
-        "neoforge-1.19.2" = _d9ABC388;
-        "neoforge-1.19.3" = _d9ABC388;
-        "neoforge-1.19.4" = _DH4D3C6S;
+        "neoforge-1.18.2" = _76kjJERC;
+        "neoforge-1.19" = _76kjJERC;
+        "neoforge-1.19.1" = _76kjJERC;
+        "neoforge-1.19.2" = _76kjJERC;
+        "neoforge-1.19.3" = _76kjJERC;
+        "neoforge-1.19.4" = _76kjJERC;
         "neoforge-1.20" = _DH4D3C6S;
         "neoforge-1.20.1" = _DH4D3C6S;
         "neoforge-1.20.2" = _DH4D3C6S;
@@ -498,6 +525,7 @@ let
         "neoforge-26.2-snapshot-2" = _c2ZkZVa4;
         "neoforge-26.2" = _fds0OmR7;
         "neoforge-26.3-snapshot-1" = _fds0OmR7;
+        "neoforge-26.3" = _ViSdqUQL;
         "quilt-1.16" = _JgwbIgX8;
         "quilt-1.16.1" = _JgwbIgX8;
         "quilt-1.16.2" = _JgwbIgX8;
@@ -508,12 +536,12 @@ let
         "quilt-1.17.1" = _dVwdk4lW;
         "quilt-1.18" = _9aCoaLG0;
         "quilt-1.18.1" = _9aCoaLG0;
-        "quilt-1.18.2" = _d9ABC388;
-        "quilt-1.19" = _d9ABC388;
-        "quilt-1.19.1" = _d9ABC388;
-        "quilt-1.19.2" = _d9ABC388;
-        "quilt-1.19.3" = _d9ABC388;
-        "quilt-1.19.4" = _DH4D3C6S;
+        "quilt-1.18.2" = _76kjJERC;
+        "quilt-1.19" = _76kjJERC;
+        "quilt-1.19.1" = _76kjJERC;
+        "quilt-1.19.2" = _76kjJERC;
+        "quilt-1.19.3" = _76kjJERC;
+        "quilt-1.19.4" = _76kjJERC;
         "quilt-1.20" = _DH4D3C6S;
         "quilt-1.20.1" = _DH4D3C6S;
         "quilt-1.20.2" = _DH4D3C6S;
@@ -556,9 +584,10 @@ let
         "quilt-26.2-snapshot-2" = _c2ZkZVa4;
         "quilt-26.2" = _fds0OmR7;
         "quilt-26.3-snapshot-1" = _fds0OmR7;
-        "pkg-1.0" = _Wxz2CF0m;
-        "pkg-1.0+mod" = _fds0OmR7;
-        "default" = _fds0OmR7;
+        "quilt-26.3" = _ViSdqUQL;
+        "pkg-1.0" = _18JiOpQm;
+        "pkg-1.0+mod" = _76kjJERC;
+        "default" = _76kjJERC;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mob-spawner-recipe";

@@ -2301,6 +2301,16 @@ let
             "file" = "minecraft-comes-alive-7.7.1-beta.1+1.20.1-universal.jar";
             "hash" = "sha512-GdTUCCyaKD91p1AMZQrF4tD4nKvHgyEev9LU48s1xS6KR9REaAsgCXNef4hyEC5DilsBd8Po7i8J8x2DY3IfUQ==";
         };
+        _fpXEgUje = {
+            "id" = "fpXEgUje";
+            "file" = "minecraft-comes-alive-7.7.1-beta.2+1.20.1-universal.jar";
+            "hash" = "sha512-rGx895jtaRKGtnJsZhmhZF9zzVrfkblV2Orp81yl8rnm3n/Ry1eZCnI8zguUQPNoTDj7liu/XYRsNRKCE/ipoA==";
+        };
+        _ip2SUUyf = {
+            "id" = "ip2SUUyf";
+            "file" = "minecraft-comes-alive-7.7.1-beta.3+1.20.1-universal.jar";
+            "hash" = "sha512-rxA3Zm9aPLArzSVCgtvWXHcLFxKBZNa7ECC8dKuwyVn8436Myf2UveIKYQDYS6ZWE50AUHk7OlAKQkc2I/f4kA==";
+        };
     in {
         "aqcbztJd" = _aqcbztJd;
         "prtCjUrW" = _prtCjUrW;
@@ -2762,6 +2772,8 @@ let
         "4Wyg5fOK" = _4Wyg5fOK;
         "WiUxDK3I" = _WiUxDK3I;
         "UyldvnJv" = _UyldvnJv;
+        "fpXEgUje" = _fpXEgUje;
+        "ip2SUUyf" = _ip2SUUyf;
         "fabric-1.16.5" = _tOWiRgB0;
         "fabric-1.18" = _RcMlGr8y;
         "fabric-1.18.1" = _DBpmXguI;
@@ -2773,7 +2785,7 @@ let
         "fabric-1.19.3" = _tkR6qR1X;
         "fabric-1.19.4" = _Q4AfoVjD;
         "fabric-1.20" = _upXuBQat;
-        "fabric-1.20.1" = _UyldvnJv;
+        "fabric-1.20.1" = _ip2SUUyf;
         "fabric-1.20.2" = _hdsVDaKM;
         "fabric-1.20.4" = _54EsniQz;
         "fabric-1.21.1" = _eUYBilCG;
@@ -2790,7 +2802,7 @@ let
         "forge-1.19.3" = _tkR6qR1X;
         "forge-1.19.4" = _Q4AfoVjD;
         "forge-1.20" = _upXuBQat;
-        "forge-1.20.1" = _UyldvnJv;
+        "forge-1.20.1" = _ip2SUUyf;
         "forge-1.20.2" = _hdsVDaKM;
         "quilt-1.18.2" = _K7Eeh4xE;
         "quilt-1.19" = _BwUZyjSv;
@@ -3162,7 +3174,9 @@ let
         "pkg-8.1.11+26.1.2" = _c8r806tu;
         "pkg-8.1.11+26.2" = _WiUxDK3I;
         "pkg-7.7.1-beta.1+1.20.1" = _UyldvnJv;
-        "default" = _UyldvnJv;
+        "pkg-7.7.1-beta.2+1.20.1" = _fpXEgUje;
+        "pkg-7.7.1-beta.3+1.20.1" = _ip2SUUyf;
+        "default" = _ip2SUUyf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "minecraft-comes-alive-reborn";

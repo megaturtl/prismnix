@@ -16,10 +16,16 @@ let
             "file" = "Trump Totem 26.2+.zip";
             "hash" = "sha512-qJybA50ghsNB+v1aGLxfL8mvrUo+t7p1msuuiHK8/1+ZCWdxzbxxdghhfNrTxtGrA0zUzqOhAthFjvplKH+SKg==";
         };
+        _LVsVRIBa = {
+            "id" = "LVsVRIBa";
+            "file" = "Trump Totem 26.3+.zip";
+            "hash" = "sha512-Vx4JmEDDovoHKAJF3wmWBSju5w6METRvzFCaz0vWMGC69DwVBA53nBJbf+NAZ5tvUkesLs8lTS8rmFETbs275Q==";
+        };
     in {
         "J5BoQxRs" = _J5BoQxRs;
         "sAIYrF30" = _sAIYrF30;
         "GPB4cSbm" = _GPB4cSbm;
+        "LVsVRIBa" = _LVsVRIBa;
         "minecraft-1.21" = _J5BoQxRs;
         "minecraft-1.21.1" = _J5BoQxRs;
         "minecraft-1.21.2" = _J5BoQxRs;
@@ -36,10 +42,12 @@ let
         "minecraft-26.1.1" = _sAIYrF30;
         "minecraft-26.1.2" = _sAIYrF30;
         "minecraft-26.2" = _GPB4cSbm;
+        "minecraft-26.3" = _LVsVRIBa;
         "pkg-1.0" = _J5BoQxRs;
         "pkg-1.1" = _sAIYrF30;
         "pkg-1.2" = _GPB4cSbm;
-        "default" = _GPB4cSbm;
+        "pkg-1.3" = _LVsVRIBa;
+        "default" = _LVsVRIBa;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trump-totem";

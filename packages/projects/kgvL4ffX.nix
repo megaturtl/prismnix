@@ -51,6 +51,16 @@ let
             "file" = "health-enchantment-v1.0.1.jar";
             "hash" = "sha512-tXq+8syvI65b3E1NtWp/Ule0ugV9XvFxK+EUHNuJEM2o5cqtowYvb4dbqVKa+BmiH0OkvP0UDTl/oPCNoWeQsQ==";
         };
+        _79f68MS8 = {
+            "id" = "79f68MS8";
+            "file" = "Health Enchantment v1.0.1 [26.3].zip";
+            "hash" = "sha512-yVWtPc0pncT8/Ppnkn/a95z7Ge5AsqG2eCd95bq0mKo824ocU/OKDeda6gHTkvdLD6J7g7c1Uvc+pL08f5MgJA==";
+        };
+        _q58D6LaH = {
+            "id" = "q58D6LaH";
+            "file" = "health-enchantment-1.0.1.jar";
+            "hash" = "sha512-bleohV+44MUvcEAl/sf3yOrPU6JUWyZIsnM899LbWuJfxS3PR+jRDvxKQnz0g/1bx8b8OEotc5fe4cu90jImsg==";
+        };
     in {
         "4uUAHF3L" = _4uUAHF3L;
         "RezrzAo9" = _RezrzAo9;
@@ -62,6 +72,8 @@ let
         "5cpBP1jX" = _5cpBP1jX;
         "xmKipR8c" = _xmKipR8c;
         "WT6FwoIW" = _WT6FwoIW;
+        "79f68MS8" = _79f68MS8;
+        "q58D6LaH" = _q58D6LaH;
         "datapack-1.21.2" = _xmKipR8c;
         "datapack-1.21.3" = _xmKipR8c;
         "datapack-1.21.4" = _xmKipR8c;
@@ -78,6 +90,7 @@ let
         "datapack-26.1.1" = _xmKipR8c;
         "datapack-26.1.2" = _xmKipR8c;
         "datapack-26.2" = _xmKipR8c;
+        "datapack-26.3" = _79f68MS8;
         "fabric-1.21.2" = _WT6FwoIW;
         "fabric-1.21.3" = _WT6FwoIW;
         "fabric-1.21.4" = _WT6FwoIW;
@@ -94,6 +107,7 @@ let
         "fabric-26.1.1" = _WT6FwoIW;
         "fabric-26.1.2" = _WT6FwoIW;
         "fabric-26.2" = _WT6FwoIW;
+        "fabric-26.3" = _q58D6LaH;
         "forge-1.21.2" = _WT6FwoIW;
         "forge-1.21.3" = _WT6FwoIW;
         "forge-1.21.4" = _WT6FwoIW;
@@ -110,6 +124,7 @@ let
         "forge-26.1.1" = _WT6FwoIW;
         "forge-26.1.2" = _WT6FwoIW;
         "forge-26.2" = _WT6FwoIW;
+        "forge-26.3" = _q58D6LaH;
         "neoforge-1.21.2" = _WT6FwoIW;
         "neoforge-1.21.3" = _WT6FwoIW;
         "neoforge-1.21.4" = _WT6FwoIW;
@@ -126,6 +141,7 @@ let
         "neoforge-26.1.1" = _WT6FwoIW;
         "neoforge-26.1.2" = _WT6FwoIW;
         "neoforge-26.2" = _WT6FwoIW;
+        "neoforge-26.3" = _q58D6LaH;
         "quilt-1.21.2" = _WT6FwoIW;
         "quilt-1.21.3" = _WT6FwoIW;
         "quilt-1.21.4" = _WT6FwoIW;
@@ -142,13 +158,16 @@ let
         "quilt-26.1.1" = _WT6FwoIW;
         "quilt-26.1.2" = _WT6FwoIW;
         "quilt-26.2" = _WT6FwoIW;
+        "quilt-26.3" = _q58D6LaH;
         "pkg-v1.0.0" = _4uUAHF3L;
         "pkg-v1.0.0+mod" = _RezrzAo9;
         "pkg-v1.0.0-1.21-1.21.1" = _bQqaqldv;
         "pkg-v1.0.0-1.21-1.21.1+mod" = _h0rdw2Zk;
         "pkg-v1.0.1" = _xmKipR8c;
         "pkg-v1.0.1+mod" = _WT6FwoIW;
-        "default" = _WT6FwoIW;
+        "pkg-1.0.1" = _79f68MS8;
+        "pkg-1.0.1+mod" = _q58D6LaH;
+        "default" = _q58D6LaH;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "health-enchantment";

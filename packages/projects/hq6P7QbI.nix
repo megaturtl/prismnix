@@ -36,6 +36,16 @@ let
             "file" = "g-elytra-trims.jar";
             "hash" = "sha512-rH5z6TQiGHh7KHo6Hob87s2hu1ovobCsovTxXEy9EjtwVQLqqUXvfZi6BkfFthu1tzlraGvf0se5nOAYo+T1PQ==";
         };
+        _Jb2R9BTO = {
+            "id" = "Jb2R9BTO";
+            "file" = "goats_elytra_trims.zip";
+            "hash" = "sha512-ET5YisSPuDEOK61YDNRVnHwn77CpnwaVNCEKXLDZsb3w6xIc2p6ABcJjfJp090tpTGnLgPElkdbpqez9sbTTYA==";
+        };
+        _RtCnAhyF = {
+            "id" = "RtCnAhyF";
+            "file" = "goats_elytra_trims.jar";
+            "hash" = "sha512-Ig0PWqTKI2DkW556+e0X+NmPy26IdCkIbO2Pg8wx5iLA+jYfBXCbkyIDX41+uTdzejV4krjqq3gGQZ5RUwbKPQ==";
+        };
     in {
         "8osQQio4" = _8osQQio4;
         "CO3kT6Vq" = _CO3kT6Vq;
@@ -44,6 +54,8 @@ let
         "MqmbhnPW" = _MqmbhnPW;
         "cxyvOS5l" = _cxyvOS5l;
         "6S6Guao2" = _6S6Guao2;
+        "Jb2R9BTO" = _Jb2R9BTO;
+        "RtCnAhyF" = _RtCnAhyF;
         "datapack-1.21.4" = _cxyvOS5l;
         "datapack-1.21.5" = _cxyvOS5l;
         "datapack-1.21.6" = _cxyvOS5l;
@@ -58,6 +70,7 @@ let
         "datapack-26.1.1" = _cxyvOS5l;
         "datapack-26.1.2" = _cxyvOS5l;
         "datapack-26.2" = _cxyvOS5l;
+        "datapack-26.3" = _Jb2R9BTO;
         "fabric-1.21.11" = _6S6Guao2;
         "fabric-1.21.4" = _6S6Guao2;
         "fabric-1.21.5" = _6S6Guao2;
@@ -70,6 +83,7 @@ let
         "fabric-26.1.1" = _6S6Guao2;
         "fabric-26.1.2" = _6S6Guao2;
         "fabric-26.2" = _6S6Guao2;
+        "fabric-26.3" = _RtCnAhyF;
         "forge-1.21.11" = _6S6Guao2;
         "forge-1.21.4" = _6S6Guao2;
         "forge-1.21.5" = _6S6Guao2;
@@ -86,7 +100,8 @@ let
         "pkg-1.1.0" = _6cnTh2p6;
         "pkg-1.1.1" = _MqmbhnPW;
         "pkg-2.0.0" = _6S6Guao2;
-        "default" = _6S6Guao2;
+        "pkg-2.0.1" = _RtCnAhyF;
+        "default" = _RtCnAhyF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "goats-elytra-trims";

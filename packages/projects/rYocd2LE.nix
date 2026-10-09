@@ -241,6 +241,46 @@ let
             "file" = "dungeons-and-taverns-stronghold-overhaul-v2.4.0.jar";
             "hash" = "sha512-4H7Eqs6JFMtclC2AgcGuuNJriZqNe3XtKO8qaZvpXLFv0JXw+5qp8WUDj6maMn1PDcAw8NKaeqs3YnBk3qEW3g==";
         };
+        _OfKKXKvG = {
+            "id" = "OfKKXKvG";
+            "file" = "DnT Stronghold Overhaul v3.zip";
+            "hash" = "sha512-gBWKm07cLrnZGBVVyZ19wupo+3iUKsy+sEXCOcro2RAL4Hmxy5zUen7gLL0k1JRKVe4HZbRATxg38RM3EZ+KeQ==";
+        };
+        _VkRFkpVi = {
+            "id" = "VkRFkpVi";
+            "file" = "dungeons-and-taverns-stronghold-overhaul-3.jar";
+            "hash" = "sha512-X5W3iVKqAJJOyizdkpMVIxncgGYydtb6h/8ZT/SEjilNEYNMEU8hJjorgk4gGh9xwVEnzNQSrgHkuCcQ8o/jsQ==";
+        };
+        _cXjaaq1e = {
+            "id" = "cXjaaq1e";
+            "file" = "dungeons-and-taverns-stronghold-overhaul-3.jar";
+            "hash" = "sha512-1iC80ZJTebhFUTfy5bquwOS+cmFKrDSaChCKYf2ZHEFgTYZX1O0ppz4KK+J0sZL4CUySlksOp0MvBB+PYwJsYA==";
+        };
+        _epvXJ75s = {
+            "id" = "epvXJ75s";
+            "file" = "dungeons-and-taverns-stronghold-overhaul-3.jar";
+            "hash" = "sha512-2B3HgBAxYkYC79miv19TvBrZNQXHqgdFQKnoHSrU5yL8lu0NwfYjxCwn6aWNaoPqci8VlS2VZYBA6CR3X0lNyQ==";
+        };
+        _EMq9fV3X = {
+            "id" = "EMq9fV3X";
+            "file" = "DnT Stronghold Overhaul 3.0.1.zip";
+            "hash" = "sha512-CICoGgu4HLBDMdixRKO16/g517Bw3b2BwRSYn1bQ+zKn9Um0lrLFSPRRSluFLe/rowG69PNNtU76uIy+e/7wnQ==";
+        };
+        _hNKbQ85c = {
+            "id" = "hNKbQ85c";
+            "file" = "dungeons-and-taverns-stronghold-overhaul-3.0.1.jar";
+            "hash" = "sha512-9K/j/Iohoe66RYgTYD6z/VF4N1lpnY1qJyg4nJpmvc1drAKiuq5ZpxQvBx8hBGzycRu30qpPaigXnQzwKAIjfQ==";
+        };
+        _3FcIXvlK = {
+            "id" = "3FcIXvlK";
+            "file" = "dungeons-and-taverns-stronghold-overhaul-3.0.1.jar";
+            "hash" = "sha512-OWSsGDmHJTLW2M1IYQQC+YKkmrGF1KUgjHV1cJ7P6h370P4iyVqlFU9OHLAwaYQ2cqOyHwWKMGlnZatw4S93QQ==";
+        };
+        _WHOM04Na = {
+            "id" = "WHOM04Na";
+            "file" = "dungeons-and-taverns-stronghold-overhaul-3.0.1.jar";
+            "hash" = "sha512-Bq4S9+OZKDXpV1eBSe6EqLFPUFynfdaU+y8YhMeHPq4nMRLUgKRxjeRjWRyAC2csShKTekVdkc3DGBuGKAEeRw==";
+        };
     in {
         "joE0OpmS" = _joE0OpmS;
         "XcN77mjg" = _XcN77mjg;
@@ -290,6 +330,14 @@ let
         "PhiBm7he" = _PhiBm7he;
         "1Ykp8VRG" = _1Ykp8VRG;
         "2WUuvWMB" = _2WUuvWMB;
+        "OfKKXKvG" = _OfKKXKvG;
+        "VkRFkpVi" = _VkRFkpVi;
+        "cXjaaq1e" = _cXjaaq1e;
+        "epvXJ75s" = _epvXJ75s;
+        "EMq9fV3X" = _EMq9fV3X;
+        "hNKbQ85c" = _hNKbQ85c;
+        "3FcIXvlK" = _3FcIXvlK;
+        "WHOM04Na" = _WHOM04Na;
         "datapack-1.20" = _FvrTLmTF;
         "datapack-1.20.1" = _FvrTLmTF;
         "datapack-1.20.2" = _FvrTLmTF;
@@ -314,6 +362,7 @@ let
         "datapack-26.1.1" = _L1ylllq1;
         "datapack-26.1.2" = _L1ylllq1;
         "datapack-26.2" = _L1ylllq1;
+        "datapack-26.3" = _EMq9fV3X;
         "forge-1.20" = _XcN77mjg;
         "forge-1.20.1" = _XcN77mjg;
         "forge-1.20.2" = _XcN77mjg;
@@ -337,6 +386,7 @@ let
         "forge-26.1.1" = _2WUuvWMB;
         "forge-26.1.2" = _2WUuvWMB;
         "forge-26.2" = _2WUuvWMB;
+        "forge-26.3" = _3FcIXvlK;
         "fabric-1.20" = _BBsnGqrp;
         "fabric-1.20.1" = _BBsnGqrp;
         "fabric-1.20.2" = _BBsnGqrp;
@@ -360,6 +410,7 @@ let
         "fabric-26.1.1" = _PhiBm7he;
         "fabric-26.1.2" = _PhiBm7he;
         "fabric-26.2" = _PhiBm7he;
+        "fabric-26.3" = _hNKbQ85c;
         "neoforge-1.21" = _6PYBSejs;
         "neoforge-1.21.2" = _xKjqcQKi;
         "neoforge-1.21.3" = _xKjqcQKi;
@@ -376,6 +427,7 @@ let
         "neoforge-26.1.1" = _1Ykp8VRG;
         "neoforge-26.1.2" = _1Ykp8VRG;
         "neoforge-26.2" = _1Ykp8VRG;
+        "neoforge-26.3" = _WHOM04Na;
         "pkg-1" = _joE0OpmS;
         "pkg-1+mod" = _BBsnGqrp;
         "pkg-v1.1" = _FvrTLmTF;
@@ -403,7 +455,11 @@ let
         "pkg-v2.3.2+mod" = _XNDYl4OX;
         "pkg-v2.4.0" = _L1ylllq1;
         "pkg-v2.4.0+mod" = _2WUuvWMB;
-        "default" = _2WUuvWMB;
+        "pkg-3" = _OfKKXKvG;
+        "pkg-3+mod" = _epvXJ75s;
+        "pkg-3.0.1" = _EMq9fV3X;
+        "pkg-3.0.1+mod" = _WHOM04Na;
+        "default" = _WHOM04Na;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dungeons-and-taverns-stronghold-overhaul";

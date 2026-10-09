@@ -386,6 +386,11 @@ let
             "file" = "Glowing Trim Elytra[MG-5.0][26.2].zip";
             "hash" = "sha512-lP3mhrSPAzyxR7ma7/UUzDU+fhyrlSv7UcIRar2gvlsbHb30Osx/hPZHynI5czWX4UOVd+q9TqDwYL7dIanevA==";
         };
+        _TH59pchJ = {
+            "id" = "TH59pchJ";
+            "file" = "Glowing Trim Elytra[MG-5.0][26.3].zip";
+            "hash" = "sha512-476KpIYdbmX7h3jKayPl9gcJuQYK5yqdZDWgR9/qASRLfWjvqATxeVK80uo4jhQPKZgreMrR2malGPIEQh08Hg==";
+        };
     in {
         "4btYUtQl" = _4btYUtQl;
         "oDWAdRDQ" = _oDWAdRDQ;
@@ -464,6 +469,7 @@ let
         "bcOBRcai" = _bcOBRcai;
         "vi232ZZs" = _vi232ZZs;
         "4Qai7TV9" = _4Qai7TV9;
+        "TH59pchJ" = _TH59pchJ;
         "minecraft-1.16.2" = _Z3FxWbHf;
         "minecraft-1.16.3" = _Z3FxWbHf;
         "minecraft-1.16.4" = _Z3FxWbHf;
@@ -507,6 +513,8 @@ let
         "minecraft-26.1.1" = _vi232ZZs;
         "minecraft-26.1.2" = _vi232ZZs;
         "minecraft-26.2" = _4Qai7TV9;
+        "minecraft-26.3" = _TH59pchJ;
+        "minecraft-26.4-snapshot-1" = _TH59pchJ;
         "pkg-1.16-1.16.5" = _R1jrRDPU;
         "pkg-1.17-1.17.1" = _ohsMSD7e;
         "pkg-1.18-1.18.2" = _19JxSadN;
@@ -524,8 +532,8 @@ let
         "pkg-3.1" = _r99mAbbO;
         "pkg-3.2" = _MnvOJdA6;
         "pkg-MG-4.0" = _iR37qE47;
-        "pkg-MG-5.0" = _4Qai7TV9;
-        "default" = _4Qai7TV9;
+        "pkg-MG-5.0" = _TH59pchJ;
+        "default" = _TH59pchJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glowing-trim-elytra";

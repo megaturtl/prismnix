@@ -76,6 +76,16 @@ let
             "file" = "MysticalAutomation-1.21.1-1.0.7.jar";
             "hash" = "sha512-iAcE1RFk1km4ZW0AzOLy2PAeqpra0AXngQu5624qm2JSVJFJxntxCEDq1rjBFg0VgPQxqiQHrPOWKiQfzgTqjg==";
         };
+        _HdlBF75n = {
+            "id" = "HdlBF75n";
+            "file" = "MysticalAutomation-1.21.1-1.0.8.jar";
+            "hash" = "sha512-XwDJjjmbO5n9X7HbTom07kjWHU7uuc/jrbI+WPUeYDrVjohLbd6cf/LIuuyCw6ZorVBVOoxCF5j7bhrRDnhBiQ==";
+        };
+        _XnkeLVwD = {
+            "id" = "XnkeLVwD";
+            "file" = "MysticalAutomation-26.1.2-2.0.7.jar";
+            "hash" = "sha512-9gGnuM2MTf1wV9XncaIiLzg5h6tCp6391xnhxLyhQmKFLYE5benuk36QNbcophGSrnYlKM711seykG5hi0Kbsw==";
+        };
     in {
         "HpBQL7j4" = _HpBQL7j4;
         "HtGoeFhf" = _HtGoeFhf;
@@ -92,9 +102,11 @@ let
         "EucyuQu6" = _EucyuQu6;
         "kzURzGBF" = _kzURzGBF;
         "tHfxBDgW" = _tHfxBDgW;
-        "neoforge-1.21" = _tHfxBDgW;
-        "neoforge-1.21.1" = _tHfxBDgW;
-        "neoforge-26.1.2" = _kzURzGBF;
+        "HdlBF75n" = _HdlBF75n;
+        "XnkeLVwD" = _XnkeLVwD;
+        "neoforge-1.21" = _HdlBF75n;
+        "neoforge-1.21.1" = _HdlBF75n;
+        "neoforge-26.1.2" = _XnkeLVwD;
         "pkg-1.0.0" = _HpBQL7j4;
         "pkg-1.0.1" = _HtGoeFhf;
         "pkg-1.0.2" = _bEPHIbcr;
@@ -110,7 +122,9 @@ let
         "pkg-2.0.5" = _EucyuQu6;
         "pkg-2.0.6" = _kzURzGBF;
         "pkg-1.0.7" = _tHfxBDgW;
-        "default" = _tHfxBDgW;
+        "pkg-1.0.8" = _HdlBF75n;
+        "pkg-2.0.7" = _XnkeLVwD;
+        "default" = _XnkeLVwD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mystical-automation";

@@ -71,6 +71,11 @@ let
             "file" = "excessive-utilities-1.21.1-1.9.0-build.28.jar";
             "hash" = "sha512-L3oKJ8yfIOCtR4eCzbzcKYS0l90exttECE7mTZKW/dc3reuPLvzRi/t3g0SBdkshABcSWr0TV80fsHgmN7GMRA==";
         };
+        _NkZymTsn = {
+            "id" = "NkZymTsn";
+            "file" = "excessive-utilities-1.21.1-1.10.0-build.64.jar";
+            "hash" = "sha512-8KqexgKh5z9DZJWD2V2dZnGnOrsFMgqS+YUMxIue+AZIxN7RD2CpMvAQekJl7wkwiM3rRHZp+RD03dZh8lZxxQ==";
+        };
     in {
         "IMyobxFK" = _IMyobxFK;
         "fIFLNBO6" = _fIFLNBO6;
@@ -86,7 +91,8 @@ let
         "JOpXJS7C" = _JOpXJS7C;
         "JTrHKWsM" = _JTrHKWsM;
         "TX75l0Qp" = _TX75l0Qp;
-        "neoforge-1.21.1" = _TX75l0Qp;
+        "NkZymTsn" = _NkZymTsn;
+        "neoforge-1.21.1" = _NkZymTsn;
         "pkg-1.0.0" = _IMyobxFK;
         "pkg-1.1.0-build.17" = _fIFLNBO6;
         "pkg-1.1.1-build.22" = _ZLCxI9Sc;
@@ -101,7 +107,8 @@ let
         "pkg-1.7.1-build.6" = _JOpXJS7C;
         "pkg-1.8.0-build.20" = _JTrHKWsM;
         "pkg-1.9.0-build.28" = _TX75l0Qp;
-        "default" = _TX75l0Qp;
+        "pkg-1.10.0-build.64" = _NkZymTsn;
+        "default" = _NkZymTsn;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "excessive-utilities";

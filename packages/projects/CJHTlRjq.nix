@@ -51,6 +51,26 @@ let
             "file" = "ElytraCancel-fabric-26.1.2-2.0.0.jar";
             "hash" = "sha512-8gGltCjhOWDXVrtwlmz56epT1DMWeXiIA4c48Ol/mX2ku85FjB95OJy5XEJL8tKKFCgzgWeYGuBXnUdVG4wwkA==";
         };
+        _tzhY2vtu = {
+            "id" = "tzhY2vtu";
+            "file" = "ElytraCancel-fabric-26.2-3.0.0.jar";
+            "hash" = "sha512-p2+XSihUc5nChIJcI17Qd+keDZc9LPO1L0NtFkU6C4n6i5OMuwJ17AGFJ4IiB3OLcES9w5TS7Pwjl35HlQJSAA==";
+        };
+        _jixbIv6u = {
+            "id" = "jixbIv6u";
+            "file" = "ElytraCancel-neoforge-26.2-3.0.0.jar";
+            "hash" = "sha512-RjHThbxU6ZLmH77oyv921ZvoWpQrxofZKrJDEch9FUlP9xtHly2I0FqC6l6Uzki1DwRxNi6141sMmPJoylHrZg==";
+        };
+        _nszbkLvj = {
+            "id" = "nszbkLvj";
+            "file" = "ElytraCancel-fabric-26.3-4.0.0.jar";
+            "hash" = "sha512-OvmkssfcSJ10J6PLTJObYIPN1FW2eawU69GKhPUXLPeHoQg3N/9tjS499b0JAc5qe6ZgFrLeJoxL4Wm3jsZupA==";
+        };
+        _icsspj5p = {
+            "id" = "icsspj5p";
+            "file" = "ElytraCancel-neoforge-26.3-4.0.0.jar";
+            "hash" = "sha512-8GeN52CWWSTSq9tK0tS8JgP27M0xWXc8+ptKf7rVInef9iRdvie7vTyz+RUISoQidZmR8GbqtP9H6qdI70mjcg==";
+        };
     in {
         "rcngoYiX" = _rcngoYiX;
         "y0Aqk6pS" = _y0Aqk6pS;
@@ -62,20 +82,30 @@ let
         "7QygFKPt" = _7QygFKPt;
         "RXYojv9Z" = _RXYojv9Z;
         "Od67cBMY" = _Od67cBMY;
+        "tzhY2vtu" = _tzhY2vtu;
+        "jixbIv6u" = _jixbIv6u;
+        "nszbkLvj" = _nszbkLvj;
+        "icsspj5p" = _icsspj5p;
         "forge-1.20.1" = _93OSUyHE;
         "neoforge-1.20.1" = _93OSUyHE;
         "neoforge-1.21.1" = _KSdhLMzx;
         "neoforge-1.21.11" = _x9iJoIhv;
         "neoforge-26.1" = _lqKCVJja;
         "neoforge-26.1.2" = _RXYojv9Z;
+        "neoforge-26.2" = _jixbIv6u;
+        "neoforge-26.3" = _icsspj5p;
         "fabric-1.20.1" = _yMSqJ8OY;
         "fabric-1.21.1" = _7QygFKPt;
         "fabric-26.1.2" = _Od67cBMY;
+        "fabric-26.2" = _tzhY2vtu;
+        "fabric-26.3" = _nszbkLvj;
         "pkg-1.0.0" = _lqKCVJja;
         "pkg-1.1.0" = _yMSqJ8OY;
         "pkg-1.2.0" = _7QygFKPt;
         "pkg-2.0.0" = _Od67cBMY;
-        "default" = _Od67cBMY;
+        "pkg-3.0.0" = _jixbIv6u;
+        "pkg-4.0.0" = _icsspj5p;
+        "default" = _icsspj5p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "elytra-cancel";

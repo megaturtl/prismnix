@@ -61,6 +61,11 @@ let
             "file" = "customizable_wind_charges-5.0.0.jar";
             "hash" = "sha512-6ThYNwyBLhzRp7oH4qBKR75Xjt/MtATJuoAAz2JaWx1ko/Pfc8PpC5panLApqEg5OsDLRNJNJGAzojawvu1aLw==";
         };
+        _OitU9txz = {
+            "id" = "OitU9txz";
+            "file" = "customizable_wind_charges-6.0.0.jar";
+            "hash" = "sha512-H7UksK1nZ0tHb8ZEsjnodaqpq852mI5+hiOURnaS4ccy5/oUlzJLPPSr+mMIb1ltuyaKZvS2CfqXq4F8/79T3A==";
+        };
     in {
         "Kr6on8u9" = _Kr6on8u9;
         "7qscb07V" = _7qscb07V;
@@ -74,6 +79,7 @@ let
         "7m8ovMnd" = _7m8ovMnd;
         "69zV8g2I" = _69zV8g2I;
         "Vhhy4FUJ" = _Vhhy4FUJ;
+        "OitU9txz" = _OitU9txz;
         "fabric-24w06a" = _Kr6on8u9;
         "fabric-24w07a" = _DHz7ZLYC;
         "fabric-24w09a" = _ZTfSIyA7;
@@ -87,6 +93,7 @@ let
         "fabric-26.1.1" = _69zV8g2I;
         "fabric-26.1.2" = _69zV8g2I;
         "fabric-26.2" = _Vhhy4FUJ;
+        "fabric-26.3" = _OitU9txz;
         "pkg-1.0.0" = _Kr6on8u9;
         "pkg-1.0.1" = _7qscb07V;
         "pkg-1.1.0" = _DHz7ZLYC;
@@ -99,7 +106,8 @@ let
         "pkg-3.0.0" = _7m8ovMnd;
         "pkg-4.0.0" = _69zV8g2I;
         "pkg-5.0.0" = _Vhhy4FUJ;
-        "default" = _Vhhy4FUJ;
+        "pkg-6.0.0" = _OitU9txz;
+        "default" = _OitU9txz;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "customizable-wind-charges";

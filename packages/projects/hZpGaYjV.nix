@@ -266,6 +266,41 @@ let
             "file" = "lava-boats-1.4.10+26.3-fabric.jar";
             "hash" = "sha512-hkyfNurz9dEQ6POFB+sE3dcdcot23BcRh2RTCZ0iK/nVfcRaJwYSrx/QzcPZZtr2T2SSZAHh2ryW0+vKJWt0vA==";
         };
+        _4vKjDtW8 = {
+            "id" = "4vKjDtW8";
+            "file" = "lava-boats-1.5.0+26.3-fabric.jar";
+            "hash" = "sha512-hNU7cxFOOjPuEgTjTv0fxywjll4aO6JzsEgPZbopvSvEu8owGIhiqkPZAreTBwfTVnlcGT+MsiGmYZuz/XA1Yw==";
+        };
+        _zKxQQyCe = {
+            "id" = "zKxQQyCe";
+            "file" = "lava-boats-1.5.0+26.3-neoforge.jar";
+            "hash" = "sha512-nBOQupE/CF/beUHmIxPuZ8ZUmmJmbgBWcBNRONHNs7RD4WUPLujUjrhp409cMSup13QCuLAv8O7wqo+dd/o5Kw==";
+        };
+        _hQzZ4gnD = {
+            "id" = "hQzZ4gnD";
+            "file" = "lava-boats-1.5.1+1.21-forge.jar";
+            "hash" = "sha512-DRGOimoGSPRx1dg5UMvp3MK8S3/ra624v/a9X9LUwQwlIObXKrzKjNVq3xl6+DmkXv0FhL1PYnEnvV5YDL4xYA==";
+        };
+        _s1oZ7QvT = {
+            "id" = "s1oZ7QvT";
+            "file" = "lava-boats-1.5.1+1.21-neoforge.jar";
+            "hash" = "sha512-7813713FPNWdRmtu1vzTSo7kMF+LmVZ5hQi8WUI57uHwm7p5B08AFciNirg7cEQPp78eqIHthXGOj1vdfZgMaQ==";
+        };
+        _rHSqNyPp = {
+            "id" = "rHSqNyPp";
+            "file" = "lava-boats-1.5.1+1.21.1-forge.jar";
+            "hash" = "sha512-ti9yETg/yX/MrvQ6RUgPVv1wBEu4QgHD4fxZEKQyy600KhbGSpXi5zWZJDEPExNWFkJS7Hh6c65AF1Ggma1/jg==";
+        };
+        _3hIVkdwV = {
+            "id" = "3hIVkdwV";
+            "file" = "lava-boats-1.5.1+1.21.1-neoforge.jar";
+            "hash" = "sha512-02Jl7wKUOLi3KEfnttpP/OEDBnRhxsUmwjrYqFMDMfu3kdrJEKq2X8T1iZcK74LCTi2vmLgntE9vq0cQ2pLSXg==";
+        };
+        _smQQ6pnQ = {
+            "id" = "smQQ6pnQ";
+            "file" = "lava-boats-1.5.1+1.21.1.jar";
+            "hash" = "sha512-CYCUx1rxb7PhbH92qdIH61ocJIlyPx1s1iKZyANTyWeQaIz1yHGgAUHP01dJXJIdduFogfzEzG6SsNi+Wf1JTA==";
+        };
     in {
         "G82PgWMW" = _G82PgWMW;
         "bCrTmmy7" = _bCrTmmy7;
@@ -320,6 +355,13 @@ let
         "2R5zectq" = _2R5zectq;
         "cIqQE3OY" = _cIqQE3OY;
         "5vqkrbCe" = _5vqkrbCe;
+        "4vKjDtW8" = _4vKjDtW8;
+        "zKxQQyCe" = _zKxQQyCe;
+        "hQzZ4gnD" = _hQzZ4gnD;
+        "s1oZ7QvT" = _s1oZ7QvT;
+        "rHSqNyPp" = _rHSqNyPp;
+        "3hIVkdwV" = _3hIVkdwV;
+        "smQQ6pnQ" = _smQQ6pnQ;
         "forge-1.21.2" = _G82PgWMW;
         "forge-1.21.3" = _1HXkAXbc;
         "forge-1.21.4" = _tF3TUBEL;
@@ -330,8 +372,8 @@ let
         "forge-1.20.4" = _mjMlwVnz;
         "forge-1.20.5" = _RYLSaqtK;
         "forge-1.20.6" = _RYLSaqtK;
-        "forge-1.21" = _C6qN4nmo;
-        "forge-1.21.1" = _lEbzLcij;
+        "forge-1.21" = _hQzZ4gnD;
+        "forge-1.21.1" = _rHSqNyPp;
         "forge-1.21.10" = _CNgKSyrs;
         "forge-1.21.11" = _bOq45KVj;
         "forge-1.21.6" = _i0z3dzXa;
@@ -358,8 +400,8 @@ let
         "fabric-1.20.4" = _kY1UfsxC;
         "fabric-1.20.5" = _5YlptaIA;
         "fabric-1.20.6" = _5YlptaIA;
-        "fabric-1.21" = _UuzQE4jJ;
-        "fabric-1.21.1" = _UuzQE4jJ;
+        "fabric-1.21" = _smQQ6pnQ;
+        "fabric-1.21.1" = _smQQ6pnQ;
         "fabric-1.21.11" = _KodNrzX3;
         "fabric-1.21.2" = _U0ACusSM;
         "fabric-1.21.3" = _U0ACusSM;
@@ -375,6 +417,7 @@ let
         "fabric-26.1.2" = _59VYdwXK;
         "fabric-26.2" = _2R5zectq;
         "fabric-26.3-snapshot-7" = _5vqkrbCe;
+        "fabric-26.3" = _4vKjDtW8;
         "neoforge-26.2-pre-1" = _EVsuKMPg;
         "neoforge-26.2-pre-2" = _EVsuKMPg;
         "neoforge-26.2-pre-3" = _EVsuKMPg;
@@ -389,8 +432,8 @@ let
         "neoforge-1.20.4" = _dOCu4pqH;
         "neoforge-1.20.5" = _rs6ADjyN;
         "neoforge-1.20.6" = _rs6ADjyN;
-        "neoforge-1.21" = _rxSR8hlX;
-        "neoforge-1.21.1" = _jSN8By8D;
+        "neoforge-1.21" = _s1oZ7QvT;
+        "neoforge-1.21.1" = _3hIVkdwV;
         "neoforge-1.21.10" = _vWCo4EMN;
         "neoforge-1.21.11" = _6qQuq2cv;
         "neoforge-1.21.2" = _bU9qhSKo;
@@ -405,6 +448,7 @@ let
         "neoforge-26.1.1" = _u8kVisi1;
         "neoforge-26.1.2" = _u8kVisi1;
         "neoforge-26.2" = _cIqQE3OY;
+        "neoforge-26.3" = _zKxQQyCe;
         "quilt-1.20" = _kY1UfsxC;
         "quilt-1.20.1" = _kY1UfsxC;
         "quilt-1.20.2" = _kY1UfsxC;
@@ -412,8 +456,8 @@ let
         "quilt-1.20.4" = _kY1UfsxC;
         "quilt-1.20.5" = _5YlptaIA;
         "quilt-1.20.6" = _5YlptaIA;
-        "quilt-1.21" = _UuzQE4jJ;
-        "quilt-1.21.1" = _UuzQE4jJ;
+        "quilt-1.21" = _smQQ6pnQ;
+        "quilt-1.21.1" = _smQQ6pnQ;
         "quilt-1.21.11" = _KodNrzX3;
         "quilt-1.21.2" = _U0ACusSM;
         "quilt-1.21.3" = _U0ACusSM;
@@ -477,7 +521,14 @@ let
         "pkg-1.4.10+26.2" = _2R5zectq;
         "pkg-1.4.10+26.2-neoforge" = _cIqQE3OY;
         "pkg-1.4.10+26.3" = _5vqkrbCe;
-        "default" = _5vqkrbCe;
+        "pkg-1.5.0+26.3" = _4vKjDtW8;
+        "pkg-1.5.0+26.3-neoforge" = _zKxQQyCe;
+        "pkg-1.5.1+1.21-forge" = _hQzZ4gnD;
+        "pkg-1.5.1+1.21-neoforge" = _s1oZ7QvT;
+        "pkg-1.5.1+1.21.1-forge" = _rHSqNyPp;
+        "pkg-1.5.1+1.21.1-neoforge" = _3hIVkdwV;
+        "pkg-1.5.1+1.21.1" = _smQQ6pnQ;
+        "default" = _smQQ6pnQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lava-boats";

@@ -46,6 +46,16 @@ let
             "file" = "disconnect-packet-fix-fabric-2.2.0.jar";
             "hash" = "sha512-yZa976mpHqeGnzn3ZAEraCMsVxeZO3duj+6ssqTGkw2JT/TazfTfOy2L0fUOGV61PWnoyG0IAKcNpb7p4BYwSA==";
         };
+        _TXsGBFkk = {
+            "id" = "TXsGBFkk";
+            "file" = "disconnect-packet-fix-fabric-2.3.0.jar";
+            "hash" = "sha512-fQix2C32ltThiZp9U1vlMJkbaJSiUMdekCIUrqa5UFq9cxL+CdyuRRK38jZ893oCE2QibsWodcRvggzqqiU1wQ==";
+        };
+        _pHJasZC8 = {
+            "id" = "pHJasZC8";
+            "file" = "disconnect-packet-fix-neoforge-2.3.0.jar";
+            "hash" = "sha512-jQjB+brY3khH9j69l2VNwQ/RpMSTONNFHNB7mWRE6QMhPTjuSesm70IUPEp3UgFCVYAoOx3oRjhi3NvtRkcxUg==";
+        };
     in {
         "rDFCbEzc" = _rDFCbEzc;
         "Gv74xveQ" = _Gv74xveQ;
@@ -56,6 +66,8 @@ let
         "QDn3Puib" = _QDn3Puib;
         "gLjK9u3E" = _gLjK9u3E;
         "8bBHJTea" = _8bBHJTea;
+        "TXsGBFkk" = _TXsGBFkk;
+        "pHJasZC8" = _pHJasZC8;
         "fabric-1.21" = _Gv74xveQ;
         "fabric-1.21.1" = _Gv74xveQ;
         "fabric-1.21.2" = _Gv74xveQ;
@@ -72,6 +84,7 @@ let
         "fabric-26.1.1" = _x9gVeaTU;
         "fabric-26.1.2" = _x9gVeaTU;
         "fabric-26.2" = _8bBHJTea;
+        "fabric-26.3" = _TXsGBFkk;
         "neoforge-1.21" = _yjTKEIL5;
         "neoforge-1.21.1" = _yjTKEIL5;
         "neoforge-1.21.2" = _yjTKEIL5;
@@ -88,6 +101,7 @@ let
         "neoforge-26.1.1" = _QDn3Puib;
         "neoforge-26.1.2" = _QDn3Puib;
         "neoforge-26.2" = _gLjK9u3E;
+        "neoforge-26.3" = _pHJasZC8;
         "pkg-1.0.0" = _rDFCbEzc;
         "pkg-2.0.0-fabric" = _Gv74xveQ;
         "pkg-2.0.0-neoforge" = _TrLSWUnx;
@@ -97,7 +111,9 @@ let
         "pkg-2.1.1-neoforge" = _QDn3Puib;
         "pkg-2.2.0-neoforge" = _gLjK9u3E;
         "pkg-2.2.0-fabric" = _8bBHJTea;
-        "default" = _8bBHJTea;
+        "pkg-2.3.0-fabric" = _TXsGBFkk;
+        "pkg-2.3.0-neoforge" = _pHJasZC8;
+        "default" = _pHJasZC8;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "disconnect-packet-fix";

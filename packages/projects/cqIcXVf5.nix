@@ -101,6 +101,16 @@ let
             "file" = "magnetic-enchantment-v1.0.5.jar";
             "hash" = "sha512-Ijhzt7KCZ/cAIQGPlNjfhij11G7Gp2xNDiS59Aek1Kluo/D4QSLxDw7f9cVp59nOJLoPu5IEXnIdJMBkYd9BRQ==";
         };
+        _cWOk9KsX = {
+            "id" = "cWOk9KsX";
+            "file" = "Magnetic Enchantment v1.0.5 [26.3].zip";
+            "hash" = "sha512-3fim/14bGB/AordtfaFassBwrIvKaUc4khRfV9+Rv5VC+rj6s8lLkxNLdsa7DZZs+xyMZcqxOUeBf8FuqgRtng==";
+        };
+        _K5dZV0aO = {
+            "id" = "K5dZV0aO";
+            "file" = "magnetic-enchantment-1.0.5.jar";
+            "hash" = "sha512-BdlTq1awsbLflytCK11BPeH3UG4D3JDla/s76YbAB2JFNnJMM88ylQj/Jkp6UQ9gGXVhnFTb+4lPapGrfwm8Cg==";
+        };
     in {
         "SXXNPH3v" = _SXXNPH3v;
         "LygiVeHd" = _LygiVeHd;
@@ -122,6 +132,8 @@ let
         "vX6QvG5z" = _vX6QvG5z;
         "BwAopHQn" = _BwAopHQn;
         "n4zKTbv6" = _n4zKTbv6;
+        "cWOk9KsX" = _cWOk9KsX;
+        "K5dZV0aO" = _K5dZV0aO;
         "datapack-1.21" = _9dqnxAk7;
         "datapack-1.21.1" = _9dqnxAk7;
         "datapack-1.21.2" = _6UqLtsVy;
@@ -138,6 +150,7 @@ let
         "datapack-26.1.1" = _BwAopHQn;
         "datapack-26.1.2" = _BwAopHQn;
         "datapack-26.2" = _BwAopHQn;
+        "datapack-26.3" = _cWOk9KsX;
         "fabric-1.21" = _nugNpYgt;
         "fabric-1.21.1" = _nugNpYgt;
         "fabric-1.21.2" = _vX6QvG5z;
@@ -154,6 +167,7 @@ let
         "fabric-26.1.1" = _n4zKTbv6;
         "fabric-26.1.2" = _n4zKTbv6;
         "fabric-26.2" = _n4zKTbv6;
+        "fabric-26.3" = _K5dZV0aO;
         "forge-1.21" = _nugNpYgt;
         "forge-1.21.1" = _nugNpYgt;
         "forge-1.21.2" = _vX6QvG5z;
@@ -170,6 +184,7 @@ let
         "forge-26.1.1" = _n4zKTbv6;
         "forge-26.1.2" = _n4zKTbv6;
         "forge-26.2" = _n4zKTbv6;
+        "forge-26.3" = _K5dZV0aO;
         "neoforge-1.21" = _nugNpYgt;
         "neoforge-1.21.1" = _nugNpYgt;
         "neoforge-1.21.2" = _vX6QvG5z;
@@ -186,6 +201,7 @@ let
         "neoforge-26.1.1" = _n4zKTbv6;
         "neoforge-26.1.2" = _n4zKTbv6;
         "neoforge-26.2" = _n4zKTbv6;
+        "neoforge-26.3" = _K5dZV0aO;
         "quilt-1.21" = _nugNpYgt;
         "quilt-1.21.1" = _nugNpYgt;
         "quilt-1.21.2" = _vX6QvG5z;
@@ -202,6 +218,7 @@ let
         "quilt-26.1.1" = _n4zKTbv6;
         "quilt-26.1.2" = _n4zKTbv6;
         "quilt-26.2" = _n4zKTbv6;
+        "quilt-26.3" = _K5dZV0aO;
         "pkg-v1.0.0" = _NR9N2OVm;
         "pkg-v1.0.0+mod" = _4vIOSbGo;
         "pkg-v1.0.1" = _ZD5PAyxg;
@@ -214,7 +231,9 @@ let
         "pkg-v1.0.4+mod" = _oFWixVbU;
         "pkg-v1.0.5" = _BwAopHQn;
         "pkg-v1.0.5+mod" = _n4zKTbv6;
-        "default" = _n4zKTbv6;
+        "pkg-1.0.5" = _cWOk9KsX;
+        "pkg-1.0.5+mod" = _K5dZV0aO;
+        "default" = _K5dZV0aO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "magnetic-enchantment";

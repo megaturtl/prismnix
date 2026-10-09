@@ -86,6 +86,16 @@ let
             "file" = "glsl-0.3.6.jar";
             "hash" = "sha512-IAWda1XV3ul+lPa3AJVEXcx+Tqqn8VeawhwYBSy6rziMgEkxqisOYekOoNAo/n/WkslqfX9FWU8pt1R55jsC6g==";
         };
+        _ty45wlTr = {
+            "id" = "ty45wlTr";
+            "file" = "glsl-0.3.7.jar";
+            "hash" = "sha512-yHOYtdNMoosP4pDiUhOq0sS7hsF9UZO2wdxAuR+ofqkA4Rx7Q5YgCJva9KVQsnNkF+yzg7k3Lvvs3vZKMWzARQ==";
+        };
+        _iaeDb9JG = {
+            "id" = "iaeDb9JG";
+            "file" = "glsl-0.3.8.jar";
+            "hash" = "sha512-UtyI64ZquClw3uoCxV8UvhWOurSUxlCizFkmM7tSenEO+UaAW6RouwqQFrCORUWwI1UjJ1qKAIFuJe94OL2z0g==";
+        };
     in {
         "mf7lkVmc" = _mf7lkVmc;
         "8z96z1Gf" = _8z96z1Gf;
@@ -104,6 +114,8 @@ let
         "lQPybgB4" = _lQPybgB4;
         "NjUNoDap" = _NjUNoDap;
         "7I2mhpUk" = _7I2mhpUk;
+        "ty45wlTr" = _ty45wlTr;
+        "iaeDb9JG" = _iaeDb9JG;
         "fabric-1.17" = _mf7lkVmc;
         "fabric-1.17.1" = _mf7lkVmc;
         "fabric-1.18" = _mf7lkVmc;
@@ -136,6 +148,8 @@ let
         "fabric-26.1" = _7I2mhpUk;
         "fabric-26.1.1" = _7I2mhpUk;
         "fabric-26.1.2" = _7I2mhpUk;
+        "fabric-26.2" = _ty45wlTr;
+        "fabric-26.3" = _iaeDb9JG;
         "pkg-0.1.0" = _mf7lkVmc;
         "pkg-0.1.1" = _8z96z1Gf;
         "pkg-0.1.2" = _essDshzM;
@@ -153,7 +167,9 @@ let
         "pkg-0.3.4" = _lQPybgB4;
         "pkg-0.3.5" = _NjUNoDap;
         "pkg-0.3.6" = _7I2mhpUk;
-        "default" = _7I2mhpUk;
+        "pkg-0.3.7" = _ty45wlTr;
+        "pkg-0.3.8" = _iaeDb9JG;
+        "default" = _iaeDb9JG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glsl-panorama";

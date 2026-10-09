@@ -91,6 +91,26 @@ let
             "file" = "mrqxs_Slashblade_Core-1.21.1-1.4.4.jar";
             "hash" = "sha512-taBStbZbDbKrJdeZEfkuzeXR0lkTGqQCWaODE1ijH9BjExFwpxZXD1F6uSOgjlZLYis+7V6+FpccXL3IkMI4ZA==";
         };
+        _Xx2wQQ1b = {
+            "id" = "Xx2wQQ1b";
+            "file" = "mrqxs_Slashblade_Core-1.21.1-1.5.0.jar";
+            "hash" = "sha512-JCcGi6j4L0PAlZFvrivZc6Ig1WZJ8VVaRUG8PgEvC7CnUtxcSZ51GnR2Uc84ULNmS8+7Qi/0zRhj0Fi80gA32w==";
+        };
+        _AZVIyeU5 = {
+            "id" = "AZVIyeU5";
+            "file" = "mrqxs_Slashblade_Core-1.21.1-1.5.1.jar";
+            "hash" = "sha512-N9XsTNyjB35P4V7dwMFu/yxmy6yKvNZKg877+iuudrvmfBX4y7piTkDbF1+18KgaaGzA/TNCWIxcMUgFLpmycQ==";
+        };
+        _YvKLUNcn = {
+            "id" = "YvKLUNcn";
+            "file" = "mrqxs_Slashblade_Core-1.21.1-1.5.2.jar";
+            "hash" = "sha512-nQ2Wh8AU/naZ8llbG/i4/nmSHjA5saodqY+/VSwBRH6ug+ao4vz+voubmbbWHdvZFYIJE/z2AlqI3JQY8NC3OQ==";
+        };
+        _CMOoMnYg = {
+            "id" = "CMOoMnYg";
+            "file" = "mrqxs_Slashblade_Core-1.21.1-1.5.2-hotfix1.jar";
+            "hash" = "sha512-whQThWEChcuzK3PeM4JQ7n7da3GAq3jDZxp2lhMi7s3hq5yYGexa6tndLzzKdl8niRTo0MamPFvn9pMNENRG6g==";
+        };
     in {
         "qx0JLlQO" = _qx0JLlQO;
         "1FKfO086" = _1FKfO086;
@@ -110,8 +130,12 @@ let
         "St7UwySc" = _St7UwySc;
         "9noPKqkF" = _9noPKqkF;
         "FFF4S7wN" = _FFF4S7wN;
+        "Xx2wQQ1b" = _Xx2wQQ1b;
+        "AZVIyeU5" = _AZVIyeU5;
+        "YvKLUNcn" = _YvKLUNcn;
+        "CMOoMnYg" = _CMOoMnYg;
         "forge-1.20.1" = _dPmiLWGP;
-        "neoforge-1.21.1" = _FFF4S7wN;
+        "neoforge-1.21.1" = _CMOoMnYg;
         "pkg-1.0.0" = _qx0JLlQO;
         "pkg-1.1.0" = _1FKfO086;
         "pkg-1.2.0" = _dvCGSHM5;
@@ -129,7 +153,11 @@ let
         "pkg-1.4.2" = _St7UwySc;
         "pkg-1.4.3" = _9noPKqkF;
         "pkg-1.4.4" = _FFF4S7wN;
-        "default" = _FFF4S7wN;
+        "pkg-1.5.0" = _Xx2wQQ1b;
+        "pkg-1.5.1" = _AZVIyeU5;
+        "pkg-1.5.2" = _YvKLUNcn;
+        "pkg-1.5.2-hotfix1" = _CMOoMnYg;
+        "default" = _CMOoMnYg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mrqx`s-slashblade-core";

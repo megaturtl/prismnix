@@ -341,6 +341,26 @@ let
             "file" = "visual_set_edit-1.11.1.0-neoforge-1.21.1.jar";
             "hash" = "sha512-eBRufxCmJrvCAGV9FI7fhBPYLQD28QCtRkhMVXnfuFcRe3736ouXwIdRunxZiXXpng3wLsEQgWW7oZjhBKRb0A==";
         };
+        _wjHuIhTc = {
+            "id" = "wjHuIhTc";
+            "file" = "visual_set_edit-1.11.1.1.jar";
+            "hash" = "sha512-TnNf8JHEP8XUs+djLm6w6OTGh35h9sN4fFjI6VN/TmYM72D4jVvXoihdBxt5zEmHTuAKHbqHJSH9/hD2Q16ZLg==";
+        };
+        _6EmJ205W = {
+            "id" = "6EmJ205W";
+            "file" = "visual_set_edit-1.11.1.2.jar";
+            "hash" = "sha512-EwVFNZdUwxz5b5+lTKdK8apQ0cSnLmHuvFcnlQaLoUoG6bEUWZ2NQ8XyGbBTVctmG+u00JxNC0I5weEelWxGXg==";
+        };
+        _6yTo1qQ6 = {
+            "id" = "6yTo1qQ6";
+            "file" = "visual_set_edit-1.12.0.0.jar";
+            "hash" = "sha512-I36yCrD7g8uM1Jcbb+FGD+hjHW9TJ/oLcrNFUgU+EQEywZEyoJvlrfQ9MWS4rZJAHCSOzHTFEjLMOCdkbmbzSw==";
+        };
+        _OLi4M2yM = {
+            "id" = "OLi4M2yM";
+            "file" = "visual_set_edit-1.12.0.1.jar";
+            "hash" = "sha512-e8SwKeCbl3+S1dS8CqMfX+3J3WBkXc09WmR8YaCpzbBKik1r2gvnB/fP/YdraiQSWttKZoflwV7BHZpr1gEMXQ==";
+        };
     in {
         "JxQtKoqw" = _JxQtKoqw;
         "aFcNg4zJ" = _aFcNg4zJ;
@@ -410,7 +430,11 @@ let
         "ua0Q2qzX" = _ua0Q2qzX;
         "QBEeTKmh" = _QBEeTKmh;
         "JsHKsb0u" = _JsHKsb0u;
-        "forge-1.20.1" = _QBEeTKmh;
+        "wjHuIhTc" = _wjHuIhTc;
+        "6EmJ205W" = _6EmJ205W;
+        "6yTo1qQ6" = _6yTo1qQ6;
+        "OLi4M2yM" = _OLi4M2yM;
+        "forge-1.20.1" = _OLi4M2yM;
         "neoforge-1.21.1" = _JsHKsb0u;
         "neoforge-1.21.2" = _Uml5BmVN;
         "neoforge-1.21.3" = _Uml5BmVN;
@@ -494,7 +518,11 @@ let
         "pkg-1.10.0.0" = _ua0Q2qzX;
         "pkg-1.11.1.0" = _QBEeTKmh;
         "pkg-1.11.1.0-neoforge-1.21.1" = _JsHKsb0u;
-        "default" = _JsHKsb0u;
+        "pkg-1.11.1.1" = _wjHuIhTc;
+        "pkg-1.11.1.2" = _6EmJ205W;
+        "pkg-1.12.0.0" = _6yTo1qQ6;
+        "pkg-1.12.0.1" = _OLi4M2yM;
+        "default" = _OLi4M2yM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "visual-set-edit";

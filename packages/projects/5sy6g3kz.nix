@@ -1181,6 +1181,16 @@ let
             "file" = "bettercombat-fabric-3.2.2+26.2.jar";
             "hash" = "sha512-BX97v1LYfcbuQajPnVpWNKr8/4tv2U5PeX+1TBkm+Q8Ceu3pgAzB6gIA0cPoqOXanxNo+2UOrS75Tr8zNq9htw==";
         };
+        _RbEnSa47 = {
+            "id" = "RbEnSa47";
+            "file" = "bettercombat-neoforge-3.2.2+26.3.jar";
+            "hash" = "sha512-KtNYSZWsyLx2k5QqFQ1nSpFHZRwhA/bYIl62EgPATNGcjNjw/fUw/23db8fAYfXYDs0d8iW4Q5BnXXi2n8tIQw==";
+        };
+        _8Vyq1h9a = {
+            "id" = "8Vyq1h9a";
+            "file" = "bettercombat-fabric-3.2.2+26.3.jar";
+            "hash" = "sha512-v6iviXlXR95mnjludL2Ec/+ZHCvd1SVJpaRdfI77Vr8pp45BIyqZboZfo7B0bsNQLri8Jyh+EPv7uWu0vyOjhA==";
+        };
     in {
         "3CYKBxen" = _3CYKBxen;
         "ZZQdi3pp" = _ZZQdi3pp;
@@ -1418,6 +1428,8 @@ let
         "1UMcSrDb" = _1UMcSrDb;
         "5mMhM6lS" = _5mMhM6lS;
         "enlZuzkJ" = _enlZuzkJ;
+        "RbEnSa47" = _RbEnSa47;
+        "8Vyq1h9a" = _8Vyq1h9a;
         "fabric-1.18.2" = _SmUe5knN;
         "fabric-1.19" = _ukboeB3U;
         "fabric-1.19.1" = _ukboeB3U;
@@ -1441,6 +1453,7 @@ let
         "fabric-26.1.1" = _1UMcSrDb;
         "fabric-26.1.2" = _1UMcSrDb;
         "fabric-26.2" = _enlZuzkJ;
+        "fabric-26.3" = _8Vyq1h9a;
         "forge-1.18.2" = _SsDWF33Q;
         "forge-1.19" = _d51cgiPN;
         "forge-1.19.1" = _d51cgiPN;
@@ -1466,6 +1479,7 @@ let
         "neoforge-26.1.1" = _YPa9bdAg;
         "neoforge-26.1.2" = _YPa9bdAg;
         "neoforge-26.2" = _5mMhM6lS;
+        "neoforge-26.3" = _RbEnSa47;
         "pkg-1.0-SNAPSHOT" = _3CYKBxen;
         "pkg-1.0.0" = _ZZQdi3pp;
         "pkg-1.0.1" = _S4e1NhvP;
@@ -1687,7 +1701,9 @@ let
         "pkg-3.2.2+26.1.2-neoforge" = _YPa9bdAg;
         "pkg-3.2.2+26.2-neoforge" = _5mMhM6lS;
         "pkg-3.2.2+26.2-fabric" = _enlZuzkJ;
-        "default" = _enlZuzkJ;
+        "pkg-3.2.2+26.3-neoforge" = _RbEnSa47;
+        "pkg-3.2.2+26.3-fabric" = _8Vyq1h9a;
+        "default" = _8Vyq1h9a;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-combat";

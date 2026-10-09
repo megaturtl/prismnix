@@ -251,6 +251,51 @@ let
             "file" = "devonian-1.31.9.jar";
             "hash" = "sha512-dqusaxLAbtQA5V0gVSGNy6q+QPfDQGC4plzagw/wZIVrWbvxOQK+ixvOKw9bd7LWOZjcBxlFpGdYpQ0o0a8o+g==";
         };
+        _145RhghR = {
+            "id" = "145RhghR";
+            "file" = "devonian-1.32.9.jar";
+            "hash" = "sha512-voadOPO53zX4VU0ojY7kTawIVMBCqPQyPiLeU6XlGP6qjHMrnh11TEyp3BVIp2gZ9hQ3NFnswvqaKH6mP2P6gQ==";
+        };
+        _hb3fQ1we = {
+            "id" = "hb3fQ1we";
+            "file" = "devonian-1.32.9.jar";
+            "hash" = "sha512-suu3Ex3zauA5Kp+vn+KXgU+0QGLzwAdOIz+ybQqMqr1j8QUx5Kstd5VFfKspUlkZZTe7eOjLlAJ0J+bpNPCzSQ==";
+        };
+        _LFHdWPuE = {
+            "id" = "LFHdWPuE";
+            "file" = "devonian-1.32.9.jar";
+            "hash" = "sha512-w1uspeJQjhKSlFkMGAN0Lymz3rKmeXH0trOLukYeMOPsLYUbhwwQxBE4Sm8lxMNflTLFE2WgQD5sHNeoTOlkSg==";
+        };
+        _OV7KHk2u = {
+            "id" = "OV7KHk2u";
+            "file" = "devonian-1.33.9.jar";
+            "hash" = "sha512-4ZkwZJsrsfpZkOAAsM1fJQfXyzi4DwV5/AWyMQ8P7r5SaK9UiQgpj7qDSXWEIK2k8phHjthw6+TQtL/vU0MPgg==";
+        };
+        _IkqjbZRe = {
+            "id" = "IkqjbZRe";
+            "file" = "devonian-1.33.9.jar";
+            "hash" = "sha512-+ogKFxtZZcSLzRk3cx3NaO3yEr2afkoKZymAKLbFZrS9r8Cp6ggAA3BWNr0p2qklI2O1/ei8h+B0I2pTNQxGCw==";
+        };
+        _fqzglRSm = {
+            "id" = "fqzglRSm";
+            "file" = "devonian-1.33.9.jar";
+            "hash" = "sha512-L/ktqkonsdP+Bo0MCwuPgkqq+ecP33qfIJGYmqs96WEHz87hsN/o4PupcmPOE9T2MYGr8KBnH7Akn1L+TGGLuA==";
+        };
+        _k8Mog4wx = {
+            "id" = "k8Mog4wx";
+            "file" = "devonian-1.34.9.jar";
+            "hash" = "sha512-lKhwQM39GXdx+rgY5zeAAB6RtG/lY6zHCi1bOR801A+BNG+aLATGS3xYqaAboD5Z6Pitkg/tYF9fH5LmNQaPOw==";
+        };
+        _oRqT0YaC = {
+            "id" = "oRqT0YaC";
+            "file" = "devonian-1.34.9.jar";
+            "hash" = "sha512-WuRJGTJ1H1SinphYVsQrBufQfGhNcjyCsGhk8+qv7KNHhCyIxlmiMr+MN3/E6RF97EJxnHyWOHN25SlwGkyHzw==";
+        };
+        _EQT06WHl = {
+            "id" = "EQT06WHl";
+            "file" = "devonian-1.34.9.jar";
+            "hash" = "sha512-Ai7FdVXKSbzbiJa+lymMhvyXWVyfFEGEHKrAy/bN34ssZy9JO87r1HZYB8txN1yB3HxyVy2EqxpSOr4sCPzpPg==";
+        };
     in {
         "BEa9XNXt" = _BEa9XNXt;
         "xrXIOz2a" = _xrXIOz2a;
@@ -302,6 +347,15 @@ let
         "TqVs97IS" = _TqVs97IS;
         "Dv9opuRj" = _Dv9opuRj;
         "k53JBaf5" = _k53JBaf5;
+        "145RhghR" = _145RhghR;
+        "hb3fQ1we" = _hb3fQ1we;
+        "LFHdWPuE" = _LFHdWPuE;
+        "OV7KHk2u" = _OV7KHk2u;
+        "IkqjbZRe" = _IkqjbZRe;
+        "fqzglRSm" = _fqzglRSm;
+        "k8Mog4wx" = _k8Mog4wx;
+        "oRqT0YaC" = _oRqT0YaC;
+        "EQT06WHl" = _EQT06WHl;
         "fabric-1.21.5" = _mfxW8kpD;
         "fabric-1.21.8" = _lg3YRoRG;
         "fabric-1.21.6" = _lg3YRoRG;
@@ -309,10 +363,11 @@ let
         "fabric-1.21.9" = _zrTi6xgA;
         "fabric-1.21.10" = _zrTi6xgA;
         "fabric-1.21.11" = _AdKZjKf4;
-        "fabric-26.1" = _k53JBaf5;
-        "fabric-26.1.1" = _k53JBaf5;
-        "fabric-26.1.2" = _k53JBaf5;
-        "fabric-26.2" = _Dv9opuRj;
+        "fabric-26.1" = _EQT06WHl;
+        "fabric-26.1.1" = _EQT06WHl;
+        "fabric-26.1.2" = _EQT06WHl;
+        "fabric-26.2" = _oRqT0YaC;
+        "fabric-26.3" = _k8Mog4wx;
         "pkg-1.0.0-b.1" = _BEa9XNXt;
         "pkg-1.0.1-1.21.5" = _xrXIOz2a;
         "pkg-1.0.1-1.21.8" = _6WG2hJSu;
@@ -363,7 +418,16 @@ let
         "pkg-1.30.9-26.1" = _TqVs97IS;
         "pkg-1.31.9-26.2" = _Dv9opuRj;
         "pkg-1.31.9-26.1" = _k53JBaf5;
-        "default" = _k53JBaf5;
+        "pkg-1.32.9-26.2" = _145RhghR;
+        "pkg-1.32.9-26.1" = _hb3fQ1we;
+        "pkg-1.32.9-26.3" = _LFHdWPuE;
+        "pkg-1.33.9-26.3" = _OV7KHk2u;
+        "pkg-1.33.9-26.2" = _IkqjbZRe;
+        "pkg-1.33.9-26.1" = _fqzglRSm;
+        "pkg-1.34.9-26.3" = _k8Mog4wx;
+        "pkg-1.34.9-26.2" = _oRqT0YaC;
+        "pkg-1.34.9-26.1" = _EQT06WHl;
+        "default" = _EQT06WHl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "devonian";

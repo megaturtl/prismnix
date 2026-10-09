@@ -16,18 +16,26 @@ let
             "file" = "panda-death-ban-1.2.0+26.2.jar";
             "hash" = "sha512-Udfmo2WSM/oQlewyfn5tcn+G4xCWHwgFBaJT2wS+G3tMCSQF6i78gNBI3fCHcv3Hov43jlg+B6sR353ZPbXMeQ==";
         };
+        _hwKkvMam = {
+            "id" = "hwKkvMam";
+            "file" = "panda-death-ban-1.2.0+26.3.jar";
+            "hash" = "sha512-yiocCOwZiTVsy1xX5CzzgAXaGBSZxTE/gbUFsIEwSSGSrGz55Ig+jCPeXAjFAWKAvnUaD8/gVmYephr/vYZmhw==";
+        };
     in {
         "u9Qo9A4m" = _u9Qo9A4m;
         "WbyH2g18" = _WbyH2g18;
         "Uv9v2fBh" = _Uv9v2fBh;
+        "hwKkvMam" = _hwKkvMam;
         "fabric-1.21.11" = _u9Qo9A4m;
         "fabric-26.1.1" = _WbyH2g18;
         "fabric-26.1.2" = _WbyH2g18;
         "fabric-26.2" = _Uv9v2fBh;
+        "fabric-26.3" = _hwKkvMam;
         "pkg-1.2.0_1.21.11" = _u9Qo9A4m;
         "pkg-1.2.0+26.1.1" = _WbyH2g18;
         "pkg-1.2.0+26.2" = _Uv9v2fBh;
-        "default" = _Uv9v2fBh;
+        "pkg-1.2.0+26.3" = _hwKkvMam;
+        "default" = _hwKkvMam;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "panda-death-ban";

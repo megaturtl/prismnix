@@ -36,6 +36,11 @@ let
             "file" = "prizrak-1.2.jar";
             "hash" = "sha512-0yp0tQKoYk1b5NsGi1KOoixASkRLtnUmCq980793I+wST3o6Ez7nnBsyUuK6+SlTVIqQJlcekLSE41orvQ401A==";
         };
+        _TeLJsV7J = {
+            "id" = "TeLJsV7J";
+            "file" = "prizrak-1.2.1.jar";
+            "hash" = "sha512-kgOJPz/HV+hlT5hRK4QZgGBBy9fGGPxUHrGKR/iExTd1QPvTNCLhBFIMZlshKK+xfU14vczIN07EvwsmoiiHfw==";
+        };
     in {
         "GAW8EDXg" = _GAW8EDXg;
         "kkyjiQKs" = _kkyjiQKs;
@@ -44,8 +49,10 @@ let
         "6VJOKSeL" = _6VJOKSeL;
         "TLTGeAVT" = _TLTGeAVT;
         "knn5RVW3" = _knn5RVW3;
+        "TeLJsV7J" = _TeLJsV7J;
         "fabric-1.21.11" = _TLTGeAVT;
         "fabric-26.2" = _knn5RVW3;
+        "fabric-26.3" = _TeLJsV7J;
         "pkg-1.0.0" = _GAW8EDXg;
         "pkg-1.0.1" = _kkyjiQKs;
         "pkg-1.0.2" = _8aceOsjI;
@@ -53,7 +60,8 @@ let
         "pkg-1.1.1" = _6VJOKSeL;
         "pkg-1.1.2" = _TLTGeAVT;
         "pkg-1.2" = _knn5RVW3;
-        "default" = _knn5RVW3;
+        "pkg-1.2.1" = _TeLJsV7J;
+        "default" = _TeLJsV7J;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "prizrak";

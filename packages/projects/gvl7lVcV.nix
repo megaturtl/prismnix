@@ -116,6 +116,21 @@ let
             "file" = "pingview-forge-1.6.jar";
             "hash" = "sha512-xRhrewKQVALRgFwg7+WHd8pmmPR4MViXWMsyMOknZVJC8SAokGaBg7+aMljE47pGeqIPgTNhLCwCgubu/K2DPQ==";
         };
+        _EQmOBAxV = {
+            "id" = "EQmOBAxV";
+            "file" = "pingview-fabric-1.7.jar";
+            "hash" = "sha512-k1UHkfsHktXVm5n+rChu/L1Y/OXOFggkVD+OsE0zPbw0QNF7ycDpvzC9Dm3uGpAd6fKh/GTpey3QK2yM2MXa6Q==";
+        };
+        _PLlyVAvL = {
+            "id" = "PLlyVAvL";
+            "file" = "pingview-neoforge-1.7.jar";
+            "hash" = "sha512-BPT59biK4D7VUVgEcftv8sDSl1vMW9dOrrOMGKJxQKrX7rf+DMOPMpLC03WAuYOj/sBKUEodQpquPctF8ivCNg==";
+        };
+        _Y41W7Wq6 = {
+            "id" = "Y41W7Wq6";
+            "file" = "pingview-forge-1.7.jar";
+            "hash" = "sha512-9pxprOAPlhxxjBYh/NVu8nJP/TrPt4wGNAjctw2w05IjBqqhDjyA4UWj4rogI3gXOJRqs4BVhr3ooOkvj/p7Mg==";
+        };
     in {
         "tMs1gsUN" = _tMs1gsUN;
         "rwfsZrDz" = _rwfsZrDz;
@@ -140,6 +155,9 @@ let
         "C9VPqSKD" = _C9VPqSKD;
         "DbIjG4G7" = _DbIjG4G7;
         "94RXeiVj" = _94RXeiVj;
+        "EQmOBAxV" = _EQmOBAxV;
+        "PLlyVAvL" = _PLlyVAvL;
+        "Y41W7Wq6" = _Y41W7Wq6;
         "fabric-1.21.6" = _MJvLIu4N;
         "fabric-1.21.7" = _MJvLIu4N;
         "fabric-1.21.8" = _MJvLIu4N;
@@ -149,7 +167,8 @@ let
         "fabric-26.1" = _C9VPqSKD;
         "fabric-26.1.1" = _C9VPqSKD;
         "fabric-26.1.2" = _C9VPqSKD;
-        "fabric-26.2" = _C9VPqSKD;
+        "fabric-26.2" = _EQmOBAxV;
+        "fabric-26.3" = _EQmOBAxV;
         "neoforge-1.21.6" = _IdvS82uf;
         "neoforge-1.21.7" = _IdvS82uf;
         "neoforge-1.21.8" = _IdvS82uf;
@@ -159,11 +178,13 @@ let
         "neoforge-26.1" = _DbIjG4G7;
         "neoforge-26.1.1" = _DbIjG4G7;
         "neoforge-26.1.2" = _DbIjG4G7;
-        "neoforge-26.2" = _DbIjG4G7;
+        "neoforge-26.2" = _PLlyVAvL;
+        "neoforge-26.3" = _PLlyVAvL;
         "forge-26.1.1" = _94RXeiVj;
         "forge-26.1.2" = _94RXeiVj;
         "forge-26.1" = _94RXeiVj;
-        "forge-26.2" = _94RXeiVj;
+        "forge-26.2" = _Y41W7Wq6;
+        "forge-26.3" = _Y41W7Wq6;
         "pkg-1.0" = _rwfsZrDz;
         "pkg-1.1" = _YUekPAMQ;
         "pkg-1.2" = _knuTb27O;
@@ -175,7 +196,8 @@ let
         "pkg-1.5.1" = _79YXlNSL;
         "pkg-1.5.2" = _stP4iaon;
         "pkg-1.6" = _94RXeiVj;
-        "default" = _94RXeiVj;
+        "pkg-1.7" = _Y41W7Wq6;
+        "default" = _Y41W7Wq6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ping-view";

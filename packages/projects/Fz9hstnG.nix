@@ -61,6 +61,21 @@ let
             "file" = "SlimefunCore4-2834.jar";
             "hash" = "sha512-QS2WRWOoWALRPqaCIPNvMMeZjsPLk6/y6iXuW0iA29d9wO7vaJ8mlaOBUb18k+CtdyDjTEhHXZVdalz/GvRhlg==";
         };
+        _M14FNoN1 = {
+            "id" = "M14FNoN1";
+            "file" = "SlimefunCore4-2860.jar";
+            "hash" = "sha512-ZfOIqVk5zeDrxn2hJcSEp7WxHu6X7eLmzSmRoJmh0hVIeaMKoEdXMs2ZxNzXPbpA7HbVXRL8zckr9EaoV/GvFw==";
+        };
+        _oAtmtUZ9 = {
+            "id" = "oAtmtUZ9";
+            "file" = "SlimefunCore4-2870.jar";
+            "hash" = "sha512-oFB/sg8imK8NIJnGVSoKhyA9eEvI+39eskrh9ICVMAMb/ohXKfGJXbuonT+xxDigbLAcklBrUoRU/gna9/+Bsg==";
+        };
+        _CW478LWF = {
+            "id" = "CW478LWF";
+            "file" = "SlimefunCore4-2872.jar";
+            "hash" = "sha512-/xMsxygLI1Vw9ftRp9kXGHs0bJYkWLqSrSIU/WHz2X7XFfIAiUxqXn78XQbP2b4GMLl1xFSwf+D0Dt2bxrFgiw==";
+        };
     in {
         "1fCkq2KW" = _1fCkq2KW;
         "3rkJp7tf" = _3rkJp7tf;
@@ -74,6 +89,9 @@ let
         "g2pSI1iF" = _g2pSI1iF;
         "XU4B6lFk" = _XU4B6lFk;
         "U3mx5QuD" = _U3mx5QuD;
+        "M14FNoN1" = _M14FNoN1;
+        "oAtmtUZ9" = _oAtmtUZ9;
+        "CW478LWF" = _CW478LWF;
         "bukkit-1.21.11" = _PEuZoZh4;
         "bukkit-1.21" = _PEuZoZh4;
         "bukkit-1.21.1" = _PEuZoZh4;
@@ -86,10 +104,10 @@ let
         "bukkit-1.21.8" = _PEuZoZh4;
         "bukkit-1.21.9" = _PEuZoZh4;
         "bukkit-1.21.10" = _PEuZoZh4;
-        "bukkit-26.1" = _U3mx5QuD;
-        "bukkit-26.1.1" = _U3mx5QuD;
-        "bukkit-26.1.2" = _U3mx5QuD;
-        "bukkit-26.2" = _U3mx5QuD;
+        "bukkit-26.1" = _CW478LWF;
+        "bukkit-26.1.1" = _CW478LWF;
+        "bukkit-26.1.2" = _CW478LWF;
+        "bukkit-26.2" = _CW478LWF;
         "paper-1.21.11" = _PEuZoZh4;
         "paper-1.21" = _PEuZoZh4;
         "paper-1.21.1" = _PEuZoZh4;
@@ -102,10 +120,10 @@ let
         "paper-1.21.8" = _PEuZoZh4;
         "paper-1.21.9" = _PEuZoZh4;
         "paper-1.21.10" = _PEuZoZh4;
-        "paper-26.1" = _U3mx5QuD;
-        "paper-26.1.1" = _U3mx5QuD;
-        "paper-26.1.2" = _U3mx5QuD;
-        "paper-26.2" = _U3mx5QuD;
+        "paper-26.1" = _CW478LWF;
+        "paper-26.1.1" = _CW478LWF;
+        "paper-26.1.2" = _CW478LWF;
+        "paper-26.2" = _CW478LWF;
         "purpur-1.21.11" = _PEuZoZh4;
         "purpur-1.21" = _PEuZoZh4;
         "purpur-1.21.1" = _PEuZoZh4;
@@ -118,10 +136,10 @@ let
         "purpur-1.21.8" = _PEuZoZh4;
         "purpur-1.21.9" = _PEuZoZh4;
         "purpur-1.21.10" = _PEuZoZh4;
-        "purpur-26.1" = _U3mx5QuD;
-        "purpur-26.1.1" = _U3mx5QuD;
-        "purpur-26.1.2" = _U3mx5QuD;
-        "purpur-26.2" = _U3mx5QuD;
+        "purpur-26.1" = _CW478LWF;
+        "purpur-26.1.1" = _CW478LWF;
+        "purpur-26.1.2" = _CW478LWF;
+        "purpur-26.2" = _CW478LWF;
         "spigot-1.21.11" = _PEuZoZh4;
         "spigot-1.21" = _PEuZoZh4;
         "spigot-1.21.1" = _PEuZoZh4;
@@ -134,10 +152,10 @@ let
         "spigot-1.21.8" = _PEuZoZh4;
         "spigot-1.21.9" = _PEuZoZh4;
         "spigot-1.21.10" = _PEuZoZh4;
-        "spigot-26.1" = _U3mx5QuD;
-        "spigot-26.1.1" = _U3mx5QuD;
-        "spigot-26.1.2" = _U3mx5QuD;
-        "spigot-26.2" = _U3mx5QuD;
+        "spigot-26.1" = _CW478LWF;
+        "spigot-26.1.1" = _CW478LWF;
+        "spigot-26.1.2" = _CW478LWF;
+        "spigot-26.2" = _CW478LWF;
         "pkg-2614" = _1fCkq2KW;
         "pkg-2626" = _3rkJp7tf;
         "pkg-2647" = _AV4jaH8B;
@@ -150,7 +168,10 @@ let
         "pkg-2814" = _g2pSI1iF;
         "pkg-2832" = _XU4B6lFk;
         "pkg-2834" = _U3mx5QuD;
-        "default" = _U3mx5QuD;
+        "pkg-2860" = _M14FNoN1;
+        "pkg-2870" = _oAtmtUZ9;
+        "pkg-2872" = _CW478LWF;
+        "default" = _CW478LWF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "slimefuncore";

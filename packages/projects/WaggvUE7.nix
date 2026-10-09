@@ -141,6 +141,56 @@ let
             "file" = "(Forge)Simplemango-1.20.x-1.3.2.jar";
             "hash" = "sha512-ZtKdjEAdcXqJoDmudmWsXXj5E4A4d1+eLQKfgDK1CXhw+gAXVSwPtUqAOBZANBDioQo4vJoIypeOBoPM4SRWrw==";
         };
+        _lYyP0UNE = {
+            "id" = "lYyP0UNE";
+            "file" = "simplemango-forge-2.0.0.jar";
+            "hash" = "sha512-8kHTcYKTA/bFJ3g3k8XwPlMlI+xhGU8eXHTZVR9ZBRr+BS8Lz8/zvI9q0djcI6ImD28aFbk6RhzHDEu2+GGbsQ==";
+        };
+        _8ttqUdua = {
+            "id" = "8ttqUdua";
+            "file" = "simplemango-fabric-2.0.0.jar";
+            "hash" = "sha512-Xb0O8L0PCXd5obMvpQziX6qG+Q3WjmAgE7P3Ioz5z1sqYuJ4NyLQhAQe2hI9v9HFQwgLjV5/RIL/wT8/JybSLg==";
+        };
+        _AD0FH7b8 = {
+            "id" = "AD0FH7b8";
+            "file" = "simplemango-fabric-2.0.1.jar";
+            "hash" = "sha512-k+LG35oBdTuDiR1J5lpt/br5dcoQtgUbzq808xH3rGCSoITvpgRxfec/crdlZtr9zKpfo2zL7pe0SWIXJzj3kw==";
+        };
+        _ZLFDwrZb = {
+            "id" = "ZLFDwrZb";
+            "file" = "simplemango-forge-2.0.1.jar";
+            "hash" = "sha512-fhZYoftqtQyHFHcNFDPP31ggJgcyPqd5KxVyLWOD2IvEhfVaIaw9DTzypGYrbvIKpCDyobJ8+LemJHazvm9BGg==";
+        };
+        _Zr4dTfUf = {
+            "id" = "Zr4dTfUf";
+            "file" = "simplemango-fabric-2.0.1.jar";
+            "hash" = "sha512-2sPPiZTlYCxEIEdMPvzCwn0VEUCLcCX1FOd3ZSKQ8P11PWzBzN+h9udOjQ2upABZ/muQ9fdYWQi3Ui9BNzNGtg==";
+        };
+        _lbHvubCi = {
+            "id" = "lbHvubCi";
+            "file" = "simplemango-forge-2.0.1.jar";
+            "hash" = "sha512-JA2oFrTbv/QpzoJsCzyTlbbw1zL6OjNn2aENVZoXr6fWyCsoU8tTC1+zd+suFHQ37ILwhLSJTYHX0F3L0ztveA==";
+        };
+        _DjJnEqDE = {
+            "id" = "DjJnEqDE";
+            "file" = "simplemango-fabric-2.0.1.jar";
+            "hash" = "sha512-1EJ8cAfJq3eHyZGcZGRzYGlJK+eG9C1IuQ5Wyvclyd90EaBHPAeq5zeEJmGy36Vtl9UBOiDnwozOhBQjAop03w==";
+        };
+        _G3PDrodX = {
+            "id" = "G3PDrodX";
+            "file" = "simplemango-forge-2.0.1.jar";
+            "hash" = "sha512-yI6zyyGuc9nc3iXcnkjP3Htk3ql4uA4JmB17fhWn7An7ENj1rupxNyyEaBVvZJ2cjYffTx3bVbK5D6IN3UOpHg==";
+        };
+        _5AfqwV6v = {
+            "id" = "5AfqwV6v";
+            "file" = "simplemango-fabric-2.0.1.jar";
+            "hash" = "sha512-Dhp9AL5uNILjF1xRd9HXIeCacoBJLbAqlrMEUZ+3C0uOft1RtPYhqMkp2aG6QbFufX90vYwMU3xkqMSyKrkDQQ==";
+        };
+        _fucj9cHZ = {
+            "id" = "fucj9cHZ";
+            "file" = "simplemango-forge-2.0.1.jar";
+            "hash" = "sha512-1Xo3Jod+6peqWRx6zqFfHdPVIdgofHveKZGwwnzY0EZYlFOqCO/0ryuRntrpK4FBG95nDaKjgnhZpwwz48EHaQ==";
+        };
     in {
         "dh4SADvj" = _dh4SADvj;
         "brgWGhnY" = _brgWGhnY;
@@ -170,17 +220,27 @@ let
         "r5481XWz" = _r5481XWz;
         "SeAjW5Om" = _SeAjW5Om;
         "ugxnEMtt" = _ugxnEMtt;
+        "lYyP0UNE" = _lYyP0UNE;
+        "8ttqUdua" = _8ttqUdua;
+        "AD0FH7b8" = _AD0FH7b8;
+        "ZLFDwrZb" = _ZLFDwrZb;
+        "Zr4dTfUf" = _Zr4dTfUf;
+        "lbHvubCi" = _lbHvubCi;
+        "DjJnEqDE" = _DjJnEqDE;
+        "G3PDrodX" = _G3PDrodX;
+        "5AfqwV6v" = _5AfqwV6v;
+        "fucj9cHZ" = _fucj9cHZ;
         "fabric-1.17" = _dh4SADvj;
         "fabric-1.17.1" = _dh4SADvj;
         "fabric-1.18.2" = _brgWGhnY;
-        "fabric-1.19" = _7BniIp9q;
-        "fabric-1.19.1" = _7BniIp9q;
-        "fabric-1.19.2" = _7BniIp9q;
-        "fabric-1.19.3" = _oixFmqQI;
-        "fabric-1.19.4" = _5IY9BDLr;
-        "fabric-1.20" = _SeAjW5Om;
-        "fabric-1.20.1" = _SeAjW5Om;
-        "fabric-1.20.2" = _SeAjW5Om;
+        "fabric-1.19" = _AD0FH7b8;
+        "fabric-1.19.1" = _AD0FH7b8;
+        "fabric-1.19.2" = _AD0FH7b8;
+        "fabric-1.19.3" = _Zr4dTfUf;
+        "fabric-1.19.4" = _DjJnEqDE;
+        "fabric-1.20" = _5AfqwV6v;
+        "fabric-1.20.1" = _5AfqwV6v;
+        "fabric-1.20.2" = _5AfqwV6v;
         "quilt-1.18.2" = _brgWGhnY;
         "quilt-1.19" = _7BniIp9q;
         "quilt-1.19.1" = _7BniIp9q;
@@ -191,12 +251,14 @@ let
         "quilt-1.20.1" = _SeAjW5Om;
         "quilt-1.20.2" = _SeAjW5Om;
         "forge-1.18.2" = _gjbzKLKk;
-        "forge-1.19.2" = _p0lLJLsp;
-        "forge-1.19.3" = _aTYg4qtC;
-        "forge-1.19.4" = _glJeITw1;
-        "forge-1.20" = _ugxnEMtt;
-        "forge-1.20.1" = _ugxnEMtt;
-        "forge-1.20.2" = _ugxnEMtt;
+        "forge-1.19.2" = _ZLFDwrZb;
+        "forge-1.19.3" = _lbHvubCi;
+        "forge-1.19.4" = _G3PDrodX;
+        "forge-1.20" = _fucj9cHZ;
+        "forge-1.20.1" = _fucj9cHZ;
+        "forge-1.20.2" = _fucj9cHZ;
+        "forge-1.19" = _ZLFDwrZb;
+        "forge-1.19.1" = _ZLFDwrZb;
         "pkg-1.1.4" = _dh4SADvj;
         "pkg-1.2.0" = _gjbzKLKk;
         "pkg-1.20" = _UsUVE6kL;
@@ -204,7 +266,9 @@ let
         "pkg-1.3.1" = _BwV3bcES;
         "pkg-1.3.2" = _r5481XWz;
         "pkg-1.3.3" = _ugxnEMtt;
-        "default" = _ugxnEMtt;
+        "pkg-2.0.0" = _8ttqUdua;
+        "pkg-2.0.1" = _fucj9cHZ;
+        "default" = _fucj9cHZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simple-mango";

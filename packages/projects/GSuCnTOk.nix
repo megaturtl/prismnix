@@ -231,6 +231,11 @@ let
             "file" = "§a[26.1-26.1.2]§6[EMF]§fCMMRP_1.8.zip";
             "hash" = "sha512-GEd1GT2+KQk1UgyhhGldQxRbs5jKl3/arQPTwPRbprXGHLU1w5vJVFOYHpAhf9dVSZU05I7kfpzntuYsPLFVZg==";
         };
+        _5JsLegVF = {
+            "id" = "5JsLegVF";
+            "file" = "§a[26.2-26.3]§6[EMF]§fCMMRP_1.9.zip";
+            "hash" = "sha512-t19QxD8qOFTznRQ59qCMsCKm1PvpdtLPlDRpBHa1fWry0qSVkFa3P+HRtwX2GrVHCklx64MOmzNaKUG0a2twgg==";
+        };
     in {
         "yNxBoLIs" = _yNxBoLIs;
         "Y0OpZW0b" = _Y0OpZW0b;
@@ -278,6 +283,7 @@ let
         "Xqp7Ramj" = _Xqp7Ramj;
         "7vFSub4E" = _7vFSub4E;
         "oJgcX6JG" = _oJgcX6JG;
+        "5JsLegVF" = _5JsLegVF;
         "minecraft-1.12.2" = _TBO7CB0h;
         "minecraft-1.13.2" = _wQtcnY3I;
         "minecraft-1.14.4" = _auZh8aQg;
@@ -312,6 +318,8 @@ let
         "minecraft-26.1" = _oJgcX6JG;
         "minecraft-26.1.1" = _oJgcX6JG;
         "minecraft-26.1.2" = _oJgcX6JG;
+        "minecraft-26.2" = _5JsLegVF;
+        "minecraft-26.3" = _5JsLegVF;
         "pkg-V.B1.0-1.12.2" = _yNxBoLIs;
         "pkg-V.B1.1-1.12.2" = _Y0OpZW0b;
         "pkg-V.B1.2-1.12.2" = _cwmB4rZw;
@@ -356,7 +364,8 @@ let
         "pkg-1.6" = _Xqp7Ramj;
         "pkg-1.7" = _7vFSub4E;
         "pkg-1.8" = _oJgcX6JG;
-        "default" = _oJgcX6JG;
+        "pkg-1.9" = _5JsLegVF;
+        "default" = _5JsLegVF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cute-mob-models-resource-pack";

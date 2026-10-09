@@ -216,6 +216,16 @@ let
             "file" = "resource_gamma_util-fabric-26.3-2.0.1.jar";
             "hash" = "sha512-qJZF4ibts7QZfabRVUp5asq/cqaZ3op1WyRCLktwsEHeBp9vTq893cRzHgRlItvP8BVYe/cg0erQsKi6fQQPhQ==";
         };
+        _lcF4HBlv = {
+            "id" = "lcF4HBlv";
+            "file" = "resource_gamma_util-neoforge-26.3-2.0.2.jar";
+            "hash" = "sha512-aacqi6OCazpobV9Arr1R+DhD5Esp6t1bT2uF2Tj0P3juV6QE/Zwo5lDvSigEz3OIv+wpQOawdRvovrqQdvRl0Q==";
+        };
+        _354azrJW = {
+            "id" = "354azrJW";
+            "file" = "resource_gamma_util-fabric-26.3-2.0.2.jar";
+            "hash" = "sha512-AtCzispPsh2haA2i08lGKa5FLFILiiidXnoqi3BJ2BRrarANXwMbV2n3ykjedYGZaO77hfgFXz5vdyWoDiIRNg==";
+        };
     in {
         "DBneXV4s" = _DBneXV4s;
         "PFp9wmQe" = _PFp9wmQe;
@@ -260,6 +270,8 @@ let
         "Wd2ocpPA" = _Wd2ocpPA;
         "SAjw6sNZ" = _SAjw6sNZ;
         "5YfXsTq7" = _5YfXsTq7;
+        "lcF4HBlv" = _lcF4HBlv;
+        "354azrJW" = _354azrJW;
         "neoforge-1.21" = _wn9s0A6p;
         "neoforge-1.21.1" = _Nx6kXJFH;
         "neoforge-1.21.2" = _wn9s0A6p;
@@ -276,7 +288,7 @@ let
         "neoforge-26.1.1" = _XsHy6XxD;
         "neoforge-26.1.2" = _hsKmB6Dk;
         "neoforge-26.2" = _6rsL4N1g;
-        "neoforge-26.3" = _SAjw6sNZ;
+        "neoforge-26.3" = _lcF4HBlv;
         "forge-1.21" = _jokar2SA;
         "forge-1.21.1" = _4bOdr041;
         "forge-1.21.2" = _jokar2SA;
@@ -307,7 +319,7 @@ let
         "fabric-26.1.1" = _qphty57Y;
         "fabric-26.1.2" = _qmSXn5s1;
         "fabric-26.2" = _qFLYSiK9;
-        "fabric-26.3" = _5YfXsTq7;
+        "fabric-26.3" = _354azrJW;
         "quilt-1.21" = _GeO1yoEr;
         "quilt-1.21.1" = _aGP9SLVq;
         "quilt-1.21.2" = _GeO1yoEr;
@@ -340,7 +352,8 @@ let
         "pkg-2.0.0" = _6rsL4N1g;
         "pkg-26.3-2.0.0" = _Wd2ocpPA;
         "pkg-26.3-2.0.1" = _5YfXsTq7;
-        "default" = _5YfXsTq7;
+        "pkg-26.3-2.0.2" = _354azrJW;
+        "default" = _354azrJW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "resource-gamma-utils";

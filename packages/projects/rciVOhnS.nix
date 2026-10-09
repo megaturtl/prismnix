@@ -226,6 +226,21 @@ let
             "file" = "colorblindnessclient-fabric-26.2-2.1.0.0.jar";
             "hash" = "sha512-2myqhdhrjGHpZgJjaFqjy+zQsK6mTHX5FFvkLz3p2E1gMeDQ0YtGlNy4bkLuel1uEq6xMRH5GankgJzzrgDjGQ==";
         };
+        _OdoT5sUk = {
+            "id" = "OdoT5sUk";
+            "file" = "colorblindnessclient-neoforge-26.3-2.2.0.0.jar";
+            "hash" = "sha512-FGIeL4yZlXtTmwE82/0VKFV5Skof+WAjlPoNDgIGmY54xF0B1/ceKLzt1IC9viP9SyAkmdAuJVgxNOhzCDSwvg==";
+        };
+        _sdrEHKOU = {
+            "id" = "sdrEHKOU";
+            "file" = "colorblindnessclient-forge-26.3-2.2.0.0.jar";
+            "hash" = "sha512-cq33vrYtZop7BUNsxrO1F0jk3IuqKTzdddLWRKyrzTvesfID4BlMuq56d21J44GtwCxKVZk88qJixS3h6Eul9A==";
+        };
+        _K6Cy8PeG = {
+            "id" = "K6Cy8PeG";
+            "file" = "colorblindnessclient-fabric-26.3-2.2.0.0.jar";
+            "hash" = "sha512-SXKYYSxzSOZUCsapL8noNNMUZ7hxjcizfXz1nQoX/Asa83YWJfbbD0Xj8ZkQwVukVwCH1AuFiV/55P0Wrt2A2Q==";
+        };
     in {
         "HorsLFQD" = _HorsLFQD;
         "g3WjaXbR" = _g3WjaXbR;
@@ -272,6 +287,9 @@ let
         "KnXs8tUF" = _KnXs8tUF;
         "FepMm5oq" = _FepMm5oq;
         "NkvML1HL" = _NkvML1HL;
+        "OdoT5sUk" = _OdoT5sUk;
+        "sdrEHKOU" = _sdrEHKOU;
+        "K6Cy8PeG" = _K6Cy8PeG;
         "forge-1.21.1" = _HorsLFQD;
         "forge-1.21.3" = _xqITQaVe;
         "forge-1.21.4" = _xqITQaVe;
@@ -283,6 +301,7 @@ let
         "forge-26.1.1" = _exTXVILr;
         "forge-26.1.2" = _exTXVILr;
         "forge-26.2" = _FepMm5oq;
+        "forge-26.3" = _sdrEHKOU;
         "fabric-1.21.1" = _g3WjaXbR;
         "fabric-1.21.3" = _kuLQ4lPb;
         "fabric-1.21.4" = _kuLQ4lPb;
@@ -294,6 +313,7 @@ let
         "fabric-26.1.1" = _Mlo1kgu6;
         "fabric-26.1.2" = _Mlo1kgu6;
         "fabric-26.2" = _NkvML1HL;
+        "fabric-26.3" = _K6Cy8PeG;
         "quilt-1.21.1" = _g3WjaXbR;
         "quilt-1.21.3" = _kuLQ4lPb;
         "quilt-1.21.4" = _kuLQ4lPb;
@@ -305,6 +325,7 @@ let
         "quilt-26.1.1" = _Mlo1kgu6;
         "quilt-26.1.2" = _Mlo1kgu6;
         "quilt-26.2" = _NkvML1HL;
+        "quilt-26.3" = _K6Cy8PeG;
         "neoforge-1.21.1" = _kDRyehw9;
         "neoforge-1.21.3" = _3ilk7fxp;
         "neoforge-1.21.4" = _3ilk7fxp;
@@ -316,6 +337,7 @@ let
         "neoforge-26.1.1" = _eCESVk5t;
         "neoforge-26.1.2" = _eCESVk5t;
         "neoforge-26.2" = _KnXs8tUF;
+        "neoforge-26.3" = _OdoT5sUk;
         "pkg-1.21.1-1.0.0.0" = _kDRyehw9;
         "pkg-1.21.3-1.1.0.0" = _E9RVazjZ;
         "pkg-1.21.5-1.2.0.0" = _UKijoui3;
@@ -331,7 +353,8 @@ let
         "pkg-26.1-2.0.0.1" = _HTW3lXdl;
         "pkg-26.1-2.0.0.2" = _Mlo1kgu6;
         "pkg-26.2-2.1.0.0" = _NkvML1HL;
-        "default" = _NkvML1HL;
+        "pkg-26.3-2.2.0.0" = _K6Cy8PeG;
+        "default" = _K6Cy8PeG;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "colorblindness-client";

@@ -266,6 +266,11 @@ let
             "file" = "coolrain-1.4.0-26.2.jar";
             "hash" = "sha512-AscJw6aYPzjMW0/KkrI46/YcX1wcSuhkWJBfji0ucGSoN4bbItj7lxYuzz4GRtiW5NYGD3f2NWQnu0Thepf2xQ==";
         };
+        _K9R06E1l = {
+            "id" = "K9R06E1l";
+            "file" = "coolrain-1.4.0-26.3.jar";
+            "hash" = "sha512-C997mK/jf0ux/m/omInVXib4LrqaYN/iYkG3y6DT7BTDeT15p4R7aWihSdC8O5NbF8aPsZXoAoW4c8NwfaIIyw==";
+        };
     in {
         "A9aipP0d" = _A9aipP0d;
         "k0g8OkNf" = _k0g8OkNf;
@@ -320,6 +325,7 @@ let
         "l4nv8whd" = _l4nv8whd;
         "KsLfEOWC" = _KsLfEOWC;
         "zc88gNk3" = _zc88gNk3;
+        "K9R06E1l" = _K9R06E1l;
         "fabric-1.21.1" = _i2dHlstR;
         "fabric-1.21.4" = _xHb5kyEo;
         "fabric-1.20.1" = _WE57O4zN;
@@ -340,6 +346,7 @@ let
         "fabric-26.1" = _l4nv8whd;
         "fabric-26.1.2" = _KsLfEOWC;
         "fabric-26.2" = _zc88gNk3;
+        "fabric-26.3" = _K9R06E1l;
         "pkg-1.0.0-1.21.1" = _A9aipP0d;
         "pkg-1.0.0-1.21.4" = _k0g8OkNf;
         "pkg-1.0.1-1.21.4" = _lf0UYqiA;
@@ -390,7 +397,8 @@ let
         "pkg-1.4.0-26.1" = _l4nv8whd;
         "pkg-1.4.0-26.1.2" = _KsLfEOWC;
         "pkg-1.4.0-26.2" = _zc88gNk3;
-        "default" = _zc88gNk3;
+        "pkg-1.4.0-26.3" = _K9R06E1l;
+        "default" = _K9R06E1l;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "coolrain";

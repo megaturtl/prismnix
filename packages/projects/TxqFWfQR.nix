@@ -126,10 +126,10 @@ let
             "file" = "omnicrossbow-1.1.2+mc26.1.2.jar";
             "hash" = "sha512-TSRTatAWOVaqMkz3EQ9s8lfocPhHR5p/O9xAlUFdYQwXr/298cBRrP17j92FfIVi/Bf7wHs4zebv15QAOnufQw==";
         };
-        _vznCPWDZ = {
-            "id" = "vznCPWDZ";
-            "file" = "omnicrossbow-1.1.1+mc26.2.jar";
-            "hash" = "sha512-zXYyt/j5282oiHTtdQFSXUR941m9H7dbUUmteV5k3wKNB9etw2YvpWsTVfzT7ftAu7YubuK/2qiAyN/nwQZkdg==";
+        _Zcu2HGlU = {
+            "id" = "Zcu2HGlU";
+            "file" = "omnicrossbow-1.1.4+mc26.3.jar";
+            "hash" = "sha512-EIbFd+HYfMw1xk0QbsrNdCO1aW2D3yhn8sXfZxLTuJJWHiAwwGepfSDlyfSR8lUPjMhWEHeynLrPiV/DQilS4g==";
         };
     in {
         "k1AGeoKO" = _k1AGeoKO;
@@ -157,7 +157,7 @@ let
         "V8vaowS0" = _V8vaowS0;
         "Z8A31j65" = _Z8A31j65;
         "dhnKKWnH" = _dhnKKWnH;
-        "vznCPWDZ" = _vznCPWDZ;
+        "Zcu2HGlU" = _Zcu2HGlU;
         "fabric-1.20.1" = _kXtvdxTS;
         "fabric-1.21" = _eKxMb4zs;
         "fabric-1.21.1" = _eKxMb4zs;
@@ -168,8 +168,7 @@ let
         "fabric-26.2-rc-2" = _1tRtCfPt;
         "fabric-26.2" = _Z8A31j65;
         "fabric-26.3-rc-2" = _V8vaowS0;
-        "fabric-26.3-rc-3" = _vznCPWDZ;
-        "fabric-26.3" = _vznCPWDZ;
+        "fabric-26.3" = _Zcu2HGlU;
         "quilt-1.20.1" = _kXtvdxTS;
         "quilt-1.21" = _ploY5Ene;
         "quilt-1.21.1" = _ploY5Ene;
@@ -198,8 +197,8 @@ let
         "pkg-1.1.2+mc26.3" = _V8vaowS0;
         "pkg-1.1.2+mc26.2" = _Z8A31j65;
         "pkg-1.1.2+mc26.1.2" = _dhnKKWnH;
-        "pkg-1.1.3+mc26.3" = _vznCPWDZ;
-        "default" = _vznCPWDZ;
+        "pkg-1.1.4+mc26.3" = _Zcu2HGlU;
+        "default" = _Zcu2HGlU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "omnicrossbow";

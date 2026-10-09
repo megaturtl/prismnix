@@ -31,6 +31,11 @@ let
             "file" = "CapX1 1.21.5.zip";
             "hash" = "sha512-eyov8Ir+mtK5i5vvkZhB9CC8cp4dNta4PrwVhtveCBY2L3/O8829Z3KZ+t49ZnO4PiBDi1u0iR+86YZQCwZFJg==";
         };
+        _ccMPKecl = {
+            "id" = "ccMPKecl";
+            "file" = "CapX1 26.3.zip";
+            "hash" = "sha512-8UREtiJvoZeaoRp/ZpIMWhcNlD8Oca36Z97FSTYwN6m3zj08L+hScwLzBkweP3e15EgxuuM+Nx6GGzM0JkT+JQ==";
+        };
     in {
         "g3q0PIIx" = _g3q0PIIx;
         "zbILO9ym" = _zbILO9ym;
@@ -38,6 +43,7 @@ let
         "JWBxaXf4" = _JWBxaXf4;
         "YxCiK6Sl" = _YxCiK6Sl;
         "mAlJwCtL" = _mAlJwCtL;
+        "ccMPKecl" = _ccMPKecl;
         "minecraft-1.20" = _g3q0PIIx;
         "minecraft-1.20.1" = _g3q0PIIx;
         "minecraft-1.19" = _zbILO9ym;
@@ -48,8 +54,10 @@ let
         "minecraft-1.21.1" = _JWBxaXf4;
         "minecraft-1.21.4" = _YxCiK6Sl;
         "minecraft-1.21.5" = _mAlJwCtL;
+        "minecraft-26.3" = _ccMPKecl;
         "pkg-1.0" = _mAlJwCtL;
-        "default" = _mAlJwCtL;
+        "pkg-26.3" = _ccMPKecl;
+        "default" = _ccMPKecl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "capx1";

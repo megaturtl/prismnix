@@ -56,6 +56,11 @@ let
             "file" = "rewardclaim-2.5.0.jar";
             "hash" = "sha512-Ej4GGu3h61eGfnIKbVOr0jEIXPwwkSFaPk0p6SdK15vD+sFuSS1T1QLeIqOphWAaa0Ok7ZOH6kkqNe0hmkYxdw==";
         };
+        _w2hmrhFv = {
+            "id" = "w2hmrhFv";
+            "file" = "rewardclaim-2.6.0.jar";
+            "hash" = "sha512-kp1OsUp4lekdfiC9ERM9udFSW8JdiDcaHkC67tLPAbz4GpYeIvy3W6yA8gaSU5M07q24hFmb/gArXpvVcnaCug==";
+        };
     in {
         "UXnMtYTj" = _UXnMtYTj;
         "jpYofKmf" = _jpYofKmf;
@@ -68,6 +73,7 @@ let
         "Pgxl6Iof" = _Pgxl6Iof;
         "892qTcZg" = _892qTcZg;
         "HsebVYKj" = _HsebVYKj;
+        "w2hmrhFv" = _w2hmrhFv;
         "forge-1.8.9" = _3AYgtAoe;
         "fabric-1.21.5" = _jFOBDAj0;
         "fabric-1.21.6" = _MpedbzKm;
@@ -80,6 +86,7 @@ let
         "fabric-26.1.1" = _892qTcZg;
         "fabric-26.1.2" = _892qTcZg;
         "fabric-26.2" = _HsebVYKj;
+        "fabric-26.3" = _w2hmrhFv;
         "pkg-1.0.5" = _UXnMtYTj;
         "pkg-1.0.6" = _jpYofKmf;
         "pkg-1.0.7" = _3AYgtAoe;
@@ -91,7 +98,8 @@ let
         "pkg-2.3.1" = _Pgxl6Iof;
         "pkg-2.4.0" = _892qTcZg;
         "pkg-2.5.0" = _HsebVYKj;
-        "default" = _HsebVYKj;
+        "pkg-2.6.0" = _w2hmrhFv;
+        "default" = _w2hmrhFv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "reward-claim";

@@ -56,6 +56,11 @@ let
             "file" = "server_plus_plus-neoforge-26.2-0.0.1+build.18.jar";
             "hash" = "sha512-dstriA2LPFYf8TPPRPTw11fPEFqraW8vnnZM5D2fx9eb/RBOuOeZcahG3nvnYrKMiXh6U+YbKDcgoQjD7KVCwQ==";
         };
+        _PHwM0Y8u = {
+            "id" = "PHwM0Y8u";
+            "file" = "server_plus_plus-neoforge-26.3-0.0.1+build.20.jar";
+            "hash" = "sha512-2Fk7P3qEZAueElMxOemCiVW8khjauN4nRe8BO6Ku2tuYEqvxOTI0AwlEs0GK0//IQYvoigiuy0K4wDIUSdL2qQ==";
+        };
     in {
         "32ljJiRg" = _32ljJiRg;
         "YE4SfzMI" = _YE4SfzMI;
@@ -68,11 +73,13 @@ let
         "Ma4x5BbO" = _Ma4x5BbO;
         "xHTn78oW" = _xHTn78oW;
         "mpRbXBNB" = _mpRbXBNB;
+        "PHwM0Y8u" = _PHwM0Y8u;
         "neoforge-1.21.1" = _zxnMGfzP;
         "neoforge-1.21.8" = _LRDubjNE;
         "neoforge-1.21.10" = _Ma4x5BbO;
         "neoforge-26.1.2" = _xHTn78oW;
         "neoforge-26.2" = _mpRbXBNB;
+        "neoforge-26.3" = _PHwM0Y8u;
         "pkg-0.0.1+build.2" = _32ljJiRg;
         "pkg-0.0.1+build.4" = _YE4SfzMI;
         "pkg-0.0.1+build.5" = _2DSM0rX0;
@@ -84,7 +91,8 @@ let
         "pkg-0.0.1+build.16" = _Ma4x5BbO;
         "pkg-0.0.1+build.17" = _xHTn78oW;
         "pkg-0.0.1+build.18" = _mpRbXBNB;
-        "default" = _mpRbXBNB;
+        "pkg-0.0.1+build.20" = _PHwM0Y8u;
+        "default" = _PHwM0Y8u;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "server-plus-plus";

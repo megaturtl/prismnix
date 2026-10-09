@@ -256,6 +256,26 @@ let
             "file" = "RespawningAnimals-v26.2.0-mc26.2.x-Fabric.jar";
             "hash" = "sha512-snKDO2kpTKAjg6AYhHhobXP6kPg+s7OU2hW/suJBzcITIkopgKjNXTosQ7Y4jHeZsoNh3UvB1OVQWqpXayAPsg==";
         };
+        _nl9W2x2p = {
+            "id" = "nl9W2x2p";
+            "file" = "respawninganimals-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-HF4GQuxo9cZZKNLh3Qs6U20j3i3kVrahnxL+kpBpBsSGMvwYXJ52FoKBuPhkS7078QC9vMdiSEKLQpGSRGkR4w==";
+        };
+        _IwgPloQF = {
+            "id" = "IwgPloQF";
+            "file" = "respawninganimals-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-bFXR00xE3eCESSW0AjU0Jaka+wocY46yQ6Rjr+E1Iv+kegNa0gbNdCGlnTWO3arRWa4bQDAUeBK0ydLn6pHXtw==";
+        };
+        _hPzOyArm = {
+            "id" = "hPzOyArm";
+            "file" = "respawninganimals-v26.1.1-mc26.1.x+neoforge.jar";
+            "hash" = "sha512-AY6i/tBIeKzIxzP7OW/eMhAEuJFsK2Wwa0An7f6HZkyr46JK0d/l/TmB+VoDstq67pjdrFytnJKk490vZ/6nSQ==";
+        };
+        _N9zzDn2E = {
+            "id" = "N9zzDn2E";
+            "file" = "respawninganimals-v26.1.1-mc26.1.x+fabric.jar";
+            "hash" = "sha512-W3X6DNdGm2Z/sVmMquZUi8rHbwokw1o5IOBOFR3e8vZkbtSlUzzia0hzNn4VQc8VuDPQtcJPzGR4cW0s6tdu1Q==";
+        };
     in {
         "D5HGfNc5" = _D5HGfNc5;
         "7EyIARHa" = _7EyIARHa;
@@ -308,6 +328,10 @@ let
         "6omW6Dk0" = _6omW6Dk0;
         "7SZfZ43p" = _7SZfZ43p;
         "KqYxDgHK" = _KqYxDgHK;
+        "nl9W2x2p" = _nl9W2x2p;
+        "IwgPloQF" = _IwgPloQF;
+        "hPzOyArm" = _hPzOyArm;
+        "N9zzDn2E" = _N9zzDn2E;
         "forge-1.19.3" = _D5HGfNc5;
         "forge-1.19.4" = _I70BGD6W;
         "forge-1.20" = _swSQRnaV;
@@ -328,10 +352,11 @@ let
         "fabric-1.21.9" = _1byrSqIG;
         "fabric-1.21.10" = _kCrwtVBG;
         "fabric-1.21.11" = _ZwDGOfes;
-        "fabric-26.1" = _6omW6Dk0;
-        "fabric-26.1.1" = _6omW6Dk0;
-        "fabric-26.1.2" = _6omW6Dk0;
+        "fabric-26.1" = _N9zzDn2E;
+        "fabric-26.1.1" = _N9zzDn2E;
+        "fabric-26.1.2" = _N9zzDn2E;
         "fabric-26.2" = _KqYxDgHK;
+        "fabric-26.3" = _IwgPloQF;
         "neoforge-1.20.4" = _gMmNt3L5;
         "neoforge-1.21.1" = _a7lvPWaQ;
         "neoforge-1.21.4" = _tzrAmuVR;
@@ -341,10 +366,11 @@ let
         "neoforge-1.21.9" = _YFLFkjff;
         "neoforge-1.21.10" = _yvHLDys4;
         "neoforge-1.21.11" = _7IRJcvXP;
-        "neoforge-26.1" = _S30xHkyc;
-        "neoforge-26.1.1" = _S30xHkyc;
-        "neoforge-26.1.2" = _S30xHkyc;
+        "neoforge-26.1" = _hPzOyArm;
+        "neoforge-26.1.1" = _hPzOyArm;
+        "neoforge-26.1.2" = _hPzOyArm;
         "neoforge-26.2" = _7SZfZ43p;
+        "neoforge-26.3" = _nl9W2x2p;
         "pkg-v5.0.0-1.19.3-Forge" = _D5HGfNc5;
         "pkg-v5.0.0-1.19.3-Fabric" = _7EyIARHa;
         "pkg-v6.0.0-1.19.4-Fabric" = _XBlB9nCp;
@@ -391,7 +417,9 @@ let
         "pkg-21.11.0" = _ZwDGOfes;
         "pkg-26.1.0" = _6omW6Dk0;
         "pkg-26.2.0" = _KqYxDgHK;
-        "default" = _KqYxDgHK;
+        "pkg-26.3.0" = _IwgPloQF;
+        "pkg-26.1.1" = _N9zzDn2E;
+        "default" = _N9zzDn2E;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "respawning-animals";

@@ -266,6 +266,21 @@ let
             "file" = "puyu-fabric-1.2.4.jar";
             "hash" = "sha512-NAFY/zWWqNb+Php4xyCaA1qraDN+3pmCsunD+Ur7IhPZhHAzdVjBRVmZSV4NhT9R5/javSFJ5LNLZREtjZAViQ==";
         };
+        _HUnXcXbO = {
+            "id" = "HUnXcXbO";
+            "file" = "puyu-forge-1.4.0.jar";
+            "hash" = "sha512-m6EnFIwAqaGVlrMRYdxjFw/ToITUD9+RdBMITuy2tHV9uBdA4QjSClXcJMa5R8oQxTMEa01RLZAZkiNQdu780Q==";
+        };
+        _5ftfgMw1 = {
+            "id" = "5ftfgMw1";
+            "file" = "puyu-fabric-1.4.0.jar";
+            "hash" = "sha512-Nf8XNudR0t/h9q1IqINB0rdSJDzDTRl1B70pVPKdmtRWzRDmNGQsD42U/mTW0f+QAVO4nqurO3Upk3GfCkc2wA==";
+        };
+        _xOSxb9Id = {
+            "id" = "xOSxb9Id";
+            "file" = "puyu-fabric-1.4.0b.jar";
+            "hash" = "sha512-4Kxr2UGU0AZcbJUPgyOnMQ8s3P0aoZ1VJDDWfQBfgjZdVtY1TYEGZBEcj86ha4Ne3NnJcPsl8/BbMN3Y4f5YKg==";
+        };
     in {
         "HUoEEhFc" = _HUoEEhFc;
         "wsPXxazy" = _wsPXxazy;
@@ -320,24 +335,27 @@ let
         "KLr7ps4n" = _KLr7ps4n;
         "kfhHrYlm" = _kfhHrYlm;
         "2DDZLBh5" = _2DDZLBh5;
-        "forge-1.20.1" = _kfhHrYlm;
-        "forge-1.20.2" = _kfhHrYlm;
-        "forge-1.20.3" = _kfhHrYlm;
-        "forge-1.20.4" = _kfhHrYlm;
-        "forge-1.20.5" = _kfhHrYlm;
-        "forge-1.20.6" = _kfhHrYlm;
-        "fabric-1.20.1" = _2DDZLBh5;
-        "fabric-1.20.2" = _2DDZLBh5;
-        "fabric-1.20.3" = _2DDZLBh5;
-        "fabric-1.20.4" = _2DDZLBh5;
-        "fabric-1.20.5" = _2DDZLBh5;
-        "fabric-1.20.6" = _2DDZLBh5;
-        "neoforge-1.20.1" = _kfhHrYlm;
-        "neoforge-1.20.2" = _kfhHrYlm;
-        "neoforge-1.20.3" = _kfhHrYlm;
-        "neoforge-1.20.4" = _kfhHrYlm;
-        "neoforge-1.20.5" = _kfhHrYlm;
-        "neoforge-1.20.6" = _kfhHrYlm;
+        "HUnXcXbO" = _HUnXcXbO;
+        "5ftfgMw1" = _5ftfgMw1;
+        "xOSxb9Id" = _xOSxb9Id;
+        "forge-1.20.1" = _HUnXcXbO;
+        "forge-1.20.2" = _HUnXcXbO;
+        "forge-1.20.3" = _HUnXcXbO;
+        "forge-1.20.4" = _HUnXcXbO;
+        "forge-1.20.5" = _HUnXcXbO;
+        "forge-1.20.6" = _HUnXcXbO;
+        "fabric-1.20.1" = _xOSxb9Id;
+        "fabric-1.20.2" = _xOSxb9Id;
+        "fabric-1.20.3" = _xOSxb9Id;
+        "fabric-1.20.4" = _xOSxb9Id;
+        "fabric-1.20.5" = _xOSxb9Id;
+        "fabric-1.20.6" = _xOSxb9Id;
+        "neoforge-1.20.1" = _HUnXcXbO;
+        "neoforge-1.20.2" = _HUnXcXbO;
+        "neoforge-1.20.3" = _HUnXcXbO;
+        "neoforge-1.20.4" = _HUnXcXbO;
+        "neoforge-1.20.5" = _HUnXcXbO;
+        "neoforge-1.20.6" = _HUnXcXbO;
         "pkg-1.0.4-template-1.20.1" = _HUoEEhFc;
         "pkg-1.0.5-template-1.20.1" = _wsPXxazy;
         "pkg-1.0.6-puyu-1.20.1" = _WtwoHkqK;
@@ -361,7 +379,9 @@ let
         "pkg-1.2.2-puyu-1.20.1" = _7JnMocV7;
         "pkg-1.2.3-puyu-1.20.1" = _KLr7ps4n;
         "pkg-1.2.4-puyu-1.20.1" = _2DDZLBh5;
-        "default" = _2DDZLBh5;
+        "pkg-1.4.0-puyu-1.20.1" = _5ftfgMw1;
+        "pkg-1.4.0.b-puyu-1.20.1" = _xOSxb9Id;
+        "default" = _xOSxb9Id;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "puyu";

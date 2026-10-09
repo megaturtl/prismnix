@@ -66,6 +66,16 @@ let
             "file" = "crafting-refinements-4.2.jar";
             "hash" = "sha512-MZLLuU5K21gpoYAxpRd+snImqBMQAO5U/DBXToCRk22svjp/ac+mwrRW0tOd5qIa7us5Q82hrX3eka6ipNoYNA==";
         };
+        _UobaTNtc = {
+            "id" = "UobaTNtc";
+            "file" = "crafting refinements v5.0.zip";
+            "hash" = "sha512-4lMKRU7+3aYbAN+erGRMvlqwmvz5wYyppNqDaLAao8D1rC+PCnJARrQnXBSHCzvXZyVKnBxfWx7LgOLfw89pjw==";
+        };
+        _H54sAetu = {
+            "id" = "H54sAetu";
+            "file" = "crafting-refinements-5.0.jar";
+            "hash" = "sha512-pwo3YU46afkHwjKFRRriOk31jXpKQbeAF+d0ITUF6PyeS6ii0srKJ4NBPuWSaxeWgfXxvmnTe4spXZzuufj11Q==";
+        };
     in {
         "ri0ohtnH" = _ri0ohtnH;
         "welqXQwk" = _welqXQwk;
@@ -80,6 +90,8 @@ let
         "L23LORR2" = _L23LORR2;
         "wgRxJosm" = _wgRxJosm;
         "EisPjvRv" = _EisPjvRv;
+        "UobaTNtc" = _UobaTNtc;
+        "H54sAetu" = _H54sAetu;
         "datapack-1.21.2" = _yHxxbAFL;
         "datapack-1.21.3" = _yHxxbAFL;
         "datapack-1.21.4" = _yHxxbAFL;
@@ -94,6 +106,7 @@ let
         "datapack-26.1.1" = _wgRxJosm;
         "datapack-26.1.2" = _wgRxJosm;
         "datapack-26.2" = _wgRxJosm;
+        "datapack-26.3" = _UobaTNtc;
         "fabric-1.21.2" = _42bH6rfV;
         "fabric-1.21.3" = _42bH6rfV;
         "fabric-1.21.4" = _42bH6rfV;
@@ -108,6 +121,7 @@ let
         "fabric-26.1.1" = _EisPjvRv;
         "fabric-26.1.2" = _EisPjvRv;
         "fabric-26.2" = _EisPjvRv;
+        "fabric-26.3" = _H54sAetu;
         "forge-1.21.2" = _42bH6rfV;
         "forge-1.21.3" = _42bH6rfV;
         "forge-1.21.4" = _42bH6rfV;
@@ -122,6 +136,7 @@ let
         "forge-26.1.1" = _EisPjvRv;
         "forge-26.1.2" = _EisPjvRv;
         "forge-26.2" = _EisPjvRv;
+        "forge-26.3" = _H54sAetu;
         "neoforge-1.21.2" = _42bH6rfV;
         "neoforge-1.21.3" = _42bH6rfV;
         "neoforge-1.21.4" = _42bH6rfV;
@@ -136,6 +151,7 @@ let
         "neoforge-26.1.1" = _EisPjvRv;
         "neoforge-26.1.2" = _EisPjvRv;
         "neoforge-26.2" = _EisPjvRv;
+        "neoforge-26.3" = _H54sAetu;
         "quilt-1.21.2" = _42bH6rfV;
         "quilt-1.21.3" = _42bH6rfV;
         "quilt-1.21.4" = _42bH6rfV;
@@ -150,6 +166,7 @@ let
         "quilt-26.1.1" = _EisPjvRv;
         "quilt-26.1.2" = _EisPjvRv;
         "quilt-26.2" = _EisPjvRv;
+        "quilt-26.3" = _H54sAetu;
         "pkg-1.0" = _ri0ohtnH;
         "pkg-1.1" = _welqXQwk;
         "pkg-1.1+mod" = _sHnDGdWd;
@@ -163,7 +180,9 @@ let
         "pkg-4.0+mod" = _L23LORR2;
         "pkg-4.2" = _wgRxJosm;
         "pkg-4.2+mod" = _EisPjvRv;
-        "default" = _EisPjvRv;
+        "pkg-5.0" = _UobaTNtc;
+        "pkg-5.0+mod" = _H54sAetu;
+        "default" = _H54sAetu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "crafting-refinements";

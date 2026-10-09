@@ -206,6 +206,16 @@ let
             "file" = "enderdragoneggrespawn-neoforge-26.2-26.2-0.1.jar";
             "hash" = "sha512-I5hxgqzHfJbgGui84QngGYsjFI7shIvW4+qEdF+W7pZBUu2RHWYzBiK5KtQoPeVnoKxZkwyK2oP+WoQWbQx9ng==";
         };
+        _44yA0E2a = {
+            "id" = "44yA0E2a";
+            "file" = "enderdragoneggrespawn-fabric-26.3-26.3-0.1.jar";
+            "hash" = "sha512-xAi5kGL1axxKn5TyUE7p377dF1MD6+nhBMCoB/m9rOQfAMKg9SDuU6FoCiTpPPGJmRrAqZDyXoIqHJ7qq+tdUQ==";
+        };
+        _waT19pXI = {
+            "id" = "waT19pXI";
+            "file" = "enderdragoneggrespawn-neoforge-26.3-26.3-0.1.jar";
+            "hash" = "sha512-G1Vrhv8HtTLU79zJYmmQnqVOaoM4+sbpIepcJL5GtqfOXQ6yTphF+19XEz/IFuAtvSUkglJYX6fTU4TbR5MF2w==";
+        };
     in {
         "6rhr2KHp" = _6rhr2KHp;
         "E4cT0yrK" = _E4cT0yrK;
@@ -248,6 +258,8 @@ let
         "TjpGaNAa" = _TjpGaNAa;
         "9BSzuZxl" = _9BSzuZxl;
         "TM15MHam" = _TM15MHam;
+        "44yA0E2a" = _44yA0E2a;
+        "waT19pXI" = _waT19pXI;
         "fabric-1.21" = _6rhr2KHp;
         "fabric-1.21.1" = _vfp3Dxby;
         "fabric-1.21.3" = _rIQ3v47v;
@@ -263,6 +275,7 @@ let
         "fabric-26.1.1" = _X43GqEe9;
         "fabric-26.1" = _TjpGaNAa;
         "fabric-26.2" = _9BSzuZxl;
+        "fabric-26.3" = _44yA0E2a;
         "forge-1.21" = _E4cT0yrK;
         "forge-1.21.1" = _6B921yLk;
         "forge-1.21.3" = _fUjQrm0X;
@@ -289,6 +302,7 @@ let
         "neoforge-26.1.1" = _fqftbbpl;
         "neoforge-26.1" = _SW5dcImV;
         "neoforge-26.2" = _TM15MHam;
+        "neoforge-26.3" = _waT19pXI;
         "pkg-1.21-0.1" = _TiRdqhsT;
         "pkg-1.21.1-0.1" = _vfp3Dxby;
         "pkg-1.21.3-0.1" = _rIQ3v47v;
@@ -304,7 +318,8 @@ let
         "pkg-26.1.1-0.1" = _X43GqEe9;
         "pkg-26.1-0.1" = _TjpGaNAa;
         "pkg-26.2-0.1" = _TM15MHam;
-        "default" = _TM15MHam;
+        "pkg-26.3-0.1" = _waT19pXI;
+        "default" = _waT19pXI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ender-dragon-egg-respawn";

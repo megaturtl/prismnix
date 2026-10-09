@@ -81,6 +81,16 @@ let
             "file" = "craft-music-discs-v2.0.2.jar";
             "hash" = "sha512-NiCaCn5o+b+4J6wucSAoy/hley2ZkkNn4j3y5+FMn3LqKxuxPvJM60ooLM+0sLEchzjbv50qCsOkstL8QZLdMw==";
         };
+        _FSoftczB = {
+            "id" = "FSoftczB";
+            "file" = "craft-music-discs-v2.1.0.0.zip";
+            "hash" = "sha512-LDlW2JAWx8RfbJyxo8QMlg8BM1wcrBLGy//4zLJFldqll3i12E3b5vbk/CFJAwuogfOlrKYVpe4QWFeLZ8LXlQ==";
+        };
+        _rcIqmdDt = {
+            "id" = "rcIqmdDt";
+            "file" = "craft-music-discs-v2.1.0.0.jar";
+            "hash" = "sha512-mGyil8HBhB4pnZIhaFXozmix1Cy2VqRRLWbtzBrGO4aYfL6wTHc+s6smKVDqc2PFkNAZNe1BbfXjDHkPKFB23A==";
+        };
     in {
         "dP2fNIca" = _dP2fNIca;
         "n7mOsq4j" = _n7mOsq4j;
@@ -98,6 +108,8 @@ let
         "lApArHFG" = _lApArHFG;
         "eEbNHOdD" = _eEbNHOdD;
         "a2cMQAAv" = _a2cMQAAv;
+        "FSoftczB" = _FSoftczB;
+        "rcIqmdDt" = _rcIqmdDt;
         "datapack-1.21" = _SVB41Fof;
         "datapack-1.21.1" = _SVB41Fof;
         "datapack-1.21.2" = _SVB41Fof;
@@ -113,6 +125,7 @@ let
         "datapack-26.1.1" = _eEbNHOdD;
         "datapack-26.1.2" = _eEbNHOdD;
         "datapack-26.2" = _eEbNHOdD;
+        "datapack-26.3" = _FSoftczB;
         "fabric-1.21" = _kA0H671c;
         "fabric-1.21.1" = _kA0H671c;
         "fabric-1.21.2" = _kA0H671c;
@@ -128,6 +141,7 @@ let
         "fabric-26.1.1" = _a2cMQAAv;
         "fabric-26.1.2" = _a2cMQAAv;
         "fabric-26.2" = _a2cMQAAv;
+        "fabric-26.3" = _rcIqmdDt;
         "forge-1.21" = _kA0H671c;
         "forge-1.21.1" = _kA0H671c;
         "forge-1.21.2" = _kA0H671c;
@@ -143,6 +157,7 @@ let
         "forge-26.1.1" = _a2cMQAAv;
         "forge-26.1.2" = _a2cMQAAv;
         "forge-26.2" = _a2cMQAAv;
+        "forge-26.3" = _rcIqmdDt;
         "quilt-1.21" = _kA0H671c;
         "quilt-1.21.1" = _kA0H671c;
         "quilt-1.21.2" = _kA0H671c;
@@ -158,6 +173,7 @@ let
         "quilt-26.1.1" = _a2cMQAAv;
         "quilt-26.1.2" = _a2cMQAAv;
         "quilt-26.2" = _a2cMQAAv;
+        "quilt-26.3" = _rcIqmdDt;
         "neoforge-1.21.4" = _jAxzNEQJ;
         "neoforge-1.21.6" = _a2cMQAAv;
         "neoforge-1.21.7" = _a2cMQAAv;
@@ -169,6 +185,7 @@ let
         "neoforge-26.1.1" = _a2cMQAAv;
         "neoforge-26.1.2" = _a2cMQAAv;
         "neoforge-26.2" = _a2cMQAAv;
+        "neoforge-26.3" = _rcIqmdDt;
         "pkg-v.1.0.0" = _ImjAUrk8;
         "pkg-v.1.0.0+mod" = _jAxzNEQJ;
         "pkg-v.1.1.0" = _SVB41Fof;
@@ -181,7 +198,9 @@ let
         "pkg-v2.0.1.1+mod" = _lApArHFG;
         "pkg-v2.0.2" = _eEbNHOdD;
         "pkg-v2.0.2+mod" = _a2cMQAAv;
-        "default" = _a2cMQAAv;
+        "pkg-v2.1.0.0" = _FSoftczB;
+        "pkg-v2.1.0.0+mod" = _rcIqmdDt;
+        "default" = _rcIqmdDt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craft-music-discs";

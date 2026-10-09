@@ -21,11 +21,17 @@ let
             "file" = "sound+.zip";
             "hash" = "sha512-o3368AIs7Lg6TFft7plWX6iRqOs7/YnkOvA5O6SAd7CXwoaUlAAkS6Dt9vY8/PWyjlZ9O7UEF9P/qHgXdp1ubw==";
         };
+        _X1CeqBjD = {
+            "id" = "X1CeqBjD";
+            "file" = "Sound+.zip";
+            "hash" = "sha512-eca8CAG6hE/sljbu/YqXMnDT6CIb+CbV1Y568FwkRSd2eNA1CSZyBeuYnv0E81TB8nRP/kRXyvrlJqbmHG8rVQ==";
+        };
     in {
         "ALRNtjdV" = _ALRNtjdV;
         "sngAR3DN" = _sngAR3DN;
         "fdcunXFQ" = _fdcunXFQ;
         "ADFbn5iS" = _ADFbn5iS;
+        "X1CeqBjD" = _X1CeqBjD;
         "minecraft-1.13" = _ALRNtjdV;
         "minecraft-1.13.1" = _ALRNtjdV;
         "minecraft-1.13.2" = _ALRNtjdV;
@@ -120,10 +126,12 @@ let
         "minecraft-26.1" = _ADFbn5iS;
         "minecraft-26.1.1" = _ADFbn5iS;
         "minecraft-26.1.2" = _ADFbn5iS;
+        "minecraft-26.2" = _X1CeqBjD;
         "pkg-1.0" = _ALRNtjdV;
         "pkg-1.1" = _fdcunXFQ;
         "pkg-1.4" = _ADFbn5iS;
-        "default" = _ADFbn5iS;
+        "pkg-1.5" = _X1CeqBjD;
+        "default" = _X1CeqBjD;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "sound+";

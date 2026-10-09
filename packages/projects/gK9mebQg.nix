@@ -221,6 +221,16 @@ let
             "file" = "LeaveMyBarsAlone-v26.2.0-mc26.2.x-Fabric.jar";
             "hash" = "sha512-rrtNqvETWgYYaK4MGKOL/r70y6Ex9GxzdD9DsAXc079tS/lZN/wkWDKZmcwgM1v5PvZaz/wArR32ZZ/BDlfRhQ==";
         };
+        _536Rcc1N = {
+            "id" = "536Rcc1N";
+            "file" = "leavemybarsalone-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-EhCtXW1/LwgNzlltgu1f9Uox7mo+daSkmZms9yct5tE/MVWIcmPCN9eWtk1EA0tCQLsYB+SP9G/xDTFLvKC0uA==";
+        };
+        _bPpk7PnO = {
+            "id" = "bPpk7PnO";
+            "file" = "leavemybarsalone-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-jIvC9d8YlJFKPf8kRoFmfqX+iRdZAexeXDOQKair885DnO/rY7270sW1tq5HlP8vai4U/2OveC4DRd8heta8PQ==";
+        };
     in {
         "5ZVGevBq" = _5ZVGevBq;
         "tKsIKH5k" = _tKsIKH5k;
@@ -266,6 +276,8 @@ let
         "juW8kakA" = _juW8kakA;
         "ki6Upjtw" = _ki6Upjtw;
         "8xoAPNDL" = _8xoAPNDL;
+        "536Rcc1N" = _536Rcc1N;
+        "bPpk7PnO" = _bPpk7PnO;
         "forge-1.19.2" = _5ZVGevBq;
         "forge-1.19.3" = _Y2bJJseT;
         "forge-1.19.4" = _ky9czhBW;
@@ -293,6 +305,7 @@ let
         "fabric-26.1.1" = _juW8kakA;
         "fabric-26.1.2" = _juW8kakA;
         "fabric-26.2" = _8xoAPNDL;
+        "fabric-26.3" = _536Rcc1N;
         "neoforge-1.20.4" = _U6QaV0Gd;
         "neoforge-1.21.1" = _27kYf7JI;
         "neoforge-1.21.3" = _LgLbLLui;
@@ -307,6 +320,7 @@ let
         "neoforge-26.1.1" = _GMW8DNh9;
         "neoforge-26.1.2" = _GMW8DNh9;
         "neoforge-26.2" = _ki6Upjtw;
+        "neoforge-26.3" = _bPpk7PnO;
         "pkg-v4.0.0-1.19.2-Forge" = _5ZVGevBq;
         "pkg-v4.0.0-1.19.2-Fabric" = _tKsIKH5k;
         "pkg-v5.0.0-1.19.3-Fabric" = _EOgwCGZY;
@@ -346,7 +360,8 @@ let
         "pkg-21.11.0" = _rj9zYRrW;
         "pkg-26.1.0" = _juW8kakA;
         "pkg-26.2.0" = _8xoAPNDL;
-        "default" = _8xoAPNDL;
+        "pkg-26.3.0" = _bPpk7PnO;
+        "default" = _bPpk7PnO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "leave-my-bars-alone";

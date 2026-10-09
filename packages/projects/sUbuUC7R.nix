@@ -886,6 +886,16 @@ let
             "file" = "actuallyharvest-26.2-neoforge-1.1.7.6-NEOFORGE.jar";
             "hash" = "sha512-LaXHl4Qth2tqllAfzD2MrLRLY/s4ObVuK+aODGQR4JUnTeKxSIkiOY8BE3rulzXRSXAPThshx5aT5jfkHpCiQg==";
         };
+        _o3ZVPnzT = {
+            "id" = "o3ZVPnzT";
+            "file" = "actuallyharvest-26.3-fabric-1.1.7.6-FABRIC.jar";
+            "hash" = "sha512-wK+AqsFIl2G3a/b2vhEgWzeEgUnGpuGu5ZOuh1zLKVwwzeK2xS6HGZ63jA+9ielCx0AGyDAADSI0QVk7r3oCNQ==";
+        };
+        _fpSh9iIg = {
+            "id" = "fpSh9iIg";
+            "file" = "actuallyharvest-26.3-neoforge-1.1.7.6-NEOFORGE.jar";
+            "hash" = "sha512-3yHYlxuD3wBs8B2T5KhBcmoBsbwPJ2NfZy+Hsfqm+nwLHX0ueKN+B99iW+xgzLDRmbJo5UQxtehAqr/XUoWUXg==";
+        };
     in {
         "B16sBgYV" = _B16sBgYV;
         "X0ux2SYX" = _X0ux2SYX;
@@ -1064,6 +1074,8 @@ let
         "Q3bJmr2P" = _Q3bJmr2P;
         "tIz9bIgx" = _tIz9bIgx;
         "JYZKeLcE" = _JYZKeLcE;
+        "o3ZVPnzT" = _o3ZVPnzT;
+        "fpSh9iIg" = _fpSh9iIg;
         "fabric-1.20" = _ft87fXPa;
         "fabric-1.20.1" = _Xk06pIkO;
         "fabric-1.20.4" = _cPXKl6F3;
@@ -1081,6 +1093,7 @@ let
         "fabric-26.1.1" = _tSEFnno8;
         "fabric-26.1.2" = _tSEFnno8;
         "fabric-26.2" = _tIz9bIgx;
+        "fabric-26.3" = _o3ZVPnzT;
         "forge-1.20" = _U0P9RdjX;
         "forge-1.20.1" = _MPzbQXwU;
         "neoforge-1.20" = _U0P9RdjX;
@@ -1100,6 +1113,7 @@ let
         "neoforge-26.1.1" = _Q3bJmr2P;
         "neoforge-26.1.2" = _Q3bJmr2P;
         "neoforge-26.2" = _JYZKeLcE;
+        "neoforge-26.3" = _fpSh9iIg;
         "pkg-1.20.1-1.0.0.0-FABRIC" = _B16sBgYV;
         "pkg-1.20.1-1.0.0.0-FORGE" = _X0ux2SYX;
         "pkg-1.20.4-1.0.0.0-FABRIC" = _uom6zfr7;
@@ -1276,7 +1290,9 @@ let
         "pkg-26.1.2-1.1.7.6-NEOFORGE" = _Q3bJmr2P;
         "pkg-26.2-1.1.7.6-FABRIC" = _tIz9bIgx;
         "pkg-26.2-1.1.7.6-NEOFORGE" = _JYZKeLcE;
-        "default" = _JYZKeLcE;
+        "pkg-26.3-1.1.7.6-FABRIC" = _o3ZVPnzT;
+        "pkg-26.3-1.1.7.6-NEOFORGE" = _fpSh9iIg;
+        "default" = _fpSh9iIg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "actually-harvest";

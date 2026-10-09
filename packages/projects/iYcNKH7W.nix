@@ -171,6 +171,16 @@ let
             "file" = "prometheus-fabric-1.20.1-1.2.5.jar";
             "hash" = "sha512-xKMZNe5+T0/Pl7/LULjuSZgPLGKPruTaxIQTGPil9CfPw5uJCSxdITYPNdGZFfrEXDtLC8LIsDh9NAPYMGvlww==";
         };
+        _j77HCBDI = {
+            "id" = "j77HCBDI";
+            "file" = "prometheus-neoforge-1.21-2.0.0.jar";
+            "hash" = "sha512-bXgkwHRLkz2ty2wRQl+HbOf+hFSNaEQ8cOfpM0mQmBHOj19d0efQFeR93U1KmzZYcOpaUSvSb3Cv5UUFlozYLg==";
+        };
+        _X4D69l4C = {
+            "id" = "X4D69l4C";
+            "file" = "prometheus-fabric-1.21-2.0.0.jar";
+            "hash" = "sha512-2OZ3A9qHAnF/bKP+CGCQf9MrQ6b7QLfJYayRqA7HlHpED7nf1IGbF9b5ZxT+Eo+tacZHHL9CmI00xq/xCVgi6A==";
+        };
     in {
         "eRAb3XkY" = _eRAb3XkY;
         "C5LLDjN7" = _C5LLDjN7;
@@ -206,14 +216,18 @@ let
         "mRxmKKwW" = _mRxmKKwW;
         "uBbjID8A" = _uBbjID8A;
         "QkqSEkKm" = _QkqSEkKm;
+        "j77HCBDI" = _j77HCBDI;
+        "X4D69l4C" = _X4D69l4C;
         "forge-1.20" = _TjVZnzRd;
         "forge-1.20.1" = _uBbjID8A;
         "fabric-1.20" = _F7nP2aMi;
         "fabric-1.20.1" = _QkqSEkKm;
         "fabric-1.20.2" = _c8Yjed9P;
         "fabric-1.20.4" = _mRxmKKwW;
+        "fabric-1.21" = _X4D69l4C;
         "neoforge-1.20.2" = _CYAaeG01;
         "neoforge-1.20.4" = _3dB8GjKn;
+        "neoforge-1.21" = _j77HCBDI;
         "pkg-0.0.0" = _C5LLDjN7;
         "pkg-0.0.1" = _F7nP2aMi;
         "pkg-1.0.0" = _VtlbkqSy;
@@ -231,7 +245,8 @@ let
         "pkg-1.4.1" = _XkpDwfo3;
         "pkg-1.4.2" = _mRxmKKwW;
         "pkg-1.2.5" = _QkqSEkKm;
-        "default" = _QkqSEkKm;
+        "pkg-2.0.0" = _X4D69l4C;
+        "default" = _X4D69l4C;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "odyssey-roles";

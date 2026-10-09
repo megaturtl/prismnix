@@ -241,6 +241,11 @@ let
             "file" = "CulinaryCraft 0.0.6 NeoForge (1.21.1).jar";
             "hash" = "sha512-HPV7aBjeFhRc32Y+jzsL2Dylew5ZDa3RD9Qedcq/Y/dBcxkkhd3O1nV99hKHFRWy8FCjVmybj4B3QnyGYvajlQ==";
         };
+        _W1OSZa20 = {
+            "id" = "W1OSZa20";
+            "file" = "CuisineCraft 0.0.6 Fabric (1.20.1).jar";
+            "hash" = "sha512-mX8g/VNm5FNchUETofdpJ8LpSRtrq50JFJbp9wjntBA6lgn8pU/9b9OviCTFMvN5mW8eb/sFZmie0KseXbWC/w==";
+        };
     in {
         "qWQK80KN" = _qWQK80KN;
         "9uoRA1IK" = _9uoRA1IK;
@@ -290,6 +295,7 @@ let
         "ZKUDC7oe" = _ZKUDC7oe;
         "U41G0gCj" = _U41G0gCj;
         "g8QSbJRZ" = _g8QSbJRZ;
+        "W1OSZa20" = _W1OSZa20;
         "forge-1.12.2" = _yYzzbn39;
         "forge-1.16.5" = _EPaYnPqw;
         "forge-1.18.2" = _VG2MDgrA;
@@ -300,6 +306,7 @@ let
         "forge-1.21.1" = _ZKUDC7oe;
         "fabric-1.21" = _7sfBdYob;
         "fabric-1.21.1" = _U41G0gCj;
+        "fabric-1.20.1" = _W1OSZa20;
         "neoforge-1.21" = _GM3RJBoe;
         "neoforge-1.21.1" = _g8QSbJRZ;
         "pkg-0.0.1" = _MME9uhMI;
@@ -307,8 +314,8 @@ let
         "pkg-0.0.3" = _Iw7gisLz;
         "pkg-0.0.4" = _YjIIdY1T;
         "pkg-0.0.5" = _GM3RJBoe;
-        "pkg-0.0.6" = _g8QSbJRZ;
-        "default" = _g8QSbJRZ;
+        "pkg-0.0.6" = _W1OSZa20;
+        "default" = _W1OSZa20;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "culinarycraft-a-better-food-experience";

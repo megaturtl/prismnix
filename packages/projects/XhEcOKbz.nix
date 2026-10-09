@@ -31,6 +31,11 @@ let
             "file" = "FartherLands-1.6.jar";
             "hash" = "sha512-pT6ZTgMcKglg6uYIlhh22uTqSBlYZhJ5VpeAOVPEhyDSDuWF98uf1hwWu6BjIpmy3WKiTYKqnslh9mKHLYAncg==";
         };
+        _mb8ThNs3 = {
+            "id" = "mb8ThNs3";
+            "file" = "FartherLands-1.7.jar";
+            "hash" = "sha512-MVaV2oK3lZH6Vb/qrRXegu/PddalmCOP+0BG5K0IP5HASN9p4hrFpoMoeTMORijGZe+2H1wD/gnRxaoXqA+htQ==";
+        };
     in {
         "zj34bPfC" = _zj34bPfC;
         "CWRVy7h5" = _CWRVy7h5;
@@ -38,19 +43,22 @@ let
         "PU8IVCIQ" = _PU8IVCIQ;
         "eNrZtx8a" = _eNrZtx8a;
         "5OFnfkJB" = _5OFnfkJB;
+        "mb8ThNs3" = _mb8ThNs3;
         "fabric-1.21.10" = _CWRVy7h5;
         "fabric-1.21.11" = _Q3ZyG5tg;
         "fabric-26.1" = _eNrZtx8a;
         "fabric-26.1.1" = _eNrZtx8a;
         "fabric-26.1.2" = _eNrZtx8a;
         "fabric-26.2" = _5OFnfkJB;
+        "fabric-26.3" = _mb8ThNs3;
         "pkg-1.1" = _zj34bPfC;
         "pkg-1.2" = _CWRVy7h5;
         "pkg-1.3" = _Q3ZyG5tg;
         "pkg-1.4" = _PU8IVCIQ;
         "pkg-1.5" = _eNrZtx8a;
         "pkg-1.6" = _5OFnfkJB;
-        "default" = _5OFnfkJB;
+        "pkg-1.7" = _mb8ThNs3;
+        "default" = _mb8ThNs3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fartherlands";

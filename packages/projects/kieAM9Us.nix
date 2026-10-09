@@ -376,6 +376,21 @@ let
             "file" = "ly-graves-3.0.1.jar";
             "hash" = "sha512-K5EV3pY+1sWaLNggM1qhdxDaPLFBaRehFBrQFNgtwHEIGxkcmna8ySu+Gkf8cjgavaujjcY7h7osKXTquFIhKQ==";
         };
+        _1MHy2q49 = {
+            "id" = "1MHy2q49";
+            "file" = "Graves v3.0.1 [26.3].zip";
+            "hash" = "sha512-fn9zmdW5iKep37dYi6Nf6bp5gojmyL8JF4nW0f0s/ViN/As2osYFJdGeFGGtZ8eI4qlCeGSMctnBiUMkT3WDXg==";
+        };
+        _H2GKwWJL = {
+            "id" = "H2GKwWJL";
+            "file" = "ly-graves-3.0.1.jar";
+            "hash" = "sha512-WBuY14OHq42VmY7IBraL07zE8vNSu8SrH5kamNxh6jVXNjefXwo+FVSPiLJ9sTs3dM0SLGva0XbCBLq7vy/Qzw==";
+        };
+        _5rgPAbeA = {
+            "id" = "5rgPAbeA";
+            "file" = "ly-graves-3.0.1.jar";
+            "hash" = "sha512-WBuY14OHq42VmY7IBraL07zE8vNSu8SrH5kamNxh6jVXNjefXwo+FVSPiLJ9sTs3dM0SLGva0XbCBLq7vy/Qzw==";
+        };
     in {
         "Jc3DDm5m" = _Jc3DDm5m;
         "TqO7QiJW" = _TqO7QiJW;
@@ -452,6 +467,9 @@ let
         "YiPkk2xn" = _YiPkk2xn;
         "C4bbinyW" = _C4bbinyW;
         "Iy49DpF5" = _Iy49DpF5;
+        "1MHy2q49" = _1MHy2q49;
+        "H2GKwWJL" = _H2GKwWJL;
+        "5rgPAbeA" = _5rgPAbeA;
         "datapack-1.21" = _ecUh49gM;
         "datapack-1.21.1" = _ecUh49gM;
         "datapack-1.21.2" = _yjyCQ6g1;
@@ -468,6 +486,7 @@ let
         "datapack-26.1.1" = _U6EwqLCR;
         "datapack-26.1.2" = _U6EwqLCR;
         "datapack-26.2" = _C4bbinyW;
+        "datapack-26.3" = _1MHy2q49;
         "fabric-1.21" = _aDawNuWd;
         "fabric-1.21.1" = _aDawNuWd;
         "fabric-1.21.2" = _YiPkk2xn;
@@ -484,6 +503,7 @@ let
         "fabric-26.1.1" = _CJaNKM4V;
         "fabric-26.1.2" = _CJaNKM4V;
         "fabric-26.2" = _Iy49DpF5;
+        "fabric-26.3" = _5rgPAbeA;
         "forge-1.21" = _aDawNuWd;
         "forge-1.21.1" = _aDawNuWd;
         "forge-1.21.2" = _YiPkk2xn;
@@ -500,6 +520,7 @@ let
         "forge-26.1.1" = _CJaNKM4V;
         "forge-26.1.2" = _CJaNKM4V;
         "forge-26.2" = _Iy49DpF5;
+        "forge-26.3" = _5rgPAbeA;
         "neoforge-1.21" = _aDawNuWd;
         "neoforge-1.21.1" = _aDawNuWd;
         "neoforge-1.21.2" = _YiPkk2xn;
@@ -516,6 +537,7 @@ let
         "neoforge-26.1.1" = _CJaNKM4V;
         "neoforge-26.1.2" = _CJaNKM4V;
         "neoforge-26.2" = _Iy49DpF5;
+        "neoforge-26.3" = _5rgPAbeA;
         "quilt-1.21" = _aDawNuWd;
         "quilt-1.21.1" = _aDawNuWd;
         "quilt-1.21.2" = _YiPkk2xn;
@@ -532,6 +554,7 @@ let
         "quilt-26.1.1" = _CJaNKM4V;
         "quilt-26.1.2" = _CJaNKM4V;
         "quilt-26.2" = _Iy49DpF5;
+        "quilt-26.3" = _5rgPAbeA;
         "pkg-v1.0.0" = _Jc3DDm5m;
         "pkg-v1.0.1" = _TqO7QiJW;
         "pkg-v1.0.1+mod" = _2ZmmNEYU;
@@ -575,9 +598,9 @@ let
         "pkg-v3.0.0+mod" = _CJaNKM4V;
         "pkg-v3.0.1" = _yjyCQ6g1;
         "pkg-v3.0.1+mod" = _YiPkk2xn;
-        "pkg-3.0.1" = _C4bbinyW;
-        "pkg-3.0.1+mod" = _Iy49DpF5;
-        "default" = _Iy49DpF5;
+        "pkg-3.0.1" = _1MHy2q49;
+        "pkg-3.0.1+mod" = _5rgPAbeA;
+        "default" = _5rgPAbeA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ly-graves";

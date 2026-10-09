@@ -71,6 +71,56 @@ let
             "file" = "peterwolfs-planes-1.1.19.jar";
             "hash" = "sha512-yYDJnFsM42kKqgGTb3SDUTfyuiTmbaYaKcLlp/zRs7T5Lw5YdWtm1zYNkl1SWNt7R93kXfEnoRO1bNWiV752Uw==";
         };
+        _dhqT8AjT = {
+            "id" = "dhqT8AjT";
+            "file" = "peterwolfs-planes-1.2.0.jar";
+            "hash" = "sha512-5x+P71rApTXfALeoSQJt3Cy6l1AAQMAKDZbzJeKZ1TJ1dCwU2ksA3TKai/xz5B6hHK9WmsSNnbbiEzze7xzemg==";
+        };
+        _JLuImB8Z = {
+            "id" = "JLuImB8Z";
+            "file" = "peterwolfs-planes-1.2.2.jar";
+            "hash" = "sha512-SKIUIN/iCwRfouw909q4Zf45F0+UrOvHxRvoJ6O/szu4/+Eox6gJPwpHMf3tx9+W6W275H3SIf46ILcUjs5i1A==";
+        };
+        _eKH1xuSL = {
+            "id" = "eKH1xuSL";
+            "file" = "peterwolfs-planes-1.2.3.jar";
+            "hash" = "sha512-3XOyQfl3E8ZRPki3Z3HW4vzRDhpbWMZinNlM9IMbeHPQ/kwRHGA+DOzkRbM846B78m0pii9UcgCP5GQCa3FDGw==";
+        };
+        _FN8onIqx = {
+            "id" = "FN8onIqx";
+            "file" = "peterwolfs-planes-1.2.4.jar";
+            "hash" = "sha512-eCineA+HHGmfYzTCbcUplIrj/vss49Ys5Iy0TP9QXfzxx2KRKY3kRiZkCmkxHgYrooiQUmy8mc1dgUPjkY842w==";
+        };
+        _lHcp29ru = {
+            "id" = "lHcp29ru";
+            "file" = "peterwolfs-planes-1.2.5.jar";
+            "hash" = "sha512-U96A0XiTCtm1IYbdlQG1r8Mimi4LAFZ2v4hwpCX4xVkx368jEnPyCFtlMwBmEAGlO+UQaFB5+3Vff1pC3RlcbQ==";
+        };
+        _XKHMa3F9 = {
+            "id" = "XKHMa3F9";
+            "file" = "peterwolfs-planes-1.2.5+26.2.jar";
+            "hash" = "sha512-zy6Ulzky9GrVAqZHxJUKtE1K0slZyn8XJ9jtzMFetHNU7bByx/P9TwtfN/oXpWQ/ocy8mGy+TapwVlOBidDUPQ==";
+        };
+        _j4JX6Twg = {
+            "id" = "j4JX6Twg";
+            "file" = "peterwolfs-planes-1.2.5+1.21.11.jar";
+            "hash" = "sha512-SlMf1NWIl1ARdd8zTuSeAiKk8DMQvEE+QniuIlPynn8spClm1komJ4s3keCzDz+/CH0dsohGPdEUxy5baaPGSw==";
+        };
+        _jOTV5uqM = {
+            "id" = "jOTV5uqM";
+            "file" = "peterwolfs-planes-neoforge-1.2.5+26.3.jar";
+            "hash" = "sha512-euX5vIb6gy1bNkG5eG7ThRNyK+yvY3hNuFPaoV48/okxjy3pkUqRccHb30TI9v46okDEIwJYh/S5boKdbhB8pg==";
+        };
+        _gKfvyejO = {
+            "id" = "gKfvyejO";
+            "file" = "peterwolfs-planes-neoforge-1.2.5+26.2.jar";
+            "hash" = "sha512-xkQrv068LZxF60LcJi+T+dT98U3XImzKILXOfdmnHPlhGn+X9187RQD2cOFMcYEAj7p0VbpnsfIDD8R1K/EApw==";
+        };
+        _xqX1pcFe = {
+            "id" = "xqX1pcFe";
+            "file" = "peterwolfs-planes-neoforge-1.2.5+1.21.11.jar";
+            "hash" = "sha512-KuIWNX2MxKP46sxAcPmgkZhhWYw3a7lAEoanLL+MBOxH2r44cVQy9mdO1TPC8s1lPYt9wYn/dU3SR/GjZnBgow==";
+        };
     in {
         "6OqpVcaN" = _6OqpVcaN;
         "3YfYzkYE" = _3YfYzkYE;
@@ -86,9 +136,22 @@ let
         "eXrKpC8n" = _eXrKpC8n;
         "WG7mzy4c" = _WG7mzy4c;
         "5bTig2RR" = _5bTig2RR;
-        "fabric-26.2" = _5bTig2RR;
-        "fabric-1.21.11" = _kkpMIMGA;
-        "neoforge-26.2" = _eXrKpC8n;
+        "dhqT8AjT" = _dhqT8AjT;
+        "JLuImB8Z" = _JLuImB8Z;
+        "eKH1xuSL" = _eKH1xuSL;
+        "FN8onIqx" = _FN8onIqx;
+        "lHcp29ru" = _lHcp29ru;
+        "XKHMa3F9" = _XKHMa3F9;
+        "j4JX6Twg" = _j4JX6Twg;
+        "jOTV5uqM" = _jOTV5uqM;
+        "gKfvyejO" = _gKfvyejO;
+        "xqX1pcFe" = _xqX1pcFe;
+        "fabric-26.2" = _XKHMa3F9;
+        "fabric-1.21.11" = _j4JX6Twg;
+        "fabric-26.3" = _lHcp29ru;
+        "neoforge-26.2" = _gKfvyejO;
+        "neoforge-26.3" = _jOTV5uqM;
+        "neoforge-1.21.11" = _xqX1pcFe;
         "pkg-1.0.0" = _6OqpVcaN;
         "pkg-1.0.6" = _3YfYzkYE;
         "pkg-1.0.10" = _NFB1g3UM;
@@ -102,7 +165,15 @@ let
         "pkg-1.1.16+1.21.11" = _kkpMIMGA;
         "pkg-1.1.17" = _WG7mzy4c;
         "pkg-1.1.19" = _5bTig2RR;
-        "default" = _5bTig2RR;
+        "pkg-1.2.0" = _dhqT8AjT;
+        "pkg-1.2.2" = _JLuImB8Z;
+        "pkg-1.2.3" = _eKH1xuSL;
+        "pkg-1.2.4" = _FN8onIqx;
+        "pkg-1.2.5" = _lHcp29ru;
+        "pkg-1.2.5+26.2" = _gKfvyejO;
+        "pkg-1.2.5+1.21.11" = _xqX1pcFe;
+        "pkg-1.2.5+26.3" = _jOTV5uqM;
+        "default" = _xqX1pcFe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "peterwolfs-planes";

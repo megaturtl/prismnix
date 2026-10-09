@@ -96,6 +96,11 @@ let
             "file" = "§d§kFLAKE§r §bF§5l§da§ck§6e §b§kFLAKE.zip";
             "hash" = "sha512-gNscoSkFIeBrDgSzCmGx/x3XCtI2KdnSticqTinWSxGEvaoP76O8KF8WYmsdm0Ve2ET3GtZtO+/UU9J0XVo5rg==";
         };
+        _jZbz162p = {
+            "id" = "jZbz162p";
+            "file" = "Flake.zip";
+            "hash" = "sha512-XxvK2enHlvaA17WEt8vAWvzbTaROqrYASs+XeZj3oTSF+TC3274798E8/x6/kSVvSC2DATJrwN+QoQ2nEt931A==";
+        };
     in {
         "H98gFBNV" = _H98gFBNV;
         "NBYMxL7u" = _NBYMxL7u;
@@ -116,6 +121,7 @@ let
         "gK8B4ih9" = _gK8B4ih9;
         "nhIjSEfE" = _nhIjSEfE;
         "wQxaOOda" = _wQxaOOda;
+        "jZbz162p" = _jZbz162p;
         "minecraft-1.19" = _kfOIZQYR;
         "minecraft-1.19.1" = _kfOIZQYR;
         "minecraft-1.19.2" = _kfOIZQYR;
@@ -143,6 +149,7 @@ let
         "minecraft-1.21.6" = _nhIjSEfE;
         "minecraft-1.21.7" = _nhIjSEfE;
         "minecraft-1.21.8" = _wQxaOOda;
+        "minecraft-26.2" = _jZbz162p;
         "pkg-1" = _H98gFBNV;
         "pkg-1.1" = _NBYMxL7u;
         "pkg-2.0" = _UDREBOik;
@@ -161,7 +168,8 @@ let
         "pkg-3.9" = _oKolZixY;
         "pkg-4.0" = _gK8B4ih9;
         "pkg-4.1" = _wQxaOOda;
-        "default" = _wQxaOOda;
+        "pkg-4.2" = _jZbz162p;
+        "default" = _jZbz162p;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "flake";

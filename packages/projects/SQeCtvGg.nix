@@ -101,6 +101,16 @@ let
             "file" = "chiseledbookshelfvisualizer-neoforge-26.1-4.4.0.jar";
             "hash" = "sha512-el5TEaFYjTm3mMsaWe/gMXgfLujuMKxYgW1comURsebjGj43v3dZiGm6jRSwGPnBniEi3kDTdqRPZmGYSnGhRA==";
         };
+        _lMWXbi0j = {
+            "id" = "lMWXbi0j";
+            "file" = "chiseledbookshelfvisualizer-neoforge-26.3-5.2.0.jar";
+            "hash" = "sha512-AunDlp45fuj0DCVhRIMSg0ZS0gV62tUSROSHEzFfNpgKQfMqcQUeRgV68aZm5TI33bJTwY5Wpozx4t+ARJpLhw==";
+        };
+        _zBRKCXF5 = {
+            "id" = "zBRKCXF5";
+            "file" = "chiseledbookshelfvisualizer-fabric-26.3-5.2.0.jar";
+            "hash" = "sha512-o1IdLc3kwhHVeIzkkTKuW108pYpbxRbhG+e5Q8RWc9evOJ5HBz6bHXuBvnDGhrVEikjZA8q+1AR4MNPNotRuwQ==";
+        };
     in {
         "au49cW5i" = _au49cW5i;
         "nPRsPPoM" = _nPRsPPoM;
@@ -122,6 +132,8 @@ let
         "DAjcyjWV" = _DAjcyjWV;
         "bm8zQZcG" = _bm8zQZcG;
         "UzMXxbTL" = _UzMXxbTL;
+        "lMWXbi0j" = _lMWXbi0j;
+        "zBRKCXF5" = _zBRKCXF5;
         "fabric-1.20" = _nPRsPPoM;
         "fabric-1.20.1" = _nPRsPPoM;
         "fabric-1.20.2" = _nPRsPPoM;
@@ -142,6 +154,7 @@ let
         "fabric-26.1.1" = _bm8zQZcG;
         "fabric-26.1.2" = _bm8zQZcG;
         "fabric-26.2" = _DAjcyjWV;
+        "fabric-26.3" = _zBRKCXF5;
         "quilt-1.20" = _nPRsPPoM;
         "quilt-1.20.1" = _nPRsPPoM;
         "quilt-1.20.2" = _nPRsPPoM;
@@ -162,10 +175,12 @@ let
         "quilt-26.1.1" = _bm8zQZcG;
         "quilt-26.1.2" = _bm8zQZcG;
         "quilt-26.2" = _DAjcyjWV;
+        "quilt-26.3" = _zBRKCXF5;
         "neoforge-26.2" = _eKy9cCOd;
         "neoforge-26.1" = _UzMXxbTL;
         "neoforge-26.1.1" = _UzMXxbTL;
         "neoforge-26.1.2" = _UzMXxbTL;
+        "neoforge-26.3" = _lMWXbi0j;
         "pkg-1.0" = _au49cW5i;
         "pkg-2.0" = _nPRsPPoM;
         "pkg-3.1" = _ZNyr7EDx;
@@ -180,7 +195,8 @@ let
         "pkg-5.0.0" = _AqF5NWVs;
         "pkg-5.1.0" = _DAjcyjWV;
         "pkg-4.4.0" = _UzMXxbTL;
-        "default" = _UzMXxbTL;
+        "pkg-5.2.0" = _zBRKCXF5;
+        "default" = _zBRKCXF5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chiseled-bookshelf-visualizer";

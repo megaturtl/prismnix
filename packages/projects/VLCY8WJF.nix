@@ -41,6 +41,11 @@ let
             "file" = "MobHealth-2.0.2.jar";
             "hash" = "sha512-CvDit28QOpJOyGexzbHdKRz5rPplxOjGULBtusC8XVLf7fbBplXLuiINOZfk8BiS4W1Kf+TKFbqG1HFl8hRmiA==";
         };
+        _hK5BZUvL = {
+            "id" = "hK5BZUvL";
+            "file" = "MobHealth-2.0.3.jar";
+            "hash" = "sha512-C0E1a4XBrGef//zUBJSEfE7dY6Nqed5olR2fUK4bG/rL7wdf+AVTs+rKgx9rAufUp0MOcIM/Hvc6bqsZ9h/o+w==";
+        };
     in {
         "fGZ4fTkk" = _fGZ4fTkk;
         "OSW0cb1m" = _OSW0cb1m;
@@ -50,6 +55,7 @@ let
         "3Ma0UKjb" = _3Ma0UKjb;
         "lZbYnTtq" = _lZbYnTtq;
         "nutfMAk1" = _nutfMAk1;
+        "hK5BZUvL" = _hK5BZUvL;
         "bukkit-1.21" = _LN5xFnul;
         "bukkit-1.21.1" = _LN5xFnul;
         "bukkit-1.21.2" = _LN5xFnul;
@@ -78,6 +84,7 @@ let
         "paper-26.1.1" = _lZbYnTtq;
         "paper-26.1.2" = _lZbYnTtq;
         "paper-26.2" = _nutfMAk1;
+        "paper-26.3" = _hK5BZUvL;
         "spigot-1.21" = _LN5xFnul;
         "spigot-1.21.1" = _LN5xFnul;
         "spigot-1.21.2" = _LN5xFnul;
@@ -104,6 +111,7 @@ let
         "purpur-26.1.1" = _lZbYnTtq;
         "purpur-26.1.2" = _lZbYnTtq;
         "purpur-26.2" = _nutfMAk1;
+        "purpur-26.3" = _hK5BZUvL;
         "pkg-1.0.0" = _fGZ4fTkk;
         "pkg-1.1.0" = _OSW0cb1m;
         "pkg-1.1.1" = _qPrlux3R;
@@ -111,7 +119,8 @@ let
         "pkg-2.0.0" = _F4Hj1hLw;
         "pkg-2.0.1" = _lZbYnTtq;
         "pkg-2.0.2" = _nutfMAk1;
-        "default" = _nutfMAk1;
+        "pkg-2.0.3" = _hK5BZUvL;
+        "default" = _hK5BZUvL;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mob-health";

@@ -336,6 +336,16 @@ let
             "file" = "squatgrow-neoforge-21.1.4+mc1.21.1.jar";
             "hash" = "sha512-cy3r+EFv7U1NRvX4kxw2EPTE64eWJ4WLZDY8Adtrhb4JPF4fl5HQgXMoGxgLVIm921aU3dJsjiMvFFGJLPT/Jg==";
         };
+        _Ud7l2LCu = {
+            "id" = "Ud7l2LCu";
+            "file" = "squatgrow-neoforge-26.1.2.2.jar";
+            "hash" = "sha512-+enxQ8S3ZEa8C19SBA7k3X3jooE3yGr/cFqLSUMcsYNmn6olovuLj+uWbUoUYHvzWRZRZyWNkQeBeUJqzt6Xxg==";
+        };
+        _YHBdo1RX = {
+            "id" = "YHBdo1RX";
+            "file" = "squatgrow-fabric-26.1.2.2.jar";
+            "hash" = "sha512-N3pFxOnCqZh+x6cJQXXAql+vc9Xs70vtr9M4gqUluohJwHC7TeEjGxybpRYEMLWuwC7rCgmuE/p4qA4GaQwVWA==";
+        };
     in {
         "oFcyZdd6" = _oFcyZdd6;
         "vFg9CqA2" = _vFg9CqA2;
@@ -404,6 +414,8 @@ let
         "dpM0UKcP" = _dpM0UKcP;
         "7xSwoHXx" = _7xSwoHXx;
         "NZp6wTbs" = _NZp6wTbs;
+        "Ud7l2LCu" = _Ud7l2LCu;
+        "YHBdo1RX" = _YHBdo1RX;
         "fabric-1.20.1" = _v3NqAdaq;
         "fabric-1.19.2" = _jkQfuYwb;
         "fabric-1.20.4" = _GsCEP5af;
@@ -418,9 +430,9 @@ let
         "fabric-1.21.8" = _RnVEtcol;
         "fabric-1.21.10" = _q37A1OS0;
         "fabric-1.21.11" = _RnVEtcol;
-        "fabric-26.1" = _9BhTHgD8;
-        "fabric-26.1.1" = _9BhTHgD8;
-        "fabric-26.1.2" = _9BhTHgD8;
+        "fabric-26.1" = _YHBdo1RX;
+        "fabric-26.1.1" = _YHBdo1RX;
+        "fabric-26.1.2" = _YHBdo1RX;
         "fabric-26.2" = _Gvh2Efqb;
         "forge-1.20.1" = _GqQjv0rk;
         "forge-1.19.2" = _vQNaTxlP;
@@ -438,9 +450,9 @@ let
         "neoforge-1.21.8" = _BUs2hrKR;
         "neoforge-1.21.10" = _aKBym85c;
         "neoforge-1.21.11" = _BUs2hrKR;
-        "neoforge-26.1" = _wXZu8kmu;
-        "neoforge-26.1.1" = _wXZu8kmu;
-        "neoforge-26.1.2" = _wXZu8kmu;
+        "neoforge-26.1" = _Ud7l2LCu;
+        "neoforge-26.1.1" = _Ud7l2LCu;
+        "neoforge-26.1.2" = _Ud7l2LCu;
         "neoforge-26.2" = _dpM0UKcP;
         "pkg-5.0.1" = _vFg9CqA2;
         "pkg-5.0.2" = _qh0N7GaQ;
@@ -473,7 +485,8 @@ let
         "pkg-26.1.2.1" = _wXZu8kmu;
         "pkg-26.2.0.1" = _dpM0UKcP;
         "pkg-21.1.4" = _NZp6wTbs;
-        "default" = _NZp6wTbs;
+        "pkg-26.1.2.2" = _YHBdo1RX;
+        "default" = _YHBdo1RX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "squat-grow";

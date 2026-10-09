@@ -111,6 +111,31 @@ let
             "file" = "Walkie-Chat-forge-1.3.2-1.20.1.jar";
             "hash" = "sha512-Ps7PSfFpw38wKR3aTUZxt0xHC4jWe4l75WKk6eK+WE67fLDBsyDVAL4JSlNamU4wRBio3KvRJFnB4dt81v5ozg==";
         };
+        _IFn0vL0v = {
+            "id" = "IFn0vL0v";
+            "file" = "Walkie-Chat-forge-1.3.2-1.21.1.jar";
+            "hash" = "sha512-9U/cgFjiJmDa8OSUEGSJoJncoZkH+2tdMkxrwAMAdUjF3Lc8+JsOWfhZCtsH5bNi3emNYeRIxbrHg9EGD4C6iA==";
+        };
+        _dtyDhjkD = {
+            "id" = "dtyDhjkD";
+            "file" = "Walkie-Chat-fabric-1.3.2-1.21.1.jar";
+            "hash" = "sha512-gBz4iCP4vtMiW8avfdHnUpsLB/SKdFZqBz64um1N3y96aky+xGLmm99lEpcF2ftBUhZHJ1AXLyxaDo8Zl09QHA==";
+        };
+        _9K6T83Rp = {
+            "id" = "9K6T83Rp";
+            "file" = "Walkie-Chat-neoforge-1.3.2-1.21.1.jar";
+            "hash" = "sha512-hH+s5GPPygA5p1P3gzaQX8r+36/XBKCo1YK/85odNDSvoKyZ+jUOJMuHG9VQf5np6xN4saNOIpL+LwRBv/C2Vw==";
+        };
+        _ee1lCFo5 = {
+            "id" = "ee1lCFo5";
+            "file" = "Walkie-Chat-forge-1.3.2-1.19.2.jar";
+            "hash" = "sha512-3FoKFSU8QhrF4+ONQwMZq+kcIAazGzP2/iMRrY5xDbcczKJr+JBDmLvwEDYEIkrSdatPv/LdvsI9yy/qMcQIZQ==";
+        };
+        _llX8bs05 = {
+            "id" = "llX8bs05";
+            "file" = "Walkie-Chat-fabric-1.3.2-1.19.2.jar";
+            "hash" = "sha512-2SEapA7wa+Fs9oJmsNM2WJF7wUHntMIilZb2ryOCYJV8EvyA3CBgujiD0+mgO1xO4gZ6fc4BbJnsvP/YsqJP3Q==";
+        };
     in {
         "BCCW3j2l" = _BCCW3j2l;
         "6HGRK7Sp" = _6HGRK7Sp;
@@ -134,13 +159,18 @@ let
         "4eXxRGqY" = _4eXxRGqY;
         "5AbWsy2l" = _5AbWsy2l;
         "AnxS87an" = _AnxS87an;
+        "IFn0vL0v" = _IFn0vL0v;
+        "dtyDhjkD" = _dtyDhjkD;
+        "9K6T83Rp" = _9K6T83Rp;
+        "ee1lCFo5" = _ee1lCFo5;
+        "llX8bs05" = _llX8bs05;
         "forge-1.20.1" = _AnxS87an;
-        "forge-1.19.2" = _Mxbb5LSK;
-        "forge-1.21.1" = _gbI4mkLZ;
+        "forge-1.19.2" = _ee1lCFo5;
+        "forge-1.21.1" = _IFn0vL0v;
         "fabric-1.20.1" = _5AbWsy2l;
-        "fabric-1.19.2" = _xAUW1GVb;
-        "fabric-1.21.1" = _bynubeR5;
-        "neoforge-1.21.1" = _4eXxRGqY;
+        "fabric-1.19.2" = _llX8bs05;
+        "fabric-1.21.1" = _dtyDhjkD;
+        "neoforge-1.21.1" = _9K6T83Rp;
         "pkg-1.0.0-1.20.1" = _BCCW3j2l;
         "pkg-1.0.1-1.20.1-Forge" = _6HGRK7Sp;
         "pkg-1.0.1-1.20.1-Fabric" = _mLjwb6Sq;
@@ -163,7 +193,12 @@ let
         "pkg-1.2.2-1.21.1-neoforge" = _4eXxRGqY;
         "pkg-1.3.2-1.20.1-fabric" = _5AbWsy2l;
         "pkg-1.3.2-1.20.1-forge" = _AnxS87an;
-        "default" = _AnxS87an;
+        "pkg-1.3.2-1.21.1-forge" = _IFn0vL0v;
+        "pkg-1.3.2-1.21.1-fabric" = _dtyDhjkD;
+        "pkg-1.3.2-1.21.1-neoforge" = _9K6T83Rp;
+        "pkg-1.3.2-1.19.2-forge" = _ee1lCFo5;
+        "pkg-1.3.2-1.19.2-fabric" = _llX8bs05;
+        "default" = _llX8bs05;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "walkie-chat";

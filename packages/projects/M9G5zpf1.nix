@@ -216,6 +216,16 @@ let
             "file" = "ceramicbucket-fabric-26.2-7.1.0.0.jar";
             "hash" = "sha512-KHBP3GMSNibLaR5js7LAcF26kK+4PTLPn6JqD188wSC0z2uigkEKlmN7SX6gz4K80ARH0zLhze8gHZhjwT7xVw==";
         };
+        _c4o3eG0I = {
+            "id" = "c4o3eG0I";
+            "file" = "ceramicbucket-fabric-26.3-7.2.0.0.jar";
+            "hash" = "sha512-pVJmO0Eq6UrVxYOP3uSzohr/jfFx3INhLo958AXSWMDPvwNyYL2RCpN08vFEs1fFccwTFvYKZG6LtAaFpIXoCg==";
+        };
+        _9YEUlqhl = {
+            "id" = "9YEUlqhl";
+            "file" = "ceramicbucket-neoforge-26.3-7.2.0.0.jar";
+            "hash" = "sha512-5yoiqBHADO9WIy6famENVa+O8ULGmyv3dfaEClX1lJ8Tmi3RZlsvm2EP9NCmdtTr3n6QBaR6Ua1Kd11O/KD3/g==";
+        };
     in {
         "aAHauQqc" = _aAHauQqc;
         "dxtWLZkK" = _dxtWLZkK;
@@ -260,6 +270,8 @@ let
         "yyDCXSUx" = _yyDCXSUx;
         "ZIdC5PM7" = _ZIdC5PM7;
         "UT8wi47q" = _UT8wi47q;
+        "c4o3eG0I" = _c4o3eG0I;
+        "9YEUlqhl" = _9YEUlqhl;
         "forge-1.14.4" = _aAHauQqc;
         "forge-1.15.2" = _dxtWLZkK;
         "forge-1.16.5" = _RA40STjO;
@@ -290,6 +302,7 @@ let
         "neoforge-26.1.1" = _mECm9ald;
         "neoforge-26.1.2" = _mECm9ald;
         "neoforge-26.2" = _ZIdC5PM7;
+        "neoforge-26.3" = _9YEUlqhl;
         "fabric-1.20.4" = _vkTtLMfY;
         "fabric-1.20.6" = _dswTxSUo;
         "fabric-1.21" = _qDQ7Lr1V;
@@ -306,6 +319,7 @@ let
         "fabric-26.1.1" = _yyDCXSUx;
         "fabric-26.1.2" = _yyDCXSUx;
         "fabric-26.2" = _UT8wi47q;
+        "fabric-26.3" = _c4o3eG0I;
         "quilt-1.20.4" = _vkTtLMfY;
         "quilt-1.20.6" = _dswTxSUo;
         "quilt-1.21" = _qDQ7Lr1V;
@@ -322,6 +336,7 @@ let
         "quilt-26.1.1" = _yyDCXSUx;
         "quilt-26.1.2" = _yyDCXSUx;
         "quilt-26.2" = _UT8wi47q;
+        "quilt-26.3" = _c4o3eG0I;
         "pkg-2.5.5" = _aAHauQqc;
         "pkg-2.6.2" = _dxtWLZkK;
         "pkg-1.16.5-2.7.0.1" = _RA40STjO;
@@ -349,7 +364,8 @@ let
         "pkg-1.21.11-6.7.0.0" = _7T6jh7fs;
         "pkg-26.1-7.0.0.0" = _yyDCXSUx;
         "pkg-26.2-7.1.0.0" = _UT8wi47q;
-        "default" = _UT8wi47q;
+        "pkg-26.3-7.2.0.0" = _9YEUlqhl;
+        "default" = _9YEUlqhl;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ceramic-bucket";

@@ -551,6 +551,26 @@ let
             "file" = "estrogen-6.0.8+1.21.1-neoforge.jar";
             "hash" = "sha512-RMEAIPo6BQlNF6JL+/hq8Zt0R4HqsV7FY4372yPNeazc0O79R/2pHihvfeR9NInr9BQt0HW5bpdBh7lXm074Hw==";
         };
+        _8iHRxkHB = {
+            "id" = "8iHRxkHB";
+            "file" = "estrogen-6.0.9+1.21.1-fabric.jar";
+            "hash" = "sha512-LhePpgXgLLZzOqpY9Ft08g/Rb0WxLH/FmQR8f4zSvO1+pcRMGbwoePe0YLp9TKBngpMSmFN2asuf/hVl6BfO+A==";
+        };
+        _AhYbODNb = {
+            "id" = "AhYbODNb";
+            "file" = "estrogen-6.0.9+1.21.1-neoforge.jar";
+            "hash" = "sha512-9SXFbjM8icwDdYYIpxwt1N2h5Qp7TJYMcDJxPXlML68OQ6BXXRpYcZ9ZgLxgatutK90eB4qlhJzCBv/Yft3GDQ==";
+        };
+        _jLNES5cw = {
+            "id" = "jLNES5cw";
+            "file" = "estrogen-6.0.10+1.21.1-neoforge.jar";
+            "hash" = "sha512-R0d5Ns9R+xzVXzYD7NNsFMMpUoT9zMX2WHWBv9Sav/f0/3xF3K3w5PPrXZZqyOKkH9z0ci41QNGJzU7NwkTf4w==";
+        };
+        _AYcphkJF = {
+            "id" = "AYcphkJF";
+            "file" = "estrogen-6.0.10+1.21.1-fabric.jar";
+            "hash" = "sha512-ZjjTNz+VW2fm7DSfQWsHr+L/7RkGByI/98mccbdWoHCoATjC1qAma1kbRuwVDRdrcqu84pV3KQp++IvZlg2S/g==";
+        };
     in {
         "1RpxbsxH" = _1RpxbsxH;
         "RYW690tk" = _RYW690tk;
@@ -662,17 +682,21 @@ let
         "yfX4Roih" = _yfX4Roih;
         "rU48jDbv" = _rU48jDbv;
         "sB9ZotMl" = _sB9ZotMl;
+        "8iHRxkHB" = _8iHRxkHB;
+        "AhYbODNb" = _AhYbODNb;
+        "jLNES5cw" = _jLNES5cw;
+        "AYcphkJF" = _AYcphkJF;
         "fabric-1.19.2" = _GJN8ZhKs;
         "fabric-1.20.1" = _ZnqWS7up;
         "fabric-1.18.2" = _4zTNCX2c;
-        "fabric-1.21.1" = _rU48jDbv;
+        "fabric-1.21.1" = _AYcphkJF;
         "quilt-1.20.1" = _ZnqWS7up;
         "quilt-1.18.2" = _4zTNCX2c;
         "quilt-1.19.2" = _GJN8ZhKs;
-        "quilt-1.21.1" = _rU48jDbv;
+        "quilt-1.21.1" = _AYcphkJF;
         "forge-1.20.1" = _15cYSyT3;
         "forge-1.19.2" = _egocrArd;
-        "neoforge-1.21.1" = _sB9ZotMl;
+        "neoforge-1.21.1" = _jLNES5cw;
         "pkg-1.0.0" = _1RpxbsxH;
         "pkg-2.0.0" = _RYW690tk;
         "pkg-2.0.1" = _Hd3WJWEm;
@@ -781,7 +805,11 @@ let
         "pkg-6.0.7+1.21.1-fabric" = _yfX4Roih;
         "pkg-6.0.8+1.21.1-fabric" = _rU48jDbv;
         "pkg-6.0.8+1.21.1-neoforge" = _sB9ZotMl;
-        "default" = _sB9ZotMl;
+        "pkg-6.0.9+1.21.1-fabric" = _8iHRxkHB;
+        "pkg-6.0.9+1.21.1-neoforge" = _AhYbODNb;
+        "pkg-6.0.10+1.21.1-neoforge" = _jLNES5cw;
+        "pkg-6.0.10+1.21.1-fabric" = _AYcphkJF;
+        "default" = _AYcphkJF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "estrogen";

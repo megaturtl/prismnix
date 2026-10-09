@@ -146,6 +146,26 @@ let
             "file" = "fastpipes-26.2-2.0.3.jar";
             "hash" = "sha512-2UoJHltD0DdkcvRRaCkEZHVZGD3uN1mkEuI9hueP8RKwNxB4R/ty3ULNB1QAMf96Eh7iaYXcTP58B2qgJ18eZg==";
         };
+        _y8f5rwbk = {
+            "id" = "y8f5rwbk";
+            "file" = "fastpipes-26.2-2.0.5.jar";
+            "hash" = "sha512-bPIenjlo7/fkFNx/3YpzDil9Wk+faZ3uGJYRHa3/aiqhbwMj5RkFuoeyXVZvbE097Y6kVWj4+o0ZnHEARQe+ww==";
+        };
+        _yfZUtzXc = {
+            "id" = "yfZUtzXc";
+            "file" = "fastpipes-26.1.2-2.0.5.jar";
+            "hash" = "sha512-sNGZ+yQB0GkQi8lL1tj8NUqDC/zkB8acgV7q7JgPvGGJEfmX8msOZ1EQisN+7aY84CLvXAsB3rS4hEeBBZ6+oA==";
+        };
+        _eDDkyzrk = {
+            "id" = "eDDkyzrk";
+            "file" = "fastpipes-1.21.1-1.3.9.jar";
+            "hash" = "sha512-WBh29wG7TJf6c1NwOrv/L6CVOWjdVpkcU/zk4OnYDstfGHzVOy07tcwh29EvRIX3FOERAn5YDuRadyUj3RknnQ==";
+        };
+        _jHiYL9BP = {
+            "id" = "jHiYL9BP";
+            "file" = "fastpipes-1.20.1-1.3.9.jar";
+            "hash" = "sha512-E3ov+tX4/ucFo5nzd0ipjCHZkWkOET9eouABn3dksj3PTGgFxn5CQLS82z5Dt9zxrA2HyGloGLmcPzX0Iw2hhQ==";
+        };
     in {
         "JShHkcbX" = _JShHkcbX;
         "6HkFgK1G" = _6HkFgK1G;
@@ -176,11 +196,15 @@ let
         "K5kwtHnd" = _K5kwtHnd;
         "a4CsrK9n" = _a4CsrK9n;
         "hWzRomGr" = _hWzRomGr;
-        "neoforge-1.21.1" = _hJEwLkgm;
+        "y8f5rwbk" = _y8f5rwbk;
+        "yfZUtzXc" = _yfZUtzXc;
+        "eDDkyzrk" = _eDDkyzrk;
+        "jHiYL9BP" = _jHiYL9BP;
+        "neoforge-1.21.1" = _eDDkyzrk;
         "neoforge-1.21.11" = _pR7m3bTK;
-        "neoforge-26.1.2" = _a4CsrK9n;
-        "neoforge-26.2" = _hWzRomGr;
-        "forge-1.20.1" = _K5kwtHnd;
+        "neoforge-26.1.2" = _yfZUtzXc;
+        "neoforge-26.2" = _y8f5rwbk;
+        "forge-1.20.1" = _jHiYL9BP;
         "pkg-1.0.0" = _JShHkcbX;
         "pkg-1.0.1" = _6HkFgK1G;
         "pkg-1.1.0" = _p0Oc2Fky;
@@ -199,7 +223,9 @@ let
         "pkg-2.0.2" = _NNI4odIW;
         "pkg-1.3.7" = _K5kwtHnd;
         "pkg-2.0.3" = _hWzRomGr;
-        "default" = _hWzRomGr;
+        "pkg-2.0.5" = _yfZUtzXc;
+        "pkg-1.3.9" = _jHiYL9BP;
+        "default" = _jHiYL9BP;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fast-pipes";

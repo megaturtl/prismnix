@@ -951,6 +951,21 @@ let
             "file" = "storagedelight-26.09.15-26.3-neoforge.jar";
             "hash" = "sha512-GiSa891Vjp7aRHSSCadsvDa43litzVGqfUAbRAt6+6G2jDpdnV6OI3EK7KcKF5EED71WAO6NLXSGFlREoUBS2A==";
         };
+        _7I2UUB9l = {
+            "id" = "7I2UUB9l";
+            "file" = "storagedelight-26.09.17-1.21-neoforge.jar";
+            "hash" = "sha512-ms9d+DbYLCynpY76b9OEhRbWS33nW3GnuahdJWrt2cLlh/Q2BnSYplQq8qwf2BiywR+gCNmU+oMJ5YBcAlbBUA==";
+        };
+        _Dvt58c6k = {
+            "id" = "Dvt58c6k";
+            "file" = "storagedelight-26.10.05-26.3-fabric.jar";
+            "hash" = "sha512-R6edM2G79UtCC0rw/nAsrYIZr0uZ6m0I85XcND2DzFIlwRZS8KOZJspMMtA4ULrStKl6U66hIS9lEM2x0c/t3A==";
+        };
+        _WWon54zT = {
+            "id" = "WWon54zT";
+            "file" = "storagedelight-26.10.05-26.3-neoforge.jar";
+            "hash" = "sha512-qhCn6PAovhRDNjRxgX1MpB4jb2qwSnwRpoyP92aIHiUCgQE2zY+6mozip+f9X+ksv8FpMCIfeYR6MeT+6oMZXA==";
+        };
     in {
         "GA3f9AtT" = _GA3f9AtT;
         "bQ1NnNJz" = _bQ1NnNJz;
@@ -1142,6 +1157,9 @@ let
         "zuWePqzc" = _zuWePqzc;
         "S7N0BJMX" = _S7N0BJMX;
         "XwMT1Ibh" = _XwMT1Ibh;
+        "7I2UUB9l" = _7I2UUB9l;
+        "Dvt58c6k" = _Dvt58c6k;
+        "WWon54zT" = _WWon54zT;
         "fabric-1.20.1" = _n7A4N7vn;
         "fabric-1.19.2" = _1b8wwyY2;
         "fabric-1.19" = _1b8wwyY2;
@@ -1168,7 +1186,7 @@ let
         "fabric-26.1.1" = _JXJ3B666;
         "fabric-26.1.2" = _JXJ3B666;
         "fabric-26.2" = _erFVgWTv;
-        "fabric-26.3" = _S7N0BJMX;
+        "fabric-26.3" = _Dvt58c6k;
         "quilt-1.20.1" = _n7A4N7vn;
         "quilt-1.19.2" = _1b8wwyY2;
         "quilt-1.19" = _1b8wwyY2;
@@ -1220,8 +1238,8 @@ let
         "forge-26.1.2" = _c77LOeGM;
         "forge-26.2" = _TrGOmL0g;
         "neoforge-1.20.1" = _Fx6EfJ42;
-        "neoforge-1.21" = _zuWePqzc;
-        "neoforge-1.21.1" = _zuWePqzc;
+        "neoforge-1.21" = _7I2UUB9l;
+        "neoforge-1.21.1" = _7I2UUB9l;
         "neoforge-1.21.2" = _6XnHQvRt;
         "neoforge-1.21.3" = _6XnHQvRt;
         "neoforge-1.21.4" = _flMW7v7e;
@@ -1241,7 +1259,7 @@ let
         "neoforge-26.1.1" = _gzIkla8c;
         "neoforge-26.1.2" = _gzIkla8c;
         "neoforge-26.2" = _qb8smGTf;
-        "neoforge-26.3" = _XwMT1Ibh;
+        "neoforge-26.3" = _WWon54zT;
         "pkg-1.0.0" = _bQ1NnNJz;
         "pkg-1.0.0-1.19.2" = _2CcyERo3;
         "pkg-1.0.1" = _Pby4hXUS;
@@ -1427,7 +1445,10 @@ let
         "pkg-26.07.01a-1.21-neoforge" = _zuWePqzc;
         "pkg-26.08.15-26.3-fabric" = _S7N0BJMX;
         "pkg-26.09.15-26.3-neoforge" = _XwMT1Ibh;
-        "default" = _XwMT1Ibh;
+        "pkg-26.09.17-1.21-neoforge" = _7I2UUB9l;
+        "pkg-26.10.05-26.3-fabric" = _Dvt58c6k;
+        "pkg-26.10.05-26.3-neoforge" = _WWon54zT;
+        "default" = _WWon54zT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "storage-delight";

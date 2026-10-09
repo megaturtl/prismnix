@@ -76,6 +76,11 @@ let
             "file" = "tsa-planks-1.1.4+26.1.jar";
             "hash" = "sha512-HC49u0OURwhftiL7c8uOYaak2lRnqOknJpytDAkskTw976UArjt6OjX2VyrdFcaBaWGpWTeIdoOUJTRB8t++6Q==";
         };
+        _i14raPLQ = {
+            "id" = "i14raPLQ";
+            "file" = "tsa-planks-1.1.6+26.3.jar";
+            "hash" = "sha512-qY/uR5qZUrsI6tGWAg5RxwuWku50T6AaggyfdCuuBJQbTKrJ6E8I7tMxzX63v7O++7E6htiTVK5zXF3OtFQ+tA==";
+        };
     in {
         "6WsIAPEb" = _6WsIAPEb;
         "ExMK6XrV" = _ExMK6XrV;
@@ -92,6 +97,7 @@ let
         "drMExoye" = _drMExoye;
         "vYmZLUa0" = _vYmZLUa0;
         "3c5NG3BE" = _3c5NG3BE;
+        "i14raPLQ" = _i14raPLQ;
         "fabric-1.20.1" = _4xiw2F8g;
         "fabric-1.20.4" = _rPXDftvs;
         "fabric-1.20.6" = _C93sHk5J;
@@ -114,6 +120,7 @@ let
         "fabric-26.1.1" = _3c5NG3BE;
         "fabric-26.1.2" = _3c5NG3BE;
         "fabric-26.2" = _3c5NG3BE;
+        "fabric-26.3" = _i14raPLQ;
         "pkg-1.0+1.20.1" = _6WsIAPEb;
         "pkg-1.0+1.20.4" = _ExMK6XrV;
         "pkg-1.0.1+1.20.4" = _OGdnpNgS;
@@ -129,7 +136,8 @@ let
         "pkg-1.1.2+1.21-1.21.1" = _drMExoye;
         "pkg-1.1.2+1.21.2-rc1" = _vYmZLUa0;
         "pkg-1.1.4+26.1" = _3c5NG3BE;
-        "default" = _3c5NG3BE;
+        "pkg-1.1.6+26.3" = _i14raPLQ;
+        "default" = _i14raPLQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tsa-planks";

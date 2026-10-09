@@ -141,6 +141,11 @@ let
             "file" = "CleanView-1.0.6-26.2.jar";
             "hash" = "sha512-r5c+7yawlhzGxRbjYW6Dg3ODsFa/46L3EbRJGvJcf0zCtQeMPIimbWGe5GZ241LlRYNlL7gZI7DgLRc2UVvuTA==";
         };
+        _3g6Gl9g6 = {
+            "id" = "3g6Gl9g6";
+            "file" = "CleanView-1.0.6-26.3.jar";
+            "hash" = "sha512-2Nwjq8Clb2GgcknooUDlir/L8QK5nNVDHNXRBgDao6nBQMUJsBZASM9BRfrLtRyg1G4KiEXv9l/Va7KU4Qbk7w==";
+        };
     in {
         "aLu3LhTP" = _aLu3LhTP;
         "a7EzICao" = _a7EzICao;
@@ -170,6 +175,7 @@ let
         "WGf6dAW3" = _WGf6dAW3;
         "goEtlFof" = _goEtlFof;
         "HsKYeZli" = _HsKYeZli;
+        "3g6Gl9g6" = _3g6Gl9g6;
         "fabric-1.21" = _mevmwnsO;
         "fabric-1.21.1" = _mevmwnsO;
         "fabric-1.21.2" = _mevmwnsO;
@@ -188,6 +194,7 @@ let
         "fabric-26.1.1" = _goEtlFof;
         "fabric-26.1.2" = _goEtlFof;
         "fabric-26.2" = _HsKYeZli;
+        "fabric-26.3" = _3g6Gl9g6;
         "pkg-1.0.0" = _aLu3LhTP;
         "pkg-1.0.1" = _a7EzICao;
         "pkg-1.0.2" = _4Fp4sv9y;
@@ -216,7 +223,8 @@ let
         "pkg-1.0.6+1.21.11" = _WGf6dAW3;
         "pkg-1.0.6" = _goEtlFof;
         "pkg-1.0.6-26.2" = _HsKYeZli;
-        "default" = _HsKYeZli;
+        "pkg-1.0.6-26.3" = _3g6Gl9g6;
+        "default" = _3g6Gl9g6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cleanview-particles";

@@ -166,6 +166,11 @@ let
             "file" = "modern-26.2-0.8.9-SNAPSHOT.jar";
             "hash" = "sha512-Hk46uH3DRsNJW22IIyrfiWfnQJId5UJJ2vT0QLDV0+mMofa9BL0ToXAvZhdTQ5oKdGq8d4+SaJPT2n3fq3nBGQ==";
         };
+        _AIVT3OdK = {
+            "id" = "AIVT3OdK";
+            "file" = "modern-26.3-0.8.9-main-SNAPSHOT.jar";
+            "hash" = "sha512-Djj/SScBykcg+rZGB6tGAexc9R9lYAArbzyVhuA02ESv2PGde/U0ob5IZ0zdUS8yWntCXF3E6JfH45UCcH7jyw==";
+        };
     in {
         "u7wTCiLL" = _u7wTCiLL;
         "nX3vhlCc" = _nX3vhlCc;
@@ -200,6 +205,7 @@ let
         "pQ1VLXNp" = _pQ1VLXNp;
         "BzLF0pFD" = _BzLF0pFD;
         "20NGKRls" = _20NGKRls;
+        "AIVT3OdK" = _AIVT3OdK;
         "bukkit-1.20" = _pQ1VLXNp;
         "bukkit-1.20.1" = _pQ1VLXNp;
         "bukkit-1.20.2" = _pQ1VLXNp;
@@ -290,6 +296,7 @@ let
         "paper-26.1.1" = _BzLF0pFD;
         "paper-26.1.2" = _BzLF0pFD;
         "paper-26.2" = _20NGKRls;
+        "paper-26.3" = _AIVT3OdK;
         "spigot-1.20" = _pQ1VLXNp;
         "spigot-1.20.1" = _pQ1VLXNp;
         "spigot-1.20.2" = _pQ1VLXNp;
@@ -337,6 +344,7 @@ let
         "purpur-26.1.1" = _BzLF0pFD;
         "purpur-26.1.2" = _BzLF0pFD;
         "purpur-26.2" = _20NGKRls;
+        "purpur-26.3" = _AIVT3OdK;
         "pkg-0.2" = _u7wTCiLL;
         "pkg-0.3" = _nX3vhlCc;
         "pkg-0.4" = _1ptF1s1v;
@@ -368,7 +376,8 @@ let
         "pkg-Legacy-0.8.9-SNAPSHOT" = _pQ1VLXNp;
         "pkg-Modern-26.1.x-0.8.9-SNAPSHOT" = _BzLF0pFD;
         "pkg-Modern-26.2-0.8.9-SNAPSHOT" = _20NGKRls;
-        "default" = _20NGKRls;
+        "pkg-Modern-26.3-0.8.9-SNAPSHOT" = _AIVT3OdK;
+        "default" = _AIVT3OdK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "homeplugin";

@@ -111,6 +111,11 @@ let
             "file" = "francetiers_tagger_1.21_v2.5.4.jar";
             "hash" = "sha512-vt6pQEU1bdr8kMWdTs4gbJMRNlYIIAT9M1JrSHQivGrjj4HmajfENKMFdKzxXvBlJ0VoU3STHocL/QEsRboNfQ==";
         };
+        _MUfhoIFt = {
+            "id" = "MUfhoIFt";
+            "file" = "francetiers_tagger_1.21.11_v3.0.1.jar";
+            "hash" = "sha512-fQxQU8zPJX/dJiIwVb9hmJwejtpQBjnx/usfpEhqhlzYatkmzPLMplJg5IHLfZQjRn2ma8fuqovegLLjOyYUZA==";
+        };
     in {
         "SZuxA0Z6" = _SZuxA0Z6;
         "UjsdF3mS" = _UjsdF3mS;
@@ -134,14 +139,15 @@ let
         "qi9lK2Dj" = _qi9lK2Dj;
         "8DDGkYgL" = _8DDGkYgL;
         "JseMnw0s" = _JseMnw0s;
+        "MUfhoIFt" = _MUfhoIFt;
         "fabric-1.21.4" = _8DDGkYgL;
         "fabric-1.21.5" = _8DDGkYgL;
         "fabric-1.21" = _JseMnw0s;
         "fabric-1.21.1" = _JseMnw0s;
         "fabric-1.21.8" = _qi9lK2Dj;
         "fabric-1.21.9" = _qi9lK2Dj;
-        "fabric-1.21.10" = _GJZvMCeC;
-        "fabric-1.21.11" = _GJZvMCeC;
+        "fabric-1.21.10" = _MUfhoIFt;
+        "fabric-1.21.11" = _MUfhoIFt;
         "pkg-1.0.0" = _UjsdF3mS;
         "pkg-2.0.0" = _wtvmWB6B;
         "pkg-2.2.0" = _38JOFtBX;
@@ -151,7 +157,8 @@ let
         "pkg-2.5.2" = _Q5ZjNSvZ;
         "pkg-2.5.3" = _MLuWMjIi;
         "pkg-2.5.4" = _JseMnw0s;
-        "default" = _JseMnw0s;
+        "pkg-3.0.1" = _MUfhoIFt;
+        "default" = _MUfhoIFt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "francetierstagger";

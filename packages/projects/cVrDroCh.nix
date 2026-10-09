@@ -61,6 +61,11 @@ let
             "file" = "voxelmap-x-seedmapper_26.2_fabric_v0.12.jar";
             "hash" = "sha512-BcSijioKJ9D6Qs6v+IuL6OzSeQwRtw2XN5Dd9bKR6/kJiCmgm5+pVZbdmk9onCH3CHqHDIWJPN4DNfkz7kMFuA==";
         };
+        _W72rHbsv = {
+            "id" = "W72rHbsv";
+            "file" = "voxelmap-x-seedmapper_26.3_fabric_v0.13.jar";
+            "hash" = "sha512-qmXI+YrputTGMyJoX5Xmkp+arpbprxISFVAJCIxJXndJI9pCpZsUGtKEazYMVJaFVRnQVV2B/FZu60ByBn/2og==";
+        };
     in {
         "XhQbu1df" = _XhQbu1df;
         "pLETZfkx" = _pLETZfkx;
@@ -74,10 +79,12 @@ let
         "OFCffO8m" = _OFCffO8m;
         "qlcdg5Zz" = _qlcdg5Zz;
         "EjGbZGNb" = _EjGbZGNb;
+        "W72rHbsv" = _W72rHbsv;
         "fabric-26.1" = _zdNyUUAB;
         "fabric-26.1.1" = _zdNyUUAB;
         "fabric-26.1.2" = _zdNyUUAB;
         "fabric-26.2" = _EjGbZGNb;
+        "fabric-26.3" = _W72rHbsv;
         "pkg-0.1" = _XhQbu1df;
         "pkg-0.2" = _pLETZfkx;
         "pkg-0.3" = _bNYn7rxY;
@@ -90,7 +97,8 @@ let
         "pkg-0.10" = _OFCffO8m;
         "pkg-0.11" = _qlcdg5Zz;
         "pkg-0.12" = _EjGbZGNb;
-        "default" = _EjGbZGNb;
+        "pkg-0.13" = _W72rHbsv;
+        "default" = _W72rHbsv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "voxelmap-x-seedmapper";

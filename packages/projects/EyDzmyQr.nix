@@ -321,6 +321,41 @@ let
             "file" = "worldgenDevtools-1.4.0+26.3-rc-2.jar";
             "hash" = "sha512-7F3zJNS862XDBbDgdUNRM8e/rk5CR2nhIj2nq8sepP/9i6Derdps72uFg+3M8/MfIvlwf6D7NmjS6SxUZa/yEQ==";
         };
+        _3npugEis = {
+            "id" = "3npugEis";
+            "file" = "worldgenDevtools-1.4.1+26.3.jar";
+            "hash" = "sha512-Dtqltebnl7Tipi8RVswAoGSACspL37Kj3k1A4cMqaDPeUGQXnf/jIjboQCXlRuwRnknGMd0qetZ692vkyknnbA==";
+        };
+        _ajm7tIuH = {
+            "id" = "ajm7tIuH";
+            "file" = "worldgenDevtools-1.4.1+26.1.jar";
+            "hash" = "sha512-TGPovan/N3DJZgZ46llynaz5LSDXuoJ9PvOrWoJG036K95xuHlisJBKxDNkInLrg76RpW0mFVULmhumR/FhlMA==";
+        };
+        _mZRwPmDq = {
+            "id" = "mZRwPmDq";
+            "file" = "worldgenDevtools-1.1.2+1.21.1.jar";
+            "hash" = "sha512-jIPZKl8cEr7fgSYqy/sn9ugHROV5spYrtAxMRVfD8eRDapz18EqK6vgEYOI8GhKiPIdmFsDW1Txt41eGHyCWIA==";
+        };
+        _lq2zhuz0 = {
+            "id" = "lq2zhuz0";
+            "file" = "worldgenDevtools-1.4.1+26.4-snapshot-1.jar";
+            "hash" = "sha512-GUJb2mIj9YqRE2VbDBt3jMu22C4Ms/mpcZInbS8ruY4MGKmyHt2YpldAc0e4ud3WJKql7L9PoX9Hg5kAXZOtyw==";
+        };
+        _DRG4Az9L = {
+            "id" = "DRG4Az9L";
+            "file" = "worldgenDevtools-1.4.1+26.4-snapshot-2.jar";
+            "hash" = "sha512-/q2Tme5oY73WrGKl27LLe9W8x6cZBNVV/vDBSSqi7wHufpnHpN0F6U1CipWEE5ravrJFwEyEEWRLIrRBRlEjzg==";
+        };
+        _ysV9ctFJ = {
+            "id" = "ysV9ctFJ";
+            "file" = "worldgenDevtools-1.4.1+26.1.jar";
+            "hash" = "sha512-FzoKCiFGldft9gtEjzmWr5E6046h0ygty0k8ML1dP+OOxyelirZwosXnU/gTy6lzOO9vBdL6Vf01W69UXjhvjQ==";
+        };
+        _Ovlis4GJ = {
+            "id" = "Ovlis4GJ";
+            "file" = "worldgenDevtools-1.4.1+26.3.jar";
+            "hash" = "sha512-DVosUcGBJqhU7W/92VsIArJ0mKFGpZdBbf7Qf7XvZilwD9ennJgVV4kEWR89+Uiraz99dNJunoauP2kSjNerPQ==";
+        };
     in {
         "h7T19gAx" = _h7T19gAx;
         "4rikEHY9" = _4rikEHY9;
@@ -386,6 +421,13 @@ let
         "GvWIgHj2" = _GvWIgHj2;
         "qOMg3oZp" = _qOMg3oZp;
         "ktU1UdSf" = _ktU1UdSf;
+        "3npugEis" = _3npugEis;
+        "ajm7tIuH" = _ajm7tIuH;
+        "mZRwPmDq" = _mZRwPmDq;
+        "lq2zhuz0" = _lq2zhuz0;
+        "DRG4Az9L" = _DRG4Az9L;
+        "ysV9ctFJ" = _ysV9ctFJ;
+        "Ovlis4GJ" = _Ovlis4GJ;
         "fabric-1.20.5-pre4" = _h7T19gAx;
         "fabric-1.20.5-rc1" = _h7T19gAx;
         "fabric-1.20.5-rc2" = _h7T19gAx;
@@ -400,7 +442,7 @@ let
         "fabric-1.21-pre2" = _5W6dcLLX;
         "fabric-1.21-pre3" = _5W6dcLLX;
         "fabric-1.21" = _S5dUNttD;
-        "fabric-1.21.1" = _yNLIfLfY;
+        "fabric-1.21.1" = _mZRwPmDq;
         "fabric-24w36a" = _kFp6R1j0;
         "fabric-24w37a" = _NNSnmXES;
         "fabric-1.21.2-pre1" = _f2H5q0A4;
@@ -454,7 +496,7 @@ let
         "fabric-26.1-snapshot-1" = _loCXKTUT;
         "fabric-26.1-snapshot-2" = _jb9ByWF9;
         "fabric-26.1-rc-2" = _IxBftFTK;
-        "fabric-26.1" = _IxBftFTK;
+        "fabric-26.1" = _ysV9ctFJ;
         "fabric-26.1.1" = _IxBftFTK;
         "fabric-26.1.2" = _IxBftFTK;
         "fabric-26.2-rc-2" = _GvWIgHj2;
@@ -462,6 +504,9 @@ let
         "fabric-26.3-snapshot-2" = _qOMg3oZp;
         "fabric-26.3-rc-2" = _ktU1UdSf;
         "fabric-26.3-rc-3" = _ktU1UdSf;
+        "fabric-26.3" = _Ovlis4GJ;
+        "fabric-26.4-snapshot-1" = _lq2zhuz0;
+        "fabric-26.4-snapshot-2" = _DRG4Az9L;
         "pkg-1.0.0-beta.1+1.20.5-pre4" = _h7T19gAx;
         "pkg-1.0.0-bata.2+1.20.5" = _4rikEHY9;
         "pkg-1.0.0-bata.2+1.20.6" = _ykdv7YCA;
@@ -526,7 +571,14 @@ let
         "pkg-1.4.0+26.2-rc-2" = _GvWIgHj2;
         "pkg-1.4.0+26.3-snapshot-2" = _qOMg3oZp;
         "pkg-1.4.0+26.3-rc-2" = _ktU1UdSf;
-        "default" = _ktU1UdSf;
+        "pkg-1.4.1+26.3" = _3npugEis;
+        "pkg-1.4.1+26.1" = _ajm7tIuH;
+        "pkg-1.1.2+1.21.1" = _mZRwPmDq;
+        "pkg-1.4.1+26.4-snapshot-1" = _lq2zhuz0;
+        "pkg-1.4.2-26.4-snapshot-2" = _DRG4Az9L;
+        "pkg-1.4.2+26.1" = _ysV9ctFJ;
+        "pkg-1.4.2+26.3" = _Ovlis4GJ;
+        "default" = _Ovlis4GJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "worldgen-devtools";

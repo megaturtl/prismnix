@@ -161,6 +161,21 @@ let
             "file" = "woolbuttons-fabric-26.2-1.5.jar";
             "hash" = "sha512-SFnH8aow4f1f1K2V7Kzttk2fD1e3hEaC9zJGAoA67jEqdd13/SF6sHQa/W3dX4sx5lS9pD1KALuVkdL1oGQ8dw==";
         };
+        _PH7Slsac = {
+            "id" = "PH7Slsac";
+            "file" = "woolbuttons-neoforge-26.3-1.5.jar";
+            "hash" = "sha512-ttJvxyHXk2kZfRUbbAIhoqmO55Jok3+mXnJYSoRxZRAEr3S2jrnPHCHRILHoh09f3OSbbzIU9JYW8TpFLaK59g==";
+        };
+        _A6LXFmb6 = {
+            "id" = "A6LXFmb6";
+            "file" = "woolbuttons-fabric-26.3-1.5.jar";
+            "hash" = "sha512-z1QzhrOyUbUDlszoOPlnHolClZ2zGDiaIe13uqHkUGVLWcRfWnvS55eORrbeaXeYsNC9+SCcJdgoj2175Ye0fA==";
+        };
+        _IdDbR3PY = {
+            "id" = "IdDbR3PY";
+            "file" = "woolbuttons-neoforge-26.3-1.5.1.jar";
+            "hash" = "sha512-gX6RMJhX+ntq2QhN4Vy7adL0RGmRlc7p9iuWUyZwwoxBiDv7eQ9cgEar1JlAxhCu7jT1PdTv8GoT95QrDts6fQ==";
+        };
     in {
         "8tCqlgNP" = _8tCqlgNP;
         "pyDlOgQ5" = _pyDlOgQ5;
@@ -194,6 +209,9 @@ let
         "WK3NkxQb" = _WK3NkxQb;
         "OjEDA6kU" = _OjEDA6kU;
         "nvUqaTVt" = _nvUqaTVt;
+        "PH7Slsac" = _PH7Slsac;
+        "A6LXFmb6" = _A6LXFmb6;
+        "IdDbR3PY" = _IdDbR3PY;
         "forge-1.12.2" = _8tCqlgNP;
         "forge-1.14.4" = _pyDlOgQ5;
         "forge-1.15.1" = _ra0uYYAC;
@@ -232,14 +250,17 @@ let
         "neoforge-26.1.1" = _h3lrPVm7;
         "neoforge-26.1.2" = _h3lrPVm7;
         "neoforge-26.2" = _OjEDA6kU;
+        "neoforge-26.3" = _IdDbR3PY;
         "fabric-26.1" = _WK3NkxQb;
         "fabric-26.1.1" = _WK3NkxQb;
         "fabric-26.1.2" = _WK3NkxQb;
         "fabric-26.2" = _nvUqaTVt;
+        "fabric-26.3" = _A6LXFmb6;
         "quilt-26.1" = _WK3NkxQb;
         "quilt-26.1.1" = _WK3NkxQb;
         "quilt-26.1.2" = _WK3NkxQb;
         "quilt-26.2" = _nvUqaTVt;
+        "quilt-26.3" = _A6LXFmb6;
         "pkg-v1.1" = _E1r6PXc0;
         "pkg-v1.1.1" = _CYSxI4kL;
         "pkg-v1.2" = _VK7ABFdY;
@@ -247,9 +268,10 @@ let
         "pkg-v1.3.1" = _91feipcY;
         "pkg-v1.3.2" = _iMcxB1uG;
         "pkg-v1.3.3" = _spgifMYP;
-        "pkg-v1.5" = _nvUqaTVt;
+        "pkg-v1.5" = _A6LXFmb6;
         "pkg-v1.4" = _Tow75UPD;
-        "default" = _nvUqaTVt;
+        "pkg-v1.5.1" = _IdDbR3PY;
+        "default" = _IdDbR3PY;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "wool-buttons";

@@ -61,6 +61,11 @@ let
             "file" = "citfancy-26.3.jar";
             "hash" = "sha512-rJUv08p3f7iIPwC84/6TvmPQ0RHep2ivq4ozvtKfZbhtJYxrVqGt5jUdqcokwwF43CN7M90xwsJoHcG+5BwNMg==";
         };
+        _FxYKWUSA = {
+            "id" = "FxYKWUSA";
+            "file" = "citfancy-26.3.jar";
+            "hash" = "sha512-Z1XW73KoTo2Dktg5sR8qQIe6lLS9MPRD7pAGWBlaBKPmy7pEMQTOkdYPNdh4yEsVR2LKC+kaE8uIYfLKmBdgAw==";
+        };
     in {
         "OheBUGNW" = _OheBUGNW;
         "EUQAaETN" = _EUQAaETN;
@@ -74,6 +79,7 @@ let
         "LfaQTssV" = _LfaQTssV;
         "zO7BjHT7" = _zO7BjHT7;
         "6lOR03Ia" = _6lOR03Ia;
+        "FxYKWUSA" = _FxYKWUSA;
         "fabric-1.21.4" = _w3IHPoZS;
         "fabric-1.21.8" = _l2XKjWY1;
         "fabric-1.21.11" = _u0WuN1ih;
@@ -86,7 +92,7 @@ let
         "fabric-26.2" = _vzJbvzoJ;
         "fabric-1.21.10" = _LfaQTssV;
         "fabric-1.21.3" = _zO7BjHT7;
-        "fabric-26.3" = _6lOR03Ia;
+        "fabric-26.3" = _FxYKWUSA;
         "pkg-1.21.4" = _OheBUGNW;
         "pkg-1.21.8" = _EUQAaETN;
         "pkg-1.21.11" = _sy85zIZO;
@@ -99,7 +105,8 @@ let
         "pkg-1.21.10" = _LfaQTssV;
         "pkg-1.21.3" = _zO7BjHT7;
         "pkg-26.3" = _6lOR03Ia;
-        "default" = _6lOR03Ia;
+        "pkg-v2-26.3" = _FxYKWUSA;
+        "default" = _FxYKWUSA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "citfancy";

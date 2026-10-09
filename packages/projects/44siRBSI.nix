@@ -26,19 +26,34 @@ let
             "file" = "easy-elytra-mace-1.0.0-1.21.8.jar";
             "hash" = "sha512-ULOk1nrp/8eE1JgCL/qwekGoyQago7kKBpYAODjRdEeVL2xSKRVU0U8foKtWFvwgAfxUNuD25mtiILvrAWmpDA==";
         };
+        _FFChaLJ8 = {
+            "id" = "FFChaLJ8";
+            "file" = "EEM-fabric-1.0.1-26.2.jar";
+            "hash" = "sha512-xNuL3+Iw5KSWGfauy0OBmMgmiR8FkwWC/10ostWmdDr9j56HEz+OazXVg9whh4pnGNiA9iKwqEx48rY9oEtPNQ==";
+        };
+        _dsWAQgGc = {
+            "id" = "dsWAQgGc";
+            "file" = "EEM-fabric-1.0.1-26.3.jar";
+            "hash" = "sha512-1RvlThafgRZH9gJydxIkqR9Jq5kDVMC58pQGJZHB7JXfpXmGN1IuRBamU1WIXnpCSjYgFQrEgzvqMuUsxz972w==";
+        };
     in {
         "7WPXCXDz" = _7WPXCXDz;
         "xVe2AkD9" = _xVe2AkD9;
         "1c0dU4kg" = _1c0dU4kg;
         "3CKKohXU" = _3CKKohXU;
         "xGEMqXdb" = _xGEMqXdb;
+        "FFChaLJ8" = _FFChaLJ8;
+        "dsWAQgGc" = _dsWAQgGc;
         "fabric-1.21.1" = _7WPXCXDz;
         "fabric-1.21.5" = _xVe2AkD9;
         "fabric-1.21.6" = _1c0dU4kg;
         "fabric-1.21.7" = _3CKKohXU;
         "fabric-1.21.8" = _xGEMqXdb;
+        "fabric-26.2" = _FFChaLJ8;
+        "fabric-26.3" = _dsWAQgGc;
         "pkg-1.0.0" = _xGEMqXdb;
-        "default" = _xGEMqXdb;
+        "pkg-1.0.1" = _dsWAQgGc;
+        "default" = _dsWAQgGc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "easy-elytra-mace";

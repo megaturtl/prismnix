@@ -171,6 +171,11 @@ let
             "file" = "RepeaterSound-1.6.1_26.2.jar";
             "hash" = "sha512-NYGGk4hIw1rHxHnz4NQ7vPe/Tq1ZutAIyQ0mQY+tRr06ho66RO3sf8adKpFsCLJAQZeunr29pQcZNnFEh/rOKw==";
         };
+        _FZrOwrlZ = {
+            "id" = "FZrOwrlZ";
+            "file" = "RepeaterSound-1.6.1_26.3.jar";
+            "hash" = "sha512-hlO2+wQG3M9eagutwY+Yd15SiEpeGXGb5OO4a4Q+C5M0Mb42suphxWwYaiLzmXMprEBPGyVIpxj+YPMsnbLeiA==";
+        };
     in {
         "EGBElEnO" = _EGBElEnO;
         "gwIo5uZk" = _gwIo5uZk;
@@ -206,6 +211,7 @@ let
         "WtGgv9w0" = _WtGgv9w0;
         "gIiEc2xE" = _gIiEc2xE;
         "moAIfpBi" = _moAIfpBi;
+        "FZrOwrlZ" = _FZrOwrlZ;
         "fabric-1.16.5" = _pfXLsynW;
         "fabric-1.17.1" = _pfXLsynW;
         "fabric-1.18.2" = _pfXLsynW;
@@ -231,6 +237,7 @@ let
         "fabric-1.21.11" = _WtGgv9w0;
         "fabric-26.1" = _gIiEc2xE;
         "fabric-26.2" = _moAIfpBi;
+        "fabric-26.3" = _FZrOwrlZ;
         "pkg-0.1.1" = _EGBElEnO;
         "pkg-0.1.0" = _MNnvFdEE;
         "pkg-0.2.0" = _B9mzcUWF;
@@ -242,8 +249,8 @@ let
         "pkg-1.4.0" = _phntFeOC;
         "pkg-1.5.0" = _cHyBa211;
         "pkg-1.6.0" = _HtjbJwtA;
-        "pkg-1.6.1" = _moAIfpBi;
-        "default" = _moAIfpBi;
+        "pkg-1.6.1" = _FZrOwrlZ;
+        "default" = _FZrOwrlZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "repeater-sound";

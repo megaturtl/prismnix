@@ -771,6 +771,11 @@ let
             "file" = "enhancedbiomemusic-neoforge-2.2.1+26.3.jar";
             "hash" = "sha512-h4LY2waL/vUJwvDkh+j45HC5Wafq3RurnoSKzf4K9Aw5sq3Qh6ZIC/6570U6W941X/xemVdQ+EWz4A2tI0Llrw==";
         };
+        _2JYXIxHv = {
+            "id" = "2JYXIxHv";
+            "file" = "enhancedbiomesmusic-forge-2.2.1-hotfix+1.20.1.jar";
+            "hash" = "sha512-2A5lyWHEtPkGe1y9QuoatMiyhNezF9AuwDSFgb5x9Ixg57+ih4houSBWAqzxpjP/Qr5GSlmehNhNdWx3744aJg==";
+        };
     in {
         "HCucmSgI" = _HCucmSgI;
         "kS0X0fjc" = _kS0X0fjc;
@@ -926,6 +931,7 @@ let
         "VCHOdPzF" = _VCHOdPzF;
         "1li4EE0B" = _1li4EE0B;
         "h9dm65fN" = _h9dm65fN;
+        "2JYXIxHv" = _2JYXIxHv;
         "fabric-26.1" = _l9eFYrIU;
         "fabric-26.1.1" = _l9eFYrIU;
         "fabric-26.1.2" = _l9eFYrIU;
@@ -977,7 +983,7 @@ let
         "neoforge-26.2" = _SFo1Q5Wt;
         "neoforge-1.20.2" = _n7dbTuo7;
         "neoforge-26.3" = _h9dm65fN;
-        "forge-1.20.1" = _wZeVneUF;
+        "forge-1.20.1" = _2JYXIxHv;
         "forge-1.21" = _xrnblDJJ;
         "forge-1.21.1" = _xrnblDJJ;
         "forge-1.21.2" = _xrnblDJJ;
@@ -1037,7 +1043,8 @@ let
         "pkg-2.2.1" = _h9dm65fN;
         "pkg-2.2.2" = _l9eFYrIU;
         "pkg-2.2.3" = _VCHOdPzF;
-        "default" = _h9dm65fN;
+        "pkg-2.2.1-hotfix" = _2JYXIxHv;
+        "default" = _2JYXIxHv;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enhancedbiomemusic";

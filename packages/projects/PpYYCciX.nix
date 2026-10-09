@@ -106,6 +106,16 @@ let
             "file" = "motorassistancemod-forge-26.2-3.1.2.jar";
             "hash" = "sha512-iUs77WC/yfXo7tvQ29DPFKgmjgeyxTAk42wE3h1w3Qog5aEHTlUpyBSQclExjlzlc0fqxIVO99czTeFLXb1zcw==";
         };
+        _IjnuyQv5 = {
+            "id" = "IjnuyQv5";
+            "file" = "motorassistancemod-fabric-26.3-3.2.0.jar";
+            "hash" = "sha512-9G96LaZz8A3ckvevTPj4OiF98wzMNb8eVhzaDYQ2A6QM5u322WAE4whphnTzZGfCgUqJfi19FhqATb6RYUtFBg==";
+        };
+        _nvMjdFvh = {
+            "id" = "nvMjdFvh";
+            "file" = "motorassistancemod-neoforge-26.3-3.2.0.jar";
+            "hash" = "sha512-Xf7ZLe6XsjIKU7OVMnq/I5yDXtHmqP19PqtDR/Uc9xcdKRe/jXkl2vOFaUDoAjrnWxP0B1URtCl2jQ5Ma+XGrg==";
+        };
     in {
         "x29WVXQL" = _x29WVXQL;
         "3yAiQGwC" = _3yAiQGwC;
@@ -128,6 +138,8 @@ let
         "xyiXcQxM" = _xyiXcQxM;
         "SLOQXBTz" = _SLOQXBTz;
         "qsCutA3S" = _qsCutA3S;
+        "IjnuyQv5" = _IjnuyQv5;
+        "nvMjdFvh" = _nvMjdFvh;
         "fabric-1.20.1" = _xyiXcQxM;
         "fabric-1.21.1" = _E8cOvdHx;
         "fabric-1.21.2" = _E8cOvdHx;
@@ -144,6 +156,7 @@ let
         "fabric-26.1.1" = _6aaZ1cnr;
         "fabric-26.1.2" = _6aaZ1cnr;
         "fabric-26.2" = _AP8HcfRa;
+        "fabric-26.3" = _IjnuyQv5;
         "forge-1.20.1" = _SLOQXBTz;
         "forge-26.2" = _qsCutA3S;
         "neoforge-1.21.1" = _DmJhAeXI;
@@ -161,6 +174,7 @@ let
         "neoforge-26.1.1" = _u874NYHv;
         "neoforge-26.1.2" = _u874NYHv;
         "neoforge-26.2" = _TF5ZIkbu;
+        "neoforge-26.3" = _nvMjdFvh;
         "pkg-2.0.0" = _x29WVXQL;
         "pkg-2.1.0" = _1kkdEDhA;
         "pkg-3.0.0" = _6aaZ1cnr;
@@ -173,7 +187,9 @@ let
         "pkg-2.1.1-MC1.20.1-fabric" = _xyiXcQxM;
         "pkg-2.1.1-MC1.20.1-forge" = _SLOQXBTz;
         "pkg-3.1.2-MC26.2-forge" = _qsCutA3S;
-        "default" = _qsCutA3S;
+        "pkg-3.1.2-MC26.3-fabric" = _IjnuyQv5;
+        "pkg-3.1.2-MC26.3-neoforge" = _nvMjdFvh;
+        "default" = _nvMjdFvh;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "motor-assistance";

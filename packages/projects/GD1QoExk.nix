@@ -701,6 +701,96 @@ let
             "file" = "enchantments-encore-4.9.jar";
             "hash" = "sha512-orSuqzQK3ABj67IqepWvlFLsRFJPgbrGOKooTBUHTyeC9GpCP2jDniLEZ3rEMUb4o+pvBoWnef8O8qxlCecDkg==";
         };
+        _7et0gsCd = {
+            "id" = "7et0gsCd";
+            "file" = "enchantments_encore_5.0.zip";
+            "hash" = "sha512-JGf4lMV9L9MvNeAzMzZtak58zqn/bgYLk1oMGBW2JYy1Zsn+DCWon5Iav1aR7iCGWmulRNLSQff3Elts8lNb3g==";
+        };
+        _q6Yfpf0j = {
+            "id" = "q6Yfpf0j";
+            "file" = "enchantments-encore-5.0.jar";
+            "hash" = "sha512-DlOgFUhiSSbAgDJ+XrM5+h2Mig486KJR1muswadZJRF6ho5FJg7zC6sjs5lOjV4x+aM1uUa9Ey6oOJ/Y6HrvPQ==";
+        };
+        _2KvDKZ8U = {
+            "id" = "2KvDKZ8U";
+            "file" = "enchantments_encore_5.1.zip";
+            "hash" = "sha512-FMxvrx6nI6ztE8FaMnPYWkovje9vPafhOU7qlGy52GCQ7doCZtVxopPS35bz0GvgHmO+AB6NINlIFNuYj/AHyA==";
+        };
+        _26WvR51c = {
+            "id" = "26WvR51c";
+            "file" = "enchantments-encore-5.1.jar";
+            "hash" = "sha512-i5vn4aahHc4LSAHHJB6zLooNS3ZLgvYltywKH3HL4YPjpodlqvRQnVeRxKtLAFMoq6kqj/3ykgcOWjzqcH4WZA==";
+        };
+        _4X5FAjl1 = {
+            "id" = "4X5FAjl1";
+            "file" = "enchantments_encore_5.2.zip";
+            "hash" = "sha512-pWpdwiz37pNvR9KhGGzjF1lOHSYJQGrw9jvHfT6mY8/LkqSawDBt/GDQzrdMjtLE2zizZ/qvgFWr08pGIrqNpA==";
+        };
+        _RvVwOZ7H = {
+            "id" = "RvVwOZ7H";
+            "file" = "enchantments-encore-5.2.jar";
+            "hash" = "sha512-4x8/hs8QQCTGpQSEfX3mFPSAQCO3DX3mmVptFDuLZ4R3kbpnYL0dJ1xpbVdbm57GWxblRyV+s6MnhMZ+hSw9vg==";
+        };
+        _FLTAsDZR = {
+            "id" = "FLTAsDZR";
+            "file" = "enchantments_encore_5.3.zip";
+            "hash" = "sha512-aK6X1yftxKEKKKUBYfEXP/7h7j7MAlNPp8hkMwRn/j6aiCKPG84HiT6sJNg/SHxMhY7G5F5G5FZkXek6Bax52g==";
+        };
+        _YMVLRBbU = {
+            "id" = "YMVLRBbU";
+            "file" = "enchantments-encore-5.3.jar";
+            "hash" = "sha512-yK/GXViMkDsTth75FFqfvXIriWKThZPa1MvT/DyT/ZaaucxzzS0A9JVlnxXdgNE674KYLtEv6d3yL9G/BQkyrQ==";
+        };
+        _LKRxz4EM = {
+            "id" = "LKRxz4EM";
+            "file" = "enchantments_encore_5.4.zip";
+            "hash" = "sha512-WVamDzaDi4992NyrtenzcDqVoH8uCRY5j90wAg3h/THpYYMvP9E0N+wJIuGlPDmljTNq/P9Km2s2XiuH9KLXAg==";
+        };
+        _WFt1IgOj = {
+            "id" = "WFt1IgOj";
+            "file" = "enchantments-encore-5.4.jar";
+            "hash" = "sha512-yLes8oevXvZazjZvsMzpYpe14YnZMgS6leqDyYrg7EuHQAA67TvLSx1NkL+SGn6RWbOhxwqM3D16mu0gJjcojg==";
+        };
+        _a3YFwoOg = {
+            "id" = "a3YFwoOg";
+            "file" = "enchantments_encore_5.5.zip";
+            "hash" = "sha512-lQM5bnL+F+hb6sFsboiMHmLG4kWqXFmXDrhod/h1en+Jy7HFmsrkmVMI2axxJpLZw/aL8ngNJx1Q8Q2IIa3JDg==";
+        };
+        _5JCCryy6 = {
+            "id" = "5JCCryy6";
+            "file" = "enchantments-encore-5.5.jar";
+            "hash" = "sha512-99Lh7FlapliIfuXpCBCCQn/lFCTG7qaYFIcEfx3Yc8F8zvzK/9PfGLtSduBZHZl0I19X/ts8Y8W2jvx02Sxa4g==";
+        };
+        _xROBkccg = {
+            "id" = "xROBkccg";
+            "file" = "enchantments_encore_5.6.zip";
+            "hash" = "sha512-/xjAZlJ8/a84M4lePsfqTLh4FMjkB/LGilj+5P1UEYjvOP5iHLsuN2BymlDEJ+V6ltvOO067NhazYYbIhj/w/A==";
+        };
+        _9apvze70 = {
+            "id" = "9apvze70";
+            "file" = "enchantments-encore-5.6.jar";
+            "hash" = "sha512-5FhsAJ/XhX/XrFJvdy6FhVe5hdrJ/fNOBWgWkXjte/wpYrXCq+aW3yFitac9ZDnD9oEjGPQh3n5ue2SAS4Ru8w==";
+        };
+        _Ny38sQCo = {
+            "id" = "Ny38sQCo";
+            "file" = "enchantments_encore_5.7.zip";
+            "hash" = "sha512-oMwyWdMa3LCNZNLXWAarhLPUYThY1+D4U+U8kdy5x3wFNNCH8Ga+rEJK595jz8VHD/CMKnrhQ437Oug+6LJ7OA==";
+        };
+        _m0eqeecx = {
+            "id" = "m0eqeecx";
+            "file" = "enchantments-encore-5.7.jar";
+            "hash" = "sha512-wUwa6jVMF4cKgyUrZJnHJOpIMgmemy32KFFnStWQDaRk1ap3oRCUGVscJfID9JO9lSrzZZ+/9LNE9cXhI73S3g==";
+        };
+        _A6wkU5na = {
+            "id" = "A6wkU5na";
+            "file" = "enchantments_encore_5.7.zip";
+            "hash" = "sha512-AN+GCSgxvGydtt8E2grmpeW34BgQUGQsx5NnHiEnJxaN30AB4wEtz6J9/MFM6rvnYxi9cXHbxiyrJlRtmR6Dog==";
+        };
+        _TVLHOX6K = {
+            "id" = "TVLHOX6K";
+            "file" = "enchantments-encore-5.7.jar";
+            "hash" = "sha512-Tv72EZXwQldFzAHSOZI8CAeiHdRCjhJttuAO70TJaFuTzf6fPhNsNuQX1R/TBnRsGVYARwixSAgxXCritp1K7w==";
+        };
     in {
         "79LHaYOM" = _79LHaYOM;
         "yMfwaoWW" = _yMfwaoWW;
@@ -842,6 +932,24 @@ let
         "GkPjR4xw" = _GkPjR4xw;
         "Uo0OaKjm" = _Uo0OaKjm;
         "ifskFv3X" = _ifskFv3X;
+        "7et0gsCd" = _7et0gsCd;
+        "q6Yfpf0j" = _q6Yfpf0j;
+        "2KvDKZ8U" = _2KvDKZ8U;
+        "26WvR51c" = _26WvR51c;
+        "4X5FAjl1" = _4X5FAjl1;
+        "RvVwOZ7H" = _RvVwOZ7H;
+        "FLTAsDZR" = _FLTAsDZR;
+        "YMVLRBbU" = _YMVLRBbU;
+        "LKRxz4EM" = _LKRxz4EM;
+        "WFt1IgOj" = _WFt1IgOj;
+        "a3YFwoOg" = _a3YFwoOg;
+        "5JCCryy6" = _5JCCryy6;
+        "xROBkccg" = _xROBkccg;
+        "9apvze70" = _9apvze70;
+        "Ny38sQCo" = _Ny38sQCo;
+        "m0eqeecx" = _m0eqeecx;
+        "A6wkU5na" = _A6wkU5na;
+        "TVLHOX6K" = _TVLHOX6K;
         "datapack-24w21b" = _nDWrOAnU;
         "datapack-1.21-pre2" = _FZiBeZKu;
         "datapack-1.21-pre3" = _IgXOmo7L;
@@ -862,7 +970,7 @@ let
         "datapack-26.1.1" = _iCtTXHhf;
         "datapack-26.1.2" = _iCtTXHhf;
         "datapack-26.2" = _QhiNmOC0;
-        "datapack-26.3" = _Uo0OaKjm;
+        "datapack-26.3" = _A6wkU5na;
         "fabric-24w21b" = _KG7Ea9WL;
         "fabric-1.21-pre2" = _IjEwA6WI;
         "fabric-1.21-pre3" = _AZ7kdnix;
@@ -883,7 +991,7 @@ let
         "fabric-26.1.1" = _IgbY99sm;
         "fabric-26.1.2" = _IgbY99sm;
         "fabric-26.2" = _GkPjR4xw;
-        "fabric-26.3" = _ifskFv3X;
+        "fabric-26.3" = _TVLHOX6K;
         "forge-24w21b" = _KG7Ea9WL;
         "forge-1.21-pre2" = _IjEwA6WI;
         "forge-1.21-pre3" = _AZ7kdnix;
@@ -904,7 +1012,7 @@ let
         "forge-26.1.1" = _IgbY99sm;
         "forge-26.1.2" = _IgbY99sm;
         "forge-26.2" = _GkPjR4xw;
-        "forge-26.3" = _ifskFv3X;
+        "forge-26.3" = _TVLHOX6K;
         "quilt-24w21b" = _KG7Ea9WL;
         "quilt-1.21-pre2" = _IjEwA6WI;
         "quilt-1.21-pre3" = _AZ7kdnix;
@@ -925,7 +1033,7 @@ let
         "quilt-26.1.1" = _IgbY99sm;
         "quilt-26.1.2" = _IgbY99sm;
         "quilt-26.2" = _GkPjR4xw;
-        "quilt-26.3" = _ifskFv3X;
+        "quilt-26.3" = _TVLHOX6K;
         "neoforge-1.21" = _G0Ilv4nD;
         "neoforge-1.21.1" = _G0Ilv4nD;
         "neoforge-1.21.2" = _F4v6elMW;
@@ -942,7 +1050,7 @@ let
         "neoforge-26.1.1" = _IgbY99sm;
         "neoforge-26.1.2" = _IgbY99sm;
         "neoforge-26.2" = _GkPjR4xw;
-        "neoforge-26.3" = _ifskFv3X;
+        "neoforge-26.3" = _TVLHOX6K;
         "pkg-0.1b" = _79LHaYOM;
         "pkg-0.1b+mod" = _yMfwaoWW;
         "pkg-B2" = _nDWrOAnU;
@@ -1081,7 +1189,23 @@ let
         "pkg-4.8-mod" = _GkPjR4xw;
         "pkg-4.9" = _Uo0OaKjm;
         "pkg-4.9-mod" = _ifskFv3X;
-        "default" = _ifskFv3X;
+        "pkg-5.0" = _7et0gsCd;
+        "pkg-5.0-mod" = _q6Yfpf0j;
+        "pkg-5.1" = _2KvDKZ8U;
+        "pkg-5.1-mod" = _26WvR51c;
+        "pkg-5.2" = _4X5FAjl1;
+        "pkg-5.2-mod" = _RvVwOZ7H;
+        "pkg-5.3" = _FLTAsDZR;
+        "pkg-5.3-mod" = _YMVLRBbU;
+        "pkg-5.4" = _LKRxz4EM;
+        "pkg-5.4-mod" = _WFt1IgOj;
+        "pkg-5.5" = _a3YFwoOg;
+        "pkg-5.5-mod" = _5JCCryy6;
+        "pkg-5.6" = _xROBkccg;
+        "pkg-5.6-mod" = _9apvze70;
+        "pkg-5.7" = _A6wkU5na;
+        "pkg-5.7-mod" = _TVLHOX6K;
+        "default" = _TVLHOX6K;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "enchantments-encore";

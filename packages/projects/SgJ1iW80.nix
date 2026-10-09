@@ -61,6 +61,11 @@ let
             "file" = "better_end_sky-0.3.1+26.2.jar";
             "hash" = "sha512-FqytyNBNZMeGJEYvMlZSOW6SqHWe+VxzZHNXudMJR9WfeWj8a5T606w93zrj6UFuzppGUOF9ulh1RZlhlhtleQ==";
         };
+        _bX8vnkfe = {
+            "id" = "bX8vnkfe";
+            "file" = "better_end_sky-0.3.1+26.3.jar";
+            "hash" = "sha512-qvUlpIZIXTHKhVEBDg59MeHGHhcaLJ01PepQGZ01fmJFihhRL0ooWji7Vc4YDql32tPWbVpLSKFTsenkqEvMSA==";
+        };
     in {
         "OjE8vpNz" = _OjE8vpNz;
         "kQHj7yT2" = _kQHj7yT2;
@@ -74,6 +79,7 @@ let
         "QFRPz8YF" = _QFRPz8YF;
         "O1CbhMWd" = _O1CbhMWd;
         "prsuniV7" = _prsuniV7;
+        "bX8vnkfe" = _bX8vnkfe;
         "fabric-1.19" = _dabcJfJV;
         "fabric-1.18.2" = _kQHj7yT2;
         "fabric-1.19.1" = _dabcJfJV;
@@ -96,6 +102,7 @@ let
         "fabric-26.1.1" = _O1CbhMWd;
         "fabric-26.1.2" = _O1CbhMWd;
         "fabric-26.2" = _prsuniV7;
+        "fabric-26.3" = _bX8vnkfe;
         "quilt-1.19" = _dabcJfJV;
         "quilt-1.18.2" = _kQHj7yT2;
         "quilt-1.19.1" = _dabcJfJV;
@@ -108,6 +115,7 @@ let
         "quilt-1.20.3" = _7Hl03yPV;
         "quilt-1.20.4" = _7Hl03yPV;
         "neoforge-26.2" = _prsuniV7;
+        "neoforge-26.3" = _bX8vnkfe;
         "pkg-0.1.0" = _OjE8vpNz;
         "pkg-0.0.1" = _kQHj7yT2;
         "pkg-0.1.1" = _dabcJfJV;
@@ -120,7 +128,8 @@ let
         "pkg-0.3.0+1.21.11" = _QFRPz8YF;
         "pkg-0.3.0+26.1" = _O1CbhMWd;
         "pkg-0.3.1+26.2" = _prsuniV7;
-        "default" = _prsuniV7;
+        "pkg-0.3.1+26.3" = _bX8vnkfe;
+        "default" = _bX8vnkfe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "better-end-sky";

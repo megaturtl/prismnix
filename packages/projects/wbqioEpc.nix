@@ -161,6 +161,11 @@ let
             "file" = "fabricautocrafter-1.2.4.jar";
             "hash" = "sha512-oALjoBt0oAQCY/R17Ly9CoHG/c9cZC6IwETwcTtHGqnxisZMX/eQ8wb6dA0WFGEB31Ywzuve5RwSkaPn2jENDQ==";
         };
+        _1VPJNY3q = {
+            "id" = "1VPJNY3q";
+            "file" = "fabricautocrafter-1.2.4.jar";
+            "hash" = "sha512-Bh9QP12IQR7kUY/GJFaUc29gJS5uyFhjhDiR2da/Wmfg1MQe6hcXs21B0cvf4ZcmI5OACxIH3FZ6u2BR3ulyHw==";
+        };
     in {
         "Jnifd0WR" = _Jnifd0WR;
         "ElN4JpYp" = _ElN4JpYp;
@@ -194,6 +199,7 @@ let
         "p5TThsWr" = _p5TThsWr;
         "NKGwSyox" = _NKGwSyox;
         "c9Mi2Ouu" = _c9Mi2Ouu;
+        "1VPJNY3q" = _1VPJNY3q;
         "fabric-1.18" = _zhx2L42d;
         "fabric-1.18.1" = _OQRgIuYg;
         "fabric-1.18.2" = _sWD0ouDL;
@@ -226,6 +232,7 @@ let
         "fabric-26.1.1" = _NKGwSyox;
         "fabric-26.1.2" = _NKGwSyox;
         "fabric-26.2" = _c9Mi2Ouu;
+        "fabric-26.3" = _1VPJNY3q;
         "quilt-1.19" = _2Y5dwicx;
         "quilt-1.19.1" = _EWZBohuo;
         "quilt-1.19.2" = _bNsyA2At;
@@ -256,6 +263,7 @@ let
         "quilt-26.1.1" = _NKGwSyox;
         "quilt-26.1.2" = _NKGwSyox;
         "quilt-26.2" = _c9Mi2Ouu;
+        "quilt-26.3" = _1VPJNY3q;
         "pkg-1.0.0" = _Jnifd0WR;
         "pkg-1.0.1" = _ElN4JpYp;
         "pkg-1.0.2" = _zhx2L42d;
@@ -287,7 +295,8 @@ let
         "pkg-1.2.2" = _p5TThsWr;
         "pkg-1.2.4" = _NKGwSyox;
         "pkg-mc26.2-1.2.4" = _c9Mi2Ouu;
-        "default" = _c9Mi2Ouu;
+        "pkg-mc26.3-1.2.4" = _1VPJNY3q;
+        "default" = _1VPJNY3q;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fabricautocrafter";

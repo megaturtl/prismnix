@@ -696,6 +696,11 @@ let
             "file" = "palamod-1.21.1.0202020-forge-1.20.1.jar";
             "hash" = "sha512-5Fp5aMTEYiOLzLPbxFGWDCVLsxOdSu4bj1ASI7UnLqtVfER5sDjrDKvpaXy/osR7enB+Lyvab6VaS0gu7WuZ6g==";
         };
+        _a3UhCUum = {
+            "id" = "a3UhCUum";
+            "file" = "palamod-1.21.1.022-neoforge-1.21.1.jar";
+            "hash" = "sha512-MLjWKhT11IXIXusx50tAUC7ZJwjoEs7CYNRPNU0zGXELVJbC+WPcQ27nTXE5OItVK+MGo8q+bVplp9oms4X5jA==";
+        };
     in {
         "DhBm2mpb" = _DhBm2mpb;
         "pSq95HsW" = _pSq95HsW;
@@ -836,6 +841,7 @@ let
         "DxiM8A83" = _DxiM8A83;
         "RxZvKG2F" = _RxZvKG2F;
         "iwcsBe3q" = _iwcsBe3q;
+        "a3UhCUum" = _a3UhCUum;
         "forge-1.19.4" = _AvOQItjq;
         "forge-1.18.2" = _5qbf8xne;
         "forge-1.16.4" = _QDktXYtw;
@@ -844,7 +850,7 @@ let
         "forge-1.17.1" = _Qb9eScDh;
         "forge-1.20.1" = _iwcsBe3q;
         "neoforge-1.20.4" = _xNkbaa1k;
-        "neoforge-1.21.1" = _RxZvKG2F;
+        "neoforge-1.21.1" = _a3UhCUum;
         "neoforge-1.21.4" = _P7WMqLqw;
         "neoforge-1.21.8" = _3rC8ZmFH;
         "neoforge-26.1.2" = _CrnGEA2k;
@@ -976,7 +982,8 @@ let
         "pkg-1.21.1.020" = _DxiM8A83;
         "pkg-1.21.1.021" = _RxZvKG2F;
         "pkg-1.21.1.0202020" = _iwcsBe3q;
-        "default" = _iwcsBe3q;
+        "pkg-1.21.1.022" = _a3UhCUum;
+        "default" = _a3UhCUum;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "palamod-renew";

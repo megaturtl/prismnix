@@ -556,6 +556,26 @@ let
             "file" = "questlog-fabric-1.21.1-3.4.0.jar";
             "hash" = "sha512-Z+wh9WVNTtBY6/kiYhLBOHx8X8O6/UrkCuzZKKvF8aCak8f9W7iSpABhGgKaqKKEVCWYf5EV3jSDk+XKaenPwQ==";
         };
+        _UcDv0VBC = {
+            "id" = "UcDv0VBC";
+            "file" = "questlog-fabric-1.20.1-3.4.1.jar";
+            "hash" = "sha512-+3PXIvvR06Ok3slfGr2HtkeeolDg3YCuckksu7hXMXX+ZbPx8hAT0vWDEmh5TFkkaEb/1B8OZ0tcCsiu2CC5AQ==";
+        };
+        _SaXWFr60 = {
+            "id" = "SaXWFr60";
+            "file" = "questlog-forge-1.20.1-3.4.1.jar";
+            "hash" = "sha512-qUptRze82S0bq4qosLQrfnpkv4ictRxw/6K01BW1UsUhRzjk7l4dV7Le8ZZJj3SKHPgTQhApYAHwXW/42AtYAA==";
+        };
+        _6ZFtauOf = {
+            "id" = "6ZFtauOf";
+            "file" = "questlog-neoforge-1.21.1-3.4.1.jar";
+            "hash" = "sha512-YzHVgOv2ogSlHU3JSPCPBwya8fGxiTB3S/dhIhMYRi8UdE+uaS1vhk97KGbncbkazjLxGwgB488W+RuLMq62cQ==";
+        };
+        _HUGgTOi3 = {
+            "id" = "HUGgTOi3";
+            "file" = "questlog-fabric-1.21.1-3.4.1.jar";
+            "hash" = "sha512-I0pL5XYZeWgnLjuYmYK/VDqrTUNh5Y9sfFzvUlOINxJBrHbJjkJveHyUnwZ8VR+zaKRtGB5+pjzRqkJXTydR3w==";
+        };
     in {
         "2Im2K2rd" = _2Im2K2rd;
         "1gmhyNrP" = _1gmhyNrP;
@@ -668,20 +688,24 @@ let
         "rqpbQtdI" = _rqpbQtdI;
         "1QZ3XVNg" = _1QZ3XVNg;
         "4N7DMWDq" = _4N7DMWDq;
+        "UcDv0VBC" = _UcDv0VBC;
+        "SaXWFr60" = _SaXWFr60;
+        "6ZFtauOf" = _6ZFtauOf;
+        "HUGgTOi3" = _HUGgTOi3;
         "forge-1.19" = _2Im2K2rd;
         "forge-1.19.1" = _2Im2K2rd;
         "forge-1.19.2" = _2Im2K2rd;
         "forge-1.19.3" = _2Im2K2rd;
         "forge-1.19.4" = _2Im2K2rd;
-        "forge-1.20.1" = _rqpbQtdI;
+        "forge-1.20.1" = _SaXWFr60;
         "forge-1.20.2" = _1gmhyNrP;
         "forge-1.20.3" = _1gmhyNrP;
         "forge-1.20.4" = _1gmhyNrP;
         "forge-1.20.5" = _1gmhyNrP;
         "forge-1.20.6" = _1gmhyNrP;
-        "fabric-1.20.1" = _S4UL3V1w;
-        "fabric-1.21.1" = _4N7DMWDq;
-        "neoforge-1.21.1" = _1QZ3XVNg;
+        "fabric-1.20.1" = _UcDv0VBC;
+        "fabric-1.21.1" = _HUGgTOi3;
+        "neoforge-1.21.1" = _6ZFtauOf;
         "pkg-1.0.0" = _VYP4ieqX;
         "pkg-1.0.2" = _wJcuggC0;
         "pkg-1.0.4" = _Bi7JCoY1;
@@ -766,7 +790,11 @@ let
         "pkg-3.4.0-1.20.1-forge" = _rqpbQtdI;
         "pkg-3.4.0-1.21.1-neoforge" = _1QZ3XVNg;
         "pkg-3.4.0-1.21.1-fabric" = _4N7DMWDq;
-        "default" = _4N7DMWDq;
+        "pkg-3.4.1-1.20.1-fabric" = _UcDv0VBC;
+        "pkg-3.4.1-1.20.1-forge" = _SaXWFr60;
+        "pkg-3.4.1-1.21.1-neoforge" = _6ZFtauOf;
+        "pkg-3.4.1-1.21.1-fabric" = _HUGgTOi3;
+        "default" = _HUGgTOi3;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "questlog";

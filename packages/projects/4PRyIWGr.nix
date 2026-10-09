@@ -11,9 +11,15 @@ let
             "file" = "解压(Decompression).zip";
             "hash" = "sha512-lCGVzy4hW+bF1wTH8bcmSN7G4l7Zutwhh3y5ILphDJ3Fu/gmdC5F5YzIGDcwItXQ4iqVhz1BiZ5UTAI0LSM8VA==";
         };
+        _4RXsSnQE = {
+            "id" = "4RXsSnQE";
+            "file" = "Rto-v2.0-26.x.x.zip";
+            "hash" = "sha512-0pL91cdYQVhGL1MIjCA4e09j9qCx1dO9Oav6pSj2IYgVV4JaT9mUtuXCqVrySXhgXi2kOftsOpO9f98h0s8sdg==";
+        };
     in {
         "GvtgXsdU" = _GvtgXsdU;
         "94JNbLEj" = _94JNbLEj;
+        "4RXsSnQE" = _4RXsSnQE;
         "minecraft-1.16.5" = _94JNbLEj;
         "minecraft-1.18.2" = _94JNbLEj;
         "minecraft-1.19.4" = _94JNbLEj;
@@ -63,13 +69,15 @@ let
         "minecraft-1.21.9" = _94JNbLEj;
         "minecraft-1.21.10" = _94JNbLEj;
         "minecraft-1.21.11" = _94JNbLEj;
-        "minecraft-26.1" = _94JNbLEj;
-        "minecraft-26.1.1" = _94JNbLEj;
-        "minecraft-26.1.2" = _94JNbLEj;
-        "minecraft-26.2" = _94JNbLEj;
+        "minecraft-26.1" = _4RXsSnQE;
+        "minecraft-26.1.1" = _4RXsSnQE;
+        "minecraft-26.1.2" = _4RXsSnQE;
+        "minecraft-26.2" = _4RXsSnQE;
+        "minecraft-26.3" = _4RXsSnQE;
         "pkg-1.4" = _GvtgXsdU;
         "pkg-1.2" = _94JNbLEj;
-        "default" = _94JNbLEj;
+        "pkg-2.0" = _4RXsSnQE;
+        "default" = _4RXsSnQE;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ziyun-redstone-cover";

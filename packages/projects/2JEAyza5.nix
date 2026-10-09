@@ -61,6 +61,26 @@ let
             "file" = "waterballoon-neoforge-1.20.1-1.0.2.jar";
             "hash" = "sha512-lO1UYPq09tR/ABOXyQhYhuYMKw3MKw90AKMQoGi4BTKcHJMMuDcV9H/uabghYwCmX2U127HtdMdVR45Q84zuqQ==";
         };
+        _u6EwYOPf = {
+            "id" = "u6EwYOPf";
+            "file" = "waterballoon-fabric-1.20.1-1.0.3.jar";
+            "hash" = "sha512-QbCNIdKAOQbbZrIyrRwONB+UT8PIy/PGtRoJ/ovoYWlWXfHNvT/hVJNAentITcn1P5ay8Mu8hRWte5nPTmVaIQ==";
+        };
+        _tkq3n76w = {
+            "id" = "tkq3n76w";
+            "file" = "waterballoon-neoforge-1.20.1-1.0.3.jar";
+            "hash" = "sha512-61VdWo54mgKoQ9fqizrxhbg1edCd9qKezvyMqSQUb7WDd/AISvXHy/q1rPtV6OLQIqpkAE4QizuCWdRV8JQzFg==";
+        };
+        _koGC0C6n = {
+            "id" = "koGC0C6n";
+            "file" = "waterballoon-fabric-1.21.1-1.0.1.jar";
+            "hash" = "sha512-BjVYvLFWz9WLqMsNBWudaNtKsOxBjkCfBGKFfqzZ3lVyhAYhWqedVuwGke+b4pgnL/Deur8LBBOZ/oScse6MLg==";
+        };
+        _S2XbSN7H = {
+            "id" = "S2XbSN7H";
+            "file" = "waterballoon-neoforge-1.21.1-1.0.1.jar";
+            "hash" = "sha512-mYD6dMJ9ZCsCItLc9cVrSnebN0faYl24WIQenDYN4EBPYh+jXZR1wPYpABcYdWQkaDq4qMRdJHFMrm+O5HgFrg==";
+        };
     in {
         "ixkU6S9k" = _ixkU6S9k;
         "bGJMOePR" = _bGJMOePR;
@@ -74,19 +94,24 @@ let
         "cOTi2t70" = _cOTi2t70;
         "UWdZnWET" = _UWdZnWET;
         "88XOzuAd" = _88XOzuAd;
+        "u6EwYOPf" = _u6EwYOPf;
+        "tkq3n76w" = _tkq3n76w;
+        "koGC0C6n" = _koGC0C6n;
+        "S2XbSN7H" = _S2XbSN7H;
         "forge-1.19.2" = _ixkU6S9k;
         "forge-1.20.1" = _pNisILKv;
         "fabric-1.19.2" = _bGJMOePR;
-        "fabric-1.20.1" = _UWdZnWET;
+        "fabric-1.20.1" = _u6EwYOPf;
         "fabric-1.20.6" = _3zAv0v8k;
-        "fabric-1.21.1" = _cOTi2t70;
+        "fabric-1.21.1" = _koGC0C6n;
         "neoforge-1.20.6" = _DlJ7VzCY;
-        "neoforge-1.21.1" = _xz1m5PZQ;
-        "neoforge-1.20.1" = _88XOzuAd;
+        "neoforge-1.21.1" = _S2XbSN7H;
+        "neoforge-1.20.1" = _tkq3n76w;
         "pkg-1.0.0" = _cOTi2t70;
-        "pkg-1.0.1" = _lWdd4Im7;
+        "pkg-1.0.1" = _S2XbSN7H;
         "pkg-1.0.2" = _88XOzuAd;
-        "default" = _88XOzuAd;
+        "pkg-1.0.3" = _tkq3n76w;
+        "default" = _S2XbSN7H;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "water-balloon";

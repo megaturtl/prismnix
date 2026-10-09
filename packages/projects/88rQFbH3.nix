@@ -46,6 +46,11 @@ let
             "file" = "CobblemonMapKitMod-1.0.8-SNAPSHOT.jar";
             "hash" = "sha512-UoTeUprI2oSmOkMzkHzn6AQkVVRnp5voTG28rcmF4Yc22RT1HYotuBKqW92wBWAKcE2Pgxk3Jh/KQDII7IVpfQ==";
         };
+        _Ta6Lj0N5 = {
+            "id" = "Ta6Lj0N5";
+            "file" = "CobblemonMapKitMod-1.0.9-SNAPSHOT.jar";
+            "hash" = "sha512-Qh6atr5WmjPnALFf5O/VuAUH+z0jjPX9NzyiRaN04rMYa6JlVvh0GCdDrXczgBweWI7/tbEWSwOJQYWwZ9ZzHQ==";
+        };
     in {
         "ed7Aw7mv" = _ed7Aw7mv;
         "oJksQ21a" = _oJksQ21a;
@@ -56,7 +61,8 @@ let
         "qKGqcoM4" = _qKGqcoM4;
         "i6GD9w4h" = _i6GD9w4h;
         "qRw60VFE" = _qRw60VFE;
-        "fabric-1.21.1" = _qRw60VFE;
+        "Ta6Lj0N5" = _Ta6Lj0N5;
+        "fabric-1.21.1" = _Ta6Lj0N5;
         "pkg-1.0.0" = _ed7Aw7mv;
         "pkg-1.0.1" = _oJksQ21a;
         "pkg-1.0.2" = _uLNnzJa6;
@@ -66,7 +72,8 @@ let
         "pkg-1.0.6" = _qKGqcoM4;
         "pkg-1.0.7" = _i6GD9w4h;
         "pkg-1.0.8" = _qRw60VFE;
-        "default" = _qRw60VFE;
+        "pkg-1.0.9" = _Ta6Lj0N5;
+        "default" = _Ta6Lj0N5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cobblemon-map-kit";

@@ -316,6 +316,11 @@ let
             "file" = "fantasydice-26.2.3.jar";
             "hash" = "sha512-SodJZEB+Dj98kf0R9Ry+4RugolrZZE5rJoQ+JB4WqdE5HwIuHd8IDSj59dPgZ+3VZyZnBQAtMSrezqquG2wYKw==";
         };
+        _dWP0LLao = {
+            "id" = "dWP0LLao";
+            "file" = "fantasydice-26.3.0.jar";
+            "hash" = "sha512-Fr6cbOdIGibrEcVi8To5VUFcxkBsPCw1MSPLUHRqYjiUw1qtI0te9GAOsE/hKomukbWUO8IDMSw9PBiWX5TnRw==";
+        };
     in {
         "JXIrTN6A" = _JXIrTN6A;
         "2FZCF4UY" = _2FZCF4UY;
@@ -380,6 +385,7 @@ let
         "a3oNUiWf" = _a3oNUiWf;
         "jtMtgIGV" = _jtMtgIGV;
         "IjY6Geh7" = _IjY6Geh7;
+        "dWP0LLao" = _dWP0LLao;
         "forge-1.16.5" = _gRMYod8U;
         "forge-1.18.1" = _VN95LPe5;
         "forge-1.18.2" = _MpAT3WFS;
@@ -403,6 +409,7 @@ let
         "neoforge-26.1.1" = _a3oNUiWf;
         "neoforge-26.1.2" = _a3oNUiWf;
         "neoforge-26.2" = _IjY6Geh7;
+        "neoforge-26.3" = _dWP0LLao;
         "pkg-1.1.9" = _JXIrTN6A;
         "pkg-1.1.10" = _2FZCF4UY;
         "pkg-1.1.11" = _IPLGWXaZ;
@@ -466,7 +473,8 @@ let
         "pkg-26.1.4" = _a3oNUiWf;
         "pkg-26.2.0" = _jtMtgIGV;
         "pkg-26.2.3" = _IjY6Geh7;
-        "default" = _IjY6Geh7;
+        "pkg-26.3.0" = _dWP0LLao;
+        "default" = _dWP0LLao;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fantasy-dice";

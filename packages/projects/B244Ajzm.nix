@@ -31,6 +31,11 @@ let
             "file" = "FireworkHelper-26.2.jar";
             "hash" = "sha512-ZgvkU1TZ5AbJpF3qXEPkbjkgNGaD3BgYpbOQ3CffqbY3MRlyE5ITbjibzJcQ3GqNH9sEr3qs4uIYMZzu6L+8Rw==";
         };
+        _UyaB4ZBZ = {
+            "id" = "UyaB4ZBZ";
+            "file" = "FireworkHelper-26.3.jar";
+            "hash" = "sha512-e8DGOU6+D1rwojlalRshNJbfADeCLbXjKwTbBBwzKzWXbZWZgGU/RjEptCk6eeOPgjEqEPWsfEIF5BrWWkl6nQ==";
+        };
     in {
         "bNwerDGY" = _bNwerDGY;
         "7eJ3zpEH" = _7eJ3zpEH;
@@ -38,6 +43,7 @@ let
         "mRHrf5kJ" = _mRHrf5kJ;
         "WDIrIxJi" = _WDIrIxJi;
         "sRI0oBY8" = _sRI0oBY8;
+        "UyaB4ZBZ" = _UyaB4ZBZ;
         "fabric-1.20" = _bNwerDGY;
         "fabric-1.20.1" = _bNwerDGY;
         "fabric-1.20.2" = _bNwerDGY;
@@ -61,8 +67,9 @@ let
         "fabric-26.1.1" = _WDIrIxJi;
         "fabric-26.1.2" = _WDIrIxJi;
         "fabric-26.2" = _sRI0oBY8;
-        "pkg-1.0" = _sRI0oBY8;
-        "default" = _sRI0oBY8;
+        "fabric-26.3" = _UyaB4ZBZ;
+        "pkg-1.0" = _UyaB4ZBZ;
+        "default" = _UyaB4ZBZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "firework-helper";

@@ -211,6 +211,31 @@ let
             "file" = "ae2lt-2.1.0-beta.4.jar";
             "hash" = "sha512-vWwwSwoX0bIwG6rmF44arDL7VcF+7VMfp/pn+wL2i7DHqICplp6faGAxM7hemNHXrwsTD/hGDMYI+7ioFkOllA==";
         };
+        _5rMkZz2s = {
+            "id" = "5rMkZz2s";
+            "file" = "ae2lt-2.1.0-beta.5.jar";
+            "hash" = "sha512-5o9ASfrmeRk2KvxV+jlMGWx896GBjWxdEAAWcuByToGM7GNdhnxR5Ux/zxa05Z76ptW3Ssz/oqdEcW04m1Jiyw==";
+        };
+        _YEjEuii8 = {
+            "id" = "YEjEuii8";
+            "file" = "ae2lt-forge-1.20.1-2.1.0-beta.4.jar";
+            "hash" = "sha512-0Icg3OW0f/wd95PI6w4HhN0j5nA14AbhCRswdvgf1JlEv34MDCKVAoiF0IB1OC/RqVCyPaqRqEBhILfBsT44NA==";
+        };
+        _S2Li22o0 = {
+            "id" = "S2Li22o0";
+            "file" = "ae2lt-2.1.1.jar";
+            "hash" = "sha512-KWN4PIrfUIQfJEtJX0hbI+rwdog8R/8xRgkgMaLOIfnM2WitFArdzWMHGHRgEgLOp4Ro+P/t1YULWLQJmcBYpQ==";
+        };
+        _4oOdQX4U = {
+            "id" = "4oOdQX4U";
+            "file" = "ae2lt-2.1.2-beta.jar";
+            "hash" = "sha512-oUnX8noRt6dSRd9TyEIHrFx/5UiZ3yNCoZJdIJlC+33+Upb729rzrpsrmEK0rUKV29aY/b+Os3OYkqt35+wVJw==";
+        };
+        _lCbFFHVA = {
+            "id" = "lCbFFHVA";
+            "file" = "ae2lt-forge-1.20.1-2.1.2-beta.jar";
+            "hash" = "sha512-3aCLelcPnQWD1mMLA6EwDTC+YPJs1M1AbFSaltMgtnUyVeYXUx7gq+QY5ymA/szMEgQIalzjOMH1K2cTpu+Gtg==";
+        };
     in {
         "24sppfGm" = _24sppfGm;
         "OKa8GT9D" = _OKa8GT9D;
@@ -254,9 +279,14 @@ let
         "h7hgWs1h" = _h7hgWs1h;
         "mpt9LSEi" = _mpt9LSEi;
         "3XEx2SVe" = _3XEx2SVe;
-        "neoforge-1.21.1" = _3XEx2SVe;
+        "5rMkZz2s" = _5rMkZz2s;
+        "YEjEuii8" = _YEjEuii8;
+        "S2Li22o0" = _S2Li22o0;
+        "4oOdQX4U" = _4oOdQX4U;
+        "lCbFFHVA" = _lCbFFHVA;
+        "neoforge-1.21.1" = _4oOdQX4U;
         "neoforge-26.1.2" = _3kMh6U7h;
-        "forge-1.20.1" = _mpt9LSEi;
+        "forge-1.20.1" = _lCbFFHVA;
         "pkg-1.0.0" = _24sppfGm;
         "pkg-1.0.1" = _OKa8GT9D;
         "pkg-1.0.2" = _9e8yYrKV;
@@ -298,7 +328,12 @@ let
         "pkg-2.1.0-beta.3" = _h7hgWs1h;
         "pkg-2.1.0-beta.3-forge.1.20.1" = _mpt9LSEi;
         "pkg-2.1.0-beta.4" = _3XEx2SVe;
-        "default" = _3XEx2SVe;
+        "pkg-2.1.0-beta.5" = _5rMkZz2s;
+        "pkg-2.1.0-beta.4-forge.1.20.1" = _YEjEuii8;
+        "pkg-2.1.1" = _S2Li22o0;
+        "pkg-2.1.2-beta" = _4oOdQX4U;
+        "pkg-2.1.2-beta-forge.1.20.1" = _lCbFFHVA;
+        "default" = _lCbFFHVA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "ae2-lightning-tech";

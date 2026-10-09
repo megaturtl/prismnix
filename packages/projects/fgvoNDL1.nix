@@ -151,6 +151,11 @@ let
             "file" = "Multiworld-Fabric-26.1.jar";
             "hash" = "sha512-hRibSaC8jSLEVAWFQfNaIzuB8dEsJAYmXgUz6hnlPLYscrnKZVJjQ8puA7uLw15fxNbe60Li1ncXE1Is0yvVWg==";
         };
+        _OwgBsqTu = {
+            "id" = "OwgBsqTu";
+            "file" = "Multiworld-Fabric-bundle.jar";
+            "hash" = "sha512-TxjjMngdVNnmzXuV/VA2cGCsYM/eG8AiiroLo1VrWuaBorMczCe9+dw5DGYsKc7lsQ6snxln+OZ/DNW9+efKwQ==";
+        };
     in {
         "AUJCYiH1" = _AUJCYiH1;
         "Ak6cPcNe" = _Ak6cPcNe;
@@ -182,6 +187,7 @@ let
         "TvR5QBt0" = _TvR5QBt0;
         "18yokD8a" = _18yokD8a;
         "8Gs35NC2" = _8Gs35NC2;
+        "OwgBsqTu" = _OwgBsqTu;
         "fabric-1.17" = _Ak6cPcNe;
         "fabric-1.17.1" = _Ak6cPcNe;
         "fabric-1.18.1" = _yRo2OZiE;
@@ -215,7 +221,9 @@ let
         "fabric-1.21.11" = _18yokD8a;
         "fabric-26.1" = _8Gs35NC2;
         "fabric-26.1.1" = _8Gs35NC2;
-        "fabric-26.1.2" = _8Gs35NC2;
+        "fabric-26.1.2" = _OwgBsqTu;
+        "fabric-26.2" = _OwgBsqTu;
+        "fabric-26.3" = _OwgBsqTu;
         "forge-1.18.1" = _FqWhV58t;
         "forge-1.19.4" = _qYu685Dm;
         "forge-1.20" = _ct6IgvWn;
@@ -225,6 +233,9 @@ let
         "neoforge-1.21.3" = _2K3r0rBq;
         "neoforge-1.21.4" = _2K3r0rBq;
         "neoforge-1.21.5" = _2K3r0rBq;
+        "quilt-26.1.2" = _OwgBsqTu;
+        "quilt-26.2" = _OwgBsqTu;
+        "quilt-26.3" = _OwgBsqTu;
         "pkg-1.0" = _AUJCYiH1;
         "pkg-1.1" = _Ak6cPcNe;
         "pkg-1.2-fabric" = _yRo2OZiE;
@@ -244,7 +255,8 @@ let
         "pkg-1.13" = _cXnh9UR2;
         "pkg-1.13.1" = _18yokD8a;
         "pkg-1.14.0" = _8Gs35NC2;
-        "default" = _8Gs35NC2;
+        "pkg-1.14.2" = _OwgBsqTu;
+        "default" = _OwgBsqTu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "multiworld";

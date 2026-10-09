@@ -136,6 +136,21 @@ let
             "file" = "zylob-forge1.20.1-20.14.12.jar";
             "hash" = "sha512-eBdgpHWp/7Qn0XzcT77Ap8en+5EygoJYJm+rvpuxPWK1LXffZurfnONwKh/Qypp3Nb5g3795khtooplzbLQOmw==";
         };
+        _LLaqSK1W = {
+            "id" = "LLaqSK1W";
+            "file" = "zylob-forge1.20.1-20.14.13.jar";
+            "hash" = "sha512-TP5/at8me4Mdtq/mfsI7ZlXrlEk92sn8eaOaNkLthS6PbWG80oziHv0+gBnL0hw6hMxlm6IR9uRkIXEwMsFvFA==";
+        };
+        _1tdG2L1A = {
+            "id" = "1tdG2L1A";
+            "file" = "zylob-forge1.18.2-18.5.2.jar";
+            "hash" = "sha512-ihcd4e787at2sBnuMNpvJkfR4VSUp2L2SZAobYHGB2G+tUrzrJJf9qnJl5JHUS+L+ylTbtRcTz5fOWc6xzuXWA==";
+        };
+        _iVVJQY17 = {
+            "id" = "iVVJQY17";
+            "file" = "zylob-forge1.19.2-19.5.2.jar";
+            "hash" = "sha512-wleDZaz37euF85vUMRrqcbKr0PJsvZCo3Vr37hpvoxM69CFKrH50s0TX/+8IolEKqf4WF0vcmKopks+KtVER8A==";
+        };
     in {
         "L1zDL7JA" = _L1zDL7JA;
         "lvjpMGD3" = _lvjpMGD3;
@@ -164,9 +179,12 @@ let
         "NCZuqqp2" = _NCZuqqp2;
         "ImKjXw8N" = _ImKjXw8N;
         "MbRMbYsr" = _MbRMbYsr;
-        "forge-1.18.2" = _aRJwgmTA;
-        "forge-1.19.2" = _rejh7iqL;
-        "forge-1.20.1" = _MbRMbYsr;
+        "LLaqSK1W" = _LLaqSK1W;
+        "1tdG2L1A" = _1tdG2L1A;
+        "iVVJQY17" = _iVVJQY17;
+        "forge-1.18.2" = _1tdG2L1A;
+        "forge-1.19.2" = _iVVJQY17;
+        "forge-1.20.1" = _LLaqSK1W;
         "neoforge-1.21.1" = _ThghVhrJ;
         "pkg-0.2.3" = _5BipE4fa;
         "pkg-0.3.0" = _aRJwgmTA;
@@ -183,7 +201,10 @@ let
         "pkg-20.14.10" = _NCZuqqp2;
         "pkg-20.14.11" = _ImKjXw8N;
         "pkg-20.14.12" = _MbRMbYsr;
-        "default" = _MbRMbYsr;
+        "pkg-20.14.13" = _LLaqSK1W;
+        "pkg-18.5.2" = _1tdG2L1A;
+        "pkg-19.5.2" = _iVVJQY17;
+        "default" = _iVVJQY17;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "epicfight-sword-light-modifications";

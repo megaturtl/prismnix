@@ -41,6 +41,11 @@ let
             "file" = "combustible_depths-v1c-26.2.jar";
             "hash" = "sha512-MAOClXEWGVb3EkGFI0xZx7Nc4E21jkjPPJGNSEWVn0VIJ4dIhY7Dw0w+zlXl2Lq5G/AhAHVCVgGosR/nMTc+Lw==";
         };
+        _BDOPgDLS = {
+            "id" = "BDOPgDLS";
+            "file" = "combustible_depths-v1d.jar";
+            "hash" = "sha512-tcS6/9bddgT4ZRvJwhQWIOYVFiz6I+Iqh3+ZZ1noMSOYNh2DsDUk6RwW5ejajhqgXnSNZ1VIFWSPqAE0PbpPAQ==";
+        };
     in {
         "W3cmut5o" = _W3cmut5o;
         "SArVTOWy" = _SArVTOWy;
@@ -50,12 +55,14 @@ let
         "wWNhPBga" = _wWNhPBga;
         "cxbDpyan" = _cxbDpyan;
         "yv1ez3EJ" = _yv1ez3EJ;
+        "BDOPgDLS" = _BDOPgDLS;
         "fabric-1.21.11" = _vczRvyEM;
         "fabric-1.21.1" = _cxbDpyan;
         "fabric-26.1" = _90KTHSKl;
         "fabric-26.1.1" = _90KTHSKl;
         "fabric-26.1.2" = _90KTHSKl;
         "fabric-26.2" = _yv1ez3EJ;
+        "fabric-26.3" = _BDOPgDLS;
         "pkg-v1" = _W3cmut5o;
         "pkg-v1a" = _SArVTOWy;
         "pkg-v1a-1.21.1" = _tQ6Oc5Kt;
@@ -64,7 +71,8 @@ let
         "pkg-v1b-1.21.1" = _wWNhPBga;
         "pkg-v1c-1.21.1" = _cxbDpyan;
         "pkg-v1c-26.2" = _yv1ez3EJ;
-        "default" = _yv1ez3EJ;
+        "pkg-v1d" = _BDOPgDLS;
+        "default" = _BDOPgDLS;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "combustible-depths";

@@ -26,19 +26,33 @@ let
             "file" = "ImmersiveIntelligence-0.3.1-dev6.jar";
             "hash" = "sha512-3oodMS/t4ptQ6Qt3Eh7H76AF0tus4K0VVD56aauYm+Szd74AVx9isNMevxssxKLnQYvuCtrj4CP8Y4464qY2xQ==";
         };
+        _m22iCqxz = {
+            "id" = "m22iCqxz";
+            "file" = "ImmersiveIntelligence-0.3.1-dev7.jar";
+            "hash" = "sha512-hw3uFpSumS01/A2GlEsWYfXrsoomPTjlgFDimgwFb/Be9kval56Utzjew6LS75yUBF8EOrx1C4aGAyaKLg7+fA==";
+        };
+        _e2OOR4jk = {
+            "id" = "e2OOR4jk";
+            "file" = "ImmersiveIntelligence-0.3.1.jar";
+            "hash" = "sha512-I4NWJOEah30dOAcV3NRDKZw1yqq5Xsv9kJ6UKuYDAjwPXJAElxKMKtUvlkCQj4r8IS7018+AtTa8mehRMZntDA==";
+        };
     in {
         "dEqMoFtx" = _dEqMoFtx;
         "Wec7u1cg" = _Wec7u1cg;
         "kuylySZ4" = _kuylySZ4;
         "qWxLLPvT" = _qWxLLPvT;
         "zha7NWPy" = _zha7NWPy;
-        "forge-1.12.2" = _zha7NWPy;
+        "m22iCqxz" = _m22iCqxz;
+        "e2OOR4jk" = _e2OOR4jk;
+        "forge-1.12.2" = _e2OOR4jk;
         "pkg-0.3.0" = _dEqMoFtx;
         "pkg-0.3.1-dev2" = _Wec7u1cg;
         "pkg-0.3.1-Dev4" = _kuylySZ4;
         "pkg-0.3.1-Dev5" = _qWxLLPvT;
         "pkg-0.3.1-Dev6" = _zha7NWPy;
-        "default" = _zha7NWPy;
+        "pkg-0.3.1-Dev7" = _m22iCqxz;
+        "pkg-0.3.1" = _e2OOR4jk;
+        "default" = _e2OOR4jk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "immersive-intelligence";

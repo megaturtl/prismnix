@@ -276,6 +276,16 @@ let
             "file" = "indicatia-mc26.2-v26.2.1-neoforge.jar";
             "hash" = "sha512-oqP5se65DzcG0kQOcsnyF7jVj1sjiFDxfKShSGoj+ICPsStH/LiudUmpmjdDJFyjsvHxiqxoCJyjd4NmLULbmA==";
         };
+        _8GDivUWc = {
+            "id" = "8GDivUWc";
+            "file" = "indicatia-mc26.3-v26.3.0-fabric.jar";
+            "hash" = "sha512-B+62QjTGtTrkDcD/XuBHb6h3TpG8+PxpNWFmZ6s8T241GRDc662bfWTudUodjpCDMLOc5lI2064TPgYDmOB6Iw==";
+        };
+        _KxKQXbwc = {
+            "id" = "KxKQXbwc";
+            "file" = "indicatia-mc26.3-v26.3.0-neoforge.jar";
+            "hash" = "sha512-tKlxh+GPtPYP4JHs7LNGj7aUHzuqwL2okGAJFBYwMgCa+uZJd3e+p8Sa3/ENNYvVNsGbYhCUFFpXpvpNaUljPA==";
+        };
     in {
         "3909Zb6B" = _3909Zb6B;
         "NpWrb380" = _NpWrb380;
@@ -332,6 +342,8 @@ let
         "kP0UM4ta" = _kP0UM4ta;
         "6uxMRdZ2" = _6uxMRdZ2;
         "KIPpMLGH" = _KIPpMLGH;
+        "8GDivUWc" = _8GDivUWc;
+        "KxKQXbwc" = _KxKQXbwc;
         "fabric-1.18.2" = _3909Zb6B;
         "fabric-1.19" = _RGEqrJjd;
         "fabric-1.19.3" = _sNHPYYGs;
@@ -350,6 +362,7 @@ let
         "fabric-26.1.1" = _ACM8JSYE;
         "fabric-26.1.2" = _ACM8JSYE;
         "fabric-26.2" = _6uxMRdZ2;
+        "fabric-26.3" = _8GDivUWc;
         "forge-1.18.2" = _NpWrb380;
         "forge-1.19" = _hOciAuDX;
         "forge-1.19.3" = _UYbIgpFw;
@@ -370,6 +383,7 @@ let
         "neoforge-26.1.1" = _WXlCikiz;
         "neoforge-26.1.2" = _WXlCikiz;
         "neoforge-26.2" = _KIPpMLGH;
+        "neoforge-26.3" = _KxKQXbwc;
         "pkg-6.2.0-fabric" = _3909Zb6B;
         "pkg-6.2.0-forge" = _NpWrb380;
         "pkg-7.0.0-fabric" = _TSKroiLu;
@@ -415,7 +429,9 @@ let
         "pkg-26.2.0-fabric" = _kP0UM4ta;
         "pkg-26.2.1-fabric" = _6uxMRdZ2;
         "pkg-26.2.1-neoforge" = _KIPpMLGH;
-        "default" = _KIPpMLGH;
+        "pkg-26.3.0-fabric" = _8GDivUWc;
+        "pkg-26.3.0-neoforge" = _KxKQXbwc;
+        "default" = _KxKQXbwc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "indicatia";

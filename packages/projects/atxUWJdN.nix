@@ -126,6 +126,26 @@ let
             "file" = "auroral-1.21.1-1.1.2.jar";
             "hash" = "sha512-OSDCN+9hbPHDuaRxsynnxt15IJarbUwxdrNICpPJecPW3syDKOzGaH2uwBvrn3f/DfaZjQp19LQhUqXnaxXJOg==";
         };
+        _4msc4SXG = {
+            "id" = "4msc4SXG";
+            "file" = "auroral-26.1.2-1.5.7.jar";
+            "hash" = "sha512-HbGmh6dOxRLvuH6JVLeJsB64GFm9Chlj+Rc9D+aU9RdOx96KjVp5BabZ15z/YDtHsXBqiM4dXW4LZ01USEs9pQ==";
+        };
+        _7Q4FQrut = {
+            "id" = "7Q4FQrut";
+            "file" = "auroral-26.1.2-1.5.8.jar";
+            "hash" = "sha512-lCXEH9tHqGJE8+/CP+hC2iqyUwZf57ED4dp2Wr05Va1+WFgUDc/wcvRvXboOYGofQRir4+dSxUJRTBD2qKcYQw==";
+        };
+        _7fojBnjm = {
+            "id" = "7fojBnjm";
+            "file" = "auroral-26.1.2-1.5.9.jar";
+            "hash" = "sha512-cUhpHnsNaDRMEV+IDNz5688TKhimK5zIivxtL9vxD5NyxdSWiDaeAJKnVRY15GZQSiYtm2k0iOSAu4azjTR1/g==";
+        };
+        _wcBaxmiu = {
+            "id" = "wcBaxmiu";
+            "file" = "auroral-1.21.1-1.1.3.jar";
+            "hash" = "sha512-GyD1mH8E1qPgL/iaM29hWmZpah1ymzjiYjF57lqvIAsB8pgyrYoxvyjZgUzEs80iafjQtoSXFWFMhDNb12hlsA==";
+        };
     in {
         "G5h0KbON" = _G5h0KbON;
         "km4r1TOl" = _km4r1TOl;
@@ -152,10 +172,14 @@ let
         "zInPxLdB" = _zInPxLdB;
         "sBVyg5qc" = _sBVyg5qc;
         "Koe0JQVH" = _Koe0JQVH;
+        "4msc4SXG" = _4msc4SXG;
+        "7Q4FQrut" = _7Q4FQrut;
+        "7fojBnjm" = _7fojBnjm;
+        "wcBaxmiu" = _wcBaxmiu;
         "neoforge-1.21.11" = _VWSfa2HW;
-        "neoforge-1.21.1" = _Koe0JQVH;
+        "neoforge-1.21.1" = _wcBaxmiu;
         "neoforge-26.1.1" = _hxn2CUjP;
-        "neoforge-26.1.2" = _sBVyg5qc;
+        "neoforge-26.1.2" = _7fojBnjm;
         "pkg-1.21.11-1.0.2" = _G5h0KbON;
         "pkg-1.21.11-1.0.3" = _km4r1TOl;
         "pkg-1.0.4" = _VWSfa2HW;
@@ -181,7 +205,11 @@ let
         "pkg-26.1.2-1.5.5" = _zInPxLdB;
         "pkg-26.1.2-1.5.6" = _sBVyg5qc;
         "pkg-1.21.1-1.1.2" = _Koe0JQVH;
-        "default" = _Koe0JQVH;
+        "pkg-26.1.2-1.5.7" = _4msc4SXG;
+        "pkg-26.1.2-1.5.8" = _7Q4FQrut;
+        "pkg-26.1.2-1.5.9" = _7fojBnjm;
+        "pkg-1.21.1-1.1.3" = _wcBaxmiu;
+        "default" = _wcBaxmiu;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "auroral";

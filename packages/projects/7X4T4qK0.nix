@@ -2391,6 +2391,151 @@ let
             "file" = "angelblock-26.2-3.10.4.jar";
             "hash" = "sha512-3c2HV56+tuE8sbQ6sXYy6uB8zkfWRpg8oJUbDQNPk/kBpvtFSmVxoHQ+sIaGZTwIgoITHUR9/jkkDaMtkRDcPQ==";
         };
+        _ZDpXZFLG = {
+            "id" = "ZDpXZFLG";
+            "file" = "angelblock-26.3-3.10.5-alpha.jar";
+            "hash" = "sha512-TBmvg8z75S0KCm509UiqaKENCzbPpAg1ZbzPRqRRWXMDFzH83zByfKvTMxY3qSrCuRCTtNst78QC1HbF4wYcdQ==";
+        };
+        _OkPewdjT = {
+            "id" = "OkPewdjT";
+            "file" = "angelblock-1.21.10-3.11.0.jar";
+            "hash" = "sha512-VC4GjdE8jchdFC6iIFVdNIbRzGk0+1jZzinwagMIBgPjJRDig4VviZWh0GgLC7ohWCbHD8ubmA/FMtu7al9jkg==";
+        };
+        _jVAtpHI8 = {
+            "id" = "jVAtpHI8";
+            "file" = "angelblock-1.21.11-3.11.0.jar";
+            "hash" = "sha512-Ar5trSF4EWIVS7osQmEUVzbQyOq3fYdYOA4QfsYidZux5MRpwIuB7yJdZGBJLkElZk9wKYYNOtYNxXqhhl3WOw==";
+        };
+        _ssTYtiwm = {
+            "id" = "ssTYtiwm";
+            "file" = "angelblock-26.1.1-3.11.0.jar";
+            "hash" = "sha512-7Fzu2mL0ASkBGFL2wSeqSNCwL3DYdCF66Ws6jVa9+MM74AdcZwzQuZzdXEsptipgBl0aOSSLF7oYx8ip2vLa2A==";
+        };
+        _IZVFswBt = {
+            "id" = "IZVFswBt";
+            "file" = "angelblock-26.1.2-3.11.0.jar";
+            "hash" = "sha512-DoTCABYnvCygXQnDsmh5wUbvpNVOUb+iOJEAGyomiXcOnoIvd1ZfJrXvcGzuIIGL0+COlTfjmKaGkP0oxMGEuw==";
+        };
+        _bUc64zxd = {
+            "id" = "bUc64zxd";
+            "file" = "angelblock-26.2-3.11.0.jar";
+            "hash" = "sha512-sgXn2QOk4LfbL+oFyCdaI8wHTkr3rBMX5Awoy2pXhXVJlOj3zAfqeE871P54IEDyqmCXmmrIA+MGzH2dgJKRjg==";
+        };
+        _YtJF6V7T = {
+            "id" = "YtJF6V7T";
+            "file" = "angelblock-26.3-3.11.0-beta.jar";
+            "hash" = "sha512-QVTe107phqveBxZL2t4usxeldPUa44nGskRM4yIAAuc5wYWR2Fl7KAiWh5mt8O1YikCIgVaB1mJdkmQJp30QEg==";
+        };
+        _5zJGylW2 = {
+            "id" = "5zJGylW2";
+            "file" = "angelblock-1.21.1-3.11.1.jar";
+            "hash" = "sha512-HqjhtfHXy/365ytO88zBdVhSeBgsNLUrRP5gBZTCPK8PVQljbO2c0PRhj+iXXrI0F7NaFAv0+94JP4YN7aCC1w==";
+        };
+        _zlI8N8K2 = {
+            "id" = "zlI8N8K2";
+            "file" = "angelblock-1.21.1-3.12.0.jar";
+            "hash" = "sha512-3/9Wq8VLTT7piygUeyn4WLkXKAlFxfQ1L4FZ8dbOlWnTC91+sYqOMLoEduXT7KaUfk0kJsDHJl173NRLjr1qMw==";
+        };
+        _rGmZbApr = {
+            "id" = "rGmZbApr";
+            "file" = "angelblock-1.21.10-3.12.0.jar";
+            "hash" = "sha512-WAML1WIsgsD14TUO7w0yjc2SIHIAh+E9TugBQnOS7I0uf+7I0XF20E2ZJUxtZnygSk9wGjrIWxCiWruSb7Og4g==";
+        };
+        _J8YDNZLy = {
+            "id" = "J8YDNZLy";
+            "file" = "angelblock-1.21.11-3.12.0.jar";
+            "hash" = "sha512-6oOab2LqWwgIxvYrttIi6wFmGTsNJrs8Q3ljMsyNRoPpLHZbXWo7LXSr0q6KEQfIr0Ec97RDAdUvV5MtzV5s3g==";
+        };
+        _YIw3ysgl = {
+            "id" = "YIw3ysgl";
+            "file" = "angelblock-26.1.1-3.12.0.jar";
+            "hash" = "sha512-sA6lPNNg+x9JcYT6F+m8qcknPD/C/G8+qTKMHWMr/qd483mfIOh4QsfubTuF69L06hYGnXK+6CwRL2n5RgH3CQ==";
+        };
+        _vWLt9xMU = {
+            "id" = "vWLt9xMU";
+            "file" = "angelblock-26.1.2-3.12.0.jar";
+            "hash" = "sha512-27WNMuZ7XHJzpdUzMd+JQD/yauz8J5EOmBTIUXAugIPTlkUtTVH3Gqve8kgdmbTnCE/RwhAm7jkH9V7b46Eihg==";
+        };
+        _DrGiq4JO = {
+            "id" = "DrGiq4JO";
+            "file" = "angelblock-26.2-3.12.0.jar";
+            "hash" = "sha512-FnHd7qBjIRvbCxiOLEXDVVFonk99az/iS8UWm0JUrpv9hymAuHp29mnV97RdTlESQEJBog7DlliQlSF11KSN9Q==";
+        };
+        _f8lIPC9D = {
+            "id" = "f8lIPC9D";
+            "file" = "angelblock-26.3-3.12.0-beta.jar";
+            "hash" = "sha512-/DBJgjJTmmq8Mi1rP57v3zRcmKO1KLgcMQ79hx16mN6JEXzoXOmRyXRnpw1It6ugMj0Qq1SuzwxskuRiAf0dTA==";
+        };
+        _6u9MEDWD = {
+            "id" = "6u9MEDWD";
+            "file" = "angelblock-1.21.1-3.12.1.jar";
+            "hash" = "sha512-R2Un+Z3yAis67S1uNbNupuzxI0sCkFY3vKd0+qcI9+jl9plNtbE6INgHpP+0Bu/ocPIUh5i+f+GvpAvZTBEPPQ==";
+        };
+        _6SCDDZsg = {
+            "id" = "6SCDDZsg";
+            "file" = "angelblock-1.21.10-3.12.1.jar";
+            "hash" = "sha512-s7VsNLTj7BxEDvyeSxJ93iDAB4NndxOLIiq4LJxwQKAqi0gkPqDkiFRUd3zS9kOZLJlBf+/rNR97xGKnIaNpMA==";
+        };
+        _wBJrXit0 = {
+            "id" = "wBJrXit0";
+            "file" = "angelblock-1.21.11-3.12.1.jar";
+            "hash" = "sha512-t8SG7vZQZiVoexwS8/Q+IccOc1AnJ8VH5IgPZCxjmY5usqA759gpxaL7KF3q3PNEBbndySbveTmgNrc4mUk1dA==";
+        };
+        _uxfLLkDP = {
+            "id" = "uxfLLkDP";
+            "file" = "angelblock-26.1.2-3.12.1.jar";
+            "hash" = "sha512-kGgPLqhE+ZulTF7jxS+NIyBSKHeqyLdY1FUbyGAa087Tov//XzXMldFfZ18i7pdVsWmiDLI8s3OZ6ArdsztBgw==";
+        };
+        _8U5fEf4c = {
+            "id" = "8U5fEf4c";
+            "file" = "angelblock-26.1.1-3.12.1.jar";
+            "hash" = "sha512-YQRh9pIA3R1aqlUNSVRsOeUxP/qpxm9YuSHAZwqLK35Ax4Tvte4S5+UdWEJyx1GeZmS1YfchZ6EROP0VwyUgdw==";
+        };
+        _2s2tC6YT = {
+            "id" = "2s2tC6YT";
+            "file" = "angelblock-26.2-3.12.1.jar";
+            "hash" = "sha512-9NOjTYOOk6oajXeLZEf5yFEiWD+9Xy1YTxcpblzPWAYmUEZceTUYH2B7LmzIYSqK3mh5GdLC/Wt++MF4GwM28A==";
+        };
+        _2fdBvG6h = {
+            "id" = "2fdBvG6h";
+            "file" = "angelblock-26.3-3.12.1-beta.jar";
+            "hash" = "sha512-RJYTZ8mLPrBEqBEF89/VjO86yHYrEZZ+cO3gQGCagVR2PHQLVwUVOayxHMrUhnVLGrIIwxmKhJ2MNcVNB5xKBA==";
+        };
+        _p8jkRQWU = {
+            "id" = "p8jkRQWU";
+            "file" = "angelblock-1.21.1-3.13.0.jar";
+            "hash" = "sha512-uGoZmSJfRgtzZG3wJrv13c3huJp2F8pLC+1JvaLrGNpGYrOBV/mkuuxSuINhrpC8SqfVI7k4bNCAAcwHFhvGOQ==";
+        };
+        _wNi1HoAU = {
+            "id" = "wNi1HoAU";
+            "file" = "angelblock-1.21.10-3.13.0.jar";
+            "hash" = "sha512-bD8uaT+xNRXly+5wer6hLr5KJkZFXA1OohYTdDez3+gVUizp4PzK7hY7jA9wykdzQEPr5PpK8jh4/litilv2PA==";
+        };
+        _MGDQq5Pe = {
+            "id" = "MGDQq5Pe";
+            "file" = "angelblock-1.21.11-3.13.0.jar";
+            "hash" = "sha512-5WzNuryTrT5ZSD70Zyq5vzCPWt2FxmZBx8KDVHsVlkftTqVfDB1g6+CeV3amPfYS5yMh5kzdIy3pUbF9PB0THg==";
+        };
+        _6lxXmFKU = {
+            "id" = "6lxXmFKU";
+            "file" = "angelblock-26.1.2-3.13.0.jar";
+            "hash" = "sha512-fV6KI0PCs0NZbgITwTBYYOLEBM1jFT9e04Xfu5vNZLV+IylaFesx6F9OEk6hCJI4YimPTi3+G/NqXgws2O6tRA==";
+        };
+        _vOASFNYb = {
+            "id" = "vOASFNYb";
+            "file" = "angelblock-26.1.1-3.13.0.jar";
+            "hash" = "sha512-OBfUYfsR5FXppBAMlV5IU0wmZbTCQ1AWxvxYD2zzqTQVtLxVI3FqcNi3vfwXvlkYyzhnpqX1F174ittIEopejQ==";
+        };
+        _gtpDQ1Wl = {
+            "id" = "gtpDQ1Wl";
+            "file" = "angelblock-26.2-3.13.0.jar";
+            "hash" = "sha512-UQdU6NgsqaX6Ji6OPEJkxhf+2TlzoxLrCnMwCP+LQUJBthwEGUjeXv0HMPNPAZXacMoMQP5A6VDK41XdiByVUg==";
+        };
+        _V94XtkDc = {
+            "id" = "V94XtkDc";
+            "file" = "angelblock-26.3-3.13.0-beta.jar";
+            "hash" = "sha512-ylI3w/rDvo4lA/g2tHkrvVZKdfPrMWHOtHFKf7Qam0jc0haxSZN5weE6PJw12B3UZ6HyJyyDv2nTGmBHF9wucQ==";
+        };
     in {
         "XU4vhKxb" = _XU4vhKxb;
         "24sZAWEc" = _24sZAWEc;
@@ -2870,20 +3015,50 @@ let
         "fiUoRi8u" = _fiUoRi8u;
         "j7GcKRXj" = _j7GcKRXj;
         "Mp3sLVHY" = _Mp3sLVHY;
+        "ZDpXZFLG" = _ZDpXZFLG;
+        "OkPewdjT" = _OkPewdjT;
+        "jVAtpHI8" = _jVAtpHI8;
+        "ssTYtiwm" = _ssTYtiwm;
+        "IZVFswBt" = _IZVFswBt;
+        "bUc64zxd" = _bUc64zxd;
+        "YtJF6V7T" = _YtJF6V7T;
+        "5zJGylW2" = _5zJGylW2;
+        "zlI8N8K2" = _zlI8N8K2;
+        "rGmZbApr" = _rGmZbApr;
+        "J8YDNZLy" = _J8YDNZLy;
+        "YIw3ysgl" = _YIw3ysgl;
+        "vWLt9xMU" = _vWLt9xMU;
+        "DrGiq4JO" = _DrGiq4JO;
+        "f8lIPC9D" = _f8lIPC9D;
+        "6u9MEDWD" = _6u9MEDWD;
+        "6SCDDZsg" = _6SCDDZsg;
+        "wBJrXit0" = _wBJrXit0;
+        "uxfLLkDP" = _uxfLLkDP;
+        "8U5fEf4c" = _8U5fEf4c;
+        "2s2tC6YT" = _2s2tC6YT;
+        "2fdBvG6h" = _2fdBvG6h;
+        "p8jkRQWU" = _p8jkRQWU;
+        "wNi1HoAU" = _wNi1HoAU;
+        "MGDQq5Pe" = _MGDQq5Pe;
+        "6lxXmFKU" = _6lxXmFKU;
+        "vOASFNYb" = _vOASFNYb;
+        "gtpDQ1Wl" = _gtpDQ1Wl;
+        "V94XtkDc" = _V94XtkDc;
         "neoforge-1.21.4" = _GRCbjnPr;
         "neoforge-1.21.5" = _tK0BTyBs;
-        "neoforge-1.21.1" = _uJRhXq9P;
+        "neoforge-1.21.1" = _p8jkRQWU;
         "neoforge-1.21.6" = _RINB4Tk8;
         "neoforge-1.21.7" = _aivIxdG0;
         "neoforge-1.21.3" = _s9Vqa5Cr;
         "neoforge-1.21.8" = _jUpooTE3;
         "neoforge-1.21.9" = _QFFU8KNX;
-        "neoforge-1.21.10" = _ANYsfuGH;
-        "neoforge-1.21.11" = _dhbeikR4;
-        "neoforge-26.1" = _FZSULS8V;
-        "neoforge-26.1.1" = _FZSULS8V;
-        "neoforge-26.1.2" = _Y3IJWSRO;
-        "neoforge-26.2" = _Mp3sLVHY;
+        "neoforge-1.21.10" = _wNi1HoAU;
+        "neoforge-1.21.11" = _MGDQq5Pe;
+        "neoforge-26.1" = _vOASFNYb;
+        "neoforge-26.1.1" = _vOASFNYb;
+        "neoforge-26.1.2" = _6lxXmFKU;
+        "neoforge-26.2" = _gtpDQ1Wl;
+        "neoforge-26.3" = _V94XtkDc;
         "pkg-1.21.4-1.1.5" = _XU4vhKxb;
         "pkg-1.21.5-1.0.3-beta" = _24sZAWEc;
         "pkg-1.21.4-1.1.6" = _zSyCrZtf;
@@ -3362,7 +3537,36 @@ let
         "pkg-26.2-3.10.3-alpha" = _fiUoRi8u;
         "pkg-26.2-3.10.4-alpha" = _j7GcKRXj;
         "pkg-26.2-3.10.4" = _Mp3sLVHY;
-        "default" = _Mp3sLVHY;
+        "pkg-26.3-3.10.5-alpha" = _ZDpXZFLG;
+        "pkg-1.21.10-3.11.0" = _OkPewdjT;
+        "pkg-1.21.11-3.11.0" = _jVAtpHI8;
+        "pkg-26.1.1-3.11.0" = _ssTYtiwm;
+        "pkg-26.1.2-3.11.0" = _IZVFswBt;
+        "pkg-26.2-3.11.0" = _bUc64zxd;
+        "pkg-26.3-3.11.0-beta" = _YtJF6V7T;
+        "pkg-1.21.1-3.11.1" = _5zJGylW2;
+        "pkg-1.21.1-3.12.0" = _zlI8N8K2;
+        "pkg-1.21.10-3.12.0" = _rGmZbApr;
+        "pkg-1.21.11-3.12.0" = _J8YDNZLy;
+        "pkg-26.1.1-3.12.0" = _YIw3ysgl;
+        "pkg-26.1.2-3.12.0" = _vWLt9xMU;
+        "pkg-26.2-3.12.0" = _DrGiq4JO;
+        "pkg-26.3-3.12.0-beta" = _f8lIPC9D;
+        "pkg-1.21.1-3.12.1" = _6u9MEDWD;
+        "pkg-1.21.10-3.12.1" = _6SCDDZsg;
+        "pkg-1.21.11-3.12.1" = _wBJrXit0;
+        "pkg-26.1.2-3.12.1" = _uxfLLkDP;
+        "pkg-26.1.1-3.12.1" = _8U5fEf4c;
+        "pkg-26.2-3.12.1" = _2s2tC6YT;
+        "pkg-26.3-3.12.1-beta" = _2fdBvG6h;
+        "pkg-1.21.1-3.13.0" = _p8jkRQWU;
+        "pkg-1.21.10-3.13.0" = _wNi1HoAU;
+        "pkg-1.21.11-3.13.0" = _MGDQq5Pe;
+        "pkg-26.1.2-3.13.0" = _6lxXmFKU;
+        "pkg-26.1.1-3.13.0" = _vOASFNYb;
+        "pkg-26.2-3.13.0" = _gtpDQ1Wl;
+        "pkg-26.3-3.13.0-beta" = _V94XtkDc;
+        "default" = _V94XtkDc;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "angel-block-mod";

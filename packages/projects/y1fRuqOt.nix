@@ -41,6 +41,11 @@ let
             "file" = "maid_survival-1.9.5.jar";
             "hash" = "sha512-mBwbefv8u0Is9HOrnGfqqNMKnTFHNgZp6OjJoksTRHsSDPKEQNhvuovJ5yeJFiCTmKWi+6zCvxipY0mED81slQ==";
         };
+        _5EVnSbne = {
+            "id" = "5EVnSbne";
+            "file" = "maid_survival-1.9.9.jar";
+            "hash" = "sha512-ZLKJSU6XTaDc4G7kZTEhw9zXO12pvsiYVoAkRkx/mLICJD7b4byof/gmstu2hqgJq8LiHGyUBvq1qOlPVV7CzA==";
+        };
     in {
         "VxlZaa6r" = _VxlZaa6r;
         "c0NcXRyT" = _c0NcXRyT;
@@ -50,7 +55,13 @@ let
         "XRvrwVHl" = _XRvrwVHl;
         "aXzyW3XS" = _aXzyW3XS;
         "VUn6jCLF" = _VUn6jCLF;
-        "forge-1.20.1" = _VUn6jCLF;
+        "5EVnSbne" = _5EVnSbne;
+        "forge-1.20.1" = _5EVnSbne;
+        "forge-1.20.2" = _5EVnSbne;
+        "forge-1.20.3" = _5EVnSbne;
+        "forge-1.20.4" = _5EVnSbne;
+        "forge-1.20.5" = _5EVnSbne;
+        "forge-1.20.6" = _5EVnSbne;
         "pkg-1.6.5" = _VxlZaa6r;
         "pkg-1.7.7" = _c0NcXRyT;
         "pkg-1.8.5" = _nHkvzevm;
@@ -59,7 +70,8 @@ let
         "pkg-1.9.3" = _XRvrwVHl;
         "pkg-1.9.4" = _aXzyW3XS;
         "pkg-1.9.5" = _VUn6jCLF;
-        "default" = _VUn6jCLF;
+        "pkg-1.9.9" = _5EVnSbne;
+        "default" = _5EVnSbne;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tlm-maid-survival";

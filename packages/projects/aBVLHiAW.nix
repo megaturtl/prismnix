@@ -271,6 +271,21 @@ let
             "file" = "BentoBox-3.22.4.jar";
             "hash" = "sha512-5XkWjrtxZhn30z/TBjCxdNEgQRztFzdvNvp3HOC3jyp42ojAFqsst2t7e+sezH0LdPcp9LqiGOVd3XKh02Kkbw==";
         };
+        _KVjeblUE = {
+            "id" = "KVjeblUE";
+            "file" = "BentoBox-3.23.0.jar";
+            "hash" = "sha512-46k88pGsuhD370LVUF9GH2rPf8OddUiWK+eA7DfmCAV39plBlleB2YBbSrAKL1OX1I7NDVpXzV98xouFgKA5pQ==";
+        };
+        _PzPkHLdx = {
+            "id" = "PzPkHLdx";
+            "file" = "BentoBox-3.23.1.jar";
+            "hash" = "sha512-TYnOdWMFEkXY688KZN66rpTzt7hxDwH5EiiZd36CjVs1UQEdCzfjgKT0rnfQw0BGwQ6h+Z7zCArsDGL1G/thLg==";
+        };
+        _Wm9asg4I = {
+            "id" = "Wm9asg4I";
+            "file" = "BentoBox-3.23.3.jar";
+            "hash" = "sha512-0gotaR0KLMcDYX4B2l+I01O8h8g0+CfqrnHjdAUyVs9LR4rKhCEMPnOYOwp7hxJvrsgO7ZoF3ETPHKT/rBddpA==";
+        };
     in {
         "sBjtHeEZ" = _sBjtHeEZ;
         "u4fpctqY" = _u4fpctqY;
@@ -326,6 +341,9 @@ let
         "rVnYLyEn" = _rVnYLyEn;
         "mbwznE5M" = _mbwznE5M;
         "jZVtqWH4" = _jZVtqWH4;
+        "KVjeblUE" = _KVjeblUE;
+        "PzPkHLdx" = _PzPkHLdx;
+        "Wm9asg4I" = _Wm9asg4I;
         "paper-1.19.4" = _sBjtHeEZ;
         "paper-1.20.1" = _iIOcED0N;
         "paper-1.20.4" = _iIOcED0N;
@@ -336,19 +354,20 @@ let
         "paper-1.21" = _5YlDeFN5;
         "paper-1.21.3" = _5YlDeFN5;
         "paper-1.21.4" = _IgndvKng;
-        "paper-1.21.5" = _jZVtqWH4;
+        "paper-1.21.5" = _Wm9asg4I;
         "paper-1.21.1" = _5YlDeFN5;
         "paper-1.21.2" = _5YlDeFN5;
-        "paper-1.21.6" = _jZVtqWH4;
-        "paper-1.21.7" = _jZVtqWH4;
-        "paper-1.21.8" = _jZVtqWH4;
-        "paper-1.21.9" = _jZVtqWH4;
-        "paper-1.21.10" = _jZVtqWH4;
-        "paper-1.21.11" = _jZVtqWH4;
-        "paper-26.1" = _jZVtqWH4;
-        "paper-26.1.1" = _jZVtqWH4;
-        "paper-26.1.2" = _jZVtqWH4;
-        "paper-26.2" = _jZVtqWH4;
+        "paper-1.21.6" = _Wm9asg4I;
+        "paper-1.21.7" = _Wm9asg4I;
+        "paper-1.21.8" = _Wm9asg4I;
+        "paper-1.21.9" = _Wm9asg4I;
+        "paper-1.21.10" = _Wm9asg4I;
+        "paper-1.21.11" = _Wm9asg4I;
+        "paper-26.1" = _Wm9asg4I;
+        "paper-26.1.1" = _Wm9asg4I;
+        "paper-26.1.2" = _Wm9asg4I;
+        "paper-26.2" = _Wm9asg4I;
+        "paper-26.3" = _Wm9asg4I;
         "spigot-1.19.4" = _sBjtHeEZ;
         "spigot-1.20.1" = _iIOcED0N;
         "spigot-1.20.4" = _iIOcED0N;
@@ -366,17 +385,18 @@ let
         "purpur-1.20.4" = _d5wfcMf0;
         "purpur-1.21.3" = _3n5G6RLf;
         "purpur-1.21.4" = _niw2mFPy;
-        "purpur-1.21.5" = _jZVtqWH4;
-        "purpur-1.21.6" = _jZVtqWH4;
-        "purpur-1.21.7" = _jZVtqWH4;
-        "purpur-1.21.8" = _jZVtqWH4;
-        "purpur-1.21.9" = _jZVtqWH4;
-        "purpur-1.21.10" = _jZVtqWH4;
-        "purpur-1.21.11" = _jZVtqWH4;
-        "purpur-26.1" = _jZVtqWH4;
-        "purpur-26.1.1" = _jZVtqWH4;
-        "purpur-26.1.2" = _jZVtqWH4;
-        "purpur-26.2" = _jZVtqWH4;
+        "purpur-1.21.5" = _Wm9asg4I;
+        "purpur-1.21.6" = _Wm9asg4I;
+        "purpur-1.21.7" = _Wm9asg4I;
+        "purpur-1.21.8" = _Wm9asg4I;
+        "purpur-1.21.9" = _Wm9asg4I;
+        "purpur-1.21.10" = _Wm9asg4I;
+        "purpur-1.21.11" = _Wm9asg4I;
+        "purpur-26.1" = _Wm9asg4I;
+        "purpur-26.1.1" = _Wm9asg4I;
+        "purpur-26.1.2" = _Wm9asg4I;
+        "purpur-26.2" = _Wm9asg4I;
+        "purpur-26.3" = _Wm9asg4I;
         "pkg-1.23.1" = _sBjtHeEZ;
         "pkg-1.24.1" = _u4fpctqY;
         "pkg-2.0.0" = _bJiC6FIT;
@@ -431,7 +451,10 @@ let
         "pkg-3.22.2" = _rVnYLyEn;
         "pkg-3.22.3" = _mbwznE5M;
         "pkg-3.22.4" = _jZVtqWH4;
-        "default" = _jZVtqWH4;
+        "pkg-3.23.0" = _KVjeblUE;
+        "pkg-3.23.1" = _PzPkHLdx;
+        "pkg-3.23.3" = _Wm9asg4I;
+        "default" = _Wm9asg4I;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bentobox";

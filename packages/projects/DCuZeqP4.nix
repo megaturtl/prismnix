@@ -326,6 +326,11 @@ let
             "file" = "craft-engine-fabric-mod-26.7.1+mc1.20-1.20.1.jar";
             "hash" = "sha512-ef+653NZVN5yJeFE7SPShK4tQizKGbQp9SUJjPj/RyS9n10oCU45LY7gSlFF/drWFaHeEWV6PtRtZKzsilf7NA==";
         };
+        _9sNrciYb = {
+            "id" = "9sNrciYb";
+            "file" = "craft-engine-fabric-mod-26.9+mc26.3.jar";
+            "hash" = "sha512-nKqk2yXmI+8iCj0W0c6+yF3XqiLTDzzVRhVcRZF/XTw/oz60Tj2jHa2JEbNlulJ4TQo69NJGhtP0nG69aZDF3A==";
+        };
     in {
         "um4GZdJT" = _um4GZdJT;
         "kItwUDTb" = _kItwUDTb;
@@ -392,6 +397,7 @@ let
         "kRjCulKK" = _kRjCulKK;
         "V2zT0GJM" = _V2zT0GJM;
         "DEyJcVWh" = _DEyJcVWh;
+        "9sNrciYb" = _9sNrciYb;
         "fabric-1.21.11" = _wvIU379Q;
         "fabric-1.21.6" = _JH171Lkk;
         "fabric-1.21.7" = _JH171Lkk;
@@ -415,6 +421,7 @@ let
         "fabric-1.20.3" = _kRjCulKK;
         "fabric-1.20" = _DEyJcVWh;
         "fabric-26.2" = _nxlxMHg5;
+        "fabric-26.3" = _9sNrciYb;
         "pkg-0.0.66" = _1MQiuLCl;
         "pkg-0.0.67" = _71Pxm2k7;
         "pkg-26.4" = _Ej4kWn3d;
@@ -422,7 +429,8 @@ let
         "pkg-26.6" = _ys4qE94C;
         "pkg-26.7" = _6jXCQbo8;
         "pkg-26.7.1" = _DEyJcVWh;
-        "default" = _DEyJcVWh;
+        "pkg-26.9" = _9sNrciYb;
+        "default" = _9sNrciYb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "craftengine-client-mod";

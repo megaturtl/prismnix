@@ -76,6 +76,16 @@ let
             "file" = "totemdeathmessages-26.2.jar";
             "hash" = "sha512-AxCYuLYzNAaC2KGX9dEiW3u1Y1k1P5WnMYbbCQIdzL3fDpoVPLRKL9P1S5H92MVj5KXpcfuEIyfgIAn/7gWk4Q==";
         };
+        _JJjhpgvb = {
+            "id" = "JJjhpgvb";
+            "file" = "totemdeathmessages-26.3-release.zip";
+            "hash" = "sha512-8h2ISTieY3El8Bt3FHR6m19BgWq3PfiU/YgJQYTo8kpmI9GKMI3KSYqWD3fQ2rt37yoBJitOTbRk033E3uJFlg==";
+        };
+        _nKMrfuCA = {
+            "id" = "nKMrfuCA";
+            "file" = "totemdeathmessages-26.3.jar";
+            "hash" = "sha512-jAtshEcP6QiZZ57pmxL35OoP0tj3zLTKfRCgd9qxuf7yU4QeGTk63ys1JR/F6dUpxyiHaezTO0a8s0Ggp4kpkw==";
+        };
     in {
         "Ggq9uRZf" = _Ggq9uRZf;
         "DZfbOX6W" = _DZfbOX6W;
@@ -92,6 +102,8 @@ let
         "kMBPILjH" = _kMBPILjH;
         "IdRxrO0K" = _IdRxrO0K;
         "4Ja2YarB" = _4Ja2YarB;
+        "JJjhpgvb" = _JJjhpgvb;
+        "nKMrfuCA" = _nKMrfuCA;
         "datapack-1.19.4" = _Ggq9uRZf;
         "datapack-1.20" = _Ggq9uRZf;
         "datapack-1.20.1" = _Ggq9uRZf;
@@ -116,6 +128,7 @@ let
         "datapack-26.1.1" = _IdRxrO0K;
         "datapack-26.1.2" = _IdRxrO0K;
         "datapack-26.2-snapshot-8" = _xH7MrA5F;
+        "datapack-26.3" = _JJjhpgvb;
         "fabric-1.20.2" = _yjfxG1KY;
         "fabric-1.20.3" = _yjfxG1KY;
         "fabric-1.20.4" = _yjfxG1KY;
@@ -137,6 +150,7 @@ let
         "fabric-26.1.1" = _4Ja2YarB;
         "fabric-26.1.2" = _4Ja2YarB;
         "fabric-26.2-snapshot-8" = _kMBPILjH;
+        "fabric-26.3" = _nKMrfuCA;
         "forge-1.20.2" = _yjfxG1KY;
         "forge-1.20.3" = _yjfxG1KY;
         "forge-1.20.4" = _yjfxG1KY;
@@ -158,6 +172,7 @@ let
         "forge-26.1.1" = _4Ja2YarB;
         "forge-26.1.2" = _4Ja2YarB;
         "forge-26.2-snapshot-8" = _kMBPILjH;
+        "forge-26.3" = _nKMrfuCA;
         "neoforge-1.20.2" = _yjfxG1KY;
         "neoforge-1.20.3" = _yjfxG1KY;
         "neoforge-1.20.4" = _yjfxG1KY;
@@ -179,6 +194,7 @@ let
         "neoforge-26.1.1" = _4Ja2YarB;
         "neoforge-26.1.2" = _4Ja2YarB;
         "neoforge-26.2-snapshot-8" = _kMBPILjH;
+        "neoforge-26.3" = _nKMrfuCA;
         "quilt-1.20.2" = _yjfxG1KY;
         "quilt-1.20.3" = _yjfxG1KY;
         "quilt-1.20.4" = _yjfxG1KY;
@@ -200,6 +216,7 @@ let
         "quilt-26.1.1" = _4Ja2YarB;
         "quilt-26.1.2" = _4Ja2YarB;
         "quilt-26.2-snapshot-8" = _kMBPILjH;
+        "quilt-26.3" = _nKMrfuCA;
         "pkg-1.3" = _Ggq9uRZf;
         "pkg-2.0" = _DZfbOX6W;
         "pkg-2.1" = _K8OKYPCd;
@@ -215,7 +232,9 @@ let
         "pkg-26.2_1+mod" = _kMBPILjH;
         "pkg-26.2" = _IdRxrO0K;
         "pkg-26.2+mod" = _4Ja2YarB;
-        "default" = _4Ja2YarB;
+        "pkg-26.3" = _JJjhpgvb;
+        "pkg-26.3+mod" = _nKMrfuCA;
+        "default" = _nKMrfuCA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "totemdeathmessages";

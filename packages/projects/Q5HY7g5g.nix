@@ -111,6 +111,26 @@ let
             "file" = "brightness-plus-26.2.jar";
             "hash" = "sha512-J+qGAyUxIBGKUyxVcO9fnplPXhQcZ5Ww4pOf1X5CG+alVZc3vFOyotwgFWr5tVDPLzA2mLw/Qi3nLznad88g7Q==";
         };
+        _cTGKsIiW = {
+            "id" = "cTGKsIiW";
+            "file" = "brightness-plus-26.3.jar";
+            "hash" = "sha512-wK6BdnHwfUj5PvYe8ZR6r7kr5vlcbiztUEQp4l1lmxG3aBfWT81ABQdxEm/mR9WokcrpSfzVzvi1ncTMclaM4Q==";
+        };
+        _nMLOeDOj = {
+            "id" = "nMLOeDOj";
+            "file" = "brightness-plus-26.2.jar";
+            "hash" = "sha512-uXZoY2s78Hyc5KjB1zB4VXLuRV3vwvO0N23kQhrnDU/aTdnV54yaj/6Vu5HpYAM1Hn0G6v9eJe/vf88cZH3YTw==";
+        };
+        _GsnGnMe8 = {
+            "id" = "GsnGnMe8";
+            "file" = "brightness-plus-26.3.jar";
+            "hash" = "sha512-4xlqzJole43pTEAUh6PW6/CpIT57zElanO25X5x/ZQHqj6KaiVIVgZUdsJpKm0nVEZcLoCSmvMzBx/v6uUkNqg==";
+        };
+        _V3ICTRGo = {
+            "id" = "V3ICTRGo";
+            "file" = "brightness-plus-26.3.jar";
+            "hash" = "sha512-vqhPzyPZfoBBhRZTECixMQMRLS/rF25rCUPOWLcvvyfG+6GjW92oQ+8V5L6ELjGXXqzxUpxgq/ZXIZWAfv3ZqQ==";
+        };
     in {
         "EvFYoeMw" = _EvFYoeMw;
         "Y6DCSenJ" = _Y6DCSenJ;
@@ -134,6 +154,10 @@ let
         "BbNSoSYL" = _BbNSoSYL;
         "cqVOcY1o" = _cqVOcY1o;
         "mjIKzYu0" = _mjIKzYu0;
+        "cTGKsIiW" = _cTGKsIiW;
+        "nMLOeDOj" = _nMLOeDOj;
+        "GsnGnMe8" = _GsnGnMe8;
+        "V3ICTRGo" = _V3ICTRGo;
         "fabric-1.21" = _EvFYoeMw;
         "fabric-1.21.1" = _Y6DCSenJ;
         "fabric-1.21.2" = _AbEHtTeC;
@@ -155,7 +179,8 @@ let
         "fabric-26.1" = _KXJ00UTj;
         "fabric-26.1.1" = _BbNSoSYL;
         "fabric-26.1.2" = _cqVOcY1o;
-        "fabric-26.2" = _mjIKzYu0;
+        "fabric-26.2" = _nMLOeDOj;
+        "fabric-26.3" = _V3ICTRGo;
         "pkg-1.21" = _EvFYoeMw;
         "pkg-1.21.1" = _Y6DCSenJ;
         "pkg-1.21.2" = _AbEHtTeC;
@@ -177,8 +202,11 @@ let
         "pkg-26.1" = _KXJ00UTj;
         "pkg-26.1.1" = _BbNSoSYL;
         "pkg-26.1.2" = _cqVOcY1o;
-        "pkg-26.2" = _mjIKzYu0;
-        "default" = _mjIKzYu0;
+        "pkg-26.2" = _nMLOeDOj;
+        "pkg-26.3-beta" = _cTGKsIiW;
+        "pkg-26.3-alpha" = _GsnGnMe8;
+        "pkg-26.3" = _V3ICTRGo;
+        "default" = _V3ICTRGo;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "brightness-plus";

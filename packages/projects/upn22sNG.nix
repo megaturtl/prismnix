@@ -31,6 +31,16 @@ let
             "file" = "orbitalrod-1.0.0.jar";
             "hash" = "sha512-OBAiks4N5Tk5xoA31miAY/hi5JbHjkJ1zMqkmg+3gCpb8eNBQNC2f8gQw/FcOefJmSHgHbmN2s8ZK9TmKDZpxA==";
         };
+        _TTXi6zOp = {
+            "id" = "TTXi6zOp";
+            "file" = "orbitalrod-1.0.0.jar";
+            "hash" = "sha512-FWiVPq+WemfQN3RXB2JfjRkqXHtj3tmdTcs56N2D+bv/JLq5yvvkymx8zM8eRkQ+4Rv3kKr7VZB4O4DqaxTEmg==";
+        };
+        _YdC1Rono = {
+            "id" = "YdC1Rono";
+            "file" = "orbitalrod-1.0.0.jar";
+            "hash" = "sha512-7yNDIFaQZXNoyCi22gWYm2KrT03rT4NSbkZ7tXEHgpfrIRLCk+FV2TL6Ocdb6Ds9nD/xDdrE9WDrzYtEiO0UMw==";
+        };
     in {
         "6rUMcXpZ" = _6rUMcXpZ;
         "9Y3Qtt60" = _9Y3Qtt60;
@@ -38,22 +48,27 @@ let
         "hqnh8Esh" = _hqnh8Esh;
         "XKnsoWpg" = _XKnsoWpg;
         "Gu0mLEkY" = _Gu0mLEkY;
+        "TTXi6zOp" = _TTXi6zOp;
+        "YdC1Rono" = _YdC1Rono;
         "fabric-1.20.1" = _6rUMcXpZ;
         "fabric-1.21.11" = _9Y3Qtt60;
         "fabric-26.1" = _2P6PLyec;
         "fabric-26.1.1" = _2P6PLyec;
         "fabric-26.1.2" = _XKnsoWpg;
         "fabric-26.2" = _XKnsoWpg;
+        "fabric-26.3" = _TTXi6zOp;
         "neoforge-26.1" = _Gu0mLEkY;
         "neoforge-26.1.1" = _Gu0mLEkY;
         "neoforge-26.1.2" = _Gu0mLEkY;
         "neoforge-26.2" = _Gu0mLEkY;
+        "neoforge-26.3" = _YdC1Rono;
         "pkg-1.0.0" = _6rUMcXpZ;
         "pkg-1.2" = _9Y3Qtt60;
         "pkg-1.3" = _2P6PLyec;
         "pkg-1.4" = _hqnh8Esh;
         "pkg-2.0" = _Gu0mLEkY;
-        "default" = _Gu0mLEkY;
+        "pkg-3.0" = _YdC1Rono;
+        "default" = _YdC1Rono;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "orbital-strike-cannon-original";

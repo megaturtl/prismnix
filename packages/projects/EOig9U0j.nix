@@ -241,6 +241,16 @@ let
             "file" = "BarteringStation-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-Gd5AJcSH1UBhYkmYLMk526cup+na2zF4OMMeZLkg+7XjrOxfDTUE8q4JaV2rrX+Smya+A5e1q0rO7Hn24EiYxQ==";
         };
+        _m2jTYyh9 = {
+            "id" = "m2jTYyh9";
+            "file" = "barteringstation-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-Q383hc0wNf0VoN6Xb95Rm3l/o81+ZaEfbZVXRdl+mhqDO9uKscqll2D2HfXR+fvOxJzCqbA4IHUy8mPJ4v1hXA==";
+        };
+        _FHYV3FNX = {
+            "id" = "FHYV3FNX";
+            "file" = "barteringstation-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-EKOXCBYxGWdK0aycNOln/4YtanT1OBvbZjfpobsEUCQQCgw83Eg+0ixy3U9C8YAbg0hCEw+nBoOS+PhMdkt9hQ==";
+        };
     in {
         "3gvKygfX" = _3gvKygfX;
         "rfAq5PWK" = _rfAq5PWK;
@@ -290,6 +300,8 @@ let
         "9FVjKLNO" = _9FVjKLNO;
         "vaBOiOWp" = _vaBOiOWp;
         "oBpzTtDD" = _oBpzTtDD;
+        "m2jTYyh9" = _m2jTYyh9;
+        "FHYV3FNX" = _FHYV3FNX;
         "forge-1.19.2" = _xiH2XGVy;
         "forge-1.19.3" = _dyunQyeX;
         "forge-1.19.4" = _WGFUTnsb;
@@ -317,6 +329,7 @@ let
         "fabric-26.1.1" = _u0rjIDkh;
         "fabric-26.1.2" = _u0rjIDkh;
         "fabric-26.2" = _vaBOiOWp;
+        "fabric-26.3" = _FHYV3FNX;
         "neoforge-1.20.4" = _togVOSPM;
         "neoforge-1.21" = _MFsrniyK;
         "neoforge-1.21.1" = _GOAgiH0l;
@@ -333,6 +346,7 @@ let
         "neoforge-26.1.1" = _9FVjKLNO;
         "neoforge-26.1.2" = _9FVjKLNO;
         "neoforge-26.2" = _oBpzTtDD;
+        "neoforge-26.3" = _m2jTYyh9;
         "pkg-v4.0.0-1.19.2-Forge" = _3gvKygfX;
         "pkg-v4.0.0-1.19.2-Fabric" = _rfAq5PWK;
         "pkg-v4.0.1-1.19.2-Fabric" = _lOLPxUKc;
@@ -376,7 +390,8 @@ let
         "pkg-21.11.0" = _S28l1IW6;
         "pkg-26.1.0" = _9FVjKLNO;
         "pkg-26.2.0" = _oBpzTtDD;
-        "default" = _oBpzTtDD;
+        "pkg-26.3.0" = _FHYV3FNX;
+        "default" = _FHYV3FNX;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "bartering-station";

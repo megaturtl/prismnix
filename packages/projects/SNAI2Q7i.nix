@@ -51,6 +51,11 @@ let
             "file" = "snowy-leaves-v1-1-0-mc-26-3.zip";
             "hash" = "sha512-Zhe/a8bPHhxuJRoGOUeKMW588FHY4g3DCn0+ih5ArisgwQ9ORBx48GCqtmEmQF2JygBjpS0Hb+94A5dVgJ1DAA==";
         };
+        _OsDyd8zF = {
+            "id" = "OsDyd8zF";
+            "file" = "snowy-leaves-v1-1-1-mc-26-3.zip";
+            "hash" = "sha512-/hMv5c2qH4/WZl51ukJM0iLBIzjO2WI+oOQZvmmQZPyLsGEGDcBSK5R6JTfgYw/F9mj7r+HVOh+SM//UyTlEdA==";
+        };
     in {
         "wooBVcqm" = _wooBVcqm;
         "JP6f3EvL" = _JP6f3EvL;
@@ -62,6 +67,7 @@ let
         "wHMHrP6y" = _wHMHrP6y;
         "bO2yjRPi" = _bO2yjRPi;
         "WUdEo4Lp" = _WUdEo4Lp;
+        "OsDyd8zF" = _OsDyd8zF;
         "minecraft-1.21.4" = _mE0RCtjF;
         "minecraft-1.21.5" = _mE0RCtjF;
         "minecraft-1.21.6" = _mE0RCtjF;
@@ -70,9 +76,9 @@ let
         "minecraft-1.21.9" = _bO2yjRPi;
         "minecraft-1.21.10" = _bO2yjRPi;
         "minecraft-1.21.11" = _bO2yjRPi;
-        "minecraft-26.1" = _WUdEo4Lp;
-        "minecraft-26.1.1" = _WUdEo4Lp;
-        "minecraft-26.1.2" = _WUdEo4Lp;
+        "minecraft-26.1" = _OsDyd8zF;
+        "minecraft-26.1.1" = _OsDyd8zF;
+        "minecraft-26.1.2" = _OsDyd8zF;
         "minecraft-1.20" = _wHMHrP6y;
         "minecraft-1.20.1" = _wHMHrP6y;
         "minecraft-23w31a" = _wHMHrP6y;
@@ -126,8 +132,8 @@ let
         "minecraft-1.21.2-pre2" = _wHMHrP6y;
         "minecraft-1.21.2" = _wHMHrP6y;
         "minecraft-1.21.3" = _wHMHrP6y;
-        "minecraft-26.2" = _WUdEo4Lp;
-        "minecraft-26.3" = _WUdEo4Lp;
+        "minecraft-26.2" = _OsDyd8zF;
+        "minecraft-26.3" = _OsDyd8zF;
         "pkg-v1.0.0-mc-1.21.4" = _wooBVcqm;
         "pkg-v1.0.0-mc-1.21.5" = _JP6f3EvL;
         "pkg-v1.0.0-mc-1.21.6" = _Kc6unO5T;
@@ -137,8 +143,9 @@ let
         "pkg-v1.0.0-mc-26.1" = _Sf27L2jR;
         "pkg-v1.0.0-mc-1.21.3" = _wHMHrP6y;
         "pkg-v1.0.0-mc-26.2" = _bO2yjRPi;
-        "pkg-v1.0.0-mc-26.3" = _WUdEo4Lp;
-        "default" = _WUdEo4Lp;
+        "pkg-v1.1.0-mc-26.3" = _WUdEo4Lp;
+        "pkg-v1.1.1-mc-26.3" = _OsDyd8zF;
+        "default" = _OsDyd8zF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "snowy-leaves";

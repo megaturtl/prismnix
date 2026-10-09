@@ -21,11 +21,17 @@ let
             "file" = "§9§lVanilla Stylized 26.2.zip";
             "hash" = "sha512-zINTmF/a7iShQ1OkyHElN2lcd1HKSueS/xIWgCLstbjeydErEF4jLAZEvzvBe+G2wEhFVst7a0rQSBFYtkSucQ==";
         };
+        _QdQuzczI = {
+            "id" = "QdQuzczI";
+            "file" = "§9§lVanilla Stylized 26.3.zip";
+            "hash" = "sha512-ZpgK+pY7TGXeuSUkZR7p57IEVK4LFbKms26KWsBrsoc+QKKkurd/aOv/J8pJtJVNzK94rKddnWh2Vlnu1ASV4Q==";
+        };
     in {
         "G0eNs8nw" = _G0eNs8nw;
         "9fJv6H0H" = _9fJv6H0H;
         "aCzPCnSR" = _aCzPCnSR;
         "ktrx5uaF" = _ktrx5uaF;
+        "QdQuzczI" = _QdQuzczI;
         "minecraft-1.21.4" = _G0eNs8nw;
         "minecraft-1.21.6" = _9fJv6H0H;
         "minecraft-1.21.7" = _9fJv6H0H;
@@ -34,9 +40,11 @@ let
         "minecraft-26.1.1" = _aCzPCnSR;
         "minecraft-26.1.2" = _aCzPCnSR;
         "minecraft-26.2" = _ktrx5uaF;
+        "minecraft-26.3" = _QdQuzczI;
         "pkg-1.0" = _aCzPCnSR;
         "pkg-26.2" = _ktrx5uaF;
-        "default" = _ktrx5uaF;
+        "pkg-26.3" = _QdQuzczI;
+        "default" = _QdQuzczI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "vanilla-stylized";

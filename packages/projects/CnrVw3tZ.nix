@@ -21,17 +21,24 @@ let
             "file" = "create-stockmarket-1.1.0+mc1.21.1.jar";
             "hash" = "sha512-S+U8+c0LoP+eXUVY9iPFAWZzZSELMuquDlg3yLpFu/c4Ahaf6pAvyE3x5v5n/mXmKz7mGkByQFld6+ASQ4wSGg==";
         };
+        _H8B2METb = {
+            "id" = "H8B2METb";
+            "file" = "create-stockmarket-1.1.1+mc1.21.1.jar";
+            "hash" = "sha512-mg9VL/I1HRnDG+Ix10/85uQm22v4ga8wLQDJum+L8EcgpWJhEU4dTbDhhGzgOLog156zuh5sKJVuNkvvycu4aA==";
+        };
     in {
         "C564UW9E" = _C564UW9E;
         "UeqYCCa4" = _UeqYCCa4;
         "RsQ7uH5G" = _RsQ7uH5G;
         "1kv0CE2W" = _1kv0CE2W;
-        "neoforge-1.21.1" = _1kv0CE2W;
+        "H8B2METb" = _H8B2METb;
+        "neoforge-1.21.1" = _H8B2METb;
         "pkg-1.0.0" = _C564UW9E;
         "pkg-1.0.1" = _UeqYCCa4;
         "pkg-1.0.2" = _RsQ7uH5G;
         "pkg-1.1.0" = _1kv0CE2W;
-        "default" = _1kv0CE2W;
+        "pkg-1.1.1" = _H8B2METb;
+        "default" = _H8B2METb;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "create-stock-market";

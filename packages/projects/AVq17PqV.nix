@@ -301,6 +301,16 @@ let
             "file" = "LeavesBeGone-v26.2.0-mc26.2.x-NeoForge.jar";
             "hash" = "sha512-rnswPxi64Txa5580rDIBNjmXsltjDDWgU6aTtwfDUyfV2aOnINXIAEkm5buXFCriBaq4JNZO9t6yqVrV+2weKw==";
         };
+        _Ttuy044k = {
+            "id" = "Ttuy044k";
+            "file" = "leavesbegone-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-i5rDvY+yjPTBwG7D0fTDO4aZNGHimPxFF+AXUY0isFiPtKyKHaqNb49qdEBrxp3NvI85cU17MD0DvdF+QzbMwg==";
+        };
+        _UgF18r16 = {
+            "id" = "UgF18r16";
+            "file" = "leavesbegone-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-8hY/KaEModZh4403HalpR0jhPF2wwEYEiO3cQxNttloxTwhWvvSVSdg7HpM64a3zbXBoOiTQVxcg9VT/rH581g==";
+        };
     in {
         "7n0w2F56" = _7n0w2F56;
         "jgrPz2x9" = _jgrPz2x9;
@@ -362,6 +372,8 @@ let
         "PyXgFChf" = _PyXgFChf;
         "5vBSTK0b" = _5vBSTK0b;
         "c0s9NQ2t" = _c0s9NQ2t;
+        "Ttuy044k" = _Ttuy044k;
+        "UgF18r16" = _UgF18r16;
         "fabric-1.19.2" = _z8KS4NPS;
         "fabric-1.19.3" = _yycbOJ6B;
         "fabric-1.19.4" = _KPUKs0oK;
@@ -384,6 +396,7 @@ let
         "fabric-26.1.1" = _PyXgFChf;
         "fabric-26.1.2" = _PyXgFChf;
         "fabric-26.2" = _5vBSTK0b;
+        "fabric-26.3" = _Ttuy044k;
         "forge-1.19.2" = _6LsBcPWG;
         "forge-1.19.3" = _p0AHyxv9;
         "forge-1.19.4" = _xsldiOeQ;
@@ -407,6 +420,7 @@ let
         "neoforge-26.1.1" = _BRLWoXVC;
         "neoforge-26.1.2" = _BRLWoXVC;
         "neoforge-26.2" = _c0s9NQ2t;
+        "neoforge-26.3" = _UgF18r16;
         "pkg-v4.0.0-1.19.2-Fabric" = _7n0w2F56;
         "pkg-v4.0.0-1.19.2-Forge" = _jgrPz2x9;
         "pkg-v4.0.1-1.19.2-Fabric" = _z8KS4NPS;
@@ -462,7 +476,8 @@ let
         "pkg-v21.1.1-1.21.1-NeoForge" = _kAbmpvF3;
         "pkg-26.1.0" = _PyXgFChf;
         "pkg-26.2.0" = _c0s9NQ2t;
-        "default" = _c0s9NQ2t;
+        "pkg-26.3.0" = _UgF18r16;
+        "default" = _UgF18r16;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "leaves-be-gone";

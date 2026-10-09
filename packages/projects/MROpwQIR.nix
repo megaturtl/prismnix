@@ -51,6 +51,11 @@ let
             "file" = "emapmod-2.1.0.jar";
             "hash" = "sha512-NgR5TeVoE5G1u0ZQZtytQi2/DhJlRGv2UKmtzfxphghsC00lb08B8A6fVNI5nA+aqNOFB5LXez/XN5AfyUyECQ==";
         };
+        _KoEx8pQJ = {
+            "id" = "KoEx8pQJ";
+            "file" = "eap-3.0.0.jar";
+            "hash" = "sha512-JDMLUCpKyzYJn0PgAkwnDI8fBeSb1AMzLgSN6iwcKkuKiaPQ5SSqb+gtg3uVSqwtiVgNtxwOuUBuOHUjLU5bnw==";
+        };
     in {
         "8gcIEY6y" = _8gcIEY6y;
         "Z4QHrI4o" = _Z4QHrI4o;
@@ -62,9 +67,11 @@ let
         "bYf4Iubr" = _bYf4Iubr;
         "pXLlnAy5" = _pXLlnAy5;
         "3JJ6osjO" = _3JJ6osjO;
+        "KoEx8pQJ" = _KoEx8pQJ;
         "fabric-1.20.1" = _bYf4Iubr;
         "fabric-1.21" = _3JJ6osjO;
         "fabric-1.21.1" = _3JJ6osjO;
+        "neoforge-1.21.1" = _KoEx8pQJ;
         "pkg-1.0.0" = _8gcIEY6y;
         "pkg-1.1.0" = _Z4QHrI4o;
         "pkg-1.2.0" = _LaEovETq;
@@ -75,7 +82,8 @@ let
         "pkg-1.3.1" = _bYf4Iubr;
         "pkg-2.0.0" = _pXLlnAy5;
         "pkg-2.1.0" = _3JJ6osjO;
-        "default" = _3JJ6osjO;
+        "pkg-3.0.0" = _KoEx8pQJ;
+        "default" = _KoEx8pQJ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "eraverns-more-animal-products";

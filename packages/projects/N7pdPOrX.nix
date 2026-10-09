@@ -401,6 +401,11 @@ let
             "file" = "SMART BOOST [FB-6.62][26.2].zip";
             "hash" = "sha512-3CpexChCkg1Sdi6VDtJPLKJo+3m0yrNtDN7bqWXhKe59Jfl2F+PLGeWrPOVGxGU+CIlFj/UYWuLMvYqhecLqOg==";
         };
+        _FSDIpakk = {
+            "id" = "FSDIpakk";
+            "file" = "SMART BOOST [FB-6.62][26.3].zip";
+            "hash" = "sha512-DwMMdDyWpisR14Ur161I0bnjs7KHpI8zUY8GTwUC4De4ij16sXpJYmG/yTb/kmcg8n1AyOJXJBAWh6H4VroR+A==";
+        };
     in {
         "h9unYlKi" = _h9unYlKi;
         "bOKmyyHj" = _bOKmyyHj;
@@ -482,6 +487,7 @@ let
         "z4LR0AFH" = _z4LR0AFH;
         "lpijXA5a" = _lpijXA5a;
         "uIIUczlQ" = _uIIUczlQ;
+        "FSDIpakk" = _FSDIpakk;
         "minecraft-1.16.2" = _lIK8sxVT;
         "minecraft-1.16.3" = _lIK8sxVT;
         "minecraft-1.16.4" = _lIK8sxVT;
@@ -525,6 +531,8 @@ let
         "minecraft-26.1.1" = _lpijXA5a;
         "minecraft-26.1.2" = _lpijXA5a;
         "minecraft-26.2" = _uIIUczlQ;
+        "minecraft-26.3" = _FSDIpakk;
+        "minecraft-26.4-snapshot-1" = _FSDIpakk;
         "pkg-1.16-1.16.5" = _NpSxjdCx;
         "pkg-1.17-1.17.1" = _y10uRpLH;
         "pkg-1.18-1.18.2" = _sYtLJb5M;
@@ -550,8 +558,8 @@ let
         "pkg-6.5" = _2Rhhnw2x;
         "pkg-FB-6.6" = _cc2horP8;
         "pkg-FB-6.61" = _z4LR0AFH;
-        "pkg-FB-6.62" = _uIIUczlQ;
-        "default" = _uIIUczlQ;
+        "pkg-FB-6.62" = _FSDIpakk;
+        "default" = _FSDIpakk;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "smart-boost";

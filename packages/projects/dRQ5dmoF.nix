@@ -111,6 +111,11 @@ let
             "file" = "the_wax-1.0.4.8.jar";
             "hash" = "sha512-BsMs7rnOZYLmGlqb7P+MRRkC/4C+xD39G+KrtTJQm+qBCrnIjr6Lss6sr2Uct9+mYsa4MDlhhC/0r3ZVyOtI7g==";
         };
+        _KoiLmKwK = {
+            "id" = "KoiLmKwK";
+            "file" = "the_wax-1.0.0.jar";
+            "hash" = "sha512-tVMmaSlTDeDSa564WeolLIYdwMvzkZKe9gpbD/ZAuTdHjEbRCJAU1l5pqLXWVqZwsvYHI6K0iPlMIdKXa/SKlg==";
+        };
     in {
         "uGVoaItt" = _uGVoaItt;
         "sm0xai5s" = _sm0xai5s;
@@ -134,12 +139,14 @@ let
         "DGXWJgRL" = _DGXWJgRL;
         "E0ILia1e" = _E0ILia1e;
         "TiQbl7A7" = _TiQbl7A7;
+        "KoiLmKwK" = _KoiLmKwK;
         "fabric-1.21.11" = _nQAAVPQK;
         "fabric-26.1" = _DGXWJgRL;
         "fabric-26.1.1" = _DGXWJgRL;
         "fabric-26.1.2" = _DGXWJgRL;
         "fabric-26.2" = _TiQbl7A7;
-        "pkg-1.0.0" = _uGVoaItt;
+        "forge-1.20.1" = _KoiLmKwK;
+        "pkg-1.0.0" = _KoiLmKwK;
         "pkg-1.0.2" = _sm0xai5s;
         "pkg-1.0.5" = _ZFasZrw3;
         "pkg-1.0.8" = _9uRgsfjw;
@@ -161,7 +168,7 @@ let
         "pkg-1.0.3.5" = _DGXWJgRL;
         "pkg-1.0.4.0" = _E0ILia1e;
         "pkg-1.0.4.8" = _TiQbl7A7;
-        "default" = _TiQbl7A7;
+        "default" = _KoiLmKwK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "the-wax-gourd";

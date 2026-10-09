@@ -51,6 +51,41 @@ let
             "file" = "autobucketclutch-26.2.x-fabric-v1.0.2.jar";
             "hash" = "sha512-NO5z8a9yJilLNShSBiAWk4T4Olzojj+zpSvqdjbTJg3CPfmSkafWiSf8aiMhR8aqEss2KXc/uvYjsYiZ+36hAw==";
         };
+        _xORk59rE = {
+            "id" = "xORk59rE";
+            "file" = "autobucketclutch-26.1to26.2-fabric-v1.1.0.jar";
+            "hash" = "sha512-QhaGrU/919ClsvQl9QuTZeKt+R47hs/2hiyN7a7AW1c7yVBGZzysclm8II1Lef2TkAffwx6doQbC++DljfdVEg==";
+        };
+        _yS7Y3wH5 = {
+            "id" = "yS7Y3wH5";
+            "file" = "autobucketclutch-26.3-fabric-v1.1.0.jar";
+            "hash" = "sha512-8MxiJFHM0/CUZd2WmrkC57ux/9clX7ePxU9vgAXY72bYTkH56L7vOCbX0s8g1z63laK/RmfcYKaOIqzhlf/qxQ==";
+        };
+        _6EeALOgz = {
+            "id" = "6EeALOgz";
+            "file" = "autobucketclutch-1.21.11-fabric-v1.1.0.jar";
+            "hash" = "sha512-W7eJpsz5krOE8uBrkCiE70eCV6uHqNYM00gAJbs8CD8cFPe/arG+0PZ0yd40hvDc80aLI5zgV2zmxhVdTMbdzQ==";
+        };
+        _7ZFd3qr4 = {
+            "id" = "7ZFd3qr4";
+            "file" = "autobucketclutch-1.21.4-fabric-v1.0.3.jar";
+            "hash" = "sha512-s1omCICFpxKbxORgxF4d9tKNW1ert1nM3VBRkPIx9ipk+pznu5c2toqM3/RIrM93o1lMsQf4ZooUOkETkWoy1Q==";
+        };
+        _N9RZsCCU = {
+            "id" = "N9RZsCCU";
+            "file" = "autobucketclutch-1.21.5-fabric-v1.0.3.jar";
+            "hash" = "sha512-j7HyVzv7gQ953OP+XuLVJE6LqUGYNgr6o9ISmpHEUAqlBmM1ZH3IWJ/2Rsvj2FLdBdESLw1+YkDFHeJnzk0FpQ==";
+        };
+        _4U4efEc8 = {
+            "id" = "4U4efEc8";
+            "file" = "autobucketclutch-1.21.6to1.21.8-fabric-v1.0.3.jar";
+            "hash" = "sha512-EgMCJQHSGtevC02Rf9cXfcP5DlOmDMd3faybzPam4v+YpWhmvyqkTQiHCH7Ii/NtXEv+BdxvYPxm59S1fQ6r+Q==";
+        };
+        _EhvEGJrQ = {
+            "id" = "EhvEGJrQ";
+            "file" = "autobucketclutch-1.21.9to1.21.10-fabric-v1.0.3.jar";
+            "hash" = "sha512-C5zxls8lhMYERNcJcumDj+Ph5GD2vxDngTK59WXXJwLwy4u2C9vCxn54R7UL+cxzN366eZOVXu/j4mZf/+FsFw==";
+        };
     in {
         "6TI7llMZ" = _6TI7llMZ;
         "uCjz0gDO" = _uCjz0gDO;
@@ -62,24 +97,36 @@ let
         "aZUY6tK8" = _aZUY6tK8;
         "s9VNQd6a" = _s9VNQd6a;
         "Ke3HtpZl" = _Ke3HtpZl;
+        "xORk59rE" = _xORk59rE;
+        "yS7Y3wH5" = _yS7Y3wH5;
+        "6EeALOgz" = _6EeALOgz;
+        "7ZFd3qr4" = _7ZFd3qr4;
+        "N9RZsCCU" = _N9RZsCCU;
+        "4U4efEc8" = _4U4efEc8;
+        "EhvEGJrQ" = _EhvEGJrQ;
         "fabric-1.21" = _6TI7llMZ;
         "fabric-1.21.1" = _6TI7llMZ;
         "fabric-1.21.2" = _uCjz0gDO;
         "fabric-1.21.3" = _uCjz0gDO;
-        "fabric-1.21.4" = _K2AWy4uV;
-        "fabric-1.21.5" = _hajaj5Yh;
-        "fabric-1.21.6" = _hnDrP06Y;
-        "fabric-1.21.9" = _HLTxqSGr;
-        "fabric-1.21.10" = _HLTxqSGr;
-        "fabric-1.21.11" = _qMc3o1uy;
-        "fabric-26.1" = _s9VNQd6a;
-        "fabric-26.1.1" = _s9VNQd6a;
-        "fabric-26.1.2" = _s9VNQd6a;
-        "fabric-26.2" = _Ke3HtpZl;
+        "fabric-1.21.4" = _7ZFd3qr4;
+        "fabric-1.21.5" = _N9RZsCCU;
+        "fabric-1.21.6" = _4U4efEc8;
+        "fabric-1.21.9" = _EhvEGJrQ;
+        "fabric-1.21.10" = _EhvEGJrQ;
+        "fabric-1.21.11" = _6EeALOgz;
+        "fabric-26.1" = _xORk59rE;
+        "fabric-26.1.1" = _xORk59rE;
+        "fabric-26.1.2" = _xORk59rE;
+        "fabric-26.2" = _xORk59rE;
+        "fabric-26.3" = _yS7Y3wH5;
+        "fabric-1.21.7" = _4U4efEc8;
+        "fabric-1.21.8" = _4U4efEc8;
         "pkg-1.0.0" = _uCjz0gDO;
         "pkg-1.0.1" = _qMc3o1uy;
         "pkg-1.0.2" = _Ke3HtpZl;
-        "default" = _Ke3HtpZl;
+        "pkg-1.1.0" = _6EeALOgz;
+        "pkg-1.0.3" = _EhvEGJrQ;
+        "default" = _EhvEGJrQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "autobucketclutch";

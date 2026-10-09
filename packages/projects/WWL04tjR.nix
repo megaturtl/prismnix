@@ -176,6 +176,16 @@ let
             "file" = "slabsandstairs-1.15.2-26.1.2.jar";
             "hash" = "sha512-s6wemCz5X0pmQKxiDHW7mU9bYQ0f+eoFoHBtbrcJ1qxzTv1LVtagfauuEDTEOqB7EytNCKeyhRJk5MaeP+vG9w==";
         };
+        _mNk3lAWM = {
+            "id" = "mNk3lAWM";
+            "file" = "slabsandstairs-1.15.2-26.2.jar";
+            "hash" = "sha512-wG9e8GLpMUPCSV+sWAkih/JJfdG67pEmTYi97rUBLAGgMKEfI4WfbOZn56Uu6r2Qtr1pP+1Dpkdo2sYDXergaA==";
+        };
+        _d8dJirlT = {
+            "id" = "d8dJirlT";
+            "file" = "slabsandstairs-1.15.3-26.3.jar";
+            "hash" = "sha512-Ts6xO9asz+niGVr88yWITcTyRALhKMzAw5sMolLyV9h8a2KLXHxdyly2IVfEKF7GZpNz9aoaQQBjDLoJc/XWrw==";
+        };
     in {
         "hUloQoCp" = _hUloQoCp;
         "1mypFDmr" = _1mypFDmr;
@@ -212,6 +222,8 @@ let
         "tKNFgVsz" = _tKNFgVsz;
         "CgP1kYrn" = _CgP1kYrn;
         "fr7CO2sq" = _fr7CO2sq;
+        "mNk3lAWM" = _mNk3lAWM;
+        "d8dJirlT" = _d8dJirlT;
         "fabric-1.19" = _a7NV9nmV;
         "fabric-1.19.1" = _9GlZp9Qb;
         "fabric-1.19.2" = _PzSNYlRn;
@@ -236,6 +248,8 @@ let
         "fabric-26.1" = _fr7CO2sq;
         "fabric-26.1.1" = _fr7CO2sq;
         "fabric-26.1.2" = _fr7CO2sq;
+        "fabric-26.2" = _mNk3lAWM;
+        "fabric-26.3" = _d8dJirlT;
         "pkg-1.0.0" = _hUloQoCp;
         "pkg-1.0.1" = _1mypFDmr;
         "pkg-1.1.0" = _a7NV9nmV;
@@ -269,7 +283,9 @@ let
         "pkg-1.15.0" = _eeMXNzVE;
         "pkg-1.15.1" = _8AI4Ff4N;
         "pkg-1.15.2" = _fr7CO2sq;
-        "default" = _fr7CO2sq;
+        "pkg-1.15.2-26.2" = _mNk3lAWM;
+        "pkg-1.15.3-26.3" = _d8dJirlT;
+        "default" = _d8dJirlT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "frostbytes-slabs-stairs";

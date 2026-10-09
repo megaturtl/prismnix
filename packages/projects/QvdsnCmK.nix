@@ -86,6 +86,11 @@ let
             "file" = "doctor_m-2.0.1.jar";
             "hash" = "sha512-+oB3EIt7VyflGPC4DVsQmb74Bg6Rb7qVShGPZwCIwlj+2lJqjMG7gL73jTYLEqjZY6EiKxjKorGD60yWuxSn1Q==";
         };
+        _4RIKogB6 = {
+            "id" = "4RIKogB6";
+            "file" = "doctor_m-2.1.jar";
+            "hash" = "sha512-WvuEcYQmFGjHz9/RIubeA7eevAitO+Inq/EuKLkhNqf1hASihUBIJefqxd80VcuvwABP/y91oL3hH33HFBaDoA==";
+        };
     in {
         "S6mfIp9f" = _S6mfIp9f;
         "D7on9WyG" = _D7on9WyG;
@@ -104,7 +109,8 @@ let
         "FU1yh8lf" = _FU1yh8lf;
         "LgBuCtad" = _LgBuCtad;
         "pZknAxMV" = _pZknAxMV;
-        "fabric-1.20.1" = _pZknAxMV;
+        "4RIKogB6" = _4RIKogB6;
+        "fabric-1.20.1" = _4RIKogB6;
         "pkg-dwi2.1" = _S6mfIp9f;
         "pkg-dwi2.2" = _D7on9WyG;
         "pkg-dwi2.3" = _PG70cjCc;
@@ -122,7 +128,8 @@ let
         "pkg-2.0-beta" = _FU1yh8lf;
         "pkg-2.0" = _LgBuCtad;
         "pkg-2.0.1" = _pZknAxMV;
-        "default" = _pZknAxMV;
+        "pkg-2.1" = _4RIKogB6;
+        "default" = _4RIKogB6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "doctorm";

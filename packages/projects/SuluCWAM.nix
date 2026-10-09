@@ -116,6 +116,46 @@ let
             "file" = "lighterend-1.0.7-24-5c662cb9-26.3-all.jar";
             "hash" = "sha512-3bYfjoED+/4CyuqTuPJFaxTMG+jQzWTV9zKbYhOmAYthQwY2vb4q/bkqH6fot42XM9W1TlQT6ZAprS6RfEfK4Q==";
         };
+        _nOpLcXY4 = {
+            "id" = "nOpLcXY4";
+            "file" = "lighterend-1.0.7-25-995b25a0-26.3-all.jar";
+            "hash" = "sha512-OkyqgQht3wnUNGhOT0BMQTcSv5G/QJuonx60jrULwuMS5FNUkGeoc3/SYc92JaYolRU3nMVTYpUI3RcdlDIANg==";
+        };
+        _C1LojH4L = {
+            "id" = "C1LojH4L";
+            "file" = "lighterend-1.0.8-0-26.3-all.jar";
+            "hash" = "sha512-lZmjaCehMiI0PXqhql8FpA3Xz1/9H7hBSyETil9vJs4b5SWfFxlbCc6Bv/R8AQW9ybTQ8oUyaXvQWnHRqi7DsA==";
+        };
+        _vjplDKKh = {
+            "id" = "vjplDKKh";
+            "file" = "lighterend-1.0.8-1-94c55ce1-26.2-all.jar";
+            "hash" = "sha512-amxCJt3MaLXExZXNDZTJUI+RtgUtUTLzOBPVMTs5ax6Q55CYcxSk3DN+5z9iQ80QXaiCQDn0kHr59yHibrmVKw==";
+        };
+        _b9TkQI8b = {
+            "id" = "b9TkQI8b";
+            "file" = "lighterend-1.0.8-2-5d069bff-26.1-all.jar";
+            "hash" = "sha512-nTNYtBHycN7mjKRr1iBlu+F5dAZQo8aM2N9eJoivc/GoIQV4c3kKrxu8xiqKqfai9Cfyc859MRclBjKDHFZiSw==";
+        };
+        _f8E3Ty7N = {
+            "id" = "f8E3Ty7N";
+            "file" = "lighterend-1.0.8-3-179cbf98-1.21.11.jar";
+            "hash" = "sha512-dUywcjWGdutO2lTVfvf64p3akVRJB3Inw/OfkOOzrI3x0sNpCKNr0dZRdwcn5ZA2iX2WEjPLMF4ZYmERmj0mUA==";
+        };
+        _rSbeJedH = {
+            "id" = "rSbeJedH";
+            "file" = "lighterend-1.0.8-4-744a7103-1.21.9.jar";
+            "hash" = "sha512-YLKnsF/+MPnemQB7HyBM4aTUgyaaP/GCcLU4w8hHvsTNgOa2kq9UVMOBrj2ZhVtDM6fu82XfilUa9HB/SXrEqA==";
+        };
+        _1q8LeYr2 = {
+            "id" = "1q8LeYr2";
+            "file" = "lighterend-1.0.8-5-f82814af-1.21.8.jar";
+            "hash" = "sha512-YuC5XjQL3uzWWOYbpHJ98f0/YOUWjFarVOYnAe7eTb1BmB1f+cjFzXQ1xY2TL2z5FNnhlyqPxGVX7ebcWGkt8A==";
+        };
+        _6y9T4fLF = {
+            "id" = "6y9T4fLF";
+            "file" = "lighterend-1.0.8-7-b1a17ca1-1.21.5.jar";
+            "hash" = "sha512-N8mhr0UzjA+8/zhAEXzgBQGO+Hm4Tmgi4fJIwK5Z76M8CaBAguQ86Y/oehFaMMUG4yytbBebG90bORX53a/Oxg==";
+        };
     in {
         "jOKDUPrr" = _jOKDUPrr;
         "Hkc6j31z" = _Hkc6j31z;
@@ -140,20 +180,28 @@ let
         "nFBniy7B" = _nFBniy7B;
         "RXpvLONG" = _RXpvLONG;
         "yJFgJiTf" = _yJFgJiTf;
-        "fabric-1.21.9" = _SjOuUxPo;
-        "fabric-1.21.10" = _SjOuUxPo;
-        "fabric-1.21.6" = _oaH7WQYc;
-        "fabric-1.21.7" = _oaH7WQYc;
-        "fabric-1.21.8" = _oaH7WQYc;
-        "fabric-1.21.5" = _pa9qQQbR;
-        "fabric-1.21.11" = _esp9nx1F;
-        "fabric-26.1" = _BAoDxneB;
-        "fabric-26.1.1" = _BAoDxneB;
-        "fabric-26.1.2" = _BAoDxneB;
-        "fabric-26.2" = _nFBniy7B;
+        "nOpLcXY4" = _nOpLcXY4;
+        "C1LojH4L" = _C1LojH4L;
+        "vjplDKKh" = _vjplDKKh;
+        "b9TkQI8b" = _b9TkQI8b;
+        "f8E3Ty7N" = _f8E3Ty7N;
+        "rSbeJedH" = _rSbeJedH;
+        "1q8LeYr2" = _1q8LeYr2;
+        "6y9T4fLF" = _6y9T4fLF;
+        "fabric-1.21.9" = _rSbeJedH;
+        "fabric-1.21.10" = _rSbeJedH;
+        "fabric-1.21.6" = _1q8LeYr2;
+        "fabric-1.21.7" = _1q8LeYr2;
+        "fabric-1.21.8" = _1q8LeYr2;
+        "fabric-1.21.5" = _6y9T4fLF;
+        "fabric-1.21.11" = _f8E3Ty7N;
+        "fabric-26.1" = _b9TkQI8b;
+        "fabric-26.1.1" = _b9TkQI8b;
+        "fabric-26.1.2" = _b9TkQI8b;
+        "fabric-26.2" = _vjplDKKh;
         "fabric-26.3-rc-2" = _yJFgJiTf;
         "fabric-26.3-rc-3" = _yJFgJiTf;
-        "fabric-26.3" = _yJFgJiTf;
+        "fabric-26.3" = _C1LojH4L;
         "pkg-1.0.0-0-1.21.9" = _jOKDUPrr;
         "pkg-1.0.0-1-1de1d2e3-1.21.8" = _Hkc6j31z;
         "pkg-1.0.0-2-c0450dc9-1.21.5" = _Cw6XdQgp;
@@ -177,7 +225,15 @@ let
         "pkg-1.0.7-0-26.2" = _nFBniy7B;
         "pkg-1.0.7-23-8bb36e88-26.3" = _RXpvLONG;
         "pkg-1.0.7-24-5c662cb9-26.3" = _yJFgJiTf;
-        "default" = _yJFgJiTf;
+        "pkg-1.0.7-25-995b25a0-26.3" = _nOpLcXY4;
+        "pkg-1.0.8-0-26.3" = _C1LojH4L;
+        "pkg-1.0.8-1-94c55ce1-26.2" = _vjplDKKh;
+        "pkg-1.0.8-2-5d069bff-26.1" = _b9TkQI8b;
+        "pkg-1.0.8-3-179cbf98-1.21.11" = _f8E3Ty7N;
+        "pkg-1.0.8-4-744a7103-1.21.9" = _rSbeJedH;
+        "pkg-1.0.8-5-f82814af-1.21.8" = _1q8LeYr2;
+        "pkg-1.0.8-7-b1a17ca1-1.21.5" = _6y9T4fLF;
+        "default" = _6y9T4fLF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "lighterend";

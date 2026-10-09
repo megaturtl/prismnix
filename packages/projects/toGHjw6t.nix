@@ -166,15 +166,20 @@ let
             "file" = "Mekanism-Community-Edition-1.7.10-9.10.48-ALL.jar";
             "hash" = "sha512-zE34q6rKRGPtYOrITPZ2gcYI92noI/BlQ4gEH7wbanUHi0NFyvtDHYMkhehZE6kuoPy0S0PI9+CTHFU0upDqZA==";
         };
-        _Y5YVSkRB = {
-            "id" = "Y5YVSkRB";
-            "file" = "Mekanism-Community-Edition-1.7.10-9.10.49-Core.jar";
-            "hash" = "sha512-dth/+UnJV7RB9IGAN07Wdj6txfv6mDL6bcY7kN7I4T9K0NctHHs1m3fpEsFJDJ9WktfRYuAqBnO9T9ingzfmQw==";
+        _tPQbQY4g = {
+            "id" = "tPQbQY4g";
+            "file" = "Mekanism-Community-Edition-1.7.10-9.10.51-Core.jar";
+            "hash" = "sha512-TeyyXhwu8rMYB3+YE0JRODGrOM5QIDpaW9FaNUzeeo7XzlyD2m4kVrUtvXsPB3BFD4u4weG8cxijvfD/aZcTHQ==";
         };
-        _XE4riq3u = {
-            "id" = "XE4riq3u";
-            "file" = "Mekanism-Community-Edition-1.7.10-9.10.50-Core.jar";
-            "hash" = "sha512-eucnhilrXRPQZYZf9fIGveqfY/TTXQgz7la/n/Npm0b+OHGdb6vfgj4sWhGxUOUA2kgZOIvE1QXJZveooYOz6Q==";
+        _PBtkJbap = {
+            "id" = "PBtkJbap";
+            "file" = "Mekanism-Community-Edition-1.12.2-9.12.15-Core.jar";
+            "hash" = "sha512-QOzA1Ree0k34VlmY8av8SvOTjwh34wAMyPwx4M9NmYM8UPqbg4JLzL0kW0GHJGf6yz13Sl1RV7skawTklzA3Dw==";
+        };
+        _SuVfm9yx = {
+            "id" = "SuVfm9yx";
+            "file" = "Mekanism-Community-Edition-1.12.2-9.12.16-Core.jar";
+            "hash" = "sha512-/M+l/18FeboRhNX7cSjvpTolKK6MoPM19VVts1KvG2CzdDlONpovXHhgA/XbBb8YspWIHaB4MLN26d/rNWJwVg==";
         };
     in {
         "NcB3Kbmx" = _NcB3Kbmx;
@@ -210,10 +215,11 @@ let
         "nMQM07sC" = _nMQM07sC;
         "AfW7hGju" = _AfW7hGju;
         "kCTKoKS2" = _kCTKoKS2;
-        "Y5YVSkRB" = _Y5YVSkRB;
-        "XE4riq3u" = _XE4riq3u;
-        "forge-1.7.10" = _XE4riq3u;
-        "forge-1.12.2" = _AfW7hGju;
+        "tPQbQY4g" = _tPQbQY4g;
+        "PBtkJbap" = _PBtkJbap;
+        "SuVfm9yx" = _SuVfm9yx;
+        "forge-1.7.10" = _tPQbQY4g;
+        "forge-1.12.2" = _SuVfm9yx;
         "pkg-9.10.12" = _NcB3Kbmx;
         "pkg-9.10.13" = _VASWtEY4;
         "pkg-9.10.14" = _13qfmMMq;
@@ -247,9 +253,10 @@ let
         "pkg-9.10.46" = _nMQM07sC;
         "pkg-9.12.12" = _AfW7hGju;
         "pkg-9.10.48" = _kCTKoKS2;
-        "pkg-9.10.49" = _Y5YVSkRB;
-        "pkg-9.10.50" = _XE4riq3u;
-        "default" = _XE4riq3u;
+        "pkg-9.10.51" = _tPQbQY4g;
+        "pkg-9.12.15" = _PBtkJbap;
+        "pkg-9.12.16" = _SuVfm9yx;
+        "default" = _SuVfm9yx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mekanism-community-edition";

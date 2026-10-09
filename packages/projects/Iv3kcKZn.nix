@@ -321,6 +321,26 @@ let
             "file" = "CombatNouveau-v26.2.0-mc26.2.x-Fabric.jar";
             "hash" = "sha512-Ln6FpxxPSUQpg8wAihwvdQAjeG6qgkoTsVbuIz/arKJWUmN8+y7Fq7YUy6U/vqFTf0/b5VVsou2EIEPmI5cBWQ==";
         };
+        _MtwRYv8m = {
+            "id" = "MtwRYv8m";
+            "file" = "combatnouveau-v26.2.1-mc26.2.x+neoforge.jar";
+            "hash" = "sha512-IEioJWSrKwUME/JsHjwke0uSFeWvzOjhJaG+iWqF3sz9fmG6Rw3lc2votzqchZ/Fm3hn+iWYAL32BPR4ojJgJg==";
+        };
+        _BiEaG0l7 = {
+            "id" = "BiEaG0l7";
+            "file" = "combatnouveau-v26.2.1-mc26.2.x+fabric.jar";
+            "hash" = "sha512-plBs60K/RgbhXEcuCeZNfWomiuRv+LLB5gz+nVMjULW0iTHFtP6yuTTrkt7I0TD4R/kitIAWjQrewFFxUzgb0A==";
+        };
+        _uHq91lmH = {
+            "id" = "uHq91lmH";
+            "file" = "combatnouveau-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-1SkJjPDRgWI566ziBGrg1paai4ul1LJGo5cc1Ro3y7L2ouBWL2PdNQpKSUL0S1VQ4b2gyaTWALcEObLdiF23og==";
+        };
+        _UGExk5oM = {
+            "id" = "UGExk5oM";
+            "file" = "combatnouveau-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-W949S3LryQSEUorgcqDHDHT6yohwBzRBaHAlLhSGNa9Mst0GwiVMxgBCPvGQnDBCbm0JAZcqzJIdkK9CRrfTgw==";
+        };
     in {
         "zXa4O4F9" = _zXa4O4F9;
         "g4RC4XjA" = _g4RC4XjA;
@@ -386,6 +406,10 @@ let
         "aPb3IdRS" = _aPb3IdRS;
         "OXTTfiso" = _OXTTfiso;
         "5pAlHjGF" = _5pAlHjGF;
+        "MtwRYv8m" = _MtwRYv8m;
+        "BiEaG0l7" = _BiEaG0l7;
+        "uHq91lmH" = _uHq91lmH;
+        "UGExk5oM" = _UGExk5oM;
         "forge-1.20.1" = _rB3qvqaE;
         "forge-1.18.2" = _LmVlhKrr;
         "forge-1.20.4" = _5trhTPe8;
@@ -404,7 +428,8 @@ let
         "fabric-26.1" = _aPb3IdRS;
         "fabric-26.1.1" = _aPb3IdRS;
         "fabric-26.1.2" = _aPb3IdRS;
-        "fabric-26.2" = _5pAlHjGF;
+        "fabric-26.2" = _BiEaG0l7;
+        "fabric-26.3" = _uHq91lmH;
         "neoforge-1.20.4" = _5Kqlocdp;
         "neoforge-1.21.1" = _us081FGF;
         "neoforge-1.21.3" = _WCMaw7th;
@@ -418,7 +443,8 @@ let
         "neoforge-26.1" = _uZO74TET;
         "neoforge-26.1.1" = _uZO74TET;
         "neoforge-26.1.2" = _uZO74TET;
-        "neoforge-26.2" = _OXTTfiso;
+        "neoforge-26.2" = _MtwRYv8m;
+        "neoforge-26.3" = _UGExk5oM;
         "pkg-v8.0.1-1.20.1-Forge" = _zXa4O4F9;
         "pkg-v8.0.1-1.20.1-Fabric" = _g4RC4XjA;
         "pkg-v3.0.1-1.18.2-Forge" = _SMJ1cL5O;
@@ -477,7 +503,9 @@ let
         "pkg-v21.1.2-1.21.1-NeoForge" = _us081FGF;
         "pkg-26.1.0" = _aPb3IdRS;
         "pkg-26.2.0" = _5pAlHjGF;
-        "default" = _5pAlHjGF;
+        "pkg-26.2.1" = _BiEaG0l7;
+        "pkg-26.3.0" = _UGExk5oM;
+        "default" = _UGExk5oM;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "combat-nouveau";

@@ -96,6 +96,16 @@ let
             "file" = "nightosphere-3.2.jar";
             "hash" = "sha512-Kymw8pgG0MSMNcKRB3frQ0F4Pb2jHtvmNx/VdiD3t+bYgHoGfCIzSGHAQz62ZSwWC1Fb4sGOY00VcePlesaxKA==";
         };
+        _PkHkF58d = {
+            "id" = "PkHkF58d";
+            "file" = "Nightosphere 3.3.zip";
+            "hash" = "sha512-CJhhaWaAHnjOTVurzwgFqMntG3BxM8F8ELURqE0Bl9XgGdoy3dDQ8KlZAa8GWk8yEuNXjX9Lw+2zKr63HO1/bg==";
+        };
+        _1Owq72DI = {
+            "id" = "1Owq72DI";
+            "file" = "nightosphere-3.3.jar";
+            "hash" = "sha512-SA0RDx8hLjhb2oOOift5UQwLEisXrw5Il1p4G3TcNtM5/2qFc5ZZJw2i4nrGg12NHIOoMSu9xxd0XR50Mv5pmw==";
+        };
     in {
         "ODXnJZtu" = _ODXnJZtu;
         "V6MUX17V" = _V6MUX17V;
@@ -116,6 +126,8 @@ let
         "NzTmlXD5" = _NzTmlXD5;
         "bD7CdMW7" = _bD7CdMW7;
         "WaSVhi4e" = _WaSVhi4e;
+        "PkHkF58d" = _PkHkF58d;
+        "1Owq72DI" = _1Owq72DI;
         "datapack-1.20.5" = _bD7CdMW7;
         "datapack-1.20.6" = _bD7CdMW7;
         "datapack-1.20.6-rc1" = _Eg9nfKkB;
@@ -200,6 +212,7 @@ let
         "datapack-24w45a" = _bD7CdMW7;
         "datapack-24w46a" = _bD7CdMW7;
         "datapack-26.1" = _bD7CdMW7;
+        "datapack-26.3" = _PkHkF58d;
         "fabric-1.20.5" = _WaSVhi4e;
         "fabric-1.20.6" = _WaSVhi4e;
         "fabric-1.20.6-rc1" = _qsHrUwVn;
@@ -284,6 +297,7 @@ let
         "fabric-24w45a" = _WaSVhi4e;
         "fabric-24w46a" = _WaSVhi4e;
         "fabric-26.1" = _WaSVhi4e;
+        "fabric-26.3" = _1Owq72DI;
         "forge-1.20.5" = _WaSVhi4e;
         "forge-1.20.6" = _WaSVhi4e;
         "forge-1.20.6-rc1" = _qsHrUwVn;
@@ -368,6 +382,7 @@ let
         "forge-24w45a" = _WaSVhi4e;
         "forge-24w46a" = _WaSVhi4e;
         "forge-26.1" = _WaSVhi4e;
+        "forge-26.3" = _1Owq72DI;
         "quilt-1.20.5" = _WaSVhi4e;
         "quilt-1.20.6" = _WaSVhi4e;
         "quilt-1.20.6-rc1" = _qsHrUwVn;
@@ -452,6 +467,7 @@ let
         "quilt-24w45a" = _WaSVhi4e;
         "quilt-24w46a" = _WaSVhi4e;
         "quilt-26.1" = _WaSVhi4e;
+        "quilt-26.3" = _1Owq72DI;
         "neoforge-1.20" = _P7CJtZgu;
         "neoforge-1.20.1" = _P7CJtZgu;
         "neoforge-1.20.2" = _WaSVhi4e;
@@ -535,6 +551,7 @@ let
         "neoforge-24w45a" = _WaSVhi4e;
         "neoforge-24w46a" = _WaSVhi4e;
         "neoforge-26.1" = _WaSVhi4e;
+        "neoforge-26.3" = _1Owq72DI;
         "pkg-1.0" = _ODXnJZtu;
         "pkg-1.0+mod" = _V6MUX17V;
         "pkg-1.1" = _Eg9nfKkB;
@@ -553,7 +570,9 @@ let
         "pkg-3.1+mod" = _NzTmlXD5;
         "pkg-3.2" = _bD7CdMW7;
         "pkg-3.2+mod" = _WaSVhi4e;
-        "default" = _WaSVhi4e;
+        "pkg-3.3" = _PkHkF58d;
+        "pkg-3.3+mod" = _1Owq72DI;
+        "default" = _1Owq72DI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "nightosphere";

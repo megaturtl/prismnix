@@ -16,15 +16,29 @@ let
             "file" = "simplified_ai_logic-fabric-2.0.jar";
             "hash" = "sha512-0Tn5FlXLL82Kmzp4ZSDoi0ZNfL68Yp6X93gQpEypmpyLhE5ugBtTG9dw5lI9AXspVJy+iqCEgEhmx6sGYkwreA==";
         };
+        _M9WavSAd = {
+            "id" = "M9WavSAd";
+            "file" = "simplified_ai_logic-neoforge-2.0.jar";
+            "hash" = "sha512-s/AU43jnT4M/uk6UbNAEmy+cMOwWi9qJxAdCwUjttsoznIlhWkcLm36C3COekIc5lWXZz/YDitqw3B5gDFC9+A==";
+        };
+        _ON8VOpZU = {
+            "id" = "ON8VOpZU";
+            "file" = "simplified_ai_logic-fabric-2.0.jar";
+            "hash" = "sha512-RCsyHkR4d/cikL7lkri5Kf1JMebGjja14Gnv1b79o1WRcJFd5RYrihrtI+PJPJS5p/ZLtC9D3yNitLfyeOcZfw==";
+        };
     in {
         "m33h827u" = _m33h827u;
         "Aytz5EJ2" = _Aytz5EJ2;
         "MJXbxJ3G" = _MJXbxJ3G;
+        "M9WavSAd" = _M9WavSAd;
+        "ON8VOpZU" = _ON8VOpZU;
         "forge-1.20.1" = _Aytz5EJ2;
         "fabric-1.20.1" = _MJXbxJ3G;
+        "fabric-1.21.1" = _ON8VOpZU;
+        "neoforge-1.21.1" = _M9WavSAd;
         "pkg-1.0" = _m33h827u;
-        "pkg-2.0" = _MJXbxJ3G;
-        "default" = _MJXbxJ3G;
+        "pkg-2.0" = _ON8VOpZU;
+        "default" = _ON8VOpZU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "simplified-ai-logic";

@@ -186,6 +186,11 @@ let
             "file" = "Authenticate-26.2-1.1.1.jar";
             "hash" = "sha512-jqKkKwhZ917oPnoCH8YF7no6s5mlCMGATNgBU2J+y56JALxyGmV8obGmgOVpk/CFTfwPsfHpiXepxISZFwCCbQ==";
         };
+        _5kHoDxqe = {
+            "id" = "5kHoDxqe";
+            "file" = "Authenticate-26.3-1.1.1.jar";
+            "hash" = "sha512-q+OaCn9Mg8IKajw7U7OzKTEhLuj3GofXQ9OpN0V8xI6csGSF3P91lqIl2HIH7XVuH4h3Wus5vkBsf370GAiLnw==";
+        };
     in {
         "3gCFS0YW" = _3gCFS0YW;
         "sheXziDL" = _sheXziDL;
@@ -224,6 +229,7 @@ let
         "meWBpL45" = _meWBpL45;
         "oEDZX4mv" = _oEDZX4mv;
         "UjZMSAyq" = _UjZMSAyq;
+        "5kHoDxqe" = _5kHoDxqe;
         "fabric-1.11.2" = _sIddWdUr;
         "fabric-1.12.2" = _JMIn4yEn;
         "fabric-1.16.5" = _A669PldQ;
@@ -246,6 +252,7 @@ let
         "fabric-26.1-pre-2" = _meWBpL45;
         "fabric-26.1" = _oEDZX4mv;
         "fabric-26.2" = _UjZMSAyq;
+        "fabric-26.3" = _5kHoDxqe;
         "pkg-1.11.2-1.0.0" = _3gCFS0YW;
         "pkg-1.12.2-1.0.0" = _sheXziDL;
         "pkg-1.16.5-1.0.0" = _CztaJeAp;
@@ -282,7 +289,8 @@ let
         "pkg-26.1-pre-2-1.1.1" = _meWBpL45;
         "pkg-26.1-1.1.1" = _oEDZX4mv;
         "pkg-26.2-1.1.1" = _UjZMSAyq;
-        "default" = _UjZMSAyq;
+        "pkg-26.3-1.1.1" = _5kHoDxqe;
+        "default" = _5kHoDxqe;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "authenticate";

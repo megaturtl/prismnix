@@ -51,6 +51,11 @@ let
             "file" = "§6Helpful PvP Pack.zip";
             "hash" = "sha512-m1p1y/+Xu2ot7xqxQslVPSEASgGzsPgjsy9v4jhuEuLdrOywq5khl+airtuyMY7zg5DpoCooTM7Srt8M2E7bvQ==";
         };
+        _Aat6i1fx = {
+            "id" = "Aat6i1fx";
+            "file" = "§6Helpful PvP Pack.zip";
+            "hash" = "sha512-ZtJ5ZpzHG6GKt6gmKLRyZewZQ9KQKk1VU2k1g9qRmw6+84oUI3I7vC0HJPSrVHoHwL71b23pvlKDsODoo7wchw==";
+        };
     in {
         "Ci2VLeF4" = _Ci2VLeF4;
         "QtMM809T" = _QtMM809T;
@@ -62,6 +67,7 @@ let
         "bvp8IBft" = _bvp8IBft;
         "CuOQC30T" = _CuOQC30T;
         "XFHX77j9" = _XFHX77j9;
+        "Aat6i1fx" = _Aat6i1fx;
         "minecraft-1.21" = _mnWM1TqS;
         "minecraft-1.21.1" = _mnWM1TqS;
         "minecraft-1.21.2" = _mnWM1TqS;
@@ -71,12 +77,13 @@ let
         "minecraft-1.21.6" = _mnWM1TqS;
         "minecraft-1.21.7" = _mnWM1TqS;
         "minecraft-1.21.8" = _mnWM1TqS;
-        "minecraft-1.21.10" = _XFHX77j9;
-        "minecraft-1.21.11" = _XFHX77j9;
-        "minecraft-26.1" = _XFHX77j9;
-        "minecraft-26.1.1" = _XFHX77j9;
-        "minecraft-26.1.2" = _XFHX77j9;
-        "minecraft-26.2" = _XFHX77j9;
+        "minecraft-1.21.10" = _Aat6i1fx;
+        "minecraft-1.21.11" = _Aat6i1fx;
+        "minecraft-26.1" = _Aat6i1fx;
+        "minecraft-26.1.1" = _Aat6i1fx;
+        "minecraft-26.1.2" = _Aat6i1fx;
+        "minecraft-26.2" = _Aat6i1fx;
+        "minecraft-26.3" = _Aat6i1fx;
         "pkg-1.0" = _Ci2VLeF4;
         "pkg-1.1" = _QtMM809T;
         "pkg-1.2" = _KoLSnDMs;
@@ -87,7 +94,8 @@ let
         "pkg-3.0" = _bvp8IBft;
         "pkg-3.1" = _CuOQC30T;
         "pkg-3.2" = _XFHX77j9;
-        "default" = _XFHX77j9;
+        "pkg-3.3" = _Aat6i1fx;
+        "default" = _Aat6i1fx;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "helpful-pvp-pack";

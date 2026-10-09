@@ -726,6 +726,21 @@ let
             "file" = "toneko-fabric-2.0.0.jar";
             "hash" = "sha512-SYBe1k3xAMaQ/SyeydqnLEeEXZy1jBxd+9Szpz36GsdNnF/MLm7YfZmogo2j/XV6qNMA7B7DSrtklmA+UCR4PA==";
         };
+        _FKINpDB1 = {
+            "id" = "FKINpDB1";
+            "file" = "toneko-fabric-2.0.1.jar";
+            "hash" = "sha512-RwqHt2vrdZus463Faf1Ntv/dIf+iJxmx7SfLm8HdLzuS3utVGNiFuVwxR4fcJ3j5RvBQTZpf9ufJE2yBucZI+w==";
+        };
+        _XBWtiQgS = {
+            "id" = "XBWtiQgS";
+            "file" = "toneko-fabric-2.0.2.jar";
+            "hash" = "sha512-eKAQx95EQGZAFww8LyE/ZxXBgjE6uCjWwKtnQsF+UmqldOp72FW5HtdK0s0VWQ4tKBvguBVeIbod6Q8JJHGjZA==";
+        };
+        _ejeJI9hK = {
+            "id" = "ejeJI9hK";
+            "file" = "toneko-neoforge-2.0.2.jar";
+            "hash" = "sha512-zpDQphh5GwA5DGEmZnYtCPHPTY+WJzieKgmtkBIUAnSoADgpI4HpP1Jnizr0THCvESPIleQwCrZni+d1PKxZaQ==";
+        };
     in {
         "xzOOs7mS" = _xzOOs7mS;
         "TZcSEzFZ" = _TZcSEzFZ;
@@ -872,6 +887,9 @@ let
         "QNyuLzq3" = _QNyuLzq3;
         "BP2dF6m5" = _BP2dF6m5;
         "9yoPjhuO" = _9yoPjhuO;
+        "FKINpDB1" = _FKINpDB1;
+        "XBWtiQgS" = _XBWtiQgS;
+        "ejeJI9hK" = _ejeJI9hK;
         "fabric-1.19.2" = _LQ0SsQpV;
         "fabric-1.19.3" = _LQ0SsQpV;
         "fabric-1.19.4" = _LQ0SsQpV;
@@ -887,7 +905,7 @@ let
         "fabric-1.20.6" = _GVFlifLp;
         "fabric-1.21.1" = _BP2dF6m5;
         "fabric-1.21.4" = _m66fKgnP;
-        "fabric-26.1.2" = _9yoPjhuO;
+        "fabric-26.1.2" = _XBWtiQgS;
         "quilt-1.19.2" = _LQ0SsQpV;
         "quilt-1.19.3" = _LQ0SsQpV;
         "quilt-1.19.4" = _LQ0SsQpV;
@@ -902,6 +920,7 @@ let
         "quilt-1.21.1" = _NqOLVGFZ;
         "neoforge-1.21" = _ytAtEo73;
         "neoforge-1.21.1" = _QNyuLzq3;
+        "neoforge-26.1.2" = _ejeJI9hK;
         "pkg-0.1.7" = _xzOOs7mS;
         "pkg-0.1.8" = _TZcSEzFZ;
         "pkg-0.2.0" = _g3xwxBN7;
@@ -1005,7 +1024,9 @@ let
         "pkg-1.9.6" = _GJsHRjNu;
         "pkg-1.9.7" = _BP2dF6m5;
         "pkg-2.0.0" = _9yoPjhuO;
-        "default" = _9yoPjhuO;
+        "pkg-2.0.1" = _FKINpDB1;
+        "pkg-2.0.2" = _ejeJI9hK;
+        "default" = _ejeJI9hK;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tonekomod";

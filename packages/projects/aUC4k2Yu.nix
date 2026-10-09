@@ -51,15 +51,25 @@ let
             "file" = "split-self-0.5.02-alpha.jar";
             "hash" = "sha512-FIIOpP2L0mHispHewJjslleWDkQ9TsXaCixx3Y8fFPWJJu26lKnsfpan0orDDDfK5etjYj2afNcV2RbLM2IM8A==";
         };
-        _bXlKPW38 = {
-            "id" = "bXlKPW38";
-            "file" = "split-self-1.0.0-SAFE.jar";
-            "hash" = "sha512-gV7QcRQqL5j5vRrDCEH3E0du2GJfbpJdcZWIoof/ndpRgeC1xsriY1Y10jmB1ul1EOIAKic0WaWewRoIy0e/Xw==";
+        _2OfLspRD = {
+            "id" = "2OfLspRD";
+            "file" = "split-self-1.0.1-SAFE.jar";
+            "hash" = "sha512-wblfwYxzmFH0V/BLD25cgLCD1Jhx+u0tL/gQebfV1CKG5fTu0ZPjf/sIaBtJGNvQhKilSij+7QgT+XcJogjIRw==";
         };
-        _kutJZh7T = {
-            "id" = "kutJZh7T";
-            "file" = "split-self-1.0.0.jar";
-            "hash" = "sha512-3fGoMb1DsXSDdrjnVoXFJQMEA5tyvZLePt9jRhjnyxYkzD2BXIQ36iZEXZXaha3dUKd+nb1ayibjfu74t+9CgA==";
+        _IIohjasI = {
+            "id" = "IIohjasI";
+            "file" = "split-self-1.0.1-UNSAFE.jar";
+            "hash" = "sha512-8oGxfU/Ak/h0cPHpA59jR1lcWlfEORVhxtuurgE5yIGoSqJ1ZV5PzYBOTB/yySAcohmPVWedkCBzdW6MTjzpcg==";
+        };
+        _F45xRUeq = {
+            "id" = "F45xRUeq";
+            "file" = "split-self-1.0.2-SAFE.jar";
+            "hash" = "sha512-Xsqul3Ws8A41Gj2SWn9ylBaOO4C8Q9c17wQi2QUf/SqrE7Zn63K6TiZ/gcR5EgeuMnMuksr1tdiHXd/PXe48Zw==";
+        };
+        _rq0pCfTO = {
+            "id" = "rq0pCfTO";
+            "file" = "split-self-1.0.2-UNSAFE.jar";
+            "hash" = "sha512-0LxEyVcS7/MotP2P/x2jTVecJk2tLAzMdbiUXYpDVKxZC2T6dbdE6eeDrCbaygNtr7WhC+Y5k+FhzGNgfMRVqw==";
         };
     in {
         "iNca5b1a" = _iNca5b1a;
@@ -72,9 +82,11 @@ let
         "Cz1KPBPN" = _Cz1KPBPN;
         "5X5UN1sV" = _5X5UN1sV;
         "BavB5HPN" = _BavB5HPN;
-        "bXlKPW38" = _bXlKPW38;
-        "kutJZh7T" = _kutJZh7T;
-        "fabric-1.21.1" = _kutJZh7T;
+        "2OfLspRD" = _2OfLspRD;
+        "IIohjasI" = _IIohjasI;
+        "F45xRUeq" = _F45xRUeq;
+        "rq0pCfTO" = _rq0pCfTO;
+        "fabric-1.21.1" = _rq0pCfTO;
         "pkg-0.0.2-alpha" = _iNca5b1a;
         "pkg-0.1.0-alpha" = _dFVafClb;
         "pkg-0.1.01-alpha" = _fbzmnJFW;
@@ -85,9 +97,11 @@ let
         "pkg-0.5.0-alpha" = _Cz1KPBPN;
         "pkg-0.5.01-alpha" = _5X5UN1sV;
         "pkg-0.5.02-alpha" = _BavB5HPN;
-        "pkg-1.0.0-SAFE" = _bXlKPW38;
-        "pkg-1.0.0-UNSAFE" = _kutJZh7T;
-        "default" = _kutJZh7T;
+        "pkg-1.0.1-SAFE" = _2OfLspRD;
+        "pkg-1.0.1-UNSAFE" = _IIohjasI;
+        "pkg-1.0.2-SAFE" = _F45xRUeq;
+        "pkg-1.0.2-UNSAFE" = _rq0pCfTO;
+        "default" = _rq0pCfTO;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "split-self";

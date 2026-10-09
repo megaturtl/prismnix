@@ -106,6 +106,26 @@ let
             "file" = "Xeno-0.1.7+mc26.3(alpha-neoforge).jar";
             "hash" = "sha512-OVse2Erg/xBlaEfmT542uoylBvQe/Ku6kbeRfULB7HVun57FT0Jmmv8OOjfjN6zgKs65yF92IUbW5LqboKaSFw==";
         };
+        _pNHhbLBr = {
+            "id" = "pNHhbLBr";
+            "file" = "Xeno-0.1.8+mc26.3(alpha-fabric).jar";
+            "hash" = "sha512-m2N4jWsFAw/bvFqBeM1ns84gry23RttOvJ7LwjoPRDpoq9/F3Qa9MCMvK6MjQEqB5a08CQhX5BeUjtL9qSsxAw==";
+        };
+        _torGef9b = {
+            "id" = "torGef9b";
+            "file" = "Xeno-0.1.8+mc26.3(alpha-neoforge).jar";
+            "hash" = "sha512-q9LJOfODGP809fmJai2Q1NFO5UAwSSGOGWO2BAfRrqtnXcKAB7ML7p8M/Q89xifmQWKcDi2aBHjjJgPanoHg8w==";
+        };
+        _PmXIX0VW = {
+            "id" = "PmXIX0VW";
+            "file" = "Xeno-0.1.9+mc26.3(alpha-neoforge).jar";
+            "hash" = "sha512-0Dj7Vwm6YBwzCbXJhxhQDlyhJd7gU0im3R/wGbZVYt/C9tWDcNCNQrObvQlvlTaFgBTgOilzsYC4nMhzenFUfQ==";
+        };
+        _1SjTSb7A = {
+            "id" = "1SjTSb7A";
+            "file" = "Xeno-0.1.9+mc26.3(alpha-fabric).jar";
+            "hash" = "sha512-zJXMfID0Gnt5EL/97L1Cf/d/Iu5d6yxM+fxXw7t/ev5VXsLesTcVCMQhCvEBhNp6rhhetabW0toV4WMNsaQ4+Q==";
+        };
     in {
         "qhXBXczg" = _qhXBXczg;
         "iBpPMhGD" = _iBpPMhGD;
@@ -128,10 +148,14 @@ let
         "dhgBrQUa" = _dhgBrQUa;
         "hb4KZWRB" = _hb4KZWRB;
         "B1FfK2aG" = _B1FfK2aG;
+        "pNHhbLBr" = _pNHhbLBr;
+        "torGef9b" = _torGef9b;
+        "PmXIX0VW" = _PmXIX0VW;
+        "1SjTSb7A" = _1SjTSb7A;
         "fabric-26.2" = _MT82GTCA;
-        "fabric-26.3" = _hb4KZWRB;
+        "fabric-26.3" = _1SjTSb7A;
         "neoforge-26.2" = _dhgBrQUa;
-        "neoforge-26.3" = _B1FfK2aG;
+        "neoforge-26.3" = _PmXIX0VW;
         "pkg-2.4.0" = _qhXBXczg;
         "pkg-2.5.0" = _iBpPMhGD;
         "pkg-2.6.0" = _ShJmdtX2;
@@ -148,7 +172,9 @@ let
         "pkg-0.1.5" = _mMyo6mTp;
         "pkg-0.1.6" = _dhgBrQUa;
         "pkg-0.1.7" = _B1FfK2aG;
-        "default" = _B1FfK2aG;
+        "pkg-0.1.8" = _torGef9b;
+        "pkg-0.1.9" = _1SjTSb7A;
+        "default" = _1SjTSb7A;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "xeno";

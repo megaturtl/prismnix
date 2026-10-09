@@ -61,6 +61,16 @@ let
             "file" = "chikas_plants_mod-v1.0.0-1.21.1.jar";
             "hash" = "sha512-g66AGCRifoz1b8Jh/anJNA2qvNJlsEXd6aUWeXHHW1jxdyZBVNAfUdzKKkWNNAW7lp8OYX9s7fzLrWRxbkHkug==";
         };
+        _XY3d96wF = {
+            "id" = "XY3d96wF";
+            "file" = "chikas_plants_mod-v1.1.2-Forge-1.20.1.jar";
+            "hash" = "sha512-cwCw2Y6hJY4X6VVr0Wxa0JzTCF3yBOwlXCVTD0q8je8Zit/fjtuBu+HuGSIze937aLmXi8gd/S+S0vikqkbiNg==";
+        };
+        _qyQ60xi6 = {
+            "id" = "qyQ60xi6";
+            "file" = "chikas_plants_mod-v1.0.1-1.21.1.jar";
+            "hash" = "sha512-G4Kx3RnI3sm4W6BJwBk0WTROttf+L6dX3N4JqEbtsdKrm7EPoL6FCc6Evx6c0TESRiWnCc5rNCD6YuqPbrdjyw==";
+        };
     in {
         "VVdJmZNZ" = _VVdJmZNZ;
         "RkcJogJV" = _RkcJogJV;
@@ -74,9 +84,11 @@ let
         "YkMvieOC" = _YkMvieOC;
         "jkvFk8g3" = _jkvFk8g3;
         "Cg24ogEO" = _Cg24ogEO;
+        "XY3d96wF" = _XY3d96wF;
+        "qyQ60xi6" = _qyQ60xi6;
         "forge-1.19.2" = _jkvFk8g3;
-        "forge-1.20.1" = _YkMvieOC;
-        "neoforge-1.21.1" = _Cg24ogEO;
+        "forge-1.20.1" = _XY3d96wF;
+        "neoforge-1.21.1" = _qyQ60xi6;
         "pkg-v0.9.0-1.19.2" = _VVdJmZNZ;
         "pkg-v0.9.1-1.19.2" = _RkcJogJV;
         "pkg-v0.9.2-1.19.2" = _XMrDuQLl;
@@ -89,7 +101,9 @@ let
         "pkg-v1.1.1-1.20.1" = _YkMvieOC;
         "pkg-v1.0.0-1.19.2" = _jkvFk8g3;
         "pkg-v1.0.0-1.21.1" = _Cg24ogEO;
-        "default" = _Cg24ogEO;
+        "pkg-v1.1.2-1.20.1" = _XY3d96wF;
+        "pkg-v1.0.1-1.21.1" = _qyQ60xi6;
+        "default" = _qyQ60xi6;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "chikas-plants-mod";

@@ -521,6 +521,21 @@ let
             "file" = "weaponmaster_ydm-fabric-26.2-4.4.4.jar";
             "hash" = "sha512-8C+1wLH1xZMliZhZrz3B9yITRNtxxpEDPt2Dc8UP9TPiF0fcaaDAl+Vfi31Y9sMpcUgQkUicqTKQ5MpFQOMUlQ==";
         };
+        _M0qt6sse = {
+            "id" = "M0qt6sse";
+            "file" = "weaponmaster_ydm-4.4.4-fabric.jar";
+            "hash" = "sha512-/SxRZ9BtUY76iHHZ3yQGvyn8Guq1DyAPdxj3R0ksqxBK5TUhc60Zs7aB3BRFPvD3zI04+/g8OP9fRNVXLvQQFw==";
+        };
+        _jWGNcdpC = {
+            "id" = "jWGNcdpC";
+            "file" = "weaponmaster_ydm-4.4.4-neoforge.jar";
+            "hash" = "sha512-UVC971jyIBnFTsS0ndeBnWPL99+04v2LziG2DvOFo6b0e2Q6H8x33FFPPeWtz7gNwRr0kg9Mu54uMv4ZF7OmeA==";
+        };
+        _7xNsankB = {
+            "id" = "7xNsankB";
+            "file" = "weaponmaster-forge-26.3-4.4.4.jar";
+            "hash" = "sha512-l2DqzVcL2SVPo54UPvgMXeVTbWA/Wm+9XteHQFhmr3XIxRbXZo4RNIVuGWo747dA/OLOh7+p0NvAe7BcCWnO9A==";
+        };
     in {
         "f1TwLpZ0" = _f1TwLpZ0;
         "yAkeKNXi" = _yAkeKNXi;
@@ -626,6 +641,9 @@ let
         "N2eNltY1" = _N2eNltY1;
         "aHLbbow7" = _aHLbbow7;
         "eqYaSG8r" = _eqYaSG8r;
+        "M0qt6sse" = _M0qt6sse;
+        "jWGNcdpC" = _jWGNcdpC;
+        "7xNsankB" = _7xNsankB;
         "forge-1.18.1" = _tUWRmQNy;
         "forge-1.18.2" = _sRKyTEF3;
         "forge-1.17.1" = _P4l8whAs;
@@ -663,6 +681,7 @@ let
         "forge-26.1.1" = _vJ1z95RH;
         "forge-26.1.2" = _vJ1z95RH;
         "forge-26.2" = _N2eNltY1;
+        "forge-26.3" = _7xNsankB;
         "fabric-1.16.2" = _ZsWfTxvn;
         "fabric-1.16.3" = _ZsWfTxvn;
         "fabric-1.16.4" = _ZsWfTxvn;
@@ -691,6 +710,7 @@ let
         "fabric-26.1.1" = _QG0UqrtJ;
         "fabric-26.1.2" = _QG0UqrtJ;
         "fabric-26.2" = _eqYaSG8r;
+        "fabric-26.3" = _M0qt6sse;
         "neoforge-1.21" = _aTmIxqzV;
         "neoforge-1.21.1" = _j4CtkXVs;
         "neoforge-1.21.5" = _Ae4D30qK;
@@ -701,6 +721,7 @@ let
         "neoforge-26.1.1" = _v5ZWAD1C;
         "neoforge-26.1.2" = _v5ZWAD1C;
         "neoforge-26.2" = _aHLbbow7;
+        "neoforge-26.3" = _jWGNcdpC;
         "pkg-forge-1.18.x-m" = _f1TwLpZ0;
         "pkg-forge-1.17.1-m" = _yAkeKNXi;
         "pkg-forge-1.16-m" = _GNL5nXmp;
@@ -800,7 +821,10 @@ let
         "pkg-forge-26.2-4.4.4" = _N2eNltY1;
         "pkg-neoforge-26.2-4.4.4" = _aHLbbow7;
         "pkg-fabric-26.2-4.4.4" = _eqYaSG8r;
-        "default" = _eqYaSG8r;
+        "pkg-fabric-26.3-4.4.4" = _M0qt6sse;
+        "pkg-neoforge-26.3-4.4.4" = _jWGNcdpC;
+        "pkg-forge-26.3-4.4.4" = _7xNsankB;
+        "default" = _7xNsankB;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "weaponmaster";

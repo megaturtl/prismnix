@@ -291,6 +291,26 @@ let
             "file" = "HorseExpert-v26.2.1-mc26.2.x-Fabric.jar";
             "hash" = "sha512-PufJsweRxh4kwTUKRrJoVrWml7g+DNIWHxABx3714Zsqz1gWTj3NcSjSryT2UVlpBk7K7APGLVQcSGVIBv2g0g==";
         };
+        _eZQY07gO = {
+            "id" = "eZQY07gO";
+            "file" = "horseexpert-v26.3.0-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-ra1zTSAfMYte1YQxGOUzCeYXTlMYvC7KpqjHdp3qdo6nqgzY+M274xdSi/MvKtGfOTkWEwdspNLEcrvjRLZIqg==";
+        };
+        _lO3bL0FP = {
+            "id" = "lO3bL0FP";
+            "file" = "horseexpert-v26.3.0-mc26.3.x+fabric.jar";
+            "hash" = "sha512-eBIOYKOwuh+M2amHMy1fF3HrMnOBGi3higZiKmeK2Es5Yl4MA0u8Gqa08ESsB4rUA0Ufhu65Xs9inUK2tG5nEg==";
+        };
+        _2jPxIyXa = {
+            "id" = "2jPxIyXa";
+            "file" = "horseexpert-v26.3.1-mc26.3.x+neoforge.jar";
+            "hash" = "sha512-UIVr2XJrFFkmy6QyL7zaEh+sWdJ/bCD/0F3PzyEtRQ+fiTmebtXuG1mMPeS7f+pWnJPyltd/SfGo0GLdZX988A==";
+        };
+        _qUjLS9C5 = {
+            "id" = "qUjLS9C5";
+            "file" = "horseexpert-v26.3.1-mc26.3.x+fabric.jar";
+            "hash" = "sha512-eCKZWtD+eqTO6EsnMDLuOLH0oi135slY7Hgogftx0zHPyf/MmDmyqvWnT2zO68RqKg+ljSFWuL/5F+c0IWeQpg==";
+        };
     in {
         "1JZURTOT" = _1JZURTOT;
         "6LiAa02N" = _6LiAa02N;
@@ -350,6 +370,10 @@ let
         "2B0xpqk8" = _2B0xpqk8;
         "pFupkodT" = _pFupkodT;
         "u9La5hoN" = _u9La5hoN;
+        "eZQY07gO" = _eZQY07gO;
+        "lO3bL0FP" = _lO3bL0FP;
+        "2jPxIyXa" = _2jPxIyXa;
+        "qUjLS9C5" = _qUjLS9C5;
         "fabric-1.19.2" = _1JZURTOT;
         "fabric-1.19.3" = _5nNa2qVh;
         "fabric-1.19.4" = _38WzqOQU;
@@ -371,6 +395,7 @@ let
         "fabric-26.1.1" = _NWjNdNuL;
         "fabric-26.1.2" = _NWjNdNuL;
         "fabric-26.2" = _u9La5hoN;
+        "fabric-26.3" = _qUjLS9C5;
         "forge-1.19.2" = _6LiAa02N;
         "forge-1.19.3" = _nqETQaM5;
         "forge-1.19.4" = _N1MIWniU;
@@ -393,6 +418,7 @@ let
         "neoforge-26.1.1" = _AjAhERTC;
         "neoforge-26.1.2" = _AjAhERTC;
         "neoforge-26.2" = _pFupkodT;
+        "neoforge-26.3" = _2jPxIyXa;
         "pkg-v4.0.0-1.19.2-Fabric" = _1JZURTOT;
         "pkg-v4.0.0-1.19.2-Forge" = _6LiAa02N;
         "pkg-v5.0.0-1.19.3-Fabric" = _scHEAM8J;
@@ -443,7 +469,9 @@ let
         "pkg-26.1.2" = _NWjNdNuL;
         "pkg-26.2.0" = _2B0xpqk8;
         "pkg-26.2.1" = _u9La5hoN;
-        "default" = _u9La5hoN;
+        "pkg-26.3.0" = _lO3bL0FP;
+        "pkg-26.3.1" = _qUjLS9C5;
+        "default" = _qUjLS9C5;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "horse-expert";

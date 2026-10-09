@@ -56,6 +56,16 @@ let
             "file" = "Trim Patcher-2.1-mc26.2-fabric.jar";
             "hash" = "sha512-GYAoMlt08YEoaS6mc5AW4dTnPRvPrc3A8s+531NipPKJDTbIdRv9iM7K3+uaJaFfe79QMGkcIYxXY3TSgzgSfw==";
         };
+        _WyGnSVQW = {
+            "id" = "WyGnSVQW";
+            "file" = "TrimPatcher-2.1-mc26.3-fabric.jar";
+            "hash" = "sha512-iDhw8m4V4PoJBvJ/11Mj2molKauMQGagdAutcnZQpm94hXJfIp7DVXDPRxTKOQjZMoJ6+VgT1mv1jXQxeXhY9w==";
+        };
+        _bQHUxbO4 = {
+            "id" = "bQHUxbO4";
+            "file" = "TrimPatcher-2.1-mc26.3-neoforge.jar";
+            "hash" = "sha512-P789AUBUzgY/1Nmpek58prFIuwojrSO6LGcxb3p7icp8awlMCGoxA7MQgeiU7ltvCViLVNqS+B/aM9k55S8KTw==";
+        };
     in {
         "bc02sZ20" = _bc02sZ20;
         "9jqY0u8W" = _9jqY0u8W;
@@ -68,6 +78,8 @@ let
         "YgDcey9m" = _YgDcey9m;
         "yqUKyjqb" = _yqUKyjqb;
         "VwpMfwIb" = _VwpMfwIb;
+        "WyGnSVQW" = _WyGnSVQW;
+        "bQHUxbO4" = _bQHUxbO4;
         "fabric-1.21.9" = _bc02sZ20;
         "fabric-1.21.10" = _9jqY0u8W;
         "fabric-1.21.11" = _BtqdMGcn;
@@ -75,11 +87,14 @@ let
         "fabric-26.1.1" = _6k8bCbXF;
         "fabric-26.1.2" = _6k8bCbXF;
         "fabric-26.2" = _VwpMfwIb;
+        "fabric-26.3" = _WyGnSVQW;
         "quilt-26.1" = _VomTAKpn;
+        "quilt-26.3" = _WyGnSVQW;
         "neoforge-26.1" = _Dx6JqHzq;
         "neoforge-26.1.1" = _Dx6JqHzq;
         "neoforge-26.1.2" = _Dx6JqHzq;
         "neoforge-26.2" = _yqUKyjqb;
+        "neoforge-26.3" = _bQHUxbO4;
         "pkg-1.0-mc1.21.9" = _bc02sZ20;
         "pkg-1.0-mc1.21.10" = _9jqY0u8W;
         "pkg-1.0-mc1.21.11" = _BtqdMGcn;
@@ -91,7 +106,9 @@ let
         "pkg-1.0-mc26.2" = _YgDcey9m;
         "pkg-2.1-mc26.2-neoforge" = _yqUKyjqb;
         "pkg-2.1-mc26.2-fabric" = _VwpMfwIb;
-        "default" = _VwpMfwIb;
+        "pkg-2.1-mc26.3-fabric" = _WyGnSVQW;
+        "pkg-2.1-mc26.3-neoforge" = _bQHUxbO4;
+        "default" = _bQHUxbO4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "trim-patcher";

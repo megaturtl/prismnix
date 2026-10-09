@@ -316,6 +316,21 @@ let
             "file" = "generatorcraft-1.5.6-forge-1.20.1.jar";
             "hash" = "sha512-nsW+pBgpL/bU8Ep8ehCE6hTfeEg1Gisf/FLq+A8fTJS+nnSNGztrg2mt5j7w0qxr0pYVInzrXTZyrm2LRlQbIA==";
         };
+        _ocHdTeQH = {
+            "id" = "ocHdTeQH";
+            "file" = "generatorcraft-1.5.7-forge-1.20.1.jar";
+            "hash" = "sha512-af+/lZ6zmIn9FhtMdbg2Xd9Mi3UkfYNoERvSHuraiFaC9SYv9BC13AVcI+TlbAP5BMWe2BiEHfn23mLQhdawSg==";
+        };
+        _jTX6o4yT = {
+            "id" = "jTX6o4yT";
+            "file" = "generatorcraft-1.5.8-forge-1.20.1.jar";
+            "hash" = "sha512-OEjURx26kISeWuyDh81Zpfh4elvAqaJuVyltflV9ZuShbMUh3ExqKM4rcwY6cHFVKstQGMgp/x6YN5OHCke8BA==";
+        };
+        _zYeyRdvT = {
+            "id" = "zYeyRdvT";
+            "file" = "generatorcraft-1.5.9-forge-1.20.1.jar";
+            "hash" = "sha512-pIkp9uZWsRHlPLyxHM6GIzplIVe8jxSSqeyIAEPSIdqQYmj5A+V9ff4OBIUUF5rwPJCyw4iYX5ExFbNrrmgx0A==";
+        };
     in {
         "DEYbOuaa" = _DEYbOuaa;
         "Vl5mOLLr" = _Vl5mOLLr;
@@ -380,7 +395,10 @@ let
         "6oBJBM8t" = _6oBJBM8t;
         "xeK3PoEk" = _xeK3PoEk;
         "47HfGZNm" = _47HfGZNm;
-        "forge-1.20.1" = _47HfGZNm;
+        "ocHdTeQH" = _ocHdTeQH;
+        "jTX6o4yT" = _jTX6o4yT;
+        "zYeyRdvT" = _zYeyRdvT;
+        "forge-1.20.1" = _zYeyRdvT;
         "neoforge-1.21.1" = _2b9x2zK7;
         "pkg-1.0.0" = _DEYbOuaa;
         "pkg-1.0.1" = _Vl5mOLLr;
@@ -438,7 +456,10 @@ let
         "pkg-1.5.4" = _6oBJBM8t;
         "pkg-1.5.5" = _xeK3PoEk;
         "pkg-1.5.6" = _47HfGZNm;
-        "default" = _47HfGZNm;
+        "pkg-1.5.7" = _ocHdTeQH;
+        "pkg-1.5.8" = _jTX6o4yT;
+        "pkg-1.5.9" = _zYeyRdvT;
+        "default" = _zYeyRdvT;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "generatorcraft";

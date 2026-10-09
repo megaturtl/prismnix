@@ -171,6 +171,56 @@ let
             "file" = "[26.2] Only Jugs [1.6.0].jar";
             "hash" = "sha512-ELdtZCYdQd2c898lwHfxqTgH4Qab0v5bovt9g56IFj3lGqOSgdfU2w3ijE7+9Let0MTHCrqspi8AbfafczxrQA==";
         };
+        _80Awit04 = {
+            "id" = "80Awit04";
+            "file" = "[26.1] Only Jugs [1.7.0].jar";
+            "hash" = "sha512-kMxrbaOUL/SkCd+kcbaxikzgwqhQpYWWxwjd/QrmUVQvOwgmvIEEWDLoWMTNDLq2vEP9pTmPiDYKhk70C25m1Q==";
+        };
+        _sgqdFSkq = {
+            "id" = "sgqdFSkq";
+            "file" = "[26.1.1] Only Jugs [1.7.0].jar";
+            "hash" = "sha512-04rX5HVFejQ6d8FpwyxDfKwPMRXtKp8zNG+4b+W17+RxcZvNc7VgvwFTfw5+im4SUZL2NK0wbqNti7v7DtCrhg==";
+        };
+        _QB2aRCoy = {
+            "id" = "QB2aRCoy";
+            "file" = "[26.1.2] Only Jugs [1.7.0].jar";
+            "hash" = "sha512-7CzsyDNFaW2svBfRL6257N+5riDP8AcFgkWjC3y5i1CmAEZMST0KZo+xogDtDuyicDnmdd2+pc4gObBzsqa7fw==";
+        };
+        _EH2jfPkj = {
+            "id" = "EH2jfPkj";
+            "file" = "[26.2] Only Jugs [1.7.0].jar";
+            "hash" = "sha512-8xCLkLAAxTFCBCRke2tDaIiLDUIPTlJmemlG3cGB2S+aYfFTXW2Uq+HU7DNNZVv3bpMbQwc6lqwL6+zO6NUjEQ==";
+        };
+        _P2lZe5ay = {
+            "id" = "P2lZe5ay";
+            "file" = "[26.3] Only Jugs [1.7.0].jar";
+            "hash" = "sha512-2sw3EOTrOfnKfI8WFE7wH0RILnPuJ44LhV1SlbBZw7F7+mQlINLI05iYYbpIMhYKjPCXE6aJsvvRgqs1z04eAA==";
+        };
+        _Ap2XKGHQ = {
+            "id" = "Ap2XKGHQ";
+            "file" = "[26.1] Only Jugs [1.7.1].jar";
+            "hash" = "sha512-w701Dqs2u1gp0QvRt8Eo5wlUXSkNjPOrMMN610usarIBwCDW7v7Elj3W7H9copAMie0Hg/TOjrD2+XjN2Ir7RQ==";
+        };
+        _6rAc0Vq9 = {
+            "id" = "6rAc0Vq9";
+            "file" = "[26.1.1] Only Jugs [1.7.1].jar";
+            "hash" = "sha512-NR8nPB4Ap83tJwxWtkg2IqbSTdTthuqFQIbAhFWCXJSmxszC0fBTHPTFtO0PIZoPCNmvH/Sq20A7nKEypU7xlw==";
+        };
+        _F8PU2tfm = {
+            "id" = "F8PU2tfm";
+            "file" = "[26.1.2] Only Jugs [1.7.1].jar";
+            "hash" = "sha512-zYFjLP6fiF7uJN43gwiipmnWLiBDBDPLGlKM6kZMo5CkDGcexK4702Ania0O2FcGMDYC1+G8Ro8vQzsLSZb0rA==";
+        };
+        _udn0NoEV = {
+            "id" = "udn0NoEV";
+            "file" = "[26.2] Only Jugs [1.7.1].jar";
+            "hash" = "sha512-tx27mTlQkIJXKXvGhdirp1Fp+t9IK5IBd8bWBk8RxKCxOxET5KKSb5uTaNs5FfnecD2RwoxEZW5HajmLFTe5VA==";
+        };
+        _YfFwiI06 = {
+            "id" = "YfFwiI06";
+            "file" = "[26.3] Only Jugs [1.7.1].jar";
+            "hash" = "sha512-g7EeQhS/RilmbkmrV1DJ7HcotkKZIg2FHt6tPVwuo35+H6MwAUODPjz4OYEbCb9sa//9B2Vb0F17PARNOjTgpA==";
+        };
     in {
         "kS7xV3pp" = _kS7xV3pp;
         "x0t14JVT" = _x0t14JVT;
@@ -206,14 +256,26 @@ let
         "C5fvUaGk" = _C5fvUaGk;
         "dwydt9u8" = _dwydt9u8;
         "XBknuW5w" = _XBknuW5w;
-        "fabric-26.1" = _qQiFhQYV;
-        "fabric-26.1.1" = _C5fvUaGk;
-        "fabric-26.1.2" = _dwydt9u8;
-        "fabric-26.2" = _XBknuW5w;
-        "neoforge-26.1" = _qQiFhQYV;
-        "neoforge-26.1.1" = _C5fvUaGk;
-        "neoforge-26.1.2" = _dwydt9u8;
-        "neoforge-26.2" = _XBknuW5w;
+        "80Awit04" = _80Awit04;
+        "sgqdFSkq" = _sgqdFSkq;
+        "QB2aRCoy" = _QB2aRCoy;
+        "EH2jfPkj" = _EH2jfPkj;
+        "P2lZe5ay" = _P2lZe5ay;
+        "Ap2XKGHQ" = _Ap2XKGHQ;
+        "6rAc0Vq9" = _6rAc0Vq9;
+        "F8PU2tfm" = _F8PU2tfm;
+        "udn0NoEV" = _udn0NoEV;
+        "YfFwiI06" = _YfFwiI06;
+        "fabric-26.1" = _Ap2XKGHQ;
+        "fabric-26.1.1" = _6rAc0Vq9;
+        "fabric-26.1.2" = _F8PU2tfm;
+        "fabric-26.2" = _udn0NoEV;
+        "fabric-26.3" = _YfFwiI06;
+        "neoforge-26.1" = _Ap2XKGHQ;
+        "neoforge-26.1.1" = _6rAc0Vq9;
+        "neoforge-26.1.2" = _F8PU2tfm;
+        "neoforge-26.2" = _udn0NoEV;
+        "neoforge-26.3" = _YfFwiI06;
         "pkg-1.0.0" = _x0t14JVT;
         "pkg-1.1.0" = _nYw5V7XE;
         "pkg-1.2.0" = _Gz0rHcGI;
@@ -225,7 +287,9 @@ let
         "pkg-1.4.0" = _fdy6deI2;
         "pkg-1.5.0" = _lEVJdUrZ;
         "pkg-1.6.0" = _XBknuW5w;
-        "default" = _XBknuW5w;
+        "pkg-1.7.0" = _P2lZe5ay;
+        "pkg-1.7.1" = _YfFwiI06;
+        "default" = _YfFwiI06;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "onlyjugs";

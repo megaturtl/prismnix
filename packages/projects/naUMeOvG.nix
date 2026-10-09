@@ -136,6 +136,11 @@ let
             "file" = "dye_the_world-2.4.0.jar";
             "hash" = "sha512-cqWGgqY3r/FU+WJ3jZ5Oq6+ZPlbcGBQPeu0MFdfa9e+RzKODmJyo2aGZACtD1YR/qZVALDukG6RfDaksH17opw==";
         };
+        _UNSOtowm = {
+            "id" = "UNSOtowm";
+            "file" = "dye_the_world-2.5.0.jar";
+            "hash" = "sha512-xSuCAHpZcVbB76JRH+R5oxQ49NQll+rljnrMCmeaLbTt9nwfHwpC8fFh1ASbtWhHkcJTb+keNedJY88RfvjJlA==";
+        };
     in {
         "P3a1d3pv" = _P3a1d3pv;
         "Ltcr3wrm" = _Ltcr3wrm;
@@ -164,8 +169,9 @@ let
         "FRLou8Pq" = _FRLou8Pq;
         "KE4vMtcA" = _KE4vMtcA;
         "Ptib0AML" = _Ptib0AML;
+        "UNSOtowm" = _UNSOtowm;
         "forge-1.20.1" = _KE4vMtcA;
-        "neoforge-1.21.1" = _Ptib0AML;
+        "neoforge-1.21.1" = _UNSOtowm;
         "pkg-0.0.1-beta" = _P3a1d3pv;
         "pkg-0.0.2-beta" = _Ltcr3wrm;
         "pkg-1.0.0" = _Odu0aWX0;
@@ -193,7 +199,8 @@ let
         "pkg-2.3.4" = _FRLou8Pq;
         "pkg-1.7.3" = _KE4vMtcA;
         "pkg-2.4.0" = _Ptib0AML;
-        "default" = _Ptib0AML;
+        "pkg-2.5.0" = _UNSOtowm;
+        "default" = _UNSOtowm;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "dye-the-world";

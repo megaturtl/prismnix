@@ -41,6 +41,36 @@ let
             "file" = "mta-26.8.1-fabric-1.21.1.jar";
             "hash" = "sha512-0EuARNxEj33KXp9ckuPXEUegA6pckw98wFPF8uuDtRFRe3/9cdMMpkCDYLr274XG6RboJCmfdmewSxTKkC1gsA==";
         };
+        _wogIcn2A = {
+            "id" = "wogIcn2A";
+            "file" = "mtr-traffic-addon-26.9.jar";
+            "hash" = "sha512-JrY4ArA4bUotXo8FC1VXam1q4+dTSN3Ua4t/QbRw2Hzanf78xn6PNJUe7AhAAIOv5KeaFKSUKYRZoqNIpv4z1Q==";
+        };
+        _eiYLjjLT = {
+            "id" = "eiYLjjLT";
+            "file" = "mtr-traffic-addon-26.9.jar";
+            "hash" = "sha512-RUMwsoahogFqjp/dNt0Hploz2JUePnJKrMCiL2gmKY4R31UN4bgdE5WdPamfJ83QosC1ryy7DHr+9tiI8/doPQ==";
+        };
+        _6y7w1z7I = {
+            "id" = "6y7w1z7I";
+            "file" = "mtr-traffic-addon-26.9.jar";
+            "hash" = "sha512-caYCVFcf8IwOznknseOBLD3GEgwjwkdcLT2zBylbCHxhyzo7K7mnj5Lxj0q29ESst3Zjnq9DWo/oFWd5nN//0Q==";
+        };
+        _bs5gyaQX = {
+            "id" = "bs5gyaQX";
+            "file" = "mtr-traffic-addon-26.9.jar";
+            "hash" = "sha512-qDsYCS3mfTRrjEW3f9VN1NOHJPS31J4quxwcAK0dDTdwqobGb+NTlt2ZTNO3XmkYV+KebDKuJ0u4VzV1M5/J7w==";
+        };
+        _XmqZw6rW = {
+            "id" = "XmqZw6rW";
+            "file" = "mtr-traffic-addon-26.10.jar";
+            "hash" = "sha512-l5V5570yNHSYZRpiEwpBe/0SN3hw4hxFXcPihGEBKkJVojg/XumTCe/cBPB1R/giGAHjPHNC3gV7i9K5MjkDsQ==";
+        };
+        _awnQgxKR = {
+            "id" = "awnQgxKR";
+            "file" = "mtr-traffic-addon-26.10.1.jar";
+            "hash" = "sha512-M0fR6xuNEloktBqAO+ZHa3yhbhmAoHAU4F7/puiO2QxT1LAikSB/MJNKhowcit3fdDO6EydA9KYH5zTJKQxa0w==";
+        };
     in {
         "5iPvAMrp" = _5iPvAMrp;
         "EDUNtZT7" = _EDUNtZT7;
@@ -50,13 +80,22 @@ let
         "hpIL5sSb" = _hpIL5sSb;
         "rykUbW98" = _rykUbW98;
         "L5xr2hid" = _L5xr2hid;
-        "fabric-1.20.1" = _ITQjTTfE;
-        "fabric-1.20.4" = _rykUbW98;
-        "fabric-1.21.1" = _L5xr2hid;
-        "forge-1.20.1" = _hpIL5sSb;
+        "wogIcn2A" = _wogIcn2A;
+        "eiYLjjLT" = _eiYLjjLT;
+        "6y7w1z7I" = _6y7w1z7I;
+        "bs5gyaQX" = _bs5gyaQX;
+        "XmqZw6rW" = _XmqZw6rW;
+        "awnQgxKR" = _awnQgxKR;
+        "fabric-1.20.1" = _awnQgxKR;
+        "fabric-1.20.4" = _6y7w1z7I;
+        "fabric-1.21.1" = _bs5gyaQX;
+        "forge-1.20.1" = _eiYLjjLT;
         "pkg-26.8" = _DHX5LXDE;
         "pkg-26.8.1" = _L5xr2hid;
-        "default" = _L5xr2hid;
+        "pkg-26.9" = _bs5gyaQX;
+        "pkg-26.10" = _XmqZw6rW;
+        "pkg-26.10.1" = _awnQgxKR;
+        "default" = _awnQgxKR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "mtr-traffic-addon";

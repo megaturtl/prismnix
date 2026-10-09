@@ -561,6 +561,11 @@ let
             "file" = "scribble-2.1.0-beta1+mc26.2.jar";
             "hash" = "sha512-egsgJEErzu98r7p3XBDQqfVjd2spgGX8sItq26xr3ttXNPdGdLmDqALIFFNCDEfiP/CH6f8DZqkXOA82Gw4+cw==";
         };
+        _loqKaasF = {
+            "id" = "loqKaasF";
+            "file" = "scribble-2.1.0-beta1+mc26.3.jar";
+            "hash" = "sha512-0nIjq1ZlUaZEKUmoNAwqMoo5oupw7JynPp7SusJw2yux+vLt1WuTdaH6ZkDp9ap7MzWlrckjciXaw4MrY6lvqQ==";
+        };
     in {
         "8JHY6bdP" = _8JHY6bdP;
         "a924mZ1T" = _a924mZ1T;
@@ -674,6 +679,7 @@ let
         "3oXyKyQF" = _3oXyKyQF;
         "gNe04VDA" = _gNe04VDA;
         "lHq8aTGm" = _lHq8aTGm;
+        "loqKaasF" = _loqKaasF;
         "fabric-1.20" = _JfU9T1bG;
         "fabric-1.20.1" = _JfU9T1bG;
         "fabric-1.20.2" = _8JHY6bdP;
@@ -697,6 +703,7 @@ let
         "fabric-26.1.1" = _gNe04VDA;
         "fabric-26.1.2" = _gNe04VDA;
         "fabric-26.2" = _lHq8aTGm;
+        "fabric-26.3" = _loqKaasF;
         "quilt-1.20" = _JfU9T1bG;
         "quilt-1.20.1" = _JfU9T1bG;
         "quilt-1.20.2" = _8JHY6bdP;
@@ -720,6 +727,7 @@ let
         "quilt-26.1.1" = _gNe04VDA;
         "quilt-26.1.2" = _gNe04VDA;
         "quilt-26.2" = _lHq8aTGm;
+        "quilt-26.3" = _loqKaasF;
         "neoforge-1.21.2" = _NClj53kg;
         "neoforge-1.21.3" = _NClj53kg;
         "neoforge-1.21" = _I0KbSlL9;
@@ -738,6 +746,7 @@ let
         "neoforge-26.1.1" = _gNe04VDA;
         "neoforge-26.1.2" = _gNe04VDA;
         "neoforge-26.2" = _lHq8aTGm;
+        "neoforge-26.3" = _loqKaasF;
         "forge-1.20" = _aiNs4ig8;
         "forge-1.20.1" = _aiNs4ig8;
         "pkg-0.1.0-beta" = _8JHY6bdP;
@@ -852,7 +861,8 @@ let
         "pkg-2.0.2+mc26.1.2" = _3oXyKyQF;
         "pkg-2.1.0-beta1+mc26.1.2" = _gNe04VDA;
         "pkg-2.1.0-beta1+mc26.2" = _lHq8aTGm;
-        "default" = _lHq8aTGm;
+        "pkg-2.1.0-beta1+mc26.3" = _loqKaasF;
+        "default" = _loqKaasF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "scribble";

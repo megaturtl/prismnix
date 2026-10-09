@@ -276,6 +276,26 @@ let
             "file" = "pokeloader-2.0.0+26.3-fabric.jar";
             "hash" = "sha512-f3ZtSpuLn52rSNCLy0vmCI5qsKcvWxkGha9qM/LWRCUEIwC3AZvvtj1DoZbHIaC6bWvSgh4V2IOlqjX84FaF3Q==";
         };
+        _VP1ew3dC = {
+            "id" = "VP1ew3dC";
+            "file" = "pokeloader-2.0.0-alpha.1+1.21.1-neoforge.jar";
+            "hash" = "sha512-LBAjN6r6AsLM8o+DjdJqeE7PYfb3gf9XfAgq+AmJiHyrR2Kdvqz/rTc/zgH6S2oS4ley9pNdm2D/WCpQAc9ZCw==";
+        };
+        _KCyGnDCJ = {
+            "id" = "KCyGnDCJ";
+            "file" = "pokeloader-2.0.0-beta.1+1.20.1-forge.jar";
+            "hash" = "sha512-Tg0PvaAVaJZa4Tj+ITEEF9wqKDL+5biFnDmqzx7yCJhKRlRZLCbnd7ioW9p9Jh1i/QiH/MCrl/ZV6eqPFyIC+g==";
+        };
+        _lkfbnfhK = {
+            "id" = "lkfbnfhK";
+            "file" = "pokeloader-2.0.0-beta.2+1.20.1-forge.jar";
+            "hash" = "sha512-/rdvjMUnr4vuu9N35ucm6Zf14zzedZMzSsRutcKvXd1xTOkRrTRYXhGKxuHdmSwlF2dHV3H+NdKvMs0uUwxwMg==";
+        };
+        _vRZEUfrQ = {
+            "id" = "vRZEUfrQ";
+            "file" = "pokeloader-2.0.0-beta.3+1.20.1-forge.jar";
+            "hash" = "sha512-cwawXimLmoX4NICAW2+VH7oJv9Q20vsSHwIQabfmwWUNUoofEG+hu+bMcZabqhZRbDhIB3oM6EEf7Ax9yPVU6Q==";
+        };
     in {
         "TEO4FOfo" = _TEO4FOfo;
         "p0txoFn9" = _p0txoFn9;
@@ -332,6 +352,10 @@ let
         "tGxYIZF2" = _tGxYIZF2;
         "QsA5aCey" = _QsA5aCey;
         "V5Eyw11q" = _V5Eyw11q;
+        "VP1ew3dC" = _VP1ew3dC;
+        "KCyGnDCJ" = _KCyGnDCJ;
+        "lkfbnfhK" = _lkfbnfhK;
+        "vRZEUfrQ" = _vRZEUfrQ;
         "fabric-1.21.1" = _lReWyvwE;
         "fabric-1.20.1" = _ZW5VBpvG;
         "fabric-1.20" = _PnoD8E7Q;
@@ -367,6 +391,8 @@ let
         "fabric-26.2" = _tGxYIZF2;
         "fabric-26.3-snapshot-1" = _QsA5aCey;
         "fabric-26.3" = _V5Eyw11q;
+        "neoforge-1.21.1" = _VP1ew3dC;
+        "forge-1.20.1" = _vRZEUfrQ;
         "pkg-1.0.0" = _TEO4FOfo;
         "pkg-1.0.1" = _p0txoFn9;
         "pkg-1.0.2" = _S2rt1Jx7;
@@ -422,7 +448,11 @@ let
         "pkg-2.0.0+26.2-fabric" = _tGxYIZF2;
         "pkg-2.0.0+26.3-snapshot.1" = _QsA5aCey;
         "pkg-2.0.0+26.3-fabric" = _V5Eyw11q;
-        "default" = _V5Eyw11q;
+        "pkg-2.0.0-alpha.1+1.21.1-neoforge" = _VP1ew3dC;
+        "pkg-2.0.0-beta.1+1.20.1-forge" = _KCyGnDCJ;
+        "pkg-2.0.0-beta.2+1.20.1-forge" = _lkfbnfhK;
+        "pkg-2.0.0-beta.3+1.20.1-forge" = _vRZEUfrQ;
+        "default" = _vRZEUfrQ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "pokeloader";

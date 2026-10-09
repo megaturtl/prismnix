@@ -566,6 +566,11 @@ let
             "file" = "Cardboard-26.1.2.jar";
             "hash" = "sha512-tdU7ngAZq1AZYw09zU6TLpA6OuQzn+FNh2IPfknmTex2SbX4Xj+V1MQCNgWW4hYJLCeRRKDoPyaGDMHK0dUOeA==";
         };
+        _sCEu56bU = {
+            "id" = "sCEu56bU";
+            "file" = "Cardboard-26.1.2.jar";
+            "hash" = "sha512-hkeKp43NtFQfDodxLPi5wv+96lUCSFUyzKsmkcHK66rs89nwRa3Pw5f6i5ry4hwkfT+lSjHeVirlEKD25uwn/A==";
+        };
     in {
         "he36ipj2" = _he36ipj2;
         "1gdKw1n0" = _1gdKw1n0;
@@ -680,6 +685,7 @@ let
         "FGgzMVzq" = _FGgzMVzq;
         "mUfsbVn1" = _mUfsbVn1;
         "AURRUwAR" = _AURRUwAR;
+        "sCEu56bU" = _sCEu56bU;
         "fabric-1.16.4" = _BXtLtSm6;
         "fabric-1.16.5" = _BXtLtSm6;
         "fabric-1.17.1" = _T6heHzY2;
@@ -701,7 +707,7 @@ let
         "fabric-1.21.11" = _DAoifce4;
         "fabric-26.1" = _choOJjCw;
         "fabric-26.1.1" = _choOJjCw;
-        "fabric-26.1.2" = _AURRUwAR;
+        "fabric-26.1.2" = _sCEu56bU;
         "pkg-#139" = _he36ipj2;
         "pkg-153" = _1gdKw1n0;
         "pkg-162" = _BXtLtSm6;
@@ -815,7 +821,8 @@ let
         "pkg-26.1-8" = _FGgzMVzq;
         "pkg-26.1-9" = _mUfsbVn1;
         "pkg-26.1-10" = _AURRUwAR;
-        "default" = _AURRUwAR;
+        "pkg-26.1-11" = _sCEu56bU;
+        "default" = _sCEu56bU;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "cardboard";

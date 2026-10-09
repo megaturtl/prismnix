@@ -21,11 +21,17 @@ let
             "file" = "ManePear Totem Cape 26.1-26.1.2.zip";
             "hash" = "sha512-gXXcH4kTscA/wLjAqxOghs+oaSCmnN8n8A1EAqrdC+LNWezUNnjXrkYa3f3qsRA9KQhN9X5sqoNRZq4J9QZE3w==";
         };
+        _xqEJDoDR = {
+            "id" = "xqEJDoDR";
+            "file" = "ManePear Totem Cape 26.3.zip";
+            "hash" = "sha512-4K2fRh97q72o4eTqyLGsfYjv7XTNM0vPT07e1bSKdrqjdRGql37b5EdwmhHSaEkOAFFuIPmIGXb7G6yxgdMchA==";
+        };
     in {
         "fn1qhGCG" = _fn1qhGCG;
         "qfm0uqAB" = _qfm0uqAB;
         "Fl7QbtIg" = _Fl7QbtIg;
         "HQc9fqhL" = _HQc9fqhL;
+        "xqEJDoDR" = _xqEJDoDR;
         "minecraft-1.21" = _fn1qhGCG;
         "minecraft-1.21.1" = _fn1qhGCG;
         "minecraft-1.21.2" = _fn1qhGCG;
@@ -37,8 +43,10 @@ let
         "minecraft-26.1" = _HQc9fqhL;
         "minecraft-26.1.1" = _HQc9fqhL;
         "minecraft-26.1.2" = _HQc9fqhL;
+        "minecraft-26.3" = _xqEJDoDR;
         "pkg-1.0" = _HQc9fqhL;
-        "default" = _HQc9fqhL;
+        "pkg-26.3" = _xqEJDoDR;
+        "default" = _xqEJDoDR;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "manepear-cape-totem";

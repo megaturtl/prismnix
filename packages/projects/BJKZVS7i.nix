@@ -111,6 +111,11 @@ let
             "file" = "!      §5§lLiving Legend Rewamp.zip";
             "hash" = "sha512-NQNaZKhhS5/5flYdI41E7s069oWl1XFFABwuJSrYP6HPZd7enYM+9HNB5ESz6VvS/MM0y38vjRTNiCapxBKyEg==";
         };
+        _6CaziGa4 = {
+            "id" = "6CaziGa4";
+            "file" = "!      §5§lLiving Legend Rewamp.zip";
+            "hash" = "sha512-NQNaZKhhS5/5flYdI41E7s069oWl1XFFABwuJSrYP6HPZd7enYM+9HNB5ESz6VvS/MM0y38vjRTNiCapxBKyEg==";
+        };
     in {
         "QrqRRji5" = _QrqRRji5;
         "tBV0pAOQ" = _tBV0pAOQ;
@@ -134,6 +139,7 @@ let
         "UbY3Rqyu" = _UbY3Rqyu;
         "PYnPEYgx" = _PYnPEYgx;
         "GvizWL1Y" = _GvizWL1Y;
+        "6CaziGa4" = _6CaziGa4;
         "minecraft-1.20" = _23vbBfJf;
         "minecraft-1.21.1" = _GvizWL1Y;
         "minecraft-1.21.2" = _GvizWL1Y;
@@ -162,6 +168,7 @@ let
         "minecraft-26.1.1" = _CgkJu2dr;
         "minecraft-26.1.2" = _UbY3Rqyu;
         "minecraft-26.2" = _PYnPEYgx;
+        "minecraft-26.3" = _6CaziGa4;
         "pkg-v1" = _QrqRRji5;
         "pkg-v2" = _tBV0pAOQ;
         "pkg-v2-1.21.11" = _W82aOmyg;
@@ -184,7 +191,8 @@ let
         "pkg-26.1.2" = _UbY3Rqyu;
         "pkg-26.2" = _PYnPEYgx;
         "pkg-1.21-1.21.11" = _GvizWL1Y;
-        "default" = _GvizWL1Y;
+        "pkg-26.3" = _6CaziGa4;
+        "default" = _6CaziGa4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "living-legend-80krewamped-(by-gamer-tige-)";

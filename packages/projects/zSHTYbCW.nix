@@ -511,6 +511,11 @@ let
             "file" = "Glowing Trim Armors[MG-5.0][26.2].zip";
             "hash" = "sha512-bUXPlIgpC41UyL6cpgqCGxCogZDpp1LeXsw4TGfZpwaEAXFJhUzW+8UF0PQ9nfe51isAgo+I9MIpObJH082/hw==";
         };
+        _IglCAnRi = {
+            "id" = "IglCAnRi";
+            "file" = "Glowing Trim Armors[MG-5.0][26.3].zip";
+            "hash" = "sha512-ypEdhToZ0zjPL7EkfZ62Apn8HxtQ4ooHJvypKuHMB/beMi6X+fxbX6lPne3E3uvg+5i17eUeurt5JkVsNKZG/A==";
+        };
     in {
         "zN9deNrU" = _zN9deNrU;
         "YYfJS8EN" = _YYfJS8EN;
@@ -614,6 +619,7 @@ let
         "Lw9T5j1j" = _Lw9T5j1j;
         "YyIN6l7A" = _YyIN6l7A;
         "zUDDL6H1" = _zUDDL6H1;
+        "IglCAnRi" = _IglCAnRi;
         "minecraft-1.16.2" = _ToGX0IEB;
         "minecraft-1.16.3" = _ToGX0IEB;
         "minecraft-1.16.4" = _ToGX0IEB;
@@ -653,6 +659,8 @@ let
         "minecraft-26.1.1" = _YyIN6l7A;
         "minecraft-26.1.2" = _YyIN6l7A;
         "minecraft-26.2" = _zUDDL6H1;
+        "minecraft-26.3" = _IglCAnRi;
+        "minecraft-26.4-snapshot-1" = _IglCAnRi;
         "pkg-1.16-1.16.5" = _QBIIqASX;
         "pkg-1.17-1.17.2" = _YYfJS8EN;
         "pkg-1.18-1.18.2" = _6rFgMCww;
@@ -675,8 +683,8 @@ let
         "pkg-3.2" = _VKhMQFV6;
         "pkg-MG-4.0" = _lp6bwZsZ;
         "pkg-MG-4.5" = _uqc7rFzo;
-        "pkg-MG-5.0" = _zUDDL6H1;
-        "default" = _zUDDL6H1;
+        "pkg-MG-5.0" = _IglCAnRi;
+        "default" = _IglCAnRi;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "glowing-trims";

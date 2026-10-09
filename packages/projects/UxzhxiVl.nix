@@ -36,6 +36,11 @@ let
             "file" = "nmbl-1.0.4-neoforge-mc1.21.1.jar";
             "hash" = "sha512-6imj3vBGlGFInQwa4T1Bux07KprIg730tSVTFI2c8z/DP4tgKBN8LudtkZnokUGULoL8q51el7Lu3HyjZ2a5Ew==";
         };
+        _DVJGaEBf = {
+            "id" = "DVJGaEBf";
+            "file" = "nmbl-1.0.4-neoforge-mc26.1.2-all.jar";
+            "hash" = "sha512-XB1hY3SrO7Xvf35Hzan11WERMPBBdgoENr4R4C2oeYOLVU91xW/SVG2SNrwYW2alAGubc0eH1xY5G8WPDuFM8A==";
+        };
     in {
         "QhRgXcIL" = _QhRgXcIL;
         "wxMHeot6" = _wxMHeot6;
@@ -44,8 +49,10 @@ let
         "cHxrZYSr" = _cHxrZYSr;
         "Vbmic0Wc" = _Vbmic0Wc;
         "ZlH1lTYi" = _ZlH1lTYi;
+        "DVJGaEBf" = _DVJGaEBf;
         "forge-1.20.1" = _Vbmic0Wc;
         "neoforge-1.21.1" = _ZlH1lTYi;
+        "neoforge-26.1.2" = _DVJGaEBf;
         "pkg-1.0.0-forge-mc1.20.1" = _QhRgXcIL;
         "pkg-1.0.1-forge-mc1.20.1" = _wxMHeot6;
         "pkg-1.0.2-forge-mc1.20.1" = _H9n2B6iw;
@@ -53,7 +60,8 @@ let
         "pkg-1.0.3-neoforge-mc1.21.1" = _cHxrZYSr;
         "pkg-1.0.4-forge-mc1.20.1" = _Vbmic0Wc;
         "pkg-1.0.4-neoforge-mc1.21.1" = _ZlH1lTYi;
-        "default" = _ZlH1lTYi;
+        "pkg-1.0.4-neoforge-mc26.1.2" = _DVJGaEBf;
+        "default" = _DVJGaEBf;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "net-music-better-login";

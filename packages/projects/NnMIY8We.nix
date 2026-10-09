@@ -1761,6 +1761,21 @@ let
             "file" = "Saros-Road-Blocks-NeoForge-26.2-5.13.jar";
             "hash" = "sha512-4no5BYsjzH4Qr2oTDzkP+IMTee5t8OadYZM0P4qFdcRfBCnWOS9ljs1p1IdyM+q8amqrx3jT3Gl5mTdb2VxNTg==";
         };
+        _NzMFwVGA = {
+            "id" = "NzMFwVGA";
+            "file" = "Saros-Road-Blocks-Fabric-26.3-5.14.jar";
+            "hash" = "sha512-7f0+74trSkUCZa9xAhajQuorQYMUOZYn+TgSMSo/LGeDuaPzGJd120zhyMHFD5Lgp6B8+R4BM54ch/BhbR2AvA==";
+        };
+        _o3XQIBLJ = {
+            "id" = "o3XQIBLJ";
+            "file" = "Saros-Road-Blocks-NeoForge-26.3-5.15.jar";
+            "hash" = "sha512-bvRVCUietuvN0QWxEbOg+3LM0godgwGW2yXypGI5CvxCPf1uQqTfPwHM/w/WKqVbB4SK7AyXs5KFE77VDNDILg==";
+        };
+        _vf6QgDrt = {
+            "id" = "vf6QgDrt";
+            "file" = "Saros-Road-Blocks-Forge-26.3-5.16.jar";
+            "hash" = "sha512-sErMwyszJNVHN9W/zQCbIY3g21ruf142sxshGhW3UUDvci78/6tTceodB7usNWKUe+8p7SCpHoF5lzpfMFwWaQ==";
+        };
     in {
         "l75yLEmE" = _l75yLEmE;
         "mnrtlD5N" = _mnrtlD5N;
@@ -2114,6 +2129,9 @@ let
         "teI5aBjE" = _teI5aBjE;
         "Cmz5DcD8" = _Cmz5DcD8;
         "z34Xf6Ks" = _z34Xf6Ks;
+        "NzMFwVGA" = _NzMFwVGA;
+        "o3XQIBLJ" = _o3XQIBLJ;
+        "vf6QgDrt" = _vf6QgDrt;
         "forge-1.16.5" = _p68yKDZj;
         "forge-1.18.2" = _mnrtlD5N;
         "forge-1.19.2" = _eOkKveWN;
@@ -2136,6 +2154,7 @@ let
         "forge-26.1.1" = _AaUwKiRx;
         "forge-26.1.2" = _aXqPGRbk;
         "forge-26.2" = _879HOG2L;
+        "forge-26.3" = _vf6QgDrt;
         "fabric-1.19.2" = _slushDBy;
         "fabric-1.20.1" = _fBIY6Pfj;
         "fabric-1.21.10" = _2OqrKqb9;
@@ -2146,6 +2165,7 @@ let
         "fabric-26.1.1" = _WCOo8kBq;
         "fabric-26.1.2" = _6gmF18je;
         "fabric-26.2" = _xIxPoIbp;
+        "fabric-26.3" = _NzMFwVGA;
         "quilt-1.19.2" = _slushDBy;
         "quilt-1.20.1" = _7nFQaAkN;
         "neoforge-1.20.1" = _LmC1hV2D;
@@ -2155,6 +2175,7 @@ let
         "neoforge-26.1.2" = _Cmz5DcD8;
         "neoforge-1.21.2" = _r1B13hZy;
         "neoforge-26.2" = _z34Xf6Ks;
+        "neoforge-26.3" = _o3XQIBLJ;
         "pkg-2.5" = _slushDBy;
         "pkg-2.6" = _Nyomv9D7;
         "pkg-1.1" = _7E3D5JZ3;
@@ -2253,17 +2274,18 @@ let
         "pkg-4.9.7" = _iiX3vuxR;
         "pkg-5.0.9" = _77xRzHiU;
         "pkg-5.1.8" = _AWVZbQCf;
-        "pkg-5.14" = _b1lobgM0;
+        "pkg-5.14" = _NzMFwVGA;
         "pkg-4.9.8" = _iXFLt7cj;
         "pkg-5.0.10" = _gpkrIepO;
         "pkg-4.4.3" = _p68yKDZj;
-        "pkg-5.15" = _LmC1hV2D;
+        "pkg-5.15" = _o3XQIBLJ;
         "pkg-5.1.9" = _VECzOqxU;
         "pkg-5.9.9" = _mcsn7RJp;
         "pkg-4.9.9" = _2OqrKqb9;
         "pkg-5.0.11" = _Cpcx91uW;
         "pkg-5.1.10" = _9QIIMqCk;
-        "default" = _z34Xf6Ks;
+        "pkg-5.16-forge-26.3" = _vf6QgDrt;
+        "default" = _vf6QgDrt;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "saros-road-blocks";

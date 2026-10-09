@@ -46,6 +46,16 @@ let
             "file" = "amplifiednetherheight-1.4+26.2-mod.jar";
             "hash" = "sha512-FDMnyTYJakHCno3EQmF7Z70jfRMQh9iBazWi6Rnw9YRxJYl76I8nChqsQ/sMQrM/UeDoQWlUlg7RPrXO6oE2Bw==";
         };
+        _7VpKW9wG = {
+            "id" = "7VpKW9wG";
+            "file" = "amplifiednetherheight-1.5+26.3-datapack.zip";
+            "hash" = "sha512-i8yb8RdCXA4MRYf+1tbQQM0JATAIbFqXv28FZsDsZqX2W9wXlEcgz60iKMKRlXiqzYMDzUtzDaEdHMdXUyLPUg==";
+        };
+        _xSWjR6bW = {
+            "id" = "xSWjR6bW";
+            "file" = "amplifiednetherheight-1.5+26.3-mod.jar";
+            "hash" = "sha512-QUYHWNozoLd4DcgHgJ02IxiiBaVVg6VE43iNvIT42SI3Wc8fDR8S5sp4V1xMG1oH2ixmXq1qKBsVXtiScCqa8w==";
+        };
     in {
         "ikbUwamk" = _ikbUwamk;
         "hTghNmbT" = _hTghNmbT;
@@ -56,6 +66,8 @@ let
         "bjAUtbIw" = _bjAUtbIw;
         "1OoLCA24" = _1OoLCA24;
         "3qAsBVFr" = _3qAsBVFr;
+        "7VpKW9wG" = _7VpKW9wG;
+        "xSWjR6bW" = _xSWjR6bW;
         "datapack-1.20.2" = _qapsQAbz;
         "datapack-1.18.2" = _qapsQAbz;
         "datapack-1.19" = _qapsQAbz;
@@ -85,6 +97,7 @@ let
         "datapack-26.1.1" = _1OoLCA24;
         "datapack-26.1.2" = _1OoLCA24;
         "datapack-26.2" = _1OoLCA24;
+        "datapack-26.3" = _7VpKW9wG;
         "fabric-1.18.2" = _wUxxQFCc;
         "fabric-1.19" = _wUxxQFCc;
         "fabric-1.19.1" = _wUxxQFCc;
@@ -114,6 +127,7 @@ let
         "fabric-26.1.1" = _3qAsBVFr;
         "fabric-26.1.2" = _3qAsBVFr;
         "fabric-26.2" = _3qAsBVFr;
+        "fabric-26.3" = _xSWjR6bW;
         "forge-1.18.2" = _wUxxQFCc;
         "forge-1.19" = _wUxxQFCc;
         "forge-1.19.1" = _wUxxQFCc;
@@ -143,6 +157,7 @@ let
         "forge-26.1.1" = _3qAsBVFr;
         "forge-26.1.2" = _3qAsBVFr;
         "forge-26.2" = _3qAsBVFr;
+        "forge-26.3" = _xSWjR6bW;
         "quilt-1.18.2" = _wUxxQFCc;
         "quilt-1.19" = _wUxxQFCc;
         "quilt-1.19.1" = _wUxxQFCc;
@@ -172,6 +187,7 @@ let
         "quilt-26.1.1" = _3qAsBVFr;
         "quilt-26.1.2" = _3qAsBVFr;
         "quilt-26.2" = _3qAsBVFr;
+        "quilt-26.3" = _xSWjR6bW;
         "neoforge-1.18.2" = _wUxxQFCc;
         "neoforge-1.19" = _wUxxQFCc;
         "neoforge-1.19.1" = _wUxxQFCc;
@@ -201,6 +217,7 @@ let
         "neoforge-26.1.1" = _3qAsBVFr;
         "neoforge-26.1.2" = _3qAsBVFr;
         "neoforge-26.2" = _3qAsBVFr;
+        "neoforge-26.3" = _xSWjR6bW;
         "pkg-1.0+datapack" = _ikbUwamk;
         "pkg-1.1+datapack" = _hTghNmbT;
         "pkg-1.1+mod" = _5FTN0Pp4;
@@ -210,7 +227,9 @@ let
         "pkg-1.3+1.21.11-mod" = _bjAUtbIw;
         "pkg-1.4+26.2-datapack" = _1OoLCA24;
         "pkg-1.4+26.2-mod" = _3qAsBVFr;
-        "default" = _3qAsBVFr;
+        "pkg-1.5+26.3-datapack" = _7VpKW9wG;
+        "pkg-1.5+26.3-mod" = _xSWjR6bW;
+        "default" = _xSWjR6bW;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "amplified-nether-height";

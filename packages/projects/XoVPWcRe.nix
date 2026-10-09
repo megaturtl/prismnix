@@ -71,6 +71,16 @@ let
             "file" = "roads-n-vehicles-0.1.1+26.3.X.jar";
             "hash" = "sha512-/OHvsfRS5AxDhJXf3H9xx08ol5cSvGWeV0fxL6eRyQ2cqdGsIDOejG7bPVsjvNIrk9Bt9j/0zbLP0rxi7bLRtw==";
         };
+        _pYIBXKUb = {
+            "id" = "pYIBXKUb";
+            "file" = "roads-n-vehicles-0.1.2+1.20.1.jar";
+            "hash" = "sha512-YAkrIicQcHEkq9ur0u7AYmJefGM6I2O1yd5XOjRVpyFukQUiiF+hCwCbbbpHVTsSgQa+fjMDKlabFvDMh+r3HA==";
+        };
+        _gewqRcGd = {
+            "id" = "gewqRcGd";
+            "file" = "roads-n-vehicles-0.1.2+1.21.1.jar";
+            "hash" = "sha512-U9Y7RcAP+2YCilzlq3Y5mHd+mbX/1QIrJ8vEGGOIo72WHX3e+FLFa0YI7Gj8NLmZM0p3JkzaUI1BqDB9e3OuBw==";
+        };
     in {
         "PphTV3tm" = _PphTV3tm;
         "EGl2OpxK" = _EGl2OpxK;
@@ -86,8 +96,10 @@ let
         "47rnevLr" = _47rnevLr;
         "LpyVQi3a" = _LpyVQi3a;
         "gIi9HUjC" = _gIi9HUjC;
-        "fabric-1.20.1" = _4Qx6KDVl;
-        "fabric-1.21.1" = _vayqSFZa;
+        "pYIBXKUb" = _pYIBXKUb;
+        "gewqRcGd" = _gewqRcGd;
+        "fabric-1.20.1" = _pYIBXKUb;
+        "fabric-1.21.1" = _gewqRcGd;
         "fabric-1.21.10" = _p29I76uG;
         "fabric-1.21.11" = _p29I76uG;
         "fabric-26.1" = _47rnevLr;
@@ -95,18 +107,18 @@ let
         "fabric-26.1.2" = _47rnevLr;
         "fabric-26.2" = _LpyVQi3a;
         "fabric-26.3" = _gIi9HUjC;
-        "forge-1.20.1" = _4Qx6KDVl;
-        "forge-1.21.1" = _vayqSFZa;
+        "forge-1.20.1" = _pYIBXKUb;
+        "forge-1.21.1" = _gewqRcGd;
         "forge-26.1" = _47rnevLr;
         "forge-26.1.1" = _47rnevLr;
         "forge-26.1.2" = _47rnevLr;
-        "neoforge-1.20.1" = _4Qx6KDVl;
-        "neoforge-1.21.1" = _vayqSFZa;
+        "neoforge-1.20.1" = _pYIBXKUb;
+        "neoforge-1.21.1" = _gewqRcGd;
         "neoforge-26.1" = _47rnevLr;
         "neoforge-26.1.1" = _47rnevLr;
         "neoforge-26.1.2" = _47rnevLr;
-        "quilt-1.20.1" = _4Qx6KDVl;
-        "quilt-1.21.1" = _vayqSFZa;
+        "quilt-1.20.1" = _pYIBXKUb;
+        "quilt-1.21.1" = _gewqRcGd;
         "quilt-1.21.10" = _p29I76uG;
         "quilt-1.21.11" = _p29I76uG;
         "quilt-26.1" = _47rnevLr;
@@ -128,7 +140,9 @@ let
         "pkg-0.1.1+26.1.X" = _47rnevLr;
         "pkg-0.1.1+26.2.X" = _LpyVQi3a;
         "pkg-0.1.1+26.3.X" = _gIi9HUjC;
-        "default" = _gIi9HUjC;
+        "pkg-0.1.2+1.20.1" = _pYIBXKUb;
+        "pkg-0.1.2+1.21.1" = _gewqRcGd;
+        "default" = _gewqRcGd;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "roads-n-vehicles";

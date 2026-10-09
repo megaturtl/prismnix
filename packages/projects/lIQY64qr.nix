@@ -271,6 +271,11 @@ let
             "file" = "tiptapshow-2.0.0+26.2.jar";
             "hash" = "sha512-ZN9rpZ1GAhSjp/4Ogu8vFwQE6bES7oXdwM4dm5X1bcyRfEn62Rtmxw4i9kksK1ij/6cEOwhUOH3NW7qwGaOFKg==";
         };
+        _5oHE9POI = {
+            "id" = "5oHE9POI";
+            "file" = "tiptapshow-2.0.0+26.3.jar";
+            "hash" = "sha512-joAtPMr/1fFRVbA8hGnuigQI+aO5aY62LfSxEbM5IrjYNJbpGj5fQua1CJnMzq0ujvbdEFqDWotvWfuyPKszFQ==";
+        };
     in {
         "jW3imNNu" = _jW3imNNu;
         "8lrguG5P" = _8lrguG5P;
@@ -326,6 +331,7 @@ let
         "Dn6ok9g0" = _Dn6ok9g0;
         "iPb90jhz" = _iPb90jhz;
         "ALzAGjwL" = _ALzAGjwL;
+        "5oHE9POI" = _5oHE9POI;
         "fabric-1.19.2" = _uj78zYtQ;
         "fabric-1.19.3" = _Axh7a6NA;
         "fabric-1.19.4" = _1VjqTcbd;
@@ -348,6 +354,7 @@ let
         "fabric-26.1.1" = _Dn6ok9g0;
         "fabric-26.1.2" = _iPb90jhz;
         "fabric-26.2" = _ALzAGjwL;
+        "fabric-26.3" = _5oHE9POI;
         "pkg-v1.0.0" = _jW3imNNu;
         "pkg-v1.1.0" = _8lrguG5P;
         "pkg-v1.2.0" = _uj78zYtQ;
@@ -402,7 +409,8 @@ let
         "pkg-2.0.0+26.1.1" = _Dn6ok9g0;
         "pkg-2.0.0+26.1.2" = _iPb90jhz;
         "pkg-2.0.0+26.2" = _ALzAGjwL;
-        "default" = _ALzAGjwL;
+        "pkg-2.0.0+26.3" = _5oHE9POI;
+        "default" = _5oHE9POI;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "tiptapshow";

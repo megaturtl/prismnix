@@ -291,6 +291,26 @@ let
             "file" = "kiss-mod-1.0.1-1.21.11-neoforge.jar";
             "hash" = "sha512-At0WPKaQpHiZzufVzdjbxn5bAttDkbNjM/KypSspnghohMk7VjCm3Ugcs56cUi4aPxEYx7ZArqxQ7rH4KfrFlg==";
         };
+        _WFtDB7GL = {
+            "id" = "WFtDB7GL";
+            "file" = "kiss-mod-1.0.1-26.1.1.jar";
+            "hash" = "sha512-QC8p6cmBqOPAckEC48P+I/NP72MX3H1dPPG+gkD/IlHr57NmEk8eBa+X8KsI8g7inpPbhRnEoLAYG4FoEFjyVg==";
+        };
+        _2fTcD201 = {
+            "id" = "2fTcD201";
+            "file" = "kiss-mod-1.0.1-26.1.2.jar";
+            "hash" = "sha512-VIV5obuDMsBFJQ5vg3xFPAYrMymtAraiJYNzeRo+LPwNkqqyxrpcPsNlTDIuhnLaZJSIlYJRED4rddNb4APtyw==";
+        };
+        _AeAtLPzt = {
+            "id" = "AeAtLPzt";
+            "file" = "kiss-mod-1.0.1-26.2.jar";
+            "hash" = "sha512-ZCacC/VGebnRNHlYjG6B5fBMH1p0MT2XQg+UGG+MVtv3oPKxBYbS4ejtAzWhiLMBntN3ZERaKgJPNQCmewAFiA==";
+        };
+        _GFFwV2Kg = {
+            "id" = "GFFwV2Kg";
+            "file" = "kiss-mod-1.0.1-26.3.jar";
+            "hash" = "sha512-86EaWTf0ptrirrebab0KTmuEt5QWUWRJcfgL1XihRBP20A5vE5wTNeWugcuLZRA0lFO7o+qvd1ZRC/IObWOKxA==";
+        };
     in {
         "RGwTaDxo" = _RGwTaDxo;
         "8YHnkDqD" = _8YHnkDqD;
@@ -350,6 +370,10 @@ let
         "WF5uZKyZ" = _WF5uZKyZ;
         "MIAAZeAf" = _MIAAZeAf;
         "HVeFziJK" = _HVeFziJK;
+        "WFtDB7GL" = _WFtDB7GL;
+        "2fTcD201" = _2fTcD201;
+        "AeAtLPzt" = _AeAtLPzt;
+        "GFFwV2Kg" = _GFFwV2Kg;
         "fabric-1.21" = _g4978uVL;
         "fabric-1.21.1" = _CggDmonE;
         "fabric-1.21.2" = _Kh2Zziwt;
@@ -364,6 +388,10 @@ let
         "fabric-1.21.11" = _ygx1BCq7;
         "fabric-26.1" = _F5fUJOeY;
         "fabric-1.20.1" = _cfqbNAhY;
+        "fabric-26.1.1" = _WFtDB7GL;
+        "fabric-26.1.2" = _2fTcD201;
+        "fabric-26.2" = _AeAtLPzt;
+        "fabric-26.3" = _GFFwV2Kg;
         "spigot-1.21" = _2IEtbuwn;
         "spigot-1.21.1" = _2IEtbuwn;
         "spigot-1.21.2" = _2IEtbuwn;
@@ -472,7 +500,11 @@ let
         "pkg-1.0.1-1.21.9-neoforge" = _WF5uZKyZ;
         "pkg-1.0.1-1.21.10-neoforge" = _MIAAZeAf;
         "pkg-1.0.1-1.21.11-neoforge" = _HVeFziJK;
-        "default" = _HVeFziJK;
+        "pkg-1.0.1-26.1.1" = _WFtDB7GL;
+        "pkg-1.0.1-26.1.2" = _2fTcD201;
+        "pkg-1.0.1-26.2" = _AeAtLPzt;
+        "pkg-1.0.1-26.3" = _GFFwV2Kg;
+        "default" = _GFFwV2Kg;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "kiss-mod";

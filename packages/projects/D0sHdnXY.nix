@@ -506,6 +506,11 @@ let
             "file" = "Discord-MC-Chat-2.7.1.jar";
             "hash" = "sha512-L7CsvBoX5URCM9hKDXLCKa6IsXos8XArUfAW8Y+NMeCbLOt2KSQBbGR+eETl5onJXV2di2nfYrWnLp4396/gbg==";
         };
+        _JQiiOSl4 = {
+            "id" = "JQiiOSl4";
+            "file" = "Discord-MC-Chat-3.0.0-beta.3.jar";
+            "hash" = "sha512-3EuYl+vlqZ4u605qKqdKEFUYSksH0q4dBzo//iAsDGJT3e+/visLu+/+/ubOF+x4zLwcAsaIGTaahw1VNXMkKA==";
+        };
     in {
         "5FmpOTie" = _5FmpOTie;
         "WJLcJX69" = _WJLcJX69;
@@ -608,6 +613,7 @@ let
         "8HnBxTfE" = _8HnBxTfE;
         "c5iLOOdK" = _c5iLOOdK;
         "49RyYYsL" = _49RyYYsL;
+        "JQiiOSl4" = _JQiiOSl4;
         "fabric-1.16.4" = _aWxpt7iY;
         "fabric-1.16.5" = _aWxpt7iY;
         "fabric-1.17" = _aWxpt7iY;
@@ -645,7 +651,7 @@ let
         "fabric-26.1.1" = _c5iLOOdK;
         "fabric-26.1.2" = _c5iLOOdK;
         "fabric-26.2" = _c5iLOOdK;
-        "fabric-26.3" = _49RyYYsL;
+        "fabric-26.3" = _JQiiOSl4;
         "quilt-1.14.4" = _aWxpt7iY;
         "quilt-1.15.2" = _aWxpt7iY;
         "quilt-1.16.4" = _aWxpt7iY;
@@ -683,7 +689,7 @@ let
         "quilt-26.1.1" = _c5iLOOdK;
         "quilt-26.1.2" = _c5iLOOdK;
         "quilt-26.2" = _c5iLOOdK;
-        "quilt-26.3" = _49RyYYsL;
+        "quilt-26.3" = _JQiiOSl4;
         "pkg-1.5.3" = _5FmpOTie;
         "pkg-1.6.0" = _WJLcJX69;
         "pkg-1.7.0" = _qUoVndXC;
@@ -785,7 +791,8 @@ let
         "pkg-2.7.1-compat.2" = _8HnBxTfE;
         "pkg-3.0.0-beta.2" = _c5iLOOdK;
         "pkg-2.7.1-compat.3" = _49RyYYsL;
-        "default" = _49RyYYsL;
+        "pkg-3.0.0-beta.3" = _JQiiOSl4;
+        "default" = _JQiiOSl4;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "discord-mc-chat";

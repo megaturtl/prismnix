@@ -246,6 +246,11 @@ let
             "file" = "expression_core-3.0.6-neoforge-1.21.1.jar";
             "hash" = "sha512-jlNGS5gqLrOUqP1kOxTkcnxVtgEjT2RsinYp5IIYTUbHtqtEwTtaTPF+ifhd0uIhrgK1SwBx2Vc+6pLqkAW50Q==";
         };
+        _k1F7bD6t = {
+            "id" = "k1F7bD6t";
+            "file" = "expression_core-3.0.7-neoforge-1.21.1.jar";
+            "hash" = "sha512-pdwgpHZNQxQBTW1XgXiZ2/dva8UFI0v3PyaWHNFhwn/FLGcVGk9rMCTwXCfAaNECIuh3OQMHYuw+VawhhIQr3Q==";
+        };
     in {
         "NgMyWBbm" = _NgMyWBbm;
         "PCmyYrWT" = _PCmyYrWT;
@@ -296,7 +301,8 @@ let
         "IWBCOVJW" = _IWBCOVJW;
         "9SWK6h4K" = _9SWK6h4K;
         "XKle1N2c" = _XKle1N2c;
-        "neoforge-1.21.1" = _XKle1N2c;
+        "k1F7bD6t" = _k1F7bD6t;
+        "neoforge-1.21.1" = _k1F7bD6t;
         "pkg-1.0.7" = _NgMyWBbm;
         "pkg-2.0.0" = _PCmyYrWT;
         "pkg-2.0.1" = _n5SuFRZg;
@@ -346,7 +352,8 @@ let
         "pkg-3.0.4" = _IWBCOVJW;
         "pkg-3.0.5" = _9SWK6h4K;
         "pkg-3.0.6" = _XKle1N2c;
-        "default" = _XKle1N2c;
+        "pkg-3.0.7" = _k1F7bD6t;
+        "default" = _k1F7bD6t;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "expression";

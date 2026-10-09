@@ -476,6 +476,21 @@ let
             "file" = "FruitfulFun-mc26.1-NeoForge-26.0.11.jar";
             "hash" = "sha512-sqRMj3us1biLmEojUtjohs5ubnq3r8Ug57rYbpiOewjPjWnC/kpE9y6TmMRJ6ZeQv1atnvdWlZVLF5Nypwuytw==";
         };
+        _XxJ1NJLx = {
+            "id" = "XxJ1NJLx";
+            "file" = "FruitfulFun-mc26.1-Fabric-26.1.0.jar";
+            "hash" = "sha512-RbNmMeVMNbgYWqkRUlHwzhunU4l4eoMlfROCZWoo0ds3CeqlSkfKhy7l5Pk8Jwankv/mgbSA8w69q23jYX8COA==";
+        };
+        _gPVW7K9E = {
+            "id" = "gPVW7K9E";
+            "file" = "FruitfulFun-mc26.1-Fabric-26.1.1.jar";
+            "hash" = "sha512-61tvQBOp/Spje0PDdWczLB5rFUlTjNhmZtW50xocekyY9GlntcmhTDYf1Zi5zRl9yFJl8zAYZ5L7sgwSI+I0HQ==";
+        };
+        _FGL0pypF = {
+            "id" = "FGL0pypF";
+            "file" = "FruitfulFun-mc26.1-NeoForge-26.1.1.jar";
+            "hash" = "sha512-a914ebyCa/yNCrcOCLMT/4PoXLscu3Qx/0GP5DGvd93dFFDU03GB6ToB5jD1t9zwEzWqe9vA3v872Ff4GdW3iQ==";
+        };
     in {
         "fejYVb4a" = _fejYVb4a;
         "LhQegrF4" = _LhQegrF4;
@@ -572,24 +587,27 @@ let
         "SZW0o1xE" = _SZW0o1xE;
         "Cp9hm9Ol" = _Cp9hm9Ol;
         "YB3J0X3c" = _YB3J0X3c;
+        "XxJ1NJLx" = _XxJ1NJLx;
+        "gPVW7K9E" = _gPVW7K9E;
+        "FGL0pypF" = _FGL0pypF;
         "fabric-1.20" = _Rgsxb6pc;
         "fabric-1.20.1" = _Rgsxb6pc;
-        "fabric-26.1" = _Cp9hm9Ol;
-        "fabric-26.1.1" = _Cp9hm9Ol;
-        "fabric-26.1.2" = _Cp9hm9Ol;
+        "fabric-26.1" = _gPVW7K9E;
+        "fabric-26.1.1" = _gPVW7K9E;
+        "fabric-26.1.2" = _gPVW7K9E;
         "quilt-1.20" = _Rgsxb6pc;
         "quilt-1.20.1" = _Rgsxb6pc;
-        "quilt-26.1" = _Cp9hm9Ol;
-        "quilt-26.1.1" = _Cp9hm9Ol;
-        "quilt-26.1.2" = _Cp9hm9Ol;
+        "quilt-26.1" = _gPVW7K9E;
+        "quilt-26.1.1" = _gPVW7K9E;
+        "quilt-26.1.2" = _gPVW7K9E;
         "forge-1.20" = _MZdQ8XD4;
         "forge-1.20.1" = _MZdQ8XD4;
         "forge-1.19.2" = _xT4z9NDE;
         "neoforge-1.20" = _MZdQ8XD4;
         "neoforge-1.20.1" = _MZdQ8XD4;
-        "neoforge-26.1" = _YB3J0X3c;
-        "neoforge-26.1.1" = _YB3J0X3c;
-        "neoforge-26.1.2" = _YB3J0X3c;
+        "neoforge-26.1" = _FGL0pypF;
+        "neoforge-26.1.1" = _FGL0pypF;
+        "neoforge-26.1.2" = _FGL0pypF;
         "pkg-7.0.0" = _fejYVb4a;
         "pkg-7.0.1" = _R7egnlS4;
         "pkg-7.0.2" = _QXZobZkG;
@@ -674,7 +692,10 @@ let
         "pkg-26.0.8+neoforge" = _SZW0o1xE;
         "pkg-26.0.11+fabric" = _Cp9hm9Ol;
         "pkg-26.0.11+neoforge" = _YB3J0X3c;
-        "default" = _YB3J0X3c;
+        "pkg-26.1.0+fabric" = _XxJ1NJLx;
+        "pkg-26.1.1+fabric" = _gPVW7K9E;
+        "pkg-26.1.1+neoforge" = _FGL0pypF;
+        "default" = _FGL0pypF;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "fruitful-fun";

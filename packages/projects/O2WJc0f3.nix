@@ -101,6 +101,11 @@ let
             "file" = "brainierbees-1.10.2.jar";
             "hash" = "sha512-PWfsT8mfafJNw1eBzhuRKZpMUN/Iyz6QhzUeaFZbicU7GwlrML1vj1cP38HzL1pYAQaeY5TFa/7N5PQurriQxg==";
         };
+        _2HjX62kA = {
+            "id" = "2HjX62kA";
+            "file" = "brainierbees-1.10.3.jar";
+            "hash" = "sha512-+Z+INsb7mIRm04zKlxOGk5g7AZK2cuVRhAyPT3L7yGOEVzGrmOaVWebtLE2ZOVmHnvNO4I6pmCwtkT2pRS6j2g==";
+        };
     in {
         "VuLAojBj" = _VuLAojBj;
         "78MrxaSR" = _78MrxaSR;
@@ -122,6 +127,7 @@ let
         "ws86mt91" = _ws86mt91;
         "Ja4aqxrM" = _Ja4aqxrM;
         "PhbTNgPB" = _PhbTNgPB;
+        "2HjX62kA" = _2HjX62kA;
         "fabric-1.19" = _NiT5T5Pg;
         "fabric-1.19.1" = _NiT5T5Pg;
         "fabric-1.19.2" = _NiT5T5Pg;
@@ -147,6 +153,7 @@ let
         "fabric-26.2-rc-1" = _PhbTNgPB;
         "fabric-26.2-rc-2" = _PhbTNgPB;
         "fabric-26.2" = _PhbTNgPB;
+        "fabric-26.3" = _2HjX62kA;
         "quilt-1.19" = _NiT5T5Pg;
         "quilt-1.19.1" = _NiT5T5Pg;
         "quilt-1.19.2" = _NiT5T5Pg;
@@ -184,7 +191,8 @@ let
         "pkg-1.10.0" = _ws86mt91;
         "pkg-1.10.1" = _Ja4aqxrM;
         "pkg-1.10.2" = _PhbTNgPB;
-        "default" = _PhbTNgPB;
+        "pkg-1.10.3" = _2HjX62kA;
+        "default" = _2HjX62kA;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "brainier-bees";

@@ -466,6 +466,21 @@ let
             "file" = "aquariuslibs-1.2.0-forge-1.20.1-47.4.10.jar";
             "hash" = "sha512-TEIDq9THSu5YwMFBdBWEs+6FVwEE+VThC9FZec9iTX1Ic3/XnPkVeDSLwGEmo8LNblXvHSsr55aw5jS/52+fuQ==";
         };
+        _5JFI9ni1 = {
+            "id" = "5JFI9ni1";
+            "file" = "aquariuslibs-1.2.0-neoforge-26.3.0.1.jar";
+            "hash" = "sha512-ef/K7XQm3DhZX8MzWk5OvGiKxMtS0G8/hrrowAeikUT8h5YyGcW+OfP0j6oIAkglqW8lrjfz/5QI/9f4JBSmUA==";
+        };
+        _VCknPZkS = {
+            "id" = "VCknPZkS";
+            "file" = "aquariuslibs-1.2.0-forge-26.3-66.0.2.jar";
+            "hash" = "sha512-iv9JyhKmu65dF30NpsacDNXzTzV4og1ld5N/UKghUPUrI5pw1gL5tlvUkRVuNBjiMerXcgyxcPGEFWx/Exa1YQ==";
+        };
+        _ATIOZEGZ = {
+            "id" = "ATIOZEGZ";
+            "file" = "aquariuslibs-1.2.0-fabric-26.3-0.160.5.jar";
+            "hash" = "sha512-R2t/OQPrNjmBk84gYOfSxizzw7gGmMNZcY+tU3xmGPwynb9EntHLN3vBVF67+iMQeyYJdftAkFdICR1GwqGejQ==";
+        };
     in {
         "mKzcAMFw" = _mKzcAMFw;
         "6Jr1hFVB" = _6Jr1hFVB;
@@ -560,6 +575,9 @@ let
         "mmqtyROG" = _mmqtyROG;
         "UlFkoUff" = _UlFkoUff;
         "xv7jnCzf" = _xv7jnCzf;
+        "5JFI9ni1" = _5JFI9ni1;
+        "VCknPZkS" = _VCknPZkS;
+        "ATIOZEGZ" = _ATIOZEGZ;
         "forge-1.18.2" = _JHRsHFJz;
         "forge-1.19.2" = _6Jr1hFVB;
         "forge-1.19.4" = _yh1oJZ8m;
@@ -580,6 +598,7 @@ let
         "forge-26.1.1" = _JDml8MSx;
         "forge-26.1.2" = _JDml8MSx;
         "forge-26.2" = _JDml8MSx;
+        "forge-26.3" = _VCknPZkS;
         "neoforge-1.20.4" = _IJ50mOpo;
         "neoforge-1.20.6" = _eia6Z73x;
         "neoforge-1.21.1" = _sPrpmle3;
@@ -596,6 +615,7 @@ let
         "neoforge-26.1.1" = _Gi2usHZL;
         "neoforge-26.1.2" = _Gi2usHZL;
         "neoforge-26.2" = _Gi2usHZL;
+        "neoforge-26.3" = _5JFI9ni1;
         "fabric-1.19.4" = _RaUKgfYI;
         "fabric-1.20.1" = _lew8gxA6;
         "fabric-1.20.4" = _2NOWNPpU;
@@ -620,6 +640,7 @@ let
         "fabric-26.1.1" = _mt64HJue;
         "fabric-26.1.2" = _mt64HJue;
         "fabric-26.2" = _mt64HJue;
+        "fabric-26.3" = _ATIOZEGZ;
         "pkg-1.0.0-forge-1.18.2-40.3.12" = _mKzcAMFw;
         "pkg-1.0.0-forge-1.19.2-43.5.2" = _6Jr1hFVB;
         "pkg-1.0.0-forge-1.19.4-45.4.3" = _yh1oJZ8m;
@@ -713,7 +734,10 @@ let
         "pkg-1.2.0-forge-1.21.4-54.1.11" = _mmqtyROG;
         "pkg-1.2.0-forge-1.21.1-52.1.8" = _UlFkoUff;
         "pkg-1.2.0-forge-1.20.1-47.4.10" = _xv7jnCzf;
-        "default" = _xv7jnCzf;
+        "pkg-1.2.0-neoforge-26.3.0.1" = _5JFI9ni1;
+        "pkg-1.2.0-forge-26.3-66.0.2" = _VCknPZkS;
+        "pkg-1.2.0-fabric-26.3-0.160.5" = _ATIOZEGZ;
+        "default" = _ATIOZEGZ;
     });
     fn = lib.prismnix.pkgs.mkVersionedModrinthPkgFn {
         name = "aquarius-libs";
