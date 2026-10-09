@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from prismgen.database import VersionData, Collection
 import jinja2
-import prismgen.nix
+import prismgen.nix as nix
 
 @dataclass
 class PkgTemplateParams:
